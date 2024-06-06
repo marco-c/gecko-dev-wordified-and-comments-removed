@@ -5008,7 +5008,7 @@ CollectionViewHolder
 )
 ?
 .
-view
+itemView
 ?
 .
 findViewById

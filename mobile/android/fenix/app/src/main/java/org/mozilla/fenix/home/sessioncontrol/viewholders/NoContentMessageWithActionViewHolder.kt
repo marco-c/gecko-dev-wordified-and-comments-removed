@@ -105,8 +105,6 @@ main
 .
 no_content_message_with_action
 .
-view
-.
 *
 import
 org
@@ -119,8 +117,6 @@ R
 class
 NoContentMessageWithActionViewHolder
 (
-private
-val
 view
 :
 View
@@ -248,7 +244,7 @@ description
 )
 with
 (
-view
+itemView
 .
 context
 )
@@ -267,8 +263,6 @@ buttonText
 0
 )
 {
-view
-.
 add_new_tab_button
 .
 apply
@@ -276,12 +270,11 @@ apply
 isVisible
 =
 true
-setIcon
-(
+icon
+=
 getDrawable
 (
 buttonIcon
-)
 )
 text
 =

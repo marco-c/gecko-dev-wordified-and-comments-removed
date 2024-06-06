@@ -97,14 +97,6 @@ kotlinx
 .
 android
 .
-extensions
-.
-LayoutContainer
-import
-kotlinx
-.
-android
-.
 synthetic
 .
 main
@@ -171,14 +163,6 @@ View
 interactor
 :
 TopSiteInteractor
-override
-val
-containerView
-:
-View
-?
-=
-view
 )
 :
 RecyclerView
@@ -187,7 +171,6 @@ ViewHolder
 (
 view
 )
-LayoutContainer
 {
 private
 val
