@@ -1711,9 +1711,9 @@ PromptFeature
 fragment
 =
 this
-sessionManager
+store
 =
-sessionManager
+store
 sessionId
 =
 customTabSessionId
