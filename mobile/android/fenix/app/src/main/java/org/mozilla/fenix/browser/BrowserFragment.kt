@@ -1690,7 +1690,7 @@ settings
 (
 )
 )
-onAvailabilityChange
+onIconVisibilityChange
 =
 {
 if
@@ -1730,6 +1730,17 @@ it
 notifyListener
 =
 false
+)
+}
+onProductPageDetected
+=
+{
+Shopping
+.
+productPageVisits
+.
+add
+(
 )
 }
 )
