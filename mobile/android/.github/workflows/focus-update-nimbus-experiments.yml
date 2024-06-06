@@ -83,6 +83,8 @@ workflow_dispatch
 }
 jobs
 :
+focus
+-
 update
 -
 nimbus
@@ -226,6 +228,8 @@ automation
 /
 update
 -
+focus
+-
 nimbus
 -
 experiments
@@ -315,7 +319,8 @@ message
 "
 Automated
 :
-update
+Update
+Focus
 initial_experiments
 .
 json
