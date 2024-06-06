@@ -130,6 +130,8 @@ viewportHeight
 24
 "
 >
+<
+path
 android
 :
 pathData
@@ -289,8 +291,6 @@ M17
 .
 3529Z
 "
-<
-path
 android
 :
 strokeWidth
