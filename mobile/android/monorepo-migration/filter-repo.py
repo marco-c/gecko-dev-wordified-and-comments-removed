@@ -159,8 +159,24 @@ new_hash
 old_hash
 :
             
+if
+isinstance
+(
+matchobj_or_oldhash
+bytes
+)
+:
+                
 return
-new_hash
+matchobj_or_oldhash
+            
+return
+matchobj_or_oldhash
+.
+group
+(
+0
+)
         
 return
 b
