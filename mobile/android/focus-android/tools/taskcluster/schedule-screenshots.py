@@ -612,8 +612,6 @@ https
 /
 /
 taskcluster
-.
-net
 '
 	
 }
