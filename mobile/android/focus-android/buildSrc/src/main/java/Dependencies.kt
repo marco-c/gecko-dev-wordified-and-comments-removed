@@ -69,8 +69,6 @@ compose_version
 0
 .
 0
--
-rc02
 "
 object
 AndroidX
@@ -85,8 +83,6 @@ activity_compose
 3
 .
 0
--
-rc02
 "
 const
 val
@@ -265,8 +261,6 @@ android_plugin
 0
 .
 0
--
-rc01
 "
 }
 object
