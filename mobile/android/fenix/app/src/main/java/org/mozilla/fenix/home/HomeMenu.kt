@@ -703,7 +703,7 @@ R
 .
 drawable
 .
-mozac_ic_quit
+mozac_ic_cross_circle_24
 primaryTextColor
 )
 {
