@@ -215,6 +215,16 @@ ic_drawer_pull_tab
 LinearLayout
 android
 :
+id
+=
+"
++
+id
+/
+quick_action_sheet_buttonbar
+"
+android
+:
 orientation
 =
 "
