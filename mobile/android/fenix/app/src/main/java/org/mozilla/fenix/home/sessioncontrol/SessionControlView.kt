@@ -399,14 +399,6 @@ add
 (
 AdapterItem
 .
-TopSiteHeader
-)
-items
-.
-add
-(
-AdapterItem
-.
 TopSiteList
 (
 topSites
