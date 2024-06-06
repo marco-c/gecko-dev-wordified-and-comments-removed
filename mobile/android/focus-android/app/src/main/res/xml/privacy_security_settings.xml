@@ -598,7 +598,7 @@ entries
 "
 array
 /
-preference_privacy_cookies_options
+cookies_options_entries
 "
 android
 :
@@ -607,7 +607,7 @@ entryValues
 "
 array
 /
-preference_privacy_cookies_options
+cookies_options_entry_values
 "
 android
 :

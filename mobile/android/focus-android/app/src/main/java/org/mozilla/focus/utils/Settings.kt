@@ -918,7 +918,7 @@ string
 .
 pref_key_performance_enable_cookies
 )
-resources
+context
 .
 getString
 (
@@ -926,7 +926,7 @@ R
 .
 string
 .
-preference_privacy_should_block_cookies_third_party_tracker_cookies_option
+third_party_tracker
 )
 )
 !
@@ -1519,7 +1519,7 @@ Int
 :
 String
 =
-resources
+context
 .
 getString
 (
