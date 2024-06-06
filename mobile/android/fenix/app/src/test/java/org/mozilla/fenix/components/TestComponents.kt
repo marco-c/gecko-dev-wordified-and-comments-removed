@@ -169,6 +169,9 @@ settings
 search
 .
 searchEngineManager
+core
+.
+client
 )
 }
 override

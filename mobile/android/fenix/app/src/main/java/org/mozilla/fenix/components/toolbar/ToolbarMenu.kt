@@ -192,6 +192,12 @@ SaveToCollection
 Item
 (
 )
+object
+AddToHomeScreen
+:
+Item
+(
+)
 }
 val
 menuBuilder

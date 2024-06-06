@@ -3227,6 +3227,10 @@ mozilla_feature_push
 implementation
 Deps
 .
+mozilla_feature_pwa
+implementation
+Deps
+.
 mozilla_feature_qr
 implementation
 Deps

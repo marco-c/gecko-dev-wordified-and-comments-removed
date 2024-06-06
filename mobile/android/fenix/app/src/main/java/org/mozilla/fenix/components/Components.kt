@@ -180,6 +180,9 @@ settings
 search
 .
 searchEngineManager
+core
+.
+client
 )
 }
 val
