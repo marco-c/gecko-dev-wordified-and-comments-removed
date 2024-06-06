@@ -180,13 +180,6 @@ h
 #
 include
 "
-nsLookAndFeel
-.
-h
-"
-#
-include
-"
 nsWindow
 .
 h
@@ -20375,12 +20368,6 @@ wParam
 =
 =
 SPI_SETMOUSEVANISH
-|
-|
-wParam
-=
-=
-MOZ_SPI_SETCURSORSIZE
 )
 {
 NotifyThemeChanged
