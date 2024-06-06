@@ -244,6 +244,9 @@ MakeUnique
 TrustedHTML
 >
 (
+EmptyString
+(
+)
 )
 ;
 }
@@ -272,6 +275,9 @@ MakeUnique
 TrustedScript
 >
 (
+EmptyString
+(
+)
 )
 ;
 }
