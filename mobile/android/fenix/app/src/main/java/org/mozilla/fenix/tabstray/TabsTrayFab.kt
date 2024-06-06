@@ -467,7 +467,7 @@ R
 .
 string
 .
-tab_drawer_fab_sync
+resync_button_content_description
 )
 label
 =
@@ -497,7 +497,7 @@ R
 .
 string
 .
-resync_button_content_description
+tab_drawer_fab_sync
 )
 }
 .
