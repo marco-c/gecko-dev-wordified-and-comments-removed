@@ -197,8 +197,9 @@ android
 textColor
 =
 "
-#
-ffb2b2b2
+color
+/
+contextMenuTitleTextColor
 "
 tools
 :
@@ -223,6 +224,15 @@ fontFamily
 string
 /
 font_roboto_regular
+"
+android
+:
+background
+=
+"
+drawable
+/
+context_menu_title_background
 "
 /
 >
