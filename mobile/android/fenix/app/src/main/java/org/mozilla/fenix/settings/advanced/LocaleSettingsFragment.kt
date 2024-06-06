@@ -304,9 +304,9 @@ controller
 =
 DefaultLocaleSettingsController
 (
-context
+activity
 =
-requireContext
+requireActivity
 (
 )
 localeSettingsStore
