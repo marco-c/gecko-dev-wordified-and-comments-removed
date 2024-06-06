@@ -69,7 +69,7 @@ android
 -
 components
 /
-tree
+blob
 /
 master
 /
@@ -78,6 +78,14 @@ components
 service
 /
 glean
+/
+docs
+/
+pings
+/
+pings
+.
+md
 )
 component
 and
