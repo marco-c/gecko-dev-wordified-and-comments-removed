@@ -390,7 +390,7 @@ it
 .
 name
 .
-contains
+startsWith
 (
 text
 true
@@ -539,6 +539,6 @@ const
 val
 DEFAULT_CHARACTERS_THRESHOLD
 =
-1
+2
 }
 }
