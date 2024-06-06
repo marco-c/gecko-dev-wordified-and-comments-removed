@@ -174,6 +174,7 @@ kotlin
 coroutines
 .
 CoroutineContext
+open
 class
 FocusApplication
 :
@@ -203,6 +204,7 @@ job
 Dispatchers
 .
 Main
+open
 val
 components
 :

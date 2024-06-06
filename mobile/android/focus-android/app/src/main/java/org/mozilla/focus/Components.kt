@@ -337,6 +337,14 @@ Components
 context
 :
 Context
+private
+val
+engineOverride
+:
+Engine
+?
+=
+null
 )
 {
 val
@@ -400,6 +408,9 @@ Engine
 by
 lazy
 {
+engineOverride
+?
+:
 EngineProvider
 .
 createEngine
