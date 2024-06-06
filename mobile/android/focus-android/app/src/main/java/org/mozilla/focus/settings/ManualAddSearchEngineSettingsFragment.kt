@@ -261,7 +261,7 @@ URL
 class
 ManualAddSearchEngineSettingsFragment
 :
-SettingsFragment
+BaseSettingsFragment
 (
 )
 {
