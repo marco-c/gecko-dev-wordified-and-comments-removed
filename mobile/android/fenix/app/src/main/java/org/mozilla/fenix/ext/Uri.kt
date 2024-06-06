@@ -190,6 +190,11 @@ searchParameters
 isBlank
 (
 )
+|
+|
+this
+.
+isOpaque
 )
 {
 return
