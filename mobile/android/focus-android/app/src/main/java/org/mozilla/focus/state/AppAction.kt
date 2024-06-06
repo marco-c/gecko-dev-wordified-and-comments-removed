@@ -577,7 +577,11 @@ ShowTrackingProtectionCfrChange
 val
 value
 :
+Map
+<
+String
 Boolean
+>
 )
 :
 AppAction

@@ -1198,7 +1198,7 @@ state
 .
 copy
 (
-showTrackingProtectionCfr
+showTrackingProtectionCfrForTab
 =
 action
 .
