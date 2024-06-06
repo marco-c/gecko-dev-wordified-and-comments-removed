@@ -837,10 +837,6 @@ trustedOrigins
 }
 }
 }
-updateLayoutMargins
-(
-false
-)
 }
 }
 override
