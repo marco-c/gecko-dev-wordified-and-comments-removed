@@ -429,9 +429,11 @@ onAddressClick
 =
 {
 interactor
-:
-:
+.
 onSelectAddress
+(
+it
+)
 Addresses
 .
 managementAddressTapped
@@ -447,9 +449,10 @@ onAddAddressButtonClick
 =
 {
 interactor
-:
-:
+.
 onAddAddressButtonClick
+(
+)
 Addresses
 .
 managementAddTapped
