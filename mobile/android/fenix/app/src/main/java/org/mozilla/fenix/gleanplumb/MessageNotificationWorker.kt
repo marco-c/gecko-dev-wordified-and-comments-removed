@@ -787,7 +787,7 @@ pollingInterval
 =
 notificationConfig
 .
-pollingInterval
+refreshInterval
 .
 toLong
 (
