@@ -164,6 +164,16 @@ doorhanger
 to
 the
 toolbar
+-
+#
+1195
+-
+Adds
+telemetry
+for
+quick
+action
+sheet
 #
 #
 #
