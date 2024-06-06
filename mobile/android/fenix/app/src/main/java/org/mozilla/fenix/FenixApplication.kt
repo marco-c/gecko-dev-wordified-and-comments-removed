@@ -1210,6 +1210,16 @@ initialize
 applicationContext
 =
 applicationContext
+onExperimentsUpdated
+=
+{
+ExperimentsManager
+.
+initSearchWidgetExperiment
+(
+this
+)
+}
 configuration
 =
 mozilla
