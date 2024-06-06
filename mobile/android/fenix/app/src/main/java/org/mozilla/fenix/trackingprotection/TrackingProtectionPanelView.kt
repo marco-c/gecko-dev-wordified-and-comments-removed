@@ -1026,7 +1026,7 @@ Boolean
 {
 trackingProtectionSwitch
 .
-switchItemDescription
+trackingProtectionCategoryItemDescription
 .
 text
 =

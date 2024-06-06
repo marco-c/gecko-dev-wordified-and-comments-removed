@@ -197,7 +197,7 @@ drawable
 .
 ic_cryptominers
 )
-switchIcon
+trackingProtectionCategoryIcon
 ?
 .
 background
@@ -211,7 +211,7 @@ context
 .
 theme
 )
-switchItemTitle
+trackingProtectionCategoryTitle
 ?
 .
 text
@@ -234,7 +234,7 @@ string
 etp_cookies_title
 )
 )
-switchItemDescription
+trackingProtectionCategoryItemDescription
 ?
 .
 text
