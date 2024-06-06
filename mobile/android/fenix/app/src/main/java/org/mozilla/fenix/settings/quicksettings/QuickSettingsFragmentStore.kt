@@ -978,16 +978,6 @@ isVisible
 locationPermission
 .
 isVisible
-|
-|
-autoplayAudiblePermission
-.
-isVisible
-|
-|
-autoplayInaudiblePermission
-.
-isVisible
 return
 WebsitePermissionsState
 (
