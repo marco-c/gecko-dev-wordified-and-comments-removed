@@ -598,10 +598,16 @@ filePath
 it
 .
 contentLength
+?
 .
 toString
 (
 )
+?
+:
+"
+0
+"
 it
 .
 contentType
