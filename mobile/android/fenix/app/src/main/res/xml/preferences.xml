@@ -1017,7 +1017,7 @@ android
 defaultValue
 =
 "
-false
+true
 "
 android
 :

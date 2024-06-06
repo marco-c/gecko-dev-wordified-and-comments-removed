@@ -119,7 +119,7 @@ string
 .
 pref_key_leakcanary
 )
-false
+true
 )
 updateLeakCanaryState
 (
