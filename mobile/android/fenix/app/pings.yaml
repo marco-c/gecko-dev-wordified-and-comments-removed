@@ -188,7 +188,7 @@ the
 installation
 include_client_id
 :
-false
+true
 bugs
 :
 -
