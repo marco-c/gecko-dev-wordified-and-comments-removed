@@ -954,11 +954,6 @@ reason
 )
 ;
 void
-MakeConnectionParameters
-(
-)
-;
-void
 InternalClose
 (
 ErrorKind
