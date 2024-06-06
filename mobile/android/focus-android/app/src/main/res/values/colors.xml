@@ -1073,7 +1073,7 @@ browser_menu_bg
 >
 color
 /
-photonInk80
+colorSecondary
 <
 /
 color
@@ -1191,7 +1191,7 @@ home_screen_dialog_bg
 >
 color
 /
-photonInk80
+colorSecondary
 <
 /
 color
