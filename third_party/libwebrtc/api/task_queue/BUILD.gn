@@ -949,6 +949,10 @@ current_os
 "
 winuwp
 "
+&
+&
+!
+build_with_chromium
 )
 {
 sources
