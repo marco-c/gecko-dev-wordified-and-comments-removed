@@ -239,7 +239,6 @@ provide
 .
 *
 /
-JvmStatic
 private
 fun
 generateCharacterIcon
