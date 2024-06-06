@@ -417,14 +417,6 @@ interactor
 onRequestSync
 (
 )
-binding
-.
-historyList
-.
-scrollToPosition
-(
-0
-)
 }
 }
 fun
