@@ -598,7 +598,6 @@ then
 disable
 syncing
 .
-private
 val
 syncConfig
 =
