@@ -357,7 +357,7 @@ getContext
 }
 }
 Override
-protected
+public
 void
 onClick
 (

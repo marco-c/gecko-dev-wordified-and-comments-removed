@@ -288,6 +288,16 @@ false
 TextView
 android
 :
+id
+=
+"
++
+id
+/
+homeViewTipsLabel
+"
+android
+:
 layout_width
 =
 "

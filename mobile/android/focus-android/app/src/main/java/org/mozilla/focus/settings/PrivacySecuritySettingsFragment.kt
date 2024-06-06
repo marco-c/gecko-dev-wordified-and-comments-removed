@@ -434,6 +434,13 @@ true
 companion
 object
 {
+const
+val
+FRAGMENT_TAG
+=
+"
+PrivacySecuritySettings
+"
 fun
 newInstance
 (
