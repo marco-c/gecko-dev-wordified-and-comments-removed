@@ -181,7 +181,10 @@ onNext
 (
 TabAction
 .
-Archive
+CloseAll
+(
+true
+)
 )
 }
 }
