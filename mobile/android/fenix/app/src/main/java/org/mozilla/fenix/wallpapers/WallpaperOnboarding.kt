@@ -392,7 +392,7 @@ clicked
 .
 *
 param
-onExploreMoreButtonClicked
+onBottomButtonClicked
 Callback
 for
 when
@@ -454,7 +454,7 @@ onCloseClicked
 -
 >
 Unit
-onExploreMoreButtonClicked
+onBottomButtonClicked
 :
 (
 )
@@ -680,9 +680,6 @@ defaultWallpaper
 Wallpaper
 .
 Default
-selectedWallpaper
-=
-currentWallpaper
 loadWallpaperResource
 =
 {
@@ -691,6 +688,9 @@ loadWallpaperResource
 it
 )
 }
+selectedWallpaper
+=
+currentWallpaper
 onSelectWallpaper
 =
 {
@@ -725,7 +725,7 @@ fillMaxWidth
 onClick
 =
 {
-onExploreMoreButtonClicked
+onBottomButtonClicked
 (
 )
 }
@@ -825,7 +825,7 @@ onCloseClicked
 =
 {
 }
-onExploreMoreButtonClicked
+onBottomButtonClicked
 =
 {
 }
