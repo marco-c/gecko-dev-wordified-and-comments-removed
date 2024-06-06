@@ -160,7 +160,6 @@ function
 getVisibleMenuItems
 (
 aMenu
-aData
 )
 {
 var

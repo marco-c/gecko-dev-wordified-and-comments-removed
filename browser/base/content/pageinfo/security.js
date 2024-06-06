@@ -1956,7 +1956,6 @@ function
 previousVisitCount
 (
 host
-endTimeReference
 )
 {
 if

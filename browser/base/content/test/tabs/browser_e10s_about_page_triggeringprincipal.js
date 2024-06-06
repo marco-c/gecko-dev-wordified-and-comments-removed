@@ -417,7 +417,6 @@ parent
 async
 function
 (
-browser
 )
 {
 let
@@ -703,7 +702,6 @@ parent
 async
 function
 (
-browser
 )
 {
 let

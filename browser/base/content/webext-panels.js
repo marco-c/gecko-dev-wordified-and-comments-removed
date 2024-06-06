@@ -684,7 +684,6 @@ browser
 }
 getTabForBrowser
 (
-browser
 )
 {
 return

@@ -212,7 +212,6 @@ HOME_URL
 async
 actionWhileLoading
 (
-onTabLoaded
 )
 {
 info

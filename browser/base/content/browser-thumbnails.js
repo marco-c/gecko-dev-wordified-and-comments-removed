@@ -362,7 +362,6 @@ notify
 function
 Thumbnails_notify
 (
-timer
 )
 {
 gBrowserThumbnails
@@ -387,7 +386,7 @@ aBrowser
 aWebProgress
 aRequest
 aStateFlags
-aStatus
+_aStatus
 )
 {
 if

@@ -35,9 +35,6 @@ wpl
 {
 onLocationChange
 (
-aWebProgress
-aRequest
-aLocation
 )
 {
 gBrowser
@@ -1436,7 +1433,6 @@ com
 async
 function
 (
-aBrowser
 )
 {
 let
@@ -1998,7 +1994,6 @@ com
 async
 function
 (
-aBrowser
 )
 {
 let

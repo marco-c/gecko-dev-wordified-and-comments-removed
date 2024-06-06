@@ -486,7 +486,6 @@ mockTransferCallback
 function
 onUCTDialog
 (
-dialog
 )
 {
 SpecialPowers
@@ -693,7 +692,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 if
@@ -723,7 +721,6 @@ load
 "
 function
 (
-event
 )
 {
 if

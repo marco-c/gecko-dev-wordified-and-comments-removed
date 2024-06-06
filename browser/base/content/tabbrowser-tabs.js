@@ -844,7 +844,6 @@ configureTooltip
 }
 on_TabSelect
 (
-event
 )
 {
 this
@@ -5635,7 +5634,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 switch

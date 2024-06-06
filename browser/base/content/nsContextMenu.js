@@ -9539,7 +9539,6 @@ notify
 function
 sLA_timer_notify
 (
-aTimer
 )
 {
 channel

@@ -893,7 +893,8 @@ example
 com
 "
 async
-browser
+(
+)
 =
 >
 {

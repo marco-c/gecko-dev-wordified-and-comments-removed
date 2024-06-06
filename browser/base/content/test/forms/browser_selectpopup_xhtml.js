@@ -158,7 +158,6 @@ url
 async
 function
 (
-browser
 )
 {
 let

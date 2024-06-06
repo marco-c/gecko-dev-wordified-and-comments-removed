@@ -251,7 +251,8 @@ withNewTab
 (
 TEST_PAGE
 async
-browser
+(
+)
 =
 >
 {

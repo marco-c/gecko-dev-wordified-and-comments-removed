@@ -10,7 +10,6 @@ waitForExplicitFinish
 function
 testState
 (
-aPinned
 )
 {
 function

@@ -94,7 +94,6 @@ beforeunload
 "
 function
 (
-event
 )
 {
 }

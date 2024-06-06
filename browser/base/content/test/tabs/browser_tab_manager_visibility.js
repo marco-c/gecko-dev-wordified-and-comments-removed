@@ -92,7 +92,6 @@ DUMMY_PAGE_PATH
 async
 function
 (
-browser
 )
 {
 await
@@ -225,7 +224,6 @@ DUMMY_PAGE_PATH
 async
 function
 (
-browser
 )
 {
 await

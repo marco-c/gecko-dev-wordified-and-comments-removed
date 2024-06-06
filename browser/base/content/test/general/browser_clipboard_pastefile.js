@@ -299,7 +299,6 @@ browser
 ]
 function
 (
-arg
 )
 {
 return
@@ -443,10 +442,7 @@ await
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {

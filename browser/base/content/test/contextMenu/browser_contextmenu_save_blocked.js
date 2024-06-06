@@ -368,7 +368,6 @@ showCallback
 =
 function
 (
-fp
 )
 {
 ok

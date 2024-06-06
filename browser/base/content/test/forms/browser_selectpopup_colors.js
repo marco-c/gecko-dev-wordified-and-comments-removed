@@ -4034,7 +4034,6 @@ testOptionColors
 test
 index
 item
-menulist
 )
 {
 let

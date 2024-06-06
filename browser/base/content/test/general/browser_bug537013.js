@@ -74,7 +74,6 @@ function
 addTabWithText
 (
 aText
-aCallback
 )
 {
 let

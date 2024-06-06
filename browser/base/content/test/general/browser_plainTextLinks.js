@@ -104,7 +104,6 @@ selectedBrowser
 async
 function
 (
-arg
 )
 {
 let

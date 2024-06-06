@@ -103,7 +103,6 @@ JSWindowActorChild
 async
 handleEvent
 (
-event
 )
 {
 /

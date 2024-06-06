@@ -3994,7 +3994,6 @@ reduce
 (
 acc
 [
-key
 value
 ]
 )
@@ -4022,7 +4021,6 @@ reduce
 (
 acc
 [
-bucket
 count
 ]
 )

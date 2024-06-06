@@ -59,7 +59,8 @@ addEventListener
 "
 mousedown
 "
-e
+(
+)
 =
 >
 {
@@ -87,7 +88,8 @@ addEventListener
 "
 mouseup
 "
-e
+(
+)
 =
 >
 {
@@ -115,7 +117,8 @@ addEventListener
 "
 pointerup
 "
-e
+(
+)
 =
 >
 {

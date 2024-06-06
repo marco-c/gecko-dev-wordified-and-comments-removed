@@ -1318,7 +1318,8 @@ newWin
 resize
 "
 false
-e
+(
+)
 =
 >
 {

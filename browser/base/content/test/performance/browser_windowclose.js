@@ -142,7 +142,6 @@ filter
 (
 rects
 frame
-previousFrame
 )
 {
 if

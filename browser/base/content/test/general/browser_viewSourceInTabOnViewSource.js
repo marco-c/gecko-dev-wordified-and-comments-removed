@@ -20,7 +20,6 @@ onStateChange
 aWebProgress
 aRequest
 aStateFlags
-aStatus
 )
 {
 if
@@ -127,7 +126,6 @@ test_regular_page
 function
 test_expect_view_source_enabled
 (
-browser
 )
 {
 for
@@ -201,7 +199,6 @@ test_view_source_page
 function
 test_expect_view_source_disabled
 (
-browser
 )
 {
 for

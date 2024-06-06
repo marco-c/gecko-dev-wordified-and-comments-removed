@@ -1564,7 +1564,6 @@ browser
 ]
 function
 (
-host
 )
 {
 E10SUtils
@@ -1695,7 +1694,6 @@ doTestInput
 (
 randomDataOnCanvasExtract
 grantPermission
-autoDeclineNoInput
 )
 {
 await

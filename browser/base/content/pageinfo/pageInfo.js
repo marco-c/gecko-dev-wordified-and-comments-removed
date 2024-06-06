@@ -156,9 +156,6 @@ index
 }
 setCellValue
 (
-row
-column
-value
 )
 {
 }
@@ -506,7 +503,6 @@ index
 }
 getRowProperties
 (
-row
 )
 {
 return
@@ -516,8 +512,6 @@ return
 }
 getCellProperties
 (
-row
-column
 )
 {
 return
@@ -527,7 +521,6 @@ return
 }
 getColumnProperties
 (
-column
 )
 {
 return
@@ -537,7 +530,6 @@ return
 }
 isContainer
 (
-index
 )
 {
 return
@@ -546,7 +538,6 @@ false
 }
 isContainerOpen
 (
-index
 )
 {
 return
@@ -555,7 +546,6 @@ false
 }
 isSeparator
 (
-index
 )
 {
 return
@@ -577,8 +567,6 @@ sortcol
 }
 canDrop
 (
-index
-orientation
 )
 {
 return
@@ -587,8 +575,6 @@ false
 }
 drop
 (
-row
-orientation
 )
 {
 return
@@ -597,7 +583,6 @@ false
 }
 getParentIndex
 (
-index
 )
 {
 return
@@ -606,8 +591,6 @@ return
 }
 hasNextSibling
 (
-index
-after
 )
 {
 return
@@ -616,7 +599,6 @@ false
 }
 getLevel
 (
-index
 )
 {
 return
@@ -625,8 +607,6 @@ return
 }
 getImageSrc
 (
-row
-column
 )
 {
 }
@@ -680,13 +660,11 @@ col
 }
 toggleOpenState
 (
-index
 )
 {
 }
 cycleHeader
 (
-col
 )
 {
 }
@@ -697,15 +675,11 @@ selectionChanged
 }
 cycleCell
 (
-row
-column
 )
 {
 }
 isEditable
 (
-row
-column
 )
 {
 return
@@ -2208,7 +2182,6 @@ checkCacheListener
 {
 onCacheEntryCheck
 (
-entry
 )
 {
 return
@@ -2222,8 +2195,6 @@ ENTRY_WANTED
 onCacheEntryAvailable
 (
 entry
-isNew
-status
 )
 {
 cb
@@ -5540,7 +5511,6 @@ cmd_selectAll
 }
 isCommandEnabled
 (
-command
 )
 {
 return

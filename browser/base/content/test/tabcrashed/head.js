@@ -572,7 +572,6 @@ getDumpID
 =
 function
 (
-browser
 )
 {
 return
@@ -682,7 +681,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 info
@@ -706,7 +704,8 @@ window
 addEventListener
 (
 eventName
-event
+(
+)
 =
 >
 {

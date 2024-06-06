@@ -93,7 +93,6 @@ async
 function
 dummyTabTask
 (
-aBrowser
 )
 {
 let

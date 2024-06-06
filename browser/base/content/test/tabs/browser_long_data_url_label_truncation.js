@@ -271,7 +271,8 @@ addEventListener
 "
 load
 "
-e
+(
+)
 =
 >
 resolve

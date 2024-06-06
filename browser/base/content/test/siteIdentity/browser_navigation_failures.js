@@ -398,8 +398,6 @@ openOutputStream
 }
 onHandshakeDone
 (
-socket
-status
 )
 {
 input
@@ -409,7 +407,6 @@ asyncWait
 {
 onInputStreamReady
 (
-readyInput
 )
 {
 try

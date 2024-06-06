@@ -83,7 +83,6 @@ keydown
 "
 function
 (
-event
 )
 {
 gBrowser

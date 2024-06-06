@@ -1927,9 +1927,6 @@ let
 observer
 =
 (
-subject
-topic
-data
 )
 =
 >
@@ -2163,7 +2160,6 @@ function
 test_browser_swapping
 (
 tab
-browser
 )
 {
 await

@@ -159,7 +159,8 @@ domLinkChangedFired
 const
 linkAddedHandler
 =
-event
+(
+)
 =
 >
 domLinkAddedFired
@@ -169,7 +170,8 @@ domLinkAddedFired
 const
 linkChangedhandler
 =
-event
+(
+)
 =
 >
 domLinkChangedFired
@@ -333,7 +335,8 @@ domLinkChangedFired
 const
 linkAddedHandler
 =
-event
+(
+)
 =
 >
 domLinkAddedFired
@@ -343,7 +346,8 @@ domLinkAddedFired
 const
 linkChangedhandler
 =
-event
+(
+)
 =
 >
 domLinkChangedFired

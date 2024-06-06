@@ -130,7 +130,6 @@ WebRTCIndicator
 {
 init
 (
-event
 )
 {
 addEventListener

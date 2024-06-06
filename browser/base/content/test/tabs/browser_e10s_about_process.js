@@ -189,8 +189,6 @@ prototype
 {
 newChannel
 (
-aURI
-aLoadInfo
 )
 {
 throw
@@ -263,7 +261,6 @@ return
 }
 getIndexedDBOriginPostfix
 (
-aURI
 )
 {
 return

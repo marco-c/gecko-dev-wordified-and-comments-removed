@@ -148,10 +148,7 @@ return
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -172,7 +169,6 @@ listen
 (
 id
 data
-target
 )
 =
 >

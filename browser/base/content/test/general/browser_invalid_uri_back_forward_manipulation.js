@@ -124,7 +124,6 @@ pageshow
 false
 function
 (
-e
 )
 {
 return

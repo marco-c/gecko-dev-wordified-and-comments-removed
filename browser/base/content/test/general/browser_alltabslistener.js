@@ -43,12 +43,6 @@ gFrontProgressListener
 {
 onProgressChange
 (
-aWebProgress
-aRequest
-aCurSelfProgress
-aMaxSelfProgress
-aCurTotalProgress
-aMaxTotalProgress
 )
 {
 }
@@ -57,7 +51,6 @@ onStateChange
 aWebProgress
 aRequest
 aStateFlags
-aStatus
 )
 {
 var
@@ -129,7 +122,6 @@ onLocationChange
 aWebProgress
 aRequest
 aLocationURI
-aFlags
 )
 {
 var
@@ -319,7 +311,6 @@ aBrowser
 aWebProgress
 aRequest
 aStateFlags
-aStatus
 )
 {
 var

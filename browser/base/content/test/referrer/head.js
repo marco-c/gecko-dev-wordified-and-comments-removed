@@ -493,7 +493,6 @@ finished
 function
 someTabLoaded
 (
-aWindow
 )
 {
 return

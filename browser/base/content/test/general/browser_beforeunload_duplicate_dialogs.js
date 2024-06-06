@@ -484,10 +484,7 @@ firstDialogShownPromise
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {

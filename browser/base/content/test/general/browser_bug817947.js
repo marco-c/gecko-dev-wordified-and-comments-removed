@@ -205,7 +205,6 @@ async
 function
 preparePendingTab
 (
-aCallback
 )
 {
 let

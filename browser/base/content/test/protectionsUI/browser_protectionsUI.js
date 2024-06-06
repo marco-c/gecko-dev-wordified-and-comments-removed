@@ -2011,7 +2011,8 @@ mut
 new
 MutationObserver
 (
-mutations
+(
+)
 =
 >
 {

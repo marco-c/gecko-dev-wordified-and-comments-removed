@@ -66,10 +66,7 @@ return
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -81,7 +78,6 @@ prototype
 onCacheStorageInfo
 (
 num
-consumption
 )
 {
 info
@@ -194,10 +190,7 @@ return
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {

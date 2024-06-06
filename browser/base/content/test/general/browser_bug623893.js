@@ -229,7 +229,6 @@ function
 (
 delta
 msg
-cb
 )
 {
 var

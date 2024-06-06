@@ -365,7 +365,6 @@ testURI
 async
 function
 (
-browser
 )
 {
 if

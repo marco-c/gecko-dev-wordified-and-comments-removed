@@ -368,7 +368,6 @@ testHandlingUserInputOnChange
 async
 function
 (
-popup
 )
 {
 EventUtils

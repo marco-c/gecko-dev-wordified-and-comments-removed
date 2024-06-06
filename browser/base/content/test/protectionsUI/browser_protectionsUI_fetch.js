@@ -122,7 +122,8 @@ test_fetch
 .
 then
 (
-response
+(
+)
 =
 >
 Assert

@@ -310,7 +310,6 @@ remove
 }
 onHidden
 (
-popup
 )
 {
 }
@@ -581,7 +580,6 @@ popup
 }
 onHidden
 (
-popup
 )
 {
 ok
@@ -751,7 +749,6 @@ popup
 }
 onHidden
 (
-popup
 )
 {
 ok
@@ -846,7 +843,6 @@ notifyObj
 async
 onShown
 (
-popup
 )
 {
 this
@@ -878,7 +874,6 @@ com
 }
 onHidden
 (
-popup
 )
 {
 ok
@@ -1572,7 +1567,6 @@ remove
 }
 onHidden
 (
-popup
 )
 {
 }
@@ -1874,7 +1868,6 @@ remove
 }
 onHidden
 (
-popup
 )
 {
 }

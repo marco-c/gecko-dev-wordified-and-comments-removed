@@ -130,7 +130,6 @@ MutationObserver
 (
 function
 (
-muts
 )
 {
 if

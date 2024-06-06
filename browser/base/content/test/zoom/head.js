@@ -142,7 +142,6 @@ nonPrivateLoadContext
 {
 handleCompletion
 (
-reason
 )
 {
 resolve
@@ -271,7 +270,6 @@ value
 }
 handleCompletion
 (
-reason
 )
 {
 resolve
@@ -326,7 +324,6 @@ obs
 (
 subj
 topic
-data
 )
 {
 Services
@@ -517,7 +514,8 @@ url
 .
 then
 (
-event
+(
+)
 =
 >
 {

@@ -134,7 +134,8 @@ true
 }
 onCloseWindow
 :
-aXULWindow
+(
+)
 =
 >
 {
@@ -521,7 +522,6 @@ function
 testLocation
 (
 link
-url
 )
 {
 let

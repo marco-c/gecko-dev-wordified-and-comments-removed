@@ -863,11 +863,7 @@ stop
 -
 request
 "
-(
 s
-t
-d
-)
 =
 >
 {
@@ -953,7 +949,6 @@ page
 async
 function
 (
-browser
 )
 {
 await

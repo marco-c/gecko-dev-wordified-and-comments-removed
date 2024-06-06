@@ -1372,7 +1372,6 @@ function
 testInstallMethod
 (
 installFn
-telemetryBase
 )
 {
 const

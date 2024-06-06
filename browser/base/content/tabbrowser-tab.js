@@ -2597,7 +2597,6 @@ event
 }
 on_mouseup
 (
-event
 )
 {
 gBrowser
@@ -3768,7 +3767,6 @@ desc
 }
 on_focus
 (
-event
 )
 {
 this
@@ -3780,7 +3778,6 @@ updateA11yDescription
 }
 on_AriaFocus
 (
-event
 )
 {
 this

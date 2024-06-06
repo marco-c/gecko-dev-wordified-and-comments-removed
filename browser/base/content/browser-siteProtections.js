@@ -77,7 +77,6 @@ constructor
 id
 {
 prefEnabled
-l10nId
 }
 {
 load
@@ -1533,11 +1532,6 @@ super
 trackers
 "
 {
-l10nId
-:
-"
-trackingContent
-"
 prefEnabled
 :
 "
@@ -4713,11 +4707,6 @@ super
 socialblock
 "
 {
-l10nId
-:
-"
-socialMediaTrackers
-"
 prefEnabled
 :
 "
@@ -7148,7 +7137,6 @@ time
 async
 showTrackersSubview
 (
-event
 )
 {
 await
@@ -7177,7 +7165,6 @@ trackersView
 async
 showSocialblockerSubview
 (
-event
 )
 {
 await
@@ -7206,7 +7193,6 @@ socialblockView
 async
 showCookiesSubview
 (
-event
 )
 {
 await
@@ -7235,7 +7221,6 @@ cookiesView
 async
 showFingerprintersSubview
 (
-event
 )
 {
 await
@@ -7264,7 +7249,6 @@ fingerprintersView
 async
 showCryptominersSubview
 (
-event
 )
 {
 await
@@ -7293,7 +7277,6 @@ cryptominersView
 async
 onCookieBannerClick
 (
-event
 )
 {
 if
@@ -8816,7 +8799,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 switch
@@ -9416,7 +9398,6 @@ BrowserReload
 async
 onTPSwitchCommand
 (
-event
 )
 {
 if

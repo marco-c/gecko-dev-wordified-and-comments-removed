@@ -1081,7 +1081,6 @@ async
 function
 checkAudioVideoGracePastReload
 (
-browser
 )
 {
 await
@@ -1531,7 +1530,8 @@ SAME_ORIGIN
 +
 PATH
 async
-browser
+(
+)
 =
 >
 {
@@ -2156,7 +2156,6 @@ async
 function
 checkAudioVideoGraceEndsNewTab
 (
-browser
 )
 {
 await

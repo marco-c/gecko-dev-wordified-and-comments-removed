@@ -76,7 +76,6 @@ observer
 (
 subject
 topic
-data
 )
 {
 if

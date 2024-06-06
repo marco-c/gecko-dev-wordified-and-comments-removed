@@ -162,8 +162,6 @@ observer
 {
 reflow
 (
-start
-end
 )
 {
 reflows
@@ -186,8 +184,6 @@ win
 }
 reflowInterruptible
 (
-start
-end
 )
 {
 }
@@ -1840,7 +1836,8 @@ frames
 let
 afterPaintListener
 =
-event
+(
+)
 =
 >
 {

@@ -516,7 +516,6 @@ blank
 async
 function
 (
-browser
 )
 {
 if

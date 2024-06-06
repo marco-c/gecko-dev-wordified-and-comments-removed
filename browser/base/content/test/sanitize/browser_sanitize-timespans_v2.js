@@ -137,7 +137,6 @@ view
 {
 onDownloadRemoved
 (
-download
 )
 {
 list

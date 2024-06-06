@@ -60,7 +60,6 @@ updates
 function
 countUpdates
 (
-event
 )
 {
 updates

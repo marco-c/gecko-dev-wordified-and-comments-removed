@@ -2446,7 +2446,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 var
@@ -4778,7 +4777,8 @@ imported
 addons
 "
 null
-evt
+(
+)
 =
 >
 {
@@ -4836,7 +4836,8 @@ item
 update
 .
 addon
-evt
+(
+)
 =
 >
 {
@@ -4888,7 +4889,8 @@ menu
 item
 "
 addon
-evt
+(
+)
 =
 >
 {
@@ -5238,7 +5240,6 @@ async
 removeAddon
 (
 addonId
-eventObject
 )
 {
 let
@@ -5330,7 +5331,6 @@ async
 manageAddon
 (
 addonId
-eventObject
 )
 {
 let
@@ -8255,7 +8255,6 @@ onWidgetAdded
 (
 aWidgetId
 aArea
-aPosition
 )
 {
 if
@@ -8308,7 +8307,6 @@ inPanel
 onWidgetOverflow
 (
 aNode
-aContainer
 )
 {
 if
@@ -8346,7 +8344,6 @@ true
 onWidgetUnderflow
 (
 aNode
-aContainer
 )
 {
 if

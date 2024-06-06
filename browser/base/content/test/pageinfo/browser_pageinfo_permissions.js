@@ -84,7 +84,6 @@ TEST_ORIGIN
 async
 function
 (
-browser
 )
 {
 let
@@ -1194,7 +1193,6 @@ TEST_ORIGIN
 async
 function
 (
-browser
 )
 {
 let

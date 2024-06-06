@@ -1238,9 +1238,6 @@ uninit
 }
 observe
 (
-aSubject
-aTopic
-aPrefName
 )
 {
 this
@@ -3179,11 +3176,7 @@ changed
 .
 some
 (
-(
 elem
-ind
-arr
-)
 =
 >
 [

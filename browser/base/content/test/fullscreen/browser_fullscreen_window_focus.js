@@ -363,7 +363,8 @@ linkedBrowser
 {
 }
 async
-args
+(
+)
 =
 >
 {
