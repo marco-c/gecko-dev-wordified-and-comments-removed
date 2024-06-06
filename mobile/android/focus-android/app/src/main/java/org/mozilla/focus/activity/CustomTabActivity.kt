@@ -169,6 +169,9 @@ val
 isCustomTabMode
 :
 Boolean
+get
+(
+)
 =
 true
 override
@@ -275,6 +278,9 @@ uuid
 override
 val
 currentSessionForActivity
+get
+(
+)
 =
 customTabSession
 }
