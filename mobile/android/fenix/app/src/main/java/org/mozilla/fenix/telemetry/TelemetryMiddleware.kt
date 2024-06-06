@@ -62,6 +62,8 @@ org
 mozilla
 .
 fenix
+.
+telemetry
 import
 androidx
 .
