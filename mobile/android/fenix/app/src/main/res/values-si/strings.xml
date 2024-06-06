@@ -4596,9 +4596,6 @@ ignore
 UnusedResources
 "
 >
-%
-1
-s
 .
 -
 .
@@ -31913,13 +31910,6 @@ name
 =
 "
 review_quality_check_generic_error_title
-"
-tools
-:
-ignore
-=
-"
-UnusedResources
 "
 >
 <
