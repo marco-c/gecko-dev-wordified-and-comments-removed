@@ -326,6 +326,14 @@ engine_text
 "
 android
 :
+textColor
+=
+"
+?
+primaryText
+"
+android
+:
 layout_width
 =
 "
