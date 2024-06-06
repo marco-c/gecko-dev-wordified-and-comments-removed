@@ -713,6 +713,7 @@ mode
 =
 getPrivateModeFromIntent
 (
+intent
 )
 components
 .
@@ -1073,6 +1074,14 @@ this
 intent
 )
 }
+browsingModeManager
+.
+mode
+=
+getPrivateModeFromIntent
+(
+intent
+)
 }
 /
 *
@@ -1334,6 +1343,10 @@ private
 fun
 getPrivateModeFromIntent
 (
+intent
+:
+Intent
+?
 )
 :
 BrowsingMode

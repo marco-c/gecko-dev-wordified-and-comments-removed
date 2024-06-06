@@ -169,7 +169,7 @@ mozilla
 .
 fenix
 .
-R
+HomeActivity
 import
 org
 .
@@ -177,7 +177,7 @@ mozilla
 .
 fenix
 .
-HomeActivity
+R
 import
 org
 .
@@ -616,6 +616,15 @@ putExtra
 HomeActivity
 .
 EXTRA_OPENED_FROM_NOTIFICATION
+true
+)
+intent
+.
+putExtra
+(
+HomeActivity
+.
+PRIVATE_BROWSING_MODE
 true
 )
 return
