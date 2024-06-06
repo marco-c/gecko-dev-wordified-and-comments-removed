@@ -483,6 +483,18 @@ mozilla
 .
 fenix
 .
+helpers
+.
+TestHelper
+.
+verifySnackBarText
+import
+org
+.
+mozilla
+.
+fenix
+.
 ui
 .
 robots
@@ -3067,7 +3079,7 @@ clickDeleteAllHistoryButton
 confirmDeleteAllHistory
 (
 )
-verifyDeleteSnackbarText
+verifySnackBarText
 (
 "
 Group
