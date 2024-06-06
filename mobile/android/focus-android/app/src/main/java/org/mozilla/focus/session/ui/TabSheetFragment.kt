@@ -485,7 +485,7 @@ R
 .
 dimen
 .
-floating_action_button_size
+tab_sheet_end_margin
 )
 /
 2
