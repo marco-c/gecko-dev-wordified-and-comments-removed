@@ -336,7 +336,7 @@ FenixRobolectricTestRunner
 class
 )
 class
-HomeMenuBuilderTest
+HomeMenuViewTest
 {
 get
 :
@@ -384,9 +384,9 @@ MenuButton
 private
 lateinit
 var
-homeMenuBuilder
+homeMenuView
 :
-HomeMenuBuilder
+HomeMenuView
 Before
 fun
 setup
@@ -433,9 +433,9 @@ relaxed
 =
 true
 )
-homeMenuBuilder
+homeMenuView
 =
-HomeMenuBuilder
+HomeMenuView
 (
 view
 =
@@ -490,7 +490,7 @@ testGetValue
 (
 )
 )
-homeMenuBuilder
+homeMenuView
 .
 onItemTapped
 (
@@ -560,7 +560,7 @@ testGetValue
 (
 )
 )
-homeMenuBuilder
+homeMenuView
 .
 onItemTapped
 (
@@ -623,7 +623,7 @@ fragment
 (
 )
 {
-homeMenuBuilder
+homeMenuView
 .
 onItemTapped
 (
@@ -656,7 +656,7 @@ actionGlobalAccountSettingsFragment
 )
 )
 }
-homeMenuBuilder
+homeMenuView
 .
 onItemTapped
 (
@@ -689,7 +689,7 @@ actionGlobalAccountProblemFragment
 )
 )
 }
-homeMenuBuilder
+homeMenuView
 .
 onItemTapped
 (
@@ -740,7 +740,7 @@ fragment
 (
 )
 {
-homeMenuBuilder
+homeMenuView
 .
 onItemTapped
 (
@@ -791,7 +791,7 @@ fragment
 (
 )
 {
-homeMenuBuilder
+homeMenuView
 .
 onItemTapped
 (
@@ -837,7 +837,7 @@ fragment
 (
 )
 {
-homeMenuBuilder
+homeMenuView
 .
 onItemTapped
 (
@@ -886,7 +886,7 @@ page
 (
 )
 {
-homeMenuBuilder
+homeMenuView
 .
 onItemTapped
 (
@@ -965,7 +965,7 @@ testGetValue
 (
 )
 )
-homeMenuBuilder
+homeMenuView
 .
 onItemTapped
 (
@@ -1035,7 +1035,7 @@ fragment
 (
 )
 {
-homeMenuBuilder
+homeMenuView
 .
 onItemTapped
 (
@@ -1082,7 +1082,7 @@ fragment
 (
 )
 {
-homeMenuBuilder
+homeMenuView
 .
 onItemTapped
 (
@@ -1142,7 +1142,7 @@ Settings
 (
 testContext
 )
-homeMenuBuilder
+homeMenuView
 .
 onItemTapped
 (

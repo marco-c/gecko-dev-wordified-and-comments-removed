@@ -3555,7 +3555,7 @@ observeSearchEngineNameChanges
 observeWallpaperUpdates
 (
 )
-HomeMenuBuilder
+HomeMenuView
 (
 view
 =

@@ -165,14 +165,6 @@ mozilla
 .
 fenix
 .
-Config
-import
-org
-.
-mozilla
-.
-fenix
-.
 GleanMetrics
 .
 Events
@@ -417,7 +409,7 @@ LongParameterList
 "
 )
 class
-HomeMenuBuilder
+HomeMenuView
 (
 private
 val
