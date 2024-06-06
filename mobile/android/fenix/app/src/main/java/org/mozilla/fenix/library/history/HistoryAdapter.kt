@@ -144,11 +144,6 @@ HistoryAdapter
 (
 private
 val
-historyInteractor
-:
-HistoryInteractor
-private
-val
 store
 :
 HistoryFragmentStore
@@ -346,9 +341,6 @@ HistoryListItemViewHolder
 view
 =
 view
-historyInteractor
-=
-historyInteractor
 selectionHolder
 =
 this
