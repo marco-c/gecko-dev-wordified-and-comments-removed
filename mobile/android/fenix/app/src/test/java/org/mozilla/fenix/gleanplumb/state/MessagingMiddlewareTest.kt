@@ -885,6 +885,8 @@ messagingController
 onMessageClicked
 (
 message
+.
+metadata
 )
 }
 coVerify
@@ -1043,6 +1045,8 @@ messagingController
 onMessageDismissed
 (
 message
+.
+metadata
 )
 }
 coVerify
@@ -1359,6 +1363,8 @@ messagingController
 onMessageDismissed
 (
 message
+.
+metadata
 )
 }
 coVerify

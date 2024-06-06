@@ -594,6 +594,8 @@ controller
 onMessageDismissed
 (
 message
+.
+metadata
 )
 }
 }
@@ -625,6 +627,8 @@ controller
 onMessageClicked
 (
 message
+.
+metadata
 )
 }
 /
