@@ -311,7 +311,7 @@ SettingsSubMenuLoginsAndPasswordRobot
 Unit
 )
 :
-SettingsSubMenuLoginsAndPasswordRobot
+SettingsRobot
 .
 Transition
 {
@@ -335,7 +335,7 @@ interact
 (
 )
 return
-SettingsSubMenuLoginsAndPasswordRobot
+SettingsRobot
 .
 Transition
 (
