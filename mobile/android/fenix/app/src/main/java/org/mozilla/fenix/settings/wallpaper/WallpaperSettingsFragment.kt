@@ -648,13 +648,14 @@ findNavController
 (
 )
 .
-navigate
+popBackStack
 (
 R
 .
 id
 .
 homeFragment
+false
 )
 }
 .
