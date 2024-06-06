@@ -891,6 +891,10 @@ navigateUp
 verifyKeyboardHidden
 (
 )
+verifyBookmarkFolderIsNotCreated
+(
+bookmarksFolderName
+)
 }
 }
 Test
