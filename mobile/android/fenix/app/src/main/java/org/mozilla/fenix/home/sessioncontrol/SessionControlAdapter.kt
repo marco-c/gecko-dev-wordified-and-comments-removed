@@ -171,6 +171,16 @@ fenix
 .
 home
 .
+OnboardingState
+import
+org
+.
+mozilla
+.
+fenix
+.
+home
+.
 sessioncontrol
 .
 viewholders
