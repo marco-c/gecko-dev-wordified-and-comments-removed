@@ -353,7 +353,7 @@ var
 inactiveTabsInteractor
 :
 InactiveTabsInteractor
-internal
+private
 var
 inActiveTabsCount
 :
