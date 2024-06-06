@@ -3233,6 +3233,17 @@ settings
 .
 shouldPromptToSaveLogins
 }
+isCreditCardAutofillEnabled
+=
+{
+context
+.
+settings
+(
+)
+.
+shouldAutofillCreditCardDetails
+}
 loginExceptionStorage
 =
 context
