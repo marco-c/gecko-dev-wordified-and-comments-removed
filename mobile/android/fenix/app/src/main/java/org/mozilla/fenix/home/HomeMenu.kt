@@ -1021,7 +1021,7 @@ R
 .
 string
 .
-browser_menu_customize_home
+browser_menu_customize_home_1
 )
 R
 .

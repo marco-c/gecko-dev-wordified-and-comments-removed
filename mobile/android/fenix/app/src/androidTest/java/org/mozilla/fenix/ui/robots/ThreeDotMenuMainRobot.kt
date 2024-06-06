@@ -1452,7 +1452,7 @@ packageName
 :
 id
 /
-browser_menu_customize_home
+browser_menu_customize_home_1
 "
 )
 )
@@ -1977,7 +1977,7 @@ text
 "
 What
 s
-New
+new
 "
 )
 )
@@ -2634,7 +2634,7 @@ R
 .
 string
 .
-browser_menu_customize_home
+browser_menu_customize_home_1
 )
 )
 )
@@ -3423,7 +3423,7 @@ withText
 "
 What
 s
-New
+new
 "
 )
 withEffectiveVisibility
