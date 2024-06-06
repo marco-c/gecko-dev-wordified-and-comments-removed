@@ -612,7 +612,7 @@ unused
 "
 )
 object
-Deps
+FenixDependencies
 {
 const
 val
