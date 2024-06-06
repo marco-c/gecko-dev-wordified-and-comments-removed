@@ -85,6 +85,11 @@ certificate
 alias
 "
 "
+worker
+.
+product
+"
+"
 routes
 "
 )
