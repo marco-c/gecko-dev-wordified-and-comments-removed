@@ -78,8 +78,6 @@ android_taskgraph
 .
 transforms
 .
-multi_dep
-:
 upstream_artifacts
 -
 android_taskgraph
