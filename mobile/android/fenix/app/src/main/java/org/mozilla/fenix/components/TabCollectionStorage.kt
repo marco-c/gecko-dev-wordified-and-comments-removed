@@ -526,11 +526,6 @@ getTabCollectionsCount
 fun
 getCollections
 (
-limit
-:
-Int
-=
-20
 )
 :
 LiveData
@@ -546,7 +541,6 @@ collectionStorage
 .
 getCollections
 (
-limit
 )
 .
 asLiveData
