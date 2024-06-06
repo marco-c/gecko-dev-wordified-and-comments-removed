@@ -67,14 +67,6 @@ helpers
 import
 org
 .
-mozilla
-.
-fenix
-.
-TestApplication
-import
-org
-.
 robolectric
 .
 RobolectricTestRunner

@@ -62,6 +62,16 @@ org
 mozilla
 .
 fenix
+.
+helpers
+import
+org
+.
+mozilla
+.
+fenix
+.
+FenixApplication
 import
 org
 .
