@@ -884,6 +884,13 @@ to
 "
 "
 "
+kaa
+"
+to
+"
+Karakalpak
+"
+"
 kab
 "
 to
@@ -1644,6 +1651,13 @@ ka
 to
 "
 Georgian
+"
+"
+kaa
+"
+to
+"
+Karakalpak
 "
 "
 kab
