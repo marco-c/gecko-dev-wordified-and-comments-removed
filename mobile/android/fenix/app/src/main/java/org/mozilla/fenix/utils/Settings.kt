@@ -6667,7 +6667,9 @@ pref_key_enable_task_continuity
 )
 default
 =
-false
+FeatureFlags
+.
+taskContinuityFeature
 featureFlag
 =
 FeatureFlags
