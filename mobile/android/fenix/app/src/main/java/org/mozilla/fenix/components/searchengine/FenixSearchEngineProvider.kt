@@ -1215,7 +1215,7 @@ context
 .
 getSharedPreferences
 (
-PREF_FILE
+PREF_FILE_SEARCH_ENGINES
 Context
 .
 MODE_PRIVATE
@@ -1483,7 +1483,7 @@ youtube
 )
 const
 val
-PREF_FILE
+PREF_FILE_SEARCH_ENGINES
 =
 "
 fenix

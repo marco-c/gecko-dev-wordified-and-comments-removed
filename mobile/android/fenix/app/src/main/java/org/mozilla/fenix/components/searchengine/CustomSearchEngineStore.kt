@@ -880,6 +880,7 @@ apply
 )
 }
 }
+private
 const
 val
 PREF_KEY_CUSTOM_SEARCH_ENGINES
