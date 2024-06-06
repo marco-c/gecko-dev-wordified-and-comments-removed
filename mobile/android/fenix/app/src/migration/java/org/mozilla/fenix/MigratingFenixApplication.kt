@@ -203,6 +203,17 @@ backgroundServices
 accountManager
 )
 .
+migrateAddons
+(
+this
+.
+components
+.
+core
+.
+engine
+)
+.
 build
 (
 )
