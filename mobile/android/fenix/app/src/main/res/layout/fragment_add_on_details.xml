@@ -1397,7 +1397,7 @@ android
 layout_width
 =
 "
-0dp
+wrap_content
 "
 android
 :
@@ -1405,6 +1405,13 @@ layout_height
 =
 "
 wrap_content
+"
+app
+:
+layout_constrainedWidth
+=
+"
+true
 "
 app
 :
@@ -1436,13 +1443,6 @@ layout_constraintTop_toTopOf
 =
 "
 parent
-"
-app
-:
-layout_constraintWidth_default
-=
-"
-wrap
 "
 tools
 :
