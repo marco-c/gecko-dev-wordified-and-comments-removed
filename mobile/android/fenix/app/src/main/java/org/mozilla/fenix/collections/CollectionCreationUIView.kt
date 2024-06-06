@@ -496,7 +496,6 @@ toString
 )
 )
 )
-true
 }
 false
 }
@@ -1038,6 +1037,7 @@ name_collection_edittext
 .
 setSelection
 (
+0
 name_collection_edittext
 .
 text
