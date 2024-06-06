@@ -2495,7 +2495,7 @@ androidTestImplementation
 FocusDependencies
 .
 fastlane
-implementation
+androidTestImplementation
 FocusDependencies
 .
 falcon
