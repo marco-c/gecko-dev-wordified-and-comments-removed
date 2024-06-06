@@ -1240,6 +1240,12 @@ kintoEndpoint
 KINTO_ENDPOINT_PROD
 )
 )
+ExperimentsManager
+.
+initSearchWidgetExperiment
+(
+this
+)
 }
 }
 else
@@ -1288,12 +1294,6 @@ optOutSearchWidgetExperiment
 this
 )
 }
-ExperimentsManager
-.
-initSearchWidgetExperiment
-(
-this
-)
 components
 .
 performance
