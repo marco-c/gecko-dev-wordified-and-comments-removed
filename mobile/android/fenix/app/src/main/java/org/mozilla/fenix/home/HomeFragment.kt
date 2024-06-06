@@ -5379,12 +5379,12 @@ orientationChange
 -
 >
 return
-wallpaperName
-=
-=
 Wallpaper
 .
-defaultName
+nameIsDefault
+(
+wallpaperName
+)
 -
 >
 {
