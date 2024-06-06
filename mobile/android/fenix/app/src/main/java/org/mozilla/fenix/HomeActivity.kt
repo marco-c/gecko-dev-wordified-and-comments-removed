@@ -1974,10 +1974,7 @@ performance
 visualCompletenessQueue
 components
 .
-appStartReasonProvider
-components
-.
-startupActivityStateProvider
+startupStateProvider
 safeIntent
 rootContainer
 )

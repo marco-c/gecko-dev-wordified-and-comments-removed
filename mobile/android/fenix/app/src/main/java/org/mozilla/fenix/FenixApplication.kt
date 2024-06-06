@@ -1446,14 +1446,6 @@ this
 )
 components
 .
-startupActivityStateProvider
-.
-registerInAppOnCreate
-(
-this
-)
-components
-.
 startupActivityLog
 .
 registerInAppOnCreate
