@@ -710,6 +710,7 @@ BUILDER
 craft_assemble_release_task
 (
 variant
+channel
 is_staging
 version_name
 )
