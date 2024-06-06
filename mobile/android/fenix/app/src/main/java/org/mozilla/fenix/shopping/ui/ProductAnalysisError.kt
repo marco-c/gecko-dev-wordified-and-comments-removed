@@ -335,7 +335,6 @@ Boolean
 onReviewGradeLearnMoreClick
 :
 (
-String
 )
 -
 >
@@ -358,7 +357,6 @@ Unit
 onFooterLinkClick
 :
 (
-String
 )
 -
 >

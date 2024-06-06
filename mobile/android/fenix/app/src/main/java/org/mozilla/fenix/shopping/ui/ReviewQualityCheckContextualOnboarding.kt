@@ -441,7 +441,6 @@ ProductVendor
 onLearnMoreClick
 :
 (
-String
 )
 -
 >
@@ -449,7 +448,6 @@ Unit
 onPrivacyPolicyClick
 :
 (
-String
 )
 -
 >
@@ -457,7 +455,6 @@ Unit
 onTermsOfUseClick
 :
 (
-String
 )
 -
 >
@@ -643,7 +640,11 @@ url
 PLACEHOLDER_URL
 onClick
 =
+{
 onLearnMoreClick
+(
+)
+}
 )
 )
 style
@@ -723,7 +724,11 @@ url
 PLACEHOLDER_URL
 onClick
 =
+{
 onPrivacyPolicyClick
+(
+)
+}
 )
 LinkTextState
 (
@@ -735,7 +740,11 @@ url
 PLACEHOLDER_URL
 onClick
 =
+{
 onTermsOfUseClick
+(
+)
+}
 )
 )
 style

@@ -631,7 +631,6 @@ Unit
 onReviewGradeLearnMoreClick
 :
 (
-String
 )
 -
 >
@@ -639,7 +638,6 @@ Unit
 onFooterLinkClick
 :
 (
-String
 )
 -
 >
