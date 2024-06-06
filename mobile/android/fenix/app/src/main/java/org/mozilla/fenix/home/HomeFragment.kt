@@ -2336,13 +2336,6 @@ messagingStorage
 homeActivity
 =
 activity
-metrics
-=
-components
-.
-analytics
-.
-metrics
 )
 store
 =
