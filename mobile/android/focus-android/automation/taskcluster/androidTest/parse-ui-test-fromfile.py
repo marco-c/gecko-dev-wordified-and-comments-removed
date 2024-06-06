@@ -32,6 +32,7 @@ argparse
 .
 ArgumentParser
 (
+        
 description
 =
 "
@@ -43,6 +44,7 @@ test
 JUnit
 results
 "
+    
 )
     
 parser
@@ -55,6 +57,7 @@ add_argument
 -
 results
 "
+        
 type
 =
 Path
@@ -68,6 +71,7 @@ task
 artifact
 results
 "
+        
 required
 =
 True
@@ -117,20 +121,18 @@ columns
 .
 header
 =
-(
 [
-'
+"
 UI
 Test
-'
-'
+"
+"
 Outcome
-'
-'
+"
+"
 Details
-'
+"
 ]
-)
     
 table
 .
@@ -172,9 +174,9 @@ cur_suite
 flakes
 !
 =
-'
+"
 0
-'
+"
 :
             
 for
@@ -205,6 +207,7 @@ append
 (
                             
 [
+                                
 "
 %
 s
@@ -221,23 +224,27 @@ case
 .
 name
 )
+                                
 "
 Flaky
 "
+                                
 entry
 .
 text
 .
 replace
 (
-'
+"
 \
 t
-'
-'
-'
+"
+"
+"
 )
+                            
 ]
+                        
 )
                         
 break
@@ -275,6 +282,7 @@ append
 (
                             
 [
+                                
 "
 %
 s
@@ -291,23 +299,27 @@ case
 .
 name
 )
+                                
 "
 Failure
 "
+                                
 entry
 .
 text
 .
 replace
 (
-'
+"
 \
 t
-'
-'
-'
+"
+"
+"
 )
+                            
 ]
+                        
 )
                         
 break
@@ -335,9 +347,9 @@ f
 open
 (
 filename
-'
+"
 r
-'
+"
 )
         
 try
@@ -367,7 +379,7 @@ e
 print
 (
 f
-'
+"
 Error
 parsing
 {
@@ -378,7 +390,7 @@ file
 {
 e
 }
-'
+"
 )
         
 finally
@@ -432,11 +444,11 @@ results
 .
 joinpath
 (
-'
+"
 FullJUnitReport
 .
 xml
-'
+"
 )
 )
     
@@ -452,9 +464,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 main

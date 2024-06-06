@@ -89,9 +89,9 @@ with
 open
 (
 path
-'
+"
 w
-'
+"
 )
 as
 f
@@ -132,6 +132,7 @@ parser
 .
 add_argument
 (
+        
 "
 -
 c
@@ -154,12 +155,14 @@ of
 the
 secret
 "
+    
 )
     
 parser
 .
 add_argument
 (
+        
 "
 -
 f
@@ -183,6 +186,7 @@ save
 secret
 to
 "
+    
 )
     
 result

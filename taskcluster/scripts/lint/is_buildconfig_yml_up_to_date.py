@@ -114,17 +114,21 @@ _buildconfig_files_diff
 cmd
 =
 [
+        
 "
 hg
 "
+        
 "
 diff
 "
+        
 "
 -
 -
 rev
 "
+        
 "
 draft
 (
@@ -135,10 +139,12 @@ ancestors
 .
 )
 "
+        
 "
 -
 I
 "
+        
 "
 *
 *
@@ -148,6 +154,7 @@ buildconfig
 .
 yml
 "
+    
 ]
     
 p

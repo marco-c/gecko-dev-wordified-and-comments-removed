@@ -151,19 +151,23 @@ return
 build_type
 in
 (
+            
 "
 nightly
 "
+            
 "
 focus
 -
 nightly
 "
+            
 "
 fenix
 -
 nightly
 "
+            
 "
 fenix
 -
@@ -171,6 +175,7 @@ nightly
 -
 firebase
 "
+            
 "
 focus
 -
@@ -178,6 +183,7 @@ nightly
 -
 firebase
 "
+        
 )
     
 index_path

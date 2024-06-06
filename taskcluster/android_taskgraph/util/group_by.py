@@ -187,11 +187,11 @@ values
 )
 group_by
 (
-'
+"
 build
 -
 type
-'
+"
 )
 def
 build_type_grouping
@@ -237,11 +237,11 @@ attributes
 .
 get
 (
-'
+"
 build
 -
 type
-'
+"
 )
         
 groups
