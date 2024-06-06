@@ -138,14 +138,6 @@ recyclerview
 widget
 .
 ItemTouchHelper
-import
-org
-.
-mozilla
-.
-fenix
-.
-BuildConfig
 private
 fun
 normalModeAdapterItems
@@ -227,13 +219,6 @@ AdapterItem
 TabItem
 )
 )
-if
-(
-BuildConfig
-.
-COLLECTIONS_ENABLED
-)
-{
 items
 .
 add
@@ -242,7 +227,6 @@ AdapterItem
 .
 SaveTabGroup
 )
-}
 }
 else
 {
