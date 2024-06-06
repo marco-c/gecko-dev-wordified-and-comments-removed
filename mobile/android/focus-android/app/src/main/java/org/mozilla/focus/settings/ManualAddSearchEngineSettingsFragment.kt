@@ -1473,7 +1473,6 @@ onPostExecute
 isValidSearchQuery
 :
 Boolean
-?
 )
 {
 super
@@ -1548,9 +1547,6 @@ return
 if
 (
 isValidSearchQuery
-=
-=
-true
 )
 {
 CustomSearchEngineStore
