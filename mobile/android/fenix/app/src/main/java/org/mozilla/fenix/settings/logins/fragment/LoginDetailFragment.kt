@@ -1178,13 +1178,11 @@ login_deletion_confirmation
 )
 setNegativeButton
 (
-android
-.
 R
 .
 string
 .
-cancel
+dialog_delete_negative
 )
 {
 dialog

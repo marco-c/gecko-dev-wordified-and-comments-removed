@@ -1257,13 +1257,11 @@ bookmark_deletion_confirmation
 )
 setNegativeButton
 (
-android
-.
 R
 .
 string
 .
-cancel
+bookmark_delete_negative
 )
 {
 dialog
