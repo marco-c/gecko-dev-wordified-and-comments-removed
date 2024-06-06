@@ -1412,17 +1412,6 @@ VERSION_1_8
 }
 lintOptions
 {
-baseline
-file
-(
-"
-lint
--
-baseline
-.
-xml
-"
-)
 lintConfig
 file
 (
