@@ -538,7 +538,9 @@ loading
 |
 settings
 .
-openLinksInExternalApp
+shouldOpenLinksInApp
+(
+)
 |
 |
 !
@@ -682,7 +684,7 @@ R
 .
 string
 .
-pref_key_open_links_in_external_app
+pref_key_open_links_in_apps
 )
 )
 navController

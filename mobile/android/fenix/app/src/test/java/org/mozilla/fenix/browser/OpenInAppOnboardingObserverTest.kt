@@ -564,7 +564,9 @@ every
 {
 settings
 .
-openLinksInExternalApp
+shouldOpenLinksInApp
+(
+)
 }
 returns
 true
@@ -677,7 +679,9 @@ every
 {
 settings
 .
-openLinksInExternalApp
+shouldOpenLinksInApp
+(
+)
 }
 returns
 false
@@ -789,7 +793,9 @@ settings
 openLinksInExternalApp
 }
 returns
-false
+"
+never
+"
 every
 {
 settings
@@ -898,7 +904,9 @@ settings
 openLinksInExternalApp
 }
 returns
-false
+"
+never
+"
 every
 {
 settings
@@ -1007,7 +1015,9 @@ settings
 openLinksInExternalApp
 }
 returns
-false
+"
+never
+"
 every
 {
 settings

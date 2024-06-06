@@ -1050,7 +1050,9 @@ settings
 openLinksInExternalApp
 }
 returns
-true
+"
+never
+"
 every
 {
 settings
@@ -1525,7 +1527,9 @@ testGetValue
 )
 assertEquals
 (
-true
+"
+never
+"
 Preferences
 .
 openLinksInAppEnabled
