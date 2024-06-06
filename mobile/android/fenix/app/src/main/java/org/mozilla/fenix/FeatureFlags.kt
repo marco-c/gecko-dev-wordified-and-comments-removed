@@ -234,12 +234,9 @@ managers
 .
 *
 /
+const
 val
 externalDownloadManager
 =
-Config
-.
-channel
-.
-isNightlyOrDebug
+true
 }
