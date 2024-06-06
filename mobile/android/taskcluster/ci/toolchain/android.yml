@@ -212,7 +212,7 @@ b
 android
 linux64
 -
-android
+external
 -
 gradle
 -
@@ -257,7 +257,7 @@ run
 :
 script
 :
-android
+external
 -
 gradle
 -
@@ -278,7 +278,7 @@ scripts
 /
 toolchain
 /
-android
+external
 -
 gradle
 -
@@ -292,7 +292,7 @@ scripts
 /
 toolchain
 /
-android
+external
 -
 gradle
 -
@@ -364,7 +364,7 @@ public
 /
 build
 /
-android
+external
 -
 gradle
 -
@@ -377,7 +377,7 @@ toolchain
 -
 alias
 :
-android
+external
 -
 gradle
 -

@@ -152,7 +152,7 @@ WORKSPACE
 mkdir
 -
 p
-android
+external
 -
 gradle
 -
@@ -173,7 +173,7 @@ NEXUS_WORK
 storage
 /
 google
-android
+external
 -
 gradle
 -
@@ -188,7 +188,7 @@ NEXUS_WORK
 storage
 /
 central
-android
+external
 -
 gradle
 -
@@ -196,7 +196,7 @@ dependencies
 tar
 cf
 -
-android
+external
 -
 gradle
 -
@@ -211,7 +211,7 @@ worker
 /
 artifacts
 /
-android
+external
 -
 gradle
 -

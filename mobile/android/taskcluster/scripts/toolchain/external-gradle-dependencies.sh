@@ -150,7 +150,7 @@ scripts
 /
 toolchain
 /
-android
+external
 -
 gradle
 -
@@ -782,7 +782,7 @@ scripts
 /
 toolchain
 /
-android
+external
 -
 gradle
 -

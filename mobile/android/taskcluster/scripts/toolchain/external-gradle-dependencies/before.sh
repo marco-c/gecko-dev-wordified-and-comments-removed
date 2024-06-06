@@ -177,7 +177,7 @@ scripts
 /
 toolchain
 /
-android
+external
 -
 gradle
 -
