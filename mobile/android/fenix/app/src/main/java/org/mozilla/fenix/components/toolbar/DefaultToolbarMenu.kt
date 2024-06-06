@@ -3096,7 +3096,7 @@ drawable
 ic_bookmark_filled
 tintColorResource
 =
-accentBrightTextColor
+menuItemButtonTintColor
 (
 )
 primaryLabel
@@ -3289,7 +3289,7 @@ ColorRes
 VisibleForTesting
 internal
 fun
-accentBrightTextColor
+menuItemButtonTintColor
 (
 )
 =
@@ -3301,7 +3301,7 @@ R
 .
 attr
 .
-accentBright
+menuItemButtonTintColor
 context
 )
 VisibleForTesting
