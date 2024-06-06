@@ -195,4 +195,12 @@ id
 .
 aboutFragment
 )
+FromTrackingProtection
+(
+R
+.
+id
+.
+trackingProtectionFragment
+)
 }

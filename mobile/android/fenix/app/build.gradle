@@ -3636,6 +3636,10 @@ autodispose
 implementation
 Deps
 .
+lottie
+implementation
+Deps
+.
 adjust
 implementation
 Deps
