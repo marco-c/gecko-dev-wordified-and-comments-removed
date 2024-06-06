@@ -1963,7 +1963,7 @@ R
 .
 string
 .
-unable_to_print_error
+unable_to_print_page_error
 )
 )
 )
@@ -2212,7 +2212,7 @@ R
 .
 string
 .
-unable_to_print_error
+unable_to_print_page_error
 )
 )
 )

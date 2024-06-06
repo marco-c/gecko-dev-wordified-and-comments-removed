@@ -282,6 +282,13 @@ letterSpacing
 "
 android
 :
+minHeight
+=
+"
+46dp
+"
+android
+:
 maxLines
 =
 "
