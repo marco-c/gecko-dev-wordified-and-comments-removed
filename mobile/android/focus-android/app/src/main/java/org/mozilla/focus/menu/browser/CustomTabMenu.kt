@@ -408,6 +408,9 @@ ToolbarMenu
 Item
 .
 Back
+(
+true
+)
 )
 }
 )
@@ -421,6 +424,9 @@ ToolbarMenu
 Item
 .
 Back
+(
+true
+)
 )
 }
 val
@@ -506,6 +512,9 @@ ToolbarMenu
 Item
 .
 Forward
+(
+true
+)
 )
 }
 )
@@ -519,6 +528,9 @@ ToolbarMenu
 Item
 .
 Forward
+(
+true
+)
 )
 }
 val
@@ -623,6 +635,9 @@ ToolbarMenu
 Item
 .
 Reload
+(
+true
+)
 )
 }
 )
@@ -650,6 +665,9 @@ ToolbarMenu
 Item
 .
 Stop
+(
+true
+)
 )
 }
 else
@@ -663,6 +681,9 @@ ToolbarMenu
 Item
 .
 Reload
+(
+true
+)
 )
 }
 }
@@ -717,6 +738,9 @@ ToolbarMenu
 Item
 .
 FindInPage
+(
+true
+)
 )
 }
 val
@@ -773,6 +797,7 @@ Item
 RequestDesktop
 (
 checked
+true
 )
 )
 }
@@ -836,6 +861,9 @@ ToolbarMenu
 Item
 .
 AddToHomeScreen
+(
+true
+)
 )
 }
 val
@@ -880,6 +908,9 @@ ToolbarMenu
 Item
 .
 OpenInBrowser
+(
+true
+)
 )
 }
 val
@@ -910,6 +941,9 @@ ToolbarMenu
 Item
 .
 OpenInApp
+(
+true
+)
 )
 }
 val

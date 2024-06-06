@@ -4580,11 +4580,6 @@ show
 (
 tab
 )
-TelemetryWrapper
-.
-findInPageMenuEvent
-(
-)
 }
 private
 fun
