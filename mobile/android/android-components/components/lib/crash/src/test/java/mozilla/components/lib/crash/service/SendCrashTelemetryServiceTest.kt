@@ -701,9 +701,16 @@ Crash
 NativeCodeCrash
 .
 PROCESS_TYPE_FOREGROUND_CHILD
+breadcrumbs
+=
 arrayListOf
 (
 )
+remoteType
+=
+"
+null
+"
 )
 val
 intent

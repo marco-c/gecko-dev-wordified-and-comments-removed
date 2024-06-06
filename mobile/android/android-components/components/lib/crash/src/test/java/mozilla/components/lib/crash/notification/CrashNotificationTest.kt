@@ -261,6 +261,9 @@ breadcrumbs
 arrayListOf
 (
 )
+remoteType
+=
+null
 )
 assertFalse
 (
@@ -427,6 +430,9 @@ breadcrumbs
 arrayListOf
 (
 )
+remoteType
+=
+null
 )
 assertFalse
 (
@@ -593,6 +599,9 @@ breadcrumbs
 arrayListOf
 (
 )
+remoteType
+=
+null
 )
 assertFalse
 (

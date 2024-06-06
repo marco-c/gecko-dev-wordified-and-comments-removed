@@ -532,6 +532,9 @@ PROCESS_TYPE_MAIN
 breadcrumbs
 =
 breadcrumbs
+remoteType
+=
+null
 )
 service
 .
@@ -658,6 +661,9 @@ PROCESS_TYPE_FOREGROUND_CHILD
 breadcrumbs
 =
 breadcrumbs
+remoteType
+=
+null
 )
 service
 .
@@ -784,6 +790,9 @@ PROCESS_TYPE_BACKGROUND_CHILD
 breadcrumbs
 =
 breadcrumbs
+remoteType
+=
+null
 )
 service
 .
@@ -910,6 +919,9 @@ PROCESS_TYPE_FOREGROUND_CHILD
 breadcrumbs
 =
 breadcrumbs
+remoteType
+=
+null
 )
 val
 result
@@ -1042,6 +1054,9 @@ PROCESS_TYPE_MAIN
 breadcrumbs
 =
 breadcrumbs
+remoteType
+=
+null
 )
 val
 result
