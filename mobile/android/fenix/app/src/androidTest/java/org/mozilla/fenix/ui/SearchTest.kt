@@ -323,7 +323,7 @@ helpers
 .
 TestHelper
 .
-grantPermission
+grantSystemPermission
 import
 org
 .
@@ -638,7 +638,7 @@ openSearch
 clickScanButton
 (
 )
-grantPermission
+grantSystemPermission
 (
 )
 verifyScannerOpen
