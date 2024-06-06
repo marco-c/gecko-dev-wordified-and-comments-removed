@@ -629,6 +629,9 @@ run
 adapter
 =
 collectionCreationTabListAdapter
+itemAnimator
+=
+null
 layoutManager
 =
 LinearLayoutManager
