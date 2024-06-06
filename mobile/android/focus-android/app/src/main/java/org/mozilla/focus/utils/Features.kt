@@ -84,6 +84,12 @@ SEARCH_TERMS_OR_URL
 Boolean
 =
 true
+val
+SHOULD_SHOW_CFR_FOR_SHIELD_TOOLBAR_ICON
+=
+AppConstants
+.
+isDevOrNightlyBuild
 /
 *
 *
