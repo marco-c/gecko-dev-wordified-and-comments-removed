@@ -971,16 +971,6 @@ Event
 )
 /
 /
-Browser
-Toolbar
-object
-BrowserToolbarHomeButtonClicked
-:
-Event
-(
-)
-/
-/
 Start
 on
 Home
