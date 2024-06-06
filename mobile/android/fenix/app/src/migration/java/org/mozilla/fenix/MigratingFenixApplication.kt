@@ -214,6 +214,17 @@ migrateTelemetryIdentifiers
 (
 )
 .
+migrateSearchEngine
+(
+this
+.
+components
+.
+search
+.
+searchEngineManager
+)
+.
 build
 (
 )
