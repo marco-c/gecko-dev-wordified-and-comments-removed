@@ -507,7 +507,14 @@ popUpTo
 "
 id
 /
-homeFragment
+searchFragment
+"
+app
+:
+popUpToInclusive
+=
+"
+true
 "
 /
 >
