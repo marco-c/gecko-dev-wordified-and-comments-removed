@@ -207,8 +207,6 @@ val
 item
 =
 AboutPageItem
-.
-Item
 (
 AboutItem
 .

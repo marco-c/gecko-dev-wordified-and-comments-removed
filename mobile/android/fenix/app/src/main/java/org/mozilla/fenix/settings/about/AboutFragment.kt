@@ -249,16 +249,6 @@ mozilla
 .
 fenix
 .
-utils
-.
-Do
-import
-org
-.
-mozilla
-.
-fenix
-.
 settings
 .
 SupportUtils
@@ -332,6 +322,16 @@ about
 AboutItemType
 .
 WHATS_NEW
+import
+org
+.
+mozilla
+.
+fenix
+.
+utils
+.
+Do
 import
 org
 .
@@ -921,8 +921,6 @@ return
 listOf
 (
 AboutPageItem
-.
-Item
 (
 AboutItem
 .
@@ -954,8 +952,6 @@ app_name
 )
 )
 AboutPageItem
-.
-Item
 (
 AboutItem
 .
@@ -984,8 +980,6 @@ about_support
 )
 )
 AboutPageItem
-.
-Item
 (
 AboutItem
 .
@@ -1000,8 +994,6 @@ about_crashes
 )
 )
 AboutPageItem
-.
-Item
 (
 AboutItem
 .
@@ -1029,8 +1021,6 @@ about_privacy_notice
 )
 )
 AboutPageItem
-.
-Item
 (
 AboutItem
 .
@@ -1059,8 +1049,6 @@ about_know_your_rights
 )
 )
 AboutPageItem
-.
-Item
 (
 AboutItem
 .
@@ -1079,8 +1067,6 @@ about_licensing_information
 )
 )
 AboutPageItem
-.
-Item
 (
 AboutItem
 .

@@ -159,8 +159,6 @@ var
 item
 :
 AboutPageItem
-.
-Item
 init
 {
 itemView
@@ -183,8 +181,6 @@ bind
 item
 :
 AboutPageItem
-.
-Item
 )
 {
 this

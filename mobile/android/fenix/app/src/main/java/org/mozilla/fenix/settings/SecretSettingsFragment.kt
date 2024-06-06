@@ -109,7 +109,7 @@ options
 *
 /
 class
-SecretSettingsPreference
+SecretSettingsFragment
 :
 PreferenceFragmentCompat
 (

@@ -110,13 +110,9 @@ PRIVACY_NOTICE
 RIGHTS
 LICENSING_INFO
 }
-sealed
-class
-AboutPageItem
-{
 data
 class
-Item
+AboutPageItem
 (
 val
 type
@@ -127,8 +123,3 @@ title
 :
 String
 )
-:
-AboutPageItem
-(
-)
-}
