@@ -193,14 +193,11 @@ search
 experience
 *
 /
+const
 val
 newSearchExperience
 =
-Config
-.
-channel
-.
-isNightlyOrDebug
+true
 /
 *
 *
