@@ -5932,7 +5932,7 @@ now
 required
 for
 Screengrab
-implementation
+androidTestImplementation
 '
 com
 .
