@@ -1616,13 +1616,11 @@ IDN
 }
 Test
 fun
+file
+uri
 should
 return
-not
-the
-protocol
-for
-file
+input
 (
 )
 {
@@ -1640,6 +1638,10 @@ txt
 "
 shortenedShouldBecome
 "
+file
+:
+/
+/
 /
 foo
 /
