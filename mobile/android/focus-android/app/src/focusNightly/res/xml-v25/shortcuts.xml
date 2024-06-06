@@ -165,6 +165,8 @@ org
 mozilla
 .
 focus
+.
+nightly
 "
 android
 :
@@ -271,6 +273,8 @@ org
 mozilla
 .
 focus
+.
+nightly
 "
 android
 :
