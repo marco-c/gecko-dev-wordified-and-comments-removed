@@ -201,7 +201,7 @@ R
 .
 color
 .
-white_color
+fx_mobile_icon_color_oncolor
 )
 )
 iconColors

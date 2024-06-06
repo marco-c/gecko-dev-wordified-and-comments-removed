@@ -308,7 +308,7 @@ textColor
 "
 color
 /
-photonLightGrey05
+fx_mobile_text_color_oncolor_primary
 "
 android
 :
@@ -554,7 +554,7 @@ textColor
 "
 color
 /
-white_color
+fx_mobile_text_color_oncolor_primary
 "
 android
 :

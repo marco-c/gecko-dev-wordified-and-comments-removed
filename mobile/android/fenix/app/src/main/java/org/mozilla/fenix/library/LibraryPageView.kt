@@ -233,7 +233,7 @@ R
 .
 color
 .
-white_color
+fx_mobile_text_color_oncolor_primary
 )
 backgroundColor
 =
