@@ -297,13 +297,6 @@ string
 /
 preferences_sync_logins
 "
-app
-:
-isPreferenceVisible
-=
-"
-false
-"
 /
 >
 <

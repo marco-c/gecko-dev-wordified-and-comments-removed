@@ -307,14 +307,6 @@ mozilla
 .
 fenix
 .
-FeatureFlags
-import
-org
-.
-mozilla
-.
-fenix
-.
 R
 import
 org
@@ -1592,11 +1584,6 @@ loginsNameKey
 .
 apply
 {
-isVisible
-=
-FeatureFlags
-.
-logins
 isEnabled
 =
 syncEnginesStatus

@@ -388,13 +388,6 @@ androidx
 preference
 .
 Preference
-app
-:
-isPreferenceVisible
-=
-"
-false
-"
 android
 :
 icon
