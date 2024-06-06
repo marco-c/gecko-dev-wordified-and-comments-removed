@@ -171,9 +171,8 @@ tools
 background
 =
 "
-color
-/
-grey_button_color
+?
+scrim
 "
 >
 <
