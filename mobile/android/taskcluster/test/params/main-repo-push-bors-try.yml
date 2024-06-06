@@ -108,6 +108,10 @@ pushlog_id
 '
 0
 '
+release_type
+:
+'
+'
 repository_type
 :
 git
