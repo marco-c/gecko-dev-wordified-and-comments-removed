@@ -5046,11 +5046,6 @@ will
 navigate
 if
 (
-FeatureFlags
-.
-returnToBrowserOnColdStart
-&
-&
 settings
 (
 )
