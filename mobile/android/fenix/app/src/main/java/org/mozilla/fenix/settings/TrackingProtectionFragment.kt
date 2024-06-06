@@ -107,12 +107,6 @@ preference
 .
 PreferenceFragmentCompat
 import
-androidx
-.
-preference
-.
-SwitchPreference
-import
 org
 .
 mozilla
@@ -423,7 +417,7 @@ preferenceTP
 =
 requirePreference
 <
-SwitchPreference
+FenixSwitchPreference
 >
 (
 R
@@ -563,7 +557,7 @@ R
 .
 string
 .
-preference_enhanced_tracking_protection_explanation
+preference_enhanced_tracking_protection_explanation_2
 getString
 (
 R

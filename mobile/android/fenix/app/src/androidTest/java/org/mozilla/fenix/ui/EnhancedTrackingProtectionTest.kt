@@ -320,14 +320,6 @@ Verifying
 Enhanced
 Tracking
 Protection
-notification
-shield
-*
--
-Verifying
-Enhanced
-Tracking
-Protection
 content
 sheet
 *
@@ -462,10 +454,7 @@ Standard
 .
 openEnhancedTrackingProtectionSubMenu
 {
-verifyEnhancedTrackingProtectionHeader
-(
-)
-verifyEnhancedTrackingProtectionHeaderDescription
+verifyEnhancedTrackingProtectionSummary
 (
 )
 verifyLearnMoreText

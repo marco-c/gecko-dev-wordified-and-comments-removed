@@ -644,7 +644,7 @@ robot
 .
 openSettingsTrackingProtection
 {
-verifyEnhancedTrackingProtectionHeader
+verifyEnhancedTrackingProtectionSummary
 (
 )
 }
