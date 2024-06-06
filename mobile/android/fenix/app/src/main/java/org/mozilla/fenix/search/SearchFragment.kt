@@ -826,9 +826,7 @@ awesomeBarView
 =
 AwesomeBarView
 (
-requireContext
-(
-)
+activity
 searchInteractor
 view
 .

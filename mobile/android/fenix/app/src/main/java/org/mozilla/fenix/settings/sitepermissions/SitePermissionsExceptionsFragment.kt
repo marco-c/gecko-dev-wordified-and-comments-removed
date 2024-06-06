@@ -735,14 +735,12 @@ onClick
 view
 :
 View
-?
 )
 {
 val
 sitePermissions
 =
 view
-?
 .
 tag
 as

@@ -824,6 +824,14 @@ fragment_search_dialog
 container
 false
 )
+val
+activity
+=
+requireActivity
+(
+)
+as
+HomeActivity
 requireComponents
 .
 analytics
@@ -843,8 +851,6 @@ SearchDialogFragmentStore
 createInitialSearchFragmentState
 (
 activity
-as
-HomeActivity
 requireComponents
 tabId
 =
@@ -871,11 +877,7 @@ SearchDialogController
 (
 activity
 =
-requireActivity
-(
-)
-as
-HomeActivity
+activity
 sessionManager
 =
 requireComponents
@@ -957,9 +959,7 @@ awesomeBarView
 =
 AwesomeBarView
 (
-requireContext
-(
-)
+activity
 interactor
 view
 .
