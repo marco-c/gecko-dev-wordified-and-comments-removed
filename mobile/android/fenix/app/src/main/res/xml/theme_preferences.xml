@@ -236,6 +236,15 @@ string
 /
 preference_auto_battery_theme
 "
+app
+:
+isPreferenceVisible
+=
+"
+bool
+/
+underAPI28
+"
 /
 >
 <
