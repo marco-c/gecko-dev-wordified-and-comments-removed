@@ -636,6 +636,9 @@ it
 .
 copy
 (
+isOfferTranslate
+=
+false
 isTranslateProcessing
 =
 true
