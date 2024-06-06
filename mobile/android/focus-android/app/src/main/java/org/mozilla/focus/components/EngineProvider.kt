@@ -153,6 +153,16 @@ org
 .
 mozilla
 .
+focus
+.
+utils
+.
+AppConstants
+import
+org
+.
+mozilla
+.
 geckoview
 .
 GeckoRuntime
@@ -218,7 +228,9 @@ builder
 .
 aboutConfigEnabled
 (
-true
+AppConstants
+.
+isDevOrNightlyBuild
 )
 runtime
 =
