@@ -2911,7 +2911,9 @@ android
 #
 Sanitizer
 .
-jsm
+sys
+.
+mjs
 is
 not
 in

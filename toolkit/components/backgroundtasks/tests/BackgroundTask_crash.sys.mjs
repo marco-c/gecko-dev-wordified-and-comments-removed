@@ -94,7 +94,9 @@ depends
 on
 CrashTestUtils
 .
-jsm
+sys
+.
+mjs
 and
 requires
 the

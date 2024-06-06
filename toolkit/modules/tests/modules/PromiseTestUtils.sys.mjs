@@ -105,17 +105,7 @@ currently
 left
 uncaught
 .
-This
-includes
-DOM
-Promise
-and
-Promise
-.
-jsm
-.
 When
-*
 rejections
 in
 DOM
@@ -123,6 +113,7 @@ Promises
 are
 consumed
 they
+*
 are
 removed
 from
