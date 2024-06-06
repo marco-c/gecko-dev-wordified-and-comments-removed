@@ -654,6 +654,16 @@ page2
 url
 )
 {
+verifyUrl
+(
+page2
+.
+url
+.
+toString
+(
+)
+)
 }
 .
 openThreeDotMenu
