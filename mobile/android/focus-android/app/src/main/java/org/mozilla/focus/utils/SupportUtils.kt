@@ -357,7 +357,7 @@ focus
 -
 android
 -
-7
+8
 "
 )
 SEARCH_SUGGESTIONS
@@ -370,6 +370,16 @@ suggestions
 focus
 -
 android
+"
+)
+ALLOWLIST
+(
+"
+focus
+-
+android
+-
+allowlist
 "
 )
 }
