@@ -2952,7 +2952,7 @@ boolean
 TELEMETRY
 '
 '
-false
+true
 '
 }
 def

@@ -364,7 +364,7 @@ contains
 (
 provider
 .
-queryParam
+queryParamName
 )
 )
 {

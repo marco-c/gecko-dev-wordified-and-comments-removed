@@ -574,7 +574,7 @@ contains
 (
 provider
 .
-queryParam
+queryParamName
 )
 |
 |

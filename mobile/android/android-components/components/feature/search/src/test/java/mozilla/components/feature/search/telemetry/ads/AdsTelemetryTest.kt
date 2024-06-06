@@ -1305,7 +1305,7 @@ aaa
 &
 pc
 =
-MOZMBA
+MOZL
 &
 form
 =
@@ -1444,7 +1444,7 @@ follow
 -
 on
 .
-mozmba
+mozl
 "
 facts
 [
@@ -1492,7 +1492,7 @@ value
 "
 PC
 =
-MOZMBA
+MOZL
 "
 )
 val
