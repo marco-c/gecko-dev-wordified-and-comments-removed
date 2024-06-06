@@ -77,7 +77,7 @@ mozilla
 .
 focus
 .
-Components
+R
 import
 org
 .
@@ -85,7 +85,9 @@ mozilla
 .
 focus
 .
-R
+ext
+.
+components
 import
 org
 .
@@ -498,7 +500,9 @@ runtime
 .
 value
 =
-Components
+context
+.
+components
 .
 searchEngineManager
 .

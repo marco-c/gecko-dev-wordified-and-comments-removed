@@ -181,7 +181,7 @@ mozilla
 .
 focus
 .
-Components
+R
 import
 org
 .
@@ -189,7 +189,9 @@ mozilla
 .
 focus
 .
-R
+ext
+.
+components
 import
 org
 .
@@ -326,7 +328,9 @@ searchEngineGroup
 context
 searchEngines
 =
-Components
+context
+.
+components
 .
 searchEngineManager
 .
@@ -367,7 +371,9 @@ UI
 {
 searchEngines
 =
-Components
+context
+.
+components
 .
 searchEngineManager
 .
@@ -459,7 +465,9 @@ return
 val
 defaultSearchEngine
 =
-Components
+context
+.
+components
 .
 searchEngineManager
 .

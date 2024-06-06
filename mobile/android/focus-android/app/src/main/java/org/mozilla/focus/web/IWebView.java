@@ -33,11 +33,11 @@ view
 View
 ;
 import
-org
-.
 mozilla
 .
-focus
+components
+.
+browser
 .
 session
 .

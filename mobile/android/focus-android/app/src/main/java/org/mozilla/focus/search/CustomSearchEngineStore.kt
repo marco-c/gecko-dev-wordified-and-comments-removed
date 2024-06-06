@@ -103,7 +103,9 @@ mozilla
 .
 focus
 .
-Components
+ext
+.
+components
 import
 org
 .
@@ -159,7 +161,9 @@ MODE_PRIVATE
 val
 defaultEngines
 =
-Components
+context
+.
+components
 .
 searchEngineManager
 .

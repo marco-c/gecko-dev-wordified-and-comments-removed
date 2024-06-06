@@ -101,7 +101,9 @@ mozilla
 .
 focus
 .
-Components
+ext
+.
+components
 import
 org
 .
@@ -196,7 +198,9 @@ getSearchEngine
 SearchEngine
 {
 return
-Components
+context
+.
+components
 .
 searchEngineManager
 .
