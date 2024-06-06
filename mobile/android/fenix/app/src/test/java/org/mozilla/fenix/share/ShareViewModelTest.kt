@@ -641,11 +641,11 @@ every
 {
 appEntity
 .
-packageName
+activityName
 }
 returns
 "
-Package
+Activity
 "
 recentAppOptions
 .

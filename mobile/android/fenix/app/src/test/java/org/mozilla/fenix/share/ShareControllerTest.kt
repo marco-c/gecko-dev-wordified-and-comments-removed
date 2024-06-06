@@ -857,7 +857,7 @@ updateRecentApp
 (
 appShareOption
 .
-packageName
+activityName
 )
 }
 just
@@ -1004,7 +1004,7 @@ updateRecentApp
 (
 appShareOption
 .
-packageName
+activityName
 )
 activityContext
 .
