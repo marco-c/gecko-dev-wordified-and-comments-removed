@@ -1309,6 +1309,9 @@ FirefoxTheme
 {
 TabsTray
 (
+tabsTrayStore
+=
+tabsTrayStore
 )
 }
 }
