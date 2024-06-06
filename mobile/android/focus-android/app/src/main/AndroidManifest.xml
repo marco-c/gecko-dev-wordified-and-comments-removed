@@ -852,7 +852,7 @@ android
 windowSoftInputMode
 =
 "
-adjustResize
+adjustPan
 "
 /
 >
