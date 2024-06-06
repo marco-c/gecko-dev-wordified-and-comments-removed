@@ -852,7 +852,7 @@ requireComponents
 .
 core
 .
-sessionManager
+store
 requireComponents
 .
 useCases
