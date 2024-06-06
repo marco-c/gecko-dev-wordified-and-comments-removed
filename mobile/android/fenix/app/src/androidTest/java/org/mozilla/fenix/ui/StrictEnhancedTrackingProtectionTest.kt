@@ -400,7 +400,7 @@ verifyEnhancedTrackingProtectionHeader
 verifyEnhancedTrackingProtectionOptions
 (
 )
-verifyEnhancedTrackingProtectionDefaults
+verifyTrackingProtectionSwitchEnabled
 (
 )
 }
@@ -729,7 +729,7 @@ verifyEnhancedTrackingProtectionHeader
 verifyEnhancedTrackingProtectionOptions
 (
 )
-verifyEnhancedTrackingProtectionDefaults
+verifyTrackingProtectionSwitchEnabled
 (
 )
 }
