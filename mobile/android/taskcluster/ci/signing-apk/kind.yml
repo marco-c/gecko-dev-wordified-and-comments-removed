@@ -173,12 +173,13 @@ klar
 )
 :
 autograph_focus
-beta
+fenix
 -
-mozillaonline
-:
-autograph_apk_mozillaonline
+(
+beta
+|
 release
+)
 -
 mozillaonline
 :
