@@ -301,14 +301,14 @@ wrap_content
 "
 app
 :
-behavior_hideable
+mozac_behavior_hideable
 =
 "
 true
 "
 app
 :
-behavior_peekHeight
+mozac_behavior_peekHeight
 =
 "
 12dp

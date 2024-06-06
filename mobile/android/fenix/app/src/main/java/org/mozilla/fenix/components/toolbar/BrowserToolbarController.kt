@@ -260,6 +260,16 @@ fenix
 lib
 .
 Do
+import
+org
+.
+mozilla
+.
+fenix
+.
+quickactionsheet
+.
+QuickActionSheetBehavior
 /
 *
 *
@@ -367,7 +377,7 @@ private
 val
 bottomSheetBehavior
 :
-BottomSheetBehavior
+QuickActionSheetBehavior
 <
 NestedScrollView
 >
