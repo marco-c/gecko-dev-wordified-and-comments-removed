@@ -673,7 +673,7 @@ JSScript
 *
 script
 =
-ScriptFromCalleeToken
+MaybeForwardedScriptFromCalleeToken
 (
 calleeToken
 (

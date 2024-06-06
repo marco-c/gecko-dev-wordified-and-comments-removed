@@ -63,6 +63,9 @@ class
 TenuredCell
 ;
 class
+TenuringTracer
+;
+class
 CellAllocator
 {
 public
@@ -274,6 +277,10 @@ AllocSite
 *
 site
 )
+;
+friend
+class
+TenuringTracer
 ;
 template
 <

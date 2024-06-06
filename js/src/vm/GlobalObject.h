@@ -5181,13 +5181,7 @@ clearSourceURLSHolder
 (
 )
 {
-data
-(
-)
-.
-sourceURLsHolder
-.
-unbarrieredSet
+setSourceURLsHolder
 (
 nullptr
 )

@@ -1188,16 +1188,6 @@ elementsRaw
 )
 )
 ;
-MOZ_ASSERT
-(
-obj
--
->
-isTenured
-(
-)
-)
-;
 if
 (
 oldObj
