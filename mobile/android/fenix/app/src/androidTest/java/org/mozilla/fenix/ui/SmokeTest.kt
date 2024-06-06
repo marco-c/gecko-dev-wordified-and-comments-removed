@@ -1643,9 +1643,6 @@ url
 .
 openThreeDotMenu
 {
-expandMenu
-(
-)
 }
 .
 openSaveToCollection

@@ -328,6 +328,9 @@ url
 .
 openThreeDotMenu
 {
+expandMenu
+(
+)
 verifyAddToTopSitesButton
 (
 )
@@ -403,6 +406,9 @@ url
 .
 openThreeDotMenu
 {
+expandMenu
+(
+)
 verifyAddToTopSitesButton
 (
 )
@@ -549,6 +555,9 @@ url
 .
 openThreeDotMenu
 {
+expandMenu
+(
+)
 verifyAddToTopSitesButton
 (
 )
@@ -652,6 +661,9 @@ url
 .
 openThreeDotMenu
 {
+expandMenu
+(
+)
 verifyAddToTopSitesButton
 (
 )
@@ -751,6 +763,9 @@ url
 .
 openThreeDotMenu
 {
+expandMenu
+(
+)
 verifyAddToTopSitesButton
 (
 )
