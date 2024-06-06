@@ -654,8 +654,9 @@ android
 layout_height
 =
 "
-?
-fenixWordmarkTextHeight
+dimen
+/
+wordmark_text_height
 "
 android
 :
@@ -676,8 +677,9 @@ android
 layout_marginTop
 =
 "
-?
-fenixWordmarkTextMarginTop
+dimen
+/
+wordmark_text_margin_top
 "
 app
 :
