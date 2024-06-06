@@ -106,6 +106,10 @@ classpath
 ComponentsDependencies
 .
 plugin_ksp
+classpath
+ComponentsDependencies
+.
+plugin_serialization
 }
 }
 }
@@ -159,6 +163,14 @@ plugin
 kotlin
 -
 android
+'
+apply
+plugin
+:
+'
+kotlinx
+-
+serialization
 '
 android
 {
@@ -278,6 +290,10 @@ kotlin_coroutines
 implementation
 ComponentsDependencies
 .
+kotlin_json
+implementation
+ComponentsDependencies
+.
 androidx_appcompat
 implementation
 ComponentsDependencies
@@ -318,7 +334,7 @@ utils
 '
 )
 implementation
-Dependencies
+ComponentsDependencies
 .
 androidx_room_runtime
 ksp
