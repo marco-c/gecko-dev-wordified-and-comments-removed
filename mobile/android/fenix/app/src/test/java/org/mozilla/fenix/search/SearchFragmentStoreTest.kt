@@ -323,6 +323,9 @@ defaultEngineSource
 mockk
 (
 )
+showSearchSuggestionsHint
+=
+false
 showSearchSuggestions
 =
 false
