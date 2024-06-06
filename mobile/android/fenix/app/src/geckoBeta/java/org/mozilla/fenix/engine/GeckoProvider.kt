@@ -331,6 +331,8 @@ if
 settings
 .
 shouldUseAutoSize
+(
+)
 )
 {
 runtimeSettings
