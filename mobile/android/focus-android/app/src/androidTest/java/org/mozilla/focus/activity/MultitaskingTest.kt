@@ -371,7 +371,7 @@ helpers
 .
 TestHelper
 .
-appName
+createMockResponseFromAsset
 import
 org
 .
@@ -383,7 +383,7 @@ helpers
 .
 TestHelper
 .
-createMockResponseFromAsset
+packageName
 /
 *
 *
@@ -1288,7 +1288,7 @@ By
 .
 res
 (
-appName
+packageName
 "
 snackbar_text
 "
@@ -1310,7 +1310,7 @@ By
 .
 res
 (
-appName
+packageName
 "
 snackbar_text
 "

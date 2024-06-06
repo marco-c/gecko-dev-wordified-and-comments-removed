@@ -239,7 +239,7 @@ resourceId
 {
 TestHelper
 .
-appName
+packageName
 }
 :
 id

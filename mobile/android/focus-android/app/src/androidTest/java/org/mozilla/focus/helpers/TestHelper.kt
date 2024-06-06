@@ -325,7 +325,7 @@ SECOND_IN_MILLIS
 15
 JvmStatic
 val
-appName
+packageName
 :
 String
 get
@@ -341,6 +341,28 @@ getInstrumentation
 targetContext
 .
 packageName
+JvmStatic
+val
+appName
+:
+String
+=
+InstrumentationRegistry
+.
+getInstrumentation
+(
+)
+.
+targetContext
+.
+getString
+(
+R
+.
+string
+.
+app_name
+)
 JvmStatic
 val
 appContext
@@ -392,7 +414,7 @@ UiSelector
 resourceId
 (
 "
-appName
+packageName
 :
 id
 /
@@ -673,7 +695,7 @@ UiSelector
 .
 resourceId
 (
-appName
+packageName
 +
 "
 :
@@ -702,7 +724,7 @@ UiSelector
 .
 resourceId
 (
-appName
+packageName
 +
 "
 :
@@ -731,7 +753,7 @@ UiSelector
 .
 resourceId
 (
-appName
+packageName
 +
 "
 :
@@ -819,7 +841,7 @@ UiSelector
 .
 resourceId
 (
-appName
+packageName
 +
 "
 :
@@ -872,7 +894,7 @@ UiSelector
 .
 resourceId
 (
-appName
+packageName
 +
 "
 :
@@ -906,7 +928,7 @@ UiSelector
 .
 resourceId
 (
-appName
+packageName
 +
 "
 :
@@ -935,7 +957,7 @@ UiSelector
 .
 resourceId
 (
-appName
+packageName
 +
 "
 :
@@ -964,7 +986,7 @@ UiSelector
 .
 resourceId
 (
-appName
+packageName
 +
 "
 :
@@ -993,7 +1015,7 @@ UiSelector
 .
 resourceId
 (
-appName
+packageName
 +
 "
 :
@@ -1022,7 +1044,7 @@ UiSelector
 .
 resourceId
 (
-appName
+packageName
 +
 "
 :
@@ -1045,7 +1067,7 @@ UiSelector
 .
 resourceId
 (
-appName
+packageName
 +
 "
 :
@@ -1096,7 +1118,7 @@ UiSelector
 .
 resourceId
 (
-appName
+packageName
 +
 "
 :
@@ -1125,7 +1147,7 @@ UiSelector
 .
 resourceId
 (
-appName
+packageName
 +
 "
 :
@@ -1205,7 +1227,7 @@ UiSelector
 .
 resourceId
 (
-appName
+packageName
 +
 "
 :
@@ -1247,7 +1269,7 @@ erased
 .
 resourceId
 (
-appName
+packageName
 +
 "
 :
@@ -1276,7 +1298,7 @@ UiSelector
 .
 resourceId
 (
-appName
+packageName
 +
 "
 :
@@ -1355,7 +1377,7 @@ expand_button
 .
 packageName
 (
-appName
+packageName
 +
 "
 "
@@ -1451,7 +1473,7 @@ UiSelector
 .
 resourceId
 (
-appName
+packageName
 +
 "
 :
@@ -1480,7 +1502,7 @@ UiSelector
 .
 resourceId
 (
-appName
+packageName
 +
 "
 :
@@ -1509,7 +1531,7 @@ UiSelector
 .
 resourceId
 (
-appName
+packageName
 +
 "
 :
@@ -1538,7 +1560,7 @@ UiSelector
 .
 resourceId
 (
-appName
+packageName
 +
 "
 :
@@ -1600,7 +1622,7 @@ UiSelector
 .
 resourceId
 (
-appName
+packageName
 +
 "
 :
@@ -1666,7 +1688,7 @@ UiSelector
 .
 resourceId
 (
-appName
+packageName
 +
 "
 :
@@ -1695,7 +1717,7 @@ UiSelector
 .
 resourceId
 (
-appName
+packageName
 +
 "
 :
@@ -1724,7 +1746,7 @@ UiSelector
 .
 resourceId
 (
-appName
+packageName
 +
 "
 :
@@ -1753,7 +1775,7 @@ UiSelector
 .
 resourceId
 (
-appName
+packageName
 +
 "
 :
@@ -1798,7 +1820,7 @@ UiSelector
 .
 resourceId
 (
-appName
+packageName
 +
 "
 :
@@ -1827,7 +1849,7 @@ UiSelector
 .
 resourceId
 (
-appName
+packageName
 +
 "
 :
@@ -1856,7 +1878,7 @@ UiSelector
 .
 resourceId
 (
-appName
+packageName
 +
 "
 :
@@ -1885,7 +1907,7 @@ UiSelector
 .
 resourceId
 (
-appName
+packageName
 +
 "
 :
@@ -1909,7 +1931,7 @@ UiSelector
 .
 resourceId
 (
-appName
+packageName
 +
 "
 :
@@ -2080,7 +2102,7 @@ UiSelector
 .
 resourceId
 (
-appName
+packageName
 +
 "
 :
@@ -2104,7 +2126,7 @@ UiSelector
 .
 resourceId
 (
-appName
+packageName
 +
 "
 :
@@ -2178,7 +2200,7 @@ UiSelector
 .
 resourceId
 (
-appName
+packageName
 +
 "
 :

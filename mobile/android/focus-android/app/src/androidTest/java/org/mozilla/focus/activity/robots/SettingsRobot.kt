@@ -101,7 +101,7 @@ helpers
 .
 TestHelper
 .
-appName
+packageName
 import
 org
 .
@@ -402,7 +402,7 @@ UiSelector
 resourceId
 (
 "
-appName
+packageName
 :
 id
 /
