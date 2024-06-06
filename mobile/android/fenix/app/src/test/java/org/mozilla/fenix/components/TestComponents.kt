@@ -196,7 +196,7 @@ search
 searchEngineManager
 core
 .
-client
+webAppShortcutManager
 )
 }
 override
