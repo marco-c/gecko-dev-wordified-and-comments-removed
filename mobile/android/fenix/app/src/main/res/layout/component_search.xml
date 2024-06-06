@@ -207,6 +207,13 @@ browserToolbarIcons
 "
 app
 :
+browserToolbarProgressBarGravity
+=
+"
+top
+"
+app
+:
 browserToolbarSecureColor
 =
 "
