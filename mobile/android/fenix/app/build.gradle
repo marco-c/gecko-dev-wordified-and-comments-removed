@@ -4444,7 +4444,7 @@ experimenterManifest
 .
 experimenter
 .
-json
+yaml
 "
 }
 configurations
