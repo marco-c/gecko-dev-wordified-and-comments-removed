@@ -1888,6 +1888,15 @@ value
 enabled
 :
 false
+-
+channel
+:
+nightly
+value
+:
+enabled
+:
+true
 onboarding
 :
 description

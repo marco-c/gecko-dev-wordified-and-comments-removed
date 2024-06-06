@@ -2248,6 +2248,15 @@ settings
 .
 shouldShowJunoOnboarding
 (
+hasUserBeenOnboarded
+=
+onboarding
+.
+userHasBeenOnboarded
+(
+)
+isLauncherIntent
+=
 intent
 .
 toSafeIntent
