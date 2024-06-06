@@ -184,7 +184,6 @@ currentTimeMillis
 }
 )
 {
-protected
 fun
 onMessageDisplayed
 (
@@ -264,7 +263,6 @@ id
 return
 newMessage
 }
-protected
 fun
 onMessageDismissed
 (
@@ -298,7 +296,6 @@ updatedMetadata
 )
 }
 }
-protected
 fun
 onMessageClicked
 (
@@ -332,7 +329,7 @@ updatedMetadata
 )
 }
 }
-internal
+private
 fun
 sendShownMessageTelemetry
 (
@@ -355,7 +352,7 @@ messageId
 )
 )
 }
-internal
+private
 fun
 sendExpiredMessageTelemetry
 (
