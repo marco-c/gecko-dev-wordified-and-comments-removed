@@ -5034,6 +5034,10 @@ mozilla_service_digitalassetlinks
 implementation
 Deps
 .
+mozilla_service_sync_autofill
+implementation
+Deps
+.
 mozilla_service_sync_logins
 implementation
 Deps
