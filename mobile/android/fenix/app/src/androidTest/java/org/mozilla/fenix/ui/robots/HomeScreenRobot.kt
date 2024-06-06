@@ -187,6 +187,18 @@ matcher
 .
 ViewMatchers
 .
+withText
+import
+androidx
+.
+test
+.
+espresso
+.
+matcher
+.
+ViewMatchers
+.
 withId
 import
 androidx
@@ -1060,11 +1072,6 @@ ThreeDotMenuMainRobot
 .
 Transition
 {
-mDevice
-.
-waitForIdle
-(
-)
 threeDotButton
 (
 )
@@ -1107,11 +1114,6 @@ SearchRobot
 .
 Transition
 {
-mDevice
-.
-waitForIdle
-(
-)
 navigationToolbar
 (
 )
@@ -1212,11 +1214,6 @@ ThreeDotMenuMainRobot
 .
 Transition
 {
-mDevice
-.
-waitForIdle
-(
-)
 tabsListThreeDotButton
 (
 )
@@ -1300,8 +1297,6 @@ CoreMatchers
 .
 allOf
 (
-ViewMatchers
-.
 withText
 (
 "
@@ -1342,8 +1337,6 @@ CoreMatchers
 .
 allOf
 (
-ViewMatchers
-.
 withText
 (
 "
@@ -1530,8 +1523,6 @@ CoreMatchers
 .
 allOf
 (
-ViewMatchers
-.
 withText
 (
 "
@@ -1566,8 +1557,6 @@ CoreMatchers
 .
 allOf
 (
-ViewMatchers
-.
 withId
 (
 R
@@ -1606,8 +1595,6 @@ CoreMatchers
 .
 allOf
 (
-ViewMatchers
-.
 withText
 (
 "
@@ -1643,8 +1630,6 @@ CoreMatchers
 .
 allOf
 (
-ViewMatchers
-.
 withText
 (
 "
@@ -1686,8 +1671,6 @@ CoreMatchers
 .
 allOf
 (
-ViewMatchers
-.
 withText
 (
 "
@@ -1721,8 +1704,6 @@ CoreMatchers
 .
 allOf
 (
-ViewMatchers
-.
 withText
 (
 "
@@ -1757,8 +1738,6 @@ CoreMatchers
 .
 allOf
 (
-ViewMatchers
-.
 withText
 (
 "
@@ -1837,8 +1816,6 @@ onView
 (
 allOf
 (
-ViewMatchers
-.
 withId
 (
 R
@@ -1866,8 +1843,6 @@ CoreMatchers
 .
 allOf
 (
-ViewMatchers
-.
 withText
 (
 "
@@ -1905,8 +1880,6 @@ CoreMatchers
 .
 allOf
 (
-ViewMatchers
-.
 withText
 (
 "
@@ -1977,8 +1950,6 @@ CoreMatchers
 .
 allOf
 (
-ViewMatchers
-.
 withText
 (
 "
@@ -2016,8 +1987,6 @@ CoreMatchers
 .
 allOf
 (
-ViewMatchers
-.
 withText
 (
 "
@@ -2053,8 +2022,6 @@ CoreMatchers
 .
 allOf
 (
-ViewMatchers
-.
 withText
 (
 "
@@ -2129,8 +2096,6 @@ CoreMatchers
 .
 allOf
 (
-ViewMatchers
-.
 withText
 (
 "
@@ -2195,8 +2160,6 @@ CoreMatchers
 .
 allOf
 (
-ViewMatchers
-.
 withText
 (
 "
@@ -2261,8 +2224,6 @@ CoreMatchers
 .
 allOf
 (
-ViewMatchers
-.
 withText
 (
 "
@@ -2296,8 +2257,6 @@ CoreMatchers
 .
 allOf
 (
-ViewMatchers
-.
 withText
 (
 "
@@ -2367,8 +2326,6 @@ CoreMatchers
 .
 allOf
 (
-ViewMatchers
-.
 withText
 (
 "
@@ -2414,8 +2371,6 @@ CoreMatchers
 .
 allOf
 (
-ViewMatchers
-.
 withText
 (
 "
@@ -2450,8 +2405,6 @@ CoreMatchers
 .
 allOf
 (
-ViewMatchers
-.
 withText
 (
 containsString
@@ -2495,8 +2448,6 @@ CoreMatchers
 .
 allOf
 (
-ViewMatchers
-.
 withText
 (
 "
@@ -2531,8 +2482,6 @@ CoreMatchers
 .
 allOf
 (
-ViewMatchers
-.
 withText
 (
 "
@@ -2586,8 +2535,6 @@ CoreMatchers
 .
 allOf
 (
-ViewMatchers
-.
 withText
 (
 "
@@ -2624,8 +2571,6 @@ CoreMatchers
 .
 allOf
 (
-ViewMatchers
-.
 withText
 (
 "
@@ -2665,8 +2610,6 @@ CoreMatchers
 .
 allOf
 (
-ViewMatchers
-.
 withText
 (
 "
@@ -2771,8 +2714,6 @@ CoreMatchers
 .
 allOf
 (
-ViewMatchers
-.
 withText
 (
 PRIVATE_SESSION_MESSAGE
@@ -2815,8 +2756,6 @@ CoreMatchers
 .
 allOf
 (
-ViewMatchers
-.
 withId
 (
 R
@@ -2859,8 +2798,6 @@ CoreMatchers
 .
 allOf
 (
-ViewMatchers
-.
 withId
 (
 R
@@ -2920,8 +2857,6 @@ CoreMatchers
 .
 allOf
 (
-ViewMatchers
-.
 withId
 (
 R
@@ -2955,8 +2890,6 @@ onView
 (
 allOf
 (
-ViewMatchers
-.
 withId
 (
 R
@@ -2977,8 +2910,6 @@ onView
 (
 allOf
 (
-ViewMatchers
-.
 withId
 (
 R

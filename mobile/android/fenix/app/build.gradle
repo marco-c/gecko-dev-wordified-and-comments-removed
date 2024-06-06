@@ -4272,6 +4272,10 @@ espresso_idling_resources
 androidTestImplementation
 Deps
 .
+espresso_intents
+androidTestImplementation
+Deps
+.
 tools_test_runner
 androidTestImplementation
 Deps
