@@ -1324,7 +1324,7 @@ arguments
 .
 apply
 {
-beginAnimationIfNecessary
+beginAnimateInIfNecessary
 (
 )
 }

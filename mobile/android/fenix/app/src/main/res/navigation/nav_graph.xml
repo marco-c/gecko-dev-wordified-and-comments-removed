@@ -426,6 +426,15 @@ home
 .
 HomeFragment
 "
+app
+:
+enterAnim
+=
+"
+anim
+/
+zoom_out_fade
+"
 tools
 :
 layout
@@ -579,7 +588,7 @@ popEnterAnim
 "
 anim
 /
-fade_in
+zoom_out_fade
 "
 /
 >
