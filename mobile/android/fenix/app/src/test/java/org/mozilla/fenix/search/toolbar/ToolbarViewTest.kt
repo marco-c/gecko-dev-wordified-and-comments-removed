@@ -472,6 +472,7 @@ listeners
 (
 )
 {
+lateinit
 var
 urlCommitListener
 :
@@ -483,9 +484,6 @@ String
 >
 Boolean
 )
-?
-=
-null
 var
 editListener
 :
@@ -539,15 +537,9 @@ isPrivate
 =
 false
 )
-assertNotNull
-(
-urlCommitListener
-)
 assertFalse
 (
 urlCommitListener
-!
-!
 (
 "
 test
