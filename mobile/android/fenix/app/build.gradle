@@ -72,6 +72,8 @@ androidx
 navigation
 .
 safeargs
+.
+kotlin
 '
 apply
 plugin
