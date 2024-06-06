@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-ac_taskgraph
+android_taskgraph
 .
 loader
 .
@@ -68,7 +68,7 @@ loader
 transforms
 :
 -
-ac_taskgraph
+android_taskgraph
 .
 transforms
 .
@@ -76,7 +76,7 @@ all_dep
 :
 transforms
 -
-ac_taskgraph
+android_taskgraph
 .
 transforms
 .

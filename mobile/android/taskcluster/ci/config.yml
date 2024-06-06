@@ -1145,7 +1145,7 @@ taskgraph
 :
 register
 :
-ac_taskgraph
+android_taskgraph
 :
 register
 repositories
@@ -1175,7 +1175,7 @@ decision
 parameters
 :
 '
-ac_taskgraph
+android_taskgraph
 :
 get_decision_parameters
 '
