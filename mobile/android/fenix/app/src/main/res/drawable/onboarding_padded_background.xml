@@ -106,9 +106,8 @@ android
 color
 =
 "
-color
-/
-onboarding_padded_background_color
+#
+1F000000
 "
 >
 <

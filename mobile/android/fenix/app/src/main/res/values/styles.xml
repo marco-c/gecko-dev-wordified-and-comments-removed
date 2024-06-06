@@ -6362,6 +6362,13 @@ parent
 "
 OnboardingCardLightWithPadding
 "
+tools
+:
+ignore
+=
+"
+UnusedResources
+"
 >
 <
 item
