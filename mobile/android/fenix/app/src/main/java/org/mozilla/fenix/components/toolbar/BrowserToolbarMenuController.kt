@@ -1892,14 +1892,6 @@ FindInPage
 findInPageLauncher
 (
 )
-metrics
-.
-track
-(
-Event
-.
-FindInPageOpened
-)
 }
 is
 ToolbarMenu

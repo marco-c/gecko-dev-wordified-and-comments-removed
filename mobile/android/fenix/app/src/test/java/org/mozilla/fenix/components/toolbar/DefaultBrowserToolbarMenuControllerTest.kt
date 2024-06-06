@@ -3418,17 +3418,6 @@ assertTrue
 (
 launcherInvoked
 )
-verify
-{
-metrics
-.
-track
-(
-Event
-.
-FindInPageOpened
-)
-}
 }
 Test
 fun
