@@ -734,6 +734,7 @@ alignment
 }
 Preview
 Composable
+private
 fun
 ThumbnailCardPreview
 (

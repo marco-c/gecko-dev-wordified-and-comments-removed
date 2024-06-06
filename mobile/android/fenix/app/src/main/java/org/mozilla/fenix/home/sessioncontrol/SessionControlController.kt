@@ -3214,13 +3214,17 @@ isEmpty
 (
 )
 )
+{
 Event
 .
 RecentTabsSectionIsNotVisible
+}
 else
+{
 Event
 .
 RecentTabsSectionIsVisible
+}
 )
 track
 (

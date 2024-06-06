@@ -1131,6 +1131,7 @@ if
 (
 popAfter
 )
+{
 viewLifecycleOwner
 .
 lifecycleScope
@@ -1187,6 +1188,7 @@ actionGlobalSettingsFragment
 (
 )
 )
+}
 }
 }
 }

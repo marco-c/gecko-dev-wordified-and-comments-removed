@@ -289,6 +289,7 @@ if
 (
 isShortcut
 )
+{
 Event
 .
 PerformedSearch
@@ -300,7 +301,9 @@ Shortcut
 engine
 isCustom
 )
+}
 else
+{
 Event
 .
 PerformedSearch
@@ -312,6 +315,7 @@ Default
 engine
 isCustom
 )
+}
 return
 when
 (

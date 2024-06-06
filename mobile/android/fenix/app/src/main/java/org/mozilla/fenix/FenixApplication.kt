@@ -2596,6 +2596,8 @@ order
 these
 operations
 .
+/
+/
 OptIn
 (
 DelicateCoroutinesApi
@@ -2607,12 +2609,16 @@ class
 /
 GlobalScope
 usage
+/
+/
 private
 fun
 runStorageMaintenance
 (
 )
 {
+/
+/
 GlobalScope
 .
 launch
@@ -2622,6 +2628,8 @@ Dispatchers
 IO
 )
 {
+/
+/
 /
 /
 Bookmarks
@@ -2643,6 +2651,8 @@ need
 to
 /
 /
+/
+/
 run
 maintenance
 on
@@ -2652,6 +2662,10 @@ arbitrarily
 using
 bookmarks
 .
+/
+/
+/
+/
 components
 .
 core
@@ -2661,7 +2675,11 @@ bookmarksStorage
 runMaintenance
 (
 )
+/
+/
 }
+/
+/
 settings
 (
 )
@@ -2673,6 +2691,8 @@ System
 currentTimeMillis
 (
 )
+/
+/
 }
 protected
 open

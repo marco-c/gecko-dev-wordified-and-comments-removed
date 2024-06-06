@@ -699,15 +699,6 @@ useCases
 sessionUseCases
 .
 reload
-addNewTab
-=
-components
-.
-useCases
-.
-tabsUseCases
-.
-addTab
 requestRuntimePermissions
 =
 {
@@ -728,11 +719,6 @@ displayPermissions
 :
 :
 showPermissionsView
-dismiss
-=
-:
-:
-dismiss
 )
 interactor
 =

@@ -818,6 +818,7 @@ channel
 .
 isMozillaOnline
 )
+{
 getString
 (
 R
@@ -826,7 +827,9 @@ string
 .
 sign_in_instructions_cn
 )
+}
 else
+{
 getString
 (
 R
@@ -835,6 +838,7 @@ string
 .
 sign_in_instructions
 )
+}
 HtmlCompat
 .
 FROM_HTML_MODE_LEGACY

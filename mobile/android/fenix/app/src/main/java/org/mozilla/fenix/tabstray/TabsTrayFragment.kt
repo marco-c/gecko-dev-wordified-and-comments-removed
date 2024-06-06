@@ -1737,9 +1737,6 @@ navigationInteractor
 tabsTrayInteractor
 =
 tabsTrayInteractor
-containerView
-=
-view
 backgroundView
 =
 tabsTrayBinding

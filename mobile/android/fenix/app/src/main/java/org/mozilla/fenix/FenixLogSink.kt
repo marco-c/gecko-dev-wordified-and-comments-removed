@@ -197,7 +197,9 @@ DEBUG
 !
 logsDebug
 )
+{
 return
+}
 androidLogSink
 .
 log

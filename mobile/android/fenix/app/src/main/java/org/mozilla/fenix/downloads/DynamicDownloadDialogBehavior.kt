@@ -649,6 +649,7 @@ bottomToolbarHeight
 /
 2
 )
+{
 animateSnap
 (
 child
@@ -656,7 +657,9 @@ SnapDirection
 .
 DOWN
 )
+}
 else
+{
 animateSnap
 (
 child
@@ -664,6 +667,7 @@ SnapDirection
 .
 UP
 )
+}
 }
 else
 {
@@ -687,6 +691,7 @@ toFloat
 2
 )
 )
+{
 animateSnap
 (
 child
@@ -694,7 +699,9 @@ SnapDirection
 .
 UP
 )
+}
 else
+{
 animateSnap
 (
 child
@@ -702,6 +709,7 @@ SnapDirection
 .
 DOWN
 )
+}
 }
 }
 }
@@ -891,8 +899,11 @@ SnapDirection
 .
 UP
 )
+{
 0f
+}
 else
+{
 child
 .
 height
@@ -902,6 +913,7 @@ toFloat
 )
 +
 bottomToolbarHeight
+}
 )
 start
 (
