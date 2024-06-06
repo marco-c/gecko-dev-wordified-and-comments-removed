@@ -1,14 +1,4 @@
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
-six
-import
-text_type
-from
 voluptuous
 import
 Any
@@ -65,7 +55,7 @@ type
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -96,7 +86,7 @@ taskType
 "
 )
 :
-text_type
+str
                 
 Required
 (
@@ -106,7 +96,7 @@ paths
 )
 :
 [
-text_type
+str
 ]
                 
 Required
@@ -117,7 +107,7 @@ formats
 )
 :
 [
-text_type
+str
 ]
             
 }
@@ -348,7 +338,7 @@ action
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -357,7 +347,7 @@ version
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -369,8 +359,9 @@ map
 )
 :
 [
-{
             
+{
+                
 Required
 (
 "
@@ -379,14 +370,14 @@ paths
 )
 :
 {
-                
+                    
 Any
 (
-text_type
+str
 )
 :
 {
-                    
+                        
 Required
 (
 "
@@ -395,13 +386,13 @@ destinations
 )
 :
 [
-text_type
+str
 ]
+                    
+}
                 
 }
-            
-}
-            
+                
 Required
 (
 "
@@ -410,8 +401,9 @@ taskId
 )
 :
 taskref_or_string
-        
+            
 }
+        
 ]
         
 Required
@@ -425,7 +417,7 @@ name
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -434,7 +426,7 @@ bucket
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -446,8 +438,9 @@ artifacts
 )
 :
 [
-{
             
+{
+                
 Required
 (
 "
@@ -456,7 +449,7 @@ taskId
 )
 :
 taskref_or_string
-            
+                
 Required
 (
 "
@@ -464,8 +457,8 @@ taskType
 "
 )
 :
-text_type
-            
+str
+                
 Required
 (
 "
@@ -474,10 +467,11 @@ paths
 )
 :
 [
-text_type
+str
 ]
-        
+            
 }
+        
 ]
     
 }
@@ -665,8 +659,9 @@ scopes
 .
 extend
 (
-[
         
+[
+            
 "
 {
 }
@@ -689,7 +684,7 @@ action
 "
 ]
 )
-        
+            
 "
 {
 }
@@ -712,8 +707,9 @@ bucket
 "
 ]
 )
+        
+]
     
-]
 )
 payload_builder
 (
@@ -757,7 +753,7 @@ taskType
 "
 )
 :
-text_type
+str
                 
 Required
 (
@@ -767,7 +763,7 @@ paths
 )
 :
 [
-text_type
+str
 ]
             
 }
@@ -783,7 +779,7 @@ alias
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -792,7 +788,7 @@ channel
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -810,7 +806,7 @@ product
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -832,7 +828,7 @@ track
 "
 )
 :
-text_type
+str
     
 }
 )
@@ -1081,7 +1077,7 @@ taskType
 "
 )
 :
-text_type
+str
                 
 Required
 (
@@ -1091,7 +1087,7 @@ paths
 )
 :
 [
-text_type
+str
 ]
             
 }
@@ -1107,7 +1103,7 @@ name
 "
 )
 :
-text_type
+str
     
 }
 )
@@ -1149,26 +1145,24 @@ scriptworker
     
 task_def
 [
-'
+"
 payload
-'
+"
 ]
 =
 {
-        
-'
+"
 release_name
-'
+"
 :
 worker
 [
-'
+"
 release
 -
 name
-'
+"
 ]
-    
 }
 payload_builder
 (
@@ -1212,7 +1206,7 @@ taskType
 "
 )
 :
-text_type
+str
                 
 Required
 (
@@ -1222,7 +1216,7 @@ paths
 )
 :
 [
-text_type
+str
 ]
             
 }
@@ -1249,7 +1243,7 @@ action
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -1260,7 +1254,7 @@ tag
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -1271,7 +1265,7 @@ revision
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -1282,7 +1276,7 @@ project
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -1304,7 +1298,7 @@ name
 "
 )
 :
-text_type
+str
     
 }
 )
@@ -1460,8 +1454,9 @@ scopes
 .
 extend
 (
-[
         
+[
+            
 "
 {
 }
@@ -1486,7 +1481,7 @@ project
 "
 ]
 )
-        
+            
 "
 {
 }
@@ -1509,8 +1504,9 @@ action
 "
 ]
 )
-    
+        
 ]
+    
 )
 payload_builder
 (
@@ -1554,7 +1550,7 @@ taskType
 "
 )
 :
-text_type
+str
                 
 Optional
 (
@@ -1564,7 +1560,7 @@ paths
 )
 :
 [
-text_type
+str
 ]
             
 }
@@ -1590,7 +1586,7 @@ files
 )
 :
 [
-text_type
+str
 ]
         
 Optional
@@ -1609,7 +1605,7 @@ branch
 "
 )
 :
-text_type
+str
     
 }
 )
@@ -1651,15 +1647,15 @@ scriptworker
     
 task_def
 [
-'
+"
 payload
-'
+"
 ]
 =
 {
-'
+"
 actions
-'
+"
 :
 [
 ]
@@ -1669,22 +1665,22 @@ actions
 =
 task_def
 [
-'
+"
 payload
-'
+"
 ]
 [
-'
+"
 actions
-'
+"
 ]
     
 if
 worker
 [
-'
+"
 bump
-'
+"
 ]
 :
         
@@ -1692,11 +1688,11 @@ if
 not
 worker
 [
-'
+"
 bump
 -
 files
-'
+"
 ]
 :
             
@@ -1737,30 +1733,30 @@ next_version
         
 bump_info
 [
-'
+"
 files
-'
+"
 ]
 =
 worker
 [
-'
+"
 bump
 -
 files
-'
+"
 ]
         
 task_def
 [
-'
+"
 payload
-'
+"
 ]
 [
-'
+"
 version_bump_info
-'
+"
 ]
 =
 bump_info
@@ -1769,9 +1765,9 @@ actions
 .
 append
 (
-'
+"
 version_bump
-'
+"
 )
     
 if
@@ -1785,14 +1781,14 @@ push
         
 task_def
 [
-'
+"
 payload
-'
+"
 ]
 [
-'
+"
 push
-'
+"
 ]
 =
 True
@@ -1802,26 +1798,26 @@ worker
 .
 get
 (
-'
+"
 force
 -
 dry
 -
 run
-'
+"
 )
 :
         
 task_def
 [
-'
+"
 payload
-'
+"
 ]
 [
-'
+"
 dry_run
-'
+"
 ]
 =
 True

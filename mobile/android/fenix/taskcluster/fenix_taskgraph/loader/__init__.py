@@ -1,9 +1,3 @@
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 copy
 GROUP_BY_MAP
@@ -50,11 +44,11 @@ GROUP_BY_MAP
 [
 config
 [
-'
+"
 group
 -
 by
-'
+"
 ]
 ]
     
@@ -95,11 +89,11 @@ yield
 dependencies
 group_by
 (
-'
+"
 build
 -
 type
-'
+"
 )
 def
 build_type_grouping
@@ -120,11 +114,11 @@ config
 .
 get
 (
-'
+"
 kind
 -
 dependencies
-'
+"
 )
     
 only_build_type
@@ -133,7 +127,7 @@ config
 .
 get
 (
-'
+"
 only
 -
 for
@@ -141,7 +135,7 @@ for
 build
 -
 types
-'
+"
 )
     
 for
@@ -173,11 +167,11 @@ attributes
 .
 get
 (
-'
+"
 build
 -
 type
-'
+"
 )
             
 if
@@ -197,11 +191,11 @@ attributes
 .
 get
 (
-'
+"
 build
 -
 type
-'
+"
 )
         
 groups
@@ -222,9 +216,9 @@ return
 groups
 group_by
 (
-'
+"
 attributes
-'
+"
 )
 def
 attributes_grouping
@@ -245,11 +239,11 @@ config
 .
 get
 (
-'
+"
 kind
 -
 dependencies
-'
+"
 )
     
 only_attributes
@@ -258,13 +252,13 @@ config
 .
 get
 (
-'
+"
 only
 -
 for
 -
 attributes
-'
+"
 )
     
 for

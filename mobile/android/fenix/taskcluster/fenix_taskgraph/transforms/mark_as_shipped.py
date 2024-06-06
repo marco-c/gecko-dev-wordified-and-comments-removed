@@ -20,12 +20,6 @@ kind
 "
 "
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
 taskgraph
 .
 transforms
@@ -68,9 +62,9 @@ resolve_keyed_by
             
 task
             
-'
+"
 scopes
-'
+"
             
 item_name
 =
@@ -85,9 +79,9 @@ name
 *
 {
                 
-'
+"
 level
-'
+"
 :
 config
 .
@@ -133,9 +127,9 @@ config
 .
 params
 [
-'
+"
 version
-'
+"
 ]
 or
 "
@@ -146,19 +140,21 @@ ver
         
 job
 [
-'
+"
 worker
-'
+"
 ]
 [
-'
+            
+"
 release
 -
 name
-'
+"
+        
 ]
 =
-'
+"
 {
 product
 }
@@ -171,7 +167,7 @@ build
 {
 build_number
 }
-'
+"
 .
 format
 (
@@ -192,9 +188,9 @@ params
 .
 get
 (
-'
+"
 build_number
-'
+"
 1
 )
         

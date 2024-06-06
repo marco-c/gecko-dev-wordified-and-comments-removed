@@ -14,19 +14,8 @@ description
 "
 "
 "
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 logging
-from
-six
-import
-text_type
-ensure_text
 from
 taskgraph
 .
@@ -55,7 +44,6 @@ task_description_schema
 from
 voluptuous
 import
-Any
 Optional
 Required
 Schema
@@ -89,7 +77,7 @@ name
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -166,7 +154,7 @@ for
 )
 :
 [
-text_type
+str
 ]
         
 Optional
@@ -251,8 +239,6 @@ name
         
 description
 =
-(
-            
 "
 Beetmover
 submission
@@ -268,7 +254,7 @@ build_type
 .
 format
 (
-                
+            
 build_type
 =
 attributes
@@ -280,8 +266,6 @@ build
 -
 type
 "
-)
-            
 )
         
 )
@@ -326,38 +310,38 @@ item_name
 =
 task
 [
-'
+"
 name
-'
+"
 ]
             
 *
 *
 {
                 
-'
+"
 build
 -
 type
-'
+"
 :
 task
 [
-'
+"
 attributes
-'
+"
 ]
 [
-'
+"
 build
 -
 type
-'
+"
 ]
                 
-'
+"
 level
-'
+"
 :
 config
 .
@@ -378,11 +362,11 @@ task
 .
 pop
 (
-'
+"
 bucket
 -
 scope
-'
+"
 )
         
 task
@@ -545,7 +529,7 @@ app
 name
 "
 :
-ensure_text
+str
 (
 params
 [
@@ -561,7 +545,7 @@ app
 version
 "
 :
-ensure_text
+str
 (
 params
 [
@@ -575,7 +559,7 @@ version
 branch
 "
 :
-ensure_text
+str
 (
 params
 [
@@ -591,7 +575,7 @@ build
 id
 "
 :
-ensure_text
+str
 (
 params
 [

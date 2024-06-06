@@ -1,9 +1,3 @@
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 itertools
 import
@@ -1080,7 +1074,6 @@ label
 *
 *
 {
-            
 "
 build
 -
@@ -1100,7 +1093,6 @@ build
 type
 "
 ]
-        
 }
     
 )
@@ -1336,22 +1328,17 @@ checksums_path
                 
 resolve_keyed_by
 (
-                    
 file_config
-                    
 field
-                    
 job
 [
 "
 label
 "
 ]
-                    
 locale
 =
 locale
-                
 )
             
 destinations
@@ -1683,9 +1670,9 @@ version
 .
 split
 (
-'
+"
 -
-'
+"
 )
 [
 0
@@ -1712,25 +1699,21 @@ update
 (
             
 {
-                
 "
 locale
 "
 :
 locale
-                
 "
 version
 "
 :
 version
-                
 "
 folder_prefix
 "
 :
 folder_prefix
-            
 }
         
 )
