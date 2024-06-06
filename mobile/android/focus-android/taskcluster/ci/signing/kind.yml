@@ -152,7 +152,17 @@ build
 -
 type
 :
+(
 nightly
+|
+focus
+-
+release
+|
+klar
+-
+release
+)
 :
 type
 :
