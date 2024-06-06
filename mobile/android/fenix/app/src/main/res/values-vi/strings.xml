@@ -3653,7 +3653,7 @@ n
 k
 t
 t
-b
+khay
 nh
 t
 m
@@ -5574,8 +5574,8 @@ preferences_show_search_suggestions
 Hi
 n
 th
-g
-i
+xu
+t
 t
 m
 ki
@@ -5699,7 +5699,7 @@ n
 th
 xu
 t
-b
+khay
 nh
 t
 m
@@ -23777,6 +23777,9 @@ name
 preferences_passwords_logins_and_passwords
 "
 >
+Th
+ng
+tin
 ng
 nh
 p
@@ -23955,6 +23958,9 @@ ng
 b
 h
 a
+th
+ng
+tin
 ng
 nh
 p
@@ -24109,6 +24115,9 @@ name
 preferences_passwords_saved_logins
 "
 >
+Th
+ng
+tin
 ng
 nh
 p
@@ -24281,6 +24290,9 @@ name
 preferences_passwords_exceptions_description_empty
 "
 >
+Th
+ng
+tin
 ng
 nh
 p
@@ -24332,6 +24344,9 @@ name
 preferences_passwords_exceptions_description
 "
 >
+Th
+ng
+tin
 ng
 nh
 p
