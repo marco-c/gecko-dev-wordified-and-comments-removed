@@ -83,6 +83,9 @@ test
 (
 self
 identifier
+smoke
+=
+None
 )
 :
         
@@ -117,6 +120,18 @@ chdir
 "
 )
         
+test_type
+=
+"
+ui
+"
+if
+smoke
+else
+"
+experimentintegration
+"
+        
 cmd
 =
 f
@@ -136,7 +151,9 @@ mozilla
 .
 fenix
 .
-experimentintegration
+{
+test_type
+}
 .
 {
 identifier

@@ -106,3 +106,9 @@ http
 :
 5000
 "
+smoke_tests
+:
+-
+"
+AddressAutofillTest
+"
