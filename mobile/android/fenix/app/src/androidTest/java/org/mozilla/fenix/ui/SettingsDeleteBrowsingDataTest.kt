@@ -302,13 +302,6 @@ Delete
 Browsing
 Data
 *
-Delete
-Browsing
-Data
-on
-quit
-*
-*
 /
 class
 SettingsDeleteBrowsingDataTest
