@@ -847,8 +847,6 @@ currentTimeMillis
 (
 )
 -
-this
-.
 settings
 (
 )
@@ -919,8 +917,6 @@ runMaintenance
 (
 )
 }
-this
-.
 settings
 (
 )
