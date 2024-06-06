@@ -366,9 +366,7 @@ textColor
 =
 "
 ?
-attr
-/
-toolbarTextColor
+primaryText
 "
 android
 :

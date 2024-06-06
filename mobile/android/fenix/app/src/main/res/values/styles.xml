@@ -1133,9 +1133,7 @@ textColor
 "
 >
 ?
-attr
-/
-toolbarTextColor
+primaryText
 <
 /
 item
