@@ -801,10 +801,10 @@ ViewMatchers
 withText
 (
 "
-Sign
-in
-to
 Sync
+and
+save
+data
 "
 )
 )
