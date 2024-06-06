@@ -1648,6 +1648,16 @@ testGetValue
 (
 )
 )
+assertTrue
+(
+Metrics
+.
+defaultWallpaper
+.
+testGetValue
+(
+)
+)
 val
 contextId
 =

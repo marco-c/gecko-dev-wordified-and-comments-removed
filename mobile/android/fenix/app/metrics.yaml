@@ -7713,7 +7713,7 @@ metadata
 tags
 :
 -
-TopSites
+Shortcuts
 has_top_sites
 :
 type
@@ -7893,7 +7893,7 @@ metadata
 tags
 :
 -
-TopSites
+Shortcuts
 recently_used_pwa_count
 :
 type
@@ -11726,6 +11726,12 @@ com
 expires
 :
 114
+metadata
+:
+tags
+:
+-
+Wallpapers
 customize_home
 :
 most_visited_sites
@@ -36661,7 +36667,7 @@ metadata
 tags
 :
 -
-TopSites
+Shortcuts
 open_google_search_attribution
 :
 type
@@ -36811,7 +36817,7 @@ tags
 -
 Search
 -
-TopSites
+Shortcuts
 open_baidu_search_attribution
 :
 type
@@ -36912,7 +36918,7 @@ tags
 -
 Search
 -
-TopSites
+Shortcuts
 open_frecency
 :
 type
@@ -37082,7 +37088,7 @@ metadata
 tags
 :
 -
-TopSites
+Shortcuts
 open_pinned
 :
 type
@@ -37252,7 +37258,7 @@ metadata
 tags
 :
 -
-TopSites
+Shortcuts
 swipe_carousel
 :
 type
@@ -37445,7 +37451,7 @@ metadata
 tags
 :
 -
-TopSites
+Shortcuts
 long_press
 :
 type
@@ -37684,7 +37690,7 @@ metadata
 tags
 :
 -
-TopSites
+Shortcuts
 open_in_new_tab
 :
 type
@@ -37859,7 +37865,7 @@ metadata
 tags
 :
 -
-TopSites
+Shortcuts
 open_in_private_tab
 :
 type
@@ -38035,7 +38041,7 @@ metadata
 tags
 :
 -
-TopSites
+Shortcuts
 remove
 :
 type
@@ -38205,7 +38211,7 @@ metadata
 tags
 :
 -
-TopSites
+Shortcuts
 google_top_site_removed
 :
 type
@@ -38833,7 +38839,7 @@ metadata
 tags
 :
 -
-TopSites
+Shortcuts
 contile_tile_id
 :
 type
@@ -38929,7 +38935,7 @@ metadata
 tags
 :
 -
-TopSites
+Shortcuts
 contile_advertiser
 :
 type
@@ -39017,7 +39023,7 @@ metadata
 tags
 :
 -
-TopSites
+Shortcuts
 contile_reporting_url
 :
 type
@@ -39113,7 +39119,7 @@ metadata
 tags
 :
 -
-TopSites
+Shortcuts
 contile_impression
 :
 type
@@ -39234,7 +39240,7 @@ metadata
 tags
 :
 -
-TopSites
+Shortcuts
 contile_click
 :
 type
@@ -39355,7 +39361,7 @@ metadata
 tags
 :
 -
-TopSites
+Shortcuts
 app_theme
 :
 dark_theme_selected
@@ -39744,7 +39750,7 @@ tags
 -
 PocketIntegration
 -
-TopSites
+Shortcuts
 pocket_top_site_removed
 :
 type
@@ -39912,7 +39918,7 @@ tags
 -
 PocketIntegration
 -
-TopSites
+Shortcuts
 home_recs_shown
 :
 type
@@ -55886,6 +55892,12 @@ interaction
 expires
 :
 114
+metadata
+:
+tags
+:
+-
+Wallpapers
 wallpaper_selected
 :
 type
@@ -55990,6 +56002,12 @@ interaction
 expires
 :
 114
+metadata
+:
+tags
+:
+-
+Wallpapers
 wallpaper_switched
 :
 type
@@ -56095,6 +56113,12 @@ interaction
 expires
 :
 114
+metadata
+:
+tags
+:
+-
+Wallpapers
 change_wallpaper_logo_toggled
 :
 type
@@ -56196,6 +56220,12 @@ interaction
 expires
 :
 114
+metadata
+:
+tags
+:
+-
+Wallpapers
 recently_visited_homepage
 :
 history_highlight_opened
