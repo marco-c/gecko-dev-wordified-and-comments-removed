@@ -3237,13 +3237,6 @@ null
 "
 app
 :
-nullable
-=
-"
-true
-"
-app
-:
 argType
 =
 "
@@ -3258,6 +3251,13 @@ share
 ShareTab
 [
 ]
+"
+app
+:
+nullable
+=
+"
+true
 "
 /
 >

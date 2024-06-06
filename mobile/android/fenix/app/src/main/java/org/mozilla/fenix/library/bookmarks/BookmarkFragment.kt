@@ -1462,7 +1462,11 @@ BookmarkFragmentDirections
 .
 actionBookmarkFragmentToShareFragment
 (
+url
+=
 this
+title
+=
 it
 .
 item

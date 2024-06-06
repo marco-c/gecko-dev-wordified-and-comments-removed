@@ -5467,6 +5467,8 @@ BrowserFragmentDirections
 actionBrowserFragmentToShareFragment
 (
 url
+=
+url
 )
 nav
 (
