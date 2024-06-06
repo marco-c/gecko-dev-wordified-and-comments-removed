@@ -263,6 +263,11 @@ Boolean
 {
 session
 .
+progress
+=
+MAXIMUM_PROGRESS
+session
+.
 loading
 =
 false
