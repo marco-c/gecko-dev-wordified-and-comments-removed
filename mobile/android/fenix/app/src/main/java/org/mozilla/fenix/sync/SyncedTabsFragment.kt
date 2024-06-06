@@ -280,6 +280,11 @@ feature
 =
 SyncedTabsFeature
 (
+context
+=
+requireContext
+(
+)
 storage
 =
 backgroundServices
