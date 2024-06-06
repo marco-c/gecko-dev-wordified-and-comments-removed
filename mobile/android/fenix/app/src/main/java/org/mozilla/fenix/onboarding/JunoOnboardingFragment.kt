@@ -857,7 +857,7 @@ directions
 =
 JunoOnboardingFragmentDirections
 .
-actionOnboardingHome
+actionHome
 (
 )
 )

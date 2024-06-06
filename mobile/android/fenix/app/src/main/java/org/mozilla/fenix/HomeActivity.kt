@@ -2314,7 +2314,7 @@ navigate
 (
 NavGraphDirections
 .
-actionGlobalHomeJunoOnboarding
+actionGlobalJunoOnboarding
 (
 )
 )
