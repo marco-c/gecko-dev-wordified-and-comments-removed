@@ -554,6 +554,16 @@ every
 {
 fragment
 .
+provideAccessibilityServicesEnabled
+(
+)
+}
+returns
+false
+every
+{
+fragment
+.
 provideAddonManger
 (
 )
