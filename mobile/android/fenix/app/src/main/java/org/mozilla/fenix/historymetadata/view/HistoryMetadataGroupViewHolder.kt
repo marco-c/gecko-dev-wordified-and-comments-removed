@@ -311,7 +311,7 @@ R
 .
 string
 .
-recently_visited_delete_from_history
+recently_visited_menu_item_remove
 )
 onClick
 =
