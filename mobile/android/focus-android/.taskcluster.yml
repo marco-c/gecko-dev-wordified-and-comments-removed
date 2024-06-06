@@ -449,8 +449,9 @@ no
 -
 daemon
 clean
-assembleFocusX86DebugAndroidTest
-assembleKlarX86NightlyAndroidTest
+assembleFocusX86Debug
+assembleKlarX86Nightly
+assembleRelease
 detektCheck
 ktlint
 lint
