@@ -513,12 +513,9 @@ framework
 .
 *
 /
+const
 val
 messagingFeature
 =
-Config
-.
-channel
-.
-isNightlyOrDebug
+true
 }
