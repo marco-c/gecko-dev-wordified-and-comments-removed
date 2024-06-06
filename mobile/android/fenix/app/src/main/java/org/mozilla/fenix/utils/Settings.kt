@@ -897,7 +897,11 @@ pref_key_show_grid_view_tabs_settings
 )
 default
 =
-false
+Config
+.
+channel
+.
+isNightlyOrDebug
 featureFlag
 =
 FeatureFlags
