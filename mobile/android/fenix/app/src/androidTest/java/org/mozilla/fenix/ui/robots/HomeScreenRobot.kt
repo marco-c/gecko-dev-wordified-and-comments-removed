@@ -4227,6 +4227,17 @@ TabDrawerRobot
 .
 Transition
 {
+scrollToElementByText
+(
+getStringResource
+(
+R
+.
+string
+.
+no_collections_description2
+)
+)
 saveTabsToCollectionButton
 (
 )
