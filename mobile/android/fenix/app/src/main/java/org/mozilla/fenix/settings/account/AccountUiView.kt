@@ -224,6 +224,15 @@ updateFxASyncOverrideMenu
 -
 >
 Unit
+private
+val
+updateFxAAllowDomesticChinaServerMenu
+:
+(
+)
+-
+>
+Unit
 )
 {
 private
@@ -361,6 +370,9 @@ authenticatedAccount
 (
 )
 updateFxASyncOverrideMenu
+(
+)
+updateFxAAllowDomesticChinaServerMenu
 (
 )
 /

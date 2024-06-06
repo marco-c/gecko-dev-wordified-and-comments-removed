@@ -171,6 +171,14 @@ false
 }
 }
 val
+fxaExpectChinaServers
+=
+Config
+.
+channel
+.
+isMozillaOnline
+val
 migrator
 by
 lazy
@@ -252,6 +260,7 @@ backgroundServices
 .
 accountManager
 }
+fxaExpectChinaServers
 )
 .
 migrateAddons
