@@ -426,7 +426,7 @@ components
 .
 searchEngineManager
 .
-load
+loadAsync
 (
 this
 SearchEngineListPreference

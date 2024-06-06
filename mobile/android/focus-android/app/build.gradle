@@ -152,7 +152,7 @@ versionName
 .
 0
 .
-13
+14
 "
 testInstrumentationRunner
 "
@@ -1491,7 +1491,7 @@ geckoview
 :
 geckoview
 -
-nightly
+beta
 -
 armeabi
 -
@@ -1511,7 +1511,7 @@ geckoview
 :
 geckoview
 -
-nightly
+beta
 -
 x86
 :
@@ -1529,7 +1529,7 @@ geckoview
 :
 geckoview
 -
-nightly
+beta
 -
 arm64
 -

@@ -425,10 +425,14 @@ launch
 IO
 )
 {
-load
+loadAsync
 (
 this
 FocusApplication
+)
+.
+await
+(
 )
 }
 registerForLocaleUpdates
