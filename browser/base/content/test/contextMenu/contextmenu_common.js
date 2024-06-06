@@ -368,8 +368,7 @@ isGenerated
 is
 (
 key
-"
-"
+null
 "
 Generated
 items
