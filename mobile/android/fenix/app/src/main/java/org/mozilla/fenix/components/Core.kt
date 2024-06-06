@@ -1028,14 +1028,4 @@ PreferredColorScheme
 Light
 }
 }
-companion
-object
-{
-private
-const
-val
-BUNDLE_LIFETIME_IN_MINUTES
-=
-5L
-}
 }
