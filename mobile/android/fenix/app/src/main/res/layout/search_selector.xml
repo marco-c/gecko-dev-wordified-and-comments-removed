@@ -192,13 +192,6 @@ layout_height
 "
 android
 :
-layout_marginTop
-=
-"
-14dp
-"
-android
-:
 layout_marginHorizontal
 =
 "
@@ -317,13 +310,6 @@ layout_height
 =
 "
 24dp
-"
-android
-:
-scaleType
-=
-"
-center
 "
 android
 :

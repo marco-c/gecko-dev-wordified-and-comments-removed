@@ -243,7 +243,7 @@ private
 val
 interactor
 :
-ToolbarInteractor
+SearchSelectorInteractor
 )
 {
 /

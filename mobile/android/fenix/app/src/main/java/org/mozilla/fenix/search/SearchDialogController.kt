@@ -343,6 +343,18 @@ search
 .
 toolbar
 .
+SearchSelectorInteractor
+import
+org
+.
+mozilla
+.
+fenix
+.
+search
+.
+toolbar
+.
 SearchSelectorMenu
 import
 org
@@ -478,7 +490,7 @@ SearchEngine
 *
 see
 [
-ToolbarInteractor
+SearchSelectorInteractor
 .
 onMenuItemTapped
 ]
