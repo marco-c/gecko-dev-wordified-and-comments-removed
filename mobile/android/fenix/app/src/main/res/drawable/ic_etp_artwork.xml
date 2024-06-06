@@ -146,6 +146,13 @@ viewportHeight
 "
 1051
 "
+android
+:
+autoMirrored
+=
+"
+true
+"
 >
 <
 group
