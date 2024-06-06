@@ -163,7 +163,7 @@ helpers
 .
 AppAndSystemHelper
 .
-deleteDownloadedFileOnStorage
+clearDownloadsFolder
 import
 org
 .
@@ -408,6 +408,17 @@ tearDown
 mockWebServer
 .
 shutdown
+(
+)
+/
+/
+Check
+and
+clear
+the
+downloads
+folder
+clearDownloadsFolder
 (
 )
 }
@@ -683,10 +694,6 @@ assertExternalAppOpens
 GOOGLE_DOCS
 )
 }
-deleteDownloadedFileOnStorage
-(
-downloadFile
-)
 }
 /
 /
