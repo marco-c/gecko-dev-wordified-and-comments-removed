@@ -403,7 +403,7 @@ feature
 .
 downloads
 .
-share
+temporary
 .
 ShareDownloadFeature
 import

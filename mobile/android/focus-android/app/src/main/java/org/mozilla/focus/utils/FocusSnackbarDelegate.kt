@@ -81,11 +81,11 @@ mozilla
 .
 components
 .
-feature
+support
 .
-contextmenu
+utils
 .
-ContextMenuCandidate
+SnackbarDelegate
 class
 FocusSnackbarDelegate
 (
@@ -96,8 +96,6 @@ view
 View
 )
 :
-ContextMenuCandidate
-.
 SnackbarDelegate
 {
 override

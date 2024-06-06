@@ -81,11 +81,11 @@ mozilla
 .
 components
 .
-feature
+support
 .
-contextmenu
+utils
 .
-ContextMenuCandidate
+SnackbarDelegate
 import
 org
 .
@@ -106,8 +106,6 @@ view
 View
 )
 :
-ContextMenuCandidate
-.
 SnackbarDelegate
 {
 override

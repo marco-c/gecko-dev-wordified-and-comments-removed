@@ -77,7 +77,7 @@ state
 .
 action
 .
-ShareInternetResourceAction
+CopyInternetResourceAction
 import
 mozilla
 .
@@ -92,7 +92,7 @@ state
 BrowserState
 internal
 object
-ShareInternetResourceStateReducer
+CopyInternetResourceStateReducer
 {
 fun
 reduce
@@ -102,7 +102,7 @@ state
 BrowserState
 action
 :
-ShareInternetResourceAction
+CopyInternetResourceAction
 )
 :
 BrowserState
@@ -114,9 +114,9 @@ action
 )
 {
 is
-ShareInternetResourceAction
+CopyInternetResourceAction
 .
-AddShareAction
+AddCopyAction
 -
 >
 updateTheContentState
@@ -131,7 +131,7 @@ it
 .
 copy
 (
-share
+copy
 =
 action
 .
@@ -139,9 +139,9 @@ internetResource
 )
 }
 is
-ShareInternetResourceAction
+CopyInternetResourceAction
 .
-ConsumeShareAction
+ConsumeCopyAction
 -
 >
 updateTheContentState
@@ -156,7 +156,7 @@ it
 .
 copy
 (
-share
+copy
 =
 null
 )
