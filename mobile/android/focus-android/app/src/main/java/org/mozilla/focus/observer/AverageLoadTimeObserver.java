@@ -59,17 +59,6 @@ mozilla
 .
 focus
 .
-session
-.
-SessionManager
-;
-import
-org
-.
-mozilla
-.
-focus
-.
 telemetry
 .
 TelemetryWrapper
