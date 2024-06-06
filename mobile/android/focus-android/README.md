@@ -825,7 +825,7 @@ gradlew
 clean
 app
 :
-assembleFocusArmDebug
+assembleFocusDebug
 3
 .
 Make

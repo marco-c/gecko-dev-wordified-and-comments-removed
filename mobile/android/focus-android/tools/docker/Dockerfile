@@ -659,14 +659,14 @@ RUN
 .
 /
 gradlew
-assembleFocusAarch64Debug
+assembleFocusDebug
 \
 &
 &
 .
 /
 gradlew
-testFocusAarch64DebugUnitTest
+testFocusDebugUnitTest
 \
 &
 &

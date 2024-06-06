@@ -139,9 +139,9 @@ ktlint
 \
 detektCheck
 \
-assembleFocusX86DebugAndroidTest
+assembleFocusDebugAndroidTest
 \
-testFocusX86DebugUnitTest
+testFocusDebugUnitTest
 #
 Tasks
 omitted
