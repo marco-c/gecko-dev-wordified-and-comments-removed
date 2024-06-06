@@ -1,3 +1,5 @@
+import
+os
 from
 taskgraph
 .
@@ -14,6 +16,14 @@ util
 schema
 import
 resolve_keyed_by
+from
+taskgraph
+.
+util
+.
+vcs
+import
+get_repository
 transforms
 =
 TransformSequence
@@ -85,6 +95,53 @@ task
 yield
 task
 def
+_get_commit_message
+(
+config
+)
+:
+    
+rev
+=
+config
+.
+params
+[
+"
+head_rev
+"
+]
+    
+repository
+=
+get_repository
+(
+os
+.
+getcwd
+(
+)
+)
+    
+message
+=
+repository
+.
+get_commit_message
+(
+rev
+)
+    
+return
+message
+.
+splitlines
+(
+)
+[
+0
+]
+def
 _get_geckoview_bump
 (
 config
@@ -107,7 +164,7 @@ name
 =
 =
 "
-pr
+push
 "
             
 config
@@ -141,25 +198,6 @@ config
 params
 [
 "
-head_repository
-"
-]
-=
-=
-config
-.
-params
-[
-"
-base_repository
-"
-]
-            
-config
-.
-params
-[
-"
 tasks_for
 "
 ]
@@ -168,11 +206,7 @@ tasks_for
 "
 github
 -
-pull
--
-request
--
-untrusted
+push
 "
             
 config
@@ -243,6 +277,13 @@ if
 notifications
 :
             
+commit_message
+=
+_get_commit_message
+(
+config
+)
+            
 emails
 =
 notifications
@@ -264,16 +305,20 @@ subject
 format
 (
                 
-pull_request_number
+commit
 =
 config
 .
 params
 [
 "
-pull_request_number
+head_rev
 "
 ]
+                
+commit_message
+=
+commit_message
             
 )
             
@@ -300,16 +345,20 @@ base_repository
 "
 ]
                 
-pull_request_number
+commit
 =
 config
 .
 params
 [
 "
-pull_request_number
+head_rev
 "
 ]
+                
+commit_message
+=
+commit_message
             
 )
             
