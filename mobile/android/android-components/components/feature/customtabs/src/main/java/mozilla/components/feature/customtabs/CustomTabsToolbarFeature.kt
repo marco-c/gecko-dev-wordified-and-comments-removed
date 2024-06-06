@@ -141,14 +141,6 @@ coroutines
 .
 flow
 .
-collect
-import
-kotlinx
-.
-coroutines
-.
-flow
-.
 mapNotNull
 import
 mozilla
@@ -1249,7 +1241,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_close
+mozac_ic_cross_24
 )
 !
 !

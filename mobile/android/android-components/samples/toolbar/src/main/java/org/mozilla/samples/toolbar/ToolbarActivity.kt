@@ -4947,7 +4947,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_close
+mozac_ic_cross_24
 )
 drawableIcon
 ?
