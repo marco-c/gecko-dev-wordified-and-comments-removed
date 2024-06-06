@@ -127,7 +127,7 @@ EngineSession
 .
 CookieBannerHandlingMode
 .
-REJECT_OR_ACCEPT_ALL
+REJECT_ALL
 import
 mozilla
 .
@@ -354,14 +354,14 @@ getEngineSettings
 .
 cookieBannerHandlingModePrivateBrowsing
 =
-REJECT_OR_ACCEPT_ALL
+REJECT_ALL
 getEngineSettings
 (
 )
 .
 cookieBannerHandlingMode
 =
-REJECT_OR_ACCEPT_ALL
+REJECT_ALL
 reload
 (
 )

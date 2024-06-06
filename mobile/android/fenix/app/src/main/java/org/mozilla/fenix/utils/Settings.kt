@@ -7762,7 +7762,7 @@ true
 >
 CookieBannerHandlingMode
 .
-REJECT_OR_ACCEPT_ALL
+REJECT_ALL
 false
 -
 >

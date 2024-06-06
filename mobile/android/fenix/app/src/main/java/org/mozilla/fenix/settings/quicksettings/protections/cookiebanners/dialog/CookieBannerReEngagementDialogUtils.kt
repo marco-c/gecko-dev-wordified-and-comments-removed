@@ -276,7 +276,7 @@ R
 .
 string
 .
-reduce_cookie_banner_control_experiment_dialog_body
+reduce_cookie_banner_control_experiment_dialog_body_1
 )
 positiveTextButton
 =
@@ -318,7 +318,7 @@ R
 .
 string
 .
-reduce_cookie_banner_variant_1_experiment_dialog_body
+reduce_cookie_banner_variant_1_experiment_dialog_body_1
 context
 .
 getString
@@ -370,7 +370,7 @@ R
 .
 string
 .
-reduce_cookie_banner_variant_2_experiment_dialog_body
+reduce_cookie_banner_variant_2_experiment_dialog_body_1
 context
 .
 getString
@@ -423,7 +423,7 @@ R
 .
 string
 .
-reduce_cookie_banner_control_experiment_dialog_body
+reduce_cookie_banner_control_experiment_dialog_body_1
 )
 positiveTextButton
 =

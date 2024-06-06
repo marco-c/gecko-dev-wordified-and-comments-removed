@@ -134,15 +134,6 @@ pref_key_cookie_banner_v1
 "
 android
 :
-summary
-=
-"
-string
-/
-reduce_cookie_banner_summary
-"
-android
-:
 title
 =
 "
