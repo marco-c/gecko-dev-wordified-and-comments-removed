@@ -411,6 +411,14 @@ mozilla
 .
 fenix
 .
+FeatureFlags
+import
+org
+.
+mozilla
+.
+fenix
+.
 components
 .
 StoreProvider
@@ -977,6 +985,11 @@ settings
 )
 .
 shouldShowVoiceSearch
+&
+&
+FeatureFlags
+.
+voiceSearch
 }
 listener
 =
@@ -1875,7 +1888,7 @@ if
 requestCode
 =
 =
-0
+SPEECH_REQUEST_CODE
 &
 &
 resultCode

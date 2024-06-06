@@ -111,6 +111,14 @@ mozilla
 .
 fenix
 .
+FeatureFlags
+import
+org
+.
+mozilla
+.
+fenix
+.
 R
 import
 org
@@ -429,6 +437,11 @@ pref_key_show_voice_search
 .
 apply
 {
+isVisible
+=
+FeatureFlags
+.
+voiceSearch
 isChecked
 =
 context
