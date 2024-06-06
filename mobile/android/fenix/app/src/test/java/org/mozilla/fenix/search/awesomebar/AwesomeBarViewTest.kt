@@ -4679,9 +4679,6 @@ WHEN
 configuring
 providers
 THEN
-don
-'
-t
 add
 the
 engine
@@ -4749,7 +4746,7 @@ state
 )
 assertEquals
 (
-0
+1
 result
 .
 filterIsInstance
@@ -5256,9 +5253,6 @@ WHEN
 configuring
 providers
 THEN
-don
-'
-t
 add
 any
 provider
@@ -5450,7 +5444,7 @@ size
 )
 assertEquals
 (
-0
+1
 result
 .
 filterIsInstance
