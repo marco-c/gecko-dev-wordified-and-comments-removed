@@ -29,7 +29,7 @@ lib
 .
 gradle
 import
-get_debug_variants
+get_variants_for_build_type
 get_geckoview_versions
 from
 lib
@@ -311,8 +311,11 @@ other_tasks
 for
 variant
 in
-get_debug_variants
+get_variants_for_build_type
 (
+'
+debug
+'
 )
 :
         
@@ -628,18 +631,23 @@ version_name
 )
 :
     
+variants
+=
+get_variants_for_build_type
+(
+track
+)
+    
 architectures
 =
 [
-'
-x86
-'
-'
-arm
-'
-'
-aarch64
-'
+variant
+.
+abi
+for
+variant
+in
+variants
 ]
     
 apk_paths
