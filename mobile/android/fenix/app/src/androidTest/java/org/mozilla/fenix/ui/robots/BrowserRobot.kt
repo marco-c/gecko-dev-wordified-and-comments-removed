@@ -1323,7 +1323,7 @@ verifyContextMenuForLinksToOtherApps
 (
 containsURL
 :
-Uri
+String
 )
 {
 /
@@ -1376,10 +1376,6 @@ assertItemContainingTextExists
 contextMenuLinkUrl
 (
 containsURL
-.
-toString
-(
-)
 )
 contextMenuOpenLinkInNewTab
 contextMenuOpenLinkInPrivateTab
