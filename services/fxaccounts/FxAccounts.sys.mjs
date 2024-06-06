@@ -6067,6 +6067,9 @@ FxAccountsOAuth
 this
 .
 fxAccountsClient
+this
+.
+keys
 )
 ;
 }
