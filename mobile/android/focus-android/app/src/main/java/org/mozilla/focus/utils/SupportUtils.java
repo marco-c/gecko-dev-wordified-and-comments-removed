@@ -326,7 +326,7 @@ focus
 -
 android
 -
-6
+7
 "
 )
 SEARCH_SUGGESTIONS
