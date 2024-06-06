@@ -554,6 +554,15 @@ textSize
 "
 android
 :
+contentDescription
+=
+"
+string
+/
+dialog_addtohomescreen_action_add
+"
+android
+:
 fontFamily
 =
 "
