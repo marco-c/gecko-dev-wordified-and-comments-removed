@@ -13,8 +13,11 @@ jobs
 defined
 in
 the
-build
-kind
+APK
+and
+AAB
+signing
+kinds
 .
 "
 "
