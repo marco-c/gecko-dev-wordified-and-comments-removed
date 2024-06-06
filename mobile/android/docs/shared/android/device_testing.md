@@ -321,9 +321,9 @@ public
 /
 build
 /
-x86
-/
 target
+.
+x86
 .
 apk
 >
@@ -354,11 +354,11 @@ public
 /
 build
 /
+target
+.
 arm64
 -
 v8a
-/
-target
 .
 apk
 >

@@ -131,15 +131,11 @@ public
 /
 build
 /
-{
-gradle_build
-}
-/
+target
+.
 {
 abi
 }
-/
-target
 .
 apk
 '
