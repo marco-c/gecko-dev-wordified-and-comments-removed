@@ -7247,7 +7247,7 @@ name
 preferences_usage_data_description
 "
 >
-Comparte
+Compart
 datos
 de
 rendimiento
@@ -7332,7 +7332,7 @@ name
 preferences_marketing_data_description
 "
 >
-Comparte
+Compart
 datos
 acerca
 de
@@ -7380,7 +7380,7 @@ name
 preferences_marketing_data_description2
 "
 >
-Comparte
+Compart
 datos
 de
 uso
@@ -14611,10 +14611,9 @@ pesta
 as
 similares
 para
-un
-acceso
+acceder
 r
-pido
+pidamente
 m
 s
 tarde
@@ -20703,7 +20702,7 @@ name
 sign_in_with_camera
 "
 >
-Inicia
+Inici
 sesi
 n
 con
@@ -20738,7 +20737,7 @@ name
 sign_in_with_email
 "
 >
-Use
+Us
 el
 correo
 electr
@@ -27125,11 +27124,6 @@ name
 =
 "
 search_add_custom_engine_search_string_example
-"
-formatted
-=
-"
-false
 "
 >
 Reemplazar
