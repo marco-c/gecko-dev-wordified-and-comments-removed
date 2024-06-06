@@ -65,6 +65,14 @@ fenix
 .
 tabstray
 import
+androidx
+.
+fragment
+.
+app
+.
+Fragment
+import
 kotlinx
 .
 coroutines
@@ -190,9 +198,9 @@ settings
 Settings
 private
 val
-tabsTrayFragment
+fragment
 :
-TabsTrayFragment
+Fragment
 )
 :
 AbstractBinding
@@ -253,7 +261,7 @@ Page
 PrivateTabs
 )
 {
-tabsTrayFragment
+fragment
 .
 secure
 (
@@ -270,7 +278,7 @@ lastKnownMode
 isPrivate
 )
 {
-tabsTrayFragment
+fragment
 .
 removeSecure
 (

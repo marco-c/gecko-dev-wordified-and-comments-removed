@@ -1469,7 +1469,7 @@ settings
 requireComponents
 .
 settings
-tabsTrayFragment
+fragment
 =
 this
 )
