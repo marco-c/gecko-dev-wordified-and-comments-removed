@@ -291,6 +291,9 @@ documentType
 DocumentType
 .
 Regular
+previewImageUrl
+=
+null
 )
 Before
 fun
@@ -530,6 +533,9 @@ documentType
 DocumentType
 .
 Regular
+previewImageUrl
+=
+null
 )
 HistoryMetadataViewHolder
 (

@@ -866,6 +866,9 @@ documentType
 DocumentType
 .
 Regular
+previewImageUrl
+=
+null
 )
 interactor
 .
@@ -975,6 +978,9 @@ documentType
 DocumentType
 .
 Regular
+previewImageUrl
+=
+null
 )
 val
 historyGroup

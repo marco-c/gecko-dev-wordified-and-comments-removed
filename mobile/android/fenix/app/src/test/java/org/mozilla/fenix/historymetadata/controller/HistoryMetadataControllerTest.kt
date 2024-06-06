@@ -476,6 +476,9 @@ documentType
 DocumentType
 .
 Regular
+previewImageUrl
+=
+null
 )
 controller
 .
@@ -603,6 +606,9 @@ documentType
 DocumentType
 .
 Regular
+previewImageUrl
+=
+null
 )
 val
 historyGroup

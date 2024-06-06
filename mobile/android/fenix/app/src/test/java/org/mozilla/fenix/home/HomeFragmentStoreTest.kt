@@ -913,6 +913,9 @@ documentType
 DocumentType
 .
 Regular
+previewImageUrl
+=
+null
 )
 val
 historyGroup

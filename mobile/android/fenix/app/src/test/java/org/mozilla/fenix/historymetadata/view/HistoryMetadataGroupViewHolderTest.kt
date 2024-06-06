@@ -271,6 +271,9 @@ documentType
 DocumentType
 .
 Regular
+previewImageUrl
+=
+null
 )
 private
 val
