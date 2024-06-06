@@ -308,12 +308,6 @@ setCfrForTrackingProtectionEnabled
 (
 false
 )
-featureSettingsHelper
-.
-setNumberOfTabsOpened
-(
-4
-)
 webServer
 =
 MockWebServer

@@ -232,12 +232,6 @@ setCfrForTrackingProtectionEnabled
 (
 false
 )
-featureSettingsHelper
-.
-setNumberOfTabsOpened
-(
-4
-)
 }
 After
 fun
