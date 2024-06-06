@@ -644,6 +644,17 @@ authData
 .
 state
 )
+is
+Event
+.
+Progress
+.
+CancelAuth
+-
+>
+FxaEvent
+.
+CancelOAuthFlow
 else
 -
 >

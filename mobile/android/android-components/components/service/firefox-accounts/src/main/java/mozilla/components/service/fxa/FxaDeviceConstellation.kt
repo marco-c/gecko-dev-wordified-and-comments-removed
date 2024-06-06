@@ -746,7 +746,7 @@ handleInternalEvent
 (
 FxaStateCheckerEvent
 .
-CallError
+EnsureCapabilitiesAuthError
 )
 /
 /
