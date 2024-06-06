@@ -1104,7 +1104,7 @@ closeCustomTab
 (
 )
 }
-updateToolbarBackground
+updateTheme
 =
 true
 forceActionButtonTinting

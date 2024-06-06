@@ -369,6 +369,12 @@ Builder
 config
 ?
 .
+colorSchemes
+?
+.
+defaultColorSchemeParams
+?
+.
 toolbarColor
 ?
 .
@@ -382,6 +388,12 @@ it
 )
 }
 config
+?
+.
+colorSchemes
+?
+.
+defaultColorSchemeParams
 ?
 .
 navigationBarColor

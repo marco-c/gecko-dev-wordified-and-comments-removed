@@ -413,6 +413,12 @@ rgb
 )
 config
 .
+colorSchemes
+?
+.
+defaultColorSchemeParams
+?
+.
 toolbarColor
 )
 assertEquals
@@ -421,6 +427,12 @@ Color
 .
 WHITE
 config
+.
+colorSchemes
+?
+.
+defaultColorSchemeParams
+?
 .
 navigationBarColor
 )

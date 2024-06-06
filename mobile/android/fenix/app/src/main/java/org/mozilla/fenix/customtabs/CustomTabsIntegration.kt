@@ -366,7 +366,7 @@ finishAndRemoveTask
 (
 )
 }
-updateToolbarBackground
+updateTheme
 =
 !
 isPrivate

@@ -326,6 +326,12 @@ sessionState
 .
 config
 .
+colorSchemes
+?
+.
+defaultColorSchemeParams
+?
+.
 toolbarColor
 ?
 .
