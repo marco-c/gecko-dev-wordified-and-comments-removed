@@ -1379,11 +1379,11 @@ pocketStoriesSelectedCategoriesDataStore
 )
 MessagingMiddleware
 (
-messagingStorage
+controller
 =
 nimbus
 .
-messagingStorage
+messaging
 )
 MetricsMiddleware
 (
