@@ -707,6 +707,10 @@ false
 Enable
 Unified
 Search
+(
+requires
+restart
+)
 <
 /
 string

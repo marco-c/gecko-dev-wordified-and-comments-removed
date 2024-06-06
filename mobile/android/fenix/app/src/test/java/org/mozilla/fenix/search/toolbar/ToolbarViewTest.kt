@@ -412,6 +412,9 @@ false
 showSyncedTabsSuggestions
 =
 false
+showSessionSuggestions
+=
+false
 searchAccessPoint
 =
 MetricsUtils
