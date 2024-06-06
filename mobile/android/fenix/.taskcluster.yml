@@ -1713,7 +1713,7 @@ release
 '
 then
 :
-GIT_TAG
+MOBILE_HEAD_TAG
 :
 '
 {
