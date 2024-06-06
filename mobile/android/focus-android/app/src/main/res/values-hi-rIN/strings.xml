@@ -76,10 +76,12 @@ name
 teaser
 "
 >
-.
-.
-.
-.
+l
+\
+n
+l
+l
+l
 <
 /
 string
@@ -92,7 +94,7 @@ name
 feedback_erase
 "
 >
-.
+l
 <
 /
 string
@@ -470,7 +472,7 @@ s
 #
 2376
 ;
-.
+l
 <
 /
 p
@@ -1838,7 +1840,7 @@ URLs
 1
 s
 :
-.
+l
 <
 /
 string
@@ -1968,7 +1970,7 @@ preference_autocomplete_custom_summary
 >
 :
 URLs
-.
+l
 <
 /
 string
@@ -2040,7 +2042,7 @@ preference_autocomplete_add_confirmation
 "
 >
 URL
-.
+l
 <
 /
 string
@@ -2078,7 +2080,7 @@ preference_autocomplete_add_error
 "
 >
 URL
-.
+l
 <
 /
 string
@@ -2413,7 +2415,7 @@ Mozilla
 %
 1
 s
-.
+l
 <
 /
 string
@@ -2586,7 +2588,7 @@ name
 search_add_confirmation
 "
 >
-.
+l
 <
 /
 string
@@ -2611,7 +2613,7 @@ name
 search_add_error_duplicate_name
 "
 >
-.
+l
 <
 /
 string
@@ -2850,7 +2852,7 @@ s
 %
 1
 s
-.
+l
 <
 /
 string
@@ -2882,7 +2884,7 @@ s
 %
 1
 s
-.
+l
 <
 /
 string
@@ -3009,7 +3011,7 @@ document
 /
 b
 >
-.
+l
 ]
 ]
 >
@@ -4801,7 +4803,7 @@ strong
 strong
 >
 )
-.
+l
 <
 /
 li
@@ -5144,7 +5146,7 @@ li
 #
 2376
 ;
-.
+l
 <
 /
 li
@@ -5482,7 +5484,7 @@ li
 #
 2376
 ;
-.
+l
 <
 /
 li
@@ -5918,7 +5920,7 @@ n
 #
 2376
 ;
-.
+l
 <
 /
 li
@@ -6306,7 +6308,7 @@ li
 #
 2306
 ;
-.
+l
 <
 /
 li
@@ -6344,7 +6346,7 @@ name
 error_generic_message
 "
 >
-.
+l
 <
 /
 string
@@ -6524,7 +6526,7 @@ b
 %
 1
 s
-.
+l
 "
 ]
 ]
@@ -6553,8 +6555,8 @@ name
 firstrun_defaultbrowser_text2
 "
 >
-.
-.
+l
+l
 <
 /
 string
@@ -6580,7 +6582,7 @@ firstrun_search_text
 "
 >
 ?
-.
+l
 <
 /
 string
@@ -6608,7 +6610,7 @@ firstrun_shortcut_text
 %
 1
 s
-.
+l
 %
 1
 s
@@ -6643,7 +6645,7 @@ firstrun_privacy_text
 %
 1
 s
-.
+l
 <
 /
 string
@@ -6757,8 +6759,8 @@ notification_browsing_session_channel_description
 %
 1
 s
-.
-.
+l
+l
 <
 /
 string
@@ -6783,6 +6785,7 @@ name
 download_firefox
 "
 >
+Firefox
 <
 /
 string
@@ -6798,7 +6801,8 @@ your_rights_content1
 %
 1
 s
-.
+Mozilla
+l
 <
 /
 string
@@ -6949,7 +6953,7 @@ s
 a
 >
 "
-.
+l
 "
 ]
 ]
@@ -6979,7 +6983,7 @@ Firefox
 %
 1
 s
-.
+l
 "
 <
 a
@@ -7033,7 +7037,7 @@ s
 a
 >
 "
-.
+l
 "
 ]
 ]
@@ -7136,7 +7140,7 @@ s
 a
 >
 "
-.
+l
 "
 ]
 ]
@@ -7260,7 +7264,7 @@ s
 a
 >
 "
-.
+l
 "
 ]
 ]

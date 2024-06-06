@@ -810,7 +810,7 @@ name
 preference_category_data_collection_use
 "
 >
-Collection
+Colligimento
 e
 uso
 de
@@ -866,7 +866,7 @@ name
 preference_state_off
 "
 >
-Disactivar
+Inactive
 <
 /
 string
@@ -1079,7 +1079,7 @@ name
 preference_autocomplete_learn_more
 "
 >
-Apprender
+Saper
 plus
 <
 /
