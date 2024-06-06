@@ -461,7 +461,7 @@ browser
 .
 compose
 .
-detectVerticalPressAndDrag
+detectListPressAndDrag
 import
 org
 .
@@ -1768,7 +1768,7 @@ fillMaxSize
 (
 )
 .
-detectVerticalPressAndDrag
+detectListPressAndDrag
 (
 listState
 =
