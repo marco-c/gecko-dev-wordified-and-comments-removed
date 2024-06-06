@@ -106,6 +106,14 @@ rules
 pro
 '
 }
+debug
+{
+applicationIdSuffix
+"
+.
+debug
+"
+}
 }
 flavorDimensions
 "
