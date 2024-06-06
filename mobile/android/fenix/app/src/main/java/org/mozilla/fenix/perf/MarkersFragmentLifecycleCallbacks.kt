@@ -123,7 +123,7 @@ fenix
 .
 browser
 .
-BrowserFragment
+BaseBrowserFragment
 import
 org
 .
@@ -626,13 +626,7 @@ HomeFragment
 |
 f
 is
-BrowserFragment
-/
-/
-instrumented
-in
 BaseBrowserFragment
-.
 )
 {
 return
