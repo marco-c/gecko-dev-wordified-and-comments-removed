@@ -749,6 +749,17 @@ NoExtras
 (
 )
 )
+MetricsUtils
+.
+recordBookmarkMetrics
+(
+MetricsUtils
+.
+BookmarkAction
+.
+OPEN
+METRIC_SOURCE
+)
 }
 BookmarkNodeType
 .
