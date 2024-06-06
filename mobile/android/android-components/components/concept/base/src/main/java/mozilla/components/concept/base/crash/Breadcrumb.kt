@@ -246,7 +246,6 @@ DEFAULT
 *
 Date
 of
-of
 the
 crash
 breadcrumb
