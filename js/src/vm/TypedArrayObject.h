@@ -713,6 +713,16 @@ sizeof
 Value
 )
 ;
+inline
+gc
+:
+:
+AllocKind
+allocKindForTenure
+(
+)
+const
+;
 static
 inline
 gc
