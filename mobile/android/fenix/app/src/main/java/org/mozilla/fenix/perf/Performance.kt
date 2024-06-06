@@ -545,6 +545,7 @@ Firefox
 .
 *
 /
+private
 fun
 isPerformanceTest
 (
@@ -654,6 +655,7 @@ on
 launch
 *
 /
+private
 fun
 disableOnboarding
 (
@@ -689,6 +691,7 @@ on
 .
 *
 /
+private
 fun
 disableTrackingProtectionPopups
 (
