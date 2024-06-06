@@ -363,15 +363,6 @@ paddingBottom
 "
 app
 :
-layout_constraintTop_toBottomOf
-=
-"
-id
-/
-awesomeBar
-"
-app
-:
 layout_constraintStart_toStartOf
 =
 "
