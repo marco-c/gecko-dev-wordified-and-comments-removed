@@ -249,6 +249,15 @@ ReviewQualityCheckState
 ProductVendor
 .
 WALMART
+isHighlightsExpanded
+=
+false
+isInfoExpanded
+=
+false
+isSettingsExpanded
+=
+false
 )
 )
 .

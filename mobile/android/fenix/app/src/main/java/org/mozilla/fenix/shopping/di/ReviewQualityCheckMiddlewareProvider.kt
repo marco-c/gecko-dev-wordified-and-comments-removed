@@ -362,6 +362,7 @@ providePreferencesMiddleware
 (
 settings
 browserStore
+appStore
 scope
 )
 provideNetworkMiddleware
@@ -395,6 +396,9 @@ Settings
 browserStore
 :
 BrowserStore
+appStore
+:
+AppStore
 scope
 :
 CoroutineScope
@@ -414,6 +418,9 @@ DefaultReviewQualityCheckVendorsService
 (
 browserStore
 )
+appStore
+=
+appStore
 scope
 =
 scope
