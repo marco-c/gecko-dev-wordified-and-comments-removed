@@ -332,7 +332,7 @@ verifyShareButton
 clickShareButton
 (
 )
-verifyShareDialogTitle
+verifyShareScrim
 (
 )
 verifySendToDeviceTitle
