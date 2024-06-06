@@ -173,14 +173,11 @@ feature
 .
 *
 /
+const
 val
 creditCardsFeature
 =
-Config
-.
-channel
-.
-isNightlyOrDebug
+true
 /
 *
 *
