@@ -57,7 +57,7 @@ ComponentUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -70,7 +70,9 @@ modules
 /
 ComponentUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
