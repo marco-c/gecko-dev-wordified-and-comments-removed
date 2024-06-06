@@ -77,14 +77,6 @@ view
 .
 ViewGroup
 import
-kotlinx
-.
-android
-.
-extensions
-.
-LayoutContainer
-import
 mozilla
 .
 components
@@ -180,8 +172,6 @@ Device
 class
 ShareToAccountDevicesView
 (
-override
-val
 containerView
 :
 ViewGroup
@@ -189,8 +179,6 @@ interactor
 :
 ShareToAccountDevicesInteractor
 )
-:
-LayoutContainer
 {
 private
 val

@@ -89,14 +89,6 @@ widget
 .
 RecyclerView
 import
-kotlinx
-.
-android
-.
-extensions
-.
-LayoutContainer
-import
 mozilla
 .
 components
@@ -150,7 +142,7 @@ branches
 class
 NimbusBranchesView
 (
-override
+private
 val
 containerView
 :
@@ -160,8 +152,6 @@ controller
 :
 NimbusBranchesController
 )
-:
-LayoutContainer
 {
 private
 val

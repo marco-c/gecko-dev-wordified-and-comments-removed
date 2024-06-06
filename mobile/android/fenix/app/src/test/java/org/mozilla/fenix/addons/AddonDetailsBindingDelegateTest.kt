@@ -188,7 +188,7 @@ FenixRobolectricTestRunner
 class
 )
 class
-AddonDetailsViewTest
+AddonDetailsBindingDelegateTest
 {
 private
 lateinit
@@ -211,9 +211,9 @@ AddonDetailsInteractor
 private
 lateinit
 var
-detailsView
+detailsBindingDelegate
 :
-AddonDetailsView
+AddonDetailsBindingDelegate
 private
 val
 baseAddon
@@ -289,9 +289,9 @@ relaxed
 =
 true
 )
-detailsView
+detailsBindingDelegate
 =
-AddonDetailsView
+AddonDetailsBindingDelegate
 (
 binding
 interactor
@@ -305,7 +305,7 @@ rating
 (
 )
 {
-detailsView
+detailsBindingDelegate
 .
 bind
 (
@@ -327,7 +327,7 @@ ratingView
 .
 rating
 )
-detailsView
+detailsBindingDelegate
 .
 bind
 (
@@ -398,7 +398,7 @@ website
 (
 )
 {
-detailsView
+detailsBindingDelegate
 .
 bind
 (
@@ -458,7 +458,7 @@ updated
 (
 )
 {
-detailsView
+detailsBindingDelegate
 .
 bind
 (
@@ -506,7 +506,7 @@ installedState
 =
 null
 )
-detailsView
+detailsBindingDelegate
 .
 bind
 (
@@ -588,7 +588,7 @@ optionsPageUrl
 null
 )
 )
-detailsView
+detailsBindingDelegate
 .
 bind
 (
@@ -650,7 +650,7 @@ Author
 "
 "
 )
-detailsView
+detailsBindingDelegate
 .
 bind
 (
@@ -710,7 +710,7 @@ details
 (
 )
 {
-detailsView
+detailsBindingDelegate
 .
 bind
 (

@@ -260,7 +260,7 @@ on
 *
 /
 class
-AddonDetailsView
+AddonDetailsBindingDelegate
 (
 private
 val

@@ -83,14 +83,6 @@ view
 .
 ViewGroup
 import
-kotlinx
-.
-android
-.
-extensions
-.
-LayoutContainer
-import
 org
 .
 mozilla
@@ -154,8 +146,6 @@ AppShareOption
 class
 ShareToAppsView
 (
-override
-val
 containerView
 :
 ViewGroup
@@ -163,8 +153,6 @@ interactor
 :
 ShareToAppsInteractor
 )
-:
-LayoutContainer
 {
 private
 val

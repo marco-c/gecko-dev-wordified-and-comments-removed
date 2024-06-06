@@ -80,14 +80,6 @@ recyclerview
 widget
 .
 RecyclerView
-import
-kotlinx
-.
-android
-.
-extensions
-.
-LayoutContainer
 /
 *
 *
@@ -134,7 +126,6 @@ abstract
 class
 ViewHolder
 (
-override
 val
 containerView
 :
@@ -147,4 +138,3 @@ ViewHolder
 (
 containerView
 )
-LayoutContainer

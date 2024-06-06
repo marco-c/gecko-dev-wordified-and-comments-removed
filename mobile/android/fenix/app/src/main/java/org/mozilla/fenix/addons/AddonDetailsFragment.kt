@@ -326,7 +326,7 @@ bind
 (
 view
 )
-AddonDetailsView
+AddonDetailsBindingDelegate
 (
 binding
 interactor

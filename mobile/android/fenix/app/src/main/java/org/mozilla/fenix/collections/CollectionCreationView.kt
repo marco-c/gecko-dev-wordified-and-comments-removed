@@ -99,12 +99,6 @@ android
 .
 view
 .
-View
-import
-android
-.
-view
-.
 ViewGroup
 import
 android
@@ -156,14 +150,6 @@ androidx
 transition
 .
 TransitionManager
-import
-kotlinx
-.
-android
-.
-extensions
-.
-LayoutContainer
 import
 mozilla
 .
@@ -267,6 +253,8 @@ Tab
 class
 CollectionCreationView
 (
+private
+val
 container
 :
 ViewGroup
@@ -276,8 +264,6 @@ interactor
 :
 CollectionCreationInteractor
 )
-:
-LayoutContainer
 {
 private
 val
@@ -298,15 +284,6 @@ context
 container
 true
 )
-override
-val
-containerView
-:
-View
-=
-binding
-.
-root
 private
 val
 bottomBarView
@@ -547,7 +524,7 @@ layoutManager
 =
 LinearLayoutManager
 (
-containerView
+container
 .
 context
 RecyclerView
@@ -569,7 +546,7 @@ layoutManager
 =
 LinearLayoutManager
 (
-containerView
+container
 .
 context
 RecyclerView
@@ -685,7 +662,7 @@ state
 CollectionCreationState
 )
 {
-containerView
+container
 .
 context
 .
@@ -809,7 +786,7 @@ selectTabsConstraints
 .
 clone
 (
-containerView
+container
 .
 context
 R
@@ -855,7 +832,7 @@ selectCollectionConstraints
 .
 clone
 (
-containerView
+container
 .
 context
 R
@@ -932,7 +909,7 @@ nameCollectionConstraints
 .
 clone
 (
-containerView
+container
 .
 context
 R
@@ -1034,7 +1011,7 @@ nameCollectionEdittext
 .
 setText
 (
-containerView
+container
 .
 context
 .
@@ -1095,7 +1072,7 @@ tabCollection
 val
 publicSuffixList
 =
-containerView
+container
 .
 context
 .
@@ -1168,7 +1145,7 @@ nameCollectionConstraints
 .
 clone
 (
-containerView
+container
 .
 context
 R
