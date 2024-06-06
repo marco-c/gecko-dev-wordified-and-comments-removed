@@ -521,6 +521,11 @@ selectionMode
 TabsTrayState
 .
 Mode
+modifier
+:
+Modifier
+=
+Modifier
 onTabClose
 :
 (
@@ -620,6 +625,9 @@ selectedTabIndex
 selectionMode
 =
 selectionMode
+modifier
+=
+modifier
 onTabClose
 =
 onTabClose
@@ -653,6 +661,9 @@ selectedTabIndex
 selectionMode
 =
 selectionMode
+modifier
+=
+modifier
 onTabClose
 =
 onTabClose
@@ -700,6 +711,11 @@ selectionMode
 TabsTrayState
 .
 Mode
+modifier
+:
+Modifier
+=
+Modifier
 onTabClose
 :
 (
@@ -795,7 +811,7 @@ dp
 )
 modifier
 =
-Modifier
+modifier
 .
 fillMaxSize
 (
@@ -942,6 +958,11 @@ selectionMode
 TabsTrayState
 .
 Mode
+modifier
+:
+Modifier
+=
+Modifier
 onTabClose
 :
 (
@@ -1025,7 +1046,7 @@ LazyColumn
 (
 modifier
 =
-Modifier
+modifier
 .
 fillMaxSize
 (
