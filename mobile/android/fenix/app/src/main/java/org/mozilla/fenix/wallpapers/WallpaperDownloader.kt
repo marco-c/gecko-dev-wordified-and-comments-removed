@@ -299,8 +299,6 @@ downloadWallpaper
 wallpaper
 :
 Wallpaper
-.
-Remote
 )
 =
 withContext
@@ -548,8 +546,6 @@ private
 fun
 Wallpaper
 .
-Remote
-.
 toMetadata
 (
 context
@@ -631,7 +627,7 @@ theme
 "
 +
 "
-remoteParentDirName
+collectionName
 /
 "
 +

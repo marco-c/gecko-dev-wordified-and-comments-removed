@@ -5362,7 +5362,6 @@ wallpaperState
 currentWallpaper
 )
 {
-is
 Wallpaper
 .
 Default
