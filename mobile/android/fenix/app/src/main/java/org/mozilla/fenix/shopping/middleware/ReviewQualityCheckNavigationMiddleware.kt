@@ -138,9 +138,9 @@ fakespot
 .
 com
 /
-our
+review
 -
-mission
+checker
 ?
 utm_source
 =
