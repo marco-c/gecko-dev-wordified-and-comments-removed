@@ -1987,7 +1987,7 @@ verifyShareTabUrl
 }
 Test
 fun
-multipleBookmarkDeletions
+multipleBookmarkDeletionsTest
 (
 )
 {
@@ -2443,7 +2443,7 @@ verifySelectDefaultFolderSnackBarText
 }
 Test
 fun
-verifyCloseMenu
+verifyCloseMenuTest
 (
 )
 {
