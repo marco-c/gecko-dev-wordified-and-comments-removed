@@ -1181,13 +1181,10 @@ set
 /
 /
 Text
+Inverted
 /
-Icon
-inverted
-(
-on
-color
-)
+On
+Color
 var
 textInverted
 by
