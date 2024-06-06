@@ -579,6 +579,12 @@ markerName
 fact
 .
 item
+val
+detailText
+=
+fact
+.
+value
 /
 /
 Java
@@ -647,6 +653,7 @@ profiler
 addMarker
 (
 markerName
+detailText
 )
 }
 else
@@ -752,7 +759,7 @@ addMarker
 markerName
 now
 now
-null
+detailText
 )
 }
 }
