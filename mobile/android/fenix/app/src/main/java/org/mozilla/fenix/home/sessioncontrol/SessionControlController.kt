@@ -2319,6 +2319,14 @@ id
 homeFragment
 directions
 )
+metrics
+.
+track
+(
+Event
+.
+HomeScreenCustomizedHomeClicked
+)
 }
 override
 fun

@@ -4700,6 +4700,16 @@ CustomizeHome
 -
 >
 {
+context
+.
+metrics
+.
+track
+(
+Event
+.
+HomeScreenCustomizedHomeClicked
+)
 hideOnboardingIfNeeded
 (
 )

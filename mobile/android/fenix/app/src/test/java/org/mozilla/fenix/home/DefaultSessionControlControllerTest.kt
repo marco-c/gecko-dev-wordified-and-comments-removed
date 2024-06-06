@@ -1200,6 +1200,17 @@ handleCustomizeHomeTapped
 )
 verify
 {
+metrics
+.
+track
+(
+Event
+.
+HomeScreenCustomizedHomeClicked
+)
+}
+verify
+{
 navController
 .
 navigate
