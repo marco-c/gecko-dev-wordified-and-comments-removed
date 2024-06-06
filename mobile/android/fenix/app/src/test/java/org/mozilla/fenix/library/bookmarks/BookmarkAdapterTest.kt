@@ -87,6 +87,12 @@ io
 .
 mockk
 .
+mockk
+import
+io
+.
+mockk
+.
 spyk
 import
 io
@@ -200,6 +206,9 @@ spyk
 (
 BookmarkAdapter
 (
+mockk
+(
+)
 emitter
 )
 recordPrivateCalls
