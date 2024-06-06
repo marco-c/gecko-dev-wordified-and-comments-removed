@@ -2842,7 +2842,7 @@ string
 name
 =
 "
-pref_key_logins_secure_warning
+pref_key_secure_warning
 "
 translatable
 =
@@ -2850,7 +2850,7 @@ translatable
 false
 "
 >
-pref_key_logins_secure_warning
+pref_key_secure_warning
 <
 /
 string

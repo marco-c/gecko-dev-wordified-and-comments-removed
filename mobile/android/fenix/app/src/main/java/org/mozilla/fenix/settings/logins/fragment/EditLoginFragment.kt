@@ -1519,6 +1519,11 @@ currentDestination
 ?
 .
 id
+R
+.
+id
+.
+editLoginFragment
 )
 super
 .

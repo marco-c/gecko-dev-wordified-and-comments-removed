@@ -854,6 +854,11 @@ currentDestination
 ?
 .
 id
+R
+.
+id
+.
+loginDetailFragment
 )
 super
 .

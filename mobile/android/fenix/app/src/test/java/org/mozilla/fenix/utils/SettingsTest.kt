@@ -748,7 +748,7 @@ assertEquals
 0
 settings
 .
-loginsSecureWarningCount
+secureWarningCount
 .
 value
 )
@@ -757,7 +757,7 @@ value
 When
 settings
 .
-incrementShowLoginsSecureWarningCount
+incrementSecureWarningCount
 (
 )
 /
@@ -768,7 +768,7 @@ assertEquals
 1
 settings
 .
-loginsSecureWarningCount
+secureWarningCount
 .
 value
 )
@@ -798,7 +798,7 @@ shouldShowSecurityPinWarning
 When
 settings
 .
-incrementShowLoginsSecureWarningCount
+incrementSecureWarningCount
 (
 )
 /

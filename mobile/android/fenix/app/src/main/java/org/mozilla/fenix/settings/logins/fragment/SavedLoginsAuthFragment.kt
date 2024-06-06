@@ -1134,7 +1134,7 @@ settings
 (
 )
 .
-incrementShowLoginsSecureWarningCount
+incrementSecureWarningCount
 (
 )
 }
