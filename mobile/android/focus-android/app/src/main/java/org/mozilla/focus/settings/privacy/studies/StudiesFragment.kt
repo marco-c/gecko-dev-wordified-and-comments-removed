@@ -340,11 +340,8 @@ sumoUrl
 =
 SupportUtils
 .
-getSumoURLForTopic
+getGenericSumoURLForTopic
 (
-requireContext
-(
-)
 SupportUtils
 .
 SumoTopic
@@ -565,11 +562,8 @@ url
 =
 SupportUtils
 .
-getSumoURLForTopic
+getGenericSumoURLForTopic
 (
-requireContext
-(
-)
 SupportUtils
 .
 SumoTopic
