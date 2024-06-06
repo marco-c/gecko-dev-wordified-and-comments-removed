@@ -65,12 +65,6 @@ fenix
 .
 home
 import
-android
-.
-os
-.
-Parcelable
-import
 androidx
 .
 lifecycle
@@ -105,13 +99,6 @@ var
 sessionToDelete
 :
 String
-?
-=
-null
-var
-layoutManagerState
-:
-Parcelable
 ?
 =
 null
