@@ -403,15 +403,9 @@ allowlist
 STUDIES
 (
 "
-how
--
-opt
--
-out
--
 studies
 -
-firefox
+focus
 -
 android
 "
