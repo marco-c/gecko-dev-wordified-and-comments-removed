@@ -1448,6 +1448,11 @@ cron
 '
 }
 }
+treeherder
+:
+symbol
+:
+N
 metadata
 :
 name
