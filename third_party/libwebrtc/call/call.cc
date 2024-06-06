@@ -4924,12 +4924,7 @@ make_unique
 FecControllerDefault
 >
 (
-&
 env_
-.
-clock
-(
-)
 )
 ;
 return
