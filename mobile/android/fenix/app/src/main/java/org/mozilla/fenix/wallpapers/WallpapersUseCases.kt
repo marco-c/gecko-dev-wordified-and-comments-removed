@@ -2526,6 +2526,10 @@ wallpaper
 :
 Wallpaper
 )
+:
+Wallpaper
+.
+ImageFileState
 }
 VisibleForTesting
 (
@@ -2590,6 +2594,10 @@ wallpaper
 :
 Wallpaper
 )
+:
+Wallpaper
+.
+ImageFileState
 {
 settings
 .
@@ -2655,6 +2663,12 @@ collection
 name
 )
 )
+return
+Wallpaper
+.
+ImageFileState
+.
+Downloaded
 }
 }
 VisibleForTesting
@@ -2730,7 +2744,12 @@ wallpaper
 :
 Wallpaper
 )
+:
+Wallpaper
+.
+ImageFileState
 {
+return
 if
 (
 wallpaper
@@ -2762,6 +2781,11 @@ ImageFileState
 .
 Downloaded
 )
+Wallpaper
+.
+ImageFileState
+.
+Downloaded
 }
 else
 {
@@ -2805,6 +2829,7 @@ selectWallpaper
 wallpaper
 )
 }
+result
 }
 }
 private

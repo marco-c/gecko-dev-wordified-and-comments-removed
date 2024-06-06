@@ -1344,11 +1344,15 @@ map
 if
 (
 it
+.
+name
 =
 =
 action
 .
 wallpaper
+.
+name
 )
 {
 it
