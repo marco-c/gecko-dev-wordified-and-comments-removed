@@ -293,6 +293,7 @@ ImageLoadRequest
 123
 "
 100
+false
 )
 doReturn
 (
@@ -472,6 +473,7 @@ ImageLoadRequest
 123
 "
 100
+false
 )
 doReturn
 (
@@ -601,6 +603,7 @@ ImageLoadRequest
 123
 "
 100
+false
 )
 doReturn
 (

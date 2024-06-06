@@ -485,6 +485,13 @@ id
 size
 =
 size
+isPrivate
+=
+tab
+.
+content
+.
+private
 )
 storage
 =

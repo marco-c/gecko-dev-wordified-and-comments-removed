@@ -843,6 +843,11 @@ thumbnailView
 tab
 .
 id
+tab
+.
+content
+.
+private
 )
 }
 override
@@ -1361,6 +1366,9 @@ ImageView
 id
 :
 String
+isPrivate
+:
+Boolean
 )
 {
 imageLoader
@@ -1372,6 +1380,7 @@ ImageLoadRequest
 (
 id
 thumbnailSize
+isPrivate
 )
 )
 }

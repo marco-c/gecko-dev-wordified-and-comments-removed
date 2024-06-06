@@ -741,6 +741,13 @@ id
 size
 =
 thumbnailSize
+isPrivate
+=
+tab
+.
+content
+.
+private
 )
 )
 }

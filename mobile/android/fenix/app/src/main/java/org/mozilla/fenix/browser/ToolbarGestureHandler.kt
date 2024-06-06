@@ -1141,7 +1141,10 @@ Destination
 )
 {
 val
+(
 thumbnailId
+isPrivate
+)
 =
 when
 (
@@ -1159,6 +1162,14 @@ destination
 tab
 .
 id
+to
+destination
+.
+tab
+.
+content
+.
+private
 is
 Destination
 .
@@ -1172,6 +1183,7 @@ tabPreview
 loadPreviewThumbnail
 (
 thumbnailId
+isPrivate
 )
 tabPreview
 .
