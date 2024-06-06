@@ -324,11 +324,6 @@ pref_key_enable_contile
 .
 apply
 {
-isVisible
-=
-FeatureFlags
-.
-contileFeature
 isChecked
 =
 context
