@@ -909,11 +909,7 @@ get
 (
 )
 =
-(
-activity
-as
-HomeActivity
-)
+requireComponents
 .
 browsingModeManager
 private

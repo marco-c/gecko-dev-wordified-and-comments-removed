@@ -566,11 +566,9 @@ isNotEmpty
 )
 &
 &
-(
 context
-as
-HomeActivity
-)
+.
+components
 .
 browsingModeManager
 .

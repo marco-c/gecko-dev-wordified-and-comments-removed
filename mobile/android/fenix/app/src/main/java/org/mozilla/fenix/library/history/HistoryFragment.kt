@@ -986,6 +986,8 @@ HomeActivity
 .
 apply
 {
+components
+.
 browsingModeManager
 .
 mode

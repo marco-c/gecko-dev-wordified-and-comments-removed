@@ -1282,11 +1282,7 @@ readerModeController
 DefaultReaderModeController
 (
 readerViewFeature
-(
-activity
-as
-HomeActivity
-)
+requireComponents
 .
 browsingModeManager
 .
@@ -1299,11 +1295,7 @@ readerViewControlsBar
 )
 browsingModeManager
 =
-(
-activity
-as
-HomeActivity
-)
+requireComponents
 .
 browsingModeManager
 sessionManager

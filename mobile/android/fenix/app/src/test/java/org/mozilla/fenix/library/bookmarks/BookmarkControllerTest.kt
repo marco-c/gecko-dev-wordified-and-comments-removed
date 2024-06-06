@@ -700,7 +700,9 @@ normal
 mode
 every
 {
-homeActivity
+context
+.
+components
 .
 browsingModeManager
 .
@@ -721,7 +723,9 @@ assertEquals
 BrowsingMode
 .
 Normal
-homeActivity
+context
+.
+components
 .
 browsingModeManager
 .
@@ -740,7 +744,9 @@ private
 mode
 every
 {
-homeActivity
+context
+.
+components
 .
 browsingModeManager
 .
@@ -761,7 +767,9 @@ assertEquals
 BrowsingMode
 .
 Private
-homeActivity
+context
+.
+components
 .
 browsingModeManager
 .
@@ -1126,6 +1134,8 @@ invoke
 )
 homeActivity
 .
+components
+.
 browsingModeManager
 .
 mode
@@ -1182,6 +1192,8 @@ invoke
 (
 )
 homeActivity
+.
+components
 .
 browsingModeManager
 .

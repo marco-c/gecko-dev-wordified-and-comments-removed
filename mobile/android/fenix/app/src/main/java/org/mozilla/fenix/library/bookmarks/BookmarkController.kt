@@ -435,7 +435,9 @@ true
 BrowserDirection
 .
 FromBookmarks
-activity
+context
+.
+components
 .
 browsingModeManager
 .
@@ -730,6 +732,8 @@ with
 activity
 )
 {
+components
+.
 browsingModeManager
 .
 mode

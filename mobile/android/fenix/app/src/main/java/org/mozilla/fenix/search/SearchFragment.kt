@@ -702,11 +702,7 @@ showSearchSuggestions
 =
 if
 (
-(
-activity
-as
-HomeActivity
-)
+requireComponents
 .
 browsingModeManager
 .
@@ -881,11 +877,7 @@ searchInteractor
 historyStorageProvider
 (
 )
-(
-activity
-as
-HomeActivity
-)
+requireComponents
 .
 browsingModeManager
 .

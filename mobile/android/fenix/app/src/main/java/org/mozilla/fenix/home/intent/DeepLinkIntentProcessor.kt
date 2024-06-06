@@ -154,6 +154,16 @@ fenix
 ext
 .
 alreadyOnDestination
+import
+org
+.
+mozilla
+.
+fenix
+.
+ext
+.
+components
 /
 *
 *
@@ -384,6 +394,8 @@ enable_private_browsing
 >
 {
 activity
+.
+components
 .
 browsingModeManager
 .
