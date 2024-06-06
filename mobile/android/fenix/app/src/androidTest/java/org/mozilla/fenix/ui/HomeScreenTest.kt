@@ -408,7 +408,7 @@ homeScreen
 {
 }
 .
-turnOnPrivateMode
+togglePrivateBrowsingMode
 (
 )
 homeScreen
