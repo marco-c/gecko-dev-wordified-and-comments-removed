@@ -171,14 +171,6 @@ mozilla
 .
 fenix
 .
-HomeActivity
-import
-org
-.
-mozilla
-.
-fenix
-.
 R
 import
 org
@@ -209,6 +201,12 @@ Fragment
 (
 )
 {
+private
+lateinit
+var
+awesomeBarFeature
+:
+AwesomeBarFeature
 override
 fun
 onCreateView
@@ -343,6 +341,8 @@ requireContext
 }
 )
 )
+awesomeBarFeature
+=
 AwesomeBarFeature
 (
 awesomeBar
@@ -352,7 +352,7 @@ onEditComplete
 =
 :
 :
-didActivateSearch
+userDidSearch
 )
 .
 addSearchProvider
@@ -447,7 +447,7 @@ searchText
 }
 private
 fun
-didActivateSearch
+userDidSearch
 (
 )
 {
