@@ -46324,9 +46324,13 @@ autoplay
 :
 block_cellular
 block_audio
+allow_all
 or
 block_all
 .
+type
+:
+string
 bugs
 :
 -
