@@ -447,6 +447,16 @@ onRecentTabClicked
 it
 )
 }
+onRecentSearchGroupClick
+=
+{
+recentTabInteractor
+.
+onRecentSearchGroupClicked
+(
+it
+)
+}
 menuItems
 =
 listOf

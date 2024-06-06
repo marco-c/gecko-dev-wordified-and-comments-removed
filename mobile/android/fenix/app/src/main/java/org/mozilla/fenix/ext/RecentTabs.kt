@@ -101,6 +101,17 @@ of
 RecentTab
 ]
 .
+[
+RecentTab
+.
+SearchGroup
+]
+s
+will
+not
+be
+filtered
+.
 *
 *
 param
