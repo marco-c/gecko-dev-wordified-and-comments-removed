@@ -626,7 +626,7 @@ R
 .
 string
 .
-delete_browsing_data_prompt_message
+delete_browsing_data_prompt_message_3
 )
 setNegativeButton
 (
