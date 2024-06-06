@@ -486,11 +486,6 @@ tasks
 for
 :
 [
-github
--
-pull
--
-request
 ]
 include
 -
@@ -567,11 +562,6 @@ tasks
 for
 :
 [
-github
--
-pull
--
-request
 ]
 include
 -
