@@ -297,6 +297,16 @@ mozilla
 .
 focus
 .
+notification
+.
+PrivateNotificationMiddleware
+import
+org
+.
+mozilla
+.
+focus
+.
 search
 .
 BingSearchEngineFilter
@@ -493,6 +503,10 @@ middleware
 =
 listOf
 (
+PrivateNotificationMiddleware
+(
+context
+)
 DownloadMiddleware
 (
 context
