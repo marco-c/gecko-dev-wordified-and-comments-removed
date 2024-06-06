@@ -37,8 +37,6 @@ title
 labels
 :
 "
-eng
-:
 performance
 "
 assignees
