@@ -373,9 +373,7 @@ treeherder
 :
 symbol
 :
-nightly
--
-legacy
+nightlyLegacy
 (
 s
 )
