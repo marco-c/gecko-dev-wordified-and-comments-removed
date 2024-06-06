@@ -4229,8 +4229,6 @@ group_symbol
 =
 '
 Rap
--
-fenix
 '
             
 force_run_on_64_bit_device
@@ -4599,6 +4597,17 @@ abi
 =
 '
 arm
+'
+and
+test_name
+=
+=
+'
+raptor
+-
+youtube
+-
+playback
 '
 :
             
