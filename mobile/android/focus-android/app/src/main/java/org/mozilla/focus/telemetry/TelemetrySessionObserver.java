@@ -215,6 +215,11 @@ MENU
 :
 break
 ;
+case
+NONE
+:
+break
+;
 default
 :
 throw

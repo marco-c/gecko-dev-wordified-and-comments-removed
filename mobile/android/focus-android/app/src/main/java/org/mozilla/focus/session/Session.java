@@ -93,7 +93,6 @@ class
 Session
 {
 private
-final
 Source
 source
 ;
@@ -327,6 +326,18 @@ this
 customTabConfig
 =
 customTabConfig
+;
+}
+void
+clearSource
+(
+)
+{
+source
+=
+Source
+.
+NONE
 ;
 }
 public
@@ -764,7 +775,6 @@ isBlockingEnabled
 blockingEnabled
 ;
 }
-public
 void
 stripCustomTabConfiguration
 (
