@@ -1764,6 +1764,15 @@ components
 settings
 .
 showCollectionsPlaceholderOnHome
+showSetAsDefaultBrowserCard
+=
+components
+.
+settings
+.
+shouldShowSetAsDefaultBrowserCard
+(
+)
 )
 )
 }

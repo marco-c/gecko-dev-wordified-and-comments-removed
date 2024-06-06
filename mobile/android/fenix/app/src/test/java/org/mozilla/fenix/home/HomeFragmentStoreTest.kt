@@ -378,6 +378,9 @@ emptyList
 showCollectionPlaceholder
 =
 true
+showSetAsDefaultBrowserCard
+=
+true
 )
 homeFragmentStore
 =

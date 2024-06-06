@@ -1079,6 +1079,9 @@ emptyList
 showCollectionPlaceholder
 =
 true
+showSetAsDefaultBrowserCard
+=
+true
 )
 every
 {
