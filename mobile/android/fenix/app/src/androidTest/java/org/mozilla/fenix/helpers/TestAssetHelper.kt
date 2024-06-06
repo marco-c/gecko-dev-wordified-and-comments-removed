@@ -132,7 +132,7 @@ SECONDS
 .
 toMillis
 (
-15
+45
 )
 val
 waitingTimeShort
