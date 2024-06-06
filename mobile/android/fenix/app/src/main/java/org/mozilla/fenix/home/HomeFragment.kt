@@ -2830,6 +2830,9 @@ sessionControlView
 update
 (
 it
+shouldReportMetrics
+=
+true
 )
 }
 }
