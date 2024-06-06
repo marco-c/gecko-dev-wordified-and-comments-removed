@@ -379,6 +379,15 @@ getDisplay
 (
 displayId
 )
+?
+:
+return
+/
+/
+getDisplay
+may
+return
+null
 if
 (
 display
