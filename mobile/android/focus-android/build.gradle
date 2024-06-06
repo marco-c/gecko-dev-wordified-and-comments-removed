@@ -136,9 +136,9 @@ gradle
 :
 3
 .
-1
+2
 .
-4
+1
 '
 classpath
 '
@@ -309,7 +309,9 @@ version
 .
 0
 .
-RC8
+RC6
+-
+3
 "
 id
 "
