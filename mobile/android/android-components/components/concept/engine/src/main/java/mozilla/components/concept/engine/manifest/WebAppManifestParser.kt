@@ -1591,7 +1591,7 @@ format
 "
 0xFFFFFF
 and
-color
+it
 )
 }
 private
