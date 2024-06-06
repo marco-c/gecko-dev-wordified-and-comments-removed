@@ -113,7 +113,9 @@ mozilla_components_version
 '
 0
 .
-4
+5
+.
+1
 '
 repositories
 {
