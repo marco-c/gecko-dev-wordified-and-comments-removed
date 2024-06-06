@@ -75,9 +75,7 @@ Parcelable
 import
 kotlinx
 .
-android
-.
-parcel
+parcelize
 .
 Parcelize
 import

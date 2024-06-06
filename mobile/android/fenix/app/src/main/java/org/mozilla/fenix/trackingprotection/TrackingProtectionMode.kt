@@ -79,9 +79,7 @@ StringRes
 import
 kotlinx
 .
-android
-.
-parcel
+parcelize
 .
 Parcelize
 import

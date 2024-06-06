@@ -43,9 +43,7 @@ plugin
 '
 kotlin
 -
-android
--
-extensions
+parcelize
 '
 apply
 plugin
@@ -4445,12 +4443,6 @@ MOZILLA_OFFICIAL
 false
 '
 }
-}
-androidExtensions
-{
-experimental
-=
-true
 }
 /
 /
