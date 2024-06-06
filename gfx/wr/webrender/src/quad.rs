@@ -2180,9 +2180,10 @@ PrimitiveCommand
 :
 quad
 (
-pattern
-.
-kind
+PatternKind
+:
+:
+ColorOrTexture
 pattern
 .
 shader_input
