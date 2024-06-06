@@ -2071,6 +2071,11 @@ feature
 =
 RecentSyncedTabFeature
 (
+context
+=
+requireContext
+(
+)
 appStore
 =
 requireComponents
