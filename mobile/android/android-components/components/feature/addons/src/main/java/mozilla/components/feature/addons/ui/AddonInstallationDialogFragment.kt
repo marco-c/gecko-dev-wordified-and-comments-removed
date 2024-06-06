@@ -371,7 +371,7 @@ val
 KEY_INSTALLED_ADDON
 =
 "
-KEY_ADDON
+KEY_INSTALLED_ADDON
 "
 private
 const
@@ -594,7 +594,7 @@ safeArguments
 .
 getParcelableCompat
 (
-KEY_ADDON
+KEY_INSTALLED_ADDON
 Addon
 :
 :

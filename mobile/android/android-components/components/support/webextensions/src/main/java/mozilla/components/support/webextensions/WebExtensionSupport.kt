@@ -2146,6 +2146,8 @@ WebExtensionPromptRequest
 AfterInstallation
 .
 Permissions
+.
+Required
 (
 extension
 onPermissionsGranted
@@ -2232,7 +2234,9 @@ WebExtensionPromptRequest
 .
 AfterInstallation
 .
-OptionalPermissions
+Permissions
+.
+Optional
 (
 extension
 permissions
