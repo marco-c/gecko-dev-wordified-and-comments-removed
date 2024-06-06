@@ -274,9 +274,9 @@ SecureFragment
 private
 lateinit
 var
-creditCardsStore
+store
 :
-CreditCardsFragmentStore
+AutofillFragmentStore
 private
 lateinit
 var
@@ -322,7 +322,7 @@ LAYOUT_ID
 container
 false
 )
-creditCardsStore
+store
 =
 StoreProvider
 .
@@ -331,9 +331,9 @@ get
 this
 )
 {
-CreditCardsFragmentStore
+AutofillFragmentStore
 (
-CreditCardsListState
+AutofillFragmentState
 (
 creditCards
 =
@@ -395,7 +395,7 @@ Bundle
 {
 consumeFrom
 (
-creditCardsStore
+store
 )
 {
 state
@@ -551,7 +551,7 @@ updates
 the
 *
 [
-CreditCardsFragmentStore
+AutofillFragmentStore
 ]
 with
 the
@@ -602,11 +602,11 @@ Dispatchers
 Main
 )
 {
-creditCardsStore
+store
 .
 dispatch
 (
-CreditCardsAction
+AutofillAction
 .
 UpdateCreditCards
 (

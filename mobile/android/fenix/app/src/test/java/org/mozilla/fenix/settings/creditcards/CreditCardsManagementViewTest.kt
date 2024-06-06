@@ -305,7 +305,7 @@ creditCardsView
 .
 update
 (
-CreditCardsListState
+AutofillFragmentState
 (
 creditCards
 =
@@ -351,7 +351,7 @@ creditCardsView
 .
 update
 (
-CreditCardsListState
+AutofillFragmentState
 (
 creditCards
 =

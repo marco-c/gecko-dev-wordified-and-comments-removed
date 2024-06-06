@@ -113,7 +113,7 @@ settings
 .
 creditcards
 .
-CreditCardsListState
+AutofillFragmentState
 import
 org
 .
@@ -215,7 +215,7 @@ on
 the
 given
 [
-CreditCardsListState
+AutofillFragmentState
 ]
 .
 *
@@ -225,7 +225,7 @@ update
 (
 state
 :
-CreditCardsListState
+AutofillFragmentState
 )
 {
 binding

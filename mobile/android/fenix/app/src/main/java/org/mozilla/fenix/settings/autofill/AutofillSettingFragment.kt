@@ -325,7 +325,7 @@ settings
 .
 creditcards
 .
-CreditCardsAction
+AutofillAction
 import
 org
 .
@@ -337,7 +337,7 @@ settings
 .
 creditcards
 .
-CreditCardsFragmentStore
+AutofillFragmentStore
 import
 org
 .
@@ -349,7 +349,7 @@ settings
 .
 creditcards
 .
-CreditCardsListState
+AutofillFragmentState
 import
 org
 .
@@ -402,9 +402,9 @@ BiometricPromptPreferenceFragment
 private
 lateinit
 var
-creditCardsStore
+store
 :
-CreditCardsFragmentStore
+AutofillFragmentStore
 private
 var
 isCreditCardsListLoaded
@@ -542,7 +542,7 @@ onCreate
 (
 savedInstanceState
 )
-creditCardsStore
+store
 =
 StoreProvider
 .
@@ -551,9 +551,9 @@ get
 this
 )
 {
-CreditCardsFragmentStore
+AutofillFragmentStore
 (
-CreditCardsListState
+AutofillFragmentState
 (
 creditCards
 =
@@ -693,7 +693,7 @@ savedInstanceState
 )
 consumeFrom
 (
-creditCardsStore
+store
 )
 {
 state
@@ -1021,7 +1021,7 @@ and
 updates
 the
 [
-CreditCardsListState
+AutofillFragmentState
 ]
 *
 with
@@ -1076,11 +1076,11 @@ Dispatchers
 Main
 )
 {
-creditCardsStore
+store
 .
 dispatch
 (
-CreditCardsAction
+AutofillAction
 .
 UpdateCreditCards
 (
