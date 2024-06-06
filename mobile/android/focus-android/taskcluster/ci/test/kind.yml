@@ -246,7 +246,7 @@ worker
 /
 checkouts
 /
-src
+vcs
 /
 app
 /
@@ -281,7 +281,7 @@ worker
 /
 checkouts
 /
-src
+vcs
 /
 app
 /

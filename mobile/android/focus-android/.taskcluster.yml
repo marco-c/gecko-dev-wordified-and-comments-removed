@@ -2188,7 +2188,7 @@ worker
 /
 checkouts
 /
-src
+vcs
 '
 -
 '
@@ -2222,7 +2222,7 @@ worker
 /
 checkouts
 /
-src
+vcs
 '
 -
 '
@@ -2585,7 +2585,7 @@ worker
 /
 checkouts
 /
-src
+vcs
 /
 docker
 -
