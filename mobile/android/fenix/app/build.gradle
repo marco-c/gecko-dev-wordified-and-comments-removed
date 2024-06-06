@@ -2253,11 +2253,11 @@ androidx_fragment
 implementation
 Deps
 .
-android_arch_navigation
+androidx_navigation_fragment
 implementation
 Deps
 .
-android_arch_navigation_ui
+androidx_navigation_ui
 implementation
 Deps
 .
