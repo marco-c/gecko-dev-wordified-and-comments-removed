@@ -243,6 +243,18 @@ uiautomator
 .
 UiSelector
 import
+mozilla
+.
+components
+.
+support
+.
+utils
+.
+ext
+.
+getPackageInfoCompat
+import
 org
 .
 hamcrest
@@ -642,7 +654,7 @@ context
 .
 packageManager
 .
-getPackageInfo
+getPackageInfoCompat
 (
 context
 .
