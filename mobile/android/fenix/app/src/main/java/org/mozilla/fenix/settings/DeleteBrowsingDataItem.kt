@@ -162,7 +162,7 @@ get
 )
 =
 subtitle
-val
+var
 isChecked
 :
 Boolean
@@ -173,6 +173,17 @@ get
 checkbox
 .
 isChecked
+set
+(
+value
+)
+{
+checkbox
+.
+isChecked
+=
+value
+}
 var
 onCheckListener
 :
