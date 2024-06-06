@@ -2119,6 +2119,10 @@ return
 }
 super
 .
+getOnBackPressedDispatcher
+(
+)
+.
 onBackPressed
 (
 )

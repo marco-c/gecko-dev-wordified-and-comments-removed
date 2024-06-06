@@ -544,6 +544,10 @@ else
 {
 super
 .
+getOnBackPressedDispatcher
+(
+)
+.
 onBackPressed
 (
 )
