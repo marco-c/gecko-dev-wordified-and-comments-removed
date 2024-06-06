@@ -712,6 +712,15 @@ string
 /
 preference_privacy_category_cookies
 "
+android
+:
+negativeButtonText
+=
+"
+string
+/
+action_cancel
+"
 /
 >
 <
