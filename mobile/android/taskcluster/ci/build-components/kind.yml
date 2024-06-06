@@ -64,7 +64,7 @@ loader
 .
 build_config
 :
-loader
+components_loader
 transforms
 :
 -

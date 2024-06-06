@@ -23,7 +23,7 @@ build_config
 import
 get_components
 def
-loader
+components_loader
 (
 kind
 path
