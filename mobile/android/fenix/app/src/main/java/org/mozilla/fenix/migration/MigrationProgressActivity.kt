@@ -562,6 +562,13 @@ white_color
 )
 )
 }
+migration_button_progress_bar
+.
+visibility
+=
+View
+.
+INVISIBLE
 /
 /
 Keep
