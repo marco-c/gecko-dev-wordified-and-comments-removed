@@ -751,9 +751,13 @@ context
 val
 sessionBundle
 =
-it
+viewModel
 .
-tabs
+selectedTabs
+.
+toList
+(
+)
 .
 toSessionBundle
 (
