@@ -685,7 +685,9 @@ showDividerLine
 =
 index
 <
-VISITS_PER_COLUMN
+items
+.
+size
 -
 1
 onRecentVisitClick
