@@ -365,5 +365,8 @@ PerformedSearch
 SearchAccessPoint
 .
 NONE
+isAnimatingOut
+=
+false
 )
 }
