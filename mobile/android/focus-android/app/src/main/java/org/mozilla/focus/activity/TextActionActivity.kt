@@ -226,7 +226,7 @@ searchIntent
 Intent
 (
 this
-MainActivity
+IntentReceiverActivity
 :
 :
 class
@@ -244,8 +244,6 @@ searchIntent
 .
 putExtra
 (
-MainActivity
-.
 EXTRA_TEXT_SELECTION
 true
 )
@@ -266,5 +264,16 @@ searchIntent
 finish
 (
 )
+}
+companion
+object
+{
+const
+val
+EXTRA_TEXT_SELECTION
+=
+"
+text_selection
+"
 }
 }

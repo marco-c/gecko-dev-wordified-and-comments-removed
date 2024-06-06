@@ -1934,13 +1934,6 @@ open
 "
 const
 val
-EXTRA_TEXT_SELECTION
-=
-"
-text_selection
-"
-const
-val
 EXTRA_NOTIFICATION
 =
 "
