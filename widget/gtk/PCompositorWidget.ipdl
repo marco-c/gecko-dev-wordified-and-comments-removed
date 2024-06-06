@@ -60,12 +60,12 @@ aClientSize
 )
 ;
 async
-CleanupResources
+DisableRendering
 (
 )
 ;
 async
-SetRenderingSurface
+EnableRendering
 (
 uintptr_t
 aXWindow
