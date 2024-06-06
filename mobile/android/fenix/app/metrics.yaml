@@ -41373,14 +41373,10 @@ event
 description
 :
 The
-user
-clicked
-the
-settings
-option
-in
 home
-menu
+screen
+was
+displayed
 .
 bugs
 :
@@ -41401,7 +41397,7 @@ fenix
 /
 issues
 /
-18856
+18854
 data_reviews
 :
 -
