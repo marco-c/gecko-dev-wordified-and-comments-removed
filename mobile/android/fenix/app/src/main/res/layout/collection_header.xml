@@ -127,15 +127,6 @@ layout_height
 "
 android
 :
-layout_marginStart
-=
-"
-4
-.
-5dp
-"
-android
-:
 gravity
 =
 "
