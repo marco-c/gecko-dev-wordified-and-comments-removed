@@ -301,4 +301,16 @@ handleRequestSync
 (
 )
 }
+override
+fun
+onRecentlyClosedClicked
+(
+)
+{
+historyController
+.
+handleEnterRecentlyClosed
+(
+)
+}
 }

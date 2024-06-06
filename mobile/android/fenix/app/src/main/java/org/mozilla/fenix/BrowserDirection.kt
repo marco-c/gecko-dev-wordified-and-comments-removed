@@ -283,4 +283,12 @@ id
 .
 tabTrayDialogFragment
 )
+FromRecentlyClosed
+(
+R
+.
+id
+.
+recentlyClosedFragment
+)
 }

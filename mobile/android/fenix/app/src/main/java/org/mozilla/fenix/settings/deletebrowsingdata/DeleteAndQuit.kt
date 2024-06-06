@@ -230,6 +230,13 @@ components
 .
 core
 .
+store
+activity
+.
+components
+.
+core
+.
 icons
 activity
 .
