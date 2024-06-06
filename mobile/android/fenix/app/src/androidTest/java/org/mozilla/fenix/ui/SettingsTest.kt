@@ -370,7 +370,7 @@ openEnhancedTrackingProtectionSubMenu
 verifyNavigationToolBarHeader
 (
 )
-verifyEnhancedTrackingProtectionProtectionSubMenuItems
+verifyEnhancedTrackingProtectionOptionsEnabled
 (
 )
 /
@@ -386,7 +386,7 @@ openExceptions
 verifyNavigationToolBarHeader
 (
 )
-verifyEnhancedTrackingProtectionProtectionExceptionsSubMenuItems
+verifyTPExceptionsDefaultView
 (
 )
 }
