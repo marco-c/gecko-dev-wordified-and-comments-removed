@@ -405,7 +405,7 @@ instead
 of
 URL
 )
-verifySearchEditBarContainsTest
+verifySearchEditBarContainsText
 (
 searchString
 )
