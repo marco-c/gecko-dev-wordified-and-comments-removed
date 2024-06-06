@@ -280,9 +280,9 @@ name
 "
 android
 .
-permission
+hardware
 .
-USE_FINGERPRINT
+fingerprint
 "
 android
 :
