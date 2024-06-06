@@ -1107,7 +1107,7 @@ openLoginsAndPasswordSubMenu
 {
 }
 .
-saveLoginsAndPasswordsOptions
+openSaveLoginsAndPasswordsOptions
 {
 verifySaveLoginsOptionsView
 (
