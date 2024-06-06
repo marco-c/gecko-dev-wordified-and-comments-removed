@@ -1517,7 +1517,7 @@ string
 name
 =
 "
-pref_key_show_search_shortcuts
+pref_key_show_search_engine_shortcuts
 "
 translatable
 =
@@ -1525,7 +1525,7 @@ translatable
 false
 "
 >
-pref_key_show_search_shortcuts
+pref_key_show_search_engine_shortcuts
 <
 /
 string

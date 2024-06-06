@@ -281,7 +281,7 @@ R
 .
 string
 .
-pref_key_show_search_shortcuts
+pref_key_show_search_engine_shortcuts
 )
 .
 apply

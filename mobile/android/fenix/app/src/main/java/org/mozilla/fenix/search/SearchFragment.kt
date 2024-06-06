@@ -1718,7 +1718,7 @@ container
 }
 view
 .
-search_shortcuts_button
+search_engines_shortcut_button
 .
 setOnClickListener
 {
@@ -2429,7 +2429,7 @@ searchState
 SearchFragmentState
 )
 {
-search_with_shortcuts
+search_engine_shortcut
 .
 visibility
 =
@@ -2705,7 +2705,7 @@ search_suggestions_onboarding_divider
 .
 isVisible
 =
-search_with_shortcuts
+search_engine_shortcut
 .
 isVisible
 &
@@ -2729,7 +2729,7 @@ view
 .
 apply
 {
-search_shortcuts_button
+search_engines_shortcut_button
 .
 isVisible
 =
@@ -2742,7 +2742,7 @@ showShortcuts
 searchState
 .
 showSearchShortcuts
-search_shortcuts_button
+search_engines_shortcut_button
 .
 isChecked
 =
@@ -2765,7 +2765,7 @@ R
 attr
 .
 primaryText
-search_shortcuts_button
+search_engines_shortcut_button
 .
 compoundDrawables
 [

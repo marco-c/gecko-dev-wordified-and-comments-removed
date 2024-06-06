@@ -525,7 +525,7 @@ layout_constraintTop_toBottomOf
 "
 id
 /
-search_with_shortcuts
+search_engine_shortcut
 "
 app
 :
@@ -1142,14 +1142,14 @@ id
 +
 id
 /
-search_with_shortcuts
+search_engine_shortcut
 "
 style
 =
 "
 style
 /
-SearchShortcutsLabelStyle
+SearchEngineShortcutsLabelStyle
 "
 android
 :
@@ -1231,11 +1231,9 @@ tools
 text
 =
 "
-This
-time
-search
-with
-:
+string
+/
+search_engines_search_with
 "
 /
 >
@@ -1284,7 +1282,7 @@ constraint_referenced_ids
 =
 "
 fill_link_from_clipboard
-search_with_shortcuts
+search_engine_shortcut
 search_suggestions_onboarding
 "
 /
@@ -1536,7 +1534,7 @@ id
 +
 id
 /
-search_shortcuts_button
+search_engines_shortcut_button
 "
 style
 =
@@ -1552,7 +1550,7 @@ textOff
 "
 string
 /
-search_engines_shortcut_button
+search_engine_button
 "
 android
 :
@@ -1561,7 +1559,7 @@ textOn
 "
 string
 /
-search_engines_shortcut_button
+search_engine_button
 "
 app
 :
