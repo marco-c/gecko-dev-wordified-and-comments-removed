@@ -602,7 +602,7 @@ bookmark_add_folder_title_edit
 .
 text
 .
-isEmpty
+isNullOrEmpty
 (
 )
 )

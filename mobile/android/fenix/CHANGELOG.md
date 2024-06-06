@@ -406,6 +406,17 @@ Managing
 site
 permissions
 exceptions
+-
+#
+1312
+-
+Added
+clear
+textfield
+buttons
+for
+editing
+bookmarks
 #
 #
 #
