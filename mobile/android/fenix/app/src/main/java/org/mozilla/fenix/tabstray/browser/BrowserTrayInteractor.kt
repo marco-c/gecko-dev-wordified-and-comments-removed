@@ -239,7 +239,7 @@ is
 specifically
 for
 [
-BaseBrowserTrayList
+BrowserTrayList
 ]
 and
 other

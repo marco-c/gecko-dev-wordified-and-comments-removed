@@ -147,7 +147,7 @@ tabstray
 .
 browser
 .
-BaseBrowserTrayList
+BrowserTrayList
 /
 *
 *
@@ -189,11 +189,11 @@ AbstractTrayViewHolder
 containerView
 )
 {
-private
+protected
 val
 trayList
 :
-BaseBrowserTrayList
+BrowserTrayList
 =
 itemView
 .

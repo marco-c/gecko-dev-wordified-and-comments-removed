@@ -201,7 +201,7 @@ tabstray
 .
 browser
 .
-BaseBrowserTrayList
+BrowserTrayList
 import
 org
 .
@@ -332,7 +332,7 @@ interactor
 val
 trayList
 :
-BaseBrowserTrayList
+BrowserTrayList
 =
 itemView
 .
@@ -461,7 +461,7 @@ interactor
 val
 trayList
 :
-BaseBrowserTrayList
+BrowserTrayList
 =
 itemView
 .
