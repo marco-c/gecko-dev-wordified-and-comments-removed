@@ -103,7 +103,7 @@ share
 .
 listadapters
 .
-AndroidShareOption
+AppShareOption
 class
 ShareInteractorTest
 {
@@ -281,9 +281,7 @@ app
 =
 mockk
 <
-AndroidShareOption
-.
-App
+AppShareOption
 >
 (
 )

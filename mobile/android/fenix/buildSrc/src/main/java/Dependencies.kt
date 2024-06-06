@@ -2587,7 +2587,7 @@ androidx_legacy
 "
 const
 val
-androidx_lifecycle_extensions
+androidx_lifecycle_livedata
 =
 "
 androidx
@@ -2596,7 +2596,9 @@ lifecycle
 :
 lifecycle
 -
-extensions
+livedata
+-
+ktx
 :
 {
 Versions

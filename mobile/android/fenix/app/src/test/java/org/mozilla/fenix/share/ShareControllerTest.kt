@@ -345,7 +345,7 @@ share
 .
 listadapters
 .
-AndroidShareOption
+AppShareOption
 import
 org
 .
@@ -653,9 +653,7 @@ activity
 val
 appShareOption
 =
-AndroidShareOption
-.
-App
+AppShareOption
 (
 "
 app

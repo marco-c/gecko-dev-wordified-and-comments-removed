@@ -259,7 +259,7 @@ share
 .
 listadapters
 .
-AndroidShareOption
+AppShareOption
 /
 *
 *
@@ -303,9 +303,7 @@ handleShareToApp
 (
 app
 :
-AndroidShareOption
-.
-App
+AppShareOption
 )
 fun
 handleAddNewDevice
@@ -525,9 +523,7 @@ handleShareToApp
 (
 app
 :
-AndroidShareOption
-.
-App
+AppShareOption
 )
 {
 val

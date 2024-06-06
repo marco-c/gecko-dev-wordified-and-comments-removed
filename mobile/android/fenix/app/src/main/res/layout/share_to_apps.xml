@@ -350,6 +350,13 @@ wrap_content
 "
 android
 :
+minHeight
+=
+"
+160dp
+"
+android
+:
 layout_marginBottom
 =
 "
