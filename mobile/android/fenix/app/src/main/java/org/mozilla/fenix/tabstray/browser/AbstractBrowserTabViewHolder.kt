@@ -305,14 +305,6 @@ mozilla
 .
 fenix
 .
-FeatureFlags
-import
-org
-.
-mozilla
-.
-fenix
-.
 GleanMetrics
 .
 Tab
@@ -1558,11 +1550,6 @@ item
 )
 if
 (
-FeatureFlags
-.
-tabReorderingFeature
-&
-&
 selectsOnlyThis
 &
 &
