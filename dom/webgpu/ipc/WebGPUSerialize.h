@@ -243,6 +243,8 @@ WebGPUCompilationMessage
 message
 lineNum
 linePos
+offset
+length
 )
 ;
 #
