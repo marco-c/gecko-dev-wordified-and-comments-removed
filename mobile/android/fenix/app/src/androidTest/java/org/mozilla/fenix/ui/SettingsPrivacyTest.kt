@@ -1367,6 +1367,9 @@ url
 .
 openThreeDotMenu
 {
+expandMenu
+(
+)
 }
 .
 openAddToHomeScreen

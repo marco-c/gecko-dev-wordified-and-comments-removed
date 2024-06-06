@@ -2728,6 +2728,9 @@ iconTintColorResource
 primaryTextColor
 (
 )
+isCollapsingMenuLimit
+=
+true
 )
 {
 onItemTapped

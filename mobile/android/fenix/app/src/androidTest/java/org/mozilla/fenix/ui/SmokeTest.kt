@@ -1442,6 +1442,9 @@ url
 .
 openThreeDotMenu
 {
+expandMenu
+(
+)
 }
 .
 addToFirefoxHome
@@ -1528,6 +1531,9 @@ url
 .
 openThreeDotMenu
 {
+expandMenu
+(
+)
 }
 .
 openAddToHomeScreen
@@ -1542,6 +1548,9 @@ browserScreen
 .
 openThreeDotMenu
 {
+expandMenu
+(
+)
 }
 .
 openAddToHomeScreen
@@ -1624,6 +1633,9 @@ url
 .
 openThreeDotMenu
 {
+expandMenu
+(
+)
 }
 .
 openSaveToCollection
