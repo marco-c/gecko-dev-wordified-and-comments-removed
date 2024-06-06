@@ -480,6 +480,7 @@ ToolbarIntegration
 (
 this
 view
+container
 menuToolbar
 ShippedDomainsProvider
 (
