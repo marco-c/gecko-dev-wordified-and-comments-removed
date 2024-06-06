@@ -2237,8 +2237,7 @@ revision
 {
 }
 .
-{
-}
+raptor
 .
 {
 }
@@ -2250,9 +2249,6 @@ format
 self
 .
 commit
-'
-raptor
-'
 architecture
                 
 )
@@ -2274,8 +2270,7 @@ master
 .
 latest
 .
-{
-}
+raptor
 .
 {
 }
@@ -2284,9 +2279,6 @@ latest
 format
 (
                     
-'
-raptor
-'
 architecture
                 
 )
@@ -2322,8 +2314,7 @@ revision
 {
 }
 .
-{
-}
+raptor
 .
 {
 }
@@ -2350,10 +2341,6 @@ day
 self
 .
 commit
-                    
-'
-raptor
-'
 architecture
                 
 )
@@ -2386,8 +2373,7 @@ pushdate
 .
 latest
 .
-{
-}
+raptor
 .
 {
 }
@@ -2411,9 +2397,6 @@ self
 date
 .
 day
-'
-raptor
-'
 architecture
                 
 )
@@ -4066,20 +4049,18 @@ variant
 postfix
 =
 '
--
-unsigned
 '
 if
 build_type
-.
-startswith
-(
+=
+=
 '
-release
+debug
 '
-)
 else
 '
+-
+unsigned
 '
     
 return
