@@ -171,15 +171,6 @@ wrap_content
 "
 android
 :
-layout_marginTop
-=
-"
-dimen
-/
-top_sites_item_margin_top
-"
-android
-:
 layout_marginBottom
 =
 "
