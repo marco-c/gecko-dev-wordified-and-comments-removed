@@ -2054,7 +2054,7 @@ string
 name
 =
 "
-pref_cfr_visibility_for_shield_toolbar_icon
+pref_cfr_visibility_for_tracking_protection
 "
 translatable
 =
@@ -2072,7 +2072,7 @@ id
 preference_key
 "
 >
-pref_cfr_visibility_for_shield_toolbar_icon
+pref_cfr_visibility_for_tracking_protection
 <
 /
 xliff

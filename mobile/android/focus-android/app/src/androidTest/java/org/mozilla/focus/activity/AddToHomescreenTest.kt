@@ -326,7 +326,7 @@ e
 }
 featureSettingsHelper
 .
-setShieldIconCFREnabled
+setCfrForTrackingProtectionEnabled
 (
 false
 )

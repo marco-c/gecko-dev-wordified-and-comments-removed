@@ -142,13 +142,13 @@ feature
 flags
 private
 var
-shouldShowCfrForShieldToolbarIcon
+shouldShowCfrForTrackingProtection
 :
 Boolean
 =
 settings
 .
-shouldShowCfrForShieldToolbarIcon
+shouldShowCfrForTrackingProtection
 /
 /
 saving
@@ -176,7 +176,7 @@ settings
 .
 numberOfTabsOpened
 fun
-setShieldIconCFREnabled
+setCfrForTrackingProtectionEnabled
 (
 enabled
 :
@@ -185,7 +185,7 @@ Boolean
 {
 settings
 .
-shouldShowCfrForShieldToolbarIcon
+shouldShowCfrForTrackingProtection
 =
 enabled
 }
@@ -255,9 +255,9 @@ resetAllFeatureFlags
 {
 settings
 .
-shouldShowCfrForShieldToolbarIcon
+shouldShowCfrForTrackingProtection
 =
-shouldShowCfrForShieldToolbarIcon
+shouldShowCfrForTrackingProtection
 settings
 .
 numberOfTabsOpened

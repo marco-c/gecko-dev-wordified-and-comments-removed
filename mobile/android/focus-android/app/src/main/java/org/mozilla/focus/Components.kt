@@ -1066,7 +1066,12 @@ if
 (
 Features
 .
-SHOW_ERASE_CFR
+IS_ERASE_CFR_ENABLED
+|
+|
+Features
+.
+IS_TRACKING_PROTECTION_CFR_ENABLED
 )
 {
 listOf

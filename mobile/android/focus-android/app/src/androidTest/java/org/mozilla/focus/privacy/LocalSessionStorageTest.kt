@@ -371,7 +371,7 @@ appContext
 .
 settings
 .
-shouldShowCfrForShieldToolbarIcon
+shouldShowCfrForTrackingProtection
 =
 false
 }

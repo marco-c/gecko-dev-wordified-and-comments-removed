@@ -1118,7 +1118,7 @@ commit
 )
 }
 var
-shouldShowCfrForShieldToolbarIcon
+shouldShowCfrForTrackingProtection
 :
 Boolean
 get
@@ -1135,7 +1135,7 @@ R
 .
 string
 .
-pref_cfr_visibility_for_shield_toolbar_icon
+pref_cfr_visibility_for_tracking_protection
 )
 true
 )
@@ -1158,7 +1158,7 @@ R
 .
 string
 .
-pref_cfr_visibility_for_shield_toolbar_icon
+pref_cfr_visibility_for_tracking_protection
 )
 value
 )

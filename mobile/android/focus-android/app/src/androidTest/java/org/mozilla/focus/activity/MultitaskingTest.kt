@@ -358,7 +358,7 @@ startWebServer
 {
 featureSettingsHelper
 .
-setShieldIconCFREnabled
+setCfrForTrackingProtectionEnabled
 (
 false
 )

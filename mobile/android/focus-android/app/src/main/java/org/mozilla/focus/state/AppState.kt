@@ -211,6 +211,12 @@ showEraseTabsCfr
 Boolean
 =
 false
+val
+showTrackingProtectionCfr
+:
+Boolean
+=
+false
 )
 :
 State

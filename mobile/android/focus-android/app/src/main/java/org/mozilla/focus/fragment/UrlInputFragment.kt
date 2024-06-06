@@ -1933,7 +1933,7 @@ if
 (
 Features
 .
-SHOULD_SHOW_HOME_PAGE_PRO_TIPS
+ARE_HOME_PAGE_PRO_TIPS_ENABLED
 )
 {
 updateTipsLabel

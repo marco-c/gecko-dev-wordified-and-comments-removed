@@ -313,7 +313,7 @@ setUp
 {
 featureSettingsHelper
 .
-setShieldIconCFREnabled
+setCfrForTrackingProtectionEnabled
 (
 false
 )
