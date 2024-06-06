@@ -83,6 +83,13 @@ included
 in
 the
 [
+Android
+Components
+Crash
+Reporting
+README
+]
+(
 https
 :
 /
@@ -112,13 +119,6 @@ crash
 README
 .
 md
-]
-(
-Android
-Components
-Crash
-Reporting
-README
 )
 .
 #
