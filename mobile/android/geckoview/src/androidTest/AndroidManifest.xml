@@ -256,17 +256,6 @@ style
 /
 AppTheme
 "
-android
-:
-name
-=
-"
-androidx
-.
-multidex
-.
-MultiDexApplication
-"
 >
 <
 activity

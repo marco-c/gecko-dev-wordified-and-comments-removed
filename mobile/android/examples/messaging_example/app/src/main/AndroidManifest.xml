@@ -148,17 +148,6 @@ app_name
 "
 android
 :
-name
-=
-"
-androidx
-.
-multidex
-.
-MultiDexApplication
-"
-android
-:
 roundIcon
 =
 "

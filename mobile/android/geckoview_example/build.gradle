@@ -97,8 +97,6 @@ project
 ext
 .
 versionName
-multiDexEnabled
-true
 }
 compileOptions
 {
@@ -319,18 +317,4 @@ implementation
 ComponentsDependencies
 .
 google_material
-implementation
-'
-androidx
-.
-multidex
-:
-multidex
-:
-2
-.
-0
-.
-1
-'
 }
