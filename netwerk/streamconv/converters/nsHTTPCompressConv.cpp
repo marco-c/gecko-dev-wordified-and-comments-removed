@@ -701,6 +701,7 @@ target
 ;
 if
 (
+(
 NS_FAILED
 (
 rv
@@ -715,6 +716,15 @@ target
 -
 >
 IsOnCurrentThread
+(
+)
+)
+&
+&
+StaticPrefs
+:
+:
+network_decompression_off_mainthread
 (
 )
 )
