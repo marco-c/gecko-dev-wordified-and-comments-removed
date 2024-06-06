@@ -363,7 +363,7 @@ gecko
 Bug
 fixed
 [
-bug
+Bug
 1811183
 ]
 (
@@ -420,8 +420,7 @@ of
 EngineVersion
 .
 [
-bug
-#
+Bug
 1811448
 ]
 (
@@ -477,7 +476,7 @@ the
 events
 see
 [
-bug
+Bug
 1810743
 ]
 (
@@ -548,8 +547,7 @@ to
 IMPORTANCE_DEFAULT
 .
 [
-bug
-#
+Bug
 1796766
 ]
 (
@@ -584,8 +582,7 @@ media
 Bug
 fixed
 [
-bug
-#
+Bug
 1802620
 ]
 (
@@ -800,8 +797,7 @@ sync
 Bug
 fixed
 [
-bug
-#
+Bug
 1804996
 ]
 (
@@ -851,7 +847,7 @@ crash
 Bug
 fixed
 [
-bug
+Bug
 1802975
 ]
 (
@@ -911,8 +907,7 @@ see
 more
 on
 [
-bug
-#
+Bug
 1797568
 ]
 (
@@ -947,8 +942,7 @@ share
 Bug
 fixed
 [
-bug
-#
+Bug
 1806411
 ]
 (
@@ -1008,8 +1002,7 @@ the
 banners
 see
 [
-bug
-#
+Bug
 1806435
 ]
 (
@@ -1096,8 +1089,7 @@ search
 engines
 .
 [
-bug
-#
+Bug
 1804594
 ]
 (
@@ -1174,7 +1166,7 @@ foundation
 to
 fix
 [
-bug
+Bug
 1796319
 ]
 (
@@ -1211,8 +1203,7 @@ sentry
 Bug
 fixed
 [
-bug
-#
+Bug
 1801349
 ]
 (
@@ -1447,8 +1438,7 @@ in
 private
 browsing
 [
-bug
-#
+Bug
 1797605
 ]
 (
@@ -1661,8 +1651,7 @@ contextmenu
 Bug
 fixed
 [
-bug
-#
+Bug
 1798873
 ]
 (
@@ -1746,8 +1735,7 @@ more
 references
 see
 [
-bug
-#
+Bug
 1801285
 ]
 (
@@ -1783,8 +1771,7 @@ menu
 Bug
 Fixed
 [
-bug
-#
+Bug
 1800885
 ]
 (
@@ -1928,8 +1915,7 @@ cookie
 banner
 exceptions
 [
-bug
-#
+Bug
 1797605
 ]
 (
@@ -1964,8 +1950,7 @@ engine
 Bug
 fixed
 [
-bug
-#
+Bug
 1801648
 ]
 (
@@ -2026,8 +2011,7 @@ readPinnedSitesFromFennec
 functions
 .
 [
-bug
-#
+Bug
 1803632
 ]
 (
@@ -2072,8 +2056,7 @@ importLoginsAsync
 function
 .
 [
-bug
-#
+Bug
 1803632
 ]
 (
@@ -2109,8 +2092,7 @@ sentry
 Bug
 fixed
 [
-bug
-#
+Bug
 1801349
 ]
 (
@@ -2348,8 +2330,7 @@ more
 references
 see
 [
-bug
-#
+Bug
 1800209
 ]
 (
@@ -2383,8 +2364,7 @@ readerview
 :
 *
 [
-bug
-#
+Bug
 1798672
 ]
 (
@@ -2432,8 +2412,7 @@ autocomplete
 Bug
 fixed
 [
-bug
-#
+Bug
 1794933
 ]
 (
@@ -2473,8 +2452,7 @@ engine
 *
 *
 [
-bug
-#
+Bug
 1798359
 ]
 (
@@ -2608,8 +2586,7 @@ more
 references
 see
 [
-bug
-#
+Bug
 1796482
 ]
 (
@@ -38078,7 +38055,7 @@ parameter
 .
 See
 [
-bug
+Bug
 1630997
 ]
 (
@@ -46788,7 +46765,7 @@ loss
 .
 See
 [
-bug
+Bug
 1609482
 ]
 (
@@ -50212,7 +50189,7 @@ pings
 .
 See
 [
-bug
+Bug
 1597980
 ]
 (
@@ -58099,7 +58076,7 @@ SDK
 .
 See
 [
-bug
+Bug
 1579365
 ]
 (
