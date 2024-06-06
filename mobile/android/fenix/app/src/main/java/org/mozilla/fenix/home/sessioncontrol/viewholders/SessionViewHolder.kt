@@ -690,7 +690,7 @@ view
 )
 LayoutContainer
 {
-private
+internal
 var
 session
 :
