@@ -6812,7 +6812,7 @@ verifyHomeScreen
 }
 Test
 fun
-startOnHomeSettingsMenuItemsTest
+tabsSettingsMenuItemsTest
 (
 )
 {
@@ -6830,6 +6830,12 @@ openSettings
 .
 openTabsSubMenu
 {
+verifyTabViewOptions
+(
+)
+verifyCloseTabsOptions
+(
+)
 verifyStartOnHomeOptions
 (
 )
