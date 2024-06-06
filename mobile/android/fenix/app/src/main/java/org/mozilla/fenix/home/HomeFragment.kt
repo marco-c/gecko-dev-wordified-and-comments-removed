@@ -869,6 +869,16 @@ fenix
 .
 ext
 .
+sessionsOfType
+import
+org
+.
+mozilla
+.
+fenix
+.
+ext
+.
 settings
 import
 org
