@@ -307,6 +307,16 @@ testAnnotations
 .
 SmokeTest
 import
+org
+.
+mozilla
+.
+focus
+.
+utils
+.
+IntentUtils
+import
 java
 .
 io
@@ -742,7 +752,9 @@ appContext
 Intent
 (
 )
-0
+IntentUtils
+.
+defaultIntentPendingFlags
 )
 val
 customTabsIntent

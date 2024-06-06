@@ -725,6 +725,16 @@ focus
 .
 utils
 .
+IntentUtils
+import
+org
+.
+mozilla
+.
+focus
+.
+utils
+.
 Settings
 import
 java
@@ -1557,7 +1567,9 @@ getActivity
 context
 0
 intent
-0
+IntentUtils
+.
+defaultIntentPendingFlags
 )
 return
 CrashReporter
