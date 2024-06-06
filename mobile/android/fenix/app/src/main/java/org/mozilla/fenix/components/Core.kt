@@ -65,6 +65,14 @@ fenix
 .
 components
 import
+org
+.
+mozilla
+.
+fenix
+.
+gecko
+.
 GeckoProvider
 import
 android
