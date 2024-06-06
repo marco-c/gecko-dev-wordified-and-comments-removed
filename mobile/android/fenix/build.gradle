@@ -934,7 +934,9 @@ Delete
 delete
 rootProject
 .
-buildDir
+layout
+.
+buildDirectory
 }
 detekt
 {

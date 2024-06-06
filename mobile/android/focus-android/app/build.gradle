@@ -5725,7 +5725,9 @@ dir
 "
 project
 .
-buildDir
+layout
+.
+buildDirectory
 /
 tmp
 /
@@ -5753,7 +5755,9 @@ dir
 "
 project
 .
-buildDir
+layout
+.
+buildDirectory
 /
 intermediates
 /
@@ -5824,7 +5828,9 @@ dir
 :
 project
 .
-buildDir
+layout
+.
+buildDirectory
 includes
 :
 [

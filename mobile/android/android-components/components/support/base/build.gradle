@@ -80,7 +80,15 @@ generatedSrcDir
 new
 File
 (
-buildDir
+layout
+.
+buildDirectory
+.
+get
+(
+)
+.
+asFile
 "
 generated
 /
