@@ -301,6 +301,8 @@ context
 requireContext
 (
 )
+.
+applicationContext
 openLink
 =
 {
