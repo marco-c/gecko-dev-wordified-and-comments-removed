@@ -667,7 +667,7 @@ R
 .
 string
 .
-pref_key_toolbar_top
+pref_key_toolbar_bottom
 )
 bottomPreference
 .
