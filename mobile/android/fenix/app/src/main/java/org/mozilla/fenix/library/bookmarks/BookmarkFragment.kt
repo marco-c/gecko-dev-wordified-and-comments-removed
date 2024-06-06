@@ -1259,7 +1259,7 @@ searchTermOrURL
 url
 newTab
 =
-false
+true
 from
 =
 BrowserDirection

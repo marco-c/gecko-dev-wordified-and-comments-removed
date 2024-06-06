@@ -1329,7 +1329,7 @@ item
 url
 newTab
 =
-false
+true
 from
 =
 BrowserDirection
