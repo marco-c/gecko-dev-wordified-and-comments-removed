@@ -385,6 +385,16 @@ components
 .
 feature
 .
+prompts
+.
+PromptMiddleware
+import
+mozilla
+.
+components
+.
+feature
+.
 pwa
 .
 ManifestStorage
@@ -1381,6 +1391,9 @@ context
 RecordingDevicesMiddleware
 (
 context
+)
+PromptMiddleware
+(
 )
 )
 BrowserStore
