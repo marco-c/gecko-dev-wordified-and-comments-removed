@@ -3575,6 +3575,11 @@ navigationToolbar
 click
 (
 )
+mDevice
+.
+waitForIdle
+(
+)
 SearchRobot
 (
 )
