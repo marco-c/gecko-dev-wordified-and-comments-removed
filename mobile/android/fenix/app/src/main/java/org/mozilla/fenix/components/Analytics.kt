@@ -623,7 +623,6 @@ isMarketingTelemetryEnabled
 )
 }
 }
-private
 fun
 isSentryEnabled
 (
