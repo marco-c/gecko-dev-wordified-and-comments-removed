@@ -1596,14 +1596,12 @@ ConstraintSet
 .
 BOTTOM
 )
-;
 constraintSet
 .
 applyTo
 (
 bookmark_layout
 )
-;
 bookmark_favicon
 .
 setImageResource
