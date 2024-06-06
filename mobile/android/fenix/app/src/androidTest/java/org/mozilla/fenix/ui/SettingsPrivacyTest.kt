@@ -800,9 +800,6 @@ verifyDeleteBrowsingDataOnQuitButton
 verifyDataCollectionButton
 (
 )
-verifyLeakCanaryButton
-(
-)
 }
 }
 /
