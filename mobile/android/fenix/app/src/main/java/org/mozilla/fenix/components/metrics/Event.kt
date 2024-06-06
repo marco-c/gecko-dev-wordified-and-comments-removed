@@ -838,12 +838,6 @@ Event
 (
 )
 object
-RecentlyClosedTabsOpenedOld
-:
-Event
-(
-)
-object
 HaveOpenTabs
 :
 Event
