@@ -640,14 +640,6 @@ layout_marginEnd
 "
 android
 :
-backgroundTint
-=
-"
-?
-accent
-"
-android
-:
 text
 =
 "

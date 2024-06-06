@@ -575,14 +575,6 @@ layout_marginTop
 "
 android
 :
-backgroundTint
-=
-"
-?
-accent
-"
-android
-:
 letterSpacing
 =
 "

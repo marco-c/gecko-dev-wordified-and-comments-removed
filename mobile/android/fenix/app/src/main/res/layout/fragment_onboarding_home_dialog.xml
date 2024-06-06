@@ -1620,14 +1620,6 @@ onboarding_padded_background
 "
 android
 :
-backgroundTint
-=
-"
-?
-accent
-"
-android
-:
 text
 =
 "
