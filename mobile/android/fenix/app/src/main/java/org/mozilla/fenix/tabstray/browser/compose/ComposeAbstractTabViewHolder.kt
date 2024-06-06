@@ -117,7 +117,7 @@ androidx
 .
 savedstate
 .
-ViewTreeSavedStateRegistryOwner
+setViewTreeSavedStateRegistryOwner
 import
 mozilla
 .
@@ -326,11 +326,10 @@ set
 composeView
 viewLifecycleOwner
 )
-ViewTreeSavedStateRegistryOwner
-.
-set
-(
 composeView
+.
+setViewTreeSavedStateRegistryOwner
+(
 viewLifecycleOwner
 as
 SavedStateRegistryOwner

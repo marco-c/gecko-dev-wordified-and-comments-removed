@@ -123,7 +123,7 @@ androidx
 .
 savedstate
 .
-ViewTreeSavedStateRegistryOwner
+setViewTreeSavedStateRegistryOwner
 import
 org
 .
@@ -306,11 +306,10 @@ set
 composeView
 viewLifecycleOwner
 )
-ViewTreeSavedStateRegistryOwner
-.
-set
-(
 composeView
+.
+setViewTreeSavedStateRegistryOwner
+(
 viewLifecycleOwner
 as
 SavedStateRegistryOwner
