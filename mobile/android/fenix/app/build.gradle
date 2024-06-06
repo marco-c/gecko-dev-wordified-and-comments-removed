@@ -1672,6 +1672,11 @@ md
 '
 ]
 }
+jniLibs
+{
+useLegacyPackaging
+true
+}
 }
 testOptions
 {

@@ -685,13 +685,6 @@ false
 "
 android
 :
-extractNativeLibs
-=
-"
-true
-"
-android
-:
 icon
 =
 "
