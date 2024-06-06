@@ -641,15 +641,6 @@ widget
 CookiesPreference
 android
 :
-defaultValue
-=
-"
-string
-/
-preference_privacy_should_block_cookies_no_option
-"
-android
-:
 entries
 =
 "

@@ -180,7 +180,6 @@ updateSummary
 (
 )
 }
-private
 fun
 updateSummary
 (
