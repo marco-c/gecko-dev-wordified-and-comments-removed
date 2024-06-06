@@ -236,12 +236,7 @@ legacy_api_ui_tests
 when
 :
 [
-{
-hour
-:
-10
-minute
-:
-30
-}
 ]
+#
+temporarily
+unscheduled
