@@ -361,6 +361,9 @@ onCollectionRemoveTab
 (
 collection
 tab
+wasSwiped
+=
+false
 )
 }
 }

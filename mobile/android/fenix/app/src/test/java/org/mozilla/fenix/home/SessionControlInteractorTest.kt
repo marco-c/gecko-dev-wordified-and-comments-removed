@@ -303,6 +303,7 @@ onCollectionRemoveTab
 (
 collection
 tab
+false
 )
 verify
 {
@@ -312,6 +313,7 @@ handleCollectionRemoveTab
 (
 collection
 tab
+false
 )
 }
 }

@@ -248,6 +248,9 @@ collection
 viewHolder
 .
 tab
+wasSwiped
+=
+true
 )
 }
 }
