@@ -796,7 +796,7 @@ isUnderTest
 {
 ExistingPeriodicWorkPolicy
 .
-REPLACE
+CANCEL_AND_REENQUEUE
 }
 else
 {

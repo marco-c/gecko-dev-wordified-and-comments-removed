@@ -1286,7 +1286,7 @@ unit
 Use
 the
 '
-replace
+update
 '
 policy
 as
@@ -1328,7 +1328,7 @@ Periodic
 name
 ExistingPeriodicWorkPolicy
 .
-REPLACE
+UPDATE
 periodicSyncWorkRequest
 (
 unit

@@ -384,7 +384,7 @@ enqueueUniquePeriodicWork
 CHECKER_UNIQUE_PERIODIC_WORK_NAME
 ExistingPeriodicWorkPolicy
 .
-REPLACE
+UPDATE
 createPeriodicWorkerRequest
 (
 )
