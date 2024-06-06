@@ -1638,8 +1638,7 @@ onCustomViewHidden
 )
 }
 callback
-!
-!
+?
 .
 onEnterFullScreen
 (
@@ -1654,8 +1653,7 @@ onHideCustomView
 )
 {
 callback
-!
-!
+?
 .
 onExitFullScreen
 (
