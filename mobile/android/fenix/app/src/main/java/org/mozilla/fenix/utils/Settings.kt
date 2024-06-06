@@ -788,7 +788,7 @@ MODE_PRIVATE
 var
 showTopFrecentSites
 by
-featureFlagPreference
+booleanPreference
 (
 appContext
 .
@@ -803,11 +803,6 @@ pref_key_enable_top_frecent_sites
 default
 =
 true
-featureFlag
-=
-FeatureFlags
-.
-topFrecentSite
 )
 var
 numberOfAppLaunches
