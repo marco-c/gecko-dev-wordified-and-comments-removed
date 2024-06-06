@@ -560,6 +560,12 @@ interactor
 :
 :
 onShoppingCfrActionClicked
+onShoppingCfrDismiss
+=
+interactor
+:
+:
+onShoppingCfrDismiss
 )
 init
 {
