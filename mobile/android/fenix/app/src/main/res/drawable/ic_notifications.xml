@@ -123,11 +123,11 @@ drawable
 "
 drawable
 /
-ic_tracking_protection_enabled
+ic_notifications_enabled
 "
 android
 :
-state_checked
+state_enabled
 =
 "
 true
@@ -153,7 +153,7 @@ drawable
 "
 drawable
 /
-ic_tracking_protection_disabled
+ic_notifications_disabled
 "
 /
 >
@@ -166,7 +166,7 @@ drawable
 "
 drawable
 /
-ic_tracking_protection_anim_enable
+ic_notifications_anim_enable
 "
 android
 :
@@ -197,7 +197,7 @@ drawable
 "
 drawable
 /
-ic_tracking_protection_anim_disable
+ic_notifications_anim_disable
 "
 android
 :

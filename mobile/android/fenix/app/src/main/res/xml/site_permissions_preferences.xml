@@ -205,7 +205,7 @@ icon
 "
 drawable
 /
-ic_camera
+ic_camera_enabled
 "
 android
 :
@@ -249,7 +249,7 @@ icon
 "
 drawable
 /
-ic_location
+ic_location_enabled
 "
 android
 :
@@ -293,7 +293,7 @@ icon
 "
 drawable
 /
-ic_microphone
+ic_microphone_enabled
 "
 android
 :
@@ -337,7 +337,7 @@ icon
 "
 drawable
 /
-ic_notification
+ic_notifications_enabled
 "
 android
 :
