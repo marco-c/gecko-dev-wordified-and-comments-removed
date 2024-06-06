@@ -425,6 +425,8 @@ Mozilla
 About
 PrivacyExceptions
 PrivacyExceptionsRemove
+SitePermissions
+Autoplay
 Studies
 SearchList
 SearchRemove
