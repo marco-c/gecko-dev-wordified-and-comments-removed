@@ -1959,14 +1959,9 @@ AppAction
 .
 ModeChange
 (
-Mode
-.
-fromBrowsingMode
-(
 browsingModeManager
 .
 mode
-)
 )
 )
 lifecycleScope

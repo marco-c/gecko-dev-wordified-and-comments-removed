@@ -367,16 +367,6 @@ fenix
 .
 home
 .
-Mode
-import
-org
-.
-mozilla
-.
-fenix
-.
-home
-.
 pocket
 .
 PocketRecommendedStoriesCategory
@@ -665,14 +655,9 @@ emptySet
 )
 mode
 =
-Mode
-.
-fromBrowsingMode
-(
 browsingModeManager
 .
 mode
-)
 topSites
 =
 emptyList
@@ -733,7 +718,7 @@ correct
 .
 assertEquals
 (
-Mode
+BrowsingMode
 .
 Normal
 appStore
@@ -759,7 +744,7 @@ AppAction
 .
 ModeChange
 (
-Mode
+BrowsingMode
 .
 Private
 )
@@ -770,7 +755,7 @@ join
 )
 assertEquals
 (
-Mode
+BrowsingMode
 .
 Private
 appStore
@@ -797,7 +782,7 @@ AppAction
 .
 ModeChange
 (
-Mode
+BrowsingMode
 .
 Normal
 )
@@ -808,7 +793,7 @@ join
 )
 assertEquals
 (
-Mode
+BrowsingMode
 .
 Normal
 appStore
@@ -1986,7 +1971,7 @@ size
 )
 assertEquals
 (
-Mode
+BrowsingMode
 .
 Normal
 appStore
@@ -2192,7 +2177,7 @@ collections
 collections
 mode
 =
-Mode
+BrowsingMode
 .
 Private
 topSites
@@ -2272,7 +2257,7 @@ recentHistory
 )
 assertEquals
 (
-Mode
+BrowsingMode
 .
 Private
 appStore

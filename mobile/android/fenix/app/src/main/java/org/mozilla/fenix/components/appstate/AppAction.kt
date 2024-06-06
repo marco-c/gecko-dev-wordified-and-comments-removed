@@ -175,9 +175,11 @@ mozilla
 .
 fenix
 .
-components
+browser
 .
-AppStore
+browsingmode
+.
+BrowsingMode
 import
 org
 .
@@ -185,9 +187,9 @@ mozilla
 .
 fenix
 .
-home
+components
 .
-Mode
+AppStore
 import
 org
 .
@@ -418,7 +420,7 @@ TopSite
 val
 mode
 :
-Mode
+BrowsingMode
 val
 collections
 :
@@ -500,7 +502,7 @@ ModeChange
 val
 mode
 :
-Mode
+BrowsingMode
 )
 :
 AppAction

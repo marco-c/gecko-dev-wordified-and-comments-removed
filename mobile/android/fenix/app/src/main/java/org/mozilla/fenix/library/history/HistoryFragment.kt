@@ -499,16 +499,6 @@ mozilla
 .
 fenix
 .
-home
-.
-Mode
-import
-org
-.
-mozilla
-.
-fenix
-.
 library
 .
 LibraryPageFragment
@@ -873,7 +863,7 @@ state
 mode
 =
 =
-Mode
+BrowsingMode
 .
 Private
 )
