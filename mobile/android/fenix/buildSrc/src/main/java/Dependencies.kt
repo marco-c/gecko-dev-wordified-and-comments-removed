@@ -124,9 +124,11 @@ mozilla_android_components
 "
 0
 .
-37
+39
 .
 0
+-
+SNAPSHOT
 "
 const
 val
