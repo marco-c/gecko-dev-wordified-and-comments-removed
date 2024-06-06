@@ -77,13 +77,6 @@ flags
 object
 Features
 {
-const
-val
-SEARCH_TERMS_OR_URL
-:
-Boolean
-=
-true
 /
 *
 *
