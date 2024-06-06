@@ -632,6 +632,9 @@ false
 isWallpaperOnboardingEnabled
 =
 false
+isCookieBannerReductionDialogEnabled
+=
+false
 tabsTrayRewriteEnabled
 =
 false
