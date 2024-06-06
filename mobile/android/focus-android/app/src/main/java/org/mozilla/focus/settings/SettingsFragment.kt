@@ -173,6 +173,12 @@ localeUpdated
 Boolean
 =
 false
+Suppress
+(
+"
+ForbiddenComment
+"
+)
 override
 fun
 onCreatePreferences
