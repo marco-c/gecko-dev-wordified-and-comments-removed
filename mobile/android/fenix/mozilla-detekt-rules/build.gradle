@@ -10,6 +10,10 @@ compileOnly
 Deps
 .
 detektApi
+implementation
+Deps
+.
+androidx_annotation
 /
 /
 I

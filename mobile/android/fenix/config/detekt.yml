@@ -674,6 +674,11 @@ androidTest
 *
 *
 "
+MozillaUseLazyMonitored
+:
+active
+:
+true
 empty
 -
 blocks
