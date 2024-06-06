@@ -104,7 +104,7 @@ too
 .
 set
 -
-e
+ex
 #
 download
 the
@@ -131,7 +131,6 @@ the
 right
 place
 )
-#
 python
 tools
 /
