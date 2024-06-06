@@ -95,7 +95,7 @@ synthetic
 .
 main
 .
-archive_tabs_button
+save_tab_group_button
 .
 view
 .
@@ -145,7 +145,7 @@ sessioncontrol
 .
 onNext
 class
-ArchiveTabsViewHolder
+SaveTabGroupViewHolder
 (
 view
 :
@@ -171,7 +171,7 @@ init
 {
 view
 .
-save_session_button
+save_tab_group_button
 .
 setOnClickListener
 {
@@ -181,7 +181,7 @@ onNext
 (
 TabAction
 .
-Archive
+SaveTabGroup
 )
 }
 }
@@ -196,6 +196,6 @@ R
 .
 layout
 .
-archive_tabs_button
+save_tab_group_button
 }
 }

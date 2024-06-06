@@ -109,7 +109,7 @@ id
 +
 id
 /
-save_session_button
+save_tab_group_button
 "
 android
 :
@@ -200,7 +200,7 @@ id
 +
 id
 /
-save_session_button_text
+save_tab_group_button_text
 "
 android
 :
@@ -283,7 +283,7 @@ text
 "
 string
 /
-session_save
+save_tab_group
 "
 android
 :

@@ -1169,7 +1169,7 @@ action
 is
 TabAction
 .
-Archive
+SaveTabGroup
 -
 >
 {

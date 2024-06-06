@@ -109,7 +109,7 @@ sessioncontrol
 .
 viewholders
 .
-ArchiveTabsViewHolder
+SaveTabGroupViewHolder
 import
 org
 .
@@ -222,7 +222,7 @@ AdapterItem
 (
 )
 object
-ArchiveTabs
+SaveTabGroup
 :
 AdapterItem
 (
@@ -265,10 +265,10 @@ TabItem
 TabViewHolder
 .
 LAYOUT_ID
-ArchiveTabs
+SaveTabGroup
 -
 >
-ArchiveTabsViewHolder
+SaveTabGroupViewHolder
 .
 LAYOUT_ID
 PrivateBrowsingDescription
@@ -440,12 +440,12 @@ view
 actionEmitter
 job
 )
-ArchiveTabsViewHolder
+SaveTabGroupViewHolder
 .
 LAYOUT_ID
 -
 >
-ArchiveTabsViewHolder
+SaveTabGroupViewHolder
 (
 view
 actionEmitter

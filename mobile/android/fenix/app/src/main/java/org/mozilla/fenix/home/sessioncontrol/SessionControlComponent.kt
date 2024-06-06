@@ -362,7 +362,7 @@ TabAction
 Action
 {
 object
-Archive
+SaveTabGroup
 :
 TabAction
 (
