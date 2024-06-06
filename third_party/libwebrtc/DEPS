@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-eb15a443b5a9e31e8b78274c90b5c3b5df7e8b62
+336689d906695a7ea5a9ac85a5f386d7a80266dd
 '
 #
 Fetch
@@ -433,7 +433,7 @@ chromium
 src
 /
 base
-5b0c3268555b986f312b2450fc3a8d19ca6b37cd
+baa20ba9abb3f55a80a04f4767d436816b325024
 '
 '
 src
@@ -577,7 +577,7 @@ chromium
 src
 /
 ios
-7ed8911838ce91fd3e42a4d3caa521a5bd191c05
+1217b7e1ace7ddbe7a4e57095add47be87c02aa0
 '
 '
 condition
@@ -633,7 +633,7 @@ chromium
 src
 /
 third_party
-6ed23cbca863a44c7f844ae1496dd045cf032b56
+5b889f2713d2ca346c838bef2e44a310758d5849
 '
 '
 src
@@ -2701,7 +2701,7 @@ external
 perfetto
 .
 git
-943b66c41f8e415f8fecc1b3bf34274cf96cf0c1
+28eadcf5efccc550c5317bdccaca0e64d9698f65
 '
 '
 src
@@ -2731,7 +2731,7 @@ webm
 libvpx
 .
 git
-2dead7118aeb86e98793dcd3873862e6e2115c8a
+b95d17572629c676bdcfd535fb3990b9f6f8fb11
 '
 '
 src
@@ -3159,7 +3159,7 @@ chromium
 src
 /
 tools
-3a95202e5f2a6917fd1e36a50c1ed56ffa78e26b
+2f3f0542ce8c564f679a21a13b0b56d6509b2b1c
 '
 '
 src
