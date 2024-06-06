@@ -1142,7 +1142,7 @@ contentDescription
 "
 string
 /
-saved_login_copy_username
+saved_login_clear_username
 "
 app
 :
@@ -1756,7 +1756,7 @@ contentDescription
 "
 string
 /
-saved_logins_copy_password
+saved_logins_clear_password
 "
 app
 :
