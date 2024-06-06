@@ -186,7 +186,7 @@ RequestInterceptor
 {
 private
 val
-isGoogleSearchRequest
+isGoogleRequest
 by
 lazy
 {
@@ -206,14 +206,8 @@ google
 \
 \
 .
-(
-?
-:
 .
 +
-)
-/
-search
 "
 )
 }
@@ -285,7 +279,7 @@ return
 isSubframeRequest
 &
 &
-isGoogleSearchRequest
+isGoogleRequest
 .
 containsMatchIn
 (
