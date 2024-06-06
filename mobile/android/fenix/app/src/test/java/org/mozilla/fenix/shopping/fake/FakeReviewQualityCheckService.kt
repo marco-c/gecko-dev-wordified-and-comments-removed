@@ -71,15 +71,13 @@ mozilla
 .
 components
 .
-browser
+concept
 .
 engine
 .
-gecko
-.
 shopping
 .
-GeckoProductAnalysis
+ProductAnalysis
 import
 org
 .
@@ -116,7 +114,7 @@ Int
 )
 -
 >
-GeckoProductAnalysis
+ProductAnalysis
 ?
 =
 {
@@ -162,7 +160,7 @@ fetchProductReview
 (
 )
 :
-GeckoProductAnalysis
+ProductAnalysis
 ?
 {
 return

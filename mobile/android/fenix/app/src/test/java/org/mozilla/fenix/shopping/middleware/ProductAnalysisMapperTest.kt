@@ -71,11 +71,9 @@ mozilla
 .
 components
 .
-browser
+concept
 .
 engine
-.
-gecko
 .
 shopping
 .
@@ -156,7 +154,7 @@ ProductAnalysisMapperTest
 Test
 fun
 WHEN
-GeckoProductAnalysis
+ProductAnalysis
 has
 data
 THEN
@@ -379,7 +377,7 @@ actual
 Test
 fun
 WHEN
-GeckoProductAnalysis
+ProductAnalysis
 has
 data
 with
@@ -573,7 +571,7 @@ actual
 Test
 fun
 WHEN
-GeckoProductAnalysis
+ProductAnalysis
 has
 an
 invalid

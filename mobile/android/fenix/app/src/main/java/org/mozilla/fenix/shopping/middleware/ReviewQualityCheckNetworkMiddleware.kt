@@ -83,15 +83,13 @@ mozilla
 .
 components
 .
-browser
+concept
 .
 engine
 .
-gecko
-.
 shopping
 .
-GeckoProductAnalysis
+ProductAnalysis
 import
 mozilla
 .
@@ -835,7 +833,7 @@ productReviewState
 ProductReviewState
 productAnalysis
 :
-GeckoProductAnalysis
+ProductAnalysis
 ?
 )
 {
