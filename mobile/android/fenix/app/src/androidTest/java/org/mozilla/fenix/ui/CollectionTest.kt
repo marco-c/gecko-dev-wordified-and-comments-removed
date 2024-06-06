@@ -499,10 +499,9 @@ saved
 !
 "
 )
-}
-.
-closeTabDrawer
-{
+closeTab
+(
+)
 }
 navigationToolbar
 {
