@@ -133,9 +133,11 @@ mozilla
 .
 fenix
 .
-onboarding
+helpers
 .
-FenixOnboarding
+TestHelper
+.
+appContext
 import
 org
 .
@@ -143,11 +145,9 @@ mozilla
 .
 fenix
 .
-ui
+onboarding
 .
-robots
-.
-appContext
+FenixOnboarding
 /
 *
 *

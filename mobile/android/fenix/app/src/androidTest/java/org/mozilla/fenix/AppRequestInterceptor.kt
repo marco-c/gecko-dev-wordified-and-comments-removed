@@ -113,9 +113,9 @@ mozilla
 .
 fenix
 .
-ui
+helpers
 .
-robots
+TestHelper
 .
 appContext
 import
