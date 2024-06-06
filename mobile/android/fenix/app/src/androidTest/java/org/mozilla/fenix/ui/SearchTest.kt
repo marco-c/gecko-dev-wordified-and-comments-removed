@@ -280,9 +280,6 @@ homeScreen
 .
 openSearch
 {
-clickShortcutsButton
-(
-)
 verifySearchWithText
 (
 )
@@ -322,9 +319,6 @@ homeScreen
 .
 openSearch
 {
-clickShortcutsButton
-(
-)
 scrollToSearchEngineSettings
 (
 )
