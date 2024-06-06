@@ -2511,11 +2511,8 @@ Collection
 deleted
 "
 )
-clickUndoCollectionDeletion
+clickUndoSnackBarButton
 (
-"
-UNDO
-"
 )
 verifyCollectionIsDisplayed
 (
