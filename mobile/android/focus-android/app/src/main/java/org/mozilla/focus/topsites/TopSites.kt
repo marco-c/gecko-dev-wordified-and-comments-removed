@@ -924,7 +924,7 @@ backgroundColor
 =
 PhotonColors
 .
-Ink30
+Ink05
 )
 {
 Column
