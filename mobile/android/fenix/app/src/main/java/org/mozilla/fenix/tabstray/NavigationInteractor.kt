@@ -646,6 +646,14 @@ onTabTrayDismissed
 (
 )
 {
+metrics
+.
+track
+(
+Event
+.
+TabsTrayClosed
+)
 dismissTabTray
 (
 )
