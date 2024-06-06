@@ -2573,13 +2573,6 @@ color
 .
 searchInActiveBackgroundColor
 )
-toolbarBottomBorder
-.
-visibility
-=
-View
-.
-VISIBLE
 if
 (
 !
@@ -2616,13 +2609,6 @@ drawable
 .
 background_active
 )
-toolbarBottomBorder
-.
-visibility
-=
-View
-.
-GONE
 }
 }
 }
