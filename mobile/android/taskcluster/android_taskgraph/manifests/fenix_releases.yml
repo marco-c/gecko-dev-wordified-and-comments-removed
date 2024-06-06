@@ -447,6 +447,8 @@ build
 -
 type
 :
+fenix
+-
 nightly
 :
 -
@@ -470,6 +472,8 @@ multi
 tasktype_map
 :
 signing
+-
+apk
 :
 signing
 platform_names
@@ -491,6 +495,8 @@ from
 :
 -
 signing
+-
+apk
 all_locales
 :
 true
@@ -537,6 +543,8 @@ TODO
 "
 mapping
 :
+fenix
+/
 arm64
 -
 v8a
@@ -596,6 +604,8 @@ android
 arm64
 -
 v8a
+fenix
+/
 armeabi
 -
 v7a
@@ -655,6 +665,8 @@ android
 armeabi
 -
 v7a
+fenix
+/
 x86
 /
 target
@@ -706,6 +718,8 @@ version
 android
 -
 x86
+fenix
+/
 x86_64
 /
 target

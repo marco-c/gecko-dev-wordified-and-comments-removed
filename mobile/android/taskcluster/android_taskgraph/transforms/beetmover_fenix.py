@@ -48,7 +48,7 @@ Optional
 Required
 Schema
 from
-fenix_taskgraph
+android_taskgraph
 .
 util
 .
@@ -456,42 +456,6 @@ attributes
 attributes
             
 "
-run
--
-on
--
-projects
-"
-:
-attributes
-.
-get
-(
-"
-run_on_projects
-"
-)
-            
-"
-run
--
-on
--
-tasks
--
-for
-"
-:
-attributes
-.
-get
-(
-"
-run_on_tasks_for
-"
-)
-            
-"
 treeherder
 "
 :
@@ -506,6 +470,12 @@ treeherder
         
 yield
 task
+_STAGING_PREFIX
+=
+"
+staging
+-
+"
 def
 craft_release_properties
 (
@@ -529,15 +499,9 @@ app
 name
 "
 :
-str
-(
-params
-[
 "
-project
+fenix
 "
-]
-)
         
 "
 app
@@ -559,15 +523,12 @@ version
 branch
 "
 :
-str
-(
 params
 [
 "
 project
 "
 ]
-)
         
 "
 build
