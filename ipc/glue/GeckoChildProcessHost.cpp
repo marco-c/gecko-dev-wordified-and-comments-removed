@@ -2573,7 +2573,7 @@ mChildProcessHandle
 }
 #
 ifdef
-XP_MACOSX
+XP_DARWIN
 task_t
 GeckoChildProcessHost
 :
