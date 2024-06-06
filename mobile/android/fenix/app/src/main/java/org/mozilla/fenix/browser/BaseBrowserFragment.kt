@@ -6358,6 +6358,11 @@ enterToImmersiveMode
 )
 browserToolbarView
 .
+collapse
+(
+)
+browserToolbarView
+.
 view
 .
 isVisible
@@ -6393,11 +6398,6 @@ engineView
 setDynamicToolbarMaxHeight
 (
 0
-)
-browserToolbarView
-.
-expand
-(
 )
 /
 /
@@ -6488,6 +6488,11 @@ browser_toolbar_height
 initializeEngineView
 (
 toolbarHeight
+)
+browserToolbarView
+.
+expand
+(
 )
 }
 }
