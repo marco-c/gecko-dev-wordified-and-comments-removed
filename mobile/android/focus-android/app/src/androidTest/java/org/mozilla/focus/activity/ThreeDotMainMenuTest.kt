@@ -293,9 +293,6 @@ pageUrl
 .
 openMainMenu
 {
-verifyTrackersToggleExists
-(
-)
 verifyShareButtonExists
 (
 )
