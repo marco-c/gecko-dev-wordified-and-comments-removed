@@ -189,6 +189,18 @@ engine
 .
 shopping
 .
+ProductAnalysisStatus
+import
+mozilla
+.
+components
+.
+concept
+.
+engine
+.
+shopping
+.
 ProductRecommendation
 import
 mozilla
@@ -9165,7 +9177,7 @@ String
 onResult
 :
 (
-String
+ProductAnalysisStatus
 )
 -
 >

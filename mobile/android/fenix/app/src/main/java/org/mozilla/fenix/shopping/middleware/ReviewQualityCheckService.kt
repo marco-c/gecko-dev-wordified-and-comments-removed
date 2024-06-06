@@ -688,6 +688,8 @@ resume
 (
 it
 .
+status
+.
 asEnumOrDefault
 (
 AnalysisStatusDto
