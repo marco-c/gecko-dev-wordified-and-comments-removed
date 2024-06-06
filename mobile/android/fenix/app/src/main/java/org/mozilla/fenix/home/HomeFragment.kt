@@ -601,16 +601,6 @@ mozilla
 .
 fenix
 .
-onboarding
-.
-Onboarding
-import
-org
-.
-mozilla
-.
-fenix
-.
 settings
 .
 SupportUtils
