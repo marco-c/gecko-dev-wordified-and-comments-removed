@@ -8649,7 +8649,7 @@ places
 .
 uniffi
 .
-VisitTransition
+VisitType
 .
 LINK
 )
@@ -9776,6 +9776,12 @@ ViewTimeObservation
 20000
 )
 )
+Thread
+.
+sleep
+(
+10
+)
 val
 afterMeta1
 =
@@ -9867,6 +9873,12 @@ ViewTimeObservation
 (
 2000
 )
+)
+Thread
+.
+sleep
+(
+10
 )
 val
 afterMeta2

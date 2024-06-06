@@ -558,9 +558,6 @@ listOf
 (
 VisitType
 .
-NOT_A_VISIT
-VisitType
-.
 DOWNLOAD
 VisitType
 .

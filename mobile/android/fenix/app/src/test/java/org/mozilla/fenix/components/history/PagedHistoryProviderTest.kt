@@ -622,9 +622,6 @@ listOf
 (
 VisitType
 .
-NOT_A_VISIT
-VisitType
-.
 DOWNLOAD
 VisitType
 .
@@ -1008,9 +1005,6 @@ listOf
 (
 VisitType
 .
-NOT_A_VISIT
-VisitType
-.
 DOWNLOAD
 VisitType
 .
@@ -1338,9 +1332,6 @@ excludeTypes
 =
 listOf
 (
-VisitType
-.
-NOT_A_VISIT
 VisitType
 .
 DOWNLOAD
@@ -1873,9 +1864,6 @@ listOf
 (
 VisitType
 .
-NOT_A_VISIT
-VisitType
-.
 DOWNLOAD
 VisitType
 .
@@ -2002,9 +1990,6 @@ excludeTypes
 =
 listOf
 (
-VisitType
-.
-NOT_A_VISIT
 VisitType
 .
 DOWNLOAD

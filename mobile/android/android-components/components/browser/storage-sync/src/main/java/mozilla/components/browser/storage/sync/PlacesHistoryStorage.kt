@@ -573,7 +573,7 @@ visit
 .
 visitType
 .
-intoTransitionType
+into
 (
 )
 isRedirectSource
