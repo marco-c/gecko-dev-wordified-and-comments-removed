@@ -250,10 +250,10 @@ quick_action_buttons_layout
 "
 android
 :
-layout_margin
+layout_marginBottom
 =
 "
-4dp
+12dp
 "
 android
 :
