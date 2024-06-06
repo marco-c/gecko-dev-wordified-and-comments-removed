@@ -204,6 +204,13 @@ layout_height
 "
 wrap_content
 "
+android
+:
+paddingTop
+=
+"
+8dp
+"
 app
 :
 layout_constraintEnd_toEndOf
