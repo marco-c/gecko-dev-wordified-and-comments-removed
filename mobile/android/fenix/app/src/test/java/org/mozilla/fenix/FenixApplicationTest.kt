@@ -1648,8 +1648,9 @@ testGetValue
 (
 )
 )
-assertTrue
+assertEquals
 (
+true
 Metrics
 .
 defaultWallpaper
