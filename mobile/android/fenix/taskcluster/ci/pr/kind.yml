@@ -75,6 +75,10 @@ build
 lint
 -
 test
+-
+ui
+-
+test
 transforms
 :
 -
