@@ -405,6 +405,13 @@ Long
 MIN_VALUE
 )
 .
+sortedByDescending
+{
+it
+.
+createdAt
+}
+.
 filter
 {
 it
@@ -464,7 +471,7 @@ first
 (
 )
 .
-updatedAt
+createdAt
 items
 =
 items
