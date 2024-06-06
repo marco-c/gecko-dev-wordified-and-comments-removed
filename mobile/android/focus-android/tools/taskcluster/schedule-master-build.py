@@ -1259,7 +1259,6 @@ no
 -
 daemon
 clean
-assembleFocusArmRelease
 assembleKlarArmNightly
 '
 				   
