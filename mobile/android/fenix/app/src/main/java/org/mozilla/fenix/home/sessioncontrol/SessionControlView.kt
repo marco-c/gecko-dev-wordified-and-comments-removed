@@ -211,12 +211,12 @@ R
 .
 string
 .
-no_collections_header
+no_collections_header1
 R
 .
 string
 .
-collections_description
+no_collections_description1
 )
 /
 /
