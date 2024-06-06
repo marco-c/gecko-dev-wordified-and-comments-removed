@@ -807,16 +807,14 @@ input
 .
 get
 (
+        
 "
 rebuild_kinds
 "
-)
-or
 promotion_config
 .
 get
 (
-        
 "
 rebuild
 -
@@ -824,6 +822,7 @@ kinds
 "
 [
 ]
+)
     
 )
     
@@ -833,16 +832,14 @@ input
 .
 get
 (
+        
 "
 do_not_optimize
 "
-)
-or
 promotion_config
 .
 get
 (
-        
 "
 do
 -
@@ -852,6 +849,7 @@ optimize
 "
 [
 ]
+)
     
 )
     
