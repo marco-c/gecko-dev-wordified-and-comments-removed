@@ -243,13 +243,11 @@ setStyle
 DialogFragment
 .
 STYLE_NORMAL
-android
-.
 R
 .
 style
 .
-Theme_Material_Light_Dialog
+DialogStyle
 )
 }
 override

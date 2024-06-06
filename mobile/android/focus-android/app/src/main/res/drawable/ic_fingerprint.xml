@@ -141,8 +141,9 @@ android
 fillColor
 =
 "
-#
-FF000000
+color
+/
+contrastColor
 "
 android
 :
