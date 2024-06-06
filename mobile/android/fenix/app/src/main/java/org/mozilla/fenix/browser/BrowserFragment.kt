@@ -901,6 +901,16 @@ container
 browserLayout
 as
 ViewGroup
+shouldScrollWithTopToolbar
+=
+!
+context
+.
+settings
+(
+)
+.
+shouldUseBottomToolbar
 )
 owner
 =
