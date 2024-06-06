@@ -151,7 +151,7 @@ R
 .
 string
 .
-tip_disable_tips
+tip_disable_tips2
 import
 org
 .
@@ -1057,20 +1057,9 @@ Context
 Tip
 {
 val
-appName
-=
-context
-.
-resources
-.
-getString
-(
-app_name
-)
-val
 id
 =
-tip_disable_tips
+tip_disable_tips2
 val
 name
 =
@@ -1081,7 +1070,6 @@ resources
 getString
 (
 id
-appName
 )
 val
 shouldDisplayDisableTips
@@ -1391,7 +1379,7 @@ tip
 id
 =
 =
-tip_disable_tips
+tip_disable_tips2
 &
 &
 tip

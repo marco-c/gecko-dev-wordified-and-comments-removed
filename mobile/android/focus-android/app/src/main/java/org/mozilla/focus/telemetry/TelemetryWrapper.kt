@@ -4724,7 +4724,7 @@ R
 .
 string
 .
-tip_disable_tips
+tip_disable_tips2
 -
 >
 Value
@@ -4818,7 +4818,7 @@ R
 .
 string
 .
-tip_disable_tips
+tip_disable_tips2
 -
 >
 Value
