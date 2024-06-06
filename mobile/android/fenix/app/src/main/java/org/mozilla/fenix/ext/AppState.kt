@@ -1035,6 +1035,13 @@ recentHistory
 filteredByBlocklist
 (
 )
+recentSyncedTabState
+=
+recentSyncedTabState
+.
+filteredByBlocklist
+(
+)
 )
 }
 /

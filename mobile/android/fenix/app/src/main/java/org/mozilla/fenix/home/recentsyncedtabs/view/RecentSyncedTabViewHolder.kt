@@ -369,6 +369,12 @@ recentSyncedTabInteractor
 :
 :
 onSyncedTabShowAllClicked
+onRemoveSyncedTab
+=
+recentSyncedTabInteractor
+:
+:
+onRemovedRecentSyncedTab
 )
 }
 }

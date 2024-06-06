@@ -233,7 +233,7 @@ core
 .
 view
 .
-isVisible
+doOnPreDraw
 import
 androidx
 .
@@ -241,7 +241,7 @@ core
 .
 view
 .
-doOnPreDraw
+isVisible
 import
 androidx
 .
@@ -384,14 +384,6 @@ kotlinx
 coroutines
 .
 delay
-import
-kotlinx
-.
-coroutines
-.
-flow
-.
-collect
 import
 kotlinx
 .
@@ -2399,6 +2391,11 @@ accessPoint
 TabsTrayAccessPoint
 .
 HomeRecentSyncedTab
+appStore
+=
+components
+.
+appStore
 )
 recentBookmarksController
 =
