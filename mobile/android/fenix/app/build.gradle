@@ -1621,7 +1621,7 @@ kotlinCompilerExtensionVersion
 =
 Versions
 .
-androidx_compose
+androidx_compose_compiler
 }
 }
 android

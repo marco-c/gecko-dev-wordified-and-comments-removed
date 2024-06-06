@@ -246,6 +246,17 @@ androidx_compose
 "
 1
 .
+2
+.
+1
+"
+const
+val
+androidx_compose_compiler
+=
+"
+1
+.
 1
 .
 1
