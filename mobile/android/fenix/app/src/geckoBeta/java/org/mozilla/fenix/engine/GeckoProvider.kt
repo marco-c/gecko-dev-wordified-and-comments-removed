@@ -211,7 +211,10 @@ context
 Context
 storage
 :
+Lazy
+<
 LoginsStorage
+>
 )
 :
 GeckoRuntime
@@ -246,7 +249,10 @@ context
 Context
 storage
 :
+Lazy
+<
 LoginsStorage
+>
 )
 :
 GeckoRuntime

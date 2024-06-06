@@ -2006,7 +2006,7 @@ components
 .
 core
 .
-passwordsStorage
+lazyPasswordsStorage
 )
 isSaveLoginEnabled
 =

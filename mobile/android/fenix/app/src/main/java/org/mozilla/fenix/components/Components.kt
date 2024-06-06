@@ -267,13 +267,13 @@ analytics
 crashReporter
 core
 .
-historyStorage
+lazyHistoryStorage
 core
 .
-bookmarksStorage
+lazyBookmarksStorage
 core
 .
-passwordsStorage
+lazyPasswordsStorage
 )
 }
 val
