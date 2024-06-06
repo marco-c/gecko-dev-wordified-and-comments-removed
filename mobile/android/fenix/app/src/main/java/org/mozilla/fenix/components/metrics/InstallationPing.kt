@@ -125,16 +125,6 @@ fenix
 .
 GleanMetrics
 .
-Activation
-import
-org
-.
-mozilla
-.
-fenix
-.
-GleanMetrics
-.
 Installation
 import
 org
@@ -482,7 +472,7 @@ context
 .
 let
 {
-Activation
+Installation
 .
 identifier
 .
