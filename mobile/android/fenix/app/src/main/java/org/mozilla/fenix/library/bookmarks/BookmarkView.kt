@@ -149,6 +149,14 @@ mozilla
 .
 fenix
 .
+FeatureFlags
+import
+org
+.
+mozilla
+.
+fenix
+.
 NavGraphDirections
 import
 org
@@ -736,6 +744,13 @@ onRequestSync
 (
 )
 }
+if
+(
+FeatureFlags
+.
+bookmarkSwipeToDelete
+)
+{
 BookmarkTouchHelper
 (
 interactor
@@ -747,6 +762,7 @@ view
 .
 bookmark_list
 )
+}
 }
 fun
 update
