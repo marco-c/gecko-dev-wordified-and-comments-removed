@@ -1702,7 +1702,7 @@ refreshDevicesAsync
 await
 (
 )
-pollForEventsAsync
+pollForCommandsAsync
 (
 )
 .
