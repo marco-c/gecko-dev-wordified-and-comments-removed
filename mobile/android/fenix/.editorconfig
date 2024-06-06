@@ -12,16 +12,6 @@ true
 ij_kotlin_allow_trailing_comma
 =
 true
-max_line_length
-=
-120
-#
-Matches
-maxLineLength
-in
-detekt
-.
-yml
 [
 *
 ]
