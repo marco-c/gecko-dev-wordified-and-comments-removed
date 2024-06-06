@@ -263,7 +263,7 @@ base
 .
 feature
 .
-BackHandler
+UserInteractionHandler
 import
 mozilla
 .
@@ -362,7 +362,7 @@ TrackingProtectionPanelDialogFragment
 AppCompatDialogFragment
 (
 )
-BackHandler
+UserInteractionHandler
 {
 private
 val

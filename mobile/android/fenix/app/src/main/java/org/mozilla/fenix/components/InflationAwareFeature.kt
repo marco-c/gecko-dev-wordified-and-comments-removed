@@ -35,7 +35,7 @@ base
 .
 feature
 .
-BackHandler
+UserInteractionHandler
 import
 mozilla
 .
@@ -137,7 +137,7 @@ ViewStub
 )
 :
 LifecycleAwareFeature
-BackHandler
+UserInteractionHandler
 {
 internal
 lateinit
@@ -393,7 +393,7 @@ return
 feature
 as
 ?
-BackHandler
+UserInteractionHandler
 )
 ?
 .

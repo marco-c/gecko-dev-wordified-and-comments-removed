@@ -261,7 +261,7 @@ base
 .
 feature
 .
-BackHandler
+UserInteractionHandler
 import
 mozilla
 .
@@ -457,7 +457,7 @@ SearchFragment
 Fragment
 (
 )
-BackHandler
+UserInteractionHandler
 {
 private
 lateinit

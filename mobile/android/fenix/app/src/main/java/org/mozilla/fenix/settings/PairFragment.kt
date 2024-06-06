@@ -169,7 +169,7 @@ base
 .
 feature
 .
-BackHandler
+UserInteractionHandler
 import
 mozilla
 .
@@ -221,7 +221,7 @@ layout
 .
 fragment_pair
 )
-BackHandler
+UserInteractionHandler
 {
 private
 val

@@ -209,7 +209,7 @@ base
 .
 feature
 .
-BackHandler
+UserInteractionHandler
 import
 org
 .
@@ -358,7 +358,7 @@ HistoryItem
 >
 (
 )
-BackHandler
+UserInteractionHandler
 {
 private
 lateinit

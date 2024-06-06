@@ -291,7 +291,7 @@ base
 .
 feature
 .
-BackHandler
+UserInteractionHandler
 import
 mozilla
 .
@@ -411,7 +411,7 @@ ExternalAppBrowserFragment
 BaseBrowserFragment
 (
 )
-BackHandler
+UserInteractionHandler
 {
 private
 val

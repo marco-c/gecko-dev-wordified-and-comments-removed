@@ -135,7 +135,7 @@ base
 .
 feature
 .
-BackHandler
+UserInteractionHandler
 import
 org
 .
@@ -558,7 +558,7 @@ LibraryPageView
 (
 container
 )
-BackHandler
+UserInteractionHandler
 {
 val
 view

@@ -163,7 +163,7 @@ base
 .
 feature
 .
-BackHandler
+UserInteractionHandler
 import
 mozilla
 .
@@ -250,7 +250,7 @@ Unit
 )
 :
 LifecycleAwareFeature
-BackHandler
+UserInteractionHandler
 {
 init
 {
