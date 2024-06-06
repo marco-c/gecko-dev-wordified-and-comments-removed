@@ -2030,6 +2030,11 @@ onDestroyView
 (
 )
 {
+super
+.
+onDestroyView
+(
+)
 sessionControlView
 =
 null
@@ -2042,11 +2047,6 @@ homeAppBar
 removeOnOffsetChangedListener
 (
 homeAppBarOffSetListener
-)
-super
-.
-onDestroyView
-(
 )
 }
 override
