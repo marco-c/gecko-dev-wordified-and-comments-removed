@@ -227,7 +227,7 @@ LooseVersion
 versionMap
 )
 def
-is_triangualar
+is_triangular
 (
 x
 )
@@ -277,7 +277,7 @@ noqa
 >
 >
 >
-is_triangualar
+is_triangular
 (
 0
 )
@@ -287,7 +287,7 @@ True
 >
 >
 >
-is_triangualar
+is_triangular
 (
 1
 )
@@ -297,7 +297,7 @@ True
 >
 >
 >
-is_triangualar
+is_triangular
 (
 2
 )
@@ -307,7 +307,7 @@ False
 >
 >
 >
-is_triangualar
+is_triangular
 (
 3
 )
@@ -317,7 +317,7 @@ True
 >
 >
 >
-is_triangualar
+is_triangular
 (
 4
 )
@@ -329,7 +329,7 @@ False
 >
 all
 (
-is_triangualar
+is_triangular
 (
 x
 )
@@ -363,7 +363,7 @@ True
 all
 (
 not
-is_triangualar
+is_triangular
 (
 x
 )
@@ -4366,7 +4366,7 @@ else
 if
 this_full_check_locales
 and
-is_triangualar
+is_triangular
 (
 completes_only_index
 )
@@ -4476,7 +4476,7 @@ fromVersion
                     
 if
 not
-is_triangualar
+is_triangular
 (
 completes_only_index
 )
