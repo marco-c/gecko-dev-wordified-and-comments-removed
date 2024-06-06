@@ -68,7 +68,7 @@ compose_version
 .
 0
 .
-0
+4
 "
 object
 AndroidX
@@ -82,7 +82,7 @@ activity_compose
 .
 3
 .
-0
+1
 "
 const
 val
@@ -227,7 +227,7 @@ version
 .
 5
 .
-10
+31
 "
 const
 val
@@ -238,7 +238,7 @@ coroutines
 .
 5
 .
-0
+2
 "
 }
 object

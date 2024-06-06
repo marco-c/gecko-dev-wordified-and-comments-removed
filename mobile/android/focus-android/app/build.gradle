@@ -744,9 +744,9 @@ freeCompilerArgs
 =
 "
 -
-Xuse
+Xopt
 -
-experimental
+in
 =
 kotlinx
 .
