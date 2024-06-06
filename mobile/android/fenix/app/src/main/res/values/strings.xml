@@ -6351,8 +6351,6 @@ toolbar
 .
 The
 first
-and
-second
 parameter
 are
 the
@@ -6437,10 +6435,8 @@ toolbar
 .
 The
 first
-and
-second
 parameter
-are
+is
 the
 application
 name
@@ -6676,10 +6672,8 @@ most
 .
 The
 first
-and
-second
 parameter
-are
+is
 the
 application
 name
