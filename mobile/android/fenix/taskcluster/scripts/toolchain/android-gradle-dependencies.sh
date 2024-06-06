@@ -189,6 +189,13 @@ NEXUS_PREFIX
 /
 central
 /
+-
+PleanplumRepo
+=
+NEXUS_PREFIX
+/
+leanplum
+/
 "
 #
 We
