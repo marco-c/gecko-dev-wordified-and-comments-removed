@@ -531,11 +531,6 @@ private
 internetResource
 .
 private
-referrerUrl
-=
-internetResource
-.
-referrerUrl
 )
 val
 response

@@ -195,11 +195,4 @@ Response
 ?
 =
 null
-val
-referrerUrl
-:
-String
-?
-=
-null
 )
