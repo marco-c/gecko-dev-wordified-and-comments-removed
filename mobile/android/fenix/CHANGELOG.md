@@ -81,6 +81,13 @@ Unreleased
 Added
 -
 #
+919
+-
+Enabled
+bookmark
+synchronization
+-
+#
 916
 -
 Added
