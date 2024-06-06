@@ -180,6 +180,18 @@ mozilla
 fenix
 .
 R
+import
+org
+.
+mozilla
+.
+fenix
+.
+tabstray
+.
+browser
+.
+TabsTrayFabInteractor
 class
 FloatingActionButtonBindingTest
 {
@@ -215,7 +227,7 @@ private
 val
 interactor
 :
-TabsTrayInteractor
+TabsTrayFabInteractor
 =
 mockk
 (
