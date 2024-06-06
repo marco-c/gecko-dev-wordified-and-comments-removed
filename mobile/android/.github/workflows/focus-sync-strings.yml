@@ -126,7 +126,7 @@ beta
 version
 4
 .
-1
+2
 .
 0
 -
@@ -234,8 +234,6 @@ outputs
 beta_version
 }
 }
-.
-0
 "
 -
 name
@@ -341,7 +339,7 @@ Strings
 from
 main
 to
-releases_
+releases_v
 {
 {
 steps
@@ -359,8 +357,6 @@ outputs
 beta_version
 }
 }
-.
-0
 "
 body
 :
@@ -375,7 +371,7 @@ strings
 from
 main
 to
-releases_
+releases_v
 {
 {
 steps
@@ -393,11 +389,4 @@ outputs
 beta_version
 }
 }
-.
-0
 "
-labels
-:
-needs
-:
-review
