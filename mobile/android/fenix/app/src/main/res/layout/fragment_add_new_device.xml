@@ -381,7 +381,7 @@ drawablePadding
 "
 8dp
 "
-android
+app
 :
 drawableTint
 =

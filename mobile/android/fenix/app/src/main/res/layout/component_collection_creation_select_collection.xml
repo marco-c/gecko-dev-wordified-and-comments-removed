@@ -247,7 +247,7 @@ start
 |
 center_vertical
 "
-android
+app
 :
 drawableTint
 =
