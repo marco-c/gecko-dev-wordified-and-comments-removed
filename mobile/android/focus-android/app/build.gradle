@@ -1731,6 +1731,10 @@ androidx_splashscreen
 implementation
 FocusDependencies
 .
+androidx_tracing
+implementation
+FocusDependencies
+.
 androidx_transition
 implementation
 FocusDependencies
@@ -2540,10 +2544,6 @@ androidTestImplementation
 FocusDependencies
 .
 androidx_test_core_ktx
-androidTestImplementation
-FocusDependencies
-.
-androidx_tracing
 androidTestImplementation
 FocusDependencies
 .
