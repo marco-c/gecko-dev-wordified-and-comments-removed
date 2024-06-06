@@ -123,6 +123,12 @@ Glean
 object
 AdjustHelper
 {
+Suppress
+(
+"
+UnreachableCode
+"
+)
 fun
 setupAdjustIfNeeded
 (
