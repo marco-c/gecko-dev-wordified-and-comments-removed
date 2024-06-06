@@ -1918,7 +1918,10 @@ context
 viewLifecycleOwner
 =
 viewLifecycleOwner
+recentTabInteractor
+=
 interactor
+recentSyncedTabInteractor
 =
 interactor
 )
