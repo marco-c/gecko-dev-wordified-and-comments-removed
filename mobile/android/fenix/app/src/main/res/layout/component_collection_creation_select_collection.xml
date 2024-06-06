@@ -1123,6 +1123,15 @@ create_collection_add_new_collection
 "
 android
 :
+fontFamily
+=
+"
+font
+/
+metropolis
+"
+android
+:
 textColor
 =
 "

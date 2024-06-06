@@ -501,12 +501,11 @@ minLines
 "
 android
 :
-textAppearance
+textColor
 =
 "
-style
-/
-SubtitleTextStyle
+?
+secondaryText
 "
 app
 :

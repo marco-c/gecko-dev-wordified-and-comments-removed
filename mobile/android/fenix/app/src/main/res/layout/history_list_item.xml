@@ -246,7 +246,7 @@ android
 textSize
 =
 "
-17sp
+14sp
 "
 android
 :
@@ -255,6 +255,15 @@ textColor
 "
 ?
 primaryText
+"
+android
+:
+fontFamily
+=
+"
+font
+/
+metropolis_semibold
 "
 android
 :
