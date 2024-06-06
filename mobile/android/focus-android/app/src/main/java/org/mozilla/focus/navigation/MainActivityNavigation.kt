@@ -1070,6 +1070,7 @@ onboardingFeature
 .
 value
 (
+activity
 )
 val
 onboardingFragment

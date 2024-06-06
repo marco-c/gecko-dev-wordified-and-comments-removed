@@ -4030,6 +4030,11 @@ multiTabsFeature
 .
 value
 (
+context
+=
+requireContext
+(
+)
 )
 multiTabsFeature
 .

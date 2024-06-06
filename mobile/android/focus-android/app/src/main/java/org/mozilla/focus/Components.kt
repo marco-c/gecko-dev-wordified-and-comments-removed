@@ -1075,8 +1075,6 @@ listOf
 CfrMiddleware
 (
 context
-.
-components
 )
 )
 }

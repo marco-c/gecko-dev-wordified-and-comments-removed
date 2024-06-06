@@ -240,7 +240,7 @@ MergeTabsMiddleware
 (
 private
 val
-context
+appContext
 :
 Context
 )
@@ -289,6 +289,7 @@ multiTabsFeature
 .
 value
 (
+appContext
 )
 .
 isMultiTab
