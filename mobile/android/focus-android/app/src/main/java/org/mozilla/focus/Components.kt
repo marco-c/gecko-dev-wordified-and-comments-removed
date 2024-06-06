@@ -435,6 +435,16 @@ mozilla
 .
 focus
 .
+browser
+.
+BlockedTrackersMiddleware
+import
+org
+.
+mozilla
+.
+focus
+.
 components
 .
 EngineProvider
@@ -938,6 +948,10 @@ PromptMiddleware
 AdsTelemetryMiddleware
 (
 adsTelemetry
+)
+BlockedTrackersMiddleware
+(
+context
 )
 )
 +
