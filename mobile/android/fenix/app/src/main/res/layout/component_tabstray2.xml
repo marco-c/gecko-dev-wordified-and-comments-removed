@@ -932,16 +932,7 @@ layout
 "
 layout
 /
-tabs_tray_tab_counter
-"
-app
-:
-tabIconTint
-=
-"
-color
-/
-tab_icon
+tabs_tray_tab_counter2
 "
 /
 >
