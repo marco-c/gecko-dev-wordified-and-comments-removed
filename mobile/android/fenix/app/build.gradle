@@ -489,6 +489,10 @@ implementation
 Deps
 .
 mozilla_feature_session
+implementation
+Deps
+.
+mozilla_support_ktx
 testImplementation
 Deps
 .
