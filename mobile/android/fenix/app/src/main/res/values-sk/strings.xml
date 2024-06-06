@@ -15437,9 +15437,8 @@ sync_menu_sign_in
 Prihl
 si
 sa
-k
-synchroniz
-cii
+a
+synchronizova
 <
 /
 string
@@ -19384,7 +19383,6 @@ onboarding_tracking_protection_standard_button_2
 tandardn
 (
 predvolen
-nastavenie
 )
 <
 /
@@ -21069,7 +21067,6 @@ preference_enhanced_tracking_protection_standard_default_1
 tandardn
 (
 predvolen
-nastavenie
 )
 <
 /
@@ -28420,10 +28417,8 @@ synced_tabs_sign_in_button
 Prihl
 si
 sa
-k
-slu
-be
-Sync
+a
+synchronizova
 <
 /
 string
