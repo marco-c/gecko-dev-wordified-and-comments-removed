@@ -290,6 +290,12 @@ selected
 Boolean
 =
 false
+val
+isRemote
+:
+Boolean
+=
+false
 )
 :
 HistoryDB
@@ -1665,6 +1671,11 @@ visitedAt
 visit
 .
 visitTime
+isRemote
+=
+visit
+.
+isRemote
 )
 }
 }

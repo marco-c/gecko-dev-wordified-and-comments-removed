@@ -752,5 +752,10 @@ historyTimeGroup
 this
 .
 historyTimeGroup
+isRemote
+=
+this
+.
+isRemote
 )
 }
