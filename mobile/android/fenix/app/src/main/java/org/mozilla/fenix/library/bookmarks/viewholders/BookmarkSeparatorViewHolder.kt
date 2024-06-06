@@ -134,6 +134,14 @@ interactor
 )
 {
 override
+var
+item
+:
+BookmarkNode
+?
+=
+null
+override
 fun
 bind
 (
@@ -142,6 +150,11 @@ item
 BookmarkNode
 )
 {
+this
+.
+item
+=
+item
 containerView
 .
 displayAs

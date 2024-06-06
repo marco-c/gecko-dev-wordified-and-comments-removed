@@ -149,7 +149,7 @@ mozilla
 .
 fenix
 .
-R
+NavGraphDirections
 import
 org
 .
@@ -157,7 +157,7 @@ mozilla
 .
 fenix
 .
-NavGraphDirections
+R
 import
 org
 .
@@ -699,6 +699,17 @@ onRequestSync
 (
 )
 }
+BookmarkTouchHelper
+(
+interactor
+)
+.
+attachToRecyclerView
+(
+view
+.
+bookmark_list
+)
 }
 fun
 update

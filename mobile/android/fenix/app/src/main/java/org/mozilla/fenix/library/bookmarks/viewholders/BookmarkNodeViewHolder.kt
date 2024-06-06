@@ -177,6 +177,12 @@ containerView
 LayoutContainer
 {
 abstract
+var
+item
+:
+BookmarkNode
+?
+abstract
 fun
 bind
 (
