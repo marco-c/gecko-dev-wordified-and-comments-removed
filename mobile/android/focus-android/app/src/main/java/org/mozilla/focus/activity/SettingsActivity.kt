@@ -170,6 +170,14 @@ setDisplayHomeAsUpEnabled
 (
 true
 )
+if
+(
+savedInstanceState
+=
+=
+null
+)
+{
 val
 fragment
 =
@@ -192,7 +200,7 @@ beginTransaction
 (
 )
 .
-replace
+add
 (
 R
 .
@@ -205,6 +213,7 @@ fragment
 commit
 (
 )
+}
 /
 /
 Ensure
