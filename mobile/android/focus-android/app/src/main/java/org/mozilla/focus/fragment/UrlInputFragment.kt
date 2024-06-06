@@ -241,7 +241,7 @@ fragment_urlinput
 .
 view
 .
-homeViewTipsLabel
+*
 import
 mozilla
 .

@@ -81,4 +81,15 @@ use
 -
 gecko
 "
+const
+val
+EXPERIMENT_DESCIPTOR_HOME_SCREEN_TIPS
+=
+"
+use
+-
+homescreen
+-
+tips
+"
 }

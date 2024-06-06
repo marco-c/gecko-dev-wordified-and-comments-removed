@@ -85,7 +85,7 @@ v7
 .
 preference
 .
-SwitchPreferenceCompat
+PreferenceFragmentCompat
 import
 android
 .
@@ -95,7 +95,7 @@ v7
 .
 preference
 .
-PreferenceFragmentCompat
+SwitchPreferenceCompat
 import
 com
 .
@@ -131,7 +131,7 @@ focus
 .
 utils
 .
-experimentDescriptor
+geckoEngineExperimentDescriptor
 import
 org
 .
@@ -236,7 +236,7 @@ activity
 .
 isInExperiment
 (
-experimentDescriptor
+geckoEngineExperimentDescriptor
 )
 }
 override
@@ -354,7 +354,7 @@ activity
 !
 .
 app
-experimentDescriptor
+geckoEngineExperimentDescriptor
 sharedPreferences
 !
 !

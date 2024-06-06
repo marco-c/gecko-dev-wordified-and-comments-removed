@@ -97,7 +97,7 @@ focus
 .
 utils
 .
-experimentDescriptor
+geckoEngineExperimentDescriptor
 import
 org
 .
@@ -156,7 +156,7 @@ context
 .
 isInExperiment
 (
-experimentDescriptor
+geckoEngineExperimentDescriptor
 )
 )
 true
