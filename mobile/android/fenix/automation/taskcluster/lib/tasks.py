@@ -2110,6 +2110,13 @@ get_architecture_and_build_type_from_variant
 variant
 )
         
+build_type
+=
+convert_camel_case_into_kebab_case
+(
+build_type
+)
+        
 routes
 =
 [
@@ -2174,15 +2181,11 @@ latest
 .
 {
 }
-.
-{
-}
 '
 .
 format
 (
                 
-product
 build_type
 architecture
             
@@ -3207,6 +3210,13 @@ architecture
 )
 :
 ]
+    
+build_type
+=
+lower_case_first_letter
+(
+build_type
+)
     
 return
 architecture
