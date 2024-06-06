@@ -398,7 +398,7 @@ R
 .
 string
 .
-preferences_sync
+sync_scan_code
 )
 (
 activity
