@@ -3099,7 +3099,7 @@ unknown_scheme_error_message
 >
 Impussibule
 di
-cunnettassi
+cunnettesi
 .
 Schema
 d
@@ -4768,7 +4768,7 @@ name
 preferences_sign_in
 "
 >
-Cunnettassi
+Cunnettesi
 <
 /
 string
@@ -5015,7 +5015,7 @@ name
 preferences_account_sync_error
 "
 >
-Ricunnettatevi
+Ricunnittetevi
 per
 cuntinu
 a
@@ -6143,7 +6143,7 @@ name
 preferences_sign_out
 "
 >
-Scunnettassi
+Scunnettesi
 <
 /
 string
@@ -7476,7 +7476,7 @@ name
 preferences_sync_sign_in
 "
 >
-Cunnettassi
+Cunnettesi
 <
 /
 string
@@ -7504,7 +7504,7 @@ preferences_sync_sign_in_to_reconnect
 >
 Autenticassi
 per
-ricunnettassi
+ricunnettesi
 <
 /
 string
@@ -12655,7 +12655,7 @@ name
 bookmark_sign_in_button
 "
 >
-Cunnettatevi
+Cunnittetevi
 per
 fighj
 l
@@ -15169,7 +15169,7 @@ name
 sync_menu_sign_in
 "
 >
-Cunnettassi
+Cunnettesi
 per
 sincruniz
 <
@@ -15201,7 +15201,7 @@ name
 sync_sign_in
 "
 >
-Cunnettassi
+Cunnettesi
 Sync
 <
 /
@@ -15269,7 +15269,7 @@ name
 sync_reconnect
 "
 >
-Ricunnettassi
+Ricunnettesi
 Sync
 <
 /
@@ -15328,7 +15328,7 @@ name
 sync_connect_device
 "
 >
-Cunnett
+Cunnette
 un
 altru
 apparechju
@@ -15365,7 +15365,7 @@ Per
 mand
 un
 unghjetta
-cunnettatevi
+cunnittetevi
 u
 vostru
 contu
@@ -15487,7 +15487,7 @@ sync_add_new_device_message
 >
 Alcunu
 apparechju
-cunnettu
+cunnessu
 <
 /
 string
@@ -15551,7 +15551,7 @@ name
 sync_add_new_device_connect_button
 "
 >
-Cunnett
+Cunnette
 un
 altru
 apparechju
@@ -18652,7 +18652,7 @@ onboarding_firefox_account_auto_signin_header_3
 "
 >
 Site
-cunnettu
+cunnessi
 cum
 %
 s
@@ -18666,7 +18666,7 @@ st
 apparechju
 .
 Vulete
-cunnettavvi
+cunnettevi
 c
 stu
 contu
@@ -18701,7 +18701,7 @@ onboarding_firefox_account_auto_signin_confirm
 "
 >
 I
-cunnettatemi
+cunnittetemi
 <
 /
 string
@@ -20058,7 +20058,7 @@ name
 sign_in_with_camera
 "
 >
-Cunnettatevi
+Cunnittetevi
 c
 u
 vostru
@@ -23294,7 +23294,7 @@ name
 preferences_passwords_sync_logins_reconnect
 "
 >
-Ricunnettassi
+Ricunnettesi
 <
 /
 string
@@ -23321,7 +23321,7 @@ name
 preferences_passwords_sync_logins_sign_in
 "
 >
-Cunnettassi
+Cunnettesi
 Sync
 <
 /
@@ -27836,7 +27836,7 @@ name
 synced_tabs_connect_another_device
 "
 >
-Cunnettate
+Cunnittete
 un
 altru
 apparechju
@@ -28052,8 +28052,9 @@ name
 synced_tabs_sign_in_button
 "
 >
-Cunnettassi
-Sync
+Cunnettesi
+per
+sincruniz
 <
 /
 string
