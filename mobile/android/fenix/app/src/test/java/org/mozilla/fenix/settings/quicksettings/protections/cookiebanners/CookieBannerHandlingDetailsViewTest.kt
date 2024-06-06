@@ -852,7 +852,7 @@ R
 .
 string
 .
-reduce_cookie_banner_details_panel_description_on_for_site_1
+reduce_cookie_banner_details_panel_description_on_for_site_2
 appName
 appName
 )
