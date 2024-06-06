@@ -979,6 +979,11 @@ horizontal
 16
 .
 dp
+vertical
+=
+32
+.
+dp
 )
 horizontalAlignment
 =
@@ -1119,6 +1124,11 @@ padding
 horizontal
 =
 16
+.
+dp
+vertical
+=
+32
 .
 dp
 )
