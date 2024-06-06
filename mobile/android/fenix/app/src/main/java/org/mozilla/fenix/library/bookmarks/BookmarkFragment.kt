@@ -739,11 +739,11 @@ showSnackbar
 :
 :
 showSnackBarWithText
-alertHeavyOpen
+onOpenAllInTabsEmpty
 =
 :
 :
-alertHeavyOpen
+onOpenAllInTabsEmpty
 deleteBookmarkNodes
 =
 :
@@ -1623,11 +1623,6 @@ loadBookmarkNode
 guid
 :
 String
-recursive
-:
-Boolean
-=
-false
 )
 :
 BookmarkNode
@@ -1666,7 +1661,7 @@ bookmarkStorage
 getTree
 (
 guid
-recursive
+false
 )
 ?
 .
