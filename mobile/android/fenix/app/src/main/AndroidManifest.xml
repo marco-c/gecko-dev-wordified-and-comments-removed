@@ -1786,6 +1786,13 @@ OssLicensesMenuActivity
 "
 android
 :
+exported
+=
+"
+false
+"
+android
+:
 theme
 =
 "
@@ -1821,6 +1828,13 @@ oss
 licenses
 .
 OssLicensesActivity
+"
+android
+:
+exported
+=
+"
+false
 "
 android
 :
