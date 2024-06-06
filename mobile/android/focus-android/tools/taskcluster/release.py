@@ -1153,13 +1153,13 @@ choices
 =
 [
 '
-internal
-'
-'
-alpha
+release
 '
 '
 nightly
+'
+'
+beta
 '
 ]
 help
