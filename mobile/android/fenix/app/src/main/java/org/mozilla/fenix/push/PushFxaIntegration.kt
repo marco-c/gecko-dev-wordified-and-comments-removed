@@ -921,8 +921,6 @@ value
 .
 withConstellation
 {
-it
-.
 processRawEventAsync
 (
 String
