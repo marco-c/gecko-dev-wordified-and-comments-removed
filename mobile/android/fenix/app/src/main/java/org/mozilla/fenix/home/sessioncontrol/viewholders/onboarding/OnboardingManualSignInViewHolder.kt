@@ -295,7 +295,7 @@ R
 .
 string
 .
-onboarding_firefox_account_header
+onboarding_account_sign_in_header
 )
 }
 companion

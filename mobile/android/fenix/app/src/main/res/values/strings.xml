@@ -15219,9 +15219,11 @@ string
 text
 for
 the
-firefox
+Firefox
 account
 onboarding
+sign
+in
 card
 header
 -
@@ -15232,7 +15234,7 @@ string
 name
 =
 "
-onboarding_firefox_account_header
+onboarding_account_sign_in_header
 "
 >
 Start
