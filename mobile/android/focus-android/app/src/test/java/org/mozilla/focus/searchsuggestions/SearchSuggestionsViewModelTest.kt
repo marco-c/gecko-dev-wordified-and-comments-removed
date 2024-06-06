@@ -275,6 +275,9 @@ mozilla
 .
 com
 "
+"
+google
+"
 true
 )
 verify
