@@ -2825,14 +2825,6 @@ rtc_event
 /
 rtc_base
 :
-rtc_task_queue
-"
-"
-.
-.
-/
-rtc_base
-:
 safe_conversions
 "
 "
