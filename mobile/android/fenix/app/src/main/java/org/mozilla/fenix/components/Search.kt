@@ -224,18 +224,9 @@ GlobalScope
 .
 launch
 {
-loadAsync
-(
-context
-)
-.
-await
-(
-)
-}
 defaultSearchEngine
 =
-getDefaultSearchEngine
+getDefaultSearchEngineAsync
 (
 context
 Settings
@@ -247,6 +238,7 @@ context
 .
 defaultSearchEngineName
 )
+}
 }
 }
 }
