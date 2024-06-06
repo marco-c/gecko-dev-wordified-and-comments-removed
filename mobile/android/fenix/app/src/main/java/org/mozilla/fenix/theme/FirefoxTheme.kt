@@ -322,7 +322,7 @@ formSurface
 PhotonColors
 .
 DarkGrey05
-actionDisabled
+formDisabled
 =
 PhotonColors
 .
@@ -549,7 +549,7 @@ formSurface
 PhotonColors
 .
 LightGrey50
-actionDisabled
+formDisabled
 =
 PhotonColors
 .
@@ -772,7 +772,7 @@ Color
 formSurface
 :
 Color
-actionDisabled
+formDisabled
 :
 Color
 controlDark
@@ -1089,11 +1089,11 @@ disabled
 Radio
 disabled
 var
-actionDisabled
+formDisabled
 by
 mutableStateOf
 (
-actionDisabled
+formDisabled
 )
 private
 set
@@ -1537,11 +1537,11 @@ formSurface
 other
 .
 formSurface
-actionDisabled
+formDisabled
 =
 other
 .
-actionDisabled
+formDisabled
 controlDark
 =
 other
@@ -1737,9 +1737,9 @@ formSelected
 formSurface
 =
 formSurface
-actionDisabled
+formDisabled
 =
-actionDisabled
+formDisabled
 controlDark
 =
 controlDark
