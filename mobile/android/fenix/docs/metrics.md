@@ -9822,7 +9822,7 @@ c4
 |
 metrics
 .
-campaign
+adjust_campaign
 |
 [
 string
@@ -9857,7 +9857,7 @@ containing
 the
 Adjust
 campaign
-id
+ID
 from
 which
 the
@@ -9885,7 +9885,7 @@ fenix
 /
 pull
 /
-TODO
+5579
 )
 |
 |

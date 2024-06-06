@@ -169,6 +169,13 @@ string
 /
 preference_option_autoplay_blocked
 "
+app
+:
+isPreferenceVisible
+=
+"
+false
+"
 /
 >
 <
