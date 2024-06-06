@@ -890,7 +890,7 @@ icons
 install
 (
 engine
-sessionManager
+store
 )
 /
 /
