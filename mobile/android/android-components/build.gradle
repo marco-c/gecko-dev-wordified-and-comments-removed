@@ -188,7 +188,7 @@ version
 "
 1
 .
-19
+22
 .
 0
 "
@@ -1907,9 +1907,6 @@ baseline
 xml
 "
 )
-failFast
-=
-false
 reports
 {
 html
