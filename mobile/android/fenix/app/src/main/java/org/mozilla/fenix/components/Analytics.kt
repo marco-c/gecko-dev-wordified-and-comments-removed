@@ -632,16 +632,6 @@ listOf
 GleanMetricsService
 (
 context
-lazy
-{
-context
-.
-components
-.
-core
-.
-store
-}
 )
 AdjustMetricsService
 (
