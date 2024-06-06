@@ -249,6 +249,8 @@ enabled
 assertTrue
 (
 allSystemSettingsNotificationsToggle
+(
+)
 .
 isChecked
 )
@@ -258,6 +260,8 @@ else
 assertFalse
 (
 allSystemSettingsNotificationsToggle
+(
+)
 .
 isChecked
 )
@@ -279,6 +283,8 @@ enabled
 assertTrue
 (
 privateBrowsingSystemSettingsNotificationsToggle
+(
+)
 .
 isChecked
 )
@@ -288,6 +294,8 @@ else
 assertFalse
 (
 privateBrowsingSystemSettingsNotificationsToggle
+(
+)
 .
 isChecked
 )
@@ -299,6 +307,8 @@ clickPrivateBrowsingSystemNotificationsToggle
 )
 =
 privateBrowsingSystemSettingsNotificationsToggle
+(
+)
 .
 click
 (
@@ -309,6 +319,8 @@ clickAllSystemNotificationsToggle
 )
 =
 allSystemSettingsNotificationsToggle
+(
+)
 .
 click
 (
@@ -447,8 +459,10 @@ notifications
 )
 }
 private
-val
+fun
 allSystemSettingsNotificationsToggle
+(
+)
 =
 mDevice
 .
@@ -501,8 +515,10 @@ index
 )
 )
 private
-val
+fun
 privateBrowsingSystemSettingsNotificationsToggle
+(
+)
 =
 itemWithResIdAndDescription
 (
