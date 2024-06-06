@@ -76,7 +76,7 @@ cron
 :
 "
 0
-20
+0
 *
 *
 *
@@ -406,8 +406,11 @@ commit
 m
 "
 Import
+translations
+from
+android
+-
 l10n
-.
 "
 git
 push
