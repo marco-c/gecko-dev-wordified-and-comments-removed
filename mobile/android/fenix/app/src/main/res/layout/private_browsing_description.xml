@@ -165,6 +165,15 @@ orientation
 "
 vertical
 "
+android
+:
+layout_marginHorizontal
+=
+"
+dimen
+/
+home_item_horizontal_margin
+"
 >
 <
 TextView
