@@ -45,10 +45,14 @@ PRODUCTION_SIGNING_BUILD_TYPES
 [
     
 "
+focus
+-
 nightly
 "
     
 "
+focus
+-
 beta
 "
     
