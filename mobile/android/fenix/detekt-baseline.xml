@@ -139,11 +139,6 @@ navController
 NavController
 private
 val
-metrics
-:
-MetricController
-private
-val
 readerModeController
 :
 ReaderModeController
@@ -221,11 +216,6 @@ val
 navController
 :
 NavController
-private
-val
-metrics
-:
-MetricController
 private
 val
 settings
@@ -841,11 +831,6 @@ val
 navigationInteractor
 :
 NavigationInteractor
-private
-val
-metrics
-:
-MetricController
 private
 val
 tabsUseCases

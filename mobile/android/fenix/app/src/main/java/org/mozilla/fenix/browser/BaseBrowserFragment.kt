@@ -2477,13 +2477,6 @@ navController
 findNavController
 (
 )
-metrics
-=
-requireComponents
-.
-analytics
-.
-metrics
 readerModeController
 =
 readerMenuController
@@ -2656,13 +2649,6 @@ navController
 findNavController
 (
 )
-metrics
-=
-requireComponents
-.
-analytics
-.
-metrics
 settings
 =
 context

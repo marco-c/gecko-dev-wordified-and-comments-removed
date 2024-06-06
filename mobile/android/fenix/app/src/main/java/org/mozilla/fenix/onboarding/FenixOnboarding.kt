@@ -138,17 +138,6 @@ PreferencesHolder
 {
 private
 val
-metrics
-=
-context
-.
-components
-.
-analytics
-.
-metrics
-private
-val
 strictMode
 =
 context

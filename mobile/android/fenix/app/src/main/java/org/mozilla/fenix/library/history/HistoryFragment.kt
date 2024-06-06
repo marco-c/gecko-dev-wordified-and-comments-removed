@@ -762,13 +762,6 @@ syncHistory
 :
 :
 syncHistory
-metrics
-=
-requireComponents
-.
-analytics
-.
-metrics
 )
 historyInteractor
 =

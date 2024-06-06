@@ -1503,7 +1503,6 @@ context
 settings
 (
 )
-metrics
 )
 ThumbnailsMiddleware
 (
