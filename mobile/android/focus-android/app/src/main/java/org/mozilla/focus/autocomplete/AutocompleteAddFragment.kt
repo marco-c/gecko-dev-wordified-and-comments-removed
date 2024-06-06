@@ -537,10 +537,6 @@ toString
 trim
 (
 )
-.
-lowercase
-(
-)
 launch
 (
 IO
