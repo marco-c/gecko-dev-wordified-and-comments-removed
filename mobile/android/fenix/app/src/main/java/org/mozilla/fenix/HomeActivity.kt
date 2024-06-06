@@ -341,7 +341,7 @@ components
 .
 metrics
 .
-Event
+BreadcrumbsRecorder
 import
 org
 .
@@ -353,7 +353,7 @@ components
 .
 metrics
 .
-BreadcrumbsRecorder
+Event
 import
 org
 .
