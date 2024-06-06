@@ -150,7 +150,7 @@ id
 +
 id
 /
-share_bookmarks_multi_select
+edit_bookmark_multi_select
 "
 android
 :
@@ -159,7 +159,7 @@ icon
 "
 drawable
 /
-ic_send
+ic_edit
 "
 android
 :
@@ -176,7 +176,7 @@ title
 "
 string
 /
-bookmark_add_folder
+bookmark_edit
 "
 app
 :
