@@ -56,6 +56,14 @@ MPL
 .
 *
 /
+file
+:
+Suppress
+(
+"
+ForbiddenComment
+"
+)
 package
 org
 .
@@ -155,7 +163,7 @@ java
 .
 util
 .
-*
+Locale
 class
 SettingsFragment
 :
