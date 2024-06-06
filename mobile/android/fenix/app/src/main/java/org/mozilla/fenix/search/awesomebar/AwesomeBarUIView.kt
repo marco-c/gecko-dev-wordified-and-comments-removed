@@ -409,6 +409,11 @@ useCases
 searchUseCases
 .
 defaultSearch
+components
+.
+core
+.
+client
 SearchSuggestionProvider
 .
 Mode
