@@ -3887,7 +3887,7 @@ doLast
 {
 println
 "
-beta
+release
 :
 "
 +
@@ -3901,7 +3901,7 @@ toJson
 (
 GeckoVersions
 .
-beta_version
+release_version
 )
 }
 }

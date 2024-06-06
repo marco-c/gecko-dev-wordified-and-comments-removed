@@ -449,22 +449,17 @@ other_tasks
 {
 }
     
-geckoview_beta_version
+geckoview_version
 =
 get_geckoview_versions
 (
 )
-[
-'
-beta
-'
-]
     
 mozharness_task_id
 =
 fetch_mozharness_task_id
 (
-geckoview_beta_version
+geckoview_version
 )
     
 gecko_revision

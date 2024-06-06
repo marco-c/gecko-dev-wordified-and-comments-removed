@@ -173,21 +173,12 @@ printGeckoviewVersions
 '
 )
     
-versions
-=
-{
-}
-    
-for
 version_type
-in
-(
+=
 '
-beta
+release
 '
-)
-:
-        
+    
 version
 =
 _extract_content_from_command_output
@@ -206,7 +197,7 @@ format
 version_type
 )
 )
-        
+    
 version
 =
 version
@@ -217,18 +208,12 @@ strip
 "
 '
 )
-        
-versions
-[
-version_type
-]
-=
-version
-        
+    
 print
 (
 '
 Got
+geckoview
 {
 }
 version
@@ -247,7 +232,7 @@ version
 )
     
 return
-versions
+version
 def
 _run_gradle_process
 (
