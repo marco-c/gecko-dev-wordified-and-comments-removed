@@ -1802,7 +1802,7 @@ SuggestionProvider
 ?
 {
 val
-searchEngineHostFilter
+searchEngineUriFilter
 =
 searchEngineSource
 .
@@ -1810,9 +1810,6 @@ searchEngine
 ?
 .
 resultsUrl
-?
-.
-host
 ?
 :
 return
@@ -1876,9 +1873,9 @@ string
 .
 firefox_suggest_header
 )
-resultsHostFilter
+resultsUriFilter
 =
-searchEngineHostFilter
+searchEngineUriFilter
 )
 }
 else
@@ -1923,9 +1920,9 @@ string
 .
 firefox_suggest_header
 )
-resultsHostFilter
+resultsUriFilter
 =
-searchEngineHostFilter
+searchEngineUriFilter
 )
 }
 }
