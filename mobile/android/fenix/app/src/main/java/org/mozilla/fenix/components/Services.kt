@@ -207,9 +207,7 @@ FirefoxAccountsAuthFeature
 accountManager
 FxaServer
 .
-redirectUrl
-(
-)
+REDIRECT_URL
 )
 {
 context

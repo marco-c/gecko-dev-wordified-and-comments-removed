@@ -202,9 +202,7 @@ Server
 .
 RELEASE
 CLIENT_ID
-redirectUrl
-(
-)
+REDIRECT_URL
 tokenServerOverride
 )
 }
@@ -213,9 +211,7 @@ ServerConfig
 (
 serverOverride
 CLIENT_ID
-redirectUrl
-(
-)
+REDIRECT_URL
 tokenServerOverride
 )
 }
