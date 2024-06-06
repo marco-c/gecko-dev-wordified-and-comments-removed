@@ -115,6 +115,10 @@ dependencies
 signing
 -
 apk
+-
+startup
+-
+test
 primary
 -
 dependency
