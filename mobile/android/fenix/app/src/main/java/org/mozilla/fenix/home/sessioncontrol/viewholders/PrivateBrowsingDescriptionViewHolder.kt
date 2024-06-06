@@ -615,7 +615,7 @@ R
 .
 string
 .
-link_text_view_type_announcement
+a11y_action_label_read_article
 )
 onClick
 =
