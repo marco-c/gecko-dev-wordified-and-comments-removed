@@ -270,6 +270,11 @@ R
 .
 id
 .
+startDownloadDialogContainer
+R
+.
+id
+.
 viewDynamicDownloadDialog
 R
 .
@@ -280,6 +285,9 @@ toolbar
 private
 var
 currentAnchorId
+:
+Int
+?
 =
 View
 .
@@ -436,7 +444,7 @@ private
 fun
 positionSnackbar
 (
-child
+snackbar
 :
 View
 dependency
@@ -459,7 +467,7 @@ NO_ID
 val
 params
 =
-child
+snackbar
 .
 layoutParams
 as
@@ -576,7 +584,7 @@ Gravity
 .
 CENTER_HORIZONTAL
 }
-child
+snackbar
 .
 layoutParams
 =
