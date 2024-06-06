@@ -680,6 +680,13 @@ download
 .
 id
 )
+intent
+.
+action
+=
+AbstractFetchDownloadService
+.
+ACTION_TRY_AGAIN
 applicationContext
 .
 startService
