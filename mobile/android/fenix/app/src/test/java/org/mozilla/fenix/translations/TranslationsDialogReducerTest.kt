@@ -829,7 +829,7 @@ null
 documentLangDisplayName
 =
 "
-Deutsch
+German
 "
 )
 )
@@ -858,7 +858,7 @@ updatedState
 .
 documentLangDisplayName
 "
-Deutsch
+German
 "
 )
 val
