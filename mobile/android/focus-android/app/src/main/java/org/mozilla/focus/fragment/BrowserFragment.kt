@@ -3763,6 +3763,9 @@ show
 activity
 !
 !
+fragmentManager
+!
+!
 this
 hitTarget
 )
