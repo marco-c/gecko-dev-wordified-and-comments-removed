@@ -952,6 +952,9 @@ closeCustomTab
 (
 )
 }
+updateToolbarBackground
+=
+false
 )
 }
 if
