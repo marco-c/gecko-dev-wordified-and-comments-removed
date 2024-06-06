@@ -749,9 +749,8 @@ sumoUrl
 =
 SupportUtils
 .
-getSumoURLForTopic
+getGenericSumoURLForTopic
 (
-context
 OPT_OUT_STUDIES
 )
 val
