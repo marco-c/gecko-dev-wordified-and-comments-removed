@@ -271,7 +271,7 @@ layerNonOpaque
 =
 PhotonColors
 .
-Violet40A12
+Violet50A32
 scrim
 =
 PhotonColors
@@ -503,7 +503,7 @@ layerNonOpaque
 =
 PhotonColors
 .
-Violet90A20
+Violet70A12
 scrim
 =
 PhotonColors
