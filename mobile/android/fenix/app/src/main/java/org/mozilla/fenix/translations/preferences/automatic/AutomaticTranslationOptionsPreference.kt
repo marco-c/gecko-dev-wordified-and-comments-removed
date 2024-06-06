@@ -319,6 +319,11 @@ last
 )
 )
 )
+maxDescriptionLines
+=
+Int
+.
+MAX_VALUE
 onClick
 =
 {
