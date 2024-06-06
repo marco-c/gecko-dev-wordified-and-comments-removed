@@ -143,8 +143,6 @@ android_gradle_plugin
 0
 .
 0
--
-rc01
 "
 const
 val
@@ -156,8 +154,6 @@ android_lint_api
 0
 .
 0
--
-rc01
 "
 const
 val
@@ -222,8 +218,6 @@ androidx_activity_compose
 3
 .
 0
--
-rc02
 "
 const
 val
@@ -235,8 +229,6 @@ androidx_compose
 0
 .
 0
--
-rc02
 "
 const
 val
