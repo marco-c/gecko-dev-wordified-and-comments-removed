@@ -512,7 +512,7 @@ R
 .
 string
 .
-tabs_header_private_title
+tabs_header_private_tabs_title
 else
 R
 .

@@ -494,7 +494,7 @@ text
 (
 "
 Private
-session
+tabs
 "
 )
 )
