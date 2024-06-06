@@ -1874,7 +1874,7 @@ shouldStartOnHome
 )
 &
 &
-shouldNavigateBrowserFragmentOnCouldStart
+shouldNavigateBrowserFragmentOnColdStart
 (
 savedInstanceState
 )
@@ -6637,7 +6637,7 @@ settings
 )
 private
 fun
-shouldNavigateBrowserFragmentOnCouldStart
+shouldNavigateBrowserFragmentOnColdStart
 (
 savedInstanceState
 :

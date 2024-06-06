@@ -1708,6 +1708,12 @@ Event
 (
 )
 object
+HomeScreenViewCount
+:
+Event
+(
+)
+object
 HomeScreenCustomizedHomeClicked
 :
 Event
