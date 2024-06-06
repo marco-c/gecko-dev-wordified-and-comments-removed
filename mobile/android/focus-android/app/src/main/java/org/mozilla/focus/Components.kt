@@ -1070,11 +1070,6 @@ context
 isCfrEnabled
 )
 {
-onboardingFeature
-.
-recordExposure
-(
-)
 listOf
 (
 CfrMiddleware
