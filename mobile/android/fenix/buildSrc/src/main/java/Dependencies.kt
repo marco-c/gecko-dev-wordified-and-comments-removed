@@ -294,7 +294,7 @@ androidx_fragment
 .
 0
 -
-beta01
+beta02
 "
 const
 val
