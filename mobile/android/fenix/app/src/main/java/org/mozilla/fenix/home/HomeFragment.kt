@@ -2190,6 +2190,17 @@ browsingModeManager
 mode
 .
 isPrivate
+&
+&
+!
+PrivateShortcutCreateManager
+.
+doesPrivateBrowsingPinnedShortcutExist
+(
+requireContext
+(
+)
+)
 )
 {
 recommendPrivateBrowsingShortcut
