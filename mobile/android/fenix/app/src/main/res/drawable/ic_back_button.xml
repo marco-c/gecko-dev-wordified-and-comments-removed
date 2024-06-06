@@ -117,6 +117,13 @@ height
 "
 android
 :
+autoMirrored
+=
+"
+true
+"
+android
+:
 viewportWidth
 =
 "
