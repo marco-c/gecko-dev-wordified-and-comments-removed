@@ -466,9 +466,13 @@ onSelectWallpaper
 if
 (
 it
+.
+name
 !
 =
 currentWallpaper
+.
+name
 )
 {
 coroutineScope
