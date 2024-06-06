@@ -750,6 +750,11 @@ navigationInteractor
 =
 DefaultNavigationInteractor
 (
+context
+=
+requireContext
+(
+)
 tabsTrayStore
 =
 tabsTrayStore
@@ -789,6 +794,13 @@ requireComponents
 useCases
 .
 bookmarksUseCases
+collectionStorage
+=
+requireComponents
+.
+core
+.
+tabCollectionStorage
 )
 tabsTrayController
 =
