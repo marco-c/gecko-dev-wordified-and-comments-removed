@@ -3661,6 +3661,14 @@ PhoneFeature
 .
 PERSISTENT_STORAGE
 )
+mediaKeySystemAccess
+=
+getSitePermissionsPhoneFeatureAction
+(
+PhoneFeature
+.
+MEDIA_KEY_SYSTEM_ACCESS
+)
 )
 }
 fun
@@ -3701,6 +3709,12 @@ AUTOPLAY_AUDIBLE
 PhoneFeature
 .
 AUTOPLAY_INAUDIBLE
+PhoneFeature
+.
+PERSISTENT_STORAGE
+PhoneFeature
+.
+MEDIA_KEY_SYSTEM_ACCESS
 )
 .
 map
