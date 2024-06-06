@@ -681,7 +681,7 @@ R
 .
 drawable
 .
-ic_bookmark_outline
+ic_bookmark_filled
 primaryTextColor
 )
 {
@@ -809,7 +809,7 @@ R
 .
 drawable
 .
-ic_tab_collection
+ic_synced_tabs
 primaryTextColor
 )
 {

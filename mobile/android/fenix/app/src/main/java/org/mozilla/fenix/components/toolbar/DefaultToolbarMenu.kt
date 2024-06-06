@@ -1661,7 +1661,7 @@ R
 .
 drawable
 .
-ic_tab_collection
+ic_synced_tabs
 iconTintColorResource
 =
 primaryTextColor
