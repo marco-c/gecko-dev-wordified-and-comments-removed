@@ -3297,6 +3297,7 @@ isVisible
 =
 true
 swipeRefresh
+?
 .
 alpha
 =
