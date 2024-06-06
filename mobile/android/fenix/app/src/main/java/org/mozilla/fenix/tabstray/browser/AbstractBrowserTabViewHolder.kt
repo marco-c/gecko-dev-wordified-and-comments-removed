@@ -397,6 +397,16 @@ fenix
 .
 tabstray
 .
+TabsTrayInteractor
+import
+org
+.
+mozilla
+.
+fenix
+.
+tabstray
+.
 TabsTrayState
 import
 org
@@ -670,7 +680,7 @@ abstract
 val
 interactor
 :
-BrowserTrayInteractor
+TabsTrayInteractor
 abstract
 val
 thumbnailSize
@@ -1358,7 +1368,7 @@ TabSessionState
 >
 interactor
 :
-BrowserTrayInteractor
+TabsTrayInteractor
 )
 {
 itemView
@@ -1380,7 +1390,7 @@ setOnLongClickListener
 {
 interactor
 .
-onLongClicked
+onTabLongClicked
 (
 item
 holder
@@ -1414,7 +1424,7 @@ TabSessionState
 >
 interactor
 :
-BrowserTrayInteractor
+TabsTrayInteractor
 )
 {
 /
@@ -1636,7 +1646,7 @@ scaledTouchSlop
 {
 interactor
 .
-deselect
+onTabUnselected
 (
 item
 )

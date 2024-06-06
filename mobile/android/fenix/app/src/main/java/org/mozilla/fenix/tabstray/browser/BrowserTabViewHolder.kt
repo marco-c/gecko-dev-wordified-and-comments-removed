@@ -197,6 +197,16 @@ fenix
 .
 tabstray
 .
+TabsTrayInteractor
+import
+org
+.
+mozilla
+.
+fenix
+.
+tabstray
+.
 TabsTrayStore
 import
 kotlin
@@ -254,7 +264,7 @@ thumbnails
 param
 interactor
 [
-BrowserTrayInteractor
+TabsTrayInteractor
 ]
 handling
 tabs
@@ -353,7 +363,7 @@ override
 val
 interactor
 :
-BrowserTrayInteractor
+TabsTrayInteractor
 store
 :
 TabsTrayStore
@@ -568,7 +578,7 @@ thumbnails
 param
 interactor
 [
-BrowserTrayInteractor
+TabsTrayInteractor
 ]
 handling
 tabs
@@ -667,7 +677,7 @@ override
 val
 interactor
 :
-BrowserTrayInteractor
+TabsTrayInteractor
 store
 :
 TabsTrayStore

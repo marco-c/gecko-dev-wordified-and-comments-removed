@@ -76,18 +76,6 @@ android
 content
 .
 Context
-import
-org
-.
-mozilla
-.
-fenix
-.
-tabstray
-.
-browser
-.
-BrowserTrayInteractor
 /
 *
 *
@@ -124,7 +112,7 @@ interactor
 )
 -
 >
-BrowserTrayInteractor
+TabsTrayInteractor
 )
 :
 Dialog
@@ -150,8 +138,6 @@ onBackPressed
 if
 (
 interactor
-.
-invoke
 (
 )
 .

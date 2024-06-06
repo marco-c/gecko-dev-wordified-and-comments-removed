@@ -88,18 +88,6 @@ org
 junit
 .
 Test
-import
-org
-.
-mozilla
-.
-fenix
-.
-tabstray
-.
-browser
-.
-BrowserTrayInteractor
 class
 TabsTrayDialogTest
 {
@@ -130,7 +118,7 @@ interactor
 =
 mockk
 <
-BrowserTrayInteractor
+TabsTrayInteractor
 >
 (
 relaxed

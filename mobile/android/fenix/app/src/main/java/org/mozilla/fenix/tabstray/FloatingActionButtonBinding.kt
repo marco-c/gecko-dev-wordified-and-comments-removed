@@ -134,18 +134,6 @@ mozilla
 fenix
 .
 R
-import
-org
-.
-mozilla
-.
-fenix
-.
-tabstray
-.
-browser
-.
-BrowserTrayInteractor
 /
 *
 *
@@ -192,7 +180,7 @@ private
 val
 interactor
 :
-BrowserTrayInteractor
+TabsTrayInteractor
 )
 :
 AbstractBinding

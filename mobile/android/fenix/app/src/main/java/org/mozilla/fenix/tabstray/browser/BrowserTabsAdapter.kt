@@ -243,6 +243,16 @@ fenix
 .
 tabstray
 .
+TabsTrayInteractor
+import
+org
+.
+mozilla
+.
+fenix
+.
+tabstray
+.
 TabsTrayStore
 import
 org
@@ -307,7 +317,7 @@ Components
 param
 interactor
 [
-BrowserTrayInteractor
+TabsTrayInteractor
 ]
 handling
 tabs
@@ -382,7 +392,7 @@ Context
 val
 interactor
 :
-BrowserTrayInteractor
+TabsTrayInteractor
 private
 val
 store
@@ -811,7 +821,7 @@ setOnClickListener
 {
 interactor
 .
-close
+onTabClosed
 (
 tab
 featureName
@@ -852,7 +862,7 @@ setOnClickListener
 {
 interactor
 .
-close
+onTabClosed
 (
 tab
 featureName

@@ -319,6 +319,16 @@ fenix
 .
 tabstray
 .
+TabsTrayInteractor
+import
+org
+.
+mozilla
+.
+fenix
+.
+tabstray
+.
 TabsTrayStore
 RunWith
 (
@@ -357,7 +367,7 @@ interactor
 =
 mockk
 <
-BrowserTrayInteractor
+TabsTrayInteractor
 >
 (
 relaxed
@@ -1082,7 +1092,7 @@ override
 val
 interactor
 :
-BrowserTrayInteractor
+TabsTrayInteractor
 featureName
 :
 String
