@@ -3473,7 +3473,7 @@ string
 name
 =
 "
-pref_key_camera_permissions
+pref_key_camera_permissions_needed
 "
 translatable
 =
@@ -3481,7 +3481,7 @@ translatable
 false
 "
 >
-pref_key_camera_permissions
+pref_key_camera_permissions_needed
 <
 /
 string
