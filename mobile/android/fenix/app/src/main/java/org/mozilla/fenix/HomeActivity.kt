@@ -563,9 +563,6 @@ NavGraphDirections
 actionGlobalBrowser
 (
 sessionId
-browsingModeManager
-.
-isPrivate
 )
 host
 .

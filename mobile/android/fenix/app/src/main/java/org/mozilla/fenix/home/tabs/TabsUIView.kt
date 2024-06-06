@@ -386,7 +386,6 @@ HomeFragmentDirections
 actionHomeFragmentToSearchFragment
 (
 null
-isPrivate
 )
 Navigation
 .
