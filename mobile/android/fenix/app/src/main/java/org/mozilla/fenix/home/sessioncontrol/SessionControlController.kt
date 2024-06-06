@@ -1074,13 +1074,6 @@ TabsUseCases
 SelectTabUseCase
 private
 val
-requestDesktopSiteUseCase
-:
-SessionUseCases
-.
-RequestDesktopSiteUseCase
-private
-val
 fragmentStore
 :
 HomeFragmentStore
@@ -2047,6 +2040,9 @@ track
 it
 )
 }
+val
+tabId
+=
 addTabUseCase
 .
 invoke
@@ -2075,6 +2071,7 @@ activity
 .
 handleRequestDesktopMode
 (
+tabId
 )
 }
 activity

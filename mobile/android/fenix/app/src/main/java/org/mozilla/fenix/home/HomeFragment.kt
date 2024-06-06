@@ -1904,15 +1904,6 @@ useCases
 tabsUseCases
 .
 selectTab
-requestDesktopSiteUseCase
-=
-components
-.
-useCases
-.
-sessionUseCases
-.
-requestDesktopSite
 fragmentStore
 =
 homeFragmentStore
