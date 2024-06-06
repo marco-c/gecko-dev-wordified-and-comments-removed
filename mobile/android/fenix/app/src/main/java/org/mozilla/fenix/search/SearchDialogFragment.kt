@@ -2749,6 +2749,12 @@ INPUT_METHOD_SERVICE
 )
 as
 InputMethodManager
+Suppress
+(
+"
+DEPRECATION
+"
+)
 imm
 .
 toggleSoftInput

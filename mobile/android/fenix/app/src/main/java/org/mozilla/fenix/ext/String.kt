@@ -652,6 +652,12 @@ FormattedDomain
 java
 #
 129
+Suppress
+(
+"
+DEPRECATION
+"
+)
 fun
 String
 .
