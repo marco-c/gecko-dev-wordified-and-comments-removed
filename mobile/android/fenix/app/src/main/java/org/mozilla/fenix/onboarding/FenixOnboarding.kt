@@ -74,14 +74,6 @@ android
 content
 .
 SharedPreferences
-import
-org
-.
-mozilla
-.
-fenix
-.
-BuildConfig
 class
 FenixOnboarding
 (
