@@ -1435,11 +1435,8 @@ invoke
 (
 SupportUtils
 .
-getSumoURLForTopic
+getGenericSumoURLForTopic
 (
-context
-!
-!
 SupportUtils
 .
 SumoTopic
