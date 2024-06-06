@@ -807,12 +807,6 @@ Event
 (
 )
 object
-DownloadAdded
-:
-Event
-(
-)
-object
 DownloadsScreenOpened
 :
 Event
