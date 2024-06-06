@@ -910,8 +910,11 @@ dispatch
 (
 LoginsAction
 .
-AddLogin
+UpdateLogin
 (
+newLogin
+.
+guid
 expectedNewLogin
 )
 )
