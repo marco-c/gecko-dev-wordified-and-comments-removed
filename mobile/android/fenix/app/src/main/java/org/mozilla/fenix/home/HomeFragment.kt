@@ -1188,6 +1188,9 @@ action
 }
 }
 }
+emitSessionChanges
+(
+)
 sessionObserver
 =
 subscribeToSessions
