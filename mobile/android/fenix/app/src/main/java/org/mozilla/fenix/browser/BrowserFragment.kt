@@ -1416,6 +1416,9 @@ sessionManager
 fragmentManager
 =
 childFragmentManager
+sessionId
+=
+customTabSessionId
 onNeedToRequestPermissions
 =
 {

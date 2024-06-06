@@ -505,6 +505,16 @@ BitmapDrawable
 constructor
 -
 #
+1311
+-
+Enable
+downloads
+in
+custom
+tabs
+.
+-
+#
 1874
 -
 Added
