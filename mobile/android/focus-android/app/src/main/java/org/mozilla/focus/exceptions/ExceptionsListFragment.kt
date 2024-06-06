@@ -1670,7 +1670,7 @@ R
 .
 color
 .
-disabledText
+disabled
 )
 )
 }

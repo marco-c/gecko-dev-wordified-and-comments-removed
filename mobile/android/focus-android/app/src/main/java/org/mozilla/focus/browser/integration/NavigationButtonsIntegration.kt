@@ -351,14 +351,14 @@ R
 .
 color
 .
-enabled_toolbar_button_color
+enabled_button_tint
 disabledColorRes
 =
 R
 .
 color
 .
-disabledText
+disabled
 }
 }
 }

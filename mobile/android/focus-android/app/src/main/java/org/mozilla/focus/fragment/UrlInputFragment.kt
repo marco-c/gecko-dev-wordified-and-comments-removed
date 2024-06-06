@@ -1573,7 +1573,7 @@ R
 .
 drawable
 .
-dark_background
+home_background
 )
 dismissView
 ?
@@ -1905,7 +1905,7 @@ R
 .
 drawable
 .
-dark_background
+home_background
 )
 }
 }

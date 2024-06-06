@@ -553,7 +553,7 @@ R
 .
 drawable
 .
-toolbar_url_dark_background
+toolbar_url_background
 fragment
 .
 context

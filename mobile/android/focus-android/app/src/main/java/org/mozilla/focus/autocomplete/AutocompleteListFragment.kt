@@ -1699,7 +1699,7 @@ R
 .
 color
 .
-disabledText
+disabled
 )
 )
 }

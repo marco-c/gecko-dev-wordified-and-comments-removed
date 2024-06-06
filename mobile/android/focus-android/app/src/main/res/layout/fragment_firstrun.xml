@@ -153,7 +153,7 @@ background
 "
 drawable
 /
-background_gradient_dark
+background_gradient
 "
 android
 :
@@ -230,6 +230,15 @@ text
 string
 /
 firstrun_skip_button
+"
+android
+:
+textColor
+=
+"
+color
+/
+primaryText
 "
 /
 >

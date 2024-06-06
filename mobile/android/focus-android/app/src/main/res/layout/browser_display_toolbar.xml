@@ -204,9 +204,9 @@ android
 background
 =
 "
-drawable
+color
 /
-background_gradient_dark
+background
 "
 android
 :
