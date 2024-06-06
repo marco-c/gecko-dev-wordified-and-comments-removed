@@ -129,7 +129,7 @@ fenix
 .
 utils
 .
-StartupTaskManager
+RunWhenReadyQueue
 import
 org
 .
@@ -168,9 +168,9 @@ PerformanceActivityLifecycleCallbacks
 (
 private
 val
-visualCompletenessTaskManager
+visualCompletenessQueue
 :
-StartupTaskManager
+RunWhenReadyQueue
 )
 :
 Application
@@ -310,10 +310,11 @@ BrowserPerformanceTestActivity
 *
 *
 This
-starts
-the
-StartupTaskManager
-eitther
+marks
+visualCompletenessQueue
+as
+ready
+either
 delayed
 or
 right
@@ -370,7 +371,7 @@ We
 should
 delay
 the
-visualCompletenessTaskManager
+visualCompletenessQueue
 when
 reaching
 the
@@ -391,7 +392,7 @@ activity
 .
 postVisualCompletenessQueue
 (
-visualCompletenessTaskManager
+visualCompletenessQueue
 )
 }
 else
@@ -429,9 +430,9 @@ time
 implementing
 it
 .
-visualCompletenessTaskManager
+visualCompletenessQueue
 .
-start
+ready
 (
 )
 }

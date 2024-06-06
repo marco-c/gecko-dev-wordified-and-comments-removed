@@ -73,7 +73,7 @@ fenix
 .
 utils
 .
-StartupTaskManager
+RunWhenReadyQueue
 /
 *
 *
@@ -93,11 +93,11 @@ class
 PerformanceComponent
 {
 val
-visualCompletenessTaskManager
+visualCompletenessQueue
 by
 lazy
 {
-StartupTaskManager
+RunWhenReadyQueue
 (
 )
 }
