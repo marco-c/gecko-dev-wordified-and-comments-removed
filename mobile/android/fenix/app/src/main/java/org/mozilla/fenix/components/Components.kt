@@ -115,6 +115,9 @@ historyStorage
 core
 .
 bookmarksStorage
+utils
+.
+notificationManager
 )
 }
 val
