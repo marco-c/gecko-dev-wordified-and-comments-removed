@@ -150,7 +150,12 @@ compose_compiler
 }
 packagingOptions
 {
-exclude
+resources
+{
+excludes
++
+=
+[
 '
 META
 -
@@ -164,6 +169,8 @@ annotations
 .
 pro
 '
+]
+}
 }
 namespace
 '

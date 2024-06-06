@@ -1522,7 +1522,12 @@ xml
 }
 packagingOptions
 {
-exclude
+resources
+{
+excludes
++
+=
+[
 '
 META
 -
@@ -1532,7 +1537,6 @@ atomicfu
 .
 kotlin_module
 '
-exclude
 '
 META
 -
@@ -1542,7 +1546,6 @@ AL2
 .
 0
 '
-exclude
 '
 META
 -
@@ -1552,6 +1555,8 @@ LGPL2
 .
 1
 '
+]
+}
 }
 testOptions
 {

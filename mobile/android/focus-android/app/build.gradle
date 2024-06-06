@@ -944,7 +944,12 @@ klarNightly
 }
 packagingOptions
 {
-pickFirst
+resources
+{
+pickFirsts
++
+=
+[
 '
 META
 -
@@ -954,7 +959,6 @@ atomicfu
 .
 kotlin_module
 '
-pickFirst
 '
 META
 -
@@ -966,6 +970,8 @@ coroutines
 .
 pro
 '
+]
+}
 }
 namespace
 '

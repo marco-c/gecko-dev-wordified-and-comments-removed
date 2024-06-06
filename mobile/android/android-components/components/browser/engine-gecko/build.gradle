@@ -196,7 +196,12 @@ pro
 }
 packagingOptions
 {
-exclude
+resources
+{
+excludes
++
+=
+[
 '
 META
 -
@@ -210,6 +215,8 @@ annotations
 .
 pro
 '
+]
+}
 }
 namespace
 '
