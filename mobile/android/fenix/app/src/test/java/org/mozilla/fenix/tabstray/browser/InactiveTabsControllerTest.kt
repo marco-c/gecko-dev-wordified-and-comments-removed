@@ -167,6 +167,16 @@ fenix
 .
 components
 .
+AppStore
+import
+org
+.
+mozilla
+.
+fenix
+.
+components
+.
 metrics
 .
 Event
@@ -185,6 +195,13 @@ MetricController
 class
 InactiveTabsControllerTest
 {
+private
+val
+appStore
+=
+AppStore
+(
+)
 Test
 fun
 WHEN
@@ -311,6 +328,7 @@ controller
 InactiveTabsController
 (
 store
+appStore
 filter
 tray
 mockk
@@ -403,6 +421,7 @@ controller
 InactiveTabsController
 (
 store
+appStore
 mockk
 (
 relaxed
@@ -472,6 +491,7 @@ controller
 InactiveTabsController
 (
 store
+appStore
 mockk
 (
 relaxed

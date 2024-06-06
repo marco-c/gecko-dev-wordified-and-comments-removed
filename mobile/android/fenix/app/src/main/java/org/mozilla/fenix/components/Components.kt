@@ -1088,6 +1088,15 @@ startupActivityLog
 appStartReasonProvider
 )
 }
+val
+appStore
+by
+lazyMonitored
+{
+AppStore
+(
+)
+}
 }
 /
 *
