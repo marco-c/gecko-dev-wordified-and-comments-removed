@@ -678,15 +678,6 @@ alpha
 "
 android
 :
-contentDescription
-=
-"
-string
-/
-close_tab
-"
-android
-:
 src
 =
 "
