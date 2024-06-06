@@ -91,16 +91,6 @@ preference
 .
 PreferenceManager
 import
-mozilla
-.
-components
-.
-browser
-.
-search
-.
-SearchEngine
-import
 org
 .
 mozilla
