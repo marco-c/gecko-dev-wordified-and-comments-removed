@@ -829,7 +829,7 @@ scrimStart
 >
 color
 /
-scrimStart_normal_theme
+fx_mobile_layer_color_scrim_start
 <
 /
 item
@@ -844,7 +844,7 @@ scrimEnd
 >
 color
 /
-scrimEnd_normal_theme
+fx_mobile_layer_color_scrim_end
 <
 /
 item
