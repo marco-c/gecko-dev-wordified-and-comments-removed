@@ -96,9 +96,7 @@ targetSdkVersion
 28
 testInstrumentationRunner
 "
-android
-.
-support
+androidx
 .
 test
 .
