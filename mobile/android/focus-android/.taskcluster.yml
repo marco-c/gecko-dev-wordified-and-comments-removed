@@ -406,6 +406,7 @@ testKlarX86NightlyUnitTest
 &
 pip
 install
+"
 compare
 -
 locales
@@ -420,6 +421,7 @@ locales
 5
 .
 0
+"
 &
 &
 compare
