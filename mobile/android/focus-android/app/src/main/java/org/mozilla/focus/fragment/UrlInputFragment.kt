@@ -1297,6 +1297,14 @@ linkStartIndex
 =
 if
 (
+tip
+.
+deepLink
+!
+=
+null
+&
+&
 tipText
 .
 contains
@@ -1362,6 +1370,9 @@ View
 tip
 .
 deepLink
+?
+.
+invoke
 (
 )
 }
