@@ -994,7 +994,7 @@ test
 .
 apk
 '
-1
+2
 '
 ]
 treeherder
@@ -1094,7 +1094,7 @@ test
 .
 apk
 '
-1
+2
 '
 ]
 treeherder
@@ -1186,7 +1186,7 @@ test
 .
 apk
 '
-1
+2
 '
 ]
 treeherder
