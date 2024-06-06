@@ -332,7 +332,7 @@ DEFAULT_COLLECTION_NUMBER_POSITION
 )
 }
 .
-max
+maxOrNull
 (
 )
 ?

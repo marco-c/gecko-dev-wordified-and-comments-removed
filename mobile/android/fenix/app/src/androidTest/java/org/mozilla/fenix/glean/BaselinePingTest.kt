@@ -163,16 +163,6 @@ mozilla
 .
 components
 .
-concept
-.
-fetch
-.
-Client
-import
-mozilla
-.
-components
-.
 service
 .
 glean
@@ -590,8 +580,6 @@ getApplicationContext
 (
 )
 )
-as
-Client
 }
 )
 /
