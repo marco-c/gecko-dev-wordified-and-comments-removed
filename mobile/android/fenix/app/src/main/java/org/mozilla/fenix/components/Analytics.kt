@@ -381,7 +381,16 @@ BuildConfig
 BUILD_TYPE
 sendEventForNativeCrashes
 =
-true
+false
+/
+/
+Do
+not
+send
+native
+crashes
+to
+Sentry
 sentryProjectUrl
 =
 getSentryProjectUrl
