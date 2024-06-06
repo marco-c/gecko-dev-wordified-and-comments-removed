@@ -193,7 +193,7 @@ content_description_menu
 >
 Rhagor
 o
-opsiynau
+ddewisiadau
 <
 /
 string
@@ -439,7 +439,7 @@ application_search_hint
 "
 >
 Rhowch
-dermau
+air
 chwilio
 <
 /
@@ -1389,6 +1389,7 @@ open_in_app_cfr_positive_button_text
 >
 Mynd
 i
+r
 gosodiadau
 <
 /
@@ -3524,7 +3525,7 @@ name
 browser_menu_add
 "
 >
-Newydd
+Ychwanegu
 <
 /
 string
@@ -5612,8 +5613,8 @@ name
 preferences_cookie_banner_reduction
 "
 >
-Gostyngiad
-Baner
+Cyfyngu
+Baneri
 Cwcis
 <
 /
@@ -7171,9 +7172,8 @@ name
 reduce_cookie_banner_variant_2_experiment_dialog_title
 "
 >
-Llai
-o
-Faneri
+Cyfyngu
+Baneri
 Cwcis
 <
 /
@@ -8609,6 +8609,7 @@ preferences_search_bookmarks
 "
 >
 Chwilio
+r
 nodau
 tudalen
 <
@@ -8835,8 +8836,7 @@ name
 notifications_allowed_summary
 "
 >
-Caniat
-u
+Caniatawyd
 <
 /
 string
@@ -12693,7 +12693,7 @@ name
 close_tabs_manually
 "
 >
-llaw
+Byth
 <
 /
 string
@@ -14788,7 +14788,7 @@ history_search_1
 "
 >
 Rhowch
-gair
+air
 chwilio
 <
 /
@@ -14980,8 +14980,8 @@ history_multi_select_title
 1
 d
 wedi
-i
-ddewis
+u
+dewis
 <
 /
 string
@@ -16050,8 +16050,8 @@ bookmarks_multi_select_title
 1
 d
 wedi
-i
-ddewis
+u
+dewis
 <
 /
 string
@@ -16515,7 +16515,7 @@ bookmark_search
 "
 >
 Rhowch
-dermau
+air
 chwilio
 <
 /
@@ -16556,9 +16556,10 @@ name
 phone_feature_go_to_settings
 "
 >
-Ewch
+Mynd
 i
-Gosodiadau
+r
+gosodiadau
 <
 /
 string
@@ -17167,7 +17168,7 @@ name
 preference_option_phone_feature_blocked
 "
 >
-Rhwystro
+Rhwystrwyd
 <
 /
 string
@@ -17196,8 +17197,7 @@ name
 preference_option_phone_feature_allowed
 "
 >
-Caniat
-u
+Caniatawyd
 <
 /
 string
@@ -24364,7 +24364,7 @@ name
 enhanced_tracking_protection_blocked
 "
 >
-Rhwystro
+Rhwystrwyd
 <
 /
 string
@@ -27764,7 +27764,7 @@ preferences_credit_cards
 "
 >
 Cardiau
-Credyd
+credyd
 <
 /
 string
@@ -30461,7 +30461,7 @@ CDATA
 [
 2
 .
-Tapio
+Tapiwch
 <
 b
 >
@@ -33619,6 +33619,7 @@ experiments_snackbar_button
 >
 Mynd
 i
+r
 gosodiadau
 <
 /

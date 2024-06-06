@@ -389,6 +389,7 @@ urlbar_hint
 Chwilio
 neu
 gyfeiriad
+gwe
 <
 /
 string
@@ -723,7 +724,7 @@ menu_open_with_default_browser2
 "
 >
 Agor
-gyda
+yn
 %
 1
 s
@@ -862,8 +863,6 @@ menu_add_to_home_screen
 >
 Ychwanegu
 i
-\
-'
 r
 sgrin
 Cartref
@@ -1465,9 +1464,6 @@ notification_erase_text
 "
 >
 Dileu
-\
-'
-r
 hanes
 pori
 <
@@ -1653,9 +1649,6 @@ shortcut_erase_long_label
 "
 >
 Dileu
-\
-'
-r
 hanes
 pori
 <
@@ -5393,8 +5386,6 @@ search_add_manually_string
 Llinyn
 chwilio
 i
-\
-'
 w
 ddefnyddio
 <
@@ -5714,9 +5705,6 @@ content_description_erase
 "
 >
 Dileu
-\
-'
-r
 hanes
 pori
 <
@@ -9058,8 +9046,11 @@ name
 security_popup_secure_connection
 "
 >
+Mae
+r
 Cysylltiad
-Diogel
+yn
+Ddiogel
 <
 /
 string
@@ -9335,7 +9326,6 @@ accessibility_find_in_page_result
 %
 1
 d
-allan
 o
 %
 2
@@ -9455,11 +9445,9 @@ accessibility_dismiss_find_in_page
 "
 >
 Cau
-\
-'
 r
 canfod
-yn
+ar
 y
 dudalen
 <
@@ -9560,8 +9548,6 @@ custom_tab_copy_url_action
 >
 URL
 wedi
-\
-'
 i
 gop
 o
@@ -9724,9 +9710,8 @@ name
 preferences_cookie_banner
 "
 >
-Llai
-o
-Faneri
+Cyfyngu
+Baneri
 Cwcis
 <
 /
@@ -9839,9 +9824,8 @@ name
 cookie_banner_reject_all_option_title
 "
 >
-Llai
-o
-Faneri
+Cyfyngu
+Baneri
 Cwcis
 <
 /
@@ -9946,9 +9930,8 @@ name
 cookie_banner_exception_item_title
 "
 >
-Llai
-o
-Faneri
+Cyfyngu
+Baneri
 Cwcis
 <
 /
@@ -10098,9 +10081,8 @@ name
 cookie_banner_exception_panel_switch_title
 "
 >
-Llai
-o
-Faneri
+Cyfyngu
+Baneri
 Cwcis
 <
 /
@@ -11080,9 +11062,10 @@ name
 phone_feature_go_to_settings
 "
 >
-Ewch
+Mynd
 i
-Gosodiadau
+r
+gosodiadau
 <
 /
 string
@@ -12815,9 +12798,7 @@ new_tab_opened_snackbar
 Tab
 newydd
 wedi
-\
-'
-i
+ei
 agor
 <
 /
@@ -12886,10 +12867,7 @@ full_screen_notification
 >
 Mynd
 i
-mewn
-i
 r
-modd
 sgrin
 lawn
 <
@@ -13729,6 +13707,7 @@ diogelu
 I
 FFWRDD
 ar
+gyfer
 y
 wefan
 hon
@@ -13769,6 +13748,7 @@ Mae
 diogelu
 YMLAEN
 ar
+gyfer
 y
 wefan
 hon

@@ -549,7 +549,8 @@ tab_tray_multi_select_title
 %
 1
 d
-sayland
+ta
+land
 <
 /
 string
@@ -763,7 +764,8 @@ name
 tab_tray_multiselect_selected_content_description
 "
 >
-Sayland
+Ta
+land
 <
 /
 string
@@ -10285,8 +10287,7 @@ addon_already_installed
 >
 Qos
 msha
-lle
-qashan
+lleqashan
 ornat
 l
 an
@@ -16459,7 +16460,8 @@ bookmarks_multi_select_title
 %
 1
 d
-sayland
+ta
+land
 <
 /
 string
@@ -18774,7 +18776,8 @@ create_collection_save_to_collection_tabs_selected
 %
 d
 bet
-sayland
+ta
+land
 <
 /
 string
@@ -18830,7 +18833,8 @@ create_collection_save_to_collection_tab_selected
 %
 d
 bet
-sayland
+ta
+land
 <
 /
 string
@@ -21223,7 +21227,8 @@ lshemi
 Android
 sazlawlar
 na
-maslasad
+s
+ykeslestiriledi
 .
 Bul
 jerde
@@ -30862,7 +30867,8 @@ n
 lgi
 format
 na
-mas
+s
+ykes
 keliwin
 tekseri
 <
@@ -32327,8 +32333,7 @@ wsh
 at
 nda
 login
-lle
-qashan
+lleqashan
 bar
 <
 /
