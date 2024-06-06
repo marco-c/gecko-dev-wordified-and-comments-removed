@@ -275,13 +275,13 @@ null
 }
 else
 {
-(
-offset
-+
 historyItems
 .
-size
+last
+(
 )
+.
+position
 +
 1
 }

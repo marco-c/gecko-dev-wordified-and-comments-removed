@@ -254,7 +254,7 @@ addLoadStateListener
 {
 /
 /
-first
+First
 call
 will
 always
@@ -291,11 +291,11 @@ updateEmptyState
 could
 work
 correctly
+.
 if
 (
 itemCount
-!
-=
+>
 0
 )
 {
@@ -303,6 +303,7 @@ adapterItemCount
 =
 itemCount
 }
+else
 if
 (
 it

@@ -282,12 +282,10 @@ wrap_content
 "
 app
 :
-layout_constraintTop_toBottomOf
+layout_constraintTop_toTopOf
 =
 "
-id
-/
-progress_bar
+parent
 "
 /
 >
