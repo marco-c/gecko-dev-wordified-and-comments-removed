@@ -189,11 +189,11 @@ val
 sentry
 =
 "
-1
+5
 .
-7
+6
 .
-10
+2
 "
 const
 val
@@ -2337,7 +2337,7 @@ mozilla_android_components
 "
 const
 val
-lib_crash_sentry_legacy
+lib_crash_sentry
 =
 "
 org
@@ -2351,8 +2351,6 @@ lib
 crash
 -
 sentry
--
-legacy
 :
 {
 Versions

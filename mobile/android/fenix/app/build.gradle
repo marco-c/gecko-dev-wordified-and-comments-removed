@@ -5108,7 +5108,7 @@ mozilla_lib_crash
 implementation
 Deps
 .
-lib_crash_sentry_legacy
+lib_crash_sentry
 implementation
 Deps
 .

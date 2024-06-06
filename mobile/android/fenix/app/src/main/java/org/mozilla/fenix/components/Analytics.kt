@@ -151,8 +151,6 @@ crash
 .
 sentry
 .
-legacy
-.
 SentryService
 import
 mozilla
