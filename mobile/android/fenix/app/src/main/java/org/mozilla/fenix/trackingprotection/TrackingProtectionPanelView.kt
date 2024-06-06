@@ -1063,6 +1063,13 @@ trackingProtectionSwitch
 .
 switch_widget
 .
+jumpDrawablesToCurrentState
+(
+)
+trackingProtectionSwitch
+.
+switch_widget
+.
 setOnCheckedChangeListener
 {
 _
