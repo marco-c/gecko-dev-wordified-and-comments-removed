@@ -205,7 +205,7 @@ layout_constraintEnd_toStartOf
 "
 id
 /
-button2
+disable_search_suggestions_button
 "
 app
 :
@@ -233,7 +233,7 @@ id
 +
 id
 /
-button2
+disable_search_suggestions_button
 "
 android
 :
@@ -301,7 +301,7 @@ layout_constraintEnd_toStartOf
 +
 id
 /
-button3
+enable_search_suggestions_button
 "
 app
 :
@@ -329,7 +329,7 @@ id
 +
 id
 /
-button3
+enable_search_suggestions_button
 "
 android
 :
