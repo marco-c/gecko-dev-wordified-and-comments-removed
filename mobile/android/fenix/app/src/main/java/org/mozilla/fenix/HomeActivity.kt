@@ -804,7 +804,7 @@ super
 onResume
 (
 )
-unsetOpenLinksInAPrivateTab
+unsetOpenLinksInAPrivateTabIfNecessary
 (
 )
 lifecycleScope
@@ -892,7 +892,7 @@ await
 }
 private
 fun
-unsetOpenLinksInAPrivateTab
+unsetOpenLinksInAPrivateTabIfNecessary
 (
 )
 {
