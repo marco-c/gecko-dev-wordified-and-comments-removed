@@ -1822,7 +1822,7 @@ R
 .
 string
 .
-close_tabs_after_one_day
+close_tabs_after_one_day_summary
 )
 }
 closeTabsAfterOneWeek
@@ -1837,7 +1837,7 @@ R
 .
 string
 .
-close_tabs_after_one_week
+close_tabs_after_one_week_summary
 )
 }
 closeTabsAfterOneMonth
@@ -1852,7 +1852,7 @@ R
 .
 string
 .
-close_tabs_after_one_month
+close_tabs_after_one_month_summary
 )
 }
 else
@@ -1867,7 +1867,7 @@ R
 .
 string
 .
-close_tabs_manually
+close_tabs_manually_summary
 )
 }
 }
