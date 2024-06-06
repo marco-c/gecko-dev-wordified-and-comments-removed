@@ -1376,9 +1376,6 @@ aRequest
 SRICheckDataVerifier
 *
 aSRIDataVerifier
-uint32_t
-*
-sriLength
 )
 const
 ;
