@@ -5559,10 +5559,6 @@ the
 Google
 Advertising
 ID
-implementation
-Deps
-.
-google_play_store
 /
 /
 Required
@@ -5571,6 +5567,14 @@ in
 -
 app
 reviews
+implementation
+Deps
+.
+google_play_review
+implementation
+Deps
+.
+google_play_review_ktx
 androidTestImplementation
 Deps
 .
