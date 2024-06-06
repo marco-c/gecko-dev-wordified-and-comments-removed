@@ -95,6 +95,18 @@ mozilla
 .
 components
 .
+browser
+.
+state
+.
+store
+.
+BrowserStore
+import
+mozilla
+.
+components
+.
 concept
 .
 engine
@@ -245,6 +257,11 @@ val
 sessionManager
 :
 SessionManager
+private
+val
+store
+:
+BrowserStore
 private
 val
 engineSettings
@@ -399,7 +416,7 @@ lazy
 {
 DownloadsUseCases
 (
-sessionManager
+store
 )
 }
 val
@@ -410,6 +427,7 @@ lazy
 ContextMenuUseCases
 (
 sessionManager
+store
 )
 }
 }

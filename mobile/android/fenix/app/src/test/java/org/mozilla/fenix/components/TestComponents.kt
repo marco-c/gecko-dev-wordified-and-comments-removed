@@ -192,6 +192,9 @@ core
 sessionManager
 core
 .
+store
+core
+.
 engine
 .
 settings

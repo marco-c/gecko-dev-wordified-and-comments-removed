@@ -1436,9 +1436,9 @@ feature
 =
 FindInPageIntegration
 (
-sessionManager
+store
 =
-sessionManager
+store
 sessionId
 =
 customTabSessionId
