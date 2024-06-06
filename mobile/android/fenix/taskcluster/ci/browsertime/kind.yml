@@ -263,6 +263,8 @@ android
 aarch64
 -
 shippable
+-
+qr
 /
 opt
 armeabi
@@ -286,6 +288,8 @@ api
 16
 -
 shippable
+-
+qr
 /
 opt
 worker
