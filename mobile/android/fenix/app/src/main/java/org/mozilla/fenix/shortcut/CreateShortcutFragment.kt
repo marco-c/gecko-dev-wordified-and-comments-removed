@@ -300,7 +300,9 @@ text
 toString
 (
 )
-viewLifecycleOwner
+requireActivity
+(
+)
 .
 lifecycleScope
 .
