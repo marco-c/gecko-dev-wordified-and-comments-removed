@@ -1982,7 +1982,17 @@ Text
 (
 text
 =
+stringResource
+(
+id
+=
+R
+.
+string
+.
+surrounded_with_quotes
 text
+)
 color
 =
 FirefoxTheme
