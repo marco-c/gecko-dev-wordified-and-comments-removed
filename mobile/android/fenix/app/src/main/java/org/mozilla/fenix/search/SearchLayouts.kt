@@ -385,7 +385,7 @@ of
 UNSET
 )
 }
-searchWithShortcuts
+fill_link_from_clipboard
 {
 connect
 (
@@ -409,7 +409,7 @@ TOP
 to
 BOTTOM
 of
-searchWithShortcuts
+search_with_shortcuts
 BOTTOM
 to
 TOP
