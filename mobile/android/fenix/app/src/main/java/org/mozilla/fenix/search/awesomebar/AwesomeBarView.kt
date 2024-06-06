@@ -1023,9 +1023,6 @@ query
 =
 state
 .
-session
-?
-.
 url
 &
 &

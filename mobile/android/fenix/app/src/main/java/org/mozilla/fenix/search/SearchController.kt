@@ -568,7 +568,7 @@ store
 .
 state
 .
-session
+tabId
 =
 =
 null
@@ -733,14 +733,7 @@ store
 .
 state
 .
-session
-?
-.
 url
-?
-:
-"
-"
 =
 =
 text
@@ -751,14 +744,7 @@ store
 .
 state
 .
-session
-?
-.
 searchTerms
-?
-:
-"
-"
 =
 =
 text
@@ -860,7 +846,7 @@ store
 .
 state
 .
-session
+tabId
 =
 =
 null
@@ -915,7 +901,7 @@ store
 .
 state
 .
-session
+tabId
 =
 =
 null

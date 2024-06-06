@@ -775,14 +775,7 @@ setSearchTerms
 (
 searchState
 .
-session
-?
-.
 searchTerms
-.
-orEmpty
-(
-)
 )
 }
 /

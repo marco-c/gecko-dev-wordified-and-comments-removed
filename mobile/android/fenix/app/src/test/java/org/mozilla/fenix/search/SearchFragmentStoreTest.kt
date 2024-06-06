@@ -321,6 +321,17 @@ SearchFragmentState
 =
 SearchFragmentState
 (
+tabId
+=
+null
+url
+=
+"
+"
+searchTerms
+=
+"
+"
 query
 =
 "
@@ -353,9 +364,6 @@ false
 showBookmarkSuggestions
 =
 false
-session
-=
-null
 searchAccessPoint
 =
 Event
