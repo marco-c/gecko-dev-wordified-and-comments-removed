@@ -72,6 +72,8 @@ dependencies
 -
 build
 -
+components
+-
 build
 -
 samples

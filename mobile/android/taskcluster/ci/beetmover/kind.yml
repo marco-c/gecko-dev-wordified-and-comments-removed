@@ -106,6 +106,8 @@ dependencies
 -
 build
 -
+components
+-
 post
 -
 signing

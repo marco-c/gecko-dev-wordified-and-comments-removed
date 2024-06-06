@@ -105,11 +105,15 @@ dependencies
 :
 -
 build
+-
+components
 primary
 -
 dependency
 :
 build
+-
+components
 group
 -
 by
