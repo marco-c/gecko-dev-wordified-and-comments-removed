@@ -631,6 +631,13 @@ permissions
 "
 android
 :
+layout_marginHorizontal
+=
+"
+16dp
+"
+android
+:
 text
 =
 "
