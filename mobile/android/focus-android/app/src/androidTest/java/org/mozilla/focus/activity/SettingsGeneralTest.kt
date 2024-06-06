@@ -551,6 +551,7 @@ getUiTheme
 )
 }
 }
+SmokeTest
 Test
 fun
 englishSystemLocaleTest
