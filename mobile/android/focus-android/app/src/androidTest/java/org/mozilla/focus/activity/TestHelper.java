@@ -288,6 +288,7 @@ getInstrumentation
 )
 )
 ;
+public
 static
 final
 long
@@ -299,6 +300,7 @@ SECOND_IN_MILLIS
 *
 4
 ;
+public
 static
 final
 long
@@ -506,6 +508,7 @@ true
 )
 )
 ;
+public
 static
 UiObject
 initialView
@@ -644,6 +647,7 @@ true
 )
 )
 ;
+public
 static
 UiObject
 cleartextField
@@ -785,6 +789,7 @@ true
 )
 )
 ;
+public
 static
 UiObject
 tryAgainBtn
@@ -835,6 +840,7 @@ isDisplayed
 )
 )
 ;
+public
 static
 UiObject
 notFoundMsg
@@ -865,6 +871,7 @@ true
 )
 )
 ;
+public
 static
 UiObject
 notFounddetailedMsg
@@ -902,6 +909,7 @@ true
 )
 )
 ;
+public
 static
 UiObject
 browserViewSettingsMenuItem
@@ -938,6 +946,7 @@ true
 )
 )
 ;
+public
 static
 UiObject
 erasedMsg
@@ -989,6 +998,7 @@ true
 )
 )
 ;
+public
 static
 UiObject
 lockIcon
@@ -1116,6 +1126,7 @@ true
 )
 )
 ;
+public
 static
 UiObject
 notificationOpenItem
@@ -1155,6 +1166,7 @@ true
 )
 )
 ;
+public
 static
 UiObject
 notificationEraseOpenItem
@@ -1196,6 +1208,7 @@ true
 )
 )
 ;
+public
 static
 UiObject
 FocusInRecentApps
@@ -1242,6 +1255,7 @@ true
 )
 )
 ;
+public
 static
 UiObject
 blockOffIcon
@@ -1358,6 +1372,7 @@ true
 )
 )
 ;
+public
 static
 UiObject
 AddtoHSOKBtn
@@ -1396,6 +1411,7 @@ true
 )
 )
 ;
+public
 static
 UiObject
 AddautoBtn
@@ -1425,6 +1441,7 @@ true
 )
 )
 ;
+public
 static
 UiObject
 shortcutTitle
@@ -1463,6 +1480,7 @@ true
 )
 )
 ;
+public
 static
 UiObject
 savedNotification
@@ -1615,6 +1633,7 @@ true
 )
 )
 ;
+public
 static
 UiObject
 blockCounterItem
@@ -1646,6 +1665,7 @@ trackers_count
 )
 )
 ;
+public
 static
 UiObject
 blockToggleSwitch
@@ -1677,6 +1697,7 @@ blocking_switch
 )
 )
 ;
+public
 static
 UiObject
 menulist
@@ -1713,6 +1734,7 @@ true
 )
 )
 ;
+public
 static
 String
 getMenuItemText
@@ -1762,6 +1784,7 @@ return
 text
 ;
 }
+public
 static
 UiObject
 shareMenuHeader
@@ -1902,6 +1925,7 @@ true
 )
 )
 ;
+public
 static
 UiObject
 navigateUp
@@ -1924,6 +1948,7 @@ up
 )
 )
 ;
+public
 static
 UiObject
 toggleAnalyticBlock
@@ -1954,6 +1979,7 @@ instance
 )
 )
 ;
+public
 static
 UiObject
 refreshBtn
@@ -1998,6 +2024,7 @@ throws
 UiObjectNotFoundException
 {
 }
+public
 static
 void
 waitForIdle
@@ -2041,6 +2068,7 @@ pressBack
 )
 ;
 }
+public
 static
 void
 pressHomeKey
@@ -2054,6 +2082,7 @@ pressHome
 )
 ;
 }
+public
 static
 void
 pressRecentAppsKey
@@ -2069,6 +2098,7 @@ pressRecentApps
 )
 ;
 }
+public
 static
 void
 openNotification
@@ -2082,6 +2112,7 @@ openNotification
 )
 ;
 }
+public
 static
 void
 swipeUpScreen
@@ -2134,6 +2165,7 @@ xScrollPosition
 )
 ;
 }
+public
 static
 void
 swipedownScreen
@@ -2254,6 +2286,7 @@ stream
 ;
 }
 }
+public
 static
 Buffer
 readStreamFile
@@ -2288,6 +2321,7 @@ return
 buffer
 ;
 }
+public
 static
 String
 readFileToString
@@ -2338,6 +2372,7 @@ stream
 ;
 }
 }
+public
 static
 String
 readStreamIntoString
@@ -2419,6 +2454,7 @@ toString
 ;
 }
 }
+public
 static
 void
 waitForWebSiteTitleLoad
