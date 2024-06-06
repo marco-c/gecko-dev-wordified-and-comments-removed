@@ -1016,7 +1016,7 @@ R
 .
 color
 .
-toolbar_center_gradient_normal_theme
+fx_mobile_layer_color_1
 )
 )
 }
