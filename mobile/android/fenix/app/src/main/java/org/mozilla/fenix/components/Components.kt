@@ -173,4 +173,14 @@ useCases
 searchUseCases
 )
 }
+val
+analytics
+by
+lazy
+{
+Analytics
+(
+context
+)
+}
 }
