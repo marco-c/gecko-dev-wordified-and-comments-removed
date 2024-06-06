@@ -6317,6 +6317,8 @@ pref_key_search_widget_installed
 val
 installedCount
 =
+try
+{
 preferences
 .
 getInt
@@ -6324,6 +6326,16 @@ getInt
 oldKey
 0
 )
+}
+catch
+(
+e
+:
+ClassCastException
+)
+{
+0
+}
 if
 (
 installedCount
