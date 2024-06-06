@@ -997,6 +997,11 @@ toolbarColor
 config
 .
 navigationBarColor
+?
+:
+config
+.
+toolbarColor
 )
 /
 /
