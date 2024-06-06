@@ -2720,6 +2720,14 @@ homeScreenList
 (
 )
 .
+waitForExists
+(
+waitingTime
+)
+homeScreenList
+(
+)
+.
 scrollToEnd
 (
 LISTS_MAXSWIPES
