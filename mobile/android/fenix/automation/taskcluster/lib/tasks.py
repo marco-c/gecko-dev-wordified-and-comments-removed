@@ -4079,6 +4079,8 @@ mozilla
 .
 org
 /
+releases
+/
 mozilla
 -
 beta
@@ -4277,6 +4279,8 @@ hg
 mozilla
 .
 org
+/
+releases
 /
 mozilla
 -
