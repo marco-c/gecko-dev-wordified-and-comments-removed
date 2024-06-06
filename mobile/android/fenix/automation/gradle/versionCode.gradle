@@ -486,17 +486,6 @@ format
 (
 today
 )
-/
-/
-todo
-after
-first
-build
-is
-deployed
-to
-Google
-Play
 generatedVersionCode
 =
 (
@@ -508,9 +497,6 @@ time
 )
 as
 int
-generatedVersionCode
-=
-1
 println
 (
 "
