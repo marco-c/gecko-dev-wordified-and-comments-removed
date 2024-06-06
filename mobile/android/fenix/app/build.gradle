@@ -2560,7 +2560,7 @@ mozilla_browser_icons
 implementation
 Deps
 .
-mozilla_browser_engine_gecko_beta
+mozilla_browser_engine_gecko_nightly
 implementation
 Deps
 .
