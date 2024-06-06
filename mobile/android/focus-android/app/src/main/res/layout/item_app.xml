@@ -345,8 +345,9 @@ android
 textColor
 =
 "
-#
-ff212121
+color
+/
+primaryText
 "
 android
 :
