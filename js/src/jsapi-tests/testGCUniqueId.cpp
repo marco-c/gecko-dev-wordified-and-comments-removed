@@ -75,6 +75,14 @@ nozeal
 cx
 )
 ;
+AutoGCParameter
+gcparam
+(
+cx
+JSGC_SEMISPACE_NURSERY_ENABLED
+0
+)
+;
 uint64_t
 uid
 =
