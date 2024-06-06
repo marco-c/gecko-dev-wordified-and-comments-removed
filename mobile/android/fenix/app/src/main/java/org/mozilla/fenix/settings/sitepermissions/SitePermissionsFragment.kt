@@ -488,8 +488,6 @@ SitePermissionsFragmentDirections
 actionSitePermissionsToManagePhoneFeatures
 (
 phoneFeature
-.
-id
 )
 Navigation
 .

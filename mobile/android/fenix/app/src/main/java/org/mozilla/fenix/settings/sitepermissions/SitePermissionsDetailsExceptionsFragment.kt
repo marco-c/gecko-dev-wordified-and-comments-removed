@@ -659,11 +659,9 @@ SitePermissionsDetailsExceptionsFragmentDirections
 .
 actionSitePermissionsToExceptionsToManagePhoneFeature
 (
-phoneFeatureId
+phoneFeature
 =
 phoneFeature
-.
-id
 sitePermissions
 =
 sitePermissions
