@@ -4994,6 +4994,13 @@ SearchWidgetInstalled
 -
 >
 null
+is
+Event
+.
+ChangedToDefaultBrowser
+-
+>
+null
 }
 class
 GleanMetricsService

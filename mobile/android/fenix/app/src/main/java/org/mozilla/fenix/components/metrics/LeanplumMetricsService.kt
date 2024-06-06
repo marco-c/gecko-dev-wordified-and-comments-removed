@@ -352,6 +352,15 @@ SearchWidgetInstalled
 "
 E_Search_Widget_Added
 "
+is
+Event
+.
+ChangedToDefaultBrowser
+-
+>
+"
+E_Changed_Default_To_Fenix
+"
 /
 /
 Do

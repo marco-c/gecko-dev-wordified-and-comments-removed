@@ -1321,6 +1321,12 @@ Event
 (
 )
 object
+ChangedToDefaultBrowser
+:
+Event
+(
+)
+object
 ContextualHintETPDisplayed
 :
 Event
