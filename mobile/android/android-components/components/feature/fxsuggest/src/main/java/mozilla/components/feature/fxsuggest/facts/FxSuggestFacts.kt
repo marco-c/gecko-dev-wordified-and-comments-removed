@@ -223,6 +223,13 @@ IS_CLICKED
 "
 is_clicked
 "
+const
+val
+ENGAGEMENT_ABANDONED
+=
+"
+engagement_abandoned
+"
 }
 }
 private
@@ -347,6 +354,9 @@ Long
 isClicked
 :
 Boolean
+engagementAbandoned
+:
+Boolean
 )
 {
 emitFxSuggestFact
@@ -407,6 +417,13 @@ MetadataKeys
 IS_CLICKED
 to
 isClicked
+FxSuggestFacts
+.
+MetadataKeys
+.
+ENGAGEMENT_ABANDONED
+to
+engagementAbandoned
 )
 )
 }
