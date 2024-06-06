@@ -69,11 +69,13 @@ mozilla
 .
 components
 .
-concept
+browser
 .
-tabstray
+state
 .
-Tab
+state
+.
+TabSessionState
 import
 mozilla
 .
@@ -265,7 +267,7 @@ selectedTabs
 =
 emptySet
 <
-Tab
+TabSessionState
 >
 (
 )
@@ -326,7 +328,7 @@ selectedTabs
 :
 Set
 <
-Tab
+TabSessionState
 >
 )
 :
@@ -509,7 +511,7 @@ Added
 a
 new
 [
-Tab
+TabSessionState
 ]
 to
 the
@@ -525,7 +527,7 @@ AddSelectTab
 val
 tab
 :
-Tab
+TabSessionState
 )
 :
 TabsTrayAction
@@ -538,7 +540,7 @@ TabsTrayAction
 Removed
 a
 [
-Tab
+TabSessionState
 ]
 from
 the
@@ -554,7 +556,7 @@ RemoveSelectTab
 val
 tab
 :
-Tab
+TabSessionState
 )
 :
 TabsTrayAction

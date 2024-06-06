@@ -102,16 +102,6 @@ state
 store
 .
 BrowserStore
-import
-mozilla
-.
-components
-.
-concept
-.
-tabstray
-.
-Tab
 /
 *
 *
@@ -148,7 +138,7 @@ tabs
 :
 Collection
 <
-Tab
+TabSessionState
 >
 )
 :

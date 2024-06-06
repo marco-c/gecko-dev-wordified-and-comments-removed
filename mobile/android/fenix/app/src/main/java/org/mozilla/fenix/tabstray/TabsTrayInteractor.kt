@@ -69,11 +69,13 @@ mozilla
 .
 components
 .
-concept
+browser
 .
-tabstray
+state
 .
-Tab
+state
+.
+TabSessionState
 interface
 TabsTrayInteractor
 {
@@ -191,7 +193,7 @@ String
 Invoked
 when
 [
-Tab
+TabSessionState
 ]
 s
 need
@@ -208,7 +210,7 @@ tabs
 :
 Collection
 <
-Tab
+TabSessionState
 >
 )
 /
@@ -235,7 +237,7 @@ tabs
 :
 Collection
 <
-Tab
+TabSessionState
 >
 )
 /
@@ -358,7 +360,7 @@ tabs
 :
 Collection
 <
-Tab
+TabSessionState
 >
 )
 {
@@ -377,7 +379,7 @@ tabs
 :
 Collection
 <
-Tab
+TabSessionState
 >
 )
 {

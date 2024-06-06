@@ -165,16 +165,6 @@ mozilla
 .
 components
 .
-concept
-.
-tabstray
-.
-Tab
-import
-mozilla
-.
-components
-.
 feature
 .
 tabs
@@ -391,7 +381,7 @@ handleNavigateToBrowser
 Deletes
 the
 [
-Tab
+TabSessionState
 ]
 with
 the
@@ -409,7 +399,7 @@ id
 of
 the
 [
-Tab
+TabSessionState
 ]
 to
 be
@@ -445,7 +435,7 @@ tabs
 List
 of
 [
-Tab
+TabSessionState
 ]
 s
 (
@@ -464,7 +454,7 @@ tabs
 :
 Collection
 <
-Tab
+TabSessionState
 >
 )
 /
@@ -524,7 +514,7 @@ tabs
 List
 of
 [
-Tab
+TabSessionState
 ]
 s
 to
@@ -540,7 +530,7 @@ tabs
 :
 Collection
 <
-Tab
+TabSessionState
 >
 numOfDays
 :
@@ -831,7 +821,7 @@ browserFragment
 Deletes
 the
 [
-Tab
+TabSessionState
 ]
 with
 the
@@ -849,7 +839,7 @@ id
 of
 the
 [
-Tab
+TabSessionState
 ]
 to
 be
@@ -965,7 +955,7 @@ tabs
 List
 of
 [
-Tab
+TabSessionState
 ]
 s
 (
@@ -975,6 +965,7 @@ to
 be
 removed
 .
+*
 This
 method
 has
@@ -997,7 +988,7 @@ tabs
 :
 Collection
 <
-Tab
+TabSessionState
 >
 )
 {
@@ -1009,6 +1000,8 @@ tabs
 any
 {
 it
+.
+content
 .
 private
 }
@@ -1201,7 +1194,7 @@ tabs
 :
 Collection
 <
-Tab
+TabSessionState
 >
 numOfDays
 :

@@ -131,7 +131,7 @@ mozilla
 .
 components
 .
-concept
+browser
 .
 tabstray
 .

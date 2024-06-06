@@ -78,7 +78,6 @@ state
 state
 .
 TabSessionState
-private
 fun
 TabSessionState
 .
@@ -135,7 +134,6 @@ term
 .
 *
 /
-private
 fun
 TabSessionState
 .
