@@ -464,7 +464,7 @@ title
 "
 string
 /
-preferences_category_advanced
+preferences_category_privacy
 "
 app
 :
@@ -610,7 +610,7 @@ title
 "
 string
 /
-preferences_data_choices
+preferences_data_collection
 "
 /
 >

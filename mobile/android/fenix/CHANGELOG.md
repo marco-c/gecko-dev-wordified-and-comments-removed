@@ -698,6 +698,14 @@ name
 Changed
 -
 #
+3278
+-
+Updates
+strings
+in
+preferences
+-
+#
 2673
 -
 Fixed
