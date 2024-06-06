@@ -301,9 +301,6 @@ mockk
 (
 )
 mockFileManager
-mockk
-(
-)
 listOf
 (
 )
@@ -388,9 +385,6 @@ WallpaperManager
 mockSettings
 mockDownloader
 mockFileManager
-mockk
-(
-)
 allWallpapers
 =
 fakeRemoteWallpapers
@@ -475,9 +469,6 @@ WallpaperManager
 mockSettings
 mockDownloader
 mockFileManager
-mockk
-(
-)
 allWallpapers
 =
 listOf
@@ -596,9 +587,6 @@ WallpaperManager
 mockSettings
 mockDownloader
 mockFileManager
-mockk
-(
-)
 allWallpapers
 =
 listOf
@@ -699,9 +687,6 @@ WallpaperManager
 mockSettings
 mockDownloader
 mockFileManager
-mockk
-(
-)
 allWallpapers
 =
 listOf
