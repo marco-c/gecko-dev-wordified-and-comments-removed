@@ -938,7 +938,7 @@ R
 .
 style
 .
-DialogStyle
+DeleteDialogStyle
 )
 )
 .
@@ -977,13 +977,11 @@ cancel
 }
 setPositiveButton
 (
-android
-.
 R
 .
 string
 .
-ok
+history_clear_dialog
 )
 {
 dialog

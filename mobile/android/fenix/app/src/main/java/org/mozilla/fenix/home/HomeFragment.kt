@@ -2266,7 +2266,7 @@ R
 .
 style
 .
-DialogStyle
+DeleteDialogStyle
 )
 )
 .

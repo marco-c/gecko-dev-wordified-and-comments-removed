@@ -657,7 +657,7 @@ R
 .
 style
 .
-DialogStyle
+DeleteDialogStyle
 )
 )
 .
