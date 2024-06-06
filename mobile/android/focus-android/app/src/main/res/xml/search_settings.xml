@@ -79,11 +79,7 @@ MPL
 -
 >
 <
-android
-.
-support
-.
-v7
+androidx
 .
 preference
 .
@@ -246,11 +242,7 @@ preference_subitem_autocomplete
 >
 <
 /
-android
-.
-support
-.
-v7
+androidx
 .
 preference
 .

@@ -8,9 +8,7 @@ focus
 helpers
 ;
 import
-android
-.
-support
+androidx
 .
 test
 .
@@ -19,9 +17,7 @@ espresso
 UiController
 ;
 import
-android
-.
-support
+androidx
 .
 test
 .
@@ -30,9 +26,7 @@ espresso
 ViewAction
 ;
 import
-android
-.
-support
+androidx
 .
 test
 .

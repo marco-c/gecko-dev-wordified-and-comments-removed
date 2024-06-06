@@ -71,11 +71,9 @@ content
 .
 Context
 import
-android
+androidx
 .
-support
-.
-v7
+cardview
 .
 widget
 .
@@ -125,6 +123,12 @@ attr
 cardViewStyle
 )
 :
+androidx
+.
+cardview
+.
+widget
+.
 CardView
 (
 context

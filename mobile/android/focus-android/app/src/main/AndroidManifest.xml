@@ -421,11 +421,9 @@ android
 name
 =
 "
-android
+androidx
 .
-support
-.
-v4
+core
 .
 content
 .

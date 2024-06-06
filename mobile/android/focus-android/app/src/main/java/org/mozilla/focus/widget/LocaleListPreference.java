@@ -43,11 +43,7 @@ os
 AsyncTask
 ;
 import
-android
-.
-support
-.
-v7
+androidx
 .
 preference
 .

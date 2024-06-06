@@ -275,11 +275,9 @@ false
 "
 >
 <
-android
+androidx
 .
-support
-.
-v4
+swiperefreshlayout
 .
 widget
 .
@@ -388,11 +386,9 @@ appbar_scrolling_view_behavior
 >
 <
 /
-android
+androidx
 .
-support
-.
-v4
+swiperefreshlayout
 .
 widget
 .

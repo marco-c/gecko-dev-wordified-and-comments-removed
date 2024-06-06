@@ -223,11 +223,7 @@ onPreferenceTreeClick
 (
 preference
 :
-android
-.
-support
-.
-v7
+androidx
 .
 preference
 .

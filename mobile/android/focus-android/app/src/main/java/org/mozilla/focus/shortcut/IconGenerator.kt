@@ -119,9 +119,9 @@ os
 .
 Build
 import
-android
+androidx
 .
-support
+vectordrawable
 .
 graphics
 .
@@ -129,11 +129,9 @@ drawable
 .
 VectorDrawableCompat
 import
-android
+androidx
 .
-support
-.
-v4
+core
 .
 content
 .

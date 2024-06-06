@@ -79,11 +79,7 @@ MPL
 -
 >
 <
-android
-.
-support
-.
-v7
+androidx
 .
 preference
 .
@@ -260,11 +256,7 @@ preference_language
 >
 <
 /
-android
-.
-support
-.
-v7
+androidx
 .
 preference
 .

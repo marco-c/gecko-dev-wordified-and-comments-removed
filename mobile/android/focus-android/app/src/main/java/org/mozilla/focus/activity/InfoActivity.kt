@@ -25,11 +25,9 @@ os
 .
 Bundle
 import
-android
+androidx
 .
-support
-.
-v7
+appcompat
 .
 widget
 .

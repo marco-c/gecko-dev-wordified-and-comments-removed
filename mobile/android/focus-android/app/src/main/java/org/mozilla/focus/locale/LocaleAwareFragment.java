@@ -17,11 +17,9 @@ res
 Resources
 ;
 import
-android
+androidx
 .
-support
-.
-v4
+fragment
 .
 app
 .

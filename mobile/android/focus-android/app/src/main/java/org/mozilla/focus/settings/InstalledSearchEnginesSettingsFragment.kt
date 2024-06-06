@@ -71,11 +71,7 @@ os
 .
 Bundle
 import
-android
-.
-support
-.
-v7
+androidx
 .
 preference
 .

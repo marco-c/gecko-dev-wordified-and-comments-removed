@@ -79,11 +79,9 @@ animation
 .
 AnimatorListenerAdapter
 import
-android
+androidx
 .
-support
-.
-v7
+recyclerview
 .
 widget
 .
@@ -173,6 +171,12 @@ textView
 TextView
 )
 :
+androidx
+.
+recyclerview
+.
+widget
+.
 RecyclerView
 .
 ViewHolder

@@ -107,9 +107,7 @@ preference
 .
 PreferenceManager
 import
-android
-.
-support
+androidx
 .
 annotation
 .

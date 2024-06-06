@@ -15,9 +15,7 @@ os
 SystemClock
 ;
 import
-android
-.
-support
+androidx
 .
 test
 .
@@ -26,9 +24,7 @@ rule
 ActivityTestRule
 ;
 import
-android
-.
-support
+androidx
 .
 test
 .
@@ -37,9 +33,7 @@ runner
 AndroidJUnit4
 ;
 import
-android
-.
-support
+androidx
 .
 test
 .
@@ -48,9 +42,7 @@ uiautomator
 UiObjectNotFoundException
 ;
 import
-android
-.
-support
+androidx
 .
 test
 .
@@ -163,9 +155,7 @@ LocaleTestRule
 ;
 import
 static
-android
-.
-support
+androidx
 .
 test
 .
@@ -177,9 +167,7 @@ onView
 ;
 import
 static
-android
-.
-support
+androidx
 .
 test
 .
@@ -193,9 +181,7 @@ matches
 ;
 import
 static
-android
-.
-support
+androidx
 .
 test
 .
@@ -209,9 +195,7 @@ isDisplayed
 ;
 import
 static
-android
-.
-support
+androidx
 .
 test
 .

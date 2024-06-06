@@ -71,11 +71,9 @@ content
 .
 Context
 import
-android
+androidx
 .
-support
-.
-v4
+core
 .
 hardware
 .
