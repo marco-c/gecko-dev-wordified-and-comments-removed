@@ -251,7 +251,7 @@ R
 .
 attr
 .
-tabHistoryItemSelectedBackground
+layerNonOpaque
 )
 )
 }

@@ -179,12 +179,6 @@ ext
 .
 increaseTapArea
 import
-kotlin
-.
-math
-.
-max
-import
 org
 .
 mozilla
@@ -204,6 +198,12 @@ fenix
 tabstray
 .
 TabsTrayStore
+import
+kotlin
+.
+math
+.
+max
 sealed
 class
 BrowserTabViewHolder
@@ -754,7 +754,7 @@ R
 .
 color
 .
-tab_tray_item_selected_background_normal_theme
+fx_mobile_layer_color_accent_nonopaque
 }
 else
 {
