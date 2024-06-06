@@ -3291,6 +3291,10 @@ testImplementation
 Deps
 .
 mockk
+testImplementation
+Deps
+.
+assertk
 debugImplementation
 Deps
 .
