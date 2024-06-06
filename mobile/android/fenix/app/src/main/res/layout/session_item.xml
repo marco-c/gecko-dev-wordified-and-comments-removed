@@ -167,13 +167,6 @@ color
 /
 white
 "
-android
-:
-clipChildren
-=
-"
-true
-"
 app
 :
 cardCornerRadius
