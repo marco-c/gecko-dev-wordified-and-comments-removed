@@ -251,7 +251,7 @@ tabstray
 .
 browser
 .
-DEFAULT_INACTIVE_DAYS
+DEFAULT_ACTIVE_DAYS
 import
 java
 .
@@ -496,7 +496,7 @@ numOfDays
 :
 Long
 =
-DEFAULT_INACTIVE_DAYS
+DEFAULT_ACTIVE_DAYS
 +
 1
 )

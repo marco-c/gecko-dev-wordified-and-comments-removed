@@ -206,7 +206,7 @@ days
 /
 const
 val
-DEFAULT_INACTIVE_DAYS
+DEFAULT_ACTIVE_DAYS
 =
 4L
 class
@@ -271,7 +271,7 @@ DAYS
 .
 toMillis
 (
-DEFAULT_INACTIVE_DAYS
+DEFAULT_ACTIVE_DAYS
 )
 private
 val

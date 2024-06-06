@@ -92,6 +92,14 @@ Long
 Boolean
 {
 val
+lastActiveTime
+=
+maxOf
+(
+lastAccess
+createdAt
+)
+val
 now
 =
 System
@@ -103,7 +111,7 @@ return
 (
 now
 -
-lastAccess
+lastActiveTime
 <
 =
 maxActiveTime
