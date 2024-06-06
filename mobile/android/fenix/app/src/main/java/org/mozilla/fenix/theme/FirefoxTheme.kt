@@ -371,7 +371,7 @@ textWarning
 =
 PhotonColors
 .
-Red40
+Red20
 textAccent
 =
 PhotonColors
@@ -426,7 +426,7 @@ iconWarning
 =
 PhotonColors
 .
-Red40
+Red20
 iconAccentViolet
 =
 PhotonColors
