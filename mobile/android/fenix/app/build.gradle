@@ -116,8 +116,10 @@ buildTypes
 {
 release
 {
+shrinkResources
+true
 minifyEnabled
-false
+true
 proguardFiles
 getDefaultProguardFile
 (
@@ -125,6 +127,8 @@ getDefaultProguardFile
 proguard
 -
 android
+-
+optimize
 .
 txt
 '
