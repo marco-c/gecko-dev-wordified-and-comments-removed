@@ -148,7 +148,7 @@ Lifecycle
 .
 Event
 .
-ON_START
+ON_RESUME
 ]
 event
 .
@@ -277,7 +277,7 @@ currentState
 =
 State
 .
-STARTED
+RESUMED
 }
 override
 fun

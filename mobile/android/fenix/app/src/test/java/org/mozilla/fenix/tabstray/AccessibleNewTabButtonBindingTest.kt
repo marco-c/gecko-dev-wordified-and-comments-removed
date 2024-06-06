@@ -195,18 +195,6 @@ mozilla
 .
 fenix
 .
-tabstray
-.
-syncedtabs
-.
-SyncedTabsInteractor
-import
-org
-.
-mozilla
-.
-fenix
-.
 utils
 .
 Settings
@@ -261,18 +249,6 @@ val
 browserTrayInteractor
 :
 BrowserTrayInteractor
-=
-mockk
-(
-relaxed
-=
-true
-)
-private
-val
-syncedTabsInteractor
-:
-SyncedTabsInteractor
 =
 mockk
 (
@@ -356,7 +332,6 @@ tabsTrayStore
 settings
 newTabButton
 browserTrayInteractor
-syncedTabsInteractor
 )
 every
 {
@@ -428,7 +403,6 @@ tabsTrayStore
 settings
 newTabButton
 browserTrayInteractor
-syncedTabsInteractor
 )
 every
 {
@@ -500,7 +474,6 @@ tabsTrayStore
 settings
 newTabButton
 browserTrayInteractor
-syncedTabsInteractor
 )
 every
 {
@@ -570,7 +543,6 @@ tabsTrayStore
 settings
 newTabButton
 browserTrayInteractor
-syncedTabsInteractor
 )
 every
 {
@@ -621,7 +593,6 @@ tabsTrayStore
 settings
 newTabButton
 browserTrayInteractor
-syncedTabsInteractor
 )
 newTabButtonBinding
 .
@@ -664,7 +635,6 @@ tabsTrayStore
 settings
 newTabButton
 browserTrayInteractor
-syncedTabsInteractor
 )
 newTabButtonBinding
 .
@@ -724,7 +694,6 @@ tabsTrayStore
 settings
 newTabButton
 browserTrayInteractor
-syncedTabsInteractor
 )
 every
 {
