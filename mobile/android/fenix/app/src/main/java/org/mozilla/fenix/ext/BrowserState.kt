@@ -525,8 +525,17 @@ toSearchGroup
 )
 .
 lastOrNull
+{
+it
+.
+tabs
+.
+count
 (
 )
+>
+1
+}
 ?
 :
 return
