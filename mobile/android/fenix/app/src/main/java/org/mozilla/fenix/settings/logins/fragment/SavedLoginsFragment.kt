@@ -905,6 +905,16 @@ menuController
 dismiss
 (
 )
+sortLoginsMenuRoot
+.
+setOnClickListener
+(
+null
+)
+setHasOptionsMenu
+(
+false
+)
 redirectToReAuth
 (
 listOf
