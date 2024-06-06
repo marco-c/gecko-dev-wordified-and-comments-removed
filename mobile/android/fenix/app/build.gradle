@@ -637,6 +637,14 @@ mozilla_support_ktx
 implementation
 Deps
 .
+mozilla_ui_colors
+implementation
+Deps
+.
+mozilla_ui_icons
+implementation
+Deps
+.
 mozilla_lib_crash
 testImplementation
 Deps
