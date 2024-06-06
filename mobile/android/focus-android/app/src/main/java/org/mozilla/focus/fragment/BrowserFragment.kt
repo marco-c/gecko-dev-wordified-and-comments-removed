@@ -425,6 +425,18 @@ mozilla
 .
 components
 .
+browser
+.
+state
+.
+state
+.
+SessionState
+import
+mozilla
+.
+components
+.
 concept
 .
 engine
@@ -6024,7 +6036,7 @@ session
 source
 =
 =
-Session
+SessionState
 .
 Source
 .
@@ -7056,7 +7068,7 @@ SupportUtils
 HELP_URL
 source
 =
-Session
+SessionState
 .
 Source
 .
@@ -7106,7 +7118,7 @@ Session
 url
 source
 =
-Session
+SessionState
 .
 Source
 .
@@ -7206,7 +7218,7 @@ Session
 reportUrl
 source
 =
-Session
+SessionState
 .
 Source
 .

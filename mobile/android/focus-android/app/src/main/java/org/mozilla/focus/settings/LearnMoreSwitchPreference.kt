@@ -79,6 +79,18 @@ session
 .
 Session
 import
+mozilla
+.
+components
+.
+browser
+.
+state
+.
+state
+.
+SessionState
+import
 org
 .
 mozilla
@@ -280,7 +292,7 @@ getLearnMoreUrl
 )
 source
 =
-Session
+SessionState
 .
 Source
 .

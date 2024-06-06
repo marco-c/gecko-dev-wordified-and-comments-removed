@@ -125,6 +125,18 @@ mozilla
 .
 components
 .
+browser
+.
+state
+.
+state
+.
+SessionState
+import
+mozilla
+.
+components
+.
 lib
 .
 crash
@@ -1577,7 +1589,7 @@ currentSession
 source
 =
 =
-Session
+SessionState
 .
 Source
 .
@@ -1589,7 +1601,7 @@ currentSession
 source
 =
 =
-Session
+SessionState
 .
 Source
 .

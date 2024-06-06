@@ -73,6 +73,18 @@ session
 .
 Session
 import
+mozilla
+.
+components
+.
+browser
+.
+state
+.
+state
+.
+SessionState
+import
 org
 .
 mozilla
@@ -626,7 +638,7 @@ SupportUtils
 DEFAULT_BROWSER_URL
 source
 =
-Session
+SessionState
 .
 Source
 .

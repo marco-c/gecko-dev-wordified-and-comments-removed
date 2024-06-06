@@ -113,6 +113,18 @@ mozilla
 .
 components
 .
+browser
+.
+state
+.
+state
+.
+SessionState
+import
+mozilla
+.
+components
+.
 feature
 .
 customtabs
@@ -556,7 +568,7 @@ false
 )
 createSession
 (
-Session
+SessionState
 .
 Source
 .
@@ -585,7 +597,7 @@ EXTRA_TEXT_SELECTION
 >
 createSession
 (
-Session
+SessionState
 .
 Source
 .
@@ -604,7 +616,7 @@ else
 >
 createSession
 (
-Session
+SessionState
 .
 Source
 .
@@ -686,7 +698,7 @@ bestURL
 {
 createSession
 (
-Session
+SessionState
 .
 Source
 .
@@ -702,7 +714,7 @@ else
 {
 createSearchSession
 (
-Session
+SessionState
 .
 Source
 .
@@ -726,7 +738,7 @@ else
 {
 createSession
 (
-Session
+SessionState
 .
 Source
 .
@@ -752,7 +764,7 @@ createSession
 (
 source
 :
-Session
+SessionState
 .
 Source
 url
@@ -790,7 +802,7 @@ createSearchSession
 (
 source
 :
-Session
+SessionState
 .
 Source
 url
@@ -836,7 +848,7 @@ createSession
 (
 source
 :
-Session
+SessionState
 .
 Source
 intent
@@ -865,7 +877,7 @@ Session
 url
 source
 =
-Session
+SessionState
 .
 Source
 .
@@ -926,7 +938,7 @@ createSession
 (
 source
 :
-Session
+SessionState
 .
 Source
 intent
@@ -961,7 +973,7 @@ Session
 url
 source
 =
-Session
+SessionState
 .
 Source
 .

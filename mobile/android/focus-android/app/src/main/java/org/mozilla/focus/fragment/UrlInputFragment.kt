@@ -313,6 +313,18 @@ mozilla
 .
 components
 .
+browser
+.
+state
+.
+state
+.
+SessionState
+import
+mozilla
+.
+components
+.
 support
 .
 utils
@@ -2370,7 +2382,7 @@ Session
 url
 source
 =
-Session
+SessionState
 .
 Source
 .
@@ -2422,7 +2434,7 @@ SupportUtils
 HELP_URL
 source
 =
-Session
+SessionState
 .
 Source
 .
@@ -4437,7 +4449,7 @@ Session
 url
 source
 =
-Session
+SessionState
 .
 Source
 .

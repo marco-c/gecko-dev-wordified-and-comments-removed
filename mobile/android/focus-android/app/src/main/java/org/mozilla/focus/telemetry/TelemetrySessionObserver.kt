@@ -96,6 +96,18 @@ state
 state
 .
 CustomTabConfig
+import
+mozilla
+.
+components
+.
+browser
+.
+state
+.
+state
+.
+SessionState
 class
 TelemetrySessionObserver
 :
@@ -119,7 +131,7 @@ session
 source
 )
 {
-Session
+SessionState
 .
 Source
 .
@@ -131,7 +143,7 @@ TelemetryWrapper
 browseIntentEvent
 (
 )
-Session
+SessionState
 .
 Source
 .
@@ -150,7 +162,7 @@ isNotEmpty
 (
 )
 )
-Session
+SessionState
 .
 Source
 .
@@ -162,7 +174,7 @@ TelemetryWrapper
 textSelectionIntentEvent
 (
 )
-Session
+SessionState
 .
 Source
 .
@@ -174,7 +186,7 @@ TelemetryWrapper
 openHomescreenShortcutEvent
 (
 )
-Session
+SessionState
 .
 Source
 .

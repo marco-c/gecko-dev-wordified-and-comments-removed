@@ -93,6 +93,18 @@ session
 .
 Session
 import
+mozilla
+.
+components
+.
+browser
+.
+state
+.
+state
+.
+SessionState
+import
 org
 .
 mozilla
@@ -445,7 +457,7 @@ SupportUtils
 HELP_URL
 source
 =
-Session
+SessionState
 .
 Source
 .
@@ -535,7 +547,7 @@ Session
 url
 source
 =
-Session
+SessionState
 .
 Source
 .

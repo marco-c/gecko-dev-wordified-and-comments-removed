@@ -105,6 +105,18 @@ session
 .
 Session
 import
+mozilla
+.
+components
+.
+browser
+.
+state
+.
+state
+.
+SessionState
+import
 org
 .
 mozilla
@@ -436,7 +448,7 @@ Session
 url
 source
 =
-Session
+SessionState
 .
 Source
 .
@@ -629,7 +641,7 @@ Session
 homescreenURL
 source
 =
-Session
+SessionState
 .
 Source
 .
@@ -922,7 +934,7 @@ Session
 autocompleteURL
 source
 =
-Session
+SessionState
 .
 Source
 .
@@ -1042,7 +1054,7 @@ Session
 newTabURL
 source
 =
-Session
+SessionState
 .
 Source
 .
@@ -1162,7 +1174,7 @@ Session
 requestDesktopURL
 source
 =
-Session
+SessionState
 .
 Source
 .

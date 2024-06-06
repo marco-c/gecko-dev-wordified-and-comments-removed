@@ -271,6 +271,18 @@ session
 .
 Session
 import
+mozilla
+.
+components
+.
+browser
+.
+state
+.
+state
+.
+SessionState
+import
 org
 .
 mozilla
@@ -933,7 +945,7 @@ Session
 url
 source
 =
-Session
+SessionState
 .
 Source
 .

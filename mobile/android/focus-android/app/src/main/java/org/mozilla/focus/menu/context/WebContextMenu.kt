@@ -167,6 +167,18 @@ session
 .
 Session
 import
+mozilla
+.
+components
+.
+browser
+.
+state
+.
+state
+.
+SessionState
+import
 org
 .
 mozilla
@@ -1158,7 +1170,7 @@ hitTarget
 linkURL
 source
 =
-Session
+SessionState
 .
 Source
 .
@@ -1239,7 +1251,7 @@ hitTarget
 linkURL
 source
 =
-Session
+SessionState
 .
 Source
 .
