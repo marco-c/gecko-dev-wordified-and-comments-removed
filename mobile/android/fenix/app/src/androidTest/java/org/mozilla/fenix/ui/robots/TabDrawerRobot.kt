@@ -1130,13 +1130,7 @@ UiSelector
 resourceId
 (
 "
-org
-.
-mozilla
-.
-fenix
-.
-debug
+packageName
 :
 id
 /

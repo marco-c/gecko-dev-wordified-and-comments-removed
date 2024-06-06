@@ -1228,13 +1228,7 @@ By
 res
 (
 "
-org
-.
-mozilla
-.
-fenix
-.
-debug
+packageName
 :
 id
 /
