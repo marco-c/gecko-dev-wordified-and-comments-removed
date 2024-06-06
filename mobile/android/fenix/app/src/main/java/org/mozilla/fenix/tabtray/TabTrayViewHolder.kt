@@ -1418,12 +1418,11 @@ take
 MAX_URI_LENGTH
 )
 }
-VisibleForTesting
-internal
+override
 fun
 updateSelectedTabIndicator
 (
-isSelected
+showAsSelected
 :
 Boolean
 )
@@ -1449,7 +1448,7 @@ background
 =
 if
 (
-isSelected
+showAsSelected
 )
 {
 AppCompatResources
@@ -1477,7 +1476,7 @@ color
 =
 if
 (
-isSelected
+showAsSelected
 )
 {
 R
