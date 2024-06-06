@@ -358,22 +358,28 @@ success_values
 {
             
 "
-RELEASE_VERSION
-"
-:
-release_version
-            
-"
 RELEASE_TYPE
 "
 :
 release_type
             
 "
+RELEASE_VERSION
+"
+:
+release_version
+            
+"
 SHIPPING_PRODUCT
 "
 :
 shipping_product
+            
+"
+TESTRAIL_PROJECT_ID
+"
+:
+testrail_project_id
             
 "
 TESTRAIL_PRODUCT_TYPE
