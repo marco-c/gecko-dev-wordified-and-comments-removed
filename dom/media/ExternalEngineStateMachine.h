@@ -724,7 +724,7 @@ StateObject
 :
 mData
 (
-InitEngine
+ReadingMetadata
 (
 )
 )
@@ -733,7 +733,7 @@ mName
 State
 :
 :
-InitEngine
+ReadingMetadata
 )
 {
 }
@@ -741,7 +741,7 @@ InitEngine
 explicit
 StateObject
 (
-ReadingMetadata
+InitEngine
 &
 &
 aArg
@@ -762,7 +762,7 @@ mName
 State
 :
 :
-ReadingMetadata
+InitEngine
 )
 {
 }
@@ -1541,12 +1541,6 @@ SetCDMPromise
 >
 mSetCDMProxyRequest
 ;
-MozPromiseRequestHolder
-<
-GenericNonExclusivePromise
->
-mInitEngineForCDMRequest
-;
 gfx
 :
 :
@@ -1623,6 +1617,15 @@ Shutdown
 virtual
 uint64_t
 Id
+(
+)
+const
+=
+0
+;
+virtual
+bool
+IsInited
 (
 )
 const
