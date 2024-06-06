@@ -5364,9 +5364,8 @@ name
 mozac_ui_icons_fill
 "
 >
-color
-/
-primary_text_light_theme
+?
+primaryText
 <
 /
 color
