@@ -3505,6 +3505,14 @@ detekt
 linter
 '
 '
+ktlint
+'
+:
+'
+ktlint
+linter
+'
+'
 focus
 '
 :
@@ -5196,11 +5204,6 @@ browser
 -
 system
 '
-#
-ktlint
-:
-ktlint
-linter
 #
 lint
 :
