@@ -107,7 +107,7 @@ components
 .
 browser
 .
-session
+state
 .
 engine
 .
@@ -557,11 +557,6 @@ engine
 mockk
 (
 )
-sessionLookup
-=
-{
-null
-}
 )
 initialState
 =
@@ -2848,7 +2843,7 @@ EngineAction
 .
 LinkEngineSessionAction
 (
-sessionId
+tabId
 =
 "
 foreground
@@ -3043,7 +3038,7 @@ EngineAction
 .
 LinkEngineSessionAction
 (
-sessionId
+tabId
 =
 "
 background_pocket

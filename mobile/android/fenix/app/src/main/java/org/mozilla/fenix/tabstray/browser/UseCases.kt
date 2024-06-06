@@ -186,7 +186,7 @@ override
 fun
 invoke
 (
-sessionId
+tabId
 :
 String
 )
@@ -201,7 +201,7 @@ ClosedExistingTab
 )
 onRemove
 (
-sessionId
+tabId
 )
 }
 }

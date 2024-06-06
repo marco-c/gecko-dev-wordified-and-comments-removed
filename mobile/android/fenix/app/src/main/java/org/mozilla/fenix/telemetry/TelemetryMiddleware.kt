@@ -804,7 +804,7 @@ findTabOrCustomTab
 (
 action
 .
-sessionId
+tabId
 )
 onEngineSessionKilled
 (

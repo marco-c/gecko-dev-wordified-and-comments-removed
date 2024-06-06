@@ -89,7 +89,7 @@ feature
 .
 tabs
 .
-TabsUseCases
+CustomTabsUseCases
 import
 mozilla
 .
@@ -456,9 +456,7 @@ FennecWebAppIntentProcessor
 val
 useCase
 :
-TabsUseCases
-.
-AddNewTabUseCase
+CustomTabsUseCases
 =
 mockk
 (

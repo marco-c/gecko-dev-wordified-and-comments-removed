@@ -77,16 +77,6 @@ components
 .
 browser
 .
-session
-.
-SessionManager
-import
-mozilla
-.
-components
-.
-browser
-.
 state
 .
 store
@@ -341,11 +331,6 @@ engine
 Engine
 private
 val
-sessionManager
-:
-SessionManager
-private
-val
 store
 :
 BrowserStore
@@ -392,7 +377,6 @@ lazyMonitored
 SessionUseCases
 (
 store
-sessionManager
 )
 }
 /
@@ -418,7 +402,6 @@ lazyMonitored
 TabsUseCases
 (
 store
-sessionManager
 )
 }
 /
@@ -443,7 +426,7 @@ lazyMonitored
 {
 CustomTabsUseCases
 (
-sessionManager
+store
 sessionUseCases
 .
 loadUrl

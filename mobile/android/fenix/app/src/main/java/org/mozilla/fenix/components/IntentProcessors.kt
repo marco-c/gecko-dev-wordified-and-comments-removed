@@ -458,9 +458,9 @@ TrustedWebActivityIntentProcessor
 (
 addNewTabUseCase
 =
-tabsUseCases
+customTabsUseCases
 .
-addTab
+add
 packageManager
 =
 context
@@ -476,9 +476,9 @@ customTabsStore
 WebAppIntentProcessor
 (
 store
-tabsUseCases
+customTabsUseCases
 .
-addTab
+addWebApp
 sessionUseCases
 .
 loadUrl
@@ -487,9 +487,7 @@ manifestStorage
 FennecWebAppIntentProcessor
 (
 context
-tabsUseCases
-.
-addTab
+customTabsUseCases
 manifestStorage
 )
 )

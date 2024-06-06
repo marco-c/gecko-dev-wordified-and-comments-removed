@@ -580,7 +580,7 @@ Fact
 (
 Component
 .
-BROWSER_SESSION
+BROWSER_STATE
 action
 item
 )

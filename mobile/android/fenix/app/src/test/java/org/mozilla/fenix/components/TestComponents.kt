@@ -187,9 +187,6 @@ core
 engine
 core
 .
-sessionManager
-core
-.
 store
 core
 .
