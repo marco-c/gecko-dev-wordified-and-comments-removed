@@ -45,13 +45,6 @@ android
 SwitchPreference
 android
 :
-defaultValue
-=
-"
-false
-"
-android
-:
 key
 =
 "
