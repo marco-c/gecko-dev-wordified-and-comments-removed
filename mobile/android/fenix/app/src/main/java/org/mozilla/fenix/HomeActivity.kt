@@ -848,6 +848,9 @@ syncNowAsync
 startup
 =
 true
+debounce
+=
+true
 )
 it
 .
