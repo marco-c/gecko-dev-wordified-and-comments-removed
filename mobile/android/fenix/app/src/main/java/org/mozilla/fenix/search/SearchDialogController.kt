@@ -584,6 +584,15 @@ clearToolbar
 -
 >
 Unit
+private
+val
+dismissDialogAndGoBack
+:
+(
+)
+-
+>
+Unit
 )
 :
 SearchController
@@ -944,6 +953,9 @@ handleEditingCancelled
 )
 {
 clearToolbarFocus
+(
+)
+dismissDialogAndGoBack
 (
 )
 }
