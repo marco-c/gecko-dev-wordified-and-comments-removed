@@ -569,7 +569,7 @@ queue
 :
 method
 :
-rebase
+squash
 name
 :
 default
