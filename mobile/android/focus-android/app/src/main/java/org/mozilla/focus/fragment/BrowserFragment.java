@@ -692,7 +692,7 @@ focus
 .
 web
 .
-HttpAuthenticationDialogBuilder
+IWebView
 ;
 import
 org
@@ -703,7 +703,7 @@ focus
 .
 web
 .
-IWebView
+HttpAuthenticationDialogBuilder
 ;
 import
 org
