@@ -685,16 +685,6 @@ mozilla
 .
 focus
 .
-notification
-.
-PrivateNotificationMiddleware
-import
-org
-.
-mozilla
-.
-focus
-.
 search
 .
 SearchFilterMiddleware
@@ -1148,10 +1138,6 @@ middleware
 =
 listOf
 (
-PrivateNotificationMiddleware
-(
-context
-)
 TelemetryMiddleware
 (
 )
