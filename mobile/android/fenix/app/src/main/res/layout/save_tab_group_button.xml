@@ -270,6 +270,15 @@ iconPadding
 "
 app
 :
+fontFamily
+=
+"
+font
+/
+metropolis_medium
+"
+app
+:
 iconTint
 =
 "

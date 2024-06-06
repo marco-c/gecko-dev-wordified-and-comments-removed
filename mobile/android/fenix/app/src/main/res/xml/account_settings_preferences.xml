@@ -204,6 +204,15 @@ string
 /
 preferences_sync_category
 "
+android
+:
+layout
+=
+"
+layout
+/
+preference_cat_style
+"
 >
 <
 androidx

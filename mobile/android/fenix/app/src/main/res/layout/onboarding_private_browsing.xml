@@ -633,6 +633,15 @@ textSize
 "
 14sp
 "
+app
+:
+fontFamily
+=
+"
+font
+/
+metropolis_regular
+"
 /
 >
 <

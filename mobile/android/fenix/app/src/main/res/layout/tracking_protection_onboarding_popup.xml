@@ -475,6 +475,15 @@ layout_constraintTop_toTopOf
 "
 parent
 "
+app
+:
+fontFamily
+=
+"
+font
+/
+metropolis_medium
+"
 /
 >
 <
