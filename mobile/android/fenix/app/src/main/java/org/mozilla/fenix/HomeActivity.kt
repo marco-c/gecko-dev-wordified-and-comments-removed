@@ -1292,7 +1292,6 @@ NavGraphDirections
 actionGlobalSearch
 (
 null
-true
 )
 )
 return
