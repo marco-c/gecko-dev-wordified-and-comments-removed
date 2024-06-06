@@ -541,6 +541,7 @@ TrackingProtectionStore
 (
 TrackingProtectionState
 (
+session
 url
 trackingProtectionEnabled
 session
