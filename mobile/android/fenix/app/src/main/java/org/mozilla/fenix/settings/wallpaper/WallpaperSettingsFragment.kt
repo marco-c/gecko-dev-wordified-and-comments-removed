@@ -346,12 +346,12 @@ loadWallpaperResource
 {
 wallpaperManager
 .
-loadWallpaperFromAssets
+loadSavedWallpaper
 (
-it
 requireContext
 (
 )
+it
 )
 }
 selectedWallpaper

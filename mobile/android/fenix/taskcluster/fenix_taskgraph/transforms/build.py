@@ -343,6 +343,16 @@ nimbus_url
 nimbus
 '
 )
+                
+(
+'
+wallpaper_url
+'
+"
+.
+wallpaper_url
+"
+)
             
 )
 ]

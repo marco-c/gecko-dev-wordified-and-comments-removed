@@ -323,13 +323,13 @@ firefox
 >
 WallpaperThemeCollection
 .
-Firefox
+FIREFOX
 else
 -
 >
 WallpaperThemeCollection
 .
-None
+NONE
 }
 }
 .
@@ -337,7 +337,7 @@ getOrDefault
 (
 WallpaperThemeCollection
 .
-None
+NONE
 )
 )
 }

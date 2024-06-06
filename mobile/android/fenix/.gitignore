@@ -296,6 +296,8 @@ sentry_token
 mls_token
 .
 nimbus
+.
+wallpaper_url
 #
 Python
 Byte

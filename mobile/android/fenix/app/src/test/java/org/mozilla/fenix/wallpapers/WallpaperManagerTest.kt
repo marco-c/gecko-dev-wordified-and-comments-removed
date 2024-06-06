@@ -186,6 +186,12 @@ WallpaperManager
 (
 mockSettings
 mockStorage
+mockk
+(
+)
+mockk
+(
+)
 )
 wallpaperManager
 .
