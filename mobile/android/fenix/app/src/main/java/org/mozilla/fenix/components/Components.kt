@@ -507,6 +507,9 @@ useCases
 tabsUseCases
 useCases
 .
+customTabsUseCases
+useCases
+.
 searchUseCases
 core
 .

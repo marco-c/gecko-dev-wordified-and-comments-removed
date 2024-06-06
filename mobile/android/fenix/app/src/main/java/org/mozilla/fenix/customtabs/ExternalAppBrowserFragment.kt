@@ -569,6 +569,13 @@ requireComponents
 core
 .
 store
+useCases
+=
+requireComponents
+.
+useCases
+.
+customTabsUseCases
 toolbar
 =
 toolbar
