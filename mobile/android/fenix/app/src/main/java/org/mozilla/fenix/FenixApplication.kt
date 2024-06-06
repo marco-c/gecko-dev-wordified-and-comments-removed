@@ -1946,13 +1946,6 @@ session
 Session
 (
 url
-components
-.
-browsingModeManager
-.
-mode
-.
-isPrivate
 )
 components
 .

@@ -321,6 +321,14 @@ mozilla
 .
 fenix
 .
+HomeActivity
+import
+org
+.
+mozilla
+.
+fenix
+.
 R
 import
 org
@@ -585,7 +593,11 @@ it
 }
 isPrivate
 =
-requireComponents
+(
+activity
+as
+HomeActivity
+)
 .
 browsingModeManager
 .

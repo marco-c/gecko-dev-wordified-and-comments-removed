@@ -745,9 +745,7 @@ normal
 mode
 every
 {
-context
-.
-components
+homeActivity
 .
 browsingModeManager
 .
@@ -768,9 +766,7 @@ assertEquals
 BrowsingMode
 .
 Normal
-context
-.
-components
+homeActivity
 .
 browsingModeManager
 .
@@ -789,9 +785,7 @@ private
 mode
 every
 {
-context
-.
-components
+homeActivity
 .
 browsingModeManager
 .
@@ -812,9 +806,7 @@ assertEquals
 BrowsingMode
 .
 Private
-context
-.
-components
+homeActivity
 .
 browsingModeManager
 .
@@ -1177,6 +1169,8 @@ invokePendingDeletion
 invoke
 (
 )
+homeActivity
+.
 browsingModeManager
 .
 mode
@@ -1232,6 +1226,8 @@ invokePendingDeletion
 invoke
 (
 )
+homeActivity
+.
 browsingModeManager
 .
 mode
