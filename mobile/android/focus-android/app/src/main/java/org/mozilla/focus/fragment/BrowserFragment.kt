@@ -4031,6 +4031,11 @@ multiTabsFeature
 value
 (
 )
+multiTabsFeature
+.
+recordExposure
+(
+)
 if
 (
 multiTabsConfig
@@ -4038,11 +4043,6 @@ multiTabsConfig
 isMultiTab
 )
 {
-multiTabsFeature
-.
-recordExposure
-(
-)
 requireComponents
 .
 customTabsUseCases
