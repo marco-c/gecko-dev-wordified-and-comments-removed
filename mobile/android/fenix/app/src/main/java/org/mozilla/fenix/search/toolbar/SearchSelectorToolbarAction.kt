@@ -431,8 +431,9 @@ forceOrientation
 true
 )
 }
-setTopMargin
-(
+val
+topPadding
+=
 resources
 .
 getDimensionPixelSize
@@ -443,6 +444,12 @@ dimen
 .
 search_engine_engine_icon_top_margin
 )
+setPadding
+(
+0
+topPadding
+0
+0
 )
 setBackgroundResource
 (
