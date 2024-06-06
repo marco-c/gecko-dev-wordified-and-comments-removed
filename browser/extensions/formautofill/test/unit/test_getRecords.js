@@ -519,7 +519,7 @@ expectedResult
 await
 FormAutofillParent
 .
-_getRecords
+getRecords
 (
 {
 collectionName
@@ -639,9 +639,6 @@ collectionName
 "
 addresses
 "
-info
-:
-{
 fieldName
 :
 "
@@ -649,7 +646,6 @@ street
 -
 address
 "
-}
 searchString
 :
 "
@@ -683,15 +679,11 @@ collectionName
 "
 addresses
 "
-info
-:
-{
 fieldName
 :
 "
 country
 "
-}
 searchString
 :
 "
@@ -727,9 +719,6 @@ collectionName
 "
 addresses
 "
-info
-:
-{
 fieldName
 :
 "
@@ -737,7 +726,6 @@ street
 -
 address
 "
-}
 searchString
 :
 "
@@ -768,9 +756,6 @@ collectionName
 "
 addresses
 "
-info
-:
-{
 fieldName
 :
 "
@@ -778,7 +763,6 @@ street
 -
 address
 "
-}
 searchString
 :
 "
@@ -815,9 +799,6 @@ collectionName
 "
 addresses
 "
-info
-:
-{
 fieldName
 :
 "
@@ -825,7 +806,6 @@ street
 -
 address
 "
-}
 searchString
 :
 "
@@ -861,15 +841,11 @@ collectionName
 "
 addresses
 "
-info
-:
-{
 fieldName
 :
 "
 tel
 "
-}
 searchString
 :
 "
@@ -910,7 +886,7 @@ result
 await
 FormAutofillParent
 .
-_getRecords
+getRecords
 (
 testCase
 .
@@ -1117,9 +1093,6 @@ collectionName
 "
 creditCards
 "
-info
-:
-{
 fieldName
 :
 "
@@ -1127,7 +1100,6 @@ cc
 -
 name
 "
-}
 searchString
 :
 "
@@ -1160,9 +1132,6 @@ collectionName
 "
 creditCards
 "
-info
-:
-{
 fieldName
 :
 "
@@ -1170,7 +1139,6 @@ cc
 -
 name
 "
-}
 searchString
 :
 "
@@ -1216,9 +1184,6 @@ collectionName
 "
 creditCards
 "
-info
-:
-{
 fieldName
 :
 "
@@ -1226,7 +1191,6 @@ cc
 -
 number
 "
-}
 searchString
 :
 "
@@ -1258,9 +1222,6 @@ collectionName
 "
 creditCards
 "
-info
-:
-{
 fieldName
 :
 "
@@ -1268,7 +1229,6 @@ cc
 -
 name
 "
-}
 searchString
 :
 "
@@ -1311,9 +1271,6 @@ collectionName
 "
 creditCards
 "
-info
-:
-{
 fieldName
 :
 "
@@ -1321,7 +1278,6 @@ cc
 -
 number
 "
-}
 searchString
 :
 "
@@ -1421,7 +1377,7 @@ result
 await
 FormAutofillParent
 .
-_getRecords
+getRecords
 (
 testCase
 .
