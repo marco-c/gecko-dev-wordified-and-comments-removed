@@ -490,6 +490,12 @@ processDisplayedMessage
 (
 message
 )
+controller
+.
+onMessageDisplayed
+(
+updated
+)
 assertNotNull
 (
 Messaging
@@ -634,6 +640,12 @@ controller
 processDisplayedMessage
 (
 message
+)
+controller
+.
+onMessageDisplayed
+(
+updated
 )
 assertNotNull
 (

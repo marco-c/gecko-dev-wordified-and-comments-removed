@@ -489,10 +489,6 @@ context
 AppStoreMiddlewareContext
 )
 {
-coroutineScope
-.
-launch
-{
 val
 newMessage
 =
@@ -541,6 +537,16 @@ UpdateMessages
 (
 newMessages
 )
+)
+coroutineScope
+.
+launch
+{
+controller
+.
+onMessageDisplayed
+(
+newMessage
 )
 }
 }
