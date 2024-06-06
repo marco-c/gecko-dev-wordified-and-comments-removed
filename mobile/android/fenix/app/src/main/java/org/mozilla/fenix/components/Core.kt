@@ -1176,6 +1176,16 @@ sessionManager
 )
 }
 val
+topSiteStorage
+by
+lazy
+{
+TopSiteStorage
+(
+context
+)
+}
+val
 permissionStorage
 by
 lazy
