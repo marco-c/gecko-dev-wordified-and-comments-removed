@@ -1586,6 +1586,12 @@ tabsTrayInteractor
 :
 :
 onAddSelectedTabsToCollectionClicked
+onShareSelectedTabsClick
+=
+tabsTrayInteractor
+:
+:
+onShareSelectedTabs
 )
 }
 }
