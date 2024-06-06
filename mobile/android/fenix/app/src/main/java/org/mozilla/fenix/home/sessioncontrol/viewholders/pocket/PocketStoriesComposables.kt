@@ -1288,7 +1288,12 @@ StaggeredHorizontalGrid
 (
 horizontalItemsSpacing
 =
-8
+16
+.
+dp
+verticalItemsSpacing
+=
+16
 .
 dp
 )
