@@ -207,6 +207,10 @@ comGoogleFirebase
 includeGroupByRegex
 RepoMatching
 .
+comGoogleTesting
+includeGroupByRegex
+RepoMatching
+.
 comAndroid
 }
 }
