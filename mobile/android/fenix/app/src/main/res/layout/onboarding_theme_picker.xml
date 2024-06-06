@@ -490,7 +490,7 @@ onboarding_dual_pane_radio_button_translation_y
 "
 app
 :
-layout_constraintStart_toStartOf
+layout_constraintLeft_toLeftOf
 =
 "
 +
@@ -566,7 +566,7 @@ background
 "
 drawable
 /
-ic_onboarding_light_theme
+onboarding_light_theme
 "
 android
 :
@@ -694,7 +694,7 @@ onboarding_dual_pane_radio_button_translation_y
 "
 app
 :
-layout_constraintStart_toStartOf
+layout_constraintLeft_toLeftOf
 =
 "
 +
@@ -777,7 +777,7 @@ background
 "
 drawable
 /
-ic_onboarding_dark_theme
+onboarding_dark_theme
 "
 android
 :
