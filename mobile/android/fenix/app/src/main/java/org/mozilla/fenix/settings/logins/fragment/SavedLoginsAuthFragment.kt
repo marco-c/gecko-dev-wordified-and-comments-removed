@@ -1068,6 +1068,12 @@ updateSyncPreferenceNeedsLogin
 (
 )
 }
+togglePrefsEnabledWhileAuthenticating
+(
+enabled
+=
+true
+)
 }
 override
 fun
