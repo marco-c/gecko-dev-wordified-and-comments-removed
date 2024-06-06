@@ -247,7 +247,7 @@ focus
 .
 theme
 .
-ThemeManager
+resolveAttribute
 /
 *
 *
@@ -274,7 +274,7 @@ etc
 *
 /
 class
-MvpDefaultBrowserMenu
+DefaultBrowserMenu
 (
 private
 val
@@ -373,7 +373,9 @@ content_description_back
 )
 primaryImageTintResource
 =
-ThemeManager
+context
+.
+theme
 .
 resolveAttribute
 (
@@ -382,7 +384,6 @@ R
 attr
 .
 primaryText
-context
 )
 isInPrimaryState
 =
@@ -400,7 +401,9 @@ true
 }
 secondaryImageTintResource
 =
-ThemeManager
+context
+.
+theme
 .
 resolveAttribute
 (
@@ -409,7 +412,6 @@ R
 attr
 .
 disabled
-context
 )
 disableInSecondaryState
 =
@@ -469,7 +471,9 @@ content_description_forward
 )
 primaryImageTintResource
 =
-ThemeManager
+context
+.
+theme
 .
 resolveAttribute
 (
@@ -478,7 +482,6 @@ R
 attr
 .
 primaryText
-context
 )
 isInPrimaryState
 =
@@ -496,7 +499,9 @@ true
 }
 secondaryImageTintResource
 =
-ThemeManager
+context
+.
+theme
 .
 resolveAttribute
 (
@@ -505,7 +510,6 @@ R
 attr
 .
 disabled
-context
 )
 disableInSecondaryState
 =
@@ -565,7 +569,9 @@ content_description_reload
 )
 primaryImageTintResource
 =
-ThemeManager
+context
+.
+theme
 .
 resolveAttribute
 (
@@ -574,7 +580,6 @@ R
 attr
 .
 primaryText
-context
 )
 isInPrimaryState
 =
@@ -611,7 +616,9 @@ content_description_stop
 )
 secondaryImageTintResource
 =
-ThemeManager
+context
+.
+theme
 .
 resolveAttribute
 (
@@ -620,7 +627,6 @@ R
 attr
 .
 primaryText
-context
 )
 disableInSecondaryState
 =
@@ -637,11 +643,6 @@ ToolbarMenu
 Item
 .
 Reload
-(
-bypassCache
-=
-true
-)
 )
 }
 )
@@ -682,11 +683,6 @@ ToolbarMenu
 Item
 .
 Reload
-(
-bypassCache
-=
-false
-)
 )
 }
 }
@@ -703,7 +699,7 @@ R
 .
 drawable
 .
-ic_mvp_share
+ic_share2
 contentDescription
 =
 context
@@ -853,7 +849,9 @@ WebCompatReporterFeature
 WEBCOMPAT_REPORTER_EXTENSION_ID
 iconTintColorResource
 =
-ThemeManager
+context
+.
+theme
 .
 resolveAttribute
 (
@@ -862,7 +860,6 @@ R
 attr
 .
 primaryText
-context
 )
 )
 val
@@ -928,7 +925,9 @@ drawable
 ic_help
 textColorResource
 =
-ThemeManager
+context
+.
+theme
 .
 resolveAttribute
 (
@@ -937,7 +936,6 @@ R
 attr
 .
 primaryText
-context
 )
 highlight
 =
@@ -998,10 +996,12 @@ R
 .
 drawable
 .
-ic_mvp_settings
+ic_settings2
 textColorResource
 =
-ThemeManager
+context
+.
+theme
 .
 resolveAttribute
 (
@@ -1010,7 +1010,6 @@ R
 attr
 .
 primaryText
-context
 )
 highlight
 =
