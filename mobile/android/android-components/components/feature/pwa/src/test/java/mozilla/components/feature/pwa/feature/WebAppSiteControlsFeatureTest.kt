@@ -303,6 +303,11 @@ id
 mock
 (
 )
+notificationsDelegate
+=
+mock
+(
+)
 )
 feature
 .
@@ -373,6 +378,11 @@ session
 -
 id
 "
+mock
+(
+)
+notificationsDelegate
+=
 mock
 (
 )
@@ -465,6 +475,11 @@ session
 -
 id
 "
+mock
+(
+)
+notificationsDelegate
+=
 mock
 (
 )
@@ -721,6 +736,11 @@ manifest
 icons
 =
 icons
+notificationsDelegate
+=
+mock
+(
+)
 )
 feature
 .

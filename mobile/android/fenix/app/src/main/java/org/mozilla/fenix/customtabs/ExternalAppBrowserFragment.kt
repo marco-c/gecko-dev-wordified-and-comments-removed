@@ -898,6 +898,11 @@ reload
 customTabSessionId
 manifest
 )
+notificationsDelegate
+=
+requireComponents
+.
+notificationsDelegate
 )
 )
 }

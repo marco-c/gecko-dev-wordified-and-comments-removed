@@ -552,6 +552,11 @@ icons
 components
 .
 icons
+notificationsDelegate
+=
+components
+.
+notificationsDelegate
 )
 )
 }
