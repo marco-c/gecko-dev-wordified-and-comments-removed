@@ -58,6 +58,7 @@ name
 mozac_browser_menu_button
 "
 >
+Men
 <
 /
 string
@@ -96,6 +97,8 @@ name
 mozac_browser_menu_highlighted
 "
 >
+Evidenzi
+t
 <
 /
 string
@@ -122,6 +125,9 @@ name
 mozac_browser_menu_addons
 "
 >
+Components
+adizion
+i
 <
 /
 string
@@ -154,6 +160,12 @@ name
 mozac_browser_menu_addons_manager
 "
 >
+Gjest
+r
+comp
+.
+adizion
+i
 <
 /
 string
