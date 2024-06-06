@@ -590,6 +590,11 @@ Engine
 BrowsingData
 .
 COOKIES
+Engine
+.
+BrowsingData
+.
+AUTH_SESSIONS
 )
 )
 }
