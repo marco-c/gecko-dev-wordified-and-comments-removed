@@ -466,13 +466,13 @@ was
 recorded
 Assert
 .
-assertTrue
+assertNotNull
 (
 Onboarding
 .
 fxaManualSignin
 .
-testHasValue
+testGetValue
 (
 )
 )
@@ -486,6 +486,8 @@ fxaManualSignin
 testGetValue
 (
 )
+!
+!
 .
 size
 )
@@ -500,6 +502,8 @@ fxaManualSignin
 testGetValue
 (
 )
+!
+!
 .
 single
 (

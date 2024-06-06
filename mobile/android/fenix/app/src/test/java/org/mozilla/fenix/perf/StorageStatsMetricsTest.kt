@@ -155,7 +155,7 @@ junit
 .
 Assert
 .
-assertTrue
+assertNotNull
 import
 org
 .
@@ -333,6 +333,8 @@ appBytes
 testGetValue
 (
 )
+!
+!
 .
 sum
 )
@@ -346,6 +348,8 @@ cacheBytes
 testGetValue
 (
 )
+!
+!
 .
 sum
 )
@@ -359,6 +363,8 @@ dataDirBytes
 testGetValue
 (
 )
+!
+!
 .
 sum
 )
@@ -382,13 +388,13 @@ reportSync
 (
 mockContext
 )
-assertTrue
+assertNotNull
 (
 Metrics
 .
 queryStatsDuration
 .
-testHasValue
+testGetValue
 (
 )
 )

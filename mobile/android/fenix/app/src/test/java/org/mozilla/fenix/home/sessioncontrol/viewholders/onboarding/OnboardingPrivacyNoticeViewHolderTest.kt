@@ -139,7 +139,7 @@ junit
 .
 Assert
 .
-assertNull
+assertNotNull
 import
 org
 .
@@ -147,7 +147,7 @@ junit
 .
 Assert
 .
-assertTrue
+assertNull
 import
 org
 .
@@ -360,13 +360,13 @@ the
 event
 was
 recorded
-assertTrue
+assertNotNull
 (
 Onboarding
 .
 privacyNotice
 .
-testHasValue
+testGetValue
 (
 )
 )
@@ -380,6 +380,8 @@ privacyNotice
 testGetValue
 (
 )
+!
+!
 .
 size
 )
@@ -392,6 +394,8 @@ privacyNotice
 testGetValue
 (
 )
+!
+!
 .
 single
 (

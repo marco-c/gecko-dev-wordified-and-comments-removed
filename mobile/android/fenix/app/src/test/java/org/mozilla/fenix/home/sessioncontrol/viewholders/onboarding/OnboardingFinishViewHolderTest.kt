@@ -131,7 +131,7 @@ junit
 .
 Assert
 .
-assertNull
+assertNotNull
 import
 org
 .
@@ -139,7 +139,7 @@ junit
 .
 Assert
 .
-assertTrue
+assertNull
 import
 org
 .
@@ -332,13 +332,13 @@ the
 event
 was
 recorded
-assertTrue
+assertNotNull
 (
 Onboarding
 .
 finish
 .
-testHasValue
+testGetValue
 (
 )
 )
@@ -352,6 +352,8 @@ finish
 testGetValue
 (
 )
+!
+!
 .
 size
 )
@@ -364,6 +366,8 @@ finish
 testGetValue
 (
 )
+!
+!
 .
 single
 (

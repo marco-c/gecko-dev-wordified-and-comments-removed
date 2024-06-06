@@ -141,7 +141,7 @@ junit
 .
 Assert
 .
-assertTrue
+assertNotNull
 import
 org
 .
@@ -397,13 +397,13 @@ id
 .
 homeFragment
 }
-assertTrue
+assertNotNull
 (
 SearchWidget
 .
 newTabButton
 .
-testHasValue
+testGetValue
 (
 )
 )
@@ -417,6 +417,8 @@ newTabButton
 testGetValue
 (
 )
+!
+!
 assertEquals
 (
 1

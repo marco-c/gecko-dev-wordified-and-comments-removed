@@ -129,7 +129,7 @@ junit
 .
 Assert
 .
-assertFalse
+assertNotNull
 import
 org
 .
@@ -137,7 +137,7 @@ junit
 .
 Assert
 .
-assertTrue
+assertNull
 import
 org
 .
@@ -288,7 +288,7 @@ recorded
 (
 )
 {
-assertFalse
+assertNull
 (
 Metrics
 .
@@ -301,7 +301,7 @@ action
 "
 ]
 .
-testHasValue
+testGetValue
 (
 )
 )
@@ -348,7 +348,7 @@ Source
 .
 ACTION
 )
-assertTrue
+assertNotNull
 (
 Metrics
 .
@@ -361,7 +361,7 @@ action
 "
 ]
 .
-testHasValue
+testGetValue
 (
 )
 )
@@ -388,7 +388,7 @@ recorded
 (
 )
 {
-assertFalse
+assertNull
 (
 Metrics
 .
@@ -401,7 +401,7 @@ shortcut
 "
 ]
 .
-testHasValue
+testGetValue
 (
 )
 )
@@ -448,7 +448,7 @@ Source
 .
 SHORTCUT
 )
-assertTrue
+assertNotNull
 (
 Metrics
 .
@@ -461,7 +461,7 @@ shortcut
 "
 ]
 .
-testHasValue
+testGetValue
 (
 )
 )
@@ -488,7 +488,7 @@ recorded
 (
 )
 {
-assertFalse
+assertNull
 (
 Metrics
 .
@@ -501,7 +501,7 @@ suggestion
 "
 ]
 .
-testHasValue
+testGetValue
 (
 )
 )
@@ -548,7 +548,7 @@ Source
 .
 SUGGESTION
 )
-assertTrue
+assertNotNull
 (
 Metrics
 .
@@ -561,7 +561,7 @@ suggestion
 "
 ]
 .
-testHasValue
+testGetValue
 (
 )
 )
@@ -588,7 +588,7 @@ recorded
 (
 )
 {
-assertFalse
+assertNull
 (
 Metrics
 .
@@ -601,7 +601,7 @@ topsite
 "
 ]
 .
-testHasValue
+testGetValue
 (
 )
 )
@@ -648,7 +648,7 @@ Source
 .
 TOPSITE
 )
-assertTrue
+assertNotNull
 (
 Metrics
 .
@@ -661,7 +661,7 @@ topsite
 "
 ]
 .
-testHasValue
+testGetValue
 (
 )
 )
@@ -688,7 +688,7 @@ recorded
 (
 )
 {
-assertFalse
+assertNull
 (
 Metrics
 .
@@ -701,7 +701,7 @@ widget
 "
 ]
 .
-testHasValue
+testGetValue
 (
 )
 )
@@ -748,7 +748,7 @@ Source
 .
 WIDGET
 )
-assertTrue
+assertNotNull
 (
 Metrics
 .
@@ -761,7 +761,7 @@ widget
 "
 ]
 .
-testHasValue
+testGetValue
 (
 )
 )
@@ -788,7 +788,7 @@ recorded
 (
 )
 {
-assertFalse
+assertNull
 (
 Metrics
 .
@@ -801,7 +801,7 @@ action
 "
 ]
 .
-testHasValue
+testGetValue
 (
 )
 )
@@ -848,7 +848,7 @@ Source
 .
 ACTION
 )
-assertTrue
+assertNotNull
 (
 Metrics
 .
@@ -861,7 +861,7 @@ action
 "
 ]
 .
-testHasValue
+testGetValue
 (
 )
 )
@@ -888,7 +888,7 @@ recorded
 (
 )
 {
-assertFalse
+assertNull
 (
 Metrics
 .
@@ -901,7 +901,7 @@ topsite
 "
 ]
 .
-testHasValue
+testGetValue
 (
 )
 )
@@ -948,7 +948,7 @@ Source
 .
 TOPSITE
 )
-assertTrue
+assertNotNull
 (
 Metrics
 .
@@ -961,7 +961,7 @@ topsite
 "
 ]
 .
-testHasValue
+testGetValue
 (
 )
 )
@@ -988,7 +988,7 @@ recorded
 (
 )
 {
-assertFalse
+assertNull
 (
 Metrics
 .
@@ -1001,7 +1001,7 @@ shortcut
 "
 ]
 .
-testHasValue
+testGetValue
 (
 )
 )
@@ -1048,7 +1048,7 @@ Source
 .
 SHORTCUT
 )
-assertTrue
+assertNotNull
 (
 Metrics
 .
@@ -1061,7 +1061,7 @@ shortcut
 "
 ]
 .
-testHasValue
+testGetValue
 (
 )
 )
@@ -1088,7 +1088,7 @@ recorded
 (
 )
 {
-assertFalse
+assertNull
 (
 Metrics
 .
@@ -1101,7 +1101,7 @@ suggestion
 "
 ]
 .
-testHasValue
+testGetValue
 (
 )
 )
@@ -1148,7 +1148,7 @@ Source
 .
 SUGGESTION
 )
-assertTrue
+assertNotNull
 (
 Metrics
 .
@@ -1161,7 +1161,7 @@ suggestion
 "
 ]
 .
-testHasValue
+testGetValue
 (
 )
 )
@@ -1188,7 +1188,7 @@ recorded
 (
 )
 {
-assertFalse
+assertNull
 (
 Metrics
 .
@@ -1201,7 +1201,7 @@ widget
 "
 ]
 .
-testHasValue
+testGetValue
 (
 )
 )
@@ -1248,7 +1248,7 @@ Source
 .
 WIDGET
 )
-assertTrue
+assertNotNull
 (
 Metrics
 .
@@ -1261,7 +1261,7 @@ widget
 "
 ]
 .
-testHasValue
+testGetValue
 (
 )
 )
@@ -1288,13 +1288,13 @@ recorded
 (
 )
 {
-assertFalse
+assertNull
 (
 Events
 .
 performedSearch
 .
-testHasValue
+testGetValue
 (
 )
 )
@@ -1341,13 +1341,13 @@ Source
 .
 WIDGET
 )
-assertTrue
+assertNotNull
 (
 Events
 .
 performedSearch
 .
-testHasValue
+testGetValue
 (
 )
 )
@@ -1361,6 +1361,8 @@ performedSearch
 testGetValue
 (
 )
+!
+!
 assertEquals
 (
 1
@@ -1415,13 +1417,13 @@ recorded
 (
 )
 {
-assertFalse
+assertNull
 (
 Events
 .
 performedSearch
 .
-testHasValue
+testGetValue
 (
 )
 )
@@ -1468,13 +1470,13 @@ Source
 .
 WIDGET
 )
-assertTrue
+assertNotNull
 (
 Events
 .
 performedSearch
 .
-testHasValue
+testGetValue
 (
 )
 )
@@ -1488,6 +1490,8 @@ performedSearch
 testGetValue
 (
 )
+!
+!
 assertEquals
 (
 1
