@@ -571,7 +571,7 @@ this
 command
 with
 administrative
-priveleges
+privileges
 :
 sh
 mklink
