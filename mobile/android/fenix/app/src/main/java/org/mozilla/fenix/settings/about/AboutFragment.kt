@@ -664,14 +664,9 @@ ExternalLink
 WHATS_NEW
 SupportUtils
 .
-getSumoURLForTopic
+getWhatsNewUrl
 (
 context
-SupportUtils
-.
-SumoTopic
-.
-WHATS_NEW
 )
 )
 getString
