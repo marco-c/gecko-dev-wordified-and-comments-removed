@@ -653,7 +653,7 @@ add
 (
 loginEntryToSave
 )
-syncAndUpdateList
+addLoginToState
 (
 passwordsStorage
 .
@@ -908,7 +908,7 @@ update
 guid
 loginEntryToSave
 )
-syncAndUpdateList
+addLoginToState
 (
 passwordsStorage
 .
@@ -982,7 +982,7 @@ loginException
 }
 private
 fun
-syncAndUpdateList
+addLoginToState
 (
 updatedLogin
 :
@@ -1003,12 +1003,9 @@ dispatch
 (
 LoginsAction
 .
-UpdateLoginsList
-(
-listOf
+AddLogin
 (
 login
-)
 )
 )
 }
