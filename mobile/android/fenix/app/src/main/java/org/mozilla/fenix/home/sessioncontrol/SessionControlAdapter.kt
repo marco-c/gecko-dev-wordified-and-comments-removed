@@ -966,6 +966,11 @@ val
 interactor
 :
 SessionControlInteractor
+private
+val
+hasNormalTabsOpened
+:
+Boolean
 )
 :
 ListAdapter
@@ -1084,6 +1089,7 @@ NoCollectionsMessageViewHolder
 (
 view
 interactor
+hasNormalTabsOpened
 )
 CollectionHeaderViewHolder
 .

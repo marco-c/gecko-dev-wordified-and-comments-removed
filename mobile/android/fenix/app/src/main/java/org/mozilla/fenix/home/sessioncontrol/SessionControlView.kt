@@ -728,6 +728,11 @@ var
 homeScreenViewModel
 :
 HomeScreenViewModel
+private
+val
+hasNormalTabsOpened
+:
+Boolean
 )
 :
 LayoutContainer
@@ -747,6 +752,7 @@ sessionControlAdapter
 SessionControlAdapter
 (
 interactor
+hasNormalTabsOpened
 )
 init
 {
