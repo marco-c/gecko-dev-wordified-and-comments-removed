@@ -149,6 +149,26 @@ secrets
 ]
 )
         
+dummy_secrets
+=
+task
+[
+"
+run
+"
+]
+.
+setdefault
+(
+"
+dummy
+-
+secrets
+"
+[
+]
+)
+        
 if
 task
 .
@@ -347,43 +367,26 @@ mls_token
 else
 :
             
-task
+dummy_secrets
+.
+extend
+(
 [
-"
-run
-"
-]
-[
-"
-pre
--
-gradlew
-"
-]
-=
-[
-[
+{
                 
 "
-echo
+content
 "
-'
-"
-{
-}
-"
-'
-.
-format
-(
+:
 fake_value
-)
+                
 "
->
+path
 "
+:
 target_file
             
-]
+}
 for
 fake_value
 target_file
@@ -392,8 +395,7 @@ in
                 
 (
 "
--
--
+faketoken
 "
 "
 .
@@ -403,6 +405,7 @@ adjust_token
                 
 (
 "
+faketoken
 "
 "
 .
@@ -412,9 +415,9 @@ digital_asset_links_token
                 
 (
 "
--
+fake
 :
--
+token
 "
 "
 .
@@ -424,6 +427,7 @@ leanplum_token
                 
 (
 "
+faketoken
 "
 "
 .
@@ -456,6 +460,7 @@ sentry_token
             
 )
 ]
+)
         
 yield
 task
