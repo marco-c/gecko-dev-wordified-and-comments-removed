@@ -1770,7 +1770,7 @@ getTopSitesConfig
 )
 owner
 =
-this
+viewLifecycleOwner
 view
 =
 view
