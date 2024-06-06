@@ -508,6 +508,7 @@ ProductReviewState
 )
 :
 UpdateAction
+TelemetryAction
 /
 *
 *
