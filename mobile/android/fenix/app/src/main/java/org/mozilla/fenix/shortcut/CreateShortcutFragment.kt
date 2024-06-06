@@ -317,13 +317,9 @@ addToHomescreen
 text
 )
 }
-.
-invokeOnCompletion
-{
 dismiss
 (
 )
-}
 }
 shortcut_text
 .
