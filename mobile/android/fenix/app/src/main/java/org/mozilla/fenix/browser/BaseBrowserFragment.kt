@@ -1955,6 +1955,8 @@ lifecycleScope
 .
 allowUndo
 (
+tabTrayDialog
+.
 requireView
 (
 )
@@ -1979,11 +1981,9 @@ operation
 =
 {
 }
-anchorView
+elevation
 =
-view
-.
-tabs_header
+SNACKBAR_ELEVATION
 )
 }
 override
@@ -5740,5 +5740,11 @@ val
 REQUEST_CODE_APP_PERMISSIONS
 =
 3
+private
+const
+val
+SNACKBAR_ELEVATION
+=
+80f
 }
 }
