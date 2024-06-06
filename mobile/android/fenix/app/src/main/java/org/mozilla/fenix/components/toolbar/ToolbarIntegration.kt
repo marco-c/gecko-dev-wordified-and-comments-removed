@@ -717,7 +717,7 @@ DisplayToolbar
 .
 Indicators
 .
-PERMISSION_HIGHLIGHTS
+HIGHLIGHT
 }
 toolbar
 .
