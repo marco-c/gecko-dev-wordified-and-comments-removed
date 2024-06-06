@@ -566,7 +566,7 @@ blockAdTrackerEntry
 =
 TestHelper
 .
-settingsList
+settingsMenu
 .
 getChild
 (
@@ -621,7 +621,7 @@ blockAnalyticTrackerEntry
 =
 TestHelper
 .
-settingsList
+settingsMenu
 .
 getChild
 (
@@ -676,7 +676,7 @@ blockSocialTrackerEntry
 =
 TestHelper
 .
-settingsList
+settingsMenu
 .
 getChild
 (
