@@ -752,6 +752,10 @@ implementation
 Deps
 .
 android_arch_navigation_ui
+implementation
+Deps
+.
+autodispose
 }
 android
 .

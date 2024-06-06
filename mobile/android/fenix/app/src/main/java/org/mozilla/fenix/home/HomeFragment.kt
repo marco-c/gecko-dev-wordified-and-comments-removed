@@ -65,12 +65,6 @@ home
 import
 android
 .
-annotation
-.
-SuppressLint
-import
-android
-.
 content
 .
 res
@@ -203,7 +197,7 @@ mozilla
 .
 fenix
 .
-DefaultThemeManager
+BrowsingModeManager
 import
 org
 .
@@ -211,7 +205,7 @@ mozilla
 .
 fenix
 .
-BrowsingModeManager
+DefaultThemeManager
 import
 org
 .
@@ -325,7 +319,7 @@ fenix
 .
 mvi
 .
-getManagedEmitter
+getAutoDisposeObservable
 import
 org
 .
@@ -335,7 +329,7 @@ fenix
 .
 mvi
 .
-getSafeManagedObservable
+getManagedEmitter
 import
 kotlin
 .
@@ -487,12 +481,6 @@ activity
 return
 view
 }
-SuppressLint
-(
-"
-CheckResult
-"
-)
 override
 fun
 onViewCreated
@@ -528,7 +516,7 @@ hide
 setupHomeMenu
 (
 )
-getSafeManagedObservable
+getAutoDisposeObservable
 <
 TabsAction
 >
