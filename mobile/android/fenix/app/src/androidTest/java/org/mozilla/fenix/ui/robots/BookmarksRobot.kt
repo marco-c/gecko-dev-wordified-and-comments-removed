@@ -740,8 +740,13 @@ check
 (
 matches
 (
-isDisplayed
+withEffectiveVisibility
 (
+ViewMatchers
+.
+Visibility
+.
+VISIBLE
 )
 )
 )
