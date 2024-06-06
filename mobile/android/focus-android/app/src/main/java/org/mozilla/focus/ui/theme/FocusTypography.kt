@@ -539,9 +539,9 @@ fontSize
 sp
 color
 =
-PhotonColors
+focusColors
 .
-DarkGrey90
+onboardingSemiBoldText
 )
 onboardingSubtitle
 =
@@ -562,9 +562,9 @@ fontSize
 sp
 color
 =
-PhotonColors
+focusColors
 .
-DarkGrey90
+onboardingSemiBoldText
 )
 onboardingDescription
 =
@@ -585,9 +585,9 @@ fontSize
 sp
 color
 =
-PhotonColors
+focusColors
 .
-DarkGrey05
+onboardingNormalText
 )
 onboardingButton
 =
@@ -610,6 +610,6 @@ color
 =
 PhotonColors
 .
-White
+LightGrey05
 )
 )
