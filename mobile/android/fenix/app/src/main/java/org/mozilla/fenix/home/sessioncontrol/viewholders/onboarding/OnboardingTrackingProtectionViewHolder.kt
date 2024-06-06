@@ -558,6 +558,8 @@ policy
 =
 core
 .
+trackingProtectionPolicyFactory
+.
 createTrackingProtectionPolicy
 (
 enabled
@@ -605,6 +607,8 @@ policy
 it
 .
 core
+.
+trackingProtectionPolicyFactory
 .
 createTrackingProtectionPolicy
 (

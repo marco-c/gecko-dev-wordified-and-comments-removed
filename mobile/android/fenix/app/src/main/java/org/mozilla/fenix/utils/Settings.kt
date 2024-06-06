@@ -1270,6 +1270,7 @@ string
 pref_key_tracking_protection_custom_cookies_select
 )
 "
+social
 "
 )
 val
@@ -1305,6 +1306,7 @@ string
 pref_key_tracking_protection_custom_tracking_content_select
 )
 "
+all
 "
 )
 val

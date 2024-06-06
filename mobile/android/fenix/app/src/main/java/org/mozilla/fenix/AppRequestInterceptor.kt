@@ -340,6 +340,8 @@ policy
 =
 core
 .
+trackingProtectionPolicyFactory
+.
 createTrackingProtectionPolicy
 (
 normalMode
