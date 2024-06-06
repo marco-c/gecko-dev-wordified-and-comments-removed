@@ -160,13 +160,6 @@ bookmark_sign_in_button
 "
 android
 :
-visibility
-=
-"
-gone
-"
-android
-:
 layout_marginHorizontal
 =
 "
