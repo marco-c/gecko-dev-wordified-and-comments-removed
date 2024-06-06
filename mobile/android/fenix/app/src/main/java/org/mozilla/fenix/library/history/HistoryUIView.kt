@@ -77,13 +77,11 @@ view
 .
 ViewGroup
 import
-androidx
-.
-core
+android
 .
 widget
 .
-NestedScrollView
+LinearLayout
 import
 androidx
 .
@@ -207,7 +205,7 @@ override
 val
 view
 :
-NestedScrollView
+LinearLayout
 =
 LayoutInflater
 .
