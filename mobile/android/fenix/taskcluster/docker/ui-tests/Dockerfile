@@ -1,7 +1,3 @@
-#
-%
-ARG
-DOCKER_IMAGE_PARENT
 FROM
 DOCKER_IMAGE_PARENT
 LABEL
@@ -37,6 +33,7 @@ gmail
 .
 com
 >
+"
 #
 -
 -
