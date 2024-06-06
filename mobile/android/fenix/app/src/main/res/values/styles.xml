@@ -2645,8 +2645,9 @@ android
 textColor
 "
 >
-?
-primaryText
+color
+/
+state_list_text_color
 <
 /
 item
@@ -2831,9 +2832,8 @@ android
 textColor
 "
 >
-color
-/
-photonBlue50
+?
+accentBright
 <
 /
 item
