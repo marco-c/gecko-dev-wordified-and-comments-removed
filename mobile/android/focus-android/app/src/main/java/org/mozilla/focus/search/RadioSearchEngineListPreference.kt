@@ -270,9 +270,11 @@ group
 context
 )
 .
-setDefaultSearchEngine
+setDefaultSearchEngineByName
 (
 newDefaultEngine
+.
+name
 )
 val
 source

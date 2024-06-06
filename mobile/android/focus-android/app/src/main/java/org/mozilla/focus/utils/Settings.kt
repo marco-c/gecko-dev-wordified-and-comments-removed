@@ -505,11 +505,11 @@ pref_key_secure
 false
 )
 fun
-setDefaultSearchEngine
+setDefaultSearchEngineByName
 (
-searchEngine
+name
 :
-SearchEngine
+String
 )
 {
 preferences
@@ -528,8 +528,6 @@ string
 .
 pref_key_search_engine
 )
-searchEngine
-.
 name
 )
 .
