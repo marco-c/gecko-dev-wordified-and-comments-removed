@@ -66,6 +66,17 @@ compose_version
 "
 1
 .
+2
+.
+1
+"
+const
+val
+compose_compiler
+=
+"
+1
+.
 1
 .
 1

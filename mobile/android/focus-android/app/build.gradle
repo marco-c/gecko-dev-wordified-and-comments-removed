@@ -476,7 +476,7 @@ kotlinCompilerExtensionVersion
 =
 Versions
 .
-compose_version
+compose_compiler
 }
 flavorDimensions
 "
@@ -764,6 +764,17 @@ in
 kotlin
 .
 RequiresOptIn
+"
+freeCompilerArgs
++
+=
+"
+-
+Xjvm
+-
+default
+=
+enable
 "
 jvmTarget
 =
