@@ -26044,6 +26044,9 @@ existing
 tab
 opened
 .
+type
+:
+string
 bugs
 :
 -
@@ -26258,6 +26261,9 @@ existing
 tab
 closed
 .
+type
+:
+string
 bugs
 :
 -
@@ -28168,6 +28174,9 @@ user
 currently
 has
 .
+type
+:
+quantity
 bugs
 :
 -

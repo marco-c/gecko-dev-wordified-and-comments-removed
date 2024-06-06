@@ -300,13 +300,6 @@ concatAdapter
 inactiveTabsAdapter
 context
 .
-components
-.
-analytics
-.
-metrics
-context
-.
 settings
 (
 )
