@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-a08d4eaf52c6c9a3050dfed10098e693f4c405ed
+5c085cbf230aef77e23b03da3c74ee68e56262c9
 '
 #
 Fetch
@@ -188,9 +188,9 @@ version
 :
 17
 .
-20231211
+20231218
 .
-2
+3
 .
 1
 '
@@ -433,7 +433,7 @@ chromium
 src
 /
 base
-582382105cf537ae76f27263433050dd5fec8253
+7ba97c56aaa7faf0a38b95d10c26f2898d386955
 '
 '
 src
@@ -457,7 +457,7 @@ chromium
 src
 /
 build
-b3e01488a08b44063298ff802526136412dcaab2
+6dd0544f95597e3b401d49ab7b5796e09a695c7b
 '
 '
 src
@@ -577,7 +577,7 @@ chromium
 src
 /
 ios
-55c54aa117f5a988f5d6475c49a6aedfbe9be64f
+c176d8b7b2bb2588854ff2892babdda760e36d2a
 '
 '
 condition
@@ -609,7 +609,7 @@ chromium
 src
 /
 testing
-146c07eefa12fe19b9517f6ab9dcaaa670ac3211
+3028834e025861fee472b6cbf4470820f969657c
 '
 '
 src
@@ -633,7 +633,7 @@ chromium
 src
 /
 third_party
-0f1b27edf3c0685796cb9f678da400047f54c001
+34be65017ecc4ee4e69fa8d362ce957708b7411b
 '
 '
 src
@@ -3159,7 +3159,7 @@ chromium
 src
 /
 tools
-8a0339c67d2ba86b7adb2232e456304131afd3ef
+98446e1b2404a8858a9c2ed26332b84e6683f06c
 '
 '
 src
