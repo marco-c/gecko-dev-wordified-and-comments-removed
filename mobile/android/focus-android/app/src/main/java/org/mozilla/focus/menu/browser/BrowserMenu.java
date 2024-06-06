@@ -409,6 +409,8 @@ xOffset
 =
 ViewUtils
 .
+INSTANCE
+.
 isRTL
 (
 anchor
