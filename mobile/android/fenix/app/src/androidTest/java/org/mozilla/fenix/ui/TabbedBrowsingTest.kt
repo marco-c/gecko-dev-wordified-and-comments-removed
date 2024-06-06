@@ -533,6 +533,7 @@ shutdown
 /
 /
 TestRail
+link
 :
 https
 :
@@ -670,6 +671,7 @@ verifyTabCounter
 /
 /
 TestRail
+link
 :
 https
 :
@@ -866,6 +868,7 @@ verifyTabCounter
 /
 /
 TestRail
+link
 :
 https
 :
@@ -1078,6 +1081,7 @@ verifyTabCounter
 /
 /
 TestRail
+link
 :
 https
 :
@@ -1280,6 +1284,7 @@ verifyHomeScreen
 /
 /
 TestRail
+link
 :
 https
 :
@@ -1458,6 +1463,33 @@ secondWebsiteTitle
 )
 }
 }
+/
+/
+TestRail
+link
+:
+https
+:
+/
+/
+testrail
+.
+stage
+.
+mozaws
+.
+net
+/
+index
+.
+php
+?
+/
+cases
+/
+view
+/
+903602
 Test
 fun
 verifyTabTrayNotShowingStateHalfExpanded
@@ -1609,6 +1641,7 @@ verifyTabTrayIsClosed
 /
 /
 TestRail
+link
 :
 https
 :
@@ -1674,6 +1707,7 @@ verifyEmptyTabsTrayMenuButtons
 /
 /
 TestRail
+link
 :
 https
 :
@@ -1743,6 +1777,7 @@ verifyEmptyTabsTrayMenuButtons
 /
 /
 TestRail
+link
 :
 https
 :
@@ -1879,6 +1914,7 @@ verifyTabCounter
 /
 /
 TestRail
+link
 :
 https
 :
@@ -1995,6 +2031,7 @@ verifyPrivateBrowsingNewTabButton
 /
 /
 TestRail
+link
 :
 https
 :
@@ -2158,6 +2195,7 @@ verifyNavigationToolbar
 /
 /
 TestRail
+link
 :
 https
 :
@@ -2334,6 +2372,7 @@ verifyExistingTopSitesList
 /
 /
 TestRail
+link
 :
 https
 :

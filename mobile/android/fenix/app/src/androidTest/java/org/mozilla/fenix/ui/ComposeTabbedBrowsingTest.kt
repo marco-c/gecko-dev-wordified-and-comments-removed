@@ -590,6 +590,7 @@ shutdown
 /
 /
 TestRail
+link
 :
 https
 :
@@ -730,6 +731,7 @@ verifyTabCounter
 /
 /
 TestRail
+link
 :
 https
 :
@@ -924,6 +926,7 @@ verifyTabCounter
 /
 /
 TestRail
+link
 :
 https
 :
@@ -1142,6 +1145,7 @@ verifyTabCounter
 /
 /
 TestRail
+link
 :
 https
 :
@@ -1344,6 +1348,33 @@ verifyHomeScreen
 )
 }
 }
+/
+/
+TestRail
+link
+:
+https
+:
+/
+/
+testrail
+.
+stage
+.
+mozaws
+.
+net
+/
+index
+.
+php
+?
+/
+cases
+/
+view
+/
+903602
 Test
 fun
 verifyTabTrayNotShowingStateHalfExpanded
@@ -1498,6 +1529,7 @@ verifyTabTrayIsClosed
 /
 /
 TestRail
+link
 :
 https
 :
@@ -1571,6 +1603,7 @@ verifyRecentlyClosedTabsButton
 /
 /
 TestRail
+link
 :
 https
 :
@@ -1649,6 +1682,7 @@ verifyRecentlyClosedTabsButton
 /
 /
 TestRail
+link
 :
 https
 :
@@ -1775,6 +1809,7 @@ verifyTabCounter
 /
 /
 TestRail
+link
 :
 https
 :
@@ -1893,6 +1928,7 @@ verifyFab
 /
 /
 TestRail
+link
 :
 https
 :
@@ -1915,7 +1951,7 @@ cases
 /
 view
 /
-927314
+927315
 Test
 fun
 tabsCounterShortcutMenuTest
@@ -2056,6 +2092,7 @@ verifyNavigationToolbar
 /
 /
 TestRail
+link
 :
 https
 :
@@ -2229,6 +2266,7 @@ verifyExistingTopSitesList
 /
 /
 TestRail
+link
 :
 https
 :
@@ -2298,6 +2336,7 @@ verifyTurnOnSyncMenu
 /
 /
 TestRail
+link
 :
 https
 :
