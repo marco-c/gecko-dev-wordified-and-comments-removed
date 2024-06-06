@@ -135,7 +135,11 @@ toLong
 (
 )
 )
+/
+/
 Test
+/
+/
 fun
 enterEditMode
 (
@@ -143,12 +147,16 @@ enterEditMode
 =
 runBlocking
 {
+/
+/
 val
 initialState
 =
 emptyDefaultState
 (
 )
+/
+/
 val
 store
 =
@@ -156,6 +164,10 @@ HistoryStore
 (
 initialState
 )
+/
+/
+/
+/
 store
 .
 dispatch
@@ -171,6 +183,8 @@ historyItem
 join
 (
 )
+/
+/
 assertNotSame
 (
 initialState
@@ -178,6 +192,8 @@ store
 .
 state
 )
+/
+/
 assertEquals
 (
 store
@@ -197,6 +213,8 @@ historyItem
 )
 )
 )
+/
+/
 }
 Test
 fun
@@ -308,7 +326,7 @@ Mode
 .
 Editing
 (
-listOf
+setOf
 (
 historyItem
 newHistoryItem
@@ -372,7 +390,7 @@ Mode
 .
 Editing
 (
-listOf
+setOf
 (
 historyItem
 )
@@ -425,7 +443,7 @@ Mode
 .
 Editing
 (
-listOf
+setOf
 (
 historyItem
 )
@@ -454,7 +472,7 @@ Mode
 .
 Editing
 (
-listOf
+setOf
 (
 historyItem
 newHistoryItem
