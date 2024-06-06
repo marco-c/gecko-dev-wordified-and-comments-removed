@@ -2054,13 +2054,16 @@ Event
 .
 AddBookmark
 )
+view
+?
+.
+let
+{
 FenixSnackbar
 .
 make
 (
-view
-!
-!
+it
 Snackbar
 .
 LENGTH_LONG
@@ -2118,6 +2121,7 @@ bookmark_saved_snackbar
 show
 (
 )
+}
 }
 }
 }
