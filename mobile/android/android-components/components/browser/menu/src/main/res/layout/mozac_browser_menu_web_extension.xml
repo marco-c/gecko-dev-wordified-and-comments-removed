@@ -339,6 +339,13 @@ clickable
 "
 false
 "
+android
+:
+focusable
+=
+"
+false
+"
 tools
 :
 ignore
