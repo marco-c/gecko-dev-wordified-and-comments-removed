@@ -421,7 +421,7 @@ run
 {
 increaseTapArea
 (
-closeButtonIncreaseDps
+buttonIncreaseDps
 )
 setOnClickListener
 {
@@ -506,6 +506,12 @@ toFloat
 }
 tab_overflow_button
 .
+run
+{
+increaseTapArea
+(
+buttonIncreaseDps
+)
 setOnClickListener
 {
 tabMenu
@@ -532,6 +538,7 @@ Orientation
 .
 DOWN
 )
+}
 }
 }
 fun
@@ -672,7 +679,7 @@ layout
 tab_list_row
 const
 val
-closeButtonIncreaseDps
+buttonIncreaseDps
 =
 12
 const
