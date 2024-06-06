@@ -909,6 +909,16 @@ selectableItemBackgroundBorderless
 "
 android
 :
+tint
+=
+"
+?
+android
+:
+colorAccent
+"
+android
+:
 contentDescription
 =
 "
@@ -948,7 +958,7 @@ srcCompat
 "
 drawable
 /
-ic_password_reveal
+mozac_ic_password_reveal
 "
 /
 >

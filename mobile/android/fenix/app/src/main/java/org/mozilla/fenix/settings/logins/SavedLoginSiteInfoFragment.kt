@@ -595,7 +595,7 @@ R
 .
 drawable
 .
-ic_password_hide
+mozac_ic_password_hide
 )
 )
 passwordInfoText
@@ -636,7 +636,7 @@ R
 .
 drawable
 .
-ic_password_reveal
+mozac_ic_password_reveal
 )
 )
 passwordInfoText
