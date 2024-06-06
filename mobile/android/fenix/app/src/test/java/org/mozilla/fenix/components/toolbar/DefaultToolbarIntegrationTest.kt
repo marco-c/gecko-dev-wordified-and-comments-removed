@@ -285,6 +285,9 @@ domainAutocompleteProvider
 =
 mockk
 (
+relaxed
+=
+true
 )
 historyStorage
 =
