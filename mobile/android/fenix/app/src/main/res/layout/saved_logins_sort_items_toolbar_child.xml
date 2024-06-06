@@ -150,7 +150,8 @@ android
 layout_height
 =
 "
-wrap_content
+?
+actionBarSize
 "
 android
 :
@@ -162,7 +163,7 @@ android
 :
 attr
 /
-selectableItemBackgroundBorderless
+selectableItemBackground
 "
 >
 <
