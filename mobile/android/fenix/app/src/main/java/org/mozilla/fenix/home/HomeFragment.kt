@@ -4326,6 +4326,14 @@ hideOnboardingAndOpenSearch
 hideOnboardingIfNeeded
 (
 )
+appBarLayout
+?
+.
+setExpanded
+(
+true
+true
+)
 navigateToSearch
 (
 )
