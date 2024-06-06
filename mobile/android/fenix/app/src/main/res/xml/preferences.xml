@@ -1046,15 +1046,6 @@ bool
 /
 IS_DEBUG
 "
-android
-:
-layout
-=
-"
-layout
-/
-preference_cat_style
-"
 /
 >
 <
