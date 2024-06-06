@@ -9,7 +9,7 @@ re
 OPEN_LOCALES
 =
 "
-locales
+release_locales
 =
 [
 "
@@ -157,6 +157,11 @@ line
 =
 =
 CLOSE_LOCALES
+and
+locales_opened
+=
+=
+True
 :
             
 locales_closed
