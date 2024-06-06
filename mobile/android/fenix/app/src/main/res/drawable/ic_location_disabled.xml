@@ -137,9 +137,8 @@ android
 fillColor
 =
 "
-color
-/
-disabled_text
+?
+primaryText
 "
 android
 :
@@ -521,9 +520,8 @@ android
 fillColor
 =
 "
-color
-/
-disabled_text
+?
+primaryText
 "
 android
 :
