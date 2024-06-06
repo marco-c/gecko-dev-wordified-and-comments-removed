@@ -197,11 +197,6 @@ debug
 :
 attributes
 :
-code
--
-review
-:
-true
 shipping
 -
 product
@@ -298,11 +293,6 @@ debug
 :
 attributes
 :
-code
--
-review
-:
-true
 shipping
 -
 product
@@ -399,11 +389,6 @@ debug
 :
 attributes
 :
-code
--
-review
-:
-true
 shipping
 -
 product

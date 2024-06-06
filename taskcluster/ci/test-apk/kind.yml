@@ -245,11 +245,6 @@ type
 focus
 -
 debug
-code
--
-review
-:
-true
 shipping
 -
 product
@@ -428,11 +423,6 @@ type
 fenix
 -
 debug
-code
--
-review
-:
-true
 shipping
 -
 product

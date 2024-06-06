@@ -112,11 +112,6 @@ build
 type
 :
 debug
-code
--
-review
-:
-true
 retrigger
 :
 true
@@ -2667,11 +2662,6 @@ shipping
 product
 :
 fenix
-code
--
-review
-:
-false
 description
 :
 Run
@@ -2946,11 +2936,6 @@ shipping
 product
 :
 fenix
-code
--
-review
-:
-false
 description
 :
 Run

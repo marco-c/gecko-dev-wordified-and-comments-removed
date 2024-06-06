@@ -114,11 +114,6 @@ build
 type
 :
 regular
-code
--
-review
-:
-true
 component
 :
 samples

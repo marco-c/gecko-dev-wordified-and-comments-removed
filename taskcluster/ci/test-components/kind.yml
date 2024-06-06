@@ -114,11 +114,6 @@ build
 type
 :
 debug
-code
--
-review
-:
-true
 retrigger
 :
 true
