@@ -549,6 +549,13 @@ splitlines
 (
 )
     
+if
+not
+git_tags
+:
+        
+return
+    
 previous_version
 =
 get_previous_tag_version

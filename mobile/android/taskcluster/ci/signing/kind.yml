@@ -138,6 +138,8 @@ types
 -
 release
 -
+beta
+-
 nightly
 task
 -
@@ -157,6 +159,8 @@ type
 :
 (
 release
+|
+beta
 |
 nightly
 )
@@ -193,6 +197,9 @@ type
 release
 :
 BRs
+beta
+:
+BBs
 nightly
 :
 BNs

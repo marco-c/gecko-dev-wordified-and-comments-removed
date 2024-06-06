@@ -162,6 +162,13 @@ post
 signing
 -
 release
+beta
+:
+post
+-
+signing
+-
+beta
 nightly
 :
 post

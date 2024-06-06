@@ -162,6 +162,13 @@ post
 beetmover
 -
 release
+beta
+:
+post
+-
+beetmover
+-
+beta
 nightly
 :
 post

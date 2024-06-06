@@ -340,6 +340,9 @@ regular
 nightly
 '
 '
+beta
+'
+'
 release
 '
 )
