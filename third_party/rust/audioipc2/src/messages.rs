@@ -37,10 +37,7 @@ use
 cubeb
 :
 :
-{
-self
 ffi
-}
 ;
 use
 serde_derive

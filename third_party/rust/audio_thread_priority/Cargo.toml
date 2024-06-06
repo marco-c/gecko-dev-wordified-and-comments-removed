@@ -112,7 +112,7 @@ version
 "
 0
 .
-31
+32
 .
 0
 "
@@ -431,6 +431,6 @@ features
 Win32_Foundation
 "
 "
-Win32_System_Threading
+Win32_System_LibraryLoader
 "
 ]
