@@ -512,6 +512,13 @@ verifyStandardOptionDescription
 verifyStrictOptionDescription
 (
 )
+verifyGPCTextWithSwitchWidget
+(
+)
+verifyGPCSwitchEnabled
+(
+false
+)
 selectTrackingProtectionOption
 (
 "
