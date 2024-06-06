@@ -2349,6 +2349,12 @@ attached
 to
 a
 context
+or
+have
+a
+view
+lifecycle
+owner
 .
 if
 (
@@ -2356,6 +2362,9 @@ if
 this
 HomeFragment
 )
+.
+view
+?
 .
 context
 =
@@ -2379,6 +2388,8 @@ owner
 =
 this
 HomeFragment
+.
+viewLifecycleOwner
 )
 requireComponents
 .
@@ -2468,6 +2479,8 @@ owner
 =
 this
 HomeFragment
+.
+viewLifecycleOwner
 )
 }
 if
@@ -3526,6 +3539,8 @@ MenuButton
 HomeMenu
 (
 this
+.
+viewLifecycleOwner
 context
 onItemTapped
 =
