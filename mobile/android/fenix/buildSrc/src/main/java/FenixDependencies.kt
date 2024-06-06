@@ -470,18 +470,7 @@ google_material
 "
 const
 val
-accompanist_drawablepainter
-=
-"
-0
-.
-23
-.
-1
-"
-const
-val
-accompanist_pager
+google_accompanist
 =
 "
 0
@@ -1499,7 +1488,7 @@ drawablepainter
 {
 FenixVersions
 .
-accompanist_drawablepainter
+google_accompanist
 }
 "
 const
@@ -1520,7 +1509,7 @@ pager
 {
 FenixVersions
 .
-accompanist_pager
+google_accompanist
 }
 "
 const
