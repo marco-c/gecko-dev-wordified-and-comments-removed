@@ -118,7 +118,7 @@ error
 =
 NimbusException
 .
-IOException
+IoException
 (
 "
 bad
