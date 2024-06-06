@@ -668,6 +668,10 @@ Color
 TRANSPARENT
 )
 )
+setDimAmount
+(
+0f
+)
 }
 return
 popup
