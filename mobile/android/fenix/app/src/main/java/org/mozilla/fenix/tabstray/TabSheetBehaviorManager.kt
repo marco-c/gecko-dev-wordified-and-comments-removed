@@ -260,6 +260,7 @@ behavior
 :
 BottomSheetBehavior
 <
+out
 View
 >
 orientation
@@ -486,6 +487,7 @@ behavior
 :
 BottomSheetBehavior
 <
+out
 View
 >
 get
