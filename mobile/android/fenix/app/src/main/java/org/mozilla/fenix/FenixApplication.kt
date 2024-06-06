@@ -968,9 +968,9 @@ default
 }
 open
 fun
-toggleLeakCanary
+updateLeakCanaryState
 (
-newValue
+isEnabled
 :
 Boolean
 )

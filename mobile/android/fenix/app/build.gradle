@@ -3593,10 +3593,6 @@ debugImplementation
 Deps
 .
 leakcanary
-releaseImplementation
-Deps
-.
-leakcanary_noop
 implementation
 Deps
 .
