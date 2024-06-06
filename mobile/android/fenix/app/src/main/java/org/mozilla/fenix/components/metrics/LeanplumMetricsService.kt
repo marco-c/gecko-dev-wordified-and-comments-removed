@@ -242,15 +242,6 @@ E_Sign_Out_FxA
 is
 Event
 .
-FXANewSignup
--
->
-"
-E_New_Sign_Up_FxA
-"
-is
-Event
-.
 ClearedPrivateData
 -
 >

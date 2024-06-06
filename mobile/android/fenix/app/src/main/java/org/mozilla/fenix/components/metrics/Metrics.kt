@@ -265,12 +265,6 @@ Event
 (
 )
 object
-FXANewSignup
-:
-Event
-(
-)
-object
 DismissedOnboarding
 :
 Event
