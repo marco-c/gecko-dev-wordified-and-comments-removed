@@ -62,8 +62,8 @@ MPL
 #
 This
 is
-copy
-of
+inspired
+by
 #
 https
 :
