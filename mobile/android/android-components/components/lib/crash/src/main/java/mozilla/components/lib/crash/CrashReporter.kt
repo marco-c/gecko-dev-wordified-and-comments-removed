@@ -1660,6 +1660,11 @@ additionalIntent
 onFinished
 handler
 requiredPermission
+activityOptions
+.
+toBundle
+(
+)
 )
 }
 else
