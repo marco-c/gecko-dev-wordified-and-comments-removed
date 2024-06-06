@@ -193,6 +193,16 @@ fenix
 perf
 .
 Performance
+import
+org
+.
+mozilla
+.
+fenix
+.
+utils
+.
+Mockable
 private
 const
 val
@@ -243,6 +253,7 @@ application
 .
 *
 /
+Mockable
 class
 StrictModeManager
 (
