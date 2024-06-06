@@ -228,8 +228,6 @@ startLoadTime
 -
 url
 changed
-to
-url
 new
 page
 load
