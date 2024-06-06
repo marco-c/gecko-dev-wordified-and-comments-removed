@@ -607,6 +607,15 @@ settings
 )
 .
 isAutoPlayEnabled
+forceUserScalableContent
+=
+context
+.
+settings
+(
+)
+.
+forceEnableZoom
 )
 GeckoEngine
 (

@@ -228,14 +228,6 @@ Config
 channel
 .
 isNightlyOrDebug
-val
-forceZoomPreference
-=
-Config
-.
-channel
-.
-isNightlyOrDebug
 /
 *
 *

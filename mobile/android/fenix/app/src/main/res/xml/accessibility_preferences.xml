@@ -339,13 +339,6 @@ preference_accessibility_force_enable_zoom
 "
 app
 :
-isPreferenceVisible
-=
-"
-false
-"
-app
-:
 allowDividerAbove
 =
 "
