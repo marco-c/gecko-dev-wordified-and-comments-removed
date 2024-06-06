@@ -861,6 +861,9 @@ goToHomescreen
 .
 openCustomizeHomepage
 {
+clickShortcutsButton
+(
+)
 clickJumpBackInButton
 (
 )
@@ -889,7 +892,7 @@ openThreeDotMenu
 .
 openCustomizeHome
 {
-clickJumpBackInButton
+clickShortcutsButton
 (
 )
 }

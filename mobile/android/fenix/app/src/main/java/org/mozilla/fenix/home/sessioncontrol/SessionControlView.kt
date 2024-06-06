@@ -462,6 +462,9 @@ isNotEmpty
 )
 )
 {
+shouldShowCustomizeHome
+=
+true
 if
 (
 settings
