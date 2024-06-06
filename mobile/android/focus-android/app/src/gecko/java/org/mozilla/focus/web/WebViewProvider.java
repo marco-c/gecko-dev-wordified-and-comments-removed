@@ -359,6 +359,7 @@ boolean
 isSecure
 ;
 private
+final
 GeckoSession
 geckoSession
 ;

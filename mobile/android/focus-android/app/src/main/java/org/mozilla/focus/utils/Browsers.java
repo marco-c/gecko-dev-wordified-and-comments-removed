@@ -416,6 +416,7 @@ ActivityInfo
 defaultBrowser
 ;
 private
+final
 ActivityInfo
 firefoxBrandedBrowser
 ;

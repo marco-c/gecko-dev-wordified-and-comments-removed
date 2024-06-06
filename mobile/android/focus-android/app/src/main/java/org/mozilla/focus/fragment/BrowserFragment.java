@@ -921,6 +921,7 @@ DownloadBroadcastReceiver
 downloadBroadcastReceiver
 ;
 private
+final
 SessionManager
 sessionManager
 ;

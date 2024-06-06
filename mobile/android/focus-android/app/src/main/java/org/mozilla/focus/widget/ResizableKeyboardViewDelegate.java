@@ -110,6 +110,7 @@ View
 decorView
 ;
 private
+final
 int
 idOfViewToHide
 ;
@@ -119,6 +120,7 @@ View
 viewToHide
 ;
 private
+final
 boolean
 shouldAnimate
 ;
@@ -127,6 +129,7 @@ boolean
 isAnimating
 ;
 private
+final
 ViewTreeObserver
 .
 OnGlobalLayoutListener

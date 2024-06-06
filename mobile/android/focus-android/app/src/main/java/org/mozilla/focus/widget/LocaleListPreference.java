@@ -175,6 +175,7 @@ GeckoLocaleList
 ;
 private
 static
+final
 Map
 <
 String

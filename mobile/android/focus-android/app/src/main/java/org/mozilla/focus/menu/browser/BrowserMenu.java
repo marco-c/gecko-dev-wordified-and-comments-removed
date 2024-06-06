@@ -154,6 +154,7 @@ extends
 PopupWindow
 {
 private
+final
 BrowserMenuAdapter
 adapter
 ;

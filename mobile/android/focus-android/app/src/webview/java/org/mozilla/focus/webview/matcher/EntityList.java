@@ -68,6 +68,7 @@ class
 EntityList
 {
 private
+final
 WhiteListTrie
 rootNode
 ;

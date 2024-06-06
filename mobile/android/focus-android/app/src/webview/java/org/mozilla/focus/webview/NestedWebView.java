@@ -111,6 +111,7 @@ int
 mNestedOffsetY
 ;
 private
+final
 NestedScrollingChildHelper
 mChildHelper
 ;

@@ -176,6 +176,7 @@ SessionManager
 )
 ;
 private
+final
 NonNullMutableLiveData
 <
 List
@@ -190,6 +191,7 @@ String
 currentSessionUUID
 ;
 private
+final
 NonNullMutableLiveData
 <
 List
