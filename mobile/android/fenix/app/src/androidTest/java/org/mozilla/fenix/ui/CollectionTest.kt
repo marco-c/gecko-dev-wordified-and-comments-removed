@@ -764,13 +764,11 @@ saved
 !
 "
 )
+closeTab
+(
+)
 }
-.
-closeTabDrawer
-{
-}
-.
-goToHomescreen
+homeScreen
 {
 }
 .
