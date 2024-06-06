@@ -67,6 +67,9 @@ tasks_priority
 '
 lowest
 '
+trust_level
+=
+1
     
 )
 :
@@ -129,6 +132,12 @@ get
 (
 date_string
 )
+        
+self
+.
+trust_level
+=
+trust_level
     
 def
 craft_assemble_release_task
@@ -485,10 +494,6 @@ artifacts
 routes
 =
 routes
-            
-is_staging
-=
-is_staging
             
 treeherder
 =
@@ -1526,9 +1531,6 @@ None
 routes
 =
 None
-is_staging
-=
-True
 treeherder
 =
 None
@@ -1780,24 +1782,20 @@ _craft_default_task_definition
 '
 mobile
 -
-1
+{
+}
 -
 b
 -
 fenix
 '
-if
-is_staging
-else
-'
-mobile
--
-3
--
-b
--
-fenix
-'
+.
+format
+(
+self
+.
+trust_level
+)
             
 '
 aws
