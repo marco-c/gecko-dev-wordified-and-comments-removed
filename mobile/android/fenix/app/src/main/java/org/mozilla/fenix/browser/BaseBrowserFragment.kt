@@ -4088,7 +4088,7 @@ id
 browserFragment
 BrowserFragmentDirections
 .
-actionBrowserFragmentToBookmarkEditFragment
+actionGlobalBookmarkEditFragment
 (
 existing
 .
@@ -4209,7 +4209,7 @@ id
 browserFragment
 BrowserFragmentDirections
 .
-actionBrowserFragmentToBookmarkEditFragment
+actionGlobalBookmarkEditFragment
 (
 guid
 )

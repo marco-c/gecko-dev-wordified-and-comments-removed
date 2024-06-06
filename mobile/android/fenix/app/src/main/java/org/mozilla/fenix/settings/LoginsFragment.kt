@@ -1510,7 +1510,7 @@ directions
 =
 LoginsFragmentDirections
 .
-actionLoginsFragmentToAccountSettingsFragment
+actionGlobalAccountSettingsFragment
 (
 )
 findNavController
@@ -1533,7 +1533,7 @@ directions
 =
 LoginsFragmentDirections
 .
-actionLoginsFragmentToAccountProblemFragment
+actionGlobalAccountProblemFragment
 (
 )
 findNavController

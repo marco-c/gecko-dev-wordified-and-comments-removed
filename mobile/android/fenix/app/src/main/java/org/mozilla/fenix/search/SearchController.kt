@@ -1005,7 +1005,7 @@ directions
 =
 SearchFragmentDirections
 .
-actionSearchFragmentToSearchEngineFragment
+actionGlobalSearchEngineFragment
 (
 )
 navController

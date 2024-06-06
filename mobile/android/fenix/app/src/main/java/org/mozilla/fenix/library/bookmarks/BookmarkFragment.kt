@@ -1143,7 +1143,7 @@ navigate
 (
 BookmarkFragmentDirections
 .
-actionBookmarkFragmentToHomeFragment
+actionGlobalHome
 (
 )
 )
@@ -1184,7 +1184,7 @@ navigate
 (
 BookmarkFragmentDirections
 .
-actionBookmarkFragmentToHomeFragment
+actionGlobalHome
 (
 )
 )
@@ -1238,7 +1238,7 @@ navigate
 (
 BookmarkFragmentDirections
 .
-actionBookmarkFragmentToShareFragment
+actionGlobalShareFragment
 (
 data
 =
@@ -1294,6 +1294,10 @@ NavDirections
 invokePendingDeletion
 (
 )
+findNavController
+(
+)
+.
 nav
 (
 R

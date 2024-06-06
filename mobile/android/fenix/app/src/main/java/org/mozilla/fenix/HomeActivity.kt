@@ -2136,7 +2136,7 @@ FromSearch
 >
 SearchFragmentDirections
 .
-actionSearchFragmentToBrowserFragment
+actionGlobalBrowser
 (
 customTabSessionId
 )
@@ -2147,7 +2147,7 @@ FromSettings
 >
 SettingsFragmentDirections
 .
-actionSettingsFragmentToBrowserFragment
+actionGlobalBrowser
 (
 customTabSessionId
 )
@@ -2158,7 +2158,7 @@ FromBookmarks
 >
 BookmarkFragmentDirections
 .
-actionBookmarkFragmentToBrowserFragment
+actionGlobalBrowser
 (
 customTabSessionId
 )
@@ -2169,7 +2169,7 @@ FromHistory
 >
 HistoryFragmentDirections
 .
-actionHistoryFragmentToBrowserFragment
+actionGlobalBrowser
 (
 customTabSessionId
 )
@@ -2180,7 +2180,7 @@ FromExceptions
 >
 ExceptionsFragmentDirections
 .
-actionExceptionsFragmentToBrowserFragment
+actionGlobalBrowser
 (
 customTabSessionId
 )
@@ -2191,7 +2191,7 @@ FromAbout
 >
 AboutFragmentDirections
 .
-actionAboutFragmentToBrowserFragment
+actionGlobalBrowser
 (
 customTabSessionId
 )
@@ -2202,7 +2202,7 @@ FromTrackingProtection
 >
 TrackingProtectionFragmentDirections
 .
-actionTrackingProtectionFragmentToBrowserFragment
+actionGlobalBrowser
 (
 customTabSessionId
 )
@@ -2213,7 +2213,7 @@ FromDefaultBrowserSettingsFragment
 >
 DefaultBrowserSettingsFragmentDirections
 .
-actionDefaultBrowserSettingsFragmentToBrowserFragment
+actionGlobalBrowser
 (
 customTabSessionId
 )
@@ -2224,7 +2224,7 @@ FromSavedLoginsFragment
 >
 SavedLoginsFragmentDirections
 .
-actionSavedLoginsFragmentToBrowserFragment
+actionGlobalBrowser
 (
 customTabSessionId
 )

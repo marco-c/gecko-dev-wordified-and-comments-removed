@@ -883,7 +883,7 @@ class
 .
 simpleName
 "
-ActionHistoryFragmentToShareFragment
+ActionGlobalShareFragment
 "
 )
 assertEquals

@@ -3296,7 +3296,7 @@ directions
 =
 HomeFragmentDirections
 .
-actionHomeFragmentToSearchFragment
+actionGlobalSearch
 (
 sessionId
 =
@@ -3329,7 +3329,7 @@ directions
 =
 HomeFragmentDirections
 .
-actionHomeFragmentToPrivateBrowsingFragment
+actionGlobalPrivateBrowsingFragment
 (
 )
 nav
@@ -3434,7 +3434,7 @@ id
 homeFragment
 HomeFragmentDirections
 .
-actionHomeFragmentToSettingsFragment
+actionGlobalSettingsFragment
 (
 )
 )
@@ -3462,7 +3462,7 @@ id
 homeFragment
 HomeFragmentDirections
 .
-actionHomeFragmentToBookmarksFragment
+actionGlobalBookmarkFragment
 (
 BookmarkRoot
 .
@@ -3495,7 +3495,7 @@ id
 homeFragment
 HomeFragmentDirections
 .
-actionHomeFragmentToHistoryFragment
+actionGlobalHistoryFragment
 (
 )
 )
@@ -3706,7 +3706,7 @@ id
 homeFragment
 HomeFragmentDirections
 .
-actionHomeFragmentToAccountProblemFragment
+actionGlobalAccountProblemFragment
 (
 )
 )

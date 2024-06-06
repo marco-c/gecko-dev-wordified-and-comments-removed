@@ -443,7 +443,7 @@ navigate
 (
 NavGraphDirections
 .
-actionGlobalHomeFragment
+actionGlobalHome
 (
 )
 )
@@ -779,7 +779,7 @@ navigate
 (
 NavGraphDirections
 .
-actionGlobalHomeFragment
+actionGlobalHome
 (
 )
 )

@@ -2607,7 +2607,7 @@ directions
 =
 BrowserFragmentDirections
 .
-actionBrowserFragmentToCreateCollectionFragment
+actionGlobalCollectionCreationFragment
 (
 previousFragmentId
 =
@@ -2751,7 +2751,7 @@ directions
 =
 BrowserFragmentDirections
 .
-actionBrowserFragmentToCreateCollectionFragment
+actionGlobalCollectionCreationFragment
 (
 previousFragmentId
 =

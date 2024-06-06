@@ -999,7 +999,7 @@ id
 historyFragment
 HistoryFragmentDirections
 .
-actionHistoryFragmentToHomeFragment
+actionGlobalHome
 (
 )
 )
@@ -1070,7 +1070,7 @@ id
 historyFragment
 HistoryFragmentDirections
 .
-actionHistoryFragmentToHomeFragment
+actionGlobalHome
 (
 )
 )
@@ -1389,7 +1389,7 @@ directions
 =
 HistoryFragmentDirections
 .
-actionHistoryFragmentToShareFragment
+actionGlobalShareFragment
 (
 data
 =

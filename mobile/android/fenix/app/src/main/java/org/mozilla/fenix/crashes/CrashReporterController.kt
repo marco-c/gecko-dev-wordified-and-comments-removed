@@ -383,7 +383,7 @@ id
 crashReporterFragment
 CrashReporterFragmentDirections
 .
-actionCrashReporterFragmentToHomeFragment
+actionGlobalHome
 (
 )
 )

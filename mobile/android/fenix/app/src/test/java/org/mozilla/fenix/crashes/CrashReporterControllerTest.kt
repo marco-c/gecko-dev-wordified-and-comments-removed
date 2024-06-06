@@ -387,6 +387,7 @@ popBackStack
 }
 Test
 fun
+"
 handle
 close
 and
@@ -472,7 +473,7 @@ navigate
 (
 CrashReporterFragmentDirections
 .
-actionCrashReporterFragmentToHomeFragment
+actionGlobalHome
 (
 )
 null

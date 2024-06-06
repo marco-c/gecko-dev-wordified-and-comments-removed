@@ -534,7 +534,7 @@ directions
 =
 ShareFragmentDirections
 .
-actionShareFragmentToAccountProblemFragment
+actionGlobalAccountProblemFragment
 (
 )
 navController
@@ -813,7 +813,7 @@ directions
 =
 ShareFragmentDirections
 .
-actionShareFragmentToTurnOnSyncFragment
+actionGlobalTurnOnSync
 (
 padSnackbar
 =

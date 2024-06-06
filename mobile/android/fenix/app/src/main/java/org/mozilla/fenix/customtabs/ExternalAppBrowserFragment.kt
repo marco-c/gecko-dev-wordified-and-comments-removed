@@ -1012,7 +1012,7 @@ directions
 =
 ExternalAppBrowserFragmentDirections
 .
-actionExternalAppBrowserFragmentToQuickSettingsSheetDialogFragment
+actionGlobalQuickSettingsSheetDialogFragment
 (
 sessionId
 =
@@ -1116,7 +1116,7 @@ directions
 =
 ExternalAppBrowserFragmentDirections
 .
-actionExternalAppBrowserFragmentToTrackingProtectionPanelDialogFragment
+actionGlobalTrackingProtectionPanelDialogFragment
 (
 sessionId
 =

@@ -596,7 +596,7 @@ navigate
 (
 BookmarkFragmentDirections
 .
-actionBookmarkFragmentToShareFragment
+actionGlobalShareFragment
 (
 data
 =

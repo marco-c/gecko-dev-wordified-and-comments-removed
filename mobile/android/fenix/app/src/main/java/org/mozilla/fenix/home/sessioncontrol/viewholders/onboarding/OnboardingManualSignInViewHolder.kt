@@ -184,7 +184,7 @@ directions
 =
 HomeFragmentDirections
 .
-actionHomeFragmentToTurnOnSyncFragment
+actionGlobalTurnOnSync
 (
 )
 Navigation

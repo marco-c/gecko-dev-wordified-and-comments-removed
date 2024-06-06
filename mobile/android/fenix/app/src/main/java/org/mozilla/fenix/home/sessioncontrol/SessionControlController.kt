@@ -2100,7 +2100,7 @@ directions
 =
 HomeFragmentDirections
 .
-actionHomeFragmentToShareFragment
+actionGlobalShareFragment
 (
 data
 =

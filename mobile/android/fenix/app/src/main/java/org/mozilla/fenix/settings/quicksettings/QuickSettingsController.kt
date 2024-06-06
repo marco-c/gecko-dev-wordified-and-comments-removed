@@ -1315,7 +1315,7 @@ directions
 =
 QuickSettingsSheetDialogFragmentDirections
 .
-actionQuickSettingsSheetDialogFragmentToSitePermissionsManagePhoneFeature
+actionGlobalSitePermissionsManagePhoneFeature
 (
 phoneFeature
 .

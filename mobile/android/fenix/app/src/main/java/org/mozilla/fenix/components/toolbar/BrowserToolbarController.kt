@@ -1434,7 +1434,7 @@ id
 browserFragment
 BrowserFragmentDirections
 .
-actionBrowserFragmentToAddonsManagementFragment
+actionGlobalAddonsManagementFragment
 (
 )
 )
@@ -1477,7 +1477,7 @@ directions
 =
 BrowserFragmentDirections
 .
-actionBrowserFragmentToCreateCollectionFragment
+actionGlobalCollectionCreationFragment
 (
 previousFragmentId
 =
@@ -2003,14 +2003,6 @@ false
 )
 )
 {
-val
-directions
-=
-BrowserFragmentDirections
-.
-actionBrowserFragmentToHomeFragment
-(
-)
 navController
 .
 nav
@@ -2020,8 +2012,11 @@ R
 id
 .
 browserFragment
-directions
-null
+BrowserFragmentDirections
+.
+actionGlobalHome
+(
+)
 )
 }
 }

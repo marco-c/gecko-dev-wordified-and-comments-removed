@@ -494,7 +494,7 @@ navigate
 (
 HistoryFragmentDirections
 .
-actionHistoryFragmentToShareFragment
+actionGlobalShareFragment
 (
 data
 =

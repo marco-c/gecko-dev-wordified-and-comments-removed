@@ -803,7 +803,7 @@ id
 trackingProtectionPanelDialogFragment
 TrackingProtectionPanelDialogFragmentDirections
 .
-actionTrackingProtectionPanelDialogFragmentToTrackingProtectionFragment
+actionGlobalTrackingProtectionFragment
 (
 )
 )

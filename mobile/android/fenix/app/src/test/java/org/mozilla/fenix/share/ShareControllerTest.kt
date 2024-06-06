@@ -1507,7 +1507,7 @@ id
 shareFragment
 ShareFragmentDirections
 .
-actionShareFragmentToTurnOnSyncFragment
+actionGlobalTurnOnSync
 (
 )
 )
@@ -1556,7 +1556,7 @@ id
 shareFragment
 ShareFragmentDirections
 .
-actionShareFragmentToAccountProblemFragment
+actionGlobalAccountProblemFragment
 (
 )
 )

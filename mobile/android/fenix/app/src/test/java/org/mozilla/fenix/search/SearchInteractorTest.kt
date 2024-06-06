@@ -1353,7 +1353,7 @@ id
 searchFragment
 SearchFragmentDirections
 .
-actionSearchFragmentToSearchEngineFragment
+actionGlobalSearchEngineFragment
 (
 )
 )

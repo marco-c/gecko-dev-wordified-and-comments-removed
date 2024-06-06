@@ -127,7 +127,7 @@ Home
 (
 NavGraphDirections
 .
-actionGlobalHomeFragment
+actionGlobalHome
 (
 )
 R
