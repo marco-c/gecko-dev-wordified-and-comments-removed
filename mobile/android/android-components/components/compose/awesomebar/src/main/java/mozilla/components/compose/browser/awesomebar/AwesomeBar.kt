@@ -801,11 +801,11 @@ value
 .
 toSortedMap
 (
-compareBy
+compareByDescending
 {
 it
 .
-title
+priority
 }
 )
 LaunchedEffect
