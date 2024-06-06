@@ -490,7 +490,7 @@ videoTestPage
 .
 title
 )
-clickMediaSystemNotificationControlButton
+clickSystemNotificationControlButton
 (
 "
 Pause
@@ -620,7 +620,7 @@ playing
 media
 "
 )
-clickMediaSystemNotificationControlButton
+clickSystemNotificationControlButton
 (
 "
 Pause
