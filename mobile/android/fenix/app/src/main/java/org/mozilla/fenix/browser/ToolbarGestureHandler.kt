@@ -223,6 +223,16 @@ fenix
 .
 ext
 .
+getRectWithScreenLocation
+import
+org
+.
+mozilla
+.
+fenix
+.
+ext
+.
 getWindowInsets
 import
 org
@@ -1834,7 +1844,7 @@ toolbarLocation
 =
 toolbarLayout
 .
-getRectWithViewLocation
+getRectWithScreenLocation
 (
 )
 /
