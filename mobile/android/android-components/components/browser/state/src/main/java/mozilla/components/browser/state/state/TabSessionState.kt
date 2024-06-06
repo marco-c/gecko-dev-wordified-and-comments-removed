@@ -774,6 +774,11 @@ String
 ?
 =
 null
+hasFormData
+:
+Boolean
+=
+false
 )
 :
 TabSessionState
@@ -802,6 +807,9 @@ searchTerms
 previewImageUrl
 =
 previewImageUrl
+hasFormData
+=
+hasFormData
 )
 parentId
 =

@@ -197,7 +197,9 @@ action
 is
 AppAction
 .
-ResumedMetricsAction
+AppLifecycleAction
+.
+ResumeAction
 -
 >
 {

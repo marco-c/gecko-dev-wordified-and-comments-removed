@@ -519,6 +519,12 @@ Int
 =
 -
 1
+val
+hasFormData
+:
+Boolean
+=
+false
 )
 /
 *
@@ -673,6 +679,11 @@ source
 index
 =
 index
+hasFormData
+=
+content
+.
+hasFormData
 )
 )
 }
@@ -773,6 +784,11 @@ source
 restored
 =
 true
+hasFormData
+=
+state
+.
+hasFormData
 )
 /
 *

@@ -1950,7 +1950,7 @@ dispatch
 (
 ContentAction
 .
-CheckForFormDataAction
+UpdateHasFormDataAction
 (
 tabId
 containsFormData

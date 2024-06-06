@@ -570,7 +570,7 @@ dispatch
 (
 ContentAction
 .
-CheckForFormDataAction
+UpdateHasFormDataAction
 (
 "
 1
@@ -597,7 +597,7 @@ dispatch
 (
 ContentAction
 .
-CheckForFormDataAction
+UpdateHasFormDataAction
 (
 "
 1

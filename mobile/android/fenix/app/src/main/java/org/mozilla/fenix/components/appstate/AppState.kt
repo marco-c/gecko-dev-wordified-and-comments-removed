@@ -601,6 +601,12 @@ class
 AppState
 (
 val
+isForeground
+:
+Boolean
+=
+true
+val
 inactiveTabsExpanded
 :
 Boolean
