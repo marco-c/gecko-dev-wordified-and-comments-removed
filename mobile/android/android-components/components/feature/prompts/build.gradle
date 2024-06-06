@@ -249,6 +249,16 @@ icons
 '
 )
 implementation
+project
+(
+'
+:
+ui
+-
+widgets
+'
+)
+implementation
 ComponentsDependencies
 .
 androidx_constraintlayout

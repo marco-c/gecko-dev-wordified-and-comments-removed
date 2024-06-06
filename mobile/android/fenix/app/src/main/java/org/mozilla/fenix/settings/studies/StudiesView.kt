@@ -205,6 +205,16 @@ Logger
 import
 mozilla
 .
+components
+.
+ui
+.
+widgets
+.
+withCenterAlignedButtons
+import
+mozilla
+.
 telemetry
 .
 glean
@@ -621,6 +631,10 @@ AlertDialog
 builder
 .
 create
+(
+)
+.
+withCenterAlignedButtons
 (
 )
 alertDialog

@@ -219,13 +219,6 @@ true
 "
 android
 :
-gravity
-=
-"
-center_horizontal
-"
-android
-:
 paddingTop
 =
 "
@@ -239,6 +232,13 @@ text
 string
 /
 no_open_tabs_description
+"
+android
+:
+textAlignment
+=
+"
+center
 "
 android
 :

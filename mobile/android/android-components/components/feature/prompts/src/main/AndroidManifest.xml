@@ -156,6 +156,13 @@ READ_MEDIA_AUDIO
 >
 <
 application
+android
+:
+supportsRtl
+=
+"
+true
+"
 >
 <
 provider

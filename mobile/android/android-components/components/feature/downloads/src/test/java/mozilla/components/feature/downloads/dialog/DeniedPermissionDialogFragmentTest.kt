@@ -61,9 +61,9 @@ mozilla
 .
 components
 .
-support
+feature
 .
-base
+downloads
 .
 dialog
 import

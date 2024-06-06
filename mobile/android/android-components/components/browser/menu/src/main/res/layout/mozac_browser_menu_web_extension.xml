@@ -423,6 +423,13 @@ center
 "
 android
 :
+textAlignment
+=
+"
+center
+"
+android
+:
 textStyle
 =
 "

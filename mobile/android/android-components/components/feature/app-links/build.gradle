@@ -273,6 +273,16 @@ session
 '
 )
 implementation
+project
+(
+'
+:
+ui
+-
+widgets
+'
+)
+implementation
 ComponentsDependencies
 .
 kotlin_coroutines

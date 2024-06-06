@@ -93,6 +93,16 @@ app
 .
 Fragment
 import
+mozilla
+.
+components
+.
+ui
+.
+widgets
+.
+withCenterAlignedButtons
+import
 org
 .
 mozilla
@@ -318,6 +328,10 @@ cancel
 )
 }
 create
+(
+)
+.
+withCenterAlignedButtons
 (
 )
 }

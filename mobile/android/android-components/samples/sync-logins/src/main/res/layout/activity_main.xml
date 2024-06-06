@@ -302,6 +302,13 @@ string
 /
 sign_in_webview
 "
+android
+:
+textAlignment
+=
+"
+center
+"
 /
 >
 <

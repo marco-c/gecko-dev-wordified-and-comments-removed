@@ -371,6 +371,13 @@ no_site_exceptions
 "
 android
 :
+textAlignment
+=
+"
+center
+"
+android
+:
 textColor
 =
 "

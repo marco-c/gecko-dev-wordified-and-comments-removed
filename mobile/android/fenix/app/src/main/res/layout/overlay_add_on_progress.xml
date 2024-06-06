@@ -337,6 +337,13 @@ mozac_feature_addons_install_addon_dialog_cancel
 "
 android
 :
+textAlignment
+=
+"
+center
+"
+android
+:
 textAllCaps
 =
 "

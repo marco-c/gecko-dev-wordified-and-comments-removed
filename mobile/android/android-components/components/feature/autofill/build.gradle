@@ -209,6 +209,16 @@ utils
 "
 )
 implementation
+project
+(
+'
+:
+ui
+-
+widgets
+'
+)
+implementation
 ComponentsDependencies
 .
 androidx_annotation
