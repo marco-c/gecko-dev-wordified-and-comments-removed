@@ -436,9 +436,8 @@ wallpaperState
 .
 availableWallpapers
 .
-subList
+take
 (
-0
 THUMBNAILS_COUNT
 )
 }
@@ -493,7 +492,7 @@ dismiss
 (
 )
 }
-onBottomButtonClicked
+onExploreMoreButtonClicked
 =
 {
 val

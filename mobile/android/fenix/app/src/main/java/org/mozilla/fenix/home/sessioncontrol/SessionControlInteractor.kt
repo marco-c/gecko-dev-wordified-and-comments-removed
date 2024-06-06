@@ -1203,6 +1203,7 @@ dialog
 is
 currently
 shown
+.
 *
 /
 fun
