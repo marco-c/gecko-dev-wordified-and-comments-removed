@@ -434,10 +434,10 @@ Modifier
 .
 size
 (
-328
+ITEM_WIDTH
 .
 dp
-116
+ITEM_HEIGHT
 .
 dp
 )
