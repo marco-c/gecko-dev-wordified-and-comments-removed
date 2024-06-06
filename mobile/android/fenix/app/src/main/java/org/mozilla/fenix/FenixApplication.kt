@@ -4252,14 +4252,6 @@ settings
 .
 shouldShowSearchShortcuts
 )
-privateSearchSuggestions
-.
-set
-(
-settings
-.
-shouldShowSearchSuggestionsInPrivate
-)
 voiceSearchEnabled
 .
 set
