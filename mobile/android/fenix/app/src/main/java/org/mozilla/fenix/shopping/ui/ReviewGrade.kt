@@ -794,7 +794,7 @@ FirefoxTheme
 .
 typography
 .
-caption
+body2
 modifier
 =
 Modifier
