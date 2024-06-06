@@ -771,6 +771,16 @@ mDeviceLock
 ;
 RefPtr
 <
+IDXGIFactory1
+>
+mFactory
+MOZ_GUARDED_BY
+(
+mDeviceLock
+)
+;
+RefPtr
+<
 ID3D11Device
 >
 mCompositorDevice
