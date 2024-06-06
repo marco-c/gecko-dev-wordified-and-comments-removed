@@ -25,8 +25,6 @@ modules
 /
 ActorConstants
 .
-sys
-.
 mjs
 "
 ;
