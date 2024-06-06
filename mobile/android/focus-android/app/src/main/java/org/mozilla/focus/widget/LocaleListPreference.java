@@ -835,6 +835,7 @@ attributes
 )
 ;
 }
+public
 interface
 EntriesListener
 {
