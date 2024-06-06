@@ -571,8 +571,13 @@ SupportUtils
 .
 getSumoURLForTopic
 (
+SupportUtils
+.
+getAppVersion
+(
 requireContext
 (
+)
 )
 SupportUtils
 .

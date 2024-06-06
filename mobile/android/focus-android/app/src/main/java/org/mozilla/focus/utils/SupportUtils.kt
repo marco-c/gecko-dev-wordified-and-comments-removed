@@ -570,9 +570,9 @@ escapedTopic
 fun
 getSumoURLForTopic
 (
-context
+appVersion
 :
-Context
+String
 topic
 :
 SumoTopic
@@ -588,13 +588,6 @@ getEncodedTopicUTF8
 topic
 .
 topicStr
-)
-val
-appVersion
-=
-getAppVersion
-(
-context
 )
 val
 osTarget
@@ -740,7 +733,6 @@ e
 )
 }
 }
-private
 fun
 getAppVersion
 (
@@ -939,7 +931,10 @@ data
 =
 getSumoURLForTopic
 (
+getAppVersion
+(
 activity
+)
 SumoTopic
 .
 ADD_SEARCH_ENGINE

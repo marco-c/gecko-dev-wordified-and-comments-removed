@@ -158,7 +158,12 @@ SupportUtils
 .
 getSumoURLForTopic
 (
+SupportUtils
+.
+getAppVersion
+(
 context
+)
 SupportUtils
 .
 SumoTopic

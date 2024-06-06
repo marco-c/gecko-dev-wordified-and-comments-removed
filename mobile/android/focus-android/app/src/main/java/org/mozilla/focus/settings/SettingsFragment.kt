@@ -539,7 +539,12 @@ SupportUtils
 .
 getSumoURLForTopic
 (
+SupportUtils
+.
+getAppVersion
+(
 context
+)
 sumoTopic
 )
 requireComponents
