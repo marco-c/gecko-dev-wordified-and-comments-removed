@@ -74,17 +74,6 @@ mozilla
 .
 focus
 .
-browser
-.
-LocalizedContentGecko
-;
-import
-org
-.
-mozilla
-.
-focus
-.
 session
 .
 Session

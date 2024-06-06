@@ -5,7 +5,7 @@ mozilla
 .
 focus
 .
-browser
+web
 ;
 import
 android
