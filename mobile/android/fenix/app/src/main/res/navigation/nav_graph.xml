@@ -411,13 +411,6 @@ browser
 .
 BrowserFragment
 "
-android
-:
-label
-=
-"
-fragment_browser
-"
 tools
 :
 layout
