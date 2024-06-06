@@ -402,6 +402,14 @@ state
 SavedLoginsFragmentState
 )
 {
+if
+(
+!
+state
+.
+isLoading
+)
+{
 view
 .
 saved_logins_list
@@ -428,6 +436,7 @@ items
 isEmpty
 (
 )
+}
 loginsAdapter
 .
 submitList

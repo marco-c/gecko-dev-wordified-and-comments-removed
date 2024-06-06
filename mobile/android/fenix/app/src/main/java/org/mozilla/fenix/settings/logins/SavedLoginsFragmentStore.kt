@@ -317,6 +317,12 @@ class
 SavedLoginsFragmentState
 (
 val
+isLoading
+:
+Boolean
+=
+false
+val
 items
 :
 List
@@ -373,6 +379,9 @@ state
 .
 copy
 (
+isLoading
+=
+false
 items
 =
 action
@@ -406,6 +415,9 @@ state
 .
 copy
 (
+isLoading
+=
+false
 filteredItems
 =
 state
@@ -419,6 +431,9 @@ state
 .
 copy
 (
+isLoading
+=
+false
 filteredItems
 =
 state
