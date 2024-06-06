@@ -471,7 +471,7 @@ cancel
 companion
 object
 {
-private
+internal
 fun
 pullToRefreshEnableState
 (
@@ -590,7 +590,7 @@ NO_TABS_AVAILABLE
 >
 true
 }
-private
+internal
 fun
 stringResourceForError
 (
@@ -667,7 +667,7 @@ string
 .
 synced_tabs_no_tabs
 }
-private
+internal
 fun
 getErrorItem
 (
