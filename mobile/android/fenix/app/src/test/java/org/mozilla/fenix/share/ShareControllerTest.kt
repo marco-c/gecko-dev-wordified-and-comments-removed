@@ -922,7 +922,7 @@ component
 .
 className
 )
-verifyOrder
+verify
 {
 recentAppStorage
 .
@@ -932,6 +932,9 @@ appShareOption
 .
 activityName
 )
+}
+verifyOrder
+{
 activityContext
 .
 startActivity
