@@ -264,7 +264,7 @@ tint
 "
 color
 /
-contrast_text_normal_theme
+fx_mobile_icon_color_oncolor
 "
 /
 >
@@ -365,7 +365,7 @@ tint
 "
 color
 /
-contrast_text_normal_theme
+fx_mobile_icon_color_oncolor
 "
 /
 >
@@ -466,7 +466,7 @@ tint
 "
 color
 /
-contrast_text_normal_theme
+fx_mobile_icon_color_oncolor
 "
 /
 >
