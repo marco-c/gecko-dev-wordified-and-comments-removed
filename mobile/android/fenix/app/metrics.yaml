@@ -6063,7 +6063,7 @@ type
 event
 description
 :
->
+|
 A
 user
 chose
@@ -6154,7 +6154,7 @@ type
 event
 description
 :
->
+|
 A
 user
 chose
@@ -7690,7 +7690,7 @@ type
 event
 description
 :
->
+|
 The
 tip
 was
@@ -7774,7 +7774,7 @@ type
 event
 description
 :
->
+|
 The
 tip
 '
@@ -7865,7 +7865,7 @@ type
 event
 description
 :
->
+|
 The
 tip
 was

@@ -3918,6 +3918,7 @@ tapped
 Available
 items
 are
+:
 open_in_new_tab
 open_in_private_tab
 open_image_in_new_tab
@@ -5435,6 +5436,7 @@ or
 '
 NORMAL
 '
+.
 <
 /
 li
@@ -5871,6 +5873,7 @@ pref_key_sync_bookmarks
 pref_key_sync_history
 and
 pref_key_show_search_suggestions_in_private
+.
 <
 /
 li
@@ -15485,7 +15488,6 @@ reported
 as
 a
 metric
-.
 |
 [
 1
