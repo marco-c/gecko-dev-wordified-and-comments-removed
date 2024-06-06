@@ -308,6 +308,12 @@ toUri
 )
 )
 {
+waitForPageToLoad
+(
+)
+verifyNotificationDotOnMainMenu
+(
+)
 }
 .
 openThreeDotMenu
@@ -365,6 +371,9 @@ toUri
 waitForPageToLoad
 (
 )
+verifyNotificationDotOnMainMenu
+(
+)
 }
 .
 openThreeDotMenu
@@ -418,6 +427,9 @@ toUri
 )
 {
 waitForPageToLoad
+(
+)
+verifyNotificationDotOnMainMenu
 (
 )
 }
