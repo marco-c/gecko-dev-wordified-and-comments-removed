@@ -1253,6 +1253,13 @@ BOTTOM
 -
 >
 {
+if
+(
+settings
+.
+isDynamicToolbarEnabled
+)
+{
 (
 view
 .
@@ -1275,6 +1282,13 @@ view
 .
 context
 null
+)
+}
+}
+else
+{
+expand
+(
 )
 }
 }
