@@ -7996,8 +7996,7 @@ expectedConfirmation
 attention
 "
 :
-"
-"
+null
 usernameValue
 :
 expectedDoorhangerUsername
