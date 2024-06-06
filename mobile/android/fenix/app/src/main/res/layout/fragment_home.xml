@@ -571,13 +571,6 @@ background
 ?
 bottomBarBackground
 "
-android
-:
-paddingBottom
-=
-"
-2dp
-"
 app
 :
 layout_constraintBottom_toBottomOf
