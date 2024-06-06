@@ -449,6 +449,13 @@ InactiveTabsController
 store
 tabFilter
 this
+context
+.
+components
+.
+analytics
+.
+metrics
 )
 )
 }

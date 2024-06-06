@@ -328,6 +328,9 @@ open
 any
 (
 )
+holder
+.
+featureName
 )
 }
 }
@@ -432,6 +435,9 @@ open
 any
 (
 )
+holder
+.
+featureName
 )
 }
 assertTrue
@@ -477,6 +483,13 @@ val
 browserTrayInteractor
 :
 BrowserTrayInteractor
+featureName
+:
+String
+=
+"
+Test
+"
 )
 :
 AbstractBrowserTabViewHolder
@@ -485,6 +498,7 @@ itemView
 imageLoader
 trayStore
 selectionHolder
+featureName
 store
 metrics
 )

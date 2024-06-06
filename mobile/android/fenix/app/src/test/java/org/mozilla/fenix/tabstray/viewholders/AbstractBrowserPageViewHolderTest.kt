@@ -280,6 +280,9 @@ BrowserTabsAdapter
 testContext
 browserTrayInteractor
 store
+"
+Test
+"
 )
 Test
 fun

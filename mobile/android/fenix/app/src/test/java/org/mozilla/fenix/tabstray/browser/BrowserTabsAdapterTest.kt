@@ -268,6 +268,9 @@ BrowserTabsAdapter
 context
 interactor
 store
+"
+Test
+"
 )
 val
 holder
@@ -368,6 +371,9 @@ BrowserTabsAdapter
 context
 interactor
 store
+"
+Test
+"
 )
 val
 binding
@@ -409,6 +415,11 @@ itemView
 binding
 .
 root
+featureName
+=
+"
+Test
+"
 )
 )
 val
