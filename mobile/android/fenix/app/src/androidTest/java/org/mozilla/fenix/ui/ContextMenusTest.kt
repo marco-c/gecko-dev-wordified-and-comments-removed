@@ -571,7 +571,7 @@ Link
 "
 )
 )
-verifyLinkContextMenuItems
+verifyContextMenuForLocalHostLinks
 (
 genericURL
 .
@@ -685,7 +685,7 @@ Link
 "
 )
 )
-verifyLinkContextMenuItems
+verifyContextMenuForLocalHostLinks
 (
 genericURL
 .
@@ -793,7 +793,7 @@ Link
 "
 )
 )
-verifyLinkContextMenuItems
+verifyContextMenuForLocalHostLinks
 (
 genericURL
 .
@@ -882,7 +882,7 @@ Link
 "
 )
 )
-verifyLinkContextMenuItems
+verifyContextMenuForLocalHostLinks
 (
 genericURL
 .
@@ -993,7 +993,7 @@ Link
 "
 )
 )
-verifyLinkContextMenuItems
+verifyContextMenuForLocalHostLinks
 (
 genericURL
 .
@@ -1362,7 +1362,7 @@ Link
 "
 )
 )
-verifyLinkContextMenuItems
+verifyContextMenuForLocalHostLinks
 (
 genericURL
 .
@@ -1457,7 +1457,7 @@ link
 "
 )
 )
-verifyLinkContextMenuItems
+verifyContextMenuForLinksToOtherHosts
 (
 "
 wikipedia
@@ -1468,7 +1468,6 @@ org
 toUri
 (
 )
-false
 )
 dismissContentContextMenu
 (
@@ -1517,7 +1516,7 @@ details
 longClickPDFImage
 (
 )
-verifyLinkContextMenuItems
+verifyContextMenuForLinksToOtherHosts
 (
 "
 wikipedia
@@ -1568,6 +1567,18 @@ itemContainingText
 Youtube
 link
 "
+)
+)
+verifyContextMenuForLinksToOtherApps
+(
+"
+youtube
+.
+com
+"
+.
+toUri
+(
 )
 )
 clickContextMenuItem
