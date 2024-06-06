@@ -171,6 +171,8 @@ org
 mozilla
 .
 fenix
+.
+nightly
 "
 android
 :
@@ -260,6 +262,8 @@ org
 mozilla
 .
 fenix
+.
+nightly
 "
 android
 :
