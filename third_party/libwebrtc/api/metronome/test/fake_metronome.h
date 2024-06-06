@@ -202,6 +202,13 @@ tick_period
 )
 ;
 void
+SetTickPeriod
+(
+TimeDelta
+tick_period
+)
+;
+void
 RequestCallOnNextTick
 (
 absl
@@ -228,7 +235,6 @@ override
 ;
 private
 :
-const
 TimeDelta
 tick_period_
 ;

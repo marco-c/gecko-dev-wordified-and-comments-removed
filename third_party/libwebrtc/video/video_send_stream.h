@@ -47,6 +47,17 @@ include
 "
 api
 /
+metronome
+/
+metronome
+.
+h
+"
+#
+include
+"
+api
+/
 sequence_checker
 .
 h
@@ -239,6 +250,9 @@ call_stats
 RtpTransportControllerSendInterface
 *
 transport
+Metronome
+*
+metronome
 BitrateAllocatorInterface
 *
 bitrate_allocator

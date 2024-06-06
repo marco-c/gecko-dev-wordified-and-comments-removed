@@ -3703,6 +3703,15 @@ Metronome
 >
 decode_metronome
 ;
+std
+:
+:
+unique_ptr
+<
+Metronome
+>
+encode_metronome
+;
 rtc
 :
 :

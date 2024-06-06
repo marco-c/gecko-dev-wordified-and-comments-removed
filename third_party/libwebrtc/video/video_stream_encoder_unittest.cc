@@ -5261,6 +5261,8 @@ GetClock
 (
 )
 encoder_queue_ptr
+nullptr
+nullptr
 field_trials_
 )
 ;
@@ -56002,6 +56004,8 @@ encoder_queue
 get
 (
 )
+nullptr
+nullptr
 field_trials
 )
 ;
