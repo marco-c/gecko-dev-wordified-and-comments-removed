@@ -306,7 +306,7 @@ actionSecondary
 =
 PhotonColors
 .
-DarkGrey50
+DarkGrey10
 formDefault
 =
 PhotonColors
