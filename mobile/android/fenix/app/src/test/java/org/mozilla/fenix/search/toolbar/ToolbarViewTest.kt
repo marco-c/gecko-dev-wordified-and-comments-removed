@@ -372,7 +372,7 @@ R
 .
 drawable
 .
-mozac_ic_search
+ic_search
 )
 !
 !

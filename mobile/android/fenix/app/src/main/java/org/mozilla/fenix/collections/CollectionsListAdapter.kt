@@ -343,7 +343,7 @@ R
 .
 drawable
 .
-mozac_ic_new
+ic_new
 )
 )
 }

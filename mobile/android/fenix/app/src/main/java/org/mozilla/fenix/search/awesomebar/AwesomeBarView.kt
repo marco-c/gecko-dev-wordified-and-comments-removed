@@ -843,7 +843,7 @@ R
 .
 drawable
 .
-mozac_ic_search
+ic_search
 )
 !
 !
@@ -1690,7 +1690,7 @@ R
 .
 drawable
 .
-mozac_ic_search
+ic_search
 )
 !
 !

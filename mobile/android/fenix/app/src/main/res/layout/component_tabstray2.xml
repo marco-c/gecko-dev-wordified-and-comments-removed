@@ -497,7 +497,7 @@ srcCompat
 "
 drawable
 /
-mozac_ic_close
+ic_close
 "
 app
 :
@@ -1024,7 +1024,7 @@ srcCompat
 "
 drawable
 /
-mozac_ic_menu
+ic_menu
 "
 app
 :

@@ -4808,7 +4808,7 @@ R
 .
 drawable
 .
-mozac_ic_back
+ic_back_button
 )
 isToolbarInflated
 =

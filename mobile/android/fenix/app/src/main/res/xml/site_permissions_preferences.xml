@@ -184,7 +184,7 @@ icon
 "
 drawable
 /
-mozac_ic_video
+ic_camera_enabled
 "
 android
 :
@@ -228,7 +228,7 @@ icon
 "
 drawable
 /
-mozac_ic_location
+ic_location_enabled
 "
 android
 :
@@ -272,7 +272,7 @@ icon
 "
 drawable
 /
-mozac_ic_microphone
+ic_microphone_enabled
 "
 android
 :
@@ -316,7 +316,7 @@ icon
 "
 drawable
 /
-mozac_ic_notification
+ic_notifications_enabled
 "
 android
 :
@@ -520,7 +520,7 @@ icon
 "
 drawable
 /
-mozac_ic_globe
+ic_internet
 "
 android
 :

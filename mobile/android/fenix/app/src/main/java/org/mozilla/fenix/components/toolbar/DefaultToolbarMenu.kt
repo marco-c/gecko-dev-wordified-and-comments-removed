@@ -741,7 +741,7 @@ R
 .
 drawable
 .
-mozac_ic_extensions
+ic_addons_extensions
 )
 onAddonsManagerTapped
 =
@@ -1146,7 +1146,7 @@ R
 .
 drawable
 .
-mozac_ic_share
+ic_share
 contentDescription
 =
 context
@@ -1473,7 +1473,7 @@ R
 .
 drawable
 .
-mozac_ic_new
+ic_new
 primaryTextColor
 (
 )
@@ -1545,7 +1545,7 @@ R
 .
 drawable
 .
-mozac_ic_download
+ic_download
 primaryTextColor
 (
 )
@@ -1626,7 +1626,7 @@ R
 .
 drawable
 .
-mozac_ic_device_desktop
+ic_desktop
 label
 =
 context
@@ -1894,14 +1894,14 @@ R
 .
 drawable
 .
-mozac_ic_pin
+ic_top_sites
 secondaryStateIconResource
 =
 R
 .
 drawable
 .
-mozac_ic_pin
+ic_top_sites
 iconTintColorResource
 =
 primaryTextColor

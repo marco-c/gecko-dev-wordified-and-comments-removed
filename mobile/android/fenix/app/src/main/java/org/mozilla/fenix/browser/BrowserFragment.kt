@@ -1055,7 +1055,7 @@ R
 .
 drawable
 .
-mozac_ic_reader_mode
+ic_readermode
 )
 !
 !

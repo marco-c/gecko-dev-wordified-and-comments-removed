@@ -963,7 +963,7 @@ R
 .
 drawable
 .
-mozac_ic_device_desktop
+ic_desktop
 label
 =
 context

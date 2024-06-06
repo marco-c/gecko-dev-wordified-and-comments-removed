@@ -720,7 +720,7 @@ R
 .
 drawable
 .
-mozac_ic_device_desktop
+ic_desktop
 label
 =
 context
@@ -869,7 +869,7 @@ R
 .
 drawable
 .
-mozac_ic_download
+ic_download
 primaryTextColor
 )
 {
@@ -901,7 +901,7 @@ R
 .
 drawable
 .
-mozac_ic_extensions
+ic_addons_extensions
 primaryTextColor
 )
 {

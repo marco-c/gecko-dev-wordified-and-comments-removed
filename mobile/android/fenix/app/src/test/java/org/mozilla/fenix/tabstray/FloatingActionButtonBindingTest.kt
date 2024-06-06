@@ -690,7 +690,7 @@ R
 .
 drawable
 .
-mozac_ic_new
+ic_new
 )
 }
 verify
@@ -818,7 +818,7 @@ R
 .
 drawable
 .
-mozac_ic_new
+ic_new
 )
 }
 verify

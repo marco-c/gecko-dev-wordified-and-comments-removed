@@ -262,7 +262,7 @@ R
 .
 drawable
 .
-mozac_ic_close
+ic_close
 ContextCompat
 .
 getColor
@@ -478,7 +478,7 @@ R
 .
 drawable
 .
-mozac_ic_new
+ic_new
 ContextCompat
 .
 getColor
