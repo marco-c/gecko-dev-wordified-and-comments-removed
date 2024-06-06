@@ -475,7 +475,7 @@ getItemCount
 :
 Int
 =
-0
+100
 override
 fun
 onBindViewHolder
