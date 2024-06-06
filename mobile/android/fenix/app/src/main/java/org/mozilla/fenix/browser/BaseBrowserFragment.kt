@@ -1513,6 +1513,13 @@ nestedScrollQuickAction
 scope
 =
 lifecycleScope
+tabCollectionStorage
+=
+requireComponents
+.
+core
+.
+tabCollectionStorage
 )
 browserInteractor
 =
