@@ -110,7 +110,7 @@ leakcanary
 "
 2
 .
-3
+4
 "
 const
 val
@@ -176,9 +176,11 @@ androidx_biometric
 "
 1
 .
-0
-.
 1
+.
+0
+-
+alpha01
 "
 const
 val
@@ -268,9 +270,9 @@ androidx_navigation
 "
 2
 .
-2
+3
 .
-1
+0
 "
 const
 val
@@ -438,7 +440,7 @@ airbnb_lottie
 "
 3
 .
-3
+4
 .
 0
 "
