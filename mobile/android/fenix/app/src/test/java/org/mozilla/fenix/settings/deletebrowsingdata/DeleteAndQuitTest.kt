@@ -97,12 +97,6 @@ io
 .
 mockk
 .
-verify
-import
-io
-.
-mockk
-.
 verifyOrder
 import
 kotlinx
@@ -544,7 +538,7 @@ finish
 (
 )
 }
-verify
+coVerify
 (
 exactly
 =
@@ -660,7 +654,7 @@ activity
 this
 snackbar
 )
-verify
+coVerify
 (
 exactly
 =

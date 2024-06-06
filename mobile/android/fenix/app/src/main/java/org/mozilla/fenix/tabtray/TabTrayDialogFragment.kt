@@ -2300,9 +2300,7 @@ lifecycleScope
 .
 launch
 (
-Dispatchers
-.
-IO
+Main
 )
 {
 tabCollectionStorage
@@ -2338,11 +2336,6 @@ sessionList
 size
 )
 )
-launch
-(
-Main
-)
-{
 tabTrayDialogStore
 .
 dispatch
@@ -2356,7 +2349,6 @@ dialog
 dismiss
 (
 )
-}
 }
 }
 .

@@ -478,7 +478,7 @@ controller
 deleteSitePermissions
 (
 )
-verify
+coVerify
 {
 engine
 .

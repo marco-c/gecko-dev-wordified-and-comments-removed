@@ -165,14 +165,6 @@ coroutines
 .
 Dispatchers
 .
-IO
-import
-kotlinx
-.
-coroutines
-.
-Dispatchers
-.
 Main
 import
 kotlinx
@@ -873,7 +865,7 @@ lifecycleScope
 .
 launch
 (
-IO
+Main
 )
 {
 requireComponents
@@ -886,11 +878,6 @@ updateSitePermissions
 (
 updatedSitePermissions
 )
-launch
-(
-Main
-)
-{
 requireComponents
 .
 tryReloadTabBy
@@ -899,7 +886,6 @@ updatedSitePermissions
 .
 origin
 )
-}
 }
 }
 }

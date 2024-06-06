@@ -426,15 +426,12 @@ tabs
 .
 *
 param
-ioScope
+scope
 Coroutine
 scope
-that
-launches
-on
-the
-IO
-thread
+to
+launch
+coroutines
 .
 *
 /
@@ -472,7 +469,7 @@ sessionManager
 SessionManager
 private
 val
-ioScope
+scope
 :
 CoroutineScope
 )
@@ -520,7 +517,7 @@ toSessionBundle
 (
 sessionManager
 )
-ioScope
+scope
 .
 launch
 {
@@ -566,7 +563,7 @@ String
 dismiss
 (
 )
-ioScope
+scope
 .
 launch
 {
@@ -701,7 +698,7 @@ toSessionBundle
 (
 sessionManager
 )
-ioScope
+scope
 .
 launch
 {

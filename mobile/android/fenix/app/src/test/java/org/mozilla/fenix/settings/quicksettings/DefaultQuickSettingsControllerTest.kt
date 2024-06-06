@@ -89,6 +89,12 @@ io
 .
 mockk
 .
+coVerifyOrder
+import
+io
+.
+mockk
+.
 every
 import
 io
@@ -114,12 +120,6 @@ io
 mockk
 .
 verify
-import
-io
-.
-mockk
-.
-verifyOrder
 import
 kotlinx
 .
@@ -1089,7 +1089,7 @@ testPermissions
 advanceUntilIdle
 (
 )
-verifyOrder
+coVerifyOrder
 {
 permissionStorage
 .

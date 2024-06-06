@@ -1185,11 +1185,6 @@ else
 viewLifecycleScope
 .
 launch
-(
-Dispatchers
-.
-IO
-)
 {
 tabCollectionStorage
 .
