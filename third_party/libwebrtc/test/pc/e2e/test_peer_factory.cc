@@ -1926,6 +1926,17 @@ pcf_deps
 )
 )
 ;
+peer_connection_factory
+-
+>
+SetOptions
+(
+params
+-
+>
+peer_connection_factory_options
+)
+;
 PeerConnectionDependencies
 pc_deps
 =
