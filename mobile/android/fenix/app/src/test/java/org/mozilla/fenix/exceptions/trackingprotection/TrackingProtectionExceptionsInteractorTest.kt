@@ -526,6 +526,13 @@ List
 EngineSession
 >
 ?
+onRemove
+:
+(
+)
+-
+>
+Unit
 )
 {
 removedAll
