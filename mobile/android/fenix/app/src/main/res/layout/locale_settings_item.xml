@@ -135,9 +135,9 @@ string
 /
 a11y_selected_locale_content_description
 "
-android
+app
 :
-src
+srcCompat
 =
 "
 drawable
