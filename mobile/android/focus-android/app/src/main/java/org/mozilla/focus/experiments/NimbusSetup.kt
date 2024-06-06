@@ -534,11 +534,12 @@ Logger
 error
 (
 "
-Nimubs
+Nimbus
 error
 :
 message
 "
+throwable
 )
 }
 )
