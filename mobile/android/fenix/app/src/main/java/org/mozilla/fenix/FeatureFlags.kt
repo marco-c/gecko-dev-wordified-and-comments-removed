@@ -431,7 +431,7 @@ Config
 .
 channel
 .
-isDebug
+isNightlyOrDebug
 /
 *
 *
