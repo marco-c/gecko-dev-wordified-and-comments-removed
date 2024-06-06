@@ -309,6 +309,8 @@ type
 b
 -
 linux
+-
+gcp
 b
 -
 android
@@ -341,6 +343,8 @@ b
 linux
 -
 large
+-
+gcp
 b
 -
 android
@@ -373,6 +377,8 @@ b
 linux
 -
 xlarge
+-
+gcp
 beetmover
 :
 provisioner
@@ -502,6 +508,8 @@ type
 :
 '
 images
+-
+gcp
 '
 #
 misc
@@ -544,6 +552,8 @@ type
 b
 -
 linux
+-
+gcp
 '
 push
 -
