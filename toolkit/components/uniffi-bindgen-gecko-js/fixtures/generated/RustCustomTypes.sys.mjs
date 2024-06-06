@@ -2340,7 +2340,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-39
+43
 /
 /
 custom_types

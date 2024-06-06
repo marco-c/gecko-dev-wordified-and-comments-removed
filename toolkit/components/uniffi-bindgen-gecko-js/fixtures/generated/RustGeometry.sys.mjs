@@ -2446,7 +2446,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-44
+48
 /
 /
 geometry
@@ -2608,7 +2608,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-45
+49
 /
 /
 geometry
