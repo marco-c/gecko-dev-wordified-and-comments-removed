@@ -598,6 +598,13 @@ color
 /
 colorErasePressed
 "
+android
+:
+visibility
+=
+"
+gone
+"
 app
 :
 fabSize
