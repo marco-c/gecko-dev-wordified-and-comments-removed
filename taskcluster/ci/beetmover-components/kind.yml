@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-taskgraph
+gecko_taskgraph
 .
 loader
 .
@@ -92,7 +92,7 @@ transforms
 .
 treeherder
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -113,7 +113,7 @@ components
 post
 -
 signing
-tasks
+jobs
 :
 push
 -
@@ -178,16 +178,6 @@ version
 artifact_file_name
 }
 '
-run
--
-on
--
-tasks
--
-for
-:
-[
-]
 shipping
 -
 phase
@@ -195,8 +185,6 @@ phase
 ship
 treeherder
 :
-job
--
 symbol
 :
 by
@@ -332,3 +320,5 @@ worker
 type
 :
 beetmover
+-
+android
