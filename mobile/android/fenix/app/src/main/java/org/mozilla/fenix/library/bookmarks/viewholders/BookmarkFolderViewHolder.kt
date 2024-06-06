@@ -304,9 +304,11 @@ inRoots
 )
 )
 {
-setupMenu
+updateMenu
 (
 item
+.
+type
 )
 if
 (

@@ -252,9 +252,11 @@ this
 item
 =
 item
-setupMenu
+updateMenu
 (
 item
+.
+type
 )
 if
 (

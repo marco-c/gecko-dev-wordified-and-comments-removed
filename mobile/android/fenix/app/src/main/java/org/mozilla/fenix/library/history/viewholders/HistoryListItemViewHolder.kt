@@ -705,6 +705,8 @@ history_layout
 attachMenu
 (
 historyMenu
+.
+menuController
 )
 }
 companion

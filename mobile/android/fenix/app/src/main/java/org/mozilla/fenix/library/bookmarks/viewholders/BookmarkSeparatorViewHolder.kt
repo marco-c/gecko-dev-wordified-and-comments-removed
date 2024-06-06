@@ -194,9 +194,11 @@ ItemType
 .
 SEPARATOR
 )
-setupMenu
+updateMenu
 (
 item
+.
+type
 )
 }
 override
