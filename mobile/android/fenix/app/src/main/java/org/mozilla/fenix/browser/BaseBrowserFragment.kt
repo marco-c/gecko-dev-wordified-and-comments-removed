@@ -2436,6 +2436,7 @@ FetchDownloadManager
 context
 .
 applicationContext
+store
 DownloadService
 :
 :
