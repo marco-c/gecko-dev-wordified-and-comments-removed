@@ -580,9 +580,7 @@ compileAcCmd
 =
 [
 "
-{
-androidComponentsLocalPath
-}
+.
 /
 gradlew
 "
