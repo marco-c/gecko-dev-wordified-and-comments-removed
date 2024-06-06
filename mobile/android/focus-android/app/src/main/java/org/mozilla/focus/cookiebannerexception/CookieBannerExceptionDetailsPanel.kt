@@ -558,7 +558,7 @@ R
 .
 string
 .
-cookie_banner_exception_panel_description_state_off_for_site
+cookie_banner_exception_panel_description_state_off_for_site2
 }
 else
 {
