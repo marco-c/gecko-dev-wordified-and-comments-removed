@@ -228,8 +228,6 @@ void
 tearDown
 (
 )
-throws
-Exception
 {
 mActivityTestRule
 .
@@ -249,7 +247,6 @@ OnBoardingTest
 (
 )
 throws
-InterruptedException
 UiObjectNotFoundException
 {
 TestHelper
