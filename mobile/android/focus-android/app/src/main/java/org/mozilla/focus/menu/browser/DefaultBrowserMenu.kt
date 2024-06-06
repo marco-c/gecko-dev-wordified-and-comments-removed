@@ -721,7 +721,7 @@ R
 .
 drawable
 .
-mozac_ic_share
+mozac_ic_share_android_24
 contentDescription
 =
 context
