@@ -87,6 +87,12 @@ BitmapDrawable
 import
 androidx
 .
+annotation
+.
+VisibleForTesting
+import
+androidx
+.
 appcompat
 .
 content
@@ -401,7 +407,8 @@ engine
 Engine
 )
 {
-private
+VisibleForTesting
+internal
 var
 isInitialized
 =
