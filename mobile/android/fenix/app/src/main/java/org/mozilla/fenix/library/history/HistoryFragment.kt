@@ -1680,16 +1680,6 @@ history_search
 -
 >
 {
-GleanHistory
-.
-searchIconTapped
-.
-record
-(
-NoExtras
-(
-)
-)
 historyInteractor
 .
 onSearch
