@@ -554,16 +554,6 @@ By
 res
 (
 "
-org
-.
-mozilla
-.
-fenix
-.
-debug
-:
-id
-/
 submit
 -
 btn
