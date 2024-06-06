@@ -3420,6 +3420,12 @@ ExperimentalComposeUiApi
 :
 class
 )
+Suppress
+(
+"
+Deprecation
+"
+)
 Composable
 fun
 PoweredByPocketHeader

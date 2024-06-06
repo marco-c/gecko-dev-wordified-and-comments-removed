@@ -825,6 +825,12 @@ dp
 }
 }
 Composable
+Suppress
+(
+"
+Deprecation
+"
+)
 private
 fun
 WallpaperGroupHeading

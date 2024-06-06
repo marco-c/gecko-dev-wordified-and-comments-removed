@@ -83,6 +83,16 @@ mozilla
 .
 fenix
 .
+compose
+.
+LinkTextState
+import
+org
+.
+mozilla
+.
+fenix
+.
 nimbus
 .
 OnboardingCardData

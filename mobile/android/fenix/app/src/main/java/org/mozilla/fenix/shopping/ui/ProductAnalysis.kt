@@ -1639,6 +1639,12 @@ onTurnOffReviewQualityCheckClick
 }
 }
 }
+Suppress
+(
+"
+Deprecation
+"
+)
 Composable
 private
 fun
