@@ -481,6 +481,13 @@ onTabCounterClicked
 (
 )
 fun
+onTabCounterMenuItemTapped
+(
+item
+:
+TabCounterMenuItem
+)
+fun
 onBrowserMenuDismissed
 (
 lowPrioHighlightItems
