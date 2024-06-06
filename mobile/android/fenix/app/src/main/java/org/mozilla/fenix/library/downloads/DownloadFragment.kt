@@ -576,6 +576,13 @@ downloads
 .
 values
 .
+distinctBy
+{
+it
+.
+fileName
+}
+.
 sortedByDescending
 {
 it
