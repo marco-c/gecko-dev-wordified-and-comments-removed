@@ -1219,10 +1219,13 @@ ratingAccessibleView
 setText
 (
 "
+Rating
+:
 4
 .
 50
-/
+out
+of
 5
 "
 )

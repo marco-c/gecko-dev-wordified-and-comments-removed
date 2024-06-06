@@ -1727,7 +1727,7 @@ R
 .
 string
 .
-mozac_feature_addons_rating_content_description
+mozac_feature_addons_rating_content_description_2
 )
 it
 .
