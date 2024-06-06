@@ -197,6 +197,7 @@ string
 pref_key_telemetry
 )
 )
+?
 .
 apply
 {

@@ -170,7 +170,7 @@ androidx_appcompat
 .
 0
 -
-alpha02
+alpha03
 "
 const
 val
@@ -196,7 +196,7 @@ androidx_preference
 .
 0
 -
-alpha03
+alpha04
 "
 const
 val
@@ -216,9 +216,11 @@ androidx_annotation
 "
 1
 .
-0
-.
 1
+.
+0
+-
+alpha02
 "
 const
 val
@@ -227,9 +229,11 @@ androidx_lifecycle
 "
 2
 .
-0
+1
 .
 0
+-
+alpha03
 "
 const
 val
@@ -242,7 +246,7 @@ androidx_fragment
 .
 0
 -
-alpha04
+alpha05
 "
 const
 val

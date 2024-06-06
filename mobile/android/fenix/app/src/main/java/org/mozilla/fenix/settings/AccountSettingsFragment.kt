@@ -320,7 +320,8 @@ val
 signOut
 =
 context
-?
+!
+!
 .
 getPreferenceKey
 (
@@ -341,6 +342,7 @@ Preference
 signOut
 )
 preferenceSignOut
+?
 .
 onPreferenceClickListener
 =
@@ -355,7 +357,8 @@ val
 syncNow
 =
 context
-?
+!
+!
 .
 getPreferenceKey
 (
@@ -375,6 +378,11 @@ Preference
 (
 syncNow
 )
+preferenceSyncNow
+?
+.
+let
+{
 preferenceSyncNow
 .
 onPreferenceClickListener
@@ -432,6 +440,7 @@ preferenceSyncNow
 isEnabled
 =
 true
+}
 }
 /
 /
@@ -581,7 +590,8 @@ Preference
 >
 (
 context
-?
+!
+!
 .
 getPreferenceKey
 (
@@ -593,6 +603,7 @@ pref_key_sync_now
 )
 )
 pref
+?
 .
 title
 =
@@ -605,6 +616,7 @@ string
 sync_syncing
 )
 pref
+?
 .
 isEnabled
 =
@@ -641,7 +653,8 @@ Preference
 >
 (
 context
-?
+!
+!
 .
 getPreferenceKey
 (
@@ -652,6 +665,11 @@ string
 pref_key_sync_now
 )
 )
+pref
+?
+.
+let
+{
 pref
 .
 title
@@ -679,6 +697,7 @@ failed
 =
 false
 )
+}
 }
 }
 /
@@ -718,7 +737,8 @@ Preference
 >
 (
 context
-?
+!
+!
 .
 getPreferenceKey
 (
@@ -729,6 +749,11 @@ string
 pref_key_sync_now
 )
 )
+pref
+?
+.
+let
+{
 pref
 .
 title
@@ -756,6 +781,7 @@ failed
 =
 true
 )
+}
 }
 }
 }
