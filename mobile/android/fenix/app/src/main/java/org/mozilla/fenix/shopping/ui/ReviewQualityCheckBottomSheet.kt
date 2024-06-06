@@ -610,6 +610,9 @@ Error
 {
 ProductAnalysisError
 (
+error
+=
+productReviewState
 productRecommendationsEnabled
 =
 state

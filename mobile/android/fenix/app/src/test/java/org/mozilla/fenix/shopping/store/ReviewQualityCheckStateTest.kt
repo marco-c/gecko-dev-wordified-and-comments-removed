@@ -1101,7 +1101,7 @@ analysisStatus
 =
 AnalysisStatus
 .
-COMPLETED
+UP_TO_DATE
 )
 val
 analysisWithoutRatings
