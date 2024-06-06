@@ -3214,9 +3214,9 @@ feature
 =
 PromptFeature
 (
-fragment
+activity
 =
-this
+activity
 store
 =
 store
