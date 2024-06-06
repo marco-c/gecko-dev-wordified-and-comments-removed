@@ -491,9 +491,10 @@ PocketRecommendedStory
 "
 "
 "
+"
+"
 0
-"
-"
+0
 )
 )
 val
@@ -568,9 +569,10 @@ PocketRecommendedStory
 "
 "
 "
+"
+"
 0
-"
-"
+0
 )
 )
 val
@@ -1307,9 +1309,10 @@ PocketRecommendedStory
 "
 "
 "
-0
 "
 "
+1
+1
 )
 )
 val

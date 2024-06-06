@@ -2758,6 +2758,13 @@ Category
 #
 randomNumber
 "
+timesShown
+=
+randomNumber
+.
+toLong
+(
+)
 )
 )
 }
