@@ -660,7 +660,7 @@ name
 tab_tray_add_new_collection_name
 "
 >
-Ime
+Naziv
 <
 /
 string
@@ -6263,7 +6263,7 @@ preferences_search
 "
 >
 Tra
-i
+ilica
 <
 /
 string
@@ -31176,7 +31176,7 @@ name
 search_add_custom_engine_name_hint
 "
 >
-Ime
+Naziv
 <
 /
 string
