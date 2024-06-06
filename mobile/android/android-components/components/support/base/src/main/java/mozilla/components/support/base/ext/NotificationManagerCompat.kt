@@ -57,11 +57,13 @@ MPL
 *
 /
 package
-org
-.
 mozilla
 .
-fenix
+components
+.
+support
+.
+base
 .
 ext
 import
