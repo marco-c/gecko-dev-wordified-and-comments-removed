@@ -199,7 +199,7 @@ center_vertical
 "
 android
 :
-layout_marginStart
+paddingStart
 =
 "
 dimen

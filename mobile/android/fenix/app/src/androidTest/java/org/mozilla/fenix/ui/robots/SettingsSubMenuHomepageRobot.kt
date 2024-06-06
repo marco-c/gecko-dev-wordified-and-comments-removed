@@ -347,7 +347,7 @@ R
 .
 string
 .
-top_sites_toggle_top_recent_sites_3
+top_sites_toggle_top_recent_sites_4
 )
 )
 )
