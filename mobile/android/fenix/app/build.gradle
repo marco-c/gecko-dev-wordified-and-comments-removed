@@ -6679,6 +6679,10 @@ androidx_lifecycle_viewmodel
 implementation
 ComponentsDependencies
 .
+androidx_lifecycle_service
+implementation
+ComponentsDependencies
+.
 androidx_core
 implementation
 ComponentsDependencies
