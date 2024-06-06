@@ -426,6 +426,9 @@ it
 orientation
 =
 orientation
+forceOrientation
+=
+true
 )
 }
 setBackgroundResource
