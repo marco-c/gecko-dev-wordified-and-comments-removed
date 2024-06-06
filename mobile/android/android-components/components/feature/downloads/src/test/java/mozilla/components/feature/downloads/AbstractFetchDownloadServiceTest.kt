@@ -2039,7 +2039,7 @@ WHEN
 handleRemovePrivateDownloadIntent
 with
 a
-privae
+private
 download
 is
 called
@@ -2154,6 +2154,15 @@ service
 handleRemovePrivateDownloadIntent
 (
 downloadState
+)
+verify
+(
+service
+)
+.
+cancelDownloadJob
+(
+downloadJobState
 )
 verify
 (
