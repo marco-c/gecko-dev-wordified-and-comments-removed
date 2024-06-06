@@ -477,6 +477,9 @@ register
 (
 TelemetrySessionObserver
 (
+components
+.
+store
 )
 )
 register
