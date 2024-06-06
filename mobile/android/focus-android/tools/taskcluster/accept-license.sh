@@ -102,7 +102,7 @@ platforms
 ;
 android
 -
-28
+29
 "
 "
 build
@@ -160,7 +160,7 @@ all
 filter
 android
 -
-28
+29
 (
 while
 sleep
