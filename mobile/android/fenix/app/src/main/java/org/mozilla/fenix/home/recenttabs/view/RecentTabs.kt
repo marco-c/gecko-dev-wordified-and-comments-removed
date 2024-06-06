@@ -1319,7 +1319,7 @@ R
 .
 string
 .
-recent_tabs_search_term_count
+recent_tabs_search_term_count_2
 count
 )
 )
