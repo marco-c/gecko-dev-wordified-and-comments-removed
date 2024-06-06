@@ -574,6 +574,15 @@ mozilla
 mobile
 /
 Performance
+*
+ConstraintLayoutPerfDetector
+.
+kt
+mozilla
+-
+mobile
+/
+Performance
 #
 We
 want
