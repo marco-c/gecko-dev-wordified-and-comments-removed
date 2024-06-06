@@ -1008,6 +1008,12 @@ engine
 forceSearch
 )
 }
+Suppress
+(
+"
+ComplexMethod
+"
+)
 fun
 openToBrowser
 (
