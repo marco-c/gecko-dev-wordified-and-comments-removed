@@ -6524,6 +6524,9 @@ verifyTabViewOptions
 verifyCloseTabsOptions
 (
 )
+verifyMoveOldTabsToInactiveOptions
+(
+)
 }
 }
 Ignore
