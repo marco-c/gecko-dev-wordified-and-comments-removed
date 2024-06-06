@@ -2123,9 +2123,6 @@ Test
 fun
 WHEN
 handleSaveToPDF
-THEN
-send
-telemetry
 close
 the
 dialog
@@ -2210,16 +2207,6 @@ Result
 DISMISSED
 )
 }
-assertNotNull
-(
-Events
-.
-saveToPdfTapped
-.
-testGetValue
-(
-)
-)
 }
 Test
 fun

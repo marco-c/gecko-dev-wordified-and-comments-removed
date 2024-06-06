@@ -356,6 +356,10 @@ is
 EngineAction
 .
 SaveToPdfExceptionAction
+is
+EngineAction
+.
+SaveToPdfCompleteAction
 -
 >
 {

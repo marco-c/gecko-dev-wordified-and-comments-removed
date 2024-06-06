@@ -966,16 +966,6 @@ String
 ?
 )
 {
-Events
-.
-saveToPdfTapped
-.
-record
-(
-NoExtras
-(
-)
-)
 handleShareClosed
 (
 )
