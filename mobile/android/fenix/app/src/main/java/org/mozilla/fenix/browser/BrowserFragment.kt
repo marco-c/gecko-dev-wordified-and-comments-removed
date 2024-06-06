@@ -1367,7 +1367,9 @@ FenixSnackbarDelegate
 view
 browserToolbarView
 .
-view
+getSnackbarAnchor
+(
+)
 )
 )
 companion
