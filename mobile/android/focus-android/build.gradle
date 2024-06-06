@@ -66,7 +66,7 @@ kotlin_version
 .
 2
 .
-61
+70
 '
 ext
 .
@@ -117,7 +117,7 @@ mozilla_components_version
 '
 0
 .
-22
+23
 '
 repositories
 {
