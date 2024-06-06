@@ -760,7 +760,7 @@ navigate
 (
 AutofillSettingFragmentDirections
 .
-actionAutofillSettingFragmentToAddressEditorFragment
+actionAutofillSettingFragmentToAddressManagementFragment
 (
 )
 )
