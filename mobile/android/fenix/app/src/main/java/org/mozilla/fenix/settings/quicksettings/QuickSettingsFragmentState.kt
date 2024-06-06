@@ -1309,7 +1309,7 @@ R
 .
 string
 .
-preference_option_autoplay_allowed2
+quick_setting_option_autoplay_allowed
 )
 rules
 sitePermission
@@ -1324,7 +1324,7 @@ R
 .
 string
 .
-preference_option_autoplay_blocked3
+quick_setting_option_autoplay_blocked
 )
 rules
 sitePermission
@@ -1339,7 +1339,7 @@ R
 .
 string
 .
-preference_option_autoplay_block_audio2
+quick_setting_option_autoplay_block_audio
 )
 rules
 sitePermission
