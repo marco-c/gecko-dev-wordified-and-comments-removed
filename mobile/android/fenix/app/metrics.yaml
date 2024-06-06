@@ -1924,6 +1924,9 @@ pref_key_show_voice_search
 and
 pref_key_show_search_suggestions_in_private
 .
+type
+:
+string
 enabled
 :
 description
@@ -1940,6 +1943,9 @@ now
 *
 enabled
 "
+type
+:
+boolean
 bugs
 :
 -
