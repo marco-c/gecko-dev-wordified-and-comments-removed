@@ -245,7 +245,7 @@ mozilla
 .
 fenix
 .
-BrowsingModeManager
+BrowsingMode
 import
 org
 .
@@ -1109,9 +1109,7 @@ browsingModeManager
 .
 mode
 =
-BrowsingModeManager
-.
-Mode
+BrowsingMode
 .
 Private
 supportActionBar

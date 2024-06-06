@@ -723,6 +723,8 @@ HomeActivity
 .
 browsingModeManager
 .
+mode
+.
 isPrivate
 )
 startPostponedEnterTransition

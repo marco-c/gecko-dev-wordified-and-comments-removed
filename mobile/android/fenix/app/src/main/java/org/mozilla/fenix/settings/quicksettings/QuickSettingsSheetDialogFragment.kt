@@ -317,14 +317,6 @@ mozilla
 .
 fenix
 .
-currentThemeResource
-import
-org
-.
-mozilla
-.
-fenix
-.
 exceptions
 .
 ExceptionDomains

@@ -113,7 +113,7 @@ mozilla
 .
 fenix
 .
-BrowsingModeManager
+BrowsingMode
 import
 org
 .
@@ -760,9 +760,7 @@ browsingModeManager
 .
 mode
 =
-BrowsingModeManager
-.
-Mode
+BrowsingMode
 .
 Normal
 activity
@@ -830,9 +828,7 @@ browsingModeManager
 .
 mode
 =
-BrowsingModeManager
-.
-Mode
+BrowsingMode
 .
 Private
 activity

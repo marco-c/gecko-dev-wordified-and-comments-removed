@@ -175,18 +175,6 @@ main
 .
 fragment_browser
 .
-*
-import
-kotlinx
-.
-android
-.
-synthetic
-.
-main
-.
-fragment_browser
-.
 view
 .
 *
@@ -896,6 +884,8 @@ HomeActivity
 )
 .
 browsingModeManager
+.
+mode
 .
 isPrivate
 )
