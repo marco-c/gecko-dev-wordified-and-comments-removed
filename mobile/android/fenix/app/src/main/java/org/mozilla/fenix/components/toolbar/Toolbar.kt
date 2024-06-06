@@ -302,7 +302,6 @@ context
 )
 }
 }
-private
 val
 menuToolbar
 by

@@ -451,6 +451,11 @@ components
 core
 .
 historyStorage
+components
+.
+core
+.
+sessionManager
 )
 }
 }

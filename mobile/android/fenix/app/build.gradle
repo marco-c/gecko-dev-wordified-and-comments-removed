@@ -593,6 +593,10 @@ mozilla_feature_contextmenu
 implementation
 Deps
 .
+mozilla_feature_customtabs
+implementation
+Deps
+.
 mozilla_feature_downloads
 implementation
 Deps
