@@ -845,6 +845,8 @@ https
 /
 /
 taskcluster
+.
+net
 '
 }
 )
