@@ -643,6 +643,13 @@ string
 /
 developer_tools_category
 "
+app
+:
+iconSpaceReserved
+=
+"
+false
+"
 >
 <
 androidx
