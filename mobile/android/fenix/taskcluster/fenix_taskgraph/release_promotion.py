@@ -660,15 +660,11 @@ string
 description
 "
 :
-(
-                    
 "
 Next
 version
 .
 "
-                
-)
                 
 "
 default
