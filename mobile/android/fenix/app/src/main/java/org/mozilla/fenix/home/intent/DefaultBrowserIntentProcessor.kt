@@ -215,15 +215,6 @@ activity
 openSetDefaultBrowserOption
 (
 )
-activity
-.
-settings
-(
-)
-.
-defaultBrowserNotificationDisplayed
-=
-true
 true
 }
 else
