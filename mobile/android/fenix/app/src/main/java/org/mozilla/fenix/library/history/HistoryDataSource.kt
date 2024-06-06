@@ -294,7 +294,7 @@ noop
 companion
 object
 {
-private
+internal
 const
 val
 INITIAL_OFFSET
@@ -597,6 +597,11 @@ visitedAt
 this
 .
 visitedAt
+historyTimeGroup
+=
+this
+.
+historyTimeGroup
 )
 }
 private
@@ -649,6 +654,11 @@ visitedAt
 this
 .
 visitedAt
+historyTimeGroup
+=
+this
+.
+historyTimeGroup
 )
 }
 private
@@ -691,5 +701,10 @@ visitedAt
 this
 .
 visitedAt
+historyTimeGroup
+=
+this
+.
+historyTimeGroup
 )
 }

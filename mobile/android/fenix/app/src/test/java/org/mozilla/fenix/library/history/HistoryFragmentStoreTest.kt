@@ -117,6 +117,12 @@ url
 toLong
 (
 )
+HistoryItemTimeGroup
+.
+timeGroupForTimestamp
+(
+0
+)
 )
 private
 val
@@ -137,6 +143,12 @@ url
 .
 toLong
 (
+)
+HistoryItemTimeGroup
+.
+timeGroupForTimestamp
+(
+0
 )
 )
 Test
