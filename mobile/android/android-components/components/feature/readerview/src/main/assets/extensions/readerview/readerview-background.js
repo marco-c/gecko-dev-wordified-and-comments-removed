@@ -1,11 +1,3 @@
-let
-serializedDocs
-=
-new
-Map
-(
-)
-;
 browser
 .
 runtime
@@ -14,6 +6,7 @@ onMessage
 .
 addListener
 (
+async
 (
 message
 sender
@@ -149,7 +142,9 @@ case
 addSerializedDoc
 '
 :
-serializedDocs
+storage
+.
+session
 .
 set
 (
@@ -175,7 +170,10 @@ getSerializedDoc
 let
 doc
 =
-serializedDocs
+await
+storage
+.
+session
 .
 get
 (
@@ -184,12 +182,9 @@ message
 id
 )
 ;
-if
-(
-doc
-)
-{
-serializedDocs
+storage
+.
+session
 .
 delete
 (
@@ -198,7 +193,6 @@ message
 id
 )
 ;
-}
 sendResponse
 (
 doc

@@ -118,6 +118,11 @@ background
 js
 "
 ]
+"
+persistent
+"
+:
+false
 }
 "
 permissions
@@ -135,6 +140,9 @@ nativeMessaging
 "
 "
 nativeMessagingFromContent
+"
+"
+storage
 "
 "
 tabs
