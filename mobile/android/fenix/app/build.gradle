@@ -2667,6 +2667,14 @@ annotationProcessor
 Deps
 .
 glideAnnotationProcessor
+debugImplementation
+Deps
+.
+flipper
+debugImplementation
+Deps
+.
+soLoader
 }
 if
 (
