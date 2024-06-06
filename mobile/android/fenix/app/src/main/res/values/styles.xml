@@ -1680,7 +1680,7 @@ item
 name
 =
 "
-privateBrowsingButtonBackground
+mozac_ic_private_mode_circle_fill_background_color
 "
 >
 android
@@ -1697,7 +1697,7 @@ item
 name
 =
 "
-privateBrowsingButtonAccent
+mozac_ic_private_mode_circle_fill_icon_color
 "
 >
 color
@@ -4084,12 +4084,12 @@ item
 name
 =
 "
-privateBrowsingButtonBackground
+mozac_ic_private_mode_circle_fill_background_color
 "
 >
 color
 /
-fx_mobile_private_text_color_primary
+photonWhite
 <
 /
 item
@@ -4099,12 +4099,12 @@ item
 name
 =
 "
-privateBrowsingButtonAccent
+mozac_ic_private_mode_circle_fill_icon_color
 "
 >
 color
 /
-fx_mobile_private_layer_color_1
+fx_mobile_private_layer_color_2
 <
 /
 item

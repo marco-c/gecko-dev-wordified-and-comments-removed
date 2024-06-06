@@ -143,7 +143,7 @@ fillColor
 =
 "
 ?
-privateBrowsingButtonBackground
+mozac_ic_private_mode_circle_fill_background_color
 "
 android
 :
@@ -179,9 +179,7 @@ fillColor
 =
 "
 ?
-attr
-/
-privateBrowsingButtonAccent
+mozac_ic_private_mode_circle_fill_icon_color
 "
 android
 :
