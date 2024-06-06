@@ -1028,6 +1028,9 @@ onSettingsExpandToggleClick
 onInfoExpandToggleClick
 =
 onInfoExpandToggleClick
+onFooterLinkClick
+=
+onFooterLinkClick
 modifier
 =
 Modifier
