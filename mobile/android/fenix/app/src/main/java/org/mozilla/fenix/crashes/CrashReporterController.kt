@@ -99,16 +99,6 @@ mozilla
 .
 components
 .
-browser
-.
-session
-.
-Session
-import
-mozilla
-.
-components
-.
 lib
 .
 crash
@@ -174,9 +164,9 @@ crash
 Crash
 private
 val
-session
+sessionId
 :
-Session
+String
 ?
 private
 val
@@ -339,7 +329,7 @@ Boolean
 Job
 ?
 {
-session
+sessionId
 ?
 :
 return
@@ -359,7 +349,7 @@ tabsUseCases
 .
 removeTab
 (
-session
+sessionId
 )
 components
 .
