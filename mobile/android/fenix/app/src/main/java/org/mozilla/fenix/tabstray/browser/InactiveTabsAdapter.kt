@@ -354,12 +354,6 @@ inactiveTabsInteractor
 :
 InactiveTabsInteractor
 internal
-lateinit
-var
-inactiveTabsAutoCloseDialogInteractor
-:
-InactiveTabsAutoCloseDialogInteractor
-internal
 var
 inActiveTabsCount
 :
@@ -412,7 +406,7 @@ LAYOUT_ID
 AutoCloseDialogHolder
 (
 view
-inactiveTabsAutoCloseDialogInteractor
+inactiveTabsInteractor
 )
 HeaderHolder
 .

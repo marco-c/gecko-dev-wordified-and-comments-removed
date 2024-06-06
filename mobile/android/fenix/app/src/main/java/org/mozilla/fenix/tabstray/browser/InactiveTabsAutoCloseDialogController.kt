@@ -196,7 +196,7 @@ close
 markDialogAsShown
 (
 )
-refeshInactiveTabsSecion
+refreshInactiveTabsSection
 (
 )
 metrics
@@ -255,7 +255,7 @@ settings
 manuallyCloseTabs
 =
 false
-refeshInactiveTabsSecion
+refreshInactiveTabsSection
 (
 )
 metrics
@@ -300,7 +300,7 @@ true
 VisibleForTesting
 internal
 fun
-refeshInactiveTabsSecion
+refreshInactiveTabsSection
 (
 )
 {
