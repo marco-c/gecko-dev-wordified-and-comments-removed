@@ -924,7 +924,7 @@ string
 .
 preferences_passwords_sync_logins
 )
-onSignInToSyncClicked
+onSyncSignInClicked
 =
 {
 val

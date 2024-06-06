@@ -493,7 +493,7 @@ verifySyncSignInButton
 (
 )
 =
-assertSignInToSyncButton
+assertSyncSignInButton
 (
 )
 fun
@@ -685,14 +685,6 @@ assertShareTabsOverlay
 (
 )
 fun
-verifySignInToSyncButton
-(
-)
-=
-assertSignInToSyncButton
-(
-)
-fun
 verifyNewTabButton
 (
 )
@@ -781,7 +773,7 @@ verifyDownloadsButton
 verifyAddOnsButton
 (
 )
-verifySignInToSyncButton
+verifySyncSignInButton
 (
 )
 threeDotMenuRecyclerView
@@ -1292,7 +1284,7 @@ data
 )
 waitingTime
 )
-signInToSyncButton
+syncSignInButton
 (
 )
 .
@@ -3035,7 +3027,7 @@ VISIBLE
 )
 private
 fun
-signInToSyncButton
+syncSignInButton
 (
 )
 =
@@ -3053,11 +3045,11 @@ data
 )
 private
 fun
-assertSignInToSyncButton
+assertSyncSignInButton
 (
 )
 =
-signInToSyncButton
+syncSignInButton
 (
 )
 .

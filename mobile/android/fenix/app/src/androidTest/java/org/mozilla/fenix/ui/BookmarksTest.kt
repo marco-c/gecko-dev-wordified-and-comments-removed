@@ -654,7 +654,7 @@ Other
 Bookmarks
 "
 )
-verifySignInToSyncButton
+verifySyncSignInButton
 (
 )
 }

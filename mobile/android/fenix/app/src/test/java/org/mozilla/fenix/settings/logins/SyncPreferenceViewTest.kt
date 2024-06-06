@@ -1188,7 +1188,7 @@ notLoggedInTitle
 loggedInTitle
 =
 loggedInTitle
-onSignInToSyncClicked
+onSyncSignInClicked
 =
 {
 val

@@ -930,7 +930,7 @@ string
 .
 preferences_credit_cards_sync_cards
 )
-onSignInToSyncClicked
+onSyncSignInClicked
 =
 {
 findNavController

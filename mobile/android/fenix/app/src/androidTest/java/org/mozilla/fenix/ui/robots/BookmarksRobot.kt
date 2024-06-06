@@ -898,11 +898,11 @@ waitingTime
 )
 }
 fun
-verifySignInToSyncButton
+verifySyncSignInButton
 (
 )
 =
-signInToSyncButton
+syncSignInButton
 (
 )
 .
@@ -1482,7 +1482,7 @@ SettingsTurnOnSyncRobot
 .
 Transition
 {
-signInToSyncButton
+syncSignInButton
 (
 )
 .
@@ -1911,7 +1911,7 @@ delete_bookmark_button
 )
 private
 fun
-signInToSyncButton
+syncSignInButton
 (
 )
 =
