@@ -419,7 +419,9 @@ title
 newItem
 }
 else
+{
 null
+}
 }
 }
 }

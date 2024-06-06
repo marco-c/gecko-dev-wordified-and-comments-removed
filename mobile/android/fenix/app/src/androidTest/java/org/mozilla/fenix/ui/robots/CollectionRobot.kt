@@ -622,6 +622,7 @@ waitingTime
 )
 }
 else
+{
 assertTrue
 (
 collectionListItem
@@ -634,6 +635,7 @@ waitUntilGone
 waitingTime
 )
 )
+}
 }
 fun
 verifyCollectionTabUrl

@@ -383,9 +383,6 @@ activityTestRule
 HomeActivityIntentTestRule
 (
 )
-get
-:
-Rule
 /
 /
 Making
@@ -401,6 +398,9 @@ running
 on
 API
 28
+get
+:
+Rule
 var
 watcher
 :
@@ -919,8 +919,6 @@ verifyEmptyDownloadsList
 )
 }
 }
-SmokeTest
-Test
 /
 *
 Verifies
@@ -952,6 +950,8 @@ Menu
 too
 *
 /
+SmokeTest
+Test
 fun
 manageDownloadsInDownloadsMenuTest
 (

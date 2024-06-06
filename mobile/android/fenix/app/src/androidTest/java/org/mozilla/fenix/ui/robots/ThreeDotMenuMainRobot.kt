@@ -739,6 +739,7 @@ isChecked
 )
 }
 else
+{
 desktopSiteButton
 (
 )
@@ -755,6 +756,7 @@ isChecked
 )
 )
 )
+}
 }
 fun
 verifyPageThreeDotMainMenuItems

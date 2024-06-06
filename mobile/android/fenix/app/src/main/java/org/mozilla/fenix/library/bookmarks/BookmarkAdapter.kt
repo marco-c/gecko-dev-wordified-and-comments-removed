@@ -415,7 +415,9 @@ if
 (
 isFirstRun
 )
+{
 false
+}
 else
 {
 emptyView

@@ -346,7 +346,6 @@ resetAllFeatureFlags
 (
 )
 }
-Test
 /
 /
 Walks
@@ -363,6 +362,7 @@ all
 items
 are
 present
+Test
 fun
 settingsAboutItemsTest
 (
@@ -405,8 +405,6 @@ verifyLeakCanaryButton
 )
 }
 }
-SmokeTest
-Test
 /
 /
 Assumes
@@ -416,6 +414,8 @@ is
 installed
 and
 enabled
+SmokeTest
+Test
 fun
 openLinkInAppTest
 (

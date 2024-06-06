@@ -322,7 +322,6 @@ shutdown
 (
 )
 }
-Test
 /
 /
 Walks
@@ -339,6 +338,7 @@ all
 items
 are
 present
+Test
 fun
 settingsAboutItemsTest
 (

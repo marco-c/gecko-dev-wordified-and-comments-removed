@@ -1888,6 +1888,7 @@ if
 (
 visible
 )
+{
 matches
 (
 withEffectiveVisibility
@@ -1899,12 +1900,15 @@ Visibility
 VISIBLE
 )
 )
+}
 else
+{
 ViewAssertions
 .
 doesNotExist
 (
 )
+}
 )
 }
 private
@@ -1970,6 +1974,7 @@ if
 (
 visible
 )
+{
 matches
 (
 withEffectiveVisibility
@@ -1981,12 +1986,15 @@ Visibility
 VISIBLE
 )
 )
+}
 else
+{
 ViewAssertions
 .
 doesNotExist
 (
 )
+}
 )
 }
 inline

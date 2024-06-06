@@ -440,7 +440,6 @@ selectedLocale
 )
 }
 }
-Test
 /
 /
 Note
@@ -470,6 +469,7 @@ this
 test
 will
 fail
+Test
 fun
 GIVEN
 a

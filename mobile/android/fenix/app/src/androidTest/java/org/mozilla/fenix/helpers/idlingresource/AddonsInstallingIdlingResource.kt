@@ -177,9 +177,11 @@ callback
 =
 null
 )
+{
 resourceCallback
 =
 callback
+}
 }
 private
 fun

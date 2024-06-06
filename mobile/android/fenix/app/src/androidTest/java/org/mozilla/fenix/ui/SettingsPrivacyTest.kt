@@ -572,7 +572,6 @@ resetAllFeatureFlags
 (
 )
 }
-Test
 /
 /
 Walks
@@ -590,6 +589,7 @@ all
 items
 are
 present
+Test
 fun
 settingsPrivacyItemsTest
 (
@@ -2077,14 +2077,6 @@ verifyPrivateModeSelected
 )
 }
 }
-SmokeTest
-Test
-SdkSuppress
-(
-minSdkVersion
-=
-29
-)
 /
 /
 Verifies
@@ -2105,6 +2097,14 @@ from
 inside
 the
 app
+SmokeTest
+Test
+SdkSuppress
+(
+minSdkVersion
+=
+29
+)
 fun
 redirectToAppPermissionsSystemSettingsTest
 (

@@ -674,9 +674,11 @@ settings
 )
 }
 else
+{
 DebugMetricController
 (
 )
+}
 }
 }
 }

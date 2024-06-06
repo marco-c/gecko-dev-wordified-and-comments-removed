@@ -1052,7 +1052,6 @@ verifyStartBrowsingButton
 )
 }
 }
-Test
 /
 /
 Verifies
@@ -1064,6 +1063,7 @@ onboarding
 Start
 Browsing
 button
+Test
 fun
 startBrowsingButtonTest
 (
@@ -1219,6 +1219,21 @@ verifyHomeScreen
 }
 }
 }
+/
+/
+Verifies
+the
+list
+of
+items
+in
+a
+tab
+'
+s
+3
+dot
+menu
 Ignore
 (
 "
@@ -1245,21 +1260,6 @@ issues
 "
 )
 Test
-/
-/
-Verifies
-the
-list
-of
-items
-in
-a
-tab
-'
-s
-3
-dot
-menu
 fun
 verifyPageMainMenuItemsTest
 (
@@ -1310,7 +1310,6 @@ History
 category
 are
 added
-Test
 /
 /
 Verifies
@@ -1326,6 +1325,7 @@ s
 3
 dot
 menu
+Test
 fun
 openMainMenuHistoryItemTest
 (
@@ -1380,7 +1380,6 @@ Bookmarks
 category
 are
 added
-Test
 /
 /
 Verifies
@@ -1396,6 +1395,7 @@ s
 3
 dot
 menu
+Test
 fun
 openMainMenuBookmarksItemTest
 (
@@ -1435,7 +1435,6 @@ verifyBookmarksMenuView
 )
 }
 }
-Test
 /
 /
 Verifies
@@ -1453,6 +1452,7 @@ s
 3
 dot
 menu
+Test
 fun
 openMainMenuAddonsTest
 (
@@ -1534,7 +1534,6 @@ addonsListIdlingResource
 )
 }
 }
-Test
 /
 /
 Verifies
@@ -1569,6 +1568,7 @@ NOT
 signed
 in
 .
+Test
 fun
 openMainMenuSyncItemTest
 (
@@ -1613,7 +1613,6 @@ verifyTurnOnSyncMenu
 )
 }
 }
-Test
 /
 /
 Test
@@ -1657,6 +1656,7 @@ s
 3
 dot
 menu
+Test
 fun
 openMainMenuSettingsItemTest
 (
@@ -1696,7 +1696,6 @@ verifySettingsView
 )
 }
 }
-Test
 /
 /
 Verifies
@@ -1713,6 +1712,7 @@ s
 3
 dot
 menu
+Test
 fun
 openMainMenuFindInPageTest
 (
@@ -1752,7 +1752,6 @@ verifyFindInPageSearchBarItems
 )
 }
 }
-Test
 /
 /
 Verifies
@@ -1770,6 +1769,7 @@ s
 3
 dot
 menu
+Test
 fun
 mainMenuAddToHomeScreenTest
 (
@@ -1876,7 +1876,6 @@ verifyTabCounter
 )
 }
 }
-Test
 /
 /
 Verifies
@@ -1893,6 +1892,7 @@ s
 3
 dot
 menu
+Test
 fun
 openMainMenuAddToCollectionTest
 (
@@ -1932,7 +1932,6 @@ verifyCollectionNameTextField
 )
 }
 }
-Test
 /
 /
 Verifies
@@ -1947,6 +1946,7 @@ s
 3
 dot
 menu
+Test
 fun
 mainMenuBookmarkButtonTest
 (
@@ -1991,34 +1991,6 @@ saved
 )
 }
 }
-Ignore
-(
-"
-Failing
-with
-frequent
-ANR
-:
-https
-:
-/
-/
-github
-.
-com
-/
-mozilla
--
-mobile
-/
-fenix
-/
-issues
-/
-25926
-"
-)
-Test
 /
 /
 Device
@@ -2048,6 +2020,34 @@ an
 app
 is
 installed
+Ignore
+(
+"
+Failing
+with
+frequent
+ANR
+:
+https
+:
+/
+/
+github
+.
+com
+/
+mozilla
+-
+mobile
+/
+fenix
+/
+issues
+/
+25926
+"
+)
+Test
 fun
 mainMenuOpenInAppTest
 (
@@ -2112,7 +2112,6 @@ playStoreUrl
 )
 }
 }
-Test
 /
 /
 Verifies
@@ -2128,6 +2127,7 @@ s
 3
 dot
 menu
+Test
 fun
 mainMenuDesktopSiteTest
 (
@@ -2172,7 +2172,6 @@ true
 )
 }
 }
-Test
 /
 /
 Verifies
@@ -2187,6 +2186,7 @@ s
 3
 dot
 menu
+Test
 fun
 mainMenuShareButtonTest
 (
@@ -2232,7 +2232,6 @@ verifyShareALinkTitle
 )
 }
 }
-Test
 /
 /
 Verifies
@@ -2247,6 +2246,7 @@ s
 3
 dot
 menu
+Test
 fun
 mainMenuRefreshButtonTest
 (
@@ -2444,7 +2444,6 @@ viewTrackingContentBlockList
 )
 }
 }
-Test
 /
 /
 Verifies
@@ -2457,6 +2456,7 @@ the
 Search
 Shortcut
 menu
+Test
 fun
 selectSearchEnginesShortcutTest
 (
@@ -2540,7 +2540,6 @@ goToHomescreen
 }
 }
 }
-Test
 /
 /
 Swipes
@@ -2554,6 +2553,7 @@ to
 switch
 between
 tabs
+Test
 fun
 swipeToSwitchTabTest
 (
@@ -2653,7 +2653,6 @@ toString
 )
 }
 }
-Test
 /
 /
 Saves
@@ -2666,6 +2665,7 @@ and
 verifies
 the
 update
+Test
 fun
 updateSavedLoginTest
 (
@@ -3133,7 +3133,6 @@ verifyEmptyRecentlyClosedTabsList
 )
 }
 }
-Test
 /
 /
 Verifies
@@ -3150,6 +3149,7 @@ from
 inside
 it
 .
+Test
 fun
 deleteNonEmptyBookmarkFolderTest
 (
@@ -3703,7 +3703,6 @@ verifyPrivateBrowsingNewTabButton
 )
 }
 }
-Test
 /
 /
 Test
@@ -3732,6 +3731,7 @@ t
 block
 the
 builds
+Test
 fun
 noHistoryInPrivateBrowsingTest
 (
@@ -3922,7 +3922,6 @@ verifyNavURLBarHidden
 )
 }
 }
-Test
 /
 /
 Verifies
@@ -3938,6 +3937,7 @@ appearance
 controls
 are
 displayed
+Test
 fun
 verifyReaderViewAppearanceUI
 (
@@ -4079,7 +4079,6 @@ true
 )
 }
 }
-Test
 /
 /
 Verifies
@@ -4095,6 +4094,7 @@ a
 custom
 menu
 item
+Test
 fun
 customTabMenuItemsTest
 (
@@ -4162,7 +4162,6 @@ verifyRefreshButtonExists
 )
 }
 }
-Test
 /
 /
 The
@@ -4180,6 +4179,7 @@ it
 to
 the
 browser
+Test
 fun
 openCustomTabInBrowserTest
 (
@@ -4491,7 +4491,6 @@ PAUSED
 )
 }
 }
-Test
 /
 /
 For
@@ -4512,6 +4511,7 @@ default
 apps
 menu
 .
+Test
 fun
 changeDefaultBrowserSetting
 (

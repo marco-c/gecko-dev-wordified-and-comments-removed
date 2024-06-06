@@ -563,7 +563,6 @@ verifyEmptyHistoryView
 )
 }
 }
-Test
 /
 /
 Test
@@ -592,6 +591,7 @@ t
 block
 the
 builds
+Test
 fun
 visitedUrlHistoryTest
 (

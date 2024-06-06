@@ -686,8 +686,6 @@ addonName
 )
 }
 }
-SmokeTest
-Test
 /
 /
 Installs
@@ -709,6 +707,8 @@ loading
 pages
 with
 trackers
+SmokeTest
+Test
 fun
 noCrashWithAddonInstalledTest
 (

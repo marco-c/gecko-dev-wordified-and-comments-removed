@@ -911,6 +911,7 @@ isNotEmpty
 (
 )
 )
+{
 wifiConnectionMonitor
 .
 callbacks
@@ -918,6 +919,7 @@ callbacks
 removeFirst
 (
 )
+}
 }
 /
 /

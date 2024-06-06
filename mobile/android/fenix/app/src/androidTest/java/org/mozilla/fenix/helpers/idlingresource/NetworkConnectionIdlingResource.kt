@@ -239,12 +239,14 @@ if
 (
 idle
 )
+{
 resourceCallback
 ?
 .
 onTransitionToIdle
 (
 )
+}
 return
 idle
 }
@@ -267,9 +269,11 @@ callback
 =
 null
 )
+{
 resourceCallback
 =
 callback
+}
 }
 private
 fun

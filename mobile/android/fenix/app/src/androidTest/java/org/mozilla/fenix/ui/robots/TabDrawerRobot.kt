@@ -1629,9 +1629,11 @@ if
 !
 firstCollection
 )
+{
 clickAddNewCollection
 (
 )
+}
 typeCollectionNameAndSave
 (
 collectionName

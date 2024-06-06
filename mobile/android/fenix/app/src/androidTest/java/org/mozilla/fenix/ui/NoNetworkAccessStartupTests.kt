@@ -296,7 +296,6 @@ resetAllFeatureFlags
 (
 )
 }
-Test
 /
 /
 Test
@@ -348,6 +347,7 @@ fenix
 issues
 /
 16886
+Test
 fun
 noNetworkConnectionStartupTest
 (
@@ -377,7 +377,6 @@ verifyHomeScreen
 )
 }
 }
-Test
 /
 /
 Based
@@ -401,6 +400,7 @@ fenix
 issues
 /
 16886
+Test
 fun
 networkInterruptedFromBrowserToHomeTest
 (
