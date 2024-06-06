@@ -219,10 +219,10 @@ showDefaultHomeScreen
 {
 homeScreen
 {
-verifyAccountsSignInButton
+swipeToBottom
 (
 )
-swipeToBottom
+verifyAccountsSignInButton
 (
 )
 Screengrab

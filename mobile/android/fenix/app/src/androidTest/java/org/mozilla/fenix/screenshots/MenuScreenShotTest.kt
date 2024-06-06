@@ -796,13 +796,11 @@ to
 have
 the
 screenshot
-mDevice
-.
-pressBack
-(
-)
 bookmarksMenu
 {
+navigateUp
+(
+)
 }
 .
 openThreeDotMenu
