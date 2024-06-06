@@ -2204,6 +2204,7 @@ Item
 FindInPage
 -
 >
+{
 FindInPageIntegration
 .
 launch
@@ -2212,6 +2213,19 @@ launch
 invoke
 (
 )
+requireComponents
+.
+analytics
+.
+metrics
+.
+track
+(
+Event
+.
+FindInPageOpened
+)
+}
 ToolbarMenu
 .
 Item
