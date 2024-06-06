@@ -3156,6 +3156,9 @@ feature
 activePromptRequest
 =
 mock
+<
+SingleChoice
+>
 (
 )
 feature
@@ -3739,6 +3742,9 @@ feature
 activePromptRequest
 =
 mock
+<
+SingleChoice
+>
 (
 )
 whenever
@@ -3901,6 +3907,9 @@ feature
 activePromptRequest
 =
 mock
+<
+SingleChoice
+>
 (
 )
 whenever

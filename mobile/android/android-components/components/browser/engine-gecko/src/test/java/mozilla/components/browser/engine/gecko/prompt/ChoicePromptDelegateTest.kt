@@ -462,6 +462,8 @@ val
 prompt
 :
 PromptRequest
+.
+SingleChoice
 =
 mock
 (

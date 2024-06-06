@@ -2959,6 +2959,11 @@ promptRequest1
 PromptRequest
 =
 mock
+<
+PromptRequest
+.
+SingleChoice
+>
 (
 )
 store
@@ -3008,6 +3013,11 @@ promptRequest2
 PromptRequest
 =
 mock
+<
+PromptRequest
+.
+MultipleChoice
+>
 (
 )
 store
@@ -3078,6 +3088,11 @@ promptRequest
 PromptRequest
 =
 mock
+<
+PromptRequest
+.
+SingleChoice
+>
 (
 )
 store

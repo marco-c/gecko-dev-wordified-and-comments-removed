@@ -5073,6 +5073,11 @@ promptRequest
 PromptRequest
 =
 mock
+<
+PromptRequest
+.
+SingleChoice
+>
 (
 )
 val
@@ -5133,6 +5138,11 @@ promptRequest
 PromptRequest
 =
 mock
+<
+PromptRequest
+.
+SingleChoice
+>
 (
 )
 val
