@@ -130,7 +130,7 @@ functionality
 isEnrollmentPaused
 "
 :
-false
+true
 "
 isRollout
 "
@@ -510,7 +510,7 @@ functionality
 isEnrollmentPaused
 "
 :
-false
+true
 "
 isRollout
 "
