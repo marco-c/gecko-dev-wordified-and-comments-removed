@@ -273,6 +273,13 @@ HomeActivity
 "
 android
 :
+launchMode
+=
+"
+singleInstance
+"
+android
+:
 windowSoftInputMode
 =
 "
