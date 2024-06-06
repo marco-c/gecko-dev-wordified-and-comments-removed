@@ -2951,6 +2951,14 @@ onBackPressed
 -
 >
 true
+customTabsIntegration
+.
+onBackPressed
+(
+)
+-
+>
+true
 sessionFeature
 .
 onBackPressed
