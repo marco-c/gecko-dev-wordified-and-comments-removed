@@ -571,10 +571,6 @@ verifyDownloadNotificationPopup
 (
 )
 }
-.
-closePrompt
-{
-}
 mDevice
 .
 openNotification
