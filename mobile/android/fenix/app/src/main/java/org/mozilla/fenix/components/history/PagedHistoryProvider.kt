@@ -685,7 +685,7 @@ visits
 /
 suspend
 fun
-deleteHistoryGroup
+deleteMetadataSearchGroup
 (
 group
 :
