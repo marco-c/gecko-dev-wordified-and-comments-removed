@@ -506,6 +506,15 @@ shouldCookieBannerReEngagementDialog
 {
 settings
 .
+lastInteractionWithReEngageCookieBannerDialogInMS
+=
+System
+.
+currentTimeMillis
+(
+)
+settings
+.
 cookieBannerDetectedPreviously
 =
 true
