@@ -67,6 +67,14 @@ shopping
 .
 store
 import
+androidx
+.
+compose
+.
+runtime
+.
+Immutable
+import
 mozilla
 .
 components
@@ -622,6 +630,7 @@ product
 .
 *
 /
+Immutable
 data
 class
 AnalysisPresent
