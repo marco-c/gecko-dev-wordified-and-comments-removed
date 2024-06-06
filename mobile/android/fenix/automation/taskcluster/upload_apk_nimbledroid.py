@@ -89,6 +89,14 @@ auto_scenarios
 '
 false
 '
+'
+device_config
+'
+:
+'
+android5
+android7
+'
 }
 	
 response
