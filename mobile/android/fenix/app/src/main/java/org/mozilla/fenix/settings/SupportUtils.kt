@@ -710,6 +710,12 @@ unsigned
 addons
 "
 )
+REVIEW_QUALITY_CHECK
+(
+"
+review_checker_mobile
+"
+)
 }
 enum
 class

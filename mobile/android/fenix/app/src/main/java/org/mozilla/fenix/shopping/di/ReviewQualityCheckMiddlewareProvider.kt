@@ -330,7 +330,6 @@ SelectOrAddUseCase
 browserStore
 )
 context
-scope
 )
 )
 private
@@ -411,9 +410,6 @@ SelectOrAddUseCase
 context
 :
 Context
-scope
-:
-CoroutineScope
 )
 =
 ReviewQualityCheckNavigationMiddleware
@@ -424,8 +420,5 @@ selectOrAddUseCase
 context
 =
 context
-scope
-=
-scope
 )
 }
