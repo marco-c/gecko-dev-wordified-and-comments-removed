@@ -865,9 +865,7 @@ deleteAllSessionsJob
 =
 null
 )
-{
 return
-}
 emitSessionChanges
 (
 )

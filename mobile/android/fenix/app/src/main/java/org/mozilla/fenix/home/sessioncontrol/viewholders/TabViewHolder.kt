@@ -281,7 +281,6 @@ CoroutineContext
 class
 TabViewHolder
 (
-val
 view
 :
 View
@@ -291,6 +290,7 @@ Observer
 <
 SessionControlAction
 >
+private
 val
 job
 :
