@@ -317,6 +317,13 @@ visibility
 View
 .
 GONE
+account_header
+.
+visibility
+=
+View
+.
+GONE
 }
 close_button
 .
