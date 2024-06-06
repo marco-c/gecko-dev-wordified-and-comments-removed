@@ -276,7 +276,6 @@ onCancel
 dialog
 :
 DialogInterface
-?
 )
 {
 super
@@ -359,12 +358,14 @@ isCancelable
 =
 true
 biometricDialog
+?
 .
 setCanceledOnTouchOutside
 (
 false
 )
 biometricDialog
+?
 .
 setTitle
 (

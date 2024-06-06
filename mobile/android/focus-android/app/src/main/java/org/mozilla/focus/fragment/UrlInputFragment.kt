@@ -2169,7 +2169,6 @@ onConfigurationChanged
 newConfig
 :
 Configuration
-?
 )
 {
 super
@@ -2181,7 +2180,6 @@ newConfig
 if
 (
 newConfig
-?
 .
 orientation
 !

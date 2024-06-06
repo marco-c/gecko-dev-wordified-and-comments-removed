@@ -255,7 +255,6 @@ onPrepareOptionsMenu
 menu
 :
 Menu
-?
 )
 {
 super
@@ -290,7 +289,6 @@ pref_key_multiselect_search_engine_list
 as
 MultiselectSearchEngineListPreference
 menu
-?
 .
 findItem
 (

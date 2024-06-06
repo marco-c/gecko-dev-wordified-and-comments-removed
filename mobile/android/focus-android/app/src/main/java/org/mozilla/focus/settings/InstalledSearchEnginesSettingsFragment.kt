@@ -260,7 +260,6 @@ onPrepareOptionsMenu
 menu
 :
 Menu
-?
 )
 {
 super
@@ -270,7 +269,6 @@ onPrepareOptionsMenu
 menu
 )
 menu
-?
 .
 findItem
 (

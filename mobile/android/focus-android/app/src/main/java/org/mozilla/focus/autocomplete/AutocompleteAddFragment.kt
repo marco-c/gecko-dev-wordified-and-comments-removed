@@ -429,15 +429,12 @@ onCreateOptionsMenu
 menu
 :
 Menu
-?
 inflater
 :
 MenuInflater
-?
 )
 {
 inflater
-?
 .
 inflate
 (
@@ -456,7 +453,6 @@ onOptionsItemSelected
 item
 :
 MenuItem
-?
 )
 :
 Boolean
@@ -464,7 +460,6 @@ Boolean
 if
 (
 item
-?
 .
 itemId
 =

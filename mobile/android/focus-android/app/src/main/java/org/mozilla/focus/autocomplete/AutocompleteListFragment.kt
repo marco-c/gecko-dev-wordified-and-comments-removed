@@ -861,15 +861,12 @@ onCreateOptionsMenu
 menu
 :
 Menu
-?
 inflater
 :
 MenuInflater
-?
 )
 {
 inflater
-?
 .
 inflate
 (
@@ -888,14 +885,12 @@ onPrepareOptionsMenu
 menu
 :
 Menu
-?
 )
 {
 val
 removeItem
 =
 menu
-?
 .
 findItem
 (
@@ -968,7 +963,6 @@ onOptionsItemSelected
 item
 :
 MenuItem
-?
 )
 :
 Boolean
@@ -976,7 +970,6 @@ Boolean
 when
 (
 item
-?
 .
 itemId
 )
