@@ -458,7 +458,7 @@ Locale
 .
 CANADA
 .
-displayName
+displayLanguage
 automaticTranslationOptionPreference
 =
 AutomaticTranslationOptionPreference
@@ -478,7 +478,7 @@ Locale
 .
 FRANCE
 .
-displayName
+displayLanguage
 automaticTranslationOptionPreference
 =
 AutomaticTranslationOptionPreference
@@ -498,7 +498,7 @@ Locale
 .
 GERMANY
 .
-displayName
+displayLanguage
 automaticTranslationOptionPreference
 =
 AutomaticTranslationOptionPreference
@@ -518,7 +518,7 @@ Locale
 .
 CHINA
 .
-displayName
+displayLanguage
 automaticTranslationOptionPreference
 =
 AutomaticTranslationOptionPreference
