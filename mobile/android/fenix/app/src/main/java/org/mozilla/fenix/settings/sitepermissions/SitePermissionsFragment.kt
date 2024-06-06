@@ -270,9 +270,9 @@ Navigation
 .
 findNavController
 (
-view
-!
-!
+requireView
+(
+)
 )
 .
 navigate
@@ -495,9 +495,9 @@ Navigation
 .
 findNavController
 (
-view
-!
-!
+requireView
+(
+)
 )
 .
 navigate

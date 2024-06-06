@@ -265,9 +265,9 @@ TrackingProtectionFragmentDirections
 actionTrackingProtectionFragmentToExceptionsFragment
 (
 )
-view
-!
-!
+requireView
+(
+)
 .
 findNavController
 (
@@ -498,9 +498,9 @@ true
 val
 trackingProtectionLearnMore
 =
-context
-!
-!
+requireContext
+(
+)
 .
 getPreferenceKey
 (

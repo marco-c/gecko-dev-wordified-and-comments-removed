@@ -534,9 +534,9 @@ ContextCompat
 .
 checkSelfPermission
 (
-context
-!
-!
+requireContext
+(
+)
 android
 .
 Manifest

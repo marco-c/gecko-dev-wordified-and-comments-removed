@@ -1112,9 +1112,9 @@ DeleteBrowsingDataItem
 val
 fragmentView
 =
-view
-!
-!
+requireView
+(
+)
 return
 listOf
 (

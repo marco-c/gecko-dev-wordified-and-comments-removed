@@ -1426,9 +1426,9 @@ swipeRefresh
 )
 arguments
 =
-arguments
-!
-!
+requireArguments
+(
+)
 )
 .
 apply
@@ -4424,9 +4424,9 @@ make
 (
 view
 =
-view
-!
-!
+requireView
+(
+)
 duration
 =
 Snackbar

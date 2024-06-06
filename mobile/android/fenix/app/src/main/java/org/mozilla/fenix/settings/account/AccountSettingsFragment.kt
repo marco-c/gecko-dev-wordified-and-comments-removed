@@ -1525,9 +1525,9 @@ syncEnginesStatus
 =
 SyncEnginesStorage
 (
-context
-!
-!
+requireContext
+(
+)
 )
 .
 getStatus
@@ -1927,9 +1927,9 @@ make
 (
 view
 =
-view
-!
-!
+requireView
+(
+)
 duration
 =
 FenixSnackbar

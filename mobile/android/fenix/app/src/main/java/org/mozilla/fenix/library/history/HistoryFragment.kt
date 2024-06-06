@@ -724,9 +724,9 @@ invalidate
 )
 showSnackBar
 (
-view
-!
-!
+requireView
+(
+)
 message
 )
 historyStore

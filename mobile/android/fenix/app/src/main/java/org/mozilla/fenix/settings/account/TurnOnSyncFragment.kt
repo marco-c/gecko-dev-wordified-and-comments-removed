@@ -358,9 +358,9 @@ TurnOnSyncFragmentDirections
 actionTurnOnSyncFragmentToPairFragment
 (
 )
-view
-!
-!
+requireView
+(
+)
 .
 findNavController
 (
