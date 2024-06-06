@@ -627,7 +627,11 @@ theme
 "
 +
 "
-collectionName
+{
+collection
+.
+name
+}
 /
 "
 +
