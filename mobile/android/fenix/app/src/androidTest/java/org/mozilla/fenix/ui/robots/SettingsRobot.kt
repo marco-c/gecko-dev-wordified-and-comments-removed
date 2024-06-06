@@ -1642,9 +1642,11 @@ onView
 withText
 (
 "
-Turn
-on
 Sync
+and
+save
+your
+data
 "
 )
 )
