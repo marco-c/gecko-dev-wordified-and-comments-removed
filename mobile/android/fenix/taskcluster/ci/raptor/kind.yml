@@ -61,7 +61,9 @@ build
 types
 :
 -
-nightly
+performance
+-
+test
 only
 -
 for
@@ -495,7 +497,7 @@ mozilla
 .
 fenix
 .
-nightly
+performancetest
 '
 -
 '
