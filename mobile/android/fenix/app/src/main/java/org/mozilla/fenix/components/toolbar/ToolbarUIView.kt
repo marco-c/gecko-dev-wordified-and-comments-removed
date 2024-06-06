@@ -212,6 +212,9 @@ String
 isPrivate
 :
 Boolean
+inSearchFragment
+:
+Boolean
 container
 :
 ViewGroup
@@ -357,6 +360,15 @@ view
 .
 apply
 {
+if
+(
+inSearchFragment
+)
+{
+editMode
+(
+)
+}
 elevation
 =
 resources

@@ -236,6 +236,11 @@ isPrivate
 Boolean
 private
 val
+inSearchFragment
+:
+Boolean
+private
+val
 engineIconView
 :
 ImageView
@@ -303,6 +308,7 @@ ToolbarUIView
 (
 sessionId
 isPrivate
+inSearchFragment
 container
 actionEmitter
 changesObservable

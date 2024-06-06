@@ -1163,6 +1163,7 @@ HomeActivity
 browsingModeManager
 .
 isPrivate
+false
 search_engine_icon
 FenixViewModelProvider
 .
