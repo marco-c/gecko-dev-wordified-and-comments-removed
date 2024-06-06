@@ -12,6 +12,6 @@ true
 ij_kotlin_allow_trailing_comma
 =
 true
-ktlint_disabled_rules
+ktlint_standard_filename
 =
-filename
+disabled
