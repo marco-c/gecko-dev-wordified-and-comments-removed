@@ -93,6 +93,12 @@ Libraries
 AboutItem
 (
 )
+object
+Crashes
+:
+AboutItem
+(
+)
 }
 enum
 class
