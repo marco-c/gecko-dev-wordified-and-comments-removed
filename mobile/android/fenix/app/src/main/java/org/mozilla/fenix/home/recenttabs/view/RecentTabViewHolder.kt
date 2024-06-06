@@ -333,7 +333,7 @@ onRecentTabClicked
 it
 )
 }
-onRecentSearchGroupClicked
+onRecentSearchGroupClick
 =
 {
 interactor
