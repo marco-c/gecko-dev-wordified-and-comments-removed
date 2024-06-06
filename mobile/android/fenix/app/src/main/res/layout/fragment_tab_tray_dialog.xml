@@ -131,12 +131,5 @@ layout_width
 "
 match_parent
 "
-android
-:
-clipToPadding
-=
-"
-false
-"
 /
 >

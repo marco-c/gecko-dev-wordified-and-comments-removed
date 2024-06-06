@@ -685,8 +685,9 @@ onConfigurationChanged
 (
 newConfig
 )
-if
-(
+val
+isLandscape
+=
 newConfig
 .
 orientation
@@ -695,6 +696,15 @@ orientation
 Configuration
 .
 ORIENTATION_LANDSCAPE
+tabTrayView
+.
+setTopOffset
+(
+isLandscape
+)
+if
+(
+isLandscape
 )
 {
 tabTrayView
