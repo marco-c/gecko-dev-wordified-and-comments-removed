@@ -187,7 +187,7 @@ HomeActivity
 final
 override
 fun
-getSentryBreadcrumbMessage
+getBreadcrumbMessage
 (
 destination
 :
