@@ -245,7 +245,7 @@ override
 fun
 migrate
 (
-database
+db
 :
 SupportSQLiteDatabase
 )
@@ -269,7 +269,7 @@ for
 every
 entry
 .
-database
+db
 .
 execSQL
 (
@@ -322,7 +322,7 @@ to
 true
 )
 .
-database
+db
 .
 execSQL
 (
@@ -417,7 +417,7 @@ override
 fun
 migrate
 (
-database
+db
 :
 SupportSQLiteDatabase
 )
@@ -434,7 +434,7 @@ of
 version
 1
 .
-database
+db
 .
 execSQL
 (
@@ -501,7 +501,7 @@ top
 sites
 table
 .
-database
+db
 .
 execSQL
 (
@@ -552,7 +552,7 @@ the
 old
 table
 .
-database
+db
 .
 execSQL
 (
@@ -571,7 +571,7 @@ table
 to
 top_sites
 .
-database
+db
 .
 execSQL
 (
@@ -619,7 +619,7 @@ to
 true
 )
 .
-database
+db
 .
 execSQL
 (

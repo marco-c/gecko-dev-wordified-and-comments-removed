@@ -267,12 +267,12 @@ override
 fun
 migrate
 (
-database
+db
 :
 SupportSQLiteDatabase
 )
 {
-database
+db
 .
 execSQL
 (
@@ -282,7 +282,7 @@ TABLE
 RECENT_APPS_TABLE
 "
 )
-database
+db
 .
 execSQL
 (

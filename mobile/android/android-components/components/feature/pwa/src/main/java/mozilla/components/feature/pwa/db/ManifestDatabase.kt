@@ -208,7 +208,7 @@ override
 fun
 migrate
 (
-database
+db
 :
 SupportSQLiteDatabase
 )
@@ -216,7 +216,7 @@ SupportSQLiteDatabase
 val
 cursor
 =
-database
+db
 .
 query
 (
@@ -244,7 +244,7 @@ used_at
 0
 )
 {
-database
+db
 .
 execSQL
 (
@@ -277,7 +277,7 @@ scope
 0
 )
 {
-database
+db
 .
 execSQL
 (
@@ -292,7 +292,7 @@ TEXT
 "
 )
 }
-database
+db
 .
 execSQL
 (
@@ -310,7 +310,7 @@ scope
 )
 "
 )
-database
+db
 .
 execSQL
 (
@@ -348,12 +348,12 @@ override
 fun
 migrate
 (
-database
+db
 :
 SupportSQLiteDatabase
 )
 {
-database
+db
 .
 execSQL
 (
@@ -371,7 +371,7 @@ DEFAULT
 0
 "
 )
-database
+db
 .
 execSQL
 (

@@ -438,7 +438,7 @@ override
 fun
 migrate
 (
-database
+db
 :
 SupportSQLiteDatabase
 )
@@ -482,7 +482,7 @@ site_permissions
 "
 table
 .
-database
+db
 .
 execSQL
 (
@@ -492,7 +492,7 @@ TABLE
 site_permissions
 "
 )
-database
+db
 .
 execSQL
 (
@@ -594,7 +594,7 @@ override
 fun
 migrate
 (
-database
+db
 :
 SupportSQLiteDatabase
 )
@@ -602,7 +602,7 @@ SupportSQLiteDatabase
 val
 haveAutoPlayColumns
 =
-database
+db
 .
 query
 (
@@ -648,7 +648,7 @@ if
 haveAutoPlayColumns
 )
 {
-database
+db
 .
 execSQL
 (
@@ -667,7 +667,7 @@ DEFAULT
 '
 "
 )
-database
+db
 .
 execSQL
 (
@@ -686,7 +686,7 @@ DEFAULT
 '
 "
 )
-database
+db
 .
 execSQL
 (
@@ -743,7 +743,7 @@ override
 fun
 migrate
 (
-database
+db
 :
 SupportSQLiteDatabase
 )
@@ -751,7 +751,7 @@ SupportSQLiteDatabase
 val
 hasEmeColumn
 =
-database
+db
 .
 query
 (
@@ -773,7 +773,7 @@ if
 hasEmeColumn
 )
 {
-database
+db
 .
 execSQL
 (
@@ -796,7 +796,7 @@ DEFAULT
 default
 is
 NO_DECISION
-database
+db
 .
 execSQL
 (
@@ -833,7 +833,7 @@ override
 fun
 migrate
 (
-database
+db
 :
 SupportSQLiteDatabase
 )
@@ -881,7 +881,7 @@ or
 (
 BLOCKED
 )
-database
+db
 .
 execSQL
 (
@@ -899,7 +899,7 @@ autoplay_audible
 0
 "
 )
-database
+db
 .
 execSQL
 (
@@ -939,12 +939,12 @@ override
 fun
 migrate
 (
-database
+db
 :
 SupportSQLiteDatabase
 )
 {
-database
+db
 .
 execSQL
 (
@@ -994,7 +994,7 @@ override
 fun
 migrate
 (
-database
+db
 :
 SupportSQLiteDatabase
 )
@@ -1063,7 +1063,7 @@ block
 audio
 only
 .
-database
+db
 .
 execSQL
 (
@@ -1116,7 +1116,7 @@ override
 fun
 migrate
 (
-database
+db
 :
 SupportSQLiteDatabase
 )
@@ -1124,7 +1124,7 @@ SupportSQLiteDatabase
 val
 hasCrossOriginStorageAccessColumn
 =
-database
+db
 .
 query
 (
@@ -1146,7 +1146,7 @@ if
 hasCrossOriginStorageAccessColumn
 )
 {
-database
+db
 .
 execSQL
 (
@@ -1169,7 +1169,7 @@ DEFAULT
 default
 is
 NO_DECISION
-database
+db
 .
 execSQL
 (

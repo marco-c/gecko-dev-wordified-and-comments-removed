@@ -331,12 +331,12 @@ override
 fun
 migrate
 (
-database
+db
 :
 SupportSQLiteDatabase
 )
 {
-database
+db
 .
 execSQL
 (
@@ -444,7 +444,7 @@ override
 fun
 migrate
 (
-database
+db
 :
 SupportSQLiteDatabase
 )
@@ -493,7 +493,7 @@ any
 Fenix
 release
 .
-database
+db
 .
 execSQL
 (
@@ -507,7 +507,7 @@ TABLE_NAME_SPOCS
 }
 "
 )
-database
+db
 .
 createNewSpocsTables
 (
@@ -546,12 +546,12 @@ override
 fun
 migrate
 (
-database
+db
 :
 SupportSQLiteDatabase
 )
 {
-database
+db
 .
 createNewSpocsTables
 (
@@ -592,7 +592,7 @@ override
 fun
 migrate
 (
-database
+db
 :
 SupportSQLiteDatabase
 )
@@ -608,7 +608,7 @@ allow
 creating
 new
 ones
-database
+db
 .
 execSQL
 (
@@ -628,7 +628,7 @@ TO
 temp_spocs
 "
 )
-database
+db
 .
 execSQL
 (
@@ -657,12 +657,12 @@ with
 the
 new
 schema
-database
+db
 .
 createNewSpocsTables
 (
 )
-database
+db
 .
 execSQL
 (
@@ -697,7 +697,7 @@ to
 the
 new
 tables
-database
+db
 .
 execSQL
 (
@@ -761,7 +761,7 @@ FROM
 temp_spocs
 "
 )
-database
+db
 .
 execSQL
 (
@@ -806,7 +806,7 @@ temp_spocs_impressions
 /
 /
 Cleanup
-database
+db
 .
 execSQL
 (
@@ -816,7 +816,7 @@ TABLE
 temp_spocs
 "
 )
-database
+db
 .
 execSQL
 (

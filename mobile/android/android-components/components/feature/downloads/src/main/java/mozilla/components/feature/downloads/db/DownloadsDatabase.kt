@@ -283,12 +283,12 @@ override
 fun
 migrate
 (
-database
+db
 :
 SupportSQLiteDatabase
 )
 {
-database
+db
 .
 execSQL
 (
@@ -323,7 +323,7 @@ override
 fun
 migrate
 (
-database
+db
 :
 SupportSQLiteDatabase
 )
@@ -334,7 +334,7 @@ Create
 a
 temporal
 table
-database
+db
 .
 execSQL
 (
@@ -382,7 +382,7 @@ id
 Copy
 the
 data
-database
+db
 .
 execSQL
 (
@@ -423,7 +423,7 @@ Remove
 the
 old
 table
-database
+db
 .
 execSQL
 (
@@ -443,7 +443,7 @@ to
 the
 correct
 one
-database
+db
 .
 execSQL
 (
@@ -473,7 +473,7 @@ override
 fun
 migrate
 (
-database
+db
 :
 SupportSQLiteDatabase
 )
@@ -485,7 +485,7 @@ any
 data
 urls
 .
-database
+db
 .
 execSQL
 (
