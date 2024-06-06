@@ -494,6 +494,15 @@ recentlyVisitedItem
 }
 }
 }
+onRecentVisitLongClick
+=
+{
+interactor
+.
+onRecentVisitLongClicked
+(
+)
+}
 )
 }
 companion
