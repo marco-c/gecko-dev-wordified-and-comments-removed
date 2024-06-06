@@ -479,9 +479,6 @@ false
 isWallpaperOnboardingEnabled
 =
 false
-isCookieBannerReductionDialogEnabled
-=
-false
 tabsTrayRewriteEnabled
 =
 true

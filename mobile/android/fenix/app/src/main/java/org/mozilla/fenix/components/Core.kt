@@ -1390,17 +1390,6 @@ settings
 getCookieBannerHandling
 (
 )
-cookieBannerHandlingDetectOnlyMode
-=
-context
-.
-settings
-(
-)
-.
-shouldShowCookieBannerReEngagementDialog
-(
-)
 )
 GeckoEngine
 (
