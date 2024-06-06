@@ -1500,8 +1500,6 @@ py
 arm
 -
 beta
--
-tests
 app
 .
 apk
@@ -2320,8 +2318,6 @@ py
 arm
 -
 beta
--
-tests
 app
 .
 apk
