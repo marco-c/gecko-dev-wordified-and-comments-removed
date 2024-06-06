@@ -739,6 +739,11 @@ restored
 Boolean
 =
 false
+isProductUrl
+:
+Boolean
+=
+false
 engineSession
 :
 EngineSession
@@ -869,6 +874,9 @@ source
 restored
 =
 restored
+isProductUrl
+=
+isProductUrl
 engineState
 =
 EngineState

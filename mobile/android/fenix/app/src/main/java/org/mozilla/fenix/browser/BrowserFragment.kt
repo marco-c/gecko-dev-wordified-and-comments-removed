@@ -1376,6 +1376,15 @@ feature
 =
 ReviewQualityCheckFeature
 (
+browserStore
+=
+context
+.
+components
+.
+core
+.
+store
 onAvailabilityChange
 =
 {
