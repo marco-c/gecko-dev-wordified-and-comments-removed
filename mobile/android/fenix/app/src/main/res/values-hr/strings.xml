@@ -3205,10 +3205,11 @@ preferences_override_fxa_server
 >
 Prilago
 eni
-Firefox
-Account
 poslu
 itelj
+Firefox
+ra
+una
 <
 /
 string
@@ -3237,9 +3238,10 @@ preferences_override_sync_tokenserver
 >
 Prilago
 eni
-Sync
 poslu
 itelj
+za
+sinkronizaciju
 <
 /
 string

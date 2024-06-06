@@ -3181,8 +3181,6 @@ name
 preferences_language
 "
 >
-(
-)
 <
 /
 string
@@ -17711,6 +17709,7 @@ name
 migration_title
 "
 >
+%
 s
 <
 /
