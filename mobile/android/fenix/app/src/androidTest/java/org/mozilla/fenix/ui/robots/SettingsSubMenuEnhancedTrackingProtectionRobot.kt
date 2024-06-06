@@ -435,14 +435,6 @@ assertEnhancedTrackingProtectionOptions
 (
 )
 fun
-verifyEnhancedTrackingProtectionOptionsGrayedOut
-(
-)
-=
-assertEnhancedTrackingProtectionOptionsGrayedOut
-(
-)
-fun
 verifyTrackingProtectionSwitchEnabled
 (
 )
