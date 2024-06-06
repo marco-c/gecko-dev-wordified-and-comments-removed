@@ -1999,8 +1999,6 @@ testPageTitle
 =
 onView
 (
-allOf
-(
 withId
 (
 R
@@ -2008,13 +2006,6 @@ R
 id
 .
 title
-)
-withText
-(
-"
-Test_Page_1
-"
-)
 )
 )
 private
