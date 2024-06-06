@@ -229,6 +229,11 @@ tasks
 for
 :
 [
+github
+-
+pull
+-
+request
 ]
 treeherder
 :
