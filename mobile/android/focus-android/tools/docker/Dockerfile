@@ -1136,6 +1136,8 @@ lint
 pmd
 checkstyle
 findbugs
+detektCheck
+ktlint
 #
 -
 -
