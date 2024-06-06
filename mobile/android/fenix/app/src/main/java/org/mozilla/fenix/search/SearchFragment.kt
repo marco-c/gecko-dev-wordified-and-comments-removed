@@ -978,7 +978,7 @@ hideKeyboard
 )
 }
 }
-false
+true
 }
 toolbarView
 =
@@ -2098,9 +2098,7 @@ requestFocus
 else
 -
 >
-awesomeBarView
-.
-isKeyboardDismissedProgrammatically
+true
 }
 }
 private
