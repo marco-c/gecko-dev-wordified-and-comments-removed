@@ -1640,17 +1640,6 @@ settings
 (
 )
 .
-showGridViewInTabsSettings
-&
-&
-view
-.
-context
-.
-settings
-(
-)
-.
 shouldShowGridViewBanner
 &
 &
