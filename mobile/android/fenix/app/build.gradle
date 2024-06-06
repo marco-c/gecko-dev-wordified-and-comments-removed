@@ -4565,6 +4565,10 @@ androidx_core_ktx
 implementation
 Deps
 .
+androidx_dynamic_animation
+implementation
+Deps
+.
 androidx_transition
 implementation
 Deps
