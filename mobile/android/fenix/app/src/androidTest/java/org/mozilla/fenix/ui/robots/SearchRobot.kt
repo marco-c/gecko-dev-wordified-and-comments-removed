@@ -1928,7 +1928,7 @@ R
 .
 id
 .
-pill_wrapper_divider
+keyboard_divider
 )
 )
 }
@@ -1944,7 +1944,7 @@ R
 .
 id
 .
-pill_wrapper_divider
+keyboard_divider
 )
 )
 }
