@@ -144,10 +144,6 @@ android
 test
 -
 nightly
-|
-nightly
--
-simulation
 )
 :
 by
