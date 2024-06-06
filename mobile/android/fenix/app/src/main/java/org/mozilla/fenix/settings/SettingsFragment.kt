@@ -393,6 +393,16 @@ fenix
 .
 ext
 .
+navigateBlockingForAsyncNavGraph
+import
+org
+.
+mozilla
+.
+fenix
+.
+ext
+.
 metrics
 import
 org
@@ -3063,7 +3073,7 @@ settingsFragment
 {
 navController
 .
-navigate
+navigateBlockingForAsyncNavGraph
 (
 directions
 )

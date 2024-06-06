@@ -96,6 +96,16 @@ mozilla
 fenix
 .
 NavGraphDirections
+import
+org
+.
+mozilla
+.
+fenix
+.
+ext
+.
+navigateBlockingForAsyncNavGraph
 /
 *
 *
@@ -197,7 +207,7 @@ intent
 )
 navController
 .
-navigate
+navigateBlockingForAsyncNavGraph
 (
 directions
 )

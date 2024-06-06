@@ -200,7 +200,7 @@ const
 val
 EXPECTED_RUNBLOCKING_COUNT
 =
-2
+3
 private
 const
 val

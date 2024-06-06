@@ -113,6 +113,16 @@ mozilla
 .
 fenix
 .
+ext
+.
+navigateBlockingForAsyncNavGraph
+import
+org
+.
+mozilla
+.
+fenix
+.
 settings
 .
 SupportUtils
@@ -326,7 +336,7 @@ OpenOneLogin
 )
 navController
 .
-navigate
+navigateBlockingForAsyncNavGraph
 (
 SavedLoginsFragmentDirections
 .

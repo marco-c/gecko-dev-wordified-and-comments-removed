@@ -1719,14 +1719,14 @@ toTypedArray
 (
 )
 )
-navigate
+navigateToHistoryFragment
 (
 directions
 )
 }
 private
 fun
-navigate
+navigateToHistoryFragment
 (
 directions
 :

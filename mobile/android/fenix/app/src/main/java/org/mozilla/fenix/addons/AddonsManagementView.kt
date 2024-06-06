@@ -109,6 +109,16 @@ fenix
 .
 ext
 .
+navigateBlockingForAsyncNavGraph
+import
+org
+.
+mozilla
+.
+fenix
+.
+ext
+.
 navigateSafe
 /
 *
@@ -295,7 +305,7 @@ toTypedArray
 )
 navController
 .
-navigate
+navigateBlockingForAsyncNavGraph
 (
 directions
 )

@@ -571,6 +571,16 @@ fenix
 .
 ext
 .
+navigateBlockingForAsyncNavGraph
+import
+org
+.
+mozilla
+.
+fenix
+.
+ext
+.
 metrics
 import
 org
@@ -2157,7 +2167,7 @@ findNavController
 (
 )
 .
-navigate
+navigateBlockingForAsyncNavGraph
 (
 directions
 )
@@ -2229,7 +2239,7 @@ findNavController
 (
 )
 .
-navigate
+navigateBlockingForAsyncNavGraph
 (
 R
 .
@@ -2381,7 +2391,7 @@ findNavController
 (
 )
 .
-navigate
+navigateBlockingForAsyncNavGraph
 (
 TabTrayDialogFragmentDirections
 .
@@ -2488,7 +2498,7 @@ findNavController
 (
 )
 .
-navigate
+navigateBlockingForAsyncNavGraph
 (
 TabTrayDialogFragmentDirections
 .

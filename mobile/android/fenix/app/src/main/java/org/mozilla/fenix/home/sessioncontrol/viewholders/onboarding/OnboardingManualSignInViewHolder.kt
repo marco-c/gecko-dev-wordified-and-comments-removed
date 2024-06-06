@@ -141,6 +141,16 @@ mozilla
 .
 fenix
 .
+ext
+.
+navigateBlockingForAsyncNavGraph
+import
+org
+.
+mozilla
+.
+fenix
+.
 home
 .
 HomeFragmentDirections
@@ -205,7 +215,7 @@ findNavController
 view
 )
 .
-navigate
+navigateBlockingForAsyncNavGraph
 (
 directions
 )

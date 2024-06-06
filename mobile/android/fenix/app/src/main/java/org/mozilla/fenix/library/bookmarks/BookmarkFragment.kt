@@ -1348,7 +1348,7 @@ add_bookmark_folder
 -
 >
 {
-navigate
+navigateToBookmarkFragment
 (
 BookmarkFragmentDirections
 .
@@ -1460,7 +1460,7 @@ it
 title
 )
 }
-navigate
+navigateToBookmarkFragment
 (
 BookmarkFragmentDirections
 .
@@ -1517,7 +1517,7 @@ showTabTray
 invokePendingDeletion
 (
 )
-navigate
+navigateToBookmarkFragment
 (
 BookmarkFragmentDirections
 .
@@ -1528,7 +1528,7 @@ actionGlobalTabTrayDialogFragment
 }
 private
 fun
-navigate
+navigateToBookmarkFragment
 (
 directions
 :

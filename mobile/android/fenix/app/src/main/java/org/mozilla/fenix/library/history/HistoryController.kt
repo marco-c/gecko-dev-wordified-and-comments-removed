@@ -176,6 +176,16 @@ components
 metrics
 .
 MetricController
+import
+org
+.
+mozilla
+.
+fenix
+.
+ext
+.
+navigateBlockingForAsyncNavGraph
 Suppress
 (
 "
@@ -589,7 +599,7 @@ HistoryItem
 {
 navController
 .
-navigate
+navigateBlockingForAsyncNavGraph
 (
 HistoryFragmentDirections
 .
@@ -657,7 +667,7 @@ handleEnterRecentlyClosed
 {
 navController
 .
-navigate
+navigateBlockingForAsyncNavGraph
 (
 HistoryFragmentDirections
 .

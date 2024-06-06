@@ -217,6 +217,16 @@ mozilla
 .
 fenix
 .
+ext
+.
+navigateBlockingForAsyncNavGraph
+import
+org
+.
+mozilla
+.
+fenix
+.
 sync
 .
 SyncedTabsAdapter
@@ -493,7 +503,7 @@ setOnClickListener
 {
 navController
 .
-navigate
+navigateBlockingForAsyncNavGraph
 (
 NavGraphDirections
 .

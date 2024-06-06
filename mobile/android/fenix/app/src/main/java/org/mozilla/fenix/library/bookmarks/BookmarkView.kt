@@ -165,6 +165,16 @@ mozilla
 .
 fenix
 .
+ext
+.
+navigateBlockingForAsyncNavGraph
+import
+org
+.
+mozilla
+.
+fenix
+.
 library
 .
 LibraryPageView
@@ -675,7 +685,7 @@ setOnClickListener
 {
 navController
 .
-navigate
+navigateBlockingForAsyncNavGraph
 (
 NavGraphDirections
 .

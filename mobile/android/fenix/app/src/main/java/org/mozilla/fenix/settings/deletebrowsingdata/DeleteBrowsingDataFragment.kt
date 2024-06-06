@@ -275,6 +275,16 @@ fenix
 .
 ext
 .
+navigateBlockingForAsyncNavGraph
+import
+org
+.
+mozilla
+.
+fenix
+.
+ext
+.
 requireComponents
 import
 org
@@ -1163,7 +1173,7 @@ id
 homeFragment
 false
 )
-navigate
+navigateBlockingForAsyncNavGraph
 (
 DeleteBrowsingDataFragmentDirections
 .

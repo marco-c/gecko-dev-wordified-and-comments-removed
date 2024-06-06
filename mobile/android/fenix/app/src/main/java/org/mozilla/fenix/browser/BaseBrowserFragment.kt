@@ -1303,6 +1303,16 @@ feature
 .
 ActivityResultHandler
 import
+org
+.
+mozilla
+.
+fenix
+.
+ext
+.
+navigateBlockingForAsyncNavGraph
+import
 mozilla
 .
 components
@@ -3293,7 +3303,7 @@ findNavController
 (
 )
 .
-navigate
+navigateBlockingForAsyncNavGraph
 (
 directions
 )
@@ -3333,7 +3343,7 @@ findNavController
 (
 )
 .
-navigate
+navigateBlockingForAsyncNavGraph
 (
 directions
 )
@@ -5164,7 +5174,7 @@ findNavController
 (
 )
 .
-navigate
+navigateBlockingForAsyncNavGraph
 (
 NavGraphDirections
 .

@@ -173,6 +173,16 @@ mozilla
 .
 fenix
 .
+ext
+.
+navigateBlockingForAsyncNavGraph
+import
+org
+.
+mozilla
+.
+fenix
+.
 tabtray
 .
 TabTrayDialogFragmentDirections
@@ -297,7 +307,7 @@ isPrivate
 )
 navController
 .
-navigate
+navigateBlockingForAsyncNavGraph
 (
 TabTrayDialogFragmentDirections
 .

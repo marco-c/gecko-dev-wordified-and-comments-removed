@@ -92,6 +92,16 @@ experiments
 nimbus
 .
 EnrolledExperiment
+import
+org
+.
+mozilla
+.
+fenix
+.
+ext
+.
+navigateBlockingForAsyncNavGraph
 /
 *
 *
@@ -139,7 +149,7 @@ userFacingName
 )
 navController
 .
-navigate
+navigateBlockingForAsyncNavGraph
 (
 directions
 )

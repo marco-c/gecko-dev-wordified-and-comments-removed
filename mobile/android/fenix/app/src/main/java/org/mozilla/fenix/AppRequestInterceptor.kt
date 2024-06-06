@@ -163,6 +163,16 @@ ext
 .
 isOnline
 import
+org
+.
+mozilla
+.
+fenix
+.
+ext
+.
+navigateBlockingForAsyncNavGraph
+import
 java
 .
 lang
@@ -579,7 +589,7 @@ get
 )
 ?
 .
-navigate
+navigateBlockingForAsyncNavGraph
 (
 NavGraphDirections
 .

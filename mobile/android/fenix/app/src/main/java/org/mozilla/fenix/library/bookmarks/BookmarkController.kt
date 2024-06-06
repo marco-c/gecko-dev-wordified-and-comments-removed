@@ -610,7 +610,7 @@ node
 BookmarkNode
 )
 {
-navigate
+navigateToGivenDirection
 (
 BookmarkFragmentDirections
 .
@@ -775,7 +775,7 @@ item
 BookmarkNode
 )
 {
-navigate
+navigateToGivenDirection
 (
 BookmarkFragmentDirections
 .
@@ -1137,7 +1137,7 @@ from
 }
 private
 fun
-navigate
+navigateToGivenDirection
 (
 directions
 :

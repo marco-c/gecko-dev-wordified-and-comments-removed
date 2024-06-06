@@ -215,6 +215,16 @@ mozilla
 .
 fenix
 .
+ext
+.
+navigateBlockingForAsyncNavGraph
+import
+org
+.
+mozilla
+.
+fenix
+.
 home
 .
 intent
@@ -596,7 +606,7 @@ destinationId
 {
 navController
 .
-navigate
+navigateBlockingForAsyncNavGraph
 (
 globalDirections
 .

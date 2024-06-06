@@ -81,6 +81,16 @@ mozilla
 .
 fenix
 .
+ext
+.
+navigateBlockingForAsyncNavGraph
+import
+org
+.
+mozilla
+.
+fenix
+.
 settings
 .
 creditcards
@@ -169,7 +179,7 @@ handleCreditCardClicked
 {
 navController
 .
-navigate
+navigateBlockingForAsyncNavGraph
 (
 CreditCardsManagementFragmentDirections
 .

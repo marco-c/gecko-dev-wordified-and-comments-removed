@@ -204,6 +204,16 @@ fenix
 components
 .
 FenixSnackbar
+import
+org
+.
+mozilla
+.
+fenix
+.
+ext
+.
+navigateBlockingForAsyncNavGraph
 interface
 RecentlyClosedController
 {
@@ -359,7 +369,7 @@ handleNavigateToHistory
 {
 navController
 .
-navigate
+navigateBlockingForAsyncNavGraph
 (
 RecentlyClosedFragmentDirections
 .
@@ -450,7 +460,7 @@ RecoverableTab
 {
 navController
 .
-navigate
+navigateBlockingForAsyncNavGraph
 (
 RecentlyClosedFragmentDirections
 .
