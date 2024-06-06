@@ -231,7 +231,7 @@ R
 .
 drawable
 .
-mozac_ic_tracking_protection_on_trackers_blocked
+mozac_ic_shield
 )
 updateIcon
 (
