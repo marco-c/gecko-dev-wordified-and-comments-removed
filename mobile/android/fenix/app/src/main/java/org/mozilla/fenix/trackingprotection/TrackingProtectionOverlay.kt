@@ -557,7 +557,7 @@ R
 .
 dimen
 .
-tp_onboarding_triangle_height
+cfr_triangle_height
 )
 val
 triangleMarginStartPx
@@ -570,7 +570,7 @@ R
 .
 dimen
 .
-tp_onboarding_triangle_margin_start
+cfr_triangle_margin_edge
 )
 val
 toolbar
