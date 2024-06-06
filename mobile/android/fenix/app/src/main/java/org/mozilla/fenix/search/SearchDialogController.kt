@@ -430,6 +430,15 @@ clearToolbarFocus
 -
 >
 Unit
+private
+val
+focusToolbar
+:
+(
+)
+-
+>
+Unit
 )
 :
 SearchController
@@ -1054,6 +1063,9 @@ searchEngine
 SearchEngine
 )
 {
+focusToolbar
+(
+)
 fragmentStore
 .
 dispatch
