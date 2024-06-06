@@ -580,6 +580,10 @@ OnboardingInteractor
 Hides
 the
 onboarding
+and
+navigates
+to
+Search
 .
 Called
 when
