@@ -798,11 +798,6 @@ data
 class
 NoContentMessage
 (
-DrawableRes
-val
-icon
-:
-Int
 StringRes
 val
 header
@@ -825,11 +820,6 @@ data
 class
 NoContentMessageWithAction
 (
-DrawableRes
-val
-icon
-:
-Int
 StringRes
 val
 header
@@ -1740,7 +1730,6 @@ onOpenNewTabClicked
 }
 val
 (
-icon
 header
 description
 buttonIcon
@@ -1756,7 +1745,6 @@ holder
 .
 bind
 (
-icon
 header
 description
 buttonIcon
@@ -1771,7 +1759,6 @@ NoContentMessageViewHolder
 {
 val
 (
-icon
 header
 description
 )
@@ -1785,7 +1772,6 @@ holder
 .
 bind
 (
-icon
 header
 description
 )

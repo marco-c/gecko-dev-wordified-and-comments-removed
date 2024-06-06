@@ -235,11 +235,6 @@ NoContentMessageWithAction
 (
 R
 .
-drawable
-.
-ic_tabs
-R
-.
 string
 .
 no_open_tabs_header_2
@@ -266,11 +261,6 @@ AdapterItem
 .
 NoContentMessage
 (
-R
-.
-drawable
-.
-ic_tab_collection
 R
 .
 string
