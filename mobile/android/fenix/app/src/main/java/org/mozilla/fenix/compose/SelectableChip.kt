@@ -483,9 +483,6 @@ Theme
 .
 getTheme
 (
-isPrivate
-=
-false
 )
 )
 {
@@ -564,9 +561,6 @@ Theme
 .
 getTheme
 (
-isPrivate
-=
-false
 )
 )
 {

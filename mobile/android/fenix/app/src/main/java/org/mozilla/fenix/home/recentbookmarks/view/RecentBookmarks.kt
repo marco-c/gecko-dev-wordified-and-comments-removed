@@ -1218,9 +1218,6 @@ Theme
 .
 getTheme
 (
-isPrivate
-=
-false
 )
 )
 {

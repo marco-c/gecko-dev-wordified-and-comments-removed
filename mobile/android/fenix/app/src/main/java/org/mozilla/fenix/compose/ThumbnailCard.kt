@@ -806,9 +806,6 @@ Theme
 .
 getTheme
 (
-isPrivate
-=
-false
 )
 )
 {

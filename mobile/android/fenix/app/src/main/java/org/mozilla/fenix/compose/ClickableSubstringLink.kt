@@ -461,9 +461,6 @@ Theme
 .
 getTheme
 (
-isPrivate
-=
-false
 )
 )
 {

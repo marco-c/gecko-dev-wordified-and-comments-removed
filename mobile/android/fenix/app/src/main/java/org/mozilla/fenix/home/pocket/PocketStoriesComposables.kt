@@ -3013,9 +3013,6 @@ Theme
 .
 getTheme
 (
-isPrivate
-=
-false
 )
 )
 {
