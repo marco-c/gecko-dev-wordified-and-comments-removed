@@ -133,10 +133,6 @@ beetmover
 components
 -
 dummy
--
-version
--
-bump
 job
 -
 defaults
