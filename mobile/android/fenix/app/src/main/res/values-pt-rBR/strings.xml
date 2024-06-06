@@ -7135,7 +7135,7 @@ name
 preferences_marketing_data_description2
 "
 >
-Compartilha
+Compartilhar
 dados
 b
 sicos
@@ -8131,7 +8131,7 @@ library_desktop_bookmarks_root
 "
 >
 Favoritos
-do
+no
 computador
 <
 /
@@ -8950,6 +8950,8 @@ Ap
 s
 um
 dia
+sem
+uso
 <
 /
 string
@@ -8986,6 +8988,8 @@ Ap
 s
 uma
 semana
+sem
+uso
 <
 /
 string
@@ -9023,6 +9027,8 @@ s
 um
 m
 s
+sem
+uso
 <
 /
 string
@@ -9100,6 +9106,8 @@ ap
 s
 um
 dia
+sem
+uso
 <
 /
 string
@@ -9142,6 +9150,8 @@ ap
 s
 uma
 semana
+sem
+uso
 <
 /
 string
@@ -9185,6 +9195,8 @@ s
 um
 m
 s
+sem
+uso
 <
 /
 string
