@@ -1463,6 +1463,13 @@ paddingBottom
 "
 android
 :
+scrollbarStyle
+=
+"
+outsideOverlay
+"
+android
+:
 scrollbars
 =
 "
