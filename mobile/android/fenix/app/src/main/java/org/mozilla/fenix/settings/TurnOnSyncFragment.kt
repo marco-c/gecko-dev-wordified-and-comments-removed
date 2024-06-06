@@ -546,7 +546,6 @@ Event
 .
 SyncAuthSignIn
 )
-true
 }
 }
 private
@@ -597,7 +596,6 @@ Event
 .
 SyncAuthScanPairing
 )
-true
 }
 }
 override
