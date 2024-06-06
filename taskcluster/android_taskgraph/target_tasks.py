@@ -533,40 +533,6 @@ return
 True
         
 if
-task
-.
-attributes
-.
-get
-(
-            
-"
-shipping_phase
-"
-        
-)
-=
-=
-shipping_phase
-and
-does_task_match_release_type
-(
-            
-task
-parameters
-[
-"
-release_type
-"
-]
-        
-)
-:
-            
-return
-True
-        
-if
 (
             
 task
@@ -602,12 +568,27 @@ parameters
 release_product
 "
 ]
+            
+and
+does_task_match_release_type
+(
+task
+parameters
+[
+"
+release_type
+"
+]
+)
         
 )
 :
             
 return
 True
+        
+return
+False
     
 return
 [
