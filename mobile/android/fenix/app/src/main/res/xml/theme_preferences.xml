@@ -142,7 +142,9 @@ android
 defaultValue
 =
 "
-false
+bool
+/
+underAPI28
 "
 android
 :
@@ -262,7 +264,9 @@ android
 defaultValue
 =
 "
-false
+bool
+/
+API28
 "
 android
 :
