@@ -991,7 +991,7 @@ text
 "
 string
 /
-search_shortcuts_search_with
+search_shortcuts_search_with_2
 "
 app
 :
@@ -1016,8 +1016,11 @@ tools
 text
 =
 "
-Search
+This
+time
+search
 with
+:
 "
 /
 >

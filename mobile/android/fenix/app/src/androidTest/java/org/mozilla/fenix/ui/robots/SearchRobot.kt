@@ -1128,8 +1128,11 @@ allOf
 withText
 (
 "
+THIS
+TIME
 SEARCH
 WITH
+:
 "
 )
 )
