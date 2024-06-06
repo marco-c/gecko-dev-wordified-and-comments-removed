@@ -585,7 +585,7 @@ track
 (
 Event
 .
-RecentlyClosedTabsOpened
+RecentlyClosedTabsOpenedOld
 )
 }
 }

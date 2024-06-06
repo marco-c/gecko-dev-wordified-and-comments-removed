@@ -823,7 +823,7 @@ track
 (
 Event
 .
-RecentlyClosedTabsOpened
+RecentlyClosedTabsOpenedOld
 )
 }
 override
