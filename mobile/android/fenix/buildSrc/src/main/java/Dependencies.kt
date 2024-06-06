@@ -2239,7 +2239,6 @@ material
 material
 :
 {
-{
 Versions
 .
 google_material
