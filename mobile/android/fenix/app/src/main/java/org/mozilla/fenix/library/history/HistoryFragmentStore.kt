@@ -457,12 +457,15 @@ isEmpty
 (
 )
 )
+{
 HistoryFragmentState
 .
 Mode
 .
 Normal
+}
 else
+{
 HistoryFragmentState
 .
 Mode
@@ -471,6 +474,7 @@ Editing
 (
 selected
 )
+}
 )
 }
 is

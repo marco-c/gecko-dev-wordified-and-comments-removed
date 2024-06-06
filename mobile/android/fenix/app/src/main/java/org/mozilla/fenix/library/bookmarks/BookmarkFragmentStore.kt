@@ -400,12 +400,15 @@ isEmpty
 (
 )
 )
+{
 BookmarkFragmentState
 .
 Mode
 .
 Normal
+}
 else
+{
 BookmarkFragmentState
 .
 Mode
@@ -418,6 +421,7 @@ toSet
 (
 )
 )
+}
 )
 }
 is
@@ -482,12 +486,15 @@ isEmpty
 (
 )
 )
+{
 BookmarkFragmentState
 .
 Mode
 .
 Normal
+}
 else
+{
 BookmarkFragmentState
 .
 Mode
@@ -496,6 +503,7 @@ Selecting
 (
 items
 )
+}
 )
 }
 BookmarkFragmentAction

@@ -362,12 +362,12 @@ Action
 ]
 and
 then
+*
 delegates
 to
 the
 proper
 child
-*
 *
 /
 private
