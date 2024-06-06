@@ -110,11 +110,13 @@ parent
 "
 Theme
 .
-AppCompat
+MaterialComponents
 .
 DayNight
 .
 NoActionBar
+.
+Bridge
 "
 >
 <
@@ -995,9 +997,11 @@ parent
 "
 Theme
 .
-AppCompat
+MaterialComponents
 .
 NoActionBar
+.
+Bridge
 "
 >
 <
