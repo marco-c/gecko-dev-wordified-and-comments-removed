@@ -2097,9 +2097,9 @@ name
 browser_tabs_button
 "
 >
-Abrir
-pesta
+Pesta
 as
+abiertas
 <
 /
 string
@@ -2210,7 +2210,7 @@ name
 browser_menu_refresh
 "
 >
-Refrescar
+Recargar
 <
 /
 string
@@ -3593,10 +3593,7 @@ name
 search_engine_button
 "
 >
-Motor
-de
-b
-squeda
+Buscador
 <
 /
 string
@@ -17291,7 +17288,7 @@ name
 snackbar_deleted_undo
 "
 >
-UNDO
+DESHACER
 <
 /
 string
@@ -23188,7 +23185,7 @@ Las
 protecciones
 est
 n
-habilitadas
+activadas
 para
 este
 sitio
@@ -23227,7 +23224,7 @@ Las
 protecciones
 est
 n
-OFF
+desactivadas
 para
 este
 sitio
@@ -27034,7 +27031,7 @@ name
 credit_cards_delete_card_button
 "
 >
-Eliminar
+Borrar
 tarjeta
 <
 /
@@ -29977,7 +29974,7 @@ name
 synced_tabs_sign_in_button
 "
 >
-Inicia
+Inici
 sesi
 n
 para
