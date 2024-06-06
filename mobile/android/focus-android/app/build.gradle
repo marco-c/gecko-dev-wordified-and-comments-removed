@@ -2957,6 +2957,14 @@ buildType
 "
 nightly
 "
+|
+|
+buildType
+=
+=
+"
+beta
+"
 )
 {
 def
