@@ -331,9 +331,16 @@ item
 first
 %
 TOP_SITES_PER_PAGE
+TopSitesAdapter
+.
+TopSitePayload
+(
 item
 .
 second
+.
+title
+)
 )
 }
 }

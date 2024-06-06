@@ -303,12 +303,7 @@ TopSitePayload
 {
 holder
 .
-itemView
-.
-top_site_title
-.
-text
-=
+bind
 (
 payloads
 [
@@ -317,8 +312,6 @@ payloads
 as
 TopSitePayload
 )
-.
-newTitle
 }
 }
 }
