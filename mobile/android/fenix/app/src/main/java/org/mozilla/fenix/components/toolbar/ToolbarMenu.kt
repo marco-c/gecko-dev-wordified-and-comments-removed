@@ -190,7 +190,7 @@ Item
 (
 )
 object
-InstallToHomeScreen
+InstallPwaToHomeScreen
 :
 Item
 (
@@ -203,6 +203,12 @@ Item
 )
 object
 SyncedTabs
+:
+Item
+(
+)
+object
+SyncAccount
 :
 Item
 (
