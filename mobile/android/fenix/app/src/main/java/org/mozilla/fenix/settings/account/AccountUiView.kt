@@ -217,15 +217,6 @@ httpClient
 Client
 private
 val
-updateFxASyncOverrideMenu
-:
-(
-)
--
->
-Unit
-private
-val
 updateFxAAllowDomesticChinaServerMenu
 :
 (
@@ -367,9 +358,6 @@ account
 accountManager
 .
 authenticatedAccount
-(
-)
-updateFxASyncOverrideMenu
 (
 )
 updateFxAAllowDomesticChinaServerMenu
