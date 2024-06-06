@@ -117,7 +117,9 @@ onTabCounterMenuItemTapped
 val
 item
 :
-TabCounterMenuItem
+TabCounterMenu
+.
+Item
 =
 mockk
 (

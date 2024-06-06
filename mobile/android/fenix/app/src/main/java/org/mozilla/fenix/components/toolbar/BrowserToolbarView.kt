@@ -441,7 +441,9 @@ onTabCounterMenuItemTapped
 (
 item
 :
-TabCounterMenuItem
+TabCounterMenu
+.
+Item
 )
 fun
 onScrolled

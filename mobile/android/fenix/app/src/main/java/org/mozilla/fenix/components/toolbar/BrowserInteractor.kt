@@ -102,7 +102,9 @@ onTabCounterMenuItemTapped
 (
 item
 :
-TabCounterMenuItem
+TabCounterMenu
+.
+Item
 )
 {
 browserToolbarController
