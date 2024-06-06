@@ -168,9 +168,9 @@ core
 "
 1
 .
-3
+8
 .
-2
+0
 "
 const
 val
@@ -261,9 +261,9 @@ lifecycle
 "
 2
 .
-2
+5
 .
-0
+1
 "
 const
 val
