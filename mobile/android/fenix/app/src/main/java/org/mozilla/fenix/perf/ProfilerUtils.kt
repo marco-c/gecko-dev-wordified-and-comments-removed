@@ -244,9 +244,6 @@ screenshots
 js
 "
 "
-leaf
-"
-"
 stackwalk
 "
 "
@@ -354,9 +351,6 @@ arrayOf
 js
 "
 "
-leaf
-"
-"
 stackwalk
 "
 "
@@ -461,9 +455,6 @@ screenshots
 "
 "
 js
-"
-"
-leaf
 "
 "
 stackwalk
