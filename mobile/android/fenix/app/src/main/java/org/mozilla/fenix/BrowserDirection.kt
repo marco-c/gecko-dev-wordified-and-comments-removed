@@ -147,6 +147,14 @@ id
 .
 homeFragment
 )
+FromWallpaper
+(
+R
+.
+id
+.
+wallpaperSettingsFragment
+)
 FromSearchDialog
 (
 R
