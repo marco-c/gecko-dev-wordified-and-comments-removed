@@ -2792,11 +2792,6 @@ verifyKeyboardVisibility
 clickSearchEngineShortcutButton
 (
 )
-mDevice
-.
-waitForIdle
-(
-)
 activityTestRule
 .
 waitForIdle
