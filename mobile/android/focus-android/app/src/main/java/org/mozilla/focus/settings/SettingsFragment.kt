@@ -150,6 +150,12 @@ if
 AppConstants
 .
 isGeckoBuild
+&
+&
+!
+AppConstants
+.
+isDevBuild
 )
 {
 preferenceScreen
