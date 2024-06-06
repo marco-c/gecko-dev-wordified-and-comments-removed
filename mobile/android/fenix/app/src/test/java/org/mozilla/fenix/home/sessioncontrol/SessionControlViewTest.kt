@@ -338,6 +338,12 @@ relaxed
 true
 )
 interactor
+mockk
+(
+relaxed
+=
+true
+)
 )
 val
 state
