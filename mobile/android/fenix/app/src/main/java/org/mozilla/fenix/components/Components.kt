@@ -216,6 +216,12 @@ sessionUseCases
 useCases
 .
 searchUseCases
+core
+.
+client
+core
+.
+customTabsStore
 )
 }
 val
