@@ -227,14 +227,6 @@ id
 .
 httpsOnlyFragment
 )
-FromCookieBanner
-(
-R
-.
-id
-.
-cookieBannerFragment
-)
 FromTrackingProtectionDialog
 (
 R
