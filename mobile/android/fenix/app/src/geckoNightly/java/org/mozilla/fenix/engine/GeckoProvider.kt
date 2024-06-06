@@ -300,11 +300,6 @@ class
 java
 )
 .
-useContentProcessHint
-(
-true
-)
-.
 telemetryDelegate
 (
 GeckoAdapter
