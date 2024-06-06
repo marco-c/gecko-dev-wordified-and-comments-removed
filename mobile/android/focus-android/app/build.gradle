@@ -6295,8 +6295,6 @@ fileName
 '
 app
 -
-focus
--
 debug
 -
 androidTest
@@ -6308,12 +6306,12 @@ apk
 build_type
 :
 '
-debug
+androidTest
 '
 name
 :
 '
-FocusDebugAndroidTest
+androidTest
 '
 ]
 )
