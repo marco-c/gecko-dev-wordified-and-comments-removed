@@ -404,15 +404,6 @@ bold
 "
 app
 :
-layout_constraintEnd_toStartOf
-=
-"
-id
-/
-close_tab_button
-"
-app
-:
 layout_constraintStart_toEndOf
 =
 "
