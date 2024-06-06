@@ -319,7 +319,14 @@ Wallpaper
 .
 ImageFileState
 .
-NotAvailable
+Unavailable
+assetsFileState
+=
+Wallpaper
+.
+ImageFileState
+.
+Downloaded
 )
 }
 else

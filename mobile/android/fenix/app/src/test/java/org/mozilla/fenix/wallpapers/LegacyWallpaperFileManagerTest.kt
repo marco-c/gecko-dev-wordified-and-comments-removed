@@ -612,7 +612,14 @@ Wallpaper
 .
 ImageFileState
 .
-NotAvailable
+Unavailable
+assetsFileState
+=
+Wallpaper
+.
+ImageFileState
+.
+Downloaded
 collection
 =
 Wallpaper
