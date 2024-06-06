@@ -350,6 +350,13 @@ ToolbarPresenter
 toolbar
 store
 sessionId
+context
+.
+settings
+(
+)
+.
+showUnifiedSearchFeature
 ToolbarFeature
 .
 UrlRenderConfiguration
