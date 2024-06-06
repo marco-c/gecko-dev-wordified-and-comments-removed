@@ -2569,9 +2569,9 @@ setBackgroundResource
 (
 R
 .
-drawable
+color
 .
-background_inactive
+searchInActiveBackgroundColor
 )
 toolbarBottomBorder
 .

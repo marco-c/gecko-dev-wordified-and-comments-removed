@@ -438,9 +438,9 @@ android
 background
 =
 "
-drawable
+color
 /
-background_inactive
+searchInActiveBackgroundColor
 "
 /
 >
