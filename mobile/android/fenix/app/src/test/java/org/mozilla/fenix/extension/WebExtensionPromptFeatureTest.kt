@@ -529,7 +529,7 @@ R
 .
 string
 .
-mozac_feature_addons_blocklisted
+mozac_feature_addons_blocklisted_1
 extensionName
 )
 webExtensionPromptFeature
