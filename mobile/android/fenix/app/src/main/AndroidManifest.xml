@@ -597,6 +597,13 @@ targetActivity
 .
 IntentReceiverActivity
 "
+android
+:
+exported
+=
+"
+true
+"
 >
 <
 /
