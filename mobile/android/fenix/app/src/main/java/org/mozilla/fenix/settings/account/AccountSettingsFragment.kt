@@ -949,8 +949,13 @@ getClickListenerForSyncNow
 (
 )
 icon
-=
+?
+.
+let
+{
 icon
+=
+it
 .
 mutate
 (
@@ -971,6 +976,7 @@ attr
 textPrimary
 )
 )
+}
 }
 /
 /
