@@ -463,9 +463,11 @@ onResume
 )
 updateTitle
 (
-"
-About
-"
+R
+.
+string
+.
+menu_about
 )
 }
 override
