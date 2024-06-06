@@ -62,8 +62,11 @@ false
 )
 document
 .
-onselectionchange
-=
+addEventListener
+(
+"
+selectionchange
+"
 (
 )
 =
@@ -91,6 +94,13 @@ selectAll
 false
 )
 }
+{
+once
+:
+true
+}
+)
+;
 document
 .
 getSelection
