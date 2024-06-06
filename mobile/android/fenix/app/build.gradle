@@ -51,6 +51,14 @@ apply
 plugin
 :
 '
+kotlin
+-
+kapt
+'
+apply
+plugin
+:
+'
 jacoco
 '
 apply
@@ -4204,6 +4212,10 @@ implementation
 Deps
 .
 mozilla_feature_top_sites
+implementation
+Deps
+.
+mozilla_feature_share
 implementation
 Deps
 .

@@ -133,6 +133,12 @@ io
 .
 mockk
 .
+mockkStatic
+import
+io
+.
+mockk
+.
 spyk
 import
 io
@@ -140,12 +146,6 @@ io
 mockk
 .
 verify
-import
-io
-.
-mockk
-.
-mockkStatic
 import
 kotlinx
 .
