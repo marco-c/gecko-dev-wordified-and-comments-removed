@@ -169,7 +169,7 @@ androidx_biometric
 .
 0
 -
-alpha01
+beta01
 "
 const
 val
@@ -272,7 +272,7 @@ androidx_recyclerview
 .
 0
 -
-alpha05
+alpha06
 "
 const
 val
@@ -281,9 +281,9 @@ androidx_core
 "
 1
 .
-2
+3
 .
-0
+2
 "
 const
 val
