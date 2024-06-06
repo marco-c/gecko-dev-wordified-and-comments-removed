@@ -983,11 +983,7 @@ useCases
 appLinksUseCases
 container
 =
-browserToolbarView
-.
-view
-.
-parent
+browserLayout
 as
 ViewGroup
 )
