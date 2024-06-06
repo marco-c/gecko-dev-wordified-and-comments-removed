@@ -406,6 +406,6 @@ const
 val
 transitionDurationMs
 =
-500
+200
 }
 }
