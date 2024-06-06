@@ -460,14 +460,11 @@ attribution
 .
 *
 /
+const
 val
 metaAttributionEnabled
 =
-Config
-.
-channel
-.
-isNightlyOrDebug
+true
 /
 *
 *
