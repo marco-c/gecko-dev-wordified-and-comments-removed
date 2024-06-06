@@ -2160,6 +2160,7 @@ mDevice
 .
 waitForIdle
 (
+waitingTime
 )
 threeDotButton
 (
