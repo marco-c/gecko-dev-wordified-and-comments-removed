@@ -753,16 +753,6 @@ utils
 .
 allowUndo
 import
-org
-.
-mozilla
-.
-fenix
-.
-utils
-.
-Settings
-import
 kotlin
 .
 coroutines
