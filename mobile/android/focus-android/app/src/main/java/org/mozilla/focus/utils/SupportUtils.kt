@@ -353,11 +353,15 @@ whats
 -
 new
 -
+firefox
+-
 focus
 -
 android
 -
-8
+version
+-
+93
 "
 )
 SEARCH_SUGGESTIONS
