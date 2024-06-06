@@ -3632,7 +3632,7 @@ of
 tabs
 into
 a
-group
+collection
 -
 -
 >
@@ -3641,12 +3641,12 @@ string
 name
 =
 "
-save_tab_group
+save_to_collection
 "
 >
 Save
-Tab
-Group
+to
+collection
 <
 /
 string
