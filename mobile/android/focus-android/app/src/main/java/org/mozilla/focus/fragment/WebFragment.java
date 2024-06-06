@@ -293,6 +293,17 @@ isBlockingEnabled
 )
 )
 ;
+webView
+.
+setRequestDesktop
+(
+session
+.
+shouldRequestDesktopSite
+(
+)
+)
+;
 }
 if
 (

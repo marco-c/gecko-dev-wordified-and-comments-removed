@@ -274,6 +274,13 @@ String
 realm
 )
 ;
+void
+onRequestDesktopStateChanged
+(
+boolean
+shouldRequestDesktop
+)
+;
 }
 interface
 FullscreenCallback
@@ -307,6 +314,13 @@ setBlockingEnabled
 (
 boolean
 enabled
+)
+;
+void
+setRequestDesktop
+(
+boolean
+shouldRequestDesktop
 )
 ;
 void
