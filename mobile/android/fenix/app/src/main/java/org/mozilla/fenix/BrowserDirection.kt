@@ -339,4 +339,12 @@ id
 .
 reviewQualityCheckFragment
 )
+FromAddonsManagementFragment
+(
+R
+.
+id
+.
+addonsManagementFragment
+)
 }

@@ -256,6 +256,10 @@ val
 allowedInPrivateBrowsingLabel
 :
 ImageView
+val
+statusBlocklistedView
+:
+View
 )
 :
 CustomViewHolder
