@@ -150,7 +150,11 @@ conditions
 base
 ~
 =
-releases_
+releases
+[
+_
+/
+]
 .
 *
 -
