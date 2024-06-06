@@ -127,6 +127,10 @@ analytics
 crashReporter
 )
 .
+migrateSettings
+(
+)
+.
 migrateOpenTabs
 (
 this
