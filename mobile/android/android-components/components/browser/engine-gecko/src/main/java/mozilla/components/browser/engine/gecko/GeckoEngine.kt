@@ -1776,7 +1776,12 @@ throwable
 onError
 (
 id
+GeckoWebExtensionException
+.
+createWebExtensionException
+(
 throwable
+)
 )
 GeckoResult
 <
@@ -1824,7 +1829,12 @@ throwable
 onError
 (
 id
+GeckoWebExtensionException
+.
+createWebExtensionException
+(
 throwable
+)
 )
 GeckoResult
 <
