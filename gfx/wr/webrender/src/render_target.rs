@@ -5371,8 +5371,10 @@ PatternKind
 :
 ColorOrTexture
 PatternShaderInput
+:
+:
+default
 (
-0
 )
 render_task_address
 clip_transform_id
@@ -5706,8 +5708,10 @@ PatternKind
 :
 Mask
 PatternShaderInput
+:
+:
+default
 (
-0
 )
 render_task_address
 prim_transform_id

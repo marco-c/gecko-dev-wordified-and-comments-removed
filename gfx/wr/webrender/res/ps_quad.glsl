@@ -786,7 +786,7 @@ edge_flags
 int
 quad_flags
 ;
-int
+ivec2
 pattern_input
 ;
 }
@@ -961,7 +961,7 @@ transform_id
 int
 z_id
 ;
-int
+ivec2
 pattern_input
 ;
 }
@@ -994,7 +994,7 @@ header
 y
 header
 .
-z
+zw
 )
 ;
 return
