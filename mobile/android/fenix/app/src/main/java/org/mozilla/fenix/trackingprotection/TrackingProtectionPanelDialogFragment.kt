@@ -159,7 +159,7 @@ androidx
 .
 lifecycle
 .
-whenStarted
+withStarted
 import
 androidx
 .
@@ -861,7 +861,7 @@ lifecycleScope
 .
 launch
 {
-whenStarted
+withStarted
 {
 trackingProtectionView
 .

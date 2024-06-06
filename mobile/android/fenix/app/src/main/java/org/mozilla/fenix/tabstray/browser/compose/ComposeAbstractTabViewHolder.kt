@@ -97,7 +97,7 @@ androidx
 .
 lifecycle
 .
-ViewTreeLifecycleOwner
+setViewTreeLifecycleOwner
 import
 androidx
 .
@@ -319,11 +319,10 @@ tab
 )
 }
 }
-ViewTreeLifecycleOwner
-.
-set
-(
 composeView
+.
+setViewTreeLifecycleOwner
+(
 viewLifecycleOwner
 )
 composeView

@@ -2222,11 +2222,7 @@ selectedTabId
 )
 return
 }
-super
-.
-getOnBackPressedDispatcher
-(
-)
+onBackPressedDispatcher
 .
 onBackPressed
 (

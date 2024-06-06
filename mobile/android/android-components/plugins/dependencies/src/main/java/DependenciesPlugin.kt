@@ -487,9 +487,9 @@ compose_version
 "
 1
 .
-3
+4
 .
-1
+2
 "
 const
 val
@@ -748,7 +748,7 @@ lifecycle
 "
 2
 .
-5
+6
 .
 1
 "

@@ -1292,11 +1292,7 @@ onBackPressed
 )
 )
 {
-super
-.
-getOnBackPressedDispatcher
-(
-)
+onBackPressedDispatcher
 .
 onBackPressed
 (

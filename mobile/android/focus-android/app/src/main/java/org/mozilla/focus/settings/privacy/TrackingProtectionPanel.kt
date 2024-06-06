@@ -113,7 +113,7 @@ androidx
 .
 lifecycle
 .
-ViewTreeLifecycleOwner
+setViewTreeLifecycleOwner
 import
 androidx
 .
@@ -445,11 +445,10 @@ decorView
 .
 let
 {
-ViewTreeLifecycleOwner
-.
-set
-(
 it
+.
+setViewTreeLifecycleOwner
+(
 lifecycleOwner
 )
 it

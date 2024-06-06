@@ -1348,8 +1348,11 @@ State
 :
 LifecycleOwner
 {
+override
 val
-lifecycleRegistry
+lifecycle
+:
+Lifecycle
 =
 LifecycleRegistry
 (
@@ -1362,14 +1365,5 @@ currentState
 =
 initialState
 }
-override
-fun
-getLifecycle
-(
-)
-:
-Lifecycle
-=
-lifecycleRegistry
 }
 }

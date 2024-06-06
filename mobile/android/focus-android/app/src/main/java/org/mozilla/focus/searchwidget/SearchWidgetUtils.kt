@@ -127,7 +127,7 @@ androidx
 .
 lifecycle
 .
-ViewTreeLifecycleOwner
+setViewTreeLifecycleOwner
 import
 androidx
 .
@@ -328,11 +328,8 @@ activity
 .
 apply
 {
-ViewTreeLifecycleOwner
-.
-set
+setViewTreeLifecycleOwner
 (
-this
 activity
 )
 this

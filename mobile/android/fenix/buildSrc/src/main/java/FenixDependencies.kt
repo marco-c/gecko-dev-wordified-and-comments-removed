@@ -244,9 +244,9 @@ androidx_compose
 "
 1
 .
-3
+4
 .
-1
+2
 "
 const
 val
@@ -365,7 +365,7 @@ androidx_lifecycle
 "
 2
 .
-5
+6
 .
 1
 "

@@ -542,11 +542,7 @@ return
 }
 else
 {
-super
-.
-getOnBackPressedDispatcher
-(
-)
+onBackPressedDispatcher
 .
 onBackPressed
 (

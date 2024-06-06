@@ -229,12 +229,13 @@ registry
 )
 }
 override
-fun
-getLifecycle
-(
-)
+val
+lifecycle
 :
 Lifecycle
+get
+(
+)
 =
 registry
 }

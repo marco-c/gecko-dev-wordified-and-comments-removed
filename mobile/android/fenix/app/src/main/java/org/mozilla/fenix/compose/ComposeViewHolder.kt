@@ -103,7 +103,7 @@ androidx
 .
 lifecycle
 .
-ViewTreeLifecycleOwner
+setViewTreeLifecycleOwner
 import
 androidx
 .
@@ -299,11 +299,10 @@ Content
 )
 }
 }
-ViewTreeLifecycleOwner
-.
-set
-(
 composeView
+.
+setViewTreeLifecycleOwner
+(
 viewLifecycleOwner
 )
 composeView

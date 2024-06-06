@@ -413,11 +413,7 @@ onBackPressed
 return
 }
 }
-super
-.
-getOnBackPressedDispatcher
-(
-)
+onBackPressedDispatcher
 .
 onBackPressed
 (

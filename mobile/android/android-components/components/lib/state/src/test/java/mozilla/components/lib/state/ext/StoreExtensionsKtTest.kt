@@ -3125,10 +3125,8 @@ currentState
 initialState
 }
 override
-fun
-getLifecycle
-(
-)
+val
+lifecycle
 :
 Lifecycle
 =
