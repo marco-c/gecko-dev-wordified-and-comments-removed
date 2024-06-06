@@ -286,6 +286,12 @@ NewTab
 Item
 (
 )
+object
+CustomizeHome
+:
+Item
+(
+)
 }
 val
 menuBuilder
