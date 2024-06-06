@@ -137,9 +137,9 @@ TranslationError
 .
 *
 *
-param
-throwable
-The
+Throwable
+is
+the
 engine
 throwable
 that
@@ -159,18 +159,18 @@ TranslationsException
 *
 /
 fun
-fromGeckoErrorToTranslationError
-(
-throwable
-:
 Throwable
+.
+intoTranslationError
+(
 )
 :
 TranslationError
-=
+{
+return
 if
 (
-throwable
+this
 is
 TranslationsException
 )
@@ -178,7 +178,7 @@ TranslationsException
 when
 (
 (
-throwable
+this
 )
 .
 code
@@ -193,7 +193,7 @@ TranslationError
 .
 UnknownError
 (
-throwable
+this
 )
 TranslationsException
 .
@@ -204,7 +204,7 @@ TranslationError
 .
 EngineNotSupportedError
 (
-throwable
+this
 )
 TranslationsException
 .
@@ -215,7 +215,7 @@ TranslationError
 .
 CouldNotTranslateError
 (
-throwable
+this
 )
 TranslationsException
 .
@@ -226,7 +226,7 @@ TranslationError
 .
 CouldNotRestoreError
 (
-throwable
+this
 )
 TranslationsException
 .
@@ -237,7 +237,7 @@ TranslationError
 .
 CouldNotLoadLanguagesError
 (
-throwable
+this
 )
 TranslationsException
 .
@@ -248,7 +248,7 @@ TranslationError
 .
 LanguageNotSupportedError
 (
-throwable
+this
 )
 TranslationsException
 .
@@ -259,7 +259,7 @@ TranslationError
 .
 ModelCouldNotRetrieveError
 (
-throwable
+this
 )
 TranslationsException
 .
@@ -270,7 +270,7 @@ TranslationError
 .
 ModelCouldNotDeleteError
 (
-throwable
+this
 )
 TranslationsException
 .
@@ -281,7 +281,7 @@ TranslationError
 .
 ModelCouldNotDownloadError
 (
-throwable
+this
 )
 TranslationsException
 .
@@ -292,7 +292,7 @@ TranslationError
 .
 ModelLanguageRequiredError
 (
-throwable
+this
 )
 TranslationsException
 .
@@ -303,7 +303,7 @@ TranslationError
 .
 ModelDownloadRequiredError
 (
-throwable
+this
 )
 else
 -
@@ -312,7 +312,7 @@ TranslationError
 .
 UnknownError
 (
-throwable
+this
 )
 }
 }
@@ -322,7 +322,8 @@ TranslationError
 .
 UnknownError
 (
-throwable
+this
 )
+}
 }
 }
