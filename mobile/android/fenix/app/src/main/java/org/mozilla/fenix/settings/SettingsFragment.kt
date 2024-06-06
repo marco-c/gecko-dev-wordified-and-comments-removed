@@ -94,6 +94,12 @@ androidx
 preference
 .
 Preference
+import
+androidx
+.
+preference
+.
+Preference
 .
 OnPreferenceClickListener
 import
@@ -238,6 +244,9 @@ val
 preferenceMakeDefaultBrowser
 =
 findPreference
+<
+Preference
+>
 (
 makeDefaultBrowserKey
 )

@@ -371,14 +371,6 @@ fillColor
 "
 android
 :
-fillAlpha
-=
-"
-.
-8
-"
-android
-:
 fillType
 =
 "

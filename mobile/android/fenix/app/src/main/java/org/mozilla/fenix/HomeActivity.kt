@@ -155,14 +155,12 @@ View
 name
 :
 String
-?
 context
 :
 Context
 attrs
 :
 AttributeSet
-?
 )
 :
 View
