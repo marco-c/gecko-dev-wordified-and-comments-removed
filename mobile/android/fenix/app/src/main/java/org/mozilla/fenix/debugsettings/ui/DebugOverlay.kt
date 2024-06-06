@@ -293,7 +293,7 @@ R
 .
 drawable
 .
-ic_new
+ic_debug_transparent_fire_24
 )
 modifier
 =
