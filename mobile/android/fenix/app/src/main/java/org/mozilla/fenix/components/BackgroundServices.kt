@@ -210,17 +210,6 @@ success
 /
 CLIENT_ID
 "
-const
-val
-SUCCESS_PATH
-=
-"
-connect_another_device
-?
-showSuccessMessage
-=
-true
-"
 }
 /
 /

@@ -138,11 +138,6 @@ redirectUrl
 BackgroundServices
 .
 REDIRECT_URL
-successPath
-=
-BackgroundServices
-.
-SUCCESS_PATH
 )
 }
 }
