@@ -3950,6 +3950,9 @@ extra_keys
 :
 position
 :
+type
+:
+string
 description
 :
 |
@@ -4151,6 +4154,9 @@ extra_keys
 :
 setting
 :
+type
+:
+string
 description
 :
 |
@@ -4354,6 +4360,9 @@ extra_keys
 :
 theme
 :
+type
+:
+string
 description
 :
 |
