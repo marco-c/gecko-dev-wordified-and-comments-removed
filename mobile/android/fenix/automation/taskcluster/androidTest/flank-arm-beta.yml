@@ -132,7 +132,7 @@ ui
 .
 HistoryTest
 #
-visitedUrlHistoryTest
+verifyHistoryMenuWithHistoryItemsTest
 -
 class
 org
