@@ -73,7 +73,7 @@ ext
 geckoview_revision
 =
 '
-61db99a4972c43cf440169f5c3e7cc9e696267a3
+49b9303f687d8f41b80739bdb9657bda866a1ce6
 '
 ext
 .
@@ -84,9 +84,9 @@ geckoview_version
 .
 0
 .
-2
+3
 .
-20180921002357
+20180922023437
 '
 /
 /
