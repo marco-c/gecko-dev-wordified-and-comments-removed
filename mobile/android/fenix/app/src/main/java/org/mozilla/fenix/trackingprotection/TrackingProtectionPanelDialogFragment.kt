@@ -600,7 +600,7 @@ state
 .
 findTabOrCustomTab
 (
-provideTabId
+provideCurrentTabId
 (
 )
 )
@@ -1141,7 +1141,7 @@ state
 .
 findTabOrCustomTab
 (
-provideTabId
+provideCurrentTabId
 (
 )
 )
@@ -1182,7 +1182,7 @@ url
 VisibleForTesting
 internal
 fun
-provideTabId
+provideCurrentTabId
 (
 )
 :
@@ -1220,7 +1220,7 @@ state
 .
 findTabOrCustomTab
 (
-provideTabId
+provideCurrentTabId
 (
 )
 )

@@ -302,6 +302,13 @@ string
 /
 enhanced_tracking_protection_details
 "
+android
+:
+visibility
+=
+"
+gone
+"
 app
 :
 drawableEndCompat
