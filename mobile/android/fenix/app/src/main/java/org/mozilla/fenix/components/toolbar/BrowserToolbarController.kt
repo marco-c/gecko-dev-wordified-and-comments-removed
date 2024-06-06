@@ -1335,10 +1335,8 @@ settings
 )
 {
 reviewQualityCheckCFRClosedCounter
-.
-inc
-(
-)
++
++
 if
 (
 reviewQualityCheckCfrDisplayTimeInMillis
