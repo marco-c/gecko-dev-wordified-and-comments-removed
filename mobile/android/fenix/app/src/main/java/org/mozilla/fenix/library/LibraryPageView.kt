@@ -278,7 +278,7 @@ R
 .
 attr
 .
-accentHighContrast
+accent
 )
 )
 libraryItemsList

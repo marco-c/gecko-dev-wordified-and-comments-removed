@@ -631,8 +631,9 @@ android
 buttonTint
 =
 "
-?
-accentBright
+color
+/
+tab_checkbox_tint
 "
 android
 :
