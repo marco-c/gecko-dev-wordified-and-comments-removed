@@ -220,7 +220,6 @@ lazy
 Analytics
 (
 context
-strictMode
 )
 }
 override

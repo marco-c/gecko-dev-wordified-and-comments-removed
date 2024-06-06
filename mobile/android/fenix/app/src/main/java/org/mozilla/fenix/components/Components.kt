@@ -750,7 +750,6 @@ lazy
 Analytics
 (
 context
-strictMode
 )
 }
 val

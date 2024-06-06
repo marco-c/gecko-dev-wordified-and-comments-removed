@@ -193,14 +193,6 @@ mozilla
 .
 fenix
 .
-StrictModeManager
-import
-org
-.
-mozilla
-.
-fenix
-.
 components
 .
 metrics
@@ -334,9 +326,6 @@ val
 context
 :
 Context
-strictMode
-:
-StrictModeManager
 )
 {
 val
@@ -591,7 +580,6 @@ LeanplumMetricsService
 context
 as
 Application
-strictMode
 )
 }
 val
