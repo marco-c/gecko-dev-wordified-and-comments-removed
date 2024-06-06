@@ -169,10 +169,6 @@ for
 action
 |
 cron
-|
-github
--
-release
 )
 :
 by
