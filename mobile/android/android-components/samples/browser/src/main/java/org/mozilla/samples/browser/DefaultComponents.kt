@@ -2382,7 +2382,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_refresh
+mozac_ic_arrow_clockwise_24
 primaryContentDescription
 =
 "
