@@ -671,6 +671,16 @@ aPromise
 0
 ;
 virtual
+bool
+IsDynamicImportSupported
+(
+)
+{
+return
+true
+;
+}
+virtual
 void
 OnDynamicImportStarted
 (

@@ -260,6 +260,12 @@ aPromise
 override
 ;
 bool
+IsDynamicImportSupported
+(
+)
+override
+;
+bool
 CanStartLoad
 (
 ModuleLoadRequest
