@@ -335,16 +335,6 @@ mozilla
 .
 components
 .
-concept
-.
-tabstray
-.
-Tab
-import
-mozilla
-.
-components
-.
 feature
 .
 accounts
