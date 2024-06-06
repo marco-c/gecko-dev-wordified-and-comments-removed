@@ -450,6 +450,8 @@ StoreProvider
 get
 (
 this
+)
+{
 HistoryStore
 (
 HistoryState
@@ -468,7 +470,7 @@ Mode
 Normal
 )
 )
-)
+}
 historyInteractor
 =
 HistoryInteractor

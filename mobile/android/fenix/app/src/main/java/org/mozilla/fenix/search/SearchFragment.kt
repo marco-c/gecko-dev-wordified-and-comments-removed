@@ -594,6 +594,8 @@ StoreProvider
 get
 (
 this
+)
+{
 SearchStore
 (
 SearchState
@@ -652,7 +654,7 @@ session
 session
 )
 )
-)
+}
 searchInteractor
 =
 SearchInteractor
