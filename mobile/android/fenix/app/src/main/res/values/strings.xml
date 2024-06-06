@@ -1590,7 +1590,7 @@ synced_tabs
 "
 >
 Synced
-Tabs
+tabs
 <
 /
 string
@@ -4440,10 +4440,11 @@ string
 name
 =
 "
-preferences_sync_tabs
+preferences_sync_tabs_2
 "
 >
-Tabs
+Open
+tabs
 <
 /
 string
@@ -6356,7 +6357,7 @@ library_synced_tabs
 "
 >
 Synced
-Tabs
+tabs
 <
 /
 string
