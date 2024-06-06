@@ -134,6 +134,13 @@ wrap_content
 "
 android
 :
+importantForAccessibility
+=
+"
+no
+"
+android
+:
 orientation
 =
 "
