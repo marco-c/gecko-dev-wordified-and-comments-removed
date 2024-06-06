@@ -326,6 +326,17 @@ components
 Build
 .
 version
++
+"
+"
++
+mozilla
+.
+components
+.
+Build
+.
+gitHash
 val
 maybeGecko
 =
