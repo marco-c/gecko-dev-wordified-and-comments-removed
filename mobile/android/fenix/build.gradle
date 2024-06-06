@@ -1460,8 +1460,10 @@ classpath
 configurations
 .
 ktlint
-main
-=
+mainClass
+.
+set
+(
 "
 com
 .
@@ -1471,6 +1473,7 @@ ktlint
 .
 Main
 "
+)
 args
 "
 -
