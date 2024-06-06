@@ -222,12 +222,10 @@ jacocoGeckoNightlyDebugTestReport
 '
 githubTestDetails
 '
-#
 post
 -
 gradlew
 :
-#
 -
 [
 '
