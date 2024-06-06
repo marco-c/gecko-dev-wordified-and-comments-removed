@@ -361,6 +361,15 @@ ChangedToDefaultBrowser
 "
 E_Changed_Default_To_Fenix
 "
+is
+Event
+.
+TrackingProtectionSettingChanged
+-
+>
+"
+E_Changed_ETP
+"
 /
 /
 Do
