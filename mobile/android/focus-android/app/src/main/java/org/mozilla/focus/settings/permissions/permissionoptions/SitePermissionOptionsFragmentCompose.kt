@@ -759,7 +759,8 @@ item
 onClick
 )
 }
-}
+item
+{
 if
 (
 componentPermissionBlockedByAndroidVisibility
@@ -770,6 +771,8 @@ ComponentPermissionBlockedByAndroid
 goToPhoneSettings
 permissionLabel
 )
+}
+}
 }
 }
 }
