@@ -1441,7 +1441,7 @@ Adjust
 &
 Sentry
 API
-keys
+tokens
 :
 contact
 the
@@ -1503,7 +1503,7 @@ variants
 .
 If
 API
-keys
+tokens
 are
 not
 provided
