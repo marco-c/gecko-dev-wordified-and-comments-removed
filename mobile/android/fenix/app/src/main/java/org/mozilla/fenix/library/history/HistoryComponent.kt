@@ -77,6 +77,16 @@ mozilla
 .
 fenix
 .
+test
+.
+Mockable
+import
+org
+.
+mozilla
+.
+fenix
+.
 mvi
 .
 Action
@@ -186,6 +196,7 @@ url
 }
 }
 }
+Mockable
 class
 HistoryComponent
 (

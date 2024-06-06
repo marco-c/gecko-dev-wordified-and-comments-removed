@@ -45,6 +45,10 @@ classpath
 Deps
 .
 androidx_safeargs
+classpath
+Deps
+.
+allopen
 /
 /
 NOTE
