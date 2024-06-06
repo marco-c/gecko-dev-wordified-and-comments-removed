@@ -1886,6 +1886,9 @@ requireComponents
 core
 .
 store
+requireComponents
+.
+appStore
 )
 isUserInputEnabled
 =
