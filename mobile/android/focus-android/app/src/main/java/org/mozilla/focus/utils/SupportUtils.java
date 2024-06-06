@@ -152,6 +152,12 @@ domain
 android
 "
 )
+TRACKERS
+(
+"
+trackers
+"
+)
 USAGE_DATA
 (
 "
