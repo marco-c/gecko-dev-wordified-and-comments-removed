@@ -334,12 +334,12 @@ listOf
 (
 components
 .
-utils
+intentProcessors
 .
 customTabIntentProcessor
 components
 .
-utils
+intentProcessors
 .
 intentProcessor
 )
@@ -404,7 +404,7 @@ when
 {
 components
 .
-utils
+intentProcessors
 .
 customTabIntentProcessor
 .
