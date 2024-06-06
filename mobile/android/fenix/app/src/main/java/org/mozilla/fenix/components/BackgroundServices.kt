@@ -1219,6 +1219,7 @@ FxaPushSupportFeature
 context
 accountManager
 autoPushFeature
+crashReporter
 )
 }
 SendTabFeature

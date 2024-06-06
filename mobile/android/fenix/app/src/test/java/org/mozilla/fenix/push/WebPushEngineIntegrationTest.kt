@@ -719,6 +719,7 @@ onSubscribeError
 slot
 <
 (
+Exception
 )
 -
 >
@@ -811,6 +812,9 @@ onSubscribeError
 .
 captured
 (
+mockk
+(
+)
 )
 verify
 {
@@ -910,6 +914,7 @@ onUnsubscribeError
 slot
 <
 (
+Exception
 )
 -
 >
@@ -996,6 +1001,9 @@ onUnsubscribeError
 .
 captured
 (
+mockk
+(
+)
 )
 verify
 {
