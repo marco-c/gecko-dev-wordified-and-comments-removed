@@ -304,6 +304,12 @@ bookmark
 }
 )
 )
+onRecentBookmarkLongClick
+=
+interactor
+:
+:
+onRecentBookmarkLongClicked
 )
 }
 }
