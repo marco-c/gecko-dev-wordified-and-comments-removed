@@ -71,13 +71,6 @@ drawable
 /
 create_collection_background
 "
-android
-:
-fitsSystemWindows
-=
-"
-true
-"
 tools
 :
 context
