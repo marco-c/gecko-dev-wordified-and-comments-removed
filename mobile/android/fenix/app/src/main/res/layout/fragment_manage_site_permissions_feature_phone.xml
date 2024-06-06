@@ -176,7 +176,7 @@ id
 +
 id
 /
-ask_to_allow_switch
+ask_to_allow_radio
 "
 android
 :
@@ -301,7 +301,7 @@ id
 +
 id
 /
-block_switch
+block_radio
 "
 android
 :
