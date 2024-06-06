@@ -264,6 +264,15 @@ setTextSize
 textSize
 )
 ;
+setImageResource
+(
+R
+.
+drawable
+.
+tab_number_border
+)
+;
 }
 public
 void

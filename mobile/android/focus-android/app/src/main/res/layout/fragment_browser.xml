@@ -465,15 +465,6 @@ elevation
 "
 android
 :
-src
-=
-"
-drawable
-/
-tab_number_border
-"
-android
-:
 visibility
 =
 "
