@@ -586,6 +586,10 @@ mozilla_feature_intent
 implementation
 Deps
 .
+mozilla_feature_prompts
+implementation
+Deps
+.
 mozilla_feature_session
 implementation
 Deps
