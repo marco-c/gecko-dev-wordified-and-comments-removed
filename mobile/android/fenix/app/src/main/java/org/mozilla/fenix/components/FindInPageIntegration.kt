@@ -336,6 +336,16 @@ runWithSessionIdOrSelected
 sessionId
 )
 {
+if
+(
+!
+it
+.
+isCustomTabSession
+(
+)
+)
+{
 toolbar
 .
 visibility
@@ -343,6 +353,7 @@ visibility
 View
 .
 GONE
+}
 view
 .
 asView

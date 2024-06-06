@@ -4135,6 +4135,16 @@ Item
 RequestDesktop
 -
 >
+getSessionById
+(
+)
+?
+.
+let
+{
+session
+-
+>
 sessionUseCases
 .
 requestDesktopSite
@@ -4146,7 +4156,9 @@ action
 item
 .
 isChecked
+session
 )
+}
 ToolbarMenu
 .
 Item
