@@ -730,8 +730,6 @@ capturedTabs
 ]
 .
 apply
-(
-)
 {
 assertEquals
 (
