@@ -1201,13 +1201,12 @@ savedInstanceState
 postponeEnterTransition
 (
 )
-StrictMode
+lifecycleScope
 .
-allowThreadDiskReads
+launch
 (
+IO
 )
-.
-resetAfter
 {
 if
 (
