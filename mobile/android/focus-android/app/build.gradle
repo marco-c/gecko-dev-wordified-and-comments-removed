@@ -431,6 +431,11 @@ nightly
 {
 initWith
 release
+applicationIdSuffix
+"
+.
+nightly
+"
 signingConfig
 signingConfigs
 .
