@@ -117,8 +117,6 @@ main
 .
 component_exceptions
 .
-view
-.
 *
 import
 mozilla
@@ -226,9 +224,7 @@ List
 class
 LoginExceptionsView
 (
-override
-val
-containerView
+container
 :
 ViewGroup
 val
@@ -239,8 +235,9 @@ LoginExceptionsInteractor
 :
 LayoutContainer
 {
+override
 val
-view
+containerView
 :
 FrameLayout
 =
@@ -248,7 +245,7 @@ LayoutInflater
 .
 from
 (
-containerView
+container
 .
 context
 )
@@ -260,7 +257,7 @@ R
 layout
 .
 component_exceptions
-containerView
+container
 true
 )
 .
@@ -282,20 +279,16 @@ interactor
 )
 init
 {
-view
-.
 exceptions_learn_more
 .
 isVisible
 =
 false
-view
-.
 exceptions_empty_message
 .
 text
 =
-view
+containerView
 .
 context
 .
@@ -307,8 +300,6 @@ string
 .
 preferences_passwords_exceptions_description_empty
 )
-view
-.
 exceptions_list
 .
 apply
@@ -334,8 +325,6 @@ state
 ExceptionsFragmentState
 )
 {
-view
-.
 exceptions_empty_view
 .
 isVisible
@@ -347,8 +336,6 @@ items
 isEmpty
 (
 )
-view
-.
 exceptions_list
 .
 isVisible
