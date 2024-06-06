@@ -223,12 +223,13 @@ var
 isMetricSet
 =
 false
-private
 var
 applicationInitNanos
 =
 -
 1L
+private
+set
 private
 var
 isApplicationInitCalled

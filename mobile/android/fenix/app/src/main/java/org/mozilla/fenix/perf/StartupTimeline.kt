@@ -353,7 +353,7 @@ StartupReportFullyDrawn
 (
 )
 }
-private
+internal
 val
 frameworkStartMeasurement
 by
