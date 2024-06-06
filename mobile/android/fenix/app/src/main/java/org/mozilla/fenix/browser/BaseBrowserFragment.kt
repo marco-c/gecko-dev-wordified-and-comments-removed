@@ -2598,6 +2598,11 @@ requireComponents
 backgroundServices
 .
 accountManager
+requireComponents
+.
+backgroundServices
+.
+serverConfig
 setOf
 (
 FxaCapability

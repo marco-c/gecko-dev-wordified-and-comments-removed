@@ -480,7 +480,6 @@ Build
 .
 MODEL
 )
-private
 val
 serverConfig
 =
