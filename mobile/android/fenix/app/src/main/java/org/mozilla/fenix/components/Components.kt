@@ -1342,6 +1342,16 @@ metrics
 )
 )
 }
+val
+fxSuggest
+by
+lazyMonitored
+{
+FxSuggest
+(
+context
+)
+}
 }
 /
 *

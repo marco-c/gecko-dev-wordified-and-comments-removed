@@ -153,6 +153,10 @@ findinpage
 -
 feature
 -
+fxsuggest
+-
+feature
+-
 intent
 -
 feature
