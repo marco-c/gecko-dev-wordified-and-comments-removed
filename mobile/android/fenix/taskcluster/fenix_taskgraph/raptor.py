@@ -142,23 +142,6 @@ only_types
             
 continue
         
-if
-not
-dep_task
-.
-label
-.
-startswith
-(
-'
-sign
-:
-'
-)
-:
-            
-continue
-        
 for
 abi
 apk_path
@@ -297,6 +280,22 @@ primary
 dependency
 "
 )
+        
+task
+[
+"
+dependencies
+"
+]
+[
+"
+signing
+"
+]
+=
+signing
+.
+label
         
 build_type
 =
