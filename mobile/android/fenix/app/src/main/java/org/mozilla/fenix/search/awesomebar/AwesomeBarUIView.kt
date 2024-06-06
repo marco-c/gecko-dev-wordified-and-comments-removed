@@ -434,6 +434,8 @@ addProviders
 (
 SearchSuggestionProvider
 (
+searchEngine
+=
 components
 .
 search
@@ -445,11 +447,17 @@ getDefaultSearchEngine
 this
 )
 searchUseCase
+=
+searchUseCase
+fetchClient
+=
 components
 .
 core
 .
 client
+mode
+=
 SearchSuggestionProvider
 .
 Mode

@@ -268,9 +268,9 @@ appservices_gradle_plugin
 "
 0
 .
-3
+4
 .
-1
+2
 "
 const
 val
@@ -279,7 +279,7 @@ mozilla_android_components
 "
 0
 .
-47
+48
 .
 0
 -
