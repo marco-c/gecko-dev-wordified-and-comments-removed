@@ -1018,7 +1018,7 @@ name
 preference_category_general
 "
 >
-Bendrosios
+Bendrieji
 <
 /
 string
@@ -2576,9 +2576,10 @@ name
 indicator_content_description_menu
 "
 >
+Mygtukas
 Daugiau
-nuostat
-mygtukas
+parink
+i
 <
 /
 string
