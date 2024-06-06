@@ -5221,6 +5221,13 @@ MaterialComponents
 .
 Body1
 "
+tools
+:
+ignore
+=
+"
+UnusedResources
+"
 >
 <
 item
