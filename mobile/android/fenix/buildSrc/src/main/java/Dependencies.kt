@@ -129,17 +129,6 @@ alpha2
 "
 const
 val
-anko
-=
-"
-0
-.
-10
-.
-8
-"
-const
-val
 sentry
 =
 "
