@@ -153,14 +153,6 @@ dpToFloat
 import
 org
 .
-jetbrains
-.
-anko
-.
-backgroundColor
-import
-org
-.
 mozilla
 .
 fenix
@@ -506,8 +498,8 @@ else
 {
 view
 .
-backgroundColor
-=
+setBackgroundColor
+(
 view
 .
 context
@@ -519,6 +511,7 @@ R
 attr
 .
 above
+)
 )
 divider_line
 .

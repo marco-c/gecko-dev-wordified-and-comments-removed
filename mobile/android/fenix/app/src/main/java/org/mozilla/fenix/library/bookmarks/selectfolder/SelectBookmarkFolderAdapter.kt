@@ -167,14 +167,6 @@ dpToPx
 import
 org
 .
-jetbrains
-.
-anko
-.
-image
-import
-org
-.
 mozilla
 .
 fenix
@@ -487,8 +479,8 @@ view
 .
 iconView
 .
-image
-=
+setImageDrawable
+(
 AppCompatResources
 .
 getDrawable
@@ -523,6 +515,7 @@ primary_text_light_theme
 )
 )
 }
+)
 view
 .
 titleView

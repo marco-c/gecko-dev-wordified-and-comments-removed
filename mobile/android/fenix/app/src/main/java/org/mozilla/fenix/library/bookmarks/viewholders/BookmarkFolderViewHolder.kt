@@ -105,14 +105,6 @@ BookmarkNode
 import
 org
 .
-jetbrains
-.
-anko
-.
-image
-import
-org
-.
 mozilla
 .
 fenix
@@ -315,8 +307,8 @@ containerView
 .
 iconView
 .
-image
-=
+setImageDrawable
+(
 AppCompatResources
 .
 getDrawable
@@ -351,6 +343,7 @@ primary_text_light_theme
 )
 )
 }
+)
 containerView
 .
 titleView

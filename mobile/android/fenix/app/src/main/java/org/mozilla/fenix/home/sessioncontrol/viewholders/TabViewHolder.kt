@@ -159,14 +159,6 @@ dpToFloat
 import
 org
 .
-jetbrains
-.
-anko
-.
-imageBitmap
-import
-org
-.
 mozilla
 .
 fenix
@@ -751,9 +743,10 @@ else
 {
 favicon_image
 .
-imageBitmap
-=
+setImageBitmap
+(
 icon
+)
 }
 }
 internal
