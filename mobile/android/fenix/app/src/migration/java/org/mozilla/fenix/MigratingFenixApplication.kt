@@ -158,6 +158,15 @@ components
 core
 .
 bookmarksStorage
+this
+.
+components
+.
+core
+.
+topSiteStorage
+.
+storage
 )
 .
 migrateLogins

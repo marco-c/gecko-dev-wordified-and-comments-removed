@@ -130,9 +130,8 @@ TopSite
 >
 (
 )
-private
 val
-topSiteStorage
+storage
 by
 lazy
 {
@@ -165,7 +164,7 @@ url
 String
 )
 {
-topSiteStorage
+storage
 .
 addTopSite
 (
@@ -207,7 +206,7 @@ TopSite
 >
 {
 return
-topSiteStorage
+storage
 .
 getTopSites
 (
@@ -234,7 +233,7 @@ topSite
 TopSite
 )
 {
-topSiteStorage
+storage
 .
 removeTopSite
 (
