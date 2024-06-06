@@ -516,6 +516,13 @@ isChecked
 apply
 (
 )
+onPreferenceChangeListener
+.
+onPreferenceChange
+(
+this
+isChecked
+)
 }
 private
 fun
