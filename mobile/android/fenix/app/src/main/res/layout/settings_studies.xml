@@ -218,13 +218,6 @@ false
 "
 android
 :
-importantForAccessibility
-=
-"
-no
-"
-android
-:
 textAppearance
 =
 "
@@ -296,13 +289,6 @@ layout_height
 =
 "
 wrap_content
-"
-android
-:
-importantForAccessibility
-=
-"
-no
 "
 android
 :
