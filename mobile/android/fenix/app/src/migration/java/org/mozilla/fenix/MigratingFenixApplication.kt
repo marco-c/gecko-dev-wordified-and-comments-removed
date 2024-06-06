@@ -168,9 +168,7 @@ components
 .
 core
 .
-passwordsStorage
-.
-store
+asyncPasswordsStorage
 this
 .
 components
