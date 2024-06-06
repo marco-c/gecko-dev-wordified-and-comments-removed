@@ -387,6 +387,9 @@ Suppress
 "
 TooManyFunctions
 "
+"
+LargeClass
+"
 )
 class
 AddonsManagementFragment
