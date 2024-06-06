@@ -9008,9 +9008,6 @@ Allow
 )
 )
 ;
-#
-ifdef
-MOZ_ENABLE_V4L2
 case
 SYS_SOCKET
 :
@@ -9023,8 +9020,6 @@ EACCES
 )
 )
 ;
-#
-endif
 default
 :
 return
