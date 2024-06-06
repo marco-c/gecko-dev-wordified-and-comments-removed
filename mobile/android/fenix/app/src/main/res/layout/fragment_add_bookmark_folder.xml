@@ -414,8 +414,9 @@ android
 drawableTint
 =
 "
-?
-primaryText
+color
+/
+primary_text_light_theme
 "
 android
 :
