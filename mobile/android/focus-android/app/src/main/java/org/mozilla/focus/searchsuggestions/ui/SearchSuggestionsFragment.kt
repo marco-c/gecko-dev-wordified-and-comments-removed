@@ -219,16 +219,6 @@ searchView
 text
 =
 it
-it
-?
-.
-apply
-(
-searchSuggestionsViewModel
-:
-:
-fetchSuggestions
-)
 }
 )
 searchSuggestionsViewModel
