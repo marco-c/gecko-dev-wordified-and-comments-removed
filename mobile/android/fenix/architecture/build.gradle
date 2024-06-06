@@ -133,6 +133,14 @@ rules
 .
 pro
 '
+consumerProguardFiles
+'
+proguard
+-
+rules
+.
+pro
+'
 }
 }
 }
