@@ -250,7 +250,11 @@ clickAlwaysStartOnHomeToggle
 scrollToElementByText
 (
 "
-Always
+Move
+old
+tabs
+to
+inactive
 "
 )
 alwaysStartOnHomeToggle
