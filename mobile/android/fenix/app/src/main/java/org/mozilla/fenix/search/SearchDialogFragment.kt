@@ -3358,6 +3358,12 @@ clipboardUrl
 isNullOrEmpty
 (
 )
+&
+&
+!
+searchState
+.
+showSearchShortcuts
 fill_link_from_clipboard
 .
 isVisible
