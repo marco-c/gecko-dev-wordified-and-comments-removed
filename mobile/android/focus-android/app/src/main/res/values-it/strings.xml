@@ -828,7 +828,8 @@ preference_autocomplete_title_add
 >
 Nuovo
 indirizzo
-personalizzato
+pers
+.
 <
 /
 string
@@ -841,9 +842,10 @@ name
 preference_autocomplete_title_remove
 "
 >
-Rimuovi
+Rimozione
 indirizzi
-personalizzati
+pers
+.
 <
 /
 string
