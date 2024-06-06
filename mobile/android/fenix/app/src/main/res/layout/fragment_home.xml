@@ -1378,6 +1378,13 @@ layout_height
 "
 48dp
 "
+android
+:
+clipChildren
+=
+"
+false
+"
 app
 :
 layout_constraintTop_toTopOf
