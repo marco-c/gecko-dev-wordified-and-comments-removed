@@ -175,6 +175,8 @@ mozilla
 .
 fenix
 .
+theme
+.
 ThemeManager
 import
 org

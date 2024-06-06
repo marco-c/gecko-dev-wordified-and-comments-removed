@@ -119,6 +119,8 @@ mozilla
 .
 fenix
 .
+theme
+.
 ThemeManager
 class
 HomeMenu

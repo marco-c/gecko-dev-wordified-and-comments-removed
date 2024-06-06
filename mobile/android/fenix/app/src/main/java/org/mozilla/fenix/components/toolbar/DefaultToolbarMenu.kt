@@ -149,6 +149,10 @@ mozilla
 .
 fenix
 .
+browser
+.
+browsingmode
+.
 BrowsingMode
 import
 org
@@ -172,6 +176,8 @@ org
 mozilla
 .
 fenix
+.
+theme
 .
 ThemeManager
 import

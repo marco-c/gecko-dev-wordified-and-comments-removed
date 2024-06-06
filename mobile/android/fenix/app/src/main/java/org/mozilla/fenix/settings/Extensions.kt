@@ -135,6 +135,8 @@ mozilla
 .
 fenix
 .
+theme
+.
 ThemeManager
 fun
 SitePermissions

@@ -203,6 +203,10 @@ mozilla
 .
 fenix
 .
+browser
+.
+browsingmode
+.
 BrowsingMode
 import
 org
@@ -210,6 +214,10 @@ org
 mozilla
 .
 fenix
+.
+browser
+.
+browsingmode
 .
 BrowsingModeManager
 import

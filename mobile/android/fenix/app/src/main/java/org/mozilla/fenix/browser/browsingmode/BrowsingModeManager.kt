@@ -62,6 +62,10 @@ org
 mozilla
 .
 fenix
+.
+browser
+.
+browsingmode
 import
 org
 .

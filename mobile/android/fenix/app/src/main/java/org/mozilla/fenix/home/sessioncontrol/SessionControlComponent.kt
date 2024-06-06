@@ -147,6 +147,10 @@ mozilla
 .
 fenix
 .
+browser
+.
+browsingmode
+.
 BrowsingMode
 import
 org

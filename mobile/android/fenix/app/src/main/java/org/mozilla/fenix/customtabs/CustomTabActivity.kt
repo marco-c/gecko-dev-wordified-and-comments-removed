@@ -99,6 +99,10 @@ mozilla
 .
 fenix
 .
+browser
+.
+browsingmode
+.
 CustomTabBrowsingModeManager
 import
 org
@@ -106,6 +110,8 @@ org
 mozilla
 .
 fenix
+.
+theme
 .
 CustomTabThemeManager
 import
