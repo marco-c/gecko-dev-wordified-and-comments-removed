@@ -251,6 +251,13 @@ clickable
 "
 false
 "
+android
+:
+importantForAccessibility
+=
+"
+no
+"
 app
 :
 layout_constraintBottom_toBottomOf

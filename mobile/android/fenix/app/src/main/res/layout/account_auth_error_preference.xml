@@ -166,6 +166,13 @@ color
 /
 sync_error_background_color
 "
+android
+:
+baselineAligned
+=
+"
+false
+"
 >
 <
 FrameLayout
@@ -283,6 +290,13 @@ paddingStart
 =
 "
 16dp
+"
+android
+:
+paddingEnd
+=
+"
+0dp
 "
 android
 :

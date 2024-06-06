@@ -77,12 +77,6 @@ view
 .
 ViewGroup
 import
-android
-.
-widget
-.
-LinearLayout
-import
 androidx
 .
 recyclerview
@@ -90,6 +84,14 @@ recyclerview
 widget
 .
 LinearLayoutManager
+import
+androidx
+.
+recyclerview
+.
+widget
+.
+RecyclerView
 import
 io
 .
@@ -178,7 +180,7 @@ override
 val
 view
 :
-LinearLayout
+RecyclerView
 =
 LayoutInflater
 .
@@ -206,7 +208,7 @@ R
 .
 id
 .
-exceptions_wrapper
+exceptions_list
 )
 init
 {

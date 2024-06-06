@@ -79,7 +79,7 @@ MPL
 -
 >
 <
-LinearLayout
+FrameLayout
 xmlns
 :
 android
@@ -938,5 +938,5 @@ ConstraintLayout
 >
 <
 /
-LinearLayout
+FrameLayout
 >
