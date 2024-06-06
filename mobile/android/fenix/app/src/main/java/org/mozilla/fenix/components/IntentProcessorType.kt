@@ -97,9 +97,9 @@ mozilla
 .
 fenix
 .
-migration
+customtabs
 .
-MigrationProgressActivity
+ExternalAppBrowserActivity
 import
 org
 .
@@ -107,9 +107,9 @@ mozilla
 .
 fenix
 .
-customtabs
+migration
 .
-ExternalAppBrowserActivity
+MigrationProgressActivity
 enum
 class
 IntentProcessorType

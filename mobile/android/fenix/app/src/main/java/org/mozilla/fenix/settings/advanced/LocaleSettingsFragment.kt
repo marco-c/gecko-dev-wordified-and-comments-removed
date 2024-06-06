@@ -111,7 +111,7 @@ fragment_locale_settings
 .
 view
 .
-locale_container
+*
 import
 kotlinx
 .

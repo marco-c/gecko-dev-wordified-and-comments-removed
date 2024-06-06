@@ -91,9 +91,11 @@ mozilla
 .
 fenix
 .
-ext
-.
 components
+.
+metrics
+.
+Event
 import
 org
 .
@@ -101,11 +103,9 @@ mozilla
 .
 fenix
 .
+ext
+.
 components
-.
-metrics
-.
-Event
 class
 FenixOnboarding
 (

@@ -129,9 +129,9 @@ mozilla
 .
 fenix
 .
-theme
+library
 .
-ThemeManager
+LibraryItemMenu
 import
 org
 .
@@ -139,9 +139,9 @@ mozilla
 .
 fenix
 .
-library
+theme
 .
-LibraryItemMenu
+ThemeManager
 class
 BookmarkItemMenu
 (

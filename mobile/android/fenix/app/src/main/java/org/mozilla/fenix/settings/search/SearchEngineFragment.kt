@@ -85,13 +85,13 @@ androidx
 .
 preference
 .
-Preference
+CheckBoxPreference
 import
 androidx
 .
 preference
 .
-CheckBoxPreference
+Preference
 import
 androidx
 .
