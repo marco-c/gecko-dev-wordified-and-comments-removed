@@ -538,6 +538,7 @@ null
 1
 |
 |
+{
 echo
 "
 Failed
@@ -545,6 +546,11 @@ Failed
 ?
 )
 "
+;
+exit
+1
+;
+}
 #
 Open
 a
