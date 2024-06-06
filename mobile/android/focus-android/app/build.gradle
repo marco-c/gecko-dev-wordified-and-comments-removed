@@ -2817,6 +2817,7 @@ Config
 .
 nightlyVersionName
 (
+project
 )
 :
 Config
