@@ -526,6 +526,13 @@ activity
 .
 IntentReceiverActivity
 "
+android
+:
+exported
+=
+"
+true
+"
 >
 <
 intent
@@ -861,6 +868,13 @@ launchMode
 =
 "
 singleTask
+"
+android
+:
+exported
+=
+"
+true
 "
 android
 :
