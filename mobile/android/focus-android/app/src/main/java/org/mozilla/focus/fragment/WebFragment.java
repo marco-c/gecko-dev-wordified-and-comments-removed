@@ -531,6 +531,7 @@ isGeckoBuild
 )
 )
 {
+final
 CountDownLatch
 latch
 =
