@@ -3637,7 +3637,7 @@ androidx_test_shared_version
 "
 1
 .
-4
+5
 .
 0
 "
@@ -3662,7 +3662,7 @@ androidx_test_junit
 .
 1
 .
-3
+4
 "
 private
 const
@@ -3674,7 +3674,7 @@ androidx_test_orchestrator
 .
 4
 .
-1
+2
 "
 const
 val
@@ -3697,7 +3697,7 @@ androidx_espresso_version
 "
 3
 .
-4
+5
 .
 0
 "
