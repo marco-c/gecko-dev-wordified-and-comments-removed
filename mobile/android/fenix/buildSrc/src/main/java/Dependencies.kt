@@ -152,11 +152,9 @@ detekt
 "
 1
 .
-0
+6
 .
 0
--
-RC16
 "
 const
 val

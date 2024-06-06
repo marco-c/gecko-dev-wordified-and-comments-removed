@@ -37,6 +37,12 @@ ConsoleReport
 (
 )
 {
+Suppress
+(
+"
+DEPRECATION
+"
+)
 override
 fun
 render
