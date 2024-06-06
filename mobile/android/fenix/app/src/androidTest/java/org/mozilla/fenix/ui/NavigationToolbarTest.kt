@@ -693,6 +693,9 @@ toUri
 )
 )
 {
+waitForPageToLoad
+(
+)
 }
 .
 openSiteSecuritySheet
