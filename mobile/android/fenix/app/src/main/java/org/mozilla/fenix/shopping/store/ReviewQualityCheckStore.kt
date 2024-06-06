@@ -271,6 +271,11 @@ productRecommendationsPreference
 action
 .
 isProductRecommendationsEnabled
+productVendor
+=
+action
+.
+productVendor
 )
 }
 }

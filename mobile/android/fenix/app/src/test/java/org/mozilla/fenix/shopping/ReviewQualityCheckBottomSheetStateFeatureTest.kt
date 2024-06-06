@@ -239,6 +239,13 @@ OptInCompleted
 isProductRecommendationsEnabled
 =
 true
+productVendor
+=
+ReviewQualityCheckState
+.
+ProductVendor
+.
+WALMART
 )
 )
 .

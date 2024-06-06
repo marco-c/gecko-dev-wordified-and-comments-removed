@@ -308,6 +308,10 @@ productRecommendationsPreference
 :
 Boolean
 ?
+val
+productVendor
+:
+ProductVendor
 )
 :
 ReviewQualityCheckState

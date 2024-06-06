@@ -327,6 +327,12 @@ isProductRecommendationsEnabled
 :
 Boolean
 ?
+val
+productVendor
+:
+ReviewQualityCheckState
+.
+ProductVendor
 )
 :
 UpdateAction
