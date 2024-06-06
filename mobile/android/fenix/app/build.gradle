@@ -4138,6 +4138,10 @@ Deps
 .
 androidx_junit
 testImplementation
+Deps
+.
+androidx_work_testing
+testImplementation
 (
 Deps
 .
