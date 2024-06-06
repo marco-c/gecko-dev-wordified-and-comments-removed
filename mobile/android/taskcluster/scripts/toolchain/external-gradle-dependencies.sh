@@ -289,11 +289,9 @@ flag
 /
 gradlew
 REPOS
-support
+service
 -
-sync
--
-telemetry
+nimbus
 :
 assemble
 #
