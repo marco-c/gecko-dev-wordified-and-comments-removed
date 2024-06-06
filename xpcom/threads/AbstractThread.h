@@ -1,13 +1,9 @@
 #
-if
-!
-defined
-(
-AbstractThread_h_
-)
+ifndef
+XPCOM_THREADS_ABSTRACTTHREAD_H_
 #
 define
-AbstractThread_h_
+XPCOM_THREADS_ABSTRACTTHREAD_H_
 #
 include
 "

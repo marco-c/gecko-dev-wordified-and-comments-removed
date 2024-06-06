@@ -1,13 +1,9 @@
 #
-if
-!
-defined
-(
-TaskDispatcher_h_
-)
+ifndef
+XPCOM_THREADS_TASKDISPATCHER_H_
 #
 define
-TaskDispatcher_h_
+XPCOM_THREADS_TASKDISPATCHER_H_
 #
 include
 <

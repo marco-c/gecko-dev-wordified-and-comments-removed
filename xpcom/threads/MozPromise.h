@@ -1,13 +1,9 @@
 #
-if
-!
-defined
-(
-MozPromise_h_
-)
+ifndef
+XPCOM_THREADS_MOZPROMISE_H_
 #
 define
-MozPromise_h_
+XPCOM_THREADS_MOZPROMISE_H_
 #
 include
 <

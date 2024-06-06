@@ -1,13 +1,9 @@
 #
-if
-!
-defined
-(
-StateWatching_h_
-)
+ifndef
+XPCOM_THREADS_STATEWATCHING_H_
 #
 define
-StateWatching_h_
+XPCOM_THREADS_STATEWATCHING_H_
 #
 include
 <

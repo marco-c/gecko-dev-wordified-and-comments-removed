@@ -1,13 +1,9 @@
 #
-if
-!
-defined
-(
-StateMirroring_h_
-)
+ifndef
+XPCOM_THREADS_STATEMIRRORING_H_
 #
 define
-StateMirroring_h_
+XPCOM_THREADS_STATEMIRRORING_H_
 #
 include
 <
