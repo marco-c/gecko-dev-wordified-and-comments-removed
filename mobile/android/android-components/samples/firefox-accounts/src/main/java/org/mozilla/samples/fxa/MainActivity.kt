@@ -529,6 +529,9 @@ beginPairingFlow
 (
 pairingUrl
 scopes
+SampleFxAEntryPoint
+.
+HomeMenu
 )
 if
 (
@@ -612,6 +615,9 @@ account
 beginOAuthFlow
 (
 scopes
+SampleFxAEntryPoint
+.
+HomeMenu
 )
 ?
 .
@@ -647,6 +653,9 @@ account
 beginOAuthFlow
 (
 scopes
+SampleFxAEntryPoint
+.
+HomeMenu
 )
 ?
 .

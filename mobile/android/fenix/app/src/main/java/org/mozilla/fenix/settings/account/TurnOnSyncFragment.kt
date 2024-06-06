@@ -465,6 +465,11 @@ TurnOnSyncFragmentDirections
 .
 actionTurnOnSyncFragmentToPairFragment
 (
+entrypoint
+=
+args
+.
+entrypoint
 )
 requireView
 (
@@ -1068,6 +1073,11 @@ beginAuthentication
 requireContext
 (
 )
+entrypoint
+=
+args
+.
+entrypoint
 )
 SyncAuth
 .

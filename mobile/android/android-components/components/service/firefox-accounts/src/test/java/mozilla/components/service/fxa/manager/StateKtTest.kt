@@ -155,6 +155,7 @@ ProgressState
 .
 Initializing
 )
+is
 Event
 .
 Account
@@ -262,6 +263,7 @@ when
 event
 )
 {
+is
 Event
 .
 Account
@@ -612,6 +614,9 @@ url
 .
 com
 "
+mock
+(
+)
 )
 "
 BeginEmailFlow
@@ -623,6 +628,11 @@ Event
 Account
 .
 BeginEmailFlow
+(
+mock
+(
+)
+)
 "
 CancelAuth
 "

@@ -900,6 +900,11 @@ accountManager
 .
 beginAuthentication
 (
+entrypoint
+=
+SampleFxAEntryPoint
+.
+HomeMenu
 )
 ?
 .

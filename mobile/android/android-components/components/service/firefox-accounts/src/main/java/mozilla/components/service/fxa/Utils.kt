@@ -83,6 +83,16 @@ concept
 .
 sync
 .
+FxAEntryPoint
+import
+mozilla
+.
+components
+.
+concept
+.
+sync
+.
 OAuthAccount
 import
 mozilla
@@ -1063,6 +1073,9 @@ Set
 <
 String
 >
+entrypoint
+:
+FxAEntryPoint
 )
 :
 AuthFlowUrl
@@ -1083,6 +1096,7 @@ beginPairingFlow
 (
 this
 scopes
+entrypoint
 )
 }
 else
@@ -1092,6 +1106,7 @@ account
 beginOAuthFlow
 (
 scopes
+entrypoint
 )
 }
 }

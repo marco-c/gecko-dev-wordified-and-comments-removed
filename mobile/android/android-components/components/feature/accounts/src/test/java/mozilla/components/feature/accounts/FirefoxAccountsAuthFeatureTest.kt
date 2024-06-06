@@ -716,6 +716,9 @@ feature
 beginAuthentication
 (
 testContext
+mock
+(
+)
 )
 authUrl
 .
@@ -811,6 +814,9 @@ auth
 /
 pair
 "
+mock
+(
+)
 )
 authUrl
 .
@@ -900,6 +906,9 @@ feature
 beginAuthentication
 (
 testContext
+mock
+(
+)
 )
 authUrl
 .
@@ -1010,6 +1019,9 @@ auth
 /
 pair
 "
+mock
+(
+)
 )
 authUrl
 .
@@ -1945,7 +1957,7 @@ beginOAuthFlow
 any
 (
 )
-anyString
+any
 (
 )
 )
@@ -1979,7 +1991,7 @@ anyString
 any
 (
 )
-anyString
+any
 (
 )
 )
@@ -2159,7 +2171,7 @@ beginOAuthFlow
 any
 (
 )
-anyString
+any
 (
 )
 )
@@ -2181,7 +2193,7 @@ anyString
 any
 (
 )
-anyString
+any
 (
 )
 )

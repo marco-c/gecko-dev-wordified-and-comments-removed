@@ -141,6 +141,16 @@ support
 .
 test
 .
+any
+import
+mozilla
+.
+components
+.
+support
+.
+test
+.
 eq
 import
 mozilla
@@ -1991,7 +2001,7 @@ emptySet
 (
 )
 )
-anyString
+any
 (
 )
 )
@@ -2017,7 +2027,7 @@ emptySet
 (
 )
 )
-anyString
+any
 (
 )
 )
@@ -2038,6 +2048,9 @@ asAuthFlowUrl
 (
 account
 emptySet
+(
+)
+mock
 (
 )
 )
@@ -2082,7 +2095,7 @@ emptySet
 (
 )
 )
-anyString
+any
 (
 )
 )
@@ -2111,7 +2124,7 @@ emptySet
 (
 )
 )
-anyString
+any
 (
 )
 )
@@ -2124,6 +2137,9 @@ asAuthFlowUrl
 (
 account
 emptySet
+(
+)
+mock
 (
 )
 )

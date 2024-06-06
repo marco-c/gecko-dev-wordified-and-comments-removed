@@ -141,6 +141,16 @@ concept
 .
 sync
 .
+FxAEntryPoint
+import
+mozilla
+.
+components
+.
+concept
+.
+sync
+.
 OAuthAccount
 import
 mozilla
@@ -622,7 +632,7 @@ String
 >
 entryPoint
 :
-String
+FxAEntryPoint
 )
 =
 withContext
@@ -658,6 +668,8 @@ toTypedArray
 (
 )
 entryPoint
+.
+entryName
 )
 val
 state
@@ -700,7 +712,7 @@ String
 >
 entryPoint
 :
-String
+FxAEntryPoint
 )
 =
 withContext
@@ -784,6 +796,8 @@ toTypedArray
 (
 )
 entryPoint
+.
+entryName
 )
 val
 state
