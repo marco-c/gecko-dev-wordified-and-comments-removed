@@ -91,7 +91,7 @@ dependencies
 toolchain
 -
 build
-job
+task
 -
 defaults
 :
@@ -386,7 +386,7 @@ test
 .
 apk
 ]
-jobs
+tasks
 :
 x86
 -

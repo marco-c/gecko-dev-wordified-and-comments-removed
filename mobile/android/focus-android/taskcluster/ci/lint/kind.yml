@@ -89,7 +89,7 @@ dependencies
 :
 -
 toolchain
-job
+task
 -
 defaults
 :
@@ -228,7 +228,7 @@ github
 type
 :
 directory
-jobs
+tasks
 :
 compare
 -

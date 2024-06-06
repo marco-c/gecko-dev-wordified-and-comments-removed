@@ -97,7 +97,7 @@ dependencies
 :
 -
 toolchain
-job
+task
 -
 defaults
 :
@@ -276,7 +276,7 @@ of
 trust
 :
 true
-jobs
+tasks
 :
 focus
 -

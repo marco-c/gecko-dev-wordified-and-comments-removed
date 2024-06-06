@@ -91,7 +91,7 @@ transforms
 task
 :
 transforms
-jobs
+tasks
 :
 android
 -

@@ -91,7 +91,7 @@ transforms
 task
 :
 transforms
-job
+task
 -
 defaults
 :
@@ -106,7 +106,7 @@ tree
 :
 base
 }
-jobs
+tasks
 :
 android
 -
