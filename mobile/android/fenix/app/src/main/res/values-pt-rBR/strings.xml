@@ -2398,8 +2398,8 @@ search_shortcuts_engine_settings
 >
 Configura
 es
-do
-mecanismo
+de
+mecanismos
 de
 pesquisa
 <
@@ -13122,7 +13122,7 @@ name
 preferences_delete_browsing_data
 "
 >
-Excluir
+Limpar
 dados
 de
 navega
@@ -13556,7 +13556,7 @@ name
 preferences_delete_browsing_data_button
 "
 >
-Excluir
+Limpar
 dados
 de
 navega
@@ -13589,7 +13589,7 @@ name
 preferences_delete_browsing_data_on_quit
 "
 >
-Excluir
+Limpar
 dados
 de
 navega
