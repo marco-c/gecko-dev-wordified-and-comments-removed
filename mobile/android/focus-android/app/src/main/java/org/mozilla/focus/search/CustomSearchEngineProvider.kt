@@ -85,16 +85,6 @@ browser
 .
 search
 .
-SearchEngine
-import
-mozilla
-.
-components
-.
-browser
-.
-search
-.
 provider
 .
 SearchEngineProvider
