@@ -326,6 +326,10 @@ implementation
 ComponentsDependencies
 .
 thirdparty_disklrucache
+implementation
+ComponentsDependencies
+.
+thirdparty_coil_svg
 testImplementation
 project
 (

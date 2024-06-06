@@ -293,6 +293,18 @@ browser
 .
 icons
 .
+decoder
+.
+SvgIconDecoder
+import
+mozilla
+.
+components
+.
+browser
+.
+icons
+.
 extension
 .
 IconMessageHandler
@@ -898,6 +910,10 @@ AndroidImageDecoder
 ICOIconDecoder
 (
 )
+SvgIconDecoder
+(
+context
+)
 )
 private
 val
@@ -1335,6 +1351,7 @@ desiredSize
 )
 ?
 :
+(
 generator
 .
 generate
@@ -1344,6 +1361,7 @@ request
 )
 to
 null
+)
 /
 /
 (
