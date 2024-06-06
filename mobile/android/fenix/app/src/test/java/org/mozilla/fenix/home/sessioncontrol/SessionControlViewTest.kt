@@ -903,7 +903,6 @@ normalModeAdapterItems
 topSites
 collections
 expandedCollections
-null
 recentBookmarks
 false
 false
@@ -1050,7 +1049,6 @@ normalModeAdapterItems
 topSites
 collections
 expandedCollections
-null
 recentBookmarks
 false
 false
@@ -1200,7 +1198,6 @@ normalModeAdapterItems
 topSites
 collections
 expandedCollections
-null
 recentBookmarks
 false
 false
@@ -1356,7 +1353,6 @@ normalModeAdapterItems
 topSites
 collections
 expandedCollections
-null
 recentBookmarks
 false
 false
@@ -1517,7 +1513,6 @@ normalModeAdapterItems
 topSites
 collections
 expandedCollections
-null
 recentBookmarks
 false
 false
@@ -1662,7 +1657,6 @@ normalModeAdapterItems
 topSites
 collections
 expandedCollections
-null
 recentBookmarks
 false
 false

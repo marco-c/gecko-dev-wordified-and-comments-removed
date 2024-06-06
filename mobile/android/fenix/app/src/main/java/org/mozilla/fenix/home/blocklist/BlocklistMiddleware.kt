@@ -620,9 +620,6 @@ mode
 collections
 =
 collections
-tip
-=
-tip
 showCollectionPlaceholder
 =
 showCollectionPlaceholder
