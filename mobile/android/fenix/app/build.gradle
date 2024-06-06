@@ -1090,6 +1090,17 @@ lint
 xml
 "
 )
+baseline
+file
+(
+"
+lint
+-
+baseline
+.
+xml
+"
+)
 }
 packagingOptions
 {
