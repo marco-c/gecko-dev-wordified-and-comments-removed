@@ -75,13 +75,12 @@ behavior
 Device
 information
 *
-Fire
-TV
+Android
 device
 :
 ?
 *
-Firefox
+Focus
 version
 :
 ?
