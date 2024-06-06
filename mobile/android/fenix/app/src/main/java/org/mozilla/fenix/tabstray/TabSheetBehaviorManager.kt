@@ -480,6 +480,8 @@ internal
 class
 TraySheetBehaviorCallback
 (
+get
+:
 VisibleForTesting
 internal
 val
@@ -489,6 +491,8 @@ BottomSheetBehavior
 <
 ConstraintLayout
 >
+get
+:
 VisibleForTesting
 internal
 val

@@ -168,6 +168,8 @@ AccountDeviceViewHolder
 itemView
 :
 View
+get
+:
 VisibleForTesting
 (
 otherwise
