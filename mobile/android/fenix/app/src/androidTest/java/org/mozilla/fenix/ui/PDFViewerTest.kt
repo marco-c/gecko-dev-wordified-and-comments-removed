@@ -789,7 +789,7 @@ enterFindInPageQuery
 l
 "
 )
-verifyFindNextInPageResult
+verifyFindInPageResult
 (
 "
 1
@@ -800,7 +800,7 @@ verifyFindNextInPageResult
 clickFindInPageNextButton
 (
 )
-verifyFindNextInPageResult
+verifyFindInPageResult
 (
 "
 2
@@ -811,7 +811,7 @@ verifyFindNextInPageResult
 clickFindInPagePrevButton
 (
 )
-verifyFindPrevInPageResult
+verifyFindInPageResult
 (
 "
 1
@@ -841,7 +841,7 @@ enterFindInPageQuery
 p
 "
 )
-verifyFindNextInPageResult
+verifyFindInPageResult
 (
 "
 1

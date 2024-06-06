@@ -1022,7 +1022,7 @@ enterFindInPageQuery
 a
 "
 )
-verifyFindNextInPageResult
+verifyFindInPageResult
 (
 "
 1
@@ -1033,7 +1033,7 @@ verifyFindNextInPageResult
 clickFindInPageNextButton
 (
 )
-verifyFindNextInPageResult
+verifyFindInPageResult
 (
 "
 2
@@ -1044,7 +1044,7 @@ verifyFindNextInPageResult
 clickFindInPageNextButton
 (
 )
-verifyFindNextInPageResult
+verifyFindInPageResult
 (
 "
 3
@@ -1055,7 +1055,7 @@ verifyFindNextInPageResult
 clickFindInPagePrevButton
 (
 )
-verifyFindPrevInPageResult
+verifyFindInPageResult
 (
 "
 2
@@ -1066,7 +1066,7 @@ verifyFindPrevInPageResult
 clickFindInPagePrevButton
 (
 )
-verifyFindPrevInPageResult
+verifyFindInPageResult
 (
 "
 1
@@ -1096,7 +1096,7 @@ enterFindInPageQuery
 3
 "
 )
-verifyFindNextInPageResult
+verifyFindInPageResult
 (
 "
 1
