@@ -303,6 +303,12 @@ java
 .
 net
 .
+MalformedURLException
+import
+java
+.
+net
+.
 URL
 import
 java
@@ -1861,6 +1867,8 @@ newLoadTime
 Long
 )
 {
+try
+{
 domainMap
 .
 add
@@ -1927,6 +1935,15 @@ histogramLoadIndex
 ]
 +
 +
+}
+catch
+(
+e
+:
+MalformedURLException
+)
+{
+}
 }
 JvmStatic
 fun
