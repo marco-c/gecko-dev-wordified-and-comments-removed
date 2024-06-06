@@ -100,8 +100,9 @@ android
 color
 =
 "
-?
-tabTrayItemDivider
+color
+/
+tab_tray_item_divider_normal_theme
 "
 /
 >
