@@ -125,9 +125,11 @@ mozilla
 .
 fenix
 .
-home
+components
 .
-HomeFragmentState
+appstate
+.
+AppState
 import
 org
 .
@@ -183,7 +185,7 @@ random
 .
 Random
 class
-HomeFragmentStateTest
+AppStateTest
 {
 private
 val
@@ -256,9 +258,9 @@ returned
 )
 {
 val
-homeState
+state
 =
-HomeFragmentState
+AppState
 (
 pocketStoriesCategories
 =
@@ -272,7 +274,7 @@ defaultStoriesCategory
 var
 result
 =
-homeState
+state
 .
 getFilteredStories
 (
@@ -294,7 +296,7 @@ POCKET_STORIES_DEFAULT_CATEGORY_NAME
 )
 result
 =
-homeState
+state
 .
 getFilteredStories
 (
@@ -341,9 +343,9 @@ returned
 )
 {
 val
-homeState
+state
 =
-HomeFragmentState
+AppState
 (
 pocketStoriesCategories
 =
@@ -364,7 +366,7 @@ available
 var
 result
 =
-homeState
+state
 .
 getFilteredStories
 (
@@ -386,7 +388,7 @@ than
 available
 result
 =
-homeState
+state
 .
 getFilteredStories
 (
@@ -429,9 +431,9 @@ returned
 )
 {
 val
-homeState
+state
 =
-HomeFragmentState
+AppState
 (
 pocketStoriesCategories
 =
@@ -456,7 +458,7 @@ name
 var
 result
 =
-homeState
+state
 .
 getFilteredStories
 (
@@ -487,7 +489,7 @@ name
 )
 result
 =
-homeState
+state
 .
 getFilteredStories
 (
@@ -545,9 +547,9 @@ returned
 )
 {
 val
-homeState
+state
 =
-HomeFragmentState
+AppState
 (
 pocketStoriesCategories
 =
@@ -578,7 +580,7 @@ name
 var
 result
 =
-homeState
+state
 .
 getFilteredStories
 (
@@ -619,7 +621,7 @@ name
 )
 result
 =
-homeState
+state
 .
 getFilteredStories
 (
@@ -691,9 +693,9 @@ category
 )
 {
 val
-homeState
+state
 =
-HomeFragmentState
+AppState
 (
 pocketStoriesCategories
 =
@@ -730,7 +732,7 @@ selectionTimestamp
 val
 result
 =
-homeState
+state
 .
 getFilteredStories
 (
@@ -1568,9 +1570,9 @@ timesShown
 )
 }
 val
-homeState
+state
 =
-HomeFragmentState
+AppState
 (
 pocketStoriesCategories
 =
@@ -1606,7 +1608,7 @@ selectionTimestamp
 val
 result
 =
-homeState
+state
 .
 getFilteredStories
 (
@@ -1724,9 +1726,9 @@ selections
 )
 {
 val
-homeState
+state
 =
-HomeFragmentState
+AppState
 (
 pocketStoriesCategories
 =
@@ -1757,7 +1759,7 @@ name
 val
 result
 =
-homeState
+state
 .
 getFilteredStories
 (
@@ -1828,7 +1830,7 @@ mockk
 val
 state
 =
-HomeFragmentState
+AppState
 (
 recentTabs
 =
@@ -1887,7 +1889,7 @@ mockk
 val
 state
 =
-HomeFragmentState
+AppState
 (
 recentTabs
 =
