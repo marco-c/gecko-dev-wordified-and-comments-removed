@@ -1661,16 +1661,7 @@ BrowserFragmentDirections
 .
 actionBrowserFragmentToSearchFragment
 (
-requireComponents
-.
-core
-.
-sessionManager
-.
-selectedSession
-?
-.
-id
+null
 )
 Navigation
 .
