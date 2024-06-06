@@ -75,6 +75,18 @@ sitepermissions
 .
 SitePermissionsRules
 import
+mozilla
+.
+components
+.
+support
+.
+base
+.
+feature
+.
+LifecycleAwareFeature
+import
 org
 .
 mozilla
@@ -145,7 +157,7 @@ it
 *
 /
 class
-WifiIntegration
+SitePermissionsWifiIntegration
 (
 private
 val
@@ -158,6 +170,8 @@ wifiConnectionMonitor
 :
 WifiConnectionMonitor
 )
+:
+LifecycleAwareFeature
 {
 /
 *
@@ -388,6 +402,7 @@ on
 activity
 startup
 .
+override
 fun
 start
 (
@@ -399,6 +414,7 @@ start
 (
 )
 }
+override
 fun
 stop
 (
