@@ -186,6 +186,16 @@ project
 (
 '
 :
+browser
+-
+state
+'
+)
+implementation
+project
+(
+'
+:
 concept
 -
 awesomebar

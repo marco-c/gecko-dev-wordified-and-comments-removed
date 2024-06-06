@@ -211,7 +211,7 @@ feature
 .
 fxsuggest
 .
-FxSuggestClickInfo
+FxSuggestInteractionInfo
 import
 mozilla
 .
@@ -2178,11 +2178,11 @@ FxSuggestFacts
 .
 MetadataKeys
 .
-CLICK_INFO
+INTERACTION_INFO
 )
 as
 ?
-FxSuggestClickInfo
+FxSuggestInteractionInfo
 .
 Amp
 )
@@ -2230,7 +2230,7 @@ set
 (
 it
 .
-clickUrl
+reportingUrl
 )
 FxSuggest
 .

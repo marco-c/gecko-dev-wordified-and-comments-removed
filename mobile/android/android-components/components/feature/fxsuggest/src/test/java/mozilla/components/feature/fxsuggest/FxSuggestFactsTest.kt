@@ -87,7 +87,7 @@ fxsuggest
 .
 facts
 .
-emitSponsoredSuggestionClickedFact
+emitSuggestionClickedFact
 import
 mozilla
 .
@@ -143,7 +143,7 @@ FxSuggestFactsTest
 {
 Test
 fun
-testEmitSponsoredSuggestionClickedFact
+emitSuggestionClickedFactWithAmpInteractionInfo
 (
 )
 {
@@ -154,9 +154,9 @@ withFactCollection
 facts
 -
 >
-emitSponsoredSuggestionClickedFact
+emitSuggestionClickedFact
 (
-FxSuggestClickInfo
+FxSuggestInteractionInfo
 .
 Amp
 (
@@ -168,7 +168,7 @@ advertiser
 "
 mozilla
 "
-clickUrl
+reportingUrl
 =
 "
 https
@@ -202,6 +202,9 @@ a04a
 35d3d873712d
 "
 )
+positionInAwesomeBar
+=
+0
 )
 assertEquals
 (
@@ -254,11 +257,11 @@ FxSuggestFacts
 .
 MetadataKeys
 .
-CLICK_INFO
+INTERACTION_INFO
 )
 as
 ?
-FxSuggestClickInfo
+FxSuggestInteractionInfo
 .
 Amp
 )
@@ -282,7 +285,7 @@ assertEquals
 (
 clickInfo
 .
-clickUrl
+reportingUrl
 "
 https
 :
