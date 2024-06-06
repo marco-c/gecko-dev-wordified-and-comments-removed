@@ -592,7 +592,7 @@ R
 .
 string
 .
-content_description_close_button
+onboarding_home_content_description_close_button
 )
 tint
 =

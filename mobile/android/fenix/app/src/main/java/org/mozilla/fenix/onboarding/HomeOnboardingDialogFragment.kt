@@ -209,7 +209,7 @@ onboarding
 .
 view
 .
-Onboarding
+UpgradeOnboarding
 import
 org
 .
@@ -361,7 +361,7 @@ state
 .
 account
 }
-Onboarding
+UpgradeOnboarding
 (
 isSyncSignIn
 =
