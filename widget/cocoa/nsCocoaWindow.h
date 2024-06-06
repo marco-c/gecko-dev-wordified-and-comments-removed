@@ -35,13 +35,6 @@ h
 #
 include
 "
-nsPIWidgetCocoa
-.
-h
-"
-#
-include
-"
 nsCocoaUtils
 .
 h
@@ -639,9 +632,6 @@ CGFloat
 mUnifiedToolbarHeight
 ;
 CGFloat
-mSheetAttachmentPosition
-;
-CGFloat
 mMenuBarHeight
 ;
 CGFloat
@@ -701,23 +691,6 @@ aState
 (
 void
 )
-setSheetAttachmentPosition
-:
-(
-CGFloat
-)
-aY
-;
--
-(
-CGFloat
-)
-sheetAttachmentPosition
-;
--
-(
-void
-)
 placeWindowButtons
 :
 (
@@ -744,8 +717,6 @@ final
 :
 public
 nsBaseWidget
-public
-nsPIWidgetCocoa
 {
 private
 :
@@ -759,15 +730,11 @@ nsCocoaWindow
 (
 )
 ;
-NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSPIWIDGETCOCOA
-;
 [
 [
 nodiscard
 ]
 ]
-virtual
 nsresult
 Create
 (
@@ -792,7 +759,6 @@ override
 nodiscard
 ]
 ]
-virtual
 nsresult
 Create
 (
@@ -812,14 +778,12 @@ nullptr
 )
 override
 ;
-virtual
 void
 Destroy
 (
 )
 override
 ;
-virtual
 void
 Show
 (
@@ -828,23 +792,12 @@ aState
 )
 override
 ;
-virtual
 bool
 NeedsRecreateToReshow
 (
 )
 override
 ;
-virtual
-nsIWidget
-*
-GetSheetWindowParent
-(
-void
-)
-override
-;
-virtual
 void
 Enable
 (
@@ -853,7 +806,6 @@ aState
 )
 override
 ;
-virtual
 bool
 IsEnabled
 (
@@ -861,7 +813,6 @@ IsEnabled
 const
 override
 ;
-virtual
 void
 SetModal
 (
@@ -870,7 +821,6 @@ aState
 )
 override
 ;
-virtual
 void
 SetFakeModal
 (
@@ -879,14 +829,12 @@ aState
 )
 override
 ;
-virtual
 bool
 IsRunningAppModal
 (
 )
 override
 ;
-virtual
 bool
 IsVisible
 (
@@ -894,7 +842,6 @@ IsVisible
 const
 override
 ;
-virtual
 void
 SetFocus
 (
@@ -910,28 +857,24 @@ aCallerType
 )
 override
 ;
-virtual
 LayoutDeviceIntPoint
 WidgetToScreenOffset
 (
 )
 override
 ;
-virtual
 LayoutDeviceIntPoint
 GetClientOffset
 (
 )
 override
 ;
-virtual
 LayoutDeviceIntMargin
 ClientToWindowMargin
 (
 )
 override
 ;
-virtual
 void
 *
 GetNativeData
@@ -941,7 +884,6 @@ aDataType
 )
 override
 ;
-virtual
 void
 ConstrainPosition
 (
@@ -950,7 +892,6 @@ DesktopIntPoint
 )
 override
 ;
-virtual
 void
 SetSizeConstraints
 (
@@ -961,7 +902,6 @@ aConstraints
 )
 override
 ;
-virtual
 void
 Move
 (
@@ -972,7 +912,6 @@ aY
 )
 override
 ;
-virtual
 nsSizeMode
 SizeMode
 (
@@ -983,7 +922,6 @@ return
 mSizeMode
 ;
 }
-virtual
 void
 SetSizeMode
 (
@@ -992,7 +930,6 @@ aMode
 )
 override
 ;
-virtual
 void
 GetWorkspaceID
 (
@@ -1002,7 +939,6 @@ workspaceID
 )
 override
 ;
-virtual
 void
 MoveToWorkspace
 (
@@ -1013,7 +949,6 @@ workspaceID
 )
 override
 ;
-virtual
 void
 SuppressAnimation
 (
@@ -1022,7 +957,6 @@ aSuppress
 )
 override
 ;
-virtual
 void
 HideWindowChrome
 (
@@ -1031,7 +965,6 @@ aShouldHide
 )
 override
 ;
-virtual
 bool
 PrepareForFullscreenTransition
 (
@@ -1042,7 +975,6 @@ aData
 )
 override
 ;
-virtual
 void
 PerformFullscreenTransition
 (
@@ -1059,7 +991,6 @@ aCallback
 )
 override
 ;
-virtual
 void
 CleanupFullscreenTransition
 (
@@ -1123,7 +1054,6 @@ mFullscreenTransitionAnimation
 nil
 ;
 }
-virtual
 void
 Resize
 (
@@ -1136,7 +1066,6 @@ aRepaint
 )
 override
 ;
-virtual
 void
 Resize
 (
@@ -1158,14 +1087,12 @@ GetClientCocoaRect
 (
 )
 ;
-virtual
 LayoutDeviceIntRect
 GetClientBounds
 (
 )
 override
 ;
-virtual
 LayoutDeviceIntRect
 GetScreenBounds
 (
@@ -1182,7 +1109,6 @@ ReportSizeEvent
 (
 )
 ;
-virtual
 void
 SetCursor
 (
@@ -1202,14 +1128,12 @@ BackingScaleFactorChanged
 (
 )
 ;
-virtual
 double
 GetDefaultScaleInternal
 (
 )
 override
 ;
-virtual
 int32_t
 RoundsWidgetCoordinatesTo
 (
@@ -1237,7 +1161,6 @@ BackingScaleFactor
 )
 ;
 }
-virtual
 nsresult
 SetTitle
 (
@@ -1248,7 +1171,6 @@ aTitle
 )
 override
 ;
-virtual
 void
 Invalidate
 (
@@ -1259,7 +1181,6 @@ aRect
 )
 override
 ;
-virtual
 WindowRenderer
 *
 GetWindowRenderer
@@ -1267,7 +1188,6 @@ GetWindowRenderer
 )
 override
 ;
-virtual
 nsresult
 DispatchEvent
 (
@@ -1283,7 +1203,6 @@ aStatus
 )
 override
 ;
-virtual
 void
 CaptureRollupEvents
 (
@@ -1297,7 +1216,6 @@ override
 nodiscard
 ]
 ]
-virtual
 nsresult
 GetAttention
 (
@@ -1306,21 +1224,18 @@ aCycleCount
 )
 override
 ;
-virtual
 bool
 HasPendingInputEvent
 (
 )
 override
 ;
-virtual
 TransparencyMode
 GetTransparencyMode
 (
 )
 override
 ;
-virtual
 void
 SetTransparencyMode
 (
@@ -1329,7 +1244,6 @@ aMode
 )
 override
 ;
-virtual
 void
 SetWindowShadowStyle
 (
@@ -1341,7 +1255,6 @@ aStyle
 )
 override
 ;
-virtual
 void
 SetWindowOpacity
 (
@@ -1350,7 +1263,6 @@ aOpacity
 )
 override
 ;
-virtual
 void
 SetWindowTransform
 (
@@ -1367,7 +1279,6 @@ aTransform
 )
 override
 ;
-virtual
 void
 SetInputRegion
 (
@@ -1377,7 +1288,6 @@ InputRegion
 )
 override
 ;
-virtual
 void
 SetColorScheme
 (
@@ -1396,7 +1306,6 @@ ColorScheme
 )
 override
 ;
-virtual
 void
 SetShowsToolbarButton
 (
@@ -1405,7 +1314,6 @@ aShow
 )
 override
 ;
-virtual
 void
 SetSupportsNativeFullscreen
 (
@@ -1414,7 +1322,6 @@ aShow
 )
 override
 ;
-virtual
 void
 SetWindowAnimationType
 (
@@ -1423,7 +1330,6 @@ aType
 )
 override
 ;
-virtual
 void
 SetDrawsTitle
 (
@@ -1432,7 +1338,6 @@ aDrawTitle
 )
 override
 ;
-virtual
 nsresult
 SetNonClientMargins
 (
@@ -1449,7 +1354,6 @@ bool
 aState
 )
 ;
-virtual
 void
 UpdateThemeGeometries
 (
@@ -1463,7 +1367,6 @@ aThemeGeometries
 )
 override
 ;
-virtual
 nsresult
 SynthesizeNativeMouseEvent
 (
@@ -1487,7 +1390,6 @@ aObserver
 )
 override
 ;
-virtual
 nsresult
 SynthesizeNativeMouseScrollEvent
 (
@@ -1511,7 +1413,6 @@ aObserver
 )
 override
 ;
-virtual
 void
 LockAspectRatio
 (
@@ -1530,7 +1431,6 @@ DispatchOcclusionEvent
 (
 )
 ;
-virtual
 bool
 DragEvent
 (
@@ -1588,7 +1488,6 @@ GetMenuBar
 (
 )
 ;
-virtual
 void
 SetInputContext
 (
@@ -1603,7 +1502,6 @@ aAction
 )
 override
 ;
-virtual
 InputContext
 GetInputContext
 (
@@ -1615,7 +1513,6 @@ mInputContext
 ;
 }
 MOZ_CAN_RUN_SCRIPT
-virtual
 bool
 GetEditCommands
 (
@@ -1802,6 +1699,11 @@ GetWorkspaceID
 )
 ;
 void
+SendSetZLevelEvent
+(
+)
+;
+void
 DoResize
 (
 double
@@ -1836,7 +1738,6 @@ bool
 aUseSystemTransition
 )
 ;
-virtual
 already_AddRefed
 <
 nsIWidget
@@ -1877,10 +1778,6 @@ nsMenuBarX
 >
 mMenuBar
 ;
-NSWindow
-*
-mSheetWindowParent
-;
 nsChildView
 *
 mPopupContentView
@@ -1906,9 +1803,6 @@ mAnimationType
 ;
 bool
 mWindowMadeHere
-;
-bool
-mSheetNeedsShow
 ;
 nsSizeMode
 mSizeMode

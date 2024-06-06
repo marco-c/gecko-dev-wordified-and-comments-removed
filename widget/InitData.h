@@ -39,7 +39,6 @@ uint8_t
 {
 TopLevel
 Dialog
-Sheet
 Popup
 Child
 Invisible

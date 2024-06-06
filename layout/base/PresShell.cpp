@@ -55931,15 +55931,6 @@ WindowType
 :
 :
 Popup
-|
-|
-windowType
-=
-=
-WindowType
-:
-:
-Sheet
 ;
 }
 PresShell
