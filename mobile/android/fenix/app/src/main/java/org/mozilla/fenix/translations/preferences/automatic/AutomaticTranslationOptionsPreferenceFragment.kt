@@ -145,9 +145,6 @@ FirefoxTheme
 A
 fragment
 displaying
-the
-Firefox
-Preference
 Automatic
 Translation
 Options

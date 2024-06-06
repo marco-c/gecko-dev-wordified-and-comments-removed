@@ -252,12 +252,9 @@ FirefoxTheme
 *
 *
 *
-Firefox
 Translation
-settings
-fragment
-compose
-view
+Settings
+Fragment
 .
 *
 *

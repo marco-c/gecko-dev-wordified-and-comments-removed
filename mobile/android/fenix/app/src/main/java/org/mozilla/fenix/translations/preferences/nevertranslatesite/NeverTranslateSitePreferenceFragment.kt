@@ -153,9 +153,6 @@ FirefoxTheme
 A
 fragment
 displaying
-the
-Firefox
-Preference
 never
 translate
 site

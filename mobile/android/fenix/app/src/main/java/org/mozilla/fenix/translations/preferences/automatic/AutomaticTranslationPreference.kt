@@ -234,8 +234,6 @@ Locale
 *
 *
 *
-Firefox
-Preferences
 Automatic
 Translate
 preference

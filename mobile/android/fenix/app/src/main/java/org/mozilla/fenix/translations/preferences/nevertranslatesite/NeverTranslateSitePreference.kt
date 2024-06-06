@@ -268,9 +268,6 @@ FirefoxTheme
 *
 *
 *
-Firefox
-Preference
-:
 Never
 Translate
 Site
