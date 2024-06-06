@@ -1056,13 +1056,7 @@ allowThreadDiskReads
 {
 WallpaperManager
 (
-settings
 appStore
-useCases
-.
-wallpaperUseCases
-.
-selectWallpaper
 )
 }
 }
