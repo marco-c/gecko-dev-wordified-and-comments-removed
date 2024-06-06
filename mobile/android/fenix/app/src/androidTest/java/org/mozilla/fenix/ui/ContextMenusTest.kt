@@ -1301,7 +1301,7 @@ image
 }
 downloadRobot
 {
-verifyDownloadNotificationPopup
+verifyDownloadCompleteNotificationPopup
 (
 )
 }

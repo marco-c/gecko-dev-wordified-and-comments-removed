@@ -990,7 +990,7 @@ downloadFile
 .
 clickDownload
 {
-verifyDownloadNotificationPopup
+verifyDownloadCompleteNotificationPopup
 (
 )
 }

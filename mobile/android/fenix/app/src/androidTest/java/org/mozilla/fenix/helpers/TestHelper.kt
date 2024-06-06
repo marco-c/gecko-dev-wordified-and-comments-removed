@@ -1288,6 +1288,15 @@ fileName
 )
 try
 {
+if
+(
+file
+.
+exists
+(
+)
+)
+{
 file
 .
 delete
@@ -1322,6 +1331,7 @@ exists
 (
 )
 )
+}
 }
 catch
 (

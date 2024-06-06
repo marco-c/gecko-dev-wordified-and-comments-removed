@@ -1043,7 +1043,7 @@ zip
 .
 clickDownload
 {
-verifyDownloadNotificationPopup
+verifyDownloadCompleteNotificationPopup
 (
 )
 }

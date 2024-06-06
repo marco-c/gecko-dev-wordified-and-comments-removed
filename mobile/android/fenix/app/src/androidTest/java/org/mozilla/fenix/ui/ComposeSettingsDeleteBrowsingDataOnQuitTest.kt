@@ -977,7 +977,7 @@ zip
 .
 clickDownload
 {
-verifyDownloadNotificationPopup
+verifyDownloadCompleteNotificationPopup
 (
 )
 }
