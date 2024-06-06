@@ -107,7 +107,7 @@ synthetic
 .
 main
 .
-component_search
+component_browser_top_toolbar
 .
 *
 import
