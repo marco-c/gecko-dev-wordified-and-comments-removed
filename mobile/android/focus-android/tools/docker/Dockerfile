@@ -1190,6 +1190,11 @@ RUN
 .
 /
 gradlew
+-
+-
+no
+-
+daemon
 assemble
 testFocusWebviewDebugUnitTest
 lint

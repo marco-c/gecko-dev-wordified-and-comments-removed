@@ -74,6 +74,11 @@ script
 .
 /
 gradlew
+-
+-
+no
+-
+daemon
 clean
 assemble
 -
@@ -89,6 +94,11 @@ adjust_token
 .
 /
 gradlew
+-
+-
+no
+-
+daemon
 jacocoTestReport
 after_success
 :

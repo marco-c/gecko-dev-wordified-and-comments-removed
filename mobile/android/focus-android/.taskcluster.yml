@@ -422,6 +422,11 @@ adjust_token
 .
 /
 gradlew
+-
+-
+no
+-
+daemon
 clean
 assemble
 detektCheck
@@ -1363,6 +1368,11 @@ py
 .
 /
 gradlew
+-
+-
+no
+-
+daemon
 clean
 test
 assembleRelease
