@@ -229,6 +229,16 @@ fenix
 .
 compose
 .
+SelectableChipColors
+import
+org
+.
+mozilla
+.
+fenix
+.
+compose
+.
 annotation
 .
 LightDarkPreview
@@ -480,7 +490,7 @@ selectedTextColor
 unselectedTextColor
 )
 =
-PocketStoriesCategoryColors
+SelectableChipColors
 .
 buildColors
 (
@@ -548,7 +558,7 @@ textActionPrimary
 val
 categoryColors
 =
-PocketStoriesCategoryColors
+SelectableChipColors
 (
 selectedTextColor
 =
@@ -666,9 +676,9 @@ emptyList
 )
 categoryColors
 :
-PocketStoriesCategoryColors
+SelectableChipColors
 =
-PocketStoriesCategoryColors
+SelectableChipColors
 .
 buildColors
 (
