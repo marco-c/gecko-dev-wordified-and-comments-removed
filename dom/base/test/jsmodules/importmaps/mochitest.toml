@@ -93,6 +93,11 @@ module_importMap_with_external_script_7
 mjs
 "
 "
+module_importMap_with_nonexisting_module
+.
+mjs
+"
+"
 bad
 /
 module_2
@@ -185,6 +190,13 @@ html
 [
 "
 test_importMap_with_external_script
+.
+html
+"
+]
+[
+"
+test_importMap_with_nonexisting_module
 .
 html
 "
