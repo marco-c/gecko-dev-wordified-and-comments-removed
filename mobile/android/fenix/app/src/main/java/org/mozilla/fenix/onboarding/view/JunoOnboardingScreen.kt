@@ -1484,7 +1484,7 @@ R
 .
 string
 .
-juno_onboarding_default_browser_title_nimbus
+juno_onboarding_default_browser_title_nimbus_2
 )
 description
 =
@@ -1494,7 +1494,7 @@ R
 .
 string
 .
-juno_onboarding_default_browser_description_nimbus
+juno_onboarding_default_browser_description_nimbus_2
 )
 linkText
 =
@@ -1551,7 +1551,7 @@ R
 .
 string
 .
-juno_onboarding_sign_in_title
+juno_onboarding_sign_in_title_2
 )
 description
 =
@@ -1561,7 +1561,7 @@ R
 .
 string
 .
-juno_onboarding_sign_in_description
+juno_onboarding_sign_in_description_2
 )
 primaryButtonLabel
 =
@@ -1608,7 +1608,7 @@ R
 .
 string
 .
-juno_onboarding_enable_notifications_title_nimbus
+juno_onboarding_enable_notifications_title_nimbus_2
 )
 description
 =
@@ -1618,7 +1618,7 @@ R
 .
 string
 .
-juno_onboarding_enable_notifications_description_nimbus
+juno_onboarding_enable_notifications_description_nimbus_2
 )
 primaryButtonLabel
 =
