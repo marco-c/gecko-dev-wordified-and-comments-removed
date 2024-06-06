@@ -137,10 +137,9 @@ android
 fillColor
 =
 "
-?
-attr
+color
 /
-primaryText
+photonWhite
 "
 android
 :
