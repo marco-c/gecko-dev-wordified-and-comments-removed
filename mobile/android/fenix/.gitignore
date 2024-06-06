@@ -86,6 +86,12 @@ gradle
 /
 build
 /
+!
+taskcluster
+/
+ci
+/
+build
 #
 Local
 configuration

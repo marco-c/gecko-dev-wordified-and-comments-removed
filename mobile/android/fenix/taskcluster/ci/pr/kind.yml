@@ -70,9 +70,7 @@ kind
 dependencies
 :
 -
-old
--
-decision
+build
 -
 test
 transforms
