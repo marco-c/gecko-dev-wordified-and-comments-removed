@@ -2934,8 +2934,6 @@ lifecycle
 lifecycle
 -
 common
--
-java8
 :
 {
 Versions
