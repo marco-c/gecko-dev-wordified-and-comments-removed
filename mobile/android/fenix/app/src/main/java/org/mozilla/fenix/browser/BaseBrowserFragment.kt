@@ -3120,9 +3120,9 @@ feature
 AppLinksFeature
 (
 context
-sessionManager
+store
 =
-sessionManager
+store
 sessionId
 =
 customTabSessionId
