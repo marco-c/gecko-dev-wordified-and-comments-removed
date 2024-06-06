@@ -262,7 +262,7 @@ textColorLink
 =
 "
 ?
-aboutLink
+textAccent
 "
 app
 :
@@ -1060,7 +1060,7 @@ textColor
 =
 "
 ?
-aboutLink
+textAccent
 "
 app
 :
