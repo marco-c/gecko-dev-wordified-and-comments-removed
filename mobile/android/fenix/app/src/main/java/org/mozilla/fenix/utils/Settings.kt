@@ -3810,6 +3810,14 @@ PhoneFeature
 .
 AUTOPLAY_INAUDIBLE
 )
+persistentStorage
+=
+getSitePermissionsPhoneFeatureAction
+(
+PhoneFeature
+.
+PERSISTENT_STORAGE
+)
 )
 }
 fun
