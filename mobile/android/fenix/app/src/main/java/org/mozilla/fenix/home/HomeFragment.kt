@@ -655,6 +655,16 @@ mozilla
 .
 fenix
 .
+addons
+.
+runIfFragmentIsAttached
+import
+org
+.
+mozilla
+.
+fenix
+.
 browser
 .
 BrowserAnimator
@@ -4631,6 +4641,8 @@ emitSessionChanges
 (
 )
 {
+runIfFragmentIsAttached
+{
 homeFragmentStore
 .
 dispatch
@@ -4644,6 +4656,7 @@ getListOfTabs
 )
 )
 )
+}
 }
 private
 fun
