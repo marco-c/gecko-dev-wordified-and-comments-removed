@@ -1618,7 +1618,7 @@ string
 name
 =
 "
-pref_key_tracking_protection_standard
+pref_key_tracking_protection_standard_option
 "
 translatable
 =
@@ -1626,7 +1626,7 @@ translatable
 false
 "
 >
-pref_key_tracking_protection_standard
+pref_key_tracking_protection_standard_option
 <
 /
 string
@@ -1636,7 +1636,7 @@ string
 name
 =
 "
-pref_key_tracking_protection_strict
+pref_key_tracking_protection_strict_default
 "
 translatable
 =
@@ -1644,7 +1644,7 @@ translatable
 false
 "
 >
-pref_key_tracking_protection_strict
+pref_key_tracking_protection_strict_default
 <
 /
 string

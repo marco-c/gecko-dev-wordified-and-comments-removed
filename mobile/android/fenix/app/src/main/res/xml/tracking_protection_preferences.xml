@@ -249,7 +249,7 @@ key
 "
 string
 /
-pref_key_tracking_protection_standard
+pref_key_tracking_protection_standard_option
 "
 android
 :
@@ -268,13 +268,6 @@ title
 string
 /
 preference_enhanced_tracking_protection_standard_option
-"
-app
-:
-isPreferenceVisible
-=
-"
-false
 "
 /
 >
@@ -311,7 +304,7 @@ key
 "
 string
 /
-pref_key_tracking_protection_strict
+pref_key_tracking_protection_strict_default
 "
 android
 :
@@ -330,13 +323,6 @@ title
 string
 /
 preference_enhanced_tracking_protection_strict_default
-"
-app
-:
-isPreferenceVisible
-=
-"
-false
 "
 /
 >

@@ -197,14 +197,6 @@ mozilla
 .
 fenix
 .
-FeatureFlags
-import
-org
-.
-mozilla
-.
-fenix
-.
 R
 import
 org
@@ -442,11 +434,6 @@ settings
 )
 .
 shouldUseTrackingProtection
-&
-&
-FeatureFlags
-.
-etpCategories
 )
 {
 toolbar

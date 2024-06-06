@@ -886,11 +886,6 @@ session
 securityInfo
 .
 secure
-isTrackingProtectionOn
-=
-session
-.
-trackerBlockingEnabled
 sitePermissions
 =
 sitePermissions
