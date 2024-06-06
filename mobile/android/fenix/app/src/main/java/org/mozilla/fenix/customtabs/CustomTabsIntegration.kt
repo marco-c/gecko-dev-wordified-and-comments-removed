@@ -189,6 +189,8 @@ lazy
 CustomTabToolbarMenu
 (
 context
+sessionManager
+sessionId
 onItemTapped
 =
 onItemTapped
