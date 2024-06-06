@@ -850,12 +850,6 @@ clickShareButton
 verifyShareTabLayout
 (
 )
-verifySendToDeviceTitle
-(
-)
-verifyShareALinkTitle
-(
-)
 }
 }
 SmokeTest
