@@ -1378,6 +1378,16 @@ was
 selected
 .
 *
+param
+position
+The
+position
+of
+the
+top
+site
+.
+*
 /
 fun
 onSelectTopSite
@@ -1385,6 +1395,9 @@ onSelectTopSite
 topSite
 :
 TopSite
+position
+:
+Int
 )
 /
 *
@@ -1768,6 +1781,9 @@ onSelectTopSite
 topSite
 :
 TopSite
+position
+:
+Int
 )
 {
 controller
@@ -1775,6 +1791,7 @@ controller
 handleSelectTopSite
 (
 topSite
+position
 )
 }
 override
