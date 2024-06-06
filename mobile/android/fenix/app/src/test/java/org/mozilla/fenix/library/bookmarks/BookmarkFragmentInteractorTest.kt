@@ -830,7 +830,10 @@ bookmarkController
 .
 handleBookmarkFolderDeletion
 (
+setOf
+(
 subfolder
+)
 )
 }
 }

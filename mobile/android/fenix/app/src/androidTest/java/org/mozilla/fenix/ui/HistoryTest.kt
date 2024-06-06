@@ -744,6 +744,12 @@ openThreeDotMenu
 .
 clickDelete
 {
+verifyDeleteSnackbarText
+(
+"
+Deleted
+"
+)
 verifyEmptyHistoryView
 (
 )
@@ -797,6 +803,14 @@ verifyDeleteConfirmationMessage
 )
 confirmDeleteAllHistory
 (
+)
+verifyDeleteSnackbarText
+(
+"
+Browsing
+data
+deleted
+"
 )
 verifyEmptyHistoryView
 (
