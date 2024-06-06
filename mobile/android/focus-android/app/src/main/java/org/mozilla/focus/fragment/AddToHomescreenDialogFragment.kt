@@ -520,6 +520,12 @@ create
 (
 )
 }
+Suppress
+(
+"
+DEPRECATION
+"
+)
 override
 fun
 onActivityCreated

@@ -274,8 +274,10 @@ pref_key_default_browser
 )
 )
 as
+?
 DefaultBrowserPreference
 preference
+?
 .
 update
 (
@@ -442,11 +444,13 @@ pref_key_locale
 )
 )
 as
+?
 ListPreference
 val
 value
 =
 languagePreference
+?
 .
 value
 val

@@ -196,6 +196,9 @@ privacy_security_settings
 )
 val
 biometricPreference
+:
+SwitchPreferenceCompat
+?
 =
 findPreference
 (
@@ -220,6 +223,7 @@ string
 app_name
 )
 biometricPreference
+?
 .
 summary
 =
@@ -295,8 +299,10 @@ pref_key_performance_enable_cookies
 )
 )
 as
+?
 CookiesPreference
 cookiesPreference
+?
 .
 updateSummary
 (
@@ -427,6 +433,7 @@ pref_key_biometric
 )
 )
 as
+?
 SwitchPreferenceCompat
 if
 (
@@ -442,11 +449,13 @@ requireContext
 )
 {
 switch
+?
 .
 isChecked
 =
 false
 switch
+?
 .
 isEnabled
 =
@@ -481,6 +490,7 @@ apply
 else
 {
 switch
+?
 .
 isEnabled
 =
@@ -495,6 +505,9 @@ updateExceptionSettingAvailability
 {
 val
 exceptionsPreference
+:
+Preference
+?
 =
 findPreference
 (
@@ -508,6 +521,7 @@ pref_key_screen_exceptions
 )
 )
 exceptionsPreference
+?
 .
 isEnabled
 =
@@ -524,6 +538,7 @@ exceptions
 -
 >
 exceptionsPreference
+?
 .
 isEnabled
 =
@@ -671,6 +686,7 @@ pref_key_secure
 )
 )
 as
+?
 SwitchPreferenceCompat
 if
 (
@@ -727,11 +743,13 @@ the
 stealth
 switch
 switch
+?
 .
 isChecked
 =
 true
 switch
+?
 .
 isEnabled
 =
@@ -746,6 +764,7 @@ the
 stealth
 switch
 switch
+?
 .
 isEnabled
 =

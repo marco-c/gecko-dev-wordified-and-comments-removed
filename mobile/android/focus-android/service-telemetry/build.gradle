@@ -153,15 +153,9 @@ VERSION
 }
 "
 implementation
-"
-androidx
+Dependencies
 .
-annotation
-:
-annotation
-:
-support_libraries_version
-"
+androidx_annotation
 implementation
 "
 org

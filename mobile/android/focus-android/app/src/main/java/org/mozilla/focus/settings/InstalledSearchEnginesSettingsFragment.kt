@@ -572,6 +572,9 @@ search_engine_settings
 )
 val
 pref
+:
+RadioSearchEngineListPreference
+?
 =
 preferenceScreen
 .
@@ -588,11 +591,8 @@ string
 pref_key_radio_search_engine_list
 )
 )
-(
 pref
-as
-RadioSearchEngineListPreference
-)
+?
 .
 refetchSearchEngines
 (

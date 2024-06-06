@@ -294,6 +294,7 @@ pref_key_multiselect_search_engine_list
 )
 )
 as
+?
 MultiselectSearchEngineListPreference
 menu
 .
@@ -315,6 +316,8 @@ setMenuItemEnabled
 (
 it
 pref
+!
+!
 .
 atLeastOneEngineChecked
 (
@@ -352,6 +355,9 @@ menu_delete_items
 {
 val
 pref
+:
+MultiselectSearchEngineListPreference
+?
 =
 preferenceScreen
 .
@@ -371,11 +377,9 @@ pref_key_multiselect_search_engine_list
 val
 enginesToRemove
 =
-(
 pref
-as
-MultiselectSearchEngineListPreference
-)
+!
+!
 .
 checkedEngineIds
 TelemetryWrapper
