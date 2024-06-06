@@ -161,6 +161,16 @@ mozilla
 .
 focus
 .
+theme
+.
+FocusTheme
+import
+org
+.
+mozilla
+.
+focus
+.
 topsites
 .
 TopSites
@@ -203,6 +213,8 @@ state
 .
 topSites
 }
+FocusTheme
+{
 Column
 (
 horizontalAlignment
@@ -248,6 +260,7 @@ topSites
 =
 topSites
 )
+}
 }
 }
 }
