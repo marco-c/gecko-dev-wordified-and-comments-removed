@@ -1692,11 +1692,6 @@ context
 .
 showSnackbar
 (
-activity
-=
-activity
-!
-!
 issueNumber
 =
 "
