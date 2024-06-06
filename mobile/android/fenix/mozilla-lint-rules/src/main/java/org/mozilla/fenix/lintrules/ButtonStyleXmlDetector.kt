@@ -234,10 +234,6 @@ res
 -
 auto
 "
-/
-/
-TODO
-:
 const
 val
 ERROR_MESSAGE
