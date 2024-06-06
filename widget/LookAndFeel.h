@@ -214,7 +214,6 @@ TouchDeviceSupportPresent
 TitlebarRadius
 TitlebarButtonSpacing
 DynamicRange
-VideoDynamicRange
 PanelAnimations
 HideCursorWhileTyping
 GTKThemeFamily
