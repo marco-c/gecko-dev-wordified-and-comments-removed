@@ -1942,7 +1942,6 @@ context
 passwordsEncryptionKey
 )
 }
-private
 val
 lazyAutofillStorage
 =

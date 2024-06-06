@@ -520,6 +520,9 @@ lazyPasswordsStorage
 core
 .
 lazyRemoteTabsStorage
+core
+.
+lazyAutofillStorage
 strictMode
 )
 }
