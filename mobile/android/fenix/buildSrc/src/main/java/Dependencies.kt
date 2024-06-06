@@ -379,11 +379,13 @@ val
 mozilla_android_components
 =
 "
-1
+2
 .
 0
 .
 0
+-
+SNAPSHOT
 "
 /
 /
