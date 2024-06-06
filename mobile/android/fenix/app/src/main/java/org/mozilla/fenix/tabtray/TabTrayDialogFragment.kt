@@ -2664,7 +2664,7 @@ list
 .
 adapter
 as
-CollectionsAdapter
+CollectionsListAdapter
 )
 .
 getSelectedCollection
@@ -2779,7 +2779,7 @@ create
 val
 adapter
 =
-CollectionsAdapter
+CollectionsListAdapter
 (
 arrayOf
 (

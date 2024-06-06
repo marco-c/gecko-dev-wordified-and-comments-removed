@@ -134,7 +134,7 @@ FenixRobolectricTestRunner
 class
 )
 class
-CollectionsAdapterTest
+CollectionsListAdapterTest
 {
 private
 val
@@ -192,7 +192,7 @@ size
 val
 adapter
 =
-CollectionsAdapter
+CollectionsListAdapter
 (
 collectionList
 onNewCollectionClicked
@@ -224,7 +224,7 @@ item
 val
 adapter
 =
-CollectionsAdapter
+CollectionsListAdapter
 (
 collectionList
 onNewCollectionClicked
@@ -278,7 +278,7 @@ viewholder
 val
 adapter
 =
-CollectionsAdapter
+CollectionsListAdapter
 (
 collectionList
 onNewCollectionClicked
