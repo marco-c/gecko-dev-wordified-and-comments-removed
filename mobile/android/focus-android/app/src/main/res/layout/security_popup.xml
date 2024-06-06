@@ -495,13 +495,6 @@ doorhanger_section_padding_medium
 "
 android
 :
-maxLines
-=
-"
-1
-"
-android
-:
 textAppearance
 =
 "
