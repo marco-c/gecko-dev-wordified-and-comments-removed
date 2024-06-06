@@ -1050,7 +1050,7 @@ dispatch
 (
 SearchAction
 .
-SearchShortcutEnginePicker
+ShowSearchShortcutEnginePicker
 (
 !
 isOpen

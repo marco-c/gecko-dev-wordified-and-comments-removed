@@ -361,7 +361,7 @@ SearchAction
 )
 data
 class
-SearchShortcutEnginePicker
+ShowSearchShortcutEnginePicker
 (
 val
 show
@@ -442,7 +442,7 @@ false
 is
 SearchAction
 .
-SearchShortcutEnginePicker
+ShowSearchShortcutEnginePicker
 -
 >
 state
