@@ -267,10 +267,7 @@ loadPage
 pageUrl
 )
 {
-waitForSiteSecurityIconShown
-(
-)
-verifySiteSecurityIconShown
+verifySiteTrackingProtectionIconShown
 (
 )
 SystemClock
