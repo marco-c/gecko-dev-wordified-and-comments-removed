@@ -1519,9 +1519,6 @@ instead
 .
 :
 )
-maxParallelForks
-=
-2
 forkEvery
 =
 80
