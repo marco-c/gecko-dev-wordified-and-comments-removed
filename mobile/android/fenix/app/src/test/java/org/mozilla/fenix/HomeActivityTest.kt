@@ -251,6 +251,16 @@ fenix
 .
 ext
 .
+getIntentSource
+import
+org
+.
+mozilla
+.
+fenix
+.
+ext
+.
 settings
 import
 org

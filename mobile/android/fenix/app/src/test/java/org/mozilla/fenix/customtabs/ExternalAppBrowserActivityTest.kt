@@ -269,6 +269,16 @@ mozilla
 .
 fenix
 .
+ext
+.
+getIntentSource
+import
+org
+.
+mozilla
+.
+fenix
+.
 helpers
 .
 FenixRobolectricTestRunner
