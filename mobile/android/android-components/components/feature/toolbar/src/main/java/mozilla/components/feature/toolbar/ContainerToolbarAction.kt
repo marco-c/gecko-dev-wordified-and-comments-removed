@@ -480,7 +480,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_fingerprint
+mozac_ic_fingerprinter_24
 tint
 )
 Icon
