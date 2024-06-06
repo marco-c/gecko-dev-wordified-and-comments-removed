@@ -142,13 +142,6 @@ primaryText
 "
 android
 :
-fillType
-=
-"
-evenOdd
-"
-android
-:
 pathData
 =
 "

@@ -144,13 +144,6 @@ accent
 "
 android
 :
-fillType
-=
-"
-evenOdd
-"
-android
-:
 pathData
 =
 "

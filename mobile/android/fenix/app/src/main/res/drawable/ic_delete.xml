@@ -600,13 +600,6 @@ fillColor
 ?
 destructive
 "
-android
-:
-fillType
-=
-"
-evenOdd
-"
 /
 >
 <

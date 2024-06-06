@@ -345,13 +345,6 @@ fillColor
 ?
 primaryText
 "
-android
-:
-fillType
-=
-"
-evenOdd
-"
 /
 >
 <
