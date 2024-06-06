@@ -413,14 +413,6 @@ mozilla
 .
 fenix
 .
-FeatureFlags
-import
-org
-.
-mozilla
-.
-fenix
-.
 HomeActivity
 import
 org
@@ -1122,11 +1114,6 @@ WebAppShortcutManager
 context
 client
 webAppManifestStorage
-supportWebApps
-=
-FeatureFlags
-.
-progressiveWebApps
 )
 }
 /
