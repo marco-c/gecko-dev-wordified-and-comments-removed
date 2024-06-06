@@ -291,6 +291,14 @@ complete
 -
 pr
 -
+status
+-
+success
+=
+complete
+-
+push
+-
 files
 ~
 =
