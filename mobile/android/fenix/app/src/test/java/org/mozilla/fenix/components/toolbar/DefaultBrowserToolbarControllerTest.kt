@@ -71,12 +71,6 @@ android
 .
 content
 .
-Context
-import
-android
-.
-content
-.
 Intent
 import
 androidx
@@ -452,7 +446,7 @@ thread
 )
 private
 var
-context
+activity
 :
 HomeActivity
 =
@@ -668,9 +662,9 @@ controller
 =
 DefaultBrowserToolbarController
 (
-context
+activity
 =
-context
+activity
 navController
 =
 navController
@@ -750,15 +744,11 @@ DeleteAndQuitKt
 )
 every
 {
-any
-<
-Context
->
-(
-)
-.
 deleteAndQuit
 (
+any
+(
+)
 any
 (
 )
@@ -768,7 +758,7 @@ just
 Runs
 every
 {
-context
+activity
 .
 components
 .
@@ -786,7 +776,7 @@ returns
 metrics
 every
 {
-context
+activity
 .
 components
 .
@@ -798,7 +788,7 @@ returns
 sessionUseCases
 every
 {
-context
+activity
 .
 components
 .
@@ -1102,7 +1092,7 @@ Item
 Reload
 every
 {
-context
+activity
 .
 components
 .
@@ -1778,7 +1768,7 @@ org
 "
 every
 {
-context
+activity
 .
 components
 .
@@ -1901,7 +1891,7 @@ Item
 Help
 every
 {
-context
+activity
 .
 components
 .
@@ -2073,7 +2063,7 @@ true
 )
 every
 {
-context
+activity
 .
 components
 .
@@ -2085,7 +2075,7 @@ returns
 sessionUseCases
 every
 {
-context
+activity
 .
 components
 .
@@ -2201,9 +2191,9 @@ controller
 =
 DefaultBrowserToolbarController
 (
-context
+activity
 =
-context
+activity
 navController
 =
 navController
@@ -2256,7 +2246,7 @@ Item
 OpenInFenix
 every
 {
-context
+activity
 .
 components
 .
@@ -2278,7 +2268,7 @@ mockk
 )
 every
 {
-context
+activity
 .
 startActivity
 (
@@ -2322,7 +2312,7 @@ currentSession
 }
 verify
 {
-context
+activity
 .
 startActivity
 (
@@ -2331,7 +2321,7 @@ openInFenixIntent
 }
 verify
 {
-context
+activity
 .
 finish
 (
@@ -2360,10 +2350,9 @@ item
 )
 verify
 {
-context
-.
 deleteAndQuit
 (
+activity
 scope
 )
 }

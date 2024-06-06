@@ -1209,7 +1209,9 @@ browserToolbarController
 =
 DefaultBrowserToolbarController
 (
-context
+requireActivity
+(
+)
 findNavController
 (
 )
