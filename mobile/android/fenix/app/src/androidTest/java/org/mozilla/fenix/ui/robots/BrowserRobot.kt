@@ -3671,6 +3671,11 @@ isDisplayed
 click
 (
 )
+mDevice
+.
+waitForIdle
+(
+)
 HomeScreenRobot
 (
 )
