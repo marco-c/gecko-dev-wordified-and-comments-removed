@@ -109,11 +109,13 @@ os
 .
 Parcelable
 import
-org
-.
 mozilla
 .
-focus
+components
+.
+support
+.
+utils
 .
 ext
 .

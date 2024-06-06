@@ -87,11 +87,13 @@ pm
 .
 PackageManager
 import
-org
-.
 mozilla
 .
-focus
+components
+.
+support
+.
+utils
 .
 ext
 .
