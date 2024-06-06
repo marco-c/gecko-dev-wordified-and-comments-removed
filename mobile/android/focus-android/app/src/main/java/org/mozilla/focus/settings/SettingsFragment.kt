@@ -608,7 +608,9 @@ SessionState
 .
 Source
 .
-MENU
+Internal
+.
+Menu
 private
 =
 true

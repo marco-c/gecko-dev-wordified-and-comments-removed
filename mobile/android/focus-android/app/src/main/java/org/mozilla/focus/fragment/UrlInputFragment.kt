@@ -2406,7 +2406,9 @@ SessionState
 .
 Source
 .
-MENU
+Internal
+.
+Menu
 private
 =
 true
@@ -2465,7 +2467,9 @@ SessionState
 .
 Source
 .
-MENU
+Internal
+.
+Menu
 private
 =
 true
@@ -4245,7 +4249,9 @@ SessionState
 .
 Source
 .
-USER_ENTERED
+Internal
+.
+UserEntered
 selectTab
 =
 true

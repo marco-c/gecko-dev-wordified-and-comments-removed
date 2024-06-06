@@ -311,7 +311,9 @@ SessionState
 .
 Source
 .
-MENU
+Internal
+.
+Menu
 selectTab
 =
 true
@@ -579,7 +581,9 @@ SessionState
 .
 Source
 .
-MENU
+Internal
+.
+Menu
 selectTab
 =
 true
@@ -876,7 +880,9 @@ SessionState
 .
 Source
 .
-MENU
+Internal
+.
+Menu
 selectTab
 =
 true
@@ -992,7 +998,9 @@ SessionState
 .
 Source
 .
-MENU
+Internal
+.
+Menu
 selectTab
 =
 true
@@ -1108,7 +1116,9 @@ SessionState
 .
 Source
 .
-MENU
+Internal
+.
+Menu
 selectTab
 =
 true
