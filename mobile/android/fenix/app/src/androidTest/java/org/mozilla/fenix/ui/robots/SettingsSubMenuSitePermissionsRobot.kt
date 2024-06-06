@@ -123,7 +123,7 @@ matcher
 .
 ViewMatchers
 .
-hasDescendant
+Visibility
 import
 androidx
 .
@@ -135,7 +135,7 @@ matcher
 .
 ViewMatchers
 .
-Visibility
+hasDescendant
 import
 androidx
 .
