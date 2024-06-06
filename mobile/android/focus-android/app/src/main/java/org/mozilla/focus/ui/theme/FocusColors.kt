@@ -140,11 +140,11 @@ topSiteTitle
 :
 Color
 val
-topSiteMenuBackground
+menuBackground
 :
 Color
 val
-topSiteMenuText
+menuText
 :
 Color
 val
