@@ -111,17 +111,6 @@ background
 height
 )
 ;
-/
-*
-background
--
-size
-:
-64px
-32px
-;
-*
-/
 background
 -
 repeat
@@ -522,7 +511,7 @@ fixed
 ;
 bottom
 :
-80px
+20px
 ;
 text
 -
