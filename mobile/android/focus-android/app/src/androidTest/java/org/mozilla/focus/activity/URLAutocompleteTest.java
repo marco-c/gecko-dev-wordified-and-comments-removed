@@ -610,7 +610,7 @@ R
 .
 id
 .
-list
+recycler_view
 )
 childAtPosition
 (
