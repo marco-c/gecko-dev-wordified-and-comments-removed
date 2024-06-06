@@ -321,11 +321,6 @@ DisplayToolbar
 .
 Indicators
 .
-SECURITY
-DisplayToolbar
-.
-Indicators
-.
 TRACKING_PROTECTION
 )
 displayIndicatorSeparator
