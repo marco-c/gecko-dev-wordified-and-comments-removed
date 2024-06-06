@@ -650,12 +650,9 @@ feature
 .
 *
 /
+const
 val
 saveToPDF
 =
-Config
-.
-channel
-.
-isNightlyOrDebug
+true
 }
