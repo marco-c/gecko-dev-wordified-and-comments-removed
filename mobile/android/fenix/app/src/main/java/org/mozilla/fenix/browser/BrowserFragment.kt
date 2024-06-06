@@ -1960,7 +1960,7 @@ R
 .
 string
 .
-etp_onboarding_message
+etp_onboarding_message_2
 getString
 (
 R
