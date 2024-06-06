@@ -819,9 +819,9 @@ mozilla
 .
 fenix
 .
-perf
+ext
 .
-MarkersActivityLifecycleCallbacks
+actualInactiveTabs
 import
 org
 .
@@ -829,9 +829,9 @@ mozilla
 .
 fenix
 .
-ext
+perf
 .
-potentialInactiveTabs
+MarkersActivityLifecycleCallbacks
 import
 org
 .
@@ -4260,7 +4260,10 @@ browserStore
 .
 state
 .
-potentialInactiveTabs
+actualInactiveTabs
+(
+settings
+)
 .
 size
 .

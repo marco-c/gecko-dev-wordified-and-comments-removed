@@ -10570,6 +10570,16 @@ the
 user
 have
 .
+Value
+will
+be
+0
+if
+the
+feature
+is
+disabled
+.
 send_in_pings
 :
 -
