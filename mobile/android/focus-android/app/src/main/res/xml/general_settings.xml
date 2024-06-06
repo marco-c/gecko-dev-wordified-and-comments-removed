@@ -323,12 +323,6 @@ preference
 Preference
 android
 :
-defaultValue
-=
-"
-"
-android
-:
 key
 =
 "

@@ -575,6 +575,13 @@ let
 if
 (
 value
+.
+isEmpty
+(
+)
+|
+|
+value
 =
 =
 LOCALE_SYSTEM_DEFAULT
