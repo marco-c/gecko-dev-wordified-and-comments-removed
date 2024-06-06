@@ -107,9 +107,9 @@ mozilla
 .
 focus
 .
-utils
+ext
 .
-Settings
+settings
 object
 Biometrics
 {
@@ -238,12 +238,9 @@ VERSION_CODES
 M
 &
 &
-Settings
-.
-getInstance
-(
 context
-)
+.
+settings
 .
 shouldUseBiometrics
 (

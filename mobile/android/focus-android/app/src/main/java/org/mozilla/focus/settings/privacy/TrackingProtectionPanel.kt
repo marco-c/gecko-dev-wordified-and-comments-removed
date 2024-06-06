@@ -219,9 +219,9 @@ mozilla
 .
 focus
 .
-utils
+ext
 .
-Settings
+settings
 SuppressWarnings
 (
 "
@@ -654,12 +654,9 @@ updateTrackersState
 val
 settings
 =
-Settings
-.
-getInstance
-(
 context
-)
+.
+settings
 with
 (
 binding

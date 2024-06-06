@@ -119,9 +119,9 @@ mozilla
 .
 focus
 .
-utils
+ext
 .
-Settings
+settings
 import
 org
 .
@@ -270,12 +270,9 @@ preferences
 )
 defaultSearchEngineName
 =
-Settings
-.
-getInstance
-(
 context
-)
+.
+settings
 .
 defaultSearchEngineName
 )

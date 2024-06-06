@@ -147,9 +147,9 @@ mozilla
 .
 focus
 .
-utils
+ext
 .
-Settings
+settings
 /
 *
 *
@@ -201,12 +201,9 @@ private
 val
 settings
 =
-Settings
-.
-getInstance
-(
 context
-)
+.
+settings
 private
 val
 preferences

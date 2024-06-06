@@ -171,9 +171,9 @@ mozilla
 .
 focus
 .
-utils
+ext
 .
-Settings
+settings
 /
 *
 *
@@ -258,12 +258,9 @@ Int
 {
 if
 (
-Settings
-.
-getInstance
-(
 context
-)
+.
+settings
 .
 isAccessibilityEnabled
 (

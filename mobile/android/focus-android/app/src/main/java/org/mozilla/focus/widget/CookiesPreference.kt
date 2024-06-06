@@ -113,9 +113,9 @@ mozilla
 .
 focus
 .
-utils
+ext
 .
-Settings
+settings
 /
 *
 *
@@ -202,12 +202,9 @@ updateSummary
 val
 settings
 =
-Settings
-.
-getInstance
-(
 context
-)
+.
+settings
 super
 .
 setSummary

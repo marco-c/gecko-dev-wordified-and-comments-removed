@@ -109,9 +109,9 @@ mozilla
 .
 focus
 .
-utils
+ext
 .
-Settings
+settings
 /
 *
 *
@@ -177,12 +177,9 @@ holder
 val
 settings
 =
-Settings
-.
-getInstance
-(
 context
-)
+.
+settings
 summaryView
 =
 holder
