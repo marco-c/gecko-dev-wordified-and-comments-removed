@@ -403,14 +403,6 @@ AdapterItem
 TabItem
 )
 )
-items
-.
-add
-(
-AdapterItem
-.
-DeleteTabs
-)
 }
 else
 {
