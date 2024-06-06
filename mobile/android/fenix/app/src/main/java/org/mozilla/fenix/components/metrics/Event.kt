@@ -832,12 +832,6 @@ Event
 (
 )
 object
-CopyUrlUsed
-:
-Event
-(
-)
-object
 SyncedTabOpened
 :
 Event
