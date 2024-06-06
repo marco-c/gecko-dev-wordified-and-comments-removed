@@ -186,7 +186,7 @@ R
 .
 string
 .
-onboarding_tracking_protection_description
+onboarding_tracking_protection_description1
 appName
 )
 view
