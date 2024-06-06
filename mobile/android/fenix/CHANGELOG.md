@@ -100,6 +100,14 @@ for
 other
 tabs
 clickable
+-
+Remove
+forced
+focus
+of
+toolbar
+on
+homescreen
 #
 #
 [
