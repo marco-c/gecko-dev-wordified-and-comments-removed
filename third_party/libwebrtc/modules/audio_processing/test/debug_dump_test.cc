@@ -940,8 +940,11 @@ c_str
 )
 -
 1
-&
 worker_queue_
+.
+Get
+(
+)
 )
 )
 ;
