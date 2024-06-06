@@ -898,6 +898,8 @@ selectedTabId
 selectedTabIndex
 =
 index
+return
+forEachIndexed
 }
 }
 }
