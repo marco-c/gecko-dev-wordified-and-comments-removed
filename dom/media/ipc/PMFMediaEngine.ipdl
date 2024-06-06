@@ -152,6 +152,9 @@ mozilla
 struct
 MediaEngineInfoIPDL
 {
+MediaInfoIPDL
+mediaInfo
+;
 bool
 preload
 ;
@@ -216,13 +219,6 @@ returns
 (
 uint64_t
 id
-)
-;
-async
-NotifyMediaInfo
-(
-MediaInfoIPDL
-info
 )
 ;
 async
