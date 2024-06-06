@@ -151,16 +151,6 @@ mozilla
 .
 components
 .
-concept
-.
-storage
-.
-CreditCard
-import
-mozilla
-.
-components
-.
 lib
 .
 state
