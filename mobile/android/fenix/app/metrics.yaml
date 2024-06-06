@@ -23018,10 +23018,6 @@ in
 the
 app
 .
-send_in_pings
-:
--
-metrics
 bugs
 :
 -
