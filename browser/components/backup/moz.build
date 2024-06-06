@@ -70,4 +70,13 @@ sys
 .
 mjs
 "
+"
+resources
+/
+PlacesBackupResource
+.
+sys
+.
+mjs
+"
 ]
