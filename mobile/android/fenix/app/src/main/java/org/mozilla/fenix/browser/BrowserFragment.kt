@@ -3118,6 +3118,18 @@ session
 securityInfo
 .
 secure
+isTrackingProtectionOn
+=
+Settings
+.
+getInstance
+(
+context
+!
+!
+)
+.
+shouldUseTrackingProtection
 sitePermissions
 =
 sitePermissions
@@ -3428,7 +3440,6 @@ val
 TOOLBAR_HEIGHT
 =
 56f
-private
 const
 val
 REPORT_SITE_ISSUE_URL
