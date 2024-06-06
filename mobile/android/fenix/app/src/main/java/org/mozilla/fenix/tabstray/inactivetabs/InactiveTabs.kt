@@ -966,6 +966,13 @@ string
 .
 inactive_tabs_title
 )
+headerTextStyle
+=
+FirefoxTheme
+.
+typography
+.
+headline7
 expanded
 =
 expanded

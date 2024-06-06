@@ -829,6 +829,13 @@ headerText
 collection
 .
 title
+headerTextStyle
+=
+FirefoxTheme
+.
+typography
+.
+headline7
 expanded
 =
 isExpanded
