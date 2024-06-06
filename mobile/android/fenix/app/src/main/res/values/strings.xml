@@ -30753,7 +30753,7 @@ string
 name
 =
 "
-credit_cards_warning_dialog_message_2
+credit_cards_warning_dialog_message_3
 "
 tools
 :
@@ -30776,7 +30776,8 @@ to
 protect
 your
 saved
-cards
+payment
+methods
 from
 being
 accessed
@@ -33551,9 +33552,6 @@ text
 field
 for
 a
-password
-'
-s
 website
 address
 .
@@ -33565,7 +33563,7 @@ string
 name
 =
 "
-saved_login_hostname_description_2
+saved_login_hostname_description_3
 "
 tools
 :
@@ -33583,9 +33581,6 @@ for
 the
 website
 address
-of
-the
-password
 .
 <
 /
@@ -33642,9 +33637,6 @@ text
 field
 for
 a
-password
-'
-s
 username
 .
 -
@@ -33655,7 +33647,7 @@ string
 name
 =
 "
-saved_login_username_description_2
+saved_login_username_description_3
 "
 tools
 :
@@ -33672,9 +33664,6 @@ field
 for
 the
 username
-of
-the
-password
 .
 <
 /

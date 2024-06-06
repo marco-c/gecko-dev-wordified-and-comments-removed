@@ -747,7 +747,7 @@ text
 displayed
 underneath
 the
-password
+login
 field
 when
 it
@@ -2003,7 +2003,7 @@ prompt
 that
 links
 to
-login
+password
 settings
 -
 -
@@ -2079,7 +2079,7 @@ options
 in
 the
 select
-login
+password
 prompt
 -
 -
@@ -2156,7 +2156,7 @@ options
 in
 the
 select
-login
+password
 prompt
 -
 -
@@ -2241,7 +2241,7 @@ form
 with
 a
 saved
-login
+password
 -
 -
 >
