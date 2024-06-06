@@ -692,7 +692,7 @@ showSearchSuggestions
 )
 {
 val
-draw
+searchDrawable
 =
 getDrawable
 (
@@ -702,7 +702,7 @@ drawable
 .
 ic_search
 )
-draw
+searchDrawable
 ?
 .
 setColorFilter
@@ -768,7 +768,7 @@ limit
 3
 icon
 =
-draw
+searchDrawable
 ?
 .
 toBitmap
