@@ -238,8 +238,6 @@ loadUrl
 context
 .
 resources
-.
-displayMetrics
 )
 }
 /
