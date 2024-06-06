@@ -380,17 +380,9 @@ true
 *
 *
 Enables
-experimental
 WebAuthn
 support
 .
-This
-implementation
-should
-never
-reach
-release
-!
 *
 /
 val

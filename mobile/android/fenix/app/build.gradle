@@ -4883,6 +4883,10 @@ mozilla_feature_accounts_push
 implementation
 Deps
 .
+mozilla_feature_webauthn
+implementation
+Deps
+.
 mozilla_feature_webcompat
 implementation
 Deps
