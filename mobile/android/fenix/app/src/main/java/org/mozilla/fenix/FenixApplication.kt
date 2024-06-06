@@ -4252,14 +4252,6 @@ settings
 .
 shouldShowSearchShortcuts
 )
-openLinksInPrivate
-.
-set
-(
-settings
-.
-openLinksInAPrivateTab
-)
 privateSearchSuggestions
 .
 set
