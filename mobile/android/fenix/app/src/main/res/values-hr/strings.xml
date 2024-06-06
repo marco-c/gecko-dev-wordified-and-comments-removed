@@ -13409,7 +13409,7 @@ preference_option_autoplay_allowed_wifi_only2
 "
 >
 Blokiraj
-audio
+zvuk
 i
 video
 samo
@@ -13447,16 +13447,18 @@ name
 preference_option_autoplay_allowed_wifi_subtext
 "
 >
-Audio
+Zvuk
 i
 video
+reproducirat
 e
 se
-reproducirati
 na
 Wi
 -
 Fi
+-
+ju
 <
 /
 string
@@ -13491,7 +13493,7 @@ preference_option_autoplay_block_audio2
 >
 Blokiraj
 samo
-audio
+zvuk
 <
 /
 string
@@ -13523,7 +13525,7 @@ preference_option_autoplay_blocked3
 "
 >
 Blokiraj
-audio
+zvuk
 i
 video
 <
