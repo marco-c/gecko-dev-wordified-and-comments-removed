@@ -219,6 +219,7 @@ requireContext
 preferenceManager
 .
 sharedPreferences
+?
 .
 registerOnSharedPreferenceChangeListener
 (

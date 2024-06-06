@@ -1129,8 +1129,10 @@ pref_key_show_search_suggestions_in_private
 )
 )
 preferenceManager
+?
 .
 sharedPreferences
+?
 .
 registerOnSharedPreferenceChangeListener
 (
