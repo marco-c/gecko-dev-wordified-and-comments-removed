@@ -1339,6 +1339,9 @@ first
 .
 also
 {
+val
+updatedUrl
+=
 toolbarView
 .
 view
@@ -1353,12 +1356,15 @@ it
 shouldHighlight
 =
 true
+shouldAppend
+=
+true
 )
 interactor
 .
 onTextChanged
 (
-it
+updatedUrl
 )
 toolbarView
 .
