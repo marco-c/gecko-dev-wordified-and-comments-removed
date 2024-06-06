@@ -381,18 +381,6 @@ true
 )
 private
 val
-onboardingController
-:
-OnboardingController
-=
-mockk
-(
-relaxed
-=
-true
-)
-private
-val
 searchSelectorController
 :
 SearchSelectorController
@@ -438,7 +426,6 @@ recentBookmarksController
 recentVisitsController
 pocketStoriesController
 privateBrowsingController
-onboardingController
 searchSelectorController
 toolbarController
 )
