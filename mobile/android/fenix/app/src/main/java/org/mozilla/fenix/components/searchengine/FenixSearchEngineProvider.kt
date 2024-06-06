@@ -115,12 +115,6 @@ coroutines
 .
 launch
 import
-kotlinx
-.
-coroutines
-.
-runBlocking
-import
 mozilla
 .
 components
@@ -276,6 +270,16 @@ fenix
 ext
 .
 settings
+import
+org
+.
+mozilla
+.
+fenix
+.
+perf
+.
+runBlockingIncrement
 import
 java
 .
@@ -1033,7 +1037,7 @@ Context
 :
 SearchEngineList
 =
-runBlocking
+runBlockingIncrement
 {
 val
 installedIdentifiers
@@ -1122,7 +1126,7 @@ allSearchEngineIdentifiers
 (
 )
 =
-runBlocking
+runBlockingIncrement
 {
 loadedSearchEngines
 .
@@ -1149,7 +1153,7 @@ Context
 :
 SearchEngineList
 =
-runBlocking
+runBlockingIncrement
 {
 val
 installedIdentifiers
@@ -1167,7 +1171,7 @@ await
 (
 )
 return
-runBlocking
+runBlockingIncrement
 engineList
 .
 copy
@@ -1225,7 +1229,7 @@ Boolean
 false
 )
 =
-runBlocking
+runBlockingIncrement
 {
 if
 (
@@ -1313,7 +1317,7 @@ Boolean
 false
 )
 =
-runBlocking
+runBlockingIncrement
 {
 if
 (

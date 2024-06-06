@@ -146,6 +146,10 @@ MozillaCorrectUnitTestRunner
 (
 config
 )
+MozillaRunBlockingCheck
+(
+config
+)
 )
 )
 }
