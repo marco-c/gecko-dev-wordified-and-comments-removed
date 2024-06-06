@@ -3466,6 +3466,12 @@ shouldShowRequestPermissionRationale
 it
 )
 }
+customTabId
+=
+customTabSessionId
+store
+=
+store
 )
 owner
 =
