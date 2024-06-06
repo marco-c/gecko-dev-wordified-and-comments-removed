@@ -337,8 +337,6 @@ DIRS
 [
 "
 client
--
-rust
 /
 app
 "

@@ -141,8 +141,6 @@ toolkit
 crashreporter
 /
 client
--
-rust
 /
 app
 "
