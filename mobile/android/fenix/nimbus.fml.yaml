@@ -1035,14 +1035,14 @@ existing
 users
 "
 :
-false
+true
 "
 sync
 -
 cfr
 "
 :
-false
+true
 "
 wallpapers
 -
@@ -1051,7 +1051,7 @@ selection
 tool
 "
 :
-false
+true
 "
 jump
 -
@@ -1062,7 +1062,7 @@ in
 cfr
 "
 :
-false
+true
 "
 tcp
 -
