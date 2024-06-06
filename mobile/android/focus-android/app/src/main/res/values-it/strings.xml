@@ -272,8 +272,7 @@ name
 menu_trackers_blocked_title
 "
 >
-Elementi
-traccianti
+Traccianti
 bloccati
 <
 /
@@ -799,8 +798,8 @@ name
 preference_category_autocomplete_custom
 "
 >
-Indirizzo
-personalizzato
+Indirizzi
+personalizzati
 <
 /
 string
