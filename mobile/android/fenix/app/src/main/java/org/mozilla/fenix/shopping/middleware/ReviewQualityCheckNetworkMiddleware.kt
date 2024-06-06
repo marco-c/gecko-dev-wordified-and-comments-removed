@@ -739,7 +739,6 @@ productAnalysis
 .
 toProductReviewState
 (
-false
 )
 store
 .

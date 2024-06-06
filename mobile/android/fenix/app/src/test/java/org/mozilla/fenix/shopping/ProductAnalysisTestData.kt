@@ -207,6 +207,11 @@ pageNotSupported
 Boolean
 =
 false
+notEnoughReviews
+:
+Boolean
+=
+false
 lastAnalysisTime
 :
 Long
@@ -252,6 +257,9 @@ needsAnalysis
 pageNotSupported
 =
 pageNotSupported
+notEnoughReviews
+=
+notEnoughReviews
 lastAnalysisTime
 =
 lastAnalysisTime
