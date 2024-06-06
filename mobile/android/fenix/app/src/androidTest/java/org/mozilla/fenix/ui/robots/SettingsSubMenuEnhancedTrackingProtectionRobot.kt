@@ -1350,13 +1350,11 @@ onView
 withText
 (
 "
-Cross
+Isolate
+cross
 -
 site
-and
-social
-media
-trackers
+cookies
 "
 )
 )

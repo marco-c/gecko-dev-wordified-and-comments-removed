@@ -102,6 +102,7 @@ mozilla
 fenix
 .
 R
+open
 class
 DropDownListPreference
 JvmOverloads

@@ -437,7 +437,7 @@ fenix
 .
 settings
 .
-DropDownListPreference
+CustomEtpCookiesOptionsDropDownListPreference
 android
 :
 defaultValue
