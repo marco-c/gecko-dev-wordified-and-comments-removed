@@ -22,6 +22,9 @@ configuration
 for
 all
 modules
+jvmTargetCompatibility
+:
+17
 compileSdkVersion
 :
 34

@@ -149,6 +149,10 @@ componentsGroupId
 public
 final
 Integer
+jvmTargetCompatibility
+public
+final
+Integer
 compileSdkVersion
 public
 final
@@ -164,6 +168,8 @@ String
 componentsVersion
 String
 componentsGroupId
+Integer
+jvmTargetCompatibility
 Integer
 compileSdkVersion
 Integer
@@ -182,6 +188,11 @@ this
 componentsGroupId
 =
 componentsGroupId
+this
+.
+jvmTargetCompatibility
+=
+jvmTargetCompatibility
 this
 .
 compileSdkVersion
@@ -925,6 +936,9 @@ version
 configData
 .
 componentsGroupId
+configData
+.
+jvmTargetCompatibility
 configData
 .
 compileSdkVersion
