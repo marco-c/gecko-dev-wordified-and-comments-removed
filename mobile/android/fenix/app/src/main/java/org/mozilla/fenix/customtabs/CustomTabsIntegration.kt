@@ -496,7 +496,7 @@ closeListener
 {
 activity
 .
-finish
+finishAndRemoveTask
 (
 )
 }

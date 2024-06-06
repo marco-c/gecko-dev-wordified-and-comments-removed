@@ -404,7 +404,7 @@ exactly
 {
 activity
 .
-finish
+finishAndRemoveTask
 (
 )
 }
@@ -427,7 +427,7 @@ verify
 {
 activity
 .
-finish
+finishAndRemoveTask
 (
 )
 }

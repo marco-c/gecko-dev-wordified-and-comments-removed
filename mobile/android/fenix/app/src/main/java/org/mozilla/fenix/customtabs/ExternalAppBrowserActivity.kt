@@ -351,7 +351,7 @@ customTabSessionId
 null
 )
 {
-finish
+finishAndRemoveTask
 (
 )
 return
