@@ -5253,7 +5253,7 @@ Folder
 .
 clickDelete
 {
-confirmFolderDeletion
+confirmDeletion
 (
 )
 verifyDeleteSnackBarText
