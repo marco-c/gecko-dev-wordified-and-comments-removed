@@ -1461,7 +1461,7 @@ androidx_core_ktx
 implementation
 Dependencies
 .
-androidx_lifecycle_extensions
+androidx_lifecycle_process
 implementation
 Dependencies
 .

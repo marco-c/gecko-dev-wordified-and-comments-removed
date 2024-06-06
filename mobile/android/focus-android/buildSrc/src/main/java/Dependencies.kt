@@ -737,7 +737,7 @@ recyclerview
 "
 const
 val
-androidx_lifecycle_extensions
+androidx_lifecycle_process
 =
 "
 androidx
@@ -746,7 +746,7 @@ lifecycle
 :
 lifecycle
 -
-extensions
+process
 :
 {
 Versions
