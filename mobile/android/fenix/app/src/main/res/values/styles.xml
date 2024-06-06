@@ -4259,7 +4259,7 @@ iconTint
 >
 color
 /
-destructive_button_text_color
+destructive_normal_theme
 <
 /
 item
@@ -4276,7 +4276,7 @@ textColor
 >
 color
 /
-destructive_button_text_color
+destructive_normal_theme
 <
 /
 item
