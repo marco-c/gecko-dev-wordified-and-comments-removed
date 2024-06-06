@@ -416,7 +416,7 @@ searchSuggestionsViewModel
 =
 ViewModelProvider
 (
-requireActivity
+requireParentFragment
 (
 )
 )

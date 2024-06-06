@@ -1072,9 +1072,7 @@ searchSuggestionsViewModel
 =
 ViewModelProvider
 (
-requireActivity
-(
-)
+this
 )
 .
 get
