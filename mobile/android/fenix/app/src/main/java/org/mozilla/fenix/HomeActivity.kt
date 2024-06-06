@@ -5170,6 +5170,17 @@ customTabSessionId
 )
 BrowserDirection
 .
+FromHistorySearchDialog
+-
+>
+SearchDialogFragmentDirections
+.
+actionGlobalBrowser
+(
+customTabSessionId
+)
+BrowserDirection
+.
 FromHistoryMetadataGroup
 -
 >
