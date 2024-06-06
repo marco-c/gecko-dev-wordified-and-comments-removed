@@ -304,7 +304,7 @@ R
 .
 drawable
 .
-tab_tray_background
+swipe_delete_background
 )
 !
 !
