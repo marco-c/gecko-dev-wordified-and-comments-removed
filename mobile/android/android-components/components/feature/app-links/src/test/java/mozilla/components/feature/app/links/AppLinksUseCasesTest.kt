@@ -473,7 +473,7 @@ https
 :
 /
 /
-exmaple
+example
 .
 com
 "
