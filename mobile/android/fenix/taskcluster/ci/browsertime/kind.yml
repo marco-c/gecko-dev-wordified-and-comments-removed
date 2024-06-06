@@ -87,6 +87,13 @@ job
 -
 defaults
 :
+attributes
+:
+artifact_prefix
+:
+public
+/
+test_info
 dependencies
 :
 geckoview
