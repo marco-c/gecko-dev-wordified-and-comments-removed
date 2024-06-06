@@ -861,7 +861,7 @@ fenix
 .
 addons
 .
-ExtensionProcessDisabledController
+ExtensionsProcessDisabledController
 import
 org
 .
@@ -1839,11 +1839,11 @@ openPopup
 }
 private
 val
-extensionProcessDisabledPopupObserver
+extensionsProcessDisabledPromptObserver
 by
 lazy
 {
-ExtensionProcessDisabledController
+ExtensionsProcessDisabledController
 (
 this
 HomeActivity
@@ -2715,7 +2715,7 @@ lifecycle
 addObservers
 (
 webExtensionPopupObserver
-extensionProcessDisabledPopupObserver
+extensionsProcessDisabledPromptObserver
 serviceWorkerSupport
 )
 if

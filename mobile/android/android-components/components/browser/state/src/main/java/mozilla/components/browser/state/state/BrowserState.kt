@@ -572,7 +572,13 @@ Locale
 =
 null
 val
-showExtensionProcessDisabledPopup
+showExtensionsProcessDisabledPrompt
+:
+Boolean
+=
+false
+val
+extensionsProcessDisabled
 :
 Boolean
 =

@@ -153,7 +153,7 @@ state
 .
 action
 .
-ExtensionProcessDisabledPopupAction
+ExtensionsProcessAction
 import
 mozilla
 .
@@ -2280,9 +2280,11 @@ store
 .
 dispatch
 (
-ExtensionProcessDisabledPopupAction
+ExtensionsProcessAction
+.
+ShowPromptAction
 (
-showPopup
+show
 =
 true
 )

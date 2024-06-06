@@ -737,6 +737,8 @@ adapter
 =
 AddonsManagerAdapter
 (
+addonsProvider
+=
 requireContext
 (
 )
@@ -744,7 +746,11 @@ requireContext
 components
 .
 addonsProvider
+addonsManagerDelegate
+=
 managementView
+addons
+=
 addons
 style
 =
@@ -755,6 +761,15 @@ requireContext
 )
 )
 excludedAddonIDs
+=
+excludedAddonIDs
+store
+=
+requireComponents
+.
+core
+.
+store
 )
 }
 binding

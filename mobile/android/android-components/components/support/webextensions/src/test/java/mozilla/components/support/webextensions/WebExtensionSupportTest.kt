@@ -6711,7 +6711,7 @@ store
 .
 state
 .
-showExtensionProcessDisabledPopup
+showExtensionsProcessDisabledPrompt
 )
 val
 delegateCaptor
@@ -6760,7 +6760,7 @@ store
 .
 state
 .
-showExtensionProcessDisabledPopup
+showExtensionsProcessDisabledPrompt
 )
 }
 Test

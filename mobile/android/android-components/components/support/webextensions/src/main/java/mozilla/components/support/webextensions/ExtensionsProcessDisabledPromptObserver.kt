@@ -129,7 +129,7 @@ implementation
 that
 shows
 a
-popup
+prompt
 when
 the
 extensions
@@ -161,7 +161,7 @@ BrowserStore
 .
 *
 property
-onShowExtensionProcessDisabledPopup
+onShowExtensionsProcessDisabledPrompt
 a
 callback
 invoked
@@ -172,13 +172,13 @@ should
 open
 a
 *
-popup
+prompt
 .
 *
 /
 open
 class
-ExtensionProcessDisabledPopupObserver
+ExtensionsProcessDisabledPromptObserver
 (
 private
 val
@@ -187,7 +187,7 @@ store
 BrowserStore
 private
 val
-onShowExtensionProcessDisabledPopup
+onShowExtensionsProcessDisabledPrompt
 :
 (
 )
@@ -203,7 +203,7 @@ LifecycleAwareFeature
 {
 private
 var
-popupScope
+promptScope
 :
 CoroutineScope
 ?
@@ -215,7 +215,7 @@ start
 (
 )
 {
-popupScope
+promptScope
 =
 store
 .
@@ -230,7 +230,7 @@ distinctUntilChangedBy
 {
 it
 .
-showExtensionProcessDisabledPopup
+showExtensionsProcessDisabledPrompt
 }
 .
 collect
@@ -242,7 +242,7 @@ if
 (
 state
 .
-showExtensionProcessDisabledPopup
+showExtensionsProcessDisabledPrompt
 )
 {
 /
@@ -267,7 +267,7 @@ spawning
 is
 disabled
 .
-onShowExtensionProcessDisabledPopup
+onShowExtensionsProcessDisabledPrompt
 (
 )
 }
@@ -280,13 +280,13 @@ stop
 (
 )
 {
-popupScope
+promptScope
 ?
 .
 cancel
 (
 )
-popupScope
+promptScope
 =
 null
 }

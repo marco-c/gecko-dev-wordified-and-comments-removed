@@ -629,6 +629,13 @@ addons
 style
 =
 style
+store
+=
+context
+.
+components
+.
+store
 )
 recyclerView
 .
