@@ -3038,15 +3038,6 @@ track
 Event
 .
 WhatsNewTapped
-(
-Event
-.
-WhatsNewTapped
-.
-Source
-.
-HOME
-)
 )
 (
 activity

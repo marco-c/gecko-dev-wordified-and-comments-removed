@@ -932,15 +932,6 @@ track
 Event
 .
 WhatsNewTapped
-(
-Event
-.
-WhatsNewTapped
-.
-Source
-.
-ABOUT
-)
 )
 }
 openLinkInCustomTab
