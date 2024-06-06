@@ -303,6 +303,10 @@ tools_kotlingradle
 classpath
 Deps
 .
+tools_benchmarkgradle
+classpath
+Deps
+.
 androidx_safeargs
 classpath
 Deps
