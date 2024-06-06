@@ -1349,15 +1349,6 @@ onPreferenceClickListener
 getClickListenerForMakeDefaultBrowser
 (
 )
-preferenceLeakCanary
-?
-.
-isVisible
-=
-!
-BuildConfig
-.
-IS_RELEASED
 if
 (
 !
