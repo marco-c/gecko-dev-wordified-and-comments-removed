@@ -138,6 +138,12 @@ mozilla
 geckoview
 .
 BuildConfig
+import
+java
+.
+util
+.
+Locale
 object
 LocalizedContent
 {
@@ -321,6 +327,9 @@ String
 .
 format
 (
+Locale
+.
+US
 "
 %
 s
