@@ -260,8 +260,9 @@ android
 textColor
 =
 "
-#
-FFFFFF
+color
+/
+primaryText
 "
 /
 >

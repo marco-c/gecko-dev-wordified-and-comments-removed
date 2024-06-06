@@ -74,6 +74,15 @@ status_bar_background
 "
 android
 :
+background
+=
+"
+drawable
+/
+background_gradient_dark
+"
+android
+:
 layout_width
 =
 "
@@ -125,9 +134,9 @@ android
 background
 =
 "
-color
+drawable
 /
-settings_background
+background_gradient_dark
 "
 /
 >

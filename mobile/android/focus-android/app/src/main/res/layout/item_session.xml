@@ -139,7 +139,7 @@ background
 "
 drawable
 /
-background_list_item_current_session
+background_gradient_dark
 "
 android
 :
@@ -190,11 +190,9 @@ android
 textColor
 =
 "
-android
-:
 color
 /
-white
+primaryText
 "
 android
 :

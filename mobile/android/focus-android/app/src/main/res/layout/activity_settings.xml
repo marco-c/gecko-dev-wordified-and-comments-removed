@@ -99,9 +99,9 @@ android
 background
 =
 "
-color
+drawable
 /
-photonInk90
+background_gradient_dark
 "
 android
 :
@@ -152,7 +152,7 @@ background
 "
 color
 /
-photonInk80
+menuBackground
 "
 /
 >

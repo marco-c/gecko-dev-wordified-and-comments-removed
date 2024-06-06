@@ -242,7 +242,7 @@ background
 "
 drawable
 /
-animated_background
+background_gradient_dark
 "
 /
 >
@@ -419,7 +419,7 @@ background
 "
 color
 /
-photonRed50
+destructive
 "
 android
 :
@@ -860,11 +860,9 @@ android
 background
 =
 "
-android
-:
 color
 /
-black
+colorPrimary
 "
 android
 :
@@ -921,11 +919,9 @@ android
 background
 =
 "
-android
-:
 color
 /
-black
+colorPrimary
 "
 android
 :

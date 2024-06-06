@@ -174,8 +174,9 @@ android
 textColor
 =
 "
-#
-ff868686
+color
+/
+disabled
 "
 android
 :

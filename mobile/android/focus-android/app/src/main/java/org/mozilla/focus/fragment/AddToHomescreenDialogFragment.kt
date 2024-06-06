@@ -347,6 +347,11 @@ id
 .
 edit_title
 )
+editableTitle
+.
+requestFocus
+(
+)
 if
 (
 !

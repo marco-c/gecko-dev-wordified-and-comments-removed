@@ -148,8 +148,9 @@ android
 strokeColor
 =
 "
-#
-ffffff
+color
+/
+primaryText
 "
 android
 :
@@ -647,8 +648,9 @@ android
 fillColor
 =
 "
-#
-ffffff
+color
+/
+primaryText
 "
 /
 >

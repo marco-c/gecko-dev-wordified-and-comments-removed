@@ -236,8 +236,9 @@ cardview
 cardBackgroundColor
 =
 "
-#
-FFF9F9FA
+color
+/
+primaryText
 "
 >
 <

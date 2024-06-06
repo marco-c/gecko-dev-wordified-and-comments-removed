@@ -307,8 +307,9 @@ android
 textColor
 =
 "
-#
-ffffff
+color
+/
+primaryText
 "
 app
 :

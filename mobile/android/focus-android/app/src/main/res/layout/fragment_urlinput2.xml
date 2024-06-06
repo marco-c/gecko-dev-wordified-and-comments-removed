@@ -405,8 +405,9 @@ android
 textColor
 =
 "
-#
-eeeeee
+color
+/
+primaryText
 "
 android
 :
@@ -526,7 +527,7 @@ background
 "
 drawable
 /
-animated_background_url
+background_gradient_dark
 "
 /
 >
@@ -579,7 +580,7 @@ background
 "
 color
 /
-photonGrey90
+divider
 "
 /
 >
@@ -897,10 +898,7 @@ visibility
 "
 gone
 "
->
-<
 /
-FrameLayout
 >
 <
 /

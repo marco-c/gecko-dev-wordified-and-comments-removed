@@ -497,7 +497,7 @@ R
 .
 color
 .
-colorErase
+accentBright
 )
 )
 .

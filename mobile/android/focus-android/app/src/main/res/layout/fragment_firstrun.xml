@@ -153,7 +153,7 @@ background
 "
 drawable
 /
-animated_background
+background_gradient_dark
 "
 android
 :

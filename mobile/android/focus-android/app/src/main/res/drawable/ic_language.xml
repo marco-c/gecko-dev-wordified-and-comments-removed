@@ -1086,8 +1086,9 @@ android
 fillColor
 =
 "
-#
-f9f9fa
+color
+/
+primaryText
 "
 /
 >
