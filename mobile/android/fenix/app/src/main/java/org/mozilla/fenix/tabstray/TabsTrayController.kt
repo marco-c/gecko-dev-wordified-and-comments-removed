@@ -3478,9 +3478,15 @@ handleTabUnselected
 (
 tab
 )
-else
+source
+!
+=
+TrayPagerAdapter
+.
+INACTIVE_TABS_FEATURE_NAME
 -
 >
+{
 tabsTrayStore
 .
 dispatch
@@ -3492,6 +3498,7 @@ AddSelectTab
 tab
 )
 )
+}
 }
 }
 override
