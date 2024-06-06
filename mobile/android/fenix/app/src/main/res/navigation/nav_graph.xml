@@ -2271,7 +2271,9 @@ android
 label
 =
 "
-DataChoicesFragment
+string
+/
+preferences_data_choices
 "
 /
 >
@@ -2412,7 +2414,9 @@ android
 label
 =
 "
-AccessibilityFragment
+string
+/
+preferences_accessibility
 "
 /
 >
@@ -2448,7 +2452,9 @@ android
 label
 =
 "
-AccountSettingsFragment
+string
+/
+preferences_account_settings
 "
 /
 >
@@ -2484,7 +2490,9 @@ android
 label
 =
 "
-SearchEngineFragment
+string
+/
+preferences_search_engine
 "
 /
 >
@@ -2703,7 +2711,9 @@ android
 label
 =
 "
-PairFragment
+string
+/
+preferences_sync
 "
 >
 <
@@ -2902,7 +2912,9 @@ android
 label
 =
 "
-ThemeFragment
+string
+/
+preferences_theme
 "
 /
 >
@@ -3000,7 +3012,9 @@ android
 label
 =
 "
-DeleteBrowsingDataFragment
+string
+/
+preferences_delete_browsing_data
 "
 >
 <
@@ -3039,7 +3053,9 @@ android
 label
 =
 "
-ExceptionsFragment
+string
+/
+preference_exceptions
 "
 /
 >
