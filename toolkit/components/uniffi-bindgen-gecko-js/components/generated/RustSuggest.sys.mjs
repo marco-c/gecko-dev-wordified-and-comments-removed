@@ -4491,7 +4491,7 @@ SuggestGlobalConfig
 {
 throw
 new
-TypeError
+UniFFITypeError
 (
 Expected
 '
@@ -4734,7 +4734,7 @@ SuggestIngestionConstraints
 {
 throw
 new
-TypeError
+UniFFITypeError
 (
 Expected
 '
@@ -5141,7 +5141,7 @@ SuggestionQuery
 {
 throw
 new
-TypeError
+UniFFITypeError
 (
 Expected
 '

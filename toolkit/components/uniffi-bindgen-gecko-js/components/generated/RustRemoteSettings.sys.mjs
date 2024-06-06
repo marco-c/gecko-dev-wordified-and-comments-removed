@@ -3063,7 +3063,7 @@ Attachment
 {
 throw
 new
-TypeError
+UniFFITypeError
 (
 Expected
 '
@@ -3628,7 +3628,7 @@ RemoteSettingsConfig
 {
 throw
 new
-TypeError
+UniFFITypeError
 (
 Expected
 '
@@ -4275,7 +4275,7 @@ RemoteSettingsRecord
 {
 throw
 new
-TypeError
+UniFFITypeError
 (
 Expected
 '
@@ -4754,7 +4754,7 @@ RemoteSettingsResponse
 {
 throw
 new
-TypeError
+UniFFITypeError
 (
 Expected
 '

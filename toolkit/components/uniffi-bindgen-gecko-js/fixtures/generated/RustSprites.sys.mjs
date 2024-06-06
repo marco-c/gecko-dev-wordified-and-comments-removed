@@ -2809,7 +2809,7 @@ Point
 {
 throw
 new
-TypeError
+UniFFITypeError
 (
 Expected
 '
@@ -3171,7 +3171,7 @@ Vector
 {
 throw
 new
-TypeError
+UniFFITypeError
 (
 Expected
 '

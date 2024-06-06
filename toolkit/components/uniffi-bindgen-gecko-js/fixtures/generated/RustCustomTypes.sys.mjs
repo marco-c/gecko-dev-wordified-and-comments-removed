@@ -1765,7 +1765,7 @@ CustomTypesDemo
 {
 throw
 new
-TypeError
+UniFFITypeError
 (
 Expected
 '

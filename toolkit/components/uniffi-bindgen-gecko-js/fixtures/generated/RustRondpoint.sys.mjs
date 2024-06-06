@@ -11494,7 +11494,7 @@ Dictionnaire
 {
 throw
 new
-TypeError
+UniFFITypeError
 (
 Expected
 '
@@ -12098,7 +12098,7 @@ DictionnaireNombres
 {
 throw
 new
-TypeError
+UniFFITypeError
 (
 Expected
 '
@@ -12702,7 +12702,7 @@ DictionnaireNombresSignes
 {
 throw
 new
-TypeError
+UniFFITypeError
 (
 Expected
 '
@@ -14251,7 +14251,7 @@ OptionneurDictionnaire
 {
 throw
 new
-TypeError
+UniFFITypeError
 (
 Expected
 '
@@ -15038,7 +15038,7 @@ MinusculeMajusculeDict
 {
 throw
 new
-TypeError
+UniFFITypeError
 (
 Expected
 '

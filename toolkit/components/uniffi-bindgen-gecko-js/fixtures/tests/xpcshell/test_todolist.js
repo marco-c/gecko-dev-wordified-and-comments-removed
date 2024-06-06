@@ -50,6 +50,9 @@ entry
 new
 TodoEntry
 (
+{
+text
+:
 "
 Write
 bindings
@@ -58,6 +61,7 @@ strings
 in
 records
 "
+}
 )
 ;
 await
@@ -258,6 +262,9 @@ entry2
 new
 TodoEntry
 (
+{
+text
+:
 "
 Test
 nicode
@@ -279,6 +286,7 @@ this
 at
 first
 "
+}
 )
 ;
 await

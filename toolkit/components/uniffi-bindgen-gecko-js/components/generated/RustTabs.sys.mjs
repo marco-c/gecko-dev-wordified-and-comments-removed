@@ -4918,7 +4918,7 @@ ClientRemoteTabs
 {
 throw
 new
-TypeError
+UniFFITypeError
 (
 Expected
 '
@@ -5645,7 +5645,7 @@ RemoteTabRecord
 {
 throw
 new
-TypeError
+UniFFITypeError
 (
 Expected
 '

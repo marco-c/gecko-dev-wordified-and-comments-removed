@@ -1729,7 +1729,7 @@ Line
 {
 throw
 new
-TypeError
+UniFFITypeError
 (
 Expected
 '
@@ -2091,7 +2091,7 @@ Point
 {
 throw
 new
-TypeError
+UniFFITypeError
 (
 Expected
 '

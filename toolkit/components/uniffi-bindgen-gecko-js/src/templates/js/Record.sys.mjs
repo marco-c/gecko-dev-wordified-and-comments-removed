@@ -484,7 +484,7 @@ nm
 {
 throw
 new
-TypeError
+UniFFITypeError
 (
 Expected
 '

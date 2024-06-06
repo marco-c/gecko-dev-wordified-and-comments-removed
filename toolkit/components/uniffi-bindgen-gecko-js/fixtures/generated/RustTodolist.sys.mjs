@@ -3281,7 +3281,7 @@ TodoEntry
 {
 throw
 new
-TypeError
+UniFFITypeError
 (
 Expected
 '
