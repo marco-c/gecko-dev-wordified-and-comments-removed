@@ -542,6 +542,16 @@ CN
 (
 )
 "
+languageCodeAndNameMap
+[
+"
+nv
+"
+]
+=
+"
+Navajo
+"
 }
 private
 fun
