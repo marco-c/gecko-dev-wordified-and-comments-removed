@@ -511,8 +511,11 @@ verifyHomeMenuButton
 verifyTabButton
 (
 )
-verifyNoTabsOpened
+verifyTabCounter
 (
+"
+0
+"
 )
 }
 }
