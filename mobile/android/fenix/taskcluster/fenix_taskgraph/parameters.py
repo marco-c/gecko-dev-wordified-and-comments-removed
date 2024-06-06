@@ -58,7 +58,7 @@ d
 +
 '
 )
-PRODUCTION_SEMVER
+RELEASE_SEMVER
 =
 re
 .
@@ -360,7 +360,7 @@ beta
 "
     
 elif
-PRODUCTION_SEMVER
+RELEASE_SEMVER
 .
 match
 (
@@ -370,7 +370,7 @@ head_tag
         
 return
 "
-production
+release
 "
     
 else
@@ -428,7 +428,7 @@ rc
 0
 "
 (
-production
+release
 )
 or
 "
@@ -439,7 +439,7 @@ v1
 0
 "
 (
-production
+release
 )
 '
 )
