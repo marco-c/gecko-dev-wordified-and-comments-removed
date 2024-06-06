@@ -371,11 +371,6 @@ AutofillFragmentStore
 (
 AutofillFragmentState
 (
-creditCards
-=
-emptyList
-(
-)
 )
 )
 }

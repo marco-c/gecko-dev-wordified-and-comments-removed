@@ -319,11 +319,6 @@ update
 (
 AutofillFragmentState
 (
-creditCards
-=
-emptyList
-(
-)
 )
 )
 assertTrue
