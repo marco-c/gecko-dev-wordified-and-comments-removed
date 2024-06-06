@@ -289,6 +289,9 @@ exitMenu
 )
 browserScreen
 {
+waitForPageToLoad
+(
+)
 }
 .
 openThreeDotMenu
@@ -489,6 +492,9 @@ exitMenu
 }
 browserScreen
 {
+waitForPageToLoad
+(
+)
 }
 .
 openThreeDotMenu
