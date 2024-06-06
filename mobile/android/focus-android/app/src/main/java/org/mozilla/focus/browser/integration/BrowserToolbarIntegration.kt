@@ -1435,7 +1435,7 @@ R
 .
 string
 .
-cfr_for_toolbar_shield_icon
+cfr_for_toolbar_shield_icon2
 )
 anchor
 =
