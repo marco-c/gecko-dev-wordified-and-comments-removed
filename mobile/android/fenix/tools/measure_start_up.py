@@ -406,20 +406,21 @@ view
 .
 format
 (
-    
+            
 cold_main_ff
 =
 TEST_COLD_MAIN_FF
 cold_main_restore
 =
 TEST_COLD_MAIN_RESTORE
-    
+            
 cold_view_ff
 =
 TEST_COLD_VIEW_FF
 cold_view_nav_start
 =
 TEST_COLD_VIEW_NAV_START
+        
 )
 )
     
@@ -511,6 +512,7 @@ action
 "
 store_true
 "
+                        
 help
 =
 "
@@ -1006,27 +1008,6 @@ proc
 stdout
 )
     
-else
-:
-raise
-NotImplementedError
-(
-'
-method
-unexpectedly
-undefined
-for
-test_name
-{
-}
-'
-.
-format
-(
-test_name
-)
-)
-    
 return
 measurement
 def
@@ -1215,6 +1196,7 @@ re
 .
 compile
 (
+r
 '
 ActivityManager
 :
