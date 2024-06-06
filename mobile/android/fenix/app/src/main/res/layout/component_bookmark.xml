@@ -269,6 +269,13 @@ layout_constraintTop_toTopOf
 "
 parent
 "
+android
+:
+scrollbars
+=
+"
+vertical
+"
 tools
 :
 listitem
