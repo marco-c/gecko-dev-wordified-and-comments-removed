@@ -5441,6 +5441,10 @@ leakcanary
 implementation
 Deps
 .
+androidx_annotation
+implementation
+Deps
+.
 androidx_compose_ui
 implementation
 Deps

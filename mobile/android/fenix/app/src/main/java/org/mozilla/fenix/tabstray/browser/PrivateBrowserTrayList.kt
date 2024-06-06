@@ -91,6 +91,8 @@ annotation
 .
 VisibleForTesting
 .
+Companion
+.
 PACKAGE_PRIVATE
 import
 org

@@ -79,6 +79,8 @@ annotation
 .
 VisibleForTesting
 .
+Companion
+.
 PRIVATE
 import
 io

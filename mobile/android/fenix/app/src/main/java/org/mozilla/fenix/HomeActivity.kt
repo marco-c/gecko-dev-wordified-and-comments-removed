@@ -207,6 +207,8 @@ annotation
 .
 VisibleForTesting
 .
+Companion
+.
 PROTECTED
 import
 androidx
