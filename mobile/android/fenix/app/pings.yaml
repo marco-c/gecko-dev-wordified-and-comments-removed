@@ -53,6 +53,9 @@ MPL
 0
 /
 .
+-
+-
+-
 schema
 :
 moz
@@ -78,7 +81,7 @@ activation
 :
 description
 :
->
+|
 This
 ping
 is
@@ -174,7 +177,7 @@ installation
 :
 description
 :
->
+|
 This
 ping
 is
