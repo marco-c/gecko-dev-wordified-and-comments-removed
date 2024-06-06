@@ -95,14 +95,6 @@ mozilla
 .
 fenix
 .
-FeatureFlags
-import
-org
-.
-mozilla
-.
-fenix
-.
 tabstray
 .
 syncedtabs
@@ -137,6 +129,9 @@ SyncedDeviceTabs
 .
 toComposeList
 (
+taskContinuityEnabled
+:
+Boolean
 )
 :
 List
@@ -158,9 +153,7 @@ tabs
 >
 if
 (
-FeatureFlags
-.
-taskContinuityFeature
+taskContinuityEnabled
 )
 {
 val
