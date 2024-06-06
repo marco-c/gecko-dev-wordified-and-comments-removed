@@ -865,7 +865,11 @@ BUILDER
 .
 craft_assemble_release_task
 (
+        
 variant
+'
+nightlyLegacy
+'
 is_staging
 version_name
 )
