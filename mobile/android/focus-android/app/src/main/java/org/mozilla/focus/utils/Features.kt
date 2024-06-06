@@ -114,11 +114,6 @@ SEARCH_TERMS_OR_URL
 :
 Boolean
 =
-!
-AppConstants
-.
-isGeckoBuild
-(
-)
+true
 }
 }
