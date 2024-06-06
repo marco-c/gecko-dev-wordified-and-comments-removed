@@ -131,9 +131,6 @@ store
 SearchStore
 (
 initialState
-:
-:
-searchStateReducer
 )
 val
 query
@@ -194,9 +191,6 @@ store
 SearchStore
 (
 initialState
-:
-:
-searchStateReducer
 )
 val
 searchEngine
@@ -263,9 +257,6 @@ store
 SearchStore
 (
 initialState
-:
-:
-searchStateReducer
 )
 store
 .
