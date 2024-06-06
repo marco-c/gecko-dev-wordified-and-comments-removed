@@ -618,7 +618,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 process
@@ -723,7 +722,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 process
@@ -827,7 +825,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 process

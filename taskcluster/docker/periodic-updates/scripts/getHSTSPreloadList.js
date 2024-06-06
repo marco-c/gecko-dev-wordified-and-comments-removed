@@ -1072,10 +1072,6 @@ prototype
 {
 asyncOnChannelRedirect
 (
-oldChannel
-newChannel
-flags
-callback
 )
 {
 throw
@@ -1093,9 +1089,6 @@ NS_ERROR_ENTITY_CHANGED
 }
 promptAuth
 (
-channel
-level
-authInfo
 )
 {
 return
@@ -1104,11 +1097,6 @@ false
 }
 asyncPromptAuth
 (
-channel
-callback
-context
-level
-authInfo
 )
 {
 throw
@@ -1165,10 +1153,7 @@ return
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {

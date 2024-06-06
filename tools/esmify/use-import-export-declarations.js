@@ -585,7 +585,6 @@ convertToExport
 (
 jscodeshift
 path
-name
 )
 {
 const

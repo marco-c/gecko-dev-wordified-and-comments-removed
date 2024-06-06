@@ -28,7 +28,6 @@ observeTC1
 (
 subject
 topic
-data
 )
 {
 if
@@ -118,7 +117,6 @@ observeTC2
 (
 subject
 topic
-data
 )
 {
 if

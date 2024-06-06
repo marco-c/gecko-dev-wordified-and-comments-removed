@@ -245,7 +245,6 @@ each
 (
 function
 (
-index
 )
 {
 (
