@@ -1116,14 +1116,6 @@ title
 )
 }
 }
-tabsTrayStore
-.
-dispatch
-(
-TabsTrayAction
-.
-ExitSelectMode
-)
 /
 /
 TODO
