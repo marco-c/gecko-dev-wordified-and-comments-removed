@@ -957,7 +957,7 @@ R
 .
 string
 .
-pref_key_has_opened_new_tab
+has_opened_new_tab
 )
 true
 )

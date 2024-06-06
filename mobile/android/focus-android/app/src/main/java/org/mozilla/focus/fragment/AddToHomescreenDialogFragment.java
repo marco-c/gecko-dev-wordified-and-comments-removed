@@ -782,7 +782,7 @@ R
 .
 string
 .
-pref_key_has_added_to_home_screen
+has_added_to_home_screen
 )
 true
 )
