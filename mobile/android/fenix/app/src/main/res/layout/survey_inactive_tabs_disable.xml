@@ -805,9 +805,11 @@ android
 background
 =
 "
+android
+:
 color
 /
-toolbar_menu_transparent
+transparent
 "
 android
 :
