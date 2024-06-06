@@ -5706,6 +5706,12 @@ showFindInPage
 (
 )
 ;
+TelemetryWrapper
+.
+findInPageMenuEvent
+(
+)
+;
 break
 ;
 case
