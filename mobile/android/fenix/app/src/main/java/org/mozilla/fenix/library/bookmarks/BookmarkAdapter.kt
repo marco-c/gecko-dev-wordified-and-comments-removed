@@ -2141,7 +2141,7 @@ const
 val
 bookmarkOverflowExtraDips
 =
-8
+16
 }
 enum
 class
