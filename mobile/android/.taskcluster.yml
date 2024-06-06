@@ -1197,7 +1197,7 @@ tags
 "
 &
 &
-head_ref
+short_head_ref
 !
 =
 "
@@ -1207,7 +1207,7 @@ tmp
 "
 &
 &
-head_ref
+short_head_ref
 !
 =
 "
@@ -1215,11 +1215,9 @@ trying
 .
 tmp
 "
-)
 &
 &
-(
-head_ref
+short_head_ref
 [
 :
 8
