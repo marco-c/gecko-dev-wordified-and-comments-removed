@@ -139,6 +139,15 @@ search_engine_radio_button_height
 "
 android
 :
+minHeight
+=
+"
+dimen
+/
+radio_button_preference_height
+"
+android
+:
 layout_width
 =
 "
