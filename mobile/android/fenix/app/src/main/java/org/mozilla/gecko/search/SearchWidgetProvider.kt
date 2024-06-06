@@ -151,9 +151,11 @@ androidx
 .
 appcompat
 .
-widget
+content
 .
-AppCompatDrawableManager
+res
+.
+AppCompatResources
 import
 androidx
 .
@@ -1191,7 +1193,7 @@ R
 .
 drawable
 .
-ic_logo_widget
+ic_launcher_foreground
 )
 }
 else
@@ -1203,11 +1205,7 @@ R
 id
 .
 button_search_widget_new_tab_icon
-AppCompatDrawableManager
-.
-get
-(
-)
+AppCompatResources
 .
 getDrawable
 (
@@ -1216,7 +1214,7 @@ R
 .
 drawable
 .
-ic_logo_widget
+ic_launcher_foreground
 )
 ?
 .
