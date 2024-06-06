@@ -1474,7 +1474,7 @@ R
 .
 string
 .
-pref_key_manual_add_search_engine
+error_hostLookup_title
 )
 )
 }
