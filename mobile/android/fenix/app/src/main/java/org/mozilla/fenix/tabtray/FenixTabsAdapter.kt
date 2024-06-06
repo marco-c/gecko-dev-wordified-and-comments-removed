@@ -97,6 +97,18 @@ tabstray
 .
 Tabs
 import
+mozilla
+.
+components
+.
+support
+.
+images
+.
+loader
+.
+ImageLoader
+import
 org
 .
 mozilla
@@ -110,6 +122,9 @@ FenixTabsAdapter
 context
 :
 Context
+imageLoader
+:
+ImageLoader
 )
 :
 TabsAdapter
@@ -140,6 +155,7 @@ tab_tray_item
 parentView
 false
 )
+imageLoader
 )
 }
 )

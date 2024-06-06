@@ -4803,6 +4803,10 @@ mozilla_support_base
 implementation
 Deps
 .
+mozilla_support_images
+implementation
+Deps
+.
 mozilla_support_ktx
 implementation
 Deps
