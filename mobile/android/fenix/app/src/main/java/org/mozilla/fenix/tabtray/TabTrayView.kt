@@ -1640,6 +1640,17 @@ settings
 canShowCfr
 &
 &
+view
+.
+context
+.
+settings
+(
+)
+.
+listTabView
+&
+&
 tabs
 .
 size
