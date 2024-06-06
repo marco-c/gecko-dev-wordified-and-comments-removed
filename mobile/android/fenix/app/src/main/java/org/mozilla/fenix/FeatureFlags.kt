@@ -188,14 +188,11 @@ issues
 9059
 *
 /
+const
 val
 webPushIntegration
 =
-Config
-.
-channel
-.
-isNightlyOrDebug
+true
 /
 *
 *
