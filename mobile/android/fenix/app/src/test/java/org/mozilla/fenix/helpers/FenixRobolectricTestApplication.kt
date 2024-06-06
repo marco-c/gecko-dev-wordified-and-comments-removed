@@ -202,6 +202,13 @@ setupInMainProcessOnly
 )
 =
 Unit
+override
+fun
+downloadWallpapers
+(
+)
+=
+Unit
 private
 fun
 setApplicationTheme

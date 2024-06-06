@@ -5243,7 +5243,7 @@ DelicateCoroutinesApi
 :
 class
 )
-private
+open
 fun
 downloadWallpapers
 (
