@@ -63,7 +63,7 @@ mozilla
 .
 fenix
 .
-tabtray
+collections
 import
 android
 .

@@ -497,6 +497,16 @@ mozilla
 .
 fenix
 .
+collections
+.
+CollectionsListAdapter
+import
+org
+.
+mozilla
+.
+fenix
+.
 components
 .
 FenixSnackbar
