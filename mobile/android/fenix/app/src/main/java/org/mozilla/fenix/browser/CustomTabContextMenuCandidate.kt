@@ -187,6 +187,13 @@ contextMenuUseCases
 )
 ContextMenuCandidate
 .
+createSaveVideoAudioCandidate
+(
+context
+contextMenuUseCases
+)
+ContextMenuCandidate
+.
 createCopyImageLocationCandidate
 (
 context
