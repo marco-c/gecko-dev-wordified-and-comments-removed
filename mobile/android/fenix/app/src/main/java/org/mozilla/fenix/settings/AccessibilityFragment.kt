@@ -350,6 +350,11 @@ toFloat
 )
 /
 PERCENT_TO_DECIMAL
+settings
+.
+fontSizeFactor
+=
+newTextScale
 /
 /
 If
@@ -412,11 +417,6 @@ if
 useAutoSize
 )
 {
-settings
-.
-fontSizeFactor
-=
-newTextScale
 components
 .
 core
