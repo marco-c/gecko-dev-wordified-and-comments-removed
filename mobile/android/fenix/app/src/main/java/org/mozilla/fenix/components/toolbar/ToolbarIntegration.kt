@@ -73,12 +73,6 @@ content
 .
 Context
 import
-android
-.
-view
-.
-ViewGroup
-import
 androidx
 .
 navigation
@@ -263,9 +257,6 @@ Context
 toolbar
 :
 BrowserToolbar
-browserLayout
-:
-ViewGroup
 toolbarMenu
 :
 ToolbarMenu

@@ -145,6 +145,18 @@ kotlinx
 .
 coroutines
 .
+ExperimentalCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
+ObsoleteCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
 coroutineScope
 import
 kotlinx
@@ -352,6 +364,8 @@ exceptionsInteractor
 return
 view
 }
+ObsoleteCoroutinesApi
+ExperimentalCoroutinesApi
 override
 fun
 onViewCreated

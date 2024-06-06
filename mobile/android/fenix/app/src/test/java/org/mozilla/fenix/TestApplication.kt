@@ -63,6 +63,12 @@ mozilla
 .
 fenix
 import
+kotlinx
+.
+coroutines
+.
+ObsoleteCoroutinesApi
+import
 org
 .
 mozilla
@@ -82,6 +88,7 @@ fenix
 components
 .
 TestComponents
+ObsoleteCoroutinesApi
 class
 TestApplication
 :

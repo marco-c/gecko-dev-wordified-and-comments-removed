@@ -193,6 +193,18 @@ kotlinx
 .
 coroutines
 .
+ExperimentalCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
+ObsoleteCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
 launch
 import
 mozilla
@@ -640,6 +652,8 @@ ExitDeletionMode
 )
 }
 }
+ObsoleteCoroutinesApi
+ExperimentalCoroutinesApi
 override
 fun
 onViewCreated

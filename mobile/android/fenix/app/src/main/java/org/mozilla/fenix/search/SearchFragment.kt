@@ -195,6 +195,18 @@ view
 .
 *
 import
+kotlinx
+.
+coroutines
+.
+ExperimentalCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
+ObsoleteCoroutinesApi
+import
 mozilla
 .
 components
@@ -683,6 +695,8 @@ isPrivate
 return
 view
 }
+ObsoleteCoroutinesApi
+ExperimentalCoroutinesApi
 override
 fun
 onViewCreated

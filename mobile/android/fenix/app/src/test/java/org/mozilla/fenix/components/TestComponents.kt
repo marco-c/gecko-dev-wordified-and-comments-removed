@@ -76,6 +76,13 @@ io
 mockk
 .
 mockk
+import
+kotlinx
+.
+coroutines
+.
+ObsoleteCoroutinesApi
+ObsoleteCoroutinesApi
 class
 TestComponents
 (
