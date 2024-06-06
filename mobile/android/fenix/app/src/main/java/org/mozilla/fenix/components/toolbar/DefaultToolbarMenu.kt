@@ -1624,7 +1624,7 @@ R
 .
 drawable
 .
-ic_home
+ic_top_sites
 iconTintColorResource
 =
 primaryTextColor
