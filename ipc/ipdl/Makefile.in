@@ -190,9 +190,6 @@ track
 ALL_IPDLSRCS
 )
 (
-ALL_IPDLSRCS_FILE
-)
-(
 srcdir
 )
 /
@@ -284,13 +281,8 @@ I
 %
 )
 \
--
--
-file
--
-list
 (
-ALL_IPDLSRCS_FILE
+ALL_IPDLSRCS
 )
 touch
 export
