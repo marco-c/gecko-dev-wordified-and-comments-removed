@@ -908,9 +908,6 @@ WallpapersAssetsStorage
 (
 context
 )
-analytics
-.
-metrics
 )
 }
 val
