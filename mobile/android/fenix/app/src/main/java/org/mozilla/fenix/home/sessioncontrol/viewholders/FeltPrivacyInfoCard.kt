@@ -404,7 +404,7 @@ R
 .
 string
 .
-felt_privacy_info_card_subtitle
+felt_privacy_info_card_subtitle_2
 stringResource
 (
 id
