@@ -502,16 +502,6 @@ SearchFeature
 (
 )
 private
-val
-thumbnailsFeature
-=
-ViewBoundFeatureWrapper
-<
-BrowserThumbnails
->
-(
-)
-private
 var
 readerModeAvailable
 =
