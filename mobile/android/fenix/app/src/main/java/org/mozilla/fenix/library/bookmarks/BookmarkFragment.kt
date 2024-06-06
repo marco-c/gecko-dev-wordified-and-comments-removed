@@ -697,8 +697,6 @@ view
 bookmarkLayout
 bookmarkInteractor
 )
-viewLifecycleOwner
-.
 lifecycle
 .
 addObserver

@@ -297,9 +297,7 @@ requireContext
 )
 fragmentManager
 =
-requireFragmentManager
-(
-)
+parentFragmentManager
 onNeedToRequestPermissions
 =
 {

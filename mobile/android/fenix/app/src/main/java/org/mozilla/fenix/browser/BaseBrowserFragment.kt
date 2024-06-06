@@ -1503,9 +1503,7 @@ ContextMenuFeature
 (
 fragmentManager
 =
-requireFragmentManager
-(
-)
+parentFragmentManager
 store
 =
 store
@@ -1673,9 +1671,7 @@ interceptLinkClicks
 true
 fragmentManager
 =
-requireFragmentManager
-(
-)
+parentFragmentManager
 )
 owner
 =
@@ -1703,9 +1699,7 @@ sessionId
 customTabSessionId
 fragmentManager
 =
-requireFragmentManager
-(
-)
+parentFragmentManager
 onNeedToRequestPermissions
 =
 {
@@ -1781,9 +1775,7 @@ sessionManager
 sessionManager
 fragmentManager
 =
-requireFragmentManager
-(
-)
+parentFragmentManager
 promptsStyling
 =
 SitePermissionsFeature
