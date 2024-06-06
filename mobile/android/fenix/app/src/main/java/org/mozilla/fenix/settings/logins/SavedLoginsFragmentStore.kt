@@ -171,6 +171,10 @@ password
 :
 String
 ?
+val
+id
+:
+String
 )
 :
 Parcelable
