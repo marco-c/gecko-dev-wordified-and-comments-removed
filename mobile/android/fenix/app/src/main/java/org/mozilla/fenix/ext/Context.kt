@@ -229,14 +229,6 @@ jetbrains
 .
 anko
 .
-dimen
-import
-org
-.
-jetbrains
-.
-anko
-.
 px2dip
 import
 org
@@ -820,7 +812,9 @@ px2dip
 (
 this
 .
-dimen
+resources
+.
+getDimensionPixelSize
 (
 resource
 )

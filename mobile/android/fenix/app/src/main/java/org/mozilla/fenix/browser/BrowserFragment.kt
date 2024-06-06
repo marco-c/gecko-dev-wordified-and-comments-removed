@@ -283,14 +283,6 @@ ViewBoundFeatureWrapper
 import
 org
 .
-jetbrains
-.
-anko
-.
-dimen
-import
-org
-.
 mozilla
 .
 fenix
@@ -815,7 +807,9 @@ requireContext
 (
 )
 .
-dimen
+resources
+.
+getDimensionPixelSize
 (
 R
 .
