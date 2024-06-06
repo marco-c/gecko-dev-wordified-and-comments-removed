@@ -782,8 +782,10 @@ collectionsButtonAdapter
 SaveToCollectionsButtonAdapter
 (
 interactor
-isPrivate
 )
+{
+isPrivateModeSelected
+}
 private
 var
 hasLoaded

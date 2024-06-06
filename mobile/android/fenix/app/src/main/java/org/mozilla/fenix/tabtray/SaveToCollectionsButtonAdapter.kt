@@ -214,9 +214,15 @@ private
 val
 isPrivate
 :
+(
+)
+-
+>
 Boolean
 =
+{
 false
+}
 )
 :
 ListAdapter
@@ -473,6 +479,8 @@ isVisible
 =
 !
 isPrivate
+(
+)
 &
 &
 interactor
