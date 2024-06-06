@@ -148,6 +148,10 @@ val
 url
 :
 String
+val
+visitedAt
+:
+Long
 )
 {
 val

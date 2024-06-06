@@ -531,7 +531,12 @@ core
 .
 historyStorage
 .
-getVisited
+getDetailedVisits
+(
+0
+)
+.
+asReversed
 (
 )
 .
@@ -545,6 +550,11 @@ HistoryItem
 (
 id
 item
+.
+url
+item
+.
+visitTime
 )
 }
 launch
