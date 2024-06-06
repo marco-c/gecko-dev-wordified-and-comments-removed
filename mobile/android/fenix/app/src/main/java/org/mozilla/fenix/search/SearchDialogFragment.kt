@@ -1732,9 +1732,6 @@ ToolbarView
 requireContext
 (
 )
-requireContext
-(
-)
 .
 settings
 (
@@ -3009,11 +3006,6 @@ update
 (
 it
 )
-if
-(
-showUnifiedSearchFeature
-)
-{
 addSearchSelector
 (
 )
@@ -3021,7 +3013,6 @@ updateQrButton
 (
 it
 )
-}
 updateVoiceSearchButton
 (
 )

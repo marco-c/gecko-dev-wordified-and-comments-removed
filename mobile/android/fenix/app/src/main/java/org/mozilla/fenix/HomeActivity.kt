@@ -2805,13 +2805,6 @@ startPeriodicWork
 }
 if
 (
-settings
-(
-)
-.
-enableUnifiedSearchSettingsUI
-&
-&
 !
 settings
 (
