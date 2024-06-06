@@ -3021,6 +3021,7 @@ components
 core
 .
 store
+customTabSessionId
 )
 owner
 =
