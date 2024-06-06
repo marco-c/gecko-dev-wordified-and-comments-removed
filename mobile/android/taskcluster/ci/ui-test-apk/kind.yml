@@ -106,7 +106,7 @@ dependencies
 -
 toolchain
 -
-build
+signing
 -
 apk
 task
