@@ -1471,6 +1471,11 @@ tabLayout
 tabsTrayBinding
 .
 tabLayout
+tabPager
+=
+tabsTrayBinding
+.
+tabsTray
 interactor
 =
 tabsTrayInteractor
