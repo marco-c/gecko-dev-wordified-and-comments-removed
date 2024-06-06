@@ -141,6 +141,16 @@ orientation
 "
 vertical
 "
+android
+:
+id
+=
+"
++
+id
+/
+rootContainer
+"
 tools
 :
 context
