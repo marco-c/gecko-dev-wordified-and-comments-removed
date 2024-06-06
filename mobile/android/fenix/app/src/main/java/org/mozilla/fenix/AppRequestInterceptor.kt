@@ -149,9 +149,9 @@ mozilla
 .
 fenix
 .
-utils
+ext
 .
-Settings
+settings
 import
 java
 .
@@ -292,12 +292,9 @@ host
 val
 trackingProtectionEnabled
 =
-Settings
-.
-getInstance
-(
 context
-)
+.
+settings
 .
 shouldUseTrackingProtection
 if

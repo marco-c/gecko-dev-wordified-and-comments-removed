@@ -129,9 +129,9 @@ mozilla
 .
 fenix
 .
-utils
+ext
 .
-Settings
+settings
 SuppressWarnings
 (
 "
@@ -339,12 +339,9 @@ requireContext
 val
 settings
 =
-Settings
-.
-getInstance
-(
 context
-)
+.
+settings
 val
 summary
 =

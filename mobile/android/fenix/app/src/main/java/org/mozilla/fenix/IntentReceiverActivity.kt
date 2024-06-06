@@ -157,9 +157,9 @@ mozilla
 .
 fenix
 .
-utils
+ext
 .
-Settings
+settings
 class
 IntentReceiverActivity
 :
@@ -251,12 +251,9 @@ return
 val
 isPrivate
 =
-Settings
-.
-getInstance
-(
 this
-)
+.
+settings
 .
 usePrivateMode
 MainScope

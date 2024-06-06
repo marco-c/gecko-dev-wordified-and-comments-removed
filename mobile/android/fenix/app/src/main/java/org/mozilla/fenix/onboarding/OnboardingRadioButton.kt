@@ -115,9 +115,9 @@ mozilla
 .
 fenix
 .
-utils
+ext
 .
-Settings
+settings
 class
 OnboardingRadioButton
 (
@@ -258,12 +258,9 @@ this
 isChecked
 =
 isChecked
-Settings
-.
-getInstance
-(
 context
-)
+.
+settings
 .
 preferences
 .

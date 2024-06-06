@@ -117,9 +117,9 @@ mozilla
 .
 fenix
 .
-utils
+ext
 .
-Settings
+settings
 class
 RadioSearchEngineListPreference
 JvmOverloads
@@ -203,12 +203,9 @@ searchEngineManager
 defaultSearchEngine
 =
 searchEngine
-Settings
-.
-getInstance
-(
 context
-)
+.
+settings
 .
 defaultSearchEngineName
 =

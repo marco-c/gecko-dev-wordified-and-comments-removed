@@ -191,9 +191,9 @@ mozilla
 .
 fenix
 .
-utils
+ext
 .
-Settings
+settings
 abstract
 class
 SearchEngineListPreference
@@ -481,12 +481,9 @@ searchEngineManager
 getDefaultSearchEngine
 (
 context
-Settings
-.
-getInstance
-(
 context
-)
+.
+settings
 .
 defaultSearchEngineName
 )

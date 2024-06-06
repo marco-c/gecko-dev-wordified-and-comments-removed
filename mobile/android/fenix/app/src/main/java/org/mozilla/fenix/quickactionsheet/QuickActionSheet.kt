@@ -191,9 +191,9 @@ mozilla
 .
 fenix
 .
-utils
+ext
 .
-Settings
+settings
 const
 val
 POSITION_SNAP_BUFFER
@@ -363,12 +363,9 @@ bounceSheet
 (
 )
 {
-Settings
-.
-getInstance
-(
 context
-)
+.
+settings
 .
 incrementAutomaticBounceQuickActionSheetCount
 (
