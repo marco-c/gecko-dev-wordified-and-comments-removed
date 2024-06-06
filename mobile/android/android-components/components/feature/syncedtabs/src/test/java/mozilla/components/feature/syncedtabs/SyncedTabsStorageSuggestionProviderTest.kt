@@ -615,7 +615,15 @@ mock
 deviceIndicators
 =
 indicatorIcon
-resultsHostFilter
+resultsUrlFilter
+=
+{
+it
+.
+tryGetHostFromUrl
+(
+)
+=
 =
 "
 https
@@ -630,6 +638,7 @@ bar
 tryGetHostFromUrl
 (
 )
+}
 )
 val
 suggestions
