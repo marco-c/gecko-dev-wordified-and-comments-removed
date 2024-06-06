@@ -572,6 +572,13 @@ toolbarLayout
 browserToolbarView
 .
 view
+store
+=
+components
+.
+core
+.
+store
 sessionManager
 =
 components

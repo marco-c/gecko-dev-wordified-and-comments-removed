@@ -540,12 +540,11 @@ invoke
 text
 sessionId
 =
-sessionManager
+store
 .
-selectedSession
-?
+state
 .
-id
+selectedTabId
 )
 }
 override
