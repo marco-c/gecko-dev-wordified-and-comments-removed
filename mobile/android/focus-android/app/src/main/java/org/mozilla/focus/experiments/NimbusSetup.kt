@@ -899,11 +899,7 @@ this
 is
 NimbusException
 .
-RequestException
-is
-NimbusException
-.
-ResponseException
+ClientException
 -
 >
 false
