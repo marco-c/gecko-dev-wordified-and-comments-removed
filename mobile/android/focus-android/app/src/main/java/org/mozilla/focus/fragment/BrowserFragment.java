@@ -666,6 +666,7 @@ browser
 ;
 private
 static
+final
 int
 REQUEST_CODE_STORAGE_PERMISSION
 =
