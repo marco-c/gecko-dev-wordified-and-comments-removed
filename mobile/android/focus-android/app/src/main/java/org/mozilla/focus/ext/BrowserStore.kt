@@ -117,12 +117,17 @@ contentState
 (
 sessionId
 )
+?
 .
 searchTerms
+?
 .
 isNotEmpty
 (
 )
+=
+=
+true
 }
 fun
 BrowserStore
@@ -135,6 +140,7 @@ String
 )
 :
 ContentState
+?
 {
 return
 state
@@ -143,8 +149,7 @@ findTabOrCustomTabOrSelectedTab
 (
 sessionId
 )
-!
-!
+?
 .
 content
 }

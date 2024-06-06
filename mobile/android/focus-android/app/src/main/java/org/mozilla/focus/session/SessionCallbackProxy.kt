@@ -563,8 +563,12 @@ isTriggeredByUserGesture
 &
 &
 contentState
+?
 .
 isSearch
+=
+=
+true
 )
 {
 /

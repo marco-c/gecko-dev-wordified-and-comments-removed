@@ -196,12 +196,17 @@ TelemetryWrapper
 shareIntentEvent
 (
 contentState
+?
 .
 searchTerms
+?
 .
 isNotEmpty
 (
 )
+=
+=
+true
 )
 }
 SessionState
