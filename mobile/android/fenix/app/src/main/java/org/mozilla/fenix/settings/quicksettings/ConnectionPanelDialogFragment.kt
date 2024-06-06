@@ -293,11 +293,6 @@ getCurrentTab
 :
 :
 getCurrentTab
-dismiss
-=
-:
-:
-dismiss
 )
 val
 interactor
@@ -368,7 +363,7 @@ certificateName
 )
 )
 }
-internal
+private
 fun
 getCurrentTab
 (

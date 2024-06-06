@@ -1238,6 +1238,9 @@ settings
 toolbarPosition
 .
 androidGravity
+sitePermissions
+=
+sitePermissions
 )
 navController
 (

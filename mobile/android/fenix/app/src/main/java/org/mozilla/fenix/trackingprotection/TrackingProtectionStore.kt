@@ -298,7 +298,10 @@ Panel
 *
 property
 tab
-TODO
+Current
+session
+to
+display
 *
 property
 url

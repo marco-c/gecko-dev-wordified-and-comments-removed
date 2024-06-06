@@ -533,7 +533,11 @@ sessionId
 [
 String
 ]
-TODO
+The
+current
+session
+ID
+.
 *
 param
 isTrackingProtectionEnabled
@@ -815,7 +819,11 @@ sessionId
 [
 String
 ]
-TODO
+The
+current
+session
+ID
+.
 *
 param
 websiteUrl
