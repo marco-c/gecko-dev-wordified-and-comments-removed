@@ -395,7 +395,7 @@ isAlways
 assertEquals
 (
 conversion
-NEVER
+OFFER
 )
 }
 Test
@@ -450,7 +450,7 @@ isNever
 assertEquals
 (
 conversion
-ALWAYS
+OFFER
 )
 }
 Test
