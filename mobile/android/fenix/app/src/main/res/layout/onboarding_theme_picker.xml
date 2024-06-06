@@ -520,7 +520,7 @@ pref_key_light_theme
 /
 >
 <
-ImageButton
+ImageView
 android
 :
 id
@@ -559,9 +559,9 @@ layout_marginTop
 "
 16dp
 "
-android
+app
 :
-background
+srcCompat
 =
 "
 drawable
@@ -733,7 +733,7 @@ pref_key_dark_theme
 /
 >
 <
-ImageButton
+ImageView
 android
 :
 id
@@ -779,9 +779,9 @@ layout_marginEnd
 "
 16dp
 "
-android
+app
 :
-background
+srcCompat
 =
 "
 drawable

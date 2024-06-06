@@ -544,7 +544,7 @@ pref_key_toolbar_top
 /
 >
 <
-ImageButton
+ImageView
 android
 :
 id
@@ -583,9 +583,9 @@ layout_marginTop
 "
 16dp
 "
-android
+app
 :
-background
+srcCompat
 =
 "
 drawable
@@ -767,7 +767,7 @@ pref_key_toolbar_bottom
 /
 >
 <
-ImageButton
+ImageView
 android
 :
 id
@@ -813,9 +813,9 @@ layout_marginEnd
 "
 16dp
 "
-android
+app
 :
-background
+srcCompat
 =
 "
 drawable

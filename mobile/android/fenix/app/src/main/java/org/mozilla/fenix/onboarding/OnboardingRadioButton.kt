@@ -81,7 +81,7 @@ android
 .
 widget
 .
-ImageButton
+ImageView
 import
 androidx
 .
@@ -155,7 +155,7 @@ private
 var
 illustration
 :
-ImageButton
+ImageView
 ?
 =
 null
@@ -228,7 +228,7 @@ addIllustration
 (
 illustration
 :
-ImageButton
+ImageView
 )
 {
 this
