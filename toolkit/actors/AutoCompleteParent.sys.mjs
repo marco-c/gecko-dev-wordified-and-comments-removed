@@ -283,7 +283,7 @@ ppmm
 addMessageListener
 (
 "
-FormAutoComplete
+AutoComplete
 :
 GetSelectedIndex
 "
@@ -337,7 +337,7 @@ ppmm
 addMessageListener
 (
 "
-FormAutoComplete
+AutoComplete
 :
 SelectBy
 "
@@ -855,7 +855,7 @@ this
 sendAsyncMessage
 (
 "
-FormAutoComplete
+AutoComplete
 :
 PopupOpened
 "
@@ -924,7 +924,7 @@ this
 sendAsyncMessage
 (
 "
-FormAutoComplete
+AutoComplete
 :
 PopupClosed
 "
@@ -2305,7 +2305,7 @@ name
 {
 case
 "
-FormAutoComplete
+AutoComplete
 :
 SetSelectedIndex
 "
@@ -2341,7 +2341,7 @@ break
 }
 case
 "
-FormAutoComplete
+AutoComplete
 :
 MaybeOpenPopup
 "
@@ -2413,7 +2413,7 @@ break
 }
 case
 "
-FormAutoComplete
+AutoComplete
 :
 Invalidate
 "
@@ -2440,7 +2440,7 @@ break
 }
 case
 "
-FormAutoComplete
+AutoComplete
 :
 ClosePopup
 "
@@ -2805,7 +2805,7 @@ this
 sendAsyncMessage
 (
 "
-FormAutoComplete
+AutoComplete
 :
 HandleEnter
 "
@@ -2895,7 +2895,7 @@ this
 sendAsyncMessage
 (
 "
-FormAutoComplete
+AutoComplete
 :
 Focus
 "

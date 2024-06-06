@@ -817,14 +817,14 @@ manager
 /
 /
 "
-FormAutoComplete
+AutoComplete
 :
 GetSelectedIndex
 "
 /
 /
 "
-FormAutoComplete
+AutoComplete
 :
 SelectBy
 "

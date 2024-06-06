@@ -908,7 +908,7 @@ messageName
 {
 case
 "
-FormAutoComplete
+AutoComplete
 :
 PopupClosed
 "
@@ -953,7 +953,7 @@ break
 }
 case
 "
-FormAutoComplete
+AutoComplete
 :
 PopupOpened
 "

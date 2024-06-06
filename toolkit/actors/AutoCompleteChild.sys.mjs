@@ -247,7 +247,7 @@ name
 {
 case
 "
-FormAutoComplete
+AutoComplete
 :
 HandleEnter
 "
@@ -304,7 +304,7 @@ break
 }
 case
 "
-FormAutoComplete
+AutoComplete
 :
 PopupClosed
 "
@@ -333,7 +333,7 @@ break
 }
 case
 "
-FormAutoComplete
+AutoComplete
 :
 PopupOpened
 "
@@ -362,7 +362,7 @@ break
 }
 case
 "
-FormAutoComplete
+AutoComplete
 :
 Focus
 "
@@ -390,13 +390,13 @@ match
 /
 (
 "
-FormAutoComplete
+AutoComplete
 :
 Focus
 "
 versus
 "
-FormAutoComplete
+AutoComplete
 :
 RequestFocus
 "
@@ -539,7 +539,7 @@ this
 sendAsyncMessage
 (
 "
-FormAutoComplete
+AutoComplete
 :
 SetSelectedIndex
 "
@@ -641,7 +641,7 @@ cpmm
 sendSyncMessage
 (
 "
-FormAutoComplete
+AutoComplete
 :
 GetSelectedIndex
 "
@@ -807,7 +807,7 @@ this
 sendAsyncMessage
 (
 "
-FormAutoComplete
+AutoComplete
 :
 MaybeOpenPopup
 "
@@ -899,7 +899,7 @@ this
 sendAsyncMessage
 (
 "
-FormAutoComplete
+AutoComplete
 :
 ClosePopup
 "
@@ -936,7 +936,7 @@ this
 sendAsyncMessage
 (
 "
-FormAutoComplete
+AutoComplete
 :
 Invalidate
 "
@@ -960,7 +960,7 @@ cpmm
 sendSyncMessage
 (
 "
-FormAutoComplete
+AutoComplete
 :
 SelectBy
 "
