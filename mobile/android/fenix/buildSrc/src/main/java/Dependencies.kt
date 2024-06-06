@@ -167,7 +167,7 @@ androidx_appcompat
 .
 0
 -
-beta01
+rc01
 "
 const
 val
@@ -204,7 +204,7 @@ androidx_constraint_layout
 .
 0
 -
-beta4
+beta6
 "
 const
 val
