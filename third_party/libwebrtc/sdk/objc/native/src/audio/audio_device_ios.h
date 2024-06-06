@@ -931,6 +931,9 @@ Create
 (
 )
 ;
+double
+machTickUnitsToNanoseconds_
+;
 }
 ;
 }
