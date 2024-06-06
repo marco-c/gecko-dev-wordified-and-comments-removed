@@ -214,14 +214,4 @@ Analytics
 context
 )
 }
-val
-publicSuffixList
-by
-lazy
-{
-PublicSuffixList
-(
-context
-)
-}
 }

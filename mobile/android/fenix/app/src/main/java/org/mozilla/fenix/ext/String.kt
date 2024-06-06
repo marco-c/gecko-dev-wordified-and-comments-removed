@@ -277,6 +277,8 @@ context
 .
 components
 .
+utils
+.
 publicSuffixList
 .
 stripPublicSuffix
