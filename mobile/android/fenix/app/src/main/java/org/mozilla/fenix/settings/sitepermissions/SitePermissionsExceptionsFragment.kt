@@ -450,7 +450,7 @@ liveData
 .
 observe
 (
-this
+viewLifecycleOwner
 Observer
 <
 PagedList

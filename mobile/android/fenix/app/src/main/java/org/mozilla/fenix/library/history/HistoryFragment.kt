@@ -681,7 +681,7 @@ history
 .
 observe
 (
-this
+viewLifecycleOwner
 Observer
 {
 historyView
