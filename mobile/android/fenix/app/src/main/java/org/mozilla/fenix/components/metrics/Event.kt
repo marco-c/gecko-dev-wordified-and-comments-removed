@@ -1312,6 +1312,12 @@ HaveNoTopSites
 Event
 (
 )
+object
+SyncedTabSuggestionClicked
+:
+Event
+(
+)
 /
 /
 Interaction
