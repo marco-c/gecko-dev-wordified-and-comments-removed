@@ -381,6 +381,16 @@ gone
 "
 app
 :
+findInPageNoMatchesTextColor
+=
+"
+?
+attr
+/
+destructive
+"
+app
+:
 layout_behavior
 =
 "
