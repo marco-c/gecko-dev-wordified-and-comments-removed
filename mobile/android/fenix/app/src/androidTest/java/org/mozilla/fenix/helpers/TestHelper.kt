@@ -749,6 +749,9 @@ with
 activity
 )
 {
+updateCachedSettings
+(
+)
 finishActivity
 (
 )
