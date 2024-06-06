@@ -105,7 +105,8 @@ name
 app_name
 "
 >
-Fenix
+GeckoView
+Preview
 <
 /
 string
@@ -403,7 +404,9 @@ name
 private_browsing_explanation
 "
 >
-Fenix
+%
+1
+s
 clears
 your
 search
@@ -1027,8 +1030,9 @@ browser_menu_open_in_fenix
 >
 Open
 in
-Fenix
-"
+%
+1
+s
 <
 /
 string
@@ -1064,8 +1068,9 @@ browser_menu_powered_by
 >
 POWERED
 BY
-FENIX
-"
+%
+1
+s
 <
 /
 string
@@ -1420,7 +1425,9 @@ preferences_about
 "
 >
 About
-Fenix
+%
+1
+s
 <
 /
 string
@@ -1893,7 +1900,7 @@ preferences_account_settings
 "
 >
 Account
-Settings
+settings
 <
 /
 string
@@ -3370,7 +3377,7 @@ tabs_header_title
 "
 >
 Current
-Session
+session
 <
 /
 string
@@ -3402,7 +3409,7 @@ tabs_header_private_title
 "
 >
 Private
-Session
+session
 <
 /
 string
@@ -3736,7 +3743,7 @@ session_save
 "
 >
 Save
-Session
+session
 <
 /
 string
@@ -3765,7 +3772,7 @@ session_delete
 "
 >
 Delete
-Session
+session
 <
 /
 string
@@ -4324,7 +4331,7 @@ content_description_session_menu
 "
 >
 Session
-Options
+options
 <
 /
 string
@@ -4352,7 +4359,7 @@ content_description_session_share
 "
 >
 Share
-Session
+session
 <
 /
 string
