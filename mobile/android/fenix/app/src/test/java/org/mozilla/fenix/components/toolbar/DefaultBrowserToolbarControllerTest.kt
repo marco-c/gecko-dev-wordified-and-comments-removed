@@ -129,6 +129,18 @@ mockk
 .
 verify
 import
+kotlinx
+.
+coroutines
+.
+ExperimentalCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
+ObsoleteCoroutinesApi
+import
 mozilla
 .
 components
@@ -342,6 +354,8 @@ home
 sessioncontrol
 .
 TabCollection
+ExperimentalCoroutinesApi
+ObsoleteCoroutinesApi
 class
 DefaultBrowserToolbarControllerTest
 {
