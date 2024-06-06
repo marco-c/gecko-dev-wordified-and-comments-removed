@@ -4218,7 +4218,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_notification
+mozac_ic_notification_24
 showDoNotAskAgainCheckBox
 =
 false
