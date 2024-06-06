@@ -967,7 +967,7 @@ R
 .
 drawable
 .
-mozac_ic_share
+ic_hollow_share
 contentDescription
 =
 context
