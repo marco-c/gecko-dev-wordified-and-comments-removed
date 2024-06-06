@@ -308,9 +308,7 @@ writeByte
 n
 '
 .
-toInt
-(
-)
+code
 )
 }
 sink
@@ -344,9 +342,7 @@ writeByte
 n
 '
 .
-toInt
-(
-)
+code
 )
 }
 }
