@@ -247,7 +247,7 @@ textColor
 "
 color
 /
-dialog_title
+primaryText
 "
 android
 :
