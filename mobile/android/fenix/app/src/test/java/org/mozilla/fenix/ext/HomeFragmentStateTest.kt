@@ -949,7 +949,7 @@ that
 (
 )
 {
-var
+val
 result
 =
 getFilteredStoriesCount
