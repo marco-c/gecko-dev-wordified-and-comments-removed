@@ -1958,6 +1958,8 @@ getDeleteDialogString
 (
 selected
 )
+viewLifecycleOwner
+.
 lifecycleScope
 .
 allowUndo
