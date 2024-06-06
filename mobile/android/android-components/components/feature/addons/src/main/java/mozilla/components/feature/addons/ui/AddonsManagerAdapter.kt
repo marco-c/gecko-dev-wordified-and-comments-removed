@@ -181,6 +181,14 @@ core
 .
 view
 .
+isInvisible
+import
+androidx
+.
+core
+.
+view
+.
 isVisible
 import
 androidx
@@ -1939,9 +1947,8 @@ holder
 .
 addButton
 .
-isVisible
+isInvisible
 =
-!
 addon
 .
 isInstalled

@@ -1404,7 +1404,7 @@ withEffectiveVisibility
 (
 Visibility
 .
-GONE
+INVISIBLE
 )
 )
 )
