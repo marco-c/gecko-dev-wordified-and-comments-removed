@@ -911,7 +911,7 @@ onNext
 (
 HistoryAction
 .
-SwitchMode
+BackPressed
 )
 true
 }
