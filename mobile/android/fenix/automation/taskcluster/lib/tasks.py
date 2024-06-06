@@ -2991,6 +2991,9 @@ Debug
 '
 Release
 '
+'
+ReleaseRaptor
+'
 )
 _SUPPORTED_PRODUCTS
 =
