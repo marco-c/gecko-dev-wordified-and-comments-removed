@@ -268,6 +268,16 @@ geckoview
 BuildConfig
 .
 MOZ_APP_VERSION
+import
+org
+.
+mozilla
+.
+geckoview
+.
+BuildConfig
+.
+MOZ_UPDATE_CHANNEL
 /
 *
 *
@@ -435,6 +445,9 @@ MOZ_APP_BUILDID
 vendor
 =
 MOZ_APP_VENDOR
+releaseChannel
+=
+MOZ_UPDATE_CHANNEL
 )
 services
 .
