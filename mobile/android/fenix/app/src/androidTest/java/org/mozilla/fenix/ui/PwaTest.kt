@@ -135,6 +135,16 @@ mozilla
 .
 fenix
 .
+helpers
+.
+TestSetup
+import
+org
+.
+mozilla
+.
+fenix
+.
 ui
 .
 robots
@@ -178,6 +188,10 @@ robots
 pwaScreen
 class
 PwaTest
+:
+TestSetup
+(
+)
 {
 /
 *
