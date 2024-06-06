@@ -173,7 +173,7 @@ focus
 .
 settings
 .
-SettingsFragment
+BaseSettingsFragment
 import
 org
 .
@@ -254,7 +254,7 @@ updater
 =
 activity
 as
-SettingsFragment
+BaseSettingsFragment
 .
 ActionBarUpdater
 updater
