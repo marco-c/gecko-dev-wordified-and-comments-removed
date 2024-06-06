@@ -159,16 +159,6 @@ viewholders
 .
 HistoryListItemViewHolder
 import
-org
-.
-mozilla
-.
-fenix
-.
-utils
-.
-AdapterWithJob
-import
 java
 .
 util
@@ -689,7 +679,9 @@ historyInteractor
 HistoryInteractor
 )
 :
-AdapterWithJob
+RecyclerView
+.
+Adapter
 <
 RecyclerView
 .
@@ -1165,7 +1157,6 @@ HistoryListItemViewHolder
 (
 view
 historyInteractor
-adapterJob
 )
 else
 -

@@ -120,16 +120,6 @@ exceptions
 viewholders
 .
 ExceptionsListItemViewHolder
-import
-org
-.
-mozilla
-.
-fenix
-.
-utils
-.
-AdapterWithJob
 private
 sealed
 class
@@ -244,7 +234,9 @@ interactor
 ExceptionsInteractor
 )
 :
-AdapterWithJob
+RecyclerView
+.
+Adapter
 <
 RecyclerView
 .
@@ -420,7 +412,6 @@ ExceptionsListItemViewHolder
 (
 view
 interactor
-adapterJob
 )
 else
 -

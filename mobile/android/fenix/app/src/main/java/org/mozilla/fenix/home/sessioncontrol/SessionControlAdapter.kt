@@ -117,6 +117,14 @@ recyclerview
 .
 widget
 .
+ListAdapter
+import
+androidx
+.
+recyclerview
+.
+widget
+.
 RecyclerView
 import
 io
@@ -364,16 +372,6 @@ viewholders
 onboarding
 .
 OnboardingTrackingProtectionViewHolder
-import
-org
-.
-mozilla
-.
-fenix
-.
-utils
-.
-ListAdapterWithJob
 import
 mozilla
 .
@@ -833,7 +831,7 @@ SessionControlAction
 >
 )
 :
-ListAdapterWithJob
+ListAdapter
 <
 AdapterItem
 RecyclerView
@@ -929,7 +927,6 @@ TabViewHolder
 (
 view
 actionEmitter
-adapterJob
 )
 SaveTabGroupViewHolder
 .
@@ -988,7 +985,6 @@ TabInCollectionViewHolder
 (
 view
 actionEmitter
-adapterJob
 )
 OnboardingHeaderViewHolder
 .
