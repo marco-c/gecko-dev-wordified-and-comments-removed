@@ -2203,8 +2203,9 @@ name
 scrimStart_private_theme
 "
 >
-#
-F520123A
+color
+/
+photonInk80A96
 <
 /
 color
@@ -2217,8 +2218,9 @@ name
 scrimEnd_private_theme
 "
 >
-#
-F515141A
+color
+/
+photonDarkGrey90A96
 <
 /
 color
