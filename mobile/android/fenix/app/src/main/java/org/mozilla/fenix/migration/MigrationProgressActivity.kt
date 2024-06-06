@@ -435,7 +435,7 @@ clicking
 the
 finish
 button
-migration_button_text_view
+migration_button
 .
 apply
 {
@@ -553,6 +553,11 @@ java
 )
 }
 }
+}
+migration_button_text_view
+.
+apply
+{
 text
 =
 getString
