@@ -1219,12 +1219,6 @@ Event
 (
 )
 object
-ContextMenuLongPressTapped
-:
-Event
-(
-)
-object
 ContextMenuCopyTapped
 :
 Event
