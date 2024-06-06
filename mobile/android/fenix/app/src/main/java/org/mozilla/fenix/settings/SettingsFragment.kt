@@ -505,6 +505,9 @@ SuppressWarnings
 "
 TooManyFunctions
 "
+"
+LargeClass
+"
 )
 class
 SettingsFragment
@@ -554,9 +557,6 @@ savedInstanceState
 job
 =
 Job
-(
-)
-updateSignInVisibility
 (
 )
 preferenceManager
@@ -922,6 +922,9 @@ setupPreferences
 (
 )
 setupAccountUI
+(
+)
+updateSignInVisibility
 (
 )
 }
@@ -1804,6 +1807,9 @@ OAuthAccount
 updateAuthState
 (
 account
+)
+updateSignInVisibility
+(
 )
 }
 override
