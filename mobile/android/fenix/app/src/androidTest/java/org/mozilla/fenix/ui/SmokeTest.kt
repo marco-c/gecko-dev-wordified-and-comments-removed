@@ -623,6 +623,11 @@ FeatureSettingsHelper
 get
 :
 Rule
+(
+order
+=
+0
+)
 val
 activityTestRule
 =
@@ -640,6 +645,11 @@ activity
 get
 :
 Rule
+(
+order
+=
+1
+)
 val
 intentReceiverActivityTestRule
 =
@@ -655,6 +665,11 @@ true
 false
 )
 Rule
+(
+order
+=
+2
+)
 JvmField
 val
 retryTestRule
