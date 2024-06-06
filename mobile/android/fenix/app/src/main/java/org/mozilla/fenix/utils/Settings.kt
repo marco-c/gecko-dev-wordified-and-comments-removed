@@ -1890,8 +1890,8 @@ default
 =
 false
 )
-val
-isFirstRun
+var
+isFirstNimbusRun
 :
 Boolean
 by
