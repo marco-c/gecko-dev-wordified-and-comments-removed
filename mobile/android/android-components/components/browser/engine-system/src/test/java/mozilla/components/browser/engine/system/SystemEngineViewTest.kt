@@ -3442,6 +3442,12 @@ String
 isPrivate
 :
 Boolean
+skipConfirmation
+:
+Boolean
+openInApp
+:
+Boolean
 response
 :
 Response

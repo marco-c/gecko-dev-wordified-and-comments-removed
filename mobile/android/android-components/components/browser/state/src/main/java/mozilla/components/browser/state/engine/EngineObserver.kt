@@ -1218,6 +1218,12 @@ String
 isPrivate
 :
 Boolean
+skipConfirmation
+:
+Boolean
+openInApp
+:
+Boolean
 response
 :
 Response
@@ -1292,6 +1298,12 @@ DIRECTORY_DOWNLOADS
 private
 =
 isPrivate
+skipConfirmation
+=
+skipConfirmation
+openInApp
+=
+openInApp
 response
 =
 response

@@ -5910,6 +5910,16 @@ response
 isPrivate
 =
 privateMode
+openInApp
+=
+webResponse
+.
+doRequestExternalApp
+skipConfirmation
+=
+webResponse
+.
+doSkipConfirmation
 )
 }
 }
