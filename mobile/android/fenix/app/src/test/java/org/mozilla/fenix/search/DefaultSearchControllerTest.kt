@@ -1095,8 +1095,7 @@ Event
 SearchShortcutSelected
 (
 searchEngine
-.
-name
+false
 )
 )
 }
