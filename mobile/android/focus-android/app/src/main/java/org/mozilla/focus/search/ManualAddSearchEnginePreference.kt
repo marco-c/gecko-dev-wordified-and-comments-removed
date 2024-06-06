@@ -705,6 +705,7 @@ Context
 MODE_PRIVATE
 )
 return
+!
 sharedPreferences
 .
 contains

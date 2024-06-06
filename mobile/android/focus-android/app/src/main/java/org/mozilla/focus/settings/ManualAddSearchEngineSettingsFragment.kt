@@ -808,6 +808,13 @@ this
 engineName
 searchQuery
 )
+.
+execute
+(
+)
+menuItemForActiveAsyncTask
+=
+item
 }
 else
 {
