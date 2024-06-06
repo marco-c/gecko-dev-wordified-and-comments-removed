@@ -534,6 +534,13 @@ visibility
 "
 gone
 "
+android
+:
+scrollbars
+=
+"
+none
+"
 tools
 :
 ignore
