@@ -280,7 +280,7 @@ R
 .
 drawable
 .
-ic_pbm_notification
+ic_private_browsing
 )
 setContentTitle
 (

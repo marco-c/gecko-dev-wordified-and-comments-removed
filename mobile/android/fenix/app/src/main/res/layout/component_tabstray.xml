@@ -1242,6 +1242,15 @@ visible
 "
 app
 :
+tint
+=
+"
+color
+/
+accent_normal_theme
+"
+app
+:
 layout_constraintBottom_toBottomOf
 =
 "
@@ -1272,7 +1281,7 @@ srcCompat
 "
 drawable
 /
-ic_menu_tab_tray
+ic_menu
 "
 /
 >
