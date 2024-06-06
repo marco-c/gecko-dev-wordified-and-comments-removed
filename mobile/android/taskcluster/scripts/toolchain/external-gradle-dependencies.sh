@@ -199,9 +199,6 @@ central
 GRADLE_ARGS
 =
 "
--
--
-parallel
 REPOS
 -
 Pcoverage
