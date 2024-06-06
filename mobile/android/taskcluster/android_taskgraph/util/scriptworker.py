@@ -1615,20 +1615,15 @@ job
 attributes
 "
 ]
-[
+.
+get
+(
 "
-build
--
-type
-"
-]
-=
-=
-"
-fenix
--
 nightly
+-
+task
 "
+)
 :
             
 folder_prefix
