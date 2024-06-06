@@ -908,15 +908,8 @@ context
     
 )
     
-assert
-result
-[
-"
-cookies
-"
-]
-=
-=
+recursive_compare
+(
 [
         
 {
@@ -989,6 +982,13 @@ cookie_value
 }
     
 ]
+result
+[
+"
+cookies
+"
+]
+)
 pytest
 .
 mark
