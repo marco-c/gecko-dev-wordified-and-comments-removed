@@ -1481,13 +1481,13 @@ animationsDisabled
 true
 }
 flavorDimensions
-"
-engine
-"
-flavorDimensions
+.
+add
+(
 "
 product
 "
+)
 productFlavors
 {
 fenix

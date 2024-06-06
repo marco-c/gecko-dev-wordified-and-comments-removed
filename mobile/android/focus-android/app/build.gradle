@@ -668,9 +668,13 @@ Versions
 compose_compiler
 }
 flavorDimensions
+.
+add
+(
 "
 product
 "
+)
 productFlavors
 {
 /
