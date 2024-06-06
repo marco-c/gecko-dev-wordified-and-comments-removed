@@ -541,6 +541,12 @@ intentProcessors
 .
 externalAppIntentProcessors
 +
+components
+.
+intentProcessors
+.
+fennecPageShortcutIntentProcessor
++
 modeDependentProcessors
 +
 NewTabShortcutIntentProcessor

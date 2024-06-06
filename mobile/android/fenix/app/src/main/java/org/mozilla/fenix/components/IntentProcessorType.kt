@@ -313,6 +313,12 @@ privateIntentProcessor
 =
 =
 processor
+|
+|
+fennecPageShortcutIntentProcessor
+=
+=
+processor
 -
 >
 IntentProcessorType
