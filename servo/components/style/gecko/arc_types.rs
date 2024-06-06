@@ -96,6 +96,7 @@ MediaRule
 NamespaceRule
 PageRule
 PropertyRule
+ScopeRule
 StyleRule
 StylesheetContents
 SupportsRule
@@ -450,5 +451,13 @@ impl_simple_arc_ffi
 AnimationValue
 Servo_AnimationValue_AddRef
 Servo_AnimationValue_Release
+)
+;
+impl_simple_arc_ffi
+!
+(
+ScopeRule
+Servo_ScopeRule_AddRef
+Servo_ScopeRule_Release
 )
 ;

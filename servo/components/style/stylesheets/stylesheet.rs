@@ -1626,6 +1626,15 @@ LayerBlock
 .
 .
 )
+|
+CssRule
+:
+:
+Scope
+(
+.
+.
+)
 =
 >
 false
