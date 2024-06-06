@@ -287,6 +287,9 @@ browsing
 menu
 "
 )
+togglePrivateBrowsingModeOnOff
+(
+)
 }
 }
 }
