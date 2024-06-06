@@ -384,7 +384,7 @@ bindConnectionDetailsListener
 {
 binding
 .
-securityInfo
+securityInfoContainer
 .
 setOnClickListener
 {

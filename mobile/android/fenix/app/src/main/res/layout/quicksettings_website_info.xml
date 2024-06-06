@@ -360,6 +360,16 @@ LinearLayout
 LinearLayout
 android
 :
+id
+=
+"
++
+id
+/
+securityInfoContainer
+"
+android
+:
 layout_width
 =
 "
