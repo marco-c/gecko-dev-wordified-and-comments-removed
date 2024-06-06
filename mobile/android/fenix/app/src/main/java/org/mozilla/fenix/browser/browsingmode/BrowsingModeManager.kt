@@ -66,16 +66,6 @@ fenix
 browser
 .
 browsingmode
-import
-org
-.
-mozilla
-.
-fenix
-.
-utils
-.
-Settings
 /
 *
 *

@@ -199,16 +199,6 @@ fenix
 .
 ext
 .
-application
-import
-org
-.
-mozilla
-.
-fenix
-.
-ext
-.
 components
 import
 org

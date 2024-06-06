@@ -353,16 +353,6 @@ session
 .
 VisibilityLifecycleCallback
 import
-org
-.
-mozilla
-.
-fenix
-.
-utils
-.
-Settings
-import
 java
 .
 io

@@ -137,16 +137,6 @@ annotation
 .
 StyleRes
 import
-mozilla
-.
-components
-.
-support
-.
-utils
-.
-toSafeIntent
-import
 org
 .
 mozilla
