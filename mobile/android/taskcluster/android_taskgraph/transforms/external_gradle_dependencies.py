@@ -296,7 +296,8 @@ get_path
 gradle_project
 )
     
-return
+file_list
+=
 [
         
 "
@@ -367,6 +368,47 @@ gradle
 "
     
 ]
+    
+if
+gradle_project
+in
+(
+"
+focus
+"
+"
+fenix
+"
+)
+:
+        
+file_list
+.
+append
+(
+f
+"
+{
+project_dir
+}
+/
+buildSrc
+/
+src
+/
+main
+/
+java
+/
+*
+Dependencies
+.
+kt
+"
+)
+    
+return
+file_list
 def
 _get_gradle_project_dir
 (
