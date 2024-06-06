@@ -4465,9 +4465,6 @@ UiSelector
 descriptionContains
 (
 "
-open
-tab
-.
 Tap
 to
 switch

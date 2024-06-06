@@ -741,6 +741,13 @@ historyListIdlingResource
 )
 clickDeleteHistoryButton
 (
+firstWebPage
+.
+url
+.
+toString
+(
+)
 )
 IdlingRegistry
 .
@@ -1295,6 +1302,7 @@ historyListIdlingResource
 )
 verifyHistoryItemExists
 (
+true
 firstWebPage
 .
 url
@@ -1305,6 +1313,7 @@ toString
 )
 verifyHistoryItemExists
 (
+true
 secondWebPage
 .
 url
