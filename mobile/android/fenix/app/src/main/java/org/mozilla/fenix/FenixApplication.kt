@@ -280,6 +280,12 @@ SuppressLint
 Registered
 "
 )
+Suppress
+(
+"
+TooManyFunctions
+"
+)
 open
 class
 FenixApplication
@@ -307,6 +313,7 @@ experimentLoaderComplete
 Boolean
 =
 false
+open
 val
 components
 by
@@ -328,6 +335,16 @@ super
 onCreate
 (
 )
+setupApplication
+(
+)
+}
+open
+fun
+setupApplication
+(
+)
+{
 /
 /
 loadExperiments

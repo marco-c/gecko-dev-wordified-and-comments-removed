@@ -152,6 +152,16 @@ service
 fxa
 .
 FxaAccountManager
+import
+org
+.
+mozilla
+.
+fenix
+.
+test
+.
+Mockable
 /
 *
 *
@@ -180,6 +190,7 @@ worker
 .
 *
 /
+Mockable
 class
 BackgroundServices
 (

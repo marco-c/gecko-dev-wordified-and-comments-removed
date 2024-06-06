@@ -213,6 +213,16 @@ mozilla
 .
 fenix
 .
+test
+.
+Mockable
+import
+org
+.
+mozilla
+.
+fenix
+.
 utils
 .
 Settings
@@ -259,6 +269,7 @@ telemetry
 .
 *
 /
+Mockable
 class
 Analytics
 (

@@ -128,6 +128,16 @@ fenix
 ext
 .
 components
+import
+org
+.
+mozilla
+.
+fenix
+.
+test
+.
+Mockable
 /
 *
 *
@@ -140,6 +150,7 @@ components
 .
 *
 /
+Mockable
 class
 Utilities
 (

@@ -94,6 +94,16 @@ service
 fxa
 .
 FxaAccountManager
+import
+org
+.
+mozilla
+.
+fenix
+.
+test
+.
+Mockable
 /
 *
 *
@@ -109,6 +119,7 @@ services
 .
 *
 /
+Mockable
 class
 Services
 (

@@ -271,6 +271,16 @@ mozilla
 .
 fenix
 .
+test
+.
+Mockable
+import
+org
+.
+mozilla
+.
+fenix
+.
 utils
 .
 Settings
@@ -312,6 +322,7 @@ functionality
 .
 *
 /
+Mockable
 class
 Core
 (
@@ -322,7 +333,7 @@ context
 Context
 )
 {
-private
+protected
 val
 runtime
 by

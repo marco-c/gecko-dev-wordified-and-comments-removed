@@ -120,6 +120,16 @@ feature
 tabs
 .
 TabsUseCases
+import
+org
+.
+mozilla
+.
+fenix
+.
+test
+.
+Mockable
 /
 *
 *
@@ -149,6 +159,7 @@ interactions
 .
 *
 /
+Mockable
 class
 UseCases
 (

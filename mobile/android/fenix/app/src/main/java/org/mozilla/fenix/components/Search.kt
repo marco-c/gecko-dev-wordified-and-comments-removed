@@ -99,6 +99,16 @@ mozilla
 .
 fenix
 .
+test
+.
+Mockable
+import
+org
+.
+mozilla
+.
+fenix
+.
 utils
 .
 Settings
@@ -118,6 +128,7 @@ functionality
 .
 *
 /
+Mockable
 class
 Search
 (

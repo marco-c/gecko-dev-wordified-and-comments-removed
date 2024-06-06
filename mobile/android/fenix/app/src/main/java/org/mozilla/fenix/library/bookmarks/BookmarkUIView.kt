@@ -595,11 +595,8 @@ Int
 val
 toolbar
 =
-(
 activity
-as
-AppCompatActivity
-)
+?
 .
 findViewById
 <
@@ -631,7 +628,10 @@ Mode
 SRC_IN
 )
 toolbar
+?
 .
+run
+{
 setBackgroundColor
 (
 ContextCompat
@@ -642,8 +642,6 @@ context
 background
 )
 )
-toolbar
-.
 setTitleTextColor
 (
 ContextCompat
@@ -662,6 +660,7 @@ background
 colorFilter
 )
 }
+}
 private
 fun
 setUIForSelectingMode
@@ -675,12 +674,7 @@ Mode
 Selecting
 )
 {
-(
 activity
-as
-?
-AppCompatActivity
-)
 ?
 .
 title

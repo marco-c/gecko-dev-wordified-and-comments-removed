@@ -178,6 +178,17 @@ base
 feature
 .
 LifecycleAwareFeature
+import
+org
+.
+mozilla
+.
+fenix
+.
+test
+.
+Mockable
+Mockable
 class
 FindInPageIntegration
 (

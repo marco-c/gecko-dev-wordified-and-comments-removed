@@ -106,6 +106,17 @@ feature
 sitepermissions
 .
 SitePermissionsStorage
+import
+org
+.
+mozilla
+.
+fenix
+.
+test
+.
+Mockable
+Mockable
 class
 Storage
 (
