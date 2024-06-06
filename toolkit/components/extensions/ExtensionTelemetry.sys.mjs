@@ -1880,11 +1880,9 @@ extensionsTiming
 metric
 ]
 .
-accumulateSamples
+accumulateSingleSample
 (
-[
 value
-]
 )
 ;
 break
