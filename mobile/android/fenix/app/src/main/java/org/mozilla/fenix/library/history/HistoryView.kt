@@ -201,6 +201,10 @@ interactor
 :
 HistoryInteractor
 val
+store
+:
+HistoryFragmentStore
+val
 onZeroItemsLoaded
 :
 (
@@ -263,6 +267,7 @@ historyAdapter
 HistoryAdapter
 (
 interactor
+store
 )
 {
 isEmpty
