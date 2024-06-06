@@ -6648,6 +6648,11 @@ storage
 findSitePermissionsBy
 (
 origin
+tab
+.
+content
+.
+private
 )
 }
 view

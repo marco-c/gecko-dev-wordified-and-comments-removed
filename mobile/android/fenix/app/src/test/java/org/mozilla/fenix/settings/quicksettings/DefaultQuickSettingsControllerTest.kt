@@ -1565,6 +1565,11 @@ permissionStorage
 updateSitePermissions
 (
 testPermissions
+tab
+.
+content
+.
+private
 )
 reload
 (

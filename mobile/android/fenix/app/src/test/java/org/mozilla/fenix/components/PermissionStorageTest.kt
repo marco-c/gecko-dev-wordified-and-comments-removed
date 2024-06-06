@@ -242,6 +242,9 @@ sitePermissionsStorage
 save
 (
 sitePermissions
+private
+=
+false
 )
 }
 }
@@ -298,6 +301,12 @@ findSitePermissionsBy
 any
 (
 )
+any
+(
+)
+any
+(
+)
 )
 }
 returns
@@ -312,6 +321,7 @@ findSitePermissionsBy
 "
 origin
 "
+false
 )
 coVerify
 {
@@ -322,6 +332,9 @@ findSitePermissionsBy
 "
 origin
 "
+private
+=
+false
 )
 }
 assertEquals
@@ -377,6 +390,9 @@ storage
 updateSitePermissions
 (
 sitePermissions
+private
+=
+false
 )
 coVerify
 {
@@ -385,6 +401,9 @@ sitePermissionsStorage
 update
 (
 sitePermissions
+private
+=
+false
 )
 }
 }
@@ -524,6 +543,9 @@ sitePermissionsStorage
 remove
 (
 sitePermissions
+private
+=
+false
 )
 }
 }

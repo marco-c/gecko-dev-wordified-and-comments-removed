@@ -1270,7 +1270,12 @@ permissionStorage
 .
 updateSitePermissions
 (
+sitePermissions
+=
 updatedSitePermissions
+private
+=
+false
 )
 requireComponents
 .
@@ -1320,7 +1325,12 @@ permissionStorage
 .
 updateSitePermissions
 (
+sitePermissions
+=
 updatedSitePermissions
+private
+=
+false
 )
 requireComponents
 .
