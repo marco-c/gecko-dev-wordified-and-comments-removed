@@ -109,8 +109,9 @@ android
 color
 =
 "
-?
-tabTrayHeadingIcon
+color
+/
+tab_tray_heading_icon_normal_theme
 "
 android
 :
@@ -128,8 +129,9 @@ android
 color
 =
 "
-?
-tabTrayHeadingIconInactive
+color
+/
+tab_tray_heading_icon_inactive_normal_theme
 "
 /
 >

@@ -737,8 +737,9 @@ android
 background
 =
 "
-?
-tabTrayItemDivider
+color
+/
+tab_tray_item_divider_normal_theme
 "
 app
 :
@@ -843,7 +844,7 @@ layout_constraintTop_toBottomOf
 +
 id
 /
-tab_layout
+divider
 "
 mozac
 :
