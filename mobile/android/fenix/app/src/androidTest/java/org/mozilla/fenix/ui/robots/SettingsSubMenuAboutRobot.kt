@@ -496,17 +496,7 @@ itemToInteract
 Unit
 )
 {
-browserScreen
-{
-}
-.
-openTabDrawer
-{
-closeTab
-(
-)
-}
-homeScreen
+navigationToolbar
 {
 }
 .
@@ -1149,7 +1139,7 @@ assertCrashes
 (
 )
 {
-browserScreen
+navigationToolbar
 {
 }
 .
