@@ -24936,7 +24936,7 @@ string
 name
 =
 "
-top_sites_max_limit_content
+top_sites_max_limit_content_2
 "
 >
 To
@@ -24948,8 +24948,9 @@ site
 remove
 one
 .
-Long
-press
+Touch
+and
+hold
 the
 site
 and

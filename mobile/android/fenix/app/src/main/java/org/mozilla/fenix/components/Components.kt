@@ -378,7 +378,7 @@ core
 webAppShortcutManager
 core
 .
-topSiteStorage
+topSitesStorage
 )
 }
 val

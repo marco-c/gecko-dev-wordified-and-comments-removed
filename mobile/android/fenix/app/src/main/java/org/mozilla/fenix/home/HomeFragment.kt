@@ -1514,7 +1514,7 @@ components
 .
 core
 .
-topSiteStorage
+topSitesStorage
 .
 cachedTopSites
 tip
@@ -1580,7 +1580,7 @@ components
 .
 core
 .
-topSiteStorage
+topSitesStorage
 config
 =
 :
@@ -3318,7 +3318,7 @@ components
 .
 core
 .
-topSiteStorage
+topSitesStorage
 .
 cachedTopSites
 tip

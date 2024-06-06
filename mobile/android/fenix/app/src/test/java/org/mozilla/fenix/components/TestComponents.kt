@@ -192,7 +192,7 @@ core
 webAppShortcutManager
 core
 .
-topSiteStorage
+topSitesStorage
 )
 }
 override

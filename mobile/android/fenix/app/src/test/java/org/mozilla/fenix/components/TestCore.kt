@@ -281,7 +281,7 @@ ThumbnailStorage
 )
 override
 val
-topSiteStorage
+topSitesStorage
 =
 mockk
 <

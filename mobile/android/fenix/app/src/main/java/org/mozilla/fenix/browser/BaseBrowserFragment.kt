@@ -2159,6 +2159,13 @@ requireComponents
 core
 .
 tabCollectionStorage
+topSitesStorage
+=
+requireComponents
+.
+core
+.
+topSitesStorage
 )
 _browserInteractor
 =
