@@ -217,6 +217,16 @@ mozilla
 .
 focus
 .
+ext
+.
+getPackageInfoCompat
+import
+org
+.
+mozilla
+.
+focus
+.
 helpers
 .
 TestHelper
@@ -349,7 +359,7 @@ context
 .
 packageManager
 .
-getPackageInfo
+getPackageInfoCompat
 (
 context
 .

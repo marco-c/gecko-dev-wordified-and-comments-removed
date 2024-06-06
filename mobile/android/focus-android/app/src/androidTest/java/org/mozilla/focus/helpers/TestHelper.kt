@@ -407,6 +407,16 @@ mozilla
 .
 focus
 .
+ext
+.
+getApplicationInfoCompat
+import
+org
+.
+mozilla
+.
+focus
+.
 utils
 .
 IntentUtils
@@ -742,7 +752,7 @@ context
 packageManager
 packageManager
 .
-getApplicationInfo
+getApplicationInfoCompat
 (
 packageName
 0
