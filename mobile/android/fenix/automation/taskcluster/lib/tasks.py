@@ -201,10 +201,12 @@ artifacts
 '
 public
 /
-target
-.
+build
+/
 {
 }
+/
+target
 .
 apk
 '
@@ -2809,13 +2811,7 @@ assemble_task_id
 apk_paths
 =
 [
-"
-public
-/
-target
-.
-apk
-"
+DEFAULT_APK_ARTIFACT_LOCATION
 ]
             
 routes
