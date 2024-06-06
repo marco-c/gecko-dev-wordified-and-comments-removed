@@ -267,6 +267,12 @@ SessionLoadedIdlingResource
 class
 CustomTabRobot
 {
+private
+lateinit
+var
+sessionLoadedIdlingResource
+:
+SessionLoadedIdlingResource
 val
 progressBar
 :
@@ -571,7 +577,6 @@ expectedText
 String
 )
 {
-val
 sessionLoadedIdlingResource
 =
 SessionLoadedIdlingResource

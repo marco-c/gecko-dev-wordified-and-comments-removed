@@ -281,6 +281,12 @@ SessionLoadedIdlingResource
 class
 SettingsMozillaMenuRobot
 {
+private
+lateinit
+var
+sessionLoadedIdlingResource
+:
+SessionLoadedIdlingResource
 fun
 verifyMozillaMenuItems
 (
@@ -396,7 +402,6 @@ geckoview
 BuildConfig
 .
 MOZ_APP_VERSION
-val
 sessionLoadedIdlingResource
 =
 SessionLoadedIdlingResource
