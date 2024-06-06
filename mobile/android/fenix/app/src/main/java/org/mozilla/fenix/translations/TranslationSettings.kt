@@ -698,6 +698,9 @@ true
 hasDivider
 =
 false
+isEnabled
+=
+true
 onStateChange
 =
 {
@@ -722,6 +725,9 @@ isChecked
 =
 false
 hasDivider
+=
+true
+isEnabled
 =
 true
 onStateChange
