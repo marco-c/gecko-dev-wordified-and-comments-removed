@@ -2847,7 +2847,8 @@ wallpaper
 result
 }
 }
-private
+VisibleForTesting
+internal
 fun
 selectWallpaper
 (
@@ -2863,6 +2864,16 @@ currentWallpaperName
 wallpaper
 .
 name
+settings
+.
+currentWallpaperTextColor
+=
+wallpaper
+.
+textColor
+?
+:
+0L
 store
 .
 dispatch
