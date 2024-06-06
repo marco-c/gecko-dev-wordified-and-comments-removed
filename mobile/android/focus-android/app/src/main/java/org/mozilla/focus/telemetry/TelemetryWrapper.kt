@@ -4301,7 +4301,6 @@ class
 AutoCompleteEventSource
 {
 SETTINGS
-QUICK_ADD
 }
 fun
 saveAutocompleteDomainEvent
@@ -4327,14 +4326,6 @@ SETTINGS
 Value
 .
 SETTINGS
-AutoCompleteEventSource
-.
-QUICK_ADD
--
->
-Value
-.
-QUICK_ADD
 }
 TelemetryEvent
 .
