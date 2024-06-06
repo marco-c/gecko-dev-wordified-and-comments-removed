@@ -4804,10 +4804,6 @@ mozilla_browser_menu2
 implementation
 Deps
 .
-mozilla_browser_search
-implementation
-Deps
-.
 mozilla_browser_session
 implementation
 Deps

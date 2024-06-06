@@ -95,7 +95,7 @@ search
 .
 ext
 .
-legacy
+buildSearchUrl
 import
 mozilla
 .
@@ -7077,10 +7077,6 @@ submissionUrl
 set
 (
 searchEngine
-.
-legacy
-(
-)
 .
 buildSearchUrl
 (
