@@ -8226,9 +8226,7 @@ enabled
 }
 featureFlag
 =
-FeatureFlags
-.
-unifiedSearchFeature
+true
 )
 /
 *
@@ -8322,9 +8320,7 @@ enabled
 }
 featureFlag
 =
-FeatureFlags
-.
-notificationPrePermissionPromptEnabled
+true
 )
 /
 *
