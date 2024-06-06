@@ -101,6 +101,17 @@ I
 (
 base
 )
+bump
+:
+parent
+:
+base
+symbol
+:
+I
+(
+bump
+)
 nimbledroid
 :
 parent

@@ -72,7 +72,7 @@ fenix_taskgraph
 .
 transforms
 .
-nimbledroid
+secrets
 :
 transforms
 -
