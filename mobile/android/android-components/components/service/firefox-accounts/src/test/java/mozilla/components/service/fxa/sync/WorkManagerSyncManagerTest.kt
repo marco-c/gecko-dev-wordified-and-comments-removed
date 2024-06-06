@@ -269,7 +269,7 @@ when
 (
 mockTaskExecutor
 .
-backgroundExecutor
+serialTaskExecutor
 )
 .
 thenReturn
