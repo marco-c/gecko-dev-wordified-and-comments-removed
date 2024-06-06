@@ -260,3 +260,7 @@ io
 api
 /
 android
+#
+macOS
+.
+DS_Store
