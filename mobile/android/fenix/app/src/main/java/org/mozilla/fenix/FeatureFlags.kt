@@ -438,12 +438,9 @@ Suggest
 .
 *
 /
+const
 val
 fxSuggest
 =
-Config
-.
-channel
-.
-isNightlyOrDebug
+true
 }
