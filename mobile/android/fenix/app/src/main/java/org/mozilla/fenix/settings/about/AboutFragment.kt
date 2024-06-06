@@ -458,7 +458,7 @@ populateAboutHeader
 )
 aboutPageAdapter
 .
-updateData
+submitList
 (
 populateAboutList
 (
