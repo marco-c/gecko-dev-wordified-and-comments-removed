@@ -231,7 +231,7 @@ R
 .
 string
 .
-browser_menu_library
+browser_menu_your_library
 )
 )
 }
