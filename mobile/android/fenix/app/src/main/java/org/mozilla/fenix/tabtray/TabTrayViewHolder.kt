@@ -302,16 +302,6 @@ fenix
 ext
 .
 toTab
-import
-org
-.
-mozilla
-.
-fenix
-.
-theme
-.
-ThemeManager
 /
 *
 *
