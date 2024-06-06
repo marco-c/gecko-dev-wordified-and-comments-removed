@@ -789,7 +789,7 @@ NOTIFICATION_DELAY
 =
 Settings
 .
-ONE_DAY_MS
+THREE_DAYS_MS
 fun
 isDefaultBrowserNotificationIntent
 (
