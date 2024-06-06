@@ -1555,7 +1555,7 @@ R
 .
 drawable
 .
-ic_download
+mozac_ic_download
 primaryTextColor
 (
 )
