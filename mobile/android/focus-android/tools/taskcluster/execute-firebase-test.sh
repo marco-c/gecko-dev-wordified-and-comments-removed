@@ -108,19 +108,6 @@ tools
 /
 taskcluster
 /
-install
--
-google
--
-cloud
-.
-sh
-.
-/
-tools
-/
-taskcluster
-/
 google
 -
 firebase
@@ -168,7 +155,6 @@ e
 Execute
 test
 set
-.
 /
 google
 -
@@ -397,7 +383,6 @@ rf
 test_artifacts
 mkdir
 test_artifacts
-.
 /
 google
 -
