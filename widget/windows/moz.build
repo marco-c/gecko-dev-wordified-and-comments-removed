@@ -220,6 +220,11 @@ mozilla
 =
 [
 "
+ScreenHelperWin
+.
+h
+"
+"
 ShellHeaderOnlyUtils
 .
 h
