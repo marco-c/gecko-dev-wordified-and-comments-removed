@@ -373,9 +373,7 @@ every
 {
 navController
 .
-currentBackStack
-.
-value
+backQueue
 }
 returns
 ArrayDeque
@@ -425,9 +423,7 @@ every
 {
 navController
 .
-currentBackStack
-.
-value
+backQueue
 }
 returns
 ArrayDeque
@@ -489,9 +485,7 @@ every
 {
 navController
 .
-currentBackStack
-.
-value
+backQueue
 }
 returns
 ArrayDeque
@@ -558,9 +552,7 @@ every
 {
 navController
 .
-currentBackStack
-.
-value
+backQueue
 }
 returns
 ArrayDeque

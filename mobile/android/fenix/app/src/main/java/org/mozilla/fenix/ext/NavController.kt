@@ -470,7 +470,11 @@ Boolean
 return
 this
 .
-currentBackStackEntry
+backQueue
+.
+lastOrNull
+(
+)
 ?
 .
 destination

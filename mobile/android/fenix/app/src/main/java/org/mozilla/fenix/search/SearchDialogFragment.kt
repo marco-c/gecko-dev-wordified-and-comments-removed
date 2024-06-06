@@ -6091,9 +6091,7 @@ findNavController
 (
 )
 .
-currentBackStack
-.
-value
+backQueue
 .
 reversed
 (
