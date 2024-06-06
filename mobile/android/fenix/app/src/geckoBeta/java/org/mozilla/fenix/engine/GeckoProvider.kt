@@ -293,6 +293,15 @@ GeckoAdapter
 )
 )
 .
+aboutConfigEnabled
+(
+Config
+.
+channel
+.
+isBeta
+)
+.
 debugLogging
 (
 Config
