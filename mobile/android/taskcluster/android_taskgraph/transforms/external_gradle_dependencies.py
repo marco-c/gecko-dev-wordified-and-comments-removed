@@ -388,7 +388,9 @@ f
 project_dir
 }
 /
-buildSrc
+plugins
+/
+fenixdependencies
 /
 src
 /
@@ -396,8 +398,7 @@ main
 /
 java
 /
-*
-Dependencies
+FenixDependenciesPlugin
 .
 kt
 "

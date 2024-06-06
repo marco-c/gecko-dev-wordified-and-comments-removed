@@ -475,7 +475,9 @@ resources
 -
 fenix
 /
-buildSrc
+plugins
+/
+fenixdependencies
 /
 src
 /
@@ -483,7 +485,7 @@ main
 /
 java
 /
-FenixDependencies
+FenixDependenciesPlugin
 .
 kt
 test
