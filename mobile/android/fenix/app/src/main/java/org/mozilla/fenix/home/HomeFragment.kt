@@ -2342,9 +2342,6 @@ url
 it
 .
 title
-it
-.
-id
 )
 }
 .
