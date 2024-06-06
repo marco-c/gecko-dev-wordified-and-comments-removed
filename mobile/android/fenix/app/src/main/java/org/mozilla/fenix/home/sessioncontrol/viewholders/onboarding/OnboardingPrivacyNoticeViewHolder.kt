@@ -172,7 +172,7 @@ R
 .
 drawable
 .
-ic_onboarding_privacy_notice
+ic_info
 )
 val
 appName

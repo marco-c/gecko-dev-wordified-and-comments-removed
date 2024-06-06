@@ -2204,7 +2204,7 @@ name
 saved_logins_sort_menu_dropdown_chevron_icon_margin_start
 "
 >
-10dp
+24dp
 <
 /
 dimen
@@ -2217,7 +2217,7 @@ name
 saved_logins_sort_menu_dropdown_chevron_icon_size
 "
 >
-12dp
+24dp
 <
 /
 dimen

@@ -3290,7 +3290,7 @@ R
 .
 drawable
 .
-ic_synced_tabs
+ic_signed_out
 primaryTextColor
 (
 )
