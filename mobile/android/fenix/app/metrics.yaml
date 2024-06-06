@@ -3356,6 +3356,9 @@ list
 or
 grid
 .
+type
+:
+string
 bugs
 :
 -
