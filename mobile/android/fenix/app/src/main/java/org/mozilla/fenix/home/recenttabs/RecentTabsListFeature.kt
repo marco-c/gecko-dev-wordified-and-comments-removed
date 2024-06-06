@@ -379,6 +379,13 @@ that
 was
 recently
 viewed
+.
+Forced
+to
+start
+with
+uppercase
+.
 *
 param
 tabId
