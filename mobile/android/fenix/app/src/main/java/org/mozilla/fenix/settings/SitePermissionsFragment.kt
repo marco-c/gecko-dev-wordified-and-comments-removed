@@ -127,20 +127,6 @@ fenix
 .
 settings
 .
-SitePermissionsManagePhoneFeature
-.
-PhoneFeature
-import
-org
-.
-mozilla
-.
-fenix
-.
-settings
-.
-SitePermissionsManagePhoneFeature
-.
 PhoneFeature
 .
 NOTIFICATION
@@ -152,8 +138,6 @@ mozilla
 fenix
 .
 settings
-.
-SitePermissionsManagePhoneFeature
 .
 PhoneFeature
 .
@@ -167,8 +151,6 @@ fenix
 .
 settings
 .
-SitePermissionsManagePhoneFeature
-.
 PhoneFeature
 .
 CAMERA
@@ -180,8 +162,6 @@ mozilla
 fenix
 .
 settings
-.
-SitePermissionsManagePhoneFeature
 .
 PhoneFeature
 .
