@@ -542,6 +542,13 @@ sessionButton
 visibility
 =
 visibility
+view
+.
+tabs_list
+.
+visibility
+=
+visibility
 }
 }
 }
