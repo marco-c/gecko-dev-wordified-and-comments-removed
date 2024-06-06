@@ -2994,9 +2994,10 @@ closeIcon
 }
 if
 (
+!
 customTabConfig
 .
-disableUrlbarHiding
+enableUrlbarHiding
 )
 {
 val

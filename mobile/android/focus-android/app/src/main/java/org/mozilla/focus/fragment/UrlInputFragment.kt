@@ -1506,10 +1506,9 @@ override
 fun
 onClick
 (
-widget
+p0
 :
 View
-?
 )
 {
 tip

@@ -960,11 +960,9 @@ updateDrawState
 ds
 :
 TextPaint
-?
 )
 {
 ds
-?
 .
 isUnderlineText
 =
