@@ -139,11 +139,11 @@ ktlint
 \
 detekt
 \
-assembleGeckoBetaDebug
+assembleDebug
 \
-assembleGeckoBetaDebugAndroidTest
+assembleDebugAndroidTest
 \
-testGeckoBetaDebug
+testDebug
 #
 Tasks
 omitted
