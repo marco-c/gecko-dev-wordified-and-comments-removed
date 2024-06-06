@@ -2101,14 +2101,11 @@ core
 .
 historyStorage
 .
-deleteVisit
+deleteVisitsFor
 (
 item
 .
 url
-item
-.
-visitedAt
 )
 is
 History
