@@ -142,7 +142,7 @@ center
 "
 >
 <
-ImageButton
+ImageView
 android
 :
 layout_width
