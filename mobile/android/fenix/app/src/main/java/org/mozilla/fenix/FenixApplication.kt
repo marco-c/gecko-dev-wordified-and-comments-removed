@@ -213,6 +213,16 @@ mozilla
 .
 fenix
 .
+AdjustHelper
+.
+setupAdjustIfNeeded
+import
+org
+.
+mozilla
+.
+fenix
+.
 components
 .
 Components
@@ -375,6 +385,10 @@ this
 )
 loadExperiments
 (
+)
+setupAdjustIfNeeded
+(
+this
 )
 }
 protected
