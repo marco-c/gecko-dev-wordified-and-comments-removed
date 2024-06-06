@@ -102,7 +102,7 @@ apk
 -
 post
 -
-signing
+beetmover
 task
 -
 defaults
@@ -115,7 +115,7 @@ release
 -
 drivers
 -
-promote
+push
 description
 :
 Sends
@@ -127,13 +127,13 @@ drivers
 telling
 release
 was
-promoted
+pushed
 .
 shipping
 -
 phase
 :
-promote
+push
 worker
 -
 type
