@@ -197,6 +197,9 @@ webAppShortcutManager
 core
 .
 topSitesStorage
+core
+.
+bookmarksStorage
 )
 }
 override

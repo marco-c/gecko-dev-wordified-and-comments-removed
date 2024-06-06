@@ -327,7 +327,7 @@ sessionId
 >
 interactor
 .
-tabRemoved
+onDeleteTab
 (
 sessionId
 )

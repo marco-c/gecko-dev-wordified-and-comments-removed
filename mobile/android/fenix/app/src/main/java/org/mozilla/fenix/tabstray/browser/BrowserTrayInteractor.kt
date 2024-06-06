@@ -437,7 +437,7 @@ visuals
 .
 trayInteractor
 .
-tabRemoved
+onDeleteTab
 (
 it
 )

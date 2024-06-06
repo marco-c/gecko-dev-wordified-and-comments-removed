@@ -559,6 +559,9 @@ webAppShortcutManager
 core
 .
 topSitesStorage
+core
+.
+bookmarksStorage
 )
 }
 val
