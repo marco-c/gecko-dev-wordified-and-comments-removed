@@ -184,9 +184,9 @@ Added
 a
 custom
 permission
-org
-.
-mozilla
+{
+applicationId
+}
 .
 permission
 .
