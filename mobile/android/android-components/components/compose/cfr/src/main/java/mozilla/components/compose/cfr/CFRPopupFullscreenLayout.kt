@@ -1287,9 +1287,7 @@ PopupProperties
 (
 focusable
 =
-properties
-.
-dismissOnBackPress
+true
 dismissOnBackPress
 =
 properties
