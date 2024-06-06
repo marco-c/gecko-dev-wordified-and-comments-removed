@@ -302,8 +302,7 @@ AddTabAction
 /
 If
 the
-feature
-flag
+experiment
 for
 tabs
 is

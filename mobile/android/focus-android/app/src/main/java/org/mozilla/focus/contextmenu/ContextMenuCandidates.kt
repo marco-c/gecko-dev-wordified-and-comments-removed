@@ -180,9 +180,10 @@ List
 <
 ContextMenuCandidate
 >
+{
+val
+multiTabsConfig
 =
-if
-(
 FocusNimbus
 .
 features
@@ -192,6 +193,10 @@ tabs
 value
 (
 )
+return
+if
+(
+multiTabsConfig
 .
 isMultiTab
 )
@@ -250,15 +255,7 @@ contextMenuUseCases
 +
 if
 (
-FocusNimbus
-.
-features
-.
-tabs
-.
-value
-(
-)
+multiTabsConfig
 .
 isMultiTab
 )
@@ -335,4 +332,5 @@ context
 appLinksUseCases
 )
 )
+}
 }

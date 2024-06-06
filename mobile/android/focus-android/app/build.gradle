@@ -1210,7 +1210,7 @@ experimenterManifest
 .
 experimenter
 .
-json
+yaml
 "
 }
 configurations
@@ -1474,6 +1474,10 @@ implementation
 Dependencies
 .
 androidx_recyclerview
+implementation
+Dependencies
+.
+androidx_splash_screen
 implementation
 Dependencies
 .

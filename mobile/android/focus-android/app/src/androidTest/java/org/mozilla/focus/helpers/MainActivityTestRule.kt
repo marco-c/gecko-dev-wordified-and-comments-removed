@@ -298,12 +298,6 @@ super
 beforeActivityLaunched
 (
 )
-featureSettingsHelper
-.
-showNewOnboardingScreen
-(
-false
-)
 updateFirstRun
 (
 showFirstRun

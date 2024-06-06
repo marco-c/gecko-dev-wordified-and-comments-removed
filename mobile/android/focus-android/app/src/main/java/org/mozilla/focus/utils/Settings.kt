@@ -1046,6 +1046,13 @@ pref_key_open_links_in_external_app
 false
 )
 var
+experimentsStartFetchingTimestamp
+:
+Long
+?
+=
+null
+var
 isExperimentationEnabled
 :
 Boolean
@@ -1355,7 +1362,7 @@ apply
 )
 }
 fun
-shouldShowFirstrun
+isFirstRun
 (
 )
 :
