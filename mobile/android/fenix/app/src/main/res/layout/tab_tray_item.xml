@@ -319,7 +319,7 @@ layout_width
 "
 dimen
 /
-tab_tray_thumbnail_width
+tab_tray_list_item_thumbnail_width
 "
 android
 :
@@ -328,7 +328,7 @@ layout_height
 "
 dimen
 /
-tab_tray_thumbnail_height
+tab_tray_list_item_thumbnail_height
 "
 android
 :
