@@ -339,6 +339,14 @@ Verify
 item
 :
 "
+Logins
+"
+/
+/
+Verify
+item
+:
+"
 Site
 Permissions
 "
@@ -667,6 +675,12 @@ verifyEnhancedTrackingProtectionButton
 (
 )
 verifyEnhancedTrackingProtectionValue
+(
+)
+/
+/
+Logins
+verifyLoginsButton
 (
 )
 /
