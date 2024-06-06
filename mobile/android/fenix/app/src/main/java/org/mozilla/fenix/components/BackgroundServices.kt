@@ -904,6 +904,7 @@ context
 serverConfig
 deviceConfig
 syncConfig
+crashReporter
 )
 }
 val
@@ -947,6 +948,10 @@ DeviceConfig
 syncConfig
 :
 SyncConfig
+?
+crashReporter
+:
+CrashReporter
 ?
 )
 =
@@ -1072,6 +1077,7 @@ scopes
 .
 SCOPE_SESSION
 )
+crashReporter
 )
 .
 also
