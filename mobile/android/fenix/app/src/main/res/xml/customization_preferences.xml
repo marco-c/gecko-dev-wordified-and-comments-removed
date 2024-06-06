@@ -550,7 +550,7 @@ title
 "
 string
 /
-customize_toggle_recently_bookmarked
+customize_toggle_recent_bookmarks
 "
 app
 :
@@ -583,7 +583,7 @@ title
 "
 string
 /
-customize_toggle_recently_visited
+customize_toggle_recent_searches
 "
 app
 :

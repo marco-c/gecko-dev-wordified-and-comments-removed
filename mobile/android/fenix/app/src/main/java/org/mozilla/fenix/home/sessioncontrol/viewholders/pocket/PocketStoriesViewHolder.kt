@@ -597,7 +597,7 @@ R
 .
 string
 .
-pocket_stories_header
+pocket_stories_header_1
 )
 modifier
 =
