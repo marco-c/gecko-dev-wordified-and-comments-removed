@@ -281,8 +281,13 @@ macOS
 .
 DS_Store
 #
-Token
+Secrets
 files
+e
+.
+g
+.
+tokens
 .
 leanplum_token
 .
@@ -291,6 +296,8 @@ adjust_token
 sentry_token
 .
 mls_token
+.
+nimbus
 #
 Python
 Byte
