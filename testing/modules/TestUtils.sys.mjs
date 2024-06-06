@@ -165,7 +165,9 @@ for
 example
 LoginTestUtils
 .
-jsm
+sys
+.
+mjs
 .
 *
 /

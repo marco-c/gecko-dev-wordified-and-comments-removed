@@ -2934,9 +2934,11 @@ see
 the
 comment
 in
-SpecialPowersObserver
+SpecialPowersParent
 .
-jsm
+sys
+.
+mjs
 above
 /
 /
@@ -4930,7 +4932,7 @@ obs
 .
 addObserver
 in
-SpecialPowersObserver
+SpecialPowersParent
 *
 (
 that
@@ -4981,7 +4983,7 @@ you
 should
 modify
 *
-SpecialPowersObserver
+SpecialPowersParent
 .
 prototype
 .

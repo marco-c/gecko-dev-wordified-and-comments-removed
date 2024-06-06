@@ -260,7 +260,9 @@ test
 /
 AppUiTestDelegate
 .
-jsm
+sys
+.
+mjs
 *
 -
 mobile
@@ -273,7 +275,9 @@ test
 /
 AppUiTestDelegate
 .
-jsm
+sys
+.
+mjs
 *
 -
 mail

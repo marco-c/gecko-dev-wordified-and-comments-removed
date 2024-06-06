@@ -210,7 +210,7 @@ _EU_OS
 =
 _EU_ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -223,7 +223,9 @@ modules
 /
 AppConstants
 .
-jsm
+sys
+.
+mjs
 "
 )
 .

@@ -10431,7 +10431,9 @@ Versions
 of
 EventUtils
 .
-jsm
+sys
+.
+mjs
 synthesizeMouse
 functions
 that
@@ -10589,7 +10591,9 @@ to
 the
 EventUtils
 .
-jsm
+sys
+.
+mjs
 version
 *
 param
@@ -10762,7 +10766,9 @@ Versions
 of
 EventUtils
 .
-jsm
+sys
+.
+mjs
 synthesizeTouch
 functions
 that
@@ -10920,7 +10926,9 @@ to
 the
 EventUtils
 .
-jsm
+sys
+.
+mjs
 version
 *
 param
