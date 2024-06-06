@@ -81,11 +81,6 @@ gitignore
 "
         
 "
-.
-vpython
-"
-        
-"
 CODE_OF_CONDUCT
 .
 md
