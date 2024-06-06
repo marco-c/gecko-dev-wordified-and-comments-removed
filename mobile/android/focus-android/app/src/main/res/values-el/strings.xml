@@ -1797,7 +1797,7 @@ li
 <
 li
 >
-cookie
+cookies
 <
 /
 li
@@ -1902,7 +1902,7 @@ name
 preference_privacy_and_security_summary
 "
 >
-cookie
+cookies
 <
 /
 string
@@ -2914,7 +2914,7 @@ name
 preference_category_cookies
 "
 >
-Cookie
+Cookies
 <
 /
 string
@@ -3496,7 +3496,7 @@ name
 preference_privacy_category_cookies
 "
 >
-cookie
+cookies
 <
 /
 string
@@ -3560,7 +3560,7 @@ name
 preference_privacy_should_block_cookies_third_party_tracker_cookies_option
 "
 >
-cookie
+cookies
 <
 /
 string
@@ -3573,7 +3573,7 @@ name
 preference_privacy_should_block_cookies_third_party_only_option
 "
 >
-cookie
+cookies
 <
 /
 string
@@ -9065,6 +9065,8 @@ tip_fresh_look
 "
 >
 !
+\
+n
 %
 1
 s
@@ -9452,7 +9454,7 @@ name
 preference_block_cookies_title
 "
 >
-cookie
+cookies
 <
 /
 string
@@ -9483,7 +9485,7 @@ name
 preference_category_block_cookies
 "
 >
-cookie
+cookies
 ;
 <
 /

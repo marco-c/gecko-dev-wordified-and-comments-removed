@@ -3556,8 +3556,6 @@ name
 preference_privacy_should_block_cookies_third_party_tracker_cookies_option
 "
 >
--
-3
 <
 /
 string
@@ -3570,8 +3568,6 @@ name
 preference_privacy_should_block_cookies_third_party_only_option
 "
 >
--
-3
 <
 /
 string
@@ -6022,14 +6018,6 @@ firstrun_shortcut_text
 s
 -
 .
-\
-&
-quot
-;
-\
-&
-quot
-;
 %
 1
 s
@@ -7993,9 +7981,7 @@ preference_remote_debugging
 >
 USB
 /
-Wi
--
-Fi
+WiFi
 -
 <
 /
@@ -9091,6 +9077,8 @@ tip_fresh_look
 "
 >
 !
+\
+n
 %
 1
 s
