@@ -203,6 +203,16 @@ fenix
 .
 ext
 .
+filterNotExistsOnDisk
+import
+org
+.
+mozilla
+.
+fenix
+.
+ext
+.
 requireComponents
 import
 org
@@ -345,6 +355,10 @@ value
 contentType
 )
 }
+.
+filterNotExistsOnDisk
+(
+)
 downloadStore
 =
 StoreProvider
