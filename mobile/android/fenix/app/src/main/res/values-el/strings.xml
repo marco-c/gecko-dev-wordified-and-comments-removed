@@ -1106,7 +1106,7 @@ UnusedResources
 %
 1
 s
-cookies
+cookie
 .
 %
 2
@@ -1186,7 +1186,7 @@ felt_privacy_info_card_subtitle_2
 %
 1
 s
-cookies
+cookie
 .
 %
 2
@@ -1627,7 +1627,7 @@ erase_action_cfr_message
 "
 >
 .
-cookies
+cookie
 .
 <
 /
@@ -6831,7 +6831,7 @@ ignore
 UnusedResources
 "
 >
-cookies
+cookie
 <
 /
 string
@@ -6957,7 +6957,7 @@ ignore
 UnusedResources
 "
 >
-cookies
+cookie
 <
 /
 string
@@ -7106,7 +7106,7 @@ UnusedResources
 %
 1
 s
-cookies
+cookie
 .
 <
 /
@@ -7548,7 +7548,7 @@ ignore
 UnusedResources
 "
 >
-cookies
+cookie
 %
 1
 s
@@ -7688,7 +7688,7 @@ ignore
 UnusedResources
 "
 >
-cookies
+cookie
 %
 1
 s
@@ -7817,7 +7817,7 @@ reduce_cookie_banner_details_panel_title_unsupported_site_request_2
 %
 1
 s
-cookies
+cookie
 .
 .
 <
@@ -7896,9 +7896,9 @@ UnusedResources
 %
 1
 s
-cookies
+cookie
 .
-cookies
+cookie
 .
 <
 /
@@ -8041,7 +8041,7 @@ UnusedResources
 %
 1
 s
-cookies
+cookie
 .
 <
 /
@@ -8162,7 +8162,7 @@ UnusedResources
 %
 1
 s
-cookies
+cookie
 ;
 <
 /
@@ -8220,7 +8220,7 @@ UnusedResources
 %
 1
 s
-cookies
+cookie
 .
 <
 /
@@ -8311,7 +8311,7 @@ ignore
 UnusedResources
 "
 >
-cookies
+cookie
 <
 /
 string
@@ -17985,7 +17985,7 @@ name
 preference_phone_feature_cross_origin_storage_access
 "
 >
-Cookies
+Cookie
 <
 /
 string
@@ -20533,7 +20533,7 @@ name
 notification_re_engagement_text
 "
 >
-cookies
+cookie
 %
 1
 s
@@ -21904,7 +21904,7 @@ name
 preferences_delete_browsing_data_cookies_and_site_data
 "
 >
-Cookies
+Cookie
 <
 /
 string
@@ -22248,7 +22248,7 @@ UnusedResources
 >
 (
 )
-cookies
+cookie
 .
 <
 /
@@ -23713,7 +23713,7 @@ name
 preference_enhanced_tracking_protection_custom_cookies
 "
 >
-Cookies
+Cookie
 <
 /
 string
@@ -23776,7 +23776,7 @@ name
 preference_enhanced_tracking_protection_custom_cookies_2
 "
 >
-Cookies
+Cookie
 <
 /
 string
@@ -23808,7 +23808,7 @@ name
 preference_enhanced_tracking_protection_custom_cookies_3
 "
 >
-cookies
+cookie
 (
 )
 <
@@ -23842,7 +23842,7 @@ name
 preference_enhanced_tracking_protection_custom_cookies_4
 "
 >
-cookies
+cookie
 (
 )
 <
@@ -23876,7 +23876,7 @@ name
 preference_enhanced_tracking_protection_custom_cookies_5
 "
 >
-cookies
+cookie
 <
 /
 string
@@ -24234,7 +24234,7 @@ name
 etp_cookies_title
 "
 >
-Cookies
+Cookie
 <
 /
 string
@@ -24272,7 +24272,7 @@ name
 etp_cookies_title_2
 "
 >
-Cookies
+Cookie
 <
 /
 string
@@ -24307,7 +24307,7 @@ name
 etp_cookies_description
 "
 >
-cookies
+cookie
 .
 <
 /
@@ -24344,7 +24344,7 @@ etp_cookies_description_2
 "
 >
 cookie
-cookies
+cookie
 .
 <
 /
@@ -24812,7 +24812,7 @@ name
 etp_redirect_trackers_description
 "
 >
-cookies
+cookie
 .
 <
 /
@@ -29998,7 +29998,7 @@ name
 clear_site_data
 "
 >
-cookies
+cookie
 <
 /
 string
@@ -30040,7 +30040,7 @@ confirm_clear_site_data
 [
 CDATA
 [
-cookies
+cookie
 <
 b
 >

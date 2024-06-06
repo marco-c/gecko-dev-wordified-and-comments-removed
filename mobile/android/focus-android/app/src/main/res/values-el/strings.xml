@@ -912,18 +912,6 @@ string
 name
 =
 "
-menu_whats_new
-"
->
-<
-/
-string
->
-<
-string
-name
-=
-"
 menu_settings
 "
 >
@@ -2028,7 +2016,7 @@ li
 <
 li
 >
-cookies
+cookie
 <
 /
 li
@@ -2130,7 +2118,7 @@ name
 preference_privacy_and_security_summary
 "
 >
-cookies
+cookie
 <
 /
 string
@@ -3176,7 +3164,7 @@ name
 preference_category_cookies
 "
 >
-Cookies
+Cookie
 <
 /
 string
@@ -3758,7 +3746,7 @@ name
 preference_privacy_category_cookies
 "
 >
-cookies
+cookie
 <
 /
 string
@@ -3822,7 +3810,7 @@ name
 preference_privacy_should_block_cookies_third_party_tracker_cookies_option
 "
 >
-cookies
+cookie
 <
 /
 string
@@ -3835,7 +3823,7 @@ name
 preference_privacy_should_block_cookies_third_party_only_option
 "
 >
-cookies
+cookie
 <
 /
 string
@@ -3848,7 +3836,7 @@ name
 preference_privacy_should_block_cookies_cross_site_option
 "
 >
-cookies
+cookie
 <
 /
 string
@@ -8777,7 +8765,7 @@ name
 preferences_cookie_banner
 "
 >
-cookies
+cookie
 <
 /
 string
@@ -8887,7 +8875,7 @@ name
 cookie_banner_reject_all_option_title
 "
 >
-cookies
+cookie
 <
 /
 string
@@ -8928,7 +8916,7 @@ name
 cookie_banner_reject_all_option_summary
 "
 >
-cookies
+cookie
 .
 <
 /
@@ -8979,7 +8967,7 @@ name
 cookie_banner_exception_item_title
 "
 >
-cookies
+cookie
 <
 /
 string
@@ -9162,7 +9150,7 @@ name
 cookie_banner_exception_panel_switch_title
 "
 >
-cookies
+cookie
 <
 /
 string
@@ -9318,7 +9306,7 @@ name
 cookie_banner_exception_panel_title_state_on_for_site
 "
 >
-cookies
+cookie
 %
 1
 s
@@ -9382,7 +9370,7 @@ name
 cookie_banner_exception_panel_title_state_off_for_site
 "
 >
-cookies
+cookie
 %
 1
 s
@@ -9452,9 +9440,9 @@ cookie_banner_exception_panel_description_state_on_for_site
 %
 1
 s
-cookies
+cookie
 .
-cookies
+cookie
 .
 <
 /
@@ -9521,7 +9509,7 @@ cookie_banner_exception_panel_description_state_off_for_site2
 %
 1
 s
-cookies
+cookie
 .
 <
 /
@@ -9574,7 +9562,7 @@ name
 cookie_banner_exception_panel_description_site_is_not_supported
 "
 >
-cookies
+cookie
 .
 ;
 <
@@ -9826,14 +9814,14 @@ cfr_cookie_banner
 %
 1
 s
-cookies
-cookies
+cookie
+cookie
 .
 \
 n
 \
 n
-cookies
+cookie
 %
 2
 s
@@ -11916,7 +11904,7 @@ name
 preference_block_cookies_title
 "
 >
-cookies
+cookie
 <
 /
 string
@@ -11947,7 +11935,7 @@ name
 preference_category_block_cookies
 "
 >
-cookies
+cookie
 ;
 <
 /
@@ -13448,7 +13436,7 @@ name
 cfr_for_toolbar_delete_icon2
 "
 >
-cookies
+cookie
 .
 <
 /
