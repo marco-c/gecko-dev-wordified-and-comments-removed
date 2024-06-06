@@ -690,7 +690,7 @@ text
 it
 .
 first
-linkTextState
+linkTextStates
 =
 listOf
 (

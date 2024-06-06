@@ -369,6 +369,8 @@ expected
 ReviewQualityCheckState
 .
 NotOptedIn
+(
+)
 assertEquals
 (
 expected
@@ -590,6 +592,8 @@ expected
 ReviewQualityCheckState
 .
 NotOptedIn
+(
+)
 assertEquals
 (
 expected

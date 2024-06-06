@@ -286,6 +286,8 @@ else
 ReviewQualityCheckState
 .
 NotOptedIn
+(
+)
 }
 }
 ReviewQualityCheckAction
@@ -297,6 +299,8 @@ OptOut
 ReviewQualityCheckState
 .
 NotOptedIn
+(
+)
 }
 ReviewQualityCheckAction
 .
