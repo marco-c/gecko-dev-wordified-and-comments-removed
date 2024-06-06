@@ -73,12 +73,6 @@ Context
 import
 androidx
 .
-annotation
-.
-VisibleForTesting
-import
-androidx
-.
 paging
 .
 DataSource
@@ -142,8 +136,7 @@ val
 context
 :
 Context
-VisibleForTesting
-internal
+private
 val
 dispatcher
 :
@@ -152,7 +145,6 @@ CoroutineContext
 Dispatchers
 .
 IO
-VisibleForTesting
 internal
 val
 permissionsStorage

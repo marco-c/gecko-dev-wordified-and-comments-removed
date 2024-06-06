@@ -333,7 +333,6 @@ val
 container
 :
 ViewGroup
-VisibleForTesting
 internal
 val
 shouldScrollWithTopToolbar

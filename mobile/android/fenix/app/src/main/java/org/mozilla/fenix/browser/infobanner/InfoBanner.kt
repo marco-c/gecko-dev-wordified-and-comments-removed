@@ -280,7 +280,6 @@ dismissByHiding
 Boolean
 =
 false
-VisibleForTesting
 internal
 val
 dismissAction
@@ -295,8 +294,7 @@ Unit
 ?
 =
 null
-VisibleForTesting
-internal
+private
 val
 actionToPerform
 :

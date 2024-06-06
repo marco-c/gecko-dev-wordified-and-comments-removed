@@ -740,13 +740,11 @@ val
 navController
 :
 NavController
-VisibleForTesting
 internal
 val
 sessionId
 :
 String
-VisibleForTesting
 internal
 var
 sitePermissions

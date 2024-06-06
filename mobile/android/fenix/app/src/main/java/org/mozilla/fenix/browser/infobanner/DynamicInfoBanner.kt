@@ -81,12 +81,6 @@ ViewGroup
 import
 androidx
 .
-annotation
-.
-VisibleForTesting
-import
-androidx
-.
 coordinatorlayout
 .
 widget
@@ -163,7 +157,6 @@ Context
 container
 :
 ViewGroup
-VisibleForTesting
 internal
 val
 shouldScrollWithTopToolbar

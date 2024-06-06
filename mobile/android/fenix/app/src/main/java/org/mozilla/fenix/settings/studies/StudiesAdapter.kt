@@ -365,8 +365,7 @@ List
 <
 EnrolledExperiment
 >
-VisibleForTesting
-internal
+private
 val
 shouldSubmitOnInit
 :

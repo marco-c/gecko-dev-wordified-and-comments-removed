@@ -132,6 +132,8 @@ AppViewHolder
 itemView
 :
 View
+get
+:
 VisibleForTesting
 val
 interactor
