@@ -123,6 +123,12 @@ android
 .
 widget
 .
+LinearLayout
+import
+android
+.
+widget
+.
 RadioGroup
 import
 androidx
@@ -806,7 +812,7 @@ itemResId
 null
 )
 as
-ConstraintLayout
+LinearLayout
 wrapper
 .
 setOnClickListener

@@ -131,6 +131,12 @@ widget
 .
 CompoundButton
 import
+android
+.
+widget
+.
+LinearLayout
+import
 androidx
 .
 constraintlayout
@@ -1438,7 +1444,7 @@ search_engine_radio_button
 null
 )
 as
-ConstraintLayout
+LinearLayout
 wrapper
 .
 setOnClickListener
