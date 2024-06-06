@@ -6193,7 +6193,7 @@ ComponentsDependencies
 .
 androidx_recyclerview
 implementation
-FenixDependencies
+ComponentsDependencies
 .
 androidx_lifecycle_common
 implementation
