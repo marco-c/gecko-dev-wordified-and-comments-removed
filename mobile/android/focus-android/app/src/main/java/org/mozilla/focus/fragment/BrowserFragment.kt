@@ -3280,7 +3280,7 @@ shareEvent
 (
 )
 }
-private
+internal
 fun
 edit
 (

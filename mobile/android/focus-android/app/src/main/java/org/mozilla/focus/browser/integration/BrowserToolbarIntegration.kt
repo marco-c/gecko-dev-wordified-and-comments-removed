@@ -342,9 +342,9 @@ showSecurityPopUp
 onUrlClicked
 =
 {
-toolbar
+fragment
 .
-editMode
+edit
 (
 )
 false
