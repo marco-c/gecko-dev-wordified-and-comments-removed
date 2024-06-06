@@ -399,16 +399,6 @@ echo
 adjust_token
 &
 &
-python
-tools
-/
-l10n
-/
-check_locales
-.
-py
-&
-&
 .
 /
 gradlew
@@ -1082,7 +1072,7 @@ taskcluster
 /
 schedule
 -
-master
+main
 -
 build
 .
@@ -1130,7 +1120,8 @@ description
 Scheduling
 tasks
 for
-master
+main
+branch
 push
 owner
 :
@@ -2288,7 +2279,7 @@ reset
 hard
 origin
 /
-master
+main
 &
 &
 git

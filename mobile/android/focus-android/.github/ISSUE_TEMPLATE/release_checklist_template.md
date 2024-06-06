@@ -337,7 +337,7 @@ privileges
 .
 After
 that
-master
+main
 is
 tracking
 the
@@ -568,7 +568,7 @@ string
 import
 commits
 from
-master
+main
 into
 the
 release
@@ -964,7 +964,7 @@ then
 fix
 them
 on
-master
+main
 and
 the
 milestone

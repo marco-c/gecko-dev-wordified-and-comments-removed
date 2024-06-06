@@ -33,7 +33,7 @@ docs
 /
 blob
 /
-master
+main
 /
 android
 /
