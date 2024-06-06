@@ -933,15 +933,6 @@ close
 (
 )
 }
-TransitionManager
-.
-beginDelayedTransition
-(
-view
-.
-collection_constraint_layout
-transition
-)
 val
 constraint
 =
