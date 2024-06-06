@@ -122,7 +122,9 @@ name
 mozac_browser_toolbar_content_description_tracking_protection_on_no_trackers_blocked
 "
 >
-Ch
+Tr
+nh
+ch
 ng
 theo
 d
@@ -229,6 +231,8 @@ name
 mozac_browser_toolbar_content_description_tracking_protection_off_for_a_site1
 "
 >
+t
+t
 Tr
 nh
 ch
@@ -236,15 +240,11 @@ ng
 theo
 d
 i
-b
-t
-t
 cho
 trang
 web
 n
 y
-.
 <
 /
 string
@@ -283,6 +283,7 @@ mozac_browser_toolbar_content_description_site_info
 Th
 ng
 tin
+v
 trang
 web
 <

@@ -1861,7 +1861,7 @@ moz
 removedIn
 =
 "
-120
+123
 "
 tools
 :
@@ -2062,6 +2062,8 @@ v
 ti
 n
 ch
+n
+y
 <
 /
 string
@@ -2987,8 +2989,9 @@ name
 mozac_feature_addons_permissions_dialog_add
 "
 >
-Th
-m
+C
+i
+t
 <
 /
 string
@@ -3331,6 +3334,9 @@ mozac_feature_addons_addons
 Ti
 n
 ch
+m
+r
+ng
 <
 /
 string
