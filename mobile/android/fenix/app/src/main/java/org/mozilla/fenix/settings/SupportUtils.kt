@@ -239,6 +239,14 @@ private
 browsing
 "
 )
+YOUR_RIGHTS
+(
+"
+your
+-
+rights
+"
+)
 }
 fun
 getSumoURLForTopic
