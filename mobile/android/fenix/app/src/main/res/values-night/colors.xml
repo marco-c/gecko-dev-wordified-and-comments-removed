@@ -1362,8 +1362,15 @@ color
 !
 -
 -
+Active
+tab
+(
+Nav
+)
 Selected
 tab
+Active
+form
 -
 -
 >
@@ -1372,7 +1379,7 @@ color
 name
 =
 "
-fx_mobile_border_color_selected
+fx_mobile_border_color_accent
 "
 tools
 :
