@@ -99,6 +99,7 @@ FenixSnackbar
 class
 FenixSnackbarDelegate
 (
+private
 val
 view
 :
