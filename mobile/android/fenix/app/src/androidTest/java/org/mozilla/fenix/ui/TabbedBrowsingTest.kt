@@ -1137,7 +1137,7 @@ verifyNewTabButton
 )
 verifyTabTrayOverflowMenu
 (
-false
+true
 )
 }
 .
@@ -1151,7 +1151,7 @@ verifyNewTabButton
 )
 verifyTabTrayOverflowMenu
 (
-false
+true
 )
 }
 }
