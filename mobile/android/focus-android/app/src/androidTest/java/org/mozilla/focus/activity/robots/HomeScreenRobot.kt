@@ -297,6 +297,17 @@ click
 )
 )
 fun
+closeOnboarding
+(
+)
+=
+onboardingCloseButton
+.
+clickAndWaitForNewWindow
+(
+waitingTime
+)
+fun
 verifyOnboardingFirstSlide
 (
 )
