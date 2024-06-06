@@ -1385,6 +1385,7 @@ IOException
 :
 class
 )
+override
 suspend
 fun
 getAddonIconBitmap

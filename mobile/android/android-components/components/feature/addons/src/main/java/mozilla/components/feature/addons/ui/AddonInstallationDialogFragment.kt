@@ -267,7 +267,7 @@ feature
 .
 addons
 .
-R
+AddonsProvider
 import
 mozilla
 .
@@ -277,9 +277,7 @@ feature
 .
 addons
 .
-amo
-.
-AMOAddonsProvider
+R
 import
 mozilla
 .
@@ -554,7 +552,7 @@ application
 '
 s
 [
-AMOAddonsProvider
+AddonsProvider
 ]
 to
 fetch
@@ -568,7 +566,7 @@ icons
 var
 addonsProvider
 :
-AMOAddonsProvider
+AddonsProvider
 ?
 =
 null
@@ -1544,6 +1542,15 @@ dialog
 .
 *
 param
+addonsProvider
+An
+add
+-
+ons
+provider
+.
+*
+param
 promptsStyling
 Styling
 properties
@@ -1586,7 +1593,7 @@ addon
 Addon
 addonsProvider
 :
-AMOAddonsProvider
+AddonsProvider
 promptsStyling
 :
 PromptsStyling
