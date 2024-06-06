@@ -170,6 +170,13 @@ find_in_page
 "
 android
 :
+lines
+=
+"
+1
+"
+android
+:
 paddingBottom
 =
 "
