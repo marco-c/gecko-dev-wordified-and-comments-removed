@@ -693,6 +693,15 @@ store
 menu
 =
 tabCounterMenu
+showMaskInPrivateMode
+=
+context
+.
+settings
+(
+)
+.
+feltPrivateBrowsingEnabled
 )
 val
 tabCount
