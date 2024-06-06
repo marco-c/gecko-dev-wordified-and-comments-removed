@@ -1513,7 +1513,7 @@ R
 .
 string
 .
-review_quality_check_adjusted_rating_description
+review_quality_check_adjusted_rating_description_2
 )
 color
 =
