@@ -594,13 +594,6 @@ name
 "
 toolbarUrlDarkBackground
 "
-tools
-:
-ignore
-=
-"
-MissingDefaultResource
-"
 >
 #
 1D1133
@@ -614,13 +607,6 @@ name
 =
 "
 toolbarUrlLightBackground
-"
-tools
-:
-ignore
-=
-"
-MissingDefaultResource
 "
 >
 #
