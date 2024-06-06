@@ -2638,6 +2638,9 @@ onPause
 (
 )
 {
+invokePendingDeleteJobs
+(
+)
 super
 .
 onPause
