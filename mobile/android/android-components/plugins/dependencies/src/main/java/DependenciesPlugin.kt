@@ -596,11 +596,11 @@ val
 compose_bom
 =
 "
-2024
+2023
 .
-02
+10
 .
-02
+01
 "
 const
 val
