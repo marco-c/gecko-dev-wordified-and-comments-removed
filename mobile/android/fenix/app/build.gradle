@@ -2988,6 +2988,10 @@ mozilla_service_glean
 implementation
 Deps
 .
+mozilla_service_experiments
+implementation
+Deps
+.
 mozilla_support_ktx
 implementation
 Deps
