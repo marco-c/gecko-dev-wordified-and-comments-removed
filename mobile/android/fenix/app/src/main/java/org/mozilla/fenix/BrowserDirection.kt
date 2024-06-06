@@ -259,14 +259,6 @@ id
 .
 addNewDeviceFragment
 )
-FromAddSearchEngineFragment
-(
-R
-.
-id
-.
-addSearchEngineFragment
-)
 FromSearchEngineFragment
 (
 R

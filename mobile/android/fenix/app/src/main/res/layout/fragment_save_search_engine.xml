@@ -157,7 +157,7 @@ settings
 .
 search
 .
-AddSearchEngineFragment
+SaveSearchEngineFragment
 "
 xmlns
 :
