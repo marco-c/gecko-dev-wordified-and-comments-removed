@@ -293,6 +293,11 @@ releaseTemplate
 >
 >
 {
+applicationIdSuffix
+"
+.
+nightly
+"
 buildConfigField
 "
 boolean
