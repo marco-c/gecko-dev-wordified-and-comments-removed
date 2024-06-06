@@ -543,7 +543,7 @@ Image
 <
 UpdateUrl
 >
-http
+https
 :
 /
 /
@@ -579,7 +579,7 @@ GET
 template
 =
 "
-http
+https
 :
 /
 /

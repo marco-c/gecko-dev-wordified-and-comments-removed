@@ -262,7 +262,7 @@ Image
 <
 SearchForm
 >
-http
+https
 :
 /
 /
@@ -293,7 +293,7 @@ GET
 template
 =
 "
-http
+https
 :
 /
 /
