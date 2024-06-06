@@ -200,7 +200,7 @@ fenix
 .
 ui
 .
-SmokeTest
+MainMenuTest
 #
 openMainMenuSettingsItemTest
 -
