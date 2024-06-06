@@ -8817,6 +8817,12 @@ expand
 }
 if
 (
+customTabSessionId
+=
+=
+null
+&
+&
 requireContext
 (
 )
