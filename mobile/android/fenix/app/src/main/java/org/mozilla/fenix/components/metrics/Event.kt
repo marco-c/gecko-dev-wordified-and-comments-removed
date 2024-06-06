@@ -1185,6 +1185,12 @@ Event
 (
 )
 object
+TabsTraySyncedModeTapped
+:
+Event
+(
+)
+object
 NewTabTapped
 :
 Event

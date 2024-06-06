@@ -1372,6 +1372,14 @@ isEmpty
 )
 )
 {
+metrics
+.
+track
+(
+Event
+.
+CollectionTabLongPressed
+)
 interactor
 .
 select

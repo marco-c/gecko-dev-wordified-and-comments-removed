@@ -269,6 +269,9 @@ store
 mockk
 (
 )
+mockk
+(
+)
 )
 every
 {
@@ -363,6 +366,9 @@ store
 mockk
 (
 )
+mockk
+(
+)
 )
 every
 {
@@ -436,6 +442,9 @@ relaxed
 true
 )
 store
+mockk
+(
+)
 mockk
 (
 )
