@@ -1254,6 +1254,18 @@ onLayoutCompleted
 (
 state
 )
+if
+(
+!
+context
+.
+settings
+(
+)
+.
+showHomeOnboardingDialog
+)
+{
 JumpBackInCFRDialog
 (
 view
@@ -1295,6 +1307,7 @@ settings
 showSyncCFR
 =
 false
+}
 }
 /
 /
