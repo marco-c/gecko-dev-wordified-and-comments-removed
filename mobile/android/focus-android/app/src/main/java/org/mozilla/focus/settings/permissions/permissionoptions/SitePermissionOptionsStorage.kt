@@ -1186,7 +1186,7 @@ SitePermissionsRules
 .
 Action
 .
-BLOCKED
+ASK_TO_ALLOW
 )
 private
 fun
