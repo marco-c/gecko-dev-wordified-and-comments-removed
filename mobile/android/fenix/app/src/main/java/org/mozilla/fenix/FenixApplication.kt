@@ -1978,9 +1978,6 @@ startMetricsIfEnabled
 setupPush
 (
 )
-migrateTopicSpecificSearchEngines
-(
-)
 visibilityLifecycleCallback
 =
 VisibilityLifecycleCallback
@@ -5184,6 +5181,9 @@ custom
 )
 }
 }
+migrateTopicSpecificSearchEngines
+(
+)
 }
 }
 }
