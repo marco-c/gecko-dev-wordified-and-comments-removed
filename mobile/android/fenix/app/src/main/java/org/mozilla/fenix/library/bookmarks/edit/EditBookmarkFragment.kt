@@ -235,7 +235,9 @@ appservices
 .
 places
 .
-UrlParseFailed
+uniffi
+.
+PlacesException
 import
 mozilla
 .
@@ -1709,6 +1711,8 @@ catch
 (
 e
 :
+PlacesException
+.
 UrlParseFailed
 )
 {

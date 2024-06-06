@@ -225,7 +225,7 @@ title
 String
 position
 :
-Int
+UInt
 ?
 =
 null
