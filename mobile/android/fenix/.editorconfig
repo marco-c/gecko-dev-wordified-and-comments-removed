@@ -39,7 +39,7 @@ fenix
 issues
 /
 4861
-disabled_rules
+ktlint_disabled_rules
 =
 import
 -
