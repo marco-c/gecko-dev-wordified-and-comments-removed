@@ -824,6 +824,11 @@ isCustomTabMode
 {
 showFirstrun
 (
+components
+.
+sessionManager
+.
+selectedSession
 )
 }
 }
