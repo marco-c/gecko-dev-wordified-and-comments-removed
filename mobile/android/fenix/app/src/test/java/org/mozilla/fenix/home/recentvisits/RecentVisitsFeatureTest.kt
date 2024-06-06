@@ -363,6 +363,16 @@ RecentlyVisitedItemInternal
 .
 HistoryHighlightInternal
 import
+org
+.
+mozilla
+.
+fenix
+.
+utils
+.
+Settings
+import
 kotlin
 .
 random
@@ -459,6 +469,11 @@ relaxed
 =
 true
 )
+Settings
+.
+SEARCH_GROUP_MINIMUM_SITES
+=
+1
 }
 Test
 fun
@@ -2260,7 +2275,6 @@ mockk
 mockk
 (
 )
-false
 )
 )
 val
@@ -2374,7 +2388,6 @@ mockk
 mockk
 (
 )
-false
 )
 val
 visitsFromSearch
@@ -2560,7 +2573,6 @@ mockk
 mockk
 (
 )
-false
 )
 val
 visitsFromSearch
@@ -2681,7 +2693,6 @@ mockk
 mockk
 (
 )
-false
 )
 val
 visitsFromSearch
@@ -2796,7 +2807,6 @@ mockk
 mockk
 (
 )
-false
 )
 val
 visitsFromSearch
@@ -2910,7 +2920,6 @@ mockk
 mockk
 (
 )
-false
 )
 val
 visitsFromSearch
@@ -2999,7 +3008,6 @@ mockk
 mockk
 (
 )
-false
 )
 val
 visitsFromSearch
@@ -3128,7 +3136,6 @@ mockk
 mockk
 (
 )
-false
 )
 val
 visitsFromSearch
@@ -3269,7 +3276,6 @@ mockk
 mockk
 (
 )
-false
 )
 val
 directVisits
@@ -3337,7 +3343,6 @@ mockk
 mockk
 (
 )
-false
 )
 val
 visitsFromSearch
@@ -3454,7 +3459,6 @@ mockk
 mockk
 (
 )
-false
 )
 val
 visitsFromSearch
@@ -3608,7 +3612,6 @@ mockk
 mockk
 (
 )
-false
 )
 val
 visitsFromSearch
@@ -3727,7 +3730,6 @@ mockk
 mockk
 (
 )
-false
 )
 val
 visitsFromSearch
@@ -4096,7 +4098,6 @@ historyHightlightsStorage
 }
 scope
 testDispatcher
-false
 )
 assertEquals
 (
