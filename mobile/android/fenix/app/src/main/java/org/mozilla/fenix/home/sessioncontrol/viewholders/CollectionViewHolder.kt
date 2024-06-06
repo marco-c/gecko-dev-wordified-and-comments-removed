@@ -744,9 +744,6 @@ collection
 Suppress
 (
 "
-ComplexMethod
-"
-"
 MagicNumber
 "
 )

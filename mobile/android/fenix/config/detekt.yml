@@ -310,7 +310,7 @@ threshold
 10
 ignoreSingleWhenExpression
 :
-false
+true
 LabeledExpression
 :
 active

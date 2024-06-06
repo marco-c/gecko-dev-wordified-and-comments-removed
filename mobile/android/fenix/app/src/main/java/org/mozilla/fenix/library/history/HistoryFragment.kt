@@ -720,12 +720,6 @@ SRC_IN
 }
 }
 }
-Suppress
-(
-"
-ComplexMethod
-"
-)
 override
 fun
 onOptionsItemSelected
@@ -1116,12 +1110,6 @@ HistoryUIView
 .
 onBackPressed
 (
-)
-SuppressWarnings
-(
-"
-ComplexMethod
-"
 )
 private
 fun

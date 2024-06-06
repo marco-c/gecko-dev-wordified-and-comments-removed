@@ -550,12 +550,6 @@ raw
 high_risk_error_style
 }
 }
-Suppress
-(
-"
-ComplexMethod
-"
-)
 private
 fun
 getRiskLevel
