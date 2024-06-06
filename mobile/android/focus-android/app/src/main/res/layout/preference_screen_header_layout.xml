@@ -159,5 +159,12 @@ start
 |
 center_vertical
 "
+android
+:
+textAlignment
+=
+"
+viewStart
+"
 /
 >

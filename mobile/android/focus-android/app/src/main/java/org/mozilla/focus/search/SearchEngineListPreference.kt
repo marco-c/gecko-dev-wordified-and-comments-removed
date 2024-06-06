@@ -667,7 +667,7 @@ buttonItem
 compoundDrawables
 buttonItem
 .
-setCompoundDrawables
+setCompoundDrawablesRelative
 (
 engineIcon
 null

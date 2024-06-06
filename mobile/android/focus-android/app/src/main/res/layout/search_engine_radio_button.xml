@@ -200,5 +200,12 @@ dimen
 /
 preference_padding_vertical
 "
+android
+:
+textAlignment
+=
+"
+viewStart
+"
 /
 >
