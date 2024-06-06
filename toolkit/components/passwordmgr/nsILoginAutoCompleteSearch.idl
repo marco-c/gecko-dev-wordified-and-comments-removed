@@ -67,7 +67,7 @@ interface
 nsIAutoCompleteResult
 ;
 interface
-nsIFormAutoCompleteObserver
+nsIFormFillCompleteObserver
 ;
 webidl
 HTMLInputElement
@@ -167,7 +167,7 @@ in
 HTMLInputElement
 aElement
 in
-nsIFormAutoCompleteObserver
+nsIFormFillCompleteObserver
 aListener
 )
 ;

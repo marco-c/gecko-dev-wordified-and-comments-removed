@@ -14340,7 +14340,7 @@ gre
 /
 modules
 /
-FormAutoComplete
+FormHistory
 .
 jsm
 "
@@ -14352,7 +14352,7 @@ components
 /
 satchel
 /
-FormAutoComplete
+FormHistory
 .
 jsm
 "
@@ -14365,7 +14365,7 @@ gre
 /
 modules
 /
-FormHistory
+FormAutoComplete
 .
 jsm
 "
@@ -14377,7 +14377,7 @@ components
 /
 satchel
 /
-FormHistory
+FormHistoryAutoComplete
 .
 jsm
 "

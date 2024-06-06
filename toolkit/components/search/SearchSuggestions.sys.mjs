@@ -68,7 +68,7 @@ defineESModuleGetters
 (
 lazy
 {
-FormAutoCompleteResult
+FormHistoryAutoCompleteResult
 :
 "
 resource
@@ -79,7 +79,7 @@ gre
 /
 modules
 /
-FormAutoComplete
+FormHistoryAutoComplete
 .
 sys
 .
@@ -96,7 +96,7 @@ gre
 /
 modules
 /
-FormAutoComplete
+FormHistoryAutoComplete
 .
 sys
 .
@@ -235,7 +235,7 @@ results
 *
 param
 {
-FormAutoCompleteResult
+FormHistoryAutoCompleteResult
 }
 result
 *
@@ -1045,7 +1045,7 @@ autoCompleteResult
 new
 lazy
 .
-FormAutoCompleteResult
+FormHistoryAutoCompleteResult
 (
 client
 formHistoryEntries

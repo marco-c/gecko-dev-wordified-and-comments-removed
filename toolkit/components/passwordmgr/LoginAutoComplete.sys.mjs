@@ -2545,7 +2545,7 @@ aElement
 *
 param
 {
-nsIFormAutoCompleteObserver
+nsIFormFillCompleteObserver
 }
 aCallback
 *
