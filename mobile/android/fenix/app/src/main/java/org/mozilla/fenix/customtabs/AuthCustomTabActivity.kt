@@ -135,7 +135,7 @@ in
 class
 AuthCustomTabActivity
 :
-CustomTabActivity
+ExternalAppBrowserActivity
 (
 )
 {

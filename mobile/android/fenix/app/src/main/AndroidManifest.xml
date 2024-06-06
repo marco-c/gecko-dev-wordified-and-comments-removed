@@ -682,7 +682,7 @@ name
 .
 customtabs
 .
-CustomTabActivity
+ExternalAppBrowserActivity
 "
 android
 :

@@ -244,10 +244,12 @@ true
 )
 }
 val
-customTabIntentProcessor
+externalAppIntentProcessors
 by
 lazy
 {
+listOf
+(
 CustomTabIntentProcessor
 (
 sessionManager
@@ -257,6 +259,7 @@ loadUrl
 context
 .
 resources
+)
 )
 }
 }

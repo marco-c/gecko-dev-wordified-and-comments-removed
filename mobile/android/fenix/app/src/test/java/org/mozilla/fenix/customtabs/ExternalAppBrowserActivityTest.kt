@@ -160,7 +160,7 @@ TestApplication
 class
 )
 class
-CustomTabActivityTest
+ExternalAppBrowserActivityTest
 {
 Test
 fun
@@ -171,7 +171,7 @@ getIntentSource
 val
 activity
 =
-CustomTabActivity
+ExternalAppBrowserActivity
 (
 )
 val
