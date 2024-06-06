@@ -179,7 +179,7 @@ code
 quality
 tools
 (
-findbugs
+spotbugs
 lint
 checkstyle
 etc
@@ -445,7 +445,7 @@ ktlint
 lint
 pmd
 checkstyle
-findbugs
+spotbugs
 test
 artifacts
 :
