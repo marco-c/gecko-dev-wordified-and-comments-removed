@@ -192,6 +192,13 @@ attr
 /
 selectableItemBackground
 "
+android
+:
+transitionGroup
+=
+"
+true
+"
 app
 :
 cardBackgroundColor

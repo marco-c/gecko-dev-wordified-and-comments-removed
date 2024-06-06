@@ -202,6 +202,13 @@ background
 ?
 homeBackground
 "
+android
+:
+clipChildren
+=
+"
+false
+"
 app
 :
 layoutDescription
