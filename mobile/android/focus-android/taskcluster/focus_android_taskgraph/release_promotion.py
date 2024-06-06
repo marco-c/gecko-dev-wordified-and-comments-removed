@@ -127,10 +127,8 @@ promotion
 title
 =
 '
-Ship
-Focus
-/
-Klar
+Release
+Promotion
 '
     
 symbol
@@ -146,10 +144,8 @@ release_promotion_flavor
 description
 =
 "
-Ship
-Focus
-/
-Klar
+Release
+Promotion
 "
     
 generic
