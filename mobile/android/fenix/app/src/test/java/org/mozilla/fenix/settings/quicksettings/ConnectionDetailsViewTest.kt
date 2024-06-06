@@ -378,8 +378,9 @@ text
 assertEquals
 (
 "
-Secure
 Connection
+is
+secure
 "
 binding
 .
@@ -435,8 +436,10 @@ Certificate
 assertEquals
 (
 "
-Insecure
 Connection
+is
+not
+secure
 "
 binding
 .

@@ -348,8 +348,9 @@ text
 assertEquals
 (
 "
-Secure
 Connection
+is
+secure
 "
 binding
 .
@@ -413,8 +414,10 @@ bindConnectionDetailsListener
 assertEquals
 (
 "
-Insecure
 Connection
+is
+not
+secure
 "
 binding
 .

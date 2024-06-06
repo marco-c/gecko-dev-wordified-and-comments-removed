@@ -492,7 +492,7 @@ R
 .
 string
 .
-quick_settings_sheet_secure_connection
+quick_settings_sheet_secure_connection_2
 R
 .
 drawable
@@ -505,7 +505,7 @@ R
 .
 string
 .
-quick_settings_sheet_insecure_connection
+quick_settings_sheet_insecure_connection_2
 R
 .
 drawable
