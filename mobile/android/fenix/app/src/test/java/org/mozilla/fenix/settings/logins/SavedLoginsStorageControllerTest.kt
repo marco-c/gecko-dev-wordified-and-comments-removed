@@ -504,6 +504,17 @@ delete
 (
 loginId
 )
+loginsFragmentStore
+.
+dispatch
+(
+LoginsAction
+.
+DeleteLogin
+(
+loginId
+)
+)
 navController
 .
 popBackStack
