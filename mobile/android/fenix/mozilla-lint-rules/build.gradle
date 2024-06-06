@@ -109,6 +109,16 @@ property
 centralRepo
 "
 )
+allowInsecureProtocol
+true
+/
+/
+Local
+Nexus
+in
+CI
+uses
+HTTP
 }
 }
 else
