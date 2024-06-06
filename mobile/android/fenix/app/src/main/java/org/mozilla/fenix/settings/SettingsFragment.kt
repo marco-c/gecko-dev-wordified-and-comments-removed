@@ -2457,8 +2457,8 @@ context
 ?
 .
 navigateToNotificationsSettings
-(
-)
+{
+}
 null
 }
 resources
