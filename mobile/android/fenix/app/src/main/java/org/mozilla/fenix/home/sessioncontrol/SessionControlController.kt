@@ -2774,7 +2774,7 @@ track
 (
 Event
 .
-SetDefaultBrowserClicked
+SetDefaultBrowserNewTabClicked
 )
 activity
 .

@@ -6144,7 +6144,7 @@ it
 is
 Event
 .
-SetDefaultBrowserClicked
+SetDefaultBrowserNewTabClicked
 -
 >
 EventWrapper

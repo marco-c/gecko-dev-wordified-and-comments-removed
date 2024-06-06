@@ -1390,7 +1390,7 @@ browser
 experiment
 metrics
 object
-SetDefaultBrowserClicked
+SetDefaultBrowserNewTabClicked
 :
 Event
 (
