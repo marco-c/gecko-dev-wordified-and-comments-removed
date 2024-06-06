@@ -203,6 +203,13 @@ name
 .
 HomeActivity
 "
+android
+:
+windowSoftInputMode
+=
+"
+adjustResize
+"
 >
 <
 intent

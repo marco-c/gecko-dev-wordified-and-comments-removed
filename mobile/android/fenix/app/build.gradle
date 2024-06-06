@@ -625,6 +625,10 @@ mozilla_service_glean
 implementation
 Deps
 .
+mozilla_feature_findinpage
+implementation
+Deps
+.
 mozilla_support_ktx
 implementation
 Deps
