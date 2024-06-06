@@ -117,6 +117,16 @@ mozilla
 .
 components
 .
+concept
+.
+fetch
+.
+Client
+import
+mozilla
+.
+components
+.
 lib
 .
 state
@@ -228,6 +238,10 @@ val
 store
 :
 HomeFragmentStore
+val
+client
+:
+Client
 )
 :
 RecyclerView
@@ -254,6 +268,7 @@ setContent
 PocketStories
 (
 store
+client
 )
 }
 }
@@ -277,6 +292,9 @@ PocketStories
 store
 :
 HomeFragmentStore
+client
+:
+Client
 )
 {
 val
@@ -313,6 +331,7 @@ stories
 emptyList
 (
 )
+client
 )
 }
 }
