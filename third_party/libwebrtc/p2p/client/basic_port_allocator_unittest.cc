@@ -3291,6 +3291,7 @@ rtc
 :
 :
 NAT_OPEN_CONE
+thread_
 vss_
 .
 get
@@ -3298,6 +3299,7 @@ get
 )
 kNatUdpAddr
 kNatTcpAddr
+thread_
 vss_
 .
 get

@@ -320,6 +320,9 @@ const
 SocketAddress
 &
 int_addr
+Thread
+&
+external_socket_thread
 SocketFactory
 *
 ext_factory

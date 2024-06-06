@@ -1878,6 +1878,8 @@ Translator
 this
 type
 int_ip
+*
+msg_queue_
 server_
 ext_ip
 )
@@ -2111,6 +2113,9 @@ const
 SocketAddress
 &
 int_ip
+Thread
+&
+external_socket_thread
 SocketFactory
 *
 ext_factory
@@ -2161,6 +2166,13 @@ NATServer
 >
 (
 type
+*
+server
+-
+>
+queue
+(
+)
 internal_server_
 .
 get
@@ -2168,6 +2180,7 @@ get
 )
 int_ip
 int_ip
+external_socket_thread
 ext_factory
 ext_ip
 )
@@ -2275,6 +2288,13 @@ Translator
 server_
 type
 int_ip
+*
+server_
+-
+>
+queue
+(
+)
 server_
 ext_ip
 )
