@@ -145,9 +145,9 @@ lint
 api
 :
 {
-FenixVersions
+Versions
 .
-android_lint_api
+lint
 }
 "
 compileOnly
@@ -165,9 +165,9 @@ lint
 checks
 :
 {
-FenixVersions
+Versions
 .
-android_lint_api
+lint
 }
 "
 testImplementation
@@ -195,9 +195,9 @@ lint
 lint
 :
 {
-FenixVersions
+Versions
 .
-android_lint_api
+lint
 }
 "
 testImplementation
@@ -215,9 +215,9 @@ lint
 tests
 :
 {
-FenixVersions
+Versions
 .
-android_lint_api
+lint
 }
 "
 }

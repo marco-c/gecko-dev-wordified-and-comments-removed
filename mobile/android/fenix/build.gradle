@@ -351,11 +351,11 @@ comAndroid
 dependencies
 {
 classpath
-FenixDependencies
+ComponentsDependencies
 .
 tools_androidgradle
 classpath
-FenixDependencies
+ComponentsDependencies
 .
 tools_kotlingradle
 classpath
@@ -474,7 +474,7 @@ ext
 {
 detekt_plugin
 =
-FenixVersions
+Versions
 .
 detekt
 protobuf_plugin
@@ -484,7 +484,7 @@ FenixVersions
 protobuf_plugin
 python_envs_plugin
 =
-FenixVersions
+Versions
 .
 python_envs_plugin
 }
@@ -1136,7 +1136,7 @@ pinterest
 ktlint
 :
 {
-FenixVersions
+Versions
 .
 ktlint
 }
@@ -1191,7 +1191,7 @@ detekt
 cli
 :
 {
-FenixVersions
+Versions
 .
 detekt
 }
