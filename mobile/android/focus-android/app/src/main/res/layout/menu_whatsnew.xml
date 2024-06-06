@@ -235,15 +235,9 @@ menu_whats_new
 style
 =
 "
-android
-:
 style
 /
-TextAppearance
-.
-Material
-.
-Menu
+MenuItem
 "
 /
 >

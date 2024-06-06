@@ -114,15 +114,9 @@ check_menu_item_checkbox
 style
 =
 "
-android
-:
 style
 /
-TextAppearance
-.
-Material
-.
-Menu
+MenuItem
 "
 android
 :

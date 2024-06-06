@@ -186,15 +186,9 @@ end
 style
 =
 "
-android
-:
 style
 /
-TextAppearance
-.
-Material
-.
-Menu
+MenuItem
 "
 android
 :
