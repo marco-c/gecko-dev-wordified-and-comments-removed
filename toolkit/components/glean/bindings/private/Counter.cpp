@@ -136,6 +136,7 @@ apply
 &
 ]
 (
+const
 auto
 &
 lock

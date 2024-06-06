@@ -204,6 +204,7 @@ apply
 &
 ]
 (
+const
 auto
 &
 lock

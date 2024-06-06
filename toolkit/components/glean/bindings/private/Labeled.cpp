@@ -195,6 +195,7 @@ apply
 &
 ]
 (
+const
 auto
 &
 lock
