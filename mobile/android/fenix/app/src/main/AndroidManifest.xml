@@ -2369,7 +2369,7 @@ name
 .
 session
 .
-SessionNotificationService
+PrivateNotificationService
 "
 android
 :
