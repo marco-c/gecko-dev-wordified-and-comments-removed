@@ -243,7 +243,9 @@ shouldScrollWithTopToolbar
 )
 {
 (
-bannerLayout
+binding
+.
+root
 .
 layoutParams
 as

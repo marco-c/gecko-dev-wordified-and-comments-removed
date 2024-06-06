@@ -184,7 +184,9 @@ assertTrue
 (
 banner
 .
-bannerLayout
+binding
+.
+root
 .
 layoutParams
 as
@@ -241,7 +243,9 @@ assertNull
 (
 banner
 .
-bannerLayout
+binding
+.
+root
 .
 layoutParams
 as

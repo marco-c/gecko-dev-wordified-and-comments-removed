@@ -77,6 +77,12 @@ view
 .
 ViewGroup
 import
+android
+.
+widget
+.
+FrameLayout
+import
 androidx
 .
 lifecycle
@@ -1314,8 +1320,9 @@ mockk
 mockk
 (
 )
-mockk
+FrameLayout
 (
+testContext
 )
 shouldScrollWithTopToolbar
 =
@@ -1358,8 +1365,9 @@ mockk
 mockk
 (
 )
-mockk
+FrameLayout
 (
+testContext
 )
 shouldScrollWithTopToolbar
 =

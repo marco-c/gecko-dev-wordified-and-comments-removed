@@ -716,9 +716,6 @@ any
 any
 (
 )
-any
-(
-)
 )
 }
 returns
@@ -1147,7 +1144,6 @@ newSelectedTab
 .
 id
 store
-view
 context
 any
 (
