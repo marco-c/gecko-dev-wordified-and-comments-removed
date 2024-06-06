@@ -9634,7 +9634,7 @@ preferences_cookie_banner
 >
 Redusering
 av
-infoskapselbanner
+infokapselbanner
 <
 /
 string
@@ -9748,7 +9748,7 @@ cookie_banner_reject_all_option_title
 >
 Redusering
 av
-infoskapselbanner
+infokapselbanner
 <
 /
 string
@@ -9857,7 +9857,7 @@ cookie_banner_exception_item_title
 >
 Redusering
 av
-infoskapselbanner
+infokapselbanner
 <
 /
 string
@@ -10057,7 +10057,7 @@ cookie_banner_exception_panel_switch_title
 >
 Redusering
 av
-infoskapselbanner
+infokapselbanner
 <
 /
 string
@@ -10798,8 +10798,10 @@ cookie_banner_report_a_site_snackbar_label
 F
 respurnad
 om
-brukarst
-ttenettstad
+st
+tte
+av
+nettstad
 er
 sendt
 inn
@@ -10849,8 +10851,10 @@ cookie_banner_the_site_was_reported
 F
 respurnad
 om
-brukarst
-ttenettstad
+st
+tte
+av
+nettstad
 er
 sendt
 inn
@@ -10930,7 +10934,7 @@ respurnadar
 for
 avvise
 irriterande
-infoskapselbanner
+infokapselbanner
 .
 \
 n
@@ -11007,7 +11011,7 @@ respurnadar
 for
 avvise
 irriterande
-infoskapselbanner
+infokapselbanner
 .
 \
 n

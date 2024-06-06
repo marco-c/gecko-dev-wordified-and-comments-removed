@@ -6242,7 +6242,7 @@ preferences_cookie_banner_reduction
 >
 Redusering
 av
-infoskapselbanner
+infokapselbanner
 <
 /
 string
@@ -6285,7 +6285,7 @@ reduce_cookie_banner_option
 "
 >
 Reduser
-infoskapselbanner
+infokapselbanner
 <
 /
 string
@@ -6401,7 +6401,7 @@ avvise
 infokapself
 respurnadar
 p
-infoskapselbanner
+infokapselbanner
 .
 <
 /
@@ -6997,7 +6997,7 @@ UnusedResources
 "
 >
 Fjern
-infoskapselbanner
+infokapselbanner
 !
 <
 /
@@ -7634,7 +7634,7 @@ UnusedResources
 >
 Redusering
 av
-infoskapselbanner
+infokapselbanner
 <
 /
 string
