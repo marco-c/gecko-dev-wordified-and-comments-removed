@@ -1170,6 +1170,15 @@ tab_layout
 "
 app
 :
+tint
+=
+"
+color
+/
+primary_text_normal_theme
+"
+app
+:
 srcCompat
 =
 "
