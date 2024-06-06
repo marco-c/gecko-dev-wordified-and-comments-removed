@@ -873,7 +873,7 @@ gradlew
 clean
 app
 :
-assembleFocusWebviewDebug
+assembleFocusWebviewUniversalDebug
 3
 .
 Make
@@ -890,7 +890,7 @@ Studio
 :
 *
 *
-focusWebviewDebug
+focusWebviewUniversalDebug
 *
 *
 License
