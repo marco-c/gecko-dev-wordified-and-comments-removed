@@ -1626,7 +1626,7 @@ Fenix
 isEnrollmentPaused
 "
 :
-false
+true
 "
 isRollout
 "
