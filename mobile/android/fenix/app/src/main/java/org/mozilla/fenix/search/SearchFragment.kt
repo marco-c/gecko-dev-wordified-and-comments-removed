@@ -1340,7 +1340,7 @@ R
 .
 attr
 .
-foundation
+contrastText
 else
 R
 .

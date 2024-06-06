@@ -235,7 +235,7 @@ textColor
 =
 "
 ?
-contrastText
+primaryText
 "
 app
 :
@@ -276,7 +276,7 @@ iconTint
 ?
 attr
 /
-foundation
+primaryText
 "
 /
 >
