@@ -4153,6 +4153,11 @@ newAccount
 Boolean
 )
 {
+if
+(
+newAccount
+)
+{
 view
 ?
 .
@@ -4187,6 +4192,7 @@ onboarding_firefox_account_sync_is_on
 show
 (
 )
+}
 }
 emitModeChanges
 (
