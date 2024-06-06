@@ -389,9 +389,7 @@ androidx_recyclerview
 .
 2
 .
-0
--
-beta01
+1
 "
 const
 val
