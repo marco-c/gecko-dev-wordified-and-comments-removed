@@ -606,6 +606,13 @@ null
 cardColor
 =
 null
+thumbnailFileState
+=
+Wallpaper
+.
+ImageFileState
+.
+NotAvailable
 collection
 =
 Wallpaper

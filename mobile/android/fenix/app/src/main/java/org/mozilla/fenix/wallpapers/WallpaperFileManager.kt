@@ -300,6 +300,13 @@ null
 cardColor
 =
 null
+thumbnailFileState
+=
+Wallpaper
+.
+ImageFileState
+.
+Downloaded
 )
 }
 else

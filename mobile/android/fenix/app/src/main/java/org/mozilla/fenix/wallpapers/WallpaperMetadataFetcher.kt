@@ -655,6 +655,13 @@ color
 collection
 =
 collection
+thumbnailFileState
+=
+Wallpaper
+.
+ImageFileState
+.
+NotAvailable
 )
 }
 }

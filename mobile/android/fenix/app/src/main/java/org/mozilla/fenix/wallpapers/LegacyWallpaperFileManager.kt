@@ -313,6 +313,13 @@ null
 cardColor
 =
 null
+thumbnailFileState
+=
+Wallpaper
+.
+ImageFileState
+.
+NotAvailable
 )
 }
 else
