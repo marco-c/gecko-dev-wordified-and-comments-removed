@@ -282,12 +282,11 @@ context
 .
 list
 .
-forEach
-{
-suggestions
-.
-add
+mapTo
 (
+suggestions
+)
+{
 AwesomeBar
 .
 Suggestion
@@ -318,7 +317,6 @@ selectShortcutEngine
 it
 )
 }
-)
 )
 }
 suggestions

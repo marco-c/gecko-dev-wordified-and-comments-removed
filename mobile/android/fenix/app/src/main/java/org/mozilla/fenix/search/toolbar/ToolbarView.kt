@@ -237,7 +237,7 @@ interaction
 on
 the
 [
-BrowserToolbarView
+ToolbarView
 ]
 *
 /
@@ -258,7 +258,7 @@ return
 key
 while
 [
-BrowserToolbarView
+ToolbarView
 ]
 has
 focus
@@ -271,7 +271,7 @@ text
 inside
 the
 [
-BrowserToolbarView
+ToolbarView
 ]
 when
 committed
@@ -297,7 +297,7 @@ focus
 from
 the
 [
-BrowserToolbarView
+ToolbarView
 ]
 *
 /
@@ -316,7 +316,7 @@ text
 inside
 the
 [
-BrowserToolbarView
+ToolbarView
 ]
 changes
 *
@@ -328,7 +328,7 @@ text
 displayed
 by
 [
-BrowserToolbarView
+ToolbarView
 ]
 *
 /
@@ -643,9 +643,6 @@ String
 url
 =
 text
-this
-ToolbarView
-.
 interactor
 .
 onTextChanged
