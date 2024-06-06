@@ -201,4 +201,17 @@ id
 .
 deleteBrowsingDataFragment
 )
+SettingsAddonManager
+(
+NavGraphDirections
+.
+actionGlobalSettingsAddonsManagementFragment
+(
+)
+R
+.
+id
+.
+addonsManagementFragment
+)
 }

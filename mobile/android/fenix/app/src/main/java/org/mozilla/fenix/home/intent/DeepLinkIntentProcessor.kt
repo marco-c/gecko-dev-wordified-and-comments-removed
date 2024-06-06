@@ -240,6 +240,12 @@ else
 false
 }
 }
+Suppress
+(
+"
+ComplexMethod
+"
+)
 private
 fun
 handleDeepLink
@@ -317,6 +323,14 @@ settings_delete_browsing_data
 GlobalDirections
 .
 DeleteData
+"
+settings_addon_manager
+"
+-
+>
+GlobalDirections
+.
+SettingsAddonManager
 else
 -
 >

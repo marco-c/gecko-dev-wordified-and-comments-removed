@@ -2196,6 +2196,13 @@ registerForFutureUpdates
 (
 extensions
 )
+components
+.
+supportedAddChecker
+.
+registerForChecks
+(
+)
 }
 onUpdatePermissionRequest
 =
