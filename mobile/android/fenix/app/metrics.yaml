@@ -4743,6 +4743,9 @@ extra_keys
 :
 engine
 :
+type
+:
+string
 description
 :
 |
