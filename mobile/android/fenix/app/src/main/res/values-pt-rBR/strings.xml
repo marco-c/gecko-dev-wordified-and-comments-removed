@@ -19592,9 +19592,7 @@ sign_in_with_email
 "
 >
 Usar
-e
--
-mail
+email
 <
 /
 string
