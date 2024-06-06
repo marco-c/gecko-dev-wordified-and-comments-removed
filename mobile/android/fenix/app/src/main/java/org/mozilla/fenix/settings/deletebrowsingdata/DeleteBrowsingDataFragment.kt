@@ -480,7 +480,7 @@ R
 .
 id
 .
-browsing_data_item
+browsing_history_item
 -
 >
 settings
@@ -490,7 +490,7 @@ R
 .
 id
 .
-cookies_item
+cookies_and_site_data_item
 -
 >
 settings
@@ -580,7 +580,7 @@ R
 .
 id
 .
-browsing_data_item
+browsing_history_item
 -
 >
 settings
@@ -594,7 +594,7 @@ R
 .
 id
 .
-cookies_item
+cookies_and_site_data_item
 -
 >
 settings
@@ -999,7 +999,7 @@ HISTORY_INDEX
 >
 controller
 .
-deleteBrowsingData
+deleteBrowsingHistory
 (
 )
 COOKIES_INDEX
@@ -1007,7 +1007,7 @@ COOKIES_INDEX
 >
 controller
 .
-deleteCookies
+deleteCookiesAndSiteData
 (
 )
 CACHED_INDEX
@@ -1385,7 +1385,7 @@ updateHistoryCount
 {
 binding
 .
-browsingDataItem
+browsingHistoryItem
 .
 subtitleView
 .
@@ -1423,7 +1423,7 @@ Main
 {
 binding
 .
-browsingDataItem
+browsingHistoryItem
 .
 apply
 {
@@ -1529,10 +1529,10 @@ binding
 openTabsItem
 binding
 .
-browsingDataItem
+browsingHistoryItem
 binding
 .
-cookiesItem
+cookiesAndSiteDataItem
 binding
 .
 cachedFilesItem

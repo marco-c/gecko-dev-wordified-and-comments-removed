@@ -9726,7 +9726,7 @@ kt
 DeleteBrowsingDataController
 suspend
 fun
-deleteBrowsingData
+deleteBrowsingHistory
 (
 )
 <
@@ -9762,7 +9762,7 @@ kt
 DeleteBrowsingDataController
 suspend
 fun
-deleteCookies
+deleteCookiesAndSiteData
 (
 )
 <

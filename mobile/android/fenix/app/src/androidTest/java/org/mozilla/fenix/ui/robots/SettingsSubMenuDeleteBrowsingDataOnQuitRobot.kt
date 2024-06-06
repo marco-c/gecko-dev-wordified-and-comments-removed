@@ -407,7 +407,7 @@ VISIBLE
 )
 )
 )
-browsingDataCheckbox
+browsingHistoryCheckbox
 .
 check
 (
@@ -421,7 +421,7 @@ VISIBLE
 )
 )
 )
-cookiesCheckbox
+cookiesAndSiteDataCheckbox
 .
 check
 (
@@ -666,7 +666,7 @@ preferences_delete_browsing_data_tabs_title_2
 )
 private
 val
-browsingDataCheckbox
+browsingHistoryCheckbox
 =
 onView
 (
@@ -676,12 +676,12 @@ R
 .
 string
 .
-preferences_delete_browsing_data_browsing_data_title
+preferences_delete_browsing_data_browsing_history_title
 )
 )
 private
 val
-cookiesCheckbox
+cookiesAndSiteDataCheckbox
 =
 onView
 (
@@ -691,7 +691,7 @@ R
 .
 string
 .
-preferences_delete_browsing_data_cookies
+preferences_delete_browsing_data_cookies_and_site_data
 )
 )
 private

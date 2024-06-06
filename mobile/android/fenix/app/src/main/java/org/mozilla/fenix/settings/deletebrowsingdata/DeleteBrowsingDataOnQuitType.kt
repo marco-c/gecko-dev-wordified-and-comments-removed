@@ -130,7 +130,7 @@ R
 .
 string
 .
-pref_key_delete_cookies_on_quit
+pref_key_delete_cookies_and_site_data_on_quit
 )
 CACHE
 (

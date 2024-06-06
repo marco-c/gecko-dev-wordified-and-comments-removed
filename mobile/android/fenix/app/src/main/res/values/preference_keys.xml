@@ -500,7 +500,7 @@ string
 name
 =
 "
-pref_key_delete_cookies_on_quit
+pref_key_delete_cookies_and_site_data_on_quit
 "
 translatable
 =
@@ -508,7 +508,7 @@ translatable
 false
 "
 >
-pref_key_delete_cookies_on_quit
+pref_key_delete_cookies_and_site_data_on_quit
 <
 /
 string

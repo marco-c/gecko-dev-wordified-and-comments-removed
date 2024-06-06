@@ -1080,9 +1080,6 @@ withText
 "
 Browsing
 history
-and
-site
-data
 "
 )
 )
@@ -1107,7 +1104,7 @@ preferences_delete_browsing_data_cookies
 )
 private
 fun
-cookiesDescription
+cookiesAndSiteDataDescription
 (
 )
 =
@@ -1124,7 +1121,7 @@ preferences_delete_browsing_data_cookies_subtitle
 )
 private
 fun
-cookiesCheckBox
+cookiesAndSiteDataCheckBox
 (
 )
 =
@@ -1146,6 +1143,9 @@ withText
 (
 "
 Cookies
+and
+site
+data
 "
 )
 )
@@ -1458,7 +1458,7 @@ VISIBLE
 )
 )
 )
-cookiesDescription
+cookiesAndSiteDataDescription
 (
 )
 .
@@ -1474,7 +1474,7 @@ VISIBLE
 )
 )
 )
-cookiesCheckBox
+cookiesAndSiteDataCheckBox
 (
 )
 .
@@ -1625,7 +1625,7 @@ assertIsChecked
 (
 true
 )
-cookiesCheckBox
+cookiesAndSiteDataCheckBox
 (
 )
 .
@@ -1803,7 +1803,7 @@ clickCookiesCheckBox
 (
 )
 =
-cookiesCheckBox
+cookiesAndSiteDataCheckBox
 (
 )
 .
@@ -1819,7 +1819,7 @@ status
 Boolean
 )
 =
-cookiesCheckBox
+cookiesAndSiteDataCheckBox
 (
 )
 .

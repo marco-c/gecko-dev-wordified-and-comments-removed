@@ -362,7 +362,7 @@ DeleteBrowsingDataOnQuitType
 HISTORY
 -
 >
-deleteBrowsingData
+deleteBrowsingHistory
 (
 )
 DeleteBrowsingDataOnQuitType
@@ -370,7 +370,7 @@ DeleteBrowsingDataOnQuitType
 COOKIES
 -
 >
-deleteCookies
+deleteCookiesAndSiteData
 (
 )
 DeleteBrowsingDataOnQuitType

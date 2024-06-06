@@ -401,7 +401,7 @@ id
 +
 id
 /
-browsing_data_item
+browsing_history_item
 "
 android
 :
@@ -450,7 +450,7 @@ deleteBrowsingDataItemTitle
 "
 string
 /
-preferences_delete_browsing_data_browsing_data_title
+preferences_delete_browsing_data_browsing_history_title
 "
 app
 :
@@ -483,7 +483,7 @@ id
 +
 id
 /
-cookies_item
+cookies_and_site_data_item
 "
 android
 :
@@ -539,7 +539,7 @@ deleteBrowsingDataItemTitle
 "
 string
 /
-preferences_delete_browsing_data_cookies
+preferences_delete_browsing_data_cookies_and_site_data
 "
 app
 :

@@ -267,7 +267,7 @@ title
 "
 string
 /
-preferences_delete_browsing_data_browsing_data_title
+preferences_delete_browsing_data_browsing_history_title
 "
 /
 >
@@ -280,7 +280,7 @@ key
 "
 string
 /
-pref_key_delete_cookies_on_quit
+pref_key_delete_cookies_and_site_data_on_quit
 "
 android
 :
@@ -307,7 +307,7 @@ title
 "
 string
 /
-preferences_delete_browsing_data_cookies
+preferences_delete_browsing_data_cookies_and_site_data
 "
 /
 >
