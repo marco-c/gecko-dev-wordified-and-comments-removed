@@ -203,9 +203,11 @@ android
 statusBarColor
 "
 >
+android
+:
 color
 /
-foundation_normal_theme
+transparent
 <
 /
 item
@@ -1434,9 +1436,11 @@ android
 statusBarColor
 "
 >
+android
+:
 color
 /
-foundation_private_theme
+transparent
 <
 /
 item
