@@ -65,7 +65,7 @@ fenix
 .
 shopping
 .
-state
+store
 import
 mozilla
 .

@@ -127,7 +127,7 @@ fenix
 .
 shopping
 .
-state
+store
 .
 ReviewQualityCheckAction
 import
@@ -139,7 +139,7 @@ fenix
 .
 shopping
 .
-state
+store
 .
 ReviewQualityCheckState
 import
@@ -151,7 +151,7 @@ fenix
 .
 shopping
 .
-state
+store
 .
 ReviewQualityCheckState
 .
@@ -169,7 +169,7 @@ fenix
 .
 shopping
 .
-state
+store
 .
 ReviewQualityCheckStore
 /

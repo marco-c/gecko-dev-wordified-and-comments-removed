@@ -309,7 +309,7 @@ fenix
 .
 shopping
 .
-state
+store
 .
 ReviewQualityCheckState
 .

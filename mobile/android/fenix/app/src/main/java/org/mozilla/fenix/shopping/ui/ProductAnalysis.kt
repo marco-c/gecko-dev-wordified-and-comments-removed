@@ -267,7 +267,7 @@ fenix
 .
 shopping
 .
-state
+store
 .
 ReviewQualityCheckState
 import
@@ -279,7 +279,7 @@ fenix
 .
 shopping
 .
-state
+store
 .
 ReviewQualityCheckState
 .
