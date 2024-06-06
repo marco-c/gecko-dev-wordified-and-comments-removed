@@ -6837,14 +6837,6 @@ numberOfAppLaunches
 >
 =
 3
-&
-&
-FeatureFlags
-.
-isThemedWallpapersFeatureEnabled
-(
-localContext
-)
 }
 private
 fun
