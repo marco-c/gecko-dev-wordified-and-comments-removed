@@ -6528,9 +6528,8 @@ android
 textColor
 "
 >
-color
-/
-photonDarkGrey10
+?
+secondaryText
 <
 /
 item

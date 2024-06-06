@@ -352,6 +352,14 @@ textSize
 "
 10sp
 "
+android
+:
+textColor
+=
+"
+?
+primaryText
+"
 app
 :
 layout_constraintBottom_toBottomOf

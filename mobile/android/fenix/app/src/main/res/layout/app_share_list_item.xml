@@ -326,9 +326,8 @@ android
 textColor
 =
 "
-color
-/
-photonDarkGrey10
+?
+primaryText
 "
 android
 :

@@ -306,8 +306,9 @@ android
 textColor
 =
 "
-?
-contrastText
+color
+/
+fx_mobile_text_color_oncolor_primary
 "
 tools
 :
@@ -400,7 +401,7 @@ textColor
 "
 color
 /
-photonLightGrey60
+fx_mobile_text_color_oncolor_secondary
 "
 tools
 :
