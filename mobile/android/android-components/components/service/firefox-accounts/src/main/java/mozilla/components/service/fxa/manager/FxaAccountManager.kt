@@ -4727,7 +4727,7 @@ finalize
 =
 suspend
 {
-withRetries
+withServiceRetries
 (
 logger
 MAX_NETWORK_RETRIES
@@ -4781,10 +4781,11 @@ Failure
 finalize
 (
 )
+!
 is
-Result
+ServiceResult
 .
-Failure
+Ok
 )
 {
 resetAccount
