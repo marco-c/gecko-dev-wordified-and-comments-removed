@@ -226,7 +226,7 @@ FenixRobolectricTestRunner
 class
 )
 class
-CFRPopupFullScreenLayoutTest
+CFRPopupFullscreenLayoutTest
 {
 Test
 fun
@@ -275,7 +275,7 @@ popupView
 =
 spyk
 (
-CFRPopupFullScreenLayout
+CFRPopupFullscreenLayout
 (
 "
 "
@@ -424,7 +424,7 @@ windowManager
 val
 popupView
 =
-CFRPopupFullScreenLayout
+CFRPopupFullscreenLayout
 (
 "
 "
@@ -552,7 +552,7 @@ windowManager
 val
 popupView
 =
-CFRPopupFullScreenLayout
+CFRPopupFullscreenLayout
 (
 "
 "
@@ -696,7 +696,7 @@ testContext
 val
 popupView
 =
-CFRPopupFullScreenLayout
+CFRPopupFullscreenLayout
 (
 "
 "

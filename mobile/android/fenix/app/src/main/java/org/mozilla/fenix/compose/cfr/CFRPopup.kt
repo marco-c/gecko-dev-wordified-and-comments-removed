@@ -646,7 +646,7 @@ popup
 :
 WeakReference
 <
-CFRPopupFullScreenLayout
+CFRPopupFullscreenLayout
 >
 ?
 =
@@ -714,7 +714,7 @@ anchor
 .
 post
 {
-CFRPopupFullScreenLayout
+CFRPopupFullscreenLayout
 (
 text
 anchor

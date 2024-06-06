@@ -651,7 +651,7 @@ View
 constructor
 internal
 class
-CFRPopupFullScreenLayout
+CFRPopupFullscreenLayout
 (
 private
 val
