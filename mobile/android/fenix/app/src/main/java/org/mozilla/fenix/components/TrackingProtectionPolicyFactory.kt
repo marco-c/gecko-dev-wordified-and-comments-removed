@@ -109,6 +109,14 @@ mozilla
 .
 fenix
 .
+FeatureFlags
+import
+org
+.
+mozilla
+.
+fenix
+.
 utils
 .
 Settings
@@ -602,10 +610,8 @@ strictSocialTrackingProtection
 strictSocialTrackingProtection
 cookiePurging
 =
-Config
+FeatureFlags
 .
-channel
-.
-isNightlyOrDebug
+etpCookiePurging
 )
 }
