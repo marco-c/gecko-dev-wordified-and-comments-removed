@@ -3805,9 +3805,6 @@ AddonsOpenInToolbarMenu
 -
 >
 EventWrapper
-<
-NoExtraKeys
->
 (
 {
 Addons
@@ -3815,6 +3812,16 @@ Addons
 openAddonInToolbarMenu
 .
 record
+(
+it
+)
+}
+{
+Addons
+.
+openAddonInToolbarMenuKeys
+.
+valueOf
 (
 it
 )
