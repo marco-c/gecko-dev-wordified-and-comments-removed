@@ -88,7 +88,7 @@ leakcanary
 "
 2
 .
-8
+9
 .
 1
 "
@@ -97,11 +97,11 @@ val
 sentry
 =
 "
-5
+6
 .
-7
+4
 .
-3
+2
 "
 object
 AndroidX
@@ -359,7 +359,7 @@ coroutines
 .
 6
 .
-0
+4
 "
 }
 object
@@ -394,9 +394,7 @@ robolectric
 "
 4
 .
-8
-.
-1
+9
 "
 const
 val
@@ -405,9 +403,9 @@ mockito
 "
 3
 .
-11
+12
 .
-0
+4
 "
 const
 val
@@ -442,9 +440,9 @@ adjust
 "
 4
 .
-30
+32
 .
-1
+0
 "
 const
 val
