@@ -736,7 +736,7 @@ R
 .
 drawable
 .
-mozac_ic_warning
+mozac_ic_warning_fill_24
 )
 }
 binding
