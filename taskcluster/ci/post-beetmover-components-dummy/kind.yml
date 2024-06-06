@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-taskgraph
+gecko_taskgraph
 .
 loader
 .
@@ -86,7 +86,7 @@ transforms
 .
 chunk
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -97,7 +97,9 @@ dependencies
 :
 -
 beetmover
-tasks
+-
+components
+jobs
 :
 post
 -
@@ -136,16 +138,6 @@ copy
 attributes
 :
 true
-run
--
-on
--
-tasks
--
-for
-:
-[
-]
 attributes
 :
 component
