@@ -38,7 +38,7 @@ include
 protocol
 compressCtor
 ;
-intr
+sync
 protocol
 compressCtorManagee
 {
@@ -47,11 +47,13 @@ compressCtor
 ;
 child
 :
+[
+Compress
+]
 async
 __delete__
 (
 )
-compress
 ;
 }
 ;

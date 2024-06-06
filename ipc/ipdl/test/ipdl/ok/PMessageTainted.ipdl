@@ -3,7 +3,7 @@ ChildProc
 =
 any
 ]
-intr
+sync
 protocol
 PMessageTainted
 {

@@ -26,7 +26,7 @@ ChildProc
 =
 any
 ]
-intr
+sync
 protocol
 syncParentToChild
 {
