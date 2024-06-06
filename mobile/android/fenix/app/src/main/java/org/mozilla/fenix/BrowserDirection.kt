@@ -347,4 +347,12 @@ id
 .
 recentlyClosedFragment
 )
+FromReviewQualityCheck
+(
+R
+.
+id
+.
+reviewQualityCheckFragment
+)
 }
