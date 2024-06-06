@@ -143,7 +143,7 @@ private
 val
 fragment
 :
-SessionsSheetFragment
+TabSheetFragment
 itemView
 :
 View

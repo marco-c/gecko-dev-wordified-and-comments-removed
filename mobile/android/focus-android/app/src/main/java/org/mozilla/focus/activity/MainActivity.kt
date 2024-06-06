@@ -265,7 +265,7 @@ session
 .
 ui
 .
-SessionsSheetFragment
+TabSheetFragment
 import
 org
 .
@@ -1742,12 +1742,12 @@ fragmentManager
 .
 findFragmentByTag
 (
-SessionsSheetFragment
+TabSheetFragment
 .
 FRAGMENT_TAG
 )
 as
-SessionsSheetFragment
+TabSheetFragment
 ?
 if
 (
