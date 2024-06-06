@@ -1019,6 +1019,12 @@ server_address_
 (
 server_address
 )
+server_url_
+(
+ReconstructServerUrl
+(
+)
+)
 tls_alpn_protocols_
 (
 tls_alpn_protocols
@@ -1206,6 +1212,12 @@ field_trials
 server_address_
 (
 server_address
+)
+server_url_
+(
+ReconstructServerUrl
+(
+)
 )
 tls_alpn_protocols_
 (
@@ -4566,9 +4578,7 @@ server_address_
 proto
 )
 server_priority_
-ReconstructedServerUrl
-(
-)
+server_url_
 true
 )
 ;
@@ -4677,9 +4687,7 @@ IceCandidateErrorEvent
 (
 address
 port
-ReconstructedServerUrl
-(
-)
+server_url_
 error_code
 reason
 )
@@ -6477,7 +6485,7 @@ string
 TurnPort
 :
 :
-ReconstructedServerUrl
+ReconstructServerUrl
 (
 )
 {
@@ -6560,7 +6568,7 @@ server_address_
 .
 address
 .
-hostname
+HostAsURIString
 (
 )
 <
