@@ -3970,13 +3970,6 @@ remove_all
 allowlist
 |
 |
-{
-"
-total
-"
-:
-5
-}
 |
 Default
 search

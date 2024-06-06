@@ -396,7 +396,7 @@ components
 .
 sessionManager
 .
-removeAndCloseAllSessions
+removeSessions
 (
 )
 stopForeground

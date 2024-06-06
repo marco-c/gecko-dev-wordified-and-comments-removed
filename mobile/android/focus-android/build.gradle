@@ -81,17 +81,6 @@ coroutines_version
 '
 ext
 .
-gecko_release_version
-=
-'
-86
-.
-0
-.
-20210222142601
-'
-ext
-.
 mozilla_components_version
 =
 '

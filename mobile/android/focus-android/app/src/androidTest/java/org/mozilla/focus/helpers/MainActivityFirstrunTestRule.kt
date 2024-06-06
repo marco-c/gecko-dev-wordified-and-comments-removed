@@ -138,16 +138,6 @@ FirstrunFragment
 Companion
 .
 FIRSTRUN_PREF
-import
-org
-.
-mozilla
-.
-focus
-.
-session
-.
-removeAllAndCloseAllSessions
 open
 class
 MainActivityFirstrunTestRule
@@ -258,7 +248,7 @@ Runnable
 {
 sessionManager
 .
-removeAllAndCloseAllSessions
+removeAll
 (
 )
 }

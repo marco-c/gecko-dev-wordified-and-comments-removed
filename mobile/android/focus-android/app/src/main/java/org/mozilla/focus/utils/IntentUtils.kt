@@ -111,16 +111,6 @@ focus
 .
 R
 import
-org
-.
-mozilla
-.
-focus
-.
-web
-.
-IWebView
-import
 java
 .
 net
@@ -310,9 +300,6 @@ handleExternalUri
 context
 :
 Context
-webView
-:
-IWebView
 uri
 :
 String
@@ -471,7 +458,6 @@ size
 handleUnsupportedLink
 (
 context
-webView
 intent
 )
 1
@@ -569,9 +555,6 @@ handleUnsupportedLink
 context
 :
 Context
-webView
-:
-IWebView
 intent
 :
 Intent
@@ -596,6 +579,8 @@ fallbackUrl
 null
 )
 {
+/
+/
 webView
 .
 loadUrl

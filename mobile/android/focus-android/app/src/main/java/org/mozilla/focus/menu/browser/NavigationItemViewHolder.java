@@ -149,7 +149,11 @@ if
 !
 fragment
 .
-canGoForward
+getSession
+(
+)
+.
+getCanGoForward
 (
 )
 )
