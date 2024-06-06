@@ -356,9 +356,9 @@ androidx_lifecycle
 "
 2
 .
-4
+5
 .
-0
+1
 "
 const
 val
@@ -367,9 +367,9 @@ androidx_fragment
 "
 1
 .
-3
+5
 .
-4
+1
 "
 const
 val
@@ -378,9 +378,9 @@ androidx_navigation
 "
 2
 .
-3
+5
 .
-3
+1
 "
 const
 val
@@ -400,9 +400,9 @@ androidx_core
 "
 1
 .
-3
+8
 .
-2
+0
 "
 const
 val
