@@ -425,9 +425,9 @@ tools
 text
 =
 "
-Blocked
-by
-Android
+string
+/
+phone_feature_blocked_by_android
 "
 tools
 :
@@ -608,7 +608,9 @@ tools
 text
 =
 "
-Blocked
+string
+/
+preference_option_phone_feature_blocked
 "
 tools
 :
@@ -787,7 +789,9 @@ tools
 text
 =
 "
-Blocked
+string
+/
+preference_option_phone_feature_blocked
 "
 tools
 :
