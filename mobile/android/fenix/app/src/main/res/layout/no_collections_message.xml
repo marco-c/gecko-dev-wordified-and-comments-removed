@@ -433,6 +433,14 @@ viewStart
 "
 android
 :
+textColor
+=
+"
+?
+secondaryText
+"
+android
+:
 textSize
 =
 "
