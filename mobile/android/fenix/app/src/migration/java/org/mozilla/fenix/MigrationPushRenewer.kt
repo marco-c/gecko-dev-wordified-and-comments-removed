@@ -67,12 +67,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 flow
 .
 collect
@@ -168,13 +162,6 @@ store
 MigrationStore
 )
 {
-UseExperimental
-(
-ExperimentalCoroutinesApi
-:
-:
-class
-)
 fun
 start
 (
