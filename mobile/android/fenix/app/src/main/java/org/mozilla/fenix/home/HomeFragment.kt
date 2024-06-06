@@ -2368,6 +2368,11 @@ activity
 homeStore
 =
 homeFragmentStore
+navController
+=
+findNavController
+(
+)
 )
 )
 updateLayout
