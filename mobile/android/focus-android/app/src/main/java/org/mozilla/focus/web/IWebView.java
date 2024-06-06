@@ -43,6 +43,15 @@ session
 .
 Session
 ;
+import
+java
+.
+util
+.
+concurrent
+.
+CountDownLatch
+;
 public
 interface
 IWebView
@@ -405,6 +414,8 @@ saveWebViewState
 NonNull
 Session
 session
+CountDownLatch
+latch
 )
 ;
 void
