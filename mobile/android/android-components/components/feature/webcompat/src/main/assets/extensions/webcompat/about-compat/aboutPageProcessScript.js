@@ -94,7 +94,7 @@ AboutCompat
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -105,7 +105,9 @@ webcompat
 /
 AboutCompat
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
