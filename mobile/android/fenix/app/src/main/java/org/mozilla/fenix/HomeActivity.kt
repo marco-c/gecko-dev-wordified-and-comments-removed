@@ -1627,10 +1627,13 @@ if
 (
 isCustomTab
 )
+{
 CustomTabBrowsingModeManager
 (
 )
+}
 else
+{
 DefaultBrowsingModeManager
 (
 Settings
@@ -1678,6 +1681,7 @@ Normal
 )
 }
 }
+}
 private
 fun
 createThemeManager
@@ -1696,10 +1700,13 @@ if
 (
 isCustomTab
 )
+{
 CustomTabThemeManager
 (
 )
+}
 else
+{
 DefaultThemeManager
 (
 currentTheme
@@ -1712,6 +1719,7 @@ it
 recreate
 (
 )
+}
 }
 }
 private
