@@ -93,4 +93,12 @@ Tab
 >
 (
 )
+var
+saveCollectionStep
+:
+SaveCollectionStep
+=
+SaveCollectionStep
+.
+SelectTabs
 }
