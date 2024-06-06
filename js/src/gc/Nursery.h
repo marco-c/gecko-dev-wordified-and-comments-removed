@@ -1827,8 +1827,6 @@ nodiscard
 bool
 allocateNextChunk
 (
-unsigned
-chunkno
 AutoLockGCBgAlloc
 &
 lock
