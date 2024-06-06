@@ -1508,7 +1508,7 @@ forkEvery
 maxHeapSize
 =
 "
-2048m
+3072m
 "
 minHeapSize
 =
