@@ -696,6 +696,10 @@ include
 "
         
 "
+intr
+"
+        
+"
 manager
 "
         
@@ -3388,6 +3392,9 @@ ASYNC
     
 |
 SYNC
+    
+|
+INTR
 "
 "
 "
@@ -3411,6 +3418,25 @@ p
 =
 ASYNC
     
+elif
+p
+[
+1
+]
+=
+=
+"
+sync
+"
+:
+        
+p
+[
+0
+]
+=
+SYNC
+    
 else
 :
         
@@ -3422,7 +3448,7 @@ p
 =
 =
 "
-sync
+intr
 "
         
 p
@@ -3430,7 +3456,7 @@ p
 0
 ]
 =
-SYNC
+INTR
 def
 p_OptionalSendSemantics
 (
