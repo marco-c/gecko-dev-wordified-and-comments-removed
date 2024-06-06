@@ -97,7 +97,7 @@ coroutines
 .
 flow
 .
-collect
+first
 import
 kotlinx
 .
@@ -920,15 +920,6 @@ coroutineScope
 .
 launch
 {
-selectedPocketCategoriesDataStore
-.
-data
-.
-collect
-{
-persistedSelectedCategories
--
->
 store
 .
 dispatch
@@ -938,7 +929,13 @@ AppAction
 PocketStoriesCategoriesSelectionsChange
 (
 currentCategories
-persistedSelectedCategories
+selectedPocketCategoriesDataStore
+.
+data
+.
+first
+(
+)
 .
 valuesList
 .
@@ -960,6 +957,5 @@ selectionTimestamp
 }
 )
 )
-}
 }
 }
