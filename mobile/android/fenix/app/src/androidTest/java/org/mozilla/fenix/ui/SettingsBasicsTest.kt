@@ -299,11 +299,10 @@ MockWebServer
 .
 apply
 {
-setDispatcher
-(
+dispatcher
+=
 AndroidAssetDispatcher
 (
-)
 )
 start
 (
