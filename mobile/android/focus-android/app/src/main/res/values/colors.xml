@@ -602,8 +602,9 @@ name
 statusBarBackground
 "
 >
-#
-1D1133
+color
+/
+colorPrimary
 <
 /
 color
@@ -1321,8 +1322,9 @@ name
 colorPrimary
 "
 >
-#
-271948
+color
+/
+photonInk60
 <
 /
 color
@@ -1528,8 +1530,9 @@ name
 settings_background
 "
 >
-#
-1D1133
+color
+/
+colorPrimary
 <
 /
 color
