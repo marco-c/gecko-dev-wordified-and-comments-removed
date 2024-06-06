@@ -290,7 +290,7 @@ android_arch_navigation
 .
 0
 -
-beta01
+beta02
 "
 }
 Suppress
