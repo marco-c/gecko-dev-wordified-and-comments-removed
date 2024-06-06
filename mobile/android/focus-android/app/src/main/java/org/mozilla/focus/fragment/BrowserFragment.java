@@ -4346,6 +4346,12 @@ commit
 (
 )
 ;
+TelemetryWrapper
+.
+openFullBrowser
+(
+)
+;
 break
 ;
 }
