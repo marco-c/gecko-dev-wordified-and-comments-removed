@@ -322,6 +322,8 @@ stripSchemeAndSubDomain
 (
 fragment
 .
+session
+.
 url
 )
 fragment

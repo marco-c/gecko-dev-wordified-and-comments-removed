@@ -176,6 +176,10 @@ parse
 (
 browserFragment
 .
+getSession
+(
+)
+.
 getUrl
 (
 )
