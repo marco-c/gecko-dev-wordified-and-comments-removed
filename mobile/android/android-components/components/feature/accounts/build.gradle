@@ -275,6 +275,10 @@ androidx_test_junit
 testImplementation
 ComponentsDependencies
 .
+mozilla_appservices_full_megazord_forUnitTests
+testImplementation
+ComponentsDependencies
+.
 testing_robolectric
 testImplementation
 ComponentsDependencies
