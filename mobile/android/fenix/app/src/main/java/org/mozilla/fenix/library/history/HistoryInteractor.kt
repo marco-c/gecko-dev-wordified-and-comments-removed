@@ -231,7 +231,7 @@ HistoryItem
 {
 historyController
 .
-handleOpen
+handleOpenInNewTab
 (
 item
 BrowsingMode
@@ -250,7 +250,7 @@ HistoryItem
 {
 historyController
 .
-handleOpen
+handleOpenInNewTab
 (
 item
 BrowsingMode

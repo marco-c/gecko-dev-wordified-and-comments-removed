@@ -272,7 +272,7 @@ clickOpenInNormalTab
 (
 interact
 :
-BrowserRobot
+TabDrawerRobot
 .
 (
 )
@@ -281,7 +281,7 @@ BrowserRobot
 Unit
 )
 :
-BrowserRobot
+TabDrawerRobot
 .
 Transition
 {
@@ -292,7 +292,7 @@ openInNewNormalTabButton
 click
 (
 )
-BrowserRobot
+TabDrawerRobot
 (
 )
 .
@@ -300,7 +300,7 @@ interact
 (
 )
 return
-BrowserRobot
+TabDrawerRobot
 .
 Transition
 (
@@ -311,7 +311,7 @@ clickOpenInPrivateTab
 (
 interact
 :
-BrowserRobot
+TabDrawerRobot
 .
 (
 )
@@ -320,7 +320,7 @@ BrowserRobot
 Unit
 )
 :
-BrowserRobot
+TabDrawerRobot
 .
 Transition
 {
@@ -331,7 +331,7 @@ openInNewPrivateTabButton
 click
 (
 )
-BrowserRobot
+TabDrawerRobot
 (
 )
 .
@@ -339,7 +339,7 @@ interact
 (
 )
 return
-BrowserRobot
+TabDrawerRobot
 .
 Transition
 (

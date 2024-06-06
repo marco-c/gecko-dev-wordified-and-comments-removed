@@ -373,8 +373,24 @@ openInBrowser
 :
 (
 HistoryItem
+)
+-
+>
+Unit
+=
+mockk
+(
+relaxed
+=
+true
+)
+private
+val
+openAndShowTray
+:
+(
+HistoryItem
 BrowsingMode
-?
 )
 -
 >
@@ -480,6 +496,7 @@ snackbar
 clipboardManager
 scope
 openInBrowser
+openAndShowTray
 displayDeleteAll
 invalidateOptionsMenu
 deleteHistoryItems
@@ -530,7 +547,6 @@ verify
 openInBrowser
 (
 historyItem
-null
 )
 }
 }
@@ -542,7 +558,7 @@ onOpenItemInNormalMode
 {
 controller
 .
-handleOpen
+handleOpenInNewTab
 (
 historyItem
 BrowsingMode
@@ -551,7 +567,7 @@ Normal
 )
 verify
 {
-openInBrowser
+openAndShowTray
 (
 historyItem
 BrowsingMode
@@ -568,7 +584,7 @@ onOpenItemInPrivateMode
 {
 controller
 .
-handleOpen
+handleOpenInNewTab
 (
 historyItem
 BrowsingMode
@@ -577,7 +593,7 @@ Private
 )
 verify
 {
-openInBrowser
+openAndShowTray
 (
 historyItem
 BrowsingMode

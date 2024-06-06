@@ -331,7 +331,7 @@ verifyAll
 {
 controller
 .
-handleOpen
+handleOpenInNewTab
 (
 historyItem
 BrowsingMode
@@ -356,7 +356,7 @@ verifyAll
 {
 controller
 .
-handleOpen
+handleOpenInNewTab
 (
 historyItem
 BrowsingMode
