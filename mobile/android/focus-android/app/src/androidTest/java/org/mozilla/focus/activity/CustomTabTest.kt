@@ -364,6 +364,12 @@ setCfrForTrackingProtectionEnabled
 (
 false
 )
+featureSettingsHelper
+.
+setShowStartBrowsingCfrEnabled
+(
+false
+)
 webServer
 =
 MockWebServer
