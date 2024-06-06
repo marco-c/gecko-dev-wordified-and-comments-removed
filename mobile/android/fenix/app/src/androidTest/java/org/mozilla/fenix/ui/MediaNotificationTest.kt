@@ -675,9 +675,13 @@ notificationShade
 {
 verifySystemNotificationGone
 (
-audioTestPage
-.
-title
+"
+A
+site
+is
+playing
+media
+"
 )
 }
 }
