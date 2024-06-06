@@ -398,7 +398,9 @@ textColor
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 android
 :
@@ -922,7 +924,9 @@ textColor
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 android
 :

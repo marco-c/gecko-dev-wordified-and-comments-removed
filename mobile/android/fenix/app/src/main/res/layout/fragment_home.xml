@@ -1122,7 +1122,9 @@ textColor
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 android
 :

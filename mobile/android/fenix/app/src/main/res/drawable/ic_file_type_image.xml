@@ -119,7 +119,9 @@ fillColor
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 android
 :
@@ -267,7 +269,9 @@ fillColor
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 android
 :
@@ -321,7 +325,9 @@ fillColor
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 android
 :

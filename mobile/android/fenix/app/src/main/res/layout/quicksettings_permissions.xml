@@ -270,7 +270,9 @@ textColor
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 tools
 :
@@ -459,7 +461,9 @@ textColor
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 tools
 :
@@ -650,7 +654,9 @@ textColor
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 tools
 :
@@ -841,7 +847,9 @@ textColor
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 tools
 :
@@ -1032,7 +1040,9 @@ textColor
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 tools
 :
@@ -1223,7 +1233,9 @@ textColor
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 tools
 :
@@ -1414,7 +1426,9 @@ textColor
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 tools
 :
@@ -1605,7 +1619,9 @@ textColor
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 tools
 :

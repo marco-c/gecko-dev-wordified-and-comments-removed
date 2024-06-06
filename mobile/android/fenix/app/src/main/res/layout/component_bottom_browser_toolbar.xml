@@ -199,7 +199,9 @@ browserToolbarClearColor
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 app
 :
@@ -207,7 +209,9 @@ browserToolbarInsecureColor
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 app
 :
@@ -215,7 +219,9 @@ browserToolbarMenuColor
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 app
 :
@@ -230,7 +236,9 @@ browserToolbarSecureColor
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 app
 :

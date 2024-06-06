@@ -493,7 +493,9 @@ fillColor
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 /
 >

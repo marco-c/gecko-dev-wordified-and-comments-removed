@@ -333,7 +333,7 @@ R
 .
 attr
 .
-primaryText
+textPrimary
 )
 it
 .

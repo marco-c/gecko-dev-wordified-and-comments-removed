@@ -119,7 +119,9 @@ fillColor
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 android
 :

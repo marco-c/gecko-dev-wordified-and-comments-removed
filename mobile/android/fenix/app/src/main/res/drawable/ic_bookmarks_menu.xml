@@ -416,7 +416,9 @@ fillColor
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 /
 >
@@ -527,7 +529,9 @@ fillColor
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 /
 >

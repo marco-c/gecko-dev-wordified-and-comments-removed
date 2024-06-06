@@ -585,7 +585,7 @@ R
 .
 attr
 .
-primaryText
+textPrimary
 )
 hint
 =
@@ -622,7 +622,7 @@ R
 .
 attr
 .
-primaryText
+textPrimary
 )
 )
 edit

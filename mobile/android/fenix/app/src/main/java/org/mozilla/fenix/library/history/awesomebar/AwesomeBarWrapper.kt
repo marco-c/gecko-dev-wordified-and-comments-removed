@@ -440,7 +440,7 @@ R
 .
 attr
 .
-primaryText
+textPrimary
 )
 description
 =

@@ -159,7 +159,9 @@ iconTint
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 app
 :
@@ -206,7 +208,9 @@ iconTint
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 app
 :

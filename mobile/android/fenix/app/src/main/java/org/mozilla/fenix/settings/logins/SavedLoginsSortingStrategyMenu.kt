@@ -272,7 +272,7 @@ R
 .
 attr
 .
-primaryText
+textPrimary
 )
 )
 val

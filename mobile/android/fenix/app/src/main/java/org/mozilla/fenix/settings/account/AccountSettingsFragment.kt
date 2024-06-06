@@ -857,7 +857,7 @@ R
 .
 attr
 .
-primaryText
+textPrimary
 )
 )
 }

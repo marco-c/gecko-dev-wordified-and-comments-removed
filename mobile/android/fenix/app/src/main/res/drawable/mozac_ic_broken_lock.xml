@@ -144,7 +144,7 @@ fillColor
 ?
 attr
 /
-primaryText
+textPrimary
 "
 android
 :
@@ -338,7 +338,7 @@ fillColor
 ?
 attr
 /
-primaryText
+textPrimary
 "
 android
 :

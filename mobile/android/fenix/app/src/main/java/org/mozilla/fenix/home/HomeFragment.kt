@@ -3310,7 +3310,7 @@ R
 .
 attr
 .
-primaryText
+textPrimary
 requireContext
 (
 )

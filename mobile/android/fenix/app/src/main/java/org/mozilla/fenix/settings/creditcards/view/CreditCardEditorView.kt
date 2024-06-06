@@ -846,7 +846,7 @@ R
 .
 attr
 .
-primaryText
+textPrimary
 )
 )
 }
@@ -939,7 +939,7 @@ R
 .
 attr
 .
-primaryText
+textPrimary
 )
 )
 }

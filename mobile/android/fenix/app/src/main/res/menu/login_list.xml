@@ -172,7 +172,9 @@ iconTint
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 android
 :

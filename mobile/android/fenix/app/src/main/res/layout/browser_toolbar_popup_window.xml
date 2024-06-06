@@ -257,7 +257,9 @@ textColor
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 /
 >
@@ -348,7 +350,9 @@ textColor
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 /
 >
@@ -432,7 +436,9 @@ textColor
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 /
 >

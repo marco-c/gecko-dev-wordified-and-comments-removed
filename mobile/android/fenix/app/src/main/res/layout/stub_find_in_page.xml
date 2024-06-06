@@ -201,7 +201,9 @@ findInPageButtonsTint
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 app
 :
@@ -209,7 +211,9 @@ findInPageResultCountTextColor
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 /
 >

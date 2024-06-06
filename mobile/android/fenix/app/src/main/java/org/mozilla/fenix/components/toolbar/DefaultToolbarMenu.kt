@@ -2034,7 +2034,7 @@ R
 .
 attr
 .
-primaryText
+textPrimary
 context
 )
 else
@@ -2453,7 +2453,7 @@ R
 .
 attr
 .
-primaryText
+textPrimary
 context
 )
 ColorRes

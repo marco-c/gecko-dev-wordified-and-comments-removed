@@ -403,7 +403,9 @@ tint
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 /
 >

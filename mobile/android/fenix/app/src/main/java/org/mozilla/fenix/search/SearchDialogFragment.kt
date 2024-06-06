@@ -4368,7 +4368,7 @@ R
 .
 attr
 .
-primaryText
+textPrimary
 binding
 .
 searchEnginesShortcutButton

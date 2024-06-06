@@ -191,7 +191,7 @@ R
 .
 attr
 .
-primaryText
+textPrimary
 )
 backgroundColor
 =

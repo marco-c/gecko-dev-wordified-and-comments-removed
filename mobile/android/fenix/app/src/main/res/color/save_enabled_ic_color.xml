@@ -117,7 +117,9 @@ color
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 /
 >

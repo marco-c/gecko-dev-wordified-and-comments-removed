@@ -420,7 +420,7 @@ R
 .
 attr
 .
-primaryText
+textPrimary
 )
 builder
 .

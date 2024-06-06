@@ -604,7 +604,7 @@ R
 .
 attr
 .
-primaryText
+textPrimary
 context
 )
 listener
@@ -647,7 +647,7 @@ R
 .
 attr
 .
-primaryText
+textPrimary
 context
 )
 val

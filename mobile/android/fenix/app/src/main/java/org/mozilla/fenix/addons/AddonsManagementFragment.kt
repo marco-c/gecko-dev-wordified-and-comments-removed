@@ -1112,7 +1112,7 @@ R
 .
 attr
 .
-primaryText
+textPrimary
 context
 )
 addonNameTextColor
@@ -1125,7 +1125,7 @@ R
 .
 attr
 .
-primaryText
+textPrimary
 context
 )
 addonSummaryTextColor

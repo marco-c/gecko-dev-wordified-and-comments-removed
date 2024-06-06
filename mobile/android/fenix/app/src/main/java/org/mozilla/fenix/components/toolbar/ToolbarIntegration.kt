@@ -361,7 +361,7 @@ R
 .
 attr
 .
-primaryText
+textPrimary
 context
 )
 renderStyle

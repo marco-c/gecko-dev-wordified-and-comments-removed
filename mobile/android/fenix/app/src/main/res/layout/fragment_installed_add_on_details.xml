@@ -309,7 +309,9 @@ textColor
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 android
 :
@@ -436,7 +438,9 @@ textColor
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 android
 :
@@ -460,7 +464,9 @@ drawableTint
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 /
 >
@@ -547,7 +553,9 @@ textColor
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 app
 :
@@ -564,7 +572,9 @@ drawableTint
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 /
 >
@@ -635,7 +645,9 @@ textColor
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 android
 :
@@ -668,7 +680,9 @@ drawableTint
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 /
 >
@@ -748,7 +762,9 @@ textColor
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 android
 :

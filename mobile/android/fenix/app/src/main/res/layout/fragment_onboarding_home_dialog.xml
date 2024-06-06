@@ -584,7 +584,9 @@ tint
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 /
 >
@@ -938,7 +940,9 @@ tint
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 /
 >
@@ -1301,7 +1305,9 @@ tint
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 /
 >

@@ -293,7 +293,7 @@ R
 .
 attr
 .
-primaryText
+textPrimary
 )
 SRC_IN
 )

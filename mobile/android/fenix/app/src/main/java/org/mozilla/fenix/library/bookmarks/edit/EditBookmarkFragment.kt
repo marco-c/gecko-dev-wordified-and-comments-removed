@@ -1088,7 +1088,7 @@ R
 .
 attr
 .
-primaryText
+textPrimary
 )
 background
 =

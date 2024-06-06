@@ -258,7 +258,9 @@ tint
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 /
 >
@@ -343,7 +345,9 @@ textColor
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 android
 :
@@ -472,7 +476,9 @@ tint
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 /
 >
@@ -550,7 +556,9 @@ textColor
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 app
 :

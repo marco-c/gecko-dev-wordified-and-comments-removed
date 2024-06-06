@@ -396,7 +396,9 @@ textColor
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 app
 :

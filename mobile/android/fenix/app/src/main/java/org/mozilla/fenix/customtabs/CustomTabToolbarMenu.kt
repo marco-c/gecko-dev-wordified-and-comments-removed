@@ -1231,7 +1231,7 @@ R
 .
 attr
 .
-primaryText
+textPrimary
 context
 )
 companion

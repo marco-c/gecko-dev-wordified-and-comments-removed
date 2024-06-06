@@ -533,7 +533,7 @@ textColor
 ?
 attr
 /
-primaryText
+textPrimary
 "
 android
 :

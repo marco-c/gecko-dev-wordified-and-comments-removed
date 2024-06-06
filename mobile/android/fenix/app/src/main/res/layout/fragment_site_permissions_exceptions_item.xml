@@ -295,7 +295,9 @@ textColor
 =
 "
 ?
-primaryText
+attr
+/
+textPrimary
 "
 tools
 :

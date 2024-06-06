@@ -636,7 +636,7 @@ R
 .
 attr
 .
-primaryText
+textPrimary
 )
 val
 engineForSpeculativeConnects
@@ -1678,7 +1678,7 @@ R
 .
 attr
 .
-primaryText
+textPrimary
 )
 val
 searchBitmap
