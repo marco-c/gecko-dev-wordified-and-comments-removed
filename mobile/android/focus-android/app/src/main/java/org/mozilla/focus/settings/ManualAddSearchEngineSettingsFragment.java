@@ -65,6 +65,15 @@ support
 .
 annotation
 .
+VisibleForTesting
+;
+import
+android
+.
+support
+.
+annotation
+.
 WorkerThread
 ;
 import
@@ -1076,7 +1085,7 @@ error_hostLookup_title
 }
 }
 WorkerThread
-private
+VisibleForTesting
 static
 boolean
 isValidSearchQueryURL
