@@ -663,7 +663,7 @@ textWarning
 =
 PhotonColors
 .
-Red80
+Red70
 textAccent
 =
 PhotonColors
@@ -748,7 +748,7 @@ iconWarning
 =
 PhotonColors
 .
-Red80
+Red70
 iconAccentViolet
 =
 PhotonColors
@@ -813,7 +813,7 @@ borderWarning
 =
 PhotonColors
 .
-Red80
+Red70
 )
 /
 *
