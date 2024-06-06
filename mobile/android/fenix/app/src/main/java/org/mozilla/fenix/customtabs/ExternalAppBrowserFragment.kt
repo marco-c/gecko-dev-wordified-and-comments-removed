@@ -566,7 +566,7 @@ activity
 onItemTapped
 =
 {
-browserInteractor
+browserToolbarInteractor
 .
 onBrowserToolbarMenuItemTapped
 (

@@ -709,7 +709,7 @@ active
 false
 listener
 =
-browserInteractor
+browserToolbarInteractor
 :
 :
 onReaderModePressed
