@@ -646,11 +646,9 @@ testing
 webdriver
 #
 for
-external
+firefox
 -
-gradle
--
-dependencies
+android
 path
 :
 mobile
@@ -813,11 +811,6 @@ java
 FenixDependenciesPlugin
 .
 kt
-#
-for
-build
--
-components
 path
 :
 mobile
