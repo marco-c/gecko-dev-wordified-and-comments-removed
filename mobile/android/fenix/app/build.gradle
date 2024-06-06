@@ -468,6 +468,10 @@ mozilla_concept_storage
 implementation
 Deps
 .
+mozilla_concept_toolbar
+implementation
+Deps
+.
 mozilla_browser_awesomebar
 implementation
 Deps
@@ -501,6 +505,10 @@ implementation
 Deps
 .
 mozilla_feature_toolbar
+implementation
+Deps
+.
+mozilla_feature_tabs
 implementation
 Deps
 .
