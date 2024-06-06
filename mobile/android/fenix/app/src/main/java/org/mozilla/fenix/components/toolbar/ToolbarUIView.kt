@@ -851,6 +851,7 @@ draw
 =
 BitmapDrawable
 (
+resources
 searchIcon
 )
 val

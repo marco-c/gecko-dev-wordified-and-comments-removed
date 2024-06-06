@@ -494,6 +494,15 @@ login
 and
 sign
 up
+-
+#
+2308
+-
+Update
+the
+deprecated
+BitmapDrawable
+constructor
 #
 #
 #
