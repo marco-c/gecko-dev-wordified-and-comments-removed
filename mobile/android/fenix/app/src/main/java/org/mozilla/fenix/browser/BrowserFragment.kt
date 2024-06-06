@@ -653,7 +653,7 @@ readerModeAvailable
 }
 selected
 =
-getSessionById
+getCurrentTab
 (
 )
 ?

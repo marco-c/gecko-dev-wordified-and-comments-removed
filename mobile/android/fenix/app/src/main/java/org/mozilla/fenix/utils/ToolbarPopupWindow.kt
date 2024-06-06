@@ -155,9 +155,11 @@ components
 .
 browser
 .
-session
+state
 .
-Session
+selector
+.
+selectedTab
 import
 mozilla
 .
@@ -167,9 +169,9 @@ browser
 .
 state
 .
-selector
+state
 .
-selectedTab
+CustomTabSessionState
 import
 mozilla
 .
@@ -244,7 +246,7 @@ View
 >
 customTabSession
 :
-Session
+CustomTabSessionState
 ?
 =
 null
@@ -640,7 +642,7 @@ store
 BrowserStore
 customTabSession
 :
-Session
+CustomTabSessionState
 ?
 =
 null
@@ -659,6 +661,8 @@ null
 )
 {
 customTabSession
+.
+content
 .
 url
 }

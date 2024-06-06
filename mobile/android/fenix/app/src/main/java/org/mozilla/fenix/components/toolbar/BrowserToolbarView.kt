@@ -157,9 +157,11 @@ components
 .
 browser
 .
-session
+state
 .
-Session
+selector
+.
+selectedTab
 import
 mozilla
 .
@@ -169,9 +171,9 @@ browser
 .
 state
 .
-selector
+state
 .
-selectedTab
+CustomTabSessionState
 import
 mozilla
 .
@@ -425,7 +427,7 @@ private
 val
 customTabSession
 :
-Session
+CustomTabSessionState
 ?
 private
 val
@@ -544,7 +546,7 @@ get
 customTabSession
 ?
 .
-customTabConfig
+config
 ?
 .
 externalAppType
@@ -558,7 +560,7 @@ PROGRESSIVE_WEB_APP
 customTabSession
 ?
 .
-customTabConfig
+config
 ?
 .
 externalAppType
@@ -999,6 +1001,8 @@ id
 isPrivate
 =
 customTabSession
+.
+content
 .
 private
 )
