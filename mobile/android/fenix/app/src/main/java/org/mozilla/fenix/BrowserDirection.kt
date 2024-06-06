@@ -251,6 +251,14 @@ id
 .
 addonDetailsFragment
 )
+FromAddonPermissionsDetailsFragment
+(
+R
+.
+id
+.
+addonPermissionsDetailFragment
+)
 FromLoginDetailFragment
 (
 R
