@@ -158,8 +158,6 @@ kotlinx
 coroutines
 .
 Dispatchers
-.
-IO
 import
 kotlinx
 .
@@ -302,6 +300,14 @@ application
 .
 applicationContext
 )
+VisibleForTesting
+internal
+var
+ioDispatcher
+=
+Dispatchers
+.
+IO
 private
 val
 devicesListLiveData
@@ -405,7 +411,7 @@ viewModelScope
 .
 launch
 (
-IO
+ioDispatcher
 )
 {
 fxaAccountManager
@@ -619,7 +625,7 @@ viewModelScope
 .
 launch
 (
-IO
+ioDispatcher
 )
 {
 val
@@ -714,7 +720,7 @@ viewModelScope
 .
 launch
 (
-IO
+ioDispatcher
 )
 {
 val

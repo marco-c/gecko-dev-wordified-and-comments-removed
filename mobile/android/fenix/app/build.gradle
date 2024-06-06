@@ -5180,14 +5180,6 @@ mozilla_support_rusthttp
 testImplementation
 Deps
 .
-mockito_core
-androidTestImplementation
-Deps
-.
-mockito_android
-testImplementation
-Deps
-.
 mockk
 /
 /

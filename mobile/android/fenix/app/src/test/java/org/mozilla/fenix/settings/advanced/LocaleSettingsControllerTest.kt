@@ -131,16 +131,6 @@ locale
 .
 LocaleManager
 import
-mozilla
-.
-components
-.
-support
-.
-test
-.
-mock
-import
 org
 .
 junit
@@ -410,7 +400,7 @@ otherLocale
 :
 Locale
 =
-mock
+mockk
 (
 )
 every
