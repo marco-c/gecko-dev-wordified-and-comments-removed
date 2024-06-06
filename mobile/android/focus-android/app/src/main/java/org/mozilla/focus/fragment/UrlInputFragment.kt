@@ -145,14 +145,6 @@ androidx
 .
 core
 .
-content
-.
-ContextCompat
-import
-androidx
-.
-core
-.
 view
 .
 isVisible
@@ -1973,7 +1965,7 @@ backgroundView
 .
 background
 =
-ContextCompat
+AppCompatResources
 .
 getDrawable
 (
