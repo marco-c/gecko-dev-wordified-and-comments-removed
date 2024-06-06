@@ -772,6 +772,17 @@ onTabsUpdated
 {
 if
 (
+hasAccessibilityEnabled
+)
+{
+adapter
+.
+notifyDataSetChanged
+(
+)
+}
+if
+(
 !
 hasLoaded
 )
