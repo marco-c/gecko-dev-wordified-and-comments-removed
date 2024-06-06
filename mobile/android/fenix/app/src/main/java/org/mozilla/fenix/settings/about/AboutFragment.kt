@@ -979,8 +979,13 @@ ExternalLink
 PRIVACY_NOTICE
 SupportUtils
 .
-getPrivacyNoticeUrl
+getMozillaPageUrl
 (
+SupportUtils
+.
+MozillaPage
+.
+PRIVATE_NOTICE
 )
 )
 getString

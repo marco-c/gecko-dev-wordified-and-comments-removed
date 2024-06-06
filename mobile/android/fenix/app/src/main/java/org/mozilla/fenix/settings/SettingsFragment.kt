@@ -1770,8 +1770,13 @@ requireContext
 )
 SupportUtils
 .
-getPrivacyNoticeUrl
+getMozillaPageUrl
 (
+SupportUtils
+.
+MozillaPage
+.
+PRIVATE_NOTICE
 )
 )
 startActivity
