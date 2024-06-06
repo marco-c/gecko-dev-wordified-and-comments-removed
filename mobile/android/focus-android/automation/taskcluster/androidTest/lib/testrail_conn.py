@@ -99,15 +99,15 @@ self
 .
 user
 =
-'
-'
+"
+"
         
 self
 .
 password
 =
-'
-'
+"
+"
         
 if
 not
@@ -115,18 +115,18 @@ base_url
 .
 endswith
 (
-'
+"
 /
-'
+"
 )
 :
             
 base_url
 +
 =
-'
+"
 /
-'
+"
         
 self
 .
@@ -134,7 +134,7 @@ __url
 =
 base_url
 +
-'
+"
 index
 .
 php
@@ -144,7 +144,7 @@ api
 /
 v2
 /
-'
+"
     
 def
 send_get
@@ -238,9 +238,9 @@ self
 .
 __send_request
 (
-'
+"
 GET
-'
+"
 uri
 filepath
 )
@@ -350,9 +350,9 @@ self
 .
 __send_request
 (
-'
+"
 POST
-'
+"
 uri
 data
 )
@@ -384,16 +384,15 @@ base64
 .
 b64encode
 (
-                
 bytes
 (
-'
+"
 %
 s
 :
 %
 s
-'
+"
 %
 (
 self
@@ -403,18 +402,17 @@ self
 .
 password
 )
-'
+"
 utf
 -
 8
-'
+"
+)
 )
             
-)
-            
-'
+"
 ascii
-'
+"
         
 )
 .
@@ -425,13 +423,13 @@ strip
 headers
 =
 {
-'
+"
 Authorization
-'
+"
 :
-'
+"
 Basic
-'
+"
 +
 auth
 }
@@ -440,9 +438,9 @@ if
 method
 =
 =
-'
+"
 POST
-'
+"
 :
             
 if
@@ -453,25 +451,25 @@ uri
 ]
 =
 =
-'
+"
 add_attachment
-'
+"
 :
                 
 files
 =
 {
-'
+"
 attachment
-'
+"
 :
 (
 open
 (
 data
-'
+"
 rb
-'
+"
 )
 )
 }
@@ -493,9 +491,9 @@ files
                 
 files
 [
-'
+"
 attachment
-'
+"
 ]
 .
 close
@@ -507,18 +505,18 @@ else
                 
 headers
 [
-'
+"
 Content
 -
 Type
-'
+"
 ]
 =
-'
+"
 application
 /
 json
-'
+"
                 
 payload
 =
@@ -530,11 +528,11 @@ dumps
 (
 data
 )
-'
+"
 utf
 -
 8
-'
+"
 )
                 
 response
@@ -557,18 +555,18 @@ else
             
 headers
 [
-'
+"
 Content
 -
 Type
-'
+"
 ]
 =
-'
+"
 application
 /
 json
-'
+"
             
 response
 =
@@ -602,11 +600,15 @@ json
 )
             
 except
+(
+                
 requests
 .
 exceptions
 .
 HTTPError
+            
+)
 :
                 
 error
@@ -621,7 +623,8 @@ content
 raise
 APIError
 (
-'
+                
+"
 TestRail
 API
 returned
@@ -632,7 +635,7 @@ s
 %
 s
 )
-'
+"
 %
 (
 response
@@ -640,6 +643,7 @@ response
 status_code
 error
 )
+            
 )
         
 else
@@ -653,10 +657,10 @@ uri
 ]
 =
 =
-'
+"
 get_attachment
 /
-'
+"
 :
                 
 try
@@ -665,9 +669,9 @@ try
 open
 (
 data
-'
+"
 wb
-'
+"
 )
 .
 write
@@ -678,23 +682,19 @@ content
 )
                     
 return
-(
 data
-)
                 
 except
 FileNotFoundError
 :
                     
 return
-(
 "
 Error
 saving
 attachment
 .
 "
-)
             
 else
 :
