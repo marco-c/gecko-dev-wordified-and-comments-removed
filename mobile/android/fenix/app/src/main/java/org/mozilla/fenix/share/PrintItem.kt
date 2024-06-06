@@ -325,14 +325,7 @@ ic_print
 )
 contentDescription
 =
-stringResource
-(
-R
-.
-string
-.
-content_description_close_button
-)
+null
 tint
 =
 FirefoxTheme
