@@ -853,9 +853,11 @@ components
 .
 core
 .
-sessionManager
+store
 .
-findSessionById
+state
+.
+findTabOrCustomTab
 (
 args
 .
@@ -917,6 +919,8 @@ reload
 invoke
 (
 session
+.
+id
 )
 }
 }
