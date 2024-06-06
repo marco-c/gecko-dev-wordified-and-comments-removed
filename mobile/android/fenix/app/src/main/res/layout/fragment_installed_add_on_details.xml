@@ -362,7 +362,7 @@ android
 drawablePadding
 =
 "
-10dp
+12dp
 "
 android
 :
@@ -411,11 +411,7 @@ drawableTint
 =
 "
 ?
-android
-:
-attr
-/
-textColorPrimary
+primaryText
 "
 /
 >
@@ -472,7 +468,7 @@ android
 drawablePadding
 =
 "
-6dp
+12dp
 "
 android
 :
@@ -521,11 +517,7 @@ drawableTint
 =
 "
 ?
-android
-:
-attr
-/
-textColorPrimary
+primaryText
 "
 /
 >
@@ -582,7 +574,7 @@ android
 drawablePadding
 =
 "
-6dp
+12dp
 "
 android
 :
