@@ -203,6 +203,8 @@ type
 b
 -
 android
+-
+large
 worker
 :
 docker
@@ -354,6 +356,10 @@ checkouts
 /
 vcs
 /
+focus
+-
+android
+/
 app
 /
 build
@@ -362,7 +368,7 @@ reports
 /
 tests
 /
-testDebugUnitTest
+testFocusDebugUnitTest
 /
 index
 .
@@ -388,6 +394,10 @@ worker
 checkouts
 /
 vcs
+/
+focus
+-
+android
 /
 app
 /
@@ -489,7 +499,7 @@ gradlew
 clean
 '
 '
-testDebugUnitTest
+testFenixDebugUnitTest
 '
 '
 githubTestDetails
@@ -544,6 +554,8 @@ checkouts
 /
 vcs
 /
+fenix
+/
 app
 /
 build
@@ -552,7 +564,7 @@ reports
 /
 tests
 /
-testDebugUnitTest
+testFenixDebugUnitTest
 /
 index
 .
@@ -578,6 +590,8 @@ worker
 checkouts
 /
 vcs
+/
+fenix
 /
 app
 /
@@ -922,7 +936,7 @@ reports
 /
 test
 /
-testDebugUnitTest
+testFenixDebugUnitTest
 /
 index
 .
