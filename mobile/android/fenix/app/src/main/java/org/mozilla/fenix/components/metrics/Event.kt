@@ -2654,7 +2654,7 @@ Map
 <
 Events
 .
-appOpenedAllStartupKeys
+appReceivedIntentKeys
 String
 >
 ?
@@ -2666,7 +2666,7 @@ hashMapOf
 (
 Events
 .
-appOpenedAllStartupKeys
+appReceivedIntentKeys
 .
 source
 to
