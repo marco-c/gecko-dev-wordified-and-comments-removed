@@ -372,7 +372,7 @@ track
 (
 Event
 .
-TabMediaPlay
+TabMediaPause
 )
 interactor
 .
@@ -401,7 +401,7 @@ track
 (
 Event
 .
-TabMediaPause
+TabMediaPlay
 )
 interactor
 .
