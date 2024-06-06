@@ -4549,7 +4549,7 @@ R
 .
 id
 .
-searchFragment
+searchDialogFragment
 )
 {
 view

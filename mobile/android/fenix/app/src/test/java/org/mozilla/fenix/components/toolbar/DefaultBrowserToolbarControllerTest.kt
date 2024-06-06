@@ -641,9 +641,6 @@ controller
 =
 createController
 (
-useNewSearchExperience
-=
-false
 )
 controller
 .
@@ -656,7 +653,7 @@ directions
 =
 BrowserFragmentDirections
 .
-actionBrowserFragmentToSearchFragment
+actionGlobalSearchDialog
 (
 sessionId
 =
@@ -700,9 +697,6 @@ controller
 =
 createController
 (
-useNewSearchExperience
-=
-true
 )
 controller
 .
@@ -931,9 +925,6 @@ controller
 =
 createController
 (
-useNewSearchExperience
-=
-false
 )
 controller
 .
@@ -945,7 +936,7 @@ expected
 =
 BrowserFragmentDirections
 .
-actionBrowserFragmentToSearchFragment
+actionGlobalSearchDialog
 (
 sessionId
 =
@@ -1000,9 +991,6 @@ controller
 =
 createController
 (
-useNewSearchExperience
-=
-true
 )
 controller
 .
@@ -1500,11 +1488,6 @@ Session
 ?
 =
 null
-useNewSearchExperience
-:
-Boolean
-=
-false
 )
 =
 DefaultBrowserToolbarController
@@ -1533,9 +1516,6 @@ readerModeController
 sessionManager
 =
 sessionManager
-useNewSearchExperience
-=
-useNewSearchExperience
 onTabCounterClicked
 =
 onTabCounterClicked

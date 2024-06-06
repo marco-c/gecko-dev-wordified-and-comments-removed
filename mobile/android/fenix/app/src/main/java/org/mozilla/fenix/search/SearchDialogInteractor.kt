@@ -134,13 +134,13 @@ TooManyFunctions
 "
 )
 class
-SearchInteractor
+SearchDialogInteractor
 (
 private
 val
 searchController
 :
-SearchController
+SearchDialogController
 )
 :
 AwesomeBarInteractor

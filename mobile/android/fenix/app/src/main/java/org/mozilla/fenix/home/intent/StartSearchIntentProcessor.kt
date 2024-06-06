@@ -339,7 +339,7 @@ let
 {
 NavGraphDirections
 .
-actionGlobalSearch
+actionGlobalSearchDialog
 (
 sessionId
 =

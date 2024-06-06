@@ -2094,7 +2094,7 @@ R
 .
 id
 .
-action_global_search
+action_global_search_dialog
 }
 null
 )

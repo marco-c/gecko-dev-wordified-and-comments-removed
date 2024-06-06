@@ -2077,7 +2077,7 @@ directions
 =
 HomeFragmentDirections
 .
-actionGlobalSearch
+actionGlobalSearchDialog
 (
 sessionId
 =

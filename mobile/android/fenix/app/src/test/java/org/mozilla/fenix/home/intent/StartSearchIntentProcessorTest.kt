@@ -364,7 +364,7 @@ navigate
 (
 NavGraphDirections
 .
-actionGlobalSearch
+actionGlobalSearchDialog
 (
 sessionId
 =

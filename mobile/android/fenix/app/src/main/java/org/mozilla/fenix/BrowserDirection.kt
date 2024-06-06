@@ -147,14 +147,6 @@ id
 .
 homeFragment
 )
-FromSearch
-(
-R
-.
-id
-.
-searchFragment
-)
 FromSearchDialog
 (
 R
