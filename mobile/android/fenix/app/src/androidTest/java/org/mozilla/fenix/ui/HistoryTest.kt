@@ -1139,6 +1139,11 @@ toString
 )
 )
 {
+mDevice
+.
+waitForIdle
+(
+)
 }
 .
 openThreeDotMenu

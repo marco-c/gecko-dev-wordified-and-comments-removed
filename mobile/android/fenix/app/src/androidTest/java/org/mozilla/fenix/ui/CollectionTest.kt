@@ -1056,6 +1056,11 @@ toString
 )
 )
 {
+mDevice
+.
+waitForIdle
+(
+)
 }
 .
 openTabDrawer
