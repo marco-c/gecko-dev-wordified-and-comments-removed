@@ -2321,7 +2321,8 @@ dismissed
 true
 anchorExtraAttr
 :
-null
+"
+"
 usernameValue
 :
 "
@@ -2390,7 +2391,8 @@ dismissed
 false
 anchorExtraAttr
 :
-null
+"
+"
 usernameValue
 :
 "
@@ -3011,7 +3013,8 @@ dismissed
 true
 anchorExtraAttr
 :
-null
+"
+"
 usernameValue
 :
 "
@@ -3081,7 +3084,8 @@ dismissed
 false
 anchorExtraAttr
 :
-null
+"
+"
 usernameValue
 :
 "
@@ -3327,7 +3331,8 @@ dismissed
 true
 anchorExtraAttr
 :
-null
+"
+"
 usernameValue
 :
 "
@@ -3396,7 +3401,8 @@ dismissed
 false
 anchorExtraAttr
 :
-null
+"
+"
 usernameValue
 :
 "
@@ -3653,7 +3659,8 @@ dismissed
 true
 anchorExtraAttr
 :
-null
+"
+"
 usernameValue
 :
 "
@@ -3778,7 +3785,8 @@ dismissed
 true
 anchorExtraAttr
 :
-null
+"
+"
 usernameValue
 :
 "
@@ -3873,7 +3881,8 @@ dismissed
 false
 anchorExtraAttr
 :
-null
+"
+"
 usernameValue
 :
 "
@@ -4338,7 +4347,8 @@ dismissed
 false
 anchorExtraAttr
 :
-null
+"
+"
 usernameValue
 :
 "
@@ -6190,7 +6200,8 @@ dismissed
 false
 anchorExtraAttr
 :
-null
+"
+"
 usernameValue
 :
 "
@@ -7179,7 +7190,8 @@ dismissed
 true
 anchorExtraAttr
 :
-null
+"
+"
 usernameValue
 :
 user1LoginSnapshot
@@ -7996,7 +8008,8 @@ expectedConfirmation
 attention
 "
 :
-null
+"
+"
 usernameValue
 :
 expectedDoorhangerUsername
@@ -8065,7 +8078,8 @@ dismissed
 false
 anchorExtraAttr
 :
-null
+"
+"
 usernameValue
 :
 "
