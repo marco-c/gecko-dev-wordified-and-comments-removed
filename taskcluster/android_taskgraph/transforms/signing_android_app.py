@@ -248,9 +248,9 @@ tasks
 worker_type
 =
 "
-dep
+linux
 -
-signing
+depsigning
 "
         
 if
@@ -296,6 +296,8 @@ PRODUCTION_SIGNING_BUILD_TYPES
 worker_type
 =
 "
+linux
+-
 signing
 "
         
