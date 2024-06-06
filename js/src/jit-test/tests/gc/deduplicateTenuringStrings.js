@@ -3,6 +3,14 @@ gczeal
 0
 )
 ;
+gcparam
+(
+'
+semispaceNurseryEnabled
+'
+0
+)
+;
 var
 helperCode
 =

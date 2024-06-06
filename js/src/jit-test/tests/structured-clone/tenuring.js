@@ -408,6 +408,14 @@ maxNurseryBytes
 1024
 )
 ;
+gcparam
+(
+'
+semispaceNurseryEnabled
+'
+0
+)
+;
 gc
 (
 )
