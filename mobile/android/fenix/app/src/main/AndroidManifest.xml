@@ -1681,8 +1681,13 @@ android
 name
 =
 "
+org
 .
-widget
+mozilla
+.
+gecko
+.
+search
 .
 SearchWidgetProvider
 "
