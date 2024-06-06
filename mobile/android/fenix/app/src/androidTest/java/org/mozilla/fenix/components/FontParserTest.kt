@@ -105,7 +105,7 @@ this
 /
 assertEquals
 (
-2
+3
 FontEnumerationWorker
 .
 kDesiredSubmissions

@@ -601,6 +601,15 @@ submission
 put
 (
 "
+submission
+"
+kDesiredSubmissions
+)
+submission
+.
+put
+(
+"
 brand
 "
 Build
@@ -1375,6 +1384,6 @@ kDesiredSubmissions
 :
 Int
 =
-2
+3
 }
 }
