@@ -392,6 +392,15 @@ include
 "
 mozilla
 /
+AutoRestore
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EventDispatcher
 .
 h
