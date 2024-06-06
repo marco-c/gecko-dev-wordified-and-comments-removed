@@ -159,8 +159,9 @@ app
 iconTint
 =
 "
-?
-primaryText
+color
+/
+save_enabled_ic_color
 "
 android
 :

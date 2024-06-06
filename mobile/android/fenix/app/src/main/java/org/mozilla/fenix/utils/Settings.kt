@@ -359,6 +359,8 @@ settings
 .
 logins
 .
+fragment
+.
 SavedLoginsFragment
 import
 org

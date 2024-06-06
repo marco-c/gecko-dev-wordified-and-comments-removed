@@ -244,6 +244,11 @@ SavedLoginsSortingStrategyMenu
 Item
 .
 LastUsedSort
+duplicateLogins
+=
+listOf
+(
+)
 )
 Test
 fun

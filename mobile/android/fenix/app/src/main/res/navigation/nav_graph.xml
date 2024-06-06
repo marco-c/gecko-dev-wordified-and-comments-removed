@@ -2414,6 +2414,8 @@ settings
 .
 logins
 .
+fragment
+.
 SavedLoginsAuthFragment
 "
 android
@@ -2693,6 +2695,8 @@ settings
 .
 logins
 .
+fragment
+.
 SavedLoginsFragment
 "
 tools
@@ -2892,6 +2896,8 @@ settings
 .
 logins
 .
+fragment
+.
 LoginDetailFragment
 "
 tools
@@ -2998,6 +3004,8 @@ fenix
 settings
 .
 logins
+.
+fragment
 .
 EditLoginFragment
 "
@@ -6186,6 +6194,8 @@ fenix
 settings
 .
 logins
+.
+fragment
 .
 SavedLoginsSettingFragment
 "

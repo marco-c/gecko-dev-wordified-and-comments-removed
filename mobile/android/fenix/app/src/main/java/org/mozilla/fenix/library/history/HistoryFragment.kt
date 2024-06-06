@@ -1202,6 +1202,14 @@ history_delete_multiple_items_snackbar
 }
 else
 {
+String
+.
+format
+(
+requireContext
+(
+)
+.
 getString
 (
 R
@@ -1209,6 +1217,7 @@ R
 string
 .
 history_delete_single_item_snackbar
+)
 historyItems
 .
 first

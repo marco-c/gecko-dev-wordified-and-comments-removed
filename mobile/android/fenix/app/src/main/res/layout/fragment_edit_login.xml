@@ -1116,6 +1116,13 @@ layout_height
 "
 android
 :
+layout_marginTop
+=
+"
+3dp
+"
+android
+:
 layout_marginBottom
 =
 "
@@ -1155,7 +1162,7 @@ parent
 "
 app
 :
-layout_constraintBottom_toBottomOf
+layout_constraintTop_toTopOf
 =
 "
 id
