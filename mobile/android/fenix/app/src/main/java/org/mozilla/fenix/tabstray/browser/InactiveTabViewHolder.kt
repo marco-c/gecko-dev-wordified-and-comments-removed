@@ -350,13 +350,6 @@ it
 isActivated
 =
 newState
-binding
-.
-chevron
-.
-rotation
-=
-ROTATION_DEGREE
 correctHeaderBorder
 (
 isActivated
@@ -445,12 +438,6 @@ R
 layout
 .
 inactive_header_item
-private
-const
-val
-ROTATION_DEGREE
-=
-180F
 }
 }
 class
