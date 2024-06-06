@@ -4071,6 +4071,11 @@ bundleArgs
 clear
 (
 )
+lastAppliedWallpaperName
+=
+Wallpaper
+.
+defaultName
 }
 override
 fun
