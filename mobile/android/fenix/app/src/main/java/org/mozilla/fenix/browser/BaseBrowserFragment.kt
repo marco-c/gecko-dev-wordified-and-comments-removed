@@ -4170,6 +4170,13 @@ requireComponents
 useCases
 .
 tabsUseCases
+fileUploadsDirCleaner
+=
+requireComponents
+.
+core
+.
+fileUploadsDirCleaner
 creditCardValidationDelegate
 =
 DefaultCreditCardValidationDelegate

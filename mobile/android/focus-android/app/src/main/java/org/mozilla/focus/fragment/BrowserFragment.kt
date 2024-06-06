@@ -2003,6 +2003,11 @@ tryGetCustomTabId
 fragmentManager
 =
 parentFragmentManager
+fileUploadsDirCleaner
+=
+requireComponents
+.
+fileUploadsDirCleaner
 onNeedToRequestPermissions
 =
 {

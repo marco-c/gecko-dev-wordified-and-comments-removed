@@ -381,6 +381,13 @@ id
 fragmentManager
 =
 parentFragmentManager
+fileUploadsDirCleaner
+=
+requireComponents
+.
+core
+.
+fileUploadsDirCleaner
 onNeedToRequestPermissions
 =
 {

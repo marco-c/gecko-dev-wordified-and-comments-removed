@@ -2877,6 +2877,15 @@ stopPeriodicIngestion
 )
 }
 }
+components
+.
+core
+.
+fileUploadsDirCleaner
+.
+cleanUploadsDirectory
+(
+)
 }
 /
 /
