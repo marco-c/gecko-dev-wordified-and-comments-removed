@@ -2569,7 +2569,7 @@ false
 SessionSuggestionProvider
 {
 val
-searchEngineHostFilter
+searchEngineUriFilter
 =
 when
 (
@@ -2585,9 +2585,6 @@ searchEngine
 ?
 .
 resultsUrl
-?
-.
-host
 false
 -
 >
@@ -2635,9 +2632,9 @@ string
 .
 firefox_suggest_header
 )
-resultsHostFilter
+resultsUriFilter
 =
-searchEngineHostFilter
+searchEngineUriFilter
 )
 }
 /
