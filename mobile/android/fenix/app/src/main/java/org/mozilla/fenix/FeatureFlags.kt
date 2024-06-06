@@ -193,14 +193,11 @@ visited
 sites
 *
 /
+const
 val
 topFrecentSite
 =
-Config
-.
-channel
-.
-isNightlyOrDebug
+true
 /
 *
 *

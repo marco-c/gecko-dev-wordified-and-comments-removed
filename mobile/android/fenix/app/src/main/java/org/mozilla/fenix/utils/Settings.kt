@@ -801,7 +801,7 @@ pref_key_enable_top_frecent_sites
 )
 default
 =
-false
+true
 featureFlag
 =
 FeatureFlags
