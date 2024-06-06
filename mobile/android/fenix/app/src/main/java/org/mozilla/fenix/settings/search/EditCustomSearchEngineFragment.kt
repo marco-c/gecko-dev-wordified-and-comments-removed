@@ -731,7 +731,7 @@ s
 )
 )
 {
-custom_search_engine_name_field
+custom_search_engine_search_string_field
 .
 error
 =
