@@ -466,6 +466,16 @@ firefox
 preview
 "
 )
+QR_CAMERA_ACCESS
+(
+"
+qr
+-
+camera
+-
+access
+"
+)
 }
 enum
 class
