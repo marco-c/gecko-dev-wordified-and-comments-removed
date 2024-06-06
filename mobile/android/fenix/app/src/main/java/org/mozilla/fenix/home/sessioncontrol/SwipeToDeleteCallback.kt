@@ -327,7 +327,7 @@ R
 .
 attr
 .
-destructive
+textWarning
 )
 )
 val

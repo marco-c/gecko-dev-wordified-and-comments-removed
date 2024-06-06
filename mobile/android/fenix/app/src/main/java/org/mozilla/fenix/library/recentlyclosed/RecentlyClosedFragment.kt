@@ -489,7 +489,7 @@ R
 .
 attr
 .
-destructive
+textWarning
 )
 }
 }

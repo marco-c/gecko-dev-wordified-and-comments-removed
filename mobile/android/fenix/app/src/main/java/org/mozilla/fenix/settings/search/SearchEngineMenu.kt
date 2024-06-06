@@ -254,7 +254,7 @@ R
 .
 attr
 .
-destructive
+textWarning
 context
 )
 )

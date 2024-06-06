@@ -444,7 +444,7 @@ R
 .
 attr
 .
-destructive
+textWarning
 )
 )
 )
@@ -470,7 +470,7 @@ R
 .
 attr
 .
-destructive
+textWarning
 )
 )
 )
@@ -893,7 +893,7 @@ R
 .
 attr
 .
-destructive
+textWarning
 )
 )
 }
@@ -986,7 +986,7 @@ R
 .
 attr
 .
-destructive
+textWarning
 )
 )
 }

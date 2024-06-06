@@ -588,7 +588,7 @@ R
 .
 attr
 .
-destructive
+textWarning
 )
 )
 !

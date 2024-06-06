@@ -1115,7 +1115,7 @@ R
 .
 attr
 .
-destructive
+textWarning
 )
 }
 }

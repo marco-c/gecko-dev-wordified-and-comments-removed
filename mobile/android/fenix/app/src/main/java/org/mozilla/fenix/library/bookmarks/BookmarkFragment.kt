@@ -1293,7 +1293,7 @@ R
 .
 attr
 .
-destructive
+textWarning
 )
 }
 }

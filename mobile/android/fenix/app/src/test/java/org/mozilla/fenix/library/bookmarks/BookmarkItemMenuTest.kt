@@ -295,7 +295,7 @@ R
 .
 attr
 .
-destructive
+textWarning
 )
 )
 deleteItem

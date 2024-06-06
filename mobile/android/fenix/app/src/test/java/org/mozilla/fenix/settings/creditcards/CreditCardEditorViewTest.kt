@@ -1136,7 +1136,7 @@ R
 .
 attr
 .
-destructive
+textWarning
 )
 )
 verify
@@ -1249,7 +1249,7 @@ R
 .
 attr
 .
-destructive
+textWarning
 )
 )
 verify
@@ -1451,7 +1451,7 @@ R
 .
 attr
 .
-destructive
+textWarning
 )
 )
 verify

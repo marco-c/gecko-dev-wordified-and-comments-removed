@@ -693,7 +693,7 @@ R
 .
 attr
 .
-destructive
+textWarning
 )
 }
 }

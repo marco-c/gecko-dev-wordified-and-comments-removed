@@ -998,7 +998,7 @@ R
 .
 attr
 .
-destructive
+textWarning
 )
 }
 }
