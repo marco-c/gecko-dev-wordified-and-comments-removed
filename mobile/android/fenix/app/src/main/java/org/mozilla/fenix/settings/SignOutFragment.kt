@@ -287,7 +287,6 @@ id
 design_bottom_sheet
 )
 as
-?
 FrameLayout
 val
 behavior
