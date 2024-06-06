@@ -4208,6 +4208,10 @@ mozilla_ui_publicsuffixlist
 implementation
 Deps
 .
+mozilla_ui_widgets
+implementation
+Deps
+.
 mozilla_lib_crash
 implementation
 Deps
