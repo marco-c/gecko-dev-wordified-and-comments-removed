@@ -234,7 +234,9 @@ android
 layout_width
 =
 "
-250dp
+dimen
+/
+browser_menu_height
 "
 android
 :
