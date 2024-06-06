@@ -215,6 +215,9 @@ view
 context
 NUM_COLUMNS
 )
+isNestedScrollingEnabled
+=
+false
 }
 }
 fun
