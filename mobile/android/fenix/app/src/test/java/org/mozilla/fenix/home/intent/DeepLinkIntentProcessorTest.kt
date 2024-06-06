@@ -952,7 +952,7 @@ navigate
 (
 NavGraphDirections
 .
-actionGlobalSettingsAddonsManagementFragment
+actionGlobalAddonsManagementFragment
 (
 )
 )

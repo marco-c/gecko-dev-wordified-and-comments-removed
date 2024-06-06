@@ -244,7 +244,7 @@ SettingsAddonManager
 (
 NavGraphDirections
 .
-actionGlobalSettingsAddonsManagementFragment
+actionGlobalAddonsManagementFragment
 (
 )
 R
