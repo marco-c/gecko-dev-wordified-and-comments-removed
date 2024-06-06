@@ -61,7 +61,7 @@ mozilla
 .
 fenix
 .
-exceptions
+trackingprotectionexceptions
 import
 kotlinx
 .
@@ -91,7 +91,7 @@ junit
 .
 Test
 class
-ExceptionsFragmentStoreTest
+TrackingProtectionExceptionsFragmentStoreTest
 {
 Test
 fun

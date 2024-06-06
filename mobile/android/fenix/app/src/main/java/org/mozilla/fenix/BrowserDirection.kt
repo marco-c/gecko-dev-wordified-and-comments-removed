@@ -187,13 +187,13 @@ id
 .
 historyFragment
 )
-FromExceptions
+FromTrackingProtectionExceptions
 (
 R
 .
 id
 .
-exceptionsFragment
+trackingProtectionExceptionsFragment
 )
 FromAbout
 (

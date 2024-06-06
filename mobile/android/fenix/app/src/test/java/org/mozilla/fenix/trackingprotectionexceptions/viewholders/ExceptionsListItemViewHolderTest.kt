@@ -63,7 +63,7 @@ mozilla
 .
 fenix
 .
-exceptions
+trackingprotectionexceptions
 .
 viewholders
 import
@@ -165,7 +165,7 @@ mozilla
 .
 fenix
 .
-exceptions
+trackingprotectionexceptions
 .
 ExceptionsInteractor
 import

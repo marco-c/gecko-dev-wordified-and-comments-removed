@@ -611,9 +611,9 @@ mozilla
 .
 fenix
 .
-exceptions
+trackingprotectionexceptions
 .
-ExceptionsFragmentDirections
+TrackingProtectionExceptionsFragmentDirections
 import
 org
 .
@@ -3227,10 +3227,10 @@ customTabSessionId
 )
 BrowserDirection
 .
-FromExceptions
+FromTrackingProtectionExceptions
 -
 >
-ExceptionsFragmentDirections
+TrackingProtectionExceptionsFragmentDirections
 .
 actionGlobalBrowser
 (

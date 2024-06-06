@@ -2638,6 +2638,15 @@ settings
 .
 shouldPromptToSaveLogins
 }
+loginExceptionStorage
+=
+context
+.
+components
+.
+core
+.
+loginExceptionStorage
 shareDelegate
 =
 object

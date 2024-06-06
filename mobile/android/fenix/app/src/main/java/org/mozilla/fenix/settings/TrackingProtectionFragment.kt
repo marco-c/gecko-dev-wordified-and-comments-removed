@@ -247,9 +247,9 @@ mozilla
 .
 fenix
 .
-exceptions
+settings
 .
-ExceptionsFragment
+TrackingProtectionFragment
 ]
 .
 *

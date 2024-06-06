@@ -63,7 +63,7 @@ mozilla
 .
 fenix
 .
-exceptions
+trackingprotectionexceptions
 import
 android
 .
