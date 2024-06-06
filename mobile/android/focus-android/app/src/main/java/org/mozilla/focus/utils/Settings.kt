@@ -405,7 +405,7 @@ R
 .
 string
 .
-preference_privacy_should_block_cookies_yes_option
+preference_privacy_should_block_cookies_yes_option2
 )
 -
 >
@@ -804,7 +804,7 @@ R
 .
 string
 .
-preference_privacy_should_block_cookies_yes_option
+preference_privacy_should_block_cookies_yes_option2
 )
 fun
 shouldBlockThirdPartyCookies
@@ -843,7 +843,7 @@ R
 .
 string
 .
-preference_privacy_should_block_cookies_yes_option
+preference_privacy_should_block_cookies_yes_option2
 )
 fun
 shouldShowFirstrun
