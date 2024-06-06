@@ -940,13 +940,6 @@ onNewTabTapped
 isPrivateModeSelected
 )
 }
-tabsTray
-.
-register
-(
-this
-view
-)
 }
 fun
 expand
