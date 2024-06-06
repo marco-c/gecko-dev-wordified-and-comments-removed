@@ -424,4 +424,10 @@ progressiveWebApps
 nightly
 or
 debug
+val
+forceZoomPreference
+=
+nightly
+or
+debug
 }
