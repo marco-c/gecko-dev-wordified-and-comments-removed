@@ -1291,6 +1291,10 @@ imageHeight
 ListItemTabSurface
 (
 imageUrl
+=
+imageUrl
+onClick
+=
 {
 onStoryClick
 (
