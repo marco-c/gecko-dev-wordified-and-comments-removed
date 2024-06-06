@@ -753,6 +753,13 @@ backgroundResource
 =
 R
 .
+drawable
+.
+sync_error_background_with_ripple
+colorResource
+=
+R
+.
 color
 .
 sync_error_background_color
