@@ -724,8 +724,9 @@ name
 readermode_start_gradient_normal_theme
 "
 >
-#
-FF9059ff
+color
+/
+photonViolet50
 <
 /
 color
@@ -1662,8 +1663,9 @@ name
 prompt_login_edit_text_cursor_color_dark_theme
 "
 >
-#
-9059ff
+color
+/
+photonViolet50
 <
 /
 color
@@ -2505,8 +2507,9 @@ name
 prompt_login_edit_text_cursor_color_private_theme
 "
 >
-#
-9059ff
+color
+/
+photonViolet50
 <
 /
 color
