@@ -1385,6 +1385,11 @@ openSettingsScreen
 :
 :
 openSettingsScreen
+openSearchScreen
+=
+:
+:
+navigateToSearch
 )
 )
 updateLayout

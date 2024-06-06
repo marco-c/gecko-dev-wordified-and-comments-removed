@@ -221,7 +221,7 @@ noTabMessage
 =
 AdapterItem
 .
-NoContentMessage
+NoContentMessageWithAction
 (
 R
 .
@@ -238,6 +238,16 @@ R
 string
 .
 no_open_tabs_description
+R
+.
+drawable
+.
+ic_new
+R
+.
+string
+.
+home_screen_shortcut_open_new_tab_2
 )
 val
 noCollectionMessage

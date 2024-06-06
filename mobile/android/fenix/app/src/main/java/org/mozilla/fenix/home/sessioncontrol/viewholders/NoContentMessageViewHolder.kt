@@ -130,6 +130,7 @@ mozilla
 fenix
 .
 R
+open
 class
 NoContentMessageViewHolder
 (
