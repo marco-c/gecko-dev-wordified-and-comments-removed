@@ -3669,7 +3669,7 @@ R
 .
 string
 .
-browser_menu_add_to_top_sites
+browser_menu_add_to_shortcuts
 )
 )
 )
@@ -3710,7 +3710,7 @@ R
 .
 string
 .
-browser_menu_add_to_top_sites
+browser_menu_add_to_shortcuts
 )
 )
 )

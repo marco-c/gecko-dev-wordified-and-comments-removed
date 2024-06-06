@@ -1725,7 +1725,7 @@ R
 .
 string
 .
-top_sites_max_limit_title
+shortcut_max_limit_title
 )
 setMessage
 (
@@ -1733,7 +1733,7 @@ R
 .
 string
 .
-top_sites_max_limit_content_2
+shortcut_max_limit_content
 )
 setPositiveButton
 (
@@ -1832,7 +1832,7 @@ R
 .
 string
 .
-snackbar_added_to_top_sites
+snackbar_added_to_shortcuts
 )
 )
 .

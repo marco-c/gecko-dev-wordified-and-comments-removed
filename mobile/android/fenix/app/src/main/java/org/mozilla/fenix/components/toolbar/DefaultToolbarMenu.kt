@@ -1854,7 +1854,7 @@ R
 .
 string
 .
-browser_menu_add_to_top_sites
+browser_menu_add_to_shortcuts
 )
 secondaryLabel
 =
@@ -1866,7 +1866,7 @@ R
 .
 string
 .
-browser_menu_remove_from_top_sites
+browser_menu_remove_from_shortcuts
 )
 primaryStateIconResource
 =
