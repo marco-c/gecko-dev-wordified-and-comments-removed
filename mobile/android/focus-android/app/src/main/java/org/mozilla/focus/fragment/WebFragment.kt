@@ -106,6 +106,12 @@ java
 util
 .
 Locale
+Suppress
+(
+"
+TooManyFunctions
+"
+)
 abstract
 class
 WebFragment
@@ -279,7 +285,7 @@ AppConstants
 isGeckoBuild
 )
 {
-restoreStateOrLoadInitialUrl
+restoreStateOrLoadUrl
 (
 )
 }
@@ -445,7 +451,7 @@ AppConstants
 isGeckoBuild
 )
 {
-restoreStateOrLoadInitialUrl
+restoreStateOrLoadUrl
 (
 )
 }
@@ -529,7 +535,7 @@ null
 }
 private
 fun
-restoreStateOrLoadInitialUrl
+restoreStateOrLoadUrl
 (
 )
 {
