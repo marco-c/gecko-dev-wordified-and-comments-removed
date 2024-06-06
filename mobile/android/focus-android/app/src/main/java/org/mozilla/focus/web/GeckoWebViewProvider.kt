@@ -1539,6 +1539,9 @@ contentLength
 Environment
 .
 DIRECTORY_DOWNLOADS
+response
+.
+filename
 )
 callback
 ?
