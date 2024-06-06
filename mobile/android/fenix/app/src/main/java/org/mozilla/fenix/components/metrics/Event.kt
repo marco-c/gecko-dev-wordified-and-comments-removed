@@ -1360,12 +1360,6 @@ Event
 (
 )
 object
-TabsTrayRecentlyClosedPressed
-:
-Event
-(
-)
-object
 TabsTrayInactiveTabsExpanded
 :
 Event

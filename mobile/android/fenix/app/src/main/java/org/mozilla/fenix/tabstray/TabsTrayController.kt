@@ -1297,14 +1297,6 @@ id
 .
 recentlyClosedFragment
 )
-metrics
-.
-track
-(
-Event
-.
-TabsTrayRecentlyClosedPressed
-)
 }
 /
 *
