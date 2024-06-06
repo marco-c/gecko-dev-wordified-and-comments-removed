@@ -313,7 +313,14 @@ background
 "
 drawable
 /
-history_favicon_background
+favicon_background
+"
+android
+:
+padding
+=
+"
+10dp
 "
 app
 :
