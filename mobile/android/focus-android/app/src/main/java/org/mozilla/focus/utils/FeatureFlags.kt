@@ -64,6 +64,14 @@ mozilla
 focus
 .
 utils
+import
+org
+.
+mozilla
+.
+focus
+.
+BuildConfig
 /
 *
 *
@@ -77,9 +85,10 @@ MVP
 object
 FeatureFlags
 {
-const
 val
 isMvp
 =
-false
+BuildConfig
+.
+DEBUG
 }
