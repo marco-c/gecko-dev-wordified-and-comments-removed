@@ -921,6 +921,16 @@ available
 *
 *
 property
+aid
+The
+unique
+identifier
+of
+the
+product
+.
+*
+property
 name
 The
 name
@@ -1007,6 +1017,10 @@ data
 class
 Product
 (
+val
+aid
+:
+String
 val
 name
 :

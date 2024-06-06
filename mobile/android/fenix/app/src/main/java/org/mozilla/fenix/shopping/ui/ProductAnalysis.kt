@@ -2756,6 +2756,11 @@ RecommendedProductState
 .
 Product
 (
+aid
+=
+"
+aid
+"
 name
 =
 "
