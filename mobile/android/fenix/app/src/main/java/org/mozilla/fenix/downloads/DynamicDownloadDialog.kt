@@ -271,7 +271,7 @@ binding
 DownloadDialogLayoutBinding
 private
 val
-toolbarHeight
+bottomToolbarHeight
 :
 Int
 private
@@ -348,7 +348,7 @@ View
 (
 context
 null
-toolbarHeight
+bottomToolbarHeight
 .
 toFloat
 (
@@ -384,7 +384,7 @@ params
 .
 bottomMargin
 =
-toolbarHeight
+bottomToolbarHeight
 }
 if
 (

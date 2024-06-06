@@ -3139,6 +3139,9 @@ parent
 binding
 .
 homeLayout
+hideOnScroll
+=
+false
 composableContent
 =
 {
