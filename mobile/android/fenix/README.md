@@ -726,9 +726,11 @@ org
 /
 projects
 /
-android
+firefox
 -
-l10n
+for
+-
+android
 /
 )
 .
