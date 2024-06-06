@@ -638,7 +638,7 @@ R
 .
 drawable
 .
-mozac_ic_forward
+mozac_ic_forward_24
 primaryContentDescription
 =
 context
