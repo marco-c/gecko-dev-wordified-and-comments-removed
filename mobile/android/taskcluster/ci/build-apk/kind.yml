@@ -522,9 +522,6 @@ release
 type
 :
 release
-shipping_phase
-:
-promote
 run
 -
 on
@@ -570,6 +567,11 @@ gradle
 build
 :
 focus
+shipping
+-
+phase
+:
+promote
 treeherder
 :
 symbol
@@ -598,9 +600,6 @@ release
 type
 :
 release
-shipping_phase
-:
-promote
 run
 -
 on
@@ -646,6 +645,11 @@ gradle
 build
 :
 klar
+shipping
+-
+phase
+:
+promote
 treeherder
 :
 symbol
@@ -759,9 +763,6 @@ release
 type
 :
 beta
-shipping_phase
-:
-promote
 run
 -
 on
@@ -807,6 +808,11 @@ gradle
 build
 :
 focus
+shipping
+-
+phase
+:
+promote
 treeherder
 :
 symbol

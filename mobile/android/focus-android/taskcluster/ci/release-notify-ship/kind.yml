@@ -143,11 +143,6 @@ task
 -
 defaults
 :
-attributes
-:
-shipping_phase
-:
-ship
 name
 :
 notify
@@ -170,6 +165,11 @@ release
 was
 shipped
 .
+shipping
+-
+phase
+:
+ship
 worker
 -
 type

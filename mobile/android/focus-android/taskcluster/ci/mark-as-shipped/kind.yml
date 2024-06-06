@@ -131,11 +131,6 @@ job
 -
 template
 :
-attributes
-:
-shipping_phase
-:
-ship
 description
 :
 Mark
@@ -221,6 +216,11 @@ it
 server
 :
 staging
+shipping
+-
+phase
+:
+ship
 worker
 :
 {

@@ -129,11 +129,6 @@ task
 -
 defaults
 :
-attributes
-:
-shipping_phase
-:
-promote
 name
 :
 notify
@@ -156,6 +151,11 @@ release
 was
 promoted
 .
+shipping
+-
+phase
+:
+promote
 worker
 -
 type

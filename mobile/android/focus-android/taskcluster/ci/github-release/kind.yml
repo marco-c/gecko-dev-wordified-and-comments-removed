@@ -131,11 +131,6 @@ job
 -
 template
 :
-attributes
-:
-shipping_phase
-:
-ship
 description
 :
 Create
@@ -149,6 +144,11 @@ order
 to
 upload
 APKs
+shipping
+-
+phase
+:
+ship
 worker
 -
 type
