@@ -152,7 +152,9 @@ android
 layout_height
 =
 "
-56dp
+dimen
+/
+display_toolbar_height
 "
 android
 :
@@ -193,7 +195,9 @@ android
 layout_height
 =
 "
-56dp
+dimen
+/
+display_toolbar_height
 "
 android
 :
@@ -264,7 +268,9 @@ android
 layout_height
 =
 "
-56dp
+dimen
+/
+display_toolbar_height
 "
 /
 >
