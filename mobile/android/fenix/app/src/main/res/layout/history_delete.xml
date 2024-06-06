@@ -130,7 +130,7 @@ background
 "
 drawable
 /
-delete_history_background
+button_background
 "
 android
 :
