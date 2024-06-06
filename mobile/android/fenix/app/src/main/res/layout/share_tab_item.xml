@@ -398,8 +398,9 @@ android
 textColor
 =
 "
-?
-secondaryText
+color
+/
+photonLightGrey60
 "
 tools
 :

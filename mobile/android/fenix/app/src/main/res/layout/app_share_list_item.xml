@@ -323,6 +323,15 @@ gravity
 "
 android
 :
+textColor
+=
+"
+color
+/
+photonDarkGrey10
+"
+android
+:
 textSize
 =
 "
