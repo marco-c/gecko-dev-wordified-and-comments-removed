@@ -250,7 +250,7 @@ true
 val
 installationPing
 =
-InstallationPing
+FirstSessionPing
 (
 application
 )

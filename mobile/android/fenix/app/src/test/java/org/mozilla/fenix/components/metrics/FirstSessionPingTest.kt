@@ -142,7 +142,7 @@ utils
 Settings
 internal
 class
-InstallationPingTest
+FirstSessionPingTest
 {
 Test
 fun
@@ -214,7 +214,7 @@ mockAp
 =
 spyk
 (
-InstallationPing
+FirstSessionPing
 (
 mockedContext
 )
@@ -339,7 +339,7 @@ mockAp
 =
 spyk
 (
-InstallationPing
+FirstSessionPing
 (
 mockk
 (

@@ -125,7 +125,7 @@ fenix
 .
 GleanMetrics
 .
-Installation
+FirstSession
 import
 org
 .
@@ -147,7 +147,7 @@ ext
 .
 settings
 class
-InstallationPing
+FirstSessionPing
 (
 private
 val
@@ -405,7 +405,7 @@ settings
 .
 also
 {
-Installation
+FirstSession
 .
 campaign
 .
@@ -415,7 +415,7 @@ it
 .
 adjustCampaignId
 )
-Installation
+FirstSession
 .
 adgroup
 .
@@ -425,7 +425,7 @@ it
 .
 adjustAdGroup
 )
-Installation
+FirstSession
 .
 creative
 .
@@ -435,7 +435,7 @@ it
 .
 adjustCreative
 )
-Installation
+FirstSession
 .
 network
 .
@@ -445,7 +445,7 @@ it
 .
 adjustNetwork
 )
-Installation
+FirstSession
 .
 timestamp
 .
@@ -464,7 +464,7 @@ launch
 {
 Pings
 .
-installation
+firstSession
 .
 submit
 (

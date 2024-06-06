@@ -15610,7 +15610,7 @@ expires
 -
 01
 "
-installation
+first_session
 :
 campaign
 :
@@ -15620,7 +15620,9 @@ string
 send_in_pings
 :
 -
-installation
+first
+-
+session
 description
 :
 |
@@ -15706,7 +15708,9 @@ string
 send_in_pings
 :
 -
-installation
+first
+-
+session
 description
 :
 |
@@ -15790,7 +15794,9 @@ string
 send_in_pings
 :
 -
-installation
+first
+-
+session
 description
 :
 |
@@ -15878,7 +15884,9 @@ creative
 send_in_pings
 :
 -
-installation
+first
+-
+session
 type
 :
 string
@@ -15964,7 +15972,9 @@ timestamp
 send_in_pings
 :
 -
-installation
+first
+-
+session
 type
 :
 datetime

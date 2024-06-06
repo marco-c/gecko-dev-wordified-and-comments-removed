@@ -4204,7 +4204,7 @@ private
 val
 installationPing
 =
-InstallationPing
+FirstSessionPing
 (
 context
 )

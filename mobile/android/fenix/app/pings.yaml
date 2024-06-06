@@ -173,7 +173,9 @@ core
 mozilla
 .
 com
-installation
+first
+-
+session
 :
 description
 :
@@ -188,7 +190,13 @@ the
 source
 of
 the
-installation
+app
+install
+on
+the
+first
+session
+.
 include_client_id
 :
 true
