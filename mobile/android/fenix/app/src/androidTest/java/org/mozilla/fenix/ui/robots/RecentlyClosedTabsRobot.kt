@@ -587,6 +587,8 @@ ComposeTabDrawerRobot
 Transition
 {
 openInNewTabOption
+(
+)
 .
 click
 (
@@ -629,6 +631,8 @@ ComposeTabDrawerRobot
 Transition
 {
 openInPrivateTabOption
+(
+)
 .
 click
 (
@@ -668,6 +672,8 @@ ShareOverlayRobot
 Transition
 {
 multipleSelectionShareButton
+(
+)
 .
 click
 (
@@ -785,8 +791,10 @@ VISIBLE
 )
 )
 private
-val
+fun
 openInNewTabOption
+(
+)
 =
 onView
 (
@@ -801,8 +809,10 @@ tab
 )
 )
 private
-val
+fun
 openInPrivateTabOption
+(
+)
 =
 onView
 (
@@ -817,8 +827,10 @@ tab
 )
 )
 private
-val
+fun
 multipleSelectionShareButton
+(
+)
 =
 onView
 (
