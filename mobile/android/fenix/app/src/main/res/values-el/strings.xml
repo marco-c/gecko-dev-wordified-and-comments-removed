@@ -19523,7 +19523,7 @@ name
 preference_enhanced_tracking_protection_custom_cookies_2
 "
 >
-Cookies
+Cookie
 <
 /
 string
@@ -19555,7 +19555,7 @@ name
 preference_enhanced_tracking_protection_custom_cookies_3
 "
 >
-cookies
+cookie
 (
 )
 <
@@ -19589,7 +19589,7 @@ name
 preference_enhanced_tracking_protection_custom_cookies_4
 "
 >
-cookies
+cookie
 (
 )
 <
@@ -19981,7 +19981,7 @@ name
 etp_cookies_title
 "
 >
-Cookies
+Cookie
 <
 /
 string
@@ -20016,7 +20016,7 @@ name
 etp_cookies_description
 "
 >
-cookies
+cookie
 .
 <
 /
@@ -20603,7 +20603,7 @@ name
 etp_redirect_trackers_description
 "
 >
-cookies
+cookie
 .
 <
 /
@@ -26497,7 +26497,7 @@ name
 default_browser_experiment_card_text
 "
 >
-emails
+email
 Firefox
 .
 <
