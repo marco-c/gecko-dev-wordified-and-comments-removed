@@ -678,12 +678,12 @@ padding
 (
 end
 =
-16
+12
 .
 dp
 start
 =
-16
+12
 .
 dp
 top
@@ -730,7 +730,7 @@ Modifier
 .
 height
 (
-16
+12
 .
 dp
 )
