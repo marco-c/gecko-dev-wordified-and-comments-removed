@@ -238,7 +238,7 @@ components
 .
 tabsUseCases
 .
-addPrivateTab
+addTab
 (
 getLearnMoreUrl
 (
@@ -251,6 +251,9 @@ Source
 .
 MENU
 selectTab
+=
+true
+private
 =
 true
 )

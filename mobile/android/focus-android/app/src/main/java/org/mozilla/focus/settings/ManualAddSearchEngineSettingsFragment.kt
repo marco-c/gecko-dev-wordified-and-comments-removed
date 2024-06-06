@@ -686,7 +686,7 @@ requireComponents
 .
 tabsUseCases
 .
-addPrivateTab
+addTab
 (
 SupportUtils
 .
@@ -702,6 +702,9 @@ SumoTopic
 ADD_SEARCH_ENGINE
 )
 selectTab
+=
+true
+private
 =
 true
 )

@@ -2422,7 +2422,7 @@ requireComponents
 .
 tabsUseCases
 .
-addPrivateTab
+addTab
 (
 url
 source
@@ -2432,6 +2432,9 @@ SessionState
 Source
 .
 MENU
+private
+=
+true
 )
 }
 R
@@ -2476,7 +2479,7 @@ requireComponents
 .
 tabsUseCases
 .
-addPrivateTab
+addTab
 (
 SupportUtils
 .
@@ -2488,6 +2491,9 @@ SessionState
 Source
 .
 MENU
+private
+=
+true
 )
 }
 else
@@ -4390,7 +4396,7 @@ requireComponents
 .
 tabsUseCases
 .
-addPrivateTab
+addTab
 (
 url
 source
@@ -4401,6 +4407,9 @@ Source
 .
 USER_ENTERED
 selectTab
+=
+true
+private
 =
 true
 )

@@ -4745,7 +4745,7 @@ requireComponents
 .
 tabsUseCases
 .
-addPrivateTab
+addTab
 (
 SupportUtils
 .
@@ -4758,6 +4758,9 @@ Source
 .
 MENU
 selectTab
+=
+true
+private
 =
 true
 )
@@ -4790,7 +4793,7 @@ requireComponents
 .
 tabsUseCases
 .
-addPrivateTab
+addTab
 (
 url
 source
@@ -4801,6 +4804,9 @@ Source
 .
 MENU
 selectTab
+=
+true
+private
 =
 true
 )
@@ -4855,7 +4861,7 @@ requireComponents
 .
 tabsUseCases
 .
-addPrivateTab
+addTab
 (
 reportUrl
 source
@@ -4866,6 +4872,9 @@ Source
 .
 MENU
 selectTab
+=
+true
+private
 =
 true
 )

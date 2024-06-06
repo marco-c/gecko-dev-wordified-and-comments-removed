@@ -302,7 +302,7 @@ components
 .
 tabsUseCases
 .
-addPrivateTab
+addTab
 (
 url
 source
@@ -313,6 +313,9 @@ Source
 .
 MENU
 selectTab
+=
+true
+private
 =
 true
 )
@@ -567,7 +570,7 @@ components
 .
 tabsUseCases
 .
-addPrivateTab
+addTab
 (
 homescreenURL
 source
@@ -578,6 +581,9 @@ Source
 .
 MENU
 selectTab
+=
+true
+private
 =
 true
 )
@@ -861,7 +867,7 @@ components
 .
 tabsUseCases
 .
-addPrivateTab
+addTab
 (
 autocompleteURL
 source
@@ -872,6 +878,9 @@ Source
 .
 MENU
 selectTab
+=
+true
+private
 =
 true
 )
@@ -974,7 +983,7 @@ components
 .
 tabsUseCases
 .
-addPrivateTab
+addTab
 (
 newTabURL
 source
@@ -985,6 +994,9 @@ Source
 .
 MENU
 selectTab
+=
+true
+private
 =
 true
 )
@@ -1087,7 +1099,7 @@ components
 .
 tabsUseCases
 .
-addPrivateTab
+addTab
 (
 requestDesktopURL
 source
@@ -1098,6 +1110,9 @@ Source
 .
 MENU
 selectTab
+=
+true
+private
 =
 true
 )

@@ -355,7 +355,7 @@ components
 .
 tabsUseCases
 .
-addPrivateTab
+addTab
 (
 LocalizedContent
 .
@@ -368,6 +368,9 @@ Source
 .
 MENU
 selectTab
+=
+true
+private
 =
 true
 )
@@ -408,7 +411,7 @@ components
 .
 tabsUseCases
 .
-addPrivateTab
+addTab
 (
 SupportUtils
 .
@@ -421,6 +424,9 @@ Source
 .
 MENU
 selectTab
+=
+true
+private
 =
 true
 )
@@ -461,7 +467,7 @@ components
 .
 tabsUseCases
 .
-addPrivateTab
+addTab
 (
 LocalizedContent
 .
@@ -474,6 +480,9 @@ Source
 .
 MENU
 selectTab
+=
+true
+private
 =
 true
 )
@@ -529,7 +538,7 @@ components
 .
 tabsUseCases
 .
-addPrivateTab
+addTab
 (
 url
 source
@@ -540,6 +549,9 @@ Source
 .
 MENU
 selectTab
+=
+true
+private
 =
 true
 )

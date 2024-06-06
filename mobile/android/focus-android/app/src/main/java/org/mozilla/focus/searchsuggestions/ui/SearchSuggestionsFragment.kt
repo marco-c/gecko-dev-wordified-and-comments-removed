@@ -927,7 +927,7 @@ requireComponents
 .
 tabsUseCases
 .
-addPrivateTab
+addTab
 (
 url
 source
@@ -938,6 +938,9 @@ Source
 .
 MENU
 selectTab
+=
+true
+private
 =
 true
 )
