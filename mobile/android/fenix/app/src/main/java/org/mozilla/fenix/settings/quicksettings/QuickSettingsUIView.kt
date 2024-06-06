@@ -793,7 +793,7 @@ R
 .
 drawable
 .
-mozac_ic_globe
+mozac_ic_broken_lock
 drawableTint
 =
 R
