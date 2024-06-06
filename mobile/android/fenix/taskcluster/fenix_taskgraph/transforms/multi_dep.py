@@ -369,6 +369,18 @@ paths
 =
 sorted
 (
+[
+                
+apk_metadata
+[
+"
+name
+"
+]
+                
+for
+apk_metadata
+in
 dep
 .
 attributes
@@ -385,6 +397,8 @@ apks
 values
 (
 )
+            
+]
 )
             
 if

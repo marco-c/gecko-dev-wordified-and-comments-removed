@@ -144,7 +144,7 @@ continue
         
 for
 abi
-apk_path
+apk_metadata
 in
 dep_task
 .
@@ -168,6 +168,15 @@ only_abis
 :
                 
 continue
+            
+apk_path
+=
+apk_metadata
+[
+"
+name
+"
+]
             
 for
 test
