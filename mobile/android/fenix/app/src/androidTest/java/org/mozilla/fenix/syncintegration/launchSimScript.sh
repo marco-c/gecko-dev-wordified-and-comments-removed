@@ -33,7 +33,7 @@ emulator
 emulator
 -
 avd
-Pixel_API_28
+Pixel_3_API_28
 -
 wipe
 -

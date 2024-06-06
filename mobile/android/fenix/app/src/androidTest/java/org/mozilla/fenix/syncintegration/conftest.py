@@ -436,8 +436,7 @@ fxa_account
 password
 )
     
-f
-=
+with
 open
 (
 "
@@ -452,7 +451,6 @@ jenkins
 workspace
 /
 fenix
-2
 /
 app
 /
@@ -468,10 +466,12 @@ txt
 "
 "
 w
-+
 "
 )
-    
+as
+f
+:
+        
 f
 .
 write
@@ -481,8 +481,7 @@ fxa_account
 email
 )
     
-f
-=
+with
 open
 (
 "
@@ -497,7 +496,6 @@ jenkins
 workspace
 /
 fenix
-2
 /
 app
 /
@@ -513,10 +511,12 @@ txt
 "
 "
 w
-+
 "
 )
-    
+as
+f
+:
+        
 f
 .
 write
