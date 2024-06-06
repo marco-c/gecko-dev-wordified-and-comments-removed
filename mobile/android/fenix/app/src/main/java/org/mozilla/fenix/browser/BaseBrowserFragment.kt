@@ -1946,15 +1946,6 @@ Bundle
 ?
 )
 {
-/
-/
-weird
-indentation
-to
-avoid
-breaking
-blame
-.
 initializeUI
 (
 view

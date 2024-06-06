@@ -1902,9 +1902,6 @@ lifecycle
 addObservers
 (
 webExtensionPopupFeature
-StartupTimeline
-.
-homeActivityLifecycleObserver
 )
 if
 (
