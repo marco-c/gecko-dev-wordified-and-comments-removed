@@ -738,11 +738,14 @@ scrollToSearchEngineSettings
 (
 activityTestRule
 )
+}
+.
 clickSearchEngineSettings
 (
 activityTestRule
 )
-verifySearchSettings
+{
+verifySearchToolbar
 (
 )
 }
