@@ -989,7 +989,7 @@ cp
 -
 r
 "
-PATH_TOOLS
+WORKDIR
 /
 results
 "
