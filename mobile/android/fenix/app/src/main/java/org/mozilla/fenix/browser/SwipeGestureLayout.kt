@@ -440,7 +440,6 @@ onDown
 e
 :
 MotionEvent
-?
 )
 :
 Boolean
@@ -455,11 +454,9 @@ onScroll
 e1
 :
 MotionEvent
-?
 e2
 :
 MotionEvent
-?
 distanceX
 :
 Float
@@ -474,7 +471,6 @@ val
 start
 =
 e1
-?
 .
 let
 {
@@ -491,15 +487,10 @@ event
 rawY
 )
 }
-?
-:
-return
-false
 val
 next
 =
 e2
-?
 .
 let
 {
@@ -516,10 +507,6 @@ event
 rawY
 )
 }
-?
-:
-return
-false
 if
 (
 activeListener
@@ -574,11 +561,9 @@ onFling
 e1
 :
 MotionEvent
-?
 e2
 :
 MotionEvent
-?
 velocityX
 :
 Float
