@@ -3427,6 +3427,13 @@ get
 (
 )
 =
+Config
+.
+channel
+.
+isNightlyOrDebug
+|
+|
 mr2022Sections
 [
 Mr2022Section
@@ -3474,6 +3481,13 @@ true
 default
 =
 {
+Config
+.
+channel
+.
+isNightlyOrDebug
+|
+|
 mr2022Sections
 [
 Mr2022Section
