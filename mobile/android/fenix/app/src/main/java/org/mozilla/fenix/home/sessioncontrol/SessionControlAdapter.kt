@@ -2233,6 +2233,9 @@ components
 core
 .
 store
+components
+.
+appStore
 interactor
 )
 OnboardingHeaderViewHolder

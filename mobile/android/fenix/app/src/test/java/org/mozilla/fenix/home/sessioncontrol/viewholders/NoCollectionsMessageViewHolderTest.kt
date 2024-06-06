@@ -191,6 +191,16 @@ mozilla
 .
 fenix
 .
+components
+.
+AppStore
+import
+org
+.
+mozilla
+.
+fenix
+.
 databinding
 .
 NoCollectionsMessageBinding
@@ -284,6 +294,12 @@ var
 interactor
 :
 CollectionInteractor
+private
+lateinit
+var
+appStore
+:
+AppStore
 Before
 fun
 setup
@@ -302,6 +318,11 @@ from
 (
 testContext
 )
+)
+appStore
+=
+AppStore
+(
 )
 lifecycleOwner
 =
@@ -349,6 +370,7 @@ binding
 root
 lifecycleOwner
 noTabsStore
+appStore
 interactor
 )
 assertFalse
@@ -381,6 +403,7 @@ binding
 root
 lifecycleOwner
 store
+appStore
 interactor
 )
 assertTrue
@@ -408,6 +431,7 @@ binding
 root
 lifecycleOwner
 store
+appStore
 interactor
 )
 binding
@@ -447,6 +471,7 @@ binding
 root
 lifecycleOwner
 store
+appStore
 interactor
 )
 binding
