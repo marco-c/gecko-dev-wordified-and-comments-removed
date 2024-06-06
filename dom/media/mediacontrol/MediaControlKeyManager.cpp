@@ -904,13 +904,9 @@ keys
 %
 s
 "
-GetEnumString
+ToMediaControlKeyStr
 (
 key
-)
-.
-get
-(
 )
 )
 ;

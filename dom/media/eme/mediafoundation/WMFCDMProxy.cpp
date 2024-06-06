@@ -976,16 +976,9 @@ s
 "
 this
 aId
-dom
-:
-:
-GetEnumString
+ToMediaKeyStatusStr
 (
 aStatus
-)
-.
-get
-(
 )
 )
 ;

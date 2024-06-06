@@ -2360,13 +2360,9 @@ HandleEvent
 s
 '
 "
-GetEnumString
+ToMediaControlKeyStr
 (
 aKey
-)
-.
-get
-(
 )
 )
 ;
