@@ -1621,6 +1621,9 @@ components
 useCases
 .
 contextMenuUseCases
+customTabId
+=
+customTabSessionId
 )
 owner
 =
