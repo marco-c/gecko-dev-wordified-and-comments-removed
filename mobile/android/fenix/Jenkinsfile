@@ -12,7 +12,7 @@ BRANCH_NAME
 =
 =
 '
-master
+main
 '
 ?
 '
@@ -57,7 +57,7 @@ when
 {
 branch
 '
-master
+main
 '
 }
 steps
@@ -117,7 +117,7 @@ BRANCH_NAME
 =
 =
 '
-master
+main
 '
 )
 {
@@ -186,7 +186,7 @@ BRANCH_NAME
 =
 =
 '
-master
+main
 '
 )
 {

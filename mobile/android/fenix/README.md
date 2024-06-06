@@ -29,7 +29,7 @@ mobile
 /
 fenix
 /
-master
+main
 /
 badge
 .
@@ -57,7 +57,7 @@ mobile
 /
 fenix
 /
-master
+main
 /
 latest
 )
@@ -85,7 +85,7 @@ fenix
 /
 branch
 /
-master
+main
 /
 graph
 /
@@ -3068,7 +3068,7 @@ the
 latest
 commit
 from
-master
+main
 in
 this
 repository

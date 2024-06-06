@@ -5,7 +5,7 @@ argparse
 MAIN_BRANCH
 =
 "
-master
+main
 "
 L10N_AUTHOR
 =

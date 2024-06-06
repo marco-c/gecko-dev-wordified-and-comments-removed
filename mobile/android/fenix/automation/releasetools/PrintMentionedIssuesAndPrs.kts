@@ -121,7 +121,7 @@ script
 -
 Update
 local
-master
+main
 *
 -
 From
@@ -146,11 +146,11 @@ TODO
 Use
 origin
 /
-master
+main
 instead
 of
 local
-master
+main
 *
 -
 Interface
@@ -396,7 +396,7 @@ tags
 TODO
 use
 origin
-master
+main
 return
 runCommand
 (
@@ -405,7 +405,7 @@ git
 merge
 -
 base
-master
+main
 tag
 "
 )

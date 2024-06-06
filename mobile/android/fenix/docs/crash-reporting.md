@@ -110,7 +110,7 @@ components
 /
 blob
 /
-master
+main
 /
 components
 /
@@ -224,7 +224,7 @@ components
 /
 blob
 /
-master
+main
 /
 components
 /
@@ -281,7 +281,7 @@ components
 /
 blob
 /
-master
+main
 /
 components
 /
@@ -351,7 +351,7 @@ fenix
 /
 blob
 /
-master
+main
 /
 app
 /

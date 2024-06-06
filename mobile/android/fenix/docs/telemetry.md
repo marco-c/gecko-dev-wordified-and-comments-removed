@@ -129,7 +129,7 @@ fenix
 /
 blob
 /
-master
+main
 /
 docs
 /

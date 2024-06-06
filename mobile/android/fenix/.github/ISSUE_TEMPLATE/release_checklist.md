@@ -553,7 +553,7 @@ a
 branch
 off
 of
-master
+main
 (
 DO
 NOT
@@ -579,7 +579,7 @@ that
 anything
 landing
 in
-master
+main
 will
 be
 part
@@ -962,7 +962,7 @@ to
 fix
 them
 on
-master
+main
 and
 the
 milestone
@@ -1249,7 +1249,7 @@ fenix
 /
 blob
 /
-master
+main
 /
 l10n
 -
@@ -1284,7 +1284,7 @@ fenix
 /
 blob
 /
-master
+main
 /
 l10n
 -
@@ -1348,7 +1348,7 @@ fenix
 /
 tree
 /
-master
+main
 /
 app
 /

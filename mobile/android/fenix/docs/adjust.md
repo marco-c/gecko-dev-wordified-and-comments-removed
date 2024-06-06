@@ -172,7 +172,7 @@ fenix
 /
 blob
 /
-master
+main
 /
 buildSrc
 /
@@ -258,7 +258,7 @@ fenix
 /
 blob
 /
-master
+main
 /
 app
 /

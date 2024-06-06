@@ -191,7 +191,7 @@ path
 main
 ref
 :
-master
+main
 -
 name
 :
@@ -335,7 +335,7 @@ title
 Sync
 Strings
 from
-master
+main
 to
 releases_
 {
@@ -371,7 +371,7 @@ PR
 syncs
 strings
 from
-master
+main
 to
 releases_
 {
