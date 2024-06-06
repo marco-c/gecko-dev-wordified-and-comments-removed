@@ -3038,9 +3038,10 @@ val
 enabledTotalCookieProtection
 :
 Boolean
-by
-lazy
-{
+get
+(
+)
+=
 FxNimbus
 .
 features
@@ -3052,7 +3053,6 @@ value
 )
 .
 totalCookieProtectionEnabled
-}
 val
 blockCookiesSelectionInCustomTrackingProtection
 by
