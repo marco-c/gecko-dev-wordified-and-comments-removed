@@ -364,7 +364,7 @@ wrap_content
 "
 android
 :
-layout_marginLeft
+layout_marginStart
 =
 "
 16dp
@@ -439,7 +439,7 @@ wrap_content
 "
 android
 :
-layout_marginLeft
+layout_marginEnd
 =
 "
 16dp
@@ -453,7 +453,7 @@ layout_marginTop
 "
 android
 :
-layout_marginRight
+layout_marginStart
 =
 "
 16dp
