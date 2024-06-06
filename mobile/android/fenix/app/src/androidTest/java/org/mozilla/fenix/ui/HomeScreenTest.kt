@@ -855,7 +855,7 @@ clickPocketButton
 )
 }
 .
-goBack
+goBackToHomeScreen
 {
 verifyThoughtProvokingStories
 (
@@ -1175,7 +1175,7 @@ clickPocketButton
 )
 }
 .
-goBack
+goBackToHomeScreen
 {
 verifyCustomizeHomepageButton
 (
@@ -1194,7 +1194,7 @@ clickJumpBackInButton
 )
 }
 .
-goBack
+goBackToHomeScreen
 {
 verifyCustomizeHomepageButton
 (

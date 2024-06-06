@@ -366,7 +366,7 @@ false
 )
 }
 .
-goBack
+goBackToHomeScreen
 {
 verifyNotExistingSponsoredTopSitesList
 (

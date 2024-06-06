@@ -400,7 +400,7 @@ verifyHomePageView
 )
 }
 .
-goBack
+goBackToHomeScreen
 {
 }
 .
@@ -594,7 +594,7 @@ verifyHomePageView
 )
 }
 .
-goBack
+goBackToHomeScreen
 {
 }
 .
