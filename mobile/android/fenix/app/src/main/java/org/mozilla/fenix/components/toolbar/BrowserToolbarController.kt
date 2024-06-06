@@ -441,14 +441,6 @@ handleTabCounterClick
 (
 )
 }
-typealias
-onComplete
-=
-(
-)
--
->
-Unit
 Suppress
 (
 "
