@@ -301,7 +301,7 @@ unsupportedAddonsAdapterDelegate
 =
 this
 NotYetSupportedAddonFragment
-unsupportedAddons
+addons
 =
 args
 .
