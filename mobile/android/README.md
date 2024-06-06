@@ -819,7 +819,7 @@ mozilla
 -
 mobile
 /
-focus
+firefox
 -
 android
 /
