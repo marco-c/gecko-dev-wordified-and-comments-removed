@@ -101,7 +101,13 @@ mozilla
 .
 fenix
 .
-IntentReceiverActivity
+widget
+.
+VoiceSearchActivity
+.
+Companion
+.
+SPEECH_PROCESSING
 /
 *
 *
@@ -204,8 +210,6 @@ intent
 .
 getStringExtra
 (
-IntentReceiverActivity
-.
 SPEECH_PROCESSING
 )
 .

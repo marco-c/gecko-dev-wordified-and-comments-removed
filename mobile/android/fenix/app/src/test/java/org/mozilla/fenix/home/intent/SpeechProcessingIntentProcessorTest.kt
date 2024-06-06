@@ -139,7 +139,7 @@ mozilla
 .
 fenix
 .
-IntentReceiverActivity
+TestApplication
 import
 org
 .
@@ -147,7 +147,13 @@ mozilla
 .
 fenix
 .
-TestApplication
+widget
+.
+VoiceSearchActivity
+.
+Companion
+.
+SPEECH_PROCESSING
 import
 org
 .
@@ -494,8 +500,6 @@ true
 )
 putExtra
 (
-IntentReceiverActivity
-.
 SPEECH_PROCESSING
 "
 hello
