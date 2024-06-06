@@ -289,6 +289,13 @@ parent
 "
 app
 :
+layout_constraintBottom_toBottomOf
+=
+"
+parent
+"
+app
+:
 layout_constraintDimensionRatio
 =
 "
