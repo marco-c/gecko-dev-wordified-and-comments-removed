@@ -63,7 +63,9 @@ mozilla
 .
 fenix
 .
-historymetadata
+home
+.
+recentvisits
 .
 view
 import
@@ -73,9 +75,11 @@ mozilla
 .
 fenix
 .
-historymetadata
+home
 .
-HistoryMetadataGroup
+recentvisits
+.
+RecentlyVisitedItem
 /
 *
 *
@@ -126,7 +130,7 @@ val
 onClick
 :
 (
-HistoryMetadataGroup
+RecentlyVisitedItem
 )
 -
 >

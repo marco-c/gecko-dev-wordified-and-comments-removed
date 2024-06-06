@@ -63,7 +63,9 @@ mozilla
 .
 fenix
 .
-historymetadata
+home
+.
+recentvisits
 .
 view
 /
@@ -100,7 +102,7 @@ ForbiddenComment
 "
 )
 class
-HistoryMetadataViewHolderTest
+RecentBookmarksViewHolderTest
 {
 /
 *
@@ -134,7 +136,7 @@ called
 val
 historyGroup
 =
-HistoryMetadataGroup
+RecentVisitsItems
 (
 title
 =

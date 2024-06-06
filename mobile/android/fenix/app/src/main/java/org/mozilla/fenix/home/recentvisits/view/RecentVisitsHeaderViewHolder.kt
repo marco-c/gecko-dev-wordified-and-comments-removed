@@ -63,7 +63,9 @@ mozilla
 .
 fenix
 .
-historymetadata
+home
+.
+recentvisits
 .
 view
 import
@@ -89,7 +91,7 @@ fenix
 .
 databinding
 .
-HistoryMetadataHeaderBinding
+RecentVisitsHeaderBinding
 import
 org
 .
@@ -97,11 +99,13 @@ mozilla
 .
 fenix
 .
-historymetadata
+home
+.
+recentvisits
 .
 interactor
 .
-HistoryMetadataInteractor
+RecentVisitsInteractor
 import
 org
 .
@@ -122,10 +126,14 @@ View
 holder
 for
 the
-history
-metadata
+"
+Recent
+visits
+"
+section
 header
-and
+with
+the
 "
 Show
 all
@@ -137,7 +145,7 @@ button
 property
 interactor
 [
-HistoryMetadataInteractor
+RecentVisitsInteractor
 ]
 which
 will
@@ -152,7 +160,7 @@ interactions
 *
 /
 class
-HistoryMetadataHeaderViewHolder
+RecentVisitsHeaderViewHolder
 (
 view
 :
@@ -161,7 +169,7 @@ private
 val
 interactor
 :
-HistoryMetadataInteractor
+RecentVisitsInteractor
 )
 :
 ViewHolder
@@ -174,7 +182,7 @@ init
 val
 binding
 =
-HistoryMetadataHeaderBinding
+RecentVisitsHeaderBinding
 .
 bind
 (
@@ -188,7 +196,7 @@ setOnClickListener
 {
 interactor
 .
-onHistoryMetadataShowAllClicked
+onHistoryShowAllClicked
 (
 )
 }
@@ -204,6 +212,6 @@ R
 .
 layout
 .
-history_metadata_header
+recent_visits_header
 }
 }

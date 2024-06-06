@@ -349,7 +349,7 @@ R
 .
 string
 .
-customize_toggle_recent_searches
+customize_toggle_recently_visited
 )
 )
 )

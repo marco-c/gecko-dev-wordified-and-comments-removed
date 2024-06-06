@@ -63,7 +63,9 @@ mozilla
 .
 fenix
 .
-historymetadata
+home
+.
+recentvisits
 .
 view
 import
@@ -125,7 +127,7 @@ fenix
 .
 databinding
 .
-HistoryMetadataHeaderBinding
+RecentVisitsHeaderBinding
 import
 org
 .
@@ -156,14 +158,14 @@ FenixRobolectricTestRunner
 class
 )
 class
-HistoryMetadataHeaderViewHolderTest
+RecentVisitsHeaderViewHolderTest
 {
 private
 lateinit
 var
 binding
 :
-HistoryMetadataHeaderBinding
+RecentVisitsHeaderBinding
 private
 lateinit
 var
@@ -178,7 +180,7 @@ setup
 {
 binding
 =
-HistoryMetadataHeaderBinding
+RecentVisitsHeaderBinding
 .
 inflate
 (
@@ -213,7 +215,7 @@ called
 (
 )
 {
-HistoryMetadataHeaderViewHolder
+RecentVisitsHeaderViewHolder
 (
 binding
 .
@@ -231,7 +233,7 @@ verify
 {
 interactor
 .
-onHistoryMetadataShowAllClicked
+onHistoryShowAllClicked
 (
 )
 }

@@ -4078,6 +4078,9 @@ waitForIdle
 .
 goToHomescreen
 {
+swipeToBottom
+(
+)
 }
 .
 clickSaveTabsToCollectionButton

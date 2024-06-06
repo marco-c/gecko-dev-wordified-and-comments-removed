@@ -193,16 +193,6 @@ mozilla
 .
 fenix
 .
-historymetadata
-.
-HistoryMetadataGroup
-import
-org
-.
-mozilla
-.
-fenix
-.
 home
 .
 HomeFragmentState
@@ -230,6 +220,20 @@ home
 recenttabs
 .
 RecentTab
+import
+org
+.
+mozilla
+.
+fenix
+.
+home
+.
+recentvisits
+.
+RecentlyVisitedItem
+.
+RecentHistoryGroup
 import
 org
 .
@@ -389,7 +393,7 @@ historyMetadata
 =
 listOf
 (
-HistoryMetadataGroup
+RecentHistoryGroup
 (
 "
 title
@@ -420,7 +424,7 @@ state
 =
 HomeFragmentState
 (
-historyMetadata
+recentHistory
 =
 historyMetadata
 )
@@ -838,7 +842,7 @@ historyMetadata
 =
 emptyList
 <
-HistoryMetadataGroup
+RecentHistoryGroup
 >
 (
 )
@@ -985,7 +989,7 @@ historyMetadata
 =
 emptyList
 <
-HistoryMetadataGroup
+RecentHistoryGroup
 >
 (
 )
@@ -1129,7 +1133,7 @@ historyMetadata
 =
 listOf
 (
-HistoryMetadataGroup
+RecentHistoryGroup
 (
 "
 title
@@ -1184,7 +1188,7 @@ results
 is
 AdapterItem
 .
-HistoryMetadataHeader
+RecentVisitsHeader
 )
 assertTrue
 (
@@ -1195,7 +1199,7 @@ results
 is
 AdapterItem
 .
-HistoryMetadataGroup
+RecentVisitsItems
 )
 assertTrue
 (
@@ -1279,7 +1283,7 @@ historyMetadata
 =
 emptyList
 <
-HistoryMetadataGroup
+RecentHistoryGroup
 >
 (
 )
@@ -1430,7 +1434,7 @@ historyMetadata
 =
 emptyList
 <
-HistoryMetadataGroup
+RecentHistoryGroup
 >
 (
 )
@@ -1569,7 +1573,7 @@ historyMetadata
 =
 listOf
 <
-HistoryMetadataGroup
+RecentHistoryGroup
 >
 (
 mockk
