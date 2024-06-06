@@ -868,11 +868,6 @@ mIsCrossSiteNoCORSRequest
 bool
 mShouldReportRenderTimeForLCP
 ;
-bool
-mOffMainThreadData
-=
-false
-;
 mutable
 mozilla
 :

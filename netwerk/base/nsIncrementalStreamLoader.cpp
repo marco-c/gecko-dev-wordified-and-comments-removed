@@ -822,7 +822,7 @@ CheckListenerChain
 )
 {
 return
-NS_ERROR_NO_INTERFACE
+NS_OK
 ;
 }
 NS_IMETHODIMP

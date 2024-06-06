@@ -31584,7 +31584,7 @@ tls
 "
 }
 "
-HTTP_CHILD_OMT_STATS_2
+HTTP_CHILD_OMT_STATS
 "
 :
 {
@@ -31688,9 +31688,6 @@ failListenerChain
 "
 "
 notRequested
-"
-"
-successOnlyDecomp
 "
 ]
 }
