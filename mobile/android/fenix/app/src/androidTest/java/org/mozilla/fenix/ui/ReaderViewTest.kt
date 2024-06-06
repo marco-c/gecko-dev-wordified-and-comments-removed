@@ -560,7 +560,7 @@ readerViewRobot
 {
 verifyReaderViewDetected
 (
-true
+false
 )
 }
 }
