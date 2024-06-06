@@ -1843,6 +1843,9 @@ binding
 findInPage
 binding
 .
+browserToolbar
+binding
+.
 engineView
 )
 this
