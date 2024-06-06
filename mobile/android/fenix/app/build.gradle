@@ -6728,11 +6728,11 @@ ComponentsDependencies
 .
 androidx_fragment
 implementation
-FenixDependencies
+ComponentsDependencies
 .
 androidx_navigation_fragment
 implementation
-FenixDependencies
+ComponentsDependencies
 .
 androidx_navigation_ui
 implementation
