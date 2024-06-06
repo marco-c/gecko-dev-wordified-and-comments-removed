@@ -925,6 +925,9 @@ core
 .
 store
 customTabSessionId
+requireComponents
+.
+notificationsDelegate
 )
 )
 }
