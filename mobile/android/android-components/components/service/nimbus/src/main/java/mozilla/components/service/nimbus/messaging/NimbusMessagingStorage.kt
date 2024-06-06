@@ -432,11 +432,6 @@ MessagingStorage
 )
 private
 val
-nimbusFeature
-=
-messagingFeature
-private
-val
 customAttributes
 :
 JSONObject
@@ -1729,7 +1724,7 @@ getOnControlBehavior
 :
 ControlMessageBehavior
 =
-nimbusFeature
+messagingFeature
 .
 value
 (
