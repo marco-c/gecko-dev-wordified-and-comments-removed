@@ -11028,7 +11028,7 @@ name
 close_tabs_manually
 "
 >
-Manualmente
+Nunca
 <
 /
 string
@@ -31385,8 +31385,10 @@ name
 quick_settings_sheet_secure_connection_2
 "
 >
-Conexi
+La
+conexi
 n
+es
 segura
 <
 /
@@ -31417,9 +31419,11 @@ name
 quick_settings_sheet_insecure_connection_2
 "
 >
-Conexi
+La
+conexi
 n
 no
+es
 segura
 <
 /
