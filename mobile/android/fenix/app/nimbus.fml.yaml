@@ -2587,6 +2587,11 @@ value
 enabled
 :
 true
+product
+-
+recommendations
+:
+true
 print
 :
 description
