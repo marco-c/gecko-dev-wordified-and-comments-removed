@@ -1700,6 +1700,12 @@ GeckoSession
 }
 }
 }
+Suppress
+(
+"
+ComplexMethod
+"
+)
 private
 fun
 createProgressDelegate
