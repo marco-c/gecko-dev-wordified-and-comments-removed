@@ -258,7 +258,7 @@ textColorPrimary
 >
 color
 /
-primary_text_normal_theme
+state_list_text_color
 <
 /
 item
@@ -275,7 +275,7 @@ textColorSecondary
 >
 color
 /
-secondary_text_normal_theme
+secondary_state_list_text_color
 <
 /
 item
@@ -1415,7 +1415,7 @@ textColorPrimary
 >
 color
 /
-primary_text_private_theme
+state_list_text_color
 <
 /
 item
@@ -1432,7 +1432,7 @@ textColorSecondary
 >
 color
 /
-secondary_text_private_theme
+secondary_state_list_text_color
 <
 /
 item
