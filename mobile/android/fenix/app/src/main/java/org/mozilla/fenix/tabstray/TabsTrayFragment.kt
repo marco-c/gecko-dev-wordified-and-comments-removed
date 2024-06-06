@@ -1232,13 +1232,11 @@ tab_layout
 interactor
 =
 this
-browserStore
+browsingModeManager
 =
-requireComponents
+activity
 .
-core
-.
-store
+browsingModeManager
 tabsTrayStore
 =
 tabsTrayStore
