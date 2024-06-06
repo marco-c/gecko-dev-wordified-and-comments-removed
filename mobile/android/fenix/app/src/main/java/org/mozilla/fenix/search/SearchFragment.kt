@@ -417,14 +417,6 @@ mozilla
 .
 fenix
 .
-FeatureFlags
-import
-org
-.
-mozilla
-.
-fenix
-.
 HomeActivity
 import
 org
@@ -1033,11 +1025,6 @@ settings
 )
 .
 shouldShowVoiceSearch
-&
-&
-FeatureFlags
-.
-voiceSearch
 &
 &
 speechIsAvailable
