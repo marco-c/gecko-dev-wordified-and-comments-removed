@@ -12217,7 +12217,7 @@ name
 tracking_protection_off
 "
 >
-Desactivado
+Desactivada
 <
 /
 string
@@ -12474,7 +12474,7 @@ name
 delete_browsing_data_quit_off
 "
 >
-Desactivado
+Desactivada
 <
 /
 string
@@ -19272,7 +19272,7 @@ name
 preference_enhanced_tracking_protection_custom
 "
 >
-Personalizado
+Personalizada
 <
 /
 string

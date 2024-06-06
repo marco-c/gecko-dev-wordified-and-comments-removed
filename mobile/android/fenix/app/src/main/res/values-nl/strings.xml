@@ -7099,7 +7099,7 @@ name
 preference_gestures_dynamic_toolbar
 "
 >
-Scroll
+Scrollen
 om
 de
 werkbalk
@@ -7134,10 +7134,10 @@ name
 preference_gestures_swipe_toolbar_switch_tabs
 "
 >
-Veeg
-de
+De
 werkbalk
 opzij
+vegen
 om
 van
 tabblad
@@ -7174,10 +7174,10 @@ name
 preference_gestures_swipe_toolbar_show_tabs
 "
 >
-Veeg
-de
+De
 werkbalk
 omhoog
+vegen
 om
 tabbladen
 te
