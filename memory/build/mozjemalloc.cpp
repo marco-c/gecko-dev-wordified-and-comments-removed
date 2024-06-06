@@ -16454,7 +16454,11 @@ mapelm
 >
 bits
 &
-CHUNK_MAP_DECOMMITTED
+(
+CHUNK_MAP_FRESH_MADVISED_OR_DECOMMITTED
+|
+CHUNK_MAP_ZEROED
+)
 )
 =
 =
@@ -16462,8 +16466,11 @@ CHUNK_MAP_DECOMMITTED
 "
 Freeing
 in
-decommitted
+a
 page
+with
+bad
+bits
 .
 "
 )
