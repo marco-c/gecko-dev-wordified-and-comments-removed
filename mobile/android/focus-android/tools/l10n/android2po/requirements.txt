@@ -22,6 +22,6 @@ lxml
 .
 6
 .
-2
+3
 ordereddict
 termcolor
