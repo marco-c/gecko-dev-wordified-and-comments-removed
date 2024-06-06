@@ -4364,6 +4364,14 @@ settings
 .
 isRemoteDebuggingEnabled
 )
+studiesEnabled
+.
+set
+(
+settings
+.
+isExperimentationEnabled
+)
 telemetryEnabled
 .
 set

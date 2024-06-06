@@ -1091,6 +1091,12 @@ Event
 (
 )
 object
+StudiesSettings
+:
+Event
+(
+)
+object
 VoiceSearchTapped
 :
 Event
