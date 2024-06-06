@@ -339,6 +339,7 @@ GeckoViewPrompt
 "
 ;
 private
+static
 final
 String
 ITEMS
@@ -348,6 +349,7 @@ items
 "
 ;
 private
+static
 final
 String
 LABEL
@@ -357,6 +359,7 @@ label
 "
 ;
 private
+static
 final
 String
 SELECTED
@@ -366,6 +369,7 @@ selected
 "
 ;
 private
+static
 final
 String
 SEPARATOR
