@@ -212,7 +212,7 @@ String
 isPrivate
 :
 Boolean
-inSearchFragment
+startInEditMode
 :
 Boolean
 container
@@ -362,7 +362,7 @@ apply
 {
 if
 (
-inSearchFragment
+startInEditMode
 )
 {
 editMode

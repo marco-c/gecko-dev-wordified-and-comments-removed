@@ -236,7 +236,7 @@ isPrivate
 Boolean
 private
 val
-inSearchFragment
+startInEditMode
 :
 Boolean
 private
@@ -308,7 +308,7 @@ ToolbarUIView
 (
 sessionId
 isPrivate
-inSearchFragment
+startInEditMode
 container
 actionEmitter
 changesObservable
