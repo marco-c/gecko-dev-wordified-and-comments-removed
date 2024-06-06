@@ -3663,6 +3663,10 @@ leanplum
 implementation
 Deps
 .
+leanplumMessaging
+implementation
+Deps
+.
 osslicenses_library
 implementation
 Deps
