@@ -257,6 +257,18 @@ mozilla
 .
 focus
 .
+R
+.
+string
+.
+tip_take_survey_es
+import
+org
+.
+mozilla
+.
+focus
+.
 exceptions
 .
 ExceptionDomains
@@ -700,7 +712,7 @@ s3
 "
 id
 =
-tip_take_survey_fr
+tip_take_survey_es
 }
 else
 -
