@@ -617,13 +617,6 @@ false
 "
 android
 :
-layout_marginBottom
-=
-"
-88dp
-"
-android
-:
 paddingVertical
 =
 "

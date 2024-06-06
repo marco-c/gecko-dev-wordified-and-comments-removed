@@ -1468,7 +1468,7 @@ assertEquals
 results
 .
 size
-1
+2
 )
 assertTrue
 (

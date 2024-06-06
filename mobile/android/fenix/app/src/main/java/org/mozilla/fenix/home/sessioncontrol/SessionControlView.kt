@@ -625,6 +625,14 @@ AdapterItem
 CustomizeHomeButton
 )
 }
+items
+.
+add
+(
+AdapterItem
+.
+BottomSpacer
+)
 return
 items
 }
