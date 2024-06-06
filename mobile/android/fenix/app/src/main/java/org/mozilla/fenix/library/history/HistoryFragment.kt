@@ -703,6 +703,17 @@ binding
 .
 historyLayout
 historyInteractor
+onZeroItemsLoaded
+=
+{
+viewModel
+.
+userHasHistory
+.
+value
+=
+false
+}
 )
 return
 view
