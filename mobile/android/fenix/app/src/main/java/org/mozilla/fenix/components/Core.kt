@@ -1153,6 +1153,17 @@ color
 .
 fx_mobile_layer_color_1
 )
+httpsOnlyMode
+=
+context
+.
+settings
+(
+)
+.
+getHttpsOnlyMode
+(
+)
 )
 GeckoEngine
 (

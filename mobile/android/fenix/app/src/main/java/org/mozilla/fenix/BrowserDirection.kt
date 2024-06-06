@@ -227,6 +227,14 @@ id
 .
 trackingProtectionFragment
 )
+FromHttpsOnlyMode
+(
+R
+.
+id
+.
+httpsOnlyFragment
+)
 FromTrackingProtectionDialog
 (
 R
