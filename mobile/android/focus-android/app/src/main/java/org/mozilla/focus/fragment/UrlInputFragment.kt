@@ -1204,6 +1204,11 @@ it
 isSuggestion
 )
 }
+searchSuggestionsViewModel
+.
+clearSearchSuggestion
+(
+)
 }
 }
 )
