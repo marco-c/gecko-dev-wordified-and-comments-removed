@@ -30,6 +30,13 @@ js
 ]
 [
 "
+test_backupPrefFile
+.
+js
+"
+]
+[
+"
 test_bug345529
 .
 js
