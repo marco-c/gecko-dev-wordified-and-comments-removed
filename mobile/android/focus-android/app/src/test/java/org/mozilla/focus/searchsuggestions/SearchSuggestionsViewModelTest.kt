@@ -203,7 +203,7 @@ ON_RESUME
 )
 MockitoAnnotations
 .
-initMocks
+openMocks
 (
 this
 )
