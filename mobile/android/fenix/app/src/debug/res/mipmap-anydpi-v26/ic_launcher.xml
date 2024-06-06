@@ -50,9 +50,9 @@ android
 drawable
 =
 "
-drawable
+color
 /
-ic_launcher_background
+debug_launcher_background
 "
 /
 >

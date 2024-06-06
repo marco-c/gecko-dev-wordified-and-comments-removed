@@ -50,9 +50,9 @@ android
 drawable
 =
 "
-mipmap
+color
 /
-ic_launcher_background
+default_launcher_background
 "
 /
 >
