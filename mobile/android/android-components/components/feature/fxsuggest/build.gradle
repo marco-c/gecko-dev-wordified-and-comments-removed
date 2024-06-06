@@ -160,7 +160,7 @@ KotlinCompile
 configureEach
 {
 kotlinOptions
-{
+.
 freeCompilerArgs
 +
 =
@@ -174,7 +174,6 @@ kotlin
 .
 ExperimentalUnsignedTypes
 '
-}
 }
 dependencies
 {

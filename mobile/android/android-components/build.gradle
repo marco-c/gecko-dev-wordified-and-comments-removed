@@ -1483,12 +1483,14 @@ KotlinCompile
 all
 {
 kotlinOptions
-{
+.
 jvmTarget
 =
 "
 17
 "
+kotlinOptions
+.
 freeCompilerArgs
 +
 =
@@ -1504,7 +1506,6 @@ kotlin
 RequiresOptIn
 "
 ]
-}
 }
 }
 if
