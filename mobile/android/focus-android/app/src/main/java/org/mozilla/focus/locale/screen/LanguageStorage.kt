@@ -470,9 +470,7 @@ shippingLocales
 =
 LocaleManager
 .
-getPackagedLocaleTags
-(
-)
+packagedLocaleTags
 val
 initialCount
 :
