@@ -188,11 +188,20 @@ craft_assemble_release_task
 (
 self
 architectures
-channel
+build_type
 is_staging
 version_name
+index_channel
+=
+None
 )
 :
+        
+index_channel
+=
+index_channel
+or
+build_type
         
 artifacts
 =
@@ -250,7 +259,7 @@ arch
 }
 /
 {
-channel
+build_type
 }
 /
 app
@@ -260,7 +269,7 @@ arch
 }
 -
 {
-channel
+build_type
 }
 -
 unsigned
@@ -273,9 +282,9 @@ format
 arch
 =
 arch
-channel
+build_type
 =
-channel
+build_type
 )
                 
 "
@@ -339,7 +348,7 @@ fenix
 .
 format
 (
-channel
+index_channel
 )
         
 pre_gradle_commands
@@ -422,11 +431,11 @@ adjust_token
         
 )
         
-capitalized_channel
+capitalized_build_type
 =
 upper_case_first_letter
 (
-channel
+build_type
 )
         
 gradle_commands
@@ -460,7 +469,7 @@ format
 (
                 
 version_name
-capitalized_channel
+capitalized_build_type
 )
         
 )
@@ -542,7 +551,7 @@ task
 .
 format
 (
-capitalized_channel
+capitalized_build_type
 )
             
 description
@@ -559,7 +568,7 @@ code
 .
 format
 (
-capitalized_channel
+capitalized_build_type
 )
             
 command
@@ -637,7 +646,7 @@ A
 .
 format
 (
-channel
+build_type
 )
                 
 '
@@ -2848,9 +2857,18 @@ build_task_id
 apk_paths
 channel
 is_staging
+index_channel
+=
+None
     
 )
 :
+        
+index_channel
+=
+index_channel
+or
+channel
         
 staging_prefix
 =
@@ -2900,7 +2918,7 @@ format
 (
                 
 staging_prefix
-channel
+index_channel
 self
 .
 date
@@ -2954,7 +2972,7 @@ format
 (
                 
 staging_prefix
-channel
+index_channel
 self
 .
 date
@@ -2998,7 +3016,7 @@ latest
 format
 (
 staging_prefix
-channel
+index_channel
 )
         
 ]
