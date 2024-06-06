@@ -389,7 +389,7 @@ intent
 =
 SupportUtils
 .
-createCustomTabIntent
+createAuthCustomTabIntent
 (
 context
 authUrl

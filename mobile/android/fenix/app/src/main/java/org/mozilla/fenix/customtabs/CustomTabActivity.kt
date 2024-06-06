@@ -70,6 +70,7 @@ mozilla
 fenix
 .
 HomeActivity
+open
 class
 CustomTabActivity
 :
