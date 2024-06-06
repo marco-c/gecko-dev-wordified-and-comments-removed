@@ -63,6 +63,12 @@ MPL
 *
 /
 import
+android
+.
+view
+.
+View
+import
 androidx
 .
 lifecycle
@@ -138,6 +144,13 @@ var
 selectedTabCollection
 :
 TabCollection
+?
+=
+null
+var
+snackbarAnchorView
+:
+View
 ?
 =
 null
