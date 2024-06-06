@@ -746,7 +746,7 @@ menuItem
 =
 ToolbarMenu
 .
-Item
+CustomTabItem
 .
 OpenInBrowser
 browserMenuController

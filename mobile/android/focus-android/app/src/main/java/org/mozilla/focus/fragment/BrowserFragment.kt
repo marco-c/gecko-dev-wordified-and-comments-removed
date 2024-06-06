@@ -4313,11 +4313,6 @@ closeCustomTab
 (
 )
 {
-TelemetryWrapper
-.
-closeCustomTabEvent
-(
-)
 requireComponents
 .
 customTabsUseCases
@@ -4333,11 +4328,6 @@ requireActivity
 )
 .
 finish
-(
-)
-TelemetryWrapper
-.
-closeCustomTabEvent
 (
 )
 }
