@@ -436,7 +436,6 @@ crashRecovery
 .
 invoke
 (
-session
 )
 Navigation
 .
@@ -464,6 +463,17 @@ removeTab
 invoke
 (
 session
+)
+requireComponents
+.
+useCases
+.
+sessionUseCases
+.
+crashRecovery
+.
+invoke
+(
 )
 navigateHome
 (
