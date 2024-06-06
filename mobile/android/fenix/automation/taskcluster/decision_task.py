@@ -897,11 +897,6 @@ architectures
 build_type
 is_staging
 version_name
-index_channel
-=
-'
-nightly
-'
 )
     
 signing_task_id
@@ -1133,6 +1128,22 @@ add_argument
 (
 '
 tag
+'
+)
+    
+release_parser
+.
+add_argument
+(
+'
+-
+-
+staging
+'
+action
+=
+'
+store_true
 '
 )
     
@@ -1395,7 +1406,9 @@ release
 '
 beta
 '
-False
+result
+.
+staging
 version
 )
         
@@ -1417,7 +1430,9 @@ release
 '
 production
 '
-False
+result
+.
+staging
 version
 )
         

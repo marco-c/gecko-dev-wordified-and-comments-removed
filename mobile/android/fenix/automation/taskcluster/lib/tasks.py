@@ -191,17 +191,8 @@ architectures
 build_type
 is_staging
 version_name
-index_channel
-=
-None
 )
 :
-        
-index_channel
-=
-index_channel
-or
-build_type
         
 artifacts
 =
@@ -348,7 +339,7 @@ fenix
 .
 format
 (
-index_channel
+build_type
 )
         
 pre_gradle_commands
@@ -425,6 +416,33 @@ adjust
 .
 adjust_token
 '
+)
+                
+(
+'
+firebase
+'
+'
+app
+/
+src
+/
+{
+}
+/
+res
+/
+values
+/
+firebase
+.
+xml
+'
+.
+format
+(
+build_type
+)
 )
             
 )
