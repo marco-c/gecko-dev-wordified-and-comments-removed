@@ -1684,6 +1684,12 @@ recursive
 )
 ?
 .
+minus
+(
+pendingBookmarksToDelete
+)
+?
+.
 let
 {
 desktopFolders
