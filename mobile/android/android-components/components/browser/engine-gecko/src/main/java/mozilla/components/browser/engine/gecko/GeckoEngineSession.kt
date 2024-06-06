@@ -5834,7 +5834,7 @@ trim
 )
 ?
 .
-toLong
+toLongOrNull
 (
 )
 val
