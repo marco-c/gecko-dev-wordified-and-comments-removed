@@ -156,7 +156,7 @@ app
 allowDividerBelow
 =
 "
-false
+true
 "
 app
 :
@@ -373,7 +373,7 @@ app
 allowDividerAbove
 =
 "
-false
+true
 "
 app
 :
@@ -489,7 +489,7 @@ app
 allowDividerAbove
 =
 "
-false
+true
 "
 app
 :
@@ -569,7 +569,7 @@ app
 allowDividerAbove
 =
 "
-false
+true
 "
 app
 :
