@@ -198,6 +198,16 @@ ktx
 '
 )
 implementation
+project
+(
+'
+:
+concept
+-
+toolbar
+'
+)
+implementation
 ComponentsDependencies
 .
 androidx_appcompat

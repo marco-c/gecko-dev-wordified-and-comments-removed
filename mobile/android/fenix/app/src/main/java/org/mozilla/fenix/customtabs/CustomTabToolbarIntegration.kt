@@ -85,6 +85,16 @@ mozilla
 .
 components
 .
+concept
+.
+toolbar
+.
+ScrollableToolbar
+import
+mozilla
+.
+components
+.
 feature
 .
 toolbar
@@ -123,6 +133,9 @@ Context
 toolbar
 :
 BrowserToolbar
+scrollableToolbar
+:
+ScrollableToolbar
 toolbarMenu
 :
 ToolbarMenu
@@ -142,6 +155,9 @@ context
 toolbar
 =
 toolbar
+scrollableToolbar
+=
+scrollableToolbar
 toolbarMenu
 =
 toolbarMenu

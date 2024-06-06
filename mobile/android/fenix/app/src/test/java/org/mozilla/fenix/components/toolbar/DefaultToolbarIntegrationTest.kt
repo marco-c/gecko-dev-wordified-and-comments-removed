@@ -273,6 +273,14 @@ relaxed
 =
 true
 )
+scrollableToolbar
+=
+mockk
+(
+relaxed
+=
+true
+)
 toolbarMenu
 =
 mockk
