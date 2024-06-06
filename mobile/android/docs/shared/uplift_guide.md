@@ -773,7 +773,6 @@ demos
 upliftRequestForm
 .
 mp4
-]
 )
 8
 .
