@@ -295,6 +295,12 @@ verifyAdvancedHeading
 verifyAddons
 (
 )
+verifyOpenLinksInAppsButton
+(
+)
+verifyOpenLinksInAppsSwitchDefault
+(
+)
 verifyRemoteDebug
 (
 )
