@@ -1445,6 +1445,13 @@ string
 /
 pref_key_nimbus_experiments
 "
+app
+:
+iconSpaceReserved
+=
+"
+false
+"
 android
 :
 title
