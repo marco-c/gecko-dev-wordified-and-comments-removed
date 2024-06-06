@@ -1082,6 +1082,13 @@ requireComponents
 analytics
 .
 metrics
+dismissDialog
+=
+{
+dismissAllowingStateLoss
+(
+)
+}
 clearToolbarFocus
 =
 {
