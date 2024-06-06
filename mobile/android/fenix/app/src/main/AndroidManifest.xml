@@ -2647,6 +2647,13 @@ MediaSessionService
 "
 android
 :
+foregroundServiceType
+=
+"
+mediaPlayback
+"
+android
+:
 exported
 =
 "
