@@ -1040,6 +1040,7 @@ getActivityIntent
 )
 :
 Intent
+?
 {
 return
 if
