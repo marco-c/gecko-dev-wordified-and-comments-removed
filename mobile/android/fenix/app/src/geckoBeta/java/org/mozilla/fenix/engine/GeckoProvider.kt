@@ -101,7 +101,7 @@ mozilla
 .
 fenix
 .
-BuildConfig
+Config
 import
 org
 .
@@ -242,9 +242,11 @@ GeckoAdapter
 .
 debugLogging
 (
-BuildConfig
+Config
 .
-DEBUG
+channel
+.
+isDebug
 )
 .
 build

@@ -1932,9 +1932,11 @@ enableStrictMode
 {
 if
 (
-BuildConfig
+Config
 .
-DEBUG
+channel
+.
+isDebug
 )
 {
 StrictMode
