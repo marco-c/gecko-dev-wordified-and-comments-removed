@@ -2478,7 +2478,7 @@ collectionName
 verifySnackBarText
 (
 "
-Tabs
+Collection
 saved
 !
 "

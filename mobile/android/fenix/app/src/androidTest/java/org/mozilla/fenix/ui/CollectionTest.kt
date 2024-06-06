@@ -195,6 +195,18 @@ mozilla
 .
 fenix
 .
+helpers
+.
+TestHelper
+.
+verifySnackBarText
+import
+org
+.
+mozilla
+.
+fenix
+.
 ui
 .
 robots
@@ -2489,7 +2501,7 @@ collectionName
 verifySnackBarText
 (
 "
-Tabs
+Collection
 saved
 !
 "
