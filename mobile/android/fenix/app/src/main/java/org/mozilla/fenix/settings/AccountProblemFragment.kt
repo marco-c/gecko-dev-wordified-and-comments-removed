@@ -538,6 +538,7 @@ logoutAsync
 await
 (
 )
+}
 Navigation
 .
 findNavController
@@ -550,7 +551,6 @@ view
 popBackStack
 (
 )
-}
 true
 }
 }
