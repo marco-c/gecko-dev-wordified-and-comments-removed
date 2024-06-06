@@ -222,7 +222,7 @@ normal
 normal
 windows
 to
-repoen
+reopen
 "
 )
 ;
@@ -257,7 +257,12 @@ false
 {
 isPopup
 :
-false
+true
+}
+{
+isPopup
+:
+true
 }
 {
 isPopup
@@ -285,7 +290,7 @@ mac
 {
 popup
 :
-3
+5
 normal
 :
 0
@@ -295,7 +300,7 @@ other
 {
 popup
 :
-3
+5
 normal
 :
 1
@@ -338,6 +343,11 @@ isPopup
 :
 false
 }
+{
+isPopup
+:
+false
+}
 ]
 ;
 let
@@ -352,7 +362,7 @@ popup
 0
 normal
 :
-3
+5
 }
 other
 :
@@ -362,7 +372,7 @@ popup
 0
 normal
 :
-3
+5
 }
 }
 ;

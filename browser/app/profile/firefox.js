@@ -6781,7 +6781,7 @@ sessionstore
 .
 max_windows_undo
 "
-3
+5
 )
 ;
 pref
