@@ -246,7 +246,7 @@ R
 .
 string
 .
-private_browsing_explanation
+private_browsing_placeholder
 appName
 )
 val

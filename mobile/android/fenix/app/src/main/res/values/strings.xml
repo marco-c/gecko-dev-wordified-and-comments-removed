@@ -396,7 +396,7 @@ string
 name
 =
 "
-private_browsing_explanation
+private_browsing_placeholder
 "
 >
 %
@@ -410,10 +410,14 @@ browsing
 history
 when
 you
+quit
+the
+app
+or
 close
-your
+all
 private
-session
+tabs
 .
 While
 this
