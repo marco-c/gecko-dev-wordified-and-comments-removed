@@ -190,11 +190,4 @@ val
 codeParamName
 :
 String
-val
-codePrefixes
-:
-List
-<
-String
->
 )

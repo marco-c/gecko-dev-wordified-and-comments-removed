@@ -119,11 +119,14 @@ codeParamName
 "
 tt
 "
-queryParamName
+queryParamNames
 =
+listOf
+(
 "
 q
 "
+)
 searchPageRegexp
 =
 "

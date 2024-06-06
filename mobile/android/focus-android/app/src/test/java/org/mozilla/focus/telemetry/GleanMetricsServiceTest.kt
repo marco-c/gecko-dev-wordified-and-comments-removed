@@ -121,6 +121,18 @@ incontent
 .
 InContentTelemetry
 import
+mozilla
+.
+components
+.
+support
+.
+test
+.
+robolectric
+.
+testContext
+import
 org
 .
 junit
@@ -302,6 +314,7 @@ glean
 installSearchTelemetryExtensions
 (
 components
+testContext
 )
 verify
 (
@@ -312,6 +325,9 @@ install
 (
 engine
 store
+mock
+(
+)
 )
 verify
 (
@@ -322,6 +338,9 @@ install
 (
 engine
 store
+mock
+(
+)
 )
 }
 }
