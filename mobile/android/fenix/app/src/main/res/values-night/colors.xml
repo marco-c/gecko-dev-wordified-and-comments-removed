@@ -588,12 +588,12 @@ color
 name
 =
 "
-tab_tray_item_selected_text_normal_theme
+tab_tray_item_url_normal_theme
 "
 >
 color
 /
-tab_tray_item_selected_text_dark_theme
+tab_tray_item_url_dark_theme
 <
 /
 color
