@@ -150,6 +150,13 @@ View
 text
 :
 String
+duration
+:
+Int
+=
+FenixSnackbar
+.
+LENGTH_SHORT
 )
 {
 FenixSnackbar
@@ -161,9 +168,7 @@ view
 view
 duration
 =
-FenixSnackbar
-.
-LENGTH_SHORT
+duration
 isDisplayedWithBrowserToolbar
 =
 true
