@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-taskgraph
+gecko_taskgraph
 .
 loader
 .
@@ -86,7 +86,7 @@ transforms
 .
 chunk
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -97,7 +97,7 @@ dependencies
 :
 -
 signing
-tasks
+jobs
 :
 post
 -
@@ -136,16 +136,6 @@ copy
 attributes
 :
 true
-run
--
-on
--
-tasks
--
-for
-:
-[
-]
 attributes
 :
 component
@@ -156,6 +146,10 @@ worker
 type
 :
 succeed
+worker
+:
+{
+}
 treeherder
 :
 kind
