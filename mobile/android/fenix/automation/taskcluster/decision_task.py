@@ -465,7 +465,7 @@ ALL_RAPTOR_CRAFT_FUNCTIONS
                 
 BUILDER
 .
-craft_raptor_tp6m_task
+craft_raptor_tp6m_cold_task
 (
 for_suite
 =
@@ -480,18 +480,6 @@ range
 1
 11
 )
-            
-]
-+
-[
-                
-BUILDER
-.
-craft_raptor_speedometer_task
-                
-BUILDER
-.
-craft_raptor_speedometer_power_task
             
 ]
             
