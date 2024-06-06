@@ -109,7 +109,7 @@ junit
 .
 Test
 class
-SearchStoreTest
+SearchFragmentStoreTest
 {
 Test
 fun
@@ -128,7 +128,7 @@ emptyDefaultState
 val
 store
 =
-SearchStore
+SearchFragmentStore
 (
 initialState
 )
@@ -143,7 +143,7 @@ store
 .
 dispatch
 (
-SearchAction
+SearchFragmentAction
 .
 UpdateQuery
 (
@@ -188,7 +188,7 @@ emptyDefaultState
 val
 store
 =
-SearchStore
+SearchFragmentStore
 (
 initialState
 )
@@ -204,7 +204,7 @@ store
 .
 dispatch
 (
-SearchAction
+SearchFragmentAction
 .
 SearchShortcutEngineSelected
 (
@@ -254,7 +254,7 @@ emptyDefaultState
 val
 store
 =
-SearchStore
+SearchFragmentStore
 (
 initialState
 )
@@ -262,7 +262,7 @@ store
 .
 dispatch
 (
-SearchAction
+SearchFragmentAction
 .
 ShowSearchShortcutEnginePicker
 (
@@ -296,9 +296,9 @@ emptyDefaultState
 (
 )
 :
-SearchState
+SearchFragmentState
 =
-SearchState
+SearchFragmentState
 (
 query
 =

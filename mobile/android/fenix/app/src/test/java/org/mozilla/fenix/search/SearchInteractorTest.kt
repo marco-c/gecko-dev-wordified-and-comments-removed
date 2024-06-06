@@ -226,7 +226,7 @@ mockk
 val
 store
 :
-SearchStore
+SearchFragmentStore
 =
 mockk
 (
@@ -234,7 +234,7 @@ mockk
 val
 state
 :
-SearchState
+SearchFragmentState
 =
 mockk
 (
@@ -417,7 +417,7 @@ true
 val
 store
 :
-SearchStore
+SearchFragmentStore
 =
 mockk
 (
@@ -478,7 +478,7 @@ onTextChanged
 val
 store
 :
-SearchStore
+SearchFragmentStore
 =
 mockk
 (
@@ -535,7 +535,7 @@ store
 .
 dispatch
 (
-SearchAction
+SearchFragmentAction
 .
 UpdateQuery
 (
@@ -563,7 +563,7 @@ mockk
 val
 store
 :
-SearchStore
+SearchFragmentStore
 =
 mockk
 (
@@ -571,7 +571,7 @@ mockk
 val
 state
 :
-SearchState
+SearchFragmentState
 =
 mockk
 (
@@ -693,7 +693,7 @@ mockk
 val
 store
 :
-SearchStore
+SearchFragmentStore
 =
 mockk
 (
@@ -701,7 +701,7 @@ mockk
 val
 state
 :
-SearchState
+SearchFragmentState
 =
 mockk
 (
@@ -900,7 +900,7 @@ true
 val
 store
 :
-SearchStore
+SearchFragmentStore
 =
 mockk
 (
@@ -911,7 +911,7 @@ true
 val
 state
 :
-SearchState
+SearchFragmentState
 =
 mockk
 (
@@ -970,7 +970,7 @@ store
 .
 dispatch
 (
-SearchAction
+SearchFragmentAction
 .
 SearchShortcutEngineSelected
 (
@@ -996,7 +996,7 @@ mockk
 val
 store
 :
-SearchStore
+SearchFragmentStore
 =
 mockk
 (
@@ -1141,7 +1141,7 @@ applicationContext
 val
 store
 :
-SearchStore
+SearchFragmentStore
 =
 mockk
 (

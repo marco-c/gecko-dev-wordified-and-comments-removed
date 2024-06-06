@@ -277,7 +277,7 @@ private
 val
 store
 :
-SearchStore
+SearchFragmentStore
 private
 val
 navController
@@ -436,7 +436,7 @@ store
 .
 dispatch
 (
-SearchAction
+SearchFragmentAction
 .
 UpdateQuery
 (
@@ -460,7 +460,7 @@ store
 .
 dispatch
 (
-SearchAction
+SearchFragmentAction
 .
 ShowSearchShortcutEnginePicker
 (
@@ -611,7 +611,7 @@ store
 .
 dispatch
 (
-SearchAction
+SearchFragmentAction
 .
 SearchShortcutEngineSelected
 (

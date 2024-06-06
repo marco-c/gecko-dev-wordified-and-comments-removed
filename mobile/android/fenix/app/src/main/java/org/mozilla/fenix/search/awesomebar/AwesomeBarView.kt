@@ -311,7 +311,7 @@ fenix
 .
 search
 .
-SearchState
+SearchFragmentState
 /
 *
 *
@@ -903,7 +903,7 @@ update
 (
 state
 :
-SearchState
+SearchFragmentState
 )
 {
 view

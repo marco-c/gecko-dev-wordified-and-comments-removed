@@ -463,7 +463,7 @@ lateinit
 var
 searchStore
 :
-SearchStore
+SearchFragmentStore
 private
 lateinit
 var
@@ -663,9 +663,9 @@ get
 this
 )
 {
-SearchStore
+SearchFragmentStore
 (
-SearchState
+SearchFragmentState
 (
 query
 =
@@ -1100,7 +1100,7 @@ searchStore
 .
 dispatch
 (
-SearchAction
+SearchFragmentAction
 .
 ShowSearchShortcutEnginePicker
 (
@@ -1281,7 +1281,7 @@ searchStore
 .
 dispatch
 (
-SearchAction
+SearchFragmentAction
 .
 SelectNewDefaultSearchEngine
 (
@@ -1387,7 +1387,7 @@ updateSearchEngineIcon
 (
 searchState
 :
-SearchState
+SearchFragmentState
 )
 {
 val
@@ -1447,7 +1447,7 @@ updateSearchWithLabel
 (
 searchState
 :
-SearchState
+SearchFragmentState
 )
 {
 searchWithShortcuts
@@ -1474,7 +1474,7 @@ updateSearchShortuctsIcon
 (
 searchState
 :
-SearchState
+SearchFragmentState
 )
 {
 with

@@ -189,7 +189,7 @@ fenix
 .
 search
 .
-SearchState
+SearchFragmentState
 /
 *
 *
@@ -632,7 +632,7 @@ update
 (
 searchState
 :
-SearchState
+SearchFragmentState
 )
 {
 if

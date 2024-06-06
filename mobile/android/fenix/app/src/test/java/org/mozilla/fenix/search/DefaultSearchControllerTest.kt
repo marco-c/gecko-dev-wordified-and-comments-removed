@@ -251,7 +251,7 @@ private
 val
 store
 :
-SearchStore
+SearchFragmentStore
 =
 mockk
 (
@@ -533,7 +533,7 @@ store
 .
 dispatch
 (
-SearchAction
+SearchFragmentAction
 .
 UpdateQuery
 (
@@ -552,7 +552,7 @@ store
 .
 dispatch
 (
-SearchAction
+SearchFragmentAction
 .
 ShowSearchShortcutEnginePicker
 (
@@ -709,7 +709,7 @@ store
 .
 dispatch
 (
-SearchAction
+SearchFragmentAction
 .
 SearchShortcutEngineSelected
 (
