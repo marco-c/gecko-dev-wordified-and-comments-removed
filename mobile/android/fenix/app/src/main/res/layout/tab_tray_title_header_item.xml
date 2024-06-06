@@ -234,6 +234,15 @@ style
 /
 Header16TextStyle
 "
+android
+:
+textColor
+=
+"
+color
+/
+primary_text_normal_theme
+"
 app
 :
 layout_constraintBottom_toBottomOf
