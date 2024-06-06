@@ -767,7 +767,6 @@ appVersion
 context
 .
 appVersionName
-?
 .
 replace
 (
