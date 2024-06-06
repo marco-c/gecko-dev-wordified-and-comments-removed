@@ -1920,9 +1920,6 @@ onPrivateModeButtonClicked
 newMode
 :
 BrowsingMode
-userHasBeenOnboarded
-:
-Boolean
 )
 {
 privateBrowsingController
@@ -1930,7 +1927,6 @@ privateBrowsingController
 handlePrivateModeButtonClicked
 (
 newMode
-userHasBeenOnboarded
 )
 }
 override

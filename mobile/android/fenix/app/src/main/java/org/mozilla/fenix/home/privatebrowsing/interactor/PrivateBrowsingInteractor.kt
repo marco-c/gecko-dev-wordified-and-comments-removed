@@ -165,8 +165,5 @@ onPrivateModeButtonClicked
 newMode
 :
 BrowsingMode
-userHasBeenOnboarded
-:
-Boolean
 )
 }

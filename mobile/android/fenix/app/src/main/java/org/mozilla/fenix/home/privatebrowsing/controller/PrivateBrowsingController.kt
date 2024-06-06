@@ -242,9 +242,6 @@ handlePrivateModeButtonClicked
 newMode
 :
 BrowsingMode
-userHasBeenOnboarded
-:
-Boolean
 )
 }
 /
@@ -322,9 +319,6 @@ handlePrivateModeButtonClicked
 newMode
 :
 BrowsingMode
-userHasBeenOnboarded
-:
-Boolean
 )
 {
 if
@@ -347,11 +341,6 @@ incrementNumTimesPrivateModeOpened
 (
 )
 }
-if
-(
-userHasBeenOnboarded
-)
-{
 appStore
 .
 dispatch
@@ -398,7 +387,6 @@ sessionId
 null
 )
 )
-}
 }
 }
 }

@@ -264,7 +264,7 @@ showDefaultHomeScreen
 {
 homeScreen
 {
-verifyAccountsSignInButton
+verifyHomeScreen
 (
 )
 Screengrab

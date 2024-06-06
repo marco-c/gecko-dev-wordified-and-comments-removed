@@ -1144,16 +1144,11 @@ newMode
 BrowsingMode
 .
 Private
-val
-hasBeenOnboarded
-=
-true
 interactor
 .
 onPrivateModeButtonClicked
 (
 newMode
-hasBeenOnboarded
 )
 verify
 {
@@ -1162,7 +1157,6 @@ privateBrowsingController
 handlePrivateModeButtonClicked
 (
 newMode
-hasBeenOnboarded
 )
 }
 }

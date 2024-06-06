@@ -3389,9 +3389,6 @@ sessionControlInteractor
 onPrivateModeButtonClicked
 (
 newMode
-userHasBeenOnboarded
-=
-true
 )
 Homepage
 .
