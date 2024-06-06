@@ -358,9 +358,6 @@ IntrinsicISizeOffsets
 ;
 if
 (
-isQuirks
-|
-|
 stylePos
 -
 >
