@@ -5559,15 +5559,15 @@ name
 tip_add_to_homescreen
 "
 >
-"
 Acc
 dez
 rapidement
 vos
 sites
 favoris
-\
-n
+%
+1
+s
 Menu
 &
 gt
@@ -5577,7 +5577,6 @@ l
 cran
 d
 accueil
-"
 <
 /
 string
@@ -5690,7 +5689,6 @@ name
 tip_request_desktop
 "
 >
-"
 Pr
 f
 rez
@@ -5704,8 +5702,9 @@ ordinateur
 du
 site
 ?
-\
-n
+%
+1
+s
 Menu
 &
 gt
@@ -5713,7 +5712,6 @@ gt
 Voir
 version
 ordinateur
-"
 <
 /
 string

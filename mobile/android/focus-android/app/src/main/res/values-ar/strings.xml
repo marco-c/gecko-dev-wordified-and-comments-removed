@@ -6935,8 +6935,9 @@ name
 tip_add_to_homescreen
 "
 >
-\
-n
+%
+1
+s
 &
 gt
 ;
@@ -7000,8 +7001,9 @@ name
 tip_request_desktop
 "
 >
-\
-n
+%
+1
+s
 &
 gt
 ;

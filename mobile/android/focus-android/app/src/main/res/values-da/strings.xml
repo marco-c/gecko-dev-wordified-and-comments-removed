@@ -5167,7 +5167,6 @@ name
 tip_add_to_homescreen
 "
 >
-"
 F
 adgang
 til
@@ -5179,8 +5178,9 @@ med
 et
 enkelt
 tryk
-\
-n
+%
+1
+s
 Menu
 &
 gt
@@ -5190,7 +5190,6 @@ j
 til
 startsk
 rmen
-"
 <
 /
 string
@@ -5292,7 +5291,6 @@ name
 tip_request_desktop
 "
 >
-"
 Foretr
 kker
 du
@@ -5300,8 +5298,9 @@ at
 se
 desktopversionen
 ?
-\
-n
+%
+1
+s
 Menu
 &
 gt
@@ -5309,7 +5308,6 @@ gt
 Anmod
 om
 desktopversion
-"
 <
 /
 string

@@ -6886,7 +6886,6 @@ name
 tip_add_to_homescreen
 "
 >
-"
 Hi
 doj
 gatut
@@ -6896,10 +6895,9 @@ nej
 sitio
 rajsunt
 doj
-\
-n
-\
-n
+%
+1
+s
 Men
 &
 gt
@@ -6915,7 +6913,6 @@ ayi
 \
 '
 ij
-"
 <
 /
 string
@@ -7074,7 +7071,6 @@ name
 tip_request_desktop
 "
 >
-"
 Ruat
 ni
 \
@@ -7090,8 +7086,9 @@ ri
 a
 eskritorio
 aj
-\
-n
+%
+1
+s
 Men
 &
 gt
@@ -7101,7 +7098,6 @@ ni
 \
 '
 iaj
-"
 <
 /
 string

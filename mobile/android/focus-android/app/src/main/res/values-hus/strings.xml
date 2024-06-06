@@ -6638,7 +6638,6 @@ name
 tip_add_to_homescreen
 "
 >
-"
 Ka
 ela
 \
@@ -6658,8 +6657,9 @@ a
 lej
 eyendh
 l
-\
-n
+%
+1
+s
 Takuxtal
 b
 &
@@ -6673,7 +6673,6 @@ ok
 '
 ox
 xeklek
-"
 <
 /
 string
@@ -6818,7 +6817,6 @@ name
 tip_request_desktop
 "
 >
-"
 A
 le
 \
@@ -6831,8 +6829,9 @@ an
 xeklek
 ta
 mexajil
-\
-n
+%
+1
+s
 Takuxtal
 b
 &
@@ -6844,7 +6843,6 @@ an
 xeklek
 ta
 mexajil
-"
 <
 /
 string

@@ -5620,7 +5620,6 @@ name
 tip_add_to_homescreen
 "
 >
-"
 Accediu
 amb
 un
@@ -5632,8 +5631,9 @@ que
 m
 s
 utilitzeu
-\
-n
+%
+1
+s
 Men
 &
 gt
@@ -5645,7 +5645,6 @@ d
 \
 '
 inici
-"
 <
 /
 string
@@ -5757,7 +5756,6 @@ name
 tip_request_desktop
 "
 >
-"
 Preferiu
 veure
 el
@@ -5771,8 +5769,9 @@ l
 '
 escriptori
 ?
-\
-n
+%
+1
+s
 Men
 &
 gt
@@ -5784,7 +5783,6 @@ d
 \
 '
 escriptori
-"
 <
 /
 string

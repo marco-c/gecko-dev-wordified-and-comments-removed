@@ -5502,7 +5502,6 @@ name
 tip_add_to_homescreen
 "
 >
-"
 Ob
 ine
 acces
@@ -5516,8 +5515,9 @@ site
 urile
 frecvent
 vizitate
-\
-n
+%
+1
+s
 Meniu
 &
 gt
@@ -5526,7 +5526,6 @@ Adaug
 la
 ecranul
 principal
-"
 <
 /
 string
@@ -5627,7 +5626,6 @@ name
 tip_request_desktop
 "
 >
-"
 Vrei
 s
 vezi
@@ -5637,8 +5635,9 @@ ul
 de
 desktop
 ?
-\
-n
+%
+1
+s
 Meniu
 &
 gt
@@ -5647,7 +5646,6 @@ Cere
 versiune
 de
 desktop
-"
 <
 /
 string

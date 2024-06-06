@@ -4895,7 +4895,6 @@ name
 tip_add_to_homescreen
 "
 >
-"
 Eskuratu
 behin
 sakatuta
@@ -4904,8 +4903,9 @@ bisitatzen
 dituzun
 webguneetarako
 sarbidea
-\
-n
+%
+1
+s
 Menua
 &
 gt
@@ -4913,7 +4913,6 @@ gt
 Gehitu
 hasierako
 pantailan
-"
 <
 /
 string
@@ -5006,7 +5005,6 @@ name
 tip_request_desktop
 "
 >
-"
 Nahiago
 duzu
 mahaigaineko
@@ -5014,15 +5012,15 @@ gune
 osoa
 ikusi
 ?
-\
-n
+%
+1
+s
 Menua
 &
 gt
 ;
 Mahaigaineko
 gunea
-"
 <
 /
 string

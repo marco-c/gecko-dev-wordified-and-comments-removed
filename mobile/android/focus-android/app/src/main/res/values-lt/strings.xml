@@ -5383,15 +5383,15 @@ name
 tip_add_to_homescreen
 "
 >
-"
 Pasiekite
 lankomiausias
 svetaines
 vienu
 spustel
 jimu
-\
-n
+%
+1
+s
 Meniu
 &
 gt
@@ -5400,7 +5400,6 @@ traukti
 prad
 ios
 ekran
-"
 <
 /
 string
@@ -5499,7 +5498,6 @@ name
 tip_request_desktop
 "
 >
-"
 Norite
 tradicin
 s
@@ -5507,8 +5505,9 @@ svetain
 s
 versijos
 ?
-\
-n
+%
+1
+s
 Meniu
 &
 gt
@@ -5520,7 +5519,6 @@ mob
 .
 svetain
 s
-"
 <
 /
 string

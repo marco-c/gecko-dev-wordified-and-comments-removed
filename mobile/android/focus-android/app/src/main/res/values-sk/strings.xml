@@ -5676,7 +5676,6 @@ name
 tip_add_to_homescreen
 "
 >
-"
 Z
 skajte
 jednoduch
@@ -5689,8 +5688,9 @@ ben
 m
 str
 nkam
-\
-n
+%
+1
+s
 Ponuka
 &
 gt
@@ -5699,7 +5699,6 @@ Prida
 na
 vodn
 obrazovku
-"
 <
 /
 string
@@ -5806,7 +5805,6 @@ name
 tip_request_desktop
 "
 >
-"
 Chceli
 by
 ste
@@ -5821,8 +5819,9 @@ po
 ta
 e
 ?
-\
-n
+%
+1
+s
 Ponuka
 &
 gt
@@ -5834,7 +5833,6 @@ pre
 po
 ta
 e
-"
 <
 /
 string

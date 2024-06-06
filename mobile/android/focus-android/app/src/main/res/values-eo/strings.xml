@@ -5129,7 +5129,6 @@ name
 tip_add_to_homescreen
 "
 >
-"
 Atingu
 viajn
 plej
@@ -5139,8 +5138,9 @@ per
 nura
 tu
 eto
-\
-n
+%
+1
+s
 Menuo
 &
 gt
@@ -5148,7 +5148,6 @@ gt
 Aldoni
 al
 hejmekrano
-"
 <
 /
 string
@@ -5251,7 +5250,6 @@ name
 tip_request_desktop
 "
 >
-"
 u
 vi
 preferus
@@ -5264,8 +5262,9 @@ retejo
 por
 komputiloj
 ?
-\
-n
+%
+1
+s
 Menuo
 &
 gt
@@ -5274,7 +5273,6 @@ Peti
 version
 por
 komputiloj
-"
 <
 /
 string
