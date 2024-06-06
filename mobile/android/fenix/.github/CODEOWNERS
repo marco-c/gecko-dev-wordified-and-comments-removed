@@ -237,7 +237,6 @@ fenix
 cron
 .
 yml
-/
 mozilla
 -
 mobile
@@ -253,7 +252,6 @@ fenix
 taskcluster
 .
 yml
-/
 mozilla
 -
 mobile
@@ -279,7 +277,6 @@ mobile
 fenix
 /
 taskcluster
-/
 /
 mozilla
 -
