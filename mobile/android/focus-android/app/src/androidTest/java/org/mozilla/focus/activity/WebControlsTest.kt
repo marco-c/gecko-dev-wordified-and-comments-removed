@@ -764,7 +764,7 @@ clickCalendarForm
 selectDate
 (
 )
-clickFormViewButton
+clickButtonWithText
 (
 "
 OK
