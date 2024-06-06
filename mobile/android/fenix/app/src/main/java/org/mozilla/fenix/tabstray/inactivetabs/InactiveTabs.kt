@@ -620,6 +620,7 @@ Boolean
 onHeaderClick
 :
 (
+Boolean
 )
 -
 >
@@ -729,7 +730,13 @@ expanded
 expanded
 onClick
 =
+{
 onHeaderClick
+(
+!
+expanded
+)
+}
 onDeleteAllClick
 =
 onDeleteAllButtonClick
