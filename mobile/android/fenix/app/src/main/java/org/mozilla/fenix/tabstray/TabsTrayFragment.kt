@@ -1348,6 +1348,11 @@ store
 browserInteractor
 syncedTabsTrayInteractor
 trayInteractor
+requireComponents
+.
+core
+.
+store
 )
 isUserInputEnabled
 =
