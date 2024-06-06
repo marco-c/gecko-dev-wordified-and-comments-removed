@@ -263,9 +263,10 @@ android
 background
 =
 "
-color
+?
+attr
 /
-off_white
+toolbarColor
 "
 android
 :
