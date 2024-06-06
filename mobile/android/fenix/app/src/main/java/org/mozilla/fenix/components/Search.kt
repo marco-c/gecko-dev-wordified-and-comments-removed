@@ -147,6 +147,10 @@ SearchEngineManager
 .
 apply
 {
+registerForLocaleUpdates
+(
+context
+)
 GlobalScope
 .
 launch
