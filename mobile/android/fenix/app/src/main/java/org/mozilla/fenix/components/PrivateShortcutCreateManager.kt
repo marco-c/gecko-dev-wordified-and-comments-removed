@@ -227,8 +227,6 @@ java
 )
 .
 pinnedShortcuts
-if
-(
 pinnedShortcuts
 .
 any
@@ -253,10 +251,6 @@ StartSearchIntentProcessor
 .
 PRIVATE_BROWSING_PINNED_SHORTCUT
 }
-)
-return
-true
-false
 }
 else
 false
