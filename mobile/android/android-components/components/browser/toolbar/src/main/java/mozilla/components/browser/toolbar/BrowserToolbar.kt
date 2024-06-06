@@ -3867,6 +3867,10 @@ input
 urlView
 .
 originalText
+.
+lowercase
+(
+)
 )
 {
 urlView
