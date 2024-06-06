@@ -295,9 +295,9 @@ fenix
 .
 shopping
 .
-ext
+store
 .
-displayName
+ReviewQualityCheckState
 import
 org
 .
@@ -307,9 +307,11 @@ fenix
 .
 shopping
 .
-store
+ui
 .
-ReviewQualityCheckState
+ext
+.
+displayName
 import
 org
 .
