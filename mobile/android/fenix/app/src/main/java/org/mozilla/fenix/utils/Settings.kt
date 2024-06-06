@@ -2020,7 +2020,7 @@ pref_key_fxa_signed_in
 )
 default
 =
-true
+false
 )
 var
 fxaHasSyncedItems
@@ -2039,7 +2039,7 @@ pref_key_fxa_has_synced_items
 )
 default
 =
-true
+false
 )
 var
 lastPlacesStorageMaintenance
