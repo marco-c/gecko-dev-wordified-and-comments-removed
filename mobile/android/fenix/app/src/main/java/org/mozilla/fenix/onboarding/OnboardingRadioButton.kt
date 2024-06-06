@@ -418,9 +418,9 @@ setTextColor
 context
 R
 .
-color
+attr
 .
-primary_state_list_text_color
+primaryText
 )
 builder
 .
@@ -462,9 +462,9 @@ setTextColor
 context
 R
 .
-color
+attr
 .
-secondary_state_list_text_color
+secondaryText
 )
 builder
 .
