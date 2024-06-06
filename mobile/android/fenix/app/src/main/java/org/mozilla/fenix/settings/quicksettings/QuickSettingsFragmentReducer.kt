@@ -88,6 +88,7 @@ Fragment
 .
 *
 /
+internal
 fun
 quickSettingsFragmentReducer
 (
