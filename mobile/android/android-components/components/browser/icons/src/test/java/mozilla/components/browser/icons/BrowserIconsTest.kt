@@ -469,7 +469,7 @@ https
 /
 www
 .
-mozilla
+mozilla_test
 .
 org
 "
