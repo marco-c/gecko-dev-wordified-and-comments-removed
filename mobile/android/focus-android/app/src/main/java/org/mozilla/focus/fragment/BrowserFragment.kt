@@ -1746,6 +1746,9 @@ downloadsUseCases
 fragmentManager
 =
 childFragmentManager
+tabId
+=
+tabId
 downloadManager
 =
 FetchDownloadManager
