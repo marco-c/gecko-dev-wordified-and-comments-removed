@@ -656,6 +656,9 @@ FLANK_BIN
 echo
 wget
 URL_FLANK_BIN
+-
+O
+FLANK_BIN
 echo
 echo
 "
