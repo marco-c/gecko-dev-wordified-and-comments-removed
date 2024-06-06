@@ -334,6 +334,15 @@ FennecToFenixMigrated
 "
 E_Fennec_To_Fenix_Migrated
 "
+is
+Event
+.
+AddonInstalled
+-
+>
+"
+E_Addon_Installed
+"
 /
 /
 Do
@@ -346,8 +355,7 @@ Leanplum
 else
 -
 >
-"
-"
+null
 }
 class
 LeanplumMetricsService

@@ -4873,6 +4873,13 @@ FennecToFenixMigrated
 -
 >
 null
+is
+Event
+.
+AddonInstalled
+-
+>
+null
 }
 class
 GleanMetricsService
