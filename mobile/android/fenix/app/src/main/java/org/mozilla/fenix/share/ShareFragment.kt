@@ -1048,7 +1048,7 @@ await
 )
 shareToAppsView
 .
-setSharetargets
+setShareTargets
 (
 appsToShareTo
 )
