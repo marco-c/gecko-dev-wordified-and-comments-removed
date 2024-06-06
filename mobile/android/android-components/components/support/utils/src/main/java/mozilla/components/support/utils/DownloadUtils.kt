@@ -1547,7 +1547,7 @@ GENERIC_CONTENT_TYPES
 .
 contains
 (
-mimeType
+sanitizedMimeType
 )
 )
 {
