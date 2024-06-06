@@ -360,7 +360,7 @@ openSettings
 verifyEnhancedTrackingProtectionButton
 (
 )
-verifyEnhancedTrackingProtectionValue
+verifyEnhancedTrackingProtectionState
 (
 "
 On
