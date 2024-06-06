@@ -259,9 +259,6 @@ History
 .
 Metadata
 (
-id
-=
-0
 title
 =
 "

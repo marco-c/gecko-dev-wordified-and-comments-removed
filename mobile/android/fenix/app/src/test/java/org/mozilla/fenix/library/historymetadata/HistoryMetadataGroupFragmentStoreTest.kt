@@ -153,9 +153,6 @@ History
 .
 Metadata
 (
-id
-=
-0
 title
 =
 "
@@ -203,9 +200,6 @@ History
 .
 Metadata
 (
-id
-=
-0
 title
 =
 "

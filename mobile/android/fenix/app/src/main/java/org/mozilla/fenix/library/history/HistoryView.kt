@@ -514,7 +514,9 @@ notifyItemChanged
 (
 item
 .
-id
+position
+!
+!
 )
 }
 }

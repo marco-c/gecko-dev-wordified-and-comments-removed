@@ -346,12 +346,12 @@ Boolean
 =
 oldItem
 .
-id
+position
 =
 =
 newItem
 .
-id
+position
 override
 fun
 areItemsTheSame

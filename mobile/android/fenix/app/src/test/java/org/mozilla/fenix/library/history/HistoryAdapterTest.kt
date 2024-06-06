@@ -120,9 +120,6 @@ History
 .
 Regular
 (
-id
-=
-1
 title
 =
 "
@@ -192,9 +189,6 @@ History
 .
 Regular
 (
-id
-=
-1
 title
 =
 "
@@ -298,9 +292,6 @@ History
 .
 Regular
 (
-id
-=
-1
 title
 =
 "
@@ -398,9 +389,6 @@ History
 .
 Regular
 (
-id
-=
-1
 title
 =
 "
@@ -504,9 +492,6 @@ History
 .
 Regular
 (
-id
-=
-1
 title
 =
 "
@@ -613,9 +598,6 @@ History
 .
 Regular
 (
-id
-=
-1
 title
 =
 "
@@ -688,9 +670,6 @@ History
 .
 Regular
 (
-id
-=
-1
 title
 =
 "
@@ -765,9 +744,6 @@ History
 .
 Regular
 (
-id
-=
-1
 title
 =
 "
@@ -842,9 +818,6 @@ History
 .
 Regular
 (
-id
-=
-1
 title
 =
 "
@@ -919,9 +892,6 @@ History
 .
 Regular
 (
-id
-=
-1
 title
 =
 "
@@ -995,9 +965,6 @@ History
 .
 Regular
 (
-id
-=
-1
 title
 =
 "
@@ -1069,9 +1036,6 @@ History
 .
 Regular
 (
-id
-=
-1
 title
 =
 "
@@ -1131,9 +1095,6 @@ History
 .
 Regular
 (
-id
-=
-1
 title
 =
 "
