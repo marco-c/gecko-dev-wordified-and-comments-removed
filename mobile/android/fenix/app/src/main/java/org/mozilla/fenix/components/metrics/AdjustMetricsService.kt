@@ -130,12 +130,6 @@ mozilla
 fenix
 .
 Config
-import
-java
-.
-lang
-.
-IllegalStateException
 class
 AdjustMetricsService
 (

@@ -1,11 +1,3 @@
-package
-org
-.
-mozilla
-.
-fenix
-.
-exceptions
 /
 *
 This
@@ -64,6 +56,14 @@ MPL
 .
 *
 /
+package
+org
+.
+mozilla
+.
+fenix
+.
+exceptions
 import
 android
 .

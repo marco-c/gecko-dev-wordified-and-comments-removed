@@ -1,13 +1,3 @@
-package
-org
-.
-mozilla
-.
-fenix
-.
-search
-.
-awesomebar
 /
 *
 This
@@ -23,6 +13,7 @@ of
 the
 Mozilla
 Public
+*
 License
 v
 .
@@ -41,6 +32,7 @@ not
 distributed
 with
 this
+*
 file
 You
 can
@@ -64,6 +56,16 @@ MPL
 .
 *
 /
+package
+org
+.
+mozilla
+.
+fenix
+.
+search
+.
+awesomebar
 import
 android
 .

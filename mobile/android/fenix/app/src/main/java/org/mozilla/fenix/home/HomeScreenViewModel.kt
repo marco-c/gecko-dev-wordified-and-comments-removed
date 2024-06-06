@@ -1,11 +1,3 @@
-package
-org
-.
-mozilla
-.
-fenix
-.
-home
 /
 *
 This
@@ -21,6 +13,7 @@ of
 the
 Mozilla
 Public
+*
 License
 v
 .
@@ -39,6 +32,7 @@ not
 distributed
 with
 this
+*
 file
 You
 can
@@ -62,6 +56,14 @@ MPL
 .
 *
 /
+package
+org
+.
+mozilla
+.
+fenix
+.
+home
 import
 android
 .
