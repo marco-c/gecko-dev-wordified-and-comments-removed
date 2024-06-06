@@ -715,7 +715,7 @@ UnusedResources
 severity
 =
 "
-warning
+error
 "
 /
 >
