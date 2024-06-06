@@ -15181,8 +15181,7 @@ name
 tab_drawer_fab_sync
 "
 >
-Synchroniz
-cia
+Synchronizova
 <
 /
 string
@@ -24792,9 +24791,9 @@ name
 sign_in_ready_for_scan
 "
 >
-Skenovanie
-je
-pripraven
+Pripraven
+na
+skenovanie
 <
 /
 string
