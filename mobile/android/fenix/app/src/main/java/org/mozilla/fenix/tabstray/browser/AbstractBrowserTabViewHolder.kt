@@ -668,7 +668,7 @@ play_pause_button
 )
 abstract
 val
-browserTrayInteractor
+interactor
 :
 BrowserTrayInteractor
 abstract
@@ -797,7 +797,7 @@ setSelectionInteractor
 (
 tab
 selectionHolder
-browserTrayInteractor
+interactor
 )
 }
 else
@@ -806,7 +806,7 @@ itemView
 .
 setOnClickListener
 {
-browserTrayInteractor
+interactor
 .
 onTabSelected
 (

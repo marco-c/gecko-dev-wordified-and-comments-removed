@@ -225,7 +225,7 @@ true
 )
 private
 val
-browserTrayInteractor
+interactor
 :
 BrowserTrayInteractor
 =
@@ -323,7 +323,7 @@ FloatingActionButtonBinding
 (
 tabsTrayStore
 actionButton
-browserTrayInteractor
+interactor
 )
 fabBinding
 .
@@ -422,7 +422,7 @@ FloatingActionButtonBinding
 (
 tabsTrayStore
 actionButton
-browserTrayInteractor
+interactor
 )
 fabBinding
 .
@@ -521,7 +521,7 @@ FloatingActionButtonBinding
 (
 tabsTrayStore
 actionButton
-browserTrayInteractor
+interactor
 )
 fabBinding
 .
@@ -616,7 +616,7 @@ FloatingActionButtonBinding
 (
 tabsTrayStore
 actionButton
-browserTrayInteractor
+interactor
 )
 fabBinding
 .

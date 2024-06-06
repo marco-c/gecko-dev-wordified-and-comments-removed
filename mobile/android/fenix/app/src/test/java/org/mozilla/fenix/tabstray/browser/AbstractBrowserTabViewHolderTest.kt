@@ -1080,7 +1080,7 @@ store
 BrowserStore
 override
 val
-browserTrayInteractor
+interactor
 :
 BrowserTrayInteractor
 featureName

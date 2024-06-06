@@ -288,7 +288,7 @@ lifecycleOwner
 tabsTrayStore
 =
 tabsTrayStore
-inactiveTabsInteractor
+interactor
 =
 inactiveTabsInteractor
 )

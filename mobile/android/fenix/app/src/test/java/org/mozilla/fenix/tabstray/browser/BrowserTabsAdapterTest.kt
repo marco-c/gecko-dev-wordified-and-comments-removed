@@ -512,7 +512,7 @@ imageLoader
 mockk
 (
 )
-browserTrayInteractor
+interactor
 =
 interactor
 store

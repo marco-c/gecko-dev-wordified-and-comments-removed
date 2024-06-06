@@ -252,7 +252,7 @@ thumbnails
 .
 *
 param
-browserTrayInteractor
+interactor
 [
 BrowserTrayInteractor
 ]
@@ -351,7 +351,7 @@ imageLoader
 ImageLoader
 override
 val
-browserTrayInteractor
+interactor
 :
 BrowserTrayInteractor
 store
@@ -566,7 +566,7 @@ thumbnails
 .
 *
 param
-browserTrayInteractor
+interactor
 [
 BrowserTrayInteractor
 ]
@@ -665,7 +665,7 @@ imageLoader
 ImageLoader
 override
 val
-browserTrayInteractor
+interactor
 :
 BrowserTrayInteractor
 store

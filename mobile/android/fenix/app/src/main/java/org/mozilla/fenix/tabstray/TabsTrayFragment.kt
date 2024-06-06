@@ -1802,7 +1802,7 @@ actionButton
 fabButtonBinding
 .
 newTabButton
-browserTrayInteractor
+interactor
 =
 browserTrayInteractor
 )

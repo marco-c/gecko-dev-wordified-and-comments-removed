@@ -97,14 +97,6 @@ coroutines
 .
 flow
 .
-collect
-import
-kotlinx
-.
-coroutines
-.
-flow
-.
 map
 import
 mozilla
@@ -198,7 +190,7 @@ actionButton
 ExtendedFloatingActionButton
 private
 val
-browserTrayInteractor
+interactor
 :
 BrowserTrayInteractor
 )
@@ -318,7 +310,7 @@ ic_new
 )
 setOnClickListener
 {
-browserTrayInteractor
+interactor
 .
 onFabClicked
 (
@@ -373,7 +365,7 @@ ic_new
 )
 setOnClickListener
 {
-browserTrayInteractor
+interactor
 .
 onFabClicked
 (
