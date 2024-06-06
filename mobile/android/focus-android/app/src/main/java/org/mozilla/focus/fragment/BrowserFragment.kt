@@ -2118,6 +2118,11 @@ DownloadService
 :
 :
 class
+notificationsDelegate
+=
+components
+.
+notificationsDelegate
 )
 onNeedToRequestPermissions
 =

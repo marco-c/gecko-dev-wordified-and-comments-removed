@@ -906,6 +906,11 @@ DownloadService
 :
 :
 class
+notificationsDelegate
+=
+components
+.
+notificationsDelegate
 )
 tabId
 =

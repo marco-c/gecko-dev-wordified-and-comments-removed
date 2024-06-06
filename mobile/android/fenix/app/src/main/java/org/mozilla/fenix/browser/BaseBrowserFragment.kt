@@ -3306,6 +3306,13 @@ DownloadService
 :
 :
 class
+notificationsDelegate
+=
+context
+.
+components
+.
+notificationsDelegate
 )
 shouldForwardToThirdParties
 =
