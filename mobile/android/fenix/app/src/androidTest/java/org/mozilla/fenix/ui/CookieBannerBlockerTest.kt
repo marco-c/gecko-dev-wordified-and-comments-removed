@@ -145,6 +145,16 @@ mozilla
 .
 fenix
 .
+helpers
+.
+TestSetup
+import
+org
+.
+mozilla
+.
+fenix
+.
 ui
 .
 robots
@@ -182,6 +192,10 @@ functionality
 /
 class
 CookieBannerBlockerTest
+:
+TestSetup
+(
+)
 {
 get
 :
