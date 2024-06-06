@@ -603,6 +603,8 @@ x86
 -
 start
 -
+nightly
+-
 test
 "
 ]
