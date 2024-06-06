@@ -152,7 +152,7 @@ Long
 =
 TestAssetHelper
 .
-waitingTimeShort
+waitingTime
 )
 =
 assertNotNull
