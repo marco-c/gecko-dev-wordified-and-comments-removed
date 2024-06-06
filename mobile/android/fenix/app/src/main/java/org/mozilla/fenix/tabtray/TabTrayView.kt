@@ -2420,7 +2420,7 @@ R
 .
 dimen
 .
-tab_tray_normal_handle_height
+bottom_sheet_handle_height
 }
 )
 topMargin
@@ -2448,7 +2448,7 @@ R
 .
 dimen
 .
-tab_tray_normal_handle_top_margin
+bottom_sheet_handle_top_margin
 }
 )
 }
