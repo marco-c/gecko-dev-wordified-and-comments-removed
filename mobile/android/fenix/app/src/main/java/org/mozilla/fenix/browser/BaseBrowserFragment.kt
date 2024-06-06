@@ -3048,13 +3048,6 @@ context
 downloadState
 =
 downloadState
-metrics
-=
-requireComponents
-.
-analytics
-.
-metrics
 didFail
 =
 downloadJobStatus
@@ -3091,8 +3084,7 @@ viewDynamicDownloadDialog
 toolbarHeight
 =
 toolbarHeight
-onDismiss
-=
+)
 {
 sharedViewModel
 .
@@ -3105,7 +3097,6 @@ downloadState
 sessionId
 )
 }
-)
 dynamicDownloadDialog
 .
 show
@@ -4770,13 +4761,6 @@ downloadState
 savedDownloadState
 .
 first
-metrics
-=
-requireComponents
-.
-analytics
-.
-metrics
 didFail
 =
 savedDownloadState
