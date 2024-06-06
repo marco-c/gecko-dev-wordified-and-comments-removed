@@ -123,6 +123,8 @@ settings
 .
 ManualAddSearchEngineSettingsFragment
 .
+Companion
+.
 isValidSearchQueryURL
 RunWith
 (

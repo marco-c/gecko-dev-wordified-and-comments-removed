@@ -936,8 +936,8 @@ DE_MIGHT_IGNORE
 "
 )
 WorkerThread
+JvmStatic
 VisibleForTesting
-private
 fun
 isValidSearchQueryURL
 (
