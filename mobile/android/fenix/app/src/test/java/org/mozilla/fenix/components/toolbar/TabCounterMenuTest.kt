@@ -324,9 +324,9 @@ menu
 .
 menuItems
 (
-showOnly
-=
-null
+ToolbarPosition
+.
+BOTTOM
 )
 assertEquals
 (
@@ -604,9 +604,9 @@ menu
 .
 menuItems
 (
-showOnly
-=
-null
+ToolbarPosition
+.
+TOP
 )
 assertEquals
 (

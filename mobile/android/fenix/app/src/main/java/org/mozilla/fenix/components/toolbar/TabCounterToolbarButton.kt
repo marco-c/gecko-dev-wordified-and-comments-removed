@@ -311,6 +311,16 @@ components
 analytics
 .
 metrics
+val
+settings
+=
+parent
+.
+context
+.
+components
+.
+settings
 store
 .
 flowScoped
@@ -368,6 +378,9 @@ menu
 .
 updateMenu
 (
+settings
+.
+toolbarPosition
 )
 val
 view
