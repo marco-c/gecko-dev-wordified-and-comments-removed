@@ -35758,6 +35758,9 @@ extra_keys
 :
 setting
 :
+type
+:
+string
 description
 :
 |
