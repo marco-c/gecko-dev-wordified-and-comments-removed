@@ -307,7 +307,7 @@ fennec_aurora
 "
 const
 val
-YOUTUBE_URL
+GOOGLE_URL
 =
 "
 https
@@ -316,7 +316,7 @@ https
 /
 www
 .
-youtube
+google
 .
 com
 /

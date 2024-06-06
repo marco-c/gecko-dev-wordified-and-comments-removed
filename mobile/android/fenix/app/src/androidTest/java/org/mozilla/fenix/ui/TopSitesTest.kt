@@ -748,7 +748,7 @@ Articles
 Wikipedia
 "
 "
-YouTube
+Google
 "
 )
 homeScreen

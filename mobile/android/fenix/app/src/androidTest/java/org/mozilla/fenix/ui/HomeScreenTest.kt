@@ -318,14 +318,14 @@ Wikipedia
 verifyExistingTopSitesTabs
 (
 "
-YouTube
+Top
+Articles
 "
 )
 verifyExistingTopSitesTabs
 (
 "
-Top
-Articles
+Google
 "
 )
 }

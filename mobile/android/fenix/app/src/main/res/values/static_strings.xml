@@ -377,13 +377,13 @@ Default
 title
 for
 pinned
-YouTube
+Google
 top
 site
 that
 links
 to
-Youtube
+Google
 home
 page
 -
@@ -394,7 +394,7 @@ string
 name
 =
 "
-default_top_site_youtube
+default_top_site_google
 "
 translatable
 =
@@ -402,7 +402,7 @@ translatable
 false
 "
 >
-YouTube
+Google
 <
 /
 string
