@@ -468,6 +468,11 @@ AutoTransition
 )
 init
 {
+job
+=
+Job
+(
+)
 transition
 .
 duration
