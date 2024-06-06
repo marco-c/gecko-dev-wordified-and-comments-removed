@@ -3224,6 +3224,15 @@ MetricServiceType
 .
 Data
 )
+components
+.
+analytics
+.
+crashFactCollector
+.
+start
+(
+)
 }
 if
 (
