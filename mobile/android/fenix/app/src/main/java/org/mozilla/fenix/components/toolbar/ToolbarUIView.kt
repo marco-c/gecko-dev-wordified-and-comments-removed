@@ -567,17 +567,6 @@ isCustom
 CustomTabToolbarMenu
 (
 this
-requestDesktopStateProvider
-=
-{
-session
-?
-.
-desktopMode
-?
-:
-false
-}
 onItemTapped
 =
 {
