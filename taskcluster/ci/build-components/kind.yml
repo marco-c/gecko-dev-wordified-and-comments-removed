@@ -920,6 +920,13 @@ promote
 default
 :
 build
+shipping
+-
+product
+:
+firefox
+-
+android
 treeherder
 :
 kind
