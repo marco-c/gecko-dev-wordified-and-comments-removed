@@ -39,6 +39,12 @@ transforms
 base
 import
 TransformSequence
+from
+taskgraph
+.
+util
+import
+path
 transforms
 =
 TransformSequence
@@ -948,7 +954,18 @@ append
 "
 cd
 "
+path
+.
+join
+(
+"
+mobile
+"
+"
+android
+"
 source_project_name
+)
 ]
 )
         
