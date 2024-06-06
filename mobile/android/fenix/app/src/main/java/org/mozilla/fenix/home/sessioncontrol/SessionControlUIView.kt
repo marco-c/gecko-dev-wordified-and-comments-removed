@@ -195,6 +195,10 @@ TabHeader
 )
 tabs
 .
+reversed
+(
+)
+.
 map
 (
 AdapterItem
