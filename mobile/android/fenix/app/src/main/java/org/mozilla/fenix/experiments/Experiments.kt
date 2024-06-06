@@ -96,6 +96,17 @@ list
 -
 icon
 "
+const
+val
+ANDROID_KEYSTORE
+=
+"
+fenix
+-
+android
+-
+keystore
+"
 }
 }
 class
