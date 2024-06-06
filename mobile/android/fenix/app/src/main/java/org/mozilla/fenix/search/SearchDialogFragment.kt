@@ -1685,13 +1685,6 @@ searchWrapper
 hideKeyboard
 (
 )
-toolbarView
-.
-view
-.
-clearFocus
-(
-)
 false
 }
 }
