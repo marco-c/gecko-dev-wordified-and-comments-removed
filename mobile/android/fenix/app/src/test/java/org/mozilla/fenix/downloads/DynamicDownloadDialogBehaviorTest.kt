@@ -361,7 +361,7 @@ is
 more
 than
 50
-%
+percent
 visible
 (
 )

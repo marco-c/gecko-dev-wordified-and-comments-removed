@@ -2321,9 +2321,9 @@ fun
 getShareSubject
 will
 return
-"
+'
 shareSubject
-"
+'
 if
 that
 is
@@ -2353,9 +2353,9 @@ of
 tab
 titles
 if
-"
+'
 shareSubject
-"
+'
 is
 null
 (
