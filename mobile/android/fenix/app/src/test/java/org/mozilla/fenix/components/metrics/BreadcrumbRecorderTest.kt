@@ -230,6 +230,16 @@ override
 fun
 report
 (
+throwable
+:
+Throwable
+)
+{
+}
+override
+fun
+report
+(
 crash
 :
 Crash
