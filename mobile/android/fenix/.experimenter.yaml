@@ -239,13 +239,13 @@ enum
 -
 show
 -
-next
--
-message
+none
 -
 show
 -
-none
+next
+-
+message
 styles
 :
 type
