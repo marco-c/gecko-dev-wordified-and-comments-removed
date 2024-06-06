@@ -157,10 +157,6 @@ leakcanary
 2
 .
 0
--
-beta
--
-3
 "
 const
 val
