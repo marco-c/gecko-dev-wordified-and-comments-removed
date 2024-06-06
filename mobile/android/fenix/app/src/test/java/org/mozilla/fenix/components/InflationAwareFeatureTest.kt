@@ -29,7 +29,7 @@ base
 .
 feature
 .
-BackHandler
+UserInteractionHandler
 import
 mozilla
 .
@@ -389,7 +389,7 @@ if
 feature
 has
 implemented
-BackHandler
+UserInteractionHandler
 invoke
 it
 (
@@ -424,12 +424,12 @@ mock
 (
 )
 val
-backHandlerFeature
+userInteractionHandlerFeature
 =
 object
 :
 LifecycleAwareFeature
-BackHandler
+UserInteractionHandler
 {
 override
 fun
@@ -480,7 +480,7 @@ inflationFeature
 .
 feature
 =
-backHandlerFeature
+userInteractionHandlerFeature
 assert
 (
 inflationFeature

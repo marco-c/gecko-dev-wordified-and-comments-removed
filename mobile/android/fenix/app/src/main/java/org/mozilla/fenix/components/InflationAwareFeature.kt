@@ -369,12 +369,13 @@ feature
 also
 implements
 [
-BackHandler
+UserInteractionHandler
 ]
 and
 the
 feature
 has
+*
 been
 initiated
 .
