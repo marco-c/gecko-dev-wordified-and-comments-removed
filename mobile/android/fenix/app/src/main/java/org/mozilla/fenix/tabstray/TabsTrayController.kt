@@ -245,13 +245,9 @@ Profiler
 ?
 private
 val
-dismissTabTray
+navigationInteractor
 :
-(
-)
--
->
-Unit
+NavigationInteractor
 private
 val
 metrics
@@ -312,7 +308,9 @@ focusOnAddressBar
 true
 )
 )
-dismissTabTray
+navigationInteractor
+.
+onTabTrayDismissed
 (
 )
 profiler
