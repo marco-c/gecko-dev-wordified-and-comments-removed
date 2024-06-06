@@ -505,6 +505,8 @@ Dispatchers
 Main
 )
 {
+runIfFragmentIsAttached
+{
 val
 adapter
 =
@@ -542,6 +544,7 @@ adapter
 adapter
 }
 }
+}
 catch
 (
 e
@@ -557,6 +560,8 @@ Dispatchers
 .
 Main
 )
+{
+runIfFragmentIsAttached
 {
 showSnackBar
 (
@@ -584,6 +589,7 @@ add_ons_empty_message
 isVisible
 =
 true
+}
 }
 }
 }
