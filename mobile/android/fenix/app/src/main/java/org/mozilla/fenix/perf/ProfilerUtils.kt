@@ -337,6 +337,9 @@ WrWorker
 "
 CanvasWorkers
 "
+"
+TextureUpdate
+"
 )
 private
 val
@@ -440,6 +443,9 @@ SwComposite
 "
 webrtc
 "
+"
+TextureUpdate
+"
 )
 private
 val
@@ -464,6 +470,9 @@ java
 "
 "
 processcpu
+"
+"
+bandwidth
 "
 "
 ipcmessages
