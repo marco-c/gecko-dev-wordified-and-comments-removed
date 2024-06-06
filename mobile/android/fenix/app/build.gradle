@@ -3774,10 +3774,6 @@ google_material
 implementation
 Deps
 .
-lottie
-implementation
-Deps
-.
 adjust
 implementation
 Deps
