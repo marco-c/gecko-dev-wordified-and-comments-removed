@@ -231,13 +231,6 @@ library_reading_list_icon
 "
 android
 :
-fillType
-=
-"
-nonZero
-"
-android
-:
 pathData
 =
 "
