@@ -3325,9 +3325,6 @@ core
 permissionStorage
 .
 permissionsStorage
-sessionManager
-=
-sessionManager
 fragmentManager
 =
 parentFragmentManager
@@ -3379,9 +3376,6 @@ shouldShowRequestPermissionRationale
 it
 )
 }
-customTabId
-=
-customTabSessionId
 store
 =
 store
