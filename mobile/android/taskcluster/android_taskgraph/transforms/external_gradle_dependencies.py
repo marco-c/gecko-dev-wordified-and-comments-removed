@@ -432,12 +432,11 @@ gradle_project
     
 if
 gradle_project
-in
-(
+=
+=
 "
 focus
 "
-)
 :
         
 project_dir
