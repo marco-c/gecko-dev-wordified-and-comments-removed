@@ -341,14 +341,6 @@ mozilla
 .
 fenix
 .
-FeatureFlags
-import
-org
-.
-mozilla
-.
-fenix
-.
 R
 import
 org
@@ -1718,11 +1710,6 @@ pref_key_sync_tabs
 .
 apply
 {
-isVisible
-=
-FeatureFlags
-.
-syncedTabs
 isEnabled
 =
 syncEnginesStatus
@@ -1744,9 +1731,7 @@ SyncEngine
 Tabs
 )
 {
-FeatureFlags
-.
-syncedTabs
+true
 }
 }
 }

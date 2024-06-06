@@ -1018,6 +1018,19 @@ setTopOffset
 (
 startingInLandscape
 )
+if
+(
+view
+.
+context
+.
+settings
+(
+)
+.
+syncedTabsInTabsTray
+)
+{
 syncedTabsFeature
 .
 set
@@ -1064,6 +1077,7 @@ view
 =
 view
 )
+}
 val
 concatAdapter
 =

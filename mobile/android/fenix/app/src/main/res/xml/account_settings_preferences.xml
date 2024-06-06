@@ -351,13 +351,6 @@ defaultValue
 "
 false
 "
-app
-:
-isPreferenceVisible
-=
-"
-false
-"
 android
 :
 key
