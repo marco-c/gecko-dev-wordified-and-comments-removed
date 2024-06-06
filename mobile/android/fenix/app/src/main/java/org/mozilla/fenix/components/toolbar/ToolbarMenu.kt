@@ -207,8 +207,15 @@ SyncedTabs
 Item
 (
 )
-object
+data
+class
 SyncAccount
+(
+val
+signedIn
+:
+Boolean
+)
 :
 Item
 (
