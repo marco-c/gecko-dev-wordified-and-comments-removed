@@ -271,16 +271,10 @@ JSONException
 null
 }
 }
-suspend
-fun
-remove
-(
-)
-{
-}
 companion
 object
 {
+const
 val
 STORAGE_FOLDER
 =
@@ -289,6 +283,7 @@ mobile
 -
 metrics
 "
+const
 val
 FILE_NAME
 =
