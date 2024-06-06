@@ -102,7 +102,7 @@ Pcoverage
 no
 -
 daemon
-jacocoTestFocusX86NightlyUnitTestReport
+jacocoFocusX86NightlyTestReport
 after_success
 :
 -
