@@ -1927,13 +1927,6 @@ name
 "
 tab_tray_inactive_onboarding_message
 "
-tools
-:
-ignore
-=
-"
-UnusedResources
-"
 >
 Tabs
 you
@@ -1977,13 +1970,6 @@ name
 =
 "
 tab_tray_inactive_onboarding_button_text
-"
-tools
-:
-ignore
-=
-"
-UnusedResources
 "
 >
 Turn
