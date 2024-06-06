@@ -369,7 +369,7 @@ Builder
 mySelection
 "
 trayList
-StableIdKeyProvider
+TabsItemKeyProvider
 (
 trayList
 )

@@ -123,16 +123,6 @@ components
 .
 browser
 .
-tabstray
-.
-TabViewHolder
-import
-mozilla
-.
-components
-.
-browser
-.
 thumbnails
 .
 loader
@@ -212,6 +202,16 @@ fenix
 tabstray
 .
 TabsTrayListViewHolder
+import
+org
+.
+mozilla
+.
+fenix
+.
+tabstray
+.
+TabsTrayViewHolder
 /
 *
 *
@@ -271,7 +271,7 @@ ObserverRegistry
 :
 TabsAdapter
 <
-TabViewHolder
+TabsTrayViewHolder
 >
 (
 delegate
@@ -394,7 +394,7 @@ viewType
 Int
 )
 :
-TabViewHolder
+TabsTrayViewHolder
 {
 return
 when
@@ -413,6 +413,7 @@ TabsTrayGridViewHolder
 (
 parent
 imageLoader
+interactor
 )
 else
 -
@@ -421,6 +422,7 @@ TabsTrayListViewHolder
 (
 parent
 imageLoader
+interactor
 )
 }
 }
@@ -444,7 +446,7 @@ onBindViewHolder
 (
 holder
 :
-TabViewHolder
+TabsTrayViewHolder
 position
 :
 Int
