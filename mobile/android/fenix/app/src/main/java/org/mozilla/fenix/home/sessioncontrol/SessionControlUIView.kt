@@ -516,6 +516,9 @@ OnboardingPrivateBrowsing
 AdapterItem
 .
 OnboardingPrivacyNotice
+AdapterItem
+.
+OnboardingFinish
 )
 private
 fun
