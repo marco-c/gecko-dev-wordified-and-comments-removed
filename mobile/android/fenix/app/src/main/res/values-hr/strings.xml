@@ -5974,7 +5974,7 @@ name
 preferences_sync_device_name
 "
 >
-Ime
+Naziv
 ure
 aja
 <
@@ -6004,14 +6004,14 @@ name
 empty_device_name_error
 "
 >
-Ime
+Naziv
 ure
 aja
 ne
 mo
 e
 biti
-prazno
+prazan
 .
 <
 /
