@@ -530,7 +530,7 @@ compose_version
 .
 5
 .
-1
+2
 "
 const
 val
