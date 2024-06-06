@@ -107,6 +107,16 @@ concept
 .
 storage
 .
+NewCreditCardFields
+import
+mozilla
+.
+components
+.
+concept
+.
+storage
+.
 UpdatableCreditCardFields
 import
 mozilla
@@ -226,7 +236,7 @@ handleSaveCreditCard
 (
 creditCardFields
 :
-UpdatableCreditCardFields
+NewCreditCardFields
 )
 /
 *
@@ -413,7 +423,7 @@ handleSaveCreditCard
 (
 creditCardFields
 :
-UpdatableCreditCardFields
+NewCreditCardFields
 )
 {
 lifecycleScope

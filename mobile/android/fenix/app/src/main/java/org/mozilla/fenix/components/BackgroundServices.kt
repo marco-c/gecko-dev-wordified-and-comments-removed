@@ -808,7 +808,7 @@ hours
 init
 {
 /
-*
+/
 Make
 the
 "
@@ -820,11 +820,12 @@ bookmark
 "
 passwords
 "
-and
 "
 tabs
 "
 stores
+/
+/
 accessible
 to
 workers
@@ -834,8 +835,6 @@ the
 sync
 manager
 .
-*
-/
 GlobalSyncableStoreProvider
 .
 configureStore

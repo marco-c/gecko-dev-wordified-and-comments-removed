@@ -77,6 +77,16 @@ concept
 .
 storage
 .
+NewCreditCardFields
+import
+mozilla
+.
+components
+.
+concept
+.
+storage
+.
 UpdatableCreditCardFields
 import
 org
@@ -236,7 +246,7 @@ param
 creditCardFields
 A
 [
-UpdatableCreditCardFields
+NewCreditCardFields
 ]
 record
 to
@@ -249,7 +259,7 @@ onSaveCreditCard
 (
 creditCardFields
 :
-UpdatableCreditCardFields
+NewCreditCardFields
 )
 /
 *
@@ -405,7 +415,7 @@ onSaveCreditCard
 (
 creditCardFields
 :
-UpdatableCreditCardFields
+NewCreditCardFields
 )
 {
 controller
