@@ -1801,6 +1801,11 @@ settings
 )
 .
 passwordsEncryptionKeyGenerated
+&
+&
+isSentryEnabled
+(
+)
 )
 {
 /
