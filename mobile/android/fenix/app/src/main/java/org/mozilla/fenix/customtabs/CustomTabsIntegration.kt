@@ -73,12 +73,6 @@ Activity
 import
 android
 .
-content
-.
-Context
-import
-android
-.
 view
 .
 Gravity
@@ -235,9 +229,6 @@ ThemeManager
 class
 CustomTabsIntegration
 (
-context
-:
-Context
 sessionManager
 :
 SessionManager
@@ -250,7 +241,6 @@ String
 activity
 :
 Activity
-?
 quickActionbar
 :
 NestedScrollView
@@ -393,7 +383,7 @@ LottieCompositionFactory
 .
 fromRawRes
 (
-context
+activity
 ThemeManager
 .
 resolveAttribute
@@ -403,7 +393,7 @@ R
 attr
 .
 shieldLottieFile
-context
+activity
 )
 )
 task
@@ -428,7 +418,7 @@ toolbar
 .
 displayTrackingProtectionIcon
 =
-context
+activity
 .
 settings
 .
@@ -453,7 +443,7 @@ AppCompatResources
 .
 getDrawable
 (
-context
+activity
 R
 .
 drawable
@@ -471,7 +461,7 @@ AppCompatResources
 .
 getDrawable
 (
-context
+activity
 R
 .
 drawable
@@ -491,7 +481,7 @@ lazy
 {
 CustomTabToolbarMenu
 (
-context
+activity
 sessionManager
 sessionId
 onItemTapped
@@ -519,14 +509,12 @@ START_OF_MENU_ITEMS_INDEX
 window
 =
 activity
-?
 .
 window
 closeListener
 =
 {
 activity
-?
 .
 finish
 (
