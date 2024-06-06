@@ -1098,17 +1098,6 @@ fail
 override
 suspend
 fun
-prune
-(
-)
-{
-fail
-(
-)
-}
-override
-suspend
-fun
 runMaintenance
 (
 dbSizeLimit
