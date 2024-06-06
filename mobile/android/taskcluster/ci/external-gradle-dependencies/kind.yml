@@ -346,6 +346,10 @@ failure
 #
 Download
 errors
+-
+42
+#
+Hangs
 worker
 -
 type
