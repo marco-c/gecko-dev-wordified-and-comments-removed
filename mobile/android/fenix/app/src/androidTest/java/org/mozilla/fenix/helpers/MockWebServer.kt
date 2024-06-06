@@ -408,9 +408,9 @@ fenix
 .
 ui
 .
-NavigationToolbarTest
+BookmarksTest
 .
-visitURLTest
+verifyBookmarkButtonTest
 ]
 *
 /
