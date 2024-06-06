@@ -1457,7 +1457,7 @@ from
 =
 BrowserDirection
 .
-FromSearch
+FromSearchDialog
 )
 }
 inflated
@@ -2020,7 +2020,7 @@ from
 =
 BrowserDirection
 .
-FromSearch
+FromSearchDialog
 )
 dialog
 .
