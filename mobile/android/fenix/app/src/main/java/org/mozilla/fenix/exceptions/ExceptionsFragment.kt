@@ -500,8 +500,9 @@ deleteIndividualTrackingProtectionExceptions
 {
 trackingProtectionUseCases
 .
-removeAllExceptions
+removeException
 (
+item
 )
 }
 Log
