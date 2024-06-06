@@ -205,14 +205,7 @@ components
 .
 core
 .
-asyncPasswordsStorage
-this
-.
-components
-.
-core
-.
-passwordsEncryptionKey
+passwordsStorage
 )
 .
 migrateFxa
@@ -275,9 +268,9 @@ MigrationPushRenewer
 (
 components
 .
-backgroundServices
-.
 push
+.
+feature
 components
 .
 migrationStore
