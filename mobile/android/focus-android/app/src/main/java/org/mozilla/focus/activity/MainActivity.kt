@@ -1823,16 +1823,6 @@ SafeIntent
 )
 {
 val
-fromShortcut
-=
-intent
-.
-getBooleanExtra
-(
-EXTRA_SHORTCUT
-false
-)
-val
 fromNotificationAction
 =
 intent

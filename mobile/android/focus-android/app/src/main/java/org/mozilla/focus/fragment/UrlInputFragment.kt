@@ -2992,6 +2992,12 @@ onSearch
 query
 :
 String
+Suppress
+(
+"
+UNUSED_PARAMETER
+"
+)
 isSuggestion
 :
 Boolean

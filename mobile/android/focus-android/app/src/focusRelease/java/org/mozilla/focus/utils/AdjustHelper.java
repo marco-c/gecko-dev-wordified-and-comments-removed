@@ -89,7 +89,7 @@ focus
 .
 telemetry
 .
-TelemetryWrapper
+GleanMetricsService
 ;
 public
 class
@@ -135,7 +135,7 @@ build
 if
 (
 !
-TelemetryWrapper
+GleanMetricsService
 .
 isTelemetryEnabled
 (
