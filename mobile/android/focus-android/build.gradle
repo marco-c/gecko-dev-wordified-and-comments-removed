@@ -64,7 +64,7 @@ kotlin_version
 .
 2
 .
-21
+30
 '
 repositories
 {
@@ -278,7 +278,7 @@ version
 .
 2
 .
-0
+30
 "
 }
 detekt
