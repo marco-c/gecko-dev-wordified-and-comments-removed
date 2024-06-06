@@ -3482,13 +3482,6 @@ about
 .
 AboutFragment
 "
-android
-:
-label
-=
-"
-AboutFragment
-"
 >
 <
 action
