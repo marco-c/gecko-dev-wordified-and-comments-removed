@@ -149,6 +149,16 @@ new
 ?
 url
 =
+%
+s
+&
+label
+=
+browser
+-
+focus
+-
+geckoview
 "
 ;
 public

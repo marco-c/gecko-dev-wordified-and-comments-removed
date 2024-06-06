@@ -5803,8 +5803,12 @@ SupportUtils
 .
 REPORT_SITE_ISSUE_URL
 .
-concat
+replace
 (
+"
+%
+s
+"
 getUrl
 (
 )
