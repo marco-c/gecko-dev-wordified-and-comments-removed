@@ -1349,9 +1349,12 @@ creditCard
 billingName
 cardNumber
 =
-creditCard
+CreditCardNumber
 .
-encryptedCardNumber
+Plaintext
+(
+cardNumber
+)
 cardNumberLast4
 =
 creditCard
