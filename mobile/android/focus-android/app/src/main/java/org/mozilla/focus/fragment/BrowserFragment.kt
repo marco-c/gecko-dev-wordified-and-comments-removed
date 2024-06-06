@@ -3506,6 +3506,9 @@ download_snackbar_open
 )
 )
 {
+context
+-
+>
 val
 opened
 =
@@ -3515,9 +3518,7 @@ openFile
 (
 applicationContext
 =
-requireContext
-(
-)
+context
 .
 applicationContext
 download
