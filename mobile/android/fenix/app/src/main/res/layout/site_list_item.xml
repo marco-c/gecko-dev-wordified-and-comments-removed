@@ -133,5 +133,14 @@ layout_height
 "
 wrap_content
 "
+android
+:
+minHeight
+=
+"
+dimen
+/
+mozac_widget_site_item_height
+"
 /
 >
