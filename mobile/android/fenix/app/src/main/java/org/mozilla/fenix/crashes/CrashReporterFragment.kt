@@ -508,6 +508,11 @@ context
 )
 .
 isCrashReportingEnabled
+&
+&
+send_crash_checkbox
+.
+isChecked
 )
 {
 requireComponents
