@@ -251,12 +251,12 @@ AppShareOption
 =
 oldItem
 .
-packageName
+activityName
 =
 =
 newItem
 .
-packageName
+activityName
 override
 fun
 areContentsTheSame

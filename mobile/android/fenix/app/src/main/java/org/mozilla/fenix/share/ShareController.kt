@@ -596,7 +596,7 @@ updateRecentApp
 (
 app
 .
-packageName
+activityName
 )
 }
 val

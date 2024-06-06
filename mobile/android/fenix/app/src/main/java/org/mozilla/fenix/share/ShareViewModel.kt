@@ -680,7 +680,7 @@ app
 >
 app
 .
-packageName
+activityName
 }
 )
 val
@@ -828,12 +828,12 @@ if
 (
 recentApp
 .
-packageName
+activityName
 =
 =
 app
 .
-packageName
+activityName
 )
 {
 result
