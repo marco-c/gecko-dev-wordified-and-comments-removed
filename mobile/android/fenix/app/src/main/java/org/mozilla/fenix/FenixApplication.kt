@@ -5254,6 +5254,14 @@ if
 FeatureFlags
 .
 showWallpapers
+&
+&
+FeatureFlags
+.
+isThemedWallpapersFeatureEnabled
+(
+this
+)
 )
 {
 GlobalScope
