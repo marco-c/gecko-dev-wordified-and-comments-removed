@@ -601,7 +601,7 @@ android
 layout_height
 =
 "
-wrap_content
+40dp
 "
 android
 :
