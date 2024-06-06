@@ -1060,6 +1060,7 @@ viewTrackingContentBlockList
 )
 }
 }
+SmokeTest
 Test
 fun
 blockCookiesStorageAccessTest
@@ -1167,6 +1168,7 @@ denied
 )
 }
 }
+SmokeTest
 Test
 fun
 allowCookiesStorageAccessTest
