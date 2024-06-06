@@ -106,6 +106,9 @@ Fragment
 .
 requestInPlacePermissions
 (
+requestKey
+:
+String
 permissionsToRequest
 :
 Array
@@ -134,9 +137,7 @@ activityResultRegistry
 .
 register
 (
-"
-permissionsRequest
-"
+requestKey
 ActivityResultContracts
 .
 RequestMultiplePermissions
