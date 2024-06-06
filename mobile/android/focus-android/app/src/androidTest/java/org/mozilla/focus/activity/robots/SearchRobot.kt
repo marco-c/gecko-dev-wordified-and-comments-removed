@@ -129,18 +129,6 @@ mozilla
 .
 focus
 .
-helpers
-.
-TestHelper
-.
-webPageLoadwaitingTime
-import
-org
-.
-mozilla
-.
-focus
-.
 idlingResources
 .
 SessionLoadedIdlingResource
@@ -429,7 +417,7 @@ progressBar
 .
 waitUntilGone
 (
-webPageLoadwaitingTime
+waitingTime
 )
 )
 assertTrue
@@ -438,7 +426,7 @@ geckoEngineView
 .
 waitForExists
 (
-webPageLoadwaitingTime
+waitingTime
 )
 |
 |
@@ -446,7 +434,7 @@ trackingProtectionDialog
 .
 waitForExists
 (
-webPageLoadwaitingTime
+waitingTime
 )
 )
 }

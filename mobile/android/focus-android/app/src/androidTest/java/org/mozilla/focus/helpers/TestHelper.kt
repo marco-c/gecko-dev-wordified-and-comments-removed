@@ -338,15 +338,6 @@ DateUtils
 SECOND_IN_MILLIS
 *
 15
-const
-val
-webPageLoadwaitingTime
-=
-DateUtils
-.
-SECOND_IN_MILLIS
-*
-15
 JvmStatic
 val
 appContext

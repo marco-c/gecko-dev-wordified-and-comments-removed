@@ -56,6 +56,14 @@ MPL
 .
 *
 /
+file
+:
+Suppress
+(
+"
+DEPRECATION
+"
+)
 package
 org
 .
@@ -305,7 +313,7 @@ helpers
 .
 TestHelper
 .
-webPageLoadwaitingTime
+waitingTime
 import
 org
 .
@@ -527,7 +535,7 @@ progressBar
 .
 waitUntilGone
 (
-webPageLoadwaitingTime
+waitingTime
 )
 verifyPageContent
 (
@@ -697,7 +705,7 @@ progressBar
 .
 waitUntilGone
 (
-webPageLoadwaitingTime
+waitingTime
 )
 verifyPageURL
 (

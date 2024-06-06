@@ -599,7 +599,7 @@ waitForExists
 (
 TestHelper
 .
-webPageLoadwaitingTime
+waitingTime
 )
 runWithIdleRes
 (

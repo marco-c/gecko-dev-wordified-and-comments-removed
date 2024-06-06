@@ -189,7 +189,7 @@ helpers
 .
 TestHelper
 .
-webPageLoadwaitingTime
+waitingTime
 import
 org
 .
@@ -534,7 +534,7 @@ progressBar
 .
 waitUntilGone
 (
-webPageLoadwaitingTime
+waitingTime
 )
 }
 .

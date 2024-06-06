@@ -211,18 +211,6 @@ mozilla
 .
 focus
 .
-helpers
-.
-TestHelper
-.
-webPageLoadwaitingTime
-import
-org
-.
-mozilla
-.
-focus
-.
 idlingResources
 .
 SessionLoadedIdlingResource
@@ -416,7 +404,7 @@ versionName
 .
 waitForExists
 (
-webPageLoadwaitingTime
+waitingTime
 )
 )
 assertTrue
@@ -444,7 +432,7 @@ gvVersion
 .
 waitForExists
 (
-webPageLoadwaitingTime
+waitingTime
 )
 )
 assertTrue
@@ -473,7 +461,7 @@ gvBuildId
 .
 waitForExists
 (
-webPageLoadwaitingTime
+waitingTime
 )
 )
 }

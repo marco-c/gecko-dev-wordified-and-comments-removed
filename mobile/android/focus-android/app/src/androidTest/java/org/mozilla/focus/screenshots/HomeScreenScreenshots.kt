@@ -56,6 +56,14 @@ MPL
 .
 *
 /
+file
+:
+Suppress
+(
+"
+DEPRECATION
+"
+)
 package
 org
 .
