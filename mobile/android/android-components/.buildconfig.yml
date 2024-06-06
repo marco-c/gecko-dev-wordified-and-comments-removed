@@ -1692,6 +1692,12 @@ browser
 -
 state
 -
+browser
+-
+storage
+-
+sync
+-
 concept
 -
 awesomebar
