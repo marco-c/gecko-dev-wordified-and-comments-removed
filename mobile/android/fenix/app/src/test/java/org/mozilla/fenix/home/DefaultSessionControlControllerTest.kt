@@ -1306,6 +1306,11 @@ verify
 reloadUrlUseCase
 .
 reload
+.
+invoke
+(
+session
+)
 }
 }
 Test
