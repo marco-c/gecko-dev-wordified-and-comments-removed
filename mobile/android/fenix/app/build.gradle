@@ -244,6 +244,8 @@ IS_DEBUG
 "
 true
 "
+pseudoLocalesEnabled
+true
 }
 forPerformanceTest
 releaseTemplate
