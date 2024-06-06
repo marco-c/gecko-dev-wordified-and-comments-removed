@@ -1844,6 +1844,13 @@ id
 /
 browserFragment
 "
+app
+:
+popUpToInclusive
+=
+"
+true
+"
 /
 >
 <
@@ -1973,6 +1980,13 @@ destination
 id
 /
 browserFragment
+"
+app
+:
+popUpToInclusive
+=
+"
+true
 "
 /
 >
