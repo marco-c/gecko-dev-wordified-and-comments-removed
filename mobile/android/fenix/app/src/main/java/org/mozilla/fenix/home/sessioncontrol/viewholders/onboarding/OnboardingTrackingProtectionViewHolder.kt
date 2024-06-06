@@ -77,11 +77,13 @@ view
 .
 View
 import
-android
+androidx
+.
+appcompat
 .
 widget
 .
-Switch
+SwitchCompat
 import
 androidx
 .
@@ -171,7 +173,7 @@ private
 var
 trackingProtectionToggle
 :
-Switch
+SwitchCompat
 init
 {
 view
