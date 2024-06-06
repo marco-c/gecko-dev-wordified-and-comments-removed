@@ -1487,6 +1487,12 @@ updateMakeDefaultBrowserPreference
 (
 )
 }
+SuppressLint
+(
+"
+InflateParams
+"
+)
 Suppress
 (
 "

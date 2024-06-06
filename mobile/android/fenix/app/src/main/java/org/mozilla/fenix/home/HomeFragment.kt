@@ -5062,6 +5062,12 @@ updateLastAccess
 (
 )
 }
+SuppressLint
+(
+"
+InflateParams
+"
+)
 private
 fun
 recommendPrivateBrowsingShortcut

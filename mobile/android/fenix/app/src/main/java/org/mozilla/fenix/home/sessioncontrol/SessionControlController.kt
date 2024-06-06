@@ -69,6 +69,12 @@ sessioncontrol
 import
 android
 .
+annotation
+.
+SuppressLint
+import
+android
+.
 view
 .
 LayoutInflater
@@ -1629,6 +1635,12 @@ BrowserDirection
 FromHome
 )
 }
+SuppressLint
+(
+"
+InflateParams
+"
+)
 override
 fun
 handleRenameTopSiteClicked
