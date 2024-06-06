@@ -221,6 +221,9 @@ TabTrayViewHolder
 (
 view
 )
+{
+null
+}
 )
 doNothing
 (
