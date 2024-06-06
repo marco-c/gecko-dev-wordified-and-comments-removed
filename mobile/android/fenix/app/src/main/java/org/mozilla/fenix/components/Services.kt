@@ -209,7 +209,6 @@ FxaServer
 .
 redirectUrl
 (
-context
 )
 )
 {
