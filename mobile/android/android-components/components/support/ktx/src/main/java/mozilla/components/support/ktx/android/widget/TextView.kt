@@ -208,7 +208,7 @@ resources
 .
 displayMetrics
 .
-scaledDensity
+density
 }
 availableHeight
 -
@@ -227,7 +227,7 @@ resources
 .
 displayMetrics
 .
-scaledDensity
+density
 if
 (
 availableHeight
@@ -252,6 +252,6 @@ resources
 .
 displayMetrics
 .
-scaledDensity
+density
 }
 }
