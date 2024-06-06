@@ -268,6 +268,7 @@ toggleCounterMask
 .
 *
 *
+*
 feature
 -
 push
@@ -341,8 +342,7 @@ engine
 name
 .
 [
-bug
-#
+Bug
 1851012
 ]
 (
@@ -364,6 +364,7 @@ id
 =
 1851012
 )
+*
 *
 *
 logins
@@ -711,8 +712,7 @@ See
 more
 on
 [
-bug
-#
+Bug
 1842638
 ]
 (
@@ -755,8 +755,7 @@ See
 more
 on
 [
-bug
-#
+Bug
 1840692
 ]
 (
@@ -798,8 +797,7 @@ See
 more
 on
 [
-bug
-#
+Bug
 1840693
 ]
 (
@@ -2107,7 +2105,7 @@ failurs
 .
 See
 [
-bug
+Bug
 1826591
 ]
 (
@@ -2158,7 +2156,7 @@ exception
 .
 See
 [
-bug
+Bug
 1835107
 ]
 (
@@ -2192,8 +2190,7 @@ sync
 Bug
 Fixed
 [
-bug
-#
+Bug
 1804274
 ]
 (
@@ -2253,8 +2250,7 @@ push
 *
 Refactored
 [
-bug
-#
+Bug
 1829982
 ]
 (
@@ -2485,7 +2481,7 @@ more
 information
 see
 [
-bug
+Bug
 1829371
 ]
 (
@@ -2509,7 +2505,7 @@ id
 )
 and
 [
-bug
+Bug
 1829372
 ]
 (
@@ -2698,8 +2694,7 @@ cfr
 Bug
 fixed
 [
-bug
-#
+Bug
 1819950
 ]
 (
@@ -3479,8 +3474,7 @@ cfr
 Bug
 fixed
 [
-bug
-#
+Bug
 1809592
 ]
 (
@@ -3670,7 +3664,6 @@ syncedtabs
 *
 [
 Bug
-#
 1800268
 ]
 (
@@ -3720,7 +3713,6 @@ toolbar
 *
 [
 Bug
-#
 1800268
 ]
 (
@@ -3810,7 +3802,6 @@ awesomebar
 *
 [
 Bug
-#
 1800268
 ]
 (
@@ -3912,8 +3903,7 @@ suggestion
 ones
 .
 [
-bug
-#
+Bug
 1804258
 ]
 (
