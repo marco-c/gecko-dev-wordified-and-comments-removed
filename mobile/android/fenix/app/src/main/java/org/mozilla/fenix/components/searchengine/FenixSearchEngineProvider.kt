@@ -758,7 +758,9 @@ edit
 .
 putStringSet
 (
-INSTALLED_ENGINES_KEY
+localeAwareInstalledEnginesKey
+(
+)
 installedIdentifiers
 )
 .
@@ -838,7 +840,9 @@ edit
 .
 putStringSet
 (
-INSTALLED_ENGINES_KEY
+localeAwareInstalledEnginesKey
+(
+)
 installedIdentifiers
 )
 .
