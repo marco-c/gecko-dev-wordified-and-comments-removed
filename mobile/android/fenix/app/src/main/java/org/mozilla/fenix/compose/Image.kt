@@ -200,6 +200,16 @@ fenix
 components
 .
 components
+import
+org
+.
+mozilla
+.
+fenix
+.
+theme
+.
+FirefoxTheme
 /
 *
 *
@@ -562,8 +572,12 @@ ImagePreview
 (
 )
 {
+FirefoxTheme
+{
 Image
 (
+url
+=
 "
 https
 :
@@ -573,6 +587,8 @@ mozilla
 .
 com
 "
+modifier
+=
 Modifier
 .
 height
@@ -589,4 +605,5 @@ width
 dp
 )
 )
+}
 }
