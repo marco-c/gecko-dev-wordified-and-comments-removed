@@ -2525,6 +2525,8 @@ History
 .
 Regular
 )
+=
+runIfFragmentIsAttached
 {
 GleanHistory
 .
