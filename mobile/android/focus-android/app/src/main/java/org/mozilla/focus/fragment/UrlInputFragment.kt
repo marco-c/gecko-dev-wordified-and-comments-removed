@@ -1084,6 +1084,7 @@ selectedSearchSuggestion
 observe
 (
 viewLifecycleOwner
+)
 {
 val
 isSuggestion
@@ -1134,7 +1135,6 @@ clearSearchSuggestion
 )
 }
 }
-)
 searchSuggestionsViewModel
 .
 autocompleteSuggestion
