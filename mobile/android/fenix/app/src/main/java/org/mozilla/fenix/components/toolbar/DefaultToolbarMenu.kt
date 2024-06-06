@@ -763,6 +763,13 @@ webExtIconTintColorResource
 primaryTextColor
 (
 )
+addonsManagerMenuItemDrawableRes
+=
+R
+.
+drawable
+.
+ic_addons_extensions
 )
 onAddonsManagerTapped
 =
