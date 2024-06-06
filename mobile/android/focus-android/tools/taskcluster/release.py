@@ -110,6 +110,19 @@ GITHUB_HEAD_SHA
 '
 )
     
+version
+=
+os
+.
+environ
+.
+get
+(
+'
+GITHUB_HEAD_SHA
+'
+)
+    
 owner
 =
 "
@@ -150,6 +163,7 @@ taskcluster
 def
 generate_build_task
 (
+tag
 )
 :
     
@@ -192,7 +206,26 @@ code
 command
 =
 (
+"
+git
+fetch
+origin
+&
+&
+git
+checkout
+%
+s
+"
+%
+(
+tag
+)
++
+                 
 '
+&
+&
 python
 tools
 /
@@ -675,6 +708,7 @@ release
 (
 track
 commit
+tag
 )
 :
     
@@ -713,6 +747,7 @@ build_task
 =
 generate_build_task
 (
+tag
 )
     
 lib
@@ -996,6 +1031,36 @@ transaction
 "
 )
     
+parser
+.
+add_argument
+(
+'
+-
+-
+tag
+'
+dest
+=
+"
+tag
+"
+action
+=
+"
+store
+"
+help
+=
+"
+git
+tag
+to
+build
+from
+"
+)
+    
 result
 =
 parser
@@ -1012,4 +1077,7 @@ track
 result
 .
 commit
+result
+.
+tag
 )

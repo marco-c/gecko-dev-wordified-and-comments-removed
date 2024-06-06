@@ -1531,6 +1531,16 @@ alpha
 -
 -
 commit
+-
+-
+tag
+{
+{
+event
+.
+version
+}
+}
 features
 :
 taskclusterProxy
