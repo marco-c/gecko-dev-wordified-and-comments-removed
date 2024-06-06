@@ -83,11 +83,13 @@ mozilla
 .
 components
 .
-browser
+support
 .
-toolbar
+ktx
 .
-MAX_URI_LENGTH
+kotlin
+.
+trimmed
 fun
 TabSessionState
 .
@@ -440,8 +442,7 @@ content
 .
 url
 .
-take
+trimmed
 (
-MAX_URI_LENGTH
 )
 }
