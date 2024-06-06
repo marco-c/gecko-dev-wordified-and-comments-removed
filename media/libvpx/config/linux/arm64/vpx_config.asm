@@ -67,6 +67,10 @@ HAVE_SVE
 1
 .
 equ
+HAVE_SVE2
+1
+.
+equ
 HAVE_MIPS32
 0
 .

@@ -1096,8 +1096,6 @@ seed
 )
 {
 }
-protected
-:
 void
 Begin
 (
@@ -1120,6 +1118,8 @@ FillFrame
 )
 ;
 }
+protected
+:
 void
 FillFrame
 (

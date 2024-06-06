@@ -76,6 +76,7 @@ static
 void
 usage
 (
+void
 )
 {
 printf

@@ -456,6 +456,7 @@ VP8_CONFIG
 void
 vp8_initialize
 (
+void
 )
 ;
 struct

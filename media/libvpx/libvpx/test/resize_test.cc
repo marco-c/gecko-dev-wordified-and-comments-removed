@@ -1,13 +1,6 @@
 #
 include
 <
-stdio
-.
-h
->
-#
-include
-<
 climits
 >
 #
@@ -3449,6 +3442,9 @@ video
 )
 )
 ;
+#
+if
+CONFIG_VP9_DECODER
 unsigned
 int
 last_w
@@ -3562,9 +3558,6 @@ resize_count
 ;
 }
 }
-#
-if
-CONFIG_VP9_DECODER
 ASSERT_EQ
 (
 1
@@ -3596,8 +3589,11 @@ GetMismatchFrames
 ;
 #
 else
-printf
+GTEST_SKIP
 (
+)
+<
+<
 "
 Warning
 :
@@ -3613,7 +3609,6 @@ count
 \
 n
 "
-)
 ;
 #
 endif
@@ -3916,8 +3911,11 @@ GetMismatchFrames
 ;
 #
 else
-printf
+GTEST_SKIP
 (
+)
+<
+<
 "
 Warning
 :
@@ -3933,7 +3931,6 @@ count
 \
 n
 "
-)
 ;
 #
 endif

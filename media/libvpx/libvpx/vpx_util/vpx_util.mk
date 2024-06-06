@@ -113,6 +113,14 @@ UTIL_SRCS
 yes
 +
 =
+vpx_pthread
+.
+h
+UTIL_SRCS
+-
+yes
++
+=
 vpx_thread
 .
 c

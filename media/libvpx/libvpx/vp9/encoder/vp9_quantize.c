@@ -35,6 +35,15 @@ include
 "
 vpx_ports
 /
+bitops
+.
+h
+"
+#
+include
+"
+vpx_ports
+/
 mem
 .
 h

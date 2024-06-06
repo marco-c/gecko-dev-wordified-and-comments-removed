@@ -7,15 +7,6 @@ VPX_VP9_ENCODER_VP9_BLOCK_H_
 #
 include
 "
-vpx_util
-/
-vpx_thread
-.
-h
-"
-#
-include
-"
 vp9
 /
 common

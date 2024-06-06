@@ -897,6 +897,7 @@ qw
 /
 vp9_block_error_fp
 neon
+sve
 avx2
 sse2
 /
@@ -1021,6 +1022,7 @@ qw
 /
 vp9_block_error
 neon
+sve
 avx2
 sse2
 /
@@ -1065,6 +1067,7 @@ qw
 /
 vp9_block_error
 neon
+sve
 avx2
 msa
 sse2

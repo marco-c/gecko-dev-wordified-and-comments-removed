@@ -31,6 +31,7 @@ h
 void
 vp8_rtcd
 (
+void
 )
 {
 once

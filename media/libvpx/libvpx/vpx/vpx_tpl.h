@@ -43,7 +43,7 @@ endif
 define
 VPX_TPL_ABI_VERSION
 (
-2
+3
 )
 /
 *
@@ -76,10 +76,16 @@ int16_t
 mv_c
 ;
 int64_t
-recrf_rate
+srcrf_rate
 ;
 int64_t
-recrf_dist
+srcrf_dist
+;
+int64_t
+inter_pred_err
+;
+int64_t
+intra_pred_err
 ;
 int
 ref_frame_index

@@ -830,9 +830,6 @@ x
 #
 #
 h
-#
-#
-_neon
 (
 \
 CONVERT_TO_BYTEPTR
@@ -895,9 +892,6 @@ x
 #
 #
 h
-#
-#
-_neon
 (
 \
 CONVERT_TO_BYTEPTR
@@ -956,9 +950,6 @@ x
 #
 #
 h
-#
-#
-_neon
 (
 \
 CONVERT_TO_BYTEPTR
@@ -1035,9 +1026,6 @@ x
 #
 #
 h
-#
-#
-_neon
 (
 \
 CONVERT_TO_BYTEPTR
@@ -1119,9 +1107,6 @@ x
 #
 #
 h
-#
-#
-_neon
 (
 \
 CONVERT_TO_BYTEPTR
@@ -1199,9 +1184,6 @@ x
 #
 #
 h
-#
-#
-_neon
 (
 \
 CONVERT_TO_BYTEPTR
@@ -1275,9 +1257,6 @@ x
 #
 #
 h
-#
-#
-_neon
 (
 \
 CONVERT_TO_BYTEPTR
@@ -1358,9 +1337,6 @@ x
 #
 #
 h
-#
-#
-_neon
 (
 \
 CONVERT_TO_BYTEPTR
@@ -1437,9 +1413,6 @@ x
 #
 #
 h
-#
-#
-_neon
 (
 \
 CONVERT_TO_BYTEPTR
@@ -2580,15 +2553,12 @@ x
 #
 #
 h
-#
-#
-_neon
 (
-\
 CONVERT_TO_BYTEPTR
 (
 tmp1
 )
+\
 w
 ref
 ref_stride
@@ -2728,9 +2698,6 @@ x
 #
 #
 h
-#
-#
-_neon
 (
 \
 CONVERT_TO_BYTEPTR
@@ -2789,9 +2756,6 @@ x
 #
 #
 h
-#
-#
-_neon
 (
 \
 CONVERT_TO_BYTEPTR
@@ -2846,9 +2810,6 @@ x
 #
 #
 h
-#
-#
-_neon
 (
 \
 CONVERT_TO_BYTEPTR
@@ -2931,9 +2892,6 @@ x
 #
 #
 h
-#
-#
-_neon
 (
 \
 CONVERT_TO_BYTEPTR
@@ -3020,9 +2978,6 @@ x
 #
 #
 h
-#
-#
-_neon
 (
 \
 CONVERT_TO_BYTEPTR
@@ -3105,9 +3060,6 @@ x
 #
 #
 h
-#
-#
-_neon
 (
 \
 CONVERT_TO_BYTEPTR
@@ -3186,9 +3138,6 @@ x
 #
 #
 h
-#
-#
-_neon
 (
 \
 CONVERT_TO_BYTEPTR
@@ -3274,9 +3223,6 @@ x
 #
 #
 h
-#
-#
-_neon
 (
 \
 CONVERT_TO_BYTEPTR
@@ -3358,9 +3304,6 @@ x
 #
 #
 h
-#
-#
-_neon
 (
 \
 CONVERT_TO_BYTEPTR

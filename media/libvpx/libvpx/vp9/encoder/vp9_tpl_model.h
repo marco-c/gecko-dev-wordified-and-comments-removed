@@ -91,6 +91,14 @@ cpi
 )
 ;
 void
+vp9_estimate_tpl_qp_gop
+(
+VP9_COMP
+*
+cpi
+)
+;
+void
 vp9_wht_fwd_txfm
 (
 int16_t

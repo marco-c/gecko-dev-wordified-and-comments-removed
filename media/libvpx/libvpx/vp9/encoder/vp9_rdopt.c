@@ -13881,7 +13881,6 @@ INLINE
 int
 skip_iters
 (
-const
 int_mv
 iter_mvs
 [

@@ -236,7 +236,7 @@ const
 int
 kNumSizesToTest
 =
-20
+22
 ;
 static
 const
@@ -253,7 +253,9 @@ kSizesToTest
 ]
 =
 {
+1
 2
+3
 4
 6
 8

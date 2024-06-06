@@ -36,7 +36,9 @@ h
 define
 VPX_EXT_RATECTRL_ABI_VERSION
 (
-7
+5
++
+VPX_TPL_ABI_VERSION
 )
 typedef
 enum
@@ -114,7 +116,7 @@ int
 q_index
 ;
 int
-max_frame_size
+rdmult
 ;
 }
 vpx_rc_encodeframe_decision_t
@@ -324,6 +326,9 @@ overshoot_percent
 int
 undershoot_percent
 ;
+int
+base_qp
+;
 }
 vpx_rc_config_t
 ;
@@ -382,6 +387,9 @@ gop_coding_frames
 ;
 int
 use_alt_ref
+;
+int
+use_key_frame
 ;
 }
 vpx_rc_gop_decision_t
@@ -445,9 +453,8 @@ vpx_rc_get_encodeframe_decision_cb_fn_t
 vpx_rc_model_t
 rate_ctrl_model
 const
-vpx_rc_encodeframe_info_t
-*
-encode_frame_info
+int
+frame_gop_index
 vpx_rc_encodeframe_decision_t
 *
 frame_decision
@@ -477,10 +484,6 @@ vpx_rc_get_gop_decision_cb_fn_t
 (
 vpx_rc_model_t
 rate_ctrl_model
-const
-vpx_rc_gop_info_t
-*
-gop_info
 vpx_rc_gop_decision_t
 *
 gop_decision

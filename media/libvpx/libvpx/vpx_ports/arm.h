@@ -64,6 +64,15 @@ HAS_SVE
 <
 3
 )
+#
+define
+HAS_SVE2
+(
+1
+<
+<
+4
+)
 int
 arm_cpu_caps
 (

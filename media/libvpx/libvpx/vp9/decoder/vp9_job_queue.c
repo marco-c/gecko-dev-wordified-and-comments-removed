@@ -24,6 +24,15 @@ h
 #
 include
 "
+vpx_util
+/
+vpx_pthread
+.
+h
+"
+#
+include
+"
 vp9
 /
 decoder

@@ -1051,12 +1051,6 @@ defined
 (
 _WIN64
 )
-|
-|
-defined
-(
-__OS2__
-)
 video
 .
 SetSize

@@ -31,6 +31,7 @@ h
 void
 vpx_scale_rtcd
 (
+void
 )
 {
 once

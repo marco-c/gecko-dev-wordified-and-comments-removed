@@ -4605,6 +4605,7 @@ qw
 vpx_highbd_convolve8_horiz
 avx2
 neon
+sve
 /
 "
 sse2_x86_64
@@ -4654,6 +4655,7 @@ qw
 vpx_highbd_convolve8_vert
 avx2
 neon
+sve2
 /
 "
 sse2_x86_64
@@ -4752,6 +4754,7 @@ qw
 vpx_highbd_convolve8_avg_horiz
 avx2
 neon
+sve
 /
 "
 sse2_x86_64
@@ -4801,6 +4804,7 @@ qw
 vpx_highbd_convolve8_avg_vert
 avx2
 neon
+sve2
 /
 "
 sse2_x86_64
@@ -10972,6 +10976,7 @@ qw
 /
 vpx_sum_squares_2d_i16
 neon
+sve
 sse2
 msa
 /
@@ -15605,6 +15610,7 @@ qw
 vpx_highbd_12_variance64x64
 sse2
 neon
+sve
 /
 ;
 add_proto
@@ -15639,6 +15645,7 @@ qw
 vpx_highbd_12_variance64x32
 sse2
 neon
+sve
 /
 ;
 add_proto
@@ -15673,6 +15680,7 @@ qw
 vpx_highbd_12_variance32x64
 sse2
 neon
+sve
 /
 ;
 add_proto
@@ -15707,6 +15715,7 @@ qw
 vpx_highbd_12_variance32x32
 sse2
 neon
+sve
 /
 ;
 add_proto
@@ -15741,6 +15750,7 @@ qw
 vpx_highbd_12_variance32x16
 sse2
 neon
+sve
 /
 ;
 add_proto
@@ -15775,6 +15785,7 @@ qw
 vpx_highbd_12_variance16x32
 sse2
 neon
+sve
 /
 ;
 add_proto
@@ -15809,6 +15820,7 @@ qw
 vpx_highbd_12_variance16x16
 sse2
 neon
+sve
 /
 ;
 add_proto
@@ -15843,6 +15855,7 @@ qw
 vpx_highbd_12_variance16x8
 sse2
 neon
+sve
 /
 ;
 add_proto
@@ -15877,6 +15890,7 @@ qw
 vpx_highbd_12_variance8x16
 sse2
 neon
+sve
 /
 ;
 add_proto
@@ -15911,6 +15925,7 @@ qw
 vpx_highbd_12_variance8x8
 sse2
 neon
+sve
 /
 ;
 add_proto
@@ -15944,6 +15959,7 @@ qw
 /
 vpx_highbd_12_variance8x4
 neon
+sve
 /
 ;
 add_proto
@@ -15977,6 +15993,7 @@ qw
 /
 vpx_highbd_12_variance4x8
 neon
+sve
 /
 ;
 add_proto
@@ -16010,6 +16027,7 @@ qw
 /
 vpx_highbd_12_variance4x4
 neon
+sve
 /
 ;
 add_proto
@@ -16044,6 +16062,7 @@ qw
 vpx_highbd_10_variance64x64
 sse2
 neon
+sve
 /
 ;
 add_proto
@@ -16078,6 +16097,7 @@ qw
 vpx_highbd_10_variance64x32
 sse2
 neon
+sve
 /
 ;
 add_proto
@@ -16112,6 +16132,7 @@ qw
 vpx_highbd_10_variance32x64
 sse2
 neon
+sve
 /
 ;
 add_proto
@@ -16146,6 +16167,7 @@ qw
 vpx_highbd_10_variance32x32
 sse2
 neon
+sve
 /
 ;
 add_proto
@@ -16180,6 +16202,7 @@ qw
 vpx_highbd_10_variance32x16
 sse2
 neon
+sve
 /
 ;
 add_proto
@@ -16214,6 +16237,7 @@ qw
 vpx_highbd_10_variance16x32
 sse2
 neon
+sve
 /
 ;
 add_proto
@@ -16248,6 +16272,7 @@ qw
 vpx_highbd_10_variance16x16
 sse2
 neon
+sve
 /
 ;
 add_proto
@@ -16282,6 +16307,7 @@ qw
 vpx_highbd_10_variance16x8
 sse2
 neon
+sve
 /
 ;
 add_proto
@@ -16316,6 +16342,7 @@ qw
 vpx_highbd_10_variance8x16
 sse2
 neon
+sve
 /
 ;
 add_proto
@@ -16350,6 +16377,7 @@ qw
 vpx_highbd_10_variance8x8
 sse2
 neon
+sve
 /
 ;
 add_proto
@@ -16383,6 +16411,7 @@ qw
 /
 vpx_highbd_10_variance8x4
 neon
+sve
 /
 ;
 add_proto
@@ -16416,6 +16445,7 @@ qw
 /
 vpx_highbd_10_variance4x8
 neon
+sve
 /
 ;
 add_proto
@@ -16449,6 +16479,7 @@ qw
 /
 vpx_highbd_10_variance4x4
 neon
+sve
 /
 ;
 add_proto
@@ -16483,6 +16514,7 @@ qw
 vpx_highbd_8_variance64x64
 sse2
 neon
+sve
 /
 ;
 add_proto
@@ -16517,6 +16549,7 @@ qw
 vpx_highbd_8_variance64x32
 sse2
 neon
+sve
 /
 ;
 add_proto
@@ -16551,6 +16584,7 @@ qw
 vpx_highbd_8_variance32x64
 sse2
 neon
+sve
 /
 ;
 add_proto
@@ -16585,6 +16619,7 @@ qw
 vpx_highbd_8_variance32x32
 sse2
 neon
+sve
 /
 ;
 add_proto
@@ -16619,6 +16654,7 @@ qw
 vpx_highbd_8_variance32x16
 sse2
 neon
+sve
 /
 ;
 add_proto
@@ -16653,6 +16689,7 @@ qw
 vpx_highbd_8_variance16x32
 sse2
 neon
+sve
 /
 ;
 add_proto
@@ -16687,6 +16724,7 @@ qw
 vpx_highbd_8_variance16x16
 sse2
 neon
+sve
 /
 ;
 add_proto
@@ -16721,6 +16759,7 @@ qw
 vpx_highbd_8_variance16x8
 sse2
 neon
+sve
 /
 ;
 add_proto
@@ -16755,6 +16794,7 @@ qw
 vpx_highbd_8_variance8x16
 sse2
 neon
+sve
 /
 ;
 add_proto
@@ -16789,6 +16829,7 @@ qw
 vpx_highbd_8_variance8x8
 sse2
 neon
+sve
 /
 ;
 add_proto
@@ -16822,6 +16863,7 @@ qw
 /
 vpx_highbd_8_variance8x4
 neon
+sve
 /
 ;
 add_proto
@@ -16855,6 +16897,7 @@ qw
 /
 vpx_highbd_8_variance4x8
 neon
+sve
 /
 ;
 add_proto
@@ -16888,6 +16931,7 @@ qw
 /
 vpx_highbd_8_variance4x4
 neon
+sve
 /
 ;
 add_proto
@@ -16924,6 +16968,7 @@ qw
 vpx_highbd_8_get16x16var
 sse2
 neon
+sve
 /
 ;
 add_proto
@@ -16960,6 +17005,7 @@ qw
 vpx_highbd_8_get8x8var
 sse2
 neon
+sve
 /
 ;
 add_proto
@@ -16996,6 +17042,7 @@ qw
 vpx_highbd_10_get16x16var
 sse2
 neon
+sve
 /
 ;
 add_proto
@@ -17032,6 +17079,7 @@ qw
 vpx_highbd_10_get8x8var
 sse2
 neon
+sve
 /
 ;
 add_proto
@@ -17068,6 +17116,7 @@ qw
 vpx_highbd_12_get16x16var
 sse2
 neon
+sve
 /
 ;
 add_proto
@@ -17104,6 +17153,7 @@ qw
 vpx_highbd_12_get8x8var
 sse2
 neon
+sve
 /
 ;
 add_proto
@@ -17138,6 +17188,7 @@ qw
 vpx_highbd_8_mse16x16
 sse2
 neon
+neon_dotprod
 /
 ;
 add_proto
@@ -17171,6 +17222,7 @@ qw
 /
 vpx_highbd_8_mse16x8
 neon
+neon_dotprod
 /
 ;
 add_proto
@@ -17204,6 +17256,7 @@ qw
 /
 vpx_highbd_8_mse8x16
 neon
+neon_dotprod
 /
 ;
 add_proto
@@ -17238,6 +17291,7 @@ qw
 vpx_highbd_8_mse8x8
 sse2
 neon
+neon_dotprod
 /
 ;
 add_proto
@@ -17272,6 +17326,7 @@ qw
 vpx_highbd_10_mse16x16
 sse2
 neon
+sve
 /
 ;
 add_proto
@@ -17305,6 +17360,7 @@ qw
 /
 vpx_highbd_10_mse16x8
 neon
+sve
 /
 ;
 add_proto
@@ -17338,6 +17394,7 @@ qw
 /
 vpx_highbd_10_mse8x16
 neon
+sve
 /
 ;
 add_proto
@@ -17372,6 +17429,7 @@ qw
 vpx_highbd_10_mse8x8
 sse2
 neon
+sve
 /
 ;
 add_proto
@@ -17406,6 +17464,7 @@ qw
 vpx_highbd_12_mse16x16
 sse2
 neon
+sve
 /
 ;
 add_proto
@@ -17439,6 +17498,7 @@ qw
 /
 vpx_highbd_12_mse16x8
 neon
+sve
 /
 ;
 add_proto
@@ -17472,6 +17532,7 @@ qw
 /
 vpx_highbd_12_mse8x16
 neon
+sve
 /
 ;
 add_proto
@@ -17506,6 +17567,7 @@ qw
 vpx_highbd_12_mse8x8
 sse2
 neon
+sve
 /
 ;
 add_proto

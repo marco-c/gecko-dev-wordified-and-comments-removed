@@ -32,11 +32,6 @@ C
 {
 #
 endif
-void
-vp8_tokenize_initialize
-(
-)
-;
 typedef
 struct
 {

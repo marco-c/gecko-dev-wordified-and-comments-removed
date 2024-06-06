@@ -48,6 +48,10 @@ HAVE_SVE
 0
 %
 define
+HAVE_SVE2
+0
+%
+define
 HAVE_MIPS32
 0
 %

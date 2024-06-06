@@ -2788,9 +2788,11 @@ new_fb_idx
 -
 ;
 }
-pc
+pbi
 -
 >
+common
+.
 error
 .
 setjmp

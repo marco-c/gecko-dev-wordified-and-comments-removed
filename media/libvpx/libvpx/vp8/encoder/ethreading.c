@@ -15,6 +15,15 @@ h
 #
 include
 "
+vpx_util
+/
+vpx_pthread
+.
+h
+"
+#
+include
+"
 vp8
 /
 common
@@ -84,7 +93,7 @@ ok_to_skip
 )
 ;
 static
-THREAD_FUNCTION
+THREADFN
 thread_loopfilter
 (
 void
@@ -146,7 +155,7 @@ break
 ;
 if
 (
-sem_wait
+vp8_sem_wait
 (
 &
 cpi
@@ -181,7 +190,7 @@ cpi
 cm
 )
 ;
-sem_post
+vp8_sem_post
 (
 &
 cpi
@@ -193,11 +202,11 @@ h_event_end_lpf
 }
 }
 return
-0
+THREAD_EXIT_SUCCESS
 ;
 }
 static
-THREAD_FUNCTION
+THREADFN
 thread_encoding_proc
 (
 void
@@ -287,7 +296,7 @@ break
 ;
 if
 (
-sem_wait
+vp8_sem_wait
 (
 &
 cpi
@@ -1951,7 +1960,7 @@ cpi
 encoding_thread_count
 ;
 }
-sem_post
+vp8_sem_post
 (
 &
 cpi
@@ -1966,7 +1975,7 @@ ithread
 }
 }
 return
-0
+THREAD_EXIT_SUCCESS
 ;
 }
 static
@@ -3374,7 +3383,7 @@ vpx_malloc
 (
 sizeof
 (
-sem_t
+vp8_sem_t
 )
 *
 th_count
@@ -3398,7 +3407,7 @@ vpx_malloc
 (
 sizeof
 (
-sem_t
+vp8_sem_t
 )
 *
 th_count
@@ -3544,7 +3553,7 @@ mb
 e_mbd
 )
 ;
-sem_init
+vp8_sem_init
 (
 &
 cpi
@@ -3558,7 +3567,7 @@ ithread
 0
 )
 ;
-sem_init
+vp8_sem_init
 (
 &
 cpi
@@ -3663,7 +3672,7 @@ ithread
 -
 )
 {
-sem_post
+vp8_sem_post
 (
 &
 cpi
@@ -3675,7 +3684,7 @@ ithread
 ]
 )
 ;
-sem_post
+vp8_sem_post
 (
 &
 cpi
@@ -3699,7 +3708,7 @@ ithread
 0
 )
 ;
-sem_destroy
+vp8_sem_destroy
 (
 &
 cpi
@@ -3711,7 +3720,7 @@ ithread
 ]
 )
 ;
-sem_destroy
+vp8_sem_destroy
 (
 &
 cpi
@@ -3822,7 +3831,7 @@ cpi
 >
 lpf_thread_data
 ;
-sem_init
+vp8_sem_init
 (
 &
 cpi
@@ -3833,7 +3842,7 @@ h_event_start_lpf
 0
 )
 ;
-sem_init
+vp8_sem_init
 (
 &
 cpi
@@ -3900,7 +3909,7 @@ ithread
 -
 )
 {
-sem_post
+vp8_sem_post
 (
 &
 cpi
@@ -3912,7 +3921,7 @@ ithread
 ]
 )
 ;
-sem_post
+vp8_sem_post
 (
 &
 cpi
@@ -3936,7 +3945,7 @@ ithread
 0
 )
 ;
-sem_destroy
+vp8_sem_destroy
 (
 &
 cpi
@@ -3948,7 +3957,7 @@ ithread
 ]
 )
 ;
-sem_destroy
+vp8_sem_destroy
 (
 &
 cpi
@@ -3961,7 +3970,7 @@ ithread
 )
 ;
 }
-sem_destroy
+vp8_sem_destroy
 (
 &
 cpi
@@ -3970,7 +3979,7 @@ cpi
 h_event_end_lpf
 )
 ;
-sem_destroy
+vp8_sem_destroy
 (
 &
 cpi
@@ -4124,7 +4133,7 @@ encoding_thread_count
 i
 )
 {
-sem_post
+vp8_sem_post
 (
 &
 cpi
@@ -4136,7 +4145,7 @@ i
 ]
 )
 ;
-sem_post
+vp8_sem_post
 (
 &
 cpi
@@ -4160,7 +4169,7 @@ i
 0
 )
 ;
-sem_destroy
+vp8_sem_destroy
 (
 &
 cpi
@@ -4172,7 +4181,7 @@ i
 ]
 )
 ;
-sem_destroy
+vp8_sem_destroy
 (
 &
 cpi
@@ -4185,7 +4194,7 @@ i
 )
 ;
 }
-sem_post
+vp8_sem_post
 (
 &
 cpi
@@ -4204,7 +4213,7 @@ h_filter_thread
 )
 ;
 }
-sem_destroy
+vp8_sem_destroy
 (
 &
 cpi
@@ -4213,7 +4222,7 @@ cpi
 h_event_end_lpf
 )
 ;
-sem_destroy
+vp8_sem_destroy
 (
 &
 cpi
