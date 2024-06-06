@@ -155,6 +155,14 @@ id
 .
 searchFragment
 )
+FromSearchDialog
+(
+R
+.
+id
+.
+searchDialogFragment
+)
 FromSettings
 (
 R

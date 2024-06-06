@@ -3937,6 +3937,9 @@ HomeFragmentDirections
 .
 actionGlobalSearchDialog
 (
+sessionId
+=
+null
 )
 }
 else
