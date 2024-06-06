@@ -412,6 +412,6 @@ const
 val
 ACTIVITY_REQUEST_CODE
 =
-1337
+10
 }
 }
