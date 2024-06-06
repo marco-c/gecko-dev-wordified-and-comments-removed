@@ -294,7 +294,7 @@ id
 +
 id
 /
-domainView
+webAddressView
 "
 android
 :
@@ -389,7 +389,7 @@ layout_constraintBottom_toTopOf
 "
 id
 /
-userView
+usernameView
 "
 app
 :
@@ -443,7 +443,7 @@ id
 +
 id
 /
-userView
+usernameView
 "
 android
 :
@@ -550,7 +550,7 @@ layout_constraintTop_toBottomOf
 "
 id
 /
-domainView
+webAddressView
 "
 app
 :

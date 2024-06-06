@@ -198,7 +198,7 @@ url
 =
 view
 .
-domainView
+webAddressView
 private
 val
 deleteButton

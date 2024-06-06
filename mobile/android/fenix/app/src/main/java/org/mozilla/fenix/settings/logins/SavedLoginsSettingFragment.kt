@@ -155,7 +155,7 @@ settings
 .
 SharedPreferenceUpdater
 class
-SaveLoginSettingFragment
+SavedLoginsSettingFragment
 :
 PreferenceFragmentCompat
 (

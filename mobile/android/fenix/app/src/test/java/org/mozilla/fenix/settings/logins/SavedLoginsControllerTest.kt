@@ -136,7 +136,7 @@ private
 val
 store
 :
-SavedLoginsFragmentStore
+LoginsFragmentStore
 =
 mockk
 (
@@ -172,7 +172,7 @@ private
 val
 controller
 =
-DefaultSavedLoginsController
+SavedLoginsController
 (
 store
 settings
@@ -218,7 +218,7 @@ store
 .
 dispatch
 (
-SavedLoginsFragmentAction
+LoginsAction
 .
 SortLogins
 (

@@ -1627,7 +1627,7 @@ pref_key_passwords
 {
 SettingsFragmentDirections
 .
-actionSettingsFragmentToLoginsFragment
+actionSettingsFragmentToSavedLoginsAuthFragment
 (
 )
 }

@@ -145,7 +145,7 @@ val
 savedLoginClicked
 :
 (
-SavedLoginsItem
+SavedLogin
 )
 -
 >
@@ -192,7 +192,7 @@ itemClicked
 val
 item
 =
-SavedLoginsItem
+SavedLogin
 (
 "
 mozilla
