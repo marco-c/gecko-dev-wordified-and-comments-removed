@@ -1794,7 +1794,13 @@ pref_key_close_tabs_manually
 )
 default
 =
-true
+FeatureFlags
+.
+inactiveTabs
+.
+not
+(
+)
 )
 var
 closeTabsAfterOneDay
@@ -1851,7 +1857,9 @@ pref_key_close_tabs_after_one_month
 )
 default
 =
-false
+FeatureFlags
+.
+inactiveTabs
 )
 var
 allowThirdPartyRootCerts

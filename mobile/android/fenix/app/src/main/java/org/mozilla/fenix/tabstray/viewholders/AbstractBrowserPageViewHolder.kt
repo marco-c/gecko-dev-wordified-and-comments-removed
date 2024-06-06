@@ -147,7 +147,7 @@ tabstray
 .
 browser
 .
-BrowserTrayList
+AbstractBrowserTrayList
 /
 *
 *
@@ -189,11 +189,11 @@ AbstractPageViewHolder
 containerView
 )
 {
-protected
+private
 val
 trayList
 :
-BrowserTrayList
+AbstractBrowserTrayList
 =
 itemView
 .
@@ -245,7 +245,7 @@ text
 emptyStringText
 }
 CallSuper
-override
+protected
 fun
 bind
 (

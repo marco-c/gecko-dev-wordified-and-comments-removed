@@ -142,10 +142,5 @@ RecyclerView
 .
 ViewHolder
 >
-layoutManager
-:
-RecyclerView
-.
-LayoutManager
 )
 }

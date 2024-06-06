@@ -132,7 +132,7 @@ FenixRobolectricTestRunner
 class
 )
 class
-BrowserTrayListTest
+AbstractBrowserTrayListTest
 {
 Test
 fun
@@ -150,7 +150,7 @@ adapter
 val
 trayList
 =
-BrowserTrayList
+PrivateBrowserTrayList
 (
 testContext
 )

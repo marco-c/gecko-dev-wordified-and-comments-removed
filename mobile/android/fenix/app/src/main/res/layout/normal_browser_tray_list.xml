@@ -66,7 +66,7 @@ tabstray
 .
 browser
 .
-BrowserTrayList
+NormalBrowserTrayList
 android
 :
 id

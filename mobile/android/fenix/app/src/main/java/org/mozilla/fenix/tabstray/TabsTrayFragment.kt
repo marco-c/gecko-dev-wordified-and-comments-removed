@@ -1130,9 +1130,6 @@ tabsUseCases
 selectTab
 requireComponents
 .
-settings
-requireComponents
-.
 analytics
 .
 metrics

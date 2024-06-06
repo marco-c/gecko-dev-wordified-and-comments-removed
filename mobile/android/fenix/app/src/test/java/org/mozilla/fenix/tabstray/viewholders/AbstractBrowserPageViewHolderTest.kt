@@ -95,14 +95,6 @@ widget
 .
 TextView
 import
-androidx
-.
-recyclerview
-.
-widget
-.
-LinearLayoutManager
-import
 io
 .
 mockk
@@ -201,7 +193,7 @@ tabstray
 .
 browser
 .
-BrowserTrayList
+AbstractBrowserTrayList
 import
 org
 .
@@ -322,7 +314,7 @@ null
 val
 viewHolder
 =
-NormalBrowserPageViewHolder
+PrivateBrowserPageViewHolder
 (
 itemView
 store
@@ -332,7 +324,7 @@ interactor
 val
 trayList
 :
-BrowserTrayList
+AbstractBrowserTrayList
 =
 itemView
 .
@@ -364,10 +356,6 @@ viewHolder
 bind
 (
 adapter
-LinearLayoutManager
-(
-testContext
-)
 )
 adapter
 .
@@ -451,7 +439,7 @@ null
 val
 viewHolder
 =
-NormalBrowserPageViewHolder
+PrivateBrowserPageViewHolder
 (
 itemView
 store
@@ -461,7 +449,7 @@ interactor
 val
 trayList
 :
-BrowserTrayList
+AbstractBrowserTrayList
 =
 itemView
 .
@@ -493,10 +481,6 @@ viewHolder
 bind
 (
 adapter
-LinearLayoutManager
-(
-testContext
-)
 )
 adapter
 .
