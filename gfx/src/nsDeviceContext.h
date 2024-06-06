@@ -387,6 +387,11 @@ GetScreenOrientationAngle
 (
 )
 ;
+bool
+GetScreenIsHDR
+(
+)
+;
 nsresult
 GetDeviceSurfaceDimensions
 (
