@@ -4277,13 +4277,6 @@ onBackLongPressed
 :
 Boolean
 {
-if
-(
-FeatureFlags
-.
-tabHistory
-)
-{
 findNavController
 (
 )
@@ -4298,9 +4291,6 @@ action_global_tabHistoryDialogFragment
 )
 return
 true
-}
-return
-false
 }
 /
 *
