@@ -2496,6 +2496,7 @@ Animator
 )
 {
 toolbarBackgroundView
+?
 .
 visibility
 =
@@ -2518,6 +2519,7 @@ reverse
 )
 {
 toolbarBackgroundView
+?
 .
 visibility
 =
@@ -2531,6 +2533,7 @@ isOverlay
 )
 {
 dismissView
+?
 .
 visibility
 =
@@ -2538,6 +2541,7 @@ View
 .
 GONE
 menuView
+?
 .
 visibility
 =
