@@ -571,7 +571,9 @@ useCases
 customTabsUseCases
 toolbar
 =
-browserToolbar
+browserToolbarView
+.
+view
 sessionId
 =
 customTabSessionId
@@ -725,7 +727,9 @@ owner
 this
 view
 =
-browserToolbar
+browserToolbarView
+.
+view
 )
 if
 (
