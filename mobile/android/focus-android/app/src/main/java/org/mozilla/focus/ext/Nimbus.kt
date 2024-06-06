@@ -94,7 +94,6 @@ app
 .
 *
 /
-private
 const
 val
 FEATURE_TABS
@@ -160,7 +159,7 @@ true
 .
 May
 be
-overriden
+overridden
 by
 a
 Nimbus
@@ -178,7 +177,12 @@ get
 =
 getVariables
 (
+featureId
+=
 FEATURE_TABS
+recordExposureEvent
+=
+false
 )
 .
 getBool
