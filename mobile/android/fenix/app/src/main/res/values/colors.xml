@@ -1984,21 +1984,6 @@ color
 name
 =
 "
-accent_bright_light_theme
-"
->
-color
-/
-photonViolet70
-<
-/
-color
->
-<
-color
-name
-=
-"
 dark_grey_90_gradient_start
 "
 >
@@ -2742,7 +2727,7 @@ accent_bright_normal_theme
 >
 color
 /
-accent_bright_light_theme
+photonViolet70
 <
 /
 color
@@ -2846,7 +2831,7 @@ accent_on_dark_background_normal_theme
 >
 color
 /
-accent_bright_light_theme
+photonViolet70
 <
 /
 color
@@ -3010,7 +2995,7 @@ onboarding_illustration_selected_normal_theme
 >
 color
 /
-accent_bright_light_theme
+photonViolet70
 <
 /
 color
@@ -3039,7 +3024,7 @@ add_on_private_browsing_exterior_circle_background_normal_theme
 >
 color
 /
-accent_bright_light_theme
+photonViolet70
 <
 /
 color
@@ -3114,7 +3099,7 @@ select_login_header_normal_theme
 >
 color
 /
-accent_bright_light_theme
+photonViolet70
 <
 /
 color
@@ -3129,7 +3114,7 @@ select_credit_card_header_normal_theme
 >
 color
 /
-accent_bright_light_theme
+photonViolet70
 <
 /
 color
@@ -3174,7 +3159,7 @@ menu_item_button_normal_theme
 >
 color
 /
-accent_bright_light_theme
+photonViolet70
 <
 /
 color
