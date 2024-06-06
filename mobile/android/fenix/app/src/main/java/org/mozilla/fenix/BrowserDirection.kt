@@ -155,6 +155,14 @@ id
 .
 searchFragment
 )
+FromTabTray
+(
+R
+.
+id
+.
+tabTrayFragment
+)
 FromSettings
 (
 R
