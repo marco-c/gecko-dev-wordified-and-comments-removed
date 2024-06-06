@@ -171,6 +171,14 @@ mozilla
 .
 fenix
 .
+HomeActivity
+import
+org
+.
+mozilla
+.
+fenix
+.
 R
 import
 org
@@ -333,9 +341,6 @@ requireContext
 )
 )
 }
-"
-1
-"
 )
 )
 AwesomeBarFeature

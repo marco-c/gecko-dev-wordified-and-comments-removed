@@ -277,12 +277,6 @@ requireComponents
 core
 .
 sessionManager
-val
-sessionId
-=
-"
-1
-"
 sessionFeature
 =
 SessionFeature
@@ -293,7 +287,6 @@ SessionUseCases
 sessionManager
 )
 engineView
-sessionId
 )
 lifecycle
 .
