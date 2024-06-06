@@ -376,13 +376,13 @@ TabAction
 (
 )
 object
-MenuTapped
+Add
 :
 TabAction
 (
 )
 object
-Add
+ShareTabs
 :
 TabAction
 (
