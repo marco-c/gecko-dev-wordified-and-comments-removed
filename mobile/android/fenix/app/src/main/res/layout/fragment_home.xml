@@ -291,6 +291,16 @@ private_browsing_button
 "
 app
 :
+layout_constraintBottom_toTopOf
+=
+"
++
+id
+/
+wordmark
+"
+app
+:
 layout_constraintEnd_toEndOf
 =
 "
