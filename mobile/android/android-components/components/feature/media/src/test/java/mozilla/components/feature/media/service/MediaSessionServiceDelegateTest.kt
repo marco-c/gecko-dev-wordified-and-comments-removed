@@ -3475,6 +3475,12 @@ service
 stopSelf
 (
 )
+assertNull
+(
+delegate
+.
+noisyAudioStreamReceiver
+)
 }
 Test
 fun

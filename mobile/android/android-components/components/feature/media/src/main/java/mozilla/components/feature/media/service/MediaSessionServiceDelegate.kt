@@ -1428,6 +1428,9 @@ cancel
 (
 notificationId
 )
+unregisterBecomingNoisyListenerIfNeeded
+(
+)
 service
 .
 stopSelf
