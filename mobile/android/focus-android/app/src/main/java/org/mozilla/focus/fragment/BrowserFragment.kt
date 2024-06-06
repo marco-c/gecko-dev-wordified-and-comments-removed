@@ -227,6 +227,12 @@ kotlinx
 .
 coroutines
 .
+DelicateCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
 Dispatchers
 import
 kotlinx
@@ -2077,6 +2083,13 @@ resultCode
 )
 }
 }
+OptIn
+(
+DelicateCoroutinesApi
+:
+:
+class
+)
 private
 fun
 showCrashReporter

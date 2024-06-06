@@ -70,6 +70,14 @@ org
 json
 .
 JSONObject
+import
+kotlin
+.
+collections
+.
+forEach
+as
+withEach
 private
 const
 val
@@ -123,7 +131,7 @@ Boolean
 {
 experiments
 .
-forEach
+withEach
 {
 entry
 -

@@ -186,6 +186,14 @@ focus
 telemetry
 .
 TelemetryWrapper
+import
+kotlin
+.
+collections
+.
+forEach
+as
+withEach
 class
 ExceptionsRemoveFragment
 :
@@ -340,7 +348,7 @@ domains
 }
 exceptions
 .
-forEach
+withEach
 {
 exception
 -

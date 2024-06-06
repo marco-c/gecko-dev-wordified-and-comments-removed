@@ -156,6 +156,14 @@ lib
 state
 .
 MiddlewareContext
+import
+kotlin
+.
+collections
+.
+forEach
+as
+withEach
 class
 TelemetryMiddleware
 :
@@ -220,7 +228,7 @@ action
 .
 tabs
 .
-forEach
+withEach
 {
 collectTelemetry
 (

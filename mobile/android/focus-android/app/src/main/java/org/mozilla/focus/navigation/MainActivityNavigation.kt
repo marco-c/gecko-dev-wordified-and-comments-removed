@@ -314,6 +314,14 @@ focus
 utils
 .
 ViewUtils
+import
+kotlin
+.
+collections
+.
+forEach
+as
+withEach
 /
 *
 *
@@ -1112,7 +1120,7 @@ fragmentManager
 .
 fragments
 .
-forEach
+withEach
 {
 fragment
 -

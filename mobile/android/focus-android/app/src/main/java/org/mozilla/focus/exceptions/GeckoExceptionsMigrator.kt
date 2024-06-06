@@ -136,6 +136,14 @@ GeckoSession
 PermissionDelegate
 .
 PERMISSION_TRACKING
+import
+kotlin
+.
+collections
+.
+forEach
+as
+withEach
 /
 *
 *
@@ -230,7 +238,7 @@ Main
 {
 exceptions
 .
-forEach
+withEach
 {
 migrate
 (

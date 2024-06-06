@@ -198,6 +198,14 @@ focus
 telemetry
 .
 TelemetryWrapper
+import
+kotlin
+.
+collections
+.
+forEach
+as
+withEach
 class
 InstalledSearchEnginesSettingsFragment
 :
@@ -650,7 +658,7 @@ search
 .
 customSearchEngines
 .
-forEach
+withEach
 {
 searchEngine
 -
@@ -670,7 +678,7 @@ search
 .
 hiddenSearchEngines
 .
-forEach
+withEach
 {
 searchEngine
 -

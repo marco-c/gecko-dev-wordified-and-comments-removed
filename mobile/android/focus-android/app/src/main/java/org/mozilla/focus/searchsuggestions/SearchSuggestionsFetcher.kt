@@ -366,7 +366,7 @@ return
 }
 fetchChannel
 .
-offer
+trySend
 (
 query
 )
