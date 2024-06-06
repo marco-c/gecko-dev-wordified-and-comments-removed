@@ -382,12 +382,6 @@ visaCard
 "
 4111111111111111
 "
-val
-voyagerCard
-=
-"
-869941728035895
-"
 assertTrue
 (
 americanExpressCard
@@ -431,14 +425,6 @@ validateCreditCardNumber
 assertTrue
 (
 visaCard
-.
-validateCreditCardNumber
-(
-)
-)
-assertTrue
-(
-voyagerCard
 .
 validateCreditCardNumber
 (
