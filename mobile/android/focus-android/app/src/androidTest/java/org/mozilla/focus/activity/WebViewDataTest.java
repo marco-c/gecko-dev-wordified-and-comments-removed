@@ -285,7 +285,7 @@ List
 <
 String
 >
-WHITELIST
+WHITELIST_DATA_DIR_CONTENTS
 =
 Arrays
 .
@@ -1194,7 +1194,7 @@ is
 in
 whitelist
 "
-WHITELIST
+WHITELIST_DATA_DIR_CONTENTS
 .
 contains
 (
