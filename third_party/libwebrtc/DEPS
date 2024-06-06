@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-fc694f0482fcc22beb95139a0c5825189b784a71
+eb15a443b5a9e31e8b78274c90b5c3b5df7e8b62
 '
 #
 Fetch
@@ -188,9 +188,9 @@ version
 :
 17
 .
-20240113
+20240120
 .
-0
+1
 .
 1
 '
@@ -433,7 +433,7 @@ chromium
 src
 /
 base
-6309e3f54025ffccf2f08a9cb742ce2bcc217a60
+5b0c3268555b986f312b2450fc3a8d19ca6b37cd
 '
 '
 src
@@ -577,7 +577,7 @@ chromium
 src
 /
 ios
-6a19ba77c325f57e5e7f7013270e12a9d1fe2c4d
+7ed8911838ce91fd3e42a4d3caa521a5bd191c05
 '
 '
 condition
@@ -609,7 +609,7 @@ chromium
 src
 /
 testing
-3ba252b75d55c6c6d2c9b55d3c8485961b2b0f67
+922daad5d2ee319fd70ce183e293ccb2303948df
 '
 '
 src
@@ -633,7 +633,7 @@ chromium
 src
 /
 third_party
-e8d12386299c8f815feb63d30e9a8a7726d65728
+6ed23cbca863a44c7f844ae1496dd045cf032b56
 '
 '
 src
@@ -1483,7 +1483,7 @@ com
 catapult
 .
 git
-b46f981617989d930937991925c5b4a3f6f37866
+3e413d7b62c09fda8713146714ba2146a0369d86
 '
 '
 src
@@ -3159,7 +3159,7 @@ chromium
 src
 /
 tools
-9eb259a43852db1dd048adcdd6538c8d8381c8f8
+3a95202e5f2a6917fd1e36a50c1ed56ffa78e26b
 '
 '
 src
