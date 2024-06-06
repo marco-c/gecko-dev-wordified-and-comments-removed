@@ -223,8 +223,6 @@ androidx_biometric
 0
 .
 0
--
-rc02
 "
 const
 val
