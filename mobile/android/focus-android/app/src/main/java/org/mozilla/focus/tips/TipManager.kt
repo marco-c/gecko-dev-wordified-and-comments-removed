@@ -554,10 +554,6 @@ mozilla
 .
 org
 /
-en
--
-US
-/
 kb
 /
 add
@@ -845,10 +841,6 @@ mozilla
 .
 org
 /
-en
--
-US
-/
 kb
 /
 autocomplete
@@ -969,10 +961,6 @@ mozilla
 .
 org
 /
-en
--
-US
-/
 kb
 /
 open
@@ -1092,10 +1080,6 @@ support
 mozilla
 .
 org
-/
-en
--
-US
 /
 kb
 /
