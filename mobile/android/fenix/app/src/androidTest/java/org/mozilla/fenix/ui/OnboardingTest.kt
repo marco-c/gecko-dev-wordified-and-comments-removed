@@ -566,7 +566,7 @@ mockWebServer
 )
 homeScreen
 {
-verifyWelcomeHeader
+verifyStartBrowsingButton
 (
 )
 }
@@ -585,7 +585,7 @@ url
 .
 goToHomescreen
 {
-verifyExistingTopSitesList
+verifyHomeScreen
 (
 )
 }
