@@ -676,6 +676,9 @@ verifyEnhancedTrackingProtectionButton
 )
 verifyEnhancedTrackingProtectionValue
 (
+"
+On
+"
 )
 /
 /
