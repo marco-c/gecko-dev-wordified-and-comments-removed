@@ -218,7 +218,6 @@ getDescription
 )
 :
 String
-?
 {
 return
 context

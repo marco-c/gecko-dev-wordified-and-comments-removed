@@ -4021,6 +4021,7 @@ finish
 (
 )
 }
+private
 fun
 setShouldRequestDesktop
 (

@@ -1501,6 +1501,7 @@ pref_key_privacy_block_ads
 )
 true
 )
+private
 fun
 shouldUseSafeBrowsing
 (

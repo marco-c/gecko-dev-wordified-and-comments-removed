@@ -526,14 +526,10 @@ SafeIntent
 :
 Result
 {
-val
-action
-=
-intent
-.
-action
 when
 (
+intent
+.
 action
 )
 {

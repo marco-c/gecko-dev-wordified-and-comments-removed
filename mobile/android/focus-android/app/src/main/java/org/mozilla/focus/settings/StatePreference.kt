@@ -157,6 +157,7 @@ context
 attrs
 )
 {
+private
 var
 summaryView
 :

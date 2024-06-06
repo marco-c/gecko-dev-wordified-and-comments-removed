@@ -121,12 +121,6 @@ androidx
 .
 lifecycle
 .
-Observer
-import
-androidx
-.
-lifecycle
-.
 ViewModelProvider
 import
 kotlinx
@@ -456,7 +450,6 @@ state
 observe
 (
 viewLifecycleOwner
-Observer
 {
 state
 -

@@ -84,6 +84,12 @@ mozilla
 focus
 .
 R
+import
+kotlin
+.
+math
+.
+min
 class
 FirstrunCardView
 JvmOverloads
@@ -254,8 +260,6 @@ tablets
 val
 measuredWidth
 =
-Math
-.
 min
 (
 availableWidth
@@ -264,8 +268,6 @@ maxWidth
 val
 measuredHeight
 =
-Math
-.
 min
 (
 availableHeight

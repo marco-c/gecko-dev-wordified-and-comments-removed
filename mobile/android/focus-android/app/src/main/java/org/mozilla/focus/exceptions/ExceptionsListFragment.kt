@@ -1275,6 +1275,7 @@ viewType
 parent
 false
 )
+)
 {
 AutocompleteDomainFormatter
 .
@@ -1283,7 +1284,6 @@ format
 it
 )
 }
-)
 else
 -
 >

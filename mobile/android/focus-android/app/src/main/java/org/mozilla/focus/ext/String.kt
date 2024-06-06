@@ -263,10 +263,9 @@ truncatedPath
 )
 if
 (
-!
 truncatedPath
 .
-isNullOrEmpty
+isNotEmpty
 (
 )
 )

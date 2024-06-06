@@ -965,7 +965,7 @@ BuildConfig
 .
 MLS_TOKEN
 .
-isNullOrEmpty
+isEmpty
 (
 )
 )
@@ -1389,12 +1389,11 @@ CrashReporterService
 )
 if
 (
-!
 BuildConfig
 .
 SENTRY_TOKEN
 .
-isNullOrEmpty
+isNotEmpty
 (
 )
 )
