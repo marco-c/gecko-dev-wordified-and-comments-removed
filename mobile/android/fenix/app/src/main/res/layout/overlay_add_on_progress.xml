@@ -154,6 +154,16 @@ elevation
 TextView
 android
 :
+id
+=
+"
++
+id
+/
+add_ons_overlay_text
+"
+android
+:
 layout_width
 =
 "
