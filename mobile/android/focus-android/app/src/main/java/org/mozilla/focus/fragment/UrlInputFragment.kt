@@ -3437,7 +3437,7 @@ searchText
 )
 view
 .
-onAutocomplete
+applyAutocompleteResult
 (
 AutocompleteResult
 (
