@@ -171,8 +171,6 @@ type
 b
 -
 android
--
-large
 worker
 :
 docker
