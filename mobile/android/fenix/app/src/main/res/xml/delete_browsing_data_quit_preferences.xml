@@ -129,6 +129,13 @@ auto
 >
 <
 SwitchPreference
+app
+:
+iconSpaceReserved
+=
+"
+false
+"
 android
 :
 defaultValue
