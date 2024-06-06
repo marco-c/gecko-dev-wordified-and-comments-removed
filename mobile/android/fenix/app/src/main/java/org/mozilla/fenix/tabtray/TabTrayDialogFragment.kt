@@ -771,6 +771,9 @@ orientation
 Configuration
 .
 ORIENTATION_LANDSCAPE
+viewLifecycleOwner
+.
+lifecycleScope
 )
 {
 tabsFeature
