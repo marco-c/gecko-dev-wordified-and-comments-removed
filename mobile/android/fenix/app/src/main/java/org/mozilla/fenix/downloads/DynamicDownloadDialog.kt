@@ -139,7 +139,7 @@ feature
 .
 downloads
 .
-toMegabyteString
+toMegabyteOrKilobyteString
 import
 org
 .
@@ -534,7 +534,7 @@ downloadState
 contentLength
 ?
 .
-toMegabyteString
+toMegabyteOrKilobyteString
 (
 )
 }
