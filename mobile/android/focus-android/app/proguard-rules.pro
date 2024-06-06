@@ -1625,6 +1625,12 @@ android
 *
 -
 dontwarn
+androidx
+.
+*
+*
+-
+dontwarn
 com
 .
 google
@@ -1638,6 +1644,14 @@ org
 mozilla
 .
 geckoview
+.
+*
+*
+-
+dontwarn
+mozilla
+.
+components
 .
 *
 *
