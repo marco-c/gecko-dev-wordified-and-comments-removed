@@ -416,7 +416,7 @@ openSettings
 .
 openSearchSettingsMenu
 {
-verifySearchSuggestionsEnabled
+verifySearchSuggestionsSwitchState
 (
 true
 )
@@ -465,7 +465,7 @@ openSettings
 .
 openSearchSettingsMenu
 {
-verifySearchSuggestionsEnabled
+verifySearchSuggestionsSwitchState
 (
 false
 )
