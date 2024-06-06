@@ -506,10 +506,7 @@ scoped_refptr
 FrameTransformerInterface
 >
 frame_transformer
-rtc
-:
-:
-TaskQueue
+TaskQueueBase
 *
 encoder_queue
 )
