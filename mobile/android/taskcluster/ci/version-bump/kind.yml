@@ -191,6 +191,11 @@ unique
 kinds
 :
 false
+attributes
+:
+component
+:
+all
 run
 -
 on
