@@ -148,27 +148,18 @@ all_tasks
 =
 pr
 (
+builder
 )
     
-other_tasks
-=
 all_tasks
-[
--
-1
-]
-    
-other_tasks
-[
-_generate_slug_id
+.
+append
 (
-)
-]
-=
 builder
 .
 craft_ui_tests_task
 (
+)
 )
     
 return
