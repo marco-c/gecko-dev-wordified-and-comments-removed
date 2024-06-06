@@ -243,6 +243,7 @@ null
 :
 Boolean
 {
+return
 try
 {
 val
@@ -262,8 +263,6 @@ it
 url
 =
 =
-it
-.
 url
 }
 =
@@ -294,7 +293,6 @@ position
 position
 )
 }
-return
 canAdd
 }
 catch
@@ -306,7 +304,6 @@ PlacesException
 UrlParseFailed
 )
 {
-return
 false
 }
 }
