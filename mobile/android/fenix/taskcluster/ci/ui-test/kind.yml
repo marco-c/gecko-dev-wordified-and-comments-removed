@@ -372,11 +372,11 @@ public
 path
 :
 /
-build
+builds
 /
-fenix
+worker
 /
-results
+artifacts
 type
 :
 directory
