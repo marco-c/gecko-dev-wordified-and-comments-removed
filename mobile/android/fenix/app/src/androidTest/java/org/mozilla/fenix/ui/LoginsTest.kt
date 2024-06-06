@@ -3593,9 +3593,6 @@ firefox
 .
 goBackToSavedLogins
 {
-clickSearchLoginButton
-(
-)
 searchLogin
 (
 "
@@ -3625,9 +3622,6 @@ firefox
 .
 goBackToSavedLogins
 {
-clickSearchLoginButton
-(
-)
 searchLogin
 (
 "
@@ -3872,9 +3866,6 @@ firefox
 .
 goBackToSavedLogins
 {
-clickSearchLoginButton
-(
-)
 searchLogin
 (
 "
@@ -3904,9 +3895,6 @@ firefox
 .
 goBackToSavedLogins
 {
-clickSearchLoginButton
-(
-)
 searchLogin
 (
 "

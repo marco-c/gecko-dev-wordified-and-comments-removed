@@ -190,9 +190,9 @@ app
 showAsAction
 =
 "
-ifRoom
-|
 collapseActionView
+|
+always
 "
 /
 >
