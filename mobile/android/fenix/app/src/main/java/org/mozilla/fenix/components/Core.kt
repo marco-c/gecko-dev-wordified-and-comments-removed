@@ -231,6 +231,16 @@ browser
 .
 thumbnails
 .
+ThumbnailsMiddleware
+import
+mozilla
+.
+components
+.
+browser
+.
+thumbnails
+.
 storage
 .
 ThumbnailStorage
@@ -785,6 +795,10 @@ java
 )
 ReaderViewMiddleware
 (
+)
+ThumbnailsMiddleware
+(
+thumbnailStorage
 )
 )
 )
