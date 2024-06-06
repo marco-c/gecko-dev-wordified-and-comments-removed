@@ -2203,6 +2203,14 @@ onBackPressed
 -
 >
 true
+fullScreenFeature
+.
+onBackPressed
+(
+)
+-
+>
+true
 sessionFeature
 .
 onBackPressed
