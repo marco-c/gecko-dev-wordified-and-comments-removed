@@ -935,6 +935,16 @@ Help
 -
 >
 {
+HomeMenuMetrics
+.
+helpTapped
+.
+record
+(
+NoExtras
+(
+)
+)
 homeActivity
 .
 openToBrowserAndLoad
