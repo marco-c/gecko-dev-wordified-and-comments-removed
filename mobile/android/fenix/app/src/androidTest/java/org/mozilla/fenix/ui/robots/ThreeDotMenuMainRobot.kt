@@ -792,8 +792,6 @@ addOnsButton
 syncAndSaveDataButton
 findInPageButton
 desktopSiteButton
-/
-/
 reportSiteIssueButton
 addToHomeScreenButton
 addToShortcutsButton
