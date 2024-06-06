@@ -335,6 +335,10 @@ lazy
 TabSorter
 (
 context
+.
+settings
+(
+)
 concatAdapter
 context
 .
