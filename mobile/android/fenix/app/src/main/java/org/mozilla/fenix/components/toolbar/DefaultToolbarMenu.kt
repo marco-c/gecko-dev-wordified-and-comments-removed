@@ -141,7 +141,7 @@ menu
 .
 item
 .
-BrowserMenuSwitch
+BrowserMenuImageSwitch
 import
 org
 .
@@ -845,8 +845,13 @@ Item
 Library
 )
 }
-BrowserMenuSwitch
+BrowserMenuImageSwitch
 (
+R
+.
+drawable
+.
+ic_desktop
 context
 .
 getString
