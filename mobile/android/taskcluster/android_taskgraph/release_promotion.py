@@ -3,9 +3,9 @@ os
 from
 mozilla_version
 .
-maven
+mobile
 import
-MavenVersion
+MobileVersion
 from
 taskgraph
 .
@@ -121,9 +121,8 @@ promotion
 title
 =
 '
-Ship
-Android
-Components
+Release
+Promotion
 '
     
 symbol
@@ -139,9 +138,8 @@ release_promotion_flavor
 description
 =
 "
-Ship
-Android
-Components
+Release
+Promotion
 "
     
 generic
@@ -401,7 +399,7 @@ default
 '
 :
 '
-ship
+build
 '
                 
 '
@@ -1008,20 +1006,8 @@ read_version_file
 (
 )
     
-parameters
-[
-'
-version
-'
-]
+version_string
 =
-input
-[
-'
-version
-'
-]
-if
 input
 .
 get
@@ -1029,22 +1015,19 @@ get
 '
 version
 '
+None
 )
-else
-read_version_file
-(
-)
-    
-version_string
-=
-parameters
-[
-'
-version
-'
-]
     
 if
+not
+version_string
+:
+        
+version_string
+=
+version_in_file
+    
+elif
 version_string
 !
 =
@@ -1054,7 +1037,6 @@ version_in_file
 raise
 ValueError
 (
-f
 "
 Version
 given
@@ -1062,7 +1044,6 @@ in
 tag
 (
 {
-version_string
 }
 )
 does
@@ -1076,11 +1057,25 @@ version
 txt
 (
 {
-version_in_file
 }
 )
 "
+.
+format
+(
+version_string
+version_in_file
 )
+)
+    
+parameters
+[
+'
+version
+'
+]
+=
+version_string
     
 parameters
 [
@@ -1089,13 +1084,16 @@ head_tag
 '
 ]
 =
-f
 '
 v
 {
-version_string
 }
 '
+.
+format
+(
+version_string
+)
     
 parameters
 [
@@ -1111,6 +1109,33 @@ next_version
 '
 ]
     
+release_type
+=
+"
+release
+"
+    
+version
+=
+MobileVersion
+.
+parse
+(
+version_string
+)
+    
+if
+version
+.
+is_beta
+:
+        
+release_type
+=
+"
+beta
+"
+    
 parameters
 [
 '
@@ -1118,18 +1143,7 @@ release_type
 '
 ]
 =
-"
-release
-"
-    
-parameters
-[
-'
-pull_request_number
-'
-]
-=
-None
+release_type
     
 parameters
 [
@@ -1141,6 +1155,15 @@ tasks_for
 '
 action
 '
+    
+parameters
+[
+'
+pull_request_number
+'
+]
+=
+None
     
 parameters
 =
