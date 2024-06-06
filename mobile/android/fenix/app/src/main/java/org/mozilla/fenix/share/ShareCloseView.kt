@@ -105,6 +105,18 @@ share_close
 .
 *
 import
+mozilla
+.
+components
+.
+concept
+.
+engine
+.
+prompt
+.
+ShareData
+import
 org
 .
 mozilla
@@ -225,7 +237,7 @@ tabs
 :
 List
 <
-ShareTab
+ShareData
 >
 )
 {
