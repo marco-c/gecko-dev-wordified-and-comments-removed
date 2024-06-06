@@ -232,6 +232,15 @@ layout_height
 "
 match_parent
 "
+android
+:
+layout_marginBottom
+=
+"
+dimen
+/
+toolbar_and_qab_height
+"
 >
 <
 mozilla
