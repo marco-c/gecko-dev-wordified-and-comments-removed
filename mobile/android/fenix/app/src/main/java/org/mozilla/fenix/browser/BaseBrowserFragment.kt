@@ -1268,8 +1268,8 @@ Session
 Source
 .
 ACTION_VIEW
-|
-|
+&
+&
 getSessionById
 (
 )
