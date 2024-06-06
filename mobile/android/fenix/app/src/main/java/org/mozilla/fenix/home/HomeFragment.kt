@@ -2197,15 +2197,6 @@ browsingModeManager
 mode
 .
 isPrivate
-&
-&
-!
-PrivateShortcutCreateManager
-.
-doesPrivateBrowsingPinnedShortcutExist
-(
-context
-)
 )
 {
 recommendPrivateBrowsingShortcut
