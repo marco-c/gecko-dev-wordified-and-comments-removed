@@ -89,14 +89,6 @@ mozilla
 .
 fenix
 .
-FeatureFlags
-import
-org
-.
-mozilla
-.
-fenix
-.
 R
 import
 org
@@ -576,11 +568,6 @@ settings
 )
 .
 isExperimentationEnabled
-isVisible
-=
-FeatureFlags
-.
-nimbusExperiments
 onPreferenceChangeListener
 =
 SharedPreferenceUpdater
