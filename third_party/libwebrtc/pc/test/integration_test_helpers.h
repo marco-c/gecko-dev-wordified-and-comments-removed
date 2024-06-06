@@ -6100,15 +6100,9 @@ RTC_DCHECK
 (
 local_candidate
 .
-type
+is_local
 (
 )
-=
-=
-cricket
-:
-:
-LOCAL_PORT_TYPE
 )
 ;
 const

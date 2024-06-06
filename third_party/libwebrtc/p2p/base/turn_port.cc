@@ -2981,12 +2981,9 @@ if
 (
 local_candidate
 .
-type
+is_relay
 (
 )
-=
-=
-RELAY_PORT_TYPE
 &
 &
 local_candidate

@@ -8498,10 +8498,7 @@ EXPECT_EQ
 (
 IceCandidateTypeToStatsType
 (
-cricket
-:
-:
-LOCAL_PORT_TYPE
+local
 )
 ExtractStatsValue
 (
@@ -8650,10 +8647,7 @@ EXPECT_EQ
 (
 IceCandidateTypeToStatsType
 (
-cricket
-:
-:
-PRFLX_PORT_TYPE
+remote
 )
 ExtractStatsValue
 (
