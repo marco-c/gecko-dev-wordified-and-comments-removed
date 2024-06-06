@@ -334,6 +334,16 @@ tasks
 worker_definition
 =
 {
+            
+"
+upstream
+-
+artifacts
+"
+:
+[
+]
+        
 }
         
 for
@@ -535,27 +545,19 @@ groupSymbol
         
 job_symbol
 =
-dep
-.
 task
-[
-"
-extra
-"
-]
 [
 "
 treeherder
 "
 ]
 .
-get
+pop
 (
 "
+job
+-
 symbol
-"
-"
-?
 "
 )
         

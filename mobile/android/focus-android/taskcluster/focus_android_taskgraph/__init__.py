@@ -41,6 +41,18 @@ _import_modules
 "
 job
 "
+        
+"
+worker_types
+"
+        
+"
+routes
+"
+        
+"
+target_tasks
+"
     
 ]
 )

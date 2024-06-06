@@ -1084,6 +1084,26 @@ apk
                 
 }
 )
+                
+apks
+[
+apk
+[
+"
+abi
+"
+]
+]
+=
+{
+                    
+"
+name
+"
+:
+apk_name
+                
+}
         
 yield
 task
