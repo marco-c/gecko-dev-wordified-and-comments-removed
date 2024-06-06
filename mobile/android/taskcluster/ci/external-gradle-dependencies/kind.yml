@@ -410,7 +410,9 @@ focus
 -
 android
 /
-buildSrc
+plugins
+/
+focusdependencies
 /
 src
 /
@@ -418,7 +420,7 @@ main
 /
 java
 /
-FocusDependencies
+FocusDependenciesPlugin
 .
 kt
 lint

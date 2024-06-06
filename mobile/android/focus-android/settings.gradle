@@ -103,6 +103,16 @@ plugins
 config
 "
 )
+includeBuild
+(
+"
+.
+/
+plugins
+/
+focusdependencies
+"
+)
 }
 plugins
 {
@@ -117,6 +127,10 @@ id
 mozac
 .
 DependenciesPlugin
+'
+id
+'
+FocusDependenciesPlugin
 '
 }
 apply
