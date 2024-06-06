@@ -479,16 +479,6 @@ fenix
 .
 ext
 .
-components
-import
-org
-.
-mozilla
-.
-fenix
-.
-ext
-.
 requireComponents
 import
 org
