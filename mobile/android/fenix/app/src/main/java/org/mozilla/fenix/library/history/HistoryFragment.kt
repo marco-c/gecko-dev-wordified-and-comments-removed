@@ -483,7 +483,7 @@ item
 is
 HistoryAction
 .
-onBackPressed
+BackPressed
 -
 >
 getManagedEmitter
