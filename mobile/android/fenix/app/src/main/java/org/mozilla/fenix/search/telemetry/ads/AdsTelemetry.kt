@@ -133,16 +133,6 @@ mozilla
 .
 fenix
 .
-ext
-.
-containsAds
-import
-org
-.
-mozilla
-.
-fenix
-.
 search
 .
 telemetry

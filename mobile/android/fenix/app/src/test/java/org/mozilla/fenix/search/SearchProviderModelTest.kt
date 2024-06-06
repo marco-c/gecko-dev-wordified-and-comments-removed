@@ -63,7 +63,7 @@ mozilla
 .
 fenix
 .
-ext
+search
 import
 org
 .
@@ -99,7 +99,7 @@ telemetry
 .
 SearchProviderModel
 class
-AdsTest
+SearchProviderModelTest
 {
 private
 val
