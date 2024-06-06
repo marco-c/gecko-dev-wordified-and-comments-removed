@@ -3486,9 +3486,6 @@ appStore
 requireComponents
 .
 appStore
-viewLifecycleOwner
-=
-viewLifecycleOwner
 bottomToolbarContainerView
 =
 bottomToolbarContainerView

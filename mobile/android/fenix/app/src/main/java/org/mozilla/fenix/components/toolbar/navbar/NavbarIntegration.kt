@@ -83,12 +83,6 @@ view
 .
 isVisible
 import
-androidx
-.
-lifecycle
-.
-LifecycleOwner
-import
 kotlinx
 .
 coroutines
@@ -228,10 +222,6 @@ appStore
 :
 AppStore
 val
-viewLifecycleOwner
-:
-LifecycleOwner
-val
 bottomToolbarContainerView
 :
 BottomToolbarContainerView
@@ -260,6 +250,7 @@ toolbar
 store
 sessionId
 )
+private
 var
 scope
 :
@@ -283,9 +274,6 @@ scope
 appStore
 .
 flowScoped
-(
-viewLifecycleOwner
-)
 {
 flow
 -

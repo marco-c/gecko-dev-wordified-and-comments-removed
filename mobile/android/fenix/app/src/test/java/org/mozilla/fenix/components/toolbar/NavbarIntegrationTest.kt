@@ -163,11 +163,6 @@ appStore
 mockk
 (
 )
-viewLifecycleOwner
-=
-mockk
-(
-)
 bottomToolbarContainerView
 =
 mockk
