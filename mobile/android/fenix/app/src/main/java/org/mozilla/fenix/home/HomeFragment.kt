@@ -5672,6 +5672,11 @@ wallpaperName
 val
 wallpaperImage
 =
+context
+?
+.
+let
+{
 requireComponents
 .
 useCases
@@ -5680,8 +5685,10 @@ wallpaperUseCases
 .
 loadBitmap
 (
+it
 wallpaper
 )
+}
 wallpaperImage
 ?
 .
