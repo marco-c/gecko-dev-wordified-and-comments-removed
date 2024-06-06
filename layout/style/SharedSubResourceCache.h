@@ -157,6 +157,16 @@ Cancel
 =
 0
 ;
+Derived
+*
+GetNextSubResource
+(
+)
+{
+return
+mNext
+;
+}
 ~
 SharedSubResourceCacheLoadingValueBase
 (
