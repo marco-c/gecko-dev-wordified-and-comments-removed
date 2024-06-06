@@ -39,9 +39,6 @@ browser_ext_downloads_referrer
 js
 "
 ]
-https_first_disabled
-=
-true
 [
 "
 browser_ext_eventpage_disableResetIdleForTest
