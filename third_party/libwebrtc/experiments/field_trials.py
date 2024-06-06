@@ -3815,25 +3815,6 @@ FieldTrial
 '
 WebRTC
 -
-DisablePacerEmergencyStop
-'
-               
-'
-'
-               
-date
-(
-2024
-4
-1
-)
-)
-    
-FieldTrial
-(
-'
-WebRTC
--
 DisableUlpFecExperiment
 '
                
