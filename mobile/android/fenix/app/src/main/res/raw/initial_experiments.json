@@ -500,7 +500,7 @@ privacy
 isEnrollmentPaused
 "
 :
-false
+true
 "
 isRollout
 "
@@ -981,7 +981,7 @@ enrollmentEndDate
 -
 10
 -
-24
+26
 "
 "
 endDate
