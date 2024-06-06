@@ -3781,6 +3781,10 @@ settings
 .
 shouldOpenLinksInApp
 (
+customTabSessionId
+!
+=
+null
 )
 }
 loadUrlUseCase
