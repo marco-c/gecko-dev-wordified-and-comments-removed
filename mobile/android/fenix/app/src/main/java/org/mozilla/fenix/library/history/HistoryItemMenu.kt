@@ -164,6 +164,11 @@ string
 .
 history_delete_item
 )
+R
+.
+color
+.
+photonRed60
 )
 {
 onItemTapped
