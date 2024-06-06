@@ -1896,7 +1896,7 @@ goBack
 .
 openTabDrawer
 {
-verifyNoTabsOpened
+verifyNoOpenTabsInNormalBrowsing
 (
 )
 }
