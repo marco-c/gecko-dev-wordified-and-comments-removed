@@ -1063,15 +1063,6 @@ syncHistory
 :
 :
 syncHistory
-settings
-=
-requireContext
-(
-)
-.
-components
-.
-settings
 )
 historyInteractor
 =

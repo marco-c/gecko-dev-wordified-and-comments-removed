@@ -187,14 +187,6 @@ id
 .
 historyFragment
 )
-FromHistorySearchDialog
-(
-R
-.
-id
-.
-historySearchDialogFragment
-)
 FromHistoryMetadataGroup
 (
 R
