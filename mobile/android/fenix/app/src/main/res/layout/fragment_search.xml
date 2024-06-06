@@ -984,6 +984,13 @@ search_fragment_shortcuts_label_margin_horizontal
 "
 android
 :
+visibility
+=
+"
+gone
+"
+android
+:
 text
 =
 "
