@@ -237,7 +237,7 @@ response
 .
 body
 .
-string
+close
 (
 )
 return
