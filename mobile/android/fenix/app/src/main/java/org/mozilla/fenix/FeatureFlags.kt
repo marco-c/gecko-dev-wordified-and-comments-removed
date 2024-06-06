@@ -500,7 +500,7 @@ Config
 .
 channel
 .
-isNightlyOrDebug
+isDebug
 /
 *
 *
