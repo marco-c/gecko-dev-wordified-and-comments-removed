@@ -691,9 +691,10 @@ android
 background
 =
 "
-color
+?
+attr
 /
-photonGrey30
+homeDividerColor
 "
 app
 :
