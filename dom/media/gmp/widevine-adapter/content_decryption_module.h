@@ -996,9 +996,6 @@ kTemporary
 kPersistentLicense
 =
 1
-kPersistentUsageRecord
-=
-2
 }
 ;
 CHECK_TYPE

@@ -2887,7 +2887,7 @@ cdm
 SessionType
 :
 :
-kPersistentUsageRecord
+kPersistentLicense
 )
 ;
 MOZ_ASSERT
