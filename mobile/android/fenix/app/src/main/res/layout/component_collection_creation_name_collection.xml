@@ -201,7 +201,7 @@ android
 layout_height
 =
 "
-wrap_content
+0dp
 "
 android
 :
@@ -246,6 +246,15 @@ drawableTint
 color
 /
 neutral_text
+"
+android
+:
+gravity
+=
+"
+start
+|
+center_vertical
 "
 android
 :

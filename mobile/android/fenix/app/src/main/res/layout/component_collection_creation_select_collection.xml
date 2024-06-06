@@ -201,7 +201,7 @@ android
 layout_height
 =
 "
-wrap_content
+0dp
 "
 android
 :
@@ -237,6 +237,15 @@ drawablePadding
 =
 "
 8dp
+"
+android
+:
+gravity
+=
+"
+start
+|
+center_vertical
 "
 android
 :

@@ -201,7 +201,7 @@ android
 layout_height
 =
 "
-wrap_content
+0dp
 "
 android
 :
@@ -253,6 +253,8 @@ gravity
 =
 "
 start
+|
+center_vertical
 "
 android
 :
@@ -352,7 +354,7 @@ android
 layout_height
 =
 "
-wrap_content
+0dp
 "
 android
 :
@@ -379,6 +381,8 @@ gravity
 =
 "
 start
+|
+center_vertical
 "
 android
 :
