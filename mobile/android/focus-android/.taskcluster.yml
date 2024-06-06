@@ -425,6 +425,7 @@ gradlew
 clean
 assemble
 detektCheck
+ktlint
 lint
 pmd
 checkstyle
@@ -865,6 +866,7 @@ gradlew
 clean
 assemble
 detektCheck
+ktlint
 lint
 pmd
 checkstyle
