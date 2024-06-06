@@ -785,6 +785,9 @@ onDestroyView
 _tabTrayView
 =
 null
+tabsFeature
+=
+null
 super
 .
 onDestroyView
@@ -838,9 +841,6 @@ unregister
 (
 tabTrayView
 )
-tabsFeature
-=
-null
 super
 .
 onStop
