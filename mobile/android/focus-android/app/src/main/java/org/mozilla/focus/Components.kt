@@ -337,6 +337,16 @@ mozilla
 .
 focus
 .
+telemetry
+.
+TelemetryMiddleware
+import
+org
+.
+mozilla
+.
+focus
+.
 utils
 .
 Settings
@@ -506,6 +516,9 @@ listOf
 PrivateNotificationMiddleware
 (
 context
+)
+TelemetryMiddleware
+(
 )
 DownloadMiddleware
 (
