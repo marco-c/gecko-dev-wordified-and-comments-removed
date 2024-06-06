@@ -630,9 +630,9 @@ Modifier
 .
 padding
 (
-vertical
+top
 =
-44
+72
 .
 dp
 )
