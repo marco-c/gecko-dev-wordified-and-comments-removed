@@ -3688,7 +3688,7 @@ R
 .
 color
 .
-primary_text_private_theme
+fx_mobile_private_text_color_primary
 )
 }
 else

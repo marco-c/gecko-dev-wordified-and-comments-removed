@@ -2592,7 +2592,7 @@ colorAccent
 >
 color
 /
-primary_text_private_theme
+fx_mobile_private_text_color_primary
 <
 /
 item
@@ -2894,7 +2894,7 @@ colorControlNormal
 >
 color
 /
-primary_text_private_theme
+fx_mobile_private_text_color_primary
 <
 /
 item
@@ -2919,7 +2919,7 @@ primaryText
 >
 color
 /
-primary_text_private_theme
+fx_mobile_private_text_color_primary
 <
 /
 item
@@ -3529,7 +3529,7 @@ mozac_primary_text_color
 >
 color
 /
-primary_text_private_theme
+fx_mobile_private_text_color_primary
 <
 /
 item
@@ -3735,7 +3735,7 @@ privateBrowsingButtonBackground
 >
 color
 /
-primary_text_private_theme
+fx_mobile_private_text_color_primary
 <
 /
 item
