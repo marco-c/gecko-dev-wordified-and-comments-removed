@@ -66,6 +66,8 @@ fenix
 components
 .
 toolbar
+.
+navbar
 import
 androidx
 .
@@ -283,6 +285,8 @@ components
 .
 toolbar
 .
+navbar
+.
 ItemType
 .
 STANDARD
@@ -296,6 +300,8 @@ fenix
 components
 .
 toolbar
+.
+navbar
 .
 ItemType
 .
@@ -952,8 +958,6 @@ string
 mozac_tab_counter_content_description
 type
 =
-ItemType
-.
 TAB_COUNTER
 )
 val
