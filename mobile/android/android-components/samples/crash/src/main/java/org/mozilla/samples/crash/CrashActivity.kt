@@ -157,6 +157,18 @@ crash
 .
 Crash
 import
+mozilla
+.
+components
+.
+support
+.
+utils
+.
+ext
+.
+registerReceiverCompat
+import
 org
 .
 mozilla
@@ -376,7 +388,7 @@ super
 onResume
 (
 )
-registerReceiver
+registerReceiverCompat
 (
 receiver
 IntentFilter
@@ -385,6 +397,9 @@ CrashApplication
 .
 NON_FATAL_CRASH_BROADCAST
 )
+ContextCompat
+.
+RECEIVER_NOT_EXPORTED
 )
 crashReporter
 .
