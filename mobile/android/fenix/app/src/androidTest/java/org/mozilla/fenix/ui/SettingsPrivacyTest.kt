@@ -984,8 +984,7 @@ login
 saveLoginFromPrompt
 (
 "
-Don
-t
+Never
 save
 "
 )
