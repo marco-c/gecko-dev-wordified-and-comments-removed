@@ -524,6 +524,15 @@ string
 /
 preference_category_switching_apps
 "
+android
+:
+key
+=
+"
+string
+/
+preference_category_switching_apps
+"
 >
 <
 SwitchPreference

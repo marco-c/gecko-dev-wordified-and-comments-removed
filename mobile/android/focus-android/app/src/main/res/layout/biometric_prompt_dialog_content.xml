@@ -265,7 +265,7 @@ id
 +
 id
 /
-fingerprint_icon
+fingerprintIcon
 "
 android
 :
@@ -310,7 +310,7 @@ id
 +
 id
 /
-biometric_error_text
+biometricErrorText
 "
 android
 :
@@ -388,7 +388,7 @@ id
 +
 id
 /
-new_session_button
+newSessionButton
 "
 android
 :
