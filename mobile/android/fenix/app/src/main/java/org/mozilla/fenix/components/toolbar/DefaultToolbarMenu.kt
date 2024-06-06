@@ -240,6 +240,9 @@ lazy
 BrowserMenuBuilder
 (
 menuItems
+endOfMenuAlwaysVisible
+=
+true
 )
 }
 override
