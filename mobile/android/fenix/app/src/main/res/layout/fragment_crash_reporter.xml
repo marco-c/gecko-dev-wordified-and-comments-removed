@@ -149,7 +149,7 @@ background
 "
 color
 /
-photonGrey10
+searchBackground_normal_theme
 "
 >
 <
@@ -658,7 +658,7 @@ textColor
 "
 color
 /
-text_color_normal_theme
+about_primary_text_color
 "
 android
 :
