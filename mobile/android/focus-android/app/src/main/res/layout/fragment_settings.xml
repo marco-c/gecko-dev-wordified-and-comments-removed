@@ -127,7 +127,7 @@ background
 "
 color
 /
-photonInk90
+settings_background
 "
 /
 >
@@ -172,7 +172,7 @@ background
 "
 color
 /
-photonInk80
+settings_background
 "
 tools
 :
