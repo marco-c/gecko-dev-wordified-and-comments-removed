@@ -173,9 +173,11 @@ Update
 the
 display
 count
-and
 time
 shown
+and
+boot
+identifier
 metadata
 for
 the
@@ -192,6 +194,12 @@ updateMessageAsDisplayed
 message
 :
 Message
+bootIdentifier
+:
+String
+?
+=
+null
 )
 :
 Message
@@ -219,6 +227,9 @@ lastTimeShown
 now
 (
 )
+latestBootIdentifier
+=
+bootIdentifier
 )
 return
 message
