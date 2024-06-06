@@ -1325,9 +1325,9 @@ android
 label
 =
 "
-string
-/
-text_selection_search_action2
+{
+textSelectionSearchAction
+}
 "
 android
 :
