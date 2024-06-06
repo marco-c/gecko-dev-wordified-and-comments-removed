@@ -4455,9 +4455,14 @@ file
 /
 /
 {
+Uri
+.
+encode
+(
 temporalFile
 .
 absolutePath
+)
 }
 "
 )
