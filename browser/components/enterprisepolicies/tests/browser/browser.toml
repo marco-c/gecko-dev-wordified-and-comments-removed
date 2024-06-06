@@ -603,13 +603,6 @@ js
 ]
 [
 "
-browser_policy_translateenabled
-.
-js
-"
-]
-[
-"
 browser_policy_usermessaging
 .
 js
