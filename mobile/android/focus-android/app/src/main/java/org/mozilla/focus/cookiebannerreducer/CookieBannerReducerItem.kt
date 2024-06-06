@@ -620,7 +620,7 @@ R
 .
 drawable
 .
-mozac_ic_cookies
+mozac_ic_cookies_24
 )
 }
 else

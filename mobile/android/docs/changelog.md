@@ -509,6 +509,11 @@ Rename
 mozac_ic_add_to_homescreen
 to
 mozac_ic_add_to_homescreen_24
+*
+Rename
+mozac_ic_cookies
+to
+mozac_ic_cookies_24
 #
 116
 .
