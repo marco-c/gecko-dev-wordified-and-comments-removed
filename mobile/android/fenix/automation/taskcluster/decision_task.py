@@ -172,20 +172,10 @@ is_staging
 )
 :
     
-build_tasks
+tasks
 =
-{
-}
-    
-signing_tasks
-=
-{
-}
-    
-other_tasks
-=
-{
-}
+[
+]
     
 mozharness_task_id
 =
@@ -233,16 +223,7 @@ geckoNightly
 '
 )
     
-assemble_task_id
-=
-_generate_slug_id
-(
-)
-    
-build_tasks
-[
-assemble_task_id
-]
+build_task
 =
 builder
 .
@@ -251,24 +232,34 @@ craft_assemble_raptor_task
 variant
 )
     
-signing_task_id
-=
-_generate_slug_id
+tasks
+.
+append
 (
+build_task
 )
     
-signing_tasks
-[
-signing_task_id
-]
+signing_task
 =
 builder
 .
 craft_raptor_signing_task
 (
-assemble_task_id
+build_task
+[
+'
+label
+'
+]
 variant
 is_staging
+)
+    
+tasks
+.
+append
+(
+signing_task
 )
     
 for
@@ -335,35 +326,28 @@ in
 all_raptor_craft_functions
 :
             
-args
+raptor_task
 =
+craft_function
 (
+                
 signing_task_id
 mozharness_task_id
 variant_apk
 gecko_revision
 is_staging
+            
 )
             
-other_tasks
-[
-_generate_slug_id
+tasks
+.
+append
 (
-)
-]
-=
-craft_function
-(
-*
-args
+raptor_task
 )
     
 return
-(
-build_tasks
-signing_tasks
-other_tasks
-)
+tasks
 def
 release
 (
@@ -399,31 +383,7 @@ upstream_artifacts
 (
 )
     
-build_tasks
-=
-{
-}
-    
-signing_tasks
-=
-{
-}
-    
-push_tasks
-=
-{
-}
-    
-build_task_id
-=
-_generate_slug_id
-(
-)
-    
-build_tasks
-[
-build_task_id
-]
+build_task
 =
 builder
 .
@@ -435,23 +395,19 @@ is_staging
 version_name
 )
     
-signing_task_id
-=
-_generate_slug_id
-(
-)
-    
-signing_tasks
-[
-signing_task_id
-]
+signing_task
 =
 builder
 .
 craft_release_signing_task
 (
         
-build_task_id
+build_task
+[
+'
+label
+'
+]
         
 taskcluster_apk_paths
         
@@ -465,23 +421,19 @@ is_staging
     
 )
     
-push_task_id
-=
-_generate_slug_id
-(
-)
-    
-push_tasks
-[
-push_task_id
-]
+push_task
 =
 builder
 .
 craft_push_task
 (
         
-signing_task_id
+signing_task
+[
+'
+label
+'
+]
         
 taskcluster_apk_paths
         
@@ -511,11 +463,11 @@ is_staging
 )
     
 return
-(
-build_tasks
-signing_tasks
-push_tasks
-)
+[
+build_task
+signing_task
+push_task
+]
 def
 release_as_fennec
 (
