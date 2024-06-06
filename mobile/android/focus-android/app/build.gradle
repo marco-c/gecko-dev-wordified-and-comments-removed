@@ -279,13 +279,6 @@ includeAndroidResources
 true
 }
 }
-aaptOptions
-{
-noCompress
-'
-so
-'
-}
 flavorDimensions
 "
 product
