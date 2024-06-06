@@ -617,6 +617,11 @@ ShareInteractor
 (
 DefaultShareController
 (
+context
+=
+requireContext
+(
+)
 fragment
 =
 this
