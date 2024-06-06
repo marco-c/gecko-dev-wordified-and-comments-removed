@@ -398,6 +398,7 @@ capture
 (
 slotTabs
 )
+null
 "
 1
 "
@@ -497,6 +498,7 @@ updateTabs
 emptyList
 (
 )
+null
 "
 1
 "

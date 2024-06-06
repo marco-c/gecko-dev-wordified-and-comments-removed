@@ -255,6 +255,7 @@ tray
 updateTabs
 (
 it
+null
 browserStore
 .
 state
