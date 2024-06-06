@@ -50,3 +50,9 @@ true
 ij_kotlin_allow_trailing_comma
 =
 true
+[
+*
+]
+insert_final_newline
+=
+true
