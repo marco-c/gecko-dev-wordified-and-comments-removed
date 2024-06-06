@@ -744,13 +744,6 @@ CustomTabActivity
 "
 android
 :
-launchMode
-=
-"
-singleTask
-"
-android
-:
 configChanges
 =
 "
