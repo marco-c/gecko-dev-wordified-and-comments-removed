@@ -119,6 +119,16 @@ mozilla
 .
 fenix
 .
+ext
+.
+simplifiedUrl
+import
+org
+.
+mozilla
+.
+fenix
+.
 settings
 .
 logins
@@ -235,6 +245,10 @@ text
 item
 .
 origin
+.
+simplifiedUrl
+(
+)
 binding
 .
 usernameView
