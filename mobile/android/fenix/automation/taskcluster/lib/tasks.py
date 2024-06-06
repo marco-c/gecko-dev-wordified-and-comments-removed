@@ -1201,8 +1201,8 @@ no
 -
 daemon
 clean
-assembleArmDebug
-assembleArmDebugAndroidTest
+assemble
+assembleAndroidTest
 '
         
 )
