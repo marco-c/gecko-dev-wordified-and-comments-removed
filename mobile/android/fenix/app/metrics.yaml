@@ -5101,6 +5101,9 @@ extra_keys
 :
 position
 :
+type
+:
+string
 description
 :
 |
