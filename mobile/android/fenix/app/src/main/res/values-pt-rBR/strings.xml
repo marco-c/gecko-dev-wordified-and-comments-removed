@@ -1121,11 +1121,7 @@ name
 browser_menu_desktop_site
 "
 >
-Vers
-o
-do
-site
-para
+Site
 desktop
 <
 /
@@ -1327,7 +1323,6 @@ browser_menu_save_to_collection
 >
 Salvar
 em
-uma
 cole
 o
 <
@@ -2466,7 +2461,7 @@ name
 preferences_search
 "
 >
-Pesquisar
+Pesquisa
 <
 /
 string
@@ -3444,6 +3439,8 @@ preferences_show_clipboard_suggestions
 Mostrar
 sugest
 es
+a
+partir
 da
 rea
 de
@@ -3480,6 +3477,7 @@ preferences_search_browsing_history
 "
 >
 Pesquisar
+no
 hist
 rico
 de
@@ -3515,6 +3513,7 @@ preferences_search_bookmarks
 "
 >
 Pesquisar
+nos
 favoritos
 <
 /
@@ -3733,7 +3732,7 @@ name
 preferences_sign_out
 "
 >
-Sair
+Desconectar
 <
 /
 string
@@ -4644,7 +4643,7 @@ name
 preferences_usage_data_description
 "
 >
-Compartilha
+Compartilhar
 dados
 de
 desempenho
@@ -5162,7 +5161,10 @@ name
 preference_bottom_toolbar
 "
 >
-Embaixo
+Na
+parte
+de
+baixo
 <
 /
 string
@@ -5253,7 +5255,7 @@ name
 preference_auto_battery_theme
 "
 >
-Definir
+Definido
 pela
 economia
 de
@@ -6360,7 +6362,6 @@ save_to_collection
 >
 Salvar
 em
-uma
 cole
 o
 <
@@ -8411,7 +8412,8 @@ preference_option_phone_feature_ask_to_allow
 "
 >
 Perguntar
-para
+se
+deve
 permitir
 <
 /
@@ -9065,8 +9067,7 @@ name
 create_collection_add_new_collection
 "
 >
-Adicionar
-nova
+Nova
 cole
 o
 <
@@ -11084,9 +11085,9 @@ name
 preference_accessibility_text_size_summary
 "
 >
-Aumente
+Aumentar
 ou
-diminua
+diminuir
 o
 texto
 em
@@ -11118,8 +11119,8 @@ preference_accessibility_font_size_title
 "
 >
 Tamanho
-da
-fonte
+das
+fontes
 <
 /
 string
@@ -11181,8 +11182,10 @@ preference_accessibility_auto_size_summary
 >
 O
 tamanho
-da
-fonte
+das
+fontes
+de
+caracteres
 corresponder
 sua
 configura
@@ -11193,11 +11196,11 @@ Android
 Desative
 para
 gerenciar
+aqui
 o
 tamanho
-da
-fonte
-aqui
+das
+fontes
 .
 <
 /
@@ -11810,7 +11813,7 @@ name
 preference_summary_delete_browsing_data_on_quit
 "
 >
-Exclui
+Excluir
 automaticamente
 os
 dados
@@ -11868,7 +11871,7 @@ name
 preference_summary_delete_browsing_data_on_quit_2
 "
 >
-Exclui
+Excluir
 automaticamente
 os
 dados
@@ -12390,8 +12393,7 @@ para
 seus
 olhos
 e
-para
-a
+economiza
 bateria
 .
 <
@@ -14173,10 +14175,10 @@ preference_enhanced_tracking_protection_strict_default_description
 >
 Prote
 o
-contra
-rastreamento
 mais
 forte
+contra
+rastreamento
 e
 desempenho
 mais
@@ -15758,7 +15760,8 @@ preferences_passwords_save_logins_ask_to_save
 "
 >
 Perguntar
-para
+se
+deve
 salvar
 <
 /
@@ -15844,7 +15847,9 @@ name
 preferences_passwords_sync_logins
 "
 >
-Sincronizar
+Sincroniza
+o
+de
 contas
 <
 /
@@ -17205,9 +17210,8 @@ name
 preference_accessibility_force_enable_zoom_summary
 "
 >
-Ative
-para
-permitir
+Ativar
+permite
 zoom
 com
 movimento
