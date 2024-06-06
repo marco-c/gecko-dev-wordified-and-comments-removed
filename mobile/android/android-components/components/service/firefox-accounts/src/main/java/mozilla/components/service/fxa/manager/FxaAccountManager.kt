@@ -393,7 +393,7 @@ service
 .
 fxa
 .
-intoSyncType
+into
 import
 mozilla
 .
@@ -6187,7 +6187,7 @@ deviceConfig
 .
 type
 .
-intoSyncType
+into
 (
 )
 )

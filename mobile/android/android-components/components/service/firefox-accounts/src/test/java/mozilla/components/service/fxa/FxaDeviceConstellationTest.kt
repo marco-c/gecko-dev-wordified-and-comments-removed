@@ -503,16 +503,6 @@ appservices
 .
 fxaclient
 .
-DeviceType
-as
-NativeDeviceType
-import
-mozilla
-.
-appservices
-.
-fxaclient
-.
 PersistedFirefoxAccount
 as
 NativeFirefoxAccount
@@ -521,7 +511,7 @@ mozilla
 .
 appservices
 .
-syncmanager
+sync15
 .
 DeviceType
 as
@@ -871,7 +861,7 @@ initializeDevice
 test
 name
 "
-NativeDeviceType
+RustDeviceType
 .
 TABLET
 setOf
@@ -3674,7 +3664,7 @@ testName
 "
 deviceType
 =
-NativeDeviceType
+RustDeviceType
 .
 MOBILE
 isCurrentDevice

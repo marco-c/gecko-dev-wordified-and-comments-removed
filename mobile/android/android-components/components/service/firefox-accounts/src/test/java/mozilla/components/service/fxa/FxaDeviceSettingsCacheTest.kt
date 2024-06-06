@@ -81,9 +81,9 @@ mozilla
 .
 appservices
 .
-syncmanager
+sync15
 .
-DeviceSettings
+DeviceType
 import
 mozilla
 .
@@ -91,7 +91,7 @@ appservices
 .
 syncmanager
 .
-DeviceType
+DeviceSettings
 import
 mozilla
 .
