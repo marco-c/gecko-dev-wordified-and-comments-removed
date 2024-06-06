@@ -1064,7 +1064,6 @@ format
 self
 .
 short_head_branch
-.
 self
 .
 date
