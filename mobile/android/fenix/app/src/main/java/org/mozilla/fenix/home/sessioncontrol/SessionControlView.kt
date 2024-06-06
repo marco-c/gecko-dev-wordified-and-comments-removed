@@ -322,7 +322,7 @@ add
 (
 AdapterItem
 .
-TopSiteList
+TopSitePager
 (
 topSites
 )
@@ -843,7 +843,7 @@ adapterItem
 is
 AdapterItem
 .
-TopSiteList
+TopSitePager
 &
 &
 adapterItem

@@ -259,7 +259,7 @@ sessioncontrol
 .
 viewholders
 .
-TopSiteViewHolder
+TopSitePagerViewHolder
 import
 org
 .
@@ -491,7 +491,7 @@ LAYOUT_ID
 )
 data
 class
-TopSiteList
+TopSitePager
 (
 val
 topSites
@@ -504,7 +504,7 @@ TopSite
 :
 AdapterItem
 (
-TopSiteViewHolder
+TopSitePagerViewHolder
 .
 LAYOUT_ID
 )
@@ -527,7 +527,7 @@ newTopSites
 other
 as
 ?
-TopSiteList
+TopSitePager
 )
 ?
 :
@@ -561,7 +561,7 @@ newTopSites
 other
 as
 ?
-TopSiteList
+TopSitePager
 )
 ?
 :
@@ -1236,12 +1236,12 @@ ButtonTipViewHolder
 view
 interactor
 )
-TopSiteViewHolder
+TopSitePagerViewHolder
 .
 LAYOUT_ID
 -
 >
-TopSiteViewHolder
+TopSitePagerViewHolder
 (
 view
 interactor
@@ -1486,7 +1486,7 @@ tip
 )
 }
 is
-TopSiteViewHolder
+TopSitePagerViewHolder
 -
 >
 {
@@ -1499,7 +1499,7 @@ item
 as
 AdapterItem
 .
-TopSiteList
+TopSitePager
 )
 .
 topSites
