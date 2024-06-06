@@ -1027,6 +1027,10 @@ accessPoint
 it
 .
 name
+.
+lowercase
+(
+)
 ]
 .
 add

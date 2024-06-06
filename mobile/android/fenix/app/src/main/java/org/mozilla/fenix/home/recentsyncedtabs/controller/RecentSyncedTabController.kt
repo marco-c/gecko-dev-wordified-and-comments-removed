@@ -303,6 +303,10 @@ tab
 deviceType
 .
 name
+.
+lowercase
+(
+)
 ]
 .
 add

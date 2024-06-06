@@ -1052,11 +1052,9 @@ RecentSyncedTabs
 .
 recentSyncedTabShown
 [
-deviceAccessed1
-.
-deviceType
-.
-name
+"
+desktop
+"
 ]
 .
 testGetValue
