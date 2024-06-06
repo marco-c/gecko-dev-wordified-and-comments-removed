@@ -328,6 +328,10 @@ SourceSurface
 >
 &
 aSurface
+bool
+aInvalidate
+=
+false
 )
 ;
 already_AddRefed
@@ -350,6 +354,9 @@ SourceSurface
 aSurface
 bool
 aDetached
+bool
+&
+aMayInvalidate
 )
 ;
 bool
