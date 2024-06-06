@@ -1693,10 +1693,6 @@ multipleSelectionToolbar
 .
 clickOpenNewTab
 {
-}
-.
-openTabDrawer
-{
 verifyNormalModeSelected
 (
 )
@@ -1784,10 +1780,6 @@ multipleSelectionToolbar
 }
 .
 clickOpenPrivateTab
-{
-}
-.
-openTabDrawer
 {
 verifyPrivateModeSelected
 (

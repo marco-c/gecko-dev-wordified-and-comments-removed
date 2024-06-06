@@ -1317,7 +1317,7 @@ navigate
 (
 BookmarkFragmentDirections
 .
-actionGlobalHome
+actionGlobalTabTrayDialogFragment
 (
 )
 )
@@ -1358,7 +1358,7 @@ navigate
 (
 BookmarkFragmentDirections
 .
-actionGlobalHome
+actionGlobalTabTrayDialogFragment
 (
 )
 )

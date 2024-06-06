@@ -1080,7 +1080,7 @@ id
 historyFragment
 HistoryFragmentDirections
 .
-actionGlobalHome
+actionGlobalTabTrayDialogFragment
 (
 )
 )
@@ -1151,7 +1151,7 @@ id
 historyFragment
 HistoryFragmentDirections
 .
-actionGlobalHome
+actionGlobalTabTrayDialogFragment
 (
 )
 )
