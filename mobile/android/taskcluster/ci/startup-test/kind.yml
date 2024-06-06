@@ -588,11 +588,9 @@ public
 /
 build
 /
-app
--
-focus
--
-androidTest
+target
+.
+noarch
 .
 apk
 >
