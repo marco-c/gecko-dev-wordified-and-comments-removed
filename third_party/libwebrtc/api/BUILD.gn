@@ -3583,6 +3583,10 @@ deps
 [
 "
 :
+field_trials_view
+"
+"
+:
 network_emulation_manager_api
 "
 "

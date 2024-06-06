@@ -17,6 +17,15 @@ memory
 #
 include
 "
+api
+/
+field_trials_view
+.
+h
+"
+#
+include
+"
 test
 /
 network
@@ -41,6 +50,10 @@ TimeMode
 time_mode
 EmulatedNetworkStatsGatheringMode
 stats_gathering_mode
+const
+FieldTrialsView
+*
+field_trials
 )
 {
 return
@@ -57,6 +70,7 @@ NetworkEmulationManagerImpl
 (
 time_mode
 stats_gathering_mode
+field_trials
 )
 ;
 }
