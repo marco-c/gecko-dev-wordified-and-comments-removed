@@ -68,7 +68,7 @@ loader
 transforms
 :
 -
-ac_taskgraph
+android_taskgraph
 .
 transforms
 .
@@ -76,7 +76,7 @@ ui_tests
 :
 transforms
 -
-ac_taskgraph
+android_taskgraph
 .
 transforms
 .

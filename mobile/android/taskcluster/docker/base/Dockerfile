@@ -940,6 +940,8 @@ openjdk
 -
 jdk
 \
+wget
+\
 expect
 \
 git
