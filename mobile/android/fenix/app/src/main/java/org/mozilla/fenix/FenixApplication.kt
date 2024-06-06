@@ -4635,6 +4635,14 @@ else
 "
 }
 )
+inactiveTabsEnabled
+.
+set
+(
+settings
+.
+inactiveTabsAreEnabled
+)
 }
 reportHomeScreenMetrics
 (

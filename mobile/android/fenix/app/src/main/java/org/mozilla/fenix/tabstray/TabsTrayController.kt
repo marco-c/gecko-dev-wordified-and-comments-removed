@@ -1329,6 +1329,14 @@ handleDeleteAllInactiveTabs
 (
 )
 {
+metrics
+.
+track
+(
+Event
+.
+TabsTrayCloseAllInactiveTabs
+)
 browserStore
 .
 state
