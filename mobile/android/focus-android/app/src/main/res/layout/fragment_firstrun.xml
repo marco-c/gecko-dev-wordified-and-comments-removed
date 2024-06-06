@@ -198,14 +198,14 @@ wrap_content
 "
 android
 :
-paddingLeft
+paddingStart
 =
 "
 16dp
 "
 android
 :
-paddingRight
+paddingEnd
 =
 "
 16dp
