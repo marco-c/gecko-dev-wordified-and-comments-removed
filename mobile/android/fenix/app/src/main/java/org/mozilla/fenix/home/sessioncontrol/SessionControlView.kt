@@ -611,9 +611,6 @@ listOf
 AdapterItem
 .
 OnboardingManualSignIn
-(
-onboardingState
-)
 )
 }
 is

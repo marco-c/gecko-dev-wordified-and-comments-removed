@@ -891,15 +891,8 @@ other
 .
 labelBuilder
 }
-data
-class
+object
 OnboardingManualSignIn
-(
-val
-state
-:
-OnboardingState
-)
 :
 AdapterItem
 (
@@ -915,6 +908,8 @@ val
 state
 :
 OnboardingState
+.
+SignedOutCanAutoSignIn
 )
 :
 AdapterItem
@@ -1615,7 +1610,6 @@ holder
 bind
 (
 (
-(
 item
 as
 AdapterItem
@@ -1624,11 +1618,6 @@ OnboardingAutomaticSignIn
 )
 .
 state
-as
-OnboardingState
-.
-SignedOutCanAutoSignIn
-)
 .
 withAccount
 )
