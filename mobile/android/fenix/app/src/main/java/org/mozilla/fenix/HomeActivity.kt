@@ -1524,6 +1524,8 @@ session
 register
 (
 singleSessionObserver
+this
+HomeActivity
 )
 }
 override
@@ -1574,6 +1576,8 @@ it
 register
 (
 singleSessionObserver
+this
+HomeActivity
 )
 }
 }
@@ -1590,6 +1594,7 @@ sessionManager
 register
 (
 it
+this
 )
 }
 }

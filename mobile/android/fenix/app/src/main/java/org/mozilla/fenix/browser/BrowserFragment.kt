@@ -4321,6 +4321,7 @@ getSessionById
 register
 (
 observer
+this
 )
 return
 observer
@@ -4381,6 +4382,7 @@ sessionManager
 register
 (
 it
+this
 )
 }
 }

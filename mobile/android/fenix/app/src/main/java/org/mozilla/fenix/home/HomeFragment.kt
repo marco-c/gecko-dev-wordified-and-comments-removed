@@ -3100,6 +3100,7 @@ sessionManager
 register
 (
 observer
+this
 )
 return
 observer
