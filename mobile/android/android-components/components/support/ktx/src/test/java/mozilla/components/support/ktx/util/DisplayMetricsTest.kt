@@ -204,9 +204,9 @@ density
 3f
 metrics
 .
-scaledDensity
-=
-2f
+setToDefaults
+(
+)
 val
 resources
 :
@@ -288,6 +288,12 @@ floatValue
 spToPx
 (
 metrics
+)
+Suppress
+(
+"
+DEPRECATION
+"
 )
 assertEquals
 (
