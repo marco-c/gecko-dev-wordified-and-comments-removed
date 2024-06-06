@@ -337,7 +337,7 @@ DateUtils
 .
 SECOND_IN_MILLIS
 *
-4
+15
 const
 val
 webPageLoadwaitingTime
