@@ -178,6 +178,10 @@ EngineSession
 uri
 :
 String
+lastUri
+:
+String
+?
 hasUserGesture
 :
 Boolean
@@ -213,6 +217,7 @@ onLoadRequest
 (
 engineSession
 uri
+lastUri
 hasUserGesture
 isSameDomain
 isRedirect
