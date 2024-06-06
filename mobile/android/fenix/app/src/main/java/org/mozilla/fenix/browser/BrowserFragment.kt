@@ -1067,6 +1067,9 @@ sessionManager
 view
 .
 findInPageView
+view
+.
+engineView
 )
 owner
 =
