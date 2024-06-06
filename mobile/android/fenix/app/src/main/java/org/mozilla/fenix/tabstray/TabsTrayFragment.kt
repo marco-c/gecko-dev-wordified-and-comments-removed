@@ -1494,6 +1494,11 @@ settings
 fragment
 =
 this
+dialog
+=
+dialog
+as
+TabsTrayDialog
 )
 owner
 =
