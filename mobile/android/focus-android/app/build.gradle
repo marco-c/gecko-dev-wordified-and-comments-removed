@@ -98,7 +98,9 @@ JsonOutput
 android
 {
 compileSdkVersion
-33
+config
+.
+compileSdkVersion
 if
 (
 project
@@ -171,9 +173,13 @@ org
 mozilla
 "
 minSdkVersion
-21
+config
+.
+minSdkVersion
 targetSdkVersion
-33
+config
+.
+targetSdkVersion
 versionCode
 11
 /

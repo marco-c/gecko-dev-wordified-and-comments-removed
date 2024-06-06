@@ -179,7 +179,7 @@ gradle
 android
 {
 compileSdkVersion
-Config
+config
 .
 compileSdkVersion
 project
@@ -260,11 +260,11 @@ org
 mozilla
 "
 minSdkVersion
-Config
+config
 .
 minSdkVersion
 targetSdkVersion
-Config
+config
 .
 targetSdkVersion
 versionCode

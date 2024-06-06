@@ -90,7 +90,7 @@ fenix
 benchmark
 '
 compileSdk
-Config
+config
 .
 compileSdkVersion
 compileOptions
@@ -119,7 +119,7 @@ defaultConfig
 minSdk
 23
 targetSdk
-Config
+config
 .
 targetSdkVersion
 testInstrumentationRunner
