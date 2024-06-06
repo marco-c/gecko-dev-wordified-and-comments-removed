@@ -1291,9 +1291,6 @@ daemon
 assemble
 testFocusX86DebugUnitTest
 lint
-pmd
-checkstyle
-spotbugs
 detektCheck
 ktlint
 #

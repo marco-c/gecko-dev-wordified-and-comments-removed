@@ -135,11 +135,7 @@ gradlew
 -
 q
 \
-checkstyle
-\
 ktlint
-\
-pmd
 \
 detektCheck
 \
