@@ -210,7 +210,7 @@ android
 padding
 =
 "
-16dp
+12dp
 "
 >
 <
@@ -280,7 +280,7 @@ android
 padding
 =
 "
-16dp
+12dp
 "
 >
 <
@@ -567,7 +567,7 @@ android
 layout_marginTop
 =
 "
-10dp
+4dp
 "
 android
 :
@@ -604,7 +604,7 @@ text
 "
 string
 /
-tab_tray_inactive_turn_on_auto_close_button
+tab_tray_inactive_turn_on_auto_close_button_2
 "
 app
 :

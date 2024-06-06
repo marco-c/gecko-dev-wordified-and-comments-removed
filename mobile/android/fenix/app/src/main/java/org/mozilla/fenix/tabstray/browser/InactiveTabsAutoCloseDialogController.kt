@@ -211,6 +211,11 @@ enableAutoClosed
 {
 settings
 .
+hasInactiveTabsAutoCloseDialogBeenDismissed
+=
+true
+settings
+.
 closeTabsAfterOneMonth
 =
 true
