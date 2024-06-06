@@ -812,7 +812,7 @@ Build
 .
 VERSION_CODES
 .
-LOLLIPOP
+M
 )
 {
 findPreference
