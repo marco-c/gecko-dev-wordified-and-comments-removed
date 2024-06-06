@@ -566,8 +566,8 @@ withText
 (
 "
 Automatic
-Font
-Sizing
+font
+sizing
 "
 )
 )
@@ -644,8 +644,8 @@ withText
 (
 "
 Automatic
-Font
-Sizing
+font
+sizing
 "
 )
 )
