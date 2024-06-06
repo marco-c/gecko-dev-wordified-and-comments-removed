@@ -134,6 +134,13 @@ center_vertical
 "
 android
 :
+layout_marginTop
+=
+"
+40dp
+"
+android
+:
 text
 =
 "
