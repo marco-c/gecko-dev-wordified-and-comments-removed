@@ -135,7 +135,8 @@ Leanplum
 usage
 in
 Firefox
-Preview
+for
+Android
 .
 #
 #
@@ -179,5 +180,6 @@ crash
 reporting
 in
 Firefox
-Preview
+for
+Android
 .
