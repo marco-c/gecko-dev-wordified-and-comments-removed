@@ -9541,6 +9541,8 @@ send_in_pings
 :
 -
 metrics
+-
+baseline
 bugs
 :
 -
@@ -9746,6 +9748,10 @@ com
 expires
 :
 never
+no_lint
+:
+-
+BASELINE_PING
 metadata
 :
 tags
@@ -17213,6 +17219,8 @@ send_in_pings
 :
 -
 metrics
+-
+baseline
 bugs
 :
 -
@@ -17382,6 +17390,10 @@ com
 expires
 :
 never
+no_lint
+:
+-
+BASELINE_PING
 name
 :
 type
@@ -17452,6 +17464,8 @@ send_in_pings
 :
 -
 metrics
+-
+baseline
 bugs
 :
 -
@@ -17621,6 +17635,10 @@ com
 expires
 :
 never
+no_lint
+:
+-
+BASELINE_PING
 search_url
 :
 type
@@ -45039,6 +45057,8 @@ send_in_pings
 :
 -
 metrics
+-
+baseline
 bugs
 :
 -
@@ -45188,6 +45208,10 @@ com
 expires
 :
 never
+no_lint
+:
+-
+BASELINE_PING
 ad_clicks
 :
 type
@@ -45218,6 +45242,8 @@ send_in_pings
 :
 -
 metrics
+-
+baseline
 bugs
 :
 -
@@ -45367,6 +45393,10 @@ com
 expires
 :
 never
+no_lint
+:
+-
+BASELINE_PING
 in_content
 :
 type
@@ -45391,6 +45421,8 @@ send_in_pings
 :
 -
 metrics
+-
+baseline
 bugs
 :
 -
@@ -45540,6 +45572,10 @@ com
 expires
 :
 never
+no_lint
+:
+-
+BASELINE_PING
 addons
 :
 open_addons_in_settings
