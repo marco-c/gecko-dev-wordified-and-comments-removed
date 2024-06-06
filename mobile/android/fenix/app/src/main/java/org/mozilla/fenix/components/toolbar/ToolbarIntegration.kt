@@ -264,6 +264,11 @@ toolbarMenu
 .
 menuBuilder
 )
+toolbar
+.
+private
+=
+isPrivate
 val
 tabsIcon
 =
