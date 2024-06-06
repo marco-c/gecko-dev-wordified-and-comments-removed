@@ -297,7 +297,7 @@ android
 clickable
 =
 "
-true
+false
 "
 android
 :
@@ -377,7 +377,7 @@ android
 clickable
 =
 "
-true
+false
 "
 android
 :
@@ -457,7 +457,7 @@ android
 clickable
 =
 "
-true
+false
 "
 android
 :
@@ -537,7 +537,7 @@ android
 clickable
 =
 "
-true
+false
 "
 android
 :
@@ -617,7 +617,7 @@ android
 clickable
 =
 "
-true
+false
 "
 android
 :
@@ -697,7 +697,7 @@ android
 clickable
 =
 "
-true
+false
 "
 android
 :
