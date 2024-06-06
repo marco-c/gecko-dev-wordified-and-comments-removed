@@ -1513,7 +1513,7 @@ R
 .
 styleable
 .
-SeekBarPreference
+TextPercentageSeekBarPreference
 defStyleAttr
 defStyleRes
 )
@@ -1586,7 +1586,7 @@ R
 .
 styleable
 .
-SeekBarPreference_min
+TextPercentageSeekBarPreference_min
 0
 )
 max
@@ -1599,7 +1599,7 @@ R
 .
 styleable
 .
-SeekBarPreference_android_max
+TextPercentageSeekBarPreference_android_max
 SEEK_BAR_MAX
 )
 seekBarIncrement
@@ -1612,7 +1612,7 @@ R
 .
 styleable
 .
-SeekBarPreference_seekBarIncrement
+TextPercentageSeekBarPreference_seekBarIncrement
 0
 )
 isAdjustable
@@ -1625,7 +1625,7 @@ R
 .
 styleable
 .
-SeekBarPreference_adjustable
+TextPercentageSeekBarPreference_adjustable
 true
 )
 mShowSeekBarValue
@@ -1638,7 +1638,7 @@ R
 .
 styleable
 .
-SeekBarPreference_showSeekBarValue
+TextPercentageSeekBarPreference_showSeekBarValue
 false
 )
 updatesContinuously
@@ -1651,7 +1651,7 @@ R
 .
 styleable
 .
-SeekBarPreference_updatesContinuously
+TextPercentageSeekBarPreference_updatesContinuously
 false
 )
 a
