@@ -874,13 +874,10 @@ check
 (
 matches
 (
-withEffectiveVisibility
-(
 ViewMatchers
 .
-Visibility
-.
-VISIBLE
+isCompletelyDisplayed
+(
 )
 )
 )

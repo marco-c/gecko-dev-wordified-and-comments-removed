@@ -354,7 +354,16 @@ android
 layout_height
 =
 "
-56dp
+wrap_content
+"
+android
+:
+minHeight
+=
+"
+dimen
+/
+library_item_height
 "
 /
 >
