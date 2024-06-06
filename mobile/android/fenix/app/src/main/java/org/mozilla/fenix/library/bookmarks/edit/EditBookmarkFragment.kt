@@ -339,6 +339,16 @@ toShortUrl
 import
 mozilla
 .
+components
+.
+ui
+.
+widgets
+.
+withCenterAlignedButtons
+import
+mozilla
+.
 telemetry
 .
 glean
@@ -1481,6 +1491,10 @@ dismiss
 )
 }
 create
+(
+)
+.
+withCenterAlignedButtons
 (
 )
 }

@@ -175,6 +175,16 @@ view
 .
 showKeyboard
 import
+mozilla
+.
+components
+.
+ui
+.
+widgets
+.
+withCenterAlignedButtons
+import
 org
 .
 mozilla
@@ -842,6 +852,10 @@ add
 )
 }
 create
+(
+)
+.
+withCenterAlignedButtons
 (
 )
 }

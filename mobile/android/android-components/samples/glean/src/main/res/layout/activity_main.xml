@@ -379,6 +379,13 @@ string
 /
 generate_data
 "
+android
+:
+textAlignment
+=
+"
+center
+"
 /
 >
 <
@@ -459,6 +466,13 @@ text
 string
 /
 check_experiments
+"
+android
+:
+textAlignment
+=
+"
+center
 "
 /
 >

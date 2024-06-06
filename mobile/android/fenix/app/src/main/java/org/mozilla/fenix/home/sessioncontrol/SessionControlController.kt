@@ -303,6 +303,16 @@ showKeyboard
 import
 mozilla
 .
+components
+.
+ui
+.
+widgets
+.
+withCenterAlignedButtons
+import
+mozilla
+.
 telemetry
 .
 glean
@@ -1702,6 +1712,10 @@ cancel
 }
 .
 show
+(
+)
+.
+withCenterAlignedButtons
 (
 )
 .

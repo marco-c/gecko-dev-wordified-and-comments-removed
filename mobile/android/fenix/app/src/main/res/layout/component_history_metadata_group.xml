@@ -204,6 +204,13 @@ history_empty_message
 "
 android
 :
+textAlignment
+=
+"
+center
+"
+android
+:
 textColor
 =
 "

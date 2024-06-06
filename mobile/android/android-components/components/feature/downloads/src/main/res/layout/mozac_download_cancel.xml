@@ -507,6 +507,13 @@ accept_button
 "
 android
 :
+textAlignment
+=
+"
+center
+"
+android
+:
 textAllCaps
 =
 "
@@ -606,6 +613,13 @@ paddingEnd
 =
 "
 16dp
+"
+android
+:
+textAlignment
+=
+"
+center
 "
 android
 :

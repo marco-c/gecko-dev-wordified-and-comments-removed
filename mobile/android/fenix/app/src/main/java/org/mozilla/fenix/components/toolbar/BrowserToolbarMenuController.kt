@@ -309,6 +309,16 @@ feature
 .
 ViewBoundFeatureWrapper
 import
+mozilla
+.
+components
+.
+ui
+.
+widgets
+.
+withCenterAlignedButtons
+import
 org
 .
 mozilla
@@ -1799,6 +1809,10 @@ dismiss
 )
 }
 create
+(
+)
+.
+withCenterAlignedButtons
 (
 )
 }

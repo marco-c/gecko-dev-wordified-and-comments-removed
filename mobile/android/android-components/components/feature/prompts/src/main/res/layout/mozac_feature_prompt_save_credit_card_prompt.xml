@@ -949,6 +949,13 @@ mozac_feature_prompt_not_now
 "
 android
 :
+textAlignment
+=
+"
+center
+"
+android
+:
 textAllCaps
 =
 "
@@ -1055,6 +1062,13 @@ text
 string
 /
 mozac_feature_prompt_save_confirmation
+"
+android
+:
+textAlignment
+=
+"
+center
 "
 android
 :

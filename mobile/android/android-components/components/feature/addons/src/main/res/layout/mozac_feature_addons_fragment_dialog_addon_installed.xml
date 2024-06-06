@@ -730,6 +730,13 @@ mozac_feature_addons_installed_dialog_okay_button
 "
 android
 :
+textAlignment
+=
+"
+center
+"
+android
+:
 textAllCaps
 =
 "

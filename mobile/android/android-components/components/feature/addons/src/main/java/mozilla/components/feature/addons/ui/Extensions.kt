@@ -161,6 +161,16 @@ Status
 .
 SuccessfullyUpdated
 import
+mozilla
+.
+components
+.
+ui
+.
+widgets
+.
+withCenterAlignedButtons
+import
 java
 .
 text
@@ -789,6 +799,10 @@ context
 )
 .
 show
+(
+)
+.
+withCenterAlignedButtons
 (
 )
 }

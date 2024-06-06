@@ -524,6 +524,13 @@ string
 /
 mozac_lib_crash_dialog_button_close
 "
+android
+:
+textAlignment
+=
+"
+center
+"
 app
 :
 layout_constraintStart_toStartOf
@@ -613,6 +620,13 @@ text
 string
 /
 mozac_lib_crash_dialog_button_restart
+"
+android
+:
+textAlignment
+=
+"
+center
 "
 app
 :

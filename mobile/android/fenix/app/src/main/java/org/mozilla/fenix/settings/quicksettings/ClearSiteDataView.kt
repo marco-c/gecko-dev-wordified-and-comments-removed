@@ -159,6 +159,16 @@ coroutines
 .
 launch
 import
+mozilla
+.
+components
+.
+ui
+.
+widgets
+.
+withCenterAlignedButtons
+import
 org
 .
 mozilla
@@ -562,6 +572,10 @@ baseDomain
 )
 }
 create
+(
+)
+.
+withCenterAlignedButtons
 (
 )
 }

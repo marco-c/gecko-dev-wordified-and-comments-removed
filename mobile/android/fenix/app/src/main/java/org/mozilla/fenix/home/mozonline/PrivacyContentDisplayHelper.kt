@@ -119,6 +119,16 @@ app
 .
 AlertDialog
 import
+mozilla
+.
+components
+.
+ui
+.
+widgets
+.
+withCenterAlignedButtons
+import
 org
 .
 mozilla
@@ -610,6 +620,10 @@ AlertDialog
 builder
 .
 create
+(
+)
+.
+withCenterAlignedButtons
 (
 )
 alertDialog

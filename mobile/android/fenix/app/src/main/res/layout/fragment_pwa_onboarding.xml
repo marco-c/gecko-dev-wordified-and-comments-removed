@@ -721,6 +721,13 @@ add_to_homescreen_continue
 "
 android
 :
+textAlignment
+=
+"
+center
+"
+android
+:
 textAllCaps
 =
 "

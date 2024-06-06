@@ -92,6 +92,16 @@ appcompat
 app
 .
 AlertDialog
+import
+mozilla
+.
+components
+.
+ui
+.
+widgets
+.
+withCenterAlignedButtons
 private
 const
 val
@@ -255,6 +265,10 @@ builder
 )
 .
 create
+(
+)
+.
+withCenterAlignedButtons
 (
 )
 }
