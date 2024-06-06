@@ -2533,7 +2533,7 @@ close_tabs_manually_summary
 )
 }
 }
-val
+var
 shouldUseDarkTheme
 by
 booleanPreference
