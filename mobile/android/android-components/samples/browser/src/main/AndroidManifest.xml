@@ -1527,6 +1527,13 @@ downloads
 .
 DownloadService
 "
+android
+:
+foregroundServiceType
+=
+"
+dataSync
+"
 /
 >
 <

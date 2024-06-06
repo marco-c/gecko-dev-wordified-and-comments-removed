@@ -3091,6 +3091,13 @@ DownloadService
 "
 android
 :
+foregroundServiceType
+=
+"
+dataSync
+"
+android
+:
 exported
 =
 "
