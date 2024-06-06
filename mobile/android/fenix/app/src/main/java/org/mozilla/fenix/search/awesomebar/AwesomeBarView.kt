@@ -739,13 +739,7 @@ components
 backgroundServices
 .
 syncedTabsStorage
-components
-.
-useCases
-.
-tabsUseCases
-.
-addTab
+loadUrlUseCase
 components
 .
 core
