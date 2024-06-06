@@ -701,9 +701,7 @@ ioScope
 coroutinesScope
 navController
 =
-{
 navController
-}
 sitePermissions
 =
 sitePermissions
@@ -1079,9 +1077,7 @@ ioScope
 coroutinesScope
 navController
 =
-{
 navController
-}
 sessionId
 =
 "
@@ -2203,9 +2199,7 @@ ioScope
 coroutinesScope
 navController
 =
-{
 navController
-}
 sitePermissions
 =
 sitePermissions

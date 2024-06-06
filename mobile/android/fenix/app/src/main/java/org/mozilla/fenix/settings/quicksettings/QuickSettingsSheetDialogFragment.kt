@@ -578,6 +578,12 @@ bind
 (
 rootView
 )
+val
+navController
+=
+findNavController
+(
+)
 quickSettingsStore
 =
 QuickSettingsFragmentStore
@@ -661,11 +667,7 @@ Dispatchers
 IO
 navController
 =
-{
-findNavController
-(
-)
-}
+navController
 sessionId
 =
 args
@@ -801,6 +803,9 @@ clearSiteDataDivider
 interactor
 =
 interactor
+navController
+=
+navController
 )
 return
 rootView

@@ -784,10 +784,6 @@ private
 val
 navController
 :
-(
-)
--
->
 NavController
 VisibleForTesting
 internal
@@ -1251,8 +1247,6 @@ handleDetailsClicked
 )
 {
 navController
-(
-)
 .
 popBackStack
 (
@@ -1301,8 +1295,6 @@ sitePermissions
 sitePermissions
 )
 navController
-(
-)
 .
 navigate
 (
@@ -1316,8 +1308,6 @@ handleConnectionDetailsClicked
 )
 {
 navController
-(
-)
 .
 popBackStack
 (
@@ -1381,8 +1371,6 @@ sitePermissions
 sitePermissions
 )
 navController
-(
-)
 .
 navigate
 (
@@ -1426,8 +1414,6 @@ ALL_SITE_DATA
 )
 )
 navController
-(
-)
 .
 popBackStack
 (
@@ -1664,8 +1650,6 @@ actionGlobalSitePermissionsManagePhoneFeature
 phoneFeature
 )
 navController
-(
-)
 .
 navigate
 (
