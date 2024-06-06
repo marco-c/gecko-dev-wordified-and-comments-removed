@@ -134,7 +134,7 @@ navController
 NavController
 private
 val
-showPermissionDialog
+onInstallButtonClicked
 :
 (
 Addon
@@ -186,7 +186,7 @@ addon
 Addon
 )
 {
-showPermissionDialog
+onInstallButtonClicked
 (
 addon
 )

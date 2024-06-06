@@ -595,7 +595,7 @@ sheetDialog
 }
 override
 fun
-onDismiss
+onCancel
 (
 dialog
 :
@@ -604,7 +604,7 @@ DialogInterface
 {
 super
 .
-onDismiss
+onCancel
 (
 dialog
 )
