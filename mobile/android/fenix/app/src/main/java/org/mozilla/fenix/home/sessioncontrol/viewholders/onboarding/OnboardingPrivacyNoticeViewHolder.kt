@@ -195,7 +195,7 @@ R
 .
 dimen
 .
-onboarding_privacy_notice_icon_height_width
+onboarding_header_icon_height_width
 )
 icon
 ?
