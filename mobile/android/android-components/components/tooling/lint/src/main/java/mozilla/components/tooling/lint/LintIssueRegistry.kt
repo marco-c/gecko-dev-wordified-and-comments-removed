@@ -174,5 +174,8 @@ ISSUE_XML_SRC_USAGE
 FactCollectDetector
 .
 ISSUE_FACT_COLLECT_CALLED
+NotificationManagerChecks
+.
+ISSUE_NOTIFICATION_USAGE
 )
 }
