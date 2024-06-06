@@ -353,7 +353,7 @@ assertEditBookmarksView
 (
 )
 fun
-verifyBoomarkNameEditBox
+verifyBookmarkNameEditBox
 (
 )
 =

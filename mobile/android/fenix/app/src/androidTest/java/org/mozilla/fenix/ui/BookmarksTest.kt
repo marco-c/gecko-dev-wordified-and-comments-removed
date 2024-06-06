@@ -572,7 +572,7 @@ clickEdit
 verifyEditBookmarksView
 (
 )
-verifyBoomarkNameEditBox
+verifyBookmarkNameEditBox
 (
 )
 verifyBookmarkURLEditBox
