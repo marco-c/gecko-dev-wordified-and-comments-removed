@@ -502,16 +502,6 @@ string
 .
 pref_key_start_on_home_after_four_hours
 )
-startOnHomeRadioFourHours
-=
-requirePreference
-(
-R
-.
-string
-.
-pref_key_start_on_home_after_four_hours
-)
 startOnHomeRadioAlways
 =
 requirePreference
