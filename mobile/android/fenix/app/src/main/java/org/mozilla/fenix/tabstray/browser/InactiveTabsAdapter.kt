@@ -132,7 +132,7 @@ tabs
 .
 *
 *
-property
+param
 lifecycleOwner
 [
 LifecycleOwner
@@ -147,7 +147,7 @@ tied
 to
 .
 *
-property
+param
 tabsTrayStore
 [
 TabsTrayStore
@@ -165,7 +165,7 @@ inactiveTabs
 ]
 .
 *
-property
+param
 interactor
 [
 InactiveTabsInteractor

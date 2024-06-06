@@ -190,7 +190,7 @@ HistoryFragmentStore
 .
 *
 *
-property
+param
 accountManager
 The
 [
@@ -202,7 +202,7 @@ Sync
 operations
 .
 *
-property
+param
 refreshView
 Callback
 to
@@ -216,7 +216,7 @@ is
 completed
 .
 *
-property
+param
 scope
 Coroutine
 scope

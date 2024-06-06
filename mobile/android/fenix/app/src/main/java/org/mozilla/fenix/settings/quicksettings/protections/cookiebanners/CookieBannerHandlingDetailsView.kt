@@ -243,7 +243,7 @@ inflate
 itself
 .
 *
-property
+param
 context
 An
 Android
@@ -252,7 +252,7 @@ Context
 ]
 .
 *
-property
+param
 ioScope
 [
 CoroutineScope
@@ -267,7 +267,7 @@ structured
 concurrency
 .
 *
-property
+param
 publicSuffixList
 To
 show
@@ -275,7 +275,7 @@ short
 url
 .
 *
-property
+param
 interactor
 [
 CookieBannerDetailsInteractor
@@ -290,7 +290,7 @@ user
 interactions
 .
 *
-property
+param
 onDismiss
 Lambda
 invoked

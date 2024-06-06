@@ -237,7 +237,7 @@ layout
 .
 *
 *
-property
+param
 interactor
 [
 TabsTrayInteractor
@@ -251,7 +251,7 @@ tab
 tray
 .
 *
-property
+param
 tabsTrayStore
 [
 TabsTrayStore
@@ -280,7 +280,7 @@ tab
 "
 .
 *
-property
+param
 featureName
 [
 String

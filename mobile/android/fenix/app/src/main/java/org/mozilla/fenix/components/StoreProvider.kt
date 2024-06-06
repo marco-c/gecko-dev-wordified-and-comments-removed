@@ -238,7 +238,7 @@ instances
 .
 *
 *
-property
+param
 createStore
 Callback
 to

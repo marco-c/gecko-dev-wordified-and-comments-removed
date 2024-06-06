@@ -130,7 +130,7 @@ UI
 .
 *
 *
-property
+param
 store
 [
 AppStore

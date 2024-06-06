@@ -473,7 +473,7 @@ inflate
 itself
 .
 *
-property
+param
 interactor
 [
 WebsitePermissionInteractor

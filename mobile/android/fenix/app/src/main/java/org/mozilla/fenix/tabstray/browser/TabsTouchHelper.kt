@@ -445,7 +445,7 @@ user
 interactions
 .
 *
-property
+param
 onViewHolderTouched
 Invoked
 when
@@ -463,7 +463,7 @@ OnViewHolderTouched
 ]
 .
 *
-property
+param
 onViewHolderDraw
 Invoked
 when

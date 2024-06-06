@@ -198,7 +198,7 @@ logins
 list
 *
 *
-property
+param
 loginsFragmentStore
 Store
 used
@@ -211,7 +211,7 @@ collection
 state
 .
 *
-property
+param
 navController
 NavController
 manages
@@ -222,7 +222,7 @@ a
 NavHost
 .
 *
-property
+param
 browserNavigator
 Controller
 allowing
@@ -233,7 +233,7 @@ any
 Uri
 .
 *
-property
+param
 settings
 SharedPreferences
 wrapper

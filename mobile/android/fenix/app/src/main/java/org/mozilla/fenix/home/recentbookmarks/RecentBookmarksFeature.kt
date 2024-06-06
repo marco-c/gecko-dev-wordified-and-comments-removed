@@ -193,7 +193,7 @@ AppStore
 .
 *
 *
-property
+param
 appStore
 the
 [
@@ -210,7 +210,7 @@ HomeFragment
 ]
 .
 *
-property
+param
 bookmarksUseCase
 the
 [
@@ -229,7 +229,7 @@ from
 storage
 .
 *
-property
+param
 scope
 the
 [
@@ -242,7 +242,7 @@ the
 bookmarks
 list
 *
-property
+param
 ioDispatcher
 the
 [

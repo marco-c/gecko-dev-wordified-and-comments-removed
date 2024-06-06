@@ -387,7 +387,7 @@ inflate
 itself
 .
 *
-property
+param
 trackingProtectionDivider
 trackingProtectionDivider
 The

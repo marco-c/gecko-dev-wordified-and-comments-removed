@@ -224,7 +224,7 @@ bar
 .
 *
 *
-property
+param
 store
 The
 [
@@ -240,7 +240,7 @@ selected
 tab
 .
 *
-property
+param
 sessionId
 ID
 of
@@ -258,7 +258,7 @@ be
 performed
 .
 *
-property
+param
 view
 The
 [
@@ -269,7 +269,7 @@ to
 display
 .
 *
-property
+param
 engineView
 the
 browser
@@ -297,7 +297,7 @@ page
 bar
 .
 *
-property
+param
 toolbarInfo
 [
 ToolbarInfo

@@ -252,7 +252,7 @@ crashes
 .
 *
 *
-property
+param
 browserStore
 [
 BrowserStore
@@ -270,7 +270,7 @@ crashed
 ]
 .
 *
-property
+param
 appStore
 [
 AppStore
@@ -300,7 +300,7 @@ crash
 reports
 .
 *
-property
+param
 toolbar
 [
 BrowserToolbar
@@ -319,7 +319,7 @@ crash
 reporter
 .
 *
-property
+param
 isToolbarPlacedAtTop
 [
 Boolean
@@ -345,7 +345,7 @@ the
 toolbar
 .
 *
-property
+param
 crashReporterView
 [
 CrashContentView
@@ -364,7 +364,7 @@ as
 crashed
 .
 *
-property
+param
 components
 [
 Components
@@ -377,7 +377,7 @@ app
 features
 .
 *
-property
+param
 settings
 [
 Settings
@@ -394,7 +394,7 @@ or
 not
 .
 *
-property
+param
 navController
 [
 NavController
@@ -410,7 +410,7 @@ the
 app
 .
 *
-property
+param
 sessionId
 [
 String

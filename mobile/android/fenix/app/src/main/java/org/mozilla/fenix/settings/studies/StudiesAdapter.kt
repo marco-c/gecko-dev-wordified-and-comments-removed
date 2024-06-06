@@ -287,7 +287,7 @@ study
 .
 *
 *
-property
+param
 studiesDelegate
 Delegate
 that
@@ -328,7 +328,7 @@ actions
 items
 .
 *
-property
+param
 shouldSubmitOnInit
 The
 sole

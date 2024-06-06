@@ -255,7 +255,7 @@ tied
 to
 .
 *
-property
+param
 interactor
 [
 RecentVisitsInteractor

@@ -235,7 +235,7 @@ TabsTrayStore
 instance
 .
 *
-property
+param
 handle
 The
 "
@@ -257,7 +257,7 @@ open
 close
 .
 *
-property
+param
 containerLayout
 The
 [

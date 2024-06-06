@@ -233,7 +233,7 @@ branch
 .
 *
 *
-property
+param
 context
 An
 Android
@@ -242,7 +242,7 @@ Context
 ]
 .
 *
-property
+param
 navController
 [
 NavController
@@ -252,7 +252,7 @@ for
 navigation
 .
 *
-property
+param
 nimbusBranchesStore
 An
 instance
@@ -269,7 +269,7 @@ NimbusBranchesAction
 s
 .
 *
-property
+param
 experiments
 An
 instance
@@ -285,7 +285,7 @@ Nimbus
 experiments
 .
 *
-property
+param
 experimentId
 The
 string

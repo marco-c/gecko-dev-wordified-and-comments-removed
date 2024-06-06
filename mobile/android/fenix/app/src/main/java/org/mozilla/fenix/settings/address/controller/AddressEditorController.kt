@@ -259,7 +259,7 @@ AddressEditorController
 .
 *
 *
-property
+param
 storage
 An
 instance
@@ -276,7 +276,7 @@ retrieving
 addresses
 .
 *
-property
+param
 lifecycleScope
 [
 CoroutineScope
@@ -287,7 +287,7 @@ launch
 coroutines
 .
 *
-property
+param
 navController
 [
 NavController

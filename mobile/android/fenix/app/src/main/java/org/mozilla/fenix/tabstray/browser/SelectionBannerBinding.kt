@@ -274,14 +274,14 @@ tabs
 .
 *
 *
-property
+param
 context
 An
 Android
 context
 .
 *
-property
+param
 binding
 The
 binding
@@ -292,7 +292,7 @@ the
 view
 .
 *
-property
+param
 store
 [
 TabsTrayStore
@@ -311,7 +311,7 @@ dispatch
 actions
 .
 *
-property
+param
 interactor
 [
 TabsTrayInteractor
@@ -323,7 +323,7 @@ user
 actions
 .
 *
-property
+param
 backgroundView
 The
 background
@@ -340,7 +340,7 @@ Mode
 ]
 .
 *
-property
+param
 showOnSelectViews
 A
 variable
@@ -358,7 +358,7 @@ select
 mode
 .
 *
-property
+param
 showOnNormalViews
 A
 variable

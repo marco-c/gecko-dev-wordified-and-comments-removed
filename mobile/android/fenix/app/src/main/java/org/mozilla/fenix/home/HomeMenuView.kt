@@ -335,7 +335,7 @@ HomeMenu
 .
 *
 *
-property
+param
 view
 The
 [
@@ -348,7 +348,7 @@ snackbar
 to
 .
 *
-property
+param
 context
 An
 Android
@@ -357,7 +357,7 @@ Context
 ]
 .
 *
-property
+param
 lifecycleOwner
 [
 LifecycleOwner
@@ -367,7 +367,7 @@ the
 view
 .
 *
-property
+param
 homeActivity
 [
 HomeActivity
@@ -382,7 +382,7 @@ new
 tab
 .
 *
-property
+param
 navController
 [
 NavController
@@ -392,7 +392,7 @@ for
 navigation
 .
 *
-property
+param
 menuButton
 The
 [
@@ -414,7 +414,7 @@ is
 clicked
 .
 *
-property
+param
 fxaEntrypoint
 The
 source

@@ -194,7 +194,7 @@ to
 observe
 .
 *
-property
+param
 onRequestStateUpdate
 Callback
 to

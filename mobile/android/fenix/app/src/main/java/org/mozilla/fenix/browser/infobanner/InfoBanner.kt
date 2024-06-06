@@ -164,7 +164,7 @@ layout
 .
 *
 *
-property
+param
 context
 A
 [
@@ -176,7 +176,7 @@ system
 resources
 .
 *
-property
+param
 container
 The
 layout
@@ -188,7 +188,7 @@ be
 shown
 .
 *
-property
+param
 message
 The
 message
@@ -198,7 +198,7 @@ the
 banner
 .
 *
-property
+param
 dismissText
 The
 text
@@ -208,7 +208,7 @@ dismiss
 button
 .
 *
-property
+param
 actionText
 The
 text
@@ -220,7 +220,7 @@ perform
 button
 .
 *
-property
+param
 dismissByHiding
 Whether
 or
@@ -246,7 +246,7 @@ the
 banner
 .
 *
-property
+param
 actionToPerform
 The
 action

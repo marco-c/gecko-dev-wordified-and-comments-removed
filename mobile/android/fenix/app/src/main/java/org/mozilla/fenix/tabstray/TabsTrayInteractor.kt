@@ -628,7 +628,7 @@ TabsTrayInteractor
 .
 *
 *
-property
+param
 controller
 [
 TabsTrayController

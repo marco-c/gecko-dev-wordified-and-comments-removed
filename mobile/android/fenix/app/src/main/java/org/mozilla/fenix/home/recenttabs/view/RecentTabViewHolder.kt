@@ -217,7 +217,7 @@ tied
 to
 .
 *
-property
+param
 recentTabInteractor
 [
 RecentTabInteractor

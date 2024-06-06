@@ -459,7 +459,7 @@ tab
 "
 .
 *
-property
+param
 imageLoader
 [
 ImageLoader
@@ -471,7 +471,7 @@ tab
 thumbnails
 .
 *
-property
+param
 trayStore
 [
 TabsTrayStore
@@ -490,7 +490,7 @@ update
 that
 .
 *
-property
+param
 selectionHolder
 [
 SelectionHolder
@@ -526,7 +526,7 @@ telemetry
 reporting
 .
 *
-property
+param
 store
 [
 BrowserStore

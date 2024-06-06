@@ -262,7 +262,7 @@ tied
 to
 .
 *
-property
+param
 interactor
 [
 CollectionInteractor

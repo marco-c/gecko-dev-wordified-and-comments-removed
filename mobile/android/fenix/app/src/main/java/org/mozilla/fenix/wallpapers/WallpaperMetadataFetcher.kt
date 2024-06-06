@@ -161,7 +161,7 @@ server
 .
 *
 *
-property
+param
 client
 The
 client

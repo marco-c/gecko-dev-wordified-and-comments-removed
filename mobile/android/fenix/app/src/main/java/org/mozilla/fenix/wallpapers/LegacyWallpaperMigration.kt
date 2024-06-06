@@ -194,7 +194,7 @@ new
 paths
 *
 *
-property
+param
 storageRootDirectory
 The
 top
@@ -206,7 +206,7 @@ storage
 directory
 .
 *
-property
+param
 settings
 Used
 to
@@ -221,7 +221,7 @@ above
 wallpapers
 .
 *
-property
+param
 downloadWallpaper
 Function
 used

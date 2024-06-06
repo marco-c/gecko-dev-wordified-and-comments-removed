@@ -185,7 +185,7 @@ state
 .
 *
 *
-property
+param
 textColorResource
 ID
 of

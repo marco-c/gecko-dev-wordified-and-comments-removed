@@ -530,7 +530,7 @@ list
 .
 *
 *
-property
+param
 listState
 State
 of
@@ -538,7 +538,7 @@ the
 list
 .
 *
-property
+param
 scope
 [
 CoroutineScope
@@ -552,7 +552,7 @@ target
 item
 .
 *
-property
+param
 hapticFeedback
 [
 HapticFeedback
@@ -568,7 +568,7 @@ long
 press
 .
 *
-property
+param
 touchSlop
 Distance
 in
@@ -585,7 +585,7 @@ started
 dragging
 .
 *
-property
+param
 onMove
 Callback
 to
@@ -598,7 +598,7 @@ two
 items
 .
 *
-property
+param
 ignoredItems
 List
 of
@@ -610,7 +610,7 @@ draggable
 items
 .
 *
-property
+param
 onLongPress
 Optional
 callback
@@ -624,7 +624,7 @@ an
 item
 .
 *
-property
+param
 onExitLongPress
 Optional
 callback

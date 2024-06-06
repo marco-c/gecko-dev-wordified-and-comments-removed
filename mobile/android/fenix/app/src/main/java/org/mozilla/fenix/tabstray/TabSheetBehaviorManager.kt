@@ -234,7 +234,7 @@ state
 .
 *
 *
-property
+param
 behavior
 [
 BottomSheetBehavior
@@ -259,7 +259,7 @@ the
 device
 .
 *
-property
+param
 maxNumberOfTabs
 highest
 number
@@ -271,7 +271,7 @@ tray
 page
 .
 *
-property
+param
 numberForExpandingTray
 limit
 depending
@@ -286,7 +286,7 @@ or
 expanded
 .
 *
-property
+param
 displayMetrics
 [
 DisplayMetrics

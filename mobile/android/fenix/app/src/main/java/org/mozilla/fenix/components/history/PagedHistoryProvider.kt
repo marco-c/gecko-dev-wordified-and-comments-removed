@@ -499,7 +499,7 @@ HistoryDB
 *
 *
 *
-property
+param
 historyStorage
 An
 instance

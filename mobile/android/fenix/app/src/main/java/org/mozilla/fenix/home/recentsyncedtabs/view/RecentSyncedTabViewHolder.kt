@@ -248,7 +248,7 @@ tied
 to
 .
 *
-property
+param
 recentSyncedTabInteractor
 [
 RecentSyncedTabInteractor

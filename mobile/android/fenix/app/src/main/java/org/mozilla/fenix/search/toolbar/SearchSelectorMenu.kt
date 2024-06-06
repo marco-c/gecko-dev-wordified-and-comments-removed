@@ -230,7 +230,7 @@ objects
 .
 *
 *
-property
+param
 context
 [
 Context
@@ -242,7 +242,7 @@ Android
 interactions
 .
 *
-property
+param
 interactor
 [
 ToolbarInteractor

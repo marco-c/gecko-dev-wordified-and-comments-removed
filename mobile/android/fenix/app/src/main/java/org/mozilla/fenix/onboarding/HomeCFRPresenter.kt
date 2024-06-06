@@ -310,7 +310,7 @@ CFR
 .
 *
 *
-property
+param
 context
 [
 Context
@@ -322,7 +322,7 @@ Android
 interactions
 .
 *
-property
+param
 recyclerView
 [
 RecyclerView

@@ -596,7 +596,7 @@ possible
 .
 *
 *
-property
+param
 context
 [
 Context
@@ -608,7 +608,7 @@ Android
 interactions
 .
 *
-property
+param
 quickSettingsStore
 [
 QuickSettingsFragmentStore
@@ -629,7 +629,7 @@ s
 Fragment
 .
 *
-property
+param
 browserStore
 The
 application
@@ -640,7 +640,7 @@ BrowserStore
 ]
 .
 *
-property
+param
 ioScope
 [
 CoroutineScope
@@ -655,7 +655,7 @@ structured
 concurrency
 .
 *
-property
+param
 navController
 NavController
 ]
@@ -689,7 +689,7 @@ their
 status
 .
 *
-property
+param
 settings
 [
 Settings
@@ -698,7 +698,7 @@ application
 settings
 .
 *
-property
+param
 permissionStorage
 [
 PermissionStorage
@@ -711,7 +711,7 @@ permissions
 exception
 .
 *
-property
+param
 reload
 [
 ReloadUrlUseCase
@@ -726,7 +726,7 @@ web
 page
 .
 *
-property
+param
 requestRuntimePermissions
 [
 OnNeedToRequestPermissions
@@ -742,7 +742,7 @@ runtime
 permissions
 .
 *
-property
+param
 displayPermissions
 callback
 for
@@ -756,7 +756,7 @@ be
 displayed
 .
 *
-property
+param
 engine
 An
 [

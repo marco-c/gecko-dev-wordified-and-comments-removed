@@ -181,7 +181,7 @@ destroyed
 .
 *
 *
-property
+param
 homeActivity
 [
 HomeActivity

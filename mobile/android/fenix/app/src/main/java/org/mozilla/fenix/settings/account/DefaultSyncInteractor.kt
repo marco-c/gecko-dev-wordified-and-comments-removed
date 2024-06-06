@@ -86,7 +86,7 @@ TurnOnSyncFragment
 .
 *
 *
-property
+param
 syncController
 Handles
 the

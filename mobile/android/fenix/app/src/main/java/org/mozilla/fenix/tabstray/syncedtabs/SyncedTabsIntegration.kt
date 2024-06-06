@@ -254,7 +254,7 @@ errors
 .
 *
 *
-property
+param
 store
 An
 instance
@@ -271,13 +271,13 @@ tray
 state
 .
 *
-property
+param
 context
 Fragment
 context
 .
 *
-property
+param
 navController
 The
 controller

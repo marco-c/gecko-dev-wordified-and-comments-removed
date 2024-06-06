@@ -249,7 +249,7 @@ the
 view
 .
 *
-property
+param
 interactor
 [
 RecentBookmarksInteractor

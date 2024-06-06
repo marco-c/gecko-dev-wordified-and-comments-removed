@@ -291,7 +291,7 @@ tied
 to
 .
 *
-property
+param
 interactor
 [
 SessionControlInteractor

@@ -188,7 +188,7 @@ Compose
 .
 *
 *
-property
+param
 composeView
 Root
 ComposeView
@@ -199,7 +199,7 @@ from
 TrayPagerAdapter
 .
 *
-property
+param
 tabsTrayStore
 Store
 used
@@ -219,7 +219,7 @@ syncedTabs
 ]
 .
 *
-property
+param
 interactor
 [
 SyncedTabsInteractor

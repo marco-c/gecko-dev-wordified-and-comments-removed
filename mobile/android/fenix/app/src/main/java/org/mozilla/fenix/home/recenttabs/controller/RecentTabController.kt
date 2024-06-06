@@ -280,7 +280,7 @@ RecentTabController
 .
 *
 *
-property
+param
 selectTabUseCase
 [
 SelectTabUseCase
@@ -291,7 +291,7 @@ a
 tab
 .
 *
-property
+param
 navController
 [
 NavController
@@ -301,7 +301,7 @@ for
 navigation
 .
 *
-property
+param
 appStore
 The
 [

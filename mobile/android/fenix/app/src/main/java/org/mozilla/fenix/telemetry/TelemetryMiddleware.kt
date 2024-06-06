@@ -410,7 +410,7 @@ s
 .
 *
 *
-property
+param
 context
 An
 Android
@@ -419,7 +419,7 @@ Context
 ]
 .
 *
-property
+param
 settings
 reference
 to
@@ -430,7 +430,7 @@ Settings
 ]
 .
 *
-property
+param
 metrics
 [
 MetricController
@@ -446,7 +446,7 @@ from
 actions
 .
 *
-property
+param
 crashReporting
 An
 instance
@@ -460,7 +460,7 @@ caught
 exceptions
 .
 *
-property
+param
 nimbusSearchEngine
 The
 Nimbus
@@ -468,7 +468,7 @@ search
 engine
 .
 *
-property
+param
 searchState
 Map
 that
@@ -485,7 +485,7 @@ TimerId
 ]
 .
 *
-property
+param
 timerId
 The
 [

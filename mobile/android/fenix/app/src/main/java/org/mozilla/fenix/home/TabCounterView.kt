@@ -257,7 +257,7 @@ FenixTabCounterMenu
 .
 *
 *
-property
+param
 context
 An
 Android
@@ -266,7 +266,7 @@ Context
 ]
 .
 *
-property
+param
 browsingModeManager
 [
 BrowsingModeManager
@@ -280,7 +280,7 @@ browsing
 mode
 .
 *
-property
+param
 navController
 [
 NavController
@@ -290,7 +290,7 @@ for
 navigation
 .
 *
-property
+param
 tabCounter
 The
 [

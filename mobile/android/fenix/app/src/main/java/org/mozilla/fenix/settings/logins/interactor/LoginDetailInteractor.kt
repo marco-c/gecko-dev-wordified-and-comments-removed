@@ -94,7 +94,7 @@ detail
 screen
 *
 *
-property
+param
 savedLoginsController
 controller
 for

@@ -221,13 +221,13 @@ authentication
 .
 *
 *
-property
+param
 context
 Android
 context
 .
 *
-property
+param
 fragment
 The
 fragment
@@ -239,7 +239,7 @@ will
 live
 .
 *
-property
+param
 onAuthFailure
 A
 failure
@@ -249,7 +249,7 @@ authentication
 failed
 .
 *
-property
+param
 onAuthSuccess
 A
 success

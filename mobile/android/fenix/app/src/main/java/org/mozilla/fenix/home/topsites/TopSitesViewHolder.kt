@@ -211,7 +211,7 @@ tied
 to
 .
 *
-property
+param
 interactor
 [
 TopSiteInteractor

@@ -226,7 +226,7 @@ HistoryFragmentStore
 .
 *
 *
-property
+param
 navController
 [
 NavController
@@ -236,7 +236,7 @@ handling
 navigation
 events
 *
-property
+param
 openToBrowser
 Callback
 to
@@ -249,7 +249,7 @@ browser
 window
 .
 *
-property
+param
 onBackPressed
 Callback
 to
@@ -259,7 +259,7 @@ press
 actions
 .
 *
-property
+param
 scope
 [
 CoroutineScope

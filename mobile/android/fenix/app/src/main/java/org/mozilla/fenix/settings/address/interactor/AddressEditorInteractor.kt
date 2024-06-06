@@ -340,7 +340,7 @@ AddressEditorInteractor
 .
 *
 *
-property
+param
 controller
 An
 instance

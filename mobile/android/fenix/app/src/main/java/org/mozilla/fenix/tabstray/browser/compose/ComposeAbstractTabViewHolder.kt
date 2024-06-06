@@ -188,7 +188,7 @@ content
 .
 *
 *
-property
+param
 composeView
 [
 ComposeView
@@ -204,7 +204,7 @@ UI
 content
 .
 *
-property
+param
 viewLifecycleOwner
 [
 LifecycleOwner

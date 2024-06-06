@@ -302,7 +302,7 @@ HistoryFragmentStore
 .
 *
 *
-property
+param
 appStore
 To
 dispatch
@@ -313,7 +313,7 @@ global
 state
 .
 *
-property
+param
 browserStore
 To
 dispatch
@@ -324,7 +324,7 @@ global
 state
 .
 *
-property
+param
 historyProvider
 To
 update
@@ -337,7 +337,7 @@ some
 Actions
 .
 *
-property
+param
 historyStorage
 To
 update
@@ -350,7 +350,7 @@ some
 Actions
 .
 *
-property
+param
 undoDeleteSnackbar
 Called
 when
@@ -370,7 +370,7 @@ fully
 completed
 .
 *
-property
+param
 onTimeFrameDeleted
 Called
 when
@@ -384,7 +384,7 @@ successfully
 deleted
 .
 *
-property
+param
 scope
 CoroutineScope
 to

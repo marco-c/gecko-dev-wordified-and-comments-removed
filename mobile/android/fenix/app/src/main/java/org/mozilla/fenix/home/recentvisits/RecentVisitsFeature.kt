@@ -355,7 +355,7 @@ screen
 .
 *
 *
-property
+param
 appStore
 The
 [
@@ -372,7 +372,7 @@ HomeFragment
 ]
 .
 *
-property
+param
 historyMetadataStorage
 The
 storage
@@ -383,7 +383,7 @@ HistoryMetadata
 ]
 .
 *
-property
+param
 historyHighlightsStorage
 The
 storage
@@ -394,7 +394,7 @@ PlacesHistoryStorage
 ]
 .
 *
-property
+param
 scope
 The
 [
@@ -416,7 +416,7 @@ dispatching
 updates
 .
 *
-property
+param
 ioDispatcher
 The
 [

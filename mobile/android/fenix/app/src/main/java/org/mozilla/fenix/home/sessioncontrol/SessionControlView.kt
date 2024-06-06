@@ -1016,7 +1016,7 @@ the
 view
 .
 *
-property
+param
 interactor
 [
 SessionControlInteractor

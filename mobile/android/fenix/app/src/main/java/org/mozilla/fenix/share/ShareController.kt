@@ -519,7 +519,7 @@ possible
 .
 *
 *
-property
+param
 context
 [
 Context
@@ -531,7 +531,7 @@ Android
 interactions
 .
 *
-property
+param
 shareSubject
 Desired
 message
@@ -548,7 +548,7 @@ email
 clients
 .
 *
-property
+param
 shareData
 The
 list
@@ -563,7 +563,7 @@ be
 shared
 .
 *
-property
+param
 sendTabUseCases
 Instance
 of
@@ -579,7 +579,7 @@ account
 devices
 .
 *
-property
+param
 saveToPdfUseCase
 Instance
 of
@@ -598,7 +598,7 @@ given
 tab
 .
 *
-property
+param
 printUseCase
 Instance
 of
@@ -616,7 +616,7 @@ given
 tab
 .
 *
-property
+param
 snackbar
 Instance
 of
@@ -629,7 +629,7 @@ styled
 snackbars
 .
 *
-property
+param
 navController
 [
 NavController
@@ -639,7 +639,7 @@ for
 navigation
 .
 *
-property
+param
 recentAppsStorage
 Instance
 of
@@ -656,7 +656,7 @@ recent
 apps
 .
 *
-property
+param
 viewLifecycleScope
 [
 CoroutineScope
@@ -673,7 +673,7 @@ the
 background
 .
 *
-property
+param
 dispatcher
 Dispatcher
 used
@@ -683,7 +683,7 @@ suspending
 functions
 .
 *
-property
+param
 fxaEntrypoint
 The
 entrypoint
@@ -700,7 +700,7 @@ in
 telemetry
 .
 *
-property
+param
 dismiss
 Callback
 signalling

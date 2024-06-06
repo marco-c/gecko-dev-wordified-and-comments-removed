@@ -356,7 +356,7 @@ BrowserToolbarInteractor
 .
 *
 *
-property
+param
 browserToolbarController
 [
 BrowserToolbarController
@@ -378,7 +378,7 @@ browser
 toolbar
 .
 *
-property
+param
 menuController
 [
 BrowserToolbarMenuController

@@ -1247,7 +1247,7 @@ TabsTrayController
 .
 *
 *
-property
+param
 activity
 [
 HomeActivity
@@ -1262,7 +1262,7 @@ app
 actions
 .
 *
-property
+param
 appStore
 [
 AppStore
@@ -1276,7 +1276,7 @@ AppAction
 ]
 .
 *
-property
+param
 tabsTrayStore
 [
 TabsTrayStore
@@ -1292,7 +1292,7 @@ TabsTrayState
 ]
 .
 *
-property
+param
 browserStore
 [
 BrowserStore
@@ -1309,7 +1309,7 @@ BrowserState
 ]
 .
 *
-property
+param
 settings
 [
 Settings
@@ -1322,7 +1322,7 @@ user
 preferences
 .
 *
-property
+param
 browsingModeManager
 [
 BrowsingModeManager
@@ -1339,7 +1339,7 @@ BrowsingMode
 ]
 .
 *
-property
+param
 navController
 [
 NavController
@@ -1354,7 +1354,7 @@ tabs
 tray
 .
 *
-property
+param
 navigateToHomeAndDeleteSession
 Lambda
 used
@@ -1370,7 +1370,7 @@ current
 session
 .
 *
-property
+param
 profiler
 [
 Profiler
@@ -1382,7 +1382,7 @@ profiler
 markers
 .
 *
-property
+param
 navigationInteractor
 [
 NavigationInteractor
@@ -1397,7 +1397,7 @@ side
 effects
 .
 *
-property
+param
 tabsUseCases
 Use
 case
@@ -1408,7 +1408,7 @@ with
 tabs
 .
 *
-property
+param
 bookmarksUseCase
 Use
 case
@@ -1419,7 +1419,7 @@ with
 bookmarks
 .
 *
-property
+param
 ioDispatcher
 [
 CoroutineContext
@@ -1433,7 +1433,7 @@ as
 bookmarks
 .
 *
-property
+param
 collectionStorage
 Storage
 layer
@@ -1443,7 +1443,7 @@ with
 collections
 .
 *
-property
+param
 selectTabPosition
 Lambda
 used
@@ -1458,7 +1458,7 @@ desired
 position
 .
 *
-property
+param
 dismissTray
 Lambda
 used
@@ -1471,7 +1471,7 @@ tabs
 tray
 .
 *
-property
+param
 showUndoSnackbarForTab
 Lambda
 used
@@ -1494,7 +1494,7 @@ download
 warning
 .
 *
-property
+param
 showBookmarkSnackbar
 Lambda
 used
@@ -1509,7 +1509,7 @@ as
 bookmarks
 .
 *
-property
+param
 showCollectionSnackbar
 Lambda
 used

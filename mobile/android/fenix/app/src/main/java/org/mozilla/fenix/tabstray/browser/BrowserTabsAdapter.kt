@@ -290,7 +290,7 @@ tabs
 .
 *
 *
-property
+param
 context
 [
 Context
@@ -320,7 +320,7 @@ tab
 tray
 .
 *
-property
+param
 store
 [
 TabsTrayStore

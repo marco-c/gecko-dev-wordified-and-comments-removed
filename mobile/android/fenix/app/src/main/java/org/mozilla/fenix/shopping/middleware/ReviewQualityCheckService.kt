@@ -368,7 +368,7 @@ feature
 .
 *
 *
-property
+param
 browserStore
 Reference
 to

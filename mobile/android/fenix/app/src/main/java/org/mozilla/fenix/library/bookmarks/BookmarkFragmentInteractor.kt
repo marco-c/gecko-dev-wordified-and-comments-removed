@@ -149,7 +149,7 @@ BookmarkViewInteractor
 .
 *
 *
-property
+param
 bookmarksController
 view
 controller

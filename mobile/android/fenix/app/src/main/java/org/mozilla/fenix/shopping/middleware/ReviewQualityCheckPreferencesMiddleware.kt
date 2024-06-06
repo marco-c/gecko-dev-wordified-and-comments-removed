@@ -151,7 +151,7 @@ preferences
 .
 *
 *
-property
+param
 reviewQualityCheckPreferences
 The
 [
@@ -172,7 +172,7 @@ check
 feature
 .
 *
-property
+param
 reviewQualityCheckVendorsService
 The
 [
@@ -189,7 +189,7 @@ product
 vendors
 .
 *
-property
+param
 scope
 The
 [

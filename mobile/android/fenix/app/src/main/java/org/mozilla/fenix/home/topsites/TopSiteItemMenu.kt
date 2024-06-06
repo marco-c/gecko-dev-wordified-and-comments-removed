@@ -133,14 +133,14 @@ item
 .
 *
 *
-property
+param
 context
 An
 Android
 context
 .
 *
-property
+param
 topSite
 The
 [
@@ -154,7 +154,7 @@ menu
 for
 .
 *
-property
+param
 onItemTapped
 Callback
 invoked

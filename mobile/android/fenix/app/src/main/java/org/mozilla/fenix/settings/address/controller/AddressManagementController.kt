@@ -203,7 +203,7 @@ AddressManagementController
 .
 *
 *
-property
+param
 navController
 [
 NavController

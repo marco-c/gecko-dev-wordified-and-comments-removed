@@ -210,7 +210,7 @@ pages
 .
 *
 *
-property
+param
 appStore
 Reference
 to
@@ -223,7 +223,7 @@ AppStore
 ]
 .
 *
-property
+param
 browserStore
 Reference
 to
@@ -236,7 +236,7 @@ BrowserStore
 ]
 .
 *
-property
+param
 shoppingExperienceFeature
 Reference
 to
@@ -246,7 +246,7 @@ ShoppingExperienceFeature
 ]
 .
 *
-property
+param
 onIconVisibilityChange
 Invoked
 when
@@ -271,7 +271,7 @@ product
 page
 .
 *
-property
+param
 onBottomSheetStateChange
 Invoked
 when
@@ -284,7 +284,7 @@ or
 expanded
 .
 *
-property
+param
 debounceTimeoutMillis
 Function
 that
@@ -318,7 +318,7 @@ onIconVisibilityChange
 ]
 .
 *
-property
+param
 onProductPageDetected
 Invoked
 when

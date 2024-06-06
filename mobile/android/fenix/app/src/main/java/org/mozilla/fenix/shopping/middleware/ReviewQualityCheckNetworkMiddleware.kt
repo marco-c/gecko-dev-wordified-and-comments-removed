@@ -280,7 +280,7 @@ feature
 .
 *
 *
-property
+param
 reviewQualityCheckService
 The
 service
@@ -291,7 +291,7 @@ network
 requests
 .
 *
-property
+param
 networkChecker
 The
 [
@@ -305,7 +305,7 @@ network
 status
 .
 *
-property
+param
 appStore
 The
 [
@@ -323,7 +323,7 @@ ShoppingAction
 s
 .
 *
-property
+param
 scope
 The
 [

@@ -347,7 +347,7 @@ Context
 ]
 .
 *
-property
+param
 crashReporter
 An
 instance

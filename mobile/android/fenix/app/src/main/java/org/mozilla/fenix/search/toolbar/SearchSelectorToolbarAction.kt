@@ -296,7 +296,7 @@ SearchSelector
 .
 *
 *
-property
+param
 store
 [
 SearchDialogFragmentStore
@@ -311,7 +311,7 @@ search
 dialog
 .
 *
-property
+param
 defaultSearchEngine
 The
 user
@@ -323,7 +323,7 @@ SearchEngine
 ]
 .
 *
-property
+param
 menu
 An
 instance

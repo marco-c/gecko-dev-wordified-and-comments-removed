@@ -345,7 +345,7 @@ tab
 .
 *
 *
-property
+param
 context
 An
 Android
@@ -354,7 +354,7 @@ Context
 ]
 .
 *
-property
+param
 appStore
 Store
 to
@@ -371,7 +371,7 @@ errors
 encountered
 .
 *
-property
+param
 syncStore
 Store
 to
@@ -385,7 +385,7 @@ account
 status
 .
 *
-property
+param
 storage
 Storage
 layer
@@ -394,7 +394,7 @@ synced
 tabs
 .
 *
-property
+param
 accountManager
 Account
 manager
@@ -406,7 +406,7 @@ refresh
 devices
 .
 *
-property
+param
 historyStorage
 Storage
 for
@@ -421,7 +421,7 @@ synced
 tab
 .
 *
-property
+param
 coroutineScope
 The
 scope

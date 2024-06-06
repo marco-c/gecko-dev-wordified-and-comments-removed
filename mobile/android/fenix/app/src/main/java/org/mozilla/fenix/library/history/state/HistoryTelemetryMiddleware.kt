@@ -199,7 +199,7 @@ HistoryFragmentStore
 .
 *
 *
-property
+param
 isInPrivateMode
 Whether
 the

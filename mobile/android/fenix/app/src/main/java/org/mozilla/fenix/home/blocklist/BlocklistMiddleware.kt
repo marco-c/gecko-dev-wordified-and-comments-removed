@@ -162,7 +162,7 @@ blocklist
 .
 *
 *
-property
+param
 blocklistHandler
 An
 instance

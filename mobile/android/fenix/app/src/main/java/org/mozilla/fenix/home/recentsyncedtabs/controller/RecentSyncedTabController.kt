@@ -300,7 +300,7 @@ RecentSyncedTabController
 .
 *
 *
-property
+param
 tabsUseCase
 Use
 cases
@@ -313,7 +313,7 @@ when
 clicked
 .
 *
-property
+param
 navController
 [
 NavController
@@ -326,7 +326,7 @@ tabs
 tray
 .
 *
-property
+param
 accessPoint
 The
 action
@@ -343,7 +343,7 @@ tabs
 tray
 .
 *
-property
+param
 appStore
 The
 [

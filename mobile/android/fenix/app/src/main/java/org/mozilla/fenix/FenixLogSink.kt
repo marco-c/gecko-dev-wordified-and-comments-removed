@@ -124,7 +124,7 @@ settings
 .
 *
 *
-property
+param
 logsDebug
 If
 set
@@ -137,7 +137,7 @@ debug
 logs
 .
 *
-property
+param
 androidLogSink
 an
 [

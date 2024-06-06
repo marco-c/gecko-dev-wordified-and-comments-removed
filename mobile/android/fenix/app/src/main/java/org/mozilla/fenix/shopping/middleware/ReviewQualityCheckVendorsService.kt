@@ -242,7 +242,7 @@ tab
 .
 *
 *
-property
+param
 browserStore
 The
 [

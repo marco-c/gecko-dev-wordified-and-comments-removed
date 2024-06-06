@@ -225,7 +225,7 @@ feature
 .
 *
 *
-property
+param
 selectOrAddUseCase
 UseCase
 instance
@@ -236,7 +236,7 @@ new
 tabs
 .
 *
-property
+param
 getReviewQualityCheckSumoUrl
 Instance
 used
