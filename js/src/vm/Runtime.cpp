@@ -1611,7 +1611,7 @@ nursery
 (
 )
 .
-committed
+totalCommitted
 (
 )
 ;

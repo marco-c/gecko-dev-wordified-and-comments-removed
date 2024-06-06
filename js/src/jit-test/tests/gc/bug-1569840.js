@@ -6,6 +6,14 @@ gczeal
 gcparam
 (
 "
+semispaceNurseryEnabled
+"
+0
+)
+;
+gcparam
+(
+"
 maxNurseryBytes
 "
 1024
