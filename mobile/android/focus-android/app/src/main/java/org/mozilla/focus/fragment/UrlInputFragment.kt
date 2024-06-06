@@ -1331,9 +1331,7 @@ n
 +
 2
 else
-tipText
-.
-length
+0
 keyboardLinearLayout
 .
 homeViewTipsLabel
