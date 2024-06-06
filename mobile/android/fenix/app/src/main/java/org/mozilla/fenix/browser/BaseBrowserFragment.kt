@@ -173,6 +173,12 @@ lifecycleScope
 import
 androidx
 .
+lifecycle
+.
+whenStarted
+import
+androidx
+.
 navigation
 .
 NavDirections
@@ -2200,6 +2206,8 @@ lifecycleScope
 .
 launch
 {
+whenStarted
+{
 swipeRefresh
 ?
 .
@@ -2215,10 +2223,12 @@ it
 resources
 )
 engineView
+?
 .
 asView
 (
 )
+?
 .
 visibility
 =
@@ -2238,6 +2248,7 @@ id
 browserFragment
 directions
 )
+}
 }
 }
 }
