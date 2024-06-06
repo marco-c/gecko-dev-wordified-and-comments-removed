@@ -576,7 +576,7 @@ Item
 AddonsManager
 )
 }
-appendExtensionActionAtStart
+appendExtensionSubMenuAtStart
 =
 !
 shouldReverseItems
