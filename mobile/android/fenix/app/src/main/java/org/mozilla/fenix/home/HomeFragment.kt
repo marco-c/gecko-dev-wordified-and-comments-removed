@@ -1008,6 +1008,14 @@ onPreDraw
 :
 Boolean
 {
+if
+(
+view
+!
+=
+null
+)
+{
 viewLifecycleOwner
 .
 lifecycleScope
@@ -1040,6 +1048,7 @@ removeOnPreDrawListener
 (
 this
 )
+}
 }
 return
 true
@@ -4326,6 +4335,14 @@ TabCollection
 null
 )
 {
+if
+(
+view
+!
+=
+null
+)
+{
 viewLifecycleOwner
 .
 lifecycleScope
@@ -4502,6 +4519,7 @@ animateCollection
 tabsAddedToCollectionSize
 indexOfCollection
 )
+}
 }
 }
 }
