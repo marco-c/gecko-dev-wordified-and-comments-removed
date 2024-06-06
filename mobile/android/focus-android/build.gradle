@@ -84,11 +84,11 @@ ext
 gecko_release_version
 =
 '
-84
+85
 .
 0
 .
-20210105180113
+20210118153634
 '
 ext
 .
@@ -99,7 +99,7 @@ mozilla_components_version
 .
 0
 .
-7
+15
 '
 /
 /
