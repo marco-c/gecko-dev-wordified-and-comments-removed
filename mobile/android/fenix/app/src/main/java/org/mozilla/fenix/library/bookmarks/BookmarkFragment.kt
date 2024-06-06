@@ -329,7 +329,7 @@ mozilla
 .
 fenix
 .
-HomeActivity
+NavHostActivity
 import
 org
 .
@@ -1013,7 +1013,7 @@ onResume
 (
 activity
 as
-HomeActivity
+NavHostActivity
 )
 .
 getSupportActionBarAndInflateIfNecessary

@@ -291,7 +291,7 @@ mozilla
 .
 fenix
 .
-HomeActivity
+NavHostActivity
 import
 org
 .
@@ -772,7 +772,6 @@ activity
 =
 activity
 as
-?
 AppCompatActivity
 val
 actionBar
@@ -780,7 +779,7 @@ actionBar
 (
 activity
 as
-HomeActivity
+NavHostActivity
 )
 .
 getSupportActionBarAndInflateIfNecessary
@@ -802,11 +801,6 @@ id
 .
 navigationToolbar
 )
-context
-?
-.
-let
-{
 toolbar
 ?
 .
@@ -814,7 +808,7 @@ setToolbarColors
 (
 foreground
 =
-it
+activity
 .
 getColorFromAttr
 (
@@ -826,7 +820,7 @@ primaryText
 )
 background
 =
-it
+activity
 .
 getColorFromAttr
 (
@@ -837,7 +831,6 @@ attr
 foundation
 )
 )
-}
 actionBar
 .
 show

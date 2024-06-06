@@ -615,7 +615,7 @@ fenix
 .
 ext
 .
-settings
+resetPoliciesAfter
 import
 org
 .
@@ -625,7 +625,7 @@ fenix
 .
 ext
 .
-resetPoliciesAfter
+settings
 import
 org
 .
@@ -987,6 +987,7 @@ HomeActivity
 LocaleAwareAppCompatActivity
 (
 )
+NavHostActivity
 {
 private
 var
@@ -2672,6 +2673,7 @@ supportActionBar
 .
 *
 /
+override
 fun
 getSupportActionBarAndInflateIfNecessary
 (

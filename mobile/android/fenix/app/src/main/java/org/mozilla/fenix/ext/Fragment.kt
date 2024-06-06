@@ -135,7 +135,7 @@ mozilla
 .
 fenix
 .
-HomeActivity
+NavHostActivity
 import
 org
 .
@@ -342,7 +342,7 @@ title
 (
 activity
 as
-HomeActivity
+NavHostActivity
 )
 .
 getSupportActionBarAndInflateIfNecessary
