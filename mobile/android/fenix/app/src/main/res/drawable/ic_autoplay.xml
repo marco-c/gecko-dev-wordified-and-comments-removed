@@ -121,7 +121,7 @@ drawable
 "
 drawable
 /
-ic_link_enabled
+ic_autoplay_enabled
 "
 android
 :
@@ -151,7 +151,7 @@ drawable
 "
 drawable
 /
-ic_link_disabled
+ic_autoplay_disabled
 "
 /
 >

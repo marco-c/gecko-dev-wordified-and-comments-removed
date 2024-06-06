@@ -512,6 +512,11 @@ certificateName
 args
 .
 certificateName
+permissionHighlights
+=
+args
+.
+permissionHighlights
 )
 quickSettingsController
 =

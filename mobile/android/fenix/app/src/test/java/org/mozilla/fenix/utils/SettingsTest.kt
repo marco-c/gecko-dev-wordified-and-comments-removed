@@ -1957,6 +1957,8 @@ copy
 (
 autoplayAudible
 =
+AutoplayAction
+.
 ALLOWED
 )
 settings
@@ -1989,6 +1991,8 @@ copy
 (
 autoplayInaudible
 =
+AutoplayAction
+.
 ALLOWED
 )
 settings

@@ -278,6 +278,12 @@ emptyArray
 (
 )
 )
+AUTOPLAY
+(
+emptyArray
+(
+)
+)
 AUTOPLAY_AUDIBLE
 (
 emptyArray
@@ -644,6 +650,7 @@ string
 .
 preference_phone_feature_media_key_system_access
 )
+AUTOPLAY
 AUTOPLAY_AUDIBLE
 AUTOPLAY_INAUDIBLE
 -
@@ -728,6 +735,14 @@ R
 string
 .
 pref_key_phone_feature_notification
+AUTOPLAY
+-
+>
+R
+.
+string
+.
+pref_key_browser_feature_autoplay_audible
 AUTOPLAY_AUDIBLE
 -
 >
