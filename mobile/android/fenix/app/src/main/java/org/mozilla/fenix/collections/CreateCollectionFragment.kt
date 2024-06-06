@@ -1140,6 +1140,8 @@ id
 browserFragment
 )
 {
+return
+}
 val
 components
 =
@@ -1184,7 +1186,6 @@ removeTab
 (
 session
 )
-}
 }
 }
 }
