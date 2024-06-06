@@ -1725,6 +1725,7 @@ context
 settings
 (
 )
+metrics
 )
 ThumbnailsMiddleware
 (
