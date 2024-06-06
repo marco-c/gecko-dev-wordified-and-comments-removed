@@ -137,10 +137,6 @@ type
 -
 focus
 -
-nightly
--
-focus
--
 release
 -
 klar
