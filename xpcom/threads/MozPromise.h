@@ -19,6 +19,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ErrorNames
 .
 h
@@ -4983,6 +4992,7 @@ typename
 ThenValueType
 >
 class
+MOZ_TEMPORARY_CLASS
 ThenCommand
 {
 template
