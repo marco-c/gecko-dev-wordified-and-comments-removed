@@ -1917,6 +1917,17 @@ return
 IsResiliencyCodec
 (
 )
+&
+&
+!
+absl
+:
+:
+EqualsIgnoreCase
+(
+name
+kComfortNoiseCodecName
+)
 ;
 }
 bool
