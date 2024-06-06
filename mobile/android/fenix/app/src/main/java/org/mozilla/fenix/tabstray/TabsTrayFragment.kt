@@ -2795,6 +2795,9 @@ actionGlobalHome
 focusOnAddressBar
 =
 false
+scrollToCollection
+=
+true
 )
 )
 dismissTabsTray

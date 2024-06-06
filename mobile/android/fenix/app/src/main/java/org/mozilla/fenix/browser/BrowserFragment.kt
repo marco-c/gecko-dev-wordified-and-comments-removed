@@ -1920,6 +1920,9 @@ actionGlobalHome
 focusOnAddressBar
 =
 false
+scrollToCollection
+=
+true
 )
 )
 }
