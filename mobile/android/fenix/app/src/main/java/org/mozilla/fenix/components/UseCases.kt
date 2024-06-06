@@ -133,7 +133,7 @@ concept
 .
 engine
 .
-Settings
+Engine
 import
 mozilla
 .
@@ -276,6 +276,11 @@ context
 Context
 private
 val
+engine
+:
+Engine
+private
+val
 sessionManager
 :
 SessionManager
@@ -284,11 +289,6 @@ val
 store
 :
 BrowserStore
-private
-val
-engineSettings
-:
-Settings
 private
 val
 searchEngineManager
@@ -432,7 +432,7 @@ lazy
 {
 SettingsUseCases
 (
-engineSettings
+engine
 sessionManager
 )
 }
