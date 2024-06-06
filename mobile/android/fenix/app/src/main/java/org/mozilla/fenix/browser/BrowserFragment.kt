@@ -1274,6 +1274,14 @@ toInt
 )
 }
 }
+if
+(
+customTabSessionId
+=
+=
+null
+)
+{
 view
 .
 engineView
@@ -1315,6 +1323,7 @@ toInt
 +
 QUICK_ACTION_SHEET_HANDLE_HEIGHT
 )
+}
 }
 }
 QuickActionComponent
