@@ -1426,6 +1426,9 @@ settings
 )
 .
 shouldEnableCookieBannerGlobalRulesSubFrame
+emailTrackerBlockingPrivateBrowsing
+=
+true
 )
 GeckoEngine
 (

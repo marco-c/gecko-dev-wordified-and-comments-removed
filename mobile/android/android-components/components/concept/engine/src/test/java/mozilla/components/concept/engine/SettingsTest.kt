@@ -579,6 +579,11 @@ enterpriseRootsEnabled
 =
 false
 }
+{
+settings
+.
+emailTrackerBlockingPrivateBrowsing
+}
 )
 }
 private
@@ -819,6 +824,12 @@ settings
 .
 queryParameterStrippingPrivateBrowsing
 )
+assertFalse
+(
+settings
+.
+emailTrackerBlockingPrivateBrowsing
+)
 assertEquals
 (
 "
@@ -1015,6 +1026,9 @@ true
 cookieBannerHandlingGlobalRulesSubFrames
 =
 true
+emailTrackerBlockingPrivateBrowsing
+=
+true
 )
 assertFalse
 (
@@ -1287,6 +1301,12 @@ assertTrue
 defaultSettings
 .
 cookieBannerHandlingGlobalRulesSubFrames
+)
+assertTrue
+(
+defaultSettings
+.
+emailTrackerBlockingPrivateBrowsing
 )
 }
 }
