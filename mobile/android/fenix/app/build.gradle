@@ -3440,7 +3440,11 @@ annotations
 testImplementation
 Deps
 .
-junit
+mozilla_support_test
+testImplementation
+Deps
+.
+androidx_junit
 testImplementation
 Deps
 .
