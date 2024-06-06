@@ -439,6 +439,17 @@ toContentBlockingSetting
 )
 )
 .
+consoleOutput
+(
+context
+.
+components
+.
+settings
+.
+enableGeckoLogs
+)
+.
 debugLogging
 (
 Config
