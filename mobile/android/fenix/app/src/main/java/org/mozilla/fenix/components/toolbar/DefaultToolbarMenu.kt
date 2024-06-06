@@ -324,7 +324,7 @@ R
 .
 attr
 .
-neutral
+disabled
 context
 )
 disableInSecondaryState
@@ -419,7 +419,7 @@ R
 .
 attr
 .
-neutral
+disabled
 context
 )
 disableInSecondaryState
