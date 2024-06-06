@@ -579,6 +579,7 @@ goToHomescreen
 {
 verifyRecentlyVisitedSectionIsDisplayed
 (
+true
 )
 }
 .
@@ -595,8 +596,9 @@ clickRecentlyVisited
 .
 goBackToHomeScreen
 {
-verifyRecentlyVisitedSectionIsNotDisplayed
+verifyRecentlyVisitedSectionIsDisplayed
 (
+false
 )
 }
 }
@@ -747,6 +749,9 @@ goToHomescreen
 {
 verifyRecentBookmarksSectionIsDisplayed
 (
+exists
+=
+true
 )
 }
 .
@@ -763,8 +768,11 @@ clickRecentBookmarksButton
 .
 goBackToHomeScreen
 {
-verifyRecentBookmarksSectionIsNotDisplayed
+verifyRecentBookmarksSectionIsDisplayed
 (
+exists
+=
+false
 )
 }
 }
