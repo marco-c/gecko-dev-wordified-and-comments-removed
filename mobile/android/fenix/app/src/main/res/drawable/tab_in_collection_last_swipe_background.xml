@@ -113,7 +113,16 @@ rectangle
 corners
 android
 :
-radius
+bottomLeftRadius
+=
+"
+dimen
+/
+tab_corner_radius
+"
+android
+:
+bottomRightRadius
 =
 "
 dimen

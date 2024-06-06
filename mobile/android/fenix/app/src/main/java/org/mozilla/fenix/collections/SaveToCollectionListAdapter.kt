@@ -135,6 +135,18 @@ fenix
 .
 R
 import
+org
+.
+mozilla
+.
+fenix
+.
+home
+.
+sessioncontrol
+.
+TabCollection
+import
 kotlin
 .
 coroutines
@@ -167,7 +179,7 @@ collections
 :
 List
 <
-Collection
+TabCollection
 >
 =
 listOf
@@ -346,7 +358,7 @@ private
 var
 collection
 :
-Collection
+TabCollection
 ?
 =
 null
@@ -394,7 +406,7 @@ bind
 (
 collection
 :
-Collection
+TabCollection
 )
 {
 this
