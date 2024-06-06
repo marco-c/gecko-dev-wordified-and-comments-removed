@@ -1459,8 +1459,9 @@ location
 {
 }
 /
-{
-}
+<
+build
+>
 /
 artifacts
 /
@@ -1487,7 +1488,6 @@ apk
 format
 (
 _DEFAULT_TASK_URL
-assemble_task_id
 )
                 
 '
@@ -2269,7 +2269,15 @@ login
 cx
 "
                 
+{
+'
+task
+-
+reference
+'
+:
 command
+}
             
 ]
             
