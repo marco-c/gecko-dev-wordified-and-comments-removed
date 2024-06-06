@@ -93,6 +93,10 @@ androidx
 .
 test
 .
+platform
+.
+app
+.
 InstrumentationRegistry
 import
 okhttp3
@@ -354,9 +358,11 @@ assetManager
 =
 InstrumentationRegistry
 .
-getContext
+getInstrumentation
 (
 )
+.
+targetContext
 .
 assets
 val
