@@ -79,7 +79,7 @@ MPL
 -
 >
 <
-ScrollView
+FrameLayout
 xmlns
 :
 android
@@ -679,5 +679,5 @@ RelativeLayout
 >
 <
 /
-ScrollView
+FrameLayout
 >
