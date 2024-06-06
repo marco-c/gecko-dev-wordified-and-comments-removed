@@ -210,9 +210,9 @@ task
 -
 prefix
 :
-mobile
+project
 .
-v2
+mobile
 .
 fenix
 decision
