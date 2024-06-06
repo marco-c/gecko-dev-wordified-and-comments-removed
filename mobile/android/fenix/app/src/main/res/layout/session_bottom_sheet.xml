@@ -864,6 +864,13 @@ textSize
 "
 16sp
 "
+android
+:
+visibility
+=
+"
+gone
+"
 tools
 :
 targetApi
@@ -975,6 +982,13 @@ textSize
 =
 "
 16sp
+"
+android
+:
+visibility
+=
+"
+gone
 "
 tools
 :
