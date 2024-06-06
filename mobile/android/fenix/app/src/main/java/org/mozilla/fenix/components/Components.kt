@@ -447,6 +447,9 @@ lazy
 Push
 (
 context
+analytics
+.
+crashReporter
 )
 }
 }

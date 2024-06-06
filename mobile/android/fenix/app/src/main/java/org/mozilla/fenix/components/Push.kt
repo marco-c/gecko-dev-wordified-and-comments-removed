@@ -37,6 +37,16 @@ mozilla
 .
 components
 .
+lib
+.
+crash
+.
+CrashReporter
+import
+mozilla
+.
+components
+.
 support
 .
 base
@@ -92,6 +102,9 @@ Push
 context
 :
 Context
+crashReporter
+:
+CrashReporter
 )
 {
 val
@@ -118,6 +131,9 @@ pushService
 config
 =
 config
+crashReporter
+=
+crashReporter
 )
 }
 }
