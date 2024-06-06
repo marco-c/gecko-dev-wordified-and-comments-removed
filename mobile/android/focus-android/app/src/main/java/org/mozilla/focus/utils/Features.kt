@@ -117,5 +117,16 @@ SWIPE_TO_REFRESH
 Boolean
 =
 false
+val
+SEARCH_TERMS_OR_URL
+:
+Boolean
+=
+!
+AppConstants
+.
+isGeckoBuild
+(
+)
 }
 }
