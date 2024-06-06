@@ -651,6 +651,11 @@ deleteHistoryItems
 :
 :
 syncHistory
+requireComponents
+.
+analytics
+.
+metrics
 )
 historyInteractor
 =
