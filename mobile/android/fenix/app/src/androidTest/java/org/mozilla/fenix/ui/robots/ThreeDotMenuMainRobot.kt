@@ -730,11 +730,17 @@ findInPageButton
 fun
 verifyAddToShortcutsButton
 (
+shouldExist
+:
+Boolean
 )
 =
 assertItemContainingTextExists
 (
 addToShortcutsButton
+exists
+=
+shouldExist
 )
 fun
 verifyRemoveFromShortcutsButton

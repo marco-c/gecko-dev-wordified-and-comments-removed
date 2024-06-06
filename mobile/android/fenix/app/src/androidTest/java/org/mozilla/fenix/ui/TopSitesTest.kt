@@ -447,6 +447,9 @@ expandMenu
 )
 verifyAddToShortcutsButton
 (
+shouldExist
+=
+true
 )
 }
 .
@@ -512,6 +515,9 @@ expandMenu
 )
 verifyAddToShortcutsButton
 (
+shouldExist
+=
+true
 )
 }
 .
@@ -646,6 +652,9 @@ expandMenu
 )
 verifyAddToShortcutsButton
 (
+shouldExist
+=
+true
 )
 }
 .
@@ -745,6 +754,9 @@ expandMenu
 )
 verifyAddToShortcutsButton
 (
+shouldExist
+=
+true
 )
 }
 .
@@ -836,6 +848,9 @@ expandMenu
 )
 verifyAddToShortcutsButton
 (
+shouldExist
+=
+true
 )
 }
 .
@@ -923,6 +938,9 @@ expandMenu
 )
 verifyAddToShortcutsButton
 (
+shouldExist
+=
+true
 )
 }
 .
@@ -1016,6 +1034,9 @@ expandMenu
 )
 verifyAddToShortcutsButton
 (
+shouldExist
+=
+true
 )
 }
 .
