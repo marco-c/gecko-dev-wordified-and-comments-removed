@@ -138,7 +138,7 @@ fillColor
 =
 "
 ?
-onboardingSelected
+iconActive
 "
 android
 :
@@ -174,7 +174,7 @@ fillColor
 =
 "
 ?
-onboardingSelected
+iconActive
 "
 android
 :
@@ -288,7 +288,7 @@ fillColor
 =
 "
 ?
-onboardingSelected
+iconActive
 "
 android
 :

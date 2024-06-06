@@ -186,7 +186,7 @@ R
 .
 attr
 .
-onboardingSelected
+iconActive
 )
 )
 ?
