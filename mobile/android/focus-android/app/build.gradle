@@ -1866,7 +1866,7 @@ maven
 }
 dependencies
 {
-compile
+implementation
 "
 com
 .
@@ -1880,7 +1880,7 @@ v7
 :
 support_libraries_version
 "
-compile
+implementation
 "
 com
 .
@@ -1892,7 +1892,7 @@ customtabs
 :
 support_libraries_version
 "
-compile
+implementation
 "
 com
 .
@@ -1904,7 +1904,7 @@ design
 :
 support_libraries_version
 "
-compile
+implementation
 "
 com
 .
@@ -1918,7 +1918,7 @@ v7
 :
 support_libraries_version
 "
-compile
+implementation
 "
 com
 .
@@ -1932,7 +1932,7 @@ v7
 :
 support_libraries_version
 "
-compile
+implementation
 "
 android
 .
@@ -1972,7 +1972,7 @@ annotations
 :
 spotbugs_version
 "
-compile
+implementation
 '
 org
 .
@@ -1988,7 +1988,7 @@ telemetry
 .
 1
 '
-compile
+implementation
 '
 org
 .
@@ -2002,7 +2002,7 @@ ktx
 .
 1
 '
-compile
+implementation
 '
 org
 .
@@ -2018,7 +2018,7 @@ utils
 .
 2
 '
-compile
+implementation
 '
 org
 .
@@ -2032,7 +2032,7 @@ colors
 .
 1
 '
-compile
+implementation
 "
 org
 .
@@ -2048,7 +2048,7 @@ jre7
 :
 kotlin_version
 "
-compile
+implementation
 "
 org
 .
@@ -2068,7 +2068,7 @@ android
 .
 3
 "
-focusCompile
+focusImplementation
 '
 com
 .
@@ -2086,7 +2086,7 @@ android
 .
 4
 '
-focusCompile
+focusImplementation
 '
 com
 .
@@ -2170,7 +2170,7 @@ enough
 for
 now
 .
-armCompile
+armImplementation
 "
 org
 .
@@ -2188,7 +2188,7 @@ v7a
 .
 0a1
 "
-x86Compile
+x86Implementation
 "
 org
 .
@@ -2204,7 +2204,7 @@ x86
 .
 0a1
 "
-aarch64Compile
+aarch64Implementation
 "
 org
 .
@@ -2222,7 +2222,7 @@ v8a
 .
 0a1
 "
-testCompile
+testImplementation
 '
 junit
 :
@@ -2232,7 +2232,7 @@ junit
 .
 12
 '
-testCompile
+testImplementation
 "
 org
 .
@@ -2246,7 +2246,7 @@ robolectric
 .
 1
 "
-testCompile
+testImplementation
 '
 org
 .
@@ -2262,7 +2262,7 @@ core
 .
 0
 '
-androidTestCompile
+androidTestImplementation
 '
 com
 .
@@ -2284,7 +2284,7 @@ v18
 .
 3
 '
-androidTestCompile
+androidTestImplementation
 "
 com
 .
@@ -2321,7 +2321,7 @@ support
 annotations
 '
 }
-androidTestCompile
+androidTestImplementation
 "
 com
 .
@@ -2341,7 +2341,7 @@ resource
 :
 espresso_version
 "
-androidTestCompile
+androidTestImplementation
 "
 com
 .
@@ -2378,7 +2378,7 @@ support
 annotations
 '
 }
-androidTestCompile
+androidTestImplementation
 '
 com
 .
@@ -2394,7 +2394,7 @@ mockwebserver
 .
 0
 '
-testCompile
+testImplementation
 '
 com
 .
@@ -2410,7 +2410,7 @@ mockwebserver
 .
 0
 '
-androidTestCompile
+androidTestImplementation
 "
 tools
 .
@@ -5091,6 +5091,8 @@ true
 html
 {
 destination
+file
+(
 "
 projectDir
 .
@@ -5106,6 +5108,7 @@ pmd
 .
 html
 "
+)
 }
 }
 }
