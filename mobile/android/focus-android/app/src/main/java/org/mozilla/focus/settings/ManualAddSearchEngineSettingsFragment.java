@@ -1216,6 +1216,13 @@ openConnection
 ;
 connection
 .
+setInstanceFollowRedirects
+(
+true
+)
+;
+connection
+.
 setConnectTimeout
 (
 SEARCH_QUERY_VALIDATION_TIMEOUT_MILLIS
