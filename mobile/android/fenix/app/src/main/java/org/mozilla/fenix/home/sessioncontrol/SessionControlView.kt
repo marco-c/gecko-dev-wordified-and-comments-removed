@@ -925,7 +925,6 @@ settings
 )
 shouldShowRecentSyncedTabs
 (
-settings
 )
 recentHistory
 pocketStories

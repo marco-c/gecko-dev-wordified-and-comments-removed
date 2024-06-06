@@ -440,9 +440,6 @@ syncedDeviceList
 .
 toComposeList
 (
-taskContinuityEnabled
-=
-true
 )
 assertEquals
 (
@@ -562,9 +559,6 @@ syncedDeviceList
 .
 toComposeList
 (
-taskContinuityEnabled
-=
-true
 )
 assertEquals
 (

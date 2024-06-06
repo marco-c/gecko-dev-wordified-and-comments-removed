@@ -2096,19 +2096,6 @@ binding
 .
 root
 )
-if
-(
-requireContext
-(
-)
-.
-settings
-(
-)
-.
-enableTaskContinuityEnhancements
-)
-{
 recentSyncedTabFeature
 .
 set
@@ -2170,7 +2157,6 @@ binding
 .
 root
 )
-}
 }
 if
 (
