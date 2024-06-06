@@ -823,6 +823,7 @@ lazy
 StrictModeManager
 (
 Config
+this
 )
 }
 val
