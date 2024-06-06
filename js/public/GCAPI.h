@@ -2663,6 +2663,15 @@ JSContext
 cx
 )
 ;
+JS_PUBLIC_API
+bool
+IsDeadNurseryObject
+(
+JSObject
+*
+obj
+)
+;
 extern
 JS_PUBLIC_API
 void
