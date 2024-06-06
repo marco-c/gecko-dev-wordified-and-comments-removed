@@ -1,11 +1,3 @@
-package
-org
-.
-mozilla
-.
-fenix
-.
-whatsnew
 /
 *
 This
@@ -64,6 +56,14 @@ MPL
 .
 *
 /
+package
+org
+.
+mozilla
+.
+fenix
+.
+whatsnew
 import
 org
 .

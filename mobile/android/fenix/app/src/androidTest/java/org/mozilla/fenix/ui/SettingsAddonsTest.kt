@@ -1,11 +1,3 @@
-package
-org
-.
-mozilla
-.
-fenix
-.
-ui
 /
 *
 This
@@ -64,6 +56,14 @@ MPL
 .
 *
 /
+package
+org
+.
+mozilla
+.
+fenix
+.
+ui
 import
 android
 .

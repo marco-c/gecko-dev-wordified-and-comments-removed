@@ -1,6 +1,5 @@
 /
 *
-*
 This
 Source
 Code
@@ -55,7 +54,6 @@ MPL
 0
 /
 .
-*
 *
 /
 package
