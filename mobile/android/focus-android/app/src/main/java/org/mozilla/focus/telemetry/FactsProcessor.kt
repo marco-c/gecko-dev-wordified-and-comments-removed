@@ -400,6 +400,11 @@ NoExtras
 (
 )
 )
+TelemetryWrapper
+.
+closeCustomTabEvent
+(
+)
 }
 Component
 .
@@ -422,6 +427,11 @@ record
 NoExtras
 (
 )
+)
+TelemetryWrapper
+.
+customTabActionButtonEvent
+(
 )
 }
 Component
@@ -492,6 +502,11 @@ Browser
 reportSiteIssueCounter
 .
 add
+(
+)
+TelemetryWrapper
+.
+reportSiteIssueEvent
 (
 )
 }

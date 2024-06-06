@@ -3280,6 +3280,12 @@ openUrl
 url
 searchTerms
 )
+TelemetryWrapper
+.
+urlBarEvent
+(
+isUrl
+)
 if
 (
 isUrl
