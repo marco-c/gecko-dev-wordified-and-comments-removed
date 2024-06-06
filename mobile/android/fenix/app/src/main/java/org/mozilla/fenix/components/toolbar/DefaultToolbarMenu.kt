@@ -1415,7 +1415,7 @@ R
 .
 drawable
 .
-mozac_ic_add_to_home_screen_24
+mozac_ic_add_to_homescreen_24
 iconTintColorResource
 =
 primaryTextColor
@@ -1873,7 +1873,7 @@ R
 .
 drawable
 .
-mozac_ic_add_to_home_screen_24
+mozac_ic_add_to_homescreen_24
 iconTintColorResource
 =
 primaryTextColor
