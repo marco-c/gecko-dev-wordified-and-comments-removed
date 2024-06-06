@@ -714,7 +714,6 @@ li
 #
 2376
 ;
-s
 <
 /
 li
@@ -952,7 +951,6 @@ s
 #
 2376
 ;
-s
 )
 <
 /
@@ -1169,7 +1167,6 @@ li
 #
 2376
 ;
-s
 <
 /
 li
@@ -1553,7 +1550,6 @@ name
 preference_category_search
 "
 >
-s
 <
 /
 string
@@ -1646,7 +1642,7 @@ s
 1
 s
 s
-s
+.
 <
 /
 string
@@ -1750,10 +1746,8 @@ name
 preference_autocomplete_custom_summary
 "
 >
-"
 URLs
 .
-"
 <
 /
 string
