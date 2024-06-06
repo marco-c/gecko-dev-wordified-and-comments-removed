@@ -426,7 +426,7 @@ POWERED_BY_URL
 is
 ReviewQualityCheckAction
 .
-OpenRecommendedProduct
+RecommendedProductClick
 -
 >
 action

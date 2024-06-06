@@ -606,6 +606,10 @@ ShowMoreRecentReviewsClicked
 onRecommendedProductClick
 =
 {
+aid
+url
+-
+>
 onRequestDismiss
 (
 BottomSheetDismissSource
@@ -618,9 +622,10 @@ dispatch
 (
 ReviewQualityCheckAction
 .
-OpenRecommendedProduct
+RecommendedProductClick
 (
-it
+aid
+url
 )
 )
 }
@@ -747,6 +752,11 @@ Unit
 onRecommendedProductClick
 :
 (
+aid
+:
+String
+url
+:
 String
 )
 -

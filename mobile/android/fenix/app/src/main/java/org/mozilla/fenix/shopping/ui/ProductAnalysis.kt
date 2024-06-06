@@ -868,6 +868,11 @@ Unit
 onRecommendedProductClick
 :
 (
+aid
+:
+String
+url
+:
 String
 )
 -
@@ -1076,6 +1081,11 @@ onClick
 {
 onRecommendedProductClick
 (
+productAnalysis
+.
+recommendedProductState
+.
+aid
 productAnalysis
 .
 recommendedProductState
@@ -3037,6 +3047,10 @@ isInfoExpanded
 onRecommendedProductClick
 =
 {
+_
+_
+-
+>
 }
 )
 }
