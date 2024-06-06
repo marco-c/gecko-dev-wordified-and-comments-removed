@@ -1661,6 +1661,7 @@ handleView
 .
 isVisible
 =
+!
 isSelectionMode
 handleView
 .
