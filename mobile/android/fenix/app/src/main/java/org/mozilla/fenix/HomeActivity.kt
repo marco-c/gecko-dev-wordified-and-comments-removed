@@ -1436,6 +1436,11 @@ this
 DefaultBrowserIntentProcessor
 (
 this
+components
+.
+analytics
+.
+metrics
 )
 )
 }

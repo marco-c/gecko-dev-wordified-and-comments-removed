@@ -1097,6 +1097,12 @@ Event
 (
 )
 object
+DefaultBrowserNotifTapped
+:
+Event
+(
+)
+object
 LoginDialogPromptDisplayed
 :
 Event
