@@ -299,9 +299,6 @@ defaultWebPage
 url
 )
 {
-dismissTrackingOnboarding
-(
-)
 verifyPageContent
 (
 defaultWebPage

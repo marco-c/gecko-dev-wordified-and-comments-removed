@@ -93,7 +93,7 @@ org
 .
 junit
 .
-Rule
+After
 import
 org
 .
@@ -105,7 +105,7 @@ org
 .
 junit
 .
-After
+Rule
 import
 org
 .
@@ -310,9 +310,6 @@ openThreeDotMenu
 .
 openHelp
 {
-dismissTrackingOnboarding
-(
-)
 verifyHelpUrl
 (
 )
