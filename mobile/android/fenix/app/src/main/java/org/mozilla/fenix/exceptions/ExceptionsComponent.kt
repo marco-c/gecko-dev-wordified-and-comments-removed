@@ -261,7 +261,6 @@ ExceptionsViewModel
 Factory
 (
 initialState
-changesObservable
 )
 )
 .
@@ -277,6 +276,7 @@ java
 .
 render
 (
+changesObservable
 uiView
 )
 override
@@ -376,12 +376,6 @@ ExceptionsViewModel
 initialState
 :
 ExceptionsState
-changesObservable
-:
-Observable
-<
-ExceptionsChange
->
 )
 :
 UIComponentViewModel
@@ -392,7 +386,6 @@ ExceptionsChange
 >
 (
 initialState
-changesObservable
 reducer
 )
 {
@@ -404,14 +397,6 @@ val
 initialState
 :
 ExceptionsState
-private
-val
-changesObservable
-:
-Observable
-<
-ExceptionsChange
->
 )
 :
 ViewModelProvider
@@ -447,7 +432,6 @@ T
 ExceptionsViewModel
 (
 initialState
-changesObservable
 )
 as
 T

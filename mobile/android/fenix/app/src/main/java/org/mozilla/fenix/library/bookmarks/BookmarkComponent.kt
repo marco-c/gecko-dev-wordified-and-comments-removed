@@ -299,7 +299,6 @@ BookmarkViewModel
 Factory
 (
 initialState
-changesObservable
 )
 )
 .
@@ -315,6 +314,7 @@ java
 .
 render
 (
+changesObservable
 uiView
 )
 }
@@ -602,12 +602,6 @@ BookmarkViewModel
 initialState
 :
 BookmarkState
-changesObservable
-:
-Observable
-<
-BookmarkChange
->
 )
 :
 UIComponentViewModel
@@ -618,7 +612,6 @@ BookmarkChange
 >
 (
 initialState
-changesObservable
 reducer
 )
 {
@@ -630,14 +623,6 @@ val
 initialState
 :
 BookmarkState
-private
-val
-changesObservable
-:
-Observable
-<
-BookmarkChange
->
 )
 :
 ViewModelProvider
@@ -673,7 +658,6 @@ T
 BookmarkViewModel
 (
 initialState
-changesObservable
 )
 as
 T

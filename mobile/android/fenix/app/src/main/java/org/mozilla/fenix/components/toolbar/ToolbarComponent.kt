@@ -377,6 +377,7 @@ java
 .
 render
 (
+changesObservable
 uiView
 )
 init
@@ -617,12 +618,6 @@ ToolbarViewModel
 initialState
 :
 SearchState
-changesObservable
-:
-Observable
-<
-SearchChange
->
 )
 :
 UIComponentViewModel
@@ -633,7 +628,6 @@ SearchChange
 >
 (
 initialState
-changesObservable
 reducer
 )
 {
@@ -687,7 +681,6 @@ T
 ToolbarViewModel
 (
 initialState
-changesObservable
 )
 as
 T

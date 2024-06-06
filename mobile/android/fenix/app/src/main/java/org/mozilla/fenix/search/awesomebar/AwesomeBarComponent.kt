@@ -406,7 +406,6 @@ AwesomeBarViewModel
 Factory
 (
 initialState
-changesObservable
 )
 )
 .
@@ -422,6 +421,7 @@ java
 .
 render
 (
+changesObservable
 uiView
 )
 init
@@ -437,12 +437,6 @@ AwesomeBarViewModel
 initialState
 :
 AwesomeBarState
-changesObservable
-:
-Observable
-<
-AwesomeBarChange
->
 )
 :
 UIComponentViewModel
@@ -453,7 +447,6 @@ AwesomeBarChange
 >
 (
 initialState
-changesObservable
 reducer
 )
 {
@@ -465,14 +458,6 @@ val
 initialState
 :
 AwesomeBarState
-private
-val
-changesObservable
-:
-Observable
-<
-AwesomeBarChange
->
 )
 :
 ViewModelProvider
@@ -508,7 +493,6 @@ T
 AwesomeBarViewModel
 (
 initialState
-changesObservable
 )
 as
 T

@@ -284,7 +284,6 @@ HistoryViewModel
 Factory
 (
 initialState
-changesObservable
 )
 )
 .
@@ -300,6 +299,7 @@ java
 .
 render
 (
+changesObservable
 uiView
 )
 init
@@ -545,12 +545,6 @@ HistoryViewModel
 initialState
 :
 HistoryState
-changesObservable
-:
-Observable
-<
-HistoryChange
->
 )
 :
 UIComponentViewModel
@@ -561,7 +555,6 @@ HistoryChange
 >
 (
 initialState
-changesObservable
 reducer
 )
 {
@@ -573,14 +566,6 @@ val
 initialState
 :
 HistoryState
-private
-val
-changesObservable
-:
-Observable
-<
-HistoryChange
->
 )
 :
 ViewModelProvider
@@ -616,7 +601,6 @@ T
 HistoryViewModel
 (
 initialState
-changesObservable
 )
 as
 T

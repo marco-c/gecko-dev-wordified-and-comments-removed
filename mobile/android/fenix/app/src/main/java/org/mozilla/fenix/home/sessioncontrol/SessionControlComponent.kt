@@ -322,7 +322,6 @@ SessionControlViewModel
 Factory
 (
 initialState
-changesObservable
 )
 )
 .
@@ -340,6 +339,7 @@ viewModel
 .
 render
 (
+changesObservable
 uiView
 )
 }
@@ -810,12 +810,6 @@ SessionControlViewModel
 initialState
 :
 SessionControlState
-changesObservable
-:
-Observable
-<
-SessionControlChange
->
 )
 :
 UIComponentViewModel
@@ -826,7 +820,6 @@ SessionControlChange
 >
 (
 initialState
-changesObservable
 reducer
 )
 {
@@ -838,14 +831,6 @@ val
 initialState
 :
 SessionControlState
-private
-val
-changesObservable
-:
-Observable
-<
-SessionControlChange
->
 )
 :
 ViewModelProvider
@@ -881,7 +866,6 @@ T
 SessionControlViewModel
 (
 initialState
-changesObservable
 )
 as
 T

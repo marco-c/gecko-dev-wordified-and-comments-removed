@@ -517,7 +517,6 @@ CollectionCreationViewModel
 Factory
 (
 initialState
-changesObservable
 )
 )
 .
@@ -533,6 +532,7 @@ java
 .
 render
 (
+changesObservable
 uiView
 )
 init
@@ -548,12 +548,6 @@ CollectionCreationViewModel
 initialState
 :
 CollectionCreationState
-changesObservable
-:
-Observable
-<
-CollectionCreationChange
->
 )
 :
 UIComponentViewModel
@@ -564,7 +558,6 @@ CollectionCreationChange
 >
 (
 initialState
-changesObservable
 reducer
 )
 {
@@ -576,14 +569,6 @@ val
 initialState
 :
 CollectionCreationState
-private
-val
-changesObservable
-:
-Observable
-<
-CollectionCreationChange
->
 )
 :
 ViewModelProvider
@@ -619,7 +604,6 @@ T
 CollectionCreationViewModel
 (
 initialState
-changesObservable
 )
 as
 T

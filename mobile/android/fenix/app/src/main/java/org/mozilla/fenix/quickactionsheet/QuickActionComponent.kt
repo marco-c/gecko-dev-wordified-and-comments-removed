@@ -281,7 +281,6 @@ QuickActionViewModel
 Factory
 (
 initialState
-changesObservable
 )
 )
 .
@@ -297,6 +296,7 @@ java
 .
 render
 (
+changesObservable
 uiView
 )
 init
@@ -436,12 +436,6 @@ QuickActionViewModel
 initialState
 :
 QuickActionState
-changesObservable
-:
-Observable
-<
-QuickActionChange
->
 )
 :
 UIComponentViewModel
@@ -452,7 +446,6 @@ QuickActionChange
 >
 (
 initialState
-changesObservable
 reducer
 )
 {
@@ -464,14 +457,6 @@ val
 initialState
 :
 QuickActionState
-private
-val
-changesObservable
-:
-Observable
-<
-QuickActionChange
->
 )
 :
 ViewModelProvider
@@ -507,7 +492,6 @@ T
 QuickActionViewModel
 (
 initialState
-changesObservable
 )
 as
 T

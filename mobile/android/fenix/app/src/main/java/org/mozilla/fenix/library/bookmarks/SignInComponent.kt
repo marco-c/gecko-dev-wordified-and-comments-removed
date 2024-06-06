@@ -272,7 +272,6 @@ SignInViewModel
 Factory
 (
 initialState
-changesObservable
 )
 )
 .
@@ -288,6 +287,7 @@ java
 .
 render
 (
+changesObservable
 uiView
 )
 init
@@ -346,12 +346,6 @@ SignInViewModel
 initialState
 :
 SignInState
-changesObservable
-:
-Observable
-<
-SignInChange
->
 )
 :
 UIComponentViewModel
@@ -362,7 +356,6 @@ SignInChange
 >
 (
 initialState
-changesObservable
 reducer
 )
 {
@@ -374,14 +367,6 @@ val
 initialState
 :
 SignInState
-private
-val
-changesObservable
-:
-Observable
-<
-SignInChange
->
 )
 :
 ViewModelProvider
@@ -417,7 +402,6 @@ T
 SignInViewModel
 (
 initialState
-changesObservable
 )
 as
 T
