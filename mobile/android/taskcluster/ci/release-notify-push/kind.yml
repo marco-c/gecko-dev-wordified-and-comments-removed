@@ -107,10 +107,6 @@ dependencies
 push
 -
 apk
--
-post
--
-beetmover
 task
 -
 defaults
