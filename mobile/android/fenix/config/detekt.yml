@@ -87,15 +87,6 @@ FindingsReport
 '
 BuildFailureReport
 '
-console
--
-reports
-:
-active
-:
-true
-exclude
-:
 #
 -
 '
@@ -146,6 +137,11 @@ androidTest
 *
 *
 "
+AbsentOrWrongFileLicense
+:
+active
+:
+true
 CommentOverPrivateFunction
 :
 active
