@@ -1290,13 +1290,6 @@ settings
 navigationInteractor
 =
 navigationInteractor
-metrics
-=
-requireComponents
-.
-analytics
-.
-metrics
 )
 owner
 =
