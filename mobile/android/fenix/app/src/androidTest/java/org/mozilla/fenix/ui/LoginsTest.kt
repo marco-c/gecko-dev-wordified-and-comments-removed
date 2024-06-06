@@ -2711,6 +2711,9 @@ enterSiteCredential
 (
 loginPage
 )
+verifyHostnameClearButtonEnabled
+(
+)
 setNewUserName
 (
 "
@@ -2734,6 +2737,9 @@ setNewPassword
 "
 firefox
 "
+)
+verifyPasswordClearButtonEnabled
+(
 )
 saveEditedLogin
 (
