@@ -19401,6 +19401,9 @@ extra_keys
 :
 error_type
 :
+type
+:
+string
 description
 :
 "
