@@ -2161,20 +2161,6 @@ Highlight
 .
 COMPETITIVENESS
 }
-/
-/
-As
-part
-of
-Bug
-1841600
-update
-iconResourceId
-for
-each
-highlight
-type
-.
 private
 enum
 class
@@ -2205,7 +2191,7 @@ R
 .
 drawable
 .
-ic_shopping_cart
+mozac_ic_quality_24
 )
 PRICE
 (
@@ -2222,7 +2208,7 @@ R
 .
 drawable
 .
-ic_shopping_cart
+mozac_ic_price_24
 )
 SHIPPING
 (
@@ -2239,7 +2225,7 @@ R
 .
 drawable
 .
-ic_shopping_cart
+mozac_ic_shipping_24
 )
 PACKAGING_AND_APPEARANCE
 (
@@ -2256,7 +2242,7 @@ R
 .
 drawable
 .
-ic_shopping_cart
+mozac_ic_packaging_24
 )
 COMPETITIVENESS
 (
@@ -2273,7 +2259,7 @@ R
 .
 drawable
 .
-ic_shopping_cart
+mozac_ic_competitiveness_24
 )
 }
 Composable
