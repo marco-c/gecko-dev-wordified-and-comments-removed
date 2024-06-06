@@ -265,6 +265,10 @@ null
 resources
 :
 -
+build
+.
+gradle
+-
 taskcluster
 /
 scripts
