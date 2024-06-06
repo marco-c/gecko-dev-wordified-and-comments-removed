@@ -541,6 +541,14 @@ creditCard
 CreditCardEntry
 )
 {
+if
+(
+!
+creditCard
+.
+isValid
+)
+return
 scope
 .
 launch
