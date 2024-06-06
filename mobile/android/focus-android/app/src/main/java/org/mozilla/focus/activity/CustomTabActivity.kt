@@ -389,6 +389,15 @@ savedInstanceState
 =
 =
 null
+|
+|
+!
+this
+:
+:
+browserFragment
+.
+isInitialized
 )
 {
 browserFragment
