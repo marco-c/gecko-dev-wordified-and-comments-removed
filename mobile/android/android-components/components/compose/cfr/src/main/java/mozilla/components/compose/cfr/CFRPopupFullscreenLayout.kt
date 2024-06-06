@@ -1330,6 +1330,11 @@ popupBodyColors
 properties
 .
 popupBodyColors
+showDismissButton
+=
+properties
+.
+showDismissButton
 dismissButtonColor
 =
 properties

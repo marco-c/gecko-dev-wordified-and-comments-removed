@@ -522,6 +522,12 @@ DEFAULT_VERTICAL_OFFSET
 .
 dp
 val
+showDismissButton
+:
+Boolean
+=
+true
+val
 dismissButtonColor
 :
 Int

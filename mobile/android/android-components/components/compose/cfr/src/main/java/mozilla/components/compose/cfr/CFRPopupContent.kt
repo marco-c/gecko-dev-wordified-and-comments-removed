@@ -513,6 +513,9 @@ List
 <
 Int
 >
+showDismissButton
+:
+Boolean
 dismissButtonColor
 :
 Int
@@ -1040,6 +1043,9 @@ toArgb
 (
 )
 )
+showDismissButton
+=
+true
 dismissButtonColor
 =
 Color
@@ -1167,6 +1173,9 @@ toArgb
 (
 )
 )
+showDismissButton
+=
+true
 dismissButtonColor
 =
 Color
