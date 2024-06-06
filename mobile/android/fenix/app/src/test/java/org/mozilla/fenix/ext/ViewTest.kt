@@ -325,6 +325,16 @@ every
 {
 view
 .
+context
+}
+answers
+{
+testContext
+}
+every
+{
+view
+.
 resources
 .
 getDimensionPixelSize
