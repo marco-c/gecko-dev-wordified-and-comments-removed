@@ -1868,6 +1868,12 @@ currentTimeMillis
 (
 )
 }
+onMove
+=
+tabsTrayInteractor
+:
+:
+onTabsMove
 )
 }
 }
