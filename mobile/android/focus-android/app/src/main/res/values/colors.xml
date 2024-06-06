@@ -692,7 +692,7 @@ snackbarBackground
 >
 color
 /
-photonLightGrey05
+colorSecondary
 <
 /
 color
@@ -707,7 +707,7 @@ snackbarTextColor
 >
 color
 /
-photonBlack
+primaryText
 <
 /
 color
@@ -722,7 +722,7 @@ snackbarActionText
 >
 color
 /
-photonBlue40
+accentBright
 <
 /
 color
