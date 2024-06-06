@@ -93,7 +93,7 @@ search
 .
 ext
 .
-legacy
+buildSearchUrl
 import
 org
 .
@@ -146,10 +146,6 @@ return
 text
 return
 searchEngine
-.
-legacy
-(
-)
 .
 buildSearchUrl
 (
