@@ -2713,7 +2713,7 @@ mozilla_browser_icons
 implementation
 Deps
 .
-mozilla_browser_engine_gecko_nightly
+mozilla_browser_engine_gecko_beta
 implementation
 Deps
 .
@@ -2837,15 +2837,15 @@ mozilla_lib_fetch_httpurlconnection
 armImplementation
 Gecko
 .
-geckoview_nightly_arm
+geckoview_beta_arm
 x86Implementation
 Gecko
 .
-geckoview_nightly_x86
+geckoview_beta_x86
 aarch64Implementation
 Gecko
 .
-geckoview_nightly_aarch64
+geckoview_beta_aarch64
 implementation
 Deps
 .
