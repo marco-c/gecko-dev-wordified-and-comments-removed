@@ -82,9 +82,9 @@ for
 abis
 :
 -
-armeabi
+arm64
 -
-v7a
+v8a
 task
 -
 defaults
@@ -250,9 +250,9 @@ by
 -
 abi
 :
-armeabi
+arm64
 -
-v7a
+v8a
 :
 android
 -
@@ -279,9 +279,9 @@ by
 -
 abi
 :
-armeabi
+arm64
 -
-v7a
+v8a
 :
 t
 -
