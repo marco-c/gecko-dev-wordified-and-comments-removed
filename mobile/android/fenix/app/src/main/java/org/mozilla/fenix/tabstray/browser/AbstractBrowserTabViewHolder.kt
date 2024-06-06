@@ -1402,7 +1402,6 @@ interactor
 onMultiSelectClicked
 (
 item
-holder
 featureName
 )
 }
@@ -1415,7 +1414,6 @@ interactor
 onTabLongClicked
 (
 item
-holder
 )
 }
 setDragInteractor

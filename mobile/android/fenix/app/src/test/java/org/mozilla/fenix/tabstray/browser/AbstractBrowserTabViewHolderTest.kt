@@ -593,9 +593,6 @@ interactor
 onMultiSelectClicked
 (
 tab
-any
-(
-)
 holder
 .
 featureName

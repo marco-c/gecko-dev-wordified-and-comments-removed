@@ -629,9 +629,6 @@ interactor
 tabsTrayStore
 =
 store
-selectionHolder
-=
-selectionHolder
 composeItemView
 =
 ComposeView
@@ -662,9 +659,6 @@ interactor
 store
 =
 store
-selectionHolder
-=
-selectionHolder
 composeItemView
 =
 ComposeView
