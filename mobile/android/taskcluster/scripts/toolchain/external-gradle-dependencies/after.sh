@@ -143,11 +143,11 @@ worker
 workspace
 }
 "
-#
-Package
-everything
-up
-.
+function
+_package_artifacts_downloaded_by_nexus
+(
+)
+{
 pushd
 "
 WORKSPACE
@@ -228,3 +228,5 @@ tar
 .
 xz
 popd
+}
+_package_artifacts_downloaded_by_nexus
