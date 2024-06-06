@@ -127,9 +127,9 @@ savedInstanceState
 )
 components
 .
-sessionManager
+tabsUseCases
 .
-removeSessions
+removeAllTabs
 (
 )
 TelemetryWrapper
