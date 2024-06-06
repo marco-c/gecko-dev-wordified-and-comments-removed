@@ -158,10 +158,6 @@ group_by
 "
 worker_types
 "
-            
-"
-release_promotion
-"
         
 ]
     
