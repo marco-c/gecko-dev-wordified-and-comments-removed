@@ -858,6 +858,8 @@ String
 assertUIObjectExists
 (
 searchSelectorButton
+(
+)
 .
 getChild
 (
@@ -2242,12 +2244,16 @@ SearchRobot
 Transition
 {
 searchSelectorButton
+(
+)
 .
 waitForExists
 (
 waitingTime
 )
 searchSelectorButton
+(
+)
 .
 click
 (
@@ -2674,8 +2680,10 @@ doesNotExist
 )
 }
 private
-val
+fun
 searchSelectorButton
+(
+)
 =
 mDevice
 .
