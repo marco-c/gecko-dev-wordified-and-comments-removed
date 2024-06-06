@@ -555,12 +555,6 @@ context
 val
 layoutParams
 =
-androidx
-.
-recyclerview
-.
-widget
-.
 RecyclerView
 .
 LayoutParams

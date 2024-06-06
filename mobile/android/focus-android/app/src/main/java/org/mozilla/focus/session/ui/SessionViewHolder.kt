@@ -171,12 +171,6 @@ textView
 TextView
 )
 :
-androidx
-.
-recyclerview
-.
-widget
-.
 RecyclerView
 .
 ViewHolder

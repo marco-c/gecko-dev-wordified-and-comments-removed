@@ -159,12 +159,6 @@ itemView
 View
 )
 :
-androidx
-.
-recyclerview
-.
-widget
-.
 RecyclerView
 .
 ViewHolder
