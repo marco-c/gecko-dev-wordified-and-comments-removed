@@ -225,6 +225,16 @@ project
 (
 '
 :
+ui
+-
+widgets
+'
+)
+implementation
+project
+(
+'
+:
 support
 -
 ktx

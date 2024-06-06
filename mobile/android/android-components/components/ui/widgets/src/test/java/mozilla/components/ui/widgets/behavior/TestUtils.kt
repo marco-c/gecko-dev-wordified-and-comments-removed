@@ -61,9 +61,9 @@ mozilla
 .
 components
 .
-browser
+ui
 .
-toolbar
+widgets
 .
 behavior
 import
@@ -168,6 +168,7 @@ properties
 Array
 (
 pointerCount
+TestUtils
 :
 :
 getPointerProperties

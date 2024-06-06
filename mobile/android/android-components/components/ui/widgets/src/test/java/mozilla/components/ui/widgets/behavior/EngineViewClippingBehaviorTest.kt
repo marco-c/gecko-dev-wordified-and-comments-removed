@@ -61,9 +61,9 @@ mozilla
 .
 components
 .
-feature
+ui
 .
-session
+widgets
 .
 behavior
 import
@@ -224,7 +224,7 @@ AndroidJUnit4
 class
 )
 class
-EngineViewBrowserToolbarBehaviorTest
+EngineViewClippingBehaviorTest
 {
 Test
 fun
@@ -286,7 +286,7 @@ translationY
 val
 behavior
 =
-EngineViewBrowserToolbarBehavior
+EngineViewClippingBehavior
 (
 mock
 (
@@ -398,7 +398,7 @@ translationY
 val
 behavior
 =
-EngineViewBrowserToolbarBehavior
+EngineViewClippingBehavior
 (
 mock
 (
@@ -464,7 +464,7 @@ views
 val
 behavior
 =
-EngineViewBrowserToolbarBehavior
+EngineViewClippingBehavior
 (
 mock
 (
@@ -545,7 +545,7 @@ BrowserToolbar
 val
 behavior
 =
-EngineViewBrowserToolbarBehavior
+EngineViewClippingBehavior
 (
 mock
 (
@@ -613,7 +613,7 @@ mock
 val
 behavior
 =
-EngineViewBrowserToolbarBehavior
+EngineViewClippingBehavior
 (
 mock
 (
@@ -680,7 +680,7 @@ mock
 val
 behavior
 =
-EngineViewBrowserToolbarBehavior
+EngineViewClippingBehavior
 (
 mock
 (
@@ -747,7 +747,7 @@ mock
 val
 behavior
 =
-EngineViewBrowserToolbarBehavior
+EngineViewClippingBehavior
 (
 mock
 (
@@ -813,7 +813,7 @@ mock
 val
 behavior
 =
-EngineViewBrowserToolbarBehavior
+EngineViewClippingBehavior
 (
 mock
 (
@@ -879,7 +879,7 @@ mock
 val
 behavior
 =
-EngineViewBrowserToolbarBehavior
+EngineViewClippingBehavior
 (
 mock
 (
@@ -945,7 +945,7 @@ mock
 val
 behavior
 =
-EngineViewBrowserToolbarBehavior
+EngineViewClippingBehavior
 (
 mock
 (
@@ -1039,7 +1039,7 @@ translationY
 val
 behavior
 =
-EngineViewBrowserToolbarBehavior
+EngineViewClippingBehavior
 (
 mock
 (

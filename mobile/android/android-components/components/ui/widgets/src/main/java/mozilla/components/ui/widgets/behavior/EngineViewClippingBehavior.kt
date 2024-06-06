@@ -61,9 +61,9 @@ mozilla
 .
 components
 .
-feature
+ui
 .
-session
+widgets
 .
 behavior
 import
@@ -266,7 +266,7 @@ EngineView
 *
 /
 class
-EngineViewBrowserToolbarBehavior
+EngineViewClippingBehavior
 (
 context
 :
@@ -601,7 +601,7 @@ EngineView
 This
 requires
 [
-EngineViewBrowserToolbarBehavior
+EngineViewClippingBehavior
 ]
 to
 be

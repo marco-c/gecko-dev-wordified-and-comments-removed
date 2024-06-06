@@ -143,7 +143,7 @@ concept
 .
 toolbar
 .
-Toolbar
+ScrollableToolbar
 import
 mozilla
 .
@@ -162,7 +162,7 @@ flowScoped
 *
 Controls
 how
-the
+a
 dynamic
 toolbar
 should
@@ -205,7 +205,7 @@ private
 val
 toolbar
 :
-Toolbar
+ScrollableToolbar
 private
 val
 store

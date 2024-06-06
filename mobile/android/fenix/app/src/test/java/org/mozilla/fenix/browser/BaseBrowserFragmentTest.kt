@@ -163,13 +163,11 @@ mozilla
 .
 components
 .
-feature
+ui
 .
-session
+widgets
 .
-behavior
-.
-EngineViewBrowserToolbarBehavior
+VerticalSwipeRefreshLayout
 import
 mozilla
 .
@@ -179,7 +177,9 @@ ui
 .
 widgets
 .
-VerticalSwipeRefreshLayout
+behavior
+.
+EngineViewClippingBehavior
 import
 org
 .
@@ -566,7 +566,7 @@ fun
 initializeEngineView
 should
 set
-EngineViewBrowserToolbarBehavior
+EngineViewClippingBehavior
 when
 dynamic
 toolbar
@@ -630,7 +630,7 @@ behavior
 =
 slot
 <
-EngineViewBrowserToolbarBehavior
+EngineViewClippingBehavior
 >
 (
 )
@@ -642,7 +642,7 @@ initializeEngineView
 )
 /
 /
-EngineViewBrowserToolbarBehavior
+EngineViewClippingBehavior
 constructor
 parameters
 are
