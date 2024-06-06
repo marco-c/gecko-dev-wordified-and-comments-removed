@@ -1260,7 +1260,7 @@ tint
 =
 "
 ?
-neutral
+iconOnColor
 "
 /
 >
@@ -1321,7 +1321,7 @@ textColor
 =
 "
 ?
-neutral
+textActionPrimary
 "
 android
 :
@@ -1439,9 +1439,8 @@ android
 textColor
 =
 "
-color
-/
-photonWhite
+?
+textActionPrimary
 "
 app
 :
