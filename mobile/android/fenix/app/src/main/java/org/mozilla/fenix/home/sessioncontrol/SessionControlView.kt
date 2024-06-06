@@ -83,7 +83,7 @@ androidx
 .
 lifecycle
 .
-ProcessLifecycleOwner
+LifecycleOwner
 import
 androidx
 .
@@ -983,6 +983,11 @@ interactor
 :
 SessionControlInteractor
 private
+val
+viewLifecycleOwner
+:
+LifecycleOwner
+private
 var
 homeScreenViewModel
 :
@@ -1047,11 +1052,7 @@ view
 consumeFrom
 (
 homeFragmentStore
-ProcessLifecycleOwner
-.
-get
-(
-)
+viewLifecycleOwner
 )
 {
 update

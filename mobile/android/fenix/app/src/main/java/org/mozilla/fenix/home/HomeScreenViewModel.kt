@@ -90,10 +90,6 @@ Parcelable
 ?
 =
 null
-var
-motionLayoutProgress
-=
-0F
 /
 *
 *

@@ -1534,9 +1534,7 @@ SupportUtils
 .
 getWhatsNewUrl
 (
-view
-.
-context
+activity
 )
 )
 }
@@ -1571,6 +1569,7 @@ view
 .
 sessionControlRecyclerView
 sessionControlInteractor
+viewLifecycleOwner
 homeViewModel
 )
 activity
