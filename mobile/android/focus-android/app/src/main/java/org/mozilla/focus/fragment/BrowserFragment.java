@@ -5028,11 +5028,10 @@ if
 !
 AppConstants
 .
+INSTANCE
+.
 isGeckoBuild
 (
-getContext
-(
-)
 )
 )
 {
