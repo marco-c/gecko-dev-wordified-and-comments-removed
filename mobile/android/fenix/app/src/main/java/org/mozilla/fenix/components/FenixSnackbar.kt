@@ -424,6 +424,14 @@ duration
 duration
 }
 }
+/
+/
+Use
+the
+same
+implementation
+of
+Snackbar
 private
 fun
 findSuitableParent
@@ -474,7 +482,11 @@ view
 id
 =
 =
-16908290
+R
+.
+id
+.
+content
 )
 {
 return

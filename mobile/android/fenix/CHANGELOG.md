@@ -296,6 +296,14 @@ exception
 to
 site
 permissions
+-
+#
+1430
+-
+Adds
+the
+Fenix
+Snackbar
 #
 #
 #
