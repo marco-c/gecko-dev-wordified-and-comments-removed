@@ -1235,7 +1235,12 @@ android
 background
 =
 "
-null
+?
+android
+:
+attr
+/
+selectableItemBackgroundBorderless
 "
 android
 :
