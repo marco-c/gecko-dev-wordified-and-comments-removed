@@ -277,11 +277,9 @@ mozilla
 .
 fenix
 .
-components
+ext
 .
 metrics
-.
-MetricController
 import
 org
 .
@@ -511,11 +509,6 @@ val
 context
 :
 Context
-private
-val
-metrics
-:
-MetricController
 private
 val
 shareSubject
@@ -801,6 +794,8 @@ device
 Device
 )
 {
+context
+.
 metrics
 .
 track
@@ -858,6 +853,8 @@ handleSignIn
 (
 )
 {
+context
+.
 metrics
 .
 track
