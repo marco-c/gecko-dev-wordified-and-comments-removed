@@ -846,6 +846,13 @@ settings
 shouldBlockWebFonts
 (
 )
+httpsOnlyMode
+=
+settings
+.
+getHttpsOnlyMode
+(
+)
 )
 }
 val
