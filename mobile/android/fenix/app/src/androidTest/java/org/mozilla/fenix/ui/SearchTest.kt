@@ -942,7 +942,7 @@ search
 "
 )
 {
-longClickMatchingText
+longClickLink
 (
 "
 Link
@@ -952,7 +952,7 @@ Link
 clickContextOpenLinkInNewTab
 (
 )
-longClickMatchingText
+longClickLink
 (
 "
 Link
@@ -1140,7 +1140,7 @@ search
 "
 )
 {
-longClickMatchingText
+longClickLink
 (
 "
 Link
@@ -1150,7 +1150,7 @@ Link
 clickContextOpenLinkInPrivateTab
 (
 )
-longClickMatchingText
+longClickLink
 (
 "
 Link
@@ -1369,7 +1369,7 @@ search
 "
 )
 {
-longClickMatchingText
+longClickLink
 (
 "
 Link
@@ -1379,7 +1379,7 @@ Link
 clickContextOpenLinkInPrivateTab
 (
 )
-longClickMatchingText
+longClickLink
 (
 "
 Link
@@ -1610,7 +1610,7 @@ search
 "
 )
 {
-longClickMatchingText
+longClickLink
 (
 "
 Link
@@ -1620,7 +1620,7 @@ Link
 clickContextOpenLinkInNewTab
 (
 )
-longClickMatchingText
+longClickLink
 (
 "
 Link

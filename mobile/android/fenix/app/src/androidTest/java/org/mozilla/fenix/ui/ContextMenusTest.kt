@@ -469,7 +469,7 @@ mDevice
 waitForIdle
 (
 )
-longClickMatchingText
+longClickLink
 (
 "
 Link
@@ -570,7 +570,7 @@ mDevice
 waitForIdle
 (
 )
-longClickMatchingText
+longClickLink
 (
 "
 Link
@@ -665,7 +665,7 @@ mDevice
 waitForIdle
 (
 )
-longClickMatchingText
+longClickLink
 (
 "
 Link
@@ -752,7 +752,7 @@ mDevice
 waitForIdle
 (
 )
-longClickMatchingText
+longClickLink
 (
 "
 Link
@@ -824,7 +824,7 @@ mDevice
 waitForIdle
 (
 )
-longClickMatchingText
+longClickLink
 (
 "
 test_link_image
@@ -903,7 +903,7 @@ mDevice
 waitForIdle
 (
 )
-longClickMatchingText
+longClickLink
 (
 "
 test_link_image
@@ -988,7 +988,7 @@ mDevice
 waitForIdle
 (
 )
-longClickMatchingText
+longClickLink
 (
 "
 test_link_image
@@ -1090,7 +1090,7 @@ mDevice
 waitForIdle
 (
 )
-longClickMatchingText
+longClickLink
 (
 "
 Link
@@ -1109,7 +1109,7 @@ genericURL
 .
 url
 )
-longClickMatchingText
+longClickLink
 (
 "
 test_link_image
@@ -1127,7 +1127,7 @@ imageResource
 .
 url
 )
-longClickMatchingText
+longClickLink
 (
 "
 test_no_link_image
@@ -1169,7 +1169,7 @@ genericURL
 url
 )
 {
-longClickMatchingText
+longClickLink
 (
 genericURL
 .
