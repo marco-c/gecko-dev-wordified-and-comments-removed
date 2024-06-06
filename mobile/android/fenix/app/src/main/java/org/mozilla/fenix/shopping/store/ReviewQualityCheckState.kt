@@ -224,6 +224,15 @@ should
 be
 shown
 .
+Null
+indicates
+that
+product
+*
+recommendations
+are
+disabled
+.
 *
 /
 data
@@ -242,6 +251,7 @@ val
 productRecommendationsPreference
 :
 Boolean
+?
 )
 :
 ReviewQualityCheckState

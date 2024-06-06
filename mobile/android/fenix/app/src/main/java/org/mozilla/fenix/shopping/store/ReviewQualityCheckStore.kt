@@ -275,6 +275,14 @@ is
 ReviewQualityCheckState
 .
 OptedIn
+&
+&
+state
+.
+productRecommendationsPreference
+!
+=
+null
 )
 {
 state

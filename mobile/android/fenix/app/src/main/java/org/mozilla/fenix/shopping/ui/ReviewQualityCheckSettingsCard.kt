@@ -311,6 +311,7 @@ ReviewQualityCheckSettingsCard
 productRecommendationsEnabled
 :
 Boolean
+?
 onProductRecommendationsEnabledStateChange
 :
 (
@@ -379,6 +380,7 @@ SettingsContent
 productRecommendationsEnabled
 :
 Boolean
+?
 onProductRecommendationsEnabledStateChange
 :
 (
@@ -421,6 +423,14 @@ height
 dp
 )
 )
+if
+(
+productRecommendationsEnabled
+!
+=
+null
+)
+{
 SwitchWithLabel
 (
 checked
@@ -453,6 +463,7 @@ height
 dp
 )
 )
+}
 SecondaryButton
 (
 text

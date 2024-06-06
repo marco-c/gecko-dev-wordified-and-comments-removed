@@ -562,6 +562,7 @@ ProductAnalysis
 productRecommendationsEnabled
 :
 Boolean
+?
 productAnalysis
 :
 AnalysisPresent
