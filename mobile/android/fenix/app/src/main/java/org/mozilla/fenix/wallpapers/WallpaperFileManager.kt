@@ -89,6 +89,12 @@ coroutines
 .
 launch
 import
+kotlinx
+.
+coroutines
+.
+withContext
+import
 java
 .
 io
@@ -196,6 +202,7 @@ dark
 landscape
 *
 /
+suspend
 fun
 lookupExpiredWallpaper
 (
@@ -208,8 +215,14 @@ Wallpaper
 .
 Expired
 ?
+=
+withContext
+(
+Dispatchers
+.
+IO
+)
 {
-return
 if
 (
 getAllLocalWallpaperPaths

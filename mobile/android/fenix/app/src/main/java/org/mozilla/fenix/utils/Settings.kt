@@ -559,7 +559,7 @@ fenix
 .
 wallpapers
 .
-WallpaperManager
+Wallpaper
 import
 java
 .
@@ -1287,9 +1287,9 @@ pref_key_current_wallpaper
 )
 default
 =
-WallpaperManager
+Wallpaper
 .
-defaultWallpaper
+Default
 .
 name
 )

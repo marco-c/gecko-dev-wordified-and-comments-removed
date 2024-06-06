@@ -5718,9 +5718,11 @@ launch
 {
 components
 .
-wallpaperManager
+useCases
 .
-downloadAllRemoteWallpapers
+wallpaperUseCases
+.
+initialize
 (
 )
 }
