@@ -857,6 +857,9 @@ sessionProvider
 =
 SessionSuggestionProvider
 (
+context
+.
+resources
 components
 .
 core
