@@ -1298,6 +1298,7 @@ camera_permissions_needed_message
 "
 >
 .
+Android
 .
 <
 /
@@ -13276,6 +13277,7 @@ name
 phone_feature_blocked_by_android
 "
 >
+Android
 <
 /
 string
@@ -16378,6 +16380,7 @@ name
 preference_accessibility_auto_size_summary
 "
 >
+Android
 .
 .
 <
