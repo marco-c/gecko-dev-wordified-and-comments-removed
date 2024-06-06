@@ -245,7 +245,7 @@ settings
 (
 )
 .
-enabledTotalCookieProtectionSetting
+enabledTotalCookieProtection
 )
 {
 binding

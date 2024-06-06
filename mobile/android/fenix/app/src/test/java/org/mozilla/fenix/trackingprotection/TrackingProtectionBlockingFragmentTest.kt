@@ -275,7 +275,7 @@ true
 {
 every
 {
-enabledTotalCookieProtectionSetting
+enabledTotalCookieProtection
 }
 returns
 true
@@ -405,7 +405,7 @@ true
 {
 every
 {
-enabledTotalCookieProtectionSetting
+enabledTotalCookieProtection
 }
 returns
 false

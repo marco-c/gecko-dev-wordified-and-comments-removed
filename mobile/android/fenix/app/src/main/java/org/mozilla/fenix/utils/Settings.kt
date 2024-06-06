@@ -3058,7 +3058,7 @@ pref_key_tracking_protection_custom_cookies
 true
 )
 val
-enabledTotalCookieProtectionSetting
+enabledTotalCookieProtection
 :
 Boolean
 get
@@ -3139,7 +3139,7 @@ default
 =
 if
 (
-enabledTotalCookieProtectionSetting
+enabledTotalCookieProtection
 )
 {
 appContext

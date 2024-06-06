@@ -757,7 +757,7 @@ settings
 (
 )
 .
-enabledTotalCookieProtectionSetting
+enabledTotalCookieProtection
 )
 {
 binding
@@ -870,7 +870,7 @@ settings
 (
 )
 .
-enabledTotalCookieProtectionSetting
+enabledTotalCookieProtection
 )
 {
 binding

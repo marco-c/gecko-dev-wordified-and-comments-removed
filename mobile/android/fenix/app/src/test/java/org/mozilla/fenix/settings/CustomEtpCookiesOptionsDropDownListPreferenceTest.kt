@@ -265,7 +265,7 @@ mockk
 {
 every
 {
-enabledTotalCookieProtectionSetting
+enabledTotalCookieProtection
 }
 returns
 true
@@ -363,7 +363,7 @@ mockk
 {
 every
 {
-enabledTotalCookieProtectionSetting
+enabledTotalCookieProtection
 }
 returns
 false

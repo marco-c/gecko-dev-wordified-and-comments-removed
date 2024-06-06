@@ -244,7 +244,7 @@ settings
 (
 )
 .
-enabledTotalCookieProtectionSetting
+enabledTotalCookieProtection
 )
 {
 /
