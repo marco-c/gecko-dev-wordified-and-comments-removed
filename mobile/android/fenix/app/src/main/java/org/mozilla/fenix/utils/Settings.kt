@@ -427,6 +427,18 @@ settings
 .
 registerOnSharedPreferenceChangeListener
 import
+org
+.
+mozilla
+.
+fenix
+.
+settings
+.
+sitepermissions
+.
+AUTOPLAY_BLOCK_ALL
+import
 java
 .
 security
@@ -3614,9 +3626,6 @@ well
 fun
 getAutoplayUserSetting
 (
-default
-:
-Int
 )
 =
 preferences
@@ -3624,7 +3633,7 @@ preferences
 getInt
 (
 AUTOPLAY_USER_SETTING
-default
+AUTOPLAY_BLOCK_ALL
 )
 private
 fun

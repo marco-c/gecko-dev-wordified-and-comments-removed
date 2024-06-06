@@ -4055,6 +4055,7 @@ AutoplaySetting
 BLOCK_CELLULAR
 BLOCK_AUDIO
 BLOCK_ALL
+ALLOW_ALL
 }
 override
 val

@@ -840,9 +840,6 @@ appSettings
 .
 getAutoplayUserSetting
 (
-any
-(
-)
 )
 }
 returns

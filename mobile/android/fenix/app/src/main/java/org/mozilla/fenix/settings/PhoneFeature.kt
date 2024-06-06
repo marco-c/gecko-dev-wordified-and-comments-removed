@@ -386,9 +386,6 @@ settings
 .
 getAutoplayUserSetting
 (
-default
-=
-AUTOPLAY_BLOCK_ALL
 )
 ?
 :
