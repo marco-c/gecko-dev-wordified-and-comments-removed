@@ -454,6 +454,7 @@ historyStorage
 .
 cancelReads
 (
+text
 )
 if
 (

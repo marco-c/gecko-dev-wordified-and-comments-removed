@@ -494,11 +494,13 @@ historyStorage
 .
 cancelReads
 (
+text
 )
 historyMetadataStorage
 .
 cancelReads
 (
+text
 )
 if
 (

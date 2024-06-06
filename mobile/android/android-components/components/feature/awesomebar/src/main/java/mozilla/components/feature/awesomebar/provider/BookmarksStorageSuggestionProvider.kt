@@ -433,6 +433,7 @@ bookmarksStorage
 .
 cancelReads
 (
+text
 )
 if
 (
