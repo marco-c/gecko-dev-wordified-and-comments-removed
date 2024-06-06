@@ -2947,7 +2947,7 @@ content_groups_
 int
 msid_signaling_
 =
-kMsidSignalingSsrcAttribute
+kMsidSignalingMediaSection
 |
 kMsidSignalingSemantic
 ;
