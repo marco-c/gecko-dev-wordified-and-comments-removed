@@ -10632,6 +10632,9 @@ experiments
 time_unit
 :
 millisecond
+lifetime
+:
+application
 bugs
 :
 -
