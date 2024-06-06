@@ -76,6 +76,10 @@ build
 -
 signing
 -
+signing
+-
+apk
+-
 repackage
 -
 signing
