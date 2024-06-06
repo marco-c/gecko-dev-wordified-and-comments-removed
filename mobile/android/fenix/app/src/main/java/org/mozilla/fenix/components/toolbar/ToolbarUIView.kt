@@ -287,6 +287,7 @@ SearchAction
 UrlCommitted
 (
 it
+sessionId
 )
 )
 false

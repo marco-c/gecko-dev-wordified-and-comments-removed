@@ -144,6 +144,10 @@ useNewTab
 Boolean
 =
 false
+val
+isPrivate
+:
+Boolean
 )
 :
 ViewState
@@ -201,6 +205,9 @@ AwesomeBarState
 (
 "
 "
+isPrivate
+=
+false
 )
 )
 :
@@ -284,6 +291,9 @@ AwesomeBarUIView
 initialState
 .
 useNewTab
+initialState
+.
+isPrivate
 container
 actionEmitter
 changesObservable

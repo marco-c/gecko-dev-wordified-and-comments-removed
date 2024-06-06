@@ -406,6 +406,11 @@ val
 url
 :
 String
+val
+session
+:
+String
+?
 )
 :
 SearchAction
