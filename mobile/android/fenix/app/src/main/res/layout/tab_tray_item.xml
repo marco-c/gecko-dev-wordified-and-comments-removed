@@ -583,7 +583,7 @@ textColor
 "
 color
 /
-tab_tray_item_text_normal_theme
+primary_text_normal_theme
 "
 android
 :
@@ -865,7 +865,7 @@ tint
 "
 color
 /
-tab_tray_item_text_normal_theme
+primary_text_normal_theme
 "
 /
 >
