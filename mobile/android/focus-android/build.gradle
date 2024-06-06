@@ -43,8 +43,6 @@ support_libraries_version
 0
 .
 0
--
-rc02
 '
 ext
 .
@@ -66,7 +64,7 @@ kotlin_version
 .
 2
 .
-70
+71
 '
 ext
 .
