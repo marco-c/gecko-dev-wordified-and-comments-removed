@@ -6799,7 +6799,7 @@ availableWallpapers
 makeFakeRemoteWallpapers
 (
 THUMBNAILS_SELECTION_COUNT
-true
+false
 )
 )
 assertFalse

@@ -1061,7 +1061,7 @@ tabCounter
 mode
 =
 mode
-onBrowsingModeChanged
+itemTapped
 =
 itemTapped
 )

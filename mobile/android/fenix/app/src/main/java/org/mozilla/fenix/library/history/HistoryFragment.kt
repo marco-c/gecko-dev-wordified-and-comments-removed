@@ -861,8 +861,11 @@ appStore
 state
 .
 mode
+=
+=
+BrowsingMode
 .
-isPrivate
+Private
 )
 HistorySyncMiddleware
 (
