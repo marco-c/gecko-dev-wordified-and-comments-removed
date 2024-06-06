@@ -3135,6 +3135,12 @@ appears
 correctly
 verifySavedLoginFromPrompt
 (
+"
+test
+example
+.
+com
+"
 )
 viewSavedLoginDetails
 (

@@ -330,6 +330,9 @@ click
 fun
 verifySavedLoginFromPrompt
 (
+userName
+:
+String
 )
 =
 mDevice
@@ -344,12 +347,7 @@ By
 .
 text
 (
-"
-test
-example
-.
-com
-"
+userName
 )
 )
 )
