@@ -148,6 +148,13 @@ tabcounter
 dependencies
 {
 implementation
+platform
+(
+ComponentsDependencies
+.
+androidx_compose_bom
+)
+implementation
 project
 (
 '

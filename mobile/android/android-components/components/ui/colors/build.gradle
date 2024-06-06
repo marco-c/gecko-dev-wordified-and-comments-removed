@@ -144,6 +144,13 @@ colors
 dependencies
 {
 implementation
+platform
+(
+ComponentsDependencies
+.
+androidx_compose_bom
+)
+implementation
 ComponentsDependencies
 .
 androidx_compose_ui

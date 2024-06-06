@@ -195,6 +195,13 @@ ExperimentalCoroutinesApi
 dependencies
 {
 implementation
+platform
+(
+ComponentsDependencies
+.
+androidx_compose_bom
+)
+implementation
 ComponentsDependencies
 .
 kotlin_coroutines
@@ -229,6 +236,13 @@ support
 -
 ktx
 '
+)
+testImplementation
+platform
+(
+ComponentsDependencies
+.
+androidx_compose_bom
 )
 testImplementation
 project
