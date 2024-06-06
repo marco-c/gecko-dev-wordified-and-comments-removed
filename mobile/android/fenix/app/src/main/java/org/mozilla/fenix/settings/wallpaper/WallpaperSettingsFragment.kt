@@ -463,6 +463,14 @@ it
 onSelectWallpaper
 =
 {
+if
+(
+it
+!
+=
+currentWallpaper
+)
+{
 coroutineScope
 .
 launch
@@ -484,6 +492,7 @@ requireView
 (
 )
 )
+}
 }
 }
 onLearnMoreClick
