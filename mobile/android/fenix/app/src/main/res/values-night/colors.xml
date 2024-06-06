@@ -327,9 +327,8 @@ name
 shadow_normal_theme
 "
 >
-color
-/
-shadow_dark_theme
+#
+050505
 <
 /
 color
