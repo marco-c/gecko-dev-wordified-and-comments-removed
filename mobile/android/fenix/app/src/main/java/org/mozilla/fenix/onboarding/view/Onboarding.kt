@@ -1023,7 +1023,7 @@ R
 .
 string
 .
-onboarding_home_welcome_title
+onboarding_home_welcome_title_2
 )
 color
 =
@@ -1165,7 +1165,7 @@ R
 .
 string
 .
-onboarding_home_sync_title_2
+onboarding_home_sync_title_3
 )
 color
 =
