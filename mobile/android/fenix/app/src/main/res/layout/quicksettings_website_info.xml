@@ -371,15 +371,6 @@ mozac_ic_lock
 "
 android
 :
-tint
-=
-"
-color
-/
-photonGreen50
-"
-android
-:
 paddingEnd
 =
 "
