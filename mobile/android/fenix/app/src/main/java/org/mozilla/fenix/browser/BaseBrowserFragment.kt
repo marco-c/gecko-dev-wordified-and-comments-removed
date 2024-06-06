@@ -2646,6 +2646,17 @@ settings
 .
 openLinksInExternalApp
 }
+loadUrlUseCase
+=
+context
+.
+components
+.
+useCases
+.
+sessionUseCases
+.
+loadUrl
 )
 owner
 =
