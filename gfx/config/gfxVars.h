@@ -704,6 +704,13 @@ WebRenderOverlayVpSuperResolution
 bool
 false
 )
+\
+_
+(
+AllowWebGPUPresentWithoutReadback
+bool
+false
+)
 class
 gfxVars
 final
