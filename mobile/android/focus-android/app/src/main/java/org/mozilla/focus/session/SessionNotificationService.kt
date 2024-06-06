@@ -752,6 +752,8 @@ notificationIntentFlags
 IntentUtils
 .
 defaultIntentPendingFlags
+(
+)
 or
 PendingIntent
 .
@@ -799,6 +801,8 @@ openActionIntentFlags
 IntentUtils
 .
 defaultIntentPendingFlags
+(
+)
 or
 PendingIntent
 .
@@ -848,6 +852,8 @@ openAndEraseActionIntentFlags
 IntentUtils
 .
 defaultIntentPendingFlags
+(
+)
 or
 PendingIntent
 .
