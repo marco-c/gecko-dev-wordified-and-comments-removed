@@ -2771,6 +2771,11 @@ inherit
 )
 ;
 }
+:
+root
+[
+lwtheme
+]
 toolbar
 :
 not
@@ -2779,12 +2784,6 @@ not
 brighttext
 ]
 )
-&
-:
--
-moz
--
-lwtheme
 {
 list
 -

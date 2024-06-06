@@ -11928,11 +11928,6 @@ is_html_document
 NonTSPseudoClass
 :
 :
-MozLWTheme
-|
-NonTSPseudoClass
-:
-:
 MozLocaleDir
 (
 .

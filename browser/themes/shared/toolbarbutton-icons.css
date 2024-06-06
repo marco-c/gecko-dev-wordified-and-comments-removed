@@ -103,14 +103,10 @@ FFA436
 FFBD4F
 )
 ;
-}
-:
-root
-:
--
-moz
--
+&
+[
 lwtheme
+]
 {
 -
 -
@@ -217,6 +213,7 @@ background
 color
 )
 ;
+}
 }
 .
 toolbarbutton
