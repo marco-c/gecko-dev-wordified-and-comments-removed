@@ -128,15 +128,9 @@ pr
 files
 ~
 =
-(
-Gecko
-.
-kt
-|
 AndroidComponents
 .
 kt
-)
 actions
 :
 review
