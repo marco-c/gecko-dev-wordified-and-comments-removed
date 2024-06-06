@@ -75,6 +75,14 @@ kotlinx
 .
 coroutines
 .
+Dispatchers
+.
+IO
+import
+kotlinx
+.
+coroutines
+.
 GlobalScope
 import
 kotlinx
@@ -164,6 +172,9 @@ lazy
 {
 SearchEngineManager
 (
+coroutineContext
+=
+IO
 )
 .
 apply
