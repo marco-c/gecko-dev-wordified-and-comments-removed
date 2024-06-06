@@ -365,11 +365,11 @@ assertDuckDuckGoURL
 (
 )
 fun
-verifySearchEngineSettings
+verifySearchSettings
 (
 )
 =
-assertSearchEngineSettings
+assertSearchSettings
 (
 )
 fun
@@ -1208,7 +1208,7 @@ VISIBLE
 )
 private
 fun
-assertSearchEngineSettings
+assertSearchSettings
 (
 )
 =
@@ -1219,7 +1219,8 @@ allOf
 withText
 (
 "
-Search
+Default
+search
 engine
 "
 )

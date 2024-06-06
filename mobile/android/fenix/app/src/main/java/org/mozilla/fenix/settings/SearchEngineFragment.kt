@@ -174,7 +174,7 @@ R
 .
 string
 .
-preferences_search_engine
+preferences_search
 )
 (
 activity

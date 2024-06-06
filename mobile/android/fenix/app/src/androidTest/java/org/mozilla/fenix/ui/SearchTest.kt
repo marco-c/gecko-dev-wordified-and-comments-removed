@@ -300,7 +300,7 @@ scrollToSearchEngineSettings
 clickSearchEngineSettings
 (
 )
-verifySearchEngineSettings
+verifySearchSettings
 (
 )
 }
