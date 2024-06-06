@@ -71,6 +71,12 @@ content
 .
 Context
 import
+android
+.
+util
+.
+AttributeSet
+import
 com
 .
 google
@@ -82,12 +88,6 @@ material
 appbar
 .
 AppBarLayout
-import
-android
-.
-util
-.
-AttributeSet
 import
 kotlinx
 .

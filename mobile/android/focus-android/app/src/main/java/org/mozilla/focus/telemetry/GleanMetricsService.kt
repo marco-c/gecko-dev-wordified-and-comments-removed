@@ -205,7 +205,7 @@ focus
 .
 GleanMetrics
 .
-GleanBuildInfo
+Browser
 import
 org
 .
@@ -215,7 +215,7 @@ focus
 .
 GleanMetrics
 .
-Browser
+GleanBuildInfo
 import
 org
 .

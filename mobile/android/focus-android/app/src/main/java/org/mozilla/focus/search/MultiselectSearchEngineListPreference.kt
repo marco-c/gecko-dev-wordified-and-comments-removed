@@ -71,12 +71,6 @@ content
 .
 Context
 import
-androidx
-.
-preference
-.
-PreferenceViewHolder
-import
 android
 .
 util
@@ -88,6 +82,12 @@ android
 widget
 .
 CompoundButton
+import
+androidx
+.
+preference
+.
+PreferenceViewHolder
 import
 org
 .
