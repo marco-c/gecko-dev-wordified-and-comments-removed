@@ -328,6 +328,13 @@ textSize
 "
 android
 :
+textIsSelectable
+=
+"
+true
+"
+android
+:
 layout_marginTop
 =
 "
@@ -494,6 +501,13 @@ textSize
 =
 "
 16sp
+"
+android
+:
+textIsSelectable
+=
+"
+true
 "
 app
 :
