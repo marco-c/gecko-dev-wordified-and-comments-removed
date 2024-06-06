@@ -520,7 +520,7 @@ DialogProperties
 (
 dismissOnBackPress
 =
-true
+false
 dismissOnClickOutside
 =
 false
