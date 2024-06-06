@@ -184,14 +184,11 @@ screen
 .
 *
 /
+const
 val
 showSynCFR
 =
-Config
-.
-channel
-.
-isNightlyOrDebug
+true
 /
 *
 *
