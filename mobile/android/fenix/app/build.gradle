@@ -1623,7 +1623,7 @@ composeOptions
 {
 kotlinCompilerExtensionVersion
 =
-Versions
+FenixVersions
 .
 androidx_compose_compiler
 }

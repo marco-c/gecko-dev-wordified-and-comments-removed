@@ -82,11 +82,11 @@ FORCE
 REBUILD
 2022
 -
-09
+12
 -
-16
+11
 object
-Versions
+FenixVersions
 {
 const
 val
@@ -630,7 +630,7 @@ build
 gradle
 :
 {
-Versions
+FenixVersions
 .
 android_gradle_plugin
 }
@@ -653,7 +653,7 @@ gradle
 plugin
 :
 {
-Versions
+FenixVersions
 .
 kotlin
 }
@@ -674,7 +674,7 @@ gradle
 plugin
 :
 {
-Versions
+FenixVersions
 .
 androidx_benchmark
 }
@@ -697,7 +697,7 @@ stdlib
 jdk7
 :
 {
-Versions
+FenixVersions
 .
 kotlin
 }
@@ -720,7 +720,7 @@ stdlib
 jdk8
 :
 {
-Versions
+FenixVersions
 .
 kotlin
 }
@@ -741,7 +741,7 @@ kotlin
 reflect
 :
 {
-Versions
+FenixVersions
 .
 kotlin
 }
@@ -764,7 +764,7 @@ coroutines
 core
 :
 {
-Versions
+FenixVersions
 .
 coroutines
 }
@@ -787,7 +787,7 @@ coroutines
 test
 :
 {
-Versions
+FenixVersions
 .
 coroutines
 }
@@ -810,7 +810,7 @@ coroutines
 android
 :
 {
-Versions
+FenixVersions
 .
 coroutines
 }
@@ -835,7 +835,7 @@ licenses
 plugin
 :
 {
-Versions
+FenixVersions
 .
 osslicenses_plugin
 }
@@ -856,7 +856,7 @@ compose
 awesomebar
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -877,7 +877,7 @@ concept
 awesomebar
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -898,7 +898,7 @@ concept
 base
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -919,7 +919,7 @@ concept
 engine
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -940,7 +940,7 @@ concept
 menu
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -961,7 +961,7 @@ concept
 push
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -982,7 +982,7 @@ concept
 tabstray
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1003,7 +1003,7 @@ concept
 toolbar
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1024,7 +1024,7 @@ concept
 storage
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1045,7 +1045,7 @@ concept
 sync
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1068,7 +1068,7 @@ engine
 gecko
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1089,7 +1089,7 @@ browser
 domains
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1110,7 +1110,7 @@ browser
 icons
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1133,7 +1133,7 @@ session
 storage
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1154,7 +1154,7 @@ browser
 state
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1175,7 +1175,7 @@ browser
 tabstray
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1196,7 +1196,7 @@ browser
 thumbnails
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1217,7 +1217,7 @@ browser
 toolbar
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1238,7 +1238,7 @@ browser
 menu
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1259,7 +1259,7 @@ browser
 menu2
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1280,7 +1280,7 @@ browser
 errorpages
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1303,7 +1303,7 @@ storage
 sync
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1324,7 +1324,7 @@ feature
 addons
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1345,7 +1345,7 @@ support
 webextensions
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1366,7 +1366,7 @@ feature
 accounts
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1389,7 +1389,7 @@ app
 links
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1410,7 +1410,7 @@ feature
 autofill
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1431,7 +1431,7 @@ feature
 awesomebar
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1452,7 +1452,7 @@ feature
 contextmenu
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1473,7 +1473,7 @@ feature
 customtabs
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1494,7 +1494,7 @@ feature
 intent
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1515,7 +1515,7 @@ feature
 media
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1536,7 +1536,7 @@ feature
 qr
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1557,7 +1557,7 @@ feature
 search
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1578,7 +1578,7 @@ feature
 session
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1599,7 +1599,7 @@ feature
 syncedtabs
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1620,7 +1620,7 @@ feature
 tabs
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1641,7 +1641,7 @@ feature
 downloads
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1662,7 +1662,7 @@ feature
 storage
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1683,7 +1683,7 @@ feature
 prompts
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1704,7 +1704,7 @@ feature
 push
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1725,7 +1725,7 @@ feature
 privatemode
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1746,7 +1746,7 @@ feature
 pwa
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1767,7 +1767,7 @@ feature
 toolbar
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1788,7 +1788,7 @@ feature
 findinpage
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1809,7 +1809,7 @@ feature
 logins
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1830,7 +1830,7 @@ feature
 sitepermissions
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1851,7 +1851,7 @@ feature
 readerview
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1874,7 +1874,7 @@ tab
 collections
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1895,7 +1895,7 @@ feature
 recentlyclosed
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1918,7 +1918,7 @@ accounts
 push
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1941,7 +1941,7 @@ top
 sites
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1962,7 +1962,7 @@ feature
 share
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1983,7 +1983,7 @@ feature
 webauthn
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -2004,7 +2004,7 @@ feature
 webcompat
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -2025,7 +2025,7 @@ feature
 webnotifications
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -2048,7 +2048,7 @@ webcompat
 reporter
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -2069,7 +2069,7 @@ service
 pocket
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -2090,7 +2090,7 @@ service
 contile
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -2111,7 +2111,7 @@ service
 digitalassetlinks
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -2134,7 +2134,7 @@ sync
 autofill
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -2157,7 +2157,7 @@ sync
 logins
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -2180,7 +2180,7 @@ firefox
 accounts
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -2201,7 +2201,7 @@ service
 glean
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -2222,7 +2222,7 @@ service
 location
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -2243,7 +2243,7 @@ service
 nimbus
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -2264,7 +2264,7 @@ ui
 colors
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -2285,7 +2285,7 @@ ui
 icons
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -2306,7 +2306,7 @@ ui
 widgets
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -2327,7 +2327,7 @@ ui
 tabcounter
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -2348,7 +2348,7 @@ lib
 crash
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -2371,7 +2371,7 @@ crash
 sentry
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -2394,7 +2394,7 @@ push
 firebase
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -2415,7 +2415,7 @@ lib
 dataprotect
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -2436,7 +2436,7 @@ lib
 state
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -2457,7 +2457,7 @@ lib
 publicsuffixlist
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -2478,7 +2478,7 @@ support
 base
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -2499,7 +2499,7 @@ support
 rusterrors
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -2520,7 +2520,7 @@ support
 images
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -2541,7 +2541,7 @@ support
 ktx
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -2562,7 +2562,7 @@ support
 rusthttp
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -2583,7 +2583,7 @@ support
 rustlog
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -2604,7 +2604,7 @@ support
 utils
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -2625,7 +2625,7 @@ support
 test
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -2648,7 +2648,7 @@ test
 libstate
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -2669,7 +2669,7 @@ support
 locale
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -2688,7 +2688,7 @@ sentry
 android
 :
 {
-Versions
+FenixVersions
 .
 sentry
 }
@@ -2711,7 +2711,7 @@ android
 core
 :
 {
-Versions
+FenixVersions
 .
 leakcanary
 }
@@ -2730,7 +2730,7 @@ ui
 ui
 :
 {
-Versions
+FenixVersions
 .
 androidx_compose
 }
@@ -2753,7 +2753,7 @@ test
 junit4
 :
 {
-Versions
+FenixVersions
 .
 androidx_compose
 }
@@ -2776,7 +2776,7 @@ test
 manifest
 :
 {
-Versions
+FenixVersions
 .
 androidx_compose
 }
@@ -2797,7 +2797,7 @@ ui
 tooling
 :
 {
-Versions
+FenixVersions
 .
 androidx_compose
 }
@@ -2816,7 +2816,7 @@ foundation
 foundation
 :
 {
-Versions
+FenixVersions
 .
 androidx_compose
 }
@@ -2835,7 +2835,7 @@ material
 material
 :
 {
-Versions
+FenixVersions
 .
 androidx_compose
 }
@@ -2852,7 +2852,7 @@ annotation
 annotation
 :
 {
-Versions
+FenixVersions
 .
 androidx_annotation
 }
@@ -2871,7 +2871,7 @@ benchmark
 junit4
 :
 {
-Versions
+FenixVersions
 .
 androidx_benchmark
 }
@@ -2888,7 +2888,7 @@ biometric
 biometric
 :
 {
-Versions
+FenixVersions
 .
 androidx_biometric
 }
@@ -2907,7 +2907,7 @@ fragment
 ktx
 :
 {
-Versions
+FenixVersions
 .
 androidx_fragment
 }
@@ -2924,7 +2924,7 @@ appcompat
 appcompat
 :
 {
-Versions
+FenixVersions
 .
 androidx_appcompat
 }
@@ -2941,7 +2941,7 @@ coordinatorlayout
 coordinatorlayout
 :
 {
-Versions
+FenixVersions
 .
 androidx_coordinator_layout
 }
@@ -2958,7 +2958,7 @@ constraintlayout
 constraintlayout
 :
 {
-Versions
+FenixVersions
 .
 androidx_constraint_layout
 }
@@ -2979,7 +2979,7 @@ support
 v4
 :
 {
-Versions
+FenixVersions
 .
 androidx_legacy
 }
@@ -2998,7 +2998,7 @@ lifecycle
 common
 :
 {
-Versions
+FenixVersions
 .
 androidx_lifecycle
 }
@@ -3019,7 +3019,7 @@ livedata
 ktx
 :
 {
-Versions
+FenixVersions
 .
 androidx_lifecycle
 }
@@ -3038,7 +3038,7 @@ lifecycle
 process
 :
 {
-Versions
+FenixVersions
 .
 androidx_lifecycle
 }
@@ -3059,7 +3059,7 @@ viewmodel
 ktx
 :
 {
-Versions
+FenixVersions
 .
 androidx_lifecycle
 }
@@ -3080,7 +3080,7 @@ runtime
 ktx
 :
 {
-Versions
+FenixVersions
 .
 androidx_lifecycle
 }
@@ -3101,7 +3101,7 @@ runtime
 ktx
 :
 {
-Versions
+FenixVersions
 .
 androidx_paging
 }
@@ -3120,7 +3120,7 @@ preference
 ktx
 :
 {
-Versions
+FenixVersions
 .
 androidx_preference
 }
@@ -3145,7 +3145,7 @@ gradle
 plugin
 :
 {
-Versions
+FenixVersions
 .
 androidx_navigation
 }
@@ -3166,7 +3166,7 @@ fragment
 ktx
 :
 {
-Versions
+FenixVersions
 .
 androidx_navigation
 }
@@ -3185,7 +3185,7 @@ navigation
 ui
 :
 {
-Versions
+FenixVersions
 .
 androidx_navigation
 }
@@ -3202,7 +3202,7 @@ recyclerview
 recyclerview
 :
 {
-Versions
+FenixVersions
 .
 androidx_recyclerview
 }
@@ -3219,7 +3219,7 @@ core
 core
 :
 {
-Versions
+FenixVersions
 .
 androidx_core
 }
@@ -3238,7 +3238,7 @@ core
 ktx
 :
 {
-Versions
+FenixVersions
 .
 androidx_core
 }
@@ -3255,7 +3255,7 @@ transition
 transition
 :
 {
-Versions
+FenixVersions
 .
 androidx_transition
 }
@@ -3276,7 +3276,7 @@ runtime
 ktx
 :
 {
-Versions
+FenixVersions
 .
 androidx_work
 }
@@ -3295,7 +3295,7 @@ work
 testing
 :
 {
-Versions
+FenixVersions
 .
 androidx_work
 }
@@ -3312,7 +3312,7 @@ datastore
 datastore
 :
 {
-Versions
+FenixVersions
 .
 androidx_datastore
 }
@@ -3333,7 +3333,7 @@ material
 material
 :
 {
-Versions
+FenixVersions
 .
 google_material
 }
@@ -3354,7 +3354,7 @@ accompanist
 drawablepainter
 :
 {
-Versions
+FenixVersions
 .
 accompanist_drawablepainter
 }
@@ -3375,7 +3375,7 @@ accompanist
 insets
 :
 {
-Versions
+FenixVersions
 .
 accompanist_drawablepainter
 }
@@ -3396,7 +3396,7 @@ protobuf
 javalite
 :
 {
-Versions
+FenixVersions
 .
 protobuf
 }
@@ -3415,7 +3415,7 @@ protobuf
 protoc
 :
 {
-Versions
+FenixVersions
 .
 protobuf
 }
@@ -3436,7 +3436,7 @@ adjust
 android
 :
 {
-Versions
+FenixVersions
 .
 adjust
 }
@@ -3455,7 +3455,7 @@ installreferrer
 installreferrer
 :
 {
-Versions
+FenixVersions
 .
 installreferrer
 }
@@ -3476,7 +3476,7 @@ jna
 jna
 :
 {
-Versions
+FenixVersions
 .
 jna
 }
@@ -3492,7 +3492,7 @@ junit
 junit
 :
 {
-Versions
+FenixVersions
 .
 junit
 }
@@ -3509,7 +3509,7 @@ mockk
 mockk
 :
 {
-Versions
+FenixVersions
 .
 mockk
 }
@@ -3528,7 +3528,7 @@ mockk
 android
 :
 {
-Versions
+FenixVersions
 .
 mockk
 }
@@ -3903,7 +3903,7 @@ okhttp3
 mockwebserver
 :
 {
-Versions
+FenixVersions
 .
 mockwebserver
 }
@@ -3922,7 +3922,7 @@ uiautomator
 uiautomator
 :
 {
-Versions
+FenixVersions
 .
 uiautomator
 }
@@ -3939,7 +3939,7 @@ robolectric
 robolectric
 :
 {
-Versions
+FenixVersions
 .
 robolectric
 }
@@ -3966,7 +3966,7 @@ ads
 identifier
 :
 {
-Versions
+FenixVersions
 .
 google_ads_id_version
 }
@@ -3995,7 +3995,7 @@ play
 review
 :
 {
-Versions
+FenixVersions
 .
 google_play_review_version
 }
@@ -4018,7 +4018,7 @@ review
 ktx
 :
 {
-Versions
+FenixVersions
 .
 google_play_review_version
 }
@@ -4041,7 +4041,7 @@ detekt
 api
 :
 {
-Versions
+FenixVersions
 .
 detekt
 }
@@ -4064,7 +4064,7 @@ detekt
 test
 :
 {
-Versions
+FenixVersions
 .
 detekt
 }
@@ -4087,7 +4087,7 @@ jupiter
 api
 :
 {
-Versions
+FenixVersions
 .
 junit
 }
@@ -4110,7 +4110,7 @@ jupiter
 params
 :
 {
-Versions
+FenixVersions
 .
 junit
 }
@@ -4133,7 +4133,7 @@ jupiter
 engine
 :
 {
-Versions
+FenixVersions
 .
 junit
 }

@@ -335,7 +335,7 @@ glean
 gradle
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -355,7 +355,7 @@ nimbus
 gradle
 :
 {
-Versions
+FenixVersions
 .
 mozilla_android_components
 }
@@ -1044,7 +1044,7 @@ detekt
 cli
 :
 {
-Versions
+FenixVersions
 .
 detekt
 }

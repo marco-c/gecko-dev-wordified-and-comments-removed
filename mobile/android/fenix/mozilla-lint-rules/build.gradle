@@ -258,7 +258,7 @@ lint
 api
 :
 {
-Versions
+FenixVersions
 .
 android_lint_api
 }
@@ -278,7 +278,7 @@ lint
 checks
 :
 {
-Versions
+FenixVersions
 .
 android_lint_api
 }
@@ -308,7 +308,7 @@ lint
 lint
 :
 {
-Versions
+FenixVersions
 .
 android_lint_api
 }
@@ -328,7 +328,7 @@ lint
 tests
 :
 {
-Versions
+FenixVersions
 .
 android_lint_api
 }
