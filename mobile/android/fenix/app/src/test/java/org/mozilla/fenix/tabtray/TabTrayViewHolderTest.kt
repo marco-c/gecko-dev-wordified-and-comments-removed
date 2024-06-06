@@ -713,18 +713,6 @@ private
 fun
 createViewHolder
 (
-getSelectedTabId
-:
-(
-)
--
->
-String
-?
-=
-{
-null
-}
 )
 =
 TabTrayViewHolder
@@ -739,8 +727,5 @@ store
 metrics
 =
 metrics
-getSelectedTabId
-=
-getSelectedTabId
 )
 }

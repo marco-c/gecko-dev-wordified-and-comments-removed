@@ -1730,7 +1730,7 @@ R
 .
 id
 .
-action_global_collectionCreationFragment
+action_global_tabTrayDialogFragment
 }
 null
 )
