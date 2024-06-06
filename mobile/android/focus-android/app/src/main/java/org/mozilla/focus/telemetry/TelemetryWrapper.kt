@@ -1105,6 +1105,16 @@ R
 .
 string
 .
+pref_key_performance_block_javascript
+)
+resources
+.
+getString
+(
+R
+.
+string
+.
 pref_key_performance_block_webfonts
 )
 resources
