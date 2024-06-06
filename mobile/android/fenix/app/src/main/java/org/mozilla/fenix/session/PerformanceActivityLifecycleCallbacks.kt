@@ -238,7 +238,9 @@ activites
 They
 have
 been
-whitelisted
+allow
+-
+listed
 in
 case
 new
