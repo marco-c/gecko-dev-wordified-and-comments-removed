@@ -243,6 +243,8 @@ String
 assertUIObjectExists
 (
 goBackButton
+(
+)
 itemContainingText
 (
 getStringResource
@@ -304,6 +306,8 @@ String
 assertUIObjectExists
 (
 goBackButton
+(
+)
 itemContainingText
 (
 getStringResource
@@ -402,6 +406,8 @@ Always
 -
 >
 alwaysOption
+(
+)
 .
 click
 (
@@ -414,6 +420,8 @@ opening
 -
 >
 askBeforeOpeningOption
+(
+)
 .
 click
 (
@@ -424,6 +432,8 @@ Never
 -
 >
 neverOption
+(
+)
 .
 click
 (
@@ -457,6 +467,8 @@ waitForIdle
 (
 )
 goBackButton
+(
+)
 .
 click
 (
@@ -478,8 +490,10 @@ Transition
 }
 }
 private
-val
+fun
 goBackButton
+(
+)
 =
 itemWithDescription
 (
@@ -489,8 +503,10 @@ up
 "
 )
 private
-val
+fun
 alwaysOption
+(
+)
 =
 itemContainingText
 (
@@ -504,8 +520,10 @@ preferences_open_links_in_apps_always
 )
 )
 private
-val
+fun
 askBeforeOpeningOption
+(
+)
 =
 itemContainingText
 (
@@ -519,8 +537,10 @@ preferences_open_links_in_apps_ask
 )
 )
 private
-val
+fun
 neverOption
+(
+)
 =
 itemContainingText
 (
