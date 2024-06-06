@@ -1168,6 +1168,8 @@ items
 )
 }
 }
+viewLifecycleOwner
+.
 lifecycleScope
 .
 launch
