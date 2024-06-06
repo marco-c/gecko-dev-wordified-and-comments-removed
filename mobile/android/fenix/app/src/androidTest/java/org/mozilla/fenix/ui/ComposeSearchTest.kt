@@ -530,7 +530,7 @@ shutdown
 }
 Test
 fun
-searchBarItemsTest
+verifySearchBarItemsTest
 (
 )
 {
@@ -606,7 +606,7 @@ true
 }
 Test
 fun
-searchSelectorMenuItemsTest
+verifySearchSelectorMenuItemsTest
 (
 )
 {
@@ -668,7 +668,7 @@ settings
 }
 Test
 fun
-searchPlaceholderForDefaultEnginesTest
+verifySearchPlaceholderForGeneralDefaultSearchEnginesTest
 (
 )
 {
@@ -716,7 +716,7 @@ address
 }
 Test
 fun
-searchPlaceholderForOtherGeneralSearchEnginesTest
+verifySearchPlaceholderForNotDefaultGeneralSearchEnginesTest
 (
 )
 {
@@ -766,7 +766,7 @@ dismissSearchBar
 }
 Test
 fun
-searchPlaceholderForTopicSearchEngineTest
+verifySearchPlaceholderForTopicSpecificSearchEnginesTest
 (
 )
 {
@@ -953,7 +953,7 @@ verifyScannerOpen
 }
 Test
 fun
-scanButtonAvailableOnlyForGeneralSearchEnginesTest
+verifyScanButtonAvailableOnlyForGeneralSearchEnginesTest
 (
 )
 {
