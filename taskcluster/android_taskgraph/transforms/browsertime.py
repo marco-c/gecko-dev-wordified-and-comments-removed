@@ -1335,25 +1335,10 @@ product_name
 =
 config
 .
-graph_config
+params
 [
 "
-taskgraph
-"
-]
-[
-"
-repositories
-"
-]
-[
-"
-mobile
-"
-]
-[
-"
-name
+project
 "
 ]
     
