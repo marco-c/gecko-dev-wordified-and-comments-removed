@@ -1022,7 +1022,7 @@ R
 .
 string
 .
-inactive_tabs_survey_time_too_long_option
+inactive_tabs_survey_time_too_long_option_1
 R
 .
 id
@@ -1033,7 +1033,7 @@ R
 .
 string
 .
-inactive_tabs_survey_time_too_short_option
+inactive_tabs_survey_time_too_short_option_1
 )
 /
 /
