@@ -429,7 +429,7 @@ location
 =
 context
 .
-getLocation
+getElementLocation
 (
 element
 )
