@@ -1262,7 +1262,7 @@ no
 daemon
 clean
 assembleFocusArmRelease
-assembleKlarArmRelease
+assembleKlarArmNightly
 '
 				   
 '
