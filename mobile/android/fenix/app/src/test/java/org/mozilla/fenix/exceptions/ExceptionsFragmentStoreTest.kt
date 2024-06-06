@@ -91,7 +91,7 @@ junit
 .
 Test
 class
-ExceptionsStoreTest
+ExceptionsFragmentStoreTest
 {
 Test
 fun
@@ -110,7 +110,7 @@ emptyDefaultState
 val
 store
 =
-ExceptionsStore
+ExceptionsFragmentStore
 (
 initialState
 )
@@ -127,7 +127,7 @@ store
 .
 dispatch
 (
-ExceptionsAction
+ExceptionsFragmentAction
 .
 Change
 (
@@ -167,9 +167,9 @@ emptyDefaultState
 (
 )
 :
-ExceptionsState
+ExceptionsFragmentState
 =
-ExceptionsState
+ExceptionsFragmentState
 (
 items
 =

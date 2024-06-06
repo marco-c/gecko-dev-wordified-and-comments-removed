@@ -232,7 +232,7 @@ lateinit
 var
 exceptionsStore
 :
-ExceptionsStore
+ExceptionsFragmentStore
 private
 lateinit
 var
@@ -326,9 +326,9 @@ get
 this
 )
 {
-ExceptionsStore
+ExceptionsFragmentStore
 (
-ExceptionsState
+ExceptionsFragmentState
 (
 items
 =
@@ -568,7 +568,7 @@ exceptionsStore
 .
 dispatch
 (
-ExceptionsAction
+ExceptionsFragmentAction
 .
 Change
 (
