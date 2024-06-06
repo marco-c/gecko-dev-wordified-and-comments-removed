@@ -108,14 +108,14 @@ android
 minWidth
 =
 "
-256dp
+320dp
 "
 android
 :
 minHeight
 =
 "
-50dp
+40dp
 "
 android
 :
