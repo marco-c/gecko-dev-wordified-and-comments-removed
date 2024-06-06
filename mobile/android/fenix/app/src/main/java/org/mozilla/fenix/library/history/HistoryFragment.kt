@@ -365,6 +365,9 @@ SuppressWarnings
 "
 TooManyFunctions
 "
+"
+LargeClass
+"
 )
 class
 HistoryFragment
