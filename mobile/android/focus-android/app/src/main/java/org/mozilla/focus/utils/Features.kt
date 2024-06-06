@@ -110,7 +110,7 @@ tabs
 CFR
 *
 /
-var
+val
 IS_ERASE_CFR_ENABLED
 =
 AppConstants
