@@ -285,6 +285,6 @@ const
 val
 WORKER_PERIOD_IN_HOURS
 =
-24L
+12L
 }
 }
