@@ -2666,8 +2666,10 @@ _
 (
 activity
 as
+?
 HomeActivity
 )
+?
 .
 openToBrowserAndLoad
 (
