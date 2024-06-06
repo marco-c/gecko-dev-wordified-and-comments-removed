@@ -959,9 +959,12 @@ LinkText
 text
 =
 description
-linkTextState
+linkTextStates
 =
+listOf
+(
 linkTextState
+)
 )
 }
 else

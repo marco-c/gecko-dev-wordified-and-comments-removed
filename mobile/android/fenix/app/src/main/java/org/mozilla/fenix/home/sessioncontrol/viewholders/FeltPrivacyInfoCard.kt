@@ -426,8 +426,10 @@ string
 felt_privacy_info_card_subtitle_link_text
 )
 )
-linkTextState
+linkTextStates
 =
+listOf
+(
 LinkTextState
 (
 text
@@ -453,6 +455,7 @@ onLearnMoreClick
 (
 )
 }
+)
 )
 style
 =

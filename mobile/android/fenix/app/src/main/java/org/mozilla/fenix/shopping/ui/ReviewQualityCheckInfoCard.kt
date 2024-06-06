@@ -692,9 +692,12 @@ it
 first
 linkTextState
 =
+listOf
+(
 it
 .
 second
+)
 style
 =
 FirefoxTheme

@@ -292,8 +292,10 @@ string
 review_quality_check_powered_by_2
 poweredByLinkText
 )
-linkTextState
+linkTextStates
 =
+listOf
+(
 LinkTextState
 (
 text
@@ -305,6 +307,7 @@ FOOTER_LINK
 onClick
 =
 onLinkClick
+)
 )
 style
 =
