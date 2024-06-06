@@ -1695,7 +1695,7 @@ components
 useCases
 .
 contextMenuUseCases
-customTabId
+tabId
 =
 customTabSessionId
 )
@@ -1729,7 +1729,7 @@ downloadUseCases
 fragmentManager
 =
 childFragmentManager
-customTabId
+tabId
 =
 customTabSessionId
 downloadManager
