@@ -442,6 +442,10 @@ view
 homeLayout
 bus
 )
+layoutComponents
+(
+view
+)
 ActionBusFactory
 .
 get
@@ -510,12 +514,6 @@ supportActionBar
 .
 hide
 (
-)
-layoutComponents
-(
-view
-.
-homeLayout
 )
 getSafeManagedObservable
 <

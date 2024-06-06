@@ -63,13 +63,11 @@ fenix
 .
 home
 import
-androidx
+android
 .
-constraintlayout
+view
 .
-widget
-.
-ConstraintLayout
+View
 import
 androidx
 .
@@ -93,6 +91,8 @@ main
 .
 component_sessions
 .
+view
+.
 *
 import
 kotlinx
@@ -104,6 +104,8 @@ synthetic
 main
 .
 component_tabs
+.
+view
 .
 *
 import
@@ -117,6 +119,8 @@ main
 .
 fragment_home
 .
+view
+.
 *
 import
 kotlinx
@@ -128,6 +132,8 @@ synthetic
 main
 .
 tab_list_header
+.
+view
 .
 *
 import
@@ -213,10 +219,15 @@ layoutComponents
 (
 layout
 :
-ConstraintLayout
+View
 )
 {
+with
+(
 layout
+)
+{
+homeLayout
 .
 applyConstraintSet
 {
@@ -282,6 +293,7 @@ END
 of
 PARENT_ID
 )
+}
 }
 }
 }
