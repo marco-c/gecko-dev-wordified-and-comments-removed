@@ -183,6 +183,16 @@ mozilla
 .
 fenix
 .
+ext
+.
+getPreferenceKey
+import
+org
+.
+mozilla
+.
+fenix
+.
 settings
 .
 PhoneFeature
@@ -510,7 +520,7 @@ bindClearPermissionsButton
 val
 keyPreference
 =
-getString
+getPreferenceKey
 (
 R
 .

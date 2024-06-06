@@ -131,6 +131,16 @@ fenix
 .
 ext
 .
+getPreferenceKey
+import
+org
+.
+mozilla
+.
+fenix
+.
+ext
+.
 requireComponents
 class
 ThemeFragment
@@ -344,7 +354,7 @@ bindLightTheme
 val
 keyLightTheme
 =
-getString
+getPreferenceKey
 (
 R
 .
@@ -401,7 +411,7 @@ bindAutoBatteryTheme
 val
 keyBatteryTheme
 =
-getString
+getPreferenceKey
 (
 R
 .
@@ -439,7 +449,7 @@ bindDarkTheme
 val
 keyDarkTheme
 =
-getString
+getPreferenceKey
 (
 R
 .
@@ -477,7 +487,7 @@ bindFollowDeviceTheme
 val
 keyDeviceTheme
 =
-getString
+getPreferenceKey
 (
 R
 .

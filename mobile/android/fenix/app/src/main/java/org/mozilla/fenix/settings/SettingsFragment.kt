@@ -826,7 +826,7 @@ findPreference
 DefaultBrowserPreference
 >
 (
-getString
+getPreferenceKey
 (
 R
 .
@@ -916,7 +916,7 @@ findPreference
 DefaultBrowserPreference
 >
 (
-getString
+getPreferenceKey
 (
 R
 .
@@ -939,7 +939,7 @@ findPreference
 Preference
 >
 (
-getString
+getPreferenceKey
 (
 R
 .
@@ -979,7 +979,7 @@ findPreference
 Preference
 >
 (
-getString
+getPreferenceKey
 (
 R
 .
@@ -1047,7 +1047,7 @@ findPreference
 Preference
 >
 (
-getString
+getPreferenceKey
 (
 R
 .
@@ -1091,7 +1091,7 @@ findPreference
 Preference
 >
 (
-getString
+getPreferenceKey
 (
 R
 .
@@ -1460,8 +1460,11 @@ requireContext
 (
 )
 .
-apply
+let
 {
+context
+-
+>
 val
 intent
 =
@@ -1469,7 +1472,7 @@ SupportUtils
 .
 createCustomTabIntent
 (
-this
+context
 SupportUtils
 .
 PRIVACY_NOTICE_URL
@@ -1493,8 +1496,11 @@ requireContext
 (
 )
 .
-apply
+let
 {
+context
+-
+>
 val
 intent
 =
@@ -1502,14 +1508,12 @@ SupportUtils
 .
 createCustomTabIntent
 (
-this
+context
 SupportUtils
 .
 getSumoURLForTopic
 (
 context
-!
-!
 SupportUtils
 .
 SumoTopic
@@ -1592,10 +1596,6 @@ setupPreferences
 val
 makeDefaultBrowserKey
 =
-context
-!
-!
-.
 getPreferenceKey
 (
 pref_key_make_default_browser
@@ -1603,10 +1603,6 @@ pref_key_make_default_browser
 val
 leakKey
 =
-context
-!
-!
-.
 getPreferenceKey
 (
 pref_key_leakcanary
@@ -1614,10 +1610,6 @@ pref_key_leakcanary
 val
 debuggingKey
 =
-context
-!
-!
-.
 getPreferenceKey
 (
 pref_key_remote_debugging

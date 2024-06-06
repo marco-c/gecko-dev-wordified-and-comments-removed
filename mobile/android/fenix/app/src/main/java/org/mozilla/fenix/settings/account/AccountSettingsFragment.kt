@@ -683,10 +683,6 @@ out
 val
 signOut
 =
-context
-!
-!
-.
 getPreferenceKey
 (
 R
@@ -720,10 +716,6 @@ now
 val
 syncNow
 =
-context
-!
-!
-.
 getPreferenceKey
 (
 R
@@ -819,10 +811,6 @@ deviceConstellation
 val
 deviceNameKey
 =
-context
-!
-!
-.
 getPreferenceKey
 (
 R
@@ -1254,10 +1242,6 @@ findPreference
 Preference
 >
 (
-context
-!
-!
-.
 getPreferenceKey
 (
 R
@@ -1326,10 +1310,6 @@ findPreference
 Preference
 >
 (
-context
-!
-!
-.
 getPreferenceKey
 (
 R
@@ -1415,10 +1395,6 @@ findPreference
 Preference
 >
 (
-context
-!
-!
-.
 getPreferenceKey
 (
 R
@@ -1527,10 +1503,6 @@ AccountSettingsState
 val
 deviceNameKey
 =
-context
-!
-!
-.
 getPreferenceKey
 (
 R
@@ -1668,10 +1640,6 @@ lastSync
 val
 syncNow
 =
-context
-!
-!
-.
 getPreferenceKey
 (
 R
