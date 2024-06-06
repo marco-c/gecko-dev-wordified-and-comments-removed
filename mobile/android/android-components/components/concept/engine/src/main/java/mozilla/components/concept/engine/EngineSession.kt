@@ -4012,7 +4012,7 @@ cookiePolicyPrivateMode
 cookiePolicyPrivateMode
 strictSocialTrackingProtection
 =
-strictSocialTrackingProtection
+false
 cookiePurging
 =
 cookiePurging

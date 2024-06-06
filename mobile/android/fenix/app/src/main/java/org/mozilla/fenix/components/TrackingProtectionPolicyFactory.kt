@@ -387,6 +387,11 @@ cookiePurging
 getCustomCookiePurgingPolicy
 (
 )
+strictSocialTrackingProtection
+=
+settings
+.
+blockTrackingContentInCustomTrackingProtection
 )
 .
 let

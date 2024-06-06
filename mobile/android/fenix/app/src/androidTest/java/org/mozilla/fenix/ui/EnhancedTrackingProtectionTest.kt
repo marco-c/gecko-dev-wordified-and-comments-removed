@@ -1814,13 +1814,6 @@ openEnhancedTrackingProtectionSheet
 .
 openDetails
 {
-verifyCrossSiteCookiesBlocked
-(
-true
-)
-navigateBackToDetails
-(
-)
 verifyCryptominersBlocked
 (
 true
