@@ -1365,7 +1365,7 @@ url
 it
 shouldHighlight
 =
-true
+false
 shouldAppend
 =
 true
