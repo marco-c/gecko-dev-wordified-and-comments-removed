@@ -197,6 +197,14 @@ Color
 PhotonColors
 .
 Ink20
+val
+onboardingKeyFeatureImageTint
+:
+Color
+=
+PhotonColors
+.
+Ink50
 )
 {
 val
