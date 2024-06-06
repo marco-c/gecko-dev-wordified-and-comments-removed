@@ -560,6 +560,11 @@ TelemetryWrapper
 .
 saveAutocompleteDomainEvent
 (
+TelemetryWrapper
+.
+AutoCompleteEventSource
+.
+SETTINGS
 )
 }
 ViewUtils
