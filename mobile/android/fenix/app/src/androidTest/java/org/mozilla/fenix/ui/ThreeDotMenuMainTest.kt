@@ -310,6 +310,9 @@ openThreeDotMenu
 .
 openHelp
 {
+dismissTrackingOnboarding
+(
+)
 verifyHelpUrl
 (
 )

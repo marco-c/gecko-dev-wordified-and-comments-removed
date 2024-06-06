@@ -324,6 +324,9 @@ defaultWebPage
 url
 )
 {
+dismissTrackingOnboarding
+(
+)
 verifyPageContent
 (
 defaultWebPage
@@ -423,6 +426,9 @@ defaultWebPage
 url
 )
 {
+dismissTrackingOnboarding
+(
+)
 verifyPageContent
 (
 defaultWebPage
@@ -522,6 +528,9 @@ refreshWebPage
 url
 )
 {
+dismissTrackingOnboarding
+(
+)
 verifyPageContent
 (
 "
@@ -590,6 +599,9 @@ defaultWebPage
 url
 )
 {
+dismissTrackingOnboarding
+(
+)
 verifyPageContent
 (
 defaultWebPage
@@ -624,6 +636,9 @@ loremIpsumWebPage
 url
 )
 {
+dismissTrackingOnboarding
+(
+)
 verifyPageContent
 (
 loremIpsumWebPage

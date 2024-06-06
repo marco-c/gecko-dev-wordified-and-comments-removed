@@ -358,6 +358,9 @@ defaultWebPage
 url
 )
 {
+dismissTrackingOnboarding
+(
+)
 verifyPageContent
 (
 defaultWebPage
@@ -449,6 +452,9 @@ defaultWebPage
 url
 )
 {
+dismissTrackingOnboarding
+(
+)
 verifyPageContent
 (
 defaultWebPage
@@ -538,6 +544,9 @@ defaultWebPage
 url
 )
 {
+dismissTrackingOnboarding
+(
+)
 verifyPageContent
 (
 defaultWebPage
