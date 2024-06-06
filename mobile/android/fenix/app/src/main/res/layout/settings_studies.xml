@@ -328,8 +328,9 @@ android
 textColorLink
 =
 "
-?
-aboutLink
+color
+/
+fx_mobile_text_color_action
 "
 app
 :
