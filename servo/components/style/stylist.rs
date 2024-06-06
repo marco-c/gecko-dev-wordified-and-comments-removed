@@ -14445,15 +14445,6 @@ FontFeatureValues
 .
 .
 )
-|
-CssRule
-:
-:
-Scope
-(
-.
-.
-)
 =
 >
 {

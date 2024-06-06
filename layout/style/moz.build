@@ -768,11 +768,6 @@ CSSRuleList
 h
 "
 "
-CSSScopeRule
-.
-h
-"
-"
 CSSStyleRule
 .
 h
@@ -1008,11 +1003,6 @@ cpp
 "
 "
 CSSRuleList
-.
-cpp
-"
-"
-CSSScopeRule
 .
 cpp
 "

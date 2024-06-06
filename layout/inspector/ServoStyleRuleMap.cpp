@@ -409,12 +409,6 @@ StyleCssRuleType
 :
 Document
 :
-case
-StyleCssRuleType
-:
-:
-Scope
-:
 {
 mTable
 .
@@ -620,12 +614,6 @@ StyleCssRuleType
 :
 :
 Document
-:
-case
-StyleCssRuleType
-:
-:
-Scope
 :
 {
 auto

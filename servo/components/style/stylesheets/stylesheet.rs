@@ -1626,15 +1626,6 @@ LayerBlock
 .
 .
 )
-|
-CssRule
-:
-:
-Scope
-(
-.
-.
-)
 =
 >
 false

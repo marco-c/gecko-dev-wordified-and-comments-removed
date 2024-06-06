@@ -3298,11 +3298,6 @@ CSSRuleList
 webidl
 "
 "
-CSSScopeRule
-.
-webidl
-"
-"
 CSSStyleDeclaration
 .
 webidl
