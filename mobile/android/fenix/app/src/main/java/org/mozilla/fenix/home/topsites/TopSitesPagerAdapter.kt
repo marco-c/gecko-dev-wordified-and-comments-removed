@@ -652,6 +652,12 @@ TopSite
 :
 Boolean
 {
+Suppress
+(
+"
+DiffUtilEquals
+"
+)
 return
 newItem
 .
