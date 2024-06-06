@@ -700,6 +700,13 @@ serif
 "
 android
 :
+imeOptions
+=
+"
+flagNoExtractUi
+"
+android
+:
 letterSpacing
 =
 "
