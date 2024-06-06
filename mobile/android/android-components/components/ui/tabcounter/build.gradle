@@ -78,9 +78,13 @@ apply
 plugin
 :
 '
-kotlin
--
-kapt
+com
+.
+google
+.
+devtools
+.
+ksp
 '
 android
 {

@@ -86,9 +86,13 @@ apply
 plugin
 :
 '
-kotlin
--
-kapt
+com
+.
+google
+.
+devtools
+.
+ksp
 '
 android
 {
@@ -116,9 +120,7 @@ runner
 .
 AndroidJUnitRunner
 "
-kapt
-{
-arguments
+ksp
 {
 arg
 (
@@ -137,7 +139,6 @@ toString
 (
 )
 )
-}
 }
 javaCompileOptions
 {
@@ -350,7 +351,7 @@ implementation
 ComponentsDependencies
 .
 androidx_room_runtime
-kapt
+ksp
 ComponentsDependencies
 .
 androidx_room_compiler
