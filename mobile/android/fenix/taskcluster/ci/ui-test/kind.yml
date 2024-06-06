@@ -530,7 +530,9 @@ public
 /
 build
 /
-x86
+arm64
+-
+v8a
 /
 target
 .
@@ -707,7 +709,7 @@ b
 android
 tasks
 :
-x86
+arm
 -
 debug
 :
@@ -776,7 +778,9 @@ ui
 test
 .
 sh
-x86
+arm64
+-
+v8a
 app
 .
 apk
@@ -786,8 +790,7 @@ test
 .
 apk
 '
--
-1
+50
 '
 ]
 treeherder
@@ -800,11 +803,11 @@ ui
 -
 test
 -
-x86
+arm
 )
 screenshots
 -
-x86
+arm
 :
 attributes
 :
@@ -861,7 +864,7 @@ ui
 test
 .
 sh
-x86
+arm
 -
 screenshots
 -
@@ -875,7 +878,6 @@ test
 .
 apk
 '
--
 1
 '
 ]
@@ -887,9 +889,9 @@ debug
 (
 screenshots
 -
-x86
+arm
 )
-x86
+arm
 -
 beta
 :
@@ -978,7 +980,7 @@ ui
 test
 .
 sh
-x86
+arm
 -
 beta
 -
@@ -992,7 +994,7 @@ test
 .
 apk
 '
-50
+1
 '
 ]
 treeherder
@@ -1005,11 +1007,11 @@ ui
 -
 test
 -
-x86
+arm
 -
 beta
 )
-x86
+arm
 -
 nightly
 :
@@ -1078,7 +1080,7 @@ ui
 test
 .
 sh
-x86
+arm
 -
 start
 -
@@ -1092,7 +1094,6 @@ test
 .
 apk
 '
--
 1
 '
 ]
@@ -1106,13 +1107,13 @@ ui
 -
 test
 -
-x86
+arm
 -
 nightly
 )
 legacy
 -
-x86
+arm
 :
 attributes
 :
@@ -1169,7 +1170,7 @@ ui
 test
 .
 sh
-x86
+arm
 -
 legacy
 -
@@ -1185,7 +1186,6 @@ test
 .
 apk
 '
--
 1
 '
 ]
@@ -1197,5 +1197,5 @@ debug
 (
 legacy
 -
-x86
+arm
 )
