@@ -201,7 +201,7 @@ mockito
 .
 Mockito
 .
-verifyZeroInteractions
+verifyNoInteractions
 import
 org
 .
@@ -547,7 +547,7 @@ profiler
 marker
 is
 added
-verifyZeroInteractions
+verifyNoInteractions
 (
 profiler
 )
