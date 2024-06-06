@@ -342,12 +342,6 @@ bookmark
 }
 )
 )
-onRecentBookmarkLongClick
-=
-interactor
-:
-:
-onRecentBookmarkLongClicked
 )
 }
 }

@@ -458,11 +458,6 @@ itemView
 .
 setOnLongClickListener
 {
-interactor
-.
-onTopSiteMenuOpened
-(
-)
 TopSites
 .
 longPress

@@ -361,15 +361,6 @@ onRecentTabClicked
 it
 )
 }
-onRecentTabLongClick
-=
-{
-recentTabInteractor
-.
-onRecentTabLongClicked
-(
-)
-}
 menuItems
 =
 listOf

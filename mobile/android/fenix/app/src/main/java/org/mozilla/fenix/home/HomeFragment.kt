@@ -2719,11 +2719,6 @@ appStore
 components
 .
 appStore
-navController
-=
-findNavController
-(
-)
 )
 )
 updateLayout

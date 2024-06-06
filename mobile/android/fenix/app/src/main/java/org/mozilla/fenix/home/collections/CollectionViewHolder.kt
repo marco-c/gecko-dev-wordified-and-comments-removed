@@ -472,12 +472,6 @@ interactor
 :
 :
 onCollectionShareTabsClicked
-onCollectionMenuOpened
-=
-interactor
-:
-:
-onCollectionMenuOpened
 )
 }
 }
