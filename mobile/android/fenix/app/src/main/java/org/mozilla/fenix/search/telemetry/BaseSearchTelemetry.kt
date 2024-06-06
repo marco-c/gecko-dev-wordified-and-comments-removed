@@ -827,7 +827,7 @@ provider
 return
 null
 }
-protected
+internal
 fun
 installWebExtension
 (
@@ -1073,7 +1073,8 @@ web
 extension
 *
 /
-protected
+VisibleForTesting
+internal
 abstract
 fun
 processMessage
@@ -1082,6 +1083,7 @@ message
 :
 JSONObject
 )
+VisibleForTesting
 internal
 inner
 class

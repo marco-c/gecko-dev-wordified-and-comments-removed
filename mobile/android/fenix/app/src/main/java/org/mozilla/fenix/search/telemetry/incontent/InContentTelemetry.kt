@@ -242,7 +242,7 @@ JSONObject
 >
 (
 message
-COOKIES_MESSAGE_DOCUMENT_URLS_KEY
+COOKIES_MESSAGE_LIST_KEY
 )
 trackPartnerUrlTypeMetric
 (
@@ -924,12 +924,13 @@ VisibleForTesting
 internal
 const
 val
-COOKIES_MESSAGE_DOCUMENT_URLS_KEY
+COOKIES_MESSAGE_LIST_KEY
 =
 "
 cookies
 "
-private
+VisibleForTesting
+internal
 const
 val
 COOKIES_MESSAGE_ID

@@ -384,7 +384,8 @@ ADS_MESSAGE_DOCUMENT_URLS_KEY
 "
 urls
 "
-private
+VisibleForTesting
+internal
 const
 val
 ADS_MESSAGE_ID
