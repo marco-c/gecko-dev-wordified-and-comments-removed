@@ -1045,7 +1045,7 @@ OnDiskMessageMetadataStorage
 (
 context
 )
-gleanPlumb
+nimbus
 =
 experiments
 messagingFeature

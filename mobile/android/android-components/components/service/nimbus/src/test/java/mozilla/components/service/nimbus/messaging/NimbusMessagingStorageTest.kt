@@ -289,7 +289,7 @@ experiments
 .
 nimbus
 .
-GleanPlumbInterface
+NimbusMessagingHelperInterface
 import
 org
 .
@@ -299,7 +299,7 @@ experiments
 .
 nimbus
 .
-GleanPlumbMessageHelper
+NimbusMessagingInterface
 import
 org
 .
@@ -376,9 +376,9 @@ Mock
 private
 lateinit
 var
-gleanPlumb
+nimbus
 :
-GleanPlumbInterface
+NimbusMessagingInterface
 private
 lateinit
 var
@@ -545,12 +545,12 @@ NimbusMessagingStorage
 testContext
 metadataStorage
 reportMalformedMessage
-gleanPlumb
+nimbus
 messagingFeature
 )
 when
 (
-gleanPlumb
+nimbus
 .
 createMessageHelper
 (
@@ -829,7 +829,7 @@ NimbusMessagingStorage
 testContext
 metadataStorage
 reportMalformedMessage
-gleanPlumb
+nimbus
 messagingFeature
 )
 val
@@ -1050,7 +1050,7 @@ NimbusMessagingStorage
 testContext
 metadataStorage
 reportMalformedMessage
-gleanPlumb
+nimbus
 messagingFeature
 )
 val
@@ -1250,7 +1250,7 @@ NimbusMessagingStorage
 testContext
 metadataStorage
 reportMalformedMessage
-gleanPlumb
+nimbus
 messagingFeature
 )
 val
@@ -1516,7 +1516,7 @@ NimbusMessagingStorage
 testContext
 metadataStorage
 reportMalformedMessage
-gleanPlumb
+nimbus
 messagingFeature
 )
 val
@@ -2407,7 +2407,7 @@ true
 val
 helper
 :
-GleanPlumbMessageHelper
+NimbusMessagingHelperInterface
 =
 mock
 (
@@ -2549,7 +2549,7 @@ false
 val
 helper
 :
-GleanPlumbMessageHelper
+NimbusMessagingHelperInterface
 =
 mock
 (
@@ -2652,7 +2652,7 @@ evaluate
 val
 helper
 :
-GleanPlumbMessageHelper
+NimbusMessagingHelperInterface
 =
 mock
 (
@@ -2788,7 +2788,7 @@ evaluate
 val
 helper
 :
-GleanPlumbMessageHelper
+NimbusMessagingHelperInterface
 =
 mock
 (
@@ -3936,7 +3936,7 @@ NimbusMessagingStorage
 testContext
 metadataStorage
 reportMalformedMessage
-gleanPlumb
+nimbus
 messagingFeature
 )
 /
@@ -4141,7 +4141,7 @@ NimbusMessagingStorage
 testContext
 metadataStorage
 reportMalformedMessage
-gleanPlumb
+nimbus
 messagingFeature
 )
 assertEquals
@@ -4324,7 +4324,7 @@ NimbusMessagingStorage
 testContext
 metadataStorage
 reportMalformedMessage
-gleanPlumb
+nimbus
 feature
 )
 assertNotNull

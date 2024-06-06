@@ -123,7 +123,7 @@ experiments
 .
 nimbus
 .
-GleanPlumbInterface
+NimbusMessagingHelperInterface
 import
 org
 .
@@ -133,7 +133,7 @@ experiments
 .
 nimbus
 .
-NimbusMessagingHelperInterface
+NimbusMessagingInterface
 import
 org
 .
@@ -358,9 +358,9 @@ it
 }
 private
 val
-gleanPlumb
+nimbus
 :
-GleanPlumbInterface
+NimbusMessagingInterface
 private
 val
 messagingFeature
@@ -518,7 +518,7 @@ createMessagingHelper
 :
 NimbusMessagingHelperInterface
 =
-gleanPlumb
+nimbus
 .
 createMessageHelper
 (

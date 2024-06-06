@@ -123,7 +123,7 @@ experiments
 .
 nimbus
 .
-GleanPlumbMessageHelper
+NimbusMessagingHelperInterface
 import
 org
 .
@@ -230,7 +230,7 @@ lateinit
 var
 jexlHelper
 :
-GleanPlumbMessageHelper
+NimbusMessagingHelperInterface
 private
 lateinit
 var
