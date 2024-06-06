@@ -229,7 +229,7 @@ id
 quick_add_autocomplete_button
 )
 var
-URLAlreadyExists
+duplicateURL
 =
 false
 button
@@ -241,7 +241,7 @@ job
 =
 launch
 {
-URLAlreadyExists
+duplicateURL
 =
 CustomDomains
 .
@@ -256,7 +256,7 @@ url
 )
 if
 (
-URLAlreadyExists
+duplicateURL
 )
 return
 launch
@@ -288,7 +288,7 @@ onUrlAdded
 invoke
 (
 !
-URLAlreadyExists
+duplicateURL
 )
 }
 }
