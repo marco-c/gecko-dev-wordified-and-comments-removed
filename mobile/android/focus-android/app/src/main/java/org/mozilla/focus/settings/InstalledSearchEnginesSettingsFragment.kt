@@ -267,7 +267,7 @@ R
 .
 string
 .
-preference_search_installed_search_engines
+preference_choose_search_engine
 )
 if
 (
