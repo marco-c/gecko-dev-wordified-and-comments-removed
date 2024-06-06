@@ -268,8 +268,4 @@ get
 context
 .
 appVersionName
-?
-:
-"
-"
 }
