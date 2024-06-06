@@ -179,6 +179,16 @@ fenix
 .
 tabstray
 .
+TabsTrayStore
+import
+org
+.
+mozilla
+.
+fenix
+.
+tabstray
+.
 TrayPagerAdapter
 .
 Companion
@@ -308,6 +318,13 @@ var
 inactiveTimestamp
 =
 0L
+private
+val
+tabsTrayStore
+=
+TabsTrayStore
+(
+)
 Before
 fun
 setUp
@@ -385,6 +402,7 @@ ConcatAdapter
 InactiveTabsAdapter
 (
 context
+tabsTrayStore
 mock
 (
 )
@@ -539,6 +557,7 @@ ConcatAdapter
 InactiveTabsAdapter
 (
 context
+tabsTrayStore
 mock
 (
 )
@@ -748,6 +767,7 @@ ConcatAdapter
 InactiveTabsAdapter
 (
 context
+tabsTrayStore
 mock
 (
 )
@@ -973,6 +993,7 @@ ConcatAdapter
 InactiveTabsAdapter
 (
 context
+tabsTrayStore
 mock
 (
 )
@@ -1200,6 +1221,7 @@ ConcatAdapter
 InactiveTabsAdapter
 (
 context
+tabsTrayStore
 mock
 (
 )
@@ -1441,6 +1463,7 @@ ConcatAdapter
 InactiveTabsAdapter
 (
 context
+tabsTrayStore
 mock
 (
 )
@@ -1653,6 +1676,7 @@ ConcatAdapter
 InactiveTabsAdapter
 (
 context
+tabsTrayStore
 mock
 (
 )
@@ -1813,6 +1837,7 @@ ConcatAdapter
 InactiveTabsAdapter
 (
 context
+tabsTrayStore
 mock
 (
 )
