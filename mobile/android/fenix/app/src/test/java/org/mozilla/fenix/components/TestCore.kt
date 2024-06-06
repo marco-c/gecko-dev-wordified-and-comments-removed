@@ -198,6 +198,9 @@ mockk
 Settings
 >
 (
+relaxed
+=
+true
 )
 }
 override
