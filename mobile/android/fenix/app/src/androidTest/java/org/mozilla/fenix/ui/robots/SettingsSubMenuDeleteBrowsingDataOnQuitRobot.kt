@@ -608,7 +608,7 @@ R
 .
 string
 .
-preferences_delete_browsing_data_on_quit_browsing_history
+preferences_delete_browsing_data_browsing_data_title
 )
 )
 .
