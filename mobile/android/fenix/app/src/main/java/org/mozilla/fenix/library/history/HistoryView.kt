@@ -405,10 +405,7 @@ size
 =
 historyAdapter
 .
-currentList
-?
-.
-size
+itemCount
 )
 historyAdapter
 .

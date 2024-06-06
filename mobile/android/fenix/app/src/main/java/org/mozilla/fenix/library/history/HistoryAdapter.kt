@@ -83,7 +83,7 @@ androidx
 .
 paging
 .
-PagedListAdapter
+PagingDataAdapter
 import
 androidx
 .
@@ -126,7 +126,7 @@ historyInteractor
 HistoryInteractor
 )
 :
-PagedListAdapter
+PagingDataAdapter
 <
 History
 HistoryListItemViewHolder
