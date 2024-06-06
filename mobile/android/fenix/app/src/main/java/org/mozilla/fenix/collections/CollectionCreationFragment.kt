@@ -466,11 +466,6 @@ CollectionCreationStore
 (
 CollectionCreationState
 (
-previousFragmentId
-=
-args
-.
-previousFragmentId
 tabs
 =
 tabs

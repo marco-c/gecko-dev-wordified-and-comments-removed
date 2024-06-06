@@ -246,10 +246,6 @@ class
 CollectionCreationState
 (
 val
-previousFragmentId
-:
-Int
-val
 tabs
 :
 List

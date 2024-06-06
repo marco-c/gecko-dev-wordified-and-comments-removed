@@ -1498,13 +1498,6 @@ BrowserFragmentDirections
 .
 actionGlobalCollectionCreationFragment
 (
-previousFragmentId
-=
-R
-.
-id
-.
-browserFragment
 tabIds
 =
 arrayOf

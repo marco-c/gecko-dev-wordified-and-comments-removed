@@ -516,17 +516,6 @@ arguments
 =
 CollectionCreationFragmentArgs
 (
-/
-/
-Fragment
-crashes
-if
-navArgs
-is
-null
-previousFragmentId
-=
-0
 saveCollectionStep
 =
 SaveCollectionStep

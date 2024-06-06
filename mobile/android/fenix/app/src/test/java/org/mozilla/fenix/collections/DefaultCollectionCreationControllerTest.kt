@@ -243,14 +243,6 @@ this
 )
 every
 {
-state
-.
-previousFragmentId
-}
-returns
-0
-every
-{
 store
 .
 state

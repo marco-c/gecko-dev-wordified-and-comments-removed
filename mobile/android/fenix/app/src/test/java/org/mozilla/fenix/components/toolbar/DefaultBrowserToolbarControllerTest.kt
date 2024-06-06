@@ -2822,13 +2822,6 @@ BrowserFragmentDirections
 .
 actionGlobalCollectionCreationFragment
 (
-previousFragmentId
-=
-R
-.
-id
-.
-browserFragment
 saveCollectionStep
 =
 SaveCollectionStep
@@ -2966,13 +2959,6 @@ BrowserFragmentDirections
 .
 actionGlobalCollectionCreationFragment
 (
-previousFragmentId
-=
-R
-.
-id
-.
-browserFragment
 saveCollectionStep
 =
 SaveCollectionStep
