@@ -239,7 +239,7 @@ helpers
 .
 TestAssetHelper
 .
-getGenericTabAsset
+getGenericAsset
 import
 org
 .
@@ -251,7 +251,7 @@ helpers
 .
 TestAssetHelper
 .
-getPlainPageAsset
+getGenericTabAsset
 import
 org
 .
@@ -473,7 +473,7 @@ testCustomTabUI
 val
 customTabPage
 =
-getPlainPageAsset
+getGenericAsset
 (
 webServer
 )
@@ -574,7 +574,7 @@ openCustomTabInFocusTest
 val
 browserPage
 =
-getPlainPageAsset
+getGenericAsset
 (
 webServer
 )

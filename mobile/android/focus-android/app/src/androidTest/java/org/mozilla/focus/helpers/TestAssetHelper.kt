@@ -234,7 +234,7 @@ title
 )
 }
 fun
-getPlainPageAsset
+getGenericAsset
 (
 server
 :
@@ -251,7 +251,7 @@ server
 url
 (
 "
-plain_test
+genericPage
 .
 html
 "
@@ -272,9 +272,7 @@ val
 title
 =
 "
-Plain
-text
-page
+GenericPage
 "
 return
 TestAsset

@@ -483,7 +483,7 @@ testPage
 =
 TestAssetHelper
 .
-getPlainPageAsset
+getGenericAsset
 (
 webServer
 )
@@ -628,7 +628,7 @@ testPage
 =
 TestAssetHelper
 .
-getPlainPageAsset
+getGenericAsset
 (
 webServer
 )

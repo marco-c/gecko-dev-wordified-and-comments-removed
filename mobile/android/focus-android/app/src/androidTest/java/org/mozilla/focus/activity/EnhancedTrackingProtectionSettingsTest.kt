@@ -229,7 +229,7 @@ helpers
 .
 TestAssetHelper
 .
-getPlainPageAsset
+getGenericAsset
 import
 org
 .
@@ -453,7 +453,7 @@ blockAdTrackersTest
 val
 genericPage
 =
-getPlainPageAsset
+getGenericAsset
 (
 webServer
 )
@@ -534,7 +534,7 @@ allowAdTrackersTest
 val
 genericPage
 =
-getPlainPageAsset
+getGenericAsset
 (
 webServer
 )
@@ -641,7 +641,7 @@ blockAnalyticsTrackersTest
 val
 genericPage
 =
-getPlainPageAsset
+getGenericAsset
 (
 webServer
 )
@@ -722,7 +722,7 @@ allowAnalyticsTrackersTest
 val
 genericPage
 =
-getPlainPageAsset
+getGenericAsset
 (
 webServer
 )
@@ -829,7 +829,7 @@ blockSocialTrackersTest
 val
 genericPage
 =
-getPlainPageAsset
+getGenericAsset
 (
 webServer
 )
@@ -910,7 +910,7 @@ allowSocialTrackersTest
 val
 genericPage
 =
-getPlainPageAsset
+getGenericAsset
 (
 webServer
 )
@@ -1017,7 +1017,7 @@ allowOtherContentTrackersTest
 val
 genericPage
 =
-getPlainPageAsset
+getGenericAsset
 (
 webServer
 )
@@ -1100,7 +1100,7 @@ blockOtherContentTrackersTest
 val
 genericPage
 =
-getPlainPageAsset
+getGenericAsset
 (
 webServer
 )
@@ -1233,7 +1233,7 @@ addURLToTPExceptionsListTest
 val
 genericPage
 =
-getPlainPageAsset
+getGenericAsset
 (
 webServer
 )
@@ -1356,7 +1356,7 @@ removeOneExceptionURLTest
 val
 genericPage
 =
-getPlainPageAsset
+getGenericAsset
 (
 webServer
 )
@@ -1493,7 +1493,7 @@ removeAllExceptionURLTest
 val
 genericPage
 =
-getPlainPageAsset
+getGenericAsset
 (
 webServer
 )

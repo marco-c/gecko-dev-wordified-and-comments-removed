@@ -371,7 +371,7 @@ TestHelper
 readTestAsset
 (
 "
-plain_test
+genericPage
 .
 html
 "

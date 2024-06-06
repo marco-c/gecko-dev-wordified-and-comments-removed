@@ -179,7 +179,7 @@ helpers
 .
 TestAssetHelper
 .
-getPlainPageAsset
+getGenericAsset
 import
 org
 .
@@ -327,7 +327,7 @@ openPageInExternalAppTest
 val
 pageUrl
 =
-getPlainPageAsset
+getGenericAsset
 (
 webServer
 )
