@@ -222,7 +222,7 @@ nightly
 .
 Add
 these
-attribute
+attributes
 to
 the
 target
@@ -484,7 +484,7 @@ a
 full
 cycle
 has
-happen
+happened
 (
 3
 releases
