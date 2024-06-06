@@ -1133,6 +1133,15 @@ EXPAND_AT_LIST_SIZE
 navigationInteractor
 =
 navigationInteractor
+displayMetrics
+=
+requireContext
+(
+)
+.
+resources
+.
+displayMetrics
 )
 tabsTrayCtaBinding
 .
