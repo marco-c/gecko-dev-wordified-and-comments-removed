@@ -79,6 +79,8 @@ annotation
 .
 VisibleForTesting
 .
+Companion
+.
 NONE
 import
 androidx
@@ -86,6 +88,8 @@ androidx
 annotation
 .
 VisibleForTesting
+.
+Companion
 .
 PRIVATE
 import
