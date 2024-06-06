@@ -321,7 +321,9 @@ android
 layout_height
 =
 "
-wrap_content
+dimen
+/
+tracking_protection_item_height
 "
 android
 :
