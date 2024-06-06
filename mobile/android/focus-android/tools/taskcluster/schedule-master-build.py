@@ -440,8 +440,8 @@ no
 -
 daemon
 clean
-assembleFocusWebviewX86Debug
-assembleFocusWebviewX86DebugAndroidTest
+assembleFocusX86Debug
+assembleFocusX86DebugAndroidTest
 '
 					   
 '
@@ -478,12 +478,10 @@ firebase
 test
 .
 sh
-focusWebviewX86
+focusX86Debug
 app
 -
 focus
--
-webview
 -
 x86
 -
@@ -647,8 +645,8 @@ no
 -
 daemon
 clean
-assembleFocusWebviewArmDebug
-assembleFocusWebviewArmDebugAndroidTest
+assembleFocusArmDebug
+assembleFocusArmDebugAndroidTest
 '
 				   
 '
@@ -685,12 +683,10 @@ firebase
 test
 .
 sh
-focusWebviewArm
+focusArmDebug
 app
 -
 focus
--
-webview
 -
 arm
 -
@@ -858,8 +854,8 @@ no
 -
 daemon
 clean
-assembleKlarGeckoX86Debug
-assembleKlarGeckoX86DebugAndroidTest
+assembleKlarX86Nightly
+assembleKlarX86NightlyAndroidTest
 '
 			
 '
@@ -896,16 +892,14 @@ firebase
 test
 .
 sh
-klarGeckoX86
+klarX86Nightly
 app
 -
 klar
 -
-gecko
--
 x86
 -
-debug
+nightly
 model
 =
 Nexus9
@@ -1064,8 +1058,8 @@ no
 -
 daemon
 clean
-assembleKlarGeckoArmDebug
-assembleKlarGeckoArmDebugAndroidTest
+assembleKlarArmNightly
+assembleKlarArmNightlyAndroidTest
 '
 			
 '
@@ -1102,16 +1096,14 @@ firebase
 test
 .
 sh
-klarGeckoArm
+klarArmNightly
 app
 -
 klar
 -
-gecko
--
 arm
 -
-debug
+nightly
 model
 =
 sailfish
@@ -1269,8 +1261,8 @@ no
 -
 daemon
 clean
-assembleFocusWebviewArmRelease
-assembleKlarGeckoArmRelease
+assembleFocusArmRelease
+assembleKlarArmRelease
 '
 				   
 '

@@ -82,7 +82,7 @@ no
 -
 daemon
 clean
-assembleFocusGeckoX86
+assembleFocusX86Nightly
 -
 echo
 "
