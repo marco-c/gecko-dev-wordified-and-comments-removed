@@ -285,6 +285,7 @@ Parameters
 params
 )
 ;
+RTC_EXPORT
 bool
 H265IsSameProfileTierLevel
 (
