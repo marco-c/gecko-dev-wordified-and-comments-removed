@@ -215,9 +215,8 @@ android
 textColor
 =
 "
-color
-/
-delete_color
+?
+destructive
 "
 android
 :

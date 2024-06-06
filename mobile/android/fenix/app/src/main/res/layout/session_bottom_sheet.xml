@@ -215,7 +215,7 @@ cardBackgroundColor
 =
 "
 ?
-foundation
+above
 "
 android
 :
@@ -676,9 +676,8 @@ android
 drawableTint
 =
 "
-color
-/
-delete_color
+?
+destructive
 "
 android
 :
@@ -715,9 +714,8 @@ android
 textColor
 =
 "
-color
-/
-delete_color
+?
+destructive
 "
 android
 :

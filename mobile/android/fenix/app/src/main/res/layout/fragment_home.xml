@@ -199,9 +199,8 @@ android
 background
 =
 "
-drawable
-/
-home_background_gradient
+?
+homeBackground
 "
 app
 :

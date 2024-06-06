@@ -359,7 +359,7 @@ buttonTint
 =
 "
 ?
-accent
+accentHighContrast
 "
 android
 :
@@ -486,7 +486,7 @@ backgroundTint
 =
 "
 ?
-accent
+accentHighContrast
 "
 android
 :

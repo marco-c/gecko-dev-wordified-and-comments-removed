@@ -959,6 +959,13 @@ layout_height
 "
 android
 :
+alpha
+=
+"
+0
+"
+android
+:
 layout_marginStart
 =
 "
