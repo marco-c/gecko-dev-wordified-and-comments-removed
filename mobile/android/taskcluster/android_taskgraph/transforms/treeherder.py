@@ -11,6 +11,15 @@ taskgraph
 .
 util
 .
+dependencies
+import
+get_dependencies
+get_primary_dependency
+from
+taskgraph
+.
+util
+.
 treeherder
 import
 inherit_treeherder_from_dep
@@ -37,7 +46,18 @@ in
 tasks
 :
         
+primary_dep
+=
+get_primary_dependency
+(
+config
+task
+)
+        
 if
+not
+primary_dep
+and
 task
 .
 get
@@ -50,7 +70,7 @@ dependency
 )
 :
             
-dep
+primary_dep
 =
 task
 .
@@ -66,21 +86,14 @@ dependency
 else
 :
             
-dep
+primary_dep
 =
 list
 (
-task
-[
-"
-dependent
--
-tasks
-"
-]
-.
-values
+get_dependencies
 (
+config
+task
 )
 )
 [
@@ -100,16 +113,18 @@ treeherder
 .
 update
 (
+            
 inherit_treeherder_from_dep
 (
 task
-dep
+primary_dep
 )
+        
 )
         
 task_group
 =
-dep
+primary_dep
 .
 task
 [

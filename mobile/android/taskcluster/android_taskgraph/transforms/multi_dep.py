@@ -19,6 +19,14 @@ taskgraph
 .
 util
 .
+dependencies
+import
+get_dependencies
+from
+taskgraph
+.
+util
+.
 schema
 import
 resolve_keyed_by
@@ -32,6 +40,11 @@ import
 inherit_treeherder_from_dep
 join_symbol
 transforms
+=
+TransformSequence
+(
+)
+upstream_artifacts
 =
 TransformSequence
 (
@@ -73,6 +86,7 @@ dep
 in
 _get_all_deps
 (
+config
 task
 )
 }
@@ -183,6 +197,7 @@ kind
 def
 _get_all_deps
 (
+config
 task
 )
 :
@@ -214,6 +229,16 @@ values
 (
 )
     
+if
+"
+primary
+-
+dependency
+"
+in
+task
+:
+        
 return
 [
 task
@@ -225,6 +250,13 @@ dependency
 "
 ]
 ]
+    
+return
+get_dependencies
+(
+config
+task
+)
 transforms
 .
 add
@@ -350,6 +382,9 @@ task
 transforms
 .
 add
+upstream_artifacts
+.
+add
 def
 build_upstream_artifacts
 (
@@ -451,6 +486,7 @@ dep
 in
 _get_all_deps
 (
+config
 task
 )
 :
