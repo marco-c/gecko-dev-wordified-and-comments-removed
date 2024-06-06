@@ -3425,7 +3425,15 @@ codemirrorNext
 )
 {
 return
-null
+React
+.
+createElement
+(
+Breakpoints
+{
+editor
+}
+)
 ;
 }
 if
