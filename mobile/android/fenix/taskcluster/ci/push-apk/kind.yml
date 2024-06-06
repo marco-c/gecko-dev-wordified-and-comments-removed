@@ -126,7 +126,7 @@ fennec
 -
 production
 -
-production
+nightly
 job
 -
 template
@@ -169,7 +169,7 @@ production
 fennec
 -
 production
-production
+nightly
 :
 production
 dep
