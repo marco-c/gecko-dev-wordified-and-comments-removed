@@ -546,7 +546,9 @@ PreferenceManager
 .
 getDefaultSharedPreferences
 (
-context
+requireContext
+(
+)
 )
 val
 value
