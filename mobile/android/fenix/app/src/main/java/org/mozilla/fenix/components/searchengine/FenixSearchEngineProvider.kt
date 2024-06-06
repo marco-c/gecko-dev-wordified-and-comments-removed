@@ -1027,16 +1027,7 @@ BUNDLED_SEARCH_ENGINES
 listOf
 (
 "
-ecosia
-"
-"
 reddit
-"
-"
-startpage
-"
-"
-yahoo
 "
 "
 youtube
