@@ -658,9 +658,11 @@ lifecycleOwner
 lifecycle
 every
 {
-browserFragment
+context
 .
-onboarding
+components
+.
+fenixOnboarding
 }
 returns
 onboarding
