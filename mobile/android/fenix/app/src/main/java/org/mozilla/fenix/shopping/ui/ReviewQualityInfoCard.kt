@@ -766,7 +766,7 @@ R
 .
 string
 .
-review_quality_check_info_learn_more_link
+review_quality_check_info_learn_more_link_2
 stringResource
 (
 R
