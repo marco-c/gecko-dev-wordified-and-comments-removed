@@ -211,6 +211,16 @@ fenix
 .
 home
 .
+BottomSpacerViewHolder
+import
+org
+.
+mozilla
+.
+fenix
+.
+home
+.
 HomeFragmentStore
 import
 org
@@ -558,16 +568,6 @@ home
 tips
 .
 ButtonTipViewHolder
-import
-org
-.
-mozilla
-.
-fenix
-.
-home
-.
-BottomSpacerViewHolder
 import
 org
 .
@@ -1721,6 +1721,7 @@ parent
 .
 context
 )
+viewLifecycleOwner
 interactor
 =
 interactor
@@ -1741,6 +1742,7 @@ parent
 .
 context
 )
+viewLifecycleOwner
 store
 =
 store
@@ -1764,6 +1766,7 @@ parent
 .
 context
 )
+viewLifecycleOwner
 store
 =
 store
@@ -1794,6 +1797,7 @@ parent
 .
 context
 )
+viewLifecycleOwner
 store
 =
 store
@@ -1817,6 +1821,7 @@ parent
 .
 context
 )
+viewLifecycleOwner
 store
 =
 store
