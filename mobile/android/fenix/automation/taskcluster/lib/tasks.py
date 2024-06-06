@@ -764,6 +764,8 @@ assemble
 format
 (
 variant
+.
+raw
 )
             
 description
@@ -780,6 +782,8 @@ variant
 format
 (
 variant
+.
+raw
 )
             
 gradle_task
@@ -794,9 +798,7 @@ format
 (
 variant
 .
-capitalize
-(
-)
+for_gradle_command
 )
             
 artifacts
@@ -814,10 +816,9 @@ treeherder
 groupSymbol
 '
 :
-_craft_treeherder_group_symbol_from_variant
-(
 variant
-)
+.
+build_type
                 
 '
 jobKind
@@ -837,10 +838,9 @@ machine
 platform
 '
 :
-_craft_treeherder_platform_from_variant
-(
 variant
-)
+.
+platform
                 
 }
                 
@@ -888,6 +888,8 @@ test
 format
 (
 variant
+.
+raw
 )
             
 description
@@ -904,6 +906,8 @@ variant
 format
 (
 variant
+.
+raw
 )
             
 gradle_task
@@ -919,9 +923,7 @@ format
 (
 variant
 .
-capitalize
-(
-)
+for_gradle_command
 )
             
 treeherder
@@ -932,10 +934,9 @@ treeherder
 groupSymbol
 '
 :
-_craft_treeherder_group_symbol_from_variant
-(
 variant
-)
+.
+build_type
                 
 '
 jobKind
@@ -955,10 +956,9 @@ machine
 platform
 '
 :
-_craft_treeherder_platform_from_variant
-(
 variant
-)
+.
+platform
                 
 }
                 
@@ -2442,14 +2442,6 @@ variant
 )
 :
         
-architecture
-_
-=
-get_architecture_and_build_type_from_variant
-(
-variant
-)
-        
 routes
 =
 [
@@ -2500,7 +2492,9 @@ format
 self
 .
 commit
-architecture
+variant
+.
+abi
                 
 )
                 
@@ -2530,7 +2524,9 @@ raptor
 format
 (
                     
-architecture
+variant
+.
+abi
                 
 )
                 
@@ -2592,7 +2588,9 @@ day
 self
 .
 commit
-architecture
+variant
+.
+abi
                 
 )
                 
@@ -2648,7 +2646,9 @@ self
 date
 .
 day
-architecture
+variant
+.
+abi
                 
 )
             
@@ -2672,6 +2672,8 @@ sign
 format
 (
 variant
+.
+raw
 )
             
 description
@@ -2688,6 +2690,8 @@ variant
 format
 (
 variant
+.
+raw
 )
             
 signing_type
@@ -2724,10 +2728,9 @@ treeherder
 groupSymbol
 '
 :
-_craft_treeherder_group_symbol_from_variant
-(
 variant
-)
+.
+build_type
                 
 '
 jobKind
@@ -2747,10 +2750,9 @@ machine
 platform
 '
 :
-_craft_treeherder_platform_from_variant
-(
 variant
-)
+.
+platform
                 
 }
                 
@@ -3450,14 +3452,6 @@ False
 )
 :
         
-architecture
-_
-=
-get_architecture_and_build_type_from_variant
-(
-variant
-)
-        
 worker_type
 =
 '
@@ -3476,7 +3470,9 @@ p2
 if
 force_run_on_64_bit_device
 or
-architecture
+variant
+.
+abi
 =
 =
 '
@@ -3522,7 +3518,9 @@ api
 '
         
 elif
-architecture
+variant
+.
+abi
 =
 =
 '
@@ -3551,7 +3549,9 @@ api
 '
         
 elif
-architecture
+variant
+.
+abi
 =
 =
 '
@@ -3592,7 +3592,9 @@ architecture
 .
 format
 (
-architecture
+variant
+.
+abi
 )
 )
         
@@ -3613,6 +3615,8 @@ format
             
 name_prefix
 variant
+.
+raw
 '
 (
 on
@@ -4289,54 +4293,6 @@ tier
         
 )
 def
-_craft_treeherder_platform_from_variant
-(
-variant
-)
-:
-    
-architecture
-build_type
-=
-get_architecture_and_build_type_from_variant
-(
-variant
-)
-    
-return
-'
-android
--
-{
-}
--
-{
-}
-'
-.
-format
-(
-architecture
-build_type
-)
-def
-_craft_treeherder_group_symbol_from_variant
-(
-variant
-)
-:
-    
-_
-build_type
-=
-get_architecture_and_build_type_from_variant
-(
-variant
-)
-    
-return
-build_type
-def
 _craft_artifacts_from_variant
 (
 variant
@@ -4362,9 +4318,10 @@ file
 path
 '
 :
-_craft_apk_full_path_from_variant
-(
 variant
+.
+apk_absolute_path
+(
 )
             
 '
@@ -4386,198 +4343,6 @@ DEFAULT_EXPIRES_IN
 }
     
 }
-def
-_craft_apk_full_path_from_variant
-(
-variant
-)
-:
-    
-architecture
-build_type
-=
-get_architecture_and_build_type_from_variant
-(
-variant
-)
-    
-postfix
-=
-'
-'
-if
-build_type
-=
-=
-'
-debug
-'
-else
-'
--
-unsigned
-'
-    
-return
-'
-/
-opt
-/
-fenix
-/
-app
-/
-build
-/
-outputs
-/
-apk
-/
-{
-architecture
-}
-/
-{
-build_type
-}
-/
-app
--
-{
-architecture
-}
--
-{
-build_type
-}
-{
-postfix
-}
-.
-apk
-'
-.
-format
-(
-        
-architecture
-=
-architecture
-        
-build_type
-=
-build_type
-        
-postfix
-=
-postfix
-    
-)
-_SUPPORTED_ARCHITECTURES
-=
-(
-'
-aarch64
-'
-'
-arm
-'
-'
-x86
-'
-)
-def
-get_architecture_and_build_type_from_variant
-(
-variant
-)
-:
-    
-for
-supported_architecture
-in
-_SUPPORTED_ARCHITECTURES
-:
-        
-if
-variant
-.
-startswith
-(
-supported_architecture
-)
-:
-            
-architecture
-=
-supported_architecture
-            
-break
-    
-else
-:
-        
-raise
-ValueError
-(
-            
-'
-Cannot
-identify
-architecture
-in
-"
-{
-}
-"
-.
-'
-            
-'
-Expected
-to
-find
-one
-of
-these
-supported
-ones
-:
-{
-}
-'
-.
-format
-(
-                
-variant
-_SUPPORTED_ARCHITECTURES
-            
-)
-        
-)
-    
-build_type
-=
-variant
-[
-len
-(
-architecture
-)
-:
-]
-    
-build_type
-=
-lower_case_first_letter
-(
-build_type
-)
-    
-return
-architecture
-build_type
 def
 schedule_task
 (

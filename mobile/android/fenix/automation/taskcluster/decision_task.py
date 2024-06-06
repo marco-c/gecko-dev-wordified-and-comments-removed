@@ -29,7 +29,7 @@ lib
 .
 gradle
 import
-get_build_variants
+get_debug_variants
 get_geckoview_versions
 from
 lib
@@ -39,8 +39,6 @@ import
 (
     
 fetch_mozharness_task_id
-    
-get_architecture_and_build_type_from_variant
     
 schedule_task_graph
     
@@ -57,6 +55,12 @@ populate_chain_of_trust_task_graph
     
 populate_chain_of_trust_required_but_unused_files
 )
+from
+lib
+.
+variant
+import
+Variant
 REPO_URL
 =
 os
@@ -289,27 +293,6 @@ return
 {
 }
     
-debug_variants
-=
-[
-variant
-for
-variant
-in
-get_build_variants
-(
-)
-if
-variant
-.
-endswith
-(
-'
-Debug
-'
-)
-]
-    
 geckoview_nightly_version
 =
 get_geckoview_versions
@@ -374,7 +357,9 @@ other_tasks
 for
 variant
 in
-debug_variants
+get_debug_variants
+(
+)
 :
         
 assemble_task_id
@@ -442,14 +427,29 @@ craft_dependencies_task
 for
 variant
 in
+[
+Variant
+.
+from_values
 (
+abi
+False
 '
-armRaptor
-'
-'
-aarch64Raptor
+raptor
 '
 )
+for
+abi
+in
+(
+'
+aarch64
+'
+'
+arm
+'
+)
+]
 :
             
 assemble_task_id
