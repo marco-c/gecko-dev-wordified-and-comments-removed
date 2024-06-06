@@ -1193,7 +1193,7 @@ R
 .
 string
 .
-mozac_feature_media_sharing_camera_and_microphone_reminder_text
+mozac_feature_media_sharing_camera_and_microphone_reminder_text_2
 }
 object
 Camera
@@ -1281,7 +1281,7 @@ R
 .
 string
 .
-mozac_feature_media_sharing_microphone_reminder_text
+mozac_feature_media_sharing_microphone_reminder_text_2
 }
 object
 None
