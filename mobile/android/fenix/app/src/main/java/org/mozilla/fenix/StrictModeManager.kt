@@ -309,9 +309,8 @@ mode
 to
 disable
 penalty
-.
-Tied
-to
+based
+on
 fragment
 lifecycle
 since
@@ -341,7 +340,7 @@ fragment
 *
 /
 fun
-changeStrictModePolicies
+attachListenerToDisablePenaltyDeath
 (
 fragmentManager
 :

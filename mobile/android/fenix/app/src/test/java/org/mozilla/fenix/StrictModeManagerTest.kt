@@ -372,7 +372,7 @@ FragmentLifecycleCallbacks
 )
 StrictModeManager
 .
-changeStrictModePolicies
+attachListenerToDisablePenaltyDeath
 (
 fragmentManager
 )

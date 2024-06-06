@@ -1273,7 +1273,7 @@ Bundle
 {
 StrictModeManager
 .
-changeStrictModePolicies
+attachListenerToDisablePenaltyDeath
 (
 supportFragmentManager
 )
