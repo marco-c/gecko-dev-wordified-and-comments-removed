@@ -401,7 +401,6 @@ createOpenHelper
 config
 :
 DatabaseConfiguration
-?
 )
 :
 SupportSQLiteOpenHelper
