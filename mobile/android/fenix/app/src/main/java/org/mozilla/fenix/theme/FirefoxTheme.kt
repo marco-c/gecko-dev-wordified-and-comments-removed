@@ -1010,8 +1010,7 @@ set
 /
 Secondary
 button
-Pill
-button
+Chip
 var
 actionSecondary
 by
