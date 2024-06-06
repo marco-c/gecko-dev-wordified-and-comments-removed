@@ -490,14 +490,12 @@ ReadyForSuggestions
 >
 {
 /
-*
+/
 Handled
 by
 Jetpack
 Compose
 implementation
-*
-/
 }
 is
 State
