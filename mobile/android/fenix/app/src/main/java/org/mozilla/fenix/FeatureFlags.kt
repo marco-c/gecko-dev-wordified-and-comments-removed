@@ -481,14 +481,11 @@ features
 .
 *
 /
+const
 val
 historyImprovementFeatures
 =
-Config
-.
-channel
-.
-isNightlyOrDebug
+true
 /
 *
 *
