@@ -176,13 +176,6 @@ NEXUS_PREFIX
 google
 /
 -
-PjcenterRepo
-=
-NEXUS_PREFIX
-/
-jcenter
-/
--
 PcentralRepo
 =
 NEXUS_PREFIX

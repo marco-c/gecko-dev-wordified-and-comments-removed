@@ -3820,14 +3820,15 @@ can
 be
 found
 on
-jcenter
+Maven
+Central
 .
 Note
 that
 the
 transitive
-dependency
 *
+dependency
 com
 .
 google
