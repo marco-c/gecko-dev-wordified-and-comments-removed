@@ -721,16 +721,6 @@ mozilla
 .
 focus
 .
-tabs
-.
-MergeTabsMiddleware
-import
-org
-.
-mozilla
-.
-focus
-.
 telemetry
 .
 GleanMetricsService
@@ -1201,10 +1191,6 @@ AdsTelemetryMiddleware
 adsTelemetry
 )
 BlockedTrackersMiddleware
-(
-context
-)
-MergeTabsMiddleware
 (
 context
 )
