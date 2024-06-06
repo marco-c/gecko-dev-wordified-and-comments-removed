@@ -138,6 +138,10 @@ MozillaBannedPropertyAccess
 (
 config
 )
+MozillaCorrectUnitTestRunner
+(
+config
+)
 )
 )
 }
