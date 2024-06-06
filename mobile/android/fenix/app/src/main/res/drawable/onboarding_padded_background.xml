@@ -106,12 +106,9 @@ android
 color
 =
 "
-?
-android
-:
-attr
+color
 /
-colorControlHighlight
+onboarding_padded_background_color
 "
 >
 <
