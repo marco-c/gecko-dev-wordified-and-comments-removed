@@ -735,6 +735,17 @@ id
 /
 mozac_browser_tabstray_card
 "
+style
+=
+"
+style
+/
+Widget
+.
+MaterialComponents
+.
+CardView
+"
 android
 :
 layout_width
