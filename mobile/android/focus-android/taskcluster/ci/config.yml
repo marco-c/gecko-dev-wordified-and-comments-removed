@@ -250,6 +250,8 @@ type
 b
 -
 linux
+-
+gcp
 b
 -
 android
@@ -282,6 +284,8 @@ b
 linux
 -
 large
+-
+gcp
 dep
 -
 signing
@@ -361,6 +365,8 @@ type
 :
 '
 images
+-
+gcp
 '
 #
 misc
@@ -403,6 +409,8 @@ type
 b
 -
 linux
+-
+gcp
 '
 push
 -
