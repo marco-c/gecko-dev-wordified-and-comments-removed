@@ -557,7 +557,7 @@ components
 .
 core
 .
-sessionManager
+store
 sessionId
 ToolbarFeature
 .
