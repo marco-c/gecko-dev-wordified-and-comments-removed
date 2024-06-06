@@ -2515,6 +2515,7 @@ onSaveInstanceState
 )
 :
 Parcelable
+?
 {
 val
 superState
@@ -2551,6 +2552,15 @@ Save
 the
 instance
 state
+return
+if
+(
+superState
+!
+=
+null
+)
+{
 val
 myState
 =
@@ -2573,8 +2583,12 @@ myState
 mMax
 =
 mMax
-return
 myState
+}
+else
+{
+null
+}
 }
 override
 fun
