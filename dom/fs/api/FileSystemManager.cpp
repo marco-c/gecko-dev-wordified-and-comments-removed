@@ -543,10 +543,11 @@ GetStorageAccess
 (
 )
 <
+=
 StorageAccess
 :
 :
-eSessionScoped
+ePrivateBrowsing
 )
 {
 aFailure

@@ -81,9 +81,6 @@ eDeny
 ePrivateBrowsing
 =
 1
-eSessionScoped
-=
-2
 eAllow
 =
 3

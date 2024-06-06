@@ -233,14 +233,6 @@ clear
 (
 )
 ;
-[
-ChromeOnly
-]
-readonly
-attribute
-boolean
-isSessionOnly
-;
 }
 ;
 /

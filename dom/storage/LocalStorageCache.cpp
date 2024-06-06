@@ -150,7 +150,7 @@ IsPrivateBrowsing
 aStorage
 -
 >
-IsSessionScopedOrLess
+IsPrivateBrowsingOrLess
 (
 )
 )
@@ -687,7 +687,7 @@ IsPrivateBrowsing
 aStorage
 -
 >
-IsSessionScopedOrLess
+IsPrivateBrowsingOrLess
 (
 )
 )

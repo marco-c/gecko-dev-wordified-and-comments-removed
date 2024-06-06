@@ -82,11 +82,6 @@ localStorageCommon
 js
 "
 "
-frameLocalStorageSessionOnly
-.
-html
-"
-"
 file_tryAccessSessionStorage
 .
 html
