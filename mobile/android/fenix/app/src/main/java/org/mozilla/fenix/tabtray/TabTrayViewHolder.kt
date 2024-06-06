@@ -717,7 +717,7 @@ R
 .
 drawable
 .
-tab_tray_play_with_background
+media_state_play
 )
 )
 }
@@ -755,7 +755,7 @@ R
 .
 drawable
 .
-tab_tray_pause_with_background
+media_state_pause
 )
 )
 }
