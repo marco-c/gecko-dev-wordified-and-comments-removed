@@ -481,7 +481,7 @@ base
 .
 feature
 .
-UserInteractionHandler
+PermissionsFeature
 import
 mozilla
 .
@@ -493,7 +493,7 @@ base
 .
 feature
 .
-PermissionsFeature
+UserInteractionHandler
 import
 mozilla
 .
@@ -1864,7 +1864,9 @@ setAnchorView
 (
 browserToolbarView
 .
-view
+getSnackbarAnchor
+(
+)
 )
 .
 show
@@ -3641,7 +3643,9 @@ setAnchorView
 (
 browserToolbarView
 .
-view
+getSnackbarAnchor
+(
+)
 )
 .
 setAction

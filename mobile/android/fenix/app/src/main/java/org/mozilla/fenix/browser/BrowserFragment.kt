@@ -1439,7 +1439,9 @@ setAnchorView
 (
 browserToolbarView
 .
-view
+getSnackbarAnchor
+(
+)
 )
 .
 show
