@@ -4153,6 +4153,9 @@ if
 key
 =
 =
+activity
+?
+.
 getString
 (
 pref_key_homescreen_tips
