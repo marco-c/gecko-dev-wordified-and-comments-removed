@@ -669,6 +669,10 @@ is
 SearchAction
 .
 HideSearchEngineAction
+is
+SearchAction
+.
+RestoreHiddenSearchEnginesAction
 -
 >
 updateHiddenSearchEngines
