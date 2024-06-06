@@ -497,11 +497,6 @@ returns
 Unit
 activity
 .
-browsingModeManager
-=
-browsingModeManager
-activity
-.
 navigateToBrowserOnColdStart
 (
 )
