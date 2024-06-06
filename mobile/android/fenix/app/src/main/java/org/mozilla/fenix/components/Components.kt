@@ -473,10 +473,10 @@ SupportedAddonsChecker
 .
 Frequency
 (
-16
+12
 TimeUnit
 .
-MINUTES
+HOURS
 )
 onNotificationClickIntent
 =
