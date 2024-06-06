@@ -642,6 +642,11 @@ onDestroy
 (
 )
 {
+themeManager
+.
+onThemeChange
+=
+null
 sessionObserver
 ?
 .
