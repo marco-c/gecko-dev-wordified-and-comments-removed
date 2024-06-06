@@ -139,7 +139,7 @@ action
 is
 AppAction
 .
-MetricsInitializedAction
+ResumedMetricsAction
 -
 >
 {
@@ -152,6 +152,16 @@ Event
 GrowthData
 .
 SetAsDefault
+)
+metrics
+.
+track
+(
+Event
+.
+GrowthData
+.
+FirstAppOpenForDay
 )
 }
 else

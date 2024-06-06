@@ -1396,7 +1396,7 @@ wallpaperState
 is
 AppAction
 .
-MetricsInitializedAction
+ResumedMetricsAction
 -
 >
 state
