@@ -275,9 +275,8 @@ android
 textColor
 =
 "
-color
-/
-fx_mobile_text_color_action
+?
+aboutLink
 "
 /
 >
