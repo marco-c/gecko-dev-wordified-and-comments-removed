@@ -474,7 +474,7 @@ lateinit
 var
 bookmarkStore
 :
-BookmarkStore
+BookmarkFragmentStore
 private
 lateinit
 var
@@ -696,9 +696,9 @@ get
 this
 )
 {
-BookmarkStore
+BookmarkFragmentStore
 (
-BookmarkState
+BookmarkFragmentState
 (
 null
 )
@@ -1103,7 +1103,7 @@ state
 mode
 )
 {
-BookmarkState
+BookmarkFragmentState
 .
 Mode
 .
@@ -1124,7 +1124,7 @@ menu
 )
 }
 is
-BookmarkState
+BookmarkFragmentState
 .
 Mode
 .

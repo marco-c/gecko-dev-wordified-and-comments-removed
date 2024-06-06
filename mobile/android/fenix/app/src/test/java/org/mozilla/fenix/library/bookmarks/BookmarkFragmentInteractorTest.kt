@@ -202,9 +202,9 @@ bookmarkStore
 =
 spyk
 (
-BookmarkStore
+BookmarkFragmentStore
 (
-BookmarkState
+BookmarkFragmentState
 (
 null
 )
@@ -431,7 +431,7 @@ bookmarkStore
 .
 dispatch
 (
-BookmarkAction
+BookmarkFragmentAction
 .
 Change
 (
@@ -545,7 +545,7 @@ interactor
 .
 onSelectionModeSwitch
 (
-BookmarkState
+BookmarkFragmentState
 .
 Mode
 .
@@ -607,7 +607,7 @@ bookmarkStore
 .
 dispatch
 (
-BookmarkAction
+BookmarkFragmentAction
 .
 Select
 (
@@ -637,7 +637,7 @@ bookmarkStore
 .
 dispatch
 (
-BookmarkAction
+BookmarkFragmentAction
 .
 Deselect
 (
@@ -665,7 +665,7 @@ bookmarkStore
 .
 dispatch
 (
-BookmarkAction
+BookmarkFragmentAction
 .
 DeselectAll
 )

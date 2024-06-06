@@ -275,7 +275,7 @@ onSelectionModeSwitch
 (
 mode
 :
-BookmarkState
+BookmarkFragmentState
 .
 Mode
 )
@@ -580,11 +580,11 @@ private
 var
 mode
 :
-BookmarkState
+BookmarkFragmentState
 .
 Mode
 =
-BookmarkState
+BookmarkFragmentState
 .
 Mode
 .
@@ -634,7 +634,7 @@ update
 (
 state
 :
-BookmarkState
+BookmarkFragmentState
 )
 {
 canGoBack
@@ -691,7 +691,7 @@ mode
 )
 {
 is
-BookmarkState
+BookmarkFragmentState
 .
 Mode
 .
@@ -705,7 +705,7 @@ state
 tree
 )
 is
-BookmarkState
+BookmarkFragmentState
 .
 Mode
 .
@@ -745,7 +745,7 @@ when
 {
 mode
 is
-BookmarkState
+BookmarkFragmentState
 .
 Mode
 .

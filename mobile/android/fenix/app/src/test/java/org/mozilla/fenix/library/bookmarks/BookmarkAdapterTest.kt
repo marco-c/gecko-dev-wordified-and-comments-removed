@@ -323,7 +323,7 @@ bookmarkAdapter
 updateData
 (
 tree
-BookmarkState
+BookmarkFragmentState
 .
 Mode
 .
@@ -334,7 +334,7 @@ bookmarkAdapter
 updateData
 (
 null
-BookmarkState
+BookmarkFragmentState
 .
 Mode
 .
@@ -347,7 +347,7 @@ bookmarkAdapter
 updateData
 (
 tree
-BookmarkState
+BookmarkFragmentState
 .
 Mode
 .
@@ -365,7 +365,7 @@ bookmarkAdapter
 updateData
 (
 null
-BookmarkState
+BookmarkFragmentState
 .
 Mode
 .

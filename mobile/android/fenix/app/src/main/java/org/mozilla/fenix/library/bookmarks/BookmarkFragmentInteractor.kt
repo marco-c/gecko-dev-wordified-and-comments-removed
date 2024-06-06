@@ -185,7 +185,7 @@ private
 val
 bookmarkStore
 :
-BookmarkStore
+BookmarkFragmentStore
 private
 val
 viewModel
@@ -219,7 +219,7 @@ bookmarkStore
 .
 dispatch
 (
-BookmarkAction
+BookmarkFragmentAction
 .
 Change
 (
@@ -233,7 +233,7 @@ onSelectionModeSwitch
 (
 mode
 :
-BookmarkState
+BookmarkFragmentState
 .
 Mode
 )
@@ -270,7 +270,7 @@ bookmarkStore
 .
 dispatch
 (
-BookmarkAction
+BookmarkFragmentAction
 .
 DeselectAll
 )
@@ -698,7 +698,7 @@ bookmarkStore
 .
 dispatch
 (
-BookmarkAction
+BookmarkFragmentAction
 .
 Select
 (
@@ -720,7 +720,7 @@ bookmarkStore
 .
 dispatch
 (
-BookmarkAction
+BookmarkFragmentAction
 .
 Deselect
 (
