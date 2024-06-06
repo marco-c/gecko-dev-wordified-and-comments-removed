@@ -261,6 +261,16 @@ org
 .
 mozilla
 .
+fenix
+.
+ext
+.
+components
+import
+org
+.
+mozilla
+.
 geckoview
 .
 GeckoRuntime
@@ -474,6 +484,8 @@ runtime
 }
 val
 sessionStorage
+:
+SessionBundleStorage
 by
 lazy
 {
@@ -489,6 +501,9 @@ TimeUnit
 .
 MINUTES
 )
+engine
+=
+engine
 )
 }
 /
@@ -607,7 +622,6 @@ restore
 .
 restoreSnapshot
 (
-engine
 )
 }
 /

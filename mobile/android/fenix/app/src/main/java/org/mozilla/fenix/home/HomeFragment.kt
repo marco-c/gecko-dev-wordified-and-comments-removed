@@ -1547,11 +1547,6 @@ bundle
 .
 restoreSnapshot
 (
-requireComponents
-.
-core
-.
-engine
 )
 ?
 .
