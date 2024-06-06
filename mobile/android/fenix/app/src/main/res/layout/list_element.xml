@@ -352,13 +352,6 @@ layout_marginTop
 "
 android
 :
-layout_marginEnd
-=
-"
-74dp
-"
-android
-:
 ellipsize
 =
 "
