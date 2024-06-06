@@ -1263,6 +1263,9 @@ TabTrayFragmentInteractor
 (
 DefaultTabTrayController
 (
+activity
+=
+activity
 profiler
 =
 activity
@@ -1354,11 +1357,9 @@ orientation
 Configuration
 .
 ORIENTATION_LANDSCAPE
-lifecycleScope
+lifecycleOwner
 =
 viewLifecycleOwner
-.
-lifecycleScope
 )
 {
 private

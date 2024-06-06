@@ -275,4 +275,12 @@ id
 .
 loginDetailFragment
 )
+FromTabTray
+(
+R
+.
+id
+.
+tabTrayDialogFragment
+)
 }
