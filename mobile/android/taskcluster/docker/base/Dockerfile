@@ -930,7 +930,7 @@ install
 y
 openjdk
 -
-11
+17
 -
 jdk
 \

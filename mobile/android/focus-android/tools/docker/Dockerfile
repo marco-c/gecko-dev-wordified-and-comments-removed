@@ -210,7 +210,7 @@ TERM
 dumb
 '
 \
-JAVA11PATH
+JAVA17PATH
 =
 "
 /
@@ -222,7 +222,7 @@ jvm
 /
 java
 -
-11
+17
 -
 openjdk
 -
@@ -292,7 +292,7 @@ install
 y
 openjdk
 -
-11
+17
 -
 jdk
 \
@@ -542,7 +542,7 @@ yes
 |
 PATH
 =
-JAVA11PATH
+JAVA17PATH
 "
 {
 ANDROID_SDK_HOME

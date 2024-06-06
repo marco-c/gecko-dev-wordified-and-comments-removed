@@ -8,7 +8,7 @@ export
 ANDROID_SDK_ROOT
 =
 MOZ_FETCHES_DIR
-JAVA11PATH
+JAVA17PATH
 =
 "
 /
@@ -20,7 +20,7 @@ jvm
 /
 java
 -
-11
+17
 -
 openjdk
 -
@@ -35,7 +35,7 @@ yes
 |
 PATH
 =
-JAVA11PATH
+JAVA17PATH
 "
 {
 ANDROID_SDK_ROOT
@@ -82,7 +82,7 @@ completion
 .
 PATH
 =
-JAVA11PATH
+JAVA17PATH
 "
 {
 ANDROID_SDK_ROOT
