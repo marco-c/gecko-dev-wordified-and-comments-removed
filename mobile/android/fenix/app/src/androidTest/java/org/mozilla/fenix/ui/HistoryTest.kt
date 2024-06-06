@@ -379,9 +379,6 @@ HomeActivityIntentTestRule
 .
 withDefaultSettingsOverrides
 (
-isUnifiedSearchEnabled
-=
-true
 )
 )
 {

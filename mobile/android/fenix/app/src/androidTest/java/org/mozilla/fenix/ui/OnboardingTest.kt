@@ -582,7 +582,7 @@ verifyStartBrowsingButton
 .
 openSearch
 {
-verifySearchEngineButton
+verifySearchView
 (
 )
 verifyKeyboardVisibility

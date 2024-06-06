@@ -571,12 +571,6 @@ false
 isWallpaperOnboardingEnabled
 =
 false
-isUnifiedSearchEnabled
-=
-true
-newSearchSettingsEnabled
-=
-true
 )
 )
 {

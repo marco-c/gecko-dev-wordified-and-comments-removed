@@ -406,12 +406,6 @@ true
 verifyNavigationToolbar
 (
 )
-verifyDefaultSearchEngine
-(
-"
-Google
-"
-)
 verifyHomeMenuButton
 (
 )
