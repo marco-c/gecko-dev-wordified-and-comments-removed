@@ -5261,10 +5261,6 @@ SyncAuthFromSharedCopy
 -
 >
 null
-else
--
->
-null
 }
 /
 *
