@@ -289,7 +289,7 @@ R
 .
 string
 .
-review_quality_check_powered_by
+review_quality_check_powered_by_2
 poweredByLinkText
 )
 linkTextState
