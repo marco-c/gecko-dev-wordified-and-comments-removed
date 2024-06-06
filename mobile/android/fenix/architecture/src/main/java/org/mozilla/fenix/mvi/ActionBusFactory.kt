@@ -492,10 +492,10 @@ Lifecycle
 .
 Event
 .
-ON_STOP
+ON_DESTROY
 )
 fun
-onStop
+onDestroy
 (
 )
 {
@@ -861,7 +861,7 @@ owner
 and
 fires
 during
-ON_STOP
+ON_DESTROY
 *
 /
 fun
@@ -1145,7 +1145,7 @@ Lifecycle
 .
 Event
 .
-ON_STOP
+ON_DESTROY
 )
 fun
 emitDestroy
