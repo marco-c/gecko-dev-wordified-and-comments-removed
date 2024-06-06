@@ -1,5 +1,6 @@
 Firefox
-Preview
+for
+Android
 tracks
 certain
 types
@@ -25,7 +26,8 @@ the
 origin
 of
 Firefox
-Preview
+for
+Android
 installs
 by
 answering
@@ -39,7 +41,8 @@ this
 device
 install
 Firefox
-Preview
+for
+Android
 in
 response
 to
@@ -65,7 +68,8 @@ SDK
 linked
 into
 Firefox
-Preview
+for
+Android
 and
 a
 data
@@ -137,7 +141,8 @@ android_sdk
 )
 .
 Firefox
-Preview
+for
+Android
 pulls
 in
 an
@@ -185,8 +190,6 @@ java
 Dependencies
 .
 kt
-#
-L39
 )
 contains
 the
