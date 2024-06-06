@@ -225,9 +225,6 @@ id
 url
 =
 resourceUrl
-allowContentMessaging
-=
-true
 onSuccess
 =
 any

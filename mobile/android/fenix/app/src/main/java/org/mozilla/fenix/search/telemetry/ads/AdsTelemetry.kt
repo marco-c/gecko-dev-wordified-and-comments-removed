@@ -334,7 +334,10 @@ val
 ADS_EXTENSION_ID
 =
 "
-mozacBrowserAds
+ads
+mozac
+.
+org
 "
 VisibleForTesting
 internal

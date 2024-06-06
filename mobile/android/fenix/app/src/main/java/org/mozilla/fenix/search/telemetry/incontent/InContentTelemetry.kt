@@ -889,7 +889,10 @@ val
 COOKIES_EXTENSION_ID
 =
 "
-BrowserCookiesExtension
+cookies
+mozac
+.
+org
 "
 VisibleForTesting
 internal

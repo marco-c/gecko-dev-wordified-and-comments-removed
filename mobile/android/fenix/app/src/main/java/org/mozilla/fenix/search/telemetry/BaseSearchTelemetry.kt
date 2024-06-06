@@ -843,9 +843,6 @@ url
 extensionInfo
 .
 resourceUrl
-allowContentMessaging
-=
-true
 onSuccess
 =
 {
