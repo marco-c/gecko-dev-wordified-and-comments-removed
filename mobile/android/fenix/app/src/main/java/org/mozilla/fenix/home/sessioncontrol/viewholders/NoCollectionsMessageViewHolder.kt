@@ -93,8 +93,6 @@ main
 .
 no_collections_message
 .
-view
-.
 *
 import
 org
@@ -111,7 +109,9 @@ mozilla
 .
 fenix
 .
-ext
+utils
+.
+view
 .
 ViewHolder
 import
@@ -148,8 +148,6 @@ view
 {
 init
 {
-view
-.
 add_tabs_to_collections_button
 .
 setOnClickListener
@@ -160,8 +158,6 @@ onAddTabsToCollectionTapped
 (
 )
 }
-view
-.
 add_tabs_to_collections_button
 .
 isVisible

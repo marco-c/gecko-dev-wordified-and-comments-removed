@@ -173,7 +173,9 @@ mozilla
 .
 fenix
 .
-ext
+utils
+.
+view
 .
 ViewHolder
 import
