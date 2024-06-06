@@ -590,7 +590,7 @@ verify
 {
 interactor
 .
-onMultiSelectClicked
+onTabSelected
 (
 tab
 holder

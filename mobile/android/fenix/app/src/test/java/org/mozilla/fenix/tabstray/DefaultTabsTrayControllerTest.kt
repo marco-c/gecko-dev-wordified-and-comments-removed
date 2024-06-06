@@ -4008,7 +4008,7 @@ waitUntilIdle
 )
 controller
 .
-handleMultiSelectClicked
+handleTabSelected
 (
 tab1
 "
@@ -4036,7 +4036,7 @@ tray
 }
 controller
 .
-handleMultiSelectClicked
+handleTabSelected
 (
 tab2
 "
@@ -4195,7 +4195,7 @@ waitUntilIdle
 )
 controller
 .
-handleMultiSelectClicked
+handleTabSelected
 (
 tab1
 "
@@ -4219,7 +4219,7 @@ tab1
 }
 controller
 .
-handleMultiSelectClicked
+handleTabSelected
 (
 tab2
 "
@@ -4393,7 +4393,7 @@ waitUntilIdle
 )
 controller
 .
-handleMultiSelectClicked
+handleTabSelected
 (
 tab2
 "
@@ -6081,6 +6081,11 @@ id
 privateTab
 "
 )
+trayStore
+=
+TabsTrayStore
+(
+)
 browserStore
 =
 BrowserStore
@@ -6371,6 +6376,11 @@ var
 navigateToHomeAndDeleteSessionInvoked
 =
 false
+trayStore
+=
+TabsTrayStore
+(
+)
 browserStore
 =
 BrowserStore

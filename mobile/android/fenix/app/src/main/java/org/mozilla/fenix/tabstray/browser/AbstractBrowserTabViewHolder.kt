@@ -1399,7 +1399,7 @@ setOnClickListener
 {
 interactor
 .
-onMultiSelectClicked
+onTabSelected
 (
 item
 featureName
