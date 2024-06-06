@@ -77,12 +77,6 @@ ConnectivityManager
 import
 androidx
 .
-annotation
-.
-StringRes
-import
-androidx
-.
 core
 .
 content
