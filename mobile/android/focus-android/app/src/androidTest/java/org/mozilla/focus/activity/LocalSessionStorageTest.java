@@ -475,7 +475,7 @@ finishAndRemoveTask
 Test
 public
 void
-testLocaleAndSessionStorageIsWrittenAndRemoved
+testLocalAndSessionStorageIsWrittenAndRemoved
 (
 )
 throws
