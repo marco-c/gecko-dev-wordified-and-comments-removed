@@ -1509,6 +1509,12 @@ context
 )
 )
 )
+TelemetryWrapper
+.
+recordActiveExperiments
+(
+context
+)
 }
 finally
 {

@@ -485,13 +485,6 @@ fretboard
 updateExperiments
 (
 )
-TelemetryWrapper
-.
-recordActiveExperiments
-(
-this
-FocusApplication
-)
 }
 }
 private
