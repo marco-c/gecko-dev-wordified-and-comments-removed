@@ -853,6 +853,7 @@ deleteSearchEngine
 (
 context
 engine
+isCustomSearchEngine
 )
 }
 }
@@ -1049,6 +1050,9 @@ Context
 engine
 :
 SearchEngine
+isCustomSearchEngine
+:
+Boolean
 )
 {
 val
@@ -1202,15 +1206,7 @@ name
 }
 if
 (
-CustomSearchEngineStore
-.
 isCustomSearchEngine
-(
-context
-engine
-.
-identifier
-)
 )
 {
 context
