@@ -4056,12 +4056,12 @@ showQuickSettingsDialog
 val
 session
 =
-requireNotNull
-(
 getSessionById
 (
 )
-)
+?
+:
+return
 launch
 {
 val
