@@ -171,14 +171,11 @@ support
 .
 *
 /
+const
 val
 webAuthFeature
 =
-Config
-.
-channel
-.
-isNightlyOrDebug
+true
 /
 *
 *
