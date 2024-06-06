@@ -1233,7 +1233,6 @@ action
 item
 )
 {
-is
 ToolbarMenu
 .
 Item
@@ -1248,7 +1247,6 @@ goBack
 invoke
 (
 )
-is
 ToolbarMenu
 .
 Item
@@ -1263,7 +1261,6 @@ goForward
 invoke
 (
 )
-is
 ToolbarMenu
 .
 Item
@@ -1278,7 +1275,6 @@ reload
 invoke
 (
 )
-is
 ToolbarMenu
 .
 Item
@@ -1301,7 +1297,6 @@ actionBrowserFragmentToSettingsFragment
 (
 )
 )
-is
 ToolbarMenu
 .
 Item
@@ -1344,7 +1339,6 @@ item
 .
 isChecked
 )
-is
 ToolbarMenu
 .
 Item
@@ -1375,7 +1369,6 @@ share
 this
 )
 }
-is
 ToolbarMenu
 .
 Item
@@ -1439,7 +1432,6 @@ apply
 (
 )
 }
-is
 ToolbarMenu
 .
 Item
@@ -1455,7 +1447,6 @@ launch
 invoke
 (
 )
-is
 ToolbarMenu
 .
 Item
