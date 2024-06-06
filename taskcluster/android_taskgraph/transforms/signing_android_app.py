@@ -128,16 +128,6 @@ in
 (
             
 "
-run
--
-on
--
-tasks
--
-for
-"
-            
-"
 signing
 -
 format
@@ -145,6 +135,14 @@ format
             
 "
 notify
+"
+            
+"
+run
+-
+on
+-
+projects
 "
             
 "
