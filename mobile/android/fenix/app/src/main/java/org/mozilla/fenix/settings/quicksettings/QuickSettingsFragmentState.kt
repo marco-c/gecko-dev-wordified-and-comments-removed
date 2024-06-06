@@ -510,7 +510,7 @@ R
 .
 drawable
 .
-ic_broken_lock
+mozac_ic_broken_lock
 )
 }
 /

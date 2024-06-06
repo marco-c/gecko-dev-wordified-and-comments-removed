@@ -69,6 +69,12 @@ toolbar
 import
 android
 .
+graphics
+.
+Color
+import
+android
+.
 view
 .
 HapticFeedbackConstants
@@ -737,7 +743,9 @@ securityIconSecure
 primaryTextColor
 securityIconInsecure
 =
-primaryTextColor
+Color
+.
+TRANSPARENT
 menu
 =
 primaryTextColor
