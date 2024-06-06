@@ -1358,11 +1358,12 @@ new
 one
 and
 remember
-to
-not
 show
 it
 again
+unless
+explicitly
+dismissed
 (
 )
 {
@@ -1400,6 +1401,11 @@ showTcpCfr
 (
 )
 verify
+(
+exactly
+=
+0
+)
 {
 settings
 .
