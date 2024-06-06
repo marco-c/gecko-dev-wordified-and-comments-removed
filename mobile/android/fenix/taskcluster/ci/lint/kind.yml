@@ -298,7 +298,7 @@ description
 :
 '
 Running
-tlint
+lint
 over
 all
 modules
@@ -311,7 +311,14 @@ gradlew
 gradlew
 :
 [
+'
 lintDebug
+'
+'
+app
+:
+lintGeckoNightlyDebug
+'
 ]
 treeherder
 :
