@@ -318,7 +318,16 @@ title
 "
 string
 /
-customize_toggle_pocket
+customize_toggle_pocket_2
+"
+android
+:
+summary
+=
+"
+string
+/
+customize_toggle_pocket_summary
 "
 app
 :
