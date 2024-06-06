@@ -209,26 +209,6 @@ push
 -
 apk
 "
-or
-\
-            
-task
-.
-kind
-in
-(
-'
-browsertime
-'
-'
-visual
--
-metrics
-'
-'
-raptor
-'
-)
     
 return
 [
@@ -304,6 +284,8 @@ parameters
 :
         
 return
+(
+            
 task
 .
 attributes
@@ -314,6 +296,28 @@ get
 nightly
 "
 False
+)
+and
+            
+task
+.
+kind
+not
+in
+(
+"
+browsertime
+"
+"
+visual
+-
+metrics
+"
+"
+raptor
+"
+)
+        
 )
     
 return

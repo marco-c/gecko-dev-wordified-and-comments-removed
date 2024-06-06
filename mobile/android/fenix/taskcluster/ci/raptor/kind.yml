@@ -82,6 +82,9 @@ defaults
 :
 attributes
 :
+nightly
+:
+true
 retrigger
 :
 true

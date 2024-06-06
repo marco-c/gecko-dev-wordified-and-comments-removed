@@ -126,6 +126,11 @@ job
 -
 template
 :
+attributes
+:
+nightly
+:
+true
 description
 :
 "

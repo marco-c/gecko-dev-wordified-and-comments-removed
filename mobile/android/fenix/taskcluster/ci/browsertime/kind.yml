@@ -92,6 +92,9 @@ artifact_prefix
 public
 /
 test_info
+nightly
+:
+true
 dependencies
 :
 geckoview
