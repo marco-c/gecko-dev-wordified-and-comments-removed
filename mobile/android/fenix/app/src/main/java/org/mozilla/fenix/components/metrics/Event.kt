@@ -841,6 +841,12 @@ Event
 (
 )
 object
+TopSiteOpenGoogle
+:
+Event
+(
+)
+object
 TopSiteOpenFrecent
 :
 Event
