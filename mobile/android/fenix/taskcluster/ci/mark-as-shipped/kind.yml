@@ -96,6 +96,8 @@ kind
 dependencies
 :
 -
+beetmover
+-
 push
 -
 apk
@@ -129,6 +131,11 @@ job
 -
 template
 :
+attributes
+:
+shipping_phase
+:
+ship
 description
 :
 Mark

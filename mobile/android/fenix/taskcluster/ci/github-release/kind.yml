@@ -125,6 +125,11 @@ job
 -
 template
 :
+attributes
+:
+shipping_phase
+:
+ship
 description
 :
 Create

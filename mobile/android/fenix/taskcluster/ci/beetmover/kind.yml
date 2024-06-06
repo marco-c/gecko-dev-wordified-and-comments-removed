@@ -140,6 +140,9 @@ manifests
 fenix_candidates
 .
 yml
+shipping_phase
+:
+ship
 treeherder
 :
 job

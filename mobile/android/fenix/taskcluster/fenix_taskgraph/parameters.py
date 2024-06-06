@@ -67,6 +67,9 @@ Any
 build
 "
 "
+promote
+"
+"
 ship
 "
 None

@@ -1229,6 +1229,9 @@ release
 type
 :
 beta
+shipping_phase
+:
+promote
 include
 -
 release
@@ -1310,6 +1313,9 @@ release
 type
 :
 beta
+shipping_phase
+:
+promote
 include
 -
 release
@@ -1366,6 +1372,9 @@ release
 type
 :
 release
+shipping_phase
+:
+promote
 include
 -
 release
@@ -1447,6 +1456,9 @@ release
 type
 :
 release
+shipping_phase
+:
+promote
 include
 -
 release

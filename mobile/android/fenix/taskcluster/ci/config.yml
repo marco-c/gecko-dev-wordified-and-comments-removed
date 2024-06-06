@@ -713,6 +713,15 @@ promotion
 :
 flavors
 :
+promote
+:
+target
+-
+tasks
+-
+method
+:
+promote
 ship
 :
 target
