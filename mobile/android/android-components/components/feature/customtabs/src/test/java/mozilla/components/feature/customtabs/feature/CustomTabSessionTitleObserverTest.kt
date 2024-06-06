@@ -883,6 +883,11 @@ override
 fun
 editMode
 (
+cursorPlacement
+:
+Toolbar
+.
+CursorPlacement
 )
 =
 Unit
