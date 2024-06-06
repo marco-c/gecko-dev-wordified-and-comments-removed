@@ -176,6 +176,13 @@ pref_key_homescreen_tips
 "
 android
 :
+defaultValue
+=
+"
+true
+"
+android
+:
 layout
 =
 "
