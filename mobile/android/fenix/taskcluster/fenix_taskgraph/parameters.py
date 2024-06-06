@@ -348,6 +348,29 @@ release_type
 release
 "
         
+elif
+version
+.
+is_release_candidate
+:
+            
+next_version
+=
+version
+.
+bump
+(
+"
+release_candidate_number
+"
+)
+            
+release_type
+=
+"
+release
+"
+        
 else
 :
             
