@@ -206,7 +206,7 @@ values
 .
 Handle
 changes
-bebtween
+between
 these
 state
 changes
