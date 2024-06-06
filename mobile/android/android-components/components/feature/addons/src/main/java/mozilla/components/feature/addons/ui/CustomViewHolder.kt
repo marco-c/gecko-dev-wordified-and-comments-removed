@@ -225,6 +225,10 @@ view
 :
 View
 val
+contentWrapperView
+:
+View
+val
 iconView
 :
 ImageView
