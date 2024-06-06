@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-581b66164866368a72e5f07bf16b1d4533b60bee
+6a4cf17f78da18c929b439aa6f1ad8ab7a9c14ab
 '
 #
 Fetch
@@ -186,11 +186,11 @@ fuchsia_version
 '
 version
 :
-16
+17
 .
-20231129
+20231211
 .
-1
+2
 .
 1
 '
@@ -433,7 +433,7 @@ chromium
 src
 /
 base
-2115cbaabb60f690e0321357ae4c8e96add794e0
+83ef825fdffd1b0328d9ea11d0fb2674a40f27ea
 '
 '
 src
@@ -457,7 +457,7 @@ chromium
 src
 /
 build
-7d13bd8a25fb4ef06e5667975d1330a3ab7157e9
+76690ca09eea2b31bc1b3249d5c3f3aa0504a742
 '
 '
 src
@@ -577,7 +577,7 @@ chromium
 src
 /
 ios
-ddccac870fbc27d9b03fd804ec1cb0d513b2e054
+94f1f6b565c376404f9832050998e07e1c89b38e
 '
 '
 condition
@@ -609,7 +609,7 @@ chromium
 src
 /
 testing
-b4b56c819a5fdd7c398d1b3f784944976decb4da
+62d07fbe1148108a773d4fa79477dd2590bf9755
 '
 '
 src
@@ -633,7 +633,7 @@ chromium
 src
 /
 third_party
-3891a6c93e518b1d60615af8e655d9cb2589aff7
+62c3417e4cd2217f00a2fabfef0a507893d857d8
 '
 '
 src
@@ -1483,7 +1483,7 @@ com
 catapult
 .
 git
-6edbd6b5ca136a765dedf7f17c0b52ce3972465c
+38c800656ce8eea67d38f1ff5922f870fd128ad7
 '
 '
 src
@@ -2640,7 +2640,7 @@ com
 aom
 .
 git
-845af45dfea01ed5adfbe6930b7a58e221d0f67d
+2780992a7c78116a37022ea1ef7b592efa8e8c05
 '
 '
 src
@@ -2711,7 +2711,7 @@ external
 perfetto
 .
 git
-84dc2c6299f17590fd335781206a17a5f032ca33
+d3be34f6e8f4cd1594545bd91679adfd08d84bee
 '
 '
 src
@@ -3171,7 +3171,7 @@ chromium
 src
 /
 tools
-88117cae38c2b7b2c76f96822580d889a127c8e7
+c48daaa413e97d6c7a91b317c55d84dd9694bfdd
 '
 '
 src
