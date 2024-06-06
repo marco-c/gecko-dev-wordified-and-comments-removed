@@ -737,7 +737,6 @@ size
 assertEquals
 (
 "
-lasagna
 Lasagna
 Come
 Out
@@ -783,7 +782,6 @@ icon
 assertEquals
 (
 "
-las
 Las
 Vegas
 "
@@ -999,7 +997,6 @@ size
 assertEquals
 (
 "
-las
 Las
 Vegas
 "
@@ -1233,7 +1230,6 @@ size
 assertEquals
 (
 "
-lasagna
 Lasagna
 Come
 Out
