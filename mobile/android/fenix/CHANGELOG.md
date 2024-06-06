@@ -577,6 +577,17 @@ Adds
 Onboarding
 for
 Fenix
+-
+#
+2531
+-
+Adds
+link
+to
+privacy
+policy
+in
+settings
 #
 #
 #
