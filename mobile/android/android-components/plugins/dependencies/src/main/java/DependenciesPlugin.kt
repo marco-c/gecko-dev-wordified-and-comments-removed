@@ -145,7 +145,7 @@ kotlin
 "
 1
 .
-8
+9
 .
 22
 "
@@ -158,7 +158,7 @@ coroutines
 .
 7
 .
-2
+3
 "
 const
 val
@@ -167,9 +167,9 @@ serialization
 "
 1
 .
-5
+6
 .
-1
+0
 "
 const
 val
@@ -453,7 +453,7 @@ ksp
 .
 0
 .
-11
+17
 "
 val
 ksp_plugin
@@ -520,7 +520,7 @@ compose_compiler
 "
 1
 .
-4
+5
 .
 8
 "
