@@ -650,8 +650,14 @@ yml
 else
 echo
 "
-NOT
-FOUND
+FAILURE
+:
+flank
+config
+file
+not
+found
+!
 "
 exitcode
 =
@@ -739,7 +745,7 @@ ne
 then
 echo
 "
-ERROR
+FAILURE
 :
 UI
 test
