@@ -2229,13 +2229,11 @@ startPeriodicStoriesRefresh
 }
 if
 (
-FeatureFlags
-.
-isPocketSponsoredStoriesFeatureEnabled
+settings
 (
-this
-HomeActivity
 )
+.
+showPocketSponsoredStories
 )
 {
 components
