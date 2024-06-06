@@ -217,7 +217,7 @@ R
 .
 attr
 .
-browserToolbarIcons
+browserToolbarMenuIcons
 context
 )
 )
@@ -268,7 +268,7 @@ R
 .
 attr
 .
-browserToolbarIcons
+browserToolbarMenuIcons
 context
 )
 )
@@ -322,7 +322,7 @@ R
 .
 attr
 .
-browserToolbarIcons
+browserToolbarMenuIcons
 context
 )
 )
