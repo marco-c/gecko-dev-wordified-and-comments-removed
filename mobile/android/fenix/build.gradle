@@ -189,7 +189,7 @@ check
 google
 maven
 for
-mozilla
+google
 deps
 .
 includeGroupByRegex
@@ -537,7 +537,7 @@ check
 google
 maven
 for
-mozilla
+google
 deps
 .
 includeGroupByRegex
