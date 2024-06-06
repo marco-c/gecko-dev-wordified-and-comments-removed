@@ -324,9 +324,6 @@ color
 .
 search_text
 )
-textSize
-=
-toolbarTextSizeSp
 hint
 =
 context
@@ -521,11 +518,6 @@ displayMode
 companion
 object
 {
-const
-val
-toolbarTextSizeSp
-=
-14f
 const
 val
 browserActionMarginDp
