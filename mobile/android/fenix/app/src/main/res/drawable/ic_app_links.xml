@@ -137,9 +137,8 @@ android
 fillColor
 =
 "
-color
-/
-library_app_links_icon
+?
+primaryText
 "
 android
 :
