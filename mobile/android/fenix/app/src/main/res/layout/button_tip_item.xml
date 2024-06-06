@@ -272,7 +272,7 @@ textColor
 "
 color
 /
-primary_text_dark_theme
+photonLightGrey05
 "
 app
 :
@@ -281,7 +281,7 @@ drawableTint
 "
 color
 /
-primary_text_dark_theme
+photonLightGrey05
 "
 app
 :
@@ -366,7 +366,7 @@ tint
 "
 color
 /
-primary_text_dark_theme
+photonLightGrey05
 "
 app
 :
@@ -456,7 +456,7 @@ textColor
 "
 color
 /
-primary_text_dark_theme
+photonLightGrey05
 "
 app
 :
@@ -547,7 +547,7 @@ textColor
 "
 color
 /
-primary_text_dark_theme
+photonLightGrey05
 "
 app
 :

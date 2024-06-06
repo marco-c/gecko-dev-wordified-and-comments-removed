@@ -1374,7 +1374,7 @@ primary_text_normal_theme
 >
 color
 /
-primary_text_dark_theme
+fx_mobile_text_color_primary
 <
 /
 color
@@ -2519,7 +2519,7 @@ search_widget_mic_fill_color
 >
 color
 /
-primary_text_dark_theme
+photonLightGrey05
 <
 /
 color
@@ -2534,7 +2534,7 @@ search_widget_text
 >
 color
 /
-primary_text_dark_theme
+fx_mobile_text_color_primary
 <
 /
 color
@@ -2559,7 +2559,7 @@ mozac_feature_readerview_text_color
 >
 color
 /
-primary_text_dark_theme
+fx_mobile_text_color_primary
 <
 /
 color
@@ -2584,7 +2584,7 @@ mozac_ui_tabcounter_default_tint
 >
 color
 /
-primary_text_dark_theme
+photonLightGrey05
 <
 /
 color
@@ -2599,7 +2599,7 @@ mozac_ui_tabcounter_default_text
 >
 color
 /
-primary_text_dark_theme
+fx_mobile_text_color_primary
 <
 /
 color
