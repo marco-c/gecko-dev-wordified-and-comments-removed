@@ -437,9 +437,9 @@ mozilla_glean
 "
 52
 .
-3
+4
 .
-0
+2
 "
 const
 val
