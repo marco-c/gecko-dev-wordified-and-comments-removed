@@ -2222,7 +2222,7 @@ R
 .
 string
 .
-preference_security_biometric_summary
+preference_security_biometric_summary2
 )
 privacySettingsList
 .
