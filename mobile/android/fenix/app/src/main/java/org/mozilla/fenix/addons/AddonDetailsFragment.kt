@@ -683,12 +683,11 @@ author
 author
 .
 name
-+
-"
-\
-n
-"
 }
+.
+trim
+(
+)
 }
 private
 fun
