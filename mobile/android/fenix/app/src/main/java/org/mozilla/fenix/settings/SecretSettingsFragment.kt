@@ -537,7 +537,6 @@ onPreferenceTreeClick
 preference
 :
 Preference
-?
 )
 :
 Boolean
@@ -545,7 +544,6 @@ Boolean
 when
 (
 preference
-?
 .
 key
 )
