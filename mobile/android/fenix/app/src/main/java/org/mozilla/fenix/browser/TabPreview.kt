@@ -227,7 +227,7 @@ kotlin
 .
 math
 .
-max
+min
 class
 TabPreview
 JvmOverloads
@@ -537,7 +537,7 @@ previewThumbnail
 val
 thumbnailSize
 =
-max
+min
 (
 previewThumbnail
 .
