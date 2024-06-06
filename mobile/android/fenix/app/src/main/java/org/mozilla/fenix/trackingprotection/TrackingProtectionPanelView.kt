@@ -1869,7 +1869,6 @@ onInitializeAccessibilityNodeInfo
 host
 :
 View
-?
 info
 :
 AccessibilityNodeInfoCompat
