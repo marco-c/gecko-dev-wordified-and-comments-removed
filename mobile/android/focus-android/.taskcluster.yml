@@ -1856,9 +1856,7 @@ app
 -
 focus
 -
-armeabi
--
-v7a
+arm
 -
 release
 -
@@ -1896,9 +1894,7 @@ app
 -
 klar
 -
-armeabi
--
-v7a
+arm
 -
 release
 -
@@ -2568,9 +2564,7 @@ app
 -
 focus
 -
-armeabi
--
-v7a
+arm
 -
 nightly
 -
@@ -2608,9 +2602,7 @@ app
 -
 klar
 -
-armeabi
--
-v71
+arm
 -
 nightly
 -
