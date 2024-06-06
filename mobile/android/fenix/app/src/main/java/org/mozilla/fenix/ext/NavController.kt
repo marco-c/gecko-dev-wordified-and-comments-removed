@@ -418,6 +418,12 @@ navigateFrom
 "
 )
 )
+crashReporter
+.
+submitCaughtException
+(
+e
+)
 }
 }
 /
