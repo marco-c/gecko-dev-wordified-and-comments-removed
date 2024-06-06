@@ -814,6 +814,9 @@ Suppress
 "
 TooManyFunctions
 "
+"
+LongParameterList
+"
 )
 class
 DefaultTabsTrayController

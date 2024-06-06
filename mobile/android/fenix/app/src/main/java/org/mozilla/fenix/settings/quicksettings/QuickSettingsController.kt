@@ -711,6 +711,9 @@ Suppress
 "
 TooManyFunctions
 "
+"
+LongParameterList
+"
 )
 class
 DefaultQuickSettingsController
