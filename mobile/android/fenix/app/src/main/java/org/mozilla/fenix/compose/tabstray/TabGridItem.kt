@@ -1257,13 +1257,6 @@ current
 screenWidthDp
 .
 dp
-backgroundColor
-=
-FirefoxTheme
-.
-colors
-.
-layer2
 modifier
 =
 Modifier
