@@ -6428,7 +6428,7 @@ TmmbItem
 candidates
 ;
 Timestamp
-timeout
+now
 =
 clock_
 -
@@ -6436,8 +6436,6 @@ clock_
 CurrentTime
 (
 )
--
-kTmmbrTimeoutInterval
 ;
 for
 (
@@ -6480,14 +6478,16 @@ end
 {
 if
 (
+now
+-
 it
 -
 >
 second
 .
 last_updated
-<
-timeout
+>
+kTmmbrTimeoutInterval
 )
 {
 it
