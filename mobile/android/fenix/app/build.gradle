@@ -6153,10 +6153,6 @@ androidx_core_ktx
 implementation
 FenixDependencies
 .
-androidx_tracing
-implementation
-FenixDependencies
-.
 androidx_transition
 implementation
 FenixDependencies

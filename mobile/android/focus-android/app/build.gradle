@@ -1528,10 +1528,6 @@ androidx_splashscreen
 implementation
 FocusDependencies
 .
-androidx_tracing
-implementation
-FocusDependencies
-.
 androidx_transition
 implementation
 FocusDependencies
