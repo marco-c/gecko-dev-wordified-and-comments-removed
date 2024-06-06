@@ -18927,10 +18927,10 @@ name
 onboarding_tracking_protection_standard_button_2
 "
 >
-Padr
-o
+Normal
 (
-predefinido
+padr
+o
 )
 <
 /
@@ -20598,10 +20598,10 @@ name
 preference_enhanced_tracking_protection_standard_default_1
 "
 >
-Padr
-o
+Normal
 (
-predefinido
+padr
+o
 )
 <
 /
@@ -20678,8 +20678,7 @@ bloqueado
 pela
 prote
 o
-padr
-o
+normal
 contra
 rastreamento
 <
