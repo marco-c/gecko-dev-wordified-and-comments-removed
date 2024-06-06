@@ -1164,13 +1164,6 @@ verifyTabTrayNotShowingStateHalfExpanded
 (
 )
 {
-homeScreen
-{
-}
-.
-dismissOnboarding
-(
-)
 navigationToolbar
 {
 }
