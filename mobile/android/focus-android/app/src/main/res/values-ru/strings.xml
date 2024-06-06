@@ -454,7 +454,6 @@ name
 feedback_erase2
 "
 >
--
 <
 /
 string
@@ -1370,7 +1369,6 @@ name
 notification_erase_text
 "
 >
--
 <
 /
 string
@@ -1548,7 +1546,6 @@ name
 shortcut_erase_long_label
 "
 >
--
 <
 /
 string
@@ -2014,7 +2011,6 @@ ul
 <
 li
 >
--
 <
 /
 li
@@ -2312,7 +2308,6 @@ name
 preference_category_web_content
 "
 >
--
 <
 /
 string
@@ -5339,7 +5334,6 @@ name
 accessibility_announcement_loading_finished
 "
 >
--
 <
 /
 string
@@ -5490,7 +5484,6 @@ name
 content_description_reload
 "
 >
--
 <
 /
 string
@@ -7354,7 +7347,6 @@ name
 tabs_tray_action_erase
 "
 >
--
 <
 /
 string
@@ -7932,6 +7924,7 @@ s
 >
 GNU
 3
+-
 <
 /
 a
@@ -8499,7 +8492,6 @@ name
 custom_tab_copy_url_action
 "
 >
-URL
 <
 /
 string
@@ -9775,7 +9767,6 @@ name
 preference_phone_feature_media_key_system_access
 "
 >
-DRM
 <
 /
 string
