@@ -513,6 +513,13 @@ updateTabUI
 (
 )
 {
+launch
+(
+Dispatchers
+.
+Main
+)
+{
 collection_tab_hostname
 .
 text
@@ -523,7 +530,11 @@ url
 .
 urlToTrimmedHost
 (
+view
+.
+context
 )
+}
 collection_tab_title
 .
 text
