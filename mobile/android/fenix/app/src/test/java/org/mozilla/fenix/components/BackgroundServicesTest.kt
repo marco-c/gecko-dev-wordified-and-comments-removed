@@ -356,6 +356,9 @@ override
 fun
 makePush
 (
+pushConfig
+:
+PushConfig
 )
 =
 mockk
