@@ -349,6 +349,8 @@ clearNotifications
 if
 (
 clearButton
+(
+)
 .
 exists
 (
@@ -388,6 +390,8 @@ button
 "
 )
 clearButton
+(
+)
 .
 click
 (
@@ -416,6 +420,8 @@ scrollToEnd
 if
 (
 clearButton
+(
+)
 .
 exists
 (
@@ -455,6 +461,8 @@ button
 "
 )
 clearButton
+(
+)
 .
 click
 (
@@ -1019,6 +1027,8 @@ while
 (
 !
 notificationHeader
+(
+)
 .
 exists
 (
@@ -1048,6 +1058,8 @@ scrollToEnd
 if
 (
 notificationHeader
+(
+)
 .
 exists
 (
@@ -1088,6 +1100,8 @@ notification
 "
 )
 notificationHeader
+(
+)
 .
 click
 (
@@ -2238,8 +2252,10 @@ setAsVerticalList
 (
 )
 private
-val
+fun
 notificationHeader
+(
+)
 =
 mDevice
 .
@@ -2323,8 +2339,10 @@ action
 )
 }
 private
-val
+fun
 clearButton
+(
+)
 =
 mDevice
 .
