@@ -1528,9 +1528,9 @@ ComponentsDependencies
 .
 androidx_palette
 implementation
-FocusDependencies
+ComponentsDependencies
 .
-androidx_preference
+androidx_preferences
 implementation
 ComponentsDependencies
 .
