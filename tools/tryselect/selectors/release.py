@@ -543,6 +543,28 @@ format
 (
 app_version
 )
+        
+"
+mobile
+/
+android
+/
+version
+.
+txt
+"
+:
+"
+{
+}
+\
+n
+"
+.
+format
+(
+version
+)
     
 }
     
