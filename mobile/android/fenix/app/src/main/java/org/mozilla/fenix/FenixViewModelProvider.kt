@@ -83,12 +83,6 @@ lifecycle
 .
 ViewModelProvider
 import
-androidx
-.
-lifecycle
-.
-ViewModelProviders
-import
 org
 .
 mozilla
@@ -234,9 +228,7 @@ fetchViewModel
 T
 {
 return
-ViewModelProviders
-.
-of
+ViewModelProvider
 (
 fragment
 factory

@@ -87,12 +87,6 @@ androidx
 .
 lifecycle
 .
-ViewModelProviders
-import
-androidx
-.
-lifecycle
-.
 get
 import
 mozilla
@@ -201,9 +195,7 @@ StoreProvider
 T
 >
 =
-ViewModelProviders
-.
-of
+ViewModelProvider
 (
 fragment
 factory

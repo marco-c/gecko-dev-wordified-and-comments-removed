@@ -107,7 +107,7 @@ androidx
 .
 lifecycle
 .
-ViewModelProviders
+ViewModelProvider
 import
 androidx
 .
@@ -333,9 +333,7 @@ activity
 .
 run
 {
-ViewModelProviders
-.
-of
+ViewModelProvider
 (
 this
 )
