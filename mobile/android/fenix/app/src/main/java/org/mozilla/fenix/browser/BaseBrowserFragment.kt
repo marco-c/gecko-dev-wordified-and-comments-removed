@@ -2018,6 +2018,16 @@ session
 Session
 )
 {
+(
+activity
+as
+HomeActivity
+)
+.
+updateThemeForSession
+(
+session
+)
 if
 (
 !
