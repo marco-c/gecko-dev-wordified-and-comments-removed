@@ -1519,8 +1519,6 @@ geckoview
 fat
 -
 aar
--
-shippable
 /
 opt
 disable
@@ -1639,8 +1637,6 @@ geckoview
 fat
 -
 aar
--
-shippable
 /
 opt
 disable
@@ -2434,8 +2430,6 @@ geckoview
 fat
 -
 aar
--
-shippable
 /
 opt
 run
@@ -2704,8 +2698,6 @@ geckoview
 fat
 -
 aar
--
-shippable
 /
 opt
 apk
