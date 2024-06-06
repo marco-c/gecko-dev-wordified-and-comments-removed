@@ -4594,17 +4594,7 @@ test
 -
 platform
 :
-windows
-(
-10
--
-64
--
-ref
--
-hw
-|
-11
+windows11
 -
 64
 -
@@ -4613,7 +4603,6 @@ hw
 hw
 -
 ref
-)
 .
 *
 :
