@@ -919,6 +919,15 @@ context
 settings
 =
 settings
+metrics
+=
+context
+.
+components
+.
+analytics
+.
+metrics
 )
 {
 browserToolbarView
