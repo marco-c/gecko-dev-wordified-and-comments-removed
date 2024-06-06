@@ -434,6 +434,14 @@ all_layers
 ;
 s
 .
+frame_size_limit
+=
+16384
+*
+16384
+;
+s
+.
 operating_point
 =
 31
