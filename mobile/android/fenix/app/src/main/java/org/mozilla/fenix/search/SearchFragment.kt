@@ -1005,9 +1005,9 @@ awesomeBarView
 =
 AwesomeBarView
 (
-view
-.
-scrollable_area
+requireContext
+(
+)
 searchInteractor
 view
 .
