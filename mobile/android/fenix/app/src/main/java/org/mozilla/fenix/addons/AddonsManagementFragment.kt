@@ -653,6 +653,9 @@ this
 AddonsManagementFragment
 addons
 )
+isInstallationInProgress
+=
+false
 view
 .
 add_ons_progress_bar
@@ -705,6 +708,9 @@ string
 mozac_feature_addons_failed_to_query_add_ons
 )
 )
+isInstallationInProgress
+=
+false
 view
 .
 add_ons_progress_bar
