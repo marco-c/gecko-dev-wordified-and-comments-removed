@@ -1732,6 +1732,17 @@ run
 profileserver
 .
 sh
+run
+-
+on
+-
+projects
+:
+[
+trunk
+-
+only
+]
 fetches
 :
 toolchain

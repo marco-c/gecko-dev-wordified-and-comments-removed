@@ -2822,6 +2822,17 @@ as
 milestone
 =
 release
+run
+-
+on
+-
+projects
+:
+[
+trunk
+-
+only
+]
 fetches
 :
 toolchain
