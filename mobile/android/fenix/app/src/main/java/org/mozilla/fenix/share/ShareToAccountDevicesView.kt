@@ -162,6 +162,10 @@ onSignIn
 (
 )
 fun
+onReauth
+(
+)
+fun
 onAddNewDevice
 (
 )
