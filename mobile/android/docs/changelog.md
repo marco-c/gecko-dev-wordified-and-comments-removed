@@ -193,6 +193,14 @@ isNotificationChannelEnabled
 )
 .
 *
+Removes
+deprecated
+BackHandler
+use
+UserInteractionHandler
+instead
+.
+*
 *
 *
 feature
