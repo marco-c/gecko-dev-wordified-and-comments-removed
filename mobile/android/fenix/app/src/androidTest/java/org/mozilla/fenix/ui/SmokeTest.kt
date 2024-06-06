@@ -5263,8 +5263,7 @@ clickAddAutomaticallyButton
 openHomeScreenShortcut
 (
 "
-yay
-app
+TEST_APP
 "
 )
 {
