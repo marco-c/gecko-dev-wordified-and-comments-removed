@@ -958,12 +958,13 @@ apply
 (
 )
 }
-fun
+val
 showSearchSuggestions
-(
-)
 :
 Boolean
+get
+(
+)
 =
 preferences
 .

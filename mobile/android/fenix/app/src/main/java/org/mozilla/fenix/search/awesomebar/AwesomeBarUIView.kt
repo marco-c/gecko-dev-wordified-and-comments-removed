@@ -703,8 +703,6 @@ context
 )
 .
 showSearchSuggestions
-(
-)
 )
 {
 val
@@ -875,8 +873,6 @@ context
 )
 .
 showSearchSuggestions
-(
-)
 )
 {
 view
@@ -949,8 +945,6 @@ context
 )
 .
 showSearchSuggestions
-(
-)
 )
 {
 view
