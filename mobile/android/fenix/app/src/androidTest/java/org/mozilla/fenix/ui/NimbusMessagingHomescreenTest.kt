@@ -383,15 +383,10 @@ MessageData
 (
 action
 =
-Res
-.
-string
-(
 "
 TEST
 ACTION
 "
-)
 style
 =
 "
