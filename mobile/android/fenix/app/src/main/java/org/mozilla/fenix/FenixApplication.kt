@@ -630,6 +630,13 @@ settings
 )
 .
 isExperimentationEnabled
+&
+&
+Config
+.
+channel
+.
+isReleaseOrBeta
 )
 {
 Experiments
