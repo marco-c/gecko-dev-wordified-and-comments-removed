@@ -1739,7 +1739,7 @@ browser_menu_open_app_link
 >
 Otvori
 u
-programu
+aplikaciji
 <
 /
 string
@@ -2843,7 +2843,7 @@ preferences_set_as_default_browser
 >
 Postavi
 kao
-standardni
+zadani
 preglednik
 <
 /
@@ -3392,7 +3392,7 @@ name
 preferences_data_collection
 "
 >
-Zbirka
+Skupljanje
 podataka
 <
 /
@@ -3744,7 +3744,7 @@ preferences_open_links_in_apps
 Otvori
 poveznice
 u
-programima
+aplikacijama
 <
 /
 string
@@ -10318,8 +10318,8 @@ mogu
 e
 dijeliti
 s
-ovim
-programom
+ovom
+aplikacijom
 <
 /
 string
