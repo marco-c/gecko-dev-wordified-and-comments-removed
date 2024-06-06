@@ -111,7 +111,7 @@ fenix
 .
 settings
 .
-creditcards
+autofill
 .
 AutofillFragmentState
 import

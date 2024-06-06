@@ -65,7 +65,7 @@ fenix
 .
 settings
 .
-creditcards
+autofill
 import
 mozilla
 .
