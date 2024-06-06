@@ -148,6 +148,7 @@ QuickSettingsController
 :
 WebsitePermissionInteractor
 TrackingProtectionInteractor
+WebSiteInfoInteractor
 {
 override
 fun
@@ -218,6 +219,18 @@ onBlockedItemsClicked
 controller
 .
 handleBlockedItemsClicked
+(
+)
+}
+override
+fun
+onConnectionDetailsClicked
+(
+)
+{
+controller
+.
+handleConnectionDetailsClicked
 (
 )
 }
