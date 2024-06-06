@@ -60,8 +60,6 @@ in
 "
 treeherder
 .
-job
--
 symbol
 "
             

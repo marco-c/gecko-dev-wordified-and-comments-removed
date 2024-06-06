@@ -68,8 +68,6 @@ type
 "
 treeherder
 .
-job
--
 symbol
 "
         
