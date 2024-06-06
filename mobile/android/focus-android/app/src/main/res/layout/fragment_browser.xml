@@ -258,13 +258,12 @@ widget
 ResizableKeyboardCoordinatorLayout
 app
 :
-viewToHideWhenActivated
+viewsToHideWhenActivated
 =
 "
-+
-id
+array
 /
-erase
+viewsToHide
 "
 android
 :
