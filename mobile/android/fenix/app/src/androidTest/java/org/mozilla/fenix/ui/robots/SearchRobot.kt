@@ -880,7 +880,7 @@ R
 .
 id
 .
-searchScanButton
+search_scan_button
 )
 )
 )

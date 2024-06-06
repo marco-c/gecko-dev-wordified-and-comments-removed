@@ -928,7 +928,7 @@ onViewCreated
 view
 savedInstanceState
 )
-searchScanButton
+search_scan_button
 .
 visibility
 =
@@ -987,7 +987,7 @@ onScanResult
 result
 -
 >
-searchScanButton
+search_scan_button
 .
 isChecked
 =
@@ -1176,7 +1176,7 @@ view
 )
 view
 .
-searchScanButton
+search_scan_button
 .
 setOnClickListener
 {
@@ -1213,6 +1213,20 @@ R
 id
 .
 container
+)
+}
+view
+.
+back_button
+.
+setOnClickListener
+{
+findNavController
+(
+)
+.
+popBackStack
+(
 )
 }
 val
@@ -1669,7 +1683,7 @@ onBackPressed
 view
 ?
 .
-searchScanButton
+search_scan_button
 ?
 .
 isChecked
@@ -1850,7 +1864,7 @@ else
 view
 ?
 .
-searchScanButton
+search_scan_button
 ?
 .
 isChecked

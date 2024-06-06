@@ -291,7 +291,7 @@ toolbar_wrapper
 .
 id
 BOTTOM
-pillWrapper
+pill_wrapper
 .
 id
 TOP
@@ -331,7 +331,7 @@ reverseLayout
 true
 connect
 (
-pillWrapper
+pill_wrapper
 .
 id
 BOTTOM
@@ -440,7 +440,7 @@ awesomeBar
 .
 id
 BOTTOM
-pillWrapper
+pill_wrapper
 .
 id
 TOP
@@ -460,7 +460,7 @@ reverseLayout
 false
 connect
 (
-pillWrapper
+pill_wrapper
 .
 id
 BOTTOM

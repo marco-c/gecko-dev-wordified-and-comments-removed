@@ -959,7 +959,7 @@ searchSuggestionProviderMap
 HashMap
 (
 )
-searchShortcutsButton
+search_shortcuts_button
 .
 setOnClickListener
 {
@@ -1132,7 +1132,7 @@ showShortcuts
 searchState
 .
 showSearchShortcuts
-searchShortcutsButton
+search_shortcuts_button
 ?
 .
 isChecked
@@ -1156,7 +1156,7 @@ R
 attr
 .
 primaryText
-searchShortcutsButton
+search_shortcuts_button
 .
 compoundDrawables
 [
