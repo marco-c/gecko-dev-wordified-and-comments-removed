@@ -222,9 +222,7 @@ components
 .
 core
 .
-topSiteStorage
-.
-storage
+pinnedSiteStorage
 )
 .
 migrateLogins
