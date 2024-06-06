@@ -1819,6 +1819,7 @@ settings
 (
 )
 metrics
+crashReporter
 )
 ThumbnailsMiddleware
 (
