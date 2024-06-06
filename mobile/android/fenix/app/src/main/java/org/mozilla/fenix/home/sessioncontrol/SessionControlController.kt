@@ -3030,6 +3030,13 @@ settings
 showCollectionsPlaceholderOnHome
 =
 false
+Collections
+.
+placeholderCancel
+.
+record
+(
+)
 appStore
 .
 dispatch
