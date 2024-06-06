@@ -547,6 +547,10 @@ binding
 reviewCount
 .
 text
+.
+toString
+(
+)
 )
 binding
 .
@@ -1049,6 +1053,10 @@ binding
 authorText
 .
 text
+.
+toString
+(
+)
 )
 assertEquals
 (
