@@ -1281,7 +1281,7 @@ fenix
 .
 wallpapers
 .
-Wallpaper
+WallpaperManager
 import
 org
 .
@@ -2624,9 +2624,9 @@ wallpaperManger
 currentWallpaper
 !
 =
-Wallpaper
+WallpaperManager
 .
-NONE
+defaultWallpaper
 )
 {
 wallpaperManger
