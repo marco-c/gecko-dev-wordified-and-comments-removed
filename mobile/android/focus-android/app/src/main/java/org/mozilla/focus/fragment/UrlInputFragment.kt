@@ -377,6 +377,16 @@ focus
 .
 ext
 .
+isSearch
+import
+org
+.
+mozilla
+.
+focus
+.
+ext
+.
 requireComponents
 import
 org
