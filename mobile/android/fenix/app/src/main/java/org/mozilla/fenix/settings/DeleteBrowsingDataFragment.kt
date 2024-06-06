@@ -759,7 +759,7 @@ deleteSelected
 )
 {
 val
-openTabs
+openTabsChecked
 =
 view
 !
@@ -771,7 +771,7 @@ open_tabs_item
 .
 isChecked
 val
-browsingData
+browsingDataChecked
 =
 view
 !
@@ -783,7 +783,7 @@ browsing_data_item
 .
 isChecked
 val
-collections
+collectionsChecked
 =
 view
 !
@@ -818,7 +818,7 @@ Unit
 )
 if
 (
-openTabs
+openTabsChecked
 )
 jobs
 .
@@ -830,7 +830,7 @@ deleteTabsAsync
 )
 if
 (
-browsingData
+browsingDataChecked
 )
 jobs
 .
@@ -842,7 +842,7 @@ deleteBrowsingDataAsync
 )
 if
 (
-collections
+collectionsChecked
 )
 jobs
 .
