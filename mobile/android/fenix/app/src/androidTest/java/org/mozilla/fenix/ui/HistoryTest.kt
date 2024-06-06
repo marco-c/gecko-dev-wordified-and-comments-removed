@@ -481,6 +481,9 @@ openThreeDotMenu
 .
 openHistory
 {
+verifyHistoryListExists
+(
+)
 historyListIdlingResource
 =
 RecyclerViewIdlingResource
@@ -570,6 +573,9 @@ openThreeDotMenu
 .
 openHistory
 {
+verifyHistoryListExists
+(
+)
 historyListIdlingResource
 =
 RecyclerViewIdlingResource
@@ -652,6 +658,9 @@ openThreeDotMenu
 .
 openHistory
 {
+verifyHistoryListExists
+(
+)
 historyListIdlingResource
 =
 RecyclerViewIdlingResource
@@ -743,6 +752,9 @@ openThreeDotMenu
 .
 openHistory
 {
+verifyHistoryListExists
+(
+)
 historyListIdlingResource
 =
 RecyclerViewIdlingResource
@@ -839,6 +851,9 @@ openThreeDotMenu
 .
 openHistory
 {
+verifyHistoryListExists
+(
+)
 historyListIdlingResource
 =
 RecyclerViewIdlingResource
@@ -935,6 +950,9 @@ openThreeDotMenu
 .
 openHistory
 {
+verifyHistoryListExists
+(
+)
 historyListIdlingResource
 =
 RecyclerViewIdlingResource
@@ -1035,6 +1053,9 @@ openThreeDotMenu
 .
 openHistory
 {
+verifyHistoryListExists
+(
+)
 historyListIdlingResource
 =
 RecyclerViewIdlingResource
@@ -1138,6 +1159,9 @@ openThreeDotMenu
 .
 openHistory
 {
+verifyHistoryListExists
+(
+)
 historyListIdlingResource
 =
 RecyclerViewIdlingResource
@@ -1247,6 +1271,9 @@ openThreeDotMenu
 .
 openHistory
 {
+verifyHistoryListExists
+(
+)
 historyListIdlingResource
 =
 RecyclerViewIdlingResource
@@ -1343,6 +1370,9 @@ openThreeDotMenu
 .
 openHistory
 {
+verifyHistoryListExists
+(
+)
 historyListIdlingResource
 =
 RecyclerViewIdlingResource
@@ -1465,6 +1495,9 @@ openThreeDotMenu
 .
 openHistory
 {
+verifyHistoryListExists
+(
+)
 historyListIdlingResource
 =
 RecyclerViewIdlingResource
@@ -1579,6 +1612,9 @@ openThreeDotMenu
 .
 openHistory
 {
+verifyHistoryListExists
+(
+)
 historyListIdlingResource
 =
 RecyclerViewIdlingResource
