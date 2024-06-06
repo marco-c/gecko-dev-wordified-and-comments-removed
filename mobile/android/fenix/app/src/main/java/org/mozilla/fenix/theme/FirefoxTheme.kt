@@ -401,7 +401,7 @@ iconDisabled
 =
 PhotonColors
 .
-LightGrey70
+LightGrey05A40
 iconInverted
 =
 PhotonColors
@@ -648,7 +648,7 @@ iconDisabled
 =
 PhotonColors
 .
-LightGrey70
+DarkGrey90A40
 iconInverted
 =
 PhotonColors
