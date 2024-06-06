@@ -389,11 +389,6 @@ tabHistoryRecyclerView
 layoutManager
 =
 layoutManager
-tabHistoryRecyclerView
-.
-itemAnimator
-=
-null
 }
 fun
 updateState

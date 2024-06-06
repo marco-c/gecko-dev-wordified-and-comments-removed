@@ -165,7 +165,7 @@ slot
 )
 every
 {
-view
+siteItemView
 .
 setOnClickListener
 (

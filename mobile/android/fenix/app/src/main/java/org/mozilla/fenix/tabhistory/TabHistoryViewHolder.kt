@@ -87,6 +87,14 @@ text
 .
 buildSpannedString
 import
+androidx
+.
+core
+.
+view
+.
+isVisible
+import
 kotlinx
 .
 android
@@ -95,7 +103,7 @@ synthetic
 .
 main
 .
-history_list_item
+tab_history_list_item
 .
 *
 import
@@ -146,7 +154,7 @@ item
 TabHistoryItem
 init
 {
-itemView
+history_layout
 .
 setOnClickListener
 {
@@ -181,6 +189,13 @@ ItemType
 .
 SITE
 )
+history_layout
+.
+overflowView
+.
+isVisible
+=
+false
 history_layout
 .
 urlView

@@ -172,7 +172,7 @@ R
 .
 layout
 .
-history_list_item
+tab_history_list_item
 parent
 false
 )
