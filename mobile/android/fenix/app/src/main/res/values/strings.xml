@@ -9668,6 +9668,13 @@ name
 "
 studies_toast_quit_application
 "
+tools
+:
+ignore
+=
+"
+UnusedResources
+"
 >
 Quitting
 the
