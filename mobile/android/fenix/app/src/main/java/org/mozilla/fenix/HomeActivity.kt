@@ -3403,6 +3403,7 @@ SearchAction
 RefreshSearchEnginesAction
 )
 }
+final
 override
 fun
 onStart
@@ -3531,6 +3532,7 @@ addMarker
 CALL
 .
 }
+final
 override
 fun
 onStop
@@ -3896,6 +3898,7 @@ it
 )
 }
 }
+CallSuper
 override
 fun
 onDestroy
@@ -4018,6 +4021,7 @@ stopMediaSession
 )
 }
 }
+final
 override
 fun
 onConfigurationChanged
@@ -4077,6 +4081,7 @@ onConfigurationChanged
 "
 )
 }
+final
 override
 fun
 recreate
@@ -4524,6 +4529,7 @@ context
 attrs
 )
 }
+final
 override
 fun
 onActionModeStarted
@@ -4544,6 +4550,7 @@ onActionModeStarted
 mode
 )
 }
+final
 override
 fun
 onActionModeFinished
@@ -5006,6 +5013,7 @@ true
 return
 false
 }
+final
 override
 fun
 dispatchTouchEvent
@@ -5530,6 +5538,7 @@ mode
 .
 *
 /
+VisibleForTesting
 internal
 fun
 getModeFromIntentOrLastKnown
@@ -5842,6 +5851,7 @@ supportActionBar
 .
 *
 /
+final
 override
 fun
 getSupportActionBarAndInflateIfNecessary
@@ -5915,6 +5925,7 @@ Suppress
 SpreadOperator
 "
 )
+private
 fun
 setupNavigationToolbar
 (
@@ -7089,6 +7100,7 @@ actionStartupHome
 )
 )
 }
+final
 override
 fun
 attachBaseContext
@@ -7121,6 +7133,7 @@ base
 )
 }
 }
+final
 override
 fun
 getSystemService
@@ -7250,8 +7263,7 @@ getSystemService
 name
 )
 }
-protected
-open
+private
 fun
 createBrowsingModeManager
 (
@@ -7341,8 +7353,7 @@ FLAG_SECURE
 )
 }
 }
-protected
-open
+private
 fun
 createThemeManager
 (
@@ -7695,6 +7706,8 @@ BrowserFragment
 .
 *
 /
+VisibleForTesting
+internal
 fun
 shouldStartOnHome
 (
@@ -8096,6 +8109,7 @@ the
 telemetry
 purposes
 .
+private
 const
 val
 PWA_RECENTLY_USED_THRESHOLD
