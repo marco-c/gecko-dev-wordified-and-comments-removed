@@ -920,7 +920,7 @@ components
 .
 core
 .
-sessionManager
+store
 selectTabUseCase
 components
 .
