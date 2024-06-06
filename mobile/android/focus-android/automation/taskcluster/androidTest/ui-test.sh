@@ -823,7 +823,7 @@ RELEASE_TYPE
 }
 >
 >
-test_dashboard
+execution_metadata
 .
 env
 echo
