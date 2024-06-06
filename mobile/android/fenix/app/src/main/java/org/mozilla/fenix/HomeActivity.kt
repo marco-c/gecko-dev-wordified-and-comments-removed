@@ -543,6 +543,8 @@ fenix
 .
 settings
 .
+about
+.
 AboutFragmentDirections
 import
 org
