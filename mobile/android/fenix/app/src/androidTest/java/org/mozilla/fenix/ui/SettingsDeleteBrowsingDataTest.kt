@@ -580,6 +580,9 @@ selectOnlyOpenTabsCheckBox
 clickDeleteBrowsingDataButton
 (
 )
+verifyDeleteBrowsingDataDialog
+(
+)
 confirmDeletionAndAssertSnackbar
 (
 )
@@ -645,6 +648,9 @@ selectOnlyOpenTabsCheckBox
 clickDeleteBrowsingDataButton
 (
 )
+verifyDeleteBrowsingDataDialog
+(
+)
 clickDialogCancelButton
 (
 )
@@ -653,6 +659,9 @@ verifyOpenTabsCheckBox
 true
 )
 clickDeleteBrowsingDataButton
+(
+)
+verifyDeleteBrowsingDataDialog
 (
 )
 confirmDeletionAndAssertSnackbar
@@ -788,6 +797,9 @@ selectOnlyBrowsingHistoryCheckBox
 clickDeleteBrowsingDataButton
 (
 )
+verifyDeleteBrowsingDataDialog
+(
+)
 clickDialogCancelButton
 (
 )
@@ -796,6 +808,9 @@ verifyBrowsingHistoryDetails
 true
 )
 clickDeleteBrowsingDataButton
+(
+)
+verifyDeleteBrowsingDataDialog
 (
 )
 confirmDeletionAndAssertSnackbar
@@ -962,6 +977,9 @@ selectOnlyCookiesCheckBox
 clickDeleteBrowsingDataButton
 (
 )
+verifyDeleteBrowsingDataDialog
+(
+)
 confirmDeletionAndAssertSnackbar
 (
 )
@@ -1074,6 +1092,9 @@ selectOnlyCachedFilesCheckBox
 (
 )
 clickDeleteBrowsingDataButton
+(
+)
+verifyDeleteBrowsingDataDialog
 (
 )
 confirmDeletionAndAssertSnackbar
