@@ -252,15 +252,6 @@ textSize
 "
 app
 :
-fontFamily
-=
-"
-font
-/
-metropolis_semibold
-"
-app
-:
 layout_constraintEnd_toStartOf
 =
 "

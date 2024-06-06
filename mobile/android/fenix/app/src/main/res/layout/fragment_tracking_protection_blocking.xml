@@ -182,12 +182,10 @@ QuickSettingsText
 "
 android
 :
-fontFamily
+textStyle
 =
 "
-font
-/
-metropolis_bold
+bold
 "
 android
 :

@@ -1125,15 +1125,6 @@ layout_marginEnd
 "
 android
 :
-fontFamily
-=
-"
-font
-/
-metropolis
-"
-android
-:
 gravity
 =
 "

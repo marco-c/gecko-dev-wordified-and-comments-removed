@@ -261,15 +261,6 @@ start
 |
 center_vertical
 "
-app
-:
-fontFamily
-=
-"
-font
-/
-metropolis_semibold
-"
 android
 :
 textColor

@@ -705,15 +705,6 @@ wrap_content
 "
 android
 :
-fontFamily
-=
-"
-font
-/
-metropolis_semibold
-"
-android
-:
 letterSpacing
 =
 "

@@ -766,15 +766,6 @@ layout_height
 "
 android
 :
-fontFamily
-=
-"
-font
-/
-metropolis_semibold
-"
-android
-:
 gravity
 =
 "
