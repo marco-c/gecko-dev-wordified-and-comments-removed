@@ -238,7 +238,11 @@ public
 /
 build
 /
-arm
+armeabi
+-
+v7a
+/
+geckoNightly
 /
 target
 .
