@@ -995,7 +995,7 @@ ToolbarMenu
 .
 Item
 .
-AddToFirefoxHome
+AddToTopSites
 -
 >
 {
@@ -2225,7 +2225,7 @@ ToolbarMenu
 .
 Item
 .
-AddToFirefoxHome
+AddToTopSites
 -
 >
 Event
@@ -2234,7 +2234,7 @@ BrowserMenuItemTapped
 .
 Item
 .
-ADD_TO_FIREFOX_HOME
+ADD_TO_TOP_SITES
 ToolbarMenu
 .
 Item

@@ -4740,9 +4740,9 @@ Open
 In
 App
 Add
-to
-Firefox
-Home
+To
+Top
+Sites
 Add
 -
 ons

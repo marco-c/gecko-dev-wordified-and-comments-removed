@@ -1654,7 +1654,7 @@ currentSession
 }
 Test
 fun
-handleToolbarAddToFirefoxHomePress
+handleToolbarAddToTopSitesPressed
 (
 )
 =
@@ -1667,7 +1667,7 @@ ToolbarMenu
 .
 Item
 .
-AddToFirefoxHome
+AddToTopSites
 controller
 =
 DefaultBrowserToolbarController
@@ -1762,7 +1762,7 @@ BrowserMenuItemTapped
 .
 Item
 .
-ADD_TO_FIREFOX_HOME
+ADD_TO_TOP_SITES
 )
 )
 }

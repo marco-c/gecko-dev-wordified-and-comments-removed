@@ -193,7 +193,7 @@ Item
 (
 )
 object
-AddToFirefoxHome
+AddToTopSites
 :
 Item
 (

@@ -1085,7 +1085,7 @@ help
 settings
 library
 desktopMode
-addToFirefoxHome
+addToTopSites
 addToHomescreen
 .
 apply
@@ -1446,7 +1446,7 @@ checked
 }
 private
 val
-addToFirefoxHome
+addToTopSites
 =
 BrowserMenuImageText
 (
@@ -1460,17 +1460,7 @@ R
 .
 string
 .
-browser_menu_add_to_firefox_home
-context
-.
-getString
-(
-R
-.
-string
-.
-app_name
-)
+browser_menu_add_to_top_sites
 )
 imageResource
 =
@@ -1494,7 +1484,7 @@ ToolbarMenu
 .
 Item
 .
-AddToFirefoxHome
+AddToTopSites
 )
 }
 private
