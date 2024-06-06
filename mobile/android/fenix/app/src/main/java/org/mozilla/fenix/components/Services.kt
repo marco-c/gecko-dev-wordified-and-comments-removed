@@ -93,6 +93,8 @@ service
 .
 fxa
 .
+manager
+.
 FxaAccountManager
 import
 org
