@@ -4549,9 +4549,8 @@ android
 textColor
 "
 >
-color
-/
-about_content_text_normal_theme
+?
+primaryText
 <
 /
 item
