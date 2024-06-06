@@ -301,13 +301,13 @@ verifyNoTabsOpenedHeader
 verifyNoTabsOpenedText
 (
 )
-verifyCollectionsHeader
+verifyCollectionsHeaderIsNotShown
 (
 )
-verifyNoCollectionsHeader
+verifyNoCollectionsHeaderIsNotShown
 (
 )
-verifyNoCollectionsText
+verifyNoCollectionsTextIsNotShown
 (
 )
 verifyHomeToolbar
