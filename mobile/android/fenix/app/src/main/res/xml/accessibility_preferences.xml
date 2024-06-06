@@ -202,14 +202,14 @@ app
 min
 =
 "
-1
+50
 "
 app
 :
 seekBarIncrement
 =
 "
-1
+5
 "
 app
 :
