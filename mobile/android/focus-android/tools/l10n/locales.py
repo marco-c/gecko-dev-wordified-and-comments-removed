@@ -377,6 +377,12 @@ ixl
 "
 lt
 "
+	
+"
+en
+-
+CA
+"
 ]
 SCREENSHOT_LOCALES
 =
