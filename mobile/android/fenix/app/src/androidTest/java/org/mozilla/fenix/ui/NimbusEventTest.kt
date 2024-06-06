@@ -390,7 +390,9 @@ evalJexl
 (
 "
 '
-sync_auth_sign_in
+sync_auth
+.
+sign_in
 '
 |
 eventSum
