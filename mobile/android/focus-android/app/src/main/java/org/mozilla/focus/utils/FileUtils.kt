@@ -85,6 +85,9 @@ setOf
 (
 WEBVIEW_CACHE_DIR
 SENTRY_CACHE_DIR
+MobileMetricsPingStorage
+.
+STORAGE_FOLDER
 )
 )
 JvmStatic
