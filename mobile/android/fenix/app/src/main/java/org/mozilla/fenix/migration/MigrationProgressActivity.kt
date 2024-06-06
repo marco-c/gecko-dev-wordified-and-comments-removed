@@ -651,7 +651,7 @@ R
 .
 string
 .
-preferences_sync_logins
+migration_text_passwords
 Settings
 to
 R
