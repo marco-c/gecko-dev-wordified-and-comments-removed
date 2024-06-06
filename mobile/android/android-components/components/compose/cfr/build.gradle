@@ -236,6 +236,10 @@ test
 testImplementation
 ComponentsDependencies
 .
+testing_coroutines
+testImplementation
+ComponentsDependencies
+.
 androidx_test_core
 testImplementation
 ComponentsDependencies

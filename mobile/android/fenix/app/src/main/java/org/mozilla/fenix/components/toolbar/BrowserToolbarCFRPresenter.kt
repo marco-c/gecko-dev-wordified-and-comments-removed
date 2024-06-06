@@ -1405,6 +1405,7 @@ it
 true
 -
 >
+{
 TrackingProtection
 .
 tcpCfrExplicitDismissal
@@ -1415,6 +1416,12 @@ NoExtras
 (
 )
 )
+settings
+.
+shouldShowTotalCookieProtectionCFR
+=
+false
+}
 false
 -
 >
