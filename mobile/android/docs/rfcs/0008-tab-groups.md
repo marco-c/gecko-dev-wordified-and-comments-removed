@@ -3009,7 +3009,7 @@ NormalTabs
 with
 the
 corresponding
-parititions
+partitions
 nested
 inside
 .
@@ -3206,10 +3206,10 @@ have
 no
 way
 of
-positining
+positioning
 a
 group
-withing
+within
 a
 list
 of

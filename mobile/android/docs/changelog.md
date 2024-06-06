@@ -8781,7 +8781,7 @@ Fixed
 a
 low
 frequency
-crasher
+crash
 that
 might
 occur
@@ -39598,7 +39598,7 @@ encoding
 values
 in
 push
-messsages
+messages
 .
 If
 they

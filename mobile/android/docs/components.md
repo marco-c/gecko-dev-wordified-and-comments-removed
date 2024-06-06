@@ -367,7 +367,7 @@ that
 other
 components
 work
-seemlessly
+seamlessly
 with
 all
 implementations

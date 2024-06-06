@@ -15791,7 +15791,7 @@ cases
 and
 feature
 components
-useable
+usable
 in
 browsers
 that
@@ -18204,7 +18204,7 @@ md
 09
 )
 for
-futher
+further
 details
 on
 the
@@ -18266,7 +18266,7 @@ because
 it
 served
 a
-nonexistant
+nonexistent
 use
 case
 callers
@@ -26172,7 +26172,7 @@ ktx
 *
 A
 new
-extention
+extension
 function
 that
 allows
@@ -28961,7 +28961,7 @@ toolbar
 .
 *
 All
-artifcats
+artifacts
 are
 published
 with
@@ -30839,7 +30839,7 @@ using
 isOSOnLowMemory
 (
 )
-extention
+extension
 function
 on
 Context

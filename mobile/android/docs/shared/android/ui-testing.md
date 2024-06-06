@@ -22,7 +22,7 @@ testing
 for
 Android
 at
-Mozila
+Mozilla
 .
 This
 document
@@ -59,7 +59,7 @@ preventing
 unintended
 changes
 which
-offten
+often
 lead
 to
 bugs
@@ -81,7 +81,7 @@ benefit
 the
 most
 from
-throrough
+thorough
 testing
 .
 When
@@ -147,7 +147,7 @@ will
 let
 you
 know
-wether
+whether
 it
 is
 green

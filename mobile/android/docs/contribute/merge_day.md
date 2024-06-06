@@ -664,7 +664,7 @@ the
 component
 to
 see
-wether
+whether
 there
 are
 any
@@ -925,7 +925,7 @@ the
 component
 to
 see
-wether
+whether
 there
 are
 any
@@ -1317,7 +1317,7 @@ Especially
 when
 updating
 the
-Nighlty
+Nightly
 component
 it
 can

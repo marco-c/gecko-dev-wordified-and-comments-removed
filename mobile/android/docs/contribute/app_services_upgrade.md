@@ -167,7 +167,7 @@ fenix
 and
 test
 the
-followings
+following
 items
 :
 -

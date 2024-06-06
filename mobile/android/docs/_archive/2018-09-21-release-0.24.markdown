@@ -473,7 +473,7 @@ using
 isOSOnLowMemory
 (
 )
-extention
+extension
 function
 on
 Context

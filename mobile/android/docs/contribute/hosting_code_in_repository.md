@@ -356,7 +356,7 @@ SNAPSHOT
 builds
 for
 every
-successfull
+successful
 *
 main
 *

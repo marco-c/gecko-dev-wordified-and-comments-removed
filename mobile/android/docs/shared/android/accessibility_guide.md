@@ -898,7 +898,7 @@ code
 paths
 are
 not
-excercised
+exercised
 in
 typical
 use

@@ -259,7 +259,7 @@ migrate
 The
 goal
 of
-deperecating
+deprecating
 an
 API
 should
@@ -491,7 +491,7 @@ deprecation
 warning
 .
 For
-exmaple
+example
 when
 deprecating
 an
@@ -655,7 +655,7 @@ a
 large
 refactoring
 to
-accomodate
+accommodate
 the
 API
 change
