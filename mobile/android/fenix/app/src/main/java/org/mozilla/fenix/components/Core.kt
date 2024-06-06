@@ -1015,6 +1015,16 @@ mozilla
 .
 fenix
 .
+share
+.
+SaveToPDFMiddleware
+import
+org
+.
+mozilla
+.
+fenix
+.
 telemetry
 .
 TelemetryMiddleware
@@ -1774,6 +1784,10 @@ historyMetadataService
 )
 SessionPrioritizationMiddleware
 (
+)
+SaveToPDFMiddleware
+(
+context
 )
 )
 BrowserStore
