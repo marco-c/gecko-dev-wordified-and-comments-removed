@@ -267,6 +267,13 @@ permission
 .
 USE_FINGERPRINT
 "
+android
+:
+required
+=
+"
+false
+"
 /
 >
 <
