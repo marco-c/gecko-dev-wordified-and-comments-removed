@@ -223,7 +223,7 @@ normal
 val
 store
 =
-createState
+createStore
 (
 "
 123
@@ -266,6 +266,9 @@ relaxed
 true
 )
 store
+mockk
+(
+)
 )
 every
 {
@@ -314,7 +317,7 @@ private
 val
 store
 =
-createState
+createStore
 (
 "
 456
@@ -357,6 +360,9 @@ relaxed
 true
 )
 store
+mockk
+(
+)
 )
 every
 {
@@ -400,7 +406,7 @@ observer
 val
 store
 =
-createState
+createStore
 (
 "
 456
@@ -430,6 +436,9 @@ relaxed
 true
 )
 store
+mockk
+(
+)
 )
 mediator
 .
@@ -466,7 +475,7 @@ any
 }
 private
 fun
-createState
+createStore
 (
 selectedId
 :

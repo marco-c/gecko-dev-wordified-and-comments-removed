@@ -248,6 +248,9 @@ mockk
 mockk
 (
 )
+mockk
+(
+)
 )
 val
 result
@@ -313,6 +316,9 @@ interactor
 =
 DefaultBrowserTrayInteractor
 (
+mockk
+(
+)
 mockk
 (
 )
@@ -411,6 +417,9 @@ interactor
 =
 DefaultBrowserTrayInteractor
 (
+mockk
+(
+)
 mockk
 (
 )
