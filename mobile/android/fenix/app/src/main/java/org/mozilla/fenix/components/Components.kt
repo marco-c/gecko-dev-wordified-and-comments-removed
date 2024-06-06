@@ -338,6 +338,9 @@ lazy
 Core
 (
 context
+analytics
+.
+crashReporter
 )
 }
 val

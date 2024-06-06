@@ -150,6 +150,9 @@ lazy
 TestCore
 (
 context
+analytics
+.
+crashReporter
 )
 }
 override
