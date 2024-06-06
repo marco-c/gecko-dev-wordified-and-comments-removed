@@ -345,6 +345,9 @@ example
 .
 com
 "
+dateAdded
+=
+0
 children
 =
 null

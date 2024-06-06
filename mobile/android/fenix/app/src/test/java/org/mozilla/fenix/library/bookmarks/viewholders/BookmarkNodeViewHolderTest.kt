@@ -341,6 +341,9 @@ mozilla
 .
 org
 "
+dateAdded
+=
+0
 children
 =
 listOf
@@ -379,6 +382,9 @@ Folder
 url
 =
 null
+dateAdded
+=
+0
 children
 =
 listOf

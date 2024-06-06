@@ -599,6 +599,7 @@ mozilla
 .
 org
 "
+0
 null
 )
 private
@@ -621,6 +622,7 @@ FOLDER
 Subfolder
 "
 null
+0
 listOf
 (
 )
@@ -662,6 +664,7 @@ US
 firefox
 /
 "
+0
 null
 )
 private
@@ -682,6 +685,7 @@ null
 Mobile
 "
 null
+0
 listOf
 (
 item
@@ -712,6 +716,7 @@ Root
 .
 name
 null
+0
 null
 )
 Before

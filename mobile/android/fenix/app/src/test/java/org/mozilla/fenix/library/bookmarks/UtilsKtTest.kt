@@ -774,6 +774,7 @@ parentGuid
 0
 title
 url
+0
 null
 )
 internal
@@ -815,6 +816,7 @@ parentGuid
 0
 title
 null
+0
 children
 )
 internal
@@ -848,5 +850,6 @@ parentGuid
 null
 null
 null
+0
 null
 )

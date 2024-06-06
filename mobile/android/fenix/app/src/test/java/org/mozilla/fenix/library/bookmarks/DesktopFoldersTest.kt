@@ -250,6 +250,9 @@ position
 url
 =
 null
+dateAdded
+=
+0
 children
 =
 null
