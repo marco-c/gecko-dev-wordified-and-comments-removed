@@ -186,8 +186,9 @@ app
 backgroundTint
 =
 "
-?
-accent
+color
+/
+accent_normal_theme
 "
 app
 :
