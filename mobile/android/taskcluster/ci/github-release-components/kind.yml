@@ -150,6 +150,17 @@ worker
 action
 :
 release
+git
+-
+tag
+:
+"
+components
+-
+{
+head_tag
+}
+"
 github
 -
 project
