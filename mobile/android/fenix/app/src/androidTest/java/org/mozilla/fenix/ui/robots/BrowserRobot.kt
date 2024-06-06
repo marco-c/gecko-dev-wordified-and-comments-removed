@@ -714,7 +714,7 @@ UiSelector
 (
 )
 .
-text
+textContains
 (
 expectedText
 )
