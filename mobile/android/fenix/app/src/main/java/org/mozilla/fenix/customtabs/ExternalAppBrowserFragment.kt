@@ -279,18 +279,6 @@ base
 .
 feature
 .
-UserInteractionHandler
-import
-mozilla
-.
-components
-.
-support
-.
-base
-.
-feature
-.
 ViewBoundFeatureWrapper
 import
 mozilla
@@ -442,7 +430,6 @@ ExternalAppBrowserFragment
 BaseBrowserFragment
 (
 )
-UserInteractionHandler
 {
 private
 val
