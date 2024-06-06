@@ -197,6 +197,18 @@ components
 .
 browser
 .
+state
+.
+state
+.
+TabSessionState
+import
+mozilla
+.
+components
+.
+browser
+.
 thumbnails
 .
 BrowserThumbnails
@@ -1498,7 +1510,7 @@ sessions
 :
 List
 <
-Session
+TabSessionState
 >
 id
 :
@@ -1525,7 +1537,7 @@ sessions
 :
 List
 <
-Session
+TabSessionState
 >
 )
 {

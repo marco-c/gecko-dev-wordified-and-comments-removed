@@ -338,6 +338,11 @@ DefaultCollectionCreationInteractor
 DefaultCollectionCreationController
 (
 collectionCreationStore
+requireComponents
+.
+core
+.
+store
 :
 :
 dismiss
@@ -351,11 +356,6 @@ requireComponents
 core
 .
 tabCollectionStorage
-requireComponents
-.
-core
-.
-sessionManager
 scope
 =
 lifecycleScope

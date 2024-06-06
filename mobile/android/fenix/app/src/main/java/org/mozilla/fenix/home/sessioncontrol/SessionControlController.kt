@@ -201,7 +201,7 @@ collections
 .
 ext
 .
-restore
+invoke
 import
 mozilla
 .
@@ -994,6 +994,13 @@ TabsUseCases
 AddNewTabUseCase
 private
 val
+restoreUseCase
+:
+TabsUseCases
+.
+RestoreUseCase
+private
+val
 reloadUrlUseCase
 :
 SessionUseCases
@@ -1136,9 +1143,9 @@ ComponentTab
 dismissSearchDialogIfDisplayed
 (
 )
-sessionManager
+restoreUseCase
 .
-restore
+invoke
 (
 activity
 engine
@@ -1204,9 +1211,9 @@ collection
 TabCollection
 )
 {
-sessionManager
+restoreUseCase
 .
-restore
+invoke
 (
 activity
 engine

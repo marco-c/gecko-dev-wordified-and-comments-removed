@@ -814,7 +814,7 @@ sessions
 :
 List
 <
-Session
+TabSessionState
 >
 id
 :
@@ -844,7 +844,7 @@ sessions
 :
 List
 <
-Session
+TabSessionState
 >
 )
 {
@@ -2542,7 +2542,7 @@ sessionList
 :
 List
 <
-Session
+TabSessionState
 >
 )
 {
@@ -2830,7 +2830,7 @@ sessionList
 :
 List
 <
-Session
+TabSessionState
 >
 )
 {

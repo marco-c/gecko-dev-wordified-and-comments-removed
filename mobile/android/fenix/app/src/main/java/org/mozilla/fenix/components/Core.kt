@@ -2262,7 +2262,6 @@ lazyMonitored
 TabCollectionStorage
 (
 context
-sessionManager
 strictMode
 )
 }

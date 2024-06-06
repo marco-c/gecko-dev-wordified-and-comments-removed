@@ -1763,6 +1763,15 @@ useCases
 tabsUseCases
 .
 addTab
+restoreUseCase
+=
+components
+.
+useCases
+.
+tabsUseCases
+.
+restore
 reloadUrlUseCase
 =
 components
