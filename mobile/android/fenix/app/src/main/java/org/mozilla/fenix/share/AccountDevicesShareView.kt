@@ -452,14 +452,6 @@ SyncShareOption
 .
 AddNewDevice
 )
-actionEmitter
-.
-onNext
-(
-ShareAction
-.
-HideSendTab
-)
 }
 val
 shareOptions
