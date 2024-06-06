@@ -231,6 +231,11 @@ aboutConfigEnabled
 AppConstants
 .
 isDevOrNightlyBuild
+|
+|
+AppConstants
+.
+isBetaBuild
 )
 runtime
 =
