@@ -784,11 +784,6 @@ actionHomeSettingsFragmentToWallpaperSettingsFragment
 )
 true
 }
-isVisible
-=
-FeatureFlags
-.
-showWallpapers
 }
 addToRadioGroup
 (

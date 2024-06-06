@@ -2345,7 +2345,7 @@ logo
 var
 shouldAnimateFirefoxLogo
 by
-featureFlagPreference
+booleanPreference
 (
 appContext
 .
@@ -2359,14 +2359,7 @@ pref_key_show_logo_animation
 )
 default
 =
-FeatureFlags
-.
-showWallpapers
-featureFlag
-=
-FeatureFlags
-.
-showWallpapers
+true
 )
 /
 *

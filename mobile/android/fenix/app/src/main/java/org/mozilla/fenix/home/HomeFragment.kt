@@ -6076,11 +6076,6 @@ shouldEnableWallpaper
 (
 )
 =
-FeatureFlags
-.
-showWallpapers
-&
-&
 (
 activity
 as

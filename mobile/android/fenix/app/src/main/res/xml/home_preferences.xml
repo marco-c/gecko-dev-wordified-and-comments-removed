@@ -353,13 +353,6 @@ string
 /
 customize_wallpapers
 "
-app
-:
-isPreferenceVisible
-=
-"
-false
-"
 /
 >
 <

@@ -5314,13 +5314,6 @@ downloadWallpapers
 (
 )
 {
-if
-(
-FeatureFlags
-.
-showWallpapers
-)
-{
 GlobalScope
 .
 launch
@@ -5332,7 +5325,6 @@ wallpaperManager
 downloadAllRemoteWallpapers
 (
 )
-}
 }
 }
 }
