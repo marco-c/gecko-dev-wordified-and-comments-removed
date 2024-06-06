@@ -2669,6 +2669,10 @@ releaseImplementation
 Deps
 .
 leakcanary_noop
+implementation
+Deps
+.
+mozilla_lib_fetch_httpurlconnection
 armImplementation
 Gecko
 .
