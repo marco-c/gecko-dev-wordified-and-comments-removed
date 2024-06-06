@@ -105,11 +105,11 @@ logger
 .
 Logger
 import
-org
-.
 mozilla
 .
-fenix
+components
+.
+support
 .
 utils
 .
