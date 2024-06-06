@@ -988,6 +988,16 @@ string
 .
 pref_key_show_clipboard_suggestions
 )
+context
+.
+getString
+(
+R
+.
+string
+.
+pref_key_show_search_shortcuts
+)
 )
 override
 val
