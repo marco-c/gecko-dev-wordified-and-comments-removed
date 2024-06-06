@@ -449,7 +449,7 @@ R
 .
 string
 .
-menu_open_with_a_browser
+menu_open_with_a_browser2
 )
 )
 )
@@ -483,7 +483,7 @@ R
 .
 string
 .
-menu_open_in_firefox_focus
+menu_open_with_default_browser2
 resources
 .
 getString
@@ -529,7 +529,7 @@ R
 .
 string
 .
-menu_open_with_default_browser
+menu_open_with_default_browser2
 browsers
 .
 getDefaultBrowser
