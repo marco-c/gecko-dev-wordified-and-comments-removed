@@ -9771,6 +9771,11 @@ memory
 unittests
 "
 "
+network
+:
+received_packet
+"
+"
 synchronization
 :
 mutex
@@ -10575,6 +10580,11 @@ test_support
 memory
 :
 fifo_buffer
+"
+"
+network
+:
+received_packet
 "
 "
 synchronization
