@@ -188,17 +188,6 @@ class
 .
 java
 )
-if
-(
-!
-appWidgetManager
-.
-isRequestPinAppWidgetSupported
-)
-{
-return
-false
-}
 val
 myProvider
 =
@@ -212,6 +201,7 @@ class
 .
 java
 )
+return
 appWidgetManager
 .
 requestPinAppWidget
@@ -220,7 +210,5 @@ myProvider
 null
 null
 )
-return
-true
 }
 }
