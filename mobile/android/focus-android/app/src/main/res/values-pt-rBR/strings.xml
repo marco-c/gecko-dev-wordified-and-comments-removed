@@ -693,7 +693,8 @@ name
 preference_search_engine_default
 "
 >
-Predefinido
+Padr
+o
 <
 /
 string
@@ -767,7 +768,8 @@ preference_category_autocomplete_preinstalled
 Lista
 de
 URL
-predefinida
+padr
+o
 <
 /
 string
@@ -1077,7 +1079,8 @@ preference_dialog_title_search_engine
 "
 >
 Pesquisa
-predefinida
+padr
+o
 <
 /
 string
@@ -1364,7 +1367,8 @@ o
 s
 como
 navegador
-predefinido
+padr
+o
 <
 /
 string
@@ -1503,10 +1507,12 @@ preference_search_restore
 "
 >
 Restaurar
+os
 mecanismos
 de
 pesquisa
-predefinido
+padr
+es
 <
 /
 string
@@ -3842,7 +3848,8 @@ outro
 mecanismo
 de
 pesquisa
-predefinido
+padr
+o
 em
 Configura
 es
@@ -3943,7 +3950,8 @@ s
 como
 seu
 navegador
-predefinido
+padr
+o
 e
 obtenha
 os
