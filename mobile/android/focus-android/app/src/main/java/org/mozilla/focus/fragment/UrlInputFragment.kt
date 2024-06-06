@@ -1558,9 +1558,14 @@ Source
 MENU
 SupportUtils
 .
-getWhatsNewUrl
+getSumoURLForTopic
 (
 context
+SupportUtils
+.
+SumoTopic
+.
+WHATS_NEW
 )
 )
 }

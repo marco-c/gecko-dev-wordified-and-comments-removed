@@ -144,8 +144,13 @@ getLearnMoreUrl
 =
 SupportUtils
 .
-getAutocompleteUrl
+getSumoURLForTopic
 (
 context
+SupportUtils
+.
+SumoTopic
+.
+AUTOCOMPLETE
 )
 }
