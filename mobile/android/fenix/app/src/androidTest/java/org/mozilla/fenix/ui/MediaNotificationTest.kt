@@ -469,7 +469,7 @@ verifyMediaIsPaused
 )
 }
 .
-openHomeScreen
+openTabDrawer
 {
 closeTab
 (
@@ -577,7 +577,7 @@ verifyMediaIsPaused
 )
 }
 .
-openHomeScreen
+openTabDrawer
 {
 closeTab
 (
@@ -661,7 +661,7 @@ playing
 )
 }
 .
-openHomeScreen
+openTabDrawer
 {
 verifyTabMediaControlButtonState
 (
@@ -785,11 +785,15 @@ verifyMediaIsPaused
 )
 }
 .
-openHomeScreen
+openTabDrawer
 {
 closeTab
 (
 )
+}
+.
+openHomeScreen
+{
 }
 mDevice
 .

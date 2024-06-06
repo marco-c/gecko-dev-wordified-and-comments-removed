@@ -1057,6 +1057,10 @@ components
 )
 }
 .
+openTabDrawer
+{
+}
+.
 openHomeScreen
 {
 }

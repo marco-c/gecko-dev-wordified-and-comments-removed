@@ -537,8 +537,7 @@ By
 text
 (
 "
-Open
-tabs
+Collections
 "
 )
 )
@@ -595,10 +594,7 @@ By
 .
 text
 (
-"
-Private
-tabs
-"
+PRIVATE_SESSION_MESSAGE
 )
 )
 waitingTime

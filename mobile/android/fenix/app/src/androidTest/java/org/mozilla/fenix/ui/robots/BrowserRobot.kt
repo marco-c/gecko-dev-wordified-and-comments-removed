@@ -2205,11 +2205,11 @@ Transition
 )
 }
 fun
-openHomeScreen
+openTabDrawer
 (
 interact
 :
-HomeScreenRobot
+TabDrawerRobot
 .
 (
 )
@@ -2218,7 +2218,7 @@ HomeScreenRobot
 Unit
 )
 :
-HomeScreenRobot
+TabDrawerRobot
 .
 Transition
 {
@@ -2257,13 +2257,13 @@ debug
 :
 id
 /
-header_text
+tab_layout
 "
 )
 )
 waitingTime
 )
-HomeScreenRobot
+TabDrawerRobot
 (
 )
 .
@@ -2271,7 +2271,7 @@ interact
 (
 )
 return
-HomeScreenRobot
+TabDrawerRobot
 .
 Transition
 (

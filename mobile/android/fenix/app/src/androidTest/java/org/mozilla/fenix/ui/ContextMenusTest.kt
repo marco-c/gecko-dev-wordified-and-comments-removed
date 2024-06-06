@@ -475,11 +475,8 @@ toString
 )
 }
 .
-openHomeScreen
+openTabDrawer
 {
-verifyHomeScreen
-(
-)
 verifyExistingOpenTabs
 (
 "
@@ -605,9 +602,9 @@ toString
 )
 }
 .
-openHomeScreen
+openTabDrawer
 {
-verifyPrivateSessionHeader
+verifyPrivateModeSelected
 (
 )
 verifyExistingOpenTabs

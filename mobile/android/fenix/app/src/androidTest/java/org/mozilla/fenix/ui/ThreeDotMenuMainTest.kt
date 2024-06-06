@@ -303,6 +303,10 @@ verifyHelpUrl
 )
 }
 .
+openTabDrawer
+{
+}
+.
 openHomeScreen
 {
 }
@@ -316,6 +320,10 @@ openWhatsNew
 verifyWhatsNewURL
 (
 )
+}
+.
+openTabDrawer
+{
 }
 .
 openHomeScreen

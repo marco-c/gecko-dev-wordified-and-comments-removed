@@ -317,9 +317,7 @@ width
 view
 .
 height
-TabViewHolder
-.
-favIconBorderRadiusInPx
+FAV_ICON_BORDER_RADIUS_IN_DP
 .
 dpToFloat
 (
@@ -522,5 +520,10 @@ R
 layout
 .
 list_element
+const
+val
+FAV_ICON_BORDER_RADIUS_IN_DP
+=
+4
 }
 }
