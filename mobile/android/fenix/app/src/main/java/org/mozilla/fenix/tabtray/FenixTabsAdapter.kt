@@ -501,6 +501,17 @@ tab
 true
 }
 }
+else
+{
+holder
+.
+itemView
+.
+setOnLongClickListener
+(
+null
+)
+}
 holder
 .
 itemView
