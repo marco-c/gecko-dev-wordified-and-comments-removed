@@ -145,7 +145,7 @@ notifications
 isEnrollmentPaused
 "
 :
-true
+false
 "
 isRollout
 "
