@@ -361,7 +361,7 @@ R
 .
 string
 .
-history_search
+history_search_1
 )
 edit
 .
@@ -639,7 +639,7 @@ R
 .
 string
 .
-history_search
+history_search_1
 )
 )
 }
