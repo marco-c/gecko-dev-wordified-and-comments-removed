@@ -1105,9 +1105,9 @@ toCalendar
 )
 ?
 :
-MonthAndYearPicker
+TimePrecisionPicker
 .
-getDefaultMaxDate
+getDefaultMaxTime
 (
 )
 minTime
@@ -1120,9 +1120,9 @@ toCalendar
 )
 ?
 :
-MonthAndYearPicker
+TimePrecisionPicker
 .
-getDefaultMinDate
+getDefaultMinTime
 (
 )
 stepValue
