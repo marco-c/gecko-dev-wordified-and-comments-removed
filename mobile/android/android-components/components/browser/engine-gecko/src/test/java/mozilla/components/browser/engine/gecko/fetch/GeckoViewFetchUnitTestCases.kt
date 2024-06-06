@@ -178,6 +178,10 @@ import
 okhttp3
 .
 Headers
+.
+Companion
+.
+toHeaders
 import
 okhttp3
 .
@@ -2085,11 +2089,10 @@ headers
 .
 thenReturn
 (
-Headers
-.
-of
-(
 headerMap
+.
+toHeaders
+(
 )
 )
 whenever

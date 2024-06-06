@@ -145,7 +145,7 @@ GzipSink
 import
 okio
 .
-Okio
+buffer
 import
 org
 .
@@ -648,8 +648,6 @@ request
 headers
 .
 size
-(
-)
 >
 =
 5
@@ -2254,8 +2252,6 @@ request
 headers
 .
 size
-(
-)
 )
 {
 println
@@ -3512,14 +3508,13 @@ Buffer
 val
 sink
 =
-Okio
-.
-buffer
-(
 GzipSink
 (
 result
 )
+.
+buffer
+(
 )
 sink
 .

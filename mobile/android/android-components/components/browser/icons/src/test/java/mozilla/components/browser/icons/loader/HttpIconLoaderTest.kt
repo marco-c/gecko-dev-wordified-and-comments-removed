@@ -533,8 +533,6 @@ until
 headers
 .
 size
-(
-)
 )
 {
 println
