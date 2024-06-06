@@ -752,13 +752,6 @@ fillMaxWidth
 (
 )
 .
-height
-(
-180
-.
-dp
-)
-.
 combinedClickable
 (
 onClick
