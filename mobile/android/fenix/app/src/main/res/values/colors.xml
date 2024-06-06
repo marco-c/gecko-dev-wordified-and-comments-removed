@@ -327,13 +327,6 @@ name
 "
 fx_mobile_layer_color_gradient_start
 "
-tools
-:
-ignore
-=
-"
-UnusedResources
-"
 >
 color
 /
@@ -356,13 +349,6 @@ name
 =
 "
 fx_mobile_layer_color_gradient_end
-"
-tools
-:
-ignore
-=
-"
-UnusedResources
 "
 >
 color
