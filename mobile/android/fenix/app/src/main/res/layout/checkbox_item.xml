@@ -270,6 +270,15 @@ drawable
 /
 mozac_ic_check
 "
+app
+:
+tint
+=
+"
+color
+/
+photonWhite
+"
 /
 >
 <
