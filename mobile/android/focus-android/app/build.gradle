@@ -3657,7 +3657,8 @@ String
 SENTRY_TOKEN
 '
 '
-null
+"
+"
 '
 println
 (
