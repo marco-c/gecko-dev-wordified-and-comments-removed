@@ -242,9 +242,9 @@ fragment
 .
 requireComponents
 .
-sessionManager
+tabsUseCases
 .
-removeSessions
+removeAllTabs
 (
 )
 }

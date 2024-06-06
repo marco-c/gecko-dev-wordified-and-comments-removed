@@ -394,9 +394,9 @@ eraseTaskRemoved
 }
 components
 .
-sessionManager
+tabsUseCases
 .
-removeSessions
+removeAllTabs
 (
 )
 stopForeground
