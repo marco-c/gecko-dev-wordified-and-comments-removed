@@ -296,7 +296,7 @@ isInSearchWidgetExperiment
 &
 settings
 .
-shouldDisplaySearchWidgetCFR
+shouldDisplaySearchWidgetCfr
 (
 )
 &
@@ -325,6 +325,15 @@ showSearchWidgetCFR
 (
 )
 {
+settings
+.
+lastCfrShownTimeInMillis
+=
+System
+.
+currentTimeMillis
+(
+)
 settings
 .
 incrementSearchWidgetCFRDisplayed

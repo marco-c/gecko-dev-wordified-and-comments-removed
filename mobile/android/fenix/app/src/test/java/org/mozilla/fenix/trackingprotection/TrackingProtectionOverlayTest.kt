@@ -348,7 +348,7 @@ every
 {
 settings
 .
-shouldShowTrackingProtectionOnboarding
+shouldShowTrackingProtectionCfr
 }
 returns
 true
@@ -413,7 +413,7 @@ every
 {
 settings
 .
-shouldShowTrackingProtectionOnboarding
+shouldShowTrackingProtectionCfr
 }
 returns
 false
@@ -456,7 +456,7 @@ every
 {
 settings
 .
-shouldShowTrackingProtectionOnboarding
+shouldShowTrackingProtectionCfr
 }
 returns
 true
@@ -507,7 +507,7 @@ every
 {
 settings
 .
-shouldShowTrackingProtectionOnboarding
+shouldShowTrackingProtectionCfr
 }
 returns
 true
@@ -577,7 +577,7 @@ every
 {
 settings
 .
-shouldShowTrackingProtectionOnboarding
+shouldShowTrackingProtectionCfr
 }
 returns
 true
@@ -649,7 +649,7 @@ every
 {
 settings
 .
-shouldShowTrackingProtectionOnboarding
+shouldShowTrackingProtectionCfr
 }
 returns
 true

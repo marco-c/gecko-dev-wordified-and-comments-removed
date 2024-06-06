@@ -297,7 +297,7 @@ openLinksInExternalApp
 &
 settings
 .
-shouldShowOpenInAppBanner
+shouldShowOpenInAppCfr
 &
 &
 appLink
@@ -405,6 +405,15 @@ session
 url
 .
 tryGetHostFromUrl
+(
+)
+settings
+.
+lastCfrShownTimeInMillis
+=
+System
+.
+currentTimeMillis
 (
 )
 settings

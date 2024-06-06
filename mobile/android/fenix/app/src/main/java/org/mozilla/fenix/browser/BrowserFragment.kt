@@ -961,7 +961,7 @@ if
 (
 settings
 .
-shouldShowOpenInAppBanner
+shouldShowOpenInAppCfr
 &
 &
 session

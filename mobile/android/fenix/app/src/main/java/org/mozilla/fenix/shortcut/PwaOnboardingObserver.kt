@@ -218,7 +218,7 @@ if
 (
 settings
 .
-shouldShowPwaOnboarding
+shouldShowPwaCfr
 )
 {
 val
@@ -239,6 +239,15 @@ id
 .
 browserFragment
 directions
+)
+settings
+.
+lastCfrShownTimeInMillis
+=
+System
+.
+currentTimeMillis
+(
 )
 settings
 .
