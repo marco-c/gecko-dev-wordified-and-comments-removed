@@ -739,9 +739,6 @@ selectedItems
 .
 size
 )
-view
-.
-bookmark_list
 )
 }
 view
@@ -842,9 +839,6 @@ root
 ?
 .
 title
-view
-.
-bookmark_list
 )
 }
 /
