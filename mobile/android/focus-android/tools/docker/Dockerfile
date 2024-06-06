@@ -300,13 +300,11 @@ git
 \
 curl
 \
-python
+python3
 \
 python
 -
-pip
-\
-python3
+pip3
 \
 locales
 \

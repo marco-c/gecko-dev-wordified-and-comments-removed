@@ -942,12 +942,6 @@ git
 \
 curl
 \
-python
-\
-python
--
-pip
-\
 python3
 \
 python3
