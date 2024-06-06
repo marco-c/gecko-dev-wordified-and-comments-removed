@@ -87,7 +87,7 @@ androidx
 .
 preference
 .
-SwitchPreference
+SwitchPreferenceCompat
 import
 mozilla
 .
@@ -277,7 +277,7 @@ setupPreferences
 {
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
