@@ -346,6 +346,12 @@ setShowStartBrowsingCfrEnabled
 (
 false
 )
+featureSettingsHelper
+.
+setCookieBannerReductionEnabled
+(
+false
+)
 webServer
 =
 MockWebServer

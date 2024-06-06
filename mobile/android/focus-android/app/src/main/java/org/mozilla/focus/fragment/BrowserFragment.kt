@@ -4859,6 +4859,15 @@ requireContext
 cookieBannerExceptionStore
 =
 cookieBannerExceptionStore
+ioScope
+=
+viewLifecycleOwner
+.
+lifecycleScope
++
+Dispatchers
+.
+IO
 tabUrl
 =
 tab
