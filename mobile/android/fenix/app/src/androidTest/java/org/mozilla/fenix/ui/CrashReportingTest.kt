@@ -235,12 +235,6 @@ setPocketEnabled
 (
 false
 )
-featureSettingsHelper
-.
-setShowWallpaperOnboarding
-(
-false
-)
 mDevice
 =
 UiDevice

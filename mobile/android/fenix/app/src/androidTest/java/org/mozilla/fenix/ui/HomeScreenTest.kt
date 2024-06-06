@@ -683,12 +683,6 @@ setJumpBackCFREnabled
 (
 false
 )
-featureSettingsHelper
-.
-setShowWallpaperOnboarding
-(
-false
-)
 homeScreen
 {
 verifyWelcomeHeader

@@ -774,12 +774,6 @@ setTCPCFREnabled
 (
 false
 )
-featureSettingsHelper
-.
-setShowWallpaperOnboarding
-(
-false
-)
 mDevice
 =
 UiDevice
