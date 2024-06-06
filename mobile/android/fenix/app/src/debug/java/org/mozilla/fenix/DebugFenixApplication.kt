@@ -173,7 +173,9 @@ string
 .
 pref_key_leakcanary
 )
-true
+BuildConfig
+.
+LEAKCANARY
 )
 }
 updateLeakCanaryState
