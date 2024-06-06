@@ -237,8 +237,6 @@ showFirstRun
 =
 false
 )
-SmokeTest
-Test
 /
 /
 Test
@@ -249,6 +247,8 @@ feature
 with
 default
 settings
+SmokeTest
+Test
 fun
 defaultAutoCompleteURLTest
 (
@@ -342,7 +342,6 @@ searchTerm
 )
 }
 }
-Test
 /
 /
 Add
@@ -361,6 +360,7 @@ is
 no
 longer
 autocompleted
+Test
 fun
 customUrlAutoCompletionTest
 (
@@ -508,7 +508,6 @@ clearSearchBar
 )
 }
 }
-Test
 /
 /
 Add
@@ -518,6 +517,7 @@ site
 then
 disable
 autocomplete
+Test
 fun
 disableAutocompleteForCustomSiteTest
 (
@@ -596,7 +596,6 @@ clearSearchBar
 )
 }
 }
-Test
 /
 /
 Verifies
@@ -609,6 +608,7 @@ t
 be
 added
 twice
+Test
 fun
 duplicateCustomUrlNotAllowedTest
 (

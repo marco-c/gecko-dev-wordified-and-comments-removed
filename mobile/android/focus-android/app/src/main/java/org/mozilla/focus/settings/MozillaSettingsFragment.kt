@@ -479,13 +479,17 @@ AppConstants
 .
 isKlarBuild
 )
+{
 SupportUtils
 .
 PRIVACY_NOTICE_KLAR_URL
+}
 else
+{
 SupportUtils
 .
 PRIVACY_NOTICE_URL
+}
 val
 tabId
 =

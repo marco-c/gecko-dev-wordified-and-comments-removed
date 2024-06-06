@@ -4462,8 +4462,11 @@ browsers
 .
 hasFirefoxBrandedBrowserInstalled
 )
+{
 null
+}
 else
+{
 InstallFirefoxActivity
 .
 resolveAppStore
@@ -4472,6 +4475,7 @@ requireContext
 (
 )
 )
+}
 val
 fragment
 =

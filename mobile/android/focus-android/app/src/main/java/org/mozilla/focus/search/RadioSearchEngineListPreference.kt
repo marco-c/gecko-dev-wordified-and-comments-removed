@@ -379,9 +379,13 @@ Type
 .
 CUSTOM
 )
+{
 ENGINE_TYPE_CUSTOM
+}
 else
+{
 ENGINE_TYPE_BUNDLED
+}
 SearchEngines
 .
 setDefault

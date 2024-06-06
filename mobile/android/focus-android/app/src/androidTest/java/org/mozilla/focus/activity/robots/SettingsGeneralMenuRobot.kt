@@ -584,13 +584,17 @@ if
 (
 checked
 )
+{
 isChecked
 (
 )
+}
 else
+{
 isNotChecked
 (
 )
+}
 )
 )
 }

@@ -158,6 +158,7 @@ LayoutDirection
 .
 Rtl
 )
+{
 this
 .
 scale
@@ -170,6 +171,9 @@ scaleY
 =
 1f
 )
+}
 else
+{
 this
+}
 }

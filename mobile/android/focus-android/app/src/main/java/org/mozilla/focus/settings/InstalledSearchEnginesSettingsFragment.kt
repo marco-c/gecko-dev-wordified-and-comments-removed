@@ -320,13 +320,17 @@ if
 (
 languageChanged
 )
+{
 restoreSearchEngines
 (
 )
+}
 else
+{
 refetchSearchEngines
 (
 )
+}
 }
 override
 fun

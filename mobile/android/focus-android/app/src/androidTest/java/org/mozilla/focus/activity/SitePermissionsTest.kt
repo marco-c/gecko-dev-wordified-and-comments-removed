@@ -515,8 +515,6 @@ verifyAutoplaySection
 )
 }
 }
-SmokeTest
-Test
 /
 /
 Tests
@@ -537,6 +535,8 @@ attribute
 and
 not
 muted
+SmokeTest
+Test
 fun
 blockAudioAutoplayPermissionTest
 (
@@ -600,8 +600,6 @@ waitForPlaybackToStart
 )
 }
 }
-SmokeTest
-Test
 /
 /
 Tests
@@ -621,6 +619,8 @@ autoplay
 and
 muted
 attributes
+SmokeTest
+Test
 fun
 blockAudioAutoplayPermissionOnMutedVideoTest
 (
@@ -662,8 +662,6 @@ waitForPlaybackToStart
 )
 }
 }
-SmokeTest
-Test
 /
 /
 Tests
@@ -684,6 +682,8 @@ attribute
 and
 not
 muted
+SmokeTest
+Test
 fun
 allowAudioVideoAutoplayPermissionTest
 (
@@ -743,8 +743,6 @@ waitForPlaybackToStart
 )
 }
 }
-SmokeTest
-Test
 /
 /
 Tests
@@ -764,6 +762,8 @@ autoplay
 and
 muted
 attributes
+SmokeTest
+Test
 fun
 allowAudioVideoAutoplayPermissionOnMutedVideoTest
 (
@@ -846,8 +846,6 @@ waitForPlaybackToStart
 )
 }
 }
-SmokeTest
-Test
 /
 /
 Tests
@@ -859,6 +857,8 @@ Block
 audio
 and
 video
+SmokeTest
+Test
 fun
 blockAudioVideoAutoplayPermissionTest
 (

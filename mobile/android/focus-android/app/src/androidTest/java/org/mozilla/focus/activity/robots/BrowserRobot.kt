@@ -751,11 +751,13 @@ waitForExists
 waitingTime
 )
 )
+{
 permissionAllowBtn
 .
 click
 (
 )
+}
 }
 fun
 denySitePermissionRequest
@@ -771,11 +773,13 @@ waitForExists
 waitingTime
 )
 )
+{
 permissionDenyBtn
 .
 click
 (
 )
+}
 }
 fun
 verifyEraseBrowsingButton

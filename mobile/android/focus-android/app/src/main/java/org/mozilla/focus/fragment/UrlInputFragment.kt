@@ -2400,6 +2400,7 @@ if
 (
 isOverlay
 )
+{
 (
 binding
 .
@@ -2413,8 +2414,11 @@ LayoutParams
 )
 .
 bottomMargin
+}
 else
+{
 0
+}
 )
 .
 toFloat
@@ -2451,6 +2455,7 @@ if
 (
 isOverlay
 )
+{
 (
 width
 +
@@ -2460,8 +2465,11 @@ xyOffset
 )
 /
 width
+}
 else
+{
 1f
+}
 val
 heightScale
 =
@@ -2469,6 +2477,7 @@ if
 (
 isOverlay
 )
+{
 (
 height
 +
@@ -2478,8 +2487,11 @@ xyOffset
 )
 /
 height
+}
 else
+{
 1f
+}
 if
 (
 !
@@ -3177,13 +3189,16 @@ if
 (
 isUrl
 )
+{
 UrlUtils
 .
 normalize
 (
 input
 )
+}
 else
+{
 SearchUtils
 .
 createSearchUrl
@@ -3191,6 +3206,7 @@ createSearchUrl
 context
 input
 )
+}
 val
 searchTerms
 =
@@ -3198,8 +3214,11 @@ if
 (
 isUrl
 )
+{
 null
+}
 else
+{
 input
 .
 trim
@@ -3209,6 +3228,7 @@ it
 =
 '
 '
+}
 }
 return
 Triple
