@@ -740,13 +740,18 @@ context
 !
 preferenceSyncNow
 )
-if
-(
 requireComponents
 .
 backgroundServices
 .
 syncManager
+?
+.
+let
+{
+if
+(
+it
 .
 isSyncRunning
 (
@@ -778,6 +783,7 @@ preferenceSyncNow
 isEnabled
 =
 true
+}
 }
 }
 /
@@ -914,6 +920,7 @@ requireComponents
 backgroundServices
 .
 syncManager
+?
 .
 register
 (
@@ -1006,6 +1013,7 @@ requireComponents
 backgroundServices
 .
 syncManager
+?
 .
 syncNow
 (

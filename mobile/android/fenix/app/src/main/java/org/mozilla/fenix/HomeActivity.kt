@@ -825,6 +825,7 @@ components
 backgroundServices
 .
 syncManager
+?
 .
 syncNow
 (
