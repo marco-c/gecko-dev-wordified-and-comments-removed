@@ -1035,7 +1035,7 @@ openNewTab
 {
 }
 .
-dismiss
+dismissSearchBar
 {
 }
 .

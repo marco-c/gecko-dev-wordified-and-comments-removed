@@ -545,6 +545,11 @@ BrowserRobot
 .
 Transition
 {
+mDevice
+.
+pressBack
+(
+)
 BrowserRobot
 (
 )

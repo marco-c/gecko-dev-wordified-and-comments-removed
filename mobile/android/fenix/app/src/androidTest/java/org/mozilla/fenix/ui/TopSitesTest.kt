@@ -355,7 +355,7 @@ openNewTab
 {
 }
 .
-dismiss
+dismissSearchBar
 {
 verifyExistingTopSitesList
 (
@@ -430,7 +430,7 @@ openNewTab
 {
 }
 .
-dismiss
+dismissSearchBar
 {
 verifyExistingTopSitesList
 (
@@ -480,7 +480,7 @@ openNewTab
 {
 }
 .
-dismiss
+dismissSearchBar
 {
 verifyExistingTopSitesList
 (
@@ -576,7 +576,7 @@ openNewTab
 {
 }
 .
-dismiss
+dismissSearchBar
 {
 verifyExistingTopSitesList
 (
@@ -679,7 +679,7 @@ openNewTab
 {
 }
 .
-dismiss
+dismissSearchBar
 {
 verifyExistingTopSitesList
 (
@@ -778,7 +778,7 @@ openNewTab
 {
 }
 .
-dismiss
+dismissSearchBar
 {
 verifyExistingTopSitesList
 (

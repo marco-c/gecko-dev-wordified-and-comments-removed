@@ -909,7 +909,7 @@ openNewTab
 {
 }
 .
-dismiss
+dismissSearchBar
 {
 }
 .
@@ -1019,7 +1019,7 @@ openNewTab
 {
 }
 .
-dismiss
+dismissSearchBar
 {
 }
 .
@@ -1218,7 +1218,7 @@ openNewTab
 {
 }
 .
-dismiss
+dismissSearchBar
 {
 }
 setOpenLinksInPrivateOff
@@ -1398,7 +1398,7 @@ openNewTab
 {
 }
 .
-dismiss
+dismissSearchBar
 {
 }
 setOpenLinksInPrivateOff
@@ -1435,7 +1435,7 @@ openNewTab
 {
 }
 .
-dismiss
+dismissSearchBar
 {
 }
 .

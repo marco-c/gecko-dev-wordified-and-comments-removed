@@ -874,7 +874,7 @@ openNewTab
 {
 }
 .
-dismiss
+dismissSearchBar
 {
 }
 }
@@ -1395,7 +1395,7 @@ openNewTab
 {
 }
 .
-dismiss
+dismissSearchBar
 {
 }
 }

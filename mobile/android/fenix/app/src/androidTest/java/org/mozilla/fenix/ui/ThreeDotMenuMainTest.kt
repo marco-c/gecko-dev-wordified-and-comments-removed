@@ -361,7 +361,7 @@ openNewTab
 {
 }
 .
-dismiss
+dismissSearchBar
 {
 }
 .
@@ -384,7 +384,7 @@ openNewTab
 {
 }
 .
-dismiss
+dismissSearchBar
 {
 }
 homeScreen

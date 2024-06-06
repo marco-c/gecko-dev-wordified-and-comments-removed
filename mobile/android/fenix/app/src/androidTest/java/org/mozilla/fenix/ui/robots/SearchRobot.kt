@@ -844,7 +844,7 @@ sessionLoadedIdlingResource
 :
 SessionLoadedIdlingResource
 fun
-dismiss
+dismissSearchBar
 (
 interact
 :
