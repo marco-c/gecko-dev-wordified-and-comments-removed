@@ -1659,6 +1659,14 @@ script
 )
 const
 ;
+const
+char
+*
+filename
+(
+)
+const
+;
 ModuleEnvironmentObject
 &
 initialEnvironment
