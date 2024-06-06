@@ -285,6 +285,7 @@ onResume
 preferenceManager
 .
 sharedPreferences
+?
 .
 registerOnSharedPreferenceChangeListener
 (
@@ -311,6 +312,7 @@ onPause
 preferenceManager
 .
 sharedPreferences
+?
 .
 unregisterOnSharedPreferenceChangeListener
 (

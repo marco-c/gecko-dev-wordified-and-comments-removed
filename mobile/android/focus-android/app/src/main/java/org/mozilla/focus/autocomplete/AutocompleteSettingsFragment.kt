@@ -321,6 +321,7 @@ preference_subitem_autocomplete
 preferenceManager
 .
 sharedPreferences
+?
 .
 registerOnSharedPreferenceChangeListener
 (
@@ -341,6 +342,7 @@ onPause
 preferenceManager
 .
 sharedPreferences
+?
 .
 unregisterOnSharedPreferenceChangeListener
 (

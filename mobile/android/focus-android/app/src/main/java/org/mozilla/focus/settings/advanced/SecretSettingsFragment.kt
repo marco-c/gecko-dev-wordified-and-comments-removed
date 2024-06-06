@@ -173,6 +173,7 @@ preference_secret_settings
 preferenceManager
 .
 sharedPreferences
+?
 .
 registerOnSharedPreferenceChangeListener
 (

@@ -133,6 +133,7 @@ defaultSearchEngineName
 preferenceManager
 .
 sharedPreferences
+?
 .
 registerOnSharedPreferenceChangeListener
 (
@@ -153,6 +154,7 @@ onPrepareForRemoval
 preferenceManager
 .
 sharedPreferences
+?
 .
 unregisterOnSharedPreferenceChangeListener
 (
