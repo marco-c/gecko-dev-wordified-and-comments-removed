@@ -157,6 +157,9 @@ trustedBiddingSignalsSlotSizeMode
 none
 "
 ;
+long
+maxTrustedBiddingSignalsURLLength
+;
 any
 userBiddingSignals
 ;
@@ -300,6 +303,9 @@ decisionLogicURL
 USVString
 trustedScoringSignalsURL
 ;
+long
+maxTrustedScoringSignalsURLLength
+;
 sequence
 <
 USVString
@@ -340,6 +346,16 @@ Promise
 DOMString
 >
 directFromSellerSignalsHeaderAdSlot
+;
+Promise
+<
+record
+<
+USVString
+USVString
+>
+>
+deprecatedRenderURLReplacements
 ;
 unsigned
 long

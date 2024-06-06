@@ -110,6 +110,12 @@ CSSNumberish
 ?
 currentTime
 ;
+readonly
+attribute
+double
+?
+progress
+;
 }
 ;
 [

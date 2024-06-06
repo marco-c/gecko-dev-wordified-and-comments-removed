@@ -144,6 +144,11 @@ height
 =
 0
 ;
+boolean
+allowReturnToOpener
+=
+true
+;
 }
 ;
 [

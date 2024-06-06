@@ -121,6 +121,12 @@ attribute
 DOMHighResTimeStamp
 criticalCHRestart
 ;
+readonly
+attribute
+NotRestoredReasons
+?
+notRestoredReasons
+;
 [
 Default
 ]

@@ -825,6 +825,13 @@ CEReactions
 ]
 attribute
 DOMString
+writingSuggestions
+;
+[
+CEReactions
+]
+attribute
+DOMString
 autocapitalize
 ;
 [
