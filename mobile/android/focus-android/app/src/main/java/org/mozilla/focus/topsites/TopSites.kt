@@ -923,6 +923,7 @@ isNullOrEmpty
 (
 )
 )
+{
 topSite
 .
 url
@@ -930,7 +931,9 @@ url
 getRepresentativeCharacter
 (
 )
+}
 else
+{
 topSite
 .
 title
@@ -944,6 +947,7 @@ get
 toString
 (
 )
+}
 color
 =
 focusColors
