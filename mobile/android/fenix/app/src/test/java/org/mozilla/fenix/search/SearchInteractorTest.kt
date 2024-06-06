@@ -322,6 +322,9 @@ HomeActivity
 =
 mockk
 (
+relaxed
+=
+true
 )
 val
 store
@@ -359,6 +362,9 @@ Default
 (
 mockk
 (
+relaxed
+=
+true
 )
 )
 every
@@ -834,6 +840,9 @@ HomeActivity
 =
 mockk
 (
+relaxed
+=
+true
 )
 val
 store
@@ -871,6 +880,9 @@ Default
 (
 mockk
 (
+relaxed
+=
+true
 )
 )
 every
