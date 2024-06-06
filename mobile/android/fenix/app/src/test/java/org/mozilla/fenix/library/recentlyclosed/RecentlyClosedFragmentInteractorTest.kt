@@ -413,7 +413,7 @@ Private
 }
 Test
 fun
-onDeleteOne
+onDelete
 (
 )
 {
@@ -447,7 +447,7 @@ lastAccess
 )
 interactor
 .
-onDeleteOne
+onDelete
 (
 tab
 )
@@ -455,7 +455,7 @@ verify
 {
 defaultRecentlyClosedController
 .
-handleDeleteOne
+handleDelete
 (
 tab
 )
