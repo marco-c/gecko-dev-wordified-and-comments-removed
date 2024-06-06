@@ -141,15 +141,6 @@ auto
 "
 tools
 :
-background
-=
-"
-drawable
-/
-mozac_ui_tabcounter_round_rectangle_ripple
-"
-tools
-:
 layout_height
 =
 "
