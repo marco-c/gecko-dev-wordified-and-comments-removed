@@ -2020,7 +2020,6 @@ onGetDefaultValue
 a
 :
 TypedArray
-?
 index
 :
 Int
@@ -2030,8 +2029,6 @@ Any
 {
 return
 a
-!
-!
 .
 getInt
 (
