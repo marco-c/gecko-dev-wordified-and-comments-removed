@@ -242,6 +242,9 @@ feature
 .
 onResume
 (
+mockk
+(
+)
 )
 }
 Test
@@ -316,6 +319,9 @@ feature
 .
 onResume
 (
+mockk
+(
+)
 )
 }
 Test
@@ -346,6 +352,9 @@ feature
 .
 onPause
 (
+mockk
+(
+)
 )
 }
 }

@@ -348,6 +348,9 @@ observer
 .
 onResume
 (
+mockk
+(
+)
 )
 assertFalse
 (
@@ -387,6 +390,9 @@ observer
 .
 onPause
 (
+mockk
+(
+)
 )
 clock
 .
@@ -397,6 +403,9 @@ observer
 .
 onResume
 (
+mockk
+(
+)
 )
 assertTrue
 (
@@ -626,6 +635,9 @@ observer
 .
 onPause
 (
+mockk
+(
+)
 )
 store
 .
@@ -670,6 +682,9 @@ observer
 .
 onResume
 (
+mockk
+(
+)
 )
 assertTrue
 (

@@ -129,6 +129,12 @@ io
 .
 mockk
 .
+mockk
+import
+io
+.
+mockk
+.
 mockkStatic
 import
 io
@@ -543,8 +549,11 @@ logoView
 )
 trigger
 .
-clearClickCounter
+onResume
 (
+mockk
+(
+)
 )
 clickListener
 .

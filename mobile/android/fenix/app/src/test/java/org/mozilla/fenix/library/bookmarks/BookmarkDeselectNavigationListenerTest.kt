@@ -240,6 +240,9 @@ listener
 .
 onResume
 (
+mockk
+(
+)
 )
 verify
 {
@@ -254,6 +257,9 @@ listener
 .
 onDestroy
 (
+mockk
+(
+)
 )
 verify
 {
