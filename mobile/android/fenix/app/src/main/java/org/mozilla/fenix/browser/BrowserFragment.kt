@@ -1797,7 +1797,7 @@ view
 rootView
 Snackbar
 .
-LENGTH_LONG
+LENGTH_SHORT
 )
 .
 setText
