@@ -427,6 +427,15 @@ layout_height
 "
 80dp
 "
+android
+:
+background
+=
+"
+color
+/
+foundation_normal_theme
+"
 app
 :
 tabIndicatorColor
