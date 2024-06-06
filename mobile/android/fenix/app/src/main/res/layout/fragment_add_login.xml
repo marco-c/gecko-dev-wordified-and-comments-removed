@@ -942,7 +942,7 @@ contentDescription
 "
 string
 /
-saved_login_username_description
+saved_login_username_description_3
 "
 app
 :
@@ -1471,7 +1471,7 @@ contentDescription
 "
 string
 /
-saved_login_password_description
+saved_login_password_description_2
 "
 android
 :

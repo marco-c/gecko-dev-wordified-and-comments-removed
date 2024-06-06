@@ -941,7 +941,7 @@ R
 .
 string
 .
-preferences_passwords_saved_logins_search
+preferences_passwords_saved_logins_search_2
 )
 searchView
 .
@@ -1314,7 +1314,7 @@ R
 .
 string
 .
-preferences_passwords_saved_logins
+preferences_passwords_saved_logins_2
 )
 )
 (

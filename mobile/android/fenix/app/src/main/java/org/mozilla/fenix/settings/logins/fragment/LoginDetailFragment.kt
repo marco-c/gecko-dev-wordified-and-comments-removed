@@ -1413,7 +1413,7 @@ R
 .
 string
 .
-login_deletion_confirmation
+login_deletion_confirmation_2
 )
 setNegativeButton
 (

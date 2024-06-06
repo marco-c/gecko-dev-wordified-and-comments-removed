@@ -1514,7 +1514,7 @@ R
 .
 string
 .
-saved_login_username_required
+saved_login_username_required_2
 )
 layout
 .
@@ -1698,7 +1698,7 @@ R
 .
 string
 .
-saved_login_password_required
+saved_login_password_required_2
 )
 layout
 .
@@ -1944,7 +1944,7 @@ R
 .
 string
 .
-add_login
+add_login_2
 )
 )
 }

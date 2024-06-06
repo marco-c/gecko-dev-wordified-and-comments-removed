@@ -220,7 +220,7 @@ text
 "
 string
 /
-preferences_passwords_saved_logins
+preferences_passwords_saved_logins_2
 "
 app
 :
@@ -403,7 +403,7 @@ contentDescription
 "
 string
 /
-saved_logins_menu_dropdown_chevron_icon_content_description
+saved_logins_menu_dropdown_chevron_icon_content_description_2
 "
 app
 :

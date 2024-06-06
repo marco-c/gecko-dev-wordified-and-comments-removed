@@ -3050,7 +3050,7 @@ label
 "
 string
 /
-preferences_passwords_logins_and_passwords
+preferences_passwords_logins_and_passwords_2
 "
 >
 <
@@ -9941,7 +9941,7 @@ label
 "
 string
 /
-preferences_credit_cards
+preferences_credit_cards_2
 "
 >
 <
@@ -10764,7 +10764,7 @@ label
 "
 string
 /
-add_login
+add_login_2
 "
 tools
 :
@@ -10966,7 +10966,7 @@ label
 "
 string
 /
-edit
+edit_2
 "
 tools
 :

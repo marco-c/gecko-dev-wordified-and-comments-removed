@@ -899,7 +899,7 @@ R
 .
 string
 .
-credit_cards_delete_dialog_confirmation
+credit_cards_delete_dialog_confirmation_2
 )
 setNegativeButton
 (

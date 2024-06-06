@@ -5761,7 +5761,7 @@ R
 .
 string
 .
-credit_cards_biometric_prompt_unlock_message
+credit_cards_biometric_prompt_unlock_message_2
 )
 )
 return
@@ -5906,7 +5906,7 @@ R
 .
 string
 .
-credit_cards_biometric_prompt_unlock_message
+credit_cards_biometric_prompt_unlock_message_2
 )
 )
 startForResult
@@ -5960,7 +5960,7 @@ R
 .
 string
 .
-credit_cards_warning_dialog_title
+credit_cards_warning_dialog_title_2
 )
 )
 setMessage
@@ -5971,7 +5971,7 @@ R
 .
 string
 .
-credit_cards_warning_dialog_message
+credit_cards_warning_dialog_message_3
 )
 )
 setNegativeButton

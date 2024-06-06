@@ -148,7 +148,7 @@ summary
 "
 string
 /
-preferences_credit_cards_save_and_autofill_cards_summary
+preferences_credit_cards_save_and_autofill_cards_summary_2
 "
 android
 :
@@ -157,7 +157,7 @@ title
 "
 string
 /
-preferences_credit_cards_save_and_autofill_cards
+preferences_credit_cards_save_and_autofill_cards_2
 "
 /
 >
@@ -223,7 +223,7 @@ title
 "
 string
 /
-preferences_credit_cards_manage_saved_cards
+preferences_credit_cards_manage_saved_cards_2
 "
 app
 :

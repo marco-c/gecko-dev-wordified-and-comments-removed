@@ -402,7 +402,7 @@ contentDescription
 "
 string
 /
-saved_login_hostname_description
+saved_login_hostname_description_3
 "
 app
 :
@@ -556,7 +556,7 @@ hint
 "
 string
 /
-saved_login_hostname_description
+saved_login_hostname_description_3
 "
 android
 :
@@ -861,7 +861,7 @@ contentDescription
 "
 string
 /
-saved_login_username_description
+saved_login_username_description_3
 "
 app
 :
@@ -1416,7 +1416,7 @@ contentDescription
 "
 string
 /
-saved_login_password_description
+saved_login_password_description_2
 "
 app
 :

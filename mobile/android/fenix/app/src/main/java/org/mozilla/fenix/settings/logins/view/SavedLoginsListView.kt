@@ -311,7 +311,7 @@ R
 .
 string
 .
-preferences_passwords_saved_logins_description_empty_text
+preferences_passwords_saved_logins_description_empty_text_2
 )
 appName
 )

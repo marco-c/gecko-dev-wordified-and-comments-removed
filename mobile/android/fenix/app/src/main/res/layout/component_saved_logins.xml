@@ -360,7 +360,7 @@ text
 "
 string
 /
-preferences_passwords_saved_logins_description_empty_text
+preferences_passwords_saved_logins_description_empty_text_2
 "
 android
 :
@@ -443,7 +443,7 @@ text
 "
 string
 /
-preferences_passwords_saved_logins_description_empty_learn_more_link
+preferences_passwords_saved_logins_description_empty_learn_more_link_2
 "
 android
 :

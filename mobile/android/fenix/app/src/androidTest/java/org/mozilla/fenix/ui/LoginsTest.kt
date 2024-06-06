@@ -507,9 +507,7 @@ view
 /
 Tests
 the
-Logins
-and
-passwords
+Passwords
 menu
 items
 and
@@ -546,9 +544,7 @@ sizes
 scrollToElementByText
 (
 "
-Logins
-and
-passwords
+Passwords
 "
 )
 }
@@ -648,9 +644,7 @@ sizes
 scrollToElementByText
 (
 "
-Logins
-and
-passwords
+Passwords
 "
 )
 }
@@ -741,9 +735,7 @@ sizes
 scrollToElementByText
 (
 "
-Logins
-and
-passwords
+Passwords
 "
 )
 }
@@ -877,9 +869,7 @@ openSettings
 scrollToElementByText
 (
 "
-Logins
-and
-passwords
+Passwords
 "
 )
 }
@@ -1370,9 +1360,7 @@ openSettings
 scrollToElementByText
 (
 "
-Logins
-and
-passwords
+Passwords
 "
 )
 }

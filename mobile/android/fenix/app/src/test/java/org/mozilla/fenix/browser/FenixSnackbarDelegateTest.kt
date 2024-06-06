@@ -318,12 +318,13 @@ R
 .
 string
 .
-edit
+edit_2
 )
 }
 returns
 "
 Edit
+password
 "
 }
 After
@@ -528,7 +529,7 @@ R
 .
 string
 .
-edit
+edit_2
 listener
 =
 null
@@ -624,7 +625,7 @@ R
 .
 string
 .
-edit
+edit_2
 listener
 =
 listener
@@ -648,6 +649,7 @@ setAction
 (
 "
 Edit
+password
 "
 withArg
 {

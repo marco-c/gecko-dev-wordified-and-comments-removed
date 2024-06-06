@@ -161,14 +161,12 @@ preference
 in
 the
 "
-Logins
-and
-passwords
+Passwords
 "
 and
 "
-Credit
-cards
+Payment
+Methods
 "
 *
 settings

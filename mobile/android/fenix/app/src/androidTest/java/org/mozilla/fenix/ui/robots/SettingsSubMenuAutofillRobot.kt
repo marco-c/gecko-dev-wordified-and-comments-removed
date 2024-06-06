@@ -694,7 +694,7 @@ R
 .
 string
 .
-preferences_addresses_save_and_autofill_addresses
+preferences_addresses_save_and_autofill_addresses_2
 )
 )
 .
@@ -805,7 +805,7 @@ R
 .
 string
 .
-preferences_credit_cards_save_and_autofill_cards
+preferences_credit_cards_save_and_autofill_cards_2
 )
 )
 .
@@ -1302,7 +1302,7 @@ the
 "
 Save
 and
-autofill
+fill
 addresses
 \
 "
@@ -1330,7 +1330,7 @@ the
 "
 Save
 and
-autofill
+fill
 addresses
 \
 "
@@ -4456,7 +4456,7 @@ R
 .
 string
 .
-credit_cards_number_validation_error_message
+credit_cards_number_validation_error_message_2
 )
 )
 )
@@ -4475,7 +4475,7 @@ R
 .
 string
 .
-credit_cards_name_on_card_validation_error_message
+credit_cards_name_on_card_validation_error_message_2
 )
 )
 )
@@ -4892,7 +4892,7 @@ R
 .
 string
 .
-preferences_addresses_save_and_autofill_addresses
+preferences_addresses_save_and_autofill_addresses_2
 )
 )
 private
@@ -4909,7 +4909,7 @@ R
 .
 string
 .
-preferences_addresses_save_and_autofill_addresses_summary
+preferences_addresses_save_and_autofill_addresses_summary_2
 )
 )
 private
@@ -5296,7 +5296,7 @@ R
 .
 string
 .
-preferences_credit_cards
+preferences_credit_cards_2
 )
 )
 private
@@ -5313,7 +5313,7 @@ R
 .
 string
 .
-preferences_credit_cards_save_and_autofill_cards
+preferences_credit_cards_save_and_autofill_cards_2
 )
 )
 private
@@ -5330,7 +5330,7 @@ R
 .
 string
 .
-preferences_credit_cards_save_and_autofill_cards_summary
+preferences_credit_cards_save_and_autofill_cards_summary_2
 )
 )
 private
@@ -5372,7 +5372,7 @@ R
 .
 string
 .
-preferences_credit_cards_add_credit_card
+preferences_credit_cards_add_credit_card_2
 )
 )
 )
@@ -5432,7 +5432,7 @@ R
 .
 string
 .
-preferences_credit_cards_manage_saved_cards
+preferences_credit_cards_manage_saved_cards_2
 )
 )
 )

@@ -139,7 +139,7 @@ contentDescription
 "
 string
 /
-login_options_menu
+login_options_menu_2
 "
 android
 :
@@ -148,7 +148,7 @@ title
 "
 string
 /
-login_options_menu
+login_options_menu_2
 "
 app
 :

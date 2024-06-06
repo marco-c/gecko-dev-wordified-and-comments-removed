@@ -1768,7 +1768,7 @@ R
 .
 string
 .
-logins_warning_dialog_title
+logins_warning_dialog_title_2
 )
 )
 setMessage
@@ -1779,7 +1779,7 @@ R
 .
 string
 .
-logins_warning_dialog_message
+logins_warning_dialog_message_2
 )
 )
 setNegativeButton

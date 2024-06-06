@@ -759,7 +759,7 @@ R
 .
 string
 .
-addressess_confirm_dialog_message
+addressess_confirm_dialog_message_2
 )
 setNegativeButton
 (

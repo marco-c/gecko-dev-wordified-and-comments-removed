@@ -873,7 +873,7 @@ R
 .
 string
 .
-credit_cards_number_validation_error_message
+credit_cards_number_validation_error_message_2
 )
 binding
 .
@@ -966,7 +966,7 @@ R
 .
 string
 .
-credit_cards_name_on_card_validation_error_message
+credit_cards_name_on_card_validation_error_message_2
 )
 binding
 .

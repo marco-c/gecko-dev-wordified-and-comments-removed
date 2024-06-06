@@ -2051,9 +2051,7 @@ verifyLoginsAndPasswordsButton
 scrollToElementByText
 (
 "
-Logins
-and
-passwords
+Passwords
 "
 )
 Log
@@ -2089,7 +2087,7 @@ R
 .
 string
 .
-preferences_passwords_logins_and_passwords
+preferences_passwords_logins_and_passwords_2
 )
 )
 .
@@ -6160,9 +6158,7 @@ Transition
 scrollToElementByText
 (
 "
-Logins
-and
-passwords
+Passwords
 "
 )
 Log
@@ -6192,9 +6188,7 @@ onView
 withText
 (
 "
-Logins
-and
-passwords
+Passwords
 "
 )
 )

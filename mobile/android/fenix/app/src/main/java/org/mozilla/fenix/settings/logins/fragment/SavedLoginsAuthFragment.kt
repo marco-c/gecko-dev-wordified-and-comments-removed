@@ -984,7 +984,7 @@ R
 .
 string
 .
-preferences_passwords_sync_logins_across_devices
+preferences_passwords_sync_logins_across_devices_2
 )
 loggedInTitle
 =
@@ -998,7 +998,7 @@ R
 .
 string
 .
-preferences_passwords_sync_logins
+preferences_passwords_sync_logins_2
 )
 onSyncSignInClicked
 =
@@ -1100,7 +1100,7 @@ R
 .
 string
 .
-logins_biometric_prompt_message
+logins_biometric_prompt_message_2
 )
 )
 return
@@ -1204,7 +1204,7 @@ R
 .
 string
 .
-logins_warning_dialog_title
+logins_warning_dialog_title_2
 )
 )
 setMessage
@@ -1215,7 +1215,7 @@ R
 .
 string
 .
-logins_warning_dialog_message
+logins_warning_dialog_message_2
 )
 )
 setNegativeButton

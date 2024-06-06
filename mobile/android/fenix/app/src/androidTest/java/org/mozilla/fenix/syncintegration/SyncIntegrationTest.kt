@@ -877,7 +877,7 @@ Passwords
 menu
 the
 Sync
-logins
+passwords
 option
 is
 set

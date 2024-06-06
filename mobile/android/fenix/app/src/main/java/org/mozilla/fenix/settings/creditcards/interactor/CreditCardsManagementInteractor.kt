@@ -207,7 +207,6 @@ taps
 on
 '
 Add
-credit
 card
 '
 button

@@ -8212,8 +8212,8 @@ choice
 from
 the
 "
-Credit
-cards
+Payment
+methods
 "
 settings
 for

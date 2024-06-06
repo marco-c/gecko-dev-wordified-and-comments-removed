@@ -1061,7 +1061,7 @@ R
 .
 string
 .
-saved_login_username_required
+saved_login_username_required_2
 )
 binding
 .
@@ -1228,7 +1228,7 @@ R
 .
 string
 .
-saved_login_password_required
+saved_login_password_required_2
 )
 binding
 .

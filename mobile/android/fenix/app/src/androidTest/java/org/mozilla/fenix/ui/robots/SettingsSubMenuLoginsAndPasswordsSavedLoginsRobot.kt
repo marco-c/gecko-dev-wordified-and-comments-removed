@@ -458,8 +458,7 @@ the
 "
 Secure
 your
-logins
-and
+saved
 passwords
 \
 "
@@ -475,8 +474,7 @@ withText
 "
 Secure
 your
-logins
-and
+saved
 passwords
 "
 )
@@ -511,8 +509,7 @@ the
 "
 Secure
 your
-logins
-and
+saved
 passwords
 \
 "
@@ -558,7 +555,7 @@ R
 .
 string
 .
-preferences_passwords_saved_logins_description_empty_text
+preferences_passwords_saved_logins_description_empty_text_2
 )
 )
 )
@@ -625,7 +622,7 @@ R
 .
 string
 .
-preferences_passwords_saved_logins_description_empty_learn_more_link
+preferences_passwords_saved_logins_description_empty_learn_more_link_2
 )
 )
 .
@@ -694,7 +691,7 @@ R
 .
 string
 .
-preferences_logins_add_login
+preferences_logins_add_login_2
 )
 )
 .
@@ -948,7 +945,7 @@ R
 .
 string
 .
-preferences_logins_add_login
+preferences_logins_add_login_2
 )
 )
 .
@@ -1183,7 +1180,7 @@ R
 .
 string
 .
-saved_login_password_required
+saved_login_password_required_2
 )
 )
 )
@@ -1973,7 +1970,7 @@ R
 .
 string
 .
-login_deletion_confirmation
+login_deletion_confirmation_2
 )
 )
 )
@@ -2577,7 +2574,7 @@ R
 .
 string
 .
-saved_login_username_required
+saved_login_username_required_2
 )
 )
 )
@@ -2596,7 +2593,7 @@ R
 .
 string
 .
-saved_login_password_required
+saved_login_password_required_2
 )
 )
 )

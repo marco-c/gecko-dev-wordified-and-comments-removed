@@ -376,8 +376,6 @@ text
 (
 "
 Save
-logins
-and
 passwords
 "
 )
@@ -439,8 +437,6 @@ the
 \
 "
 Save
-logins
-and
 passwords
 \
 "
@@ -1576,8 +1572,6 @@ withText
 (
 "
 Save
-logins
-and
 passwords
 "
 )
@@ -1594,7 +1588,7 @@ withText
 (
 "
 Saved
-logins
+passwords
 "
 )
 )
@@ -1610,7 +1604,7 @@ withText
 (
 "
 Sync
-logins
+passwords
 across
 devices
 "

@@ -469,7 +469,6 @@ pref
 is
 '
 Manage
-saved
 cards
 '
 (
@@ -488,7 +487,7 @@ R
 .
 string
 .
-preferences_credit_cards_manage_saved_cards
+preferences_credit_cards_manage_saved_cards_2
 )
 val
 manageCardsPreference
@@ -616,7 +615,7 @@ R
 .
 string
 .
-preferences_credit_cards_add_credit_card
+preferences_credit_cards_add_credit_card_2
 )
 val
 manageCardsPreference

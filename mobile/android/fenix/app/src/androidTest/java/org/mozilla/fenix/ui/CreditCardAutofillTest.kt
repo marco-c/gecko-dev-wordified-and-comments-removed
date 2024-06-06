@@ -467,7 +467,6 @@ MOCK_EXPIRATION_YEAR
 /
 Opening
 Manage
-saved
 cards
 to
 dismiss
@@ -1983,7 +1982,6 @@ MOCK_EXPIRATION_YEAR
 /
 Opening
 Manage
-saved
 cards
 to
 dismiss
@@ -2192,7 +2190,6 @@ MOCK_EXPIRATION_YEAR
 /
 Opening
 Manage
-saved
 cards
 to
 dismiss

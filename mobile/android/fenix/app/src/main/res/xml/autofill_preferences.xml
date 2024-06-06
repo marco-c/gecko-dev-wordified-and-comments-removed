@@ -173,7 +173,7 @@ summary
 "
 string
 /
-preferences_addresses_save_and_autofill_addresses_summary
+preferences_addresses_save_and_autofill_addresses_summary_2
 "
 android
 :
@@ -182,7 +182,7 @@ title
 "
 string
 /
-preferences_addresses_save_and_autofill_addresses
+preferences_addresses_save_and_autofill_addresses_2
 "
 /
 >
@@ -238,7 +238,7 @@ title
 "
 string
 /
-preferences_credit_cards
+preferences_credit_cards_2
 "
 >
 <
@@ -266,7 +266,7 @@ summary
 "
 string
 /
-preferences_credit_cards_save_and_autofill_cards_summary
+preferences_credit_cards_save_and_autofill_cards_summary_2
 "
 android
 :
@@ -275,7 +275,7 @@ title
 "
 string
 /
-preferences_credit_cards_save_and_autofill_cards
+preferences_credit_cards_save_and_autofill_cards_2
 "
 /
 >
@@ -334,7 +334,7 @@ title
 "
 string
 /
-preferences_credit_cards_manage_saved_cards
+preferences_credit_cards_manage_saved_cards_2
 "
 /
 >
