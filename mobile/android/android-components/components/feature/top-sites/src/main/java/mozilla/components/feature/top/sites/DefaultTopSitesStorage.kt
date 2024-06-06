@@ -892,6 +892,14 @@ addAll
 frecentSites
 )
 }
+if
+(
+topSites
+!
+=
+cachedTopSites
+)
+{
 emitTopSitesCountFact
 (
 pinnedSites
@@ -901,6 +909,7 @@ size
 cachedTopSites
 =
 topSites
+}
 return
 topSites
 }
