@@ -1411,11 +1411,7 @@ components
 core
 .
 historyStorage
-components
-.
-core
-.
-sessionManager
+lifecycleOwner
 sessionId
 =
 null
