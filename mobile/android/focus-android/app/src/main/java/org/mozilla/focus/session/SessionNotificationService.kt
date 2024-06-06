@@ -157,6 +157,18 @@ utils
 .
 ThreadUtils
 import
+mozilla
+.
+components
+.
+support
+.
+utils
+.
+ext
+.
+stopForegroundCompat
+import
 org
 .
 mozilla
@@ -448,7 +460,7 @@ tabsUseCases
 removeAllTabs
 (
 )
-stopForeground
+stopForegroundCompat
 (
 true
 )
