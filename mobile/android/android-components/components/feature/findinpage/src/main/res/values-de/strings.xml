@@ -63,9 +63,8 @@ name
 mozac_feature_findindpage_input
 "
 >
-In
 Seite
-suchen
+durchsuchen
 <
 /
 string
@@ -311,9 +310,14 @@ name
 mozac_feature_findindpage_dismiss
 "
 >
-In
+&
+quot
+;
 Seite
-suchen
+durchsuchen
+&
+quot
+;
 deaktivieren
 <
 /
