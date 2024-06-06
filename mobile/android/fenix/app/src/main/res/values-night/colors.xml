@@ -483,9 +483,10 @@ color
 -
 -
 Checkbox
-enabled
+default
 Radio
-enabled
+button
+default
 -
 -
 >
@@ -494,7 +495,7 @@ color
 name
 =
 "
-fx_mobile_action_color_tertiary
+fx_mobile_action_color_form_default
 "
 tools
 :
@@ -506,7 +507,7 @@ UnusedResources
 >
 color
 /
-photonLightGrey40
+photonLightGrey05
 <
 /
 color
