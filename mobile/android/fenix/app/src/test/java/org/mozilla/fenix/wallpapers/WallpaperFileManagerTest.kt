@@ -287,8 +287,6 @@ expected
 =
 Wallpaper
 .
-Remote
-.
 Expired
 (
 name
@@ -392,8 +390,6 @@ val
 currentWallpaper
 =
 Wallpaper
-.
-Remote
 .
 Expired
 (

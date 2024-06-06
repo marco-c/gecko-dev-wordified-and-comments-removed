@@ -206,8 +206,6 @@ String
 :
 Wallpaper
 .
-Remote
-.
 Expired
 ?
 {
@@ -234,8 +232,6 @@ exists
 )
 {
 Wallpaper
-.
-Remote
 .
 Expired
 (
