@@ -134,15 +134,6 @@ wrap_content
 "
 android
 :
-contentDescription
-=
-"
-string
-/
-quick_action_sheet
-"
-android
-:
 background
 =
 "
