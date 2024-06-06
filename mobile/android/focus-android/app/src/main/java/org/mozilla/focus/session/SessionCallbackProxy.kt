@@ -252,6 +252,16 @@ Session
 SecurityInfo
 (
 isSecure
+session
+.
+securityInfo
+.
+host
+session
+.
+securityInfo
+.
+issuer
 )
 }
 override
