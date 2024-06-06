@@ -260,7 +260,7 @@ assertTrue
 (
 testSearchProvider
 .
-containsAds
+containsAdLinks
 (
 listOf
 (
@@ -317,7 +317,7 @@ assertFalse
 (
 testSearchProvider
 .
-containsAds
+containsAdLinks
 (
 listOf
 (

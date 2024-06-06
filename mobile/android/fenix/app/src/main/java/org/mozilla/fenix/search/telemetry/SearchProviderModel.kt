@@ -250,7 +250,7 @@ ad
 *
 /
 fun
-containsAds
+containsAdLinks
 (
 urlList
 :

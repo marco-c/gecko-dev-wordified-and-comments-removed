@@ -3432,7 +3432,7 @@ class
 SearchAdClicked
 (
 val
-providerName
+keyName
 :
 String
 )
@@ -3449,7 +3449,7 @@ get
 (
 )
 =
-providerName
+keyName
 }
 data
 class
