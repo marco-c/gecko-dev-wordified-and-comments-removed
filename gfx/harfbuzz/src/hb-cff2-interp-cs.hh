@@ -745,7 +745,7 @@ int
 num_coords
 ;
 const
-CFF2VariationStore
+CFF2ItemVariationStore
 *
 varStore
 ;

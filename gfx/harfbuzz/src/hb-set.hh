@@ -89,6 +89,7 @@ hb_sparseset_t
 &
 other
 )
+noexcept
 :
 hb_sparseset_t
 (
@@ -138,6 +139,7 @@ hb_sparseset_t
 &
 other
 )
+noexcept
 {
 s
 =
@@ -167,6 +169,7 @@ hb_sparseset_t
 &
 b
 )
+noexcept
 {
 hb_swap
 (
@@ -1177,6 +1180,7 @@ hb_set_t
 &
 o
 )
+noexcept
 :
 sparseset
 (

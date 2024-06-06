@@ -374,7 +374,7 @@ item_variations_t
 item_vars
 ;
 const
-VariationStore
+ItemVariationStore
 &
 src_var_store
 =
@@ -655,7 +655,7 @@ valueRecordCount
 ;
 Offset16To
 <
-VariationStore
+ItemVariationStore
 >
 varStore
 ;

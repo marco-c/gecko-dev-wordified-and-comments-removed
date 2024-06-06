@@ -3444,8 +3444,8 @@ s
 len
 "
 %
-u
 "
+PRIu32
 feature
 -
 >

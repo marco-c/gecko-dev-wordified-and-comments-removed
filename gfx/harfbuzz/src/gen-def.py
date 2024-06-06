@@ -174,6 +174,7 @@ hb_shape_justify
 hb_subset_repack_or_fail
 hb_subset_input_override_name_table
 hb_subset_input_set_axis_range
+hb_subset_input_get_axis_range
 "
 "
 "

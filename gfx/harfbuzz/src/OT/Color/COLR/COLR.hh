@@ -240,7 +240,7 @@ palette_index
 hb_color_t
 foreground
 ;
-VarStoreInstancer
+ItemVarStoreInstancer
 &
 instancer
 ;
@@ -280,7 +280,7 @@ int
 palette_
 hb_color_t
 foreground_
-VarStoreInstancer
+ItemVarStoreInstancer
 &
 instancer_
 )
@@ -917,7 +917,7 @@ hb_subset_context_t
 *
 c
 const
-VarStoreInstancer
+ItemVarStoreInstancer
 &
 instancer
 )
@@ -1042,7 +1042,7 @@ hb_color_stop_t
 *
 stop
 const
-VarStoreInstancer
+ItemVarStoreInstancer
 &
 instancer
 )
@@ -1179,7 +1179,7 @@ hb_subset_context_t
 *
 c
 const
-VarStoreInstancer
+ItemVarStoreInstancer
 &
 instancer
 )
@@ -1270,7 +1270,7 @@ hb_color_stop_t
 *
 stop
 const
-VarStoreInstancer
+ItemVarStoreInstancer
 &
 instancer
 )
@@ -1347,7 +1347,7 @@ hb_subset_context_t
 *
 c
 const
-VarStoreInstancer
+ItemVarStoreInstancer
 &
 instancer
 uint32_t
@@ -1521,7 +1521,7 @@ out
 uint32_t
 varIdx
 const
-VarStoreInstancer
+ItemVarStoreInstancer
 &
 instancer
 )
@@ -1673,7 +1673,7 @@ hb_subset_context_t
 *
 c
 const
-VarStoreInstancer
+ItemVarStoreInstancer
 &
 instancer
 )
@@ -1862,7 +1862,7 @@ hb_color_stop_t
 *
 color_stops
 const
-VarStoreInstancer
+ItemVarStoreInstancer
 &
 instancer
 )
@@ -2218,7 +2218,7 @@ hb_subset_context_t
 *
 c
 const
-VarStoreInstancer
+ItemVarStoreInstancer
 &
 instancer
 uint32_t
@@ -2565,7 +2565,7 @@ hb_subset_context_t
 *
 c
 const
-VarStoreInstancer
+ItemVarStoreInstancer
 &
 instancer
 HB_UNUSED
@@ -2723,7 +2723,7 @@ hb_subset_context_t
 *
 c
 const
-VarStoreInstancer
+ItemVarStoreInstancer
 &
 instancer
 uint32_t
@@ -3014,7 +3014,7 @@ hb_subset_context_t
 *
 c
 const
-VarStoreInstancer
+ItemVarStoreInstancer
 &
 instancer
 uint32_t
@@ -3480,7 +3480,7 @@ hb_subset_context_t
 *
 c
 const
-VarStoreInstancer
+ItemVarStoreInstancer
 &
 instancer
 uint32_t
@@ -3946,7 +3946,7 @@ hb_subset_context_t
 *
 c
 const
-VarStoreInstancer
+ItemVarStoreInstancer
 &
 instancer
 uint32_t
@@ -4352,7 +4352,7 @@ hb_subset_context_t
 *
 c
 const
-VarStoreInstancer
+ItemVarStoreInstancer
 &
 instancer
 )
@@ -4641,7 +4641,7 @@ hb_subset_context_t
 *
 c
 const
-VarStoreInstancer
+ItemVarStoreInstancer
 &
 instancer
 HB_UNUSED
@@ -4793,7 +4793,7 @@ hb_subset_context_t
 *
 c
 const
-VarStoreInstancer
+ItemVarStoreInstancer
 &
 instancer
 )
@@ -5034,7 +5034,7 @@ hb_subset_context_t
 *
 c
 const
-VarStoreInstancer
+ItemVarStoreInstancer
 &
 instancer
 uint32_t
@@ -5356,7 +5356,7 @@ hb_subset_context_t
 *
 c
 const
-VarStoreInstancer
+ItemVarStoreInstancer
 &
 instancer
 uint32_t
@@ -5684,7 +5684,7 @@ hb_subset_context_t
 *
 c
 const
-VarStoreInstancer
+ItemVarStoreInstancer
 &
 instancer
 uint32_t
@@ -6169,7 +6169,7 @@ hb_subset_context_t
 *
 c
 const
-VarStoreInstancer
+ItemVarStoreInstancer
 &
 instancer
 uint32_t
@@ -6454,7 +6454,7 @@ hb_subset_context_t
 *
 c
 const
-VarStoreInstancer
+ItemVarStoreInstancer
 &
 instancer
 uint32_t
@@ -6898,7 +6898,7 @@ hb_subset_context_t
 *
 c
 const
-VarStoreInstancer
+ItemVarStoreInstancer
 &
 instancer
 uint32_t
@@ -7182,7 +7182,7 @@ hb_subset_context_t
 *
 c
 const
-VarStoreInstancer
+ItemVarStoreInstancer
 &
 instancer
 uint32_t
@@ -7625,7 +7625,7 @@ hb_subset_context_t
 *
 c
 const
-VarStoreInstancer
+ItemVarStoreInstancer
 &
 instancer
 uint32_t
@@ -7953,7 +7953,7 @@ hb_subset_context_t
 *
 c
 const
-VarStoreInstancer
+ItemVarStoreInstancer
 &
 instancer
 uint32_t
@@ -8437,7 +8437,7 @@ hb_subset_context_t
 *
 c
 const
-VarStoreInstancer
+ItemVarStoreInstancer
 &
 instancer
 )
@@ -8719,7 +8719,7 @@ ClipBoxData
 &
 clip_box
 const
-VarStoreInstancer
+ItemVarStoreInstancer
 &
 instancer
 HB_UNUSED
@@ -8758,7 +8758,7 @@ hb_subset_context_t
 *
 c
 const
-VarStoreInstancer
+ItemVarStoreInstancer
 &
 instancer
 uint32_t
@@ -8978,7 +8978,7 @@ ClipBoxData
 &
 clip_box
 const
-VarStoreInstancer
+ItemVarStoreInstancer
 &
 instancer
 )
@@ -9067,7 +9067,7 @@ hb_subset_context_t
 *
 c
 const
-VarStoreInstancer
+ItemVarStoreInstancer
 &
 instancer
 )
@@ -9285,7 +9285,7 @@ hb_glyph_extents_t
 *
 extents
 const
-VarStoreInstancer
+ItemVarStoreInstancer
 &
 instancer
 )
@@ -9444,7 +9444,7 @@ void
 *
 base
 const
-VarStoreInstancer
+ItemVarStoreInstancer
 &
 instancer
 )
@@ -9551,7 +9551,7 @@ void
 *
 base
 const
-VarStoreInstancer
+ItemVarStoreInstancer
 &
 instancer
 )
@@ -9610,7 +9610,7 @@ hb_subset_context_t
 *
 c
 const
-VarStoreInstancer
+ItemVarStoreInstancer
 &
 instancer
 const
@@ -9856,7 +9856,7 @@ hb_subset_context_t
 *
 c
 const
-VarStoreInstancer
+ItemVarStoreInstancer
 &
 instancer
 )
@@ -10144,7 +10144,7 @@ hb_glyph_extents_t
 *
 extents
 const
-VarStoreInstancer
+ItemVarStoreInstancer
 &
 instancer
 )
@@ -11570,7 +11570,7 @@ hb_subset_context_t
 *
 c
 const
-VarStoreInstancer
+ItemVarStoreInstancer
 &
 instancer
 )
@@ -11727,7 +11727,7 @@ hb_subset_context_t
 *
 c
 const
-VarStoreInstancer
+ItemVarStoreInstancer
 &
 instancer
 )
@@ -11938,7 +11938,7 @@ hb_subset_context_t
 *
 c
 const
-VarStoreInstancer
+ItemVarStoreInstancer
 &
 instancer
 )
@@ -13815,7 +13815,7 @@ return_trace
 false
 )
 ;
-VarStoreInstancer
+ItemVarStoreInstancer
 instancer
 (
 varStore
@@ -14101,7 +14101,7 @@ version
 return
 false
 ;
-VarStoreInstancer
+ItemVarStoreInstancer
 instancer
 (
 &
@@ -14332,7 +14332,7 @@ hb_glyph_extents_t
 *
 extents
 const
-VarStoreInstancer
+ItemVarStoreInstancer
 instancer
 )
 const
@@ -14381,7 +14381,7 @@ true
 )
 const
 {
-VarStoreInstancer
+ItemVarStoreInstancer
 instancer
 (
 &
@@ -14457,7 +14457,7 @@ if
 paint
 )
 {
-VarStoreInstancer
+ItemVarStoreInstancer
 instancer
 (
 &
@@ -14866,7 +14866,7 @@ varIdxMap
 ;
 Offset32To
 <
-VariationStore
+ItemVariationStore
 >
 varStore
 ;

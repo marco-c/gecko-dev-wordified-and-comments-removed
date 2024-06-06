@@ -195,7 +195,9 @@ loca
 entry
 gid
 %
-u
+"
+PRIu32
+"
 offset
 %
 u

@@ -631,6 +631,10 @@ newUpper
 ;
 if
 (
+false
+&
+&
+(
 newUpper
 <
 =
@@ -643,6 +647,7 @@ axisDef
 )
 *
 2
+)
 )
 {
 upper

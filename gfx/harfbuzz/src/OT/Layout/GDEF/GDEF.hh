@@ -740,7 +740,7 @@ font
 hb_direction_t
 direction
 const
-VariationStore
+ItemVariationStore
 &
 var_store
 )
@@ -1137,7 +1137,7 @@ direction
 hb_codepoint_t
 glyph_id
 const
-VariationStore
+ItemVariationStore
 &
 var_store
 )
@@ -1556,7 +1556,7 @@ direction
 hb_codepoint_t
 glyph_id
 const
-VariationStore
+ItemVariationStore
 &
 var_store
 unsigned
@@ -1818,7 +1818,7 @@ direction
 hb_codepoint_t
 glyph_id
 const
-VariationStore
+ItemVariationStore
 &
 var_store
 unsigned
@@ -2942,7 +2942,7 @@ markGlyphSetsDef
 ;
 Offset32To
 <
-VariationStore
+ItemVariationStore
 >
 varStore
 ;
@@ -4594,7 +4594,7 @@ false
 }
 }
 const
-VariationStore
+ItemVariationStore
 &
 get_var_store
 (
@@ -4635,7 +4635,7 @@ varStore
 :
 Null
 (
-VariationStore
+ItemVariationStore
 )
 ;
 #
@@ -4660,7 +4660,7 @@ default
 return
 Null
 (
-VariationStore
+ItemVariationStore
 )
 ;
 }
@@ -5273,7 +5273,7 @@ has_var_store
 return
 ;
 const
-VariationStore
+ItemVariationStore
 &
 var_store
 =

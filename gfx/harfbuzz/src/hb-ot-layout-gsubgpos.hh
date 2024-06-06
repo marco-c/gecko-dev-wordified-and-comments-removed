@@ -3049,11 +3049,11 @@ accelerator_t
 gdef_accel
 ;
 const
-VariationStore
+ItemVariationStore
 &
 var_store
 ;
-VariationStore
+ItemVariationStore
 :
 :
 cache_t
@@ -3305,7 +3305,7 @@ hb_ot_apply_context_t
 #
 ifndef
 HB_NO_VAR
-VariationStore
+ItemVariationStore
 :
 :
 destroy_cache

@@ -2998,8 +2998,8 @@ size
 "
 gid
 %
-u
 "
+PRIu32
 glyph
 )
 <

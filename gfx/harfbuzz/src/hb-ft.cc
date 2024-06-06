@@ -5210,9 +5210,6 @@ generic
 finalizer
 !
 =
-(
-FT_Generic_Finalizer
-)
 hb_ft_face_finalize
 )
 )

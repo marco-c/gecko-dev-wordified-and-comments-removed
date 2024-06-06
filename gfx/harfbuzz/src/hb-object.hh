@@ -1442,11 +1442,11 @@ hb_user_data_array_t
 )
 hb_calloc
 (
+1
 sizeof
 (
 hb_user_data_array_t
 )
-1
 )
 ;
 if

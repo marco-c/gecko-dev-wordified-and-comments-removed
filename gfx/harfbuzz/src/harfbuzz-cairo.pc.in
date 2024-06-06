@@ -40,6 +40,11 @@ harfbuzz
 %
 VERSION
 %
+Requires
+.
+private
+:
+cairo
 Libs
 :
 -
