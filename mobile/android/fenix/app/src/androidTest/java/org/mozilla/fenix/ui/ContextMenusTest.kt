@@ -1415,9 +1415,13 @@ itemWithText
 (
 "
 PDF
+form
 file
 "
 )
+)
+waitForPageToLoad
+(
 )
 longClickPageObject
 (

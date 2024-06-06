@@ -1064,6 +1064,7 @@ itemWithText
 (
 "
 PDF
+form
 file
 "
 )
@@ -1094,7 +1095,7 @@ verifyFindInPageCloseButton
 enterFindInPageQuery
 (
 "
-o
+l
 "
 )
 verifyFindNextInPageResult
