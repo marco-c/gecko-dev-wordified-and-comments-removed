@@ -473,7 +473,7 @@ fenix
 .
 compose
 .
-Divider
+ContextualMenu
 import
 org
 .
@@ -483,7 +483,7 @@ fenix
 .
 compose
 .
-DropdownMenu
+Divider
 import
 org
 .
@@ -1257,7 +1257,7 @@ Divider
 )
 }
 }
-DropdownMenu
+ContextualMenu
 (
 showMenu
 =
@@ -1604,7 +1604,7 @@ BottomCenter
 )
 }
 }
-DropdownMenu
+ContextualMenu
 (
 showMenu
 =

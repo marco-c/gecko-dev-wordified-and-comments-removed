@@ -465,7 +465,7 @@ fenix
 .
 compose
 .
-DropdownMenu
+ContextualMenu
 import
 org
 .
@@ -1018,7 +1018,7 @@ typography
 .
 caption
 )
-DropdownMenu
+ContextualMenu
 (
 showMenu
 =

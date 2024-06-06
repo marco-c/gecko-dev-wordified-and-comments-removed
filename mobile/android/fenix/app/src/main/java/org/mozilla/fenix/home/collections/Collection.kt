@@ -395,7 +395,7 @@ fenix
 .
 compose
 .
-DropdownMenu
+ContextualMenu
 import
 org
 .
@@ -961,7 +961,7 @@ colors
 .
 iconPrimary
 )
-DropdownMenu
+ContextualMenu
 (
 showMenu
 =

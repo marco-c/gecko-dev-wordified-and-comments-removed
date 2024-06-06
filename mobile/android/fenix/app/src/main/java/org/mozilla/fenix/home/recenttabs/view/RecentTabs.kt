@@ -540,7 +540,7 @@ fenix
 .
 compose
 .
-DropdownMenu
+ContextualMenu
 import
 org
 .
@@ -1233,7 +1233,7 @@ maxLines
 )
 }
 }
-DropdownMenu
+ContextualMenu
 (
 showMenu
 =

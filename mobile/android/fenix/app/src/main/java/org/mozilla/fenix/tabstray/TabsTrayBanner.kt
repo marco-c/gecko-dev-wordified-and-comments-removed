@@ -487,7 +487,7 @@ fenix
 .
 compose
 .
-DropdownMenu
+ContextualMenu
 import
 org
 .
@@ -1510,7 +1510,7 @@ threeDotButton
 )
 )
 {
-DropdownMenu
+ContextualMenu
 (
 menuItems
 =
@@ -2593,7 +2593,7 @@ colors
 .
 iconOnColor
 )
-DropdownMenu
+ContextualMenu
 (
 menuItems
 =

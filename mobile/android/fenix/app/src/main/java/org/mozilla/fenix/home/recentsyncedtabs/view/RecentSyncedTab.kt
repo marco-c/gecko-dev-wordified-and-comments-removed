@@ -435,7 +435,7 @@ fenix
 .
 compose
 .
-DropdownMenu
+ContextualMenu
 import
 org
 .
@@ -1151,7 +1151,7 @@ onSeeAllSyncedTabsButtonClick
 )
 }
 }
-DropdownMenu
+ContextualMenu
 (
 showMenu
 =
