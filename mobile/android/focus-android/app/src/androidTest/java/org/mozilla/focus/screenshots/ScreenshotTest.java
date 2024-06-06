@@ -203,6 +203,7 @@ issues
 305
 "
 )
+public
 abstract
 class
 ScreenshotTest
