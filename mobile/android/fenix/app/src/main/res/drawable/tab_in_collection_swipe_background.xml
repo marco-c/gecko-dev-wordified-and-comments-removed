@@ -116,9 +116,8 @@ android
 color
 =
 "
-color
-/
-photonGrey30
+?
+swipeDeleteBackground
 "
 /
 >
