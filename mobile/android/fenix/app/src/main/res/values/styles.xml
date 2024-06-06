@@ -3235,7 +3235,7 @@ accentUsedOnDarkBackground
 >
 color
 /
-accent_on_dark_background_private_theme
+accent_high_contrast_private_theme
 <
 /
 item
@@ -3310,7 +3310,7 @@ fillLinkFromClipboard
 >
 color
 /
-accent_on_dark_background_private_theme
+accent_high_contrast_private_theme
 <
 /
 item
