@@ -956,7 +956,7 @@ R
 .
 drawable
 .
-ic_app_links
+ic_open_in_app
 iconTintColorResource
 =
 primaryTextColor

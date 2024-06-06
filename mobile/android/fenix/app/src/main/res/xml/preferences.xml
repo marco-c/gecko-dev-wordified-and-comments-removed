@@ -946,7 +946,7 @@ icon
 "
 drawable
 /
-mozac_ic_extensions_black
+ic_addons_extensions
 "
 android
 :
@@ -988,7 +988,7 @@ icon
 "
 drawable
 /
-ic_app_links
+ic_open_in_app
 "
 android
 :
