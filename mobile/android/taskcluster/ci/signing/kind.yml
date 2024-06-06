@@ -92,6 +92,14 @@ treeherder
 :
 transforms
 -
+android_taskgraph
+.
+transforms
+.
+clean_multi_dep
+:
+transforms
+-
 taskgraph
 .
 transforms
