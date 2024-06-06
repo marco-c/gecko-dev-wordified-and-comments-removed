@@ -1863,6 +1863,9 @@ components
 core
 .
 client
+interactor
+=
+interactor
 )
 RecentTabViewHolder
 .
