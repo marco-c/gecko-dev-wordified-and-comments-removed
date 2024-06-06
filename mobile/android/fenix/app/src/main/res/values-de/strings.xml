@@ -40736,6 +40736,7 @@ translations_bottom_sheet_info_message
 "
 >
 Zu
+Sicherstellung
 Ihrer
 Privatsph
 re
@@ -41057,9 +41058,8 @@ translations_bottom_sheet_translating_in_progress_content_description
 "
 >
 bersetzung
-wird
-durchgef
-hrt
+l
+uft
 <
 /
 string
@@ -41330,7 +41330,7 @@ translation_option_bottom_sheet_never_translate_site
 "
 >
 Diese
-Seite
+Website
 nie
 bersetzen
 <
@@ -41525,13 +41525,11 @@ name
 translation_settings_offer_to_translate
 "
 >
-Biete
+bersetzung
 nach
 M
 glichkeit
-eine
-bersetzung
-an
+anbieten
 <
 /
 string
