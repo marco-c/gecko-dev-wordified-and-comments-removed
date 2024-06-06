@@ -338,8 +338,9 @@ android
 textColor
 =
 "
-?
-neutral
+color
+/
+onboarding_card_button_text_dark
 "
 android
 :
