@@ -250,7 +250,7 @@ android
 layout_width
 =
 "
-match_parent
+wrap_content
 "
 android
 :
