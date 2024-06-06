@@ -541,6 +541,10 @@ showBookmarkSuggestions
 :
 Boolean
 val
+showSyncedTabsSuggestions
+:
+Boolean
+val
 tabId
 :
 String
@@ -769,6 +773,11 @@ showBookmarkSuggestions
 settings
 .
 shouldShowBookmarkSuggestions
+showSyncedTabsSuggestions
+=
+settings
+.
+shouldShowSyncedTabsSuggestions
 tabId
 =
 tabId

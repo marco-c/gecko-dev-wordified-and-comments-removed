@@ -519,6 +519,9 @@ false
 showBookmarkSuggestions
 =
 false
+showSyncedTabsSuggestions
+=
+false
 tabId
 =
 null
@@ -722,6 +725,9 @@ showHistorySuggestions
 =
 false
 showBookmarkSuggestions
+=
+false
+showSyncedTabsSuggestions
 =
 false
 tabId
@@ -1255,6 +1261,9 @@ showHistorySuggestions
 =
 false
 showBookmarkSuggestions
+=
+false
+showSyncedTabsSuggestions
 =
 false
 searchAccessPoint

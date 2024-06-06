@@ -429,6 +429,9 @@ false
 showBookmarkSuggestions
 =
 false
+showSyncedTabsSuggestions
+=
+false
 searchAccessPoint
 =
 Event
