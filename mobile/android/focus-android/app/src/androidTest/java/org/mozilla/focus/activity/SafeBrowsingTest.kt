@@ -690,7 +690,10 @@ closeSecurityInfoSheet
 {
 }
 .
-openSearchBar
+clearBrowsingData
+{
+}
+searchScreen
 {
 }
 .
