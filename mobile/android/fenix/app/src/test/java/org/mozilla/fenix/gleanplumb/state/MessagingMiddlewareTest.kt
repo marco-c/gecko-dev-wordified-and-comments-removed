@@ -1181,7 +1181,7 @@ verify
 {
 messagingController
 .
-processDisplayedMessage
+updateMessageAsDisplayed
 (
 message
 )
@@ -2020,7 +2020,7 @@ verify
 {
 messagingController
 .
-processDisplayedMessage
+updateMessageAsDisplayed
 (
 oldMessage
 )
@@ -2213,7 +2213,7 @@ verify
 {
 messagingController
 .
-processDisplayedMessage
+updateMessageAsDisplayed
 (
 oldMessage
 )
