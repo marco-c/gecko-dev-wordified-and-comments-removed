@@ -384,6 +384,12 @@ Int
 )
 :
 State
+Suppress
+(
+"
+LongParameterList
+"
+)
 fun
 createInitialCollectionCreationState
 (
