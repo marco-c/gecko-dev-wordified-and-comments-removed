@@ -9722,9 +9722,6 @@ BLOCKED_SCHEMES
 listOf
 (
 "
-content
-"
-"
 file
 "
 "
