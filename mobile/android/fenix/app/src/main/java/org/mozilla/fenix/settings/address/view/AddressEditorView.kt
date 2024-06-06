@@ -312,6 +312,8 @@ binding
 .
 phoneInput
 .
+text
+.
 toString
 (
 )
@@ -320,6 +322,8 @@ email
 binding
 .
 emailInput
+.
+text
 .
 toString
 (
