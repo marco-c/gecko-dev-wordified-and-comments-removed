@@ -3299,6 +3299,9 @@ listOf
 (
 CrashReporterIntentProcessor
 (
+components
+.
+appStore
 )
 )
 +
