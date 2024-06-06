@@ -941,6 +941,17 @@ updateLaunchInApp
 {
 true
 }
+verify
+(
+mockUseCases
+)
+.
+updateLaunchInApp
+(
+any
+(
+)
+)
 val
 response2
 =
