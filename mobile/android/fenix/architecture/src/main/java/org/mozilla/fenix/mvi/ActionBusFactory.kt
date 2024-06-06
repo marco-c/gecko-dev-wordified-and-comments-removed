@@ -639,6 +639,12 @@ be
 sent
 *
 /
+Suppress
+(
+"
+UNCHECKED_CAST
+"
+)
 fun
 <
 T
@@ -747,6 +753,12 @@ this
 observable
 *
 /
+Suppress
+(
+"
+UNCHECKED_CAST
+"
+)
 fun
 <
 T
@@ -834,6 +846,12 @@ owner
 )
 )
 }
+Suppress
+(
+"
+UNCHECKED_CAST
+"
+)
 fun
 <
 T
@@ -986,8 +1004,6 @@ event
 T
 )
 =
-kotlin
-.
 with
 (
 ActionBusFactory
@@ -1174,7 +1190,6 @@ needed
 .
 *
 /
-inline
 fun
 LifecycleOwner
 ?
@@ -1222,8 +1237,6 @@ emitter
 .
 onNext
 (
-kotlin
-.
 Unit
 )
 emitter
@@ -1268,8 +1281,6 @@ emitter
 .
 onNext
 (
-kotlin
-.
 Unit
 )
 emitter

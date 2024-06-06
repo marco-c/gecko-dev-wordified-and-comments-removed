@@ -589,6 +589,7 @@ ToolbarComponent
 view
 .
 toolbar_component_wrapper
+this
 ActionBusFactory
 .
 get
@@ -623,6 +624,7 @@ AwesomeBarComponent
 view
 .
 search_layout
+this
 ActionBusFactory
 .
 get

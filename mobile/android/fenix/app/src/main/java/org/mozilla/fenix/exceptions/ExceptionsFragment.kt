@@ -334,6 +334,7 @@ ExceptionsComponent
 view
 .
 exceptions_layout
+this
 ActionBusFactory
 .
 get

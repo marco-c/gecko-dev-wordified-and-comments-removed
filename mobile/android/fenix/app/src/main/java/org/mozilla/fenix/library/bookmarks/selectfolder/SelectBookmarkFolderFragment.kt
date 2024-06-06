@@ -547,6 +547,7 @@ SignInComponent
 view
 .
 select_bookmark_layout
+this
 ActionBusFactory
 .
 get

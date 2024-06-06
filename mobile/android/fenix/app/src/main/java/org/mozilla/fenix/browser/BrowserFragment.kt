@@ -1132,6 +1132,7 @@ ToolbarComponent
 view
 .
 browserLayout
+this
 ActionBusFactory
 .
 get
@@ -1247,6 +1248,7 @@ QuickActionComponent
 view
 .
 nestedScrollQuickAction
+this
 ActionBusFactory
 .
 get

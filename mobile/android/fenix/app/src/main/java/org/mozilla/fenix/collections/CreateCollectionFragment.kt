@@ -378,6 +378,7 @@ CollectionCreationComponent
 view
 .
 create_collection_wrapper
+this
 ActionBusFactory
 .
 get

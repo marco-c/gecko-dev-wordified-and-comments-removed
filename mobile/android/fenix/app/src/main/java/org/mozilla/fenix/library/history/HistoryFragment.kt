@@ -365,6 +365,7 @@ HistoryComponent
 view
 .
 history_layout
+this
 ActionBusFactory
 .
 get

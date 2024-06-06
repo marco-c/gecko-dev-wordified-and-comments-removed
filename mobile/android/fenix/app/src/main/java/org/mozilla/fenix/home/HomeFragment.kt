@@ -784,6 +784,7 @@ SessionControlComponent
 view
 .
 homeLayout
+this
 bus
 SessionControlState
 (

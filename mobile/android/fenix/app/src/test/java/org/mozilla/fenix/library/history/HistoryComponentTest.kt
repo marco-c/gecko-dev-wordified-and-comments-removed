@@ -235,11 +235,8 @@ historyObserver
 =
 historyComponent
 .
-internalRender
+render
 (
-historyComponent
-.
-reducer
 )
 .
 test
@@ -633,6 +630,12 @@ ActionBusFactory
 HistoryComponent
 (
 container
+mockk
+(
+relaxed
+=
+true
+)
 bus
 )
 {

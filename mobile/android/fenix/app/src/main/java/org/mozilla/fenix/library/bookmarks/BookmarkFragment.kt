@@ -623,6 +623,7 @@ BookmarkComponent
 view
 .
 bookmark_layout
+this
 ActionBusFactory
 .
 get
@@ -637,6 +638,7 @@ SignInComponent
 view
 .
 bookmark_layout
+this
 ActionBusFactory
 .
 get

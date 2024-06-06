@@ -245,11 +245,8 @@ bookmarkObserver
 =
 bookmarkComponent
 .
-internalRender
+render
 (
-bookmarkComponent
-.
-reducer
 )
 .
 test
@@ -699,6 +696,12 @@ ActionBusFactory
 BookmarkComponent
 (
 container
+mockk
+(
+relaxed
+=
+true
+)
 bus
 )
 {
