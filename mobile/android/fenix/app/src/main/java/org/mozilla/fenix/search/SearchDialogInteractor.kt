@@ -145,6 +145,9 @@ onUrlCommitted
 url
 :
 String
+fromHomeScreen
+:
+Boolean
 )
 {
 searchController
@@ -152,6 +155,7 @@ searchController
 handleUrlCommitted
 (
 url
+fromHomeScreen
 )
 }
 override
