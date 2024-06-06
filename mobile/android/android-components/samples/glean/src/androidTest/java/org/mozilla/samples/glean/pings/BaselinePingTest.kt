@@ -586,8 +586,10 @@ val
 docType
 =
 request
+?
 .
 path
+?
 .
 split
 (
@@ -595,9 +597,12 @@ split
 /
 "
 )
-[
+?
+.
+get
+(
 3
-]
+)
 if
 (
 pingName
