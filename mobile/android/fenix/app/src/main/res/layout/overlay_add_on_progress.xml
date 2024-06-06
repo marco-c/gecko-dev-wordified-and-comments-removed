@@ -130,6 +130,16 @@ auto
 "
 android
 :
+id
+=
+"
++
+id
+/
+overlay_card_view
+"
+android
+:
 layout_width
 =
 "
