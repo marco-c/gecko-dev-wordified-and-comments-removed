@@ -1155,15 +1155,6 @@ BrowserDirection
 .
 FromHome
 )
-store
-.
-state
-.
-selectedTabId
-?
-.
-let
-{
 selectTabUseCase
 .
 invoke
@@ -1176,7 +1167,6 @@ invoke
 (
 it
 )
-}
 }
 onFailure
 =
