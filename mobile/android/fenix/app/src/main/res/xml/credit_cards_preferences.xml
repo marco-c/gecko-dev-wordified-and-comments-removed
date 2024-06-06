@@ -227,13 +227,6 @@ preferences_credit_cards_manage_saved_cards
 "
 app
 :
-isPreferenceVisible
-=
-"
-false
-"
-app
-:
 allowDividerAbove
 =
 "
