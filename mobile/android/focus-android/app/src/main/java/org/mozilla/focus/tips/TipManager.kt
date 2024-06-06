@@ -266,7 +266,7 @@ R
 .
 string
 .
-tip_explain_allowlist
+tip_explain_allowlist2
 val
 name
 =
@@ -444,7 +444,7 @@ R
 .
 string
 .
-tip_disable_tracking_protection
+tip_disable_tracking_protection2
 val
 name
 =
@@ -1041,7 +1041,7 @@ R
 .
 string
 .
-tip_request_desktop
+tip_request_desktop2
 val
 name
 =
