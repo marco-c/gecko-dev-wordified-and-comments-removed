@@ -179,7 +179,6 @@ experiments
 NimbusApi
 )
 {
-suspend
 fun
 startTests
 (
