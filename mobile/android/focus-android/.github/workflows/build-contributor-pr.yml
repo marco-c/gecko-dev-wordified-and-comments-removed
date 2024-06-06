@@ -717,7 +717,7 @@ api
 level
 :
 [
-28
+30
 ]
 target
 :
@@ -783,7 +783,7 @@ arch
 x86_64
 profile
 :
-pixel_2
+pixel_3
 script
 :
 "
