@@ -8902,6 +8902,7 @@ name
 customize_addon_collection_ok
 "
 >
+OK
 <
 /
 string
@@ -13385,6 +13386,7 @@ name
 studies_restart_dialog_ok
 "
 >
+OK
 <
 /
 string
@@ -16233,6 +16235,7 @@ name
 clear_permissions_positive
 "
 >
+OK
 <
 /
 string
@@ -16315,6 +16318,7 @@ name
 clear_permission_positive
 "
 >
+OK
 <
 /
 string
@@ -17962,6 +17966,7 @@ name
 create_collection_positive
 "
 >
+OK
 <
 /
 string
@@ -19924,6 +19929,7 @@ name
 qr_scanner_dialog_invalid_ok
 "
 >
+OK
 <
 /
 string
@@ -31460,6 +31466,7 @@ name
 top_sites_rename_dialog_ok
 "
 >
+OK
 <
 /
 string
