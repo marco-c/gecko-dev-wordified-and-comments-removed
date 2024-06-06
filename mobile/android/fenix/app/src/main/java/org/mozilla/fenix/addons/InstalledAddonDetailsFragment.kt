@@ -647,6 +647,11 @@ onSuccess
 {
 runIfFragmentIsAttached
 {
+this
+.
+addon
+=
+it
 switch
 .
 isClickable
@@ -678,11 +683,6 @@ remove_add_on
 isEnabled
 =
 true
-this
-.
-addon
-=
-it
 showSnackBar
 (
 view
