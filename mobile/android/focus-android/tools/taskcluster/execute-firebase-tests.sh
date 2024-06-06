@@ -365,11 +365,12 @@ java
 PATH_TEST
 =
 "
-.
-.
 /
-.
-.
+opt
+/
+focus
+-
+android
 /
 app
 /
