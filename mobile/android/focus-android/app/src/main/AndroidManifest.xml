@@ -235,6 +235,10 @@ apk
 uses
 -
 permission
+-
+sdk
+-
+23
 android
 :
 name
