@@ -143,6 +143,16 @@ mozilla
 .
 fenix
 .
+customannotations
+.
+SmokeTest
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 components
@@ -448,6 +458,7 @@ shutdown
 (
 )
 }
+SmokeTest
 Test
 fun
 videoPlaybackSystemNotificationTest
