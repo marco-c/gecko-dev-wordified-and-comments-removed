@@ -206,9 +206,6 @@ Suggestion
 provider
 =
 this
-id
-=
-id
 icon
 =
 {
@@ -247,9 +244,6 @@ Suggestion
 provider
 =
 this
-id
-=
-id
 icon
 =
 {
