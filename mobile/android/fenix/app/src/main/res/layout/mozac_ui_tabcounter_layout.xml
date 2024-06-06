@@ -211,12 +211,10 @@ layout_height
 "
 android
 :
-contentDescription
+importantForAccessibility
 =
 "
-string
-/
-mozac_ui_tabcounter_description
+no
 "
 android
 :
