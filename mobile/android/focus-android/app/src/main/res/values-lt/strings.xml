@@ -243,7 +243,7 @@ name
 menu_settings
 "
 >
-Nuostatos
+Nustatymai
 <
 /
 string
@@ -585,7 +585,7 @@ n
 <
 li
 >
-Blokuoti
+Blokuokite
 steb
 &
 #
@@ -596,13 +596,9 @@ elementus
 (
 arba
 atnaujinkite
-nuostatas
-nor
-&
-#
-279
-;
-dami
+nustatymus
+jeigu
+norite
 juos
 leisti
 )
@@ -622,7 +618,7 @@ I
 #
 353
 ;
-trinkite
+valykite
 nor
 &
 #
@@ -1091,6 +1087,8 @@ jungus
 %
 1
 s
+adreso
+lauke
 automati
 kai
 u
@@ -1099,8 +1097,8 @@ vir
 450
 populiari
 URL
-adreso
-lauke
+adres
+.
 <
 /
 string
@@ -1305,8 +1303,8 @@ name
 preference_autocomplete_add_example2
 "
 >
-Pvz
-.
+Pavyzdys
+:
 mozilla
 .
 org
@@ -1850,7 +1848,7 @@ name
 preference_default_browser2
 "
 >
-Padaryti
+Paskirti
 %
 1
 s
@@ -1941,7 +1939,8 @@ preference_privacy_notice
 "
 >
 Privatumo
-nuostatai
+prane
+imas
 <
 /
 string
@@ -2417,12 +2416,11 @@ name
 content_description_stop
 "
 >
-Nebe
-k
-lin
-ti
+Nutraukti
 svetain
 s
+k
+lim
 <
 /
 string
@@ -3631,7 +3629,7 @@ parinkt
 371
 ;
 serverio
-nuostat
+parametr
 &
 #
 371
@@ -3978,8 +3976,7 @@ turin
 tuo
 pa
 iu
-suma
-indami
+sutrumpindami
 svetaini
 k
 limo
@@ -4003,8 +4000,7 @@ paie
 ka
 j
 s
-b
-du
+skoniui
 <
 /
 string
@@ -4029,7 +4025,7 @@ numatyt
 j
 ie
 kykl
-nuostatose
+nustatymuose
 .
 <
 /
@@ -4119,7 +4115,7 @@ Paskirkite
 s
 savo
 numatyt
-j
+ja
 nar
 ykle
 ir
