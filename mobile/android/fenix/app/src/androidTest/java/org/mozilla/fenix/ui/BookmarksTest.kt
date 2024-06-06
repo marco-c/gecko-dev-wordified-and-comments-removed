@@ -365,10 +365,6 @@ openThreeDotMenu
 {
 }
 .
-openLibrary
-{
-}
-.
 openBookmarks
 {
 verifyEmptyBookmarksList
@@ -486,10 +482,6 @@ homeScreen
 }
 .
 openThreeDotMenu
-{
-}
-.
-openLibrary
 {
 }
 .

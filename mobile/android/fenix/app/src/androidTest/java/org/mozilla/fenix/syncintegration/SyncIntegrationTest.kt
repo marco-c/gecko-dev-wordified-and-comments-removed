@@ -321,10 +321,6 @@ openThreeDotMenu
 {
 }
 .
-openLibrary
-{
-}
-.
 openHistory
 {
 }
@@ -357,10 +353,6 @@ homeScreen
 }
 .
 openThreeDotMenu
-{
-}
-.
-openLibrary
 {
 }
 .

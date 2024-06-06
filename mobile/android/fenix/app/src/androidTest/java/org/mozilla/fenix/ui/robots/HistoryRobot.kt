@@ -295,6 +295,18 @@ assertDeleteConfirmationMessage
 (
 )
 fun
+verifyHomeScreen
+(
+)
+=
+HomeScreenRobot
+(
+)
+.
+verifyHomeScreen
+(
+)
+fun
 openOverflowMenu
 (
 )
@@ -377,7 +389,7 @@ goBack
 (
 interact
 :
-LibraryRobot
+HistoryRobot
 .
 (
 )
@@ -386,7 +398,7 @@ LibraryRobot
 Unit
 )
 :
-LibraryRobot
+HistoryRobot
 .
 Transition
 {
@@ -397,7 +409,7 @@ goBackButton
 click
 (
 )
-LibraryRobot
+HistoryRobot
 (
 )
 .
@@ -405,7 +417,7 @@ interact
 (
 )
 return
-LibraryRobot
+HistoryRobot
 .
 Transition
 (
@@ -416,7 +428,7 @@ closeMenu
 (
 interact
 :
-HomeScreenRobot
+HistoryRobot
 .
 (
 )
@@ -425,7 +437,7 @@ HomeScreenRobot
 Unit
 )
 :
-HomeScreenRobot
+HistoryRobot
 .
 Transition
 {
@@ -436,7 +448,7 @@ closeButton
 click
 (
 )
-HomeScreenRobot
+HistoryRobot
 (
 )
 .
@@ -444,7 +456,7 @@ interact
 (
 )
 return
-HomeScreenRobot
+HistoryRobot
 .
 Transition
 (

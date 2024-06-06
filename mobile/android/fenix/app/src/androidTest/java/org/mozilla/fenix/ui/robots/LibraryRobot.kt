@@ -298,7 +298,7 @@ goBack
 (
 interact
 :
-HomeScreenRobot
+BrowserRobot
 .
 (
 )
@@ -307,7 +307,7 @@ HomeScreenRobot
 Unit
 )
 :
-HomeScreenRobot
+BrowserRobot
 .
 Transition
 {
@@ -326,7 +326,7 @@ click
 (
 )
 )
-HomeScreenRobot
+BrowserRobot
 (
 )
 .
@@ -334,7 +334,7 @@ interact
 (
 )
 return
-HomeScreenRobot
+BrowserRobot
 .
 Transition
 (
@@ -345,7 +345,7 @@ closeMenu
 (
 interact
 :
-HomeScreenRobot
+BrowserRobot
 .
 (
 )
@@ -354,7 +354,7 @@ HomeScreenRobot
 Unit
 )
 :
-HomeScreenRobot
+BrowserRobot
 .
 Transition
 {
@@ -365,7 +365,7 @@ closeButton
 click
 (
 )
-HomeScreenRobot
+BrowserRobot
 (
 )
 .
@@ -373,7 +373,7 @@ interact
 (
 )
 return
-HomeScreenRobot
+BrowserRobot
 .
 Transition
 (
