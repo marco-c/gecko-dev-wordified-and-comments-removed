@@ -199,6 +199,10 @@ val
 closeIcon
 :
 Color
+val
+dialogTextColor
+:
+Color
 )
 {
 val

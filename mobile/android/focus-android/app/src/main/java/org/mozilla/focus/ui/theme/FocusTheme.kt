@@ -432,6 +432,11 @@ closeIcon
 PhotonColors
 .
 LightGrey70
+dialogTextColor
+=
+PhotonColors
+.
+White
 )
 private
 fun
@@ -538,6 +543,11 @@ closeIcon
 PhotonColors
 .
 LightGrey90
+dialogTextColor
+=
+PhotonColors
+.
+Black
 )
 /
 *

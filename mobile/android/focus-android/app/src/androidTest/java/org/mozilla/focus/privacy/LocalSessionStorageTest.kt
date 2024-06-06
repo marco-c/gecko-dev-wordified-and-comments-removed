@@ -298,6 +298,12 @@ setCfrForTrackingProtectionEnabled
 (
 false
 )
+featureSettingsHelper
+.
+setSearchWidgetDialogEnabled
+(
+false
+)
 }
 After
 fun

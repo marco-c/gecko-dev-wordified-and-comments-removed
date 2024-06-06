@@ -357,6 +357,12 @@ start
 (
 )
 }
+featureSettingsHelper
+.
+setSearchWidgetDialogEnabled
+(
+false
+)
 }
 After
 fun

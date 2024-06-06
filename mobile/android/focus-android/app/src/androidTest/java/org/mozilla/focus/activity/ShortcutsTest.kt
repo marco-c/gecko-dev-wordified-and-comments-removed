@@ -224,6 +224,12 @@ setCfrForTrackingProtectionEnabled
 (
 false
 )
+featureSettingsHelper
+.
+setSearchWidgetDialogEnabled
+(
+false
+)
 webServer
 =
 MockWebServer
