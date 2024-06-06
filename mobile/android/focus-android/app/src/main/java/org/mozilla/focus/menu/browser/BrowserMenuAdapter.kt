@@ -392,7 +392,7 @@ R
 .
 drawable
 .
-ic_share_menu_item
+ic_share
 )
 )
 }
@@ -423,7 +423,7 @@ R
 .
 drawable
 .
-ic_add_to_home_menu_item
+ic_home
 )
 )
 items
@@ -449,7 +449,11 @@ string
 .
 find_in_page
 )
-0
+R
+.
+drawable
+.
+ic_search
 )
 )
 if
@@ -489,7 +493,7 @@ R
 .
 drawable
 .
-ic_open_in_menu_item
+ic_open_in
 )
 )
 }
@@ -642,7 +646,7 @@ R
 .
 drawable
 .
-ic_settings_menu_item
+ic_settings
 )
 )
 }
