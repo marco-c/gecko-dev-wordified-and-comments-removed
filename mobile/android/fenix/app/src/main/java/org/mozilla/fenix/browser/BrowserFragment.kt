@@ -1540,6 +1540,9 @@ this
 sessionManager
 =
 sessionManager
+sessionId
+=
+customTabSessionId
 fragmentManager
 =
 requireFragmentManager
