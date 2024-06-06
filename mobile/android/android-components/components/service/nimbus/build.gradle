@@ -762,11 +762,6 @@ dir
 :
 null
 }
-ext
-.
-gleanGenerateMarkdownDocs
-=
-true
 apply
 plugin
 :

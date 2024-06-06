@@ -430,11 +430,6 @@ ComponentsDependencies
 .
 mozilla_glean_forUnitTests
 }
-ext
-.
-gleanGenerateMarkdownDocs
-=
-true
 apply
 plugin
 :
