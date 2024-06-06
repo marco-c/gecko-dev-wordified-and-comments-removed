@@ -460,6 +460,13 @@ transparent
 "
 app
 :
+tabGravity
+=
+"
+fill
+"
+app
+:
 layout_constraintWidth_percent
 =
 "
