@@ -1485,8 +1485,6 @@ mDevice
 .
 waitNotNull
 (
-Until
-.
 findObject
 (
 By
@@ -1506,6 +1504,11 @@ id
 /
 play_pause_button
 "
+)
+.
+desc
+(
+action
 )
 )
 waitingTime
