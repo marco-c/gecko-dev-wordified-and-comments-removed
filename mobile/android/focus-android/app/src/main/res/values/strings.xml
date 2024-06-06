@@ -8129,7 +8129,7 @@ string
 name
 =
 "
-username_hint
+gv_prompt_username_hint
 "
 >
 Username
@@ -8142,7 +8142,7 @@ string
 name
 =
 "
-password_hint
+gv_prompt_password_hint
 "
 >
 Password
@@ -8155,7 +8155,7 @@ string
 name
 =
 "
-clear_prompt
+gv_prompt_clear
 "
 >
 Clear
