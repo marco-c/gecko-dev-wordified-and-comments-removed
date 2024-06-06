@@ -224,6 +224,16 @@ wrap_content
 >
 <
 include
+android
+:
+id
+=
+"
++
+id
+/
+custom_search_engine
+"
 layout
 =
 "
