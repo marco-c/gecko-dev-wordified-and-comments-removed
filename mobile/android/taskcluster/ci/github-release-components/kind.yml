@@ -135,6 +135,11 @@ Create
 Update
 Github
 release
+shipping
+-
+phase
+:
+ship
 worker
 -
 type
