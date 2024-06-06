@@ -544,7 +544,7 @@ layerInfo
 =
 PhotonColors
 .
-Blue50A80
+Blue50
 actionPrimary
 =
 PhotonColors
@@ -584,7 +584,7 @@ actionInfo
 =
 PhotonColors
 .
-Blue30
+Blue60
 formDefault
 =
 PhotonColors
