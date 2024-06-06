@@ -185,7 +185,7 @@ track
 (
 Event
 .
-SyncOpened
+SyncAuthOpened
 )
 }
 override
@@ -209,7 +209,7 @@ track
 (
 Event
 .
-SyncClosed
+SyncAuthClosed
 )
 }
 override
@@ -466,7 +466,7 @@ track
 (
 Event
 .
-SyncSignIn
+SyncAuthSignIn
 )
 view
 ?
@@ -544,7 +544,7 @@ track
 (
 Event
 .
-SyncCreateAccount
+SyncAuthCreateAccount
 )
 view
 ?
@@ -613,7 +613,7 @@ track
 (
 Event
 .
-SyncScanPairing
+SyncAuthScanPairing
 )
 true
 }
