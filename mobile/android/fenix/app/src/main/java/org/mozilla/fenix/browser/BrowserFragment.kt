@@ -1569,15 +1569,6 @@ shoppingExperienceFeature
 =
 DefaultShoppingExperienceFeature
 (
-settings
-=
-requireContext
-(
-)
-.
-settings
-(
-)
 )
 onIconVisibilityChange
 =
