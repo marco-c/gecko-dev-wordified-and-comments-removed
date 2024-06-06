@@ -328,11 +328,6 @@ perf
 p2
 worker
 :
-taskcluster
--
-proxy
-:
-true
 max
 -
 run
