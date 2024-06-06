@@ -575,13 +575,13 @@ R
 .
 drawable
 .
-ic_chevron_down
+ic_chevron_up
 else
 R
 .
 drawable
 .
-ic_chevron_up
+ic_chevron_down
 )
 contentDescription
 =
