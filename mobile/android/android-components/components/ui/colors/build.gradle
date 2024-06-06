@@ -134,7 +134,7 @@ compose_compiler
 dependencies
 {
 implementation
-Dependencies
+ComponentsDependencies
 .
 androidx_compose_ui
 }

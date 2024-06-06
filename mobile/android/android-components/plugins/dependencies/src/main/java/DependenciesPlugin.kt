@@ -875,7 +875,7 @@ MaxLineLength
 "
 )
 object
-Dependencies
+ComponentsDependencies
 {
 const
 val

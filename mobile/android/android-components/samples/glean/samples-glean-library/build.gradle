@@ -188,7 +188,7 @@ pro
 dependencies
 {
 implementation
-Dependencies
+ComponentsDependencies
 .
 kotlin_stdlib
 implementation

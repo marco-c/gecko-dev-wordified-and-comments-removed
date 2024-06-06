@@ -121,7 +121,7 @@ true
 dependencies
 {
 api
-Dependencies
+ComponentsDependencies
 .
 mozilla_full_megazord_forUnitTests
 }

@@ -179,7 +179,7 @@ pro
 dependencies
 {
 implementation
-Dependencies
+ComponentsDependencies
 .
 kotlin_stdlib
 implementation
@@ -203,11 +203,11 @@ test
 '
 )
 testImplementation
-Dependencies
+ComponentsDependencies
 .
 testing_junit
 testImplementation
-Dependencies
+ComponentsDependencies
 .
 testing_mockito
 }

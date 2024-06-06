@@ -165,11 +165,11 @@ xml
 dependencies
 {
 implementation
-Dependencies
+ComponentsDependencies
 .
 kotlin_stdlib
 implementation
-Dependencies
+ComponentsDependencies
 .
 kotlin_coroutines
 implementation
@@ -183,11 +183,11 @@ state
 '
 )
 testImplementation
-Dependencies
+ComponentsDependencies
 .
 androidx_core
 testImplementation
-Dependencies
+ComponentsDependencies
 .
 androidx_test_junit
 }

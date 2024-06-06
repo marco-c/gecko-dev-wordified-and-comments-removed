@@ -194,7 +194,7 @@ pro
 dependencies
 {
 implementation
-Dependencies
+ComponentsDependencies
 .
 androidx_annotation
 implementation
@@ -208,7 +208,7 @@ ktx
 '
 )
 implementation
-Dependencies
+ComponentsDependencies
 .
 kotlin_stdlib
 implementation
@@ -232,15 +232,15 @@ test
 '
 )
 testImplementation
-Dependencies
+ComponentsDependencies
 .
 androidx_test_junit
 testImplementation
-Dependencies
+ComponentsDependencies
 .
 testing_robolectric
 testImplementation
-Dependencies
+ComponentsDependencies
 .
 testing_mockito
 }

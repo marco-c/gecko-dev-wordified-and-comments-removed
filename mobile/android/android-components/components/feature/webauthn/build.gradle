@@ -131,7 +131,7 @@ engine
 '
 )
 implementation
-Dependencies
+ComponentsDependencies
 .
 kotlin_stdlib
 testImplementation
@@ -145,15 +145,15 @@ test
 '
 )
 testImplementation
-Dependencies
+ComponentsDependencies
 .
 androidx_test_core
 testImplementation
-Dependencies
+ComponentsDependencies
 .
 androidx_test_junit
 testImplementation
-Dependencies
+ComponentsDependencies
 .
 testing_mockito
 }

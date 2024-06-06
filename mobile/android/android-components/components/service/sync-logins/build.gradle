@@ -161,7 +161,7 @@ API
 .
 api
 (
-Dependencies
+ComponentsDependencies
 .
 mozilla_sync_logins
 )
@@ -210,7 +210,7 @@ glean
 '
 }
 api
-Dependencies
+ComponentsDependencies
 .
 mozilla_sync15
 /
@@ -294,11 +294,11 @@ glean
 '
 )
 implementation
-Dependencies
+ComponentsDependencies
 .
 kotlin_stdlib
 implementation
-Dependencies
+ComponentsDependencies
 .
 kotlin_coroutines
 }

@@ -159,11 +159,11 @@ mavenCentral
 dependencies
 {
 classpath
-Dependencies
+ComponentsDependencies
 .
 tools_androidgradle
 classpath
-Dependencies
+ComponentsDependencies
 .
 tools_kotlingradle
 }
@@ -1840,7 +1840,7 @@ jnaForTest
 dependencies
 {
 jnaForTest
-Dependencies
+ComponentsDependencies
 .
 thirdparty_jna
 testImplementation

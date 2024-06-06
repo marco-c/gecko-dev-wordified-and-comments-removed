@@ -141,7 +141,7 @@ base
 '
 )
 implementation
-Dependencies
+ComponentsDependencies
 .
 kotlin_stdlib
 }

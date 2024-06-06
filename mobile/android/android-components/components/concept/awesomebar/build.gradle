@@ -131,11 +131,11 @@ base
 '
 )
 implementation
-Dependencies
+ComponentsDependencies
 .
 kotlin_stdlib
 implementation
-Dependencies
+ComponentsDependencies
 .
 kotlin_coroutines
 }

@@ -175,7 +175,7 @@ without
 coroutines
 .
 api
-Dependencies
+ComponentsDependencies
 .
 kotlin_coroutines
 implementation
@@ -189,7 +189,7 @@ ktx
 '
 )
 implementation
-Dependencies
+ComponentsDependencies
 .
 androidx_annotation
 testImplementation
@@ -203,11 +203,11 @@ test
 '
 )
 testImplementation
-Dependencies
+ComponentsDependencies
 .
 testing_junit
 testImplementation
-Dependencies
+ComponentsDependencies
 .
 testing_mockito
 }

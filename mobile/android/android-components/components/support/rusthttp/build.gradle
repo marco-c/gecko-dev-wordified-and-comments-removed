@@ -139,7 +139,7 @@ dependencies
 {
 implementation
 (
-Dependencies
+ComponentsDependencies
 .
 mozilla_httpconfig
 )
@@ -200,7 +200,7 @@ fetch
 '
 )
 implementation
-Dependencies
+ComponentsDependencies
 .
 kotlin_stdlib
 }
