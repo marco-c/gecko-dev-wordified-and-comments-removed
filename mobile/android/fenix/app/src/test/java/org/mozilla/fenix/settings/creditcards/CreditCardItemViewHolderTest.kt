@@ -347,9 +347,7 @@ assertEquals
 (
 creditCard
 .
-encryptedCardNumber
-.
-number
+obfuscatedCardNumber
 view
 .
 credit_card_number
