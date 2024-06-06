@@ -855,7 +855,12 @@ apply
 {
 isVisible
 =
-false
+FeatureFlags
+.
+isPocketRecommendationsFeatureEnabled
+(
+context
+)
 isChecked
 =
 context

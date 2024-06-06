@@ -69,12 +69,6 @@ sessioncontrol
 import
 android
 .
-content
-.
-Context
-import
-android
-.
 view
 .
 View
@@ -321,9 +315,6 @@ internal
 fun
 normalModeAdapterItems
 (
-context
-:
-Context
 topSites
 :
 List
@@ -565,15 +556,6 @@ items
 }
 if
 (
-context
-.
-settings
-(
-)
-.
-pocketRecommendations
-&
-&
 pocketStories
 .
 isNotEmpty
@@ -855,9 +837,6 @@ HomeFragmentState
 .
 toAdapterList
 (
-context
-:
-Context
 )
 :
 List
@@ -878,7 +857,6 @@ Normal
 >
 normalModeAdapterItems
 (
-context
 topSites
 collections
 expandedCollections
@@ -1119,9 +1097,6 @@ state
 .
 toAdapterList
 (
-view
-.
-context
 )
 if
 (

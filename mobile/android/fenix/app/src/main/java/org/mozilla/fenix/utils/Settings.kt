@@ -5833,6 +5833,6 @@ pref_key_pocket_homescreen_recommendations
 )
 default
 =
-false
+true
 )
 }
