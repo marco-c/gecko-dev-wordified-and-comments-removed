@@ -61,6 +61,15 @@ include
 "
 api
 /
+field_trials_view
+.
+h
+"
+#
+include
+"
+api
+/
 rtp_parameters
 .
 h
@@ -683,6 +692,10 @@ AlrExperimentSettings
 >
 GetAlrSettings
 (
+const
+FieldTrialsView
+&
+field_trials
 VideoEncoderConfig
 :
 :
@@ -710,6 +723,7 @@ AlrExperimentSettings
 :
 CreateFromFieldTrial
 (
+field_trials
 AlrExperimentSettings
 :
 :
@@ -723,6 +737,7 @@ AlrExperimentSettings
 :
 CreateFromFieldTrial
 (
+field_trials
 AlrExperimentSettings
 :
 :
@@ -861,6 +876,7 @@ alr_settings
 =
 GetAlrSettings
 (
+field_trials
 content_type
 )
 ;
@@ -1142,6 +1158,7 @@ periodic_alr_bandwidth_probing
 |
 GetAlrSettings
 (
+field_trials
 content_type
 )
 )
@@ -1302,6 +1319,7 @@ AlrExperimentSettings
 :
 MaxOneFieldTrialEnabled
 (
+field_trials
 )
 )
 ;
@@ -1376,6 +1394,7 @@ alr_settings
 =
 GetAlrSettings
 (
+field_trials
 content_type
 )
 ;
