@@ -77,6 +77,7 @@ Project
 )
 :
 String
+?
 {
 /
 /
@@ -176,8 +177,7 @@ versionName
 as
 String
 else
-"
-"
+null
 }
 JvmStatic
 fun
