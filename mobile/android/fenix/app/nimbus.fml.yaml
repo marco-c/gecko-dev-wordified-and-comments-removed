@@ -787,6 +787,14 @@ display
 count
 :
 1
+surfaces
+:
+-
+homescreen
+-
+notification
+-
+survey
 messages
 :
 default
