@@ -183,7 +183,7 @@ androidx_appcompat
 .
 0
 -
-beta01
+rc01
 "
 const
 val
@@ -222,7 +222,7 @@ androidx_preference
 .
 0
 -
-beta01
+rc01
 "
 const
 val
@@ -257,7 +257,7 @@ androidx_lifecycle
 .
 0
 -
-alpha01
+alpha02
 "
 const
 val
@@ -266,11 +266,11 @@ androidx_fragment
 "
 1
 .
-1
+2
 .
 0
 -
-beta01
+alpha01
 "
 const
 val
@@ -283,7 +283,7 @@ androidx_navigation
 .
 0
 -
-alpha05
+alpha06
 "
 const
 val
@@ -296,7 +296,7 @@ androidx_recyclerview
 .
 0
 -
-alpha06
+beta01
 "
 const
 val
@@ -346,7 +346,7 @@ androidx_core
 .
 0
 -
-rc01
+rc02
 "
 const
 val
@@ -369,8 +369,6 @@ androidx_transition
 1
 .
 0
--
-rc02
 "
 const
 val
