@@ -912,7 +912,7 @@ View
 .
 GONE
 }
-private
+internal
 fun
 updateCloseButtonDescription
 (

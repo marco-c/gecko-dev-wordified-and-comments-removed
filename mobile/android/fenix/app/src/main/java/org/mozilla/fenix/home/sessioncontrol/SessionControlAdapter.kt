@@ -1744,6 +1744,16 @@ tab
 .
 title
 )
+holder
+.
+updateCloseButtonDescription
+(
+it
+.
+tab
+.
+title
+)
 }
 if
 (
