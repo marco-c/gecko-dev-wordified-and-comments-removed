@@ -173,6 +173,15 @@ layout_height
 "
 wrap_content
 "
+android
+:
+paddingBottom
+=
+"
+dimen
+/
+textinputlayout_spacing
+"
 >
 <
 android
