@@ -393,6 +393,13 @@ permissions
 REQUEST_CODE_PROMPT_PERMISSIONS
 )
 }
+tabsUseCases
+=
+requireComponents
+.
+useCases
+.
+tabsUseCases
 )
 owner
 =

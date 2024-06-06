@@ -1999,6 +1999,11 @@ store
 components
 .
 store
+tabsUseCases
+=
+components
+.
+tabsUseCases
 customTabId
 =
 tryGetCustomTabId

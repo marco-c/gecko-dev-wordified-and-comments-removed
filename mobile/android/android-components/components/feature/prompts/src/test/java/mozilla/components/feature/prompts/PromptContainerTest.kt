@@ -404,6 +404,10 @@ getString
 anyInt
 (
 )
+*
+emptyArray
+(
+)
 )
 doReturn
 (
@@ -419,6 +423,10 @@ fragment
 getString
 (
 anyInt
+(
+)
+*
+emptyArray
 (
 )
 )
@@ -455,6 +463,10 @@ R
 string
 .
 mozac_feature_prompts_ok
+*
+emptyArray
+(
+)
 )
 container
 =
@@ -486,6 +498,10 @@ R
 string
 .
 mozac_feature_prompts_ok
+*
+emptyArray
+(
+)
 )
 }
 }

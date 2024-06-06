@@ -180,6 +180,10 @@ StringRes
 res
 :
 Int
+vararg
+objects
+:
+Any
 )
 :
 String
@@ -236,6 +240,10 @@ getString
 res
 :
 Int
+vararg
+objects
+:
+Any
 )
 =
 activity
@@ -243,6 +251,8 @@ activity
 getString
 (
 res
+*
+objects
 )
 }
 internal
@@ -331,6 +341,10 @@ getString
 res
 :
 Int
+vararg
+objects
+:
+Any
 )
 =
 fragment
@@ -338,6 +352,8 @@ fragment
 getString
 (
 res
+*
+objects
 )
 }
 VisibleForTesting
@@ -376,6 +392,10 @@ getString
 res
 :
 Int
+vararg
+objects
+:
+Any
 )
 =
 context
@@ -383,6 +403,8 @@ context
 getString
 (
 res
+*
+objects
 )
 }
 }

@@ -1127,6 +1127,11 @@ store
 customTabId
 =
 sessionId
+tabsUseCases
+=
+components
+.
+tabsUseCases
 fragmentManager
 =
 parentFragmentManager

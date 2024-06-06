@@ -213,6 +213,16 @@ project
 (
 '
 :
+feature
+-
+tabs
+'
+)
+implementation
+project
+(
+'
+:
 lib
 -
 state

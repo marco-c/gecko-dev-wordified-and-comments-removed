@@ -3929,6 +3929,13 @@ customTabSessionId
 fragmentManager
 =
 parentFragmentManager
+tabsUseCases
+=
+requireComponents
+.
+useCases
+.
+tabsUseCases
 creditCardValidationDelegate
 =
 DefaultCreditCardValidationDelegate
