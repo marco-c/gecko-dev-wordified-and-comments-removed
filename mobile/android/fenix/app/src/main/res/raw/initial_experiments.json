@@ -491,7 +491,7 @@ launch
 isEnrollmentPaused
 "
 :
-false
+true
 "
 isRollout
 "
@@ -1577,7 +1577,13 @@ startDate
 enrollmentEndDate
 "
 :
-null
+"
+2024
+-
+01
+-
+10
+"
 "
 endDate
 "
