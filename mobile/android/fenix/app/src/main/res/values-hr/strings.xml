@@ -751,7 +751,7 @@ name
 browser_tabs_button
 "
 >
-Otvori
+Otvorene
 kartice
 <
 /
@@ -2645,9 +2645,7 @@ preferences_rate
 Ocijeni
 na
 Google
-Play
--
-u
+Playu
 <
 /
 string
@@ -6060,7 +6058,7 @@ name
 tab_header_label
 "
 >
-Otvori
+Otvorene
 kartice
 <
 /
@@ -19186,7 +19184,7 @@ Poveznica
 na
 stranicu
 s
-podrobnim
+daljnjim
 informacijama
 <
 /
