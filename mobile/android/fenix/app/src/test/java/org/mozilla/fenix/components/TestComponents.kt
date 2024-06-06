@@ -77,12 +77,6 @@ mockk
 .
 mockk
 import
-kotlinx
-.
-coroutines
-.
-ObsoleteCoroutinesApi
-import
 mozilla
 .
 components
@@ -110,7 +104,6 @@ fenix
 utils
 .
 ClipboardHandler
-ObsoleteCoroutinesApi
 class
 TestComponents
 (

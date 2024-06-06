@@ -77,12 +77,6 @@ mockk
 .
 mockk
 import
-kotlinx
-.
-coroutines
-.
-ObsoleteCoroutinesApi
-import
 mozilla
 .
 components
@@ -126,12 +120,9 @@ concept
 fetch
 .
 Client
-ObsoleteCoroutinesApi
 class
 TestCore
 (
-private
-val
 context
 :
 Context
