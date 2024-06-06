@@ -2366,7 +2366,7 @@ type
 Boolean
 default
 :
-true
+false
 main
 -
 flow
@@ -2406,7 +2406,7 @@ type
 Boolean
 default
 :
-true
+false
 page
 -
 settings
@@ -2475,7 +2475,7 @@ type
 Boolean
 default
 :
-true
+false
 global
 -
 settings
@@ -2531,7 +2531,7 @@ type
 Boolean
 default
 :
-true
+false
 global
 -
 lang
@@ -2589,7 +2589,7 @@ type
 Boolean
 default
 :
-true
+false
 global
 -
 site
@@ -2652,7 +2652,7 @@ type
 Boolean
 default
 :
-true
+false
 downloads
 -
 enabled
@@ -2707,7 +2707,7 @@ type
 Boolean
 default
 :
-true
+false
 types
 :
 objects

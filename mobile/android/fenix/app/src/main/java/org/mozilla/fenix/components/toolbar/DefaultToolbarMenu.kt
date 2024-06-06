@@ -1537,15 +1537,6 @@ selectedSession
 .
 let
 {
-context
-.
-settings
-(
-)
-.
-enableTranslations
-&
-&
 store
 .
 state

@@ -1813,16 +1813,6 @@ true
 |
 |
 !
-context
-.
-settings
-(
-)
-.
-enableTranslations
-|
-|
-!
 FxNimbus
 .
 features

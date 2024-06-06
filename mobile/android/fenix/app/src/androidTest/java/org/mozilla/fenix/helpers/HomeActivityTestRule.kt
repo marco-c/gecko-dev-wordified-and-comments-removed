@@ -1015,11 +1015,6 @@ composeTopSitesEnabled
 Boolean
 =
 false
-translationsEnabled
-:
-Boolean
-=
-false
 )
 :
 this
@@ -1094,11 +1089,6 @@ this
 composeTopSitesEnabled
 =
 composeTopSitesEnabled
-this
-.
-isTranslationsEnabled
-=
-translationsEnabled
 }
 private
 val
@@ -1480,11 +1470,6 @@ composeTopSitesEnabled
 Boolean
 =
 false
-translationsEnabled
-:
-Boolean
-=
-false
 )
 =
 HomeActivityIntentTestRule
@@ -1519,9 +1504,6 @@ false
 composeTopSitesEnabled
 =
 composeTopSitesEnabled
-translationsEnabled
-=
-translationsEnabled
 )
 }
 }
