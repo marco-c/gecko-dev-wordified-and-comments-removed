@@ -2552,9 +2552,6 @@ toolbar_wrapper
 .
 setOnClickListener
 {
-hideOnboardingIfNeeded
-(
-)
 navigateToSearch
 (
 )
