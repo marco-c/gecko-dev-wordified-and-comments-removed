@@ -259,15 +259,7 @@ darker_gray
 LinearLayout
 >
 <
-mozilla
-.
-components
-.
-concept
-.
-engine
-.
-EngineView
+WebView
 tools
 :
 ignore
