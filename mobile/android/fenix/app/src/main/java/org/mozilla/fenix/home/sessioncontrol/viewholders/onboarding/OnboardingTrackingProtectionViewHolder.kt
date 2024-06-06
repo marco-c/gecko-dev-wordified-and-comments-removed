@@ -419,7 +419,7 @@ R
 .
 string
 .
-onboarding_tracking_protection_strict_button
+onboarding_tracking_protection_strict_option
 )
 val
 strictSummary
