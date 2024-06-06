@@ -112,8 +112,15 @@ nightly
 test
 when
 :
-[
-]
+-
+{
+hour
+:
+5
+minute
+:
+0
+}
 -
 name
 :
