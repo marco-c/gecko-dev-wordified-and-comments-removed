@@ -389,6 +389,9 @@ TelemetryWrapper
 menuRestoreEnginesEvent
 (
 )
+languageChanged
+=
+false
 }
 override
 fun
