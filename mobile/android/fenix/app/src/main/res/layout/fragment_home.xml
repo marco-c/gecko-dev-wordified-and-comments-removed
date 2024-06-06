@@ -662,6 +662,13 @@ true
 "
 android
 :
+focusableInTouchMode
+=
+"
+true
+"
+android
+:
 padding
 =
 "
