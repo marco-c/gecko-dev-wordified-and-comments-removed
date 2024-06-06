@@ -329,6 +329,9 @@ getTopSites
 totalSites
 :
 Int
+fetchProvidedTopSites
+:
+Boolean
 frecencyConfig
 :
 FrecencyThresholdOption
