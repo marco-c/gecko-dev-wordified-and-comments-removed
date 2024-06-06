@@ -324,6 +324,8 @@ Composable
 Unit
 )
 {
+FirefoxTheme
+{
 Card
 (
 elevation
@@ -344,6 +346,7 @@ dp
 content
 (
 )
+}
 }
 }
 /
