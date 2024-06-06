@@ -947,12 +947,6 @@ browser
 experiment
 metrics
 object
-ToolbarMenuShown
-:
-Event
-(
-)
-object
 SetDefaultBrowserToolbarMenuClicked
 :
 Event
