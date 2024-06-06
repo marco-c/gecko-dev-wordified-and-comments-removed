@@ -431,7 +431,7 @@ layout_below
 +
 id
 /
-author_label
+author_text
 "
 android
 :
@@ -619,7 +619,7 @@ layout_below
 +
 id
 /
-version_label
+version_text
 "
 android
 :
@@ -805,7 +805,7 @@ layout_below
 +
 id
 /
-last_updated_label
+last_updated_text
 "
 android
 :
