@@ -726,6 +726,13 @@ alpha
 "
 android
 :
+visibility
+=
+"
+gone
+"
+android
+:
 layout_marginTop
 =
 "
@@ -791,6 +798,13 @@ alpha
 =
 "
 0
+"
+android
+:
+visibility
+=
+"
+gone
 "
 android
 :
