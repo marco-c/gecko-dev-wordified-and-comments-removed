@@ -918,8 +918,6 @@ owner
 val
 job
 =
-GlobalScope
-.
 launch
 {
 channel
