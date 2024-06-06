@@ -745,6 +745,11 @@ SCHEDULER_ID
 {
 scheduler_id
 }
+SHORT_HEAD_BRANCH
+:
+{
+short_head_branch
+}
 TASK_ID
 :
 {
