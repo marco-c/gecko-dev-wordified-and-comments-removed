@@ -3527,6 +3527,15 @@ to
 CreditCards
 .
 savePromptUpdate
+CreditCardAutofillDialogFacts
+.
+Items
+.
+AUTOFILL_CREDIT_CARD_SAVE_PROMPT_SHOWN
+to
+CreditCards
+.
+savePromptShown
 )
 itemsToEvents
 .
