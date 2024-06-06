@@ -448,6 +448,9 @@ selectedSession
 ?
 .
 id
+pastedText
+=
+text
 )
 )
 }
