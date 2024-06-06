@@ -288,6 +288,17 @@ count
 )
 |
 |
+group
+.
+getChildAt
+(
+checkedId
+)
+=
+=
+null
+|
+|
 !
 group
 .
