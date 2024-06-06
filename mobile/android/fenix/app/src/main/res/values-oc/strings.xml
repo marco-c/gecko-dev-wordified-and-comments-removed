@@ -6329,13 +6329,6 @@ name
 "
 reduce_cookie_banner_control_experiment_dialog_title
 "
-tools
-:
-ignore
-=
-"
-UnusedResources
-"
 >
 F
 ra
@@ -11068,7 +11061,7 @@ name
 preference_gestures_dynamic_toolbar
 "
 >
-Desfilar
+Defilar
 per
 amagar
 la
