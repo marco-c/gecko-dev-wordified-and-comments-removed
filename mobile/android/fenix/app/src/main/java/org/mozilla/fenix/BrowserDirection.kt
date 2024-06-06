@@ -187,4 +187,12 @@ id
 .
 exceptionsFragment
 )
+FromAbout
+(
+R
+.
+id
+.
+aboutFragment
+)
 }
