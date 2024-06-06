@@ -228,6 +228,12 @@ colorFilter
 }
 }
 }
+Suppress
+(
+"
+RestrictedApi
+"
+)
 private
 fun
 themeActionMenuView

@@ -728,6 +728,9 @@ Suppress
 "
 ComplexCondition
 "
+"
+RestrictedApi
+"
 )
 fun
 make
