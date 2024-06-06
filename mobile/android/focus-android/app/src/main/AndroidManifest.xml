@@ -1136,6 +1136,16 @@ SettingsActivity
 "
 android
 :
+parentActivityName
+=
+"
+.
+activity
+.
+MainActivity
+"
+android
+:
 theme
 =
 "
