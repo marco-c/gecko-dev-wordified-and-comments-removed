@@ -6487,7 +6487,7 @@ packageName
 :
 id
 /
-mozac_browser_toolbar_browser_actions
+counter_root
 "
 )
 )
