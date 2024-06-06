@@ -9381,7 +9381,7 @@ security_popup_secure_connection
 >
 Lidhje
 e
-Sigurt
+Siguruar
 <
 /
 string
@@ -9396,7 +9396,7 @@ security_popup_insecure_connection
 >
 Lidhje
 e
-Pasigurt
+Pasiguruar
 <
 /
 string
@@ -14317,7 +14317,7 @@ secure_connection
 Lidhja
 sht
 e
-sigurt
+siguruar
 <
 /
 string
@@ -14351,7 +14351,7 @@ Lidhja
 s
 sht
 e
-sigurt
+siguruar
 <
 /
 string
