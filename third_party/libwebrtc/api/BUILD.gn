@@ -4773,14 +4773,6 @@ modules
 module_fec_api
 "
 "
-.
-.
-/
-rtc_base
-:
-checks
-"
-"
 environment
 "
 "
