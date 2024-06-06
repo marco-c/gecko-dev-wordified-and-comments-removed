@@ -491,6 +491,11 @@ settings
 shouldUseLightTheme
 =
 useLightTheme
+settings
+.
+shouldFollowDeviceTheme
+=
+false
 }
 /
 *
