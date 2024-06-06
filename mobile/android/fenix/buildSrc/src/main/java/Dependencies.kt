@@ -69,7 +69,7 @@ kotlin
 .
 3
 .
-21
+30
 "
 const
 val
@@ -309,7 +309,7 @@ mozilla_android_components
 "
 0
 .
-51
+52
 .
 0
 -
