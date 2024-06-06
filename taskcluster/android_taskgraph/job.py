@@ -821,8 +821,14 @@ secret_command
 [
         
 "
-.
-.
+/
+builds
+/
+worker
+/
+checkouts
+/
+gecko
 /
 taskcluster
 /
@@ -931,8 +937,14 @@ secret_command
 [
         
 "
-.
-.
+/
+builds
+/
+worker
+/
+checkouts
+/
+gecko
 /
 taskcluster
 /
