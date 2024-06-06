@@ -1373,6 +1373,8 @@ buildFeatures
 {
 viewBinding
 true
+buildConfig
+true
 }
 androidResources
 {
@@ -1722,6 +1724,11 @@ notice
 md
 '
 ]
+}
+jniLibs
+{
+useLegacyPackaging
+true
 }
 }
 testOptions
@@ -7330,7 +7337,9 @@ dir
 "
 project
 .
-buildDir
+layout
+.
+buildDirectory
 /
 tmp
 /
@@ -7358,7 +7367,9 @@ dir
 "
 project
 .
-buildDir
+layout
+.
+buildDirectory
 /
 intermediates
 /
@@ -7429,7 +7440,9 @@ dir
 :
 project
 .
-buildDir
+layout
+.
+buildDirectory
 includes
 :
 [

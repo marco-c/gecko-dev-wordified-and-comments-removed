@@ -323,7 +323,7 @@ fenix
 )
 ?
 .
-toLowerCase
+lowercase
 (
 )
 val

@@ -261,6 +261,8 @@ buildFeatures
 {
 viewBinding
 true
+buildConfig
+true
 }
 namespace
 '

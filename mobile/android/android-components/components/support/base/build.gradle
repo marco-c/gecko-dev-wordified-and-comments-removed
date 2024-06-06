@@ -80,7 +80,15 @@ generatedSrcDir
 new
 File
 (
-buildDir
+layout
+.
+buildDirectory
+.
+get
+(
+)
+.
+asFile
 "
 generated
 /
@@ -367,6 +375,8 @@ generatedSrcDir
 buildFeatures
 {
 viewBinding
+true
+buildConfig
 true
 }
 namespace

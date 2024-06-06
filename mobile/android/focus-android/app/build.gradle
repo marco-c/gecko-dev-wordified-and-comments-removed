@@ -662,6 +662,8 @@ compose
 true
 viewBinding
 true
+buildConfig
+true
 }
 composeOptions
 {
@@ -1009,6 +1011,11 @@ coroutines
 pro
 '
 ]
+}
+jniLibs
+{
+useLegacyPackaging
+true
 }
 }
 namespace
@@ -5718,7 +5725,9 @@ dir
 "
 project
 .
-buildDir
+layout
+.
+buildDirectory
 /
 tmp
 /
@@ -5746,7 +5755,9 @@ dir
 "
 project
 .
-buildDir
+layout
+.
+buildDirectory
 /
 intermediates
 /
@@ -5817,7 +5828,9 @@ dir
 :
 project
 .
-buildDir
+layout
+.
+buildDirectory
 includes
 :
 [

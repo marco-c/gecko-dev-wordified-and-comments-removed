@@ -139,6 +139,11 @@ pro
 '
 }
 }
+buildFeatures
+{
+buildConfig
+true
+}
 namespace
 '
 mozilla

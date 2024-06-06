@@ -489,6 +489,13 @@ allowMissingSdk
 true
 )
 .
+testModes
+(
+TestMode
+.
+UI_INJECTION_HOST
+)
+.
 run
 (
 )
