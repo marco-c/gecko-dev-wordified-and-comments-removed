@@ -1256,7 +1256,6 @@ SecureAbove22Preferences
 context
 KEY_STORAGE_NAME
 )
-private
 val
 passwordsEncryptionKey
 :
