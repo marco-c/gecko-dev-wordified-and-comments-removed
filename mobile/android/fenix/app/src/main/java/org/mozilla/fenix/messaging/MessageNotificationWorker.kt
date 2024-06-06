@@ -1205,11 +1205,9 @@ intent
 =
 nimbusMessagingController
 .
-getIntentForMessageAction
+getIntentForMessage
 (
 message
-.
-action
 )
 intent
 .

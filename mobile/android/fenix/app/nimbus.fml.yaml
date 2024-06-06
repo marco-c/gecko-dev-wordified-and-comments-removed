@@ -796,9 +796,7 @@ USER_ESTABLISHED_INSTALL
 ]
 style
 :
-"
 PERSISTENT
-"
 button
 -
 label
@@ -812,9 +810,7 @@ notification
 :
 title
 :
-"
 nimbus_notification_default_browser_title
-"
 text
 :
 nimbus_notification_default_browser_text
