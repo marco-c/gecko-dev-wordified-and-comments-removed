@@ -191,6 +191,9 @@ tabId
 :
 String
 ?
+sessionUseCases
+:
+SessionUseCases
 private
 val
 toolbarView
@@ -213,11 +216,7 @@ feature
 FullScreenFeature
 (
 store
-SessionUseCases
-(
-store
-sessionManager
-)
+sessionUseCases
 tabId
 :
 :

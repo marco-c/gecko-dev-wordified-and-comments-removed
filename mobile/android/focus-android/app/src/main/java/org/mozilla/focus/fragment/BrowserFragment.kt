@@ -1578,6 +1578,9 @@ sessionManager
 session
 .
 id
+components
+.
+sessionUseCases
 toolbarView
 !
 !
