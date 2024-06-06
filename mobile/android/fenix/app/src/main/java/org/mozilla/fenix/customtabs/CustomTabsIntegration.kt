@@ -220,6 +220,9 @@ Unit
 shouldReverseItems
 :
 Boolean
+isSandboxCustomTab
+:
+Boolean
 isPrivate
 :
 Boolean
@@ -311,6 +314,7 @@ activity
 store
 sessionId
 shouldReverseItems
+isSandboxCustomTab
 onItemTapped
 =
 onItemTapped

@@ -621,6 +621,11 @@ settings
 )
 .
 shouldUseBottomToolbar
+isSandboxCustomTab
+=
+args
+.
+isSandboxCustomTab
 )
 owner
 =

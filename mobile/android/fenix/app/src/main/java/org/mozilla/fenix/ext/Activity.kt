@@ -657,7 +657,7 @@ startActivity
 (
 SupportUtils
 .
-createCustomTabIntent
+createSandboxCustomTabIntent
 (
 context
 =

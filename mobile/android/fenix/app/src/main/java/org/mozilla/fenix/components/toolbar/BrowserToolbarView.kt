@@ -791,6 +791,9 @@ toolbarPosition
 ToolbarPosition
 .
 TOP
+isSandboxCustomTab
+=
+false
 onItemTapped
 =
 {

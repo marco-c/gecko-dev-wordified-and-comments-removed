@@ -301,6 +301,9 @@ id
 shouldReverseItems
 =
 false
+isSandboxCustomTab
+=
+false
 onItemTapped
 =
 {
