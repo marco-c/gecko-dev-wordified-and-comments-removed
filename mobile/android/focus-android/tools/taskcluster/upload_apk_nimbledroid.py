@@ -290,7 +290,7 @@ outputs
 /
 apk
 /
-focusWebviewUniversal
+focusWebviewArm
 /
 release
 /
@@ -300,7 +300,7 @@ focus
 -
 webview
 -
-universal
+arm
 -
 release
 -
