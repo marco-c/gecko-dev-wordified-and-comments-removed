@@ -646,7 +646,7 @@ default
 false
 )
 var
-launchLinksInPrivateTab
+openLinksInAPrivateTab
 by
 booleanPreference
 (
@@ -658,7 +658,7 @@ R
 .
 string
 .
-pref_key_launch_links_in_private_tab
+pref_key_open_links_in_a_private_tab
 )
 default
 =

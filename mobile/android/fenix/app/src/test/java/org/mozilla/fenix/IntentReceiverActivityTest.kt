@@ -219,7 +219,7 @@ settings
 (
 )
 .
-launchLinksInPrivateTab
+openLinksInAPrivateTab
 =
 true
 val
@@ -350,7 +350,7 @@ settings
 (
 )
 .
-launchLinksInPrivateTab
+openLinksInAPrivateTab
 =
 false
 val
