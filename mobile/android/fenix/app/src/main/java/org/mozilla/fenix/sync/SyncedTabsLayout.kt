@@ -326,6 +326,11 @@ visibility
 View
 .
 VISIBLE
+synced_tabs_pull_to_refresh
+.
+isEnabled
+=
+false
 }
 override
 fun
