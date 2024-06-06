@@ -575,7 +575,7 @@ R
 .
 string
 .
-preferences_manage_search_shortcuts2
+preferences_manage_search_shortcuts_2
 )
 )
 }
