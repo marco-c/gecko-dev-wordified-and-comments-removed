@@ -764,6 +764,9 @@ ProtectionsView
 binding
 .
 trackingProtectionLayout
+binding
+.
+trackingProtectionDivider
 interactor
 context
 .
