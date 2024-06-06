@@ -606,7 +606,7 @@ metric
 .
 accumulateSamples
 (
-longArrayOf
+listOf
 (
 durationMillis
 )

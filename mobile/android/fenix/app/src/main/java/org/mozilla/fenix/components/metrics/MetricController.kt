@@ -2111,7 +2111,7 @@ null
 .
 accumulateSamples
 (
-longArrayOf
+listOf
 (
 providerTiming
 .

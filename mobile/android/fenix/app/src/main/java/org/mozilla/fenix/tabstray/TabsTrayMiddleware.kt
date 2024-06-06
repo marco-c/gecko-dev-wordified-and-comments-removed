@@ -359,7 +359,7 @@ accumulateSamples
 (
 tabGroupSizeMapping
 .
-toLongArray
+toList
 (
 )
 )
