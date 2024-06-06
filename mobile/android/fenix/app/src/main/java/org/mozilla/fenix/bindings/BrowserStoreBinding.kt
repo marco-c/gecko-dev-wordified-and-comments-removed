@@ -63,10 +63,6 @@ mozilla
 .
 fenix
 .
-components
-.
-appstate
-.
 bindings
 import
 kotlinx

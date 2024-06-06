@@ -89,14 +89,6 @@ net
 .
 Uri
 import
-androidx
-.
-core
-.
-text
-.
-isDigitsOnly
-import
 io
 .
 mockk
@@ -448,12 +440,6 @@ mockk
 intentProcessors
 =
 mockk
-(
-)
-"
-"
-.
-isDigitsOnly
 (
 )
 every

@@ -121,9 +121,11 @@ mozilla
 .
 fenix
 .
-components
+browser
 .
-AppStore
+browsingmode
+.
+BrowsingModeManager
 import
 org
 .
@@ -211,9 +213,9 @@ interactor
 TabsTrayInteractor
 private
 val
-appStore
+browsingModeManager
 :
-AppStore
+BrowsingModeManager
 private
 val
 tabsTrayStore
@@ -293,9 +295,7 @@ selectedPagerPosition
 =
 when
 {
-appStore
-.
-state
+browsingModeManager
 .
 mode
 .

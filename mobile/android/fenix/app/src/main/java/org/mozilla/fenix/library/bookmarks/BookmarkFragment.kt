@@ -733,11 +733,6 @@ lifecycleScope
 store
 =
 bookmarkStore
-appStore
-=
-requireComponents
-.
-appStore
 sharedViewModel
 =
 sharedViewModel
