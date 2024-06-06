@@ -392,6 +392,13 @@ swipeToDelete
 start
 (
 )
+adapter
+?
+.
+onAttachedToRecyclerView
+(
+this
+)
 touchHelper
 .
 attachToRecyclerView
