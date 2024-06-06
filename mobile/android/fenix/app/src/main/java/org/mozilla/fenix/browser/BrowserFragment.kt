@@ -185,7 +185,7 @@ state
 .
 state
 .
-TabSessionState
+SessionState
 import
 mozilla
 .
@@ -197,7 +197,7 @@ state
 .
 state
 .
-SessionState
+TabSessionState
 import
 mozilla
 .
@@ -313,6 +313,14 @@ mozilla
 .
 fenix
 .
+FeatureFlags
+import
+org
+.
+mozilla
+.
+fenix
+.
 R
 import
 org
@@ -365,7 +373,7 @@ fenix
 .
 ext
 .
-navigateBlockingForAsyncNavGraph
+nav
 import
 org
 .
@@ -375,7 +383,7 @@ fenix
 .
 ext
 .
-nav
+navigateBlockingForAsyncNavGraph
 import
 org
 .
@@ -593,6 +601,13 @@ selectTab
 )
 )
 }
+if
+(
+FeatureFlags
+.
+showHomeButtonFeature
+)
+{
 val
 homeAction
 =
@@ -646,6 +661,7 @@ addNavigationAction
 (
 homeAction
 )
+}
 val
 readerModeAction
 =
