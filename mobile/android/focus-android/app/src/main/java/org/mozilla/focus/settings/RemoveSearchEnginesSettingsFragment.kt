@@ -268,7 +268,6 @@ view
 ?
 .
 post
-(
 {
 val
 pref
@@ -318,7 +317,6 @@ atLeastOneEngineChecked
 )
 }
 }
-)
 }
 override
 fun
@@ -391,6 +389,11 @@ activity
 !
 !
 enginesToRemove
+as
+MutableSet
+<
+String
+>
 )
 fragmentManager
 !

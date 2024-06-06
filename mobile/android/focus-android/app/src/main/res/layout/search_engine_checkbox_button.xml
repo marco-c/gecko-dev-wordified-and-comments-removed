@@ -129,13 +129,6 @@ preference_row_height
 "
 android
 :
-button
-=
-"
-null
-"
-android
-:
 drawableEnd
 =
 "
