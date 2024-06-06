@@ -707,8 +707,9 @@ suppress
 some
 things
 .
-/
-/
+testInstrumentationRunnerArguments
+=
+[
 /
 /
 -
@@ -844,9 +845,6 @@ for
 potential
 workarounds
 .
-testInstrumentationRunnerArguments
-=
-[
 '
 androidx
 .
@@ -966,6 +964,8 @@ in
 some
 case
 .
+/
+/
 /
 /
 NOTE
