@@ -832,12 +832,6 @@ Event
 (
 )
 object
-SyncedTabOpened
-:
-Event
-(
-)
-object
 HaveOpenTabs
 :
 Event
