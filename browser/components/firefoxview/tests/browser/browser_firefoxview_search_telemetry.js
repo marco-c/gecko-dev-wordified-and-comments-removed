@@ -3641,8 +3641,7 @@ length
 &
 &
 syncedTabs
-.
-controller
+?
 .
 searchQuery
 "
