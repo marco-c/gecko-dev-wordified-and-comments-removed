@@ -332,7 +332,7 @@ assemble_task_id
 =
 BUILDER
 .
-craft_assemble_task
+craft_assemble_pr_task
 (
 variant
 )
@@ -348,9 +348,10 @@ slugId
 =
 BUILDER
 .
-craft_test_task
+craft_test_pr_task
 (
 variant
+True
 )
     
 for
