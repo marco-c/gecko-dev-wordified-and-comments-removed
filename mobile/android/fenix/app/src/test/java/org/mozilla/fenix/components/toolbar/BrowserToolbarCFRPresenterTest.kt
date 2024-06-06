@@ -3267,7 +3267,7 @@ onShoppingCfrActionClicked
 =
 {
 }
-onShoppingCfrDismiss
+onShoppingCfrDisplayed
 =
 {
 }

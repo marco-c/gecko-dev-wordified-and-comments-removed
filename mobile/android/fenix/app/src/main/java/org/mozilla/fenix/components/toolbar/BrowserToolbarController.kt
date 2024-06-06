@@ -480,12 +480,12 @@ see
 [
 BrowserToolbarInteractor
 .
-onShoppingCfrDismiss
+onShoppingCfrDisplayed
 ]
 *
 /
 fun
-handleShoppingCfrDismiss
+handleShoppingCfrDisplayed
 (
 )
 /
@@ -1216,9 +1216,6 @@ handleShoppingCfrActionClick
 (
 )
 {
-updateShoppingCfrSettings
-(
-)
 navController
 .
 navigate
@@ -1232,7 +1229,7 @@ actionBrowserFragmentToReviewQualityCheckDialogFragment
 }
 override
 fun
-handleShoppingCfrDismiss
+handleShoppingCfrDisplayed
 (
 )
 {
