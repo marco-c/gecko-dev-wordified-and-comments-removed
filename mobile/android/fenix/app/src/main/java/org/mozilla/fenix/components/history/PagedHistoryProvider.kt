@@ -175,16 +175,6 @@ mozilla
 .
 fenix
 .
-perf
-.
-runBlockingIncrement
-import
-org
-.
-mozilla
-.
-fenix
-.
 utils
 .
 Settings
@@ -492,6 +482,7 @@ HistoryDB
 ]
 *
 /
+suspend
 fun
 getHistory
 (
@@ -662,6 +653,7 @@ Group
 =
 null
 override
+suspend
 fun
 getHistory
 (
@@ -677,9 +669,6 @@ List
 <
 HistoryDB
 >
-{
-return
-runBlockingIncrement
 {
 /
 /
@@ -835,12 +824,12 @@ toList
 (
 )
 }
+return
 getHistoryAndSearchGroups
 (
 offset
 numberOfItems
 )
-}
 }
 /
 *

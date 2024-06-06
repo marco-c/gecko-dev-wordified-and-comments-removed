@@ -85,6 +85,14 @@ mockk
 .
 mockk
 import
+kotlinx
+.
+coroutines
+.
+test
+.
+runBlockingTest
+import
 mozilla
 .
 components
@@ -194,6 +202,8 @@ uses
 getVisitsPaginated
 (
 )
+=
+runBlockingTest
 {
 val
 provider
@@ -769,6 +779,8 @@ lower
 bound
 (
 )
+=
+runBlockingTest
 {
 val
 provider
@@ -1102,6 +1114,8 @@ upper
 bound
 (
 )
+=
+runBlockingTest
 {
 val
 provider
@@ -1438,6 +1452,8 @@ metadata
 groups
 (
 )
+=
+runBlockingTest
 {
 val
 provider
