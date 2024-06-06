@@ -667,7 +667,6 @@ mozac_feature_contextmenu_share_email_address
 Zdie
 a
 e
--
 mailov
 adresu
 <
@@ -706,7 +705,6 @@ mozac_feature_contextmenu_copy_email_address
 Kop
 rova
 e
--
 mailov
 adresu
 <
@@ -745,7 +743,6 @@ mozac_feature_contextmenu_snackbar_email_address_copied
 "
 >
 E
--
 mailov
 adresa
 bola
@@ -953,7 +950,6 @@ mozac_selection_context_menu_email
 >
 Posla
 e
--
 mail
 <
 /
