@@ -3055,6 +3055,10 @@ androidx_transition
 implementation
 Deps
 .
+google_material
+implementation
+Deps
+.
 autodispose
 implementation
 Deps
