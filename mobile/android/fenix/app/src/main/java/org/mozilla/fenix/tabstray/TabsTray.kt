@@ -1398,6 +1398,9 @@ fillMaxSize
 state
 =
 pagerState
+beyondBoundsPageCount
+=
+2
 userScrollEnabled
 =
 false
