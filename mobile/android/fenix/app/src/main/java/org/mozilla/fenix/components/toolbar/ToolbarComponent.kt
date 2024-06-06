@@ -224,6 +224,8 @@ SearchState
 (
 "
 "
+"
+"
 false
 )
 private
@@ -427,6 +429,10 @@ SearchState
 (
 val
 query
+:
+String
+val
+searchTerm
 :
 String
 val

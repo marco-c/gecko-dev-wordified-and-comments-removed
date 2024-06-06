@@ -1006,6 +1006,11 @@ SearchState
 (
 "
 "
+getSessionByIdOrUseSelectedSession
+(
+)
+.
+searchTerms
 isEditing
 =
 false
