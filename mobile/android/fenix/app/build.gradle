@@ -2447,6 +2447,10 @@ mozilla_concept_toolbar
 implementation
 Deps
 .
+mozilla_concept_sync
+implementation
+Deps
+.
 mozilla_browser_awesomebar
 implementation
 Deps
@@ -2508,6 +2512,10 @@ implementation
 Deps
 .
 mozilla_feature_session
+implementation
+Deps
+.
+mozilla_feature_sync
 implementation
 Deps
 .

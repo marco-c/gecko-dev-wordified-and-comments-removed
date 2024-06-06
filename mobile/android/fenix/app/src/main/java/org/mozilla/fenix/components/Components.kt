@@ -98,6 +98,9 @@ lazy
 BackgroundServices
 (
 context
+core
+.
+historyStorage
 )
 }
 val

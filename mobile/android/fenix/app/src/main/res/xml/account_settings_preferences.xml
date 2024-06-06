@@ -126,13 +126,6 @@ string
 /
 preferences_sync_now
 "
-android
-:
-enabled
-=
-"
-false
-"
 /
 >
 <
