@@ -311,6 +311,15 @@ mozilla
 fenix
 .
 ui
+-
+package
+org
+.
+mozilla
+.
+fenix
+.
+glean
 device
 :
 -
