@@ -152,6 +152,10 @@ extend
 [
                     
 "
+mobile
+/
+android
+/
 android
 -
 components
@@ -162,6 +166,10 @@ gradle
 "
                     
 "
+mobile
+/
+android
+/
 android
 -
 components
@@ -172,6 +180,10 @@ gradle
 "
                     
 "
+mobile
+/
+android
+/
 android
 -
 components
@@ -182,6 +194,10 @@ buildSrc
 "
                     
 "
+mobile
+/
+android
+/
 android
 -
 components
@@ -192,6 +208,10 @@ properties
 "
                     
 "
+mobile
+/
+android
+/
 android
 -
 components
@@ -208,6 +228,10 @@ properties
 "
                     
 "
+mobile
+/
+android
+/
 android
 -
 components
@@ -385,6 +409,10 @@ focus
         
 return
 "
+mobile
+/
+android
+/
 focus
 -
 android
@@ -404,6 +432,10 @@ fenix
         
 return
 "
+mobile
+/
+android
+/
 fenix
 /
 *
@@ -416,6 +448,10 @@ else
 return
 f
 "
+mobile
+/
+android
+/
 android
 -
 components
