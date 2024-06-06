@@ -2706,6 +2706,8 @@ session
 register
 (
 singleSessionObserver
+this
+HomeFragment
 )
 emitSessionChanges
 (
@@ -2781,6 +2783,8 @@ it
 register
 (
 singleSessionObserver
+this
+HomeFragment
 )
 }
 emitSessionChanges
