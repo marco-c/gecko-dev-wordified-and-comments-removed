@@ -612,12 +612,6 @@ Event
 (
 )
 object
-WhatsNewTapped
-:
-Event
-(
-)
-object
 PocketTopSiteClicked
 :
 Event
