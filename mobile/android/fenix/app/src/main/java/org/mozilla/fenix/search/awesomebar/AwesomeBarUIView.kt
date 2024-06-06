@@ -396,6 +396,8 @@ drawable
 .
 ic_link
 )
+!
+!
 .
 toBitmap
 (
