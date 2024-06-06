@@ -383,7 +383,7 @@ R
 .
 string
 .
-privacy_notice_neutral_button
+privacy_notice_neutral_button_2
 )
 {
 _
