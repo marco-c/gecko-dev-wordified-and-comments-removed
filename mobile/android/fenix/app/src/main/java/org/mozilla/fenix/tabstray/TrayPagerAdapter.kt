@@ -169,18 +169,6 @@ fenix
 .
 tabstray
 .
-browser
-.
-InactiveTabsInteractor
-import
-org
-.
-mozilla
-.
-fenix
-.
-tabstray
-.
 viewholders
 .
 AbstractPageViewHolder
@@ -246,7 +234,7 @@ tabsTrayStore
 TabsTrayStore
 internal
 val
-tabsTrayInteractor
+interactor
 :
 TabsTrayInteractor
 internal
@@ -259,11 +247,6 @@ val
 appStore
 :
 AppStore
-internal
-val
-inactiveTabsInteractor
-:
-InactiveTabsInteractor
 )
 :
 RecyclerView
@@ -339,9 +322,9 @@ lifecycleOwner
 tabsTrayStore
 =
 tabsTrayStore
-inactiveTabsInteractor
+interactor
 =
-inactiveTabsInteractor
+interactor
 featureName
 =
 INACTIVE_TABS_FEATURE_NAME
@@ -349,7 +332,7 @@ INACTIVE_TABS_FEATURE_NAME
 BrowserTabsAdapter
 (
 context
-tabsTrayInteractor
+interactor
 tabsTrayStore
 TABS_TRAY_FEATURE_NAME
 lifecycleOwner
@@ -365,7 +348,7 @@ lazy
 BrowserTabsAdapter
 (
 context
-tabsTrayInteractor
+interactor
 tabsTrayStore
 TABS_TRAY_FEATURE_NAME
 lifecycleOwner
@@ -417,7 +400,7 @@ lifecycleOwner
 tabsTrayStore
 browserStore
 appStore
-tabsTrayInteractor
+interactor
 )
 }
 PrivateBrowserPageViewHolder
@@ -445,7 +428,7 @@ false
 )
 tabsTrayStore
 browserStore
-tabsTrayInteractor
+interactor
 )
 }
 SyncedTabsPageViewHolder
@@ -490,7 +473,7 @@ tabsTrayStore
 tabsTrayStore
 interactor
 =
-tabsTrayInteractor
+interactor
 )
 }
 else

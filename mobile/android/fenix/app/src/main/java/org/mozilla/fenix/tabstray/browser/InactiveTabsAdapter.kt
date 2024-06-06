@@ -132,7 +132,7 @@ tabs
 .
 *
 *
-param
+property
 lifecycleOwner
 [
 LifecycleOwner
@@ -147,7 +147,7 @@ tied
 to
 .
 *
-param
+property
 tabsTrayStore
 [
 TabsTrayStore
@@ -165,8 +165,8 @@ inactiveTabs
 ]
 .
 *
-param
-inactiveTabsInteractor
+property
+interactor
 [
 InactiveTabsInteractor
 ]
@@ -188,7 +188,7 @@ close
 dialog
 .
 *
-param
+property
 featureName
 [
 String
@@ -228,7 +228,7 @@ tabsTrayStore
 TabsTrayStore
 private
 val
-inactiveTabsInteractor
+interactor
 :
 InactiveTabsInteractor
 override
@@ -290,7 +290,7 @@ tabsTrayStore
 tabsTrayStore
 interactor
 =
-inactiveTabsInteractor
+interactor
 )
 }
 override
