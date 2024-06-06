@@ -1333,7 +1333,7 @@ settings
 (
 )
 .
-historyMetadataFeature
+historyMetadataUIFeature
 )
 {
 providersToAdd
@@ -1477,7 +1477,7 @@ settings
 (
 )
 .
-historyMetadataFeature
+historyMetadataUIFeature
 )
 {
 providersToRemove

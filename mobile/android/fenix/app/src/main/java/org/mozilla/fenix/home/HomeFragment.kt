@@ -1897,7 +1897,7 @@ settings
 (
 )
 .
-historyMetadataFeature
+historyMetadataUIFeature
 )
 {
 historyMetadataFeature

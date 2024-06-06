@@ -5415,7 +5415,7 @@ default
 false
 )
 var
-historyMetadataFeature
+historyMetadataUIFeature
 by
 featureFlagPreference
 (
@@ -5433,12 +5433,12 @@ default
 =
 FeatureFlags
 .
-historyMetadataFeature
+historyMetadataUIFeature
 featureFlag
 =
 FeatureFlags
 .
-historyMetadataFeature
+historyMetadataUIFeature
 |
 |
 isHistoryMetadataEnabled

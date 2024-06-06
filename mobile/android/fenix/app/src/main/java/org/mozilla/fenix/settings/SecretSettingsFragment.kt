@@ -270,7 +270,7 @@ settings
 (
 )
 .
-historyMetadataFeature
+historyMetadataUIFeature
 onPreferenceChangeListener
 =
 object
