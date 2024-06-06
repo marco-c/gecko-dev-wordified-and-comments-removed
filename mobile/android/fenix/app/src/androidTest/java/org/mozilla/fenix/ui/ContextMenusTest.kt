@@ -641,11 +641,6 @@ openNavigationToolbar
 }
 .
 visitLinkFromClipboard
-(
-genericURL
-.
-url
-)
 {
 verifyUrl
 (
@@ -943,11 +938,6 @@ openNavigationToolbar
 }
 .
 visitLinkFromClipboard
-(
-imageResource
-.
-url
-)
 {
 verifyUrl
 (

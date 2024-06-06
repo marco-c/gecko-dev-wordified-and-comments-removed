@@ -344,7 +344,7 @@ VISIBLE
 fun
 verifyUrl
 (
-redirectUrl
+url
 :
 String
 )
@@ -413,7 +413,7 @@ withText
 (
 containsString
 (
-redirectUrl
+url
 )
 )
 )
