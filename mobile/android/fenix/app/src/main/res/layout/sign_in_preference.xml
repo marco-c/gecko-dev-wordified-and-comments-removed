@@ -340,6 +340,13 @@ style
 /
 Header16TextStyle
 "
+android
+:
+textAlignment
+=
+"
+viewStart
+"
 app
 :
 layout_constraintBottom_toTopOf
@@ -445,6 +452,13 @@ text
 =
 "
 Summary
+"
+android
+:
+textAlignment
+=
+"
+viewStart
 "
 android
 :
