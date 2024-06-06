@@ -557,13 +557,6 @@ ic_close
 "
 app
 :
-layout_constraintBottom_toBottomOf
-=
-"
-parent
-"
-app
-:
 layout_constraintEnd_toEndOf
 =
 "
