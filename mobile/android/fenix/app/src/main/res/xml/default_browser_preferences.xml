@@ -173,6 +173,13 @@ checkbox_left_preference
 "
 android
 :
+defaultValue
+=
+"
+false
+"
+android
+:
 key
 =
 "
