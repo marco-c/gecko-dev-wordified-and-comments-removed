@@ -480,7 +480,9 @@ maxNumberOfSuggestions
 Int
 =
 DEFAULT_COMBINED_SUGGESTION_LIMIT
-private
+get
+:
+VisibleForTesting
 val
 showEditSuggestion
 :

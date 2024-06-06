@@ -791,6 +791,9 @@ core
 .
 icons
 engineForSpeculativeConnects
+showEditSuggestion
+=
+false
 suggestionsHeader
 =
 activity
@@ -838,6 +841,9 @@ engineForSpeculativeConnects
 maxNumberOfSuggestions
 =
 METADATA_SUGGESTION_LIMIT
+showEditSuggestion
+=
+false
 suggestionsHeader
 =
 activity
@@ -1855,6 +1861,9 @@ engineForSpeculativeConnects
 maxNumberOfSuggestions
 =
 METADATA_SUGGESTION_LIMIT
+showEditSuggestion
+=
+false
 suggestionsHeader
 =
 activity
@@ -1899,6 +1908,9 @@ engineForSpeculativeConnects
 maxNumberOfSuggestions
 =
 METADATA_SUGGESTION_LIMIT
+showEditSuggestion
+=
+false
 suggestionsHeader
 =
 activity
@@ -2785,6 +2797,9 @@ ic_search_results_bookmarks
 engine
 =
 engineForSpeculativeConnects
+showEditSuggestion
+=
+false
 suggestionsHeader
 =
 activity

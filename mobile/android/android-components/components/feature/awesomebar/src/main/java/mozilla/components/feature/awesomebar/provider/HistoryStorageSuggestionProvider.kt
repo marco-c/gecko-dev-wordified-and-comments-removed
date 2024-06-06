@@ -430,7 +430,9 @@ maxNumberOfSuggestions
 Int
 =
 DEFAULT_HISTORY_SUGGESTION_LIMIT
-private
+get
+:
+VisibleForTesting
 val
 showEditSuggestion
 :

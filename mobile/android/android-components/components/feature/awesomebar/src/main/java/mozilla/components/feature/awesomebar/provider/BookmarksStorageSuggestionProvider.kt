@@ -431,7 +431,9 @@ Engine
 ?
 =
 null
-private
+get
+:
+VisibleForTesting
 val
 showEditSuggestion
 :
