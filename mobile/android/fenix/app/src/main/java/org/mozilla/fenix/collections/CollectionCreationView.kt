@@ -430,6 +430,13 @@ transition
 duration
 =
 TRANSITION_DURATION
+transition
+.
+excludeTarget
+(
+back_button
+true
+)
 selectTabsConstraints
 .
 clone
