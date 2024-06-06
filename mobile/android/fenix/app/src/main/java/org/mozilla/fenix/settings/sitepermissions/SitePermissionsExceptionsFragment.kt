@@ -486,13 +486,6 @@ liveData
 observe
 (
 viewLifecycleOwner
-Observer
-<
-PagedList
-<
-SitePermissions
->
->
 {
 if
 (

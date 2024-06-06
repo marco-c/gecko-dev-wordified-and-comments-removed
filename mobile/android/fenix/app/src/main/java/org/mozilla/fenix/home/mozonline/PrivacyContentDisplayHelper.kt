@@ -81,12 +81,6 @@ Context
 import
 android
 .
-content
-.
-DialogInterface
-import
-android
-.
 text
 .
 SpannableString
@@ -362,9 +356,6 @@ string
 .
 privacy_notice_positive_button
 )
-DialogInterface
-.
-OnClickListener
 {
 _
 _
@@ -394,9 +385,6 @@ string
 .
 privacy_notice_neutral_button
 )
-DialogInterface
-.
-OnClickListener
 {
 _
 _
