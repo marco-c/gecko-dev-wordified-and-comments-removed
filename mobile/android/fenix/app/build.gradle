@@ -1491,11 +1491,11 @@ compileOptions
 sourceCompatibility
 JavaVersion
 .
-VERSION_1_8
+VERSION_11
 targetCompatibility
 JavaVersion
 .
-VERSION_1_8
+VERSION_11
 }
 lintOptions
 {

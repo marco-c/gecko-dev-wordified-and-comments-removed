@@ -74,12 +74,12 @@ targetCompatibility
 =
 JavaVersion
 .
-VERSION_1_8
+VERSION_11
 sourceCompatibility
 =
 JavaVersion
 .
-VERSION_1_8
+VERSION_11
 dependencies
 {
 compileOnly

@@ -1582,13 +1582,13 @@ json
 compileOptions
 {
 sourceCompatibility
-1
+JavaVersion
 .
-8
+VERSION_11
 targetCompatibility
-1
+JavaVersion
 .
-8
+VERSION_11
 }
 tasks
 .
