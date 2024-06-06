@@ -451,6 +451,10 @@ zh
 -
 HK
 "
+	
+"
+nv
+"
 ]
 SCREENSHOT_LOCALES
 =
