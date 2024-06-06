@@ -214,6 +214,13 @@ layout_height
 "
 24dp
 "
+android
+:
+importantForAccessibility
+=
+"
+no
+"
 app
 :
 srcCompat
