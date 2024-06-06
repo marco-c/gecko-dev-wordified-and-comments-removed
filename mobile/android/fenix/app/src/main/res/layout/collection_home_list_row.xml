@@ -204,7 +204,9 @@ android
 elevation
 =
 "
-5dp
+dimen
+/
+home_collection_elevation
 "
 android
 :
