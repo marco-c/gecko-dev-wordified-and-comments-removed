@@ -406,7 +406,9 @@ app_name
 )
 )
 return
-view
+binding
+.
+root
 }
 override
 fun
