@@ -459,9 +459,8 @@ By
 text
 (
 "
-SHARE
-A
-LINK
+ALL
+ACTIONS
 "
 )
 )
@@ -2325,11 +2324,10 @@ allOf
 (
 withText
 (
-R
-.
-string
-.
-share_link_all_apps_subheader
+"
+ALL
+ACTIONS
+"
 )
 withResourceName
 (

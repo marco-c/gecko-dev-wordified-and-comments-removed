@@ -258,7 +258,7 @@ application
 companion
 object
 {
-private
+internal
 const
 val
 RECENT_APPS_LIMIT
@@ -291,8 +291,9 @@ components
 backgroundServices
 .
 accountManager
-private
-val
+VisibleForTesting
+internal
+var
 recentAppsStorage
 =
 RecentAppsStorage
@@ -875,8 +876,8 @@ unregisterNetworkCallback
 networkCallback
 )
 }
+VisibleForTesting
 WorkerThread
-private
 fun
 getIntentActivities
 (

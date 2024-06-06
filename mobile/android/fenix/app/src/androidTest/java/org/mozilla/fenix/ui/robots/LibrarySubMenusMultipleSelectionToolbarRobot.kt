@@ -314,9 +314,8 @@ By
 text
 (
 "
-SHARE
-A
-LINK
+ALL
+ACTIONS
 "
 )
 )
@@ -348,9 +347,8 @@ By
 text
 (
 "
-SHARE
-A
-LINK
+ALL
+ACTIONS
 "
 )
 )
