@@ -643,11 +643,11 @@ isTrackingProtectionEnabled
 args
 .
 trackingProtectionEnabled
-isCookieBannerHandlingEnabled
+cookieBannerUIMode
 =
 args
 .
-cookieBannerHandlingEnabled
+cookieBannerUIMode
 listTrackers
 =
 listOf

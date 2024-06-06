@@ -644,11 +644,11 @@ isTrackingProtectionEnabled
 args
 .
 isTrackingProtectionEnabled
-isCookieHandlingEnabled
+cookieBannerUIMode
 =
 args
 .
-isCookieHandlingEnabled
+cookieBannerUIMode
 )
 quickSettingsController
 =

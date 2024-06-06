@@ -417,11 +417,11 @@ isTrackingProtectionEnabled
 args
 .
 trackingProtectionEnabled
-isCookieBannerHandlingEnabled
+cookieBannerUIMode
 =
 args
 .
-cookieBannerHandlingEnabled
+cookieBannerUIMode
 listTrackers
 =
 listOf
@@ -559,6 +559,13 @@ DefaultCookieBannerDetailsInteractor
 (
 controller
 )
+onDismiss
+=
+{
+dismiss
+(
+)
+}
 )
 return
 rootView

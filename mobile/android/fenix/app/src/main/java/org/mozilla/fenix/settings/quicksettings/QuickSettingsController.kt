@@ -1261,11 +1261,11 @@ trackingProtectionEnabled
 state
 .
 isTrackingProtectionEnabled
-cookieBannerHandlingEnabled
+cookieBannerUIMode
 =
 state
 .
-isCookieBannerHandlingEnabled
+cookieBannerUIMode
 gravity
 =
 context
@@ -1327,11 +1327,11 @@ trackingProtectionEnabled
 state
 .
 isTrackingProtectionEnabled
-cookieBannerHandlingEnabled
+cookieBannerUIMode
 =
 state
 .
-isCookieBannerHandlingEnabled
+cookieBannerUIMode
 gravity
 =
 context

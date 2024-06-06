@@ -320,9 +320,11 @@ url
 isTrackingProtectionEnabled
 =
 false
-isCookieBannerHandlingEnabled
+cookieBannerUIMode
 =
-false
+CookieBannerUIMode
+.
+DISABLE
 listTrackers
 =
 emptyList

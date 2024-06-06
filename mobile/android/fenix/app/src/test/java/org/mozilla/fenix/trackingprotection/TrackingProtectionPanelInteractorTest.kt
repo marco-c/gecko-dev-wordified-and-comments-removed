@@ -731,7 +731,7 @@ settings
 shouldUseCookieBanner
 }
 returns
-true
+false
 interactor
 .
 onBackPressed
