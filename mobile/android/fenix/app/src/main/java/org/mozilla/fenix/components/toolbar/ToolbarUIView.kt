@@ -378,8 +378,16 @@ onCancelEditing
 :
 Boolean
 {
+actionEmitter
+.
+onNext
+(
+SearchAction
+.
+EditingCanceled
+)
 return
-true
+false
 }
 override
 fun

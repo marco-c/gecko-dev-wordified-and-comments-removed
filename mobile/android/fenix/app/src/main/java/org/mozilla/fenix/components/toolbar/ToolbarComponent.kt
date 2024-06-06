@@ -477,6 +477,12 @@ Item
 SearchAction
 (
 )
+object
+EditingCanceled
+:
+SearchAction
+(
+)
 }
 sealed
 class
