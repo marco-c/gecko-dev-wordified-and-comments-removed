@@ -171,7 +171,7 @@ tabstray
 .
 viewholders
 .
-SyncedTabViewHolder
+SyncedTabsPageViewHolder
 RunWith
 (
 FenixRobolectricTestRunner
@@ -212,7 +212,7 @@ testContext
 val
 viewHolder
 =
-SyncedTabViewHolder
+SyncedTabsPageViewHolder
 (
 layout
 mockk
@@ -322,7 +322,7 @@ testContext
 val
 viewHolder
 =
-SyncedTabViewHolder
+SyncedTabsPageViewHolder
 (
 layout
 mockk

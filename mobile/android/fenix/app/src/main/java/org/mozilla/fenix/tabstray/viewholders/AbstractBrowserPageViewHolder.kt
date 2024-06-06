@@ -166,7 +166,7 @@ list
 /
 abstract
 class
-BaseBrowserTabViewHolder
+AbstractBrowserPageViewHolder
 (
 containerView
 :
@@ -184,7 +184,7 @@ currentTabIndex
 Int
 )
 :
-AbstractTrayViewHolder
+AbstractPageViewHolder
 (
 containerView
 )

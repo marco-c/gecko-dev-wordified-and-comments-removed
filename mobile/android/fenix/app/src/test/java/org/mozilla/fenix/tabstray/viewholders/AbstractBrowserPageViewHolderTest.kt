@@ -246,7 +246,7 @@ FenixRobolectricTestRunner
 class
 )
 class
-BaseBrowserTabViewHolderTest
+AbstractBrowserPageViewHolderTest
 {
 val
 store
@@ -322,7 +322,7 @@ null
 val
 viewHolder
 =
-NormalBrowserTabViewHolder
+NormalBrowserPageViewHolder
 (
 itemView
 store
@@ -451,7 +451,7 @@ null
 val
 viewHolder
 =
-NormalBrowserTabViewHolder
+NormalBrowserPageViewHolder
 (
 itemView
 store

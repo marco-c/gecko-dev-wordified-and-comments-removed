@@ -119,7 +119,7 @@ items
 /
 abstract
 class
-AbstractTrayViewHolder
+AbstractPageViewHolder
 constructor
 (
 override

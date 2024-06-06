@@ -111,7 +111,7 @@ tabstray
 .
 TabsTrayStore
 class
-SyncedTabViewHolder
+SyncedTabsPageViewHolder
 (
 containerView
 :
@@ -123,7 +123,7 @@ tabsTrayStore
 TabsTrayStore
 )
 :
-AbstractTrayViewHolder
+AbstractPageViewHolder
 (
 containerView
 )
