@@ -1918,7 +1918,7 @@ clickMultiSelectionDelete
 }
 bookmarksMenu
 {
-verifyEmptyBookmarksList
+verifyDeleteMultipleBookmarksSnackBar
 (
 )
 }
