@@ -395,6 +395,16 @@ updatedFeatureFlags
 isUnifiedSearchEnabled
 override
 var
+newSearchSettingsEnabled
+:
+Boolean
+by
+updatedFeatureFlags
+:
+:
+newSearchSettingsEnabled
+override
+var
 isPocketEnabled
 :
 Boolean
