@@ -475,16 +475,7 @@ text
 .
 contains
 (
-testContext
-.
-getString
-(
-R
-.
-string
-.
-mozac_feature_addons_installed_dialog_description
-)
+name
 )
 )
 assertTrue
