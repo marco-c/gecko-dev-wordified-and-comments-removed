@@ -298,11 +298,6 @@ seznam
 cz
 "
 "
-leit
--
-is
-"
-"
 coccoc
 "
 "
