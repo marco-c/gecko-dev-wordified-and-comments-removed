@@ -1189,6 +1189,12 @@ Event
 (
 )
 object
+SyncedTabOpened
+:
+Event
+(
+)
+object
 RecentlyClosedTabsOpened
 :
 Event
