@@ -67,6 +67,8 @@ types
 :
 -
 nightly
+-
+simulation
 only
 -
 for
@@ -93,6 +95,8 @@ public
 /
 test_info
 nightly
+-
+test
 :
 true
 dependencies
