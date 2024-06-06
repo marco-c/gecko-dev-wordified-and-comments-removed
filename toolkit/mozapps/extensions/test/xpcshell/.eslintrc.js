@@ -24,10 +24,11 @@ vars
 error
 "
 {
-args
+argsIgnorePattern
 :
 "
-none
+^
+_
 "
 varsIgnorePattern
 :
@@ -66,10 +67,11 @@ vars
 error
 "
 {
-args
+argsIgnorePattern
 :
 "
-none
+^
+_
 "
 vars
 :

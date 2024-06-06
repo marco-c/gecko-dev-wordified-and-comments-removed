@@ -201,10 +201,11 @@ vars
 "
 all
 "
-args
+argsIgnorePattern
 :
 "
-none
+^
+_
 "
 }
 ]

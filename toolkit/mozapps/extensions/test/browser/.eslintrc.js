@@ -31,10 +31,11 @@ vars
 error
 "
 {
-args
+argsIgnorePattern
 :
 "
-none
+^
+_
 "
 varsIgnorePattern
 :

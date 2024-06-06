@@ -57,11 +57,12 @@ vars
 2
 {
 "
-args
+argsIgnorePattern
 "
 :
 "
-none
+^
+_
 "
 "
 varsIgnorePattern
