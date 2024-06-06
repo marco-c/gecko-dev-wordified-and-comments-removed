@@ -401,13 +401,7 @@ test
 -
 platform
 :
-(
-linux1804
--
-64
-|
-macosx
-)
+macosx1015
 .
 *
 :
@@ -418,8 +412,6 @@ trunk
 ]
 #
 All
-Linux
-&
 Mac
 variants
 ^
