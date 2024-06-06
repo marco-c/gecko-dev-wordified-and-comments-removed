@@ -211,4 +211,12 @@ id
 .
 defaultBrowserSettingsFragment
 )
+FromSavedLoginsFragment
+(
+R
+.
+id
+.
+savedLoginsFragment
+)
 }
