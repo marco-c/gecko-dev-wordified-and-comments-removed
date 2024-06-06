@@ -37372,13 +37372,6 @@ name
 "
 review_quality_check_powered_by
 "
-tools
-:
-ignore
-=
-"
-UnusedResources
-"
 >
 Review
 checker
@@ -37387,7 +37380,6 @@ powered
 by
 %
 s
-.
 <
 /
 string
