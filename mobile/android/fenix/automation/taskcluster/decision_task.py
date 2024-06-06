@@ -446,14 +446,14 @@ other_tasks
 {
 }
     
-geckoview_nightly_version
+geckoview_beta_version
 =
 get_geckoview_versions
 (
 )
 [
 '
-nightly
+beta
 '
 ]
     
@@ -461,7 +461,7 @@ mozharness_task_id
 =
 fetch_mozharness_task_id
 (
-geckoview_nightly_version
+geckoview_beta_version
 )
     
 gecko_revision

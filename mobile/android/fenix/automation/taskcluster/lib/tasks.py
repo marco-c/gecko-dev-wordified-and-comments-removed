@@ -4584,13 +4584,13 @@ full_task_graph
 def
 fetch_mozharness_task_id
 (
-geckoview_nightly_version
+geckoview_beta_version
 )
 :
     
 nightly_build_id
 =
-geckoview_nightly_version
+geckoview_beta_version
 .
 split
 (
@@ -4624,7 +4624,7 @@ v2
 .
 mozilla
 -
-central
+beta
 .
 pushdate
 .

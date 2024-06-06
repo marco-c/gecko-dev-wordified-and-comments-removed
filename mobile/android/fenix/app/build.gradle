@@ -3731,7 +3731,7 @@ doLast
 {
 println
 "
-nightly
+beta
 :
 "
 +
@@ -3745,7 +3745,7 @@ toJson
 (
 GeckoVersions
 .
-nightly_version
+beta_version
 )
 }
 }

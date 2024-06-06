@@ -183,7 +183,7 @@ version_type
 in
 (
 '
-nightly
+beta
 '
 )
 :
