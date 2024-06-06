@@ -93,6 +93,12 @@ kotlinx
 .
 coroutines
 .
+CoroutineScope
+import
+kotlinx
+.
+coroutines
+.
 GlobalScope
 import
 kotlinx
@@ -539,6 +545,13 @@ NoReasonCodes
 Pings
 .
 startupTimeline
+private
+val
+scope
+:
+CoroutineScope
+=
+GlobalScope
 )
 :
 LifecycleObserver
@@ -556,7 +569,7 @@ onStop
 (
 )
 {
-GlobalScope
+scope
 .
 launch
 {
