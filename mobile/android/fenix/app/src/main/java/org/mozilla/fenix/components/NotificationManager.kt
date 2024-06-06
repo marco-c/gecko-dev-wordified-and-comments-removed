@@ -454,6 +454,11 @@ setContentIntent
 (
 pendingIntent
 )
+.
+setAutoCancel
+(
+true
+)
 /
 /
 Explicitly
