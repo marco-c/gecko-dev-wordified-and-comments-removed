@@ -216,7 +216,7 @@ FenixRobolectricTestRunner
 class
 )
 class
-TabsTrayViewHolderTest
+AbstractBrowserTabViewHolderTest
 {
 val
 store
@@ -479,7 +479,7 @@ browserTrayInteractor
 BrowserTrayInteractor
 )
 :
-TabsTrayViewHolder
+AbstractBrowserTabViewHolder
 (
 itemView
 imageLoader

@@ -440,7 +440,7 @@ items
 /
 abstract
 class
-TabsTrayViewHolder
+AbstractBrowserTabViewHolder
 (
 itemView
 :

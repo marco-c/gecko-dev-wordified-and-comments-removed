@@ -252,7 +252,7 @@ holder
 =
 mockk
 <
-TabsTrayViewHolder
+AbstractBrowserTabViewHolder
 >
 (
 relaxed
@@ -352,7 +352,7 @@ holder
 =
 mockk
 <
-TabsTrayViewHolder
+AbstractBrowserTabViewHolder
 >
 (
 relaxed

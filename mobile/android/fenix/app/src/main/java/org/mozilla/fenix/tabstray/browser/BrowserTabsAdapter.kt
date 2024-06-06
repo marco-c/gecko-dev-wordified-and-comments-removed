@@ -278,7 +278,7 @@ ObserverRegistry
 :
 TabsAdapter
 <
-TabsTrayViewHolder
+AbstractBrowserTabViewHolder
 >
 (
 delegate
@@ -423,7 +423,7 @@ viewType
 Int
 )
 :
-TabsTrayViewHolder
+AbstractBrowserTabViewHolder
 {
 val
 view
@@ -456,7 +456,7 @@ GRID
 layoutRes
 -
 >
-TabsTrayGridViewHolder
+BrowserTabGridViewHolder
 (
 imageLoader
 interactor
@@ -467,7 +467,7 @@ view
 else
 -
 >
-TabsTrayListViewHolder
+BrowserTabListViewHolder
 (
 imageLoader
 interactor
@@ -483,7 +483,7 @@ onBindViewHolder
 (
 holder
 :
-TabsTrayViewHolder
+AbstractBrowserTabViewHolder
 position
 :
 Int
@@ -575,7 +575,7 @@ onBindViewHolder
 (
 holder
 :
-TabsTrayViewHolder
+AbstractBrowserTabViewHolder
 position
 :
 Int
