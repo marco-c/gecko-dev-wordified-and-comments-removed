@@ -2472,13 +2472,6 @@ navController
 findNavController
 (
 )
-metrics
-=
-requireComponents
-.
-analytics
-.
-metrics
 store
 =
 components
