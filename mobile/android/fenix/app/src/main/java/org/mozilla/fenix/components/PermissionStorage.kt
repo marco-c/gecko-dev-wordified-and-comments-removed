@@ -194,6 +194,9 @@ add
 sitePermissions
 :
 SitePermissions
+private
+:
+Boolean
 )
 =
 withContext
@@ -208,7 +211,7 @@ save
 sitePermissions
 private
 =
-false
+private
 )
 }
 /

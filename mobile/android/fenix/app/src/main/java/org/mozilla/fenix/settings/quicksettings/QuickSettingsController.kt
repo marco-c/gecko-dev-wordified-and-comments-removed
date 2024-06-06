@@ -1063,6 +1063,16 @@ settings
 handleAutoplayAdd
 (
 sitePermissions
+tab
+?
+.
+content
+?
+.
+private
+?
+:
+false
 )
 sitePermissions
 }
@@ -1659,6 +1669,9 @@ handleAutoplayAdd
 sitePermissions
 :
 SitePermissions
+private
+:
+Boolean
 )
 {
 ioScope
@@ -1670,6 +1683,7 @@ permissionStorage
 add
 (
 sitePermissions
+private
 )
 reload
 (

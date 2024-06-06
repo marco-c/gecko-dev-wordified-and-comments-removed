@@ -1227,6 +1227,9 @@ handleAutoplayAdd
 any
 (
 )
+any
+(
+)
 )
 }
 returns
@@ -1248,6 +1251,9 @@ controller
 .
 handleAutoplayAdd
 (
+any
+(
+)
 any
 (
 )
@@ -1309,6 +1315,9 @@ controller
 .
 handleAutoplayAdd
 (
+any
+(
+)
 any
 (
 )
@@ -1629,6 +1638,7 @@ controller
 handleAutoplayAdd
 (
 testPermissions
+true
 )
 advanceUntilIdle
 (
@@ -1640,6 +1650,7 @@ permissionStorage
 add
 (
 testPermissions
+true
 )
 reload
 (
