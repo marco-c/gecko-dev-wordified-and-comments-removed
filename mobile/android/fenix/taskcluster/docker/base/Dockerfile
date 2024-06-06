@@ -938,6 +938,10 @@ pip
 \
 python3
 \
+python3
+-
+yaml
+\
 locales
 \
 unzip
