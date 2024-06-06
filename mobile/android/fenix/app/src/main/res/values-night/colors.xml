@@ -1165,8 +1165,9 @@ name
 top_site_pager_dot
 "
 >
-#
-3A3944
+color
+/
+photonDarkGrey40
 <
 /
 color
@@ -1179,8 +1180,9 @@ name
 top_site_pager_dot_selected
 "
 >
-#
-5B5B66
+color
+/
+photonDarkGrey05
 <
 /
 color
