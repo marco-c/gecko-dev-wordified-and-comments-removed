@@ -214,7 +214,9 @@ android
 layout_marginStart
 =
 "
-20dp
+dimen
+/
+radio_button_preference_horizontal
 "
 app
 :
@@ -287,7 +289,9 @@ android
 layout_marginStart
 =
 "
-18dp
+dimen
+/
+radio_button_drawable_padding
 "
 android
 :
@@ -306,6 +310,13 @@ text
 string
 /
 search_engine_add_custom_search_engine_title
+"
+android
+:
+textSize
+=
+"
+16sp
 "
 app
 :
