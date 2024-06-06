@@ -348,7 +348,6 @@ pref_key_performance_block_javascript
 )
 false
 )
-private
 fun
 shouldBlockCookiesValue
 (
