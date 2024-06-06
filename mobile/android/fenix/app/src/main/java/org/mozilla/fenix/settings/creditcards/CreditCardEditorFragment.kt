@@ -515,7 +515,7 @@ save_credit_card_button
 {
 creditCardEditorView
 .
-saveCreditCardInfo
+saveCreditCard
 (
 creditCardEditorState
 )
