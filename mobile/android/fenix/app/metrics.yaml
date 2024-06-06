@@ -1757,6 +1757,8 @@ send_in_pings
 :
 -
 metrics
+-
+baseline
 bugs
 :
 -
@@ -1862,6 +1864,10 @@ com
 expires
 :
 never
+no_lint
+:
+-
+BASELINE_PING
 metadata
 :
 tags
