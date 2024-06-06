@@ -880,7 +880,7 @@ DELETE_BUTTON_DISABLED_ALPHA
 =
 0
 .
-4f
+7f
 const
 val
 LAYOUT_ID
