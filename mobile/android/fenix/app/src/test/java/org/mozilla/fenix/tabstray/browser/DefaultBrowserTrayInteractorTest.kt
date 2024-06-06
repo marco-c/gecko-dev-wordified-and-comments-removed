@@ -245,6 +245,9 @@ mockk
 mockk
 (
 )
+mockk
+(
+)
 )
 val
 result
@@ -320,6 +323,9 @@ mockk
 (
 )
 settings
+mockk
+(
+)
 )
 every
 {
@@ -415,6 +421,9 @@ mockk
 (
 )
 settings
+mockk
+(
+)
 )
 every
 {
