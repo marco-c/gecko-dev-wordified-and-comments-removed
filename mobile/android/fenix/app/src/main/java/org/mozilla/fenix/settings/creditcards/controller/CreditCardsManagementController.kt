@@ -191,12 +191,12 @@ see
 [
 CreditCardsManagementInteractor
 .
-onClickAddCreditCard
+onAddCreditCardClick
 ]
 *
 /
 fun
-handleAddCreditCard
+handleAddCreditCardClicked
 (
 )
 }
@@ -242,7 +242,7 @@ creditCard
 }
 override
 fun
-handleAddCreditCard
+handleAddCreditCardClicked
 (
 )
 {

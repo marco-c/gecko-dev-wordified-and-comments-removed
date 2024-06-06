@@ -203,14 +203,14 @@ onClickAddCreditCard
 {
 interactor
 .
-onClickAddCreditCard
+onAddCreditCardClick
 (
 )
 verify
 {
 controller
 .
-handleAddCreditCard
+handleAddCreditCardClicked
 (
 )
 }

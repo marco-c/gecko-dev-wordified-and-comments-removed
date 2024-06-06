@@ -292,7 +292,7 @@ handleAddCreditCardClicked
 {
 controller
 .
-handleAddCreditCard
+handleAddCreditCardClicked
 (
 )
 verify

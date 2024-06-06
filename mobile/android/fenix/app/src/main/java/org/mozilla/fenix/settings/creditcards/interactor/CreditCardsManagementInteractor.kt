@@ -193,7 +193,7 @@ button
 *
 /
 fun
-onClickAddCreditCard
+onAddCreditCardClick
 (
 )
 }
@@ -261,13 +261,13 @@ creditCard
 }
 override
 fun
-onClickAddCreditCard
+onAddCreditCardClick
 (
 )
 {
 controller
 .
-handleAddCreditCard
+handleAddCreditCardClicked
 (
 )
 }

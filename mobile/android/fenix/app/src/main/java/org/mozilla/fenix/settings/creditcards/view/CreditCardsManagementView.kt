@@ -226,7 +226,7 @@ setOnClickListener
 {
 interactor
 .
-onClickAddCreditCard
+onAddCreditCardClick
 (
 )
 }
