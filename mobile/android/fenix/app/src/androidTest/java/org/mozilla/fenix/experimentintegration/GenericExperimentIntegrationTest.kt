@@ -194,7 +194,7 @@ showSecretDebugMenuThisSession
 =
 false
 }
-private
+Test
 fun
 disableStudiesViaStudiesToggle
 (
