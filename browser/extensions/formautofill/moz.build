@@ -159,17 +159,6 @@ skin
 /
 osx
 /
-autocomplete
--
-item
-.
-css
-"
-"
-skin
-/
-osx
-/
 editDialog
 .
 css

@@ -213,7 +213,7 @@ profile
 "
 expectedResultLength
 :
-2
+3
 }
 {
 urlPath
@@ -239,7 +239,7 @@ profile
 "
 expectedResultLength
 :
-2
+3
 }
 {
 urlPath
