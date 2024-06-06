@@ -1086,6 +1086,9 @@ await
 )
 .
 bitmap
+isGeneral
+=
+true
 )
 requireComponents
 .
