@@ -379,6 +379,12 @@ verifyFindInPageExists
 verifyOpenInButtonExists
 (
 )
+verifyRequestDesktopSiteExists
+(
+)
+verifySettingsButtonExists
+(
+)
 /
 /
 Disabled
@@ -404,12 +410,6 @@ id
 1842719
 /
 /
-verifyRequestDesktopSiteExists
-(
-)
-verifySettingsButtonExists
-(
-)
 verifyReportSiteIssueButtonExists
 (
 )
