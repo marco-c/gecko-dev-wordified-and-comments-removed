@@ -2834,7 +2834,7 @@ context
 client
 =
 client
-maxCacheAgeInMinutes
+maxCacheAgeInSeconds
 =
 CONTILE_MAX_CACHE_AGE
 )
@@ -3440,7 +3440,7 @@ const
 val
 CONTILE_MAX_CACHE_AGE
 =
-60L
+3600L
 /
 /
 60

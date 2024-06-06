@@ -1178,6 +1178,11 @@ val
 SUCCESS
 =
 200
+const
+val
+NO_CONTENT
+=
+204
 }
 }
 /
