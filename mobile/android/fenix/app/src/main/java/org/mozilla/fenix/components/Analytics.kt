@@ -279,6 +279,16 @@ fenix
 .
 gleanplumb
 .
+CustomAttributeProvider
+import
+org
+.
+mozilla
+.
+fenix
+.
+gleanplumb
+.
 OnDiskMessageMetadataStorage
 import
 org
@@ -886,6 +896,9 @@ FxNimbus
 features
 .
 messaging
+attributeProvider
+=
+CustomAttributeProvider
 )
 }
 }

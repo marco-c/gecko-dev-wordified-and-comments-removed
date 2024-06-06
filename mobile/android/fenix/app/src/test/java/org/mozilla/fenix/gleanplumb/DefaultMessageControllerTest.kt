@@ -689,9 +689,6 @@ MessageData
 _context
 =
 testContext
-maxDisplayCount
-=
-1
 )
 val
 message
@@ -785,6 +782,9 @@ style
 =
 mockk
 (
+relaxed
+=
+true
 )
 action
 =

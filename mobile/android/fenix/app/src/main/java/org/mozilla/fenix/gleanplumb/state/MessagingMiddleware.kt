@@ -519,8 +519,6 @@ displayCount
 <
 oldMessage
 .
-data
-.
 maxDisplayCount
 )
 {

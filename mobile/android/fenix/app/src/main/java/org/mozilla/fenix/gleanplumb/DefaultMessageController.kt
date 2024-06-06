@@ -338,8 +338,6 @@ if
 (
 message
 .
-data
-.
 maxDisplayCount
 <
 =
