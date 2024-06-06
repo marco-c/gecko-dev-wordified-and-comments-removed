@@ -177,10 +177,6 @@ testing_robolectric
 testImplementation
 Dependencies
 .
-testing_robolectric_playservices
-testImplementation
-Dependencies
-.
 testing_mockito
 }
 apply
