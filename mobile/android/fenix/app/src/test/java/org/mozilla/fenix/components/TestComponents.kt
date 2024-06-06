@@ -177,9 +177,6 @@ searchEngineManager
 core
 .
 webAppShortcutManager
-core
-.
-thumbnailStorage
 )
 }
 override

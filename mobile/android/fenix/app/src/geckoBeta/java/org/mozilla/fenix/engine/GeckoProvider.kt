@@ -356,9 +356,6 @@ loginStorageDelegate
 GeckoLoginStorageDelegate
 (
 storage
-{
-true
-}
 )
 geckoRuntime
 .
