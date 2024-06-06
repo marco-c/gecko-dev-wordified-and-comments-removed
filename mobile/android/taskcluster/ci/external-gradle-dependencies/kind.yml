@@ -197,9 +197,8 @@ main
 /
 java
 /
-DependenciesPlugin
-.
-kt
+*
+*
 -
 android
 -
