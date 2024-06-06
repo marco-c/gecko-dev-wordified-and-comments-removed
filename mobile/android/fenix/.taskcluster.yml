@@ -1754,6 +1754,11 @@ taskcluster
 requirements
 .
 txt
+MOZ_AUTOMATION
+:
+"
+1
+"
 REPOSITORIES
 :
 {
