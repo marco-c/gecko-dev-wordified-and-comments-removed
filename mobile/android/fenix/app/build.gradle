@@ -4909,6 +4909,10 @@ mozilla_support_test
 testImplementation
 Deps
 .
+mozilla_support_test_libstate
+testImplementation
+Deps
+.
 androidx_junit
 testImplementation
 Deps

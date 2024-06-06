@@ -413,7 +413,7 @@ store
 toDefaultSearchEngineProvider
 (
 )
-sessionManager
+tabsUseCases
 )
 }
 /
@@ -460,7 +460,7 @@ lazyMonitored
 WebAppUseCases
 (
 context
-sessionManager
+store
 shortcutManager
 )
 }

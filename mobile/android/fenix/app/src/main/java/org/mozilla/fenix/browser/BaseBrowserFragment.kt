@@ -2046,6 +2046,9 @@ browserToolbarController
 =
 DefaultBrowserToolbarController
 (
+store
+=
+store
 activity
 =
 activity

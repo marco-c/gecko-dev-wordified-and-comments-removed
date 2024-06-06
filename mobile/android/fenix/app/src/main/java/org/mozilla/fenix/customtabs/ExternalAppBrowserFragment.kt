@@ -810,7 +810,7 @@ requireComponents
 .
 core
 .
-sessionManager
+store
 requireComponents
 .
 core
@@ -840,7 +840,7 @@ requireComponents
 .
 core
 .
-sessionManager
+store
 requireComponents
 .
 useCases
