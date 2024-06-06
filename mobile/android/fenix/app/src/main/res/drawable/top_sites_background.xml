@@ -127,11 +127,9 @@ android
 color
 =
 "
-android
-:
 color
 /
-white
+top_site_background
 "
 /
 >
@@ -149,8 +147,9 @@ android
 color
 =
 "
-?
-toolbarDivider
+color
+/
+top_site_border
 "
 /
 >

@@ -347,8 +347,9 @@ android
 textColor
 =
 "
-?
-primaryText
+color
+/
+top_site_title_text
 "
 android
 :
