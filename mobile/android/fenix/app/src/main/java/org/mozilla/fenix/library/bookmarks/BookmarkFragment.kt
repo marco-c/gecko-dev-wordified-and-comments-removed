@@ -778,11 +778,6 @@ warnLargeOpenAll
 :
 :
 warnLargeOpenAll
-settings
-=
-requireComponents
-.
-settings
 )
 )
 bookmarkView

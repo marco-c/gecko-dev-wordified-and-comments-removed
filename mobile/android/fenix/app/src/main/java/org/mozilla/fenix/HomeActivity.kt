@@ -6751,17 +6751,6 @@ customTabSessionId
 )
 BrowserDirection
 .
-FromBookmarkSearchDialog
--
->
-SearchDialogFragmentDirections
-.
-actionGlobalBrowser
-(
-customTabSessionId
-)
-BrowserDirection
-.
 FromHistory
 -
 >
