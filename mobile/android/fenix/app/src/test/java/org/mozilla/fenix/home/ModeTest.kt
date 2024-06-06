@@ -170,6 +170,16 @@ fenix
 onboarding
 .
 FenixOnboarding
+import
+org
+.
+mozilla
+.
+fenix
+.
+onboarding
+.
+OnboardingState
 class
 ModeTest
 {
