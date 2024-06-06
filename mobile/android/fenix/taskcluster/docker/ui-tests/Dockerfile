@@ -404,7 +404,7 @@ ENV
 FLANK_VERSION
 v20
 .
-05
+06
 .
 0
 ENV
