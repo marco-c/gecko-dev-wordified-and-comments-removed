@@ -1327,11 +1327,11 @@ sessionManager
 sessionId
 =
 customTabSessionId
-view
+stub
 =
 view
 .
-findInPageView
+stubFindInPage
 engineView
 =
 view
