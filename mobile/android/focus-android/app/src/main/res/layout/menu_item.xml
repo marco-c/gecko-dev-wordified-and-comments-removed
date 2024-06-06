@@ -196,5 +196,12 @@ Material
 .
 Menu
 "
+android
+:
+focusable
+=
+"
+true
+"
 /
 >

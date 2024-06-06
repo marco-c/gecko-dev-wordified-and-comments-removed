@@ -398,8 +398,6 @@ static
 Iterable
 <
 ?
-extends
-Object
 >
 data
 (
@@ -526,8 +524,6 @@ void
 tearDown
 (
 )
-throws
-Exception
 {
 mActivityTestRule
 .
@@ -1129,7 +1125,6 @@ count
 +
 ;
 }
-;
 TestHelper
 .
 inlineAutocompleteEditText

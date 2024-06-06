@@ -165,16 +165,11 @@ getDescription
 )
 {
 return
-String
-.
-format
-(
 "
 Long
 pressing
 webview
 "
-)
 ;
 }
 Override

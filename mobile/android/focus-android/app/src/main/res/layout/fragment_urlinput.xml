@@ -427,6 +427,13 @@ clipChildren
 "
 false
 "
+android
+:
+focusable
+=
+"
+true
+"
 >
 <
 View

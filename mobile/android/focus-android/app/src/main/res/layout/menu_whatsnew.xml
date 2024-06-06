@@ -150,6 +150,13 @@ clickable
 "
 true
 "
+android
+:
+focusable
+=
+"
+true
+"
 >
 <
 TextView

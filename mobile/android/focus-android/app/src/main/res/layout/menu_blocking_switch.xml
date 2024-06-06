@@ -791,6 +791,13 @@ layout_constraintTop_toTopOf
 "
 parent
 "
+android
+:
+focusable
+=
+"
+true
+"
 /
 >
 <

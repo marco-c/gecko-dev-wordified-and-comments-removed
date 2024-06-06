@@ -210,7 +210,6 @@ instance
 new
 AtomicReference
 <
-LocaleManager
 >
 (
 )

@@ -431,8 +431,6 @@ void
 takeScreenshotsOfErrorPages
 (
 )
-throws
-Exception
 {
 for
 (

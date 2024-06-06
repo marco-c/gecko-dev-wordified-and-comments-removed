@@ -276,8 +276,6 @@ void
 urlsMatchExceptForTrailingSlash
 (
 )
-throws
-Exception
 {
 assertTrue
 (

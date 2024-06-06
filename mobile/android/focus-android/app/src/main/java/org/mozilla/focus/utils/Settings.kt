@@ -485,9 +485,8 @@ Boolean
 shouldBlockCookiesValue
 (
 )
-.
-equals
-(
+=
+=
 resources
 .
 getString
@@ -497,7 +496,6 @@ R
 string
 .
 preference_privacy_should_block_cookies_yes_option
-)
 )
 fun
 shouldBlockThirdPartyCookies
@@ -509,9 +507,8 @@ Boolean
 shouldBlockCookiesValue
 (
 )
-.
-equals
-(
+=
+=
 resources
 .
 getString
@@ -522,15 +519,13 @@ string
 .
 preference_privacy_should_block_cookies_third_party_only_option
 )
-)
 |
 |
 shouldBlockCookiesValue
 (
 )
-.
-equals
-(
+=
+=
 resources
 .
 getString
@@ -540,7 +535,6 @@ R
 string
 .
 preference_privacy_should_block_cookies_yes_option
-)
 )
 fun
 shouldShowFirstrun

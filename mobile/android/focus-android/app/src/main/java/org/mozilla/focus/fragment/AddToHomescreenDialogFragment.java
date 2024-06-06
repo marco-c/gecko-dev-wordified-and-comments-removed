@@ -480,9 +480,6 @@ final
 ImageView
 iconView
 =
-(
-ImageView
-)
 dialogView
 .
 findViewById
@@ -505,9 +502,6 @@ final
 ImageView
 blockIcon
 =
-(
-ImageView
-)
 dialogView
 .
 findViewById
@@ -534,9 +528,6 @@ final
 Button
 addToHomescreenDialogCancelButton
 =
-(
-Button
-)
 dialogView
 .
 findViewById
@@ -552,9 +543,6 @@ final
 Button
 addToHomescreenDialogConfirmButton
 =
-(
-Button
-)
 dialogView
 .
 findViewById
@@ -570,9 +558,6 @@ final
 LinearLayout
 warning
 =
-(
-LinearLayout
-)
 dialogView
 .
 findViewById
@@ -603,9 +588,6 @@ final
 EditText
 editableTitle
 =
-(
-EditText
-)
 dialogView
 .
 findViewById

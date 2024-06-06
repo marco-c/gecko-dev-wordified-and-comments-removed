@@ -251,5 +251,12 @@ textSize
 "
 16sp
 "
+android
+:
+focusable
+=
+"
+true
+"
 /
 >

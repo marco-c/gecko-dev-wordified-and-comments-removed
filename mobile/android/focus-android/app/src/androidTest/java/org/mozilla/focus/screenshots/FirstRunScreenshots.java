@@ -323,7 +323,6 @@ takeScreenshotsOfFirstrun
 )
 throws
 UiObjectNotFoundException
-InterruptedException
 {
 onView
 (

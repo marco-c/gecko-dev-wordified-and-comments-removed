@@ -387,7 +387,9 @@ if
 state
 .
 value
-is
+=
+=
+=
 State
 .
 ReadyForSuggestions

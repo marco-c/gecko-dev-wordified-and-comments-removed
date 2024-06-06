@@ -647,6 +647,8 @@ val
 fragment
 :
 Fragment
+fragment
+=
 if
 (
 sessionUUID
@@ -655,8 +657,6 @@ sessionUUID
 null
 )
 {
-fragment
-=
 UrlInputFragment
 .
 createWithoutSession
@@ -674,8 +674,6 @@ findSessionById
 (
 sessionUUID
 )
-fragment
-=
 BrowserFragment
 .
 createForSession

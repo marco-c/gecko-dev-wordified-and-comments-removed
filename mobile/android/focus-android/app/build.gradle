@@ -3071,12 +3071,8 @@ file
 }
 catch
 (
-java
-.
-io
-.
 FileNotFoundException
-e
+ignored
 )
 {
 buildConfigField
@@ -3628,12 +3624,8 @@ file
 }
 catch
 (
-java
-.
-io
-.
 FileNotFoundException
-e
+ignored
 )
 {
 buildConfigField

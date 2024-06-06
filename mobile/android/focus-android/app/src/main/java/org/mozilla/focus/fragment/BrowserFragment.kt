@@ -4258,10 +4258,9 @@ if
 (
 grantResults
 .
-size
-<
-=
-0
+isEmpty
+(
+)
 |
 |
 grantResults

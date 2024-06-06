@@ -813,7 +813,7 @@ Suggestion_accept_dialog
 catch
 (
 AssertionError
-e
+ignored
 )
 {
 }
@@ -1062,7 +1062,7 @@ click
 catch
 (
 AssertionError
-e
+ignored
 )
 {
 }
