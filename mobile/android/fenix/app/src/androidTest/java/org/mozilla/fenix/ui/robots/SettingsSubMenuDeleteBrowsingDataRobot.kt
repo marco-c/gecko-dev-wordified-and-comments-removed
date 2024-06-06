@@ -776,7 +776,7 @@ R
 .
 string
 .
-preferences_delete_browsing_data_tabs_title
+preferences_delete_browsing_data_tabs_title_2
 )
 )
 .
@@ -1007,7 +1007,7 @@ withText
 (
 "
 Open
-Tabs
+tabs
 "
 )
 )
