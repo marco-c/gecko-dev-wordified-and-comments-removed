@@ -1025,16 +1025,6 @@ mozilla
 .
 fenix
 .
-tabstray
-.
-SearchTermTabGroupMiddleware
-import
-org
-.
-mozilla
-.
-fenix
-.
 telemetry
 .
 TelemetryMiddleware
@@ -1805,9 +1795,6 @@ LastMediaAccessMiddleware
 HistoryMetadataMiddleware
 (
 historyMetadataService
-)
-SearchTermTabGroupMiddleware
-(
 )
 )
 +
