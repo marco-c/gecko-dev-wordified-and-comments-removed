@@ -1378,6 +1378,17 @@ Event
 )
 /
 /
+Home
+menu
+interaction
+object
+HomeMenuSettingsItemClicked
+:
+Event
+(
+)
+/
+/
 Interaction
 events
 with
