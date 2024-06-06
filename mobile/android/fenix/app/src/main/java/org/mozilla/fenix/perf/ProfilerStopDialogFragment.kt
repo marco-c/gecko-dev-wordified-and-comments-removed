@@ -973,6 +973,5 @@ CardState
 {
 UrlWarningState
 WaitForProfilerState
-;
 }
 }

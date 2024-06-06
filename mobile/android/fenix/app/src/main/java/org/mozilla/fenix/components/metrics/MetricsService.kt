@@ -72,7 +72,6 @@ MetricServiceType
 {
 Data
 Marketing
-;
 }
 interface
 MetricsService

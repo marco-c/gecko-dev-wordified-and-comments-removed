@@ -562,7 +562,6 @@ ItemType
 {
 SITE
 FOLDER
-;
 }
 companion
 object

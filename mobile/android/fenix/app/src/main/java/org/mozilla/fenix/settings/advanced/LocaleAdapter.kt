@@ -500,6 +500,5 @@ ItemType
 {
 DEFAULT
 LOCALE
-;
 }
 }

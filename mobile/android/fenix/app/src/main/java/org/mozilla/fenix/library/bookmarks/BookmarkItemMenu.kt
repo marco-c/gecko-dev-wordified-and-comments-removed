@@ -196,7 +196,6 @@ OpenInPrivateTab
 OpenAllInNewTabs
 OpenAllInPrivateTabs
 Delete
-;
 }
 val
 menuController
