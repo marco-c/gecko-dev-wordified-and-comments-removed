@@ -343,11 +343,15 @@ BC
 %
 "
 PRIu64
-ToMediaSessionActionStr
+GetEnumString
 (
 aDetails
 .
 mAction
+)
+.
+get
+(
 )
 mBC
 -
