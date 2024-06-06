@@ -413,6 +413,16 @@ mozilla
 .
 fenix
 .
+ext
+.
+runIfFragmentIsAttached
+import
+org
+.
+mozilla
+.
+fenix
+.
 shortcut
 .
 PwaOnboardingObserver
@@ -1455,6 +1465,8 @@ id
 contains
 -
 >
+runIfFragmentIsAttached
+{
 val
 isEnabled
 =
@@ -1506,6 +1518,7 @@ id
 browserFragment
 directions
 )
+}
 }
 }
 private
