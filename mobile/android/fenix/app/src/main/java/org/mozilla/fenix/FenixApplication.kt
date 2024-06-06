@@ -2032,6 +2032,16 @@ core
 store
 )
 )
+components
+.
+analytics
+.
+metricsStorage
+.
+tryRegisterAsUsageRecorder
+(
+this
+)
 downloadWallpapers
 (
 )

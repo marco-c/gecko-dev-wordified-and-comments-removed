@@ -221,6 +221,16 @@ GrowthData
 .
 FirstWeekSeriesActivity
 )
+metrics
+.
+track
+(
+Event
+.
+GrowthData
+.
+UsageThreshold
+)
 }
 else
 -
