@@ -1865,6 +1865,12 @@ onboarding
 finish
 (
 )
+homeLayout
+?
+.
+progress
+=
+0F
 val
 mode
 =
