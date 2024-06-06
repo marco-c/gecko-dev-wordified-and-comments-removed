@@ -355,13 +355,6 @@ value
 emptyList
 (
 )
-storage
-=
-components
-.
-core
-.
-thumbnailStorage
 backgroundColor
 =
 wallpaperState

@@ -1539,13 +1539,6 @@ store
 tabsTrayStore
 =
 tabsTrayStore
-storage
-=
-requireComponents
-.
-core
-.
-thumbnailStorage
 displayTabsInGrid
 =
 requireContext
