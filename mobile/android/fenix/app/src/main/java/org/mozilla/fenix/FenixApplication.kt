@@ -410,6 +410,18 @@ setupLeakCanary
 loadExperiments
 (
 )
+if
+(
+Settings
+.
+getInstance
+(
+this
+)
+.
+isTelemetryEnabled
+)
+{
 components
 .
 analytics
@@ -419,6 +431,7 @@ metrics
 start
 (
 )
+}
 }
 protected
 open
