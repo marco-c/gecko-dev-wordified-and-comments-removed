@@ -731,6 +731,14 @@ isVisible
 =
 !
 userHasHistory
+binding
+.
+topSpacer
+.
+isVisible
+=
+!
+userHasHistory
 with
 (
 binding
