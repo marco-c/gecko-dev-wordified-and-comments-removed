@@ -1168,6 +1168,14 @@ inactiveTabsAreEnabled
 }
 returns
 true
+every
+{
+application
+.
+isDeviceRamAboveThreshold
+}
+returns
+true
 assertTrue
 (
 settings
@@ -1204,9 +1212,6 @@ browsersCache
 mozillaProductDetector
 =
 mozillaProductDetector
-isDeviceRamAboveThreshold
-=
-true
 )
 /
 /

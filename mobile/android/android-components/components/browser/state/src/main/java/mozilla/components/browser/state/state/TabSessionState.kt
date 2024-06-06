@@ -798,6 +798,16 @@ LoadUrlFlags
 none
 (
 )
+initialAdditionalHeaders
+:
+Map
+<
+String
+String
+>
+?
+=
+null
 previewImageUrl
 :
 String
@@ -893,6 +903,9 @@ crashed
 initialLoadFlags
 =
 initialLoadFlags
+initialAdditionalHeaders
+=
+initialAdditionalHeaders
 )
 mediaSessionState
 =
