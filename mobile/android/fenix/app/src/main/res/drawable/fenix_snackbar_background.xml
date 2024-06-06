@@ -116,9 +116,10 @@ android
 color
 =
 "
-color
+?
+attr
 /
-fenix_snackbar_background
+fenixSnackbarBackground
 "
 /
 >

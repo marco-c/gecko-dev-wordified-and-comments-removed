@@ -83,18 +83,6 @@ view
 .
 ViewGroup
 import
-com
-.
-google
-.
-android
-.
-material
-.
-snackbar
-.
-Snackbar
-import
 org
 .
 mozilla
@@ -177,7 +165,7 @@ FenixSnackbar
 make
 (
 rootView
-Snackbar
+FenixSnackbar
 .
 LENGTH_SHORT
 )
