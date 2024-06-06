@@ -132,14 +132,11 @@ logins
 .
 *
 /
+const
 val
 loginsEdit
 =
-Config
-.
-channel
-.
-isNightlyOrDebug
+true
 /
 *
 *
