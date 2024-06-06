@@ -727,12 +727,6 @@ useCases
 searchUseCases
 core
 .
-relationChecker
-core
-.
-customTabsStore
-core
-.
 webAppManifestStorage
 core
 .

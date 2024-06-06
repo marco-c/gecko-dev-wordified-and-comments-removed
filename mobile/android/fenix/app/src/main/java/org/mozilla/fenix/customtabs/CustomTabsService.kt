@@ -127,16 +127,4 @@ core
 .
 customTabsStore
 }
-override
-val
-relationChecker
-by
-lazy
-{
-components
-.
-core
-.
-relationChecker
-}
 }
