@@ -753,14 +753,6 @@ no
 "
 app
 :
-tint
-=
-"
-?
-primaryText
-"
-app
-:
 layout_constraintBottom_toBottomOf
 =
 "
