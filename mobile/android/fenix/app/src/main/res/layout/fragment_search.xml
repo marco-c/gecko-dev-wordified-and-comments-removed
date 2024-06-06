@@ -723,7 +723,7 @@ textColor
 =
 "
 ?
-accent
+fillLinkFromClipboard
 "
 android
 :
