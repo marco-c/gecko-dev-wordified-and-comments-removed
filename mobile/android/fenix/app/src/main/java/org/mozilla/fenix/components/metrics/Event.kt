@@ -1413,6 +1413,12 @@ SetDefaultBrowserToolbarMenuClicked
 Event
 (
 )
+object
+SetDefaultBrowserSettingsScreenClicked
+:
+Event
+(
+)
 /
 /
 Home
