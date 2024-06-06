@@ -56,7 +56,7 @@ MPL
 FROM
 ubuntu
 :
-18
+22
 .
 04
 #

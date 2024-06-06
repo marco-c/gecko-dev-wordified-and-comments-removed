@@ -85,7 +85,7 @@ dockerfile
 FROM
 ubuntu
 :
-18
+22
 .
 04
 MAINTAINER
