@@ -1276,7 +1276,7 @@ Breadcrumb
 (
 "
 multiple
-auth
+fxa
 recoveries
 scheduled
 at
