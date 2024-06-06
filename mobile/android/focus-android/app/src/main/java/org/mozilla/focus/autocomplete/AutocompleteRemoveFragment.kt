@@ -127,6 +127,14 @@ experimental
 .
 launch
 import
+mozilla
+.
+components
+.
+domains
+.
+CustomDomains
+import
 org
 .
 mozilla
@@ -273,9 +281,9 @@ UI
 {
 async
 {
-CustomAutocomplete
+CustomDomains
 .
-removeDomains
+remove
 (
 context
 domains

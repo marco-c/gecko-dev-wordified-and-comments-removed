@@ -88,6 +88,15 @@ spotbugs_version
 .
 2
 '
+ext
+.
+mozilla_components_version
+=
+'
+0
+.
+3
+'
 repositories
 {
 google

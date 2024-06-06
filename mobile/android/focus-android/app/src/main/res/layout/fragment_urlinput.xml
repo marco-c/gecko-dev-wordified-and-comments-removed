@@ -554,13 +554,13 @@ horizontal
 "
 >
 <
-org
-.
 mozilla
 .
-focus
+components
 .
-widget
+ui
+.
+autocomplete
 .
 InlineAutocompleteEditText
 android

@@ -147,6 +147,14 @@ experimental
 .
 launch
 import
+mozilla
+.
+components
+.
+domains
+.
+CustomDomains
+import
 org
 .
 mozilla
@@ -485,9 +493,9 @@ launch
 CommonPool
 )
 {
-CustomAutocomplete
+CustomDomains
 .
-addDomain
+add
 (
 context
 domain

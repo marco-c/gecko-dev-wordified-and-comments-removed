@@ -87,13 +87,13 @@ utils
 .
 AppConstants
 import
-org
-.
 mozilla
 .
-focus
+components
 .
-widget
+ui
+.
+autocomplete
 .
 InlineAutocompleteEditText
 .
