@@ -758,6 +758,13 @@ addon
 isDisabledAsNotCorrectlySigned
 (
 )
+|
+|
+addon
+.
+isDisabledAsIncompatible
+(
+)
 )
 {
 switch
