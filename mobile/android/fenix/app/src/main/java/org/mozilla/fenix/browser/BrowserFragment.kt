@@ -533,7 +533,7 @@ mozilla
 .
 fenix
 .
-BuildConfig
+FeatureFlags
 import
 org
 .
@@ -2043,9 +2043,9 @@ view
 )
 if
 (
-BuildConfig
+FeatureFlags
 .
-PULL_TO_REFRESH_ENABLED
+pullToRefreshEnabled
 )
 {
 val

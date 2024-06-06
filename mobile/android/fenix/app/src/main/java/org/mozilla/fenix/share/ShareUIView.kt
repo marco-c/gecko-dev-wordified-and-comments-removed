@@ -129,7 +129,7 @@ mozilla
 .
 fenix
 .
-BuildConfig
+FeatureFlags
 import
 org
 .
@@ -277,9 +277,9 @@ And
 authorized
 if
 (
-BuildConfig
+FeatureFlags
 .
-SEND_TAB_ENABLED
+sendTabEnabled
 &
 &
 !

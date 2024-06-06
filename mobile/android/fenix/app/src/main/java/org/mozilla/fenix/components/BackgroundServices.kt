@@ -349,7 +349,7 @@ mozilla
 .
 fenix
 .
-BuildConfig
+Experiments
 import
 org
 .
@@ -357,7 +357,7 @@ mozilla
 .
 fenix
 .
-Experiments
+FeatureFlags
 import
 org
 .
@@ -554,9 +554,9 @@ capabilities
 =
 if
 (
-BuildConfig
+FeatureFlags
 .
-SEND_TAB_ENABLED
+sendTabEnabled
 )
 {
 setOf
@@ -917,9 +917,9 @@ to
 .
 if
 (
-BuildConfig
+FeatureFlags
 .
-SEND_TAB_ENABLED
+sendTabEnabled
 &
 &
 pushConfig
@@ -1338,9 +1338,9 @@ accountObserver
 .
 if
 (
-BuildConfig
+FeatureFlags
 .
-SEND_TAB_ENABLED
+sendTabEnabled
 &
 &
 pushConfig
