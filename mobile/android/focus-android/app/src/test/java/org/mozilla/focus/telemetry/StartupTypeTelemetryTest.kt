@@ -121,16 +121,6 @@ telemetry
 .
 glean
 .
-private
-.
-testHasValue
-import
-mozilla
-.
-telemetry
-.
-glean
-.
 testing
 .
 GleanTestRule
@@ -149,7 +139,7 @@ junit
 .
 Assert
 .
-assertFalse
+assertNull
 import
 org
 .
@@ -690,7 +680,7 @@ has
 no
 value
 .
-assertFalse
+assertNull
 (
 PerfStartup
 .
@@ -701,7 +691,7 @@ __other__
 "
 ]
 .
-testHasValue
+testGetValue
 (
 )
 )
