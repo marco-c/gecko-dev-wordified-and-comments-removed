@@ -138,7 +138,7 @@ okhttp3
 Request
 open
 class
-SearchSuggestionsService
+SearchSuggestionsFetcher
 (
 searchEngine
 :

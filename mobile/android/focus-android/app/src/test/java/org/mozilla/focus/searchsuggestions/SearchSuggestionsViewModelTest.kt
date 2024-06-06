@@ -103,7 +103,7 @@ service
 =
 mock
 (
-SearchSuggestionsService
+SearchSuggestionsFetcher
 :
 :
 class

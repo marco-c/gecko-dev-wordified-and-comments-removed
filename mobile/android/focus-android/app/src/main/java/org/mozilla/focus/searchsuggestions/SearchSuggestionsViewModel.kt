@@ -200,12 +200,12 @@ SearchSuggestionsViewModel
 (
 private
 val
-service
+fetcher
 :
-SearchSuggestionsService
+SearchSuggestionsFetcher
 private
 val
-searchSuggestionsPreferences
+preferences
 :
 SearchSuggestionsPreferences
 )
@@ -317,7 +317,7 @@ null
 val
 data
 =
-service
+fetcher
 .
 getSuggestions
 (
@@ -414,7 +414,7 @@ enableSearchSuggestions
 (
 )
 {
-searchSuggestionsPreferences
+preferences
 .
 enableSearchSuggestions
 (
@@ -428,7 +428,7 @@ disableSearchSuggestions
 (
 )
 {
-searchSuggestionsPreferences
+preferences
 .
 disableSearchSuggestions
 (
@@ -442,7 +442,7 @@ dismissNoSuggestionsMessage
 (
 )
 {
-searchSuggestionsPreferences
+preferences
 .
 dismissNoSuggestionsMessage
 (
@@ -459,12 +459,12 @@ refresh
 val
 engine
 =
-searchSuggestionsPreferences
+preferences
 .
 getSearchEngine
 (
 )
-service
+fetcher
 .
 updateSearchEngine
 (
@@ -488,7 +488,7 @@ updateState
 val
 enabled
 =
-searchSuggestionsPreferences
+preferences
 .
 searchSuggestionsEnabled
 (
@@ -503,7 +503,7 @@ enabled
 {
 if
 (
-service
+fetcher
 .
 canProvideSearchSuggestions
 )
@@ -520,7 +520,7 @@ val
 givePrompt
 =
 !
-searchSuggestionsPreferences
+preferences
 .
 userHasDismissedNoSuggestionsMessage
 (
@@ -539,7 +539,7 @@ val
 givePrompt
 =
 !
-searchSuggestionsPreferences
+preferences
 .
 hasUserToggledSearchSuggestions
 (
@@ -603,7 +603,7 @@ context
 val
 service
 =
-SearchSuggestionsService
+SearchSuggestionsFetcher
 (
 preferences
 .
