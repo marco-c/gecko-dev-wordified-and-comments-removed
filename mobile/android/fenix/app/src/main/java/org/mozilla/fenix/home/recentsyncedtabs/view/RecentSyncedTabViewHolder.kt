@@ -375,6 +375,12 @@ recentSyncedTabInteractor
 :
 :
 onRemovedRecentSyncedTab
+onRecentSyncedTabLongClick
+=
+recentSyncedTabInteractor
+:
+:
+onRecentSyncedTabLongClick
 )
 }
 }
