@@ -611,9 +611,6 @@ BookmarkFragmentStore
 BookmarkFragmentState
 (
 null
-isLoading
-=
-true
 )
 )
 }
