@@ -2376,15 +2376,13 @@ recentSyncedTabController
 =
 DefaultRecentSyncedTabController
 (
-addNewTabUseCase
+tabsUseCase
 =
 requireComponents
 .
 useCases
 .
 tabsUseCases
-.
-addTab
 navController
 =
 findNavController

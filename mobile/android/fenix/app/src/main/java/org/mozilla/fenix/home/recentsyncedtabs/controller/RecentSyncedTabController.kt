@@ -235,9 +235,9 @@ RecentSyncedTabController
 *
 *
 property
-addNewTabUseCase
+tabsUseCase
 Use
-case
+cases
 to
 open
 the
@@ -266,11 +266,9 @@ DefaultRecentSyncedTabController
 (
 private
 val
-addNewTabUseCase
+tabsUseCase
 :
 TabsUseCases
-.
-AddNewTabUseCase
 private
 val
 navController
@@ -312,9 +310,9 @@ lowercase
 add
 (
 )
-addNewTabUseCase
+tabsUseCase
 .
-invoke
+selectOrAddTab
 (
 tab
 .
