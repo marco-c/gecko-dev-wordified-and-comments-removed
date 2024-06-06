@@ -1878,7 +1878,7 @@ R
 .
 string
 .
-close_tabs_after_one_week
+close_tabs_after_one_month
 )
 }
 else
