@@ -286,7 +286,7 @@ settings
 put
 secure
 long_press_timeout
-1500
+3000
 "
 )
 }
