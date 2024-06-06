@@ -482,6 +482,8 @@ view
 id
 =
 =
+android
+.
 R
 .
 id
