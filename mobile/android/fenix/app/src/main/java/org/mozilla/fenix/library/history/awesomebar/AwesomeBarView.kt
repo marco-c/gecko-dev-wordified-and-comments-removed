@@ -288,6 +288,9 @@ engineForSpeculativeConnects
 maxNumberOfSuggestions
 =
 METADATA_SUGGESTION_LIMIT
+showEditSuggestion
+=
+false
 )
 view
 .

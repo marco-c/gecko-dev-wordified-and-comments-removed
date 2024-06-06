@@ -309,6 +309,9 @@ ic_search_results_bookmarks
 engine
 =
 engineForSpeculativeConnects
+showEditSuggestion
+=
+false
 )
 view
 .
