@@ -76,14 +76,6 @@ build_components
 :
 transforms
 -
-android_taskgraph
-.
-transforms
-.
-gradle_optimization
-:
-transforms
--
 gecko_taskgraph
 .
 transforms
