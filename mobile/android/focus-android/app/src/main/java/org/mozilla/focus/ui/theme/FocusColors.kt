@@ -159,6 +159,14 @@ val
 aboutPageLink
 :
 Color
+val
+radioButtonSelected
+:
+Color
+val
+toolbarColor
+:
+Color
 )
 {
 val

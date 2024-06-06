@@ -1251,6 +1251,10 @@ androidx_recyclerview
 implementation
 Dependencies
 .
+google_accompanist_insets_ui
+implementation
+Dependencies
+.
 google_material
 implementation
 '

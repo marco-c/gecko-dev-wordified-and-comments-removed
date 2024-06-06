@@ -423,6 +423,7 @@ Search
 Advanced
 Mozilla
 About
+Locale
 PrivacyExceptions
 PrivacyExceptionsRemove
 SitePermissions
