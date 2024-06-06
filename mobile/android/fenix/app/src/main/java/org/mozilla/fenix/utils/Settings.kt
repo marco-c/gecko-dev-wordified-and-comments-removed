@@ -4805,6 +4805,14 @@ PhoneFeature
 .
 PERSISTENT_STORAGE
 )
+crossOriginStorageAccess
+=
+getSitePermissionsPhoneFeatureAction
+(
+PhoneFeature
+.
+CROSS_ORIGIN_STORAGE_ACCESS
+)
 mediaKeySystemAccess
 =
 getSitePermissionsPhoneFeatureAction
@@ -4856,6 +4864,9 @@ AUTOPLAY_INAUDIBLE
 PhoneFeature
 .
 PERSISTENT_STORAGE
+PhoneFeature
+.
+CROSS_ORIGIN_STORAGE_ACCESS
 PhoneFeature
 .
 MEDIA_KEY_SYSTEM_ACCESS

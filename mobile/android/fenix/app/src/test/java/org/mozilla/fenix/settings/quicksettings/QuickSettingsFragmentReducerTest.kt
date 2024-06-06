@@ -607,5 +607,10 @@ SitePermissionsRules
 Action
 .
 ALLOWED
+SitePermissionsRules
+.
+Action
+.
+ALLOWED
 )
 }
