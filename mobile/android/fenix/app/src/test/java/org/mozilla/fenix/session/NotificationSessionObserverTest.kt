@@ -244,6 +244,11 @@ NotificationSessionObserver
 context
 notificationService
 )
+NotificationSessionObserver
+.
+isStartedFromPrivateShortcut
+=
+false
 }
 Test
 fun
@@ -320,6 +325,7 @@ notificationService
 start
 (
 context
+false
 )
 }
 confirmVerified
@@ -418,6 +424,7 @@ notificationService
 start
 (
 context
+false
 )
 }
 store
@@ -447,6 +454,7 @@ notificationService
 start
 (
 context
+false
 )
 }
 }
@@ -562,6 +570,7 @@ notificationService
 start
 (
 context
+false
 )
 }
 store
@@ -591,6 +600,7 @@ notificationService
 start
 (
 context
+false
 )
 }
 }

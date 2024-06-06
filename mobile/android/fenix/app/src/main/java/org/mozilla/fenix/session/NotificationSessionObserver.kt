@@ -268,6 +268,7 @@ notificationService
 start
 (
 context
+isStartedFromPrivateShortcut
 )
 started
 =
@@ -303,5 +304,13 @@ scope
 cancel
 (
 )
+}
+companion
+object
+{
+var
+isStartedFromPrivateShortcut
+=
+false
 }
 }
