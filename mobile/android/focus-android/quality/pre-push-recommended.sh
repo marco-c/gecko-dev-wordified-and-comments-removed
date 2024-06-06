@@ -137,7 +137,7 @@ q
 \
 ktlint
 \
-detektCheck
+detekt
 \
 assembleFocusDebugAndroidTest
 \

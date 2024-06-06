@@ -673,7 +673,7 @@ testFocusDebugUnitTest
 .
 /
 gradlew
-detektCheck
+detekt
 \
 &
 &

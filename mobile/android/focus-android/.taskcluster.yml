@@ -421,7 +421,7 @@ clean
 assembleFocusDebug
 assembleKlarNightly
 assembleRelease
-detektCheck
+detekt
 ktlint
 lintFocusDebug
 lintKlarNightly
