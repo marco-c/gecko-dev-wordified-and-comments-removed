@@ -113,7 +113,7 @@ transforms
 .
 add
 def
-define_signing_flags
+define_signing_attributes
 (
 config
 tasks
@@ -137,6 +137,8 @@ dependency
 "
 ]
         
+attributes
+=
 task
 .
 setdefault
@@ -147,9 +149,9 @@ attributes
 {
 }
 )
-.
-update
-(
+        
+upstream_attributes
+=
 dep
 .
 attributes
@@ -157,7 +159,22 @@ attributes
 copy
 (
 )
+        
+upstream_attributes
+.
+update
+(
+attributes
 )
+        
+task
+[
+"
+attributes
+"
+]
+=
+upstream_attributes
         
 task
 [

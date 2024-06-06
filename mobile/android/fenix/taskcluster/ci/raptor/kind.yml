@@ -49,7 +49,9 @@ build
 types
 :
 -
-raptor
+performance
+-
+test
 only
 -
 for
