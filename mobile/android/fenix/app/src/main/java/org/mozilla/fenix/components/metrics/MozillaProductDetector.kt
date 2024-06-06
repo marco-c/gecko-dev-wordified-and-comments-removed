@@ -212,6 +212,16 @@ mozilla
 focus
 "
 )
+KLAR
+(
+"
+org
+.
+mozilla
+.
+klar
+"
+)
 /
 /
 Other
