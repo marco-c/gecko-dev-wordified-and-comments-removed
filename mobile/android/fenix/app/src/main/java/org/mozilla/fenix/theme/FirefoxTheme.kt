@@ -256,7 +256,7 @@ layer2
 =
 PhotonColors
 .
-DarkGrey50
+DarkGrey30
 layer3
 =
 PhotonColors
