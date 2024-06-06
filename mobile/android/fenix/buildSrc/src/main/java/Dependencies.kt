@@ -368,7 +368,7 @@ val
 mozilla_android_components
 =
 "
-27
+28
 .
 0
 .
@@ -469,7 +469,7 @@ mozilla_appservices
 "
 0
 .
-44
+47
 .
 0
 "
@@ -478,9 +478,9 @@ val
 mozilla_glean
 =
 "
-22
+23
 .
-1
+0
 .
 0
 "

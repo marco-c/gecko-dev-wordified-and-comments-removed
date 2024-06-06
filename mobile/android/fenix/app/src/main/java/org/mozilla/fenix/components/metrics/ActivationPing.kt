@@ -1255,7 +1255,7 @@ Pings
 .
 activation
 .
-send
+submit
 (
 )
 markAsTriggered
