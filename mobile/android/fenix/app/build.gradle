@@ -578,6 +578,10 @@ mozilla_feature_awesomebar
 implementation
 Deps
 .
+mozilla_feature_contextmenu
+implementation
+Deps
+.
 mozilla_feature_downloads
 implementation
 Deps
