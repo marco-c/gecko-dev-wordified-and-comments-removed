@@ -546,7 +546,6 @@ MockDownloadService
 :
 :
 class
-broadcastManager
 notificationsDelegate
 =
 notificationsDelegate
@@ -688,11 +687,10 @@ again
 {
 val
 context
-:
-Context
 =
-mock
+spy
 (
+testContext
 )
 downloadManager
 =
@@ -704,7 +702,6 @@ MockDownloadService
 :
 :
 class
-broadcastManager
 notificationsDelegate
 =
 notificationsDelegate
@@ -967,7 +964,6 @@ MockDownloadService
 :
 :
 class
-broadcastManager
 notificationsDelegate
 =
 notificationsDelegate
@@ -1633,7 +1629,7 @@ Status
 .
 FAILED
 )
-broadcastManager
+testContext
 .
 sendBroadcast
 (
@@ -1674,7 +1670,7 @@ Status
 .
 COMPLETED
 )
-broadcastManager
+testContext
 .
 sendBroadcast
 (
