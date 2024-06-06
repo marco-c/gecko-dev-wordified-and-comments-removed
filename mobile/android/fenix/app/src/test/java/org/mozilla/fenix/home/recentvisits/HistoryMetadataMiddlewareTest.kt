@@ -8612,6 +8612,11 @@ hiddenSearchEngines
 emptyList
 (
 )
+disabledSearchEngineIds
+=
+emptyList
+(
+)
 additionalAvailableSearchEngines
 =
 emptyList

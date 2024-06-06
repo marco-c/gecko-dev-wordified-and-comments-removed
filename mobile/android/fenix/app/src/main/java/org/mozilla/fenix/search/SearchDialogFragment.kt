@@ -913,6 +913,18 @@ fenix
 .
 search
 .
+ext
+.
+searchEngineShortcuts
+import
+org
+.
+mozilla
+.
+fenix
+.
+search
+.
 toolbar
 .
 IncreasedTapAreaActionDecorator
@@ -2271,7 +2283,7 @@ updateSearchSelectorMenu
 (
 search
 .
-searchEngines
+searchEngineShortcuts
 )
 }
 }
@@ -3129,7 +3141,7 @@ state
 search
 searchState
 .
-searchEngines
+searchEngineShortcuts
 .
 firstOrNull
 {

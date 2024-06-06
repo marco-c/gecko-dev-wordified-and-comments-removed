@@ -330,6 +330,11 @@ hiddenSearchEngines
 emptyList
 (
 )
+disabledSearchEngineIds
+=
+emptyList
+(
+)
 additionalSearchEngines
 =
 emptyList
@@ -527,6 +532,11 @@ userSelectedSearchEngineName
 =
 null
 hiddenSearchEngines
+=
+emptyList
+(
+)
+disabledSearchEngineIds
 =
 emptyList
 (

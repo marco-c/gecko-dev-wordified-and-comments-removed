@@ -291,6 +291,14 @@ id
 .
 editCustomSearchEngineFragment
 )
+FromSaveSearchEngineFragment
+(
+R
+.
+id
+.
+saveSearchEngineFragment
+)
 FromAddonDetailsFragment
 (
 R

@@ -301,6 +301,9 @@ tabsTrayRewriteEnabled
 settings
 .
 enableTabsTrayToCompose
+newSearchSettingsEnabled
+=
+false
 )
 /
 *
@@ -628,6 +631,13 @@ enableTabsTrayToCompose
 featureFlags
 .
 tabsTrayRewriteEnabled
+settings
+.
+enableUnifiedSearchSettingsUI
+=
+featureFlags
+.
+newSearchSettingsEnabled
 setETPPolicy
 (
 featureFlags
@@ -699,6 +709,10 @@ etpPolicy
 ETPPolicy
 var
 tabsTrayRewriteEnabled
+:
+Boolean
+var
+newSearchSettingsEnabled
 :
 Boolean
 )
