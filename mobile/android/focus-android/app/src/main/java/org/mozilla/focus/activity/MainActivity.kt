@@ -943,6 +943,12 @@ OPEN_WITH_DEFAULT_BROWSER_URL
 openGeneralSettings
 (
 )
+super
+.
+onNewIntent
+(
+unsafeIntent
+)
 return
 }
 val
@@ -1011,6 +1017,12 @@ resumeFromIconEvent
 (
 )
 }
+super
+.
+onNewIntent
+(
+unsafeIntent
+)
 }
 private
 fun
