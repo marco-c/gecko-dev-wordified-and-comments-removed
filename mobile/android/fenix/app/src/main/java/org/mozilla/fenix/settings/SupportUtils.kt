@@ -185,6 +185,16 @@ android
 help
 "
 )
+PRIVATE_BROWSING_MYTHS
+(
+"
+private
+-
+browsing
+-
+myths
+"
+)
 }
 fun
 getSumoURLForTopic
