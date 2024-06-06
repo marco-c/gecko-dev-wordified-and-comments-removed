@@ -75,12 +75,6 @@ android
 .
 view
 .
-Gravity
-import
-android
-.
-view
-.
 View
 import
 androidx
@@ -1081,13 +1075,4 @@ view
 null
 )
 )
-override
-fun
-getAppropriateLayoutGravity
-(
-)
-=
-Gravity
-.
-TOP
 }
