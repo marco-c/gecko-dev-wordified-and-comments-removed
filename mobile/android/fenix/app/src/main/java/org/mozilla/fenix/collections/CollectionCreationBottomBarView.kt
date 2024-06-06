@@ -503,6 +503,9 @@ importantForAccessibility
 View
 .
 IMPORTANT_FOR_ACCESSIBILITY_NO
+}
+layout
+.
 setOnClickListener
 {
 interactor
@@ -510,7 +513,6 @@ interactor
 addNewCollection
 (
 )
-}
 }
 }
 }
