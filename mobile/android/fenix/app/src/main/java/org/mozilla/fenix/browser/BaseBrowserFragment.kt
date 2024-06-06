@@ -3014,11 +3014,11 @@ store
 sessionId
 =
 customTabSessionId
-stub
+view
 =
 binding
 .
-stubFindInPage
+findInPageView
 engineView
 =
 binding
