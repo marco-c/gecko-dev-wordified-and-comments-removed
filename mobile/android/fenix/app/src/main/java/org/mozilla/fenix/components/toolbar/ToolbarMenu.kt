@@ -226,6 +226,12 @@ Item
 (
 )
 object
+SetDefaultBrowser
+:
+Item
+(
+)
+object
 Bookmark
 :
 Item
