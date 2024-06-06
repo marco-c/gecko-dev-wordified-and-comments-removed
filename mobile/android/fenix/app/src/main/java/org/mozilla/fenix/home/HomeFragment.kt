@@ -97,6 +97,12 @@ ColorDrawable
 import
 android
 .
+net
+.
+Uri
+import
+android
+.
 os
 .
 Bundle
@@ -2741,7 +2747,14 @@ SKIP_ONE_TIME_PAGES
 )
 {
 !
+Uri
+.
+parse
+(
 it
+.
+url
+)
 .
 containsQueryParameters
 (
