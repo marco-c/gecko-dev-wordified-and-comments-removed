@@ -151,6 +151,16 @@ components
 .
 browser
 .
+search
+.
+SearchEngine
+import
+mozilla
+.
+components
+.
+browser
+.
 session
 .
 Session
@@ -913,6 +923,12 @@ String
 ?
 =
 null
+engine
+:
+SearchEngine
+?
+=
+null
 from
 :
 BrowserDirection
@@ -927,6 +943,7 @@ load
 (
 text
 sessionId
+engine
 )
 }
 fun
@@ -1013,6 +1030,10 @@ String
 sessionId
 :
 String
+?
+engine
+:
+SearchEngine
 ?
 )
 {
@@ -1107,6 +1128,9 @@ Source
 USER_ENTERED
 true
 isPrivate
+searchEngine
+=
+engine
 )
 }
 else
@@ -1121,6 +1145,7 @@ defaultSearch
 invoke
 (
 searchTerms
+engine
 )
 }
 if

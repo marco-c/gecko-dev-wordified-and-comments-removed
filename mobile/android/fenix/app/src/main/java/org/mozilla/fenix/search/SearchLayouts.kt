@@ -383,6 +383,17 @@ of
 UNSET
 )
 }
+search_with_shortcuts
+{
+connect
+(
+TOP
+to
+BOTTOM
+of
+toolbar_wrapper
+)
+}
 awesomeBar
 {
 connect
@@ -396,7 +407,7 @@ TOP
 to
 BOTTOM
 of
-toolbar_wrapper
+search_with_shortcuts
 BOTTOM
 to
 TOP

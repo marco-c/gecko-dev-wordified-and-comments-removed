@@ -109,9 +109,10 @@ android
 color
 =
 "
-color
+?
+attr
 /
-searchPillBackground
+pillWrapperSelectedBackground
 "
 /
 >
@@ -129,9 +130,10 @@ android
 color
 =
 "
-color
+?
+attr
 /
-searchPillPrimary
+pillWrapperSelectedBackground
 "
 /
 >

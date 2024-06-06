@@ -195,6 +195,18 @@ view
 .
 *
 import
+kotlinx
+.
+android
+.
+synthetic
+.
+main
+.
+fragment_search
+.
+*
+import
 mozilla
 .
 components
@@ -802,6 +814,7 @@ isEditing
 =
 false
 )
+search_engine_icon
 )
 toolbarComponent
 .
