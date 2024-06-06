@@ -315,6 +315,12 @@ are
 offline
 }
 }
+it
+.
+setOnClickListener
+(
+null
+)
 }
 }
 private
