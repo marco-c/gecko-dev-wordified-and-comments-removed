@@ -78,6 +78,14 @@ viewBox
 >
 <
 g
+id
+=
+"
+base
+"
+>
+<
+g
 transform
 =
 "
@@ -596,6 +604,10 @@ g
 <
 /
 svg
+>
+<
+/
+g
 >
 <
 /
