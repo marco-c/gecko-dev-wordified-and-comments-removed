@@ -1119,6 +1119,7 @@ allowThreadDiskReads
 WallpaperManager
 (
 settings
+appStore
 WallpaperDownloader
 (
 context
