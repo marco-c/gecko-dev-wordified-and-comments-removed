@@ -149,6 +149,11 @@ deleteBrowsingData
 )
 suspend
 fun
+deleteHistoryAndDOMStorages
+(
+)
+suspend
+fun
 deleteCollections
 (
 collections
@@ -277,6 +282,7 @@ deleteEverything
 )
 }
 }
+override
 suspend
 fun
 deleteHistoryAndDOMStorages
