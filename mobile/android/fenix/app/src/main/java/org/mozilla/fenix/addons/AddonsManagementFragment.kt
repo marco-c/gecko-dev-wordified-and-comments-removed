@@ -632,8 +632,6 @@ requireContext
 (
 )
 )
-viewLifecycleOwner
-.
 lifecycleScope
 .
 launch
@@ -657,8 +655,6 @@ addonManager
 getAddons
 (
 )
-viewLifecycleOwner
-.
 lifecycleScope
 .
 launch
@@ -726,8 +722,6 @@ e
 AddonManagerException
 )
 {
-viewLifecycleOwner
-.
 lifecycleScope
 .
 launch

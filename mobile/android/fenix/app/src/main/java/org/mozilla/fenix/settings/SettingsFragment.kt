@@ -431,8 +431,6 @@ context
 ?
 :
 return
-viewLifecycleOwner
-.
 lifecycleScope
 .
 launch
@@ -2424,8 +2422,6 @@ let
 avatarUrl
 -
 >
-viewLifecycleOwner
-.
 lifecycleScope
 .
 launch
