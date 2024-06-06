@@ -964,6 +964,11 @@ lazyMonitored
 Analytics
 (
 context
+performance
+.
+visualCompletenessQueue
+.
+queue
 )
 }
 val
