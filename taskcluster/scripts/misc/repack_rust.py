@@ -2970,6 +2970,10 @@ llvm
 =
 false
         
+profile
+=
+true
+        
 "
 "
 "
