@@ -3565,6 +3565,13 @@ name
 "
 mozac_feature_readerview_text_color
 "
+tools
+:
+ignore
+=
+"
+UnusedResources
+"
 >
 color
 /
