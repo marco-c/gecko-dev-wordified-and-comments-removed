@@ -674,7 +674,7 @@ packet
 )
 override
 ;
-void
+bool
 OnReceivedPayloadData
 (
 rtc
@@ -690,6 +690,8 @@ const
 RTPVideoHeader
 &
 video
+int
+times_nacked
 )
 ;
 void
@@ -1130,6 +1132,7 @@ packet_sequence_checker_
 enum
 ParseGenericDependenciesResult
 {
+kStashPacket
 kDropPacket
 kHasGenericDescriptor
 kNoGenericDescriptor
@@ -1715,6 +1718,19 @@ int64_t
 RtpPacketInfo
 >
 packet_infos_
+RTC_GUARDED_BY
+(
+packet_sequence_checker_
+)
+;
+std
+:
+:
+vector
+<
+RtpPacketReceived
+>
+stashed_packets_
 RTC_GUARDED_BY
 (
 packet_sequence_checker_
