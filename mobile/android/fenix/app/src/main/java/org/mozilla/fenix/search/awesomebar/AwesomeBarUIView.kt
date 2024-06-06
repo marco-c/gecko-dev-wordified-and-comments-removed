@@ -111,6 +111,16 @@ mozilla
 .
 components
 .
+browser
+.
+search
+.
+SearchEngine
+import
+mozilla
+.
+components
+.
 feature
 .
 awesomebar
@@ -333,6 +343,10 @@ invoke
 searchTerms
 :
 String
+searchEngine
+:
+SearchEngine
+?
 )
 {
 actionEmitter
@@ -344,6 +358,7 @@ AwesomeBarAction
 SearchTermsTapped
 (
 searchTerms
+searchEngine
 )
 )
 }

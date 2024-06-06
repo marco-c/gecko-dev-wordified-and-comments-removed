@@ -164,6 +164,8 @@ string
 .
 history_delete_item
 )
+textColorResource
+=
 R
 .
 color
