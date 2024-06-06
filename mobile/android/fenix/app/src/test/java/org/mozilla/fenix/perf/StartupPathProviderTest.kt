@@ -767,6 +767,8 @@ launched
 to
 the
 homescreen
+with
+MAIN
 and
 stopped
 WHEN
@@ -777,9 +779,9 @@ up
 path
 THEN
 it
-is
-not
 set
+to
+MAIN
 (
 )
 {
@@ -804,7 +806,7 @@ assertEquals
 (
 StartupPath
 .
-NOT_SET
+MAIN
 provider
 .
 startupPathForActivity
@@ -891,6 +893,8 @@ launched
 to
 the
 homescreen
+with
+MAIN
 stopped
 and
 relaunched
@@ -907,9 +911,10 @@ up
 path
 THEN
 it
-is
-not
 set
+to
+MAIN
+'
 (
 )
 {
@@ -937,7 +942,7 @@ assertEquals
 (
 StartupPath
 .
-NOT_SET
+MAIN
 provider
 .
 startupPathForActivity
@@ -1092,6 +1097,8 @@ the
 app
 is
 launched
+with
+MAIN
 stopped
 started
 from
@@ -1114,8 +1121,7 @@ path
 THEN
 it
 returns
-not
-set
+MAIN
 (
 )
 {
@@ -1157,7 +1163,7 @@ assertEquals
 (
 StartupPath
 .
-NOT_SET
+MAIN
 provider
 .
 startupPathForActivity

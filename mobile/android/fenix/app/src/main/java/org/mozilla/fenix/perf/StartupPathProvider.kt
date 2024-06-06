@@ -858,11 +858,6 @@ Clear
 existing
 state
 .
-startupPathForActivity
-=
-StartupPath
-.
-NOT_SET
 wasResumedSinceStartedState
 =
 false
