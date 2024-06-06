@@ -113,14 +113,6 @@ AppCompatResources
 import
 androidx
 .
-core
-.
-content
-.
-ContextCompat
-import
-androidx
-.
 lifecycle
 .
 Observer
@@ -613,7 +605,7 @@ ToggleButton
 (
 image
 =
-ContextCompat
+AppCompatResources
 .
 getDrawable
 (

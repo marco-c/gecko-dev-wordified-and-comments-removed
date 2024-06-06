@@ -182,4 +182,8 @@ ISSUE_INVALID_LICENSE_FORMAT
 ConstraintLayoutPerfDetector
 .
 ISSUES
++
+ContextCompatDetector
+.
+ISSUES
 }

@@ -103,11 +103,13 @@ AlertDialog
 import
 androidx
 .
-core
+appcompat
 .
 content
 .
-ContextCompat
+res
+.
+AppCompatResources
 import
 androidx
 .
@@ -534,7 +536,7 @@ learnMoreURL
 null
 titleDrawable
 =
-ContextCompat
+AppCompatResources
 .
 getDrawable
 (

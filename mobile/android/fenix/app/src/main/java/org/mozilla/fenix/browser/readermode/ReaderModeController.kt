@@ -87,11 +87,13 @@ RadioButton
 import
 androidx
 .
-core
+appcompat
 .
 content
 .
-ContextCompat
+res
+.
+AppCompatResources
 import
 mozilla
 .
@@ -331,7 +333,7 @@ it
 .
 setTextColor
 (
-ContextCompat
+AppCompatResources
 .
 getColorStateList
 (
@@ -375,7 +377,7 @@ it
 .
 setTextColor
 (
-ContextCompat
+AppCompatResources
 .
 getColorStateList
 (

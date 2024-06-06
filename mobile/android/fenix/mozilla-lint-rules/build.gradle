@@ -216,6 +216,10 @@ Versions
 android_lint_api
 }
 "
+testImplementation
+Deps
+.
+junitApi
 }
 jar
 {
