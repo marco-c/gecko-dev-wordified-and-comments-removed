@@ -153,6 +153,11 @@ lint
 -
 rules
 '
+include
+'
+:
+benchmark
+'
 /
 /
 Synchronized

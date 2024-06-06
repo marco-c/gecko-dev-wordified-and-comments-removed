@@ -312,6 +312,9 @@ Debug
 "
 nightly
 "
+"
+benchmark
+"
 -
 >
 ReleaseChannel
