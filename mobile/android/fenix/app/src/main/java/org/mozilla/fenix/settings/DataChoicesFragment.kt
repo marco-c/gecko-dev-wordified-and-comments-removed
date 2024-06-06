@@ -196,6 +196,8 @@ requireContext
 )
 .
 settings
+(
+)
 .
 isTelemetryEnabled
 )
@@ -381,6 +383,8 @@ isChecked
 context
 .
 settings
+(
+)
 .
 isTelemetryEnabled
 val
@@ -438,6 +442,8 @@ isChecked
 context
 .
 settings
+(
+)
 .
 isExperimentationEnabled
 onPreferenceChangeListener

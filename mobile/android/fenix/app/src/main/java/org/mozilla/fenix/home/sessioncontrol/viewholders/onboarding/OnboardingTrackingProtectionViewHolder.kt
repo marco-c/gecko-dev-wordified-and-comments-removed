@@ -202,6 +202,8 @@ view
 context
 .
 settings
+(
+)
 .
 shouldUseTrackingProtection
 setOnCheckedChangeListener
@@ -231,6 +233,8 @@ itemView
 context
 .
 settings
+(
+)
 .
 shouldUseTrackingProtection
 =

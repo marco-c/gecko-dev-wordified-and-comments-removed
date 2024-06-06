@@ -311,6 +311,8 @@ requireContext
 )
 .
 settings
+(
+)
 )
 restoreTabButton
 .

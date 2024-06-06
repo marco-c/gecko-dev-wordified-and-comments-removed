@@ -518,6 +518,8 @@ isTelemetryEnabled
 context
 .
 settings
+(
+)
 .
 isTelemetryEnabled
 }

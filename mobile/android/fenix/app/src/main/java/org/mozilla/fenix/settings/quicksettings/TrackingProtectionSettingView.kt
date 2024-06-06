@@ -289,6 +289,8 @@ trackingProtectionSwitch
 context
 .
 settings
+(
+)
 .
 shouldUseTrackingProtection
 trackingProtectionAction

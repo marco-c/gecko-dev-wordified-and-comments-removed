@@ -498,6 +498,8 @@ isChecked
 context
 .
 settings
+(
+)
 .
 preferences
 .
@@ -546,6 +548,8 @@ isChecked
 context
 .
 settings
+(
+)
 .
 preferences
 .

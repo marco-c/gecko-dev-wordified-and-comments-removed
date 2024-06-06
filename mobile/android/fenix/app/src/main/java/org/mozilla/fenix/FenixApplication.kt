@@ -616,9 +616,9 @@ experiments
 component
 if
 (
-this
-.
 settings
+(
+)
 .
 isExperimentationEnabled
 )
@@ -787,9 +787,9 @@ setupLeakCanary
 )
 if
 (
-this
-.
 settings
+(
+)
 .
 isTelemetryEnabled
 )
@@ -1676,6 +1676,8 @@ settings
 this
 .
 settings
+(
+)
 when
 {
 settings

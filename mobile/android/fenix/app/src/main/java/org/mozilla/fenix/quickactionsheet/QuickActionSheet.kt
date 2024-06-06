@@ -366,6 +366,8 @@ bounceSheet
 context
 .
 settings
+(
+)
 .
 incrementAutomaticBounceQuickActionSheetCount
 (

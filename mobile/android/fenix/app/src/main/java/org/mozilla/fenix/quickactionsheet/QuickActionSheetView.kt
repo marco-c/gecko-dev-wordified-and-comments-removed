@@ -806,6 +806,8 @@ view
 context
 .
 settings
+(
+)
 .
 shouldAutoBounceQuickActionSheet
 )
@@ -856,6 +858,8 @@ view
 context
 .
 settings
+(
+)
 .
 preferences
 val

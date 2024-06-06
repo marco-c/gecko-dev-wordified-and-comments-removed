@@ -258,6 +258,8 @@ runBlockingTest
 testContext
 .
 settings
+(
+)
 .
 alwaysOpenInPrivateMode
 =
@@ -387,6 +389,8 @@ runBlockingTest
 testContext
 .
 settings
+(
+)
 .
 alwaysOpenInPrivateMode
 =

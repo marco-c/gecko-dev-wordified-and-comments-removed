@@ -290,6 +290,8 @@ trackingProtectionEnabled
 context
 .
 settings
+(
+)
 .
 shouldUseTrackingProtection
 if

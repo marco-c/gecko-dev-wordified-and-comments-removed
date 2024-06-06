@@ -740,6 +740,8 @@ setupToolbarAndNavigation
 if
 (
 settings
+(
+)
 .
 isTelemetryEnabled
 )
@@ -1258,6 +1260,8 @@ PRIVATE_BROWSING_MODE
 false
 )
 settings
+(
+)
 .
 usePrivateMode
 =
@@ -1866,6 +1870,8 @@ return
 DefaultBrowsingModeManager
 (
 settings
+(
+)
 )
 {
 mode

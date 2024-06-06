@@ -208,6 +208,8 @@ searchEngine
 context
 .
 settings
+(
+)
 .
 defaultSearchEngineName
 =

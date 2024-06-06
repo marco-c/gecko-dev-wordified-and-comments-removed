@@ -1207,6 +1207,8 @@ SyncManager
 context
 .
 settings
+(
+)
 .
 fxaHasSyncedItems
 =
@@ -1725,6 +1727,8 @@ variable
 context
 .
 settings
+(
+)
 .
 fxaSignedIn
 =
@@ -1757,6 +1761,8 @@ variable
 context
 .
 settings
+(
+)
 .
 fxaSignedIn
 =

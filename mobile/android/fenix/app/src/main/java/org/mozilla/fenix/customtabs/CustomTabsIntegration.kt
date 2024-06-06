@@ -421,6 +421,8 @@ displayTrackingProtectionIcon
 activity
 .
 settings
+(
+)
 .
 shouldUseTrackingProtection
 &

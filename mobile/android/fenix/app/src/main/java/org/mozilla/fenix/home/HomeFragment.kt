@@ -1571,6 +1571,8 @@ requireContext
 )
 .
 settings
+(
+)
 .
 defaultSearchEngineName
 )
@@ -1770,6 +1772,8 @@ requireContext
 )
 .
 settings
+(
+)
 .
 incrementNumTimesPrivateModeOpened
 (

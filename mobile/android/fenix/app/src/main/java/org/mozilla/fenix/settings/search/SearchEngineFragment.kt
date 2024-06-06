@@ -226,6 +226,8 @@ isChecked
 context
 .
 settings
+(
+)
 .
 shouldShowSearchSuggestions
 }
@@ -263,6 +265,8 @@ isChecked
 context
 .
 settings
+(
+)
 .
 shouldShowHistorySuggestions
 }
@@ -292,6 +296,8 @@ isChecked
 context
 .
 settings
+(
+)
 .
 shouldShowBookmarkSuggestions
 }
@@ -321,6 +327,8 @@ isChecked
 context
 .
 settings
+(
+)
 .
 shouldShowClipboardSuggestions
 }

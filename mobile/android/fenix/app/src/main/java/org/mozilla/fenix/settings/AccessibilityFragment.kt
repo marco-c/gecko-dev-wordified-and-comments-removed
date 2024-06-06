@@ -259,6 +259,8 @@ preference
 context
 .
 settings
+(
+)
 val
 components
 =
@@ -387,6 +389,8 @@ requireContext
 )
 .
 settings
+(
+)
 .
 shouldUseAutoSize
 val
@@ -426,6 +430,8 @@ preference
 context
 .
 settings
+(
+)
 val
 components
 =

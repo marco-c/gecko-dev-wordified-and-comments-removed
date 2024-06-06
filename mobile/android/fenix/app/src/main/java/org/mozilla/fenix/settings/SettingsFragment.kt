@@ -1107,6 +1107,8 @@ if
 it
 .
 settings
+(
+)
 .
 shouldUseTrackingProtection
 )
@@ -1157,14 +1159,12 @@ summary
 context
 ?
 .
-let
-{
-it
-.
 settings
+(
+)
+?
 .
 themeSettingString
-}
 val
 aboutPreference
 =
@@ -1813,6 +1813,8 @@ requireContext
 )
 .
 settings
+(
+)
 .
 alwaysOpenInPrivateMode
 =
@@ -1822,6 +1824,8 @@ requireContext
 )
 .
 settings
+(
+)
 .
 alwaysOpenInPrivateMode
 true
@@ -1885,6 +1889,8 @@ preference
 context
 .
 settings
+(
+)
 .
 preferences
 .

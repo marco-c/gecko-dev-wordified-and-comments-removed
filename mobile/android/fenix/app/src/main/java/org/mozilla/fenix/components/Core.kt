@@ -453,6 +453,8 @@ remoteDebuggingEnabled
 context
 .
 settings
+(
+)
 .
 isRemoteDebuggingEnabled
 testingModeEnabled
@@ -479,6 +481,8 @@ automaticFontSizeAdjustment
 context
 .
 settings
+(
+)
 .
 shouldUseAutoSize
 fontInflationEnabled
@@ -486,6 +490,8 @@ fontInflationEnabled
 context
 .
 settings
+(
+)
 .
 shouldUseAutoSize
 suspendMediaWhenInactive
@@ -499,6 +505,8 @@ allowAutoplayMedia
 context
 .
 settings
+(
+)
 .
 isAutoPlayEnabled
 )
@@ -1101,6 +1109,8 @@ Boolean
 context
 .
 settings
+(
+)
 .
 shouldUseTrackingProtection
 privateMode
@@ -1120,6 +1130,8 @@ if
 context
 .
 settings
+(
+)
 .
 useStrictTrackingProtection
 )
@@ -1232,6 +1244,8 @@ when
 context
 .
 settings
+(
+)
 .
 shouldUseDarkTheme
 -
@@ -1242,6 +1256,8 @@ Dark
 context
 .
 settings
+(
+)
 .
 shouldUseLightTheme
 -

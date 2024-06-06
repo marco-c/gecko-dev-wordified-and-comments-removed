@@ -719,6 +719,8 @@ requireContext
 )
 .
 settings
+(
+)
 .
 shouldShowSearchSuggestions
 showClipboardSuggestions
@@ -728,6 +730,8 @@ requireContext
 )
 .
 settings
+(
+)
 .
 shouldShowClipboardSuggestions
 showHistorySuggestions
@@ -737,6 +741,8 @@ requireContext
 )
 .
 settings
+(
+)
 .
 shouldShowHistorySuggestions
 showBookmarkSuggestions
@@ -746,6 +752,8 @@ requireContext
 )
 .
 settings
+(
+)
 .
 shouldShowBookmarkSuggestions
 session
@@ -1368,6 +1376,8 @@ requireContext
 )
 .
 settings
+(
+)
 .
 defaultSearchEngineName
 )
@@ -1825,6 +1835,8 @@ requireContext
 )
 .
 settings
+(
+)
 .
 shouldShowHistorySuggestions
 )

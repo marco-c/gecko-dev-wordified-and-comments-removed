@@ -577,6 +577,8 @@ to
 application
 .
 settings
+(
+)
 .
 fxaSignedIn
 "
@@ -586,6 +588,8 @@ to
 application
 .
 settings
+(
+)
 .
 fxaHasSyncedItems
 "
@@ -595,6 +599,8 @@ to
 application
 .
 settings
+(
+)
 .
 searchWidgetInstalled
 )
@@ -804,6 +810,8 @@ return
 application
 .
 settings
+(
+)
 .
 isTelemetryEnabled
 &

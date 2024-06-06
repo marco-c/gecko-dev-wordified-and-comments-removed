@@ -2173,6 +2173,8 @@ yOffset
 it
 .
 settings
+(
+)
 .
 incrementTrackingProtectionOnboardingCount
 (
@@ -2192,6 +2194,8 @@ context
 ?
 .
 settings
+(
+)
 ?
 .
 shouldShowTrackingProtectionOnboarding

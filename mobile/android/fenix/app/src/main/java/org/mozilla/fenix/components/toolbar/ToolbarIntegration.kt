@@ -444,6 +444,8 @@ displayTrackingProtectionIcon
 context
 .
 settings
+(
+)
 .
 shouldUseTrackingProtection
 &
@@ -458,6 +460,8 @@ displaySeparatorView
 context
 .
 settings
+(
+)
 .
 shouldUseTrackingProtection
 &
@@ -667,6 +671,8 @@ if
 context
 .
 settings
+(
+)
 .
 shouldShowHistorySuggestions
 )

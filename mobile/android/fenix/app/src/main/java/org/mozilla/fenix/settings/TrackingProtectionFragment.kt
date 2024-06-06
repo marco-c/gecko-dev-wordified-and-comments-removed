@@ -369,11 +369,13 @@ preferenceTP
 .
 isChecked
 =
-context
-!
-!
+requireContext
+(
+)
 .
 settings
+(
+)
 .
 shouldUseTrackingProtection
 preferenceTP
@@ -393,6 +395,8 @@ preference
 context
 .
 settings
+(
+)
 .
 shouldUseTrackingProtection
 =

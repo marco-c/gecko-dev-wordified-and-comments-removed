@@ -261,6 +261,8 @@ isChecked
 context
 .
 settings
+(
+)
 .
 preferences
 .

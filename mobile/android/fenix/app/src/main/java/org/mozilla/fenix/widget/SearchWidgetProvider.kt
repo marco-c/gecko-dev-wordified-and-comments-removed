@@ -235,6 +235,8 @@ Context
 context
 .
 settings
+(
+)
 .
 addSearchWidgetInstalled
 (
@@ -256,6 +258,8 @@ IntArray
 context
 .
 settings
+(
+)
 .
 addSearchWidgetInstalled
 (

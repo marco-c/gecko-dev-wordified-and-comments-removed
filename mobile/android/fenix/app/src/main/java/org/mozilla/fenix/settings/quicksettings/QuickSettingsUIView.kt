@@ -407,6 +407,8 @@ Settings
 context
 .
 settings
+(
+)
 private
 val
 trackingProtectionSettingView
