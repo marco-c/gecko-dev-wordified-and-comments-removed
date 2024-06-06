@@ -17,6 +17,10 @@ gecko
 -
 browser
 -
+errorpages
+-
+browser
+-
 icons
 -
 browser
@@ -74,6 +78,10 @@ base
 concept
 -
 engine
+-
+concept
+-
+fetch
 -
 concept
 -
@@ -341,6 +349,12 @@ rustlog
 -
 support
 -
+sync
+-
+telemetry
+-
+support
+-
 test
 -
 support
@@ -356,6 +370,10 @@ utils
 support
 -
 webextensions
+-
+ui
+-
+autocomplete
 -
 ui
 -
