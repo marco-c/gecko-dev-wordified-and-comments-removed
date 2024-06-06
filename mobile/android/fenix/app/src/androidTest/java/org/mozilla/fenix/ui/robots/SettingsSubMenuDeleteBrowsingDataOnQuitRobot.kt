@@ -288,7 +288,7 @@ fun
 verifyNavigationToolBarHeader
 (
 )
-=
+{
 onView
 (
 allOf
@@ -327,6 +327,7 @@ VISIBLE
 )
 )
 )
+}
 fun
 verifyDeleteBrowsingOnQuitEnabled
 (
@@ -336,6 +337,8 @@ Boolean
 )
 =
 deleteBrowsingOnQuitButton
+(
+)
 .
 assertIsChecked
 (
@@ -394,6 +397,8 @@ verifyAllTheCheckBoxesText
 )
 {
 openTabsCheckbox
+(
+)
 .
 check
 (
@@ -408,6 +413,8 @@ VISIBLE
 )
 )
 browsingHistoryCheckbox
+(
+)
 .
 check
 (
@@ -422,6 +429,8 @@ VISIBLE
 )
 )
 cookiesAndSiteDataCheckbox
+(
+)
 .
 check
 (
@@ -460,6 +469,8 @@ VISIBLE
 )
 )
 cachedFilesCheckbox
+(
+)
 .
 check
 (
@@ -498,6 +509,8 @@ VISIBLE
 )
 )
 sitePermissionsCheckbox
+(
+)
 .
 check
 (
@@ -595,6 +608,8 @@ SettingsRobot
 Transition
 {
 goBackButton
+(
+)
 .
 click
 (
@@ -616,8 +631,10 @@ Transition
 }
 }
 private
-val
+fun
 goBackButton
+(
+)
 =
 onView
 (
@@ -630,8 +647,10 @@ up
 )
 )
 private
-val
+fun
 deleteBrowsingOnQuitButton
+(
+)
 =
 onView
 (
@@ -650,8 +669,10 @@ Switch
 )
 )
 private
-val
+fun
 openTabsCheckbox
+(
+)
 =
 onView
 (
@@ -665,8 +686,10 @@ preferences_delete_browsing_data_tabs_title_2
 )
 )
 private
-val
+fun
 browsingHistoryCheckbox
+(
+)
 =
 onView
 (
@@ -680,8 +703,10 @@ preferences_delete_browsing_data_browsing_history_title
 )
 )
 private
-val
+fun
 cookiesAndSiteDataCheckbox
+(
+)
 =
 onView
 (
@@ -695,8 +720,10 @@ preferences_delete_browsing_data_cookies_and_site_data
 )
 )
 private
-val
+fun
 cachedFilesCheckbox
+(
+)
 =
 onView
 (
@@ -710,8 +737,10 @@ preferences_delete_browsing_data_cached_files
 )
 )
 private
-val
+fun
 sitePermissionsCheckbox
+(
+)
 =
 onView
 (
