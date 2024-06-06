@@ -1193,12 +1193,6 @@ sessionObserver
 subscribeToSessions
 (
 )
-sessionObserver
-?
-.
-onSessionsRestored
-(
-)
 }
 override
 fun
