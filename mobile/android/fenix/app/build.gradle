@@ -6169,7 +6169,7 @@ ComponentsDependencies
 .
 androidx_biometric
 implementation
-FenixDependencies
+ComponentsDependencies
 .
 androidx_paging
 implementation
