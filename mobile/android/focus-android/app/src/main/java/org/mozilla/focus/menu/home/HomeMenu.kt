@@ -206,7 +206,7 @@ R
 .
 drawable
 .
-mozac_ic_settings
+mozac_ic_settings_24
 )
 {
 onItemTapped
