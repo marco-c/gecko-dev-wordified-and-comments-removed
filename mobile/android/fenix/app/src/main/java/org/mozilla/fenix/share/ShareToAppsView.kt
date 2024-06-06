@@ -276,6 +276,13 @@ isEmpty
 )
 )
 {
+recentAppsContainer
+.
+visibility
+=
+View
+.
+GONE
 return
 }
 progressBar
