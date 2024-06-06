@@ -85,12 +85,6 @@ widget
 .
 RecyclerView
 import
-io
-.
-reactivex
-.
-Observer
-import
 org
 .
 mozilla
@@ -245,12 +239,9 @@ ExceptionsAdapter
 (
 private
 val
-actionEmitter
+interactor
 :
-Observer
-<
-ExceptionsAction
->
+ExceptionsInteractor
 )
 :
 AdapterWithJob
@@ -409,7 +400,7 @@ LAYOUT_ID
 ExceptionsDeleteButtonViewHolder
 (
 view
-actionEmitter
+interactor
 )
 ExceptionsHeaderViewHolder
 .
@@ -428,7 +419,7 @@ LAYOUT_ID
 ExceptionsListItemViewHolder
 (
 view
-actionEmitter
+interactor
 adapterJob
 )
 else
