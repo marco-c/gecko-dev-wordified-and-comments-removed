@@ -355,14 +355,14 @@ ktlint
 "
 const
 val
-sentry_latest
+sentry
 =
 "
 6
 .
-27
+33
 .
-0
+1
 "
 const
 val
@@ -2820,7 +2820,7 @@ okhttp
 "
 const
 val
-thirdparty_sentry_latest
+thirdparty_sentry
 =
 "
 io
@@ -2834,7 +2834,7 @@ android
 {
 Versions
 .
-sentry_latest
+sentry
 }
 "
 const

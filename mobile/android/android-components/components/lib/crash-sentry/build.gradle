@@ -185,11 +185,11 @@ crash
 implementation
 ComponentsDependencies
 .
-thirdparty_sentry_latest
+thirdparty_sentry
 testImplementation
 ComponentsDependencies
 .
-thirdparty_sentry_latest
+thirdparty_sentry
 testImplementation
 project
 (

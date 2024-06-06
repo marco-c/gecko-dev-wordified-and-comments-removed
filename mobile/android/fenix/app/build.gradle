@@ -5677,7 +5677,7 @@ google_accompanist_drawablepainter
 implementation
 ComponentsDependencies
 .
-thirdparty_sentry_latest
+thirdparty_sentry
 implementation
 project
 (
