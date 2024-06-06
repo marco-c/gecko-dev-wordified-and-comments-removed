@@ -2307,6 +2307,9 @@ requireComponents
 core
 .
 topSitesStorage
+browserStore
+=
+store
 )
 _browserInteractor
 =
