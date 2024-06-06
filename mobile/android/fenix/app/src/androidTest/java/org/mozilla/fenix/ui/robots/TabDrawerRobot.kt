@@ -886,7 +886,7 @@ packageName
 :
 id
 /
-default_tab_thumbnail
+mozac_browser_tabstray_thumbnail
 "
 )
 )

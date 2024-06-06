@@ -102,7 +102,7 @@ REBUILD
 -
 05
 -
-04
+05
 class
 DependenciesPlugin
 :
@@ -638,7 +638,7 @@ recyclerview
 "
 1
 .
-2
+3
 .
 0
 "
