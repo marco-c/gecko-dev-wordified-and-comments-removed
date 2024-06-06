@@ -419,6 +419,16 @@ echo
 adjust_token
 &
 &
+python
+tools
+/
+l10n
+/
+check_locales
+.
+py
+&
+&
 .
 /
 gradlew
