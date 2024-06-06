@@ -2104,6 +2104,9 @@ requireActivity
 requireComponents
 .
 store
+tryGetCustomTabId
+(
+)
 )
 owner
 =
