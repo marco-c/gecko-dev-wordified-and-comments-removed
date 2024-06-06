@@ -10734,6 +10734,17 @@ id
 )
 assertEquals
 (
+GeckoAntiTracking
+.
+EMAIL
+TrackingCategory
+.
+EMAIL
+.
+id
+)
+assertEquals
+(
 GeckoCookieBehavior
 .
 ACCEPT_ALL
