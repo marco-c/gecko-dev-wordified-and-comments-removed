@@ -18,3 +18,16 @@ SameSite
 None
 ;
 Secure
+Set
+-
+Cookie
+:
+same_site_strict
+=
+1
+;
+SameSite
+=
+Strict
+;
+Secure
