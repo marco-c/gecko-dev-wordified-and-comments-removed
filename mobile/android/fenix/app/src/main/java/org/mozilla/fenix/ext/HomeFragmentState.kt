@@ -251,14 +251,14 @@ it
 selectionTimestamp
 }
 .
-map
+mapNotNull
 {
 selectedCategory
 -
 >
 pocketStoriesCategories
 .
-first
+find
 {
 it
 .
