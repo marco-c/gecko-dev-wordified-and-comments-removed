@@ -5894,14 +5894,9 @@ ACTION_VIEW
 |
 session
 .
-source
-=
-=
-Session
-.
-Source
-.
-CUSTOM_TAB
+isCustomTabSession
+(
+)
 )
 {
 TelemetryWrapper
