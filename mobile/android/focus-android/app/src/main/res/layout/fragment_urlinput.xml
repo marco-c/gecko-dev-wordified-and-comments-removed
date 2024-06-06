@@ -363,6 +363,16 @@ ResizableKeyboardLinearLayout
 FrameLayout
 android
 :
+id
+=
+"
++
+id
+/
+urlInputLayout
+"
+android
+:
 layout_width
 =
 "
