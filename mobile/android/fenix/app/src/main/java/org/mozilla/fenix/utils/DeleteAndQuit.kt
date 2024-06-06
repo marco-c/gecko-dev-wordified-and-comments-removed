@@ -89,12 +89,6 @@ coroutines
 .
 launch
 import
-kotlinx
-.
-coroutines
-.
-runBlocking
-import
 org
 .
 mozilla
@@ -142,7 +136,7 @@ coroutineScope
 .
 launch
 {
-runBlocking
+launch
 {
 val
 controller
@@ -257,6 +251,9 @@ deleteHistoryAndDOMStorages
 )
 }
 }
+.
+invokeOnCompletion
+{
 this
 deleteAndQuit
 .
@@ -268,5 +265,6 @@ asActivity
 finish
 (
 )
+}
 }
 }
