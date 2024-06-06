@@ -117,6 +117,18 @@ fenix
 .
 helpers
 .
+TestAssetHelper
+.
+waitingTimeShort
+import
+org
+.
+mozilla
+.
+fenix
+.
+helpers
+.
 TestHelper
 .
 mDevice
@@ -430,7 +442,7 @@ appItem
 .
 waitForExists
 (
-waitingTime
+waitingTimeShort
 )
 )
 }
@@ -480,7 +492,7 @@ appItem
 .
 waitForExists
 (
-waitingTime
+waitingTimeShort
 )
 )
 }
@@ -530,7 +542,7 @@ appItem
 .
 waitForExists
 (
-waitingTime
+waitingTimeShort
 )
 )
 }
@@ -661,7 +673,7 @@ appItem
 .
 waitForExists
 (
-waitingTime
+waitingTimeShort
 )
 )
 }

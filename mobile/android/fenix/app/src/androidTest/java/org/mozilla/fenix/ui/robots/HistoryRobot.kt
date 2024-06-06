@@ -272,6 +272,8 @@ fenix
 helpers
 .
 TestAssetHelper
+.
+waitingTime
 import
 org
 .
@@ -283,7 +285,7 @@ helpers
 .
 TestAssetHelper
 .
-waitingTime
+waitingTimeShort
 import
 org
 .
@@ -721,8 +723,6 @@ sites
 .
 waitForExists
 (
-TestAssetHelper
-.
 waitingTimeShort
 )
 )
@@ -762,8 +762,6 @@ sites
 .
 waitForExists
 (
-TestAssetHelper
-.
 waitingTimeShort
 )
 )
@@ -1197,7 +1195,7 @@ item
 .
 waitForExists
 (
-waitingTime
+waitingTimeShort
 )
 )
 }

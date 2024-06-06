@@ -2436,7 +2436,7 @@ title
 .
 waitForExists
 (
-waitingTime
+waitingTimeShort
 )
 )
 }
@@ -2609,7 +2609,7 @@ expectedTitle
 .
 waitForExists
 (
-waitingTime
+waitingTimeShort
 )
 )
 }

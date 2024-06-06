@@ -640,7 +640,7 @@ fill_link_from_clipboard
 .
 waitForExists
 (
-waitingTime
+waitingTimeShort
 )
 )
 assertFalse
@@ -672,7 +672,7 @@ link
 .
 waitForExists
 (
-waitingTime
+waitingTimeShort
 )
 )
 }

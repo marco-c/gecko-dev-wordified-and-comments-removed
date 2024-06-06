@@ -257,6 +257,18 @@ fenix
 .
 helpers
 .
+TestAssetHelper
+.
+waitingTimeShort
+import
+org
+.
+mozilla
+.
+fenix
+.
+helpers
+.
 TestHelper
 .
 mDevice
@@ -459,7 +471,7 @@ siteUrl
 .
 waitForExists
 (
-waitingTime
+waitingTimeShort
 )
 )
 }

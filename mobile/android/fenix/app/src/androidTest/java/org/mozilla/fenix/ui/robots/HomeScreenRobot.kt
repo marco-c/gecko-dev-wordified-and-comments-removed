@@ -1911,7 +1911,7 @@ sponsoredShortcutTitle
 .
 waitForExists
 (
-waitingTime
+waitingTimeShort
 )
 )
 fun
@@ -2472,7 +2472,7 @@ pocket_stories_header_1
 .
 waitForExists
 (
-waitingTime
+waitingTimeShort
 )
 )
 }
@@ -2786,7 +2786,7 @@ pocket_stories_categories_header
 .
 waitForExists
 (
-waitingTime
+waitingTimeShort
 )
 )
 }
@@ -3081,7 +3081,7 @@ homepage
 .
 waitForExists
 (
-waitingTime
+waitingTimeShort
 )
 )
 }
@@ -6029,7 +6029,7 @@ title
 .
 waitForExists
 (
-waitingTime
+waitingTimeShort
 )
 )
 }
@@ -6075,7 +6075,7 @@ top_sites_sponsored_label
 .
 waitForExists
 (
-waitingTime
+waitingTimeShort
 )
 )
 }
@@ -6275,7 +6275,7 @@ recentlyVisitedSection
 .
 waitForExists
 (
-waitingTime
+waitingTimeShort
 )
 )
 private
@@ -6343,7 +6343,7 @@ pocketSection
 .
 waitForExists
 (
-waitingTime
+waitingTimeShort
 )
 )
 private

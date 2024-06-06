@@ -387,6 +387,18 @@ fenix
 .
 helpers
 .
+TestAssetHelper
+.
+waitingTimeShort
+import
+org
+.
+mozilla
+.
+fenix
+.
+helpers
+.
 TestHelper
 .
 appName
@@ -572,7 +584,7 @@ addonName
 .
 waitForExists
 (
-waitingTime
+waitingTimeShort
 )
 )
 assertTrue

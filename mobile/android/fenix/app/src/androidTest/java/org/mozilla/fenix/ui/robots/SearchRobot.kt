@@ -613,7 +613,7 @@ voiceSearchButton
 .
 waitForExists
 (
-waitingTime
+waitingTimeShort
 )
 )
 }
@@ -1008,7 +1008,7 @@ searchSuggestion
 .
 waitForExists
 (
-waitingTime
+waitingTimeShort
 )
 )
 }

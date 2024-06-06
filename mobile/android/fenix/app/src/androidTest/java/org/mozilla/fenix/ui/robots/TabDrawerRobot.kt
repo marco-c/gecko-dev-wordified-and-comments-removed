@@ -2827,7 +2827,7 @@ title
 .
 waitForExists
 (
-waitingTimeLong
+waitingTimeShort
 )
 )
 }

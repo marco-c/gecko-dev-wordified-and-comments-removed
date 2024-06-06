@@ -548,6 +548,18 @@ fenix
 .
 helpers
 .
+TestAssetHelper
+.
+waitingTimeShort
+import
+org
+.
+mozilla
+.
+fenix
+.
+helpers
+.
 TestHelper
 .
 getStringResource
@@ -3875,7 +3887,7 @@ currentDate
 .
 waitForExists
 (
-waitingTime
+waitingTimeShort
 )
 )
 }
@@ -4383,7 +4395,7 @@ minute
 .
 waitForExists
 (
-waitingTime
+waitingTimeShort
 )
 )
 }
@@ -4419,7 +4431,7 @@ hexValue
 .
 waitForExists
 (
-waitingTime
+waitingTimeShort
 )
 )
 }
