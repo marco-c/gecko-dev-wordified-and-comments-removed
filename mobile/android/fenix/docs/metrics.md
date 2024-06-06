@@ -1071,7 +1071,6 @@ track
 leakcanary
 make_default_browser
 show_search_suggestions
-show_visited_sites_bookmarks
 remote_debugging
 telemetry
 tracking_protection

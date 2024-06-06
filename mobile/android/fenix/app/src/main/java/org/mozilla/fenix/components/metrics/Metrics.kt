@@ -754,16 +754,6 @@ R
 .
 string
 .
-pref_key_show_visited_sites_bookmarks
-)
-context
-.
-getString
-(
-R
-.
-string
-.
 pref_key_remote_debugging
 )
 context
