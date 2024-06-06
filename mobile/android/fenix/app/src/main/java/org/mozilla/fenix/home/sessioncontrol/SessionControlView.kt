@@ -1166,12 +1166,7 @@ view
 .
 scrollToPosition
 (
-stateAdapterList
-.
-indexOf
-(
-this
-)
+0
 )
 }
 }
