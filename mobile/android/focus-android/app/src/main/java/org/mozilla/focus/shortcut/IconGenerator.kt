@@ -913,7 +913,7 @@ isLetterOrDigit
 }
 ?
 .
-toUpperCase
+uppercaseChar
 (
 )
 return

@@ -417,7 +417,7 @@ lower
 =
 this
 .
-toLowerCase
+lowercase
 (
 )
 prefixes
@@ -432,7 +432,7 @@ startsWith
 (
 it
 .
-toLowerCase
+lowercase
 (
 )
 )

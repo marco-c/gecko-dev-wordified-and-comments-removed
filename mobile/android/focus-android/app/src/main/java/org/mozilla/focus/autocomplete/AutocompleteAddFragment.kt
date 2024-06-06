@@ -485,7 +485,7 @@ trim
 (
 )
 .
-toLowerCase
+lowercase
 (
 )
 launch

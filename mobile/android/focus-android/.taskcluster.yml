@@ -318,7 +318,7 @@ android
 :
 1
 .
-6
+7
 command
 :
 -
@@ -975,7 +975,7 @@ android
 :
 1
 .
-6
+7
 features
 :
 taskclusterProxy
@@ -1588,7 +1588,7 @@ android
 :
 1
 .
-6
+7
 features
 :
 taskclusterProxy
@@ -2197,7 +2197,7 @@ android
 :
 1
 .
-6
+7
 features
 :
 taskclusterProxy
