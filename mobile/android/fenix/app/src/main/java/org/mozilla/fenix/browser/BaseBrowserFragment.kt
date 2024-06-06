@@ -1983,16 +1983,7 @@ components
 .
 core
 .
-asyncPasswordsStorage
-context
-.
-components
-.
-core
-.
-getSecureAbove22Preferences
-(
-)
+passwordsStorage
 )
 isSaveLoginEnabled
 =

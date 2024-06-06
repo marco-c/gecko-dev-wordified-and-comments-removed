@@ -636,11 +636,7 @@ components
 .
 core
 .
-syncablePasswordsStorage
-.
-withUnlocked
-{
-it
+passwordsStorage
 .
 delete
 (
@@ -650,11 +646,6 @@ savedLoginItem
 .
 id
 )
-.
-await
-(
-)
-}
 }
 deleteLoginJob
 ?

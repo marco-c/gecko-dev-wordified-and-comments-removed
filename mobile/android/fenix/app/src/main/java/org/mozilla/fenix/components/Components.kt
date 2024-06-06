@@ -226,12 +226,7 @@ core
 bookmarksStorage
 core
 .
-syncablePasswordsStorage
-core
-.
-getSecureAbove22Preferences
-(
-)
+passwordsStorage
 )
 }
 val
