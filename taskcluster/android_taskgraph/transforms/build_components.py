@@ -421,18 +421,10 @@ timestamp
                 
 treeherder_group
 =
-task
+component
 [
-"
-attributes
-"
-]
-[
-"
-treeherder
--
-group
-"
+:
+25
 ]
             
 )

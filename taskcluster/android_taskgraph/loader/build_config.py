@@ -299,23 +299,6 @@ component
 name
 "
 ]
-                
-"
-treeherder
--
-group
-"
-:
-component
-[
-"
-name
-"
-]
-[
-:
-25
-]
             
 }
         
@@ -430,28 +413,6 @@ name
 ]
 :
 {
-            
-"
-attributes
-"
-:
-{
-                
-"
-treeherder
--
-group
-"
-:
-apk
-[
-"
-name
-"
-]
-            
-}
-        
 }
         
 for
