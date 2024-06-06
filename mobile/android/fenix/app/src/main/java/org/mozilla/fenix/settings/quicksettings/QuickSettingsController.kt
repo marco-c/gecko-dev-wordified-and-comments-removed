@@ -743,6 +743,9 @@ handlePermissionsChange
 it
 )
 }
+sitePermissions
+=
+newPermissions
 quickSettingsStore
 .
 dispatch
