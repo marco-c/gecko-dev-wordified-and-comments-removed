@@ -264,8 +264,6 @@ splash_screen
 0
 .
 0
--
-beta01
 "
 }
 object
