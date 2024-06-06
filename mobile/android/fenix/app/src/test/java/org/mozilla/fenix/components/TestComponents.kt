@@ -169,17 +169,6 @@ crashReporter
 }
 override
 val
-search
-by
-lazy
-{
-Search
-(
-context
-)
-}
-override
-val
 useCases
 by
 lazy
@@ -196,9 +185,6 @@ sessionManager
 core
 .
 store
-search
-.
-searchEngineManager
 core
 .
 webAppShortcutManager

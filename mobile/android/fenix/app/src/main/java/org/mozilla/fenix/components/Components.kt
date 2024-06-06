@@ -441,16 +441,6 @@ strictMode
 )
 }
 val
-search
-by
-lazyMonitored
-{
-Search
-(
-context
-)
-}
-val
 useCases
 by
 lazyMonitored
@@ -467,9 +457,6 @@ sessionManager
 core
 .
 store
-search
-.
-searchEngineManager
 core
 .
 webAppShortcutManager

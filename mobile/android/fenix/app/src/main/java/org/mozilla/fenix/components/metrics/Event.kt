@@ -89,6 +89,8 @@ components
 .
 browser
 .
+state
+.
 search
 .
 SearchEngine
@@ -2782,7 +2784,7 @@ custom
 else
 engine
 .
-identifier
+id
 val
 searchEngine
 :

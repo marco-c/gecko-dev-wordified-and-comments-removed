@@ -73,9 +73,9 @@ components
 .
 browser
 .
-search
+session
 .
-SearchEngine
+Session
 import
 mozilla
 .
@@ -83,9 +83,11 @@ components
 .
 browser
 .
-session
+state
 .
-Session
+search
+.
+SearchEngine
 /
 *
 *

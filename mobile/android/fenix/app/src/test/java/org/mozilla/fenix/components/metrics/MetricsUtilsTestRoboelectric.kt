@@ -85,6 +85,8 @@ components
 .
 browser
 .
+state
+.
 search
 .
 SearchEngine
@@ -93,13 +95,13 @@ mozilla
 .
 components
 .
-support
+browser
 .
-test
+state
 .
-robolectric
+store
 .
-testContext
+BrowserStore
 import
 org
 .
@@ -185,9 +187,11 @@ createSearchEvent
 )
 {
 val
-context
+store
 =
-testContext
+BrowserStore
+(
+)
 val
 engine
 :
@@ -203,7 +207,7 @@ every
 {
 engine
 .
-identifier
+id
 }
 returns
 MetricsUtilsTest
@@ -227,7 +231,7 @@ MetricsUtils
 createSearchEvent
 (
 engine
-context
+store
 Event
 .
 PerformedSearch
@@ -261,7 +265,7 @@ MetricsUtils
 createSearchEvent
 (
 engine
-context
+store
 Event
 .
 PerformedSearch
@@ -295,7 +299,7 @@ MetricsUtils
 createSearchEvent
 (
 engine
-context
+store
 Event
 .
 PerformedSearch
@@ -329,7 +333,7 @@ MetricsUtils
 createSearchEvent
 (
 engine
-context
+store
 Event
 .
 PerformedSearch

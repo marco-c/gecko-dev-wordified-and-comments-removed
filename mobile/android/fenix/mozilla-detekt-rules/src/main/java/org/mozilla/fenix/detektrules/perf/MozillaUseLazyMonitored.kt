@@ -626,9 +626,6 @@ PerformanceComponent
 Push
 "
 "
-Search
-"
-"
 Services
 "
 "
