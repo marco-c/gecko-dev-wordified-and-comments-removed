@@ -375,6 +375,16 @@ action
 Intent
 .
 ACTION_VIEW
+|
+|
+intent
+.
+action
+=
+=
+Intent
+.
+ACTION_SEND
 -
 >
 {
