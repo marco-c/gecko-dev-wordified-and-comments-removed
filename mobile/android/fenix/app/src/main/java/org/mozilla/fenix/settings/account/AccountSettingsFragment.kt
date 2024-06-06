@@ -2382,6 +2382,17 @@ newDeviceName
 it
 )
 }
+accountSettingsStore
+.
+dispatch
+(
+AccountSettingsFragmentAction
+.
+UpdateDeviceName
+(
+newDeviceName
+)
+)
 }
 return
 true
