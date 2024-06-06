@@ -448,6 +448,9 @@ toString
 .
 openTabDrawer
 {
+verifyNormalModeSelected
+(
+)
 verifyExistingOpenTabs
 (
 "
