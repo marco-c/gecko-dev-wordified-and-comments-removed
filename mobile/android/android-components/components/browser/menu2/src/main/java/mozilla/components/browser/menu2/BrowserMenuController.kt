@@ -509,6 +509,7 @@ displayPopup
 view
 anchor
 orientation
+style
 )
 }
 .
@@ -647,6 +648,7 @@ anchor
 info
 .
 orientation
+style
 )
 }
 currentPopupInfo
