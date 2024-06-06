@@ -1019,6 +1019,12 @@ Mode
 .
 Normal
 }
+val
+initialPage
+=
+args
+.
+page
 tabsTrayStore
 =
 StoreProvider
@@ -1034,6 +1040,9 @@ initialState
 =
 TabsTrayState
 (
+selectedPage
+=
+initialPage
 mode
 =
 initialMode
