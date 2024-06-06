@@ -1410,7 +1410,7 @@ R
 .
 string
 .
-browser_menu_review_quality_check
+review_quality_check_open_handle_content_description
 )
 iconTintColorResource
 =

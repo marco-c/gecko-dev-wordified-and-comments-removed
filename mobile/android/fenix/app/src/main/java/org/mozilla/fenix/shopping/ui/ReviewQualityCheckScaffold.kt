@@ -476,7 +476,7 @@ R
 .
 string
 .
-browser_menu_review_quality_check_close
+review_quality_check_close_handle_content_description
 )
 modifier
 =
