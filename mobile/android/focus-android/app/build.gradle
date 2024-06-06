@@ -2587,6 +2587,10 @@ androidx_test_core_ktx
 androidTestImplementation
 FocusDependencies
 .
+androidx_tracing
+androidTestImplementation
+FocusDependencies
+.
 androidx_junit_ktx
 androidTestImplementation
 FocusDependencies

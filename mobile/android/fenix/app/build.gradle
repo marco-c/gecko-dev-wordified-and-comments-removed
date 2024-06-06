@@ -6638,6 +6638,10 @@ androidx_test_extensions
 androidTestImplementation
 FenixDependencies
 .
+androidx_tracing
+androidTestImplementation
+FenixDependencies
+.
 androidx_work_testing
 androidTestImplementation
 FenixDependencies
