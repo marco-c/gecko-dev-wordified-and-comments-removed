@@ -102,6 +102,15 @@ gradle
 -
 dependencies
 "
+"
+android
+-
+gradle
+-
+python
+-
+envs
+"
 ]
         
 fetches
