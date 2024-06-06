@@ -1690,7 +1690,16 @@ parentFragmentManager
 launchInApp
 =
 {
-true
+Settings
+.
+getInstance
+(
+requireContext
+(
+)
+)
+.
+openLinksInExternalApp
 }
 loadUrlUseCase
 =

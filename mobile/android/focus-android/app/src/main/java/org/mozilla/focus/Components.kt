@@ -1286,7 +1286,14 @@ true
 launchInApp
 =
 {
-true
+Settings
+.
+getInstance
+(
+context
+)
+.
+openLinksInExternalApp
 }
 )
 }
