@@ -694,10 +694,6 @@ text
 String
 )
 {
-browserAnimator
-.
-captureEngineViewAndDrawStatically
-{
 val
 directions
 =
@@ -730,7 +726,6 @@ getToolbarNavOptions
 activity
 )
 )
-}
 }
 override
 fun
@@ -827,10 +822,6 @@ Source
 BROWSER
 )
 )
-browserAnimator
-.
-captureEngineViewAndDrawStatically
-{
 val
 directions
 =
@@ -858,7 +849,6 @@ getToolbarNavOptions
 activity
 )
 )
-}
 }
 override
 fun
