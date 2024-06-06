@@ -716,6 +716,9 @@ appName
 }
 AdapterItem
 .
+OnboardingWhatsNew
+AdapterItem
+.
 OnboardingThemePicker
 AdapterItem
 .
