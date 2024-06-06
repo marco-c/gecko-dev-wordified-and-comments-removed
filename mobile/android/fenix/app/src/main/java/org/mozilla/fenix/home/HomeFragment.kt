@@ -3596,7 +3596,7 @@ hideOnboardingIfNeeded
 build
 (
 )
-TabCounterBuilder
+TabCounterView
 (
 context
 =
@@ -3616,10 +3616,6 @@ tabCounter
 binding
 .
 tabButton
-)
-.
-build
-(
 )
 binding
 .

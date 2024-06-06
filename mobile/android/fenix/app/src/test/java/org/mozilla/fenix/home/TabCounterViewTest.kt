@@ -266,7 +266,7 @@ FenixRobolectricTestRunner
 class
 )
 class
-TabCounterBuilderTest
+TabCounterViewTest
 {
 get
 :
@@ -310,9 +310,9 @@ Unit
 private
 lateinit
 var
-tabCounterBuilder
+tabCounterView
 :
-TabCounterBuilder
+TabCounterView
 private
 lateinit
 var
@@ -371,9 +371,9 @@ modeDidChange
 =
 modeDidChange
 )
-tabCounterBuilder
+tabCounterView
 =
-TabCounterBuilder
+TabCounterView
 (
 context
 =
@@ -407,11 +407,6 @@ metrics
 (
 )
 {
-tabCounterBuilder
-.
-build
-(
-)
 assertNull
 (
 StartOnHome
@@ -474,7 +469,7 @@ normal
 (
 )
 {
-tabCounterBuilder
+tabCounterView
 .
 onItemTapped
 (
@@ -513,7 +508,7 @@ private
 (
 )
 {
-tabCounterBuilder
+tabCounterView
 .
 onItemTapped
 (
