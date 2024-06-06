@@ -61,7 +61,7 @@ to
 [
 Fenix
 GitHub
-}
+]
 (
 https
 :
