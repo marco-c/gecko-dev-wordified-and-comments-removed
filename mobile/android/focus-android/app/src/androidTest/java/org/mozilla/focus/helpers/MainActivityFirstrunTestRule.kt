@@ -142,6 +142,11 @@ open
 class
 MainActivityFirstrunTestRule
 (
+launchActivity
+:
+Boolean
+=
+true
 private
 val
 showFirstRun
@@ -160,6 +165,7 @@ MainActivity
 class
 .
 java
+launchActivity
 )
 {
 CallSuper
@@ -217,11 +223,6 @@ afterActivityFinished
 super
 .
 afterActivityFinished
-(
-)
-activity
-.
-finishAndRemoveTask
 (
 )
 ThreadUtils
