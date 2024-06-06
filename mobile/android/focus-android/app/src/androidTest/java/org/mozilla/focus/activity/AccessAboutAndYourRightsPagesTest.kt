@@ -161,7 +161,7 @@ mozilla
 .
 focus
 .
-helpers
+idlingResources
 .
 SessionLoadedIdlingResource
 RunWith

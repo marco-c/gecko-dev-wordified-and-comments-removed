@@ -63,7 +63,7 @@ mozilla
 .
 focus
 .
-helpers
+idlingResources
 import
 androidx
 .
