@@ -785,7 +785,7 @@ fromNow
 (
 '
 1
-week
+month
 '
 )
 )
@@ -837,7 +837,7 @@ fromNow
 (
 '
 1
-week
+month
 '
 )
 	
