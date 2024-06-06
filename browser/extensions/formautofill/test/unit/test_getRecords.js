@@ -519,7 +519,7 @@ expectedResult
 await
 FormAutofillParent
 .
-_getRecords
+getRecords
 (
 {
 collectionName
@@ -910,7 +910,7 @@ result
 await
 FormAutofillParent
 .
-_getRecords
+getRecords
 (
 testCase
 .
@@ -1421,7 +1421,7 @@ result
 await
 FormAutofillParent
 .
-_getRecords
+getRecords
 (
 testCase
 .
