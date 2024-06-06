@@ -23108,10 +23108,6 @@ inside
 the
 app
 .
-send_in_pings
-:
--
-metrics
 bugs
 :
 -
@@ -23198,10 +23194,6 @@ Downloads
 "
 folder
 .
-send_in_pings
-:
--
-metrics
 bugs
 :
 -
@@ -23284,10 +23276,6 @@ at
 a
 time
 .
-send_in_pings
-:
--
-metrics
 bugs
 :
 -
