@@ -289,8 +289,8 @@ if
 (
 !
 isDownload
-|
-|
+&
+&
 !
 AppConstants
 .
