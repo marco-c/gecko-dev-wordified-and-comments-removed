@@ -210,7 +210,9 @@ android
 layout_marginTop
 =
 "
-57dp
+dimen
+/
+urlinput_height
 "
 android
 :
@@ -393,7 +395,9 @@ android
 layout_height
 =
 "
-57dp
+dimen
+/
+urlinput_height
 "
 android
 :
@@ -1008,7 +1012,9 @@ android
 layout_marginTop
 =
 "
-57dp
+dimen
+/
+urlinput_height
 "
 android
 :
@@ -1068,7 +1074,9 @@ android
 layout_marginTop
 =
 "
-57dp
+dimen
+/
+urlinput_height
 "
 >
 <
