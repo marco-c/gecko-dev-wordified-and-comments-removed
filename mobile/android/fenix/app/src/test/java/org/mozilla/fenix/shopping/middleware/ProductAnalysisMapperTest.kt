@@ -721,6 +721,8 @@ OptedIn
 ProductReviewState
 .
 Error
+.
+GenericError
 assertEquals
 (
 expected
@@ -739,7 +741,9 @@ it
 is
 mapped
 to
-Error
+no
+analysis
+present
 (
 )
 {
@@ -767,7 +771,9 @@ OptedIn
 .
 ProductReviewState
 .
-Error
+NoAnalysisPresent
+(
+)
 assertEquals
 (
 expected
@@ -887,6 +893,8 @@ OptedIn
 ProductReviewState
 .
 Error
+.
+GenericError
 assertEquals
 (
 expected

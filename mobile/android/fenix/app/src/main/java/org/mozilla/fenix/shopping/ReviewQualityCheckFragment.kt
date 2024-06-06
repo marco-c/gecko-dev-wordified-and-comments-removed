@@ -296,6 +296,11 @@ requireComponents
 core
 .
 store
+context
+=
+requireContext
+(
+)
 openLink
 =
 {

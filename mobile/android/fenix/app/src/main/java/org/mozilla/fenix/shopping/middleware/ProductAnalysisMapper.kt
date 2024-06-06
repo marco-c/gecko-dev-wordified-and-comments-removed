@@ -204,6 +204,8 @@ null
 ProductReviewState
 .
 Error
+.
+GenericError
 }
 else
 {
@@ -225,6 +227,8 @@ else
 ProductReviewState
 .
 Error
+.
+GenericError
 }
 }
 private
@@ -247,7 +251,9 @@ null
 {
 ProductReviewState
 .
-Error
+NoAnalysisPresent
+(
+)
 }
 else
 {
