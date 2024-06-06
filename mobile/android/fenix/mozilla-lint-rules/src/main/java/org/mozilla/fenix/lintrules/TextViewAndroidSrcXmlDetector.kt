@@ -255,9 +255,9 @@ prohibits
 not
 using
 the
-android
+app
 :
-drawableX
+drawableXCompat
 to
 define
 drawables
