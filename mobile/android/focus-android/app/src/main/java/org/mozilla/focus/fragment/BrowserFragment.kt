@@ -4780,6 +4780,9 @@ submitCrash
 crash
 )
 }
+erase
+(
+)
 hideCrashReporter
 (
 )
@@ -4967,7 +4970,6 @@ it
 url
 }
 }
-private
 fun
 crashReporterIsVisible
 (
