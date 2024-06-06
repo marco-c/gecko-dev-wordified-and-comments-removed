@@ -84,6 +84,12 @@ java
 lang
 .
 IllegalStateException
+SuppressWarnings
+(
+"
+TooManyFunctions
+"
+)
 abstract
 class
 SectionedAdapter
@@ -490,8 +496,12 @@ throw
 IllegalStateException
 (
 "
-hello
-world
+Position
+position
+is
+out
+of
+bounds
 !
 "
 )
