@@ -3204,7 +3204,7 @@ verify
 {
 activity
 .
-finish
+finishAndRemoveTask
 (
 )
 }
