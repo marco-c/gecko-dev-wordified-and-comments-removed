@@ -1070,6 +1070,11 @@ context
 isCfrEnabled
 )
 {
+onboardingFeature
+.
+recordExposure
+(
+)
 listOf
 (
 CfrMiddleware
@@ -1084,11 +1089,6 @@ listOf
 (
 )
 }
-onboardingFeature
-.
-recordExposure
-(
-)
 BrowserStore
 (
 middleware

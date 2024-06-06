@@ -1082,6 +1082,11 @@ onboardingConfig
 isEnabled
 )
 {
+onboardingFeature
+.
+recordExposure
+(
+)
 OnboardingFragment
 .
 create
@@ -1096,11 +1101,6 @@ create
 (
 )
 }
-onboardingFeature
-.
-recordExposure
-(
-)
 activity
 .
 supportFragmentManager
