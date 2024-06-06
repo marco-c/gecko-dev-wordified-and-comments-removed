@@ -232,7 +232,9 @@ pendingIntent
 =
 menuItem
 .
-pendingIntent
+getPendingIntent
+(
+)
 ;
 }
 }
