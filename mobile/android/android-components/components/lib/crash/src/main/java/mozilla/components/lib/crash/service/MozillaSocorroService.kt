@@ -3512,6 +3512,14 @@ keys
 if
 (
 !
+key
+.
+isNullOrEmpty
+(
+)
+&
+&
+!
 ignoreKeys
 .
 contains
