@@ -134,6 +134,12 @@ java
 util
 .
 UUID
+private
+const
+val
+MAX_NUM_OF_FIREFOX_SUGGESTIONS
+=
+1
 /
 *
 *
@@ -479,6 +485,9 @@ text
 providers
 =
 providers
+limit
+=
+MAX_NUM_OF_FIREFOX_SUGGESTIONS
 )
 )
 .
