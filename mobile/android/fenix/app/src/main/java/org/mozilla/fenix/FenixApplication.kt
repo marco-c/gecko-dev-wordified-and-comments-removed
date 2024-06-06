@@ -5038,6 +5038,16 @@ settings
 .
 showPocketRecommendationsFeature
 )
+CustomizeHome
+.
+contile
+.
+set
+(
+settings
+.
+showContileFeature
+)
 }
 }
 )

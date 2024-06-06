@@ -1135,7 +1135,7 @@ every
 {
 settings
 .
-showPocketRecommendationsFeature
+showContileFeature
 }
 returns
 true
