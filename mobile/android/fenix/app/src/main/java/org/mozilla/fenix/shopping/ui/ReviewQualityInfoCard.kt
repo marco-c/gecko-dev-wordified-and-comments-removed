@@ -616,7 +616,7 @@ R
 .
 string
 .
-review_quality_check_info_grade_info_AB_2
+review_quality_check_info_grade_info_AB
 )
 modifier
 =
@@ -685,7 +685,7 @@ R
 .
 string
 .
-review_quality_check_info_grade_info_DF_2
+review_quality_check_info_grade_info_DF
 )
 modifier
 =
