@@ -671,7 +671,7 @@ textColor
 =
 "
 ?
-accentBright
+accentUsedOnDarkBackground
 "
 app
 :
