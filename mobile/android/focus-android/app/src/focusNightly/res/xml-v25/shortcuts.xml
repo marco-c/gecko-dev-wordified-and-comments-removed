@@ -244,15 +244,6 @@ string
 /
 shortcut_erase_and_open_short_label
 "
-android
-:
-shortcutLongLabel
-=
-"
-string
-/
-shortcut_erase_and_open_long_label
-"
 >
 <
 intent
