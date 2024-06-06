@@ -2027,6 +2027,7 @@ sync_failed_summary
 "
 >
 :
+%
 s
 <
 /
@@ -2091,6 +2092,7 @@ sync_last_synced_summary
 "
 >
 :
+%
 s
 <
 /
@@ -4095,6 +4097,7 @@ name
 history_multi_select_title
 "
 >
+%
 1
 d
 <
@@ -4891,6 +4894,7 @@ name
 bookmarks_multi_select_title
 "
 >
+%
 1
 d
 <
