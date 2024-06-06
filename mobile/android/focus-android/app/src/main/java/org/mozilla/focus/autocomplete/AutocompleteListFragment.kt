@@ -1155,7 +1155,6 @@ onCreateViewHolder
 parent
 :
 ViewGroup
-?
 viewType
 :
 Int
@@ -1184,8 +1183,6 @@ LayoutInflater
 from
 (
 parent
-!
-!
 .
 context
 )
@@ -1209,8 +1206,6 @@ LayoutInflater
 from
 (
 parent
-!
-!
 .
 context
 )
@@ -1275,7 +1270,6 @@ holder
 RecyclerView
 .
 ViewHolder
-?
 position
 :
 Int
@@ -1315,7 +1309,6 @@ holder
 RecyclerView
 .
 ViewHolder
-?
 )
 {
 if
