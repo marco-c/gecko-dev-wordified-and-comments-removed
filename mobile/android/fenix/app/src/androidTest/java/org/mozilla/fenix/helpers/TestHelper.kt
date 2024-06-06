@@ -825,15 +825,7 @@ url
 )
 package
 =
-"
-org
-.
-mozilla
-.
-fenix
-.
-debug
-"
+packageName
 flags
 =
 Intent
