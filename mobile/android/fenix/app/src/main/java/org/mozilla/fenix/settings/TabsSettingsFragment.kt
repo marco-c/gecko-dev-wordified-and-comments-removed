@@ -490,7 +490,7 @@ string
 .
 pref_key_close_tabs_manually
 )
-radioOneDay
+radioOneMonth
 =
 requirePreference
 (
@@ -498,7 +498,7 @@ R
 .
 string
 .
-pref_key_close_tabs_after_one_day
+pref_key_close_tabs_after_one_month
 )
 radioOneWeek
 =
@@ -510,7 +510,7 @@ string
 .
 pref_key_close_tabs_after_one_week
 )
-radioOneMonth
+radioOneDay
 =
 requirePreference
 (
@@ -518,7 +518,7 @@ R
 .
 string
 .
-pref_key_close_tabs_after_one_month
+pref_key_close_tabs_after_one_day
 )
 startOnHomeRadioFourHours
 =
