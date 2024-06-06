@@ -422,7 +422,6 @@ lazyMonitored
 {
 SearchUseCases
 (
-context
 store
 searchEngineManager
 .
