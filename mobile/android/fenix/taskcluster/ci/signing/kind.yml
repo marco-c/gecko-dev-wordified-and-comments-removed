@@ -381,6 +381,12 @@ type
 :
 .
 *
+(
+beta
+|
+release
+)
+-
 mozillaonline
 :
 by
