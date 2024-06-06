@@ -363,7 +363,7 @@ ExceptionsFragmentState
 (
 items
 =
-listOf
+emptyList
 (
 )
 )
@@ -412,13 +412,6 @@ Bundle
 ?
 )
 {
-super
-.
-onViewCreated
-(
-view
-savedInstanceState
-)
 consumeFrom
 (
 exceptionsStore
