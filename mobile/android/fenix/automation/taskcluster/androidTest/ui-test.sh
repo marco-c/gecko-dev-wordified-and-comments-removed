@@ -300,11 +300,6 @@ get_abs_filename
 (
 )
 {
-#
-1
-:
-relative
-filename
 relative_filename
 =
 "
