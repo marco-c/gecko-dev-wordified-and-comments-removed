@@ -261,6 +261,8 @@ p2
 android
 -
 aarch64
+-
+shippable
 /
 opt
 armeabi
@@ -282,6 +284,8 @@ arm7
 api
 -
 16
+-
+shippable
 /
 opt
 worker
