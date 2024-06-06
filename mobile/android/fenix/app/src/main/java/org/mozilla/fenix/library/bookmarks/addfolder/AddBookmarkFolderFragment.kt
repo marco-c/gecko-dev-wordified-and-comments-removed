@@ -425,6 +425,11 @@ Mobile
 .
 id
 )
+launch
+(
+Main
+)
+{
 bookmark_add_folder_parent_selector
 .
 text
@@ -468,6 +473,7 @@ id
 true
 )
 )
+}
 }
 }
 }
