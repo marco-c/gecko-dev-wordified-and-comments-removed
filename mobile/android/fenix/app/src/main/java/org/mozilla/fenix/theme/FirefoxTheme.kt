@@ -2637,7 +2637,7 @@ textActionSecondary
 =
 other
 .
-textSecondary
+textActionSecondary
 textActionTertiary
 =
 other
