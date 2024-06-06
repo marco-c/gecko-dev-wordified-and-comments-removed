@@ -813,6 +813,12 @@ Event
 (
 )
 object
+ReaderModeClosed
+:
+Event
+(
+)
+object
 ReaderModeAppearanceOpened
 :
 Event
