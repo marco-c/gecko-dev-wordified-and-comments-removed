@@ -4220,7 +4220,7 @@ view
 =
 view
 )
-expandToolbarOnNavigation
+closeFindInPageBarOnNavigation
 (
 store
 )
@@ -4765,10 +4765,9 @@ incrementSecureWarningCount
 (
 )
 }
-VisibleForTesting
-internal
+private
 fun
-expandToolbarOnNavigation
+closeFindInPageBarOnNavigation
 (
 store
 :
@@ -4823,11 +4822,6 @@ collect
 findInPageIntegration
 .
 onBackPressed
-(
-)
-browserToolbarView
-.
-expand
 (
 )
 }
