@@ -221,9 +221,7 @@ schedulerId
 "
 :
 "
-taskcluster
 -
-github
 "
             
 "
@@ -521,9 +519,7 @@ schedulerId
 "
 :
 "
-taskcluster
 -
-github
 "
             
 "
@@ -812,9 +808,7 @@ schedulerId
 "
 :
 "
-taskcluster
 -
-github
 "
             
 "
