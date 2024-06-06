@@ -105,16 +105,6 @@ mozilla
 .
 fenix
 .
-components
-.
-NotificationManager
-import
-org
-.
-mozilla
-.
-fenix
-.
 customtabs
 .
 AuthCustomTabActivity
