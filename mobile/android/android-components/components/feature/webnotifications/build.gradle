@@ -197,10 +197,6 @@ androidx_core_ktx
 implementation
 ComponentsDependencies
 .
-kotlin_stdlib
-implementation
-ComponentsDependencies
-.
 kotlin_coroutines
 testImplementation
 project

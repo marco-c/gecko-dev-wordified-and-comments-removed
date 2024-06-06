@@ -943,10 +943,6 @@ google_material
 implementation
 ComponentsDependencies
 .
-kotlin_stdlib
-implementation
-ComponentsDependencies
-.
 androidx_appcompat
 implementation
 ComponentsDependencies

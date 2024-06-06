@@ -153,10 +153,6 @@ base
 implementation
 ComponentsDependencies
 .
-kotlin_stdlib
-implementation
-ComponentsDependencies
-.
 androidx_annotation
 testImplementation
 project

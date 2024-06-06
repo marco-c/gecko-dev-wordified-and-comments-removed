@@ -253,10 +253,6 @@ search
 implementation
 ComponentsDependencies
 .
-kotlin_stdlib
-implementation
-ComponentsDependencies
-.
 google_material
 implementation
 ComponentsDependencies

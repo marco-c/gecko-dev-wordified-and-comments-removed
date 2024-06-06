@@ -151,15 +151,11 @@ ktx
 implementation
 ComponentsDependencies
 .
-kotlin_stdlib
+kotlin_coroutines
 implementation
 ComponentsDependencies
 .
 androidx_annotation
-implementation
-ComponentsDependencies
-.
-kotlin_coroutines
 implementation
 ComponentsDependencies
 .

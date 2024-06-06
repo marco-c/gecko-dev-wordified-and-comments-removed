@@ -160,10 +160,6 @@ fetch
 implementation
 ComponentsDependencies
 .
-kotlin_stdlib
-implementation
-ComponentsDependencies
-.
 testing_mockwebserver
 implementation
 ComponentsDependencies

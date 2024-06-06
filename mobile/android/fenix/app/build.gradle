@@ -5429,10 +5429,6 @@ gecko
 implementation
 FenixDependencies
 .
-kotlin_stdlib
-implementation
-FenixDependencies
-.
 kotlin_coroutines
 implementation
 FenixDependencies

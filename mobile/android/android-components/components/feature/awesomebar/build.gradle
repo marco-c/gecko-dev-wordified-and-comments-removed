@@ -276,10 +276,6 @@ implementation
 ComponentsDependencies
 .
 androidx_core_ktx
-implementation
-ComponentsDependencies
-.
-kotlin_stdlib
 testImplementation
 project
 (

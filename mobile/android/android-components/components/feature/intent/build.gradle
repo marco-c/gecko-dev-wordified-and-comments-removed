@@ -200,10 +200,6 @@ support
 ktx
 '
 )
-implementation
-ComponentsDependencies
-.
-kotlin_stdlib
 testImplementation
 project
 (

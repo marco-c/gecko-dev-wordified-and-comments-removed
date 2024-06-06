@@ -267,10 +267,6 @@ androidx_lifecycle_process
 implementation
 ComponentsDependencies
 .
-kotlin_stdlib
-implementation
-ComponentsDependencies
-.
 kotlin_coroutines
 testImplementation
 project

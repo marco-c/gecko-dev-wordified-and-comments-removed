@@ -140,10 +140,6 @@ concept
 engine
 '
 )
-implementation
-ComponentsDependencies
-.
-kotlin_stdlib
 testImplementation
 project
 (

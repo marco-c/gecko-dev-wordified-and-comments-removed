@@ -237,10 +237,6 @@ implementation
 ComponentsDependencies
 .
 androidx_coordinatorlayout
-implementation
-ComponentsDependencies
-.
-kotlin_stdlib
 testImplementation
 project
 (

@@ -305,11 +305,7 @@ androidx_annotation
 implementation
 ComponentsDependencies
 .
-androidx_core_ktx
-implementation
-ComponentsDependencies
-.
-androidx_palette
+androidx_compose_material
 implementation
 ComponentsDependencies
 .
@@ -317,11 +313,11 @@ androidx_compose_ui
 implementation
 ComponentsDependencies
 .
-androidx_compose_material
+androidx_core_ktx
 implementation
 ComponentsDependencies
 .
-kotlin_stdlib
+androidx_palette
 implementation
 ComponentsDependencies
 .

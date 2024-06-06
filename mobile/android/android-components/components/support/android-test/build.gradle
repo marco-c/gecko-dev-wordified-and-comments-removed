@@ -179,10 +179,6 @@ dependencies
 implementation
 ComponentsDependencies
 .
-kotlin_stdlib
-implementation
-ComponentsDependencies
-.
 androidx_arch_core_common
 implementation
 ComponentsDependencies

@@ -267,10 +267,6 @@ kotlin_coroutines
 implementation
 ComponentsDependencies
 .
-kotlin_stdlib
-implementation
-ComponentsDependencies
-.
 thirdparty_disklrucache
 testImplementation
 project

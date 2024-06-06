@@ -150,10 +150,6 @@ support
 base
 '
 )
-implementation
-ComponentsDependencies
-.
-kotlin_stdlib
 }
 apply
 from

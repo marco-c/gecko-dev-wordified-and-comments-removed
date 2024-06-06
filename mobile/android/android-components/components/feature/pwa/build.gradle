@@ -396,10 +396,6 @@ androidx_lifecycle_runtime
 implementation
 ComponentsDependencies
 .
-kotlin_stdlib
-implementation
-ComponentsDependencies
-.
 kotlin_coroutines
 implementation
 ComponentsDependencies

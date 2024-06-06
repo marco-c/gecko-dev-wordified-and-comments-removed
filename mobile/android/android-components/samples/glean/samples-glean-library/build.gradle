@@ -188,10 +188,6 @@ pro
 dependencies
 {
 implementation
-ComponentsDependencies
-.
-kotlin_stdlib
-implementation
 project
 (
 '

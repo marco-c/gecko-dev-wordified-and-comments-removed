@@ -211,10 +211,6 @@ icons
 implementation
 ComponentsDependencies
 .
-kotlin_stdlib
-implementation
-ComponentsDependencies
-.
 androidx_constraintlayout
 testImplementation
 ComponentsDependencies

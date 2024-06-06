@@ -140,10 +140,6 @@ jexl
 }
 dependencies
 {
-implementation
-ComponentsDependencies
-.
-kotlin_stdlib
 testImplementation
 ComponentsDependencies
 .

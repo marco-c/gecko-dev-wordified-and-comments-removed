@@ -133,10 +133,6 @@ dependencies
 implementation
 ComponentsDependencies
 .
-kotlin_stdlib
-implementation
-ComponentsDependencies
-.
 androidx_annotation
 implementation
 ComponentsDependencies
