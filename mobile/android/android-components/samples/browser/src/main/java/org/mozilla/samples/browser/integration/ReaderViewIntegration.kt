@@ -515,7 +515,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_reader_mode
+mozac_ic_reader_view_24
 return
 ContextCompat
 .
