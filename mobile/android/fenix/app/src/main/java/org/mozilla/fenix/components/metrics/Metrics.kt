@@ -1772,6 +1772,7 @@ Setting
 {
 STRICT
 STANDARD
+CUSTOM
 }
 override
 val

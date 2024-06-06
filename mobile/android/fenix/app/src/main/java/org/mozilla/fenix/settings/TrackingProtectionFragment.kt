@@ -706,9 +706,14 @@ TrackingProtectionMode
 CUSTOM
 -
 >
-null
+Event
+.
+TrackingProtectionSettingChanged
+.
+Setting
+.
+CUSTOM
 }
-?
 .
 let
 {
