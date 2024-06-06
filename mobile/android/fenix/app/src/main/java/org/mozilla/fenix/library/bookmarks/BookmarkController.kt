@@ -574,7 +574,7 @@ item
 url
 !
 !
-true
+false
 BrowserDirection
 .
 FromBookmarks

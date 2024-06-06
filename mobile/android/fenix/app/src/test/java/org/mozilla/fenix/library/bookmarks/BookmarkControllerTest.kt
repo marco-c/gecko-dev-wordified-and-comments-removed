@@ -743,8 +743,8 @@ load
 the
 bookmark
 in
-a
-new
+the
+current
 tab
 (
 )
@@ -798,7 +798,7 @@ item
 url
 !
 !
-true
+false
 BrowserDirection
 .
 FromBookmarks
@@ -1433,7 +1433,7 @@ item
 url
 !
 !
-true
+false
 BrowserDirection
 .
 FromBookmarks
