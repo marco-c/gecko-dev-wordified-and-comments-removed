@@ -461,6 +461,9 @@ display
 mode
 false
 }
+setDefaultIcon
+(
+)
 setOnEditListener
 (
 object
@@ -605,6 +608,13 @@ isInitialized
 =
 true
 }
+}
+private
+fun
+setDefaultIcon
+(
+)
+{
 val
 historySearchIcon
 =
