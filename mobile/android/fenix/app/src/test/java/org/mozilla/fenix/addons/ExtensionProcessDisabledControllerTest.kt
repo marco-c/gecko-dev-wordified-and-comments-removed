@@ -67,12 +67,6 @@ addons
 import
 android
 .
-app
-.
-AlertDialog
-import
-android
-.
 content
 .
 Context
@@ -84,6 +78,14 @@ content
 DialogInterface
 .
 OnClickListener
+import
+androidx
+.
+appcompat
+.
+app
+.
+AlertDialog
 import
 mozilla
 .
