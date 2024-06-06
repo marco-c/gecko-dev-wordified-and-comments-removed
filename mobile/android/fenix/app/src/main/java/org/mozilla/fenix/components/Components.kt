@@ -320,15 +320,6 @@ customTabsStore
 migrationStore
 )
 }
-/
-*
-*
-*
-Add
--
-on
-*
-/
 val
 addonCollectionProvider
 by

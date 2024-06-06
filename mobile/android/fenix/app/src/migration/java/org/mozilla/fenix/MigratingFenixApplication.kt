@@ -198,6 +198,16 @@ components
 core
 .
 engine
+this
+.
+components
+.
+addonCollectionProvider
+this
+.
+components
+.
+addonUpdater
 )
 .
 migrateTelemetryIdentifiers
