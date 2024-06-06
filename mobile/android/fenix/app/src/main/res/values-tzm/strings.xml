@@ -708,6 +708,7 @@ name
 browser_menu_open_in_fenix
 "
 >
+R
 em
 g
 %
@@ -744,6 +745,7 @@ name
 browser_menu_open_app_link
 "
 >
+R
 em
 g
 tsensi
@@ -850,7 +852,7 @@ name
 default_locale_text
 "
 >
-fe
+fer
 tutlay
 n
 wallal
@@ -1177,6 +1179,7 @@ name
 search_widget_content_description
 "
 >
+R
 em
 iccer
 amaynu
@@ -2694,8 +2697,7 @@ name
 history_older
 "
 >
-Iqbu
-en
+Iqburen
 <
 /
 string
@@ -2794,6 +2796,7 @@ name
 download_menu_open
 "
 >
+R
 em
 <
 /
@@ -3524,6 +3527,7 @@ name
 notification_pbm_action_open
 "
 >
+R
 em
 <
 /
@@ -3608,7 +3612,7 @@ Ssureg
 1
 s
 ad
-i
+ir
 em
 %
 2
@@ -3996,6 +4000,7 @@ name
 onboarding_private_browsing_button
 "
 >
+R
 em
 tis
 al
@@ -4244,7 +4249,7 @@ credit_cards_add_card
 "
 >
 Rnu
-taka
+takar
 a
 <
 /
@@ -4308,7 +4313,7 @@ credit_cards_card_number
 U
 un
 n
-tka
+tkar
 a
 <
 /
@@ -4361,6 +4366,12 @@ of
 a
 credit
 card
+to
+be
+used
+by
+a11y
+services
 -
 -
 >
@@ -4396,6 +4407,12 @@ of
 a
 credit
 card
+to
+be
+used
+by
+a11y
+services
 -
 -
 >
@@ -4442,7 +4459,7 @@ credit_cards_name_on_card
 >
 Isem
 g
-tka
+tkar
 a
 <
 /
@@ -4479,7 +4496,7 @@ credit_cards_menu_delete_card
 "
 >
 Kkes
-taka
+takar
 a
 <
 /
@@ -4515,7 +4532,7 @@ credit_cards_delete_card_button
 "
 >
 Kkes
-taka
+takar
 a
 <
 /

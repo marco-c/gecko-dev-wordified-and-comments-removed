@@ -8818,9 +8818,9 @@ name
 preferences_start_on_home
 "
 >
-Byrj
+Start
 p
-startsida
+starskjerm
 <
 /
 string
@@ -24988,6 +24988,12 @@ of
 a
 credit
 card
+to
+be
+used
+by
+a11y
+services
 -
 -
 >
@@ -25025,6 +25031,12 @@ of
 a
 credit
 card
+to
+be
+used
+by
+a11y
+services
 -
 -
 >
