@@ -309,7 +309,7 @@ no_open_tabs_header_2
 edne
 w
 cynjone
-rejtarki
+rejtariki
 <
 /
 string
@@ -338,7 +338,7 @@ Wa
 e
 w
 cynjone
-rejtarki
+rejtariki
 se
 how
 w
@@ -500,7 +500,7 @@ sku
 historjiu
 z
 priwatnych
-rejtarkow
+rejtarikow
 wuproznijo
 ga
 je
@@ -657,7 +657,7 @@ o
 skrotconku
 aby
 priwatne
-rejtarki
+rejtariki
 ze
 sw
 jeje
@@ -760,7 +760,7 @@ home_screen_shortcut_open_new_tab_2
 "
 >
 Nowy
-rejtark
+rejtarik
 <
 /
 string
@@ -789,7 +789,7 @@ home_screen_shortcut_open_new_private_tab_2
 >
 Nowy
 priwatny
-rejtark
+rejtarik
 <
 /
 string
@@ -867,7 +867,7 @@ browser_tabs_button
 >
 W
 cynjone
-rejtarki
+rejtariki
 <
 /
 string
@@ -1458,7 +1458,7 @@ browser_menu_private_tab
 "
 >
 Priwatny
-rejtark
+rejtarik
 <
 /
 string
@@ -1487,7 +1487,7 @@ browser_menu_new_tab
 "
 >
 Nowy
-rejtark
+rejtarik
 <
 /
 string
@@ -3246,7 +3246,7 @@ W
 tkaze
 w
 priwatnem
-rejtarku
+rejtariku
 w
 cyni
 <
@@ -4713,7 +4713,7 @@ fxa_received_tab_channel_name
 "
 >
 Dostane
-rejtarki
+rejtariki
 <
 /
 string
@@ -4759,7 +4759,7 @@ Pow
 e
 ki
 za
-rejtarki
+rejtariki
 su
 se
 dostali
@@ -4800,7 +4800,7 @@ fxa_tab_received_notification_name
 "
 >
 Dostany
-rejtark
+rejtarik
 <
 /
 string
@@ -4827,7 +4827,7 @@ fxa_tabs_received_notification_name
 "
 >
 Dostane
-rejtarki
+rejtariki
 <
 /
 string
@@ -6550,7 +6550,7 @@ tab_header_label
 >
 W
 cynjone
-rejtarki
+rejtariki
 <
 /
 string
@@ -6616,7 +6616,7 @@ tabs_header_private_tabs_title
 "
 >
 Priwatne
-rejtarki
+rejtariki
 <
 /
 string
@@ -6658,7 +6658,7 @@ name
 add_tab
 "
 >
-Rejtark
+Rejtarik
 p
 ida
 <
@@ -6702,7 +6702,7 @@ name
 close_tab
 "
 >
-Rejtark
+Rejtarik
 zacyni
 <
 /
@@ -6747,7 +6747,7 @@ name
 close_tab_title
 "
 >
-Rejtark
+Rejtarik
 %
 s
 zacyni
@@ -6792,7 +6792,7 @@ open_tabs_menu
 Meni
 w
 cynjonych
-rejtarkow
+rejtarikow
 <
 /
 string
@@ -6822,7 +6822,7 @@ tabs_menu_close_all_tabs
 >
 W
 ykne
-rejtarki
+rejtariki
 zacyni
 <
 /
@@ -6851,7 +6851,7 @@ name
 tabs_menu_share_tabs
 "
 >
-Rejtarki
+Rejtariki
 li
 <
 /
@@ -6923,7 +6923,7 @@ name
 tab_menu
 "
 >
-Rejtarkowy
+Rejtarikowy
 meni
 <
 /
@@ -6951,7 +6951,7 @@ name
 tab_share
 "
 >
-Rejtark
+Rejtarik
 li
 <
 /
@@ -7225,7 +7225,7 @@ collection_open_tabs
 >
 W
 cynjone
-rejtarki
+rejtariki
 <
 /
 string
@@ -7259,6 +7259,43 @@ W
 tw
 no
 e
+<
+/
+string
+>
+<
+!
+-
+-
+Postfix
+for
+private
+WebApp
+titles
+placeholder
+is
+replaced
+with
+app
+name
+-
+-
+>
+<
+string
+name
+=
+"
+pwa_site_controls_title_private
+"
+>
+%
+1
+s
+(
+priwatny
+modus
+)
 <
 /
 string
@@ -7537,7 +7574,7 @@ history_menu_open_in_new_tab_button
 >
 W
 nowem
-rejtarku
+rejtariku
 w
 cyni
 <
@@ -7570,7 +7607,7 @@ history_menu_open_in_private_tab_button
 W
 nowem
 priwatnem
-rejtarku
+rejtariku
 w
 cyni
 <
@@ -7957,7 +7994,7 @@ o
 wopyta
 sl
 dujucy
-rejtark
+rejtarik
 w
 tnowi
 abo
@@ -8027,7 +8064,7 @@ name
 tab_crash_close
 "
 >
-Rejtark
+Rejtarik
 zacyni
 <
 /
@@ -8057,7 +8094,7 @@ name
 tab_crash_restore
 "
 >
-Rejtarki
+Rejtariki
 w
 tnowi
 <
@@ -8578,7 +8615,7 @@ bookmark_menu_open_in_new_tab_button
 >
 W
 nowem
-rejtarku
+rejtariku
 w
 cyni
 <
@@ -8611,7 +8648,7 @@ bookmark_menu_open_in_private_tab_button
 W
 nowem
 priwatnem
-rejtarku
+rejtariku
 w
 cyni
 <
@@ -10120,7 +10157,7 @@ aduj
 o
 w
 cynjone
-rejtarki
+rejtariki
 do
 noweje
 zb
@@ -10283,7 +10320,7 @@ name
 create_collection_select_tabs
 "
 >
-Rejtarki
+Rejtariki
 wubra
 <
 /
@@ -10511,7 +10548,7 @@ name
 create_collection_save_to_collection_empty
 "
 >
-Rejtarki
+Rejtariki
 wubra
 k
 tare
@@ -10573,7 +10610,7 @@ create_collection_save_to_collection_tabs_selected
 "
 >
 Wubrane
-rejtarki
+rejtariki
 :
 %
 d
@@ -10631,7 +10668,7 @@ create_collection_save_to_collection_tab_selected
 >
 %
 d
-rejtark
+rejtarik
 wubrany
 <
 /
@@ -10665,7 +10702,7 @@ name
 create_collection_tabs_saved
 "
 >
-Rejtarki
+Rejtariki
 su
 sk
 a
@@ -10703,7 +10740,7 @@ name
 create_collection_tab_saved
 "
 >
-Rejtark
+Rejtarik
 jo
 sk
 a
@@ -11290,7 +11327,7 @@ sync_connect_device_dialog
 "
 >
 Aby
-rejtark
+rejtarik
 p
 s
 a
@@ -11461,7 +11498,7 @@ cej
 w
 s
 anju
-rejtarkow
+rejtarikow
 zg
 ni
 <
@@ -11595,7 +11632,7 @@ notification_pbm_delete_text
 "
 >
 Priwatne
-rejtarki
+rejtariki
 la
 owa
 <
@@ -11638,7 +11675,7 @@ notification_pbm_delete_text_2
 "
 >
 Priwatne
-rejtarki
+rejtariki
 zacyni
 <
 /
@@ -11861,7 +11898,7 @@ name
 snackbar_tab_deleted
 "
 >
-Rejtark
+Rejtarik
 jo
 se
 wula
@@ -11894,7 +11931,7 @@ name
 snackbar_tabs_deleted
 "
 >
-Rejtarki
+Rejtariki
 su
 se
 wula
@@ -11927,7 +11964,7 @@ name
 snackbar_tab_closed
 "
 >
-Rejtark
+Rejtarik
 jo
 se
 zacyni
@@ -11959,7 +11996,7 @@ name
 snackbar_tabs_closed
 "
 >
-Rejtarki
+Rejtariki
 su
 se
 zacynili
@@ -12030,7 +12067,7 @@ snackbar_private_tab_closed
 "
 >
 Priwatny
-rejtark
+rejtarik
 jo
 se
 zacyni
@@ -12064,7 +12101,7 @@ snackbar_private_tabs_closed
 "
 >
 Priwatne
-rejtarki
+rejtariki
 su
 se
 zacynili
@@ -12098,7 +12135,7 @@ snackbar_private_tabs_deleted
 "
 >
 Priwatne
-rejtarki
+rejtariki
 su
 se
 wula
@@ -12817,7 +12854,7 @@ preferences_delete_browsing_data_tabs_title
 >
 W
 cynjone
-rejtarki
+rejtariki
 <
 /
 string
@@ -12856,7 +12893,7 @@ name
 preferences_delete_browsing_data_tabs_subtitle
 "
 >
-Rejtarki
+Rejtariki
 :
 %
 d
@@ -15242,7 +15279,7 @@ W
 cy
 o
 priwatny
-rejtark
+rejtarik
 jaden
 raz
 :
@@ -15291,7 +15328,7 @@ W
 cy
 o
 priwatne
-rejtarki
+rejtariki
 ku
 dy
 raz
@@ -15768,7 +15805,7 @@ name
 sync_sent_tabs_snackbar
 "
 >
-Rejtarki
+Rejtariki
 su
 se
 p
@@ -15806,7 +15843,7 @@ name
 sync_sent_tab_snackbar
 "
 >
-Rejtark
+Rejtarik
 jo
 se
 p
@@ -17365,7 +17402,7 @@ preference_enhanced_tracking_protection_custom_tracking_content_1
 We
 w
 yknych
-rejtarkach
+rejtarikach
 <
 /
 string
@@ -17401,7 +17438,7 @@ preference_enhanced_tracking_protection_custom_tracking_content_2
 Jano
 w
 priwatnych
-rejtarkach
+rejtarikach
 <
 /
 string
@@ -17438,7 +17475,7 @@ Jano
 w
 sw
 jskich
-rejtarkach
+rejtarikach
 <
 /
 string
@@ -18690,7 +18727,7 @@ tab_counter_content_description_one_tab
 "
 >
 1
-rejtark
+rejtarik
 <
 /
 string
@@ -18740,7 +18777,7 @@ name
 tab_counter_content_description_multi_tab
 "
 >
-Rejtarki
+Rejtariki
 :
 %
 d
