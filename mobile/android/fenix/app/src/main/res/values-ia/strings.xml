@@ -646,9 +646,11 @@ tab_tray_collection_button_multiselect_content_description
 "
 >
 Salvar
+le
 schedas
-eligite
-al
+seligite
+in
+un
 collection
 <
 /
@@ -9815,8 +9817,9 @@ tab_tray_multiselect_share_content_description
 "
 >
 Compartir
+le
 schedas
-eligite
+seligite
 <
 /
 string
@@ -9844,9 +9847,9 @@ tab_tray_multiselect_menu_content_description
 "
 >
 Menu
-del
+de
 schedas
-eligite
+seligite
 <
 /
 string
@@ -14404,7 +14407,7 @@ create_collection_save_to_collection_tabs_selected
 %
 d
 schedas
-eligite
+seligite
 <
 /
 string
