@@ -825,7 +825,7 @@ addLinks
 textView
 Linkify
 .
-ALL
+WEB_URLS
 )
 textView
 .
