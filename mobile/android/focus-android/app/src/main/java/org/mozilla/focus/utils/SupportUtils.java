@@ -142,6 +142,14 @@ domain
 android
 "
 )
+USAGE_DATA
+(
+"
+usage
+-
+data
+"
+)
 WHATS_NEW
 (
 "
