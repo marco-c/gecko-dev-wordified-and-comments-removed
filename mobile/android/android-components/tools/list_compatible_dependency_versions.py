@@ -266,14 +266,15 @@ mcomella
 .
 format
 (
+    
 script_name
 =
 SCRIPT_NAME
 )
 INDENT
 =
-'
-'
+"
+"
 INDENT2
 =
 INDENT
@@ -369,31 +370,34 @@ pom
 "
 VERSION_MIN_AC_NIGHTLY
 =
-'
+"
 59
 .
 0
 .
 20200914093656
-'
+"
 VERSION_MIN_AC_NIGHTLY_BUGFIX
 =
 VERSION_MIN_AC_NIGHTLY
 .
 split
 (
-'
+"
 .
-'
+"
 )
 [
 2
 ]
 VERSION_MIN_GV_NIGHTLY_MAJOR
 =
-'
+(
+    
+"
 71
-'
+"
+)
 PATH_AC_ROOT
 =
 os
@@ -403,10 +407,10 @@ path
 join
 (
 SCRIPT_DIR
-'
+"
 .
 .
-'
+"
 )
 PATH_AC_VERSION
 =
@@ -416,23 +420,24 @@ path
 .
 join
 (
-'
+    
+"
 buildSrc
-'
-'
+"
+"
 src
-'
-'
+"
+"
 main
-'
-'
+"
+"
 java
-'
-'
+"
+"
 AndroidComponents
 .
 kt
-'
+"
 )
 PATH_GV_VERSION
 =
@@ -442,26 +447,27 @@ path
 .
 join
 (
-'
+    
+"
 plugins
-'
-'
+"
+"
 dependencies
-'
-'
+"
+"
 src
-'
-'
+"
+"
 main
-'
-'
+"
+"
 java
-'
-'
+"
+"
 Gecko
 .
 kt
-'
+"
 )
 def
 print_usage
@@ -499,20 +505,20 @@ maybe_display_usage
 :
     
 if
-'
+"
 -
 -
 help
-'
+"
 in
 sys
 .
 argv
 or
-'
+"
 -
 h
-'
+"
 in
 sys
 .
@@ -546,7 +552,8 @@ argv
 raise
 Exception
 (
-'
+            
+"
 expected
 one
 argument
@@ -569,7 +576,8 @@ See
 usage
 above
 .
-'
+"
+        
 )
     
 if
@@ -581,13 +589,13 @@ argv
 ]
 =
 =
-'
+"
 -
 -
 no
 -
 fenix
-'
+"
 :
         
 return
@@ -688,7 +696,7 @@ e
 raise
 Exception
 (
-'
+"
 unable
 to
 fetch
@@ -699,7 +707,7 @@ from
 .
 \
 n
-'
+"
 +
 INDENT
 +
@@ -737,10 +745,10 @@ pom_str
 split
 (
 b
-'
+"
 \
 n
-'
+"
 )
 :
         
@@ -759,11 +767,11 @@ stripped
 startswith
 (
 b
-'
+"
 <
 tag
 >
-'
+"
 )
 :
             
@@ -776,12 +784,12 @@ stripped
 find
 (
 b
-'
+"
 <
 /
 tag
 >
-'
+"
 )
         
 mc_hash
@@ -801,7 +809,8 @@ mc_hash
 raise
 Exception
 (
-'
+            
+"
 mc
 hash
 could
@@ -818,14 +827,17 @@ from
 .
 \
 n
-'
+"
+            
 +
 INDENT
+            
 +
 str
 (
 debug_pom_url
 )
+        
 )
     
 return
@@ -843,9 +855,9 @@ ac_version
 .
 split
 (
-'
+"
 .
-'
+"
 )
 [
 2
@@ -853,12 +865,16 @@ split
     
 is_nightly_url
 =
+(
+        
 len
 (
 bugfix_version
 )
 >
 4
+    
+)
     
 if
 not
@@ -868,7 +884,8 @@ is_nightly_url
 raise
 NotImplementedError
 (
-'
+            
+"
 AC
 release
 versions
@@ -889,12 +906,15 @@ version
 {
 }
 .
-'
+"
 .
 format
 (
+                
 ac_version
+            
 )
+        
 )
     
 if
@@ -912,7 +932,8 @@ VERSION_MIN_AC_NIGHTLY_BUGFIX
 raise
 Exception
 (
-'
+            
+"
 Found
 AC
 nightly
@@ -942,13 +963,16 @@ of
 fenix
 )
 .
-'
+"
 .
 format
 (
+                
 ac_version
 VERSION_MIN_AC_NIGHTLY
+            
 )
+        
 )
 def
 fenix_checkout_to_ac_version
@@ -1019,6 +1043,7 @@ stripped
 raise
 Exception
 (
+        
 '
 Unable
 to
@@ -1052,8 +1077,11 @@ changed
 .
 format
 (
+            
 ac_version_path
+        
 )
+    
 )
 def
 fenix_checkout_to_ac_hash
@@ -1117,9 +1145,9 @@ version
 .
 split
 (
-'
+"
 .
-'
+"
 )
 [
 0
@@ -1140,7 +1168,8 @@ VERSION_MIN_GV_NIGHTLY_MAJOR
 raise
 Exception
 (
-'
+            
+"
 Found
 GV
 nightly
@@ -1171,13 +1200,16 @@ of
 ac
 )
 .
-'
+"
 .
 format
 (
+                
 version
 VERSION_MIN_GV_NIGHTLY_MAJOR
+            
 )
+        
 )
 def
 gv_nightly_version_to_mc_hash
@@ -1287,6 +1319,7 @@ version
 raise
 Exception
 (
+                
 '
 Unable
 to
@@ -1320,8 +1353,11 @@ changed
 .
 format
 (
+                    
 gv_version_path
+                
 )
+            
 )
     
 return
@@ -1365,7 +1401,7 @@ is_no_fenix_passed
     
 header
 =
-'
+"
 Building
 fenix
 with
@@ -1373,7 +1409,7 @@ a
 local
 ac
 ?
-'
+"
     
 if
 is_no_fenix_passed
@@ -1413,9 +1449,11 @@ header
         
 print
 (
+            
 INDENT
+            
 +
-'
+"
 The
 last
 known
@@ -1433,7 +1471,8 @@ is
 .
 .
 .
-'
+"
+        
 )
         
 print
@@ -1447,7 +1486,7 @@ print
 (
 INDENT
 +
-'
+"
 To
 build
 with
@@ -1459,7 +1498,7 @@ commit
 .
 .
 .
-'
+"
 )
         
 print
@@ -1470,11 +1509,11 @@ ac_hash
 .
 decode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
 )
     
@@ -1482,8 +1521,13 @@ print
 (
 )
     
+(
+        
 mc_hash
+        
 nightlyv
+    
+)
 =
 ac_checkout_to_mc_hash
 (
@@ -1492,7 +1536,7 @@ PATH_AC_ROOT
     
 print
 (
-'
+"
 Building
 ac
 with
@@ -1500,14 +1544,16 @@ a
 local
 GeckoView
 ?
-'
+"
 )
     
 print
 (
+        
 INDENT
+        
 +
-'
+"
 The
 last
 known
@@ -1525,7 +1571,8 @@ is
 .
 .
 .
-'
+"
+    
 )
     
 print
@@ -1539,7 +1586,7 @@ print
 (
 INDENT
 +
-'
+"
 To
 build
 with
@@ -1553,7 +1600,7 @@ commit
 .
 .
 .
-'
+"
 )
     
 print
@@ -1564,11 +1611,11 @@ mc_hash
 .
 decode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
 )
     
@@ -1578,7 +1625,7 @@ print
     
 print
 (
-'
+"
 Building
 fenix
 with
@@ -1586,14 +1633,14 @@ a
 local
 GeckoView
 ?
-'
+"
 )
     
 print
 (
 INDENT
 +
-'
+"
 To
 ensure
 a
@@ -1606,14 +1653,14 @@ the
 suggested
 ac
 commit
-'
+"
 )
     
 print
 (
 INDENT
 +
-'
+"
 2
 )
 re
@@ -1631,7 +1678,7 @@ m
 -
 c
 commit
-'
+"
 )
     
 print
@@ -1640,7 +1687,7 @@ print
     
 print
 (
-'
+"
 Building
 fenix
 with
@@ -1653,14 +1700,14 @@ a
 local
 GeckoView
 ?
-'
+"
 )
     
 print
 (
 INDENT
 +
-'
+"
 This
 functionality
 is
@@ -1669,14 +1716,14 @@ broken
 .
 See
 :
-'
+"
 )
     
 print
 (
 INDENT
 +
-'
+"
 https
 :
 /
@@ -1696,7 +1743,7 @@ components
 issues
 /
 8386
-'
+"
 )
 def
 main
@@ -1724,9 +1771,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 try
@@ -1748,7 +1795,7 @@ print_usage
         
 print
 (
-'
+"
 \
 n
 -
@@ -1756,7 +1803,7 @@ n
 -
 \
 n
-'
+"
 )
         
 raise

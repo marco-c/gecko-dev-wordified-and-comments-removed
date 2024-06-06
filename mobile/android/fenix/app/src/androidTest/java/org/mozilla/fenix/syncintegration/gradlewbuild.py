@@ -43,11 +43,11 @@ object
     
 binary
 =
-'
+"
 .
 /
 gradlew
-'
+"
     
 logger
 =
@@ -97,7 +97,7 @@ os
 .
 chdir
 (
-'
+"
 .
 .
 /
@@ -121,18 +121,21 @@ chdir
 /
 .
 .
-'
+"
 )
         
 cmd
 =
-'
+(
+            
+"
 .
 /
 gradlew
-'
+"
+            
 +
-'
+"
 app
 :
 connectedDebugAndroidTest
@@ -155,11 +158,15 @@ SyncIntegrationTest
 #
 {
 }
-'
+"
 .
 format
 (
+                
 identifier
+            
+)
+        
 )
         
 self
@@ -168,13 +175,13 @@ logger
 .
 info
 (
-'
+"
 Running
 cmd
 :
 {
 }
-'
+"
 .
 format
 (
@@ -196,13 +203,10 @@ subprocess
 .
 check_output
 (
-                
 cmd
-                
 shell
 =
 True
-                
 stderr
 =
 subprocess
@@ -263,9 +267,9 @@ open
 self
 .
 log
-'
+"
 w
-'
+"
 )
 as
 f

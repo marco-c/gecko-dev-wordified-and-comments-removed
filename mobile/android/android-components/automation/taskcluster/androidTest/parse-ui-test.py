@@ -419,6 +419,7 @@ items
         
 print
 (
+            
 "
 |
 {
@@ -453,10 +454,13 @@ n
 .
 format
 (
+                
 *
 *
 matrix_result
+            
 )
+        
 )
     
 print
@@ -484,6 +488,7 @@ n
     
 print
 (
+        
 "
 *
 [
@@ -524,10 +529,12 @@ md
 \
 n
 "
+    
 )
     
 print
 (
+        
 "
 *
 Mobile
@@ -601,6 +608,7 @@ C0134KJ4JHL
 \
 n
 "
+    
 )
 if
 __name__

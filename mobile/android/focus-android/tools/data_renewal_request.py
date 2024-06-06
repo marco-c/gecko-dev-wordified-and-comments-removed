@@ -63,6 +63,7 @@ argv
 1
 ]
 except
+Exception
 :
     
 print
