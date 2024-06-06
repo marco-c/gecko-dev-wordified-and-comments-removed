@@ -1273,7 +1273,7 @@ name
 migration_margin_horizontal_large
 "
 >
-24dp
+20dp
 <
 /
 dimen
@@ -1309,7 +1309,7 @@ dimen
 name
 =
 "
-migration_description_text_size
+migration_default_text_size
 "
 >
 16sp
@@ -1326,6 +1326,19 @@ migration_welcome_title_text_size
 "
 >
 20sp
+<
+/
+dimen
+>
+<
+dimen
+name
+=
+"
+migration_button_text_size
+"
+>
+14sp
 <
 /
 dimen
