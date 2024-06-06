@@ -749,7 +749,7 @@ Email
 link
 "
 )
-clickOpenInAppPromptButton
+confirmOpenLinkInAnotherApp
 (
 )
 assertNativeAppOpens
@@ -796,7 +796,7 @@ Telephone
 link
 "
 )
-clickOpenInAppPromptButton
+confirmOpenLinkInAnotherApp
 (
 )
 assertNativeAppOpens

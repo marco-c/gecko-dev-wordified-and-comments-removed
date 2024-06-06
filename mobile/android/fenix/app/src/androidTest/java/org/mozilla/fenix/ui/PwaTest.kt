@@ -494,7 +494,7 @@ Telephone
 link
 "
 )
-clickOpenInAppPromptButton
+confirmOpenLinkInAnotherApp
 (
 )
 assertNativeAppOpens
