@@ -487,7 +487,7 @@ iconGradientEnd
 PhotonColors
 .
 Blue20
-borderDefault
+borderPrimary
 =
 PhotonColors
 .
@@ -764,7 +764,7 @@ iconGradientEnd
 PhotonColors
 .
 Blue60
-borderDefault
+borderPrimary
 =
 PhotonColors
 .
@@ -971,7 +971,7 @@ Color
 iconGradientEnd
 :
 Color
-borderDefault
+borderPrimary
 :
 Color
 borderInverted
@@ -1656,11 +1656,11 @@ Default
 Divider
 Dotted
 var
-borderDefault
+borderPrimary
 by
 mutableStateOf
 (
-borderDefault
+borderPrimary
 )
 private
 set
@@ -1983,11 +1983,11 @@ iconGradientEnd
 other
 .
 iconGradientEnd
-borderDefault
+borderPrimary
 =
 other
 .
-borderDefault
+borderPrimary
 borderInverted
 =
 other
@@ -2167,9 +2167,9 @@ iconGradientStart
 iconGradientEnd
 =
 iconGradientEnd
-borderDefault
+borderPrimary
 =
-borderDefault
+borderPrimary
 borderInverted
 =
 borderInverted

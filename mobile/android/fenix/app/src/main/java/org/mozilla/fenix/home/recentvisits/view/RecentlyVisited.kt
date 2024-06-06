@@ -1907,7 +1907,7 @@ FirefoxTheme
 .
 colors
 .
-borderDefault
+borderPrimary
 thickness
 =
 0

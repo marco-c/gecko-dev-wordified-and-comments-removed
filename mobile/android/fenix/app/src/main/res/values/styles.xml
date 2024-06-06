@@ -1321,7 +1321,7 @@ mozac_widget_favicon_border_color
 >
 color
 /
-fx_mobile_border_color_default
+fx_mobile_border_color_primary
 <
 /
 item

@@ -318,7 +318,7 @@ strokeColor
 "
 color
 /
-fx_mobile_border_color_default
+fx_mobile_border_color_primary
 "
 app
 :
@@ -710,7 +710,7 @@ background
 "
 color
 /
-fx_mobile_border_color_default
+fx_mobile_border_color_primary
 "
 app
 :
