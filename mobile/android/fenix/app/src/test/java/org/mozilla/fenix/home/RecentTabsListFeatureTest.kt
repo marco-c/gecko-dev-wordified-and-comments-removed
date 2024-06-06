@@ -1321,7 +1321,7 @@ waitUntilIdle
 )
 assertEquals
 (
-1
+2
 homeStore
 .
 state
