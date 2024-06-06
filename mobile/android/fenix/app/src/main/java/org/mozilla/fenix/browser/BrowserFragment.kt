@@ -620,7 +620,7 @@ R
 .
 drawable
 .
-ic_home
+mozac_ic_home
 )
 !
 !
