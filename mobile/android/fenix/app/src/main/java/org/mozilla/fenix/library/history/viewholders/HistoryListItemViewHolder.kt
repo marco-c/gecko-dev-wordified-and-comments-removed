@@ -535,7 +535,7 @@ R
 .
 string
 .
-history_search_group_site
+history_search_group_site_1
 }
 else
 {
@@ -543,7 +543,7 @@ R
 .
 string
 .
-history_search_group_sites
+history_search_group_sites_1
 }
 String
 .
