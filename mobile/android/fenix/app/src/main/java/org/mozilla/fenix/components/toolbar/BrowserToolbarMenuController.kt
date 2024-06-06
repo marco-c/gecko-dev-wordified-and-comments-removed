@@ -2166,6 +2166,14 @@ SetDefaultBrowser
 -
 >
 {
+metrics
+.
+track
+(
+Event
+.
+SetDefaultBrowserToolbarMenuClicked
+)
 activity
 .
 openSetDefaultBrowserOption

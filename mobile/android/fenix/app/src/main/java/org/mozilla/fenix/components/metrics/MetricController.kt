@@ -1184,6 +1184,11 @@ Event
 .
 CustomTabsMenuOpened
 }
+?
+:
+Event
+.
+ToolbarMenuShown
 }
 Component
 .
