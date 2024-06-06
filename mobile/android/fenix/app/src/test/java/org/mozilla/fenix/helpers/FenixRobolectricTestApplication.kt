@@ -65,6 +65,12 @@ fenix
 .
 helpers
 import
+kotlinx
+.
+coroutines
+.
+ExperimentalCoroutinesApi
+import
 org
 .
 mozilla
@@ -157,6 +163,7 @@ setupInAllProcesses
 )
 =
 Unit
+ExperimentalCoroutinesApi
 override
 fun
 setupInMainProcessOnly
