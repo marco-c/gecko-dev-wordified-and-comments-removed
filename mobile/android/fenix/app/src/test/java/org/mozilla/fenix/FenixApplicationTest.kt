@@ -1111,7 +1111,7 @@ every
 {
 settings
 .
-showTopFrecentSites
+showTopSitesFeature
 }
 returns
 true

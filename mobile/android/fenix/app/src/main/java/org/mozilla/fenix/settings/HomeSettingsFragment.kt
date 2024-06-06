@@ -256,7 +256,7 @@ R
 .
 string
 .
-pref_key_enable_top_frecent_sites
+pref_key_show_top_sites
 )
 .
 apply
@@ -269,7 +269,7 @@ settings
 (
 )
 .
-showTopFrecentSites
+showTopSitesFeature
 onPreferenceChangeListener
 =
 CustomizeHomeMetricsUpdater
