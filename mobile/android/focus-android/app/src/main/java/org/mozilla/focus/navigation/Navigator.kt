@@ -410,6 +410,17 @@ screen
 .
 sitePermission
 )
+is
+Screen
+.
+OnboardingSecondScreen
+-
+>
+navigation
+.
+showOnBoardingSecondScreen
+(
+)
 }
 }
 }

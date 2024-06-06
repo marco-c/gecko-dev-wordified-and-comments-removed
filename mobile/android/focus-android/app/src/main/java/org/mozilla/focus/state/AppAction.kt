@@ -390,6 +390,13 @@ ShowFirstRun
 AppAction
 (
 )
+internal
+object
+ShowOnboardingSecondScreen
+:
+AppAction
+(
+)
 /
 *
 *

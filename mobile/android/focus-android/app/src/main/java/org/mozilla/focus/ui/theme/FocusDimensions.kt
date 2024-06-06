@@ -104,7 +104,11 @@ onboardingTitle
 :
 TextUnit
 val
-onboardingDescription
+onboardingSubtitleOne
+:
+TextUnit
+val
+onboardingSubtitleTwo
 :
 TextUnit
 val

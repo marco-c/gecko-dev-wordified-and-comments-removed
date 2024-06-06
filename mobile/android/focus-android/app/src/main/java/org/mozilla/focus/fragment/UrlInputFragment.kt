@@ -1859,8 +1859,6 @@ requireContext
 settings
 .
 isFirstRun
-(
-)
 )
 return
 onStart
