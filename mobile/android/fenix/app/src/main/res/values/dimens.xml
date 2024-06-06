@@ -141,7 +141,7 @@ name
 mozac_browser_menu_corner_radius
 "
 >
-14dp
+8dp
 <
 /
 dimen
@@ -486,7 +486,7 @@ name
 bottom_sheet_corner_radius
 "
 >
-16dp
+8dp
 <
 /
 dimen
