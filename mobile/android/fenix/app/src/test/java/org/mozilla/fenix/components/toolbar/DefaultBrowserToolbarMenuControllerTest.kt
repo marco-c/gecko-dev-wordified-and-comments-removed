@@ -3432,7 +3432,7 @@ returns
 "
 Added
 to
-shorcuts
+shortcuts
 !
 "
 val
@@ -3538,7 +3538,7 @@ setText
 "
 Added
 to
-shorcuts
+shortcuts
 !
 "
 )
