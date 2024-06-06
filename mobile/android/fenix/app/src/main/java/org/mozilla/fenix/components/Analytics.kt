@@ -552,7 +552,7 @@ AdjustMetricsService
 context
 )
 )
-isTelemetryEnabled
+isDataTelemetryEnabled
 =
 {
 context
@@ -562,6 +562,17 @@ settings
 )
 .
 isTelemetryEnabled
+}
+isMarketingDataTelemetryEnabled
+=
+{
+context
+.
+settings
+(
+)
+.
+isMarketingTelemetryEnabled
 }
 )
 }

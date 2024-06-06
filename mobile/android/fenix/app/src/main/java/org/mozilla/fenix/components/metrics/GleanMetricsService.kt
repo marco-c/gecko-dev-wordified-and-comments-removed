@@ -3698,6 +3698,13 @@ Context
 :
 MetricsService
 {
+override
+val
+type
+=
+MetricServiceType
+.
+Data
 private
 val
 logger
