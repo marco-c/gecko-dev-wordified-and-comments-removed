@@ -501,6 +501,12 @@ CustomTabsMenuOpened
 Event
 (
 )
+object
+UriOpened
+:
+Event
+(
+)
 /
 /
 Interaction
