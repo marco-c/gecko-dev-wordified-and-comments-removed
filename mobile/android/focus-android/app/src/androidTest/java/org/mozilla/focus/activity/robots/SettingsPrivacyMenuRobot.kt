@@ -1129,6 +1129,16 @@ click
 (
 )
 fun
+clickBlockThirdPartyCookiesOnly
+(
+)
+=
+block3rdPartyCookiesOnlyOption
+.
+click
+(
+)
+fun
 switchSafeBrowsingToggle
 (
 )
@@ -2927,7 +2937,7 @@ R
 .
 string
 .
-preference_privacy_should_block_cookies_yes_option2
+preference_privacy_should_block_cookies_third_party_only_option
 )
 )
 )
