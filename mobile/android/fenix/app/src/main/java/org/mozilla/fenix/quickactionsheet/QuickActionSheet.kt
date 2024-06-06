@@ -235,7 +235,7 @@ quickActionSheetBehavior
 bounceSheet
 (
 quickActionSheetBehavior
-600L
+500L
 )
 }
 private
@@ -272,7 +272,7 @@ toFloat
 )
 normalPeekHeight
 *
-6f
+5f
 )
 valueAnimator
 .
