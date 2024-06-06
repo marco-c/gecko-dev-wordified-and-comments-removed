@@ -680,6 +680,12 @@ registerSessionObserver
 (
 )
 {
+Suppress
+(
+"
+DEPRECATION
+"
+)
 components
 .
 sessionManager

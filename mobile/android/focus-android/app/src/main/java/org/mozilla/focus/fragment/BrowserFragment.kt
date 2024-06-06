@@ -2391,6 +2391,12 @@ Bundle
 ?
 )
 {
+Suppress
+(
+"
+DEPRECATION
+"
+)
 session
 .
 register
@@ -2561,6 +2567,12 @@ sessionManager
 requireComponents
 .
 sessionManager
+Suppress
+(
+"
+DEPRECATION
+"
+)
 sessionManager
 .
 register

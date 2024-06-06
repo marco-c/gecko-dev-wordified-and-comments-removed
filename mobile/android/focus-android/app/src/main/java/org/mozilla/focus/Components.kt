@@ -305,6 +305,12 @@ store
 .
 apply
 {
+Suppress
+(
+"
+DEPRECATION
+"
+)
 register
 (
 SessionSetupObserver

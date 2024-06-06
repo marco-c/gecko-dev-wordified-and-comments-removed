@@ -166,6 +166,12 @@ String
 ?
 =
 null
+Suppress
+(
+"
+DEPRECATION
+"
+)
 session
 .
 register

@@ -311,6 +311,12 @@ sessionManager
 .
 sessions
 )
+Suppress
+(
+"
+DEPRECATION
+"
+)
 sessionManager
 .
 register
