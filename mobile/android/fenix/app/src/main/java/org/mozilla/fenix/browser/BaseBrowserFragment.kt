@@ -1487,11 +1487,6 @@ action
 Intent
 .
 ACTION_VIEW
-flags
-=
-Intent
-.
-FLAG_ACTIVITY_NEW_TASK
 }
 bookmarkTapped
 =
