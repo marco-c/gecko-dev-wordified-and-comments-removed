@@ -184,7 +184,7 @@ src
 "
 drawable
 /
-ic_forward
+mozac_ic_forward
 "
 /
 >
@@ -249,7 +249,7 @@ src
 "
 drawable
 /
-ic_refresh
+mozac_ic_refresh
 "
 /
 >
@@ -293,7 +293,7 @@ src
 "
 drawable
 /
-ic_stop
+mozac_ic_stop
 "
 android
 :

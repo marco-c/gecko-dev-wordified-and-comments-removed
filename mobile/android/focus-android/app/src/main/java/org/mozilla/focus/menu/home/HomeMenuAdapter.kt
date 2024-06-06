@@ -495,7 +495,7 @@ R
 .
 drawable
 .
-ic_help
+mozac_ic_help
 }
 else
 {
@@ -503,7 +503,7 @@ R
 .
 drawable
 .
-ic_settings2
+mozac_ic_settings
 }
 containerView
 .

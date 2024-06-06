@@ -433,7 +433,7 @@ R
 .
 drawable
 .
-ic_search
+mozac_ic_search
 shape
 SEARCH_ICON_FRAME
 )

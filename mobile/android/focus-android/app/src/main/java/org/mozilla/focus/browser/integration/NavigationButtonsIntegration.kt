@@ -275,7 +275,7 @@ R
 .
 drawable
 .
-ic_back
+mozac_ic_back
 )
 !
 !
@@ -351,7 +351,7 @@ R
 .
 drawable
 .
-ic_forward
+mozac_ic_forward
 )
 !
 !
@@ -427,7 +427,7 @@ R
 .
 drawable
 .
-ic_refresh
+mozac_ic_refresh
 )
 !
 !
@@ -442,7 +442,7 @@ R
 .
 drawable
 .
-ic_stop
+mozac_ic_stop
 )
 !
 !

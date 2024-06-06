@@ -357,7 +357,7 @@ R
 .
 drawable
 .
-ic_back
+mozac_ic_back
 primaryContentDescription
 =
 context
@@ -455,7 +455,7 @@ R
 .
 drawable
 .
-ic_forward
+mozac_ic_forward
 primaryContentDescription
 =
 context
@@ -553,7 +553,7 @@ R
 .
 drawable
 .
-ic_refresh
+mozac_ic_refresh
 primaryContentDescription
 =
 context
@@ -600,7 +600,7 @@ R
 .
 drawable
 .
-ic_stop
+mozac_ic_stop
 secondaryContentDescription
 =
 context
@@ -698,7 +698,7 @@ R
 .
 drawable
 .
-ic_share2
+mozac_ic_share
 contentDescription
 =
 context
@@ -893,7 +893,7 @@ R
 .
 drawable
 .
-ic_search
+mozac_ic_search
 )
 {
 onItemTapped
@@ -918,7 +918,7 @@ R
 .
 drawable
 .
-ic_device_desktop
+mozac_ic_device_desktop
 label
 =
 context
@@ -1012,7 +1012,7 @@ R
 .
 drawable
 .
-ic_add_to_home_screen
+mozac_ic_add_to_home_screen
 )
 {
 onItemTapped
@@ -1049,7 +1049,7 @@ R
 .
 drawable
 .
-ic_open_in
+mozac_ic_open_in
 textColorResource
 =
 context
@@ -1100,7 +1100,7 @@ R
 .
 drawable
 .
-ic_settings2
+mozac_ic_settings
 textColorResource
 =
 context
