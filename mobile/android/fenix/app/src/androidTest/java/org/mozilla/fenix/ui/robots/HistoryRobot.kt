@@ -331,9 +331,7 @@ By
 text
 (
 "
-Last
-24
-hours
+Today
 "
 )
 )
@@ -892,9 +890,7 @@ matches
 withText
 (
 "
-Last
-24
-hours
+Today
 "
 )
 )
