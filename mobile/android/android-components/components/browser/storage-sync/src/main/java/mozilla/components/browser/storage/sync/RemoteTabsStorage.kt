@@ -183,7 +183,7 @@ appservices
 .
 remotetabs
 .
-InternalException
+TabsApiException
 as
 RemoteTabProviderException
 import
