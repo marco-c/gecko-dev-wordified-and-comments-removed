@@ -63,7 +63,7 @@ mozilla
 .
 fenix
 .
-lib
+utils
 object
 Do
 {

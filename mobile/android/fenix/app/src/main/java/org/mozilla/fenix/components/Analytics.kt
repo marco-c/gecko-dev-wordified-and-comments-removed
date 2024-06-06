@@ -235,7 +235,7 @@ mozilla
 .
 fenix
 .
-test
+utils
 .
 Mockable
 import

@@ -129,7 +129,7 @@ mozilla
 .
 fenix
 .
-lib
+utils
 .
 Do
 /

@@ -63,7 +63,13 @@ mozilla
 .
 fenix
 .
-test
+utils
+/
+/
+Annotations
+for
+testing
+.
 /
 *
 *

@@ -405,7 +405,7 @@ mozilla
 .
 fenix
 .
-lib
+utils
 .
 Do
 import
