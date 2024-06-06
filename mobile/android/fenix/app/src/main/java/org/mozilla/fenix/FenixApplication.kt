@@ -4935,6 +4935,11 @@ settings
 .
 adjustNetwork
 )
+settings
+.
+migrateSearchWidgetInstalledPrefIfNeeded
+(
+)
 searchWidgetInstalled
 .
 set
