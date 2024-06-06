@@ -294,6 +294,10 @@ sandbox
 BrokerServices
 *
 aBrokerServices
+const
+nsAString
+&
+aBinDir
 )
 ;
 static
@@ -433,14 +437,6 @@ const
 file
 )
 override
-;
-static
-bool
-AddTargetPeer
-(
-HANDLE
-aPeerProcess
-)
 ;
 void
 AddHandleToShare
