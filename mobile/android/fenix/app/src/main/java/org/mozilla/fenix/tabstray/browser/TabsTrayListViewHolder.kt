@@ -64,6 +64,8 @@ mozilla
 fenix
 .
 tabstray
+.
+browser
 import
 android
 .
@@ -119,9 +121,7 @@ fenix
 .
 tabstray
 .
-browser
-.
-BrowserTrayInteractor
+TabsTrayViewHolder
 import
 kotlin
 .
