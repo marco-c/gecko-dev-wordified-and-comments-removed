@@ -5022,8 +5022,9 @@ name
 destructive_button_text_color
 "
 >
-#
-C50042
+color
+/
+destructive_normal_theme
 <
 /
 color
