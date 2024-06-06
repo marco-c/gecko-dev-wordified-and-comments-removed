@@ -2112,7 +2112,7 @@ R
 .
 attr
 .
-contrastText
+textOnColorPrimary
 requireContext
 (
 )

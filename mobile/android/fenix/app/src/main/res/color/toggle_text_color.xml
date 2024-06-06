@@ -110,7 +110,9 @@ color
 =
 "
 ?
-contrastText
+attr
+/
+textOnColorPrimary
 "
 android
 :

@@ -4362,7 +4362,7 @@ R
 .
 attr
 .
-contrastText
+textOnColorPrimary
 else
 R
 .

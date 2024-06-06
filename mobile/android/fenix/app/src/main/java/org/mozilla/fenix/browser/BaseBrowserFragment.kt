@@ -3148,7 +3148,7 @@ R
 .
 attr
 .
-contrastText
+textOnColorPrimary
 context
 )
 positiveButtonRadius

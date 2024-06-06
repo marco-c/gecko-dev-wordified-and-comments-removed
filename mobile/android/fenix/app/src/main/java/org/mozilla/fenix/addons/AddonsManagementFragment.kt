@@ -1292,7 +1292,7 @@ R
 .
 attr
 .
-contrastText
+textOnColorPrimary
 requireContext
 (
 )
@@ -1537,7 +1537,7 @@ R
 .
 attr
 .
-contrastText
+textOnColorPrimary
 requireContext
 (
 )
