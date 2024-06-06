@@ -78,6 +78,8 @@ bind
 BrowserMenuAdapter
 .
 MenuItem
+.
+Default
 menuItem
 )
 {
