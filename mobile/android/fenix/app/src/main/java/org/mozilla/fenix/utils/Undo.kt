@@ -250,6 +250,8 @@ FenixSnackbar
 *
 /
 fun
+CoroutineScope
+.
 allowUndo
 (
 view
@@ -282,15 +284,6 @@ suspend
 Unit
 )
 {
-val
-mainScope
-=
-CoroutineScope
-(
-Dispatchers
-.
-Main
-)
 /
 /
 By
@@ -354,8 +347,6 @@ set
 (
 true
 )
-mainScope
-.
 launch
 {
 onCancel
@@ -408,8 +399,6 @@ and
 hide
 the
 snackbar
-.
-mainScope
 .
 launch
 {

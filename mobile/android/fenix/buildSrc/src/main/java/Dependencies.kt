@@ -2052,6 +2052,8 @@ androidx
 fragment
 :
 fragment
+-
+ktx
 :
 {
 Versions
@@ -2152,7 +2154,7 @@ androidx_lifecycle
 "
 const
 val
-androidx_lifecycle_viewmodel_ktx
+androidx_lifecycle_viewmodel
 =
 "
 androidx
@@ -2183,6 +2185,8 @@ lifecycle
 lifecycle
 -
 runtime
+-
+ktx
 :
 {
 Versions

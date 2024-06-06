@@ -3255,7 +3255,11 @@ androidx_recyclerview
 implementation
 Deps
 .
-androidx_lifecycle_viewmodel_ktx
+androidx_lifecycle_runtime
+implementation
+Deps
+.
+androidx_lifecycle_viewmodel
 implementation
 Deps
 .
