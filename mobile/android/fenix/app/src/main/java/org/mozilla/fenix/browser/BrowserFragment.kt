@@ -335,16 +335,6 @@ feature
 .
 contextmenu
 .
-ContextMenuCandidate
-import
-mozilla
-.
-components
-.
-feature
-.
-contextmenu
-.
 ContextMenuFeature
 import
 mozilla
@@ -1487,7 +1477,7 @@ requireFragmentManager
 (
 )
 sessionManager
-ContextMenuCandidate
+FenixContextMenuCandidate
 .
 defaultCandidates
 (
