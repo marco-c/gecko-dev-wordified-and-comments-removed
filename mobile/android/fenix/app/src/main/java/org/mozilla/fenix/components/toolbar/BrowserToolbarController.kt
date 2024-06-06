@@ -1046,7 +1046,7 @@ launch
 {
 FenixSnackbar
 .
-makeWithToolbarPadding
+make
 (
 swipeRefresh
 Snackbar
