@@ -77,12 +77,6 @@ android
 .
 view
 .
-HapticFeedbackConstants
-import
-android
-.
-view
-.
 View
 import
 android
@@ -253,14 +247,6 @@ isPrivate
 )
 setOnClickListener
 {
-it
-.
-performHapticFeedback
-(
-HapticFeedbackConstants
-.
-LONG_PRESS
-)
 showTabs
 .
 invoke
