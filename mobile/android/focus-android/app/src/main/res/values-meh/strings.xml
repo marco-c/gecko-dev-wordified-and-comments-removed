@@ -5269,7 +5269,7 @@ search_add_manually_example
 >
 Kua
 :
-nakuvi
+example
 .
 com
 /
@@ -5278,6 +5278,8 @@ search
 ?
 q
 =
+%
+s
 <
 /
 string
