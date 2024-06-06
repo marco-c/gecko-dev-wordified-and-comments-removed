@@ -329,7 +329,7 @@ verify
 {
 interactor
 .
-itemClicked
+onItemClicked
 (
 baseLogin
 )

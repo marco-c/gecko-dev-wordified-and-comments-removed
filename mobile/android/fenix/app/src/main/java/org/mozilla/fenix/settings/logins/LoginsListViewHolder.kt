@@ -231,7 +231,7 @@ setOnClickListener
 {
 interactor
 .
-itemClicked
+onItemClicked
 (
 item
 )
