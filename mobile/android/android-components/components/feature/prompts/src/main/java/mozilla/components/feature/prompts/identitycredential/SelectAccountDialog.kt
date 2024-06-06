@@ -345,7 +345,7 @@ ktx
 .
 kotlin
 .
-base64PngToBitmap
+base64ToBitmap
 /
 *
 *
@@ -496,7 +496,7 @@ provider
 icon
 ?
 .
-base64PngToBitmap
+base64ToBitmap
 (
 )
 ?
@@ -690,7 +690,7 @@ account
 icon
 ?
 .
-base64PngToBitmap
+base64ToBitmap
 (
 )
 ?
