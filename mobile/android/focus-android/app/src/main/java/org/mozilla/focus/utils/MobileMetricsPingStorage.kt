@@ -157,6 +157,17 @@ file
 exists
 (
 )
+fun
+clearStorage
+(
+)
+{
+file
+.
+delete
+(
+)
+}
 suspend
 fun
 save
