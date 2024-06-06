@@ -518,7 +518,6 @@ it
 )
 }
 view
-?
 .
 open_tabs_item
 ?
@@ -534,7 +533,6 @@ updateDeleteButton
 )
 }
 view
-?
 .
 browsing_data_item
 ?
@@ -550,7 +548,6 @@ updateDeleteButton
 )
 }
 view
-?
 .
 collections_item
 ?
@@ -566,7 +563,6 @@ updateDeleteButton
 )
 }
 view
-?
 .
 delete_data
 ?
