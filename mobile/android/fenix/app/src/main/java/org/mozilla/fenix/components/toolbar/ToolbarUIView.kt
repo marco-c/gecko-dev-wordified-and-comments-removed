@@ -533,6 +533,13 @@ isEditing
 {
 view
 .
+url
+=
+it
+.
+query
+view
+.
 editMode
 (
 )
