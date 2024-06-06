@@ -720,6 +720,11 @@ details
 url
 )
 }
+score
+=
+Int
+.
+MIN_VALUE
 metadata
 =
 buildMap
