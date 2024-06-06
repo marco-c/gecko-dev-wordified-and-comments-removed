@@ -1054,10 +1054,11 @@ Top
 (
 edit
 )
-Header
-(
-edit
-)
+Text
+Cursor
+Selected
+Tab
+Check
 var
 layerAccent
 by
