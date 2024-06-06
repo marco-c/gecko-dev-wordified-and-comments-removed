@@ -299,9 +299,7 @@ android
 layout_marginStart
 =
 "
-dimen
-/
-library_item_icon_margin_horizontal
+32dp
 "
 android
 :
@@ -428,9 +426,7 @@ android
 layout_marginStart
 =
 "
-dimen
-/
-library_item_icon_margin_horizontal
+32dp
 "
 android
 :
