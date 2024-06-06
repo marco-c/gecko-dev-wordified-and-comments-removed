@@ -127,7 +127,7 @@ helpers
 .
 TestHelper
 .
-isSoftKeyboardVisible
+isKeyboardVisible
 import
 org
 .
@@ -598,7 +598,7 @@ verifySearchEngineButton
 )
 assertTrue
 (
-isSoftKeyboardVisible
+isKeyboardVisible
 (
 )
 )

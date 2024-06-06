@@ -319,7 +319,7 @@ helpers
 .
 TestHelper
 .
-isSoftKeyboardVisible
+isKeyboardVisible
 import
 org
 .
@@ -927,7 +927,7 @@ openSearch
 {
 assertTrue
 (
-isSoftKeyboardVisible
+isKeyboardVisible
 (
 )
 )

@@ -287,7 +287,7 @@ helpers
 .
 TestHelper
 .
-isSoftKeyboardVisible
+isKeyboardVisible
 import
 org
 .
@@ -887,7 +887,7 @@ clickAddFolderButton
 )
 assertTrue
 (
-isSoftKeyboardVisible
+isKeyboardVisible
 (
 )
 )
@@ -904,7 +904,7 @@ bookmarksFolderName
 )
 assertFalse
 (
-isSoftKeyboardVisible
+isKeyboardVisible
 (
 )
 )
@@ -939,7 +939,7 @@ navigateUp
 )
 assertFalse
 (
-isSoftKeyboardVisible
+isKeyboardVisible
 (
 )
 )
