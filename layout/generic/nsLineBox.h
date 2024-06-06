@@ -976,7 +976,7 @@ None
 ;
 }
 bool
-HasForcedLineBreakBefore
+HasFloatClearTypeBefore
 (
 )
 const
@@ -993,7 +993,7 @@ HasForcedLineBreak
 ;
 }
 void
-SetForcedLineBreakBefore
+SetFloatClearTypeBefore
 (
 mozilla
 :

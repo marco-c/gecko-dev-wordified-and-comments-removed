@@ -14192,7 +14192,7 @@ IsBlock
 aLine
 -
 >
-HasForcedLineBreakBefore
+HasFloatClearTypeBefore
 (
 )
 |
@@ -15083,7 +15083,7 @@ IsDirty
 line
 -
 >
-HasForcedLineBreakBefore
+HasFloatClearTypeBefore
 (
 )
 |
@@ -19790,7 +19790,7 @@ None
 aLine
 -
 >
-SetForcedLineBreakBefore
+SetFloatClearTypeBefore
 (
 clearType
 )
