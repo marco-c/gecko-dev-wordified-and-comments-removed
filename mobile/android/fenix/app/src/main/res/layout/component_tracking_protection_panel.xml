@@ -491,7 +491,7 @@ style
 "
 style
 /
-QuickSettingsText
+QuickSettingsLargeText
 .
 Icon
 "
@@ -564,7 +564,7 @@ style
 "
 style
 /
-QuickSettingsText
+QuickSettingsLargeText
 .
 Icon
 "
@@ -637,7 +637,7 @@ style
 "
 style
 /
-QuickSettingsText
+QuickSettingsLargeText
 .
 Icon
 "
@@ -710,7 +710,7 @@ style
 "
 style
 /
-QuickSettingsText
+QuickSettingsLargeText
 .
 Icon
 "
@@ -783,7 +783,7 @@ style
 "
 style
 /
-QuickSettingsText
+QuickSettingsLargeText
 .
 Icon
 "
@@ -932,7 +932,7 @@ style
 "
 style
 /
-QuickSettingsText
+QuickSettingsLargeText
 .
 Icon
 "
@@ -1005,7 +1005,7 @@ style
 "
 style
 /
-QuickSettingsText
+QuickSettingsLargeText
 .
 Icon
 "
@@ -1078,7 +1078,7 @@ style
 "
 style
 /
-QuickSettingsText
+QuickSettingsLargeText
 .
 Icon
 "
@@ -1151,7 +1151,7 @@ style
 "
 style
 /
-QuickSettingsText
+QuickSettingsLargeText
 .
 Icon
 "
@@ -1269,7 +1269,7 @@ style
 "
 style
 /
-QuickSettingsText
+QuickSettingsLargeText
 .
 Icon
 "
@@ -1457,6 +1457,15 @@ layout_constraintTop_toTopOf
 id
 /
 category_title
+"
+app
+:
+layout_constraintVertical_bias
+=
+"
+0
+.
+0
 "
 app
 :
@@ -1904,6 +1913,15 @@ layout_marginEnd
 =
 "
 26dp
+"
+android
+:
+lineSpacingMultiplier
+=
+"
+1
+.
+2
 "
 android
 :
