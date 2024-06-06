@@ -209,7 +209,7 @@ R
 .
 color
 .
-photonInk80
+colorPrimary
 )
 onBackground
 =
