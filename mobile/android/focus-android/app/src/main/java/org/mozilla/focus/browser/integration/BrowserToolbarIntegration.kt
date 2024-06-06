@@ -932,6 +932,14 @@ menuBuilder
 menu
 .
 menuBuilder
+window
+=
+fragment
+.
+activity
+?
+.
+window
 menuItemIndex
 =
 menu
@@ -952,6 +960,12 @@ closeCustomTab
 (
 )
 }
+updateToolbarBackground
+=
+true
+forceActionButtonTinting
+=
+false
 )
 }
 val
