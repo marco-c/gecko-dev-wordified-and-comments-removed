@@ -1375,6 +1375,13 @@ NoExtras
 (
 )
 )
+Logins
+.
+deleted
+.
+add
+(
+)
 interactor
 .
 onDeleteLogin
