@@ -182,6 +182,11 @@ onNext
 TabAction
 .
 SaveTabGroup
+(
+selectedTabSessionId
+=
+null
+)
 )
 }
 }

@@ -76,6 +76,15 @@ ViewModel
 )
 {
 var
+selectedTabs
+=
+setOf
+<
+Tab
+>
+(
+)
+var
 tabs
 =
 listOf

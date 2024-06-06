@@ -361,8 +361,16 @@ TabAction
 :
 Action
 {
-object
+data
+class
 SaveTabGroup
+(
+val
+selectedTabSessionId
+:
+String
+?
+)
 :
 TabAction
 (
