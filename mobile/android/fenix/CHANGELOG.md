@@ -189,6 +189,16 @@ light
 /
 dark
 theme
+-
+#
+904
+-
+Added
+tab
+counter
+in
+browser
+toolbar
 #
 #
 #
