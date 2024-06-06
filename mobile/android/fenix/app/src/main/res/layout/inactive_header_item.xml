@@ -441,13 +441,6 @@ layout_marginStart
 "
 android
 :
-rotation
-=
-"
-180
-"
-android
-:
 contentDescription
 =
 "
