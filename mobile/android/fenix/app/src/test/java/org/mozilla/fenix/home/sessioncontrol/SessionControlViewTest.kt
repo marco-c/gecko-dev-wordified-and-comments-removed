@@ -957,7 +957,14 @@ recentBookmarks
 false
 null
 false
+showRecentSyncedTab
+=
+false
+recentVisits
+=
 historyMetadata
+pocketStories
+=
 pocketStories
 )
 assertTrue
@@ -1144,6 +1151,9 @@ recentBookmarks
 false
 nimbusMessageCard
 false
+showRecentSyncedTab
+=
+false
 historyMetadata
 pocketStories
 )
@@ -1295,6 +1305,9 @@ recentBookmarks
 false
 null
 true
+showRecentSyncedTab
+=
+false
 historyMetadata
 pocketStories
 )
@@ -1481,6 +1494,9 @@ expandedCollections
 recentBookmarks
 false
 null
+false
+showRecentSyncedTab
+=
 false
 historyMetadata
 pocketStories
@@ -1674,6 +1690,9 @@ expandedCollections
 recentBookmarks
 false
 null
+false
+showRecentSyncedTab
+=
 false
 historyMetadata
 pocketStories
@@ -1873,6 +1892,9 @@ recentBookmarks
 false
 null
 false
+showRecentSyncedTab
+=
+false
 historyMetadata
 pocketStories
 )
@@ -2051,6 +2073,9 @@ expandedCollections
 recentBookmarks
 false
 null
+true
+showRecentSyncedTab
+=
 true
 historyMetadata
 pocketStories
