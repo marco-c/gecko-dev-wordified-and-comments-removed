@@ -2560,6 +2560,14 @@ getSafeString
 ratings_url
 "
 )
+detailUrl
+=
+getSafeString
+(
+"
+url
+"
+)
 defaultLocale
 =
 (

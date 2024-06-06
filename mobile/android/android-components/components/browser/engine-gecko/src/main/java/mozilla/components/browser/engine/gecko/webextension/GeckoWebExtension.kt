@@ -2081,6 +2081,11 @@ temporary
 it
 .
 temporary
+detailUrl
+=
+it
+.
+amoListingUrl
 )
 }
 }
