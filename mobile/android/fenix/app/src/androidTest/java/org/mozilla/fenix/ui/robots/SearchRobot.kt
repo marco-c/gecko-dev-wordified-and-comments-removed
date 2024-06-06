@@ -1739,7 +1739,7 @@ awesome_bar
 .
 swipeUp
 (
-1
+3
 )
 for
 (
