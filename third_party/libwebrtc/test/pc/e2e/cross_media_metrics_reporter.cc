@@ -268,7 +268,7 @@ stat
 >
 estimated_playout_timestamp
 .
-ValueOrDefault
+value_or
 (
 0
 .

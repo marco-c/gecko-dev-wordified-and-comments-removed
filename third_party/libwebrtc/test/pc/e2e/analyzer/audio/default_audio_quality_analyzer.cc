@@ -265,7 +265,7 @@ stat
 >
 total_samples_received
 .
-ValueOrDefault
+value_or
 (
 0ul
 )
@@ -279,7 +279,7 @@ stat
 >
 concealed_samples
 .
-ValueOrDefault
+value_or
 (
 0ul
 )
@@ -293,7 +293,7 @@ stat
 >
 removed_samples_for_acceleration
 .
-ValueOrDefault
+value_or
 (
 0ul
 )
@@ -307,7 +307,7 @@ stat
 >
 inserted_samples_for_deceleration
 .
-ValueOrDefault
+value_or
 (
 0ul
 )
@@ -321,7 +321,7 @@ stat
 >
 silent_concealed_samples
 .
-ValueOrDefault
+value_or
 (
 0ul
 )
@@ -340,7 +340,7 @@ stat
 >
 jitter_buffer_delay
 .
-ValueOrDefault
+value_or
 (
 0
 .
@@ -361,7 +361,7 @@ stat
 >
 jitter_buffer_target_delay
 .
-ValueOrDefault
+value_or
 (
 0
 .
@@ -377,7 +377,7 @@ stat
 >
 jitter_buffer_emitted_count
 .
-ValueOrDefault
+value_or
 (
 0ul
 )
@@ -391,7 +391,7 @@ stat
 >
 total_samples_duration
 .
-ValueOrDefault
+value_or
 (
 0
 .
@@ -406,7 +406,7 @@ stat
 >
 total_audio_energy
 .
-ValueOrDefault
+value_or
 (
 0
 .
