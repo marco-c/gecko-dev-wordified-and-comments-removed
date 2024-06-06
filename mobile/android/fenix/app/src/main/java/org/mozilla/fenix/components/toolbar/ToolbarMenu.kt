@@ -202,6 +202,12 @@ Item
 (
 )
 object
+RemoveFromTopSites
+:
+Item
+(
+)
+object
 InstallPwaToHomeScreen
 :
 Item

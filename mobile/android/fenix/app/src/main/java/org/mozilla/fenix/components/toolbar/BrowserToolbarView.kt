@@ -868,6 +868,13 @@ lifecycleOwner
 bookmarksStorage
 =
 bookmarkStorage
+pinnedSiteStorage
+=
+components
+.
+core
+.
+pinnedSiteStorage
 isPinningSupported
 =
 isPinningSupported

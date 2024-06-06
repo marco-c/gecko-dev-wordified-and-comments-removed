@@ -2677,6 +2677,13 @@ requireComponents
 core
 .
 topSitesStorage
+pinnedSiteStorage
+=
+requireComponents
+.
+core
+.
+pinnedSiteStorage
 browserStore
 =
 store
