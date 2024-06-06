@@ -2015,7 +2015,7 @@ mozilla
 com
 expires
 :
-119
+never
 ad_clicks
 :
 type
@@ -2268,7 +2268,7 @@ mozilla
 com
 expires
 :
-119
+never
 in_content
 :
 type
@@ -2382,9 +2382,14 @@ probes
 mozilla
 .
 com
+-
+rtestard
+mozilla
+.
+com
 expires
 :
-119
+never
 search_count
 :
 type
