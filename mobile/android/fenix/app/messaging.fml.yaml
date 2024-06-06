@@ -1547,13 +1547,12 @@ a
 push
 notification
 .
-fullscreen
+survey
 :
 description
 :
 A
-full
-screen
+survey
 dialog
 that
 is
