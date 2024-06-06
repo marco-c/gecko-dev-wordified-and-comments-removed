@@ -256,6 +256,11 @@ code
 review
 :
 true
+shipping
+-
+product
+:
+focus
 run
 :
 pre
@@ -447,6 +452,11 @@ code
 review
 :
 true
+shipping
+-
+product
+:
+fenix
 run
 :
 pre
