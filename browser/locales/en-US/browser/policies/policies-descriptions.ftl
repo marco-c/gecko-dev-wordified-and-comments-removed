@@ -1823,6 +1823,16 @@ menu
 .
 policy
 -
+TranslateEnabled
+=
+Enable
+or
+disable
+webpage
+translation
+.
+policy
+-
 UserMessaging
 =
 Don
