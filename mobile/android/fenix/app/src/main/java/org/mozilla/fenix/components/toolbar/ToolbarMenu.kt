@@ -205,6 +205,12 @@ Item
 (
 )
 object
+AddonsManager
+:
+Item
+(
+)
+object
 Quit
 :
 Item

@@ -3820,6 +3820,14 @@ mozilla_browser_toolbar
 implementation
 Deps
 .
+mozilla_support_extensions
+implementation
+Deps
+.
+mozilla_feature_addons
+implementation
+Deps
+.
 mozilla_feature_accounts
 implementation
 Deps

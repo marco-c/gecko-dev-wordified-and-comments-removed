@@ -4743,6 +4743,10 @@ Add
 to
 Firefox
 Home
+Add
+-
+ons
+Manager
 <
 /
 li
