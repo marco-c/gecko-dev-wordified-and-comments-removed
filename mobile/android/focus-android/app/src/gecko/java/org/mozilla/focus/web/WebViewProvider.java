@@ -387,6 +387,13 @@ nativeCrashReportingEnabled
 true
 )
 ;
+runtimeSettingsBuilder
+.
+remoteDebuggingEnabled
+(
+true
+)
+;
 geckoRuntime
 =
 GeckoRuntime
