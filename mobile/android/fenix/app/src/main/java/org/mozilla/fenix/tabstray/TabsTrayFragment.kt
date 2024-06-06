@@ -1382,6 +1382,13 @@ appStore
 requireComponents
 .
 appStore
+browserStore
+=
+requireComponents
+.
+core
+.
+store
 tabsTrayStore
 =
 tabsTrayStore
