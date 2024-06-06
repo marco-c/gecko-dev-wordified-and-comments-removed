@@ -1584,10 +1584,11 @@ string
 credit_cards_biometric_prompt_message
 )
 )
-startActivityForResult
+startForResult
+.
+launch
 (
 intent
-PIN_REQUEST
 )
 }
 private
