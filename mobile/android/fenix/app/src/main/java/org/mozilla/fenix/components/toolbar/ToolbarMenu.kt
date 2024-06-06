@@ -181,6 +181,12 @@ Item
 (
 )
 object
+InstallToHomeScreen
+:
+Item
+(
+)
+object
 AddToHomeScreen
 :
 Item

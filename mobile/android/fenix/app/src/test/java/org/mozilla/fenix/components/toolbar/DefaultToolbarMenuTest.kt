@@ -528,7 +528,7 @@ ToolbarMenu
 .
 Item
 .
-AddToHomeScreen
+InstallToHomeScreen
 list
 [
 0
@@ -852,7 +852,7 @@ ToolbarMenu
 .
 Item
 .
-AddToHomeScreen
+InstallToHomeScreen
 list
 [
 0
@@ -1003,7 +1003,7 @@ ToolbarMenu
 .
 Item
 .
-AddToHomeScreen
+InstallToHomeScreen
 list
 [
 0
