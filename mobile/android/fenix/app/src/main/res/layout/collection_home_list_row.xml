@@ -165,7 +165,7 @@ wrap_content
 "
 android
 :
-layout_marginTop
+layout_marginBottom
 =
 "
 12dp
