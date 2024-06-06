@@ -1263,7 +1263,7 @@ verifyShareTabUrl
 }
 Test
 fun
-verifyBackNavigation
+verifyCloseMenu
 (
 )
 {
@@ -1279,7 +1279,7 @@ openHistory
 {
 }
 .
-goBack
+closeMenu
 {
 verifyHomeScreen
 (

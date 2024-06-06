@@ -375,7 +375,7 @@ verifyBookmarksMenuView
 )
 }
 .
-goBack
+closeMenu
 {
 }
 homeScreen
