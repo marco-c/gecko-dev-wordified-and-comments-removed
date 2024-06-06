@@ -1580,6 +1580,11 @@ Boolean
 invokePendingDeletion
 (
 )
+sharedViewModel
+.
+selectedFolder
+=
+null
 return
 bookmarkView
 .
