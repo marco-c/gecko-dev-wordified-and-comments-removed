@@ -8783,15 +8783,7 @@ checks
 "
 "
 :
-macromagic
-"
-"
-:
 rtc_event
-"
-"
-:
-rtc_task_queue
 "
 "
 .
@@ -9969,10 +9961,6 @@ rtc_base_tests_utils
 "
 :
 rtc_event
-"
-"
-:
-rtc_task_queue
 "
 "
 :
