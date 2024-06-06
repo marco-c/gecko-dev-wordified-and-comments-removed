@@ -2249,6 +2249,12 @@ fun
 onStart
 (
 )
+=
+PerfStartup
+.
+homeActivityOnStart
+.
+measureNoInline
 {
 super
 .
