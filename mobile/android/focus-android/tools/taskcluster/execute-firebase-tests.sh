@@ -985,6 +985,9 @@ run
 config
 =
 FLANK_CONF
+exitcode
+=
+?
 cp
 -
 r
@@ -998,9 +1001,6 @@ WORKDIR
 /
 test_artifacts
 "
-exitcode
-=
-?
 #
 Now
 exit
