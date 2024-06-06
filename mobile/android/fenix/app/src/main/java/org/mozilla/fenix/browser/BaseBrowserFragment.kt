@@ -1758,7 +1758,7 @@ REQUEST_CODE_DOWNLOAD_PERMISSIONS
 )
 downloadFeature
 .
-onDownloadCompleted
+onDownloadStopped
 =
 {
 download
