@@ -21032,7 +21032,9 @@ plut
 t
 une
 adresse
-lectronique
+e
+-
+mail
 <
 /
 string
@@ -26186,7 +26188,9 @@ num
 ros
 des
 adresses
-lectroniques
+e
+-
+mail
 et
 des
 adresses
@@ -27518,7 +27522,9 @@ addresses_email
 "
 >
 Adresse
-lectronique
+e
+-
+mail
 <
 /
 string
@@ -31149,7 +31155,9 @@ des
 sites
 web
 des
-courriels
+e
+-
+mails
 et
 des
 messages
