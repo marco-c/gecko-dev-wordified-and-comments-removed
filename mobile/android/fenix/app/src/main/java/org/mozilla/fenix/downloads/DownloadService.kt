@@ -151,7 +151,7 @@ R
 .
 color
 .
-notification_accent_color_normal_theme
+fx_mobile_text_color_accent
 )
 }
 }
