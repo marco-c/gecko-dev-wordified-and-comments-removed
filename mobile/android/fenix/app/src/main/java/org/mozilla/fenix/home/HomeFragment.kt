@@ -1550,6 +1550,13 @@ restore
 (
 this
 )
+homeScrollView
+.
+smoothScrollTo
+(
+0
+0
+)
 }
 }
 is
