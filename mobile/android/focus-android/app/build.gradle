@@ -449,11 +449,6 @@ dimension
 "
 engine
 "
-applicationIdSuffix
-"
-.
-gecko
-"
 }
 x86
 {
