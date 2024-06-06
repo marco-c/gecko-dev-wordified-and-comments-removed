@@ -688,13 +688,17 @@ captureEngineViewAndDrawStatically
 any
 (
 )
+any
+(
+)
 )
 }
 answers
 {
-firstArg
+secondArg
 <
 (
+Boolean
 )
 -
 >
@@ -703,6 +707,7 @@ Unit
 (
 )
 (
+true
 )
 }
 tabCounterClicked

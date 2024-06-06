@@ -965,6 +965,7 @@ onComplete
 slot
 <
 (
+Boolean
 )
 -
 >
@@ -978,6 +979,9 @@ browserAnimator
 .
 captureEngineViewAndDrawStatically
 (
+any
+(
+)
 capture
 (
 onComplete
@@ -992,6 +996,7 @@ captured
 .
 invoke
 (
+true
 )
 }
 selectedTab
