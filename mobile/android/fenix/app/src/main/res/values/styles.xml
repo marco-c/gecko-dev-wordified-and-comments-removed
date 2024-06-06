@@ -5621,7 +5621,7 @@ style
 name
 =
 "
-Button12TextStyle
+Button14TextStyle
 "
 parent
 =
@@ -5643,7 +5643,7 @@ android
 textSize
 "
 >
-12sp
+14sp
 <
 /
 item

@@ -1313,9 +1313,8 @@ name
 home_show_all_button_text
 "
 >
-color
-/
-photonLightGrey50
+#
+AB71FF
 <
 /
 color
