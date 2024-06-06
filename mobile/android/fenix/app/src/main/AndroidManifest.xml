@@ -765,13 +765,6 @@ supportsPictureInPicture
 "
 true
 "
-android
-:
-windowSoftInputMode
-=
-"
-adjustResize
-"
 >
 <
 intent
@@ -1312,8 +1305,6 @@ android
 windowSoftInputMode
 =
 "
-adjustResize
-|
 stateAlwaysHidden
 "
 /
@@ -2201,8 +2192,6 @@ android
 windowSoftInputMode
 =
 "
-adjustResize
-|
 stateAlwaysHidden
 "
 /

@@ -743,6 +743,16 @@ fenix
 .
 ext
 .
+enableSystemInsetsHandling
+import
+org
+.
+mozilla
+.
+fenix
+.
+ext
+.
 metrics
 import
 org
@@ -1860,6 +1870,9 @@ setNavigationController
 navHost
 .
 navController
+)
+enableSystemInsetsHandling
+(
 )
 StartupTimeline
 .
