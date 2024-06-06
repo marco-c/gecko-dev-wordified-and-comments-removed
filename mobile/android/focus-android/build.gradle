@@ -82,7 +82,7 @@ ext
 geckoview_revision
 =
 '
-420e18a75314b8123b515d8a93cbacd145ecb03c
+fa3cfee27619ddc9bcbcf70555bda4eb1e815146
 '
 ext
 .
@@ -93,7 +93,7 @@ geckoview_version
 .
 0
 .
-20190429095544
+20190513082256
 '
 /
 /
@@ -101,9 +101,9 @@ GV
 68
 Nightly
 Branch
-4
+5
 .
-29
+31
 .
 2019
 ext
