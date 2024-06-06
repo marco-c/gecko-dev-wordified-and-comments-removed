@@ -145,8 +145,15 @@ Boolean
 Item
 (
 )
-object
+data
+class
 Reload
+(
+val
+bypassCache
+:
+Boolean
+)
 :
 Item
 (
