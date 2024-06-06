@@ -336,6 +336,13 @@ app_name
 "
 android
 :
+requestLegacyExternalStorage
+=
+"
+true
+"
+android
+:
 roundIcon
 =
 "
