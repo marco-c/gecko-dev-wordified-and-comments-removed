@@ -270,7 +270,7 @@ assertNull
 (
 browsers
 .
-firefoxBrandedBrowser
+mozillaBrandedBrowser
 )
 assertFalse
 (
@@ -371,7 +371,7 @@ assertNotNull
 (
 browsers
 .
-firefoxBrandedBrowser
+mozillaBrandedBrowser
 )
 assertEquals
 (
@@ -384,7 +384,7 @@ FIREFOX
 packageName
 browsers
 .
-firefoxBrandedBrowser
+mozillaBrandedBrowser
 !
 !
 .
@@ -534,7 +534,7 @@ assertNotNull
 (
 browsers
 .
-firefoxBrandedBrowser
+mozillaBrandedBrowser
 )
 assertEquals
 (
@@ -547,7 +547,7 @@ FIREFOX
 packageName
 browsers
 .
-firefoxBrandedBrowser
+mozillaBrandedBrowser
 !
 !
 .
@@ -794,7 +794,7 @@ FIREFOX_BETA
 packageName
 browsers
 .
-firefoxBrandedBrowser
+mozillaBrandedBrowser
 !
 !
 .
@@ -884,7 +884,7 @@ FIREFOX_NIGHTLY
 packageName
 browsers
 .
-firefoxBrandedBrowser
+mozillaBrandedBrowser
 !
 !
 .
@@ -974,7 +974,7 @@ FIREFOX_AURORA
 packageName
 browsers
 .
-firefoxBrandedBrowser
+mozillaBrandedBrowser
 !
 !
 .
@@ -1064,7 +1064,7 @@ FIREFOX_FDROID
 packageName
 browsers
 .
-firefoxBrandedBrowser
+mozillaBrandedBrowser
 !
 !
 .
@@ -1221,7 +1221,7 @@ assertNull
 (
 browsers
 .
-firefoxBrandedBrowser
+mozillaBrandedBrowser
 )
 assertFalse
 (
@@ -1385,7 +1385,7 @@ FIREFOX
 packageName
 browsers
 .
-firefoxBrandedBrowser
+mozillaBrandedBrowser
 !
 !
 .
@@ -1555,7 +1555,7 @@ FIREFOX
 packageName
 browsers
 .
-firefoxBrandedBrowser
+mozillaBrandedBrowser
 !
 !
 .
@@ -1627,7 +1627,7 @@ assertNull
 (
 browsers
 .
-firefoxBrandedBrowser
+mozillaBrandedBrowser
 )
 assertFalse
 (
@@ -1732,7 +1732,7 @@ assertNotNull
 (
 browsers
 .
-firefoxBrandedBrowser
+mozillaBrandedBrowser
 )
 assertEquals
 (
@@ -1745,7 +1745,7 @@ FIREFOX
 packageName
 browsers
 .
-firefoxBrandedBrowser
+mozillaBrandedBrowser
 !
 !
 .
@@ -1842,7 +1842,7 @@ assertNull
 (
 browsers
 .
-firefoxBrandedBrowser
+mozillaBrandedBrowser
 )
 assertFalse
 (
