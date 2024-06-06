@@ -95,7 +95,7 @@ bookmarks
 #
 356
 -
-Adds
+Added
 the
 ability
 to
@@ -127,7 +127,7 @@ colors
 #
 957
 -
-Adds
+Added
 telemetry
 for
 the
@@ -137,7 +137,7 @@ menu
 #
 1036
 -
-Adds
+Added
 telemetry
 for
 Find
@@ -147,7 +147,7 @@ Page
 #
 1049
 -
-Add
+Added
 style
 for
 progress
@@ -164,6 +164,17 @@ doorhanger
 to
 the
 toolbar
+-
+#
+1002
+-
+Added
+ability
+to
+restore
+tab
+after
+crash
 -
 #
 1195
