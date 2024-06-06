@@ -349,7 +349,7 @@ CreditCardEditorInteractor
 .
 *
 *
-param
+property
 controller
 An
 instance

@@ -132,7 +132,7 @@ logins
 screen
 *
 *
-param
+property
 loginsListController
 [
 LoginsListController
@@ -148,7 +148,7 @@ user
 interactions
 .
 *
-param
+property
 savedLoginsStorageController
 [
 SavedLoginsStorageController

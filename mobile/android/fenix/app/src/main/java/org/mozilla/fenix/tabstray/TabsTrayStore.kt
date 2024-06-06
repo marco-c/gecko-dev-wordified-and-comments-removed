@@ -239,6 +239,15 @@ private
 .
 *
 property
+syncedTabs
+The
+list
+of
+synced
+tabs
+.
+*
+property
 syncing
 Whether
 the

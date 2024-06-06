@@ -473,7 +473,7 @@ inflate
 itself
 .
 *
-param
+property
 interactor
 [
 WebsitePermissionInteractor
@@ -495,6 +495,7 @@ WebsitePermissionsView
 containerView
 :
 ViewGroup
+private
 val
 interactor
 :

@@ -103,7 +103,8 @@ Messaging
 framework
 .
 *
-param
+*
+property
 messages
 Indicates
 all
@@ -112,7 +113,7 @@ available
 messages
 .
 *
-param
+property
 messageToShow
 Indicates
 the

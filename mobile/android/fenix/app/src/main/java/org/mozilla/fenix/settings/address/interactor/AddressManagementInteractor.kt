@@ -204,7 +204,7 @@ AddressManagementInteractor
 .
 *
 *
-param
+property
 controller
 An
 instance

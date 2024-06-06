@@ -376,7 +376,7 @@ sessionId
 *
 *
 *
-param
+property
 store
 Store
 used
@@ -389,7 +389,7 @@ collection
 state
 .
 *
-param
+property
 browserStore
 The
 global
@@ -397,7 +397,7 @@ BrowserStore
 instance
 .
 *
-param
+property
 dismiss
 Callback
 to
@@ -408,7 +408,7 @@ creation
 dialog
 .
 *
-param
+property
 tabCollectionStorage
 Storage
 used
@@ -420,7 +420,7 @@ to
 disk
 .
 *
-param
+property
 scope
 Coroutine
 scope

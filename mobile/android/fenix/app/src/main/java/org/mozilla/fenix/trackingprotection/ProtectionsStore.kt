@@ -286,7 +286,7 @@ protection
 .
 *
 *
-param
+property
 cookieBannerUIMode
 the
 current
@@ -332,7 +332,7 @@ work
 .
 *
 *
-param
+property
 url
 to
 report

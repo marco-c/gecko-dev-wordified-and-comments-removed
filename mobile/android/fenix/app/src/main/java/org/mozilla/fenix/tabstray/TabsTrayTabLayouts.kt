@@ -636,6 +636,16 @@ tabs
 *
 param
 modifier
+[
+Modifier
+]
+to
+be
+applied
+to
+the
+layout
+.
 *
 param
 onTabClose

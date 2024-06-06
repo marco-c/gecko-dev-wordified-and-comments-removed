@@ -314,7 +314,7 @@ address
 .
 *
 *
-param
+property
 binding
 The
 binding
@@ -325,7 +325,7 @@ the
 view
 .
 *
-param
+property
 interactor
 [
 AddressEditorInteractor
@@ -339,7 +339,7 @@ user
 interactions
 .
 *
-param
+property
 region
 If
 the
@@ -363,7 +363,7 @@ new
 address
 .
 *
-param
+property
 address
 An
 [

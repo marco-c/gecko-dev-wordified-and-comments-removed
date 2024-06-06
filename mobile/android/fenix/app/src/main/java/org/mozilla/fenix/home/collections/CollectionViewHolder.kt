@@ -368,7 +368,7 @@ tied
 to
 .
 *
-param
+property
 interactor
 [
 CollectionInteractor

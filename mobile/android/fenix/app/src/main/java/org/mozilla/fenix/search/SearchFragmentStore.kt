@@ -467,6 +467,7 @@ current
 search
 query
 string
+.
 *
 property
 url
@@ -488,6 +489,7 @@ already
 existing
 tab
 )
+.
 *
 property
 searchTerms
@@ -514,6 +516,7 @@ already
 existing
 tab
 )
+.
 *
 property
 searchEngineSource
@@ -530,6 +533,7 @@ how
 it
 was
 selected
+.
 *
 property
 defaultEngine
@@ -547,6 +551,7 @@ is
 available
 yet
 )
+.
 *
 property
 showSearchSuggestions
@@ -564,6 +569,7 @@ engine
 in
 the
 AwesomeBar
+.
 *
 property
 showSearchSuggestionsHint
@@ -578,6 +584,7 @@ in
 private
 hint
 panel
+.
 *
 property
 showSearchShortcuts
@@ -591,6 +598,7 @@ shortcuts
 in
 the
 AwesomeBar
+.
 *
 property
 areShortcutsAvailable
@@ -647,6 +655,7 @@ suggestion
 in
 the
 AwesomeBar
+.
 *
 property
 showSearchTermHistory
@@ -702,6 +711,7 @@ suggestions
 in
 the
 AwesomeBar
+.
 *
 property
 showBookmarksSuggestionsForCurrentEngine
@@ -734,6 +744,7 @@ suggestion
 in
 the
 AwesomeBar
+.
 *
 property
 showSyncedTabsSuggestionsForCurrentEngine
@@ -768,6 +779,7 @@ suggestion
 in
 the
 AwesomeBar
+.
 *
 property
 showSessionSuggestionsForCurrentEngine
@@ -801,6 +813,17 @@ suggestion
 in
 the
 AwesomeBar
+.
+*
+property
+tabId
+The
+ID
+of
+the
+current
+tab
+.
 *
 property
 pastedText
@@ -813,6 +836,17 @@ long
 press
 toolbar
 menu
+.
+*
+property
+searchAccessPoint
+The
+source
+of
+the
+performed
+search
+.
 *
 property
 clipboardHasUrl

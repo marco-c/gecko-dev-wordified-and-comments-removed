@@ -1045,6 +1045,7 @@ shared
 to
 .
 *
+*
 param
 intentActivities
 List
@@ -1054,6 +1055,12 @@ from
 [
 getIntentActivities
 ]
+.
+*
+param
+context
+Android
+context
 .
 *
 /

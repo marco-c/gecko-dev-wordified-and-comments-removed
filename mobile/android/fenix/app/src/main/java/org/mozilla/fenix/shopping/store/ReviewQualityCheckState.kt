@@ -290,6 +290,15 @@ are
 disabled
 .
 *
+property
+productVendor
+The
+vendor
+of
+the
+product
+.
+*
 /
 data
 class

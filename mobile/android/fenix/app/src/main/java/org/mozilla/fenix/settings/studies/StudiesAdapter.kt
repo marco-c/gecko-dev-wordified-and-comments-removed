@@ -328,7 +328,7 @@ actions
 items
 .
 *
-param
+property
 shouldSubmitOnInit
 The
 sole
@@ -1179,7 +1179,8 @@ study
 ]
 .
 *
-property
+*
+param
 study
 The
 study

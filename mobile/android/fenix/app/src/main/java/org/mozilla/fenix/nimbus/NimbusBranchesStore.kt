@@ -283,7 +283,7 @@ branch
 .
 *
 *
-param
+property
 branches
 The
 list
@@ -300,7 +300,7 @@ branches
 list
 .
 *
-param
+property
 selectedBranch
 The
 selected
@@ -346,7 +346,7 @@ branch
 .
 *
 *
-param
+property
 selectedBranch
 The
 selected

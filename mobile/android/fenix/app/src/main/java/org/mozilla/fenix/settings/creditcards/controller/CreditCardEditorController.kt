@@ -303,7 +303,7 @@ CreditCardEditorController
 .
 *
 *
-param
+property
 storage
 An
 instance
@@ -321,7 +321,7 @@ credit
 cards
 .
 *
-param
+property
 lifecycleScope
 [
 CoroutineScope
@@ -332,7 +332,7 @@ launch
 coroutines
 .
 *
-param
+property
 navController
 [
 NavController
@@ -342,7 +342,7 @@ for
 navigation
 .
 *
-param
+property
 ioDispatcher
 [
 CoroutineDispatcher
@@ -362,7 +362,7 @@ IO
 ]
 .
 *
-param
+property
 showDeleteDialog
 [
 DialogInterface

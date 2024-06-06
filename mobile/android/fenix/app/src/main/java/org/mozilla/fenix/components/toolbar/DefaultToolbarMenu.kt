@@ -467,7 +467,7 @@ browser
 fragment
 .
 *
-param
+property
 context
 a
 [
@@ -479,7 +479,7 @@ system
 resources
 .
 *
-param
+property
 store
 reference
 to
@@ -507,7 +507,7 @@ Firefox
 account
 .
 *
-param
+property
 onItemTapped
 Called
 when
@@ -518,7 +518,7 @@ is
 tapped
 .
 *
-param
+property
 lifecycleOwner
 View
 lifecycle
@@ -533,7 +533,7 @@ UI
 jobs
 .
 *
-param
+property
 bookmarksStorage
 Used
 to
@@ -545,7 +545,7 @@ is
 bookmarked
 .
 *
-param
+property
 pinnedSiteStorage
 Used
 to
@@ -560,7 +560,7 @@ pinned
 site
 .
 *
-param
+property
 isPinningSupported
 true
 if

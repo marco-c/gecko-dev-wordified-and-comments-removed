@@ -238,6 +238,8 @@ the
 Recently
 Closed
 Screen
+.
+*
 *
 property
 items
@@ -248,6 +250,17 @@ closed
 tabs
 to
 display
+.
+*
+property
+selectedTabs
+List
+of
+selected
+recently
+closed
+tabs
+.
 *
 /
 data

@@ -314,7 +314,7 @@ addresses
 .
 *
 *
-param
+property
 addresses
 The
 list
@@ -367,7 +367,7 @@ creditCards
 .
 *
 *
-param
+property
 creditCards
 The
 list

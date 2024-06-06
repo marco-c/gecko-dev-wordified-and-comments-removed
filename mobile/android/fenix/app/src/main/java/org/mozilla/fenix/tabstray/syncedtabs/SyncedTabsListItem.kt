@@ -121,7 +121,7 @@ device
 .
 *
 *
-param
+property
 displayName
 The
 user
@@ -166,7 +166,7 @@ tabs
 .
 *
 *
-param
+property
 displayName
 The
 user
@@ -180,7 +180,7 @@ synced
 device
 .
 *
-param
+property
 tabs
 The
 user
@@ -226,7 +226,7 @@ synced
 .
 *
 *
-param
+property
 displayTitle
 The
 title
@@ -239,7 +239,7 @@ web
 page
 .
 *
-param
+property
 displayURL
 The
 tab
@@ -255,7 +255,7 @@ characters
 long
 .
 *
-param
+property
 tab
 The
 underlying
@@ -329,7 +329,7 @@ encountered
 .
 *
 *
-param
+property
 errorText
 The
 text
@@ -341,7 +341,7 @@ the
 user
 .
 *
-param
+property
 errorButton
 Optional
 class
@@ -395,7 +395,7 @@ interaction
 .
 *
 *
-param
+property
 buttonText
 The
 error
@@ -408,7 +408,7 @@ accessibility
 hint
 .
 *
-param
+property
 onClick
 Lambda
 called
@@ -418,7 +418,6 @@ button
 is
 clicked
 .
-*
 *
 /
 data

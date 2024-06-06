@@ -289,7 +289,7 @@ s
 .
 *
 *
-param
+property
 pocketStoriesService
 [
 PocketStoriesService
@@ -305,7 +305,7 @@ recommended
 stories
 .
 *
-param
+property
 selectedPocketCategoriesDataStore
 [
 DataStore
@@ -327,7 +327,7 @@ stories
 categories
 .
 *
-param
+property
 coroutineScope
 [
 CoroutineScope

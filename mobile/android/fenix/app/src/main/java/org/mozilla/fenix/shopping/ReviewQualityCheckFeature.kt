@@ -256,6 +256,17 @@ product
 page
 .
 *
+property
+onBottomSheetCollapsed
+Invoked
+when
+the
+bottom
+sheet
+is
+collapsed
+.
+*
 /
 class
 ReviewQualityCheckFeature

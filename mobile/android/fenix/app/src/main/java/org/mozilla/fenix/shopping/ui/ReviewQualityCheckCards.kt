@@ -645,6 +645,16 @@ card
 .
 *
 param
+contentPadding
+Padding
+used
+within
+the
+card
+container
+.
+*
+param
 content
 The
 content

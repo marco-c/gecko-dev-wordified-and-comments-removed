@@ -152,7 +152,7 @@ content
 .
 *
 *
-param
+property
 composeView
 [
 ComposeView

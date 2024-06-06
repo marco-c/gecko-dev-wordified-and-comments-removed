@@ -877,7 +877,7 @@ MessageCard
 .
 *
 *
-param
+property
 backgroundColor
 The
 background
@@ -889,7 +889,7 @@ the
 message
 .
 *
-param
+property
 titleTextColor
 [
 Color
@@ -913,7 +913,7 @@ no
 title
 .
 *
-param
+property
 messageTextColor
 [
 Color
@@ -929,7 +929,7 @@ body
 text
 .
 *
-param
+property
 iconColor
 [
 Color
@@ -944,7 +944,7 @@ s
 icon
 .
 *
-param
+property
 buttonColor
 The
 background
@@ -959,7 +959,7 @@ s
 button
 .
 *
-param
+property
 buttonTextColor
 [
 Color

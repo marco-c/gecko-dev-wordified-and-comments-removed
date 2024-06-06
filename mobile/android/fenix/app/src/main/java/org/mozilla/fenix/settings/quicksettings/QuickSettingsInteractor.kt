@@ -120,7 +120,7 @@ QuickSettingsController
 .
 *
 *
-param
+property
 controller
 [
 QuickSettingsController

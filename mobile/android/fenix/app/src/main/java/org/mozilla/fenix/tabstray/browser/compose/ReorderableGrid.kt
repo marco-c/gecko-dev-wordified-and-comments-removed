@@ -594,7 +594,7 @@ grid
 .
 *
 *
-param
+property
 gridState
 State
 of
@@ -602,7 +602,7 @@ the
 grid
 .
 *
-param
+property
 scope
 [
 CoroutineScope
@@ -616,7 +616,7 @@ target
 item
 .
 *
-param
+property
 hapticFeedback
 [
 HapticFeedback
@@ -632,7 +632,7 @@ long
 press
 .
 *
-param
+property
 touchSlop
 Distance
 in
@@ -649,7 +649,7 @@ started
 dragging
 .
 *
-param
+property
 onMove
 Callback
 to
@@ -662,7 +662,7 @@ two
 items
 .
 *
-param
+property
 onLongPress
 Optional
 callback
@@ -676,7 +676,7 @@ an
 item
 .
 *
-param
+property
 onExitLongPress
 Optional
 callback
@@ -693,7 +693,7 @@ long
 press
 .
 *
-param
+property
 ignoredItems
 List
 of

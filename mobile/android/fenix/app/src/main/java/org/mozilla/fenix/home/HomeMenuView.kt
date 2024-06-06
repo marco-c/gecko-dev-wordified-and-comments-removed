@@ -414,6 +414,16 @@ is
 clicked
 .
 *
+property
+fxaEntrypoint
+The
+source
+entry
+point
+to
+FxA
+.
+*
 /
 Suppress
 (

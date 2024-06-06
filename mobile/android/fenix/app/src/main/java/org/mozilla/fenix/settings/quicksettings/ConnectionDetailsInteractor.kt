@@ -106,7 +106,7 @@ ConnectionDetailsController
 .
 *
 *
-param
+property
 controller
 [
 ConnectionDetailsController

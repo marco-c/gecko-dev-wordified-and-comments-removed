@@ -442,7 +442,7 @@ class
 .
 *
 *
-param
+property
 message
 that
 will

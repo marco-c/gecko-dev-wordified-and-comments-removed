@@ -361,7 +361,7 @@ the
 view
 .
 *
-param
+property
 interactor
 [
 PrivateBrowsingInteractor

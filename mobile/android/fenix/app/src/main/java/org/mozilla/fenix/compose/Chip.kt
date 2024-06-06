@@ -649,7 +649,7 @@ SelectableChip
 .
 *
 *
-param
+property
 selectedBackgroundColor
 Background
 [
@@ -662,7 +662,7 @@ is
 selected
 .
 *
-param
+property
 unselectedBackgroundColor
 Background
 [
@@ -676,7 +676,7 @@ not
 selected
 .
 *
-param
+property
 selectedTextColor
 Text
 [
@@ -689,7 +689,7 @@ is
 selected
 .
 *
-param
+property
 unselectedTextColor
 Text
 [

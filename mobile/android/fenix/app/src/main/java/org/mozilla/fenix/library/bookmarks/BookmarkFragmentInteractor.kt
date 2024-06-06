@@ -150,16 +150,6 @@ BookmarkViewInteractor
 *
 *
 property
-bookmarkStore
-bookmarks
-state
-*
-property
-viewModel
-view
-state
-*
-property
 bookmarksController
 view
 controller

@@ -228,6 +228,16 @@ downloads
 *
 *
 param
+tabId
+ID
+of
+the
+tab
+being
+removed
+.
+*
+param
 source
 is
 the

@@ -321,7 +321,7 @@ bookmarks
 .
 *
 *
-param
+property
 bookmarksStorage
 [
 BookmarksStorage
@@ -333,7 +333,7 @@ bookmark
 data
 .
 *
-param
+property
 historyStorage
 Optional
 [

@@ -724,9 +724,6 @@ TabCollection
 tab
 :
 ComponentTab
-wasSwiped
-:
-Boolean
 )
 /
 *
@@ -1363,9 +1360,6 @@ TabCollection
 tab
 :
 ComponentTab
-wasSwiped
-:
-Boolean
 )
 {
 Collections

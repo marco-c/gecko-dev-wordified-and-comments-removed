@@ -305,7 +305,7 @@ tied
 to
 .
 *
-param
+property
 tabsTrayStore
 [
 TabsTrayStore
@@ -323,7 +323,7 @@ inactiveTabs
 ]
 .
 *
-param
+property
 interactor
 [
 InactiveTabsInteractor

@@ -262,7 +262,7 @@ tied
 to
 .
 *
-param
+property
 interactor
 [
 CollectionInteractor
@@ -396,9 +396,6 @@ tab
 onRemove
 =
 {
-wasSwiped
--
->
 interactor
 .
 onCollectionRemoveTab
@@ -409,9 +406,6 @@ collection
 tab
 =
 tab
-wasSwiped
-=
-wasSwiped
 )
 }
 )

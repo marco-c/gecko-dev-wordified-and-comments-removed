@@ -2235,7 +2235,6 @@ handleCollectionRemoveTab
 (
 expectedCollection
 tab
-false
 )
 assertNotNull
 (
@@ -2321,7 +2320,6 @@ handleCollectionRemoveTab
 (
 collection
 tab
-false
 )
 assertNotNull
 (

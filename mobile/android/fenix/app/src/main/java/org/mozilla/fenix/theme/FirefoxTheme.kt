@@ -358,6 +358,17 @@ is
 displayed
 .
 *
+param
+content
+The
+children
+composables
+to
+be
+laid
+out
+.
+*
 /
 Composable
 fun

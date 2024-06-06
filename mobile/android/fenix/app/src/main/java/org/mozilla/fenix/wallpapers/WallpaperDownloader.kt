@@ -160,7 +160,7 @@ host
 .
 *
 *
-param
+property
 storageRootDirectory
 The
 top
@@ -172,7 +172,7 @@ storage
 directory
 .
 *
-param
+property
 client
 Required
 for
@@ -182,7 +182,7 @@ from
 network
 .
 *
-param
+property
 dispatcher
 Dispatcher
 used

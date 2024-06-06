@@ -300,7 +300,7 @@ Dialog
 .
 *
 *
-param
+property
 activity
 The
 [
@@ -914,7 +914,7 @@ application
 .
 *
 *
-param
+property
 activity
 The
 [
@@ -945,7 +945,7 @@ modal
 dialog
 .
 *
-param
+property
 filename
 Name
 of
@@ -964,7 +964,7 @@ any
 modification
 .
 *
-param
+property
 contentSize
 Size
 of
@@ -998,7 +998,7 @@ being
 shown
 .
 *
-param
+property
 positiveButtonAction
 Callback
 for
@@ -1015,7 +1015,7 @@ the
 download
 .
 *
-param
+property
 negativeButtonAction
 Callback
 for
@@ -1291,7 +1291,7 @@ request
 .
 *
 *
-param
+property
 activity
 The
 [
@@ -1322,7 +1322,7 @@ modal
 dialog
 .
 *
-param
+property
 downloaderApps
 List
 of
@@ -1336,7 +1336,7 @@ download
 request
 .
 *
-param
+property
 onAppSelected
 Callback
 for
@@ -1354,7 +1354,7 @@ download
 request
 .
 *
-param
+property
 negativeButtonAction
 Callback
 for

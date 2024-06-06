@@ -1026,7 +1026,7 @@ ReviewQualityCheckInfoCard
 .
 *
 *
-param
+property
 text
 The
 text
@@ -1037,7 +1037,7 @@ the
 button
 .
 *
-param
+property
 onClick
 The
 callback

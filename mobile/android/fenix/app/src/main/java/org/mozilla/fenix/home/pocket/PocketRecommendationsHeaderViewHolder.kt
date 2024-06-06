@@ -309,7 +309,7 @@ tied
 to
 .
 *
-param
+property
 interactor
 [
 PocketStoriesInteractor

@@ -772,9 +772,6 @@ TabCollection
 tab
 :
 Tab
-wasSwiped
-:
-Boolean
 )
 /
 *
@@ -1680,9 +1677,6 @@ TabCollection
 tab
 :
 Tab
-wasSwiped
-:
-Boolean
 )
 {
 controller
@@ -1691,7 +1685,6 @@ handleCollectionRemoveTab
 (
 collection
 tab
-wasSwiped
 )
 }
 override

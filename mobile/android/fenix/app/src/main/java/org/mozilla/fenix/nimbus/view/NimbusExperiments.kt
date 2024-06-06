@@ -211,7 +211,7 @@ AvailableExperiment
 listOf
 (
 )
-onSelectedExperiment
+onExperimentClick
 :
 (
 AvailableExperiment
@@ -260,7 +260,7 @@ MAX_VALUE
 onClick
 =
 {
-onSelectedExperiment
+onExperimentClick
 (
 experiment
 )
@@ -319,7 +319,7 @@ testExperiment
 testExperiment
 testExperiment
 )
-onSelectedExperiment
+onExperimentClick
 =
 {
 }

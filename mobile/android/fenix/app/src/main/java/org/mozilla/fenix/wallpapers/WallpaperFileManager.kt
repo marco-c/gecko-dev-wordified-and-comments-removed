@@ -154,7 +154,7 @@ storage
 directory
 .
 *
-param
+property
 coroutineDispatcher
 Dispatcher
 used

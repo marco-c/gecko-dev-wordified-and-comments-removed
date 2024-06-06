@@ -503,7 +503,7 @@ feature
 .
 *
 *
-param
+property
 homeActivity
 [
 HomeActivity
@@ -518,7 +518,7 @@ new
 tab
 .
 *
-param
+property
 appStore
 [
 AppStore

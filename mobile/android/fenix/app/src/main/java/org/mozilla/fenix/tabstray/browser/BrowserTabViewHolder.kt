@@ -261,7 +261,7 @@ tab
 thumbnails
 .
 *
-param
+property
 interactor
 [
 TabsTrayInteractor
@@ -575,7 +575,7 @@ tab
 thumbnails
 .
 *
-param
+property
 interactor
 [
 TabsTrayInteractor

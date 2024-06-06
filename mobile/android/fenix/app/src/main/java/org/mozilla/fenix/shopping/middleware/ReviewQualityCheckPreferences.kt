@@ -290,7 +290,7 @@ preferences
 .
 *
 *
-param
+property
 settings
 The
 [

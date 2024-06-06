@@ -169,7 +169,7 @@ to
 observe
 .
 *
-param
+property
 onRequestStateExpanded
 Callback
 to

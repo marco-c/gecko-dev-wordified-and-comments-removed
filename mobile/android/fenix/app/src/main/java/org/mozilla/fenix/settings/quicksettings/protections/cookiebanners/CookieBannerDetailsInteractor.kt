@@ -193,7 +193,7 @@ CookieBannerDetailsController
 .
 *
 *
-param
+property
 controller
 [
 CookieBannerDetailsController

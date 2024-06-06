@@ -327,7 +327,17 @@ browser
 fragment
 .
 *
-param
+*
+property
+context
+An
+Android
+[
+Context
+]
+.
+*
+property
 store
 reference
 to
@@ -340,7 +350,7 @@ BrowserStore
 ]
 .
 *
-param
+property
 sessionId
 ID
 of
@@ -351,7 +361,7 @@ tab
 session
 .
 *
-param
+property
 shouldReverseItems
 If
 true
@@ -361,7 +371,7 @@ menu
 items
 .
 *
-param
+property
 isSandboxCustomTab
 If
 true
@@ -384,7 +394,7 @@ FIREFOX
 items
 .
 *
-param
+property
 onItemTapped
 Called
 when

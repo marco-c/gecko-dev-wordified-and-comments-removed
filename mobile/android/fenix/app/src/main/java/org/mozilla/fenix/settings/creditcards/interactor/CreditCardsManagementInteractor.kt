@@ -233,7 +233,7 @@ CreditCardsManagementInteractor
 .
 *
 *
-param
+property
 controller
 An
 instance

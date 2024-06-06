@@ -538,7 +538,7 @@ toolbar
 .
 *
 *
-param
+property
 context
 used
 for
@@ -547,7 +547,7 @@ Android
 interactions
 .
 *
-param
+property
 browserStore
 will
 be
@@ -556,7 +556,7 @@ for
 tabs
 updates
 *
-param
+property
 settings
 used
 to
@@ -567,7 +567,7 @@ persistent
 user
 settings
 *
-param
+property
 toolbar
 will
 serve
@@ -577,7 +577,18 @@ for
 the
 CFRs
 *
-param
+property
+isPrivate
+Whether
+or
+not
+the
+session
+is
+private
+.
+*
+property
 sessionId
 optional
 custom
@@ -597,7 +608,7 @@ a
 CFR
 .
 *
-param
+property
 onShoppingCfrActionClicked
 Triggered
 when
@@ -611,7 +622,7 @@ CFR
 action
 .
 *
-param
+property
 shoppingExperienceFeature
 Used
 to

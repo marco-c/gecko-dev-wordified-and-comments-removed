@@ -156,7 +156,8 @@ Onboarding
 Pages
 .
 *
-param
+*
+property
 telemetryId
 Identifier
 for

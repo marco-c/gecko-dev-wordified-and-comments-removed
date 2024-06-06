@@ -373,7 +373,7 @@ details
 .
 *
 *
-param
+property
 containerView
 [
 ViewGroup
@@ -387,7 +387,7 @@ inflate
 itself
 .
 *
-param
+property
 trackingProtectionDivider
 trackingProtectionDivider
 The
@@ -407,7 +407,7 @@ QuickSettingsSheetDialogFragment
 ]
 .
 *
-param
+property
 interactor
 [
 ProtectionsInteractor
@@ -419,17 +419,16 @@ delegated
 to
 all
 user
+interactions
+.
 *
-param
+property
 settings
 [
 Settings
 ]
 application
 settings
-.
-*
-interactions
 .
 *
 /

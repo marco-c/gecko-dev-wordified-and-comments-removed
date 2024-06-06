@@ -201,7 +201,7 @@ website
 .
 *
 *
-param
+property
 updatedFeature
 [
 PhoneFeature
@@ -241,7 +241,7 @@ WebsitePermissionsState
 *
 .
 *
-param
+property
 updatedStatus
 [
 String
@@ -262,7 +262,7 @@ the
 user
 .
 *
-param
+property
 updatedEnabledStatus
 [
 Boolean
@@ -328,7 +328,7 @@ website
 .
 *
 *
-param
+property
 autoplayValue
 [
 AutoplayValue
@@ -408,7 +408,7 @@ protection
 .
 *
 *
-param
+property
 isTrackingProtectionEnabled
 Whether
 or

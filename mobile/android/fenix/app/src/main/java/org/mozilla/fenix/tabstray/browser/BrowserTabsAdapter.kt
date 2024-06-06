@@ -290,7 +290,7 @@ tabs
 .
 *
 *
-param
+property
 context
 [
 Context
@@ -306,7 +306,7 @@ accessing
 Components
 ]
 *
-param
+property
 interactor
 [
 TabsTrayInteractor
@@ -320,7 +320,7 @@ tab
 tray
 .
 *
-param
+property
 store
 [
 TabsTrayStore
@@ -339,7 +339,7 @@ update
 that
 .
 *
-param
+property
 featureName
 [
 String
@@ -359,7 +359,7 @@ telemetry
 reporting
 .
 *
-param
+property
 viewLifecycleOwner
 [
 LifecycleOwner

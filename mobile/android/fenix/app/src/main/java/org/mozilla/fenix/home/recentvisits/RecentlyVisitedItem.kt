@@ -128,7 +128,7 @@ importance
 .
 *
 *
-param
+property
 title
 The
 title
@@ -148,7 +148,7 @@ is
 unavailable
 .
 *
-param
+property
 url
 The
 URL

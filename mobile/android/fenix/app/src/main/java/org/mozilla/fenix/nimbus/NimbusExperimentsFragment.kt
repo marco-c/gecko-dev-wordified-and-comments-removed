@@ -260,7 +260,7 @@ NimbusExperiments
 experiments
 =
 experiments
-onSelectedExperiment
+onExperimentClick
 =
 {
 experiment

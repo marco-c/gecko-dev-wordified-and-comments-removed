@@ -210,7 +210,7 @@ status
 .
 *
 *
-param
+property
 syncPreference
 The
 sync
@@ -249,7 +249,7 @@ FxaAccountManager
 ]
 .
 *
-param
+property
 syncEngine
 The
 sync
@@ -265,7 +265,7 @@ status
 lookup
 .
 *
-param
+property
 loggedOffTitle
 Text
 label
@@ -280,7 +280,7 @@ logged
 in
 .
 *
-param
+property
 loggedInTitle
 Text
 label
@@ -294,7 +294,7 @@ logged
 in
 .
 *
-param
+property
 onSyncSignInClicked
 A
 callback
@@ -311,7 +311,7 @@ is
 clicked
 .
 *
-param
+property
 onReconnectClicked
 A
 callback

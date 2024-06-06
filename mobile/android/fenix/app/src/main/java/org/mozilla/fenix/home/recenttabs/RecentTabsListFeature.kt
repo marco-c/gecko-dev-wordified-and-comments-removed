@@ -309,7 +309,7 @@ recently
 viewed
 *
 *
-param
+property
 state
 Recently
 viewed

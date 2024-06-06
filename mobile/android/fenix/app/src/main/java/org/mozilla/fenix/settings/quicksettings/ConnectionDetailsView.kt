@@ -181,7 +181,7 @@ inflate
 itself
 .
 *
-param
+property
 icons
 Icons
 component
@@ -194,7 +194,7 @@ website
 icons
 .
 *
-param
+property
 interactor
 [
 WebSiteInfoInteractor
@@ -221,6 +221,7 @@ val
 icons
 :
 BrowserIcons
+private
 val
 interactor
 :

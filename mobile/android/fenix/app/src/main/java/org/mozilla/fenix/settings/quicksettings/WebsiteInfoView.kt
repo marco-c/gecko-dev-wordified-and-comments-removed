@@ -191,7 +191,7 @@ inflate
 itself
 .
 *
-param
+property
 icons
 Icons
 component
@@ -204,7 +204,7 @@ website
 icons
 .
 *
-param
+property
 interactor
 [
 WebSiteInfoInteractor
@@ -241,6 +241,7 @@ components
 core
 .
 icons
+private
 val
 interactor
 :
