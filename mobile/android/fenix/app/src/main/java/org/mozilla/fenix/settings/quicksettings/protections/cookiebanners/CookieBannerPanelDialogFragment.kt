@@ -534,6 +534,15 @@ context
 requireContext
 (
 )
+ioScope
+=
+viewLifecycleOwner
+.
+lifecycleScope
++
+Dispatchers
+.
+IO
 container
 =
 binding
