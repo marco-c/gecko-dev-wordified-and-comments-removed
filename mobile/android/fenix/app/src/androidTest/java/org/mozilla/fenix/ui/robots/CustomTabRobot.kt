@@ -1160,11 +1160,6 @@ UiSelector
 (
 )
 .
-index
-(
-2
-)
-.
 resourceId
 (
 "

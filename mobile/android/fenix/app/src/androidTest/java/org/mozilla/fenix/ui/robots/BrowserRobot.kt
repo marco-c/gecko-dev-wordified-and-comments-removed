@@ -5839,11 +5839,6 @@ UiSelector
 (
 )
 .
-index
-(
-0
-)
-.
 resourceId
 (
 "
@@ -5879,11 +5874,6 @@ findObject
 (
 UiSelector
 (
-)
-.
-index
-(
-2
 )
 .
 resourceId
@@ -5928,11 +5918,6 @@ findObject
 (
 UiSelector
 (
-)
-.
-index
-(
-1
 )
 .
 resourceId
