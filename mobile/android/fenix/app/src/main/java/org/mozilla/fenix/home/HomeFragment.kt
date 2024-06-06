@@ -2403,7 +2403,7 @@ duration
 Snackbar
 .
 LENGTH_SHORT
-isDisplayedOnBrowserFragment
+isDisplayedWithBrowserToolbar
 =
 false
 )
@@ -3676,7 +3676,7 @@ make
 view
 =
 view
-isDisplayedOnBrowserFragment
+isDisplayedWithBrowserToolbar
 =
 false
 )
@@ -4883,7 +4883,7 @@ duration
 Snackbar
 .
 LENGTH_LONG
-isDisplayedOnBrowserFragment
+isDisplayedWithBrowserToolbar
 =
 false
 )
@@ -4952,7 +4952,7 @@ duration
 Snackbar
 .
 LENGTH_LONG
-isDisplayedOnBrowserFragment
+isDisplayedWithBrowserToolbar
 =
 false
 )

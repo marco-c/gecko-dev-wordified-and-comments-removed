@@ -638,7 +638,7 @@ requireView
 duration
 =
 snackbarLength
-isDisplayedOnBrowserFragment
+isDisplayedWithBrowserToolbar
 =
 true
 )
@@ -666,7 +666,7 @@ requireView
 duration
 =
 snackbarLength
-isDisplayedOnBrowserFragment
+isDisplayedWithBrowserToolbar
 =
 false
 )

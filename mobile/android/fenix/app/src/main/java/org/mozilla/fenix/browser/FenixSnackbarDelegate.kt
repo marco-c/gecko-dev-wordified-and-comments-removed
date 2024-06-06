@@ -168,7 +168,7 @@ duration
 FenixSnackbar
 .
 LENGTH_SHORT
-isDisplayedOnBrowserFragment
+isDisplayedWithBrowserToolbar
 =
 true
 )
@@ -221,7 +221,7 @@ duration
 FenixSnackbar
 .
 LENGTH_SHORT
-isDisplayedOnBrowserFragment
+isDisplayedWithBrowserToolbar
 =
 true
 )

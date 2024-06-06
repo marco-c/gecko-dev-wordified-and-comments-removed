@@ -614,7 +614,7 @@ isError
 Boolean
 =
 false
-isDisplayedOnBrowserFragment
+isDisplayedWithBrowserToolbar
 :
 Boolean
 )
@@ -765,7 +765,7 @@ setPadding
 0
 if
 (
-isDisplayedOnBrowserFragment
+isDisplayedWithBrowserToolbar
 &
 &
 shouldUseBottomToolbar

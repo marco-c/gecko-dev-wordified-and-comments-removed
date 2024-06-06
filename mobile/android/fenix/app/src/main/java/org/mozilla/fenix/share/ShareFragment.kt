@@ -478,7 +478,7 @@ getRootView
 )
 !
 !
-isDisplayedOnBrowserFragment
+isDisplayedWithBrowserToolbar
 =
 true
 )

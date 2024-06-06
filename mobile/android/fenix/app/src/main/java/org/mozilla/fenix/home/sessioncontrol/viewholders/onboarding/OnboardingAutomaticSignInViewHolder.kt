@@ -359,7 +359,7 @@ duration
 Snackbar
 .
 LENGTH_SHORT
-isDisplayedOnBrowserFragment
+isDisplayedWithBrowserToolbar
 =
 false
 )

@@ -2006,7 +2006,7 @@ duration
 Snackbar
 .
 LENGTH_SHORT
-isDisplayedOnBrowserFragment
+isDisplayedWithBrowserToolbar
 =
 true
 )
@@ -4171,7 +4171,7 @@ duration
 FenixSnackbar
 .
 LENGTH_LONG
-isDisplayedOnBrowserFragment
+isDisplayedWithBrowserToolbar
 =
 true
 )
@@ -4424,9 +4424,9 @@ duration
 Snackbar
 .
 LENGTH_SHORT
-isDisplayedOnBrowserFragment
+isDisplayedWithBrowserToolbar
 =
-true
+false
 )
 .
 setText
