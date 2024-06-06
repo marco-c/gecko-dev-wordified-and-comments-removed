@@ -914,7 +914,7 @@ up
 fun
 fromURLString
 (
-string
+urlString
 :
 String
 )
@@ -944,14 +944,14 @@ first
 val
 utmIndex
 =
-string
+urlString
 .
 indexOf
 (
 "
 utm_
 "
-string
+urlString
 .
 indexOf
 (
@@ -973,7 +973,7 @@ null
 var
 url
 =
-string
+urlString
 .
 substring
 (
