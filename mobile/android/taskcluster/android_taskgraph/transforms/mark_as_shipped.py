@@ -118,9 +118,9 @@ tasks
 product
 =
 "
-Android
+Firefox
 -
-components
+android
 "
         
 version
