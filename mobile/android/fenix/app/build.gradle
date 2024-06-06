@@ -7166,6 +7166,16 @@ lint
 rules
 "
 )
+lintChecks
+project
+(
+'
+:
+tooling
+-
+lint
+'
+)
 }
 protobuf
 {

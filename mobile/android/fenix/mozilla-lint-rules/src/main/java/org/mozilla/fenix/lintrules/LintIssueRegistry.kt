@@ -188,15 +188,6 @@ listOf
 ButtonStyleXmlDetector
 .
 ISSUE_XML_STYLE
-AndroidSrcXmlDetector
-.
-ISSUE_XML_SRC_USAGE
-TextViewAndroidSrcXmlDetector
-.
-ISSUE_XML_SRC_USAGE
-ImageViewAndroidTintXmlDetector
-.
-ISSUE_XML_SRC_USAGE
 LicenseDetector
 .
 ISSUE_MISSING_LICENSE

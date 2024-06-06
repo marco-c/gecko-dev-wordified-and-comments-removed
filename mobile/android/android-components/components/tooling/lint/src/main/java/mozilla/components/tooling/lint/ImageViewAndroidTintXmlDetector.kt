@@ -211,16 +211,6 @@ api
 .
 XmlContext
 import
-com
-.
-google
-.
-common
-.
-annotations
-.
-VisibleForTesting
-import
 org
 .
 w3c
@@ -339,7 +329,6 @@ tint
 with
 AppCompatImageView
 "
-VisibleForTesting
 val
 ISSUE_XML_SRC_USAGE
 =
