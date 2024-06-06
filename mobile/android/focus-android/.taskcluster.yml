@@ -5,7 +5,7 @@ policy
 :
 pullRequests
 :
-public
+collaborators
 tasks
 :
 #
