@@ -204,7 +204,7 @@ menu
 *
 /
 class
-SettingsSubMenuThemeRobot
+SettingsSubMenuCustomizeRobot
 {
 fun
 verifyThemes

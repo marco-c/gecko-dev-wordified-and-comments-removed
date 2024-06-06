@@ -1167,7 +1167,7 @@ openCustomizeSubMenu
 (
 interact
 :
-SettingsSubMenuThemeRobot
+SettingsSubMenuCustomizeRobot
 .
 (
 )
@@ -1176,7 +1176,7 @@ SettingsSubMenuThemeRobot
 Unit
 )
 :
-SettingsSubMenuThemeRobot
+SettingsSubMenuCustomizeRobot
 .
 Transition
 {
@@ -1201,7 +1201,7 @@ customizeButton
 click
 (
 )
-SettingsSubMenuThemeRobot
+SettingsSubMenuCustomizeRobot
 (
 )
 .
@@ -1209,7 +1209,7 @@ interact
 (
 )
 return
-SettingsSubMenuThemeRobot
+SettingsSubMenuCustomizeRobot
 .
 Transition
 (
