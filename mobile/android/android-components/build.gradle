@@ -2292,8 +2292,10 @@ classpath
 configurations
 .
 ktlint
-main
-=
+mainClass
+.
+set
+(
 "
 com
 .
@@ -2303,6 +2305,7 @@ ktlint
 .
 Main
 "
+)
 args
 "
 components
@@ -2394,8 +2397,10 @@ classpath
 configurations
 .
 ktlint
-main
-=
+mainClass
+.
+set
+(
 "
 com
 .
@@ -2405,6 +2410,7 @@ ktlint
 .
 Main
 "
+)
 args
 "
 -
