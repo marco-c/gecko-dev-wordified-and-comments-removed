@@ -245,7 +245,10 @@ mozillaonline
 :
 type
 :
-signing
+generic
+product
+:
+mobile
 default
 :
 {
