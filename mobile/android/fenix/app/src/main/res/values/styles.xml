@@ -3207,7 +3207,7 @@ toolbarStartGradient
 >
 color
 /
-toolbar_start_gradient_private_theme
+fx_mobile_private_layer_color_4_start
 <
 /
 item
@@ -3222,7 +3222,7 @@ toolbarCenterGradient
 >
 color
 /
-toolbar_center_gradient_private_theme
+fx_mobile_private_layer_color_4_center
 <
 /
 item
@@ -3237,7 +3237,7 @@ toolbarEndGradient
 >
 color
 /
-toolbar_end_gradient_private_theme
+fx_mobile_private_layer_color_4_end
 <
 /
 item
