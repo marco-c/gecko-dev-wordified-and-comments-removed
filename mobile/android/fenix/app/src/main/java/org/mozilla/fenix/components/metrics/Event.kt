@@ -123,12 +123,6 @@ Event
 (
 )
 object
-TabSettingsOpened
-:
-Event
-(
-)
-object
 SyncedTabSuggestionClicked
 :
 Event
