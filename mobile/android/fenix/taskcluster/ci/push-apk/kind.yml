@@ -97,10 +97,6 @@ dependencies
 :
 -
 signing
--
-startup
--
-test
 primary
 -
 dependency
