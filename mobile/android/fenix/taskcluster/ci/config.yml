@@ -13,7 +13,7 @@ group
 names
 :
 '
-betaFennec
+beta
 '
 :
 '
@@ -116,17 +116,7 @@ github
 push
 '
 '
-production
-'
-:
-'
-Release
--
-related
-tasks
-'
-'
-productionFennec
+release
 '
 :
 '

@@ -382,7 +382,7 @@ gradlew
 :
 [
 '
-lintGeckoNightlyDebug
+lintDebug
 '
 '
 githubLintAndroidDetails

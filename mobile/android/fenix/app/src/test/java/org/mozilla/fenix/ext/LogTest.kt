@@ -249,7 +249,7 @@ channel
 returns
 ReleaseChannel
 .
-FenixDebug
+Debug
 logDebug
 (
 "
@@ -297,7 +297,7 @@ channel
 returns
 ReleaseChannel
 .
-FenixDebug
+Debug
 logWarn
 (
 "
@@ -346,7 +346,7 @@ channel
 returns
 ReleaseChannel
 .
-FenixDebug
+Debug
 logWarn
 (
 "
@@ -397,7 +397,7 @@ channel
 returns
 ReleaseChannel
 .
-FenixDebug
+Debug
 logErr
 (
 "
@@ -444,7 +444,7 @@ channel
 returns
 ReleaseChannel
 .
-FenixProduction
+Release
 logDebug
 (
 "

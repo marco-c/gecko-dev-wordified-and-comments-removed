@@ -309,7 +309,7 @@ channel
 returns
 ReleaseChannel
 .
-FenixProduction
+Release
 assertEquals
 (
 "
@@ -359,7 +359,7 @@ channel
 returns
 ReleaseChannel
 .
-FenixDebug
+Debug
 assertEquals
 (
 "
@@ -404,7 +404,7 @@ channel
 returns
 ReleaseChannel
 .
-FenixDebug
+Debug
 every
 {
 functionBlock

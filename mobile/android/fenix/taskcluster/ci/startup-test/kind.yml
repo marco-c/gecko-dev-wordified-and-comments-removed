@@ -321,8 +321,6 @@ build
 /
 x86
 /
-geckoNightly
-/
 target
 .
 apk
@@ -360,8 +358,6 @@ public
 build
 /
 noarch
-/
-geckoNightly
 /
 target
 .
@@ -450,8 +446,6 @@ armeabi
 -
 v7a
 /
-geckoNightly
-/
 target
 .
 apk
@@ -489,8 +483,6 @@ public
 build
 /
 noarch
-/
-geckoNightly
 /
 target
 .

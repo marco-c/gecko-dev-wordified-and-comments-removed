@@ -673,7 +673,7 @@ channel
 {
 ReleaseChannel
 .
-FenixProduction
+Nightly
 -
 >
 "
@@ -683,7 +683,7 @@ fenix
 "
 ReleaseChannel
 .
-FennecProduction
+Release
 -
 >
 "
@@ -695,7 +695,7 @@ fennec
 "
 ReleaseChannel
 .
-FennecBeta
+Beta
 -
 >
 "

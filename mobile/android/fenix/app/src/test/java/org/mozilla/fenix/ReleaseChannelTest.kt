@@ -93,7 +93,7 @@ fenix
 .
 ReleaseChannel
 .
-FenixDebug
+Debug
 class
 ReleaseChannelTest
 {
@@ -114,7 +114,7 @@ debugChannels
 =
 setOf
 (
-FenixDebug
+Debug
 )
 val
 nonDebugChannels

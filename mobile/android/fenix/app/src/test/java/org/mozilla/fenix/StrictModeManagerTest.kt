@@ -264,7 +264,7 @@ channel
 returns
 ReleaseChannel
 .
-FenixProduction
+Release
 StrictModeManager
 .
 enableStrictMode
@@ -322,7 +322,7 @@ channel
 returns
 ReleaseChannel
 .
-FenixDebug
+Debug
 StrictModeManager
 .
 enableStrictMode

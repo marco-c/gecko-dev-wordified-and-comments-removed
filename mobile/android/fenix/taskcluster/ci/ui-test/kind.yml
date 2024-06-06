@@ -161,8 +161,6 @@ build
 /
 x86
 /
-geckoNightly
-/
 target
 .
 apk
@@ -198,8 +196,6 @@ public
 build
 /
 noarch
-/
-geckoNightly
 /
 target
 .

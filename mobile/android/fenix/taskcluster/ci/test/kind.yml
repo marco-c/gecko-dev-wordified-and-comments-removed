@@ -191,11 +191,6 @@ build
 type
 :
 debug
-geckoview
--
-engine
-:
-geckoNightly
 code
 -
 review
@@ -216,7 +211,7 @@ Pcoverage
 '
 -
 '
-jacocoGeckoNightlyDebugTestReport
+jacocoDebugTestReport
 '
 -
 '
@@ -312,7 +307,7 @@ reports
 /
 tests
 /
-testGeckoNightlyDebugUnitTest
+testDebugUnitTest
 /
 index
 .

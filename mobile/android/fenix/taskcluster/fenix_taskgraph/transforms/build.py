@@ -479,28 +479,11 @@ type
 "
 ]
         
-geckoview_engine
-=
-task
-[
-"
-run
-"
-]
-[
-"
-geckoview
--
-engine
-"
-]
-        
 variant_config
 =
 get_variant
 (
 gradle_build_type
-geckoview_engine
 )
         
 task
@@ -782,30 +765,11 @@ type
 "
 )
         
-geckoview_engine
-=
-task
-[
-"
-run
-"
-]
-.
-pop
-(
-"
-geckoview
--
-engine
-"
-)
-        
 variant_config
 =
 get_variant
 (
 gradle_build_type
-geckoview_engine
 )
         
 artifacts
@@ -897,9 +861,6 @@ name
 format
 (
                     
-geckoview_engine
-=
-geckoview_engine
 *
 *
 apk
@@ -942,10 +903,6 @@ path
 .
 format
 (
-                        
-geckoview_engine
-=
-geckoview_engine
                         
 gradle_build_type
 =
