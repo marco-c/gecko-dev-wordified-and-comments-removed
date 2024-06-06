@@ -2059,7 +2059,7 @@ string
 .
 pref_key_use_nimbus_preview
 )
-true
+false
 )
 set
 (
