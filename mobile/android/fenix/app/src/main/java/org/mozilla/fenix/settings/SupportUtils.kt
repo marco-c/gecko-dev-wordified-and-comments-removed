@@ -308,10 +308,6 @@ baidu
 .
 com
 /
-?
-from
-=
-1000969a
 "
 const
 val
