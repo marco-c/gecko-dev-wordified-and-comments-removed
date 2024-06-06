@@ -110,7 +110,7 @@ PopupWindow
 )
 {
 var
-onCompletion
+onUrlAdded
 :
 (
 (
@@ -192,7 +192,7 @@ job
 .
 invokeOnCompletion
 {
-onCompletion
+onUrlAdded
 ?
 .
 invoke
