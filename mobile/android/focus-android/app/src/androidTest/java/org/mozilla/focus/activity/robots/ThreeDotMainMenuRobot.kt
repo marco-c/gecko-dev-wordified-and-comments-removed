@@ -366,12 +366,14 @@ isChecked
 )
 }
 else
+{
 assertFalse
 (
 requestDesktopSiteButton
 .
 isChecked
 )
+}
 }
 fun
 verifySettingsButtonExists

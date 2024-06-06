@@ -285,9 +285,11 @@ exported
 null
 }
 else
+{
 resolveInfo
 .
 activityInfo
+}
 }
 private
 fun

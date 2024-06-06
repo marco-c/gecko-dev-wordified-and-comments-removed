@@ -289,7 +289,6 @@ activity
 *
 /
 UNKNOWN
-;
 }
 /
 *

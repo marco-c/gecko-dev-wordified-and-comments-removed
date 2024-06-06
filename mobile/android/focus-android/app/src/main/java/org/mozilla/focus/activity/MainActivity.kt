@@ -1883,6 +1883,7 @@ asView
 )
 }
 else
+{
 super
 .
 onCreateView
@@ -1892,6 +1893,7 @@ name
 context
 attrs
 )
+}
 }
 override
 fun

@@ -606,6 +606,7 @@ asView
 )
 }
 else
+{
 super
 .
 onCreateView
@@ -615,6 +616,7 @@ name
 context
 attrs
 )
+}
 }
 companion
 object
