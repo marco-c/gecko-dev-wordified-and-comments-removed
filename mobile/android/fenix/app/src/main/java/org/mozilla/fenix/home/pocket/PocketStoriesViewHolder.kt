@@ -519,9 +519,11 @@ stories
 let
 {
 interactor
-:
-:
+.
 onStoriesShown
+(
+it
+)
 }
 }
 Column
