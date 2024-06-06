@@ -487,13 +487,6 @@ DefaultBrowsingModeManager
 (
 this
 )
-components
-.
-core
-.
-setEnginePreferredColorScheme
-(
-)
 setContentView
 (
 R
