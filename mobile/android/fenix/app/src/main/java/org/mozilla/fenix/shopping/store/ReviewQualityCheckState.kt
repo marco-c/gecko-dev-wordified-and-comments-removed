@@ -279,6 +279,16 @@ disabled
 .
 *
 property
+productRecommendationsExposure
+Whether
+product
+recommendations
+exposure
+is
+enabled
+.
+*
+property
 productVendor
 The
 vendor
@@ -341,6 +351,10 @@ productRecommendationsPreference
 :
 Boolean
 ?
+val
+productRecommendationsExposure
+:
+Boolean
 val
 productVendor
 :

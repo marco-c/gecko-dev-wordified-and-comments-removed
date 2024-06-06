@@ -279,6 +279,11 @@ productRecommendationsPreference
 action
 .
 isProductRecommendationsEnabled
+productRecommendationsExposure
+=
+action
+.
+productRecommendationsExposure
 isHighlightsExpanded
 =
 action
@@ -307,6 +312,11 @@ productRecommendationsPreference
 action
 .
 isProductRecommendationsEnabled
+productRecommendationsExposure
+=
+action
+.
+productRecommendationsExposure
 productVendor
 =
 action

@@ -242,6 +242,9 @@ OptInCompleted
 isProductRecommendationsEnabled
 =
 true
+productRecommendationsExposure
+=
+true
 productVendor
 =
 ReviewQualityCheckState
