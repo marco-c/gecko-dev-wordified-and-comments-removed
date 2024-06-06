@@ -1646,11 +1646,6 @@ verification
 "
 "
 "
-data
-=
-b
-"
-"
 for
 _
 in
@@ -1664,8 +1659,11 @@ sleeptime
 60
 )
 :
-try
-:
+data
+=
+b
+"
+"
 log
 (
 "
@@ -1678,6 +1676,8 @@ s
 url
 )
 )
+try
+:
 for
 chunk
 in
