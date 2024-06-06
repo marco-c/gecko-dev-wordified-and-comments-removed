@@ -311,21 +311,6 @@ mozilla
 fenix
 .
 ui
-.
-TabbedBrowsingTest
-#
-verifyTabTrayNotShowingStateHalfExpanded
-#
--
-package
-org
-.
-mozilla
-.
-fenix
-.
-ui
-#
 -
 package
 org
@@ -417,4 +402,4 @@ test
 -
 runs
 :
-50
+1
