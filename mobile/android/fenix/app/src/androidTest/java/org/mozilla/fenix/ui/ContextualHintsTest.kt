@@ -215,6 +215,9 @@ false
 isRecentlyVisitedFeatureEnabled
 =
 false
+isCookieBannerReductionDialogEnabled
+=
+false
 )
 Before
 fun
