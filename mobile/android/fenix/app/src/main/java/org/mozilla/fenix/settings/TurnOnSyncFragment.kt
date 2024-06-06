@@ -288,6 +288,7 @@ this
 popBackStack
 (
 )
+return
 }
 requireComponents
 .
