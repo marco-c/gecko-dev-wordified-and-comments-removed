@@ -507,7 +507,7 @@ R
 .
 color
 .
-accent_normal_theme
+fx_mobile_layer_color_accent
 }
 else
 {
