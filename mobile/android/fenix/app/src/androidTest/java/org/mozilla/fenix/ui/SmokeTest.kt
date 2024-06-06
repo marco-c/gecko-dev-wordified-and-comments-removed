@@ -3415,7 +3415,7 @@ true
 }
 enhancedTrackingProtection
 {
-verifyEnhancedTrackingProtectionNotice
+verifyEnhancedTrackingProtectionShield
 (
 )
 }
