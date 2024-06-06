@@ -2779,11 +2779,9 @@ name
 "
 androidx
 .
-work
+startup
 .
-impl
-.
-WorkManagerInitializer
+InitializationProvider
 "
 android
 :
@@ -2794,9 +2792,9 @@ authorities
 applicationId
 }
 .
-workmanager
+androidx
 -
-init
+startup
 "
 tools
 :
