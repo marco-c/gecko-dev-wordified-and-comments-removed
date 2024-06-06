@@ -1880,11 +1880,6 @@ ExtensionsProcessDisabledController
 (
 this
 HomeActivity
-components
-.
-core
-.
-store
 )
 }
 private
