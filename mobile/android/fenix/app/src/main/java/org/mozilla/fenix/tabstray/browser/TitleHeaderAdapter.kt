@@ -138,6 +138,16 @@ fenix
 databinding
 .
 TabTrayTitleHeaderItemBinding
+import
+org
+.
+mozilla
+.
+fenix
+.
+utils
+.
+Settings
 /
 *
 *
@@ -160,6 +170,9 @@ TitleHeaderAdapter
 browserStore
 :
 BrowserStore
+settings
+:
+Settings
 )
 :
 ListAdapter
@@ -184,6 +197,7 @@ normalTabsHeaderBinding
 TitleHeaderBinding
 (
 browserStore
+settings
 :
 :
 handleListChanges

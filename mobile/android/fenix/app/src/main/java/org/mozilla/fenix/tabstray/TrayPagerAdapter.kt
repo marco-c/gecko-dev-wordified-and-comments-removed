@@ -123,6 +123,16 @@ mozilla
 .
 fenix
 .
+ext
+.
+settings
+import
+org
+.
+mozilla
+.
+fenix
+.
 sync
 .
 SyncedTabsAdapter
@@ -356,6 +366,7 @@ InactiveTabsAdapter
 (
 context
 browserInteractor
+interactor
 INACTIVE_TABS_FEATURE_NAME
 )
 TabGroupAdapter
@@ -368,6 +379,11 @@ TAB_GROUP_FEATURE_NAME
 TitleHeaderAdapter
 (
 browserStore
+context
+.
+settings
+(
+)
 )
 BrowserTabsAdapter
 (

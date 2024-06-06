@@ -163,6 +163,16 @@ fenix
 .
 tabstray
 .
+TabsTrayInteractor
+import
+org
+.
+mozilla
+.
+fenix
+.
+tabstray
+.
 browser
 .
 InactiveTabViewHolder
@@ -390,6 +400,11 @@ browserTrayInteractor
 BrowserTrayInteractor
 private
 val
+tabsTrayInteractor
+:
+TabsTrayInteractor
+private
+val
 featureName
 :
 String
@@ -464,6 +479,7 @@ HeaderHolder
 (
 view
 inactiveTabsInteractor
+tabsTrayInteractor
 )
 TabViewHolder
 .
