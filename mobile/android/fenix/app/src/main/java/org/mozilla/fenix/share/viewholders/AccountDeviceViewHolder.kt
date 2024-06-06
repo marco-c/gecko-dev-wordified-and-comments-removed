@@ -618,7 +618,7 @@ R
 .
 drawable
 .
-mozac_ic_device_mobile
+mozac_ic_device_mobile_24
 R
 .
 color
