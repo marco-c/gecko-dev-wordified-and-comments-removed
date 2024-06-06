@@ -1826,6 +1826,13 @@ core
 .
 store
 )
+lifecycleScope
+.
+launch
+(
+IO
+)
+{
 if
 (
 !
@@ -1844,6 +1851,7 @@ core
 .
 store
 )
+}
 }
 requireContext
 (
