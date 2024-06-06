@@ -191,7 +191,7 @@ IRC
 :
 [
 #
-focus
+fenix
 (
 irc
 .
