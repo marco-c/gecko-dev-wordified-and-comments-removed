@@ -440,6 +440,16 @@ interrupted_
 true
 ;
 }
+void
+uninterrupt
+(
+)
+{
+interrupted_
+=
+false
+;
+}
 JSObject
 *
 maybeFront

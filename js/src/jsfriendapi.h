@@ -748,6 +748,16 @@ cx
 extern
 JS_PUBLIC_API
 void
+RestartDrainingJobQueue
+(
+JSContext
+*
+cx
+)
+;
+extern
+JS_PUBLIC_API
+void
 RunJobs
 (
 JSContext
