@@ -2394,11 +2394,14 @@ sessionState
 )
 ;
 }
+else
+{
 loadUrl
 (
 desiredURL
 )
 ;
+}
 }
 Override
 public
