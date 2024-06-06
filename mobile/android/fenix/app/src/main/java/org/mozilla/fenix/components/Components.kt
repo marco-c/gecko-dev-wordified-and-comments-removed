@@ -67,6 +67,12 @@ components
 import
 android
 .
+annotation
+.
+SuppressLint
+import
+android
+.
 app
 .
 Application
@@ -1093,6 +1099,14 @@ settings
 )
 )
 }
+delegate
+:
+SuppressLint
+(
+"
+NewApi
+"
+)
 val
 autofillConfiguration
 by
