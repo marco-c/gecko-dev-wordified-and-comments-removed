@@ -2343,7 +2343,7 @@ show
 (
 WeakReference
 (
-view
+it
 )
 handlePasteAndGo
 =
