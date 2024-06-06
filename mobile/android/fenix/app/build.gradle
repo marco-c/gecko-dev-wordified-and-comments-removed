@@ -850,6 +850,14 @@ testImplementation
 Deps
 .
 mockk
+implementation
+Deps
+.
+glide
+annotationProcessor
+Deps
+.
+glideAnnotationProcessor
 }
 android
 .
