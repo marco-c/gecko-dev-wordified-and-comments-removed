@@ -8036,6 +8036,14 @@ classic
 wallpapers
 title
 .
+The
+first
+parameter
+is
+the
+Firefox
+name
+.
 -
 -
 >
@@ -8048,7 +8056,8 @@ wallpaper_classic_title
 "
 >
 Classic
-Firefox
+%
+s
 <
 /
 string

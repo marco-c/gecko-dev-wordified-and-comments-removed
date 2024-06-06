@@ -888,6 +888,14 @@ R
 string
 .
 wallpaper_classic_title
+stringResource
+(
+R
+.
+string
+.
+firefox
+)
 )
 color
 =
