@@ -968,6 +968,9 @@ historyListIdlingResource
 verifyDeleteConfirmationMessage
 (
 )
+selectEverythingOption
+(
+)
 confirmDeleteAllHistory
 (
 )
