@@ -1130,7 +1130,7 @@ name
 recent_bookmark_item_height
 "
 >
-128dp
+132dp
 <
 /
 dimen
@@ -1143,7 +1143,7 @@ name
 recent_bookmark_item_width
 "
 >
-152dp
+161dp
 <
 /
 dimen
@@ -1182,7 +1182,7 @@ name
 recent_bookmark_item_favicon_corner_size
 "
 >
-4dp
+8dp
 <
 /
 dimen
