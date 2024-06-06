@@ -654,10 +654,6 @@ value
 field
 =
 value
-setActivityTheme
-(
-activity
-)
 val
 intent
 =
