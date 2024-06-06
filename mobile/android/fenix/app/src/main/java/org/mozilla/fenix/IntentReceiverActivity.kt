@@ -151,6 +151,18 @@ utils
 .
 EXTRA_ACTIVITY_REFERRER_PACKAGE
 import
+mozilla
+.
+components
+.
+support
+.
+utils
+.
+ext
+.
+getApplicationInfoCompat
+import
 org
 .
 mozilla
@@ -867,7 +879,7 @@ category
 =
 packageManager
 .
-getApplicationInfo
+getApplicationInfoCompat
 (
 host
 0

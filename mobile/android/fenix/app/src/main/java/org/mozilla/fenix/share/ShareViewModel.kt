@@ -207,6 +207,18 @@ manager
 .
 FxaAccountManager
 import
+mozilla
+.
+components
+.
+support
+.
+utils
+.
+ext
+.
+queryIntentActivitiesCompat
+import
 org
 .
 mozilla
@@ -1011,7 +1023,7 @@ context
 .
 packageManager
 .
-queryIntentActivities
+queryIntentActivitiesCompat
 (
 shareIntent
 0

@@ -81,6 +81,18 @@ pm
 .
 PackageManager
 import
+mozilla
+.
+components
+.
+support
+.
+utils
+.
+ext
+.
+getPackageInfoCompat
+import
 org
 .
 mozilla
@@ -340,7 +352,7 @@ context
 .
 packageManager
 .
-getPackageInfo
+getPackageInfoCompat
 (
 packageName
 0
