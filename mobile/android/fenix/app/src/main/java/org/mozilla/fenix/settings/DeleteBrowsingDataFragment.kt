@@ -1185,6 +1185,13 @@ deleteBrowsingData
 (
 )
 {
+withContext
+(
+Dispatchers
+.
+Main
+)
+{
 requireComponents
 .
 core
@@ -1201,6 +1208,7 @@ all
 (
 )
 )
+}
 requireComponents
 .
 core
