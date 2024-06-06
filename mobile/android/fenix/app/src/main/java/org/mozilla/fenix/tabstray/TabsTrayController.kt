@@ -253,9 +253,7 @@ mozilla
 .
 fenix
 .
-tabstray
-.
-browser
+ext
 .
 DEFAULT_ACTIVE_DAYS
 import
@@ -265,11 +263,9 @@ mozilla
 .
 fenix
 .
-tabstray
-.
 ext
 .
-inactiveTabs
+potentialInactiveTabs
 import
 java
 .
@@ -1327,7 +1323,7 @@ browserStore
 .
 state
 .
-inactiveTabs
+potentialInactiveTabs
 .
 map
 {

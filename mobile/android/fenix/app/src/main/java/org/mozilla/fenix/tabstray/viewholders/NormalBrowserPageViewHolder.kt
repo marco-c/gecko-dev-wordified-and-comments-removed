@@ -237,9 +237,7 @@ mozilla
 .
 fenix
 .
-tabstray
-.
-browser
+ext
 .
 maxActiveTime
 import
@@ -285,11 +283,9 @@ mozilla
 .
 fenix
 .
-tabstray
-.
 ext
 .
-inactiveTabs
+potentialInactiveTabs
 import
 org
 .
@@ -748,7 +744,7 @@ browserStore
 .
 state
 .
-inactiveTabs
+potentialInactiveTabs
 /
 /
 We

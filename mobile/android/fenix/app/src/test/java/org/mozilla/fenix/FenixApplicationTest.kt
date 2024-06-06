@@ -323,11 +323,9 @@ mozilla
 .
 fenix
 .
-tabstray
-.
 ext
 .
-inactiveTabs
+potentialInactiveTabs
 import
 org
 .
@@ -1175,7 +1173,7 @@ browserStore
 .
 state
 .
-inactiveTabs
+potentialInactiveTabs
 }
 returns
 listOf

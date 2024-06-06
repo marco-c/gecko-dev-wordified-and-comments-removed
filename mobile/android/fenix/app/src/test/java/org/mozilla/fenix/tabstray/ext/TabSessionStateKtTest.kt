@@ -123,9 +123,7 @@ mozilla
 .
 fenix
 .
-tabstray
-.
-browser
+ext
 .
 DEFAULT_ACTIVE_DAYS
 import

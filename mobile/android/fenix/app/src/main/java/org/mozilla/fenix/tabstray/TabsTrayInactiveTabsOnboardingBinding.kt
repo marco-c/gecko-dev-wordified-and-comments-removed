@@ -289,11 +289,9 @@ mozilla
 .
 fenix
 .
-tabstray
-.
 ext
 .
-inactiveTabs
+potentialInactiveTabs
 import
 org
 .
@@ -406,7 +404,7 @@ store
 .
 state
 .
-inactiveTabs
+potentialInactiveTabs
 }
 else
 emptyList

@@ -319,9 +319,7 @@ mozilla
 .
 fenix
 .
-tabstray
-.
-browser
+ext
 .
 maxActiveTime
 import
@@ -331,11 +329,9 @@ mozilla
 .
 fenix
 .
-tabstray
-.
 ext
 .
-inactiveTabs
+potentialInactiveTabs
 class
 DefaultTabsTrayControllerTest
 {
@@ -2740,7 +2736,7 @@ browserStore
 .
 state
 .
-inactiveTabs
+potentialInactiveTabs
 }
 returns
 listOf
@@ -2888,7 +2884,7 @@ browserStore
 .
 state
 .
-inactiveTabs
+potentialInactiveTabs
 }
 returns
 listOf

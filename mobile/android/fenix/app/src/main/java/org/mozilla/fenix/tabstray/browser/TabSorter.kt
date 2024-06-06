@@ -141,6 +141,16 @@ fenix
 .
 ext
 .
+maxActiveTime
+import
+org
+.
+mozilla
+.
+fenix
+.
+ext
+.
 toSearchGroup
 import
 org
