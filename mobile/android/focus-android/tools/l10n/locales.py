@@ -347,6 +347,14 @@ vi
 "
 	
 "
+wo
+"
+	
+"
+zam
+"
+	
+"
 zh
 -
 CN
@@ -356,10 +364,6 @@ CN
 zh
 -
 TW
-"
-	
-"
-zam
 "
 ]
 ADDITIONAL_SCREENSHOT_LOCALES
@@ -372,10 +376,6 @@ ixl
 	
 "
 lt
-"
-	
-"
-wo
 "
 ]
 SCREENSHOT_LOCALES
