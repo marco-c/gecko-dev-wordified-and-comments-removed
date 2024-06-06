@@ -123,7 +123,7 @@ HTTPs
 '
 )
     
-url
+html_url
 =
 remote
 .
@@ -151,7 +151,7 @@ remote
 url
     
 return
-url
+html_url
 str
 (
 branch
@@ -333,13 +333,13 @@ repository
 {
                 
 '
-clone_url
+html_url
 '
 :
 params
 [
 '
-repository_github_http_url
+html_url
 '
 ]
             
@@ -496,7 +496,7 @@ v1
 }
 )
     
-repository_github_http_url
+html_url
 branch
 head_rev
 =
@@ -516,10 +516,10 @@ is_staging
 is_staging
         
 '
-repository_github_http_url
+html_url
 '
 :
-repository_github_http_url
+html_url
         
 '
 head_rev
