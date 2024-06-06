@@ -155,6 +155,10 @@ val
 name
 :
 String
+val
+domain
+:
+String
 )
 :
 Parcelable
