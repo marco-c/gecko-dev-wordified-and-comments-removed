@@ -908,18 +908,6 @@ string
 name
 =
 "
-menu_whats_new
-"
->
-<
-/
-string
->
-<
-string
-name
-=
-"
 menu_settings
 "
 >
@@ -7542,6 +7530,7 @@ name
 download_firefox
 "
 >
+Firefox
 <
 /
 string
