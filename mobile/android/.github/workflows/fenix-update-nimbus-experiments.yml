@@ -83,6 +83,8 @@ workflow_dispatch
 }
 jobs
 :
+fenix
+-
 update
 -
 nimbus
@@ -168,6 +170,8 @@ output
 -
 path
 :
+fenix
+/
 app
 /
 src
@@ -217,6 +221,8 @@ branch
 automation
 /
 update
+-
+fenix
 -
 nimbus
 -
@@ -293,6 +299,8 @@ automation
 /
 update
 -
+fenix
+-
 nimbus
 -
 experiments
@@ -301,7 +309,8 @@ commit
 message
 :
 "
-update
+Update
+Fenix
 initial_experiments
 .
 json
@@ -320,6 +329,7 @@ title
 :
 "
 Update
+Fenix
 initial
 experiments
 JSON
