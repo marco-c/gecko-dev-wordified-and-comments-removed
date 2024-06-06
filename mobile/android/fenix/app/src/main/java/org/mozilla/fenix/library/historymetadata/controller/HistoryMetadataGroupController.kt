@@ -1239,6 +1239,12 @@ navController
 .
 popBackStack
 (
+R
+.
+id
+.
+historyFragment
+false
 )
 }
 }
