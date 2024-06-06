@@ -242,7 +242,7 @@ android
 allowBackup
 =
 "
-true
+false
 "
 android
 :
