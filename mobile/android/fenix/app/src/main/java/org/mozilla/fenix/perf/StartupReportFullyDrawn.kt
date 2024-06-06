@@ -111,6 +111,16 @@ mozilla
 .
 fenix
 .
+ext
+.
+reportFullyDrawnSafe
+import
+org
+.
+mozilla
+.
+fenix
+.
 home
 .
 sessioncontrol
@@ -596,7 +606,7 @@ doOnPreDraw
 {
 activity
 .
-reportFullyDrawn
+reportFullyDrawnSafe
 (
 )
 }
