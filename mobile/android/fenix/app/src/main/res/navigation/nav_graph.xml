@@ -1396,15 +1396,6 @@ onboarding
 .
 HomeOnboardingDialogFragment
 "
-tools
-:
-layout
-=
-"
-layout
-/
-fragment_onboarding_home_dialog
-"
 /
 >
 <

@@ -5105,6 +5105,10 @@ google_accompanist_drawablepainter
 implementation
 Deps
 .
+google_accompanist_insets
+implementation
+Deps
+.
 sentry
 implementation
 Deps

@@ -325,14 +325,6 @@ mozilla
 .
 fenix
 .
-FeatureFlags
-import
-org
-.
-mozilla
-.
-fenix
-.
 GleanMetrics
 .
 Collections
@@ -2686,13 +2678,6 @@ handleShowOnboardingDialog
 (
 )
 {
-if
-(
-FeatureFlags
-.
-showHomeOnboarding
-)
-{
 navController
 .
 nav
@@ -2708,7 +2693,6 @@ actionGlobalHomeOnboardingDialog
 (
 )
 )
-}
 }
 override
 fun
