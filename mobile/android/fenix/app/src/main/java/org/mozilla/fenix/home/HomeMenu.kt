@@ -921,7 +921,7 @@ R
 .
 drawable
 .
-ic_addons_extensions
+mozac_ic_extensions
 primaryTextColor
 )
 {
