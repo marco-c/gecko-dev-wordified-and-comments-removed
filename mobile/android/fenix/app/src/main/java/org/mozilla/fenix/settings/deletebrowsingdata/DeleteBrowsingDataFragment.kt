@@ -393,6 +393,15 @@ components
 .
 core
 .
+icons
+requireContext
+(
+)
+.
+components
+.
+core
+.
 engine
 )
 settings

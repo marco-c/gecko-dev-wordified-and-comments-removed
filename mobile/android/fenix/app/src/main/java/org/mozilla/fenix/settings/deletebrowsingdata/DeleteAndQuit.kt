@@ -230,6 +230,13 @@ components
 .
 core
 .
+icons
+activity
+.
+components
+.
+core
+.
 engine
 coroutineContext
 )
