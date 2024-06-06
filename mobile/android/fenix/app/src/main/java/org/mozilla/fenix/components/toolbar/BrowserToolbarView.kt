@@ -1328,6 +1328,10 @@ if
 settings
 .
 isDynamicToolbarEnabled
+&
+&
+!
+isPwaTab
 )
 {
 (
