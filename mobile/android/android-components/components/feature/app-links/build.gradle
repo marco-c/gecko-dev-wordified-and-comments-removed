@@ -198,7 +198,7 @@ KotlinCompile
 configureEach
 {
 kotlinOptions
-{
+.
 freeCompilerArgs
 +
 =
@@ -214,7 +214,6 @@ coroutines
 .
 ExperimentalCoroutinesApi
 "
-}
 }
 dependencies
 {

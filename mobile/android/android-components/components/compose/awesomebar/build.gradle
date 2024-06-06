@@ -165,7 +165,7 @@ KotlinCompile
 configureEach
 {
 kotlinOptions
-{
+.
 freeCompilerArgs
 +
 =
@@ -177,7 +177,6 @@ default
 =
 all
 "
-}
 }
 dependencies
 {

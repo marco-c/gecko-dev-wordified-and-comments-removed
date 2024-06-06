@@ -279,11 +279,10 @@ KotlinCompile
 configureEach
 {
 kotlinOptions
-{
+.
 jvmTarget
 =
 "
 17
 "
-}
 }

@@ -5226,11 +5226,10 @@ KotlinCompile
 configureEach
 {
 kotlinOptions
-{
+.
 freeCompilerArgs
 +
 =
-[
 "
 -
 opt
@@ -5243,8 +5242,6 @@ coroutines
 .
 ExperimentalCoroutinesApi
 "
-]
-}
 }
 dependencies
 {
