@@ -94,7 +94,6 @@ tabstray
 browser
 .
 AutoCloseInterval
-private
 const
 val
 MIN_COLUMN_WIDTH_DP

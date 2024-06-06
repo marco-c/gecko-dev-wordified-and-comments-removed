@@ -1543,7 +1543,7 @@ assertSame
 store
 adapter
 .
-store
+tabsTrayStore
 )
 assertSame
 (

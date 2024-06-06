@@ -394,7 +394,9 @@ holder
 =
 spyk
 (
-BrowserTabListViewHolder
+BrowserTabViewHolder
+.
+ListViewHolder
 (
 imageLoader
 =

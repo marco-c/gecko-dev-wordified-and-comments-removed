@@ -144,5 +144,5 @@ InactiveTabsState
 var
 isExpanded
 =
-true
+false
 }
