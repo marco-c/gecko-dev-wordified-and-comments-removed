@@ -3403,6 +3403,10 @@ leanplum_fcm
 implementation
 Deps
 .
+mozilla_concept_base
+implementation
+Deps
+.
 mozilla_concept_engine
 implementation
 Deps

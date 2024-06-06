@@ -171,7 +171,9 @@ mozilla
 .
 components
 .
-support
+concept
+.
+base
 .
 images
 .
