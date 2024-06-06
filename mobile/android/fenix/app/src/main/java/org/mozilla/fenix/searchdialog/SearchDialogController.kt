@@ -973,6 +973,9 @@ handleClickSearchEngineSettings
 (
 )
 {
+clearToolbarFocus
+(
+)
 val
 directions
 =
