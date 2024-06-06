@@ -131,6 +131,9 @@ lazy
 BackgroundServices
 (
 context
+analytics
+.
+crashReporter
 core
 .
 historyStorage

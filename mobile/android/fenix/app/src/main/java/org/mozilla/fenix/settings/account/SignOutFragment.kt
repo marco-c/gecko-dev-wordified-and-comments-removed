@@ -381,6 +381,15 @@ lifecycleScope
 .
 launch
 {
+requireComponents
+.
+backgroundServices
+.
+accountAbnormalities
+.
+userRequestedLogout
+(
+)
 accountManager
 .
 logoutAsync
