@@ -1434,15 +1434,6 @@ pill_wrapper
 "
 app
 :
-layout_constraintEnd_toStartOf
-=
-"
-id
-/
-search_engines_shortcut_button
-"
-app
-:
 layout_constraintStart_toStartOf
 =
 "
