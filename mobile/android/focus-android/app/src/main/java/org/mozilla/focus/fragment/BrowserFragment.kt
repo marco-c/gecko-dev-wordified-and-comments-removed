@@ -5913,7 +5913,7 @@ R
 .
 string
 .
-feedback_erase
+feedback_erase_custom_tab
 Toast
 .
 LENGTH_SHORT

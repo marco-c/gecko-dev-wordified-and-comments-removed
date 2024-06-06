@@ -734,6 +734,12 @@ isEmpty
 )
 )
 {
+if
+(
+!
+isCustomTabMode
+)
+{
 /
 /
 There
@@ -774,6 +780,7 @@ else
 showUrlInputScreen
 (
 )
+}
 }
 wasSessionsEmpty
 =
