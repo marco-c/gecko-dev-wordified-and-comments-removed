@@ -763,7 +763,7 @@ dispatch
 (
 SearchFragmentAction
 .
-ShowSearchSuggestionsHint
+AllowSearchSuggestionsInPrivateModePrompt
 (
 false
 )

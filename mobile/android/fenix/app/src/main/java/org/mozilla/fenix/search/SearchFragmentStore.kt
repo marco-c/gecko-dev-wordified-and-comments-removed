@@ -522,7 +522,7 @@ SearchFragmentAction
 )
 data
 class
-ShowSearchSuggestionsHint
+AllowSearchSuggestionsInPrivateModePrompt
 (
 val
 show
@@ -657,7 +657,7 @@ engine
 is
 SearchFragmentAction
 .
-ShowSearchSuggestionsHint
+AllowSearchSuggestionsInPrivateModePrompt
 -
 >
 state

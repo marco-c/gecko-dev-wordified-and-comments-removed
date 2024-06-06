@@ -557,7 +557,7 @@ dispatch
 (
 SearchFragmentAction
 .
-ShowSearchSuggestionsHint
+AllowSearchSuggestionsInPrivateModePrompt
 (
 text
 .
