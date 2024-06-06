@@ -76,6 +76,10 @@ android
 graphics
 .
 PorterDuff
+.
+Mode
+.
+SRC_IN
 import
 android
 .
@@ -711,10 +715,6 @@ color
 .
 white_color
 )
-PorterDuff
-.
-Mode
-.
 SRC_IN
 )
 }

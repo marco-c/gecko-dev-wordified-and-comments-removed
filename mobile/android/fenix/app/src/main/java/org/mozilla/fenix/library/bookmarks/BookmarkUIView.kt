@@ -70,6 +70,10 @@ android
 graphics
 .
 PorterDuff
+.
+Mode
+.
+SRC_IN
 import
 android
 .
@@ -597,10 +601,6 @@ getColor
 context
 foreground
 )
-PorterDuff
-.
-Mode
-.
 SRC_IN
 )
 toolbar

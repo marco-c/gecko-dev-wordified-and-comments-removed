@@ -78,6 +78,10 @@ android
 graphics
 .
 PorterDuff
+.
+Mode
+.
+SRC_IN
 import
 android
 .
@@ -950,10 +954,6 @@ context
 !
 !
 )
-PorterDuff
-.
-Mode
-.
 SRC_IN
 )
 }

@@ -80,6 +80,10 @@ android
 graphics
 .
 PorterDuff
+.
+Mode
+.
+SRC_IN
 import
 android
 .
@@ -341,10 +345,6 @@ getColor
 context
 color
 )
-PorterDuff
-.
-Mode
-.
 SRC_IN
 )
 }

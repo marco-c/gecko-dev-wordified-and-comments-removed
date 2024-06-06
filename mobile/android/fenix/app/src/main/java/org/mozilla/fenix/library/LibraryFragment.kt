@@ -68,6 +68,10 @@ android
 graphics
 .
 PorterDuff
+.
+Mode
+.
+SRC_IN
 import
 android
 .
@@ -630,10 +634,6 @@ colorFilter
 PorterDuffColorFilter
 (
 foregroundColor
-PorterDuff
-.
-Mode
-.
 SRC_IN
 )
 }

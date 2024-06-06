@@ -74,6 +74,10 @@ android
 graphics
 .
 PorterDuff
+.
+Mode
+.
+SRC_IN
 import
 android
 .
@@ -806,10 +810,6 @@ getColor
 context
 colorRes
 )
-PorterDuff
-.
-Mode
-.
 SRC_IN
 )
 drawable
