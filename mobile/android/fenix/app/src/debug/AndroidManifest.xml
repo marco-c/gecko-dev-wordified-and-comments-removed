@@ -314,6 +314,15 @@ exported
 "
 false
 "
+android
+:
+theme
+=
+"
+style
+/
+DialogActivityTheme
+"
 /
 >
 <
