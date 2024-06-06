@@ -161,7 +161,7 @@ Lifecycle
 .
 Event
 .
-ON_DESTROY
+ON_PAUSE
 )
 fun
 onDestroy
