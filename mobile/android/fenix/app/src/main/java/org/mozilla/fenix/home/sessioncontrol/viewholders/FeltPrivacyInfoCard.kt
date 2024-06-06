@@ -320,7 +320,7 @@ FirefoxTheme
 .
 colors
 .
-layerAccentNonOpaque
+layer2
 shape
 =
 RoundedCornerShape
