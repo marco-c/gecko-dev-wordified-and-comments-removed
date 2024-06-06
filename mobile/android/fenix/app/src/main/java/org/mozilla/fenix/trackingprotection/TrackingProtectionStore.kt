@@ -310,6 +310,10 @@ Protection
 Panel
 *
 property
+tab
+TODO
+*
+property
 url
 Current
 URL
@@ -326,6 +330,7 @@ protection
 for
 this
 session
+*
 (
 ie
 is
@@ -370,7 +375,7 @@ focus
 after
 returning
 from
-details_moode
+details_mode
 *
 /
 data

@@ -625,9 +625,15 @@ TrackingProtectionStore
 TrackingProtectionState
 (
 tab
+=
+tab
+url
+=
 args
 .
 url
+isTrackingProtectionEnabled
+=
 args
 .
 trackingProtectionEnabled

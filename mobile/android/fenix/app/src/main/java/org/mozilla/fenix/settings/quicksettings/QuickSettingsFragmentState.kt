@@ -173,6 +173,16 @@ mozilla
 .
 fenix
 .
+trackingprotection
+.
+TrackingProtectionState
+import
+org
+.
+mozilla
+.
+fenix
+.
 utils
 .
 Settings
@@ -224,6 +234,10 @@ val
 websitePermissionsState
 :
 WebsitePermissionsState
+val
+trackingProtectionState
+:
+TrackingProtectionState
 )
 :
 State
