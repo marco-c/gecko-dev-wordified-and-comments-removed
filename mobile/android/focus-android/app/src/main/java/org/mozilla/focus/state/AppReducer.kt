@@ -416,15 +416,6 @@ is
 Screen
 .
 FirstRun
-|
-|
-state
-.
-screen
-is
-Screen
-.
-Browser
 )
 {
 return
