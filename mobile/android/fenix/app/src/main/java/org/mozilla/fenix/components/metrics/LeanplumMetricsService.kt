@@ -511,6 +511,10 @@ get
 BuildConfig
 .
 LEANPLUM_ID
+?
+:
+"
+"
 private
 val
 LeanplumToken
@@ -523,5 +527,9 @@ get
 BuildConfig
 .
 LEANPLUM_TOKEN
+?
+:
+"
+"
 }
 }
