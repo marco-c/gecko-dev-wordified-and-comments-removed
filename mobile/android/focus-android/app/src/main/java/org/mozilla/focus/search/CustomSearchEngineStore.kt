@@ -246,13 +246,9 @@ iconBitmap
 =
 IconGenerator
 .
-generateLauncherIconPreOreo
+generateSearchEngineIcon
 (
 context
-engineName
-[
-0
-]
 )
 val
 searchEngineXml
