@@ -5593,9 +5593,10 @@ setStartupMetrics
 setPreferenceMetrics
 (
 )
+with
+(
 Metrics
-.
-apply
+)
 {
 defaultBrowser
 .
@@ -5949,9 +5950,10 @@ dashboard
 and
 compared
 .
+with
+(
 Preferences
-.
-apply
+)
 {
 showSearchSuggestions
 .
