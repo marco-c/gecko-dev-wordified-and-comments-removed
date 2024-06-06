@@ -66,6 +66,15 @@ use
 crate
 :
 :
+pattern
+:
+:
+PatternKind
+;
+use
+crate
+:
+:
 segment
 :
 :
@@ -1586,6 +1595,9 @@ get_target_rect
 ;
 add_quad_to_batch
 (
+info
+.
+pattern
 render_task_address
 info
 .
@@ -5343,6 +5355,10 @@ tile
 ;
 add_quad_to_batch
 (
+PatternKind
+:
+:
+ColorOrTexture
 render_task_address
 clip_transform_id
 clip_prim_address
@@ -5664,6 +5680,10 @@ empty
 ;
 add_quad_to_batch
 (
+PatternKind
+:
+:
+Mask
 render_task_address
 prim_transform_id
 main_prim_address

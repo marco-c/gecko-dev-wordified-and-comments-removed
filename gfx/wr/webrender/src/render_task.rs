@@ -67,6 +67,15 @@ use
 crate
 :
 :
+pattern
+:
+:
+PatternKind
+;
+use
+crate
+:
+:
 spatial_tree
 :
 :
@@ -942,6 +951,10 @@ pub
 struct
 PrimTask
 {
+pub
+pattern
+:
+PatternKind
 pub
 device_pixel_scale
 :
@@ -2700,6 +2713,9 @@ pub
 fn
 new_prim
 (
+pattern
+:
+PatternKind
 prim_spatial_node_index
 :
 SpatialNodeIndex
@@ -2742,6 +2758,7 @@ Prim
 (
 PrimTask
 {
+pattern
 prim_spatial_node_index
 raster_spatial_node_index
 device_pixel_scale
