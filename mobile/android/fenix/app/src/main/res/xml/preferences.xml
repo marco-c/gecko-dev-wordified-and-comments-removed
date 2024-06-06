@@ -158,7 +158,7 @@ summary
 "
 string
 /
-preferences_sign_in_description
+preferences_sign_in_description_2
 "
 android
 :
@@ -167,7 +167,7 @@ title
 "
 string
 /
-preferences_sync
+preferences_sync_2
 "
 app
 :

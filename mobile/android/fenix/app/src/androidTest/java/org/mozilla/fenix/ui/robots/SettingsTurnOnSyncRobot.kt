@@ -461,11 +461,11 @@ navigationToolbar
 )
 withText
 (
-"
-Turn
-on
-Sync
-"
+R
+.
+string
+.
+preferences_sync_2
 )
 )
 )

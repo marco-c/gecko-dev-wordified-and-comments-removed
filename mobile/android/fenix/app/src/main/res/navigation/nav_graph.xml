@@ -5890,7 +5890,7 @@ label
 "
 string
 /
-preferences_sync
+preferences_sync_2
 "
 tools
 :
@@ -5988,7 +5988,7 @@ label
 "
 string
 /
-preferences_sync
+preferences_sync_2
 "
 tools
 :
