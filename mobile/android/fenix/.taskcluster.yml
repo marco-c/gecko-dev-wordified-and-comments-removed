@@ -610,6 +610,8 @@ retries
 5
 routes
 :
+flatten
+:
 -
 statuses
 #
@@ -630,6 +632,17 @@ Chain
 of
 Trust
 -
+if
+:
+'
+trust_level
+=
+=
+3
+'
+then
+:
+-
 tc
 -
 treeherder
@@ -641,6 +654,10 @@ fenix
 {
 head_rev
 }
+else
+:
+[
+]
 payload
 :
 maxRunTime
