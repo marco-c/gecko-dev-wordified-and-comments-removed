@@ -53,6 +53,8 @@ uint64_t
 aLinePos
 uint64_t
 aOffset
+uint64_t
+aLength
 nsString
 &
 &
@@ -74,6 +76,10 @@ aLinePos
 mOffset
 (
 aOffset
+)
+mLength
+(
+aLength
 )
 mMessage
 (
