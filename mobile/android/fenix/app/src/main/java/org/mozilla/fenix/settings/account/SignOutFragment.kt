@@ -428,11 +428,7 @@ userRequestedLogout
 )
 accountManager
 .
-logoutAsync
-(
-)
-.
-await
+logout
 (
 )
 }

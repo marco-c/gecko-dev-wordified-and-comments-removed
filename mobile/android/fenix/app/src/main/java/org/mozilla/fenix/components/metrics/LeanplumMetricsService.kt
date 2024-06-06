@@ -370,7 +370,10 @@ E_Sign_In_FxA
 is
 Event
 .
-SyncAuthFromShared
+SyncAuthFromSharedCopy
+Event
+.
+SyncAuthFromSharedReuse
 -
 >
 "

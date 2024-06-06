@@ -2052,7 +2052,10 @@ it
 is
 Event
 .
-SyncAuthFromShared
+SyncAuthFromSharedReuse
+Event
+.
+SyncAuthFromSharedCopy
 -
 >
 EventWrapper

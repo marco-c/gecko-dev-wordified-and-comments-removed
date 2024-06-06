@@ -426,12 +426,7 @@ deviceConstellation
 )
 ?
 .
-refreshDevicesAsync
-(
-)
-?
-.
-await
+refreshDevices
 (
 )
 val

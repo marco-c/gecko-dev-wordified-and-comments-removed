@@ -903,15 +903,11 @@ backgroundServices
 .
 accountManager
 .
-syncNowAsync
+syncNow
 (
 SyncReason
 .
 User
-)
-.
-await
-(
 )
 /
 /

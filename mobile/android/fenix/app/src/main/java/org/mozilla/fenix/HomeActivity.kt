@@ -1807,11 +1807,7 @@ backgroundServices
 .
 accountManager
 .
-initAsync
-(
-)
-.
-await
+start
 (
 )
 /
@@ -1851,7 +1847,7 @@ backgroundServices
 .
 accountManager
 .
-syncNowAsync
+syncNow
 (
 SyncReason
 .

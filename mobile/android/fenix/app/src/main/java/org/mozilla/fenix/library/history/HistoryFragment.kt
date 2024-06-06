@@ -1851,15 +1851,11 @@ backgroundServices
 accountManager
 accountManager
 .
-syncNowAsync
+syncNow
 (
 SyncReason
 .
 User
-)
-.
-await
-(
 )
 viewModel
 .

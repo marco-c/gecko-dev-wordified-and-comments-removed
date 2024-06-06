@@ -509,7 +509,13 @@ Event
 (
 )
 object
-SyncAuthFromShared
+SyncAuthFromSharedReuse
+:
+Event
+(
+)
+object
+SyncAuthFromSharedCopy
 :
 Event
 (
