@@ -190,7 +190,7 @@ androidx_compose_ui
 implementation
 ComponentsDependencies
 .
-androidx_compose_ui_tooling
+androidx_compose_ui_tooling_preview
 implementation
 ComponentsDependencies
 .
@@ -199,6 +199,10 @@ implementation
 ComponentsDependencies
 .
 androidx_compose_material
+debugImplementation
+ComponentsDependencies
+.
+androidx_compose_ui_tooling
 testImplementation
 project
 (

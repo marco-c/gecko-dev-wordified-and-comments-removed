@@ -6147,6 +6147,10 @@ debugImplementation
 FenixDependencies
 .
 leakcanary
+debugImplementation
+FenixDependencies
+.
+androidx_compose_ui_tooling
 implementation
 FenixDependencies
 .
@@ -6166,7 +6170,7 @@ androidx_compose_ui
 implementation
 FenixDependencies
 .
-androidx_compose_ui_tooling
+androidx_compose_ui_tooling_preview
 implementation
 FenixDependencies
 .
