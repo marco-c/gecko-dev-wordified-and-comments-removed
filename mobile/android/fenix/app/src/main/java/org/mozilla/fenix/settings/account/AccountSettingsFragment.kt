@@ -1605,7 +1605,7 @@ SyncEngine
 Passwords
 )
 {
-false
+true
 }
 }
 }
