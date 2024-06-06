@@ -150,7 +150,6 @@ TelemetrySwitchPreference
 context
 :
 Context
-?
 attrs
 :
 AttributeSet
@@ -165,14 +164,6 @@ attrs
 {
 init
 {
-if
-(
-context
-!
-=
-null
-)
-{
 isChecked
 =
 TelemetryWrapper
@@ -181,7 +172,6 @@ isTelemetryEnabled
 (
 context
 )
-}
 }
 override
 fun

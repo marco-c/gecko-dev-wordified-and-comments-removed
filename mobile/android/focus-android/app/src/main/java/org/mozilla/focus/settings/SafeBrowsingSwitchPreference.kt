@@ -113,7 +113,6 @@ SafeBrowsingSwitchPreference
 context
 :
 Context
-?
 attrs
 :
 AttributeSet
