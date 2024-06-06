@@ -624,7 +624,7 @@ layout_marginBottom
 "
 android
 :
-padding
+paddingVertical
 =
 "
 16dp
