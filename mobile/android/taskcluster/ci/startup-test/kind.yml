@@ -548,13 +548,11 @@ public
 /
 build
 /
-focus
-/
+target
+.
 arm64
 -
 v8a
-/
-target
 .
 apk
 >
