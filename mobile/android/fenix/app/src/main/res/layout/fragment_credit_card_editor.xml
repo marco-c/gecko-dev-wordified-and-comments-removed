@@ -225,7 +225,7 @@ android
 layout_height
 =
 "
-16dp
+wrap_content
 "
 android
 :
