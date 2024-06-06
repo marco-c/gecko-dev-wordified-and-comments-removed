@@ -732,8 +732,8 @@ listOf
 (
 back
 forward
-refresh
 share
+refresh
 )
 )
 }
