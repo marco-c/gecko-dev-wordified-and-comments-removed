@@ -209,9 +209,9 @@ settings
 (
 )
 .
-hasShownHomeOnboardingDialog
+shouldShowJumpBackInCFR
 =
-true
+false
 mockWebServer
 =
 MockWebServer

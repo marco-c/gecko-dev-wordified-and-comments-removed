@@ -361,9 +361,9 @@ settings
 )
 settings
 .
-hasShownHomeOnboardingDialog
+shouldShowJumpBackInCFR
 =
-true
+false
 }
 After
 fun
@@ -1031,9 +1031,9 @@ settings
 )
 settings
 .
-hasShownHomeOnboardingDialog
+shouldShowJumpBackInCFR
 =
-true
+false
 navigationToolbar
 {
 }
@@ -1410,9 +1410,9 @@ settings
 )
 settings
 .
-hasShownHomeOnboardingDialog
+shouldShowJumpBackInCFR
 =
-true
+false
 val
 defaultWebPage
 =

@@ -295,6 +295,9 @@ start
 (
 )
 }
+val
+settings
+=
 activityTestRule
 .
 activity
@@ -302,10 +305,16 @@ activity
 settings
 (
 )
+settings
 .
 setStrictETP
 (
 )
+settings
+.
+shouldShowJumpBackInCFR
+=
+false
 }
 After
 fun

@@ -383,9 +383,9 @@ settings
 )
 settings
 .
-hasShownHomeOnboardingDialog
+shouldShowJumpBackInCFR
 =
-true
+false
 activityTestRule
 .
 launchActivity

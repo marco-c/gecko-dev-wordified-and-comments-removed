@@ -410,9 +410,9 @@ settings
 )
 settings
 .
-hasShownHomeOnboardingDialog
+shouldShowJumpBackInCFR
 =
-true
+false
 homeScreen
 {
 }
