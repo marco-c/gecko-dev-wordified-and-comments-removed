@@ -226,6 +226,9 @@ label
 =
 needs
 landing
+(
+squash
+)
 -
 "
 #
@@ -247,7 +250,7 @@ queue
 :
 method
 :
-rebase
+squash
 name
 :
 default
