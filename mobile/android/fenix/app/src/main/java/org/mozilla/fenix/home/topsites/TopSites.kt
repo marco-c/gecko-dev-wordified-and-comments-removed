@@ -953,10 +953,9 @@ pagerState
 =
 rememberPagerState
 (
-)
-val
 pageCount
 =
+{
 ceil
 (
 (
@@ -974,6 +973,8 @@ TOP_SITES_PER_PAGE
 .
 toInt
 (
+)
+}
 )
 Box
 (
@@ -993,9 +994,6 @@ Center
 {
 HorizontalPager
 (
-pageCount
-=
-pageCount
 state
 =
 pagerState
@@ -1132,6 +1130,8 @@ dp
 }
 if
 (
+pagerState
+.
 pageCount
 >
 1
@@ -1155,9 +1155,6 @@ PagerIndicator
 pagerState
 =
 pagerState
-pageCount
-=
-pageCount
 modifier
 =
 Modifier
