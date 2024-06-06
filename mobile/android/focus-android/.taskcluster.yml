@@ -1389,15 +1389,11 @@ event
 action
 "
 ]
-in
-[
+=
+=
 "
 published
 "
-"
-prereleased
-"
-]
 '
 then
 :
