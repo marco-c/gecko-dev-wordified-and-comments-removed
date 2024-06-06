@@ -118,8 +118,9 @@ android
 fillColor
 =
 "
-#
-FF000000
+color
+/
+search_widget_mic_fill_color
 "
 android
 :
