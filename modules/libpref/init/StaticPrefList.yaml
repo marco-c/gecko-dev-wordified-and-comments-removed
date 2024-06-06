@@ -65920,12 +65920,6 @@ RelaxedAtomicBool
 if
 defined
 (
-NIGHTLY_BUILD
-)
-|
-|
-defined
-(
 MOZ_WIDGET_GTK
 )
 value
