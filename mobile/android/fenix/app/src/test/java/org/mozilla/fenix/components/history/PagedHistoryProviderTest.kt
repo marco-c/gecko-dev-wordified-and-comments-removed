@@ -206,6 +206,7 @@ storage
 showHistorySearchGroups
 =
 true
+false
 )
 val
 visitInfo1
@@ -779,6 +780,7 @@ storage
 showHistorySearchGroups
 =
 true
+false
 )
 /
 /
@@ -1116,6 +1118,7 @@ storage
 showHistorySearchGroups
 =
 true
+false
 )
 /
 /
@@ -1456,6 +1459,7 @@ storage
 showHistorySearchGroups
 =
 true
+false
 )
 val
 visitInfo1
