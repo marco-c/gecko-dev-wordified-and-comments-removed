@@ -1101,6 +1101,11 @@ true
 showSetAsDefaultBrowserCard
 =
 true
+recentTabs
+=
+emptyList
+(
+)
 )
 every
 {
