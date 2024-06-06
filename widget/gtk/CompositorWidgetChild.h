@@ -113,13 +113,13 @@ aClientSize
 override
 ;
 void
-DisableRendering
+CleanupResources
 (
 )
 override
 ;
 void
-EnableRendering
+SetRenderingSurface
 (
 const
 uintptr_t

@@ -31549,7 +31549,7 @@ mCompositorWidgetDelegate
 mCompositorWidgetDelegate
 -
 >
-EnableRendering
+SetRenderingSurface
 (
 GetX11Window
 (
@@ -47158,7 +47158,7 @@ mCompositorWidgetDelegate
 mCompositorWidgetDelegate
 -
 >
-DisableRendering
+CleanupResources
 (
 )
 ;
