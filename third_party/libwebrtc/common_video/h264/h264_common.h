@@ -32,6 +32,17 @@ buffer
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+system
+/
+rtc_export
+.
+h
+"
 namespace
 webrtc
 {
@@ -135,6 +146,7 @@ payload_size
 ;
 }
 ;
+RTC_EXPORT
 std
 :
 :
@@ -152,6 +164,7 @@ size_t
 buffer_size
 )
 ;
+RTC_EXPORT
 NaluType
 ParseNaluType
 (
