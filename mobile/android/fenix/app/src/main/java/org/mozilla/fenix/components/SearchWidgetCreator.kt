@@ -112,8 +112,11 @@ Handles
 the
 creation
 of
+the
+pinning
 search
 widget
+dialog
 .
 *
 /

@@ -480,6 +480,12 @@ fenix_preferences
 private
 const
 val
+showSearchWidgetCFRMaxCount
+=
+3
+private
+const
+val
 BLOCKED_INT
 =
 0
@@ -1054,7 +1060,7 @@ isActiveSearcher
 &
 searchWidgetCFRDismissCount
 <
-3
+showSearchWidgetCFRMaxCount
 &
 &
 !

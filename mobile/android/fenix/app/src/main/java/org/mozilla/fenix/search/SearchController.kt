@@ -631,7 +631,7 @@ false
 }
 else
 {
-context
+activity
 .
 settings
 (
@@ -963,7 +963,7 @@ searchTerms
 String
 )
 {
-context
+activity
 .
 settings
 (
