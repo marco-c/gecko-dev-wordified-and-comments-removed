@@ -300,6 +300,7 @@ ToggleProductRecommendation
 :
 PreferencesMiddlewareAction
 UpdateAction
+NetworkAction
 TelemetryAction
 /
 *
