@@ -3468,6 +3468,7 @@ requireActivity
 )
 this
 hitTarget
+session
 )
 }
 override
