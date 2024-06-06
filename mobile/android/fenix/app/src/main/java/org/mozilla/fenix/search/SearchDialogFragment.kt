@@ -4222,6 +4222,11 @@ linkIcon
 isVisible
 =
 shouldShowView
+if
+(
+shouldShowView
+)
+{
 val
 contentDescription
 =
@@ -4343,6 +4348,7 @@ fillLinkFromClipboard
 contentDescription
 =
 contentDescription
+}
 }
 private
 fun
