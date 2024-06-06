@@ -577,7 +577,7 @@ requireContext
 fragmentManager
 =
 parentFragmentManager
-view
+snackBarParentView
 =
 view
 onAddonChanged

@@ -333,7 +333,7 @@ context
 Context
 private
 val
-view
+snackBarParentView
 :
 View
 private
@@ -762,7 +762,7 @@ showUnsupportedError
 {
 showSnackBar
 (
-view
+snackBarParentView
 context
 .
 getString

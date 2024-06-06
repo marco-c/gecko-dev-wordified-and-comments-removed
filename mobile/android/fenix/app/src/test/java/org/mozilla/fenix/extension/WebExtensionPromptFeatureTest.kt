@@ -275,7 +275,7 @@ emptyList
 context
 =
 testContext
-view
+snackBarParentView
 =
 mockk
 (
