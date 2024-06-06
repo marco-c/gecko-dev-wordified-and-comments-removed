@@ -66,6 +66,10 @@ scopes
 =
 [
 ]
+routes
+=
+[
+]
 )
 :
         
@@ -198,8 +202,7 @@ task_id
 routes
 "
 :
-[
-]
+routes
             
 "
 scopes
