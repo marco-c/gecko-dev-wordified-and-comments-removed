@@ -58,7 +58,7 @@ mpl
 -
 loader
 :
-taskgraph
+gecko_taskgraph
 .
 loader
 .
@@ -92,7 +92,7 @@ transforms
 .
 beetmover_android_app
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -109,7 +109,7 @@ apk
 signing
 -
 bundle
-tasks
+jobs
 :
 beetmover
 :
@@ -185,8 +185,6 @@ shipping_phase
 ship
 treeherder
 :
-job
--
 symbol
 :
 by
@@ -231,12 +229,6 @@ nightly
 "
 project
 :
-mobile
-:
-firefox
--
-android
-:
 releng
 :
 beetmover
@@ -257,12 +249,6 @@ beta
 "
 project
 :
-mobile
-:
-firefox
--
-android
-:
 releng
 :
 beetmover
@@ -275,12 +261,6 @@ default
 :
 "
 project
-:
-mobile
-:
-firefox
--
-android
 :
 releng
 :
