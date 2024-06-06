@@ -16864,7 +16864,7 @@ etp_settings
 >
 Configuraci
 n
-de
+da
 protecci
 n
 <
@@ -16940,10 +16940,12 @@ ignore
 UnusedResources
 "
 >
-Navegar
+Navegue
 sen
-ser
-seguido
+que
+lle
+fagan
+seguimento
 <
 /
 string
@@ -17808,8 +17810,8 @@ preference_enhanced_tracking_protection_custom_fingerprinters
 >
 Identificadores
 de
-pegadas
-dixitais
+pegada
+dixital
 <
 /
 string
@@ -18215,8 +18217,8 @@ etp_fingerprinters_title
 >
 Identificadores
 de
-pegadas
-dixitais
+pegada
+dixital
 <
 /
 string
