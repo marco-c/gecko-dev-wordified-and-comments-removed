@@ -276,6 +276,10 @@ ToolbarMenu
 .
 Item
 )
+fun
+onTabCounterClicked
+(
+)
 }
 class
 BrowserToolbarView
@@ -844,7 +848,6 @@ ToolbarIntegration
 (
 this
 view
-container
 menuToolbar
 ShippedDomainsProvider
 (
@@ -888,6 +891,7 @@ private
 ?
 :
 false
+interactor
 )
 }
 }
