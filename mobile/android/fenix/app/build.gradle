@@ -3787,6 +3787,10 @@ androidTestImplementation
 Deps
 .
 espresso_idling_resources
+debugImplementation
+Deps
+.
+androidx_fragment_testing
 androidTestImplementation
 Deps
 .
