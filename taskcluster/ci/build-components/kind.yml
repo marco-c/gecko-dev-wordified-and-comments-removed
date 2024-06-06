@@ -674,10 +674,6 @@ component
 :
 lint
 '
--
-'
-githubBuildDetails
-'
 #
 No
 testRelease
@@ -729,10 +725,6 @@ component
 }
 :
 lintRelease
-'
--
-'
-githubBuildDetails
 '
 #
 No
@@ -787,10 +779,6 @@ component
 :
 lintRelease
 '
--
-'
-githubBuildDetails
-'
 default
 :
 -
@@ -837,10 +825,6 @@ component
 }
 :
 publish
-'
--
-'
-githubBuildDetails
 '
 pre
 -

@@ -295,9 +295,6 @@ clean
 '
 test
 '
-'
-githubTestDetails
-'
 ]
 dummy
 -
@@ -518,9 +515,6 @@ clean
 '
 '
 testFenixDebugUnitTest
-'
-'
-githubTestDetails
 '
 ]
 treeherder
