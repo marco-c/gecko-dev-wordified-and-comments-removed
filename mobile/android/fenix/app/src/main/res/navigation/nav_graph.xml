@@ -2612,7 +2612,9 @@ mozilla
 .
 fenix
 .
-loginexceptions
+exceptions
+.
+login
 .
 LoginExceptionsFragment
 "
@@ -4779,7 +4781,9 @@ mozilla
 .
 fenix
 .
-trackingprotectionexceptions
+exceptions
+.
+trackingprotection
 .
 TrackingProtectionExceptionsFragment
 "
