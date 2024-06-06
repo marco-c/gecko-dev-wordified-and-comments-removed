@@ -170,9 +170,10 @@ clearTextField
 )
 shortcutTitle
 .
-text
-=
+setText
+(
 title
+)
 addToHSOKBtn
 .
 click

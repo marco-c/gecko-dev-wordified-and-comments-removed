@@ -555,9 +555,10 @@ collectionNameTextField
 (
 )
 .
-text
-=
+setText
+(
 collectionName
+)
 Log
 .
 i
@@ -2345,9 +2346,10 @@ mainMenuEditCollectionNameField
 (
 )
 .
-text
-=
+setText
+(
 name
+)
 Log
 .
 i

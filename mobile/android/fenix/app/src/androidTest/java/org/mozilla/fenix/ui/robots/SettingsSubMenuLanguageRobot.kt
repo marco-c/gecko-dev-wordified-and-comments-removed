@@ -664,9 +664,10 @@ searchBar
 (
 )
 .
+setText
+(
 text
-=
-text
+)
 Log
 .
 i

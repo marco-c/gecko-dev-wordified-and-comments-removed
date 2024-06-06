@@ -700,9 +700,10 @@ clearTextField
 )
 searchBar
 .
-text
-=
+setText
+(
 searchString
+)
 }
 private
 val

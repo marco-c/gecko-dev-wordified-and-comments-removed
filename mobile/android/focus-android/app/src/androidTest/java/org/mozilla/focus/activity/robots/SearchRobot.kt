@@ -216,9 +216,10 @@ clearTextField
 )
 searchBar
 .
-text
-=
+setText
+(
 searchString
+)
 }
 /
 /

@@ -519,9 +519,10 @@ clearTextField
 )
 titleTextField
 .
-text
-=
+setText
+(
 newTitle
+)
 okButton
 .
 click
