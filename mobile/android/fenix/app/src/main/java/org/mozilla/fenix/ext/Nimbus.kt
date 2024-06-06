@@ -273,6 +273,12 @@ getExperimentBranch
 .
 *
 /
+Suppress
+(
+"
+TooGenericExceptionCaught
+"
+)
 fun
 NimbusApi
 .
