@@ -376,6 +376,9 @@ searchEngineManager
 core
 .
 webAppShortcutManager
+core
+.
+topSiteStorage
 )
 }
 val

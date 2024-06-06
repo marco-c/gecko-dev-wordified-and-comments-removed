@@ -1520,13 +1520,6 @@ components
 core
 .
 tabCollectionStorage
-topSiteStorage
-=
-components
-.
-core
-.
-topSiteStorage
 addTabUseCase
 =
 components

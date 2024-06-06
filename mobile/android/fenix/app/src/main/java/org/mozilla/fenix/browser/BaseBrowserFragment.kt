@@ -1886,13 +1886,6 @@ requireComponents
 core
 .
 tabCollectionStorage
-topSiteStorage
-=
-requireComponents
-.
-core
-.
-topSiteStorage
 onTabCounterClicked
 =
 {
