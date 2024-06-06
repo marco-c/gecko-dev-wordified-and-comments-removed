@@ -149,16 +149,6 @@ fenix
 .
 ext
 .
-hideToolbar
-import
-org
-.
-mozilla
-.
-fenix
-.
-ext
-.
 setToolbarColors
 abstract
 class
@@ -308,9 +298,6 @@ BrowsingMode
 fromBoolean
 (
 private
-)
-hideToolbar
-(
 )
 }
 override
