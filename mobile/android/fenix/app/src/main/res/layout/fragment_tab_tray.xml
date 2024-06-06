@@ -163,6 +163,14 @@ layout_height
 "
 match_parent
 "
+android
+:
+background
+=
+"
+?
+tabTrayItemBackground
+"
 >
 <
 TextView
@@ -535,7 +543,7 @@ background
 =
 "
 ?
-bottomBarBackground
+tabTrayToolbarBackground
 "
 app
 :
