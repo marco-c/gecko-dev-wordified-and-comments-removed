@@ -606,9 +606,6 @@ appName
 }
 AdapterItem
 .
-OnboardingWhatsNew
-AdapterItem
-.
 OnboardingTrackingProtection
 AdapterItem
 .
