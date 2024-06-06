@@ -754,6 +754,11 @@ showTabTray
 :
 :
 showTabTray
+settings
+=
+requireComponents
+.
+settings
 )
 )
 bookmarkView
