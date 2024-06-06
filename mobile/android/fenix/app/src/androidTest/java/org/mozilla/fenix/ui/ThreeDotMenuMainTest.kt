@@ -706,8 +706,11 @@ Link
 clickContextOpenLinkInNewTab
 (
 )
-snackBarButtonClick
+clickSnackbarButton
 (
+"
+SWITCH
+"
 )
 }
 .
@@ -823,8 +826,11 @@ Link
 clickContextOpenLinkInPrivateTab
 (
 )
-snackBarButtonClick
+clickSnackbarButton
 (
+"
+SWITCH
+"
 )
 }
 .
