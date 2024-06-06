@@ -465,14 +465,11 @@ sites
 .
 *
 /
+const
 val
 contileFeature
 =
-Config
-.
-channel
-.
-isNightlyOrDebug
+true
 /
 *
 *
