@@ -307,7 +307,7 @@ id
 +
 id
 /
-tracking_protection
+trackingProtectionSwitch
 "
 android
 :
@@ -470,7 +470,7 @@ layout_constraintTop_toBottomOf
 "
 id
 /
-tracking_protection
+trackingProtectionSwitch
 "
 /
 >
