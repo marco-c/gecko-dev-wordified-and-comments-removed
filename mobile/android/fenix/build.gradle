@@ -49,6 +49,10 @@ classpath
 Deps
 .
 allopen
+classpath
+Deps
+.
+osslicenses_plugin
 /
 /
 NOTE
