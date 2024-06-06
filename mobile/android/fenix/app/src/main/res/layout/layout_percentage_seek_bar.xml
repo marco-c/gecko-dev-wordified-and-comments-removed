@@ -378,6 +378,13 @@ wrap_content
 "
 android
 :
+paddingStart
+=
+"
+0dp
+"
+android
+:
 paddingEnd
 =
 "
@@ -474,6 +481,13 @@ paddingStart
 =
 "
 16dp
+"
+android
+:
+paddingEnd
+=
+"
+0dp
 "
 tools
 :

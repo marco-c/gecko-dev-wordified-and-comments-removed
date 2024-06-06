@@ -626,6 +626,13 @@ paddingStart
 "
 android
 :
+paddingEnd
+=
+"
+0dp
+"
+android
+:
 text
 =
 "
@@ -718,6 +725,13 @@ paddingStart
 =
 "
 48dp
+"
+android
+:
+paddingEnd
+=
+"
+0dp
 "
 android
 :

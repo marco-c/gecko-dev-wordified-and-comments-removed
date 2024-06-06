@@ -122,6 +122,13 @@ paddingStart
 "
 8dp
 "
+android
+:
+paddingEnd
+=
+"
+0dp
+"
 >
 <
 View

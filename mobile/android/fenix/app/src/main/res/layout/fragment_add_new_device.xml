@@ -310,6 +310,13 @@ layout_marginEnd
 "
 android
 :
+paddingStart
+=
+"
+0dp
+"
+android
+:
 paddingEnd
 =
 "

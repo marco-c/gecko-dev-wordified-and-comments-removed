@@ -1291,6 +1291,13 @@ tracking_protection_item_height
 "
 android
 :
+paddingStart
+=
+"
+0dp
+"
+android
+:
 paddingEnd
 =
 "
@@ -1748,6 +1755,13 @@ layout_marginEnd
 android
 :
 paddingStart
+=
+"
+0dp
+"
+android
+:
+paddingEnd
 =
 "
 0dp

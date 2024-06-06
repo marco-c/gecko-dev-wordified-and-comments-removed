@@ -275,6 +275,13 @@ paddingStart
 "
 android
 :
+paddingEnd
+=
+"
+0dp
+"
+android
+:
 background
 =
 "
