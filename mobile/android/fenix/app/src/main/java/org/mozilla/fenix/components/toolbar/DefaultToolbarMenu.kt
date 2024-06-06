@@ -3523,7 +3523,7 @@ DEFAULT_BROWSER_TOOLBAR_MENU
 !
 browsers
 .
-isDefaultBrowser
+isFirefoxDefaultBrowser
 )
 {
 return
