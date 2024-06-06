@@ -297,7 +297,6 @@ draw
 canvas
 :
 Canvas
-?
 )
 {
 /
