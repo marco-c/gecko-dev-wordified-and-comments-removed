@@ -1504,6 +1504,11 @@ locale
 locale
 =
 currentLocale
+listOfTips
+.
+clear
+(
+)
 populateListOfTips
 (
 context
