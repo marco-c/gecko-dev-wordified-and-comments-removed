@@ -192,6 +192,21 @@ run
 commands
 "
     
+Optional
+(
+"
+pre
+-
+commands
+"
+)
+:
+[
+[
+text_type
+]
+]
+    
 Required
 (
 "
@@ -272,6 +287,22 @@ run
 ]
     
 pre_commands
+=
+run
+.
+pop
+(
+"
+pre
+-
+commands
+"
+[
+]
+)
+    
+pre_commands
++
 =
 [
         
