@@ -850,7 +850,7 @@ R
 .
 drawable
 .
-mozac_ic_arrowhead_right
+mozac_ic_chevron_right_24
 )
 contentDescription
 =
