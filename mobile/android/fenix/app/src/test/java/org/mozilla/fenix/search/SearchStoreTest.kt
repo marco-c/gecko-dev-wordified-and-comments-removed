@@ -309,6 +309,11 @@ searchEngineSource
 mockk
 (
 )
+defaultEngineSource
+=
+mockk
+(
+)
 showShortcutEnginePicker
 =
 false
