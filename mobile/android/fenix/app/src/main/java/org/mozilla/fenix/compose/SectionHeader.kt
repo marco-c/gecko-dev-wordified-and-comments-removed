@@ -269,7 +269,7 @@ TextOverflow
 Ellipsis
 maxLines
 =
-1
+2
 )
 }
 Composable
