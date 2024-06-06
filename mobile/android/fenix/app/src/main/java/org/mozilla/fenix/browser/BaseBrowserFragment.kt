@@ -2027,6 +2027,11 @@ sessionManager
 requireActivity
 (
 )
+requireComponents
+.
+analytics
+.
+crashReporter
 customTabSessionId
 :
 :
