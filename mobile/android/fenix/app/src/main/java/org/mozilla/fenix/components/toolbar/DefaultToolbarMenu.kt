@@ -679,7 +679,6 @@ oldCoreMenuItems
 }
 endOfMenuAlwaysVisible
 =
-!
 shouldUseBottomToolbar
 store
 =
@@ -703,7 +702,6 @@ AddonsManager
 }
 appendExtensionSubMenuAtStart
 =
-!
 shouldUseBottomToolbar
 )
 }
