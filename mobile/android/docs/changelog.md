@@ -19189,7 +19189,7 @@ the
 list
 of
 url
-shemes
+schemes
 that
 the
 engine
@@ -69354,7 +69354,7 @@ RustHttpConfig
 Note
 :
 other
-implementions
+implementations
 of
 Client
 from

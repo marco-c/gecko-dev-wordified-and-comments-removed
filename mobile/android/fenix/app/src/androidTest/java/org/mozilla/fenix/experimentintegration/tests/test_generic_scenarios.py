@@ -23,6 +23,7 @@ True
 def
 test_experiment_unenrolls_via_studies_toggle
 (
+    
 setup_experiment
 gradlewbuild
 load_branches
@@ -111,6 +112,7 @@ True
 def
 test_experiment_unenrolls_via_secret_menu
 (
+    
 setup_experiment
 gradlewbuild
 load_branches
@@ -127,11 +129,13 @@ gradlewbuild
 .
 test
 (
+        
 "
 GenericExperimentIntegrationTest
 #
 testExperimentUnenrolledViaSecretMenu
 "
+    
 )
     
 assert

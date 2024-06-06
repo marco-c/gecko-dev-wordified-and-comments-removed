@@ -378,9 +378,7 @@ that
 are
 more
 testable
-re
--
-usable
+reusable
 composable
 digestible
 and
@@ -1054,7 +1052,7 @@ T
 .
 Searching
 for
-implementors
+implementers
 of
 that
 interface
