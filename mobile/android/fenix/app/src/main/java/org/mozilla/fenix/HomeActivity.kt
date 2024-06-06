@@ -5417,7 +5417,9 @@ SessionState
 .
 Source
 .
-USER_ENTERED
+Internal
+.
+UserEntered
 true
 mode
 .

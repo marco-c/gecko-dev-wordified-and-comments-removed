@@ -522,7 +522,9 @@ SessionState
 .
 Source
 .
-HOME_SCREEN
+Internal
+.
+HomeScreen
 webAppManifest
 =
 webAppManifest
@@ -550,7 +552,9 @@ SessionState
 .
 Source
 .
-HOME_SCREEN
+Internal
+.
+HomeScreen
 customTabConfig
 =
 createFallbackCustomTabConfig

@@ -343,7 +343,9 @@ SessionState
 .
 Source
 .
-HOME_SCREEN
+Internal
+.
+HomeScreen
 selectTab
 =
 true
