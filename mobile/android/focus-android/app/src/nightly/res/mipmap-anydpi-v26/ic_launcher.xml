@@ -113,7 +113,7 @@ drawable
 "
 drawable
 /
-icon_background
+ic_launcher_background
 "
 /
 >
@@ -126,7 +126,7 @@ drawable
 "
 drawable
 /
-icon_foreground
+ic_launcher_foreground
 "
 /
 >
