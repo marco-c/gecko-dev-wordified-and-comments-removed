@@ -112,7 +112,7 @@ android
 -
 sdk
 -
-3859397
+9477386
 :
 description
 :
@@ -141,13 +141,11 @@ android
 /
 repository
 /
-sdk
--
-tools
+commandlinetools
 -
 linux
 -
-3859397
+9477386_latest
 .
 zip
 artifact
@@ -163,10 +161,10 @@ linux
 zip
 sha256
 :
-444e22ce8ca0f67353bda4b85175ed3731cae3ffa695ca18119cbacef1c1bea0
+bd1aa17c7ef10066949c88dc6c9c8d536be27f992a1f3b5a584f9bd2ba5646a0
 size
 :
-136964098
+133507477
 artifact
 -
 prefix
