@@ -192,6 +192,13 @@ paddingStart
 "
 20dp
 "
+android
+:
+paddingEnd
+=
+"
+0dp
+"
 >
 <
 ImageButton
