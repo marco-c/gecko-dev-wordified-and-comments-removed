@@ -302,6 +302,8 @@ ic_private_browsing
 )
 setContentTitle
 (
+applicationContext
+.
 getString
 (
 R
@@ -321,6 +323,8 @@ app_name
 )
 setContentText
 (
+applicationContext
+.
 getString
 (
 R

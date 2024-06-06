@@ -429,6 +429,8 @@ ic_status_logo
 .
 setContentTitle
 (
+applicationContext
+.
 getString
 (
 R
