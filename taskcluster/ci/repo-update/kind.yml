@@ -204,16 +204,8 @@ mozilla
 central
 :
 "
+1
 "
-#
-TODO
-:
-enable
-after
-firefox
--
-android
-merge
 default
 :
 "
