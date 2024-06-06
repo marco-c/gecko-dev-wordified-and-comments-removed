@@ -154,6 +154,13 @@ View
 ?
 =
 null
+var
+previousFragmentId
+:
+Int
+?
+=
+null
 fun
 getStepForTabsAndCollectionSize
 (

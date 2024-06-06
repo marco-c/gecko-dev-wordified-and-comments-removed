@@ -4566,6 +4566,16 @@ viewModel
 snackbarAnchorView
 =
 nestedScrollQuickAction
+viewModel
+?
+.
+previousFragmentId
+=
+R
+.
+id
+.
+browserFragment
 view
 ?
 .

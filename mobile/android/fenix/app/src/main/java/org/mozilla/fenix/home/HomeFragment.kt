@@ -4062,6 +4062,16 @@ getStepForTabsAndCollectionSize
 SaveCollectionStep
 .
 SelectTabs
+viewModel
+?
+.
+previousFragmentId
+=
+R
+.
+id
+.
+homeFragment
 /
 /
 Only
