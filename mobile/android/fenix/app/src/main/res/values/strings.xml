@@ -2865,7 +2865,7 @@ current
 session
 menu
 .
-Archives
+Saves
 the
 session
 when
@@ -2878,10 +2878,10 @@ string
 name
 =
 "
-current_session_archive
+current_session_save
 "
 >
-Archive
+Save
 <
 /
 string
@@ -2911,11 +2911,9 @@ string
 name
 =
 "
-current_session_send_and_share
+current_session_share
 "
 >
-Send
-and
 Share
 <
 /
