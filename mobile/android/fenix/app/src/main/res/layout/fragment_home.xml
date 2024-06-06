@@ -966,13 +966,6 @@ focusable
 "
 true
 "
-android
-:
-transitionName
-=
-"
-toolbar_wrapper_transition
-"
 app
 :
 layout_constraintBottom_toBottomOf

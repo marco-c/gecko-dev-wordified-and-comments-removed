@@ -225,13 +225,6 @@ true
 "
 android
 :
-transitionName
-=
-"
-toolbar_wrapper_transition
-"
-android
-:
 focusableInTouchMode
 =
 "

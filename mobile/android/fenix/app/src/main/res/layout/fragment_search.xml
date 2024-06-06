@@ -381,13 +381,6 @@ outlineProvider
 "
 paddedBounds
 "
-android
-:
-transitionName
-=
-"
-toolbar_wrapper_transition
-"
 app
 :
 layout_constraintEnd_toEndOf
