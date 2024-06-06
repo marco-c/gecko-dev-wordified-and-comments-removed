@@ -584,13 +584,6 @@ textSize
 "
 android
 :
-lineSpacingExtra
-=
-"
-4sp
-"
-android
-:
 maxLines
 =
 "
@@ -680,13 +673,6 @@ layout_alignParentTop
 =
 "
 true
-"
-android
-:
-layout_marginTop
-=
-"
-4dp
 "
 android
 :

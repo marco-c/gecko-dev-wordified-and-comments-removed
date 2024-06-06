@@ -464,7 +464,7 @@ android
 layout_height
 =
 "
-30dp
+wrap_content
 "
 android
 :
@@ -486,6 +486,13 @@ fadingEdgeLength
 =
 "
 25dp
+"
+android
+:
+minHeight
+=
+"
+30dp
 "
 android
 :
