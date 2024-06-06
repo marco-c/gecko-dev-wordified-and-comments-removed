@@ -1898,8 +1898,9 @@ name
 recent_tabs_header
 "
 >
-Hoppa
+G
 tillbaka
+till
 <
 /
 string
@@ -25627,6 +25628,12 @@ of
 a
 credit
 card
+to
+be
+used
+by
+a11y
+services
 -
 -
 >
@@ -25661,6 +25668,12 @@ of
 a
 credit
 card
+to
+be
+used
+by
+a11y
+services
 -
 -
 >
