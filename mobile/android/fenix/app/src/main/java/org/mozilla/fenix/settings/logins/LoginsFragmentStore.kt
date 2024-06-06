@@ -950,6 +950,7 @@ origin
 contains
 (
 searchedForText
+true
 )
 |
 |
@@ -960,6 +961,7 @@ username
 contains
 (
 searchedForText
+true
 )
 }
 )
