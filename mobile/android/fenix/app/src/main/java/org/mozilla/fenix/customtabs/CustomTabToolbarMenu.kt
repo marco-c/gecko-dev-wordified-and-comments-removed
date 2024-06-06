@@ -211,6 +211,16 @@ mozilla
 .
 fenix
 .
+ext
+.
+getStringWithArgSafe
+import
+org
+.
+mozilla
+.
+fenix
+.
 theme
 .
 ThemeManager
@@ -865,7 +875,7 @@ label
 =
 context
 .
-getString
+getStringWithArgSafe
 (
 R
 .
