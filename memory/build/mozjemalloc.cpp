@@ -9613,22 +9613,13 @@ aZero
 arena_chunk_t
 *
 chunk
-;
-size_t
-old_ndirty
-run_ind
-total_pages
-need_pages
-rem_pages
-i
-;
-chunk
 =
 GetChunkForPtr
 (
 aRun
 )
 ;
+size_t
 old_ndirty
 =
 chunk
@@ -9636,6 +9627,7 @@ chunk
 >
 ndirty
 ;
+size_t
 run_ind
 =
 (
@@ -9658,6 +9650,7 @@ chunk
 gPageSize2Pow
 )
 ;
+size_t
 total_pages
 =
 (
@@ -9678,6 +9671,7 @@ gPageSizeMask
 >
 gPageSize2Pow
 ;
+size_t
 need_pages
 =
 (
@@ -9702,6 +9696,7 @@ need_pages
 total_pages
 )
 ;
+size_t
 rem_pages
 =
 total_pages
@@ -9710,6 +9705,7 @@ need_pages
 ;
 for
 (
+size_t
 i
 =
 0
@@ -10045,6 +10041,7 @@ need_pages
 }
 for
 (
+size_t
 i
 =
 0
