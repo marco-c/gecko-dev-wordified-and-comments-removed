@@ -911,6 +911,12 @@ safeIntent
 )
 if
 (
+savedInstanceState
+=
+=
+null
+&
+&
 intent
 .
 hasExtra
