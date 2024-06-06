@@ -1020,12 +1020,13 @@ openToBrowserAndLoad
 it
 .
 url
-it
-.
-session
+engine
+=
 it
 .
 engine
+from
+=
 BrowserDirection
 .
 FromSearch
@@ -1186,7 +1187,6 @@ HomeActivity
 .
 openToBrowser
 (
-sessionId
 BrowserDirection
 .
 FromSearch
@@ -1242,7 +1242,6 @@ HomeActivity
 .
 openToBrowser
 (
-sessionId
 BrowserDirection
 .
 FromSearch

@@ -1263,7 +1263,6 @@ HomeActivity
 .
 openToBrowser
 (
-null
 BrowserDirection
 .
 FromSettings

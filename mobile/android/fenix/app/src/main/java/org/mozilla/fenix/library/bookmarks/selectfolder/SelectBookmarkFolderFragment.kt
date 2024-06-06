@@ -611,7 +611,6 @@ HomeActivity
 .
 openToBrowser
 (
-null
 BrowserDirection
 .
 FromBookmarksFolderSelect

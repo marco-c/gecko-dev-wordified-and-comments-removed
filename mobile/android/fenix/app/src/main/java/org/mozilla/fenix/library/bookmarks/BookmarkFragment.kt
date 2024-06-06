@@ -1349,7 +1349,7 @@ HomeActivity
 .
 openToBrowserAndLoad
 (
-text
+searchTermOrURL
 =
 url
 from
@@ -1414,7 +1414,7 @@ HomeActivity
 .
 openToBrowserAndLoad
 (
-text
+searchTermOrURL
 =
 url
 from
@@ -1559,9 +1559,6 @@ HomeActivity
 .
 openToBrowser
 (
-null
-from
-=
 BrowserDirection
 .
 FromBookmarks
