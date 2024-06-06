@@ -121,10 +121,10 @@ video_stream_encoder
 .
 cc
 index
-552463e143
+3730f6eecb
 .
 .
-669f165635
+d74f440996
 100644
 -
 -
@@ -147,10 +147,10 @@ video_stream_encoder
 .
 cc
 -
-1375
+1383
 7
 +
-1375
+1383
 7
 void
 VideoStreamEncoder

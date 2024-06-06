@@ -303,15 +303,6 @@ include
 "
 rtc_base
 /
-task_queue
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 thread_annotations
 .
 h
@@ -688,7 +679,7 @@ encoder_queue
 return
 encoder_queue_
 .
-Get
+get
 (
 )
 ;
@@ -963,7 +954,6 @@ ReconfigureEncoder
 )
 RTC_RUN_ON
 (
-&
 encoder_queue_
 )
 ;
@@ -973,7 +963,6 @@ OnEncoderSettingsChanged
 )
 RTC_RUN_ON
 (
-&
 encoder_queue_
 )
 ;
@@ -1031,7 +1020,6 @@ pixel_count
 const
 RTC_RUN_ON
 (
-&
 encoder_queue_
 )
 ;
@@ -1089,7 +1077,6 @@ rate_settings
 )
 RTC_RUN_ON
 (
-&
 encoder_queue_
 )
 ;
@@ -1099,7 +1086,6 @@ GetInputFramerateFps
 )
 RTC_RUN_ON
 (
-&
 encoder_queue_
 )
 ;
@@ -1113,7 +1099,6 @@ rate_settings
 )
 RTC_RUN_ON
 (
-&
 encoder_queue_
 )
 ;
@@ -1138,7 +1123,6 @@ ReleaseEncoder
 )
 RTC_RUN_ON
 (
-&
 encoder_queue_
 )
 ;
@@ -1159,7 +1143,6 @@ time_when_posted_in_ms
 )
 RTC_RUN_ON
 (
-&
 encoder_queue_
 )
 ;
@@ -1169,7 +1152,6 @@ RequestEncoderSwitch
 )
 RTC_RUN_ON
 (
-&
 encoder_queue_
 )
 ;
@@ -1201,7 +1183,6 @@ reason
 )
 RTC_RUN_ON
 (
-&
 encoder_queue_
 )
 ;
@@ -1291,12 +1272,10 @@ FrameCadenceAdapterInterface
 frame_cadence_adapter_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 RTC_PT_GUARDED_BY
 (
-&
 encoder_queue_
 )
 ;
@@ -1304,7 +1283,6 @@ VideoEncoderConfig
 encoder_config_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 ;
@@ -1318,12 +1296,10 @@ VideoEncoder
 encoder_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 RTC_PT_GUARDED_BY
 (
-&
 encoder_queue_
 )
 ;
@@ -1342,12 +1318,10 @@ VideoBitrateAllocator
 rate_allocator_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 RTC_PT_GUARDED_BY
 (
-&
 encoder_queue_
 )
 ;
@@ -1355,7 +1329,6 @@ int
 max_framerate_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 =
@@ -1366,7 +1339,6 @@ bool
 pending_encoder_reconfiguration_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 =
@@ -1376,7 +1348,6 @@ bool
 pending_encoder_creation_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 =
@@ -1393,7 +1364,6 @@ SetParametersCallback
 encoder_configuration_callbacks_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 ;
@@ -1407,7 +1377,6 @@ VideoFrameInfo
 last_frame_info_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 ;
@@ -1415,7 +1384,6 @@ int
 crop_width_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 =
@@ -1425,7 +1393,6 @@ int
 crop_height_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 =
@@ -1441,7 +1408,6 @@ uint32_t
 encoder_target_bitrate_bps_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 ;
@@ -1449,7 +1415,6 @@ size_t
 max_data_payload_length_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 =
@@ -1465,7 +1430,6 @@ EncoderRateSettings
 last_encoder_rate_settings_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 ;
@@ -1473,7 +1437,6 @@ bool
 encoder_paused_and_dropped_frame_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 =
@@ -1483,7 +1446,6 @@ bool
 was_encode_called_since_last_initialization_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 =
@@ -1493,7 +1455,6 @@ bool
 encoder_failed_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 =
@@ -1508,7 +1469,6 @@ int64_t
 last_captured_timestamp_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 =
@@ -1519,7 +1479,6 @@ int64_t
 delta_ntp_internal_ms_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 ;
@@ -1527,7 +1486,6 @@ int64_t
 last_frame_log_ms_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 ;
@@ -1535,7 +1493,6 @@ int
 captured_frame_count_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 =
@@ -1545,7 +1502,6 @@ int
 dropped_frame_cwnd_pushback_count_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 =
@@ -1555,7 +1511,6 @@ int
 dropped_frame_encoder_block_count_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 =
@@ -1571,7 +1526,6 @@ VideoFrame
 pending_frame_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 ;
@@ -1579,7 +1533,6 @@ int64_t
 pending_frame_post_time_us_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 =
@@ -1592,7 +1545,6 @@ UpdateRect
 accumulated_update_rect_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 ;
@@ -1600,7 +1552,6 @@ bool
 accumulated_update_rect_is_valid_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 =
@@ -1619,7 +1570,6 @@ UpdateRect
 last_update_rect_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 ;
@@ -1627,7 +1577,6 @@ Timestamp
 animation_start_time_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 =
@@ -1642,7 +1591,6 @@ bool
 cap_resolution_due_to_video_content_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 =
@@ -1659,7 +1607,6 @@ kFirstFrameAfterResize
 expect_resize_state_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 =
@@ -1673,7 +1620,6 @@ FecControllerOverride
 fec_controller_override_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 =
@@ -1689,7 +1635,6 @@ int64_t
 last_parameters_update_ms_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 ;
@@ -1703,7 +1648,6 @@ int64_t
 last_encode_info_ms_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 ;
@@ -1714,7 +1658,6 @@ EncoderInfo
 encoder_info_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 ;
@@ -1722,7 +1665,6 @@ VideoCodec
 send_codec_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 ;
@@ -1730,7 +1672,6 @@ FrameDropper
 frame_dropper_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 ;
@@ -1738,7 +1679,6 @@ bool
 force_disable_frame_dropper_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 =
@@ -1766,7 +1706,6 @@ int
 cwnd_frame_drop_interval_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 ;
@@ -1774,7 +1713,6 @@ int
 cwnd_frame_counter_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 =
@@ -1790,7 +1728,6 @@ EncoderBitrateAdjuster
 bitrate_adjuster_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 ;
@@ -1804,7 +1741,6 @@ VideoFrameType
 next_frame_types_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 ;
@@ -1891,7 +1827,6 @@ AutomaticAnimationDetectionExperiment
 automatic_animation_detection_experiment_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 ;
@@ -1909,7 +1844,6 @@ VideoStreamAdapter
 video_stream_adapter_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 ;
@@ -1923,7 +1857,6 @@ ResourceAdaptationProcessorInterface
 resource_adaptation_processor_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 ;
@@ -1937,7 +1870,6 @@ DegradationPreferenceManager
 degradation_preference_manager_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 ;
@@ -1952,7 +1884,6 @@ AdaptationConstraint
 adaptation_constraints_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 ;
@@ -1960,7 +1891,6 @@ VideoStreamEncoderResourceManager
 stream_resource_manager_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 ;
@@ -1980,7 +1910,6 @@ Resource
 additional_resources_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 ;
@@ -2035,7 +1964,6 @@ VideoSourceRestrictions
 latest_restrictions_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 ;
@@ -2049,17 +1977,20 @@ VideoSourceRestrictions
 animate_restrictions_
 RTC_GUARDED_BY
 (
-&
 encoder_queue_
 )
 ;
 ScopedTaskSafety
 task_safety_
 ;
-rtc
+std
 :
 :
-TaskQueue
+unique_ptr
+<
+TaskQueueBase
+TaskQueueDeleter
+>
 encoder_queue_
 ;
 }
