@@ -816,12 +816,6 @@ OnboardingAction
 SessionControlAction
 (
 )
-object
-ReloadData
-:
-SessionControlAction
-(
-)
 }
 fun
 Observer

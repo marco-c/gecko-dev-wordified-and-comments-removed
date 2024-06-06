@@ -857,13 +857,5 @@ toAdapterList
 (
 )
 )
-actionEmitter
-.
-onNext
-(
-SessionControlAction
-.
-ReloadData
-)
 }
 }
