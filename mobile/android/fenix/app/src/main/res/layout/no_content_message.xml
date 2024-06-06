@@ -225,6 +225,15 @@ sample
 /
 lorem
 "
+tools
+:
+drawableEnd
+=
+"
+drawable
+/
+ic_tab_collection
+"
 android
 :
 textAppearance
