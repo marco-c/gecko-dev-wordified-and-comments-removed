@@ -303,14 +303,14 @@ metropolis_semibold
 "
 android
 :
-paddingStart
+layout_marginStart
 =
 "
-20dp
+16dp
 "
 android
 :
-paddingEnd
+layout_marginEnd
 =
 "
 0dp

@@ -260,7 +260,7 @@ android
 layout_marginStart
 =
 "
-20dp
+8dp
 "
 android
 :
@@ -339,7 +339,7 @@ android
 layout_marginStart
 =
 "
-12dp
+24dp
 "
 android
 :
@@ -470,7 +470,14 @@ android
 layout_marginStart
 =
 "
-12dp
+24dp
+"
+android
+:
+layout_marginTop
+=
+"
+2dp
 "
 android
 :

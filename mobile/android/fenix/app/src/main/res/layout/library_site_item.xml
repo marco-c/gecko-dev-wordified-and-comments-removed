@@ -216,7 +216,7 @@ android
 layout_marginStart
 =
 "
-20dp
+8dp
 "
 app
 :
@@ -387,7 +387,7 @@ android
 layout_marginStart
 =
 "
-12dp
+24dp
 "
 android
 :
@@ -519,7 +519,14 @@ android
 layout_marginStart
 =
 "
-12dp
+24dp
+"
+android
+:
+layout_marginTop
+=
+"
+2dp
 "
 android
 :
@@ -677,7 +684,7 @@ srcCompat
 "
 drawable
 /
-ic_menu
+ic_close
 "
 app
 :
@@ -699,6 +706,13 @@ layout_constraintTop_toTopOf
 =
 "
 parent
+"
+android
+:
+layout_marginEnd
+=
+"
+4dp
 "
 /
 >
