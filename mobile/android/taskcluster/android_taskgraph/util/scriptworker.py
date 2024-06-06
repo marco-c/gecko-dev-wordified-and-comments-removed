@@ -44,12 +44,6 @@ util
 yaml
 import
 load_yaml
-from
-.
-.
-release_promotion
-import
-read_version_file
 cached_load_yaml
 =
 memoize
@@ -1589,9 +1583,14 @@ platform
         
 version
 =
-read_version_file
-(
-)
+config
+.
+params
+[
+"
+version
+"
+]
         
 upload_date
 =

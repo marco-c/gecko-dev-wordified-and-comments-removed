@@ -29,7 +29,6 @@ build_config
 import
 get_extensions
 get_path
-get_version
 transforms
 =
 TransformSequence
@@ -244,9 +243,14 @@ config
     
 version
 =
-get_version
-(
-)
+config
+.
+params
+[
+"
+version
+"
+]
     
 nightly_version
 =
@@ -753,9 +757,14 @@ config
     
 version
 =
-get_version
-(
-)
+config
+.
+params
+[
+"
+version
+"
+]
     
 nightly_version
 =

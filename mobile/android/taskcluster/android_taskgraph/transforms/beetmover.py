@@ -26,12 +26,6 @@ import
 resolve_keyed_by
 from
 .
-.
-build_config
-import
-get_version
-from
-.
 build_components
 import
 craft_path_version
@@ -162,9 +156,14 @@ tasks
     
 version
 =
-get_version
-(
-)
+config
+.
+params
+[
+"
+version
+"
+]
     
 nightly_version
 =
@@ -361,9 +360,14 @@ tasks
     
 version
 =
-get_version
-(
-)
+config
+.
+params
+[
+"
+version
+"
+]
     
 nightly_version
 =
