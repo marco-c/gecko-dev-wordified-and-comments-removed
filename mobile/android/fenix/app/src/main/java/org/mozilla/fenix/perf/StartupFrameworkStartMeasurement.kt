@@ -448,15 +448,11 @@ too
 .
 telemetry
 .
-clockTicksPerSecond
+clockTicksPerSecondV2
 .
-add
+set
 (
 it
-.
-toInt
-(
-)
 )
 }
 /
