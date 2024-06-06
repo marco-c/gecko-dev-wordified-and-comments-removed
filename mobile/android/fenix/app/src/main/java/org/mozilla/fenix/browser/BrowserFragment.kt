@@ -2984,7 +2984,7 @@ onBackPressed
 -
 >
 true
-customTabsIntegration
+sessionFeature
 .
 onBackPressed
 (
@@ -2992,7 +2992,7 @@ onBackPressed
 -
 >
 true
-sessionFeature
+customTabsIntegration
 .
 onBackPressed
 (
