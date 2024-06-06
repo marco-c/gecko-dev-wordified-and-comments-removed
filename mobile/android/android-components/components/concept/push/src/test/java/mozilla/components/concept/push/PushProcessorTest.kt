@@ -220,7 +220,11 @@ onMessageReceived
 (
 message
 :
-EncryptedPushMessage
+Map
+<
+String
+String
+>
 )
 {
 }
