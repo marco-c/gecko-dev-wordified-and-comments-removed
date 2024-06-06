@@ -3230,6 +3230,9 @@ length
 history
 ?
 .
+controller
+?
+.
 searchQuery
 "
 Expected

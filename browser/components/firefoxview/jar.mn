@@ -121,6 +121,15 @@ browser
 /
 firefoxview
 /
+HistoryController
+.
+mjs
+content
+/
+browser
+/
+firefoxview
+/
 opentabs
 .
 mjs
