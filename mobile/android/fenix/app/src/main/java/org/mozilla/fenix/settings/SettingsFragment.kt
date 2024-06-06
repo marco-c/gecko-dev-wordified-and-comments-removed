@@ -2324,6 +2324,13 @@ pref_key_passwords
 -
 >
 {
+SettingsMetrics
+.
+passwords
+.
+record
+(
+)
 SettingsFragmentDirections
 .
 actionSettingsFragmentToSavedLoginsAuthFragment
@@ -2343,6 +2350,13 @@ pref_key_credit_cards
 -
 >
 {
+SettingsMetrics
+.
+autofill
+.
+record
+(
+)
 SettingsFragmentDirections
 .
 actionSettingsFragmentToAutofillSettingFragment
