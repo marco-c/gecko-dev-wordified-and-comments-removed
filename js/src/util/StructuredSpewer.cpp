@@ -784,7 +784,7 @@ channel
 ;
 json
 .
-formatProperty
+formatPropertyVA
 (
 "
 message
