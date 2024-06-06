@@ -175,9 +175,10 @@ android
 textColor
 =
 "
-color
+?
+attr
 /
-history_header
+historyHeader
 "
 /
 >
