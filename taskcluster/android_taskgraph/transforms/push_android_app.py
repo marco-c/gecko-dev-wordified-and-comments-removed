@@ -227,6 +227,8 @@ kind
 =
 =
 "
+android
+-
 startup
 -
 test
