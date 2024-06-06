@@ -3972,7 +3972,6 @@ it
 }
 }
 CallSuper
-final
 override
 fun
 onPause
