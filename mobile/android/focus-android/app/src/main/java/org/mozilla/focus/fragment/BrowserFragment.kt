@@ -4742,13 +4742,6 @@ enable
 Boolean
 )
 {
-tab
-.
-trackingProtection
-.
-blockedTrackers
-.
-size
 with
 (
 requireComponents
