@@ -223,7 +223,7 @@ helpers
 .
 TestHelper
 .
-isKeyboardVisible
+isSoftKeyboardVisible
 import
 org
 .
@@ -1848,7 +1848,7 @@ openNewPrivateTabFromShortcutsMenu
 {
 assertTrue
 (
-isKeyboardVisible
+isSoftKeyboardVisible
 (
 )
 )
@@ -1895,7 +1895,7 @@ openTabFromShortcutsMenu
 {
 assertTrue
 (
-isKeyboardVisible
+isSoftKeyboardVisible
 (
 )
 )
