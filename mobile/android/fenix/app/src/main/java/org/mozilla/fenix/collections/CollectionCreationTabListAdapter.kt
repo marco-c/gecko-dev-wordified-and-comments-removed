@@ -842,7 +842,7 @@ context
 .
 components
 .
-utils
+core
 .
 icons
 .

@@ -639,7 +639,7 @@ tabsUseCases
 selectTab
 components
 .
-utils
+core
 .
 icons
 )
@@ -655,7 +655,7 @@ historyStorage
 loadUrlUseCase
 components
 .
-utils
+core
 .
 icons
 )
@@ -671,7 +671,7 @@ bookmarksStorage
 loadUrlUseCase
 components
 .
-utils
+core
 .
 icons
 )
