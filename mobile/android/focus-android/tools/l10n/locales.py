@@ -19,6 +19,10 @@ RELEASE_LOCALES
 [
 	
 "
+af
+"
+	
+"
 am
 "
 	
@@ -92,6 +96,12 @@ dsb
 	
 "
 el
+"
+	
+"
+en
+-
+CA
 "
 	
 "
@@ -193,6 +203,10 @@ it
 "
 	
 "
+ixl
+"
+	
+"
 iw
 "
 	
@@ -222,6 +236,10 @@ kw
 	
 "
 lo
+"
+	
+"
+lt
 "
 	
 "
@@ -267,6 +285,10 @@ oc
 "
 	
 "
+pai
+"
+	
+"
 pl
 "
 	
@@ -274,6 +296,10 @@ pl
 pt
 -
 BR
+"
+	
+"
+quy
 "
 	
 "
@@ -371,37 +397,17 @@ ADDITIONAL_SCREENSHOT_LOCALES
 [
 	
 "
-ixl
-"
-	
-"
-lt
-"
-	
-"
-en
--
-CA
-"
-	
-"
-af
-"
-	
-"
-pai
-"
-	
-"
-quy
-"
-	
-"
 ay
 "
 	
 "
 quc
+"
+	
+"
+pa
+-
+IN
 "
 ]
 SCREENSHOT_LOCALES
