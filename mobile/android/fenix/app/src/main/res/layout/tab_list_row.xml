@@ -540,10 +540,10 @@ session_background
 "
 android
 :
-contentDescription
+focusable
 =
 "
-TODO
+false
 "
 app
 :
