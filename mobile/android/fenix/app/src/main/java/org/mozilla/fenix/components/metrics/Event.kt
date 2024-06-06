@@ -787,6 +787,12 @@ Event
 (
 )
 object
+DownloadAdded
+:
+Event
+(
+)
+object
 NotificationMediaPlay
 :
 Event
