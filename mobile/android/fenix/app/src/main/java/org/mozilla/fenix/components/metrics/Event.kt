@@ -277,12 +277,6 @@ Event
 (
 )
 object
-NormalAndPrivateUriOpened
-:
-Event
-(
-)
-object
 HistoryOpened
 :
 Event
