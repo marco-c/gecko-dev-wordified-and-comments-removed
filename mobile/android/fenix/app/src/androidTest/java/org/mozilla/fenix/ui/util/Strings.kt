@@ -105,10 +105,11 @@ Langues
 "
 const
 val
-ROMANIAN_LANGUAGE_HEADER
+FR_SETTINGS
 =
 "
-Limb
+Param
+tres
 "
 const
 val
@@ -121,4 +122,11 @@ langue
 de
 l
 appareil
+"
+const
+val
+ROMANIAN_LANGUAGE_HEADER
+=
+"
+Limb
 "
