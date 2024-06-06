@@ -704,7 +704,7 @@ systemui
 :
 id
 /
-dismiss_text
+btn_clear_all
 "
 )
 )
