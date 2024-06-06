@@ -393,6 +393,7 @@ runCommand
 "
 git
 fetch
+origin
 -
 -
 tags
