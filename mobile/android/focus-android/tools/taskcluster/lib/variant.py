@@ -10,7 +10,7 @@ __init__
 self
 build_type
 abi
-engine
+product
 file_name
 )
 :
@@ -44,7 +44,7 @@ apk
 format
 (
 abi
-engine
+product
 )
         
 self
@@ -55,7 +55,9 @@ absolute_path
 /
 opt
 /
-fenix
+focus
+-
+android
 /
 app
 /
@@ -77,7 +79,7 @@ apk
 .
 format
 (
-engine
+product
 build_type
 file_name
 )
