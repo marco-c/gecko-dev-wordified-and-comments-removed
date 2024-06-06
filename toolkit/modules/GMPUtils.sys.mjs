@@ -923,6 +923,17 @@ on
 -
 arm64
 "
+KEY_ALLOW_LOCAL_SOURCES
+:
+"
+media
+.
+gmp
+-
+manager
+.
+allowLocalSources
+"
 KEY_URL
 :
 "
