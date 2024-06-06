@@ -74,12 +74,12 @@ targetCompatibility
 =
 JavaVersion
 .
-VERSION_11
+VERSION_17
 sourceCompatibility
 =
 JavaVersion
 .
-VERSION_11
+VERSION_17
 repositories
 {
 if

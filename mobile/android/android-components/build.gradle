@@ -1421,11 +1421,11 @@ compileOptions
 sourceCompatibility
 JavaVersion
 .
-VERSION_11
+VERSION_17
 targetCompatibility
 JavaVersion
 .
-VERSION_11
+VERSION_17
 }
 tasks
 .
@@ -1451,7 +1451,7 @@ kotlinOptions
 jvmTarget
 =
 "
-11
+17
 "
 freeCompilerArgs
 +
