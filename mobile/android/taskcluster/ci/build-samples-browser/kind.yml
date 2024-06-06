@@ -346,7 +346,7 @@ samples
 -
 browser
 :
-lintGecko
+lintGeckoDebug
 '
 system
 :
