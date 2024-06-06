@@ -697,7 +697,7 @@ withText
 "
 Show
 search
-shortcuts
+engines
 "
 )
 )
@@ -710,7 +710,7 @@ withText
 "
 Show
 search
-shortcuts
+engines
 "
 )
 )
@@ -1094,7 +1094,7 @@ withText
 "
 Show
 search
-shortcuts
+engines
 "
 )
 )
@@ -1107,7 +1107,7 @@ withText
 "
 Show
 search
-shortcuts
+engines
 "
 )
 )

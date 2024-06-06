@@ -1206,7 +1206,7 @@ text
 "
 string
 /
-search_shortcuts_search_with_2
+search_engines_search_with
 "
 app
 :
@@ -1552,7 +1552,7 @@ textOff
 "
 string
 /
-search_shortcuts_button
+search_engines_shortcut_button
 "
 android
 :
@@ -1561,7 +1561,7 @@ textOn
 "
 string
 /
-search_shortcuts_button
+search_engines_shortcut_button
 "
 app
 :
