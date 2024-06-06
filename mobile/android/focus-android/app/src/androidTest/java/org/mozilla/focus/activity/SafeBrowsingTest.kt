@@ -671,7 +671,7 @@ verifyPageURL
 (
 insecurePageUrl
 )
-verifySiteSecurityIconShown
+verifySiteSecurityIndicatorShown
 (
 )
 verifySiteConnectionInfoIsSecure
