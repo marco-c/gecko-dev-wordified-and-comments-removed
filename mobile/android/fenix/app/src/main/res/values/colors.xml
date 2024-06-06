@@ -273,9 +273,8 @@ name
 destructive_light_theme
 "
 >
-color
-/
-photonRed60
+#
+C50042
 <
 /
 color
@@ -498,7 +497,7 @@ destructive_dark_theme
 "
 >
 #
-FF4F5E
+FF6A75
 <
 /
 color
@@ -721,7 +720,7 @@ destructive_private_theme
 "
 >
 #
-FF4F5E
+FF6A75
 <
 /
 color
