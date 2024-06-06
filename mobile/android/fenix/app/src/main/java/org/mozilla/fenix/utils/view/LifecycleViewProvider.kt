@@ -268,7 +268,6 @@ onViewAttachedToWindow
 v
 :
 View
-?
 )
 {
 registry
@@ -286,7 +285,6 @@ onViewDetachedFromWindow
 v
 :
 View
-?
 )
 {
 registry
