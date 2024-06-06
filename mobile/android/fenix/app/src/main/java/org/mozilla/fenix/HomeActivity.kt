@@ -1720,6 +1720,15 @@ settings
 (
 )
 .
+isDefaultBrowser
+(
+)
+&
+&
+settings
+(
+)
+.
 wasDefaultBrowserOnLastPause
 !
 =
