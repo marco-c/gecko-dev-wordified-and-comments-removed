@@ -1581,9 +1581,6 @@ handleView
 .
 setOnTouchListener
 (
-View
-.
-OnTouchListener
 {
 _
 event
