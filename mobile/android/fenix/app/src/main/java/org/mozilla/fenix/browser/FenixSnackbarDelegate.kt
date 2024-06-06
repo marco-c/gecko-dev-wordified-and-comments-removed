@@ -158,7 +158,7 @@ action
 {
 FenixSnackbar
 .
-make
+makeWithToolbarPadding
 (
 view
 duration
@@ -208,7 +208,7 @@ else
 {
 FenixSnackbar
 .
-make
+makeWithToolbarPadding
 (
 view
 duration
