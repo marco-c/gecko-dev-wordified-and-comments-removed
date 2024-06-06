@@ -200,7 +200,7 @@ outputs
 /
 apk
 /
-focusWebview
+focusWebviewUniversal
 /
 debug
 /
@@ -209,6 +209,8 @@ app
 focus
 -
 webview
+-
+universal
 -
 debug
 .
@@ -230,7 +232,7 @@ apk
 /
 androidTest
 /
-focusWebview
+focusWebviewUniversal
 /
 debug
 /
@@ -239,6 +241,8 @@ app
 focus
 -
 webview
+-
+universal
 -
 debug
 -
