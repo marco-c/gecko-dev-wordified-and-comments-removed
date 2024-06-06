@@ -216,6 +216,11 @@ clearPackageData
 '
 true
 '
+vectorDrawables
+.
+useSupportLibrary
+=
+true
 multiDexEnabled
 true
 }
