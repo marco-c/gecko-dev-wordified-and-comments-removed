@@ -653,8 +653,15 @@ addressLevel3
 "
 addressLevel2
 =
-"
-"
+binding
+.
+cityInput
+.
+text
+.
+toString
+(
+)
 addressLevel1
 =
 binding

@@ -522,8 +522,9 @@ addressLevel3
 "
 addressLevel2
 =
-"
-"
+address
+.
+addressLevel2
 addressLevel1
 =
 address
