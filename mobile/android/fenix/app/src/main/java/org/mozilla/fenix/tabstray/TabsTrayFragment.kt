@@ -496,6 +496,9 @@ DefaultBrowserTrayInteractor
 this
 selectTabUseCase
 removeUseCases
+requireComponents
+.
+settings
 )
 val
 syncedTabsTrayInteractor
