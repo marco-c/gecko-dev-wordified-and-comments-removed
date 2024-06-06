@@ -1478,6 +1478,11 @@ Bundle
 ?
 )
 {
+browserToolbar
+.
+private
+=
+true
 toolbarIntegration
 .
 set
