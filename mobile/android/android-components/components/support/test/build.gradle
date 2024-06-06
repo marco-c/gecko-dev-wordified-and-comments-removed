@@ -161,6 +161,16 @@ xml
 "
 )
 }
+namespace
+'
+mozilla
+.
+components
+.
+support
+.
+test
+'
 }
 dependencies
 {

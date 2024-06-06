@@ -134,6 +134,16 @@ pro
 '
 }
 }
+namespace
+'
+mozilla
+.
+components
+.
+support
+.
+rustlog
+'
 }
 dependencies
 {

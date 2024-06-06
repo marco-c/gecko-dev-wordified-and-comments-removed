@@ -225,6 +225,16 @@ toString
 )
 )
 }
+namespace
+'
+mozilla
+.
+components
+.
+feature
+.
+sitepermissions
+'
 }
 tasks
 .

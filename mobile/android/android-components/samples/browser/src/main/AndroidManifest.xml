@@ -118,17 +118,6 @@ com
 /
 tools
 "
-package
-=
-"
-org
-.
-mozilla
-.
-samples
-.
-browser
-"
 >
 <
 uses

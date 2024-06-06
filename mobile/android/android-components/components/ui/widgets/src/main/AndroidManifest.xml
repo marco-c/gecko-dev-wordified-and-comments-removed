@@ -61,16 +61,5 @@ MPL
 >
 <
 manifest
-package
-=
-"
-mozilla
-.
-components
-.
-ui
-.
-widgets
-"
 /
 >

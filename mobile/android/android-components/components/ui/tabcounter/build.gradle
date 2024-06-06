@@ -130,6 +130,16 @@ buildFeatures
 viewBinding
 true
 }
+namespace
+'
+mozilla
+.
+components
+.
+ui
+.
+tabcounter
+'
 }
 dependencies
 {

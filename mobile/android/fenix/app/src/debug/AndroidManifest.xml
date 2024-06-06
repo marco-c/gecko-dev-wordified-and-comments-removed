@@ -1,14 +1,5 @@
 <
 manifest
-package
-=
-"
-org
-.
-mozilla
-.
-fenix
-"
 xmlns
 :
 android

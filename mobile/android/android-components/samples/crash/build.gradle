@@ -150,6 +150,16 @@ buildFeatures
 viewBinding
 true
 }
+namespace
+'
+org
+.
+mozilla
+.
+samples
+.
+crash
+'
 }
 dependencies
 {

@@ -1652,6 +1652,14 @@ FenixVersions
 .
 androidx_compose_compiler
 }
+namespace
+'
+org
+.
+mozilla
+.
+fenix
+'
 }
 android
 .

@@ -144,6 +144,16 @@ annotations
 pro
 '
 }
+namespace
+'
+mozilla
+.
+components
+.
+feature
+.
+sendtab
+'
 }
 tasks
 .

@@ -126,6 +126,16 @@ pro
 '
 }
 }
+namespace
+'
+mozilla
+.
+components
+.
+ui
+.
+icons
+'
 }
 dependencies
 {

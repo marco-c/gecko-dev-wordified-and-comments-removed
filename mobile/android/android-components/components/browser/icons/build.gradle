@@ -187,6 +187,16 @@ Versions
 .
 compose_compiler
 }
+namespace
+'
+mozilla
+.
+components
+.
+browser
+.
+icons
+'
 }
 tasks
 .

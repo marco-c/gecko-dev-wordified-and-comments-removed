@@ -99,17 +99,6 @@ com
 /
 tools
 "
-package
-=
-"
-mozilla
-.
-components
-.
-feature
-.
-autofill
-"
 >
 <
 uses

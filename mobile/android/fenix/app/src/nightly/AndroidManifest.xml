@@ -38,15 +38,6 @@ com
 /
 tools
 "
-package
-=
-"
-org
-.
-mozilla
-.
-fenix
-"
 >
 <
 application

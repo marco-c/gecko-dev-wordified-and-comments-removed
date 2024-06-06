@@ -144,6 +144,16 @@ annotations
 pro
 '
 }
+namespace
+'
+mozilla
+.
+components
+.
+browser
+.
+thumbnails
+'
 }
 tasks
 .

@@ -197,6 +197,16 @@ toString
 )
 )
 }
+namespace
+'
+mozilla
+.
+components
+.
+feature
+.
+logins
+'
 }
 dependencies
 {

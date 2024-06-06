@@ -87,6 +87,16 @@ pro
 '
 }
 }
+namespace
+'
+org
+.
+mozilla
+.
+samples
+.
+dataprotect
+'
 }
 dependencies
 {

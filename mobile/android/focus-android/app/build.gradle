@@ -967,6 +967,14 @@ coroutines
 pro
 '
 }
+namespace
+'
+org
+.
+mozilla
+.
+focus
+'
 }
 tasks
 .

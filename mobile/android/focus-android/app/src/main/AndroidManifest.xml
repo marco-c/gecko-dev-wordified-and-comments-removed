@@ -118,15 +118,6 @@ com
 /
 tools
 "
-package
-=
-"
-org
-.
-mozilla
-.
-focus
-"
 >
 <
 uses

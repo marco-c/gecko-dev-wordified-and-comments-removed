@@ -134,6 +134,14 @@ jvmTarget
 8
 '
 }
+namespace
+'
+org
+.
+mozilla
+.
+telemetry
+'
 }
 dependencies
 {

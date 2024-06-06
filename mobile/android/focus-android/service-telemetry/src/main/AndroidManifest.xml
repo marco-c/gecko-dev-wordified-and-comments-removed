@@ -80,15 +80,6 @@ MPL
 >
 <
 manifest
-package
-=
-"
-org
-.
-mozilla
-.
-telemetry
-"
 xmlns
 :
 android

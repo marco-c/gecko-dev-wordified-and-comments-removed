@@ -140,6 +140,16 @@ Versions
 .
 compose_compiler
 }
+namespace
+'
+mozilla
+.
+components
+.
+lib
+.
+state
+'
 }
 tasks
 .

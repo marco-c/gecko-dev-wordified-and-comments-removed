@@ -170,6 +170,16 @@ v7a
 '
 }
 }
+namespace
+'
+org
+.
+mozilla
+.
+samples
+.
+fxa
+'
 }
 dependencies
 {

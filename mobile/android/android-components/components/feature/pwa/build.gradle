@@ -200,6 +200,16 @@ toString
 )
 )
 }
+namespace
+'
+mozilla
+.
+components
+.
+feature
+.
+pwa
+'
 }
 tasks
 .

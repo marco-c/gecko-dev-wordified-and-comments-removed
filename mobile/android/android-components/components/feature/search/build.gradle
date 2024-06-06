@@ -172,6 +172,16 @@ assets
 }
 }
 }
+namespace
+'
+mozilla
+.
+components
+.
+feature
+.
+search
+'
 }
 tasks
 .

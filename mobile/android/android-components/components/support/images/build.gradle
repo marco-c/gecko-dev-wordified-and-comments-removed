@@ -177,6 +177,16 @@ Versions
 .
 compose_compiler
 }
+namespace
+'
+mozilla
+.
+components
+.
+support
+.
+images
+'
 }
 dependencies
 {

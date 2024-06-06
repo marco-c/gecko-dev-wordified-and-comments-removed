@@ -175,6 +175,16 @@ pro
 '
 }
 }
+namespace
+'
+mozilla
+.
+components
+.
+concept
+.
+push
+'
 }
 dependencies
 {

@@ -250,6 +250,16 @@ Versions
 .
 compose_compiler
 }
+namespace
+'
+org
+.
+mozilla
+.
+samples
+.
+browser
+'
 }
 tasks
 .

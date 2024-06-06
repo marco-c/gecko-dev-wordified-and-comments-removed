@@ -193,6 +193,16 @@ buildFeatures
 viewBinding
 true
 }
+namespace
+'
+mozilla
+.
+components
+.
+feature
+.
+downloads
+'
 }
 tasks
 .
