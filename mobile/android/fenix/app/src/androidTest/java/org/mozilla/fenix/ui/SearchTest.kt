@@ -475,6 +475,12 @@ false
 )
 featureSettingsHelper
 .
+setTCPCFREnabled
+(
+false
+)
+featureSettingsHelper
+.
 setPocketEnabled
 (
 false

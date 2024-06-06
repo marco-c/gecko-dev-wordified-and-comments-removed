@@ -400,6 +400,12 @@ setJumpBackCFREnabled
 (
 false
 )
+featureSettingsHelper
+.
+setTCPCFREnabled
+(
+false
+)
 mDevice
 =
 UiDevice

@@ -329,6 +329,12 @@ setJumpBackCFREnabled
 (
 false
 )
+featureSettingsHelper
+.
+setTCPCFREnabled
+(
+false
+)
 }
 After
 fun

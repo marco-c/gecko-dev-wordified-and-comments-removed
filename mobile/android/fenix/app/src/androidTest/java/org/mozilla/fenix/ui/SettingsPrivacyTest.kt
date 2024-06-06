@@ -447,6 +447,12 @@ false
 )
 featureSettingsHelper
 .
+setTCPCFREnabled
+(
+false
+)
+featureSettingsHelper
+.
 disablePwaCFR
 (
 true
@@ -499,6 +505,11 @@ tearDown
 mockWebServer
 .
 shutdown
+(
+)
+featureSettingsHelper
+.
+resetAllFeatureFlags
 (
 )
 }

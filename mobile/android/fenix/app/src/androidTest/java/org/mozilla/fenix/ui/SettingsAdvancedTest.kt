@@ -322,6 +322,12 @@ setPocketEnabled
 (
 false
 )
+featureSettingsHelper
+.
+setTCPCFREnabled
+(
+false
+)
 }
 After
 fun

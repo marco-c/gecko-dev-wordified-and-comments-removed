@@ -812,6 +812,12 @@ setJumpBackCFREnabled
 (
 false
 )
+featureSettingsHelper
+.
+setTCPCFREnabled
+(
+false
+)
 mDevice
 =
 UiDevice
@@ -3769,6 +3775,14 @@ noHistoryInPrivateBrowsingTest
 (
 )
 {
+FeatureSettingsHelper
+(
+)
+.
+setTCPCFREnabled
+(
+false
+)
 val
 website
 =

@@ -267,6 +267,12 @@ disablePwaCFR
 (
 true
 )
+featureSettingsHelper
+.
+setTCPCFREnabled
+(
+false
+)
 }
 After
 fun

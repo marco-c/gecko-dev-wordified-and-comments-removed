@@ -431,6 +431,12 @@ false
 )
 featureSettingsHelper
 .
+setTCPCFREnabled
+(
+false
+)
+featureSettingsHelper
+.
 deleteSitePermissions
 (
 true
