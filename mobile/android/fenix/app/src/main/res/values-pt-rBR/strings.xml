@@ -17247,8 +17247,10 @@ sync_sign_in
 "
 >
 Entrar
-no
-Sync
+na
+conta
+para
+sincronizar
 <
 /
 string
@@ -17352,8 +17354,8 @@ sync_reconnect
 "
 >
 Reconectar
-ao
-Sync
+para
+sincronizar
 <
 /
 string
@@ -24670,8 +24672,8 @@ preferences_passwords_saved_logins_description_empty_learn_more_link
 Saiba
 mais
 sobre
+sincroniza
 o
-Sync
 .
 <
 /
