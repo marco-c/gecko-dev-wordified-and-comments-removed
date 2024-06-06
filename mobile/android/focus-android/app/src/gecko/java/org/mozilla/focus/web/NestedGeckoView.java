@@ -66,7 +66,7 @@ org
 .
 mozilla
 .
-gecko
+geckoview
 .
 GeckoView
 ;

@@ -83,7 +83,7 @@ org
 .
 mozilla
 .
-gecko
+geckoview
 .
 GeckoView
 ;
@@ -92,7 +92,7 @@ org
 .
 mozilla
 .
-gecko
+geckoview
 .
 GeckoSession
 ;
@@ -101,7 +101,7 @@ org
 .
 mozilla
 .
-gecko
+geckoview
 .
 GeckoSessionSettings
 ;

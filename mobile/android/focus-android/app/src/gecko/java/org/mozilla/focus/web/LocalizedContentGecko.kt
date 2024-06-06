@@ -143,7 +143,7 @@ org
 .
 mozilla
 .
-gecko
+geckoview
 .
 GeckoSession
 import
