@@ -341,8 +341,9 @@ name
 destructive_light_theme
 "
 >
-#
-C50042
+color
+/
+photonRed70
 <
 /
 color
