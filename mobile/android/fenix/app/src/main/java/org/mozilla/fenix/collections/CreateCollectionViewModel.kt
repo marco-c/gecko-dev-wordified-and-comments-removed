@@ -102,7 +102,7 @@ ViewModel
 var
 selectedTabs
 =
-setOf
+mutableSetOf
 <
 Tab
 >

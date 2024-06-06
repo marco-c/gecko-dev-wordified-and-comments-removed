@@ -3019,11 +3019,11 @@ selectedTabs
 =
 null
 )
-setOf
+mutableSetOf
 (
 )
 else
-setOf
+mutableSetOf
 (
 selectedTabs
 )
@@ -3053,6 +3053,10 @@ core
 tabCollectionStorage
 .
 cachedTabCollections
+.
+reversed
+(
+)
 view
 ?
 .
