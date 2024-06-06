@@ -390,6 +390,15 @@ actionGlobalSearch
 sessionId
 =
 null
+searchAccessPoint
+=
+Event
+.
+PerformedSearch
+.
+SearchAccessPoint
+.
+WIDGET
 )
 null
 )

@@ -682,6 +682,11 @@ listOf
 SpeechProcessingIntentProcessor
 (
 this
+components
+.
+analytics
+.
+metrics
 )
 StartSearchIntentProcessor
 (
