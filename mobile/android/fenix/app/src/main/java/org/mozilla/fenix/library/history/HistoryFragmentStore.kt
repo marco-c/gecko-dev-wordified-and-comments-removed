@@ -701,8 +701,6 @@ val
 item
 :
 History
-.
-Regular
 )
 :
 HistoryFragmentAction
@@ -716,8 +714,6 @@ val
 item
 :
 History
-.
-Regular
 )
 :
 HistoryFragmentAction
@@ -848,8 +844,6 @@ selectedItems
 emptySet
 <
 History
-.
-Regular
 >
 (
 )
@@ -876,8 +870,6 @@ selectedItems
 Set
 <
 History
-.
-Regular
 >
 )
 :
