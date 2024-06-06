@@ -782,15 +782,6 @@ overline
 )
 )
 FirefoxTheme
-(
-theme
-=
-Theme
-.
-getTheme
-(
-)
-)
 {
 LazyColumn
 (
