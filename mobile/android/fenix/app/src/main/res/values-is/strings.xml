@@ -9641,13 +9641,11 @@ name
 preferences_sync_2
 "
 >
-Samstilltu
+Samstilla
 og
 vista
-u
 g
-gnin
-n
+gn
 <
 /
 string
@@ -17340,10 +17338,9 @@ name
 sync_menu_sync_and_save_data
 "
 >
-Samstilltu
+Samstilla
 og
 vista
-u
 g
 gn
 <
@@ -20966,7 +20963,7 @@ onboarding_theme_dark_title
 "
 >
 D
-kkur
+kkt
 ema
 <
 /
@@ -25791,7 +25788,9 @@ Virkja
 til
 a
 leyfa
-klemmu
+a
+kl
+pa
 og
 a
 dr
