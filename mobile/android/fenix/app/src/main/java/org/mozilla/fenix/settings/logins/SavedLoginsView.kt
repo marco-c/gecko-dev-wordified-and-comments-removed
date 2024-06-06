@@ -434,7 +434,7 @@ submitList
 (
 state
 .
-items
+filteredItems
 )
 }
 }
