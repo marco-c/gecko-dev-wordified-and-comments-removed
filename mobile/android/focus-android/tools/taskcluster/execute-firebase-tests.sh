@@ -985,7 +985,9 @@ run
 config
 =
 FLANK_CONF
-mv
+cp
+-
+r
 "
 PATH_TOOLS
 /
