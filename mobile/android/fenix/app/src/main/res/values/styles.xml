@@ -586,7 +586,7 @@ scrimEnd
 >
 color
 /
-scrimStart_normal_theme
+scrimEnd_normal_theme
 <
 /
 item
@@ -1146,7 +1146,7 @@ scrimEnd
 >
 color
 /
-scrimStart_private_theme
+scrimEnd_private_theme
 <
 /
 item
