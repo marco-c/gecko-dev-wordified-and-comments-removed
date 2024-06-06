@@ -560,6 +560,13 @@ requireComponents
 core
 .
 sessionManager
+store
+=
+requireComponents
+.
+core
+.
+store
 toolbar
 =
 toolbar

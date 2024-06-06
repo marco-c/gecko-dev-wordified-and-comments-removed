@@ -99,6 +99,18 @@ components
 .
 browser
 .
+state
+.
+store
+.
+BrowserStore
+import
+mozilla
+.
+components
+.
+browser
+.
 toolbar
 .
 BrowserToolbar
@@ -184,6 +196,9 @@ CustomTabsIntegration
 sessionManager
 :
 SessionManager
+store
+:
+BrowserStore
 toolbar
 :
 BrowserToolbar
@@ -447,7 +462,7 @@ lazy
 CustomTabToolbarMenu
 (
 activity
-sessionManager
+store
 sessionId
 shouldReverseItems
 onItemTapped
