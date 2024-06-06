@@ -1591,11 +1591,6 @@ chrom
                         
 "
 !
-fenix
-"
-                        
-"
-!
 safari
 "
                         
@@ -1655,11 +1650,6 @@ profil
 "
 !
 chrom
-"
-                        
-"
-!
-fenix
 "
                         
 "
@@ -1751,11 +1741,6 @@ profil
 "
 !
 chrom
-"
-                        
-"
-!
-fenix
 "
                         
 "
@@ -1899,11 +1884,6 @@ chrom
                         
 "
 !
-fenix
-"
-                        
-"
-!
 safari
 "
                         
@@ -1958,11 +1938,6 @@ profil
 "
 !
 chrom
-"
-                        
-"
-!
-fenix
 "
                         
 "
@@ -2029,11 +2004,6 @@ profil
 "
 !
 chrom
-"
-                        
-"
-!
-fenix
 "
                         
 "
@@ -2181,11 +2151,6 @@ profil
 "
 !
 chrom
-"
-                        
-"
-!
-fenix
 "
                         
 "
@@ -2384,11 +2349,6 @@ profil
                         
 "
 !
-fenix
-"
-                        
-"
-!
 safari
 "
                         
@@ -2446,11 +2406,6 @@ bytecode
 "
 !
 profil
-"
-                        
-"
-!
-fenix
 "
                         
 "
@@ -2561,7 +2516,7 @@ android
 True
 }
             
-78
+88
             
 {
                 
@@ -2615,11 +2570,6 @@ profil
 "
 !
 chrom
-"
-                        
-"
-!
-fenix
 "
                         
 "
@@ -2715,14 +2665,6 @@ Firefox
 Pageload
 android
 "
-                
-"
-Pageload
-android
--
-a51
-fenix
-"
             
 ]
         
@@ -2743,7 +2685,7 @@ chrome
 True
 }
             
-128
+138
             
 {
                 
@@ -2792,11 +2734,6 @@ live
 "
 !
 profil
-"
-                        
-"
-!
-fenix
 "
                         
 "
@@ -2918,7 +2855,7 @@ profile
 True
 }
             
-164
+176
             
 {
                 
@@ -2962,11 +2899,6 @@ bytecode
 "
 !
 live
-"
-                        
-"
-!
-fenix
 "
                         
 "
@@ -4625,11 +4557,6 @@ chrom
                         
 "
 !
-fenix
-"
-                        
-"
-!
 safari
 "
                         
@@ -4692,11 +4619,6 @@ profil
 "
 !
 chrom
-"
-                        
-"
-!
-fenix
 "
                         
 "
@@ -5088,7 +5010,7 @@ expected_log_message
 }
             
 [
-10
+9
 2
 2
 10
@@ -5202,7 +5124,7 @@ firefox
 }
             
 [
-10
+9
 2
 2
 10
@@ -5311,7 +5233,7 @@ cached_base_revision
 }
             
 [
-10
+9
 1
 1
 10
@@ -5418,7 +5340,7 @@ True
 }
             
 [
-10
+9
 1
 1
 10
@@ -5751,7 +5673,7 @@ True
 }
             
 [
-10
+9
 1
 1
 4
@@ -5824,7 +5746,7 @@ True
 }
             
 [
-11
+10
 2
 2
 10
@@ -5931,7 +5853,7 @@ True
 }
             
 [
-10
+9
 2
 2
 10
@@ -6283,12 +6205,6 @@ TASKS
 [
 "
 "
-TASKS
-]
-            
-[
-"
-"
 [
 "
 Perftest
@@ -6450,7 +6366,7 @@ True
 }
             
 [
-11
+10
 0
 0
 2
@@ -6487,8 +6403,6 @@ live
 profil
 !
 chrom
-!
-fenix
 !
 safari
 !
