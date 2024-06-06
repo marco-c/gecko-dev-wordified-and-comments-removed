@@ -134,7 +134,7 @@ shortcutShortLabel
 "
 string
 /
-home_screen_shortcut_open_new_tab
+home_screen_shortcut_open_new_tab_2
 "
 android
 :
@@ -143,7 +143,7 @@ shortcutLongLabel
 "
 string
 /
-home_screen_shortcut_open_new_tab
+home_screen_shortcut_open_new_tab_2
 "
 >
 <
@@ -225,7 +225,7 @@ shortcutShortLabel
 "
 string
 /
-home_screen_shortcut_open_new_private_tab
+home_screen_shortcut_open_new_private_tab_2
 "
 android
 :
@@ -234,7 +234,7 @@ shortcutLongLabel
 "
 string
 /
-home_screen_shortcut_open_new_private_tab
+home_screen_shortcut_open_new_private_tab_2
 "
 >
 <

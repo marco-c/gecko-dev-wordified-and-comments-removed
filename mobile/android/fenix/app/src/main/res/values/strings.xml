@@ -685,11 +685,10 @@ string
 name
 =
 "
-home_screen_shortcut_open_new_tab
+home_screen_shortcut_open_new_tab_2
 "
 >
-Open
-new
+New
 tab
 <
 /
@@ -714,11 +713,10 @@ string
 name
 =
 "
-home_screen_shortcut_open_new_private_tab
+home_screen_shortcut_open_new_private_tab_2
 "
 >
-Open
-new
+New
 private
 tab
 <
