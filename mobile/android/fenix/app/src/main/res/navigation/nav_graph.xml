@@ -5019,14 +5019,14 @@ android
 name
 =
 "
-strictMode
+protectionMode
 "
 app
 :
 argType
 =
 "
-boolean
+string
 "
 /
 >
