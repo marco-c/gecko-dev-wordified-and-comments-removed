@@ -126,8 +126,15 @@ Share
 Item
 (
 )
-object
+data
+class
 Back
+(
+val
+viewHistory
+:
+Boolean
+)
 :
 Item
 (
