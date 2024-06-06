@@ -608,6 +608,8 @@ is
 Allowed
 "
 thirdRadioButton
+(
+)
 .
 check
 (
@@ -954,6 +956,8 @@ video
 -
 >
 askToAllowRadioButton
+(
+)
 .
 click
 (
@@ -971,6 +975,8 @@ only
 -
 >
 blockRadioButton
+(
+)
 .
 click
 (
@@ -983,6 +989,8 @@ only
 -
 >
 thirdRadioButton
+(
+)
 .
 click
 (
@@ -996,6 +1004,8 @@ video
 -
 >
 fourthRadioButton
+(
+)
 .
 click
 (
@@ -1023,6 +1033,8 @@ allow
 -
 >
 askToAllowRadioButton
+(
+)
 .
 click
 (
@@ -1033,6 +1045,8 @@ Blocked
 -
 >
 blockRadioButton
+(
+)
 .
 click
 (
@@ -1060,6 +1074,8 @@ allow
 -
 >
 askToAllowRadioButton
+(
+)
 .
 click
 (
@@ -1070,6 +1086,8 @@ Blocked
 -
 >
 blockRadioButton
+(
+)
 .
 click
 (
@@ -1080,6 +1098,8 @@ Allowed
 -
 >
 thirdRadioButton
+(
+)
 .
 click
 (
@@ -1140,8 +1160,10 @@ for
 all
 settings
 private
-val
+fun
 blockRadioButton
+(
+)
 =
 onView
 (
@@ -1166,8 +1188,10 @@ for
 all
 settings
 private
-val
+fun
 askToAllowRadioButton
+(
+)
 =
 onView
 (
@@ -1191,8 +1215,10 @@ for
 all
 settings
 private
-val
+fun
 thirdRadioButton
+(
+)
 =
 onView
 (
@@ -1216,8 +1242,10 @@ for
 all
 settings
 private
-val
+fun
 fourthRadioButton
+(
+)
 =
 onView
 (
@@ -1256,6 +1284,8 @@ assertBlockAudioAndVideoOnMobileDataOnlyAudioAndVideoWillPlayOnWiFi
 )
 =
 blockRadioButton
+(
+)
 .
 check
 (
@@ -1278,6 +1308,8 @@ assertBlockAudioOnly
 )
 =
 thirdRadioButton
+(
+)
 .
 check
 (
@@ -1338,6 +1370,8 @@ audio
 and
 video
 askToAllowRadioButton
+(
+)
 .
 assertIsChecked
 (
@@ -1356,6 +1390,8 @@ cellular
 data
 only
 blockRadioButton
+(
+)
 .
 assertIsChecked
 (
@@ -1372,6 +1408,8 @@ only
 default
 )
 thirdRadioButton
+(
+)
 .
 assertIsChecked
 (
@@ -1386,6 +1424,8 @@ audio
 and
 video
 fourthRadioButton
+(
+)
 .
 assertIsChecked
 (
