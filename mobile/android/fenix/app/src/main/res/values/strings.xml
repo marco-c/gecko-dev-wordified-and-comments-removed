@@ -7099,7 +7099,7 @@ in
 snackbar
 when
 user
-deletes
+renames
 a
 collection
 -
