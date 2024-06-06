@@ -84,11 +84,11 @@ ext
 mozilla_components_version
 =
 '
-48
+49
 .
 0
 .
-0
+1
 '
 ext
 .
@@ -99,7 +99,7 @@ gecko_release_version
 .
 0
 .
-20200625152958
+20200708170202
 '
 repositories
 {
