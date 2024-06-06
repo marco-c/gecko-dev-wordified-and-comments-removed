@@ -143,7 +143,7 @@ mozilla
 .
 fenix
 .
-library
+selection
 .
 SelectionHolder
 import

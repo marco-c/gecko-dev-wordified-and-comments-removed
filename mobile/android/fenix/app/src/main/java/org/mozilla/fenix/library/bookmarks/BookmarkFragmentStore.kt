@@ -121,7 +121,7 @@ mozilla
 .
 fenix
 .
-library
+selection
 .
 SelectionHolder
 class

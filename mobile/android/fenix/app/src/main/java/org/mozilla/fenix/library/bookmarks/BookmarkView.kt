@@ -175,7 +175,7 @@ mozilla
 .
 fenix
 .
-library
+selection
 .
 SelectionInteractor
 /
