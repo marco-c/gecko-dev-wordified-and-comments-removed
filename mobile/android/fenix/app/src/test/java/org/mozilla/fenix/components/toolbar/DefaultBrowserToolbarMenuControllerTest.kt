@@ -2088,7 +2088,7 @@ size
 assertEquals
 (
 "
-back
+back_long_press
 "
 snapshot
 .
@@ -2343,7 +2343,7 @@ size
 assertEquals
 (
 "
-forward
+forward_long_press
 "
 snapshot
 .

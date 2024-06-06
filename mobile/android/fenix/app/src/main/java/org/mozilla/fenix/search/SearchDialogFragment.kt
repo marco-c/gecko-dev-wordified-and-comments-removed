@@ -4092,6 +4092,13 @@ show
 )
 }
 }
+Events
+.
+browserToolbarQrScanCompleted
+.
+record
+(
+)
 }
 )
 }

@@ -2203,6 +2203,12 @@ setText
 "
 "
 )
+editListener
+?
+.
+onInputCleared
+(
+)
 }
 private
 fun
