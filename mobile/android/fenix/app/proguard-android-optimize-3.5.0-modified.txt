@@ -459,8 +459,6 @@ merging
 optimizationpasses
 5
 -
-allowaccessmodification
--
 dontusemixedcaseclassnames
 -
 dontskipnonpubliclibraryclasses
