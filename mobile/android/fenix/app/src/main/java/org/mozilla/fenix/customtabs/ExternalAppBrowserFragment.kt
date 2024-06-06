@@ -540,13 +540,6 @@ feature
 =
 CustomTabsIntegration
 (
-sessionManager
-=
-requireComponents
-.
-core
-.
-sessionManager
 store
 =
 requireComponents
