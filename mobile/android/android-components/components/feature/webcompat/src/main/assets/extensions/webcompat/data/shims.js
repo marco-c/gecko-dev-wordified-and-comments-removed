@@ -5908,8 +5908,6 @@ com
 /
 embed
 /
-track
-/
 *
 "
 ]
