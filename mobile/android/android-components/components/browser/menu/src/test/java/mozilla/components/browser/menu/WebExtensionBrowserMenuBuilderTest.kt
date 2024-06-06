@@ -548,7 +548,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_extensions
+mozac_ic_extension_24
 backPressMenuItemDrawableRes
 =
 iconsR

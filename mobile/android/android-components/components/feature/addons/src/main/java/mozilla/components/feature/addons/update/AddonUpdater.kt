@@ -1691,7 +1691,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_extensions
+mozac_ic_extension_24
 )
 .
 setContentTitle
@@ -2060,7 +2060,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_extensions
+mozac_ic_extension_24
 allowText
 allowPendingIntent
 )
@@ -2134,7 +2134,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_extensions
+mozac_ic_extension_24
 denyText
 denyPendingIntent
 )
