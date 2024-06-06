@@ -411,6 +411,12 @@ true
 )
 appView
 .
+waitForExists
+(
+waitingTime
+)
+appView
+.
 scrollTextIntoView
 (
 text
