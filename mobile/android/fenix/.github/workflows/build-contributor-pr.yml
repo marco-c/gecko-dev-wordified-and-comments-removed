@@ -787,6 +787,11 @@ pixel_3a
 script
 :
 "
+JAVA_HOME
+=
+JAVA_HOME_11_X64
+&
+&
 .
 /
 gradlew
