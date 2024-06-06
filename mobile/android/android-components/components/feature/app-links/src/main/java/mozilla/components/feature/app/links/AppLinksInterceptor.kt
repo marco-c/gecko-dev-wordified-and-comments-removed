@@ -926,6 +926,14 @@ uri
 )
 if
 (
+engineSupportedSchemes
+.
+contains
+(
+uriScheme
+)
+&
+&
 inUserDoNotIntercept
 (
 uri
