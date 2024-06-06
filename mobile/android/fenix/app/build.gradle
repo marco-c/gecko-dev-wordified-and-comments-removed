@@ -4251,6 +4251,14 @@ annotations
 androidTestImplementation
 Deps
 .
+androidx_junit
+androidTestImplementation
+Deps
+.
+androidx_work_testing
+androidTestImplementation
+Deps
+.
 mockwebserver
 testImplementation
 Deps
