@@ -434,4 +434,13 @@ MigrationStore
 (
 )
 }
+val
+performance
+by
+lazy
+{
+PerformanceComponent
+(
+)
+}
 }
