@@ -685,7 +685,7 @@ true
 val
 browserStore
 :
-BrowserStore
+BrowserFragmentStore
 =
 mockk
 (
@@ -821,7 +821,7 @@ true
 val
 browserStore
 :
-BrowserStore
+BrowserFragmentStore
 =
 mockk
 (

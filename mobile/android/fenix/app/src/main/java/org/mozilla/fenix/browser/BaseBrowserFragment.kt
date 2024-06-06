@@ -567,7 +567,7 @@ components
 .
 toolbar
 .
-BrowserState
+BrowserFragmentState
 import
 org
 .
@@ -579,7 +579,7 @@ components
 .
 toolbar
 .
-BrowserStore
+BrowserFragmentStore
 import
 org
 .
@@ -794,7 +794,7 @@ lateinit
 var
 browserStore
 :
-BrowserStore
+BrowserFragmentStore
 protected
 lateinit
 var
@@ -1045,9 +1045,9 @@ get
 this
 )
 {
-BrowserStore
+BrowserFragmentStore
 (
-BrowserState
+BrowserFragmentState
 (
 quickActionSheetState
 =

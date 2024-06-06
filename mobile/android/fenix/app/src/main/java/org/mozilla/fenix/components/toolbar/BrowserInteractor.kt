@@ -202,7 +202,7 @@ private
 val
 store
 :
-BrowserStore
+BrowserFragmentStore
 browserToolbarController
 :
 BrowserToolbarController

@@ -179,7 +179,7 @@ components
 .
 toolbar
 .
-BrowserStore
+BrowserFragmentStore
 import
 org
 .
@@ -216,7 +216,7 @@ lateinit
 var
 store
 :
-BrowserStore
+BrowserFragmentStore
 private
 lateinit
 var

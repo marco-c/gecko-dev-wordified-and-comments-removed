@@ -547,7 +547,7 @@ update
 (
 state
 :
-BrowserState
+BrowserFragmentState
 )
 {
 /

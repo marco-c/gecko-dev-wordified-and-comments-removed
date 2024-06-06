@@ -189,7 +189,7 @@ components
 .
 toolbar
 .
-BrowserState
+BrowserFragmentState
 import
 org
 .
@@ -679,7 +679,7 @@ update
 (
 state
 :
-BrowserState
+BrowserFragmentState
 )
 {
 val

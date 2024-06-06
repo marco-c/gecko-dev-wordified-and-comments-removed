@@ -95,7 +95,7 @@ junit
 .
 Test
 class
-BrowserStoreTest
+BrowserFragmentStoreTest
 {
 Test
 fun
@@ -114,7 +114,7 @@ defaultBrowserState
 val
 store
 =
-BrowserStore
+BrowserFragmentStore
 (
 initialState
 )
@@ -169,7 +169,7 @@ defaultBrowserState
 val
 store
 =
-BrowserStore
+BrowserFragmentStore
 (
 initialState
 )
@@ -224,7 +224,7 @@ defaultBrowserState
 val
 store
 =
-BrowserStore
+BrowserFragmentStore
 (
 initialState
 )
@@ -279,7 +279,7 @@ defaultBrowserState
 val
 store
 =
-BrowserStore
+BrowserFragmentStore
 (
 initialState
 )
@@ -331,7 +331,7 @@ defaultBrowserState
 val
 store
 =
-BrowserStore
+BrowserFragmentStore
 (
 initialState
 )
@@ -375,9 +375,9 @@ defaultBrowserState
 (
 )
 :
-BrowserState
+BrowserFragmentState
 =
-BrowserState
+BrowserFragmentState
 (
 quickActionSheetState
 =
