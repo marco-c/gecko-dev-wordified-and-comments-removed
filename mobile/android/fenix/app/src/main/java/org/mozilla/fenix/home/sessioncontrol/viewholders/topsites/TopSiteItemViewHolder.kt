@@ -310,6 +310,11 @@ top_site_item
 .
 setOnLongClickListener
 {
+interactor
+.
+onTopSiteMenuOpened
+(
+)
 it
 .
 context

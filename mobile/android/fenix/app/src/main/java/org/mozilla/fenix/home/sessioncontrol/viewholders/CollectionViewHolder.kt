@@ -390,6 +390,11 @@ collection_overflow_button
 .
 setOnClickListener
 {
+interactor
+.
+onCollectionMenuOpened
+(
+)
 collectionMenu
 .
 menuBuilder
