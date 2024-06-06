@@ -256,6 +256,8 @@ android
 gravity
 =
 "
+start
+|
 center_vertical
 "
 android
@@ -290,13 +292,6 @@ textSize
 =
 "
 15sp
-"
-tools
-:
-ignore
-=
-"
-RtlCompat
 "
 tools
 :

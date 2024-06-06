@@ -128,6 +128,8 @@ android
 gravity
 =
 "
+start
+|
 center_vertical
 "
 app
@@ -149,13 +151,6 @@ android
 id
 /
 title
-"
-tools
-:
-ignore
-=
-"
-RtlCompat
 "
 /
 >
