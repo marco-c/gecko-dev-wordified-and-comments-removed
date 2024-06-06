@@ -3360,9 +3360,6 @@ invoke
 searchTerms
 =
 searchTerms
-private
-=
-true
 source
 =
 SessionState
