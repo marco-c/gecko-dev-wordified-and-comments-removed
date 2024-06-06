@@ -467,7 +467,7 @@ R
 .
 drawable
 .
-mozac_ic_sync
+mozac_ic_sync_24
 R
 .
 color

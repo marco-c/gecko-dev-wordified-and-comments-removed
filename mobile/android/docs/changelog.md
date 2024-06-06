@@ -514,6 +514,11 @@ Rename
 mozac_ic_cookies
 to
 mozac_ic_cookies_24
+*
+Rename
+mozac_ic_sync
+to
+mozac_ic_sync_24
 #
 116
 .
