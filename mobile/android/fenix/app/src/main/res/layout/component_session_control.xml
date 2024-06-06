@@ -166,5 +166,12 @@ transitionGroup
 "
 false
 "
+android
+:
+importantForAccessibility
+=
+"
+no
+"
 /
 >
