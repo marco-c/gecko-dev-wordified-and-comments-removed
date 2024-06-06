@@ -523,7 +523,7 @@ backgroundTint
 "
 color
 /
-colorMultitasking
+accentBright
 "
 app
 :
@@ -532,7 +532,7 @@ rippleColor
 "
 color
 /
-colorMultitaskingPressed
+accent
 "
 app
 :
@@ -649,7 +649,7 @@ backgroundTint
 "
 color
 /
-colorErase
+accentBright
 "
 app
 :
@@ -658,7 +658,7 @@ rippleColor
 "
 color
 /
-colorErasePressed
+accent
 "
 android
 :
