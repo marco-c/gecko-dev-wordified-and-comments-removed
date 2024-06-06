@@ -515,7 +515,7 @@ R
 .
 color
 .
-secondary_text_normal_theme
+fx_mobile_text_color_secondary
 }
 val
 color
