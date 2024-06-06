@@ -268,18 +268,6 @@ settings
 logins
 .
 mapToSavedLogin
-import
-org
-.
-mozilla
-.
-fenix
-.
-settings
-.
-logins
-.
-SavedLogin
 /
 *
 *
@@ -1031,7 +1019,7 @@ loginId
 )
 }
 }
-suspend
+private
 fun
 findDuplicate
 (
