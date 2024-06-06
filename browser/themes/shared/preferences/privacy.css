@@ -1143,9 +1143,9 @@ color
 }
 media
 (
-prefers
+forced
 -
-contrast
+colors
 )
 {
 .
@@ -1177,9 +1177,9 @@ color
 media
 not
 (
-prefers
+forced
 -
-contrast
+colors
 )
 {
 .
