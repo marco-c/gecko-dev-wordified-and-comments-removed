@@ -2363,10 +2363,6 @@ baseline
 xml
 "
 }
-apply
-plugin
-:
-GitHubPlugin
 tasks
 .
 register
