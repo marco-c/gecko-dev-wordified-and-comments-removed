@@ -69,11 +69,9 @@ telemetry
 TelemetryWrapper
 ;
 import
-org
-.
 mozilla
 .
-focus
+components
 .
 utils
 .
@@ -300,6 +298,8 @@ count
 {
 ThreadUtils
 .
+INSTANCE
+.
 postToMainThread
 (
 new
@@ -341,6 +341,8 @@ view
 )
 {
 ThreadUtils
+.
+INSTANCE
 .
 postToMainThread
 (
@@ -398,6 +400,8 @@ isChecked
 )
 ;
 ThreadUtils
+.
+INSTANCE
 .
 postToMainThreadDelayed
 (
