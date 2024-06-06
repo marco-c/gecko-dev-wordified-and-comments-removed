@@ -569,8 +569,7 @@ withText
 (
 "
 Make
-Firefox
-Focus
+appName
 default
 browser
 "
