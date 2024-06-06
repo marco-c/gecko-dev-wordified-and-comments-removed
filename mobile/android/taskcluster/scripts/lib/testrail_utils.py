@@ -207,9 +207,8 @@ version_number
 return
 f
 "
-Automated
-smoke
-testing
+Build
+Validation
 sign
 -
 off
