@@ -2865,10 +2865,6 @@ on
 url
 bar
 .
-send_in_pings
-:
--
-metrics
 bugs
 :
 -
