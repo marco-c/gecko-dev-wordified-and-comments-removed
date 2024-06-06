@@ -785,6 +785,7 @@ R
 string
 .
 search_add_custom_engine_error_cannot_reach
+name
 )
 }
 SearchStringValidator
