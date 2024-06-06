@@ -203,9 +203,6 @@ ISSUE_MISSING_LICENSE
 LicenseDetector
 .
 ISSUE_INVALID_LICENSE_FORMAT
-KotlinSyntheticsDetector
-.
-DEPRECATED_KOTLIN_SYNTHETICS_ISSUE
 )
 +
 ConstraintLayoutPerfDetector
