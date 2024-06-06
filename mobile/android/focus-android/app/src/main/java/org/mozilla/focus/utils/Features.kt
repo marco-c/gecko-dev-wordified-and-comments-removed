@@ -177,7 +177,7 @@ onboarding
 "
 *
 /
-val
+var
 ONBOARDING
 =
 AppConstants
