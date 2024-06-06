@@ -4705,6 +4705,10 @@ toggleTrackingProtection
 updateTrackingProtectionPolicy
 =
 {
+tracker
+isEnabled
+-
+>
 EngineSharedPreferencesListener
 (
 requireContext
@@ -4725,7 +4729,10 @@ PANEL
 source
 tracker
 =
-it
+tracker
+isEnabled
+=
+isEnabled
 )
 }
 showConnectionInfo

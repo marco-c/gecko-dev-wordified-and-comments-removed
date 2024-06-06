@@ -271,6 +271,7 @@ updateTrackingProtectionPolicy
 (
 String
 ?
+Boolean
 )
 -
 >
@@ -771,6 +772,9 @@ TrackerChanged
 ADVERTISING
 .
 tracker
+advertising
+.
+isChecked
 )
 }
 analytics
@@ -784,6 +788,9 @@ TrackerChanged
 ANALYTICS
 .
 tracker
+analytics
+.
+isChecked
 )
 }
 social
@@ -797,6 +804,9 @@ TrackerChanged
 SOCIAL
 .
 tracker
+social
+.
+isChecked
 )
 }
 content
@@ -810,6 +820,9 @@ TrackerChanged
 CONTENT
 .
 tracker
+content
+.
+isChecked
 )
 }
 securityInfo
