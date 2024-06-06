@@ -173,7 +173,7 @@ fenix
 .
 ext
 .
-getColorFromAttr
+getColorIntFromAttr
 import
 org
 .
@@ -558,9 +558,9 @@ R
 .
 attr
 .
-accent
+accentBright
 .
-getColorFromAttr
+getColorIntFromAttr
 (
 containerView
 !
@@ -577,7 +577,7 @@ attr
 .
 neutral
 .
-getColorFromAttr
+getColorIntFromAttr
 (
 containerView
 !
