@@ -846,15 +846,4 @@ SelectCollection
 }
 }
 }
-companion
-object
-{
-const
-val
-createCollectionTag
-=
-"
-createCollection
-"
-}
 }
