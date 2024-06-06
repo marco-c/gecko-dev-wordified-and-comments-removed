@@ -1818,9 +1818,7 @@ core
 store
 tabsTrayStore
 =
-TabsTrayStore
-(
-)
+tabsTrayStore
 tabLayout
 =
 tab_layout
