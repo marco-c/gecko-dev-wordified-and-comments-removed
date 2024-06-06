@@ -104,7 +104,7 @@ False
 _target_task
 (
 "
-release
+ship
 "
 )
 def

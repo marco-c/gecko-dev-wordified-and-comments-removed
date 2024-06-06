@@ -388,7 +388,7 @@ shipping_phase
 ship
 target_tasks_method
 :
-release
+ship
 tasks_for
 :
 action
