@@ -257,6 +257,16 @@ fenix
 .
 autofill
 .
+AutofillConfirmActivity
+import
+org
+.
+mozilla
+.
+fenix
+.
+autofill
+.
 AutofillUnlockActivity
 import
 org
@@ -1039,7 +1049,7 @@ class
 java
 confirmActivity
 =
-AutofillConfiguration
+AutofillConfirmActivity
 :
 :
 class
