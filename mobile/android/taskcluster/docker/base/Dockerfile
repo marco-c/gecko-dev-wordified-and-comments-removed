@@ -952,6 +952,10 @@ python3
 -
 yaml
 \
+libgit2
+-
+dev
+\
 locales
 \
 unzip
