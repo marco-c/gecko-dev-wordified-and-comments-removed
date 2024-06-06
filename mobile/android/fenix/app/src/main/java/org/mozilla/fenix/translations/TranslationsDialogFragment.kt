@@ -635,6 +635,16 @@ bottomSheet
 behavior
 ?
 .
+peekHeight
+=
+resources
+.
+displayMetrics
+.
+heightPixels
+behavior
+?
+.
 state
 =
 BottomSheetBehavior
