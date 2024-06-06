@@ -203,7 +203,7 @@ fenix
 .
 ext
 .
-hideAndDisable
+increaseTapArea
 import
 org
 .
@@ -213,7 +213,7 @@ fenix
 .
 ext
 .
-increaseTapArea
+removeAndDisable
 import
 org
 .
@@ -521,14 +521,14 @@ view
 .
 collection_share_button
 .
-hideAndDisable
+removeAndDisable
 (
 )
 view
 .
 collection_overflow_button
 .
-hideAndDisable
+removeAndDisable
 (
 )
 }
