@@ -165,14 +165,6 @@ mozilla
 .
 fenix
 .
-FeatureFlags
-import
-org
-.
-mozilla
-.
-fenix
-.
 R
 import
 org
@@ -250,14 +242,6 @@ toolbar
 elevation
 =
 0f
-if
-(
-!
-FeatureFlags
-.
-dynamicBottomToolbar
-)
-{
 /
 /
 Reduce
@@ -309,7 +293,6 @@ toolbarHeight
 0
 0
 )
-}
 }
 }
 val
