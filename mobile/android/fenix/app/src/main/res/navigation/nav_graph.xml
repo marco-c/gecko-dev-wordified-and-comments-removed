@@ -1694,7 +1694,7 @@ id
 +
 id
 /
-action_browserFragment_to_firstTimePwaFragment
+action_browserFragment_to_pwaOnboardingDialogFragment
 "
 app
 :
@@ -1703,7 +1703,7 @@ destination
 "
 id
 /
-firstTimePwaFragment
+pwaOnboardingDialogFragment
 "
 /
 >
@@ -5354,7 +5354,7 @@ id
 +
 id
 /
-firstTimePwaFragment
+pwaOnboardingDialogFragment
 "
 android
 :
@@ -5369,14 +5369,7 @@ fenix
 .
 shortcut
 .
-FirstTimePwaFragment
-"
-android
-:
-label
-=
-"
-fragment_pwa_first_time
+PwaOnboardingDialogFragment
 "
 tools
 :
@@ -5385,7 +5378,7 @@ layout
 "
 layout
 /
-fragment_pwa_first_time
+fragment_pwa_onboarding
 "
 /
 >

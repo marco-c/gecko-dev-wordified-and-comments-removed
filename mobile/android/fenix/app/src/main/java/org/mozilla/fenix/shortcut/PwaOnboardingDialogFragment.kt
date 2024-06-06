@@ -145,7 +145,7 @@ requireComponents
 Dialog
 displayed
 the
-first
+third
 time
 the
 user
@@ -159,7 +159,7 @@ app
 *
 /
 class
-FirstTimePwaFragment
+PwaOnboardingDialogFragment
 :
 DialogFragment
 (
@@ -219,7 +219,7 @@ R
 .
 layout
 .
-fragment_pwa_first_time
+fragment_pwa_onboarding
 container
 false
 )

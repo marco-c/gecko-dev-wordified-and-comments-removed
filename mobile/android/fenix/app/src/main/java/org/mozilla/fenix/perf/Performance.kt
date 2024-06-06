@@ -489,7 +489,7 @@ getInstance
 context
 )
 .
-userKnowsAboutPWAs
+userKnowsAboutPwas
 =
 true
 }

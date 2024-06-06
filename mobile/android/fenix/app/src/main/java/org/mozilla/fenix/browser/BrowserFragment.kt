@@ -413,7 +413,7 @@ fenix
 .
 shortcut
 .
-FirstTimePwaObserver
+PwaOnboardingObserver
 import
 org
 .
@@ -938,9 +938,10 @@ true
 )
 if
 (
+!
 settings
 .
-shouldShowFirstTimePwaFragment
+userKnowsAboutPwas
 )
 {
 session
@@ -948,7 +949,7 @@ session
 .
 register
 (
-FirstTimePwaObserver
+PwaOnboardingObserver
 (
 navController
 =
