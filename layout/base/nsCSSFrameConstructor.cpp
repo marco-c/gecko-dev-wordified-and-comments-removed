@@ -27640,13 +27640,6 @@ mContainer
 ;
 if
 (
-iter
-.
-ShadowDOMInvolved
-(
-)
-|
-|
 !
 aChild
 -
