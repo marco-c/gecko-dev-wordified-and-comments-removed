@@ -513,12 +513,8 @@ snackbar
 anchorWithAction
 (
 anchor
-mockk
-(
-relaxed
-=
-true
-)
+{
+}
 )
 verifyOrder
 {
