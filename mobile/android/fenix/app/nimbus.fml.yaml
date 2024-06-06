@@ -1840,7 +1840,7 @@ type
 Boolean
 default
 :
-true
+false
 juno
 -
 onboarding
