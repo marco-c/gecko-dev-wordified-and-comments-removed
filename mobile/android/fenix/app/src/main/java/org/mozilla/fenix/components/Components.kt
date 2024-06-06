@@ -403,16 +403,6 @@ mozilla
 .
 fenix
 .
-wallpapers
-.
-WallpapersAssetsStorage
-import
-org
-.
-mozilla
-.
-fenix
-.
 wifi
 .
 WifiConnectionMonitor
@@ -914,10 +904,6 @@ lazyMonitored
 WallpaperManager
 (
 settings
-WallpapersAssetsStorage
-(
-context
-)
 WallpaperDownloader
 (
 context
