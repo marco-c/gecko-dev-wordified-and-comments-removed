@@ -1086,7 +1086,9 @@ getRootView
 !
 isDisplayedWithBrowserToolbar
 =
-true
+args
+.
+requiresSnackbarPaddingForToolbar
 )
 .
 setText

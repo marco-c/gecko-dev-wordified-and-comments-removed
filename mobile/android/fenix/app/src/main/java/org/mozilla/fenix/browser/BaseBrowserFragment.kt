@@ -4083,6 +4083,7 @@ actionGlobalBookmarkEditFragment
 existing
 .
 guid
+true
 )
 )
 }
@@ -4202,6 +4203,7 @@ BrowserFragmentDirections
 actionGlobalBookmarkEditFragment
 (
 guid
+true
 )
 )
 }

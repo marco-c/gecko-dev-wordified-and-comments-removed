@@ -933,15 +933,9 @@ verify
 {
 bookmarkController
 .
-handleBookmarkDeletion
-(
-setOf
+handleBookmarkFolderDeletion
 (
 subfolder
-)
-Event
-.
-RemoveBookmarkFolder
 )
 }
 }
