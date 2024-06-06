@@ -671,7 +671,6 @@ onInterceptTouchEvent
 event
 :
 MotionEvent
-?
 )
 :
 Boolean
@@ -680,7 +679,6 @@ return
 when
 (
 event
-?
 .
 actionMasked
 )
@@ -720,7 +718,6 @@ onTouchEvent
 event
 :
 MotionEvent
-?
 )
 :
 Boolean
@@ -729,7 +726,6 @@ return
 when
 (
 event
-?
 .
 actionMasked
 )
