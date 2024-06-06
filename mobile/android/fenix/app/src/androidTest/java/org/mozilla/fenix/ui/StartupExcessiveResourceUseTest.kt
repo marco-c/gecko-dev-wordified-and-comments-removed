@@ -614,6 +614,10 @@ strictMode
 .
 suppressionCount
 .
+get
+(
+)
+.
 toInt
 (
 )

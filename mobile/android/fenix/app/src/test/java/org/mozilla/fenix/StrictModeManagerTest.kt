@@ -901,6 +901,10 @@ assertEquals
 debugManager
 .
 suppressionCount
+.
+get
+(
+)
 )
 debugManager
 .
@@ -922,6 +926,10 @@ assertEquals
 debugManager
 .
 suppressionCount
+.
+get
+(
+)
 )
 }
 }
