@@ -1566,7 +1566,7 @@ expandMenu
 .
 openAddToHomeScreen
 {
-verifyShortcutNameField
+verifyShortcutTextFieldTitle
 (
 "
 Test_Page_1
