@@ -502,8 +502,9 @@ name
 collection_icon_color_green_light_theme
 "
 >
-#
-2AC3A2
+color
+/
+photonGreen60
 <
 /
 color
@@ -1673,8 +1674,9 @@ name
 search_suggestion_indicator_icon_color_dark_theme
 "
 >
-#
-2ac3a2
+color
+/
+photonGreen60
 <
 /
 color
