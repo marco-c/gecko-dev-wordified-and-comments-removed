@@ -352,7 +352,6 @@ HomeActivityIntentTestRule
 withDefaultSettingsOverrides
 (
 )
-SmokeTest
 Test
 fun
 externalLinkPWATest
@@ -459,7 +458,6 @@ id
 1807275
 "
 )
-SmokeTest
 Test
 fun
 emailLinkPWATest
@@ -536,7 +534,6 @@ emailLink
 )
 }
 }
-SmokeTest
 Test
 fun
 telephoneLinkPWATest
@@ -693,7 +690,6 @@ id
 1807273
 "
 )
-SmokeTest
 Test
 fun
 saveLoginsInPWATest
