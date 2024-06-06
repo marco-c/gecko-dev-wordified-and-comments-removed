@@ -606,6 +606,14 @@ range
 )
         
 ]
++
+[
+            
+BUILDER
+.
+craft_raptor_youtube_playback_task
+        
+]
         
 for
 craft_function
