@@ -987,13 +987,6 @@ Event
 ?
 =
 when
-(
-Pair
-(
-component
-item
-)
-)
 {
 Component
 .
