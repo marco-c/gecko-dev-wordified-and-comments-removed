@@ -730,7 +730,7 @@ pushService
 by
 lazy
 {
-FirebasePush
+FirebasePushService
 (
 )
 }

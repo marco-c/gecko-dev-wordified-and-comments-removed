@@ -2015,7 +2015,7 @@ name
 .
 components
 .
-FirebasePush
+FirebasePushService
 "
 android
 :

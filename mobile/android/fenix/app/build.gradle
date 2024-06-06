@@ -3748,11 +3748,15 @@ sentry
 implementation
 Deps
 .
-leanplum
+osslicenses_library
 implementation
 Deps
 .
-osslicenses_library
+leanplum_core
+implementation
+Deps
+.
+leanplum_fcm
 implementation
 Deps
 .
