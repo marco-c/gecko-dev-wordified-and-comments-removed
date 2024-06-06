@@ -592,6 +592,11 @@ this
 isChecked
 =
 true
+this
+.
+setStartCheckedIndicator
+(
+)
 }
 }
 private
