@@ -1246,11 +1246,7 @@ animation
 "
 50s
 linear
-0s
 infinite
-normal
-none
-running
 shine
 "
 "
