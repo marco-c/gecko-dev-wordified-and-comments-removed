@@ -22,6 +22,8 @@ title
 labels
 :
 '
+feature
+request
 '
 assignees
 :
