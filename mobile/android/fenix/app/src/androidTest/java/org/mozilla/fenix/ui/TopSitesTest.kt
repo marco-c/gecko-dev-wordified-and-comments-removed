@@ -372,6 +372,7 @@ issues
 24462
 "
 )
+SmokeTest
 Test
 fun
 verifyAddToFirefoxHome
