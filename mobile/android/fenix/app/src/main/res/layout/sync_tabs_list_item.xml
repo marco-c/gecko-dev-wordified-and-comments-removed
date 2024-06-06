@@ -245,8 +245,9 @@ android
 textColor
 =
 "
-?
-primaryText
+color
+/
+primary_text_normal_theme
 "
 android
 :
