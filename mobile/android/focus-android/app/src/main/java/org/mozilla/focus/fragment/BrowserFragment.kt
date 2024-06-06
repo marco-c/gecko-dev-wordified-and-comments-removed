@@ -4631,7 +4631,7 @@ Gulp
 !
 }
 }
-internal
+private
 fun
 showCrashReporter
 (
@@ -4802,7 +4802,7 @@ string
 tab_crash_report_title
 )
 }
-internal
+private
 fun
 hideCrashReporter
 (
@@ -4904,7 +4904,7 @@ it
 url
 }
 }
-internal
+private
 fun
 crashReporterIsVisible
 (
@@ -8805,20 +8805,6 @@ crash
 Crash
 )
 {
-Log
-.
-e
-(
-"
-crashed
-!
-"
-crash
-.
-toString
-(
-)
-)
 showCrashReporter
 (
 crash
