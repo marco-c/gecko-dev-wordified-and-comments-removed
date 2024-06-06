@@ -1206,7 +1206,7 @@ handleCustomizeHomeTapped
 *
 see
 [
-OnboardingInteractor
+WallpaperInteractor
 .
 showWallpapersOnboardingDialog
 ]

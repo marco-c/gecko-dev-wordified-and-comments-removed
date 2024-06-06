@@ -131,9 +131,9 @@ mozilla
 .
 fenix
 .
-home
+onboarding
 .
-sessioncontrol
+interactor
 .
 OnboardingInteractor
 class

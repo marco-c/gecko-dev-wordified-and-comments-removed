@@ -213,9 +213,9 @@ mozilla
 .
 fenix
 .
-home
+onboarding
 .
-sessioncontrol
+interactor
 .
 OnboardingInteractor
 RunWith
