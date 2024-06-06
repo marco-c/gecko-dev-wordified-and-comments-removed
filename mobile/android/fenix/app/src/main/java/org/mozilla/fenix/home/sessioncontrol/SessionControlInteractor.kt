@@ -131,9 +131,11 @@ mozilla
 .
 fenix
 .
-home
+components
 .
-HomeFragmentState
+appstate
+.
+AppState
 import
 org
 .
@@ -442,7 +444,7 @@ reportSessionMetrics
 (
 state
 :
-HomeFragmentState
+AppState
 )
 }
 /
@@ -2265,7 +2267,7 @@ reportSessionMetrics
 (
 state
 :
-HomeFragmentState
+AppState
 )
 {
 controller
