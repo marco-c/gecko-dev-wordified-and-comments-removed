@@ -165,6 +165,16 @@ mozilla
 .
 fenix
 .
+helpers
+.
+TestSetup
+import
+org
+.
+mozilla
+.
+fenix
+.
 ui
 .
 robots
@@ -187,6 +197,10 @@ fragment
 /
 class
 FirefoxSuggestTest
+:
+TestSetup
+(
+)
 {
 get
 :
