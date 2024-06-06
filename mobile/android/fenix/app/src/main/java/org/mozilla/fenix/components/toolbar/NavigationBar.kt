@@ -275,16 +275,6 @@ fenix
 .
 compose
 .
-Divider
-import
-org
-.
-mozilla
-.
-fenix
-.
-compose
-.
 annotation
 .
 LightDarkPreview
@@ -379,9 +369,6 @@ fillMaxWidth
 )
 )
 {
-Divider
-(
-)
 Row
 (
 modifier
