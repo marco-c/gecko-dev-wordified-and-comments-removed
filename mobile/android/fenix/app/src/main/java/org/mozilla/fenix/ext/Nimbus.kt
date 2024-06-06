@@ -548,6 +548,7 @@ feature
 itself
 or
 a
+*
 more
 type
 safe

@@ -199,16 +199,6 @@ mozilla
 .
 fenix
 .
-ext
-.
-withExperiment
-import
-org
-.
-mozilla
-.
-fenix
-.
 nimbus
 .
 controller
