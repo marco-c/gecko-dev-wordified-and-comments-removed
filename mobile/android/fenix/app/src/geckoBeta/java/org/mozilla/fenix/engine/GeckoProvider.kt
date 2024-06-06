@@ -175,6 +175,14 @@ mozilla
 .
 geckoview
 .
+ContentBlocking
+import
+org
+.
+mozilla
+.
+geckoview
+.
 GeckoRuntime
 import
 org
