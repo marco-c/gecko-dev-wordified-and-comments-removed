@@ -5457,10 +5457,6 @@ google_accompanist_drawablepainter
 implementation
 FenixDependencies
 .
-google_accompanist_insets
-implementation
-FenixDependencies
-.
 google_accompanist_pager
 implementation
 FenixDependencies
