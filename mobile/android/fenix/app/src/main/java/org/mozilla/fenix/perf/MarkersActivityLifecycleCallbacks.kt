@@ -189,7 +189,7 @@ method
 *
 /
 class
-MarkersLifecycleCallbacks
+MarkersActivityLifecycleCallbacks
 (
 private
 val

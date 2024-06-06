@@ -211,7 +211,7 @@ fenix
 .
 perf
 .
-MarkersLifecycleCallbacks
+MarkersActivityLifecycleCallbacks
 import
 org
 .
@@ -400,7 +400,7 @@ profiler
 .
 addMarker
 (
-MarkersLifecycleCallbacks
+MarkersActivityLifecycleCallbacks
 .
 MARKER_NAME
 startTimeProfiler

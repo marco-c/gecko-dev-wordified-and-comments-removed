@@ -821,7 +821,7 @@ fenix
 .
 perf
 .
-MarkersLifecycleCallbacks
+MarkersActivityLifecycleCallbacks
 import
 org
 .
@@ -1548,7 +1548,7 @@ visibilityLifecycleCallback
 )
 registerActivityLifecycleCallbacks
 (
-MarkersLifecycleCallbacks
+MarkersActivityLifecycleCallbacks
 (
 components
 .
