@@ -7009,10 +7009,6 @@ ComponentsDependencies
 .
 androidx_compose_material
 implementation
-FenixDependencies
-.
-androidx_legacy
-implementation
 ComponentsDependencies
 .
 androidx_biometric
@@ -7044,6 +7040,10 @@ implementation
 ComponentsDependencies
 .
 androidx_recyclerview
+implementation
+ComponentsDependencies
+.
+androidx_swiperefreshlayout
 implementation
 ComponentsDependencies
 .
