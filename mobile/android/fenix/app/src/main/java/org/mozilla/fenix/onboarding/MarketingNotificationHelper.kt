@@ -162,11 +162,6 @@ unique
 .
 const
 val
-DEFAULT_BROWSER_NOTIFICATION_ID
-=
-1
-const
-val
 RE_ENGAGEMENT_NOTIFICATION_ID
 =
 2
