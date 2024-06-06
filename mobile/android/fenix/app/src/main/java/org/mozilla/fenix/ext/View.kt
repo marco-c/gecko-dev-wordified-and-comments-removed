@@ -304,11 +304,9 @@ onInitializeAccessibilityNodeInfo
 host
 :
 View
-?
 info
 :
 AccessibilityNodeInfo
-?
 )
 {
 super
@@ -319,7 +317,6 @@ host
 info
 )
 info
-?
 .
 setParent
 (
@@ -392,11 +389,9 @@ onInitializeAccessibilityNodeInfo
 host
 :
 View
-?
 info
 :
 AccessibilityNodeInfo
-?
 )
 {
 super
@@ -407,7 +402,6 @@ host
 info
 )
 info
-?
 .
 collectionItemInfo
 =
@@ -474,11 +468,9 @@ onInitializeAccessibilityNodeInfo
 host
 :
 View
-?
 info
 :
 AccessibilityNodeInfo
-?
 )
 {
 super
@@ -489,7 +481,6 @@ host
 info
 )
 info
-?
 .
 collectionInfo
 =

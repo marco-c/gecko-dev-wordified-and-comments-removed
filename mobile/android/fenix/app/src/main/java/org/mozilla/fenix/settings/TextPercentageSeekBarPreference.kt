@@ -2322,11 +2322,9 @@ onInitializeAccessibilityNodeInfo
 host
 :
 View
-?
 info
 :
 AccessibilityNodeInfo
-?
 )
 {
 super
@@ -2340,11 +2338,9 @@ val
 initialInfo
 =
 info
-?
 .
 rangeInfo
 info
-?
 .
 rangeInfo
 =
