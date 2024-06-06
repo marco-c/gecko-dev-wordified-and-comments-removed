@@ -97,7 +97,7 @@ kotlin
 .
 8
 .
-20
+21
 "
 const
 val
@@ -171,7 +171,7 @@ android_gradle_plugin
 .
 4
 .
-1
+2
 "
 const
 val
@@ -182,7 +182,7 @@ android_lint_api
 .
 4
 .
-1
+2
 "
 const
 val
@@ -257,7 +257,7 @@ androidx_compose_compiler
 .
 4
 .
-6
+7
 "
 const
 val

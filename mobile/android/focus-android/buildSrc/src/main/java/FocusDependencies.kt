@@ -348,7 +348,7 @@ compose_compiler
 .
 4
 .
-6
+7
 "
 const
 val
@@ -385,7 +385,7 @@ android_plugin
 .
 4
 .
-1
+2
 "
 const
 val
@@ -407,7 +407,7 @@ compiler
 .
 8
 .
-20
+21
 "
 const
 val

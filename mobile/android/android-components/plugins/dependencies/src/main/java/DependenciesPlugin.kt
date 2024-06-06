@@ -147,7 +147,7 @@ kotlin
 .
 8
 .
-20
+21
 "
 const
 val
@@ -261,7 +261,7 @@ android_gradle_plugin
 .
 4
 .
-1
+2
 "
 /
 /
@@ -322,7 +322,7 @@ lint
 .
 4
 .
-1
+2
 "
 const
 val
@@ -500,7 +500,7 @@ compose_compiler
 .
 4
 .
-6
+7
 "
 object
 AndroidX
