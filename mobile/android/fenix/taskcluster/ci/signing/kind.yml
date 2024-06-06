@@ -152,6 +152,11 @@ autograph_apk_mozillaonline
 default
 :
 autograph_apk
+signing
+-
+format
+:
+autograph_apk
 index
 :
 by
