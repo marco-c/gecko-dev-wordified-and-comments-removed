@@ -709,15 +709,6 @@ Login
 ?
 =
 null
-/
-/
-What
-scope
-should
-be
-used
-here
-?
 val
 fetchLoginJob
 =
