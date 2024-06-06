@@ -271,9 +271,8 @@ trackingProtectionNewValue
 =
 it
 }
-mockk
-(
-)
+{
+}
 )
 interactor
 .

@@ -241,6 +241,11 @@ a
 3301720
 /
 2219998
+manufacturerField
+.
+isAccessible
+=
+true
 val
 modifiers
 =

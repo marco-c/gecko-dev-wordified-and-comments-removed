@@ -514,7 +514,7 @@ answers
 1
 }
 .
-andThen
+andThenAnswer
 {
 0
 }
@@ -682,7 +682,7 @@ answers
 1
 }
 .
-andThen
+andThenAnswer
 {
 0
 }

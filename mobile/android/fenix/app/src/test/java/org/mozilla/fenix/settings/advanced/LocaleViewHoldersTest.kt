@@ -517,7 +517,7 @@ text
 assertEquals
 (
 "
-Venitian
+Venetian
 "
 view
 .
