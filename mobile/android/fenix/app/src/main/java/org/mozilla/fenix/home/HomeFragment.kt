@@ -2086,6 +2086,13 @@ requireComponents
 backgroundServices
 .
 accountManager
+historyStorage
+=
+requireComponents
+.
+core
+.
+historyStorage
 coroutineScope
 =
 viewLifecycleOwner

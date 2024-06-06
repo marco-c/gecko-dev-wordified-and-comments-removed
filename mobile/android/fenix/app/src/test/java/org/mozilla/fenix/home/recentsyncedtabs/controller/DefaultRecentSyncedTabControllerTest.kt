@@ -453,7 +453,7 @@ title
 url
 =
 url
-iconUrl
+previewImageUrl
 =
 null
 )
@@ -638,7 +638,7 @@ title
 url
 =
 url
-iconUrl
+previewImageUrl
 =
 null
 )
@@ -893,7 +893,7 @@ title
 url
 =
 url
-iconUrl
+previewImageUrl
 =
 null
 )
