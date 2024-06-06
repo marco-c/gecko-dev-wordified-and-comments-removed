@@ -314,15 +314,6 @@ context
 =
 null
 )
-|
-|
-(
-context
-as
-Activity
-)
-.
-isDestroyed
 )
 {
 return
