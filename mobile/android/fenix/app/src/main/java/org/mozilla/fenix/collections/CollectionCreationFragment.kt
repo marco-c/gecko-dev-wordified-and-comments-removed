@@ -349,11 +349,6 @@ store
 dismiss
 requireComponents
 .
-analytics
-.
-metrics
-requireComponents
-.
 core
 .
 tabCollectionStorage

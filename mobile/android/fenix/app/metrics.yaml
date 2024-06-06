@@ -30697,6 +30697,9 @@ the
 current
 session
 "
+type
+:
+string
 tabs_selected
 :
 description
@@ -30711,6 +30714,9 @@ to
 the
 collection
 "
+type
+:
+string
 bugs
 :
 -
@@ -30916,6 +30922,9 @@ in
 the
 current
 session
+type
+:
+string
 tabs_selected
 :
 description
@@ -30928,6 +30937,9 @@ added
 to
 the
 collection
+type
+:
+string
 bugs
 :
 -
@@ -31904,6 +31916,9 @@ browserMenu
 homeMenu
 or
 home
+type
+:
+string
 metadata
 :
 tags
