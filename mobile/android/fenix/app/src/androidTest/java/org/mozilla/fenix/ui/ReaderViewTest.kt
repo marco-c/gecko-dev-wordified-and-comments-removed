@@ -627,7 +627,7 @@ false
 )
 }
 .
-close
+closeBrowserMenuToBrowser
 {
 }
 }
