@@ -401,6 +401,13 @@ window
 themeManager
 this
 )
+components
+.
+core
+.
+setEnginePreferredColorScheme
+(
+)
 browsingModeManager
 =
 DefaultBrowsingModeManager
