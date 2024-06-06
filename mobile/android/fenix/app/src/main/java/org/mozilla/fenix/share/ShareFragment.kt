@@ -197,7 +197,9 @@ components
 .
 feature
 .
-sendtab
+accounts
+.
+push
 .
 SendTabUseCases
 import

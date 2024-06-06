@@ -1930,7 +1930,7 @@ mozilla_android_components
 "
 const
 val
-mozilla_feature_sendtab
+mozilla_feature_accounts_push
 =
 "
 org
@@ -1941,7 +1941,9 @@ components
 :
 feature
 -
-sendtab
+accounts
+-
+push
 :
 {
 Versions
