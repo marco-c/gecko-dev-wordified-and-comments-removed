@@ -253,6 +253,11 @@ Bundle
 View
 ?
 {
+wallpaperManager
+.
+recordDiscoveredMetric
+(
+)
 return
 ComposeView
 (

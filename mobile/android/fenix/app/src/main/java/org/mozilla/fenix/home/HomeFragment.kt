@@ -4562,6 +4562,11 @@ requireComponents
 wallpaperManager
 manager
 .
+recordDiscoveredMetric
+(
+)
+manager
+.
 updateWallpaper
 (
 wallpaperContainer
