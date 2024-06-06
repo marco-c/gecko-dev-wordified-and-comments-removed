@@ -748,6 +748,11 @@ getOrCreateRuntime
 (
 context
 lazyPasswordsStorage
+trackingProtectionPolicyFactory
+.
+createTrackingProtectionPolicy
+(
+)
 )
 )
 .
@@ -877,6 +882,11 @@ getOrCreateRuntime
 (
 context
 lazyPasswordsStorage
+trackingProtectionPolicyFactory
+.
+createTrackingProtectionPolicy
+(
+)
 )
 )
 }
