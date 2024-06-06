@@ -1572,7 +1572,7 @@ Unit
 {
 deleteSelectedBookmarks
 (
-selected
+pendingBookmarksToDelete
 )
 pendingBookmarkDeletionJob
 =
