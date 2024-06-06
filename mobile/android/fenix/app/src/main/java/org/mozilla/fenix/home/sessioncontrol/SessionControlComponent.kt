@@ -430,7 +430,7 @@ OnboardingState
 {
 /
 /
-signed
+Signed
 out
 no
 account
@@ -442,7 +442,7 @@ Fennec
 SignedOut
 /
 /
-auto
+Auto
 -
 signed
 in
@@ -454,7 +454,7 @@ account
 AutoSignedIn
 /
 /
-manually
+Manually
 signed
 in
 while
