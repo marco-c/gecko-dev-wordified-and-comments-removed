@@ -508,7 +508,7 @@ iconBitmap
 =
 IconGenerator
 .
-generateCharacterIcon
+generateLauncherIconPreOreo
 (
 context
 engineName
