@@ -485,16 +485,6 @@ fenix
 .
 utils
 .
-Mockable
-import
-org
-.
-mozilla
-.
-fenix
-.
-utils
-.
 Settings
 /
 *
@@ -524,7 +514,6 @@ worker
 .
 *
 /
-Mockable
 Suppress
 (
 "

@@ -221,9 +221,9 @@ mozilla
 .
 fenix
 .
-ext
+search
 .
-settings
+SearchFragmentState
 import
 org
 .
@@ -231,9 +231,9 @@ mozilla
 .
 fenix
 .
-search
+utils
 .
-SearchFragmentState
+Settings
 /
 *
 *
@@ -418,6 +418,9 @@ val
 context
 :
 Context
+settings
+:
+Settings
 private
 val
 interactor
@@ -720,11 +723,7 @@ else
 null
 if
 (
-context
-.
 settings
-(
-)
 .
 shouldAutocompleteInAwesomebar
 )

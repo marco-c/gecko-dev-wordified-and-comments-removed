@@ -65,6 +65,12 @@ fenix
 .
 helpers
 import
+io
+.
+mockk
+.
+mockk
+import
 org
 .
 mozilla
@@ -89,7 +95,7 @@ fenix
 .
 components
 .
-TestComponents
+Components
 /
 *
 *
@@ -169,9 +175,11 @@ override
 val
 components
 =
-TestComponents
+mockk
+<
+Components
+>
 (
-this
 )
 override
 fun

@@ -913,16 +913,6 @@ fenix
 .
 utils
 .
-Mockable
-import
-org
-.
-mozilla
-.
-fenix
-.
-utils
-.
 getUndoDelay
 import
 org
@@ -954,7 +944,6 @@ functionality
 .
 *
 /
-Mockable
 Suppress
 (
 "

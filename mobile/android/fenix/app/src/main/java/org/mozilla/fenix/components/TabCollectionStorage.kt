@@ -240,17 +240,6 @@ fenix
 perf
 .
 StrictModeManager
-import
-org
-.
-mozilla
-.
-fenix
-.
-utils
-.
-Mockable
-Mockable
 class
 TabCollectionStorage
 (

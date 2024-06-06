@@ -1381,6 +1381,13 @@ ToolbarView
 requireContext
 (
 )
+requireContext
+(
+)
+.
+settings
+(
+)
 interactor
 historyStorageProvider
 (

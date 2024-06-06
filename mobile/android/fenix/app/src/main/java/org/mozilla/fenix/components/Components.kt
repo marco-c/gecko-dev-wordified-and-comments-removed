@@ -375,16 +375,6 @@ fenix
 .
 utils
 .
-Mockable
-import
-org
-.
-mozilla
-.
-fenix
-.
-utils
-.
 Settings
 import
 org
@@ -491,7 +481,6 @@ app
 .
 *
 /
-Mockable
 class
 Components
 (

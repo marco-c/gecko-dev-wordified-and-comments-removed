@@ -331,10 +331,6 @@ androidx_safeargs
 classpath
 Deps
 .
-allopen
-classpath
-Deps
-.
 osslicenses_plugin
 classpath
 "

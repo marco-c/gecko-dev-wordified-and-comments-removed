@@ -280,16 +280,6 @@ fenix
 perf
 .
 lazyMonitored
-import
-org
-.
-mozilla
-.
-fenix
-.
-utils
-.
-Mockable
 /
 *
 *
@@ -319,7 +309,6 @@ interactions
 .
 *
 /
-Mockable
 Suppress
 (
 "

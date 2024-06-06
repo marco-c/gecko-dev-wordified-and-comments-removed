@@ -277,16 +277,6 @@ org
 .
 mozilla
 .
-fenix
-.
-utils
-.
-Mockable
-import
-org
-.
-mozilla
-.
 geckoview
 .
 BuildConfig
@@ -345,7 +335,6 @@ telemetry
 .
 *
 /
-Mockable
 class
 Analytics
 (

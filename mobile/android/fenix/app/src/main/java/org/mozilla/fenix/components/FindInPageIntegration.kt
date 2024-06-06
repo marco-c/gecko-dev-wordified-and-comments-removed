@@ -188,16 +188,6 @@ components
 FindInPageIntegration
 .
 ToolbarInfo
-import
-org
-.
-mozilla
-.
-fenix
-.
-utils
-.
-Mockable
 /
 *
 *
@@ -297,7 +287,6 @@ shown
 .
 *
 /
-Mockable
 class
 FindInPageIntegration
 (

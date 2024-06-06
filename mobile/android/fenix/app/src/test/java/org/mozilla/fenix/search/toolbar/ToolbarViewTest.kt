@@ -268,6 +268,16 @@ fenix
 search
 .
 SearchFragmentState
+import
+org
+.
+mozilla
+.
+fenix
+.
+utils
+.
+Settings
 RunWith
 (
 FenixRobolectricTestRunner
@@ -957,6 +967,10 @@ Boolean
 ToolbarView
 (
 context
+Settings
+(
+context
+)
 interactor
 historyStorage
 =

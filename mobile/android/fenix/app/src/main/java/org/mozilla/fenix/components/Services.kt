@@ -166,16 +166,6 @@ fenix
 settings
 .
 SupportUtils
-import
-org
-.
-mozilla
-.
-fenix
-.
-utils
-.
-Mockable
 /
 *
 *
@@ -191,7 +181,6 @@ services
 .
 *
 /
-Mockable
 class
 Services
 (

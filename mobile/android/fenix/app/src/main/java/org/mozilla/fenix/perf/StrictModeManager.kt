@@ -210,16 +210,6 @@ utils
 .
 ManufacturerCodes
 import
-org
-.
-mozilla
-.
-fenix
-.
-utils
-.
-Mockable
-import
 java
 .
 util
@@ -273,7 +263,7 @@ application
 .
 *
 /
-Mockable
+open
 class
 StrictModeManager
 (
@@ -873,6 +863,7 @@ functionBlock
 .
 *
 /
+open
 fun
 <
 R

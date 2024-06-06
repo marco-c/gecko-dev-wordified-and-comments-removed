@@ -216,17 +216,6 @@ fenix
 ext
 .
 settings
-import
-org
-.
-mozilla
-.
-fenix
-.
-utils
-.
-Mockable
-Mockable
 class
 FenixSnackbar
 private
