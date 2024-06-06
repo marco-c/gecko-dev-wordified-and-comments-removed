@@ -549,6 +549,13 @@ wrap_content
 "
 android
 :
+maxHeight
+=
+"
+160dp
+"
+android
+:
 layout_below
 =
 "
@@ -608,6 +615,13 @@ paddingEnd
 =
 "
 5dp
+"
+android
+:
+scrollbars
+=
+"
+vertical
 "
 android
 :
