@@ -72,6 +72,8 @@ dependencies
 -
 build
 -
+lint
+-
 test
 transforms
 :
