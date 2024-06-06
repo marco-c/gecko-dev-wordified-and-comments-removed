@@ -474,10 +474,6 @@ WeakReference
 (
 menuButton
 )
-hideOnboardingIfNeeded
-=
-{
-}
 )
 }
 Test

@@ -175,8 +175,11 @@ setOnClickListener
 {
 interactor
 .
-onStartBrowsingClicked
+onFinishOnboarding
 (
+focusOnAddressBar
+=
+true
 )
 Onboarding
 .

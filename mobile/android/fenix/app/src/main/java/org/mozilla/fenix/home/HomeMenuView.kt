@@ -475,6 +475,9 @@ hideOnboardingIfNeeded
 -
 >
 Unit
+=
+{
+}
 private
 val
 fxaEntrypoint

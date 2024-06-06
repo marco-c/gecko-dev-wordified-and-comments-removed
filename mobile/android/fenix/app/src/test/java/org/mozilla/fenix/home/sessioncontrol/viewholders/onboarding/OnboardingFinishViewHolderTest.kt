@@ -320,8 +320,11 @@ verify
 {
 interactor
 .
-onStartBrowsingClicked
+onFinishOnboarding
 (
+focusOnAddressBar
+=
+true
 )
 }
 /
