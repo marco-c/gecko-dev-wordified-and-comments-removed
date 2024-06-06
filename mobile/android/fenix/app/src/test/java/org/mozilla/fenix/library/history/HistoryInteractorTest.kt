@@ -144,7 +144,7 @@ true
 val
 interactor
 =
-HistoryInteractor
+DefaultHistoryInteractor
 (
 controller
 )

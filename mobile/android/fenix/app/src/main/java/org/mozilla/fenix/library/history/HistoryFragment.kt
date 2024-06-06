@@ -724,7 +724,7 @@ metrics
 )
 historyInteractor
 =
-HistoryInteractor
+DefaultHistoryInteractor
 (
 historyController
 )
