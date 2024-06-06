@@ -629,6 +629,7 @@ sessionManager
 add
 (
 expectedSession
+true
 )
 loadUrlUseCase
 (

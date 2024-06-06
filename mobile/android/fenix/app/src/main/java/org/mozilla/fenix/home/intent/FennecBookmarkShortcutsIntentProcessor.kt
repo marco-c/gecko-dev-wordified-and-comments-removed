@@ -356,6 +356,9 @@ sessionManager
 add
 (
 session
+selected
+=
+true
 )
 loadUrlUseCase
 (
