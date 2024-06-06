@@ -784,6 +784,10 @@ is
 EngineAction
 .
 LoadUrlAction
+is
+EngineAction
+.
+OptimizedLoadUrlTriggeredAction
 -
 >
 {
