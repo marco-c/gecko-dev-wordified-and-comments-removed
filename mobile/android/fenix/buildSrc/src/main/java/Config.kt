@@ -115,7 +115,7 @@ const
 val
 compileSdkVersion
 =
-32
+33
 const
 val
 minSdkVersion
