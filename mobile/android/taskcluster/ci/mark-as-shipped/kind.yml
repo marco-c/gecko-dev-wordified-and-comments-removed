@@ -295,11 +295,6 @@ mark
 shipped
 -
 beta
-default
-:
-mark
--
-shipped
 platform
 :
 release

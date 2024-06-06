@@ -169,6 +169,8 @@ build
 types
 :
 -
+beta
+-
 release
 task
 -
@@ -263,7 +265,18 @@ job
 -
 symbol
 :
+by
+-
+build
+-
+type
+:
+release
+:
 vb
+beta
+:
+vbB
 kind
 :
 build

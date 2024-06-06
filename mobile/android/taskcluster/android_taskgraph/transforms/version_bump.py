@@ -68,6 +68,11 @@ worker
 .
 push
 "
+"
+treeherder
+.
+symbol
+"
 )
 :
             
