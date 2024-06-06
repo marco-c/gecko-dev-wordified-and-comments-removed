@@ -203,4 +203,12 @@ id
 .
 trackingProtectionFragment
 )
+FromDefaultBrowserSettingsFragment
+(
+R
+.
+id
+.
+defaultBrowserSettingsFragment
+)
 }
