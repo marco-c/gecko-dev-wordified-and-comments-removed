@@ -566,12 +566,6 @@ directions
 }
 )
 }
-Suppress
-(
-"
-MaxLineLength
-"
-)
 override
 fun
 onPreferenceTreeClick
