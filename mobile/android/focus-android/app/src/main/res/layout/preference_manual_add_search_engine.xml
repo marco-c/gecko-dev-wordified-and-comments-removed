@@ -158,6 +158,13 @@ dimen
 /
 preference_root_layout_vertical_padding
 "
+android
+:
+importantForAutofill
+=
+"
+noExcludeDescendants
+"
 >
 <
 android
