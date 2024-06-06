@@ -514,7 +514,7 @@ R
 .
 string
 .
-app_name
+firefox
 )
 )
 )

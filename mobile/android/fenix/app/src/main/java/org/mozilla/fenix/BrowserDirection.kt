@@ -331,4 +331,12 @@ id
 .
 addonsManagementFragment
 )
+FromTranslationsDialogFragment
+(
+R
+.
+id
+.
+translationsDialogFragment
+)
 }

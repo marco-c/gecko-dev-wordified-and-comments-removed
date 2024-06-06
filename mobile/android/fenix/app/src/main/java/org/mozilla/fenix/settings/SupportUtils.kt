@@ -712,6 +712,14 @@ suggestions
 firefox
 "
 )
+TRANSLATIONS
+(
+"
+android
+-
+translation
+"
+)
 }
 enum
 class
