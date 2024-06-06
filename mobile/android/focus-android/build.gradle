@@ -66,6 +66,17 @@ kotlin_version
 .
 30
 '
+ext
+.
+geckoview_nightly_version
+=
+'
+2018
+.
+03
+.
+07
+'
 repositories
 {
 google
