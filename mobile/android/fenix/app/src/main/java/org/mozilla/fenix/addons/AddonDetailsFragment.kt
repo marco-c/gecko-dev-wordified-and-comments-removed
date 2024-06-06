@@ -480,7 +480,7 @@ View
 {
 view
 .
-home_page_text
+home_page_label
 .
 setOnClickListener
 {
