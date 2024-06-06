@@ -794,9 +794,7 @@ onBackPressed
 )
 :
 Boolean
-{
-if
-(
+=
 (
 historyComponent
 .
@@ -808,12 +806,4 @@ HistoryUIView
 onBackPressed
 (
 )
-)
-{
-return
-true
-}
-return
-false
-}
 }
