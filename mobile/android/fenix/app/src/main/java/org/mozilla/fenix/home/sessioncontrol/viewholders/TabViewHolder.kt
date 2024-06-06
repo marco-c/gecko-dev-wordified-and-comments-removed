@@ -689,7 +689,7 @@ const
 val
 favIconBorderRadiusInPx
 =
-8
+4
 }
 }
 class
