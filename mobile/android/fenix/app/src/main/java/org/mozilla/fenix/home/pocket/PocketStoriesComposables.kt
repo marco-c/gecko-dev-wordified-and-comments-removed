@@ -3190,7 +3190,7 @@ FirefoxTheme
 .
 colors
 .
-textActionPrimary
+actionPrimary
 unselectedBackgroundColor
 :
 Color
@@ -3199,7 +3199,7 @@ FirefoxTheme
 .
 colors
 .
-textActionTertiary
+actionTertiary
 selectedTextColor
 :
 Color
@@ -3208,7 +3208,7 @@ FirefoxTheme
 .
 colors
 .
-actionPrimary
+textActionPrimary
 unselectedTextColor
 :
 Color
@@ -3217,7 +3217,7 @@ FirefoxTheme
 .
 colors
 .
-actionTertiary
+textActionTertiary
 )
 =
 PocketStoriesCategoryColors
