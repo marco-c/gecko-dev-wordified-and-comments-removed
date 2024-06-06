@@ -2630,13 +2630,6 @@ null
 is
 Event
 .
-AddonInstalled
--
->
-null
-is
-Event
-.
 SearchWidgetInstalled
 -
 >
