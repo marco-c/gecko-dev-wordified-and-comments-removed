@@ -1109,9 +1109,8 @@ name
 tab_tray_item_selected_background_light_theme
 "
 >
-color
-/
-violet_70_12a
+#
+E5DFF4
 <
 /
 color
@@ -1939,9 +1938,8 @@ name
 tab_tray_item_selected_background_dark_theme
 "
 >
-color
-/
-violet_50_32a
+#
+412E69
 <
 /
 color
@@ -2681,9 +2679,8 @@ name
 tab_tray_item_selected_background_private_theme
 "
 >
-color
-/
-violet_50_32a
+#
+422875
 <
 /
 color
