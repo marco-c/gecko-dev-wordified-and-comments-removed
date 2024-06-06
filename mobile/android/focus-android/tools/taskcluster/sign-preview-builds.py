@@ -293,6 +293,10 @@ build_output_path
 "
 /
 *
+/
+*
+/
+*
 -
 unsigned
 .
@@ -363,6 +367,10 @@ glob
 build_output_path
 +
 "
+/
+*
+/
+*
 /
 *
 -
@@ -528,6 +536,10 @@ glob
 build_output_path
 +
 "
+/
+*
+/
+*
 /
 *
 -
