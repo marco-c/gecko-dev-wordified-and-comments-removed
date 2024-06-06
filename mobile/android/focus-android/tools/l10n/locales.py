@@ -387,6 +387,10 @@ CA
 "
 af
 "
+	
+"
+pai
+"
 ]
 SCREENSHOT_LOCALES
 =
