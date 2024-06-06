@@ -358,6 +358,8 @@ map
 {
 it
 .
+content
+.
 isProductUrl
 }
 .

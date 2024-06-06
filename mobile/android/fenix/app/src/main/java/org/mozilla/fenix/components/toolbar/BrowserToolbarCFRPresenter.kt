@@ -927,6 +927,8 @@ filter
 {
 it
 .
+content
+.
 isProductUrl
 &
 &
