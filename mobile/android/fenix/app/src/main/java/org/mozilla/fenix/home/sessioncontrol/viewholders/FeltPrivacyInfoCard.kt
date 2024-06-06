@@ -115,6 +115,16 @@ foundation
 .
 layout
 .
+fillMaxWidth
+import
+androidx
+.
+compose
+.
+foundation
+.
+layout
+.
 height
 import
 androidx
@@ -312,6 +322,10 @@ modifier
 Modifier
 .
 wrapContentHeight
+(
+)
+.
+fillMaxWidth
 (
 )
 backgroundColor
