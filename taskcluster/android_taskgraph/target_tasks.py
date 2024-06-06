@@ -1,12 +1,6 @@
 import
 os
 from
-android_taskgraph
-.
-release_type
-import
-does_task_match_release_type
-from
 redo
 import
 retry
@@ -24,6 +18,12 @@ util
 taskcluster
 import
 find_task_id
+from
+android_taskgraph
+.
+release_type
+import
+does_task_match_release_type
 def
 index_exists
 (

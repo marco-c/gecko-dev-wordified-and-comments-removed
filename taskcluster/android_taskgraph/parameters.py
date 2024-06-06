@@ -1,5 +1,3 @@
-import
-os
 from
 gecko_taskgraph
 .
@@ -9,9 +7,7 @@ extend_parameters_schema
 from
 voluptuous
 import
-All
 Any
-Range
 Required
 def
 get_defaults

@@ -1,4 +1,12 @@
 from
+gecko_taskgraph
+.
+util
+.
+scriptworker
+import
+get_signing_cert_scope
+from
 taskgraph
 .
 transforms
@@ -14,14 +22,6 @@ util
 schema
 import
 resolve_keyed_by
-from
-gecko_taskgraph
-.
-util
-.
-scriptworker
-import
-get_signing_cert_scope
 from
 .
 .

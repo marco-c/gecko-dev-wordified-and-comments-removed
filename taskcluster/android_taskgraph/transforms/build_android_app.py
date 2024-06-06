@@ -26,12 +26,6 @@ kinds
 "
 "
 from
-android_taskgraph
-.
-build_config
-import
-get_variant
-from
 taskgraph
 .
 transforms
@@ -45,6 +39,12 @@ taskgraph
 util
 import
 path
+from
+android_taskgraph
+.
+build_config
+import
+get_variant
 transforms
 =
 TransformSequence

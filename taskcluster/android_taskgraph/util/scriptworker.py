@@ -1364,15 +1364,6 @@ dest_path
 =
 dest_path
                     
-locale_prefix
-=
-file_config
-[
-"
-locale_prefix
-"
-]
-                    
 filename
 =
 file_config
