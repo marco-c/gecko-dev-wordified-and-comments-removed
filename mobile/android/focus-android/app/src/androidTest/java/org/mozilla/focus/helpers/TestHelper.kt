@@ -438,6 +438,15 @@ SECOND_IN_MILLIS
 15
 const
 val
+pageLoadingTime
+=
+DateUtils
+.
+SECOND_IN_MILLIS
+*
+25
+const
+val
 waitingTimeShort
 =
 DateUtils
