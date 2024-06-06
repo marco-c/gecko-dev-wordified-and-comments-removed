@@ -279,6 +279,13 @@ false
 "
 android
 :
+focusable
+=
+"
+false
+"
+android
+:
 drawableStart
 =
 "
