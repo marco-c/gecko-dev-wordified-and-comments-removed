@@ -4417,14 +4417,13 @@ https
 :
 /
 /
-arturbosch
-.
 github
 .
-io
+com
 /
 detekt
 /
+detekt
 )
 .
 See
