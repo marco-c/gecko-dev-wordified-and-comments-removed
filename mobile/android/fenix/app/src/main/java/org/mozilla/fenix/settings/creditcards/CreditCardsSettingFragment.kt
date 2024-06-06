@@ -1292,8 +1292,6 @@ credit_cards_biometric_prompt_message
 startActivityForResult
 (
 intent
-BiometricPromptPreferenceFragment
-.
 PIN_REQUEST
 )
 }

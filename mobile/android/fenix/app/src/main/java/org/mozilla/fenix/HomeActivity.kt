@@ -278,12 +278,6 @@ kotlinx
 coroutines
 .
 Dispatchers
-import
-kotlinx
-.
-coroutines
-.
-Dispatchers
 .
 IO
 import
@@ -6239,8 +6233,6 @@ captureSnapshotTelemetryMetrics
 =
 CoroutineScope
 (
-Dispatchers
-.
 IO
 )
 .

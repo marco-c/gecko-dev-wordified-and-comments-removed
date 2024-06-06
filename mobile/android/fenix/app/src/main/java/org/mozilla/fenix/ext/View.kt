@@ -954,8 +954,6 @@ Dimension
 (
 unit
 =
-Dimension
-.
 DP
 )
 internal

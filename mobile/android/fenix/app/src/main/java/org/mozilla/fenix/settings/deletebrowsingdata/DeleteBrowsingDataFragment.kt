@@ -126,12 +126,6 @@ kotlinx
 coroutines
 .
 Dispatchers
-import
-kotlinx
-.
-coroutines
-.
-Dispatchers
 .
 IO
 import
@@ -1143,8 +1137,6 @@ lifecycleScope
 .
 launch
 (
-Dispatchers
-.
 Main
 )
 {
@@ -1340,8 +1332,6 @@ lifecycleScope
 .
 launch
 (
-Dispatchers
-.
 IO
 )
 {
@@ -1361,8 +1351,6 @@ getVisited
 size
 launch
 (
-Dispatchers
-.
 Main
 )
 {
