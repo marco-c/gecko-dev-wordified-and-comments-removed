@@ -81,6 +81,8 @@ service
 .
 glean
 .
+metrics
+.
 EventMetricType
 import
 mozilla

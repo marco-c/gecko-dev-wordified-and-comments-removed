@@ -2456,6 +2456,10 @@ leanplum
 implementation
 Deps
 .
+mozilla_places
+implementation
+Deps
+.
 mozilla_concept_engine
 implementation
 Deps

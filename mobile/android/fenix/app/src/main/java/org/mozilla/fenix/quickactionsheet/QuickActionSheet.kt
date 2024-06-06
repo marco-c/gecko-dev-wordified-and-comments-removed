@@ -415,7 +415,7 @@ R
 .
 id
 .
-quick_action_sheet_buttonbar
+quick_action_buttons_layout
 )
 .
 importantForAccessibility
