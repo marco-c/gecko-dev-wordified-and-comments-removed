@@ -10562,7 +10562,6 @@ ignore
 UnusedResources
 "
 >
-100
 Firefox
 <
 /
@@ -33207,9 +33206,9 @@ ignore
 UnusedResources
 "
 >
+Mozilla
 %
 s
-Mozilla
 <
 /
 string
