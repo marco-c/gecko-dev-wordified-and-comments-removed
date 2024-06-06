@@ -154,7 +154,7 @@ EXPERIMENT_DESCRIPTOR_GECKOVIEW_ENGINE
 val
 Context
 .
-application
+app
 :
 FocusApplication
 get
@@ -176,7 +176,7 @@ ExperimentDescriptor
 :
 Boolean
 =
-application
+app
 .
 fretboard
 .
@@ -198,7 +198,7 @@ get
 (
 )
 =
-application
+app
 .
 fretboard
 .
