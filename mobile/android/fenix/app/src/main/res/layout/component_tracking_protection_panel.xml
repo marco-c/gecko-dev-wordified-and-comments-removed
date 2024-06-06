@@ -1432,6 +1432,15 @@ attr
 /
 primaryText
 "
+android
+:
+contentDescription
+=
+"
+string
+/
+etp_back_button_content_description
+"
 app
 :
 layout_constraintBottom_toBottomOf
