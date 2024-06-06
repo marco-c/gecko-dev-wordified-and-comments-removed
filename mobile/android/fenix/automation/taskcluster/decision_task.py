@@ -19,8 +19,6 @@ argparse
 import
 os
 import
-sys
-import
 taskcluster
 from
 lib
@@ -239,10 +237,9 @@ Exit
 "
 )
         
-exit
-(
-0
-)
+return
+{
+}
     
 print
 (
@@ -273,7 +270,8 @@ variants
 0
 :
         
-print
+raise
+ValueError
 (
 "
 Could
@@ -284,13 +282,6 @@ variants
 from
 gradle
 "
-)
-        
-sys
-.
-exit
-(
-2
 )
     
 print
