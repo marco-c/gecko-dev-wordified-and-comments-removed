@@ -197,6 +197,14 @@ allOf
 import
 org
 .
+junit
+.
+Assert
+.
+assertNotNull
+import
+org
+.
 mozilla
 .
 fenix
@@ -385,6 +393,8 @@ BookmarksRobot
 .
 Transition
 {
+assertNotNull
+(
 mDevice
 .
 wait
@@ -405,6 +415,7 @@ Bookmarks
 TestAssetHelper
 .
 waitingTime
+)
 )
 bookmarksButton
 (
@@ -445,6 +456,8 @@ HistoryRobot
 .
 Transition
 {
+assertNotNull
+(
 mDevice
 .
 wait
@@ -465,6 +478,7 @@ History
 TestAssetHelper
 .
 waitingTime
+)
 )
 historyButton
 (

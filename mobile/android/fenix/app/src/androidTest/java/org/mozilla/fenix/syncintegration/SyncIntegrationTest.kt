@@ -250,6 +250,14 @@ fenix
 helpers
 .
 TestAssetHelper
+import
+org
+.
+junit
+.
+Assert
+.
+assertNotNull
 Suppress
 (
 "
@@ -542,6 +550,16 @@ By
 res
 (
 "
+org
+.
+mozilla
+.
+fenix
+.
+debug
+:
+id
+/
 submit
 -
 btn
@@ -624,6 +642,8 @@ tapOnSignIn
 (
 )
 {
+assertNotNull
+(
 mDevice
 .
 wait
@@ -645,6 +665,7 @@ in
 TestAssetHelper
 .
 waitingTimeShort
+)
 )
 /
 /
@@ -769,6 +790,8 @@ seeBookmark
 (
 )
 {
+assertNotNull
+(
 mDevice
 .
 wait
@@ -789,6 +812,7 @@ Bookmark
 TestAssetHelper
 .
 waitingTime
+)
 )
 val
 bookmarkButton

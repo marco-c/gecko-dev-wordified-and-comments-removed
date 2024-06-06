@@ -199,6 +199,14 @@ allOf
 import
 org
 .
+junit
+.
+Assert
+.
+assertNotNull
+import
+org
+.
 mozilla
 .
 fenix
@@ -342,6 +350,8 @@ shareButton
 click
 (
 )
+assertNotNull
+(
 mDevice
 .
 wait
@@ -362,6 +372,7 @@ LINK
 )
 )
 waitingTime
+)
 )
 }
 fun
@@ -455,6 +466,8 @@ SettingsRobot
 .
 Transition
 {
+assertNotNull
+(
 mDevice
 .
 wait
@@ -468,15 +481,12 @@ By
 text
 (
 "
-R
-.
-string
-.
-settings
+Settings
 "
 )
 )
 waitingTime
+)
 )
 settingsButton
 (
@@ -517,6 +527,8 @@ LibraryRobot
 .
 Transition
 {
+assertNotNull
+(
 mDevice
 .
 wait
@@ -530,15 +542,13 @@ By
 text
 (
 "
-R
-.
-string
-.
+Your
 Library
 "
 )
 )
 waitingTime
+)
 )
 libraryButton
 (
@@ -579,6 +589,8 @@ BrowserRobot
 .
 Transition
 {
+assertNotNull
+(
 mDevice
 .
 wait
@@ -597,6 +609,7 @@ Help
 )
 )
 waitingTime
+)
 )
 helpButton
 (
@@ -637,6 +650,8 @@ BrowserRobot
 .
 Transition
 {
+assertNotNull
+(
 mDevice
 .
 wait
@@ -655,6 +670,7 @@ Forward
 )
 )
 waitingTime
+)
 )
 forwardButton
 (
@@ -695,6 +711,8 @@ BrowserRobot
 .
 Transition
 {
+assertNotNull
+(
 mDevice
 .
 wait
@@ -713,6 +731,7 @@ Back
 )
 )
 waitingTime
+)
 )
 backButton
 (
@@ -753,6 +772,8 @@ BrowserRobot
 .
 Transition
 {
+assertNotNull
+(
 mDevice
 .
 wait
@@ -771,6 +792,7 @@ Refresh
 )
 )
 waitingTime
+)
 )
 refreshButton
 (
@@ -811,6 +833,8 @@ HomeScreenRobot
 .
 Transition
 {
+assertNotNull
+(
 mDevice
 .
 wait
@@ -831,6 +855,7 @@ tabs
 )
 )
 waitingTime
+)
 )
 closeAllTabsButton
 (
@@ -871,6 +896,8 @@ FindInPageRobot
 .
 Transition
 {
+assertNotNull
+(
 mDevice
 .
 wait
@@ -891,6 +918,7 @@ page
 )
 )
 waitingTime
+)
 )
 findInPageButton
 (
@@ -931,6 +959,8 @@ BrowserRobot
 .
 Transition
 {
+assertNotNull
+(
 mDevice
 .
 wait
@@ -952,6 +982,7 @@ New
 )
 )
 waitingTime
+)
 )
 whatsNewButton
 (

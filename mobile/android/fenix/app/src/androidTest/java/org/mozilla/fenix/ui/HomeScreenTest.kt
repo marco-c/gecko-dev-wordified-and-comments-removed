@@ -77,6 +77,14 @@ org
 .
 junit
 .
+Assert
+.
+assertNotNull
+import
+org
+.
+junit
+.
 Rule
 import
 org
@@ -563,6 +571,8 @@ objects
 are
 gone
 .
+assertNotNull
+(
 mDevice
 .
 wait
@@ -579,6 +589,7 @@ PRIVATE_SESSION_MESSAGE
 )
 )
 waitingTime
+)
 )
 verifyHomeScreen
 (
