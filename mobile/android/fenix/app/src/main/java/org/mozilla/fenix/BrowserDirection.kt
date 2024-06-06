@@ -251,4 +251,12 @@ id
 .
 addonDetailsFragment
 )
+FromLoginDetailFragment
+(
+R
+.
+id
+.
+loginDetailFragment
+)
 }
