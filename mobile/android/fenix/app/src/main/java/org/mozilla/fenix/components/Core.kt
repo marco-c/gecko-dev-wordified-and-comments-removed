@@ -472,6 +472,13 @@ suspendMediaWhenInactive
 FeatureFlags
 .
 mediaIntegration
+allowAutoplayMedia
+=
+context
+.
+settings
+.
+isAutoPlayEnabled
 )
 GeckoEngine
 (
