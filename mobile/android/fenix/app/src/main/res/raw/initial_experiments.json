@@ -406,6 +406,8 @@ engagement
 notifications
 -
 timing
+-
+v2
 "
 "
 id
@@ -421,6 +423,8 @@ engagement
 notifications
 -
 timing
+-
+v2
 "
 "
 arguments
@@ -475,6 +479,7 @@ re
 engagement
 notifications
 timing
+v2
 "
 "
 userFacingDescription
@@ -536,7 +541,7 @@ release
 start
 "
 :
-0
+5000
 "
 count
 "
@@ -699,6 +704,16 @@ is_already_enrolled
 |
 (
 (
+isFirstRun
+=
+=
+'
+true
+'
+)
+&
+&
+(
 app_version
 |
 versionCompare
@@ -725,7 +740,7 @@ startDate
 -
 06
 -
-21
+28
 "
 "
 enrollmentEndDate
