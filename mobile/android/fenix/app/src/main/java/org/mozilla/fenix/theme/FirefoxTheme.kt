@@ -447,7 +447,7 @@ iconGradientEnd
 PhotonColors
 .
 Blue20
-borderDefault
+borderFormDefault
 =
 PhotonColors
 .
@@ -679,7 +679,7 @@ iconGradientEnd
 PhotonColors
 .
 Blue60
-borderDefault
+borderFormDefault
 =
 PhotonColors
 .
@@ -857,7 +857,7 @@ Color
 iconGradientEnd
 :
 Color
-borderDefault
+borderFormDefault
 :
 Color
 borderSelected
@@ -1428,11 +1428,11 @@ Border
 Form
 parts
 var
-borderDefault
+borderFormDefault
 by
 mutableStateOf
 (
-borderDefault
+borderFormDefault
 )
 private
 set
@@ -1692,11 +1692,11 @@ iconGradientEnd
 other
 .
 iconGradientEnd
-borderDefault
+borderFormDefault
 =
 other
 .
-borderDefault
+borderFormDefault
 borderSelected
 =
 other
@@ -1847,9 +1847,9 @@ iconGradientStart
 iconGradientEnd
 =
 iconGradientEnd
-borderDefault
+borderFormDefault
 =
-borderDefault
+borderFormDefault
 borderSelected
 =
 borderSelected
