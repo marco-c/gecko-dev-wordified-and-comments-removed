@@ -334,11 +334,11 @@ NotOptedIn
 {
 ReviewQualityCheckContextualOnboarding
 (
-retailers
+productVendors
 =
 state
 .
-retailers
+productVendors
 onPrimaryButtonClick
 =
 {

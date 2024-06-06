@@ -338,7 +338,7 @@ illustration
 *
 *
 param
-retailers
+productVendors
 List
 of
 retailers
@@ -432,7 +432,7 @@ Composable
 fun
 ReviewQualityCheckContextualOnboarding
 (
-retailers
+productVendors
 :
 List
 <
@@ -571,7 +571,7 @@ text
 =
 createDescriptionString
 (
-retailers
+productVendors
 )
 color
 =
