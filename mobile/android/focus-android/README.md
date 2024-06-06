@@ -1189,11 +1189,13 @@ com
 /
 g
 /
+firefox
+-
 focus
 -
-klar
+pre
 -
-nightly
+release
 and
 join
 the
