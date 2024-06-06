@@ -10044,7 +10044,9 @@ pref_key_toolbar_use_redesign
 default
 =
 {
-false
+FeatureFlags
+.
+completeToolbarRedesignEnabled
 }
 featureFlag
 =
