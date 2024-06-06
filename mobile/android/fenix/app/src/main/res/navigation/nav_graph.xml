@@ -2233,7 +2233,7 @@ id
 +
 id
 /
-action_settingsFragment_to_syncProblemFragment
+action_settingsFragment_to_accountProblemFragment
 "
 app
 :
@@ -2242,7 +2242,7 @@ destination
 "
 id
 /
-syncProblemFragment
+accountProblemFragment
 "
 /
 >
@@ -3513,7 +3513,7 @@ id
 +
 id
 /
-syncProblemFragment
+accountProblemFragment
 "
 android
 :
@@ -3528,14 +3528,14 @@ fenix
 .
 settings
 .
-SyncProblemFragment
+AccountProblemFragment
 "
 android
 :
 label
 =
 "
-SyncProblemFragment
+AccountProblemFragment
 "
 >
 <
@@ -3548,7 +3548,7 @@ id
 +
 id
 /
-action_syncProblemFragment_to_browserFragment
+action_accountProblemFragment_to_browserFragment
 "
 app
 :

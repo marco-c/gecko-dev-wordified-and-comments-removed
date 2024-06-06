@@ -141,7 +141,7 @@ ext
 .
 requireComponents
 class
-SyncProblemFragment
+AccountProblemFragment
 :
 PreferenceFragmentCompat
 (
@@ -406,7 +406,7 @@ openToBrowser
 (
 BrowserDirection
 .
-FromSyncProblem
+FromAccountProblem
 )
 }
 true

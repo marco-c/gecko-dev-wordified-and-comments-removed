@@ -194,7 +194,7 @@ context
 Context
 private
 val
-hasSyncError
+hasAccountProblem
 :
 Boolean
 =
@@ -684,7 +684,7 @@ iconTintColorResource
 =
 if
 (
-hasSyncError
+hasAccountProblem
 )
 R
 .
@@ -707,7 +707,7 @@ textColorResource
 =
 if
 (
-hasSyncError
+hasAccountProblem
 )
 R
 .
@@ -730,7 +730,7 @@ highlight
 =
 if
 (
-hasSyncError
+hasAccountProblem
 )
 {
 BrowserMenuHighlightableItem
