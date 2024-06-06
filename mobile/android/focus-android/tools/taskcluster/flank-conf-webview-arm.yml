@@ -32,12 +32,12 @@ android
 run
 gcloud
 :
-#
 results
 -
 bucket
 :
 focus_android_test_artifacts
+#
 results
 -
 bucket
