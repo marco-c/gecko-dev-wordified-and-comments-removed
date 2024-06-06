@@ -85,7 +85,7 @@ share
 .
 listadapters
 .
-Application
+AppShareOption
 /
 *
 *
@@ -205,7 +205,7 @@ onShareToApp
 (
 appToShareTo
 :
-Application
+AppShareOption
 )
 {
 TODO
