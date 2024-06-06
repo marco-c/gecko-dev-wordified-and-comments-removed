@@ -117,12 +117,6 @@ ViewGroup
 import
 androidx
 .
-annotation
-.
-MenuRes
-import
-androidx
-.
 appcompat
 .
 app
@@ -736,7 +730,6 @@ inflater
 MenuInflater
 )
 {
-MenuRes
 val
 menuRes
 =
