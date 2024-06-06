@@ -11,6 +11,12 @@ features
 #
 #
 Why
+/
+User
+Benefit
+/
+User
+Problem
 #
 #
 #
