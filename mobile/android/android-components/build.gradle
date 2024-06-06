@@ -2127,6 +2127,16 @@ extensions
 *
 *
 "
+exclude
+"
+*
+*
+/
+docs
+/
+*
+*
+"
 }
 /
 /
