@@ -1084,7 +1084,6 @@ lastSyncedTabs
 first
 (
 )
-syncStartId
 )
 appStore
 .
@@ -1153,10 +1152,6 @@ lastSyncedTab
 :
 RecentSyncedTab
 ?
-syncStartId
-:
-GleanTimerId
-?
 )
 {
 RecentSyncedTabs
@@ -1190,6 +1185,9 @@ stopAndAccumulate
 (
 it
 )
+syncStartId
+=
+null
 }
 if
 (
