@@ -2191,6 +2191,15 @@ browsingModeManager
 mode
 .
 isPrivate
+onReaderModeChanged
+=
+{
+activity
+.
+finishActionMode
+(
+)
+}
 )
 val
 browserToolbarController
