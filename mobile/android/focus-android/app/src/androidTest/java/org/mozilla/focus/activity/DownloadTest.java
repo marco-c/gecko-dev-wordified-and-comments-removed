@@ -144,6 +144,17 @@ mockwebserver
 MockWebServer
 ;
 import
+org
+.
+mozilla
+.
+focus
+.
+helpers
+.
+TestHelper
+;
+import
 static
 org
 .
@@ -151,7 +162,7 @@ mozilla
 .
 focus
 .
-activity
+helpers
 .
 TestHelper
 .

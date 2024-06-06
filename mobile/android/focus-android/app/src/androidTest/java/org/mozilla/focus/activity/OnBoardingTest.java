@@ -101,6 +101,17 @@ runner
 RunWith
 ;
 import
+org
+.
+mozilla
+.
+focus
+.
+helpers
+.
+TestHelper
+;
+import
 static
 org
 .
@@ -108,7 +119,7 @@ mozilla
 .
 focus
 .
-activity
+helpers
 .
 TestHelper
 .
