@@ -233,6 +233,13 @@ paddingEnd
 "
 10dp
 "
+android
+:
+paddingTop
+=
+"
+4dp
+"
 app
 :
 layout_constraintStart_toStartOf
