@@ -253,9 +253,9 @@ val
 android_gradle_plugin
 =
 "
-7
+8
 .
-4
+0
 .
 2
 "
@@ -314,9 +314,9 @@ val
 lint
 =
 "
-30
+31
 .
-4
+0
 .
 2
 "
