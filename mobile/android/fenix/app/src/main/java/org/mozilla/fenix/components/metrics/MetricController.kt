@@ -1084,15 +1084,9 @@ Items
 AUTOFILL_CREDIT_CARD_SUCCESS
 -
 >
-{
-settings
+Event
 .
-creditCardsAutofilledCount
-+
-=
-1
-null
-}
+CreditCardAutofill
 Component
 .
 FEATURE_FINDINPAGE
