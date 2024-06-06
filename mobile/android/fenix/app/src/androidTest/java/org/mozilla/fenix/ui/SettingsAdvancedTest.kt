@@ -858,6 +858,13 @@ com
 "
 )
 }
+.
+openTabDrawer
+{
+closeTab
+(
+)
+}
 navigationToolbar
 {
 }
@@ -1067,6 +1074,13 @@ youtube
 .
 com
 "
+)
+}
+.
+openTabDrawer
+{
+closeTab
+(
 )
 }
 navigationToolbar
