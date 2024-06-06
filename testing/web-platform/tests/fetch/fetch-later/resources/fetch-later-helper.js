@@ -7,9 +7,11 @@ const
 ROOT_NAME
 =
 '
-pending
+fetch
+/
+fetch
 -
-beacon
+later
 '
 ;
 function
