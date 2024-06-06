@@ -481,7 +481,7 @@ borderDisabled
 =
 PhotonColors
 .
-LightGrey70
+LightGrey05A40
 borderWarning
 =
 PhotonColors
@@ -728,7 +728,7 @@ borderDisabled
 =
 PhotonColors
 .
-LightGrey70
+DarkGrey90A40
 borderWarning
 =
 PhotonColors
