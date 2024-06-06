@@ -605,7 +605,7 @@ from
 =
 BrowserDirection
 .
-FromSettings
+FromDefaultBrowserSettingsFragment
 )
 true
 }
