@@ -1940,7 +1940,6 @@ colorScheme
 "
 }
 }
-VisibleForTesting
 companion
 object
 {
