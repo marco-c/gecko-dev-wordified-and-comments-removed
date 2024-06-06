@@ -1,12 +1,12 @@
 import
 {
-x
+a
 }
 from
 "
 .
 /
-no_export
+ambiguous_export
 .
 mjs
 "

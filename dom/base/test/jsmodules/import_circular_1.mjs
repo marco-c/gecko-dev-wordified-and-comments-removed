@@ -1,12 +1,12 @@
-import
+export
 {
-x
+a
 }
 from
 "
 .
 /
-no_export
+import_circular
 .
 mjs
 "

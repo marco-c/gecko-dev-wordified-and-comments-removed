@@ -1,12 +1,12 @@
 import
 {
-x
+b
 }
 from
 "
 .
 /
-no_export
+module_c
 .
 mjs
 "

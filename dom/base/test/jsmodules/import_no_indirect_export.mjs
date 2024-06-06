@@ -9,7 +9,9 @@ default
 *
 /
 import
-x
+{
+a
+}
 from
 "
 .
