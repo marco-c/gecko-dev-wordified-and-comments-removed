@@ -129,6 +129,12 @@ Handler
 import
 android
 .
+os
+.
+Looper
+import
+android
+.
 view
 .
 LayoutInflater
@@ -2190,6 +2196,11 @@ show
 )
 Handler
 (
+Looper
+.
+getMainLooper
+(
+)
 )
 .
 postDelayed
@@ -2613,6 +2624,11 @@ show
 )
 Handler
 (
+Looper
+.
+getMainLooper
+(
+)
 )
 .
 postDelayed

@@ -73,6 +73,12 @@ Handler
 import
 android
 .
+os
+.
+Looper
+import
+android
+.
 text
 .
 InputFilter
@@ -948,6 +954,11 @@ handler
 =
 Handler
 (
+Looper
+.
+getMainLooper
+(
+)
 )
 handler
 .
@@ -1169,6 +1180,11 @@ handler
 =
 Handler
 (
+Looper
+.
+getMainLooper
+(
+)
 )
 handler
 .
