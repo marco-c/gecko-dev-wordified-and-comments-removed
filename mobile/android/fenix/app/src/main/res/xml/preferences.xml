@@ -582,7 +582,7 @@ key
 "
 string
 /
-pref_key_add_private_browsing_shortcut
+pref_key_private_browsing
 "
 android
 :
