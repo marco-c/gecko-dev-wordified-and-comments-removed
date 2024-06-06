@@ -139,6 +139,16 @@ BottomSheetModal
 "
 android
 :
+id
+=
+"
++
+id
+/
+tabs_tray_root
+"
+android
+:
 layout_width
 =
 "
