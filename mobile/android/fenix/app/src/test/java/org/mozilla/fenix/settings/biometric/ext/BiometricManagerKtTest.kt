@@ -65,8 +65,6 @@ fenix
 .
 settings
 .
-logins
-.
 biometric
 .
 ext

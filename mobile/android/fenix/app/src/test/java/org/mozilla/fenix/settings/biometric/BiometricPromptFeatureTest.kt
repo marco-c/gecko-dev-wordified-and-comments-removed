@@ -65,8 +65,6 @@ fenix
 .
 settings
 .
-logins
-.
 biometric
 import
 android
@@ -283,8 +281,6 @@ fenix
 .
 settings
 .
-logins
-.
 biometric
 .
 ext
@@ -298,8 +294,6 @@ mozilla
 fenix
 .
 settings
-.
-logins
 .
 biometric
 .

@@ -299,8 +299,6 @@ fenix
 .
 settings
 .
-logins
-.
 biometric
 .
 BiometricPromptFeature
