@@ -45,7 +45,7 @@ branch
 taskgraph
 revision
 :
-9daff451cfbe82c5c70237a7b3dbcf4fd3238299
+d85f4e4213706ec7737c7257f681977fdf20eb60
 trustDomain
 :
 mobile
@@ -2245,7 +2245,7 @@ worker
 /
 checkouts
 /
-src
+vcs
 '
 -
 '
@@ -2279,7 +2279,7 @@ worker
 /
 checkouts
 /
-src
+vcs
 '
 -
 '
@@ -2642,7 +2642,7 @@ worker
 /
 checkouts
 /
-src
+vcs
 /
 docker
 -

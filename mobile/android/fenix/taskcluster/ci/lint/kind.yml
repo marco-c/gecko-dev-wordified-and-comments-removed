@@ -320,7 +320,7 @@ worker
 /
 checkouts
 /
-src
+vcs
 /
 build
 /
@@ -430,7 +430,7 @@ worker
 /
 checkouts
 /
-src
+vcs
 /
 app
 /
