@@ -147,6 +147,18 @@ Fragment
 import
 androidx
 .
+lifecycle
+.
+Lifecycle
+import
+androidx
+.
+lifecycle
+.
+LifecycleObserver
+import
+androidx
+.
 navigation
 .
 Navigation
@@ -321,7 +333,7 @@ R
 .
 id
 .
-action_homeFragment_to_searchFragment
+action_homeFragment_to_browserFragment
 null
 null
 extras
