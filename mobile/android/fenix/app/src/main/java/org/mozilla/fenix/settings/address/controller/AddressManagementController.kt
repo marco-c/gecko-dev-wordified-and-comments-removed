@@ -237,6 +237,7 @@ Address
 {
 navigateToAddressEditor
 (
+address
 )
 }
 override
@@ -253,6 +254,12 @@ private
 fun
 navigateToAddressEditor
 (
+address
+:
+Address
+?
+=
+null
 )
 {
 navController
@@ -263,6 +270,9 @@ AddressManagementFragmentDirections
 .
 actionAddressManagementFragmentToAddressEditorFragment
 (
+address
+=
+address
 )
 )
 }

@@ -208,6 +208,9 @@ AddressManagementFragmentDirections
 .
 actionAddressManagementFragmentToAddressEditorFragment
 (
+address
+=
+address
 )
 )
 }
