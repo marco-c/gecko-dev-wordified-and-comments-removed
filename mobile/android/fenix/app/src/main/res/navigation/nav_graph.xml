@@ -872,7 +872,7 @@ android
 name
 =
 "
-external_session_id
+custom_tab_session_id
 "
 app
 :
