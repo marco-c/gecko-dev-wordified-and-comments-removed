@@ -381,7 +381,6 @@ defaultStyle
 =
 StyleData
 (
-context
 )
 val
 storageMetadata

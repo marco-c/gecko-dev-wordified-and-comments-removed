@@ -2406,7 +2406,6 @@ searchTermGroups
 .
 value
 (
-appContext
 )
 .
 enabled
@@ -6004,7 +6003,6 @@ homescreen
 .
 value
 (
-appContext
 )
 .
 sectionsEnabled
