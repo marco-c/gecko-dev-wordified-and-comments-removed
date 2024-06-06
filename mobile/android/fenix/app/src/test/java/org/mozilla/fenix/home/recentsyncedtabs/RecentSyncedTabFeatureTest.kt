@@ -926,6 +926,9 @@ reason
 SyncReason
 .
 User
+debounce
+=
+true
 customEngineSubset
 =
 listOf
