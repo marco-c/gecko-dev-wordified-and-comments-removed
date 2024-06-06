@@ -1320,9 +1320,9 @@ dimen
 /
 tracking_protection_item_height
 "
-android
+app
 :
-drawableStart
+drawableStartCompat
 =
 "
 drawable
