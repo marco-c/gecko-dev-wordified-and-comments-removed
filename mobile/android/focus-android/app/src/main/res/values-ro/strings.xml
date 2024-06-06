@@ -1987,10 +1987,10 @@ name
 preference_privacy_notice
 "
 >
-Politica
-de
+Notificare
+privind
 confiden
-ialitate
+ialitatea
 <
 /
 string
@@ -2056,7 +2056,6 @@ preference_search_add2
 >
 +
 Adaug
-un
 alt
 motor
 de
@@ -4422,7 +4421,7 @@ download_firefox
 "
 >
 Descarc
-acum
+Firefox
 <
 /
 string
