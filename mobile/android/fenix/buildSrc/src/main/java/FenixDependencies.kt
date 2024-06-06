@@ -97,7 +97,7 @@ kotlin
 .
 8
 .
-10
+20
 "
 const
 val
@@ -257,7 +257,7 @@ androidx_compose_compiler
 .
 4
 .
-3
+6
 "
 const
 val

@@ -147,7 +147,7 @@ kotlin
 .
 8
 .
-10
+20
 "
 const
 val
@@ -439,7 +439,7 @@ ksp
 .
 0
 .
-9
+11
 "
 /
 /
@@ -500,7 +500,7 @@ compose_compiler
 .
 4
 .
-3
+6
 "
 object
 AndroidX

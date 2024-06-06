@@ -319,7 +319,7 @@ compose_compiler
 .
 4
 .
-3
+6
 "
 const
 val
@@ -378,7 +378,7 @@ compiler
 .
 8
 .
-10
+20
 "
 const
 val
