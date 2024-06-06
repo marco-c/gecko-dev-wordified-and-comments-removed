@@ -332,6 +332,13 @@ xml
 settings
 false
 )
+components
+.
+engine
+.
+warmUp
+(
+)
 TelemetryWrapper
 .
 init
@@ -385,13 +392,6 @@ FocusApplication
 registerActivityLifecycleCallbacks
 (
 visibilityLifeCycleCallback
-)
-components
-.
-engine
-.
-warmUp
-(
 )
 storeLink
 .
