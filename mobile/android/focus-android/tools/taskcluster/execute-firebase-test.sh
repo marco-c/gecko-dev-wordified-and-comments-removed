@@ -200,6 +200,10 @@ outputs
 /
 apk
 /
+focusWebview
+/
+debug
+/
 app
 -
 focus
@@ -223,6 +227,12 @@ build
 outputs
 /
 apk
+/
+androidTest
+/
+focusWebview
+/
+debug
 /
 app
 -
