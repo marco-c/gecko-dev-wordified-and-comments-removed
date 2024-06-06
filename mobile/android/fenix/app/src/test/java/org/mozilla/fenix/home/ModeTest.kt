@@ -422,6 +422,9 @@ Onboarding
 OnboardingState
 .
 SignedIn
+onboarding
+.
+config
 )
 currentMode
 .
@@ -484,6 +487,9 @@ Onboarding
 OnboardingState
 .
 SignedOutNoAutoSignIn
+onboarding
+.
+config
 )
 currentMode
 .
