@@ -724,8 +724,10 @@ labelView
 isChecked
 =
 choice
+in
+fragment
 .
-selected
+mapSelectChoice
 if
 (
 choice
