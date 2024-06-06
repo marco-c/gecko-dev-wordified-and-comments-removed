@@ -61,7 +61,7 @@ mozilla
 .
 fenix
 .
-components
+search
 .
 toolbar
 import
@@ -203,6 +203,9 @@ Context
 toolbar
 :
 BrowserToolbar
+toolbarMenu
+:
+ToolbarMenu
 domainAutocompleteProvider
 :
 DomainAutocompleteProvider
@@ -228,11 +231,7 @@ toolbar
 .
 setMenuBuilder
 (
-context
-.
-components
-.
-toolbar
+toolbarMenu
 .
 menuBuilder
 )
