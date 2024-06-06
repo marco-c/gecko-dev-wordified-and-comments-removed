@@ -2378,6 +2378,12 @@ case
 StyleCssRuleType
 :
 :
+Property
+:
+case
+StyleCssRuleType
+:
+:
 Container
 :
 {
@@ -2434,12 +2440,6 @@ StyleCssRuleType
 :
 :
 Page
-:
-case
-StyleCssRuleType
-:
-:
-Property
 :
 case
 StyleCssRuleType
