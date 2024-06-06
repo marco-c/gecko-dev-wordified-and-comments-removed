@@ -259,15 +259,6 @@ false
 "
 android
 :
-text
-=
-"
-string
-/
-sessions_intro_description
-"
-android
-:
 textColor
 =
 "
