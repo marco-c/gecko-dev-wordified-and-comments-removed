@@ -4086,7 +4086,6 @@ numTimesPrivateModeOpened
 increment
 (
 )
-private
 var
 showedPrivateModeContextualFeatureRecommender
 by
@@ -4124,7 +4123,7 @@ pref_key_private_mode_opened
 )
 )
 val
-showPrivateModeCfr
+shouldShowPrivateModeCfr
 :
 Boolean
 get
@@ -4171,7 +4170,7 @@ focusInstalled
 numTimesPrivateModeOpened
 .
 value
-=
+>
 =
 CFR_COUNT_CONDITION_FOCUS_INSTALLED
 }
@@ -4180,7 +4179,7 @@ else
 numTimesPrivateModeOpened
 .
 value
-=
+>
 =
 CFR_COUNT_CONDITION_FOCUS_NOT_INSTALLED
 }
@@ -4193,9 +4192,6 @@ showCondition
 showedPrivateModeContextualFeatureRecommender
 )
 {
-showedPrivateModeContextualFeatureRecommender
-=
-true
 return
 true
 }
