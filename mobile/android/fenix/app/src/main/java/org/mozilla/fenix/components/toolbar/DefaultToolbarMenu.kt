@@ -1151,6 +1151,12 @@ Item
 Help
 )
 }
+Suppress
+(
+"
+Deprecation
+"
+)
 private
 val
 settings
@@ -1169,7 +1175,7 @@ string
 .
 browser_menu_settings
 )
-imageResource
+startImageResource
 =
 R
 .
@@ -1208,11 +1214,6 @@ primaryTextColor
 )
 highlight
 =
-if
-(
-hasAccountProblem
-)
-{
 BrowserMenuHighlightableItem
 .
 Highlight
@@ -1239,9 +1240,11 @@ color
 .
 sync_error_background_color
 )
+isHighlighted
+=
+{
+hasAccountProblem
 }
-else
-null
 )
 {
 onItemTapped
