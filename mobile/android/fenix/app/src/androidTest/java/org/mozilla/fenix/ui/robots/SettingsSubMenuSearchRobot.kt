@@ -808,6 +808,9 @@ withText
 "
 Address
 bar
+-
+Firefox
+Suggest
 "
 )
 )

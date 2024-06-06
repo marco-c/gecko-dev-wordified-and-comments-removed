@@ -716,6 +716,16 @@ REVIEW_QUALITY_CHECK
 review_checker_mobile
 "
 )
+FX_SUGGEST
+(
+"
+search
+-
+suggestions
+-
+firefox
+"
+)
 }
 enum
 class

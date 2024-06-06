@@ -267,6 +267,14 @@ id
 .
 addSearchEngineFragment
 )
+FromSearchEngineFragment
+(
+R
+.
+id
+.
+searchEngineFragment
+)
 FromSaveSearchEngineFragment
 (
 R
