@@ -8524,9 +8524,8 @@ sScheduler
 IsUserActive
 (
 )
-)
-{
-if
+&
+&
 (
 sScheduler
 -
@@ -8541,6 +8540,7 @@ sScheduler
 >
 IsCollectingCycles
 (
+)
 )
 )
 {
@@ -8581,8 +8581,6 @@ value
 ;
 }
 }
-else
-{
 nsCOMPtr
 <
 nsIDocShell
@@ -8682,8 +8680,6 @@ EventQueuePriority
 Idle
 )
 ;
-}
-}
 }
 void
 nsJSContext
