@@ -270,6 +270,11 @@ context
 )
 .
 edit
+(
+commit
+=
+true
+)
 {
 putBoolean
 (
