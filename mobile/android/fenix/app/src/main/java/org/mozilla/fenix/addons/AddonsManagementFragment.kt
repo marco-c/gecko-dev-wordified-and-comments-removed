@@ -925,6 +925,7 @@ addon
 -
 >
 addonProgressOverlay
+?
 .
 visibility
 =
