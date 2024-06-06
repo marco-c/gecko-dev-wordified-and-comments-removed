@@ -568,7 +568,7 @@ Modifier
 .
 height
 (
-17
+16
 .
 dp
 )
