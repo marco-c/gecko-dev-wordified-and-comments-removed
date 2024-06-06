@@ -524,6 +524,10 @@ mobile
 /
 android
 /
+android
+-
+components
+/
 docs
 /
 Gemfile
@@ -534,6 +538,10 @@ mobile
 /
 android
 /
+android
+-
+components
+/
 docs
 /
 _config
@@ -543,6 +551,10 @@ yml
 mobile
 /
 android
+/
+android
+-
+components
 /
 docs
 /
