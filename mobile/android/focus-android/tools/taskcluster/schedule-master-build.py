@@ -1073,8 +1073,8 @@ no
 -
 daemon
 clean
-assembleFocusWebviewUniversalDebug
-assembleKlarGeckoArmDebug
+assembleFocusWebviewUniversalRelease
+assembleKlarGeckoArmRelease
 '
 				   
 '

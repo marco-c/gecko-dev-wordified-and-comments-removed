@@ -254,7 +254,7 @@ apk
 /
 klarGeckoArm
 /
-debug
+release
 /
 app
 -
@@ -264,7 +264,9 @@ gecko
 -
 arm
 -
-debug
+release
+-
+unsigned
 .
 apk
 '
@@ -290,7 +292,7 @@ apk
 /
 focusWebviewUniversal
 /
-debug
+release
 /
 app
 -
@@ -300,7 +302,9 @@ webview
 -
 universal
 -
-debug
+release
+-
+unsigned
 .
 apk
 '
