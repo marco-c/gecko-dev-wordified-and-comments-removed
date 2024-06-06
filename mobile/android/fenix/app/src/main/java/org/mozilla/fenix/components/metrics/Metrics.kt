@@ -520,6 +520,12 @@ Event
 (
 )
 object
+QuickActionSheetOpenInAppTapped
+:
+Event
+(
+)
+object
 CustomTabsClosed
 :
 Event

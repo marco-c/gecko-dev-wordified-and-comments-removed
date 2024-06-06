@@ -342,6 +342,16 @@ handleOpenLink
 (
 )
 {
+context
+.
+metrics
+.
+track
+(
+Event
+.
+QuickActionSheetOpenInAppTapped
+)
 val
 getRedirect
 =
