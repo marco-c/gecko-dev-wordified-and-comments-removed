@@ -1683,6 +1683,9 @@ requireComponents
 core
 .
 sessionManager
+sessionFeature
+=
+sessionFeature
 findInPageLauncher
 =
 {
