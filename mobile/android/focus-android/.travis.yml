@@ -81,7 +81,7 @@ no
 -
 daemon
 clean
-assembleFocusNightly
+assembleFocusX86Nightly
 -
 echo
 "
@@ -102,7 +102,7 @@ Pcoverage
 no
 -
 daemon
-jacocoTestReportFocusNightly
+jacocoTestReportFocusX86Nightly
 after_success
 :
 -

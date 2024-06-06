@@ -143,9 +143,9 @@ pmd
 \
 detektCheck
 \
-assembleFocusDebugAndroidTest
+assembleFocusX86DebugAndroidTest
 \
-testFocusDebugUnitTest
+testFocusX86DebugUnitTest
 #
 Tasks
 omitted
