@@ -131,6 +131,11 @@ Context
 companion
 object
 {
+const
+val
+autoBounceMaximumCount
+=
+2
 var
 instance
 :
@@ -263,7 +268,7 @@ get
 =
 autoBounceQuickActionSheetCount
 <
-2
+autoBounceMaximumCount
 private
 val
 autoBounceQuickActionSheetCount
