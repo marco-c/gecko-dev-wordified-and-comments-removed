@@ -293,6 +293,8 @@ val
 activityIntentTestRule
 =
 HomeActivityIntentTestRule
+.
+withDefaultSettingsOverrides
 (
 )
 Rule

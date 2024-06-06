@@ -115,7 +115,7 @@ fenix
 .
 helpers
 .
-FeatureSettingsHelper
+FeatureSettingsHelperDelegate
 import
 org
 .
@@ -365,7 +365,7 @@ private
 val
 featureSettingsHelper
 =
-FeatureSettingsHelper
+FeatureSettingsHelperDelegate
 (
 )
 Before
@@ -405,9 +405,15 @@ start
 }
 featureSettingsHelper
 .
-setTCPCFREnabled
-(
+apply
+{
+isTCPCFREnabled
+=
 false
+}
+.
+applyFlagUpdates
+(
 )
 }
 After
