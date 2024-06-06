@@ -200,6 +200,10 @@ core
 engine
 )
 .
+migrateTelemetryIdentifiers
+(
+)
+.
 build
 (
 )
