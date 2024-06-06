@@ -772,7 +772,7 @@ i
 (
 TAG
 "
-verifyVersionNumber
+verifyProductCompany
 :
 Trying
 to
@@ -840,7 +840,7 @@ i
 (
 TAG
 "
-verifyVersionNumber
+verifyProductCompany
 :
 Verified
 that
@@ -856,7 +856,7 @@ the
 app
 info
 :
-{
+\
 "
 appName
 is
@@ -864,8 +864,8 @@ produced
 by
 Mozilla
 .
+\
 "
-}
 "
 )
 }
@@ -880,7 +880,7 @@ i
 (
 TAG
 "
-verifyVersionNumber
+verifyCurrentTimestamp
 :
 Trying
 to
@@ -1006,7 +1006,7 @@ i
 (
 TAG
 "
-verifyVersionNumber
+verifyCurrentTimestamp
 :
 Verified
 that
@@ -1200,7 +1200,7 @@ i
 (
 TAG
 "
-verifyAboutToolbar
+verifyWhatIsNewInFirefoxLink
 :
 Trying
 to
@@ -1255,7 +1255,7 @@ i
 (
 TAG
 "
-verifyAboutToolbar
+verifyWhatIsNewInFirefoxLink
 :
 Verified
 that
@@ -1280,7 +1280,7 @@ i
 (
 TAG
 "
-verifyAboutToolbar
+verifyWhatIsNewInFirefoxLink
 :
 Trying
 to
@@ -1324,7 +1324,7 @@ i
 (
 TAG
 "
-verifyAboutToolbar
+verifyWhatIsNewInFirefoxLink
 :
 Clicked
 the
