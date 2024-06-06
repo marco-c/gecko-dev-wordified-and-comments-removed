@@ -1287,7 +1287,7 @@ verifyPrivateBrowsingButtonIsSelected
 SmokeTest
 Test
 fun
-closePrivateTabsNotificationTest
+verifyCloseAllPrivateTabsNotificationTest
 (
 )
 {

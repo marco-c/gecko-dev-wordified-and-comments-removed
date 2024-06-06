@@ -505,7 +505,7 @@ shutdown
 SmokeTest
 Test
 fun
-videoPlaybackSystemNotificationTest
+verifyVideoPlaybackSystemNotificationTest
 (
 )
 {
@@ -636,7 +636,7 @@ pressBack
 SmokeTest
 Test
 fun
-audioPlaybackSystemNotificationTest
+verifyAudioPlaybackSystemNotificationTest
 (
 )
 {

@@ -169,7 +169,7 @@ fenix
 .
 ui
 .
-SmokeTest
+HistoryTest
 #
 noHistoryInPrivateBrowsingTest
 -
