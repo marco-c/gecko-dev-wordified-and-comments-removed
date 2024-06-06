@@ -288,6 +288,9 @@ onSelectTopSite
 topSite
 .
 url
+topSite
+.
+isDefault
 )
 }
 top_site_item

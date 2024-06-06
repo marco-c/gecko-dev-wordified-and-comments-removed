@@ -1059,6 +1059,12 @@ Event
 (
 )
 object
+TopSiteOpenDefault
+:
+Event
+(
+)
+object
 TopSiteOpenInNewTab
 :
 Event
