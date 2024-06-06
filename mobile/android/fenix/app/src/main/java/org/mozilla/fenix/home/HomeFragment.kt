@@ -987,16 +987,6 @@ fenix
 .
 utils
 .
-Settings
-import
-org
-.
-mozilla
-.
-fenix
-.
-utils
-.
 allowUndo
 import
 org

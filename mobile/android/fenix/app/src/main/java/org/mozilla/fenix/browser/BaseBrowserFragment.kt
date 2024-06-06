@@ -645,14 +645,6 @@ mozilla
 .
 fenix
 .
-BrowserDirection
-import
-org
-.
-mozilla
-.
-fenix
-.
 FeatureFlags
 import
 org

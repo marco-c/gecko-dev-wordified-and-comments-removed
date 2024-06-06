@@ -578,6 +578,13 @@ layout_marginEnd
 "
 8dp
 "
+android
+:
+visibility
+=
+"
+gone
+"
 app
 :
 layout_constraintEnd_toEndOf

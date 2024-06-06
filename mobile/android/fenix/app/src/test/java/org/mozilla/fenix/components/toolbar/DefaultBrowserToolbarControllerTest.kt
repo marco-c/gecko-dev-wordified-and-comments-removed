@@ -956,6 +956,10 @@ sharedViewModel
 mockk
 (
 )
+onTabCounterClicked
+=
+{
+}
 )
 mockkStatic
 (
@@ -1398,6 +1402,10 @@ sharedViewModel
 mockk
 (
 )
+onTabCounterClicked
+=
+{
+}
 )
 controller
 .
@@ -2127,6 +2135,10 @@ sharedViewModel
 mockk
 (
 )
+onTabCounterClicked
+=
+{
+}
 )
 controller
 .
@@ -3059,6 +3071,10 @@ sharedViewModel
 mockk
 (
 )
+onTabCounterClicked
+=
+{
+}
 )
 val
 sessionManager
@@ -3240,6 +3256,10 @@ sharedViewModel
 mockk
 (
 )
+onTabCounterClicked
+=
+{
+}
 )
 controller
 .
