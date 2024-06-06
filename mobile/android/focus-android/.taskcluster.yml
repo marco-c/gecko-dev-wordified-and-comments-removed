@@ -1796,7 +1796,7 @@ tag_name
 \
 -
 -
-track
+channel
 alpha
 \
 -
@@ -2496,7 +2496,7 @@ py
 \
 -
 -
-track
+channel
 nightly
 \
 -
