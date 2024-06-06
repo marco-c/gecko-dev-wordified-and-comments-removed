@@ -460,7 +460,7 @@ R
 .
 layout
 .
-mozac_browser_menu_item_image_text
+mozac_browser_menu_item_parent_menu
 override
 fun
 bind
