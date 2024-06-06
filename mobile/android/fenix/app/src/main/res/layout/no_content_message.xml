@@ -339,6 +339,13 @@ textStyle
 "
 normal
 "
+android
+:
+textAlignment
+=
+"
+viewStart
+"
 /
 >
 <
