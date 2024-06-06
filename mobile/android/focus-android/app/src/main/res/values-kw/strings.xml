@@ -67,8 +67,9 @@ name
 urlbar_hint
 "
 >
-Hwilas
+Hwilowgh
 po
+entrowgh
 trigva
 <
 /
@@ -87,11 +88,11 @@ privedh
 awtomatek
 .
 \
-nPeuri
+nPeurowgh
 .
-Dilea
+Dileowgh
 .
-Arta
+Daswrewgh
 .
 <
 /
@@ -140,7 +141,7 @@ name
 menu_share
 "
 >
-Kevranna
+Ranna
 <
 /
 string
@@ -154,7 +155,7 @@ menu_open_with_default_browser2
 "
 >
 Ygeri
-yn
+dre
 %
 1
 s
@@ -171,7 +172,7 @@ menu_open_with_a_browser2
 "
 >
 Ygeri
-yn
+dre
 <
 /
 string
@@ -306,7 +307,7 @@ name
 share_dialog_title
 "
 >
-Kevranna
+Ranna
 dre
 <
 /
@@ -710,7 +711,7 @@ preference_subitem_autocomplete
 Kollenwel
 awtomatek
 a
-drigvaow
+URLs
 <
 /
 string
@@ -925,9 +926,9 @@ name
 preference_autocomplete_add_hint
 "
 >
-Glusa
+Glusowgh
 po
-entra
+entrowgh
 URL
 <
 /
@@ -1641,7 +1642,8 @@ name
 search_add_manually_string
 "
 >
-Korden
+An
+gorden
 hwilas
 dhe
 usya
@@ -1713,10 +1715,11 @@ name
 search_add_error_empty_name
 "
 >
-Keworrewgh
+Keworrowgh
 hanow
 an
 jynn
+-
 hwilas
 <
 /
@@ -1754,7 +1757,7 @@ name
 search_add_error_empty_search
 "
 >
-Entrewgh
+Entrowgh
 korden
 hwilas
 <
@@ -1769,7 +1772,7 @@ name
 search_add_error_format
 "
 >
-Checkyewgh
+Checkyowgh
 bos
 an
 gorden

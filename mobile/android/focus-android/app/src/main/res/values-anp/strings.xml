@@ -660,6 +660,10 @@ li
 ;
 &
 #
+2365
+;
+&
+#
 2310
 ;
 &
@@ -1468,7 +1472,6 @@ s
 #
 2376
 ;
-s
 .
 <
 br
@@ -1526,7 +1529,6 @@ s
 #
 2376
 ;
-s
 <
 /
 a
@@ -2197,8 +2199,6 @@ name
 preference_privacy_notice
 "
 >
-"
-"
 <
 /
 string
@@ -2411,9 +2411,7 @@ name
 search_add_error_format
 "
 >
-"
 s
-"
 <
 /
 string
