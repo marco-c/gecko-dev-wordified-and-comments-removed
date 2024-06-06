@@ -2510,9 +2510,6 @@ viewLifecycleOwner
 interactor
 =
 sessionControlInteractor
-onboarding
-=
-onboarding
 )
 updateSessionControlView
 (

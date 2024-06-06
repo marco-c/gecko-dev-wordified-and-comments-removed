@@ -470,11 +470,14 @@ card
 .
 *
 /
-const
 val
 showHomeOnboarding
 =
-false
+Config
+.
+channel
+.
+isNightlyOrDebug
 /
 *
 *
