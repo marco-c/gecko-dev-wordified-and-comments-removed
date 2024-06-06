@@ -1593,13 +1593,6 @@ core
 store
 )
 )
-components
-.
-appStartupTelemetry
-.
-onFenixApplicationOnCreate
-(
-)
 }
 }
 private
