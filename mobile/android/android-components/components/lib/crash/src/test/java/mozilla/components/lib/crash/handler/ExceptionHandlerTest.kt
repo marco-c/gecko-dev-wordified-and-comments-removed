@@ -297,6 +297,11 @@ service
 scope
 =
 scope
+notificationsDelegate
+=
+mock
+(
+)
 )
 )
 val
@@ -487,6 +492,11 @@ null
 scope
 =
 scope
+notificationsDelegate
+=
+mock
+(
+)
 )
 .
 install

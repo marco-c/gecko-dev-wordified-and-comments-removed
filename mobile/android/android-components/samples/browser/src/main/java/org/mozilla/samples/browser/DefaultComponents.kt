@@ -2670,6 +2670,9 @@ null
 }
 }
 )
+notificationsDelegate
+=
+notificationsDelegate
 )
 .
 install

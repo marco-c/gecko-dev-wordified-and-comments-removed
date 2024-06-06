@@ -345,6 +345,11 @@ mock
 scope
 =
 scope
+notificationsDelegate
+=
+mock
+(
+)
 )
 )
 .

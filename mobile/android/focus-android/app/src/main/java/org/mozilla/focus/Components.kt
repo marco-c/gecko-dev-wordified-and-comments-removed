@@ -1577,6 +1577,7 @@ lazy
 createCrashReporter
 (
 context
+notificationsDelegate
 )
 }
 val
@@ -1694,6 +1695,9 @@ createCrashReporter
 context
 :
 Context
+notificationsDelegate
+:
+NotificationsDelegate
 )
 :
 CrashReporter
@@ -1966,6 +1970,9 @@ true
 nonFatalCrashIntent
 =
 pendingIntent
+notificationsDelegate
+=
+notificationsDelegate
 )
 }
 private
