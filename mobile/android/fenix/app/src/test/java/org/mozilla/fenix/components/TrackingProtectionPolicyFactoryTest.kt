@@ -2756,12 +2756,6 @@ mockk
 {
 every
 {
-enabledTotalCookieProtection
-}
-returns
-false
-every
-{
 useStrictTrackingProtection
 }
 returns
