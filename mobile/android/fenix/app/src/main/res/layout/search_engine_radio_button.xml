@@ -371,6 +371,13 @@ dimen
 /
 radio_button_padding_horizontal
 "
+android
+:
+textAlignment
+=
+"
+viewStart
+"
 app
 :
 layout_constraintStart_toEndOf
