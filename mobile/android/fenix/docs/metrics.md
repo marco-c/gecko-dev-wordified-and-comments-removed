@@ -10400,7 +10400,7 @@ metrics
 total_uri_count
 |
 [
-counter
+string
 ]
 (
 https
@@ -10421,7 +10421,7 @@ user
 /
 metrics
 /
-counter
+string
 .
 html
 )
