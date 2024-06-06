@@ -501,6 +501,9 @@ onboarding_feature_section_header
 appName
 )
 }
+AdapterItem
+.
+OnboardingThemePicker
 )
 private
 fun
