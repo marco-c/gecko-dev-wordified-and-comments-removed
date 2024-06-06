@@ -421,13 +421,6 @@ textSize
 "
 12sp
 "
-android
-:
-layout_marginTop
-=
-"
-4dp
-"
 app
 :
 layout_constraintEnd_toStartOf
@@ -532,6 +525,13 @@ textSize
 =
 "
 18sp
+"
+android
+:
+layout_marginTop
+=
+"
+2dp
 "
 app
 :
