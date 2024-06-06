@@ -505,6 +505,13 @@ Config
 .
 channel
 .
+isBeta
+|
+|
+Config
+.
+channel
+.
 isNightlyOrDebug
 )
 .
