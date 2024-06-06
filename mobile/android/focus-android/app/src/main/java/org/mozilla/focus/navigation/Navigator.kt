@@ -353,9 +353,6 @@ browser
 screen
 .
 tabId
-screen
-.
-showTabs
 )
 is
 Screen
