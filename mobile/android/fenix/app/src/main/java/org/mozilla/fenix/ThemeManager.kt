@@ -197,7 +197,11 @@ ThemeManager
 Theme
 .
 Private
-private
+class
+DefaultThemeManager
+:
+ThemeManager
+{
 var
 temporaryThemeManagerStorage
 =
@@ -206,11 +210,6 @@ ThemeManager
 Theme
 .
 Normal
-class
-DefaultThemeManager
-:
-ThemeManager
-{
 var
 onThemeChange
 :
