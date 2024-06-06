@@ -1456,7 +1456,11 @@ engine
 )
 showSearchSuggestions
 =
-true
+action
+.
+settings
+.
+shouldShowSearchSuggestions
 showSearchShortcuts
 =
 action
