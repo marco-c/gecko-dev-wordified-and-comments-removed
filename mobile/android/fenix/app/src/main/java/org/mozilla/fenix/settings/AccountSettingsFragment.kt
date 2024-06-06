@@ -568,7 +568,7 @@ R
 .
 string
 .
-sync_syncing
+sync_syncing_in_progress
 )
 preferenceSyncNow
 .
@@ -1047,7 +1047,7 @@ R
 .
 string
 .
-sync_syncing
+sync_syncing_in_progress
 )
 )
 pref
@@ -1061,7 +1061,7 @@ R
 .
 string
 .
-sync_syncing
+sync_syncing_in_progress
 )
 pref
 ?

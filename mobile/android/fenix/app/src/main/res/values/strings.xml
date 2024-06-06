@@ -2361,7 +2361,7 @@ string
 name
 =
 "
-sync_syncing
+sync_syncing_in_progress
 "
 >
 Syncing
@@ -8719,9 +8719,8 @@ data
 and
 history
 items
-item
 in
-Delete
+delete
 browsing
 data
 parameter
