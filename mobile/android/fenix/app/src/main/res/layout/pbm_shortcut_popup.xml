@@ -307,7 +307,7 @@ text
 "
 string
 /
-cfr_message
+private_mode_cfr_message
 "
 android
 :
@@ -420,7 +420,7 @@ text
 "
 string
 /
-cfr_pos_button_text
+private_mode_cfr_pos_button_text
 "
 android
 :
