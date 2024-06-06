@@ -839,9 +839,6 @@ withText
 (
 "
 Strict
-(
-Default
-)
 "
 )
 )
@@ -990,7 +987,7 @@ onView
 withText
 (
 "
-Standard
+Strict
 "
 )
 )
@@ -1022,10 +1019,7 @@ hasSibling
 withText
 (
 "
-Strict
-(
-Default
-)
+Standard
 "
 )
 )

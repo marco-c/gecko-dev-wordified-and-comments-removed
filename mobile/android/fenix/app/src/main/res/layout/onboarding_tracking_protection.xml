@@ -556,6 +556,13 @@ paddingEnd
 "
 android
 :
+checked
+=
+"
+true
+"
+android
+:
 theme
 =
 "
@@ -873,7 +880,7 @@ android
 checked
 =
 "
-true
+false
 "
 android
 :
@@ -967,7 +974,7 @@ text
 "
 string
 /
-onboarding_tracking_protection_strict_button
+onboarding_tracking_protection_strict_option
 "
 android
 :

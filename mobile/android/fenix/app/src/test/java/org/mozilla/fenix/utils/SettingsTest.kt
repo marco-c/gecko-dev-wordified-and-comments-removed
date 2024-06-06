@@ -1203,7 +1203,7 @@ When
 /
 /
 Then
-assertTrue
+assertFalse
 (
 settings
 .
