@@ -794,7 +794,7 @@ if
 (
 FeatureFlags
 .
-addressesFeature
+syncAddressesFeature
 )
 SyncEngine
 .
@@ -948,7 +948,7 @@ if
 (
 FeatureFlags
 .
-addressesFeature
+syncAddressesFeature
 )
 {
 GlobalSyncableStoreProvider

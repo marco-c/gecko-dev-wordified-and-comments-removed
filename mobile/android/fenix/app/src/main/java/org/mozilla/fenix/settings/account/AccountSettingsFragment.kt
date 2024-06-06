@@ -2036,7 +2036,7 @@ isVisible
 =
 FeatureFlags
 .
-addressesFeature
+syncAddressesFeature
 isEnabled
 =
 syncEnginesStatus

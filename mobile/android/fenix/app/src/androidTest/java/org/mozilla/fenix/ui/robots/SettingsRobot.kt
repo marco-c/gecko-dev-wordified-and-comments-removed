@@ -641,11 +641,11 @@ assertHomepageButton
 (
 )
 fun
-verifyCreditCardsButton
+verifyAutofillButton
 (
 )
 =
-assertCreditCardsButton
+assertAutofillButton
 (
 )
 fun
@@ -2374,7 +2374,7 @@ VISIBLE
 )
 private
 fun
-assertCreditCardsButton
+assertAutofillButton
 (
 )
 =
@@ -2386,7 +2386,7 @@ R
 .
 string
 .
-preferences_credit_cards
+preferences_autofill
 )
 )
 .

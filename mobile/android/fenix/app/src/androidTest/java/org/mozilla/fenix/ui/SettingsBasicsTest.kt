@@ -411,7 +411,7 @@ verifyCustomizeButton
 verifyLoginsAndPasswordsButton
 (
 )
-verifyCreditCardsButton
+verifyAutofillButton
 (
 )
 verifyAccessibilityButton
