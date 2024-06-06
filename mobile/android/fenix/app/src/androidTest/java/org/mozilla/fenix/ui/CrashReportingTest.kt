@@ -258,7 +258,6 @@ resetAllFeatureFlags
 (
 )
 }
-SmokeTest
 Test
 fun
 closeTabCrashedReporterTest
@@ -315,7 +314,6 @@ issues
 19964
 "
 )
-SmokeTest
 Test
 fun
 restoreTabCrashedReporterTest
