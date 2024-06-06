@@ -538,6 +538,16 @@ requireContext
 .
 apply
 {
+this
+WallpaperOnboardingDialogFragment
+.
+dialog
+?
+.
+setCanceledOnTouchOutside
+(
+true
+)
 setViewCompositionStrategy
 (
 ViewCompositionStrategy
