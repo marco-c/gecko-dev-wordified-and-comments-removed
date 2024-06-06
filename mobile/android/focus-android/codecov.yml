@@ -34,7 +34,7 @@ default
 :
 enabled
 :
-yes
+no
 threshold
 :
 0
