@@ -205,16 +205,6 @@ fenix
 .
 settings
 .
-toStatus
-import
-org
-.
-mozilla
-.
-fenix
-.
-settings
-.
 toggle
 import
 org
