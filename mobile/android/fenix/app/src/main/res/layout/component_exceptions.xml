@@ -250,6 +250,13 @@ exceptions_empty_message_description
 "
 android
 :
+textAlignment
+=
+"
+viewStart
+"
+android
+:
 textColor
 =
 "
@@ -320,6 +327,13 @@ text
 string
 /
 exceptions_empty_message_learn_more_link
+"
+android
+:
+textAlignment
+=
+"
+viewStart
 "
 android
 :
