@@ -14237,7 +14237,7 @@ whenever
 (
 storageController
 .
-clearDataFromHost
+clearDataFromBaseDomain
 (
 eq
 (
@@ -14402,7 +14402,7 @@ whenever
 (
 storageController
 .
-clearDataFromHost
+clearDataFromBaseDomain
 (
 eq
 (

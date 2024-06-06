@@ -3789,7 +3789,7 @@ runtime
 .
 storageController
 .
-clearDataFromHost
+clearDataFromBaseDomain
 (
 host
 flags
