@@ -336,7 +336,7 @@ onNext
 (
 SearchAction
 .
-ToolbarTapped
+ToolbarClicked
 )
 false
 }
@@ -424,6 +424,18 @@ text
 }
 }
 )
+setOnUrlLongClickListener
+{
+actionEmitter
+.
+onNext
+(
+SearchAction
+.
+ToolbarLongClicked
+)
+true
+}
 }
 with
 (

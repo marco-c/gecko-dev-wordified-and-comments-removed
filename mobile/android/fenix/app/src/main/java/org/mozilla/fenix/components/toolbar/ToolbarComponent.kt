@@ -512,7 +512,13 @@ SearchAction
 (
 )
 object
-ToolbarTapped
+ToolbarClicked
+:
+SearchAction
+(
+)
+object
+ToolbarLongClicked
 :
 SearchAction
 (
