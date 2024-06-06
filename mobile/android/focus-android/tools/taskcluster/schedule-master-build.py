@@ -1704,11 +1704,9 @@ taskcluster
 .
 Queue
 (
-options
-=
 {
 '
-rootUrl
+baseUrl
 '
 :
 '
