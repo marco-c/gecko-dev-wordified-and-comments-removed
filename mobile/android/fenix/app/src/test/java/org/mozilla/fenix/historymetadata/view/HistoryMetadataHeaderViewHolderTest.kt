@@ -63,9 +63,7 @@ mozilla
 .
 fenix
 .
-home
-.
-recenttabs
+historymetadata
 .
 view
 import
@@ -101,7 +99,7 @@ synthetic
 .
 main
 .
-recent_tabs_header
+history_metadata_header
 .
 view
 .
@@ -168,7 +166,7 @@ FenixRobolectricTestRunner
 class
 )
 class
-RecentTabsHeaderViewHolderTest
+HistoryMetadataHeaderViewHolderTest
 {
 private
 lateinit
@@ -199,7 +197,7 @@ testContext
 .
 inflate
 (
-RecentTabsHeaderViewHolder
+HistoryMetadataHeaderViewHolder
 .
 LAYOUT_ID
 null
@@ -228,7 +226,7 @@ called
 (
 )
 {
-RecentTabsHeaderViewHolder
+HistoryMetadataHeaderViewHolder
 (
 view
 interactor
@@ -244,7 +242,7 @@ verify
 {
 interactor
 .
-onRecentTabShowAllClicked
+onHistoryMetadataShowAllClicked
 (
 )
 }
