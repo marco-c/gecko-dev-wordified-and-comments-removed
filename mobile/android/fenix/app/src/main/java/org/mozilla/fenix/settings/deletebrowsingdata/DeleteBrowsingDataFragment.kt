@@ -954,6 +954,8 @@ deleteSelected
 (
 )
 {
+runIfFragmentIsAttached
+{
 startDeletion
 (
 )
@@ -1045,6 +1047,7 @@ Main
 finishDeletion
 (
 )
+}
 }
 }
 }
