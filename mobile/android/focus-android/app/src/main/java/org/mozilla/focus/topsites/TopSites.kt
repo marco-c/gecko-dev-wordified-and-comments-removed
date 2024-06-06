@@ -821,7 +821,7 @@ color
 =
 PhotonColors
 .
-Ink30
+Ink05
 )
 )
 {
