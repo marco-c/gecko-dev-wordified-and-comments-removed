@@ -65,6 +65,12 @@ fenix
 .
 helpers
 import
+android
+.
+content
+.
+Context
+import
 java
 .
 io
@@ -122,14 +128,6 @@ okhttp3
 mockwebserver
 .
 RecordedRequest
-import
-org
-.
-mozilla
-.
-fenix
-.
-HomeActivity
 import
 org
 .
@@ -368,7 +366,7 @@ ApplicationProvider
 .
 getApplicationContext
 <
-HomeActivity
+Context
 >
 (
 )
