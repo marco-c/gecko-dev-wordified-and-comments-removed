@@ -654,6 +654,13 @@ onboarding
 requireComponents
 .
 fenixOnboarding
+crashReporter
+=
+requireComponents
+.
+analytics
+.
+crashReporter
 )
 privateBrowsingController
 =

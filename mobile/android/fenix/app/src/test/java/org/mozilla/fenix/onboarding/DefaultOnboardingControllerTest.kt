@@ -331,6 +331,14 @@ navController
 onboarding
 =
 onboarding
+crashReporter
+=
+mockk
+(
+relaxed
+=
+true
+)
 )
 }
 Test
