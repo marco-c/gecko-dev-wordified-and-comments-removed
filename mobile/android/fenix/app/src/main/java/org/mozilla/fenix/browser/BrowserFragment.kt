@@ -3083,7 +3083,11 @@ LENGTH_LONG
 .
 setAnchorView
 (
-nestedScrollQuickAction
+toolbarComponent
+.
+uiView
+.
+view
 )
 .
 setAction
