@@ -133,7 +133,7 @@ experiments
 .
 nimbus
 .
-GleanPlumbMessageHelper
+NimbusMessagingHelperInterface
 import
 org
 .
@@ -459,7 +459,7 @@ JSONObject
 val
 helper
 :
-GleanPlumbMessageHelper
+NimbusMessagingHelperInterface
 get
 (
 )
@@ -871,7 +871,7 @@ String
 >
 helper
 :
-GleanPlumbMessageHelper
+NimbusMessagingHelperInterface
 jexlCache
 :
 MutableMap
@@ -1615,7 +1615,7 @@ message
 Message
 helper
 :
-GleanPlumbMessageHelper
+NimbusMessagingHelperInterface
 jexlCache
 :
 MutableMap

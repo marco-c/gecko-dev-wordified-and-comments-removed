@@ -73,7 +73,7 @@ experiments
 .
 nimbus
 .
-GleanPlumbMessageHelper
+NimbusMessagingHelperInterface
 import
 org
 .
@@ -117,7 +117,7 @@ String
 *
 /
 fun
-GleanPlumbMessageHelper
+NimbusMessagingHelperInterface
 .
 evalJexlSafe
 (

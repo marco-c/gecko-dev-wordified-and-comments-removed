@@ -73,7 +73,7 @@ experiments
 .
 nimbus
 .
-GleanPlumbMessageHelper
+NimbusMessagingHelperInterface
 import
 org
 .
@@ -114,7 +114,7 @@ withHelper
 (
 block
 :
-GleanPlumbMessageHelper
+NimbusMessagingHelperInterface
 .
 (
 )
