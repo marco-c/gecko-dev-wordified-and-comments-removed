@@ -176,7 +176,7 @@ theme
 "
 style
 /
-LightAppTheme
+LightTheme
 "
 android
 :
@@ -682,7 +682,7 @@ theme
 "
 style
 /
-SettingsAppTheme
+SettingsTheme
 "
 /
 >
