@@ -444,7 +444,6 @@ WebExtensionPromptFeature
 (
 )
 private
-lateinit
 var
 addons
 :
@@ -452,6 +451,10 @@ List
 <
 Addon
 >
+=
+emptyList
+(
+)
 /
 *
 *
