@@ -311,6 +311,13 @@ layout_width
 "
 android
 :
+layout_marginStart
+=
+"
+8dp
+"
+android
+:
 layout_height
 =
 "
