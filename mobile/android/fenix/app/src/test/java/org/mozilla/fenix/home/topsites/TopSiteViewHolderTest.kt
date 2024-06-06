@@ -232,6 +232,8 @@ bind
 listOf
 (
 TopSite
+.
+Default
 (
 id
 =
@@ -255,13 +257,6 @@ com
 createdAt
 =
 0
-type
-=
-TopSite
-.
-Type
-.
-DEFAULT
 )
 )
 )
