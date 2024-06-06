@@ -1088,7 +1088,6 @@ browser_menu_whats_new
 >
 What
 \
-'
 s
 New
 <
@@ -1971,7 +1970,6 @@ search_suggestions_onboarding_do_not_allow_button
 >
 Don
 \
-'
 t
 allow
 <
@@ -2020,6 +2018,23 @@ onboarding
 hint
 description
 text
+first
+parameter
+is
+the
+name
+of
+the
+app
+defined
+in
+app_name
+(
+for
+example
+:
+Fenix
+)
 -
 -
 >
@@ -2031,8 +2046,8 @@ name
 search_suggestions_onboarding_text
 "
 >
-Firefox
-Preview
+%
+s
 will
 share
 everything
@@ -13612,7 +13627,6 @@ preference_enhanced_tracking_protection_standard_info_button
 >
 What
 \
-'
 s
 blocked
 by
@@ -13832,7 +13846,6 @@ preference_enhanced_tracking_protection_strict_info_button
 >
 What
 \
-'
 s
 blocked
 by
@@ -14608,7 +14621,6 @@ about_whats_new
 >
 What
 \
-'
 s
 new
 in
@@ -15912,7 +15924,6 @@ logins_doorhanger_save_dont_save
 >
 Don
 \
-'
 t
 save
 <

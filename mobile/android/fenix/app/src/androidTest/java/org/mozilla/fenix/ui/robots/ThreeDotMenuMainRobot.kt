@@ -1166,7 +1166,6 @@ text
 (
 "
 What
-'
 s
 New
 "
@@ -2166,7 +2165,6 @@ withText
 (
 "
 What
-'
 s
 New
 "
