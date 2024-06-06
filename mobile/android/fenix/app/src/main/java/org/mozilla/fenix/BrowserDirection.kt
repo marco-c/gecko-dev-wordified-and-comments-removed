@@ -243,6 +243,14 @@ id
 .
 addonDetailsFragment
 )
+FromStudiesFragment
+(
+R
+.
+id
+.
+studiesFragment
+)
 FromAddonPermissionsDetailsFragment
 (
 R
