@@ -607,8 +607,9 @@ name
 sync_disconnected_icon_fill_light_theme
 "
 >
-#
-C45A27
+color
+/
+photonYellow70
 <
 /
 color
@@ -2370,8 +2371,9 @@ name
 sync_disconnected_icon_fill_private_theme
 "
 >
-#
-C45A27
+color
+/
+photonYellow70
 <
 /
 color
