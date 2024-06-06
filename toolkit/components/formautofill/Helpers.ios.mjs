@@ -1020,8 +1020,6 @@ defaultValue
 =
 null
 onUpdate
-=
-null
 transform
 =
 val

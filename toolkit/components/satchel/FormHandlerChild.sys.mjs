@@ -272,7 +272,7 @@ after
 fetch
 processFormRemovalAfterFetch
 (
-params
+_params
 )
 {
 }
@@ -284,7 +284,7 @@ iframe
 pagehide
 processIframePagehide
 (
-params
+_params
 )
 {
 }
@@ -296,7 +296,7 @@ page
 navigation
 processPageNavigation
 (
-params
+_params
 )
 {
 }
