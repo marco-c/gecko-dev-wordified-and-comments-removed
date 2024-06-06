@@ -151,6 +151,14 @@ val
 historyProvider
 :
 PagedHistoryProvider
+private
+val
+isRemote
+:
+Boolean
+?
+=
+null
 )
 :
 PagingSource
@@ -285,6 +293,7 @@ offset
 params
 .
 loadSize
+isRemote
 )
 .
 run

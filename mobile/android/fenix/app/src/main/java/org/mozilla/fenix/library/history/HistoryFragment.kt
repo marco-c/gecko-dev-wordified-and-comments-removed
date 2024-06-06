@@ -580,6 +580,17 @@ HistoryDataSource
 historyProvider
 =
 historyProvider
+isRemote
+=
+if
+(
+FeatureFlags
+.
+showSyncedHistory
+)
+false
+else
+null
 )
 }
 .
