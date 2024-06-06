@@ -1287,9 +1287,6 @@ context
 requireContext
 (
 )
-activity
-=
-activity
 tabsTrayStore
 =
 tabsTrayStore
@@ -1361,6 +1358,9 @@ tabsTrayController
 =
 DefaultTabsTrayController
 (
+activity
+=
+activity
 trayStore
 =
 tabsTrayStore

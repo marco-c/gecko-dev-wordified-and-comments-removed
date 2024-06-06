@@ -510,9 +510,9 @@ MATCH_PARENT
 tabsTrayStore
 =
 tabsTrayStore
-navigationInteractor
+interactor
 =
-navInteractor
+tabsTrayInteractor
 )
 }
 else
