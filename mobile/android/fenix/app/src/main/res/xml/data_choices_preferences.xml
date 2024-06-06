@@ -115,7 +115,7 @@ key
 "
 string
 /
-pref_key_make_default_browser
+pref_key_telemetry
 "
 android
 :
@@ -141,7 +141,7 @@ key
 "
 string
 /
-pref_key_make_default_browser
+pref_key_crash_reporter
 "
 android
 :
@@ -167,7 +167,7 @@ key
 "
 string
 /
-pref_key_make_default_browser
+pref_key_mozilla_location_service
 "
 android
 :
@@ -193,7 +193,7 @@ key
 "
 string
 /
-pref_key_make_default_browser
+pref_key_fenix_health_report
 "
 android
 :
