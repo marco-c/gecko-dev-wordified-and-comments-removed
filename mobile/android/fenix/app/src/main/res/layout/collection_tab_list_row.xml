@@ -525,12 +525,12 @@ favicon_image
 "
 app
 :
-layout_constraintEnd_toEndOf
+layout_constraintEnd_toStartOf
 =
 "
 id
 /
-hostname
+tab_selected_checkbox
 "
 app
 :
