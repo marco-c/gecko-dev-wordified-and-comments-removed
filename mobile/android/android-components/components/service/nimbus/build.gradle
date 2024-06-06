@@ -111,6 +111,7 @@ maven2
 "
 }
 }
+}
 dependencies
 {
 classpath
@@ -153,7 +154,6 @@ Versions
 mozilla_glean
 }
 "
-}
 }
 }
 plugins

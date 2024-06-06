@@ -80,6 +80,7 @@ maven2
 gradlePluginPortal
 (
 )
+}
 dependencies
 {
 classpath
@@ -106,7 +107,6 @@ classpath
 ComponentsDependencies
 .
 plugin_serialization
-}
 }
 }
 plugins
