@@ -461,11 +461,7 @@ engine
 .
 clearData
 (
-Engine
-.
-BrowsingData
-.
-all
+any
 (
 )
 )
