@@ -353,7 +353,6 @@ observer
 (
 aCancel
 aTopic
-aData
 )
 {
 observing
@@ -1366,7 +1365,6 @@ async
 function
 (
 newWin
-obs
 )
 {
 let

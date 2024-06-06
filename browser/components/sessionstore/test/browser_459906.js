@@ -88,7 +88,6 @@ load
 function
 listener
 (
-aEvent
 )
 {
 if
@@ -166,7 +165,6 @@ load
 function
 loadListener
 (
-eventTab2
 )
 {
 if

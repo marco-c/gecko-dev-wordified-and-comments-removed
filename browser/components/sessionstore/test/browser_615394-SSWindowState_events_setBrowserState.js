@@ -328,7 +328,6 @@ windowObserver
 (
 aSubject
 aTopic
-aData
 )
 {
 if

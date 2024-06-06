@@ -512,8 +512,6 @@ callback
 observe
 (
 browser
-topic
-data
 )
 {
 TabsProgressListener

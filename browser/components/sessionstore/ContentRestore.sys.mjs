@@ -2890,7 +2890,7 @@ onStateChange
 webProgress
 request
 stateFlags
-status
+_status
 )
 {
 let

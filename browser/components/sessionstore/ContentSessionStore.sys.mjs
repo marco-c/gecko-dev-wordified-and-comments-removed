@@ -1338,7 +1338,6 @@ history
 }
 handleEvent
 (
-event
 )
 {
 this
@@ -1480,7 +1479,7 @@ onStateChange
 webProgress
 request
 stateFlags
-status
+_status
 )
 {
 /

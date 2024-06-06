@@ -11210,7 +11210,6 @@ this
 _restoreHistoryComplete
 (
 browser
-data
 )
 ;
 break
@@ -44874,7 +44873,6 @@ onStateChange
 webProgress
 request
 stateFlags
-status
 )
 {
 if
@@ -45197,7 +45195,6 @@ onStateChange
 webProgress
 request
 stateFlags
-status
 )
 {
 if
@@ -45644,7 +45641,6 @@ this
 _restoreHistoryComplete
 (
 browser
-data
 )
 ;
 }
@@ -46183,7 +46179,6 @@ options
 _restoreHistoryComplete
 (
 browser
-data
 )
 {
 let
@@ -48856,7 +48851,7 @@ window
 }
 clear
 (
-window
+_window
 )
 {
 this

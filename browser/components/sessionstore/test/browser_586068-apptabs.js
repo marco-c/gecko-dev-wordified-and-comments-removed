@@ -324,9 +324,6 @@ setCallback
 function
 (
 aBrowser
-aNeedRestore
-aRestoring
-aRestored
 )
 {
 loadCount

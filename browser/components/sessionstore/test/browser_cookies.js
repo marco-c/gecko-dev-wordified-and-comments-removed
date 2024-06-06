@@ -80,7 +80,6 @@ observer
 (
 subj
 topic
-data
 )
 {
 Services

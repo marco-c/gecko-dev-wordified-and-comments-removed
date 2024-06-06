@@ -338,8 +338,6 @@ function
 (
 aBrowser
 aNeedRestore
-aRestoring
-aRestored
 )
 {
 if
@@ -407,7 +405,6 @@ observer
 (
 aSubject
 aTopic
-aData
 )
 {
 if

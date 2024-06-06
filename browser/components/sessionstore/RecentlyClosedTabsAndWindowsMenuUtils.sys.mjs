@@ -1073,7 +1073,6 @@ item
 /
 onRestoreAllWindowsCommand
 (
-aEvent
 )
 {
 const
@@ -1576,7 +1575,8 @@ addEventListener
 "
 command
 "
-event
+(
+)
 =
 >
 {

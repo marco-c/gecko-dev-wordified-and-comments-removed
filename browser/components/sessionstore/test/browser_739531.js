@@ -73,7 +73,6 @@ load
 function
 onLoad
 (
-aEvent
 )
 {
 if

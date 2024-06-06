@@ -698,7 +698,6 @@ length
 function
 onSSTabRestored
 (
-aEvent
 )
 {
 if
@@ -808,7 +807,6 @@ windowObserver
 (
 aSubject
 aTopic
-aData
 )
 {
 if

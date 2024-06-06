@@ -895,7 +895,6 @@ observe
 (
 subject
 topic
-details
 )
 {
 try

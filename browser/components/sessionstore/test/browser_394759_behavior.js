@@ -133,8 +133,6 @@ filter
 function
 (
 el
-i
-arr
 )
 {
 return

@@ -1720,7 +1720,6 @@ treeBox
 getCellText
 (
 idx
-column
 )
 {
 return
@@ -1751,7 +1750,6 @@ idx
 getCellValue
 (
 idx
-column
 )
 {
 return
@@ -1779,7 +1777,6 @@ open
 }
 isContainerEmpty
 (
-idx
 )
 {
 return
@@ -1788,7 +1785,6 @@ false
 }
 isSeparator
 (
-idx
 )
 {
 return
@@ -1805,8 +1801,6 @@ false
 }
 isEditable
 (
-idx
-column
 )
 {
 return
@@ -1815,9 +1809,6 @@ false
 }
 canDrop
 (
-idx
-orientation
-dt
 )
 {
 return
@@ -2312,14 +2303,11 @@ null
 }
 cycleHeader
 (
-column
 )
 {
 }
 cycleCell
 (
-idx
-column
 )
 {
 }
@@ -2330,7 +2318,6 @@ selectionChanged
 }
 getColumnProperties
 (
-column
 )
 {
 return

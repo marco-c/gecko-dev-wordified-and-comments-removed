@@ -64,7 +64,6 @@ nReceived
 function
 handler
 (
-event
 )
 {
 if

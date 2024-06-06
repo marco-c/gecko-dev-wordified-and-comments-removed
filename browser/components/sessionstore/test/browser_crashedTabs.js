@@ -270,7 +270,6 @@ AboutTabCrashedReady
 function
 ready
 (
-e
 )
 {
 browser

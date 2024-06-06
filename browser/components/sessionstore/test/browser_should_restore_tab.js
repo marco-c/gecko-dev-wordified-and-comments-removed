@@ -105,8 +105,6 @@ false
 function
 topicObserver
 (
-_
-topic
 )
 {
 notified

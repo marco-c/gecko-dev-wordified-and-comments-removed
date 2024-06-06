@@ -360,7 +360,6 @@ SSTabRestored
 function
 sstabrestoredListener
 (
-aEvent
 )
 {
 +

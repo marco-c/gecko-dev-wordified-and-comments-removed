@@ -336,8 +336,6 @@ function
 (
 aBrowser
 aNeedRestore
-aRestoring
-aRestored
 )
 {
 if
