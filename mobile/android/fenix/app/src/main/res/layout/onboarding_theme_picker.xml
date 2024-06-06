@@ -1299,7 +1299,7 @@ android
 layout_width
 =
 "
-wrap_content
+0dp
 "
 android
 :
@@ -1341,6 +1341,15 @@ layout_constraintStart_toEndOf
 id
 /
 theme_automatic_radio_button
+"
+app
+:
+layout_constraintEnd_toEndOf
+=
+"
+id
+/
+clickable_region_automatic
 "
 app
 :
