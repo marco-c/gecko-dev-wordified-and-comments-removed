@@ -301,7 +301,6 @@ forcedisablewebrender
 "
 1
 )
-;
 }
 }
 if
