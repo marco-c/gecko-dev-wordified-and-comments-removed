@@ -109,14 +109,11 @@ sync
 feature
 *
 /
+const
 val
 syncedTabs
 =
-Config
-.
-channel
-.
-isNightlyOrDebug
+true
 /
 *
 *
