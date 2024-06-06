@@ -289,8 +289,6 @@ g
 .
 tokens
 .
-leanplum_token
-.
 adjust_token
 .
 sentry_token

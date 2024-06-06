@@ -2293,8 +2293,6 @@ are
 -
 Sentry
 -
-Leanplum
--
 Adjust
 -
 Mozilla
