@@ -1862,8 +1862,7 @@ name
 preference_leakcanary
 "
 >
-Leak
-Canary
+LeakCanary
 <
 /
 string
