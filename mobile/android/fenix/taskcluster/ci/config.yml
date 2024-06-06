@@ -221,6 +221,8 @@ parameters
 :
 '
 fenix_taskgraph
+.
+parameters
 :
 get_decision_parameters
 '
@@ -454,3 +456,18 @@ mobile
 fenix
 :
 releng
+release
+-
+promotion
+:
+flavors
+:
+ship
+:
+target
+-
+tasks
+-
+method
+:
+release

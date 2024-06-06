@@ -756,7 +756,7 @@ config
 params
 [
 "
-release_version
+version
 "
 ]
 )
