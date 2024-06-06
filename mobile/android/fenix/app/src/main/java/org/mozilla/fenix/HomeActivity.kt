@@ -4953,6 +4953,8 @@ base
 Context
 )
 {
+base
+.
 components
 .
 strictMode
