@@ -2847,7 +2847,7 @@ jsonRating
 optInt
 (
 "
-count
+text_count
 "
 )
 average

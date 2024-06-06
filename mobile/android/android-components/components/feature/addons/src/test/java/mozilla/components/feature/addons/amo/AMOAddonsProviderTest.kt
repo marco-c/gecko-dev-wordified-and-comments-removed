@@ -1050,7 +1050,7 @@ average
 )
 assertEquals
 (
-13324
+4433
 addon
 .
 rating
@@ -4389,7 +4389,7 @@ average
 )
 assertEquals
 (
-15799
+4101
 addon
 .
 rating
