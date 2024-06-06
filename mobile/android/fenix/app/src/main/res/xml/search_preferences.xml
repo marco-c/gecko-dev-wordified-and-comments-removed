@@ -248,13 +248,6 @@ iconSpaceReserved
 "
 false
 "
-app
-:
-allowDividerAbove
-=
-"
-true
-"
 android
 :
 layout

@@ -133,13 +133,6 @@ androidx
 preference
 .
 Preference
-app
-:
-allowDividerBelow
-=
-"
-false
-"
 android
 :
 key
@@ -223,7 +216,7 @@ layout
 "
 layout
 /
-preference_category_main_style
+preference_cat_style
 "
 >
 <
@@ -421,7 +414,7 @@ layout
 "
 layout
 /
-preference_category_main_style
+preference_cat_style
 "
 >
 <
@@ -710,7 +703,7 @@ layout
 "
 layout
 /
-preference_category_main_style
+preference_cat_style
 "
 >
 <
@@ -1000,7 +993,7 @@ layout
 "
 layout
 /
-preference_category_main_style
+preference_cat_style
 "
 >
 <
@@ -1290,7 +1283,7 @@ layout
 "
 layout
 /
-preference_category_main_style
+preference_cat_style
 "
 >
 <
