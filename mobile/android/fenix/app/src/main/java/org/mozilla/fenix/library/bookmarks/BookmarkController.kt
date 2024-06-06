@@ -435,9 +435,11 @@ true
 BrowserDirection
 .
 FromBookmarks
-BrowsingMode
+activity
 .
-Normal
+browsingModeManager
+.
+mode
 )
 }
 override
