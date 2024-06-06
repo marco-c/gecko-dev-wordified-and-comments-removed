@@ -183,6 +183,9 @@ Tab
 fun
 onNewTabTapped
 (
+private
+:
+Boolean
 )
 }
 private
@@ -371,6 +374,7 @@ interactor
 .
 onNewTabTapped
 (
+private
 )
 }
 override

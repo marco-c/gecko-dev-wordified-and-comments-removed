@@ -177,9 +177,8 @@ android
 backgroundTint
 =
 "
-color
-/
-photonBlue50
+?
+accent
 "
 android
 :
