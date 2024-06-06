@@ -80,9 +80,6 @@ gradlew
 '
 detekt
 '
-'
-githubLintDetektDetails
-'
 ]
 use
 -
@@ -474,7 +471,6 @@ gradlew
 :
 [
 detekt
-githubLintDetektDetails
 '
 mozilla
 -

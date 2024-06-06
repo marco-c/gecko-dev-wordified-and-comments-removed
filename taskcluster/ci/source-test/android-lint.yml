@@ -80,9 +80,6 @@ gradlew
 '
 lint
 '
-'
-githubLintAndroidDetails
-'
 ]
 use
 -
@@ -399,9 +396,6 @@ gradlew
 [
 '
 lintDebug
-'
-'
-githubLintAndroidDetails
 '
 '
 mozilla

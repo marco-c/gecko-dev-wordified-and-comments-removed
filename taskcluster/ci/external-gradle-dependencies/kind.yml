@@ -497,13 +497,9 @@ components
 -
 lint
 -
-githubLintAndroidDetails
--
 ktlint
 -
 detekt
--
-githubLintDetektDetails
 resources
 :
 #
@@ -569,13 +565,9 @@ fenix
 -
 lint
 -
-githubLintAndroidDetails
--
 ktlint
 -
 detekt
--
-githubLintDetektDetails
 -
 mozilla
 -
