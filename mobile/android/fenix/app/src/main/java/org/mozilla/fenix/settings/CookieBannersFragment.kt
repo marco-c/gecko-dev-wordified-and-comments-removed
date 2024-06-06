@@ -284,7 +284,7 @@ R
 .
 string
 .
-pref_key_cookie_banner
+pref_key_cookie_banner_v1
 )
 .
 apply

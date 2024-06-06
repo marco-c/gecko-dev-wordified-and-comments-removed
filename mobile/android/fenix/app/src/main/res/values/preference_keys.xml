@@ -2461,7 +2461,7 @@ string
 name
 =
 "
-pref_key_cookie_banner
+pref_key_cookie_banner_v1
 "
 translatable
 =
@@ -2469,7 +2469,7 @@ translatable
 false
 "
 >
-pref_key_cookie_banner
+pref_key_cookie_banner_v1
 <
 /
 string
