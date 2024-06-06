@@ -248,7 +248,7 @@ R
 .
 string
 .
-onboarding_private_browsing_description
+onboarding_private_browsing_description1
 )
 )
 .
