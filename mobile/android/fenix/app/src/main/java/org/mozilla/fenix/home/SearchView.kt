@@ -130,6 +130,9 @@ R
 drawable
 .
 home_search_background_light
+context
+.
+theme
 )
 private
 val
@@ -144,6 +147,9 @@ R
 drawable
 .
 home_search_background_private
+context
+.
+theme
 )
 private
 val
@@ -158,6 +164,9 @@ R
 drawable
 .
 home_search_background_dark
+context
+.
+theme
 )
 private
 val
@@ -172,6 +181,9 @@ R
 drawable
 .
 home_search_background_private_dark
+context
+.
+theme
 )
 private
 val
@@ -186,6 +198,9 @@ R
 drawable
 .
 home_search_background_dark_no_border
+context
+.
+theme
 )
 private
 val
@@ -200,6 +215,9 @@ R
 drawable
 .
 home_search_background_private_dark_no_border
+context
+.
+theme
 )
 private
 val
