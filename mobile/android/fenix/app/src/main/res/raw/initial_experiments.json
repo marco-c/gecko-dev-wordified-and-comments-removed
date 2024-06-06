@@ -367,6 +367,11 @@ featureValidationOptOut
 "
 :
 false
+"
+localizations
+"
+:
+null
 }
 {
 "
@@ -854,6 +859,11 @@ featureValidationOptOut
 "
 :
 false
+"
+localizations
+"
+:
+null
 }
 {
 "
@@ -1240,6 +1250,11 @@ featureValidationOptOut
 "
 :
 false
+"
+localizations
+"
+:
+null
 }
 ]
 }
