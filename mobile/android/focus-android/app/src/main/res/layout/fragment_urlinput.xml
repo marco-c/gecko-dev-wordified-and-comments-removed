@@ -690,11 +690,9 @@ android
 background
 =
 "
-android
-:
-color
+drawable
 /
-transparent
+background_gradient
 "
 android
 :
