@@ -188,7 +188,7 @@ craft_assemble_release_task
 (
 self
 architectures
-track
+channel
 is_staging
 version_name
 )
@@ -250,7 +250,7 @@ arch
 }
 /
 {
-track
+channel
 }
 /
 app
@@ -260,7 +260,7 @@ arch
 }
 -
 {
-track
+channel
 }
 -
 unsigned
@@ -273,9 +273,9 @@ format
 arch
 =
 arch
-track
+channel
 =
-track
+channel
 )
                 
 "
@@ -336,7 +336,7 @@ name
 )
             
 elif
-track
+channel
 =
 =
 '
@@ -381,7 +381,7 @@ fenix
 .
 format
 (
-track
+channel
 name
 )
         
@@ -496,11 +496,11 @@ adjust_token
         
 )
         
-capitalized_track
+capitalized_channel
 =
 upper_case_first_letter
 (
-track
+channel
 )
         
 gradle_commands
@@ -532,7 +532,7 @@ format
 (
                 
 version_name
-capitalized_track
+capitalized_channel
 )
         
 )
@@ -614,7 +614,7 @@ task
 .
 format
 (
-capitalized_track
+capitalized_channel
 )
             
 description
@@ -631,7 +631,7 @@ code
 .
 format
 (
-capitalized_track
+capitalized_channel
 )
             
 command
@@ -717,7 +717,7 @@ A
 .
 format
 (
-track
+channel
 )
                 
 '
@@ -2926,17 +2926,17 @@ craft_release_signing_task
 self
 build_task_id
 apk_paths
-track
+channel
 is_staging
     
 )
 :
         
-capitalized_track
+capitalized_channel
 =
 upper_case_first_letter
 (
-track
+channel
 )
         
 staging_prefix
@@ -2987,7 +2987,7 @@ format
 (
                 
 staging_prefix
-track
+channel
 self
 .
 date
@@ -3041,7 +3041,7 @@ format
 (
                 
 staging_prefix
-track
+channel
 self
 .
 date
@@ -3085,7 +3085,7 @@ latest
 format
 (
 staging_prefix
-track
+channel
 )
         
 ]
@@ -3107,7 +3107,7 @@ task
 .
 format
 (
-capitalized_track
+capitalized_channel
 )
             
 description
@@ -3123,7 +3123,7 @@ Fenix
 .
 format
 (
-capitalized_track
+capitalized_channel
 )
             
 signing_type
@@ -3134,7 +3134,7 @@ dep
 if
 is_staging
 else
-track
+channel
             
 assemble_task_id
 =
@@ -3191,7 +3191,7 @@ s
 .
 format
 (
-track
+channel
 )
                 
 '
@@ -3211,7 +3211,7 @@ craft_push_task
 self
 signing_task_id
 apks
-track
+channel
 is_staging
 =
 False
@@ -3230,10 +3230,10 @@ commit
 True
             
 "
-google_play_track
+channel
 "
 :
-track
+channel
             
 "
 certificate_alias
@@ -3254,7 +3254,7 @@ fenix
 .
 format
 (
-track
+channel
 )
             
 "
@@ -3447,7 +3447,7 @@ gp
 .
 format
 (
-track
+channel
 )
                 
 '
