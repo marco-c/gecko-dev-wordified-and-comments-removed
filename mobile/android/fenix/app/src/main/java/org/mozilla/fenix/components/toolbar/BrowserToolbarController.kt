@@ -1062,6 +1062,8 @@ BrowserFragmentDirections
 .
 actionGlobalHome
 (
+sessionToDelete
+=
 it
 .
 id

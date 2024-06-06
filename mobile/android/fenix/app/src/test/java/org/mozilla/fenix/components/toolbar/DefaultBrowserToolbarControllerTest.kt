@@ -3020,6 +3020,8 @@ BrowserFragmentDirections
 .
 actionGlobalHome
 (
+sessionToDelete
+=
 "
 1
 "
