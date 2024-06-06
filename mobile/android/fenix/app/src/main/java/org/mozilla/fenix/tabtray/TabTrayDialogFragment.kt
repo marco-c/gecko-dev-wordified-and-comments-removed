@@ -1929,7 +1929,7 @@ invoke
 _tabTrayView
 ?
 .
-scrollToTab
+scrollToSelectedBrowserTab
 (
 tab
 .
