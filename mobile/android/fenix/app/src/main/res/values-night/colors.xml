@@ -1559,7 +1559,7 @@ accent_high_contrast_normal_theme
 >
 color
 /
-accent_high_contrast_dark_theme
+photonViolet40
 <
 /
 color
@@ -1678,7 +1678,7 @@ accent_on_dark_background_normal_theme
 >
 color
 /
-accent_high_contrast_dark_theme
+photonViolet40
 <
 /
 color
@@ -1826,7 +1826,7 @@ onboarding_card_background_end_gradient_normal_theme
 >
 color
 /
-accent_high_contrast_dark_theme
+photonViolet40
 <
 /
 color
@@ -1945,7 +1945,7 @@ select_login_header_normal_theme
 >
 color
 /
-accent_high_contrast_dark_theme
+photonViolet40
 <
 /
 color
@@ -1960,7 +1960,7 @@ select_credit_card_header_normal_theme
 >
 color
 /
-accent_high_contrast_dark_theme
+photonViolet40
 <
 /
 color
@@ -1975,7 +1975,7 @@ menu_item_button_normal_theme
 >
 color
 /
-accent_high_contrast_dark_theme
+photonViolet40
 <
 /
 color
