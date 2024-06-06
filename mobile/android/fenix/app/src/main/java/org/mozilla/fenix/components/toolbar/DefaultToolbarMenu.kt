@@ -2239,9 +2239,7 @@ SyncAccount
 (
 accountManager
 .
-signedInToFxa
-(
-)
+accountState
 )
 )
 }
