@@ -435,14 +435,6 @@ paddingEnd
 "
 android
 :
-textColor
-=
-"
-?
-primaryText
-"
-android
-:
 textSize
 =
 "
@@ -467,8 +459,9 @@ app
 iconTint
 =
 "
-?
-primaryText
+color
+/
+button_text_color
 "
 tools
 :
