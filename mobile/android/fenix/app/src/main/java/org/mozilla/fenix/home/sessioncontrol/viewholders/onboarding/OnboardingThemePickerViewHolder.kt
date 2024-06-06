@@ -141,16 +141,6 @@ fenix
 .
 ext
 .
-asActivity
-import
-org
-.
-mozilla
-.
-fenix
-.
-ext
-.
 components
 import
 org

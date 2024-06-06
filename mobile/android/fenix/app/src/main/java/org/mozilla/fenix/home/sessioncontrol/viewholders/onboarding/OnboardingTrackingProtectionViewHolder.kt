@@ -316,11 +316,8 @@ settings
 trackingProtectionPolicy
 =
 policy
-with
-(
 sessionManager
-)
-{
+.
 sessions
 .
 forEach
@@ -329,6 +326,8 @@ if
 (
 enabled
 )
+sessionManager
+.
 getEngineSession
 (
 it
@@ -340,6 +339,8 @@ enableTrackingProtection
 policy
 )
 else
+sessionManager
+.
 getEngineSession
 (
 it
@@ -349,7 +350,6 @@ it
 disableTrackingProtection
 (
 )
-}
 }
 }
 view
