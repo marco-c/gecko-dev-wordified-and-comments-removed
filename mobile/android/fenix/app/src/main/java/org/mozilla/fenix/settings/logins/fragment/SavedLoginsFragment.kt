@@ -895,10 +895,6 @@ setOnClickListener
 (
 null
 )
-setHasOptionsMenu
-(
-false
-)
 redirectToReAuth
 (
 listOf

@@ -1786,11 +1786,6 @@ R
 .
 id
 .
-loginDetailFragment
-R
-.
-id
-.
 savedLoginsFragment
 )
 findNavController
@@ -1805,7 +1800,7 @@ R
 .
 id
 .
-editLoginFragment
+addLoginFragment
 )
 super
 .
