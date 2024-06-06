@@ -598,6 +598,7 @@ val
 showTabTray
 :
 (
+Boolean
 )
 -
 >
@@ -1025,6 +1026,9 @@ mode
 )
 showTabTray
 (
+mode
+.
+isPrivate
 )
 }
 private
@@ -1211,6 +1215,9 @@ Private
 )
 showTabTray
 (
+mode
+.
+isPrivate
 )
 }
 /
