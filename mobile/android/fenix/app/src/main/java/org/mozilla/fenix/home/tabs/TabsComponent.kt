@@ -141,6 +141,11 @@ ViewGroup
 bus
 :
 ActionBusFactory
+private
+val
+isPrivate
+:
+Boolean
 override
 var
 initialState
@@ -236,6 +241,7 @@ TabsUIView
 (
 container
 actionEmitter
+isPrivate
 changesObservable
 )
 init

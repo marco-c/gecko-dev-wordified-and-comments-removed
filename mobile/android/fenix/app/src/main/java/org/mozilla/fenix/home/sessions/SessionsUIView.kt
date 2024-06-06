@@ -142,6 +142,9 @@ Observer
 <
 SessionsAction
 >
+isPrivate
+:
+Boolean
 changesObservable
 :
 Observable
@@ -217,6 +220,16 @@ container
 .
 context
 )
+sessionsAdapter
+.
+isPrivate
+=
+isPrivate
+sessionsAdapter
+.
+context
+=
+context
 adapter
 =
 sessionsAdapter

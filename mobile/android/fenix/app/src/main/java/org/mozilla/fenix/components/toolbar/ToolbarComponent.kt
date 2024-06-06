@@ -193,6 +193,11 @@ sessionId
 :
 String
 ?
+private
+val
+isPrivate
+:
+Boolean
 override
 var
 initialState
@@ -285,6 +290,7 @@ initView
 ToolbarUIView
 (
 sessionId
+isPrivate
 container
 actionEmitter
 changesObservable

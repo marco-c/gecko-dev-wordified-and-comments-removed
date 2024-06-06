@@ -224,6 +224,11 @@ recreate
 )
 }
 }
+lateinit
+var
+browsingModeManager
+:
+DefaultBrowsingModeManager
 override
 fun
 onCreate
@@ -239,6 +244,12 @@ super
 onCreate
 (
 savedInstanceState
+)
+browsingModeManager
+=
+DefaultBrowsingModeManager
+(
+this
 )
 setContentView
 (
@@ -552,6 +563,9 @@ NavGraphDirections
 actionGlobalBrowser
 (
 sessionId
+browsingModeManager
+.
+isPrivate
 )
 host
 .

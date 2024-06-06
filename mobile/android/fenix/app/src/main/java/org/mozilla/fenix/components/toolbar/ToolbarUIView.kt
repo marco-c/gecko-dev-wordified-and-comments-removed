@@ -177,6 +177,9 @@ sessionId
 :
 String
 ?
+isPrivate
+:
+Boolean
 container
 :
 ViewGroup
@@ -479,6 +482,7 @@ core
 .
 sessionManager
 sessionId
+isPrivate
 )
 }
 }

@@ -240,6 +240,9 @@ Observer
 <
 TabsAction
 >
+isPrivate
+:
+Boolean
 changesObservable
 :
 Observable
@@ -383,6 +386,7 @@ HomeFragmentDirections
 actionHomeFragmentToSearchFragment
 (
 null
+isPrivate
 )
 Navigation
 .

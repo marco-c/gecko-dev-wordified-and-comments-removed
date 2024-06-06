@@ -533,6 +533,7 @@ SettingsFragmentDirections
 actionGlobalBrowser
 (
 null
+false
 )
 )
 }
