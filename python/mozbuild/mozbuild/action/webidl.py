@@ -48,6 +48,15 @@ __main__
 "
 :
     
+import
+gc
+    
+gc
+.
+disable
+(
+)
+    
 sys
 .
 exit
