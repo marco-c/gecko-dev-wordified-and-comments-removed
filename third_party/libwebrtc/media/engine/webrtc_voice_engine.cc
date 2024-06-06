@@ -2406,15 +2406,7 @@ low_priority_worker_queue_
 )
 ;
 low_priority_worker_queue_
-.
-reset
-(
-new
-rtc
-:
-:
-TaskQueue
-(
+=
 task_queue_factory_
 -
 >
@@ -2437,8 +2429,6 @@ Priority
 :
 :
 LOW
-)
-)
 )
 ;
 RTC_LOG

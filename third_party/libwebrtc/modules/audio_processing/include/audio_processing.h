@@ -1623,7 +1623,11 @@ key_pressed
 =
 0
 ;
-virtual
+[
+[
+deprecated
+]
+]
 bool
 CreateAndAttachAecDump
 (
@@ -1642,7 +1646,11 @@ TaskQueue
 worker_queue
 )
 ;
-virtual
+[
+[
+deprecated
+]
+]
 bool
 CreateAndAttachAecDump
 (
@@ -1680,6 +1688,8 @@ TaskQueueBase
 >
 worker_queue
 )
+=
+0
 ;
 virtual
 bool
@@ -1706,6 +1716,8 @@ TaskQueueBase
 >
 worker_queue
 )
+=
+0
 ;
 virtual
 void
