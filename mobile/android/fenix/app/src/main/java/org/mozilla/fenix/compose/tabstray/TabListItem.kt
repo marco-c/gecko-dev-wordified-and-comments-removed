@@ -1362,7 +1362,7 @@ R
 .
 drawable
 .
-mozac_ic_check
+mozac_ic_checkmark_24
 )
 modifier
 =
