@@ -159,13 +159,6 @@ add
 getSystemDefault
 (
 )
-?
-:
-Locale
-.
-getDefault
-(
-)
 )
 resultLocaleList
 .
@@ -275,13 +268,6 @@ val
 defaultLocale
 =
 getSystemDefault
-(
-)
-?
-:
-Locale
-.
-getDefault
 (
 )
 return
