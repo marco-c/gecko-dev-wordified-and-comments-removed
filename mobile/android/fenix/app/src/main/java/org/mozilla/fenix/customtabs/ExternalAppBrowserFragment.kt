@@ -666,7 +666,7 @@ requireComponents
 .
 core
 .
-webAppManifestStorage
+webAppShortcutManager
 requireComponents
 .
 core
