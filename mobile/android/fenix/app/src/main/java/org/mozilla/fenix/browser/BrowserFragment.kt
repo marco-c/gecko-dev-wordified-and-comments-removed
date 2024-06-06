@@ -1916,7 +1916,7 @@ requestedOrientation
 =
 ActivityInfo
 .
-SCREEN_ORIENTATION_LANDSCAPE
+SCREEN_ORIENTATION_USER_LANDSCAPE
 activity
 ?
 .
