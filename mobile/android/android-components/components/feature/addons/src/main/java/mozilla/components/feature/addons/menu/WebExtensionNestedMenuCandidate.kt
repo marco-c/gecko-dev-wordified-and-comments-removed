@@ -240,7 +240,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_back
+mozac_ic_back_24
 text
 =
 context
@@ -262,7 +262,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_back
+mozac_ic_back_24
 tint
 =
 webExtIconTintColor

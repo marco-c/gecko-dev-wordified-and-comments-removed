@@ -677,7 +677,7 @@ R
 .
 drawable
 .
-mozac_ic_back
+mozac_ic_back_24
 )
 stringResource
 (
