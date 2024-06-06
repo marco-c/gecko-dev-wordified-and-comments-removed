@@ -79,7 +79,13 @@ enum
 value
 ignoring
 case
+and
+replacing
+spaces
+with
+underscores
 .
+*
 If
 the
 string
@@ -89,7 +95,6 @@ match
 any
 of
 the
-*
 enum
 values
 the
@@ -142,6 +147,15 @@ name
 equals
 (
 this
+.
+replace
+(
+"
+"
+"
+_
+"
+)
 ignoreCase
 =
 true

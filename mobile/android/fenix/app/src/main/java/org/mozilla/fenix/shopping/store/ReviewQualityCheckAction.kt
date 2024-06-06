@@ -1197,5 +1197,7 @@ stock
 object
 ReportProductBackInStock
 :
+NetworkAction
+UpdateAction
 TelemetryAction
 }
