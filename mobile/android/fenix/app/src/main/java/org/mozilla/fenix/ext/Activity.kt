@@ -635,11 +635,8 @@ sumoDefaultBrowserUrl
 =
 SupportUtils
 .
-getSumoURLForTopic
+getGenericSumoURLForTopic
 (
-context
-=
-this
 topic
 =
 SupportUtils

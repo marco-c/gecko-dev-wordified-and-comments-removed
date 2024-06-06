@@ -1616,9 +1616,10 @@ searchTermOrURL
 =
 SupportUtils
 .
-getSumoURLForTopic
+getGenericSumoURLForTopic
 (
-activity
+topic
+=
 SupportUtils
 .
 SumoTopic
