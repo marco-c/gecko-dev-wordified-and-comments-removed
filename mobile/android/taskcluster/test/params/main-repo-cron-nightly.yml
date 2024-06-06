@@ -20,10 +20,10 @@ firefox
 android
 base_rev
 :
-aad2e6db380c05b565a5af8f21bc3af3ffb43117
+7e08d74a1f7c69255a36d026bdac18c4a1e1bf9e
 build_date
 :
-1667216189
+1679587282
 build_number
 :
 1
@@ -31,6 +31,9 @@ do_not_optimize
 :
 [
 ]
+enable_always_target
+:
+true
 existing_tasks
 :
 {
@@ -61,7 +64,7 @@ firefox
 android
 head_rev
 :
-aad2e6db380c05b565a5af8f21bc3af3ffb43117
+7e08d74a1f7c69255a36d026bdac18c4a1e1bf9e
 head_tag
 :
 '
@@ -74,9 +77,12 @@ level
 moz_build_date
 :
 '
-20221031113629
+20230323160122
 '
 next_version
+:
+null
+optimize_strategies
 :
 null
 optimize_target_tasks
@@ -121,8 +127,6 @@ tasks_for
 cron
 version
 :
-108
+113
 .
-0
-.
-0
+0a1
