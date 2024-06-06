@@ -672,11 +672,6 @@ onRecentTabClick
 onRecentTabClick
 )
 }
-else
--
->
-{
-}
 }
 }
 }
