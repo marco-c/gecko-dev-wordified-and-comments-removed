@@ -145,9 +145,9 @@ kotlin
 "
 1
 .
-7
+8
 .
-20
+10
 "
 const
 val
@@ -498,9 +498,9 @@ compose_compiler
 "
 1
 .
-3
+4
 .
-2
+3
 "
 object
 AndroidX
