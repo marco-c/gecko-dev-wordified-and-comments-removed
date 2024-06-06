@@ -337,13 +337,13 @@ java
 .
 util
 .
-Date
+Calendar
 import
 java
 .
 util
 .
-Calendar
+Date
 /
 *
 *
@@ -1826,6 +1826,12 @@ dateText
 )
 if
 (
+date
+=
+=
+null
+|
+|
 !
 date
 .
@@ -1834,6 +1840,7 @@ isWithinRangeOf
 hours
 )
 )
+{
 throw
 AssertionError
 (
@@ -1848,6 +1855,7 @@ Range
 .
 "
 )
+}
 }
 else
 {

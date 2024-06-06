@@ -503,9 +503,10 @@ url
 )
 clipboardManager
 .
-primaryClip
-=
+setPrimaryClip
+(
 urlClipData
+)
 with
 (
 snackbar

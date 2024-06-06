@@ -850,11 +850,12 @@ verify
 {
 clipboardManager
 .
-primaryClip
-=
+setPrimaryClip
+(
 capture
 (
 clipdata
+)
 )
 snackbar
 .

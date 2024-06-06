@@ -171,7 +171,9 @@ ResultType
 android
 {
 compileSdkVersion
-28
+Config
+.
+compileSdkVersion
 defaultConfig
 {
 applicationId
