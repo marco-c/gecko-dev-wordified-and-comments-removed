@@ -1611,6 +1611,13 @@ action
 Intent
 .
 ACTION_VIEW
+putExtra
+(
+HomeActivity
+.
+OPEN_TO_BROWSER
+true
+)
 }
 bookmarkTapped
 =

@@ -379,6 +379,19 @@ intentProcessorType
 .
 activityClassName
 )
+if
+(
+!
+intent
+.
+hasExtra
+(
+HomeActivity
+.
+OPEN_TO_BROWSER
+)
+)
+{
 intent
 .
 putExtra
@@ -393,6 +406,7 @@ shouldOpenToBrowser
 intent
 )
 )
+}
 startActivity
 (
 intent
