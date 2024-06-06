@@ -361,8 +361,6 @@ return
 RequestInterceptor
 .
 ErrorResponse
-.
-Uri
 (
 errorPageUri
 )

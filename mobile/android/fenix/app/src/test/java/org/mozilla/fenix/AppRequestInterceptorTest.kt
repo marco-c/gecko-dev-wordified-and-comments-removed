@@ -1192,8 +1192,6 @@ as
 RequestInterceptor
 .
 ErrorResponse
-.
-Uri
 return
 errorPage
 .
