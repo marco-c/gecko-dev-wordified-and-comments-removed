@@ -1048,7 +1048,9 @@ setAutoplayUserSetting
 (
 AUTOPLAY_ALLOW_ON_WIFI
 )
-return
+BLOCKED
+to
+BLOCKED
 }
 AUTOPLAY_BLOCK_AUDIBLE
 -
