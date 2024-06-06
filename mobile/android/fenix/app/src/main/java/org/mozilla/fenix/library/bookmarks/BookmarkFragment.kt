@@ -1783,7 +1783,7 @@ R
 .
 string
 .
-bookmark_deletion_multiple_snackbar_message
+bookmark_deletion_multiple_snackbar_message_2
 )
 }
 else
