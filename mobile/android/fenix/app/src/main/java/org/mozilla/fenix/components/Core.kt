@@ -371,6 +371,11 @@ extras
 (
 it
 )
+.
+remoteDebuggingEnabled
+(
+true
+)
 }
 val
 runtimeSettings
