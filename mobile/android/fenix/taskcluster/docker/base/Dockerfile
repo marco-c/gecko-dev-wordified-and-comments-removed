@@ -957,6 +957,10 @@ install
 upgrade
 pip
 RUN
+pip
+install
+taskcluster
+RUN
 locale
 -
 gen

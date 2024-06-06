@@ -16,5 +16,4 @@ com
 RUN
 pip
 install
-taskcluster
 requests
