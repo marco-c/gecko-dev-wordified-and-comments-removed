@@ -151,6 +151,12 @@ androidx
 .
 navigation
 .
+NavDirections
+import
+androidx
+.
+navigation
+.
 fragment
 .
 NavHostFragment
@@ -1659,6 +1665,14 @@ getNavDirections
 from
 customTabSessionId
 )
+if
+(
+directions
+!
+=
+null
+)
+{
 navHost
 .
 navController
@@ -1668,6 +1682,7 @@ nav
 fragmentId
 directions
 )
+}
 }
 protected
 open
@@ -1682,6 +1697,9 @@ customTabSessionId
 String
 ?
 )
+:
+NavDirections
+?
 =
 when
 (
