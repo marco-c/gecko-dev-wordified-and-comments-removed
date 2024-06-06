@@ -197,6 +197,8 @@ store
 =
 ReviewQualityCheckStore
 (
+middleware
+=
 emptyList
 (
 )
@@ -306,6 +308,8 @@ store
 =
 ReviewQualityCheckStore
 (
+middleware
+=
 emptyList
 (
 )
