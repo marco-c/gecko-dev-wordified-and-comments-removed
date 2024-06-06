@@ -618,7 +618,7 @@ assertEquals
 (
 apiStory
 .
-flightId
+id
 result
 .
 id

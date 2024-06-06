@@ -392,7 +392,7 @@ SpocEntity
 (
 id
 =
-flightId
+id
 url
 =
 url

@@ -86,7 +86,7 @@ endpoint
 *
 *
 property
-flightId
+id
 Unique
 id
 of
@@ -240,7 +240,7 @@ class
 ApiSpoc
 (
 val
-flightId
+id
 :
 Int
 val
