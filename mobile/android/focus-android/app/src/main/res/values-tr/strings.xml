@@ -2349,7 +2349,7 @@ Settings
 category
 ;
 the
-three
+two
 things
 users
 can
@@ -2365,14 +2365,13 @@ string
 name
 =
 "
-preference_general_summary
+preference_general_summary2
 "
 >
 Varsay
 lan
 taray
 c
-sekmeler
 dil
 <
 /
@@ -3991,8 +3990,7 @@ preference_privacy_should_block_cookies_third_party_only_option
 >
 Yaln
 zca
-3
-.
+nc
 taraf
 erezlerini
 engelle
