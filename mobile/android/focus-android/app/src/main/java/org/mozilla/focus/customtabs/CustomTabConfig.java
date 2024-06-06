@@ -830,7 +830,7 @@ getBooleanExtra
 CustomTabsIntent
 .
 EXTRA_DEFAULT_SHARE_MENU_ITEM
-false
+true
 )
 ;
 final
