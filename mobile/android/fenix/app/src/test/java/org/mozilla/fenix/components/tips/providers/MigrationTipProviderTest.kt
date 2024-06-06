@@ -489,7 +489,7 @@ R
 .
 string
 .
-tip_firefox_preview_moved_button
+tip_firefox_preview_moved_button_2
 )
 button
 .
