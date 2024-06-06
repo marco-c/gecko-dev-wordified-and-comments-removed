@@ -118,7 +118,7 @@ centerColor
 "
 color
 /
-colorInactiveGradientCenter
+colorActiveGradientCenter
 "
 android
 :
@@ -127,7 +127,7 @@ endColor
 "
 color
 /
-colorInactiveGradientEnd
+colorActiveGradientEnd
 "
 android
 :
@@ -136,7 +136,7 @@ startColor
 "
 color
 /
-coloInactiveGradientStart
+colorActiveGradientStart
 "
 /
 >
