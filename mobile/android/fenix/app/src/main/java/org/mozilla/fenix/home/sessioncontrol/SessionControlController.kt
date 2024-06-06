@@ -297,14 +297,6 @@ mozilla
 .
 fenix
 .
-FeatureFlags
-import
-org
-.
-mozilla
-.
-fenix
-.
 HomeActivity
 import
 org
@@ -2300,13 +2292,6 @@ handleShowOnboardingDialog
 (
 )
 {
-if
-(
-FeatureFlags
-.
-showHomeOnboarding
-)
-{
 navController
 .
 nav
@@ -2322,7 +2307,6 @@ actionGlobalHomeOnboardingDialog
 (
 )
 )
-}
 }
 override
 fun

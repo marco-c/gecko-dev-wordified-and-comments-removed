@@ -364,7 +364,7 @@ text
 "
 string
 /
-onboarding_home_screen_title
+onboarding_home_screen_title_2
 "
 android
 :
@@ -478,7 +478,7 @@ text
 "
 string
 /
-onboarding_home_screen_description
+onboarding_home_screen_description_2
 "
 app
 :
@@ -660,7 +660,7 @@ text
 "
 string
 /
-onboarding_home_screen_section_home_title
+onboarding_home_screen_section_home_title_2
 "
 android
 :
@@ -829,7 +829,7 @@ text
 "
 string
 /
-onboarding_home_screen_section_home_description
+onboarding_home_screen_section_home_description_2
 "
 android
 :
@@ -1023,7 +1023,7 @@ text
 "
 string
 /
-onboarding_home_screen_section_cleaner_tab_tray_title
+onboarding_home_screen_section_cleaner_tab_tray_title_2
 "
 android
 :
@@ -1192,7 +1192,7 @@ text
 "
 string
 /
-onboarding_home_screen_section_cleaner_tab_tray_description
+onboarding_home_screen_section_cleaner_tab_tray_description_2
 "
 android
 :
@@ -1386,7 +1386,7 @@ text
 "
 string
 /
-onboarding_home_screen_section_useful_history_title
+onboarding_home_screen_section_useful_history_title_2
 "
 android
 :
@@ -1555,7 +1555,7 @@ text
 "
 string
 /
-onboarding_home_screen_section_useful_history_description
+onboarding_home_screen_section_useful_history_description_2
 "
 android
 :
