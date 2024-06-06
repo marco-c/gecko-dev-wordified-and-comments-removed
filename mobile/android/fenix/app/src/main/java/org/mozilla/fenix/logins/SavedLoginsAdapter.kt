@@ -158,7 +158,9 @@ context
 .
 inflate
 (
-viewType
+SavedLoginsListItemViewHolder
+.
+LAYOUT_ID
 parent
 false
 )
