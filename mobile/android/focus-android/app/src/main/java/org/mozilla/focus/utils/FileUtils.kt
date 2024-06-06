@@ -47,6 +47,18 @@ chromium
 .
 android_webview
 "
+private
+const
+val
+SENTRY_CACHE_DIR
+=
+"
+sentry
+-
+buffered
+-
+events
+"
 class
 FileUtils
 {
@@ -72,6 +84,7 @@ doNotEraseWhitelist
 setOf
 (
 WEBVIEW_CACHE_DIR
+SENTRY_CACHE_DIR
 )
 )
 JvmStatic
