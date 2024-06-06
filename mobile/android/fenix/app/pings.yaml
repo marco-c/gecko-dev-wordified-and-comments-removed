@@ -189,9 +189,9 @@ issuecomment
 notification_emails
 :
 -
-fenix
+android
 -
-core
+probes
 mozilla
 .
 com
@@ -269,9 +269,9 @@ issuecomment
 notification_emails
 :
 -
-fenix
+android
 -
-core
+probes
 mozilla
 .
 com
