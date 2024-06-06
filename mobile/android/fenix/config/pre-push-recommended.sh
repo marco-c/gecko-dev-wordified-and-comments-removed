@@ -141,9 +141,9 @@ detekt
 \
 assembleGeckoBetaDebug
 \
-testGeckoBetaDebug
-\
 assembleGeckoBetaDebugAndroidTest
+\
+testGeckoBetaDebug
 #
 Tasks
 omitted
