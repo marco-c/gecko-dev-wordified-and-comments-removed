@@ -1885,15 +1885,6 @@ Snackbar
 LENGTH_SHORT
 )
 .
-setAnchorView
-(
-toolbarComponent
-.
-uiView
-.
-view
-)
-.
 setText
 (
 getString
