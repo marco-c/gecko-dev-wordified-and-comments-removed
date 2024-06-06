@@ -178,10 +178,12 @@ getChangePayload
 topSite
 topSite2
 )
-TopSitesAdapter
+topSite
 .
-TopSitePayload
+copy
 (
+title
+=
 "
 Title2
 "
