@@ -91,14 +91,6 @@ annotation
 .
 VisibleForTesting
 import
-androidx
-.
-constraintlayout
-.
-widget
-.
-ConstraintLayout
-import
 com
 .
 google
@@ -268,7 +260,7 @@ behavior
 :
 BottomSheetBehavior
 <
-ConstraintLayout
+View
 >
 orientation
 :
@@ -494,7 +486,7 @@ behavior
 :
 BottomSheetBehavior
 <
-ConstraintLayout
+View
 >
 get
 :
