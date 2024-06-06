@@ -846,9 +846,16 @@ java
 )
 as
 Status
+?
 if
 (
 download
+!
+=
+null
+&
+&
+downloadStatus
 !
 =
 null
