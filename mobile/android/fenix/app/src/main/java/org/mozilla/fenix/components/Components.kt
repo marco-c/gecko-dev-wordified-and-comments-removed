@@ -183,4 +183,14 @@ Analytics
 context
 )
 }
+val
+storage
+by
+lazy
+{
+Storage
+(
+context
+)
+}
 }
