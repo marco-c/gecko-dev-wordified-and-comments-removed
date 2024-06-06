@@ -349,6 +349,12 @@ addObserver
 (
 lockObserver
 )
+components
+.
+migrateTrackingProtectionExceptions
+(
+this
+)
 }
 }
 private
