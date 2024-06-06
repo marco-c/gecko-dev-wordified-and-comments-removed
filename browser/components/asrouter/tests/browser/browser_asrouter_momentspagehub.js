@@ -151,11 +151,7 @@ asrouter
 .
 providers
 .
-whats
--
-new
--
-panel
+cfr
 "
 {
 "

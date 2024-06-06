@@ -100,9 +100,6 @@ milestone_message
 update_action
 :
 1
-whatsnew_panel_message
-:
-7
 spotlight
 :
 3

@@ -936,12 +936,12 @@ false
 *
 *
 *
-ToolbarBadgeHub
+MomentsPageHub
 -
 singleton
 instance
 of
-_ToolbarBadgeHub
+_MomentsPageHub
 that
 can
 initiate
