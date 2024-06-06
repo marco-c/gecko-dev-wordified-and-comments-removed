@@ -155,6 +155,16 @@ mozilla
 .
 focus
 .
+ext
+.
+titleOrDomain
+import
+org
+.
+mozilla
+.
+focus
+.
 menu
 .
 ToolbarMenu
@@ -443,7 +453,7 @@ state
 .
 content
 .
-title
+titleOrDomain
 url
 =
 state
