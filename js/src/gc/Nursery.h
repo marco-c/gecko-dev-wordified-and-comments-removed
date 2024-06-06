@@ -2914,6 +2914,9 @@ gc
 MallocedBlockCache
 mallocedBlockCache_
 ;
+bool
+tenuredEverything
+;
 friend
 class
 gc

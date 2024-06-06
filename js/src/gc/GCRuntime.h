@@ -5881,7 +5881,13 @@ MainThreadData
 <
 LifoAlloc
 >
-lifoBlocksToFreeAfterMinorGC
+lifoBlocksToFreeAfterFullMinorGC
+;
+MainThreadData
+<
+LifoAlloc
+>
+lifoBlocksToFreeAfterNextMinorGC
 ;
 HelperThreadLockData
 <
