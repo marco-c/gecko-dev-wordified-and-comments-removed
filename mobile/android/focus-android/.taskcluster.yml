@@ -266,6 +266,13 @@ fromNow
 hours
 '
 }
+schedulerId
+:
+mobile
+-
+level
+-
+1
 provisionerId
 :
 mobile
@@ -849,6 +856,13 @@ fromNow
 hours
 '
 }
+schedulerId
+:
+mobile
+-
+level
+-
+3
 provisionerId
 :
 mobile
