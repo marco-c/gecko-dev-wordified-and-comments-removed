@@ -94,6 +94,8 @@ transforms
 jobs
 :
 x86
+-
+debug
 :
 attributes
 :
@@ -125,6 +127,8 @@ signing
 android
 -
 test
+-
+debug
 description
 :
 Test
