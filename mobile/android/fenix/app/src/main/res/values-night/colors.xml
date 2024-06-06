@@ -210,7 +210,7 @@ inset_normal_theme
 >
 color
 /
-inset_dark_theme
+photonDarkGrey50
 <
 /
 color
@@ -1338,7 +1338,7 @@ search_widget_background
 >
 color
 /
-inset_dark_theme
+inset_normal_theme
 <
 /
 color
