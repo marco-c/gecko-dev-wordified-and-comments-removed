@@ -134,4 +134,11 @@ TabCollection
 >
 (
 )
+var
+selectedTabCollection
+:
+TabCollection
+?
+=
+null
 }
