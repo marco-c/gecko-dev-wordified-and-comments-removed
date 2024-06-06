@@ -792,7 +792,6 @@ EditBookmarkFragmentDirections
 .
 actionBookmarkEditFragmentToBookmarkSelectFolderFragment
 (
-null
 )
 )
 }

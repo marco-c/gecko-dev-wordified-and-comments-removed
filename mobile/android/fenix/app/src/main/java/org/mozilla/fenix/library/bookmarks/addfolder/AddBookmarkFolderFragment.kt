@@ -481,11 +481,6 @@ AddBookmarkFolderFragmentDirections
 .
 actionBookmarkAddFolderFragmentToBookmarkSelectFolderFragment
 (
-BookmarkRoot
-.
-Root
-.
-id
 true
 )
 )
