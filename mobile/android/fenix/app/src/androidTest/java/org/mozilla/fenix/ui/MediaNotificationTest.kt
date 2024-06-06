@@ -586,7 +586,7 @@ openNotification
 )
 notificationShade
 {
-verifySystemNotificationGone
+verifySystemNotificationDoesNotExist
 (
 videoTestPage
 .
@@ -712,7 +712,7 @@ openNotification
 )
 notificationShade
 {
-verifySystemNotificationGone
+verifySystemNotificationDoesNotExist
 (
 audioTestPage
 .
@@ -865,7 +865,7 @@ openNotification
 )
 notificationShade
 {
-verifySystemNotificationGone
+verifySystemNotificationDoesNotExist
 (
 "
 A
