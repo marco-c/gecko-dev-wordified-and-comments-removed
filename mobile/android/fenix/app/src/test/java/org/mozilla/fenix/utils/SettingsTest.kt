@@ -977,7 +977,7 @@ created
 /
 /
 Then
-assertTrue
+assertFalse
 (
 settings
 .

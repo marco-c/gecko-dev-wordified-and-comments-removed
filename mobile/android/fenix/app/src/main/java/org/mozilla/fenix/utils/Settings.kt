@@ -1625,7 +1625,7 @@ pref_key_show_search_shortcuts
 )
 default
 =
-true
+false
 )
 val
 shouldUseDarkTheme
