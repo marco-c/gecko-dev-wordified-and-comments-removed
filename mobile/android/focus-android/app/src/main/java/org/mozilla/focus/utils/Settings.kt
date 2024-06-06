@@ -325,6 +325,13 @@ context
 fun
 createTrackingProtectionPolicy
 (
+shouldBlockCookiesValue
+:
+String
+=
+shouldBlockCookiesValue
+(
+)
 )
 :
 EngineSession
@@ -439,8 +446,6 @@ cookiePolicy
 when
 (
 shouldBlockCookiesValue
-(
-)
 )
 {
 context
