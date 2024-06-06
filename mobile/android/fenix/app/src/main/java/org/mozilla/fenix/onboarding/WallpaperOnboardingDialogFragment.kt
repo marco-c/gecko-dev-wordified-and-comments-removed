@@ -538,7 +538,7 @@ availableWallpapers
 .
 take
 (
-THUMBNAILS_COUNT
+THUMBNAILS_SELECTION_COUNT
 )
 }
 .
@@ -721,7 +721,7 @@ object
 {
 const
 val
-THUMBNAILS_COUNT
+THUMBNAILS_SELECTION_COUNT
 =
 6
 }
