@@ -2011,15 +2011,6 @@ PerformedSearch
 SearchAccessPoint
 .
 ACTION
-activity
-.
-settings
-(
-)
-.
-incrementActiveSearchCount
-(
-)
 searchAccessPoint
 .
 let

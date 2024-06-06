@@ -652,11 +652,6 @@ false
 }
 else
 {
-settings
-.
-incrementActiveSearchCount
-(
-)
 val
 searchAccessPoint
 =
@@ -922,11 +917,6 @@ searchTerms
 String
 )
 {
-settings
-.
-incrementActiveSearchCount
-(
-)
 clearToolbarFocus
 (
 )

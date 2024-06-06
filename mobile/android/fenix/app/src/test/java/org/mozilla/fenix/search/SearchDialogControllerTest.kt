@@ -695,14 +695,6 @@ engine
 searchEngine
 )
 }
-verify
-{
-settings
-.
-incrementActiveSearchCount
-(
-)
-}
 }
 Test
 fun

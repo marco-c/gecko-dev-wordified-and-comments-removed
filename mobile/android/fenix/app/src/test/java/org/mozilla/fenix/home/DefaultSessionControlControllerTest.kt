@@ -1983,11 +1983,6 @@ engine
 =
 searchEngine
 )
-settings
-.
-incrementActiveSearchCount
-(
-)
 metrics
 .
 track
