@@ -381,7 +381,7 @@ val
 mozilla_android_components
 =
 "
-28
+29
 .
 0
 .
