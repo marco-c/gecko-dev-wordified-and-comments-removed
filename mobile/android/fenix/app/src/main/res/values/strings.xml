@@ -4742,9 +4742,9 @@ for
 the
 button
 to
-enable
-app
-notifications
+request
+notification
+permission
 on
 the
 device
@@ -4766,8 +4766,7 @@ ignore
 UnusedResources
 "
 >
-Enable
-notifications
+Continue
 <
 /
 string
@@ -4782,9 +4781,9 @@ the
 button
 to
 not
-enable
-app
-notifications
+request
+notification
+permission
 on
 the
 device
@@ -4810,8 +4809,8 @@ ignore
 UnusedResources
 "
 >
-No
-thanks
+Not
+now
 <
 /
 string
