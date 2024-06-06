@@ -101,9 +101,6 @@ context
 core
 .
 historyStorage
-core
-.
-bookmarksStorage
 )
 }
 val
