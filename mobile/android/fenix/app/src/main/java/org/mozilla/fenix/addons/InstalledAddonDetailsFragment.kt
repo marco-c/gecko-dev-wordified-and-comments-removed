@@ -953,6 +953,8 @@ shouldCreatePrivateSession
 {
 components
 .
+useCases
+.
 tabsUseCases
 .
 addPrivateTab
@@ -963,6 +965,8 @@ settingUrl
 else
 {
 components
+.
+useCases
 .
 tabsUseCases
 .

@@ -2279,6 +2279,8 @@ sessionId
 >
 components
 .
+useCases
+.
 tabsUseCases
 .
 removeTab
@@ -2313,6 +2315,8 @@ let
 {
 components
 .
+useCases
+.
 tabsUseCases
 .
 selectTab
@@ -2337,7 +2341,7 @@ extensions
 )
 components
 .
-supportedAddChecker
+supportedAddonsChecker
 .
 registerForChecks
 (
