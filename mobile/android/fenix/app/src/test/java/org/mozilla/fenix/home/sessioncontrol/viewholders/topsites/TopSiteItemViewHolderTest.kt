@@ -304,9 +304,11 @@ getpocket
 .
 com
 "
-isDefault
-=
-true
+TopSite
+.
+Type
+.
+DEFAULT
 )
 }
 }
