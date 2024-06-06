@@ -2459,6 +2459,17 @@ BrowserDirection
 FromSearchDialog
 )
 }
+requireContext
+(
+)
+.
+components
+.
+clipboardHandler
+.
+text
+=
+null
 }
 val
 stubListener
