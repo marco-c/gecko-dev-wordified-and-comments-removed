@@ -725,7 +725,7 @@ RecyclerView
 {
 selectedItemAdapterBinding
 .
-start
+stop
 (
 )
 }
