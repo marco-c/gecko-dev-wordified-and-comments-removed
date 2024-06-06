@@ -241,6 +241,9 @@ LINK
 previewImageUrl
 =
 null
+isRemote
+=
+false
 )
 val
 visitInfo2
@@ -276,6 +279,9 @@ LINK
 previewImageUrl
 =
 null
+isRemote
+=
+false
 )
 val
 visitInfo3
@@ -311,6 +317,9 @@ LINK
 previewImageUrl
 =
 null
+isRemote
+=
+false
 )
 val
 historyMetadataKey1
@@ -837,6 +846,9 @@ LINK
 previewImageUrl
 =
 null
+isRemote
+=
+false
 )
 val
 historyMetadataKey1
@@ -1174,6 +1186,9 @@ LINK
 previewImageUrl
 =
 null
+isRemote
+=
+false
 )
 val
 historyMetadataKey1
@@ -1491,6 +1506,9 @@ LINK
 previewImageUrl
 =
 null
+isRemote
+=
+false
 )
 val
 visitInfo2
@@ -1526,6 +1544,9 @@ LINK
 previewImageUrl
 =
 null
+isRemote
+=
+false
 )
 val
 visitInfo3
@@ -1574,6 +1595,9 @@ REDIRECT_TEMPORARY
 previewImageUrl
 =
 null
+isRemote
+=
+false
 )
 val
 visitInfo4
@@ -1606,6 +1630,9 @@ REDIRECT_PERMANENT
 previewImageUrl
 =
 null
+isRemote
+=
+false
 )
 val
 historyMetadataKey1

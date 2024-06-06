@@ -544,6 +544,9 @@ com
 /
 image1
 "
+isRemote
+=
+false
 )
 val
 bookmarkNode
