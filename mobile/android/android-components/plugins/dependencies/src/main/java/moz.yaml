@@ -227,7 +227,7 @@ preferred
 )
 revision
 :
-1
+ffacc528042f4ebb6a72999fc329a47c15d3800d
 #
 The
 package
@@ -370,12 +370,6 @@ exclude
 move
 -
 contents
--
-update
--
-moz
--
-yaml
 -
 update
 -
