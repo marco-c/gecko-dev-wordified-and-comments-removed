@@ -1,4 +1,6 @@
 import
+argparse
+import
 datetime
 import
 jsone
@@ -323,6 +325,17 @@ params
 cron_task_id
 '
 ]
+            
+'
+name
+'
+:
+params
+[
+'
+name
+'
+]
         
 }
         
@@ -512,6 +525,57 @@ schedule
 )
 :
     
+parser
+=
+argparse
+.
+ArgumentParser
+(
+        
+description
+=
+'
+Creates
+and
+submit
+a
+graph
+of
+tasks
+on
+Taskcluster
+.
+'
+    
+)
+    
+parser
+.
+add_argument
+(
+'
+name
+'
+choices
+=
+[
+'
+nightly
+'
+'
+raptor
+'
+]
+)
+    
+result
+=
+parser
+.
+parse_args
+(
+)
+    
 queue
 =
 taskcluster
@@ -587,6 +651,14 @@ cron_task_id
 >
 '
 )
+        
+'
+name
+'
+:
+result
+.
+name
     
 }
     
