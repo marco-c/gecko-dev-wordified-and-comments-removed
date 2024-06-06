@@ -1201,13 +1201,8 @@ navController
 findNavController
 (
 )
-currentSession
+sessionManager
 =
-getSessionById
-(
-)
-?
-:
 context
 .
 components
@@ -1215,8 +1210,6 @@ components
 core
 .
 sessionManager
-.
-selectedSessionOrThrow
 appLinksUseCases
 =
 context
