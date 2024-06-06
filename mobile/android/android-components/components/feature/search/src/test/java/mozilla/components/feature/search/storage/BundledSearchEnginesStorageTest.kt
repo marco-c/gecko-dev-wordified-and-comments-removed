@@ -321,7 +321,7 @@ engines
 .
 defaultSearchEngineId
 .
-isNullOrEmpty
+isEmpty
 (
 )
 )
