@@ -390,12 +390,13 @@ options
 navOptions
 {
 popUpTo
-=
+(
 R
 .
 id
 .
 homeFragment
+)
 }
 assertNotNull
 (

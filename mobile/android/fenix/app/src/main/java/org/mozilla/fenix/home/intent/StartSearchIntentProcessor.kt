@@ -317,12 +317,13 @@ options
 navOptions
 {
 popUpTo
-=
+(
 R
 .
 id
 .
 homeFragment
+)
 }
 navController
 .
