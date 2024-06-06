@@ -1141,6 +1141,17 @@ common_video
 /
 rtc_base
 :
+gunit_helpers
+"
+"
+.
+.
+/
+.
+.
+/
+rtc_base
+:
 timeutils
 "
 "
