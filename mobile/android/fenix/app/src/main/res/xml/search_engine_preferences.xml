@@ -139,6 +139,13 @@ RadioSearchEngineListPreference
 SwitchPreference
 android
 :
+defaultValue
+=
+"
+true
+"
+android
+:
 key
 =
 "
