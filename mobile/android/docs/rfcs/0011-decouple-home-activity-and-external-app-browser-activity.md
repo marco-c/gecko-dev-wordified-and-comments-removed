@@ -1273,7 +1273,7 @@ next
 steps
 are
 less
-cleary
+clearly
 defined
 and
 require
