@@ -990,7 +990,11 @@ openTabDrawer
 {
 }
 .
-openHomeScreen
+openNewTab
+{
+}
+.
+dismiss
 {
 }
 .

@@ -279,6 +279,8 @@ goBack
 .
 openSearch
 {
+/
+/
 verifySearchWithText
 (
 )

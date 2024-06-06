@@ -358,7 +358,11 @@ openTabDrawer
 {
 }
 .
-openHomeScreen
+openNewTab
+{
+}
+.
+dismiss
 {
 }
 .
@@ -377,7 +381,11 @@ openTabDrawer
 {
 }
 .
-openHomeScreen
+openNewTab
+{
+}
+.
+dismiss
 {
 }
 homeScreen

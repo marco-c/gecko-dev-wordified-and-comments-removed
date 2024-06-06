@@ -946,11 +946,11 @@ Transition
 )
 }
 fun
-openHomeScreen
+openNewTab
 (
 interact
 :
-HomeScreenRobot
+SearchRobot
 .
 (
 )
@@ -959,7 +959,7 @@ HomeScreenRobot
 Unit
 )
 :
-HomeScreenRobot
+SearchRobot
 .
 Transition
 {
@@ -978,7 +978,7 @@ click
 (
 )
 )
-HomeScreenRobot
+SearchRobot
 (
 )
 .
@@ -986,7 +986,7 @@ interact
 (
 )
 return
-HomeScreenRobot
+SearchRobot
 .
 Transition
 (

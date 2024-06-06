@@ -859,7 +859,11 @@ Test_Page_1
 )
 }
 .
-openHomeScreen
+openNewTab
+{
+}
+.
+dismiss
 {
 }
 }
@@ -1221,7 +1225,11 @@ title
 )
 }
 .
-openHomeScreen
+openNewTab
+{
+}
+.
+dismiss
 {
 }
 }
