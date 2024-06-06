@@ -4677,7 +4677,7 @@ name
 preferences_theme
 "
 >
-Motiv
+Tema
 <
 /
 string
@@ -7663,7 +7663,7 @@ preference_follow_device_theme
 "
 >
 Slijedi
-motiv
+temu
 ure
 aja
 <
@@ -19279,8 +19279,8 @@ o
 i
 pomo
 u
-tamnog
-motiva
+tamne
+teme
 .
 <
 /
@@ -19371,8 +19371,8 @@ name
 onboarding_theme_dark_title
 "
 >
-Tamni
-motiv
+Tamna
+tema
 <
 /
 string
@@ -19397,8 +19397,8 @@ name
 onboarding_theme_light_title
 "
 >
-Svijetli
-motiv
+Svijetla
+tema
 <
 /
 string
