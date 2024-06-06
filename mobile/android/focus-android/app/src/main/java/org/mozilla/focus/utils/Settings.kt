@@ -267,6 +267,8 @@ pref_key_search_engine
 "
 "
 )
+!
+!
 fun
 shouldBlockImages
 (
@@ -399,6 +401,8 @@ string
 preference_privacy_should_block_cookies_no_option
 )
 )
+!
+!
 fun
 shouldBlockCookies
 (

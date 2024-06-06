@@ -21,6 +21,10 @@ SharedPreferences
 import
 android
 .
+support
+.
+v7
+.
 preference
 .
 Preference
@@ -119,7 +123,7 @@ context
 }
 override
 fun
-onAttachedToActivity
+onAttached
 (
 )
 {
@@ -136,7 +140,7 @@ this
 )
 super
 .
-onAttachedToActivity
+onAttached
 (
 )
 }

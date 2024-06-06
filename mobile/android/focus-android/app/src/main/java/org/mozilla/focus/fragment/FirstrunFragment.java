@@ -574,7 +574,11 @@ final
 FragmentManager
 fragmentManager
 =
-getFragmentManager
+getActivity
+(
+)
+.
+getSupportFragmentManager
 (
 )
 ;

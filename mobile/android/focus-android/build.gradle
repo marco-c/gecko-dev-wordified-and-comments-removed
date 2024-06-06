@@ -38,11 +38,13 @@ ext
 support_libraries_version
 =
 '
-27
+28
 .
-1
+0
 .
-1
+0
+-
+beta01
 '
 ext
 .
@@ -64,7 +66,7 @@ kotlin_version
 .
 2
 .
-50
+60
 '
 ext
 .
@@ -154,7 +156,7 @@ android
 .
 1
 .
-2
+3
 '
 classpath
 '

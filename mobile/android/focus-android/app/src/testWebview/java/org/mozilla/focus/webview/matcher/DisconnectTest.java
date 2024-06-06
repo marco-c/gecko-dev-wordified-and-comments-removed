@@ -67,15 +67,6 @@ mozilla
 .
 focus
 .
-BuildConfig
-;
-import
-org
-.
-mozilla
-.
-focus
-.
 R
 ;
 import
@@ -129,11 +120,6 @@ class
 )
 Config
 (
-constants
-=
-BuildConfig
-.
-class
 packageName
 =
 "

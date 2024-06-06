@@ -229,6 +229,8 @@ remove
 removeSelectedDomains
 (
 activity
+!
+!
 .
 applicationContext
 )
@@ -304,6 +306,8 @@ await
 (
 )
 fragmentManager
+!
+!
 .
 popBackStack
 (

@@ -75,15 +75,6 @@ RunWith
 import
 org
 .
-mozilla
-.
-focus
-.
-BuildConfig
-;
-import
-org
-.
 robolectric
 .
 RobolectricTestRunner
@@ -149,11 +140,6 @@ class
 )
 Config
 (
-constants
-=
-BuildConfig
-.
-class
 packageName
 =
 "

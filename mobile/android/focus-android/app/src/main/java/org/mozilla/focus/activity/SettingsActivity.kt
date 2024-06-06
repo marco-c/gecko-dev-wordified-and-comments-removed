@@ -188,7 +188,7 @@ savedInstanceState
 null
 )
 {
-fragmentManager
+supportFragmentManager
 .
 beginTransaction
 (

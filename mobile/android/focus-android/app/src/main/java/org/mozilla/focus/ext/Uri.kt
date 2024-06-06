@@ -309,6 +309,8 @@ val
 hostSegments
 =
 host
+!
+!
 .
 split
 (

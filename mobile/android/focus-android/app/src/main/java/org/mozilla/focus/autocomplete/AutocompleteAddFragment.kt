@@ -67,6 +67,10 @@ autocomplete
 import
 android
 .
+support
+.
+v4
+.
 app
 .
 Fragment
@@ -295,7 +299,6 @@ onCreateView
 inflater
 :
 LayoutInflater
-?
 container
 :
 ViewGroup
@@ -309,8 +312,6 @@ Bundle
 View
 =
 inflater
-!
-!
 .
 inflate
 (
@@ -329,7 +330,6 @@ onViewCreated
 view
 :
 View
-?
 savedInstanceState
 :
 Bundle
@@ -359,6 +359,7 @@ ViewUtils
 hideKeyboard
 (
 activity
+?
 .
 currentFocus
 )
@@ -448,6 +449,8 @@ CustomDomains
 load
 (
 activity
+!
+!
 )
 val
 error
@@ -514,6 +517,8 @@ else
 saveDomainAndClose
 (
 activity
+!
+!
 .
 applicationContext
 domain
@@ -580,6 +585,7 @@ preference_autocomplete_add_confirmation
 0
 )
 fragmentManager
+?
 .
 popBackStack
 (
