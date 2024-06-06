@@ -1364,7 +1364,7 @@ R
 .
 string
 .
-browser_menu_addon_manager
+browser_menu_add_ons
 )
 imageResource
 =
@@ -1518,7 +1518,7 @@ R
 .
 string
 .
-browser_menu_your_library
+browser_menu_library
 )
 imageResource
 =
@@ -1854,7 +1854,7 @@ R
 .
 string
 .
-browser_menu_save_to_collection
+browser_menu_save_to_collection_2
 )
 imageResource
 =

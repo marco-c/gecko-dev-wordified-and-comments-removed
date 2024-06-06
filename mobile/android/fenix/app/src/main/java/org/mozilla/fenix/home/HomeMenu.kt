@@ -679,7 +679,7 @@ R
 .
 string
 .
-browser_menu_your_library
+browser_menu_library
 )
 textColorResource
 =

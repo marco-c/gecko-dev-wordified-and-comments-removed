@@ -783,7 +783,6 @@ By
 text
 (
 "
-Your
 Library
 "
 )
@@ -1796,7 +1795,7 @@ R
 .
 string
 .
-browser_menu_your_library
+browser_menu_library
 )
 )
 )
@@ -2244,7 +2243,7 @@ withText
 "
 Save
 to
-Collection
+collection
 "
 )
 withEffectiveVisibility
