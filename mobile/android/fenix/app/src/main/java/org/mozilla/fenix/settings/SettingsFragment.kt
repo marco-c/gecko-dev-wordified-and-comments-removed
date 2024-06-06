@@ -393,7 +393,7 @@ R
 .
 string
 .
-pref_key_privacy_notice
+pref_key_privacy_link
 import
 org
 .
@@ -1443,7 +1443,7 @@ resources
 .
 getString
 (
-pref_key_privacy_notice
+pref_key_privacy_link
 )
 -
 >
