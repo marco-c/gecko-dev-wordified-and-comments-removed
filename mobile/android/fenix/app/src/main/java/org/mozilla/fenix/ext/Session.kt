@@ -131,8 +131,5 @@ this
 .
 title
 selected
-this
-.
-thumbnail
 )
 }

@@ -75,12 +75,6 @@ Context
 import
 android
 .
-graphics
-.
-Bitmap
-import
-android
-.
 os
 .
 Parcelable
@@ -369,13 +363,6 @@ val
 selected
 :
 Boolean
-?
-=
-null
-val
-thumbnail
-:
-Bitmap
 ?
 =
 null
