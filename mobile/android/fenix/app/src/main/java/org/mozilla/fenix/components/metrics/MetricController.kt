@@ -269,7 +269,7 @@ feature
 .
 prompts
 .
-facts
+dialog
 .
 LoginDialogFacts
 import
