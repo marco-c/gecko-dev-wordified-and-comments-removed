@@ -2076,7 +2076,6 @@ name
 preference_category_web_content
 "
 >
--
 <
 /
 string
@@ -3860,7 +3859,6 @@ name
 preference_privacy_stealth_summary
 "
 >
--
 .
 <
 /
@@ -3898,7 +3896,6 @@ name
 preference_performance_block_webfonts
 "
 >
--
 <
 /
 string
@@ -5091,7 +5088,6 @@ name
 accessibility_announcement_loading_finished
 "
 >
--
 <
 /
 string
@@ -5242,7 +5238,6 @@ name
 content_description_reload
 "
 >
--
 <
 /
 string
@@ -6114,7 +6109,6 @@ firstrun_privacy_text
 %
 1
 s
--
 .
 <
 /
@@ -9393,7 +9387,6 @@ name
 preference_exceptions_description
 "
 >
--
 .
 <
 /
@@ -9449,7 +9442,6 @@ name
 preference_exceptions_remove_all_button_label
 "
 >
--
 <
 /
 string

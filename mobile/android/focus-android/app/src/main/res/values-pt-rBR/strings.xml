@@ -2491,7 +2491,9 @@ name
 preference_show_search_suggestions_summary
 "
 >
-O
+Se
+ativar
+o
 %
 1
 s
@@ -2688,7 +2690,7 @@ Preenchimento
 autom
 tico
 de
-URL
+URLs
 <
 /
 string
