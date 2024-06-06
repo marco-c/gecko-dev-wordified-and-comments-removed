@@ -980,7 +980,7 @@ R
 .
 color
 .
-whats_new_notification_color
+fx_mobile_icon_color_notice
 )
 )
 isHighlighted
