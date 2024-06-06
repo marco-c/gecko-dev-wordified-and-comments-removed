@@ -850,7 +850,7 @@ fetchRegion
 (
 readFromCache
 =
-false
+true
 )
 if
 (
