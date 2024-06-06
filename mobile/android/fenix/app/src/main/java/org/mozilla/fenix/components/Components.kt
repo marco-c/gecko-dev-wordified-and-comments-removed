@@ -215,6 +215,7 @@ lazy
 BackgroundServices
 (
 context
+push
 analytics
 .
 crashReporter
@@ -436,6 +437,16 @@ lazy
 {
 PerformanceComponent
 (
+)
+}
+val
+push
+by
+lazy
+{
+Push
+(
+context
 )
 }
 }
