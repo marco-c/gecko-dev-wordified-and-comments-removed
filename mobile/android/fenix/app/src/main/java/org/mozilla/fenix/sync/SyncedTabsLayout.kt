@@ -620,7 +620,7 @@ R
 .
 string
 .
-synced_tabs_connect_to_sync_account
+synced_tabs_sign_in_message
 SyncedTabsView
 .
 ErrorType
