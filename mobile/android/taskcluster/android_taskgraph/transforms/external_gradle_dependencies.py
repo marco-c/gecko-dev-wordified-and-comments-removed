@@ -622,9 +622,6 @@ assembleAndroidTest
 testClasses
 "
 "
-test
-"
-"
 lint
 "
 ]
