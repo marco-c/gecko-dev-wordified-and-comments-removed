@@ -7,7 +7,7 @@ head
 <
 title
 >
-Video_Test_Page
+Muted_Video_Test_Page
 <
 /
 title
@@ -30,6 +30,7 @@ testContent
 Page
 content
 :
+muted
 video
 player
 <
@@ -124,7 +125,7 @@ video
 id
 =
 "
-video
+mutedVideo
 "
 width
 =
@@ -132,6 +133,7 @@ width
 420
 "
 autoplay
+muted
 controls
 loop
 >
@@ -174,14 +176,14 @@ div
 script
 >
 const
-video
+mutedVideo
 =
 document
 .
 getElementById
 (
 "
-video
+mutedVideo
 "
 )
 ;
@@ -190,7 +192,7 @@ play
 (
 )
 {
-video
+mutedVideo
 .
 play
 (
@@ -202,7 +204,7 @@ pause
 (
 )
 {
-video
+mutedVideo
 .
 pause
 (
@@ -214,7 +216,7 @@ fullscreen
 (
 )
 {
-video
+mutedVideo
 .
 requestFullscreen
 (
@@ -222,11 +224,11 @@ requestFullscreen
 ;
 }
 var
-showPlayingAlert
+showPlayAlert
 =
 true
 ;
-video
+mutedVideo
 .
 addEventListener
 (
@@ -302,14 +304,14 @@ page
 >
 if
 (
-showPlayingAlert
+showPlayAlert
 =
 =
 =
 true
 )
 {
-showPlayingAlert
+showPlayAlert
 =
 false
 ;
@@ -327,7 +329,7 @@ playing
 }
 )
 ;
-video
+mutedVideo
 .
 addEventListener
 (
