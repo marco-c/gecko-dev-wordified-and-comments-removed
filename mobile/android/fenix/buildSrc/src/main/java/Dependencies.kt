@@ -419,8 +419,6 @@ mozilla_android_components
 0
 .
 0
--
-SNAPSHOT
 "
 /
 /
