@@ -967,7 +967,7 @@ R
 .
 drawable
 .
-ic_hollow_share
+ic_share_filled
 contentDescription
 =
 context
@@ -999,9 +999,6 @@ Item
 Share
 )
 }
-)
-registerForIsBookmarkedUpdates
-(
 )
 val
 bookmark
