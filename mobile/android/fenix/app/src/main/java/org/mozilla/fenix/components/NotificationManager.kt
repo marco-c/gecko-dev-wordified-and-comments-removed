@@ -433,7 +433,7 @@ R
 .
 drawable
 .
-ic_notification
+ic_status_logo
 )
 .
 setContentTitle
