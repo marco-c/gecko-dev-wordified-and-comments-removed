@@ -2834,11 +2834,11 @@ launch
 )
 }
 }
-swipeRefresh
+snackbarParent
 =
 binding
 .
-swipeRefresh
+dynamicSnackbarContainer
 browserAnimator
 =
 browserAnimator

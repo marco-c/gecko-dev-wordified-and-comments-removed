@@ -73,6 +73,12 @@ content
 .
 Intent
 import
+android
+.
+view
+.
+ViewGroup
+import
 androidx
 .
 annotation
@@ -92,14 +98,6 @@ androidx
 navigation
 .
 NavController
-import
-androidx
-.
-swiperefreshlayout
-.
-widget
-.
-SwipeRefreshLayout
 import
 com
 .
@@ -604,9 +602,9 @@ browserAnimator
 BrowserAnimator
 private
 val
-swipeRefresh
+snackbarParent
 :
-SwipeRefreshLayout
+ViewGroup
 private
 val
 customTabSessionId
@@ -1685,7 +1683,7 @@ launch
 val
 context
 =
-swipeRefresh
+snackbarParent
 .
 context
 val
@@ -1726,7 +1724,7 @@ AlertDialog
 .
 Builder
 (
-swipeRefresh
+snackbarParent
 .
 context
 )
@@ -1825,7 +1823,7 @@ make
 (
 view
 =
-swipeRefresh
+snackbarParent
 duration
 =
 Snackbar
@@ -2308,7 +2306,7 @@ make
 (
 view
 =
-swipeRefresh
+snackbarParent
 duration
 =
 Snackbar
@@ -2321,7 +2319,7 @@ true
 .
 setText
 (
-swipeRefresh
+snackbarParent
 .
 context
 .
