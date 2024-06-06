@@ -716,6 +716,9 @@ AdapterItem
 OnboardingPrivateBrowsing
 AdapterItem
 .
+OnboardingToolbarPositionPicker
+AdapterItem
+.
 OnboardingPrivacyNotice
 AdapterItem
 .
