@@ -955,7 +955,7 @@ categoryName
 }
 editor
 .
-commit
+apply
 (
 )
 ;
@@ -1190,7 +1190,7 @@ enabled
 }
 editor
 .
-commit
+apply
 (
 )
 ;

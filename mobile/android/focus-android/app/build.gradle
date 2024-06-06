@@ -328,6 +328,12 @@ true
 testOptions
 {
 unitTests
+{
+includeAndroidResources
+=
+true
+}
+unitTests
 .
 all
 {

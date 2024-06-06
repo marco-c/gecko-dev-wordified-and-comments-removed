@@ -1445,7 +1445,7 @@ createSession
 (
 Source
 .
-CUSTOM_TAB
+SHARE
 TEST_URL_3
 )
 ;
@@ -1493,7 +1493,7 @@ assertEquals
 (
 Source
 .
-CUSTOM_TAB
+SHARE
 currentSession
 .
 getSource
@@ -1681,7 +1681,7 @@ createSession
 (
 Source
 .
-CUSTOM_TAB
+SHARE
 TEST_URL_3
 )
 ;
