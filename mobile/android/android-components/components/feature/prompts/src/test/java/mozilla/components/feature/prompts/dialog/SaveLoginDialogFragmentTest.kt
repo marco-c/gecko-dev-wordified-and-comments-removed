@@ -749,7 +749,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_globe
+mozac_ic_globe_24
 doReturn
 (
 appCompatContext
