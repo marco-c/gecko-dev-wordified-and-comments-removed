@@ -801,6 +801,9 @@ nsIFile
 >
 mFile
 ;
+mozilla
+:
+:
 loader
 :
 :
