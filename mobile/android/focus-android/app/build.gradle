@@ -2267,11 +2267,11 @@ FocusDependencies
 .
 espresso_intents
 androidTestImplementation
-FocusDependencies
+ComponentsDependencies
 .
 testing_mockwebserver
 testImplementation
-FocusDependencies
+ComponentsDependencies
 .
 testing_mockwebserver
 testImplementation

@@ -6499,9 +6499,9 @@ FenixDependencies
 .
 androidx_benchmark_junit4
 androidTestImplementation
-FenixDependencies
+ComponentsDependencies
 .
-mockwebserver
+testing_mockwebserver
 testImplementation
 project
 (
