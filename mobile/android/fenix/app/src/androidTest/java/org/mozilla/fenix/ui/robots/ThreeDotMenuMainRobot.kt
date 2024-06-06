@@ -293,14 +293,6 @@ mozilla
 .
 fenix
 .
-FeatureFlags
-import
-org
-.
-mozilla
-.
-fenix
-.
 R
 import
 org
@@ -833,11 +825,6 @@ settingsButton
 )
 if
 (
-FeatureFlags
-.
-print
-&
-&
 FxNimbus
 .
 features

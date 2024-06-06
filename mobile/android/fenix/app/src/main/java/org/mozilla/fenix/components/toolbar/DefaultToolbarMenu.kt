@@ -393,14 +393,6 @@ mozilla
 .
 fenix
 .
-FeatureFlags
-import
-org
-.
-mozilla
-.
-fenix
-.
 R
 import
 org
@@ -2475,11 +2467,6 @@ null
 saveToCollectionItem
 if
 (
-FeatureFlags
-.
-print
-&
-&
 FxNimbus
 .
 features

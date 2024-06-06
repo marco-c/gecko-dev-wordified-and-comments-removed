@@ -233,14 +233,6 @@ mozilla
 .
 fenix
 .
-FeatureFlags
-import
-org
-.
-mozilla
-.
-fenix
-.
 R
 import
 org
@@ -835,11 +827,6 @@ recordExposure
 )
 if
 (
-FeatureFlags
-.
-print
-&
-&
 FxNimbus
 .
 features
