@@ -1110,7 +1110,7 @@ R
 .
 drawable
 .
-mozac_ic_add_to_home_screen
+mozac_ic_add_to_home_screen_24
 )
 {
 onItemTapped
