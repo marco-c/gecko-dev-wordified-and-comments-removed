@@ -129,9 +129,7 @@ kotlinOptions
 jvmTarget
 =
 '
-1
-.
-8
+11
 '
 }
 namespace
