@@ -10555,9 +10555,6 @@ inactive_tabs_count
 type
 :
 quantity
-lifetime
-:
-application
 description
 :
 |
@@ -10569,6 +10566,14 @@ does
 the
 user
 have
+checked
+when
+the
+user
+opens
+the
+tabs
+tray
 .
 Value
 will
