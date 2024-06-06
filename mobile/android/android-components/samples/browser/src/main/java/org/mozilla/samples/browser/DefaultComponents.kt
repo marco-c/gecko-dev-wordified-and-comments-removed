@@ -1256,6 +1256,7 @@ TimeUnit
 .
 DAYS
 )
+notificationsDelegate
 )
 /
 /
@@ -1437,6 +1438,9 @@ IntentReceiverActivity
 class
 .
 java
+notificationsDelegate
+=
+notificationsDelegate
 )
 MediaSessionFeature
 (

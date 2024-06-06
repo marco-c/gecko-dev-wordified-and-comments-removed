@@ -903,6 +903,7 @@ TimeUnit
 .
 HOURS
 )
+notificationsDelegate
 )
 }
 Suppress
