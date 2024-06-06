@@ -1096,6 +1096,9 @@ internal
 '
 alpha
 '
+'
+nightly
+'
 ]
 help
 =
