@@ -895,6 +895,15 @@ if
 state
 .
 query
+.
+isNotEmpty
+(
+)
+&
+&
+state
+.
+query
 =
 =
 state
