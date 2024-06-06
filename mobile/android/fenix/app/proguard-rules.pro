@@ -1479,6 +1479,7 @@ Glean
 Metrics
 -
 keep
+class
 org
 .
 mozilla
@@ -1503,6 +1504,7 @@ by
 MotionLayout
 -
 keep
+class
 org
 .
 mozilla
