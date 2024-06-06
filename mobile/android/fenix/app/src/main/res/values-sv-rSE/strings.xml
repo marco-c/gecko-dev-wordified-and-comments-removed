@@ -13147,7 +13147,8 @@ nga
 av
 de
 vanligaste
-trackers
+sp
+rarna
 som
 f
 ljer
@@ -13326,7 +13327,8 @@ men
 blockerar
 f
 rre
-trackers
+sp
+rare
 .
 <
 /
@@ -13620,7 +13622,10 @@ etp_social_media_trackers_title
 "
 >
 Sociala
-trackers
+media
+-
+sp
+rare
 <
 /
 string
@@ -13707,9 +13712,7 @@ name
 etp_cookies_title
 "
 >
-Cross
--
-Site
+Globala
 sp
 rningskakor
 <
@@ -13802,7 +13805,8 @@ name
 etp_cryptominers_title
 "
 >
-Cryptominers
+Kryptogr
+vare
 <
 /
 string
@@ -13884,7 +13888,8 @@ name
 etp_fingerprinters_title
 "
 >
-Fingerprinters
+Fingeravtryckssp
+rare
 <
 /
 string
@@ -14078,7 +14083,8 @@ etp_onboarding_message_2
 %
 s
 blockerar
-trackers
+sp
+rare
 p
 denna
 webbplats
