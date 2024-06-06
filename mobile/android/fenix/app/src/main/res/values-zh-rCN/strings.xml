@@ -2385,6 +2385,12 @@ name
 default_locale_text
 "
 >
+(
+ISO
+3166
+/
+639
+)
 <
 /
 string
@@ -3831,8 +3837,6 @@ name
 preferences_language
 "
 >
-(
-)
 <
 /
 string
