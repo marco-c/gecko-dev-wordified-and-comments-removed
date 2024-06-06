@@ -1206,8 +1206,6 @@ windowSoftInputMode
 =
 "
 adjustResize
-|
-stateAlwaysHidden
 "
 android
 :
