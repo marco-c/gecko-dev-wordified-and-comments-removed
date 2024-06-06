@@ -388,14 +388,11 @@ menu
 .
 *
 /
+const
 val
 unifiedSearchSettings
 =
-Config
-.
-channel
-.
-isNightlyOrDebug
+true
 /
 *
 *
