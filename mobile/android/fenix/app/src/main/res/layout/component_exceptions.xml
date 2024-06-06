@@ -318,7 +318,9 @@ android
 layout_height
 =
 "
-wrap_content
+dimen
+/
+component_exceptions_learn_more_height
 "
 android
 :
