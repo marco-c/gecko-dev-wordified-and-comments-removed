@@ -101,14 +101,6 @@ mozilla
 .
 fenix
 .
-FeatureFlags
-import
-org
-.
-mozilla
-.
-fenix
-.
 helpers
 .
 AndroidAssetDispatcher

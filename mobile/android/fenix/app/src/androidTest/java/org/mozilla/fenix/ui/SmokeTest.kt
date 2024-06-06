@@ -195,14 +195,6 @@ mozilla
 .
 fenix
 .
-FeatureFlags
-import
-org
-.
-mozilla
-.
-fenix
-.
 IntentReceiverActivity
 import
 org

@@ -201,12 +201,6 @@ AddToHomeScreen
 Item
 (
 )
-object
-SyncedTabs
-:
-Item
-(
-)
 data
 class
 SyncAccount
