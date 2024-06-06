@@ -65,6 +65,8 @@ fenix
 .
 browser
 import
+GeckoProvider
+import
 android
 .
 app
@@ -100,16 +102,6 @@ mozilla
 fenix
 .
 IntentReceiverActivity
-import
-org
-.
-mozilla
-.
-fenix
-.
-ext
-.
-components
 /
 *
 *
@@ -165,9 +157,7 @@ onCreate
 (
 savedInstanceState
 )
-components
-.
-core
+GeckoProvider
 .
 testConfig
 =
