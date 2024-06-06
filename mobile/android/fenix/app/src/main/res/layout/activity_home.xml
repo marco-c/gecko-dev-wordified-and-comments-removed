@@ -68,7 +68,7 @@ fenix
 .
 perf
 .
-RootLinearLayout
+HomeActivityRootLinearLayout
 xmlns
 :
 android
@@ -281,5 +281,5 @@ fenix
 .
 perf
 .
-RootLinearLayout
+HomeActivityRootLinearLayout
 >

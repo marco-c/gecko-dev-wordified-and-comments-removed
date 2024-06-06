@@ -94,6 +94,14 @@ base
 profiler
 .
 Profiler
+import
+org
+.
+mozilla
+.
+fenix
+.
+HomeActivity
 private
 const
 val
@@ -130,7 +138,11 @@ the
 root
 view
 of
-the
+[
+HomeActivity
+]
+'
+s
 view
 hierarchy
 to
@@ -144,7 +156,7 @@ events
 *
 /
 class
-RootLinearLayout
+HomeActivityRootLinearLayout
 (
 context
 :
