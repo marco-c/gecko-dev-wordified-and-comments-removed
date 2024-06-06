@@ -226,16 +226,6 @@ randomUUID
 toString
 (
 )
-override
-val
-shouldClearSuggestions
-:
-Boolean
-get
-(
-)
-=
-false
 private
 val
 settingsIcon
