@@ -718,13 +718,10 @@ KotlinCompile
 all
 {
 kotlinOptions
-{
-kotlinOptions
 .
 allWarningsAsErrors
 =
 true
-}
 }
 jacocoAndroidUnitTestReport
 {
