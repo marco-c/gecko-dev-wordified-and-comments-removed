@@ -290,6 +290,16 @@ onRecentTabClicked
 it
 )
 }
+onRecentSearchGroupClicked
+=
+{
+interactor
+.
+onRecentSearchGroupClicked
+(
+it
+)
+}
 )
 }
 }
