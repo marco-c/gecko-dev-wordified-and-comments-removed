@@ -132,8 +132,15 @@ Back
 Item
 (
 )
-object
+data
+class
 Forward
+(
+val
+viewHistory
+:
+Boolean
+)
 :
 Item
 (
