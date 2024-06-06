@@ -425,7 +425,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_private_browsing
+mozac_ic_private_mode_24
 tint
 =
 iconColor
