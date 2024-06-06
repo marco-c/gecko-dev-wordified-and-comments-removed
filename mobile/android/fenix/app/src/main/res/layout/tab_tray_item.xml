@@ -159,13 +159,6 @@ focusable
 "
 true
 "
-android
-:
-focusableInTouchMode
-=
-"
-true
-"
 >
 <
 ImageButton
