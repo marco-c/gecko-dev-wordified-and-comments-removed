@@ -208,6 +208,7 @@ interactor
 .
 onSelectCreditCard
 (
+creditCard
 )
 }
 }

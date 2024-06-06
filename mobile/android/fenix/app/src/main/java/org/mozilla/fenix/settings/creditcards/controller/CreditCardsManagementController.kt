@@ -75,6 +75,16 @@ navigation
 .
 NavController
 import
+mozilla
+.
+components
+.
+concept
+.
+storage
+.
+CreditCard
+import
 org
 .
 mozilla
@@ -143,6 +153,9 @@ onSelectCreditCard
 fun
 handleCreditCardClicked
 (
+creditCard
+:
+CreditCard
 )
 }
 /
@@ -175,6 +188,9 @@ override
 fun
 handleCreditCardClicked
 (
+creditCard
+:
+CreditCard
 )
 {
 navController
@@ -185,6 +201,9 @@ CreditCardsManagementFragmentDirections
 .
 actionCreditCardsManagementFragmentToCreditCardEditorFragment
 (
+creditCard
+=
+creditCard
 )
 )
 }
