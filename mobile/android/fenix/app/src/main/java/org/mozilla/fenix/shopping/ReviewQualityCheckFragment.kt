@@ -340,6 +340,11 @@ requireComponents
 core
 .
 store
+appStore
+=
+requireComponents
+.
+appStore
 context
 =
 requireContext
@@ -600,6 +605,8 @@ appStore
 dispatch
 (
 AppAction
+.
+ShoppingAction
 .
 ShoppingSheetStateUpdated
 (

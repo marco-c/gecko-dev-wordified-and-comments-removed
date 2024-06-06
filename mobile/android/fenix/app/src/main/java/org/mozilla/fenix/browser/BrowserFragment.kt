@@ -1616,6 +1616,8 @@ dispatch
 (
 AppAction
 .
+ShoppingAction
+.
 ShoppingSheetStateUpdated
 (
 expanded

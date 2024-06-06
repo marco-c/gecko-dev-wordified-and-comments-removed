@@ -387,6 +387,8 @@ mapNotNull
 {
 it
 .
+shoppingState
+.
 shoppingSheetExpanded
 }
 .
