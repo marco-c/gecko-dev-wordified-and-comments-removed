@@ -3967,6 +3967,19 @@ shouldEraseAllTabs
 {
 requireComponents
 .
+appStore
+.
+dispatch
+(
+AppAction
+.
+NavigateUp
+(
+null
+)
+)
+requireComponents
+.
 tabsUseCases
 .
 removeAllTabs
@@ -3985,7 +3998,6 @@ tab
 .
 id
 )
-}
 requireComponents
 .
 appStore
@@ -4005,6 +4017,7 @@ state
 selectedTabId
 )
 )
+}
 }
 private
 fun
