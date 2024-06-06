@@ -870,6 +870,15 @@ preference
 PreferenceCategory
 android
 :
+key
+=
+"
+string
+/
+pref_key_category_safe_browsing
+"
+android
+:
 layout
 =
 "
