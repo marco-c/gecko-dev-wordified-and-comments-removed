@@ -201,7 +201,7 @@ activityTestRule
 {
 homeScreen
 {
-clickNotNowOnboardingButton
+clickDefaultCardNotNowOnboardingButton
 (
 activityTestRule
 )
@@ -273,7 +273,7 @@ activityTestRule
 {
 homeScreen
 {
-clickNotNowOnboardingButton
+clickDefaultCardNotNowOnboardingButton
 (
 activityTestRule
 )
@@ -314,7 +314,7 @@ view
 SmokeTest
 Test
 fun
-verifySecondOnboardingCardSignInFunctionalityTest
+verifyThirdOnboardingCardSignInFunctionalityTest
 (
 )
 {
@@ -325,11 +325,19 @@ activityTestRule
 {
 homeScreen
 {
-clickNotNowOnboardingButton
+clickDefaultCardNotNowOnboardingButton
 (
 activityTestRule
 )
 verifySecondOnboardingCard
+(
+activityTestRule
+)
+clickAddSearchWidgetNotNowOnboardingButton
+(
+activityTestRule
+)
+verifyThirdOnboardingCard
 (
 activityTestRule
 )

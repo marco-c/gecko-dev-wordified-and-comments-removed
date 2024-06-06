@@ -159,9 +159,6 @@ add
 search
 -
 widget
-enabled
-:
-false
 title
 :
 juno_onboarding_add_search_widget_title
