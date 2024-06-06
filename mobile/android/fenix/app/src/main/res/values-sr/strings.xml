@@ -8015,7 +8015,6 @@ name
 tracking_protection_on
 "
 >
-.
 <
 /
 string
@@ -8047,7 +8046,6 @@ name
 tracking_protection_off
 "
 >
-.
 <
 /
 string
@@ -8265,7 +8263,6 @@ name
 delete_browsing_data_quit_on
 "
 >
-.
 <
 /
 string
@@ -8299,7 +8296,6 @@ name
 delete_browsing_data_quit_off
 "
 >
-.
 <
 /
 string
@@ -15377,7 +15373,6 @@ name
 preferences_passwords_sync_logins_on
 "
 >
-.
 <
 /
 string
@@ -15404,7 +15399,6 @@ name
 preferences_passwords_sync_logins_off
 "
 >
-.
 <
 /
 string
