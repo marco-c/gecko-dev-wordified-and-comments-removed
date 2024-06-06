@@ -734,7 +734,7 @@ autoDisableScopes
 '
 extensions
 .
-legacy
+experiments
 .
 enabled
 '
