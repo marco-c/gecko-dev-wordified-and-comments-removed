@@ -399,7 +399,7 @@ fenix
 .
 ext
 .
-urlToTrimmedHost
+toShortUrl
 import
 org
 .
@@ -1695,11 +1695,15 @@ bookmarkNode
 url
 ?
 .
-urlToTrimmedHost
+toShortUrl
 (
 context
 !
 !
+.
+components
+.
+publicSuffixList
 )
 ?
 :

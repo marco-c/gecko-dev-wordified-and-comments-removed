@@ -419,7 +419,7 @@ fenix
 .
 ext
 .
-urlToTrimmedHost
+toShortUrl
 import
 org
 .
@@ -1270,9 +1270,13 @@ it
 url
 ?
 .
-urlToTrimmedHost
+toShortUrl
 (
-activity
+context
+.
+components
+.
+publicSuffixList
 )
 ?
 :

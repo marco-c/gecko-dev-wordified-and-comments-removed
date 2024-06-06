@@ -207,7 +207,7 @@ fenix
 .
 ext
 .
-urlToTrimmedHost
+toShortUrl
 import
 org
 .
@@ -467,11 +467,15 @@ tab
 .
 url
 .
-urlToTrimmedHost
+toShortUrl
 (
 view
 .
 context
+.
+components
+.
+publicSuffixList
 )
 collection_tab_title
 .
