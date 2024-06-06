@@ -167,6 +167,16 @@ mozilla
 .
 fenix
 .
+customannotations
+.
+SmokeTest
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 settings
@@ -726,6 +736,7 @@ verifyEmptyHistoryView
 )
 }
 }
+SmokeTest
 Test
 fun
 deleteAllHistoryTest
@@ -833,9 +844,10 @@ verifyEmptyHistoryView
 )
 }
 }
+SmokeTest
 Test
 fun
-multiSelectionToolbarItemsTest
+historyMultiSelectionToolbarItemsTest
 (
 )
 {

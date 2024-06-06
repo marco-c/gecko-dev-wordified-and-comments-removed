@@ -119,6 +119,16 @@ mozilla
 .
 fenix
 .
+customannotations
+.
+SmokeTest
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 settings
@@ -1791,6 +1801,7 @@ verifyGeneralHeading
 )
 }
 }
+SmokeTest
 Test
 fun
 deleteTabsDataTest
@@ -1890,6 +1901,7 @@ verifyNoTabsOpened
 )
 }
 }
+SmokeTest
 Test
 fun
 deleteDeleteBrowsingHistoryDataTest

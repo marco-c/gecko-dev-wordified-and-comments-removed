@@ -101,6 +101,16 @@ mozilla
 .
 fenix
 .
+customannotations
+.
+SmokeTest
+import
+org
+.
+mozilla
+.
+fenix
+.
 helpers
 .
 HomeActivityTestRule
@@ -223,6 +233,7 @@ verifySearchEngineButton
 )
 }
 }
+SmokeTest
 Ignore
 (
 "

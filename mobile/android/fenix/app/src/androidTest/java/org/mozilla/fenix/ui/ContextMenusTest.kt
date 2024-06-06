@@ -119,6 +119,16 @@ mozilla
 .
 fenix
 .
+customannotations
+.
+SmokeTest
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 settings
@@ -379,6 +389,7 @@ shutdown
 (
 )
 }
+SmokeTest
 Test
 fun
 verifyContextOpenLinkNewTab
@@ -479,6 +490,7 @@ Test_Page_4
 )
 }
 }
+SmokeTest
 Test
 fun
 verifyContextOpenLinkPrivateTab

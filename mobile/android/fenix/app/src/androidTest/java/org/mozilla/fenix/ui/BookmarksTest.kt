@@ -153,6 +153,16 @@ mozilla
 .
 fenix
 .
+customannotations
+.
+SmokeTest
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 bookmarkStorage
@@ -897,6 +907,7 @@ bookmarksFolderName
 )
 }
 }
+SmokeTest
 Test
 fun
 editBookmarkTest
@@ -1380,6 +1391,7 @@ verifyPrivateModeSelected
 )
 }
 }
+SmokeTest
 Test
 fun
 deleteBookmarkTest
@@ -1475,6 +1487,7 @@ verifyUndoDeleteSnackBarButton
 )
 }
 }
+SmokeTest
 Test
 fun
 undoDeleteBookmarkTest
@@ -1613,9 +1626,10 @@ toString
 )
 }
 }
+SmokeTest
 Test
 fun
-multiSelectionToolbarItemsTest
+bookmarksMultiSelectionToolbarItemsTest
 (
 )
 {
@@ -1708,6 +1722,7 @@ verifyBookmarksMenuView
 )
 }
 }
+SmokeTest
 Test
 fun
 openSelectionInNewTabTest
@@ -1824,6 +1839,7 @@ verifyExistingTabList
 )
 }
 }
+SmokeTest
 Test
 fun
 openSelectionInPrivateTabTest
@@ -1913,6 +1929,7 @@ verifyExistingTabList
 )
 }
 }
+SmokeTest
 Test
 fun
 deleteMultipleSelectionTest
@@ -2035,6 +2052,7 @@ verifyDeleteMultipleBookmarksSnackBar
 )
 }
 }
+SmokeTest
 Test
 fun
 undoDeleteMultipleSelectionTest
@@ -2396,6 +2414,7 @@ verifyFolderTitle
 )
 }
 }
+SmokeTest
 Test
 fun
 changeBookmarkParentFolderTest
