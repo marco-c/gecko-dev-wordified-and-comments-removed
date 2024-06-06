@@ -248,6 +248,16 @@ onSearch
 (
 )
 {
+BookmarksManagement
+.
+searchIconTapped
+.
+record
+(
+NoExtras
+(
+)
+)
 bookmarksController
 .
 handleSearch
