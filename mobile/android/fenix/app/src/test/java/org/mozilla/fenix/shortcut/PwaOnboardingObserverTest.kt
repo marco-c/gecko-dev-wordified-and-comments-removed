@@ -105,6 +105,12 @@ io
 .
 mockk
 .
+spyk
+import
+io
+.
+mockk
+.
 verify
 import
 mozilla
@@ -374,6 +380,8 @@ true
 )
 pwaOnboardingObserver
 =
+spyk
+(
 PwaOnboardingObserver
 (
 store
@@ -391,6 +399,7 @@ settings
 webAppUseCases
 =
 webAppUseCases
+)
 )
 every
 {
