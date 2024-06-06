@@ -841,9 +841,6 @@ sessionId
 "
 1
 "
-pastedText
-=
-null
 )
 )
 }
@@ -1496,9 +1493,6 @@ actionBrowserFragmentToSearchFragment
 sessionId
 =
 null
-pastedText
-=
-null
 )
 navController
 .
@@ -1878,9 +1872,6 @@ actionBrowserFragmentToSearchFragment
 sessionId
 =
 null
-pastedText
-=
-null
 )
 navController
 .
@@ -2037,9 +2028,6 @@ BrowserFragmentDirections
 actionBrowserFragmentToSearchFragment
 (
 sessionId
-=
-null
-pastedText
 =
 null
 )

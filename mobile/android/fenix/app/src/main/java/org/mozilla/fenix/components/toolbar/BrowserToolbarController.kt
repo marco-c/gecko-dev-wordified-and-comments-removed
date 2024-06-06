@@ -448,9 +448,6 @@ selectedSession
 ?
 .
 id
-pastedText
-=
-text
 )
 )
 }
@@ -551,9 +548,6 @@ selectedSession
 ?
 .
 id
-pastedText
-=
-null
 )
 )
 }
@@ -820,9 +814,6 @@ actionBrowserFragmentToSearchFragment
 sessionId
 =
 null
-pastedText
-=
-null
 )
 navController
 .
@@ -859,9 +850,6 @@ BrowserFragmentDirections
 actionBrowserFragmentToSearchFragment
 (
 sessionId
-=
-null
-pastedText
 =
 null
 )

@@ -1586,9 +1586,6 @@ null
 showShortcutEnginePicker
 =
 true
-pastedText
-=
-null
 )
 val
 extras
@@ -2330,9 +2327,6 @@ null
 showShortcutEnginePicker
 =
 true
-pastedText
-=
-null
 )
 nav
 (
