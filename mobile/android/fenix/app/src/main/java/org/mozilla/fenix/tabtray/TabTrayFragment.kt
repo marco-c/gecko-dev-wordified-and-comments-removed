@@ -1648,6 +1648,11 @@ hasNoTabs
 &
 !
 isPrivate
+setHasOptionsMenu
+(
+!
+hasNoTabs
+)
 if
 (
 hasNoTabs
