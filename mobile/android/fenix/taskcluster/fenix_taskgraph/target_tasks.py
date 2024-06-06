@@ -383,7 +383,7 @@ _target_task
 "
 fennec
 -
-beta
+production
 "
 )
 def
@@ -406,7 +406,7 @@ tasks
 required
 for
 a
-beta
+production
 build
 signed
 with
@@ -436,7 +436,7 @@ if
 _filter_fennec
 (
 "
-beta
+production
 "
 t
 parameters
