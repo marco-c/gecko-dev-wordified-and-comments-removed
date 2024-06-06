@@ -235,6 +235,16 @@ focus
 .
 session
 .
+removeAndCloseAllSessions
+import
+org
+.
+mozilla
+.
+focus
+.
+session
+.
 ui
 .
 SessionsSheetFragment
@@ -1124,7 +1134,7 @@ components
 .
 sessionManager
 .
-removeSessions
+removeAndCloseAllSessions
 (
 )
 if

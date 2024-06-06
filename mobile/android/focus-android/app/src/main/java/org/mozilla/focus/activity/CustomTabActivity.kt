@@ -100,6 +100,16 @@ focus
 ext
 .
 components
+import
+org
+.
+mozilla
+.
+focus
+.
+session
+.
+removeAndCloseSession
 /
 *
 *
@@ -295,7 +305,7 @@ components
 .
 sessionManager
 .
-remove
+removeAndCloseSession
 (
 customTabSession
 )

@@ -281,7 +281,7 @@ components
 .
 sessionManager
 .
-removeSessions
+removeAndCloseAllSessions
 (
 )
 VisibilityLifeCycleCallback
@@ -328,7 +328,7 @@ components
 .
 sessionManager
 .
-removeSessions
+removeAndCloseAllSessions
 (
 )
 stopForeground

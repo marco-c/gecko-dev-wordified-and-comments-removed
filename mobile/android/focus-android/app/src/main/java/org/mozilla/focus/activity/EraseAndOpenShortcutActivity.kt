@@ -99,6 +99,16 @@ mozilla
 .
 focus
 .
+session
+.
+removeAndCloseAllSessions
+import
+org
+.
+mozilla
+.
+focus
+.
 telemetry
 .
 TelemetryWrapper
@@ -129,7 +139,7 @@ components
 .
 sessionManager
 .
-removeSessions
+removeAndCloseAllSessions
 (
 )
 TelemetryWrapper
