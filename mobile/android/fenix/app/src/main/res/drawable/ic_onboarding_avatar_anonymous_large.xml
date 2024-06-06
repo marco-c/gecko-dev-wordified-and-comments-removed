@@ -137,11 +137,8 @@ android
 fillColor
 =
 "
-android
-:
-color
-/
-white
+?
+accent
 "
 android
 :
@@ -323,11 +320,8 @@ android
 fillColor
 =
 "
-android
-:
-color
-/
-white
+?
+accent
 "
 android
 :
