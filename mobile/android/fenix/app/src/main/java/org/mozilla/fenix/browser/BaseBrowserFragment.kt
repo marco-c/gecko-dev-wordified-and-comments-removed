@@ -2421,6 +2421,8 @@ make
 view
 =
 view
+.
+browserLayout
 duration
 =
 Snackbar
@@ -3527,6 +3529,8 @@ make
 view
 =
 view
+.
+browserLayout
 duration
 =
 Snackbar
@@ -4998,6 +5002,8 @@ make
 view
 =
 view
+.
+browserLayout
 duration
 =
 FenixSnackbar
@@ -5226,6 +5232,8 @@ view
 requireView
 (
 )
+.
+browserLayout
 duration
 =
 Snackbar

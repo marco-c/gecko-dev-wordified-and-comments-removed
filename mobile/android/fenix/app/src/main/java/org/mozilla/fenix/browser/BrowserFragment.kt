@@ -1417,6 +1417,8 @@ make
 view
 =
 view
+.
+browserLayout
 duration
 =
 Snackbar
