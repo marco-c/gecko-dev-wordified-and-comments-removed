@@ -300,8 +300,8 @@ saveOpenTabsCount
 {
 settings
 .
-setOpenTabsCount
-(
+openTabsCount
+=
 sessionManager
 .
 sessionsOfType
@@ -313,7 +313,6 @@ false
 .
 count
 (
-)
 )
 }
 override

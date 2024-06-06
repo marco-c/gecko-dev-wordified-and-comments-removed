@@ -379,10 +379,9 @@ verify
 {
 settings
 .
-setOpenTabsCount
-(
+openTabsCount
+=
 1
-)
 }
 }
 Test
