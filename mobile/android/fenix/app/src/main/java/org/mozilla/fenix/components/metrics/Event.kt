@@ -435,12 +435,6 @@ Event
 (
 )
 object
-UriOpened
-:
-Event
-(
-)
-object
 NormalAndPrivateUriOpened
 :
 Event
