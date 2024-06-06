@@ -431,14 +431,11 @@ data
 .
 *
 /
+const
 val
 showClearSiteData
 =
-Config
-.
-channel
-.
-isNightlyOrDebug
+true
 /
 *
 *
