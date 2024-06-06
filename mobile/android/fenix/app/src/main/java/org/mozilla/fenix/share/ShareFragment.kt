@@ -335,7 +335,7 @@ R
 .
 style
 .
-CreateCollectionDialogStyle
+ShareDialogStyle
 )
 }
 override
