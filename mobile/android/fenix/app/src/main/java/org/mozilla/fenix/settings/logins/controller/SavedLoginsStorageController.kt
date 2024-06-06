@@ -171,7 +171,7 @@ sync
 .
 logins
 .
-LoginsStorageException
+LoginsApiException
 import
 mozilla
 .
@@ -595,7 +595,7 @@ catch
 (
 loginException
 :
-LoginsStorageException
+LoginsApiException
 )
 {
 Log
@@ -845,7 +845,7 @@ catch
 (
 loginException
 :
-LoginsStorageException
+LoginsApiException
 )
 {
 when
@@ -1114,7 +1114,7 @@ catch
 (
 e
 :
-LoginsStorageException
+LoginsApiException
 )
 {
 /

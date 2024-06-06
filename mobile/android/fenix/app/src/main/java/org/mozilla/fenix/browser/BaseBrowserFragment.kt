@@ -319,7 +319,7 @@ places
 .
 uniffi
 .
-PlacesException
+PlacesApiException
 import
 mozilla
 .
@@ -6941,7 +6941,7 @@ catch
 (
 e
 :
-PlacesException
+PlacesApiException
 .
 UrlParseFailed
 )
