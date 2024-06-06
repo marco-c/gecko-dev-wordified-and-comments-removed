@@ -178,11 +178,10 @@ MockWebServer
 .
 apply
 {
-setDispatcher
-(
+dispatcher
+=
 AndroidAssetDispatcher
 (
-)
 )
 }
 fun

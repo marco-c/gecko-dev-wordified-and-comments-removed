@@ -504,8 +504,8 @@ MockWebServer
 )
 server
 .
-setDispatcher
-(
+dispatcher
+=
 object
 :
 Dispatcher
@@ -536,7 +536,6 @@ OK
 )
 }
 }
-)
 return
 server
 }
