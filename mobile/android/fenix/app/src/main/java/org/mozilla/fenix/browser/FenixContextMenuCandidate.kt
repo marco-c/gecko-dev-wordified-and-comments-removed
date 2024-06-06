@@ -95,6 +95,16 @@ feature
 .
 contextmenu
 .
+ContextMenuUseCases
+import
+mozilla
+.
+components
+.
+feature
+.
+contextmenu
+.
 DefaultSnackbarDelegate
 import
 mozilla
@@ -165,6 +175,9 @@ Context
 tabsUseCases
 :
 TabsUseCases
+contextMenuUseCases
+:
+ContextMenuUseCases
 snackBarParentView
 :
 View
@@ -223,6 +236,7 @@ ContextMenuCandidate
 createSaveImageCandidate
 (
 context
+contextMenuUseCases
 )
 ContextMenuCandidate
 .
