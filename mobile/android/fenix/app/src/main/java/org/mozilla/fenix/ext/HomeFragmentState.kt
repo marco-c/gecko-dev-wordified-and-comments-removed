@@ -565,7 +565,7 @@ false
 return
 selectedCategories
 .
-map
+associate
 {
 it
 .
@@ -577,10 +577,6 @@ stories
 .
 size
 }
-.
-toMap
-(
-)
 }
 }
 return
