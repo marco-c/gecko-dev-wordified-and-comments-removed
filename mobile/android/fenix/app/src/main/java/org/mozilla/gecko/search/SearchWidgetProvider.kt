@@ -179,6 +179,14 @@ mozilla
 .
 fenix
 .
+IntentReceiverActivity
+import
+org
+.
+mozilla
+.
+fenix
+.
 R
 import
 org
@@ -795,7 +803,7 @@ return
 Intent
 (
 context
-HomeActivity
+IntentReceiverActivity
 :
 :
 class
