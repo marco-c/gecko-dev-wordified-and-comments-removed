@@ -291,9 +291,9 @@ CustomSearchEngineStore
 .
 hasAllDefaultSearchEngines
 (
-activity
-!
-!
+requireActivity
+(
+)
 )
 }
 }
@@ -371,9 +371,9 @@ CustomSearchEngineStore
 .
 restoreDefaultSearchEngines
 (
-activity
-!
-!
+requireActivity
+(
+)
 )
 refetchSearchEngines
 (

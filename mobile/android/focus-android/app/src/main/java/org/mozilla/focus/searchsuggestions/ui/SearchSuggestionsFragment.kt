@@ -392,9 +392,9 @@ ViewModelProviders
 .
 of
 (
-parentFragment
-!
-!
+requireParentFragment
+(
+)
 )
 .
 get
@@ -476,7 +476,7 @@ searchQuery
 .
 observe
 (
-this
+viewLifecycleOwner
 Observer
 {
 searchView
@@ -488,9 +488,9 @@ searchView
 .
 contentDescription
 =
-context
-!
-!
+requireContext
+(
+)
 .
 getString
 (
@@ -509,7 +509,7 @@ suggestions
 .
 observe
 (
-this
+viewLifecycleOwner
 Observer
 {
 suggestions
@@ -547,7 +547,7 @@ state
 .
 observe
 (
-this
+viewLifecycleOwner
 Observer
 {
 state
@@ -982,9 +982,9 @@ ContextCompat
 .
 getColor
 (
-context
-!
-!
+requireContext
+(
+)
 R
 .
 color

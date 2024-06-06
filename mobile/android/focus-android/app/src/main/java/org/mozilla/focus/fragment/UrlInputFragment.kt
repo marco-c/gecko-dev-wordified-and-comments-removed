@@ -1164,7 +1164,7 @@ selectedSearchSuggestion
 .
 observe
 (
-this
+viewLifecycleOwner
 Observer
 {
 val

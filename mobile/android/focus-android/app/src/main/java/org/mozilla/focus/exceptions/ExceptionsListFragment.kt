@@ -788,9 +788,9 @@ DomainListAdapter
 .
 refresh
 (
-activity
-!
-!
+requireActivity
+(
+)
 )
 {
 if

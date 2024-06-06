@@ -592,9 +592,9 @@ requireActivity
 .
 onConfigurationChanged
 (
-activity
-!
-!
+requireActivity
+(
+)
 .
 resources
 .

@@ -211,9 +211,9 @@ remove
 {
 removeSelectedDomains
 (
-activity
-!
-!
+requireActivity
+(
+)
 .
 applicationContext
 )

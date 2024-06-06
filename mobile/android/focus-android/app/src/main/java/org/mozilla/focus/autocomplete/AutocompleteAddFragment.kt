@@ -501,9 +501,9 @@ CustomDomains
 .
 load
 (
-activity
-!
-!
+requireActivity
+(
+)
 )
 val
 error
@@ -569,9 +569,9 @@ else
 {
 saveDomainAndClose
 (
-activity
-!
-!
+requireActivity
+(
+)
 .
 applicationContext
 domain
