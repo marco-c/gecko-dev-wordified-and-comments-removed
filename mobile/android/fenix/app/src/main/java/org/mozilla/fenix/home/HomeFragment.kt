@@ -2601,13 +2601,6 @@ navController
 findNavController
 (
 )
-metrics
-=
-requireComponents
-.
-analytics
-.
-metrics
 )
 )
 updateLayout

@@ -40202,6 +40202,9 @@ extra_keys
 :
 times_shown
 :
+type
+:
+string
 description
 :
 |
@@ -40217,6 +40220,9 @@ current
 .
 position
 :
+type
+:
+string
 description
 :
 |
@@ -40322,6 +40328,9 @@ extra_keys
 :
 category_name
 :
+type
+:
+string
 description
 :
 |
@@ -40337,6 +40346,9 @@ category
 .
 selected_total
 :
+type
+:
+string
 description
 :
 |
@@ -40352,6 +40364,9 @@ tapped
 .
 new_state
 :
+type
+:
+string
 description
 :
 |
