@@ -401,16 +401,6 @@ mozilla
 .
 fenix
 .
-StrictModeManager
-.
-enableStrictMode
-import
-org
-.
-mozilla
-.
-fenix
-.
 components
 .
 Components
@@ -964,6 +954,10 @@ setupMegazord
 setDayNightTheme
 (
 )
+components
+.
+strictMode
+.
 enableStrictMode
 (
 true

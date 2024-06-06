@@ -1271,7 +1271,9 @@ Bundle
 ?
 )
 {
-StrictModeManager
+components
+.
+strictMode
 .
 attachListenerToDisablePenaltyDeath
 (
