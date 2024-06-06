@@ -414,11 +414,13 @@ val
 mozilla_android_components
 =
 "
-12
+13
 .
 0
 .
 0
+-
+SNAPSHOT
 "
 /
 /
@@ -515,7 +517,7 @@ mozilla_appservices
 .
 38
 .
-1
+2
 "
 const
 val
