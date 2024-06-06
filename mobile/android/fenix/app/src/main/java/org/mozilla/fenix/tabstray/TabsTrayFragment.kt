@@ -951,6 +951,13 @@ requireComponents
 core
 .
 tabCollectionStorage
+accountManager
+=
+requireComponents
+.
+backgroundServices
+.
+accountManager
 )
 tabsTrayController
 =
