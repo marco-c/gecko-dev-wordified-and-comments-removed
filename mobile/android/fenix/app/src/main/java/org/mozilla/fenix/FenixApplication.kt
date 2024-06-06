@@ -3315,9 +3315,6 @@ experiments
 .
 apply
 {
-initialize
-(
-)
 setupNimbusObserver
 (
 this
