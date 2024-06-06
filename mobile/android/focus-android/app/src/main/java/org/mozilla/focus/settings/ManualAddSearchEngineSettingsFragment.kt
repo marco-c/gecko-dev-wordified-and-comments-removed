@@ -829,7 +829,6 @@ Bundle
 )
 :
 View
-?
 {
 scope
 =
