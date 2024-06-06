@@ -385,6 +385,11 @@ AppConstants
 .
 isGeckoBuild
 (
+InstrumentationRegistry
+.
+getContext
+(
+)
 )
 )
 {

@@ -107,6 +107,8 @@ isEmpty
 {
 WebViewProvider
 .
+INSTANCE
+.
 performCleanup
 (
 context

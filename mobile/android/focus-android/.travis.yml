@@ -75,12 +75,14 @@ script
 /
 gradlew
 -
+Pcoverage
+-
 -
 no
 -
 daemon
 clean
-assemble
+assembleFocusGeckoX86
 -
 echo
 "
@@ -94,6 +96,8 @@ adjust_token
 .
 /
 gradlew
+-
+Pcoverage
 -
 -
 no

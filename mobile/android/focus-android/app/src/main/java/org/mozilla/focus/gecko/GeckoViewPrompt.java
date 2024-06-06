@@ -5,7 +5,7 @@ mozilla
 .
 focus
 .
-web
+gecko
 ;
 import
 android
@@ -322,6 +322,7 @@ util
 .
 Locale
 ;
+public
 final
 class
 GeckoViewPrompt
