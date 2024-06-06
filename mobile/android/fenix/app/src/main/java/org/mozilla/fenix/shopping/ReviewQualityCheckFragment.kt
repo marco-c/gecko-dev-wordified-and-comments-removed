@@ -273,6 +273,13 @@ settings
 requireComponents
 .
 settings
+browserStore
+=
+requireComponents
+.
+core
+.
+store
 scope
 =
 lifecycleScope
