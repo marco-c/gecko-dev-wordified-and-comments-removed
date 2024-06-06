@@ -215,7 +215,6 @@ updateSwitch
 (
 )
 }
-private
 fun
 updateSwitch
 (
