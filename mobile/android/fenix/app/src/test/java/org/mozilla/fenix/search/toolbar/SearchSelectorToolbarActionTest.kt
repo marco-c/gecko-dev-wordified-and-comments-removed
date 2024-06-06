@@ -606,7 +606,6 @@ view
 Orientation
 .
 DOWN
-true
 )
 }
 every
@@ -644,7 +643,6 @@ view
 Orientation
 .
 UP
-true
 )
 }
 }

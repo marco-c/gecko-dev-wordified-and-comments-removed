@@ -2457,9 +2457,6 @@ it
 orientation
 =
 orientation
-forceOrientation
-=
-true
 )
 }
 }

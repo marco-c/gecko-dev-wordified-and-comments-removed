@@ -515,9 +515,6 @@ it
 orientation
 =
 orientation
-forceOrientation
-=
-true
 )
 }
 val
