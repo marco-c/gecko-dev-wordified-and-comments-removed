@@ -456,7 +456,7 @@ displayName
 =
 Locale
 .
-CANADA
+ENGLISH
 .
 displayLanguage
 automaticTranslationOptionPreference
@@ -476,7 +476,7 @@ displayName
 =
 Locale
 .
-FRANCE
+FRENCH
 .
 displayLanguage
 automaticTranslationOptionPreference
@@ -496,7 +496,7 @@ displayName
 =
 Locale
 .
-GERMANY
+GERMAN
 .
 displayLanguage
 automaticTranslationOptionPreference
@@ -516,7 +516,7 @@ displayName
 =
 Locale
 .
-CHINA
+ITALIAN
 .
 displayLanguage
 automaticTranslationOptionPreference
