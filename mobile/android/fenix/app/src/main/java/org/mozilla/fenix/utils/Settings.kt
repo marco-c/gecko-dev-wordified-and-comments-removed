@@ -1727,7 +1727,7 @@ instead
 *
 /
 var
-wasDefaultBrowserOnLastPause
+wasDefaultBrowserOnLastResume
 by
 booleanPreference
 (
