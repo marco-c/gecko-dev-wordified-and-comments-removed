@@ -1462,6 +1462,14 @@ mozac_ic_settings
 "
 app
 :
+drawableTint
+=
+"
+?
+primaryText
+"
+app
+:
 layout_constraintTop_toBottomOf
 =
 "
