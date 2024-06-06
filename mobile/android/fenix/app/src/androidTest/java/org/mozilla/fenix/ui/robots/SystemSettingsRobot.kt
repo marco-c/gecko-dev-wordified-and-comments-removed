@@ -125,7 +125,7 @@ helpers
 .
 MatcherHelper
 .
-assertItemContainingTextExists
+assertUIObjectExists
 import
 org
 .
@@ -430,7 +430,7 @@ waitForExists
 (
 waitingTime
 )
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemContainingText
 (

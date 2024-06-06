@@ -149,7 +149,7 @@ helpers
 .
 MatcherHelper
 .
-assertItemContainingTextExists
+assertItemTextEquals
 import
 org
 .
@@ -161,7 +161,7 @@ helpers
 .
 MatcherHelper
 .
-assertItemTextEquals
+assertUIObjectExists
 import
 org
 .
@@ -233,7 +233,7 @@ String
 {
 try
 {
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemWithText
 (
@@ -290,7 +290,7 @@ refreshPage
 .
 clickStartMicrophoneButton
 {
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemWithText
 (
@@ -338,7 +338,7 @@ String
 {
 try
 {
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemWithText
 (
@@ -395,7 +395,7 @@ refreshPage
 .
 clickStartCameraButton
 {
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemWithText
 (
@@ -441,7 +441,7 @@ url
 String
 )
 {
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemWithText
 (
@@ -489,7 +489,7 @@ String
 {
 try
 {
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemWithText
 (
@@ -546,7 +546,7 @@ refreshPage
 .
 clickGetLocationButton
 {
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemWithText
 (
@@ -605,7 +605,7 @@ blocked
 {
 try
 {
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemWithText
 (
@@ -659,7 +659,7 @@ refreshPage
 .
 clickOpenNotificationButton
 {
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemWithText
 (
@@ -727,7 +727,7 @@ displayed
 anymore
 *
 /
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemWithText
 (
@@ -756,7 +756,7 @@ String
 {
 try
 {
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemWithText
 (
@@ -815,7 +815,7 @@ refreshPage
 .
 clickRequestPersistentStorageAccessButton
 {
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemWithText
 (
@@ -865,7 +865,7 @@ String
 {
 try
 {
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemWithText
 (
@@ -924,7 +924,7 @@ refreshPage
 .
 clickRequestDRMControlledContentAccessButton
 {
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemWithText
 (

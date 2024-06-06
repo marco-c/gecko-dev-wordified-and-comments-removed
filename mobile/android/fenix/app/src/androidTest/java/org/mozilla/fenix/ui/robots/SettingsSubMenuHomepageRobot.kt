@@ -253,7 +253,7 @@ helpers
 .
 MatcherHelper
 .
-assertItemContainingTextExists
+assertUIObjectExists
 import
 org
 .
@@ -666,7 +666,7 @@ expectedText
 String
 )
 =
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemContainingText
 (

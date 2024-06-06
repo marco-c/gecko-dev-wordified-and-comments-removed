@@ -243,19 +243,7 @@ helpers
 .
 MatcherHelper
 .
-assertItemContainingTextExists
-import
-org
-.
-mozilla
-.
-fenix
-.
-helpers
-.
-MatcherHelper
-.
-assertItemWithResIdExists
+assertUIObjectExists
 import
 org
 .
@@ -403,7 +391,7 @@ isBlocked
 Boolean
 )
 {
-assertItemWithResIdExists
+assertUIObjectExists
 (
 itemWithResId
 (
@@ -479,7 +467,7 @@ isBlocked
 Boolean
 )
 {
-assertItemWithResIdExists
+assertUIObjectExists
 (
 itemWithResId
 (
@@ -576,7 +564,7 @@ isBlocked
 Boolean
 )
 {
-assertItemWithResIdExists
+assertUIObjectExists
 (
 itemWithResId
 (
@@ -673,7 +661,7 @@ isBlocked
 Boolean
 )
 {
-assertItemWithResIdExists
+assertUIObjectExists
 (
 itemWithResId
 (
@@ -770,7 +758,7 @@ isBlocked
 Boolean
 )
 {
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemWithText
 (
@@ -933,7 +921,7 @@ isDisplayed
 Boolean
 )
 =
-assertItemWithResIdExists
+assertUIObjectExists
 (
 itemWithResId
 (
@@ -1598,7 +1586,7 @@ waitForExists
 (
 waitingTime
 )
-assertItemWithResIdExists
+assertUIObjectExists
 (
 itemWithResId
 (

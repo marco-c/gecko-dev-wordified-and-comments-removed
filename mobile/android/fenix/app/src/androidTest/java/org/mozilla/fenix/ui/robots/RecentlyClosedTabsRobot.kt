@@ -217,7 +217,7 @@ helpers
 .
 MatcherHelper
 .
-assertItemWithResIdAndTextExists
+assertUIObjectExists
 import
 org
 .
@@ -435,7 +435,7 @@ title
 String
 )
 =
-assertItemWithResIdAndTextExists
+assertUIObjectExists
 (
 recentlyClosedTabsPageTitle
 (

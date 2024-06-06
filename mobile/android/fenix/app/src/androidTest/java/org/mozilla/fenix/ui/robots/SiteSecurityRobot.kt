@@ -181,19 +181,7 @@ helpers
 .
 MatcherHelper
 .
-assertCheckedItemWithResIdAndTextExists
-import
-org
-.
-mozilla
-.
-fenix
-.
-helpers
-.
-MatcherHelper
-.
-assertItemWithResIdExists
+assertUIObjectExists
 import
 org
 .
@@ -379,7 +367,7 @@ waitForExists
 (
 waitingTime
 )
-assertCheckedItemWithResIdAndTextExists
+assertUIObjectExists
 (
 quickActionSheetUrl
 (
@@ -393,9 +381,6 @@ quickActionSheetSecurityInfo
 (
 isConnectionSecure
 )
-)
-assertItemWithResIdExists
-(
 quickActionSheetTrackingProtectionSwitch
 (
 )
@@ -433,7 +418,7 @@ waitForExists
 (
 waitingTime
 )
-assertCheckedItemWithResIdAndTextExists
+assertUIObjectExists
 (
 secureConnectionSubMenuPageTitle
 (
@@ -447,9 +432,6 @@ secureConnectionSubMenuSecurityInfo
 (
 isConnectionSecure
 )
-)
-assertItemWithResIdExists
-(
 secureConnectionSubMenuLockIcon
 (
 )
@@ -467,7 +449,7 @@ url
 String
 )
 {
-assertCheckedItemWithResIdAndTextExists
+assertUIObjectExists
 (
 clearSiteDataPrompt
 (

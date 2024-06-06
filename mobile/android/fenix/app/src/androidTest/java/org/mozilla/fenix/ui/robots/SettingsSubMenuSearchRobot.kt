@@ -487,19 +487,7 @@ helpers
 .
 MatcherHelper
 .
-assertItemContainingTextExists
-import
-org
-.
-mozilla
-.
-fenix
-.
-helpers
-.
-MatcherHelper
-.
-assertItemWithResIdAndTextExists
+assertUIObjectExists
 import
 org
 .
@@ -813,7 +801,7 @@ verifyEnginesShortcutsListHeader
 (
 )
 =
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemWithText
 (
@@ -963,7 +951,7 @@ isDisplayed
 )
 )
 )
-assertItemContainingTextExists
+assertUIObjectExists
 (
 addSearchEngineButton
 )
@@ -1022,7 +1010,7 @@ assertIsDisplayed
 (
 )
 }
-assertItemContainingTextExists
+assertUIObjectExists
 (
 addSearchEngineButton
 )
@@ -1708,7 +1696,7 @@ shouldExist
 Boolean
 )
 =
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemWithText
 (
@@ -1836,7 +1824,7 @@ edit_engine_name
 text
 =
 engineName
-assertItemWithResIdAndTextExists
+assertUIObjectExists
 (
 itemWithResIdAndText
 (
@@ -1892,7 +1880,7 @@ edit_search_string
 text
 =
 engineURL
-assertItemWithResIdAndTextExists
+assertUIObjectExists
 (
 itemWithResIdAndText
 (
@@ -1972,7 +1960,7 @@ setText
 (
 engineName
 )
-assertItemWithResIdAndTextExists
+assertUIObjectExists
 (
 itemWithResIdAndText
 (
@@ -2029,7 +2017,7 @@ setText
 (
 engineURL
 )
-assertItemWithResIdAndTextExists
+assertUIObjectExists
 (
 itemWithResIdAndText
 (
@@ -2304,7 +2292,7 @@ save_button
 click
 (
 )
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemContainingText
 (

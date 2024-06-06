@@ -171,7 +171,7 @@ helpers
 .
 MatcherHelper
 .
-assertItemWithResIdExists
+assertUIObjectExists
 import
 org
 .
@@ -287,7 +287,7 @@ waitForExists
 (
 waitingTime
 )
-assertItemWithResIdExists
+assertUIObjectExists
 (
 itemWithResId
 (

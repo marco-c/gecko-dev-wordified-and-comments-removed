@@ -421,18 +421,6 @@ helpers
 .
 MatcherHelper
 .
-assertItemContainingTextExists
-import
-org
-.
-mozilla
-.
-fenix
-.
-helpers
-.
-MatcherHelper
-.
 assertItemTextContains
 import
 org
@@ -457,7 +445,7 @@ helpers
 .
 MatcherHelper
 .
-assertItemWithDescriptionExists
+assertUIObjectExists
 import
 org
 .
@@ -469,19 +457,7 @@ helpers
 .
 MatcherHelper
 .
-assertItemWithResIdExists
-import
-org
-.
-mozilla
-.
-fenix
-.
-helpers
-.
-MatcherHelper
-.
-assertItemWithResIdIsGone
+assertUIObjectIsGone
 import
 org
 .
@@ -611,7 +587,7 @@ verifySearchView
 (
 )
 =
-assertItemWithResIdExists
+assertUIObjectExists
 (
 itemWithResId
 (
@@ -632,7 +608,7 @@ isDisplayed
 Boolean
 )
 =
-assertItemWithResIdExists
+assertUIObjectExists
 (
 itemWithResId
 (
@@ -658,7 +634,7 @@ Boolean
 true
 )
 =
-assertItemWithDescriptionExists
+assertUIObjectExists
 (
 scanButton
 exists
@@ -673,7 +649,7 @@ enabled
 Boolean
 )
 =
-assertItemWithDescriptionExists
+assertUIObjectExists
 (
 voiceSearchButton
 exists
@@ -1018,7 +994,7 @@ verifyAllowSuggestionsInPrivateModeDialog
 (
 )
 =
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemWithText
 (
@@ -1137,7 +1113,7 @@ verifySearchSelectorButton
 (
 )
 =
-assertItemWithResIdExists
+assertUIObjectExists
 (
 searchSelectorButton
 )
@@ -1166,7 +1142,7 @@ name
 String
 )
 =
-assertItemWithDescriptionExists
+assertUIObjectExists
 (
 itemWithDescription
 (
@@ -1222,7 +1198,7 @@ if
 shouldExist
 )
 {
-assertItemWithResIdExists
+assertUIObjectExists
 (
 searchShortcutList
 .
@@ -1241,7 +1217,7 @@ it
 }
 else
 {
-assertItemWithResIdIsGone
+assertUIObjectIsGone
 (
 searchShortcutList
 .
@@ -1894,7 +1870,7 @@ mDevice
 pressBack
 (
 )
-assertItemWithResIdIsGone
+assertUIObjectIsGone
 (
 searchWrapper
 (
@@ -1913,7 +1889,7 @@ mDevice
 pressBack
 (
 )
-assertItemWithResIdIsGone
+assertUIObjectIsGone
 (
 searchWrapper
 (
@@ -2040,7 +2016,7 @@ runWithIdleRes
 sessionLoadedIdlingResource
 )
 {
-assertItemWithResIdExists
+assertUIObjectExists
 (
 itemWithResId
 (

@@ -455,7 +455,7 @@ helpers
 .
 MatcherHelper
 .
-assertItemContainingTextExists
+assertUIObjectExists
 import
 org
 .
@@ -705,7 +705,7 @@ verifySyncedTabsListWhenUserIsNotSignedIn
 verifySyncedTabsList
 (
 )
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemContainingText
 (
@@ -839,7 +839,7 @@ forEach
 title
 -
 >
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemContainingText
 (

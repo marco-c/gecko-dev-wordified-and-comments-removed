@@ -243,7 +243,7 @@ helpers
 .
 MatcherHelper
 .
-assertCheckedItemWithResIdExists
+assertUIObjectExists
 import
 org
 .
@@ -920,7 +920,7 @@ assertOpenLinksInPrivateTabOff
 (
 )
 {
-assertCheckedItemWithResIdExists
+assertUIObjectExists
 (
 checkedItemWithResId
 (

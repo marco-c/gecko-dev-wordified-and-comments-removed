@@ -215,7 +215,7 @@ helpers
 .
 MatcherHelper
 .
-assertItemContainingTextExists
+assertUIObjectExists
 import
 org
 .
@@ -322,7 +322,7 @@ verifyTPExceptionsDefaultView
 (
 )
 {
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemWithText
 (
@@ -402,7 +402,7 @@ waitForExists
 (
 waitingTime
 )
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemContainingText
 (

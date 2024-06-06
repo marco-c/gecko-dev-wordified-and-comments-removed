@@ -115,7 +115,7 @@ helpers
 .
 MatcherHelper
 .
-assertItemWithResIdExists
+assertUIObjectExists
 import
 org
 .
@@ -321,7 +321,7 @@ title
 click
 (
 )
-assertItemWithResIdExists
+assertUIObjectExists
 (
 checkIcon
 (
@@ -351,7 +351,7 @@ title
 click
 (
 )
-assertItemWithResIdExists
+assertUIObjectExists
 (
 checkIcon
 (
@@ -397,7 +397,7 @@ title
 click
 (
 )
-assertItemWithResIdExists
+assertUIObjectExists
 (
 checkIcon
 (
@@ -408,7 +408,7 @@ branch
 click
 (
 )
-assertItemWithResIdExists
+assertUIObjectExists
 (
 checkIcon
 (

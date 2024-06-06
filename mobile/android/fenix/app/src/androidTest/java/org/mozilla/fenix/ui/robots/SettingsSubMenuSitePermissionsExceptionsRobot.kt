@@ -203,7 +203,7 @@ helpers
 .
 MatcherHelper
 .
-assertItemContainingTextIsGone
+assertUIObjectIsGone
 import
 org
 .
@@ -381,7 +381,7 @@ isDisplayed
 }
 else
 {
-assertItemContainingTextIsGone
+assertUIObjectIsGone
 (
 itemContainingText
 (

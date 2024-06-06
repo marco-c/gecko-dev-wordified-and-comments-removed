@@ -149,19 +149,7 @@ helpers
 .
 MatcherHelper
 .
-assertItemContainingTextExists
-import
-org
-.
-mozilla
-.
-fenix
-.
-helpers
-.
-MatcherHelper
-.
-assertItemWithResIdExists
+assertUIObjectExists
 import
 org
 .
@@ -290,7 +278,7 @@ translation
 String
 )
 =
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemWithText
 (
@@ -311,7 +299,7 @@ waitForExists
 (
 waitingTime
 )
-assertItemWithResIdExists
+assertUIObjectExists
 (
 languagesList
 .
@@ -397,7 +385,7 @@ languageName
 String
 )
 =
-assertItemContainingTextExists
+assertUIObjectExists
 (
 language
 (
@@ -430,7 +418,7 @@ verifyLanguageListIsDisplayed
 (
 )
 =
-assertItemWithResIdExists
+assertUIObjectExists
 (
 languagesList
 )

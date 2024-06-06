@@ -157,7 +157,7 @@ helpers
 .
 MatcherHelper
 .
-assertItemContainingTextExists
+assertUIObjectExists
 import
 org
 .
@@ -346,7 +346,7 @@ title
 String
 )
 =
-assertItemContainingTextExists
+assertUIObjectExists
 (
 shortcutTitle
 (
@@ -440,7 +440,7 @@ shortcutTitle
 String
 )
 =
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemContainingText
 (

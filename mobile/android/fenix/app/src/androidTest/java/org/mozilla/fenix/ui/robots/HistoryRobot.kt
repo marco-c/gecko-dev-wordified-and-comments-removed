@@ -269,19 +269,7 @@ helpers
 .
 MatcherHelper
 .
-assertItemContainingTextExists
-import
-org
-.
-mozilla
-.
-fenix
-.
-helpers
-.
-MatcherHelper
-.
-assertItemWithResIdAndTextExists
+assertUIObjectExists
 import
 org
 .
@@ -480,7 +468,7 @@ item
 String
 )
 =
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemContainingText
 (
@@ -749,7 +737,7 @@ the
 Recently
 visited
 section
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemContainingText
 (
@@ -1350,7 +1338,7 @@ assertDeleteConfirmationMessage
 (
 )
 =
-assertItemWithResIdAndTextExists
+assertUIObjectExists
 (
 itemWithResIdContainingText
 (

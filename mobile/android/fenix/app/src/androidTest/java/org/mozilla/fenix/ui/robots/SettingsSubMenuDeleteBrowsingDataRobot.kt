@@ -207,7 +207,7 @@ helpers
 .
 MatcherHelper
 .
-assertItemContainingTextExists
+assertUIObjectExists
 import
 org
 .
@@ -219,7 +219,7 @@ helpers
 .
 MatcherHelper
 .
-assertItemContainingTextIsGone
+assertUIObjectIsGone
 import
 org
 .
@@ -1194,7 +1194,7 @@ addresses
 String
 )
 =
-assertItemContainingTextExists
+assertUIObjectExists
 (
 browsingHistoryDescription
 (
@@ -1207,7 +1207,7 @@ assertDeleteBrowsingDataSnackbar
 (
 )
 =
-assertItemContainingTextIsGone
+assertUIObjectIsGone
 (
 itemWithText
 (

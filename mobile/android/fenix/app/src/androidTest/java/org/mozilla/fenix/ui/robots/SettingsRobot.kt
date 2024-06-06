@@ -515,7 +515,7 @@ helpers
 .
 MatcherHelper
 .
-assertItemContainingTextExists
+assertUIObjectExists
 import
 org
 .
@@ -747,7 +747,7 @@ verifyTabsButton
 (
 )
 =
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemContainingText
 (
@@ -1231,7 +1231,7 @@ verifyRateOnGooglePlay
 (
 )
 =
-assertItemContainingTextExists
+assertUIObjectExists
 (
 rateOnGooglePlayHeading
 (
@@ -1242,7 +1242,7 @@ verifyAboutFirefoxPreview
 (
 )
 =
-assertItemContainingTextExists
+assertUIObjectExists
 (
 aboutFirefoxHeading
 (
@@ -4131,7 +4131,7 @@ scrollToEnd
 (
 LISTS_MAXSWIPES
 )
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemWithText
 (

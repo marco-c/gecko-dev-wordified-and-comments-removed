@@ -385,19 +385,7 @@ helpers
 .
 MatcherHelper
 .
-assertItemContainingTextExists
-import
-org
-.
-mozilla
-.
-fenix
-.
-helpers
-.
-MatcherHelper
-.
-assertItemWithResIdExists
+assertUIObjectExists
 import
 org
 .
@@ -543,7 +531,7 @@ shouldBeDisplayed
 Boolean
 )
 =
-assertItemWithResIdExists
+assertUIObjectExists
 (
 addonsList
 (
@@ -815,7 +803,7 @@ RETRY_COUNT
 {
 try
 {
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemWithText
 (
@@ -1094,7 +1082,7 @@ selectAllowInPrivateBrowsing
 (
 )
 {
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemWithText
 (

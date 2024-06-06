@@ -468,30 +468,6 @@ helpers
 .
 MatcherHelper
 .
-assertItemContainingTextExists
-import
-org
-.
-mozilla
-.
-fenix
-.
-helpers
-.
-MatcherHelper
-.
-assertItemContainingTextIsGone
-import
-org
-.
-mozilla
-.
-fenix
-.
-helpers
-.
-MatcherHelper
-.
 assertItemTextEquals
 import
 org
@@ -504,7 +480,7 @@ helpers
 .
 MatcherHelper
 .
-assertItemWithDescriptionExists
+assertUIObjectExists
 import
 org
 .
@@ -516,31 +492,7 @@ helpers
 .
 MatcherHelper
 .
-assertItemWithResIdAndTextExists
-import
-org
-.
-mozilla
-.
-fenix
-.
-helpers
-.
-MatcherHelper
-.
-assertItemWithResIdExists
-import
-org
-.
-mozilla
-.
-fenix
-.
-helpers
-.
-MatcherHelper
-.
-assertItemWithResIdIsGone
+assertUIObjectIsGone
 import
 org
 .
@@ -759,7 +711,7 @@ waitForPageToLoad
 (
 )
 =
-assertItemWithResIdIsGone
+assertUIObjectIsGone
 (
 progressBar
 (
@@ -825,7 +777,7 @@ runWithIdleRes
 sessionLoadedIdlingResource
 )
 {
-assertItemWithResIdAndTextExists
+assertUIObjectExists
 (
 itemWithResIdContainingText
 (
@@ -997,7 +949,7 @@ runWithIdleRes
 sessionLoadedIdlingResource
 )
 {
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemContainingText
 (
@@ -1156,7 +1108,7 @@ RETRY_COUNT
 {
 try
 {
-assertItemContainingTextExists
+assertUIObjectExists
 (
 cacheSizeInfo
 )
@@ -1191,7 +1143,7 @@ expectedText
 String
 )
 =
-assertItemWithResIdAndTextExists
+assertUIObjectExists
 (
 itemWithResIdContainingText
 (
@@ -1231,7 +1183,7 @@ expectedText
 )
 )
 )
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemContainingText
 (
@@ -1293,7 +1245,7 @@ option
 is
 not
 available
-assertItemContainingTextExists
+assertUIObjectExists
 (
 contextMenuLinkUrl
 (
@@ -1370,7 +1322,7 @@ option
 is
 not
 available
-assertItemContainingTextExists
+assertUIObjectExists
 (
 contextMenuLinkUrl
 (
@@ -1450,7 +1402,7 @@ option
 is
 not
 available
-assertItemContainingTextExists
+assertUIObjectExists
 (
 contextMenuLinkUrl
 (
@@ -1647,7 +1599,7 @@ verifyNavURLBarHidden
 (
 )
 =
-assertItemWithResIdIsGone
+assertUIObjectIsGone
 (
 navURLBar
 (
@@ -1794,7 +1746,7 @@ verifyNotificationDotOnMainMenu
 (
 )
 =
-assertItemWithResIdExists
+assertUIObjectExists
 (
 itemWithResId
 (
@@ -1835,7 +1787,7 @@ verifySearchBar
 (
 )
 =
-assertItemWithResIdExists
+assertUIObjectExists
 (
 searchBar
 (
@@ -1851,7 +1803,7 @@ mDevice
 pressBack
 (
 )
-assertItemWithResIdExists
+assertUIObjectExists
 (
 itemWithResId
 (
@@ -1973,7 +1925,7 @@ verifyPDFReaderToolbarItems
 (
 )
 =
-assertItemWithResIdAndTextExists
+assertUIObjectExists
 (
 itemWithResIdContainingText
 (
@@ -2010,7 +1962,7 @@ submit
 "
 )
 )
-assertItemWithResIdIsGone
+assertUIObjectIsGone
 (
 itemWithResId
 (
@@ -2053,7 +2005,7 @@ password
 )
 password
 )
-assertItemContainingTextIsGone
+assertUIObjectIsGone
 (
 itemWithText
 (
@@ -2348,7 +2300,7 @@ swipeRight
 (
 2
 )
-assertItemContainingTextIsGone
+assertUIObjectIsGone
 (
 itemWithText
 (
@@ -2371,7 +2323,7 @@ swipeRight
 (
 2
 )
-assertItemContainingTextIsGone
+assertUIObjectIsGone
 (
 itemWithText
 (
@@ -2410,7 +2362,7 @@ swipeLeft
 (
 2
 )
-assertItemContainingTextIsGone
+assertUIObjectIsGone
 (
 itemWithText
 (
@@ -2433,7 +2385,7 @@ swipeLeft
 (
 2
 )
-assertItemContainingTextIsGone
+assertUIObjectIsGone
 (
 itemWithText
 (
@@ -2613,7 +2565,7 @@ RETRY_COUNT
 {
 try
 {
-assertItemWithResIdExists
+assertUIObjectExists
 (
 selectAddressButton
 (
@@ -2719,7 +2671,7 @@ exists
 Boolean
 )
 =
-assertItemWithResIdExists
+assertUIObjectExists
 (
 selectAddressButton
 (
@@ -2907,7 +2859,7 @@ exists
 Boolean
 )
 =
-assertItemWithResIdAndTextExists
+assertUIObjectExists
 (
 itemWithResId
 (
@@ -2931,7 +2883,7 @@ exists
 Boolean
 )
 =
-assertItemWithResIdExists
+assertUIObjectExists
 (
 selectCreditCardButton
 (
@@ -2956,7 +2908,7 @@ in
 creditCardNumbers
 )
 {
-assertItemWithResIdAndTextExists
+assertUIObjectExists
 (
 itemWithResIdContainingText
 (
@@ -3004,7 +2956,7 @@ waitForExists
 (
 waitingTime
 )
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemContainingText
 (
@@ -3208,7 +3160,7 @@ streetAddress
 streetAddress
 )
 )
-assertItemWithResIdAndTextExists
+assertUIObjectExists
 (
 itemWithResIdAndText
 (
@@ -3239,7 +3191,7 @@ apartment
 apartment
 )
 )
-assertItemWithResIdAndTextExists
+assertUIObjectExists
 (
 itemWithResIdAndText
 (
@@ -3270,7 +3222,7 @@ cardNumber
 creditCardNumber
 )
 )
-assertItemWithResIdAndTextExists
+assertUIObjectExists
 (
 itemWithResIdAndText
 (
@@ -3313,7 +3265,7 @@ currentTries
 {
 try
 {
-assertItemWithResIdExists
+assertUIObjectExists
 (
 itemWithResId
 (
@@ -3371,7 +3323,7 @@ verifySaveLoginPromptIsDisplayed
 (
 )
 =
-assertItemWithResIdExists
+assertUIObjectExists
 (
 itemWithResId
 (
@@ -3389,7 +3341,7 @@ verifySaveLoginPromptIsNotDisplayed
 (
 )
 =
-assertItemWithResIdExists
+assertUIObjectExists
 (
 itemWithResId
 (
@@ -3425,7 +3377,7 @@ RETRY_COUNT
 {
 try
 {
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemContainingText
 (
@@ -3757,7 +3709,7 @@ RETRY_COUNT
 {
 try
 {
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemContainingText
 (
@@ -3840,7 +3792,7 @@ submitDate
 )
 }
 }
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemContainingText
 (
@@ -3867,7 +3819,7 @@ LocalDate
 now
 (
 )
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemContainingText
 (
@@ -3907,7 +3859,7 @@ RETRY_COUNT
 {
 try
 {
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemContainingText
 (
@@ -4004,7 +3956,7 @@ submitTime
 )
 }
 }
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemContainingText
 (
@@ -4040,7 +3992,7 @@ RETRY_COUNT
 {
 try
 {
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemContainingText
 (
@@ -4119,7 +4071,7 @@ submitColor
 )
 }
 }
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemContainingText
 (
@@ -4183,7 +4135,7 @@ waitForExists
 (
 waitingTime
 )
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemContainingText
 (
@@ -4253,7 +4205,7 @@ submitOption
 )
 }
 }
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemContainingText
 (
@@ -4278,7 +4230,7 @@ minute
 Int
 )
 =
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemContainingText
 (
@@ -4304,7 +4256,7 @@ hexValue
 String
 )
 =
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemContainingText
 (
@@ -4340,7 +4292,7 @@ RETRY_COUNT
 {
 try
 {
-assertItemWithResIdExists
+assertUIObjectExists
 (
 cookieBanner
 (
@@ -4388,7 +4340,7 @@ waitForPageToLoad
 }
 }
 }
-assertItemWithResIdExists
+assertUIObjectExists
 (
 cookieBanner
 (
@@ -4403,7 +4355,7 @@ verifyOpenLinkInAnotherAppPrompt
 (
 )
 {
-assertItemWithResIdExists
+assertUIObjectExists
 (
 itemWithResId
 (
@@ -4415,9 +4367,6 @@ id
 parentPanel
 "
 )
-)
-assertItemContainingTextExists
-(
 itemContainingText
 (
 getStringResource
@@ -4465,7 +4414,7 @@ RETRY_COUNT
 {
 try
 {
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemContainingText
 (
@@ -4535,7 +4484,7 @@ exists
 Boolean
 )
 =
-assertItemWithResIdExists
+assertUIObjectExists
 (
 itemWithResId
 (
@@ -4555,8 +4504,8 @@ fun
 verifyConnectionErrorMessage
 (
 )
-{
-assertItemContainingTextExists
+=
+assertUIObjectExists
 (
 itemContainingText
 (
@@ -4569,9 +4518,6 @@ string
 mozac_browser_errorpages_connection_failure_title
 )
 )
-)
-assertItemWithResIdExists
-(
 itemWithResId
 (
 "
@@ -4579,13 +4525,12 @@ errorTryAgain
 "
 )
 )
-}
 fun
 verifyAddressNotFoundErrorMessage
 (
 )
-{
-assertItemContainingTextExists
+=
+assertUIObjectExists
 (
 itemContainingText
 (
@@ -4598,9 +4543,6 @@ string
 mozac_browser_errorpages_unknown_host_title
 )
 )
-)
-assertItemWithResIdExists
-(
 itemWithResId
 (
 "
@@ -4608,13 +4550,12 @@ errorTryAgain
 "
 )
 )
-}
 fun
 verifyNoInternetConnectionErrorMessage
 (
 )
-{
-assertItemContainingTextExists
+=
+assertUIObjectExists
 (
 itemContainingText
 (
@@ -4627,9 +4568,6 @@ string
 mozac_browser_errorpages_no_internet_title
 )
 )
-)
-assertItemWithResIdExists
-(
 itemWithResId
 (
 "
@@ -4637,7 +4575,6 @@ errorTryAgain
 "
 )
 )
-}
 fun
 verifyOpenLinksInAppsCFRExists
 (
@@ -4658,7 +4595,7 @@ RETRY_COUNT
 {
 try
 {
-assertItemWithResIdExists
+assertUIObjectExists
 (
 itemWithResId
 (
@@ -4670,12 +4607,6 @@ id
 banner_container
 "
 )
-exists
-=
-exists
-)
-assertItemWithResIdAndTextExists
-(
 itemWithResIdContainingText
 (
 "
@@ -4778,7 +4709,7 @@ verifySurveyButton
 (
 )
 =
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemContainingText
 (
@@ -4797,7 +4728,7 @@ verifySurveyButtonDoesNotExist
 (
 )
 =
-assertItemContainingTextIsGone
+assertUIObjectIsGone
 (
 itemWithText
 (
@@ -4816,7 +4747,7 @@ verifySurveyNoThanksButton
 (
 )
 =
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemContainingText
 (
@@ -4835,7 +4766,7 @@ verifyHomeScreenSurveyCloseButton
 (
 )
 =
-assertItemWithDescriptionExists
+assertUIObjectExists
 (
 itemWithDescription
 (
@@ -4983,7 +4914,7 @@ verifyDownloadPromptIsDismissed
 (
 )
 =
-assertItemWithResIdExists
+assertUIObjectExists
 (
 itemWithResId
 (
@@ -5007,7 +4938,7 @@ numberOfActiveDownloads
 String
 )
 {
-assertItemWithResIdAndTextExists
+assertUIObjectExists
 (
 itemWithResIdContainingText
 (
@@ -5547,7 +5478,7 @@ tabsCounter
 click
 (
 )
-assertItemWithResIdExists
+assertUIObjectExists
 (
 itemWithResId
 (
@@ -5590,7 +5521,7 @@ waitForIdle
 }
 }
 }
-assertItemWithResIdExists
+assertUIObjectExists
 (
 itemWithResId
 (

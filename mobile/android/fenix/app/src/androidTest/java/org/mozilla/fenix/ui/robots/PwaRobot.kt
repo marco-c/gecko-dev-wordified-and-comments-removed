@@ -105,7 +105,7 @@ helpers
 .
 MatcherHelper
 .
-assertItemWithResIdExists
+assertUIObjectExists
 import
 org
 .
@@ -138,7 +138,7 @@ verifyCustomTabToolbarIsNotDisplayed
 (
 )
 =
-assertItemWithResIdExists
+assertUIObjectExists
 (
 customTabToolbar
 (

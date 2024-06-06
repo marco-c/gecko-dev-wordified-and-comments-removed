@@ -309,7 +309,7 @@ helpers
 .
 MatcherHelper
 .
-assertItemContainingTextExists
+assertUIObjectExists
 import
 org
 .
@@ -1092,7 +1092,7 @@ click
 (
 )
 )
-assertItemContainingTextExists
+assertUIObjectExists
 (
 itemContainingText
 (
