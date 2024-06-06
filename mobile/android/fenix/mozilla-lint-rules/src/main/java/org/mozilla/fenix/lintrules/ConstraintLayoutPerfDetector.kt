@@ -1453,13 +1453,6 @@ element
 Element
 )
 {
-super
-.
-visitElement
-(
-context
-element
-)
 /
 /
 This
