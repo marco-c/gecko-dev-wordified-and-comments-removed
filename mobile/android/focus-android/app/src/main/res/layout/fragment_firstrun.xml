@@ -355,6 +355,13 @@ layout_marginBottom
 "
 16dp
 "
+android
+:
+importantForAccessibility
+=
+"
+noHideDescendants
+"
 app
 :
 tabBackground
