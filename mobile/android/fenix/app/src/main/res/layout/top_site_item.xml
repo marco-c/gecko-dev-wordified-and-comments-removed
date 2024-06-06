@@ -475,6 +475,15 @@ drawable
 /
 ic_pin
 "
+android
+:
+backgroundTint
+=
+"
+color
+/
+top_site_pin_icon_background_tint
+"
 /
 >
 <
