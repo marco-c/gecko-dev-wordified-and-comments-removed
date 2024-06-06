@@ -399,7 +399,7 @@ val
 mozilla_android_components
 =
 "
-3
+4
 .
 0
 .
