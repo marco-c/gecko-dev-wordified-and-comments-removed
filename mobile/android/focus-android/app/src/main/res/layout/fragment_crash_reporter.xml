@@ -141,15 +141,6 @@ layout_marginTop
 "
 8dp
 "
-android
-:
-background
-=
-"
-drawable
-/
-ic_error_session_crashed
-"
 app
 :
 layout_constraintEnd_toEndOf
