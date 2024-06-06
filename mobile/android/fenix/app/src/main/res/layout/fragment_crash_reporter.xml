@@ -147,9 +147,8 @@ android
 background
 =
 "
-color
-/
-searchBackground_normal_theme
+?
+above
 "
 >
 <
@@ -280,7 +279,7 @@ textColor
 "
 color
 /
-text_color_normal_theme
+primary_text_normal_theme
 "
 android
 :
@@ -359,9 +358,8 @@ android
 buttonTint
 =
 "
-color
-/
-crash_page_accent
+?
+accent
 "
 android
 :
@@ -386,7 +384,7 @@ textColor
 "
 color
 /
-text_color_normal_theme
+primary_text_normal_theme
 "
 android
 :
@@ -487,9 +485,8 @@ android
 backgroundTint
 =
 "
-color
-/
-crash_page_accent
+?
+accent
 "
 android
 :
@@ -515,7 +512,7 @@ textColor
 "
 color
 /
-off_white
+foundation_normal_theme
 "
 android
 :
@@ -630,9 +627,8 @@ android
 backgroundTint
 =
 "
-color
-/
-crash_page_off_accent
+?
+neutral
 "
 android
 :
@@ -656,9 +652,8 @@ android
 textColor
 =
 "
-color
-/
-about_primary_text_color
+?
+primaryText
 "
 android
 :

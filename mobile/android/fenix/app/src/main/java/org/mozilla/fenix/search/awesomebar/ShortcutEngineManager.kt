@@ -435,7 +435,7 @@ R
 .
 attr
 .
-pillWrapperBackground
+foundation
 this
 )
 )
@@ -503,7 +503,7 @@ R
 .
 attr
 .
-searchShortcutsTextColor
+primaryText
 this
 )
 )

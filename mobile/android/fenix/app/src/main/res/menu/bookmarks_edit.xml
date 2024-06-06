@@ -167,9 +167,7 @@ iconTint
 =
 "
 ?
-attr
-/
-iconColor
+primaryText
 "
 android
 :

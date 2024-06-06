@@ -420,9 +420,7 @@ fillColor
 =
 "
 ?
-attr
-/
-privateBrowsingButtonTint
+primaryText
 "
 /
 >

@@ -131,6 +131,14 @@ viewportHeight
 "
 >
 <
+!
+-
+-
+photonRed60
+-
+-
+>
+<
 path
 android
 :
@@ -589,10 +597,8 @@ android
 fillColor
 =
 "
-?
-attr
-/
-deleteColor
+#
+d70022
 "
 android
 :

@@ -182,9 +182,7 @@ textColor
 =
 "
 ?
-attr
-/
-toolbarTextColor
+primaryText
 "
 android
 :
@@ -279,9 +277,8 @@ android
 textColor
 =
 "
-color
-/
-off_white
+?
+primaryText
 "
 android
 :

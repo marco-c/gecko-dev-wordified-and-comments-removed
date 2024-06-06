@@ -966,7 +966,7 @@ R
 .
 attr
 .
-iconColor
+primaryText
 .
 getColorFromAttr
 (

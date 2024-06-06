@@ -109,9 +109,8 @@ android
 color
 =
 "
-color
-/
-session_list_empty_bg
+?
+foundation
 "
 /
 >

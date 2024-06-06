@@ -309,9 +309,7 @@ foregroundTint
 =
 "
 ?
-attr
-/
-iconColor
+primaryText
 "
 tools
 :
@@ -384,9 +382,7 @@ textColor
 =
 "
 ?
-attr
-/
-bookmarksEditTextColor
+secondaryText
 "
 app
 :
@@ -493,9 +489,7 @@ tint
 =
 "
 ?
-attr
-/
-iconColor
+primaryText
 "
 app
 :
@@ -610,9 +604,7 @@ background
 =
 "
 ?
-attr
-/
-bookmarksEditTextColor
+neutral
 "
 android
 :

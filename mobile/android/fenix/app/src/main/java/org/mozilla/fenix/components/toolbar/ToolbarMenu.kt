@@ -351,7 +351,7 @@ R
 .
 attr
 .
-browserToolbarMenuIcons
+primaryText
 context
 )
 isInPrimaryState
@@ -383,7 +383,7 @@ R
 .
 attr
 .
-disabledIconColor
+secondaryText
 context
 )
 disableInSecondaryState
@@ -444,7 +444,7 @@ R
 .
 attr
 .
-browserToolbarMenuIcons
+primaryText
 context
 )
 isInPrimaryState
@@ -476,7 +476,7 @@ R
 .
 attr
 .
-disabledIconColor
+secondaryText
 context
 )
 disableInSecondaryState
@@ -537,7 +537,7 @@ R
 .
 attr
 .
-browserToolbarMenuIcons
+primaryText
 context
 )
 isInPrimaryState
@@ -600,7 +600,7 @@ R
 .
 attr
 .
-browserToolbarMenuIcons
+primaryText
 context
 )
 disableInSecondaryState
@@ -691,7 +691,7 @@ R
 .
 attr
 .
-browserToolbarMenuIcons
+primaryText
 context
 )
 )
@@ -730,7 +730,7 @@ R
 .
 attr
 .
-browserToolbarMenuIcons
+primaryText
 context
 )
 )
@@ -769,7 +769,7 @@ R
 .
 attr
 .
-browserToolbarMenuIcons
+primaryText
 context
 )
 )
@@ -841,7 +841,7 @@ R
 .
 attr
 .
-browserToolbarMenuIcons
+primaryText
 context
 )
 )
@@ -880,7 +880,7 @@ R
 .
 attr
 .
-browserToolbarMenuIcons
+primaryText
 context
 )
 )
@@ -919,7 +919,7 @@ R
 .
 attr
 .
-browserToolbarMenuIcons
+primaryText
 context
 )
 )
@@ -958,7 +958,7 @@ R
 .
 attr
 .
-browserToolbarMenuIcons
+primaryText
 context
 )
 )
@@ -997,7 +997,7 @@ R
 .
 attr
 .
-browserToolbarMenuIcons
+primaryText
 context
 )
 )

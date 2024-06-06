@@ -233,9 +233,7 @@ tint
 =
 "
 ?
-attr
-/
-browserToolbarIcons
+primaryText
 "
 /
 >
@@ -310,9 +308,7 @@ textColor
 =
 "
 ?
-attr
-/
-browserToolbarIcons
+primaryText
 "
 android
 :

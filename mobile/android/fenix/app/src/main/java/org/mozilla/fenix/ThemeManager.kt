@@ -655,7 +655,7 @@ R
 .
 attr
 .
-navigationBarColorHome
+above
 context
 )
 )
@@ -679,7 +679,7 @@ R
 .
 attr
 .
-navigationBarColorBrowser
+foundation
 context
 )
 )

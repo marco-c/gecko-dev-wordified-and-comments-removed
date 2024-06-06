@@ -207,7 +207,7 @@ R
 .
 attr
 .
-iconColor
+primaryText
 context
 )
 )
@@ -248,7 +248,7 @@ R
 .
 attr
 .
-iconColor
+primaryText
 context
 )
 )
@@ -292,7 +292,7 @@ R
 .
 attr
 .
-iconColor
+primaryText
 context
 )
 )

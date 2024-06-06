@@ -198,9 +198,7 @@ cardBackgroundColor
 =
 "
 ?
-attr
-/
-sessionBackgroundColor
+foundation
 "
 app
 :
@@ -379,9 +377,7 @@ textColor
 =
 "
 ?
-attr
-/
-primaryTextColor
+primaryText
 "
 android
 :

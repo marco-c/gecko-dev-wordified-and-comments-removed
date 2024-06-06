@@ -569,7 +569,7 @@ R
 .
 attr
 .
-searchShortcutsTextColor
+primaryText
 this
 )
 )
@@ -684,7 +684,7 @@ R
 .
 attr
 .
-searchShortcutsTextColor
+primaryText
 this
 )
 )
@@ -892,7 +892,7 @@ R
 .
 attr
 .
-searchShortcutsTextColor
+primaryText
 this
 )
 )

@@ -151,10 +151,9 @@ android
 background
 =
 "
-?
-attr
+drawable
 /
-browserUrlBarBackground
+home_search_background_dark
 "
 /
 >

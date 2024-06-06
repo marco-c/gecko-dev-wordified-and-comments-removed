@@ -195,9 +195,7 @@ textColor
 =
 "
 ?
-attr
-/
-bookmarksLabelColor
+primaryText
 "
 android
 :
@@ -261,9 +259,7 @@ textColor
 =
 "
 ?
-attr
-/
-bookmarksEditTextColor
+secondaryText
 "
 tools
 :
@@ -336,9 +332,7 @@ textColor
 =
 "
 ?
-attr
-/
-bookmarksLabelColor
+primaryText
 "
 android
 :
@@ -402,9 +396,7 @@ textColor
 =
 "
 ?
-attr
-/
-bookmarksEditTextColor
+secondaryText
 "
 tools
 :
@@ -483,9 +475,7 @@ textColor
 =
 "
 ?
-attr
-/
-bookmarksLabelColor
+primaryText
 "
 android
 :
@@ -549,9 +539,7 @@ textColor
 =
 "
 ?
-attr
-/
-bookmarksEditTextColor
+secondaryText
 "
 android
 :
@@ -575,9 +563,7 @@ drawableTint
 =
 "
 ?
-attr
-/
-iconColor
+primaryText
 "
 tools
 :

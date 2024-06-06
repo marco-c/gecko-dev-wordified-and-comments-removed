@@ -241,7 +241,7 @@ statusBarColor
 >
 color
 /
-private_browsing_top_gradient
+above_private_theme
 <
 /
 item
@@ -284,7 +284,7 @@ navigationBarColor
 >
 color
 /
-private_browsing_bottom_gradient
+foundation_private_theme
 <
 /
 item

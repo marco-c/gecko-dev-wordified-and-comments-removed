@@ -185,9 +185,7 @@ background
 =
 "
 ?
-attr
-/
-searchBackground
+above
 "
 >
 <
@@ -248,10 +246,9 @@ android
 background
 =
 "
-?
-attr
+drawable
 /
-toolbarWrapperBackground
+home_search_background_dark
 "
 android
 :
@@ -488,9 +485,7 @@ textColor
 =
 "
 ?
-attr
-/
-awesomeBarDescriptionTextColor
+secondaryText
 "
 android
 :
@@ -548,9 +543,7 @@ background
 =
 "
 ?
-attr
-/
-pillWrapperBackground
+foundation
 "
 android
 :

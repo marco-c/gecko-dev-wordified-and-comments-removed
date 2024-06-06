@@ -220,9 +220,7 @@ awesomeBarDescriptionTextColor
 =
 "
 ?
-attr
-/
-awesomeBarDescriptionTextColor
+secondaryText
 "
 mozac
 :
@@ -230,9 +228,7 @@ awesomeBarTitleTextColor
 =
 "
 ?
-attr
-/
-awesomeBarTitleTextColor
+primaryText
 "
 /
 >

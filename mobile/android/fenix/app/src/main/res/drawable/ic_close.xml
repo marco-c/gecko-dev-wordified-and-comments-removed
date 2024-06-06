@@ -343,9 +343,7 @@ fillColor
 =
 "
 ?
-attr
-/
-iconColor
+primaryText
 "
 android
 :

@@ -293,9 +293,7 @@ tint
 =
 "
 ?
-attr
-/
-toolbarTextColor
+primaryText
 "
 app
 :
@@ -388,9 +386,7 @@ tint
 =
 "
 ?
-attr
-/
-toolbarTextColor
+primaryText
 "
 app
 :

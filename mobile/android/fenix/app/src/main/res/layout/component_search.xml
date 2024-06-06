@@ -181,9 +181,7 @@ browserToolbarClearColor
 =
 "
 ?
-attr
-/
-browserToolbarIcons
+primaryText
 "
 app
 :
@@ -191,9 +189,7 @@ browserToolbarInsecureColor
 =
 "
 ?
-attr
-/
-browserToolbarIcons
+primaryText
 "
 app
 :
@@ -201,9 +197,7 @@ browserToolbarMenuColor
 =
 "
 ?
-attr
-/
-browserToolbarIcons
+primaryText
 "
 app
 :
@@ -218,9 +212,7 @@ browserToolbarSecureColor
 =
 "
 ?
-attr
-/
-browserToolbarIcons
+primaryText
 "
 /
 >

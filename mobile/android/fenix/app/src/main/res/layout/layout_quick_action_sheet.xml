@@ -131,9 +131,7 @@ background
 =
 "
 ?
-attr
-/
-quickActionBackgroundColor
+foundation
 "
 android
 :
@@ -283,8 +281,6 @@ background
 =
 "
 ?
-attr
-/
 selectableItemBackgroundBorderless
 "
 android
@@ -325,9 +321,7 @@ textColor
 =
 "
 ?
-attr
-/
-toolbarTextColor
+primaryText
 "
 android
 :
@@ -377,8 +371,6 @@ background
 =
 "
 ?
-attr
-/
 selectableItemBackgroundBorderless
 "
 android
@@ -419,9 +411,7 @@ textColor
 =
 "
 ?
-attr
-/
-toolbarTextColor
+primaryText
 "
 android
 :
@@ -471,8 +461,6 @@ background
 =
 "
 ?
-attr
-/
 selectableItemBackgroundBorderless
 "
 android
@@ -513,9 +501,7 @@ textColor
 =
 "
 ?
-attr
-/
-toolbarTextColor
+primaryText
 "
 android
 :
@@ -565,8 +551,6 @@ background
 =
 "
 ?
-attr
-/
 selectableItemBackgroundBorderless
 "
 android
@@ -607,9 +591,7 @@ textColor
 =
 "
 ?
-attr
-/
-toolbarTextColor
+primaryText
 "
 android
 :

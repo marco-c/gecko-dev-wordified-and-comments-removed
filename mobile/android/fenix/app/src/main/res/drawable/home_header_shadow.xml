@@ -48,9 +48,8 @@ android
 startColor
 =
 "
-color
-/
-home_header_shadow
+?
+above
 "
 android
 :

@@ -110,9 +110,7 @@ color
 =
 "
 ?
-attr
-/
-pillWrapperBackground
+foundation
 "
 android
 :
@@ -140,9 +138,7 @@ color
 =
 "
 ?
-attr
-/
-searchShortcutsTextColor
+primaryText
 "
 /
 >

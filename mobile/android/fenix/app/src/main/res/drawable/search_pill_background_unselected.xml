@@ -110,9 +110,7 @@ color
 =
 "
 ?
-attr
-/
-pillWrapperBackground
+foundation
 "
 /
 >
@@ -131,9 +129,7 @@ color
 =
 "
 ?
-attr
-/
-disabledIconColor
+neutral
 "
 /
 >

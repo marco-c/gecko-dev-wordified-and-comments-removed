@@ -123,9 +123,7 @@ startColor
 =
 "
 ?
-attr
-/
-homeBackgroundTopGradient
+foundation
 "
 android
 :
@@ -133,9 +131,7 @@ endColor
 =
 "
 ?
-attr
-/
-homeBackgroundBottomGradient
+above
 "
 android
 :

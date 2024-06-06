@@ -109,9 +109,8 @@ android
 color
 =
 "
-color
-/
-searchBackground_normal_theme
+?
+above
 "
 /
 >
@@ -129,9 +128,8 @@ android
 color
 =
 "
-color
-/
-search_stroke_normal
+?
+above
 "
 /
 >

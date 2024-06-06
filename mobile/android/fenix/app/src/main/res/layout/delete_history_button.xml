@@ -215,10 +215,9 @@ android
 textColor
 =
 "
-?
-attr
+color
 /
-deleteColor
+delete_color
 "
 android
 :

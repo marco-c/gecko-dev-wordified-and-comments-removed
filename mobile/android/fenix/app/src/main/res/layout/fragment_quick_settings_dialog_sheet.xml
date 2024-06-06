@@ -191,9 +191,7 @@ background
 =
 "
 ?
-attr
-/
-toolbarColor
+foundation
 "
 >
 <
@@ -387,9 +385,7 @@ background
 =
 "
 ?
-attr
-/
-homeDividerColor
+neutral
 "
 app
 :

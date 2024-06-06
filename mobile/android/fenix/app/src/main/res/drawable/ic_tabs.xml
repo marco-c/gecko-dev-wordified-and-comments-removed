@@ -350,9 +350,7 @@ fillColor
 =
 "
 ?
-attr
-/
-browserToolbarIcons
+primaryText
 "
 android
 :

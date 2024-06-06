@@ -138,9 +138,8 @@ android
 color
 =
 "
-color
-/
-private_browsing_primary
+?
+accentBright
 "
 /
 >
@@ -176,9 +175,8 @@ android
 color
 =
 "
-color
-/
-private_browsing_primary
+?
+accentBright
 "
 /
 >

@@ -1073,13 +1073,6 @@ HomeActivity
 browsingModeManager
 .
 isPrivate
-view
-.
-toolbar_wrapper
-.
-isPrivateModeEnabled
-=
-isPrivate
 privateBrowsingButton
 .
 contentDescription

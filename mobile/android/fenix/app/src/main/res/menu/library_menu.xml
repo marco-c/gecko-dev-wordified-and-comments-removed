@@ -167,9 +167,7 @@ iconTint
 =
 "
 ?
-attr
-/
-iconColor
+primaryText
 "
 android
 :
@@ -223,9 +221,7 @@ iconTint
 =
 "
 ?
-attr
-/
-iconColor
+primaryText
 "
 android
 :

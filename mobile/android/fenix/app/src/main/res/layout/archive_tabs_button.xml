@@ -153,9 +153,8 @@ android
 backgroundTint
 =
 "
-color
-/
-save_session_button_color
+?
+accent
 "
 android
 :
@@ -238,7 +237,7 @@ drawableTint
 "
 color
 /
-save_session_button_text_color
+foundation_light_theme
 "
 android
 :
@@ -293,7 +292,7 @@ textColor
 "
 color
 /
-save_session_button_text_color
+foundation_light_theme
 "
 /
 >

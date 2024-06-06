@@ -305,9 +305,7 @@ tint
 =
 "
 ?
-attr
-/
-menuButtonTint
+primaryText
 "
 app
 :
@@ -454,9 +452,7 @@ textColor
 =
 "
 ?
-attr
-/
-historyURLColor
+secondaryText
 "
 android
 :
@@ -568,9 +564,7 @@ textColor
 =
 "
 ?
-attr
-/
-historyTitleColor
+primaryText
 "
 android
 :

@@ -197,9 +197,8 @@ app
 cardBackgroundColor
 =
 "
-color
-/
-sessionBackgroundColor_normal_theme
+?
+foundation
 "
 app
 :
@@ -370,9 +369,7 @@ textColor
 =
 "
 ?
-attr
-/
-primaryTextColor
+primaryText
 "
 android
 :
@@ -456,9 +453,7 @@ textColor
 =
 "
 ?
-attr
-/
-secondaryTextColor
+secondaryText
 "
 app
 :
@@ -535,9 +530,7 @@ textColor
 =
 "
 ?
-attr
-/
-secondaryTextColor
+secondaryText
 "
 app
 :
@@ -675,9 +668,7 @@ tint
 =
 "
 ?
-attr
-/
-toolbarTextColor
+primaryText
 "
 app
 :
@@ -780,9 +771,7 @@ tint
 =
 "
 ?
-attr
-/
-toolbarTextColor
+primaryText
 "
 /
 >

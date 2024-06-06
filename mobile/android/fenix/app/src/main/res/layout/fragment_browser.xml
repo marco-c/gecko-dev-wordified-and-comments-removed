@@ -274,9 +274,7 @@ background
 =
 "
 ?
-attr
-/
-quickActionBackgroundColor
+foundation
 "
 android
 :
@@ -365,9 +363,7 @@ background
 =
 "
 ?
-attr
-/
-browserToolbarBackground
+foundation
 "
 mozac
 :
@@ -375,9 +371,7 @@ findInPageResultCountTextColor
 =
 "
 ?
-attr
-/
-browserToolbarIcons
+primaryText
 "
 mozac
 :
@@ -385,9 +379,7 @@ findInPageButtonsTint
 =
 "
 ?
-attr
-/
-browserToolbarIcons
+primaryText
 "
 android
 :
