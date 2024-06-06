@@ -834,10 +834,6 @@ text
 Suggestions
 (
 suggestions
-.
-toMap
-(
-)
 colors
 orientation
 onSuggestionClicked
