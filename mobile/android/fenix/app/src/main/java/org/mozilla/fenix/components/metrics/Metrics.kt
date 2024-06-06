@@ -1046,6 +1046,12 @@ LibrariesThatWeUseTapped
 Event
 (
 )
+object
+FennecToFenixMigrated
+:
+Event
+(
+)
 /
 /
 Interaction

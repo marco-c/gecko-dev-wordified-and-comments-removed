@@ -273,6 +273,15 @@ DismissedOnboarding
 "
 E_Dismissed_Onboarding
 "
+is
+Event
+.
+FennecToFenixMigrated
+-
+>
+"
+E_Fennec_To_Fenix_Migrated
+"
 /
 /
 Do

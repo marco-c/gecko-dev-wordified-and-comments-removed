@@ -3685,6 +3685,13 @@ DismissedOnboarding
 -
 >
 null
+is
+Event
+.
+FennecToFenixMigrated
+-
+>
+null
 }
 class
 GleanMetricsService
