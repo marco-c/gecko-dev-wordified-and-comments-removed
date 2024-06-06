@@ -3176,10 +3176,6 @@ mozilla_feature_session
 implementation
 Deps
 .
-mozilla_feature_sync
-implementation
-Deps
-.
 mozilla_feature_toolbar
 implementation
 Deps

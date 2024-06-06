@@ -604,16 +604,6 @@ onAuthenticationProblems
 )
 {
 }
-override
-fun
-onError
-(
-error
-:
-Exception
-)
-{
-}
 /
 /
 We

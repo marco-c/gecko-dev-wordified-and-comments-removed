@@ -1023,16 +1023,6 @@ SignedIn
 }
 override
 fun
-onError
-(
-error
-:
-Exception
-)
-{
-}
-override
-fun
 onLoggedOut
 (
 )

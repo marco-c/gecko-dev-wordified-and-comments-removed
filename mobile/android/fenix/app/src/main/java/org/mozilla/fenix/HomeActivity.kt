@@ -1018,10 +1018,9 @@ authenticatedAccount
 .
 let
 {
-syncManager
-?
+accountManager
 .
-syncNow
+syncNowAsync
 (
 startup
 =
