@@ -2099,7 +2099,7 @@ R
 .
 string
 .
-bookmark_created_snackbar
+bookmark_saved_snackbar
 )
 )
 .
