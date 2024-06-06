@@ -2033,6 +2033,7 @@ for
 ad
 blocking
 and
+enhanced
 tracking
 protection
 settings
@@ -2044,7 +2045,7 @@ string
 name
 =
 "
-preference_category_tracking_protection
+preference_category_tracking_protection3
 "
 >
 <
@@ -6349,6 +6350,7 @@ string
 -
 -
 When
+enhanced
 tracking
 protection
 is
@@ -6385,6 +6387,7 @@ always
 be
 opened
 with
+enhanced
 tracking
 protection
 disabled
@@ -6397,7 +6400,7 @@ string
 name
 =
 "
-dialog_addtohomescreen_tracking_protection
+dialog_addtohomescreen_tracking_protection2
 "
 >
 <
@@ -8601,6 +8604,7 @@ explaining
 how
 to
 disable
+enhanced
 tracking
 protection
 The
@@ -8631,12 +8635,13 @@ string
 name
 =
 "
-tip_disable_tracking_protection2
+tip_disable_tracking_protection3
 "
 >
 ?
 \
 n
+.
 <
 /
 string
@@ -9005,7 +9010,7 @@ string
 name
 =
 "
-tip_explain_allowlist2
+tip_explain_allowlist3
 "
 >
 ?
