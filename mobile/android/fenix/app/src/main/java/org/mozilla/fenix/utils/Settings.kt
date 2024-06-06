@@ -1824,7 +1824,7 @@ default
 =
 false
 )
-val
+var
 isTelemetryEnabled
 by
 booleanPreference
