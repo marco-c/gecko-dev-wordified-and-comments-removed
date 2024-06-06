@@ -299,13 +299,10 @@ defaultWebPage
 url
 )
 {
-/
-/
-verifyPageContent
-(
-defaultWebPage
+mDevice
 .
-content
+waitForIdle
+(
 )
 }
 /
