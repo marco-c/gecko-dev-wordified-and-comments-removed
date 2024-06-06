@@ -138,4 +138,9 @@ MIN_COLUMN_WIDTH_DP
 toInt
 (
 )
+.
+coerceAtLeast
+(
+2
+)
 }
