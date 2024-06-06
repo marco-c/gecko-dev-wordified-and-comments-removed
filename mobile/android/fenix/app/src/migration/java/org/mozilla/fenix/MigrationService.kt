@@ -146,7 +146,7 @@ migrationStore
 }
 override
 val
-migrationActivity
+migrationDecisionActivity
 =
 MigrationDecisionActivity
 :
