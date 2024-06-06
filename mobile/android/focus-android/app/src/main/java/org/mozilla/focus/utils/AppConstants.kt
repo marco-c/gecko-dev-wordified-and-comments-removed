@@ -107,6 +107,7 @@ get
 (
 )
 =
+if
 (
 WebViewProvider
 .
@@ -114,15 +115,14 @@ engine
 =
 =
 null
-&
-&
+)
+{
 Config
 .
 DEFAULT_NEW_RENDERER
-)
-|
-|
-(
+}
+else
+{
 WebViewProvider
 .
 engine
@@ -142,7 +142,7 @@ class
 java
 .
 simpleName
-)
+}
 val
 isDevBuild
 :
