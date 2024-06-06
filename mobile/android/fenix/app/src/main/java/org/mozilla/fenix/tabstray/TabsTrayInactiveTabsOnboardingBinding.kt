@@ -433,9 +433,11 @@ state
 potentialInactiveTabs
 }
 else
+{
 emptyList
 (
 )
+}
 if
 (
 inactiveTabsList
