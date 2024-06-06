@@ -251,6 +251,8 @@ microphone
 assertItemTextEquals
 (
 denyPagePermissionButton
+(
+)
 expectedText
 =
 "
@@ -262,6 +264,8 @@ allow
 assertItemTextEquals
 (
 allowPagePermissionButton
+(
+)
 expectedText
 =
 "
@@ -308,6 +312,8 @@ microphone
 assertItemTextEquals
 (
 denyPagePermissionButton
+(
+)
 expectedText
 =
 "
@@ -319,6 +325,8 @@ allow
 assertItemTextEquals
 (
 allowPagePermissionButton
+(
+)
 expectedText
 =
 "
@@ -356,6 +364,8 @@ camera
 assertItemTextEquals
 (
 denyPagePermissionButton
+(
+)
 expectedText
 =
 "
@@ -367,6 +377,8 @@ allow
 assertItemTextEquals
 (
 allowPagePermissionButton
+(
+)
 expectedText
 =
 "
@@ -413,6 +425,8 @@ camera
 assertItemTextEquals
 (
 denyPagePermissionButton
+(
+)
 expectedText
 =
 "
@@ -424,6 +438,8 @@ allow
 assertItemTextEquals
 (
 allowPagePermissionButton
+(
+)
 expectedText
 =
 "
@@ -461,6 +477,8 @@ microphone
 assertItemTextEquals
 (
 denyPagePermissionButton
+(
+)
 expectedText
 =
 "
@@ -472,6 +490,8 @@ allow
 assertItemTextEquals
 (
 allowPagePermissionButton
+(
+)
 expectedText
 =
 "
@@ -507,6 +527,8 @@ location
 assertItemTextEquals
 (
 denyPagePermissionButton
+(
+)
 expectedText
 =
 "
@@ -518,6 +540,8 @@ allow
 assertItemTextEquals
 (
 allowPagePermissionButton
+(
+)
 expectedText
 =
 "
@@ -564,6 +588,8 @@ location
 assertItemTextEquals
 (
 denyPagePermissionButton
+(
+)
 expectedText
 =
 "
@@ -575,6 +601,8 @@ allow
 assertItemTextEquals
 (
 allowPagePermissionButton
+(
+)
 expectedText
 =
 "
@@ -622,6 +650,8 @@ notifications
 assertItemTextEquals
 (
 denyPagePermissionButton
+(
+)
 expectedText
 =
 "
@@ -631,6 +661,8 @@ Never
 assertItemTextEquals
 (
 allowPagePermissionButton
+(
+)
 expectedText
 =
 "
@@ -676,6 +708,8 @@ notifications
 assertItemTextEquals
 (
 denyPagePermissionButton
+(
+)
 expectedText
 =
 "
@@ -685,6 +719,8 @@ Never
 assertItemTextEquals
 (
 allowPagePermissionButton
+(
+)
 expectedText
 =
 "
@@ -776,6 +812,8 @@ storage
 assertItemTextEquals
 (
 denyPagePermissionButton
+(
+)
 expectedText
 =
 "
@@ -787,6 +825,8 @@ allow
 assertItemTextEquals
 (
 allowPagePermissionButton
+(
+)
 expectedText
 =
 "
@@ -835,6 +875,8 @@ storage
 assertItemTextEquals
 (
 denyPagePermissionButton
+(
+)
 expectedText
 =
 "
@@ -846,6 +888,8 @@ allow
 assertItemTextEquals
 (
 allowPagePermissionButton
+(
+)
 expectedText
 =
 "
@@ -885,6 +929,8 @@ content
 assertItemTextEquals
 (
 denyPagePermissionButton
+(
+)
 expectedText
 =
 "
@@ -896,6 +942,8 @@ allow
 assertItemTextEquals
 (
 allowPagePermissionButton
+(
+)
 expectedText
 =
 "
@@ -944,6 +992,8 @@ content
 assertItemTextEquals
 (
 denyPagePermissionButton
+(
+)
 expectedText
 =
 "
@@ -955,6 +1005,8 @@ allow
 assertItemTextEquals
 (
 allowPagePermissionButton
+(
+)
 expectedText
 =
 "
@@ -1220,12 +1272,16 @@ allow
 )
 {
 allowPagePermissionButton
+(
+)
 .
 waitForExists
 (
 waitingTime
 )
 allowPagePermissionButton
+(
+)
 .
 click
 (
@@ -1244,6 +1300,8 @@ if
 (
 !
 allowPagePermissionButton
+(
+)
 .
 waitUntilGone
 (
@@ -1252,6 +1310,8 @@ waitingTime
 )
 {
 allowPagePermissionButton
+(
+)
 .
 click
 (
@@ -1261,12 +1321,16 @@ click
 else
 {
 denyPagePermissionButton
+(
+)
 .
 waitForExists
 (
 waitingTime
 )
 denyPagePermissionButton
+(
+)
 .
 click
 (
@@ -1285,6 +1349,8 @@ if
 (
 !
 denyPagePermissionButton
+(
+)
 .
 waitUntilGone
 (
@@ -1293,6 +1359,8 @@ waitingTime
 )
 {
 denyPagePermissionButton
+(
+)
 .
 click
 (
@@ -1322,8 +1390,10 @@ permission
 prompts
 buttons
 private
-val
+fun
 allowPagePermissionButton
+(
+)
 =
 mDevice
 .
@@ -1345,8 +1415,10 @@ allow_button
 )
 )
 private
-val
+fun
 denyPagePermissionButton
+(
+)
 =
 mDevice
 .
