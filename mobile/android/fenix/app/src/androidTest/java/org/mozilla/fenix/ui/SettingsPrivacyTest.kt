@@ -824,6 +824,13 @@ verifyDefaultView
 )
 verifyDefaultValueAutofillLogins
 (
+InstrumentationRegistry
+.
+getInstrumentation
+(
+)
+.
+targetContext
 )
 verifyDefaultValueExceptions
 (
