@@ -2559,9 +2559,6 @@ provider
 "
 amp
 "
-engagementAbandoned
-=
-engagementAbandoned
 )
 )
 }
@@ -2587,9 +2584,6 @@ provider
 "
 wikipedia
 "
-engagementAbandoned
-=
-engagementAbandoned
 )
 )
 }
