@@ -4228,6 +4228,7 @@ save_image
 share_link
 copy_link
 copy_image_location
+share_image
 <
 /
 li
