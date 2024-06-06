@@ -550,6 +550,10 @@ mozilla_browser_awesomebar
 implementation
 Deps
 .
+mozilla_feature_downloads
+implementation
+Deps
+.
 mozilla_browser_domains
 implementation
 Deps
@@ -591,6 +595,10 @@ implementation
 Deps
 .
 mozilla_feature_tabs
+implementation
+Deps
+.
+mozilla_service_fretboard
 implementation
 Deps
 .

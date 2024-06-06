@@ -257,6 +257,15 @@ id
 /
 browserFragment
 "
+app
+:
+popUpTo
+=
+"
+id
+/
+homeFragment
+"
 /
 >
 <
