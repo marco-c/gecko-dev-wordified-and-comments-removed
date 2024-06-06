@@ -327,6 +327,8 @@ Action
 "
 )
 }
+VisibleForTesting
+internal
 var
 instance
 :
