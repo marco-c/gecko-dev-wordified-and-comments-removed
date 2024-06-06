@@ -550,8 +550,6 @@ orientation
 |
 screenSize
 |
-locale
-|
 layoutDirection
 |
 smallestScreenSize
@@ -836,8 +834,6 @@ mnc
 orientation
 |
 screenSize
-|
-locale
 |
 layoutDirection
 |
@@ -1467,8 +1463,6 @@ mnc
 orientation
 |
 screenSize
-|
-locale
 |
 layoutDirection
 |

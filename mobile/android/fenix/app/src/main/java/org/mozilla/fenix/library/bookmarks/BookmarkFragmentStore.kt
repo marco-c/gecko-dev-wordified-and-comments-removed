@@ -117,7 +117,7 @@ Store
 class
 BookmarkFragmentStore
 (
-initalState
+initialState
 :
 BookmarkFragmentState
 )
@@ -128,7 +128,7 @@ BookmarkFragmentState
 BookmarkFragmentAction
 >
 (
-initalState
+initialState
 :
 :
 bookmarkFragmentStateReducer
