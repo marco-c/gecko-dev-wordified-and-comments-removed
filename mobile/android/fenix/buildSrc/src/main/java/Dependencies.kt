@@ -194,8 +194,6 @@ androidx_constraint_layout
 0
 .
 0
--
-beta6
 "
 const
 val

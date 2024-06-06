@@ -409,15 +409,6 @@ tryGetHostFromUrl
 )
 settings
 .
-lastCfrShownTimeInMillis
-=
-System
-.
-currentTimeMillis
-(
-)
-settings
-.
 shouldShowOpenInAppBanner
 =
 false
