@@ -1544,6 +1544,12 @@ string
 .
 bookmark_undo_deletion
 )
+{
+refreshBookmarks
+(
+components
+)
+}
 )
 {
 components
@@ -1941,6 +1947,12 @@ string
 .
 bookmark_undo_deletion
 )
+{
+refreshBookmarks
+(
+components
+)
+}
 )
 {
 deleteSelectedBookmarks
