@@ -67,12 +67,6 @@ gleanplumb
 .
 state
 import
-androidx
-.
-annotation
-.
-VisibleForTesting
-import
 kotlinx
 .
 coroutines
@@ -476,8 +470,7 @@ next
 action
 )
 }
-VisibleForTesting
-internal
+private
 fun
 onMessagedDisplayed
 (
@@ -550,8 +543,7 @@ newMessage
 )
 }
 }
-VisibleForTesting
-internal
+private
 fun
 onMessageDismissed
 (
@@ -599,8 +591,7 @@ metadata
 )
 }
 }
-VisibleForTesting
-internal
+private
 fun
 onMessageClicked
 (
@@ -660,8 +651,7 @@ context
 message
 )
 }
-VisibleForTesting
-internal
+private
 fun
 consumeMessageToShowIfNeeded
 (
@@ -714,8 +704,7 @@ surface
 )
 }
 }
-VisibleForTesting
-internal
+private
 fun
 removeMessage
 (
@@ -753,8 +742,7 @@ message
 id
 }
 }
-VisibleForTesting
-internal
+private
 fun
 updateMessage
 (
