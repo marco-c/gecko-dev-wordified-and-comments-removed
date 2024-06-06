@@ -86,6 +86,18 @@ content
 pm
 .
 PackageManager
+import
+mozilla
+.
+components
+.
+support
+.
+utils
+.
+ext
+.
+getPackageInfoCompat
 object
 FenixProductDetector
 {
@@ -255,7 +267,7 @@ context
 .
 packageManager
 .
-getPackageInfo
+getPackageInfoCompat
 (
 packageName
 0

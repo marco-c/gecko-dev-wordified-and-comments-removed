@@ -73,6 +73,18 @@ utils
 .
 Browsers
 import
+mozilla
+.
+components
+.
+support
+.
+utils
+.
+ext
+.
+resolveActivityCompat
+import
 org
 .
 mozilla
@@ -250,7 +262,7 @@ context
 .
 packageManager
 .
-resolveActivity
+resolveActivityCompat
 (
 createStoreIntent
 (

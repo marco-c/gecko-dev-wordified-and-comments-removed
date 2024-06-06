@@ -91,6 +91,18 @@ accessibility
 .
 AccessibilityManager
 import
+mozilla
+.
+components
+.
+support
+.
+utils
+.
+ext
+.
+getPackageInfoCompat
+import
 org
 .
 mozilla
@@ -271,7 +283,7 @@ this
 .
 packageManager
 .
-getPackageInfo
+getPackageInfoCompat
 (
 this
 .

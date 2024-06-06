@@ -63,6 +63,18 @@ customtabs
 .
 createCustomTabConfigFromIntent
 import
+mozilla
+.
+components
+.
+support
+.
+utils
+.
+ext
+.
+getPackageInfoCompat
+import
 org
 .
 mozilla
@@ -704,7 +716,7 @@ context
 .
 packageManager
 .
-getPackageInfo
+getPackageInfoCompat
 (
 context
 .

@@ -108,6 +108,18 @@ android
 os
 .
 Parcelable
+import
+mozilla
+.
+components
+.
+support
+.
+utils
+.
+ext
+.
+queryIntentActivitiesCompat
 object
 IntentUtils
 {
@@ -245,7 +257,7 @@ context
 .
 packageManager
 .
-queryIntentActivities
+queryIntentActivitiesCompat
 (
 intent
 0

@@ -23,6 +23,18 @@ app
 .
 ApplicationProvider
 import
+mozilla
+.
+components
+.
+support
+.
+utils
+.
+ext
+.
+getPackageInfoCompat
+import
 org
 .
 junit
@@ -186,7 +198,7 @@ context
 .
 packageManager
 .
-getPackageInfo
+getPackageInfoCompat
 (
 context
 .

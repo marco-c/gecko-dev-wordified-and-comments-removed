@@ -293,6 +293,18 @@ state
 .
 SessionState
 import
+mozilla
+.
+components
+.
+support
+.
+utils
+.
+ext
+.
+getPackageInfoCompat
+import
 org
 .
 mozilla
@@ -849,7 +861,7 @@ requireContext
 .
 packageManager
 .
-getPackageInfo
+getPackageInfoCompat
 (
 requireContext
 (
