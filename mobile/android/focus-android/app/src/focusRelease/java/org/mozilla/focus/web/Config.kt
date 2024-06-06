@@ -69,11 +69,6 @@ Config
 {
 const
 val
-DEFAULT_NEW_RENDERER
-=
-false
-const
-val
 EXPERIMENT_DESCRIPTOR_GECKOVIEW_ENGINE
 =
 "
