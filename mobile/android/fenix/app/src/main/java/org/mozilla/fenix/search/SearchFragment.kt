@@ -351,6 +351,11 @@ requireContext
 )
 )
 }
+requireComponents
+.
+core
+.
+historyStorage
 )
 )
 awesomeBarFeature

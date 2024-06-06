@@ -137,6 +137,16 @@ mozilla
 .
 components
 .
+concept
+.
+storage
+.
+HistoryStorage
+import
+mozilla
+.
+components
+.
 feature
 .
 toolbar
@@ -192,6 +202,9 @@ BrowserToolbar
 domainAutocompleteProvider
 :
 DomainAutocompleteProvider
+historyStorage
+:
+HistoryStorage
 sessionId
 :
 String
@@ -336,6 +349,10 @@ apply
 addDomainProvider
 (
 domainAutocompleteProvider
+)
+addHistoryStorageProvider
+(
+historyStorage
 )
 }
 }

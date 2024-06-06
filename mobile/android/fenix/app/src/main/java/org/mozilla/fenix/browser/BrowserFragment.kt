@@ -337,6 +337,11 @@ requireComponents
 toolbar
 .
 shippedDomainsProvider
+requireComponents
+.
+core
+.
+historyStorage
 )
 )
 lifecycle

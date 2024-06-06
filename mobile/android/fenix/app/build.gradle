@@ -526,6 +526,10 @@ mozilla_browser_session
 implementation
 Deps
 .
+mozilla_browser_storage_sync
+implementation
+Deps
+.
 mozilla_browser_toolbar
 implementation
 Deps
