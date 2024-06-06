@@ -153,7 +153,7 @@ mozilla
 .
 fenix
 .
-DefaultThemeManager
+R
 import
 org
 .
@@ -161,7 +161,7 @@ mozilla
 .
 fenix
 .
-R
+ThemeManager
 import
 org
 .
@@ -174,16 +174,6 @@ components
 toolbar
 .
 ToolbarMenu
-import
-org
-.
-mozilla
-.
-fenix
-.
-ext
-.
-components
 class
 CustomTabToolbarMenu
 (
@@ -297,7 +287,7 @@ browser_menu_back
 )
 primaryImageTintResource
 =
-DefaultThemeManager
+ThemeManager
 .
 resolveAttribute
 (
@@ -321,7 +311,7 @@ true
 }
 secondaryImageTintResource
 =
-DefaultThemeManager
+ThemeManager
 .
 resolveAttribute
 (
@@ -384,7 +374,7 @@ browser_menu_forward
 )
 primaryImageTintResource
 =
-DefaultThemeManager
+ThemeManager
 .
 resolveAttribute
 (
@@ -408,7 +398,7 @@ true
 }
 secondaryImageTintResource
 =
-DefaultThemeManager
+ThemeManager
 .
 resolveAttribute
 (
@@ -471,7 +461,7 @@ browser_menu_refresh
 )
 primaryImageTintResource
 =
-DefaultThemeManager
+ThemeManager
 .
 resolveAttribute
 (
@@ -526,7 +516,7 @@ browser_menu_stop
 )
 secondaryImageTintResource
 =
-DefaultThemeManager
+ThemeManager
 .
 resolveAttribute
 (
@@ -619,7 +609,7 @@ drawable
 mozac_ic_share
 textColorResource
 =
-DefaultThemeManager
+ThemeManager
 .
 resolveAttribute
 (
@@ -632,7 +622,7 @@ context
 )
 iconTintColorResource
 =
-DefaultThemeManager
+ThemeManager
 .
 resolveAttribute
 (
@@ -688,7 +678,7 @@ appName
 )
 textColorResource
 =
-DefaultThemeManager
+ThemeManager
 .
 resolveAttribute
 (
@@ -752,7 +742,7 @@ toUpperCase
 ToolbarMenu
 .
 CAPTION_TEXT_SIZE
-DefaultThemeManager
+ThemeManager
 .
 resolveAttribute
 (

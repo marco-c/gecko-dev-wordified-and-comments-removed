@@ -109,7 +109,7 @@ mozilla
 .
 fenix
 .
-DefaultThemeManager
+R
 import
 org
 .
@@ -117,7 +117,7 @@ mozilla
 .
 fenix
 .
-R
+ThemeManager
 class
 HomeMenu
 (
@@ -199,7 +199,7 @@ R
 drawable
 .
 ic_settings
-DefaultThemeManager
+ThemeManager
 .
 resolveAttribute
 (
@@ -240,7 +240,7 @@ R
 drawable
 .
 ic_library
-DefaultThemeManager
+ThemeManager
 .
 resolveAttribute
 (
@@ -284,7 +284,7 @@ R
 drawable
 .
 ic_help
-DefaultThemeManager
+ThemeManager
 .
 resolveAttribute
 (

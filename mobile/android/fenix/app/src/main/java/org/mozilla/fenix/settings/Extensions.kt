@@ -131,7 +131,7 @@ mozilla
 .
 fenix
 .
-DefaultThemeManager
+R
 import
 org
 .
@@ -139,7 +139,7 @@ mozilla
 .
 fenix
 .
-R
+ThemeManager
 internal
 fun
 SitePermissionsRules
@@ -702,7 +702,7 @@ setStartCheckedIndicator
 val
 attr
 =
-DefaultThemeManager
+ThemeManager
 .
 resolveAttribute
 (

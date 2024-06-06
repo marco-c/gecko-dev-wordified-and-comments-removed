@@ -123,7 +123,7 @@ mozilla
 .
 fenix
 .
-DefaultThemeManager
+R
 import
 org
 .
@@ -131,7 +131,7 @@ mozilla
 .
 fenix
 .
-R
+ThemeManager
 import
 org
 .
@@ -361,7 +361,7 @@ getColor
 container
 .
 context
-DefaultThemeManager
+ThemeManager
 .
 resolveAttribute
 (
@@ -388,7 +388,7 @@ getColor
 container
 .
 context
-DefaultThemeManager
+ThemeManager
 .
 resolveAttribute
 (

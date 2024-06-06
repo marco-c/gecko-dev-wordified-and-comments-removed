@@ -99,7 +99,7 @@ mozilla
 .
 fenix
 .
-DefaultThemeManager
+R
 import
 org
 .
@@ -107,7 +107,7 @@ mozilla
 .
 fenix
 .
-R
+ThemeManager
 class
 HistoryItemMenu
 (
@@ -174,7 +174,7 @@ history_delete_item
 )
 textColorResource
 =
-DefaultThemeManager
+ThemeManager
 .
 resolveAttribute
 (

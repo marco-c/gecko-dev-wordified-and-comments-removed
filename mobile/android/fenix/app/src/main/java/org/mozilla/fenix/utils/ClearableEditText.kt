@@ -131,7 +131,7 @@ mozilla
 .
 fenix
 .
-DefaultThemeManager
+R
 import
 org
 .
@@ -139,7 +139,7 @@ mozilla
 .
 fenix
 .
-R
+ThemeManager
 class
 ClearableEditText
 JvmOverloads
@@ -317,7 +317,7 @@ filterNotNull
 val
 color
 =
-DefaultThemeManager
+ThemeManager
 .
 resolveAttribute
 (

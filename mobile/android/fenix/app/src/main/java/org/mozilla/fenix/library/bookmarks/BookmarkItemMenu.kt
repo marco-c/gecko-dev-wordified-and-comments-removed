@@ -119,7 +119,7 @@ mozilla
 .
 fenix
 .
-DefaultThemeManager
+R
 import
 org
 .
@@ -127,7 +127,7 @@ mozilla
 .
 fenix
 .
-R
+ThemeManager
 class
 BookmarkItemMenu
 (
@@ -442,7 +442,7 @@ bookmark_menu_delete_button
 )
 textColorResource
 =
-DefaultThemeManager
+ThemeManager
 .
 resolveAttribute
 (

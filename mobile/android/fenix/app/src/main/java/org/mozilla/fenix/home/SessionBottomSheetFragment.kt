@@ -141,14 +141,6 @@ mozilla
 .
 fenix
 .
-DefaultThemeManager
-import
-org
-.
-mozilla
-.
-fenix
-.
 utils
 .
 ItsNotBrokenSnack
@@ -160,6 +152,14 @@ mozilla
 fenix
 .
 R
+import
+org
+.
+mozilla
+.
+fenix
+.
+ThemeManager
 import
 org
 .
@@ -373,7 +373,7 @@ getColor
 context
 !
 !
-DefaultThemeManager
+ThemeManager
 .
 resolveAttribute
 (
@@ -492,7 +492,7 @@ getColor
 context
 !
 !
-DefaultThemeManager
+ThemeManager
 .
 resolveAttribute
 (

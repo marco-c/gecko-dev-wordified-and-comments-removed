@@ -233,7 +233,7 @@ mozilla
 .
 fenix
 .
-DefaultThemeManager
+R
 import
 org
 .
@@ -241,7 +241,7 @@ mozilla
 .
 fenix
 .
-R
+ThemeManager
 import
 org
 .
@@ -581,7 +581,7 @@ ContextCompat
 getColor
 (
 this
-DefaultThemeManager
+ThemeManager
 .
 resolveAttribute
 (
@@ -712,7 +712,7 @@ ContextCompat
 getColor
 (
 this
-DefaultThemeManager
+ThemeManager
 .
 resolveAttribute
 (
@@ -945,7 +945,7 @@ ContextCompat
 getColor
 (
 this
-DefaultThemeManager
+ThemeManager
 .
 resolveAttribute
 (

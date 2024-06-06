@@ -147,14 +147,6 @@ mozilla
 .
 fenix
 .
-DefaultThemeManager
-import
-org
-.
-mozilla
-.
-fenix
-.
 HomeActivity
 import
 org
@@ -164,6 +156,14 @@ mozilla
 fenix
 .
 R
+import
+org
+.
+mozilla
+.
+fenix
+.
+ThemeManager
 import
 org
 .
@@ -284,7 +284,7 @@ browser_menu_back
 )
 primaryImageTintResource
 =
-DefaultThemeManager
+ThemeManager
 .
 resolveAttribute
 (
@@ -316,7 +316,7 @@ true
 }
 secondaryImageTintResource
 =
-DefaultThemeManager
+ThemeManager
 .
 resolveAttribute
 (
@@ -379,7 +379,7 @@ browser_menu_forward
 )
 primaryImageTintResource
 =
-DefaultThemeManager
+ThemeManager
 .
 resolveAttribute
 (
@@ -411,7 +411,7 @@ true
 }
 secondaryImageTintResource
 =
-DefaultThemeManager
+ThemeManager
 .
 resolveAttribute
 (
@@ -474,7 +474,7 @@ browser_menu_refresh
 )
 primaryImageTintResource
 =
-DefaultThemeManager
+ThemeManager
 .
 resolveAttribute
 (
@@ -537,7 +537,7 @@ browser_menu_stop
 )
 secondaryImageTintResource
 =
-DefaultThemeManager
+ThemeManager
 .
 resolveAttribute
 (
@@ -635,7 +635,7 @@ R
 drawable
 .
 ic_help
-DefaultThemeManager
+ThemeManager
 .
 resolveAttribute
 (
@@ -692,7 +692,7 @@ color
 .
 sync_error_text_color
 else
-DefaultThemeManager
+ThemeManager
 .
 resolveAttribute
 (
@@ -715,7 +715,7 @@ color
 .
 sync_error_text_color
 else
-DefaultThemeManager
+ThemeManager
 .
 resolveAttribute
 (
@@ -785,7 +785,7 @@ R
 drawable
 .
 ic_library
-DefaultThemeManager
+ThemeManager
 .
 resolveAttribute
 (
@@ -858,7 +858,7 @@ R
 drawable
 .
 mozac_ic_search
-DefaultThemeManager
+ThemeManager
 .
 resolveAttribute
 (
@@ -899,7 +899,7 @@ R
 drawable
 .
 ic_private_browsing
-DefaultThemeManager
+ThemeManager
 .
 resolveAttribute
 (
@@ -940,7 +940,7 @@ R
 drawable
 .
 ic_new
-DefaultThemeManager
+ThemeManager
 .
 resolveAttribute
 (
@@ -981,7 +981,7 @@ R
 drawable
 .
 mozac_ic_share
-DefaultThemeManager
+ThemeManager
 .
 resolveAttribute
 (
@@ -1022,7 +1022,7 @@ R
 drawable
 .
 ic_report_issues
-DefaultThemeManager
+ThemeManager
 .
 resolveAttribute
 (
@@ -1091,7 +1091,7 @@ R
 drawable
 .
 ic_tab_collection
-DefaultThemeManager
+ThemeManager
 .
 resolveAttribute
 (

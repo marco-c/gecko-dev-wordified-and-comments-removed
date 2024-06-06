@@ -197,7 +197,7 @@ mozilla
 .
 fenix
 .
-DefaultThemeManager
+R
 import
 org
 .
@@ -205,7 +205,7 @@ mozilla
 .
 fenix
 .
-R
+ThemeManager
 import
 org
 .
@@ -1039,7 +1039,7 @@ collection_delete
 )
 textColorResource
 =
-DefaultThemeManager
+ThemeManager
 .
 resolveAttribute
 (

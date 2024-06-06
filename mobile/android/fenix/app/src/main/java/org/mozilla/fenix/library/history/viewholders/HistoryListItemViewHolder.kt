@@ -165,7 +165,7 @@ mozilla
 .
 fenix
 .
-DefaultThemeManager
+R
 import
 org
 .
@@ -173,7 +173,7 @@ mozilla
 .
 fenix
 .
-R
+ThemeManager
 import
 org
 .
@@ -546,7 +546,7 @@ if
 selected
 )
 {
-DefaultThemeManager
+ThemeManager
 .
 resolveAttribute
 (
@@ -562,7 +562,7 @@ context
 }
 else
 {
-DefaultThemeManager
+ThemeManager
 .
 resolveAttribute
 (
@@ -624,7 +624,7 @@ else
 val
 backgroundTint
 =
-DefaultThemeManager
+ThemeManager
 .
 resolveAttribute
 (

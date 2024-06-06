@@ -85,7 +85,7 @@ mozilla
 .
 fenix
 .
-DefaultThemeManager
+ThemeManager
 fun
 Int
 .
@@ -98,7 +98,7 @@ Context
 :
 Int
 =
-DefaultThemeManager
+ThemeManager
 .
 resolveAttribute
 (

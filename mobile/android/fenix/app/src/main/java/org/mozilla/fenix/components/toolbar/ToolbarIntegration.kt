@@ -221,7 +221,7 @@ mozilla
 .
 fenix
 .
-DefaultThemeManager
+R
 import
 org
 .
@@ -229,7 +229,7 @@ mozilla
 .
 fenix
 .
-R
+ThemeManager
 import
 org
 .
@@ -557,7 +557,7 @@ PublicSuffixList
 (
 context
 )
-DefaultThemeManager
+ThemeManager
 .
 resolveAttribute
 (
