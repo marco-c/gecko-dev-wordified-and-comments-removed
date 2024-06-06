@@ -84,7 +84,7 @@ REBUILD
 -
 05
 -
-05
+12
 object
 FenixVersions
 {
@@ -332,9 +332,9 @@ androidx_profileinstaller
 "
 1
 .
-2
+3
 .
-2
+1
 "
 const
 val
