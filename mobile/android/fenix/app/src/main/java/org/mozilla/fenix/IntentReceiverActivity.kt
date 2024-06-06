@@ -352,6 +352,15 @@ Mode
 NORMAL
 )
 )
+intent
+.
+putExtra
+(
+HomeActivity
+.
+PRIVATE_BROWSING_MODE
+false
+)
 listOf
 (
 components
