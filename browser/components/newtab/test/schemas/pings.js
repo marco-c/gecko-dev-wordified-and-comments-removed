@@ -9,8 +9,6 @@ common
 /
 Actions
 .
-sys
-.
 mjs
 "
 ;

@@ -56,6 +56,19 @@ MPL
 .
 *
 /
+/
+/
+This
+file
+is
+accessed
+from
+both
+content
+and
+system
+scopes
+.
 export
 const
 MAIN_MESSAGE_TYPE
@@ -1951,7 +1964,7 @@ action
 function
 SetPref
 (
-name
+prefName
 value
 importContext
 =
@@ -1971,6 +1984,8 @@ data
 :
 {
 name
+:
+prefName
 value
 }
 }

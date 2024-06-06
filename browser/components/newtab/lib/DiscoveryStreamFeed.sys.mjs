@@ -324,8 +324,6 @@ common
 /
 Actions
 .
-sys
-.
 mjs
 "
 ;

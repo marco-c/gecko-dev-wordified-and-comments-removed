@@ -60,7 +60,7 @@ __webpack_require__
 )
 ;
 var
-_newtab_common_Actions_sys_mjs__WEBPACK_IMPORTED_MODULE_1__
+_newtab_common_Actions_mjs__WEBPACK_IMPORTED_MODULE_1__
 =
 __webpack_require__
 (
@@ -390,7 +390,7 @@ ASRouterUtils
 .
 sendMessage
 (
-_newtab_common_Actions_sys_mjs__WEBPACK_IMPORTED_MODULE_1__
+_newtab_common_Actions_mjs__WEBPACK_IMPORTED_MODULE_1__
 .
 actionCreators
 .
@@ -1678,7 +1678,7 @@ action
 function
 SetPref
 (
-name
+prefName
 value
 importContext
 =
@@ -1698,6 +1698,8 @@ data
 :
 {
 name
+:
+prefName
 value
 }
 }

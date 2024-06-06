@@ -1372,7 +1372,7 @@ action
 function
 SetPref
 (
-name
+prefName
 value
 importContext
 =
@@ -1392,6 +1392,8 @@ data
 :
 {
 name
+:
+prefName
 value
 }
 }

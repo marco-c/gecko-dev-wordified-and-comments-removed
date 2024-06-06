@@ -114,8 +114,6 @@ common
 /
 Actions
 .
-sys
-.
 mjs
 "
 ;

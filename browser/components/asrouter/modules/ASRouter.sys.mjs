@@ -797,8 +797,6 @@ common
 /
 Actions
 .
-sys
-.
 mjs
 "
 ;

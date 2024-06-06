@@ -28,8 +28,6 @@ common
 /
 Actions
 .
-sys
-.
 mjs
 "
 ;
