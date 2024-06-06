@@ -1831,6 +1831,15 @@ passwordsStorage
 warmUp
 (
 )
+components
+.
+core
+.
+autofillStorage
+.
+warmUp
+(
+)
 }
 SecurePrefsTelemetry
 (
