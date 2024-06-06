@@ -228,16 +228,6 @@ fenix
 tabstray
 .
 TabsTrayStore
-import
-org
-.
-mozilla
-.
-fenix
-.
-tabstray
-.
-TabsTrayViewHolder
 /
 *
 *

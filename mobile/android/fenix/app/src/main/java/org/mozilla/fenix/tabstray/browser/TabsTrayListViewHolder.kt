@@ -117,16 +117,6 @@ mozilla
 .
 fenix
 .
-tabstray
-.
-TabsTrayViewHolder
-import
-org
-.
-mozilla
-.
-fenix
-.
 selection
 .
 SelectionHolder
