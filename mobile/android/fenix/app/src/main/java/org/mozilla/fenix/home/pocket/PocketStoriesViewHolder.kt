@@ -269,16 +269,6 @@ mozilla
 .
 fenix
 .
-R
-.
-string
-import
-org
-.
-mozilla
-.
-fenix
-.
 components
 .
 components
@@ -626,6 +616,8 @@ text
 =
 stringResource
 (
+R
+.
 string
 .
 pocket_stories_header_1
