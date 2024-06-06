@@ -149,7 +149,9 @@ lib
 .
 crash
 .
-service
+sentry
+.
+legacy
 .
 SentryService
 import

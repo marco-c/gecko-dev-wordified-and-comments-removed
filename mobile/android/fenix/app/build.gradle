@@ -5108,6 +5108,10 @@ mozilla_lib_crash
 implementation
 Deps
 .
+lib_crash_sentry_legacy
+implementation
+Deps
+.
 mozilla_lib_push_firebase
 implementation
 Deps
