@@ -169,7 +169,7 @@ txt
 )
 }
 }
-lintOptions
+lint
 {
 warningsAsErrors
 true

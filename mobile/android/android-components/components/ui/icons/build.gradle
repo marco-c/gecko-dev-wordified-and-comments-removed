@@ -83,7 +83,7 @@ config
 .
 targetSdkVersion
 }
-lintOptions
+lint
 {
 /
 /

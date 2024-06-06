@@ -1,6 +1,6 @@
 android
 {
-lintOptions
+lint
 {
 warningsAsErrors
 true

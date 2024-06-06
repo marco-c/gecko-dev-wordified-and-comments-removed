@@ -1497,7 +1497,7 @@ JavaVersion
 .
 VERSION_11
 }
-lintOptions
+lint
 {
 lintConfig
 file

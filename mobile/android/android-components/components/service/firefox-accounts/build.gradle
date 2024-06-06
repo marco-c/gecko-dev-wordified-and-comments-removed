@@ -91,7 +91,7 @@ config
 .
 targetSdkVersion
 }
-lintOptions
+lint
 {
 warningsAsErrors
 true

@@ -120,7 +120,7 @@ txt
 )
 }
 }
-lintOptions
+lint
 {
 lintConfig
 file

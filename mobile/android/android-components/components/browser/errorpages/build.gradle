@@ -101,7 +101,7 @@ runner
 AndroidJUnitRunner
 "
 }
-lintOptions
+lint
 {
 /
 /
