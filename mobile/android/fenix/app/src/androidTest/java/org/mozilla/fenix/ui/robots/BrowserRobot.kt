@@ -786,8 +786,6 @@ verifyWhatsNewURL
 verifyUrl
 (
 "
-support
-.
 mozilla
 .
 org

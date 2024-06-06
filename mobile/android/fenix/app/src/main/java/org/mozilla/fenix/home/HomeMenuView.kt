@@ -981,10 +981,7 @@ searchTermOrURL
 =
 SupportUtils
 .
-getWhatsNewUrl
-(
-context
-)
+WHATS_NEW_URL
 newTab
 =
 true

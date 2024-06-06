@@ -1037,10 +1037,7 @@ searchTermOrURL
 =
 SupportUtils
 .
-getWhatsNewUrl
-(
-testContext
-)
+WHATS_NEW_URL
 newTab
 =
 true

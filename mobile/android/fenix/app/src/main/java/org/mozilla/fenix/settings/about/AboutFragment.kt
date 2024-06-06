@@ -817,10 +817,7 @@ ExternalLink
 WHATS_NEW
 SupportUtils
 .
-getWhatsNewUrl
-(
-context
-)
+WHATS_NEW_URL
 )
 getString
 (
