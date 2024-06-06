@@ -1837,9 +1837,6 @@ moveEvent2
 verify
 (
 scrollListener
-never
-(
-)
 )
 .
 invoke
@@ -1865,17 +1862,6 @@ vertical
 horizontal
 scrolls
 .
-verify
-(
-crashReporting
-)
-.
-submitCaughtException
-(
-any
-(
-)
-)
 verify
 (
 verticalScrollListener

@@ -1066,6 +1066,7 @@ onScrolling
 previousEvent
 :
 MotionEvent
+?
 currentEvent
 :
 MotionEvent
@@ -1094,6 +1095,7 @@ onScroll
 e1
 :
 MotionEvent
+?
 e2
 :
 MotionEvent
