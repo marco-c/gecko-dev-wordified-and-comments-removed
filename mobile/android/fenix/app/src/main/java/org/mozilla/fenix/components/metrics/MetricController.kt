@@ -1637,7 +1637,7 @@ null
 }
 Component
 .
-BROWSER_AWESOMEBAR
+COMPOSE_AWESOMEBAR
 =
 =
 component
