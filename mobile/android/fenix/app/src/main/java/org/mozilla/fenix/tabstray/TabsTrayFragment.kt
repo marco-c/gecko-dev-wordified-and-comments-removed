@@ -1312,6 +1312,17 @@ TabsTray
 tabsTrayStore
 =
 tabsTrayStore
+displayTabsInGrid
+=
+requireContext
+(
+)
+.
+settings
+(
+)
+.
+gridTabView
 )
 }
 }
