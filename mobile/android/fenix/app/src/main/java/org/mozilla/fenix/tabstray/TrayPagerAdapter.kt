@@ -307,8 +307,8 @@ LAYOUT_ID
 >
 NormalBrowserTabViewHolder
 (
-store
 itemView
+store
 interactor
 )
 PrivateBrowserTabViewHolder
@@ -319,6 +319,7 @@ LAYOUT_ID
 PrivateBrowserTabViewHolder
 (
 itemView
+store
 interactor
 )
 SyncedTabViewHolder

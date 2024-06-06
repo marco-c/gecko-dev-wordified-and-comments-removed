@@ -113,6 +113,16 @@ fenix
 .
 tabstray
 .
+TabsTrayStore
+import
+org
+.
+mozilla
+.
+fenix
+.
+tabstray
+.
 browser
 .
 BaseBrowserTrayList
@@ -142,6 +152,9 @@ View
 interactor
 :
 TabsTrayInteractor
+tabsTrayStore
+:
+TabsTrayStore
 )
 :
 AbstractTrayViewHolder
@@ -149,7 +162,7 @@ AbstractTrayViewHolder
 containerView
 )
 {
-protected
+private
 val
 trayList
 :
@@ -172,6 +185,11 @@ trayList
 interactor
 =
 interactor
+trayList
+.
+tabsTrayStore
+=
+tabsTrayStore
 }
 CallSuper
 override

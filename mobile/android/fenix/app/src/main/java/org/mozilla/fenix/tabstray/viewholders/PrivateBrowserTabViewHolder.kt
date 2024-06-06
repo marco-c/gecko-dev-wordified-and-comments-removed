@@ -90,6 +90,16 @@ fenix
 tabstray
 .
 TabsTrayInteractor
+import
+org
+.
+mozilla
+.
+fenix
+.
+tabstray
+.
+TabsTrayStore
 /
 *
 *
@@ -111,6 +121,9 @@ PrivateBrowserTabViewHolder
 containerView
 :
 View
+store
+:
+TabsTrayStore
 interactor
 :
 TabsTrayInteractor
@@ -120,6 +133,7 @@ BaseBrowserTabViewHolder
 (
 containerView
 interactor
+store
 )
 {
 companion

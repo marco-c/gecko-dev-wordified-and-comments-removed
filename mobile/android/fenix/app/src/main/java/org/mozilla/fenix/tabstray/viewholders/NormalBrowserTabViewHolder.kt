@@ -158,14 +158,14 @@ list
 class
 NormalBrowserTabViewHolder
 (
+containerView
+:
+View
 private
 val
 store
 :
 TabsTrayStore
-containerView
-:
-View
 interactor
 :
 TabsTrayInteractor
@@ -175,6 +175,7 @@ BaseBrowserTabViewHolder
 (
 containerView
 interactor
+store
 )
 SelectionHolder
 <
