@@ -488,16 +488,6 @@ RtcEventLog
 namespace
 cricket
 {
-enum
-class
-IceRestartState
-{
-CONNECTING
-CONNECTED
-DISCONNECTED
-MAX_VALUE
-}
-;
 static
 const
 int
