@@ -139,7 +139,6 @@ context
 Context
 )
 {
-private
 val
 permissionsStorage
 by
