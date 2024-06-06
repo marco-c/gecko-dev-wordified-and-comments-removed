@@ -742,7 +742,7 @@ freeCompilerArgs
 =
 "
 -
-Xopt
+opt
 -
 in
 =
@@ -757,7 +757,7 @@ freeCompilerArgs
 =
 "
 -
-Xopt
+opt
 -
 in
 =
@@ -774,7 +774,7 @@ Xjvm
 -
 default
 =
-enable
+all
 "
 jvmTarget
 =

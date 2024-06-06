@@ -77,9 +77,9 @@ compose_compiler
 "
 1
 .
-1
+3
 .
-1
+0
 "
 const
 val
@@ -315,7 +315,7 @@ version
 "
 1
 .
-6
+7
 .
 10
 "
