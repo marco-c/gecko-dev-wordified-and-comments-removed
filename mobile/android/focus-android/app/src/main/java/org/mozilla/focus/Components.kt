@@ -965,6 +965,15 @@ settings
 getPreferredColorScheme
 (
 )
+cookieBannerHandlingModePrivateBrowsing
+=
+settings
+.
+getCurrentCookieBannerOptionFromSharePref
+(
+)
+.
+mode
 )
 }
 val

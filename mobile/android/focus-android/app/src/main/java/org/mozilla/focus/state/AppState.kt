@@ -637,6 +637,7 @@ About
 Locale
 PrivacyExceptions
 PrivacyExceptionsRemove
+CookieBanner
 SitePermissions
 Studies
 SecretSettings
