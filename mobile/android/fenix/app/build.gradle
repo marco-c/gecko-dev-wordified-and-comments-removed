@@ -596,6 +596,14 @@ atomicfu
 kotlin_module
 '
 }
+testOptions
+{
+unitTests
+.
+returnDefaultValues
+=
+true
+}
 }
 android
 .
