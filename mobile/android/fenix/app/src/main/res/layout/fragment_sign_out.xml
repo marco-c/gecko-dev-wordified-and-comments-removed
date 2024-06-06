@@ -341,13 +341,6 @@ sign_out_cancel
 "
 android
 :
-textAlignment
-=
-"
-center
-"
-android
-:
 textAllCaps
 =
 "

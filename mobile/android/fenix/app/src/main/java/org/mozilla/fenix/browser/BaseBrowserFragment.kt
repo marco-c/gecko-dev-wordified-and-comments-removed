@@ -1053,16 +1053,6 @@ locale
 .
 ActivityContextWrapper
 import
-mozilla
-.
-components
-.
-ui
-.
-widgets
-.
-withCenterAlignedButtons
-import
 org
 .
 mozilla
@@ -5503,10 +5493,6 @@ create
 }
 .
 show
-(
-)
-.
-withCenterAlignedButtons
 (
 )
 .

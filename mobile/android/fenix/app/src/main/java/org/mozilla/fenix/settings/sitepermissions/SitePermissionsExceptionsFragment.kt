@@ -253,16 +253,6 @@ kotlin
 .
 stripDefaultPort
 import
-mozilla
-.
-components
-.
-ui
-.
-widgets
-.
-withCenterAlignedButtons
-import
 org
 .
 mozilla
@@ -737,10 +727,6 @@ cancel
 }
 .
 show
-(
-)
-.
-withCenterAlignedButtons
 (
 )
 }

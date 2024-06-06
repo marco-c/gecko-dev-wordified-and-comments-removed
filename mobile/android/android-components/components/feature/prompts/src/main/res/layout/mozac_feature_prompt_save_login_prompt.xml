@@ -993,13 +993,6 @@ mozac_feature_prompt_never_save
 "
 android
 :
-textAlignment
-=
-"
-center
-"
-android
-:
 textAllCaps
 =
 "
@@ -1108,13 +1101,6 @@ text
 string
 /
 mozac_feature_prompt_save_confirmation
-"
-android
-:
-textAlignment
-=
-"
-center
 "
 android
 :

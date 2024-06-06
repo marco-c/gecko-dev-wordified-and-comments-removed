@@ -317,16 +317,6 @@ getColorFromAttr
 import
 mozilla
 .
-components
-.
-ui
-.
-widgets
-.
-withCenterAlignedButtons
-import
-mozilla
-.
 telemetry
 .
 glean
@@ -1856,10 +1846,6 @@ intent
 )
 }
 create
-(
-)
-.
-withCenterAlignedButtons
 (
 )
 }

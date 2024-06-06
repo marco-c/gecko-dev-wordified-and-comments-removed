@@ -246,16 +246,6 @@ prompts
 dialog
 .
 KEY_TITLE
-import
-mozilla
-.
-components
-.
-ui
-.
-widgets
-.
-withCenterAlignedButtons
 internal
 const
 val
@@ -372,10 +362,6 @@ builder
 )
 .
 create
-(
-)
-.
-withCenterAlignedButtons
 (
 )
 }

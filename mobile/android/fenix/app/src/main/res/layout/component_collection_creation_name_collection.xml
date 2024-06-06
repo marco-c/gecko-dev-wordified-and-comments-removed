@@ -376,13 +376,6 @@ create_collection_select_all
 "
 android
 :
-textAlignment
-=
-"
-center
-"
-android
-:
 textAllCaps
 =
 "
@@ -1222,13 +1215,6 @@ text
 string
 /
 create_collection_save
-"
-android
-:
-textAlignment
-=
-"
-center
 "
 android
 :

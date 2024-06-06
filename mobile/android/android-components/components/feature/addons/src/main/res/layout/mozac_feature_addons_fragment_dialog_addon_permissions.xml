@@ -580,13 +580,6 @@ mozac_feature_addons_permissions_dialog_cancel
 "
 android
 :
-textAlignment
-=
-"
-center
-"
-android
-:
 textAllCaps
 =
 "
@@ -672,13 +665,6 @@ text
 string
 /
 mozac_feature_addons_permissions_dialog_add
-"
-android
-:
-textAlignment
-=
-"
-center
 "
 android
 :

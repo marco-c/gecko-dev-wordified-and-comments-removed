@@ -222,16 +222,6 @@ utils
 ext
 .
 getParcelableArrayListCompat
-import
-mozilla
-.
-components
-.
-ui
-.
-widgets
-.
-withCenterAlignedButtons
 private
 const
 val
@@ -342,10 +332,6 @@ createDialogContentView
 )
 .
 create
-(
-)
-.
-withCenterAlignedButtons
 (
 )
 override

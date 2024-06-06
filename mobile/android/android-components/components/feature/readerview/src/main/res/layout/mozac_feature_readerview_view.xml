@@ -324,7 +324,7 @@ serif
 "
 android
 :
-textAlignment
+gravity
 =
 "
 center
@@ -446,7 +446,7 @@ serif
 "
 android
 :
-textAlignment
+gravity
 =
 "
 center
@@ -541,13 +541,6 @@ text
 string
 /
 mozac_feature_readerview_negative_sign
-"
-android
-:
-textAlignment
-=
-"
-center
 "
 android
 :
@@ -685,13 +678,6 @@ text
 string
 /
 mozac_feature_readerview_positive_sign
-"
-android
-:
-textAlignment
-=
-"
-center
 "
 android
 :
@@ -998,6 +984,13 @@ center
 "
 android
 :
+gravity
+=
+"
+center
+"
+android
+:
 contentDescription
 =
 "
@@ -1095,7 +1088,7 @@ layout_weight
 "
 android
 :
-textAlignment
+gravity
 =
 "
 center
@@ -1199,7 +1192,7 @@ layout_weight
 "
 android
 :
-textAlignment
+gravity
 =
 "
 center

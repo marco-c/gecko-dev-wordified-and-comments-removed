@@ -241,13 +241,6 @@ sign_in_with_camera
 "
 android
 :
-textAlignment
-=
-"
-center
-"
-android
-:
 textAppearance
 =
 "
@@ -431,13 +424,6 @@ text
 string
 /
 sign_in_instructions
-"
-android
-:
-textAlignment
-=
-"
-center
 "
 android
 :
@@ -668,7 +654,7 @@ wrap_content
 "
 android
 :
-textAlignment
+gravity
 =
 "
 center

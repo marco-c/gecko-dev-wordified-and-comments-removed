@@ -465,7 +465,7 @@ android
 textAlignment
 =
 "
-center
+textEnd
 "
 android
 :

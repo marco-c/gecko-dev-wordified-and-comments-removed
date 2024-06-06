@@ -153,13 +153,6 @@ POST_NOTIFICATIONS
 >
 <
 application
-android
-:
-supportsRtl
-=
-"
-true
-"
 >
 <
 activity

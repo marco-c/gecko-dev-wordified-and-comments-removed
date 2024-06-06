@@ -219,16 +219,6 @@ autofill
 .
 AutofillCreditCardsAddressesStorage
 import
-mozilla
-.
-components
-.
-ui
-.
-widgets
-.
-withCenterAlignedButtons
-import
 org
 .
 mozilla
@@ -1507,10 +1497,6 @@ intent
 )
 }
 create
-(
-)
-.
-withCenterAlignedButtons
 (
 )
 }

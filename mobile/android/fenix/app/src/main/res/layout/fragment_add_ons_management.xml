@@ -281,13 +281,6 @@ no_add_ons
 "
 android
 :
-textAlignment
-=
-"
-center
-"
-android
-:
 textColor
 =
 "

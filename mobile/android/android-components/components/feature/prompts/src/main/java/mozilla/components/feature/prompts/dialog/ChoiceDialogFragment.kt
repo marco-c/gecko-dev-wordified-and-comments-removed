@@ -182,16 +182,6 @@ utils
 ext
 .
 getParcelableArrayCompat
-import
-mozilla
-.
-components
-.
-ui
-.
-widgets
-.
-withCenterAlignedButtons
 private
 const
 val
@@ -793,10 +783,6 @@ promptRequestUID
 }
 .
 create
-(
-)
-.
-withCenterAlignedButtons
 (
 )
 }

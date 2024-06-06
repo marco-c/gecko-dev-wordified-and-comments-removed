@@ -885,13 +885,6 @@ mozac_feature_sitepermissions_not_allow
 "
 android
 :
-textAlignment
-=
-"
-center
-"
-android
-:
 textAllCaps
 =
 "
@@ -977,13 +970,6 @@ text
 string
 /
 mozac_feature_sitepermissions_allow
-"
-android
-:
-textAlignment
-=
-"
-center
 "
 android
 :

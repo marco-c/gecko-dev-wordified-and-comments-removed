@@ -3319,13 +3319,6 @@ addressess_delete_address_button
 "
 android
 :
-textAlignment
-=
-"
-center
-"
-android
-:
 textAllCaps
 =
 "
@@ -3444,13 +3437,6 @@ text
 string
 /
 addresses_cancel_button
-"
-android
-:
-textAlignment
-=
-"
-center
 "
 android
 :

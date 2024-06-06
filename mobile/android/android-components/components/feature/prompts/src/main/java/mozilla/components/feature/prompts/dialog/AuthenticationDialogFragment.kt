@@ -162,16 +162,6 @@ feature
 prompts
 .
 R
-import
-mozilla
-.
-components
-.
-ui
-.
-widgets
-.
-withCenterAlignedButtons
 private
 const
 val
@@ -465,10 +455,6 @@ builder
 )
 .
 create
-(
-)
-.
-withCenterAlignedButtons
 (
 )
 }

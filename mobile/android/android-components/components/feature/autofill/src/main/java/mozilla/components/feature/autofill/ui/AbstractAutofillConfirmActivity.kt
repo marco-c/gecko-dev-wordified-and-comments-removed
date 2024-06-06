@@ -260,16 +260,6 @@ utils
 ext
 .
 getParcelableExtraCompat
-import
-mozilla
-.
-components
-.
-ui
-.
-widgets
-.
-withCenterAlignedButtons
 /
 *
 *
@@ -769,10 +759,6 @@ cancelRequest
 }
 .
 create
-(
-)
-.
-withCenterAlignedButtons
 (
 )
 }

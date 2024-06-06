@@ -199,16 +199,6 @@ view
 .
 showKeyboard
 import
-mozilla
-.
-components
-.
-ui
-.
-widgets
-.
-withCenterAlignedButtons
-import
 org
 .
 mozilla
@@ -932,10 +922,6 @@ credit_cards_delete_dialog_button
 onPositiveClickListener
 )
 create
-(
-)
-.
-withCenterAlignedButtons
 (
 )
 }

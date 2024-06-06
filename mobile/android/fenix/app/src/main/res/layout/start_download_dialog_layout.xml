@@ -772,13 +772,6 @@ mozac_feature_downloads_dialog_download
 "
 android
 :
-textAlignment
-=
-"
-center
-"
-android
-:
 background
 =
 "

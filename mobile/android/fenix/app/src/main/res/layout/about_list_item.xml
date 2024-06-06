@@ -214,13 +214,6 @@ gravity
 "
 center
 "
-android
-:
-textAlignment
-=
-"
-center
-"
 app
 :
 layout_constraintBottom_toBottomOf

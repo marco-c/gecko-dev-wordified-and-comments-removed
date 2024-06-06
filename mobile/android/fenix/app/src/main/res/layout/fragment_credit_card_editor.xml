@@ -1314,13 +1314,6 @@ credit_cards_delete_card_button
 "
 android
 :
-textAlignment
-=
-"
-center
-"
-android
-:
 textAllCaps
 =
 "
@@ -1429,13 +1422,6 @@ text
 string
 /
 credit_cards_cancel_button
-"
-android
-:
-textAlignment
-=
-"
-center
 "
 android
 :

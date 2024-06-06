@@ -92,16 +92,6 @@ appcompat
 app
 .
 AlertDialog
-import
-mozilla
-.
-components
-.
-ui
-.
-widgets
-.
-withCenterAlignedButtons
 /
 *
 *
@@ -196,10 +186,6 @@ builder
 )
 .
 create
-(
-)
-.
-withCenterAlignedButtons
 (
 )
 }

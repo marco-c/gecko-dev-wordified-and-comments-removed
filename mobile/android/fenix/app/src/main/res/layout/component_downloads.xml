@@ -291,13 +291,6 @@ download_empty_message_1
 "
 android
 :
-textAlignment
-=
-"
-center
-"
-android
-:
 textColor
 =
 "
