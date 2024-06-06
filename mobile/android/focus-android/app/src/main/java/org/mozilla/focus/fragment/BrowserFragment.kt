@@ -3892,11 +3892,6 @@ share_dialog_title
 )
 )
 )
-TelemetryWrapper
-.
-shareEvent
-(
-)
 }
 private
 fun
@@ -4025,11 +4020,6 @@ FLAG_ACTIVITY_CLEAR_TOP
 startActivity
 (
 intent
-)
-TelemetryWrapper
-.
-openFullBrowser
-(
 )
 /
 /
@@ -4376,12 +4366,6 @@ apply
 (
 )
 }
-TelemetryWrapper
-.
-desktopRequestCheckEvent
-(
-enabled
-)
 requireComponents
 .
 sessionUseCases
