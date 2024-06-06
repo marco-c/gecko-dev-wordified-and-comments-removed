@@ -1514,10 +1514,11 @@ UiSelector
 (
 )
 .
-resourceId
+descriptionContains
 (
 "
 download
+icon
 "
 )
 .
@@ -1664,8 +1665,6 @@ true
 )
 )
 ;
-Assert
-.
 assertTrue
 (
 mozillaImage
@@ -1694,8 +1693,6 @@ waitingTime
 )
 )
 ;
-Assert
-.
 assertTrue
 (
 imageMenuTitle
