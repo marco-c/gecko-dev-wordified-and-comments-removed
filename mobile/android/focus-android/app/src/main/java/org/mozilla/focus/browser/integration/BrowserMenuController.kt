@@ -329,6 +329,15 @@ openInBrowser
 -
 >
 Unit
+private
+val
+showShortcutAddedSnackBar
+:
+(
+)
+-
+>
+Unit
 )
 {
 VisibleForTesting
@@ -535,6 +544,9 @@ url
 )
 }
 }
+showShortcutAddedSnackBar
+(
+)
 }
 is
 ToolbarMenu
