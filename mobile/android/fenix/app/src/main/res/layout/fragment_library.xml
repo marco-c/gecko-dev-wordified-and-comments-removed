@@ -461,7 +461,7 @@ id
 +
 id
 /
-libraryFavorites
+libraryBookmarks
 "
 android
 :
@@ -519,7 +519,7 @@ listItemIcon
 "
 drawable
 /
-library_icon_favorites_circle_background
+library_icon_bookmarks_circle_background
 "
 app
 :

@@ -2924,7 +2924,7 @@ in
 the
 browser
 to
-favorite
+bookmark
 the
 current
 page
@@ -2936,10 +2936,10 @@ string
 name
 =
 "
-quick_action_favorite
+quick_action_bookmark
 "
 >
-Favorite
+Bookmark
 <
 /
 string
@@ -3155,7 +3155,7 @@ in
 Library
 to
 open
-Favorites
+Bookmarks
 page
 -
 -

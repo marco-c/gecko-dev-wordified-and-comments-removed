@@ -705,7 +705,7 @@ color
 name
 =
 "
-library_favorites_icon_background
+library_bookmarks_icon_background
 "
 >
 #
@@ -719,7 +719,7 @@ color
 name
 =
 "
-library_favorites_icon
+library_bookmarks_icon
 "
 >
 #
