@@ -398,6 +398,9 @@ Loading
 ReviewQualityCheckAction
 .
 ReanalyzeProduct
+ReviewQualityCheckAction
+.
+AnalyzeProduct
 -
 >
 {

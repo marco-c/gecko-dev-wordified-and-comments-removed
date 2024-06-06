@@ -407,6 +407,9 @@ productReviewState
 ReviewQualityCheckAction
 .
 ReanalyzeProduct
+ReviewQualityCheckAction
+.
+AnalyzeProduct
 -
 >
 {
