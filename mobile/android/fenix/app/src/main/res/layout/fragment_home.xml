@@ -753,6 +753,8 @@ android
 layout_gravity
 =
 "
+start
+|
 center_vertical
 "
 android
@@ -795,7 +797,7 @@ android
 layout_width
 =
 "
-match_parent
+wrap_content
 "
 android
 :
@@ -809,6 +811,8 @@ android
 layout_gravity
 =
 "
+start
+|
 center_vertical
 "
 android
