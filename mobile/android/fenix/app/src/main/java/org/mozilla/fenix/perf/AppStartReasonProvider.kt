@@ -570,7 +570,7 @@ ACTIVITY
 >
 reason
 /
-*
+/
 the
 start
 reason
@@ -581,8 +581,6 @@ known
 do
 nothing
 .
-*
-/
 StartReason
 .
 NON_ACTIVITY
@@ -690,7 +688,7 @@ NON_ACTIVITY
 >
 reason
 /
-*
+/
 the
 start
 reason
@@ -701,8 +699,6 @@ known
 do
 nothing
 .
-*
-/
 StartReason
 .
 ACTIVITY

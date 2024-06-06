@@ -609,12 +609,10 @@ LENGTH_SNACKBAR_DURATION
 =
 4000
 /
-*
+/
 4
 seconds
 in
 ms
-*
-/
 }
 }

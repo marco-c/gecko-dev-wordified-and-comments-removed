@@ -237,10 +237,8 @@ refreshIntervalForeground
 =
 60
 /
-*
-minutes
-*
 /
+minutes
 )
 class
 NimbusUnderTest

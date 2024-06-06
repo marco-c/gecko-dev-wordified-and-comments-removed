@@ -643,6 +643,12 @@ settings
 blockRedirectTrackersInCustomTrackingProtection
 }
 }
+Suppress
+(
+"
+MaxLineLength
+"
+)
 VisibleForTesting
 internal
 fun

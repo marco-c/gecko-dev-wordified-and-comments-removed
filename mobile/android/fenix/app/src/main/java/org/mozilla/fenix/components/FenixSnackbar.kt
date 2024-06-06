@@ -441,13 +441,11 @@ LENGTH_ACCESSIBLE
 =
 15000
 /
-*
+/
 15
 seconds
 in
 ms
-*
-/
 const
 val
 LENGTH_INDEFINITE
