@@ -149,11 +149,13 @@ val
 android_lint_api
 =
 "
-27
+30
 .
 0
 .
-1
+0
+-
+rc01
 "
 const
 val
