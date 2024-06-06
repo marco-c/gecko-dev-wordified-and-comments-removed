@@ -582,6 +582,9 @@ name
                 
 return
 True
+        
+return
+False
     
 def
 update_test_cases_to_passed
@@ -649,9 +652,6 @@ _update_test_run_results
 testrail_run_id
 data
 )
-        
-return
-False
     
 def
 _get_test_cases
