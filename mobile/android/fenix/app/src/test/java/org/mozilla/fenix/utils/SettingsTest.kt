@@ -2631,7 +2631,7 @@ every
 {
 localSetting
 .
-isDefaultBrowser
+isDefaultBrowserBlocking
 (
 )
 }
@@ -2667,7 +2667,7 @@ every
 {
 localSetting
 .
-isDefaultBrowser
+isDefaultBrowserBlocking
 (
 )
 }

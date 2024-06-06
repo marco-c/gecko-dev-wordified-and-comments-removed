@@ -206,7 +206,7 @@ get
 =
 settings
 .
-isDefaultBrowser
+isDefaultBrowserBlocking
 (
 )
 override

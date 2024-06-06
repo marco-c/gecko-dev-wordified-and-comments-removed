@@ -2295,7 +2295,7 @@ true
 }
 }
 }
-trackDefaultBrowser
+isFenixTheDefaultBrowser
 (
 )
 }
@@ -6313,7 +6313,7 @@ recentlyUsedPwaCount
 }
 private
 fun
-trackDefaultBrowser
+isFenixTheDefaultBrowser
 (
 )
 {
@@ -6345,7 +6345,7 @@ settings
 (
 )
 .
-checkDefaultBrowserAndSet
+checkIfFenixIsDefaultBrowserOnAppResume
 (
 )
 )
