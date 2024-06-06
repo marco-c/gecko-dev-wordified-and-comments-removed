@@ -3540,7 +3540,7 @@ recommendations
 state
 should
 be
-error
+initial
 (
 )
 =
@@ -3645,7 +3645,7 @@ ReviewQualityCheckState
 .
 RecommendedProductState
 .
-Error
+Initial
 )
 productRecommendationsPreference
 =

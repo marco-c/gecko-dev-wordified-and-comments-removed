@@ -150,7 +150,7 @@ it
 is
 mapped
 to
-Error
+Initial
 (
 )
 {
@@ -169,7 +169,7 @@ ReviewQualityCheckState
 .
 RecommendedProductState
 .
-Error
+Initial
 assertEquals
 (
 expected

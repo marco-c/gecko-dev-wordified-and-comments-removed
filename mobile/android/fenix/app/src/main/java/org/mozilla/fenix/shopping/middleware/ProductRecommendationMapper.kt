@@ -169,7 +169,7 @@ toRecommendedProduct
 :
 RecommendedProductState
 .
-Error
+Initial
 private
 fun
 ProductRecommendation
