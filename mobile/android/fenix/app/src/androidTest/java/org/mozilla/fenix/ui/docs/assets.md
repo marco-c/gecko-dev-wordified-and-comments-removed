@@ -72,7 +72,7 @@ test_app
 /
 downloads
 .
-htm
+html
 #
 Assets
 Currently
