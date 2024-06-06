@@ -82,6 +82,11 @@ job
 -
 defaults
 :
+attributes
+:
+retrigger
+:
+true
 dependencies
 :
 geckoview
