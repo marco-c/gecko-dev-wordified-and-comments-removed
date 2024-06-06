@@ -91,7 +91,7 @@ coroutines
 .
 test
 .
-TestCoroutineDispatcher
+UnconfinedTestDispatcher
 import
 kotlinx
 .
@@ -356,7 +356,7 @@ private
 val
 testDispatcher
 =
-TestCoroutineDispatcher
+UnconfinedTestDispatcher
 (
 )
 private
@@ -545,11 +545,6 @@ tearDown
 Dispatchers
 .
 resetMain
-(
-)
-testDispatcher
-.
-cleanupTestCoroutines
 (
 )
 }
@@ -929,6 +924,8 @@ joinBlocking
 )
 testDispatcher
 .
+scheduler
+.
 advanceUntilIdle
 (
 )
@@ -961,6 +958,8 @@ joinBlocking
 (
 )
 testDispatcher
+.
+scheduler
 .
 advanceUntilIdle
 (
