@@ -4330,11 +4330,6 @@ OptionalUnit
 active
 :
 false
-OptionalWhenBraces
-:
-active
-:
-false
 PreferToOverPairSyntax
 :
 active
