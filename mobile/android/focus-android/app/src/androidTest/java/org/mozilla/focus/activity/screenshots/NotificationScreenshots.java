@@ -662,7 +662,7 @@ app_name
 .
 swipeDown
 (
-5
+20
 )
 ;
 assertTrue
