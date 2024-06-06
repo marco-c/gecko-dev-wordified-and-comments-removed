@@ -80,6 +80,12 @@ net
 .
 toUri
 import
+kotlinx
+.
+coroutines
+.
+runBlocking
+import
 java
 .
 net
@@ -239,7 +245,6 @@ and
 suffix
 *
 /
-suspend
 fun
 String
 .
@@ -267,6 +272,8 @@ hostWithoutCommonPrefixes
 :
 return
 this
+runBlocking
+{
 context
 .
 components
@@ -281,6 +288,7 @@ host
 await
 (
 )
+}
 }
 catch
 (

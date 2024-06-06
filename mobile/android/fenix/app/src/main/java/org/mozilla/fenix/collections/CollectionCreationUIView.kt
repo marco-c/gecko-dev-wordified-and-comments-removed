@@ -215,12 +215,6 @@ coroutines
 .
 Job
 import
-kotlinx
-.
-coroutines
-.
-launch
-import
 mozilla
 .
 components
@@ -1490,13 +1484,6 @@ tab_list
 isClickable
 =
 false
-launch
-(
-Dispatchers
-.
-Main
-)
-{
 it
 .
 selectedTabCollection
@@ -1561,7 +1548,6 @@ toSet
 )
 true
 )
-}
 }
 }
 back_button

@@ -212,12 +212,6 @@ kotlinx
 coroutines
 .
 Dispatchers
-import
-kotlinx
-.
-coroutines
-.
-Dispatchers
 .
 IO
 import
@@ -1724,13 +1718,6 @@ item
 guid
 )
 )
-launch
-(
-Dispatchers
-.
-Main
-)
-{
 allowUndo
 (
 view
@@ -1797,7 +1784,6 @@ RemoveBookmark
 refreshBookmarks
 (
 )
-}
 }
 }
 }

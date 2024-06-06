@@ -4238,13 +4238,6 @@ getSessionById
 .
 let
 {
-launch
-(
-Dispatchers
-.
-Main
-)
-{
 val
 tabs
 =
@@ -4378,7 +4371,6 @@ id
 browserFragment
 directions
 )
-}
 }
 }
 }

@@ -513,13 +513,6 @@ updateTabUI
 (
 )
 {
-launch
-(
-Dispatchers
-.
-Main
-)
-{
 collection_tab_hostname
 .
 text
@@ -534,7 +527,6 @@ view
 .
 context
 )
-}
 collection_tab_title
 .
 text

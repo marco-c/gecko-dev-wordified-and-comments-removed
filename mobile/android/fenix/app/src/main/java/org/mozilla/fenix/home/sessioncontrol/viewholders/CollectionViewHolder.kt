@@ -159,12 +159,6 @@ coroutines
 .
 Job
 import
-kotlinx
-.
-coroutines
-.
-launch
-import
 mozilla
 .
 components
@@ -530,13 +524,6 @@ updateCollectionUI
 (
 )
 {
-launch
-(
-Dispatchers
-.
-Main
-)
-{
 view
 .
 collection_title
@@ -710,7 +697,6 @@ Mode
 .
 SRC_IN
 )
-}
 }
 private
 fun

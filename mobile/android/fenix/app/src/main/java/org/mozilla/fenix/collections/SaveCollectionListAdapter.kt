@@ -163,12 +163,6 @@ coroutines
 .
 Job
 import
-kotlinx
-.
-coroutines
-.
-launch
-import
 org
 .
 mozilla
@@ -512,13 +506,6 @@ this
 collection
 =
 collection
-launch
-(
-Dispatchers
-.
-Main
-)
-{
 view
 .
 collection_item
@@ -572,7 +559,6 @@ Mode
 .
 SRC_IN
 )
-}
 }
 Suppress
 (

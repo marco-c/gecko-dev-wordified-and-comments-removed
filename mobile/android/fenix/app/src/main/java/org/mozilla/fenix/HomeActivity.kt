@@ -474,6 +474,13 @@ onCreate
 (
 savedInstanceState
 )
+components
+.
+publicSuffixList
+.
+prefetch
+(
+)
 browsingModeManager
 =
 createBrowsingModeManager

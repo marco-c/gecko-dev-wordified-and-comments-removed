@@ -562,7 +562,6 @@ title
 }
 }
 }
-suspend
 fun
 TabCollection
 .
