@@ -5197,6 +5197,11 @@ true
 toggleReaderView
 (
 )
+mDevice
+.
+waitForIdle
+(
+)
 }
 .
 openThreeDotMenu
