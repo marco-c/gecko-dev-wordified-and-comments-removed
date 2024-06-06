@@ -1566,6 +1566,7 @@ Item
 SyncAccount
 -
 >
+{
 browserAnimator
 .
 captureEngineViewAndDrawStatically
@@ -1581,10 +1582,11 @@ id
 browserFragment
 BrowserFragmentDirections
 .
-actionBrowserFragmentToSyncedTabsFragment
+actionGlobalAccountSettingsFragment
 (
 )
 )
+}
 }
 is
 ToolbarMenu
