@@ -211,14 +211,6 @@ id
 .
 trackingProtectionFragment
 )
-FromDefaultBrowserSettingsFragment
-(
-R
-.
-id
-.
-defaultBrowserSettingsFragment
-)
 FromSavedLoginsFragment
 (
 R
