@@ -5381,7 +5381,9 @@ GetModuleArg
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 uint32_t
 numRequired
@@ -23411,7 +23413,9 @@ GetBufferSource
 JSContext
 *
 cx
+const
 CallArgs
+&
 callArgs
 const
 char
@@ -23741,7 +23745,9 @@ GetInstantiateArgs
 JSContext
 *
 cx
+const
 CallArgs
+&
 callArgs
 MutableHandleObject
 firstArg
@@ -26019,7 +26025,9 @@ ResolveResponseClosure
 *
 ToResolveResponseClosure
 (
+const
 CallArgs
+&
 args
 )
 {

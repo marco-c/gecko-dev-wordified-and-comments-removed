@@ -15,6 +15,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
 <
 stddef
 .
@@ -326,6 +335,7 @@ struct
 JSJitMethodCallArgsTraits
 ;
 class
+MOZ_NON_PARAM
 JSJitMethodCallArgs
 :
 protected

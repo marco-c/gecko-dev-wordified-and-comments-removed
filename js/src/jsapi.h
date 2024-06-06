@@ -1309,7 +1309,9 @@ GetFirstArgumentAsTypeHint
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 JSType
 *

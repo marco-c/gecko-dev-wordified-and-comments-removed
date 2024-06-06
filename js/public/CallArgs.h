@@ -224,6 +224,7 @@ WantUsedRval
 >
 class
 MOZ_STACK_CLASS
+MOZ_NON_PARAM
 CallArgsBase
 {
 static_assert
@@ -883,6 +884,7 @@ argv_
 }
 class
 MOZ_STACK_CLASS
+MOZ_NON_PARAM
 CallArgs
 :
 public
