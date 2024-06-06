@@ -913,7 +913,6 @@ onboarding
 .
 value
 (
-activity
 )
 if
 (
@@ -1028,7 +1027,6 @@ onboardingFeature
 .
 value
 (
-activity
 )
 val
 clearBrowsingSessions

@@ -1406,7 +1406,6 @@ onboarding
 .
 value
 (
-context
 )
 .
 isEnabled
@@ -2463,7 +2462,6 @@ cookieBanner
 .
 value
 (
-context
 )
 .
 isCookieHandlingEnabled
