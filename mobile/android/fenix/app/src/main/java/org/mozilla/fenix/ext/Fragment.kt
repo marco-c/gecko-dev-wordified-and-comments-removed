@@ -626,7 +626,7 @@ R
 .
 id
 .
-creditCardsSettingFragment
+autofillSettingFragment
 false
 )
 }

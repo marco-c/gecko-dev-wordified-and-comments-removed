@@ -1066,7 +1066,7 @@ id
 +
 id
 /
-action_global_creditCardsSettingFragment
+action_global_autofillSettingFragment
 "
 app
 :
@@ -1075,7 +1075,7 @@ destination
 "
 id
 /
-credit_cards_graph
+autofill_graph
 "
 /
 >
@@ -3839,7 +3839,7 @@ id
 +
 id
 /
-action_settingsFragment_to_creditCardsSettingFragment
+action_settingsFragment_to_autofillSettingFragment
 "
 app
 :
@@ -3848,7 +3848,7 @@ destination
 "
 id
 /
-credit_cards_graph
+autofill_graph
 "
 app
 :
@@ -9210,7 +9210,7 @@ id
 +
 id
 /
-credit_cards_graph
+autofill_graph
 "
 app
 :
@@ -9219,7 +9219,7 @@ startDestination
 "
 id
 /
-creditCardsSettingFragment
+autofillSettingFragment
 "
 >
 <
@@ -9232,7 +9232,7 @@ id
 +
 id
 /
-creditCardsSettingFragment
+autofillSettingFragment
 "
 android
 :
@@ -9249,7 +9249,7 @@ settings
 .
 creditcards
 .
-CreditCardsSettingFragment
+AutofillSettingFragment
 "
 android
 :
@@ -9271,7 +9271,7 @@ id
 +
 id
 /
-action_creditCardsSettingFragment_to_creditCardEditorFragment
+action_autofillSettingFragment_to_creditCardEditorFragment
 "
 app
 :
@@ -9330,7 +9330,7 @@ id
 +
 id
 /
-action_creditCardsSettingFragment_to_creditCardsManagementFragment
+action_autofillSettingFragment_to_creditCardsManagementFragment
 "
 app
 :

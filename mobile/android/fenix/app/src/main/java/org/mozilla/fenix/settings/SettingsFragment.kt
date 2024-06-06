@@ -2157,7 +2157,7 @@ pref_key_credit_cards
 {
 SettingsFragmentDirections
 .
-actionSettingsFragmentToCreditCardsSettingFragment
+actionSettingsFragmentToAutofillSettingFragment
 (
 )
 }

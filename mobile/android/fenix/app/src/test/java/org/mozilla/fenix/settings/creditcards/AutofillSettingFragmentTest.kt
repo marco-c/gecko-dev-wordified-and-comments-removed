@@ -523,9 +523,9 @@ pref_key_credit_cards_manage_cards
 val
 directions
 =
-CreditCardsSettingFragmentDirections
+AutofillSettingFragmentDirections
 .
-actionCreditCardsSettingFragmentToCreditCardEditorFragment
+actionAutofillSettingFragmentToCreditCardEditorFragment
 (
 )
 val

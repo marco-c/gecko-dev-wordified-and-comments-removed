@@ -913,9 +913,9 @@ navController
 .
 navigate
 (
-CreditCardsSettingFragmentDirections
+AutofillSettingFragmentDirections
 .
-actionCreditCardsSettingFragmentToCreditCardEditorFragment
+actionAutofillSettingFragmentToCreditCardEditorFragment
 (
 )
 )
@@ -1276,9 +1276,9 @@ navigateToCreditCardManagementFragment
 val
 directions
 =
-CreditCardsSettingFragmentDirections
+AutofillSettingFragmentDirections
 .
-actionCreditCardsSettingFragmentToCreditCardsManagementFragment
+actionAutofillSettingFragmentToCreditCardsManagementFragment
 (
 )
 findNavController

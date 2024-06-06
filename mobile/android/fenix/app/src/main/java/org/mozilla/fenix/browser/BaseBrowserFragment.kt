@@ -3693,7 +3693,7 @@ directions
 =
 NavGraphDirections
 .
-actionGlobalCreditCardsSettingFragment
+actionGlobalAutofillSettingFragment
 (
 )
 findNavController
