@@ -198,8 +198,6 @@ class
 class
 TabCounterBinding
 (
-private
-val
 store
 :
 BrowserStore

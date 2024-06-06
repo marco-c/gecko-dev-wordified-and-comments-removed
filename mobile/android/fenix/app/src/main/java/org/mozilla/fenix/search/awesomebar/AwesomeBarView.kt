@@ -403,8 +403,6 @@ val
 view
 :
 AwesomeBarWrapper
-private
-val
 fromHomeFragment
 :
 Boolean

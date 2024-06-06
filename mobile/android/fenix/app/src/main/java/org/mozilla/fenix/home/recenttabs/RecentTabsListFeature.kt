@@ -235,8 +235,6 @@ class
 class
 RecentTabsListFeature
 (
-private
-val
 browserStore
 :
 BrowserStore

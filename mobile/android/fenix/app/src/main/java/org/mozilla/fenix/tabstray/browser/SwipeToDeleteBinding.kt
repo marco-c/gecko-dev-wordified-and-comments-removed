@@ -176,8 +176,6 @@ class
 class
 SwipeToDeleteBinding
 (
-private
-val
 store
 :
 TabsTrayStore
