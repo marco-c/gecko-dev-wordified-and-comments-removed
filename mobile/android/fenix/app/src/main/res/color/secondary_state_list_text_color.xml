@@ -129,7 +129,9 @@ color
 =
 "
 ?
-secondaryText
+attr
+/
+textSecondary
 "
 /
 >

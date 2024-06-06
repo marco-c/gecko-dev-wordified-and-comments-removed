@@ -395,7 +395,7 @@ R
 .
 attr
 .
-secondaryText
+textSecondary
 )
 suggestionBackground
 =

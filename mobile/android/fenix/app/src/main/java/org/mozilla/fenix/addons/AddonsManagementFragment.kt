@@ -1138,7 +1138,7 @@ R
 .
 attr
 .
-secondaryText
+textSecondary
 context
 )
 sectionsTypeFace

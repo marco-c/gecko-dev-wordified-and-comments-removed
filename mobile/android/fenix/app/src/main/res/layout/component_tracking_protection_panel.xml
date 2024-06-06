@@ -1782,7 +1782,9 @@ textColor
 =
 "
 ?
-secondaryText
+attr
+/
+textSecondary
 "
 app
 :
@@ -1880,7 +1882,9 @@ textColor
 =
 "
 ?
-secondaryText
+attr
+/
+textSecondary
 "
 android
 :

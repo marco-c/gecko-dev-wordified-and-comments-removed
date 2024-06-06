@@ -110,7 +110,9 @@ color
 =
 "
 ?
-secondaryText
+attr
+/
+textSecondary
 "
 android
 :

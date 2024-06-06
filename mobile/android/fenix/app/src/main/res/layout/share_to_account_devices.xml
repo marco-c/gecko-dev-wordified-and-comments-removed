@@ -212,7 +212,9 @@ textColor
 =
 "
 ?
-secondaryText
+attr
+/
+textSecondary
 "
 android
 :

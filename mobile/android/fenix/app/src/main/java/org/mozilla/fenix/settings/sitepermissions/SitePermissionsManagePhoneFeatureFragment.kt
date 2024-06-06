@@ -1351,7 +1351,7 @@ R
 .
 attr
 .
-secondaryText
+textSecondary
 requireContext
 (
 )

@@ -332,7 +332,9 @@ fillColor
 =
 "
 ?
-secondaryText
+attr
+/
+textSecondary
 "
 android
 :

@@ -661,7 +661,7 @@ R
 .
 attr
 .
-secondaryText
+textSecondary
 context
 )
 )

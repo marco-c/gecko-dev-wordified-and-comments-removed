@@ -452,7 +452,7 @@ R
 .
 attr
 .
-secondaryText
+textSecondary
 )
 autocompleteIcon
 =
@@ -464,7 +464,7 @@ R
 .
 attr
 .
-secondaryText
+textSecondary
 )
 )
 onSuggestionClicked

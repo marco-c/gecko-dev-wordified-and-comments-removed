@@ -201,7 +201,9 @@ textColor
 =
 "
 ?
-secondaryText
+attr
+/
+textSecondary
 "
 /
 >

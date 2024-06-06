@@ -453,7 +453,9 @@ textColor
 =
 "
 ?
-secondaryText
+attr
+/
+textSecondary
 "
 app
 :

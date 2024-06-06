@@ -464,7 +464,7 @@ R
 .
 attr
 .
-secondaryText
+textSecondary
 )
 builder
 .
