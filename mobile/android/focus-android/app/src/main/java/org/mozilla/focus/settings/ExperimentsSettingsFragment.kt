@@ -81,16 +81,6 @@ android
 .
 support
 .
-v14
-.
-preference
-.
-SwitchPreference
-import
-android
-.
-support
-.
 v7
 .
 preference
