@@ -2616,7 +2616,7 @@ whenever
 (
 metadata
 .
-homePageUrl
+homepageUrl
 )
 .
 thenReturn
@@ -2733,7 +2733,7 @@ url
 "
 addon
 .
-siteUrl
+homepageUrl
 )
 assertEquals
 (

@@ -521,7 +521,7 @@ parse
 (
 addon
 .
-siteUrl
+homepageUrl
 )
 )
 startActivity

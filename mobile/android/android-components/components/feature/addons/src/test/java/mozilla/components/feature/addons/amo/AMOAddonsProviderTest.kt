@@ -488,7 +488,7 @@ assertEquals
 "
 addon
 .
-siteUrl
+homepageUrl
 )
 assertEquals
 (
@@ -830,7 +830,7 @@ origin
 "
 addon
 .
-siteUrl
+homepageUrl
 )
 assertEquals
 (
@@ -4111,7 +4111,7 @@ origin
 "
 addon
 .
-siteUrl
+homepageUrl
 )
 assertEquals
 (

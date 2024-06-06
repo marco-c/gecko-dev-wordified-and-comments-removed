@@ -3582,7 +3582,7 @@ org
 "
 metadata
 .
-homePageUrl
+homepageUrl
 )
 assertEquals
 (
@@ -3957,7 +3957,7 @@ assertNull
 (
 metadata
 .
-homePageUrl
+homepageUrl
 )
 assertNull
 (

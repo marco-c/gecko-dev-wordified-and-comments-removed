@@ -530,7 +530,7 @@ Test
 fun
 bind
 addons
-website
+homepage
 (
 )
 {
@@ -542,7 +542,7 @@ baseAddon
 .
 copy
 (
-siteUrl
+homepageUrl
 =
 "
 https
@@ -1094,7 +1094,7 @@ baseAddon
 .
 copy
 (
-siteUrl
+homepageUrl
 =
 "
 "

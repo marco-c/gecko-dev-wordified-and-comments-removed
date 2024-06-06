@@ -342,7 +342,7 @@ bindLastUpdated
 (
 addon
 )
-bindWebsite
+bindHomepage
 (
 addon
 )
@@ -485,7 +485,7 @@ toUri
 }
 private
 fun
-bindWebsite
+bindHomepage
 (
 addon
 :
@@ -496,7 +496,7 @@ if
 (
 addon
 .
-siteUrl
+homepageUrl
 .
 isBlank
 (
@@ -531,7 +531,7 @@ openWebsite
 (
 addon
 .
-siteUrl
+homepageUrl
 .
 toUri
 (
