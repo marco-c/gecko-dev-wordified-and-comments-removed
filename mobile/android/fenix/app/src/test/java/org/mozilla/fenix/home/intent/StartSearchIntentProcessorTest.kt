@@ -444,6 +444,9 @@ null
 showShortcutEnginePicker
 =
 true
+pastedText
+=
+null
 )
 )
 }
