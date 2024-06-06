@@ -7410,6 +7410,14 @@ GeckoEngineSession
 scrollY
 =
 scrollY
+notifyObservers
+{
+onScrollChange
+(
+scrollX
+scrollY
+)
+}
 }
 }
 Suppress
