@@ -592,7 +592,7 @@ SignInComponent
 (
 view
 .
-bookmark_layout
+select_bookmark_layout
 ActionBusFactory
 .
 get
