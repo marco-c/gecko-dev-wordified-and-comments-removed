@@ -405,7 +405,7 @@ mockito
 .
 Mockito
 .
-doReturn
+doNothing
 import
 org
 .
@@ -995,9 +995,8 @@ ExtensionInfo
 )
 runBlocking
 {
-doReturn
+doNothing
 (
-Unit
 )
 .
 when
@@ -1005,7 +1004,7 @@ when
 telemetry
 )
 .
-initializeProviderList
+setProviderList
 (
 any
 (
