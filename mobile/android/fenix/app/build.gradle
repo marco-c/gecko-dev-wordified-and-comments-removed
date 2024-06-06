@@ -2704,6 +2704,10 @@ androidx_navigation_ui
 implementation
 Deps
 .
+androidx_recyclerview
+implementation
+Deps
+.
 autodispose
 implementation
 Deps
