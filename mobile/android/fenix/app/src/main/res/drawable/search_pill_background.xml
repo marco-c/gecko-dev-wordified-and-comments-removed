@@ -109,8 +109,9 @@ android
 color
 =
 "
-#
-FAFAFC
+color
+/
+searchPillBackground
 "
 /
 >
@@ -128,8 +129,9 @@ android
 color
 =
 "
-#
-C6C6Ce
+color
+/
+searchPillPrimary
 "
 /
 >
