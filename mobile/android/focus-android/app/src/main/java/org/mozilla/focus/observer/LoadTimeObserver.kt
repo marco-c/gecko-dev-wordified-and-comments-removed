@@ -347,6 +347,11 @@ TelemetryWrapper
 .
 addLoadToHistogram
 (
+session
+.
+url
+.
+value
 elapsedLoad
 )
 }
