@@ -87,9 +87,11 @@ mozilla
 .
 fenix
 .
-home
+components
 .
-HomeFragmentState
+appstate
+.
+AppState
 import
 org
 .
@@ -207,7 +209,7 @@ categories
 *
 /
 fun
-HomeFragmentState
+AppState
 .
 getFilteredStories
 (
@@ -644,7 +646,7 @@ shown
 /
 internal
 val
-HomeFragmentState
+AppState
 .
 recentSearchGroup
 :
@@ -672,7 +674,7 @@ SearchGroup
 Filter
 a
 [
-HomeFragmentState
+AppState
 ]
 by
 the
@@ -693,7 +695,7 @@ state
 *
 /
 fun
-HomeFragmentState
+AppState
 .
 filterState
 (
@@ -702,7 +704,7 @@ blocklistHandler
 BlocklistHandler
 )
 :
-HomeFragmentState
+AppState
 =
 with
 (
