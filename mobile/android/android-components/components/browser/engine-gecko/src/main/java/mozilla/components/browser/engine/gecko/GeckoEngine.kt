@@ -4561,6 +4561,13 @@ cookieBannerHandlingModePrivateBrowsing
 it
 .
 cookieBannerHandlingModePrivateBrowsing
+this
+.
+cookieBannerHandlingDetectOnlyMode
+=
+it
+.
+cookieBannerHandlingDetectOnlyMode
 }
 }
 Suppress
