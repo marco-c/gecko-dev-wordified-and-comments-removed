@@ -223,6 +223,8 @@ env
 .
 BUILD_URL
 }
+HTML_20Report
+/
 )
 "
 )
@@ -264,6 +266,8 @@ env
 .
 BUILD_URL
 }
+HTML_20Report
+/
 )
 "
 )
