@@ -552,6 +552,15 @@ nv
 "
 Navajo
 "
+languageCodeAndNameMap
+[
+"
+skr
+"
+]
+=
+"
+"
 }
 private
 fun
