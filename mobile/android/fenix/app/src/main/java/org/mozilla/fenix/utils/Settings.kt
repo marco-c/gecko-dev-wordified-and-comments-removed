@@ -1863,7 +1863,7 @@ pref_key_new_tabs_tray
 )
 default
 =
-false
+true
 featureFlag
 =
 FeatureFlags
