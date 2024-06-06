@@ -1426,8 +1426,6 @@ browser_menu_report_issue
 >
 Relatar
 problema
-no
-site
 <
 /
 string
@@ -2951,8 +2949,8 @@ preferences_site_permissions
 >
 Permiss
 es
-do
-site
+de
+sites
 <
 /
 string
@@ -8469,8 +8467,8 @@ quick_settings_sheet_manage_site_permissions
 Gerenciar
 permiss
 es
-do
-site
+de
+sites
 <
 /
 string
@@ -12229,8 +12227,8 @@ preferences_delete_browsing_data_site_permissions
 >
 Permiss
 es
-do
-site
+de
+sites
 <
 /
 string
@@ -20366,7 +20364,6 @@ browser_menu_add_to_top_sites
 "
 >
 Adicionar
-site
 preferido
 <
 /
