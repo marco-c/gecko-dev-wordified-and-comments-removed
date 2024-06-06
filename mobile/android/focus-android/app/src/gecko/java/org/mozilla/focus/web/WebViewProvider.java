@@ -1298,15 +1298,6 @@ currentUrl
 =
 url
 ;
-System
-.
-out
-.
-println
-(
-currentUrl
-)
-;
 if
 (
 callback
