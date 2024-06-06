@@ -1931,7 +1931,7 @@ storage
 val
 lazyHistoryStorage
 =
-lazy
+lazyMonitored
 {
 PlacesHistoryStorage
 (
@@ -1942,7 +1942,7 @@ crashReporter
 val
 lazyBookmarksStorage
 =
-lazy
+lazyMonitored
 {
 PlacesBookmarksStorage
 (
@@ -1952,7 +1952,7 @@ context
 val
 lazyPasswordsStorage
 =
-lazy
+lazyMonitored
 {
 SyncableLoginsStorage
 (
@@ -1983,7 +1983,7 @@ account
 val
 lazyRemoteTabsStorage
 =
-lazy
+lazyMonitored
 {
 RemoteTabsStorage
 (
