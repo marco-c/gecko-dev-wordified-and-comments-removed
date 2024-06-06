@@ -314,11 +314,6 @@ context
 =
 appContext
 )
-onboardingFeature
-.
-recordExposure
-(
-)
 next
 (
 action
@@ -366,6 +361,11 @@ numberOfTabsOpened
 ERASE_CFR_LIMIT
 )
 {
+onboardingFeature
+.
+recordExposure
+(
+)
 components
 .
 appStore
@@ -396,6 +396,11 @@ state
 )
 )
 {
+onboardingFeature
+.
+recordExposure
+(
+)
 components
 .
 appStore

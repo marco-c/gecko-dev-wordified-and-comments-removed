@@ -332,11 +332,6 @@ action
 )
 return
 }
-multiTabsFeature
-.
-recordExposure
-(
-)
 if
 (
 context
@@ -439,6 +434,11 @@ bail
 .
 return
 }
+multiTabsFeature
+.
+recordExposure
+(
+)
 val
 mergedTab
 =
