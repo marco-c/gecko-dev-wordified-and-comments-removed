@@ -311,7 +311,7 @@ verifyAllTheCheckBoxesText
 (
 )
 =
-assertAllTheCheckBoxesText
+assertAllOptionsAndCheckBoxes
 (
 )
 fun
@@ -319,7 +319,7 @@ verifyAllTheCheckBoxesChecked
 (
 )
 =
-assertAllTheCheckBoxesChecked
+assertAllCheckBoxesAreChecked
 (
 )
 fun
@@ -572,7 +572,7 @@ false
 )
 private
 fun
-assertAllTheCheckBoxesText
+assertAllOptionsAndCheckBoxes
 (
 )
 {
@@ -747,7 +747,7 @@ VISIBLE
 }
 private
 fun
-assertAllTheCheckBoxesChecked
+assertAllCheckBoxesAreChecked
 (
 )
 {
