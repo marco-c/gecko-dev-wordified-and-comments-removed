@@ -289,6 +289,9 @@ getChildAt
 (
 checkedId
 )
+?
+:
+return
 /
 /
 check
@@ -353,12 +356,6 @@ searchEngines
 count
 (
 )
-|
-|
-selectedEngine
-=
-=
-null
 |
 |
 !
