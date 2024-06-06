@@ -2176,7 +2176,7 @@ default
 =
 true
 )
-val
+var
 defaultTopSitesAdded
 by
 booleanPreference
