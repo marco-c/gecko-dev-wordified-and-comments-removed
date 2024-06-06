@@ -664,6 +664,11 @@ isLandscape
 {
 tabTrayView
 .
+dismissMenu
+(
+)
+tabTrayView
+.
 expand
 (
 )
