@@ -1835,12 +1835,7 @@ dispatch
 (
 AppAction
 .
-PocketStoriesChange
-(
-emptyList
-(
-)
-)
+PocketStoriesClean
 )
 }
 }
