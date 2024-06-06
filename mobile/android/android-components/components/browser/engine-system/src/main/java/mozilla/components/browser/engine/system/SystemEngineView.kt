@@ -1237,6 +1237,7 @@ true
 onLocationChange
 (
 it
+false
 )
 onNavigationStateChange
 (
@@ -1288,6 +1289,7 @@ internalNotifyObservers
 onLocationChange
 (
 it
+false
 )
 onLoadingStateChange
 (

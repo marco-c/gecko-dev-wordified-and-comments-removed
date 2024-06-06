@@ -6065,6 +6065,9 @@ List
 <
 ContentPermission
 >
+hasUserGesture
+:
+Boolean
 )
 {
 this
@@ -6252,6 +6255,7 @@ notifyObservers
 onLocationChange
 (
 url
+hasUserGesture
 )
 }
 }

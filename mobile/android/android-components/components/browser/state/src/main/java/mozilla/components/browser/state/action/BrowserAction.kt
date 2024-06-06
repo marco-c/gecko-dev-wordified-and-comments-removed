@@ -3215,6 +3215,12 @@ val
 url
 :
 String
+val
+hasUserGesture
+:
+Boolean
+=
+false
 )
 :
 ContentAction

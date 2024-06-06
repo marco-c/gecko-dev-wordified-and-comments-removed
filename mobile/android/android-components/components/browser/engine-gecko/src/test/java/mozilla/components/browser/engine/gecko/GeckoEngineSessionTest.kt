@@ -2216,6 +2216,10 @@ observedUrl
 "
 "
 var
+observedUserGesture
+=
+true
+var
 observedCanGoBack
 =
 false
@@ -2250,11 +2254,17 @@ onLocationChange
 url
 :
 String
+hasUserGesture
+:
+Boolean
 )
 {
 observedUrl
 =
 url
+observedUserGesture
+=
+hasUserGesture
 }
 override
 fun
@@ -2341,6 +2351,7 @@ org
 emptyList
 (
 )
+false
 )
 assertEquals
 (
@@ -2354,6 +2365,11 @@ mozilla
 org
 "
 observedUrl
+)
+assertEquals
+(
+false
+observedUserGesture
 )
 assertEquals
 (
@@ -5324,6 +5340,9 @@ onLocationChange
 url
 :
 String
+hasUserGesture
+:
+Boolean
 )
 {
 observedUrl
@@ -5352,6 +5371,7 @@ blank
 emptyList
 (
 )
+false
 )
 assertEquals
 (
@@ -5376,6 +5396,7 @@ blank
 emptyList
 (
 )
+false
 )
 assertEquals
 (
@@ -5406,6 +5427,7 @@ org
 emptyList
 (
 )
+false
 )
 assertEquals
 (
@@ -5439,6 +5461,7 @@ blank
 emptyList
 (
 )
+false
 )
 assertEquals
 (
@@ -5509,6 +5532,7 @@ org
 emptyList
 (
 )
+false
 )
 assertFalse
 (
@@ -5568,6 +5592,9 @@ onLocationChange
 url
 :
 String
+hasUserGesture
+:
+Boolean
 )
 {
 observedUrl
@@ -5593,6 +5620,7 @@ blank
 emptyList
 (
 )
+false
 )
 assertEquals
 (
@@ -5623,6 +5651,7 @@ org
 emptyList
 (
 )
+false
 )
 assertEquals
 (
@@ -5656,6 +5685,7 @@ blank
 emptyList
 (
 )
+false
 )
 assertEquals
 (
@@ -5823,6 +5853,7 @@ org
 emptyList
 (
 )
+false
 )
 assertEquals
 (
@@ -5862,6 +5893,7 @@ com
 emptyList
 (
 )
+false
 )
 assertEquals
 (
@@ -5931,6 +5963,7 @@ mock
 (
 )
 )
+false
 )
 assertTrue
 (
@@ -5986,6 +6019,7 @@ mock
 (
 )
 )
+false
 )
 assertTrue
 (
@@ -6153,6 +6187,7 @@ com
 emptyList
 (
 )
+false
 )
 contentDelegate
 .
@@ -6530,6 +6565,9 @@ onLocationChange
 url
 :
 String
+hasUserGesture
+:
+Boolean
 )
 {
 observedUrl
@@ -6724,6 +6762,7 @@ emptyPageUrl
 emptyList
 (
 )
+false
 )
 contentDelegate
 .
@@ -6970,6 +7009,7 @@ com
 emptyList
 (
 )
+false
 )
 contentDelegate
 .

@@ -508,6 +508,7 @@ mozilla
 .
 org
 "
+false
 )
 }
 session
@@ -527,6 +528,7 @@ firefox
 .
 com
 "
+false
 )
 }
 session
@@ -853,6 +855,7 @@ mozilla
 .
 org
 "
+false
 )
 verify
 (
@@ -872,6 +875,7 @@ firefox
 .
 com
 "
+false
 )
 verify
 (
@@ -1345,6 +1349,7 @@ mozilla
 .
 org
 "
+false
 )
 }
 session
@@ -1634,6 +1639,7 @@ firefox
 .
 com
 "
+false
 )
 }
 session
@@ -1940,6 +1946,7 @@ mozilla
 .
 org
 "
+false
 )
 verify
 (
@@ -2179,6 +2186,7 @@ firefox
 .
 com
 "
+false
 )
 verify
 (
@@ -2686,6 +2694,7 @@ mozilla
 .
 org
 "
+false
 )
 }
 session
@@ -2925,6 +2934,7 @@ firefox
 .
 com
 "
+false
 )
 }
 session
@@ -3182,6 +3192,7 @@ mozilla
 .
 org
 "
+false
 )
 verify
 (
@@ -3372,6 +3383,7 @@ firefox
 .
 com
 "
+false
 )
 verify
 (
@@ -3700,6 +3712,7 @@ firefox
 .
 com
 "
+false
 )
 verify
 (
@@ -4137,6 +4150,7 @@ mozilla
 .
 org
 "
+false
 )
 }
 session
@@ -4376,6 +4390,7 @@ firefox
 .
 com
 "
+false
 )
 }
 session
@@ -4633,6 +4648,7 @@ mozilla
 .
 org
 "
+false
 )
 verify
 (
@@ -4823,6 +4839,7 @@ firefox
 .
 com
 "
+false
 )
 verify
 (
@@ -5280,6 +5297,7 @@ mozilla
 .
 org
 "
+false
 )
 }
 otherSession
@@ -5299,6 +5317,7 @@ mozilla
 .
 org
 "
+false
 )
 }
 otherSession
@@ -5566,6 +5585,7 @@ mozilla
 .
 org
 "
+false
 )
 verify
 (
@@ -5897,6 +5917,7 @@ mozilla
 .
 org
 "
+false
 )
 }
 session
@@ -6166,6 +6187,7 @@ mozilla
 .
 org
 "
+false
 )
 verify
 (
@@ -7957,6 +7979,7 @@ onLocationChange
 (
 "
 "
+false
 )
 defaultObserver
 .
@@ -8692,6 +8715,7 @@ mozilla
 .
 org
 "
+false
 )
 observer
 .
@@ -8708,6 +8732,7 @@ firefox
 .
 com
 "
+false
 )
 observer
 .

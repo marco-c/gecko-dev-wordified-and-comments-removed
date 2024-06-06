@@ -750,6 +750,9 @@ onLocationChange
 url
 :
 String
+hasUserGesture
+:
+Boolean
 )
 {
 store
@@ -762,6 +765,7 @@ UpdateUrlAction
 (
 tabId
 url
+hasUserGesture
 )
 )
 }

@@ -465,6 +465,9 @@ onLocationChange
 url
 :
 String
+hasUserGesture
+:
+Boolean
 )
 =
 Unit
