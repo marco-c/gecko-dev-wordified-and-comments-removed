@@ -118,6 +118,8 @@ set
 x
 -
 e
+-
+v
 echo
 "
 running
@@ -141,9 +143,6 @@ worker
 workspace
 }
 "
-set
--
-v
 #
 Package
 everything
