@@ -120,6 +120,16 @@ tools
 "
 android
 :
+id
+=
+"
++
+id
+/
+history_layout
+"
+android
+:
 layout_width
 =
 "
