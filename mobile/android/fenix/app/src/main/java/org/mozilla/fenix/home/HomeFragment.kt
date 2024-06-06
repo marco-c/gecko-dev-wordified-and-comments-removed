@@ -3271,6 +3271,9 @@ null
 sessionControlView
 =
 null
+appBarLayout
+=
+null
 bundleArgs
 .
 clear
