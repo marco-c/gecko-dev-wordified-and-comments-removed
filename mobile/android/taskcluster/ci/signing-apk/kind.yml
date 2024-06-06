@@ -92,7 +92,7 @@ android_taskgraph
 .
 transforms
 .
-signing_apk
+signing_android_app
 :
 transforms
 -

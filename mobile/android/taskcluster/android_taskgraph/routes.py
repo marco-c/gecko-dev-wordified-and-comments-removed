@@ -423,6 +423,25 @@ SIGNING_ROUTE_TEMPLATES
 ]
 )
     
+elif
+task
+[
+"
+attributes
+"
+]
+.
+get
+(
+"
+aab
+"
+)
+:
+        
+return
+task
+    
 else
 :
         
