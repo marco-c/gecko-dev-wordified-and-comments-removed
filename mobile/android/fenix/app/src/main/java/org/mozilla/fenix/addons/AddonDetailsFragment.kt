@@ -165,7 +165,7 @@ addons
 .
 ui
 .
-translatedName
+translateName
 import
 mozilla
 .
@@ -288,6 +288,11 @@ onViewCreated
 view
 savedInstanceState
 )
+context
+?
+.
+let
+{
 showToolbar
 (
 title
@@ -296,8 +301,12 @@ args
 .
 addon
 .
-translatedName
+translateName
+(
+it
 )
+)
+}
 AddonDetailsView
 (
 view

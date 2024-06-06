@@ -171,7 +171,7 @@ addons
 .
 ui
 .
-translatedDescription
+translateDescription
 import
 mozilla
 .
@@ -578,7 +578,12 @@ detailsText
 =
 addon
 .
-translatedDescription
+translateDescription
+(
+containerView
+.
+context
+)
 val
 parsedText
 =

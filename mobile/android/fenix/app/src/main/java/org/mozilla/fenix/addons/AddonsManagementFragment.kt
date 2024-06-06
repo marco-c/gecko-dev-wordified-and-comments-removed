@@ -271,7 +271,7 @@ addons
 .
 ui
 .
-translatedName
+translateName
 import
 org
 .
@@ -1294,6 +1294,11 @@ getRootView
 ?
 :
 view
+context
+?
+.
+let
+{
 showSnackBar
 (
 rootView
@@ -1306,9 +1311,13 @@ string
 mozac_feature_addons_failed_to_install
 addon
 .
-translatedName
+translateName
+(
+it
 )
 )
+)
+}
 }
 addonProgressOverlay
 ?
