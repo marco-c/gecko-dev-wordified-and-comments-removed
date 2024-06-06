@@ -4487,6 +4487,10 @@ google_material
 implementation
 Deps
 .
+google_flexbox
+implementation
+Deps
+.
 lottie
 implementation
 Deps
