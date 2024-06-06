@@ -717,7 +717,7 @@ api
 level
 :
 [
-30
+28
 ]
 target
 :
@@ -754,6 +754,10 @@ emulator
 -
 runner
 v2
+.
+21
+.
+0
 with
 :
 api
@@ -783,7 +787,7 @@ arch
 x86_64
 profile
 :
-pixel_3
+pixel_2
 script
 :
 "
