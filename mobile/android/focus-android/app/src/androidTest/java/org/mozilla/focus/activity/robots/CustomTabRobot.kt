@@ -601,7 +601,7 @@ R
 .
 id
 .
-menuView
+mozac_browser_toolbar_menu
 )
 )
 private
@@ -641,13 +641,13 @@ closeCustomTabButton
 =
 onView
 (
-withId
+withContentDescription
 (
 R
 .
-id
+string
 .
-customtab_close
+mozac_feature_customtabs_exit_button
 )
 )
 private

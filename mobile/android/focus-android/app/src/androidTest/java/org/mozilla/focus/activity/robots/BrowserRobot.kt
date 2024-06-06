@@ -1329,7 +1329,7 @@ packageName
 :
 id
 /
-display_url
+mozac_browser_toolbar_url_view
 "
 )
 )
@@ -1434,7 +1434,7 @@ R
 .
 id
 .
-security_info
+mozac_browser_toolbar_security_indicator
 )
 )
 private
