@@ -646,7 +646,7 @@ query
 url
 showShortcutEnginePicker
 =
-false
+true
 searchEngineSource
 =
 currentSearchEngine
