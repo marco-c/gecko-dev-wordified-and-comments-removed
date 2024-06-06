@@ -368,6 +368,11 @@ context
 browserInteractor
 interactor
 INACTIVE_TABS_FEATURE_NAME
+context
+.
+settings
+(
+)
 )
 TabGroupAdapter
 (
