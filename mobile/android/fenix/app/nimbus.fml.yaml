@@ -230,6 +230,12 @@ days_since_install
 =
 =
 5
+MORE_THAN_24H_SINCE_INSTALLED_OR_UPDATED
+:
+days_since_update
+>
+=
+1
 #
 Using
 custom
@@ -718,7 +724,7 @@ display
 -
 count
 :
-10
+1
 PERSISTENT
 :
 priority
