@@ -794,7 +794,7 @@ FirefoxTheme
 .
 colors
 .
-textInverted
+textOnColor
 fontFamily
 =
 FontFamily
@@ -887,7 +887,7 @@ FirefoxTheme
 .
 colors
 .
-textInverted
+textOnColor
 fontFamily
 =
 FontFamily

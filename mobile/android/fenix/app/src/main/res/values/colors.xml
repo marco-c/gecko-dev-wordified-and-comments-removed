@@ -917,7 +917,7 @@ color
 name
 =
 "
-fx_mobile_text_color_inverted
+fx_mobile_text_color_oncolor
 "
 tools
 :
@@ -929,7 +929,7 @@ UnusedResources
 >
 color
 /
-photonWhite
+photonLightGrey05
 <
 /
 color
@@ -1094,7 +1094,7 @@ color
 name
 =
 "
-fx_mobile_icon_color_inverted
+fx_mobile_icon_color_oncolor
 "
 tools
 :
@@ -1106,7 +1106,7 @@ UnusedResources
 >
 color
 /
-photonWhite
+photonLightGrey05
 <
 /
 color
