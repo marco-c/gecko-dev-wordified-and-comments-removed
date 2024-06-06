@@ -91,7 +91,7 @@ synthetic
 .
 main
 .
-save_tab_group_button
+save_to_collection_button
 .
 view
 .
@@ -213,6 +213,6 @@ R
 .
 layout
 .
-save_tab_group_button
+save_to_collection_button
 }
 }

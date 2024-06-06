@@ -159,6 +159,9 @@ Issue
 =
 listOf
 (
+ButtonStyleXmlDetector
+.
+ISSUE_XML_STYLE
 AndroidSrcXmlDetector
 .
 ISSUE_XML_SRC_USAGE

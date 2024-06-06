@@ -528,7 +528,7 @@ style
 "
 style
 /
-ThemeIndependentMaterialGreyButton
+NeutralButton
 "
 android
 :
@@ -610,7 +610,7 @@ style
 "
 style
 /
-ThemeIndependentMaterialGreyButton
+NeutralButton
 "
 android
 :
