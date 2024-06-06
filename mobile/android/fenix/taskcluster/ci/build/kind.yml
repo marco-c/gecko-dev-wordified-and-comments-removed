@@ -1058,7 +1058,7 @@ options
 :
 -
 -
-Pmozillaonline
+PmozillaOnline
 test
 -
 build
@@ -1327,7 +1327,7 @@ options
 :
 -
 -
-Pmozillaonline
+PmozillaOnline
 treeherder
 :
 symbol
@@ -1457,7 +1457,7 @@ options
 :
 -
 -
-Pmozillaonline
+PmozillaOnline
 treeherder
 :
 symbol
