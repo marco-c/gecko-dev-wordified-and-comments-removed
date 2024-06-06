@@ -544,7 +544,7 @@ toString
 (
 )
 .
-isNotEmpty
+isNotBlank
 (
 )
 )
