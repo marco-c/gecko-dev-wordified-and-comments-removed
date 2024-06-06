@@ -151,6 +151,17 @@ toString
 (
 )
 )
+arg
+(
+"
+room
+.
+generateKotlin
+"
+"
+true
+"
+)
 }
 }
 buildTypes
