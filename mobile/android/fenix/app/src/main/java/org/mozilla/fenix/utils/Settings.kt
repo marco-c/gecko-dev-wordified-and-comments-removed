@@ -3635,13 +3635,6 @@ get
 (
 )
 =
-Config
-.
-channel
-.
-isNightlyOrDebug
-|
-|
 mr2022Sections
 [
 Mr2022Section
@@ -3676,13 +3669,6 @@ get
 (
 )
 =
-Config
-.
-channel
-.
-isNightlyOrDebug
-|
-|
 mr2022Sections
 [
 Mr2022Section
