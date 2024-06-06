@@ -8407,6 +8407,7 @@ val
 REQUEST_CODE_BIOMETRIC_PROMPT
 =
 302
+JvmStatic
 fun
 createForSession
 (
