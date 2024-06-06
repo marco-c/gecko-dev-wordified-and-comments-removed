@@ -2789,6 +2789,8 @@ promptRequest
 =
 WebExtensionPromptRequest
 .
+AfterInstallation
+.
 Permissions
 (
 mock
@@ -2844,6 +2846,8 @@ val
 promptRequest
 =
 WebExtensionPromptRequest
+.
+AfterInstallation
 .
 Permissions
 (
