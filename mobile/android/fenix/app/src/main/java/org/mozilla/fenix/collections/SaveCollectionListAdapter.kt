@@ -286,10 +286,6 @@ itemView
 .
 setOnClickListener
 {
-collection
-.
-apply
-{
 val
 action
 =
@@ -297,7 +293,7 @@ CollectionCreationAction
 .
 SelectCollection
 (
-this
+collection
 selectedTabs
 .
 toList
@@ -310,7 +306,6 @@ onNext
 (
 action
 )
-}
 }
 }
 override
