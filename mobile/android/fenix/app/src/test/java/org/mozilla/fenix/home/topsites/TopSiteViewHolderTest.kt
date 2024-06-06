@@ -209,7 +209,7 @@ TopSiteInteractor
 private
 lateinit
 var
-store
+appStore
 :
 AppStore
 Before
@@ -247,7 +247,7 @@ relaxed
 =
 true
 )
-store
+appStore
 =
 mockk
 (
@@ -271,7 +271,7 @@ TopSiteViewHolder
 binding
 .
 root
-store
+appStore
 lifecycleOwner
 interactor
 )

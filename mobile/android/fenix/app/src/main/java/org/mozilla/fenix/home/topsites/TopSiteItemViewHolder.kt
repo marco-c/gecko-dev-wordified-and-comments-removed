@@ -356,7 +356,7 @@ TopSiteItemViewHolder
 view
 :
 View
-store
+appStore
 :
 AppStore
 private
@@ -550,7 +550,7 @@ menu
 }
 true
 }
-store
+appStore
 .
 flowScoped
 (

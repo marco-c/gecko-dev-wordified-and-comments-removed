@@ -154,7 +154,7 @@ TopSiteViewHolder
 view
 :
 View
-store
+appStore
 :
 AppStore
 viewLifecycleOwner
@@ -178,7 +178,7 @@ topSitesAdapter
 =
 TopSitesAdapter
 (
-store
+appStore
 viewLifecycleOwner
 interactor
 )

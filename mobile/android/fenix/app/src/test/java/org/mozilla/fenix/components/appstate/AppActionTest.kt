@@ -138,7 +138,7 @@ AppAction
 )
 private
 val
-store
+appStore
 =
 AppStore
 (
@@ -163,13 +163,13 @@ inactiveTabsExpanded
 {
 assertFalse
 (
-store
+appStore
 .
 state
 .
 inactiveTabsExpanded
 )
-store
+appStore
 .
 dispatch
 (
@@ -186,7 +186,7 @@ joinBlocking
 )
 assertTrue
 (
-store
+appStore
 .
 state
 .

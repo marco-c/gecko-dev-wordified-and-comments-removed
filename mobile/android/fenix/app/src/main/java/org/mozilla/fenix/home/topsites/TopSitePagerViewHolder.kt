@@ -182,7 +182,7 @@ TopSitePagerViewHolder
 view
 :
 View
-store
+appStore
 :
 AppStore
 viewLifecycleOwner
@@ -216,7 +216,7 @@ topSitesPagerAdapter
 =
 TopSitesPagerAdapter
 (
-store
+appStore
 viewLifecycleOwner
 interactor
 )

@@ -162,7 +162,7 @@ messages
 )
 {
 val
-store
+appStore
 :
 AppStore
 =
@@ -177,7 +177,7 @@ binding
 =
 MessagingFeature
 (
-store
+appStore
 )
 binding
 .
@@ -186,7 +186,7 @@ start
 )
 verify
 {
-store
+appStore
 .
 dispatch
 (

@@ -2212,7 +2212,7 @@ TopSitePagerViewHolder
 view
 =
 view
-store
+appStore
 =
 components
 .

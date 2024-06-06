@@ -1944,7 +1944,7 @@ feature
 =
 MessagingFeature
 (
-store
+appStore
 =
 requireComponents
 .
@@ -1985,7 +1985,7 @@ view
 =
 DefaultTopSitesView
 (
-store
+appStore
 =
 components
 .

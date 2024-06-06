@@ -366,7 +366,7 @@ PocketStoriesService
 private
 lateinit
 var
-store
+appStore
 :
 AppStore
 Before
@@ -478,7 +478,7 @@ settings
 }
 returns
 appSettings
-store
+appStore
 =
 mockk
 (
@@ -513,7 +513,10 @@ every
 appStore
 }
 returns
-store
+this
+HomeSettingsFragmentTest
+.
+appStore
 every
 {
 core
@@ -1011,7 +1014,7 @@ deleteProfile
 }
 verify
 {
-store
+appStore
 .
 dispatch
 (

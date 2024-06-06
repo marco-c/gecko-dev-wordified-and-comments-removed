@@ -126,7 +126,7 @@ class
 MessagingFeature
 (
 val
-store
+appStore
 :
 AppStore
 )
@@ -146,7 +146,7 @@ FeatureFlags
 messagingFeature
 )
 {
-store
+appStore
 .
 dispatch
 (

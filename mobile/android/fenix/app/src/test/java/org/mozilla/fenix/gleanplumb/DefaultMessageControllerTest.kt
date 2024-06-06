@@ -302,7 +302,7 @@ controller
 DefaultMessageController
 private
 val
-store
+appStore
 :
 AppStore
 =
@@ -327,7 +327,7 @@ messagingStorage
 storageNimbus
 appStore
 =
-store
+appStore
 homeActivity
 =
 activity
@@ -341,6 +341,7 @@ onMessagePressed
 THEN
 update
 the
+app
 store
 and
 handle
@@ -494,7 +495,7 @@ any
 }
 verify
 {
-store
+appStore
 .
 dispatch
 (
@@ -747,7 +748,7 @@ message_key
 )
 verify
 {
-store
+appStore
 .
 dispatch
 (

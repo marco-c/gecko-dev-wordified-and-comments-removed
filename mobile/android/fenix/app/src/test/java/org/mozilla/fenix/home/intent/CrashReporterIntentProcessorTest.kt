@@ -204,7 +204,7 @@ CrashReporterIntentProcessorTest
 {
 private
 val
-store
+appStore
 :
 AppStore
 =
@@ -255,7 +255,7 @@ processor
 =
 CrashReporterIntentProcessor
 (
-store
+appStore
 )
 val
 result
@@ -288,7 +288,7 @@ Called
 }
 verify
 {
-store
+appStore
 wasNot
 Called
 }
@@ -317,7 +317,7 @@ processor
 =
 CrashReporterIntentProcessor
 (
-store
+appStore
 )
 val
 intent
@@ -399,7 +399,7 @@ Called
 }
 verify
 {
-store
+appStore
 .
 dispatch
 (

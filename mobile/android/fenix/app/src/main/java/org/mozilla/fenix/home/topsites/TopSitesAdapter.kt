@@ -149,7 +149,7 @@ TopSitesAdapter
 (
 private
 val
-store
+appStore
 :
 AppStore
 private
@@ -211,7 +211,7 @@ return
 TopSiteItemViewHolder
 (
 view
-store
+appStore
 viewLifecycleOwner
 interactor
 )

@@ -170,7 +170,7 @@ CrashReporterIntentProcessor
 (
 private
 val
-store
+appStore
 :
 AppStore
 )
@@ -244,7 +244,7 @@ isFatal
 false
 )
 {
-store
+appStore
 .
 dispatch
 (

@@ -138,7 +138,7 @@ class
 DefaultTopSitesView
 (
 val
-store
+appStore
 :
 AppStore
 val
@@ -161,7 +161,7 @@ TopSite
 >
 )
 {
-store
+appStore
 .
 dispatch
 (

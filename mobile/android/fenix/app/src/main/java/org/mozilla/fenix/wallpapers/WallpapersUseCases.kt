@@ -225,7 +225,7 @@ checks
 .
 *
 param
-store
+appStore
 Will
 receive
 dispatches
@@ -335,7 +335,7 @@ WallpapersUseCases
 context
 :
 Context
-store
+appStore
 :
 AppStore
 client
@@ -409,9 +409,9 @@ invoke
 )
 DefaultInitializeWallpaperUseCase
 (
-store
+appStore
 =
-store
+appStore
 downloader
 =
 downloader
@@ -455,9 +455,9 @@ client
 )
 LegacyInitializeWallpaperUseCase
 (
-store
+appStore
 =
-store
+appStore
 downloader
 =
 downloader
@@ -552,7 +552,7 @@ context
 settings
 (
 )
-store
+appStore
 fileManager
 downloader
 )
@@ -566,7 +566,7 @@ context
 settings
 (
 )
-store
+appStore
 )
 }
 }
@@ -635,7 +635,7 @@ LegacyInitializeWallpaperUseCase
 (
 private
 val
-store
+appStore
 :
 AppStore
 private
@@ -691,7 +691,7 @@ source
 Updates
 the
 [
-store
+appStore
 ]
 with
 that
@@ -831,7 +831,7 @@ screen
 can
 render
 .
-store
+appStore
 .
 dispatch
 (
@@ -901,7 +901,7 @@ downloadAllRemoteWallpapers
 (
 availableWallpapers
 )
-store
+appStore
 .
 dispatch
 (
@@ -920,7 +920,7 @@ if
 dispatchedCurrent
 )
 {
-store
+appStore
 .
 dispatch
 (
@@ -1339,7 +1339,7 @@ DefaultInitializeWallpaperUseCase
 (
 private
 val
-store
+appStore
 :
 AppStore
 private
@@ -1393,7 +1393,7 @@ settings
 .
 let
 {
-store
+appStore
 .
 dispatch
 (
@@ -1532,7 +1532,7 @@ metadata
 about
 it
 .
-store
+appStore
 .
 dispatch
 (
@@ -1591,7 +1591,7 @@ Default
 )
 +
 wallpapersWithUpdatedThumbnailState
-store
+appStore
 .
 dispatch
 (
@@ -2598,7 +2598,7 @@ settings
 Settings
 private
 val
-store
+appStore
 :
 AppStore
 )
@@ -2617,6 +2617,7 @@ wallpaper
 Storage
 and
 the
+app
 store
 will
 be
@@ -2684,7 +2685,7 @@ cardColorDark
 ?
 :
 0
-store
+appStore
 .
 dispatch
 (
@@ -2724,7 +2725,7 @@ settings
 Settings
 private
 val
-store
+appStore
 :
 AppStore
 private
@@ -2753,6 +2754,7 @@ wallpaper
 Storage
 and
 the
+app
 store
 will
 be
@@ -2913,7 +2915,7 @@ cardColorDark
 ?
 :
 0L
-store
+appStore
 .
 dispatch
 (
@@ -2941,7 +2943,7 @@ Wallpaper
 ImageFileState
 )
 {
-store
+appStore
 .
 dispatch
 (

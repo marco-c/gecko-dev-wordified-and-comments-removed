@@ -175,7 +175,7 @@ TopSitesPagerAdapter
 (
 private
 val
-store
+appStore
 :
 AppStore
 private
@@ -240,7 +240,7 @@ return
 TopSiteViewHolder
 (
 view
-store
+appStore
 viewLifecycleOwner
 interactor
 )

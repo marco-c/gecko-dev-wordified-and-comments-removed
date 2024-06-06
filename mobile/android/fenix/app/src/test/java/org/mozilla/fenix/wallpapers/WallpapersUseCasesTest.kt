@@ -1278,6 +1278,7 @@ initialize
 use
 case
 THEN
+app
 store
 contains
 default
@@ -1405,6 +1406,7 @@ are
 dispatched
 to
 the
+app
 store
 (
 )
@@ -2493,6 +2495,7 @@ thumbnails
 downloaded
 and
 the
+app
 store
 state
 is
@@ -2663,6 +2666,7 @@ use
 case
 THEN
 the
+app
 store
 state
 is
@@ -2856,6 +2860,7 @@ initialize
 use
 case
 THEN
+app
 store
 contains
 default
@@ -3006,6 +3011,7 @@ are
 dispatched
 to
 the
+app
 store
 (
 )
@@ -3201,6 +3207,7 @@ THEN
 storage
 updated
 and
+app
 store
 receives
 dispatch
@@ -3309,6 +3316,7 @@ THEN
 storage
 updated
 and
+app
 store
 receives
 dispatch
@@ -3454,6 +3462,7 @@ THEN
 storage
 updated
 and
+app
 store
 receives
 dispatch
@@ -3484,7 +3493,7 @@ String
 (
 )
 val
-mockStore
+mockAppStore
 =
 mockk
 <
@@ -3564,7 +3573,7 @@ WallpapersUseCases
 DefaultSelectWallpaperUseCase
 (
 mockSettings
-mockStore
+mockAppStore
 mockFileManager
 mockDownloader
 )
@@ -3575,7 +3584,7 @@ selectedWallpaper
 )
 verify
 {
-mockStore
+mockAppStore
 .
 dispatch
 (
@@ -3596,7 +3605,7 @@ Downloading
 }
 verify
 {
-mockStore
+mockAppStore
 .
 dispatch
 (
@@ -3617,7 +3626,7 @@ Downloaded
 }
 verify
 {
-mockStore
+mockAppStore
 .
 dispatch
 (
@@ -3661,6 +3670,7 @@ wallpaper
 not
 set
 and
+app
 store
 receives
 dispatch
@@ -3691,7 +3701,7 @@ String
 (
 )
 val
-mockStore
+mockAppStore
 =
 mockk
 <
@@ -3771,7 +3781,7 @@ WallpapersUseCases
 DefaultSelectWallpaperUseCase
 (
 mockSettings
-mockStore
+mockAppStore
 mockFileManager
 mockDownloader
 )
@@ -3782,7 +3792,7 @@ selectedWallpaper
 )
 verify
 {
-mockStore
+mockAppStore
 .
 dispatch
 (
@@ -3803,7 +3813,7 @@ Downloading
 }
 verify
 {
-mockStore
+mockAppStore
 .
 dispatch
 (
@@ -3875,7 +3885,7 @@ any
 just
 Runs
 val
-store
+appStore
 =
 mockk
 <
@@ -3896,9 +3906,9 @@ DefaultSelectWallpaperUseCase
 settings
 =
 mockSettings
-store
+appStore
 =
-store
+appStore
 fileManager
 =
 mockk
@@ -3970,7 +3980,7 @@ currentWallpaperTextColor
 }
 verify
 {
-store
+appStore
 .
 dispatch
 (
@@ -4027,7 +4037,7 @@ any
 just
 Runs
 val
-store
+appStore
 =
 mockk
 <
@@ -4048,9 +4058,9 @@ DefaultSelectWallpaperUseCase
 settings
 =
 mockSettings
-store
+appStore
 =
-store
+appStore
 fileManager
 =
 mockk
@@ -4122,7 +4132,7 @@ currentWallpaperTextColor
 }
 verify
 {
-store
+appStore
 .
 dispatch
 (

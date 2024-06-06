@@ -311,7 +311,7 @@ LifecycleOwner
 private
 lateinit
 var
-store
+appStore
 :
 AppStore
 private
@@ -380,7 +380,7 @@ relaxed
 =
 true
 )
-store
+appStore
 =
 mockk
 (
@@ -424,7 +424,7 @@ TopSiteItemViewHolder
 binding
 .
 root
-store
+appStore
 lifecycleOwner
 interactor
 )
@@ -486,7 +486,7 @@ TopSiteItemViewHolder
 binding
 .
 root
-store
+appStore
 lifecycleOwner
 interactor
 )
@@ -570,7 +570,7 @@ TopSiteItemViewHolder
 binding
 .
 root
-store
+appStore
 lifecycleOwner
 interactor
 )
@@ -656,7 +656,7 @@ TopSiteItemViewHolder
 binding
 .
 root
-store
+appStore
 lifecycleOwner
 interactor
 )
@@ -744,7 +744,7 @@ TopSiteItemViewHolder
 binding
 .
 root
-store
+appStore
 lifecycleOwner
 interactor
 )
@@ -967,7 +967,7 @@ TopSiteItemViewHolder
 binding
 .
 root
-store
+appStore
 lifecycleOwner
 interactor
 )

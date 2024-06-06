@@ -441,7 +441,7 @@ scope
 private
 lateinit
 var
-store
+appStore
 :
 AppStore
 private
@@ -482,7 +482,7 @@ setUp
 (
 )
 {
-store
+appStore
 =
 mockk
 (
@@ -513,7 +513,7 @@ middlewareContext
 store
 }
 returns
-store
+appStore
 middleware
 =
 MessagingMiddleware
@@ -571,7 +571,7 @@ Restore
 )
 verify
 {
-store
+appStore
 .
 dispatch
 (
