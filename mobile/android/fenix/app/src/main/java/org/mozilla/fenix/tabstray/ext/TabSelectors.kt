@@ -376,6 +376,13 @@ if
 searchTermTabGroupsAreEnabled
 &
 &
+tabGroupsTabIds
+.
+isNotEmpty
+(
+)
+&
+&
 inactiveTabsEnabled
 )
 {
@@ -421,6 +428,13 @@ else
 if
 (
 searchTermTabGroupsAreEnabled
+&
+&
+tabGroupsTabIds
+.
+isNotEmpty
+(
+)
 )
 {
 filter
