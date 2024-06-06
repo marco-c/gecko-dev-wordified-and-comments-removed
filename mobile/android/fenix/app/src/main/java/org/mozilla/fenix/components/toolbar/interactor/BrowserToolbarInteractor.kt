@@ -233,7 +233,7 @@ onHomeButtonClicked
 *
 *
 *
-Deletase
+Deletes
 all
 tabs
 and

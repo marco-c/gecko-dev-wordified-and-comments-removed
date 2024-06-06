@@ -538,6 +538,9 @@ settings
 toolbar
 =
 toolbar
+isPrivate
+=
+isPrivate
 sessionId
 =
 sessionId
