@@ -565,6 +565,11 @@ data
 "
 blob
 "
+"
+moz
+-
+extension
+"
 )
 )
 )
