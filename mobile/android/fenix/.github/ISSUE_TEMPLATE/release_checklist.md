@@ -196,8 +196,12 @@ Work
 /
 QA
 |
-Planning
-|
+Hard
+Code
+Freeze
+/
+Localization
+Due
 |
 |
 Release
@@ -206,6 +210,8 @@ Play
 Store
 |
 |
+|
+Planning
 |
 |
 #
