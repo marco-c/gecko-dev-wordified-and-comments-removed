@@ -359,7 +359,9 @@ android
 layout_height
 =
 "
-wrap_content
+dimen
+/
+bookmark_edit_text_height
 "
 android
 :
@@ -548,7 +550,9 @@ android
 layout_height
 =
 "
-wrap_content
+dimen
+/
+bookmark_edit_text_height
 "
 android
 :
