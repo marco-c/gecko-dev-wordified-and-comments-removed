@@ -82,7 +82,7 @@ ext
 geckoview_revision
 =
 '
-013f4e5f93fdcb87ee41e26057e56e19f80428d7
+6226ce7f4038d566fe750b1d13f107146d137463
 '
 ext
 .
@@ -93,13 +93,13 @@ geckoview_version
 .
 0
 .
-20181105164654
+20181112164519
 '
 /
 /
 GV
 Beta
-64_0b7
+64_0b9
 ext
 .
 spotbugs_version
