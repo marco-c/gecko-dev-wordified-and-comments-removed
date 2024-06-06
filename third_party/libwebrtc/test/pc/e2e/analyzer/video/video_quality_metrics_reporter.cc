@@ -324,7 +324,7 @@ transport_stats
 >
 selected_candidate_pair_id
 .
-is_defined
+has_value
 (
 )
 )
@@ -414,7 +414,7 @@ s
 >
 kind
 .
-is_defined
+has_value
 (
 )
 )
@@ -560,7 +560,7 @@ ice_candidate_pair_stats
 .
 available_outgoing_bitrate
 .
-is_defined
+has_value
 (
 )
 )

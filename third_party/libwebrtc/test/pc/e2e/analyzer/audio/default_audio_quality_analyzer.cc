@@ -230,7 +230,7 @@ stat
 >
 kind
 .
-is_defined
+has_value
 (
 )
 |

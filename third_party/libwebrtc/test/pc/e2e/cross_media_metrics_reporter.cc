@@ -282,7 +282,7 @@ stat
 >
 track_identifier
 .
-is_defined
+has_value
 (
 )
 )
@@ -400,7 +400,7 @@ audio_stat
 >
 kind
 .
-is_defined
+has_value
 (
 )
 &
@@ -410,7 +410,7 @@ video_stat
 >
 kind
 .
-is_defined
+has_value
 (
 )
 &
@@ -493,7 +493,7 @@ audio_stat
 >
 track_identifier
 .
-is_defined
+has_value
 (
 )
 )
@@ -505,7 +505,7 @@ video_stat
 >
 track_identifier
 .
-is_defined
+has_value
 (
 )
 )

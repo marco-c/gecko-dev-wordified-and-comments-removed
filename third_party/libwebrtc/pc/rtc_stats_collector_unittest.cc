@@ -17234,7 +17234,7 @@ stats
 .
 playout_id
 .
-is_defined
+has_value
 (
 )
 )
@@ -17322,7 +17322,7 @@ stats
 .
 playout_id
 .
-is_defined
+has_value
 (
 )
 )
@@ -19033,7 +19033,7 @@ inbound_rtps
 >
 goog_timing_frame_info
 .
-is_defined
+has_value
 (
 )
 )
@@ -23678,7 +23678,7 @@ video_stats
 .
 frames_per_second
 .
-is_defined
+has_value
 (
 )
 )
@@ -23689,7 +23689,7 @@ video_stats
 .
 frames
 .
-is_defined
+has_value
 (
 )
 )
@@ -23919,7 +23919,7 @@ video_stats
 .
 width
 .
-is_defined
+has_value
 (
 )
 )
@@ -23930,7 +23930,7 @@ video_stats
 .
 height
 .
-is_defined
+has_value
 (
 )
 )
@@ -25142,7 +25142,7 @@ remote_inbound_rtp
 .
 round_trip_time_measurements
 .
-is_defined
+has_value
 (
 )
 )
@@ -25162,7 +25162,7 @@ remote_inbound_rtp
 .
 round_trip_time
 .
-is_defined
+has_value
 (
 )
 )
@@ -25502,7 +25502,7 @@ remote_inbound_rtp
 .
 codec_id
 .
-is_defined
+has_value
 (
 )
 )
@@ -25527,7 +25527,7 @@ remote_inbound_rtp
 .
 jitter
 .
-is_defined
+has_value
 (
 )
 )
@@ -25742,7 +25742,7 @@ remote_inbound_rtp
 .
 transport_id
 .
-is_defined
+has_value
 (
 )
 )

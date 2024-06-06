@@ -589,7 +589,7 @@ stats
 .
 m_sequence_int64
 .
-is_defined
+has_value
 (
 )
 )
@@ -2865,7 +2865,7 @@ stats
 .
 m_uint32
 .
-is_defined
+has_value
 (
 )
 )
@@ -2876,7 +2876,7 @@ stats
 .
 m_uint64
 .
-is_defined
+has_value
 (
 )
 )
@@ -4146,7 +4146,7 @@ stats
 .
 m_int32
 .
-is_defined
+has_value
 (
 )
 )
