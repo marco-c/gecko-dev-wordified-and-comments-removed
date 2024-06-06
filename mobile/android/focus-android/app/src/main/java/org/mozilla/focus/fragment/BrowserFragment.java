@@ -1375,6 +1375,7 @@ this
 new
 AverageLoadTimeObserver
 (
+session
 )
 )
 ;
