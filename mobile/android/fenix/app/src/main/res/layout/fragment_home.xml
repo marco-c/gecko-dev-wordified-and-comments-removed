@@ -487,13 +487,6 @@ outlineProvider
 "
 paddedBounds
 "
-android
-:
-transitionName
-=
-"
-firstTransitionName
-"
 app
 :
 layout_constraintEnd_toEndOf
@@ -607,6 +600,13 @@ textSize
 =
 "
 14sp
+"
+android
+:
+transitionName
+=
+"
+firstTransitionName
 "
 /
 >

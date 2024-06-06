@@ -306,12 +306,12 @@ Builder
 .
 addSharedElement
 (
-toolbar_wrapper
+toolbar
 ViewCompat
 .
 getTransitionName
 (
-toolbar_wrapper
+toolbar
 )
 !
 !
