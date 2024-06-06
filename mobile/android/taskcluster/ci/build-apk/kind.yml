@@ -1111,6 +1111,13 @@ shippable
 secrets
 :
 true
+include
+-
+nightly
+-
+version
+:
+true
 run
 :
 gradle
@@ -1225,6 +1232,13 @@ include
 shippable
 -
 secrets
+:
+true
+include
+-
+nightly
+-
+version
 :
 true
 source
