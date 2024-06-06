@@ -3588,6 +3588,12 @@ url
 )
 )
 }
+searchSuggestionsViewModel
+.
+setSearchQuery
+(
+searchText
+)
 if
 (
 searchText
@@ -3787,12 +3793,6 @@ searchText
 .
 length
 0
-)
-searchSuggestionsViewModel
-.
-setSearchQuery
-(
-searchText
 )
 searchViewContainer
 ?
