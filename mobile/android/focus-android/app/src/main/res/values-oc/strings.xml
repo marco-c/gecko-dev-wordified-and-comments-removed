@@ -93,12 +93,12 @@ name
 teaser
 "
 >
-Navigacion
+Navegacion
 privada
 automatica
 .
 \
-nNavigatz
+nNavegatz
 .
 Escafatz
 .
@@ -120,10 +120,9 @@ feedback_erase
 >
 V
 stre
-ist
-ric
+istoric
 de
-navigacion
+navegacion
 es
 estat
 escafat
@@ -340,7 +339,7 @@ Netejar
 l
 istoric
 de
-navigacion
+navegacion
 <
 /
 string
@@ -398,10 +397,9 @@ Escafar
 l
 \
 '
-ist
-ric
+istoric
 de
-navigacion
+navegacion
 <
 /
 string
@@ -512,7 +510,7 @@ Utiliza
 lo
 coma
 un
-navigator
+navegador
 privat
 &
 #
@@ -534,7 +532,7 @@ li
 >
 Recercatz
 e
-navigatz
+navegatz
 dins
 l
 &
@@ -1583,7 +1581,7 @@ que
 s
 si
 lo
-navigator
+navegador
 per
 defaut
 <
@@ -2361,7 +2359,7 @@ Netejar
 l
 istoric
 de
-navigacion
+navegacion
 <
 /
 string
@@ -2736,7 +2734,7 @@ external_multiple_apps_matched_exit
 Sortir
 de
 la
-navigacion
+navegacion
 privada
 ?
 <
@@ -2831,8 +2829,7 @@ b
 en
 netejar
 l
-ist
-ric
+istoric
 de
 %
 1
@@ -4002,8 +3999,7 @@ en
 netejar
 v
 stre
-ist
-ric
+istoric
 %
 1
 s
@@ -4050,7 +4046,7 @@ l
 mai
 naut
 de
-navigacion
+navegacion
 privada
 .
 Oblidetz
@@ -4227,14 +4223,14 @@ de
 s
 v
 stre
-navigator
+navegador
 per
 defaut
 e
 aprofeitatz
 d
 una
-navigacion
+navegacion
 privada
 tre
 que
@@ -4412,7 +4408,7 @@ name
 notification_browsing_session_channel_name
 "
 >
-Navigacion
+Navegacion
 privada
 <
 /
@@ -4452,7 +4448,7 @@ mostrar
 lo
 contengut
 del
-navigator
+navegador
 .
 <
 /
@@ -4470,7 +4466,7 @@ Netejar
 l
 istoric
 de
-navigacion
+navegacion
 <
 /
 string
