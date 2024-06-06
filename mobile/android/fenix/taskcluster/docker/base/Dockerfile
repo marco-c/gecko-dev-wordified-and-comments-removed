@@ -59,15 +59,6 @@ ubuntu
 18
 .
 04
-MAINTAINER
-Tom
-Prince
-"
-mozilla
-hocat
-.
-ca
-"
 #
 Add
 worker
