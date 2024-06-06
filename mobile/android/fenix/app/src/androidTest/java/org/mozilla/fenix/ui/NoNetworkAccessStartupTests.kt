@@ -105,6 +105,16 @@ mozilla
 .
 fenix
 .
+customannotations
+.
+SmokeTest
+import
+org
+.
+mozilla
+.
+fenix
+.
 helpers
 .
 HomeActivityTestRule
@@ -434,6 +444,7 @@ refreshPage
 {
 }
 }
+SmokeTest
 Test
 fun
 testSignInPageWithNoNetworkConnection
