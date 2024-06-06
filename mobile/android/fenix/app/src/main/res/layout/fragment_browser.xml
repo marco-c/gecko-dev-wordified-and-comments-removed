@@ -239,7 +239,7 @@ layout_marginBottom
 "
 dimen
 /
-toolbar_and_qab_height
+browser_toolbar_height
 "
 >
 <
@@ -325,15 +325,11 @@ android
 background
 =
 "
-?
-foundation
-"
 android
 :
-clipToPadding
-=
-"
-true
+color
+/
+transparent
 "
 app
 :
