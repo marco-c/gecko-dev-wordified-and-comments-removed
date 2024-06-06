@@ -8505,7 +8505,7 @@ name
 preferences_http_only_learn_more
 "
 >
-Dysgu
+Darllen
 rhagor
 <
 /
@@ -10882,7 +10882,7 @@ name
 wallpaper_learn_more
 "
 >
-Dysgu
+Darllen
 rhagor
 <
 /
@@ -12626,7 +12626,7 @@ name
 exceptions_empty_message_learn_more_link
 "
 >
-Dysgu
+Darllen
 rhagor
 <
 /
@@ -15162,7 +15162,7 @@ name
 studies_learn_more
 "
 >
-Dysgu
+Darllen
 rhagor
 <
 /
@@ -24822,7 +24822,7 @@ name
 preference_enhanced_tracking_protection_explanation_learn_more
 "
 >
-Dysgu
+Darllen
 rhagor
 <
 /
@@ -26700,7 +26700,7 @@ name
 preference_etp_smartblock_learn_more
 "
 >
-Dysgu
+Darllen
 rhagor
 <
 /
@@ -34698,8 +34698,8 @@ ignore
 UnusedResources
 "
 >
-Rhoi
-cyfrinair
+Rhowch
+gyfrinair
 <
 /
 string
@@ -36850,7 +36850,7 @@ name
 pocket_stories_feature_learn_more
 "
 >
-Dysgu
+Darllen
 rhagor
 <
 /
@@ -42328,8 +42328,8 @@ name
 translations_bottom_sheet_positive_button_error
 "
 >
-Ceisio
-eto
+Ceisiwch
+Eto
 <
 /
 string
@@ -42667,7 +42667,7 @@ name
 translation_error_language_not_supported_learn_more
 "
 >
-Dysgu
+Darllen
 rhagor
 <
 /
@@ -43972,7 +43972,6 @@ never_translate_site_toolbar_title_preference
 "
 >
 Peidio
-byth
 chyfieithu
 \
 '
