@@ -373,7 +373,7 @@ useCases
 searchUseCases
 core
 .
-client
+relationChecker
 core
 .
 customTabsStore

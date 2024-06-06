@@ -4825,6 +4825,10 @@ mozilla_feature_webcompat_reporter
 implementation
 Deps
 .
+mozilla_service_digitalassetlinks
+implementation
+Deps
+.
 mozilla_service_experiments
 implementation
 Deps
