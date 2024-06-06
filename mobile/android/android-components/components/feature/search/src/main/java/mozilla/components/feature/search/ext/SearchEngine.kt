@@ -211,6 +211,12 @@ String
 icon
 :
 Bitmap
+inputEncoding
+:
+String
+?
+=
+null
 suggestUrl
 :
 String
@@ -271,6 +277,9 @@ name
 icon
 =
 icon
+inputEncoding
+=
+inputEncoding
 type
 =
 SearchEngine
@@ -320,6 +329,12 @@ String
 url
 :
 String
+inputEncoding
+:
+String
+?
+=
+null
 icon
 :
 Bitmap
@@ -356,6 +371,9 @@ name
 icon
 =
 icon
+inputEncoding
+=
+inputEncoding
 type
 =
 SearchEngine
