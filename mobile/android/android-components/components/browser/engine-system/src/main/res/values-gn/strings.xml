@@ -107,7 +107,16 @@ be
 replaced
 by
 the
-realm
+hostname
+or
+a
+description
+of
+the
+protected
+area
+/
+site
 %
 2
 s
@@ -142,7 +151,7 @@ mozac_browser_engine_system_auth_message
 2
 s
 ojerure
-puruh
+poruh
 ra
 r
 ra
@@ -216,7 +225,7 @@ mozac_browser_engine_system_auth_no_realm_message
 s
 ojerure
 nde
-puruh
+poruh
 ra
 r
 ra
