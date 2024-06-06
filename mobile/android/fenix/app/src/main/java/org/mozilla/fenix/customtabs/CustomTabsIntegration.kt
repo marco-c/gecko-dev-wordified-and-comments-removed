@@ -434,7 +434,7 @@ R
 .
 drawable
 .
-toolbar_background_private
+toolbar_background
 )
 }
 }
