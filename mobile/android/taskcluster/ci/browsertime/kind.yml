@@ -851,6 +851,11 @@ tests
 on
 Fenix
 "
+subtest
+-
+symbol
+:
+sp3
 test
 -
 name
