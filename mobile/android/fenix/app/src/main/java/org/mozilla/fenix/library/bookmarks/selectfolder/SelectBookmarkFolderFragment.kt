@@ -381,6 +381,14 @@ string
 bookmark_select_folder_fragment_label
 )
 )
+val
+args
+:
+SelectBookmarkFolderFragmentArgs
+by
+navArgs
+(
+)
 viewLifecycleOwner
 .
 lifecycleScope
@@ -457,6 +465,9 @@ adapter
 updateData
 (
 bookmarkNode
+args
+.
+hideFolderGuid
 )
 }
 }
