@@ -232,7 +232,7 @@ build
 -
 type
 :
-debug
+nightly
 nightly
 :
 true
