@@ -118,6 +118,11 @@ ActionBusFactory
 :
 LayoutContainer
 {
+abstract
+val
+view
+:
+View
 /
 *
 *
@@ -184,7 +189,7 @@ show
 (
 )
 {
-container
+view
 .
 visibility
 =
@@ -207,7 +212,7 @@ hide
 (
 )
 {
-container
+view
 .
 visibility
 =
