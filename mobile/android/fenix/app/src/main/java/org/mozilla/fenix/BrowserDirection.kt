@@ -243,4 +243,12 @@ id
 .
 editCustomSearchEngineFragment
 )
+FromAddonDetailsFragment
+(
+R
+.
+id
+.
+addonDetailsFragment
+)
 }

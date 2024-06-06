@@ -3088,6 +3088,17 @@ actionGlobalBrowser
 (
 customTabSessionId
 )
+BrowserDirection
+.
+FromAddonDetailsFragment
+-
+>
+EditCustomSearchEngineFragmentDirections
+.
+actionGlobalBrowser
+(
+customTabSessionId
+)
 }
 private
 fun
