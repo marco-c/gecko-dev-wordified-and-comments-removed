@@ -378,6 +378,11 @@ bind
 (
 adapter
 )
+viewHolder
+.
+attachedToWindow
+(
+)
 adapter
 .
 updateTabs
@@ -502,6 +507,11 @@ viewHolder
 bind
 (
 adapter
+)
+viewHolder
+.
+attachedToWindow
+(
 )
 adapter
 .
