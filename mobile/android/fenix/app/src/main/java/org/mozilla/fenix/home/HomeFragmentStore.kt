@@ -1268,6 +1268,13 @@ copy
 isSelected
 =
 true
+lastInteractedWithTimestamp
+=
+System
+.
+currentTimeMillis
+(
+)
 )
 false
 -
@@ -1352,6 +1359,13 @@ copy
 isSelected
 =
 false
+lastInteractedWithTimestamp
+=
+System
+.
+currentTimeMillis
+(
+)
 )
 false
 -
