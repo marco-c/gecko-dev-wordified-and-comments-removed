@@ -562,9 +562,8 @@ name
 sync_disconnected_background_normal_theme
 "
 >
-color
-/
-sync_disconnected_background_dark_theme
+#
+5B5846
 <
 /
 color
