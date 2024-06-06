@@ -56,19 +56,9 @@ const
 RtpTransportConfig
 &
 config
-Clock
-*
-clock
 )
 override
 {
-RTC_CHECK
-(
-config
-.
-trials
-)
-;
 return
 std
 :
@@ -78,7 +68,6 @@ make_unique
 RtpTransportControllerSend
 >
 (
-clock
 config
 )
 ;
