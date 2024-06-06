@@ -2381,7 +2381,7 @@ Settings
 category
 ;
 the
-three
+two
 things
 users
 can
@@ -2397,12 +2397,11 @@ string
 name
 =
 "
-preference_general_summary
+preference_general_summary2
 "
 >
 Predvolen
 prehliada
-karty
 jazyk
 <
 /
