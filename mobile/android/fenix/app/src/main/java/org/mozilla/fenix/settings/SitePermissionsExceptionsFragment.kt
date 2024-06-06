@@ -514,7 +514,9 @@ requireContext
 .
 components
 .
-storage
+core
+.
+permissionStorage
 .
 getSitePermissionsPaged
 (
@@ -746,7 +748,9 @@ requireContext
 .
 components
 .
-storage
+core
+.
+permissionStorage
 .
 deleteAllSitePermissions
 (

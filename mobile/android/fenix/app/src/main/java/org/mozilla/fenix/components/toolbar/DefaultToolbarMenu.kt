@@ -960,7 +960,7 @@ R
 .
 drawable
 .
-ic_archive
+ic_tab_collection
 DefaultThemeManager
 .
 resolveAttribute

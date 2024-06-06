@@ -3994,7 +3994,9 @@ requireContext
 .
 components
 .
-storage
+core
+.
+permissionStorage
 storage
 .
 findSitePermissionsBy

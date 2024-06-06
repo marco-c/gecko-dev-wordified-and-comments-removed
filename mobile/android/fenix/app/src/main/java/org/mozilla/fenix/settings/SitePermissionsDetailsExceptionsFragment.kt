@@ -393,7 +393,9 @@ context
 .
 components
 .
-storage
+core
+.
+permissionStorage
 .
 findSitePermissionsBy
 (
@@ -650,7 +652,9 @@ requireContext
 .
 components
 .
-storage
+core
+.
+permissionStorage
 .
 deleteSitePermissions
 (

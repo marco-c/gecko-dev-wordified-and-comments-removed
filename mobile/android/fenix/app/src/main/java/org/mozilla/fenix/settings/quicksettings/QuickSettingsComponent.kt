@@ -465,7 +465,9 @@ context
 .
 components
 .
-storage
+core
+.
+permissionStorage
 .
 addSitePermissionException
 (
@@ -491,7 +493,9 @@ context
 .
 components
 .
-storage
+core
+.
+permissionStorage
 .
 updateSitePermissions
 (

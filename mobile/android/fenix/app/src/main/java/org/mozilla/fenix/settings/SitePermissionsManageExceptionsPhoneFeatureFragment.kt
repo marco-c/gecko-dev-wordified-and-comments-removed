@@ -987,7 +987,9 @@ requireContext
 .
 components
 .
-storage
+core
+.
+permissionStorage
 .
 updateSitePermissions
 (

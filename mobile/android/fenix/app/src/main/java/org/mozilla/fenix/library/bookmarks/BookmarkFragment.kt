@@ -417,7 +417,7 @@ fenix
 .
 ext
 .
-urlToHost
+urlToTrimmedHost
 import
 org
 .
@@ -1596,7 +1596,7 @@ item
 .
 url
 .
-urlToHost
+urlToTrimmedHost
 (
 )
 )

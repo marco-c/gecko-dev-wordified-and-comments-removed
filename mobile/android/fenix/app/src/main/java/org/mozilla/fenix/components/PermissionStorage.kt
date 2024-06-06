@@ -118,7 +118,7 @@ test
 Mockable
 Mockable
 class
-Storage
+PermissionStorage
 (
 private
 val

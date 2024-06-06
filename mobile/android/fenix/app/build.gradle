@@ -2808,6 +2808,10 @@ mozilla_feature_readerview
 implementation
 Deps
 .
+mozilla_feature_tab_collections
+implementation
+Deps
+.
 mozilla_service_firefox_accounts
 implementation
 Deps
