@@ -134,6 +134,17 @@ showRecentTabsFeature
 =
 enabled
 }
+fun
+setStrictETPEnabled
+(
+)
+{
+settings
+.
+setStrictETP
+(
+)
+}
 /
 /
 Important

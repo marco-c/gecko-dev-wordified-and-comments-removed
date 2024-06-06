@@ -2381,7 +2381,7 @@ openSettings
 .
 openEnhancedTrackingProtectionSubMenu
 {
-verifyEnhancedTrackingProtectionOptions
+verifyEnhancedTrackingProtectionOptionsEnabled
 (
 )
 selectTrackingProtectionOption
