@@ -250,10 +250,10 @@ private
 val
 EXPECTED_RECYCLER_VIEW_CONSTRAINT_LAYOUT_CHILDREN
 =
+3
+.
+.
 4
-.
-.
-5
 /
 /
 The
@@ -275,10 +275,10 @@ private
 val
 EXPECTED_NUMBER_OF_INFLATION
 =
+13
+.
+.
 14
-.
-.
-15
 /
 /
 The
