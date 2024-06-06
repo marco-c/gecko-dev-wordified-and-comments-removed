@@ -273,9 +273,11 @@ fragment
 this
 navController
 =
+{
 findNavController
 (
 )
+}
 sitePermissions
 =
 args

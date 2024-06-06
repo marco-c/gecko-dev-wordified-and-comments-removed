@@ -508,9 +508,11 @@ Dispatchers
 IO
 navController
 =
+{
 findNavController
 (
 )
+}
 sessionId
 =
 args

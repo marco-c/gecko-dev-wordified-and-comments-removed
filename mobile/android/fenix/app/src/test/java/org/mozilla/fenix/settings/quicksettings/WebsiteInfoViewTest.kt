@@ -531,6 +531,8 @@ binded
 val
 view
 =
+spyk
+(
 WebsiteInfoView
 (
 FrameLayout
@@ -542,6 +544,7 @@ interactor
 isDetailsMode
 =
 false
+)
 )
 view
 .
