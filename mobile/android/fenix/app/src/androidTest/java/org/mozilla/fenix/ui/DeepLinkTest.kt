@@ -582,7 +582,7 @@ robot
 .
 openSettings
 {
-verifyBasicsHeading
+verifyGeneralHeading
 (
 )
 verifyAdvancedHeading

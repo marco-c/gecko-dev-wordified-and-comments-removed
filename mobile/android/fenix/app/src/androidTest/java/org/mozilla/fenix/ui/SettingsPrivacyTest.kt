@@ -1786,7 +1786,7 @@ confirmDeletionAndAssertSnackbar
 }
 settingsScreen
 {
-verifyBasicsHeading
+verifyGeneralHeading
 (
 )
 }
@@ -1860,7 +1860,7 @@ confirmDeletionAndAssertSnackbar
 }
 settingsScreen
 {
-verifyBasicsHeading
+verifyGeneralHeading
 (
 )
 }
@@ -1997,7 +1997,7 @@ verifyBrowsingHistoryDetails
 .
 goBack
 {
-verifyBasicsHeading
+verifyGeneralHeading
 (
 )
 }

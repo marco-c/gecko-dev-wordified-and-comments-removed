@@ -493,7 +493,7 @@ openThreeDotMenu
 .
 openSettings
 {
-verifyBasicsHeading
+verifyGeneralHeading
 (
 )
 }

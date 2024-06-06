@@ -563,7 +563,7 @@ verifySearchEngineButton
 (
 )
 =
-assertSearchEngineButton
+assertSearchButton
 (
 )
 fun
@@ -2065,7 +2065,7 @@ waitingTime
 )
 private
 fun
-assertSearchEngineButton
+assertSearchButton
 (
 )
 =
