@@ -242,10 +242,7 @@ val
 customTabTitle
 =
 "
-Mozilla
--
 Google
-Search
 "
 navigationToolbar
 {
