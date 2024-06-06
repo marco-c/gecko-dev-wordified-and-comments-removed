@@ -459,6 +459,10 @@ nv
 "
 sn
 "
+	
+"
+co
+"
 ]
 SCREENSHOT_LOCALES
 =
