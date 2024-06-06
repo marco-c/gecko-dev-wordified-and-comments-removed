@@ -2400,6 +2400,12 @@ NavigationToolbarRobot
 .
 Transition
 {
+mDevice
+.
+waitForIdle
+(
+waitingTime
+)
 navURLBar
 (
 )
