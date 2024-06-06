@@ -408,6 +408,15 @@ get
 localFirefoxColors
 .
 current
+val
+typography
+:
+FenixTypography
+get
+(
+)
+=
+defaultTypography
 }
 private
 val
