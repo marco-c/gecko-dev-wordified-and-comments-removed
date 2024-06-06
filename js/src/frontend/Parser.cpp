@@ -4133,7 +4133,7 @@ closedOver
 ClosedOver
 :
 :
-No
+Yes
 ;
 PrivateNameKind
 kind
@@ -4155,6 +4155,13 @@ PrivateNameKind
 :
 :
 Field
+;
+closedOver
+=
+ClosedOver
+:
+:
+No
 ;
 break
 ;
@@ -4216,13 +4223,6 @@ DeclarationKind
 PrivateMethod
 ;
 }
-closedOver
-=
-ClosedOver
-:
-:
-Yes
-;
 kind
 =
 PrivateNameKind
