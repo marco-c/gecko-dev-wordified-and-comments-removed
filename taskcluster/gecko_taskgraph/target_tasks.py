@@ -5819,6 +5819,17 @@ False
                 
 if
 "
+fenix
+"
+in
+try_name
+:
+                    
+return
+False
+                
+if
+"
 speedometer
 "
 in
@@ -9512,13 +9523,6 @@ and
 search
 "
 not
-in
-try_name
-                
-and
-"
-fenix
-"
 in
 try_name
             
