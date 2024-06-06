@@ -179,7 +179,7 @@ id
 +
 id
 /
-openTabsItem
+open_tabs_item
 "
 android
 :
@@ -277,7 +277,7 @@ id
 +
 id
 /
-browsingDataItem
+browsing_data_item
 "
 android
 :
@@ -375,7 +375,7 @@ id
 +
 id
 /
-collectionsItem
+collections_item
 "
 android
 :

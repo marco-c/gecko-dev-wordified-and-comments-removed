@@ -8511,7 +8511,7 @@ preferences_delete_browsing_data_tabs_subtitle
 "
 >
 %
-s
+d
 tabs
 <
 /
@@ -8593,7 +8593,7 @@ preferences_delete_browsing_data_browsing_data_subtitle
 "
 >
 %
-s
+d
 addresses
 <
 /
@@ -8666,7 +8666,7 @@ preferences_delete_browsing_data_collections_subtitle
 "
 >
 %
-s
+d
 collections
 <
 /
