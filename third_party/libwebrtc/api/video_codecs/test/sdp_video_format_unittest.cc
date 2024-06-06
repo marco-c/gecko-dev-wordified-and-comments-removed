@@ -44,10 +44,7 @@ SdpVideoFormat
 Sdp
 ;
 typedef
-SdpVideoFormat
-:
-:
-Parameters
+CodecParameterMap
 Params
 ;
 TEST

@@ -732,10 +732,7 @@ CreateVideoQualityTestFixture
 (
 )
 ;
-SdpVideoFormat
-:
-:
-Parameters
+CodecParameterMap
 vp92
 =
 {

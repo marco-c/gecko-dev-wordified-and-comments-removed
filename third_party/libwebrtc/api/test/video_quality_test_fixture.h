@@ -268,10 +268,7 @@ capture_device_index
 =
 0
 ;
-SdpVideoFormat
-:
-:
-Parameters
+CodecParameterMap
 sdp_params
 ;
 double

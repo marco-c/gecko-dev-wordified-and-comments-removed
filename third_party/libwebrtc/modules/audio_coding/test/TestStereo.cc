@@ -2652,10 +2652,7 @@ sampling_freq_hz
 )
 )
 ;
-SdpAudioFormat
-:
-:
-Parameters
+CodecParameterMap
 params
 =
 {

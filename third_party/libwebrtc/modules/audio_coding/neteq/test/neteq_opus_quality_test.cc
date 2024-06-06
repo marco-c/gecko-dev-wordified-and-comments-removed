@@ -655,10 +655,7 @@ opus
 "
 48000
 2
-SdpAudioFormat
-:
-:
-Parameters
+CodecParameterMap
 {
 {
 "

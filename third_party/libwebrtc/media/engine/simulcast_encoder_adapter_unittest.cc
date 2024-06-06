@@ -3071,10 +3071,7 @@ rate_allocator_
 bool
 use_fallback_factory_
 ;
-SdpVideoFormat
-:
-:
-Parameters
+CodecParameterMap
 sdp_video_parameters_
 ;
 test

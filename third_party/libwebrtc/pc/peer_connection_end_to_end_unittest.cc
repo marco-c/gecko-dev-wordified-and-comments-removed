@@ -2137,10 +2137,7 @@ const
 webrtc
 :
 :
-SdpAudioFormat
-:
-:
-Parameters
+CodecParameterMap
 expected_params
 =
 {
@@ -2432,10 +2429,7 @@ const
 webrtc
 :
 :
-SdpAudioFormat
-:
-:
-Parameters
+CodecParameterMap
 expected_params
 =
 {

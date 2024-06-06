@@ -944,10 +944,7 @@ XX
 }
 )
 {
-SdpAudioFormat
-:
-:
-Parameters
+CodecParameterMap
 params
 ;
 if
