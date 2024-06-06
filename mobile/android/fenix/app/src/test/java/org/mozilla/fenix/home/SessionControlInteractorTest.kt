@@ -147,6 +147,18 @@ mozilla
 .
 fenix
 .
+components
+.
+appstate
+.
+AppState
+import
+org
+.
+mozilla
+.
+fenix
+.
 home
 .
 pocket
@@ -1349,9 +1361,9 @@ reportSessionMetrics
 )
 {
 val
-homeFragmentState
+appState
 :
-HomeFragmentState
+AppState
 =
 mockk
 (
@@ -1361,7 +1373,7 @@ true
 )
 every
 {
-homeFragmentState
+appState
 .
 recentBookmarks
 }
@@ -1373,7 +1385,7 @@ interactor
 .
 reportSessionMetrics
 (
-homeFragmentState
+appState
 )
 verify
 {
@@ -1381,7 +1393,7 @@ controller
 .
 handleReportSessionMetrics
 (
-homeFragmentState
+appState
 )
 }
 }

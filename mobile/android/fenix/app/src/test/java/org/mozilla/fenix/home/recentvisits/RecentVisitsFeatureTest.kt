@@ -273,9 +273,9 @@ mozilla
 .
 fenix
 .
-home
+components
 .
-HomeFragmentAction
+AppStore
 import
 org
 .
@@ -283,9 +283,11 @@ mozilla
 .
 fenix
 .
-home
+components
 .
-HomeFragmentState
+appstate
+.
+AppAction
 import
 org
 .
@@ -293,9 +295,11 @@ mozilla
 .
 fenix
 .
-home
+components
 .
-HomeFragmentStore
+appstate
+.
+AppState
 import
 org
 .
@@ -386,16 +390,16 @@ middleware
 =
 CaptureActionsMiddleware
 <
-HomeFragmentState
-HomeFragmentAction
+AppState
+AppAction
 >
 (
 )
 private
 val
-homeStore
+appStore
 =
-HomeFragmentStore
+AppStore
 (
 middlewares
 =
@@ -630,7 +634,7 @@ middleware
 .
 assertLastAction
 (
-HomeFragmentAction
+AppAction
 .
 RecentHistoryChange
 :
@@ -1010,7 +1014,7 @@ middleware
 .
 assertLastAction
 (
-HomeFragmentAction
+AppAction
 .
 RecentHistoryChange
 :
@@ -1280,7 +1284,7 @@ middleware
 .
 assertLastAction
 (
-HomeFragmentAction
+AppAction
 .
 RecentHistoryChange
 :
@@ -1547,7 +1551,7 @@ middleware
 .
 assertLastAction
 (
-HomeFragmentAction
+AppAction
 .
 RecentHistoryChange
 :
@@ -1651,7 +1655,7 @@ middleware
 .
 assertLastAction
 (
-HomeFragmentAction
+AppAction
 .
 RecentHistoryChange
 :
@@ -1759,7 +1763,7 @@ middleware
 .
 assertLastAction
 (
-HomeFragmentAction
+AppAction
 .
 RecentHistoryChange
 :
@@ -1942,7 +1946,7 @@ middleware
 .
 assertLastAction
 (
-HomeFragmentAction
+AppAction
 .
 RecentHistoryChange
 :
@@ -2202,7 +2206,7 @@ middleware
 .
 assertLastAction
 (
-HomeFragmentAction
+AppAction
 .
 RecentHistoryChange
 :
@@ -2246,7 +2250,7 @@ spyk
 (
 RecentVisitsFeature
 (
-homeStore
+appStore
 mockk
 (
 )
@@ -2304,7 +2308,7 @@ emptyList
 (
 )
 )
-homeStore
+appStore
 .
 waitUntilIdle
 (
@@ -2313,7 +2317,7 @@ middleware
 .
 assertLastAction
 (
-HomeFragmentAction
+AppAction
 .
 RecentHistoryChange
 :
@@ -4087,7 +4091,7 @@ feature
 =
 RecentVisitsFeature
 (
-homeStore
+appStore
 historyMetadataStorage
 lazy
 {
@@ -4108,7 +4112,7 @@ RecentHistoryGroup
 >
 (
 )
-homeStore
+appStore
 .
 state
 .
@@ -4124,7 +4128,7 @@ testDispatcher
 advanceUntilIdle
 (
 )
-homeStore
+appStore
 .
 waitUntilIdle
 (
