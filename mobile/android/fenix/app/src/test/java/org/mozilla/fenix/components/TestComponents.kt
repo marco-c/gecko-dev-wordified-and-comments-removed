@@ -190,6 +190,9 @@ searchEngineManager
 core
 .
 webAppShortcutManager
+core
+.
+topSiteStorage
 )
 }
 override
