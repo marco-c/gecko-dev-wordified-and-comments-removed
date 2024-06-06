@@ -271,7 +271,7 @@ autoplayAudible
 =
 AutoplayAction
 .
-BLOCKED
+ALLOWED
 autoplayInaudible
 =
 AutoplayAction
@@ -2037,7 +2037,7 @@ assertEquals
 (
 AutoplayAction
 .
-BLOCKED
+ALLOWED
 settings
 .
 getSitePermissionsCustomSettingsRules

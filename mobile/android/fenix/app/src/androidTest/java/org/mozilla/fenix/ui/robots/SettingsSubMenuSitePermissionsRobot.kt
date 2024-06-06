@@ -890,8 +890,7 @@ autoplayText
 "
 Block
 audio
-and
-video
+only
 "
 onView
 (

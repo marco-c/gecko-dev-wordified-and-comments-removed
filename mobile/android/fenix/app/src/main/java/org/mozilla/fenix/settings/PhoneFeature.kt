@@ -741,7 +741,7 @@ R
 .
 string
 .
-pref_key_browser_feature_autoplay_audible
+pref_key_browser_feature_autoplay_audible_v1
 AUTOPLAY_AUDIBLE
 -
 >
@@ -749,7 +749,7 @@ R
 .
 string
 .
-pref_key_browser_feature_autoplay_audible
+pref_key_browser_feature_autoplay_audible_v1
 AUTOPLAY_INAUDIBLE
 -
 >
@@ -757,7 +757,7 @@ R
 .
 string
 .
-pref_key_browser_feature_autoplay_inaudible
+pref_key_browser_feature_autoplay_inaudible_v1
 PERSISTENT_STORAGE
 -
 >

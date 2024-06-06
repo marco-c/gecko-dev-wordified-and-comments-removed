@@ -2012,7 +2012,7 @@ string
 name
 =
 "
-pref_key_browser_feature_autoplay
+pref_key_browser_feature_autoplay_v1
 "
 translatable
 =
@@ -2020,7 +2020,7 @@ translatable
 false
 "
 >
-pref_key_browser_feature_autoplay
+pref_key_browser_feature_autoplay_v1
 <
 /
 string
@@ -2030,7 +2030,7 @@ string
 name
 =
 "
-pref_key_browser_feature_autoplay_audible
+pref_key_browser_feature_autoplay_audible_v1
 "
 translatable
 =
@@ -2038,7 +2038,7 @@ translatable
 false
 "
 >
-pref_key_browser_feature_autoplay
+pref_key_browser_feature_autoplay_v1
 <
 /
 string
@@ -2048,7 +2048,7 @@ string
 name
 =
 "
-pref_key_browser_feature_autoplay_inaudible
+pref_key_browser_feature_autoplay_inaudible_v1
 "
 translatable
 =
@@ -2056,7 +2056,7 @@ translatable
 false
 "
 >
-pref_key_browser_feature_autoplay_inaudible
+pref_key_browser_feature_autoplay_inaudible_v1
 <
 /
 string

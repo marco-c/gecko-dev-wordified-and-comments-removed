@@ -840,7 +840,7 @@ assertIsChecked
 (
 isChecked
 =
-false
+true
 )
 /
 /
@@ -864,7 +864,7 @@ assertIsChecked
 (
 isChecked
 =
-true
+false
 )
 }
 private

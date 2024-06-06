@@ -549,7 +549,7 @@ R
 .
 string
 .
-pref_key_browser_feature_autoplay_audible
+pref_key_browser_feature_autoplay_audible_v1
 PhoneFeature
 .
 AUTOPLAY_AUDIBLE
@@ -564,7 +564,7 @@ R
 .
 string
 .
-pref_key_browser_feature_autoplay_inaudible
+pref_key_browser_feature_autoplay_inaudible_v1
 PhoneFeature
 .
 AUTOPLAY_INAUDIBLE
@@ -579,7 +579,7 @@ R
 .
 string
 .
-pref_key_browser_feature_autoplay_audible
+pref_key_browser_feature_autoplay_audible_v1
 PhoneFeature
 .
 AUTOPLAY
@@ -591,7 +591,7 @@ getPreferenceId
 assertEquals
 (
 "
-pref_key_browser_feature_autoplay_inaudible
+pref_key_browser_feature_autoplay_inaudible_v1
 "
 PhoneFeature
 .
