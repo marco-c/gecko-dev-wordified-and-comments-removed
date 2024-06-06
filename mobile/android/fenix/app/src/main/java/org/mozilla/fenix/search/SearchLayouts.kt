@@ -409,7 +409,7 @@ TOP
 to
 BOTTOM
 of
-awesomeBar_barrier
+search_with_shortcuts
 BOTTOM
 to
 TOP
