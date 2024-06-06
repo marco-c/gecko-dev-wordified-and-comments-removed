@@ -195,9 +195,9 @@ this
 .
 components
 .
-core
+useCases
 .
-sessionManager
+tabsUseCases
 )
 .
 migrateHistory
