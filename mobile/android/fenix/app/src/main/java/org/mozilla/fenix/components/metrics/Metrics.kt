@@ -174,6 +174,12 @@ java
 lang
 .
 IllegalArgumentException
+import
+java
+.
+util
+.
+Locale
 sealed
 class
 Event
@@ -1162,9 +1168,12 @@ name
 .
 toLowerCase
 (
+Locale
+.
+ROOT
 )
 }
-_
+.
 label
 "
 val
@@ -1181,7 +1190,7 @@ source
 .
 descriptor
 }
-_
+.
 label
 "
 }
