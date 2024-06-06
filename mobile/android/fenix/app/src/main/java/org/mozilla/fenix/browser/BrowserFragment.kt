@@ -1373,6 +1373,10 @@ List
 <
 Session
 >
+id
+:
+Long
+?
 )
 {
 showTabSavedToCollectionSnackbar

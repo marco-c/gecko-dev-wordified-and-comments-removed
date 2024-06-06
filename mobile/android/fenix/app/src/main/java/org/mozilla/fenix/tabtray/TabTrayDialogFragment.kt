@@ -816,6 +816,10 @@ List
 <
 Session
 >
+id
+:
+Long
+?
 )
 {
 showCollectionSnackbar
@@ -824,6 +828,9 @@ sessions
 .
 size
 true
+collectionToSelect
+=
+id
 )
 }
 override
@@ -846,6 +853,11 @@ showCollectionSnackbar
 sessions
 .
 size
+collectionToSelect
+=
+tabCollection
+.
+id
 )
 }
 }
@@ -2251,6 +2263,10 @@ isNewCollection
 Boolean
 =
 false
+collectionToSelect
+:
+Long
+?
 )
 {
 view
@@ -2368,6 +2384,13 @@ actionGlobalHome
 focusOnAddressBar
 =
 false
+focusOnCollection
+=
+collectionToSelect
+?
+:
+-
+1L
 )
 )
 }

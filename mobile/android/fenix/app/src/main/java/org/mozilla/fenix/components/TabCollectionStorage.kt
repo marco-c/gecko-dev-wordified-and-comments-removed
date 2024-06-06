@@ -338,6 +338,10 @@ List
 <
 Session
 >
+id
+:
+Long
+?
 )
 =
 Unit
@@ -456,6 +460,9 @@ ioScope
 .
 launch
 {
+val
+id
+=
 collectionStorage
 .
 createCollection
@@ -469,6 +476,7 @@ onCollectionCreated
 (
 title
 sessions
+id
 )
 }
 }
