@@ -99,7 +99,7 @@ coroutines
 .
 test
 .
-runBlockingTest
+runTest
 import
 mozilla
 .
@@ -249,7 +249,7 @@ promptReviewDoesNotSetMillis
 (
 )
 =
-runBlockingTest
+runTest
 {
 var
 promptWasCalled
@@ -317,7 +317,7 @@ promptReviewSetsMillisIfSuccessful
 (
 )
 =
-runBlockingTest
+runTest
 {
 var
 promptWasCalled
@@ -385,7 +385,7 @@ promptReviewWillNotBeCalledIfNotReady
 (
 )
 =
-runBlockingTest
+runTest
 {
 var
 promptWasCalled
@@ -441,7 +441,7 @@ promptReviewWillUnreadyPromptAfterCalled
 (
 )
 =
-runBlockingTest
+runTest
 {
 var
 promptWasCalled

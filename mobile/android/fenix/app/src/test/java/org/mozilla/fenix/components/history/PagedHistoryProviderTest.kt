@@ -91,7 +91,7 @@ coroutines
 .
 test
 .
-runBlockingTest
+runTest
 import
 mozilla
 .
@@ -203,7 +203,7 @@ getVisitsPaginated
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 provider
@@ -780,7 +780,7 @@ bound
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 provider
@@ -1115,7 +1115,7 @@ bound
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 provider
@@ -1453,7 +1453,7 @@ groups
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 provider

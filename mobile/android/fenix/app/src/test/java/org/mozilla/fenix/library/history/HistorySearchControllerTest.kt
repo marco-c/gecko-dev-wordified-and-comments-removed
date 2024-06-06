@@ -95,7 +95,7 @@ coroutines
 .
 test
 .
-runBlockingTest
+runTest
 import
 mozilla
 .
@@ -284,7 +284,7 @@ called
 (
 )
 =
-runBlockingTest
+runTest
 {
 var
 clearToolbarFocusInvoked

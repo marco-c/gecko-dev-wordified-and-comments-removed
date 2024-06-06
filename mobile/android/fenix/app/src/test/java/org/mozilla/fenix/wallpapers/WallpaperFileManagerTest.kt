@@ -71,7 +71,7 @@ coroutines
 .
 test
 .
-TestCoroutineDispatcher
+UnconfinedTestDispatcher
 import
 org
 .
@@ -159,7 +159,7 @@ private
 val
 dispatcher
 =
-TestCoroutineDispatcher
+UnconfinedTestDispatcher
 (
 )
 private

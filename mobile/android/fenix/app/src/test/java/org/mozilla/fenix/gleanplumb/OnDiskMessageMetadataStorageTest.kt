@@ -107,7 +107,7 @@ coroutines
 .
 test
 .
-runBlockingTest
+runTest
 import
 mozilla
 .
@@ -292,7 +292,7 @@ it
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 spiedStorage
@@ -348,7 +348,7 @@ disk
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 spiedStorage
@@ -408,7 +408,7 @@ disk
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 spiedStorage
@@ -481,7 +481,7 @@ addMetadata
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 spiedStorage

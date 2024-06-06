@@ -107,7 +107,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 mozilla
 .
@@ -251,7 +253,7 @@ Intents
 (
 )
 =
-runBlocking
+runTest
 {
 val
 processor
@@ -328,7 +330,7 @@ Session
 (
 )
 =
-runBlocking
+runTest
 {
 val
 expectedSessionId

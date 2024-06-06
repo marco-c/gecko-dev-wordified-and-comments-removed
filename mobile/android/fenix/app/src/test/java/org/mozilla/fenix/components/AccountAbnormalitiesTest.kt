@@ -103,7 +103,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 mozilla
 .
@@ -339,7 +341,7 @@ detected
 (
 )
 =
-runBlocking
+runTest
 {
 val
 crashReporter
@@ -408,7 +410,7 @@ detected
 (
 )
 =
-runBlocking
+runTest
 {
 val
 crashReporter
@@ -525,7 +527,7 @@ detected
 (
 )
 =
-runBlocking
+runTest
 {
 val
 crashReporter
@@ -599,7 +601,7 @@ detected
 (
 )
 =
-runBlocking
+runTest
 {
 val
 crashReporter
@@ -747,7 +749,7 @@ case
 (
 )
 =
-runBlocking
+runTest
 {
 val
 crashReporter

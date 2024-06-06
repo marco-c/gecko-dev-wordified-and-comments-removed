@@ -89,7 +89,9 @@ kotlinx
 .
 coroutines
 .
-CoroutineScope
+test
+.
+advanceUntilIdle
 import
 mozilla
 .
@@ -154,6 +156,18 @@ test
 rule
 .
 MainCoroutineRule
+import
+mozilla
+.
+components
+.
+support
+.
+test
+.
+rule
+.
+runTestOnMain
 import
 org
 .
@@ -224,12 +238,13 @@ coroutinesTestRule
 MainCoroutineRule
 (
 )
+private
 val
-testDispatcher
+scope
 =
 coroutinesTestRule
 .
-testDispatcher
+scope
 Before
 fun
 setup
@@ -249,10 +264,7 @@ service
 DefaultHistoryMetadataService
 (
 storage
-CoroutineScope
-(
-testDispatcher
-)
+scope
 )
 }
 Test
@@ -275,6 +287,8 @@ is
 recorded
 (
 )
+=
+runTestOnMain
 {
 val
 parent
@@ -329,8 +343,6 @@ content
 .
 url
 )
-testDispatcher
-.
 advanceUntilIdle
 (
 )
@@ -403,6 +415,8 @@ is
 recorded
 (
 )
+=
+runTestOnMain
 {
 val
 tab
@@ -432,8 +446,6 @@ createMetadata
 (
 tab
 )
-testDispatcher
-.
 advanceUntilIdle
 (
 )
@@ -492,6 +504,8 @@ is
 recorded
 (
 )
+=
+runTestOnMain
 {
 val
 existingKey
@@ -549,8 +563,6 @@ createMetadata
 (
 tab
 )
-testDispatcher
-.
 advanceUntilIdle
 (
 )
@@ -621,8 +633,6 @@ createMetadata
 (
 otherTab
 )
-testDispatcher
-.
 advanceUntilIdle
 (
 )
@@ -676,6 +686,8 @@ is
 recorded
 (
 )
+=
+runTestOnMain
 {
 val
 now
@@ -730,8 +742,6 @@ updateMetadata
 key
 tab
 )
-testDispatcher
-.
 advanceUntilIdle
 (
 )
@@ -794,6 +804,8 @@ not
 recorded
 (
 )
+=
+runTestOnMain
 {
 val
 key
@@ -836,8 +848,6 @@ updateMetadata
 key
 tab
 )
-testDispatcher
-.
 advanceUntilIdle
 (
 )
@@ -880,6 +890,8 @@ not
 recorded
 (
 )
+=
+runTestOnMain
 {
 val
 now
@@ -934,8 +946,6 @@ updateMetadata
 key
 tab
 )
-testDispatcher
-.
 advanceUntilIdle
 (
 )
@@ -1009,8 +1019,6 @@ updateMetadata
 key
 tab
 )
-testDispatcher
-.
 advanceUntilIdle
 (
 )
@@ -1045,6 +1053,8 @@ is
 deleted
 (
 )
+=
+runTestOnMain
 {
 val
 timestamp
@@ -1070,8 +1080,6 @@ cleanup
 (
 timestamp
 )
-testDispatcher
-.
 advanceUntilIdle
 (
 )

@@ -155,7 +155,7 @@ coroutines
 .
 test
 .
-runBlockingTest
+runTest
 import
 mozilla
 .
@@ -1074,7 +1074,7 @@ handleEditingCancelled
 (
 )
 =
-runBlockingTest
+runTest
 {
 var
 clearToolbarFocusInvoked

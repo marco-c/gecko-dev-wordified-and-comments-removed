@@ -137,7 +137,17 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runCurrent
+import
+kotlinx
+.
+coroutines
+.
+test
+.
+runTest
 import
 mozilla
 .
@@ -1604,7 +1614,7 @@ handleRestore
 (
 )
 =
-runBlocking
+runTest
 {
 val
 item
@@ -1637,6 +1647,9 @@ this
 handleRestore
 (
 item
+)
+runCurrent
+(
 )
 coVerify
 {

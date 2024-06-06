@@ -101,7 +101,7 @@ coroutines
 .
 test
 .
-runBlockingTest
+runTest
 import
 mozilla
 .
@@ -444,7 +444,7 @@ messages
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 message
@@ -500,7 +500,7 @@ priority
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 messages
@@ -730,7 +730,7 @@ message
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 metadataList
@@ -927,7 +927,7 @@ message
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 metadataList
@@ -1126,7 +1126,7 @@ message
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 metadataList
@@ -1343,7 +1343,7 @@ one
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 messages
@@ -1671,7 +1671,7 @@ metadataStorage
 (
 )
 =
-runBlockingTest
+runTest
 {
 storage
 .

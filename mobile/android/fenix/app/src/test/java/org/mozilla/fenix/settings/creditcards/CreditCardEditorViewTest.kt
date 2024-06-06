@@ -107,7 +107,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 mozilla
 .
@@ -770,7 +772,7 @@ information
 (
 )
 =
-runBlocking
+runTest
 {
 creditCardEditorView
 .
@@ -915,7 +917,7 @@ called
 (
 )
 =
-runBlocking
+runTest
 {
 creditCardEditorView
 .
@@ -1873,7 +1875,7 @@ called
 (
 )
 =
-runBlocking
+runTest
 {
 creditCardEditorView
 .

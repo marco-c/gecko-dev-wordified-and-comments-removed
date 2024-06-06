@@ -197,7 +197,7 @@ coroutines
 .
 test
 .
-runBlockingTest
+runTest
 import
 mozilla
 .
@@ -472,6 +472,18 @@ test
 rule
 .
 MainCoroutineRule
+import
+mozilla
+.
+components
+.
+support
+.
+test
+.
+rule
+.
+runTestOnMain
 import
 org
 .
@@ -1181,7 +1193,7 @@ handleToolbarBookmarkPressWithReaderModeInactive
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 item
@@ -1387,7 +1399,7 @@ handled
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 item
@@ -1594,7 +1606,7 @@ correctly
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 customTab
@@ -1724,7 +1736,7 @@ change
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 item
@@ -1814,7 +1826,7 @@ correctly
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 item
@@ -1876,7 +1888,7 @@ session
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 item
@@ -2003,7 +2015,7 @@ session
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 item
@@ -2131,7 +2143,7 @@ session
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 item
@@ -2254,7 +2266,7 @@ session
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 item
@@ -2380,7 +2392,7 @@ cache
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 item
@@ -2501,7 +2513,7 @@ cache
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 item
@@ -2631,7 +2643,7 @@ loading
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 item
@@ -2745,7 +2757,7 @@ handled
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 item
@@ -2866,7 +2878,7 @@ page
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 item
@@ -2992,7 +3004,7 @@ page
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 item
@@ -3118,7 +3130,7 @@ session
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 requestDesktopSiteUseCase
@@ -3262,7 +3274,7 @@ session
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 requestDesktopSiteUseCase
@@ -3404,7 +3416,7 @@ snackbar
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 item
@@ -3586,7 +3598,7 @@ snackbar
 (
 )
 =
-runBlockingTest
+runTestOnMain
 {
 val
 snackbarMessage
@@ -3786,7 +3798,7 @@ manager
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 item
@@ -3890,7 +3902,7 @@ site
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 item
@@ -3998,7 +4010,7 @@ screen
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 item
@@ -4217,7 +4229,7 @@ screen
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 item
@@ -4431,7 +4443,7 @@ finder
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 item
@@ -4500,7 +4512,7 @@ page
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 item
@@ -4740,7 +4752,7 @@ page
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 item
@@ -4973,7 +4985,7 @@ home
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 item
@@ -5049,7 +5061,7 @@ settings
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 item
@@ -5131,7 +5143,7 @@ fragment
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 item
@@ -5208,7 +5220,7 @@ in
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 item
@@ -5281,7 +5293,7 @@ recorded
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 item

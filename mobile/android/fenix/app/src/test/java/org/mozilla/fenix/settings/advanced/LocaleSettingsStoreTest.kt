@@ -71,7 +71,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 org
 .
@@ -173,7 +175,7 @@ locale
 (
 )
 =
-runBlocking
+runTest
 {
 localeSettingsStore
 .
@@ -211,7 +213,7 @@ query
 (
 )
 =
-runBlocking
+runTest
 {
 localeSettingsStore
 .

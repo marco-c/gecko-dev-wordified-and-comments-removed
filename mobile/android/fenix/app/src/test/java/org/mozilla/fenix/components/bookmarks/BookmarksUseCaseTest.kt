@@ -97,7 +97,7 @@ coroutines
 .
 test
 .
-runBlockingTest
+runTest
 import
 mozilla
 .
@@ -234,7 +234,7 @@ stored
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 bookmarksStorage
@@ -347,7 +347,7 @@ stored
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 bookmarksStorage
@@ -466,7 +466,7 @@ storage
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 bookmarksStorage
@@ -699,7 +699,7 @@ storage
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 bookmarksStorage

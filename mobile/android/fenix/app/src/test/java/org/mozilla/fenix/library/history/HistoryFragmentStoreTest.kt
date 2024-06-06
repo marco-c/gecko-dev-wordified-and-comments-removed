@@ -71,7 +71,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 org
 .
@@ -182,7 +184,7 @@ exitEditMode
 (
 )
 =
-runBlocking
+runTest
 {
 val
 initialState
@@ -236,7 +238,7 @@ itemAddedForRemoval
 (
 )
 =
-runBlocking
+runTest
 {
 val
 initialState
@@ -299,7 +301,7 @@ removeItemForRemoval
 (
 )
 =
-runBlocking
+runTest
 {
 val
 initialState
@@ -362,7 +364,7 @@ startSync
 (
 )
 =
-runBlocking
+runTest
 {
 val
 initialState
@@ -416,7 +418,7 @@ finishSync
 (
 )
 =
-runBlocking
+runTest
 {
 val
 initialState
@@ -493,7 +495,7 @@ changeEmptyState
 (
 )
 =
-runBlocking
+runTest
 {
 val
 initialState
@@ -575,7 +577,7 @@ updatePendingDeletionItems
 (
 )
 =
-runBlocking
+runTest
 {
 val
 initialState

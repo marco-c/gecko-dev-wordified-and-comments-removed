@@ -71,7 +71,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 mozilla
 .
@@ -148,7 +150,7 @@ tree
 (
 )
 =
-runBlocking
+runTest
 {
 val
 initialState
@@ -232,7 +234,7 @@ tree
 (
 )
 =
-runBlocking
+runTest
 {
 val
 initialState
@@ -318,7 +320,7 @@ nodes
 (
 )
 =
-runBlocking
+runTest
 {
 val
 initialState
@@ -402,7 +404,7 @@ node
 (
 )
 =
-runBlocking
+runTest
 {
 val
 initialState
@@ -476,7 +478,7 @@ value
 (
 )
 =
-runBlocking
+runTest
 {
 val
 initialState
@@ -561,7 +563,7 @@ change
 (
 )
 =
-runBlocking
+runTest
 {
 val
 initialState
@@ -647,7 +649,7 @@ mode
 (
 )
 =
-runBlocking
+runTest
 {
 val
 initialState
@@ -744,7 +746,7 @@ nothing
 (
 )
 =
-runBlocking
+runTest
 {
 val
 initialState
@@ -806,7 +808,7 @@ nothing
 (
 )
 =
-runBlocking
+runTest
 {
 val
 initialState
@@ -869,7 +871,7 @@ nothing
 (
 )
 =
-runBlocking
+runTest
 {
 val
 initialState
@@ -926,7 +928,7 @@ mode
 (
 )
 =
-runBlocking
+runTest
 {
 val
 initialState
@@ -999,7 +1001,7 @@ selected
 (
 )
 =
-runBlocking
+runTest
 {
 val
 initialState
@@ -1048,7 +1050,7 @@ mode
 (
 )
 =
-runBlocking
+runTest
 {
 val
 initialState
@@ -1129,7 +1131,7 @@ state
 (
 )
 =
-runBlocking
+runTest
 {
 val
 initialState
@@ -1225,7 +1227,7 @@ state
 (
 )
 =
-runBlocking
+runTest
 {
 val
 initialState
@@ -1283,7 +1285,7 @@ false
 (
 )
 =
-runBlocking
+runTest
 {
 val
 initialState
@@ -1358,7 +1360,7 @@ mode
 (
 )
 =
-runBlocking
+runTest
 {
 val
 initialState

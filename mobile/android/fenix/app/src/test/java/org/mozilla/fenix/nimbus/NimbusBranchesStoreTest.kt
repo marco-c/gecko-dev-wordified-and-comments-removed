@@ -75,7 +75,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 org
 .
@@ -181,7 +183,7 @@ updated
 (
 )
 =
-runBlocking
+runTest
 {
 assertTrue
 (
@@ -277,7 +279,7 @@ updated
 (
 )
 =
-runBlocking
+runTest
 {
 assertEquals
 (

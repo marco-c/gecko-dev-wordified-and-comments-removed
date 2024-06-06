@@ -75,7 +75,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 mozilla
 .
@@ -144,7 +146,7 @@ enterDetailsMode
 (
 )
 =
-runBlocking
+runTest
 {
 val
 initialState
@@ -223,7 +225,7 @@ exitDetailsMode
 (
 )
 =
-runBlocking
+runTest
 {
 val
 initialState
@@ -288,7 +290,7 @@ trackerListChanged
 (
 )
 =
-runBlocking
+runTest
 {
 val
 initialState
@@ -359,7 +361,7 @@ urlChanged
 (
 )
 =
-runBlocking
+runTest
 {
 val
 initialState
@@ -416,7 +418,7 @@ onChange
 (
 )
 =
-runBlocking
+runTest
 {
 val
 initialState

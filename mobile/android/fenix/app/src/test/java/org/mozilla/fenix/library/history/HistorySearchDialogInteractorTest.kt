@@ -85,7 +85,7 @@ coroutines
 .
 test
 .
-runBlockingTest
+runTest
 import
 org
 .
@@ -138,7 +138,7 @@ onEditingCanceled
 (
 )
 =
-runBlockingTest
+runTest
 {
 interactor
 .

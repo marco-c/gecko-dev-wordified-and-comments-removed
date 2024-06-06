@@ -115,7 +115,7 @@ coroutines
 .
 test
 .
-TestCoroutineScope
+TestScope
 import
 mozilla
 .
@@ -202,13 +202,6 @@ var
 navController
 :
 NavController
-private
-val
-coroutinesScope
-=
-TestCoroutineScope
-(
-)
 Before
 fun
 setup
@@ -244,7 +237,9 @@ spyk
 ClearSiteDataView
 (
 testContext
-coroutinesScope
+TestScope
+(
+)
 FrameLayout
 (
 testContext

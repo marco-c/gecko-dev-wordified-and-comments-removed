@@ -55,7 +55,7 @@ coroutines
 .
 test
 .
-runBlockingTest
+runTest
 import
 org
 .
@@ -312,7 +312,7 @@ downloaded
 (
 )
 =
-runBlockingTest
+runTest
 {
 every
 {
@@ -414,7 +414,7 @@ downloaded
 (
 )
 =
-runBlockingTest
+runTest
 {
 every
 {
@@ -524,7 +524,7 @@ downloaded
 (
 )
 =
-runBlockingTest
+runTest
 {
 every
 {

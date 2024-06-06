@@ -83,7 +83,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 mozilla
 .
@@ -262,7 +264,7 @@ testToCreditCardEditorState
 (
 )
 =
-runBlocking
+runTest
 {
 val
 storage

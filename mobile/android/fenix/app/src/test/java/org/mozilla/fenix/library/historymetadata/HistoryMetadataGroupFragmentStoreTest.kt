@@ -71,7 +71,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 mozilla
 .
@@ -348,7 +350,7 @@ HistoryMetadataGroupFragmentStore
 (
 )
 =
-runBlocking
+runTest
 {
 assertEquals
 (
@@ -407,7 +409,7 @@ HistoryMetadataGroupFragmentStore
 (
 )
 =
-runBlocking
+runTest
 {
 val
 items
@@ -559,7 +561,7 @@ HistoryMetadataGroupFragmentStore
 (
 )
 =
-runBlocking
+runTest
 {
 val
 items
@@ -649,7 +651,7 @@ HistoryMetadataGroupFragmentStore
 (
 )
 =
-runBlocking
+runTest
 {
 val
 items
@@ -725,7 +727,7 @@ HistoryMetadataGroupFragmentStore
 (
 )
 =
-runBlocking
+runTest
 {
 val
 items
@@ -786,7 +788,7 @@ HistoryMetadataGroupFragmentStore
 (
 )
 =
-runBlocking
+runTest
 {
 store
 .
@@ -847,7 +849,7 @@ HistoryMetadataGroupFragmentStore
 (
 )
 =
-runBlocking
+runTest
 {
 store
 .

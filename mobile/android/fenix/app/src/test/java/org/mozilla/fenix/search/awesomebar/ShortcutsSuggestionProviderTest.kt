@@ -113,7 +113,7 @@ coroutines
 .
 test
 .
-runBlockingTest
+runTest
 import
 mozilla
 .
@@ -290,7 +290,7 @@ provider
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 engineOne
@@ -551,7 +551,7 @@ clicked
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 engineOne

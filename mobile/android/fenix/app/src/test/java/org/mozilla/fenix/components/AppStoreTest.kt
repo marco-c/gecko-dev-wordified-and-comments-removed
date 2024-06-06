@@ -99,7 +99,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 mozilla
 .
@@ -644,7 +646,7 @@ AppStore
 (
 )
 =
-runBlocking
+runTest
 {
 /
 /
@@ -769,7 +771,7 @@ value
 (
 )
 =
-runBlocking
+runTest
 {
 assertNull
 (
@@ -818,7 +820,7 @@ AppStore
 (
 )
 =
-runBlocking
+runTest
 {
 assertEquals
 (
@@ -894,7 +896,7 @@ AppStore
 (
 )
 =
-runBlocking
+runTest
 {
 assertEquals
 (
@@ -970,7 +972,7 @@ AppStore
 (
 )
 =
-runBlocking
+runTest
 {
 val
 group1
@@ -1167,7 +1169,7 @@ updated
 (
 )
 =
-runBlocking
+runTest
 {
 appStore
 =
@@ -1295,7 +1297,7 @@ AppStore
 (
 )
 =
-runBlocking
+runTest
 {
 assertEquals
 (
@@ -1362,7 +1364,7 @@ AppStore
 (
 )
 =
-runBlocking
+runTest
 {
 val
 g1
@@ -1539,7 +1541,7 @@ AppStore
 (
 )
 =
-runBlocking
+runTest
 {
 val
 g1
@@ -1681,7 +1683,7 @@ placeholder
 (
 )
 =
-runBlocking
+runTest
 {
 assertTrue
 (
@@ -1724,7 +1726,7 @@ AppStore
 (
 )
 =
-runBlocking
+runTest
 {
 val
 collection
@@ -1837,7 +1839,7 @@ AppStore
 (
 )
 =
-runBlocking
+runTest
 {
 /
 /
@@ -2178,7 +2180,7 @@ category
 (
 )
 =
-runBlocking
+runTest
 {
 val
 otherStoriesCategory
@@ -2352,7 +2354,7 @@ category
 (
 )
 =
-runBlocking
+runTest
 {
 val
 otherStoriesCategory
@@ -2534,7 +2536,7 @@ stories
 (
 )
 =
-runBlocking
+runTest
 {
 val
 story1
@@ -2670,7 +2672,7 @@ categories
 (
 )
 =
-runBlocking
+runTest
 {
 val
 otherStoriesCategory
@@ -2916,7 +2918,7 @@ categories
 (
 )
 =
-runBlocking
+runTest
 {
 val
 otherStoriesCategory

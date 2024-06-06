@@ -71,7 +71,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 org
 .
@@ -103,7 +105,7 @@ syncFailed
 (
 )
 =
-runBlocking
+runTest
 {
 val
 initialState
@@ -165,7 +167,7 @@ syncEnded
 (
 )
 =
-runBlocking
+runTest
 {
 val
 initialState
@@ -227,7 +229,7 @@ signOut
 (
 )
 =
-runBlocking
+runTest
 {
 val
 initialState

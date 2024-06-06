@@ -83,7 +83,7 @@ coroutines
 .
 test
 .
-runBlockingTest
+runTest
 import
 mozilla
 .
@@ -186,7 +186,7 @@ onEditingCanceled
 (
 )
 =
-runBlockingTest
+runTest
 {
 interactor
 .

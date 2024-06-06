@@ -95,7 +95,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 mozilla
 .
@@ -546,7 +548,7 @@ node
 (
 )
 =
-runBlocking
+runTest
 {
 val
 node

@@ -71,7 +71,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 mozilla
 .
@@ -205,7 +207,7 @@ exitEditMode
 (
 )
 =
-runBlocking
+runTest
 {
 val
 initialState
@@ -259,7 +261,7 @@ itemAddedForRemoval
 (
 )
 =
-runBlocking
+runTest
 {
 val
 initialState
@@ -322,7 +324,7 @@ removeItemForRemoval
 (
 )
 =
-runBlocking
+runTest
 {
 val
 initialState

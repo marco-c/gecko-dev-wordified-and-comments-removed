@@ -71,7 +71,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 org
 .
@@ -132,7 +134,7 @@ updateQuery
 (
 )
 =
-runBlocking
+runTest
 {
 val
 initialState

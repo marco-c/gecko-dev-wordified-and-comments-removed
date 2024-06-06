@@ -97,7 +97,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 mozilla
 .
@@ -736,7 +738,7 @@ updateQuery
 (
 )
 =
-runBlocking
+runTest
 {
 val
 initialState
@@ -796,7 +798,7 @@ selectSearchShortcutEngine
 (
 )
 =
-runBlocking
+runTest
 {
 val
 initialState
@@ -863,7 +865,7 @@ showSearchShortcutEnginePicker
 (
 )
 =
-runBlocking
+runTest
 {
 val
 initialState
@@ -916,7 +918,7 @@ showSearchSuggestions
 (
 )
 =
-runBlocking
+runTest
 {
 val
 initialState
@@ -991,7 +993,7 @@ allowSearchInPrivateMode
 (
 )
 =
-runBlocking
+runTest
 {
 val
 initialState
@@ -1120,7 +1122,7 @@ SearchState
 (
 )
 =
-runBlocking
+runTest
 {
 val
 store
@@ -1537,7 +1539,7 @@ disabled
 (
 )
 =
-runBlocking
+runTest
 {
 val
 store

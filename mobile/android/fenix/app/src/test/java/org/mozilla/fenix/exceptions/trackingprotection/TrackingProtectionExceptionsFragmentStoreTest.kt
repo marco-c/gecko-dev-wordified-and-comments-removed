@@ -71,7 +71,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 mozilla
 .
@@ -117,7 +119,7 @@ onChange
 (
 )
 =
-runBlocking
+runTest
 {
 val
 initialState

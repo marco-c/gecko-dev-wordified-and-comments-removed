@@ -157,7 +157,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 org
 .
@@ -427,6 +429,8 @@ hashed
 identifier
 (
 )
+=
+runTest
 {
 val
 testId
@@ -575,8 +579,6 @@ getHashingSalt
 }
 returns
 testPackageName
-runBlocking
-{
 assertEquals
 (
 mockedHexReturn
@@ -587,7 +589,6 @@ getHashedIdentifier
 context
 )
 )
-}
 /
 /
 Check

@@ -71,7 +71,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 mozilla
 .
@@ -465,7 +467,7 @@ ToggleTrackingProtectionEnabled
 (
 )
 =
-runBlocking
+runTest
 {
 val
 state

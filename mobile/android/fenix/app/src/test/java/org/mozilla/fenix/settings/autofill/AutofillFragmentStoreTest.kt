@@ -77,7 +77,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 mozilla
 .
@@ -173,7 +175,7 @@ testUpdateCreditCards
 (
 )
 =
-runBlocking
+runTest
 {
 assertTrue
 (
@@ -254,7 +256,7 @@ updated
 (
 )
 =
-runBlocking
+runTest
 {
 assertTrue
 (

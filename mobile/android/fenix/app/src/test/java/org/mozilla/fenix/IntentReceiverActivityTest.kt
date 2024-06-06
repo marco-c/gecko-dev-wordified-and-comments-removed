@@ -155,7 +155,7 @@ coroutines
 .
 test
 .
-runBlockingTest
+runTest
 import
 mozilla
 .
@@ -561,7 +561,7 @@ history
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 intent
@@ -684,7 +684,7 @@ HomeActivity
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 uri
@@ -835,7 +835,7 @@ OPEN_PRIVATE_TAB
 (
 )
 =
-runBlockingTest
+runTest
 {
 val
 intent
@@ -994,7 +994,7 @@ OPEN_TAB
 (
 )
 =
-runBlockingTest
+runTest
 {
 assertFalse
 (
@@ -1113,7 +1113,7 @@ Activity
 (
 )
 =
-runBlockingTest
+runTest
 {
 assertFalse
 (
@@ -1228,7 +1228,7 @@ true
 (
 )
 =
-runBlockingTest
+runTest
 {
 assertFalse
 (
@@ -1411,7 +1411,7 @@ false
 (
 )
 =
-runBlockingTest
+runTest
 {
 assertFalse
 (
@@ -1505,7 +1505,7 @@ intent
 (
 )
 =
-runBlockingTest
+runTest
 {
 assertFalse
 (
@@ -1666,7 +1666,7 @@ intent
 (
 )
 =
-runBlockingTest
+runTest
 {
 assertFalse
 (
