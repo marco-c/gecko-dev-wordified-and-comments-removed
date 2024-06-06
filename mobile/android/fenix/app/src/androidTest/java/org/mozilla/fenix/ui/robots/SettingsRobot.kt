@@ -77,12 +77,6 @@ robots
 import
 androidx
 .
-preference
-.
-R
-import
-androidx
-.
 recyclerview
 .
 widget
