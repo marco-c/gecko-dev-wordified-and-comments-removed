@@ -149,7 +149,7 @@ name
 :
 fennec
 -
-beta
+production
 job
 :
 type
@@ -163,7 +163,7 @@ symbol
 :
 fennec
 -
-beta
+production
 target
 -
 tasks
@@ -172,7 +172,7 @@ method
 :
 fennec
 -
-beta
+production
 when
 :
 [
