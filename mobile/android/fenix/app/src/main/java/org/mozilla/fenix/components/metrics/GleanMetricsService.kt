@@ -5316,6 +5316,20 @@ val
 context
 :
 Context
+private
+val
+browsersCache
+:
+BrowsersCache
+=
+BrowsersCache
+private
+val
+mozillaProductDetector
+:
+MozillaProductDetector
+=
+MozillaProductDetector
 )
 :
 MetricsService
@@ -5587,7 +5601,7 @@ defaultBrowser
 .
 set
 (
-BrowsersCache
+browsersCache
 .
 all
 (
@@ -5596,7 +5610,7 @@ context
 .
 isDefaultBrowser
 )
-MozillaProductDetector
+mozillaProductDetector
 .
 getMozillaBrowserDefault
 (
@@ -5617,7 +5631,7 @@ mozillaProducts
 .
 set
 (
-MozillaProductDetector
+mozillaProductDetector
 .
 getInstalledMozillaProducts
 (
