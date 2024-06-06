@@ -568,7 +568,7 @@ contentDescription
 "
 string
 /
-close_tab
+remove_tab_from_collection
 "
 app
 :
