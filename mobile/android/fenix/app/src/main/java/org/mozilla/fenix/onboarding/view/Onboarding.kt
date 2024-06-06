@@ -1085,7 +1085,7 @@ R
 .
 string
 .
-onboarding_home_sync_title
+onboarding_home_sync_title_2
 )
 color
 =
