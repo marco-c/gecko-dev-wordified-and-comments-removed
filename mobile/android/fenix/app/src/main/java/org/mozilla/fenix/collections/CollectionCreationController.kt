@@ -177,8 +177,6 @@ fenix
 .
 home
 .
-sessioncontrol
-.
 Tab
 import
 org
@@ -188,8 +186,6 @@ mozilla
 fenix
 .
 home
-.
-sessioncontrol
 .
 toSessionBundle
 interface

@@ -312,11 +312,6 @@ gradlew
 :
 [
 '
-lintDebug
-'
-'
-app
-:
 lintGeckoNightlyDebug
 '
 ]

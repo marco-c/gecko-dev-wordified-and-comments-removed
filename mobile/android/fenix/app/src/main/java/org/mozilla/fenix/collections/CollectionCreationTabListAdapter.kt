@@ -165,8 +165,6 @@ fenix
 .
 home
 .
-sessioncontrol
-.
 Tab
 class
 CollectionCreationTabListAdapter

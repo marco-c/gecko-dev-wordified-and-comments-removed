@@ -221,8 +221,6 @@ fenix
 .
 home
 .
-sessioncontrol
-.
 Tab
 ExperimentalCoroutinesApi
 class

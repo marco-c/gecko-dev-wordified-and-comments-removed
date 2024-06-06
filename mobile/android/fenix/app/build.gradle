@@ -3716,14 +3716,6 @@ true
 }
 dependencies
 {
-implementation
-project
-(
-'
-:
-architecture
-'
-)
 geckoNightlyImplementation
 Deps
 .
@@ -3976,6 +3968,10 @@ implementation
 Deps
 .
 mozilla_service_experiments
+implementation
+Deps
+.
+mozilla_support_base
 implementation
 Deps
 .

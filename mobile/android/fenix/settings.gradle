@@ -3,10 +3,6 @@ include
 :
 app
 '
-'
-:
-architecture
-'
 def
 log
 (

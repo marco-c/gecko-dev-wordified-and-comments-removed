@@ -111,8 +111,6 @@ fenix
 .
 home
 .
-sessioncontrol
-.
 Tab
 fun
 Session

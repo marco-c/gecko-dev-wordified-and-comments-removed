@@ -127,8 +127,6 @@ fenix
 .
 home
 .
-sessioncontrol
-.
 Tab
 class
 CollectionCreationStore
