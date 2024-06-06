@@ -235,7 +235,7 @@ pageState
 =
 OnboardingPageState
 (
-image
+imageRes
 =
 R
 .

@@ -500,7 +500,7 @@ OnboardingPageState
 =
 OnboardingPageState
 (
-image
+imageRes
 =
 onboardingPageUiData
 .

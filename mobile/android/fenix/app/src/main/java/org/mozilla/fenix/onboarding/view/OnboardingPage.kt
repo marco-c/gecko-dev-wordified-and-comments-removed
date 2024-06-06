@@ -634,7 +634,7 @@ the
 [
 OnboardingPageState
 .
-image
+imageRes
 ]
 .
 *
@@ -855,7 +855,7 @@ id
 =
 pageState
 .
-image
+imageRes
 )
 contentDescription
 =
@@ -1405,7 +1405,7 @@ pageState
 =
 OnboardingPageState
 (
-image
+imageRes
 =
 R
 .

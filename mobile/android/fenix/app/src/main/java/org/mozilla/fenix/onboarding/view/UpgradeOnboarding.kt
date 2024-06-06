@@ -533,7 +533,7 @@ Welcome
 >
 OnboardingPageState
 (
-image
+imageRes
 =
 R
 .
@@ -634,7 +634,7 @@ SyncSignIn
 >
 OnboardingPageState
 (
-image
+imageRes
 =
 R
 .

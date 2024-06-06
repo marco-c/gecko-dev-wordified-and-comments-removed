@@ -135,7 +135,7 @@ expected
 =
 OnboardingPageState
 (
-image
+imageRes
 =
 R
 .
@@ -341,7 +341,7 @@ expected
 =
 OnboardingPageState
 (
-image
+imageRes
 =
 R
 .
@@ -505,7 +505,7 @@ expected
 =
 OnboardingPageState
 (
-image
+imageRes
 =
 R
 .

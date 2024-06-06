@@ -86,8 +86,8 @@ OnboardingPage
 .
 *
 *
-param
-image
+property
+imageRes
 [
 DrawableRes
 ]
@@ -97,7 +97,7 @@ the
 page
 .
 *
-param
+property
 title
 [
 String
@@ -108,7 +108,7 @@ the
 page
 .
 *
-param
+property
 description
 [
 String
@@ -119,7 +119,7 @@ the
 page
 .
 *
-param
+property
 linkTextState
 [
 LinkTextState
@@ -133,7 +133,7 @@ a
 link
 .
 *
-param
+property
 primaryButton
 [
 Action
@@ -145,7 +145,7 @@ primary
 button
 .
 *
-param
+property
 secondaryButton
 [
 Action
@@ -157,7 +157,7 @@ secondary
 button
 .
 *
-param
+property
 onRecordImpressionEvent
 Callback
 for
@@ -173,7 +173,7 @@ OnboardingPageState
 (
 DrawableRes
 val
-image
+imageRes
 :
 Int
 val
