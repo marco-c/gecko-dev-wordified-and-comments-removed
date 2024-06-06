@@ -361,6 +361,9 @@ HomeActivityIntentTestRule
 .
 withDefaultSettingsOverrides
 (
+translationsEnabled
+=
+true
 )
 Before
 fun
