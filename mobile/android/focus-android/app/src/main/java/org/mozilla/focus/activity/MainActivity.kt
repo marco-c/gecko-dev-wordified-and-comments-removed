@@ -382,7 +382,10 @@ IntentProcessor
 this
 components
 .
-sessionManager
+tabsUseCases
+components
+.
+customTabsUseCases
 )
 }
 private
