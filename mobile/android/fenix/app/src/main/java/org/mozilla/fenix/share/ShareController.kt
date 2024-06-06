@@ -113,7 +113,15 @@ content
 .
 Intent
 .
-FLAG_ACTIVITY_NEW_TASK
+FLAG_ACTIVITY_MULTIPLE_TASK
+import
+android
+.
+content
+.
+Intent
+.
+FLAG_ACTIVITY_NEW_DOCUMENT
 import
 android
 .
@@ -673,7 +681,9 @@ plain
 "
 flags
 =
-FLAG_ACTIVITY_NEW_TASK
+FLAG_ACTIVITY_NEW_DOCUMENT
++
+FLAG_ACTIVITY_MULTIPLE_TASK
 setClassName
 (
 app

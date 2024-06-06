@@ -938,7 +938,11 @@ assertEquals
 (
 Intent
 .
-FLAG_ACTIVITY_NEW_TASK
+FLAG_ACTIVITY_NEW_DOCUMENT
++
+Intent
+.
+FLAG_ACTIVITY_MULTIPLE_TASK
 shareIntent
 .
 captured
