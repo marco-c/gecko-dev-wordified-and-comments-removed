@@ -137,7 +137,7 @@ fenix
 .
 helpers
 .
-HomeActivityTestRule
+HomeActivityIntentTestRule
 import
 org
 .
@@ -305,7 +305,7 @@ Rule
 val
 activityTestRule
 =
-HomeActivityTestRule
+HomeActivityIntentTestRule
 (
 )
 Before

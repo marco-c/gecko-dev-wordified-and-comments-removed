@@ -534,7 +534,7 @@ restartApp
 (
 activity
 :
-HomeActivityTestRule
+HomeActivityIntentTestRule
 )
 {
 with
