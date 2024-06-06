@@ -67,6 +67,13 @@ js
 ]
 [
 "
+browser_content_prompt
+.
+js
+"
+]
+[
+"
 browser_test_A11yUtils_announce
 .
 js
