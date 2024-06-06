@@ -402,6 +402,12 @@ step
 viewModel
 .
 saveCollectionStep
+val
+tabCollections
+=
+viewModel
+.
+tabCollections
 collectionCreationComponent
 =
 CollectionCreationComponent
@@ -435,6 +441,7 @@ CollectionCreationState
 tabs
 selectedTabs
 step
+tabCollections
 )
 )
 }

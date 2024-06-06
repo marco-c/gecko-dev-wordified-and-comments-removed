@@ -241,6 +241,17 @@ SaveCollectionStep
 SaveCollectionStep
 .
 SelectTabs
+val
+tabCollections
+:
+List
+<
+TabCollection
+>
+=
+listOf
+(
+)
 )
 :
 ViewState

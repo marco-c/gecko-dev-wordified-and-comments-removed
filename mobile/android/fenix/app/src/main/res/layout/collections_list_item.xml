@@ -254,13 +254,6 @@ textSize
 "
 16sp
 "
-android
-:
-visibility
-=
-"
-gone
-"
 app
 :
 layout_constraintBottom_toTopOf
