@@ -401,6 +401,18 @@ helpers
 .
 TestHelper
 .
+mDevice
+import
+org
+.
+mozilla
+.
+fenix
+.
+helpers
+.
+TestHelper
+.
 restartApp
 import
 org
@@ -1634,7 +1646,7 @@ scrollToElementByText
 (
 addonName
 )
-device
+mDevice
 .
 waitNotNull
 (
