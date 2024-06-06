@@ -125,7 +125,7 @@ experiment
 isEnrollmentPaused
 "
 :
-false
+true
 "
 isRollout
 "
@@ -454,9 +454,9 @@ enrollmentEndDate
 "
 2022
 -
-10
+11
 -
-29
+01
 "
 "
 endDate
@@ -480,6 +480,11 @@ referenceBranch
 "
 control
 "
+"
+featureValidationOptOut
+"
+:
+false
 }
 ]
 }
