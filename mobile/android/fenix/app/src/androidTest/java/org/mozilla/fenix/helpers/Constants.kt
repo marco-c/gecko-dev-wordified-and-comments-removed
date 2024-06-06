@@ -186,4 +186,9 @@ LISTS_MAXSWIPES
 Int
 =
 3
+const
+val
+RETRY_COUNT
+=
+3
 }
