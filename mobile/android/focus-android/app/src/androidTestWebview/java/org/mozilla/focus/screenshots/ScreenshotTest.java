@@ -343,6 +343,12 @@ tearDownIdlingResources
 (
 )
 {
+device
+.
+waitForIdle
+(
+)
+;
 IdlingRegistry
 .
 getInstance

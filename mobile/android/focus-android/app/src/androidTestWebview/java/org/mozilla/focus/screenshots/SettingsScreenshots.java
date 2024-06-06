@@ -290,7 +290,7 @@ action
 .
 ViewActions
 .
-typeText
+replaceText
 ;
 import
 static
@@ -1325,7 +1325,7 @@ domainView
 .
 perform
 (
-typeText
+replaceText
 (
 "
 screenshot
@@ -1364,6 +1364,12 @@ screenshot
 "
 Autocomplete_Add_Custom_URL_Saved_Popup
 "
+)
+;
+device
+.
+waitForIdle
+(
 )
 ;
 onView

@@ -276,6 +276,15 @@ takeScreenshotOfHomeScreen
 (
 )
 {
+Screengrab
+.
+screenshot
+(
+"
+Ignore
+"
+)
+;
 onView
 (
 withId
