@@ -1287,7 +1287,7 @@ directions
 =
 SettingsFragmentDirections
 .
-actionSettingsFragmentToSyncFragment
+actionSettingsFragmentToTurnOnSyncFragment
 (
 )
 Navigation
