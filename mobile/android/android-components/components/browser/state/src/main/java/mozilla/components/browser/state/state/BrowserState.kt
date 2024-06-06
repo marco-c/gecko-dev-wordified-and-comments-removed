@@ -571,6 +571,12 @@ Locale
 ?
 =
 null
+val
+showExtensionProcessDisabledPopup
+:
+Boolean
+=
+false
 )
 :
 State
