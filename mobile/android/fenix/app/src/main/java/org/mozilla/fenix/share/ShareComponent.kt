@@ -191,6 +191,12 @@ AddNewDeviceClicked
 ShareAction
 (
 )
+object
+HideSendTab
+:
+ShareAction
+(
+)
 data
 class
 ShareDeviceClicked
