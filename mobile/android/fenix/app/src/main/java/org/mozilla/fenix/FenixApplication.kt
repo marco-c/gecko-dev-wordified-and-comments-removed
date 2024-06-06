@@ -1096,6 +1096,16 @@ runStorageMaintenance
 /
 /
 }
+initVisualCompletenessQueueAndQueueTasks
+(
+)
+}
+private
+fun
+initVisualCompletenessQueueAndQueueTasks
+(
+)
+{
 val
 taskQueue
 =
