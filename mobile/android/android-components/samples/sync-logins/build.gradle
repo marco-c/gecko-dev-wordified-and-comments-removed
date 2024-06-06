@@ -76,10 +76,6 @@ android
 '
 android
 {
-compileSdkVersion
-config
-.
-compileSdkVersion
 defaultConfig
 {
 applicationId
@@ -98,6 +94,10 @@ minSdkVersion
 config
 .
 minSdkVersion
+compileSdk
+config
+.
+compileSdkVersion
 targetSdkVersion
 config
 .
