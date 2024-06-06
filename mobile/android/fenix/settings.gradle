@@ -3,6 +3,15 @@ include
 :
 app
 '
+include
+'
+:
+mozilla
+-
+detekt
+-
+rules
+'
 def
 log
 (
