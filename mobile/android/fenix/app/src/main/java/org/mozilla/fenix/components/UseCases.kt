@@ -455,6 +455,7 @@ SearchUseCases
 (
 store
 tabsUseCases
+sessionUseCases
 )
 }
 /
