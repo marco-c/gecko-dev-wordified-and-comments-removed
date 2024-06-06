@@ -1693,6 +1693,12 @@ sessionUseCases
 requireComponents
 .
 appStore
+requireComponents
+.
+store
+requireComponents
+.
+topSitesUseCases
 tabId
 :
 :
@@ -1738,6 +1744,11 @@ context
 requireContext
 (
 )
+appStore
+=
+requireComponents
+.
+appStore
 store
 =
 requireComponents
