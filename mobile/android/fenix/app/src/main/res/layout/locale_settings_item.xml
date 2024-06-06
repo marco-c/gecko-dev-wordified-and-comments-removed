@@ -335,7 +335,6 @@ app
 layout_constraintBottom_toTopOf
 =
 "
-+
 id
 /
 locale_subtitle_text
@@ -352,7 +351,6 @@ app
 layout_constraintStart_toEndOf
 =
 "
-+
 id
 /
 locale_selected_icon
@@ -487,7 +485,6 @@ app
 layout_constraintStart_toEndOf
 =
 "
-+
 id
 /
 locale_selected_icon
@@ -497,7 +494,6 @@ app
 layout_constraintTop_toBottomOf
 =
 "
-+
 id
 /
 locale_title_text

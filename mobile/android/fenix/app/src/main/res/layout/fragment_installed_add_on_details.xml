@@ -370,7 +370,6 @@ android
 layout_below
 =
 "
-+
 id
 /
 enable_switch
@@ -496,7 +495,6 @@ android
 layout_below
 =
 "
-+
 id
 /
 allow_in_private_browsing_switch
@@ -601,7 +599,6 @@ android
 layout_below
 =
 "
-+
 id
 /
 settings
@@ -706,7 +703,6 @@ android
 layout_below
 =
 "
-+
 id
 /
 details
@@ -813,7 +809,6 @@ android
 layout_below
 =
 "
-+
 id
 /
 permissions

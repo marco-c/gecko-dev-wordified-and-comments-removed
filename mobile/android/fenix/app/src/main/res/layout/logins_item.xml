@@ -454,7 +454,6 @@ app
 layout_constraintStart_toEndOf
 =
 "
-+
 id
 /
 favicon_wrapper
@@ -569,7 +568,6 @@ app
 layout_constraintStart_toEndOf
 =
 "
-+
 id
 /
 favicon_wrapper

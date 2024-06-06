@@ -760,7 +760,6 @@ app
 layout_constraintBottom_toTopOf
 =
 "
-+
 id
 /
 bottom_button_bar_layout

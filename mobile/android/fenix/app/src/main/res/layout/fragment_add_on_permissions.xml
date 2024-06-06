@@ -219,7 +219,6 @@ android
 layout_below
 =
 "
-+
 id
 /
 add_ons_permissions
