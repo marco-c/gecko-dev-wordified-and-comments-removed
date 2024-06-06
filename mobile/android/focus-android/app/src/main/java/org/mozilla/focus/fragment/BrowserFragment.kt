@@ -4269,11 +4269,16 @@ browsers
 =
 Browsers
 .
-all
+forUrl
 (
 requireContext
 (
 )
+tab
+.
+content
+.
+url
 )
 val
 apps
