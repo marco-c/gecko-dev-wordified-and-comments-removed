@@ -472,13 +472,13 @@ runtimeSettingsBuilder
 .
 blockMalware
 (
-false
+true
 )
 runtimeSettingsBuilder
 .
 blockPhishing
 (
-false
+true
 )
 runtimeSettingsBuilder
 .
