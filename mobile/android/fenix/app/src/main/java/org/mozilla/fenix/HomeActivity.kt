@@ -701,7 +701,7 @@ savedInstanceState
 val
 mode
 =
-setPrivateModeIfNecessary
+getPrivateModeFromIntent
 (
 )
 components
@@ -1322,7 +1322,7 @@ created
 /
 private
 fun
-setPrivateModeIfNecessary
+getPrivateModeFromIntent
 (
 )
 :
