@@ -796,11 +796,6 @@ pref_key_history_metadata_feature
 .
 apply
 {
-isVisible
-=
-FeatureFlags
-.
-historyMetadataUIFeature
 isChecked
 =
 context
