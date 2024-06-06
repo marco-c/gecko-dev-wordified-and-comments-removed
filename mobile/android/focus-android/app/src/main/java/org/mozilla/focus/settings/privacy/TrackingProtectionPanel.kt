@@ -722,7 +722,7 @@ R
 .
 drawable
 .
-mozac_ic_lock
+mozac_ic_lock_24
 )
 }
 else
