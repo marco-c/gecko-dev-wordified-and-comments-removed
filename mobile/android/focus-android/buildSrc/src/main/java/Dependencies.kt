@@ -79,7 +79,7 @@ compose_compiler
 .
 3
 .
-0
+2
 "
 const
 val
@@ -348,7 +348,7 @@ version
 .
 7
 .
-10
+20
 "
 const
 val
