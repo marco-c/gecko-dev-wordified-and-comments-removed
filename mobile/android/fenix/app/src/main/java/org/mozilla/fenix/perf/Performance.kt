@@ -489,8 +489,8 @@ getInstance
 context
 )
 .
-shouldShowFirstTimePwaFragment
+userKnowsAboutPWAs
 =
-false
+true
 }
 }

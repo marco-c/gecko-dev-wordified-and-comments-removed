@@ -235,9 +235,9 @@ directions
 )
 settings
 .
-shouldShowFirstTimePwaFragment
+userKnowsAboutPWAs
 =
-false
+true
 }
 }
 }
