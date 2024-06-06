@@ -705,16 +705,6 @@ object
 IntentProcessor
 {
 override
-fun
-matches
-(
-intent
-:
-Intent
-)
-=
-true
-override
 suspend
 fun
 process
