@@ -63,7 +63,7 @@ mozilla
 .
 fenix
 .
-gleanplumb
+messaging
 .
 state
 import
@@ -145,7 +145,7 @@ mozilla
 .
 fenix
 .
-gleanplumb
+messaging
 .
 MessagingState
 /

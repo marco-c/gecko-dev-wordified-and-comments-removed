@@ -113,6 +113,18 @@ uiautomator
 .
 UiDevice
 import
+mozilla
+.
+components
+.
+service
+.
+nimbus
+.
+messaging
+.
+FxNimbusMessaging
+import
 org
 .
 json
@@ -524,7 +536,7 @@ notificationShade
 val
 data
 =
-FxNimbus
+FxNimbusMessaging
 .
 features
 .

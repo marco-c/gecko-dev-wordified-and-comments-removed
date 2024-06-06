@@ -63,7 +63,7 @@ mozilla
 .
 fenix
 .
-gleanplumb
+messaging
 import
 android
 .
@@ -78,6 +78,18 @@ core
 app
 .
 NotificationManagerCompat
+import
+mozilla
+.
+components
+.
+service
+.
+nimbus
+.
+messaging
+.
+JexlAttributeProvider
 import
 org
 .
@@ -159,6 +171,8 @@ shown
 /
 object
 CustomAttributeProvider
+:
+JexlAttributeProvider
 {
 private
 val
@@ -351,6 +365,7 @@ messages
 .
 *
 /
+override
 fun
 getCustomAttributes
 (
