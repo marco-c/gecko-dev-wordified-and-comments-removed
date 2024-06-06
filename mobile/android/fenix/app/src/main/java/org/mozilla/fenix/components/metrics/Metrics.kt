@@ -478,6 +478,12 @@ Event
 (
 )
 object
+RemoveBookmarkFolder
+:
+Event
+(
+)
+object
 RemoveBookmarks
 :
 Event
