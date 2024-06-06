@@ -314,6 +314,17 @@ to
 the
 history
 view
+-
+#
+1375
+-
+Added
+setting
+for
+turning
+off
+history
+suggestions
 >
 >
 >
