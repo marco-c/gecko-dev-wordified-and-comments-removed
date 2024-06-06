@@ -69,12 +69,6 @@ collections
 .
 adapter
 import
-android
-.
-content
-.
-Context
-import
 mozilla
 .
 components
@@ -138,6 +132,12 @@ collections
 db
 .
 TabEntity
+import
+java
+.
+io
+.
+File
 internal
 class
 TabAdapter
@@ -192,9 +192,9 @@ override
 fun
 restore
 (
-context
+filesDir
 :
-Context
+File
 engine
 :
 Engine
@@ -219,8 +219,6 @@ entity
 .
 getStateFile
 (
-context
-.
 filesDir
 )
 return

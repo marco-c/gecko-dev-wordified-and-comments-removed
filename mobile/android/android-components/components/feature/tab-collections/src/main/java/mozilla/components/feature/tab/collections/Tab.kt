@@ -67,12 +67,6 @@ tab
 .
 collections
 import
-android
-.
-content
-.
-Context
-import
 mozilla
 .
 components
@@ -96,6 +90,12 @@ concept
 engine
 .
 Engine
+import
+java
+.
+io
+.
+File
 /
 *
 *
@@ -239,9 +239,9 @@ tab
 fun
 restore
 (
-context
+filesDir
 :
-Context
+File
 engine
 :
 Engine

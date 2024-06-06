@@ -67,12 +67,6 @@ home
 .
 collections
 import
-android
-.
-content
-.
-Context
-import
 androidx
 .
 compose
@@ -460,6 +454,12 @@ fenix
 theme
 .
 FirefoxTheme
+import
+java
+.
+io
+.
+File
 /
 *
 *
@@ -1436,9 +1436,9 @@ override
 fun
 restore
 (
-context
+filesDir
 :
-Context
+File
 engine
 :
 Engine

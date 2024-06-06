@@ -1204,6 +1204,8 @@ restoreUseCase
 invoke
 (
 activity
+.
+filesDir
 engine
 tab
 onTabRestored
@@ -1278,6 +1280,8 @@ restoreUseCase
 invoke
 (
 activity
+.
+filesDir
 engine
 collection
 onFailure
