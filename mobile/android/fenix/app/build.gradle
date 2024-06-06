@@ -7385,8 +7385,14 @@ variants
 )
 }
 }
-task
+tasks
+.
+register
+(
+'
 buildTranslationArray
+'
+)
 {
 /
 /
