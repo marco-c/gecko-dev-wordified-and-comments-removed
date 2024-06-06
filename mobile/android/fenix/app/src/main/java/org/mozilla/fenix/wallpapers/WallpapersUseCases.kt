@@ -383,6 +383,15 @@ migrationHelper
 LegacyWallpaperMigration
 (
 storageRootDirectory
+=
+storageRootDirectory
+settings
+=
+context
+.
+settings
+(
+)
 )
 DefaultInitializeWallpaperUseCase
 (
