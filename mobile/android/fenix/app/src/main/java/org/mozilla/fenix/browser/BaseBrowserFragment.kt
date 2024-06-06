@@ -2145,6 +2145,8 @@ getContextMenuCandidates
 (
 context
 view
+.
+browserLayout
 )
 engineView
 =
