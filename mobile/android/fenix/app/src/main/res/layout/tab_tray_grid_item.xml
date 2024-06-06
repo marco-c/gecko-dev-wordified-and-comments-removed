@@ -240,13 +240,6 @@ false
 "
 android
 :
-importantForAccessibility
-=
-"
-no
-"
-android
-:
 padding
 =
 "
