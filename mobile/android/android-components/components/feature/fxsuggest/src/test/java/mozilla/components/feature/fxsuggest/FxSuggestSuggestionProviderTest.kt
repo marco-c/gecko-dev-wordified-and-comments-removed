@@ -385,6 +385,9 @@ Las_Vegas
 icon
 =
 null
+iconMimetype
+=
+null
 fullKeyword
 =
 "
@@ -610,6 +613,9 @@ listOf
 96u
 130u
 )
+iconMimetype
+=
+null
 fullKeyword
 =
 "
@@ -705,6 +711,9 @@ wiki
 Las_Vegas
 "
 icon
+=
+null
+iconMimetype
 =
 null
 fullKeyword
@@ -1020,6 +1029,9 @@ Las_Vegas
 icon
 =
 null
+iconMimetype
+=
+null
 fullKeyword
 =
 "
@@ -1322,6 +1334,9 @@ lasagna
 restaurant
 "
 icon
+=
+null
+iconMimetype
 =
 null
 fullKeyword
@@ -1823,6 +1838,9 @@ lasagna
 restaurant
 "
 icon
+=
+null
+iconMimetype
 =
 null
 fullKeyword
