@@ -319,6 +319,16 @@ feature
 .
 contextmenu
 .
+ContextMenuCandidate
+import
+mozilla
+.
+components
+.
+feature
+.
+contextmenu
+.
 ContextMenuFeature
 import
 mozilla
@@ -1519,7 +1529,7 @@ store
 store
 candidates
 =
-FenixContextMenuCandidate
+ContextMenuCandidate
 .
 defaultCandidates
 (
