@@ -80,7 +80,5 @@ EXPERIMENT_DESCRIPTOR_GECKOVIEW_ENGINE
 use
 -
 gecko
--
-nightly
 "
 }

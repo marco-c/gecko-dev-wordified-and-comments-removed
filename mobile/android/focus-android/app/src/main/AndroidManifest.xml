@@ -365,6 +365,13 @@ name
 .
 FocusApplication
 "
+android
+:
+usesCleartextTraffic
+=
+"
+true
+"
 >
 <
 provider
