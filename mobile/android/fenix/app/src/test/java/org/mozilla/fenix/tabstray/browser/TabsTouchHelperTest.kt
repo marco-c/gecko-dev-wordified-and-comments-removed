@@ -67,11 +67,15 @@ tabstray
 .
 browser
 import
-android
+androidx
 .
-widget
+compose
 .
-FrameLayout
+ui
+.
+platform
+.
+ComposeView
 import
 androidx
 .
@@ -226,7 +230,7 @@ testContext
 val
 layout
 =
-FrameLayout
+ComposeView
 (
 testContext
 )
@@ -236,6 +240,9 @@ viewHolder
 SyncedTabsPageViewHolder
 (
 layout
+mockk
+(
+)
 mockk
 (
 )
@@ -337,7 +344,7 @@ testContext
 val
 layout
 =
-FrameLayout
+ComposeView
 (
 testContext
 )
@@ -347,6 +354,9 @@ viewHolder
 SyncedTabsPageViewHolder
 (
 layout
+mockk
+(
+)
 mockk
 (
 )
