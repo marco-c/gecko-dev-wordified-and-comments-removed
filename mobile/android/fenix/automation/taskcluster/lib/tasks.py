@@ -56,6 +56,10 @@ command
 artifacts
 features
 worker_type
+scopes
+=
+[
+]
 )
 :
         
@@ -193,8 +197,7 @@ routes
 scopes
 "
 :
-[
-]
+scopes
             
 "
 requires
