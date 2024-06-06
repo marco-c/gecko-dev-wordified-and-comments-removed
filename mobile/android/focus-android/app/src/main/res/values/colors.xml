@@ -662,7 +662,7 @@ searchSuggestionPromptTitleColor
 >
 color
 /
-photonGrey10
+photonLightGrey05
 <
 /
 color
@@ -675,8 +675,9 @@ name
 searchSuggestionPromptSubtitleColor
 "
 >
-#
-9e9fad
+color
+/
+photonLightGrey05
 <
 /
 color
@@ -690,7 +691,7 @@ searchSuggestionPromptBorderColor
 "
 >
 #
-343751
+342F6D
 <
 /
 color
@@ -703,9 +704,8 @@ name
 searchSuggestionPromptButtonTextColor
 "
 >
-color
-/
-focusContrastPink
+#
+FF4AA2
 <
 /
 color

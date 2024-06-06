@@ -148,9 +148,7 @@ android
 width
 =
 "
-0
-.
-5dp
+1dp
 "
 android
 :
