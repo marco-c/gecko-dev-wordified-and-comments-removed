@@ -979,12 +979,6 @@ Event
 (
 )
 object
-SearchWithCustomEngine
-:
-Event
-(
-)
-object
 PrivateBrowsingShowSearchSuggestions
 :
 Event
