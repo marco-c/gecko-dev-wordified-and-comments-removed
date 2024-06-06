@@ -749,7 +749,7 @@ get
 mapOf
 (
 "
-preferenceKey
+preference_key
 "
 to
 preferenceKey
@@ -874,7 +874,7 @@ get
 mapOf
 (
 "
-errorType
+error_type
 "
 to
 errorType
