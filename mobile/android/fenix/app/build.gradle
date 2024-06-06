@@ -5440,6 +5440,10 @@ mozilla_compose_awesomebar
 implementation
 FenixDependencies
 .
+mozilla_compose_cfr
+implementation
+FenixDependencies
+.
 mozilla_concept_awesomebar
 implementation
 FenixDependencies
