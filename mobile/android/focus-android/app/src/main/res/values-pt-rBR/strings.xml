@@ -733,7 +733,10 @@ name
 preference_subitem_autocomplete
 "
 >
-Autocompletar
+Preenchimento
+autom
+tico
+de
 URL
 <
 /
@@ -747,7 +750,9 @@ name
 preference_switch_autocomplete
 "
 >
-Autocompletar
+Preenchimento
+autom
+tico
 <
 /
 string

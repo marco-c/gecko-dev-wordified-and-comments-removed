@@ -1145,7 +1145,8 @@ preference_privacy_block_social
 "
 >
 Verfolgung
-sozialer
+durch
+soziale
 Netzwerke
 blockieren
 <
@@ -1458,9 +1459,7 @@ name
 preference_search_restore
 "
 >
-Standard
--
-Suchmaschinen
+Standardsuchmaschinen
 wiederherstellen
 <
 /
