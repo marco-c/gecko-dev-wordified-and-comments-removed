@@ -1932,9 +1932,7 @@ owner
 {
 event
 .
-pull_request
-.
-user
+sender
 .
 login
 }
@@ -1952,5 +1950,5 @@ event
 .
 repository
 .
-url
+clone_url
 }
