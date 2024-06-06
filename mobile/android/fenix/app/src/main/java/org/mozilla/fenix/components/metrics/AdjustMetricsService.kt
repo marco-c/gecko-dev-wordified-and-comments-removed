@@ -247,6 +247,13 @@ AdjustConfig
 ENVIRONMENT_PRODUCTION
 true
 )
+val
+installationPing
+=
+InstallationPing
+(
+application
+)
 config
 .
 setOnAttributionChangedListener
@@ -355,10 +362,7 @@ it
 .
 campaign
 }
-InstallationPing
-(
-application
-)
+installationPing
 .
 checkAndSend
 (
