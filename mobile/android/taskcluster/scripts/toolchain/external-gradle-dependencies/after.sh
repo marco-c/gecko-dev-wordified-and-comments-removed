@@ -122,12 +122,13 @@ echo
 "
 running
 as
-"
 (
 id
 )
+"
 :
 WORKSPACE
+"
 {
 WORKSPACE
 :
@@ -139,6 +140,7 @@ worker
 /
 workspace
 }
+"
 set
 -
 v
@@ -148,7 +150,9 @@ everything
 up
 .
 pushd
+"
 WORKSPACE
+"
 mkdir
 -
 p
@@ -166,6 +170,7 @@ artifacts
 cp
 -
 R
+"
 {
 NEXUS_WORK
 }
@@ -173,6 +178,7 @@ NEXUS_WORK
 storage
 /
 google
+"
 external
 -
 gradle
@@ -181,6 +187,7 @@ dependencies
 cp
 -
 R
+"
 {
 NEXUS_WORK
 }
@@ -188,6 +195,7 @@ NEXUS_WORK
 storage
 /
 central
+"
 external
 -
 gradle
