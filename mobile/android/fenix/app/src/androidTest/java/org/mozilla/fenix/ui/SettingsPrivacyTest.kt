@@ -311,8 +311,8 @@ verifySettingsOptionSummary
 (
 "
 Cookie
-Banner
-Reduction
+banner
+reduction
 "
 "
 Off

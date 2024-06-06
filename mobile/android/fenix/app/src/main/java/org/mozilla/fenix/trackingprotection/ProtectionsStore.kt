@@ -905,7 +905,7 @@ R
 .
 string
 .
-reduce_cookie_banner_unsupported_site_request_submitted
+reduce_cookie_banner_unsupported_site_request_submitted_2
 R
 .
 drawable

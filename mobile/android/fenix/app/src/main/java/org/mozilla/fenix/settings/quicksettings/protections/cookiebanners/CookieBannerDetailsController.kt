@@ -997,7 +997,7 @@ R
 .
 string
 .
-cookie_banner_handling_report_site_snack_bar_text
+cookie_banner_handling_report_site_snack_bar_text_2
 )
 FenixSnackbar
 .

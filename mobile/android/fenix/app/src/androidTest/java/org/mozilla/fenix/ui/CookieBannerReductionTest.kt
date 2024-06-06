@@ -198,8 +198,8 @@ verifySettingsOptionSummary
 (
 "
 Cookie
-Banner
-Reduction
+banner
+reduction
 "
 "
 Off
@@ -232,8 +232,8 @@ verifySettingsOptionSummary
 (
 "
 Cookie
-Banner
-Reduction
+banner
+reduction
 "
 "
 On
@@ -383,8 +383,8 @@ verifySettingsOptionSummary
 (
 "
 Cookie
-Banner
-Reduction
+banner
+reduction
 "
 "
 Off
@@ -417,8 +417,8 @@ verifySettingsOptionSummary
 (
 "
 Cookie
-Banner
-Reduction
+banner
+reduction
 "
 "
 On
