@@ -176,7 +176,7 @@ GlobalScope
 .
 launch
 {
-load
+loadAsync
 (
 context
 )
