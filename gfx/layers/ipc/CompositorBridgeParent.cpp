@@ -8850,9 +8850,8 @@ gfx_content_frame_time
 :
 from_paint
 .
-AccumulateSamples
+AccumulateSingleSample
 (
-{
 static_cast
 <
 unsigned
@@ -8862,7 +8861,6 @@ long
 (
 fracLatencyNorm
 )
-}
 )
 ;
 if
@@ -8930,9 +8928,8 @@ gfx_content_frame_time
 :
 from_vsync
 .
-AccumulateSamples
+AccumulateSingleSample
 (
-{
 static_cast
 <
 unsigned
@@ -8942,7 +8939,6 @@ long
 (
 fracLatencyNorm
 )
-}
 )
 ;
 if
@@ -8961,9 +8957,8 @@ gfx_content_frame_time
 :
 with_svg
 .
-AccumulateSamples
+AccumulateSingleSample
 (
-{
 static_cast
 <
 unsigned
@@ -8973,7 +8968,6 @@ long
 (
 fracLatencyNorm
 )
-}
 )
 ;
 }
@@ -9453,9 +9447,8 @@ gfx_content_frame_time
 :
 without_resource_upload
 .
-AccumulateSamples
+AccumulateSingleSample
 (
-{
 static_cast
 <
 unsigned
@@ -9465,7 +9458,6 @@ long
 (
 fracLatencyNorm
 )
-}
 )
 ;
 if
@@ -9523,9 +9515,8 @@ gfx_content_frame_time
 :
 without_resource_upload
 .
-AccumulateSamples
+AccumulateSingleSample
 (
-{
 static_cast
 <
 unsigned
@@ -9535,7 +9526,6 @@ long
 (
 fracLatencyNorm
 )
-}
 )
 ;
 }
