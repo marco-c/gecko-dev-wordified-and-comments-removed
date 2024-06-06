@@ -782,10 +782,10 @@ setOf
 (
 SyncEngine
 .
-HISTORY
+History
 SyncEngine
 .
-BOOKMARKS
+Bookmarks
 )
 syncPeriodInMinutes
 =
@@ -853,7 +853,7 @@ configureStore
 (
 SyncEngine
 .
-HISTORY
+History
 to
 historyStorage
 )
@@ -863,7 +863,7 @@ configureStore
 (
 SyncEngine
 .
-BOOKMARKS
+Bookmarks
 to
 bookmarkStorage
 )
