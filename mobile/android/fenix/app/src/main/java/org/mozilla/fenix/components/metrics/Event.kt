@@ -917,12 +917,6 @@ Event
 (
 )
 object
-OnboardingPrivateBrowsing
-:
-Event
-(
-)
-object
 OnboardingFinish
 :
 Event
