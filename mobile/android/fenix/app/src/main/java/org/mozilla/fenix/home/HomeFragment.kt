@@ -3393,13 +3393,6 @@ tabButton
 .
 setOnClickListener
 {
-if
-(
-FeatureFlags
-.
-showStartOnHomeSettings
-)
-{
 requireComponents
 .
 analytics
@@ -3412,7 +3405,6 @@ Event
 .
 StartOnHomeOpenTabsTray
 )
-}
 openTabsTray
 (
 )
