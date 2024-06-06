@@ -143,7 +143,6 @@ viewHolderProvider
 =
 {
 parentView
-_
 -
 >
 TabTrayViewHolder

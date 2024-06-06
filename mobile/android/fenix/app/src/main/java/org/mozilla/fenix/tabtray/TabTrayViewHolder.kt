@@ -171,6 +171,16 @@ browser
 .
 tabstray
 .
+TabsTrayStyling
+import
+mozilla
+.
+components
+.
+browser
+.
+tabstray
+.
 thumbnail
 .
 TabThumbnailView
@@ -584,6 +594,9 @@ Tab
 isSelected
 :
 Boolean
+styling
+:
+TabsTrayStyling
 observable
 :
 Observable
