@@ -406,8 +406,6 @@ asFeatureWebChannelsDisabled
 }
 returns
 false
-/
-/
 assertEquals
 (
 "
@@ -431,7 +429,7 @@ redirect
 -
 webchannel
 "
-BackgroundServices
+FxaServer
 .
 redirectUrl
 (
@@ -454,8 +452,6 @@ asFeatureWebChannelsDisabled
 }
 returns
 true
-/
-/
 assertEquals
 (
 "
@@ -475,7 +471,7 @@ success
 /
 a2270f727f45f648
 "
-BackgroundServices
+FxaServer
 .
 redirectUrl
 (

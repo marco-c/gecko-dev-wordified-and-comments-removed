@@ -620,7 +620,7 @@ passwordValue
 )
 }
 fun
-tapOnSygIn
+tapOnSignIn
 (
 )
 {
@@ -952,7 +952,7 @@ TestAssetHelper
 .
 waitingTime
 )
-tapOnSygIn
+tapOnSignIn
 (
 )
 }
