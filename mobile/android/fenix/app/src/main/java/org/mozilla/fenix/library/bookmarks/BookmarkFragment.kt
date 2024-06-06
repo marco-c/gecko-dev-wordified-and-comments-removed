@@ -239,6 +239,12 @@ kotlinx
 .
 coroutines
 .
+isActive
+import
+kotlinx
+.
+coroutines
+.
 launch
 import
 mozilla
@@ -881,6 +887,8 @@ String
 Job
 {
 return
+viewLifecycleOwner
+.
 lifecycleScope
 .
 launch
@@ -909,8 +917,13 @@ context
 )
 as
 BookmarkNode
-lifecycleScope
-.
+if
+(
+!
+isActive
+)
+return
+launch
 launch
 (
 Main
