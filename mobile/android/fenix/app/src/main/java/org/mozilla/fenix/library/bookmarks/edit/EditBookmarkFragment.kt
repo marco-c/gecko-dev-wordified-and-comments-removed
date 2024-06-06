@@ -1764,7 +1764,7 @@ R
 .
 color
 .
-design_error
+destructive_normal_theme
 )
 )
 )
