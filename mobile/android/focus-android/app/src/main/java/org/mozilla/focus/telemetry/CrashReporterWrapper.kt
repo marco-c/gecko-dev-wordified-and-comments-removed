@@ -278,6 +278,14 @@ CrashReporterWrapper
 private
 const
 val
+SOCORRO_APP_NAME
+=
+"
+Focus
+"
+private
+const
+val
 TAG_BUILD_FLAVOR
 :
 String
@@ -448,10 +456,7 @@ true
 MozillaSocorroService
 (
 context
-"
-Firefox
-Focus
-"
+SOCORRO_APP_NAME
 )
 )
 promptConfiguration
