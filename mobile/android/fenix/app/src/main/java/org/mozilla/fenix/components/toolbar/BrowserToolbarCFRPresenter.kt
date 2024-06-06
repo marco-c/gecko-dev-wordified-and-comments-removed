@@ -2014,10 +2014,10 @@ DOWN
 }
 dismissOnBackPress
 =
-false
+true
 dismissOnClickOutside
 =
-false
+true
 )
 onDismiss
 =
