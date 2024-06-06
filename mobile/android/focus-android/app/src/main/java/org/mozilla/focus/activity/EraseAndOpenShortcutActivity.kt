@@ -172,5 +172,8 @@ startActivity
 (
 intent
 )
+finish
+(
+)
 }
 }
