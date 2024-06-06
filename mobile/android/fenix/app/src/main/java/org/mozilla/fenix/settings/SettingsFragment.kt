@@ -1071,7 +1071,7 @@ openToBrowser
 null
 BrowserDirection
 .
-FromHome
+FromSettings
 )
 }
 true
