@@ -3135,19 +3135,17 @@ build_task_id
 apk_paths
 channel
 is_staging
-index_channel
+publish_to_index
 =
-None
+True
     
 )
 :
         
-index_channel
-=
-index_channel
-or
-channel
-        
+if
+publish_to_index
+:
+            
 staging_prefix
 =
 '
@@ -3159,11 +3157,11 @@ is_staging
 else
 '
 '
-        
+            
 routes
 =
 [
-            
+                
 "
 index
 .
@@ -3194,9 +3192,9 @@ latest
 .
 format
 (
-                
+                    
 staging_prefix
-index_channel
+channel
 self
 .
 date
@@ -3212,9 +3210,9 @@ self
 date
 .
 day
-            
+                
 )
-            
+                
 "
 index
 .
@@ -3248,9 +3246,9 @@ revision
 .
 format
 (
-                
+                    
 staging_prefix
-index_channel
+channel
 self
 .
 date
@@ -3269,9 +3267,9 @@ day
 self
 .
 commit
-            
+                
 )
-            
+                
 "
 index
 .
@@ -3294,9 +3292,17 @@ latest
 format
 (
 staging_prefix
-index_channel
+channel
 )
+            
+]
         
+else
+:
+            
+routes
+=
+[
 ]
         
 capitalized_channel
