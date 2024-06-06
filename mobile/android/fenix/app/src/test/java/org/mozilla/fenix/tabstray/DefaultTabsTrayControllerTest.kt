@@ -856,9 +856,6 @@ testDispatcher
 coroutinesTestRule
 .
 testDispatcher
-get
-:
-Rule
 val
 gleanTestRule
 =
@@ -878,12 +875,12 @@ RuleChain
 .
 outerRule
 (
-coroutinesTestRule
+gleanTestRule
 )
 .
 around
 (
-gleanTestRule
+coroutinesTestRule
 )
 Before
 fun

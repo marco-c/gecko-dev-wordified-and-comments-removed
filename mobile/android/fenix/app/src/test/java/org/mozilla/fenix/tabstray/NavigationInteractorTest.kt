@@ -439,12 +439,12 @@ RuleChain
 .
 outerRule
 (
-coroutinesTestRule
+gleanTestRule
 )
 .
 around
 (
-gleanTestRule
+coroutinesTestRule
 )
 Before
 fun
