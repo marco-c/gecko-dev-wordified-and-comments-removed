@@ -61,7 +61,7 @@ mozilla
 .
 fenix
 .
-search
+components
 .
 toolbar
 import

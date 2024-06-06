@@ -375,7 +375,7 @@ mozilla
 .
 fenix
 .
-search
+components
 .
 toolbar
 .
@@ -387,7 +387,7 @@ mozilla
 .
 fenix
 .
-search
+components
 .
 toolbar
 .
@@ -399,7 +399,7 @@ mozilla
 .
 fenix
 .
-search
+components
 .
 toolbar
 .
@@ -411,7 +411,7 @@ mozilla
 .
 fenix
 .
-search
+components
 .
 toolbar
 .
@@ -423,7 +423,7 @@ mozilla
 .
 fenix
 .
-search
+components
 .
 toolbar
 .
@@ -435,7 +435,7 @@ mozilla
 .
 fenix
 .
-search
+components
 .
 toolbar
 .
