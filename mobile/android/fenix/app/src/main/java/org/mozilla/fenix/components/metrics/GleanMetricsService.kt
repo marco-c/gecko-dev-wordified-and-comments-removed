@@ -3708,7 +3708,14 @@ Glean
 .
 initialize
 (
+applicationContext
+=
 context
+uploadEnabled
+=
+true
+configuration
+=
 Configuration
 (
 channel
