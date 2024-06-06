@@ -637,6 +637,12 @@ string
 preference_autocomplete_add_confirmation
 0
 )
+Suppress
+(
+"
+DEPRECATION
+"
+)
 fragmentManager
 ?
 .
