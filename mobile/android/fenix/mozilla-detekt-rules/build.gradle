@@ -90,3 +90,9 @@ Deps
 .
 junitEngine
 }
+test
+{
+useJUnitPlatform
+{
+}
+}
