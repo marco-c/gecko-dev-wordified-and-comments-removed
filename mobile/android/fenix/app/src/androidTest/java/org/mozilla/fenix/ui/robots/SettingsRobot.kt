@@ -1086,7 +1086,9 @@ TestHelper
 scrollToElementByText
 (
 "
-Passwords
+Logins
+and
+passwords
 "
 )
 onView
@@ -1096,7 +1098,9 @@ ViewMatchers
 withText
 (
 "
-Passwords
+Logins
+and
+passwords
 "
 )
 )

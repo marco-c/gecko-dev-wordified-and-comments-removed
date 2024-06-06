@@ -935,6 +935,9 @@ xml
 preferences
 rootKey
 )
+updatePreferenceVisibilityForFeatureFlags
+(
+)
 }
 override
 fun
@@ -1211,9 +1214,6 @@ accountManager
 accountProfile
 (
 )
-)
-updatePreferenceVisibilityForFeatureFlags
-(
 )
 }
 private
