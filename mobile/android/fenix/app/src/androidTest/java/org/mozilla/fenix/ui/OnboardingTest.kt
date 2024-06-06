@@ -523,7 +523,7 @@ toolbarTapDoesntDismissOnboardingTest
 {
 homeScreen
 {
-verifyWelcomeHeader
+verifyStartBrowsingButton
 (
 )
 }
@@ -543,7 +543,7 @@ verifyKeyboardVisibility
 .
 dismissSearchBar
 {
-verifyWelcomeHeader
+verifyStartBrowsingButton
 (
 )
 }
