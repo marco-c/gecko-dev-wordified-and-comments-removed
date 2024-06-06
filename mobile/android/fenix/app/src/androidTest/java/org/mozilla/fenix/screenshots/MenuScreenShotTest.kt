@@ -1299,7 +1299,7 @@ R
 .
 string
 .
-preferences_theme
+preferences_customize
 )
 )
 .

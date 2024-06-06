@@ -333,7 +333,7 @@ verifyBasicsHeading
 (
 )
 =
-assertBasicsHeading
+assertGeneralHeading
 (
 )
 fun
@@ -349,7 +349,7 @@ verifyThemeButton
 (
 )
 =
-assertThemeButton
+assertCustomizeButton
 (
 )
 fun
@@ -1046,7 +1046,7 @@ the
 correct
 library
 view
-assertBasicsHeading
+assertGeneralHeading
 (
 )
 assertPrivacyHeading
@@ -1061,11 +1061,11 @@ assertAboutHeading
 }
 /
 /
-BASICS
+GENERAL
 SECTION
 private
 fun
-assertBasicsHeading
+assertGeneralHeading
 (
 )
 =
@@ -1076,7 +1076,7 @@ ViewMatchers
 withText
 (
 "
-Basics
+General
 "
 )
 )
@@ -1145,7 +1145,7 @@ VISIBLE
 }
 private
 fun
-assertThemeButton
+assertCustomizeButton
 (
 )
 =
@@ -1156,7 +1156,7 @@ ViewMatchers
 withText
 (
 "
-Theme
+Customize
 "
 )
 )
@@ -1284,6 +1284,8 @@ withText
 (
 "
 Privacy
+and
+security
 "
 )
 )
