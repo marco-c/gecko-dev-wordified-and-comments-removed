@@ -369,13 +369,9 @@ R
 .
 string
 .
-verified_by
-)
-+
-"
-"
-+
+certificate_info_verified_by
 cert
+)
 view
 .
 certificateInfo
