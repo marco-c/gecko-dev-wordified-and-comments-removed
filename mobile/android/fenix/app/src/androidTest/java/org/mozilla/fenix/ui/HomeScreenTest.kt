@@ -378,6 +378,8 @@ What
 '
 s
 new
+/
+/
 scrollToElementByText
 (
 "
@@ -387,9 +389,13 @@ s
 new
 "
 )
+/
+/
 verifyWhatsNewHeader
 (
 )
+/
+/
 verifyWhatsNewLink
 (
 )
