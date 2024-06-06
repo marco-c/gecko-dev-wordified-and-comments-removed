@@ -277,6 +277,13 @@ openThreeDotMenu
 openSettings
 {
 }
+.
+openPrivateBrowsingSubMenu
+{
+clickPrivateModeScreenshotsSwitch
+(
+)
+}
 /
 /
 To
@@ -292,6 +299,11 @@ to
 settings
 and
 back
+mDevice
+.
+pressBack
+(
+)
 mDevice
 .
 pressBack
