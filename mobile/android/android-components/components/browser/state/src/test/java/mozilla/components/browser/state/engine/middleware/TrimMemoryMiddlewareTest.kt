@@ -1364,11 +1364,11 @@ engineState
 .
 apply
 {
-assertNotNull
+assertNull
 (
 engineSession
 )
-assertNotNull
+assertNull
 (
 engineObserver
 )
@@ -1425,10 +1425,7 @@ close
 )
 verify
 (
-engineSessionReddit
-never
-(
-)
+engineSessionTwitch
 )
 .
 close
@@ -1436,7 +1433,7 @@ close
 )
 verify
 (
-engineSessionTwitch
+engineSessionReddit
 never
 (
 )

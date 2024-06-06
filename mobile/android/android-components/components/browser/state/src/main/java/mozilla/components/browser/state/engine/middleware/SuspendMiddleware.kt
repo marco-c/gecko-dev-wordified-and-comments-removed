@@ -115,7 +115,7 @@ state
 .
 selector
 .
-findTab
+findTabOrCustomTab
 import
 mozilla
 .
@@ -366,7 +366,7 @@ context
 .
 state
 .
-findTab
+findTabOrCustomTab
 (
 sessionId
 )
