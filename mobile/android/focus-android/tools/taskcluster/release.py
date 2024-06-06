@@ -437,14 +437,6 @@ artifacts
 =
 artifacts
         
-worker_type
-=
-'
-gecko
--
-focus
-'
-        
 scopes
 =
 [

@@ -135,9 +135,9 @@ workerType
 "
 :
 "
-github
+b
 -
-worker
+linux
 "
 	    
 "
@@ -194,9 +194,11 @@ schedulerId
 "
 :
 "
-taskcluster
+mobile
 -
-github
+level
+-
+1
 "
 	    
 "
@@ -432,11 +434,9 @@ provisionerId
 "
 :
 "
-aws
+mobile
 -
-provisioner
--
-v1
+1
 "
 		
 "

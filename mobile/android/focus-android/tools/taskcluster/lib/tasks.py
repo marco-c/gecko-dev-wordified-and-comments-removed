@@ -96,13 +96,6 @@ features
 =
 {
 }
-worker_type
-=
-'
-github
--
-worker
-'
 )
 :
         
@@ -170,7 +163,11 @@ return
 workerType
 "
 :
-worker_type
+"
+b
+-
+linux
+"
             
 "
 taskGroupId
@@ -362,11 +359,9 @@ provisionerId
 "
 :
 "
-aws
+mobile
 -
-provisioner
--
-v1
+3
 "
             
 "
