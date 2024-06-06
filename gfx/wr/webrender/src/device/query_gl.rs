@@ -1808,6 +1808,13 @@ pub
 struct
 GpuTimeQuery
 (
+#
+[
+allow
+(
+dead_code
+)
+]
 GpuMarker
 )
 ;

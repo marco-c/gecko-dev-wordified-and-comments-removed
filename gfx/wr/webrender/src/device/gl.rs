@@ -4402,6 +4402,13 @@ pub
 struct
 UniformLocation
 (
+#
+[
+allow
+(
+dead_code
+)
+]
 gl
 :
 :
