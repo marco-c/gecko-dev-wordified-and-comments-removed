@@ -1214,6 +1214,7 @@ browsingModeManager
 .
 unregisterBrowsingModeListener
 (
+browsingModeListener
 )
 }
 final
