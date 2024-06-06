@@ -1685,11 +1685,9 @@ ONE_MONTH_MS
 else
 -
 >
-System
+Long
 .
-currentTimeMillis
-(
-)
+MAX_VALUE
 }
 enum
 class
