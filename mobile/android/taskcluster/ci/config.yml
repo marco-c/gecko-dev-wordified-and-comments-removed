@@ -1349,6 +1349,8 @@ parameters
 :
 '
 android_taskgraph
+.
+parameters
 :
 get_decision_parameters
 '
