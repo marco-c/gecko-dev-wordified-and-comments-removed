@@ -111,6 +111,12 @@ class
 HistogramTest
 {
 Test
+Suppress
+(
+"
+Deprecation
+"
+)
 fun
 testAddLoadToHistogram
 (

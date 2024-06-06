@@ -950,7 +950,7 @@ service
 -
 telemetry
 :
-mozilla_components_version
+mozilla_components_version_telemetry
 "
 implementation
 "
