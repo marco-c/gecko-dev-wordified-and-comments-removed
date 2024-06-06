@@ -1373,6 +1373,10 @@ qosa
 almays
 z
 .
+<
+/
+label
+>
 ]
 ]
 >
@@ -4652,6 +4656,9 @@ mozac_browser_errorpages_safe_browsing_malware_uri_message
 [
 CDATA
 [
+<
+p
+>
 %
 1
 s
@@ -4687,6 +4694,10 @@ nda
 bloklan
 an
 .
+<
+/
+p
+>
 ]
 ]
 >
