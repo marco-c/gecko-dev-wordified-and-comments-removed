@@ -135,6 +135,18 @@ compose
 .
 ui
 .
+tooling
+.
+preview
+.
+Preview
+import
+androidx
+.
+compose
+.
+ui
+.
 unit
 .
 sp
@@ -267,6 +279,7 @@ textPrimary
 )
 }
 Composable
+Preview
 private
 fun
 TabTitlePreview

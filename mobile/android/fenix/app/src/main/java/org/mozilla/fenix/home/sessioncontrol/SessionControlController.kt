@@ -1200,15 +1200,6 @@ showTabTray
 -
 >
 Unit
-private
-val
-handleSwipedItemDeletionCancel
-:
-(
-)
--
->
-Unit
 )
 :
 SessionControlController

@@ -544,17 +544,6 @@ syncDisconnectedBackground
 )
 private
 val
-shouldUseBottomToolbar
-=
-context
-.
-settings
-(
-)
-.
-shouldUseBottomToolbar
-private
-val
 accountManager
 =
 FenixAccountManager
