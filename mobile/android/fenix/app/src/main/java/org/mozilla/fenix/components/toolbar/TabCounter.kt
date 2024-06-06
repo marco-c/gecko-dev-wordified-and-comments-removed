@@ -345,6 +345,10 @@ MAX_VISIBLE_TABS
 INTERNAL_COUNT
 =
 count
+updateContentDescription
+(
+count
+)
 return
 }
 /
