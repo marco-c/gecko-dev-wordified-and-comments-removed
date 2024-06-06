@@ -3300,6 +3300,10 @@ debugImplementation
 Deps
 .
 soLoader
+releaseImplementation
+Deps
+.
+flipper_noop
 }
 if
 (
