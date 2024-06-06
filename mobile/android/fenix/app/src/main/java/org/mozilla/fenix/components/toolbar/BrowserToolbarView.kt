@@ -943,6 +943,9 @@ separatorColor
 trackingProtection
 =
 primaryTextColor
+permissionHighlights
+=
+primaryTextColor
 )
 display
 .
