@@ -247,6 +247,7 @@ Reducer
 .
 *
 /
+private
 fun
 exceptionsStateReducer
 (

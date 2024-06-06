@@ -438,6 +438,7 @@ Reducer
 .
 *
 /
+private
 fun
 searchStateReducer
 (

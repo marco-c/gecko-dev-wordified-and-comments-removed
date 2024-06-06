@@ -337,6 +337,7 @@ bookmarks
 state
 *
 /
+private
 fun
 bookmarkFragmentStateReducer
 (

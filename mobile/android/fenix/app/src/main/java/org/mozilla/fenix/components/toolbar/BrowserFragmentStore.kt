@@ -370,6 +370,7 @@ child
 *
 *
 /
+private
 fun
 browserStateReducer
 (
