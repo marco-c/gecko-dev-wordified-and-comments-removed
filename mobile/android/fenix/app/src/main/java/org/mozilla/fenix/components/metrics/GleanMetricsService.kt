@@ -4987,6 +4987,13 @@ AddonInstalled
 -
 >
 null
+is
+Event
+.
+SearchWidgetInstalled
+-
+>
+null
 }
 class
 GleanMetricsService

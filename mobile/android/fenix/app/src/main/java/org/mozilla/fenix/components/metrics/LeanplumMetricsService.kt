@@ -343,6 +343,15 @@ AddonInstalled
 "
 E_Addon_Installed
 "
+is
+Event
+.
+SearchWidgetInstalled
+-
+>
+"
+E_Search_Widget_Added
+"
 /
 /
 Do

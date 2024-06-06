@@ -1279,6 +1279,12 @@ Event
 (
 )
 object
+SearchWidgetInstalled
+:
+Event
+(
+)
+object
 OnboardingAutoSignIn
 :
 Event
