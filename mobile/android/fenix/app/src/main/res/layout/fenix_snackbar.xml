@@ -419,12 +419,9 @@ android
 background
 =
 "
-?
-android
-:
-attr
+drawable
 /
-selectableItemBackgroundBorderless
+ripple_button_dark
 "
 android
 :
