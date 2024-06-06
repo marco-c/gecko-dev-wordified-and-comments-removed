@@ -93,6 +93,14 @@ SYS_COLOR_MIN
 +
 1
 )
+#
+define
+MOZ_SPI_CURSORSIZE
+0x2028
+#
+define
+MOZ_SPI_SETCURSORSIZE
+0x2029
 namespace
 mozilla
 :
