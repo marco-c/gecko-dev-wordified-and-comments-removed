@@ -284,7 +284,7 @@ textColor
 "
 color
 /
-neutral_text
+fx_mobile_text_color_oncolor_primary
 "
 android
 :
@@ -309,7 +309,7 @@ drawableTint
 "
 color
 /
-neutral_text
+fx_mobile_icon_color_oncolor
 "
 app
 :
@@ -465,7 +465,7 @@ textColor
 "
 color
 /
-neutral_text
+fx_mobile_text_color_oncolor_primary
 "
 android
 :
