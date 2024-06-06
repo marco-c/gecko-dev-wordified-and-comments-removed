@@ -3282,7 +3282,6 @@ name
 search_scan_button
 "
 >
-C
 <
 /
 string
@@ -5421,7 +5420,6 @@ name
 errorpage_httpsonly_message_title
 "
 >
--
 HTTPS
 .
 <
@@ -5476,7 +5474,6 @@ errorpage_httpsonly_message_summary
 "
 >
 .
--
 -
 .
 HTTPS
@@ -6214,7 +6211,6 @@ name
 preferences_enable_autocomplete_urls
 "
 >
-URL
 <
 /
 string
@@ -6476,7 +6472,6 @@ customize_addon_collection_user_hint
 "
 >
 (
-ID
 )
 <
 /
@@ -8437,7 +8432,6 @@ pair_instructions_2
 [
 CDATA
 [
-QR
 -
 <
 b
@@ -12707,7 +12701,6 @@ name
 bookmark_url_label
 "
 >
-URL
 <
 /
 string
@@ -12854,7 +12847,6 @@ name
 bookmark_invalid_url_error
 "
 >
-URL
 <
 /
 string
@@ -13585,7 +13577,6 @@ name
 preference_phone_feature_media_key_system_access
 "
 >
-DRM
 <
 /
 string
@@ -16333,7 +16324,6 @@ name
 qr_scanner_dialog_invalid
 "
 >
--
 .
 <
 /
@@ -16588,7 +16578,6 @@ name
 url_copied
 "
 >
-URL
 <
 /
 string
@@ -16751,7 +16740,6 @@ name
 preferences_delete_browsing_data
 "
 >
--
 <
 /
 string
@@ -16851,7 +16839,6 @@ name
 preferences_delete_browsing_data_browsing_data_title
 "
 >
--
 <
 /
 string
@@ -17100,7 +17087,6 @@ name
 preferences_delete_browsing_data_button
 "
 >
--
 <
 /
 string
@@ -17129,7 +17115,6 @@ name
 preferences_delete_browsing_data_on_quit
 "
 >
--
 <
 /
 string
@@ -17168,7 +17153,6 @@ name
 preference_summary_delete_browsing_data_on_quit_2
 "
 >
--
 \
 &
 quot
@@ -17411,7 +17395,6 @@ delete_browsing_data_prompt_message_3
 >
 %
 s
--
 .
 <
 /
@@ -17500,7 +17483,6 @@ name
 preferences_delete_browsing_data_snackbar
 "
 >
--
 <
 /
 string
@@ -17537,7 +17519,6 @@ name
 deleting_browsing_data_in_progress
 "
 >
--
 <
 /
 string
@@ -18288,6 +18269,7 @@ name
 onboarding_tracking_protection_standard_button_description_3
 "
 >
+:
 .
 .
 <
@@ -18690,7 +18672,6 @@ name
 onboarding_finish
 "
 >
--
 <
 /
 string
@@ -19013,7 +18994,6 @@ name
 sync_scan_code
 "
 >
-QR
 -
 <
 /
@@ -19092,7 +19072,6 @@ name
 sign_in_ready_for_scan
 "
 >
-QR
 -
 <
 /
@@ -19588,6 +19567,7 @@ name
 preference_enhanced_tracking_protection_standard_description_4
 "
 >
+:
 .
 .
 <
@@ -19936,7 +19916,6 @@ preference_enhanced_tracking_protection_custom_cookies_3
 "
 >
 (
--
 )
 <
 /
@@ -19970,7 +19949,6 @@ preference_enhanced_tracking_protection_custom_cookies_4
 "
 >
 (
--
 )
 <
 /
@@ -20659,7 +20637,6 @@ etp_tracking_content_description
 "
 >
 .
--
 .
 <
 /
@@ -20755,7 +20732,6 @@ name
 enhanced_tracking_protection_exceptions
 "
 >
--
 <
 /
 string
@@ -20930,7 +20906,6 @@ name
 etp_redirect_trackers_description
 "
 >
--
 .
 <
 /
@@ -21388,7 +21363,6 @@ name
 browser_toolbar_url_copied_to_clipboard_snackbar
 "
 >
-URL
 <
 /
 string
@@ -21505,7 +21479,6 @@ name
 add_to_homescreen_continue
 "
 >
--
 <
 /
 string
@@ -21561,7 +21534,6 @@ name
 add_to_homescreen_description_2
 "
 >
--
 .
 <
 /
@@ -22709,7 +22681,6 @@ name
 logins_warning_dialog_message
 "
 >
-PIN
 -
 -
 .
@@ -23999,7 +23970,6 @@ name
 credit_cards_warning_dialog_message
 "
 >
-PIN
 -
 -
 .
@@ -26635,7 +26605,6 @@ name
 add_login_hostname_invalid_text_3
 "
 >
--
 &
 quot
 ;
@@ -27118,7 +27087,6 @@ name
 top_sites_max_limit_confirmation_button
 "
 >
-OK
 <
 /
 string
@@ -27726,7 +27694,6 @@ name
 default_browser_experiment_card_text
 "
 >
--
 Firefox
 .
 <
@@ -28416,6 +28383,50 @@ name
 =
 "
 a11y_action_label_wallpaper_collection_learn_more
+"
+>
+<
+/
+string
+>
+<
+!
+-
+-
+Action
+label
+for
+links
+that
+point
+to
+an
+article
+.
+Talkback
+will
+append
+this
+to
+say
+"
+Double
+tap
+to
+read
+the
+article
+"
+.
+-
+-
+>
+<
+string
+name
+=
+"
+a11y_action_label_read_article
 "
 >
 <
