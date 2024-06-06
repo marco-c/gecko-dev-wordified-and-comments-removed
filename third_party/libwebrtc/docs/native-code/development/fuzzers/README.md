@@ -213,6 +213,8 @@ gn
 ]
 [
 BUILD
+.
+gn
 ]
 use
 existing

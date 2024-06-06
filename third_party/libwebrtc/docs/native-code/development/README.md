@@ -2168,7 +2168,7 @@ heads
 [
 fuzzers
 -
-test
+dir
 ]
 :
 https
