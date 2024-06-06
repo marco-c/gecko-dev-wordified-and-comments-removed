@@ -432,7 +432,7 @@ WhatsNewStorage
 .
 PREFERENCE_KEY_APP_NAME
 "
-2
+0
 .
 0
 "
@@ -545,7 +545,7 @@ WhatsNewStorage
 .
 PREFERENCE_KEY_APP_NAME
 "
-2
+0
 .
 0
 "
