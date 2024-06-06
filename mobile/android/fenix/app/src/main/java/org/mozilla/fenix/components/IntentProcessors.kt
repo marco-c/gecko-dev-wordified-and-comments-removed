@@ -460,6 +460,7 @@ loadUrl
 )
 FennecWebAppIntentProcessor
 (
+context
 sessionManager
 sessionUseCases
 .
