@@ -180,6 +180,27 @@ import
 generator
     
 from
+taskgraph
+.
+optimize
+.
+base
+import
+registry
+    
+del
+registry
+[
+"
+skip
+-
+unless
+-
+changed
+"
+]
+    
+from
 gecko_taskgraph
 import
 (

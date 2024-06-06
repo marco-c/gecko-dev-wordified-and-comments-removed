@@ -502,6 +502,16 @@ decision
 _determine_more_accurate_base_rev
 "
 )
+patch
+(
+"
+gecko_taskgraph
+.
+decision
+.
+get_changed_files
+"
+)
 pytest
 .
 mark
@@ -545,6 +555,25 @@ build_date
 "
 :
 1503691511
+                
+"
+files_changed
+"
+:
+[
+"
+bar
+/
+baz
+.
+md
+"
+"
+foo
+.
+txt
+"
+]
                 
 "
 hg_branch
@@ -917,6 +946,8 @@ def
 test_get_decision_parameters
 (
     
+mock_get_changed_files
+    
 mock_determine_more_accurate_base_rev
     
 mock_get_hg_commit_message
@@ -961,6 +992,25 @@ return_value
 "
 baserev
 "
+    
+mock_get_changed_files
+.
+return_value
+=
+[
+"
+foo
+.
+txt
+"
+"
+bar
+/
+baz
+.
+md
+"
+]
     
 options
 .
