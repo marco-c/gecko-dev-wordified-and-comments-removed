@@ -4393,9 +4393,6 @@ name
 toast_customize_addon_collection_done
 "
 >
-.
-.
-.
 <
 /
 string
@@ -18395,16 +18392,6 @@ string
 !
 -
 -
-Credit
-Cards
-Autofill
--
--
->
-<
-!
--
--
 Preference
 and
 title
@@ -20104,9 +20091,6 @@ UnusedResources
 >
 %
 s
-.
-.
-.
 <
 /
 string

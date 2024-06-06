@@ -14896,9 +14896,6 @@ name
 sync_add_new_device_learn_button
 "
 >
-.
-.
-.
 <
 /
 string
@@ -14926,9 +14923,6 @@ name
 sync_add_new_device_connect_button
 "
 >
-.
-.
-.
 <
 /
 string
@@ -22061,16 +22055,6 @@ saved_logins_menu_dropdown_chevron_icon_content_description
 <
 /
 string
->
-<
-!
--
--
-Credit
-Cards
-Autofill
--
--
 >
 <
 !
