@@ -2385,6 +2385,10 @@ sessionId
 isPrivate
 =
 isPrivate
+onShoppingCfrActionClicked
+=
+{
+}
 shoppingExperienceFeature
 =
 shoppingExperienceFeature

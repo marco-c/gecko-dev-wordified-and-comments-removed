@@ -454,6 +454,12 @@ invalidateActions
 )
 }
 }
+Suppress
+(
+"
+LongParameterList
+"
+)
 class
 DefaultToolbarIntegration
 (
@@ -544,6 +550,12 @@ isPrivate
 sessionId
 =
 sessionId
+onShoppingCfrActionClicked
+=
+interactor
+:
+:
+onShoppingCfrActionClicked
 )
 init
 {
