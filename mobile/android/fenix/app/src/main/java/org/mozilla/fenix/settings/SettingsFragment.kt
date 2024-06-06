@@ -2119,6 +2119,9 @@ onAuthenticated
 account
 :
 OAuthAccount
+newAccount
+:
+Boolean
 )
 {
 lifecycleScope

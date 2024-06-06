@@ -4333,6 +4333,9 @@ onAuthenticated
 account
 :
 OAuthAccount
+newAccount
+:
+Boolean
 )
 {
 view
