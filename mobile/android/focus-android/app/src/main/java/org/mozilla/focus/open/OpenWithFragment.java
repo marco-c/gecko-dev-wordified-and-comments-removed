@@ -805,11 +805,16 @@ ARGUMENT_URL
 ;
 intent
 .
-setPackage
+setClassName
 (
 app
 .
 getPackageName
+(
+)
+app
+.
+getActivityName
 (
 )
 )
