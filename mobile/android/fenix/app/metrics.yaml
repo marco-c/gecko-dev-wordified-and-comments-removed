@@ -13944,6 +13944,10 @@ send_in_pings
 :
 -
 metrics
+-
+topsites
+-
+impression
 bugs
 :
 -
@@ -13988,6 +13992,9 @@ data_sensitivity
 :
 -
 interaction
+lifetime
+:
+application
 notification_emails
 :
 -
