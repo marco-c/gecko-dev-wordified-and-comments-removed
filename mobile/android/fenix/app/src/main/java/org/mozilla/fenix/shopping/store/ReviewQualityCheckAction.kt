@@ -399,6 +399,7 @@ object
 FetchProductAnalysis
 :
 NetworkAction
+UpdateAction
 /
 *
 *
@@ -422,6 +423,7 @@ object
 RetryProductAnalysis
 :
 NetworkAction
+UpdateAction
 /
 *
 *

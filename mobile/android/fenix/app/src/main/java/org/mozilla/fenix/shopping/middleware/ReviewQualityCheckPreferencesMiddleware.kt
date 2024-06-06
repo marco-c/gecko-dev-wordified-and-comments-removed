@@ -217,6 +217,10 @@ action
 ReviewQualityCheckAction
 )
 {
+next
+(
+action
+)
 when
 (
 action
@@ -248,15 +252,6 @@ no
 op
 }
 }
-/
-/
-Forward
-the
-actions
-next
-(
-action
-)
 }
 private
 fun
