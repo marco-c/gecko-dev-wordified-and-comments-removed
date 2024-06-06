@@ -1802,9 +1802,9 @@ normally
 .
 components
 .
-analytics
+nimbus
 .
-experiments
+sdk
 .
 initializeTooling
 (
@@ -2488,9 +2488,9 @@ behavioral
 targeting
 components
 .
-analytics
+nimbus
 .
-experiments
+events
 .
 recordEvent
 (
@@ -7920,7 +7920,7 @@ context
 .
 components
 .
-analytics
+nimbus
 .
 messagingStorage
 val

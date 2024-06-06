@@ -3177,9 +3177,9 @@ IO
 {
 components
 .
-analytics
+nimbus
 .
-experiments
+sdk
 .
 maybeFetchExperiments
 (
@@ -3547,9 +3547,9 @@ nimbus
 =
 components
 .
-analytics
+nimbus
 .
-experiments
+sdk
 /
 /
 which

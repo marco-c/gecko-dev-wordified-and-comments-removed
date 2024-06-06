@@ -314,9 +314,9 @@ appContext
 .
 components
 .
-analytics
+nimbus
 .
-experiments
+sdk
 feature
 =
 FxNimbusMessaging

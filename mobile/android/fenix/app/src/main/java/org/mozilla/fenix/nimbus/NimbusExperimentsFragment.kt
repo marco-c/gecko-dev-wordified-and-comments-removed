@@ -248,9 +248,9 @@ requireContext
 .
 components
 .
-analytics
+nimbus
 .
-experiments
+sdk
 .
 getAvailableExperiments
 (

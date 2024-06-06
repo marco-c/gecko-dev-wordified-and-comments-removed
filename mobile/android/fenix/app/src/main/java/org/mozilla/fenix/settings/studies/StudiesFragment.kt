@@ -218,9 +218,9 @@ experiments
 =
 requireComponents
 .
-analytics
+nimbus
 .
-experiments
+sdk
 _binding
 =
 SettingsStudiesBinding

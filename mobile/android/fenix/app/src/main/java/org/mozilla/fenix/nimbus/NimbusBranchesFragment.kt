@@ -357,9 +357,9 @@ requireContext
 .
 components
 .
-analytics
+nimbus
 .
-experiments
+sdk
 experimentId
 =
 args
@@ -461,9 +461,9 @@ requireContext
 .
 components
 .
-analytics
+nimbus
 .
-experiments
+sdk
 val
 branches
 =

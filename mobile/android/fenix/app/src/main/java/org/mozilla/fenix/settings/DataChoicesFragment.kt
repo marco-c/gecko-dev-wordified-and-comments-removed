@@ -338,9 +338,9 @@ context
 .
 components
 .
-analytics
+nimbus
 .
-experiments
+sdk
 .
 resetTelemetryIdentifiers
 (

@@ -2450,7 +2450,7 @@ FenixNimbusMessagingController
 (
 components
 .
-analytics
+nimbus
 .
 messagingStorage
 )

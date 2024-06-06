@@ -1016,6 +1016,16 @@ queue
 )
 }
 val
+nimbus
+by
+lazyMonitored
+{
+NimbusComponents
+(
+context
+)
+}
+val
 publicSuffixList
 by
 lazyMonitored
@@ -1371,7 +1381,7 @@ MessagingMiddleware
 (
 messagingStorage
 =
-analytics
+nimbus
 .
 messagingStorage
 )

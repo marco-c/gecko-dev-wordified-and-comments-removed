@@ -1504,9 +1504,9 @@ context
 .
 components
 .
-analytics
+nimbus
 .
-experiments
+events
 .
 recordEvent
 (

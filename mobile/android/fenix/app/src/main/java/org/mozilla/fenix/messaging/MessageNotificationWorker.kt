@@ -351,7 +351,7 @@ context
 .
 components
 .
-analytics
+nimbus
 .
 messagingStorage
 val
@@ -935,7 +935,7 @@ applicationContext
 .
 components
 .
-analytics
+nimbus
 .
 messagingStorage
 )
@@ -1084,7 +1084,7 @@ FenixNimbusMessagingController
 (
 components
 .
-analytics
+nimbus
 .
 messagingStorage
 )
