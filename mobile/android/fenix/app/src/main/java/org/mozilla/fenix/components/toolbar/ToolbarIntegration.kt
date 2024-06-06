@@ -262,8 +262,6 @@ tabsAction
 TabCounterToolbarButton
 (
 sessionManager
-showTabs
-=
 {
 Navigation
 .
@@ -281,6 +279,7 @@ actionBrowserFragmentToHomeFragment
 )
 )
 }
+isPrivate
 )
 toolbar
 .
