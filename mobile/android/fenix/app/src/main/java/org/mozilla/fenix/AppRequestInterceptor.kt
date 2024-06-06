@@ -187,6 +187,9 @@ Boolean
 isRedirect
 :
 Boolean
+isDirectNavigation
+:
+Boolean
 )
 :
 RequestInterceptor
@@ -210,6 +213,7 @@ uri
 hasUserGesture
 isSameDomain
 isRedirect
+isDirectNavigation
 )
 }
 override
