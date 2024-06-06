@@ -193,14 +193,6 @@ mozilla
 .
 fenix
 .
-FeatureFlags
-import
-org
-.
-mozilla
-.
-fenix
-.
 HomeActivity
 import
 org
@@ -723,11 +715,6 @@ it
 .
 if
 (
-FeatureFlags
-.
-showHomeBehindSearch
-&
-&
 currentSession
 ?
 .
