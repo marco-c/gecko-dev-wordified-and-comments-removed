@@ -742,10 +742,9 @@ AppState
 (
 screen
 =
-determineInitialScreen
-(
-context
-)
+Screen
+.
+Home
 topSites
 =
 emptyList
