@@ -611,7 +611,7 @@ flank
 /
 releases
 /
-latest
+48276753
 '
 |
 jq
