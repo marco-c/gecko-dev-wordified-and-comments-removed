@@ -231,7 +231,7 @@ R
 .
 drawable
 .
-mozac_ic_shield
+mozac_ic_shield_24
 )
 val
 switchTitle
