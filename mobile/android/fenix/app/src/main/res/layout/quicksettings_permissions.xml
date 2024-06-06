@@ -292,9 +292,9 @@ dimen
 /
 quicksettings_item_height
 "
-android
+app
 :
-drawableStart
+drawableStartCompat
 =
 "
 drawable
@@ -475,9 +475,9 @@ dimen
 /
 quicksettings_item_height
 "
-android
+app
 :
-drawableStart
+drawableStartCompat
 =
 "
 drawable
@@ -656,9 +656,9 @@ dimen
 /
 quicksettings_item_height
 "
-android
+app
 :
-drawableStart
+drawableStartCompat
 =
 "
 drawable
@@ -835,9 +835,9 @@ dimen
 /
 quicksettings_item_height
 "
-android
+app
 :
-drawableStart
+drawableStartCompat
 =
 "
 drawable

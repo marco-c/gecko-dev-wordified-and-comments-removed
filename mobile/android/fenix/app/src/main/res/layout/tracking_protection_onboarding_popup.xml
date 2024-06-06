@@ -249,9 +249,9 @@ focusable
 "
 true
 "
-android
+app
 :
-src
+srcCompat
 =
 "
 drawable
@@ -443,9 +443,9 @@ rotation
 "
 180
 "
-android
+app
 :
-src
+srcCompat
 =
 "
 drawable

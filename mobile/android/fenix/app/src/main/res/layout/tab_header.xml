@@ -283,9 +283,9 @@ string
 /
 tabs_menu_share_tabs
 "
-android
+app
 :
-src
+srcCompat
 =
 "
 drawable
@@ -365,9 +365,9 @@ string
 /
 tabs_menu_close_all_tabs
 "
-android
+app
 :
-src
+srcCompat
 =
 "
 drawable
@@ -455,9 +455,9 @@ string
 /
 open_tabs_menu
 "
-android
+app
 :
-src
+srcCompat
 =
 "
 drawable

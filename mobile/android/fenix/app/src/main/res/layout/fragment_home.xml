@@ -280,9 +280,9 @@ string
 /
 content_description_private_browsing_button
 "
-android
+app
 :
-src
+srcCompat
 =
 "
 drawable
@@ -399,9 +399,9 @@ importantForAccessibility
 "
 no
 "
-android
+app
 :
-src
+srcCompat
 =
 "
 ?
@@ -949,9 +949,9 @@ string
 /
 add_tab
 "
-android
+app
 :
-src
+srcCompat
 =
 "
 drawable
@@ -1040,9 +1040,9 @@ string
 /
 content_description_menu
 "
-android
+app
 :
-src
+srcCompat
 =
 "
 drawable

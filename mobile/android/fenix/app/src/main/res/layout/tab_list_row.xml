@@ -385,9 +385,9 @@ attr
 /
 selectableItemBackgroundBorderless
 "
-android
+app
 :
-src
+srcCompat
 =
 "
 drawable
@@ -676,9 +676,9 @@ alpha
 .
 8
 "
-android
+app
 :
-src
+srcCompat
 =
 "
 drawable

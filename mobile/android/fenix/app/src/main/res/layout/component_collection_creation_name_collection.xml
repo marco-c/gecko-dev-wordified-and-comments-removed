@@ -222,9 +222,9 @@ attr
 /
 selectableItemBackgroundBorderless
 "
-android
+app
 :
-drawableStart
+drawableStartCompat
 =
 "
 drawable
@@ -984,9 +984,9 @@ string
 /
 create_collection_close
 "
-android
+app
 :
-src
+srcCompat
 =
 "
 drawable

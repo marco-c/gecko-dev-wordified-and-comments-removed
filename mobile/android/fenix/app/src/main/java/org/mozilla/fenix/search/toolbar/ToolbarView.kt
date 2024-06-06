@@ -105,6 +105,16 @@ LayoutRes
 import
 androidx
 .
+appcompat
+.
+content
+.
+res
+.
+AppCompatResources
+import
+androidx
+.
 coordinatorlayout
 .
 widget
@@ -692,7 +702,7 @@ edit
 .
 setUrlBackground
 (
-ContextCompat
+AppCompatResources
 .
 getDrawable
 (

@@ -255,9 +255,9 @@ importantForAccessibility
 "
 no
 "
-android
+app
 :
-src
+srcCompat
 =
 "
 drawable
@@ -546,9 +546,9 @@ string
 /
 close_tab
 "
-android
+app
 :
-src
+srcCompat
 =
 "
 drawable

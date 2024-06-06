@@ -91,11 +91,13 @@ Drawable
 import
 androidx
 .
-core
+appcompat
 .
 content
 .
-ContextCompat
+res
+.
+AppCompatResources
 import
 androidx
 .
@@ -321,7 +323,7 @@ isCurrentlyActive
 val
 icon
 =
-ContextCompat
+AppCompatResources
 .
 getDrawable
 (
@@ -398,7 +400,7 @@ session_background
 val
 background
 =
-ContextCompat
+AppCompatResources
 .
 getDrawable
 (

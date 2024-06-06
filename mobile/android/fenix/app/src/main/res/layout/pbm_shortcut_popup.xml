@@ -181,9 +181,9 @@ importantForAccessibility
 "
 no
 "
-android
+app
 :
-src
+srcCompat
 =
 "
 drawable

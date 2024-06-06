@@ -234,9 +234,9 @@ string
 /
 app_name
 "
-android
+app
 :
-src
+srcCompat
 =
 "
 ?

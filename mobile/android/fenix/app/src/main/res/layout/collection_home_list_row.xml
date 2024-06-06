@@ -273,9 +273,9 @@ importantForAccessibility
 "
 no
 "
-android
+app
 :
-src
+srcCompat
 =
 "
 drawable
@@ -706,9 +706,9 @@ string
 /
 share_button_content_description
 "
-android
+app
 :
-src
+srcCompat
 =
 "
 drawable
@@ -791,9 +791,9 @@ string
 /
 collection_menu_button_content_description
 "
-android
+app
 :
-src
+srcCompat
 =
 "
 drawable

@@ -446,9 +446,9 @@ dimen
 /
 library_item_icon_margin_horizontal
 "
-android
+app
 :
-drawableStart
+drawableStartCompat
 =
 "
 drawable

@@ -191,9 +191,9 @@ layout_marginTop
 "
 12dp
 "
-android
+app
 :
-drawableStart
+drawableStartCompat
 =
 "
 drawable

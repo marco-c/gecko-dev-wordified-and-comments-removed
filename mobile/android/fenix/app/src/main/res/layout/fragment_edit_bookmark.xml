@@ -674,9 +674,9 @@ layout_marginTop
 "
 8dp
 "
-android
+app
 :
-drawableStart
+drawableStartCompat
 =
 "
 drawable

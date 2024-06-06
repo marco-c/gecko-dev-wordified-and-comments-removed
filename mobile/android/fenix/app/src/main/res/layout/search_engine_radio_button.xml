@@ -449,9 +449,9 @@ string
 /
 content_description_menu
 "
-android
+app
 :
-src
+srcCompat
 =
 "
 drawable

@@ -214,9 +214,9 @@ layout_height
 "
 24dp
 "
-android
+app
 :
-src
+srcCompat
 =
 "
 drawable

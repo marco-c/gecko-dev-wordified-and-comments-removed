@@ -637,9 +637,9 @@ tint
 ?
 primaryText
 "
-android
+app
 :
-src
+srcCompat
 =
 "
 drawable
@@ -1258,9 +1258,9 @@ dimen
 /
 search_fragment_scan_button_margin_end
 "
-android
+app
 :
-drawableStart
+drawableStartCompat
 =
 "
 drawable
@@ -1306,9 +1306,9 @@ style
 /
 search_pill
 "
-android
+app
 :
-drawableStart
+drawableStartCompat
 =
 "
 drawable
