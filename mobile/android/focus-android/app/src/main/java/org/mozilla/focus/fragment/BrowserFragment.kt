@@ -677,6 +677,16 @@ mozilla
 .
 focus
 .
+ext
+.
+titleOrDomain
+import
+org
+.
+mozilla
+.
+focus
+.
 menu
 .
 browser
@@ -2954,7 +2964,7 @@ tab
 .
 content
 .
-title
+titleOrDomain
 tab
 .
 trackingProtection
