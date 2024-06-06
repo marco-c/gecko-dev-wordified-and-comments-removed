@@ -303,6 +303,11 @@ init
 {
 behavior
 .
+skipCollapsed
+=
+true
+behavior
+.
 addBottomSheetCallback
 (
 TraySheetBehaviorCallback
