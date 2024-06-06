@@ -772,6 +772,8 @@ page1
 url
 )
 {
+/
+/
 verifyPageContent
 (
 page1
@@ -797,6 +799,8 @@ page2
 url
 )
 {
+/
+/
 verifyPageContent
 (
 page2
@@ -822,6 +826,8 @@ page3
 url
 )
 {
+/
+/
 verifyPageContent
 (
 page3

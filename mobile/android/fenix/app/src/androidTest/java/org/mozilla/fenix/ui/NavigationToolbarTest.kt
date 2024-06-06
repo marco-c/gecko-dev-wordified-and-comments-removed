@@ -330,6 +330,8 @@ defaultWebPage
 url
 )
 {
+/
+/
 verifyPageContent
 (
 defaultWebPage
@@ -349,6 +351,8 @@ nextWebPage
 url
 )
 {
+/
+/
 verifyPageContent
 (
 nextWebPage
@@ -381,6 +385,8 @@ verifyThreeDotMenuExists
 .
 goBack
 {
+/
+/
 verifyPageContent
 (
 defaultWebPage
@@ -426,6 +432,8 @@ defaultWebPage
 url
 )
 {
+/
+/
 verifyPageContent
 (
 defaultWebPage
@@ -445,6 +453,8 @@ nextWebPage
 url
 )
 {
+/
+/
 verifyPageContent
 (
 nextWebPage
@@ -456,6 +466,8 @@ mDevice
 pressBack
 (
 )
+/
+/
 verifyPageContent
 (
 defaultWebPage
@@ -491,6 +503,8 @@ verifyForwardButton
 .
 goForward
 {
+/
+/
 verifyPageContent
 (
 nextWebPage
@@ -550,6 +564,8 @@ refreshWebPage
 url
 )
 {
+/
+/
 verifyPageContent
 (
 "
@@ -583,6 +599,8 @@ verifyRefreshButton
 .
 refreshPage
 {
+/
+/
 verifyPageContent
 (
 "
@@ -618,6 +636,8 @@ defaultWebPage
 url
 )
 {
+/
+/
 verifyPageContent
 (
 defaultWebPage
@@ -681,6 +701,8 @@ loremIpsumWebPage
 url
 )
 {
+/
+/
 verifyPageContent
 (
 loremIpsumWebPage

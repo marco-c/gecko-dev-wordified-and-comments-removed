@@ -420,6 +420,8 @@ readerViewPage
 url
 )
 {
+/
+/
 verifyPageContent
 (
 readerViewPage
@@ -529,6 +531,8 @@ genericPage
 url
 )
 {
+/
+/
 verifyPageContent
 (
 genericPage
@@ -589,6 +593,8 @@ readerViewPage
 url
 )
 {
+/
+/
 verifyPageContent
 (
 readerViewPage
@@ -686,6 +692,8 @@ readerViewPage
 url
 )
 {
+/
+/
 verifyPageContent
 (
 readerViewPage
@@ -800,6 +808,8 @@ readerViewPage
 url
 )
 {
+/
+/
 verifyPageContent
 (
 readerViewPage
@@ -918,6 +928,8 @@ readerViewPage
 url
 )
 {
+/
+/
 verifyPageContent
 (
 readerViewPage
@@ -1056,6 +1068,8 @@ readerViewPage
 url
 )
 {
+/
+/
 verifyPageContent
 (
 readerViewPage

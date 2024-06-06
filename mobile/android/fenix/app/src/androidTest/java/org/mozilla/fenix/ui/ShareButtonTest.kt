@@ -299,6 +299,8 @@ defaultWebPage
 url
 )
 {
+/
+/
 verifyPageContent
 (
 defaultWebPage

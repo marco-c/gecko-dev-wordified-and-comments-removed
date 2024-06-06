@@ -325,6 +325,8 @@ defaultWebPage
 url
 )
 {
+/
+/
 verifyPageContent
 (
 defaultWebPage
@@ -402,6 +404,8 @@ defaultWebPage
 url
 )
 {
+/
+/
 verifyPageContent
 (
 defaultWebPage
@@ -453,6 +457,8 @@ title
 defaultWebPageTitle
 )
 {
+/
+/
 verifyPageContent
 (
 defaultWebPage
@@ -552,6 +558,8 @@ defaultWebPage
 url
 )
 {
+/
+/
 verifyPageContent
 (
 defaultWebPage
@@ -651,6 +659,8 @@ defaultWebPage
 url
 )
 {
+/
+/
 verifyPageContent
 (
 defaultWebPage

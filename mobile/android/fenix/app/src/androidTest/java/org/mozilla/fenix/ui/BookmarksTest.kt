@@ -1223,6 +1223,8 @@ url
 .
 clickOpenInNewTab
 {
+/
+/
 verifyPageContent
 (
 defaultWebPage
@@ -1312,6 +1314,8 @@ url
 .
 clickOpenInPrivateTab
 {
+/
+/
 verifyPageContent
 (
 defaultWebPage

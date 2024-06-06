@@ -408,6 +408,8 @@ firstWebPage
 url
 )
 {
+/
+/
 verifyPageContent
 (
 "
@@ -472,6 +474,8 @@ firstWebPage
 url
 )
 {
+/
+/
 verifyPageContent
 (
 "
@@ -529,6 +533,8 @@ firstWebPage
 url
 )
 {
+/
+/
 verifyPageContent
 (
 "
@@ -595,6 +601,8 @@ firstWebPage
 url
 )
 {
+/
+/
 verifyPageContent
 (
 "
@@ -620,6 +628,8 @@ openThreeDotMenu
 .
 clickOpenInNormalTab
 {
+/
+/
 verifyPageContent
 (
 firstWebPage
@@ -662,6 +672,8 @@ firstWebPage
 url
 )
 {
+/
+/
 verifyPageContent
 (
 "
@@ -687,6 +699,8 @@ openThreeDotMenu
 .
 clickOpenInPrivateTab
 {
+/
+/
 verifyPageContent
 (
 firstWebPage
@@ -729,6 +743,8 @@ firstWebPage
 url
 )
 {
+/
+/
 verifyPageContent
 (
 "
@@ -792,6 +808,8 @@ firstWebPage
 url
 )
 {
+/
+/
 verifyPageContent
 (
 "
@@ -858,6 +876,8 @@ firstWebPage
 url
 )
 {
+/
+/
 verifyPageContent
 (
 "
@@ -932,6 +952,8 @@ firstWebPage
 url
 )
 {
+/
+/
 verifyPageContent
 (
 "
@@ -1043,6 +1065,8 @@ firstWebPage
 url
 )
 {
+/
+/
 verifyPageContent
 (
 "
@@ -1153,6 +1177,8 @@ firstWebPage
 url
 )
 {
+/
+/
 verifyPageContent
 (
 "
@@ -1182,6 +1208,8 @@ secondWebPage
 url
 )
 {
+/
+/
 verifyPageContent
 (
 "
@@ -1258,6 +1286,8 @@ firstWebPage
 url
 )
 {
+/
+/
 verifyPageContent
 (
 "

@@ -413,6 +413,8 @@ videoTestPage
 url
 )
 {
+/
+/
 verifyPageContent
 (
 videoTestPage
@@ -425,6 +427,8 @@ clickMediaPlayerPlayButton
 waitForPlaybackToStart
 (
 )
+/
+/
 verifyPageContent
 (
 "
@@ -530,6 +534,8 @@ audioTestPage
 url
 )
 {
+/
+/
 verifyPageContent
 (
 audioTestPage
@@ -638,6 +644,8 @@ audioTestPage
 url
 )
 {
+/
+/
 verifyPageContent
 (
 audioTestPage
@@ -650,6 +658,8 @@ clickMediaPlayerPlayButton
 waitForPlaybackToStart
 (
 )
+/
+/
 verifyPageContent
 (
 "
@@ -725,6 +735,8 @@ audioTestPage
 url
 )
 {
+/
+/
 verifyPageContent
 (
 audioTestPage
@@ -737,6 +749,8 @@ clickMediaPlayerPlayButton
 waitForPlaybackToStart
 (
 )
+/
+/
 verifyPageContent
 (
 "
