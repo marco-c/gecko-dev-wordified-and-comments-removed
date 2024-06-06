@@ -1242,7 +1242,7 @@ getResponseCode
 (
 )
 <
-400
+300
 ;
 }
 catch
