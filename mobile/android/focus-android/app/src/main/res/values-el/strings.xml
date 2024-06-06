@@ -1602,9 +1602,6 @@ name
 shortcut_erase_and_open_short_label
 "
 >
-&
-amp
-;
 <
 /
 string
@@ -2105,9 +2102,6 @@ name
 preference_privacy_and_security_header
 "
 >
-&
-amp
-;
 <
 /
 string
@@ -2431,9 +2425,6 @@ name
 preference_category_data_collection_use
 "
 >
-&
-amp
-;
 <
 /
 string
