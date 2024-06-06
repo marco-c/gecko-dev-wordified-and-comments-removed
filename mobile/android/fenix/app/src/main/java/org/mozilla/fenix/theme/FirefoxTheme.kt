@@ -498,7 +498,7 @@ layerAccent
 =
 PhotonColors
 .
-Violet90
+Ink20
 layerNonOpaque
 =
 PhotonColors
@@ -548,7 +548,7 @@ formSelected
 =
 PhotonColors
 .
-Violet90
+Ink20
 formSurface
 =
 PhotonColors
@@ -563,7 +563,7 @@ formOn
 =
 PhotonColors
 .
-Violet90
+Ink20
 formOff
 =
 PhotonColors
@@ -638,7 +638,7 @@ iconButton
 =
 PhotonColors
 .
-Violet90
+Ink20
 iconWarning
 =
 PhotonColors
@@ -688,7 +688,7 @@ borderSelected
 =
 PhotonColors
 .
-Violet90
+Ink20
 borderDisabled
 =
 PhotonColors
