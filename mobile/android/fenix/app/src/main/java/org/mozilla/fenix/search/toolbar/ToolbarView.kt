@@ -418,6 +418,8 @@ val
 context
 :
 Context
+private
+val
 settings
 :
 Settings
@@ -942,6 +944,12 @@ searchEngineSource
 searchEngine
 if
 (
+!
+settings
+.
+showUnifiedSearchFeature
+&
+&
 searchEngine
 !
 =
