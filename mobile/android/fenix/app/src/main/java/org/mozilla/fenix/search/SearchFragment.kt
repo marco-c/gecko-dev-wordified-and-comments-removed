@@ -572,6 +572,17 @@ UrlCommitted
 -
 >
 {
+if
+(
+it
+.
+url
+.
+isNotBlank
+(
+)
+)
+{
 transitionToBrowser
 (
 )
@@ -581,6 +592,7 @@ it
 .
 url
 )
+}
 }
 is
 SearchAction
