@@ -39151,9 +39151,7 @@ Prova
 la
 nostra
 guida
-per
-ottenere
-affidabili
+alle
 recensioni
 di
 prodotti
@@ -39485,7 +39483,7 @@ review_quality_check_contextual_onboarding_caption
 >
 Selezionando
 S
-provalo
+provala
 accetti
 l
 %
@@ -39579,9 +39577,11 @@ name
 review_quality_check_contextual_onboarding_terms_use
 "
 >
-termini
+condizioni
 di
 utilizzo
+del
+servizio
 <
 /
 string
@@ -39617,7 +39617,7 @@ review_quality_check_contextual_onboarding_primary_button_text
 "
 >
 S
-provalo
+provala
 <
 /
 string
