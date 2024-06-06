@@ -401,7 +401,7 @@ R
 .
 drawable
 .
-ic_close
+mozac_ic_close
 contentDescription
 =
 R

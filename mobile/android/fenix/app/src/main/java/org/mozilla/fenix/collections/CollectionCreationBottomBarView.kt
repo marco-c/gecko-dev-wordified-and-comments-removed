@@ -262,7 +262,7 @@ R
 .
 drawable
 .
-ic_close
+mozac_ic_close
 ContextCompat
 .
 getColor
