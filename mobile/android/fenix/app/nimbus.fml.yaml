@@ -775,7 +775,16 @@ value
 :
 enabled
 :
-false
+true
+-
+channel
+:
+developer
+value
+:
+enabled
+:
+true
 client
 -
 deduplication

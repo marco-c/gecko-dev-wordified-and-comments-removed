@@ -8051,7 +8051,7 @@ R
 .
 string
 .
-pref_key_show_unified_search
+pref_key_show_unified_search_2
 )
 default
 =

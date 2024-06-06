@@ -266,6 +266,9 @@ isTCPCFREnabled
 settings
 .
 shouldShowTotalCookieProtectionCFR
+isUnifiedSearchEnabled
+=
+false
 isWallpaperOnboardingEnabled
 =
 settings
@@ -554,6 +557,13 @@ featureFlags
 isTCPCFREnabled
 settings
 .
+showUnifiedSearchFeature
+=
+featureFlags
+.
+isUnifiedSearchEnabled
+settings
+.
 showWallpaperOnboarding
 =
 featureFlags
@@ -617,6 +627,10 @@ isPWAsPromptEnabled
 Boolean
 var
 isTCPCFREnabled
+:
+Boolean
+val
+isUnifiedSearchEnabled
 :
 Boolean
 var
