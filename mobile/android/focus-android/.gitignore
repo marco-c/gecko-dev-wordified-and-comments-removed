@@ -140,3 +140,9 @@ token
 file
 .
 adjust_token
+#
+Sentry
+token
+file
+.
+sentry_token
