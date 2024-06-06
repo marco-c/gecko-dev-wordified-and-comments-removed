@@ -1387,10 +1387,8 @@ true
 )
 }
 override
-fun
-getWorkManagerConfiguration
-(
-)
+val
+workManagerConfiguration
 =
 Builder
 (

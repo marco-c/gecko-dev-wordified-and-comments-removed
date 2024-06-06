@@ -6578,10 +6578,8 @@ config
 }
 }
 override
-fun
-getWorkManagerConfiguration
-(
-)
+val
+workManagerConfiguration
 =
 Builder
 (
