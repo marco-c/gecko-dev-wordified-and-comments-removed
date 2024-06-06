@@ -376,11 +376,6 @@ KintoExperimentSource
 EXPERIMENTS_BASE_URL
 EXPERIMENTS_BUCKET_NAME
 EXPERIMENTS_COLLECTION_NAME
-components
-.
-core
-.
-client
 )
 /
 /
