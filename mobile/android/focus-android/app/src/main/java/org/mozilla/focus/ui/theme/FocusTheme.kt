@@ -377,6 +377,11 @@ Colors
 =
 darkColors
 (
+secondary
+=
+PhotonColors
+.
+Ink05
 surface
 =
 PhotonColors
@@ -392,6 +397,11 @@ onBackground
 PhotonColors
 .
 LightGrey05
+onPrimary
+=
+PhotonColors
+.
+LightGrey05
 )
 private
 fun
@@ -403,6 +413,11 @@ Colors
 =
 lightColors
 (
+secondary
+=
+PhotonColors
+.
+LightGrey05
 surface
 =
 PhotonColors
@@ -414,6 +429,11 @@ PhotonColors
 .
 Ink50
 onBackground
+=
+PhotonColors
+.
+Ink50
+onPrimary
 =
 PhotonColors
 .
