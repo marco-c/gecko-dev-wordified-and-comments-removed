@@ -582,14 +582,11 @@ onboarding
 .
 *
 /
+const
 val
 wallpaperOnboardingEnabled
 =
-Config
-.
-channel
-.
-isDebug
+true
 /
 *
 *
