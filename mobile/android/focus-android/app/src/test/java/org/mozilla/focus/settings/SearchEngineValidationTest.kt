@@ -83,9 +83,9 @@ lib
 .
 fetch
 .
-httpurlconnection
+okhttp
 .
-HttpURLConnectionClient
+OkHttpClient
 import
 okhttp3
 .
@@ -205,7 +205,7 @@ setup
 {
 client
 =
-HttpURLConnectionClient
+OkHttpClient
 (
 )
 }

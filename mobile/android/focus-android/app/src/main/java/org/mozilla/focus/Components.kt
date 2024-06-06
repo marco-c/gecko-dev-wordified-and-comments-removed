@@ -377,6 +377,14 @@ Engine
 ?
 =
 null
+private
+val
+clientOverride
+:
+Client
+?
+=
+null
 )
 {
 val
@@ -473,6 +481,9 @@ Client
 by
 lazy
 {
+clientOverride
+?
+:
 EngineProvider
 .
 createClient

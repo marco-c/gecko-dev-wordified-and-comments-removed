@@ -1455,7 +1455,7 @@ lib
 -
 fetch
 -
-httpurlconnection
+okhttp
 :
 mozilla_components_version
 "
