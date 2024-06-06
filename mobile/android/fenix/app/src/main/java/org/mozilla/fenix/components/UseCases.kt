@@ -446,7 +446,6 @@ lazy
 {
 ContextMenuUseCases
 (
-sessionManager
 store
 )
 }
