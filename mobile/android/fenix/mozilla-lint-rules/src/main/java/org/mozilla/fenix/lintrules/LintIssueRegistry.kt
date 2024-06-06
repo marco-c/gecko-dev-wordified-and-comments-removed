@@ -172,4 +172,8 @@ ImageViewAndroidTintXmlDetector
 .
 ISSUE_XML_SRC_USAGE
 )
++
+ConstraintLayoutPerfDetector
+.
+ISSUES
 }
