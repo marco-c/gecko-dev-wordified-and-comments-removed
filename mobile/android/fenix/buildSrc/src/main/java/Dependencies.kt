@@ -56,7 +56,6 @@ MPL
 .
 *
 /
-private
 object
 Versions
 {
@@ -404,8 +403,6 @@ mozilla_android_components
 0
 .
 0
--
-SNAPSHOT
 "
 /
 /
