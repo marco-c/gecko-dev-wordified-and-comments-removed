@@ -252,6 +252,13 @@ textNoSuggestions
 "
 android
 :
+imeOptions
+=
+"
+flagNoPersonalizedLearning
+"
+android
+:
 lines
 =
 "
