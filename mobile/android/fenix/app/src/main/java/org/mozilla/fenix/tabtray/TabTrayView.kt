@@ -1401,7 +1401,7 @@ context
 view
 .
 context
-shouldShowSaveToCollection
+shouldShowSelectTabs
 =
 {
 checkOpenTabs
@@ -1462,7 +1462,7 @@ TabTrayItemMenu
 .
 Item
 .
-SaveToCollection
+SelectTabs
 -
 >
 interactor

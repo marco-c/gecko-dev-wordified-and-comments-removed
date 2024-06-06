@@ -18159,11 +18159,6 @@ collection
 button
 in
 the
-three
-dot
-menu
-within
-the
 tabs
 tray
 |

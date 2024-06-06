@@ -514,7 +514,7 @@ verifyCloseAllTabsButton
 verifyShareTabButton
 (
 )
-verifySaveCollection
+verifySelectTabs
 (
 )
 }
@@ -653,7 +653,7 @@ verifyCloseAllTabsButton
 verifyShareTabButton
 (
 )
-verifySaveCollection
+verifySelectTabs
 (
 )
 }
