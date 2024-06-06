@@ -174,7 +174,7 @@ components
 .
 core
 .
-historyStorage
+lazyHistoryStorage
 )
 .
 migrateBookmarks
@@ -185,7 +185,7 @@ components
 .
 core
 .
-bookmarksStorage
+lazyBookmarksStorage
 this
 .
 components
@@ -205,11 +205,13 @@ components
 .
 core
 .
-passwordsStorage
+lazyPasswordsStorage
 )
 .
 migrateFxa
 (
+lazy
+{
 this
 .
 components
@@ -217,6 +219,7 @@ components
 backgroundServices
 .
 accountManager
+}
 )
 .
 migrateAddons
