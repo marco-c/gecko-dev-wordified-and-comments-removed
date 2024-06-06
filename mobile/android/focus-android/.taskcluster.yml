@@ -439,6 +439,7 @@ no
 daemon
 clean
 assemble
+assembleFocusWebviewUniversalDebugAndroidTest
 detektCheck
 ktlint
 lint
