@@ -361,7 +361,7 @@ outputs
 /
 apk
 /
-klarArm
+klar
 /
 nightly
 /
@@ -369,7 +369,9 @@ app
 -
 klar
 -
-arm
+armeabi
+-
+v7a
 -
 nightly
 -

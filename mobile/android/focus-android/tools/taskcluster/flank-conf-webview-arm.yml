@@ -246,7 +246,9 @@ app
 -
 focus
 -
-arm
+armeabi
+-
+v7a
 -
 debug
 .
@@ -278,7 +280,9 @@ app
 -
 focus
 -
-arm
+armeabi
+-
+v7a
 -
 debug
 -

@@ -1289,7 +1289,7 @@ no
 -
 daemon
 assemble
-testFocusX86DebugUnitTest
+testFocusDebugUnitTest
 lint
 pmd
 checkstyle
