@@ -471,6 +471,13 @@ val
 collection
 :
 TabCollection
+val
+tabs
+:
+List
+<
+Tab
+>
 )
 :
 CollectionCreationAction
