@@ -393,11 +393,6 @@ tabsTrayStore
 TabsTrayStore
 private
 val
-tabsTrayInteractor
-:
-TabsTrayInteractor
-private
-val
 inactiveTabsInteractor
 :
 InactiveTabsInteractor
@@ -530,10 +525,10 @@ expanded
 }
 onDeleteAllButtonClick
 =
-tabsTrayInteractor
+inactiveTabsInteractor
 :
 :
-onDeleteInactiveTabs
+onDeleteAllInactiveTabsClicked
 onAutoCloseDismissClick
 =
 {
