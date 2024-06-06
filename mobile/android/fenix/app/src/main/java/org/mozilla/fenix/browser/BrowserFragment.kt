@@ -403,6 +403,16 @@ feature
 .
 session
 .
+SwipeRefreshFeature
+import
+mozilla
+.
+components
+.
+feature
+.
+session
+.
 ThumbnailsFeature
 import
 mozilla
