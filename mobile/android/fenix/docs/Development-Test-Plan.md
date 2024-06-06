@@ -1,3 +1,7 @@
+#
+Development
+Test
+Plan
 It
 '
 s
@@ -133,7 +137,6 @@ uses
 .
 #
 #
-#
 Components
 Our
 app
@@ -229,7 +232,6 @@ tested
 .
 #
 #
-#
 UIViews
 When
 testing
@@ -303,7 +305,6 @@ for
 unit
 tests
 .
-#
 #
 #
 Fragments
@@ -380,7 +381,6 @@ on
 their
 own
 .
-#
 #
 #
 Activities

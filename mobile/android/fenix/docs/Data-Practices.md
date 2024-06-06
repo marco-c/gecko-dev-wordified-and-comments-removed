@@ -1,5 +1,6 @@
 #
-#
+Data
+Practices
 This
 document
 outlines
@@ -11,7 +12,6 @@ in
 Firefox
 Preview
 .
-#
 #
 #
 Telemetry
@@ -134,7 +134,6 @@ Choices
 *
 #
 #
-#
 Adjust
 See
 [
@@ -173,7 +172,6 @@ Preview
 *
 *
 *
-#
 #
 #
 Sentry

@@ -1,4 +1,8 @@
 #
+l10n
+Screenshots
+Test
+#
 #
 #
 Screenshtos

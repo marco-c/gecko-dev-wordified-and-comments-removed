@@ -1,3 +1,6 @@
+#
+Architecture
+Decisions
 For
 an
 overview
@@ -89,6 +92,7 @@ decisions
 -
 -
 #
+#
 Overview
 Several
 apps
@@ -129,6 +133,7 @@ challenging
 -
 -
 -
+#
 #
 Goals
 Our
@@ -217,6 +222,7 @@ confusion
 -
 -
 #
+#
 Special
 Concerns
 As
@@ -288,8 +294,10 @@ internals
 -
 -
 #
+#
 Component
 Architecture
+#
 #
 #
 Context
@@ -367,6 +375,7 @@ assumptions
 are
 correct
 .
+#
 #
 #
 Decision
@@ -638,6 +647,7 @@ project
 .
 #
 #
+#
 Consequences
 We
 will
@@ -777,6 +787,7 @@ effectively
 -
 -
 #
+#
 Localized
 MVI
 (
@@ -788,6 +799,7 @@ Intent
 )
 Unidirectional
 Architecture
+#
 #
 #
 Context
@@ -812,6 +824,7 @@ agree
 about
 state
 .
+#
 #
 #
 Decision
@@ -1091,6 +1104,7 @@ arch
 jpg
 )
 .
+#
 #
 #
 Consequences

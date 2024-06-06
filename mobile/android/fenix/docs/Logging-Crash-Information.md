@@ -1,4 +1,9 @@
 #
+Logging
+Crash
+Information
+#
+#
 Retrieving
 crash
 reports
@@ -206,6 +211,7 @@ c984a030249f
 png
 )
 #
+#
 Using
 adb
 logcat
@@ -291,6 +297,7 @@ to
 your
 computer
 .
+#
 #
 #
 Configuring
@@ -384,6 +391,7 @@ USB
 cable
 #
 #
+#
 Downloading
 the
 Android
@@ -436,6 +444,7 @@ file
 that
 was
 downloaded
+#
 #
 #
 Checking
@@ -521,6 +530,7 @@ dialog
 on
 the
 phone
+#
 #
 #
 Reproducing
@@ -634,6 +644,7 @@ issue
 for
 the
 crash
+#
 #
 #
 Optional

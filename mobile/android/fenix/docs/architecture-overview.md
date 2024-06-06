@@ -1,8 +1,6 @@
 #
-#
 Architecture
 Overview
-#
 #
 #
 Unidirectional
@@ -222,10 +220,8 @@ document
 .
 #
 #
-#
 Important
 types
-#
 #
 #
 <
@@ -241,7 +237,6 @@ Store
 /
 a
 >
-#
 #
 #
 #
@@ -361,7 +356,6 @@ and
 manipulate
 actions
 .
-#
 #
 #
 #
@@ -689,7 +683,6 @@ kt
 -
 #
 #
-#
 <
 a
 name
@@ -703,7 +696,6 @@ State
 /
 a
 >
-#
 #
 #
 #
@@ -787,7 +779,6 @@ State
 .
 kt
 )
-#
 #
 #
 #
@@ -1087,7 +1078,6 @@ problems
 -
 #
 #
-#
 <
 a
 name
@@ -1101,7 +1091,6 @@ Action
 /
 a
 >
-#
 #
 #
 #
@@ -1189,7 +1178,6 @@ kt
 #
 #
 #
-#
 *
 *
 Description
@@ -1267,7 +1255,6 @@ empty
 -
 #
 #
-#
 <
 a
 name
@@ -1281,7 +1268,6 @@ Reducer
 /
 a
 >
-#
 #
 #
 #
@@ -1376,7 +1362,6 @@ Store
 #
 store
 )
-#
 #
 #
 #
@@ -1495,7 +1480,6 @@ parallel
 -
 #
 #
-#
 <
 a
 name
@@ -1509,7 +1493,6 @@ Middleware
 /
 a
 >
-#
 #
 #
 #
@@ -1545,7 +1528,6 @@ reaches
 the
 reducer
 .
-#
 #
 #
 #
@@ -1634,7 +1616,6 @@ chain
 -
 #
 #
-#
 <
 a
 name
@@ -1648,7 +1629,6 @@ View
 /
 a
 >
-#
 #
 #
 #
@@ -1683,7 +1663,6 @@ Store
 #
 store
 )
-#
 #
 #
 #
@@ -2330,7 +2309,6 @@ future
 -
 #
 #
-#
 <
 a
 name
@@ -2341,7 +2319,6 @@ interactor
 /
 >
 Interactor
-#
 #
 #
 #
@@ -2380,7 +2357,6 @@ controller
 )
 other
 Interactors
-#
 #
 #
 #
@@ -2578,7 +2554,6 @@ out
 -
 #
 #
-#
 <
 a
 name
@@ -2589,7 +2564,6 @@ controller
 /
 >
 Controller
-#
 #
 #
 #
@@ -2653,7 +2627,6 @@ Components
 UseCase
 etc
 )
-#
 #
 #
 #

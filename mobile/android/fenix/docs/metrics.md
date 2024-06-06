@@ -1,8 +1,6 @@
 #
 Metrics
-definitions
-have
-moved
+Definitions
 Metrics
 definitions
 for

@@ -1,3 +1,8 @@
+#
+Debug
+settings
+menu
+instructions
 Instructions
 to
 enable

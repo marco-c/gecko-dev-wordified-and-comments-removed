@@ -1,3 +1,7 @@
+#
+Test
+Telemetry
+Pings
 Watch
 a
 step
