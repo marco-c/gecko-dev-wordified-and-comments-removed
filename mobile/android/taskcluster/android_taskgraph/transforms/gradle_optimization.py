@@ -12,11 +12,6 @@ from
 build_config
 import
 get_path
-from
-.
-.
-gradle
-import
 get_upstream_deps_for_all_gradle_projects
 transforms
 =
