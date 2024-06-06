@@ -739,6 +739,9 @@ engine
 it
 .
 focused
+it
+.
+isQueryUpdated
 )
 }
 /
