@@ -240,8 +240,6 @@ androidx_biometric
 1
 .
 0
--
-rc01
 "
 const
 val
@@ -329,7 +327,7 @@ androidx_navigation
 .
 3
 .
-1
+3
 "
 const
 val
@@ -342,7 +340,7 @@ androidx_recyclerview
 .
 0
 -
-alpha06
+beta01
 "
 const
 val
@@ -364,7 +362,7 @@ androidx_paging
 .
 1
 .
-0
+2
 "
 const
 val
@@ -373,7 +371,7 @@ androidx_transition
 "
 1
 .
-3
+4
 .
 0
 "
@@ -384,7 +382,7 @@ androidx_work
 "
 2
 .
-4
+5
 .
 0
 "
