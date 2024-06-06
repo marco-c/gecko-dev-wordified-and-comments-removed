@@ -5009,7 +5009,7 @@ string
 name
 =
 "
-pair_instructions
+pair_instructions_2
 "
 >
 <
@@ -5017,6 +5017,8 @@ pair_instructions
 [
 CDATA
 [
+QR
+-
 <
 b
 >
@@ -5029,10 +5031,6 @@ pair
 /
 b
 >
-Firefox
-QR
--
-.
 ]
 ]
 >
@@ -11198,7 +11196,7 @@ string
 name
 =
 "
-preference_accessibility_auto_size
+preference_accessibility_auto_size_2
 "
 >
 <
@@ -11282,7 +11280,7 @@ string
 name
 =
 "
-preferences_delete_browsing_data_tabs_title
+preferences_delete_browsing_data_tabs_title_2
 "
 >
 <

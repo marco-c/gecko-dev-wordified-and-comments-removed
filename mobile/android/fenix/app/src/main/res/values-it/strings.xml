@@ -5576,7 +5576,7 @@ string
 name
 =
 "
-pair_instructions
+pair_instructions_2
 "
 >
 <
@@ -5584,12 +5584,12 @@ pair_instructions
 [
 CDATA
 [
-Per
-ottenere
+Scansiona
 il
 codice
 QR
-apri
+visualizzato
+su
 <
 b
 >
@@ -5602,11 +5602,6 @@ pair
 /
 b
 >
-in
-Firefox
-sul
-computer
-.
 ]
 ]
 >
@@ -12281,7 +12276,7 @@ string
 name
 =
 "
-preference_accessibility_auto_size
+preference_accessibility_auto_size_2
 "
 >
 Ridimensiona
@@ -12390,7 +12385,7 @@ string
 name
 =
 "
-preferences_delete_browsing_data_tabs_title
+preferences_delete_browsing_data_tabs_title_2
 "
 >
 Schede
