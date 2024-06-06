@@ -1147,6 +1147,13 @@ layout_marginBottom
 "
 android
 :
+paddingStart
+=
+"
+0dp
+"
+android
+:
 paddingEnd
 =
 "

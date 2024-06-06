@@ -193,9 +193,9 @@ layout_height
 "
 wrap_content
 "
-android
+app
 :
-drawableStart
+drawableStartCompat
 =
 "
 drawable

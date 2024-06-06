@@ -1,4 +1,23 @@
 <
+?
+xml
+version
+=
+"
+1
+.
+0
+"
+encoding
+=
+"
+utf
+-
+8
+"
+?
+>
+<
 !
 -
 -
@@ -609,7 +628,7 @@ fillColor
 =
 "
 #
-FF000000
+000000
 "
 android
 :
@@ -649,7 +668,7 @@ fillColor
 =
 "
 #
-FF000000
+000000
 "
 android
 :
@@ -1648,7 +1667,7 @@ color
 =
 "
 #
-FF00DDFF
+00DDFF
 "
 /
 >
@@ -1669,7 +1688,7 @@ color
 =
 "
 #
-FF70BAFF
+70BAFF
 "
 /
 >
@@ -1690,7 +1709,7 @@ color
 =
 "
 #
-FFCB9EFF
+CB9EFF
 "
 /
 >
@@ -1720,7 +1739,7 @@ fillColor
 =
 "
 #
-FF000000
+000000
 "
 android
 :
@@ -2339,7 +2358,7 @@ fillColor
 =
 "
 #
-FF000000
+000000
 "
 android
 :
@@ -3336,7 +3355,7 @@ color
 =
 "
 #
-FF00DDFF
+00DDFF
 "
 /
 >
@@ -3357,7 +3376,7 @@ color
 =
 "
 #
-FF70BAFF
+70BAFF
 "
 /
 >
@@ -3378,7 +3397,7 @@ color
 =
 "
 #
-FFCB9EFF
+CB9EFF
 "
 /
 >
@@ -3408,7 +3427,7 @@ fillColor
 =
 "
 #
-FF000000
+000000
 "
 android
 :
@@ -4361,7 +4380,7 @@ color
 =
 "
 #
-FF9059FF
+9059FF
 "
 /
 >
@@ -4382,7 +4401,7 @@ color
 =
 "
 #
-FF00B3F4
+00B3F4
 "
 /
 >

@@ -162,7 +162,13 @@ vertical
 "
 >
 <
-TextView
+androidx
+.
+appcompat
+.
+widget
+.
+AppCompatTextView
 android
 :
 id
@@ -194,9 +200,9 @@ layout_marginBottom
 "
 14dp
 "
-android
+app
 :
-drawableStart
+drawableStartCompat
 =
 "
 drawable

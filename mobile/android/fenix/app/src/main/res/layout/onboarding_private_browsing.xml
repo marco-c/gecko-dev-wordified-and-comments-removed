@@ -164,6 +164,13 @@ wrap_content
 ImageView
 android
 :
+importantForAccessibility
+=
+"
+no
+"
+android
+:
 id
 =
 "
@@ -196,9 +203,9 @@ H
 :
 1
 "
-android
+app
 :
-src
+srcCompat
 =
 "
 drawable

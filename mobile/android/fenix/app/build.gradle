@@ -119,6 +119,11 @@ Config
 generateDebugVersionName
 (
 )
+vectorDrawables
+.
+useSupportLibrary
+=
+true
 testInstrumentationRunner
 "
 androidx
