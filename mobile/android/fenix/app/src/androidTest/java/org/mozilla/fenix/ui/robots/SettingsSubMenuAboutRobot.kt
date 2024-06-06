@@ -912,9 +912,7 @@ containsString
 "
 Firefox
 Preview
-|
-Mozilla
-Support
+Help
 "
 )
 )
@@ -1142,11 +1140,9 @@ Preview
 Your
 Rights
 |
-How
-to
-|
-Mozilla
-Support
+Firefox
+Preview
+Help
 "
 )
 )
