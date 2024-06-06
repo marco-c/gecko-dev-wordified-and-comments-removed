@@ -4528,6 +4528,15 @@ if
 shouldEnableWallpaper
 (
 )
+&
+&
+context
+.
+settings
+(
+)
+.
+wallpapersSwitchedByLogoTap
 )
 {
 binding
