@@ -405,13 +405,6 @@ selectedIndex
 0
 )
 )
-adapter
-.
-onTabsInserted
-(
-0
-1
-)
 assertTrue
 (
 trayList
@@ -528,13 +521,6 @@ selectedIndex
 =
 0
 )
-)
-adapter
-.
-onTabsInserted
-(
-0
-0
 )
 assertTrue
 (
