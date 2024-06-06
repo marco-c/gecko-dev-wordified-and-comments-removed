@@ -289,10 +289,12 @@ parent
 "
 app
 :
-layout_constraintEnd_toEndOf
+layout_constraintEnd_toStartOf
 =
 "
-parent
+id
+/
+tip_close
 "
 /
 >
@@ -390,7 +392,7 @@ android
 layout_width
 =
 "
-match_parent
+0dp
 "
 android
 :
@@ -464,10 +466,12 @@ parent
 "
 app
 :
-layout_constraintEnd_toEndOf
+layout_constraintEnd_toStartOf
 =
 "
-parent
+id
+/
+tip_close
 "
 /
 >
@@ -589,7 +593,7 @@ android
 layout_marginTop
 =
 "
-8dp
+16dp
 "
 tools
 :
