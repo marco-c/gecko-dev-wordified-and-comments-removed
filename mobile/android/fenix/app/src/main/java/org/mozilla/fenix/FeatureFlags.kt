@@ -247,9 +247,12 @@ metadata
 .
 *
 /
-const
 val
 historyMetadataFeature
 =
-false
+Config
+.
+channel
+.
+isDebug
 }
