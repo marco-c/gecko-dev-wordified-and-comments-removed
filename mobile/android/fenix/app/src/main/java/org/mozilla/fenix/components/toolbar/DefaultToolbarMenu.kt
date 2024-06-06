@@ -2138,7 +2138,7 @@ R
 .
 drawable
 .
-ic_exit
+mozac_ic_quit
 iconTintColorResource
 =
 primaryTextColor
