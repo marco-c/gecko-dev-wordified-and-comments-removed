@@ -3049,14 +3049,9 @@ searchTermOrURL
 =
 SupportUtils
 .
-getSumoURLForTopic
+getWhatsNewUrl
 (
 context
-SupportUtils
-.
-SumoTopic
-.
-WHATS_NEW
 )
 newTab
 =
