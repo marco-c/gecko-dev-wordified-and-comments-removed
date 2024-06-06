@@ -43,6 +43,10 @@ ast
 "
 	
 "
+ay
+"
+	
+"
 az
 "
 	
@@ -167,6 +171,10 @@ IN
 "
 	
 "
+gl
+"
+	
+"
 hi
 -
 IN
@@ -251,6 +259,10 @@ mix
 "
 	
 "
+mr
+"
+	
+"
 ms
 "
 	
@@ -289,13 +301,27 @@ pai
 "
 	
 "
+pa
+-
+IN
+"
+	
+"
 pl
+"
+	
+"
+ppl
 "
 	
 "
 pt
 -
 BR
+"
+	
+"
+quc
 "
 	
 "
@@ -330,6 +356,10 @@ sr
 sv
 -
 SE
+"
+	
+"
+su
 "
 	
 "
@@ -397,37 +427,7 @@ ADDITIONAL_SCREENSHOT_LOCALES
 [
 	
 "
-ay
-"
-	
-"
-quc
-"
-	
-"
-pa
--
-IN
-"
-	
-"
 jv
-"
-	
-"
-ppl
-"
-	
-"
-su
-"
-	
-"
-mr
-"
-	
-"
-gl
 "
 	
 "
@@ -444,6 +444,12 @@ hus
 	
 "
 ace
+"
+	
+"
+zh
+-
+HK
 "
 ]
 SCREENSHOT_LOCALES
