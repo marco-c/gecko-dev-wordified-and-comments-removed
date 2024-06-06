@@ -1633,5 +1633,14 @@ BrowserStore
 mock
 (
 )
+override
+val
+notificationsDelegate
+:
+NotificationsDelegate
+=
+mock
+(
+)
 }
 }
