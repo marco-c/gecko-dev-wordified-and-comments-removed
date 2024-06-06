@@ -1509,7 +1509,7 @@ SessionControlInteractor
 ?
 =
 null
-protected
+private
 val
 sessionControlInteractor
 :

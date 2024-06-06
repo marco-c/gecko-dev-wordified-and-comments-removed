@@ -503,7 +503,7 @@ HistoryView
 ?
 =
 null
-protected
+private
 val
 historyView
 :

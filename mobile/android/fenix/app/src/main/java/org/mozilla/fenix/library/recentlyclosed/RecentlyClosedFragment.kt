@@ -331,7 +331,7 @@ RecentlyClosedFragmentView
 ?
 =
 null
-protected
+private
 val
 recentlyClosedFragmentView
 :
