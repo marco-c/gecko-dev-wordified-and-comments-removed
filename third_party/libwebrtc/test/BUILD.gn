@@ -7988,6 +7988,10 @@ deps
 =
 [
 "
+:
+scoped_key_value_config
+"
+"
 .
 .
 /
@@ -8282,6 +8286,16 @@ fileutils
 test
 :
 video_test_support
+"
+"
+.
+.
+/
+video
+/
+config
+:
+streams_config
 "
 "
 /
