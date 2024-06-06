@@ -459,6 +459,13 @@ context
 settings
 .
 shouldUseAutoSize
+fontInflationEnabled
+=
+context
+.
+settings
+.
+shouldUseAutoSize
 suspendMediaWhenInactive
 =
 !
