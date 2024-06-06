@@ -221,8 +221,6 @@ internal
 class
 ToggleableHeapDumper
 (
-private
-val
 context
 :
 Context
@@ -273,6 +271,7 @@ dumpHeap
 )
 :
 File
+?
 =
 if
 (
