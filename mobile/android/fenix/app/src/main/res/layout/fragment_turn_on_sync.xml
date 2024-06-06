@@ -367,7 +367,7 @@ id
 +
 id
 /
-sign_in_instructions
+signInInstructions
 "
 android
 :
@@ -467,7 +467,7 @@ id
 +
 id
 /
-sign_in_scan_button
+signInScanButton
 "
 style
 =
@@ -601,7 +601,7 @@ layout_constraintTop_toBottomOf
 "
 id
 /
-sign_in_instructions
+signInInstructions
 "
 /
 >
@@ -625,7 +625,7 @@ id
 +
 id
 /
-sign_in_email_button
+signInEmailButton
 "
 style
 =
@@ -685,7 +685,7 @@ layout_constraintTop_toBottomOf
 "
 id
 /
-sign_in_scan_button
+signInScanButton
 "
 /
 >

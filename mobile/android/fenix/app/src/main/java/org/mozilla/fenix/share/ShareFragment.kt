@@ -419,7 +419,7 @@ ShareComponent
 (
 view
 .
-share_wrapper
+shareWrapper
 ActionBusFactory
 .
 get

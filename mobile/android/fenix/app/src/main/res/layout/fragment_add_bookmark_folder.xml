@@ -218,7 +218,7 @@ labelFor
 "
 id
 /
-bookmark_add_folder_title_edit
+bookmarkAddFolderTitleEdit
 "
 /
 >
@@ -240,7 +240,7 @@ id
 +
 id
 /
-bookmark_add_folder_title_edit
+bookmarkAddFolderTitleEdit
 "
 android
 :
@@ -370,7 +370,7 @@ id
 +
 id
 /
-bookmark_add_folder_parent_selector
+bookmarkAddFolderParentSelector
 "
 android
 :

@@ -690,7 +690,7 @@ BookmarkView
 (
 view
 .
-bookmark_layout
+bookmarkLayout
 bookmarkInteractor
 )
 signInView
@@ -699,7 +699,7 @@ SignInView
 (
 view
 .
-bookmark_layout
+bookmarkLayout
 bookmarkInteractor
 )
 return

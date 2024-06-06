@@ -258,7 +258,7 @@ onViewCreated
 view
 savedInstanceState
 )
-pair_instructions
+pairInstructions
 .
 text
 =

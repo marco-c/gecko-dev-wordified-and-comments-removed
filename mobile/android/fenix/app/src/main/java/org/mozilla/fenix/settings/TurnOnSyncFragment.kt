@@ -385,7 +385,7 @@ false
 )
 view
 .
-sign_in_scan_button
+signInScanButton
 .
 setOnClickListener
 (
@@ -395,7 +395,7 @@ getClickListenerForPairing
 )
 view
 .
-sign_in_email_button
+signInEmailButton
 .
 setOnClickListener
 (
@@ -405,7 +405,7 @@ getClickListenerForSignIn
 )
 view
 .
-sign_in_instructions
+signInInstructions
 .
 text
 =

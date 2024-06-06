@@ -411,7 +411,7 @@ launch
 Main
 )
 {
-bookmark_add_folder_parent_selector
+bookmarkAddFolderParentSelector
 .
 text
 =
@@ -422,7 +422,7 @@ selectedFolder
 !
 .
 title
-bookmark_add_folder_parent_selector
+bookmarkAddFolderParentSelector
 .
 setOnClickListener
 {
@@ -533,7 +533,7 @@ confirm_add_folder_button
 {
 if
 (
-bookmark_add_folder_title_edit
+bookmarkAddFolderTitleEdit
 .
 text
 .
@@ -542,7 +542,7 @@ isNullOrBlank
 )
 )
 {
-bookmark_add_folder_title_edit
+bookmarkAddFolderTitleEdit
 .
 error
 =
@@ -582,7 +582,7 @@ selectedFolder
 !
 .
 guid
-bookmark_add_folder_title_edit
+bookmarkAddFolderTitleEdit
 .
 text
 .

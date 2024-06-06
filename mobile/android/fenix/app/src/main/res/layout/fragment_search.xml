@@ -282,7 +282,7 @@ id
 +
 id
 /
-search_engine_icon
+searchEngineIcon
 "
 android
 :
@@ -375,7 +375,7 @@ layout_constraintStart_toEndOf
 "
 id
 /
-search_engine_icon
+searchEngineIcon
 "
 app
 :
@@ -406,7 +406,7 @@ id
 +
 id
 /
-search_with_shortcuts
+searchWithShortcuts
 "
 android
 :
@@ -552,7 +552,7 @@ layout_constraintBottom_toTopOf
 "
 id
 /
-pill_wrapper
+pillWrapper
 "
 app
 :
@@ -580,7 +580,7 @@ id
 +
 id
 /
-pill_wrapper
+pillWrapper
 "
 android
 :
@@ -671,7 +671,7 @@ id
 +
 id
 /
-search_scan_button
+searchScanButton
 "
 style
 =
@@ -726,7 +726,7 @@ id
 +
 id
 /
-search_shortcuts_button
+searchShortcutsButton
 "
 style
 =

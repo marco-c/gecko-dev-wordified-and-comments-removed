@@ -472,7 +472,7 @@ HistoryView
 (
 view
 .
-history_layout
+historyLayout
 historyInteractor
 )
 return

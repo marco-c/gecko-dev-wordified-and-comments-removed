@@ -319,7 +319,7 @@ core
 sessionManager
 .
 selectedSession
-restore_tab_button
+restoreTabButton
 .
 setOnClickListener
 {
@@ -339,7 +339,7 @@ crash
 )
 }
 }
-close_tab_button
+closeTabButton
 .
 setOnClickListener
 {
@@ -492,7 +492,7 @@ context
 isCrashReportingEnabled
 &
 &
-send_crash_checkbox
+sendCrashCheckbox
 .
 isChecked
 )

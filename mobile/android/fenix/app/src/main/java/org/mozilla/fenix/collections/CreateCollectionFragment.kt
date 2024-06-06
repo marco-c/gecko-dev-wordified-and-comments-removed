@@ -356,7 +356,7 @@ CollectionCreationComponent
 (
 view
 .
-create_collection_wrapper
+createCollectionWrapper
 ActionBusFactory
 .
 get

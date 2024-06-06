@@ -384,7 +384,7 @@ savedInstanceState
 )
 view
 .
-sign_out_disconnect
+signOutDisconnect
 .
 setOnClickListener
 {
@@ -443,7 +443,7 @@ dismiss
 }
 view
 .
-sign_out_cancel
+signOutCancel
 .
 setOnClickListener
 {

@@ -297,7 +297,7 @@ BOTTOM
 to
 TOP
 of
-pill_wrapper
+pillWrapper
 )
 }
 awesomeBar
@@ -329,7 +329,7 @@ LinearLayoutManager
 reverseLayout
 =
 true
-pill_wrapper
+pillWrapper
 {
 connect
 (
@@ -385,7 +385,7 @@ of
 UNSET
 )
 }
-search_with_shortcuts
+searchWithShortcuts
 {
 connect
 (
@@ -409,12 +409,12 @@ TOP
 to
 BOTTOM
 of
-search_with_shortcuts
+searchWithShortcuts
 BOTTOM
 to
 TOP
 of
-pill_wrapper
+pillWrapper
 )
 }
 (
@@ -430,7 +430,7 @@ LinearLayoutManager
 reverseLayout
 =
 false
-pill_wrapper
+pillWrapper
 {
 connect
 (

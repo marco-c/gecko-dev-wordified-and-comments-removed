@@ -362,7 +362,7 @@ id
 +
 id
 /
-send_crash_checkbox
+sendCrashCheckbox
 "
 android
 :
@@ -431,7 +431,7 @@ layout_constraintBottom_toTopOf
 "
 id
 /
-close_tab_button
+closeTabButton
 "
 app
 :
@@ -468,7 +468,7 @@ id
 +
 id
 /
-restore_tab_button
+restoreTabButton
 "
 android
 :
@@ -609,7 +609,7 @@ id
 +
 id
 /
-close_tab_button
+closeTabButton
 "
 android
 :

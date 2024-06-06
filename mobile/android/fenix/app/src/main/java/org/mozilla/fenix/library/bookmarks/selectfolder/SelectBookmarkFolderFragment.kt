@@ -469,7 +469,7 @@ SignInView
 (
 view
 .
-select_bookmark_layout
+selectBookmarkLayout
 bookmarkInteractor
 )
 return
@@ -654,7 +654,7 @@ SelectBookmarkFolderAdapter
 (
 sharedViewModel
 )
-recylerView_bookmark_folders
+recylerViewBookmarkFolders
 .
 adapter
 =

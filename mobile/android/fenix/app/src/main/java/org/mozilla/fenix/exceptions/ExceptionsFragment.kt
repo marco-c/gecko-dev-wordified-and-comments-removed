@@ -346,7 +346,7 @@ ExceptionsView
 (
 view
 .
-exceptions_layout
+exceptionsLayout
 exceptionsInteractor
 )
 return

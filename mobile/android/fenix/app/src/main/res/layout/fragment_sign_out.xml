@@ -242,7 +242,7 @@ id
 +
 id
 /
-sign_out_cancel
+signOutCancel
 "
 style
 =
@@ -275,7 +275,7 @@ layout_constraintEnd_toStartOf
 +
 id
 /
-sign_out_disconnect
+signOutDisconnect
 "
 app
 :
@@ -309,7 +309,7 @@ id
 +
 id
 /
-sign_out_disconnect
+signOutDisconnect
 "
 style
 =

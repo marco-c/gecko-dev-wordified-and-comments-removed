@@ -722,7 +722,7 @@ onViewCreated
 view
 savedInstanceState
 )
-search_scan_button
+searchScanButton
 .
 visibility
 =
@@ -783,7 +783,7 @@ onScanResult
 result
 -
 >
-search_scan_button
+searchScanButton
 .
 isChecked
 =
@@ -972,7 +972,7 @@ view
 )
 view
 .
-search_scan_button
+searchScanButton
 .
 setOnClickListener
 {
@@ -1018,7 +1018,7 @@ toolbar_wrapper
 clipToOutline
 =
 false
-search_shortcuts_button
+searchShortcutsButton
 .
 setOnClickListener
 {
@@ -1197,7 +1197,7 @@ onBackPressed
 view
 ?
 .
-search_scan_button
+searchScanButton
 ?
 .
 isChecked
@@ -1271,7 +1271,7 @@ setBounds
 iconSize
 iconSize
 )
-search_engine_icon
+searchEngineIcon
 ?
 .
 backgroundDrawable
@@ -1287,7 +1287,7 @@ searchState
 SearchState
 )
 {
-search_with_shortcuts
+searchWithShortcuts
 .
 visibility
 =
@@ -1327,7 +1327,7 @@ showShortcuts
 searchState
 .
 showShortcutEnginePicker
-search_shortcuts_button
+searchShortcutsButton
 ?
 .
 isChecked
@@ -1351,7 +1351,7 @@ R
 attr
 .
 primaryText
-search_shortcuts_button
+searchShortcutsButton
 .
 compoundDrawables
 [
@@ -1438,7 +1438,7 @@ else
 view
 ?
 .
-search_scan_button
+searchScanButton
 ?
 .
 isChecked
