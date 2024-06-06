@@ -175,7 +175,7 @@ ServerConfig
 (
 Server
 .
-DEV
+STAGE
 CLIENT_ID
 REDIRECT_URL
 )
