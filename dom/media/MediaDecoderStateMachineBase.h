@@ -282,6 +282,7 @@ BeginShutdown
 (
 )
 ;
+virtual
 RefPtr
 <
 MediaDecoder
