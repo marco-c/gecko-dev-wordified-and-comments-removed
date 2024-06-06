@@ -144,8 +144,9 @@ android
 fillColor
 =
 "
-#
-FFFFFF
+color
+/
+photonWhite
 "
 android
 :
@@ -304,8 +305,9 @@ android
 fillColor
 =
 "
-#
-000000
+color
+/
+photonBlack
 "
 android
 :
@@ -428,8 +430,9 @@ android
 fillColor
 =
 "
-#
-000000
+color
+/
+photonBlack
 "
 android
 :
