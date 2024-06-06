@@ -1807,7 +1807,7 @@ true
 >
 PhotonColors
 .
-DarkGrey30
+DarkGrey60
 false
 -
 >

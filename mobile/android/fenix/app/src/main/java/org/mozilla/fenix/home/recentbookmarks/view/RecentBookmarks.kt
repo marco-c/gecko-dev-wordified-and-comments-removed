@@ -1023,7 +1023,7 @@ true
 >
 PhotonColors
 .
-DarkGrey30
+DarkGrey60
 false
 -
 >
@@ -1113,7 +1113,7 @@ true
 >
 PhotonColors
 .
-DarkGrey30
+DarkGrey60
 false
 -
 >
