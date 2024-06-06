@@ -245,6 +245,16 @@ compose
 .
 ui
 .
+semantics
+.
+clearAndSetSemantics
+import
+androidx
+.
+compose
+.
+ui
+.
 tooling
 .
 preview
@@ -573,6 +583,10 @@ size
 (
 ICON_SIZE
 )
+.
+clearAndSetSemantics
+{
+}
 )
 {
 Icon
