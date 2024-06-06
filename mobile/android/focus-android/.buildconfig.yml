@@ -221,10 +221,6 @@ service
 -
 nimbus
 -
-service
--
-telemetry
--
 support
 -
 base

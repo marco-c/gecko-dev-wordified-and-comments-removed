@@ -2113,16 +2113,6 @@ cfr
 '
 )
 implementation
-project
-(
-'
-:
-service
--
-telemetry
-'
-)
-implementation
 ComponentsDependencies
 .
 kotlin_coroutines
