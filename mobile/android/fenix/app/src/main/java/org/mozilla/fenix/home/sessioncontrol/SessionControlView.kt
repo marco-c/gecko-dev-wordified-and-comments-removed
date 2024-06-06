@@ -271,7 +271,7 @@ fenix
 .
 onboarding
 .
-SyncCFRPresenter
+HomeCFRPresenter
 import
 org
 .
@@ -1241,7 +1241,7 @@ settings
 showSyncCFR
 )
 {
-SyncCFRPresenter
+HomeCFRPresenter
 (
 context
 =

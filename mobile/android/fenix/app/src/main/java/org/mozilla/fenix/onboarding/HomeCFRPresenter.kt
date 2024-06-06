@@ -245,7 +245,7 @@ CFR
 *
 /
 class
-SyncCFRPresenter
+HomeCFRPresenter
 (
 private
 val
