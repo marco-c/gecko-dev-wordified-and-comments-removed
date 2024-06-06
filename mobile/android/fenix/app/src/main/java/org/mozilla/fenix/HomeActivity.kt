@@ -6165,6 +6165,11 @@ stopMediaSession
 (
 )
 {
+if
+(
+isFinishing
+)
+{
 components
 .
 core
@@ -6221,6 +6226,7 @@ it
 id
 )
 )
+}
 }
 }
 /
