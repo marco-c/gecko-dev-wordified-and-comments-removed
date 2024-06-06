@@ -572,6 +572,14 @@ navHost
 navController
 appBarConfiguration
 )
+navigationToolbar
+.
+setNavigationOnClickListener
+{
+onBackPressed
+(
+)
+}
 supportActionBar
 ?
 .
