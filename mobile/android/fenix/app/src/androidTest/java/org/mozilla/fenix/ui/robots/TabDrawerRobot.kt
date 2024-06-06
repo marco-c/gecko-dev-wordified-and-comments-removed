@@ -1255,7 +1255,14 @@ fun
 clickSelectTabs
 (
 )
-=
+{
+threeDotMenu
+(
+)
+.
+click
+(
+)
 onView
 (
 withText
@@ -1270,6 +1277,7 @@ tabs
 click
 (
 )
+}
 fun
 clickAddNewCollection
 (
