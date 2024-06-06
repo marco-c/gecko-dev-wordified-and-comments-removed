@@ -1833,6 +1833,9 @@ accountsAuthFeature
 .
 beginAuthentication
 (
+requireContext
+(
+)
 )
 (
 activity

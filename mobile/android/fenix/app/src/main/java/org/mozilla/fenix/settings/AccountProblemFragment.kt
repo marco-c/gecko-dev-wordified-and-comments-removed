@@ -321,6 +321,9 @@ accountsAuthFeature
 .
 beginAuthentication
 (
+requireContext
+(
+)
 )
 /
 /

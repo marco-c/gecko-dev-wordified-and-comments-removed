@@ -664,6 +664,9 @@ accountsAuthFeature
 .
 beginAuthentication
 (
+requireContext
+(
+)
 )
 view
 ?

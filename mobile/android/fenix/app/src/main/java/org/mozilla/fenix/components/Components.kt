@@ -130,9 +130,6 @@ Services
 backgroundServices
 .
 accountManager
-useCases
-.
-tabsUseCases
 )
 }
 val
