@@ -1071,7 +1071,7 @@ string
 .
 pref_key_studies
 )
-false
+true
 )
 set
 (
