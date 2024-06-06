@@ -1072,7 +1072,7 @@ closeAllTabs
 (
 interact
 :
-BrowserRobot
+HomeScreenRobot
 .
 (
 )
@@ -1081,7 +1081,7 @@ BrowserRobot
 Unit
 )
 :
-BrowserRobot
+HomeScreenRobot
 .
 Transition
 {
@@ -1094,7 +1094,7 @@ dropdownMenuItemCloseAllTabs
 performClick
 (
 )
-BrowserRobot
+HomeScreenRobot
 (
 )
 .
@@ -1102,7 +1102,7 @@ interact
 (
 )
 return
-BrowserRobot
+HomeScreenRobot
 .
 Transition
 (
