@@ -137,6 +137,21 @@ params
 level
 "
 ]
+                    
+'
+release
+-
+type
+'
+:
+config
+.
+params
+[
+"
+release_type
+"
+]
                 
 }
             
