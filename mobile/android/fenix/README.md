@@ -766,10 +766,11 @@ issue
 *
 Slack
 :
-[
 #
 fenix
+channel
 on
+[
 mozilla
 -
 android
@@ -779,6 +780,10 @@ slack
 com
 ]
 (
+https
+:
+/
+/
 mozilla
 -
 android
@@ -811,7 +816,7 @@ android
 /
 shared_invite
 /
-enQtNzk3NDczMzc0ODMzLWNjYTQ5MjA3ZDI0NzNhOTBjMWUyMmNmZDcwM2ZhY2YxZjdjMWIwZWY1YmQ3NjJmMDNkODYxMmRmNTdjNGJmMTU
+enQtODU0ODk2MTgyMjQyLTU5MWU1ZGJkOGRjZmFjOTg2MTE1ZjlmNTU5ZTc5MDc4NjA1MmM0MjQ5Yjg1N2IzMjZjMGVmOTE0MzI1ZjQ3MTA
 )
 (
 *
