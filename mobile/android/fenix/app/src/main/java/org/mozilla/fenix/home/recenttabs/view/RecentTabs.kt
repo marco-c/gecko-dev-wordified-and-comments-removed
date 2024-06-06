@@ -441,6 +441,14 @@ mozilla
 .
 fenix
 .
+FeatureFlags
+import
+org
+.
+mozilla
+.
+fenix
+.
 R
 import
 org
@@ -651,6 +659,13 @@ SearchGroup
 -
 >
 {
+if
+(
+FeatureFlags
+.
+tabGroupFeature
+)
+{
 RecentSearchGroupItem
 (
 searchTerm
@@ -682,6 +697,7 @@ onSearchGroupClicked
 =
 onRecentSearchGroupClicked
 )
+}
 }
 }
 }

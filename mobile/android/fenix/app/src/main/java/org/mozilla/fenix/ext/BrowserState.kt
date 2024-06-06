@@ -131,14 +131,6 @@ mozilla
 .
 fenix
 .
-FeatureFlags
-import
-org
-.
-mozilla
-.
-fenix
-.
 home
 .
 recenttabs
@@ -330,13 +322,6 @@ it
 )
 }
 }
-if
-(
-FeatureFlags
-.
-tabGroupFeature
-)
-{
 lastSearchGroup
 ?
 .
@@ -346,7 +331,6 @@ add
 (
 it
 )
-}
 }
 }
 }
