@@ -221,6 +221,12 @@ android
 sdk
 -
 linux
+-
+android
+-
+gradle
+-
+dependencies
 run
 :
 using
