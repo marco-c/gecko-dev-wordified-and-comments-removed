@@ -772,6 +772,13 @@ preferences_passwords_saved_logins_search
 )
 searchView
 .
+maxWidth
+=
+Int
+.
+MAX_VALUE
+searchView
+.
 setOnQueryTextListener
 (
 object
