@@ -219,16 +219,6 @@ content
 .
 stringPreference
 import
-mozilla
-.
-components
-.
-support
-.
-utils
-.
-Browsers
-import
 org
 .
 mozilla
@@ -1898,7 +1888,7 @@ unsetOpenLinksInAPrivateTabIfNecessary
 {
 if
 (
-Browsers
+BrowsersCache
 .
 all
 (
