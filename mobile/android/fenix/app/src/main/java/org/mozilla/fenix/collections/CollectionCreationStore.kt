@@ -297,6 +297,12 @@ TabCollection
 ?
 =
 null
+val
+defaultCollectionNumber
+:
+Int
+=
+1
 )
 :
 State
@@ -380,6 +386,12 @@ val
 saveCollectionStep
 :
 SaveCollectionStep
+val
+defaultCollectionNumber
+:
+Int
+=
+1
 )
 :
 CollectionCreationAction
@@ -496,5 +508,10 @@ saveCollectionStep
 action
 .
 saveCollectionStep
+defaultCollectionNumber
+=
+action
+.
+defaultCollectionNumber
 )
 }

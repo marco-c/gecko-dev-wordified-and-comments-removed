@@ -1481,11 +1481,7 @@ string
 create_collection_default_name
 state
 .
-tabCollections
-.
-size
-+
-1
+defaultCollectionNumber
 )
 )
 name_collection_edittext
