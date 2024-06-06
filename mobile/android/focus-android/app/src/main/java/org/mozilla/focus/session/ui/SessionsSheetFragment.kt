@@ -303,6 +303,7 @@ playAnimation
 (
 false
 )
+true
 }
 )
 val

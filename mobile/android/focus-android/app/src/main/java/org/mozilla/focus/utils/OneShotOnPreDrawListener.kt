@@ -116,7 +116,7 @@ View
 )
 -
 >
-Unit
+Boolean
 )
 :
 ViewTreeObserver
@@ -139,11 +139,10 @@ removeOnPreDrawListener
 (
 this
 )
+return
 onPreDraw
 (
 view
 )
-return
-true
 }
 }
