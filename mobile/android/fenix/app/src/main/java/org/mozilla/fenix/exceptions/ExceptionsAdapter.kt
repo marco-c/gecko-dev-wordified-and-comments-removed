@@ -113,6 +113,16 @@ widget
 .
 RecyclerView
 import
+mozilla
+.
+components
+.
+ui
+.
+widgets
+.
+WidgetSiteItemView
+import
 org
 .
 mozilla
@@ -483,6 +493,8 @@ LAYOUT_ID
 ExceptionsListItemViewHolder
 (
 view
+as
+WidgetSiteItemView
 interactor
 )
 else
