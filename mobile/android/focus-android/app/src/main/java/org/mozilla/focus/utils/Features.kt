@@ -112,7 +112,7 @@ issues
 /
 JvmField
 val
-SWIPE_TO_REFERSH
+SWIPE_TO_REFRESH
 :
 Boolean
 =

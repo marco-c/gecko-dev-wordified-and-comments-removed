@@ -23,14 +23,6 @@ android
 .
 preference
 .
-Preference
-.
-OnPreferenceClickListener
-import
-android
-.
-preference
-.
 SwitchPreference
 import
 android
@@ -54,12 +46,6 @@ android
 view
 .
 View
-import
-android
-.
-widget
-.
-Switch
 import
 android
 .

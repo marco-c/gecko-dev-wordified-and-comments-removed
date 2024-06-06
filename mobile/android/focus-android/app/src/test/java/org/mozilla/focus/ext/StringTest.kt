@@ -89,16 +89,6 @@ RunWith
 import
 org
 .
-mozilla
-.
-focus
-.
-ext
-.
-beautifyUrl
-import
-org
-.
 robolectric
 .
 RobolectricTestRunner
