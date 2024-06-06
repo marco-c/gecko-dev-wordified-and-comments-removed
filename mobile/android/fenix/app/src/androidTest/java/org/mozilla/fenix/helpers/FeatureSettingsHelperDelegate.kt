@@ -187,6 +187,8 @@ application
 /
 class
 FeatureSettingsHelperDelegate
+(
+)
 :
 FeatureSettingsHelper
 {
@@ -381,6 +383,16 @@ false
 0
 }
 }
+override
+var
+isUnifiedSearchEnabled
+:
+Boolean
+by
+updatedFeatureFlags
+:
+:
+isUnifiedSearchEnabled
 override
 var
 isPocketEnabled
@@ -683,7 +695,7 @@ var
 isTCPCFREnabled
 :
 Boolean
-val
+var
 isUnifiedSearchEnabled
 :
 Boolean

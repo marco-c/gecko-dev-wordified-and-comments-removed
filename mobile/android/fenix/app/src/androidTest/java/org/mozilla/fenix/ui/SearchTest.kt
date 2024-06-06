@@ -593,8 +593,9 @@ openSearch
 verifySearchView
 (
 )
-verifyBrowserToolbar
+verifySearchToolbar
 (
+true
 )
 verifyScanButton
 (
