@@ -1599,7 +1599,7 @@ toInt
 }
 if
 (
-addToAutocompelte
+addToAutoComplete
 .
 layoutParams
 is
@@ -1611,7 +1611,7 @@ MarginLayoutParams
 val
 marginParams
 =
-addToAutocompelte
+addToAutoComplete
 .
 layoutParams
 as
@@ -1914,7 +1914,7 @@ visibility
 View
 .
 GONE
-addToAutocompelte
+addToAutoComplete
 ?
 .
 visibility
@@ -1923,7 +1923,7 @@ View
 .
 VISIBLE
 }
-addToAutocompelte
+addToAutoComplete
 .
 setOnClickListener
 {
@@ -4558,7 +4558,7 @@ visibility
 View
 .
 GONE
-addToAutocompelte
+addToAutoComplete
 ?
 .
 visibility
@@ -4634,7 +4634,7 @@ visibility
 View
 .
 VISIBLE
-addToAutocompelte
+addToAutoComplete
 ?
 .
 visibility
