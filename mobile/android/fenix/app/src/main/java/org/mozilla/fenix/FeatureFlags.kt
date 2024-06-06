@@ -554,9 +554,12 @@ functionality
 .
 *
 /
-const
 val
 showWallpapers
 =
-false
+Config
+.
+channel
+.
+isNightlyOrDebug
 }
