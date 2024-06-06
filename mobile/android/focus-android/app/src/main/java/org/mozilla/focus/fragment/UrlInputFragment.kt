@@ -1896,6 +1896,14 @@ visibility
 View
 .
 GONE
+menuView
+?
+.
+visibility
+=
+View
+.
+GONE
 }
 browserToolbar
 .
