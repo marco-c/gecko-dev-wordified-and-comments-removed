@@ -702,6 +702,14 @@ firefox
 android
 "
 )
+UNSIGNED_ADDONS
+(
+"
+unsigned
+-
+addons
+"
+)
 }
 enum
 class

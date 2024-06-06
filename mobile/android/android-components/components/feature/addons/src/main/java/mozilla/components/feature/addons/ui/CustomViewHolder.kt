@@ -257,7 +257,7 @@ allowedInPrivateBrowsingLabel
 :
 ImageView
 val
-statusBlocklistedView
+statusErrorView
 :
 View
 )

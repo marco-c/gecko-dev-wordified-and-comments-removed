@@ -829,7 +829,7 @@ id
 +
 id
 /
-add_on_status_blocklisted
+add_on_status_error
 "
 android
 :
@@ -877,7 +877,7 @@ id
 +
 id
 /
-add_on_status_blocklisted_message
+add_on_status_error_message
 "
 android
 :
@@ -907,7 +907,7 @@ textColor
 "
 color
 /
-photonRed70
+mozac_feature_addons_error_text_color
 "
 tools
 :
@@ -930,7 +930,7 @@ id
 +
 id
 /
-add_on_status_blocklisted_learn_more_link
+add_on_status_error_learn_more_link
 "
 android
 :
