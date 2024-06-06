@@ -650,6 +650,12 @@ String
 QuickSettingsAction
 (
 )
+object
+SelectTrackingProtectionSettings
+:
+QuickSettingsAction
+(
+)
 data
 class
 ToggleTrackingProtection

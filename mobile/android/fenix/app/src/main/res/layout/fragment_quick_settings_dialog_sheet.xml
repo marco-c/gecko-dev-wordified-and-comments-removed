@@ -497,7 +497,7 @@ layout_constraintBottom_toTopOf
 "
 id
 /
-report_problem
+tracking_protection_action
 "
 app
 :
@@ -520,7 +520,7 @@ id
 +
 id
 /
-report_problem
+tracking_protection_action
 "
 style
 =
