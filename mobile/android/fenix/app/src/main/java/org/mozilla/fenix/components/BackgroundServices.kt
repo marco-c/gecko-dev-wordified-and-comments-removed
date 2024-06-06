@@ -1302,6 +1302,10 @@ accountManager
 autoPushFeature
 crashReporter
 )
+.
+initialize
+(
+)
 }
 SendTabFeature
 (
