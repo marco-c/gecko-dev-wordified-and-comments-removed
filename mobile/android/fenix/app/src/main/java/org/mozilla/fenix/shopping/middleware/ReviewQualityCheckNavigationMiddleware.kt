@@ -423,5 +423,14 @@ OpenPoweredByLink
 -
 >
 POWERED_BY_URL
+is
+ReviewQualityCheckAction
+.
+OpenRecommendedProduct
+-
+>
+action
+.
+productUrl
 }
 }
