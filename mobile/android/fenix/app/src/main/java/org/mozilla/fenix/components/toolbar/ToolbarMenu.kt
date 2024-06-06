@@ -187,6 +187,12 @@ Item
 (
 )
 object
+SyncedTabs
+:
+Item
+(
+)
+object
 AddonsManager
 :
 Item

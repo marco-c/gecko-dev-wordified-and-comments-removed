@@ -4727,6 +4727,10 @@ mozilla_feature_session
 implementation
 Deps
 .
+mozilla_feature_syncedtabs
+implementation
+Deps
+.
 mozilla_feature_toolbar
 implementation
 Deps

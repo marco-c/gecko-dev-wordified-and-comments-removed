@@ -163,6 +163,14 @@ id
 .
 settingsFragment
 )
+FromSyncedTabs
+(
+R
+.
+id
+.
+syncedTabsFragment
+)
 FromBookmarks
 (
 R
