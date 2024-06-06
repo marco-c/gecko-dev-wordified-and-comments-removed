@@ -2399,7 +2399,7 @@ settings
 (
 )
 .
-shouldShowJunoOnboarding
+shouldShowOnboarding
 (
 hasUserBeenOnboarded
 =
@@ -2451,7 +2451,7 @@ navigate
 (
 NavGraphDirections
 .
-actionGlobalJunoOnboarding
+actionGlobalOnboarding
 (
 )
 )

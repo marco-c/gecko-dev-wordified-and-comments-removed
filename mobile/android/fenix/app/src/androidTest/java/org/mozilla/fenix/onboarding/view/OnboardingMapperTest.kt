@@ -193,7 +193,7 @@ nimbus
 .
 OnboardingCardType
 class
-JunoOnboardingMapperTest
+OnboardingMapperTest
 {
 get
 :

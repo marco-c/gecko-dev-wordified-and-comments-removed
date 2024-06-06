@@ -3078,7 +3078,7 @@ isLauncherIntent
 is
 false
 THEN
-shouldShowJunoOnboarding
+shouldShowOnboarding
 returns
 false
 (
@@ -3096,7 +3096,7 @@ actual
 =
 settings
 .
-shouldShowJunoOnboarding
+shouldShowOnboarding
 (
 hasUserBeenOnboarded
 =
@@ -3117,7 +3117,7 @@ hasUserBeenOnboarded
 is
 true
 THEN
-shouldShowJunoOnboarding
+shouldShowOnboarding
 returns
 false
 (
@@ -3135,7 +3135,7 @@ actual
 =
 settings
 .
-shouldShowJunoOnboarding
+shouldShowOnboarding
 (
 hasUserBeenOnboarded
 =
@@ -3160,7 +3160,7 @@ isLauncherIntent
 is
 true
 THEN
-shouldShowJunoOnboarding
+shouldShowOnboarding
 returns
 true
 (
@@ -3178,7 +3178,7 @@ actual
 =
 settings
 .
-shouldShowJunoOnboarding
+shouldShowOnboarding
 (
 hasUserBeenOnboarded
 =

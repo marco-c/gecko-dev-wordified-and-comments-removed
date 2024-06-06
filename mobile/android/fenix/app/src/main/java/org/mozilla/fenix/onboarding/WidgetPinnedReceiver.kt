@@ -145,7 +145,7 @@ onboarding
 .
 view
 .
-JunoOnboardingScreen
+OnboardingScreen
 /
 *
 *
@@ -165,8 +165,6 @@ add
 search
 widget
 from
-the
-Juno
 Onboarding
 .
 *
@@ -295,7 +293,7 @@ Widget
 card
 from
 [
-JunoOnboardingScreen
+OnboardingScreen
 ]
 .
 *

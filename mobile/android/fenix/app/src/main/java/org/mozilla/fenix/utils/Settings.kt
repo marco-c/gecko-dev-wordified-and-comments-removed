@@ -8748,7 +8748,6 @@ false
 *
 Returns
 whether
-juno
 onboarding
 should
 be
@@ -8793,7 +8792,7 @@ icon
 *
 /
 fun
-shouldShowJunoOnboarding
+shouldShowOnboarding
 (
 hasUserBeenOnboarded
 :

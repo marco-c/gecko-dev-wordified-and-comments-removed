@@ -109,7 +109,7 @@ settings
 .
 SupportUtils
 class
-JunoOnboardingMapperTest
+OnboardingMapperTest
 {
 Test
 fun

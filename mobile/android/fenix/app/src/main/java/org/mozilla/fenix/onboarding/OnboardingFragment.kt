@@ -311,7 +311,7 @@ onboarding
 .
 view
 .
-JunoOnboardingScreen
+OnboardingPageUiData
 import
 org
 .
@@ -323,7 +323,7 @@ onboarding
 .
 view
 .
-OnboardingPageUiData
+OnboardingScreen
 import
 org
 .
@@ -397,14 +397,13 @@ SearchWidgetProvider
 Fragment
 displaying
 the
-juno
 onboarding
 flow
 .
 *
 /
 class
-JunoOnboardingFragment
+OnboardingFragment
 :
 Fragment
 (
@@ -435,7 +434,7 @@ telemetryRecorder
 by
 lazy
 {
-JunoOnboardingTelemetryRecorder
+OnboardingTelemetryRecorder
 (
 )
 }
@@ -637,7 +636,7 @@ context
 LocalContext
 .
 current
-JunoOnboardingScreen
+OnboardingScreen
 (
 pagesToDisplay
 =
@@ -759,10 +758,10 @@ R
 .
 id
 .
-junoOnboardingFragment
+onboardingFragment
 directions
 =
-JunoOnboardingFragmentDirections
+OnboardingFragmentDirections
 .
 actionGlobalTurnOnSync
 (
@@ -1107,10 +1106,10 @@ R
 .
 id
 .
-junoOnboardingFragment
+onboardingFragment
 directions
 =
-JunoOnboardingFragmentDirections
+OnboardingFragmentDirections
 .
 actionHome
 (
@@ -1217,7 +1216,7 @@ OnboardingPageUiData
 >
 {
 val
-junoOnboardingFeature
+jexlConditions
 =
 FxNimbus
 .
@@ -1228,10 +1227,6 @@ junoOnboarding
 value
 (
 )
-val
-jexlConditions
-=
-junoOnboardingFeature
 .
 conditions
 val

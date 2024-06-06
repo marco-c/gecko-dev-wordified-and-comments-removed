@@ -97,12 +97,12 @@ recording
 telemetry
 events
 for
-JunoOnboarding
+Onboarding
 .
 *
 /
 class
-JunoOnboardingTelemetryRecorder
+OnboardingTelemetryRecorder
 {
 /
 *

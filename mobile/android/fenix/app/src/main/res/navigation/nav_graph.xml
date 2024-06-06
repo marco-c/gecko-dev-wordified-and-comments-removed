@@ -325,7 +325,7 @@ id
 +
 id
 /
-action_global_juno_onboarding
+action_global_onboarding
 "
 app
 :
@@ -334,7 +334,7 @@ destination
 "
 id
 /
-junoOnboardingFragment
+onboardingFragment
 "
 app
 :
@@ -1422,7 +1422,7 @@ id
 +
 id
 /
-junoOnboardingFragment
+onboardingFragment
 "
 android
 :
@@ -1437,7 +1437,7 @@ fenix
 .
 onboarding
 .
-JunoOnboardingFragment
+OnboardingFragment
 "
 >
 <
@@ -1468,7 +1468,7 @@ popUpTo
 "
 id
 /
-junoOnboardingFragment
+onboardingFragment
 "
 app
 :

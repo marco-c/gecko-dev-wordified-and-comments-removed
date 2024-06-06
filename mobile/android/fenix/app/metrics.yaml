@@ -7333,7 +7333,6 @@ description
 |
 User
 viewed
-juno
 onboarding
 set
 to
@@ -7498,7 +7497,6 @@ description
 |
 User
 viewed
-juno
 onboarding
 sign
 in
@@ -7662,7 +7660,6 @@ description
 |
 User
 viewed
-juno
 onboarding
 notification
 permission
@@ -7832,7 +7829,6 @@ to
 default
 button
 in
-juno
 onboarding
 .
 extra_keys
@@ -8000,7 +7996,6 @@ to
 default
 button
 in
-juno
 onboarding
 .
 extra_keys
@@ -8166,7 +8161,6 @@ sign
 in
 button
 in
-juno
 onboarding
 .
 extra_keys
@@ -8333,7 +8327,6 @@ sign
 in
 button
 in
-juno
 onboarding
 .
 extra_keys
@@ -8500,7 +8493,6 @@ on
 notifications
 button
 in
-juno
 onboarding
 .
 extra_keys
@@ -8668,7 +8660,6 @@ on
 notification
 button
 in
-juno
 onboarding
 .
 extra_keys
@@ -8829,7 +8820,6 @@ description
 |
 User
 viewed
-juno
 onboarding
 add
 search
@@ -8999,7 +8989,6 @@ Add
 Firefox
 Widget
 in
-juno
 onboarding
 .
 extra_keys
@@ -9167,7 +9156,6 @@ search
 widget
 button
 in
-juno
 onboarding
 .
 extra_keys
@@ -9333,7 +9321,6 @@ privacy
 policy
 link
 in
-juno
 onboarding
 .
 extra_keys
@@ -9494,8 +9481,6 @@ description
 |
 User
 completed
-the
-juno
 onboarding
 .
 extra_keys

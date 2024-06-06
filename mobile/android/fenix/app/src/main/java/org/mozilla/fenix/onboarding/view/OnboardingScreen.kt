@@ -411,7 +411,6 @@ A
 screen
 for
 displaying
-juno
 onboarding
 .
 *
@@ -595,7 +594,7 @@ LongMethod
 "
 )
 fun
-JunoOnboardingScreen
+OnboardingScreen
 (
 pagesToDisplay
 :
@@ -894,7 +893,7 @@ scrollToNextPageOrDismiss
 )
 }
 }
-JunoOnboardingContent
+OnboardingContent
 (
 pagesToDisplay
 =
@@ -1010,7 +1009,7 @@ LongParameterList
 )
 private
 fun
-JunoOnboardingContent
+OnboardingContent
 (
 pagesToDisplay
 :
@@ -1380,7 +1379,7 @@ LightDarkPreview
 Composable
 private
 fun
-JunoOnboardingScreenPreview
+OnboardingScreenPreview
 (
 )
 {
@@ -1394,7 +1393,7 @@ defaultPreviewPages
 size
 FirefoxTheme
 {
-JunoOnboardingContent
+OnboardingContent
 (
 pagesToDisplay
 =
