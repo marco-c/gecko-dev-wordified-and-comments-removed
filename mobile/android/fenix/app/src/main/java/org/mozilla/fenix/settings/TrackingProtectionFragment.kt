@@ -862,7 +862,7 @@ R
 .
 string
 .
-preference_enhanced_tracking_protection_standard
+preference_enhanced_tracking_protection_standard_option
 )
 )
 )
