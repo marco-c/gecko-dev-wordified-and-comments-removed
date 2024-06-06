@@ -339,6 +339,12 @@ maxCacheAgeInMinutes
 DAY_IN_MINUTES
 )
 }
+Suppress
+(
+"
+MagicNumber
+"
+)
 val
 addonUpdater
 by
@@ -351,10 +357,10 @@ AddonUpdater
 .
 Frequency
 (
-1
+12
 TimeUnit
 .
-DAYS
+HOURS
 )
 )
 }
