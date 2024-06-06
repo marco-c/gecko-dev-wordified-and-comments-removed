@@ -608,17 +608,6 @@ end_thread_local
 .
 endm
 #
-define
-L
-(
-x
-)
-.
-L
-#
-#
-x
-#
 endif
 /
 *
