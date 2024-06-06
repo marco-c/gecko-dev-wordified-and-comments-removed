@@ -365,6 +365,11 @@ selectedLocale
 action
 .
 selectedItem
+searchedLocaleList
+=
+state
+.
+localeList
 )
 }
 is
