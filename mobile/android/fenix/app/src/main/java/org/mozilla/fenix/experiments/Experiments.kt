@@ -168,5 +168,12 @@ DEFAULT_BROWSER_NEW_TAB_BANNER
 "
 default_browser_newtab_banner
 "
+const
+val
+DEFAULT_BROWSER_SETTINGS_MENU
+=
+"
+default_browser_settings_menu
+"
 }
 }
