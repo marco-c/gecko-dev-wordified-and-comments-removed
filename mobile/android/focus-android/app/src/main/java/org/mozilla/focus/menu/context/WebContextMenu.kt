@@ -1089,7 +1089,16 @@ add
 session
 selected
 =
-false
+Settings
+.
+getInstance
+(
+context
+)
+.
+shouldOpenNewTabs
+(
+)
 )
 if
 (
