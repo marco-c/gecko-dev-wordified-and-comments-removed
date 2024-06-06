@@ -151,13 +151,6 @@ layout_marginBottom
 "
 android
 :
-paddingTop
-=
-"
-20dp
-"
-android
-:
 background
 =
 "
@@ -260,6 +253,13 @@ wrap_content
 android
 :
 layout_marginStart
+=
+"
+20dp
+"
+android
+:
+paddingTop
 =
 "
 20dp
@@ -424,7 +424,7 @@ android
 textSize
 =
 "
-12sp
+14sp
 "
 app
 :
@@ -540,7 +540,7 @@ android
 textSize
 =
 "
-12sp
+14sp
 "
 app
 :
