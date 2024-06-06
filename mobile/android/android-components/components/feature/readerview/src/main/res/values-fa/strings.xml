@@ -45,9 +45,6 @@ name
 mozac_feature_readerview_sans_serif_font
 "
 >
-Sans
--
-serif
 <
 /
 string
@@ -73,8 +70,6 @@ name
 mozac_feature_readerview_sans_serif_font_desc
 "
 >
-Sans
-Serif
 <
 /
 string
@@ -104,7 +99,6 @@ name
 mozac_feature_readerview_serif_font
 "
 >
-Serif
 <
 /
 string
