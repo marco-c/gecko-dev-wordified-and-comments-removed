@@ -808,12 +808,6 @@ val
 ANIMATION_DURATION
 =
 200
-private
-lateinit
-var
-searchSuggestionsViewModel
-:
-SearchSuggestionsViewModel
 JvmStatic
 fun
 createWithoutSession
@@ -941,6 +935,12 @@ get
 _binding
 !
 !
+private
+lateinit
+var
+searchSuggestionsViewModel
+:
+SearchSuggestionsViewModel
 Volatile
 private
 var
