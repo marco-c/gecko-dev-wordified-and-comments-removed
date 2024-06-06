@@ -170,7 +170,7 @@ fetch
 '
 )
 implementation
-FocusDependencies
+ComponentsDependencies
 .
 androidx_annotation
 }
