@@ -2060,7 +2060,14 @@ val
 EXTRA_DELETE_PRIVATE_TABS
 =
 "
-notification
+notification_delete_and_open
+"
+const
+val
+EXTRA_OPENED_FROM_NOTIFICATION
+=
+"
+notification_open
 "
 }
 }
