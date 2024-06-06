@@ -129,6 +129,14 @@ UiSelector
 import
 org
 .
+junit
+.
+rules
+.
+TestRule
+import
+org
+.
 mozilla
 .
 fenix
@@ -187,7 +195,8 @@ HomeActivityComposeTestRule
 =
 AndroidComposeTestRule
 <
-HomeActivityTestRule
+out
+TestRule
 HomeActivity
 >
 /
