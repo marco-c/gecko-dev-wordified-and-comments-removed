@@ -2508,10 +2508,6 @@ anko_sdk
 implementation
 Deps
 .
-anko_appcompat
-implementation
-Deps
-.
 anko_constraintlayout
 implementation
 Deps
