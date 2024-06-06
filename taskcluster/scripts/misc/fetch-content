@@ -1583,10 +1583,6 @@ chunk
 )
 return
 except
-IntegrityError
-:
-raise
-except
 Exception
 as
 e
@@ -1698,10 +1694,6 @@ data
 chunk
 return
 data
-except
-IntegrityError
-:
-raise
 except
 Exception
 as
