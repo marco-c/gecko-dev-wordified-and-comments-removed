@@ -134,12 +134,6 @@ focus
 GleanMetrics
 .
 Pings
-import
-java
-.
-util
-.
-UUID
 /
 *
 *

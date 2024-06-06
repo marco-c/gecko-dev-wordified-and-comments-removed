@@ -2741,13 +2741,5 @@ EXTRA_NOTIFICATION
 "
 notification
 "
-private
-const
-val
-EXTRA_SHORTCUT
-=
-"
-shortcut
-"
 }
 }
