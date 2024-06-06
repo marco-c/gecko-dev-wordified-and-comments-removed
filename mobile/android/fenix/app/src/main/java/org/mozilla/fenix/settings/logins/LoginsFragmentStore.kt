@@ -951,6 +951,16 @@ contains
 (
 searchedForText
 )
+|
+|
+it
+.
+username
+.
+contains
+(
+searchedForText
+)
 }
 )
 }
