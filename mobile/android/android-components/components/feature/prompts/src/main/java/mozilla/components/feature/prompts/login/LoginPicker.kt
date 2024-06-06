@@ -467,6 +467,11 @@ promptRequest
 )
 )
 }
+loginSelectBar
+.
+hidePrompt
+(
+)
 return
 }
 store
