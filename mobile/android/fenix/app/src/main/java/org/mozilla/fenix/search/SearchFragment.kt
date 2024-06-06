@@ -1252,6 +1252,16 @@ getDefaultSearchEngine
 requireContext
 (
 )
+Settings
+.
+getInstance
+(
+requireContext
+(
+)
+)
+.
+defaultSearchEngineName
 )
 if
 (
