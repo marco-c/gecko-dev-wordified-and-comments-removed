@@ -1587,6 +1587,14 @@ navigate
 (
 directions
 )
+metrics
+.
+track
+(
+Event
+.
+RecentlyClosedTabsOpened
+)
 }
 override
 fun

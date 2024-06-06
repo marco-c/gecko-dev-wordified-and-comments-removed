@@ -1188,6 +1188,12 @@ TabSettingsOpened
 Event
 (
 )
+object
+RecentlyClosedTabsOpened
+:
+Event
+(
+)
 /
 /
 Interaction
