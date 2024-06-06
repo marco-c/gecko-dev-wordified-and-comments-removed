@@ -117,16 +117,6 @@ navigation
 .
 fragment
 .
-NavHostFragment
-.
-findNavController
-import
-androidx
-.
-navigation
-.
-fragment
-.
 findNavController
 import
 mozilla
@@ -217,7 +207,6 @@ null
 {
 findNavController
 (
-this
 )
 .
 nav
