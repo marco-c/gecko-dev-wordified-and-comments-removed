@@ -1413,11 +1413,6 @@ BrowsingData
 ALL_SITE_DATA
 )
 )
-navController
-.
-popBackStack
-(
-)
 }
 /
 *

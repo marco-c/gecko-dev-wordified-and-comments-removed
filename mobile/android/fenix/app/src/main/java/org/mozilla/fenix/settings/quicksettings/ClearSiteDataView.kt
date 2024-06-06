@@ -135,6 +135,12 @@ view
 .
 isVisible
 import
+androidx
+.
+navigation
+.
+NavController
+import
 kotlinx
 .
 coroutines
@@ -309,6 +315,10 @@ val
 interactor
 :
 ClearSiteDataViewInteractor
+val
+navController
+:
+NavController
 )
 {
 VisibleForTesting
@@ -378,6 +388,11 @@ clearSiteData
 setOnClickListener
 {
 askToClear
+(
+)
+navController
+.
+popBackStack
 (
 )
 }
