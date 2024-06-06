@@ -389,9 +389,6 @@ final
 TextView
 titleView
 =
-(
-TextView
-)
 view
 .
 findViewById
@@ -416,9 +413,6 @@ final
 TextView
 textView
 =
-(
-TextView
-)
 view
 .
 findViewById
@@ -443,9 +437,6 @@ final
 ImageView
 imageView
 =
-(
-ImageView
-)
 view
 .
 findViewById
@@ -470,9 +461,6 @@ final
 Button
 buttonView
 =
-(
-Button
-)
 view
 .
 findViewById
