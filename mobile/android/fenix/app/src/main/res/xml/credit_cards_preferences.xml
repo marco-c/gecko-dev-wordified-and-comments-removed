@@ -221,6 +221,13 @@ preferences_credit_cards_add_credit_card
 "
 app
 :
+isPreferenceVisible
+=
+"
+false
+"
+app
+:
 allowDividerAbove
 =
 "
@@ -247,6 +254,13 @@ title
 string
 /
 preferences_credit_cards_manage_saved_cards
+"
+app
+:
+isPreferenceVisible
+=
+"
+false
 "
 app
 :
