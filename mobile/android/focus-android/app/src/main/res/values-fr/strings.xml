@@ -681,6 +681,7 @@ preference_state_on
 "
 >
 Activ
+e
 <
 /
 string
@@ -695,6 +696,7 @@ preference_state_off
 >
 D
 sactiv
+e
 <
 /
 string
