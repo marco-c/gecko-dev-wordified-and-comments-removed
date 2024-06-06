@@ -493,6 +493,9 @@ clickInstallAddon
 addonName
 )
 }
+verifyAddonDownloadOverlay
+(
+)
 verifyAddonPermissionPrompt
 (
 addonName
