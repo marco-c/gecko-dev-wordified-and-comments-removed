@@ -439,6 +439,10 @@ val
 toolbarIntegration
 :
 ToolbarIntegration
+val
+menuToolbar
+:
+ToolbarMenu
 VisibleForTesting
 internal
 val
@@ -750,10 +754,6 @@ string
 search_hint
 )
 }
-val
-menuToolbar
-:
-ToolbarMenu
 if
 (
 isCustomTabSession
