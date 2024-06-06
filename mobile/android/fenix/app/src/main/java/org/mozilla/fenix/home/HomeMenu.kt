@@ -654,7 +654,7 @@ Bookmarks
 )
 }
 val
-libraryItem
+historyItem
 =
 BrowserMenuImageText
 (
@@ -841,7 +841,7 @@ textColorResource
 menuCategoryTextColor
 )
 bookmarksItem
-libraryItem
+historyItem
 BrowserMenuDivider
 (
 )
