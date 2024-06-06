@@ -304,9 +304,9 @@ fenix
 .
 ui
 .
-SmokeTest
+SettingsSearchTest
 #
-toggleSearchSuggestions
+toggleSearchSuggestionsTest
 -
 class
 org
