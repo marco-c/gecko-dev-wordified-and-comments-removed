@@ -1399,6 +1399,7 @@ applicationContext
 RecordingDevicesMiddleware
 (
 applicationContext
+notificationsDelegate
 )
 LastAccessMiddleware
 (

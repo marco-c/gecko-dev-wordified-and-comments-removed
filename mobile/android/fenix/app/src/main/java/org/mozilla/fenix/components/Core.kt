@@ -1872,6 +1872,11 @@ context
 RecordingDevicesMiddleware
 (
 context
+context
+.
+components
+.
+notificationsDelegate
 )
 PromptMiddleware
 (

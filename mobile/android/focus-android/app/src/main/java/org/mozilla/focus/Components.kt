@@ -1270,6 +1270,7 @@ context
 RecordingDevicesMiddleware
 (
 context
+notificationsDelegate
 )
 CfrMiddleware
 (
