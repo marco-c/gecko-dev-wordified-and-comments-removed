@@ -1747,6 +1747,15 @@ useCases
 tabsUseCases
 .
 addTab
+reloadUrlUseCase
+=
+components
+.
+useCases
+.
+sessionUseCases
+.
+reload
 fragmentStore
 =
 homeFragmentStore
