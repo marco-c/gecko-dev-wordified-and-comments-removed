@@ -4434,7 +4434,7 @@ stringRes
 .
 setAnchorView
 (
-bottom_bar
+snackbarAnchorView
 )
 .
 show
@@ -4489,7 +4489,7 @@ string
 .
 setAnchorView
 (
-bottom_bar
+snackbarAnchorView
 )
 .
 show
