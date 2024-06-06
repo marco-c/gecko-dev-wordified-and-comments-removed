@@ -263,6 +263,7 @@ android
 )
 }
 }
+SmokeTest
 Test
 fun
 openAboutPageTest
@@ -326,6 +327,7 @@ manifesto
 )
 }
 }
+SmokeTest
 Test
 fun
 openMozillaSettingsHelpLinkTest
@@ -373,6 +375,7 @@ android
 )
 }
 }
+SmokeTest
 Test
 fun
 openYourRightsPageTest
@@ -431,6 +434,7 @@ yourRightsString
 )
 }
 }
+SmokeTest
 Test
 fun
 openPrivacyNoticeTest

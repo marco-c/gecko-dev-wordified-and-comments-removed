@@ -213,9 +213,13 @@ SmokeTest
 Ignore
 (
 "
-Failing
-because
-of
+To
+be
+updated
+and
+re
+-
+enabled
 :
 https
 :
@@ -235,7 +239,7 @@ android
 /
 issues
 /
-4729
+5534
 "
 )
 RunWith
@@ -926,6 +930,7 @@ click
 )
 )
 }
+SmokeTest
 Test
 Throws
 (

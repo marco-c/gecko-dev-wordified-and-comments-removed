@@ -324,6 +324,7 @@ e
 )
 }
 }
+SmokeTest
 Test
 fun
 addPageToHomeScreenTest

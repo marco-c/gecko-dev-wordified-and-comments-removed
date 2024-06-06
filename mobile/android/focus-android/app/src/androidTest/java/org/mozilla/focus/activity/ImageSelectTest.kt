@@ -233,6 +233,16 @@ TestHelper
 .
 waitingTime
 import
+org
+.
+mozilla
+.
+focus
+.
+testAnnotations
+.
+SmokeTest
+import
 java
 .
 io
@@ -1299,6 +1309,7 @@ Suppress
 LongMethod
 "
 )
+SmokeTest
 Test
 Throws
 (

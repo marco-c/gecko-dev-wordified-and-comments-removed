@@ -286,6 +286,7 @@ searchSuggestionsIdlingResources
 )
 }
 }
+SmokeTest
 Test
 fun
 changeSearchEngineTest
@@ -522,6 +523,7 @@ searchString
 )
 }
 }
+SmokeTest
 Test
 fun
 disableSearchSuggestionsTest

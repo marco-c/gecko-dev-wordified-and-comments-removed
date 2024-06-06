@@ -599,6 +599,7 @@ verifyBrowserView
 )
 }
 }
+SmokeTest
 Test
 fun
 switchFromSettingsToFocusTest
