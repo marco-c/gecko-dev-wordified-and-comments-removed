@@ -9664,7 +9664,9 @@ error
 in
 reftest
 .
-jsm
+sys
+.
+mjs
 fuzzy
 test
 handling
