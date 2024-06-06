@@ -600,7 +600,7 @@ R
 .
 string
 .
-tabs_header_title
+tab_header_label
 )
 is
 SessionType
