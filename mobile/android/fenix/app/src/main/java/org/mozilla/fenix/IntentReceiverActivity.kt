@@ -442,7 +442,7 @@ the
 default
 browser
 unset
-alwaysOpenInPrivateMode
+openLinksInAPrivateTab
 *
 /
 this

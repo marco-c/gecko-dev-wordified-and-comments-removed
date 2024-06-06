@@ -163,7 +163,7 @@ TestApplication
 Test
 fun
 GIVEN
-alwaysOpenInPrivateMode
+openLinksInAPrivateTab
 is
 active
 WHEN
@@ -184,7 +184,7 @@ every
 {
 settings
 .
-alwaysOpenInPrivateMode
+openLinksInAPrivateTab
 }
 returns
 true
@@ -216,7 +216,7 @@ Boolean
 Test
 fun
 GIVEN
-alwaysOpenInPrivateMode
+openLinksInAPrivateTab
 is
 inactive
 WHEN
@@ -236,7 +236,7 @@ every
 {
 settings
 .
-alwaysOpenInPrivateMode
+openLinksInAPrivateTab
 }
 returns
 false

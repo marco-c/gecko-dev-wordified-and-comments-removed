@@ -1020,7 +1020,7 @@ if
 !
 settings
 .
-alwaysOpenInPrivateMode
+openLinksInAPrivateTab
 )
 settings
 .
