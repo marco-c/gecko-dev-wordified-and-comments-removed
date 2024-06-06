@@ -642,7 +642,7 @@ R
 .
 id
 .
-bookmarkAddFolderTitleEdit
+bookmarkNameEdit
 )
 )
 private
@@ -1005,7 +1005,7 @@ R
 .
 id
 .
-bookmarkFolderSelector
+bookmarkParentFolderSelector
 )
 )
 .
