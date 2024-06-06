@@ -520,12 +520,6 @@ Event
 (
 )
 object
-QuickActionSheetReadTapped
-:
-Event
-(
-)
-object
 CustomTabsClosed
 :
 Event
@@ -677,6 +671,12 @@ Event
 )
 object
 ReaderModeOpened
+:
+Event
+(
+)
+object
+ReaderModeClosed
 :
 Event
 (
