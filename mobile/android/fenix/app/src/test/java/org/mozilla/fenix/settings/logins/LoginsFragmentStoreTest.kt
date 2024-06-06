@@ -232,11 +232,6 @@ sortingStrategy
 SortingStrategy
 .
 LastUsed
-(
-mockk
-(
-)
-)
 highlightedItem
 =
 SavedLoginsSortingStrategyMenu
@@ -541,11 +536,6 @@ lastUsed
 SortingStrategy
 .
 LastUsed
-(
-mockk
-(
-)
-)
 val
 store
 =
@@ -666,11 +656,6 @@ lastUsed
 SortingStrategy
 .
 LastUsed
-(
-mockk
-(
-)
-)
 val
 store
 =

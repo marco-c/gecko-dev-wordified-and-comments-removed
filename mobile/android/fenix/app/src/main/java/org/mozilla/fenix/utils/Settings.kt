@@ -4002,6 +4002,10 @@ SortingStrategy
 Alphabetically
 (
 appContext
+.
+components
+.
+publicSuffixList
 )
 SavedLoginsFragment
 .
@@ -4011,9 +4015,6 @@ SORTING_STRATEGY_LAST_USED
 SortingStrategy
 .
 LastUsed
-(
-appContext
-)
 else
 -
 >
@@ -4022,6 +4023,10 @@ SortingStrategy
 Alphabetically
 (
 appContext
+.
+components
+.
+publicSuffixList
 )
 }
 }

@@ -79,12 +79,6 @@ view
 .
 ViewGroup
 import
-io
-.
-mockk
-.
-mockk
-import
 kotlinx
 .
 android
@@ -234,11 +228,6 @@ sortingStrategy
 SortingStrategy
 .
 LastUsed
-(
-mockk
-(
-)
-)
 highlightedItem
 =
 SavedLoginsSortingStrategyMenu
