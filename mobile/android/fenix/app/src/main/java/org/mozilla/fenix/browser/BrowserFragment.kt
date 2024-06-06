@@ -1644,6 +1644,7 @@ findInPageView
 view
 .
 engineView
+toolbar
 )
 owner
 =
