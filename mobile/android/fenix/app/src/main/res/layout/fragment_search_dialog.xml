@@ -109,6 +109,16 @@ android
 "
 android
 :
+id
+=
+"
++
+id
+/
+search_wrapper
+"
+android
+:
 layout_width
 =
 "
