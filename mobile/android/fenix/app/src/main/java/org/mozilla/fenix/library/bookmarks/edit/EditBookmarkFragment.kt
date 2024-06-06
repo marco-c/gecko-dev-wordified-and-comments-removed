@@ -347,7 +347,7 @@ fenix
 .
 components
 .
-BrowserSnackbarPresenter
+FenixSnackbar
 import
 org
 .
@@ -1237,7 +1237,9 @@ let
 bookmark
 -
 >
-BrowserSnackbarPresenter
+FenixSnackbar
+.
+makeWithToolbarPadding
 (
 activity
 .
@@ -1248,7 +1250,7 @@ getRootView
 !
 )
 .
-present
+setText
 (
 getString
 (
@@ -1276,6 +1278,10 @@ bookmark
 .
 title
 )
+)
+.
+show
+(
 )
 }
 }

@@ -339,7 +339,7 @@ fenix
 .
 components
 .
-BrowserSnackbarPresenter
+FenixSnackbar
 import
 org
 .
@@ -678,11 +678,16 @@ navController
 findNavController
 (
 )
-snackbarPresenter
+snackbar
 =
-BrowserSnackbarPresenter
+FenixSnackbar
+.
+make
 (
 view
+FenixSnackbar
+.
+LENGTH_LONG
 )
 deleteBookmarkNodes
 =

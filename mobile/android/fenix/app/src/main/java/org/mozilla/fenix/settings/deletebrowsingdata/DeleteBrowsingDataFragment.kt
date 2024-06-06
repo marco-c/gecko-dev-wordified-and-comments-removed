@@ -839,11 +839,11 @@ updateItemCounts
 )
 FenixSnackbar
 .
-make
+makeWithToolbarPadding
 (
-view
-!
-!
+requireView
+(
+)
 FenixSnackbar
 .
 LENGTH_SHORT

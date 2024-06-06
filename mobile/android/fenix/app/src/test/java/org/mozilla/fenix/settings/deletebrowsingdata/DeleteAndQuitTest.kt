@@ -605,11 +605,6 @@ removeAllTabsUseCases
 invoke
 (
 )
-snackbar
-.
-dismiss
-(
-)
 activity
 .
 finish
@@ -802,11 +797,6 @@ DOM_STORAGES
 )
 )
 historyStorage
-snackbar
-.
-dismiss
-(
-)
 activity
 .
 finish

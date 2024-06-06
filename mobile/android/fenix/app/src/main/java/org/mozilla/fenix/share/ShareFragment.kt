@@ -219,7 +219,7 @@ fenix
 .
 components
 .
-BrowserSnackbarPresenter
+FenixSnackbar
 import
 org
 .
@@ -430,9 +430,11 @@ requireContext
 shareData
 =
 shareData
-snackbarPresenter
+snackbar
 =
-BrowserSnackbarPresenter
+FenixSnackbar
+.
+makeWithToolbarPadding
 (
 requireActivity
 (
