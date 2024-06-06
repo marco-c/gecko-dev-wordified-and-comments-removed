@@ -357,7 +357,7 @@ override
 fun
 openWebsite
 (
-addonSiteUrl
+url
 :
 Uri
 )
@@ -372,7 +372,7 @@ openToBrowserAndLoad
 (
 searchTermOrURL
 =
-addonSiteUrl
+url
 .
 toString
 (

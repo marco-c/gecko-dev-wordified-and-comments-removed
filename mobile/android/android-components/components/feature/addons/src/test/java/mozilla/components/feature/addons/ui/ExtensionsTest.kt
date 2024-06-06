@@ -277,11 +277,6 @@ id
 "
 id
 "
-authors
-=
-emptyList
-(
-)
 categories
 =
 emptyList
