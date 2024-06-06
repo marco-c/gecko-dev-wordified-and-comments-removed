@@ -848,6 +848,13 @@ mDevice
 openNotification
 (
 )
+verifySystemNotificationExists
+(
+"
+Download
+completed
+"
+)
 swipeDownloadNotification
 (
 direction
