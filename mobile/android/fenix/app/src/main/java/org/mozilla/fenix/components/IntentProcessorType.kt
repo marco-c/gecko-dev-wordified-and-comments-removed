@@ -97,6 +97,8 @@ mozilla
 .
 fenix
 .
+migration
+.
 MigrationProgressActivity
 import
 org
