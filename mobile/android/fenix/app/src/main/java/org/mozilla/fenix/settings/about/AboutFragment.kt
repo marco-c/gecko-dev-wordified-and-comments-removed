@@ -730,6 +730,17 @@ toString
 (
 )
 val
+componentsAbbreviation
+=
+getString
+(
+R
+.
+string
+.
+components_abbreviation
+)
+val
 componentsVersion
 =
 mozilla
@@ -813,6 +824,9 @@ s
 n
 %
 s
+:
+%
+s
 \
 n
 %
@@ -832,6 +846,7 @@ packageInfo
 .
 versionName
 versionCode
+componentsAbbreviation
 componentsVersion
 maybeGecko
 geckoVersion
