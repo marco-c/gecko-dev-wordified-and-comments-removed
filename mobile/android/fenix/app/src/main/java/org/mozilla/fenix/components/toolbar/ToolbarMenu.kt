@@ -255,6 +255,12 @@ Downloads
 Item
 (
 )
+object
+NewTab
+:
+Item
+(
+)
 }
 val
 menuBuilder
