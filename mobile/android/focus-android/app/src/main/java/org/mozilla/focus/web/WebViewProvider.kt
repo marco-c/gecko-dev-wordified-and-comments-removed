@@ -109,7 +109,7 @@ val
 ENGINE_PREF_STRING_KEY
 =
 "
-renderer_preference
+use_gecko_engine
 "
 object
 WebViewProvider

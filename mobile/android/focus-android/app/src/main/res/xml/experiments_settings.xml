@@ -48,7 +48,7 @@ android
 key
 =
 "
-renderer_preference
+use_gecko_engine
 "
 android
 :
