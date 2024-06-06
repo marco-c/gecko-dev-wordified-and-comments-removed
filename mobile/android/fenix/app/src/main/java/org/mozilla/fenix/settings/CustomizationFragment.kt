@@ -277,6 +277,9 @@ xml
 customization_preferences
 rootKey
 )
+setupPreferences
+(
+)
 }
 override
 fun
@@ -299,9 +302,6 @@ string
 .
 preferences_customize
 )
-)
-setupPreferences
-(
 )
 }
 private
