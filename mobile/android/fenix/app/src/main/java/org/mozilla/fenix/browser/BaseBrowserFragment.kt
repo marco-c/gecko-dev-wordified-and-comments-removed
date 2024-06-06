@@ -453,16 +453,6 @@ feature
 .
 downloads
 .
-AbstractFetchDownloadService
-import
-mozilla
-.
-components
-.
-feature
-.
-downloads
-.
 DownloadsFeature
 import
 mozilla
