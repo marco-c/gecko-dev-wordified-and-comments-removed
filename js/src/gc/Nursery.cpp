@@ -10044,7 +10044,7 @@ firstClearChunk
 )
 {
 size_t
-used
+usedBytes
 =
 position_
 -
@@ -10066,7 +10066,9 @@ currentChunk_
 >
 poisonAfterEvict
 (
-used
+NurseryChunkHeaderSize
++
+usedBytes
 )
 ;
 }
