@@ -3649,8 +3649,6 @@ fun
 bindHeaderButton
 (
 )
-=
-runTestOnMain
 {
 val
 store
