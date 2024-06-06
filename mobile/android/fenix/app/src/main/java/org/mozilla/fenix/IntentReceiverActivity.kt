@@ -306,6 +306,15 @@ Mode
 PRIVATE
 )
 )
+intent
+.
+putExtra
+(
+HomeActivity
+.
+PRIVATE_BROWSING_MODE
+true
+)
 listOf
 (
 components
