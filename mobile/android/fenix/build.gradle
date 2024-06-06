@@ -1624,6 +1624,7 @@ text
 Unit
 Test
 Results
+Fenix
 ]
 (
 {
@@ -1659,6 +1660,7 @@ text
 [
 Detekt
 Results
+Fenix
 ]
 (
 {
@@ -1691,6 +1693,7 @@ text
 Android
 Lint
 Results
+Fenix
 ]
 (
 {
