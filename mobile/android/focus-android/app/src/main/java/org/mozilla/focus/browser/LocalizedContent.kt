@@ -277,6 +277,13 @@ try
 val
 engineIndicator
 =
+"
+\
+uD83E
+\
+uDD8E
+"
++
 BuildConfig
 .
 MOZ_APP_VERSION
