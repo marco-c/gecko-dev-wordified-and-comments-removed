@@ -559,7 +559,7 @@ isPreferenceVisible
 "
 bool
 /
-IS_NOT_RELEASED
+IS_DEBUG
 "
 /
 >

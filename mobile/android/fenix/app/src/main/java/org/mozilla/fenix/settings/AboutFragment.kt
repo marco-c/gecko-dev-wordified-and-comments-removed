@@ -141,6 +141,14 @@ mozilla
 .
 fenix
 .
+BuildConfig
+import
+org
+.
+mozilla
+.
+fenix
+.
 R
 import
 org
@@ -150,6 +158,8 @@ mozilla
 geckoview
 .
 BuildConfig
+as
+GeckoViewBuildConfig
 class
 AboutFragment
 :
@@ -289,7 +299,7 @@ uD83E
 uDD8E
 "
 +
-BuildConfig
+GeckoViewBuildConfig
 .
 MOZ_APP_VERSION
 +
@@ -297,7 +307,7 @@ MOZ_APP_VERSION
 -
 "
 +
-BuildConfig
+GeckoViewBuildConfig
 .
 MOZ_APP_BUILDID
 String
@@ -335,12 +345,6 @@ NameNotFoundException
 val
 buildDate
 =
-org
-.
-mozilla
-.
-fenix
-.
 BuildConfig
 .
 BUILD_DATE
