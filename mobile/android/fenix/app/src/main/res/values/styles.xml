@@ -1308,8 +1308,6 @@ android
 windowEnterAnimation
 "
 >
-android
-:
 anim
 /
 fade_in
@@ -1327,8 +1325,6 @@ android
 windowExitAnimation
 "
 >
-android
-:
 anim
 /
 fade_out
