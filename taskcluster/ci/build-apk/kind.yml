@@ -3499,6 +3499,14 @@ secrets
 :
 true
 run
+-
+on
+-
+projects
+:
+[
+]
+run
 :
 gradle
 -
