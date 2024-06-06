@@ -822,7 +822,7 @@ R
 .
 drawable
 .
-mozac_ic_pin_remove
+mozac_ic_pin_slash_24
 isInPrimaryState
 =
 {
