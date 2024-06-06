@@ -303,18 +303,12 @@ architectures
         
 }
         
-def
-secret_index
-(
-name
-)
-:
-            
 if
 is_staging
 :
-                
-return
+            
+secret_index
+=
 '
 garbage
 /
@@ -325,46 +319,13 @@ project
 mobile
 /
 fenix
-/
-{
-}
 '
-.
-format
-(
-name
-)
-            
-elif
-channel
-=
-=
-'
-nightly
-'
-:
-                
-return
-'
-project
-/
-mobile
-/
-fenix
-/
-{
-}
-'
-.
-format
-(
-name
-)
-            
+        
 else
 :
-                
-return
+            
+secret_index
+=
 '
 project
 /
@@ -374,42 +335,11 @@ fenix
 /
 {
 }
-/
-{
-}
 '
 .
 format
 (
 channel
-name
-)
-        
-sentry_secret
-=
-secret_index
-(
-'
-sentry
-'
-)
-        
-leanplum_secret
-=
-secret_index
-(
-'
-leanplum
-'
-)
-        
-adjust_secret
-=
-secret_index
-(
-'
-adjust
-'
 )
         
 pre_gradle_commands
@@ -446,23 +376,21 @@ f
 format
 (
                 
-secret
+secret_index
 key
 target_file
             
 )
             
 for
-secret
 key
 target_file
 in
 (
                 
 (
-sentry_secret
 '
-dsn
+sentry_dsn
 '
 '
 .
@@ -471,9 +399,8 @@ sentry_token
 )
                 
 (
-leanplum_secret
 '
-production
+leanplum
 '
 '
 .
@@ -482,7 +409,6 @@ leanplum_token
 )
                 
 (
-adjust_secret
 '
 adjust
 '
@@ -653,15 +579,7 @@ get
 .
 format
 (
-secret
-)
-for
-secret
-in
-(
-sentry_secret
-leanplum_secret
-adjust_secret
+secret_index
 )
             
 ]
