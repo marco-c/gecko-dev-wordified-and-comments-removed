@@ -1610,12 +1610,12 @@ reports
 {
 xml
 .
-enabled
+required
 =
 true
 html
 .
-enabled
+required
 =
 true
 }

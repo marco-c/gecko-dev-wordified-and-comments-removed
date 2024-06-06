@@ -5477,11 +5477,13 @@ reports
 {
 html
 .
-enabled
+required
+=
 true
 xml
 .
-enabled
+required
+=
 true
 }
 def
