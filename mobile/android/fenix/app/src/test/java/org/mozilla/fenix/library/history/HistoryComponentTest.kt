@@ -280,6 +280,9 @@ HistoryItem
 (
 123
 "
+Mozilla
+"
+"
 http
 :
 /
@@ -474,6 +477,9 @@ HistoryItem
 (
 1337
 "
+Reddit
+"
+"
 http
 :
 /
@@ -487,6 +493,9 @@ com
 HistoryItem
 (
 31337
+"
+Haxor
+"
 "
 http
 :
