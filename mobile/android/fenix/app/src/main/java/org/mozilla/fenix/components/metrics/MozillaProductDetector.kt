@@ -216,11 +216,9 @@ focus
 /
 Other
 products
-LOCKBOX
+LOCKWISE
 (
 "
-org
-.
 mozilla
 .
 lockbox
