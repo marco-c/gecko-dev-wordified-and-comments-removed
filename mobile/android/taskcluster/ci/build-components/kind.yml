@@ -524,6 +524,17 @@ publish
 '
 beta
 :
+#
+/
+!
+\
+Beta
+builds
+are
+considered
+Release
+in
+gradle
 -
 '
 :
