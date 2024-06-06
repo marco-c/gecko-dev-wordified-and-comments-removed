@@ -413,6 +413,7 @@ context
 browserInteractor
 tabsTrayStore
 TAB_GROUP_FEATURE_NAME
+lifecycleOwner
 )
 TitleHeaderAdapter
 (
@@ -423,6 +424,7 @@ context
 browserInteractor
 tabsTrayStore
 TABS_TRAY_FEATURE_NAME
+lifecycleOwner
 )
 )
 }
@@ -438,6 +440,7 @@ context
 browserInteractor
 tabsTrayStore
 TABS_TRAY_FEATURE_NAME
+lifecycleOwner
 )
 }
 override

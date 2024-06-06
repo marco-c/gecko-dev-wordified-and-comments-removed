@@ -339,6 +339,9 @@ tabsTrayStore
 "
 Test
 "
+mockk
+(
+)
 )
 Test
 fun

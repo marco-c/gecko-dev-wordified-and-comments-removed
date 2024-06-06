@@ -311,6 +311,9 @@ store
 "
 Test
 "
+mockk
+(
+)
 )
 val
 holder
@@ -477,6 +480,9 @@ store
 "
 Test
 "
+mockk
+(
+)
 )
 val
 binding

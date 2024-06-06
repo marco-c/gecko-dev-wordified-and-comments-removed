@@ -5101,6 +5101,10 @@ androidx_coordinatorlayout
 implementation
 Deps
 .
+google_accompanist_drawablepainter
+implementation
+Deps
+.
 sentry
 implementation
 Deps
