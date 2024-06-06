@@ -576,6 +576,12 @@ GeckoLoginStorageDelegate
 (
 storage
 )
+Suppress
+(
+"
+Deprecation
+"
+)
 geckoRuntime
 .
 loginStorageDelegate
