@@ -31137,9 +31137,9 @@ expires
 -
 01
 "
-engine
+engine_tab
 :
-tab_kills
+kills
 :
 type
 :
@@ -31243,7 +31243,7 @@ kill_foreground_age
 :
 type
 :
-timespan
+timing_distribution
 time_unit
 :
 millisecond
@@ -31330,7 +31330,7 @@ kill_background_age
 :
 type
 :
-timespan
+timing_distribution
 time_unit
 :
 millisecond
