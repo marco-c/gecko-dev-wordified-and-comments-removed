@@ -127,13 +127,6 @@ description
 :
 String
 val
-linkText
-:
-String
-?
-=
-null
-val
 primaryButtonLabel
 :
 String
@@ -141,6 +134,11 @@ val
 secondaryButtonLabel
 :
 String
+val
+privacyCaption
+:
+Caption
+?
 )
 {
 /

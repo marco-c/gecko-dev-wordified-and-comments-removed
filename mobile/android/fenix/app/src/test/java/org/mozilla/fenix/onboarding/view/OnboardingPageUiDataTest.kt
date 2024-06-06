@@ -352,12 +352,6 @@ with
 link
 text
 "
-linkText
-=
-"
-link
-text
-"
 primaryButtonLabel
 =
 "
@@ -376,6 +370,9 @@ secondary
 button
 text
 "
+privacyCaption
+=
+null
 )
 private
 val
@@ -425,6 +422,9 @@ secondary
 button
 text
 "
+privacyCaption
+=
+null
 )
 private
 val
@@ -474,6 +474,9 @@ secondary
 button
 text
 "
+privacyCaption
+=
+null
 )
 private
 val

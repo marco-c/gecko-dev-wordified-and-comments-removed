@@ -1175,7 +1175,7 @@ R
 .
 string
 .
-juno_onboarding_default_browser_description_nimbus_2
+juno_onboarding_default_browser_description_nimbus_3
 )
 )
 .
