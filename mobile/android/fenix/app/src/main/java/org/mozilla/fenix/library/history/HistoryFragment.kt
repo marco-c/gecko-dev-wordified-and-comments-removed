@@ -558,9 +558,6 @@ HistoryDataSource
 historyProvider
 =
 historyProvider
-isRemote
-=
-null
 )
 }
 .

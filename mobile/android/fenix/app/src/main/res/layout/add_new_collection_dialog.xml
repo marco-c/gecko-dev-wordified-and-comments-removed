@@ -160,7 +160,7 @@ id
 +
 id
 /
-top_spacer
+top_divider
 "
 android
 :
@@ -277,7 +277,7 @@ id
 +
 id
 /
-bottom_spacer
+bottom_divider
 "
 android
 :
