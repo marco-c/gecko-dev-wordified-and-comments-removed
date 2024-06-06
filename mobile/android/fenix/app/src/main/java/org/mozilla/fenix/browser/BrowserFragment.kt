@@ -5142,6 +5142,10 @@ updateThemeForSession
 (
 session
 )
+updateBookmarkState
+(
+session
+)
 }
 }
 .
