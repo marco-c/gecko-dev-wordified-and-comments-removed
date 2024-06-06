@@ -82,9 +82,9 @@ FORCE
 REBUILD
 2022
 -
-08
+09
 -
-18
+16
 object
 Versions
 {
@@ -169,7 +169,7 @@ android_gradle_plugin
 "
 7
 .
-0
+3
 .
 0
 "
@@ -180,9 +180,9 @@ android_lint_api
 "
 30
 .
-0
+2
 .
-0
+2
 "
 const
 val
