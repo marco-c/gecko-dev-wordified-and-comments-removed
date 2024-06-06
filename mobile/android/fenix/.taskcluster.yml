@@ -1117,6 +1117,14 @@ branch
 {
 short_head_branch
 }
+-
+{
+assume_scope_prefix
+}
+:
+pull
+-
+request
 payload
 :
 command
