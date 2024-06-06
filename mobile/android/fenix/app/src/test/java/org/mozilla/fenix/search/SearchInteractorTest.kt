@@ -639,14 +639,6 @@ onEditingCanceled
 )
 verify
 {
-store
-.
-dispatch
-(
-SearchFragmentAction
-.
-UpdateEditingCanceled
-)
 navController
 .
 navigateUp

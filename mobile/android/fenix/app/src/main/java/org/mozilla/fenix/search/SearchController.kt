@@ -493,14 +493,6 @@ handleEditingCancelled
 (
 )
 {
-store
-.
-dispatch
-(
-SearchFragmentAction
-.
-UpdateEditingCanceled
-)
 navController
 .
 navigateUp
