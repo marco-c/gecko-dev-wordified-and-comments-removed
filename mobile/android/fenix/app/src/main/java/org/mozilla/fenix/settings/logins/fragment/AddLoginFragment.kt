@@ -556,6 +556,15 @@ findNavController
 loginsFragmentStore
 =
 loginsFragmentStore
+clipboardHandler
+=
+requireContext
+(
+)
+.
+components
+.
+clipboardHandler
 )
 )
 initEditableValues

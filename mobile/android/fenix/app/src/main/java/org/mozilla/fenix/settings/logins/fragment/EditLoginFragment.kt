@@ -601,6 +601,15 @@ findNavController
 loginsFragmentStore
 =
 loginsFragmentStore
+clipboardHandler
+=
+requireContext
+(
+)
+.
+components
+.
+clipboardHandler
 )
 )
 loginsFragmentStore

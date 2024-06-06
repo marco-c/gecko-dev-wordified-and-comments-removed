@@ -629,6 +629,15 @@ findNavController
 loginsFragmentStore
 =
 savedLoginsStore
+clipboardHandler
+=
+requireContext
+(
+)
+.
+components
+.
+clipboardHandler
 )
 savedLoginsInteractor
 =
