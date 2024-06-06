@@ -630,7 +630,7 @@ icon
 "
 drawable
 /
-ic_about
+ic_info
 "
 android
 :
@@ -838,7 +838,7 @@ icon
 "
 drawable
 /
-ic_feedback
+ic_notification
 "
 android
 :
@@ -873,7 +873,7 @@ icon
 "
 drawable
 /
-ic_about
+ic_info
 "
 android
 :

@@ -144,6 +144,13 @@ iconColor
 "
 android
 :
+fillType
+=
+"
+evenOdd
+"
+android
+:
 pathData
 =
 "
@@ -546,13 +553,6 @@ M12
 5
 .
 732Z
-"
-android
-:
-strokeWidth
-=
-"
-1
 "
 /
 >
