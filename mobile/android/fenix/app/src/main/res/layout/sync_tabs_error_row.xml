@@ -150,10 +150,12 @@ empty_session_control_background
 "
 android
 :
-layout_marginBottom
+layout_margin
 =
 "
-12dp
+dimen
+/
+synced_tabs_error_margin
 "
 android
 :
