@@ -2073,8 +2073,14 @@ AccumulateRawDuration
 negDuration
 )
 ;
-ASSERT_TRUE
+ASSERT_EQ
 (
+mozilla
+:
+:
+Nothing
+(
+)
 test_only
 :
 :
@@ -2085,10 +2091,6 @@ TestGetValue
 )
 .
 unwrap
-(
-)
-.
-isNothing
 (
 )
 )
