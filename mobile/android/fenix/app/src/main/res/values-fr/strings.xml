@@ -25955,8 +25955,7 @@ preferences_credit_cards
 "
 >
 Cartes
-de
-paiement
+bancaires
 <
 /
 string
@@ -26138,8 +26137,7 @@ preferences_credit_cards_add_credit_card
 Ajouter
 une
 carte
-de
-paiement
+bancaire
 <
 /
 string
