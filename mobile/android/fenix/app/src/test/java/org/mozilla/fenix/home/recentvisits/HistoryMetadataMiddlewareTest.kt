@@ -287,16 +287,6 @@ ext
 .
 joinBlocking
 import
-mozilla
-.
-components
-.
-support
-.
-test
-.
-mock
-import
 org
 .
 junit
@@ -8569,7 +8559,7 @@ Google
 "
 icon
 =
-mock
+mockk
 (
 )
 type
