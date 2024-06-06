@@ -818,6 +818,13 @@ requireContext
 (
 )
 )
+addonAllowPrivateBrowsingLabelDrawableRes
+=
+R
+.
+drawable
+.
+ic_add_on_private_browsing_label
 )
 }
 private
