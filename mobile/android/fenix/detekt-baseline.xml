@@ -17095,9 +17095,9 @@ gt
 ;
 get
 (
-fragment
+owner
 :
-Fragment
+ViewModelStoreOwner
 createStore
 :
 (
