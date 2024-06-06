@@ -103,8 +103,9 @@ android
 fillColor
 =
 "
-#
-ffffff
+drawable
+/
+state_colors
 "
 /
 >
