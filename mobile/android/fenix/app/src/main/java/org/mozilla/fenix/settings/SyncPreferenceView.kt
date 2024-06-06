@@ -600,6 +600,10 @@ newValue
 as
 Boolean
 )
+setSwitchCheckedState
+(
+newValue
+)
 true
 }
 }
