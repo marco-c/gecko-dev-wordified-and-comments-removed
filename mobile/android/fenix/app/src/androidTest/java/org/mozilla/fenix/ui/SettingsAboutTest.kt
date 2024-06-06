@@ -299,9 +299,6 @@ ABOUT
 verifyAboutHeading
 (
 )
-verifyHelp
-(
-)
 verifyRateOnGooglePlay
 (
 )

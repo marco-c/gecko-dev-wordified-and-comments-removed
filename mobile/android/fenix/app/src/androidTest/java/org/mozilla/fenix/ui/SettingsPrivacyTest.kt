@@ -710,9 +710,6 @@ verifyDeleteBrowsingDataOnQuitButton
 verifyDataCollectionButton
 (
 )
-verifyPrivacyNoticeButton
-(
-)
 verifyLeakCanaryButton
 (
 )
