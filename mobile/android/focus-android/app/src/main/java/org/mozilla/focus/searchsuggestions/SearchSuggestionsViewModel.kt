@@ -413,6 +413,11 @@ preferences
 enableSearchSuggestions
 (
 )
+fetcher
+.
+restartJob
+(
+)
 updateState
 (
 )

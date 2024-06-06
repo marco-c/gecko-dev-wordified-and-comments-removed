@@ -199,7 +199,7 @@ SearchEngine
 CoroutineScope
 {
 private
-val
+var
 job
 =
 Job
@@ -575,6 +575,17 @@ cancelJobs
 job
 .
 cancel
+(
+)
+}
+fun
+restartJob
+(
+)
+{
+job
+=
+Job
 (
 )
 }
