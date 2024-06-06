@@ -517,6 +517,7 @@ apply
 (
 )
 onPreferenceChangeListener
+?
 .
 onPreferenceChange
 (
