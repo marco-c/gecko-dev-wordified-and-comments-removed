@@ -328,8 +328,8 @@ to
 silently
 default
 to
-an
-empty
+a
+blank
 string
 .
 return
