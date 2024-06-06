@@ -1650,11 +1650,11 @@ preference_autocomplete_preinstalled_summary
 "
 >
 450
-s
+URLs
 %
 1
 s
-s
+:
 .
 <
 /
@@ -2907,10 +2907,6 @@ document
 2
 "
 >
-"
-\
-n
-"
 <
 li
 >
@@ -3560,7 +3556,6 @@ name
 error_timeout_title
 "
 >
-s
 <
 /
 string
@@ -3614,10 +3609,6 @@ document
 2
 "
 >
-"
-\
-n
-"
 <
 li
 >
@@ -4164,10 +4155,6 @@ document
 2
 "
 >
-"
-\
-n
-"
 <
 li
 >
@@ -4598,10 +4585,6 @@ document
 2
 "
 >
-"
-\
-n
-"
 <
 li
 >
@@ -4899,8 +4882,6 @@ li
 /
 li
 >
-\
-n
 <
 /
 ul
@@ -4962,8 +4943,6 @@ document
 "
 >
 "
-\
-n
 "
 <
 li
@@ -5225,8 +5204,6 @@ li
 /
 li
 >
-\
-n
 <
 /
 ul
@@ -5288,8 +5265,6 @@ document
 "
 >
 "
-\
-n
 "
 <
 li
@@ -5677,10 +5652,8 @@ n
 /
 li
 >
-"
 \
 n
-"
 <
 li
 >
