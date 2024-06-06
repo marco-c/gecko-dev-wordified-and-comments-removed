@@ -1364,7 +1364,7 @@ settings
 (
 )
 .
-getCookieBannerHandling
+getCookieBannerHandlingPrivateMode
 (
 )
 cookieBannerHandlingMode
