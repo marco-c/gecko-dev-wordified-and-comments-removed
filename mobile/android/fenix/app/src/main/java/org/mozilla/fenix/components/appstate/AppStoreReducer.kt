@@ -123,18 +123,6 @@ home
 .
 pocket
 .
-POCKET_STORIES_TO_SHOW_COUNT
-import
-org
-.
-mozilla
-.
-fenix
-.
-home
-.
-pocket
-.
 PocketRecommendedStoriesSelectedCategory
 import
 org
@@ -841,7 +829,6 @@ updatedCategoriesState
 .
 getFilteredStories
 (
-POCKET_STORIES_TO_SHOW_COUNT
 )
 )
 }
@@ -904,7 +891,6 @@ updatedCategoriesState
 .
 getFilteredStories
 (
-POCKET_STORIES_TO_SHOW_COUNT
 )
 )
 }
@@ -953,7 +939,6 @@ updatedCategoriesState
 .
 getFilteredStories
 (
-POCKET_STORIES_TO_SHOW_COUNT
 )
 )
 }
@@ -1007,7 +992,6 @@ updatedCategoriesState
 .
 getFilteredStories
 (
-POCKET_STORIES_TO_SHOW_COUNT
 )
 )
 }

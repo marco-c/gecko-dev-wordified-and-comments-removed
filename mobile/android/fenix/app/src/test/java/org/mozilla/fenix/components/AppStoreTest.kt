@@ -345,18 +345,6 @@ home
 .
 pocket
 .
-POCKET_STORIES_TO_SHOW_COUNT
-import
-org
-.
-mozilla
-.
-fenix
-.
-home
-.
-pocket
-.
 PocketRecommendedStoriesCategory
 import
 org
@@ -2264,9 +2252,6 @@ AppState
 .
 getFilteredStories
 (
-any
-(
-)
 )
 }
 returns
@@ -2299,7 +2284,6 @@ AppState
 .
 getFilteredStories
 (
-POCKET_STORIES_TO_SHOW_COUNT
 )
 }
 }
@@ -2444,9 +2428,6 @@ AppState
 .
 getFilteredStories
 (
-any
-(
-)
 )
 }
 returns
@@ -2479,7 +2460,6 @@ AppState
 .
 getFilteredStories
 (
-POCKET_STORIES_TO_SHOW_COUNT
 )
 }
 }
@@ -2738,9 +2718,6 @@ AppState
 .
 getFilteredStories
 (
-any
-(
-)
 )
 }
 returns
@@ -2775,7 +2752,6 @@ AppState
 .
 getFilteredStories
 (
-POCKET_STORIES_TO_SHOW_COUNT
 )
 }
 assertTrue
@@ -2839,9 +2815,6 @@ AppState
 .
 getFilteredStories
 (
-any
-(
-)
 )
 }
 returns
@@ -2877,7 +2850,6 @@ AppState
 .
 getFilteredStories
 (
-POCKET_STORIES_TO_SHOW_COUNT
 )
 }
 assertTrue
@@ -2993,9 +2965,6 @@ AppState
 .
 getFilteredStories
 (
-any
-(
-)
 )
 }
 returns
@@ -3038,7 +3007,6 @@ AppState
 .
 getFilteredStories
 (
-POCKET_STORIES_TO_SHOW_COUNT
 )
 }
 assertTrue
