@@ -387,6 +387,17 @@ if
 session
 is
 loading
+-
+#
+1571
+-
+Added
+a
+snackbar
+for
+undoing
+bookmark
+deletion
 #
 #
 #
