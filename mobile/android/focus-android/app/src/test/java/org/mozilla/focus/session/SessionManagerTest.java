@@ -1128,6 +1128,7 @@ hasSession
 )
 ;
 }
+Test
 public
 void
 testShareIntentWithTextViaNewIntent
