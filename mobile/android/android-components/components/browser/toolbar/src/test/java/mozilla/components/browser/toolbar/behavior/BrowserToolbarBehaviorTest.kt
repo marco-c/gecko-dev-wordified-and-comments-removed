@@ -3602,6 +3602,17 @@ Int
 }
 override
 fun
+setActivityContext
+(
+context
+:
+Context
+?
+)
+{
+}
+override
+fun
 captureThumbnail
 (
 onFinish

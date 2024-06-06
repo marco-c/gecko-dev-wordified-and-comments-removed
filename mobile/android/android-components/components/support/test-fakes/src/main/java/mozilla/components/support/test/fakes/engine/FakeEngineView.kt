@@ -204,6 +204,17 @@ Int
 Unit
 override
 fun
+setActivityContext
+(
+context
+:
+Context
+?
+)
+=
+Unit
+override
+fun
 release
 (
 )
