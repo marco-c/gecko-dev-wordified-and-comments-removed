@@ -93,6 +93,14 @@ compose
 .
 foundation
 .
+ExperimentalFoundationApi
+import
+androidx
+.
+compose
+.
+foundation
+.
 Image
 import
 androidx
