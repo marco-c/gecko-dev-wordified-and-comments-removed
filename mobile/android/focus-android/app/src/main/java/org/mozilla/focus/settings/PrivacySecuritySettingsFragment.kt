@@ -204,6 +204,7 @@ string
 pref_key_biometric
 )
 )
+)
 }
 updateStealthToggleAvailability
 (
