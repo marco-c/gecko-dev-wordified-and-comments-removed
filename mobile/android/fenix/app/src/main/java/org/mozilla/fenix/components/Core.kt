@@ -263,9 +263,9 @@ mozilla
 .
 fenix
 .
-ext
+utils
 .
-components
+Settings
 import
 org
 .
@@ -425,7 +425,14 @@ context
 )
 remoteDebuggingEnabled
 =
-false
+Settings
+.
+getInstance
+(
+context
+)
+.
+isRemoteDebuggingEnabled
 testingModeEnabled
 =
 false
