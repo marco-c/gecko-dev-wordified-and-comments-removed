@@ -383,9 +383,6 @@ handleBookmarkFolderOpening
 folder
 :
 BookmarkNode
-mode
-:
-BrowsingMode
 )
 /
 *
@@ -1173,9 +1170,6 @@ handleBookmarkFolderOpening
 folder
 :
 BookmarkNode
-mode
-:
-BrowsingMode
 )
 {
 /
@@ -1203,7 +1197,6 @@ recursiveBookmarkFolderOpening
 (
 folder
 true
-mode
 )
 }
 }
