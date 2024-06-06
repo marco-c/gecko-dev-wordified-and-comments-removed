@@ -297,7 +297,7 @@ view
 assertBasicsHeading
 (
 )
-assertAdvancedHeading
+assertPrivacyHeading
 (
 )
 }
@@ -333,7 +333,7 @@ VISIBLE
 )
 private
 fun
-assertAdvancedHeading
+assertPrivacyHeading
 (
 )
 =
@@ -344,7 +344,7 @@ ViewMatchers
 withText
 (
 "
-Advanced
+Privacy
 "
 )
 )

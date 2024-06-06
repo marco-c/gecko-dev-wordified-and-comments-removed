@@ -258,16 +258,12 @@ TRUST_LEVEL
 )
 )
 def
-pr_or_push
+pr
 (
-is_push
 )
 :
     
 if
-not
-is_push
-and
 SKIP_TASKS_TRIGGER
 in
 PR_TITLE
@@ -394,9 +390,48 @@ craft_function
 (
 )
     
+return
+(
+build_tasks
+signing_tasks
+other_tasks
+)
+def
+push
+(
+)
+:
+    
+all_tasks
+=
+pr
+(
+)
+    
+other_tasks
+=
+all_tasks
+[
+-
+1
+]
+    
+other_tasks
+[
+taskcluster
+.
+slugId
+(
+)
+]
+=
+BUILDER
+.
+craft_ui_tests_task
+(
+)
+    
 if
-is_push
-and
 SHORT_HEAD_BRANCH
 =
 =
@@ -421,11 +456,7 @@ craft_dependencies_task
 )
     
 return
-(
-build_tasks
-signing_tasks
-other_tasks
-)
+all_tasks
 def
 raptor
 (
@@ -1179,36 +1210,36 @@ v1
     
 if
 command
-=
-=
+in
+(
 '
 pull
 -
 request
 '
+)
 :
         
 ordered_groups_of_tasks
 =
-pr_or_push
+pr
 (
-False
 )
     
 elif
 command
-=
-=
+in
+(
 '
 push
 '
+)
 :
         
 ordered_groups_of_tasks
 =
-pr_or_push
+push
 (
-True
 )
     
 elif
