@@ -311,6 +311,14 @@ mozilla
 .
 fenix
 .
+FeatureFlags
+import
+org
+.
+mozilla
+.
+fenix
+.
 HomeActivity
 import
 org
@@ -2813,6 +2821,8 @@ pref_key_credit_cards
 .
 isVisible
 =
+FeatureFlags
+.
 creditCardsFeature
 findPreference
 <
