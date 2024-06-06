@@ -2521,6 +2521,8 @@ fenix
 .
 settings
 .
+account
+.
 AccountSettingsFragment
 "
 android
