@@ -2339,6 +2339,16 @@ CONTENT_LENGTH
 "
 )
 .
+skipConfirmation
+(
+true
+)
+.
+requestExternalApp
+(
+true
+)
+.
 body
 (
 mock

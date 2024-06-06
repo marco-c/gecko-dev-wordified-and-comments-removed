@@ -5914,12 +5914,12 @@ openInApp
 =
 webResponse
 .
-doRequestExternalApp
+requestExternalApp
 skipConfirmation
 =
 webResponse
 .
-doSkipConfirmation
+skipConfirmation
 )
 }
 }
