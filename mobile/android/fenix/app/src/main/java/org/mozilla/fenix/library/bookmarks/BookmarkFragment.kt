@@ -1606,7 +1606,7 @@ components
 is
 BookmarkAction
 .
-ModeChanged
+SwitchMode
 -
 >
 activity

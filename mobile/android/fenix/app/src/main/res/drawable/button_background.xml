@@ -120,9 +120,8 @@ android
 color
 =
 "
-color
-/
-foundation_normal_theme
+?
+inset
 "
 /
 >

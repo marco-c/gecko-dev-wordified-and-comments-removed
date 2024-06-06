@@ -448,7 +448,7 @@ onNext
 (
 BookmarkAction
 .
-ModeChanged
+SwitchMode
 )
 }
 bookmarkAdapter
@@ -543,7 +543,7 @@ onNext
 (
 BookmarkAction
 .
-ModeChanged
+SwitchMode
 )
 true
 }
@@ -705,7 +705,7 @@ R
 .
 attr
 .
-accentBright
+accentHighContrast
 .
 getColorIntFromAttr
 (

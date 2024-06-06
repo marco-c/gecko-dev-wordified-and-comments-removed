@@ -513,7 +513,7 @@ BookmarkAction
 (
 )
 object
-ModeChanged
+SwitchMode
 :
 BookmarkAction
 (
