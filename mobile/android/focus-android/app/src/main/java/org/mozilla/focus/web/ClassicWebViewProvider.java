@@ -501,6 +501,13 @@ SystemWebView
 systemWebView
 )
 {
+systemWebView
+.
+clearCache
+(
+true
+)
+;
 webSettings
 .
 setBlockNetworkImage
