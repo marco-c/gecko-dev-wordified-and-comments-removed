@@ -1291,6 +1291,11 @@ untested_members_
 insert
 (
 member
+-
+>
+member_ptr
+(
+)
 )
 ;
 }
@@ -1310,8 +1315,11 @@ untested_members_
 .
 erase
 (
-&
 member
+.
+member_ptr
+(
+)
 )
 ;
 all_tests_successful_
