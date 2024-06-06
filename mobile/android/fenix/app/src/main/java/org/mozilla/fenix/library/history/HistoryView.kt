@@ -593,6 +593,9 @@ string
 .
 library_history
 )
+view
+.
+history_list
 )
 is
 HistoryFragmentState
@@ -619,6 +622,9 @@ selectedItems
 .
 size
 )
+view
+.
+history_list
 )
 }
 }
