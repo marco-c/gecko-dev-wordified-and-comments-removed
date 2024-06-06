@@ -1776,6 +1776,11 @@ id
 WebCompatReporterFeature
 .
 WEBCOMPAT_REPORTER_EXTENSION_ID
+iconTintColorResource
+=
+primaryTextColor
+(
+)
 )
 val
 addToHomeScreenItem
