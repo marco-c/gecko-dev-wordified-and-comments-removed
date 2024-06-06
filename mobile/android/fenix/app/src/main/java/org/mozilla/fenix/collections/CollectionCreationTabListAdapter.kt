@@ -785,7 +785,7 @@ shouldHideCheckBox
 )
 View
 .
-GONE
+INVISIBLE
 else
 View
 .
