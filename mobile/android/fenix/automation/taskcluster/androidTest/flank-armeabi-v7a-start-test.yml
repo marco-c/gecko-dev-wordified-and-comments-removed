@@ -273,14 +273,7 @@ device
 -
 model
 :
-sailfish
-version
-:
-25
--
-model
-:
-sailfish
+Pixel2
 version
 :
 28

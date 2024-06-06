@@ -256,14 +256,7 @@ device
 -
 model
 :
-walleye
-version
-:
-26
--
-model
-:
-walleye
+Pixel2
 version
 :
 28
