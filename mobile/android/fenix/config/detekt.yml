@@ -265,7 +265,7 @@ AbsentOrWrongFileLicense
 :
 active
 :
-false
+true
 licenseTemplateFile
 :
 '
