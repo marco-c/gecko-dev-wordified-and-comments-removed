@@ -5169,6 +5169,8 @@ telemetry
 :
 glean
 -
+native
+-
 forUnitTests
 :
 {
