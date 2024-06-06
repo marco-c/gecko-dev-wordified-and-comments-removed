@@ -1314,6 +1314,28 @@ tier
             
 }
             
+routes
+=
+[
+'
+index
+.
+project
+.
+mobile
+.
+fenix
+.
+v2
+.
+branch
+.
+master
+.
+latest
+'
+]
+            
 artifacts
 =
 {
