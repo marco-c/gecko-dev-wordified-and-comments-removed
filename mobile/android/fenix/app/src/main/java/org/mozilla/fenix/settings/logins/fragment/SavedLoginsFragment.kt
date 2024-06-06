@@ -908,6 +908,11 @@ R
 id
 .
 loginDetailFragment
+R
+.
+id
+.
+addLoginFragment
 )
 findNavController
 (

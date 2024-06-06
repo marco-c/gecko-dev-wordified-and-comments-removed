@@ -235,4 +235,15 @@ handleLoadAndMapLogins
 (
 )
 }
+fun
+onAddLoginClick
+(
+)
+{
+loginsListController
+.
+handleAddLoginClicked
+(
+)
+}
 }
