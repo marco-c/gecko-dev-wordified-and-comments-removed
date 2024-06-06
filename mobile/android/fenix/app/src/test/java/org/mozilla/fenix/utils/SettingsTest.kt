@@ -271,12 +271,12 @@ autoplayAudible
 =
 AutoplayAction
 .
-ALLOWED
+BLOCKED
 autoplayInaudible
 =
 AutoplayAction
 .
-BLOCKED
+ALLOWED
 persistentStorage
 =
 ASK_TO_ALLOW
@@ -2037,7 +2037,7 @@ assertEquals
 (
 AutoplayAction
 .
-ALLOWED
+BLOCKED
 settings
 .
 getSitePermissionsCustomSettingsRules
@@ -2050,7 +2050,7 @@ assertEquals
 (
 AutoplayAction
 .
-BLOCKED
+ALLOWED
 settings
 .
 getSitePermissionsCustomSettingsRules

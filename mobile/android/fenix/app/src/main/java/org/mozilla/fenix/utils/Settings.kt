@@ -4194,7 +4194,7 @@ default
 =
 AutoplayAction
 .
-ALLOWED
+BLOCKED
 )
 autoplayInaudible
 =
@@ -4209,7 +4209,7 @@ default
 =
 AutoplayAction
 .
-BLOCKED
+ALLOWED
 )
 persistentStorage
 =
