@@ -838,8 +838,11 @@ store
 :
 BrowserStore
 =
-mock
+spy
 (
+BrowserStore
+(
+)
 )
 override
 val
