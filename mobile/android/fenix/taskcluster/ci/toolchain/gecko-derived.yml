@@ -259,7 +259,9 @@ public
 /
 build
 /
-minidump_stackwalk
+minidump
+-
+stackwalk
 .
 tar
 .
