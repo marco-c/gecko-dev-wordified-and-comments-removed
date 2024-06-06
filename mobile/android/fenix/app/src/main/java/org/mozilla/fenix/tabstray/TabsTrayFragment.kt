@@ -927,6 +927,11 @@ TabsTrayState
 mode
 =
 initialMode
+focusGroupTabId
+=
+args
+.
+focusGroupTabId
 )
 )
 }

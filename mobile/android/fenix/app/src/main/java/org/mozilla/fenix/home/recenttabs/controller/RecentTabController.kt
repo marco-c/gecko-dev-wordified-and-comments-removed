@@ -419,12 +419,6 @@ tabId
 String
 )
 {
-selectTabUseCase
-.
-invoke
-(
-tabId
-)
 metrics
 .
 track
@@ -441,6 +435,9 @@ HomeFragmentDirections
 .
 actionGlobalTabsTrayFragment
 (
+focusGroupTabId
+=
+tabId
 )
 )
 }
