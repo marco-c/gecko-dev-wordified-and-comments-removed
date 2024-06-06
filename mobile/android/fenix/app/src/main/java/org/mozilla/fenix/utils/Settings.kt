@@ -297,12 +297,7 @@ CRASH_REPORTING
 &
 BuildConfig
 .
-BUILD_TYPE
-=
-=
-"
-release
-"
+IS_RELEASED
 val
 isRemoteDebuggingEnabled
 :

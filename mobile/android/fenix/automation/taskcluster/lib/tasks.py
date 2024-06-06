@@ -159,7 +159,7 @@ trust_level
 trust_level
     
 def
-craft_assemble_release_task
+craft_assemble_nightly_task
 (
 self
 architectures
@@ -222,18 +222,15 @@ apk
 '
 {
 }
-Greenfield
 /
-release
+nightly
 /
 app
 -
 {
 }
 -
-greenfield
--
-release
+nightly
 -
 unsigned
 .
@@ -471,7 +468,7 @@ Ptelemetry
 true
 clean
 test
-assembleRelease
+assembleNightly
 '
         
 )
@@ -1076,7 +1073,7 @@ description
 Running
 lint
 for
-arm64
+aarch64
 release
 variant
 '
@@ -1084,7 +1081,7 @@ variant
 gradle_task
 =
 '
-lintAarch64GreenfieldRelease
+lintAarch64Release
 '
             
 treeherder
@@ -2107,37 +2104,10 @@ variant
         
 architecture
 build_type
-product
 =
-_get_architecture_and_build_type_and_product_from_variant
+get_architecture_and_build_type_from_variant
 (
 variant
-)
-        
-product
-=
-convert_camel_case_into_kebab_case
-(
-product
-)
-        
-postfix
-=
-convert_camel_case_into_kebab_case
-(
-'
-{
-}
--
-{
-}
-'
-.
-format
-(
-architecture
-build_type
-)
 )
         
 routes
@@ -2153,6 +2123,8 @@ mobile
 .
 fenix
 .
+v2
+.
 branch
 .
 master
@@ -2175,8 +2147,8 @@ format
 self
 .
 commit
-product
-postfix
+build_type
+architecture
             
 )
             
@@ -2188,6 +2160,8 @@ project
 mobile
 .
 fenix
+.
+v2
 .
 branch
 .
@@ -2200,13 +2174,17 @@ latest
 .
 {
 }
+.
+{
+}
 '
 .
 format
 (
                 
 product
-postfix
+build_type
+architecture
             
 )
             
@@ -2218,6 +2196,8 @@ project
 mobile
 .
 fenix
+.
+v2
 .
 branch
 .
@@ -2268,8 +2248,8 @@ self
 .
 commit
                 
-product
-postfix
+build_type
+architecture
             
 )
             
@@ -2281,6 +2261,8 @@ project
 mobile
 .
 fenix
+.
+v2
 .
 branch
 .
@@ -2324,8 +2306,8 @@ self
 date
 .
 day
-product
-postfix
+build_type
+architecture
             
 )
         
@@ -2947,13 +2929,10 @@ variant
     
 architecture
 build_type
-_
 =
-_get_architecture_and_build_type_and_product_from_variant
+get_architecture_and_build_type_from_variant
 (
-        
 variant
-    
 )
     
 return
@@ -2980,16 +2959,15 @@ variant
 :
     
 _
-__
-product
+build_type
 =
-_get_architecture_and_build_type_and_product_from_variant
+get_architecture_and_build_type_from_variant
 (
 variant
 )
     
 return
-product
+build_type
 def
 _craft_artifacts_from_variant
 (
@@ -3055,26 +3033,11 @@ variant
     
 architecture
 build_type
-product
 =
-_get_architecture_and_build_type_and_product_from_variant
+get_architecture_and_build_type_from_variant
 (
-        
 variant
-    
 )
-    
-short_variant
-=
-variant
-[
-:
--
-len
-(
-build_type
-)
-]
     
 postfix
 =
@@ -3095,13 +3058,6 @@ else
 '
 '
     
-product
-=
-lower_case_first_letter
-(
-product
-)
-    
 return
 '
 /
@@ -3118,7 +3074,7 @@ outputs
 apk
 /
 {
-short_variant
+architecture
 }
 /
 {
@@ -3129,10 +3085,6 @@ app
 -
 {
 architecture
-}
--
-{
-product
 }
 -
 {
@@ -3156,14 +3108,6 @@ build_type
 =
 build_type
         
-product
-=
-product
-        
-short_variant
-=
-short_variant
-        
 postfix
 =
 postfix
@@ -3182,37 +3126,8 @@ arm
 x86
 '
 )
-_SUPPORTED_BUILD_TYPES
-=
-(
-'
-Debug
-'
-'
-Release
-'
-'
-ReleaseRaptor
-'
-)
-_SUPPORTED_PRODUCTS
-=
-(
-'
-FirefoxBeta
-'
-'
-FirefoxNightly
-'
-'
-FirefoxRelease
-'
-'
-Greenfield
-'
-)
 def
-_get_architecture_and_build_type_and_product_from_variant
+get_architecture_and_build_type_from_variant
 (
 variant
 )
@@ -3282,75 +3197,7 @@ _SUPPORTED_ARCHITECTURES
         
 )
     
-for
-supported_build_type
-in
-_SUPPORTED_BUILD_TYPES
-:
-        
-if
-variant
-.
-endswith
-(
-supported_build_type
-)
-:
-            
 build_type
-=
-lower_case_first_letter
-(
-supported_build_type
-)
-            
-break
-    
-else
-:
-        
-raise
-ValueError
-(
-            
-'
-Cannot
-identify
-build
-type
-in
-"
-{
-}
-"
-.
-'
-            
-'
-Expected
-to
-find
-one
-of
-these
-supported
-ones
-:
-{
-}
-'
-.
-format
-(
-                
-variant
-_SUPPORTED_BUILD_TYPES
-            
-)
-        
-)
-    
-remaining_variant_data
 =
 variant
 [
@@ -3359,88 +3206,11 @@ len
 architecture
 )
 :
-len
-(
-variant
-)
--
-len
-(
-build_type
-)
 ]
-    
-for
-supported_product
-in
-_SUPPORTED_PRODUCTS
-:
-        
-if
-remaining_variant_data
-=
-=
-supported_product
-:
-            
-product
-=
-supported_product
-            
-break
-    
-else
-:
-        
-raise
-ValueError
-(
-            
-'
-Cannot
-identify
-product
-in
-"
-{
-}
-"
-"
-{
-}
-"
-.
-'
-            
-'
-Expected
-to
-find
-one
-of
-these
-supported
-ones
-:
-{
-}
-'
-.
-format
-(
-                
-remaining_variant_data
-variant
-_SUPPORTED_PRODUCTS
-            
-)
-        
-)
     
 return
 architecture
 build_type
-product
 def
 schedule_task
 (

@@ -173,10 +173,9 @@ defined
 )
 if
 (
-!
 BuildConfig
 .
-DEBUG
+IS_RELEASED
 )
 {
 throw
