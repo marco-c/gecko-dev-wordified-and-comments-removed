@@ -705,7 +705,6 @@ tabsAction
 TabCounterToolbarButton
 (
 lifecycleOwner
-isPrivate
 onItemTapped
 =
 {
