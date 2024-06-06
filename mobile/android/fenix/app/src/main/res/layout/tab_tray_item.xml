@@ -167,7 +167,9 @@ android
 layout_height
 =
 "
-88dp
+dimen
+/
+tab_tray_tab_item_height
 "
 android
 :
