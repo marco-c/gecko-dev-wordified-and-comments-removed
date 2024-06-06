@@ -1905,6 +1905,8 @@ nsCString
 unsafeHeaders
 bool
 aShouldStripRequestBodyHeader
+bool
+aShouldStripAuthHeader
 )
 override
 ;

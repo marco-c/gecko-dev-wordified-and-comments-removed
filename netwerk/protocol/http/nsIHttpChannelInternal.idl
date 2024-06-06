@@ -712,6 +712,9 @@ unsafeHeaders
 in
 boolean
 shouldStripRequestBodyHeader
+in
+boolean
+shouldStripAuthHeader
 )
 ;
 [

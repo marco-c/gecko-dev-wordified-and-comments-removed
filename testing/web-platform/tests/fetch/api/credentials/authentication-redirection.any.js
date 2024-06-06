@@ -300,6 +300,10 @@ authorization
 header
 .
 py
+?
+strip_auth_header
+=
+true
 "
 )
 )
