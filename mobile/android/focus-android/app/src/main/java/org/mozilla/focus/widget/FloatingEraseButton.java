@@ -220,7 +220,7 @@ isTouchExplorationEnabled
 {
 behavior
 .
-setEnabled
+setAutoHideEnabled
 (
 false
 )
@@ -230,7 +230,7 @@ else
 {
 behavior
 .
-setEnabled
+setAutoHideEnabled
 (
 !
 keepHidden
