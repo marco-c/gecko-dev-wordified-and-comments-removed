@@ -56,6 +56,14 @@ MPL
 .
 *
 /
+file
+:
+Suppress
+(
+"
+UnusedMaterialScaffoldPaddingParameter
+"
+)
 package
 org
 .
