@@ -82,7 +82,7 @@ ext
 geckoview_revision
 =
 '
-6891b272d3fd577a8f7fa4926c56ecc78a06dc3d
+239f593d11e560db428a96c5f67261280a77a219
 '
 ext
 .
@@ -93,7 +93,7 @@ geckoview_version
 .
 0
 .
-20181205213707
+20181213110655
 '
 /
 /
@@ -103,7 +103,7 @@ Rel
 Branch
 12
 .
-05
+13
 .
 2018
 ext
