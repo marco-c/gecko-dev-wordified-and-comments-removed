@@ -1899,7 +1899,7 @@ rbegin
 )
 -
 >
-IsClosePath
+IsClose
 (
 )
 ;

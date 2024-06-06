@@ -857,6 +857,7 @@ separator
 [
 inline
 ]
+pub
 fn
 write_item
 <
