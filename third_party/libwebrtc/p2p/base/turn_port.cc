@@ -9898,7 +9898,7 @@ WriteBytes
 reinterpret_cast
 <
 const
-char
+uint8_t
 *
 >
 (

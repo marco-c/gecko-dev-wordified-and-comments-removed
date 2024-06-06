@@ -4286,7 +4286,7 @@ remainder
 0
 )
 {
-char
+uint8_t
 zeroes
 [
 4
@@ -5061,7 +5061,7 @@ WriteBytes
 (
 reinterpret_cast
 <
-char
+uint8_t
 *
 >
 (
@@ -5101,7 +5101,7 @@ WriteBytes
 (
 reinterpret_cast
 <
-char
+uint8_t
 *
 >
 (
@@ -5662,7 +5662,7 @@ WriteBytes
 reinterpret_cast
 <
 const
-char
+uint8_t
 *
 >
 (
@@ -5699,7 +5699,7 @@ WriteBytes
 reinterpret_cast
 <
 const
-char
+uint8_t
 *
 >
 (
@@ -6421,15 +6421,7 @@ buf
 >
 WriteBytes
 (
-reinterpret_cast
-<
-const
-char
-*
->
-(
 bytes_
-)
 length
 (
 )

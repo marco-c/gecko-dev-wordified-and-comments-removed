@@ -1009,7 +1009,7 @@ Clear
 (
 )
 ;
-char
+uint8_t
 write_bytes
 [
 ]
@@ -1093,7 +1093,7 @@ Clear
 (
 )
 ;
-char
+uint8_t
 *
 write_dst
 =

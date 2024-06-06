@@ -4651,13 +4651,6 @@ buf
 .
 WriteBytes
 (
-reinterpret_cast
-<
-const
-char
-*
->
-(
 packet
 .
 payload
@@ -4666,7 +4659,6 @@ payload
 .
 data
 (
-)
 )
 packet
 .
