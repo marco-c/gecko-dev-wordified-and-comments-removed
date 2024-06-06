@@ -688,7 +688,7 @@ on
 the
 mozilla
 -
-beta
+release
 repository
 :
 /
@@ -703,7 +703,7 @@ releases
 /
 mozilla
 -
-beta
+release
 /
 branches
 /
@@ -792,7 +792,7 @@ v2
 .
 mozilla
 -
-beta
+release
 .
 revision
 /
@@ -873,7 +873,7 @@ v2
 .
 mozilla
 -
-beta
+release
 .
 revision
 "
@@ -932,7 +932,7 @@ v2
 .
 mozilla
 -
-beta
+release
 .
 revision
 "
@@ -988,7 +988,7 @@ v2
 .
 mozilla
 -
-beta
+release
 .
 revision
 "
@@ -1487,8 +1487,6 @@ geckoview
 :
 geckoview
 -
-beta
--
 armeabi
 -
 v7a
@@ -1507,8 +1505,6 @@ geckoview
 :
 geckoview
 -
-beta
--
 x86
 :
 {
@@ -1524,8 +1520,6 @@ mozilla
 geckoview
 :
 geckoview
--
-beta
 -
 arm64
 -
