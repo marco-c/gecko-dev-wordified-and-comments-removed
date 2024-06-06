@@ -1499,7 +1499,10 @@ name
 textColor
 =
 0L
-cardColor
+cardColorLight
+=
+0L
+cardColorDark
 =
 0L
 thumbnailFileState
@@ -1586,7 +1589,10 @@ wallpaperName
 textColor
 =
 0L
-cardColor
+cardColorLight
+=
+0L
+cardColorDark
 =
 0L
 thumbnailFileState

@@ -956,7 +956,10 @@ wallpaperCollection
 textColor
 =
 null
-cardColor
+cardColorLight
+=
+null
+cardColorDark
 =
 null
 thumbnailFileState
