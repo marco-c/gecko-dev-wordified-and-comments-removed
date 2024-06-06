@@ -916,9 +916,6 @@ prefs
 (
 context
 )
-val
-identifiers
-=
 if
 (
 !
@@ -966,11 +963,14 @@ defaultSet
 apply
 (
 )
-defaultSet
 }
-else
-{
+val
+installedIdentifiers
+=
 prefs
+(
+context
+)
 .
 getStringSet
 (
@@ -984,7 +984,6 @@ setOf
 setOf
 (
 )
-}
 val
 customEngineIdentifiers
 =
@@ -1007,7 +1006,7 @@ toSet
 (
 )
 return
-identifiers
+installedIdentifiers
 +
 customEngineIdentifiers
 }
