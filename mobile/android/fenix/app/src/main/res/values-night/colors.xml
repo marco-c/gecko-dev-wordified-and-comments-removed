@@ -1232,7 +1232,7 @@ collection_icon_color_violet
 >
 color
 /
-collection_icon_color_violet_dark_theme
+photonViolet40
 <
 /
 color
@@ -1247,7 +1247,7 @@ collection_icon_color_blue
 >
 color
 /
-collection_icon_color_blue_dark_theme
+photonBlue30
 <
 /
 color
@@ -1262,7 +1262,7 @@ collection_icon_color_pink
 >
 color
 /
-collection_icon_color_pink_dark_theme
+photonPink30
 <
 /
 color
@@ -1275,9 +1275,8 @@ name
 collection_icon_color_green
 "
 >
-color
-/
-collection_icon_color_green_dark_theme
+#
+88FFD1
 <
 /
 color
@@ -1290,9 +1289,8 @@ name
 collection_icon_color_yellow
 "
 >
-color
-/
-collection_icon_color_yellow_dark_theme
+#
+FFDE67
 <
 /
 color
