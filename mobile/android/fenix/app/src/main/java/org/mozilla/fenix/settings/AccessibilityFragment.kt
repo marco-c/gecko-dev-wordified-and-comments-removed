@@ -513,6 +513,17 @@ settings
 automaticFontSizeAdjustment
 =
 useAutoSize
+components
+.
+core
+.
+engine
+.
+settings
+.
+fontInflationEnabled
+=
+useAutoSize
 /
 /
 If
