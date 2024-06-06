@@ -236,8 +236,6 @@ geckoview
 fat
 -
 aar
--
-shippable
 /
 opt
 description
@@ -339,8 +337,6 @@ geckoview
 fat
 -
 aar
--
-shippable
 /
 opt
 description
@@ -442,8 +438,6 @@ geckoview
 fat
 -
 aar
--
-shippable
 /
 opt
 description
