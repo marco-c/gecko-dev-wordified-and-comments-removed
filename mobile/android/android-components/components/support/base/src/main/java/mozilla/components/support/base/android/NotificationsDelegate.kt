@@ -125,12 +125,6 @@ RequiresApi
 import
 androidx
 .
-annotation
-.
-VisibleForTesting
-import
-androidx
-.
 appcompat
 .
 app
@@ -284,8 +278,7 @@ OnPermissionRejected
 =
 {
 }
-VisibleForTesting
-internal
+private
 val
 notificationPermissionHandler
 :
