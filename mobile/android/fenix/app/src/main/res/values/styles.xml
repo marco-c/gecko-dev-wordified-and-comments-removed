@@ -2313,16 +2313,7 @@ item
 name
 =
 "
-android
-:
 drawableTint
-"
-tools
-:
-targetApi
-=
-"
-m
 "
 >
 color
