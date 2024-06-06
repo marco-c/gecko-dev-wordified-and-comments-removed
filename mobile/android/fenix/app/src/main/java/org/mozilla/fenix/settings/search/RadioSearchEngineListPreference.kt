@@ -377,6 +377,7 @@ CompoundButton
 .
 OnCheckedChangeListener
 {
+private
 val
 itemResId
 :

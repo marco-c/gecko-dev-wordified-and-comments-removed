@@ -1116,6 +1116,7 @@ popBackStack
 }
 }
 }
+private
 fun
 checkForErrors
 (

@@ -117,6 +117,7 @@ CLIENT_ID
 "
 a2270f727f45f648
 "
+private
 const
 val
 REDIRECT_URL

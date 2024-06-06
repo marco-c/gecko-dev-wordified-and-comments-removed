@@ -5835,6 +5835,7 @@ FeatureFlags
 .
 addressesFeature
 )
+private
 var
 isHistoryMetadataEnabled
 by

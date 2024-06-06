@@ -47,6 +47,7 @@ AddonInstallationDialogFragment
 class
 AddonsInstallingIdlingResource
 (
+private
 val
 fragmentManager
 :

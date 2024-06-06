@@ -136,6 +136,7 @@ String
 "
 HUAWEI
 "
+private
 const
 val
 LG
@@ -152,6 +153,7 @@ String
 "
 OnePlus
 "
+private
 const
 val
 SAMSUNG

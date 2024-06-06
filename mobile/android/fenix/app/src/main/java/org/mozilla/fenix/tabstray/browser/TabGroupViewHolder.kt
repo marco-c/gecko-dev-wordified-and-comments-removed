@@ -311,6 +311,7 @@ bind
 (
 itemView
 )
+private
 lateinit
 var
 groupListAdapter

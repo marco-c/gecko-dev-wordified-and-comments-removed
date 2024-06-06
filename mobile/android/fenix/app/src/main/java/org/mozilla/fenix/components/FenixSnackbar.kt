@@ -445,6 +445,7 @@ LENGTH_SHORT
 Snackbar
 .
 LENGTH_SHORT
+private
 const
 val
 LENGTH_ACCESSIBLE

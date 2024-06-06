@@ -6089,6 +6089,7 @@ initialMode
 )
 }
 }
+private
 fun
 updateSecureWindowFlags
 (

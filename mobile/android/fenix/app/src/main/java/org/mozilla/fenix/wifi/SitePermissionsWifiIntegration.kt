@@ -296,6 +296,7 @@ stop
 }
 }
 }
+private
 fun
 addWifiConnectedListener
 (
@@ -308,6 +309,7 @@ addOnWifiConnectedChangedListener
 wifiConnectedListener
 )
 }
+private
 fun
 removeWifiConnectedListener
 (

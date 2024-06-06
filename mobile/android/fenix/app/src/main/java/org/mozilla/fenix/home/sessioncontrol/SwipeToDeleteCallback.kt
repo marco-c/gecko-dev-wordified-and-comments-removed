@@ -693,6 +693,7 @@ val
 MARGIN
 =
 32
+private
 const
 val
 DENSITY_CONVERSION

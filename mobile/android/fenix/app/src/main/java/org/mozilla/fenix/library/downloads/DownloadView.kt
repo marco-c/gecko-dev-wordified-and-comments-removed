@@ -325,6 +325,7 @@ Mode
 Normal
 private
 set
+private
 val
 downloadAdapter
 =
@@ -573,6 +574,7 @@ size
 }
 }
 }
+private
 fun
 updateEmptyState
 (

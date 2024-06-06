@@ -253,6 +253,7 @@ GeckoRuntime
 ?
 =
 null
+private
 const
 val
 CN_UPDATE_URL
@@ -288,6 +289,7 @@ pver
 .
 2
 "
+private
 const
 val
 CN_GET_HASH_URL
