@@ -305,6 +305,10 @@ comGoogleFirebase
 excludeGroupByRegex
 RepoMatching
 .
+comGoogleTesting
+excludeGroupByRegex
+RepoMatching
+.
 comAndroid
 }
 }
@@ -609,6 +613,10 @@ comGoogleFirebase
 includeGroupByRegex
 RepoMatching
 .
+comGoogleTesting
+includeGroupByRegex
+RepoMatching
+.
 comAndroid
 }
 }
@@ -690,6 +698,10 @@ excludeGroupByRegex
 RepoMatching
 .
 comGoogleFirebase
+excludeGroupByRegex
+RepoMatching
+.
+comGoogleTesting
 excludeGroupByRegex
 RepoMatching
 .
