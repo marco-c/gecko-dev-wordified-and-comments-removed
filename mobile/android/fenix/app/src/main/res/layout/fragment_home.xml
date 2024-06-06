@@ -342,7 +342,11 @@ background
 =
 "
 ?
-privateBrowsingButtonBackground
+android
+:
+attr
+/
+selectableItemBackgroundBorderless
 "
 android
 :

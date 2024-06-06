@@ -407,12 +407,11 @@ name
 privateBrowsingButtonBackground
 "
 >
-?
 android
 :
-attr
+color
 /
-selectableItemBackgroundBorderless
+transparent
 <
 /
 item
@@ -742,9 +741,9 @@ name
 privateBrowsingButtonBackground
 "
 >
-drawable
+color
 /
-private_browsing_button_background
+accent_private_theme
 <
 /
 item
