@@ -121,17 +121,6 @@ Tab
 *
 *
 property
-id
-a
-unique
-ID
-of
-this
-custom
-tab
-.
-*
-property
 toolbarColor
 Background
 color
