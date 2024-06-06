@@ -44,6 +44,10 @@ tools_kotlingradle
 classpath
 Deps
 .
+tools_appservicesgradle
+classpath
+Deps
+.
 androidx_safeargs
 classpath
 Deps
