@@ -484,6 +484,15 @@ channel
 isNightlyOrDebug
 )
 .
+extensionsWebAPIEnabled
+(
+Config
+.
+channel
+.
+isNightlyOrDebug
+)
+.
 build
 (
 )
