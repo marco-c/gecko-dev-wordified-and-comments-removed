@@ -16,4 +16,4 @@ detekt
 \
 app
 :
-assembleX86Debug
+assembleX86GreenfieldDebug
