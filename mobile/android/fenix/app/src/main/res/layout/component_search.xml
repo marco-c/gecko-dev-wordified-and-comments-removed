@@ -74,13 +74,6 @@ layout_height
 "
 android
 :
-layout_margin
-=
-"
-8dp
-"
-android
-:
 clickable
 =
 "
