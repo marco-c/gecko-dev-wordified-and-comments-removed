@@ -193,11 +193,6 @@ GeckoSessionSettings
 import
 kotlin
 .
-NotImplementedError
-;
-import
-kotlin
-.
 text
 .
 Charsets
