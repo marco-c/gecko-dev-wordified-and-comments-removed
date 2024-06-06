@@ -250,6 +250,9 @@ visitType
 VisitType
 .
 LINK
+previewImageUrl
+=
+null
 )
 val
 visitInfo2
@@ -282,6 +285,9 @@ visitType
 VisitType
 .
 LINK
+previewImageUrl
+=
+null
 )
 val
 visitInfo3
@@ -314,6 +320,9 @@ visitType
 VisitType
 .
 LINK
+previewImageUrl
+=
+null
 )
 val
 historyMetadataKey1
