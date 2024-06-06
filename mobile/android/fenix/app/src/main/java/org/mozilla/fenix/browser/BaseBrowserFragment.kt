@@ -1205,13 +1205,6 @@ Bundle
 ?
 )
 {
-super
-.
-onViewCreated
-(
-view
-savedInstanceState
-)
 browserInitialized
 =
 initializeUI
