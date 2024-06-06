@@ -653,7 +653,7 @@ N
 #
 242
 ;
-stre
+stra
 mission
 es
 d
@@ -717,7 +717,8 @@ name
 preference_category_search
 "
 >
-Recercar
+Rec
+rca
 <
 /
 string
@@ -770,7 +771,8 @@ name
 preference_subitem_autocomplete
 "
 >
-Autocompletar
+Emplenament
+d
 adre
 as
 <
