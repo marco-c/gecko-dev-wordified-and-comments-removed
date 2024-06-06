@@ -6531,7 +6531,7 @@ pcp
 )
 -
 >
-AboutToLoadHttpFtpDocumentForChild
+AboutToLoadHttpDocumentForChild
 (
 chan
 &

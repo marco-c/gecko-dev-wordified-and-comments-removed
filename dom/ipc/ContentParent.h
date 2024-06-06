@@ -2281,7 +2281,7 @@ aQoSPriority
 )
 ;
 nsresult
-AboutToLoadHttpFtpDocumentForChild
+AboutToLoadHttpDocumentForChild
 (
 nsIChannel
 *

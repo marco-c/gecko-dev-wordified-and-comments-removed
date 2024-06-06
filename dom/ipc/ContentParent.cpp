@@ -33244,7 +33244,7 @@ nsresult
 ContentParent
 :
 :
-AboutToLoadHttpFtpDocumentForChild
+AboutToLoadHttpDocumentForChild
 (
 nsIChannel
 *
