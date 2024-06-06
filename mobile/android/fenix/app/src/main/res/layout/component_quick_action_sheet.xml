@@ -140,16 +140,5 @@ layout_gravity
 "
 bottom
 "
-android
-:
-background
-=
-"
-android
-:
-color
-/
-transparent
-"
 /
 >

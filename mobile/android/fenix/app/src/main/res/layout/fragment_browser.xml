@@ -239,7 +239,7 @@ layout_marginBottom
 "
 dimen
 /
-browser_toolbar_height
+toolbar_and_qab_height
 "
 >
 <
@@ -319,17 +319,6 @@ layout_height
 =
 "
 wrap_content
-"
-android
-:
-background
-=
-"
-android
-:
-color
-/
-transparent
 "
 app
 :
