@@ -1503,6 +1503,11 @@ tab_list
 isClickable
 =
 false
+name_collection_edittext
+.
+isClickable
+=
+true
 it
 .
 selectedTabCollection
