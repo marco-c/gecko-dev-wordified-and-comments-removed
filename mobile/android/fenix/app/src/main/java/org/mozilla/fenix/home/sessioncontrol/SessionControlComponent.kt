@@ -301,6 +301,14 @@ url
 :
 String
 val
+hostname
+:
+String
+val
+title
+:
+String
+val
 selected
 :
 Boolean
