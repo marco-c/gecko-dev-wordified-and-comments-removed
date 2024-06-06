@@ -332,14 +332,11 @@ feature
 .
 *
 /
+const
 val
 unifiedSearchFeature
 =
-Config
-.
-channel
-.
-isNightlyOrDebug
+true
 /
 *
 *
