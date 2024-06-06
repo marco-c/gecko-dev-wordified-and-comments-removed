@@ -151,12 +151,6 @@ androidx
 .
 lifecycle
 .
-Observer
-import
-androidx
-.
-lifecycle
-.
 lifecycleScope
 import
 androidx
@@ -164,12 +158,6 @@ androidx
 paging
 .
 LivePagedListBuilder
-import
-androidx
-.
-paging
-.
-PagedList
 import
 androidx
 .
@@ -580,9 +568,6 @@ emptyContainerMessage
 rootView
 .
 findViewById
-<
-View
->
 (
 R
 .

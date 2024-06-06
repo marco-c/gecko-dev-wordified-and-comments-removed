@@ -169,10 +169,6 @@ by
 Delegates
 .
 observable
-<
-String
-?
->
 (
 null
 )

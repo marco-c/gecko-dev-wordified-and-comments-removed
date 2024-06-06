@@ -1163,9 +1163,6 @@ blockedByAndroidView
 rootView
 .
 findViewById
-<
-View
->
 (
 R
 .

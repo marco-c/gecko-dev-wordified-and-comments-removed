@@ -223,9 +223,6 @@ contentEquals
 )
 {
 listOf
-<
-String
->
 (
 )
 }

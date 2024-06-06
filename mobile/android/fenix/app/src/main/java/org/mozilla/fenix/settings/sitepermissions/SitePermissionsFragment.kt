@@ -275,9 +275,6 @@ val
 exceptionsCategory
 =
 requireNotNull
-<
-Preference
->
 (
 findPreference
 (
