@@ -613,11 +613,11 @@ mozac_ic_check
 }
 else
 {
-favicon
-.
-setImageResource
+updateFavIcon
 (
-0
+item
+.
+url
 )
 }
 }
