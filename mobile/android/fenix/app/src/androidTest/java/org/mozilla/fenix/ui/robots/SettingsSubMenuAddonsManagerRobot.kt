@@ -1687,7 +1687,7 @@ R
 .
 id
 .
-users_count
+review_count
 )
 )
 )

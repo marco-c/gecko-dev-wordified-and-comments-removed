@@ -1338,7 +1338,7 @@ layout_constraintEnd_toStartOf
 +
 id
 /
-users_count
+review_count
 "
 app
 :
@@ -1383,7 +1383,7 @@ id
 +
 id
 /
-users_count
+review_count
 "
 style
 =

@@ -245,7 +245,7 @@ ratingAccessibleView
 :
 TextView
 val
-userCountView
+reviewCountView
 :
 TextView
 val

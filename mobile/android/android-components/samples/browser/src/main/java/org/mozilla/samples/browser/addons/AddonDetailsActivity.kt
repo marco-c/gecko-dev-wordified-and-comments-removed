@@ -424,7 +424,7 @@ id
 rating_view
 )
 val
-userCountView
+reviewCountView
 =
 findViewById
 <
@@ -468,7 +468,7 @@ rating
 it
 .
 average
-userCountView
+reviewCountView
 .
 text
 =

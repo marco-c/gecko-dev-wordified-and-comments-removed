@@ -1208,7 +1208,7 @@ id
 rating_accessibility
 )
 val
-userCountView
+reviewCountView
 =
 view
 .
@@ -1221,7 +1221,7 @@ R
 .
 id
 .
-users_count
+review_count
 )
 val
 addButton
@@ -1280,7 +1280,7 @@ titleView
 summaryView
 ratingView
 ratingAccessibleView
-userCountView
+reviewCountView
 addButton
 allowedInPrivateBrowsingLabel
 statusErrorView
@@ -1754,7 +1754,7 @@ rating
 let
 {
 val
-userCount
+reviewCount
 =
 context
 .
@@ -1836,7 +1836,7 @@ it
 average
 holder
 .
-userCountView
+reviewCountView
 .
 text
 =
@@ -1844,7 +1844,7 @@ String
 .
 format
 (
-userCount
+reviewCount
 getFormattedAmount
 (
 it

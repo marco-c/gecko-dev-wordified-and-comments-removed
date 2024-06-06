@@ -3039,6 +3039,14 @@ rating
 getRating
 (
 )
+ratingUrl
+=
+getSafeString
+(
+"
+ratings_url
+"
+)
 defaultLocale
 =
 (

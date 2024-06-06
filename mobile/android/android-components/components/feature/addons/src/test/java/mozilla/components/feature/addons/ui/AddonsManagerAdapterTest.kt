@@ -1517,7 +1517,7 @@ mock
 (
 )
 val
-userCountView
+reviewCountView
 :
 TextView
 =
@@ -1582,9 +1582,9 @@ mock
 ratingAccessibleView
 =
 ratingAccessibleView
-userCountView
+reviewCountView
 =
-userCountView
+reviewCountView
 addButton
 =
 addButton
@@ -2789,7 +2789,7 @@ ratingAccessibleView
 mock
 (
 )
-userCountView
+reviewCountView
 =
 mock
 (
@@ -4196,7 +4196,7 @@ ratingAccessibleView
 mock
 (
 )
-userCountView
+reviewCountView
 =
 mock
 (
@@ -4487,7 +4487,7 @@ ratingAccessibleView
 mock
 (
 )
-userCountView
+reviewCountView
 =
 mock
 (
@@ -4738,7 +4738,7 @@ ratingAccessibleView
 mock
 (
 )
-userCountView
+reviewCountView
 =
 mock
 (
@@ -5030,7 +5030,7 @@ ratingAccessibleView
 mock
 (
 )
-userCountView
+reviewCountView
 =
 mock
 (
@@ -5281,7 +5281,7 @@ ratingAccessibleView
 mock
 (
 )
-userCountView
+reviewCountView
 =
 mock
 (
@@ -5551,7 +5551,7 @@ ratingAccessibleView
 mock
 (
 )
-userCountView
+reviewCountView
 =
 mock
 (
