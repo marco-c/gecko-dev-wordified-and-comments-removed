@@ -403,6 +403,9 @@ SuppressWarnings
 "
 TooManyFunctions
 "
+"
+LargeClass
+"
 )
 class
 TabTrayDialogFragment
