@@ -70,7 +70,10 @@ crate
 pattern
 :
 :
+{
 PatternKind
+PatternShaderInput
+}
 ;
 use
 crate
@@ -955,6 +958,10 @@ pub
 pattern
 :
 PatternKind
+pub
+pattern_input
+:
+PatternShaderInput
 pub
 device_pixel_scale
 :
@@ -2716,6 +2723,9 @@ new_prim
 pattern
 :
 PatternKind
+pattern_input
+:
+PatternShaderInput
 prim_spatial_node_index
 :
 SpatialNodeIndex
@@ -2759,6 +2769,7 @@ Prim
 PrimTask
 {
 pattern
+pattern_input
 prim_spatial_node_index
 raster_spatial_node_index
 device_pixel_scale

@@ -786,6 +786,9 @@ edge_flags
 int
 quad_flags
 ;
+int
+pattern_input
+;
 }
 ;
 struct
@@ -958,6 +961,9 @@ transform_id
 int
 z_id
 ;
+int
+pattern_input
+;
 }
 ;
 QuadHeader
@@ -986,6 +992,9 @@ x
 header
 .
 y
+header
+.
+z
 )
 ;
 return
@@ -2191,6 +2200,9 @@ edge_flags
 qi
 .
 quad_flags
+qh
+.
+pattern_input
 )
 ;
 }

@@ -59,6 +59,7 @@ pattern
 {
 Pattern
 PatternKind
+PatternShaderInput
 }
 prepare
 :
@@ -438,6 +439,9 @@ quad
 pattern
 .
 kind
+pattern
+.
+shader_input
 prim_instance_index
 main_prim_address
 transform_id
@@ -525,6 +529,9 @@ add_segment
 pattern
 .
 kind
+pattern
+.
+shader_input
 p0
 .
 x
@@ -557,6 +564,9 @@ add_composite_prim
 pattern
 .
 kind
+pattern
+.
+shader_input
 prim_instance_index
 LayoutRect
 :
@@ -932,6 +942,9 @@ add_segment
 pattern
 .
 kind
+pattern
+.
+shader_input
 x0
 as
 f32
@@ -975,6 +988,9 @@ add_composite_prim
 pattern
 .
 kind
+pattern
+.
+shader_input
 prim_instance_index
 unclipped_surface_rect
 .
@@ -1454,6 +1470,9 @@ add_segment
 pattern
 .
 kind
+pattern
+.
+shader_input
 r
 .
 min
@@ -1513,6 +1532,9 @@ add_composite_prim
 pattern
 .
 kind
+pattern
+.
+shader_input
 prim_instance_index
 unclipped_surface_rect
 .
@@ -1935,6 +1957,9 @@ add_segment
 kind
 :
 PatternKind
+pattern_input
+:
+PatternShaderInput
 x0
 :
 f32
@@ -2081,6 +2106,7 @@ RenderTaskKind
 new_prim
 (
 kind
+pattern_input
 prim_spatial_node_index
 raster_spatial_node_index
 device_pixel_scale
@@ -2170,6 +2196,9 @@ add_composite_prim
 pattern_kind
 :
 PatternKind
+pattern_input
+:
+PatternShaderInput
 prim_instance_index
 :
 PrimitiveInstanceIndex
@@ -2272,6 +2301,7 @@ PrimitiveCommand
 quad
 (
 pattern_kind
+pattern_input
 prim_instance_index
 composite_prim_address
 TransformPaletteId

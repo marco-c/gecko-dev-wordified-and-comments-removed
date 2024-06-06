@@ -69,7 +69,10 @@ crate
 pattern
 :
 :
+{
 PatternKind
+PatternShaderInput
+}
 ;
 use
 crate
@@ -1598,6 +1601,9 @@ add_quad_to_batch
 info
 .
 pattern
+info
+.
+pattern_input
 render_task_address
 info
 .
@@ -5359,6 +5365,10 @@ PatternKind
 :
 :
 ColorOrTexture
+PatternShaderInput
+(
+0
+)
 render_task_address
 clip_transform_id
 clip_prim_address
@@ -5684,6 +5694,10 @@ PatternKind
 :
 :
 Mask
+PatternShaderInput
+(
+0
+)
 render_task_address
 prim_transform_id
 main_prim_address
