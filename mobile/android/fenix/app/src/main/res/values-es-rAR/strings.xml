@@ -1923,9 +1923,8 @@ name
 recent_tabs_header
 "
 >
-Volver
+Regresar
 a
-ver
 <
 /
 string
@@ -6802,6 +6801,7 @@ customize_toggle_jump_back_in
 "
 >
 Regresar
+a
 <
 /
 string
