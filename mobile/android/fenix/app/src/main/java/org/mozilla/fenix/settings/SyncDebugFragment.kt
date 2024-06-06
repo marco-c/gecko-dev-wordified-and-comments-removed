@@ -97,12 +97,6 @@ preference
 .
 PreferenceFragmentCompat
 import
-kotlin
-.
-system
-.
-exitProcess
-import
 mozilla
 .
 components
@@ -144,6 +138,12 @@ fenix
 ext
 .
 showToolbar
+import
+kotlin
+.
+system
+.
+exitProcess
 /
 *
 *

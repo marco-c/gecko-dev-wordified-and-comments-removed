@@ -307,7 +307,7 @@ helpers
 .
 TestHelper
 .
-packageName
+mDevice
 import
 org
 .
@@ -319,7 +319,7 @@ helpers
 .
 TestHelper
 .
-mDevice
+packageName
 import
 org
 .

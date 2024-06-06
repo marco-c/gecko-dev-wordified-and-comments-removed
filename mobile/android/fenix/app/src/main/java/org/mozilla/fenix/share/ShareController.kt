@@ -181,12 +181,6 @@ kotlinx
 .
 coroutines
 .
-GlobalScope
-import
-kotlinx
-.
-coroutines
-.
 Deferred
 import
 kotlinx
@@ -200,6 +194,12 @@ kotlinx
 coroutines
 .
 Dispatchers
+import
+kotlinx
+.
+coroutines
+.
+GlobalScope
 import
 kotlinx
 .

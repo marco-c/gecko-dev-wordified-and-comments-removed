@@ -135,9 +135,7 @@ mozilla
 .
 fenix
 .
-helpers
-.
-HomeActivityTestRule
+HomeActivity
 import
 org
 .
@@ -145,7 +143,9 @@ mozilla
 .
 fenix
 .
-HomeActivity
+helpers
+.
+HomeActivityTestRule
 import
 org
 .

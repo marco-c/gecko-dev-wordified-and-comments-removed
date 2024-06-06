@@ -65,6 +65,12 @@ fenix
 .
 settings
 import
+androidx
+.
+preference
+.
+ListPreference
+import
 io
 .
 mockk
@@ -84,12 +90,6 @@ junit
 Assert
 .
 assertEquals
-import
-androidx
-.
-preference
-.
-ListPreference
 import
 org
 .

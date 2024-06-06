@@ -159,11 +159,9 @@ mozilla
 .
 fenix
 .
-GleanMetrics
+helpers
 .
-History
-as
-GleanHistory
+FenixRobolectricTestRunner
 import
 org
 .
@@ -171,9 +169,11 @@ mozilla
 .
 fenix
 .
-helpers
+GleanMetrics
 .
-FenixRobolectricTestRunner
+History
+as
+GleanHistory
 RunWith
 (
 FenixRobolectricTestRunner

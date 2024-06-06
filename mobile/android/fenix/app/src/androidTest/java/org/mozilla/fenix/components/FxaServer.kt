@@ -80,8 +80,6 @@ service
 fxa
 .
 ServerConfig
-.
-Server
 import
 mozilla
 .
@@ -92,6 +90,8 @@ service
 fxa
 .
 ServerConfig
+.
+Server
 /
 *
 *

@@ -641,9 +641,11 @@ mozilla
 .
 fenix
 .
-theme
+tabstray
 .
-ThemeManager
+syncedtabs
+.
+SyncedTabsIntegration
 import
 org
 .
@@ -651,11 +653,9 @@ mozilla
 .
 fenix
 .
-tabstray
+theme
 .
-syncedtabs
-.
-SyncedTabsIntegration
+ThemeManager
 import
 org
 .

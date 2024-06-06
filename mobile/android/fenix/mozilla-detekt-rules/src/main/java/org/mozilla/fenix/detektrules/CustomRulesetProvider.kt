@@ -123,7 +123,7 @@ detektrules
 .
 perf
 .
-MozillaStrictModeSuppression
+MozillaRunBlockingCheck
 import
 org
 .
@@ -135,7 +135,7 @@ detektrules
 .
 perf
 .
-MozillaRunBlockingCheck
+MozillaStrictModeSuppression
 import
 org
 .

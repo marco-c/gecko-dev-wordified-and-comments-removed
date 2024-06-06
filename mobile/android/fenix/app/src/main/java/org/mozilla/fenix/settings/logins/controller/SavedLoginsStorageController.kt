@@ -241,7 +241,7 @@ logins
 .
 fragment
 .
-EditLoginFragmentDirections
+AddLoginFragmentDirections
 import
 org
 .
@@ -255,7 +255,7 @@ logins
 .
 fragment
 .
-AddLoginFragmentDirections
+EditLoginFragmentDirections
 import
 org
 .

@@ -157,7 +157,7 @@ helpers
 .
 TestHelper
 .
-setTextToClipBoard
+exitMenu
 import
 org
 .
@@ -169,7 +169,7 @@ helpers
 .
 TestHelper
 .
-exitMenu
+setTextToClipBoard
 import
 org
 .

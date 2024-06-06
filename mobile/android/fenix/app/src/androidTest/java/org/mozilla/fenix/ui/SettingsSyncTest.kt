@@ -93,7 +93,7 @@ org
 .
 junit
 .
-Rule
+After
 import
 org
 .
@@ -105,13 +105,13 @@ org
 .
 junit
 .
-After
+Ignore
 import
 org
 .
 junit
 .
-Ignore
+Rule
 import
 org
 .

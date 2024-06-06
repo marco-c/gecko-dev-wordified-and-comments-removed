@@ -237,7 +237,7 @@ junit
 .
 Assert
 .
-assertTrue
+assertFalse
 import
 org
 .
@@ -245,7 +245,7 @@ junit
 .
 Assert
 .
-assertFalse
+assertTrue
 import
 org
 .
@@ -327,14 +327,6 @@ MockWebServerHelper
 import
 java
 .
-util
-.
-concurrent
-.
-TimeUnit
-import
-java
-.
 io
 .
 BufferedReader
@@ -344,6 +336,14 @@ java
 io
 .
 ByteArrayInputStream
+import
+java
+.
+util
+.
+concurrent
+.
+TimeUnit
 import
 java
 .

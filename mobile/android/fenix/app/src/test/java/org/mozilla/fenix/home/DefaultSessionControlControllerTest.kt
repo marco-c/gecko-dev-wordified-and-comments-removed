@@ -509,7 +509,7 @@ fenix
 .
 GleanMetrics
 .
-RecentTabs
+RecentBookmarks
 import
 org
 .
@@ -519,7 +519,7 @@ fenix
 .
 GleanMetrics
 .
-RecentBookmarks
+RecentTabs
 import
 org
 .

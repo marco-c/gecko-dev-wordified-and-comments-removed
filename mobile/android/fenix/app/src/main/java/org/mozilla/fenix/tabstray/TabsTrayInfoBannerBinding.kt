@@ -91,12 +91,6 @@ annotation
 .
 VisibleForTesting
 import
-kotlin
-.
-math
-.
-max
-import
 kotlinx
 .
 coroutines
@@ -232,6 +226,12 @@ fenix
 utils
 .
 Settings
+import
+kotlin
+.
+math
+.
+max
 OptIn
 (
 ExperimentalCoroutinesApi

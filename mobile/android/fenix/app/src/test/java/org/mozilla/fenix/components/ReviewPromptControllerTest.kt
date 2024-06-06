@@ -159,12 +159,6 @@ org
 .
 junit
 .
-Test
-import
-org
-.
-junit
-.
 Before
 import
 org
@@ -172,6 +166,12 @@ org
 junit
 .
 Rule
+import
+org
+.
+junit
+.
+Test
 import
 org
 .

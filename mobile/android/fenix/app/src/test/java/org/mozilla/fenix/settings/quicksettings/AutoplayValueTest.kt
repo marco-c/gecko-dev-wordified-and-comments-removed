@@ -141,7 +141,7 @@ sitepermissions
 .
 SitePermissionsRules
 .
-AutoplayAction
+Action
 import
 mozilla
 .
@@ -153,7 +153,7 @@ sitepermissions
 .
 SitePermissionsRules
 .
-Action
+AutoplayAction
 import
 mozilla
 .
@@ -173,7 +173,7 @@ junit
 .
 Assert
 .
-assertTrue
+assertEquals
 import
 org
 .
@@ -189,7 +189,7 @@ junit
 .
 Assert
 .
-assertEquals
+assertTrue
 import
 org
 .

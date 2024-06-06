@@ -71,6 +71,12 @@ view
 .
 View
 import
+android
+.
+widget
+.
+ImageButton
+import
 mozilla
 .
 components
@@ -87,7 +93,9 @@ org
 .
 junit
 .
-Test
+Assert
+.
+assertEquals
 import
 org
 .
@@ -109,9 +117,7 @@ org
 .
 junit
 .
-Assert
-.
-assertEquals
+Test
 import
 org
 .
@@ -130,12 +136,6 @@ fenix
 helpers
 .
 FenixRobolectricTestRunner
-import
-android
-.
-widget
-.
-ImageButton
 RunWith
 (
 FenixRobolectricTestRunner

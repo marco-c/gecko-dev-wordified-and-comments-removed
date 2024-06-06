@@ -97,7 +97,7 @@ feature
 .
 push
 .
-PushConfig
+Protocol
 import
 mozilla
 .
@@ -107,7 +107,7 @@ feature
 .
 push
 .
-Protocol
+PushConfig
 import
 mozilla
 .

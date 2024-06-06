@@ -105,7 +105,7 @@ base
 .
 feature
 .
-UserInteractionHandler
+LifecycleAwareFeature
 import
 mozilla
 .
@@ -117,7 +117,7 @@ base
 .
 feature
 .
-LifecycleAwareFeature
+UserInteractionHandler
 import
 org
 .

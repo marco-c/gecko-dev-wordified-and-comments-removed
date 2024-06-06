@@ -125,9 +125,9 @@ mozilla
 .
 fenix
 .
-utils
+GleanMetrics
 .
-Settings
+ReviewPrompt
 import
 org
 .
@@ -135,9 +135,9 @@ mozilla
 .
 fenix
 .
-GleanMetrics
+utils
 .
-ReviewPrompt
+Settings
 import
 java
 .

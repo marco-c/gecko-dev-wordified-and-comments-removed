@@ -77,13 +77,13 @@ io
 .
 mockk
 .
-verify
+mockk
 import
 io
 .
 mockk
 .
-mockk
+verify
 import
 mozilla
 .

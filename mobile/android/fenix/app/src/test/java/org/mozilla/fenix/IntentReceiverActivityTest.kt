@@ -261,9 +261,9 @@ mozilla
 .
 fenix
 .
-components
+GleanMetrics
 .
-IntentProcessorType
+Events
 import
 org
 .
@@ -271,9 +271,9 @@ mozilla
 .
 fenix
 .
-GleanMetrics
+components
 .
-Events
+IntentProcessorType
 import
 org
 .
