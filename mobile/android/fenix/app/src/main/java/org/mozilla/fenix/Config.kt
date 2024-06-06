@@ -132,14 +132,6 @@ ReleaseChannel
 .
 Nightly
 "
-nightlyLegacy
-"
--
->
-ReleaseChannel
-.
-Nightly
-"
 debug
 "
 -
