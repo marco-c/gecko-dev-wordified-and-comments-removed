@@ -211,7 +211,7 @@ createInteractor
 (
 )
 .
-onCloseClicked
+onAutoCloseDialogCloseButtonClicked
 (
 )
 verify
@@ -249,7 +249,7 @@ createInteractor
 (
 )
 .
-onEnabledAutoCloseClicked
+onEnableAutoCloseClicked
 (
 )
 verify

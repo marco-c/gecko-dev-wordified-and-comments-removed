@@ -510,7 +510,7 @@ onAutoCloseDismissClick
 {
 interactor
 .
-onCloseClicked
+onAutoCloseDialogCloseButtonClicked
 (
 )
 showAutoClosePrompt
@@ -523,7 +523,7 @@ onEnableAutoCloseClick
 {
 interactor
 .
-onEnabledAutoCloseClicked
+onEnableAutoCloseClicked
 (
 )
 showAutoClosePrompt
