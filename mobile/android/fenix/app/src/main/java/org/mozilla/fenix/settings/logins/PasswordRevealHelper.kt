@@ -187,7 +187,7 @@ R
 .
 drawable
 .
-mozac_ic_password_hide
+mozac_ic_eye_slash_24
 )
 )
 revealPasswordButton
