@@ -441,6 +441,10 @@ yua
 "
 hus
 "
+	
+"
+ace
+"
 ]
 SCREENSHOT_LOCALES
 =
