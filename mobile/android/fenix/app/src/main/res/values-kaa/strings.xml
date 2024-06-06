@@ -619,7 +619,7 @@ name
 tab_tray_add_new_collection_name
 "
 >
-At
+Atamas
 <
 /
 string
@@ -7325,7 +7325,7 @@ p
 tur
 wsh
 aynalard
-tkizip
+tkerip
 jiberiw
 <
 /
@@ -9259,7 +9259,7 @@ customize_addon_collection_hint
 "
 >
 Toplam
-at
+atamas
 <
 /
 string
@@ -10509,7 +10509,7 @@ preferences_sync_device_name
 >
 Qur
 lma
-at
+atamas
 <
 /
 string
@@ -10539,7 +10539,7 @@ empty_device_name_error
 >
 Qur
 lma
-at
+atamas
 bos
 bol
 w
@@ -15027,7 +15027,7 @@ collection_name_hint
 "
 >
 Toplam
-at
+atamas
 <
 /
 string
@@ -16624,7 +16624,7 @@ name
 bookmark_name_label
 "
 >
-ATI
+ATAMASI
 <
 /
 string
@@ -17430,7 +17430,7 @@ name
 preference_phone_feature_notification
 "
 >
-Xabarnama
+Xabarlama
 <
 /
 string
@@ -18553,7 +18553,7 @@ create_collection_name_collection
 "
 >
 Toplam
-at
+atamas
 <
 /
 string
@@ -20193,7 +20193,7 @@ snackbar_collection_renamed
 "
 >
 Toplam
-at
+atamas
 zgertildi
 <
 /
@@ -20923,7 +20923,10 @@ url_copied
 "
 >
 Silteme
-nusqaland
+k
+shirip
+al
+nd
 <
 /
 string
@@ -26371,7 +26374,7 @@ add_to_homescreen_text_placeholder
 Operativ
 buyr
 q
-at
+atamas
 <
 /
 string
@@ -28042,7 +28045,7 @@ name
 saved_logins_sort_strategy_alphabetically
 "
 >
-At
+Atamas
 boy
 nsha
 (
@@ -32969,7 +32972,7 @@ name
 top_sites_rename_dialog_title
 "
 >
-At
+Atamas
 <
 /
 string
@@ -32999,7 +33002,7 @@ shortcut_name_hint
 Operativ
 buyr
 q
-at
+atamas
 <
 /
 string

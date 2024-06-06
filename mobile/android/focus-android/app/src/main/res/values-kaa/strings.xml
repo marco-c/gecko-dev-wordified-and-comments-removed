@@ -2673,7 +2673,7 @@ name
 content_description_dismiss_input
 "
 >
-tkizip
+tkerip
 jiberiw
 <
 /
@@ -3736,7 +3736,7 @@ name
 onboarding_second_screen_skip_button_text
 "
 >
-tkizip
+tkerip
 jiberiw
 <
 /
@@ -3766,7 +3766,7 @@ name
 firstrun_skip_button
 "
 >
-tkizip
+tkerip
 jiberiw
 <
 /
@@ -4731,7 +4731,10 @@ custom_tab_copy_url_action
 "
 >
 Silteme
-nusqaland
+k
+shirip
+al
+nd
 <
 /
 string
@@ -4896,7 +4899,7 @@ preferences_cookie_banner
 Cookie
 haqq
 nda
-xabarnamalard
+xabarlamalard
 q
 sqart
 w
@@ -5015,7 +5018,7 @@ cookie_banner_reject_all_option_title
 Cookie
 haqq
 nda
-xabarnamalard
+xabarlamalard
 q
 sqart
 w
@@ -5071,7 +5074,7 @@ cookie_banner_exception_item_title
 Cookie
 haqq
 nda
-xabarnamalard
+xabarlamalard
 q
 sqart
 w
@@ -5631,7 +5634,7 @@ name
 preference_phone_feature_notification
 "
 >
-Xabarnama
+Xabarlama
 <
 /
 string
