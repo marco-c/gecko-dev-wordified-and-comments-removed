@@ -256,6 +256,7 @@ CreditCard
 .
 *
 /
+suspend
 fun
 CreditCard
 .
@@ -281,7 +282,7 @@ key
 =
 crypto
 .
-key
+getOrGenerateKey
 (
 )
 val

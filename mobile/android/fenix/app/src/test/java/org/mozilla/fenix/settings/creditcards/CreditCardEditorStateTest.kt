@@ -79,6 +79,12 @@ mockk
 .
 mockk
 import
+kotlinx
+.
+coroutines
+.
+runBlocking
+import
 mozilla
 .
 components
@@ -255,6 +261,8 @@ fun
 testToCreditCardEditorState
 (
 )
+=
+runBlocking
 {
 val
 storage

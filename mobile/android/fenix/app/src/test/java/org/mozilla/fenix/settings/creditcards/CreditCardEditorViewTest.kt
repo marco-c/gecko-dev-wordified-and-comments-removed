@@ -103,6 +103,12 @@ mockk
 .
 verify
 import
+kotlinx
+.
+coroutines
+.
+runBlocking
+import
 mozilla
 .
 components
@@ -733,6 +739,8 @@ card
 information
 (
 )
+=
+runBlocking
 {
 creditCardEditorView
 .
@@ -876,6 +884,8 @@ is
 called
 (
 )
+=
+runBlocking
 {
 creditCardEditorView
 .
@@ -1573,6 +1583,8 @@ is
 called
 (
 )
+=
+runBlocking
 {
 creditCardEditorView
 .
