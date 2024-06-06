@@ -2794,6 +2794,10 @@ Value
 .
 FULL_BROWSER
 )
+.
+queue
+(
+)
 }
 JvmStatic
 fun
