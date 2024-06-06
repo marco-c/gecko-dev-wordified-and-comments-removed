@@ -303,7 +303,7 @@ org
 .
 mozilla
 .
-fennec_aurora
+fenix
 "
 const
 val
