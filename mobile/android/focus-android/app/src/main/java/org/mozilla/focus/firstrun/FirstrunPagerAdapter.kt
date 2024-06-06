@@ -142,8 +142,6 @@ string
 .
 app_name
 )
-this
-.
 pages
 =
 arrayOf

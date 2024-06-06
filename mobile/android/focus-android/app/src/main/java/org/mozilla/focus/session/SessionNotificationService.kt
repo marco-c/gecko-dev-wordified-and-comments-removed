@@ -268,8 +268,6 @@ action
 ?
 :
 return
-Service
-.
 START_NOT_STICKY
 when
 (
@@ -375,8 +373,6 @@ intent
 )
 }
 return
-Service
-.
 START_NOT_STICKY
 }
 override
@@ -996,8 +992,6 @@ thread
 ThreadUtils
 .
 postToMainThread
-(
-Runnable
 {
 context
 .
@@ -1006,7 +1000,6 @@ startService
 intent
 )
 }
-)
 }
 internal
 fun
@@ -1063,8 +1056,6 @@ queue
 ThreadUtils
 .
 postToMainThread
-(
-Runnable
 {
 context
 .
@@ -1073,7 +1064,6 @@ stopService
 intent
 )
 }
-)
 }
 }
 }

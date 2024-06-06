@@ -168,7 +168,6 @@ delete
 (
 )
 }
-suspend
 fun
 save
 (
@@ -228,7 +227,6 @@ stream
 )
 }
 }
-suspend
 fun
 load
 (

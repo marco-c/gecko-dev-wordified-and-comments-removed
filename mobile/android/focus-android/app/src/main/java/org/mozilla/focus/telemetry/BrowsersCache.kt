@@ -282,8 +282,6 @@ context
 .
 also
 {
-this
-.
 cachedBrowsers
 =
 it

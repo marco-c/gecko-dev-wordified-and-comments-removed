@@ -446,8 +446,6 @@ ContextMenu
 .
 ItemTappedExtra
 (
-this
-.
 toContextMenuExtraKey
 (
 )
@@ -538,8 +536,6 @@ toContextMenuExtraKey
 =
 if
 (
-this
-.
 component
 =
 =
@@ -548,8 +544,6 @@ Component
 FEATURE_CONTEXTMENU
 )
 {
-this
-.
 metadata
 ?
 .

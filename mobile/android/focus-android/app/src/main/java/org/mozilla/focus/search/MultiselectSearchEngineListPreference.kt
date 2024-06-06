@@ -227,8 +227,6 @@ onBindViewHolder
 (
 holder
 )
-this
-.
 bindEngineCheckboxesToMenu
 (
 )

@@ -163,8 +163,6 @@ init
 setInitialValue
 (
 )
-this
-.
 setOnCheckedChangeListener
 (
 null

@@ -184,8 +184,6 @@ TabSessionState
 Unit
 )
 {
-this
-.
 tabReference
 =
 WeakReference

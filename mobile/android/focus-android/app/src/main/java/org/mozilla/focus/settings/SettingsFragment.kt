@@ -557,13 +557,6 @@ true
 companion
 object
 {
-const
-val
-TAG
-=
-"
-settings
-"
 fun
 newInstance
 (

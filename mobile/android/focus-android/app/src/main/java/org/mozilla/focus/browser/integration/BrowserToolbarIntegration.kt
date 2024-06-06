@@ -436,8 +436,6 @@ String
 ?
 =
 null
-private
-val
 inTesting
 :
 Boolean
