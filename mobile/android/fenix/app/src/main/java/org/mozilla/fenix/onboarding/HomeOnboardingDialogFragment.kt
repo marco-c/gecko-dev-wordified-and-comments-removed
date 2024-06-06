@@ -139,16 +139,6 @@ fragment
 .
 findNavController
 import
-com
-.
-google
-.
-accompanist
-.
-insets
-.
-ProvideWindowInsets
-import
 mozilla
 .
 components
@@ -339,8 +329,6 @@ DisposeOnViewTreeLifecycleDestroyed
 )
 setContent
 {
-ProvideWindowInsets
-{
 FirefoxTheme
 {
 val
@@ -401,7 +389,6 @@ onDismiss
 )
 }
 )
-}
 }
 }
 }

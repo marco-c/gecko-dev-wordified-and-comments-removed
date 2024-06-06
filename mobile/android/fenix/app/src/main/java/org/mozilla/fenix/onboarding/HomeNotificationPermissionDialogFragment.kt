@@ -131,16 +131,6 @@ app
 .
 DialogFragment
 import
-com
-.
-google
-.
-accompanist
-.
-insets
-.
-ProvideWindowInsets
-import
 org
 .
 mozilla
@@ -297,8 +287,6 @@ DisposeOnViewTreeLifecycleDestroyed
 )
 setContent
 {
-ProvideWindowInsets
-{
 FirefoxTheme
 {
 NotificationPermissionDialogScreen
@@ -322,7 +310,6 @@ onDismiss
 )
 }
 )
-}
 }
 }
 }
