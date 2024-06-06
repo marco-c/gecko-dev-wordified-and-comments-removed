@@ -1801,7 +1801,7 @@ R
 .
 string
 .
-cfr_for_cookie_banner
+cfr_cookie_banner
 LocalContext
 .
 current
@@ -1813,6 +1813,18 @@ R
 string
 .
 onboarding_short_app_name
+)
+LocalContext
+.
+current
+.
+getString
+(
+R
+.
+string
+.
+cfr_cookie_banner_link
 )
 )
 ClickableSubstringLink
@@ -1846,7 +1858,7 @@ R
 .
 string
 .
-cfr_for_cookie_banner_underline_settings
+cfr_cookie_banner_link
 )
 )
 clickableEndIndex
