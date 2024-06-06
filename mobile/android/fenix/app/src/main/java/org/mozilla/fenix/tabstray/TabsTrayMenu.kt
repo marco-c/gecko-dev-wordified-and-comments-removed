@@ -394,7 +394,7 @@ R
 .
 color
 .
-primary_text_normal_theme
+fx_mobile_text_color_primary
 )
 {
 onItemTapped
@@ -431,7 +431,7 @@ R
 .
 color
 .
-primary_text_normal_theme
+fx_mobile_text_color_primary
 )
 {
 context
@@ -482,7 +482,7 @@ R
 .
 color
 .
-primary_text_normal_theme
+fx_mobile_text_color_primary
 )
 {
 onItemTapped
@@ -519,7 +519,7 @@ R
 .
 color
 .
-primary_text_normal_theme
+fx_mobile_text_color_primary
 )
 {
 onItemTapped
@@ -556,7 +556,7 @@ R
 .
 color
 .
-primary_text_normal_theme
+fx_mobile_text_color_primary
 )
 {
 onItemTapped
@@ -586,7 +586,7 @@ R
 .
 color
 .
-primary_text_normal_theme
+fx_mobile_text_color_primary
 )
 {
 context

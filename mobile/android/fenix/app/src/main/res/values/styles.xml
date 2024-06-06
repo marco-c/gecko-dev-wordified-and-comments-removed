@@ -273,7 +273,7 @@ colorAccent
 >
 color
 /
-primary_text_normal_theme
+fx_mobile_text_color_primary
 <
 /
 item
@@ -671,7 +671,7 @@ colorControlNormal
 >
 color
 /
-primary_text_normal_theme
+fx_mobile_text_color_primary
 <
 /
 item
@@ -696,7 +696,7 @@ primaryText
 >
 color
 /
-primary_text_normal_theme
+fx_mobile_text_color_primary
 <
 /
 item
@@ -1276,7 +1276,7 @@ mozac_primary_text_color
 >
 color
 /
-primary_text_normal_theme
+fx_mobile_text_color_primary
 <
 /
 item
@@ -1490,7 +1490,7 @@ privateBrowsingButtonAccent
 >
 color
 /
-primary_text_normal_theme
+fx_mobile_text_color_primary
 <
 /
 item

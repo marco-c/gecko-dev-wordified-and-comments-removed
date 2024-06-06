@@ -215,7 +215,7 @@ tint
 "
 color
 /
-primary_text_normal_theme
+fx_mobile_icon_color_primary
 "
 app
 :
@@ -298,7 +298,7 @@ textColor
 "
 color
 /
-primary_text_normal_theme
+fx_mobile_text_color_primary
 "
 app
 :
