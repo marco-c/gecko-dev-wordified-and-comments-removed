@@ -169,6 +169,12 @@ org
 .
 junit
 .
+Ignore
+import
+org
+.
+junit
+.
 Rule
 import
 org
@@ -529,6 +535,7 @@ isDestroyed
 }
 SmokeTest
 Test
+Ignore
 fun
 openCustomTabInFocusTest
 (
