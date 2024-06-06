@@ -514,6 +514,11 @@ totalViewTime
 it
 .
 totalViewTime
+historyMetadataKey
+=
+it
+.
+key
 )
 }
 )

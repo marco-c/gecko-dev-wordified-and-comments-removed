@@ -461,6 +461,11 @@ from
 BrowserDirection
 .
 FromHistoryMetadataGroup
+historyMetadata
+=
+item
+.
+historyMetadataKey
 )
 }
 override
