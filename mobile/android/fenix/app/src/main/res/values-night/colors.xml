@@ -1175,12 +1175,12 @@ color
 name
 =
 "
-top_site_pin_icon_background_tint
+top_site_pin_icon_color
 "
 >
 color
 /
-photonViolet50
+foundation_light_theme
 <
 /
 color

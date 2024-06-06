@@ -3807,12 +3807,12 @@ color
 name
 =
 "
-top_site_pin_icon_background_tint
+top_site_pin_icon_color
 "
 >
 color
 /
-photonInk20
+foundation_dark_theme
 <
 /
 color
