@@ -852,9 +852,8 @@ android
 background
 =
 "
-drawable
-/
-scrim_background
+?
+scrim
 "
 android
 :
