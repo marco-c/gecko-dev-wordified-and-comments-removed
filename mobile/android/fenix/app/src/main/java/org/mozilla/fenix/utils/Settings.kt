@@ -3123,6 +3123,13 @@ TCP_FEATURE
 =
 =
 true
+&
+&
+Config
+.
+channel
+.
+isNightlyOrDebug
 /
 *
 *
@@ -3166,6 +3173,13 @@ TCP_CFR
 =
 =
 true
+&
+&
+Config
+.
+channel
+.
+isNightlyOrDebug
 )
 val
 blockCookiesSelectionInCustomTrackingProtection
