@@ -3224,7 +3224,6 @@ DpOffset
 contextMenuWidthDp
 +
 ICON_SIZE
--
 ICON_SIZE
 )
 }
@@ -3235,7 +3234,6 @@ DpOffset
 0
 .
 dp
--
 ICON_SIZE
 )
 }
