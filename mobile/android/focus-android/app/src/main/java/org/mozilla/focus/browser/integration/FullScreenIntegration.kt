@@ -183,10 +183,6 @@ val
 store
 :
 BrowserStore
-val
-sessionManager
-:
-SessionManager
 tabId
 :
 String

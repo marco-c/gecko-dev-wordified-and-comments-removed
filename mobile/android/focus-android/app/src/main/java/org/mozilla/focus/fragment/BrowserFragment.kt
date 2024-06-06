@@ -1621,9 +1621,6 @@ requireActivity
 components
 .
 store
-components
-.
-sessionManager
 tab
 .
 id
