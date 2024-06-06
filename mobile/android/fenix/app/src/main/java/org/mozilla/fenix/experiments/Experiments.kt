@@ -154,6 +154,12 @@ default
 browser
 "
 )
+HOME_PAGE
+(
+"
+homescreen
+"
+)
 }
 /
 *

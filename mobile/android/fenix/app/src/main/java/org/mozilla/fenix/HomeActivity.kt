@@ -2048,7 +2048,7 @@ settings
 (
 )
 .
-pocketRecommendations
+showPocketRecommendationsFeature
 )
 {
 components

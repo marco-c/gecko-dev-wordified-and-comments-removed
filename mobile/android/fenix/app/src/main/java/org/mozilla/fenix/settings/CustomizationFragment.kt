@@ -869,7 +869,7 @@ settings
 (
 )
 .
-pocketRecommendations
+showPocketRecommendationsFeature
 onPreferenceChangeListener
 =
 CustomizeHomeMetricsUpdater
