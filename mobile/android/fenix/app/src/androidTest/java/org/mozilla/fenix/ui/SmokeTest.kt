@@ -429,18 +429,6 @@ ui
 .
 robots
 .
-clickUrlbar
-import
-org
-.
-mozilla
-.
-fenix
-.
-ui
-.
-robots
-.
 collectionRobot
 import
 org
@@ -2688,6 +2676,8 @@ url
 .
 openNavigationToolbar
 {
+}
+.
 clickUrlbar
 {
 verifyDefaultSearchEngine
@@ -2696,7 +2686,6 @@ verifyDefaultSearchEngine
 Google
 "
 )
-}
 }
 }
 Test
