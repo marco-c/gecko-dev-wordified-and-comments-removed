@@ -1463,6 +1463,9 @@ start
 subscribeToTabCollections
 (
 )
+updateLastBrowseActivity
+(
+)
 }
 override
 fun
