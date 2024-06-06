@@ -2881,9 +2881,9 @@ selected
 }
 media
 (
-prefers
+forced
 -
-contrast
+colors
 )
 {
 #
@@ -3453,9 +3453,9 @@ dark
 media
 not
 (
-prefers
+forced
 -
-contrast
+colors
 )
 {
 html
@@ -7299,9 +7299,9 @@ radius
 }
 media
 (
-prefers
+forced
 -
-contrast
+colors
 )
 {
 .
