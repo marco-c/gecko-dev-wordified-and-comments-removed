@@ -8845,6 +8845,13 @@ url
 String
 )
 {
+if
+(
+crashReporterIsVisible
+(
+)
+)
+return
 val
 host
 =
