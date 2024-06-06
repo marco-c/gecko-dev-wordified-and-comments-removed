@@ -541,11 +541,6 @@ TranslationsAction
 .
 SetSupportedLanguagesAction
 (
-tabId
-=
-tab
-.
-id
 supportedLanguages
 =
 supportLanguages
@@ -953,11 +948,6 @@ TranslationsAction
 .
 SetSupportedLanguagesAction
 (
-tabId
-=
-tab
-.
-id
 supportedLanguages
 =
 supportedLanguages

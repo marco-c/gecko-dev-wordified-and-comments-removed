@@ -233,17 +233,6 @@ TranslationsDialogReducer
 reduce
 middlewares
 )
-{
-init
-{
-dispatch
-(
-TranslationsDialogAction
-.
-FetchSupportedLanguages
-)
-}
-}
 /
 *
 *
