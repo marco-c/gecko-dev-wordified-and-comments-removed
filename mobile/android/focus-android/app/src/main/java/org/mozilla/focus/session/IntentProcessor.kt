@@ -838,7 +838,7 @@ add
 this
 selected
 =
-true
+false
 )
 }
 }
@@ -955,7 +955,12 @@ add
 session
 selected
 =
-true
+!
+session
+.
+isCustomTabSession
+(
+)
 )
 return
 session
