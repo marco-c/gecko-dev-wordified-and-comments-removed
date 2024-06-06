@@ -237,13 +237,7 @@ Mutex
 mMutex
 MOZ_UNANNOTATED
 ;
-mozilla
-:
-:
-Atomic
-<
 bool
->
 mWindowSurfaceValid
 ;
 #
@@ -272,7 +266,11 @@ mIsShaped
 int
 mXDepth
 ;
+Atomic
+<
 Window
+Relaxed
+>
 mXWindow
 ;
 Visual
