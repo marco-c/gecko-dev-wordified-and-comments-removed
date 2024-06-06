@@ -456,6 +456,16 @@ components
 core
 .
 sessionManager
+components
+.
+core
+.
+sessionManager
+.
+selectedSession
+?
+.
+id
 )
 }
 }
