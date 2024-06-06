@@ -153,6 +153,10 @@ BeautifulTable
 STYLE_GRID
 )
     
+failure_count
+=
+0
+    
 for
 suite
 in
@@ -274,15 +278,8 @@ Failure
 )
 :
                         
-table
-.
-rows
-.
-append
-(
-                            
-[
-                                
+test_id
+=
 "
 %
 s
@@ -299,11 +296,9 @@ case
 .
 name
 )
-                                
-"
-Failure
-"
-                                
+                        
+details
+=
 entry
 .
 text
@@ -317,10 +312,52 @@ t
 "
 "
 )
+                        
+table
+.
+rows
+.
+append
+(
+                            
+[
+                                
+test_id
+                                
+"
+Failure
+"
+                                
+details
                             
 ]
                         
 )
+                        
+print
+(
+f
+"
+TEST
+-
+UNEXPECTED
+-
+FAIL
+|
+{
+test_id
+}
+|
+{
+details
+}
+"
+)
+                        
+failure_count
++
+=
+1
                         
 break
     
@@ -328,6 +365,9 @@ print
 (
 table
 )
+    
+return
+failure_count
 def
 load_results_file
 (
@@ -434,6 +474,10 @@ argv
 ]
 )
     
+failure_count
+=
+0
+    
 junitxml
 =
 load_results_file
@@ -456,10 +500,15 @@ if
 junitxml
 :
         
+failure_count
+=
 parse_print_failure_results
 (
 junitxml
 )
+    
+return
+failure_count
 if
 __name__
 =
@@ -469,6 +518,11 @@ __main__
 "
 :
     
+sys
+.
+exit
+(
 main
 (
+)
 )
