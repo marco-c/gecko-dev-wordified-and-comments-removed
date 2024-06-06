@@ -202,9 +202,7 @@ android
 layout_height
 =
 "
-dimen
-/
-quicksettings_item_height
+wrap_content
 "
 app
 :
