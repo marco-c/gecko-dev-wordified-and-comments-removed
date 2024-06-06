@@ -294,7 +294,7 @@ androidx_fragment
 .
 0
 -
-beta02
+beta01
 "
 const
 val
@@ -320,7 +320,7 @@ androidx_recyclerview
 .
 0
 -
-beta05
+beta04
 "
 const
 val
