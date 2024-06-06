@@ -1331,13 +1331,6 @@ tracking_protection_item_height
 "
 android
 :
-paddingEnd
-=
-"
-24dp
-"
-android
-:
 text
 =
 "
