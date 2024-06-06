@@ -125,7 +125,7 @@ position
 *
 /
 fun
-setCurrentTrayPosition
+onTrayPositionSelected
 (
 position
 :
@@ -151,7 +151,7 @@ browser
 *
 /
 fun
-navigateToBrowser
+onBrowserTabSelected
 (
 )
 /

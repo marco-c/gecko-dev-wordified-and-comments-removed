@@ -273,7 +273,7 @@ selectTab
 {
 interactor
 .
-navigateToBrowser
+onBrowserTabSelected
 (
 )
 }

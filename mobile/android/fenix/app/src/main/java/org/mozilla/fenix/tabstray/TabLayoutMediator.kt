@@ -452,7 +452,7 @@ true
 }
 interactor
 .
-setCurrentTrayPosition
+onTrayPositionSelected
 (
 tab
 .

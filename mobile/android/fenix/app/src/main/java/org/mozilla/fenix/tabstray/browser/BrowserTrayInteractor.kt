@@ -402,7 +402,7 @@ selectTab
 {
 trayInteractor
 .
-navigateToBrowser
+onBrowserTabSelected
 (
 )
 }
@@ -471,11 +471,6 @@ invoke
 item
 .
 id
-)
-trayInteractor
-.
-navigateToBrowser
-(
 )
 }
 /
@@ -733,7 +728,7 @@ Boolean
 {
 controller
 .
-onNewTabTapped
+handleOpeningNewTab
 (
 isPrivate
 )

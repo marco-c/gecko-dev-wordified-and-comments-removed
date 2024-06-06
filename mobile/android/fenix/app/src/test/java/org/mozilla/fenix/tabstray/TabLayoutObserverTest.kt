@@ -276,7 +276,7 @@ verify
 {
 interactor
 .
-setCurrentTrayPosition
+onTrayPositionSelected
 (
 1
 false
@@ -316,7 +316,7 @@ verify
 {
 interactor
 .
-setCurrentTrayPosition
+onTrayPositionSelected
 (
 0
 true
@@ -356,7 +356,7 @@ verify
 {
 interactor
 .
-setCurrentTrayPosition
+onTrayPositionSelected
 (
 2
 true
@@ -426,7 +426,7 @@ verify
 {
 interactor
 .
-setCurrentTrayPosition
+onTrayPositionSelected
 (
 1
 false
@@ -453,7 +453,7 @@ verify
 {
 interactor
 .
-setCurrentTrayPosition
+onTrayPositionSelected
 (
 1
 true
