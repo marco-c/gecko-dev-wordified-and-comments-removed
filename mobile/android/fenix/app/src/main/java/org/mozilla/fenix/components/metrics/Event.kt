@@ -1406,6 +1406,12 @@ HomeMenuSettingsItemClicked
 Event
 (
 )
+object
+HomeScreenDisplayed
+:
+Event
+(
+)
 /
 /
 Interaction
