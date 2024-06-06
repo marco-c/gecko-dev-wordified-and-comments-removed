@@ -216,6 +216,13 @@ assertEquals
 (
 creditCard
 .
+guid
+guid
+)
+assertEquals
+(
+creditCard
+.
 billingName
 billingName
 )
@@ -294,6 +301,12 @@ with
 state
 )
 {
+assertEquals
+(
+"
+"
+guid
+)
 assertEquals
 (
 "
