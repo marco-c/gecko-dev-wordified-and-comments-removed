@@ -556,7 +556,7 @@ Builder
 )
 runtimeSettingsBuilder
 .
-useContentProcessHint
+useMultiprocess
 (
 true
 )
@@ -977,12 +977,6 @@ GeckoSessionSettings
 .
 Builder
 (
-)
-builder
-.
-useMultiprocess
-(
-true
 )
 builder
 .
