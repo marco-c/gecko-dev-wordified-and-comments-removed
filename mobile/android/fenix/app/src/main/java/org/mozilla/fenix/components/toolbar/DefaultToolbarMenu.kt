@@ -2995,7 +2995,7 @@ R
 .
 string
 .
-add
+browser_menu_add
 )
 secondaryLabel
 =
@@ -3007,7 +3007,7 @@ R
 .
 string
 .
-edit
+browser_menu_edit
 )
 isInPrimaryState
 =

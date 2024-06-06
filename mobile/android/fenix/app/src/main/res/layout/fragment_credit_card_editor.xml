@@ -1482,7 +1482,7 @@ text
 "
 string
 /
-credit_cards_delete_card
+credit_cards_delete_card_button
 "
 android
 :
@@ -1602,7 +1602,7 @@ text
 "
 string
 /
-cancel
+credit_cards_cancel_button
 "
 android
 :
@@ -1710,7 +1710,7 @@ text
 "
 string
 /
-save
+credit_cards_save_button
 "
 app
 :
