@@ -410,15 +410,6 @@ anim
 fade_in
 )
 .
-setExitAnim
-(
-R
-.
-anim
-.
-fade_out
-)
-.
 build
 (
 )
