@@ -288,12 +288,6 @@ id
 .
 card
 )
-cardView
-.
-viewTreeObserver
-.
-addOnPreDrawListener
-(
 OneShotOnPreDrawListener
 (
 cardView
@@ -305,7 +299,6 @@ false
 )
 true
 }
-)
 val
 sessionManager
 =

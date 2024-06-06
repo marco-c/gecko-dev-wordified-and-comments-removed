@@ -1718,12 +1718,6 @@ urlInputContainerView
 null
 )
 {
-urlInputContainerView
-.
-viewTreeObserver
-.
-addOnPreDrawListener
-(
 OneShotOnPreDrawListener
 (
 urlInputContainerView
@@ -1734,7 +1728,6 @@ animateFirstDraw
 )
 true
 }
-)
 }
 if
 (
@@ -2133,12 +2126,6 @@ it
 dismiss
 (
 )
-menuView
-.
-viewTreeObserver
-.
-addOnPreDrawListener
-(
 OneShotOnPreDrawListener
 (
 menuView
@@ -2150,7 +2137,6 @@ menuView
 )
 false
 }
-)
 }
 }
 }
