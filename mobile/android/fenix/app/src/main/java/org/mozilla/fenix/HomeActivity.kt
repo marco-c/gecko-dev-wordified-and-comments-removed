@@ -3123,17 +3123,6 @@ showNotificationPermissionPromptIfRequired
 {
 if
 (
-settings
-(
-)
-.
-junoOnboardingEnabled
-)
-{
-return
-}
-if
-(
 Build
 .
 VERSION
