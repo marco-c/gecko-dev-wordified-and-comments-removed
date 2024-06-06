@@ -763,8 +763,6 @@ UNDEFINED
 '
 in
 :
-mergeDeep
-:
 #
 Remove
 this
@@ -776,7 +774,6 @@ been
 moved
 to
 taskgraph
--
 if
 :
 '
@@ -1354,6 +1351,8 @@ tag_name
 taskcluster
 .
 yml
+else
+:
 #
 Remove
 this
@@ -1365,7 +1364,6 @@ been
 moved
 to
 taskgraph
--
 if
 :
 '
@@ -1983,6 +1981,8 @@ tag_name
 taskcluster
 .
 yml
+else
+:
 #
 cron
 commented
@@ -2083,7 +2083,6 @@ com
 "
 )
 )
--
 if
 :
 >
