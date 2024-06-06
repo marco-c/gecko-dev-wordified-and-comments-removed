@@ -180,6 +180,12 @@ class
 class
 SentryServiceTest
 {
+class
+TestException
+:
+Exception
+(
+)
 Before
 fun
 setup
