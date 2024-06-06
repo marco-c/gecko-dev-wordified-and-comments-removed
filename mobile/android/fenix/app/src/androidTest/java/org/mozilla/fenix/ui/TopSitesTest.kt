@@ -328,7 +328,7 @@ url
 .
 openThreeDotMenu
 {
-verifyAddFirefoxHome
+verifyAddToTopSitesButton
 (
 )
 }
@@ -403,7 +403,7 @@ url
 .
 openThreeDotMenu
 {
-verifyAddFirefoxHome
+verifyAddToTopSitesButton
 (
 )
 }
@@ -549,7 +549,7 @@ url
 .
 openThreeDotMenu
 {
-verifyAddFirefoxHome
+verifyAddToTopSitesButton
 (
 )
 }
@@ -652,7 +652,7 @@ url
 .
 openThreeDotMenu
 {
-verifyAddFirefoxHome
+verifyAddToTopSitesButton
 (
 )
 }
@@ -751,7 +751,7 @@ url
 .
 openThreeDotMenu
 {
-verifyAddFirefoxHome
+verifyAddToTopSitesButton
 (
 )
 }

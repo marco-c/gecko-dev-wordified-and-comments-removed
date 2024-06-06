@@ -2002,9 +2002,10 @@ toString
 .
 openThreeDotMenu
 {
-clickAddBookmarkButton
-(
-)
+}
+.
+bookmarkPage
+{
 }
 }
 fun
