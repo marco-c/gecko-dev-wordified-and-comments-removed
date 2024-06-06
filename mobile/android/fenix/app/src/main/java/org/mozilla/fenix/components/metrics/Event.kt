@@ -1438,6 +1438,16 @@ Event
 )
 /
 /
+Browser
+Toolbar
+object
+BrowserToolbarHomeButtonClicked
+:
+Event
+(
+)
+/
+/
 Interaction
 events
 with

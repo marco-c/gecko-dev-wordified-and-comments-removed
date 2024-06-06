@@ -1710,6 +1710,17 @@ actionGlobalHome
 )
 )
 }
+verify
+{
+metrics
+.
+track
+(
+Event
+.
+BrowserToolbarHomeButtonClicked
+)
+}
 }
 private
 fun

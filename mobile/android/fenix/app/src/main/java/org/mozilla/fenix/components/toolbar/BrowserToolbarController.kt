@@ -986,6 +986,14 @@ handleHomeButtonClick
 (
 )
 {
+metrics
+.
+track
+(
+Event
+.
+BrowserToolbarHomeButtonClicked
+)
 navController
 .
 navigateBlockingForAsyncNavGraph
