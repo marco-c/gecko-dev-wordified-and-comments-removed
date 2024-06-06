@@ -341,7 +341,7 @@ actionLibraryFragmentToBookmarksFragment
 (
 BookmarkRoot
 .
-Root
+Mobile
 .
 id
 )
@@ -351,7 +351,7 @@ BookmarkFragmentArgs
 (
 BookmarkRoot
 .
-Root
+Mobile
 .
 id
 )
