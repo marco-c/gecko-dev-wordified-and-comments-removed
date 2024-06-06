@@ -421,6 +421,12 @@ Event
 (
 )
 object
+NormalAndPrivateUriOpened
+:
+Event
+(
+)
+object
 SyncAuthOpened
 :
 Event
