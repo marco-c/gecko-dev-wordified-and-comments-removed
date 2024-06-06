@@ -423,6 +423,11 @@ val
 view
 :
 BrowserAwesomeBar
+private
+val
+fromHomeFragment
+:
+Boolean
 )
 {
 private
@@ -741,7 +746,8 @@ ic_search_results_tab
 )
 excludeSelectedSession
 =
-true
+!
+fromHomeFragment
 )
 historyStorageProvider
 =
