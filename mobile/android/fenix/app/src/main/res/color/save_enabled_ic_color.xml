@@ -138,7 +138,9 @@ color
 =
 "
 ?
-disabled
+attr
+/
+textDisabled
 "
 /
 >

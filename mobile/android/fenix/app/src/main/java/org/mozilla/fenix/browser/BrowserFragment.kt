@@ -661,7 +661,7 @@ R
 .
 attr
 .
-disabled
+textDisabled
 context
 )
 val

@@ -811,7 +811,7 @@ R
 .
 attr
 .
-disabled
+textDisabled
 context
 )
 disableInSecondaryState
@@ -917,7 +917,7 @@ R
 .
 attr
 .
-disabled
+textDisabled
 context
 )
 disableInSecondaryState
