@@ -471,7 +471,7 @@ isVisible
 !
 clipboard
 .
-url
+text
 .
 isNullOrEmpty
 (
@@ -489,7 +489,7 @@ isVisible
 !
 clipboard
 .
-url
+text
 .
 isNullOrEmpty
 (
