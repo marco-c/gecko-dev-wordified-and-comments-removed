@@ -651,11 +651,6 @@ sortingStrategy
 SortingStrategy
 .
 Alphabetically
-(
-mockk
-(
-)
-)
 highlightedItem
 =
 SavedLoginsSortingStrategyMenu
@@ -773,11 +768,6 @@ sortingStrategy
 SortingStrategy
 .
 Alphabetically
-(
-mockk
-(
-)
-)
 highlightedItem
 =
 SavedLoginsSortingStrategyMenu

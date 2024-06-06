@@ -5753,13 +5753,6 @@ AlphabeticallySort
 SortingStrategy
 .
 Alphabetically
-(
-appContext
-.
-components
-.
-publicSuffixList
-)
 SavedLoginsSortingStrategyMenu
 .
 Item
