@@ -1171,13 +1171,6 @@ restoreDownloads
 (
 )
 {
-if
-(
-FeatureFlags
-.
-viewDownloads
-)
-{
 components
 .
 useCases
@@ -1187,7 +1180,6 @@ downloadUseCases
 restoreDownloads
 (
 )
-}
 }
 private
 fun
