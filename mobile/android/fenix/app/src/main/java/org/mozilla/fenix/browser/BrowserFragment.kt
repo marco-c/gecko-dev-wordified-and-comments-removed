@@ -662,7 +662,7 @@ if
 !
 accessibilityManager
 .
-isEnabled
+isTouchExplorationEnabled
 )
 {
 behavior
