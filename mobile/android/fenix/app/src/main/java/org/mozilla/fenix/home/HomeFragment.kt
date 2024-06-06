@@ -397,12 +397,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 delay
 import
 kotlinx
@@ -1298,7 +1292,6 @@ kotlin
 math
 .
 min
-ExperimentalCoroutinesApi
 Suppress
 (
 "

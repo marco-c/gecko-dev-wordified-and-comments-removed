@@ -68,7 +68,7 @@ kotlin
 .
 5
 .
-10
+30
 "
 const
 val
@@ -79,7 +79,7 @@ coroutines
 .
 5
 .
-0
+2
 "
 /
 /
@@ -217,7 +217,7 @@ androidx_activity_compose
 .
 3
 .
-0
+1
 "
 const
 val
@@ -228,7 +228,7 @@ androidx_compose
 .
 0
 .
-0
+3
 "
 const
 val

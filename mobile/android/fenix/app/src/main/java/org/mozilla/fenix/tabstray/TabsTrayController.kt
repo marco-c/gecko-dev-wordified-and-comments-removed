@@ -77,12 +77,6 @@ navigation
 .
 NavController
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -995,7 +989,6 @@ exist
 .
 *
 /
-ExperimentalCoroutinesApi
 override
 fun
 handleMultipleTabsDeletion

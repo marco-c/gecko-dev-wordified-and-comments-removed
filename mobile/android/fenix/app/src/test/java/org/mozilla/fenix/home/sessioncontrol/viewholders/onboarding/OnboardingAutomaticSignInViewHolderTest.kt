@@ -117,12 +117,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 runBlocking
 import
 kotlinx
@@ -268,7 +262,6 @@ fenix
 helpers
 .
 FenixRobolectricTestRunner
-ExperimentalCoroutinesApi
 RunWith
 (
 FenixRobolectricTestRunner

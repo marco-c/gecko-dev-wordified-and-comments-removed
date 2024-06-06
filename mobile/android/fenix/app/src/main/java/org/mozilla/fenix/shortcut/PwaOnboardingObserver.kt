@@ -93,12 +93,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 cancel
 import
 kotlinx
@@ -242,7 +236,6 @@ time
 .
 *
 /
-ExperimentalCoroutinesApi
 class
 PwaOnboardingObserver
 (

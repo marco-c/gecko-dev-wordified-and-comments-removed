@@ -137,12 +137,6 @@ fragment
 .
 navArgs
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -549,7 +543,6 @@ binding
 .
 root
 }
-ExperimentalCoroutinesApi
 override
 fun
 onViewCreated

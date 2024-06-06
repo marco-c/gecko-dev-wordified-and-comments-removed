@@ -105,12 +105,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 TestCoroutineDispatcher
@@ -284,7 +278,6 @@ logins
 fragment
 .
 EditLoginFragmentDirections
-ExperimentalCoroutinesApi
 RunWith
 (
 FenixRobolectricTestRunner

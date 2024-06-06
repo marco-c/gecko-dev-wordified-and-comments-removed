@@ -95,12 +95,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 runBlockingTest
@@ -170,7 +164,6 @@ util
 concurrent
 .
 TimeUnit
-ExperimentalCoroutinesApi
 class
 BookmarksUseCaseTest
 {

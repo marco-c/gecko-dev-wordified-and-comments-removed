@@ -97,12 +97,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 runBlockingTest
@@ -218,7 +212,6 @@ get
 =
 isDefault
 }
-ExperimentalCoroutinesApi
 RunWith
 (
 FenixRobolectricTestRunner

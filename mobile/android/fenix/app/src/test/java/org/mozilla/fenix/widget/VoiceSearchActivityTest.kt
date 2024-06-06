@@ -147,12 +147,6 @@ app
 .
 ApplicationProvider
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 org
 .
 junit
@@ -316,7 +310,6 @@ robolectric
 shadows
 .
 ShadowActivity
-ExperimentalCoroutinesApi
 RunWith
 (
 FenixRobolectricTestRunner

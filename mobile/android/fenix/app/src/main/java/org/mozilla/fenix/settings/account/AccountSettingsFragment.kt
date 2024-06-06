@@ -187,12 +187,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 launch
 import
 mozilla
@@ -637,7 +631,6 @@ Event
 SyncAccountOpened
 )
 }
-ExperimentalCoroutinesApi
 override
 fun
 onViewCreated

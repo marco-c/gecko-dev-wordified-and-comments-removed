@@ -105,12 +105,6 @@ mockk
 .
 verify
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -214,7 +208,6 @@ behavior
 ToolbarPosition
 as
 MozacToolbarPosition
-ExperimentalCoroutinesApi
 RunWith
 (
 FenixRobolectricTestRunner

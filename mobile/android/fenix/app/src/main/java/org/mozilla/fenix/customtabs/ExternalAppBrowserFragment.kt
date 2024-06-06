@@ -113,12 +113,6 @@ fragment
 .
 navArgs
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -408,7 +402,6 @@ apps
 .
 *
 /
-ExperimentalCoroutinesApi
 class
 ExternalAppBrowserFragment
 :

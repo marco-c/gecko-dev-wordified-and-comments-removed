@@ -111,12 +111,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 runBlockingTest
@@ -210,7 +204,6 @@ mozilla
 fenix
 .
 R
-ExperimentalCoroutinesApi
 class
 ShortcutsSuggestionProviderTest
 {

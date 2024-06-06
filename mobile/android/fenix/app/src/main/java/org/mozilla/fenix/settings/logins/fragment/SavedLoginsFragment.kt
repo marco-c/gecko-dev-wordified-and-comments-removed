@@ -179,12 +179,6 @@ fragment
 .
 findNavController
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -675,7 +669,6 @@ loadAndMapLogins
 return
 view
 }
-ExperimentalCoroutinesApi
 override
 fun
 onViewCreated

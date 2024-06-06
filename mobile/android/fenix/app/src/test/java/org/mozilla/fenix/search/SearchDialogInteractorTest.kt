@@ -81,12 +81,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 runBlockingTest
@@ -114,7 +108,6 @@ org
 junit
 .
 Test
-ExperimentalCoroutinesApi
 class
 SearchDialogInteractorTest
 {

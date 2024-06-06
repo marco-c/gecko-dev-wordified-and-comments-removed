@@ -141,12 +141,6 @@ mockk
 .
 verifyOrder
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -1750,7 +1744,6 @@ SelectorsKt
 )
 }
 }
-ExperimentalCoroutinesApi
 Test
 fun
 WHEN
@@ -1934,7 +1927,6 @@ SelectorsKt
 )
 }
 }
-ExperimentalCoroutinesApi
 Test
 fun
 WHEN
@@ -2116,7 +2108,6 @@ SelectorsKt
 )
 }
 }
-ExperimentalCoroutinesApi
 Test
 fun
 WHEN
@@ -2300,7 +2291,6 @@ SelectorsKt
 )
 }
 }
-ExperimentalCoroutinesApi
 Test
 fun
 WHEN
@@ -2637,7 +2627,6 @@ assertTrue
 navigateToHomeAndDeleteSessionInvoked
 )
 }
-ExperimentalCoroutinesApi
 Test
 fun
 WHEN

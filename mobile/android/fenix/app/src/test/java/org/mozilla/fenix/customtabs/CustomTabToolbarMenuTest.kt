@@ -83,12 +83,6 @@ mockk
 .
 spyk
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -168,7 +162,6 @@ org
 junit
 .
 Test
-ExperimentalCoroutinesApi
 class
 CustomTabToolbarMenuTest
 {

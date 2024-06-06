@@ -121,12 +121,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 launch
 import
 mozilla
@@ -376,7 +370,6 @@ loadExperimentBranches
 return
 view
 }
-ExperimentalCoroutinesApi
 override
 fun
 onViewCreated

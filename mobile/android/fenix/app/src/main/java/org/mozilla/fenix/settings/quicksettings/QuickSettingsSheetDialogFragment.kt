@@ -159,12 +159,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 flow
 .
 collect
@@ -775,7 +769,6 @@ settings
 return
 rootView
 }
-ExperimentalCoroutinesApi
 override
 fun
 onViewCreated
@@ -1085,7 +1078,6 @@ args
 .
 sessionId
 VisibleForTesting
-ExperimentalCoroutinesApi
 internal
 fun
 observeTrackersChange

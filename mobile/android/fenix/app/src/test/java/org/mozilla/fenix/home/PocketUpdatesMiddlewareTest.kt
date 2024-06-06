@@ -107,12 +107,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 flow
 .
 Flow
@@ -224,7 +218,6 @@ home
 pocket
 .
 PocketRecommendedStoriesSelectedCategory
-ExperimentalCoroutinesApi
 class
 PocketUpdatesMiddlewareTest
 {

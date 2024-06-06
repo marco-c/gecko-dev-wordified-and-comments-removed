@@ -141,12 +141,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 runBlockingTest
@@ -388,7 +382,6 @@ fenix
 utils
 .
 Settings
-ExperimentalCoroutinesApi
 class
 SearchDialogControllerTest
 {

@@ -93,12 +93,6 @@ coroutines
 .
 CompletableDeferred
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -254,7 +248,6 @@ SESSION_ID_BCC
 "
 1
 "
-ExperimentalCoroutinesApi
 RunWith
 (
 FenixRobolectricTestRunner

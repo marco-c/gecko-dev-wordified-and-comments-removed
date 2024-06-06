@@ -83,12 +83,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 cancel
 import
 kotlinx
@@ -168,7 +162,6 @@ coroutines
 flow
 .
 ifAnyChanged
-ExperimentalCoroutinesApi
 class
 MenuPresenter
 (

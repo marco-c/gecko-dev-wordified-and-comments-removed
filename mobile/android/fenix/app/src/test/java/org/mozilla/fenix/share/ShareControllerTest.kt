@@ -159,12 +159,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 runBlocking
 import
 kotlinx
@@ -417,7 +411,6 @@ FenixRobolectricTestRunner
 :
 class
 )
-ExperimentalCoroutinesApi
 class
 ShareControllerTest
 {

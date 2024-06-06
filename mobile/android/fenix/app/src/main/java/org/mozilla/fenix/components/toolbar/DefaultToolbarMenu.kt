@@ -119,12 +119,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 Job
 import
 kotlinx
@@ -564,7 +558,6 @@ LongParameterList
 TooManyFunctions
 "
 )
-ExperimentalCoroutinesApi
 open
 class
 DefaultToolbarMenu

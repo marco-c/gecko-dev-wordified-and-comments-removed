@@ -117,12 +117,6 @@ fragment
 .
 navArgs
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -172,7 +166,6 @@ fenix
 ext
 .
 requireComponents
-ExperimentalCoroutinesApi
 class
 CollectionCreationFragment
 :

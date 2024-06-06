@@ -115,12 +115,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 launch
 import
 mozilla
@@ -395,7 +389,6 @@ loadCreditCards
 return
 view
 }
-ExperimentalCoroutinesApi
 override
 fun
 onViewCreated

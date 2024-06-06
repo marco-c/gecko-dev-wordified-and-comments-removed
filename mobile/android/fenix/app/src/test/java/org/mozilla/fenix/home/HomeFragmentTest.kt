@@ -95,12 +95,6 @@ mockk
 .
 verify
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -168,7 +162,6 @@ fenix
 utils
 .
 Settings
-ExperimentalCoroutinesApi
 class
 HomeFragmentTest
 {

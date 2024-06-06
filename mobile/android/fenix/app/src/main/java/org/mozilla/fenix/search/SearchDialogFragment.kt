@@ -289,12 +289,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 flow
 .
 collect
@@ -1510,7 +1504,6 @@ SuppressWarnings
 LongMethod
 "
 )
-ExperimentalCoroutinesApi
 override
 fun
 onViewCreated
@@ -2148,7 +2141,6 @@ it
 )
 }
 }
-ExperimentalCoroutinesApi
 private
 fun
 observeSuggestionProvidersState
@@ -2194,7 +2186,6 @@ state
 )
 }
 }
-ExperimentalCoroutinesApi
 private
 fun
 observeShortcutsState
@@ -2243,7 +2234,6 @@ showSearchShortcuts
 )
 }
 }
-ExperimentalCoroutinesApi
 private
 fun
 observeAwesomeBarState
@@ -2374,7 +2364,6 @@ INVISIBLE
 }
 }
 }
-ExperimentalCoroutinesApi
 private
 fun
 observeClipboardState

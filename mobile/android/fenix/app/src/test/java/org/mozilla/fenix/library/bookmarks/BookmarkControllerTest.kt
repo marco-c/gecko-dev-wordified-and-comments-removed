@@ -173,12 +173,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 TestCoroutineScope
@@ -341,7 +335,6 @@ TooManyFunctions
 LargeClass
 "
 )
-ExperimentalCoroutinesApi
 class
 BookmarkControllerTest
 {

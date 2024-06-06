@@ -207,12 +207,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 async
 import
 kotlinx
@@ -850,7 +844,6 @@ show
 )
 }
 }
-ExperimentalCoroutinesApi
 override
 fun
 onViewCreated

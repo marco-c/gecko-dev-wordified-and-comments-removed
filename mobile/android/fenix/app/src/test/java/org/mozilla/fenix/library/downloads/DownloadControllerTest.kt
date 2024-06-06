@@ -87,12 +87,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 TestCoroutineScope
@@ -164,7 +158,6 @@ browser
 browsingmode
 .
 BrowsingMode
-ExperimentalCoroutinesApi
 class
 DownloadControllerTest
 {

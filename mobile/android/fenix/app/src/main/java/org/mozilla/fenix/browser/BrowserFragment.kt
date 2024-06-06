@@ -131,12 +131,6 @@ snackbar
 .
 Snackbar
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -429,7 +423,6 @@ app
 .
 *
 /
-ExperimentalCoroutinesApi
 Suppress
 (
 "

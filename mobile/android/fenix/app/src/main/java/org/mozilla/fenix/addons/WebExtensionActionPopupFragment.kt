@@ -105,12 +105,6 @@ fragment
 .
 navArgs
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -389,7 +383,6 @@ showToolbar
 title
 )
 }
-ExperimentalCoroutinesApi
 override
 fun
 onViewCreated

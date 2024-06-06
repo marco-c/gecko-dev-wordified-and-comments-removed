@@ -205,12 +205,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 flow
 .
 collect
@@ -452,7 +446,6 @@ fenix
 settings
 .
 SupportUtils
-ExperimentalCoroutinesApi
 Suppress
 (
 "

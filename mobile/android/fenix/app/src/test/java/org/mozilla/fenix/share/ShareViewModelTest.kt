@@ -169,12 +169,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 flow
 .
 first
@@ -365,7 +359,6 @@ FenixRobolectricTestRunner
 :
 class
 )
-ExperimentalCoroutinesApi
 class
 ShareViewModelTest
 {

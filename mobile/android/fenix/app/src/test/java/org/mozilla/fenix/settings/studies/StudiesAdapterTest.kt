@@ -175,12 +175,6 @@ TestCase
 .
 assertTrue
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -284,7 +278,6 @@ studies
 StudiesAdapter
 .
 Section
-ExperimentalCoroutinesApi
 RunWith
 (
 FenixRobolectricTestRunner

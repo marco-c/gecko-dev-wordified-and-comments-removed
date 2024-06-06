@@ -127,12 +127,6 @@ app
 .
 Fragment
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -566,7 +560,6 @@ onPause
 (
 )
 }
-ExperimentalCoroutinesApi
 override
 fun
 onViewCreated

@@ -99,12 +99,6 @@ mockk
 .
 mockk
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -224,7 +218,6 @@ fenix
 helpers
 .
 FenixRobolectricTestRunner
-ExperimentalCoroutinesApi
 RunWith
 (
 FenixRobolectricTestRunner

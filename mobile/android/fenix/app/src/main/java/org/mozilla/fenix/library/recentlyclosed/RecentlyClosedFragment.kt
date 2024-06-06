@@ -127,12 +127,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 flow
 .
 collect
@@ -804,7 +798,6 @@ BrowserDirection
 FromRecentlyClosed
 )
 }
-ExperimentalCoroutinesApi
 override
 fun
 onViewCreated

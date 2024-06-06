@@ -81,12 +81,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 TestCoroutineScope
@@ -140,7 +134,6 @@ org
 junit
 .
 Test
-ExperimentalCoroutinesApi
 class
 LoginExceptionsInteractorTest
 {

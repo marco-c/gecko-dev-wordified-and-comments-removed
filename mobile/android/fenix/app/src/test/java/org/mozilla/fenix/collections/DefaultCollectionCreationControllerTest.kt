@@ -121,12 +121,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 TestCoroutineScope
@@ -284,7 +278,6 @@ fenix
 home
 .
 Tab
-ExperimentalCoroutinesApi
 class
 DefaultCollectionCreationControllerTest
 {

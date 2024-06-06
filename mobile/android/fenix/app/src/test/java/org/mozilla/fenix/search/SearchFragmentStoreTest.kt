@@ -97,12 +97,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 runBlocking
 import
 mozilla
@@ -316,7 +310,6 @@ fenix
 utils
 .
 Settings
-ExperimentalCoroutinesApi
 class
 SearchFragmentStoreTest
 {

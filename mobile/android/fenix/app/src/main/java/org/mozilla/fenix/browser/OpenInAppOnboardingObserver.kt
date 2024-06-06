@@ -105,12 +105,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 cancel
 import
 kotlinx
@@ -295,7 +289,6 @@ app
 .
 *
 /
-ExperimentalCoroutinesApi
 Suppress
 (
 "

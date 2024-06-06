@@ -103,12 +103,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 TestCoroutineDispatcher
@@ -316,7 +310,6 @@ library
 historymetadata
 .
 HistoryMetadataGroupFragmentStore
-ExperimentalCoroutinesApi
 RunWith
 (
 FenixRobolectricTestRunner

@@ -137,12 +137,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 flow
 .
 collect
@@ -282,7 +276,6 @@ fragment_tab_history_dialog
 container
 false
 )
-ExperimentalCoroutinesApi
 override
 fun
 onViewCreated

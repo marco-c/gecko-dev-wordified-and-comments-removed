@@ -101,12 +101,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 TestCoroutineDispatcher
@@ -252,7 +246,6 @@ creditcards
 controller
 .
 DefaultCreditCardEditorController
-ExperimentalCoroutinesApi
 class
 DefaultCreditCardEditorControllerTest
 {

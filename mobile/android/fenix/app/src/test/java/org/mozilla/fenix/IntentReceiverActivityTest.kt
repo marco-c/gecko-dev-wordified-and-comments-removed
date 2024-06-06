@@ -129,12 +129,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 runBlockingTest
@@ -288,7 +282,6 @@ robolectric
 Shadows
 .
 shadowOf
-ExperimentalCoroutinesApi
 RunWith
 (
 FenixRobolectricTestRunner

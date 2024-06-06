@@ -121,12 +121,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 plus
 import
 mozilla
@@ -392,7 +386,6 @@ exceptions
 )
 }
 }
-ExperimentalCoroutinesApi
 override
 fun
 onViewCreated

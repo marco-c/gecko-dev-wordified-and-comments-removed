@@ -141,12 +141,6 @@ Dispatchers
 .
 IO
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -853,7 +847,6 @@ items
 )
 )
 }
-ExperimentalCoroutinesApi
 override
 fun
 onViewCreated

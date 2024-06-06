@@ -171,12 +171,6 @@ fragment
 .
 navArgs
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -396,7 +390,6 @@ single
 website
 *
 /
-ExperimentalCoroutinesApi
 Suppress
 (
 "

@@ -185,18 +185,6 @@ snackbar
 .
 Snackbar
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
-ObsoleteCoroutinesApi
-import
 mozilla
 .
 components
@@ -458,7 +446,6 @@ TooManyFunctions
 ForbiddenComment
 "
 )
-ExperimentalCoroutinesApi
 class
 LoginDetailFragment
 :
@@ -614,8 +601,6 @@ binding
 return
 view
 }
-ObsoleteCoroutinesApi
-ExperimentalCoroutinesApi
 override
 fun
 onViewCreated

@@ -147,12 +147,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 cancel
 import
 kotlinx
@@ -672,7 +666,6 @@ else
 return
 }
 }
-ExperimentalCoroutinesApi
 override
 fun
 onStart

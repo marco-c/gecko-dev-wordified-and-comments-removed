@@ -89,12 +89,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 TestCoroutineDispatcher
@@ -210,7 +204,6 @@ org
 junit
 .
 Test
-ExperimentalCoroutinesApi
 class
 MenuPresenterTest
 {

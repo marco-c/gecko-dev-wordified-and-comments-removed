@@ -117,12 +117,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 TestCoroutineDispatcher
@@ -252,7 +246,6 @@ fenix
 ext
 .
 settings
-ExperimentalCoroutinesApi
 class
 DefaultToolbarMenuTest
 {

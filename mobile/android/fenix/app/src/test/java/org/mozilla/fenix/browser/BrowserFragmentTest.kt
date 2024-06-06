@@ -129,12 +129,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 TestCoroutineDispatcher
@@ -434,7 +428,6 @@ java
 lang
 .
 Exception
-ExperimentalCoroutinesApi
 RunWith
 (
 FenixRobolectricTestRunner

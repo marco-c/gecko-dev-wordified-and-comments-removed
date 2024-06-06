@@ -93,12 +93,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 TestCoroutineDispatcher
@@ -298,7 +292,6 @@ android
 controller
 .
 ServiceController
-ExperimentalCoroutinesApi
 RunWith
 (
 FenixRobolectricTestRunner

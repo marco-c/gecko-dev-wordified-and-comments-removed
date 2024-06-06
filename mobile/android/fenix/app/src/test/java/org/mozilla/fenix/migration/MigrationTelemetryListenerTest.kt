@@ -97,12 +97,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 TestCoroutineDispatcher
@@ -224,7 +218,6 @@ components
 metrics
 .
 MetricController
-ExperimentalCoroutinesApi
 class
 MigrationTelemetryListenerTest
 {

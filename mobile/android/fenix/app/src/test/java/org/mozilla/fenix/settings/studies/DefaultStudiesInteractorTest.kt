@@ -119,12 +119,6 @@ mockk
 .
 verify
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -174,7 +168,6 @@ mozilla
 fenix
 .
 HomeActivity
-ExperimentalCoroutinesApi
 class
 DefaultStudiesInteractorTest
 {

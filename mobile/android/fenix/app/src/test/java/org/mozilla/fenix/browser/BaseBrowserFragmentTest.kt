@@ -131,12 +131,6 @@ TestCase
 .
 assertTrue
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -280,7 +274,6 @@ fenix
 helpers
 .
 FenixRobolectricTestRunner
-ExperimentalCoroutinesApi
 RunWith
 (
 FenixRobolectricTestRunner
@@ -1290,7 +1283,6 @@ result
 }
 }
 }
-ExperimentalCoroutinesApi
 private
 class
 TestBaseBrowserFragment

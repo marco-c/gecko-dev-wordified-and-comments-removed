@@ -99,12 +99,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 TestCoroutineScope
@@ -180,7 +174,6 @@ fenix
 helpers
 .
 FenixRobolectricTestRunner
-ExperimentalCoroutinesApi
 RunWith
 (
 FenixRobolectricTestRunner
