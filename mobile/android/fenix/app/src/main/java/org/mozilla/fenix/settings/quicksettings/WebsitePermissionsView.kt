@@ -419,7 +419,7 @@ R
 .
 id
 .
-camerStatus
+cameraStatus
 )
 )
 )

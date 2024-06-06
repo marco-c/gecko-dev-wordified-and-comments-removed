@@ -180,7 +180,7 @@ id
 +
 id
 /
-camerStatus
+cameraStatus
 "
 style
 =
@@ -333,7 +333,7 @@ layout_constraintEnd_toStartOf
 "
 id
 /
-camerStatus
+cameraStatus
 "
 app
 :
