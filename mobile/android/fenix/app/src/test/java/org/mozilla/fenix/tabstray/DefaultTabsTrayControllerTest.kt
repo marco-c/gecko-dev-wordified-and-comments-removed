@@ -1393,6 +1393,9 @@ navController
 popBackStack
 (
 any
+<
+Int
+>
 (
 )
 any
