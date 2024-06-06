@@ -276,6 +276,7 @@ s
 3
 dot
 menu
+SmokeTest
 Test
 fun
 mainMenuAddToHomeScreenTest
@@ -385,6 +386,7 @@ verifyTabCounter
 )
 }
 }
+SmokeTest
 Test
 fun
 addPrivateBrowsingShortcutTest
