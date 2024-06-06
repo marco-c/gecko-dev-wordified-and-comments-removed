@@ -929,6 +929,12 @@ captured
 .
 action
 )
+Suppress
+(
+"
+DEPRECATION
+"
+)
 assertEquals
 (
 shareSubject
@@ -944,6 +950,12 @@ Intent
 .
 EXTRA_SUBJECT
 ]
+)
+Suppress
+(
+"
+DEPRECATION
+"
 )
 assertEquals
 (

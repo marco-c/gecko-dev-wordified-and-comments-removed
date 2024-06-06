@@ -536,6 +536,12 @@ packageManager
 }
 returns
 packageManager
+Suppress
+(
+"
+DEPRECATION
+"
+)
 every
 {
 packageManager

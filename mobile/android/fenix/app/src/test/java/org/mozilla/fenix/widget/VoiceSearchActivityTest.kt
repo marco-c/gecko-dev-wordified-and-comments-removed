@@ -758,6 +758,12 @@ saveInstanceState
 (
 outState
 )
+Suppress
+(
+"
+DEPRECATION
+"
+)
 assertEquals
 (
 previousIntent

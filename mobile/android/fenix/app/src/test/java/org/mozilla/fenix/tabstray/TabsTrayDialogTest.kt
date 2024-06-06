@@ -148,6 +148,12 @@ context
 {
 interactor
 }
+Suppress
+(
+"
+DEPRECATION
+"
+)
 dialog
 .
 onBackPressed

@@ -897,6 +897,12 @@ captured
 .
 action
 )
+Suppress
+(
+"
+DEPRECATION
+"
+)
 assertEquals
 (
 widgetsToUpdate
