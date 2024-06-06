@@ -2007,11 +2007,12 @@ navigationToolbar
 {
 }
 .
-enterURLAndEnterToBrowser
+openTrackingProtectionTestPage
 (
 trackingPage
 .
 url
+true
 )
 {
 }
@@ -3132,11 +3133,12 @@ openNavigationToolbar
 {
 }
 .
-enterURLAndEnterToBrowser
+openTrackingProtectionTestPage
 (
 trackingProtectionPage
 .
 url
+true
 )
 {
 }
