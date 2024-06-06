@@ -411,7 +411,7 @@ const
 val
 trackingProtectionOnboardingMaximumCount
 =
-2
+1
 const
 val
 FENIX_PREFERENCES
