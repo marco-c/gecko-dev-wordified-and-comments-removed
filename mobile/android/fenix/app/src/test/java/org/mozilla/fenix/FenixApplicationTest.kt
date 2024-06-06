@@ -1639,7 +1639,7 @@ assertFalse
 (
 SearchDefaultEngine
 .
-submissionUrl
+searchUrl
 .
 testHasValue
 (

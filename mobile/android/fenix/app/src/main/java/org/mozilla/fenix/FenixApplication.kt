@@ -4361,7 +4361,7 @@ searchEngine
 .
 name
 )
-submissionUrl
+searchUrl
 .
 set
 (
