@@ -190,7 +190,7 @@ layout
 "
 layout
 /
-focus_preference
+focus_preference_new_tab
 "
 android
 :
@@ -230,7 +230,7 @@ layout
 "
 layout
 /
-focus_preference
+focus_preference_new_tab
 "
 android
 :
@@ -270,7 +270,7 @@ layout
 "
 layout
 /
-focus_preference
+focus_preference_new_tab
 "
 android
 :
@@ -310,7 +310,7 @@ layout
 "
 layout
 /
-focus_preference
+focus_preference_new_tab
 "
 android
 :
