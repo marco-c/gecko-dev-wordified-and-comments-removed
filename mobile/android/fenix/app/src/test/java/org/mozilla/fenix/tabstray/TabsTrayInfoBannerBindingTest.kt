@@ -534,9 +534,9 @@ visibility
 GONE
 settings
 .
-listTabView
+gridTabView
 =
-false
+true
 val
 binding
 =

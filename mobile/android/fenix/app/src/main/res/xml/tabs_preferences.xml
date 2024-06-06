@@ -181,7 +181,7 @@ android
 defaultValue
 =
 "
-true
+false
 "
 android
 :
@@ -190,7 +190,7 @@ key
 "
 string
 /
-pref_key_tab_view_list
+pref_key_tab_view_list_do_not_use
 "
 android
 :
@@ -218,7 +218,7 @@ android
 defaultValue
 =
 "
-false
+true
 "
 android
 :

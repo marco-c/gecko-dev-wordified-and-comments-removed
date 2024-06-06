@@ -367,7 +367,11 @@ components
 .
 settings
 .
-listTabView
+gridTabView
+.
+not
+(
+)
 }
 )
 }

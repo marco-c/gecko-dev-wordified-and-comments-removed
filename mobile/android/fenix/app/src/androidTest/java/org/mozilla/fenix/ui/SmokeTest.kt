@@ -5204,12 +5204,6 @@ Test_Page_1
 verifyOpenedTabThumbnail
 (
 )
-verifyBrowserTabsTrayURL
-(
-"
-localhost
-"
-)
 verifyTabTrayOverflowMenu
 (
 true
