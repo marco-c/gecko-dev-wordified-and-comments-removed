@@ -663,14 +663,6 @@ add
 (
 MenuItem
 .
-RequestDesktopCheck
-)
-items
-.
-add
-(
-MenuItem
-.
 Default
 (
 R
