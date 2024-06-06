@@ -4830,7 +4830,11 @@ onCreateNewSession
 (
 )
 {
-erase
+requireComponents
+.
+sessionManager
+.
+removeSessions
 (
 )
 }
