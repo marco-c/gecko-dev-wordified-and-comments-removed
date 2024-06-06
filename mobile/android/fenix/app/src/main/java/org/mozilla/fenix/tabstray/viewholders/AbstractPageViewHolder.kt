@@ -81,14 +81,6 @@ widget
 .
 RecyclerView
 import
-kotlinx
-.
-android
-.
-extensions
-.
-LayoutContainer
-import
 org
 .
 mozilla
@@ -122,7 +114,6 @@ class
 AbstractPageViewHolder
 constructor
 (
-override
 val
 containerView
 :
@@ -135,7 +126,6 @@ ViewHolder
 (
 containerView
 )
-LayoutContainer
 {
 abstract
 fun
