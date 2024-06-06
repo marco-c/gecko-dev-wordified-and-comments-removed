@@ -1668,6 +1668,15 @@ defaults
 -
 channel
 :
+beta
+value
+:
+enabled
+:
+true
+-
+channel
+:
 nightly
 value
 :
