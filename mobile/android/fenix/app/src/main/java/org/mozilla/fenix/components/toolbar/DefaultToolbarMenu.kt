@@ -750,7 +750,7 @@ R
 .
 color
 .
-sync_error_color
+sync_error_background_color
 )
 }
 else
