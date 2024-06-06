@@ -546,9 +546,6 @@ bindSession
 tab
 :
 Tab
-position
-:
-Int
 )
 {
 this

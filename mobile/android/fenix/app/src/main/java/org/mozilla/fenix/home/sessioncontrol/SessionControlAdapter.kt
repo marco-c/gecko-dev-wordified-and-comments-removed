@@ -586,7 +586,6 @@ TabItem
 )
 .
 tab
-position
 )
 }
 }
