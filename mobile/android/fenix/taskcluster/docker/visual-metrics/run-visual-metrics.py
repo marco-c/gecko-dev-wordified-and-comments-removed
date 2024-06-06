@@ -123,6 +123,17 @@ type
 str
 )
     
+accept_zero_vismet
+=
+attr
+.
+ib
+(
+type
+=
+bool
+)
+    
 json_path
 =
 attr
@@ -190,6 +201,15 @@ extra_options
 [
 str
 ]
+                
+Required
+(
+"
+accept_zero_vismet
+"
+)
+:
+bool
             
 }
         
@@ -1078,9 +1098,12 @@ shouldAlert
 "
 :
 SHOULD_ALERT
-[
+.
+get
+(
 name
-]
+False
+)
         
 }
     
@@ -1874,6 +1897,15 @@ extra_options
 "
 ]
                         
+accept_zero_vismet
+=
+job
+[
+"
+accept_zero_vismet
+"
+]
+                        
 json_path
 =
 browsertime_json_path
@@ -2354,33 +2386,40 @@ utf8
 )
 )
         
-monitored_tests
-=
-[
-            
-"
-contentfulspeedindex
-"
-            
-"
-lastvisualchange
-"
-            
-"
-perceptualspeedindex
-"
-            
-"
-speedindex
-"
-        
-]
-        
 failed_tests
 =
 [
 ]
         
+if
+not
+job
+.
+accept_zero_vismet
+:
+            
+monitored_tests
+=
+[
+                
+"
+contentfulspeedindex
+"
+                
+"
+lastvisualchange
+"
+                
+"
+perceptualspeedindex
+"
+                
+"
+speedindex
+"
+            
+]
+            
 for
 metric
 val
@@ -2391,7 +2430,7 @@ items
 (
 )
 :
-            
+                
 if
 metric
 .
@@ -2406,7 +2445,7 @@ val
 =
 0
 :
-                
+                    
 failed_tests
 .
 append
