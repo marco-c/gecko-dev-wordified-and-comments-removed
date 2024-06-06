@@ -116,16 +116,6 @@ SWIPE_TO_REFRESH
 :
 Boolean
 =
-BuildConfig
-.
-DEBUG
-&
-&
-!
-AppConstants
-.
-isKlarBuild
-(
-)
+false
 }
 }
