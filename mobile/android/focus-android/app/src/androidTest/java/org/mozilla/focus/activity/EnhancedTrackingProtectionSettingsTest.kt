@@ -1496,7 +1496,7 @@ html
 )
 )
 val
-basicPage
+genericPage
 =
 webServer
 .
@@ -1518,7 +1518,7 @@ searchScreen
 .
 loadPage
 (
-basicPage
+genericPage
 )
 {
 }
@@ -1573,7 +1573,7 @@ html
 )
 )
 val
-basicPage
+genericPage
 =
 webServer
 .
@@ -1595,7 +1595,7 @@ searchScreen
 .
 loadPage
 (
-basicPage
+genericPage
 )
 {
 }
@@ -1684,7 +1684,7 @@ html
 )
 )
 val
-basicPage
+genericPage
 =
 webServer
 .
@@ -1706,7 +1706,7 @@ searchScreen
 .
 loadPage
 (
-basicPage
+genericPage
 )
 {
 }
