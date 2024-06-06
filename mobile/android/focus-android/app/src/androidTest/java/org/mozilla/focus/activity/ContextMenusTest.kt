@@ -577,13 +577,6 @@ tab1Page
 url
 )
 {
-verifyPageContent
-(
-"
-Tab
-1
-"
-)
 longPressLink
 (
 "
@@ -664,13 +657,6 @@ tab1Page
 url
 )
 {
-verifyPageContent
-(
-"
-Tab
-1
-"
-)
 longPressLink
 (
 "

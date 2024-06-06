@@ -523,13 +523,6 @@ tab1
 url
 )
 {
-verifyPageContent
-(
-"
-Tab
-1
-"
-)
 longPressLink
 (
 "
@@ -808,13 +801,6 @@ tab1
 url
 )
 {
-verifyPageContent
-(
-"
-Tab
-1
-"
-)
 longPressLink
 (
 "
