@@ -106,15 +106,13 @@ android
 theme
 =
 "
-android
-:
 style
 /
 Theme
 .
-Translucent
+AppCompat
 .
-NoTitleBar
+Translucent
 "
 /
 >
