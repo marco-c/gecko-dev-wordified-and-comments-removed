@@ -148,6 +148,7 @@ all
 build
 types
 .
+return
 if
 (
 TextUtils
