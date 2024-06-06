@@ -4657,6 +4657,11 @@ NoExtraKeys
 TabsTray
 .
 autoCloseDimissed
+.
+record
+(
+it
+)
 }
 )
 is
@@ -4674,6 +4679,11 @@ NoExtraKeys
 TabsTray
 .
 autoCloseSeen
+.
+record
+(
+it
+)
 }
 )
 is
@@ -4691,6 +4701,11 @@ NoExtraKeys
 TabsTray
 .
 autoCloseTurnOnClicked
+.
+record
+(
+it
+)
 }
 )
 is
