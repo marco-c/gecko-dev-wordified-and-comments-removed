@@ -563,6 +563,17 @@ view
 .
 also
 {
+if
+(
+context
+.
+settings
+(
+)
+.
+isSwipeToolbarToSwitchTabsEnabled
+)
+{
 gestureLayout
 .
 addGestureListener
@@ -594,6 +605,7 @@ core
 sessionManager
 )
 )
+}
 val
 readerModeAction
 =
