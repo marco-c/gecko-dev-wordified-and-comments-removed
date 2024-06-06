@@ -97,6 +97,16 @@ ViewGroup
 import
 androidx
 .
+appcompat
+.
+content
+.
+res
+.
+AppCompatResources
+import
+androidx
+.
 coordinatorlayout
 .
 widget
@@ -601,7 +611,7 @@ ic_readermode
 !
 imageSelected
 =
-ContextCompat
+AppCompatResources
 .
 getDrawable
 (
