@@ -181,9 +181,9 @@ AndroidJUnitRunner
 def
 appServicesVersion
 =
-Versions
+ApplicationServicesConfig
 .
-mozilla_appservices
+version
 if
 (
 gradle
