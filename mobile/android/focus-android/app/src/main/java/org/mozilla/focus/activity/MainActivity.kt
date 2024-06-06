@@ -728,6 +728,17 @@ session
 Session
 )
 {
+previousSessionCount
+=
+components
+.
+sessionManager
+.
+sessions
+.
+count
+(
+)
 if
 (
 !
