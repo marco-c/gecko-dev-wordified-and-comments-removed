@@ -356,6 +356,12 @@ Archive
 TabsAction
 (
 )
+object
+MenuTapped
+:
+TabsAction
+(
+)
 data
 class
 CloseAll
