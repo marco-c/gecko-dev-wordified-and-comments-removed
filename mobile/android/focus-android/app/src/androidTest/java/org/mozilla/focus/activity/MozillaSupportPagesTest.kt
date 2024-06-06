@@ -226,6 +226,10 @@ openMainMenu
 {
 }
 .
+openSettings
+{
+}
+.
 clickWhatsNewLink
 {
 verifyPageURL

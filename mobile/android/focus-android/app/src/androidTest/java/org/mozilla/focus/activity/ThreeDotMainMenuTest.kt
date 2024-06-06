@@ -245,9 +245,6 @@ homeScreen
 .
 openMainMenu
 {
-verifyWhatsNewLinkExists
-(
-)
 verifyHelpPageLinkExists
 (
 )
@@ -289,6 +286,13 @@ loadPage
 pageUrl
 )
 {
+verifyPageContent
+(
+"
+Tab
+1
+"
+)
 }
 .
 openMainMenu

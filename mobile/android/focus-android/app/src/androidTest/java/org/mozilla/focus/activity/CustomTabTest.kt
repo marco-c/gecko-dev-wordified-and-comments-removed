@@ -478,13 +478,13 @@ verifyCustomTabActionButton
 (
 ACTION_BUTTON_DESCRIPTION
 )
+verifyShareButtonIsDisplayed
+(
+)
 openCustomTabMenu
 (
 )
 verifyTheStandardMenuItems
-(
-)
-verifyShareButtonIsDisplayed
 (
 )
 verifyCustomMenuItem
