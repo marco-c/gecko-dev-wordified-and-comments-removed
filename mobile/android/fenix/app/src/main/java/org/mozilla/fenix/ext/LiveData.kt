@@ -108,9 +108,9 @@ LiveData
 T
 >
 .
-observeOnceAndRemoveObserver
+observeOnce
 (
-callback
+observer
 :
 (
 T
@@ -142,7 +142,7 @@ removeObserver
 (
 this
 )
-callback
+observer
 (
 value
 )
