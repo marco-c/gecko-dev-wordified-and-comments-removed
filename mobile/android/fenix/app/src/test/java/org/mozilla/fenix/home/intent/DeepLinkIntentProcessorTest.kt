@@ -488,7 +488,7 @@ Called
 Test
 fun
 process
-home_bookmarks
+urls_bookmarks
 deep
 link
 (
@@ -507,7 +507,7 @@ fenix
 :
 /
 /
-home_bookmarks
+urls_bookmarks
 "
 )
 navController
@@ -542,7 +542,7 @@ Called
 Test
 fun
 process
-home_history
+urls_history
 deep
 link
 (
@@ -561,7 +561,7 @@ fenix
 :
 /
 /
-home_history
+urls_history
 "
 )
 navController

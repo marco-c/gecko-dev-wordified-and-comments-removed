@@ -260,7 +260,7 @@ fenix
 :
 /
 /
-home_history
+urls_history
 take
 the
 user
@@ -275,7 +275,7 @@ fenix
 :
 /
 /
-home_bookmarks
+urls_bookmarks
 take
 the
 user

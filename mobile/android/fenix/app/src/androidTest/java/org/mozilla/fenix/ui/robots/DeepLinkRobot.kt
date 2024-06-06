@@ -341,7 +341,7 @@ fenix
 :
 /
 /
-home_bookmarks
+urls_bookmarks
 "
 )
 .
@@ -373,7 +373,7 @@ fenix
 :
 /
 /
-home_history
+urls_history
 "
 )
 .

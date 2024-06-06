@@ -309,7 +309,7 @@ GlobalDirections
 .
 Home
 "
-home_bookmarks
+urls_bookmarks
 "
 -
 >
@@ -317,7 +317,7 @@ GlobalDirections
 .
 Bookmarks
 "
-home_history
+urls_history
 "
 -
 >
