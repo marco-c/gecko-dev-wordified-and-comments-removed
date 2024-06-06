@@ -255,11 +255,9 @@ SavedLoginsSortingStrategyMenu
 Item
 .
 LastUsedSort
-duplicateLogins
+duplicateLogin
 =
-listOf
-(
-)
+null
 )
 Test
 fun
@@ -332,11 +330,9 @@ SavedLoginsSortingStrategyMenu
 Item
 .
 LastUsedSort
-duplicateLogins
+duplicateLogin
 =
-emptyList
-(
-)
+null
 )
 createInitialLoginsListState
 (

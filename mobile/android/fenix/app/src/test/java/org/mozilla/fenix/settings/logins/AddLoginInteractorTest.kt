@@ -173,7 +173,7 @@ findPotentialDupesTest
 {
 interactor
 .
-findPotentialDuplicates
+findDuplicate
 (
 hostname
 username
@@ -183,7 +183,7 @@ verify
 {
 loginsController
 .
-findPotentialDuplicates
+findDuplicateForAdd
 (
 hostname
 username

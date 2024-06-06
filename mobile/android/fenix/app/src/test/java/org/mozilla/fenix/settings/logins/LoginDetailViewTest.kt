@@ -223,11 +223,9 @@ SavedLoginsSortingStrategyMenu
 Item
 .
 LastUsedSort
-duplicateLogins
+duplicateLogin
 =
-listOf
-(
-)
+null
 )
 private
 lateinit

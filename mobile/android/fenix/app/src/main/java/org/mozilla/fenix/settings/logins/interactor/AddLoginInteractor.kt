@@ -115,9 +115,9 @@ SavedLoginsStorageController
 )
 {
 fun
-findPotentialDuplicates
+findDuplicate
 (
-hostnameText
+originText
 :
 String
 usernameText
@@ -130,9 +130,9 @@ String
 {
 savedLoginsController
 .
-findPotentialDuplicates
+findDuplicateForAdd
 (
-hostnameText
+originText
 usernameText
 passwordText
 )
@@ -140,7 +140,7 @@ passwordText
 fun
 onAddLogin
 (
-hostnameText
+originText
 :
 String
 usernameText
@@ -155,7 +155,7 @@ savedLoginsController
 .
 add
 (
-hostnameText
+originText
 usernameText
 passwordText
 )
