@@ -63,7 +63,7 @@ mozilla
 .
 focus
 .
-autocomplete
+settings
 import
 android
 .

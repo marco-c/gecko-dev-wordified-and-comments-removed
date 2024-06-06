@@ -734,7 +734,7 @@ pref_key_studies
 value
 )
 .
-apply
+commit
 (
 )
 }

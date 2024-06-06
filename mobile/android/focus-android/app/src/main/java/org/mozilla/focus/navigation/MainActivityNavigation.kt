@@ -307,6 +307,8 @@ settings
 .
 privacy
 .
+studies
+.
 StudiesFragment
 import
 org
