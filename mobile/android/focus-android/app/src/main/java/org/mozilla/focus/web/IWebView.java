@@ -379,6 +379,8 @@ String
 mimeType
 String
 encoding
+String
+historyURL
 )
 ;
 String

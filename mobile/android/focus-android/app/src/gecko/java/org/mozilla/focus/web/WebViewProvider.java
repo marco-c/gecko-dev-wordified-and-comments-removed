@@ -1875,6 +1875,8 @@ String
 mimeType
 String
 encoding
+String
+historyURL
 )
 {
 geckoSession

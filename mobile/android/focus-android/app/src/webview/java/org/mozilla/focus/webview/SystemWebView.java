@@ -968,6 +968,8 @@ String
 mimeType
 String
 encoding
+String
+historyURL
 )
 {
 loadDataWithBaseURL
@@ -976,7 +978,7 @@ baseURL
 data
 mimeType
 encoding
-null
+historyURL
 )
 ;
 }
