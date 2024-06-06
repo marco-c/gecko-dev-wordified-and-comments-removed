@@ -280,7 +280,7 @@ android
 maxLines
 =
 "
-1
+2
 "
 android
 :
@@ -320,13 +320,6 @@ letterSpacing
 0
 .
 05
-"
-android
-:
-gravity
-=
-"
-center
 "
 tools
 :
