@@ -3145,13 +3145,6 @@ share
 .
 ShareFragment
 "
-android
-:
-label
-=
-"
-fragment_share
-"
 tools
 :
 layout
