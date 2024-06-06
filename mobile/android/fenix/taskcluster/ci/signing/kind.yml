@@ -374,11 +374,6 @@ beta
 firebase
 :
 Bfs
-nightly
--
-firebase
-:
-Bfs
 default
 :
 Bs
