@@ -187,7 +187,7 @@ androidx
 .
 lifecycle
 .
-ViewModelProviders
+ViewModelProvider
 import
 androidx
 .
@@ -1064,9 +1064,7 @@ savedInstanceState
 )
 searchSuggestionsViewModel
 =
-ViewModelProviders
-.
-of
+ViewModelProvider
 (
 this
 )
