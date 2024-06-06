@@ -476,7 +476,7 @@ openThreeDotMenu
 (
 interact
 :
-ThreeDotMenuBookmarks
+ThreeDotMenuBookmarksRobot
 .
 (
 )
@@ -485,7 +485,7 @@ ThreeDotMenuBookmarks
 Unit
 )
 :
-ThreeDotMenuBookmarks
+ThreeDotMenuBookmarksRobot
 .
 Transition
 {
@@ -496,7 +496,7 @@ threeDotMenu
 click
 (
 )
-ThreeDotMenuBookmarks
+ThreeDotMenuBookmarksRobot
 (
 )
 .
@@ -504,7 +504,7 @@ interact
 (
 )
 return
-ThreeDotMenuBookmarks
+ThreeDotMenuBookmarksRobot
 .
 Transition
 (

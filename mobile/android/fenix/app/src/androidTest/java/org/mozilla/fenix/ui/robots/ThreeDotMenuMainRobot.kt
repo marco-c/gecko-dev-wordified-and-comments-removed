@@ -256,7 +256,7 @@ menu
 *
 /
 class
-ThreeDotMenuRobot
+ThreeDotMenuMainRobot
 {
 fun
 verifySettingsButton

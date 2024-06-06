@@ -665,7 +665,7 @@ openThreeDotMenu
 (
 interact
 :
-ThreeDotMenuRobot
+ThreeDotMenuMainRobot
 .
 (
 )
@@ -674,7 +674,7 @@ ThreeDotMenuRobot
 Unit
 )
 :
-ThreeDotMenuRobot
+ThreeDotMenuMainRobot
 .
 Transition
 {
@@ -693,7 +693,7 @@ click
 (
 )
 )
-ThreeDotMenuRobot
+ThreeDotMenuMainRobot
 (
 )
 .
@@ -701,7 +701,7 @@ interact
 (
 )
 return
-ThreeDotMenuRobot
+ThreeDotMenuMainRobot
 .
 Transition
 (
@@ -817,7 +817,7 @@ openTabsListThreeDotMenu
 (
 interact
 :
-ThreeDotMenuRobot
+ThreeDotMenuMainRobot
 .
 (
 )
@@ -826,7 +826,7 @@ ThreeDotMenuRobot
 Unit
 )
 :
-ThreeDotMenuRobot
+ThreeDotMenuMainRobot
 .
 Transition
 {
@@ -845,7 +845,7 @@ click
 (
 )
 )
-ThreeDotMenuRobot
+ThreeDotMenuMainRobot
 (
 )
 .
@@ -853,7 +853,7 @@ interact
 (
 )
 return
-ThreeDotMenuRobot
+ThreeDotMenuMainRobot
 .
 Transition
 (

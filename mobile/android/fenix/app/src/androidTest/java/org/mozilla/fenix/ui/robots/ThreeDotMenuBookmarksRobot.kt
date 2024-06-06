@@ -124,7 +124,7 @@ menu
 *
 /
 class
-ThreeDotMenuBookmarks
+ThreeDotMenuBookmarksRobot
 {
 class
 Transition

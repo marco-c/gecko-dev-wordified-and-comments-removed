@@ -309,7 +309,7 @@ openThreeDotMenu
 (
 interact
 :
-ThreeDotMenuRobot
+ThreeDotMenuMainRobot
 .
 (
 )
@@ -318,7 +318,7 @@ ThreeDotMenuRobot
 Unit
 )
 :
-ThreeDotMenuRobot
+ThreeDotMenuMainRobot
 .
 Transition
 {
@@ -348,7 +348,7 @@ threeDotButton
 click
 (
 )
-ThreeDotMenuRobot
+ThreeDotMenuMainRobot
 (
 )
 .
@@ -356,7 +356,7 @@ interact
 (
 )
 return
-ThreeDotMenuRobot
+ThreeDotMenuMainRobot
 .
 Transition
 (
