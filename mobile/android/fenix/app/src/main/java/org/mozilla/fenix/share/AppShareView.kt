@@ -401,6 +401,11 @@ resolveInfo
 activityInfo
 .
 packageName
+resolveInfo
+.
+activityInfo
+.
+name
 )
 }
 size
@@ -623,8 +628,6 @@ ShareAction
 ShareAppClicked
 (
 it
-.
-packageName
 )
 )
 }
@@ -690,6 +693,10 @@ icon
 Drawable
 val
 packageName
+:
+String
+val
+activityName
 :
 String
 )

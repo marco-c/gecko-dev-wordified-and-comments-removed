@@ -225,9 +225,9 @@ class
 ShareAppClicked
 (
 val
-packageName
+item
 :
-String
+ShareItem
 )
 :
 ShareAction
