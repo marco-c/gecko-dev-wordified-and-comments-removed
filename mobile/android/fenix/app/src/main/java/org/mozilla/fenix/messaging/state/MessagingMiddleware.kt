@@ -388,6 +388,8 @@ null
 {
 context
 .
+store
+.
 dispatch
 (
 UpdateMessageToShow
@@ -404,6 +406,8 @@ context
 else
 {
 context
+.
+store
 .
 dispatch
 (
@@ -545,6 +549,8 @@ message
 )
 context
 .
+store
+.
 dispatch
 (
 UpdateMessages
@@ -614,6 +620,8 @@ message
 )
 context
 .
+store
+.
 dispatch
 (
 UpdateMessages
@@ -668,6 +676,8 @@ id
 )
 {
 context
+.
+store
 .
 dispatch
 (
