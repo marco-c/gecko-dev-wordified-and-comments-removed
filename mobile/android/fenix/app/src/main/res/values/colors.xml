@@ -471,8 +471,9 @@ name
 collection_icon_color_blue_light_theme
 "
 >
-#
-0250BB
+color
+/
+photonBlue60
 <
 /
 color
@@ -732,8 +733,9 @@ name
 readermode_end_gradient_normal_theme
 "
 >
-#
-FF0250bb
+color
+/
+photonBlue60
 <
 /
 color
