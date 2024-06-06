@@ -332,6 +332,8 @@ N
 {
 SupportUtils
 .
+INSTANCE
+.
 openDefaultAppsSettings
 (
 context
@@ -341,6 +343,8 @@ context
 else
 {
 SupportUtils
+.
+INSTANCE
 .
 openDefaultBrowserSumoPage
 (

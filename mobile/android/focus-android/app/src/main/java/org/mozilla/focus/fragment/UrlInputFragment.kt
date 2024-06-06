@@ -2184,7 +2184,7 @@ SupportUtils
 .
 getSumoURLForTopic
 (
-context
+it
 SupportUtils
 .
 SumoTopic

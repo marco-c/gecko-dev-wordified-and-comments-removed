@@ -709,6 +709,8 @@ SupportUtils
 getSumoURLForTopic
 (
 activity
+!
+!
 SupportUtils
 .
 SumoTopic
