@@ -1790,6 +1790,7 @@ toString
 }
 )
 ;
+final
 ImageButton
 findInPagePrevious
 =
@@ -1811,6 +1812,7 @@ setOnClickListener
 this
 )
 ;
+final
 ImageButton
 findInPageNext
 =
@@ -1832,6 +1834,7 @@ setOnClickListener
 this
 )
 ;
+final
 ImageButton
 closeFindInPage
 =
@@ -6760,6 +6763,7 @@ requestFocus
 (
 )
 ;
+final
 int
 height
 =
