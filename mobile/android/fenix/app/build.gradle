@@ -1245,6 +1245,9 @@ unitTests
 includeAndroidResources
 =
 true
+animationsDisabled
+=
+true
 }
 flavorDimensions
 "
