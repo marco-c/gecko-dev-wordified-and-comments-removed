@@ -56,3 +56,16 @@ MPL
 .
 *
 /
+/
+/
+Prevents
+gradle
+builds
+from
+looking
+for
+a
+root
+settings
+.
+gradle
