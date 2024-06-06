@@ -3501,6 +3501,10 @@ mozilla_feature_webcompat
 implementation
 Deps
 .
+mozilla_feature_webnotifications
+implementation
+Deps
+.
 mozilla_service_sync_logins
 implementation
 Deps
