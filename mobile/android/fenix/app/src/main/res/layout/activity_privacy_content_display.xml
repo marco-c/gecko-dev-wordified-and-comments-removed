@@ -201,7 +201,9 @@ android
 contentDescription
 =
 "
-close
+string
+/
+privacy_content_close_button_content_description
 "
 tools
 :
