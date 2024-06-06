@@ -4768,7 +4768,7 @@ Mode
 Off
 Open
 In
-App
+app
 Add
 To
 Top
