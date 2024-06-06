@@ -99,7 +99,7 @@ focus
 .
 generated
 .
-LocaleList
+LocalesList
 import
 java
 .
@@ -478,7 +478,7 @@ Collection
 String
 >
 =
-LocaleList
+LocalesList
 .
 BUNDLED_LOCALES
 }
