@@ -1329,6 +1329,13 @@ generateUUID
 toString
 (
 )
+lastModified
+=
+Date
+.
+now
+(
+)
 }
 )
 {
@@ -1471,6 +1478,9 @@ application
 json
 "
 }
+last_modified
+:
+lastModified
 }
 ;
 let
@@ -1502,6 +1512,9 @@ insertRecordIntoCollection
 (
 client
 item
+addAttachmentToCache
+=
+true
 )
 {
 let
@@ -1526,6 +1539,11 @@ create
 record
 )
 ;
+if
+(
+addAttachmentToCache
+)
+{
 await
 client
 .
@@ -1541,6 +1559,7 @@ id
 attachment
 )
 ;
+}
 await
 client
 .
@@ -1550,11 +1569,9 @@ importChanges
 (
 {
 }
-Date
+record
 .
-now
-(
-)
+last_modified
 )
 ;
 }

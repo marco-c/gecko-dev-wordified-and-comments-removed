@@ -146,6 +146,9 @@ engineIdentifiers
 :
 [
 "
+enterprise_shuttle
+"
+"
 engine_non_default_sized_icon
 "
 ]
