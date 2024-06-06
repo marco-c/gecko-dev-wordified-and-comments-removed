@@ -6925,7 +6925,11 @@ cookieBanner
 itemWithResId
 (
 "
-CybotCookiebotDialog
+startsiden
+-
+gdpr
+-
+disclaimer
 "
 )
 private
