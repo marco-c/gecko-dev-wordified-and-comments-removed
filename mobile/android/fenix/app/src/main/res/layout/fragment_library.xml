@@ -269,7 +269,7 @@ listItemIcon
 "
 drawable
 /
-library_icon_bookmarks_circle_background
+bookmarks_circle_background_filled
 "
 app
 :

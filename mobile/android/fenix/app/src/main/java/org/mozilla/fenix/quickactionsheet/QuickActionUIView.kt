@@ -651,5 +651,14 @@ else
 View
 .
 GONE
+view
+.
+quick_action_bookmark
+.
+isSelected
+=
+it
+.
+bookmarked
 }
 }
