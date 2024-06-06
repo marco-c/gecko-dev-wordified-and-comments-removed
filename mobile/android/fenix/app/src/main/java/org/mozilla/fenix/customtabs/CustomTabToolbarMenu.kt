@@ -85,6 +85,12 @@ ColorRes
 import
 androidx
 .
+annotation
+.
+VisibleForTesting
+import
+androidx
+.
 core
 .
 content
@@ -207,7 +213,7 @@ state
 .
 selector
 .
-findTab
+findCustomTab
 import
 mozilla
 .
@@ -219,7 +225,7 @@ state
 .
 state
 .
-TabSessionState
+CustomTabSessionState
 import
 mozilla
 .
@@ -432,11 +438,12 @@ tab
 session
 *
 /
-private
+VisibleForTesting
+internal
 val
 session
 :
-TabSessionState
+CustomTabSessionState
 ?
 get
 (
@@ -451,7 +458,7 @@ store
 .
 state
 .
-findTab
+findCustomTab
 (
 it
 )
