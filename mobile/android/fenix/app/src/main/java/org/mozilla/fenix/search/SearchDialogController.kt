@@ -606,6 +606,9 @@ url
 String
 )
 {
+clearToolbarFocus
+(
+)
 val
 searchEngine
 =
