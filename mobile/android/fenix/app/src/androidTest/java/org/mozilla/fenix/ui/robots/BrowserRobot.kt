@@ -332,6 +332,16 @@ fenix
 helpers
 .
 TestAssetHelper
+import
+org
+.
+mozilla
+.
+fenix
+.
+helpers
+.
+TestAssetHelper
 .
 waitingTime
 import
@@ -477,6 +487,9 @@ mozac_browser_toolbar_url_view
 )
 waitingTime
 )
+TestAssetHelper
+.
+waitingTime
 onView
 (
 withId
