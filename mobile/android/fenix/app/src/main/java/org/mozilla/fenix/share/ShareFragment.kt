@@ -331,6 +331,9 @@ viewModel
 .
 loadDevicesAndApps
 (
+requireContext
+(
+)
 )
 }
 override
