@@ -147,7 +147,7 @@ kotlin
 .
 9
 .
-22
+23
 "
 const
 val
@@ -435,7 +435,7 @@ ksp
 .
 0
 .
-17
+19
 "
 val
 ksp_plugin
@@ -493,7 +493,7 @@ compose_compiler
 .
 5
 .
-10
+11
 "
 object
 AndroidX
