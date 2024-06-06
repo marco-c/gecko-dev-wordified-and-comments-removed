@@ -985,6 +985,17 @@ run
 config
 =
 FLANK_CONF
+mv
+"
+PATH_TOOLS
+/
+results
+"
+"
+WORKDIR
+/
+test_artifacts
+"
 exitcode
 =
 ?
