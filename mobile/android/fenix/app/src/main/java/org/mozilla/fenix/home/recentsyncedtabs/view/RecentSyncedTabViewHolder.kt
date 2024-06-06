@@ -346,7 +346,11 @@ Success
 >
 it
 .
-tab
+tabs
+.
+firstOrNull
+(
+)
 }
 RecentSyncedTab
 (

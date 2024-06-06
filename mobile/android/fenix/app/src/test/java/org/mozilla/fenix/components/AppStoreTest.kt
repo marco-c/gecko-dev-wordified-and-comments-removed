@@ -1206,8 +1206,10 @@ state
 recentSyncedTabState
 )
 val
-recentSyncedTab
+recentSyncedTabs
 =
+listOf
+(
 RecentSyncedTab
 (
 "
@@ -1225,6 +1227,7 @@ url
 "
 null
 )
+)
 val
 success
 =
@@ -1232,7 +1235,7 @@ RecentSyncedTabState
 .
 Success
 (
-recentSyncedTab
+recentSyncedTabs
 )
 appStore
 .
@@ -1260,7 +1263,7 @@ recentSyncedTabState
 )
 assertEquals
 (
-recentSyncedTab
+recentSyncedTabs
 (
 appStore
 .
@@ -1273,7 +1276,7 @@ RecentSyncedTabState
 Success
 )
 .
-tab
+tabs
 )
 }
 Test
