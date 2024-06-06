@@ -27961,7 +27961,6 @@ name
 search_add_custom_engine_url_label
 "
 >
-URL
 <
 /
 string
@@ -27994,7 +27993,6 @@ name
 search_add_custom_engine_search_string_hint_2
 "
 >
-URL
 <
 /
 string
