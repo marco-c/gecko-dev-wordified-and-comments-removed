@@ -469,9 +469,9 @@ workerType
 '
 mobile
 -
-signing
+3
 -
-v1
+signing
 '
             
 "
@@ -638,9 +638,7 @@ provisionerId
 "
 scriptworker
 -
-prov
--
-v1
+k8s
 "
             
 "
@@ -751,9 +749,9 @@ workerType
 '
 mobile
 -
-pushapk
+3
 -
-v1
+pushapk
 '
             
 "
@@ -919,9 +917,7 @@ provisionerId
 "
 scriptworker
 -
-prov
--
-v1
+k8s
 "
             
 "
