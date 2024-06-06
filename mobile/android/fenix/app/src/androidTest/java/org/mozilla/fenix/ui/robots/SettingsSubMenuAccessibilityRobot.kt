@@ -1282,7 +1282,7 @@ resources
 .
 displayMetrics
 .
-scaledDensity
+density
 val
 currentTextSizePercentage
 =
