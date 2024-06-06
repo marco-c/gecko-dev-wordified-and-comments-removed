@@ -83,6 +83,12 @@ StringRes
 import
 androidx
 .
+annotation
+.
+VisibleForTesting
+import
+androidx
+.
 preference
 .
 PreferenceManager
@@ -544,7 +550,8 @@ select
 nothing
 *
 /
-private
+VisibleForTesting
+internal
 fun
 getSitePermissionDefaultOption
 (
@@ -657,6 +664,7 @@ select
 one
 *
 /
+internal
 fun
 permissionSelectedOption
 (
@@ -981,7 +989,8 @@ apply
 )
 }
 }
-private
+VisibleForTesting
+internal
 fun
 permissionSelectedOptionByKey
 (
