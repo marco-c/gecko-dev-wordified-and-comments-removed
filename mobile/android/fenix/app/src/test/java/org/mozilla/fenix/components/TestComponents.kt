@@ -99,6 +99,11 @@ context
 core
 .
 sessionManager
+core
+.
+engine
+.
+settings
 search
 .
 searchEngineManager
