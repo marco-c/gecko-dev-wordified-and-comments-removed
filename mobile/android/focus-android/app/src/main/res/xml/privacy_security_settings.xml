@@ -325,7 +325,7 @@ android
 defaultValue
 =
 "
-true
+false
 "
 android
 :
@@ -334,7 +334,7 @@ key
 "
 string
 /
-pref_key_privacy_block_other2
+pref_key_privacy_block_other3
 "
 android
 :

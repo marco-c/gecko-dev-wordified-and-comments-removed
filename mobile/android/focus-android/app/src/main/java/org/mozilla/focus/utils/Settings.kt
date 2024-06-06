@@ -306,6 +306,13 @@ TrackingCategory
 =
 mutableListOf
 (
+EngineSession
+.
+TrackingProtectionPolicy
+.
+TrackingCategory
+.
+SCRIPTS_AND_SUB_RESOURCES
 )
 if
 (
@@ -384,7 +391,7 @@ TrackingProtectionPolicy
 .
 TrackingCategory
 .
-SCRIPTS_AND_SUB_RESOURCES
+CONTENT
 )
 }
 val
@@ -1085,9 +1092,9 @@ R
 .
 string
 .
-pref_key_privacy_block_other2
+pref_key_privacy_block_other3
 )
-true
+false
 )
 fun
 userHasToggledSearchSuggestions
@@ -1288,7 +1295,7 @@ R
 .
 string
 .
-pref_key_privacy_block_other2
+pref_key_privacy_block_other3
 )
 true
 )

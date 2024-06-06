@@ -354,7 +354,7 @@ string
 name
 =
 "
-pref_key_privacy_block_other2
+pref_key_privacy_block_other3
 "
 translatable
 =
@@ -372,7 +372,7 @@ id
 preference_key
 "
 >
-pref_privacy_block_other2
+pref_privacy_block_other3
 <
 /
 xliff
