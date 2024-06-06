@@ -1517,7 +1517,7 @@ default
 =
 true
 )
-val
+var
 isMarketingTelemetryEnabled
 by
 booleanPreference
@@ -1534,7 +1534,12 @@ pref_key_marketing_telemetry
 )
 default
 =
-true
+!
+Config
+.
+channel
+.
+isMozillaOnline
 )
 var
 isExperimentationEnabled
