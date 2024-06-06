@@ -1234,6 +1234,12 @@ MasterPasswordMigrationDisplayed
 Event
 (
 )
+object
+TabSettingsOpened
+:
+Event
+(
+)
 /
 /
 Interaction
