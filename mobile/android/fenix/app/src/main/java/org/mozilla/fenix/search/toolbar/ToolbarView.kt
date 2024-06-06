@@ -287,6 +287,14 @@ mozilla
 .
 fenix
 .
+FeatureFlags
+import
+org
+.
+mozilla
+.
+fenix
+.
 R
 import
 org
@@ -1141,6 +1149,11 @@ shouldUseBottomToolbar
 {
 if
 (
+FeatureFlags
+.
+dynamicBottomToolbar
+&
+&
 layoutParams
 is
 CoordinatorLayout

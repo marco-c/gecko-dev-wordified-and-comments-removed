@@ -385,11 +385,6 @@ showLoginsSecureWarningMaxCount
 1
 const
 val
-autoBounceMaximumCount
-=
-2
-const
-val
 trackingProtectionOnboardingMaximumCount
 =
 2
