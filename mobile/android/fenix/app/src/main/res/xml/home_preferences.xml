@@ -353,7 +353,7 @@ android
 defaultValue
 =
 "
-true
+false
 "
 android
 :
@@ -427,7 +427,7 @@ android
 defaultValue
 =
 "
-false
+true
 "
 android
 :
