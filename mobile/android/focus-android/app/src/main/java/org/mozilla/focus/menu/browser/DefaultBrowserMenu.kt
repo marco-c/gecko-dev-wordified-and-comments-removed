@@ -803,7 +803,7 @@ R
 .
 drawable
 .
-mozac_ic_pin
+mozac_ic_pin_24
 secondaryLabel
 =
 context
