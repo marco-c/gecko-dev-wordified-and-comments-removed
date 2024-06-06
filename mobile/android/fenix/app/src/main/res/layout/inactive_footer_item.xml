@@ -150,9 +150,8 @@ android
 backgroundTint
 =
 "
-color
-/
-photonLightGrey30
+?
+borderPrimary
 "
 android
 :

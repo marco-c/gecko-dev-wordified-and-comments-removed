@@ -155,9 +155,8 @@ android
 background
 =
 "
-color
-/
-photonLightGrey30
+?
+borderPrimary
 "
 >
 <
