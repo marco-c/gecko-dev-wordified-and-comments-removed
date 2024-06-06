@@ -301,6 +301,8 @@ text
 text
 view
 .
+description_text_once
+.
 contentDescription
 =
 String
