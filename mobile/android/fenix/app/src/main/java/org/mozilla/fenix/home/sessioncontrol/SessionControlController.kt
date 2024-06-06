@@ -2188,14 +2188,6 @@ handleRequestDesktopMode
 tabId
 )
 }
-activity
-.
-openToBrowser
-(
-BrowserDirection
-.
-FromHome
-)
 }
 else
 {
@@ -2207,6 +2199,7 @@ existingTabForUrl
 .
 id
 )
+}
 navController
 .
 navigate
@@ -2217,7 +2210,6 @@ id
 .
 browserFragment
 )
-}
 }
 VisibleForTesting
 internal
