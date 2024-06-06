@@ -730,6 +730,7 @@ loadedSearchEngines
 =
 refreshAsync
 (
+baseSearchEngines
 )
 /
 /
@@ -793,7 +794,10 @@ loadedSearchEngines
 }
 else
 {
+refreshAsync
+(
 fallbackEngines
+)
 }
 fun
 getDefaultEngine
@@ -1256,6 +1260,7 @@ loadedSearchEngines
 =
 refreshAsync
 (
+baseSearchEngines
 )
 }
 }
@@ -1306,6 +1311,12 @@ private
 fun
 refreshAsync
 (
+baseList
+:
+Deferred
+<
+SearchEngineList
+>
 )
 =
 async
@@ -1313,7 +1324,7 @@ async
 val
 engineList
 =
-baseSearchEngines
+baseList
 .
 await
 (
