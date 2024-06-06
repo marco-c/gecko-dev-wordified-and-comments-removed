@@ -342,6 +342,8 @@ val
 activityTestRule
 =
 HomeActivityIntentTestRule
+.
+withDefaultSettingsOverrides
 (
 )
 get
@@ -403,18 +405,6 @@ start
 (
 )
 }
-featureSettingsHelper
-.
-apply
-{
-isTCPCFREnabled
-=
-false
-}
-.
-applyFlagUpdates
-(
-)
 }
 After
 fun
