@@ -2943,7 +2943,9 @@ DownloadState
 (
 hitResult
 .
-src
+getLink
+(
+)
 skipConfirmation
 =
 true
