@@ -980,7 +980,7 @@ FullScreenIntegration
 >
 (
 )
-private
+internal
 val
 sessionFeature
 =
