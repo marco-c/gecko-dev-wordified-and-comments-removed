@@ -290,6 +290,10 @@ androidx_test_junit
 testImplementation
 Dependencies
 .
+kotlin_reflect
+testImplementation
+Dependencies
+.
 testing_junit
 testImplementation
 Dependencies
