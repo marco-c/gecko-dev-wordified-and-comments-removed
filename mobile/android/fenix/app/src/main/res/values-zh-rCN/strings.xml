@@ -2137,7 +2137,6 @@ name
 sync_failed_summary
 "
 >
-%
 s
 <
 /
@@ -2200,6 +2199,7 @@ name
 sync_last_synced_summary
 "
 >
+:
 %
 s
 <
@@ -2226,6 +2226,7 @@ name
 sync_never_synced_summary
 "
 >
+:
 <
 /
 string
