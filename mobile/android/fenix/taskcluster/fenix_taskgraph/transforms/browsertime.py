@@ -1293,8 +1293,8 @@ task
 name
 "
 ]
-.
-append
++
+=
 (
 "
 -
