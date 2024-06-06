@@ -191,7 +191,7 @@ lightToDark
 .
 reverseTransition
 (
-500
+transitionDurationMs
 )
 }
 fun
@@ -206,7 +206,7 @@ lightToDark
 .
 startTransition
 (
-500
+transitionDurationMs
 )
 }
 fun
@@ -221,7 +221,7 @@ darkToNoBorder
 .
 reverseTransition
 (
-500
+transitionDurationMs
 )
 }
 fun
@@ -236,7 +236,16 @@ darkToNoBorder
 .
 startTransition
 (
-500
+transitionDurationMs
 )
+}
+companion
+object
+{
+const
+val
+transitionDurationMs
+=
+500
 }
 }

@@ -269,7 +269,7 @@ resources
 .
 pxToDp
 (
-8
+browserActionMarginDp
 )
 toolbar
 .
@@ -316,7 +316,7 @@ resources
 .
 pxToDp
 (
-8
+urlBoxMargin
 )
 val
 home
@@ -528,5 +528,19 @@ toolbarFeature
 stop
 (
 )
+}
+companion
+object
+{
+const
+val
+browserActionMarginDp
+=
+8
+const
+val
+urlBoxMargin
+=
+8
 }
 }

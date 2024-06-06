@@ -106,8 +106,6 @@ fenix
 R
 class
 SessionsAdapter
-(
-)
 :
 RecyclerView
 .
