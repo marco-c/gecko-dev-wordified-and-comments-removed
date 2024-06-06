@@ -656,7 +656,7 @@ url
 }
 FenixSnackbar
 .
-makeWithToolbarPadding
+make
 (
 view
 Snackbar

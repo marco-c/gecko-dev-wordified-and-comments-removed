@@ -4038,9 +4038,12 @@ view
 >
 FenixSnackbar
 .
-makeWithToolbarPadding
+make
 (
 view
+FenixSnackbar
+.
+LENGTH_LONG
 )
 .
 setText
