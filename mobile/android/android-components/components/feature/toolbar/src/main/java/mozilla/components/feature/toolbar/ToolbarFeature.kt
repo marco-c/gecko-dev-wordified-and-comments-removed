@@ -190,6 +190,12 @@ module
 .
 *
 /
+Suppress
+(
+"
+LongParameterList
+"
+)
 class
 ToolbarFeature
 (
@@ -218,6 +224,11 @@ String
 ?
 =
 null
+shouldDisplaySearchTerms
+:
+Boolean
+=
+false
 urlRenderConfiguration
 :
 UrlRenderConfiguration
@@ -239,6 +250,7 @@ ToolbarPresenter
 toolbar
 store
 customTabId
+shouldDisplaySearchTerms
 urlRenderConfiguration
 )
 VisibleForTesting
