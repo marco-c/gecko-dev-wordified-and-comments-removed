@@ -77,14 +77,14 @@ gradle
 android
 {
 compileSdkVersion
-26
+27
 buildToolsVersion
 "
 26
 .
 0
 .
-1
+2
 "
 defaultConfig
 {
@@ -97,7 +97,7 @@ mozilla
 minSdkVersion
 21
 targetSdkVersion
-26
+27
 versionCode
 11
 /
