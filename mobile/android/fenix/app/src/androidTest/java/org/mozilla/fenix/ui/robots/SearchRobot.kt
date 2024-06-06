@@ -980,10 +980,6 @@ By
 textContains
 (
 "
-https
-:
-/
-/
 {
 searchEngineName
 .
@@ -1014,10 +1010,6 @@ withText
 startsWith
 (
 "
-https
-:
-/
-/
 {
 searchEngineName
 .
