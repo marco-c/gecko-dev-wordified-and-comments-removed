@@ -159,10 +159,6 @@ it
 .
 guid
 }
-.
-toSet
-(
-)
 return
 this
 .
