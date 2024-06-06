@@ -88,14 +88,6 @@ taskgraph
 .
 transforms
 .
-code_review
-:
-transforms
--
-taskgraph
-.
-transforms
-.
 job
 :
 transforms
