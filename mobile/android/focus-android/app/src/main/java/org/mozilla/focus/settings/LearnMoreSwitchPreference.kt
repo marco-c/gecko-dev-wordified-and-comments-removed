@@ -121,7 +121,6 @@ onBindViewHolder
 holder
 :
 PreferenceViewHolder
-?
 )
 {
 super
@@ -141,8 +140,6 @@ val
 summaryView
 =
 holder
-!
-!
 .
 findViewById
 (
@@ -171,8 +168,6 @@ val
 learnMoreLink
 =
 holder
-!
-!
 .
 findViewById
 (

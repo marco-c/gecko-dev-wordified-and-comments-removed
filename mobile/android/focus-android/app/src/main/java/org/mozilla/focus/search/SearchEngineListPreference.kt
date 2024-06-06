@@ -308,7 +308,6 @@ onBindViewHolder
 holder
 :
 PreferenceViewHolder
-?
 )
 {
 super
@@ -320,8 +319,6 @@ holder
 searchEngineGroup
 =
 holder
-!
-!
 .
 itemView
 .

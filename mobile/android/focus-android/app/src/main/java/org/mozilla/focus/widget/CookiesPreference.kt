@@ -166,7 +166,6 @@ onBindViewHolder
 holder
 :
 PreferenceViewHolder
-?
 )
 {
 super

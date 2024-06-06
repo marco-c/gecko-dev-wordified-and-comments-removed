@@ -172,7 +172,6 @@ onBindViewHolder
 holder
 :
 PreferenceViewHolder
-?
 )
 {
 super
@@ -184,14 +183,6 @@ holder
 summaryView
 =
 holder
-?
-.
-let
-{
-parentView
--
->
-parentView
 .
 findViewById
 (
@@ -205,7 +196,6 @@ summary
 )
 as
 TextView
-}
 setValueByKey
 (
 key
