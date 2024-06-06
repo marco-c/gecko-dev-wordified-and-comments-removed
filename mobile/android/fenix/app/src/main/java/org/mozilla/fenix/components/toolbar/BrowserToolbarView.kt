@@ -464,7 +464,7 @@ sessionManager
 selectedSession
 ?
 .
-private
+desktopMode
 ?
 :
 false
