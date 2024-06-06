@@ -675,6 +675,8 @@ deleteAllSitePermissions
 (
 )
 {
+viewLifecycleOwner
+.
 lifecycleScope
 .
 launch

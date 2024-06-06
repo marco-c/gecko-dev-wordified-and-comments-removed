@@ -504,7 +504,7 @@ recentAppsStorage
 RecentAppsStorage
 private
 val
-lifecycleScope
+viewLifecycleScope
 :
 CoroutineScope
 private
@@ -581,7 +581,7 @@ app
 AppShareOption
 )
 {
-lifecycleScope
+viewLifecycleScope
 .
 launch
 (

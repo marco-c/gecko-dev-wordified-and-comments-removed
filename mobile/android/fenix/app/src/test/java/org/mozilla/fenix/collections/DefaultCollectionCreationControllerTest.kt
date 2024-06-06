@@ -285,7 +285,6 @@ store
 dismiss
 analytics
 tabCollectionStorage
-tabsUseCases
 sessionManager
 testCoroutineScope
 )

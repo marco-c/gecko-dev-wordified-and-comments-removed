@@ -999,6 +999,8 @@ autoplayInaudible
 status
 )
 }
+viewLifecycleOwner
+.
 lifecycleScope
 .
 launch

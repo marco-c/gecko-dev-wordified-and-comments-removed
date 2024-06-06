@@ -932,7 +932,7 @@ browsingModeManager
 BrowsingModeManager
 private
 val
-lifecycleScope
+viewLifecycleScope
 :
 CoroutineScope
 private
@@ -1334,7 +1334,7 @@ Event
 .
 CollectionTabRemoved
 )
-lifecycleScope
+viewLifecycleScope
 .
 launch
 (
@@ -1556,7 +1556,7 @@ Event
 PocketTopSiteRemoved
 )
 }
-lifecycleScope
+viewLifecycleScope
 .
 launch
 (

@@ -644,6 +644,8 @@ HistoryItem
 >
 )
 {
+viewLifecycleOwner
+.
 lifecycleScope
 .
 launch
@@ -927,6 +929,8 @@ delete_history_multi_select
 -
 >
 {
+viewLifecycleOwner
+.
 lifecycleScope
 .
 launch
@@ -1241,6 +1245,8 @@ HistoryFragmentAction
 .
 EnterDeletionMode
 )
+viewLifecycleOwner
+.
 lifecycleScope
 .
 launch

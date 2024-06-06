@@ -388,7 +388,7 @@ navController
 NavController
 private
 val
-lifecycleScope
+viewLifecycleScope
 :
 CoroutineScope
 private
@@ -550,7 +550,7 @@ handleEditingCancelled
 (
 )
 {
-lifecycleScope
+viewLifecycleScope
 .
 launch
 {

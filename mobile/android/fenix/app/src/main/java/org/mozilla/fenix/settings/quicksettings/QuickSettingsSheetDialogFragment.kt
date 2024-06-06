@@ -520,6 +520,8 @@ quickSettingsStore
 quickSettingsStore
 coroutineScope
 =
+viewLifecycleOwner
+.
 lifecycleScope
 navController
 =

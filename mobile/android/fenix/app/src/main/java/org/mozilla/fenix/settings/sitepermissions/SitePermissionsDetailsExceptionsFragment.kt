@@ -327,6 +327,8 @@ sitePermissions
 .
 origin
 )
+viewLifecycleOwner
+.
 lifecycleScope
 .
 launch
@@ -587,6 +589,8 @@ clearSitePermissions
 (
 )
 {
+viewLifecycleOwner
+.
 lifecycleScope
 .
 launch

@@ -381,6 +381,8 @@ string
 bookmark_select_folder_fragment_label
 )
 )
+viewLifecycleOwner
+.
 lifecycleScope
 .
 launch
@@ -545,6 +547,8 @@ add_folder_button
 -
 >
 {
+viewLifecycleOwner
+.
 lifecycleScope
 .
 launch

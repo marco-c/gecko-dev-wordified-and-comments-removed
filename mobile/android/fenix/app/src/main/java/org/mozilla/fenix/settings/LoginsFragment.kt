@@ -491,6 +491,8 @@ LOG_TAG
 onAuthenticationSucceeded
 "
 )
+viewLifecycleOwner
+.
 lifecycleScope
 .
 launch

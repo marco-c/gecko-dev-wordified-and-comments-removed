@@ -417,6 +417,8 @@ string
 bookmark_add_folder_fragment_label
 )
 )
+viewLifecycleOwner
+.
 lifecycleScope
 .
 launch
@@ -592,6 +594,8 @@ view
 hideKeyboard
 (
 )
+viewLifecycleOwner
+.
 lifecycleScope
 .
 launch

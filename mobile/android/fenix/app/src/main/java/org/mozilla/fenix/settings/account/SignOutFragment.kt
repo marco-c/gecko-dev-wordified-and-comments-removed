@@ -411,6 +411,8 @@ signOutDisconnect
 .
 setOnClickListener
 {
+viewLifecycleOwner
+.
 lifecycleScope
 .
 launch

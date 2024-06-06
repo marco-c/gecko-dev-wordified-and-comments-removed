@@ -829,7 +829,7 @@ navController
 browsingModeManager
 =
 browsingModeManager
-lifecycleScope
+viewLifecycleScope
 =
 MainScope
 (

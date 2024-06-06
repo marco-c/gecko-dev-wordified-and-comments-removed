@@ -511,11 +511,6 @@ core
 tabCollectionStorage
 requireComponents
 .
-useCases
-.
-tabsUseCases
-requireComponents
-.
 core
 .
 sessionManager

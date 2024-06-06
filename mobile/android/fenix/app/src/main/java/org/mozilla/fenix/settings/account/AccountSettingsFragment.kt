@@ -484,6 +484,8 @@ onAuthenticationProblems
 (
 )
 {
+viewLifecycleOwner
+.
 lifecycleScope
 .
 launch
@@ -503,6 +505,8 @@ onLoggedOut
 (
 )
 {
+viewLifecycleOwner
+.
 lifecycleScope
 .
 launch
@@ -1674,6 +1678,8 @@ syncNow
 (
 )
 {
+viewLifecycleOwner
+.
 lifecycleScope
 .
 launch
@@ -1799,6 +1805,8 @@ until
 updateDeviceName
 is
 called
+.
+viewLifecycleOwner
 .
 lifecycleScope
 .
@@ -2014,6 +2022,8 @@ onStarted
 (
 )
 {
+viewLifecycleOwner
+.
 lifecycleScope
 .
 launch
@@ -2086,6 +2096,8 @@ onIdle
 (
 )
 {
+viewLifecycleOwner
+.
 lifecycleScope
 .
 launch
@@ -2193,6 +2205,8 @@ Exception
 ?
 )
 {
+viewLifecycleOwner
+.
 lifecycleScope
 .
 launch

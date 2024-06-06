@@ -1514,7 +1514,7 @@ findNavController
 browsingModeManager
 =
 browsingModeManager
-lifecycleScope
+viewLifecycleScope
 =
 viewLifecycleOwner
 .
@@ -3879,6 +3879,8 @@ activity
 deleteAndQuit
 (
 activity
+viewLifecycleOwner
+.
 lifecycleScope
 view
 ?
@@ -4604,6 +4606,8 @@ scrollToTheTop
 (
 )
 {
+viewLifecycleOwner
+.
 lifecycleScope
 .
 launch

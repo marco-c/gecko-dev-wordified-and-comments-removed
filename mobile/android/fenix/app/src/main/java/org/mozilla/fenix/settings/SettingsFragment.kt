@@ -431,6 +431,8 @@ context
 ?
 :
 return
+viewLifecycleOwner
+.
 lifecycleScope
 .
 launch
@@ -949,6 +951,8 @@ recycler_view
 .
 hideInitialScrollBar
 (
+viewLifecycleOwner
+.
 lifecycleScope
 )
 /
@@ -2420,6 +2424,8 @@ let
 avatarUrl
 -
 >
+viewLifecycleOwner
+.
 lifecycleScope
 .
 launch

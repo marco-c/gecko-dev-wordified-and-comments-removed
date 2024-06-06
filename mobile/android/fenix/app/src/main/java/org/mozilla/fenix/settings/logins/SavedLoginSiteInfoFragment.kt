@@ -653,6 +653,8 @@ null
 val
 deleteJob
 =
+viewLifecycleOwner
+.
 lifecycleScope
 .
 launch

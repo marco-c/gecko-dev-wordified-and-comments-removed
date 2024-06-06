@@ -613,6 +613,8 @@ addon
 Addon
 )
 {
+viewLifecycleOwner
+.
 lifecycleScope
 .
 launch

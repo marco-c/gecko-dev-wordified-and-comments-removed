@@ -501,8 +501,10 @@ requireContext
 (
 )
 )
-lifecycleScope
+viewLifecycleScope
 =
+viewLifecycleOwner
+.
 lifecycleScope
 )
 {

@@ -813,7 +813,7 @@ navController
 findNavController
 (
 )
-lifecycleScope
+viewLifecycleScope
 =
 viewLifecycleOwner
 .

@@ -1773,6 +1773,8 @@ onDeleteSome
 "
 )
 }
+viewLifecycleOwner
+.
 lifecycleScope
 .
 allowUndo

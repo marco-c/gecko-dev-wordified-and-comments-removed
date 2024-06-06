@@ -530,6 +530,8 @@ savedInstanceState
 initToolbar
 (
 )
+viewLifecycleOwner
+.
 lifecycleScope
 .
 launch
@@ -1006,6 +1008,8 @@ DialogInterface
 _
 -
 >
+viewLifecycleOwner
+.
 lifecycleScope
 .
 launch
@@ -1190,6 +1194,8 @@ String
 ?
 )
 {
+viewLifecycleOwner
+.
 lifecycleScope
 .
 launch

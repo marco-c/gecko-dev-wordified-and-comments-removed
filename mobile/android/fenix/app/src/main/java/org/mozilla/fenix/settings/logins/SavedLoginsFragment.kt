@@ -851,6 +851,8 @@ null
 val
 fetchLoginsJob
 =
+viewLifecycleOwner
+.
 lifecycleScope
 .
 launch

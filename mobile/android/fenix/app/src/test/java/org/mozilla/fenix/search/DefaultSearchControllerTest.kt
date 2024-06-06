@@ -556,7 +556,7 @@ store
 navController
 =
 navController
-lifecycleScope
+viewLifecycleScope
 =
 lifecycleScope
 clearToolbarFocus
@@ -672,7 +672,7 @@ store
 navController
 =
 navController
-lifecycleScope
+viewLifecycleScope
 =
 this
 clearToolbarFocus
