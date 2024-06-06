@@ -393,7 +393,7 @@ helpers
 .
 TestAssetHelper
 .
-waitingTimeLong
+waitingTime
 import
 org
 .
@@ -405,7 +405,7 @@ helpers
 .
 TestAssetHelper
 .
-waitingTime
+waitingTimeLong
 import
 org
 .
@@ -429,7 +429,7 @@ helpers
 .
 TestHelper
 .
-packageName
+mDevice
 import
 org
 .
@@ -441,7 +441,7 @@ helpers
 .
 TestHelper
 .
-mDevice
+packageName
 import
 org
 .
@@ -2726,14 +2726,11 @@ UiSelector
 (
 )
 .
-resourceId
+descriptionContains
 (
 "
-packageName
-:
-id
-/
-mozac_browser_tabstray_close
+Close
+tab
 "
 )
 )
