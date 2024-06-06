@@ -1050,17 +1050,6 @@ Wallpaper
 Unit
 )
 {
-Surface
-(
-color
-=
-FirefoxTheme
-.
-colors
-.
-layer2
-)
-{
 Column
 (
 modifier
@@ -1195,7 +1184,6 @@ weight
 1f
 )
 )
-}
 }
 }
 }
