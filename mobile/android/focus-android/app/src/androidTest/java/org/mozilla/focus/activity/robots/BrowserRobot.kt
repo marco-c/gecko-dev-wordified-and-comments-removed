@@ -661,12 +661,15 @@ hasDescendant
 (
 allOf
 (
+hasDescendant
+(
 withText
 (
 tabTitle
 [
 tab
 ]
+)
 )
 withParentIndex
 (
