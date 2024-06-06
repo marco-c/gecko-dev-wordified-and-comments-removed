@@ -667,7 +667,7 @@ R
 .
 string
 .
-recent_bookmarks_title
+recently_saved_title
 )
 description
 =
