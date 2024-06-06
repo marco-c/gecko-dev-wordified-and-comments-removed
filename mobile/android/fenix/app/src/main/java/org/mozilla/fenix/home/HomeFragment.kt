@@ -2366,6 +2366,9 @@ navController
 findNavController
 (
 )
+homeStore
+=
+homeFragmentStore
 storage
 =
 components
@@ -2378,6 +2381,13 @@ scope
 viewLifecycleOwner
 .
 lifecycleScope
+store
+=
+components
+.
+core
+.
+store
 )
 pocketStoriesController
 =
