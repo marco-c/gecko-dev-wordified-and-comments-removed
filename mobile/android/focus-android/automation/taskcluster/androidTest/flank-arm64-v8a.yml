@@ -144,6 +144,8 @@ device
 model
 :
 Pixel2
+.
+arm
 version
 :
 30
@@ -161,8 +163,7 @@ test
 -
 shards
 :
--
-1
+50
 num
 -
 test
