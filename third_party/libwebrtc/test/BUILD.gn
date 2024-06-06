@@ -8155,6 +8155,16 @@ modules
 /
 video_coding
 :
+webrtc_h264
+"
+"
+.
+.
+/
+modules
+/
+video_coding
+:
 webrtc_vp9_helpers
 "
 "
