@@ -182,6 +182,10 @@ Mode
 Mode
 .
 Normal
+val
+isLoading
+:
+Boolean
 )
 :
 State
@@ -422,6 +426,9 @@ toSet
 )
 )
 }
+isLoading
+=
+false
 )
 }
 is
