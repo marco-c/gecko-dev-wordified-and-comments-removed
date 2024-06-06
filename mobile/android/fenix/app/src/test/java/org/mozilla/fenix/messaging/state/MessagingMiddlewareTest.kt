@@ -1184,8 +1184,6 @@ first
 (
 )
 .
-metadata
-.
 displayCount
 )
 }
@@ -1475,8 +1473,6 @@ assertEquals
 (
 messageDisplayed
 .
-metadata
-.
 displayCount
 store
 .
@@ -1488,8 +1484,6 @@ messages
 [
 0
 ]
-.
-metadata
 .
 displayCount
 )

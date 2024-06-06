@@ -971,8 +971,6 @@ controller
 onMessageDismissed
 (
 message
-.
-metadata
 )
 assertNotNull
 (
@@ -1789,8 +1787,6 @@ controller
 onMessageClicked
 (
 message
-.
-metadata
 )
 val
 updatedMetadata

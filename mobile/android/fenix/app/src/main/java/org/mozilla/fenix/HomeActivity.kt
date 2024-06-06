@@ -7964,14 +7964,10 @@ keyMessageText
 =
 nextMessage
 .
-data
-.
 text
 keyAcceptButtonText
 =
 nextMessage
-.
-data
 .
 buttonLabel
 keyDismissButtonText
