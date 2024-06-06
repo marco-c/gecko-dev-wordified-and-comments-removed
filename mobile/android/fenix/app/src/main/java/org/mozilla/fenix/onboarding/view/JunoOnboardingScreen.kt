@@ -1170,9 +1170,7 @@ Offset
 available
 .
 x
-available
-.
-y
+0f
 )
 }
 }
