@@ -188,8 +188,6 @@ copy
 (
 drawerStatus
 =
-DebugDrawerState
-.
 DrawerStatus
 .
 Open
@@ -206,8 +204,6 @@ copy
 (
 drawerStatus
 =
-DebugDrawerState
-.
 DrawerStatus
 .
 Closed
