@@ -381,6 +381,14 @@ OptOut
 onReanalyzeClick
 =
 {
+store
+.
+dispatch
+(
+ReviewQualityCheckAction
+.
+ReanalyzeProduct
+)
 }
 onProductRecommendationsEnabledStateChange
 =
