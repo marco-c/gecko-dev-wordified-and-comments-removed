@@ -1904,14 +1904,14 @@ R
 .
 drawable
 .
-ic_top_sites
+mozac_ic_pin
 secondaryStateIconResource
 =
 R
 .
 drawable
 .
-ic_top_sites
+mozac_ic_pin
 iconTintColorResource
 =
 primaryTextColor
