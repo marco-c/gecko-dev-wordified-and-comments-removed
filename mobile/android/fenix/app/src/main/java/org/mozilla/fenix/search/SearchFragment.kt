@@ -1225,7 +1225,7 @@ findNavController
 (
 )
 .
-popBackStack
+navigateUp
 (
 )
 }
