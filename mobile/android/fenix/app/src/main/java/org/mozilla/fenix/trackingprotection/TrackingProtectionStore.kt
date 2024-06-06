@@ -77,9 +77,11 @@ components
 .
 browser
 .
-session
+state
 .
-Session
+state
+.
+SessionState
 import
 mozilla
 .
@@ -376,9 +378,9 @@ class
 TrackingProtectionState
 (
 val
-session
+tab
 :
-Session
+SessionState
 ?
 val
 url

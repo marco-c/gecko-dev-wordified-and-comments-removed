@@ -238,7 +238,7 @@ baseState
 =
 TrackingProtectionState
 (
-session
+tab
 =
 null
 url
