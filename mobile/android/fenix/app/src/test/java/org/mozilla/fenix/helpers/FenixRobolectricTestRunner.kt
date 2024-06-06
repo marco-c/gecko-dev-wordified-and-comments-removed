@@ -198,7 +198,7 @@ Builder
 .
 setApplication
 (
-TestApplication
+FenixRobolectricTestApplication
 :
 :
 class
