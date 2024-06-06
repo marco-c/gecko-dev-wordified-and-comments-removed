@@ -2109,6 +2109,14 @@ registerForFutureUpdates
 extensions
 )
 }
+onUpdatePermissionRequest
+=
+components
+.
+addonUpdater
+:
+:
+onUpdatePermissionRequest
 )
 }
 catch
