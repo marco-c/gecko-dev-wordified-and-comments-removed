@@ -169,8 +169,6 @@ contains
 private
 class
 TestDrawable
-(
-)
 :
 Drawable
 (
@@ -223,7 +221,6 @@ ColorFilter
 )
 {
 }
-protected
 override
 fun
 onBoundsChange
