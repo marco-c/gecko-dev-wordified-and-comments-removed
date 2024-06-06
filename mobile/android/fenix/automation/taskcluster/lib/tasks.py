@@ -2846,18 +2846,9 @@ build_task_id
 apk_paths
 channel
 is_staging
-index_channel
-=
-None
     
 )
 :
-        
-index_channel
-=
-index_channel
-or
-channel
         
 staging_prefix
 =
@@ -2907,7 +2898,7 @@ format
 (
                 
 staging_prefix
-index_channel
+channel
 self
 .
 date
@@ -2961,7 +2952,7 @@ format
 (
                 
 staging_prefix
-index_channel
+channel
 self
 .
 date
@@ -3005,7 +2996,7 @@ latest
 format
 (
 staging_prefix
-index_channel
+channel
 )
         
 ]
