@@ -861,8 +861,9 @@ val
 shoppingSheetExpanded
 :
 Boolean
+?
 =
-false
+null
 )
 :
 State

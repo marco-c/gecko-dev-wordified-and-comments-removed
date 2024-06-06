@@ -1571,7 +1571,7 @@ safeInvalidateBrowserToolbarView
 (
 )
 }
-onBottomSheetCollapsed
+onBottomSheetStateChange
 =
 {
 reviewQualityCheck
@@ -1580,7 +1580,7 @@ setSelected
 (
 selected
 =
-false
+it
 notifyListener
 =
 false
