@@ -296,6 +296,14 @@ init
 (
 this
 )
+components
+.
+metrics
+.
+initialize
+(
+this
+)
 enableStrictMode
 (
 )
