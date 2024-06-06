@@ -920,6 +920,11 @@ RoundedCornerShape
 dp
 )
 )
+contentScale
+=
+ContentScale
+.
+Crop
 )
 Spacer
 (
@@ -1309,6 +1314,9 @@ id
 modifier
 =
 modifier
+contentScale
+=
+contentScale
 )
 }
 }
@@ -1724,9 +1732,7 @@ modifier
 modifier
 contentScale
 =
-ContentScale
-.
-Fit
+contentScale
 )
 }
 }

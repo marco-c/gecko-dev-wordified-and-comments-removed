@@ -683,9 +683,7 @@ dp
 )
 contentScale
 =
-ContentScale
-.
-Fit
+contentScale
 )
 }
 }
