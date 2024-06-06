@@ -573,6 +573,16 @@ onTabClosed
 )
 }
 }
+override
+val
+allowPrivateTheme
+:
+Boolean
+get
+(
+)
+=
+false
 private
 fun
 showConfirmationSnackbar
