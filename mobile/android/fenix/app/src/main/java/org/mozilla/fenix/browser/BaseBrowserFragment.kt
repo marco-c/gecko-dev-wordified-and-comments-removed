@@ -2556,16 +2556,6 @@ view
 view
 )
 }
-(
-activity
-as
-HomeActivity
-)
-.
-updateThemeForSession
-(
-session
-)
 }
 }
 /
