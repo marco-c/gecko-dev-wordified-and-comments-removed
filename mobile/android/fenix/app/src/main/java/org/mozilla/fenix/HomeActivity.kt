@@ -281,7 +281,7 @@ browser
 .
 session
 .
-Session
+SessionManager
 import
 mozilla
 .
@@ -289,9 +289,11 @@ components
 .
 browser
 .
-session
+state
 .
-SessionManager
+state
+.
+SessionState
 import
 mozilla
 .
@@ -3494,7 +3496,7 @@ newTabSearch
 invoke
 (
 searchTerms
-Session
+SessionState
 .
 Source
 .

@@ -145,6 +145,18 @@ mozilla
 .
 components
 .
+browser
+.
+state
+.
+state
+.
+SessionState
+import
+mozilla
+.
+components
+.
 concept
 .
 engine
@@ -469,7 +481,7 @@ private
 false
 source
 =
-Session
+SessionState
 .
 Source
 .
