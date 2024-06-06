@@ -4289,7 +4289,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_video
+mozac_ic_camera_24
 showDoNotAskAgainCheckBox
 =
 shouldShowDoNotAskAgainCheckBox

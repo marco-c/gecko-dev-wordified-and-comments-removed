@@ -841,7 +841,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_video
+mozac_ic_camera_24
 override
 val
 titleResource
@@ -867,7 +867,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_video
+mozac_ic_camera_24
 override
 val
 titleResource
