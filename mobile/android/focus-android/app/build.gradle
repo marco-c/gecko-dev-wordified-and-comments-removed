@@ -41,6 +41,14 @@ apply
 plugin
 :
 '
+kotlin
+-
+parcelize
+'
+apply
+plugin
+:
+'
 jacoco
 '
 apply

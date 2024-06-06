@@ -1452,6 +1452,17 @@ is
 Screen
 .
 Settings
+|
+|
+appStore
+.
+state
+.
+screen
+is
+Screen
+.
+SitePermissionOptionsScreen
 )
 {
 /

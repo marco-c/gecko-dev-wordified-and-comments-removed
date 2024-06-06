@@ -187,6 +187,14 @@ val
 onboardingNormalText
 :
 Color
+val
+settingsTextColor
+:
+Color
+val
+settingsTextSummaryColor
+:
+Color
 )
 {
 val
