@@ -776,7 +776,7 @@ style
 name
 =
 "
-DialogStyle
+BaseDialogStyle
 "
 parent
 =
@@ -865,7 +865,7 @@ DialogStyleLight
 parent
 =
 "
-DialogStyle
+BaseDialogStyle
 "
 >
 <
@@ -912,7 +912,7 @@ DialogStyleDark
 parent
 =
 "
-DialogStyle
+BaseDialogStyle
 "
 >
 <
