@@ -85,12 +85,6 @@ mockk
 .
 verifyOrder
 import
-kotlinx
-.
-coroutines
-.
-ObsoleteCoroutinesApi
-import
 mozilla
 .
 components

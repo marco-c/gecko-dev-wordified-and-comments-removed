@@ -79,12 +79,6 @@ kotlinx
 .
 coroutines
 .
-ObsoleteCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 runBlockingTest

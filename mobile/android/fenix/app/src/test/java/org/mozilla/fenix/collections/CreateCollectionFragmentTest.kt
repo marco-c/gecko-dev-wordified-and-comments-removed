@@ -99,12 +99,6 @@ assertions
 .
 isTrue
 import
-kotlinx
-.
-coroutines
-.
-ObsoleteCoroutinesApi
-import
 mozilla
 .
 components

@@ -73,12 +73,6 @@ content
 .
 ContextCompat
 import
-kotlinx
-.
-coroutines
-.
-ObsoleteCoroutinesApi
-import
 mozilla
 .
 components

@@ -71,12 +71,6 @@ content
 .
 Intent
 import
-kotlinx
-.
-coroutines
-.
-ObsoleteCoroutinesApi
-import
 mozilla
 .
 components

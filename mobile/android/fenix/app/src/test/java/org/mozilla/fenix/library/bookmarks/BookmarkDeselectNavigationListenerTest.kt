@@ -97,12 +97,6 @@ mockk
 .
 verify
 import
-kotlinx
-.
-coroutines
-.
-ObsoleteCoroutinesApi
-import
 mozilla
 .
 appservices

@@ -99,12 +99,6 @@ mockk
 .
 mockk
 import
-kotlinx
-.
-coroutines
-.
-ObsoleteCoroutinesApi
-import
 org
 .
 junit

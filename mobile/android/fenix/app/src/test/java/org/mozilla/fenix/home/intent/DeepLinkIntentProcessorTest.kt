@@ -105,12 +105,6 @@ mockk
 .
 verify
 import
-kotlinx
-.
-coroutines
-.
-ObsoleteCoroutinesApi
-import
 org
 .
 junit

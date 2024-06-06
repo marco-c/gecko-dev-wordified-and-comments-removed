@@ -131,12 +131,6 @@ kotlinx
 .
 coroutines
 .
-ObsoleteCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 newSingleThreadContext
 import
 kotlinx

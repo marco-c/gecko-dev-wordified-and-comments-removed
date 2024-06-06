@@ -95,12 +95,6 @@ runners
 .
 AndroidJUnit4
 import
-kotlinx
-.
-coroutines
-.
-ObsoleteCoroutinesApi
-import
 mozilla
 .
 components

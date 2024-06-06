@@ -151,12 +151,6 @@ kotlinx
 .
 coroutines
 .
-ObsoleteCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 coroutineScope
 import
 kotlinx

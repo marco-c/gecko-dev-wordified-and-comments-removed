@@ -7,12 +7,6 @@ fenix
 .
 ext
 import
-kotlinx
-.
-coroutines
-.
-ObsoleteCoroutinesApi
-import
 mozilla
 .
 components

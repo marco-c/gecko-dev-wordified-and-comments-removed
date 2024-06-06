@@ -137,12 +137,6 @@ coroutines
 .
 ExperimentalCoroutinesApi
 import
-kotlinx
-.
-coroutines
-.
-ObsoleteCoroutinesApi
-import
 org
 .
 junit

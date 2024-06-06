@@ -73,12 +73,6 @@ app
 .
 Fragment
 import
-kotlinx
-.
-coroutines
-.
-ObsoleteCoroutinesApi
-import
 mozilla
 .
 components
