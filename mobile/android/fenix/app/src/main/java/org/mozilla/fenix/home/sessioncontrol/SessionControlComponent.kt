@@ -477,12 +477,6 @@ TabAction
 (
 )
 object
-Add
-:
-TabAction
-(
-)
-object
 ShareTabs
 :
 TabAction
