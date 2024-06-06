@@ -476,12 +476,12 @@ see
 [
 TrackingProtectionInteractor
 .
-onBlockedItemsClicked
+onDetailsClicked
 ]
 *
 /
 fun
-handleBlockedItemsClicked
+handleDetailsClicked
 (
 )
 /
@@ -1188,7 +1188,7 @@ isEnabled
 }
 override
 fun
-handleBlockedItemsClicked
+handleDetailsClicked
 (
 )
 {

@@ -212,13 +212,13 @@ isEnabled
 }
 override
 fun
-onBlockedItemsClicked
+onDetailsClicked
 (
 )
 {
 controller
 .
-handleBlockedItemsClicked
+handleDetailsClicked
 (
 )
 }

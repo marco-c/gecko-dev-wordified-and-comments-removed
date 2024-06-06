@@ -202,7 +202,7 @@ layout_constraintBottom_toTopOf
 "
 id
 /
-trackingProtectionBlockedItems
+trackingProtectionDetails
 "
 app
 :
@@ -250,7 +250,7 @@ id
 +
 id
 /
-trackingProtectionBlockedItems
+trackingProtectionDetails
 "
 style
 =

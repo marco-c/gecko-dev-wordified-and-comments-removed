@@ -499,10 +499,6 @@ TrackingProtectionCategory
 .
 FINGERPRINTERS
 true
-{
-}
-{
-}
 )
 verify
 {

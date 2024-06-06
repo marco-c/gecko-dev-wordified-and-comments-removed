@@ -316,14 +316,14 @@ controller
 {
 interactor
 .
-onBlockedItemsClicked
+onDetailsClicked
 (
 )
 verify
 {
 controller
 .
-handleBlockedItemsClicked
+handleDetailsClicked
 (
 )
 }

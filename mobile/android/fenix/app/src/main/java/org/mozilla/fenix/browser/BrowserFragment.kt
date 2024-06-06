@@ -407,6 +407,16 @@ fenix
 .
 ext
 .
+runIfFragmentIsAttached
+import
+org
+.
+mozilla
+.
+fenix
+.
+ext
+.
 settings
 import
 org
@@ -1689,6 +1699,8 @@ id
 contains
 -
 >
+runIfFragmentIsAttached
+{
 val
 isTrackingProtectionEnabled
 =
@@ -1773,6 +1785,7 @@ id
 browserFragment
 directions
 )
+}
 }
 }
 private

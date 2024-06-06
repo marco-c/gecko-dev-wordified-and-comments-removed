@@ -395,6 +395,16 @@ fenix
 .
 ext
 .
+runIfFragmentIsAttached
+import
+org
+.
+mozilla
+.
+fenix
+.
+ext
+.
 settings
 /
 *
@@ -1016,6 +1026,8 @@ id
 contains
 -
 >
+runIfFragmentIsAttached
+{
 val
 directions
 =
@@ -1096,6 +1108,7 @@ id
 externalAppBrowserFragment
 directions
 )
+}
 }
 }
 override
