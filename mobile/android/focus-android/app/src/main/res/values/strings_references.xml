@@ -116,6 +116,16 @@ item
 >
 string
 /
+preference_privacy_should_block_cookies_third_party_tracker_cookies_option
+<
+/
+item
+>
+<
+item
+>
+string
+/
 preference_privacy_should_block_cookies_no_option
 <
 /
