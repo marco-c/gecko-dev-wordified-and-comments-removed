@@ -164,6 +164,16 @@ widget
 ConstraintLayout
 android
 :
+id
+=
+"
++
+id
+/
+snackbar_layout
+"
+android
+:
 layout_width
 =
 "
