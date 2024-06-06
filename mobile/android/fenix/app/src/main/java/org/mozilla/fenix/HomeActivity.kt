@@ -1592,6 +1592,16 @@ LinearLayoutManager
 (
 context
 )
+layout
+.
+reverseLayout
+=
+true
+layout
+.
+stackFromEnd
+=
+true
 val
 adapter
 =
