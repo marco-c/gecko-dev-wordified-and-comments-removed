@@ -208,7 +208,7 @@ text
 "
 string
 /
-delete_history
+history_delete_all
 "
 android
 :
