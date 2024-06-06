@@ -139,6 +139,15 @@ fenix
 .
 syncintegration
 -
+notPackage
+org
+.
+mozilla
+.
+fenix
+.
+experimentintegration
+-
 class
 org
 .
