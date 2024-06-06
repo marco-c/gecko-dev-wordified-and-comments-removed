@@ -380,6 +380,13 @@ ic_tab_collection
 "
 android
 :
+visibility
+=
+"
+gone
+"
+android
+:
 text
 =
 "
