@@ -582,11 +582,6 @@ requireComponents
 core
 .
 store
-provideAddons
-=
-{
-addons
-}
 context
 =
 requireContext
@@ -595,9 +590,6 @@ requireContext
 fragmentManager
 =
 parentFragmentManager
-snackBarParentView
-=
-view
 onAddonChanged
 =
 {
