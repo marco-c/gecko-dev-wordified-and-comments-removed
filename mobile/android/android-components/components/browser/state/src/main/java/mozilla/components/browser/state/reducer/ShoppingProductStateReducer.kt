@@ -130,6 +130,19 @@ tabId
 current
 -
 >
+if
+(
+current
+.
+content
+.
+private
+)
+{
+current
+}
+else
+{
 current
 .
 createCopy
@@ -140,6 +153,7 @@ action
 .
 isProductUrl
 )
+}
 }
 }
 }
