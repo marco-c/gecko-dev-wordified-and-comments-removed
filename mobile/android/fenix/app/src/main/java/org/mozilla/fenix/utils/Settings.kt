@@ -6531,7 +6531,7 @@ visible
 var
 showContileFeature
 by
-featureFlagPreference
+lazyFeatureFlagPreference
 (
 key
 =
@@ -6547,7 +6547,17 @@ pref_key_enable_contile
 )
 default
 =
-false
+{
+homescreenSections
+[
+HomeScreenSection
+.
+CONTILE_TOP_SITES
+]
+=
+=
+true
+}
 featureFlag
 =
 FeatureFlags
