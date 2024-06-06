@@ -857,12 +857,6 @@ Event
 (
 )
 object
-PrivateBrowsingShowSearchSuggestions
-:
-Event
-(
-)
-object
 WhatsNewTapped
 :
 Event
