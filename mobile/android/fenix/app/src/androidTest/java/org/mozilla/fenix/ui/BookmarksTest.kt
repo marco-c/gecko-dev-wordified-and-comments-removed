@@ -3484,7 +3484,7 @@ firstWebPage
 .
 title
 )
-verifyNoSuggestionsAreDisplayed
+verifySuggestionsAreNotDisplayed
 (
 activityTestRule
 secondWebPage
@@ -3518,7 +3518,7 @@ typeSearch
 Android
 "
 )
-verifyNoSuggestionsAreDisplayed
+verifySuggestionsAreNotDisplayed
 (
 activityTestRule
 firstWebPage
@@ -3708,7 +3708,7 @@ typeSearch
 generic
 "
 )
-verifyNoSuggestionsAreDisplayed
+verifySuggestionsAreNotDisplayed
 (
 activityTestRule
 firstWebPage
@@ -3719,7 +3719,7 @@ toString
 (
 )
 )
-verifyNoSuggestionsAreDisplayed
+verifySuggestionsAreNotDisplayed
 (
 activityTestRule
 secondWebPage
@@ -3788,7 +3788,7 @@ typeSearch
 generic
 "
 )
-verifyNoSuggestionsAreDisplayed
+verifySuggestionsAreNotDisplayed
 (
 activityTestRule
 thirdWebPage

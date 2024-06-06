@@ -3681,7 +3681,7 @@ searchTerm
 Mozilla
 "
 )
-verifyNoSuggestionsAreDisplayed
+verifySuggestionsAreNotDisplayed
 (
 rule
 =
@@ -3774,7 +3774,7 @@ searchTerm
 Mozilla
 "
 )
-verifyNoSuggestionsAreDisplayed
+verifySuggestionsAreNotDisplayed
 (
 rule
 =
@@ -3961,7 +3961,7 @@ typeSearch
 test
 "
 )
-verifyNoSuggestionsAreDisplayed
+verifySuggestionsAreNotDisplayed
 (
 activityTestRule
 "
@@ -4096,7 +4096,7 @@ typeSearch
 mozilla
 "
 )
-verifyNoSuggestionsAreDisplayed
+verifySuggestionsAreNotDisplayed
 (
 activityTestRule
 "
@@ -4189,7 +4189,7 @@ searchTerm
 Mozilla
 "
 )
-verifyNoSuggestionsAreDisplayed
+verifySuggestionsAreNotDisplayed
 (
 rule
 =

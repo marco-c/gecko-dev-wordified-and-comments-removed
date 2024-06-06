@@ -770,7 +770,7 @@ typeSearch
 test
 "
 )
-verifyNoSuggestionsAreDisplayed
+verifySuggestionsAreNotDisplayed
 (
 activityTestRule
 "
@@ -867,7 +867,7 @@ typeSearch
 test
 "
 )
-verifyNoSuggestionsAreDisplayed
+verifySuggestionsAreNotDisplayed
 (
 activityTestRule
 "
@@ -2015,7 +2015,7 @@ typeSearch
 mozilla
 "
 )
-verifyNoSuggestionsAreDisplayed
+verifySuggestionsAreNotDisplayed
 (
 activityTestRule
 "
@@ -2070,7 +2070,7 @@ verifyAllowSuggestionsInPrivateModeDialog
 denySuggestionsInPrivateMode
 (
 )
-verifyNoSuggestionsAreDisplayed
+verifySuggestionsAreNotDisplayed
 (
 activityTestRule
 "
@@ -2172,7 +2172,7 @@ typeSearch
 mozilla
 "
 )
-verifyNoSuggestionsAreDisplayed
+verifySuggestionsAreNotDisplayed
 (
 activityTestRule
 "
