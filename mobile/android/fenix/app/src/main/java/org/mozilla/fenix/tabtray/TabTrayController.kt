@@ -444,7 +444,7 @@ handleRecentlyClosedClicked
 (
 )
 fun
-handleSetUpAutoCloseTabsClicked
+handleGoToTabsSettingClicked
 (
 )
 }
@@ -1444,7 +1444,7 @@ directions
 }
 override
 fun
-handleSetUpAutoCloseTabsClicked
+handleGoToTabsSettingClicked
 (
 )
 {

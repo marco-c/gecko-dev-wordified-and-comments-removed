@@ -1707,7 +1707,7 @@ handleSetUpAutoCloseTabsClicked
 {
 controller
 .
-handleSetUpAutoCloseTabsClicked
+handleGoToTabsSettingClicked
 (
 )
 val
