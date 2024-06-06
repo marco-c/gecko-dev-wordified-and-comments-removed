@@ -79,7 +79,7 @@ MPL
 -
 >
 <
-LinearLayout
+RelativeLayout
 xmlns
 :
 android
@@ -124,13 +124,6 @@ drawable
 /
 mozac_rounded_search_widget_background
 "
-android
-:
-orientation
-=
-"
-horizontal
-"
 >
 <
 ImageView
@@ -143,6 +136,13 @@ id
 id
 /
 mozac_button_search_widget_new_tab_icon
+"
+android
+:
+layout_alignParentStart
+=
+"
+true
 "
 android
 :
@@ -187,6 +187,13 @@ id
 id
 /
 mozac_button_search_widget_voice
+"
+android
+:
+layout_alignParentEnd
+=
+"
+true
 "
 android
 :
@@ -240,5 +247,5 @@ centerInside
 >
 <
 /
-LinearLayout
+RelativeLayout
 >
