@@ -2366,6 +2366,6 @@ const
 val
 RECENTLY_CLOSED_MAX
 =
-5
+10
 }
 }
