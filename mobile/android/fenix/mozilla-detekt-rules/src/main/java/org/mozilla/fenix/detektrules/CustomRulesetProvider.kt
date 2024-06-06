@@ -138,6 +138,10 @@ MozillaBannedPropertyAccess
 (
 config
 )
+MozillaStrictModeSuppression
+(
+config
+)
 MozillaCorrectUnitTestRunner
 (
 config

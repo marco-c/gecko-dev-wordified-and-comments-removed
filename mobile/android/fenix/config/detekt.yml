@@ -595,6 +595,11 @@ BuildConfig
 .
 DEBUG
 "
+MozillaStrictModeSuppression
+:
+active
+:
+true
 MozillaCorrectUnitTestRunner
 :
 active
