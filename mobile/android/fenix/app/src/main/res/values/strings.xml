@@ -2142,7 +2142,7 @@ string
 -
 Preference
 for
-launching
+opening
 links
 in
 a
@@ -2156,10 +2156,10 @@ string
 name
 =
 "
-preferences_launch_links_in_private_mode
+preferences_open_links_in_a_private_tab
 "
 >
-Launch
+Open
 links
 in
 a
