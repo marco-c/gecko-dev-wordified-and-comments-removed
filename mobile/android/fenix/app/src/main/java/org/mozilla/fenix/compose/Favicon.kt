@@ -217,18 +217,6 @@ icons
 .
 compose
 .
-Loader
-import
-mozilla
-.
-components
-.
-browser
-.
-icons
-.
-compose
-.
 Placeholder
 import
 mozilla
@@ -396,7 +384,7 @@ core
 .
 icons
 .
-Loader
+LoadableImage
 (
 url
 =
@@ -404,7 +392,7 @@ url
 isPrivate
 =
 isPrivate
-size
+iconSize
 =
 size
 .
