@@ -488,10 +488,7 @@ CheckChanged
 (
 shouldBeChecked
 =
-false
-shouldBeUnchecked
-=
-false
+true
 shouldHideCheckBox
 =
 false
@@ -566,9 +563,6 @@ CheckChanged
 shouldBeChecked
 =
 true
-shouldBeUnchecked
-=
-false
 shouldHideCheckBox
 =
 false
@@ -643,9 +637,6 @@ CheckChanged
 shouldBeChecked
 =
 false
-shouldBeUnchecked
-=
-true
 shouldHideCheckBox
 =
 true
