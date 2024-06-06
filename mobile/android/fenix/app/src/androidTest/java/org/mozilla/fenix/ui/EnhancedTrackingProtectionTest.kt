@@ -378,8 +378,13 @@ openSettings
 verifyEnhancedTrackingProtectionButton
 (
 )
-verifyEnhancedTrackingProtectionState
+verifySettingsOptionSummary
 (
+"
+Enhanced
+Tracking
+Protection
+"
 "
 Standard
 "

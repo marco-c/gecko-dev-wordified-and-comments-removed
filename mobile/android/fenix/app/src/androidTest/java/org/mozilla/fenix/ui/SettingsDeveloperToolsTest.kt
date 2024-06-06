@@ -295,7 +295,7 @@ openThreeDotMenu
 .
 openSettings
 {
-verifyRemoteDebug
+verifyRemoteDebuggingButton
 (
 )
 }
