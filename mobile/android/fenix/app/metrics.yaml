@@ -23618,6 +23618,9 @@ extra_keys
 :
 page_number
 :
+type
+:
+string
 description
 :
 |

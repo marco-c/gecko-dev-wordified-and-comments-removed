@@ -555,13 +555,6 @@ useCases
 tabsUseCases
 .
 selectOrAddTab
-metrics
-=
-requireComponents
-.
-analytics
-.
-metrics
 navController
 =
 findNavController
