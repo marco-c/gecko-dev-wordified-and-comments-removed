@@ -383,7 +383,7 @@ android
 layout_marginStart
 =
 "
-16dp
+12dp
 "
 android
 :
@@ -481,14 +481,14 @@ android
 layout_marginStart
 =
 "
-16dp
+12dp
 "
 android
 :
 layout_marginEnd
 =
 "
-16dp
+12dp
 "
 android
 :
