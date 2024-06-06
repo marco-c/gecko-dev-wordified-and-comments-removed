@@ -1325,6 +1325,7 @@ logSink
 =
 nsCycleCollector_createLogSink
 (
+true
 )
 ;
 logSink

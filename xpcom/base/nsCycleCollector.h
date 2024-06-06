@@ -157,6 +157,8 @@ nsICycleCollectorLogSink
 >
 nsCycleCollector_createLogSink
 (
+bool
+aLogGC
 )
 ;
 already_AddRefed
