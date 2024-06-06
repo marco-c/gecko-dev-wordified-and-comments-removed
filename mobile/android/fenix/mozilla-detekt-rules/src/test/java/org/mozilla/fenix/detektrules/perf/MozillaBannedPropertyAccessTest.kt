@@ -95,9 +95,9 @@ arturbosch
 .
 detekt
 .
-api
+test
 .
-YamlConfig
+lint
 import
 io
 .
@@ -109,7 +109,7 @@ detekt
 .
 test
 .
-lint
+yamlConfig
 import
 org
 .
@@ -238,15 +238,7 @@ setup
 {
 config
 =
-YamlConfig
-.
-loadResource
-(
-this
-.
-javaClass
-.
-getResource
+yamlConfig
 (
 "
 /
@@ -254,7 +246,6 @@ config
 .
 yml
 "
-)
 )
 }
 Test
