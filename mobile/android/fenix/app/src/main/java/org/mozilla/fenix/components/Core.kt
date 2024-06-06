@@ -650,6 +650,7 @@ passwordsStorage
 )
 )
 }
+private
 val
 sessionStorage
 :

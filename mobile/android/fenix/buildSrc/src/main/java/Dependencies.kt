@@ -377,15 +377,9 @@ const
 val
 mozilla_android_components
 =
-"
-37
+AndroidComponents
 .
-0
-.
-0
--
-SNAPSHOT
-"
+VERSION
 const
 val
 adjust
