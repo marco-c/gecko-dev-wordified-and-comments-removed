@@ -334,6 +334,17 @@ Wolof
 "
 )
 ;
+languageCodeToNameMap
+.
+put
+(
+"
+anp
+"
+"
+"
+)
+;
 }
 private
 static
