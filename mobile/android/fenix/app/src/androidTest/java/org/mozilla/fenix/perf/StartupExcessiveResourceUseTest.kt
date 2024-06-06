@@ -667,10 +667,10 @@ private
 val
 EXPECTED_RECYCLER_VIEW_CONSTRAINT_LAYOUT_CHILDREN
 =
-3
-.
-.
 4
+.
+.
+6
 /
 /
 The
@@ -682,12 +682,10 @@ deterministic
 and
 could
 add
-a
-+
-1
 to
 the
 count
+.
 /
 *
 *
