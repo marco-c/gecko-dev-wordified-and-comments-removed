@@ -1493,6 +1493,14 @@ showPocketRecommendationsFeature
 }
 returns
 true
+every
+{
+settings
+.
+enableComposeTopSites
+}
+returns
+false
 val
 results
 =
