@@ -166,15 +166,6 @@ home_component
 "
 motion
 :
-touchRegionId
-=
-"
-id
-/
-home_component
-"
-motion
-:
 touchAnchorSide
 =
 "
