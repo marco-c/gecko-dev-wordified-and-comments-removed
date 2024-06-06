@@ -56305,6 +56305,9 @@ to
 the
 background
 .
+type
+:
+string
 background_crashed_tabs
 :
 description
@@ -56324,6 +56327,9 @@ to
 the
 background
 .
+type
+:
+string
 background_total_tabs
 :
 description
@@ -56341,6 +56347,9 @@ to
 the
 background
 .
+type
+:
+string
 foreground_active_tabs
 :
 description
@@ -56366,6 +56375,9 @@ to
 the
 foreground
 .
+type
+:
+string
 foreground_crashed_tabs
 :
 description
@@ -56386,6 +56398,9 @@ to
 the
 foreground
 .
+type
+:
+string
 foreground_total_tabs
 :
 description
@@ -56404,6 +56419,9 @@ to
 the
 foreground
 .
+type
+:
+string
 time_in_background
 :
 description
@@ -56421,6 +56439,9 @@ in
 the
 background
 .
+type
+:
+string
 metadata
 :
 tags
