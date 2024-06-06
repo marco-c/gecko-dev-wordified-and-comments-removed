@@ -298,7 +298,7 @@ FirefoxTheme
 .
 colors
 .
-surface
+layer2
 )
 )
 {

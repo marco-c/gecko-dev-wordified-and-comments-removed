@@ -1103,7 +1103,7 @@ FirefoxTheme
 .
 colors
 .
-surface
+layer2
 elevation
 =
 6

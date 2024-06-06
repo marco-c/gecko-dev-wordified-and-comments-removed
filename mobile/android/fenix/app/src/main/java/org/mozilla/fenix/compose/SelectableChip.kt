@@ -577,7 +577,7 @@ FirefoxTheme
 .
 colors
 .
-surface
+layer2
 )
 horizontalArrangement
 =
