@@ -4353,7 +4353,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_link
+mozac_ic_link_24
 showDoNotAskAgainCheckBox
 =
 false
