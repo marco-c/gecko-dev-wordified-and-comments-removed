@@ -6518,7 +6518,7 @@ visible
 var
 showUnifiedSearchFeature
 by
-featureFlagPreference
+lazyFeatureFlagPreference
 (
 key
 =
@@ -6534,7 +6534,17 @@ pref_key_show_unified_search
 )
 default
 =
-false
+{
+homescreenSections
+[
+HomeScreenSection
+.
+UNIFIED_SEARCH
+]
+=
+=
+true
+}
 featureFlag
 =
 FeatureFlags
