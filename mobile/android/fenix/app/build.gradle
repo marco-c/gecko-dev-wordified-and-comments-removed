@@ -3226,6 +3226,10 @@ androidx_core
 implementation
 Deps
 .
+androidx_core_ktx
+implementation
+Deps
+.
 androidx_transition
 implementation
 Deps
