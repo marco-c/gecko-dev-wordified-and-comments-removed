@@ -12127,7 +12127,9 @@ name
 sync_sign_in
 "
 >
-Autentificare
+Autentific
+-
+te
 n
 Sync
 <
@@ -15627,7 +15629,9 @@ name
 onboarding_firefox_account_sign_in
 "
 >
-Autentificare
+Autentific
+-
+te
 n
 Firefox
 <
@@ -20190,7 +20194,9 @@ name
 preferences_passwords_sync_logins_sign_in
 "
 >
-Autentificare
+Autentific
+-
+te
 n
 Sync
 <
