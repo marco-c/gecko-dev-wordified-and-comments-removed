@@ -2658,6 +2658,15 @@ crash
 )
 }
 }
+requireComponents
+.
+sessionUseCases
+.
+crashRecovery
+.
+invoke
+(
+)
 erase
 (
 )
