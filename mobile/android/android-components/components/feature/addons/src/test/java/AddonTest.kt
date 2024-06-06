@@ -205,6 +205,9 @@ clipboardWrite
 declarativeNetRequest
 "
 "
+declarativeNetRequestFeedback
+"
+"
 downloads
 "
 "
@@ -314,6 +317,11 @@ R
 string
 .
 mozac_feature_addons_permissions_declarative_net_request_description
+R
+.
+string
+.
+mozac_feature_addons_permissions_declarative_net_request_feedback_description
 R
 .
 string
