@@ -128,6 +128,12 @@ OpenInFenix
 Item
 (
 )
+object
+SaveToCollection
+:
+Item
+(
+)
 }
 val
 menuBuilder
