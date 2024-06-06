@@ -799,7 +799,7 @@ Kotlinx
 #
 #
 -
-keepnames
+keep
 class
 kotlinx
 .
@@ -811,7 +811,7 @@ MainDispatcherFactory
 {
 }
 -
-keepnames
+keep
 class
 kotlinx
 .
