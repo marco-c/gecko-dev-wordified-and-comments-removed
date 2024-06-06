@@ -498,9 +498,14 @@ accountManager
 .
 syncNow
 (
+reason
+=
 SyncReason
 .
 User
+debounce
+=
+true
 customEngineSubset
 =
 listOf

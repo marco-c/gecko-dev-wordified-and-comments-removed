@@ -836,7 +836,7 @@ SyncReason
 User
 debounce
 =
-false
+true
 customEngineSubset
 =
 listOf
