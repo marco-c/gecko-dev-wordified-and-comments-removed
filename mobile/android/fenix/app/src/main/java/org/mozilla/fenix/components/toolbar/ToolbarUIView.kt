@@ -452,6 +452,9 @@ view
 ToolbarMenu
 (
 this
+sessionId
+=
+sessionId
 requestDesktopStateProvider
 =
 {
