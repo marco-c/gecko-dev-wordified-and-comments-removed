@@ -525,6 +525,10 @@ TrackingProtectionState
 Mode
 .
 Normal
+lastAccessedCategory
+=
+"
+"
 )
 )
 }
