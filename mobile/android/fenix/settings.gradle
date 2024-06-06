@@ -266,6 +266,8 @@ withType
 (
 Test
 )
+.
+configureEach
 {
 enabled
 =
@@ -275,7 +277,7 @@ project
 .
 tasks
 .
-whenTaskAdded
+configureEach
 {
 task
 -

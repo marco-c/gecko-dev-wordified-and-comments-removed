@@ -5330,7 +5330,7 @@ n
 }
 tasks
 .
-whenTaskAdded
+configureEach
 {
 task
 -
@@ -5384,6 +5384,8 @@ withType
 (
 Test
 )
+.
+configureEach
 {
 jacoco
 .
