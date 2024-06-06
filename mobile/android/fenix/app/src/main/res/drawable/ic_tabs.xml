@@ -142,13 +142,6 @@ fillColor
 "
 android
 :
-fillType
-=
-"
-evenOdd
-"
-android
-:
 pathData
 =
 "

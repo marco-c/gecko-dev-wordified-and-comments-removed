@@ -144,13 +144,6 @@ iconColor
 "
 android
 :
-fillType
-=
-"
-evenOdd
-"
-android
-:
 pathData
 =
 "
