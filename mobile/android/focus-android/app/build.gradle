@@ -84,7 +84,7 @@ JsonOutput
 android
 {
 compileSdkVersion
-32
+33
 if
 (
 project
