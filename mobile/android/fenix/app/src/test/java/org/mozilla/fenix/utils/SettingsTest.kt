@@ -847,8 +847,6 @@ assertTrue
 settings
 .
 showSearchSuggestions
-(
-)
 )
 }
 Test
