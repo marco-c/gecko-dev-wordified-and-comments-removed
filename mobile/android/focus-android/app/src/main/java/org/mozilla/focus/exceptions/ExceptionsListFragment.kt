@@ -370,11 +370,12 @@ Fragment
 CoroutineScope
 {
 private
-lateinit
 var
 job
-:
+=
 Job
+(
+)
 override
 val
 coroutineContext
