@@ -1099,6 +1099,14 @@ stringResource
 id
 =
 descriptionId
+getString
+(
+R
+.
+string
+.
+onboarding_short_app_name
+)
 )
 modifier
 =
