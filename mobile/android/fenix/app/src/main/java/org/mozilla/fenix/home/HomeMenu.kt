@@ -1020,7 +1020,7 @@ R
 .
 drawable
 .
-ic_help
+mozac_ic_help
 primaryTextColor
 )
 {
@@ -1098,7 +1098,7 @@ R
 .
 drawable
 .
-ic_settings
+mozac_ic_settings
 primaryTextColor
 )
 {

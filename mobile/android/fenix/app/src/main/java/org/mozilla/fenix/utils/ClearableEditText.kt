@@ -429,7 +429,7 @@ R
 .
 drawable
 .
-ic_clear
+mozac_ic_clear
 )
 ?
 .

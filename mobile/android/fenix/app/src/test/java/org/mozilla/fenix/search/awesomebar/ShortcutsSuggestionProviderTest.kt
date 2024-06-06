@@ -266,7 +266,7 @@ R
 .
 drawable
 .
-ic_settings
+mozac_ic_settings
 )
 }
 returns
