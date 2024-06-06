@@ -763,7 +763,7 @@ R
 .
 id
 .
-download_notification_title
+download_dialog_title
 )
 )
 .
@@ -866,7 +866,7 @@ R
 .
 id
 .
-download_notification_action_button
+download_dialog_action_button
 )
 )
 .
