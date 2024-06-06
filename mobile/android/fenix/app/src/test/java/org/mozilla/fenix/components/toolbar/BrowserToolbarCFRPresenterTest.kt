@@ -2472,7 +2472,7 @@ was
 displayed
 less
 than
-24h
+12h
 ago
 AND
 the
@@ -2581,13 +2581,15 @@ currentTimeMillis
 (
 )
 -
-19
+(
+11
 *
 60
 *
 60
 *
 1000L
+)
 }
 browserStore
 =
@@ -2626,7 +2628,7 @@ first
 CFR
 was
 displayed
-24h
+12h
 ago
 AND
 the
@@ -2754,7 +2756,7 @@ currentTimeMillis
 -
 Settings
 .
-ONE_DAY_MS
+TWELVE_HOURS_MS
 }
 browserStore
 =
