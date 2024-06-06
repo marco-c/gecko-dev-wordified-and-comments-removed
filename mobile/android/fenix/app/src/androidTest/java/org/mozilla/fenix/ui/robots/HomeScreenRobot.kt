@@ -1319,7 +1319,7 @@ R
 .
 string
 .
-onboarding_privacy_notice_header_1
+onboarding_privacy_notice_read_button
 )
 )
 assertItemContainingTextExists
