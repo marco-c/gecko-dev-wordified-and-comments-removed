@@ -1000,6 +1000,9 @@ Share
 )
 }
 )
+registerForIsBookmarkedUpdates
+(
+)
 val
 bookmark
 =
