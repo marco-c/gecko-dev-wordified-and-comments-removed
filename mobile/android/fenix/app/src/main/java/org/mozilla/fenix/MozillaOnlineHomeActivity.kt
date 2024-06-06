@@ -143,7 +143,6 @@ HomeActivity
 .
 *
 /
-open
 class
 MozillaOnlineHomeActivity
 :
@@ -151,7 +150,6 @@ AppCompatActivity
 (
 )
 {
-final
 override
 fun
 onCreate
