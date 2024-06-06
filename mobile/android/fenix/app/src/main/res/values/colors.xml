@@ -1984,21 +1984,6 @@ color
 name
 =
 "
-accent_light_theme
-"
->
-color
-/
-photonInk20
-<
-/
-color
->
-<
-color
-name
-=
-"
 accent_bright_light_theme
 "
 >
@@ -2356,7 +2341,7 @@ snackbar_private_theme
 >
 color
 /
-accent_light_theme
+photonInk20
 <
 /
 color
@@ -2487,7 +2472,7 @@ swipe_delete_background_private_theme
 >
 color
 /
-accent_light_theme
+photonInk20
 <
 /
 color
@@ -2742,7 +2727,7 @@ accent_normal_theme
 >
 color
 /
-accent_light_theme
+photonInk20
 <
 /
 color
@@ -2772,7 +2757,7 @@ accent_high_contrast_normal_theme
 >
 color
 /
-accent_light_theme
+photonInk20
 <
 /
 color
@@ -2787,7 +2772,7 @@ tab_ring_normal_theme
 >
 color
 /
-accent_light_theme
+photonInk20
 <
 /
 color
@@ -2936,7 +2921,7 @@ fill_link_from_clipboard_normal_theme
 >
 color
 /
-accent_light_theme
+photonInk20
 <
 /
 color
