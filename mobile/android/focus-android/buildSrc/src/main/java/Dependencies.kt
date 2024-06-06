@@ -334,17 +334,6 @@ mockito
 .
 0
 "
-const
-val
-coroutines
-=
-"
-1
-.
-5
-.
-0
-"
 }
 }
 object
@@ -1007,7 +996,7 @@ test
 {
 Versions
 .
-Test
+Kotlin
 .
 coroutines
 }
