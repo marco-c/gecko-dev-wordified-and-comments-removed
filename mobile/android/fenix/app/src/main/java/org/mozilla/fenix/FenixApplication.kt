@@ -3626,7 +3626,8 @@ server
 .
 }
 }
-private
+VisibleForTesting
+internal
 fun
 restoreMessaging
 (
