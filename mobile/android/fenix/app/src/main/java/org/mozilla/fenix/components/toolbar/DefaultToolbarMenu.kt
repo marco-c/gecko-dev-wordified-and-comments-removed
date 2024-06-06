@@ -1174,7 +1174,7 @@ R
 .
 drawable
 .
-ic_share_filled
+ic_share
 contentDescription
 =
 context
