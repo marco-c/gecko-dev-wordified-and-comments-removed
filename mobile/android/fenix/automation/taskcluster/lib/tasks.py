@@ -4120,11 +4120,9 @@ mozilla
 .
 org
 /
-releases
-/
 mozilla
 -
-release
+central
 "
                     
 "
@@ -4325,11 +4323,9 @@ mozilla
 .
 org
 /
-releases
-/
 mozilla
 -
-release
+central
 /
 raw
 -
@@ -4633,7 +4629,6 @@ full_task_graph
 def
 fetch_mozharness_task_id
 (
-geckoview_beta_version
 )
 :
     
@@ -4646,14 +4641,11 @@ v2
 .
 mozilla
 -
-release
+central
 .
-geckoview
--
-version
+nightly
 .
-{
-}
+latest
 .
 mobile
 .
@@ -4661,17 +4653,8 @@ android
 -
 x86_64
 -
-beta
--
 opt
 '
-.
-format
-(
-        
-geckoview_beta_version
-    
-)
     
 return
 taskcluster
