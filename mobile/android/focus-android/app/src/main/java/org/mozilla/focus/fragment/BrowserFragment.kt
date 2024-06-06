@@ -1581,6 +1581,11 @@ FocusSnackbarDelegate
 (
 view
 )
+tab
+.
+isCustomTab
+(
+)
 )
 binding
 .
