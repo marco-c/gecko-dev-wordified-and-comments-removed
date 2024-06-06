@@ -2707,7 +2707,7 @@ requireComponents
 .
 core
 .
-sessionManager
+store
 requireComponents
 .
 backgroundServices
