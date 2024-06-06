@@ -867,16 +867,6 @@ R
 .
 drawable
 .
-sessions_04
-R
-.
-drawable
-.
-sessions_05
-R
-.
-drawable
-.
 sessions_06
 R
 .
