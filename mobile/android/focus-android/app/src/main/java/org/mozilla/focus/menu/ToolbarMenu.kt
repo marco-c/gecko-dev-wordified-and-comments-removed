@@ -73,7 +73,7 @@ browser
 .
 menu
 .
-BrowserMenuBuilder
+WebExtensionBrowserMenuBuilder
 import
 mozilla
 .
@@ -171,7 +171,7 @@ Item
 val
 menuBuilder
 :
-BrowserMenuBuilder
+WebExtensionBrowserMenuBuilder
 val
 menuToolbar
 :
