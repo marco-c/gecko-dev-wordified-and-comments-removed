@@ -1132,6 +1132,7 @@ VALID_RESPONSE_CODE_UPPER_BOUND
 =
 300
 private
+const
 val
 DISABLED_ALPHA
 =
@@ -1139,8 +1140,11 @@ DISABLED_ALPHA
 .
 5f
 private
+const
 val
 LOADING_INDICATOR_DELAY
+:
+Long
 =
 1000
 SuppressWarnings
