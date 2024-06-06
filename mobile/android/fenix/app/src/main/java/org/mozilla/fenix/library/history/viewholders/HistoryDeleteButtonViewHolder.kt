@@ -167,13 +167,6 @@ Mode
 null
 private
 val
-textView
-=
-view
-.
-delete_history_button_text
-private
-val
 buttonView
 =
 view
