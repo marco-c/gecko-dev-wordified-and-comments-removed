@@ -99,6 +99,18 @@ service
 .
 pocket
 .
+PocketStory
+import
+mozilla
+.
+components
+.
+service
+.
+pocket
+.
+PocketStory
+.
 PocketRecommendedStory
 import
 org
@@ -169,7 +181,6 @@ interactions
 with
 the
 Pocket
-recommended
 stories
 feature
 are
@@ -213,7 +224,7 @@ new
 list
 of
 [
-PocketRecommendedStory
+PocketStory
 ]
 es
 shown
@@ -230,7 +241,7 @@ storiesShown
 :
 List
 <
-PocketRecommendedStory
+PocketStory
 >
 )
 /
@@ -295,9 +306,8 @@ The
 just
 clicked
 [
-PocketRecommendedStory
+PocketStory
 ]
-URL
 .
 *
 param
@@ -322,7 +332,7 @@ handleStoryClicked
 (
 storyClicked
 :
-PocketRecommendedStory
+PocketStory
 storyPosition
 :
 Pair
@@ -493,7 +503,7 @@ storiesShown
 :
 List
 <
-PocketRecommendedStory
+PocketStory
 >
 )
 {
@@ -743,7 +753,7 @@ handleStoryClicked
 (
 storyClicked
 :
-PocketRecommendedStory
+PocketStory
 storyPosition
 :
 Pair
@@ -768,6 +778,13 @@ BrowserDirection
 .
 FromHome
 )
+if
+(
+storyClicked
+is
+PocketRecommendedStory
+)
+{
 Pocket
 .
 homeRecsStoryClicked
@@ -808,6 +825,7 @@ toString
 )
 )
 )
+}
 }
 override
 fun

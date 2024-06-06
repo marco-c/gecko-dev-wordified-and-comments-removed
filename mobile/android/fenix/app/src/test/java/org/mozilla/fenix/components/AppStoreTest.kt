@@ -157,6 +157,18 @@ service
 .
 pocket
 .
+PocketStory
+import
+mozilla
+.
+components
+.
+service
+.
+pocket
+.
+PocketStory
+.
 PocketRecommendedStory
 import
 org
@@ -2195,7 +2207,7 @@ listOf
 (
 mockk
 <
-PocketRecommendedStory
+PocketStory
 >
 (
 )
@@ -2365,7 +2377,7 @@ listOf
 (
 mockk
 <
-PocketRecommendedStory
+PocketStory
 >
 (
 )
@@ -2702,7 +2714,7 @@ listOf
 (
 mockk
 <
-PocketRecommendedStory
+PocketStory
 >
 (
 )
@@ -2799,7 +2811,7 @@ listOf
 (
 mockk
 <
-PocketRecommendedStory
+PocketStory
 >
 (
 )
@@ -2949,7 +2961,7 @@ listOf
 (
 mockk
 <
-PocketRecommendedStory
+PocketStory
 >
 (
 )

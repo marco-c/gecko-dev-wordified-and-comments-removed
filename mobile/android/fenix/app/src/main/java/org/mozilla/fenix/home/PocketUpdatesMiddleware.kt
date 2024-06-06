@@ -153,7 +153,7 @@ service
 .
 pocket
 .
-PocketRecommendedStory
+PocketStoriesService
 import
 mozilla
 .
@@ -163,7 +163,9 @@ service
 .
 pocket
 .
-PocketStoriesService
+PocketStory
+.
+PocketRecommendedStory
 import
 org
 .
@@ -497,6 +499,13 @@ updatedStories
 action
 .
 storiesShown
+.
+filterIsInstance
+<
+PocketRecommendedStory
+>
+(
+)
 .
 map
 {

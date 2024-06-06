@@ -75,6 +75,8 @@ service
 .
 pocket
 .
+PocketStory
+.
 PocketRecommendedStory
 /
 *

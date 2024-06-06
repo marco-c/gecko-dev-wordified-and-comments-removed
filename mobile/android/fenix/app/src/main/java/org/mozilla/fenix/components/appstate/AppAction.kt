@@ -121,6 +121,18 @@ service
 .
 pocket
 .
+PocketStory
+import
+mozilla
+.
+components
+.
+service
+.
+pocket
+.
+PocketStory
+.
 PocketRecommendedStory
 import
 org
@@ -562,7 +574,7 @@ storiesShown
 :
 List
 <
-PocketRecommendedStory
+PocketStory
 >
 )
 :

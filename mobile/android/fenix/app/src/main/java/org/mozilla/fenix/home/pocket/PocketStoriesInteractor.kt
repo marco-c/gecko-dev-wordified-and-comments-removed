@@ -75,6 +75,18 @@ service
 .
 pocket
 .
+PocketStory
+import
+mozilla
+.
+components
+.
+service
+.
+pocket
+.
+PocketStory
+.
 PocketRecommendedStory
 /
 *
@@ -139,7 +151,7 @@ storiesShown
 :
 List
 <
-PocketRecommendedStory
+PocketStory
 >
 )
 /
@@ -199,9 +211,8 @@ The
 just
 clicked
 [
-PocketRecommendedStory
+PocketStory
 ]
-URL
 .
 *
 param
@@ -226,7 +237,7 @@ onStoryClicked
 (
 storyClicked
 :
-PocketRecommendedStory
+PocketStory
 storyPosition
 :
 Pair

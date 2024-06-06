@@ -115,7 +115,7 @@ service
 .
 pocket
 .
-PocketRecommendedStory
+PocketStory
 import
 org
 .
@@ -1246,7 +1246,7 @@ shownStories
 :
 List
 <
-PocketRecommendedStory
+PocketStory
 >
 =
 mockk
@@ -1333,7 +1333,7 @@ PocketStoriesController
 val
 clickedStory
 :
-PocketRecommendedStory
+PocketStory
 =
 mockk
 (

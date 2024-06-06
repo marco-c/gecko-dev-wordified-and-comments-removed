@@ -385,6 +385,18 @@ service
 .
 pocket
 .
+PocketStory
+import
+mozilla
+.
+components
+.
+service
+.
+pocket
+.
+PocketStory
+.
 PocketRecommendedStory
 import
 org
@@ -546,7 +558,7 @@ ff_android
 *
 Placeholder
 [
-PocketRecommendedStory
+PocketStory
 ]
 allowing
 to
@@ -876,7 +888,7 @@ a
 list
 of
 [
-PocketRecommendedStory
+PocketStory
 ]
 es
 on
@@ -921,7 +933,7 @@ The
 list
 of
 [
-PocketRecommendedStory
+PocketStory
 ]
 ies
 to
@@ -1012,7 +1024,7 @@ stories
 :
 List
 <
-PocketRecommendedStory
+PocketStory
 >
 contentPadding
 :
@@ -1020,7 +1032,7 @@ Dp
 onStoryClicked
 :
 (
-PocketRecommendedStory
+PocketStory
 Pair
 <
 Int
@@ -1191,6 +1203,12 @@ POCKET_FEATURE_UTM_KEY_VALUE
 }
 }
 else
+if
+(
+story
+is
+PocketRecommendedStory
+)
 {
 PocketStory
 (
@@ -1853,7 +1871,7 @@ PocketStoryProvider
 :
 PreviewParameterProvider
 <
-PocketRecommendedStory
+PocketStory
 >
 {
 override
@@ -1887,7 +1905,7 @@ Int
 :
 List
 <
-PocketRecommendedStory
+PocketStory
 >
 {
 return
