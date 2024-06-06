@@ -1197,6 +1197,17 @@ release_type
 parameters
 [
 '
+tasks_for
+'
+]
+=
+'
+action
+'
+    
+parameters
+[
+'
 pull_request_number
 '
 ]
