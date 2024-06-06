@@ -239,6 +239,16 @@ test
 -
 nightly
 "
+"
+beta
+-
+mozillaonline
+"
+"
+release
+-
+mozillaonline
+"
 )
             
 and
