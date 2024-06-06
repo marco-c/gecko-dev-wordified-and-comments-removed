@@ -856,6 +856,7 @@ exposedStudies
 observe
 (
 viewLifecycleOwner
+)
 {
 studies
 -
@@ -871,7 +872,6 @@ submitList
 studies
 )
 }
-)
 viewModel
 .
 studiesState
@@ -879,6 +879,7 @@ studiesState
 observe
 (
 viewLifecycleOwner
+)
 {
 state
 -
@@ -895,7 +896,6 @@ setStudiesTitleByState
 state
 )
 }
-)
 }
 override
 fun
