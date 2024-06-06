@@ -489,7 +489,7 @@ key
 "
 string
 /
-pref_key_phone_feature_microphone
+pref_key_phone_feature_notification
 "
 android
 :
@@ -498,7 +498,7 @@ title
 "
 string
 /
-preference_phone_feature_microphone
+preference_phone_feature_notification
 "
 android
 :
