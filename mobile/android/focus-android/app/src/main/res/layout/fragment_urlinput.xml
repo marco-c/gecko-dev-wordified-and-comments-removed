@@ -527,9 +527,9 @@ android
 background
 =
 "
-color
+drawable
 /
-toolbar_color
+background_gradient
 "
 /
 >

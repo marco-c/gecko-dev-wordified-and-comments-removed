@@ -294,7 +294,7 @@ R
 .
 color
 .
-statusBarBackground
+settings_background
 )
 )
 }
