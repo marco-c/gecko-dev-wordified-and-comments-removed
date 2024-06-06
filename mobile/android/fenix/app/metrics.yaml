@@ -1089,6 +1089,9 @@ sync_account
 and
 sync_tabs
 .
+type
+:
+string
 bugs
 :
 -
