@@ -111,6 +111,18 @@ bottomsheet
 .
 BottomSheetBehavior
 import
+kotlinx
+.
+coroutines
+.
+ExperimentalCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
+ObsoleteCoroutinesApi
+import
 mozilla
 .
 components
@@ -406,6 +418,8 @@ id
 )
 )
 }
+ExperimentalCoroutinesApi
+ObsoleteCoroutinesApi
 SuppressWarnings
 (
 "

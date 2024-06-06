@@ -235,6 +235,18 @@ kotlinx
 .
 coroutines
 .
+ExperimentalCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
+ObsoleteCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
 launch
 import
 mozilla
@@ -406,6 +418,7 @@ val
 REQUEST_CODE_QUICK_SETTINGS_PERMISSIONS
 =
 4
+ObsoleteCoroutinesApi
 SuppressWarnings
 (
 "
@@ -1017,6 +1030,8 @@ host
 }
 }
 }
+ExperimentalCoroutinesApi
+ObsoleteCoroutinesApi
 override
 fun
 onResume
