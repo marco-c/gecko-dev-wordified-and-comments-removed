@@ -131,8 +131,9 @@ android
 color
 =
 "
-#
-330c0c0d
+color
+/
+divider
 "
 /
 >
@@ -166,7 +167,7 @@ color
 "
 color
 /
-photonInk80
+background
 "
 /
 >

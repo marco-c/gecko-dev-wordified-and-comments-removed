@@ -496,7 +496,7 @@ R
 .
 color
 .
-photonLightGrey05
+urlBarHintText
 )
 securityIconInsecure
 =

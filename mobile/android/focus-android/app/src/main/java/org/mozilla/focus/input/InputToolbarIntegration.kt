@@ -272,7 +272,7 @@ R
 .
 color
 .
-photonLightGrey05
+urlBarHintText
 )
 text
 =
@@ -339,7 +339,7 @@ R
 .
 color
 .
-photonLightGrey05
+urlBarHintText
 )
 text
 =

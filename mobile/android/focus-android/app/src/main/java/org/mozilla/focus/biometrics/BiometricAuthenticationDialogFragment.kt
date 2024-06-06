@@ -523,7 +523,7 @@ R
 .
 color
 .
-photonRed50
+error
 )
 )
 }
