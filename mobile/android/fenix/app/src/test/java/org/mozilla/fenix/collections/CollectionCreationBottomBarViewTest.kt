@@ -320,7 +320,6 @@ SaveCollectionStep
 SelectTabs
 CollectionCreationState
 (
-0
 )
 )
 verify
@@ -387,7 +386,6 @@ SaveCollectionStep
 SelectCollection
 CollectionCreationState
 (
-0
 )
 )
 verify
@@ -441,7 +439,6 @@ SaveCollectionStep
 SelectTabs
 CollectionCreationState
 (
-0
 selectedTabs
 =
 emptySet
@@ -470,7 +467,6 @@ SaveCollectionStep
 SelectTabs
 CollectionCreationState
 (
-0
 selectedTabs
 =
 setOf
@@ -501,7 +497,6 @@ SaveCollectionStep
 SelectTabs
 CollectionCreationState
 (
-0
 selectedTabs
 =
 setOf
@@ -542,7 +537,6 @@ SaveCollectionStep
 SelectCollection
 CollectionCreationState
 (
-0
 )
 )
 assertEquals
@@ -596,7 +590,6 @@ SaveCollectionStep
 SelectTabs
 CollectionCreationState
 (
-0
 selectedTabCollection
 =
 null
@@ -622,7 +615,6 @@ SaveCollectionStep
 SelectTabs
 CollectionCreationState
 (
-0
 selectedTabCollection
 =
 collection
@@ -648,7 +640,6 @@ SaveCollectionStep
 SelectTabs
 CollectionCreationState
 (
-0
 selectedTabCollection
 =
 null
@@ -690,7 +681,6 @@ SaveCollectionStep
 SelectTabs
 CollectionCreationState
 (
-0
 selectedTabCollection
 =
 collection
@@ -740,7 +730,6 @@ SaveCollectionStep
 SelectCollection
 CollectionCreationState
 (
-0
 )
 )
 assertFalse
