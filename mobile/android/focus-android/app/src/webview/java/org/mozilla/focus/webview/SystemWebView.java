@@ -883,6 +883,14 @@ url
 Override
 public
 void
+exitFullscreen
+(
+)
+{
+}
+Override
+public
+void
 destroy
 (
 )

@@ -352,6 +352,11 @@ Session
 session
 )
 ;
+void
+exitFullscreen
+(
+)
+;
 String
 getTitle
 (
