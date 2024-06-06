@@ -507,6 +507,20 @@ routes
 [
 ]
     
+signing_format
+=
+"
+focus
+-
+jar
+"
+if
+tag
+else
+"
+autograph_focus
+"
+    
 scopes
 =
 [
@@ -542,10 +556,14 @@ signing
 :
 format
 :
-focus
--
-jar
+{
+}
 "
+.
+format
+(
+signing_format
+)
     
 ]
     
@@ -678,6 +696,10 @@ scopes
 routes
 =
 routes
+        
+signing_format
+=
+signing_format
     
 )
 def
