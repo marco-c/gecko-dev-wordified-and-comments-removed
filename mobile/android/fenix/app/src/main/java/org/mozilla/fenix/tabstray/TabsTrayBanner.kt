@@ -2545,6 +2545,11 @@ TabsTrayTestTag
 .
 collectionsButton
 )
+enabled
+=
+selectedTabCount
+>
+0
 )
 {
 Icon
