@@ -207,9 +207,9 @@ fenix
 .
 helpers
 .
-MatcherHelper
+DataGenerationHelper
 .
-itemContainingText
+getStringResource
 import
 org
 .
@@ -219,9 +219,9 @@ fenix
 .
 helpers
 .
-TestHelper
+MatcherHelper
 .
-getStringResource
+itemContainingText
 /
 *
 *

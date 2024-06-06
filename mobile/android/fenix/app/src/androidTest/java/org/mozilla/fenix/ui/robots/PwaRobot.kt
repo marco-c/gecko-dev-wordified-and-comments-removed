@@ -99,7 +99,7 @@ fenix
 .
 helpers
 .
-TestHelper
+AppAndSystemHelper
 .
 isExternalAppBrowserActivityInCurrentTask
 import

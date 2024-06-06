@@ -193,7 +193,7 @@ fenix
 .
 helpers
 .
-TestHelper
+DataGenerationHelper
 .
 getStringResource
 import

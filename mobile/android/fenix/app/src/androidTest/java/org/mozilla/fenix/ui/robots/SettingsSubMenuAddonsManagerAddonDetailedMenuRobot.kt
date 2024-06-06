@@ -189,7 +189,7 @@ fenix
 .
 helpers
 .
-TestHelper
+AppAndSystemHelper
 .
 registerAndCleanupIdlingResources
 import

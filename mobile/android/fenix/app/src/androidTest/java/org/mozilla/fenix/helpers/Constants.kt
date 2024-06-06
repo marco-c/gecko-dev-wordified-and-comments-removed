@@ -73,7 +73,7 @@ fenix
 .
 helpers
 .
-TestHelper
+DataGenerationHelper
 .
 getSponsoredShortcutTitle
 object

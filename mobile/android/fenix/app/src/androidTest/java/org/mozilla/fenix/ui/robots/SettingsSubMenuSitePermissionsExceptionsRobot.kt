@@ -197,9 +197,9 @@ fenix
 .
 helpers
 .
-TestAssetHelper
+DataGenerationHelper
 .
-waitingTime
+getStringResource
 import
 org
 .
@@ -209,9 +209,9 @@ fenix
 .
 helpers
 .
-TestHelper
+TestAssetHelper
 .
-getStringResource
+waitingTime
 import
 org
 .

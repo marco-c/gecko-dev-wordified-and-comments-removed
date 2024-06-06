@@ -49,7 +49,9 @@ fenix
 .
 helpers
 .
-HomeActivityIntentTestRule
+AppAndSystemHelper
+.
+runWithLauncherIntent
 import
 org
 .
@@ -59,9 +61,7 @@ fenix
 .
 helpers
 .
-TestHelper
-.
-runWithLauncherIntent
+HomeActivityIntentTestRule
 import
 org
 .
