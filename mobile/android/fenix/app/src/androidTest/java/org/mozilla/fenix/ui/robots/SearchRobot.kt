@@ -1174,6 +1174,9 @@ mDevice
 waitForIdle
 (
 )
+closeSoftKeyboard
+(
+)
 mDevice
 .
 pressBack
