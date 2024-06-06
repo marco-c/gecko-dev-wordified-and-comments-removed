@@ -461,6 +461,11 @@ String
 historyURL
 )
 ;
+void
+releaseGeckoSession
+(
+)
+;
 String
 getTitle
 (

@@ -6727,6 +6727,12 @@ getWebView
 webView
 ?
 .
+releaseGeckoSession
+(
+)
+webView
+?
+.
 saveWebViewState
 (
 session
