@@ -800,7 +800,7 @@ navigate
 (
 TabTrayDialogFragmentDirections
 .
-actionGlobalCloseTabSettingsFragment
+actionGlobalTabSettingsFragment
 (
 )
 )
@@ -1318,7 +1318,7 @@ directions
 =
 TabTrayDialogFragmentDirections
 .
-actionGlobalCloseTabSettingsFragment
+actionGlobalTabSettingsFragment
 (
 )
 verify

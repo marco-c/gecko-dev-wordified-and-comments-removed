@@ -869,7 +869,7 @@ id
 +
 id
 /
-action_global_closeTabSettingsFragment
+action_global_tabSettingsFragment
 "
 app
 :
@@ -878,7 +878,7 @@ destination
 "
 id
 /
-closeTabsSettingsFragment
+tabsSettingsFragment
 "
 /
 >
@@ -3976,7 +3976,7 @@ id
 +
 id
 /
-action_settingsFragment_to_closeTabsSettingsFragment
+action_settingsFragment_to_tabsSettingsFragment
 "
 app
 :
@@ -3985,7 +3985,7 @@ destination
 "
 id
 /
-closeTabsSettingsFragment
+tabsSettingsFragment
 "
 app
 :
@@ -4039,7 +4039,7 @@ id
 +
 id
 /
-closeTabsSettingsFragment
+tabsSettingsFragment
 "
 android
 :
@@ -4054,7 +4054,7 @@ fenix
 .
 settings
 .
-CloseTabsSettingsFragment
+TabsSettingsFragment
 "
 android
 :
@@ -4063,7 +4063,7 @@ label
 "
 string
 /
-preferences_close_tabs
+preferences_tabs
 "
 /
 >

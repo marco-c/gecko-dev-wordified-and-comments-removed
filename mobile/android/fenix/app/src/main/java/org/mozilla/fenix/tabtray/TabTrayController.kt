@@ -715,7 +715,7 @@ navigate
 (
 TabTrayDialogFragmentDirections
 .
-actionGlobalCloseTabSettingsFragment
+actionGlobalTabSettingsFragment
 (
 )
 )
@@ -1133,7 +1133,7 @@ directions
 =
 TabTrayDialogFragmentDirections
 .
-actionGlobalCloseTabSettingsFragment
+actionGlobalTabSettingsFragment
 (
 )
 navController
