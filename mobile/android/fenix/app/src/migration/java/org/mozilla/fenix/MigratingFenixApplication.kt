@@ -213,14 +213,13 @@ migrationPushSubscriber
 by
 lazy
 {
-MigrationPushSubscriber
+MigrationPushRenewer
 (
-this
 components
 .
 backgroundServices
 .
-pushService
+push
 components
 .
 migrationStore
