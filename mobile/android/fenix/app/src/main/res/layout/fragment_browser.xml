@@ -286,7 +286,7 @@ app
 behavior_peekHeight
 =
 "
-10dp
+15dp
 "
 app
 :

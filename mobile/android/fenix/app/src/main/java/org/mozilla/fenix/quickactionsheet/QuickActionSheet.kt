@@ -272,7 +272,7 @@ toFloat
 )
 normalPeekHeight
 *
-5f
+3f
 )
 valueAnimator
 .
