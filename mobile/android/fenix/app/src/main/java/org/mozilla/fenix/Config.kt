@@ -268,6 +268,16 @@ get
 this
 in
 fennecChannels
+val
+isFenix
+:
+Boolean
+get
+(
+)
+=
+!
+isFennec
 }
 object
 Config
