@@ -873,6 +873,17 @@ stateAlwaysHidden
 "
 android
 :
+configChanges
+=
+"
+orientation
+|
+screenSize
+|
+screenLayout
+"
+android
+:
 label
 =
 "
