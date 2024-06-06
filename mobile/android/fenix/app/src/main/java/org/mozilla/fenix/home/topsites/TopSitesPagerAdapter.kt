@@ -125,6 +125,16 @@ mozilla
 .
 fenix
 .
+components
+.
+AppStore
+import
+org
+.
+mozilla
+.
+fenix
+.
 home
 .
 sessioncontrol
@@ -163,6 +173,11 @@ TOP_SITES_PER_PAGE
 class
 TopSitesPagerAdapter
 (
+private
+val
+store
+:
+AppStore
 private
 val
 viewLifecycleOwner
@@ -225,6 +240,7 @@ return
 TopSiteViewHolder
 (
 view
+store
 viewLifecycleOwner
 interactor
 )

@@ -113,6 +113,16 @@ mozilla
 .
 fenix
 .
+components
+.
+AppStore
+import
+org
+.
+mozilla
+.
+fenix
+.
 databinding
 .
 ComponentTopSitesBinding
@@ -144,6 +154,9 @@ TopSiteViewHolder
 view
 :
 View
+store
+:
+AppStore
 viewLifecycleOwner
 :
 LifecycleOwner
@@ -165,6 +178,7 @@ topSitesAdapter
 =
 TopSitesAdapter
 (
+store
 viewLifecycleOwner
 interactor
 )

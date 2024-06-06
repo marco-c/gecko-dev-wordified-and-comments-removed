@@ -225,6 +225,16 @@ mozilla
 .
 fenix
 .
+components
+.
+AppStore
+import
+org
+.
+mozilla
+.
+fenix
+.
 databinding
 .
 TopSiteItemBinding
@@ -299,6 +309,12 @@ lifecycleOwner
 :
 LifecycleOwner
 private
+lateinit
+var
+store
+:
+AppStore
+private
 val
 pocket
 =
@@ -364,6 +380,14 @@ relaxed
 =
 true
 )
+store
+=
+mockk
+(
+relaxed
+=
+true
+)
 every
 {
 testContext
@@ -400,6 +424,7 @@ TopSiteItemViewHolder
 binding
 .
 root
+store
 lifecycleOwner
 interactor
 )
@@ -461,6 +486,7 @@ TopSiteItemViewHolder
 binding
 .
 root
+store
 lifecycleOwner
 interactor
 )
@@ -544,6 +570,7 @@ TopSiteItemViewHolder
 binding
 .
 root
+store
 lifecycleOwner
 interactor
 )
@@ -629,6 +656,7 @@ TopSiteItemViewHolder
 binding
 .
 root
+store
 lifecycleOwner
 interactor
 )
@@ -716,6 +744,7 @@ TopSiteItemViewHolder
 binding
 .
 root
+store
 lifecycleOwner
 interactor
 )
@@ -938,6 +967,7 @@ TopSiteItemViewHolder
 binding
 .
 root
+store
 lifecycleOwner
 interactor
 )

@@ -119,6 +119,16 @@ mozilla
 .
 fenix
 .
+components
+.
+AppStore
+import
+org
+.
+mozilla
+.
+fenix
+.
 home
 .
 sessioncontrol
@@ -137,6 +147,11 @@ StartupTimeline
 class
 TopSitesAdapter
 (
+private
+val
+store
+:
+AppStore
 private
 val
 viewLifecycleOwner
@@ -196,6 +211,7 @@ return
 TopSiteItemViewHolder
 (
 view
+store
 viewLifecycleOwner
 interactor
 )

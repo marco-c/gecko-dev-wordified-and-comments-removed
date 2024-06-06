@@ -2212,6 +2212,11 @@ TopSitePagerViewHolder
 view
 =
 view
+store
+=
+components
+.
+appStore
 viewLifecycleOwner
 =
 viewLifecycleOwner
