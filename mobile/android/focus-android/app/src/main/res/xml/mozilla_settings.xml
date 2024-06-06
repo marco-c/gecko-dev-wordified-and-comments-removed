@@ -176,6 +176,15 @@ pref_key_homescreen_tips
 "
 android
 :
+layout
+=
+"
+layout
+/
+focus_preference_no_icon
+"
+android
+:
 title
 =
 "
