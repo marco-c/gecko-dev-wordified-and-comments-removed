@@ -677,7 +677,15 @@ androidx_preference
 implementation
 Deps
 .
+androidx_fragment
+implementation
+Deps
+.
 android_arch_navigation
+implementation
+Deps
+.
+android_arch_navigation_ui
 }
 android
 .
