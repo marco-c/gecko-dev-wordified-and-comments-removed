@@ -543,6 +543,13 @@ bookmarksFolderName
 saveNewFolder
 (
 )
+getInstrumentation
+(
+)
+.
+waitForIdleSync
+(
+)
 verifyFolderTitle
 (
 bookmarksFolderName
