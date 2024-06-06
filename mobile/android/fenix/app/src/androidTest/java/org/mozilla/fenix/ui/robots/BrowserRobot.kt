@@ -2553,6 +2553,7 @@ feature_prompt_login_fragment
 "
 )
 )
+waitingTime
 )
 mDevice
 .
@@ -3197,6 +3198,7 @@ save_confirm
 "
 )
 )
+waitingTime
 )
 }
 fun
@@ -7716,10 +7718,14 @@ waitingTime
 )
 it
 .
-setText
+clearTextField
 (
-text
 )
+it
+.
+text
+=
+text
 }
 break
 }
