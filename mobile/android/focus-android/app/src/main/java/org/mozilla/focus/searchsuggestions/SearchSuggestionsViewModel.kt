@@ -416,6 +416,16 @@ enableSearchSuggestions
 updateState
 (
 )
+setSearchQuery
+(
+searchQuery
+.
+value
+?
+:
+"
+"
+)
 }
 fun
 disableSearchSuggestions
