@@ -456,7 +456,7 @@ R
 .
 string
 .
-preference_privacy_should_block_cookies_yes_option2
+yes
 )
 -
 >
@@ -475,7 +475,7 @@ R
 .
 string
 .
-preference_privacy_should_block_cookies_third_party_tracker_cookies_option
+third_party_tracker
 )
 -
 >
@@ -494,7 +494,7 @@ R
 .
 string
 .
-preference_privacy_should_block_cookies_third_party_only_option
+third_party_only
 )
 -
 >
@@ -513,7 +513,7 @@ R
 .
 string
 .
-preference_privacy_should_block_cookies_cross_site_option
+cross_site
 )
 -
 >
@@ -527,6 +527,7 @@ ACCEPT_FIRST_PARTY_AND_ISOLATE_OTHERS
 else
 -
 >
+{
 EngineSession
 .
 TrackingProtectionPolicy
@@ -534,6 +535,7 @@ TrackingProtectionPolicy
 CookiePolicy
 .
 ACCEPT_ALL
+}
 }
 return
 EngineSession
