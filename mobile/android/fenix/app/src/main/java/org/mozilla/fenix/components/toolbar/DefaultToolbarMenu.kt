@@ -1409,6 +1409,9 @@ color
 fx_mobile_icon_color_information
 )
 )
+isCollapsingMenuLimit
+=
+true
 isHighlighted
 =
 {
