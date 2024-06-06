@@ -982,9 +982,13 @@ source
 .
 searchEngine
 .
-identifier
-}
+name
 .
+toLowerCase
+(
+)
+}
+_
 label
 "
 val
@@ -1001,7 +1005,7 @@ source
 .
 descriptor
 }
-.
+_
 label
 "
 }
