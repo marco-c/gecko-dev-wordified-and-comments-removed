@@ -145,9 +145,7 @@ mozilla
 /
 fenix
 /
-ui
-/
-SyncIntegrationTests
+syncintegration
 /
 results
 '
