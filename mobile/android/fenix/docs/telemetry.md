@@ -191,7 +191,7 @@ ping
 includes
 things
 like
-wether
+whether
 or
 not
 Fenix
