@@ -1039,9 +1039,10 @@ taskcluster
 decision_task
 .
 py
-pull
+raptor
 -
-request
+-
+staging
 env
 :
 GITHUB_PULL_TITLE
