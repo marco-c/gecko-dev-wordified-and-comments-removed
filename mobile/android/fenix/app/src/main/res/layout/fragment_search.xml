@@ -268,13 +268,6 @@ outlineProvider
 "
 paddedBounds
 "
-android
-:
-transitionName
-=
-"
-firstTransitionName
-"
 app
 :
 layout_constraintEnd_toEndOf
@@ -369,6 +362,13 @@ focusableInTouchMode
 =
 "
 true
+"
+android
+:
+transitionName
+=
+"
+firstTransitionName
 "
 /
 >
