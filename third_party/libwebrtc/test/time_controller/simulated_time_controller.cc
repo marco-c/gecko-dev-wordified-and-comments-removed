@@ -1180,12 +1180,6 @@ AdvanceTime
 duration
 )
 ;
-impl_
-.
-RunReadyRunners
-(
-)
-;
 }
 void
 GlobalSimulatedTimeController

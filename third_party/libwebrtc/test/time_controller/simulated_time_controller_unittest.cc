@@ -1009,5 +1009,17 @@ SkipForwardBy
 duration_during_which_nothing_runs
 )
 ;
+sim
+.
+AdvanceTime
+(
+TimeDelta
+:
+:
+Zero
+(
+)
+)
+;
 }
 }
