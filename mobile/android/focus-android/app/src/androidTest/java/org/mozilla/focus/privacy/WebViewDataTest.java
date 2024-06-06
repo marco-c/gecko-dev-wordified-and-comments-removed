@@ -418,6 +418,12 @@ databases
 "
 app_webview
 "
+"
+files
+"
+"
+app_screengrab
+"
 )
 )
 ;
