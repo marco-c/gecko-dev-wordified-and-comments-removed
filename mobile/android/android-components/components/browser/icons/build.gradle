@@ -329,7 +329,7 @@ thirdparty_disklrucache
 implementation
 ComponentsDependencies
 .
-thirdparty_coil_svg
+thirdparty_androidsvg
 testImplementation
 project
 (
