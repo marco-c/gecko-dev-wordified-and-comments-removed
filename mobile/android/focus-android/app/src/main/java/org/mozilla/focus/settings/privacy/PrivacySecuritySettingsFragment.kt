@@ -535,8 +535,6 @@ all
 [
 key
 ]
-as
-Boolean
 )
 updateStealthToggleAvailability
 (
@@ -551,7 +549,8 @@ key
 String
 newValue
 :
-Boolean
+Any
+?
 )
 {
 when
@@ -580,6 +579,9 @@ PrivacySettings
 TelemetrySettingChangedExtra
 (
 newValue
+as
+?
+Boolean
 )
 )
 getString
@@ -603,6 +605,9 @@ PrivacySettings
 SafeBrowsingSettingChangedExtra
 (
 newValue
+as
+?
+Boolean
 )
 )
 getString
@@ -626,6 +631,9 @@ PrivacySettings
 UnlockSettingChangedExtra
 (
 newValue
+as
+?
+Boolean
 )
 )
 getString
@@ -649,6 +657,9 @@ PrivacySettings
 StealthSettingChangedExtra
 (
 newValue
+as
+?
+Boolean
 )
 )
 else
