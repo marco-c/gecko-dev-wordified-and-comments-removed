@@ -439,6 +439,9 @@ Suppress
 "
 LargeClass
 "
+"
+LongParameterList
+"
 )
 class
 DefaultToolbarMenu

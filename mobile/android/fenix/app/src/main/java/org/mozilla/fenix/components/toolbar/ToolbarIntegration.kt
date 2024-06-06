@@ -411,12 +411,6 @@ invalidateActions
 )
 }
 }
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 DefaultToolbarIntegration
 (

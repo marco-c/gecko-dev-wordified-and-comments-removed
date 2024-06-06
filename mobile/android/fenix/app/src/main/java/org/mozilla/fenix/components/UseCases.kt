@@ -266,6 +266,12 @@ interactions
 *
 /
 Mockable
+Suppress
+(
+"
+LongParameterList
+"
+)
 class
 UseCases
 (

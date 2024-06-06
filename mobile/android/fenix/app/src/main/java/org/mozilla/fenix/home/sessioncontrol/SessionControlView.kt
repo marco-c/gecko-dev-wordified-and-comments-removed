@@ -223,11 +223,8 @@ much
 simpler
 again
 .
-SuppressWarnings
+Suppress
 (
-"
-LongParameterList
-"
 "
 ComplexMethod
 "

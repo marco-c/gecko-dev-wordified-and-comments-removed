@@ -437,7 +437,7 @@ Interactor
 .
 *
 /
-SuppressWarnings
+Suppress
 (
 "
 TooManyFunctions
@@ -818,16 +818,13 @@ handleCreateCollection
 (
 )
 }
-SuppressWarnings
+Suppress
 (
 "
 TooManyFunctions
 "
 "
 LargeClass
-"
-"
-LongParameterList
 "
 )
 class

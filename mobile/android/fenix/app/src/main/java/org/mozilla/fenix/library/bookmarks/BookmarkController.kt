@@ -256,7 +256,7 @@ it
 .
 *
 /
-SuppressWarnings
+Suppress
 (
 "
 TooManyFunctions
@@ -371,13 +371,10 @@ handleBackPressed
 (
 )
 }
-SuppressWarnings
+Suppress
 (
 "
 TooManyFunctions
-"
-"
-LongParameterList
 "
 )
 class

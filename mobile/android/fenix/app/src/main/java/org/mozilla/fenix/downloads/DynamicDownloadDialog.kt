@@ -232,8 +232,13 @@ his
 activities
 .
 *
-*
 /
+Suppress
+(
+"
+LongParameterList
+"
+)
 class
 DynamicDownloadDialog
 (

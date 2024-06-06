@@ -245,6 +245,12 @@ components
 *
 /
 Mockable
+Suppress
+(
+"
+LongParameterList
+"
+)
 class
 IntentProcessors
 (

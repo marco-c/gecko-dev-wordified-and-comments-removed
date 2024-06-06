@@ -454,9 +454,6 @@ Suppress
 "
 TooManyFunctions
 "
-"
-LongParameterList
-"
 )
 class
 DefaultTabTrayController
