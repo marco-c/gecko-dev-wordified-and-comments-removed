@@ -1489,6 +1489,11 @@ BookmarkFragmentDirections
 actionBookmarkFragmentToShareFragment
 (
 this
+it
+.
+item
+.
+title
 )
 )
 requireComponents
