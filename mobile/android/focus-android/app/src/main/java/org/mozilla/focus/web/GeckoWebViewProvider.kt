@@ -2821,10 +2821,8 @@ geckoSession
 !
 =
 savedSession
-)
-{
-if
-(
+&
+&
 !
 restored
 )
@@ -2960,7 +2958,6 @@ applySettingsAndSetDelegates
 restored
 =
 false
-}
 }
 }
 override
