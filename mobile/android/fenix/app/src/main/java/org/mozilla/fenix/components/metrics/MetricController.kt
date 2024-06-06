@@ -856,6 +856,12 @@ isMarketingDataTelemetryEnabled
 (
 )
 }
+Suppress
+(
+"
+LongMethod
+"
+)
 private
 fun
 Fact

@@ -320,7 +320,7 @@ launch
 {
 delay
 (
-100
+ANIMATION_DELAY
 )
 unwrappedEngineView
 ?
@@ -591,6 +591,12 @@ isAdded
 companion
 object
 {
+private
+const
+val
+ANIMATION_DELAY
+=
+100L
 fun
 getToolbarNavOptions
 (

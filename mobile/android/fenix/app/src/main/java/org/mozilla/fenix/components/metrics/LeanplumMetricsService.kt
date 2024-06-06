@@ -663,6 +663,12 @@ apply
 }
 deviceId
 }
+Suppress
+(
+"
+ComplexMethod
+"
+)
 override
 fun
 start
@@ -1635,6 +1641,7 @@ jpn
 Japanese
 )
 private
+const
 val
 PREFERENCE_NAME
 =
@@ -1642,6 +1649,7 @@ PREFERENCE_NAME
 LEANPLUM_PREFERENCES
 "
 private
+const
 val
 DEVICE_ID_KEY
 =
