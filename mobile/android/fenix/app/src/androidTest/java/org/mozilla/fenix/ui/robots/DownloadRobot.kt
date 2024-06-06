@@ -870,13 +870,6 @@ download_dialog_action_button
 )
 )
 .
-inRoot
-(
-isDialog
-(
-)
-)
-.
 check
 (
 matches

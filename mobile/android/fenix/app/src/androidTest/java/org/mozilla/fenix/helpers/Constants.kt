@@ -39,9 +39,6 @@ apps
 photos
 "
 }
-object
-LongClickDuration
-{
 const
 val
 LONG_CLICK_DURATION
@@ -49,5 +46,4 @@ LONG_CLICK_DURATION
 Long
 =
 5000
-}
 }
