@@ -291,6 +291,9 @@ updateData
 it
 .
 tabs
+it
+.
+selectedTabs
 )
 }
 }

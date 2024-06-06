@@ -642,14 +642,7 @@ checkbox
 .
 isChecked
 =
-mode
-.
-selectedItems
-.
-contains
-(
-item
-)
+shouldCheck
 }
 checkbox
 .
