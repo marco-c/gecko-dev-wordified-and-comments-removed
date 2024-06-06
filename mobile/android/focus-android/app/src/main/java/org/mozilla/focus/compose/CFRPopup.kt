@@ -1190,6 +1190,9 @@ this
 show
 (
 )
+isTransitionGroup
+=
+true
 }
 }
 }

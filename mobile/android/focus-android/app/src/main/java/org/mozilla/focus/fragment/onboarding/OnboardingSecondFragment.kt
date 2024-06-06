@@ -400,6 +400,9 @@ onFinishOnBoarding
 )
 }
 }
+isTransitionGroup
+=
+true
 }
 }
 }

@@ -377,6 +377,9 @@ dismiss
 )
 }
 }
+isTransitionGroup
+=
+true
 }
 )
 }

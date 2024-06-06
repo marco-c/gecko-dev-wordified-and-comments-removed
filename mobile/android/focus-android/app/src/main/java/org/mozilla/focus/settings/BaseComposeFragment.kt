@@ -681,6 +681,9 @@ Content
 }
 }
 }
+isTransitionGroup
+=
+true
 }
 }
 }

@@ -298,6 +298,9 @@ get
 }
 }
 }
+isTransitionGroup
+=
+true
 }
 }
 override

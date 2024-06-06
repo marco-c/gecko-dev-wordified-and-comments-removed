@@ -331,6 +331,9 @@ onFinishOnBoarding
 )
 }
 }
+isTransitionGroup
+=
+true
 }
 }
 }
