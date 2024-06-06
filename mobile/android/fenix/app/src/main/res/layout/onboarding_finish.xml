@@ -110,6 +110,13 @@ FinishOnboardingButton
 "
 android
 :
+layout_height
+=
+"
+36dp
+"
+android
+:
 id
 =
 "
