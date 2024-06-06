@@ -335,6 +335,16 @@ mozilla
 .
 fenix
 .
+FeatureFlags
+.
+webPushIntegration
+import
+org
+.
+mozilla
+.
+fenix
+.
 components
 .
 Components
@@ -1327,6 +1337,11 @@ install
 (
 it
 )
+if
+(
+webPushIntegration
+)
+{
 /
 /
 WebPush
@@ -1353,6 +1368,7 @@ it
 start
 (
 )
+}
 /
 /
 Perform
