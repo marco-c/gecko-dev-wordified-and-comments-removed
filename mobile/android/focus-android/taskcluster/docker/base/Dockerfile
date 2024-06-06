@@ -376,6 +376,10 @@ python3
 \
 python3
 -
+pip
+\
+python3
+-
 yaml
 \
 locales
@@ -391,14 +395,14 @@ apt
 get
 clean
 RUN
-pip
+pip3
 install
 -
 -
 upgrade
 pip
 RUN
-pip
+pip3
 install
 taskcluster
 RUN

@@ -353,7 +353,6 @@ paths
 =
 sorted
 (
-[
                 
 apk_metadata
 [
@@ -382,7 +381,6 @@ values
 (
 )
             
-]
 )
             
 if

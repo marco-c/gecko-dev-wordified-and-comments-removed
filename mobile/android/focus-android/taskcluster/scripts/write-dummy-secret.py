@@ -85,19 +85,16 @@ raise
     
 print
 (
+f
 "
 Outputting
 secret
 to
 :
 {
+path
 }
 "
-.
-format
-(
-path
-)
 )
     
 with
