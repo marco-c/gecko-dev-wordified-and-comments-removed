@@ -705,7 +705,10 @@ privacySettingsList
 .
 scrollTextIntoView
 (
-safeBrowsingSwitchText
+"
+Data
+Choices
+"
 )
 return
 onView
