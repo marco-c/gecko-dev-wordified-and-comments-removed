@@ -314,7 +314,9 @@ bind
 (
 item
 )
-view
+holder
+.
+itemView
 .
 performClick
 (
