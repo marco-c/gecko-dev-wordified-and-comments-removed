@@ -1069,6 +1069,20 @@ reset
 app
 "
         
+logging
+.
+info
+(
+f
+"
+Running
+command
+{
+command
+}
+"
+)
+        
 try
 :
             
