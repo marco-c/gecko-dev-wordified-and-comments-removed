@@ -109,14 +109,6 @@ widget
 .
 RecyclerView
 import
-kotlinx
-.
-android
-.
-extensions
-.
-LayoutContainer
-import
 mozilla
 .
 components
@@ -1184,7 +1176,6 @@ lastIndex
 class
 SessionControlView
 (
-override
 val
 containerView
 :
@@ -1201,8 +1192,6 @@ homeScreenViewModel
 :
 HomeScreenViewModel
 )
-:
-LayoutContainer
 {
 val
 view

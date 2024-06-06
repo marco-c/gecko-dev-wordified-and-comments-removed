@@ -142,6 +142,16 @@ vertical
 >
 <
 include
+android
+:
+id
+=
+"
++
+id
+/
+recent_bookmarks_header
+"
 layout
 =
 "
