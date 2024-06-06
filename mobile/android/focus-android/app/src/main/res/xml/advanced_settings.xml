@@ -132,11 +132,7 @@ preference_advanced_summary
 "
 >
 <
-android
-.
-support
-.
-v7
+androidx
 .
 preference
 .

@@ -221,11 +221,7 @@ preference_switch_autocomplete_user_list
 /
 >
 <
-android
-.
-support
-.
-v7
+androidx
 .
 preference
 .
