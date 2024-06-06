@@ -360,6 +360,9 @@ String
 description
 :
 String
+=
+"
+"
 onShowAllClick
 :
 (
@@ -530,6 +533,9 @@ String
 description
 :
 String
+=
+"
+"
 showAllTextColor
 :
 Color
