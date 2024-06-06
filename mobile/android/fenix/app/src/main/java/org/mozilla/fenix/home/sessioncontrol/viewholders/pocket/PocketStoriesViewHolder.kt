@@ -247,7 +247,7 @@ fenix
 .
 compose
 .
-SectionHeader
+HomeSectionHeader
 import
 org
 .
@@ -587,7 +587,7 @@ dp
 )
 )
 {
-SectionHeader
+HomeSectionHeader
 (
 text
 =
@@ -640,7 +640,7 @@ height
 dp
 )
 )
-SectionHeader
+HomeSectionHeader
 (
 text
 =
