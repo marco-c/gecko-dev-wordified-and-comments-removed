@@ -1353,7 +1353,7 @@ no_add_ons
 N
 eus
 tamm
-enlugellad
+askouezh
 ebet
 ama
 <
@@ -4659,7 +4659,8 @@ sync_syncing_in_progress
 "
 >
 O
-goubreda
+c
+houbreda
 .
 .
 .
@@ -6080,7 +6081,7 @@ name
 preference_bottom_toolbar
 "
 >
-Diaz
+Trao
 <
 /
 string
@@ -6172,7 +6173,7 @@ name
 preference_auto_battery_theme
 "
 >
-Lakaet
+Dibabet
 gant
 an
 esperner
@@ -7393,6 +7394,7 @@ Enrolla
 an
 ivinello
 en
+un
 dastumad
 <
 /
@@ -10646,7 +10648,8 @@ Dastumit
 ar
 pezh
 a
-gont
+zo
+pouezus
 evidoc
 h
 <
@@ -13550,7 +13553,7 @@ preferences_delete_browsing_data_cached_files_subtitle
 >
 Dieubi
 a
-ra
+raio
 egor
 kadavi
 <
@@ -19011,9 +19014,8 @@ name
 add_to_homescreen_title
 "
 >
-Ouzhpenna
-d
-ar
+Lakaat
+er
 skramm
 degemer
 <
@@ -22595,9 +22597,8 @@ name
 browser_menu_add_to_top_sites
 "
 >
-Ouzhpenna
-d
-al
+Lakaat
+el
 lec
 hienno
 gwella
