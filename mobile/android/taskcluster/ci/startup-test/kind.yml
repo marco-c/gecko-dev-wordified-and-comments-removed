@@ -236,6 +236,8 @@ build
 -
 type
 :
+fenix
+-
 nightly
 -
 firebase
