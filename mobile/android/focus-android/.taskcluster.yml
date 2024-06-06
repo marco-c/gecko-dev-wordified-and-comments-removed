@@ -1616,9 +1616,7 @@ signing
 :
 format
 :
-focus
--
-jar
+autograph_focus
 -
 project
 :

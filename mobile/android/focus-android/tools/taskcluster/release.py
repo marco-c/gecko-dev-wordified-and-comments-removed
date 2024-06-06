@@ -509,17 +509,9 @@ routes
     
 signing_format
 =
-"
-focus
--
-jar
-"
-if
-tag
-else
-"
+'
 autograph_focus
-"
+'
     
 scopes
 =
@@ -685,6 +677,10 @@ Focus
 Klar
 "
         
+signing_format
+=
+signing_format
+        
 apks
 =
 artifacts
@@ -696,10 +692,6 @@ scopes
 routes
 =
 routes
-        
-signing_format
-=
-signing_format
     
 )
 def
