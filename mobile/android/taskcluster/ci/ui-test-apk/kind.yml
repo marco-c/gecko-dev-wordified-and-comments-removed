@@ -3805,6 +3805,11 @@ shipping
 product
 :
 fenix
+code
+-
+review
+:
+false
 description
 :
 Run
@@ -3812,11 +3817,12 @@ select
 UI
 tests
 on
-older
+legacy
 Android
+devices
+and
 API
-on
-cron
+levels
 run
 -
 on
@@ -3826,6 +3832,9 @@ tasks
 for
 :
 [
+github
+-
+push
 ]
 run
 -
