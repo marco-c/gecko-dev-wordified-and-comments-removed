@@ -916,7 +916,7 @@ isNotBlank
 {
 binding
 .
-nameOnCardInput
+nameOnCardLayout
 .
 error
 =
