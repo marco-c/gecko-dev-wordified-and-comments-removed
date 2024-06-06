@@ -303,7 +303,7 @@ backgroundTint
 =
 "
 ?
-shadow
+neutralFaded
 "
 android
 :
