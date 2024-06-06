@@ -1931,6 +1931,13 @@ store
 interactor
 =
 interactor
+metrics
+=
+components
+.
+analytics
+.
+metrics
 )
 }
 val
