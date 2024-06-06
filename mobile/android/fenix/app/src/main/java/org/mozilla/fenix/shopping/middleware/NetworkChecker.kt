@@ -153,7 +153,7 @@ NetworkChecker
 *
 /
 class
-NetworkCheckerImpl
+DefaultNetworkChecker
 (
 private
 val

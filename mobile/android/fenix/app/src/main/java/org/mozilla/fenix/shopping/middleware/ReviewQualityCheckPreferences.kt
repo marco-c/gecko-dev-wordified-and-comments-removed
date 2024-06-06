@@ -303,7 +303,7 @@ use
 *
 /
 class
-ReviewQualityCheckPreferencesImpl
+DefaultReviewQualityCheckPreferences
 (
 private
 val

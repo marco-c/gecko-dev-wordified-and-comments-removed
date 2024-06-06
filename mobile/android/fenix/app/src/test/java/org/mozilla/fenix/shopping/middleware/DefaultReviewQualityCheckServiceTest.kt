@@ -201,7 +201,7 @@ Mockito
 .
 doAnswer
 class
-ReviewQualityCheckServiceImplTest
+DefaultReviewQualityCheckServiceTest
 {
 get
 :
@@ -347,7 +347,7 @@ id
 val
 tested
 =
-ReviewQualityCheckServiceImpl
+DefaultReviewQualityCheckService
 (
 BrowserStore
 (
@@ -494,7 +494,7 @@ id
 val
 tested
 =
-ReviewQualityCheckServiceImpl
+DefaultReviewQualityCheckService
 (
 BrowserStore
 (
@@ -665,7 +665,7 @@ id
 val
 tested
 =
-ReviewQualityCheckServiceImpl
+DefaultReviewQualityCheckService
 (
 BrowserStore
 (

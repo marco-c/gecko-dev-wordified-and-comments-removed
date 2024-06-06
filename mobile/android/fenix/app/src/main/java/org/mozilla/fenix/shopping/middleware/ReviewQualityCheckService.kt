@@ -222,7 +222,7 @@ state
 *
 /
 class
-ReviewQualityCheckServiceImpl
+DefaultReviewQualityCheckService
 (
 private
 val
