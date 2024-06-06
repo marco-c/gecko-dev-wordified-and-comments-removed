@@ -791,6 +791,11 @@ defaultSearch
 invoke
 (
 text
+session
+=
+sessionManager
+.
+selectedSession
 )
 }
 override

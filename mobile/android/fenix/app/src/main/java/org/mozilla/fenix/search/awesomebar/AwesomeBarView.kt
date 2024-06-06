@@ -658,6 +658,10 @@ searchEngine
 :
 SearchEngine
 ?
+parentSession
+:
+Session
+?
 )
 {
 interactor
@@ -688,6 +692,10 @@ String
 searchEngine
 :
 SearchEngine
+?
+parentSession
+:
+Session
 ?
 )
 {

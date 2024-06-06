@@ -1221,6 +1221,7 @@ defaultSearch
 invoke
 (
 pastedText
+currentSession
 )
 }
 }

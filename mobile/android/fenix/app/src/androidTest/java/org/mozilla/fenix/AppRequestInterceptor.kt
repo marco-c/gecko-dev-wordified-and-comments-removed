@@ -172,6 +172,9 @@ Boolean
 isSameDomain
 :
 Boolean
+isRedirect
+:
+Boolean
 )
 :
 RequestInterceptor
@@ -196,6 +199,7 @@ engineSession
 uri
 hasUserGesture
 isSameDomain
+isRedirect
 )
 }
 }

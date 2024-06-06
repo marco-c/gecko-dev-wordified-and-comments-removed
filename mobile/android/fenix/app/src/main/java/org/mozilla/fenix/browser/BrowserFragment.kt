@@ -848,6 +848,11 @@ invoke
 it
 .
 query
+parentSession
+=
+getSessionById
+(
+)
 )
 }
 else
@@ -865,6 +870,11 @@ invoke
 it
 .
 query
+parentSession
+=
+getSessionById
+(
+)
 )
 }
 }
