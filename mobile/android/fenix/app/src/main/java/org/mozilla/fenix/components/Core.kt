@@ -1288,6 +1288,17 @@ settings
 getCookieBannerHandling
 (
 )
+cookieBannerHandlingDetectOnlyMode
+=
+context
+.
+settings
+(
+)
+.
+shouldEnabledCookieBannerDetectOnlyMode
+(
+)
 )
 GeckoEngine
 (
