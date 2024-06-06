@@ -371,16 +371,6 @@ mozilla
 .
 fenix
 .
-helpers
-.
-click
-import
-org
-.
-mozilla
-.
-fenix
-.
 settings
 .
 SupportUtils
