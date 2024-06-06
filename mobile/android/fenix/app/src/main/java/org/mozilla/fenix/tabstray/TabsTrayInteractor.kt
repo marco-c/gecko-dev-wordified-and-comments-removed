@@ -130,7 +130,7 @@ with
 the
 given
 [
-sessionId
+tabId
 ]
 .
 *
@@ -138,7 +138,7 @@ sessionId
 fun
 tabRemoved
 (
-sessionId
+tabId
 :
 String
 )
