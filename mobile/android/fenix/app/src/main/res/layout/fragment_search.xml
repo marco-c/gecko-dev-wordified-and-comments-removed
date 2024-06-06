@@ -208,6 +208,13 @@ toolbar_wrapper
 "
 android
 :
+transitionName
+=
+"
+toolbar_wrapper_transition
+"
+android
+:
 layout_width
 =
 "
@@ -290,6 +297,13 @@ id
 id
 /
 search_engine_icon
+"
+android
+:
+transitionName
+=
+"
+toolbar_icon_transition
 "
 android
 :
