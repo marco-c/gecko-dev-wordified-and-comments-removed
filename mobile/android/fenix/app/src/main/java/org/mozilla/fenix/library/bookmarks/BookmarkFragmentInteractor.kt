@@ -570,10 +570,6 @@ bookmarksController
 handleBookmarkFolderDeletion
 (
 nodes
-.
-first
-(
-)
 )
 }
 else
