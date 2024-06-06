@@ -592,6 +592,13 @@ context
 areNotificationsEnabledSafe
 (
 )
+"
+search_widget_is_installed
+"
+to
+settings
+.
+searchWidgetInstalled
 )
 )
 }
