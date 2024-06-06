@@ -507,7 +507,15 @@ R
 .
 string
 .
-app_name_private_3
+app_name_private_4
+getString
+(
+R
+.
+string
+.
+app_name
+)
 )
 )
 .

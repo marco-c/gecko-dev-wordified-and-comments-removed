@@ -507,7 +507,7 @@ R
 .
 string
 .
-default_device_name
+default_device_name_2
 context
 .
 getString
