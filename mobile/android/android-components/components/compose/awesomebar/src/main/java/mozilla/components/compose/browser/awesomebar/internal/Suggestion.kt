@@ -979,7 +979,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_edit_suggestion
+mozac_ic_append_up_24
 )
 colorFilter
 =
