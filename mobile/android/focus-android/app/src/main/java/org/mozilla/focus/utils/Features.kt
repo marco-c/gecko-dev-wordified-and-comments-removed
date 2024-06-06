@@ -119,5 +119,13 @@ Boolean
 BuildConfig
 .
 DEBUG
+&
+&
+!
+AppConstants
+.
+isKlarBuild
+(
+)
 }
 }
