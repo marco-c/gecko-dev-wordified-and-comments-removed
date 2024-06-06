@@ -592,7 +592,7 @@ background
 "
 drawable
 /
-onboarding_light_theme
+onboarding_toolbar_top
 "
 android
 :
@@ -815,7 +815,7 @@ background
 "
 drawable
 /
-onboarding_dark_theme
+onboarding_toolbar_bottom
 "
 android
 :
