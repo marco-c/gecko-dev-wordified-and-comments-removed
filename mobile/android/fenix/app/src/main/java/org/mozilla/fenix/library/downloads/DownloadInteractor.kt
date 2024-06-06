@@ -195,16 +195,4 @@ handleDeleteSome
 items
 )
 }
-override
-fun
-onDeleteAll
-(
-)
-{
-downloadController
-.
-handleDeleteAll
-(
-)
-}
 }

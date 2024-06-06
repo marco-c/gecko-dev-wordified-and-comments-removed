@@ -326,7 +326,6 @@ downloads
 [
 position
 ]
-mode
 isPendingDeletion
 )
 }
