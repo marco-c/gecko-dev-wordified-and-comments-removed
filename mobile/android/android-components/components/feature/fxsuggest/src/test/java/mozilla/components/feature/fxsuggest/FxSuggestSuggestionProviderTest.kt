@@ -668,6 +668,11 @@ com
 /
 click_url
 "
+score
+=
+0
+.
+3
 )
 Suggestion
 .
@@ -1377,6 +1382,11 @@ com
 /
 click_url
 "
+score
+=
+0
+.
+3
 )
 )
 )
