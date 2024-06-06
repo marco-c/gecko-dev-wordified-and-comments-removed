@@ -770,7 +770,7 @@ story
 title
 maxLines
 =
-3
+2
 )
 }
 subtitle
@@ -1288,7 +1288,7 @@ StaggeredHorizontalGrid
 (
 horizontalItemsSpacing
 =
-16
+8
 .
 dp
 )
