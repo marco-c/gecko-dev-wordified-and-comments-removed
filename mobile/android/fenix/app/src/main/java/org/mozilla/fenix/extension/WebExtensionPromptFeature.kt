@@ -904,6 +904,10 @@ return
 is
 WebExtensionInstallException
 .
+UnsupportedAddonType
+is
+WebExtensionInstallException
+.
 Unknown
 -
 >
