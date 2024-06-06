@@ -217,7 +217,7 @@ Boolean
 val
 lastAnalysisTime
 :
-Int
+Long
 val
 deletedProductReported
 :

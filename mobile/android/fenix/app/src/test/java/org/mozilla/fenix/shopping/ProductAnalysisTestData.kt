@@ -159,9 +159,9 @@ Boolean
 false
 lastAnalysisTime
 :
-Int
+Long
 =
-0
+0L
 deletedProductReported
 :
 Boolean
