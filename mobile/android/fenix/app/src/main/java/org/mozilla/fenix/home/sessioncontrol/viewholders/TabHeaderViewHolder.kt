@@ -145,14 +145,6 @@ mozilla
 .
 fenix
 .
-BuildConfig
-import
-org
-.
-mozilla
-.
-fenix
-.
 R
 import
 org
@@ -568,11 +560,6 @@ visible
 {
 !
 isPrivate
-&
-&
-BuildConfig
-.
-COLLECTIONS_ENABLED
 }
 }
 )
