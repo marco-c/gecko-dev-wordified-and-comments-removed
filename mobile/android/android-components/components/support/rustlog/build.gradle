@@ -150,7 +150,7 @@ dependencies
 implementation
 ComponentsDependencies
 .
-mozilla_rustlog
+mozilla_rust_log_forwarder
 implementation
 ComponentsDependencies
 .
@@ -179,7 +179,7 @@ base
 testImplementation
 ComponentsDependencies
 .
-mozilla_rustlog
+mozilla_rust_log_forwarder
 testImplementation
 project
 (

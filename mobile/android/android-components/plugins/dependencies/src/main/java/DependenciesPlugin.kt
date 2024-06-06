@@ -2827,7 +2827,7 @@ version
 }
 "
 val
-mozilla_rustlog
+mozilla_rust_log_forwarder
 =
 "
 {
@@ -2836,7 +2836,11 @@ ApplicationServicesConfig
 groupId
 }
 :
-rustlog
+rust
+-
+log
+-
+forwarder
 :
 {
 ApplicationServicesConfig
