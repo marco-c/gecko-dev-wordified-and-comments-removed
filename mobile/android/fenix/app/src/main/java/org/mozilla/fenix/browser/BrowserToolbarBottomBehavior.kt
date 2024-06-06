@@ -600,7 +600,6 @@ SnackbarLayout
 {
 positionSnackbar
 (
-child
 dependency
 )
 }
@@ -681,9 +680,6 @@ private
 fun
 positionSnackbar
 (
-child
-:
-View
 view
 :
 View
