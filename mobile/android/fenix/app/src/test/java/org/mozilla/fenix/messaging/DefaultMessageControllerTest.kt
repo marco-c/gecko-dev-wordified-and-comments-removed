@@ -468,7 +468,12 @@ action
 "
 action
 "
-triggers
+triggerIfAll
+=
+emptyList
+(
+)
+excludeIfAny
 =
 emptyList
 (

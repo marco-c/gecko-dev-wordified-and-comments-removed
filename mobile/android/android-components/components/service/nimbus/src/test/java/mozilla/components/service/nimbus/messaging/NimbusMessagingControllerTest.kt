@@ -2013,7 +2013,12 @@ Metadata
 id
 displayCount
 )
-triggers
+triggerIfAll
+=
+emptyList
+(
+)
+excludeIfAny
 =
 emptyList
 (

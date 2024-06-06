@@ -454,7 +454,7 @@ string
 (
 messageTitle
 )
-trigger
+triggerIfAll
 =
 listOf
 (

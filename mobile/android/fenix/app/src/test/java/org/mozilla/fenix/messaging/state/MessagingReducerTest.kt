@@ -400,7 +400,7 @@ style
 StyleData
 (
 )
-triggers
+triggerIfAll
 =
 listOf
 (
