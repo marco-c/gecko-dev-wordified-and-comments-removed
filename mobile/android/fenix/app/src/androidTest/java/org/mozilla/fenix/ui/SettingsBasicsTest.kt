@@ -400,6 +400,9 @@ verifySearchEngineList
 verifyShowSearchSuggestions
 (
 )
+verifyShowSearchShortcuts
+(
+)
 verifyShowClipboardSuggestions
 (
 )
