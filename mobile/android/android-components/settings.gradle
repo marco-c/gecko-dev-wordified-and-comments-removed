@@ -71,6 +71,14 @@ includeBuild
 "
 plugins
 /
+github
+"
+)
+includeBuild
+(
+"
+plugins
+/
 publicsuffixlist
 "
 )
@@ -82,6 +90,12 @@ id
 mozac
 .
 DependenciesPlugin
+'
+id
+'
+mozac
+.
+GitHubPlugin
 '
 }
 apply
