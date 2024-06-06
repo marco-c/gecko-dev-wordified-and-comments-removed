@@ -1042,6 +1042,7 @@ what
 each
 means
 :
+-
 *
 *
 geckoBeta
@@ -1072,6 +1073,7 @@ will
 go
 to
 production
+-
 *
 *
 geckoNightly
@@ -1099,6 +1101,15 @@ and
 is
 less
 stable
+<
+br
+/
+>
+<
+br
+/
+>
+-
 *
 *
 debug
@@ -1124,6 +1135,7 @@ unused
 or
 wasteful
 code
+-
 *
 *
 fenixNightly
@@ -1154,6 +1166,7 @@ releases
 to
 Google
 Play
+-
 *
 *
 fenixNightlyLegacy
@@ -1189,6 +1202,7 @@ trying
 to
 phase
 out
+-
 *
 *
 fenixBeta
@@ -1219,6 +1233,7 @@ releases
 to
 Google
 Play
+-
 *
 *
 fenixProduction
@@ -1247,6 +1262,7 @@ releases
 to
 Google
 Play
+-
 *
 *
 fennecProduction
@@ -1293,6 +1309,7 @@ in
 data
 loss
 .
+-
 *
 *
 forPerformanceTest
