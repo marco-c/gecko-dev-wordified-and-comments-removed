@@ -207,7 +207,6 @@ Store
 BasicState
 (
 )
-)
 {
 state
 _
@@ -217,6 +216,7 @@ Action
 >
 state
 }
+)
 Test
 fun
 factory
