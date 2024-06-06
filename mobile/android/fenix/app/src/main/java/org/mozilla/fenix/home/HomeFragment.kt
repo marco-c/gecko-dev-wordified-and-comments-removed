@@ -105,12 +105,6 @@ Bundle
 import
 android
 .
-util
-.
-Log
-import
-android
-.
 view
 .
 Gravity
