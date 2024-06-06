@@ -810,15 +810,6 @@ core
 store
 selectTabUseCase
 removeTabUseCase
-view
-.
-context
-.
-components
-.
-useCases
-.
-thumbnailUseCases
 {
 it
 .
