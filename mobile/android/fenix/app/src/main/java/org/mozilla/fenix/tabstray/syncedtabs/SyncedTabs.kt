@@ -2124,15 +2124,7 @@ R
 .
 string
 .
-synced_tabs_no_tabs_2
-stringResource
-(
-R
-.
-string
-.
-app_name
-)
+synced_tabs_no_tabs
 )
 errorButton
 =

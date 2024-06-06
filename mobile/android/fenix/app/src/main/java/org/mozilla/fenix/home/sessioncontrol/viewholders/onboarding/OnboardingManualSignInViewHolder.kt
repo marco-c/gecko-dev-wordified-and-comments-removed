@@ -250,8 +250,7 @@ R
 .
 string
 .
-onboarding_account_sign_in_header_2
-appName
+onboarding_account_sign_in_header_1
 )
 binding
 .

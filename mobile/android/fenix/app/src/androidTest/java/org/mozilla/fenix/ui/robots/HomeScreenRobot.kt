@@ -3151,12 +3151,11 @@ allOf
 (
 withText
 (
-"
-Sync
-appName
-between
-devices
-"
+R
+.
+string
+.
+onboarding_account_sign_in_header_1
 )
 )
 )
