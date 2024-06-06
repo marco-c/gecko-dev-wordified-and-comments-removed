@@ -719,11 +719,17 @@ SharedPreferences
 key
 :
 String
+?
 )
+{
+key
+?
+.
+let
 {
 recordTelemetry
 (
-key
+it
 sharedPreferences
 .
 all
@@ -747,6 +753,7 @@ toString
 (
 )
 )
+}
 updateStealthToggleAvailability
 (
 )
