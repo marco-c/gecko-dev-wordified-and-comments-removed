@@ -107,6 +107,16 @@ mozilla
 .
 components
 .
+concept
+.
+storage
+.
+HistoryStorage
+import
+mozilla
+.
+components
+.
 feature
 .
 app
@@ -349,6 +359,11 @@ val
 bookmarksStorage
 :
 BookmarksStorage
+private
+val
+historyStorage
+:
+HistoryStorage
 )
 {
 /
@@ -605,6 +620,7 @@ lazyMonitored
 BookmarksUseCase
 (
 bookmarksStorage
+historyStorage
 )
 }
 }

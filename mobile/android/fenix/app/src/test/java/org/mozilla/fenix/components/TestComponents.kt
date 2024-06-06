@@ -197,6 +197,9 @@ topSitesStorage
 core
 .
 bookmarksStorage
+core
+.
+historyStorage
 )
 }
 override

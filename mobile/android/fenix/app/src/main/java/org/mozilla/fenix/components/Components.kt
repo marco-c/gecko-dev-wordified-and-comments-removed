@@ -588,6 +588,9 @@ topSitesStorage
 core
 .
 bookmarksStorage
+core
+.
+historyStorage
 )
 }
 val
