@@ -2128,15 +2128,6 @@ GetSystemGtkWindowDecoration
 ;
 static
 bool
-GetTopLevelWindowActiveState
-(
-nsIFrame
-*
-aFrame
-)
-;
-static
-bool
 TitlebarUseShapeMask
 (
 )
