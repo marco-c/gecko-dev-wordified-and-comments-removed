@@ -1076,7 +1076,7 @@ drawableStart
 "
 drawable
 /
-ic_link
+ic_favorite
 "
 android
 :
@@ -1118,6 +1118,9 @@ android
 text
 =
 "
+string
+/
+add_custom_autocomplete_label
 "
 android
 :
