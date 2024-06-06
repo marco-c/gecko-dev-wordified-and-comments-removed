@@ -123,6 +123,14 @@ annotation
 .
 DrawableRes
 import
+androidx
+.
+core
+.
+app
+.
+NotificationCompat
+import
 mozilla
 .
 components
@@ -304,7 +312,7 @@ VERSION_CODES
 O
 )
 {
-Notification
+NotificationCompat
 .
 Builder
 (
@@ -320,7 +328,7 @@ Suppress
 Deprecation
 "
 )
-Notification
+NotificationCompat
 .
 Builder
 (
@@ -404,6 +412,13 @@ setAutoCancel
 (
 true
 )
+.
+setSilent
+(
+notification
+.
+silent
+)
 sourceUrl
 ?
 .
@@ -434,7 +449,7 @@ body
 .
 setStyle
 (
-Notification
+NotificationCompat
 .
 BigTextStyle
 (

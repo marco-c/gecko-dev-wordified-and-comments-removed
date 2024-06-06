@@ -748,7 +748,7 @@ mozac_feature_notification_channel_name
 )
 NotificationManager
 .
-IMPORTANCE_LOW
+IMPORTANCE_DEFAULT
 )
 channel
 .
