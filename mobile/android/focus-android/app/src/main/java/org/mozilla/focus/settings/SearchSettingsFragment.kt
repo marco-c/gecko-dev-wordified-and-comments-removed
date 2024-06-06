@@ -390,7 +390,7 @@ R
 .
 string
 .
-pref_key_screen_autocomplete
+pref_key_show_search_suggestions
 )
 -
 >
