@@ -21,7 +21,7 @@ docutils
 =
 0
 .
-17
+18
 .
 1
 idna
@@ -87,7 +87,7 @@ applehelp
 .
 0
 .
-2
+4
 sphinxcontrib
 -
 htmlhelp
@@ -97,7 +97,7 @@ htmlhelp
 .
 0
 .
-0
+1
 sphinxcontrib
 -
 mermaid
@@ -105,9 +105,9 @@ mermaid
 =
 0
 .
-8
+9
 .
-1
+2
 rstcheck
 =
 =
@@ -154,11 +154,11 @@ warnings
 Sphinx
 =
 =
-5
+7
 .
-3
+1
 .
-0
+2
 pkgutil
 -
 resolve

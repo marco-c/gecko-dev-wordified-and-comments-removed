@@ -274,6 +274,12 @@ sphinx_js
 "
 sphinxcontrib
 .
+jquery
+"
+    
+"
+sphinxcontrib
+.
 mermaid
 "
     
