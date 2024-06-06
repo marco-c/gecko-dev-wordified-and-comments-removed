@@ -60,9 +60,6 @@ Services
 backgroundServices
 .
 accountManager
-useCases
-.
-tabsUseCases
 )
 }
 override
