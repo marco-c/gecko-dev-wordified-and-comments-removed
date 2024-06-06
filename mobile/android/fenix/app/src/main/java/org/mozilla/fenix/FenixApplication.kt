@@ -4485,6 +4485,14 @@ settings
 .
 signedInFxaAccount
 )
+searchTermGroupsEnabled
+.
+set
+(
+settings
+.
+searchTermTabGroupsAreEnabled
+)
 val
 syncedItems
 =

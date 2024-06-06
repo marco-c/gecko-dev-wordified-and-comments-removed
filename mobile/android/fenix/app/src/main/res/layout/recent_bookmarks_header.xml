@@ -248,7 +248,7 @@ showAllBookmarksButton
 "
 app
 :
-layout_constraintTop_toTopOf
+layout_constraintBottom_toBottomOf
 =
 "
 parent

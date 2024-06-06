@@ -425,6 +425,14 @@ invoke
 (
 tabId
 )
+metrics
+.
+track
+(
+Event
+.
+JumpBackInGroupTapped
+)
 navController
 .
 navigate
