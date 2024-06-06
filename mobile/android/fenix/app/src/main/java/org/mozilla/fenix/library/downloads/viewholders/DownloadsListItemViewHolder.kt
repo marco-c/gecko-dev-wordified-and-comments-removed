@@ -358,7 +358,7 @@ R
 .
 drawable
 .
-ic_delete
+mozac_ic_delete
 )
 librarySiteItemBinding
 .

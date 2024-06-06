@@ -577,7 +577,7 @@ R
 .
 drawable
 .
-ic_delete
+mozac_ic_delete
 recyclerView
 .
 context
