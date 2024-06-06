@@ -3399,6 +3399,15 @@ client
 setStartupMetrics
 (
 )
+context
+.
+settings
+(
+)
+.
+totalUriCount
+=
+0
 }
 internal
 fun
