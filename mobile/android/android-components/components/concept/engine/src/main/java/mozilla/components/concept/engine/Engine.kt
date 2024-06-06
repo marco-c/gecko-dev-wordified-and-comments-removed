@@ -179,6 +179,18 @@ concept
 .
 engine
 .
+translate
+.
+TranslationsRuntime
+import
+mozilla
+.
+components
+.
+concept
+.
+engine
+.
 utils
 .
 EngineVersion
@@ -255,6 +267,7 @@ interface
 Engine
 :
 WebExtensionRuntime
+TranslationsRuntime
 DataCleanable
 {
 /
