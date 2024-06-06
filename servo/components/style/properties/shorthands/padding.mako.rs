@@ -46,11 +46,6 @@ engines
 "
 gecko
 servo
--
-2013
-servo
--
-2020
 "
 spec
 =
@@ -121,11 +116,6 @@ engines
 "
 gecko
 servo
--
-2013
-servo
--
-2020
 "
 spec
 =
@@ -191,11 +181,6 @@ engines
 "
 gecko
 servo
--
-2013
-servo
--
-2020
 "
 spec
 =

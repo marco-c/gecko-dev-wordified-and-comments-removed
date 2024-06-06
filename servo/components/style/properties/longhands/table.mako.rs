@@ -52,8 +52,13 @@ engines
 "
 gecko
 servo
--
-2013
+"
+servo_pref
+=
+"
+layout
+.
+legacy_layout
 "
 gecko_ffi_name
 =

@@ -33,8 +33,6 @@ engines
 "
 gecko
 servo
--
-2013
 "
 sub_properties
 =
@@ -46,7 +44,7 @@ column
 -
 count
 "
-servo_2013_pref
+servo_pref
 =
 "
 layout

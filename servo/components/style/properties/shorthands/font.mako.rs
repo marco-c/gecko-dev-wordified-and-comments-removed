@@ -41,11 +41,6 @@ engines
 "
 gecko
 servo
--
-2013
-servo
--
-2020
 "
 sub_properties
 =
@@ -2136,8 +2131,13 @@ engines
 "
 gecko
 servo
--
-2013
+"
+servo_pref
+=
+"
+layout
+.
+legacy_layout
 "
 flags
 =

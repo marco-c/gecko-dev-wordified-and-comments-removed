@@ -1422,14 +1422,9 @@ feature
 =
 "
 servo
--
-layout
--
-2013
 "
 )
 ]
-{
 if
 self
 .
@@ -1455,7 +1450,6 @@ ComputedValueFlags
 CAN_BE_FRAGMENTED
 )
 ;
-}
 }
 }
 #
