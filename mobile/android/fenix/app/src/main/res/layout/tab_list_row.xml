@@ -519,7 +519,15 @@ text_url
 /
 >
 <
-ImageView
+org
+.
+mozilla
+.
+fenix
+.
+home
+.
+ImageViewTopCrop
 android
 :
 id
@@ -577,7 +585,7 @@ android
 scaleType
 =
 "
-centerCrop
+matrix
 "
 app
 :
