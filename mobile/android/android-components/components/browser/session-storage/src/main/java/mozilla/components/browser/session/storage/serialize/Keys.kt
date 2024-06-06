@@ -167,6 +167,13 @@ readerModeArticleUrl
 "
 const
 val
+SESSION_READER_MODE_SCROLLY_KEY
+=
+"
+readerModeScrollY
+"
+const
+val
 SESSION_TITLE
 =
 "
