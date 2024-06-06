@@ -202,9 +202,10 @@ app
 cardBackgroundColor
 =
 "
-color
+?
+attr
 /
-photonWhite
+layer2
 "
 app
 :
@@ -405,9 +406,10 @@ app
 tint
 =
 "
-color
+?
+attr
 /
-photonBlack
+textPrimary
 "
 app
 :
