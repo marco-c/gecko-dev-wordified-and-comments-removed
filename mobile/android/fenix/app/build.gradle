@@ -2293,6 +2293,17 @@ v7a
 "
 :
 abi
+def
+aab
+=
+project
+.
+hasProperty
+(
+"
+aab
+"
+)
 /
 /
 We
@@ -2331,6 +2342,7 @@ Config
 generateFennecVersionCode
 (
 arch
+aab
 )
 println
 (
