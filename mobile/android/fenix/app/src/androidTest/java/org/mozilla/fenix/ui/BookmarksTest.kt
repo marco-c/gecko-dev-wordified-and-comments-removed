@@ -1075,7 +1075,7 @@ longClickToolbar
 clickPasteText
 (
 )
-verifyPastedToolbarText
+verifyTypedToolbarText
 (
 defaultWebPage
 .

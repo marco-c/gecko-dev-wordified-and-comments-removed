@@ -637,7 +637,7 @@ openSettings
 .
 openSearchSubMenu
 {
-enableShowSearchShortcuts
+toggleShowSearchShortcuts
 (
 )
 }
@@ -719,7 +719,7 @@ openSettings
 .
 openSearchSubMenu
 {
-enableShowSearchShortcuts
+toggleShowSearchShortcuts
 (
 )
 }

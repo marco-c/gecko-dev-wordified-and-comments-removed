@@ -653,7 +653,7 @@ longClickToolbar
 clickPasteText
 (
 )
-verifyPastedToolbarText
+verifyTypedToolbarText
 (
 customTabPage
 .
