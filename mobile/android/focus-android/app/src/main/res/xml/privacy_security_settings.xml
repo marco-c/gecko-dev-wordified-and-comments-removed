@@ -908,10 +908,12 @@ focus_preference
 "
 android
 :
-persistent
+key
 =
 "
-false
+string
+/
+pref_key_telemetry
 "
 android
 :
