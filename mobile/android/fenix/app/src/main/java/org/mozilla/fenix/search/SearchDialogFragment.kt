@@ -4264,9 +4264,6 @@ store
 menu
 =
 searchSelectorMenu
-viewLifecycleOwner
-=
-viewLifecycleOwner
 )
 )
 searchSelectorAlreadyAdded
