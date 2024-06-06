@@ -255,7 +255,10 @@ private
 val
 viewLifecycleScope
 :
+WeakReference
+<
 LifecycleCoroutineScope
+>
 private
 val
 arguments
@@ -510,6 +513,11 @@ shouldAnimate
 {
 viewLifecycleScope
 .
+get
+(
+)
+?
+.
 launch
 (
 Dispatchers
@@ -589,6 +597,11 @@ beginAnimateOut
 )
 {
 viewLifecycleScope
+.
+get
+(
+)
+?
 .
 launch
 (
@@ -676,6 +689,11 @@ context
 let
 {
 viewLifecycleScope
+.
+get
+(
+)
+?
 .
 launch
 {
