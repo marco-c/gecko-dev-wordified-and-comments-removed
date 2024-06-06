@@ -252,6 +252,10 @@ FenixDebug
 -
 >
 true
+FenixProduction
+-
+>
+true
 else
 -
 >

@@ -122,7 +122,11 @@ build
 types
 :
 -
+fenix
+-
 beta
+-
+fenix
 -
 production
 job
