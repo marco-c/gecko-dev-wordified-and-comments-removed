@@ -708,13 +708,6 @@ focusable
 "
 true
 "
-android
-:
-visibility
-=
-"
-gone
-"
 app
 :
 categoryItemDescription
