@@ -696,10 +696,6 @@ Int
 isNewCollection
 :
 Boolean
-collectionToSelect
-:
-Long
-?
 )
 -
 >
@@ -1286,7 +1282,6 @@ tabs
 .
 size
 isNewCollection
-id
 )
 }
 }
