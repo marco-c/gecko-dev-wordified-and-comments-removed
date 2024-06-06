@@ -299,6 +299,16 @@ fenix
 .
 components
 .
+FenixSnackbar
+import
+org
+.
+mozilla
+.
+fenix
+.
+components
+.
 metrics
 .
 Event
@@ -433,6 +443,12 @@ val
 activity
 :
 Activity
+private
+val
+snackbar
+:
+FenixSnackbar
+?
 private
 val
 navController
@@ -1332,6 +1348,7 @@ deleteAndQuit
 (
 activity
 scope
+snackbar
 )
 }
 }
