@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-taskgraph
+gecko_taskgraph
 .
 loader
 .
@@ -104,7 +104,7 @@ notify
 :
 transforms
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -119,7 +119,7 @@ dependencies
 build
 -
 apk
-tasks
+jobs
 :
 sign
 -
@@ -141,8 +141,11 @@ attributes
 true
 worker
 :
-{
-}
+implementation
+:
+scriptworker
+-
+signing
 signing
 -
 format
@@ -271,9 +274,7 @@ run
 -
 on
 -
-tasks
--
-for
+projects
 :
 by
 -
@@ -314,9 +315,7 @@ beta
 )
 :
 [
-github
--
-push
+all
 ]
 #
 No
@@ -398,9 +397,7 @@ nightly
 )
 :
 [
-github
--
-push
+all
 ]
 #
 bug
@@ -423,8 +420,6 @@ default
 ]
 treeherder
 :
-job
--
 symbol
 :
 by
