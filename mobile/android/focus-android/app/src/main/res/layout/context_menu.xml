@@ -318,8 +318,9 @@ android
 background
 =
 "
-#
-ff262626
+drawable
+/
+images_removal_warning_background
 "
 android
 :

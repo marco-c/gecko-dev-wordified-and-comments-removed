@@ -617,6 +617,17 @@ hitTarget
 isImage
 )
 {
+menu
+.
+setBackgroundResource
+(
+R
+.
+drawable
+.
+no_corners_context_menu_navigation_view_background
+)
+;
 warningView
 .
 setText
