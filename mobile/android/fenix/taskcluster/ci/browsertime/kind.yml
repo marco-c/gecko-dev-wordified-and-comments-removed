@@ -229,6 +229,11 @@ tasks
 for
 :
 [
+github
+-
+pull
+-
+request
 ]
 treeherder
 :
@@ -685,6 +690,8 @@ stackwalk
 linux64
 -
 node
+-
+16
 jobs
 :
 tp6m
