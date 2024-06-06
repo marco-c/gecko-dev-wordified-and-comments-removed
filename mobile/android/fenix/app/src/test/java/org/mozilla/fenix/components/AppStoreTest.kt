@@ -105,6 +105,16 @@ mozilla
 .
 components
 .
+concept
+.
+sync
+.
+DeviceType
+import
+mozilla
+.
+components
+.
 feature
 .
 tab
@@ -1211,6 +1221,9 @@ RecentSyncedTab
 device
 name
 "
+DeviceType
+.
+DESKTOP
 "
 title
 "
