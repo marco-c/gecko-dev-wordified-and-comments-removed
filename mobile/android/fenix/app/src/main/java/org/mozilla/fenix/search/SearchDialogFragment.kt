@@ -3859,7 +3859,7 @@ toolbarView
 .
 view
 .
-addEditAction
+addEditActionEnd
 (
 BrowserToolbar
 .

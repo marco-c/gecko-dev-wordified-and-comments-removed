@@ -361,9 +361,6 @@ lazyMonitored
 TabIntentProcessor
 (
 tabsUseCases
-sessionUseCases
-.
-loadUrl
 searchUseCases
 .
 newTabSearch
@@ -399,9 +396,6 @@ lazyMonitored
 TabIntentProcessor
 (
 tabsUseCases
-sessionUseCases
-.
-loadUrl
 searchUseCases
 .
 newTabSearch

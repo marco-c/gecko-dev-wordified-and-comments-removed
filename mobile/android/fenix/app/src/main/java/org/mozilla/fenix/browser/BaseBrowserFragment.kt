@@ -4320,9 +4320,6 @@ feature
 =
 FxaWebChannelFeature
 (
-requireContext
-(
-)
 customTabSessionId
 requireComponents
 .
