@@ -234,6 +234,26 @@ Extras
 |
 Expiration
 |
+[
+Data
+Sensitivity
+]
+(
+https
+:
+/
+/
+wiki
+.
+mozilla
+.
+org
+/
+Firefix
+/
+Data_Collection
+)
+|
 |
 -
 -
@@ -345,6 +365,7 @@ issuecomment
 01
 |
 |
+|
 activation
 .
 identifier
@@ -439,6 +460,7 @@ issuecomment
 -
 01
 |
+|
 #
 #
 events
@@ -518,6 +540,26 @@ reviews
 Extras
 |
 Expiration
+|
+[
+Data
+Sensitivity
+]
+(
+https
+:
+/
+/
+wiki
+.
+mozilla
+.
+org
+/
+Firefix
+/
+Data_Collection
+)
 |
 |
 -
@@ -622,6 +664,7 @@ pull
 01
 |
 |
+|
 about_page
 .
 licensing_tapped
@@ -697,6 +740,7 @@ pull
 01
 |
 |
+|
 about_page
 .
 privacy_notice_tapped
@@ -770,6 +814,7 @@ pull
 10
 -
 01
+|
 |
 |
 about_page
@@ -848,6 +893,7 @@ pull
 01
 |
 |
+|
 about_page
 .
 support_tapped
@@ -920,6 +966,7 @@ pull
 10
 -
 01
+|
 |
 |
 addons
@@ -1029,6 +1076,7 @@ ul
 01
 |
 |
+|
 addons
 .
 open_addons_in_settings
@@ -1101,6 +1149,7 @@ pull
 10
 -
 01
+|
 |
 |
 app_theme
@@ -1207,6 +1256,7 @@ ul
 01
 |
 |
+|
 bookmarks_management
 .
 copied
@@ -1274,6 +1324,7 @@ pull
 10
 -
 01
+|
 |
 |
 bookmarks_management
@@ -1353,6 +1404,7 @@ pull
 01
 |
 |
+|
 bookmarks_management
 .
 folder_add
@@ -1424,6 +1476,7 @@ pull
 01
 |
 |
+|
 bookmarks_management
 .
 folder_remove
@@ -1492,6 +1545,7 @@ pull
 10
 -
 01
+|
 |
 |
 bookmarks_management
@@ -1569,6 +1623,7 @@ pull
 01
 |
 |
+|
 bookmarks_management
 .
 multi_removed
@@ -1638,6 +1693,7 @@ pull
 10
 -
 01
+|
 |
 |
 bookmarks_management
@@ -1711,6 +1767,7 @@ pull
 10
 -
 01
+|
 |
 |
 bookmarks_management
@@ -1787,6 +1844,7 @@ pull
 01
 |
 |
+|
 bookmarks_management
 .
 open_in_private_tab
@@ -1859,6 +1917,7 @@ pull
 10
 -
 01
+|
 |
 |
 bookmarks_management
@@ -1936,6 +1995,7 @@ pull
 01
 |
 |
+|
 bookmarks_management
 .
 removed
@@ -2006,6 +2066,7 @@ pull
 01
 |
 |
+|
 bookmarks_management
 .
 shared
@@ -2073,6 +2134,7 @@ pull
 10
 -
 01
+|
 |
 |
 collections
@@ -2154,6 +2216,7 @@ pull
 01
 |
 |
+|
 collections
 .
 all_tabs_restored
@@ -2225,6 +2288,7 @@ pull
 10
 -
 01
+|
 |
 |
 collections
@@ -2302,6 +2366,7 @@ pull
 01
 |
 |
+|
 collections
 .
 removed
@@ -2371,6 +2436,7 @@ pull
 10
 -
 01
+|
 |
 |
 collections
@@ -2450,6 +2516,7 @@ pull
 01
 |
 |
+|
 collections
 .
 renamed
@@ -2516,6 +2583,7 @@ pull
 10
 -
 01
+|
 |
 |
 collections
@@ -2646,6 +2714,7 @@ ul
 01
 |
 |
+|
 collections
 .
 saved
@@ -2762,6 +2831,7 @@ ul
 01
 |
 |
+|
 collections
 .
 shared
@@ -2828,6 +2898,7 @@ pull
 10
 -
 01
+|
 |
 |
 collections
@@ -2902,6 +2973,7 @@ pull
 01
 |
 |
+|
 collections
 .
 tab_restored
@@ -2972,6 +3044,7 @@ pull
 10
 -
 01
+|
 |
 |
 collections
@@ -3052,6 +3125,7 @@ pull
 10
 -
 01
+|
 |
 |
 collections
@@ -3170,6 +3244,7 @@ ul
 01
 |
 |
+|
 context_menu
 .
 item_tapped
@@ -3283,6 +3358,7 @@ ul
 01
 |
 |
+|
 contextual_hint
 .
 tracking_protection
@@ -3361,6 +3437,7 @@ pull
 01
 |
 |
+|
 contextual_hint
 .
 tracking_protection
@@ -3433,6 +3510,7 @@ pull
 10
 -
 01
+|
 |
 |
 contextual_hint
@@ -3521,6 +3599,7 @@ pull
 01
 |
 |
+|
 contextual_hint
 .
 tracking_protection
@@ -3600,6 +3679,7 @@ pull
 10
 -
 01
+|
 |
 |
 crash_reporter
@@ -3704,6 +3784,7 @@ ul
 01
 |
 |
+|
 crash_reporter
 .
 opened
@@ -3774,6 +3855,7 @@ issue
 10
 -
 01
+|
 |
 |
 custom_tab
@@ -3850,6 +3932,7 @@ pull
 01
 |
 |
+|
 custom_tab
 .
 closed
@@ -3917,6 +4000,7 @@ pull
 10
 -
 01
+|
 |
 |
 custom_tab
@@ -3989,6 +4073,7 @@ pull
 01
 |
 |
+|
 download_notification
 .
 cancel
@@ -4059,6 +4144,7 @@ pull
 10
 -
 01
+|
 |
 |
 download_notification
@@ -4135,6 +4221,7 @@ pull
 10
 -
 01
+|
 |
 |
 download_notification
@@ -4217,6 +4304,7 @@ pull
 01
 |
 |
+|
 download_notification
 .
 open
@@ -4288,6 +4376,7 @@ pull
 10
 -
 01
+|
 |
 |
 download_notification
@@ -4362,6 +4451,7 @@ pull
 01
 |
 |
+|
 download_notification
 .
 resume
@@ -4432,6 +4522,7 @@ pull
 10
 -
 01
+|
 |
 |
 download_notification
@@ -4509,6 +4600,7 @@ pull
 10
 -
 01
+|
 |
 |
 error_page
@@ -4606,6 +4698,7 @@ ul
 10
 -
 01
+|
 |
 |
 events
@@ -4719,6 +4812,7 @@ ul
 10
 -
 01
+|
 |
 |
 events
@@ -4929,6 +5023,7 @@ ul
 01
 |
 |
+|
 events
 .
 browser_menu_action
@@ -5127,6 +5222,7 @@ ul
 01
 |
 |
+|
 events
 .
 entered_url
@@ -5227,6 +5323,7 @@ ul
 10
 -
 01
+|
 |
 |
 events
@@ -5330,6 +5427,7 @@ ul
 10
 -
 01
+|
 |
 |
 events
@@ -5472,6 +5570,7 @@ ul
 10
 -
 01
+|
 |
 |
 events
@@ -5770,6 +5869,7 @@ ul
 01
 |
 |
+|
 events
 .
 search_bar_tapped
@@ -5876,6 +5976,7 @@ ul
 10
 -
 01
+|
 |
 |
 events
@@ -5987,6 +6088,7 @@ ul
 01
 |
 |
+|
 events
 .
 whats_new_tapped
@@ -6062,6 +6164,7 @@ pull
 01
 |
 |
+|
 find_in_page
 .
 closed
@@ -6137,6 +6240,7 @@ issuecomment
 01
 |
 |
+|
 find_in_page
 .
 opened
@@ -6210,6 +6314,7 @@ issuecomment
 10
 -
 01
+|
 |
 |
 find_in_page
@@ -6284,6 +6389,7 @@ issuecomment
 01
 |
 |
+|
 history
 .
 opened
@@ -6351,6 +6457,7 @@ pull
 10
 -
 01
+|
 |
 |
 history
@@ -6422,6 +6529,7 @@ pull
 01
 |
 |
+|
 history
 .
 removed
@@ -6489,6 +6597,7 @@ pull
 10
 -
 01
+|
 |
 |
 history
@@ -6560,6 +6669,7 @@ pull
 01
 |
 |
+|
 history
 .
 shared
@@ -6627,6 +6737,7 @@ pull
 10
 -
 01
+|
 |
 |
 logins
@@ -6703,6 +6814,7 @@ pull
 01
 |
 |
+|
 logins
 .
 delete_saved_login
@@ -6772,6 +6884,7 @@ issues
 10
 -
 01
+|
 |
 |
 logins
@@ -6844,6 +6957,7 @@ pull
 10
 -
 01
+|
 |
 |
 logins
@@ -6920,6 +7034,7 @@ issues
 01
 |
 |
+|
 logins
 .
 open_logins
@@ -6987,6 +7102,7 @@ pull
 10
 -
 01
+|
 |
 |
 logins
@@ -7059,6 +7175,7 @@ issues
 10
 -
 01
+|
 |
 |
 logins
@@ -7164,6 +7281,7 @@ ul
 01
 |
 |
+|
 logins
 .
 view_password_login
@@ -7237,6 +7355,7 @@ pull
 01
 |
 |
+|
 media_notification
 .
 pause
@@ -7310,6 +7429,7 @@ pull
 01
 |
 |
+|
 media_notification
 .
 play
@@ -7381,6 +7501,7 @@ pull
 10
 -
 01
+|
 |
 |
 media_state
@@ -7451,6 +7572,7 @@ pull
 01
 |
 |
+|
 media_state
 .
 play
@@ -7516,6 +7638,7 @@ pull
 10
 -
 01
+|
 |
 |
 media_state
@@ -7584,6 +7707,7 @@ pull
 10
 -
 01
+|
 |
 |
 onboarding
@@ -7660,6 +7784,7 @@ pull
 01
 |
 |
+|
 onboarding
 .
 fxa_auto_signin
@@ -7730,6 +7855,7 @@ pull
 10
 -
 01
+|
 |
 |
 onboarding
@@ -7804,6 +7930,7 @@ pull
 01
 |
 |
+|
 onboarding
 .
 pref_toggled_private_browsing
@@ -7876,6 +8003,7 @@ pull
 10
 -
 01
+|
 |
 |
 onboarding
@@ -7985,6 +8113,7 @@ ul
 01
 |
 |
+|
 onboarding
 .
 pref_toggled_toolbar_position
@@ -8089,6 +8218,7 @@ ul
 10
 -
 01
+|
 |
 |
 onboarding
@@ -8198,6 +8328,7 @@ ul
 01
 |
 |
+|
 onboarding
 .
 privacy_notice
@@ -8267,6 +8398,7 @@ pull
 10
 -
 01
+|
 |
 |
 onboarding
@@ -8343,6 +8475,7 @@ pull
 01
 |
 |
+|
 pocket
 .
 pocket_top_site_clicked
@@ -8415,6 +8548,7 @@ pull
 01
 |
 |
+|
 pocket
 .
 pocket_top_site_removed
@@ -8484,6 +8618,7 @@ pull
 10
 -
 01
+|
 |
 |
 private_browsing_mode
@@ -8567,6 +8702,7 @@ pull
 01
 |
 |
+|
 private_browsing_mode
 .
 notification_delete
@@ -8647,6 +8783,7 @@ pull
 01
 |
 |
+|
 private_browsing_mode
 .
 notification_open
@@ -8725,6 +8862,7 @@ pull
 01
 |
 |
+|
 private_browsing_mode
 .
 notification_tapped
@@ -8796,6 +8934,7 @@ pull
 10
 -
 01
+|
 |
 |
 private_browsing_mode
@@ -8882,6 +9021,7 @@ pull
 01
 |
 |
+|
 private_browsing_shortcut
 .
 cfr_add_shortcut
@@ -8959,6 +9099,7 @@ pull
 10
 -
 01
+|
 |
 |
 private_browsing_shortcut
@@ -9040,6 +9181,7 @@ pull
 01
 |
 |
+|
 private_browsing_shortcut
 .
 create_shortcut
@@ -9115,6 +9257,7 @@ pull
 10
 -
 01
+|
 |
 |
 private_browsing_shortcut
@@ -9196,6 +9339,7 @@ pull
 10
 -
 01
+|
 |
 |
 private_browsing_shortcut
@@ -9282,6 +9426,7 @@ pull
 01
 |
 |
+|
 private_browsing_shortcut
 .
 static_shortcut_tab
@@ -9362,6 +9507,7 @@ pull
 10
 -
 01
+|
 |
 |
 qr_scanner
@@ -9445,6 +9591,7 @@ issuecomment
 10
 -
 01
+|
 |
 |
 qr_scanner
@@ -9531,6 +9678,7 @@ issuecomment
 01
 |
 |
+|
 qr_scanner
 .
 opened
@@ -9602,6 +9750,7 @@ issuecomment
 10
 -
 01
+|
 |
 |
 qr_scanner
@@ -9692,6 +9841,7 @@ issuecomment
 01
 |
 |
+|
 reader_mode
 .
 appearance
@@ -9759,6 +9909,7 @@ pull
 10
 -
 01
+|
 |
 |
 reader_mode
@@ -9832,6 +9983,7 @@ pull
 01
 |
 |
+|
 reader_mode
 .
 closed
@@ -9900,6 +10052,7 @@ pull
 01
 |
 |
+|
 reader_mode
 .
 opened
@@ -9966,6 +10119,7 @@ pull
 10
 -
 01
+|
 |
 |
 search_shortcuts
@@ -10075,6 +10229,7 @@ ul
 01
 |
 |
+|
 search_suggestions
 .
 enable_in_private
@@ -10145,6 +10300,7 @@ pull
 10
 -
 01
+|
 |
 |
 search_widget
@@ -10232,6 +10388,7 @@ pull
 01
 |
 |
+|
 search_widget
 .
 voice_button
@@ -10308,6 +10465,7 @@ pull
 01
 |
 |
+|
 search_widget_cfr
 .
 add_widget_pressed
@@ -10379,6 +10537,7 @@ pull
 10
 -
 01
+|
 |
 |
 search_widget_cfr
@@ -10457,6 +10616,7 @@ pull
 01
 |
 |
+|
 search_widget_cfr
 .
 displayed
@@ -10525,6 +10685,7 @@ pull
 10
 -
 01
+|
 |
 |
 search_widget_cfr
@@ -10600,6 +10761,7 @@ pull
 01
 |
 |
+|
 sync_account
 .
 closed
@@ -10674,6 +10836,7 @@ issuecomment
 01
 |
 |
+|
 sync_account
 .
 opened
@@ -10746,6 +10909,7 @@ issuecomment
 10
 -
 01
+|
 |
 |
 sync_account
@@ -10819,6 +10983,7 @@ pull
 10
 -
 01
+|
 |
 |
 sync_account
@@ -10901,6 +11066,7 @@ pull
 01
 |
 |
+|
 sync_account
 .
 sync_now
@@ -10978,6 +11144,7 @@ issuecomment
 10
 -
 01
+|
 |
 |
 sync_auth
@@ -11068,6 +11235,7 @@ issuecomment
 01
 |
 |
+|
 sync_auth
 .
 closed
@@ -11139,6 +11307,7 @@ issuecomment
 10
 -
 01
+|
 |
 |
 sync_auth
@@ -11213,6 +11382,7 @@ issuecomment
 10
 -
 01
+|
 |
 |
 sync_auth
@@ -11305,6 +11475,7 @@ issuecomment
 01
 |
 |
+|
 sync_auth
 .
 paired
@@ -11387,6 +11558,7 @@ issuecomment
 01
 |
 |
+|
 sync_auth
 .
 recovered
@@ -11463,6 +11635,7 @@ issuecomment
 10
 -
 01
+|
 |
 |
 sync_auth
@@ -11542,6 +11715,7 @@ issuecomment
 10
 -
 01
+|
 |
 |
 sync_auth
@@ -11630,6 +11804,7 @@ issuecomment
 01
 |
 |
+|
 sync_auth
 .
 sign_out
@@ -11716,6 +11891,7 @@ issuecomment
 01
 |
 |
+|
 sync_auth
 .
 sign_up
@@ -11792,6 +11968,7 @@ issuecomment
 10
 -
 01
+|
 |
 |
 sync_auth
@@ -11882,6 +12059,7 @@ pullrequestreview
 01
 |
 |
+|
 sync_auth
 .
 use_email_problem
@@ -11963,6 +12141,7 @@ pullrequestreview
 01
 |
 |
+|
 tab
 .
 media_pause
@@ -12039,6 +12218,7 @@ pull
 01
 |
 |
+|
 tab
 .
 media_play
@@ -12113,6 +12293,7 @@ pull
 10
 -
 01
+|
 |
 |
 tabs_tray
@@ -12195,6 +12376,7 @@ pull
 01
 |
 |
+|
 tabs_tray
 .
 closed
@@ -12264,6 +12446,7 @@ pull
 01
 |
 |
+|
 tabs_tray
 .
 closed_existing_tab
@@ -12331,6 +12514,7 @@ pull
 10
 -
 01
+|
 |
 |
 tabs_tray
@@ -12407,6 +12591,7 @@ pull
 01
 |
 |
+|
 tabs_tray
 .
 new_private_tab_tapped
@@ -12475,6 +12660,7 @@ pull
 10
 -
 01
+|
 |
 |
 tabs_tray
@@ -12546,6 +12732,7 @@ pull
 01
 |
 |
+|
 tabs_tray
 .
 normal_mode_tapped
@@ -12613,6 +12800,7 @@ pull
 10
 -
 01
+|
 |
 |
 tabs_tray
@@ -12684,6 +12872,7 @@ pull
 01
 |
 |
+|
 tabs_tray
 .
 opened_existing_tab
@@ -12753,6 +12942,7 @@ pull
 01
 |
 |
+|
 tabs_tray
 .
 private_mode_tapped
@@ -12820,6 +13010,7 @@ pull
 10
 -
 01
+|
 |
 |
 tabs_tray
@@ -12902,6 +13093,7 @@ pull
 01
 |
 |
+|
 tabs_tray
 .
 share_all_tabs
@@ -12982,6 +13174,7 @@ pull
 01
 |
 |
+|
 tip
 .
 closed
@@ -13071,6 +13264,7 @@ ul
 01
 |
 |
+|
 tip
 .
 displayed
@@ -13158,6 +13352,7 @@ ul
 10
 -
 01
+|
 |
 |
 tip
@@ -13254,6 +13449,7 @@ ul
 10
 -
 01
+|
 |
 |
 toolbar_settings
@@ -13357,6 +13553,7 @@ ul
 01
 |
 |
+|
 top_sites
 .
 open_default
@@ -13425,6 +13622,7 @@ pull
 10
 -
 01
+|
 |
 |
 top_sites
@@ -13500,6 +13698,7 @@ pull
 10
 -
 01
+|
 |
 |
 top_sites
@@ -13578,6 +13777,7 @@ pull
 01
 |
 |
+|
 top_sites
 .
 remove
@@ -13646,6 +13846,7 @@ pull
 10
 -
 01
+|
 |
 |
 tracking_protection
@@ -13777,6 +13978,7 @@ ul
 01
 |
 |
+|
 tracking_protection
 .
 etp_settings
@@ -13851,6 +14053,7 @@ issuecomment
 10
 -
 01
+|
 |
 |
 tracking_protection
@@ -13929,6 +14132,7 @@ issuecomment
 10
 -
 01
+|
 |
 |
 tracking_protection
@@ -14010,6 +14214,7 @@ issuecomment
 10
 -
 01
+|
 |
 |
 tracking_protection
@@ -14094,6 +14299,7 @@ issuecomment
 01
 |
 |
+|
 tracking_protection
 .
 panel_settings
@@ -14171,6 +14377,7 @@ issuecomment
 01
 |
 |
+|
 user_specified_search_engines
 .
 custom_engine_added
@@ -14242,6 +14449,7 @@ pull
 01
 |
 |
+|
 user_specified_search_engines
 .
 custom_engine_deleted
@@ -14310,6 +14518,7 @@ pull
 10
 -
 01
+|
 |
 |
 voice_search
@@ -14385,6 +14594,7 @@ pull
 10
 -
 01
+|
 |
 #
 #
@@ -14533,6 +14743,26 @@ Extras
 |
 Expiration
 |
+[
+Data
+Sensitivity
+]
+(
+https
+:
+/
+/
+wiki
+.
+mozilla
+.
+org
+/
+Firefix
+/
+Data_Collection
+)
+|
 |
 -
 -
@@ -14639,6 +14869,7 @@ issuecomment
 01
 |
 |
+|
 first_session
 .
 campaign
@@ -14716,6 +14947,7 @@ issuecomment
 10
 -
 01
+|
 |
 |
 first_session
@@ -14797,6 +15029,7 @@ issuecomment
 01
 |
 |
+|
 first_session
 .
 network
@@ -14872,6 +15105,7 @@ issuecomment
 10
 -
 01
+|
 |
 |
 first_session
@@ -14975,6 +15209,7 @@ issuecomment
 -
 01
 |
+|
 #
 #
 metrics
@@ -15054,6 +15289,26 @@ reviews
 Extras
 |
 Expiration
+|
+[
+Data
+Sensitivity
+]
+(
+https
+:
+/
+/
+wiki
+.
+mozilla
+.
+org
+/
+Firefix
+/
+Data_Collection
+)
 |
 |
 -
@@ -15156,6 +15411,7 @@ pull
 01
 |
 |
+|
 addons
 .
 has_enabled_addons
@@ -15231,6 +15487,7 @@ pull
 10
 -
 01
+|
 |
 |
 addons
@@ -15310,6 +15567,7 @@ pull
 01
 |
 |
+|
 addons
 .
 installed_addons
@@ -15383,6 +15641,7 @@ pull
 10
 -
 01
+|
 |
 |
 browser
@@ -15468,6 +15727,7 @@ pull
 01
 |
 |
+|
 browser
 .
 search
@@ -15543,6 +15803,7 @@ pull
 10
 -
 01
+|
 |
 |
 browser
@@ -15627,6 +15888,7 @@ pull
 10
 -
 01
+|
 |
 |
 events
@@ -15763,6 +16025,7 @@ pull
 01
 |
 |
+|
 metrics
 .
 adjust_ad_group
@@ -15861,6 +16124,7 @@ pull
 10
 -
 01
+|
 |
 |
 metrics
@@ -15962,6 +16226,7 @@ pull
 01
 |
 |
+|
 metrics
 .
 adjust_creative
@@ -16059,6 +16324,7 @@ pull
 10
 -
 01
+|
 |
 |
 metrics
@@ -16160,6 +16426,7 @@ pull
 01
 |
 |
+|
 metrics
 .
 default_browser
@@ -16231,6 +16498,7 @@ issuecomment
 10
 -
 01
+|
 |
 |
 metrics
@@ -16338,6 +16606,7 @@ pull
 01
 |
 |
+|
 metrics
 .
 has_open_tabs
@@ -16412,6 +16681,7 @@ pull
 10
 -
 01
+|
 |
 |
 metrics
@@ -16500,6 +16770,7 @@ pullrequestreview
 01
 |
 |
+|
 metrics
 .
 has_top_sites
@@ -16571,6 +16842,7 @@ pull
 10
 -
 01
+|
 |
 |
 metrics
@@ -16694,6 +16966,7 @@ pull
 10
 -
 01
+|
 |
 |
 metrics
@@ -16883,6 +17156,7 @@ pullrequestreview
 12
 -
 01
+|
 |
 |
 metrics
@@ -17105,6 +17379,7 @@ pull
 01
 |
 |
+|
 metrics
 .
 search_widget_installed
@@ -17174,6 +17449,7 @@ pull
 10
 -
 01
+|
 |
 |
 metrics
@@ -17301,6 +17577,7 @@ pull
 01
 |
 |
+|
 metrics
 .
 toolbar_position
@@ -17375,6 +17652,7 @@ pull
 10
 -
 01
+|
 |
 |
 metrics
@@ -17501,6 +17779,7 @@ pull
 01
 |
 |
+|
 perf
 .
 awesomebar
@@ -17576,6 +17855,7 @@ pullrequestreview
 10
 -
 01
+|
 |
 |
 perf
@@ -17655,6 +17935,7 @@ pullrequestreview
 01
 |
 |
+|
 perf
 .
 awesomebar
@@ -17730,6 +18011,7 @@ pullrequestreview
 10
 -
 01
+|
 |
 |
 perf
@@ -17810,6 +18092,7 @@ pullrequestreview
 01
 |
 |
+|
 perf
 .
 awesomebar
@@ -17885,6 +18168,7 @@ pullrequestreview
 10
 -
 01
+|
 |
 |
 perf
@@ -17964,6 +18248,7 @@ pullrequestreview
 01
 |
 |
+|
 perf
 .
 awesomebar
@@ -18040,6 +18325,7 @@ pullrequestreview
 10
 -
 01
+|
 |
 |
 preferences
@@ -18133,6 +18419,7 @@ pull
 01
 |
 |
+|
 preferences
 .
 open_links_in_a_private_tab
@@ -18211,6 +18498,7 @@ pull
 10
 -
 01
+|
 |
 |
 preferences
@@ -18293,6 +18581,7 @@ pull
 01
 |
 |
+|
 preferences
 .
 remote_debugging
@@ -18366,6 +18655,7 @@ pull
 10
 -
 01
+|
 |
 |
 preferences
@@ -18444,6 +18734,7 @@ pull
 01
 |
 |
+|
 preferences
 .
 search_browsing_history
@@ -18519,6 +18810,7 @@ pull
 10
 -
 01
+|
 |
 |
 preferences
@@ -18613,6 +18905,7 @@ pull
 01
 |
 |
+|
 preferences
 .
 show_clipboard_suggestions
@@ -18688,6 +18981,7 @@ pull
 10
 -
 01
+|
 |
 |
 preferences
@@ -18766,6 +19060,7 @@ pull
 01
 |
 |
+|
 preferences
 .
 show_search_suggestions
@@ -18839,6 +19134,7 @@ pull
 10
 -
 01
+|
 |
 |
 preferences
@@ -18919,6 +19215,7 @@ pull
 01
 |
 |
+|
 preferences
 .
 sync
@@ -18992,6 +19289,7 @@ pull
 10
 -
 01
+|
 |
 |
 preferences
@@ -19102,6 +19400,7 @@ pull
 01
 |
 |
+|
 preferences
 .
 telemetry
@@ -19196,6 +19495,7 @@ pull
 10
 -
 01
+|
 |
 |
 preferences
@@ -19294,6 +19594,7 @@ pull
 01
 |
 |
+|
 preferences
 .
 toolbar_position
@@ -19374,6 +19675,7 @@ pull
 10
 -
 01
+|
 |
 |
 preferences
@@ -19469,6 +19771,7 @@ pull
 10
 -
 01
+|
 |
 |
 search
@@ -19613,6 +19916,7 @@ pull
 01
 |
 |
+|
 search
 .
 default_engine
@@ -19753,6 +20057,7 @@ pull
 10
 -
 01
+|
 |
 |
 search
@@ -19923,6 +20228,7 @@ pull
 -
 01
 |
+|
 #
 #
 startup
@@ -20067,6 +20373,26 @@ Extras
 |
 Expiration
 |
+[
+Data
+Sensitivity
+]
+(
+https
+:
+/
+/
+wiki
+.
+mozilla
+.
+org
+/
+Firefix
+/
+Data_Collection
+)
+|
 |
 -
 -
@@ -20191,6 +20517,7 @@ pullrequestreview
 10
 -
 01
+|
 |
 |
 startup
@@ -20345,6 +20672,7 @@ pullrequestreview
 01
 |
 |
+|
 startup
 .
 timeline
@@ -20440,6 +20768,7 @@ pullrequestreview
 10
 -
 01
+|
 |
 |
 startup
@@ -20539,6 +20868,30 @@ pull
 -
 01
 |
+|
+Data
+categories
+are
+[
+defined
+here
+]
+(
+https
+:
+/
+/
+wiki
+.
+mozilla
+.
+org
+/
+Firefox
+/
+Data_Collection
+)
+.
 <
 !
 -
