@@ -1298,6 +1298,17 @@ true
 }
 }
 }
+fun
+dismissMenu
+(
+)
+{
+view
+.
+dismissMenu
+(
+)
+}
 /
 *
 *
