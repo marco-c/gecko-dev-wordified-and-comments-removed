@@ -210,6 +210,9 @@ sessionManager
 register
 (
 sessionManagerObserver
+view
+=
+parent
 )
 val
 view
