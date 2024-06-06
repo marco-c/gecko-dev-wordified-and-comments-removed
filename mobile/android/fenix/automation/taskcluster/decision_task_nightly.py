@@ -526,6 +526,29 @@ leanplum_secret
 )
         
 ]
+        
+routes
+=
+[
+"
+notify
+.
+email
+.
+fenix
+-
+eng
+-
+notifications
+mozilla
+.
+com
+.
+on
+-
+failed
+"
+]
     
 )
 def
