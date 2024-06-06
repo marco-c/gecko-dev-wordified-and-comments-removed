@@ -146,7 +146,7 @@ summary
 "
 string
 /
-preference_autocomplete_topsite_summary
+preference_autocomplete_topsite_summary2
 "
 android
 :
@@ -207,7 +207,7 @@ summary
 "
 string
 /
-preference_autocomplete_user_list_summary
+preference_autocomplete_user_list_summary2
 "
 android
 :
