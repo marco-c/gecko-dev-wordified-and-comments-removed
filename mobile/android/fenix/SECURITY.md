@@ -166,6 +166,6 @@ org
 pages
 are
 the
-oficial
+official
 documentation
 .
