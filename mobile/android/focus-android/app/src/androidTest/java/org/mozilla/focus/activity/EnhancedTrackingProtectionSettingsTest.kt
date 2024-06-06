@@ -87,12 +87,6 @@ junit4
 .
 AndroidJUnit4ClassRunner
 import
-java
-.
-io
-.
-IOException
-import
 okhttp3
 .
 mockwebserver
@@ -234,6 +228,12 @@ focus
 testAnnotations
 .
 SmokeTest
+import
+java
+.
+io
+.
+IOException
 RunWith
 (
 AndroidJUnit4ClassRunner

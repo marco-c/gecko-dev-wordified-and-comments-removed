@@ -99,12 +99,6 @@ uiautomator
 .
 Until
 import
-java
-.
-io
-.
-IOException
-import
 okhttp3
 .
 mockwebserver
@@ -300,6 +294,12 @@ focus
 testAnnotations
 .
 SmokeTest
+import
+java
+.
+io
+.
+IOException
 /
 /
 These
