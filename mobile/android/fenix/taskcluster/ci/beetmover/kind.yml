@@ -137,7 +137,7 @@ fenix_taskgraph
 /
 manifests
 /
-fenix_candidates
+fenix_releases
 .
 yml
 shipping_phase
