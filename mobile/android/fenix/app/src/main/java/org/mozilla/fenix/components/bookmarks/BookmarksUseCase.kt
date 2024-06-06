@@ -239,6 +239,12 @@ UInt
 ?
 =
 null
+parentGuid
+:
+String
+?
+=
+null
 )
 :
 Boolean
@@ -277,6 +283,9 @@ storage
 .
 addItem
 (
+parentGuid
+?
+:
 BookmarkRoot
 .
 Mobile
