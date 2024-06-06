@@ -110,19 +110,6 @@ GITHUB_HEAD_SHA
 '
 )
     
-version
-=
-os
-.
-environ
-.
-get
-(
-'
-GITHUB_HEAD_SHA
-'
-)
-    
 owner
 =
 "
