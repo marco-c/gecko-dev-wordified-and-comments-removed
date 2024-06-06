@@ -328,6 +328,13 @@ shipping
 phase
 :
 push
+shipping
+-
+product
+:
+firefox
+-
+android
 treeherder
 :
 symbol
