@@ -1778,6 +1778,15 @@ useCases
 sessionUseCases
 .
 reload
+selectTabUseCase
+=
+components
+.
+useCases
+.
+tabsUseCases
+.
+selectTab
 fragmentStore
 =
 homeFragmentStore
