@@ -4321,6 +4321,16 @@ user
 opened
 the
 app
+(
+from
+cold
+start
+to
+the
+homescreen
+or
+browser
+)
 |
 [
 1
