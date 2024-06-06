@@ -166,15 +166,6 @@ audio_quality_analyzer_api
 .
 .
 :
-callfactory_api
-"
-"
-.
-.
-/
-.
-.
-:
 fec_controller_api
 "
 "

@@ -1003,17 +1003,6 @@ test_support
 /
 api
 :
-callfactory_api
-"
-"
-.
-.
-/
-.
-.
-/
-api
-:
 enable_media_with_defaults
 "
 "
