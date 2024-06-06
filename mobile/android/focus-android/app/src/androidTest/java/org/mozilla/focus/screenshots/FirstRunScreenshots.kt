@@ -219,7 +219,7 @@ screenshot
 Onboarding_1_View
 "
 )
-clickOnboardingNextBtn
+clickOnboardingNextButton
 (
 )
 verifyOnboardingSecondSlide
@@ -233,7 +233,7 @@ screenshot
 Onboarding_2_View
 "
 )
-clickOnboardingNextBtn
+clickOnboardingNextButton
 (
 )
 verifyOnboardingThirdSlide
@@ -247,7 +247,7 @@ screenshot
 Onboarding_3_View
 "
 )
-clickOnboardingNextBtn
+clickOnboardingNextButton
 (
 )
 verifyOnboardingLastSlide
