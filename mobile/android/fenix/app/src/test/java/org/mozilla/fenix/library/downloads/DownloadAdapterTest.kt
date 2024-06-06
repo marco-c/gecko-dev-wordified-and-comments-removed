@@ -203,8 +203,7 @@ return
 the
 number
 of
-tab
-collections
+downloads
 (
 )
 {
