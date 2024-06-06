@@ -1617,6 +1617,12 @@ false
 showAllSessionSuggestions
 =
 true
+showSponsoredSuggestions
+=
+true
+showNonSponsoredSuggestions
+=
+true
 tabId
 =
 "

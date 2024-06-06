@@ -651,6 +651,12 @@ false
 showAllSessionSuggestions
 =
 false
+showSponsoredSuggestions
+=
+false
+showNonSponsoredSuggestions
+=
+false
 searchAccessPoint
 =
 MetricsUtils
