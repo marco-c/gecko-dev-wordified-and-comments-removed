@@ -2111,7 +2111,7 @@ FocusDependencies
 .
 kotlin_coroutines
 debugImplementation
-FocusDependencies
+ComponentsDependencies
 .
 leakcanary
 focusImplementation
