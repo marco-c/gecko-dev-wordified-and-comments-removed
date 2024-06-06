@@ -243,11 +243,6 @@ onCreate
 (
 )
 {
-super
-.
-onCreate
-(
-)
 SoLoader
 .
 init
@@ -314,6 +309,11 @@ start
 )
 }
 }
+super
+.
+onCreate
+(
+)
 }
 private
 var
