@@ -351,7 +351,7 @@ FenixDependencies
 .
 tools_benchmarkgradle
 classpath
-FenixDependencies
+ComponentsDependencies
 .
 androidx_safeargs
 classpath
