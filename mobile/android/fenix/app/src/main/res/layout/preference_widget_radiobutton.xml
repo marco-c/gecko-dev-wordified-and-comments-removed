@@ -347,6 +347,13 @@ lorem
 "
 android
 :
+textAlignment
+=
+"
+viewStart
+"
+android
+:
 textAppearance
 =
 "
@@ -419,6 +426,13 @@ layout_height
 =
 "
 wrap_content
+"
+android
+:
+textAlignment
+=
+"
+viewStart
 "
 android
 :
