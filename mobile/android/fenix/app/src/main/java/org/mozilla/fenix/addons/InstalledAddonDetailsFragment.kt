@@ -1115,6 +1115,13 @@ isClickable
 clickable
 view
 .
+settings
+.
+isClickable
+=
+clickable
+view
+.
 details
 .
 isClickable
