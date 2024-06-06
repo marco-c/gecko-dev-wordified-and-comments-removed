@@ -513,12 +513,6 @@ visible
 =
 false
 )
-verifyCloseTabsButton
-(
-visible
-=
-false
-)
 verifyPrivateSessionHeader
 (
 )
@@ -611,12 +605,6 @@ verifyAddTabButton
 (
 )
 verifyShareTabsButton
-(
-visible
-=
-true
-)
-verifyCloseTabsButton
 (
 visible
 =
