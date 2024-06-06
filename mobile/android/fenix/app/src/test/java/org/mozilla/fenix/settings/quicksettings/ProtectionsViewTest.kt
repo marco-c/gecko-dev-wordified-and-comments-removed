@@ -624,7 +624,7 @@ every
 {
 settings
 .
-shouldUseCookieBanner
+shouldUseCookieBannerPrivateMode
 }
 returns
 false
@@ -730,7 +730,7 @@ every
 {
 settings
 .
-shouldUseCookieBanner
+shouldUseCookieBannerPrivateMode
 }
 returns
 false
@@ -834,7 +834,7 @@ every
 {
 settings
 .
-shouldUseCookieBanner
+shouldUseCookieBannerPrivateMode
 }
 returns
 true
@@ -990,7 +990,7 @@ every
 {
 settings
 .
-shouldUseCookieBanner
+shouldUseCookieBannerPrivateMode
 }
 returns
 true

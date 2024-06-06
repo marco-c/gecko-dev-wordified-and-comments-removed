@@ -684,7 +684,7 @@ settings
 (
 )
 .
-shouldUseCookieBanner
+shouldUseCookieBannerPrivateMode
 }
 returns
 false

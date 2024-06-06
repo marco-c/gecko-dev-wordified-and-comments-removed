@@ -636,7 +636,7 @@ R
 .
 string
 .
-reduce_cookie_banner_details_panel_title_off_for_site
+reduce_cookie_banner_details_panel_title_off_for_site_1
 shortUrl
 )
 CookieBannerUIMode
@@ -652,7 +652,7 @@ R
 .
 string
 .
-reduce_cookie_banner_details_panel_title_on_for_site
+reduce_cookie_banner_details_panel_title_on_for_site_1
 shortUrl
 )
 CookieBannerUIMode
@@ -730,7 +730,7 @@ R
 .
 string
 .
-reduce_cookie_banner_details_panel_description_off_for_site
+reduce_cookie_banner_details_panel_description_off_for_site_1
 appName
 )
 CookieBannerUIMode
@@ -746,7 +746,7 @@ R
 .
 string
 .
-reduce_cookie_banner_details_panel_description_on_for_site_2
+reduce_cookie_banner_details_panel_description_on_for_site_3
 appName
 )
 CookieBannerUIMode

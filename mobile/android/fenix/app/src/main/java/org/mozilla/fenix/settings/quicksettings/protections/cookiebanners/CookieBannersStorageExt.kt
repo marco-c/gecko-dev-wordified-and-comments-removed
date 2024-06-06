@@ -203,7 +203,7 @@ settings
 (
 )
 .
-shouldUseCookieBanner
+shouldUseCookieBannerPrivateMode
 )
 {
 val
