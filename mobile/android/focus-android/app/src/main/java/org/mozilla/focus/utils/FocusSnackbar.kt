@@ -204,6 +204,15 @@ Color
 .
 TRANSPARENT
 )
+view
+.
+setPadding
+(
+0
+0
+0
+0
+)
 }
 fun
 setText
