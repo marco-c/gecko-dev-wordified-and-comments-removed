@@ -470,7 +470,7 @@ withType
 KotlinCompile
 )
 .
-all
+configureEach
 {
 kotlinOptions
 .
@@ -482,7 +482,7 @@ project
 .
 configurations
 .
-all
+configureEach
 {
 /
 /
@@ -1480,7 +1480,7 @@ withType
 KotlinCompile
 )
 .
-all
+configureEach
 {
 kotlinOptions
 .

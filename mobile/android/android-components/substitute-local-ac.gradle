@@ -213,7 +213,7 @@ mavenLocal
 }
 configurations
 .
-all
+configureEach
 {
 config
 -
@@ -236,7 +236,7 @@ strategy
 >
 dependencySubstitution
 {
-all
+configureEach
 {
 dependency
 -
