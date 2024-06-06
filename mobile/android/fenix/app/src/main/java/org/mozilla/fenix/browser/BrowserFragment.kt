@@ -1667,13 +1667,14 @@ view
 .
 let
 {
+view
+-
+>
 FenixSnackbar
 .
 make
 (
-it
-.
-rootView
+view
 Snackbar
 .
 LENGTH_LONG
