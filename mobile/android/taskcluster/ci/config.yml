@@ -1851,3 +1851,15 @@ tasks
 method
 :
 ship
+rebuild
+-
+kinds
+:
+-
+docker
+-
+image
+-
+fetch
+-
+toolchain
