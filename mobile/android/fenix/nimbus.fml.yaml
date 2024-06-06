@@ -734,6 +734,14 @@ is_default_browser_string
 false
 '
 "
+USER_ESTABLISHED_INSTALL
+:
+"
+number_of_app_launches
+>
+=
+4
+"
 actions
 :
 ENABLE_PRIVATE_BROWSING
@@ -925,6 +933,9 @@ trigger
 [
 "
 I_AM_NOT_DEFAULT_BROWSER
+"
+"
+USER_ESTABLISHED_INSTALL
 "
 ]
 style
