@@ -905,9 +905,6 @@ OnboardingThemePicker
 AdapterItem
 .
 OnboardingToolbarPositionPicker
-AdapterItem
-.
-OnboardingTrackingProtection
 )
 )
 /
@@ -963,6 +960,9 @@ addAll
 (
 listOf
 (
+AdapterItem
+.
+OnboardingTrackingProtection
 AdapterItem
 .
 OnboardingPrivacyNotice

@@ -2835,13 +2835,6 @@ labelBuilder
 )
 is
 OnboardingManualSignInViewHolder
--
->
-holder
-.
-bind
-(
-)
 is
 RecentlyVisitedViewHolder
 is

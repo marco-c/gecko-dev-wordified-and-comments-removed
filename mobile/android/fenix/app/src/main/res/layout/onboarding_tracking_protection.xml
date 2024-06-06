@@ -254,7 +254,7 @@ text
 "
 string
 /
-onboarding_tracking_protection_header_3
+onboarding_tracking_protection_header
 "
 android
 :
@@ -362,14 +362,14 @@ id
 /
 header_text
 "
-tools
+android
 :
 text
 =
 "
 string
 /
-onboarding_tracking_protection_description_4
+onboarding_tracking_protection_description
 "
 /
 >

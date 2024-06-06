@@ -340,14 +340,14 @@ layout_marginStart
 "
 52dp
 "
-tools
+android
 :
 text
 =
 "
 string
 /
-onboarding_account_sign_in_header_1
+onboarding_account_sign_in_header
 "
 /
 >
@@ -391,7 +391,7 @@ text
 "
 string
 /
-onboarding_manual_sign_in_description_2
+onboarding_manual_sign_in_description
 "
 android
 :
@@ -455,7 +455,7 @@ text
 "
 string
 /
-onboarding_firefox_account_sign_in_1
+onboarding_firefox_account_sign_in
 "
 app
 :
