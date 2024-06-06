@@ -94,7 +94,6 @@ exportFunction
 (
 function
 (
-val
 )
 {
 }

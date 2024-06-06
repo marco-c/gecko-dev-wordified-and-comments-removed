@@ -66,10 +66,6 @@ exportFunction
 (
 function
 (
-value
-=
-{
-}
 )
 {
 }
