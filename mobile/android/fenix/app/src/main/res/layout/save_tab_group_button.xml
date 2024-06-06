@@ -235,9 +235,8 @@ android
 drawableTint
 =
 "
-color
-/
-foundation_light_theme
+?
+foundation
 "
 android
 :
@@ -290,9 +289,8 @@ android
 textColor
 =
 "
-color
-/
-foundation_light_theme
+?
+contrastText
 "
 /
 >

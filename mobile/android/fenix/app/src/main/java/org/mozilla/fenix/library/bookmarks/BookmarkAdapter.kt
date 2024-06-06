@@ -1168,7 +1168,7 @@ R
 .
 attr
 .
-accent
+accentHighContrast
 containerView
 !
 !
@@ -1567,7 +1567,7 @@ R
 .
 attr
 .
-accent
+accentHighContrast
 containerView
 .
 context

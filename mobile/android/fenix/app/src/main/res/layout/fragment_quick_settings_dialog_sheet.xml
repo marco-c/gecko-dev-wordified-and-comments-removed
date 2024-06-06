@@ -385,7 +385,7 @@ background
 =
 "
 ?
-neutral
+neutralFaded
 "
 app
 :
@@ -636,7 +636,7 @@ background
 =
 "
 ?
-neutral
+neutralFaded
 "
 app
 :

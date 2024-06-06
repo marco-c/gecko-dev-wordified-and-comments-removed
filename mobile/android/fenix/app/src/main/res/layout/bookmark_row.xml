@@ -303,14 +303,6 @@ layout_constraintDimensionRatio
 :
 1
 "
-android
-:
-foregroundTint
-=
-"
-?
-primaryText
-"
 tools
 :
 src
@@ -389,7 +381,7 @@ textColor
 =
 "
 ?
-secondaryText
+primaryText
 "
 app
 :
@@ -613,7 +605,7 @@ background
 =
 "
 ?
-neutral
+neutralFaded
 "
 android
 :

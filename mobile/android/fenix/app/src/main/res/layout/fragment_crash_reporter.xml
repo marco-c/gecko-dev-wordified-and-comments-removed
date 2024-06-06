@@ -277,9 +277,8 @@ android
 textColor
 =
 "
-color
-/
-primary_text_normal_theme
+?
+primaryText
 "
 android
 :
@@ -382,9 +381,8 @@ android
 textColor
 =
 "
-color
-/
-primary_text_normal_theme
+?
+primaryText
 "
 android
 :
@@ -510,9 +508,8 @@ android
 textColor
 =
 "
-color
-/
-foundation_normal_theme
+?
+contrastText
 "
 android
 :
@@ -652,8 +649,9 @@ android
 textColor
 =
 "
-?
-primaryText
+color
+/
+primary_text_light_theme
 "
 android
 :

@@ -281,9 +281,8 @@ android
 textColor
 =
 "
-color
-/
-primary_text_light_theme
+?
+contrastText
 "
 android
 :
