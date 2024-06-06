@@ -1913,6 +1913,8 @@ allowUndo
 requireView
 (
 )
+.
+browserLayout
 snackbarMessage
 requireContext
 (
