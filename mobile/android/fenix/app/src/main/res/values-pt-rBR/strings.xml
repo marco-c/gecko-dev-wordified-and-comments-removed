@@ -1421,7 +1421,6 @@ private_mode_cfr_pos_button_text
 >
 Adicionar
 tela
-inicial
 do
 dispositivo
 <
@@ -3236,6 +3235,8 @@ browser_menu_add_to_homescreen
 >
 Adicionar
 tela
+do
+dispositivo
 <
 /
 string
@@ -28492,7 +28493,6 @@ add_to_homescreen_title
 >
 Adicionar
 tela
-inicial
 do
 dispositivo
 <
