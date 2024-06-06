@@ -112,6 +112,16 @@ action_global_home
 "
 app
 :
+destination
+=
+"
++
+id
+/
+homeFragment
+"
+app
+:
 popUpTo
 =
 "
@@ -124,7 +134,7 @@ app
 popUpToInclusive
 =
 "
-false
+true
 "
 /
 >

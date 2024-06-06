@@ -228,5 +228,5 @@ Config
 .
 channel
 .
-isDebug
+isNightlyOrDebug
 }
