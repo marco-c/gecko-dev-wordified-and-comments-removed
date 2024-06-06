@@ -300,6 +300,7 @@ ToggleProductRecommendation
 :
 PreferencesMiddlewareAction
 UpdateAction
+TelemetryAction
 /
 *
 *
@@ -728,6 +729,7 @@ String
 :
 NavigationMiddlewareAction
 NetworkAction
+TelemetryAction
 /
 *
 *
@@ -764,6 +766,7 @@ String
 )
 :
 NetworkAction
+TelemetryAction
 /
 *
 *

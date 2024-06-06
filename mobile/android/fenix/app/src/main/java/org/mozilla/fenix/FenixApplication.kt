@@ -5598,6 +5598,15 @@ reviewQualityCheckOptInTimeInMillis
 =
 0L
 )
+disabledAds
+.
+set
+(
+!
+settings
+.
+isReviewQualityCheckProductRecommendationsEnabled
+)
 }
 }
 VisibleForTesting
