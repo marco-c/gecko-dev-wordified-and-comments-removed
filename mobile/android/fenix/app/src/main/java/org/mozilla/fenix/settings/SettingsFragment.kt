@@ -2871,7 +2871,7 @@ preferenceMakeDefaultBrowser
 =
 requirePreference
 <
-Preference
+DefaultBrowserPreference
 >
 (
 R
@@ -3005,11 +3005,17 @@ true
 }
 preferenceMakeDefaultBrowser
 .
+apply
+{
+updateSwitch
+(
+)
 onPreferenceClickListener
 =
 getClickListenerForMakeDefaultBrowser
 (
 )
+}
 preferenceOpenLinksInExternalApp
 ?
 .
