@@ -224,6 +224,7 @@ Fragment
 )
 CoroutineScope
 {
+private
 lateinit
 var
 job
@@ -240,7 +241,7 @@ get
 =
 Dispatchers
 .
-Default
+Main
 +
 job
 override
