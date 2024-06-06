@@ -2416,6 +2416,11 @@ openInAppButton
 click
 (
 )
+mDevice
+.
+waitForIdle
+(
+)
 BrowserRobot
 (
 )
