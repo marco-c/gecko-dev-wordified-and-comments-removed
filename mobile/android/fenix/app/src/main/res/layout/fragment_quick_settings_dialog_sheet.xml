@@ -186,13 +186,6 @@ string
 /
 quick_settings_sheet
 "
-android
-:
-orientation
-=
-"
-vertical
-"
 >
 <
 TextView
