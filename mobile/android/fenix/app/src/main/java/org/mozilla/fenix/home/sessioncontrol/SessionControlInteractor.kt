@@ -2250,6 +2250,13 @@ onStoryShown
 storyShown
 :
 PocketStory
+storyPosition
+:
+Pair
+<
+Int
+Int
+>
 )
 {
 pocketStoriesController
@@ -2257,6 +2264,7 @@ pocketStoriesController
 handleStoryShown
 (
 storyShown
+storyPosition
 )
 }
 override

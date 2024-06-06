@@ -5216,6 +5216,16 @@ showPocketRecommendationsFeature
 )
 CustomizeHome
 .
+sponsoredPocket
+.
+set
+(
+settings
+.
+showPocketSponsoredStories
+)
+CustomizeHome
+.
 contile
 .
 set
