@@ -271,16 +271,6 @@ webViewInstance
 !
 !
 .
-setBlockingEnabled
-(
-it
-.
-trackerBlockingEnabled
-)
-webViewInstance
-!
-!
-.
 setRequestDesktop
 (
 it
