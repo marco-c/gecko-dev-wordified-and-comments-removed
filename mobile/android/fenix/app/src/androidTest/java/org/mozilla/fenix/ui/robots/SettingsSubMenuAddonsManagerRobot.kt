@@ -1345,11 +1345,10 @@ allOf
 (
 withContentDescription
 (
-R
-.
-string
-.
-mozac_feature_addons_install_addon_content_description
+"
+Install
+addonName
+"
 )
 isDescendantOfA
 (

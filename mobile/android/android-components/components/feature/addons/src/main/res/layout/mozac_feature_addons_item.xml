@@ -1089,15 +1089,6 @@ attr
 /
 selectableItemBackgroundBorderless
 "
-android
-:
-contentDescription
-=
-"
-string
-/
-mozac_feature_addons_install_addon_content_description
-"
 app
 :
 srcCompat
