@@ -1115,7 +1115,7 @@ containsKey
 (
 locale
 .
-getCountry
+toLanguageTag
 (
 )
 )
@@ -1129,7 +1129,7 @@ get
 (
 locale
 .
-getCountry
+toLanguageTag
 (
 )
 )
