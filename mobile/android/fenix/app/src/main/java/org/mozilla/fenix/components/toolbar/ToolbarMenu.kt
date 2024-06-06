@@ -193,6 +193,12 @@ Item
 (
 )
 object
+AddToFirefoxHome
+:
+Item
+(
+)
+object
 AddToHomeScreen
 :
 Item
