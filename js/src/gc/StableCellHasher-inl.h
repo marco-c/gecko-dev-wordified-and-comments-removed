@@ -775,15 +775,6 @@ tgt
 ;
 MOZ_ASSERT
 (
-!
-IsInsideNursery
-(
-tgt
-)
-)
-;
-MOZ_ASSERT
-(
 CurrentThreadCanAccessRuntime
 (
 tgt
