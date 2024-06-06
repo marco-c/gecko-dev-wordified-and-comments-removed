@@ -895,6 +895,9 @@ invoke
 reportUrl
 )
 }
+dismiss
+(
+)
 }
 is
 QuickSettingsAction
