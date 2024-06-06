@@ -27,6 +27,10 @@ an
 "
 	
 "
+anp
+"
+	
+"
 ar
 "
 	
@@ -213,6 +217,10 @@ ko
 "
 	
 "
+kw
+"
+	
+"
 lo
 "
 	
@@ -319,6 +327,10 @@ trs
 "
 	
 "
+tsz
+"
+	
+"
 tt
 "
 	
@@ -353,10 +365,6 @@ zam
 ADDITIONAL_SCREENSHOT_LOCALES
 =
 [
-	
-"
-anp
-"
 	
 "
 lt
