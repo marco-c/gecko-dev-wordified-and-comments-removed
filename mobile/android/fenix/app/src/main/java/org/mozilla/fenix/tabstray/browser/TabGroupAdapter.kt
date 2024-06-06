@@ -67,8 +67,6 @@ tabstray
 .
 browser
 import
-TabGroupViewHolder
-import
 android
 .
 content
