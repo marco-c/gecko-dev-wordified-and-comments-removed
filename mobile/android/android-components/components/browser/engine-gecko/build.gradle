@@ -324,6 +324,14 @@ implementation
 ComponentsDependencies
 .
 androidx_paging
+implementation
+ComponentsDependencies
+.
+androidx_data_store_preferences
+implementation
+ComponentsDependencies
+.
+androidx_lifecycle_livedata
 testImplementation
 ComponentsDependencies
 .

@@ -6250,6 +6250,10 @@ androidx_datastore
 implementation
 FenixDependencies
 .
+androidx_data_store_preferences
+implementation
+FenixDependencies
+.
 protobuf_javalite
 implementation
 FenixDependencies
