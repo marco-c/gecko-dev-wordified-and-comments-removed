@@ -475,6 +475,9 @@ openBookmarks
 clickAddFolderButton
 (
 )
+verifyKeyboardVisible
+(
+)
 addNewFolderName
 (
 bookmarksFolderName
