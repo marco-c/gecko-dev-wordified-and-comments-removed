@@ -1298,6 +1298,9 @@ TimeUnit
 .
 SECONDS
 )
+conservative
+=
+true
 )
 )
 .
@@ -1562,6 +1565,9 @@ sanitizeURL
 (
 )
 useCaches
+=
+true
+conservative
 =
 true
 )

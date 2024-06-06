@@ -596,6 +596,9 @@ body
 getDownloadStoriesRequestBody
 (
 )
+conservative
+=
+true
 )
 return
 client
@@ -758,6 +761,9 @@ body
 getDeleteProfileRequestBody
 (
 )
+conservative
+=
+true
 )
 val
 response

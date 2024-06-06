@@ -383,6 +383,9 @@ mozilla
 .
 org
 "
+conservative
+=
+true
 )
 assertEquals
 (
@@ -529,6 +532,13 @@ org
 request
 .
 referrerUrl
+)
+assertEquals
+(
+true
+request
+.
+conservative
 )
 val
 headers
