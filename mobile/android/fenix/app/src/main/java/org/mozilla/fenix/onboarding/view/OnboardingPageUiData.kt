@@ -73,6 +73,16 @@ annotation
 .
 DrawableRes
 import
+androidx
+.
+compose
+.
+ui
+.
+layout
+.
+ContentScale
+import
 org
 .
 mozilla
@@ -118,6 +128,10 @@ val
 imageRes
 :
 Int
+val
+imageResContentScale
+:
+ContentScale
 val
 title
 :
