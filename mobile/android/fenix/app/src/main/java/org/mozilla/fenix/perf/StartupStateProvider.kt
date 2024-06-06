@@ -442,7 +442,7 @@ it
 is
 LogEntry
 .
-StartedActivityLogEntry
+ActivityStarted
 }
 if
 (
@@ -496,7 +496,7 @@ listOf
 (
 LogEntry
 .
-StartedActivityLogEntry
+ActivityStarted
 (
 activityClass
 )

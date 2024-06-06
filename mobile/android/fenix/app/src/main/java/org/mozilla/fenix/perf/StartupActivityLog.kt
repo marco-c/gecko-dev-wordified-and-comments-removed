@@ -446,7 +446,7 @@ STOPPED
 is
 LogEntry
 .
-CreatedActivityLogEntry
+ActivityCreated
 -
 >
 "
@@ -463,7 +463,7 @@ CREATED
 is
 LogEntry
 .
-StartedActivityLogEntry
+ActivityStarted
 -
 >
 "
@@ -480,7 +480,7 @@ STARTED
 is
 LogEntry
 .
-StoppedActivityLogEntry
+ActivityStopped
 -
 >
 "
@@ -605,7 +605,7 @@ add
 (
 LogEntry
 .
-CreatedActivityLogEntry
+ActivityCreated
 (
 activity
 :
@@ -631,7 +631,7 @@ add
 (
 LogEntry
 .
-StartedActivityLogEntry
+ActivityStarted
 (
 activity
 :
@@ -657,7 +657,7 @@ add
 (
 LogEntry
 .
-StoppedActivityLogEntry
+ActivityStopped
 (
 activity
 :
@@ -706,7 +706,7 @@ LogEntry
 )
 data
 class
-CreatedActivityLogEntry
+ActivityCreated
 (
 val
 activityClass
@@ -723,7 +723,7 @@ LogEntry
 )
 data
 class
-StartedActivityLogEntry
+ActivityStarted
 (
 val
 activityClass
@@ -740,7 +740,7 @@ LogEntry
 )
 data
 class
-StoppedActivityLogEntry
+ActivityStopped
 (
 val
 activityClass

@@ -568,7 +568,7 @@ add
 (
 LogEntry
 .
-CreatedActivityLogEntry
+ActivityCreated
 (
 activityClass
 )
@@ -594,7 +594,7 @@ add
 (
 LogEntry
 .
-StartedActivityLogEntry
+ActivityStarted
 (
 activityClass
 )
@@ -620,7 +620,7 @@ add
 (
 LogEntry
 .
-StoppedActivityLogEntry
+ActivityStopped
 (
 activityClass
 )
