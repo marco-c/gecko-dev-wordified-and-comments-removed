@@ -331,6 +331,11 @@ MOZ_APP_VERSION
 MOZ_APP_BUILDID
 "
 )
+environment
+=
+BuildConfig
+.
+BUILD_TYPE
 sendEventForNativeCrashes
 =
 true
