@@ -109,12 +109,6 @@ widget
 .
 RecyclerView
 import
-io
-.
-reactivex
-.
-Observer
-import
 org
 .
 mozilla
@@ -690,12 +684,9 @@ HistoryAdapter
 (
 private
 val
-actionEmitter
+historyInteractor
 :
-Observer
-<
-HistoryAction
->
+HistoryInteractor
 )
 :
 AdapterWithJob
@@ -1154,7 +1145,7 @@ LAYOUT_ID
 HistoryDeleteButtonViewHolder
 (
 view
-actionEmitter
+historyInteractor
 )
 HistoryHeaderViewHolder
 .
@@ -1173,7 +1164,7 @@ LAYOUT_ID
 HistoryListItemViewHolder
 (
 view
-actionEmitter
+historyInteractor
 adapterJob
 )
 else
