@@ -1658,7 +1658,7 @@ pressBack
 verifyPrivateSessionMessage
 (
 )
-verifyHomeToolbar
+verifyNavigationToolbar
 (
 )
 }
@@ -1702,7 +1702,7 @@ pressBack
 verifyHomeWordmark
 (
 )
-verifyHomeToolbar
+verifyNavigationToolbar
 (
 )
 }

@@ -832,7 +832,7 @@ verifyNavigationToolbar
 verifyHomePrivateBrowsingButton
 (
 )
-verifyHomeMenu
+verifyHomeMenuButton
 (
 )
 verifyHomeWordmark
