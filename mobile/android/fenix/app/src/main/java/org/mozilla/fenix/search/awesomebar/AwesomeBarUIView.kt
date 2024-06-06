@@ -463,6 +463,9 @@ SearchSuggestionProvider
 Mode
 .
 MULTIPLE_SUGGESTIONS
+limit
+=
+3
 )
 )
 }
