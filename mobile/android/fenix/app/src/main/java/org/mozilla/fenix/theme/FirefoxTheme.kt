@@ -951,6 +951,8 @@ Card
 background
 Menu
 background
+Dialog
+Banner
 var
 layer2
 by
