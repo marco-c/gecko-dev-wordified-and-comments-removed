@@ -258,9 +258,6 @@ processcpu
 "
 ipcmessages
 "
-"
-java
-"
 )
 private
 val
