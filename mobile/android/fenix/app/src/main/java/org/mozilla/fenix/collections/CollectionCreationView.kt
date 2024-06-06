@@ -1832,7 +1832,6 @@ Int
 event
 :
 KeyEvent
-?
 )
 :
 Boolean
@@ -1841,7 +1840,6 @@ return
 if
 (
 event
-?
 .
 action
 =
