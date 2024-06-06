@@ -182,7 +182,7 @@ ArchivedSession
 )
 -
 >
-Boolean
+Unit
 )
 ?
 =
@@ -393,6 +393,9 @@ onArchive
 invoke
 (
 )
+dismiss
+(
+)
 }
 }
 view
@@ -401,8 +404,6 @@ delete_session_button
 .
 setOnClickListener
 {
-if
-(
 onDelete
 ?
 .
@@ -412,15 +413,9 @@ archivedSession
 !
 !
 )
-=
-=
-true
-)
-{
 dismiss
 (
 )
-}
 }
 return
 view

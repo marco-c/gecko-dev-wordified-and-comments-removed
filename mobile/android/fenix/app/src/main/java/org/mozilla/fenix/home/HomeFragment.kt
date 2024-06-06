@@ -2177,7 +2177,6 @@ archivedSession
 .
 bundle
 )
-true
 }
 }
 .
