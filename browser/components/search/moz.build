@@ -87,17 +87,6 @@ manifest
 .
 toml
 "
-"
-test
-/
-marionette
-/
-telemetry
-/
-manifest
-.
-toml
-"
 ]
 XPCSHELL_TESTS_MANIFESTS
 +
