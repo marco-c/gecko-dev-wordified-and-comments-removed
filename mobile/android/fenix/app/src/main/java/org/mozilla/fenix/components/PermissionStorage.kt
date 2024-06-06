@@ -99,9 +99,11 @@ mozilla
 .
 components
 .
-feature
+concept
 .
-sitepermissions
+engine
+.
+permission
 .
 SitePermissions
 import
@@ -109,9 +111,11 @@ mozilla
 .
 components
 .
-feature
+concept
 .
-sitepermissions
+engine
+.
+permission
 .
 SitePermissionsStorage
 import
@@ -170,7 +174,9 @@ context
 .
 components
 .
-sitePermissionsStorage
+core
+.
+geckoSitePermissionsStorage
 )
 {
 suspend
@@ -239,6 +245,7 @@ update
 sitePermissions
 )
 }
+suspend
 fun
 getSitePermissionsPaged
 (

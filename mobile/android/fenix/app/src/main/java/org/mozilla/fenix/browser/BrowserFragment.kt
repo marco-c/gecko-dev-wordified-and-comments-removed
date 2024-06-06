@@ -255,9 +255,11 @@ mozilla
 .
 components
 .
-feature
+concept
 .
-sitepermissions
+engine
+.
+permission
 .
 SitePermissions
 import

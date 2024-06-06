@@ -753,9 +753,11 @@ mozilla
 .
 components
 .
-feature
+concept
 .
-sitepermissions
+engine
+.
+permission
 .
 SitePermissions
 import
@@ -3709,9 +3711,7 @@ components
 .
 core
 .
-permissionStorage
-.
-permissionsStorage
+geckoSitePermissionsStorage
 fragmentManager
 =
 parentFragmentManager
