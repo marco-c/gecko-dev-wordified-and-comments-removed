@@ -537,7 +537,7 @@ bookmark_add_folder_title_edit
 .
 text
 .
-isNullOrEmpty
+isNullOrBlank
 (
 )
 )
