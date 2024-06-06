@@ -463,6 +463,9 @@ History
 .
 Metadata
 (
+position
+=
+1
 title
 =
 "
@@ -493,6 +496,9 @@ History
 .
 Metadata
 (
+position
+=
+1
 title
 =
 "

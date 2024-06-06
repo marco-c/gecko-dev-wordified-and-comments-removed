@@ -515,8 +515,6 @@ notifyItemChanged
 item
 .
 position
-!
-!
 )
 }
 }

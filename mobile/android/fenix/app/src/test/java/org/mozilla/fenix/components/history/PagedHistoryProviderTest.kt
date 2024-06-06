@@ -166,18 +166,6 @@ org
 junit
 .
 Test
-import
-org
-.
-mozilla
-.
-fenix
-.
-library
-.
-history
-.
-History
 class
 PagedHistoryProviderTest
 {
@@ -575,7 +563,7 @@ actualResults
 :
 List
 <
-History
+HistoryDB
 >
 ?
 =
@@ -637,7 +625,7 @@ results
 =
 listOf
 (
-History
+HistoryDB
 .
 Group
 (
@@ -675,7 +663,7 @@ items
 =
 listOf
 (
-History
+HistoryDB
 .
 Metadata
 (
@@ -707,7 +695,7 @@ historyMetadataKey
 =
 historyMetadataKey1
 )
-History
+HistoryDB
 .
 Metadata
 (
@@ -741,7 +729,7 @@ historyMetadataKey2
 )
 )
 )
-History
+HistoryDB
 .
 Regular
 (
@@ -966,7 +954,7 @@ actualResults
 :
 List
 <
-History
+HistoryDB
 >
 ?
 =
@@ -1028,7 +1016,7 @@ results
 =
 listOf
 (
-History
+HistoryDB
 .
 Group
 (
@@ -1066,7 +1054,7 @@ items
 =
 listOf
 (
-History
+HistoryDB
 .
 Metadata
 (
@@ -1303,7 +1291,7 @@ actualResults
 :
 List
 <
-History
+HistoryDB
 >
 ?
 =
@@ -1365,7 +1353,7 @@ results
 =
 listOf
 (
-History
+HistoryDB
 .
 Group
 (
@@ -1403,7 +1391,7 @@ items
 =
 listOf
 (
-History
+HistoryDB
 .
 Metadata
 (
@@ -1963,7 +1951,7 @@ actualResults
 :
 List
 <
-History
+HistoryDB
 >
 ?
 =
@@ -2025,7 +2013,7 @@ results
 =
 listOf
 (
-History
+HistoryDB
 .
 Group
 (
@@ -2047,7 +2035,7 @@ items
 =
 listOf
 (
-History
+HistoryDB
 .
 Metadata
 (
@@ -2079,7 +2067,7 @@ historyMetadataKey
 =
 historyMetadataKey2
 )
-History
+HistoryDB
 .
 Metadata
 (
@@ -2141,7 +2129,7 @@ results
 =
 listOf
 (
-History
+HistoryDB
 .
 Group
 (
@@ -2160,7 +2148,7 @@ emptyList
 (
 )
 )
-History
+HistoryDB
 .
 Regular
 (
@@ -2180,7 +2168,7 @@ visitedAt
 =
 0
 )
-History
+HistoryDB
 .
 Regular
 (
@@ -2200,7 +2188,7 @@ visitedAt
 =
 0
 )
-History
+HistoryDB
 .
 Regular
 (
@@ -2220,7 +2208,7 @@ visitedAt
 =
 0
 )
-History
+HistoryDB
 .
 Group
 (
@@ -2239,7 +2227,7 @@ emptyList
 (
 )
 )
-History
+HistoryDB
 .
 Regular
 (
@@ -2269,7 +2257,7 @@ expectedList
 =
 listOf
 (
-History
+HistoryDB
 .
 Group
 (
@@ -2288,7 +2276,7 @@ emptyList
 (
 )
 )
-History
+HistoryDB
 .
 Regular
 (
@@ -2308,7 +2296,7 @@ visitedAt
 =
 0
 )
-History
+HistoryDB
 .
 Group
 (
@@ -2327,7 +2315,7 @@ emptyList
 (
 )
 )
-History
+HistoryDB
 .
 Regular
 (
