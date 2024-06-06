@@ -387,7 +387,7 @@ openTabsListThreeDotMenu
 verifyCloseAllTabsButton
 (
 )
-verifyShareButton
+verifyShareTabButton
 (
 )
 verifySaveCollection
@@ -561,7 +561,7 @@ openTabsListThreeDotMenu
 verifyCloseAllTabsButton
 (
 )
-verifyShareButton
+verifyShareTabButton
 (
 )
 verifySaveCollection
