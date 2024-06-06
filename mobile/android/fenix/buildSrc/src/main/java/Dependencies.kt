@@ -469,9 +469,9 @@ mozilla_appservices
 "
 0
 .
-44
+48
 .
-0
+1
 "
 const
 val
