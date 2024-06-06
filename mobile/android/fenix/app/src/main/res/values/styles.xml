@@ -421,7 +421,7 @@ UnusedResources
 >
 color
 /
-destructive_normal_theme
+fx_mobile_text_color_warning
 <
 /
 item
@@ -443,7 +443,7 @@ UnusedResources
 >
 color
 /
-destructive_normal_theme
+fx_mobile_text_color_warning
 <
 /
 item
@@ -876,7 +876,7 @@ destructive
 >
 color
 /
-destructive_normal_theme
+fx_mobile_text_color_warning
 <
 /
 item
@@ -4242,7 +4242,7 @@ iconTint
 >
 color
 /
-destructive_normal_theme
+fx_mobile_text_color_warning
 <
 /
 item
@@ -4259,7 +4259,7 @@ textColor
 >
 color
 /
-destructive_normal_theme
+fx_mobile_text_color_warning
 <
 /
 item

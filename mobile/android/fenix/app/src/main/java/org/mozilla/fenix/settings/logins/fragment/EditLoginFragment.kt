@@ -1430,7 +1430,7 @@ R
 .
 color
 .
-destructive_normal_theme
+fx_mobile_text_color_warning
 )
 )
 )
@@ -1516,7 +1516,7 @@ R
 .
 color
 .
-destructive_normal_theme
+fx_mobile_text_color_warning
 )
 )
 )
