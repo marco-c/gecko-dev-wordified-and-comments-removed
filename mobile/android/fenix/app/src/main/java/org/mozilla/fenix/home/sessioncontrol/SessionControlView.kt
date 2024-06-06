@@ -707,10 +707,10 @@ AdapterItem
 OnboardingWhatsNew
 AdapterItem
 .
-OnboardingThemePicker
+OnboardingTrackingProtection
 AdapterItem
 .
-OnboardingTrackingProtection
+OnboardingThemePicker
 AdapterItem
 .
 OnboardingPrivateBrowsing

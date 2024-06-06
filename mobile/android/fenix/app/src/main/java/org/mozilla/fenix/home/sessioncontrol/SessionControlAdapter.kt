@@ -1486,6 +1486,7 @@ LAYOUT_ID
 OnboardingPrivateBrowsingViewHolder
 (
 view
+interactor
 )
 OnboardingPrivacyNoticeViewHolder
 .
