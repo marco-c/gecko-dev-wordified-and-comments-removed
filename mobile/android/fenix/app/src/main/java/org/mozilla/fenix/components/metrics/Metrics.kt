@@ -2164,6 +2164,9 @@ toString
 .
 toLowerCase
 (
+Locale
+.
+ROOT
 )
 )
 }
