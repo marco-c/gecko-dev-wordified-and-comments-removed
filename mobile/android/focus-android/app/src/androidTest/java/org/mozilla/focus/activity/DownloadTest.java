@@ -1001,7 +1001,7 @@ savedNotification
 .
 swipeRight
 (
-600
+50
 )
 ;
 TestHelper
