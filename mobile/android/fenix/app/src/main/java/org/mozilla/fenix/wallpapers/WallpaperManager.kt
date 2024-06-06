@@ -199,7 +199,7 @@ with
 (
 settings
 .
-currentWallpaper
+currentWallpaperName
 )
 {
 return

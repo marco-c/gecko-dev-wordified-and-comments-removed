@@ -28,6 +28,8 @@ org
 junit
 .
 Assert
+.
+assertEquals
 import
 org
 .
@@ -119,7 +121,7 @@ fileManager
 =
 WallpaperFileManager
 (
-rootDirectory
+storageRootDirectory
 =
 tempFolder
 .
@@ -177,8 +179,6 @@ name
 =
 wallpaperName
 )
-Assert
-.
 assertEquals
 (
 expected
@@ -263,8 +263,6 @@ lookupExpiredWallpaper
 (
 wallpaperName
 )
-Assert
-.
 assertEquals
 (
 null
@@ -349,8 +347,6 @@ lookupExpiredWallpaper
 (
 wallpaperName
 )
-Assert
-.
 assertEquals
 (
 null
@@ -435,8 +431,6 @@ lookupExpiredWallpaper
 (
 wallpaperName
 )
-Assert
-.
 assertEquals
 (
 null
@@ -456,6 +450,8 @@ wallpapers
 kept
 (
 )
+=
+runTest
 {
 val
 currentName

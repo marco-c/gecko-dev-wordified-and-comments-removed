@@ -1269,7 +1269,7 @@ default
 "
 )
 var
-currentWallpaper
+currentWallpaperName
 by
 stringPreference
 (

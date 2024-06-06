@@ -88,7 +88,7 @@ every
 {
 mockSettings
 .
-currentWallpaper
+currentWallpaperName
 }
 returns
 "
@@ -137,7 +137,7 @@ every
 {
 mockSettings
 .
-currentWallpaper
+currentWallpaperName
 }
 returns
 WallpaperManager
@@ -189,7 +189,7 @@ every
 {
 mockSettings
 .
-currentWallpaper
+currentWallpaperName
 }
 returns
 "
