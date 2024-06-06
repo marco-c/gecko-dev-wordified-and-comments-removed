@@ -552,6 +552,10 @@ craft_lint_task
 BUILDER
 .
 craft_compare_locales_task
+        
+BUILDER
+.
+craft_dependencies_task
     
 )
 :
