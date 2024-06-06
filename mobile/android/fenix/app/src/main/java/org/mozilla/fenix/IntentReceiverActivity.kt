@@ -717,15 +717,6 @@ intentProcessor
 )
 }
 return
-listOf
-(
-components
-.
-intentProcessors
-.
-migrationIntentProcessor
-)
-+
 components
 .
 intentProcessors

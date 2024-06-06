@@ -6955,13 +6955,6 @@ null
 is
 Event
 .
-FennecToFenixMigrated
--
->
-null
-is
-Event
-.
 AddonInstalled
 -
 >

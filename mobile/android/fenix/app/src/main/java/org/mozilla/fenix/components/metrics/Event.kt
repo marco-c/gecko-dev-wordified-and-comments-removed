@@ -1242,12 +1242,6 @@ deselected
 )
 }
 object
-FennecToFenixMigrated
-:
-Event
-(
-)
-object
 AddonsOpenInSettings
 :
 Event

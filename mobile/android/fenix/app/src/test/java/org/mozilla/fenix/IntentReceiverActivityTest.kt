@@ -412,16 +412,6 @@ every
 {
 intentProcessors
 .
-migrationIntentProcessor
-}
-returns
-mockIntentProcessor
-(
-)
-every
-{
-intentProcessors
-.
 externalDeepLinkIntentProcessor
 }
 returns
