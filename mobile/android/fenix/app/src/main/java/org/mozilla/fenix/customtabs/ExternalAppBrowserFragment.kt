@@ -931,6 +931,13 @@ gravity
 getAppropriateLayoutGravity
 (
 )
+certificateName
+=
+session
+.
+securityInfo
+.
+issuer
 )
 nav
 (

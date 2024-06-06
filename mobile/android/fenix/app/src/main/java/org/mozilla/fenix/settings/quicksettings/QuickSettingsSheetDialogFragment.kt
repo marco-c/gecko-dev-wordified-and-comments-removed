@@ -481,6 +481,11 @@ getInstance
 (
 context
 )
+certificateName
+=
+args
+.
+certificateName
 )
 quickSettingsController
 =

@@ -497,6 +497,9 @@ url
 "
 Hello
 "
+"
+issuer
+"
 true
 permissions
 settings
@@ -585,6 +588,12 @@ websiteTitle
 Hello
 "
 val
+certificateIssuer
+=
+"
+issuer
+"
+val
 securedStatus
 =
 true
@@ -598,6 +607,7 @@ createWebsiteInfoState
 websiteUrl
 websiteTitle
 securedStatus
+certificateIssuer
 )
 assertAll
 {
@@ -704,6 +714,12 @@ websiteTitle
 Hello
 "
 val
+certificateIssuer
+=
+"
+issuer
+"
+val
 securedStatus
 =
 false
@@ -717,6 +733,7 @@ createWebsiteInfoState
 websiteUrl
 websiteTitle
 securedStatus
+certificateIssuer
 )
 assertAll
 {
