@@ -301,7 +301,7 @@ private
 val
 bookmarks
 =
-testableBookmarksStorage
+TestableBookmarksStorage
 (
 )
 private
@@ -1542,7 +1542,7 @@ focus
 }
 SuppressWarnings
 class
-testableBookmarksStorage
+TestableBookmarksStorage
 :
 BookmarksStorage
 {

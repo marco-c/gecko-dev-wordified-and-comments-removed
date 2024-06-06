@@ -265,10 +265,8 @@ Delegate
 )
 {
 /
-*
-noop
-*
 /
+noop
 }
 override
 fun
@@ -280,10 +278,8 @@ Boolean
 )
 {
 /
-*
-noop
-*
 /
+noop
 }
 }
 RunWith

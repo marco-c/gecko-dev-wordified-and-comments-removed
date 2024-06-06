@@ -262,12 +262,6 @@ null
 )
 {
 VisibleForTesting
-Suppress
-(
-"
-MaxLineLength
-"
-)
 internal
 var
 gestureDetector

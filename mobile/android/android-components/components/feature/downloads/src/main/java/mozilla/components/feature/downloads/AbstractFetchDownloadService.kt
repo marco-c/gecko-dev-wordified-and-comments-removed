@@ -4454,12 +4454,6 @@ COMPLETED
 ERROR_IN_STREAM_CLOSED
 }
 VisibleForTesting
-Suppress
-(
-"
-MaxLineLength
-"
-)
 internal
 fun
 copyInChunks

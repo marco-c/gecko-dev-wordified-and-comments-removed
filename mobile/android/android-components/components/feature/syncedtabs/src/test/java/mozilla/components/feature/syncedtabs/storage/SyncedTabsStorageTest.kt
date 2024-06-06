@@ -983,8 +983,9 @@ store
 listOf
 (
 )
+)
 /
-*
+/
 any
 (
 )
@@ -995,9 +996,6 @@ so
 we
 send
 garbage
-*
-/
-)
 }
 Test
 fun

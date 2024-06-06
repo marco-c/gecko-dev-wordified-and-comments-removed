@@ -554,7 +554,6 @@ id
 =
 1710447
 *
-*
 /
 VisibleForTesting
 internal
@@ -1271,7 +1270,6 @@ components
 issues
 /
 6322
-*
 *
 /
 clearGeckoCacheFor

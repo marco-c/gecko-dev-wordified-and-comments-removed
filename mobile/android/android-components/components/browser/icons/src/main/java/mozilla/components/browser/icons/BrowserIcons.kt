@@ -727,14 +727,14 @@ Bitmap
 .
 *
 /
-class
-BrowserIcons
 Suppress
 (
 "
 LongParameterList
 "
 )
+class
+BrowserIcons
 constructor
 (
 private

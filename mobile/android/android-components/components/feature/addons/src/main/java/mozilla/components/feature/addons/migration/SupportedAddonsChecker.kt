@@ -636,9 +636,6 @@ Suppress
 "
 TooGenericExceptionCaught
 "
-"
-MaxLineLength
-"
 )
 override
 suspend
