@@ -431,6 +431,12 @@ handleHomeButtonClick
 (
 )
 }
+Suppress
+(
+"
+LongParameterList
+"
+)
 class
 DefaultBrowserToolbarController
 (

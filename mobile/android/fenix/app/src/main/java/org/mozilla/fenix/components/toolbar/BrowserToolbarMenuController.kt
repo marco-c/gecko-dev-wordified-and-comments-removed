@@ -558,6 +558,9 @@ LargeClass
 "
 ForbiddenComment
 "
+"
+LongParameterList
+"
 )
 class
 DefaultBrowserToolbarMenuController

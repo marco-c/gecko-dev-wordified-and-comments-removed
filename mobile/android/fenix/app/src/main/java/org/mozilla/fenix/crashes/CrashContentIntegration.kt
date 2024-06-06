@@ -463,6 +463,12 @@ hidden
 .
 *
 /
+Suppress
+(
+"
+LongParameterList
+"
+)
 class
 CrashContentIntegration
 (

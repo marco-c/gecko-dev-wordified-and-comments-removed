@@ -214,6 +214,12 @@ deleteDownloads
 (
 )
 }
+Suppress
+(
+"
+LongParameterList
+"
+)
 class
 DefaultDeleteBrowsingDataController
 (

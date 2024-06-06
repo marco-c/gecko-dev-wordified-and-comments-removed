@@ -180,6 +180,12 @@ components
 toolbar
 .
 ToolbarMenu
+Suppress
+(
+"
+LongParameterList
+"
+)
 class
 CustomTabsIntegration
 (
