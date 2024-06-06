@@ -394,6 +394,8 @@ url
 )
 )
 cancelClearSiteDataButton
+(
+)
 .
 check
 (
@@ -405,6 +407,8 @@ isDisplayed
 )
 )
 deleteSiteDataButton
+(
+)
 .
 check
 (
@@ -862,8 +866,10 @@ url
 )
 )
 private
-val
+fun
 cancelClearSiteDataButton
+(
+)
 =
 onView
 (
@@ -888,8 +894,10 @@ isDialog
 )
 )
 private
-val
+fun
 deleteSiteDataButton
+(
+)
 =
 onView
 (
