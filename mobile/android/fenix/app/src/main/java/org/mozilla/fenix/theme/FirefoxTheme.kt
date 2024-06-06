@@ -387,7 +387,7 @@ textAccentDisabled
 PhotonColors
 .
 Violet20A60
-textOnColor
+textOnColorPrimary
 =
 PhotonColors
 .
@@ -669,7 +669,7 @@ textAccentDisabled
 PhotonColors
 .
 Violet70A80
-textOnColor
+textOnColorPrimary
 =
 PhotonColors
 .
@@ -921,7 +921,7 @@ Color
 textAccentDisabled
 :
 Color
-textOnColor
+textOnColorPrimary
 :
 Color
 textActionPrimary
@@ -1418,11 +1418,11 @@ Inverted
 On
 Color
 var
-textOnColor
+textOnColorPrimary
 by
 mutableStateOf
 (
-textOnColor
+textOnColorPrimary
 )
 private
 set
@@ -1911,11 +1911,11 @@ textAccentDisabled
 other
 .
 textAccentDisabled
-textOnColor
+textOnColorPrimary
 =
 other
 .
-textOnColor
+textOnColorPrimary
 textActionPrimary
 =
 other
@@ -2140,9 +2140,9 @@ textAccent
 textAccentDisabled
 =
 textAccentDisabled
-textOnColor
+textOnColorPrimary
 =
-textOnColor
+textOnColorPrimary
 textActionPrimary
 =
 textActionPrimary

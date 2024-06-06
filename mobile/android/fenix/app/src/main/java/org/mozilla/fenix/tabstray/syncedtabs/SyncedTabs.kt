@@ -1420,7 +1420,7 @@ FirefoxTheme
 .
 colors
 .
-textOnColor
+textOnColorPrimary
 )
 Spacer
 (
@@ -1454,7 +1454,7 @@ FirefoxTheme
 .
 colors
 .
-textOnColor
+textOnColorPrimary
 fontSize
 =
 14

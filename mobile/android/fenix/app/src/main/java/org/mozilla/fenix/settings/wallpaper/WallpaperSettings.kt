@@ -969,7 +969,7 @@ FirefoxTheme
 .
 colors
 .
-textOnColor
+textOnColorPrimary
 fontFamily
 =
 FontFamily
@@ -1062,7 +1062,7 @@ FirefoxTheme
 .
 colors
 .
-textOnColor
+textOnColorPrimary
 fontFamily
 =
 FontFamily
