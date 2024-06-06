@@ -1157,17 +1157,6 @@ download
 Download
 "
 )
-itemWithResIdAndText
-(
-"
-openInApp
-"
-"
-Open
-in
-app
-"
-)
 )
 class
 Transition

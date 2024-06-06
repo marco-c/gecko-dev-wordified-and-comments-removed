@@ -1908,17 +1908,6 @@ download
 Download
 "
 )
-itemWithResIdContainingText
-(
-"
-openInApp
-"
-"
-Open
-in
-app
-"
-)
 )
 fun
 clickSubmitLoginButton
