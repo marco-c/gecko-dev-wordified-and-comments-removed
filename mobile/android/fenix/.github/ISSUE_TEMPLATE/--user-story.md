@@ -24,8 +24,12 @@ an
 Epic
 title
 :
-'
-'
+"
+[
+User
+Story
+]
+"
 labels
 :
 '
