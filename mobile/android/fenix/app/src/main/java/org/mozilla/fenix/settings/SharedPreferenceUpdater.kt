@@ -67,6 +67,7 @@ key
 .
 *
 /
+open
 class
 SharedPreferenceUpdater
 :

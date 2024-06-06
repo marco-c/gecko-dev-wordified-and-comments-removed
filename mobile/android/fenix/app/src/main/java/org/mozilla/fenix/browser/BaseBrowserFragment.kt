@@ -1293,6 +1293,9 @@ from
 (
 nestedScrollQuickAction
 )
+scope
+=
+lifecycleScope
 )
 browserInteractor
 =

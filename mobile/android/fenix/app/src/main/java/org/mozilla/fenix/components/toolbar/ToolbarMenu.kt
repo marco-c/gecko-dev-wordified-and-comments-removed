@@ -198,6 +198,12 @@ AddToHomeScreen
 Item
 (
 )
+object
+Quit
+:
+Item
+(
+)
 }
 val
 menuBuilder
