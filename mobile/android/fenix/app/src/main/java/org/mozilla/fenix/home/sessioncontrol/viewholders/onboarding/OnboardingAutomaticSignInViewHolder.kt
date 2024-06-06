@@ -271,7 +271,7 @@ init
 {
 view
 .
-turn_on_sync_button
+fxa_sign_in_button
 .
 setOnClickListener
 {
@@ -283,7 +283,7 @@ onClick
 (
 it
 .
-turn_on_sync_button
+fxa_sign_in_button
 )
 }
 }

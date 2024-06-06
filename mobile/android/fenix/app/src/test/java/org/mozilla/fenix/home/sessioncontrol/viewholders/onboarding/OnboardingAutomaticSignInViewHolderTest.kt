@@ -462,7 +462,7 @@ assertTrue
 (
 view
 .
-turn_on_sync_button
+fxa_sign_in_button
 .
 isEnabled
 )
@@ -538,7 +538,7 @@ onClick
 (
 view
 .
-turn_on_sync_button
+fxa_sign_in_button
 )
 assertEquals
 (
@@ -548,7 +548,7 @@ in
 "
 view
 .
-turn_on_sync_button
+fxa_sign_in_button
 .
 text
 )
@@ -556,7 +556,7 @@ assertFalse
 (
 view
 .
-turn_on_sync_button
+fxa_sign_in_button
 .
 isEnabled
 )
@@ -634,7 +634,7 @@ onClick
 (
 view
 .
-turn_on_sync_button
+fxa_sign_in_button
 )
 assertEquals
 (
@@ -646,7 +646,7 @@ in
 "
 view
 .
-turn_on_sync_button
+fxa_sign_in_button
 .
 text
 )
@@ -654,7 +654,7 @@ assertTrue
 (
 view
 .
-turn_on_sync_button
+fxa_sign_in_button
 .
 isEnabled
 )
