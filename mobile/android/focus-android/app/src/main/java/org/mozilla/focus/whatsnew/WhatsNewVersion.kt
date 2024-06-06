@@ -75,6 +75,8 @@ mozilla
 .
 components
 .
+support
+.
 ktx
 .
 android

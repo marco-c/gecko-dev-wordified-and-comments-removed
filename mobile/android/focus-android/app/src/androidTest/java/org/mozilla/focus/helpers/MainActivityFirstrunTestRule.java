@@ -77,6 +77,8 @@ mozilla
 .
 components
 .
+support
+.
 utils
 .
 ThreadUtils

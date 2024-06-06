@@ -105,7 +105,7 @@ focus
 .
 search
 .
-MultiselectSearchEngineListPreference
+CustomSearchEngineStore
 import
 org
 .
@@ -115,7 +115,7 @@ focus
 .
 search
 .
-SearchEngineManager
+MultiselectSearchEngineListPreference
 import
 org
 .
@@ -385,14 +385,12 @@ enginesToRemove
 .
 size
 )
-SearchEngineManager
+CustomSearchEngineStore
 .
 removeSearchEngines
 (
+activity
 enginesToRemove
-getSearchEngineSharedPreferences
-(
-)
 )
 fragmentManager
 .

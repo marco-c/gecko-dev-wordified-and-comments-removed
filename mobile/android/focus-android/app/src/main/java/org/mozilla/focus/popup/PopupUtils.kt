@@ -149,6 +149,8 @@ mozilla
 .
 components
 .
+support
+.
 ktx
 .
 android
@@ -162,6 +164,8 @@ import
 mozilla
 .
 components
+.
+support
 .
 utils
 .

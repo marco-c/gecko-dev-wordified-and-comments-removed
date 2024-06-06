@@ -143,6 +143,8 @@ mozilla
 .
 components
 .
+support
+.
 utils
 .
 SafeIntent
@@ -151,6 +153,8 @@ import
 mozilla
 .
 components
+.
+support
 .
 utils
 .

@@ -155,6 +155,8 @@ mozilla
 .
 components
 .
+browser
+.
 domains
 .
 DomainAutoCompleteProvider
@@ -184,6 +186,8 @@ import
 mozilla
 .
 components
+.
+support
 .
 utils
 .
@@ -3183,6 +3187,7 @@ autocomplete
 searchText
 {
 result
+_
 source
 size
 -
