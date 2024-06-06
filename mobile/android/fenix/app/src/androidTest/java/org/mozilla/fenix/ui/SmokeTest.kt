@@ -3163,6 +3163,12 @@ verifySavedLoginFromPrompt
 )
 viewSavedLoginDetails
 (
+"
+test
+example
+.
+com
+"
 )
 revealPassword
 (
