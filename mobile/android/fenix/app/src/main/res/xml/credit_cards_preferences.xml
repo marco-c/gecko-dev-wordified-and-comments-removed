@@ -191,6 +191,13 @@ preferences_credit_cards_sync_cards_across_devices
 "
 app
 :
+singleLineTitle
+=
+"
+false
+"
+app
+:
 allowDividerBelow
 =
 "
