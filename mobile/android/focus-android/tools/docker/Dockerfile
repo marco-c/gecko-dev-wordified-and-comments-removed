@@ -1200,7 +1200,7 @@ testFocusWebviewDebugUnitTest
 lint
 pmd
 checkstyle
-findbugs
+spotbugs
 detektCheck
 ktlint
 #

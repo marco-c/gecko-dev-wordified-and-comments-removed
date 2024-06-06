@@ -359,7 +359,7 @@ ktlint
 lint
 pmd
 checkstyle
-findbugs
+spotbugs
 '
 		
 dependencies
