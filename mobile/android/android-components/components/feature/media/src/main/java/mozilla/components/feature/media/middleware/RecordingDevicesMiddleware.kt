@@ -893,7 +893,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_microphone
+mozac_ic_microphone_24
 override
 val
 titleResource

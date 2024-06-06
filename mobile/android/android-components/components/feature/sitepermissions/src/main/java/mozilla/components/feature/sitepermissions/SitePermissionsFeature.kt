@@ -4105,7 +4105,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_microphone
+mozac_ic_microphone_24
 showDoNotAskAgainCheckBox
 =
 shouldShowDoNotAskAgainCheckBox
@@ -4251,7 +4251,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_microphone
+mozac_ic_microphone_24
 showDoNotAskAgainCheckBox
 =
 shouldShowDoNotAskAgainCheckBox
