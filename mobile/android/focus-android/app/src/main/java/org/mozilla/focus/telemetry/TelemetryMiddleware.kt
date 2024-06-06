@@ -305,6 +305,7 @@ finishes
 loading
 if
 (
+!
 tab
 .
 content
