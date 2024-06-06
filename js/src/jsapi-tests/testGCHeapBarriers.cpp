@@ -970,6 +970,14 @@ nozeal
 cx
 )
 ;
+AutoGCParameter
+disableSemispace
+(
+cx
+JSGC_SEMISPACE_NURSERY_ENABLED
+0
+)
+;
 JS_GC
 (
 cx
