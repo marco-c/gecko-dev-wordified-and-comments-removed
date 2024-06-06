@@ -417,7 +417,7 @@ updateState
 {
 if
 (
-savedSearchEngineName
+engineNameEditText
 !
 =
 null
@@ -433,7 +433,7 @@ savedSearchEngineName
 }
 if
 (
-savedSearchQuery
+searchQueryEditText
 !
 =
 null
