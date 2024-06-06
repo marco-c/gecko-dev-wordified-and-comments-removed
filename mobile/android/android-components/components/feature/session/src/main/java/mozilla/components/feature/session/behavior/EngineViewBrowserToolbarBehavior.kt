@@ -336,6 +336,16 @@ newToolbarTranslationY
 Float
 -
 >
+if
+(
+!
+newToolbarTranslationY
+.
+isNaN
+(
+)
+)
+{
 engineView
 ?
 .
@@ -348,6 +358,7 @@ roundToInt
 (
 )
 )
+}
 }
 private
 val
