@@ -5500,13 +5500,11 @@ enabled
 Boolean
 )
 {
-TODO
+browserToolbarView
+.
+setScrollFlags
 (
-"
-Not
-yet
-implemented
-"
+enabled
 )
 }
 }
