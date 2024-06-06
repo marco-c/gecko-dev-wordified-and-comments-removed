@@ -65,9 +65,7 @@ fenix
 .
 home
 .
-sessioncontrol
-.
-viewholders
+topsites
 import
 android
 .

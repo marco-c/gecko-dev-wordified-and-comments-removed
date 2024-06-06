@@ -123,10 +123,6 @@ fenix
 .
 home
 .
-sessioncontrol
-.
-viewholders
-.
 topsites
 .
 TopSiteItemViewHolder

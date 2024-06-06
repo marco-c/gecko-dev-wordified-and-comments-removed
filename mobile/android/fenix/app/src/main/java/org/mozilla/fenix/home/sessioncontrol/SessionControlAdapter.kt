@@ -391,9 +391,7 @@ fenix
 .
 home
 .
-sessioncontrol
-.
-viewholders
+topsites
 .
 TopSitePagerViewHolder
 import

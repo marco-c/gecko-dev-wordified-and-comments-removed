@@ -1193,10 +1193,6 @@ fenix
 .
 home
 .
-sessioncontrol
-.
-viewholders
-.
 topsites
 .
 DefaultTopSitesView

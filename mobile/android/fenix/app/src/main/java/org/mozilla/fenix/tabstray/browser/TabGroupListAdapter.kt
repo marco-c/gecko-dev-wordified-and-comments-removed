@@ -243,10 +243,6 @@ fenix
 .
 home
 .
-sessioncontrol
-.
-viewholders
-.
 topsites
 .
 dpToPx
