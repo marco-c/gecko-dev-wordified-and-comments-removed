@@ -399,7 +399,7 @@ android
 ellipsize
 =
 "
-none
+end
 "
 android
 :
@@ -441,6 +441,15 @@ favicon_image
 "
 app
 :
+layout_constraintEnd_toStartOf
+=
+"
+id
+/
+tab_selected_checkbox
+"
+app
+:
 layout_constraintTop_toTopOf
 =
 "
@@ -458,6 +467,8 @@ tools
 sample
 /
 lorem
+/
+random
 "
 /
 >
