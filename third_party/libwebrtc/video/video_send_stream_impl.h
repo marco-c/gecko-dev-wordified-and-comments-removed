@@ -1036,6 +1036,14 @@ RTC_GUARDED_BY
 thread_checker_
 )
 ;
+const
+int
+encoder_av1_priority_bitrate_override_bps_
+RTC_GUARDED_BY
+(
+thread_checker_
+)
+;
 ScopedTaskSafety
 worker_queue_safety_
 ;
