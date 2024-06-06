@@ -207,30 +207,6 @@ task
             
 continue
         
-task
-[
-"
-dependencies
-"
-]
-[
-"
-startup
--
-test
-"
-]
-=
-"
-startup
--
-test
--
-nightly
--
-arm
-"
-        
 for
 dep_label
 dep_task
