@@ -870,11 +870,9 @@ collection
 name
 =
 =
-"
-classic
--
-firefox
-"
+Wallpaper
+.
+classicFirefoxCollectionName
 )
 {
 Text
