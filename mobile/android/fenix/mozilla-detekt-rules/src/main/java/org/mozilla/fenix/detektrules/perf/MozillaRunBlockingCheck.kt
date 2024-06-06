@@ -64,6 +64,8 @@ mozilla
 fenix
 .
 detektrules
+.
+perf
 import
 io
 .
@@ -201,18 +203,6 @@ runBlocking
 *
 are
 used
-.
-*
-*
-IF
-YOU
-UPDATE
-THIS
-FILE
-NAME
-UPDATE
-CODE
-OWNERS
 .
 *
 /

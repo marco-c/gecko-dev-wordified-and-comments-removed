@@ -64,6 +64,8 @@ mozilla
 fenix
 .
 detektrules
+.
+perf
 import
 io
 .
@@ -219,18 +221,6 @@ to
 prevent
 suppressing
 StrictMode
-.
-*
-*
-IF
-YOU
-UPDATE
-THIS
-FILE
-NAME
-UPDATE
-CODE
-OWNERS
 .
 *
 /

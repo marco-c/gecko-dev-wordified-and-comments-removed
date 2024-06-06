@@ -72,6 +72,8 @@ mozilla
 fenix
 .
 detektrules
+.
+perf
 import
 io
 .
