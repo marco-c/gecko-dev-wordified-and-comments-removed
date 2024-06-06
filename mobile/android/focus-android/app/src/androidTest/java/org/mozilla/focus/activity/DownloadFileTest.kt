@@ -243,6 +243,16 @@ TestHelper
 .
 waitingTime
 import
+org
+.
+mozilla
+.
+focus
+.
+testAnnotations
+.
+SmokeTest
+import
 java
 .
 io
@@ -510,6 +520,7 @@ jpg
 "
 )
 }
+SmokeTest
 Test
 fun
 downloadNotificationTest
@@ -611,6 +622,7 @@ verifyDownloadNotification
 )
 }
 }
+SmokeTest
 Test
 fun
 cancelDownloadTest
@@ -682,6 +694,7 @@ verifyDownloadDialogGone
 )
 }
 }
+SmokeTest
 Test
 fun
 openDownloadFileTest

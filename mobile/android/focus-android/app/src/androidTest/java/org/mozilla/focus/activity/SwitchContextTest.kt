@@ -287,6 +287,16 @@ TestHelper
 .
 waitingTime
 import
+org
+.
+mozilla
+.
+focus
+.
+testAnnotations
+.
+SmokeTest
+import
 java
 .
 io
@@ -543,6 +553,7 @@ issues
 4823
 "
 )
+SmokeTest
 Test
 fun
 notificationOpenButtonTest

@@ -162,6 +162,16 @@ helpers
 TestHelper
 .
 exitToTop
+import
+org
+.
+mozilla
+.
+focus
+.
+testAnnotations
+.
+SmokeTest
 /
 /
 This
@@ -201,6 +211,7 @@ showFirstRun
 =
 false
 )
+SmokeTest
 Test
 fun
 openMenuWhatsNewPageTest
@@ -229,6 +240,7 @@ org
 )
 }
 }
+SmokeTest
 Test
 fun
 openMenuHelpPageTest
@@ -443,6 +455,7 @@ focus
 )
 }
 }
+SmokeTest
 Test
 fun
 turnOffHomeScreenTipsTest

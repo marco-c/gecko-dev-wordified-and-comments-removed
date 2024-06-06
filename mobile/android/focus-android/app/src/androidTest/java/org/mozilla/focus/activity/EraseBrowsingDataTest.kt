@@ -361,6 +361,16 @@ mozilla
 .
 focus
 .
+testAnnotations
+.
+SmokeTest
+import
+org
+.
+mozilla
+.
+focus
+.
 utils
 .
 FeatureFlags
@@ -549,6 +559,7 @@ e
 )
 }
 }
+SmokeTest
 Test
 fun
 trashButtonTest
@@ -672,6 +683,7 @@ issues
 4823
 "
 )
+SmokeTest
 Test
 fun
 notificationEraseAndOpenButtonTest
@@ -797,6 +809,7 @@ verifyEmptySearchBar
 )
 }
 }
+SmokeTest
 Test
 fun
 deleteHistoryOnRestartTest
@@ -862,6 +875,7 @@ is
 solved
 "
 )
+SmokeTest
 Test
 fun
 systemBarHomeViewTest

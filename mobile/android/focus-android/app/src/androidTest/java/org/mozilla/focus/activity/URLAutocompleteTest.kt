@@ -154,6 +154,16 @@ helpers
 TestHelper
 .
 mDevice
+import
+org
+.
+mozilla
+.
+focus
+.
+testAnnotations
+.
+SmokeTest
 /
 /
 Tests
@@ -227,6 +237,7 @@ showFirstRun
 =
 false
 )
+SmokeTest
 Test
 /
 /
@@ -288,6 +299,7 @@ pageUrl
 )
 }
 }
+SmokeTest
 Test
 fun
 disableTopSitesAutocompleteTest

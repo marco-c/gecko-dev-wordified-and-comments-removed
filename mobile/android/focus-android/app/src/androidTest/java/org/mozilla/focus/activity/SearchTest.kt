@@ -190,6 +190,16 @@ focus
 idlingResources
 .
 RecyclerViewIdlingResource
+import
+org
+.
+mozilla
+.
+focus
+.
+testAnnotations
+.
+SmokeTest
 /
 /
 This
@@ -352,6 +362,7 @@ clearBrowsingData
 }
 }
 }
+SmokeTest
 Test
 fun
 enableSearchSuggestionOnFirstRunTest

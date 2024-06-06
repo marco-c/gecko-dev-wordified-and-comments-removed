@@ -104,6 +104,16 @@ focus
 helpers
 .
 MainActivityIntentsTestRule
+import
+org
+.
+mozilla
+.
+focus
+.
+testAnnotations
+.
+SmokeTest
 /
 *
 *
@@ -136,6 +146,7 @@ showFirstRun
 =
 false
 )
+SmokeTest
 Test
 fun
 changeDefaultBrowserTest

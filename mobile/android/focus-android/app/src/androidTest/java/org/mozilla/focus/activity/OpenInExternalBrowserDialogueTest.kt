@@ -227,6 +227,16 @@ TestHelper
 .
 waitingTime
 import
+org
+.
+mozilla
+.
+focus
+.
+testAnnotations
+.
+SmokeTest
+import
 java
 .
 io
@@ -357,6 +367,7 @@ shutdown
 (
 )
 }
+SmokeTest
 Test
 fun
 openPageInExternalAppTest

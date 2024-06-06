@@ -60,6 +60,16 @@ focus
 helpers
 .
 MainActivityFirstrunTestRule
+import
+org
+.
+mozilla
+.
+focus
+.
+testAnnotations
+.
+SmokeTest
 RunWith
 (
 AndroidJUnit4ClassRunner
@@ -82,6 +92,7 @@ showFirstRun
 =
 false
 )
+SmokeTest
 Test
 fun
 accessSettingsMenuTest
@@ -103,6 +114,7 @@ verifySettingsMenuItems
 )
 }
 }
+SmokeTest
 Test
 fun
 verifyGeneralSettingsMenuTest
@@ -128,6 +140,7 @@ verifyGeneralSettingsItems
 )
 }
 }
+SmokeTest
 Test
 fun
 verifyPrivacySettingsMenuTest
@@ -153,6 +166,7 @@ verifyPrivacySettingsItems
 )
 }
 }
+SmokeTest
 Test
 fun
 verifySearchSettingsMenuTest
@@ -178,6 +192,7 @@ verifySearchSettingsItems
 )
 }
 }
+SmokeTest
 Test
 fun
 verifyAdvancedSettingsMenuTest
@@ -203,6 +218,7 @@ verifyAdvancedSettingsItems
 )
 }
 }
+SmokeTest
 Test
 fun
 verifyMozillaMenuTest

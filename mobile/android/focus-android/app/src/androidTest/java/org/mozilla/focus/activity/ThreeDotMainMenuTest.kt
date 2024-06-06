@@ -138,6 +138,16 @@ focus
 helpers
 .
 TestHelper
+import
+org
+.
+mozilla
+.
+focus
+.
+testAnnotations
+.
+SmokeTest
 /
 *
 *
@@ -222,6 +232,7 @@ shutdown
 (
 )
 }
+SmokeTest
 Test
 fun
 homeScreenMenuItemsTest
@@ -245,6 +256,7 @@ verifySettingsButtonExists
 )
 }
 }
+SmokeTest
 Test
 fun
 browserMenuItemsTest

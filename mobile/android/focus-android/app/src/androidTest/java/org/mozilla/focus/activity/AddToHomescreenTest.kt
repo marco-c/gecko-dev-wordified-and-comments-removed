@@ -167,6 +167,16 @@ TestHelper
 .
 webPageLoadwaitingTime
 import
+org
+.
+mozilla
+.
+focus
+.
+testAnnotations
+.
+SmokeTest
+import
 java
 .
 io
@@ -394,6 +404,7 @@ pageUrl
 )
 }
 }
+SmokeTest
 Test
 fun
 noNameShortcutTest

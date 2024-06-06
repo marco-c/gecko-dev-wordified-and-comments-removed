@@ -160,6 +160,16 @@ helpers
 TestHelper
 .
 createMockResponseFromAsset
+import
+org
+.
+mozilla
+.
+focus
+.
+testAnnotations
+.
+SmokeTest
 /
 /
 Tests
@@ -282,6 +292,7 @@ verifyEmptySearchBar
 )
 }
 }
+SmokeTest
 Test
 fun
 homeScreenTipsTest

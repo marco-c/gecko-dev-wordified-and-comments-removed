@@ -128,6 +128,16 @@ helpers
 TestHelper
 .
 createMockResponseFromAsset
+import
+org
+.
+mozilla
+.
+focus
+.
+testAnnotations
+.
+SmokeTest
 class
 MediaPlaybackTest
 {
@@ -178,6 +188,7 @@ shutdown
 (
 )
 }
+SmokeTest
 Test
 fun
 testVideoPlayback
@@ -282,6 +293,7 @@ dismissMediaPlayingAlert
 )
 }
 }
+SmokeTest
 Test
 fun
 testAudioPlayback

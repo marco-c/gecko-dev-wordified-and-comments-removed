@@ -155,6 +155,16 @@ TestHelper
 .
 readTestAsset
 import
+org
+.
+mozilla
+.
+focus
+.
+testAnnotations
+.
+SmokeTest
+import
 java
 .
 io
@@ -371,6 +381,7 @@ e
 )
 }
 }
+SmokeTest
 Test
 fun
 testLocalAndSessionStorageIsWrittenAndRemoved

@@ -184,6 +184,16 @@ helpers
 TestHelper
 .
 mDevice
+import
+org
+.
+mozilla
+.
+focus
+.
+testAnnotations
+.
+SmokeTest
 /
 /
 These
@@ -312,6 +322,7 @@ shutdown
 (
 )
 }
+SmokeTest
 Test
 fun
 blockMalwarePageTest
@@ -359,6 +370,7 @@ tryAgainButton
 )
 }
 }
+SmokeTest
 Test
 fun
 blockPhishingPageTest
@@ -406,6 +418,7 @@ tryAgainButton
 )
 }
 }
+SmokeTest
 Test
 fun
 blockUnwantedSoftwarePageTest
@@ -449,6 +462,7 @@ tryAgainButton
 )
 }
 }
+SmokeTest
 Test
 fun
 blockHarmfulPageTest
@@ -494,6 +508,7 @@ tryAgainButton
 )
 }
 }
+SmokeTest
 Test
 fun
 unblockSafeBrowsingTest
@@ -564,6 +579,7 @@ Attack
 )
 }
 }
+SmokeTest
 Test
 fun
 verifyPageSecurityIconAndInfo

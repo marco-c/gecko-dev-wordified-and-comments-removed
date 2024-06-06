@@ -200,6 +200,16 @@ helpers
 TestHelper
 .
 waitForWebContent
+import
+org
+.
+mozilla
+.
+focus
+.
+testAnnotations
+.
+SmokeTest
 Ignore
 (
 "
@@ -403,6 +413,7 @@ waitForIdle
 (
 )
 }
+SmokeTest
 Test
 Throws
 (

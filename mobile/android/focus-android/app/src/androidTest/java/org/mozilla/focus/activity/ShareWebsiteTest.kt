@@ -179,6 +179,16 @@ TestHelper
 .
 webPageLoadwaitingTime
 import
+org
+.
+mozilla
+.
+focus
+.
+testAnnotations
+.
+SmokeTest
+import
 java
 .
 io
@@ -317,6 +327,7 @@ e
 )
 }
 }
+SmokeTest
 Test
 fun
 shareTabTest

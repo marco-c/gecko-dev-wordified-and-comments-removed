@@ -255,6 +255,16 @@ mozilla
 .
 focus
 .
+testAnnotations
+.
+SmokeTest
+import
+org
+.
+mozilla
+.
+focus
+.
 utils
 .
 FeatureFlags
@@ -421,6 +431,7 @@ issues
 4996
 "
 )
+SmokeTest
 Test
 fun
 testVisitingMultipleSites
