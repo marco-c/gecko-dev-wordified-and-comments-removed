@@ -71,16 +71,6 @@ content
 .
 Context
 import
-mozilla
-.
-components
-.
-lib
-.
-publicsuffixlist
-.
-PublicSuffixList
-import
 org
 .
 mozilla
