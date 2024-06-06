@@ -502,6 +502,11 @@ availableHeightToTop
 >
 =
 containerHeight
+|
+|
+availableHeightToTop
+>
+availableHeightToBottom
 val
 fitsDown
 =
@@ -509,6 +514,11 @@ availableHeightToBottom
 >
 =
 containerHeight
+|
+|
+availableHeightToBottom
+>
+availableHeightToTop
 return
 inferMenuPosition
 (
