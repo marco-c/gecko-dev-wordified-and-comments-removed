@@ -715,6 +715,14 @@ trackingProtectionUseCases
 removeAllExceptions
 (
 )
+ExceptionDomains
+.
+removeAll
+(
+requireContext
+(
+)
+)
 val
 exceptions
 =

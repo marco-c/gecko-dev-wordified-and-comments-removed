@@ -162,6 +162,13 @@ Logger
 GeckoExceptionsMigrator
 "
 )
+private
+val
+storageController
+=
+runtime
+.
+storageController
 fun
 start
 (
@@ -387,8 +394,6 @@ val
 privateMode
 =
 true
-runtime
-.
 storageController
 .
 setPermission
