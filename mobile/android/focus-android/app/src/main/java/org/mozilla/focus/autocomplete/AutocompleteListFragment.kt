@@ -764,7 +764,7 @@ R
 .
 string
 .
-preference_autocomplete_subitem_customlist
+preference_autocomplete_subitem_manage_sites
 )
 updateIcon
 (
