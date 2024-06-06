@@ -219,6 +219,16 @@ Event
 .
 GrowthData
 .
+FirstAppOpenForDay
+)
+metrics
+.
+track
+(
+Event
+.
+GrowthData
+.
 FirstWeekSeriesActivity
 )
 metrics
