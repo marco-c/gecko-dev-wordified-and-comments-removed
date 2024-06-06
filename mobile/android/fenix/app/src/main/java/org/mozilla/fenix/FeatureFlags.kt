@@ -252,9 +252,12 @@ sync
 logins
 *
 /
-const
 val
 logins
 =
-false
+Config
+.
+channel
+.
+isNightlyOrDebug
 }

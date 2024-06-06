@@ -3585,6 +3585,10 @@ implementation
 Deps
 .
 mozilla_lib_push_firebase
+implementation
+Deps
+.
+mozilla_lib_dataprotect
 debugImplementation
 Deps
 .

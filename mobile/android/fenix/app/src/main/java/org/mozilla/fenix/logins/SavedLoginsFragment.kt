@@ -509,7 +509,7 @@ components
 .
 core
 .
-loginsStorage
+passwordsStorage
 .
 withUnlocked
 {

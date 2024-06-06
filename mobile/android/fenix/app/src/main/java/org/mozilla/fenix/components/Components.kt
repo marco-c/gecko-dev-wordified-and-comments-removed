@@ -140,6 +140,12 @@ historyStorage
 core
 .
 bookmarksStorage
+core
+.
+passwordsStorage
+core
+.
+secureAbove22Preferences
 )
 }
 val

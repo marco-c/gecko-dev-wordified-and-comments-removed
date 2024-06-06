@@ -516,6 +516,9 @@ History
 SyncEngine
 .
 Bookmarks
+SyncEngine
+.
+Passwords
 )
 syncPeriodInMinutes
 =
