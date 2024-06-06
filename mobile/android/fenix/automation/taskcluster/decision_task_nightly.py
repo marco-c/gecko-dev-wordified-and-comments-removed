@@ -446,7 +446,7 @@ leanplum_token
 .
 format
 (
-leanplum_token
+leanplum_secret
 )
 +
             
