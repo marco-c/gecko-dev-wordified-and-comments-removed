@@ -1174,6 +1174,13 @@ lifecycleOwner
 sessionManager
 =
 sessionManager
+store
+=
+components
+.
+core
+.
+store
 bookmarksStorage
 =
 bookmarkStorage

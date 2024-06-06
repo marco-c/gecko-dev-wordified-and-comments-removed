@@ -337,7 +337,7 @@ renderStyle
 )
 )
 private
-var
+val
 menuPresenter
 =
 MenuPresenter
@@ -400,6 +400,17 @@ stop
 toolbarPresenter
 .
 stop
+(
+)
+}
+fun
+invalidateMenu
+(
+)
+{
+menuPresenter
+.
+invalidateActions
 (
 )
 }

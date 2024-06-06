@@ -325,6 +325,16 @@ components
 .
 feature
 .
+readerview
+.
+ReaderViewMiddleware
+import
+mozilla
+.
+components
+.
+feature
+.
 session
 .
 HistoryDelegate
@@ -700,6 +710,9 @@ MediaService
 class
 .
 java
+)
+ReaderViewMiddleware
+(
 )
 )
 )
