@@ -177,6 +177,16 @@ true
 "
 app
 :
+browserToolbarCancelColor
+=
+"
+?
+attr
+/
+browserToolbarIcons
+"
+app
+:
 browserToolbarInsecureColor
 =
 "
