@@ -458,9 +458,14 @@ HomeActivity
 .
 openToBrowserAndLoad
 (
+searchTermOrURL
+=
 item
 .
 url
+newTab
+=
+false
 from
 =
 BrowserDirection

@@ -1075,7 +1075,12 @@ HomeActivity
 .
 openToBrowserAndLoad
 (
+searchTermOrURL
+=
 url
+newTab
+=
+false
 from
 =
 BrowserDirection
@@ -1352,6 +1357,9 @@ openToBrowserAndLoad
 searchTermOrURL
 =
 url
+newTab
+=
+true
 from
 =
 BrowserDirection
@@ -1417,6 +1425,9 @@ openToBrowserAndLoad
 searchTermOrURL
 =
 url
+newTab
+=
+true
 from
 =
 BrowserDirection

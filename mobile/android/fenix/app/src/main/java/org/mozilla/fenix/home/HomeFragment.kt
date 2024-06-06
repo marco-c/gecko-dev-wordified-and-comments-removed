@@ -1521,6 +1521,8 @@ HomeActivity
 .
 openToBrowserAndLoad
 (
+searchTermOrURL
+=
 SupportUtils
 .
 getGenericSumoURLForTopic
@@ -1531,6 +1533,9 @@ SumoTopic
 .
 PRIVATE_BROWSING_MYTHS
 )
+newTab
+=
+true
 from
 =
 BrowserDirection
@@ -1701,6 +1706,8 @@ HomeActivity
 .
 openToBrowserAndLoad
 (
+searchTermOrURL
+=
 SupportUtils
 .
 getSumoURLForTopic
@@ -1714,6 +1721,9 @@ SumoTopic
 .
 HELP
 )
+newTab
+=
+true
 from
 =
 BrowserDirection

@@ -1043,6 +1043,8 @@ HomeActivity
 .
 openToBrowserAndLoad
 (
+searchTermOrURL
+=
 SupportUtils
 .
 getSumoURLForTopic
@@ -1056,6 +1058,9 @@ SumoTopic
 .
 HELP
 )
+newTab
+=
+true
 from
 =
 BrowserDirection
@@ -1107,9 +1112,14 @@ HomeActivity
 .
 openToBrowserAndLoad
 (
+searchTermOrURL
+=
 SupportUtils
 .
 FEEDBACK_URL
+newTab
+=
+true
 from
 =
 BrowserDirection
