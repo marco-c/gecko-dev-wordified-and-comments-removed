@@ -113,7 +113,7 @@ fenix
 .
 databinding
 .
-FragmentCrashReporterBinding
+ViewCrashReporterBinding
 import
 org
 .
@@ -205,7 +205,7 @@ lateinit
 var
 binding
 :
-FragmentCrashReporterBinding
+ViewCrashReporterBinding
 VisibleForTesting
 val
 isBindingInitialized
@@ -326,7 +326,7 @@ inflate
 {
 binding
 =
-FragmentCrashReporterBinding
+ViewCrashReporterBinding
 .
 inflate
 (
