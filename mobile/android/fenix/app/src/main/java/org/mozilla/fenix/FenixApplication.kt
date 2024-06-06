@@ -5099,6 +5099,14 @@ else
 "
 }
 )
+etpCustomCookiesSelection
+.
+set
+(
+settings
+.
+blockCookiesSelectionInCustomTrackingProtection
+)
 val
 accessibilitySelection
 =
