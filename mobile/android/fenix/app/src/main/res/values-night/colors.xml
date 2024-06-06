@@ -636,9 +636,8 @@ name
 onboarding_illustration_deselected_normal_theme
 "
 >
-color
-/
-onboarding_illustration_deselected_dark_theme
+#
+99FBFBFE
 <
 /
 color
