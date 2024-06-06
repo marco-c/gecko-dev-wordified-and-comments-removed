@@ -380,6 +380,11 @@ localizations
 "
 :
 null
+"
+locales
+"
+:
+null
 }
 {
 "
@@ -885,6 +890,11 @@ localizations
 "
 :
 null
+"
+locales
+"
+:
+null
 }
 {
 "
@@ -1273,6 +1283,11 @@ featureValidationOptOut
 false
 "
 localizations
+"
+:
+null
+"
+locales
 "
 :
 null
