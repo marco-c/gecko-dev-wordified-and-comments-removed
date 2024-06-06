@@ -583,9 +583,8 @@ destinations
 :
 -
 {
-dated_path
+folder_prefix
 }
--
 fenix
 -
 {
@@ -643,9 +642,8 @@ destinations
 :
 -
 {
-dated_path
+folder_prefix
 }
--
 fenix
 -
 {
@@ -697,9 +695,8 @@ destinations
 :
 -
 {
-dated_path
+folder_prefix
 }
--
 fenix
 -
 {
@@ -749,9 +746,8 @@ destinations
 :
 -
 {
-dated_path
+folder_prefix
 }
--
 fenix
 -
 {
