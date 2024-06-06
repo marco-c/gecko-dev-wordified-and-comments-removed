@@ -1350,6 +1350,9 @@ lazyMonitored
 FxSuggest
 (
 context
+analytics
+.
+crashReporter
 )
 }
 }
