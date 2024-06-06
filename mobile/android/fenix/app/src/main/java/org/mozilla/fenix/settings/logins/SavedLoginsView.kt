@@ -220,6 +220,13 @@ fun
 onLearnMore
 (
 )
+fun
+sort
+(
+sortingStrategy
+:
+SortingStrategy
+)
 }
 /
 *
@@ -312,6 +319,9 @@ containerView
 .
 context
 )
+itemAnimator
+=
+null
 }
 val
 learnMoreText
