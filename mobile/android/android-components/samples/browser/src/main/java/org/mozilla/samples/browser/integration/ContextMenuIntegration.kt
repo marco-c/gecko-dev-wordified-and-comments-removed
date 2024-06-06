@@ -279,9 +279,9 @@ mozilla
 .
 components
 .
-support
+ui
 .
-utils
+widgets
 .
 DefaultSnackbarDelegate
 import

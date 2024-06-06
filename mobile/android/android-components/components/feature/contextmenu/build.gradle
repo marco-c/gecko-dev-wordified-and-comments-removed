@@ -251,6 +251,16 @@ search
 '
 )
 implementation
+project
+(
+'
+:
+ui
+-
+widgets
+'
+)
+implementation
 ComponentsDependencies
 .
 google_material

@@ -233,10 +233,6 @@ implementation
 ComponentsDependencies
 .
 kotlin_coroutines
-implementation
-ComponentsDependencies
-.
-google_material
 testImplementation
 project
 (

@@ -2011,6 +2011,16 @@ project
 (
 '
 :
+ui
+-
+widgets
+'
+)
+implementation
+project
+(
+'
+:
 feature
 -
 webcompat

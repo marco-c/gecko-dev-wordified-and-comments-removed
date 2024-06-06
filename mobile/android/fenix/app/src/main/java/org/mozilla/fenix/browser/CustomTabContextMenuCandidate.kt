@@ -101,9 +101,9 @@ mozilla
 .
 components
 .
-support
+ui
 .
-utils
+widgets
 .
 DefaultSnackbarDelegate
 import
@@ -111,9 +111,9 @@ mozilla
 .
 components
 .
-support
+ui
 .
-utils
+widgets
 .
 SnackbarDelegate
 class

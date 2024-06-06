@@ -3118,6 +3118,10 @@ icons
 ui
 -
 tabcounter
+-
+ui
+-
+widgets
 feature
 -
 customtabs

@@ -355,9 +355,9 @@ mozilla
 .
 components
 .
-support
+ui
 .
-utils
+widgets
 .
 SnackbarDelegate
 import

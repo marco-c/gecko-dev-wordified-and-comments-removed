@@ -61,9 +61,9 @@ mozilla
 .
 components
 .
-support
+ui
 .
-utils
+widgets
 import
 android
 .
