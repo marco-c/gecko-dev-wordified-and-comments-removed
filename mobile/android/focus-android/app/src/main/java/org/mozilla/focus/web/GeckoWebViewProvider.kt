@@ -1208,7 +1208,16 @@ settings
 .
 remoteDebuggingEnabled
 =
-false
+Settings
+.
+getInstance
+(
+context
+)
+.
+shouldEnableRemoteDebugging
+(
+)
 context
 .
 getString
