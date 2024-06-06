@@ -1604,8 +1604,6 @@ preference_search_installed_search_engines
 Motor
 t
 instaluar
-k
-rkimesh
 <
 /
 string
@@ -1620,11 +1618,9 @@ preference_search_restore
 >
 Rikthe
 motor
-t
 parazgjedhje
-t
 k
-rkimeve
+rkimi
 <
 /
 string
@@ -4070,9 +4066,11 @@ firstrun_defaultbrowser_text2
 Kalojeni
 shfletimin
 privat
-n
-nivelin
-pasues
+nj
+shkall
+m
+sip
+r
 .
 Bllokoni
 reklama
