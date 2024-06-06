@@ -350,11 +350,6 @@ mozilla
 -
 mobile
 /
-releng
-mozilla
--
-mobile
-/
 fenix
 /
 taskcluster
@@ -373,11 +368,6 @@ fenix
 .
 github
 /
-mozilla
--
-mobile
-/
-releng
 mozilla
 -
 mobile
