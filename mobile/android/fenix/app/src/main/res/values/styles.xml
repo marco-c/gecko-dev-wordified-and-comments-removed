@@ -1895,9 +1895,11 @@ name
 bottomBarBackground
 "
 >
-drawable
+android
+:
+color
 /
-private_home_bottom_bar_background_gradient
+transparent
 <
 /
 item
