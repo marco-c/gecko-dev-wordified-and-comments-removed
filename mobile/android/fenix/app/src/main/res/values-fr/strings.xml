@@ -14916,6 +14916,7 @@ sign_in_ready_for_scan
 >
 Pr
 t
+e
 scanner
 <
 /
@@ -15257,7 +15258,7 @@ name
 preference_enhanced_tracking_protection_explanation_title
 "
 >
-Naviguer
+Naviguez
 sans
 tre
 suivi
@@ -15804,6 +15805,7 @@ preference_enhanced_tracking_protection_custom
 "
 >
 Personnalis
+e
 <
 /
 string

@@ -1402,8 +1402,7 @@ browser_menu_save_to_collection_2
 >
 Cadw
 i
-r
-casgliad
+gasgliad
 <
 /
 string
@@ -6488,8 +6487,7 @@ tabs_menu_save_to_collection
 >
 Cadw
 i
-r
-casgliad
+gasgliad
 <
 /
 string
@@ -6726,8 +6724,7 @@ save_to_collection
 >
 Cadw
 i
-r
-casgliad
+gasgliad
 <
 /
 string
@@ -9638,7 +9635,7 @@ create_collection_select_collection
 "
 >
 Dewis
-gasgliad
+casgliad
 <
 /
 string
@@ -9948,8 +9945,8 @@ create_collection_save_to_collection_tab_selected
 d
 tab
 wedi
-u
-dewis
+i
+ddewis
 <
 /
 string
