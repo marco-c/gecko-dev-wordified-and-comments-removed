@@ -264,6 +264,12 @@ s
 tag
 )
     
+assemble_task
+=
+'
+assembleNightly
+'
+    
 if
 tag
 :
@@ -287,6 +293,12 @@ release
 translations
 .
 py
+'
+        
+assemble_task
+=
+'
+assembleRelease
 '
     
 return
@@ -378,8 +390,9 @@ no
 daemon
 clean
 test
-assembleRelease
 '
++
+assemble_task
 )
         
 features
