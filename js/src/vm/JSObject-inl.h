@@ -1106,6 +1106,15 @@ zone
 -
 >
 suppressAllocationMetadataBuilder
+&
+&
+!
+cx
+-
+>
+isThrowingOverRecursed
+(
+)
 )
 {
 AutoSuppressAllocationMetadataBuilder
