@@ -425,6 +425,11 @@ class
 java
 )
 .
+useContentProcessHint
+(
+true
+)
+.
 build
 (
 )
