@@ -5324,6 +5324,14 @@ espresso
 -
 core
 '
+exclude
+module
+:
+'
+protobuf
+-
+lite
+'
 }
 androidTestImplementation
 Deps
@@ -5379,6 +5387,10 @@ androidx_junit
 androidTestImplementation
 Deps
 .
+androidx_test_extensions
+androidTestImplementation
+Deps
+.
 androidx_work_testing
 androidTestImplementation
 Deps
@@ -5400,6 +5412,10 @@ testImplementation
 Deps
 .
 androidx_junit
+testImplementation
+Deps
+.
+androidx_test_extensions
 testImplementation
 Deps
 .

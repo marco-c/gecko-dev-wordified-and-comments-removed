@@ -428,6 +428,15 @@ issues
 )
 SmokeTest
 Test
+/
+/
+Assumes
+Play
+Store
+is
+installed
+and
+enabled
 fun
 openLinkInAppTest
 (
