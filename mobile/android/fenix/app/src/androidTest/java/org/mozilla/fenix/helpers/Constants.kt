@@ -158,6 +158,17 @@ android
 .
 dialer
 "
+const
+val
+ANDROID_SETTINGS
+=
+"
+com
+.
+android
+.
+settings
+"
 }
 const
 val

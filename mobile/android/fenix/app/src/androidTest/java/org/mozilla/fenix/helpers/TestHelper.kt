@@ -528,6 +528,14 @@ util
 regex
 .
 Pattern
+import
+org
+.
+junit
+.
+Assert
+.
+assertTrue
 object
 TestHelper
 {
@@ -1457,6 +1465,9 @@ String
 url
 :
 String
+=
+"
+"
 )
 {
 if
