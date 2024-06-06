@@ -2276,6 +2276,14 @@ CUSTOM_CONTEXT_MENU_SEARCH
 order
 [
 "
+CUSTOM_CONTEXT_MENU_SEARCH_PRIVATELY
+"
+]
+=
+4
+order
+[
+"
 org
 .
 mozilla
@@ -2286,7 +2294,7 @@ SELECT_ALL
 "
 ]
 =
-4
+5
 order
 [
 "
@@ -2294,7 +2302,7 @@ CUSTOM_CONTEXT_MENU_SHARE
 "
 ]
 =
-5
+6
 return
 actions
 .
