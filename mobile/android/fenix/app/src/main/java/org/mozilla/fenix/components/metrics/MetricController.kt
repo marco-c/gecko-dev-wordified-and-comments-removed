@@ -1497,6 +1497,8 @@ enabledAddons
 .
 joinToString
 (
+"
+"
 )
 }
 }
