@@ -316,15 +316,6 @@ engineIconView
 )
 init
 {
-getView
-(
-)
-.
-transitionName
-=
-"
-toolbar_transition
-"
 bind
 (
 )

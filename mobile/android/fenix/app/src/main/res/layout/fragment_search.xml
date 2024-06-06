@@ -319,13 +319,6 @@ layout_margin
 "
 12dp
 "
-android
-:
-transitionName
-=
-"
-toolbar_icon_transition
-"
 app
 :
 layout_constraintBottom_toBottomOf

@@ -604,13 +604,6 @@ layout_margin
 "
 12dp
 "
-android
-:
-transitionName
-=
-"
-toolbar_icon_transition
-"
 /
 >
 <
@@ -697,13 +690,6 @@ textSize
 =
 "
 15sp
-"
-android
-:
-transitionName
-=
-"
-toolbar_transition
 "
 /
 >
