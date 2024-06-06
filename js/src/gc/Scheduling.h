@@ -1070,6 +1070,13 @@ true
 ;
 static
 const
+bool
+SemispaceNurseryEnabled
+=
+false
+;
+static
+const
 double
 HelperThreadRatio
 =

@@ -373,3 +373,10 @@ maxHelperThreads
 "
 )
 ;
+testChangeParam
+(
+"
+semispaceNurseryEnabled
+"
+)
+;
