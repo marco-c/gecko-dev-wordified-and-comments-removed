@@ -166,7 +166,6 @@ focus
 utils
 .
 debounce
-open
 class
 SearchSuggestionsFetcher
 (
