@@ -840,7 +840,7 @@ preference_category_autocomplete_preinstalled
 >
 Varsay
 lan
-URL
+adres
 listesi
 <
 /
@@ -4045,9 +4045,8 @@ K
 sayollar
 ana
 ekran
-n
-za
-ekleyin
+na
+ekle
 <
 /
 string
@@ -4104,7 +4103,6 @@ firstrun_privacy_title
 Hep
 gizli
 kal
-n
 <
 /
 string
