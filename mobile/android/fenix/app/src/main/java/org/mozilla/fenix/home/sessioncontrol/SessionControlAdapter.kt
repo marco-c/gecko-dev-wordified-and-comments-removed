@@ -541,6 +541,10 @@ val
 expanded
 :
 Boolean
+val
+sessionHasOpenTabs
+:
+Boolean
 )
 :
 AdapterItem
@@ -1228,6 +1232,7 @@ val
 (
 collection
 expanded
+sessionHasOpenTabs
 )
 =
 item
@@ -1241,6 +1246,7 @@ bindSession
 (
 collection
 expanded
+sessionHasOpenTabs
 )
 }
 is
