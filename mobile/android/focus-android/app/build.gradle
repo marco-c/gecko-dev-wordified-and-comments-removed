@@ -109,10 +109,6 @@ tasks
 KotlinCompile
 android
 {
-compileSdkVersion
-config
-.
-compileSdkVersion
 if
 (
 project
@@ -188,6 +184,10 @@ minSdkVersion
 config
 .
 minSdkVersion
+compileSdk
+config
+.
+compileSdkVersion
 targetSdkVersion
 config
 .

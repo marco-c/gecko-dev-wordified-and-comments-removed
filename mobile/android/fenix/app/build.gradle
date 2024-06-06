@@ -178,10 +178,6 @@ gradle
 '
 android
 {
-compileSdkVersion
-config
-.
-compileSdkVersion
 project
 .
 maybeConfigForJetpackBenchmark
@@ -263,6 +259,10 @@ minSdkVersion
 config
 .
 minSdkVersion
+compileSdk
+config
+.
+compileSdkVersion
 targetSdkVersion
 config
 .
