@@ -192,7 +192,7 @@ R
 .
 string
 .
-pref_key_privacy_block_other
+pref_key_privacy_block_other2
 )
 context
 .
