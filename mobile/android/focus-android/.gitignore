@@ -44,6 +44,11 @@ gradle
 build
 /
 *
+buildSrc
+/
+build
+/
+*
 !
 taskcluster
 /
