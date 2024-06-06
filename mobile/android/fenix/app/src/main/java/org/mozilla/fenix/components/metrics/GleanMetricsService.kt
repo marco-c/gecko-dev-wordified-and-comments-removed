@@ -6920,8 +6920,6 @@ themeCollection
 this
 .
 wallpaper
-.
-themeCollection
 :
 :
 class
@@ -6965,8 +6963,6 @@ themeCollection
 this
 .
 wallpaper
-.
-themeCollection
 :
 :
 class

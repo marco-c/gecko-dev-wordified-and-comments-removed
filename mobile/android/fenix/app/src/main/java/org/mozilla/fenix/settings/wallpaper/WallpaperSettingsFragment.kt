@@ -335,7 +335,7 @@ wallpapers
 =
 wallpaperManager
 .
-availableWallpapers
+wallpapers
 defaultWallpaper
 =
 WallpaperManager

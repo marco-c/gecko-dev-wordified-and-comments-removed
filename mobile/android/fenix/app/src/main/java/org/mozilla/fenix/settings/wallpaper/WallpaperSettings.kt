@@ -1688,7 +1688,7 @@ wallpapers
 =
 wallpaperManager
 .
-availableWallpapers
+wallpapers
 selectedWallpaper
 =
 wallpaperManager
