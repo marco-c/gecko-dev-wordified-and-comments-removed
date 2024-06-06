@@ -354,6 +354,11 @@ if
 AppConstants
 .
 isReleaseBuild
+|
+|
+AppConstants
+.
+isBetaBuild
 )
 {
 return
