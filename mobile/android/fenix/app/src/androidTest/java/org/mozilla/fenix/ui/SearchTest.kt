@@ -198,6 +198,9 @@ verifyBrowserToolbar
 verifyScanButton
 (
 )
+verifySearchEngineButton
+(
+)
 }
 }
 Ignore
