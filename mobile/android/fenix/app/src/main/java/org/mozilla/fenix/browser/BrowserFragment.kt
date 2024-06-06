@@ -494,9 +494,6 @@ getSessionById
 id
 }
 "
-startPostponedEnterTransition
-(
-)
 return
 view
 }

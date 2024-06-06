@@ -191,7 +191,7 @@ androidx_coordinator_layout
 .
 0
 -
-beta01
+rc01
 "
 const
 val
@@ -204,7 +204,7 @@ androidx_constraint_layout
 .
 0
 -
-beta2
+beta4
 "
 const
 val
@@ -249,8 +249,6 @@ androidx_lifecycle
 2
 .
 0
--
-rc02
 "
 const
 val
@@ -261,9 +259,7 @@ androidx_fragment
 .
 2
 .
-0
--
-beta02
+1
 "
 const
 val
@@ -274,9 +270,7 @@ androidx_navigation
 .
 2
 .
-0
--
-beta01
+1
 "
 const
 val
@@ -288,8 +282,6 @@ androidx_recyclerview
 1
 .
 0
--
-beta04
 "
 const
 val
@@ -325,8 +317,6 @@ androidx_core
 2
 .
 0
--
-beta01
 "
 const
 val
@@ -349,8 +339,6 @@ androidx_transition
 3
 .
 0
--
-beta01
 "
 const
 val
@@ -373,8 +361,6 @@ google_material
 1
 .
 0
--
-beta01
 "
 const
 val
