@@ -247,6 +247,11 @@ BuildConfig
 DEBUG
 )
 .
+aboutConfigEnabled
+(
+true
+)
+.
 build
 (
 )
