@@ -1114,6 +1114,10 @@ localeToNameMap
 containsKey
 (
 locale
+.
+getCountry
+(
+)
 )
 )
 {
@@ -1124,6 +1128,10 @@ localeToNameMap
 get
 (
 locale
+.
+getCountry
+(
+)
 )
 ;
 }
