@@ -39,6 +39,12 @@ recyclerview
 widget
 .
 RecyclerView
+val
+minItemCount
+:
+Int
+=
+0
 )
 :
 IdlingResource
@@ -77,7 +83,7 @@ adapter
 .
 itemCount
 >
-0
+minItemCount
 )
 {
 if
