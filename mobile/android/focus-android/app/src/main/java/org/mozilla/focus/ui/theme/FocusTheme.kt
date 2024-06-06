@@ -427,6 +427,11 @@ settingsTextSummaryColor
 PhotonColors
 .
 LightGrey50
+closeIcon
+=
+PhotonColors
+.
+LightGrey70
 )
 private
 fun
@@ -528,6 +533,11 @@ onboardingNormalText
 PhotonColors
 .
 DarkGrey05
+closeIcon
+=
+PhotonColors
+.
+LightGrey90
 )
 /
 *

@@ -195,6 +195,10 @@ val
 settingsTextSummaryColor
 :
 Color
+val
+closeIcon
+:
+Color
 )
 {
 val
