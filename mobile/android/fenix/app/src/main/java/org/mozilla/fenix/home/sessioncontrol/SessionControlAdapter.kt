@@ -1857,6 +1857,8 @@ LAYOUT_ID
 return
 PocketStoriesViewHolder
 (
+composeView
+=
 ComposeView
 (
 parent
@@ -1864,11 +1866,8 @@ parent
 context
 )
 store
-components
-.
-core
-.
-client
+=
+store
 interactor
 =
 interactor
