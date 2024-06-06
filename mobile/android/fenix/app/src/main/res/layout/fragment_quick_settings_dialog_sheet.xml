@@ -467,6 +467,14 @@ string
 /
 preferences_tracking_protection
 "
+android
+:
+thumbTint
+=
+"
+?
+accentBright
+"
 app
 :
 layout_constraintBottom_toTopOf
