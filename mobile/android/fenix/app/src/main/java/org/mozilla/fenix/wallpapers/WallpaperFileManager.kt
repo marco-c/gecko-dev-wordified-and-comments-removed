@@ -333,6 +333,10 @@ Remote
 >
 )
 {
+scope
+.
+launch
+{
 val
 wallpapersToKeep
 =
@@ -361,6 +365,7 @@ cleanChildren
 landscapeDirectory
 wallpapersToKeep
 )
+}
 }
 private
 fun
@@ -402,16 +407,11 @@ in
 wallpapersToKeep
 )
 continue
-scope
-.
-launch
-{
 file
 .
 delete
 (
 )
-}
 }
 }
 }
