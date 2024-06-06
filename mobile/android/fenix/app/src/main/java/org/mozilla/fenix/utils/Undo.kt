@@ -412,6 +412,9 @@ operation
 :
 suspend
 (
+context
+:
+Context
 )
 -
 >
@@ -738,6 +741,9 @@ operation
 .
 invoke
 (
+view
+.
+context
 )
 }
 }
