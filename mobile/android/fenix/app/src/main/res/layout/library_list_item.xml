@@ -242,7 +242,7 @@ background
 "
 drawable
 /
-library_icon_logins_circle_background
+library_icon_reading_list_circle_background
 "
 android
 :
@@ -330,11 +330,7 @@ textAppearance
 "
 style
 /
-TextAppearance
-.
-MaterialComponents
-.
-Subtitle1
+ListItemTextStyle
 "
 app
 :

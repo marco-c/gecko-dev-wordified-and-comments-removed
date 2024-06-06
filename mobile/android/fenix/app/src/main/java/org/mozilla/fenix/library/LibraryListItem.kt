@@ -195,7 +195,7 @@ R
 .
 drawable
 .
-library_icon_logins_circle_background
+library_icon_reading_list_circle_background
 )
 libraryIcon
 ?
