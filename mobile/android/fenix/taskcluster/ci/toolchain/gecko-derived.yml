@@ -98,7 +98,7 @@ browsertime
 .
 tar
 .
-bz2
+zst
 description
 :
 "
@@ -263,7 +263,7 @@ minidump_stackwalk
 .
 tar
 .
-xz
+zst
 description
 :
 "
