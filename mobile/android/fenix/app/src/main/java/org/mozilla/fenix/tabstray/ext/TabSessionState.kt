@@ -166,7 +166,7 @@ true
 >
 Page
 .
-NormalTabs
+PrivateTabs
 .
 ordinal
 false
