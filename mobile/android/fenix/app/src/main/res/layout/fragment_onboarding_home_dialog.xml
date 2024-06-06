@@ -349,7 +349,7 @@ dimen
 /
 oboarding_home_dialog_margin_horizontal
 "
-android
+app
 :
 lineHeight
 =
@@ -445,7 +445,7 @@ dimen
 /
 oboarding_home_dialog_margin_horizontal
 "
-android
+app
 :
 lineHeight
 =
@@ -638,7 +638,7 @@ layout_marginTop
 "
 26dp
 "
-android
+app
 :
 lineHeight
 =
@@ -798,7 +798,7 @@ dimen
 /
 oboarding_home_dialog_margin_horizontal
 "
-android
+app
 :
 lineHeight
 =
@@ -994,12 +994,12 @@ layout_marginTop
 "
 26dp
 "
-android
+app
 :
 lineHeight
 =
 "
-20sp
+20dp
 "
 android
 :
@@ -1163,7 +1163,7 @@ dimen
 /
 oboarding_home_dialog_margin_horizontal
 "
-android
+app
 :
 lineHeight
 =
@@ -1359,7 +1359,7 @@ layout_marginTop
 "
 26dp
 "
-android
+app
 :
 lineHeight
 =
@@ -1528,7 +1528,7 @@ dimen
 /
 oboarding_home_dialog_margin_horizontal
 "
-android
+app
 :
 lineHeight
 =

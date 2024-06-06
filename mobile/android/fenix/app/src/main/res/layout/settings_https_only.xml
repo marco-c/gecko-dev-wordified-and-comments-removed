@@ -214,7 +214,7 @@ clickable
 "
 false
 "
-android
+app
 :
 lineHeight
 =
@@ -315,7 +315,7 @@ layout_height
 "
 wrap_content
 "
-android
+app
 :
 lineHeight
 =
