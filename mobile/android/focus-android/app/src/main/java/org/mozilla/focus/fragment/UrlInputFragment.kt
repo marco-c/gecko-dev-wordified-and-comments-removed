@@ -1743,10 +1743,10 @@ TopSitesConfig
 totalSites
 =
 TOP_SITES_MAX_LIMIT
-fetchProvidedTopSites
-=
-false
 frecencyConfig
+=
+null
+providerConfig
 =
 null
 )
