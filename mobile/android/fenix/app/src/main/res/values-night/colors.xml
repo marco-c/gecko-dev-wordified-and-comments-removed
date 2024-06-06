@@ -1015,7 +1015,7 @@ color
 !
 -
 -
-New
+Information
 -
 -
 >
@@ -1024,7 +1024,7 @@ color
 name
 =
 "
-fx_mobile_icon_color_notice
+fx_mobile_icon_color_information
 "
 >
 color

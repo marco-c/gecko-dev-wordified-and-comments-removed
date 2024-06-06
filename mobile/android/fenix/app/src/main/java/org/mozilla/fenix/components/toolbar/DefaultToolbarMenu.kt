@@ -1387,7 +1387,7 @@ R
 .
 color
 .
-fx_mobile_icon_color_notice
+fx_mobile_icon_color_information
 )
 )
 isHighlighted
@@ -1731,7 +1731,7 @@ R
 .
 color
 .
-fx_mobile_icon_color_notice
+fx_mobile_icon_color_information
 )
 )
 isHighlighted
