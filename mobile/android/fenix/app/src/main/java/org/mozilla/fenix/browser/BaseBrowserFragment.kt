@@ -3889,11 +3889,6 @@ infrastructure
 .
 if
 (
-FeatureFlags
-.
-webAuthFeature
-&
-&
 BuildConfig
 .
 MOZILLA_OFFICIAL
