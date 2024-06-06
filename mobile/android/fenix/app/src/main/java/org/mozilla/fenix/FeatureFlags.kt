@@ -57,14 +57,11 @@ reload
 .
 *
 /
+const
 val
 pullToRefreshEnabled
 =
-Config
-.
-channel
-.
-isNightlyOrDebug
+false
 /
 *
 *
