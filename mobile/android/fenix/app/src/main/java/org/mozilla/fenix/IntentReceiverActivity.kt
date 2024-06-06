@@ -673,7 +673,7 @@ or
 Intent
 .
 FLAG_ACTIVITY_CLEAR_TASK
-true
+false
 }
 else
 -
