@@ -1215,6 +1215,12 @@ Event
 (
 )
 object
+TabsTrayRecentlyClosedPressed
+:
+Event
+(
+)
+object
 ProgressiveWebAppOpenFromHomescreenTap
 :
 Event
