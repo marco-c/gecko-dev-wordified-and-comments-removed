@@ -1027,7 +1027,7 @@ analysisStatus
 {
 AnalysisStatus
 .
-NEEDS_ANALYSIS
+NeedsAnalysis
 -
 >
 {
@@ -1038,9 +1038,10 @@ onReanalyzeClick
 onReanalyzeClick
 )
 }
+is
 AnalysisStatus
 .
-REANALYZING
+Reanalyzing
 -
 >
 {
@@ -1050,7 +1051,7 @@ ReanalysisInProgressCard
 }
 AnalysisStatus
 .
-UP_TO_DATE
+UpToDate
 -
 >
 {
@@ -2782,7 +2783,7 @@ AnalysisStatus
 =
 AnalysisStatus
 .
-UP_TO_DATE
+UpToDate
 adjustedRating
 :
 Float
@@ -2996,7 +2997,7 @@ analysisStatus
 =
 AnalysisStatus
 .
-NEEDS_ANALYSIS
+NeedsAnalysis
 )
 ProductAnalysisPreviewModel
 (
@@ -3004,7 +3005,12 @@ analysisStatus
 =
 AnalysisStatus
 .
-REANALYZING
+Reanalyzing
+(
+50
+.
+0f
+)
 )
 ProductAnalysisPreviewModel
 (

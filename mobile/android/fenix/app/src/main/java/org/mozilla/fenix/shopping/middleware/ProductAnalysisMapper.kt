@@ -405,13 +405,13 @@ true
 >
 AnalysisStatus
 .
-NEEDS_ANALYSIS
+NeedsAnalysis
 false
 -
 >
 AnalysisStatus
 .
-UP_TO_DATE
+UpToDate
 }
 private
 fun

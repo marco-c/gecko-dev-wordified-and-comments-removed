@@ -784,5 +784,5 @@ analysisStatus
 =
 AnalysisStatus
 .
-NEEDS_ANALYSIS
+NeedsAnalysis
 }

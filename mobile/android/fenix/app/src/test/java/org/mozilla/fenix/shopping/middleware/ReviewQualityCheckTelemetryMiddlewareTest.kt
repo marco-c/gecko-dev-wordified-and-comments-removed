@@ -1520,7 +1520,7 @@ AnalysisPresent
 .
 AnalysisStatus
 .
-NEEDS_ANALYSIS
+NeedsAnalysis
 )
 val
 tested
@@ -1630,7 +1630,7 @@ AnalysisPresent
 .
 AnalysisStatus
 .
-NEEDS_ANALYSIS
+NeedsAnalysis
 )
 val
 tested

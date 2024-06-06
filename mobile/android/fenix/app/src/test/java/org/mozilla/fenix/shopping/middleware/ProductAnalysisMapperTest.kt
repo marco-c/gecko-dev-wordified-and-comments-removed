@@ -295,7 +295,7 @@ analysisStatus
 =
 AnalysisStatus
 .
-UP_TO_DATE
+UpToDate
 adjustedRating
 =
 3
@@ -500,7 +500,7 @@ analysisStatus
 =
 AnalysisStatus
 .
-NEEDS_ANALYSIS
+NeedsAnalysis
 adjustedRating
 =
 3
@@ -643,7 +643,7 @@ analysisStatus
 =
 AnalysisStatus
 .
-UP_TO_DATE
+UpToDate
 adjustedRating
 =
 3
@@ -946,7 +946,7 @@ analysisStatus
 =
 AnalysisStatus
 .
-UP_TO_DATE
+UpToDate
 adjustedRating
 =
 4
@@ -1035,7 +1035,7 @@ analysisStatus
 =
 AnalysisStatus
 .
-NEEDS_ANALYSIS
+NeedsAnalysis
 adjustedRating
 =
 4
