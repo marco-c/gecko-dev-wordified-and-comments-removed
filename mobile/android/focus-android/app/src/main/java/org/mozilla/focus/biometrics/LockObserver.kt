@@ -204,6 +204,17 @@ tabCount
 =
 =
 0L
+&
+&
+appStore
+.
+state
+.
+topSites
+.
+isNullOrEmpty
+(
+)
 )
 {
 return
