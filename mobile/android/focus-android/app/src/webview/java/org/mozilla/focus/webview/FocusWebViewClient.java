@@ -1079,7 +1079,15 @@ LocalizedContent
 handleInternalContent
 (
 url
+(
+IWebView
+)
 view
+view
+.
+getContext
+(
+)
 )
 )
 {

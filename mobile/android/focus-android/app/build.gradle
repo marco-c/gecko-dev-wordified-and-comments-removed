@@ -2258,7 +2258,7 @@ enough
 for
 now
 .
-armCompile
+armImplementation
 "
 org
 .
@@ -2276,7 +2276,7 @@ v7a
 geckoview_nightly_version
 }
 "
-x86Compile
+x86Implementation
 "
 org
 .
@@ -2292,7 +2292,7 @@ x86
 geckoview_nightly_version
 }
 "
-aarch64Compile
+aarch64Implementation
 "
 org
 .
