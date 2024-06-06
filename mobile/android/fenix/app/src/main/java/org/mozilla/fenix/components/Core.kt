@@ -819,9 +819,7 @@ mozilla
 .
 fenix
 .
-home
-.
-recentvisits
+historymetadata
 .
 DefaultHistoryMetadataService
 import
@@ -831,9 +829,7 @@ mozilla
 .
 fenix
 .
-home
-.
-recentvisits
+historymetadata
 .
 HistoryMetadataMiddleware
 import
@@ -843,9 +839,7 @@ mozilla
 .
 fenix
 .
-home
-.
-recentvisits
+historymetadata
 .
 HistoryMetadataService
 import

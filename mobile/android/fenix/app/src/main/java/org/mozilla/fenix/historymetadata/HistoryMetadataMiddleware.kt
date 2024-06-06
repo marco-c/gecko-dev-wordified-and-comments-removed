@@ -63,9 +63,7 @@ mozilla
 .
 fenix
 .
-home
-.
-recentvisits
+historymetadata
 import
 mozilla
 .
