@@ -479,13 +479,6 @@ homeScreen
 {
 }
 .
-dismissOnboarding
-(
-)
-homeScreen
-{
-}
-.
 triggerPrivateBrowsingShortcutPrompt
 {
 verifyNoThanksPrivateBrowsingShortcutButton

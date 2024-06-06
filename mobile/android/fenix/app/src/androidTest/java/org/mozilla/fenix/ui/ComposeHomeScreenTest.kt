@@ -404,13 +404,6 @@ homeScreenItemsTest
 {
 homeScreen
 {
-}
-.
-dismissOnboarding
-(
-)
-homeScreen
-{
 verifyHomeWordmark
 (
 )
@@ -506,13 +499,6 @@ privateBrowsingHomeScreenItemsTest
 (
 )
 {
-homeScreen
-{
-}
-.
-dismissOnboarding
-(
-)
 homeScreen
 {
 }

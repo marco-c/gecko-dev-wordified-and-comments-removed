@@ -310,13 +310,6 @@ null
 )
 homeScreen
 {
-}
-.
-dismissOnboarding
-(
-)
-homeScreen
-{
 verifyHomeScreen
 (
 )

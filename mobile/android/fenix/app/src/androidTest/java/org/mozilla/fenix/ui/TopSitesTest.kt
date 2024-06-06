@@ -1114,13 +1114,6 @@ verifyDefaultTopSitesList
 {
 homeScreen
 {
-}
-.
-dismissOnboarding
-(
-)
-homeScreen
-{
 verifyExistingTopSitesList
 (
 )
