@@ -2795,7 +2795,7 @@ string
 name
 =
 "
-pref_key_enable_new_tab_tray
+pref_key_use_new_search_experience
 "
 translatable
 =
@@ -2803,7 +2803,7 @@ translatable
 false
 "
 >
-pref_key_new_tab_tray
+pref_key_use_new_search_experience
 <
 /
 string
