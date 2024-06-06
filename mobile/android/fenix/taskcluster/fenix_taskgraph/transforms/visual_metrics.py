@@ -607,6 +607,29 @@ symbol
             
 )
             
+job
+[
+'
+worker
+'
+]
+.
+setdefault
+(
+'
+env
+'
+{
+}
+)
+[
+'
+TC_PLATFORM
+'
+]
+=
+platform
+            
 attributes
 =
 dict
