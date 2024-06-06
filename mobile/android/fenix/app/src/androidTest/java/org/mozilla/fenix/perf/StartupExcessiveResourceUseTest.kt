@@ -257,7 +257,7 @@ const
 val
 EXPECTED_NUMBER_OF_INFLATION
 =
-13
+14
 private
 val
 failureMsgStrictMode

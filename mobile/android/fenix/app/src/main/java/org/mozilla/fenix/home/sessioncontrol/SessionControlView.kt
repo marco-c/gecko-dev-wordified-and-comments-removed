@@ -853,6 +853,9 @@ OnboardingPrivacyNotice
 AdapterItem
 .
 OnboardingFinish
+AdapterItem
+.
+BottomSpacer
 )
 )
 return
