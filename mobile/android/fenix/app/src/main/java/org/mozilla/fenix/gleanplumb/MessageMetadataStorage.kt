@@ -83,13 +83,15 @@ storage
 .
 *
 /
+suspend
 fun
 getMetadata
 (
 )
 :
-List
+Map
 <
+String
 Message
 .
 Metadata
@@ -123,6 +125,7 @@ MessageMetadataStorage
 ]
 *
 /
+suspend
 fun
 addMetadata
 (
@@ -155,6 +158,7 @@ storage
 .
 *
 /
+suspend
 fun
 updateMetadata
 (

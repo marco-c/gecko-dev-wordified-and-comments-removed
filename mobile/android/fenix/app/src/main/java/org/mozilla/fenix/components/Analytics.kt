@@ -279,7 +279,7 @@ fenix
 .
 gleanplumb
 .
-KeyPairMessageMetadataStorage
+OnDiskMessageMetadataStorage
 import
 org
 .
@@ -789,8 +789,9 @@ context
 context
 metadataStorage
 =
-KeyPairMessageMetadataStorage
+OnDiskMessageMetadataStorage
 (
+context
 )
 gleanPlumb
 =
