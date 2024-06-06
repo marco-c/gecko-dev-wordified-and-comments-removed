@@ -93,9 +93,13 @@ parent
 "
 Theme
 .
-AppCompat
+MaterialComponents
+.
+DayNight
 .
 NoActionBar
+.
+Bridge
 "
 >
 <
