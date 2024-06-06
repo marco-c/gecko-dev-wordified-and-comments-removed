@@ -1995,11 +1995,6 @@ HttpsOnlyMode
 return
 if
 (
-Features
-.
-HTTPS_ONLY_MODE
-&
-&
 preferences
 .
 getBoolean
