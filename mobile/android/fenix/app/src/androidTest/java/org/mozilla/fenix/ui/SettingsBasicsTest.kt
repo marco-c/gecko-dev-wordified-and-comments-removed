@@ -135,6 +135,16 @@ mozilla
 .
 fenix
 .
+customannotations
+.
+SmokeTest
+import
+org
+.
+mozilla
+.
+fenix
+.
 helpers
 .
 AndroidAssetDispatcher
@@ -928,6 +938,7 @@ verifyMenuItemsAreDisabled
 )
 }
 }
+SmokeTest
 Test
 fun
 startOnHomepageTest
