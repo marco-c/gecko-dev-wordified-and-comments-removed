@@ -372,6 +372,17 @@ OnEditListener
 {
 override
 fun
+onCancelEditing
+(
+)
+:
+Boolean
+{
+return
+true
+}
+override
+fun
 onTextChanged
 (
 text

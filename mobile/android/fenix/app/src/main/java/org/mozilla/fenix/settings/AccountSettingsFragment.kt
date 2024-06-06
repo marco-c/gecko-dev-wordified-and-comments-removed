@@ -327,7 +327,7 @@ backgroundServices
 .
 accountManager
 .
-logout
+logoutAsync
 (
 )
 .

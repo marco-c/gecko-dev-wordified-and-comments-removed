@@ -278,7 +278,7 @@ also
 {
 it
 .
-init
+initAsync
 (
 )
 }
