@@ -15,13 +15,6 @@ Manifest
 import
 android
 .
-annotation
-.
-SuppressLint
-;
-import
-android
-.
 app
 .
 Activity
@@ -6836,12 +6829,6 @@ findInPageQuery
 )
 ;
 }
-SuppressLint
-(
-"
-SetTextI18n
-"
-)
 private
 void
 updateFindInPageResult
@@ -6878,6 +6865,10 @@ numberOfMatches
 0
 )
 {
+activeMatchOrdinal
++
++
+;
 final
 String
 visibleString
