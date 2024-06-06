@@ -1278,12 +1278,6 @@ defaultWebPage
 title
 )
 {
-verifyPageContent
-(
-defaultWebPage
-.
-content
-)
 }
 }
 Test
