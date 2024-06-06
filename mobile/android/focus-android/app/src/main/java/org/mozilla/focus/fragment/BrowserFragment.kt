@@ -921,6 +921,12 @@ View
 OnClickListener
 {
 private
+lateinit
+var
+toolbarView
+:
+DisplayToolbar
+private
 var
 statusBar
 :
@@ -1303,7 +1309,6 @@ webview
 as
 EngineView
 )
-val
 toolbarView
 =
 view
@@ -1364,8 +1369,6 @@ components
 .
 sessionUseCases
 toolbarView
-!
-!
 statusBar
 !
 !
@@ -2059,10 +2062,17 @@ set
 (
 BrowserToolbarIntegration
 (
+store
+=
 requireComponents
 .
 store
+toolbar
+=
 browserToolbar
+toolbarView
+=
+toolbarView
 fragment
 =
 this
