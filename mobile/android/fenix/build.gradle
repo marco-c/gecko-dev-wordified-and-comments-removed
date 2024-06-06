@@ -361,6 +361,8 @@ args
 "
 app
 /
+src
+/
 *
 *
 /
@@ -370,6 +372,8 @@ kt
 "
 "
 architecture
+/
+src
 /
 *
 *
