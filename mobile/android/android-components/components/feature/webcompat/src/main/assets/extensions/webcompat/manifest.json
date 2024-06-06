@@ -37,7 +37,7 @@ version
 "
 :
 "
-119
+120
 .
 0
 .
@@ -1077,6 +1077,13 @@ shims
 rich
 -
 relevance
+.
+js
+"
+"
+shims
+/
+salesforce
 .
 js
 "
