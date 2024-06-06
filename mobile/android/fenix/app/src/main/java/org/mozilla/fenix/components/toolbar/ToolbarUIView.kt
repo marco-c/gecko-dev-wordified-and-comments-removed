@@ -913,6 +913,14 @@ isEditing
 {
 view
 .
+setSearchTerms
+(
+newState
+.
+searchTerm
+)
+view
+.
 url
 =
 newState
