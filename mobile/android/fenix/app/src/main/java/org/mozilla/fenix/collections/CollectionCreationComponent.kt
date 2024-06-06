@@ -196,6 +196,12 @@ CollectionCreationAction
 :
 Action
 {
+object
+Close
+:
+CollectionCreationAction
+(
+)
 }
 class
 CollectionCreationComponent
