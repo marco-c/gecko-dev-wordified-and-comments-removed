@@ -44,16 +44,6 @@ plugin
 jacoco
 '
 apply
-plugin
-:
-'
-kotlin
--
-android
--
-extensions
-'
-apply
 from
 :
 "

@@ -91,18 +91,6 @@ MenuItem
 import
 kotlinx
 .
-android
-.
-synthetic
-.
-main
-.
-fragment_exceptions_domains
-.
-*
-import
-kotlinx
-.
 coroutines
 .
 Dispatchers
@@ -260,6 +248,8 @@ val
 exceptions
 =
 (
+binding
+.
 exceptionList
 .
 adapter

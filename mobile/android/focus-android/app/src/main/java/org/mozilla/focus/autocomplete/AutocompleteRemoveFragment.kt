@@ -91,18 +91,6 @@ MenuItem
 import
 kotlinx
 .
-android
-.
-synthetic
-.
-main
-.
-fragment_autocomplete_customdomains
-.
-*
-import
-kotlinx
-.
 coroutines
 .
 CoroutineScope
@@ -304,6 +292,8 @@ val
 domains
 =
 (
+binding
+.
 domainList
 .
 adapter
