@@ -175,7 +175,7 @@ File
 internal
 const
 val
-REMOTE_ENDPOINT_URL
+REMOTE_PROD_ENDPOINT_URL
 =
 "
 https
@@ -236,7 +236,7 @@ serverUrl
 :
 String
 =
-REMOTE_ENDPOINT_URL
+REMOTE_PROD_ENDPOINT_URL
 bucketName
 :
 String
