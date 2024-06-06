@@ -73,6 +73,12 @@ view
 .
 LayoutInflater
 import
+androidx
+.
+lifecycle
+.
+LifecycleOwner
+import
 io
 .
 mockk
@@ -225,6 +231,12 @@ interactor
 :
 TopSiteInteractor
 private
+lateinit
+var
+lifecycleOwner
+:
+LifecycleOwner
+private
 val
 pocket
 =
@@ -282,6 +294,14 @@ relaxed
 =
 true
 )
+lifecycleOwner
+=
+mockk
+(
+relaxed
+=
+true
+)
 every
 {
 testContext
@@ -318,6 +338,7 @@ TopSiteItemViewHolder
 binding
 .
 root
+lifecycleOwner
 interactor
 )
 .
@@ -372,6 +393,7 @@ TopSiteItemViewHolder
 binding
 .
 root
+lifecycleOwner
 interactor
 )
 .
@@ -451,6 +473,7 @@ TopSiteItemViewHolder
 binding
 .
 root
+lifecycleOwner
 interactor
 )
 .
@@ -532,6 +555,7 @@ TopSiteItemViewHolder
 binding
 .
 root
+lifecycleOwner
 interactor
 )
 .
@@ -615,6 +639,7 @@ TopSiteItemViewHolder
 binding
 .
 root
+lifecycleOwner
 interactor
 )
 .

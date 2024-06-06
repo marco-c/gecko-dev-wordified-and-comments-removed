@@ -75,6 +75,12 @@ View
 import
 androidx
 .
+lifecycle
+.
+LifecycleOwner
+import
+androidx
+.
 recyclerview
 .
 widget
@@ -138,6 +144,9 @@ TopSiteViewHolder
 view
 :
 View
+viewLifecycleOwner
+:
+LifecycleOwner
 interactor
 :
 TopSiteInteractor
@@ -156,6 +165,7 @@ topSitesAdapter
 =
 TopSitesAdapter
 (
+viewLifecycleOwner
 interactor
 )
 val

@@ -81,6 +81,12 @@ ViewGroup
 import
 androidx
 .
+lifecycle
+.
+LifecycleOwner
+import
+androidx
+.
 recyclerview
 .
 widget
@@ -131,6 +137,11 @@ StartupTimeline
 class
 TopSitesAdapter
 (
+private
+val
+viewLifecycleOwner
+:
+LifecycleOwner
 private
 val
 interactor
@@ -185,6 +196,7 @@ return
 TopSiteItemViewHolder
 (
 view
+viewLifecycleOwner
 interactor
 )
 }

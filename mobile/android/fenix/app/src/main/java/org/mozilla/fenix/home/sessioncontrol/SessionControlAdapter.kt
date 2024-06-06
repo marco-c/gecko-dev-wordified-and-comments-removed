@@ -1966,6 +1966,7 @@ LAYOUT_ID
 TopSitePagerViewHolder
 (
 view
+viewLifecycleOwner
 interactor
 )
 PrivateBrowsingDescriptionViewHolder

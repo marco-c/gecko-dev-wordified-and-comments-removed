@@ -83,6 +83,12 @@ isVisible
 import
 androidx
 .
+lifecycle
+.
+LifecycleOwner
+import
+androidx
+.
 recyclerview
 .
 widget
@@ -178,6 +184,9 @@ TopSitePagerViewHolder
 view
 :
 View
+viewLifecycleOwner
+:
+LifecycleOwner
 interactor
 :
 TopSiteInteractor
@@ -206,6 +215,7 @@ topSitesPagerAdapter
 =
 TopSitesPagerAdapter
 (
+viewLifecycleOwner
 interactor
 )
 private

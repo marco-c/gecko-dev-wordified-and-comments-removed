@@ -87,6 +87,12 @@ VisibleForTesting
 import
 androidx
 .
+lifecycle
+.
+LifecycleOwner
+import
+androidx
+.
 recyclerview
 .
 widget
@@ -159,6 +165,11 @@ TopSitesPagerAdapter
 (
 private
 val
+viewLifecycleOwner
+:
+LifecycleOwner
+private
+val
 interactor
 :
 TopSiteInteractor
@@ -214,6 +225,7 @@ return
 TopSiteViewHolder
 (
 view
+viewLifecycleOwner
 interactor
 )
 }

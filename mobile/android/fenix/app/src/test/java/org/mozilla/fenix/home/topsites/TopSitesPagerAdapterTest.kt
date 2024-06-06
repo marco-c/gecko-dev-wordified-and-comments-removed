@@ -288,6 +288,9 @@ TopSitesPagerAdapter
 mockk
 (
 )
+mockk
+(
+)
 )
 )
 }
