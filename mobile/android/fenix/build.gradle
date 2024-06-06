@@ -683,6 +683,16 @@ kotlin
 .
 Experimental
 "
+"
+-
+Xopt
+-
+in
+=
+kotlin
+.
+RequiresOptIn
+"
 ]
 }
 }

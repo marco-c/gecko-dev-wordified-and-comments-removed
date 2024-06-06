@@ -2259,7 +2259,7 @@ substring
 1
 )
 .
-toUpperCase
+uppercase
 (
 locale
 )

@@ -730,7 +730,7 @@ item
 .
 name
 .
-toLowerCase
+lowercase
 (
 Locale
 .

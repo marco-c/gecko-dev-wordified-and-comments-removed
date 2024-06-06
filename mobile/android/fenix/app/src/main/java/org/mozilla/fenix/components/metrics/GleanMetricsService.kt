@@ -811,7 +811,7 @@ part
 0
 ]
 .
-toUpperCase
+uppercase
 (
 )
 )

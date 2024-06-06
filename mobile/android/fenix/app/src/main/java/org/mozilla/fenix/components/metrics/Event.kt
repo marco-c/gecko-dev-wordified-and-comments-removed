@@ -3318,7 +3318,7 @@ engineSource
 .
 identifier
 .
-toLowerCase
+lowercase
 (
 Locale
 .
@@ -3889,7 +3889,7 @@ toString
 (
 )
 .
-toLowerCase
+lowercase
 (
 Locale
 .
@@ -3949,7 +3949,7 @@ toString
 (
 )
 .
-toLowerCase
+lowercase
 (
 Locale
 .
@@ -4016,7 +4016,7 @@ toString
 (
 )
 .
-toLowerCase
+lowercase
 (
 Locale
 .

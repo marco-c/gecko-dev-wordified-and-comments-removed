@@ -1583,7 +1583,7 @@ textContains
 {
 searchEngineName
 .
-toLowerCase
+lowercase
 (
 )
 }
@@ -1613,7 +1613,7 @@ startsWith
 {
 searchEngineName
 .
-toLowerCase
+lowercase
 (
 )
 }

@@ -589,7 +589,7 @@ stripUserInfo
 (
 )
 .
-toLowerCase
+lowercase
 (
 Locale
 .

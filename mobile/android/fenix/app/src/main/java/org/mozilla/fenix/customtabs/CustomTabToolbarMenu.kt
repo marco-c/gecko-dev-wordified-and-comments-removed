@@ -1194,7 +1194,7 @@ browser_menu_powered_by
 appName
 )
 .
-toUpperCase
+uppercase
 (
 Locale
 .

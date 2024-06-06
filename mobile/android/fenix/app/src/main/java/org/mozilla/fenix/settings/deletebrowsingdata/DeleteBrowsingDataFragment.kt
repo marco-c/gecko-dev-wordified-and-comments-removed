@@ -432,6 +432,10 @@ getCheckboxes
 (
 )
 .
+iterator
+(
+)
+.
 forEach
 {
 it
@@ -452,6 +456,10 @@ it
 }
 }
 getCheckboxes
+(
+)
+.
+iterator
 (
 )
 .

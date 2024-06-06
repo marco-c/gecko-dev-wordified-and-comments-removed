@@ -1830,6 +1830,10 @@ RemoveBookmarks
 {
 selected
 .
+iterator
+(
+)
+.
 forEach
 {
 if

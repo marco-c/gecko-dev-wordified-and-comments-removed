@@ -1052,7 +1052,7 @@ view
 .
 children
 .
-sumBy
+sumOf
 {
 countRecyclerViewConstraintLayoutChildren
 (
