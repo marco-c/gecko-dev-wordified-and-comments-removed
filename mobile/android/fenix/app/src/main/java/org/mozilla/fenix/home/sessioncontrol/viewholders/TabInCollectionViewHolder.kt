@@ -378,7 +378,7 @@ R
 .
 dimen
 .
-home_collection_elevation
+home_item_elevation
 )
 view
 .

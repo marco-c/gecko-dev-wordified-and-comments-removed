@@ -1087,6 +1087,11 @@ recentTabs
 emptyList
 (
 )
+recentBookmarks
+=
+emptyList
+(
+)
 )
 every
 {

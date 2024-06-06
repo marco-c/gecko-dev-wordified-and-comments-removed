@@ -1041,6 +1041,11 @@ true
 recentTabs
 =
 recentTabs
+recentBookmarks
+=
+emptyList
+(
+)
 )
 )
 .
