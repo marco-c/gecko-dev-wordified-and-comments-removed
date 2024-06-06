@@ -734,7 +734,7 @@ R
 .
 string
 .
-review_quality_check_contextual_onboarding_caption_3
+review_quality_check_contextual_onboarding_caption_2
 stringResource
 (
 id
