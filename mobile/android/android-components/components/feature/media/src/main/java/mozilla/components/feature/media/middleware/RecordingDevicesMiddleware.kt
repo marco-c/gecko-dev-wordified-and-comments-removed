@@ -377,7 +377,13 @@ NOTIFICATION_REMINDER_DELAY_MS
 =
 5
 *
+60
+*
 1000L
+/
+/
+5
+minutes
 /
 *
 *
