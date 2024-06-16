@@ -58,6 +58,9 @@ mozilla
 class
 EventStateManager
 ;
+class
+ScrollContainerFrame
+;
 struct
 DeltaValues
 {
@@ -135,9 +138,9 @@ static
 bool
 CanScrollOn
 (
-nsIScrollableFrame
+ScrollContainerFrame
 *
-aScrollFrame
+aScrollContainerFrame
 double
 aDirectionX
 double
