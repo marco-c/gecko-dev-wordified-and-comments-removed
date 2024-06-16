@@ -78,7 +78,9 @@ locale
 /
 content
 /
-intl_on_workers_worker
+intl_on_workers
+.
+worker
 .
 js
 "
