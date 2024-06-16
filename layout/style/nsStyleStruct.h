@@ -3155,12 +3155,6 @@ mMaxHeight
 mozilla
 :
 :
-StylePositionAnchor
-mPositionAnchor
-;
-mozilla
-:
-:
 StyleFlexBasis
 mFlexBasis
 ;
