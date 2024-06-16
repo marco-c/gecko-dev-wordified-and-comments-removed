@@ -475,6 +475,15 @@ return
 type_
 ;
 }
+absl
+:
+:
+string_view
+type_name
+(
+)
+const
+;
 void
 set_type
 (
