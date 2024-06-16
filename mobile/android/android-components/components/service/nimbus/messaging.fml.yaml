@@ -588,7 +588,6 @@ Text
 >
 description
 :
-"
 The
 title
 text
@@ -596,7 +595,6 @@ displayed
 to
 the
 user
-"
 default
 :
 null
@@ -607,7 +605,6 @@ type
 Text
 description
 :
-"
 The
 message
 text
@@ -615,7 +612,6 @@ displayed
 to
 the
 user
-"
 #
 This
 should
@@ -627,6 +623,26 @@ default
 :
 "
 "
+microsurveyConfig
+:
+type
+:
+Option
+<
+MicroSurveyConfig
+>
+description
+:
+Optional
+configuration
+data
+for
+a
+microsurvey
+.
+default
+:
+null
 is
 -
 control
@@ -636,7 +652,6 @@ type
 Boolean
 description
 :
-"
 Indicates
 if
 this
@@ -652,7 +667,6 @@ shouldn
 t
 be
 displayed
-"
 default
 :
 false
