@@ -760,6 +760,10 @@ BoringSSLIdentity
 >
 identity_
 ;
+const
+bool
+permute_extension_
+;
 #
 else
 std
