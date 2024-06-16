@@ -524,6 +524,15 @@ DiscoveryStream
 .
 recentSavesEnabled
 }
+mayHaveWeather
+=
+{
+this
+.
+props
+.
+mayHaveWeather
+}
 spocMessageVariant
 =
 {
