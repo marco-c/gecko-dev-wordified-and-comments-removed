@@ -1457,12 +1457,9 @@ include_starting_style
 ;
 }
 else
-if
+{
 let
-Some
-(
 scopes
-)
 =
 cascade_data
 .
@@ -1475,7 +1472,7 @@ stylist
 element
 matching_context
 )
-{
+;
 for
 candidate
 in
