@@ -529,6 +529,13 @@ this
 domRule
 .
 selectors
+selectorsSpecificity
+:
+this
+.
+domRule
+.
+selectorsSpecificity
 selectorWarnings
 :
 this
