@@ -305,9 +305,6 @@ interactor
 mockk
 (
 )
-isNavBarEnabled
-=
-false
 )
 }
 After
