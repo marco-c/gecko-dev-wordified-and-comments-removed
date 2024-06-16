@@ -148,7 +148,9 @@ true
 ;
 try
 {
-BrowserOpenTab
+BrowserCommands
+.
+openTab
 (
 )
 ;

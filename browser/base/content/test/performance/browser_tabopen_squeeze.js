@@ -132,7 +132,9 @@ TabSwitchDone
 "
 )
 ;
-BrowserOpenTab
+BrowserCommands
+.
+openTab
 (
 )
 ;

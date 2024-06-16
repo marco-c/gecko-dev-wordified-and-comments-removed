@@ -189,7 +189,9 @@ aExpectedURL
 {
 aWindow
 .
-BrowserOpenTab
+BrowserCommands
+.
+openTab
 (
 )
 ;

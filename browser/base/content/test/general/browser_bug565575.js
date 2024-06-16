@@ -23,7 +23,9 @@ gBrowser
 )
 =
 >
-BrowserOpenTab
+BrowserCommands
+.
+openTab
 (
 )
 false

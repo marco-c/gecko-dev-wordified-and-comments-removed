@@ -114,9 +114,6 @@ loadOneOrMoreURIs
 openLocation
 "
 "
-BrowserOpenTab
-"
-"
 gLastOpenDirectory
 "
 "

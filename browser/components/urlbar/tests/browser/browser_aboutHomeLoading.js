@@ -444,7 +444,9 @@ gBrowser
 }
 )
 ;
-BrowserOpenTab
+BrowserCommands
+.
+openTab
 (
 )
 ;
@@ -652,7 +654,9 @@ gBrowser
 ;
 win
 .
-BrowserOpenTab
+BrowserCommands
+.
+openTab
 (
 )
 ;

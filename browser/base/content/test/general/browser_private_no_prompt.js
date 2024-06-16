@@ -28,7 +28,9 @@ function
 {
 privateWin
 .
-BrowserOpenTab
+BrowserCommands
+.
+openTab
 (
 )
 ;

@@ -540,7 +540,9 @@ length
 {
 win
 .
-BrowserOpenTab
+BrowserCommands
+.
+openTab
 (
 )
 ;

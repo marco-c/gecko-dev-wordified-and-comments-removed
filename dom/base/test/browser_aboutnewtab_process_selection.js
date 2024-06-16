@@ -192,7 +192,9 @@ i
 +
 )
 {
-BrowserOpenTab
+BrowserCommands
+.
+openTab
 (
 )
 ;
@@ -555,7 +557,9 @@ attribute
 "
 )
 ;
-BrowserOpenTab
+BrowserCommands
+.
+openTab
 (
 )
 ;

@@ -492,7 +492,9 @@ expectBmToolbarVisibilityChange
 =
 >
 {
-BrowserOpenTab
+BrowserCommands
+.
+openTab
 (
 )
 ;

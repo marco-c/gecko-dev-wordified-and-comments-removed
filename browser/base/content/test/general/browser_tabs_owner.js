@@ -56,7 +56,9 @@ tabs
 2
 ]
 ;
-BrowserOpenTab
+BrowserCommands
+.
+openTab
 (
 )
 ;
@@ -105,7 +107,9 @@ gBrowser
 .
 selectedTab
 ;
-BrowserOpenTab
+BrowserCommands
+.
+openTab
 (
 )
 ;
@@ -161,7 +165,9 @@ gBrowser
 .
 selectedTab
 ;
-BrowserOpenTab
+BrowserCommands
+.
+openTab
 (
 )
 ;

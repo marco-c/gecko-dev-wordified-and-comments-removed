@@ -74,7 +74,9 @@ start
 }
 )
 ;
-BrowserOpenTab
+BrowserCommands
+.
+openTab
 (
 )
 ;

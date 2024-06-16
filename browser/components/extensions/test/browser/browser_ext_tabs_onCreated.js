@@ -164,7 +164,9 @@ ready
 "
 )
 ;
-BrowserOpenTab
+BrowserCommands
+.
+openTab
 (
 )
 ;

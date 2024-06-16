@@ -4540,7 +4540,9 @@ e
 .
 g
 .
-BrowserOpenTab
+BrowserCommands
+.
+openTab
 *
 and
 the

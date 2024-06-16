@@ -1479,7 +1479,9 @@ this
 .
 window
 .
-BrowserOpenTab
+BrowserCommands
+.
+openTab
 (
 {
 url

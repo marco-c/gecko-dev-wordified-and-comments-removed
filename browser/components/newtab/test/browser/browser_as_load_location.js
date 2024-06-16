@@ -11,7 +11,9 @@ selector
 message
 )
 {
-BrowserOpenTab
+BrowserCommands
+.
+openTab
 (
 )
 ;

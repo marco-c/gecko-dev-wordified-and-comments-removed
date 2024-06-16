@@ -11,7 +11,9 @@ test_browser_open_newtab_default_url
 (
 )
 {
-BrowserOpenTab
+BrowserCommands
+.
+openTab
 (
 )
 ;
@@ -93,7 +95,9 @@ example
 com
 "
 ;
-BrowserOpenTab
+BrowserCommands
+.
+openTab
 (
 {
 url

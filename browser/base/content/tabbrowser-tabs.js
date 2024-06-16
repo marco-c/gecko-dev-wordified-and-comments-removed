@@ -1284,7 +1284,9 @@ this
 _blockDblClick
 )
 {
-BrowserOpenTab
+BrowserCommands
+.
+openTab
 (
 )
 ;
@@ -1637,7 +1639,9 @@ endOfTab
 )
 )
 {
-BrowserOpenTab
+BrowserCommands
+.
+openTab
 (
 )
 ;

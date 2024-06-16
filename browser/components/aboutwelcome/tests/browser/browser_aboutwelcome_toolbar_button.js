@@ -170,7 +170,9 @@ openNewBrowserWindow
 ;
 win
 .
-BrowserOpenTab
+BrowserCommands
+.
+openTab
 (
 )
 ;

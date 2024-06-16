@@ -868,7 +868,9 @@ aCallback
 {
 aWindow
 .
-BrowserOpenTab
+BrowserCommands
+.
+openTab
 (
 )
 ;

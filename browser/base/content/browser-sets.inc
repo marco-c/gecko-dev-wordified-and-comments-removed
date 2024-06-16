@@ -231,7 +231,9 @@ cmd_newNavigatorTab
 oncommand
 =
 "
-BrowserOpenTab
+BrowserCommands
+.
+openTab
 (
 {
 event
@@ -251,7 +253,9 @@ cmd_newNavigatorTabNoEvent
 oncommand
 =
 "
-BrowserOpenTab
+BrowserCommands
+.
+openTab
 (
 )
 ;
