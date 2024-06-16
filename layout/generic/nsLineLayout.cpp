@@ -9245,7 +9245,10 @@ if
 side
 =
 =
-eLogicalSideBStart
+LogicalSide
+:
+:
+BStart
 )
 {
 requiredStartLeading
@@ -9261,7 +9264,10 @@ MOZ_ASSERT
 side
 =
 =
-eLogicalSideBEnd
+LogicalSide
+:
+:
+BEnd
 "
 emphasis
 marks
@@ -12272,7 +12278,10 @@ if
 side
 =
 =
-eLogicalSideBStart
+LogicalSide
+:
+:
+BStart
 )
 {
 blockStart

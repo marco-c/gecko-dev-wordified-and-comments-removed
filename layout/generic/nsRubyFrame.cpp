@@ -1847,7 +1847,10 @@ if
 logicalSide
 =
 =
-eLogicalSideBStart
+LogicalSide
+:
+:
+BStart
 )
 {
 offsetRect
@@ -1896,7 +1899,10 @@ if
 logicalSide
 =
 =
-eLogicalSideBEnd
+LogicalSide
+:
+:
+BEnd
 )
 {
 position

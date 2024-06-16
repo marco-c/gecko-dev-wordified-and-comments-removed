@@ -344,6 +344,7 @@ HalfCorner
 uint8_t
 ;
 enum
+class
 LogicalSide
 :
 uint8_t

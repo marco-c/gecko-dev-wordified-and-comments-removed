@@ -382,7 +382,10 @@ wm
 .
 PhysicalSide
 (
-eLogicalSideBStart
+LogicalSide
+:
+:
+BStart
 )
 )
 ;

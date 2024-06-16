@@ -8364,7 +8364,10 @@ mWM
 .
 PhysicalSide
 (
-eLogicalSideBStart
+LogicalSide
+:
+:
+BStart
 )
 ;
 mozilla
@@ -8899,7 +8902,10 @@ mWM
 .
 PhysicalSide
 (
-eLogicalSideBStart
+LogicalSide
+:
+:
+BStart
 )
 ;
 nscoord
