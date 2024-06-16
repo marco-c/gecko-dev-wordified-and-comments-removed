@@ -2641,7 +2641,7 @@ rust
 -
 1
 .
-78
+79
 .
 0
 :
@@ -2650,7 +2650,7 @@ description
 Rust
 1
 .
-78
+79
 .
 0
 source
@@ -2685,7 +2685,7 @@ rust
 /
 revision
 :
-9b00956e56009bab2aa15d7bff10916599e3d6d6
+129f3b9964af4d4a709d1383930ade12dfe7c081
 rust
 -
 nightly
