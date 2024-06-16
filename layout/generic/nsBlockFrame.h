@@ -2576,9 +2576,14 @@ EnsurePushedFloats
 (
 )
 ;
+[
+[
+nodiscard
+]
+]
 nsFrameList
 *
-RemovePushedFloats
+StealPushedFloats
 (
 )
 ;
