@@ -289,6 +289,14 @@ types
 -
 for
 ;
+sequence
+<
+DOMString
+>
+trusted
+-
+types
+;
 }
 ;
 [
