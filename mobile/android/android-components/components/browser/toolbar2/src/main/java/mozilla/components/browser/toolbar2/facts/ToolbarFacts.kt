@@ -63,7 +63,7 @@ components
 .
 browser
 .
-toolbar
+toolbar2
 .
 facts
 import

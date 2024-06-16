@@ -20,7 +20,7 @@ md
 >
 Browser
 >
-Toolbar
+Toolbar2
 A
 customizable
 toolbar
@@ -99,7 +99,7 @@ components
 :
 browser
 -
-toolbar
+toolbar2
 :
 {
 latest

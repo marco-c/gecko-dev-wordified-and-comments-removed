@@ -85,7 +85,7 @@ components
 .
 browser
 .
-toolbar
+toolbar2
 .
 display
 .
@@ -207,7 +207,7 @@ components
 .
 browser
 .
-toolbar
+toolbar2
 .
 internal
 .
@@ -469,7 +469,7 @@ components
 .
 browser
 .
-toolbar
+toolbar2
 .
 display
 .
@@ -637,7 +637,7 @@ components
 .
 browser
 .
-toolbar
+toolbar2
 .
 display
 .
@@ -724,7 +724,7 @@ components
 .
 browser
 .
-toolbar
+toolbar2
 .
 display
 .
@@ -838,7 +838,7 @@ components
 .
 browser
 .
-toolbar
+toolbar2
 .
 display
 .
@@ -1033,7 +1033,7 @@ components
 .
 browser
 .
-toolbar
+toolbar2
 .
 internal
 .
@@ -1125,7 +1125,7 @@ components
 .
 browser
 .
-toolbar
+toolbar2
 .
 internal
 .
@@ -1357,7 +1357,7 @@ components
 .
 browser
 .
-toolbar
+toolbar2
 .
 display
 .

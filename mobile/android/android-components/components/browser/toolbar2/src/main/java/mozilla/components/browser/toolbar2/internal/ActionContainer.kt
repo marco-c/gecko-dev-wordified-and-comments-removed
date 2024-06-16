@@ -63,7 +63,7 @@ components
 .
 browser
 .
-toolbar
+toolbar2
 .
 internal
 import
@@ -123,7 +123,7 @@ components
 .
 browser
 .
-toolbar
+toolbar2
 .
 R
 import

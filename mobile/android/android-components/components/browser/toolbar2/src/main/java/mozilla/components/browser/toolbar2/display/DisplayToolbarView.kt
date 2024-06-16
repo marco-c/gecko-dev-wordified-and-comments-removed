@@ -63,7 +63,7 @@ components
 .
 browser
 .
-toolbar
+toolbar2
 .
 display
 import
@@ -111,7 +111,7 @@ components
 .
 browser
 .
-toolbar
+toolbar2
 .
 R
 /

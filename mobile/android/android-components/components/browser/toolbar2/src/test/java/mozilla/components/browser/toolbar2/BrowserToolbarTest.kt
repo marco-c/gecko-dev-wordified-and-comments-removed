@@ -63,7 +63,7 @@ components
 .
 browser
 .
-toolbar
+toolbar2
 import
 android
 .
@@ -171,7 +171,7 @@ components
 .
 browser
 .
-toolbar
+toolbar2
 .
 display
 .
@@ -183,7 +183,7 @@ components
 .
 browser
 .
-toolbar
+toolbar2
 .
 display
 .
@@ -195,7 +195,7 @@ components
 .
 browser
 .
-toolbar
+toolbar2
 .
 display
 .
@@ -207,7 +207,7 @@ components
 .
 browser
 .
-toolbar
+toolbar2
 .
 edit
 .

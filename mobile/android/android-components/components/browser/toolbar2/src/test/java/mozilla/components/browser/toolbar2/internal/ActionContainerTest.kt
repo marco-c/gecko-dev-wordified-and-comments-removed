@@ -63,7 +63,7 @@ components
 .
 browser
 .
-toolbar
+toolbar2
 .
 internal
 import
@@ -79,7 +79,7 @@ components
 .
 browser
 .
-toolbar
+toolbar2
 .
 BrowserToolbar
 import
