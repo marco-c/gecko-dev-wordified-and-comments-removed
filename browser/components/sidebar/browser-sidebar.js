@@ -1889,7 +1889,7 @@ sidebarMain
 =
 document
 .
-querySelector
+getElementById
 (
 "
 sidebar

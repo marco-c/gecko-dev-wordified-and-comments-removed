@@ -73,7 +73,7 @@ sidebar
 =
 document
 .
-getElementById
+querySelector
 (
 "
 sidebar
