@@ -278,9 +278,6 @@ cpu
 "
 responsiveness
 "
-"
-memory
-"
 ]
 threads
 :

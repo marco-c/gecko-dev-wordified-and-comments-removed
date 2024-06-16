@@ -1499,9 +1499,6 @@ js
 "
 cpu
 "
-"
-memory
-"
 ]
 threads
 :
@@ -1637,9 +1634,6 @@ java
 "
 processcpu
 "
-"
-memory
-"
 ]
 threads
 :
@@ -1755,9 +1749,6 @@ java
 "
 "
 processcpu
-"
-"
-memory
 "
 ]
 threads
@@ -1888,9 +1879,6 @@ ipcmessages
 "
 "
 processcpu
-"
-"
-memory
 "
 ]
 threads
@@ -2069,9 +2057,6 @@ processcpu
 "
 bandwidth
 "
-"
-memory
-"
 ]
 threads
 :
@@ -2217,9 +2202,6 @@ power
 "
 "
 bandwidth
-"
-"
-memory
 "
 ]
 threads
