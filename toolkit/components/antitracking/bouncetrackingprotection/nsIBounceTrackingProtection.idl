@@ -63,6 +63,13 @@ nsISupports
 .
 idl
 "
+#
+include
+"
+nsIBounceTrackingMapEntry
+.
+idl
+"
 [
 scriptable
 uuid
@@ -295,7 +302,7 @@ implicit_jscontext
 ]
 Array
 <
-ACString
+nsIBounceTrackingMapEntry
 >
 testGetBounceTrackerCandidateHosts
 (
@@ -309,7 +316,7 @@ implicit_jscontext
 ]
 Array
 <
-ACString
+nsIBounceTrackingMapEntry
 >
 testGetUserActivationHosts
 (
