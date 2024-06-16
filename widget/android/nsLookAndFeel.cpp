@@ -1262,6 +1262,12 @@ case
 ColorID
 :
 :
+MozAutofillBackground
+:
+case
+ColorID
+:
+:
 SpellCheckerUnderline
 :
 aColor
