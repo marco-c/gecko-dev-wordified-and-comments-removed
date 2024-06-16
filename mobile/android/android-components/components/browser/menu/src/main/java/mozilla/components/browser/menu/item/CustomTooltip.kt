@@ -133,14 +133,6 @@ androidx
 .
 core
 .
-view
-.
-ViewCompat
-import
-androidx
-.
-core
-.
 widget
 .
 PopupWindowCompat
@@ -247,11 +239,10 @@ Boolean
 {
 if
 (
-ViewCompat
+anchor
 .
 isAttachedToWindow
 (
-anchor
 )
 )
 {

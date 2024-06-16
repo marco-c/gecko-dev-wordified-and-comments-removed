@@ -87,14 +87,6 @@ PopupWindow
 import
 androidx
 .
-core
-.
-view
-.
-ViewCompat
-import
-androidx
-.
 recyclerview
 .
 widget
@@ -4479,7 +4471,7 @@ isRTL
 {
 doReturn
 (
-ViewCompat
+View
 .
 LAYOUT_DIRECTION_RTL
 )
@@ -4495,7 +4487,7 @@ else
 {
 doReturn
 (
-ViewCompat
+View
 .
 LAYOUT_DIRECTION_LTR
 )

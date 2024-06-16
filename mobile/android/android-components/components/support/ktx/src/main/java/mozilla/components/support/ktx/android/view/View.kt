@@ -127,14 +127,6 @@ content
 .
 getSystemService
 import
-androidx
-.
-core
-.
-view
-.
-ViewCompat
-import
 kotlinx
 .
 coroutines
@@ -218,7 +210,7 @@ get
 layoutDirection
 =
 =
-ViewCompat
+View
 .
 LAYOUT_DIRECTION_RTL
 /
@@ -253,7 +245,7 @@ get
 layoutDirection
 =
 =
-ViewCompat
+View
 .
 LAYOUT_DIRECTION_LTR
 /

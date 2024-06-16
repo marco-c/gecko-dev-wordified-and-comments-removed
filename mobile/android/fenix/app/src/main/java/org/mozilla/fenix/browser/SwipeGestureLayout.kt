@@ -100,14 +100,6 @@ android
 widget
 .
 FrameLayout
-import
-androidx
-.
-core
-.
-view
-.
-GestureDetectorCompat
 /
 *
 *
@@ -633,7 +625,7 @@ private
 val
 gestureDetector
 =
-GestureDetectorCompat
+GestureDetector
 (
 context
 gestureListener

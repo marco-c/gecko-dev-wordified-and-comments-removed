@@ -3444,7 +3444,7 @@ onLayoutChild
 (
 container
 view
-ViewCompat
+View
 .
 LAYOUT_DIRECTION_LTR
 )

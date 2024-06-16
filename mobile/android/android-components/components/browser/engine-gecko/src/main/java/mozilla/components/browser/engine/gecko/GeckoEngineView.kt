@@ -101,6 +101,12 @@ AttributeSet
 import
 android
 .
+view
+.
+View
+import
+android
+.
 widget
 .
 FrameLayout
@@ -498,7 +504,7 @@ ViewCompat
 setImportantForAutofill
 (
 this
-ViewCompat
+View
 .
 IMPORTANT_FOR_ACCESSIBILITY_YES
 )
