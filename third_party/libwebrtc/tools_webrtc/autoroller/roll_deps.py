@@ -151,6 +151,16 @@ mockito
 /
 src
 '
+    
+'
+src
+/
+third_party
+/
+protobuf
+-
+javascript
+'
 ]
 WEBRTC_ONLY_DEPS
 =
