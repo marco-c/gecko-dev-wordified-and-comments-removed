@@ -485,9 +485,6 @@ class
 nsIScreen
 ;
 class
-nsIScrollableFrame
-;
-class
 nsIURI
 ;
 class
@@ -538,6 +535,9 @@ ErrorResult
 ;
 class
 OOMReporter
+;
+class
+ScrollContainerFrame
 ;
 class
 SMILAttr
@@ -2441,9 +2441,9 @@ aError
 public
 :
 MOZ_CAN_RUN_SCRIPT
-nsIScrollableFrame
+ScrollContainerFrame
 *
-GetScrollFrame
+GetScrollContainerFrame
 (
 nsIFrame
 *
