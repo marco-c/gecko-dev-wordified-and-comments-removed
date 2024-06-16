@@ -3780,6 +3780,7 @@ image
 variant
 -
 definition
+-
 _HtmlCanvas
 :
 canvasType
@@ -4662,6 +4663,7 @@ canvas2
 variant
 -
 definition
+-
 _HtmlCanvas
 :
 canvasType

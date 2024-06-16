@@ -201,6 +201,7 @@ default_value
 ;
 variants
 :
+-
 letter_spacing
 :
 state_name

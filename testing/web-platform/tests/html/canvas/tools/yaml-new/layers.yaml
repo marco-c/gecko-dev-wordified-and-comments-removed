@@ -312,6 +312,7 @@ canvas2
 ;
 variants
 :
+-
 &
 global
 -
@@ -1425,6 +1426,7 @@ svg
 ;
 variants
 :
+-
 <
 <
 :
@@ -4819,6 +4821,7 @@ operation
 ;
 variants
 :
+-
 createPattern
 :
 operation
@@ -5133,6 +5136,7 @@ operation
 ;
 variants
 :
+-
 convertToBlob
 :
 canvasType
@@ -6388,6 +6392,7 @@ variant_desc
 .
 variants
 :
+-
 save
 :
 variant_desc
@@ -6638,6 +6643,7 @@ indent
 ;
 variants
 :
+-
 endLayer
 :
 variant_desc
@@ -7850,6 +7856,7 @@ svg
 ;
 variants
 :
+-
 no
 -
 clipping
@@ -8070,6 +8077,7 @@ fillRect
 ;
 variants
 :
+-
 short
 -
 distance
@@ -8838,6 +8846,7 @@ svg
 >
 variants
 :
+-
 blur
 :
 ctx_filter
@@ -9027,6 +9036,7 @@ test
 reference
 variants
 :
+-
 x
 -
 only

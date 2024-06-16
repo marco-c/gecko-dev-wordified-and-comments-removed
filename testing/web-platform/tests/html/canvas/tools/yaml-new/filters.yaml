@@ -1154,6 +1154,7 @@ append_variants_to_name
 false
 variants
 :
+-
 layers
 :
 filter_declaration
@@ -1978,6 +1979,7 @@ append_variants_to_name
 false
 variants
 :
+-
 layers
 :
 filter_declaration
@@ -2589,6 +2591,7 @@ append_variants_to_name
 false
 variants
 :
+-
 layers
 :
 filter_declaration
@@ -3185,6 +3188,7 @@ append_variants_to_name
 false
 variants
 :
+-
 layers
 :
 filter_declaration
@@ -3533,6 +3537,7 @@ append_variants_to_name
 false
 variants
 :
+-
 layers
 :
 filter_declaration
@@ -4182,6 +4187,7 @@ append_variants_to_name
 false
 variants
 :
+-
 layers
 :
 filter_declaration
@@ -4793,6 +4799,7 @@ append_variants_to_name
 false
 variants
 :
+-
 layers
 :
 filter_declaration
@@ -5378,6 +5385,7 @@ append_variants_to_name
 false
 variants
 :
+-
 layers
 :
 filter_declaration
@@ -5687,7 +5695,7 @@ svg
 append_variants_to_name
 :
 false
-variant_matrix
+variants
 :
 -
 layers
@@ -7658,6 +7666,7 @@ append_variants_to_name
 false
 variants
 :
+-
 layers
 :
 filter_declaration
@@ -8281,6 +8290,7 @@ append_variants_to_name
 false
 variants
 :
+-
 layers
 :
 filter_declaration
@@ -8960,6 +8970,7 @@ append_variants_to_name
 false
 variants
 :
+-
 layers
 :
 filter_declaration

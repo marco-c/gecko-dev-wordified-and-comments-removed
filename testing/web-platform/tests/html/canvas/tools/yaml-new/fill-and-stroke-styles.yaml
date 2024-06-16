@@ -4302,6 +4302,7 @@ expected
 green
 variants
 :
+-
 _HtmlCanvas
 :
 canvasType
@@ -10463,6 +10464,7 @@ image
 variant
 -
 definition
+-
 _HtmlCanvas
 :
 canvasType
@@ -10901,6 +10903,7 @@ canvas2
 variant
 -
 definition
+-
 _HtmlCanvas
 :
 canvasType
@@ -13861,6 +13864,7 @@ expected
 green
 variants
 :
+-
 _HtmlCanvas
 :
 canvasType
