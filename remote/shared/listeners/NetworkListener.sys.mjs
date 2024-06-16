@@ -344,8 +344,12 @@ devtoolsNetworkObserver
 #
 listening
 ;
+#
+navigationManager
+;
 constructor
 (
+navigationManager
 )
 {
 lazy
@@ -363,6 +367,13 @@ this
 listening
 =
 false
+;
+this
+.
+#
+navigationManager
+=
+navigationManager
 ;
 }
 destroy
@@ -616,6 +627,10 @@ NetworkEventRecord
 networkEvent
 channel
 this
+this
+.
+#
+navigationManager
 )
 ;
 }
