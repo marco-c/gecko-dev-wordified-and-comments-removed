@@ -767,18 +767,10 @@ tar
 gz
 "
     
-property
-    
-def
 _extra_archives
-(
-self
-)
-:
-        
-return
+=
 {
-            
+        
 "
 .
 xpt_artifacts
@@ -787,7 +779,7 @@ zip
 "
 :
 {
-                
+            
 "
 description
 "
@@ -796,14 +788,14 @@ description
 XPT
 Artifacts
 "
-                
+            
 "
 src_prefix
 "
 :
 "
 "
-                
+            
 "
 dest_prefix
 "
@@ -811,27 +803,17 @@ dest_prefix
 "
 xpt_artifacts
 "
-            
-}
         
 }
     
-property
+}
     
-def
 _extra_archive_suffixes
-(
-self
-)
-:
-        
-return
+=
 tuple
 (
 sorted
 (
-self
-.
 _extra_archives
 .
 keys
@@ -1198,7 +1180,7 @@ name
 .
 endswith
 (
-self
+ArtifactJob
 .
 _extra_archive_suffixes
 )
@@ -1448,7 +1430,7 @@ filename
 .
 endswith
 (
-self
+ArtifactJob
 .
 _extra_archive_suffixes
 )
@@ -2463,7 +2445,7 @@ for
 suffix
 extra_archive
 in
-self
+ArtifactJob
 .
 _extra_archives
 .
@@ -4254,76 +4236,6 @@ ChannelPrefs
 )
     
 )
-    
-property
-    
-def
-_extra_archives
-(
-self
-)
-:
-        
-extra_archives
-=
-super
-(
-)
-.
-_extra_archives
-        
-extra_archives
-.
-update
-(
-            
-{
-                
-"
-.
-update_framework_artifacts
-.
-zip
-"
-:
-{
-                    
-"
-description
-"
-:
-"
-Update
--
-related
-macOS
-Framework
-Artifacts
-"
-                    
-"
-src_prefix
-"
-:
-"
-"
-                    
-"
-dest_prefix
-"
-:
-"
-update_framework_artifacts
-"
-                
-}
-            
-}
-        
-)
-        
-return
-extra_archives
     
 property
     
@@ -8347,7 +8259,7 @@ hashes
 ]
         
 for
-hg_hash_unstripped
+hg_hash
 in
 hg_hash_list
 .
@@ -8358,7 +8270,7 @@ splitlines
             
 hg_hash
 =
-hg_hash_unstripped
+hg_hash
 .
 strip
 (
@@ -9077,14 +8989,14 @@ count
 0
         
 for
-rev_unstripped
+rev
 in
 last_revs
 :
             
 rev
 =
-rev_unstripped
+rev
 .
 rstrip
 (
