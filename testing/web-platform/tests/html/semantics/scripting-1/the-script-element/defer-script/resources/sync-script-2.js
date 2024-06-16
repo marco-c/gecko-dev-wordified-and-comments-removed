@@ -1,7 +1,0 @@
-logScript
-(
-"
-Sync2
-"
-)
-;

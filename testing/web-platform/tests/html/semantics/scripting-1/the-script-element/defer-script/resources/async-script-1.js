@@ -1,7 +1,0 @@
-logScript
-(
-"
-Async1
-"
-)
-;

@@ -1,7 +1,0 @@
-logScript
-(
-"
-Defer1
-"
-)
-;
