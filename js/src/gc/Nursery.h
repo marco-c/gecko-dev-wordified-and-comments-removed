@@ -1479,7 +1479,9 @@ reportPretenuring
 const
 {
 return
-reportPretenuring_
+pretenuringReportFilter_
+.
+enabled
 ;
 }
 void
@@ -2777,11 +2779,11 @@ canAllocateBigInts_
 bool
 reportDeduplications_
 ;
-bool
-reportPretenuring_
-;
-size_t
-reportPretenuringThreshold_
+gc
+:
+:
+AllocSiteFilter
+pretenuringReportFilter_
 ;
 JS
 :
