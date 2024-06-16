@@ -83,16 +83,6 @@ org
 per
 -
 file
-rtt_mult_experiment
-*
-=
-mhoro
-webrtc
-.
-org
-per
--
-file
 rate_control_settings
 *
 =

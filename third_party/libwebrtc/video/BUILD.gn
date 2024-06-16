@@ -2096,16 +2096,6 @@ macromagic
 .
 .
 /
-rtc_base
-/
-experiments
-:
-rtt_mult_experiment
-"
-"
-.
-.
-/
 system_wrappers
 "
 "
