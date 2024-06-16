@@ -682,7 +682,7 @@ api
         
 get_root_url
 (
-False
+use_proxy
 )
 "
 queue
@@ -704,8 +704,7 @@ artifacts
     
 )
     
-data
-=
+return
 artifact_tmpl
 .
 format
@@ -713,47 +712,6 @@ format
 task_id
 path
 )
-    
-if
-use_proxy
-:
-        
-response
-=
-_do_request
-(
-            
-os
-.
-environ
-[
-"
-TASKCLUSTER_PROXY_URL
-"
-]
-+
-"
-/
-bewit
-"
-            
-data
-=
-data
-            
-allow_redirects
-=
-False
-        
-)
-        
-return
-response
-.
-text
-    
-return
-data
 def
 get_artifact
 (

@@ -33,8 +33,6 @@ digest
 "
 TARGET_PR_CACHE_INDEX
 =
-(
-    
 "
 {
 cache_prefix
@@ -42,11 +40,7 @@ cache_prefix
 .
 cache
 .
-head
-.
-{
-head_ref
-}
+pr
 .
 {
 type
@@ -62,7 +56,6 @@ hash
 digest
 }
 "
-)
 EXTRA_CACHE_INDEXES
 =
 [

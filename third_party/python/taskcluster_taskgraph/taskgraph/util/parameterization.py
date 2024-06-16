@@ -568,38 +568,35 @@ dependency
                     
 )
             
-assert
+use_proxy
+=
+False
+            
+if
+not
 artifact_name
 .
 startswith
 (
-                
 "
 public
 /
 "
-            
 )
-f
-"
-artifact
--
-reference
-only
-supports
-public
-artifacts
-not
-{
-artifact_name
-}
-"
+:
+                
+use_proxy
+=
+True
             
 return
 get_artifact_url
 (
 task_id
 artifact_name
+use_proxy
+=
+use_proxy
 )
         
 return
