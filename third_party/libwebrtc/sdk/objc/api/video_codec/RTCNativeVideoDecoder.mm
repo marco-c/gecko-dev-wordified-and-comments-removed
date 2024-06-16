@@ -10,7 +10,7 @@ h
 #
 import
 "
-RTCWrappedNativeVideoDecoder
+RTCNativeVideoDecoder
 .
 h
 "
@@ -31,6 +31,15 @@ helpers
 NSString
 +
 StdString
+.
+h
+"
+#
+include
+"
+rtc_base
+/
+checks
 .
 h
 "
