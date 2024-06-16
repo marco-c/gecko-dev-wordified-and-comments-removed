@@ -241,6 +241,16 @@ ktx
 '
 )
 implementation
+project
+(
+'
+:
+support
+-
+utils
+'
+)
+implementation
 ComponentsDependencies
 .
 androidx_appcompat
