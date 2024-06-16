@@ -565,15 +565,12 @@ txExpandedName
 aName
 )
 ;
-nsresult
+int32_t
 resolveNamespacePrefix
 (
 nsAtom
 *
 aPrefix
-int32_t
-&
-aID
 )
 override
 ;

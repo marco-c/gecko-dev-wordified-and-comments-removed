@@ -54,15 +54,12 @@ txIParseContext
 default
 ;
 virtual
-nsresult
+int32_t
 resolveNamespacePrefix
 (
 nsAtom
 *
 aPrefix
-int32_t
-&
-aID
 )
 =
 0

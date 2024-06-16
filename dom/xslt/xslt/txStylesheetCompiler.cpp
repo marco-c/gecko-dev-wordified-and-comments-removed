@@ -3455,7 +3455,7 @@ aName
 )
 ;
 }
-nsresult
+int32_t
 txStylesheetCompilerState
 :
 :
@@ -3464,9 +3464,6 @@ resolveNamespacePrefix
 nsAtom
 *
 aPrefix
-int32_t
-&
-aID
 )
 {
 NS_ASSERTION
@@ -3492,8 +3489,7 @@ namespace
 "
 )
 ;
-aID
-=
+return
 mElementContext
 -
 >
@@ -3504,18 +3500,6 @@ lookupNamespace
 (
 aPrefix
 )
-;
-return
-(
-aID
-!
-=
-kNameSpaceID_Unknown
-)
-?
-NS_OK
-:
-NS_ERROR_FAILURE
 ;
 }
 class
