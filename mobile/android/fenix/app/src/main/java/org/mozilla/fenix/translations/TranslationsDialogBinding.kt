@@ -107,7 +107,7 @@ state
 .
 selector
 .
-findTab
+selectedTab
 import
 mozilla
 .
@@ -281,11 +281,6 @@ translationsDialogStore
 TranslationsDialogStore
 private
 val
-sessionId
-:
-String
-private
-val
 getTranslatedPageTitle
 :
 (
@@ -374,10 +369,7 @@ state
 >
 state
 .
-findTab
-(
-sessionId
-)
+selectedTab
 }
 .
 distinctUntilChangedBy

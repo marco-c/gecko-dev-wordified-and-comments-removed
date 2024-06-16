@@ -2472,11 +2472,6 @@ BrowserFragmentDirections
 .
 actionBrowserFragmentToTranslationsDialogFragment
 (
-sessionId
-=
-"
-1
-"
 )
 )
 }
