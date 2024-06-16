@@ -4876,6 +4876,11 @@ PopoverInvokerElement
 webidl
 "
 "
+PrivateAttribution
+.
+webidl
+"
+"
 ProcessingInstruction
 .
 webidl
