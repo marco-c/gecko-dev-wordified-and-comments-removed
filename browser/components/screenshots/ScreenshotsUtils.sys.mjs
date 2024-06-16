@@ -3921,12 +3921,6 @@ if
 currTabDialogBox
 )
 {
-currTabDialogBox
-.
-getTabDialogManager
-(
-)
-;
 let
 manager
 =
@@ -5148,7 +5142,7 @@ preview
 ;
 screenshotsPreviewEl
 .
-previewImgEl
+previewImg
 .
 src
 =
