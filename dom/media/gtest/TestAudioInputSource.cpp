@@ -67,8 +67,6 @@ testing
 :
 ContainerEq
 ;
-namespace
-{
 #
 define
 DispatchFunction
@@ -100,7 +98,6 @@ false
 )
 {
 \
-}
 }
 class
 MockEventListener
