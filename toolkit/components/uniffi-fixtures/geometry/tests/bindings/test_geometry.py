@@ -1,7 +1,10 @@
 from
 geometry
 import
-*
+Line
+Point
+gradient
+intersection
 ln1
 =
 Line

@@ -1,7 +1,11 @@
 from
 arithmetic
 import
-*
+InternalError
+add
+div
+equal
+sub
 try
 :
     
@@ -12,7 +16,6 @@ add
 )
     
 assert
-(
 not
 (
 "
@@ -24,7 +27,6 @@ IntegerOverflow
 exception
 !
 "
-)
 )
 except
 ArithmeticError
@@ -61,7 +63,6 @@ sub
 )
     
 assert
-(
 not
 (
 "
@@ -73,7 +74,6 @@ IntegerOverflow
 exception
 !
 "
-)
 )
 except
 ArithmeticError
@@ -126,7 +126,6 @@ else
 :
     
 assert
-(
 not
 (
 "
@@ -138,7 +137,6 @@ dividing
 by
 zero
 "
-)
 )
 assert
 equal

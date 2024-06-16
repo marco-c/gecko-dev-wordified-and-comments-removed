@@ -1,7 +1,10 @@
 from
 todolist
 import
-*
+TodoEntry
+TodoList
+get_default_list
+set_default_list
 todo
 =
 TodoList
@@ -33,7 +36,6 @@ bindings
 "
 )
 assert
-(
 todo
 .
 get_last
@@ -46,7 +48,6 @@ Write
 python
 bindings
 "
-)
 todo
 .
 add_item
@@ -59,7 +60,6 @@ bindings
 "
 )
 assert
-(
 todo
 .
 get_last
@@ -73,7 +73,6 @@ tests
 for
 bindings
 "
-)
 todo
 .
 add_entry
@@ -81,7 +80,6 @@ add_entry
 entry
 )
 assert
-(
 todo
 .
 get_last
@@ -97,9 +95,7 @@ strings
 in
 records
 "
-)
 assert
-(
 todo
 .
 get_last_entry
@@ -117,11 +113,11 @@ strings
 in
 records
 "
-)
 todo
 .
 add_item
 (
+    
 "
 Test
 nicode
@@ -146,11 +142,13 @@ first
 )
 assert
 (
+    
 todo
 .
 get_last
 (
 )
+    
 =
 =
 "
@@ -179,6 +177,7 @@ entry2
 =
 TodoEntry
 (
+    
 text
 =
 "
@@ -211,6 +210,7 @@ entry2
 )
 assert
 (
+    
 todo
 .
 get_last_entry
@@ -218,6 +218,7 @@ get_last_entry
 )
 .
 text
+    
 =
 =
 "
@@ -248,33 +249,26 @@ TodoList
 (
 )
 assert
-(
 todo
 !
 =
 todo2
-)
 assert
-(
 todo
 is
 not
 todo2
-)
 assert
-(
 get_default_list
 (
 )
 is
 None
-)
 set_default_list
 (
 todo
 )
 assert
-(
 todo
 .
 get_items
@@ -288,7 +282,6 @@ get_default_list
 .
 get_items
 (
-)
 )
 todo2
 .
@@ -296,7 +289,6 @@ make_default
 (
 )
 assert
-(
 todo2
 .
 get_items
@@ -310,7 +302,6 @@ get_default_list
 .
 get_items
 (
-)
 )
 todo
 .
@@ -327,7 +318,6 @@ default
 "
 )
 assert
-(
 todo
 .
 get_last
@@ -344,7 +334,6 @@ demoted
 from
 default
 "
-)
 todo2
 .
 add_item
@@ -362,6 +351,7 @@ reference
 )
 assert
 (
+    
 get_default_list
 (
 )
@@ -369,6 +359,7 @@ get_default_list
 get_last
 (
 )
+    
 =
 =
 "

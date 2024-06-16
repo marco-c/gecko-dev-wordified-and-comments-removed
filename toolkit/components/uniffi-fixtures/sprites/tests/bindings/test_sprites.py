@@ -1,7 +1,9 @@
 from
 sprites
 import
-*
+Point
+Sprite
+Vector
 sempty
 =
 Sprite
