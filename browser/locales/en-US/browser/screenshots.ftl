@@ -869,7 +869,6 @@ size
 area
 #
 "
-x
 "
 here
 represents
@@ -925,12 +924,11 @@ region
 -
 size
 -
-2
+3
 =
 {
 width
 }
-x
 {
 height
 }
