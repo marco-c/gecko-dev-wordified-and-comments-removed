@@ -66,6 +66,8 @@ final
 :
 public
 StaticRange
+public
+nsStubMutationObserver
 {
 public
 :
@@ -136,6 +138,9 @@ ERT
 >
 &
 aEndBoundary
+nsRange
+*
+aOwner
 )
 ;
 void
@@ -256,6 +261,7 @@ aEndBoundary
 )
 ;
 }
+NS_DECL_NSIMUTATIONOBSERVER_CONTENTREMOVED
 private
 :
 explicit
@@ -264,11 +270,18 @@ CrossShadowBoundaryRange
 nsINode
 *
 aNode
+nsRange
+*
+aOwner
 )
 :
 StaticRange
 (
 aNode
+)
+mOwner
+(
+aOwner
 )
 {
 }
@@ -313,6 +326,9 @@ aEndBoundary
 nsINode
 *
 aRootNode
+nsRange
+*
+aOwner
 )
 ;
 nsCOMPtr
@@ -335,6 +351,10 @@ sCachedRanges
 friend
 class
 AbstractRange
+;
+nsRange
+*
+mOwner
 ;
 }
 ;
