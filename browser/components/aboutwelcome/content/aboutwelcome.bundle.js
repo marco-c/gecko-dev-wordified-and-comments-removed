@@ -13347,10 +13347,6 @@ options
 ?
 .
 selection_header_string
-|
-|
-"
-"
 "
 selection
 -
