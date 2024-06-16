@@ -193,7 +193,9 @@ cmd_handleBackspace
 oncommand
 =
 "
-BrowserHandleBackspace
+BrowserCommands
+.
+handleBackspace
 (
 )
 ;
@@ -210,7 +212,9 @@ cmd_handleShiftBackspace
 oncommand
 =
 "
-BrowserHandleShiftBackspace
+BrowserCommands
+.
+handleShiftBackspace
 (
 )
 ;
