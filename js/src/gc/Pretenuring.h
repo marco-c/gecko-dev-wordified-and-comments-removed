@@ -1057,6 +1057,9 @@ static
 void
 printInfoHeader
 (
+GCRuntime
+*
+gc
 JS
 :
 :
