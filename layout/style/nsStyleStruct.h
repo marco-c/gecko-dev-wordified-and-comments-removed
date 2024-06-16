@@ -2744,8 +2744,8 @@ mListStylePosition
 mozilla
 :
 :
-StyleListStyleType
-mListStyleType
+CounterStylePtr
+mCounterStyle
 ;
 mozilla
 :

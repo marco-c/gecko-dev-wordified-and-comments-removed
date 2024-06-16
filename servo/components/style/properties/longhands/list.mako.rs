@@ -290,6 +290,9 @@ animation_value_type
 "
 discrete
 "
+boxed
+=
+True
 spec
 =
 "
