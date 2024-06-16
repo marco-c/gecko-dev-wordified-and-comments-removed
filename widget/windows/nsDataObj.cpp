@@ -1633,7 +1633,7 @@ requestingPrincipal
 mTransferable
 -
 >
-GetRequestingPrincipal
+GetDataPrincipal
 (
 )
 ;

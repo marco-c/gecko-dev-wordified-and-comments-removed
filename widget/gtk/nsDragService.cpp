@@ -8752,7 +8752,7 @@ principal
 aItem
 -
 >
-GetRequestingPrincipal
+GetDataPrincipal
 (
 )
 ;

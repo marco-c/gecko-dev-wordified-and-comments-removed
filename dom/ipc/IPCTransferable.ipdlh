@@ -206,7 +206,7 @@ isPrivateData
 ;
 nullable
 nsIPrincipal
-requestingPrincipal
+dataPrincipal
 ;
 CookieJarSettingsArgs
 ?

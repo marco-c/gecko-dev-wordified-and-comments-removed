@@ -4458,7 +4458,7 @@ GetGlobal
 transferable
 -
 >
-SetRequestingPrincipal
+SetDataPrincipal
 (
 global
 -

@@ -1042,7 +1042,7 @@ GetLoadContext
 aTransferable
 -
 >
-SetRequestingPrincipal
+SetDataPrincipal
 (
 aDocument
 .
@@ -2009,7 +2009,7 @@ aLoadContext
 trans
 -
 >
-SetRequestingPrincipal
+SetDataPrincipal
 (
 imageNode
 -

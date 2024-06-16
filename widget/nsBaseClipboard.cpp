@@ -4063,7 +4063,7 @@ principal
 trans
 -
 >
-GetRequestingPrincipal
+GetDataPrincipal
 (
 )
 )

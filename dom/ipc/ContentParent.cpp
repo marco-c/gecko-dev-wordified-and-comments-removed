@@ -17325,7 +17325,7 @@ ValidatePrincipal
 (
 aTransferable
 .
-requestingPrincipal
+dataPrincipal
 (
 )
 {
@@ -17349,7 +17349,7 @@ LogAndAssertFailedPrincipalValidationInfo
 (
 aTransferable
 .
-requestingPrincipal
+dataPrincipal
 (
 )
 __func__

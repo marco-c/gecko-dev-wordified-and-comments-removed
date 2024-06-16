@@ -1607,18 +1607,6 @@ was
 created
 .
 *
-XXXedgar
-:
-Rename
-it
-to
-something
-more
-generic
-bug
-1867636
-.
-*
 /
 [
 notxpcom
@@ -1626,7 +1614,7 @@ nostdcall
 ]
 attribute
 nsIPrincipal
-requestingPrincipal
+dataPrincipal
 ;
 /
 *

@@ -1497,7 +1497,7 @@ nullptr
 trans
 -
 >
-SetRequestingPrincipal
+SetDataPrincipal
 (
 mSourceNode
 -
@@ -1571,7 +1571,7 @@ trans
 trans
 -
 >
-SetRequestingPrincipal
+SetDataPrincipal
 (
 mSourceNode
 -

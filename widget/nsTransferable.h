@@ -297,7 +297,7 @@ nsCOMPtr
 <
 nsIPrincipal
 >
-mRequestingPrincipal
+mDataPrincipal
 ;
 nsContentPolicyType
 mContentPolicyType

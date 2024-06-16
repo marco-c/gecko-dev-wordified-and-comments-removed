@@ -1327,7 +1327,7 @@ principal
 aTransferable
 -
 >
-GetRequestingPrincipal
+GetDataPrincipal
 (
 )
 ;
