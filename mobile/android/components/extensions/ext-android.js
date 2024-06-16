@@ -2210,12 +2210,10 @@ extension
 {
 const
 {
-options_ui
+optionsPageProperties
 }
 =
 extension
-.
-manifest
 ;
 const
 extensionId
@@ -2226,7 +2224,7 @@ id
 ;
 if
 (
-options_ui
+optionsPageProperties
 .
 open_in_tab
 )
@@ -2246,7 +2244,7 @@ createProperties
 {
 url
 :
-options_ui
+optionsPageProperties
 .
 page
 active
@@ -2276,7 +2274,7 @@ browser
 .
 fixupAndLoadURIString
 (
-options_ui
+optionsPageProperties
 .
 page
 {

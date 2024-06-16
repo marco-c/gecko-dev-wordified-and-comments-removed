@@ -1138,9 +1138,7 @@ if
 !
 extension
 .
-manifest
-.
-options_ui
+optionsPageProperties
 )
 {
 return
