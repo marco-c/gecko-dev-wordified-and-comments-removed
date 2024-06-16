@@ -1198,7 +1198,7 @@ other
 than
 visible
 and
-on
+to
 certain
 replaced
 elements
@@ -2778,7 +2778,7 @@ visible
 strong
 >
 or
-to
+targeting
 a
 replaced
 element
