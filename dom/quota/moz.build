@@ -335,6 +335,11 @@ StringifyUtils
 h
 "
 "
+ThreadUtils
+.
+h
+"
+"
 UsageInfo
 .
 h
@@ -561,6 +566,11 @@ cpp
 "
 "
 StringifyUtils
+.
+cpp
+"
+"
+ThreadUtils
 .
 cpp
 "
