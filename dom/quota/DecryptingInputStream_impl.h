@@ -1784,6 +1784,10 @@ return
 rv
 ;
 }
+readBytes
+=
+0
+;
 }
 mPlainBytes
 =
