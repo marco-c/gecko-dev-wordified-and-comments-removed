@@ -2063,6 +2063,14 @@ rtc_base_tests_utils
 /
 rtc_base
 :
+ssl
+"
+"
+.
+.
+/
+rtc_base
+:
 stringutils
 "
 "
