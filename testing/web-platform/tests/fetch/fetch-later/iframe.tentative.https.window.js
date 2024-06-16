@@ -293,7 +293,7 @@ uuid
 {
 count
 :
-1
+0
 }
 )
 ;
@@ -304,7 +304,7 @@ cross
 -
 origin
 iframe
-can
+cannot
 trigger
 fetchLater
 .
