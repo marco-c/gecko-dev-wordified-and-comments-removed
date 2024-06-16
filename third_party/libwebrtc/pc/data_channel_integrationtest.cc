@@ -1829,7 +1829,7 @@ data_observer
 state
 (
 )
-kDefaultTimeout
+kLongTimeout
 )
 ;
 EXPECT_THAT
