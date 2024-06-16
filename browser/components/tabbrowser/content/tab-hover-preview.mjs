@@ -119,7 +119,7 @@ tab
 export
 default
 class
-TabPreviewPanel
+TabHoverPreviewPanel
 {
 constructor
 (
