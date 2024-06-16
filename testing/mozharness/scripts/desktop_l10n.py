@@ -402,6 +402,13 @@ l10n
 -
 central
 "
+                
+"
+git_repository
+"
+:
+"
+"
             
 }
         
