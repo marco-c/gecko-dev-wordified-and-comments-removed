@@ -529,12 +529,6 @@ muted
 "
 )
 ;
-card
-.
-tabList
-.
-currentActiveElementId
-=
 mutedTab
 .
 focusMediaButton
@@ -708,12 +702,6 @@ rowEls
 0
 ]
 ;
-card
-.
-tabList
-.
-currentActiveElementId
-=
 mutedTab
 .
 focusLink

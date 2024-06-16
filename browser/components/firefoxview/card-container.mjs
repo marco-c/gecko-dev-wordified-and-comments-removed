@@ -774,6 +774,11 @@ fxview
 tab
 -
 list
+opentabs
+-
+tab
+-
+list
 "
 )
 ;
