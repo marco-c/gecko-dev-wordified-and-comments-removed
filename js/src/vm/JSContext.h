@@ -1998,6 +1998,11 @@ AutoEntryMonitor
 >
 entryMonitor
 ;
+bool
+brittleMode
+=
+false
+;
 js
 :
 :
