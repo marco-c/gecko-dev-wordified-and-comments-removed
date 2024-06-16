@@ -935,7 +935,7 @@ Firefox
 for
 Android
 <
-geckoview
+fenix
 -
 contributor
 -
