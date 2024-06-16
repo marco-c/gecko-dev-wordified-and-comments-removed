@@ -38675,7 +38675,7 @@ IsNone
 list
 -
 >
-mCounterStyle
+mListStyleType
 .
 IsNone
 (
