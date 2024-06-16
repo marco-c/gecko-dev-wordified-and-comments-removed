@@ -105,7 +105,7 @@ test
 /
 marionette
 /
-manifest
+marionette
 .
 toml
 "
