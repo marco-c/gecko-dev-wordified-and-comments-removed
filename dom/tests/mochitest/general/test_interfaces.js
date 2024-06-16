@@ -1159,6 +1159,16 @@ true
 name
 :
 "
+AudioEncoder
+"
+nightly
+:
+true
+}
+{
+name
+:
+"
 AudioListener
 "
 insecureContext

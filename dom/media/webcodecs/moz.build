@@ -99,6 +99,11 @@ AudioDecoder
 h
 "
 "
+AudioEncoder
+.
+h
+"
+"
 DecoderTemplate
 .
 h
@@ -170,6 +175,11 @@ cpp
 "
 "
 AudioDecoder
+.
+cpp
+"
+"
+AudioEncoder
 .
 cpp
 "

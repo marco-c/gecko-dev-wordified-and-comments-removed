@@ -2933,6 +2933,11 @@ AudioDestinationNode
 webidl
 "
 "
+AudioEncoder
+.
+webidl
+"
+"
 AudioListener
 .
 webidl
