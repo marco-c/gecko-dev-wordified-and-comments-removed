@@ -217,6 +217,7 @@ markers
 -
 guide
 memory
+sandbox
 The
 following
 areas
