@@ -10,3 +10,12 @@ hardSwish
 '
 )
 ;
+validateUnaryOperation
+(
+'
+hardSwish
+'
+floatingPointTypes
+true
+)
+;

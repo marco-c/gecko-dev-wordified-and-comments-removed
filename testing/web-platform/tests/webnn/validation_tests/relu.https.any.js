@@ -10,3 +10,12 @@ relu
 '
 )
 ;
+validateUnaryOperation
+(
+'
+relu
+'
+allWebNNOperandDataTypes
+true
+)
+;

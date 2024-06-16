@@ -10,3 +10,12 @@ softsign
 '
 )
 ;
+validateUnaryOperation
+(
+'
+softsign
+'
+floatingPointTypes
+true
+)
+;

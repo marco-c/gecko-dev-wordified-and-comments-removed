@@ -10,3 +10,12 @@ tanh
 '
 )
 ;
+validateUnaryOperation
+(
+'
+tanh
+'
+floatingPointTypes
+true
+)
+;

@@ -10,3 +10,12 @@ sigmoid
 '
 )
 ;
+validateUnaryOperation
+(
+'
+sigmoid
+'
+floatingPointTypes
+true
+)
+;
