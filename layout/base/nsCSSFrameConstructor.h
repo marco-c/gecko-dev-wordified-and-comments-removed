@@ -4554,7 +4554,7 @@ aFrame
 private
 :
 void
-BuildScrollFrame
+BuildScrollContainerFrame
 (
 nsFrameConstructorState
 &
@@ -4581,7 +4581,7 @@ already_AddRefed
 <
 ComputedStyle
 >
-BeginBuildingScrollFrame
+BeginBuildingScrollContainerFrame
 (
 nsFrameConstructorState
 &
@@ -4609,11 +4609,11 @@ aNewFrame
 )
 ;
 void
-FinishBuildingScrollFrame
+FinishBuildingScrollContainerFrame
 (
 nsContainerFrame
 *
-aScrollFrame
+aScrollContainerFrame
 nsIFrame
 *
 aScrolledFrame
