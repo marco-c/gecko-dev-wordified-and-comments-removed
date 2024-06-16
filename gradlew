@@ -542,9 +542,13 @@ blob
 /
 HEAD
 /
-subprojects
+platforms
+/
+jvm
 /
 plugins
+-
+application
 /
 src
 /
