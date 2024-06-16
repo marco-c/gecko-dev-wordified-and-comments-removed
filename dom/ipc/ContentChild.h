@@ -3610,6 +3610,15 @@ bool
 aIsVisible
 uint64_t
 aActionId
+bool
+aShouldClearFocus
+const
+MaybeDiscarded
+<
+BrowsingContext
+>
+&
+aAncestorBrowsingContextToFocus
 )
 ;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY

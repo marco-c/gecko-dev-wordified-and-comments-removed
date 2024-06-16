@@ -38598,6 +38598,15 @@ bool
 aIsVisible
 uint64_t
 aActionId
+bool
+aShouldClearFocus
+const
+MaybeDiscarded
+<
+BrowsingContext
+>
+&
+aAncestorBrowsingContextToFocus
 )
 {
 if
@@ -38794,6 +38803,8 @@ SendAdjustWindowFocus
 context
 aIsVisible
 aActionId
+aShouldClearFocus
+aAncestorBrowsingContextToFocus
 )
 ;
 processes
