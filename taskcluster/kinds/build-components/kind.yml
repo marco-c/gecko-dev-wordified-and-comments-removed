@@ -406,6 +406,11 @@ maven
 tar
 .
 xz
+attributes
+:
+build_platform
+:
+android
 dependencies
 :
 build

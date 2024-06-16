@@ -129,6 +129,9 @@ defaults
 :
 attributes
 :
+build_platform
+:
+android
 build
 -
 type

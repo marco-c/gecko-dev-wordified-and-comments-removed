@@ -137,6 +137,9 @@ target
 false
 attributes
 :
+build_platform
+:
+android
 code
 -
 review

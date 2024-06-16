@@ -179,6 +179,11 @@ gradle_build_type
 fileName
 }
 '
+attributes
+:
+build_platform
+:
+android
 jobs
 :
 focus
