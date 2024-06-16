@@ -150,6 +150,14 @@ GMPStorage
 >
 CreateGMPMemoryStorage
 (
+const
+nsACString
+&
+aNodeId
+const
+nsAString
+&
+aGMPName
 )
 ;
 already_AddRefed
