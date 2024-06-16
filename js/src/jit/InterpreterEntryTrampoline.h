@@ -161,6 +161,7 @@ void
 checkTrampolineAfterMovingGC
 (
 )
+const
 ;
 #
 endif
