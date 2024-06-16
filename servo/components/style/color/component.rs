@@ -58,6 +58,7 @@ StyleParseErrorKind
 derive
 (
 Clone
+Debug
 MallocSizeOf
 PartialEq
 ToShmem
