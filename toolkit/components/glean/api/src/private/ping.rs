@@ -33,6 +33,7 @@ private
 :
 :
 PingType
+String
 )
 Child
 }
@@ -136,6 +137,7 @@ enabled
 schedules_pings
 reason_codes
 )
+name
 )
 }
 }
@@ -172,6 +174,7 @@ Ping
 Parent
 (
 p
+_
 )
 =
 >
@@ -250,6 +253,7 @@ Ping
 Parent
 (
 p
+name
 )
 =
 >
@@ -258,6 +262,19 @@ p
 .
 submit
 (
+reason
+)
+;
+crate
+:
+:
+pings
+:
+:
+schedule_pings
+(
+&
+name
 reason
 )
 ;

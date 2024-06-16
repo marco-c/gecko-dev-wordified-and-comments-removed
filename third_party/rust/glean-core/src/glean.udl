@@ -553,16 +553,6 @@ experimentation_id
 boolean
 enable_internal_pings
 ;
-record
-<
-string
-sequence
-<
-string
->
->
-ping_schedule
-;
 }
 ;
 /
