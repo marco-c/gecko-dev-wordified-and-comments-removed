@@ -5569,10 +5569,6 @@ aRange
 >
 GetClosestCommonInclusiveAncestor
 (
-AllowRangeCrossShadowBoundary
-:
-:
-No
 )
 ;
 if

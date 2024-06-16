@@ -640,13 +640,13 @@ aNode
 aAbstractRange
 -
 >
-MayCrossShadowBoundaryStartRef
+StartRef
 (
 )
 aAbstractRange
 -
 >
-MayCrossShadowBoundaryEndRef
+EndRef
 (
 )
 aNodeIsBeforeRange
