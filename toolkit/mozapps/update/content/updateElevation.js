@@ -416,6 +416,7 @@ close
 )
 ;
 }
+async
 onNoThanks
 (
 )
@@ -464,9 +465,12 @@ nsIUpdateManager
 let
 update
 =
+await
 um
 .
-readyUpdate
+getReadyUpdate
+(
+)
 ;
 um
 .

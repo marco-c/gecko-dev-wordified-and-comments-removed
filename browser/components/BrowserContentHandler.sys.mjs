@@ -5689,7 +5689,7 @@ lazy
 .
 UpdateManager
 .
-readyUpdate
+updateInstalledAtStartup
 )
 {
 /
