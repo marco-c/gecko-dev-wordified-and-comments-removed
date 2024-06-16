@@ -416,11 +416,9 @@ apply
 {
 isVisible
 =
-Config
+FeatureFlags
 .
-channel
-.
-isDebug
+incompleteToolbarRedesignEnabled
 isChecked
 =
 context
