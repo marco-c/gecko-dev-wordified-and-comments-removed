@@ -527,6 +527,7 @@ ex
 }
 ;
 }
+explicit
 constexpr
 operator
 bool
