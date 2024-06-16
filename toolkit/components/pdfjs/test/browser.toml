@@ -19,6 +19,13 @@ js
 ]
 [
 "
+browser_pdfjs_caret_browsing_mode
+.
+js
+"
+]
+[
+"
 browser_pdfjs_download_button
 .
 js
