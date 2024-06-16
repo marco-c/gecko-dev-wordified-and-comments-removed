@@ -10300,7 +10300,7 @@ normalized_prim_to_device
 =
 prim_offset
 .
-pre_transform
+then
 (
 &
 local_prim_to_device
