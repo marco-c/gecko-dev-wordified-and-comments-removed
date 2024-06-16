@@ -2257,10 +2257,17 @@ DisconnectFromOwner
 (
 )
 ;
+if
+(
+!
+mForWorker
+)
+{
 Abort
 (
 )
 ;
+}
 }
 size_t
 XMLHttpRequestMainThread
