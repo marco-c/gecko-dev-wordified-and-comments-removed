@@ -273,6 +273,11 @@ oleacc
 .
 dll
 "
+"
+UIAutomationCore
+.
+dll
+"
 ]
 if
 CONFIG
@@ -1779,6 +1784,9 @@ OS_LIBS
 [
 "
 oleacc
+"
+"
+uiautomationcore
 "
 ]
 LIBRARY_DEFINES

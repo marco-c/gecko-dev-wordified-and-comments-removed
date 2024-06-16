@@ -491,6 +491,10 @@ E_INVALIDARG
 aOptions
 =
 ProviderOptions_ServerSideProvider
+|
+ProviderOptions_UseComThreading
+|
+ProviderOptions_HasNativeIAccessible
 ;
 return
 S_OK
