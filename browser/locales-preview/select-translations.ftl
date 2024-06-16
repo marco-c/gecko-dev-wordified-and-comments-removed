@@ -94,6 +94,10 @@ label
 =
 Translate
 Selection
+.
+accesskey
+=
+n
 #
 Text
 displayed
@@ -155,6 +159,10 @@ to
 {
 language
 }
+.
+accesskey
+=
+n
 #
 Text
 displayed
@@ -202,6 +210,10 @@ label
 Translate
 Link
 Text
+.
+accesskey
+=
+n
 #
 Text
 displayed
@@ -269,6 +281,10 @@ to
 {
 language
 }
+.
+accesskey
+=
+n
 #
 Text
 displayed
