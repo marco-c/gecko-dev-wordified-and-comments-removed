@@ -914,6 +914,27 @@ MOZ_ANDROID_CONTENT_SERVICE_ISOLATED_PROCESS
     
 )
     
+d
+[
+"
+automation
+"
+]
+=
+substs
+.
+get
+(
+"
+MOZ_AUTOMATION
+"
+)
+=
+=
+"
+1
+"
+    
 def
 guess_platform
 (
