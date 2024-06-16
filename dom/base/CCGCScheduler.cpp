@@ -2934,6 +2934,8 @@ mActiveIntersliceGCBudget
 ToMilliseconds
 (
 )
+/
+2
 1
 .
 0
@@ -3701,8 +3703,6 @@ IsNull
 )
 ?
 mActiveIntersliceGCBudget
-*
-2
 :
 aDeadline
 -
@@ -3740,7 +3740,7 @@ maxSliceGCBudget
 =
 mActiveIntersliceGCBudget
 *
-10
+5
 ;
 double
 percentOfBlockedTime
