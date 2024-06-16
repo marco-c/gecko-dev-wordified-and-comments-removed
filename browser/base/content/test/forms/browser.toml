@@ -136,6 +136,13 @@ js
 ]
 [
 "
+browser_selectpopup_focus
+.
+js
+"
+]
+[
+"
 browser_selectpopup_hr
 .
 js

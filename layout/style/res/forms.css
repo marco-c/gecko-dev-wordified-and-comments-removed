@@ -1711,6 +1711,12 @@ arrow
 -
 button
 ;
+pointer
+-
+events
+:
+none
+;
 /
 *
 Draw
