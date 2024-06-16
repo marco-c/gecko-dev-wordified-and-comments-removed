@@ -684,7 +684,7 @@ return
 mId
 ;
 }
-IProtocol
+IRefCountedProtocol
 *
 Manager
 (
@@ -919,7 +919,7 @@ aId
 void
 SetManager
 (
-IProtocol
+IRefCountedProtocol
 *
 aManager
 )
@@ -927,7 +927,7 @@ aManager
 void
 SetManagerAndRegister
 (
-IProtocol
+IRefCountedProtocol
 *
 aManager
 )
@@ -935,7 +935,7 @@ aManager
 void
 SetManagerAndRegister
 (
-IProtocol
+IRefCountedProtocol
 *
 aManager
 int32_t
@@ -1214,8 +1214,10 @@ ActorLifecycleProxy
 *
 mLifecycleProxy
 ;
-IProtocol
-*
+RefPtr
+<
+IRefCountedProtocol
+>
 mManager
 ;
 IToplevelProtocol
@@ -2580,12 +2582,6 @@ IProtocol
 *
 MOZ_NON_OWNING_REF
 mActor
-;
-RefPtr
-<
-ActorLifecycleProxy
->
-mManager
 ;
 RefPtr
 <
