@@ -6429,15 +6429,15 @@ pub
 transform_index
 :
 CompositorTransformIndex
-local_to_raster
-:
-ScaleOffset
-raster_to_device
+local_to_surface
 :
 ScaleOffset
 invalidate_all_tiles
 :
 bool
+surface_to_device
+:
+ScaleOffset
 current_raster_scale
 :
 f32
@@ -6760,7 +6760,7 @@ CompositorTransformIndex
 :
 :
 INVALID
-raster_to_device
+surface_to_device
 :
 ScaleOffset
 :
@@ -6768,7 +6768,7 @@ ScaleOffset
 identity
 (
 )
-local_to_raster
+local_to_surface
 :
 ScaleOffset
 :
@@ -7699,7 +7699,7 @@ self
 shared_clip_leaf_id
 {
 let
-map_local_to_picture
+map_local_to_surface
 =
 SpaceMapper
 :
@@ -7721,7 +7721,7 @@ set_active_clips
 self
 .
 spatial_node_index
-map_local_to_picture
+map_local_to_surface
 .
 ref_spatial_node_index
 shared_clip_leaf_id
@@ -7756,7 +7756,7 @@ cast_unit
 (
 )
 &
-map_local_to_picture
+map_local_to_surface
 &
 pic_to_world_mapper
 frame_context
@@ -8059,7 +8059,7 @@ spatial_tree
 ;
 let
 mut
-raster_to_device
+surface_to_device
 =
 local_to_device
 ;
@@ -8070,7 +8070,7 @@ config
 .
 low_quality_pinch_zoom
 {
-raster_to_device
+surface_to_device
 .
 scale
 .
@@ -8081,7 +8081,7 @@ self
 .
 current_raster_scale
 ;
-raster_to_device
+surface_to_device
 .
 scale
 .
@@ -8095,7 +8095,7 @@ current_raster_scale
 }
 else
 {
-raster_to_device
+surface_to_device
 .
 scale
 .
@@ -8105,7 +8105,7 @@ x
 .
 0
 ;
-raster_to_device
+surface_to_device
 .
 scale
 .
@@ -8117,14 +8117,14 @@ y
 ;
 }
 let
-local_to_raster
+local_to_surface
 =
 local_to_device
 .
 accumulate
 (
 &
-raster_to_device
+surface_to_device
 .
 inverse
 (
@@ -8144,7 +8144,7 @@ let
 compositor_translation_changed
 =
 !
-raster_to_device
+surface_to_device
 .
 offset
 .
@@ -8155,7 +8155,7 @@ approx_eq_eps
 &
 self
 .
-raster_to_device
+surface_to_device
 .
 offset
 .
@@ -8166,7 +8166,7 @@ EPSILON
 |
 |
 !
-raster_to_device
+surface_to_device
 .
 offset
 .
@@ -8177,7 +8177,7 @@ approx_eq_eps
 &
 self
 .
-raster_to_device
+surface_to_device
 .
 offset
 .
@@ -8190,7 +8190,7 @@ let
 compositor_scale_changed
 =
 !
-raster_to_device
+surface_to_device
 .
 scale
 .
@@ -8201,7 +8201,7 @@ approx_eq_eps
 &
 self
 .
-raster_to_device
+surface_to_device
 .
 scale
 .
@@ -8212,7 +8212,7 @@ EPSILON
 |
 |
 !
-raster_to_device
+surface_to_device
 .
 scale
 .
@@ -8223,7 +8223,7 @@ approx_eq_eps
 &
 self
 .
-raster_to_device
+surface_to_device
 .
 scale
 .
@@ -8236,7 +8236,7 @@ let
 surface_scale_changed
 =
 !
-local_to_raster
+local_to_surface
 .
 scale
 .
@@ -8247,7 +8247,7 @@ approx_eq_eps
 &
 self
 .
-local_to_raster
+local_to_surface
 .
 scale
 .
@@ -8258,7 +8258,7 @@ EPSILON
 |
 |
 !
-local_to_raster
+local_to_surface
 .
 scale
 .
@@ -8269,7 +8269,7 @@ approx_eq_eps
 &
 self
 .
-local_to_raster
+local_to_surface
 .
 scale
 .
@@ -8305,15 +8305,15 @@ false
 }
 self
 .
-raster_to_device
+surface_to_device
 =
-raster_to_device
+surface_to_device
 ;
 self
 .
-local_to_raster
+local_to_surface
 =
-local_to_raster
+local_to_surface
 ;
 self
 .
@@ -8583,7 +8583,7 @@ width
 /
 self
 .
-local_to_raster
+local_to_surface
 .
 scale
 .
@@ -8594,7 +8594,7 @@ height
 /
 self
 .
-local_to_raster
+local_to_surface
 .
 scale
 .
@@ -10133,7 +10133,7 @@ CompositorSurfaceKind
 bool
 {
 let
-map_local_to_picture
+map_local_to_surface
 =
 SpaceMapper
 :
@@ -10156,7 +10156,7 @@ let
 prim_rect
 =
 match
-map_local_to_picture
+map_local_to_surface
 .
 map
 (
@@ -10307,7 +10307,7 @@ local_prim_to_device
 )
 ;
 let
-local_to_raster
+local_to_surface
 =
 ScaleOffset
 :
@@ -10317,7 +10317,7 @@ identity
 )
 ;
 let
-raster_to_device
+surface_to_device
 =
 normalized_prim_to_device
 ;
@@ -10414,7 +10414,7 @@ supports_external_compositor_surface_negative_scaling
 &
 &
 (
-raster_to_device
+surface_to_device
 .
 scale
 .
@@ -10425,7 +10425,7 @@ x
 0
 |
 |
-raster_to_device
+surface_to_device
 .
 scale
 .
@@ -10449,8 +10449,8 @@ composite_state
 .
 register_transform
 (
-local_to_raster
-raster_to_device
+local_to_surface
+surface_to_device
 )
 ;
 let
@@ -10980,7 +10980,7 @@ len
 1
 {
 let
-map_local_to_picture
+map_local_to_surface
 =
 SpaceMapper
 :
@@ -11004,7 +11004,7 @@ Some
 pic_rect
 )
 =
-map_local_to_picture
+map_local_to_surface
 .
 map
 (
@@ -11326,7 +11326,7 @@ pic_index
 ]
 ;
 let
-map_local_to_parent
+map_local_to_surface
 =
 SpaceMapper
 :
@@ -11348,7 +11348,7 @@ spatial_tree
 current_pic_coverage_rect
 =
 match
-map_local_to_parent
+map_local_to_surface
 .
 map
 (
@@ -14035,10 +14035,10 @@ register_transform
 (
 self
 .
-local_to_raster
+local_to_surface
 self
 .
-raster_to_device
+surface_to_device
 )
 ;
 let
@@ -15016,7 +15016,7 @@ clipping_rect
 :
 PictureRect
 pub
-map_local_to_picture
+map_local_to_surface
 :
 SpaceMapper
 <
@@ -15024,11 +15024,11 @@ LayoutPixel
 PicturePixel
 >
 pub
-surface_spatial_node_index
+raster_spatial_node_index
 :
 SpatialNodeIndex
 pub
-raster_spatial_node_index
+surface_spatial_node_index
 :
 SpatialNodeIndex
 pub
@@ -15144,7 +15144,7 @@ max_rect
 )
 ;
 let
-map_local_to_picture
+map_local_to_surface
 =
 SpaceMapper
 :
@@ -15184,7 +15184,7 @@ PictureRect
 zero
 (
 )
-map_local_to_picture
+map_local_to_surface
 raster_spatial_node_index
 surface_spatial_node_index
 device_pixel_scale
@@ -27889,7 +27889,7 @@ continue
 }
 surface
 .
-map_local_to_picture
+map_local_to_surface
 .
 set_target_spatial_node
 (
@@ -27922,7 +27922,7 @@ cluster_rect
 =
 surface
 .
-map_local_to_picture
+map_local_to_surface
 .
 map
 (
@@ -28006,7 +28006,7 @@ parent_surface_index
 ;
 parent_surface
 .
-map_local_to_picture
+map_local_to_surface
 .
 set_target_spatial_node
 (
@@ -28027,7 +28027,7 @@ parent_surface_rect
 =
 parent_surface
 .
-map_local_to_picture
+map_local_to_surface
 .
 map
 (
@@ -32823,7 +32823,7 @@ new
 )
 ;
 let
-map_local_to_picture
+map_local_to_surface
 =
 SpaceMapper
 :
@@ -32878,9 +32878,9 @@ PictureRect
 max_rect
 (
 )
-map_local_to_picture
+map_local_to_surface
 :
-map_local_to_picture
+map_local_to_surface
 .
 clone
 (
@@ -32982,7 +32982,7 @@ PictureRect
 max_rect
 (
 )
-map_local_to_picture
+map_local_to_surface
 raster_spatial_node_index
 :
 root_reference_frame_index
@@ -33145,7 +33145,7 @@ new
 )
 ;
 let
-map_local_to_picture
+map_local_to_surface
 =
 SpaceMapper
 :
@@ -33200,9 +33200,9 @@ PictureRect
 max_rect
 (
 )
-map_local_to_picture
+map_local_to_surface
 :
-map_local_to_picture
+map_local_to_surface
 .
 clone
 (
@@ -33328,7 +33328,7 @@ PictureRect
 max_rect
 (
 )
-map_local_to_picture
+map_local_to_surface
 raster_spatial_node_index
 :
 root_reference_frame_index
