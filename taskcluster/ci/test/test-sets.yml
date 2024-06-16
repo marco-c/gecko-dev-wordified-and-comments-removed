@@ -1238,10 +1238,6 @@ mochitest
 -
 remote
 -
-mochitest
--
-webgpu
--
 reftest
 -
 telemetry
@@ -1436,10 +1432,6 @@ remote
 -
 mochitest
 -
-webgpu
--
-mochitest
--
 webgl1
 -
 core
@@ -1542,10 +1534,6 @@ webgl2
 -
 ext
 -
-mochitest
--
-webgpu
--
 reftest
 -
 telemetry
@@ -1640,10 +1628,6 @@ mochitest
 webgl2
 -
 ext
--
-mochitest
--
-webgpu
 #
 -
 reftest
@@ -1859,10 +1843,6 @@ media
 -
 mochitest
 -
-webgpu
--
-mochitest
--
 webgl1
 -
 core
@@ -2006,10 +1986,6 @@ mochitest
 webgl2
 -
 ext
--
-mochitest
--
-webgpu
 -
 reftest
 -
