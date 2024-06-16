@@ -652,6 +652,11 @@ BrowserState
 tabs
 =
 tabs
+selectedTabId
+=
+tab
+.
+id
 )
 )
 private
