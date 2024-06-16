@@ -313,6 +313,15 @@ bool
 aIsFluid
 )
 ;
+nsTextFrame
+*
+CreateContinuationForFramesAfter
+(
+nsTextFrame
+*
+aFrame
+)
+;
 bool
 UseTightBounds
 (
