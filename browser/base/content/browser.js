@@ -3181,11 +3181,12 @@ identity
 icon
 "
 )
-document
+gURLBar
 .
-getElementById
+querySelector
 (
 "
+.
 urlbar
 -
 search

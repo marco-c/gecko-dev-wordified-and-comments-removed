@@ -6005,9 +6005,10 @@ event
 .
 target
 .
-id
-=
-=
+classList
+.
+contains
+(
 "
 urlbar
 -
@@ -6015,6 +6016,7 @@ go
 -
 button
 "
+)
 ?
 "
 go_button

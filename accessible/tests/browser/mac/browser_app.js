@@ -1106,11 +1106,9 @@ input
 await
 getMacAccessible
 (
-"
-urlbar
--
-input
-"
+gURLBar
+.
+inputField
 )
 ;
 is

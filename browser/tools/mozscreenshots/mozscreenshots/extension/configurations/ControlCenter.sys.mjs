@@ -194,6 +194,8 @@ popup
 "
 #
 urlbar
+.
+urlbar
 -
 input
 -
@@ -213,6 +215,8 @@ popup
 "
 "
 #
+urlbar
+.
 urlbar
 -
 input

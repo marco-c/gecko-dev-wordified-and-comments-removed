@@ -144,7 +144,7 @@ action
 override
 ]
 >
-#
+.
 urlbar
 -
 input
@@ -181,7 +181,7 @@ searchmode
 ]
 )
 >
-#
+.
 urlbar
 -
 input
@@ -208,7 +208,7 @@ switchtab
 ]
 )
 >
-#
+.
 urlbar
 -
 input
@@ -242,7 +242,7 @@ extension
 ]
 )
 >
-#
+.
 urlbar
 -
 input
@@ -273,7 +273,7 @@ breakout
 extend
 ]
 >
-#
+.
 urlbar
 -
 input
@@ -296,7 +296,7 @@ searchmode
 ]
 )
 >
-#
+.
 urlbar
 -
 input
@@ -326,7 +326,7 @@ breakout
 extend
 ]
 >
-#
+.
 urlbar
 -
 input
@@ -348,7 +348,7 @@ label
 search
 -
 mode
-#
+.
 urlbar
 -
 input
@@ -409,7 +409,7 @@ urlbar
 usertyping
 ]
 >
-#
+.
 urlbar
 -
 input
@@ -439,14 +439,14 @@ usertyping
 ]
 )
 >
-#
+.
 urlbar
 -
 input
 -
 container
 >
-#
+.
 urlbar
 -
 go
@@ -462,14 +462,14 @@ focused
 ]
 )
 >
-#
+.
 urlbar
 -
 input
 -
 container
 >
-#
+.
 urlbar
 -
 go
@@ -553,7 +553,7 @@ not
 searchButton
 )
 >
-#
+.
 urlbar
 -
 input
@@ -944,7 +944,7 @@ radius
 )
 ;
 }
-#
+.
 urlbar
 -
 input
@@ -973,7 +973,7 @@ overflow
 clip
 ;
 }
-#
+.
 urlbar
 -
 input
@@ -1017,7 +1017,7 @@ outline
 none
 ;
 }
-#
+.
 urlbar
 -
 input
@@ -1189,7 +1189,7 @@ ltr
 "
 ]
 >
-#
+.
 urlbar
 -
 input
@@ -1260,7 +1260,7 @@ both
 "
 ]
 >
-#
+.
 urlbar
 -
 input
@@ -1318,7 +1318,7 @@ right
 "
 ]
 >
-#
+.
 urlbar
 -
 input
@@ -1367,7 +1367,7 @@ left
 "
 ]
 >
-#
+.
 urlbar
 -
 input
@@ -1423,7 +1423,7 @@ rtl
 "
 ]
 >
-#
+.
 urlbar
 -
 input
@@ -1566,7 +1566,7 @@ rtl
 "
 ]
 >
-#
+.
 urlbar
 -
 input
@@ -1910,7 +1910,7 @@ color
 )
 ;
 }
-#
+.
 urlbar
 -
 input
@@ -2001,7 +2001,7 @@ root
 lwtheme
 ]
 {
-#
+.
 urlbar
 -
 input
@@ -2053,7 +2053,7 @@ HighlightText
 )
 ;
 }
-#
+.
 urlbar
 -
 input
@@ -2134,14 +2134,14 @@ urlbar
 .
 searchButton
 >
-#
+.
 urlbar
 -
 input
 -
 container
 >
-#
+.
 urlbar
 -
 search
@@ -2231,7 +2231,7 @@ urlbar
 .
 searchButton
 >
-#
+.
 urlbar
 -
 input
@@ -2245,7 +2245,7 @@ invalid
 "
 ]
 >
-#
+.
 urlbar
 -
 search
@@ -2302,7 +2302,7 @@ urlbar
 /
 #
 urlbar
-#
+.
 urlbar
 -
 input
@@ -2417,7 +2417,7 @@ width
 )
 ;
 }
-#
+.
 urlbar
 -
 input
@@ -2515,7 +2515,7 @@ height
 )
 ;
 >
-#
+.
 urlbar
 -
 input
@@ -2690,7 +2690,7 @@ inline
 )
 ;
 >
-#
+.
 urlbar
 -
 input
@@ -2796,14 +2796,14 @@ breakout
 extend
 ]
 >
-#
+.
 urlbar
 -
 input
 -
 container
 >
-#
+.
 urlbar
 -
 search
@@ -4019,7 +4019,7 @@ true
 "
 ]
 >
-#
+.
 urlbar
 -
 input
@@ -4052,7 +4052,7 @@ urlbar
 searchmode
 ]
 >
-#
+.
 urlbar
 -
 input
@@ -4075,7 +4075,7 @@ urlbar
 searchmode
 ]
 >
-#
+.
 urlbar
 -
 input
@@ -4757,7 +4757,7 @@ urlbar
 page
 -
 action
-#
+.
 urlbar
 -
 go
@@ -5020,7 +5020,7 @@ inset
 )
 ;
 }
-#
+.
 urlbar
 -
 go
@@ -6571,7 +6571,7 @@ recommendation
 -
 state
 ]
-#
+.
 urlbar
 -
 input
@@ -6718,7 +6718,7 @@ state
 expanded
 "
 ]
-#
+.
 urlbar
 -
 input

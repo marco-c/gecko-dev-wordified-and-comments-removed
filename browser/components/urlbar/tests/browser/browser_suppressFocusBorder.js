@@ -1452,11 +1452,12 @@ container
 =
 win
 .
-document
+gURLBar
 .
-getElementById
+querySelector
 (
 "
+.
 urlbar
 -
 input

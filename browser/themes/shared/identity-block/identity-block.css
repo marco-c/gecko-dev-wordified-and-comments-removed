@@ -162,7 +162,7 @@ urlbar
 .
 searchButton
 >
-#
+.
 urlbar
 -
 input
@@ -248,7 +248,7 @@ not
 searchButton
 )
 >
-#
+.
 urlbar
 -
 input
@@ -1200,7 +1200,7 @@ true
 ]
 )
 >
-#
+.
 urlbar
 -
 input
@@ -1232,7 +1232,7 @@ true
 ]
 )
 >
-#
+.
 urlbar
 -
 input
@@ -1270,7 +1270,7 @@ true
 ]
 )
 >
-#
+.
 urlbar
 -
 input
@@ -1652,7 +1652,7 @@ not
 searchButton
 )
 >
-#
+.
 urlbar
 -
 input
@@ -1711,7 +1711,7 @@ extension
 "
 ]
 >
-#
+.
 urlbar
 -
 input
@@ -2414,7 +2414,7 @@ position
 relative
 ;
 }
-#
+.
 urlbar
 -
 input
@@ -2482,7 +2482,7 @@ width
 500px
 ;
 }
-#
+.
 urlbar
 -
 input
@@ -2600,7 +2600,7 @@ svg
 ;
 }
 }
-#
+.
 urlbar
 -
 input

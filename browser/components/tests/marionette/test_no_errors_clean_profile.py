@@ -341,15 +341,13 @@ self
 .
 marionette
 .
-find_element
+execute_script
 (
-By
-.
-ID
 "
-urlbar
--
-input
+return
+gURLBar
+.
+inputField
 "
 )
         
