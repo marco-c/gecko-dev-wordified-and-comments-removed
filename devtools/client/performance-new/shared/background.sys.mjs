@@ -5107,6 +5107,7 @@ error
 ;
 default
 :
+{
 const
 {
 UnhandledCaseError
@@ -5128,6 +5129,7 @@ profileCaptureResult
 "
 )
 ;
+}
 }
 }
 case
@@ -5358,6 +5360,7 @@ return
 }
 default
 :
+{
 console
 .
 error
@@ -5403,6 +5406,7 @@ request
 "
 )
 ;
+}
 }
 }
 /

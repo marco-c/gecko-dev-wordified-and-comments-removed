@@ -597,6 +597,7 @@ profiler
 started
 "
 :
+{
 const
 param
 =
@@ -633,6 +634,7 @@ activeTabID
 ;
 break
 ;
+}
 case
 "
 profiler
