@@ -4507,6 +4507,17 @@ lockedPrefs
 :
 {
 "
+network
+.
+http
+.
+http3
+.
+enable_kyber
+"
+:
+false
+"
 security
 .
 tls
