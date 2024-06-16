@@ -1758,8 +1758,8 @@ aRequest
 )
 ;
 static
-bool
-ShouldCacheBytecode
+void
+CalculateBytecodeCacheFlag
 (
 ScriptLoadRequest
 *
