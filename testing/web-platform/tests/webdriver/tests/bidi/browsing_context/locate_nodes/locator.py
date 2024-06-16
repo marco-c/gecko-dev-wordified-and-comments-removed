@@ -654,7 +654,7 @@ foobarbarbaz
 }
 [
 "
-body
+html
 "
 ]
 )
@@ -701,7 +701,7 @@ foobarBARbaz
 }
 [
 "
-body
+html
 "
 ]
 )
@@ -748,7 +748,7 @@ bar
 }
 [
 "
-body
+html
 "
 ]
 )
@@ -795,7 +795,7 @@ BAR
 }
 [
 "
-body
+html
 "
 ]
 )
@@ -829,7 +829,7 @@ full
 maxDepth
 "
 :
-1
+2
          
 "
 value
@@ -876,7 +876,7 @@ full
 maxDepth
 "
 :
-1
+2
          
 "
 value
@@ -923,7 +923,7 @@ partial
 maxDepth
 "
 :
-1
+2
          
 "
 value
@@ -970,7 +970,7 @@ partial
 maxDepth
 "
 :
-1
+2
          
 "
 value
@@ -1025,19 +1025,19 @@ ignore_case_false_partial_match_max_depth_zero
 "
     
 "
-ignore_case_true_full_match_max_depth_one
+ignore_case_true_full_match_max_depth_two
 "
     
 "
-ignore_case_false_full_match_max_depth_one
+ignore_case_false_full_match_max_depth_two
 "
     
 "
-ignore_case_true_partial_match_max_depth_one
+ignore_case_true_partial_match_max_depth_two
 "
     
 "
-ignore_case_false_partial_match_max_depth_one
+ignore_case_false_partial_match_max_depth_two
 "
 ]
 )
