@@ -63,12 +63,17 @@ nsCOMPtr
 .
 h
 "
-extern
+static
 mozilla
 :
 :
 LazyLogModule
-gWidgetClipboardLog
+sWidgetClipboardLog
+(
+"
+WidgetClipboard
+"
+)
 ;
 #
 define
@@ -81,7 +86,7 @@ MOZ_CLIPBOARD_LOG
 \
 MOZ_LOG
 (
-gWidgetClipboardLog
+sWidgetClipboardLog
 mozilla
 :
 :
@@ -101,7 +106,7 @@ MOZ_CLIPBOARD_LOG_ENABLED
 \
 MOZ_LOG_TEST
 (
-gWidgetClipboardLog
+sWidgetClipboardLog
 mozilla
 :
 :
