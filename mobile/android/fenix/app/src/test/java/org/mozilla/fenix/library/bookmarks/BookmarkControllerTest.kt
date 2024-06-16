@@ -113,12 +113,6 @@ io
 .
 mockk
 .
-called
-import
-io
-.
-mockk
-.
 coEvery
 import
 io
@@ -1459,6 +1453,11 @@ handleBookmarkSelected
 item
 )
 verify
+(
+exactly
+=
+0
+)
 {
 bookmarkStore
 .
@@ -1471,8 +1470,6 @@ Select
 item
 )
 )
-wasNot
-called
 }
 }
 Test
