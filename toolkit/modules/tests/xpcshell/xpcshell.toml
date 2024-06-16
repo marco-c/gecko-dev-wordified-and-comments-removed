@@ -409,6 +409,13 @@ js
 ]
 [
 "
+test_LogManager
+.
+js
+"
+]
+[
+"
 test_Log_double_ext
 .
 js
