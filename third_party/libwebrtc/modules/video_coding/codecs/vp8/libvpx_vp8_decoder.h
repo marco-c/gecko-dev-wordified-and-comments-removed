@@ -132,10 +132,6 @@ VideoDecoder
 {
 public
 :
-LibvpxVp8Decoder
-(
-)
-;
 explicit
 LibvpxVp8Decoder
 (
@@ -276,15 +272,6 @@ private
 :
 class
 QpSmoother
-;
-explicit
-LibvpxVp8Decoder
-(
-const
-FieldTrialsView
-&
-field_trials
-)
 ;
 int
 ReturnFrame
