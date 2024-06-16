@@ -1295,6 +1295,11 @@ selection
 -
 size
 "
+dir
+=
+"
+ltr
+"
 >
 <
 /
