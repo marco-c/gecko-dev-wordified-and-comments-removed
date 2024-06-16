@@ -44,6 +44,13 @@ true
 ]
 [
 "
+test_AddonsBackupResource
+.
+js
+"
+]
+[
+"
 test_BackupResource
 .
 js

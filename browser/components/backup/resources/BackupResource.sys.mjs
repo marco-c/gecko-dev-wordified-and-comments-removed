@@ -1032,6 +1032,7 @@ finally
 {
 await
 connection
+?
 .
 close
 (
