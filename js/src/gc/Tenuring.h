@@ -390,7 +390,7 @@ template
 typename
 T
 >
-void
+bool
 traceBufferedCells
 (
 Arena
