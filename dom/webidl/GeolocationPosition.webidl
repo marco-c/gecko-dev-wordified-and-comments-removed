@@ -159,13 +159,5 @@ attribute
 EpochTimeStamp
 timestamp
 ;
-[
-Default
-]
-object
-toJSON
-(
-)
-;
 }
 ;

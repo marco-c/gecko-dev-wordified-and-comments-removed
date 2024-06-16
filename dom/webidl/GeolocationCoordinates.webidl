@@ -188,13 +188,5 @@ double
 ?
 speed
 ;
-[
-Default
-]
-object
-toJSON
-(
-)
-;
 }
 ;
