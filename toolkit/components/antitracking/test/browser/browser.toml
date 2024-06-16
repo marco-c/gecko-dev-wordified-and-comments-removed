@@ -1385,7 +1385,7 @@ file_thirdPartyChild
 .
 video
 .
-ogv
+webm
 "
 "
 !
@@ -1549,7 +1549,7 @@ html
 "
 file_video
 .
-ogv
+webm
 "
 ]
 [
