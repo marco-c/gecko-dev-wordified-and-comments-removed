@@ -6010,6 +6010,12 @@ Ci
 nsIClearDataService
 .
 CLEAR_BOUNCE_TRACKING_PROTECTION_STATE
+|
+Ci
+.
+nsIClearDataService
+.
+CLEAR_STORAGE_PERMISSIONS
 )
 ;
 }
@@ -6071,6 +6077,12 @@ Ci
 nsIClearDataService
 .
 CLEAR_BOUNCE_TRACKING_PROTECTION_STATE
+|
+Ci
+.
+nsIClearDataService
+.
+CLEAR_STORAGE_PERMISSIONS
 )
 ;
 }
