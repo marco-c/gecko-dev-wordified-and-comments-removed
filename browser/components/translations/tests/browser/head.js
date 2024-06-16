@@ -7380,6 +7380,9 @@ elements
 betaIcon
 :
 false
+cancelButton
+:
+false
 copyButton
 :
 false
@@ -7417,6 +7420,12 @@ translateButton
 :
 false
 translateFullPageButton
+:
+false
+translationFailureMessageBar
+:
+false
+tryAgainButton
 :
 false
 tryAnotherSourceMenuList
