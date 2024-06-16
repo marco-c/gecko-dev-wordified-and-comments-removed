@@ -112,7 +112,7 @@ floatBitsToNumber
 i32
 kFloat16Format
 kFloat32Format
-Matrix
+MatrixValue
 numbersApproximatelyEqual
 pack2x16float
 pack2x16snorm
@@ -120,14 +120,14 @@ pack2x16unorm
 pack4x8snorm
 pack4x8unorm
 packRGB9E5UFloat
-Scalar
+ScalarValue
 toMatrix
 u32
 unpackRGB9E5UFloat
 vec2
 vec3
 vec4
-Vector
+VectorValue
 }
 from
 '
@@ -1110,7 +1110,7 @@ cases
 Array
 <
 [
-Scalar
+ScalarValue
 string
 ]
 >
@@ -1409,7 +1409,7 @@ cases
 Array
 <
 [
-Vector
+VectorValue
 string
 ]
 >
@@ -1973,7 +1973,7 @@ cases
 Array
 <
 [
-Matrix
+MatrixValue
 string
 ]
 >
@@ -2884,7 +2884,7 @@ const
 got
 =
 new
-Matrix
+MatrixValue
 (
 elements
 )

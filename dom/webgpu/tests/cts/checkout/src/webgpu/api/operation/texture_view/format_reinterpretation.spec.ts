@@ -882,6 +882,7 @@ viewFormat
 &
 viewCompatible
 (
+false
 format
 viewFormat
 )
@@ -910,6 +911,15 @@ skipIfTextureFormatNotSupported
 (
 format
 viewFormat
+)
+;
+t
+.
+skipIf
+(
+t
+.
+isCompatibility
 )
 ;
 }
@@ -1406,6 +1416,7 @@ viewFormat
 &
 viewCompatible
 (
+false
 format
 viewFormat
 )
@@ -1445,6 +1456,15 @@ skipIfTextureFormatNotSupported
 (
 format
 viewFormat
+)
+;
+t
+.
+skipIf
+(
+t
+.
+isCompatibility
 )
 ;
 }

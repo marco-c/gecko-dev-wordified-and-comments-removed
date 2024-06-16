@@ -699,11 +699,7 @@ colorSpace
 if
 (
 typeof
-(
 imageData
-as
-any
-)
 .
 colorSpace
 =
@@ -4401,6 +4397,11 @@ dstColorSpace
 [
 '
 srgb
+'
+'
+display
+-
+p3
 '
 ]
 as

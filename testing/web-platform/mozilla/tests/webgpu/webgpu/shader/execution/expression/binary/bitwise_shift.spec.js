@@ -69,7 +69,7 @@ import
 {
 i32
 scalarType
-TypeU32
+Type
 u32
 }
 from
@@ -1100,7 +1100,9 @@ binary
 )
 [
 type
-TypeU32
+Type
+.
+u32
 ]
 type
 t
@@ -1261,7 +1263,9 @@ compoundBinary
 )
 [
 type
-TypeU32
+Type
+.
+u32
 ]
 type
 t
@@ -1793,7 +1797,9 @@ binary
 )
 [
 type
-TypeU32
+Type
+.
+u32
 ]
 type
 t
@@ -1954,7 +1960,9 @@ compoundBinary
 )
 [
 type
-TypeU32
+Type
+.
+u32
 ]
 type
 t

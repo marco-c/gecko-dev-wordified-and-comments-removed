@@ -104,7 +104,6 @@ import
 {
 kAllTextureFormats
 kFeaturesForFormats
-kTextureFormats
 filterFormatsByFeature
 viewCompatible
 }
@@ -2158,7 +2157,7 @@ viewFormatFeature
 filterFormatsByFeature
 (
 viewFormatFeature
-kTextureFormats
+kAllTextureFormats
 )
 )
 )
@@ -2253,6 +2252,9 @@ compatible
 =
 viewCompatible
 (
+t
+.
+isCompatibility
 format
 viewFormat
 )

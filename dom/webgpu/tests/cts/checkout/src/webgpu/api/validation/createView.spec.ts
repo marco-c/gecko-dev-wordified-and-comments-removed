@@ -101,7 +101,7 @@ js
 import
 {
 kTextureFormatInfo
-kTextureFormats
+kAllTextureFormats
 kFeaturesForFormats
 filterFormatsByFeature
 viewCompatible
@@ -283,7 +283,7 @@ textureFormatFeature
 filterFormatsByFeature
 (
 textureFormatFeature
-kTextureFormats
+kAllTextureFormats
 )
 )
 .
@@ -307,7 +307,7 @@ undefined
 .
 .
 .
-kTextureFormats
+kAllTextureFormats
 ]
 )
 )
@@ -401,6 +401,9 @@ undefined
 |
 viewCompatible
 (
+t
+.
+isCompatibility
 textureFormat
 viewFormat
 )
@@ -819,7 +822,7 @@ combine
 '
 format
 '
-kTextureFormats
+kAllTextureFormats
 )
 .
 combine

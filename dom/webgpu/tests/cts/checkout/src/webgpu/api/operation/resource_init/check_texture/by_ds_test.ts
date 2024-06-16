@@ -108,11 +108,8 @@ CheckContents
 from
 '
 .
-.
 /
-texture_zero
-.
-spec
+texture_zero_init_test
 .
 js
 '

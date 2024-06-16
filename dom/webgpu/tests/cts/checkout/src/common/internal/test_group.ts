@@ -240,7 +240,7 @@ js
 ;
 import
 {
-logToWebsocket
+logToWebSocket
 }
 from
 '
@@ -1495,7 +1495,7 @@ true
 ;
 this
 .
-testFn
+beforeFn
 =
 (
 )
@@ -1512,6 +1512,17 @@ unimplemented
 '
 )
 ;
+}
+;
+this
+.
+testFn
+=
+(
+)
+=
+>
+{
 }
 ;
 }
@@ -1853,6 +1864,11 @@ testPathString
 {
 testcaseString
 }
+(
+{
+caseQuery
+}
+)
 )
 ;
 seen
@@ -3679,7 +3695,7 @@ rec
 nonskippedSubcaseCount
 }
 ;
-logToWebsocket
+logToWebSocket
 (
 JSON
 .

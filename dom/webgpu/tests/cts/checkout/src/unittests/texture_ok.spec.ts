@@ -47,22 +47,6 @@ js
 ;
 import
 {
-RegularTextureFormat
-}
-from
-'
-.
-.
-/
-webgpu
-/
-format_info
-.
-js
-'
-;
-import
-{
 TexelView
 }
 from
@@ -247,8 +231,6 @@ format
 '
 rgba8unorm
 '
-as
-RegularTextureFormat
 actual
 :
 typedArrayParam
@@ -287,8 +269,6 @@ format
 '
 rgba8unorm
 '
-as
-RegularTextureFormat
 actual
 :
 typedArrayParam
@@ -327,8 +307,6 @@ format
 '
 rgb9e5ufloat
 '
-as
-RegularTextureFormat
 actual
 :
 typedArrayParam
@@ -367,8 +345,6 @@ format
 '
 rgb9e5ufloat
 '
-as
-RegularTextureFormat
 actual
 :
 typedArrayParam
@@ -407,8 +383,6 @@ format
 '
 r32float
 '
-as
-RegularTextureFormat
 actual
 :
 typedArrayParam
@@ -451,8 +425,6 @@ format
 '
 r32float
 '
-as
-RegularTextureFormat
 actual
 :
 typedArrayParam
@@ -489,8 +461,6 @@ format
 '
 r32float
 '
-as
-RegularTextureFormat
 actual
 :
 typedArrayParam
@@ -523,8 +493,6 @@ format
 '
 rg11b10ufloat
 '
-as
-RegularTextureFormat
 actual
 :
 typedArrayParam
@@ -557,8 +525,6 @@ format
 '
 rg11b10ufloat
 '
-as
-RegularTextureFormat
 actual
 :
 typedArrayParam
@@ -591,8 +557,6 @@ format
 '
 rg11b10ufloat
 '
-as
-RegularTextureFormat
 actual
 :
 typedArrayParam
@@ -625,8 +589,6 @@ format
 '
 rg11b10ufloat
 '
-as
-RegularTextureFormat
 actual
 :
 typedArrayParam
@@ -659,8 +621,6 @@ format
 '
 rg11b10ufloat
 '
-as
-RegularTextureFormat
 actual
 :
 typedArrayParam
@@ -693,8 +653,6 @@ format
 '
 rg11b10ufloat
 '
-as
-RegularTextureFormat
 actual
 :
 typedArrayParam
@@ -727,8 +685,6 @@ format
 '
 rg11b10ufloat
 '
-as
-RegularTextureFormat
 actual
 :
 typedArrayParam
@@ -756,6 +712,8 @@ isSame
 true
 }
 ]
+as
+const
 )
 )
 .

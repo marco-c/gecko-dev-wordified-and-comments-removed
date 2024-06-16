@@ -529,10 +529,6 @@ importExternalTexture
 (
 {
 source
-:
-source
-as
-any
 }
 )
 ;
@@ -586,10 +582,6 @@ importExternalTexture
 (
 {
 source
-:
-source
-as
-any
 }
 )
 ;
@@ -794,10 +786,6 @@ importExternalTexture
 (
 {
 source
-:
-source
-as
-any
 }
 )
 ;
@@ -1001,10 +989,6 @@ importExternalTexture
 (
 {
 source
-:
-source
-as
-any
 }
 )
 ;
@@ -1170,10 +1154,6 @@ importExternalTexture
 (
 {
 source
-:
-source
-as
-any
 }
 )
 ;
@@ -1238,10 +1218,6 @@ importExternalTexture
 (
 {
 source
-:
-source
-as
-any
 }
 )
 ;
@@ -1403,10 +1379,6 @@ importExternalTexture
 (
 {
 source
-:
-source
-as
-any
 }
 )
 ;

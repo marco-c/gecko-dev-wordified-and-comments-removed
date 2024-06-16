@@ -90,7 +90,7 @@ js
 ;
 import
 {
-kTextureFormats
+kAllTextureFormats
 kTextureFormatInfo
 kDepthStencilFormats
 }
@@ -205,7 +205,7 @@ combine
 '
 format
 '
-kTextureFormats
+kAllTextureFormats
 )
 )
 .

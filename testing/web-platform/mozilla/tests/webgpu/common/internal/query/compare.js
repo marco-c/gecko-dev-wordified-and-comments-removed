@@ -426,6 +426,7 @@ Ordering
 Unordered
 ;
 }
+export
 function
 comparePaths
 (

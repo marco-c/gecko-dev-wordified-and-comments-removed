@@ -2831,7 +2831,9 @@ blockWidth
 *
 info
 .
-bytesPerBlock
+color
+.
+bytes
 256
 )
 ;

@@ -165,7 +165,7 @@ js
 import
 {
 kTextureFormatInfo
-kTextureFormats
+kAllTextureFormats
 kValidTextureFormatsForCopyE2T
 }
 from
@@ -3700,7 +3700,7 @@ combine
 '
 format
 '
-kTextureFormats
+kAllTextureFormats
 )
 .
 beginSubcases

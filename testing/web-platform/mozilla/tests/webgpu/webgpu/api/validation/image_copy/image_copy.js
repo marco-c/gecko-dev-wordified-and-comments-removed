@@ -1050,6 +1050,8 @@ CopyT2B
 return
 info
 .
+color
+.
 copySrc
 ;
 }
@@ -1057,6 +1059,8 @@ else
 {
 return
 info
+.
+color
 .
 copyDst
 ;

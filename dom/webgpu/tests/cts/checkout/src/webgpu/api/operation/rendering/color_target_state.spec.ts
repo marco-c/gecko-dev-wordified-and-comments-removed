@@ -135,7 +135,7 @@ js
 ;
 import
 {
-kEncodableTextureFormats
+kRegularTextureFormats
 kTextureFormatInfo
 }
 from
@@ -1268,6 +1268,10 @@ dstFactor
 kBlendFactors
 )
 .
+beginSubcases
+(
+)
+.
 combine
 (
 '
@@ -1333,10 +1337,6 @@ return
 true
 ;
 }
-)
-.
-beginSubcases
-(
 )
 .
 combine
@@ -2134,7 +2134,7 @@ maxFractionalDiff
 const
 kBlendableFormats
 =
-kEncodableTextureFormats
+kRegularTextureFormats
 .
 filter
 (
@@ -2153,12 +2153,14 @@ f
 return
 info
 .
-renderable
+colorRender
 &
 &
 info
 .
-sampleType
+color
+.
+type
 =
 =
 =
