@@ -6711,7 +6711,7 @@ FxAccounts
 .
 config
 .
-promiseForceSigninURI
+promiseConnectAccountURI
 (
 entryPoint
 )
