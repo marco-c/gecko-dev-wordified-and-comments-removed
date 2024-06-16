@@ -178,6 +178,13 @@ binding
 MessagingFeature
 (
 appStore
+=
+appStore
+surface
+=
+FenixMessageSurfaceId
+.
+HOMESCREEN
 )
 binding
 .
