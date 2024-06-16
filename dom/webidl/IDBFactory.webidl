@@ -237,6 +237,9 @@ DOMString
 name
 )
 ;
+[
+Throws
+]
 Promise
 <
 sequence

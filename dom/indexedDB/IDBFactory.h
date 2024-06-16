@@ -540,6 +540,9 @@ Databases
 JSContext
 *
 aCx
+ErrorResult
+&
+aRv
 )
 ;
 int16_t
