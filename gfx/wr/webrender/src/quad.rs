@@ -3386,8 +3386,6 @@ QuadInstance
 dst_task_address
 prim_address_i
 prim_address_f
-z_id
-transform_id
 edge_flags
 :
 edge_flags_bits

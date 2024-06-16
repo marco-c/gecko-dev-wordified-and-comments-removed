@@ -17,7 +17,6 @@ api
 :
 {
 ColorF
-ImageFormat
 LineOrientation
 BorderStyle
 }
@@ -700,10 +699,6 @@ T
 >
 {
 pub
-format
-:
-ImageFormat
-pub
 targets
 :
 Vec
@@ -726,9 +721,6 @@ pub
 fn
 new
 (
-format
-:
-ImageFormat
 )
 -
 >
@@ -736,7 +728,6 @@ Self
 {
 RenderTargetList
 {
-format
 targets
 :
 Vec

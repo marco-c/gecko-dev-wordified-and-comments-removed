@@ -2519,14 +2519,6 @@ prim_address_f
 :
 GpuBufferAddress
 pub
-z_id
-:
-ZBufferId
-pub
-transform_id
-:
-TransformPaletteId
-pub
 quad_flags
 :
 u8

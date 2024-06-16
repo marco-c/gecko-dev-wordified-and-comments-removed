@@ -1176,10 +1176,6 @@ rebuild_display_lists
 :
 bool
 pub
-verbose
-:
-bool
-pub
 frame_start_sender
 :
 chase_lev
@@ -1628,7 +1624,6 @@ None
 rebuild_display_lists
 :
 do_rebuild
-verbose
 root_pipeline_id
 :
 PipelineId
