@@ -2291,8 +2291,6 @@ nanoseconds
 )
 <
 =
-2
-*
 ToNanoseconds
 (
 TemporalUnit
