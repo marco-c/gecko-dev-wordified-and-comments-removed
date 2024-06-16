@@ -5709,6 +5709,7 @@ matching
 /
 [
 GenerateInitFromJSON
+GenerateEqualityOperator
 ]
 dictionary
 OriginAttributesDictionary
