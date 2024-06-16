@@ -1207,9 +1207,6 @@ def
 poll
 (
 self
-wait_reader
-=
-True
 )
 :
         
@@ -1222,41 +1219,6 @@ child
 process
 has
 terminated
-        
-:
-param
-wait_reader
-:
-If
-set
-to
-True
-it
-waits
-not
-only
-for
-the
-process
-        
-to
-exit
-but
-also
-for
-all
-output
-to
-be
-fully
-read
-.
-(
-Defaults
-to
-True
-)
-.
         
 Returns
 the
@@ -1331,7 +1293,7 @@ wait
 0
 wait_reader
 =
-wait_reader
+False
 )
     
 def
