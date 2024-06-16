@@ -407,6 +407,8 @@ NativeLayerCA
 >
 &
 aSublayers
+bool
+aWindowIsFullscreen
 )
 ;
 CALayer
@@ -922,6 +924,13 @@ RenderTextureHost
 aExternalImage
 )
 override
+;
+void
+SetRootWindowIsFullscreen
+(
+bool
+aFullscreen
+)
 ;
 protected
 :
