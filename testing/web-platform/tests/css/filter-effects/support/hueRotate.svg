@@ -45,6 +45,15 @@ id
 "
 MyFilter
 "
+color
+-
+interpolation
+-
+filters
+=
+"
+sRGB
+"
 >
 <
 feColorMatrix
