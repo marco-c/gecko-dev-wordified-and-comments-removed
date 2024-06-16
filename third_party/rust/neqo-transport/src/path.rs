@@ -3187,6 +3187,15 @@ V
 >
 Datagram
 {
+let
+tos
+=
+self
+.
+tos
+(
+)
+;
 self
 .
 ecn_info
@@ -3206,11 +3215,7 @@ local
 self
 .
 remote
-self
-.
 tos
-(
-)
 Some
 (
 self

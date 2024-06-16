@@ -501,6 +501,9 @@ CERT_DestroyCertList
 CERT_GetCertificateDer
 "
 "
+NSS_SetAlgorithmPolicy
+"
+"
 PK11_CipherOp
 "
 "
@@ -658,6 +661,9 @@ CKM_HKDF_DERIVE
 "
 "
 CKM_INVALID_MECHANISM
+"
+"
+NSS_USE_ALG_IN_SSL_KX
 "
 "
 PK11_ATTR_INSENSITIVE
