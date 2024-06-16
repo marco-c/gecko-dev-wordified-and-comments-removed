@@ -4950,6 +4950,14 @@ case
 StyleCssRuleType
 :
 :
+StartingStyle
+:
+break
+;
+case
+StyleCssRuleType
+:
+:
 Namespace
 :
 break
