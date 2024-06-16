@@ -2253,6 +2253,11 @@ axes
 1
 3
 ]
+"
+keepDimensions
+"
+:
+false
 }
 "
 expected
@@ -2447,6 +2452,11 @@ axes
 1
 3
 ]
+"
+keepDimensions
+"
+:
+true
 }
 "
 expected
@@ -2465,8 +2475,8 @@ shape
 "
 :
 [
-1
 2
+1
 2
 1
 ]
