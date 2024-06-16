@@ -7307,7 +7307,7 @@ Collapse
 (
 aScanFromCaretPointResult
 .
-Point
+Point_Deprecated
 <
 EditorRawDOMPoint
 >
@@ -7992,7 +7992,7 @@ Collapse
 (
 aScanFromCaretPointResult
 .
-Point
+Point_Deprecated
 <
 EditorRawDOMPoint
 >
@@ -8351,7 +8351,7 @@ aDirectionAndAmount
 aRangesToDelete
 aScanFromCaretPointResult
 .
-Point
+Point_Deprecated
 <
 EditorDOMPoint
 >
@@ -11712,7 +11712,7 @@ TextPtr
 return
 maybePreviousText
 .
-Point
+Point_Deprecated
 <
 EditorDOMPoint
 >
@@ -11757,7 +11757,7 @@ InVisibleOrCollapsibleCharacters
 return
 maybeNextText
 .
-Point
+Point_Deprecated
 <
 EditorDOMPoint
 >
@@ -18543,7 +18543,7 @@ CollapseSelectionTo
 (
 maybePreviousText
 .
-Point
+Point_Deprecated
 <
 EditorRawDOMPoint
 >
@@ -25916,7 +25916,7 @@ mPointToPutCaret
 =
 maybePreviousText
 .
-Point
+Point_Deprecated
 <
 EditorDOMPoint
 >

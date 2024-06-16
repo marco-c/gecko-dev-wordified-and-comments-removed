@@ -1219,7 +1219,7 @@ IsEditable
 }
 MOZ_NEVER_INLINE_DEBUG
 uint32_t
-Offset
+Offset_Deprecated
 (
 )
 const
@@ -1255,7 +1255,7 @@ typename
 EditorDOMPointType
 >
 EditorDOMPointType
-Point
+Point_Deprecated
 (
 )
 const

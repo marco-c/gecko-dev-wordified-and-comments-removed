@@ -2545,7 +2545,7 @@ pointToPutCaret
 =
 backwardScanFromPointToCaretResult
 .
-Point
+Point_Deprecated
 <
 EditorDOMPoint
 >
