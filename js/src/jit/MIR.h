@@ -11535,7 +11535,7 @@ const
 return
 flags_
 .
-isBuiltinNative
+canHaveJitInfo
 (
 )
 &
