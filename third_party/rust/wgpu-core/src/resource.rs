@@ -72,6 +72,10 @@ init_tracker
 BufferInitTracker
 TextureInitTracker
 }
+lock
+:
+:
+Mutex
 resource
 resource_log
 snatch
@@ -108,10 +112,7 @@ use
 parking_lot
 :
 :
-{
-Mutex
 RwLock
-}
 ;
 use
 smallvec
@@ -6297,7 +6298,7 @@ surface
 A
 :
 :
-get_surface
+surface_as_hal
 (
 surface
 )

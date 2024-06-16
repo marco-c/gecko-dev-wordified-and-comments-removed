@@ -167,10 +167,6 @@ unused_qualifications
 ]
 pub
 mod
-any_surface
-;
-pub
-mod
 binding_model
 ;
 pub
@@ -217,6 +213,9 @@ init_tracker
 pub
 mod
 instance
+;
+mod
+lock
 ;
 pub
 mod

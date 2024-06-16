@@ -78,6 +78,13 @@ init_tracker
 has_copy_partial_init_tracker_coverage
 TextureInitRange
 }
+lock
+:
+:
+{
+rank
+Mutex
+}
 resource
 :
 :
@@ -115,12 +122,6 @@ Queue
 as
 _
 }
-;
-use
-parking_lot
-:
-:
-Mutex
 ;
 use
 smallvec
@@ -1486,6 +1487,10 @@ Mutex
 :
 new
 (
+rank
+:
+:
+STAGING_BUFFER_RAW
 Some
 (
 buffer

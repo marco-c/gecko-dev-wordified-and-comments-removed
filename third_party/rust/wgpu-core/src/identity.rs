@@ -1,10 +1,4 @@
 use
-parking_lot
-:
-:
-Mutex
-;
-use
 wgt
 :
 :
@@ -21,6 +15,13 @@ id
 {
 Id
 Marker
+}
+lock
+:
+:
+{
+rank
+Mutex
 }
 Epoch
 Index
@@ -534,6 +535,10 @@ Mutex
 :
 new
 (
+rank
+:
+:
+IDENTITY_MANAGER_VALUES
 IdentityValues
 {
 free

@@ -2612,6 +2612,9 @@ ShaderId
 entry_point
 :
 String
+zero_initialize_workgroup_memory
+:
+bool
 }
 #
 [

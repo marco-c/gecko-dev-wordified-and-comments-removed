@@ -1850,9 +1850,7 @@ from
 u32
 :
 :
-max_value
-(
-)
+MAX
 )
 )
 ;
@@ -2577,9 +2575,7 @@ from
 u32
 :
 :
-max_value
-(
-)
+MAX
 )
 )
 ;

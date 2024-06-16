@@ -1625,6 +1625,9 @@ constants
 :
 &
 constants
+zero_initialize_workgroup_memory
+:
+true
 }
 vertex_buffers
 :
@@ -1653,6 +1656,9 @@ constants
 :
 &
 constants
+zero_initialize_workgroup_memory
+:
+true
 }
 )
 primitive

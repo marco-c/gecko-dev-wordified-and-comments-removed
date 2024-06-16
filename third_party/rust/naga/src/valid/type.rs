@@ -2387,11 +2387,6 @@ COPY
 TypeFlags
 :
 :
-HOST_SHAREABLE
-|
-TypeFlags
-:
-:
 ARGUMENT
 |
 TypeFlags

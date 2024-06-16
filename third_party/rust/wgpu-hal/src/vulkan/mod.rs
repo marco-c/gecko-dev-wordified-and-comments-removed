@@ -699,6 +699,9 @@ bool
 image_format_list
 :
 bool
+subgroup_size_control
+:
+bool
 }
 bitflags
 :

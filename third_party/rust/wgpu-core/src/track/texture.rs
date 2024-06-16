@@ -22,6 +22,13 @@ hal_api
 :
 :
 HalApi
+lock
+:
+:
+{
+rank
+Mutex
+}
 resource
 :
 :
@@ -64,12 +71,6 @@ naga
 :
 :
 FastHashMap
-;
-use
-parking_lot
-:
-:
-Mutex
 ;
 use
 wgt
@@ -694,6 +695,10 @@ Mutex
 :
 new
 (
+rank
+:
+:
+TEXTURE_BIND_GROUP_STATE_TEXTURES
 Vec
 :
 :

@@ -1,3 +1,14 @@
+#
+!
+[
+allow
+(
+clippy
+:
+:
+mixed_attributes_style
+)
+]
 use
 thiserror
 :

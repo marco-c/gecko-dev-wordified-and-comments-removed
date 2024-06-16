@@ -26,6 +26,13 @@ hal_api
 :
 HalApi
 id
+lock
+:
+:
+{
+rank
+Mutex
+}
 pipeline
 resource
 snatch
@@ -38,10 +45,7 @@ use
 parking_lot
 :
 :
-{
-Mutex
 RwLock
-}
 ;
 use
 std
@@ -426,6 +430,10 @@ Mutex
 :
 new
 (
+rank
+:
+:
+SHARED_TRACKER_INDEX_ALLOCATOR_INNER
 TrackerIndexAllocator
 :
 :

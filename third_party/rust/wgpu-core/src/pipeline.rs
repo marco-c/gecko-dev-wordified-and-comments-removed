@@ -1833,6 +1833,10 @@ back
 :
 PipelineConstants
 >
+pub
+zero_initialize_workgroup_memory
+:
+bool
 }
 pub
 type

@@ -97,6 +97,11 @@ contents
 [
 package
 ]
+edition
+=
+"
+2015
+"
 rust
 -
 version
@@ -118,7 +123,7 @@ version
 .
 0
 .
-197
+198
 "
 authors
 =

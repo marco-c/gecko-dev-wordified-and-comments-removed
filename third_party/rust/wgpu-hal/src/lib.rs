@@ -7301,6 +7301,10 @@ back
 :
 :
 PipelineConstants
+pub
+zero_initialize_workgroup_memory
+:
+bool
 }
 impl
 <
@@ -7344,6 +7348,11 @@ constants
 self
 .
 constants
+zero_initialize_workgroup_memory
+:
+self
+.
+zero_initialize_workgroup_memory
 }
 }
 }

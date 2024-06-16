@@ -140,10 +140,6 @@ a
 unsafe
 fn
 dealloc_descriptor_sets
-<
-'
-a
->
 (
 &
 self
