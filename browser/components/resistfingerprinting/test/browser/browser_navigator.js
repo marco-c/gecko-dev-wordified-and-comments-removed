@@ -97,6 +97,8 @@ android
 .
 0
 (
+Linux
+;
 Android
 {
 osVersion
@@ -155,6 +157,8 @@ android
 .
 0
 (
+Linux
+;
 Android
 10
 )
@@ -547,6 +551,8 @@ X
 "
 android
 :
+Linux
+;
 Android
 {
 osVersion
@@ -604,6 +610,8 @@ X
 android
 :
 "
+Linux
+;
 Android
 10
 ;
@@ -653,6 +661,8 @@ NT
 android
 :
 "
+Linux
+;
 Android
 10
 ;
