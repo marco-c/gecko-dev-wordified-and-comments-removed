@@ -32,7 +32,7 @@ openAndCloseWindow
 url
 =
 "
-http
+https
 :
 /
 /
@@ -436,7 +436,7 @@ openNewForegroundTab
 (
 gBrowser
 "
-http
+https
 :
 /
 /
@@ -462,7 +462,7 @@ openNewForegroundTab
 (
 gBrowser
 "
-http
+https
 :
 /
 /
@@ -813,7 +813,7 @@ test
 assertEq
 (
 "
-http
+https
 :
 /
 /
@@ -938,7 +938,7 @@ about
 mozilla
 "
 "
-http
+https
 :
 /
 /
@@ -1146,7 +1146,7 @@ test
 assertEq
 (
 "
-http
+https
 :
 /
 /
@@ -1223,7 +1223,7 @@ let
 xpi
 =
 "
-http
+https
 :
 /
 /
@@ -1292,7 +1292,7 @@ gBrowser
 url
 :
 "
-http
+https
 :
 /
 /

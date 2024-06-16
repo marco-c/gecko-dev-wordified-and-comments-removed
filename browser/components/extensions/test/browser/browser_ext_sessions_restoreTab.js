@@ -53,7 +53,7 @@ create
 url
 :
 "
-http
+https
 :
 /
 /
@@ -164,7 +164,7 @@ const
 contentScriptTabURL
 =
 "
-http
+https
 :
 /
 /
@@ -199,7 +199,7 @@ win
 .
 gBrowser
 "
-http
+https
 :
 /
 /

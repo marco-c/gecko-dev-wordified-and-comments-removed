@@ -66,7 +66,7 @@ const
 DUMMY_PAGE
 =
 "
-http
+https
 :
 /
 /
@@ -570,7 +570,7 @@ gBrowser
 opening
 :
 "
-http
+https
 :
 /
 /
@@ -622,7 +622,7 @@ view
 -
 source
 :
-http
+https
 :
 /
 /
