@@ -52,6 +52,15 @@ deviceType
 gpu
 '
 }
+npu
+:
+{
+deviceType
+:
+'
+npu
+'
+}
 }
 ;
 const
