@@ -63,7 +63,7 @@ components
 .
 browser
 .
-toolbar
+toolbar2
 .
 edit
 import
@@ -199,7 +199,7 @@ components
 .
 browser
 .
-toolbar
+toolbar2
 .
 AsyncFilterListener
 import
@@ -209,7 +209,7 @@ components
 .
 browser
 .
-toolbar
+toolbar2
 .
 BrowserToolbar
 import
@@ -219,7 +219,7 @@ components
 .
 browser
 .
-toolbar
+toolbar2
 .
 R
 import
@@ -229,7 +229,7 @@ components
 .
 browser
 .
-toolbar
+toolbar2
 .
 facts
 .
@@ -241,7 +241,7 @@ components
 .
 browser
 .
-toolbar
+toolbar2
 .
 internal
 .
