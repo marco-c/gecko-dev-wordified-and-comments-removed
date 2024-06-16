@@ -461,7 +461,7 @@ store
 .
 dispatch
 .
-calledTwice
+calledThrice
 )
 ;
 Assert
@@ -510,6 +510,11 @@ localhost
 base_url
 /
 attachment
+"
+category
+:
+"
+other
 "
 }
 ]
