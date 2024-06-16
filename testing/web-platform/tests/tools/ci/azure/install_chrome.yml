@@ -81,17 +81,16 @@ Homebrew
 homebrew
 -
 cask
--
-versions
 /
-master
+HEAD
 /
 Casks
+/
+g
 /
 google
 -
 chrome
--
 dev
 .
 rb
@@ -99,7 +98,6 @@ rb
 google
 -
 chrome
--
 dev
 .
 rb
@@ -114,7 +112,6 @@ cask
 google
 -
 chrome
--
 dev
 .
 rb
