@@ -301,6 +301,7 @@ Const
 ifdef
 ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 Using
+AwaitUsing
 #
 endif
 Class
@@ -452,6 +453,12 @@ DeclarationKind
 :
 :
 Using
+:
+case
+DeclarationKind
+:
+:
+AwaitUsing
 :
 #
 endif

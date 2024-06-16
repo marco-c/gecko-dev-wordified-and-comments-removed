@@ -5882,6 +5882,12 @@ ParseNodeKind
 :
 UsingDecl
 :
+case
+ParseNodeKind
+:
+:
+AwaitUsingDecl
+:
 MOZ_CRASH
 (
 "

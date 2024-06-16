@@ -434,6 +434,12 @@ ParseNodeKind
 :
 UsingDecl
 :
+case
+ParseNodeKind
+:
+:
+AwaitUsingDecl
+:
 #
 endif
 MOZ_ASSERT
