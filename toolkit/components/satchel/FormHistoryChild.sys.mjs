@@ -1348,10 +1348,10 @@ entry
 image
 entry
 .
-title
+label
 entry
 .
-subtitle
+secondary
 entry
 .
 fillMessageName

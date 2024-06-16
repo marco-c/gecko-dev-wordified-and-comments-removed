@@ -798,11 +798,7 @@ resolve
 {
 gPopupShownListener
 =
-(
-{
 results
-}
-)
 =
 >
 {
@@ -813,6 +809,8 @@ false
 resolve
 (
 results
+.
+labels
 )
 ;
 }
@@ -1115,11 +1113,7 @@ addMessageListener
 "
 onpopupshown
 "
-(
-{
 results
-}
-)
 =
 >
 {
@@ -1134,9 +1128,7 @@ gPopupShownListener
 {
 gPopupShownListener
 (
-{
 results
-}
 )
 ;
 }
@@ -1324,6 +1316,8 @@ getMenuEntries
 isDeeply
 (
 actualValues
+.
+labels
 expectedValues
 "
 expected

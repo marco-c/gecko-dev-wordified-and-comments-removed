@@ -62,9 +62,9 @@ This
 item
 shows
 image
-title
+label
 &
-subtitle
+secondary
 .
 /
 /
@@ -116,8 +116,8 @@ value
 constructor
 (
 image
-title
-subtitle
+label
+secondary
 fillMessageName
 fillMessageData
 )
@@ -130,6 +130,12 @@ image
 ;
 this
 .
+label
+=
+label
+;
+this
+.
 comment
 =
 JSON
@@ -137,8 +143,7 @@ JSON
 stringify
 (
 {
-title
-subtitle
+secondary
 fillMessageName
 fillMessageData
 }

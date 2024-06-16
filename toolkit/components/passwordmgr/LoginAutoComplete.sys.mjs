@@ -1723,10 +1723,10 @@ item
 image
 item
 .
-title
+label
 item
 .
-subtitle
+secondary
 item
 .
 fillMessageName

@@ -564,7 +564,7 @@ selectedIndex
 null
 ;
 let
-profile
+parsedComment
 =
 JSON
 .
@@ -614,7 +614,7 @@ focusedInput
 {
 if
 (
-profile
+parsedComment
 ?
 .
 fillMessageName

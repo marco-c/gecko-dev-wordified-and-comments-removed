@@ -44,7 +44,7 @@ parse
 (
 first
 .
-label
+comment
 )
 ;
 ok
