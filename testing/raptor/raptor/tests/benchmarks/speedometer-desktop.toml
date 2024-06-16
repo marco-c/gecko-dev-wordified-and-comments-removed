@@ -12,6 +12,9 @@ apps
 firefox
 chrome
 safari
+safari
+-
+tp
 custom
 -
 car
@@ -79,14 +82,10 @@ unit
 score
 "
 [
-"
 speedometer
-"
 ]
 [
-"
 speedometer3
-"
 ]
 browser_cycles
 =

@@ -14,6 +14,7 @@ add_logging_group
 FIREFOX
 CHROME
 SAFARI
+SAFARI_TP
 CHROMIUM_RELEASE
 )
 =
@@ -31,6 +32,12 @@ chrome
     
 "
 safari
+"
+    
+"
+safari
+-
+tp
 "
     
 "
@@ -137,6 +144,21 @@ long_name
 :
 "
 Safari
+Desktop
+"
+}
+    
+SAFARI_TP
+:
+{
+"
+long_name
+"
+:
+"
+Safari
+Technology
+Preview
 Desktop
 "
 }

@@ -125,6 +125,11 @@ car
 "
 safari
 "
+"
+safari
+-
+tp
+"
 )
 NON_FIREFOX_BROWSERS_MOBILE
 =
