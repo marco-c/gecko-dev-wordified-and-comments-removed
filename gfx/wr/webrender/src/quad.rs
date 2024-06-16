@@ -725,7 +725,7 @@ spatial_tree
 ;
 surface
 .
-map_local_to_surface
+map_local_to_picture
 .
 set_target_spatial_node
 (
@@ -743,7 +743,7 @@ pic_rect
 =
 surface
 .
-map_local_to_surface
+map_local_to_picture
 .
 map
 (
@@ -1354,7 +1354,7 @@ is_empty
 let
 local_to_device
 =
-map_prim_to_surface
+map_prim_to_raster
 .
 as_2d_scale_offset
 (
