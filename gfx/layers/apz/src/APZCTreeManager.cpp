@@ -11220,14 +11220,6 @@ mThumbStart
 ;
 if
 (
-StaticPrefs
-:
-:
-apz_drag_initial_enabled
-(
-)
-&
-&
 aScrollThumbNode
 -
 >
