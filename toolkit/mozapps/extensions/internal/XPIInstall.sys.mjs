@@ -748,14 +748,6 @@ weakSignaturesTemporarilyAllowed
 "
 ;
 const
-PREF_XPI_WEAK_SIGNATURES_ALLOWED_DEFAULT
-=
-!
-AppConstants
-.
-NIGHTLY_BUILD
-;
-const
 PREF_SELECTED_THEME
 =
 "
@@ -26040,7 +26032,7 @@ prefs
 getBoolPref
 (
 PREF_XPI_WEAK_SIGNATURES_ALLOWED
-PREF_XPI_WEAK_SIGNATURES_ALLOWED_DEFAULT
+false
 )
 ;
 }
