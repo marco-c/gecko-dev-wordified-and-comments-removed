@@ -89,6 +89,13 @@ CRITICAL_SECTION
 pthread_mutex_t
 ;
 #
+include
+<
+errno
+.
+h
+>
+#
 if
 _WIN32_WINNT
 <
