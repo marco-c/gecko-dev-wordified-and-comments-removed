@@ -174,6 +174,9 @@ bool
 mPrimaryState
 ;
 bool
+mFromTouchEvent
+;
+bool
 mPreventMouseEventByContent
 ;
 WeakPtr
@@ -194,6 +197,8 @@ uint16_t
 aPointerType
 bool
 aPrimaryState
+bool
+aFromTouchEvent
 dom
 :
 :
@@ -213,6 +218,10 @@ aActiveState
 mPrimaryState
 (
 aPrimaryState
+)
+mFromTouchEvent
+(
+aFromTouchEvent
 )
 mPreventMouseEventByContent
 (
@@ -558,8 +567,6 @@ dom
 Touch
 &
 aTouch
-bool
-aIsPrimary
 )
 ;
 static
@@ -752,6 +759,12 @@ GetPointerPrimaryState
 (
 uint32_t
 aPointerId
+)
+;
+static
+bool
+HasActiveTouchPointer
+(
 )
 ;
 MOZ_CAN_RUN_SCRIPT
