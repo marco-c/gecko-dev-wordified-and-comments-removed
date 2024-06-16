@@ -903,8 +903,8 @@ en
 }
 const
 [
-fromLang
-toLang
+fromLanguage
+toLanguage
 ]
 =
 await
@@ -929,8 +929,8 @@ getTopPreferredSupportedToLang
 ;
 return
 {
-fromLang
-toLang
+fromLanguage
+toLanguage
 }
 ;
 }
@@ -1054,8 +1054,8 @@ langPairPromise
 {
 const
 {
-fromLang
-toLang
+fromLanguage
+toLanguage
 }
 =
 await
@@ -1085,7 +1085,7 @@ this
 #
 initializeLanguageMenuList
 (
-fromLang
+fromLanguage
 fromMenuList
 )
 this
@@ -1093,7 +1093,7 @@ this
 #
 initializeLanguageMenuList
 (
-toLang
+toLanguage
 toMenuList
 )
 this
@@ -1577,8 +1577,8 @@ elements
 ;
 const
 {
-fromLang
-toLang
+fromLanguage
+toLanguage
 }
 =
 await
@@ -1592,7 +1592,7 @@ TranslationsParent
 .
 isSupportedAsFromLang
 (
-fromLang
+fromLanguage
 )
 ;
 if
@@ -1617,11 +1617,7 @@ false
 {
 sourceText
 fromLanguage
-:
-fromLang
 toLanguage
-:
-toLang
 }
 )
 ;
@@ -1646,10 +1642,8 @@ false
 sourceText
 detectedLanguage
 :
-fromLang
+fromLanguage
 toLanguage
-:
-toLang
 }
 )
 ;

@@ -11683,7 +11683,7 @@ translateSelectionItem
 {
 const
 {
-toLang
+toLanguage
 }
 =
 await
@@ -11694,7 +11694,7 @@ translationsLangPairPromise
 ;
 if
 (
-toLang
+toLanguage
 )
 {
 let
@@ -11728,7 +11728,7 @@ displayNames
 .
 of
 (
-toLang
+toLanguage
 )
 ;
 }
