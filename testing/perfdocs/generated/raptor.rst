@@ -5342,6 +5342,7 @@ js
 cpu
 java
 processcpu
+memory
 *
 *
 *
@@ -7272,6 +7273,7 @@ js
 cpu
 java
 processcpu
+memory
 *
 *
 *
@@ -9206,6 +9208,7 @@ js
 cpu
 java
 processcpu
+memory
 *
 *
 *
@@ -10734,6 +10737,7 @@ js
 cpu
 java
 processcpu
+memory
 *
 *
 *
@@ -12289,6 +12293,7 @@ js
 cpu
 java
 processcpu
+memory
 *
 *
 *
@@ -13907,6 +13912,7 @@ js
 cpu
 java
 processcpu
+memory
 *
 *
 *
@@ -15555,6 +15561,7 @@ js
 cpu
 java
 processcpu
+memory
 *
 *
 *
@@ -17093,6 +17100,7 @@ js
 cpu
 java
 processcpu
+memory
 *
 *
 *
@@ -18673,6 +18681,7 @@ js
 cpu
 java
 processcpu
+memory
 *
 *
 *
@@ -20662,6 +20671,7 @@ js
 cpu
 java
 processcpu
+memory
 *
 *
 *
@@ -22672,6 +22682,7 @@ js
 cpu
 java
 processcpu
+memory
 *
 *
 *
@@ -24300,6 +24311,7 @@ js
 cpu
 java
 processcpu
+memory
 *
 *
 *
@@ -68714,6 +68726,7 @@ features
 js
 stackwalk
 cpu
+memory
 *
 *
 *
@@ -69960,6 +69973,7 @@ features
 js
 stackwalk
 cpu
+memory
 *
 *
 *
@@ -71208,6 +71222,7 @@ features
 js
 stackwalk
 cpu
+memory
 *
 *
 *
@@ -72454,6 +72469,7 @@ features
 js
 stackwalk
 cpu
+memory
 *
 *
 *
@@ -73702,6 +73718,7 @@ features
 js
 stackwalk
 cpu
+memory
 *
 *
 *
@@ -74948,6 +74965,7 @@ features
 js
 stackwalk
 cpu
+memory
 *
 *
 *
@@ -76198,6 +76216,7 @@ features
 js
 stackwalk
 cpu
+memory
 *
 *
 *
@@ -77446,6 +77465,7 @@ features
 js
 stackwalk
 cpu
+memory
 *
 *
 *
@@ -78697,6 +78717,7 @@ features
 js
 stackwalk
 cpu
+memory
 *
 *
 *
@@ -79946,6 +79967,7 @@ features
 js
 stackwalk
 cpu
+memory
 *
 *
 *
@@ -81196,6 +81218,7 @@ features
 js
 stackwalk
 cpu
+memory
 *
 *
 *
@@ -82444,6 +82467,7 @@ features
 js
 stackwalk
 cpu
+memory
 *
 *
 *
@@ -85597,6 +85621,7 @@ features
 js
 stackwalk
 cpu
+memory
 *
 *
 *
