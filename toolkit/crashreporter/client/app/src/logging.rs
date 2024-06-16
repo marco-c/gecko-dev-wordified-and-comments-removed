@@ -20,6 +20,17 @@ Mutex
 }
 }
 ;
+#
+[
+cfg_attr
+(
+mock
+allow
+(
+unused
+)
+)
+]
 pub
 fn
 init

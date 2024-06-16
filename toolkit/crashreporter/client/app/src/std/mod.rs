@@ -1,3 +1,15 @@
+#
+!
+[
+cfg_attr
+(
+mock
+allow
+(
+unused
+)
+)
+]
 pub
 use
 std
