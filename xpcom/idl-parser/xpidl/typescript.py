@@ -475,11 +475,6 @@ xpidl
 .
 Typedef
 )
-and
-not
-p
-.
-substitute
 :
             
 try

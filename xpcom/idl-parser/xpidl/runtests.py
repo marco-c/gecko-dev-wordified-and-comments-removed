@@ -945,7 +945,7 @@ self
 assertEqual
 (
 "
-long
+int32_t
 "
 m
 .

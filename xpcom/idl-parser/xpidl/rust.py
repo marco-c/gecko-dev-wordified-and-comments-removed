@@ -2058,14 +2058,6 @@ try
 :
                 
 if
-p
-.
-substitute
-:
-                    
-continue
-                
-if
 printdoccomments
 :
                     

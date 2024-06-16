@@ -1902,14 +1902,6 @@ typedef
 "
 :
             
-if
-p
-.
-substitute
-:
-                
-continue
-            
 printComments
 (
 fd
