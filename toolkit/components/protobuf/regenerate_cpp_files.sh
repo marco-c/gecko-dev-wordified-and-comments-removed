@@ -179,16 +179,6 @@ chromium
 safebrowsing
 .
 proto
-regenerate
-toolkit
-/
-components
-/
-cookiebanners
-/
-cookieBanner
-.
-proto
 command
 cp
 third_party
