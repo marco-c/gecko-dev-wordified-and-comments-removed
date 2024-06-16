@@ -23,6 +23,15 @@ import
 match
 as
 match_path
+from
+taskgraph
+.
+util
+.
+taskcluster
+import
+find_task_id
+status_task
 logger
 =
 logging
@@ -77,7 +86,7 @@ self
 task
 params
 deadline
-arg
+index_paths
 )
 :
         
@@ -95,12 +104,6 @@ index
 paths
 "
         
-index_paths
-label_to_taskid
-taskid_to_status
-=
-arg
-        
 for
 index_path
 in
@@ -112,17 +115,17 @@ try
                 
 task_id
 =
-label_to_taskid
-[
+find_task_id
+(
 index_path
-]
+)
                 
 status
 =
-taskid_to_status
-[
+status_task
+(
 task_id
-]
+)
                 
 if
 not
