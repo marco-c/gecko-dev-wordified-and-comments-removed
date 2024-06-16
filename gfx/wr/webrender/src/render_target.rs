@@ -7195,7 +7195,7 @@ quad_flags
 QuadFlags
 :
 :
-APPLY_DEVICE_CLIP
+APPLY_RENDER_TASK_CLIP
 ;
 }
 for
@@ -7608,7 +7608,7 @@ is_same_coord_system
 QuadFlags
 :
 :
-APPLY_DEVICE_CLIP
+APPLY_RENDER_TASK_CLIP
 }
 else
 {
