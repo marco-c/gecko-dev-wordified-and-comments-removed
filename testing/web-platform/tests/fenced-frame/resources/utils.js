@@ -29,8 +29,6 @@ frame
 /
 resources
 /
-automatic
--
 beacon
 -
 store
@@ -323,7 +321,7 @@ false
 requested_size
 =
 null
-automatic_beacon
+register_beacon
 =
 false
 )
@@ -411,6 +409,13 @@ href
 bid
 :
 1
+allowedReportingOrigins
+:
+[
+location
+.
+origin
+]
 }
 ]
 userBiddingSignals
@@ -493,15 +498,13 @@ size
 ;
 if
 (
-automatic_beacon
+register_beacon
 )
 biddingURLParams
 .
 set
 (
 '
-automatic
--
 beacon
 '
 1
@@ -723,7 +726,7 @@ false
 requested_size
 =
 null
-automatic_beacon
+register_beacon
 =
 false
 )
@@ -745,7 +748,7 @@ nested_urls
 resolve_to_config
 ad_with_size
 requested_size
-automatic_beacon
+register_beacon
 )
 ;
 }
@@ -1211,7 +1214,7 @@ generator_api
 resolve_to_config
 ad_with_size
 requested_size
-automatic_beacon
+register_beacon
 object_constructor
 html
 headers
@@ -1333,7 +1336,7 @@ components_list
 resolve_to_config
 ad_with_size
 requested_size
-automatic_beacon
+register_beacon
 )
 :
 runSelectURL
@@ -1369,7 +1372,7 @@ generator_api
 resolve_to_config
 ad_with_size
 requested_size
-automatic_beacon
+register_beacon
 frame_constructor
 html
 headers
@@ -1410,7 +1413,7 @@ generator_api
 resolve_to_config
 ad_with_size
 requested_size
-automatic_beacon
+register_beacon
 frame_constructor
 html
 headers
@@ -1440,7 +1443,7 @@ generator_api
 resolve_to_config
 ad_with_size
 requested_size
-automatic_beacon
+register_beacon
 html
 headers
 attributes
@@ -1561,7 +1564,7 @@ generator_api
 resolve_to_config
 ad_with_size
 requested_size
-automatic_beacon
+register_beacon
 frame_constructor
 html
 headers
@@ -1588,7 +1591,7 @@ false
 requested_size
 =
 null
-automatic_beacon
+register_beacon
 =
 false
 html
@@ -1691,7 +1694,7 @@ generator_api
 resolve_to_config
 ad_with_size
 requested_size
-automatic_beacon
+register_beacon
 frame_constructor
 html
 headers
@@ -1716,7 +1719,7 @@ false
 requested_size
 =
 null
-automatic_beacon
+register_beacon
 =
 false
 html
@@ -1754,7 +1757,7 @@ generator_api
 resolve_to_config
 ad_with_size
 requested_size
-automatic_beacon
+register_beacon
 html
 headers
 attributes
@@ -1771,7 +1774,7 @@ generator_api
 =
 '
 '
-automatic_beacon
+register_beacon
 =
 false
 html
@@ -1815,7 +1818,7 @@ false
 requested_size
 =
 null
-automatic_beacon
+register_beacon
 html
 headers
 attributes
@@ -2541,7 +2544,7 @@ value
 }
 async
 function
-readAutomaticBeaconDataFromServer
+readBeaconDataFromServer
 (
 event_type
 expected_body
@@ -2648,7 +2651,7 @@ value
 }
 async
 function
-nextAutomaticBeacon
+nextBeacon
 (
 event_type
 expected_body
@@ -2666,7 +2669,7 @@ value
 }
 =
 await
-readAutomaticBeaconDataFromServer
+readBeaconDataFromServer
 (
 event_type
 expected_body

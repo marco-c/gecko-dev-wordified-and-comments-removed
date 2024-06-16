@@ -80,7 +80,7 @@ size
 None
 )
   
-automatic_beacon
+beacon
 =
 request
 .
@@ -90,8 +90,6 @@ first
 (
 b
 "
-automatic
--
 beacon
 "
 None
@@ -290,7 +288,7 @@ register_ad_beacon
 '
   
 if
-automatic_beacon
+beacon
 is
 not
 None
@@ -327,8 +325,6 @@ frame
 /
 resources
 /
-automatic
--
 beacon
 -
 store
@@ -362,8 +358,6 @@ frame
 /
 resources
 /
-automatic
--
 beacon
 -
 store
@@ -375,6 +369,35 @@ type
 reserved
 .
 top_navigation_commit
+'
+        
+'
+click
+'
+:
+        
+browserSignals
+.
+interestGroupOwner
++
+        
+'
+/
+fenced
+-
+frame
+/
+resources
+/
+beacon
+-
+store
+.
+py
+?
+type
+=
+click
 '
       
 }
