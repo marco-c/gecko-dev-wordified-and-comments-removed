@@ -924,6 +924,12 @@ DecodeStage
 >
 mPerformanceRecorder
 ;
+PerformanceRecorderMulti
+<
+DecodeStage
+>
+mPerformanceRecorder2
+;
 Maybe
 <
 Atomic
