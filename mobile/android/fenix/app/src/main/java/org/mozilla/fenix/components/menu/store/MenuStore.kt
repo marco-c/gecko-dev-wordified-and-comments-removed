@@ -206,7 +206,7 @@ state
 is
 MenuAction
 .
-UpdateBookmarked
+UpdateBookmarkState
 -
 >
 state
@@ -217,11 +217,11 @@ it
 .
 copy
 (
-isBookmarked
+bookmarkState
 =
 action
 .
-isBookmarked
+bookmarkState
 )
 }
 }

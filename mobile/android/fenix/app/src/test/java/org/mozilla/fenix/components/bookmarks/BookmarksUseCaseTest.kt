@@ -197,7 +197,15 @@ junit
 .
 Assert
 .
-assertFalse
+assertNotNull
+import
+org
+.
+junit
+.
+Assert
+.
+assertNull
 import
 org
 .
@@ -345,7 +353,7 @@ org
 Mozilla
 "
 )
-assertFalse
+assertNull
 (
 result
 )
@@ -464,7 +472,7 @@ org
 Mozilla
 "
 )
-assertTrue
+assertNotNull
 (
 result
 )
@@ -616,7 +624,7 @@ parentGuid
 parentGuid
 "
 )
-assertTrue
+assertNotNull
 (
 result
 )

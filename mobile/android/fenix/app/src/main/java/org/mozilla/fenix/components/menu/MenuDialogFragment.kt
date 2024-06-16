@@ -812,6 +812,8 @@ state
 .
 browserMenuState
 .
+bookmarkState
+.
 isBookmarked
 }
 NavHost
@@ -1053,6 +1055,16 @@ AddBookmark
 onEditBookmarkButtonClick
 =
 {
+store
+.
+dispatch
+(
+MenuAction
+.
+Navigate
+.
+EditBookmark
+)
 }
 onAddToShortcutsMenuClick
 =
