@@ -91,6 +91,15 @@ inDOMFullscreen
 #
 sidebar
 -
+main
+:
+root
+[
+inDOMFullscreen
+]
+#
+sidebar
+-
 splitter
 :
 root

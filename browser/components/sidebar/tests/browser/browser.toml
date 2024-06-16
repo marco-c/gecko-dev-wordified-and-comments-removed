@@ -35,6 +35,13 @@ js
 ]
 [
 "
+browser_domfullscreen_sidebar
+.
+js
+"
+]
+[
+"
 browser_extensions_sidebar
 .
 js
