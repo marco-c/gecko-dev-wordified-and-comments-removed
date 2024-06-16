@@ -642,6 +642,7 @@ GetTargetDragData
 (
 GdkAtom
 aFlavor
+const
 nsTArray
 <
 nsCString
