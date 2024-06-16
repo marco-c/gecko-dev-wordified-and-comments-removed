@@ -114,7 +114,7 @@ version
 .
 2
 .
-11
+14
 "
 authors
 =
@@ -443,6 +443,10 @@ js
 -
 sys
 "
+]
+linux_disable_fallback
+=
+[
 ]
 rdrand
 =
