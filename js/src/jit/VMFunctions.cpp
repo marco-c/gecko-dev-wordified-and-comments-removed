@@ -5947,6 +5947,7 @@ AbstractGeneratorObject
 :
 finalSuspend
 (
+cx
 obj
 )
 ;

@@ -1208,6 +1208,17 @@ frame
 )
 ;
 void
+onGeneratorClosed
+(
+JS
+:
+:
+GCContext
+*
+gcx
+)
+;
+void
 suspend
 (
 JS

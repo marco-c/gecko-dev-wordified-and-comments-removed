@@ -5910,6 +5910,7 @@ genObj
 >
 setClosed
 (
+cx
 )
 ;
 return
