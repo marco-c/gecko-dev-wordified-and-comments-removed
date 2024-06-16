@@ -415,8 +415,10 @@ return
 ;
 }
 const
-TexTarget
+auto
 texTarget
+=
+TexTarget
 (
 rawTarget
 )
