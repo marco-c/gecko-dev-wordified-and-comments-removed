@@ -10839,12 +10839,6 @@ PopupType
 :
 :
 Tooltip
-&
-&
-!
-IsAnchored
-(
-)
 )
 {
 const
