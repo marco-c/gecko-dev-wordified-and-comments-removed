@@ -1452,7 +1452,7 @@ ServiceWorkerOp
 :
 :
 ServiceWorkerOpRunnable
-WorkerRunnable
+WorkerThreadRunnable
 )
 bool
 ServiceWorkerOp
@@ -1917,7 +1917,7 @@ Running
 ;
 RefPtr
 <
-WorkerRunnable
+WorkerThreadRunnable
 >
 workerRunnable
 =
@@ -2200,7 +2200,7 @@ TServiceWorkerTerminateWorkerOpArgs
 }
 RefPtr
 <
-WorkerRunnable
+WorkerThreadRunnable
 >
 ServiceWorkerOp
 :
@@ -2628,7 +2628,7 @@ default
 ;
 RefPtr
 <
-WorkerRunnable
+WorkerThreadRunnable
 >
 GetRunnable
 (

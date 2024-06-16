@@ -289,7 +289,7 @@ const
 virtual
 RefPtr
 <
-WorkerRunnable
+WorkerThreadRunnable
 >
 GetRunnable
 (

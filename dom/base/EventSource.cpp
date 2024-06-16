@@ -7871,7 +7871,7 @@ WorkerRunnableDispatcher
 final
 :
 public
-WorkerRunnable
+WorkerThreadRunnable
 {
 RefPtr
 <
@@ -7900,7 +7900,7 @@ nsIRunnable
 aEvent
 )
 :
-WorkerRunnable
+WorkerThreadRunnable
 (
 aWorkerPrivate
 "

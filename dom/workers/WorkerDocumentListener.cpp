@@ -280,7 +280,7 @@ VisibleRunnable
 final
 :
 public
-WorkerRunnable
+WorkerThreadRunnable
 {
 public
 :
@@ -293,7 +293,7 @@ bool
 aVisible
 )
 :
-WorkerRunnable
+WorkerThreadRunnable
 (
 aWorkerPrivate
 "

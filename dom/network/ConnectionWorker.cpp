@@ -470,7 +470,7 @@ NotifyRunnable
 final
 :
 public
-WorkerRunnable
+WorkerThreadRunnable
 {
 private
 :
@@ -510,7 +510,7 @@ uint32_t
 aDHCPGateway
 )
 :
-WorkerRunnable
+WorkerThreadRunnable
 (
 aWorkerPrivate
 "

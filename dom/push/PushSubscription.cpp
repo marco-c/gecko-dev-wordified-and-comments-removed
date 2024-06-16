@@ -248,7 +248,7 @@ UnsubscribeResultRunnable
 final
 :
 public
-WorkerRunnable
+WorkerThreadRunnable
 {
 public
 :
@@ -270,7 +270,7 @@ bool
 aSuccess
 )
 :
-WorkerRunnable
+WorkerThreadRunnable
 (
 aWorkerPrivate
 "

@@ -670,7 +670,7 @@ RestoreRunnable
 final
 :
 public
-WorkerRunnable
+WorkerThreadRunnable
 {
 public
 :
@@ -682,7 +682,7 @@ WorkerPrivate
 aWorkerPrivate
 )
 :
-WorkerRunnable
+WorkerThreadRunnable
 (
 aWorkerPrivate
 "

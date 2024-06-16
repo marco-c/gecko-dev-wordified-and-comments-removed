@@ -474,7 +474,7 @@ public
 dom
 :
 :
-WorkerRunnable
+WorkerThreadRunnable
 {
 friend
 class
@@ -535,7 +535,7 @@ aPromiseRetval
 nullptr
 )
 :
-WorkerRunnable
+WorkerThreadRunnable
 (
 aExtensionEventListener
 -
@@ -546,6 +546,9 @@ GetWorkerPrivate
 "
 ExtensionListenerCallWorkerRunnable
 "
+WorkerRunnable
+:
+:
 WorkerThread
 )
 mListener

@@ -12239,7 +12239,7 @@ WorkerRunnableDispatcher
 final
 :
 public
-WorkerRunnable
+WorkerThreadRunnable
 {
 RefPtr
 <
@@ -12264,7 +12264,7 @@ nsIRunnable
 aEvent
 )
 :
-WorkerRunnable
+WorkerThreadRunnable
 (
 aWorkerRef
 -
@@ -12275,6 +12275,9 @@ Private
 "
 WorkerRunnableDispatcher
 "
+WorkerRunnable
+:
+:
 WorkerThread
 )
 mWebSocketImpl

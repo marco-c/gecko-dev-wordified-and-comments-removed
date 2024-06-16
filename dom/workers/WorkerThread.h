@@ -90,13 +90,6 @@ WorkerRunnable
 class
 WorkerPrivate
 ;
-template
-<
-class
->
-class
-WorkerPrivateParent
-;
 namespace
 workerinternals
 {
@@ -117,13 +110,6 @@ RuntimeService
 friend
 class
 WorkerPrivate
-;
-friend
-class
-WorkerPrivateParent
-<
-WorkerPrivate
->
 ;
 WorkerThreadFriendKey
 (

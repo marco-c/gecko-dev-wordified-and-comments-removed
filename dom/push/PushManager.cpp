@@ -540,7 +540,7 @@ GetSubscriptionResultRunnable
 final
 :
 public
-WorkerRunnable
+WorkerThreadRunnable
 {
 public
 :
@@ -596,7 +596,7 @@ uint8_t
 aAppServerKey
 )
 :
-WorkerRunnable
+WorkerThreadRunnable
 (
 aWorkerPrivate
 "
@@ -1530,7 +1530,7 @@ PermissionResultRunnable
 final
 :
 public
-WorkerRunnable
+WorkerThreadRunnable
 {
 public
 :
@@ -1545,7 +1545,7 @@ PermissionState
 aState
 )
 :
-WorkerRunnable
+WorkerThreadRunnable
 (
 aProxy
 -

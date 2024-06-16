@@ -841,7 +841,7 @@ FontFaceSetWorkerRunnable
 final
 :
 public
-WorkerRunnable
+WorkerThreadRunnable
 {
 public
 :
@@ -864,7 +864,7 @@ void
 aFunc
 )
 :
-WorkerRunnable
+WorkerThreadRunnable
 (
 aWorkerPrivate
 "

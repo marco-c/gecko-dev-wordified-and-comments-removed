@@ -655,7 +655,7 @@ FlushWorkerRunnable
 final
 :
 public
-WorkerRunnable
+WorkerThreadRunnable
 {
 public
 :
@@ -669,7 +669,7 @@ OffscreenCanvasDisplayHelper
 aDisplayHelper
 )
 :
-WorkerRunnable
+WorkerThreadRunnable
 (
 aWorkerPrivate
 "

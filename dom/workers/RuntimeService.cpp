@@ -2831,7 +2831,7 @@ JSDispatchableRunnable
 final
 :
 public
-WorkerRunnable
+WorkerThreadRunnable
 {
 JS
 :
@@ -2903,7 +2903,7 @@ Dispatchable
 aDispatchable
 )
 :
-WorkerRunnable
+WorkerThreadRunnable
 (
 aWorkerPrivate
 "
