@@ -7488,7 +7488,7 @@ aChildReflowInput
 )
 ;
 nsReflowStatus
-childReflowStatus
+childStatus
 ;
 const
 ReflowChildFlags
@@ -7534,7 +7534,7 @@ outerWM
 dummyPosition
 dummyContainerSize
 flags
-childReflowStatus
+childStatus
 )
 ;
 aItem
@@ -7545,7 +7545,7 @@ SetHadMeasuringReflow
 ;
 MOZ_ASSERT
 (
-childReflowStatus
+childStatus
 .
 IsComplete
 (
@@ -22672,7 +22672,7 @@ flexWM
 ;
 const
 nsReflowStatus
-childReflowStatus
+childStatus
 =
 ReflowFlexItem
 (
@@ -22843,7 +22843,7 @@ true
 else
 if
 (
-childReflowStatus
+childStatus
 .
 IsIncomplete
 (
@@ -22865,7 +22865,7 @@ Frame
 else
 if
 (
-childReflowStatus
+childStatus
 .
 IsOverflowIncomplete
 (
@@ -25137,7 +25137,7 @@ childReflowInput
 )
 ;
 nsReflowStatus
-childReflowStatus
+childStatus
 ;
 WritingMode
 outerWM
@@ -25167,7 +25167,7 @@ ReflowChildFlags
 :
 :
 Default
-childReflowStatus
+childStatus
 )
 ;
 FinishReflowChild
@@ -25276,7 +25276,7 @@ cached
 ;
 }
 return
-childReflowStatus
+childStatus
 ;
 }
 void
@@ -25381,7 +25381,7 @@ outerWM
 )
 ;
 nsReflowStatus
-childReflowStatus
+childStatus
 ;
 ReflowChild
 (
@@ -25398,7 +25398,7 @@ ReflowChildFlags
 :
 :
 Default
-childReflowStatus
+childStatus
 )
 ;
 FinishReflowChild
