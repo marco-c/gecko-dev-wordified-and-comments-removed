@@ -49,10 +49,15 @@ sys
 from
 mozbuild
 .
+lock
+import
+lock_file
+from
+mozbuild
+.
 util
 import
 ensureParentDir
-lock_file
 def
 addEntriesToListFile
 (

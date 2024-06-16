@@ -9,7 +9,7 @@ six
 from
 mozbuild
 .
-util
+lock
 import
 lock_file
 class
