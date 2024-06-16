@@ -5853,7 +5853,9 @@ STATE_DOWNLOADING
 ?
 gUpdateManager
 .
-downloadingUpdate
+getDownloadingUpdate
+(
+)
 :
 gUpdateManager
 .
