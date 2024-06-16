@@ -495,7 +495,7 @@ name
 }
 )
 :
-ULong
+Int
 {
 val
 builtinValue

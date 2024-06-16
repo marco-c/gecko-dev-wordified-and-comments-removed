@@ -99,12 +99,12 @@ inner_type_name
 >
 )
 :
-ULong
+Int
 {
 val
 sizeForLength
 =
-4UL
+4
 val
 sizeForItems
 =
@@ -160,10 +160,6 @@ value
 size
 )
 value
-.
-iterator
-(
-)
 .
 forEach
 {

@@ -32,9 +32,6 @@ entry
 TodoEntry
 .
 new
-(
-text
-:
 '
 Write
 bindings
@@ -43,7 +40,6 @@ strings
 in
 records
 '
-)
 todo
 .
 add_item
@@ -173,8 +169,6 @@ TodoEntry
 .
 new
 (
-text
-:
 "
 Test
 nicode

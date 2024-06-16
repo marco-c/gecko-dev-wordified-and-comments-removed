@@ -2004,7 +2004,7 @@ UniFFIScaffolding
 .
 callSync
 (
-6
+4
 /
 /
 remote_settings
@@ -2143,7 +2143,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-7
+5
 /
 /
 remote_settings
@@ -2253,7 +2253,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-8
+6
 /
 /
 remote_settings
@@ -2387,7 +2387,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-9
+7
 /
 /
 remote_settings
@@ -2533,10 +2533,6 @@ instance
 }
 return
 ptr
-.
-clone
-(
-)
 ;
 }
 static

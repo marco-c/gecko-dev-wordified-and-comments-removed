@@ -495,10 +495,6 @@ instance
 }
 return
 ptr
-.
-clone
-(
-)
 ;
 }
 static

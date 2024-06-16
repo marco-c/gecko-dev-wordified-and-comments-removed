@@ -59,7 +59,6 @@ ffi_converter_traits
 ConvertError
 FfiConverter
 FfiConverterArc
-HandleAlloc
 Lift
 LiftRef
 LiftReturn
@@ -107,11 +106,11 @@ log
 ;
 pub
 use
-oneshot
+static_assertions
 ;
 pub
 use
-static_assertions
+once_cell
 ;
 }
 mod

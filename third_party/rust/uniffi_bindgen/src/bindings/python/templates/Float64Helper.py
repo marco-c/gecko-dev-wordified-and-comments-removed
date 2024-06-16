@@ -24,7 +24,7 @@ read_double
 staticmethod
     
 def
-write
+write_unchecked
 (
 value
 buf

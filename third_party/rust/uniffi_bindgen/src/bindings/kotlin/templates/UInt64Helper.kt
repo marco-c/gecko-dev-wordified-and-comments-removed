@@ -74,7 +74,7 @@ value
 ULong
 )
 =
-8UL
+8
 override
 fun
 write

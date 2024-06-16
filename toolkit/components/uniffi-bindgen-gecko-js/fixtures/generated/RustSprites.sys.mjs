@@ -1848,7 +1848,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-120
+110
 /
 /
 sprites
@@ -2041,7 +2041,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-121
+111
 /
 /
 sprites
@@ -2135,7 +2135,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-122
+112
 /
 /
 sprites
@@ -2254,7 +2254,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-123
+113
 /
 /
 sprites
@@ -2379,7 +2379,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-124
+114
 /
 /
 sprites
@@ -2525,10 +2525,6 @@ instance
 }
 return
 ptr
-.
-clone
-(
-)
 ;
 }
 static
@@ -3598,7 +3594,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-125
+115
 /
 /
 sprites

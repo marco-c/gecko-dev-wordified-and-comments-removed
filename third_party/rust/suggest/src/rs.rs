@@ -398,7 +398,6 @@ AmpMobile
 [
 derive
 (
-Copy
 Clone
 PartialEq
 PartialOrd

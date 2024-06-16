@@ -335,11 +335,6 @@ Window
 interface
 UniFFIPointer
 {
-UniFFIPointer
-clone
-(
-)
-;
 }
 ;
 /

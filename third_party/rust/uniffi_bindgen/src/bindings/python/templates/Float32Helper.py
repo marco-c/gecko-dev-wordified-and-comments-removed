@@ -24,7 +24,7 @@ read_float
 staticmethod
     
 def
-write
+write_unchecked
 (
 value
 buf

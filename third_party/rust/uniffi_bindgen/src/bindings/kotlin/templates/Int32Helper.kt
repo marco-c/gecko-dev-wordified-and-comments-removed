@@ -63,7 +63,7 @@ value
 Int
 )
 =
-4UL
+4
 override
 fun
 write

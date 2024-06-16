@@ -63,7 +63,7 @@ value
 Short
 )
 =
-2UL
+2
 override
 fun
 write
