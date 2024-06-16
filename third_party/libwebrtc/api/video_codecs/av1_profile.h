@@ -56,14 +56,6 @@ h
 namespace
 webrtc
 {
-extern
-RTC_EXPORT
-const
-char
-kAV1FmtpProfile
-[
-]
-;
 enum
 class
 AV1Profile
