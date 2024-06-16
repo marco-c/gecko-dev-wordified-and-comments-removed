@@ -996,17 +996,6 @@ load
 1
 .
 html
-pref
-(
-widget
-.
-windows
-.
-window_occlusion_tracking
-.
-enabled
-false
-)
 skip
 -
 if
@@ -1020,8 +1009,6 @@ load
 .
 html
 #
-Bug
-1819154
 wayland
 :
 bug
