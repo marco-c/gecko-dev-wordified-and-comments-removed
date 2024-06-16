@@ -69,7 +69,6 @@ eUXProgress
 eUXTab
 eUXTrackbar
 eUXCombobox
-eUXHeader
 eUXListview
 eUXMenu
 eUXNumClasses

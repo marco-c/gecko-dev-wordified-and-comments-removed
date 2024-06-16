@@ -341,15 +341,6 @@ Combobox
 "
 ;
 case
-eUXHeader
-:
-return
-L
-"
-Header
-"
-;
-case
 eUXListview
 :
 return

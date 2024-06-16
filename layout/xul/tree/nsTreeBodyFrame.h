@@ -1414,8 +1414,7 @@ nsCSSAnonBoxPseudoStaticAtom
 aChildElt
 )
 ;
-nsITheme
-*
+void
 GetTwistyRect
 (
 int32_t
