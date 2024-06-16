@@ -208,6 +208,8 @@ expectedType
 :
 "
 autofill
+-
+profile
 "
 expectedResultLength
 :
@@ -232,6 +234,8 @@ expectedType
 :
 "
 autofill
+-
+profile
 "
 expectedResultLength
 :
@@ -258,6 +262,8 @@ expectedType
 :
 "
 autofill
+-
+profile
 "
 expectedResultLength
 :
@@ -283,6 +289,8 @@ name
 expectedType
 :
 "
+autofill
+-
 insecureWarning
 "
 expectedResultLength
