@@ -361,6 +361,12 @@ tabItems
 {
 tabItems
 }
+.
+updatesPaused
+=
+{
+false
+}
 fxview
 -
 tab

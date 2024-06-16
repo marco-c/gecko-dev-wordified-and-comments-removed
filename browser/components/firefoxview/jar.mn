@@ -223,6 +223,17 @@ browser
 /
 firefoxview
 /
+search
+-
+helpers
+.
+mjs
+content
+/
+browser
+/
+firefoxview
+/
 fxview
 -
 search

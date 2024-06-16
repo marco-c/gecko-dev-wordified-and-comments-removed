@@ -179,6 +179,8 @@ content
 /
 firefoxview
 /
+search
+-
 helpers
 .
 mjs
