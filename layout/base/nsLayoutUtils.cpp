@@ -11578,6 +11578,15 @@ aAppearance
 StyleAppearance
 :
 :
+PasswordInput
+|
+|
+aAppearance
+=
+=
+StyleAppearance
+:
+:
 Button
 |
 |
