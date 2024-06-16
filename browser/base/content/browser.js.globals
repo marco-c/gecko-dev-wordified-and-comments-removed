@@ -114,9 +114,6 @@ openLocation
 gLastOpenDirectory
 "
 "
-BrowserOpenFileWindow
-"
-"
 BrowserCloseTabOrWindow
 "
 "

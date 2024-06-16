@@ -274,7 +274,9 @@ OpenFile
 oncommand
 =
 "
-BrowserOpenFileWindow
+BrowserCommands
+.
+openFileWindow
 (
 )
 ;
