@@ -244,6 +244,9 @@ HomeActivityTestRule
 .
 withDefaultSettingsOverrides
 (
+tabsTrayRewriteEnabled
+=
+true
 )
 )
 {
@@ -584,6 +587,9 @@ verifyJumpBackInShowAllButton
 }
 .
 clickJumpBackInShowAllButton
+(
+activityTestRule
+)
 {
 verifyExistingOpenTabs
 (
@@ -650,7 +656,10 @@ toString
 )
 }
 .
-openTabDrawer
+openComposeTabDrawer
+(
+activityTestRule
+)
 {
 closeTabWithTitle
 (
@@ -688,7 +697,10 @@ toString
 )
 }
 .
-openTabDrawer
+openComposeTabDrawer
+(
+activityTestRule
+)
 {
 closeTab
 (
