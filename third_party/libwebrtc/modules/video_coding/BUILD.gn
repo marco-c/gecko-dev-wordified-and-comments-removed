@@ -4574,17 +4574,6 @@ rate_control_settings
 /
 system_wrappers
 :
-field_trial
-"
-"
-.
-.
-/
-.
-.
-/
-system_wrappers
-:
 metrics
 "
 "
