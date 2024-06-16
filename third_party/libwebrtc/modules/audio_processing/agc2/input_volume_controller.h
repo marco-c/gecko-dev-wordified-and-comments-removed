@@ -125,7 +125,7 @@ clipped_wait_frames
 bool
 enable_clipping_predictor
 =
-false
+true
 ;
 int
 target_range_max_dbfs
