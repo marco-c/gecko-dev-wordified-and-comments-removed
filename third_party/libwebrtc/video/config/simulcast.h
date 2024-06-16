@@ -137,6 +137,11 @@ webrtc
 FieldTrialsView
 &
 trials
+webrtc
+:
+:
+VideoCodecType
+codec
 )
 ;
 std
@@ -172,6 +177,11 @@ webrtc
 FieldTrialsView
 &
 trials
+webrtc
+:
+:
+VideoCodecType
+codec
 )
 ;
 std

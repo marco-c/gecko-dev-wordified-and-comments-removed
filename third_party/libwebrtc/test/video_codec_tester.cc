@@ -8244,6 +8244,10 @@ kDefaultVideoMaxQpVpx
 false
 true
 field_trials
+webrtc
+:
+:
+kVideoCodecVP8
 )
 ;
 vc

@@ -1665,6 +1665,9 @@ is_screenshare_
 conference_mode_
 temporal_layers_supported
 trials_
+encoder_config
+.
+codec_type
 )
 ;
 if
