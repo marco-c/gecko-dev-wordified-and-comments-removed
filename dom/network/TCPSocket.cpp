@@ -344,14 +344,6 @@ sslerr
 .
 h
 "
-#
-define
-BUFFER_SIZE
-65536
-#
-define
-NETWORK_STATS_THRESHOLD
-65536
 using
 namespace
 mozilla
