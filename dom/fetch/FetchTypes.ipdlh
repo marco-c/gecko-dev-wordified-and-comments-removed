@@ -397,6 +397,9 @@ requestRedirect
 nsString
 integrity
 ;
+bool
+keepalive
+;
 nsCString
 fragment
 ;
