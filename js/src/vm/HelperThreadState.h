@@ -389,10 +389,6 @@ friend
 class
 AutoLockHelperThreadState
 ;
-friend
-class
-AutoUnlockHelperThreadState
-;
 public
 :
 static

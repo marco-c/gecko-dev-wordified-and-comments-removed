@@ -4620,9 +4620,6 @@ WaitingInterrupted
 )
 {
 UnlockGuard
-<
-Mutex
->
 unlock
 (
 locked
@@ -5041,9 +5038,6 @@ WaitingInterrupted
 ;
 {
 UnlockGuard
-<
-Mutex
->
 unlock
 (
 locked

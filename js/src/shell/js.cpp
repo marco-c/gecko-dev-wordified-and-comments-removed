@@ -24710,9 +24710,6 @@ Nothing
 ;
 {
 UnlockGuard
-<
-Mutex
->
 unlock
 (
 guard
