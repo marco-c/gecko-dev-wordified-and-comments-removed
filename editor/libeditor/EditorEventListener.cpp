@@ -2238,7 +2238,7 @@ rv
 ;
 }
 case
-eMouseClick
+ePointerClick
 :
 {
 WidgetMouseEvent
@@ -2278,7 +2278,7 @@ fallthrough
 ;
 }
 case
-eMouseAuxClick
+ePointerAuxClick
 :
 {
 WidgetMouseEvent

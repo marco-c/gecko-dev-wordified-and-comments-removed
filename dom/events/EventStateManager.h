@@ -2954,7 +2954,7 @@ event
 mMessage
 !
 =
-eMouseClick
+ePointerClick
 &
 &
 \
@@ -2978,7 +2978,7 @@ event
 mMessage
 !
 =
-eMouseAuxClick
+ePointerAuxClick
 )
 #
 endif

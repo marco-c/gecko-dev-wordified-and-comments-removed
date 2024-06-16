@@ -13796,7 +13796,7 @@ aEvent
 mMessage
 =
 =
-eMouseClick
+ePointerClick
 &
 &
 aEvent
@@ -14030,7 +14030,7 @@ aEvent
 mMessage
 =
 =
-eMouseClick
+ePointerClick
 &
 &
 !

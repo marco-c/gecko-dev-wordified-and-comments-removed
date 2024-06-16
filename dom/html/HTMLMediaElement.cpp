@@ -22221,7 +22221,7 @@ case
 eTouchStart
 :
 case
-eMouseClick
+ePointerClick
 :
 case
 eMouseDoubleClick

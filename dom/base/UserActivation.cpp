@@ -303,13 +303,13 @@ CanTreatAsUserInput
 )
 ;
 case
-eMouseClick
-:
-case
 eMouseDown
 :
 case
 eMouseUp
+:
+case
+ePointerClick
 :
 case
 ePointerDown

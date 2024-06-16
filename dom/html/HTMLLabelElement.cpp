@@ -499,7 +499,7 @@ LayoutDeviceIntPoint
 break
 ;
 case
-eMouseClick
+ePointerClick
 :
 if
 (

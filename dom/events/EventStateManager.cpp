@@ -3620,7 +3620,7 @@ eMouseDown
 aMessage
 =
 =
-eMouseAuxClick
+ePointerAuxClick
 |
 |
 aMessage
@@ -3632,7 +3632,7 @@ eMouseDoubleClick
 aMessage
 =
 =
-eMouseClick
+ePointerClick
 |
 |
 aMessage
@@ -26558,7 +26558,7 @@ InitAndDispatchClickEvent
 (
 aMouseUpEvent
 aStatus
-eMouseClick
+ePointerClick
 aPresShell
 aClickTarget
 currentTarget
@@ -26610,7 +26610,7 @@ InitAndDispatchClickEvent
 (
 aMouseUpEvent
 aStatus
-eMouseAuxClick
+ePointerAuxClick
 aPresShell
 aClickTarget
 currentTarget
@@ -26628,7 +26628,7 @@ rv
 Failed
 to
 dispatch
-eMouseAuxClick
+ePointerAuxClick
 "
 )
 ;
@@ -26732,7 +26732,7 @@ aMouseEvent
 mMessage
 =
 =
-eMouseAuxClick
+ePointerAuxClick
 &
 &
 aMouseEvent

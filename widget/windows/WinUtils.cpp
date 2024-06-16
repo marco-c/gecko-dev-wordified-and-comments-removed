@@ -3244,7 +3244,7 @@ eMouseUp
 aEventMessage
 =
 =
-eMouseAuxClick
+ePointerAuxClick
 |
 |
 aEventMessage

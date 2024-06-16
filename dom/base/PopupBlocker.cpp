@@ -1142,7 +1142,7 @@ openControlled
 break
 ;
 case
-eMouseClick
+ePointerClick
 :
 if
 (
@@ -1202,7 +1202,7 @@ aEvent
 mMessage
 =
 =
-eMouseAuxClick
+ePointerAuxClick
 )
 {
 if

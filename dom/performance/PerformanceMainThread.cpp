@@ -1451,7 +1451,7 @@ break
 ;
 }
 case
-eMouseClick
+ePointerClick
 :
 case
 eKeyDown

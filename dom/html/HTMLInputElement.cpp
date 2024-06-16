@@ -14314,7 +14314,7 @@ WidgetMouseEvent
 event
 (
 true
-eMouseClick
+ePointerClick
 nullptr
 WidgetMouseEvent
 :
@@ -18873,7 +18873,7 @@ break
 #
 endif
 case
-eMouseClick
+ePointerClick
 :
 {
 if

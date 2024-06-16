@@ -12563,7 +12563,7 @@ aSourceEvent
 IsTrusted
 (
 )
-eMouseClick
+ePointerClick
 aSourceEvent
 -
 >
@@ -16907,7 +16907,7 @@ mEvent
 mMessage
 !
 =
-eMouseClick
+ePointerClick
 )
 &
 &
@@ -17205,7 +17205,7 @@ mEvent
 mMessage
 =
 =
-eMouseAuxClick
+ePointerAuxClick
 |
 |
 aVisitor
@@ -17216,7 +17216,7 @@ mEvent
 mMessage
 =
 =
-eMouseClick
+ePointerClick
 "
 DispatchChromeOnlyLinkClickEvent
 supports
@@ -17445,10 +17445,10 @@ case
 eMouseDown
 :
 case
-eMouseClick
+ePointerClick
 :
 case
-eMouseAuxClick
+ePointerAuxClick
 :
 case
 eLegacyDOMActivate
@@ -17785,7 +17785,7 @@ false
 break
 ;
 case
-eMouseClick
+ePointerClick
 :
 {
 WidgetMouseEvent
@@ -17973,7 +17973,7 @@ break
 ;
 }
 case
-eMouseAuxClick
+ePointerAuxClick
 :
 {
 DispatchChromeOnlyLinkClickEvent

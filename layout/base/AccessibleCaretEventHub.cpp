@@ -1921,7 +1921,7 @@ aEvent
 mMessage
 =
 =
-eMouseClick
+ePointerClick
 |
 |
 aEvent

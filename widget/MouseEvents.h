@@ -591,7 +591,7 @@ return
 mMessage
 =
 =
-eMouseClick
+ePointerClick
 &
 &
 mButton

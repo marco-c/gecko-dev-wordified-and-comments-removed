@@ -6121,7 +6121,7 @@ aEvent
 mMessage
 =
 =
-eMouseClick
+ePointerClick
 )
 &
 &
@@ -6772,7 +6772,7 @@ aEvent
 mMessage
 =
 =
-eMouseClick
+ePointerClick
 )
 &
 &
@@ -6850,7 +6850,7 @@ mTimeStamp
 break
 ;
 case
-eMouseClick
+ePointerClick
 :
 {
 if

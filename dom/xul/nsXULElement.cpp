@@ -4922,7 +4922,7 @@ scrollcorner
 aMessage
 =
 =
-eMouseClick
+ePointerClick
 |
 |
 aMessage
@@ -4952,7 +4952,7 @@ eDragStart
 aMessage
 =
 =
-eMouseAuxClick
+ePointerAuxClick
 )
 )
 ;
@@ -5598,7 +5598,7 @@ WidgetMouseEvent
 eventClick
 (
 aIsTrustedEvent
-eMouseClick
+ePointerClick
 nullptr
 WidgetMouseEvent
 :

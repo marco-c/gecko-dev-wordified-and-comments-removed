@@ -392,12 +392,6 @@ mMessage
 )
 {
 case
-eMouseAuxClick
-:
-case
-eMouseClick
-:
-case
 eContextMenu
 :
 case
@@ -420,6 +414,12 @@ eMouseOver
 :
 case
 eMouseUp
+:
+case
+ePointerAuxClick
+:
+case
+ePointerClick
 :
 case
 ePointerOver
