@@ -285,7 +285,9 @@ alt
 let
 pageInfo
 =
-BrowserPageInfo
+BrowserCommands
+.
+pageInfo
 (
 browser
 .

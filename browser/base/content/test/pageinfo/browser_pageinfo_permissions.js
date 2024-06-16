@@ -89,7 +89,9 @@ function
 let
 pageInfo
 =
-BrowserPageInfo
+BrowserCommands
+.
+pageInfo
 (
 TEST_ORIGIN
 "
@@ -542,7 +544,9 @@ pageLoaded
 let
 pageInfo
 =
-BrowserPageInfo
+BrowserCommands
+.
+pageInfo
 (
 TEST_ORIGIN_CERT_ERROR
 "
@@ -873,7 +877,9 @@ pageLoaded
 let
 pageInfo
 =
-BrowserPageInfo
+BrowserCommands
+.
+pageInfo
 (
 LOW_TLS_VERSION
 "
@@ -1198,7 +1204,9 @@ function
 let
 pageInfo
 =
-BrowserPageInfo
+BrowserCommands
+.
+pageInfo
 (
 TEST_ORIGIN
 "

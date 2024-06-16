@@ -56,7 +56,9 @@ function
 let
 pageInfo
 =
-BrowserPageInfo
+BrowserCommands
+.
+pageInfo
 (
 gBrowser
 .
@@ -520,7 +522,9 @@ function
 let
 pageInfo
 =
-BrowserPageInfo
+BrowserCommands
+.
+pageInfo
 (
 gBrowser
 .

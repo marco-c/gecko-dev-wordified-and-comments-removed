@@ -408,7 +408,9 @@ loadPromise
 let
 pageInfo
 =
-BrowserPageInfo
+BrowserCommands
+.
+pageInfo
 (
 url
 "

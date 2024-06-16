@@ -1470,7 +1470,9 @@ pageinfo
 let
 pageInfo
 =
-BrowserPageInfo
+BrowserCommands
+.
+pageInfo
 (
 gBrowser
 .

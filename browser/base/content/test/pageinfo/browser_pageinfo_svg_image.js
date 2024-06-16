@@ -70,7 +70,9 @@ URI
 const
 pageInfo
 =
-BrowserPageInfo
+BrowserCommands
+.
+pageInfo
 (
 gBrowser
 .

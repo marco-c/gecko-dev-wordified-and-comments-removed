@@ -2045,7 +2045,9 @@ pageinfo
 let
 pageInfo
 =
-BrowserPageInfo
+BrowserCommands
+.
+pageInfo
 (
 gBrowser
 .
@@ -2489,7 +2491,9 @@ pageinfo
 let
 pageInfo
 =
-BrowserPageInfo
+BrowserCommands
+.
+pageInfo
 (
 gBrowser
 .
