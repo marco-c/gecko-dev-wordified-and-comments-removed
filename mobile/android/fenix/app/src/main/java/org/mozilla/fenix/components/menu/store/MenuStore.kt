@@ -199,6 +199,10 @@ AddBookmark
 is
 MenuAction
 .
+DeleteBrowsingDataAndQuit
+is
+MenuAction
+.
 Navigate
 -
 >
