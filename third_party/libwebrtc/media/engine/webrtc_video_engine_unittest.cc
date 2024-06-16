@@ -9224,10 +9224,7 @@ EXPECT_CALL
 (
 *
 decoder_factory
-CreateVideoDecoder
-(
-format
-)
+Create
 )
 .
 Times
