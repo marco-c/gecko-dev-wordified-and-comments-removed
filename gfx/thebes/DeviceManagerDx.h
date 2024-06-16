@@ -752,17 +752,6 @@ MOZ_REQUIRES
 mDeviceLock
 )
 ;
-std
-:
-:
-vector
-<
-DXGI_OUTPUT_DESC1
->
-GetOutputDescs
-(
-)
-;
 private
 :
 static
