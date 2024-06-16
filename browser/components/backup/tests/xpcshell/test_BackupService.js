@@ -514,13 +514,13 @@ equal
 backupsChildren
 .
 length
-2
+3
 "
 There
 should
 only
 be
-2
+3
 items
 in
 the
