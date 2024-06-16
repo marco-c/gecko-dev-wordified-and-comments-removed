@@ -179,7 +179,10 @@ WriteImageMetadata
 metadata
 &
 writer
-0
+LayerType
+:
+:
+Header
 &
 aux_out
 )
@@ -197,7 +200,10 @@ ReclaimAndCharge
 (
 &
 writer
-0
+LayerType
+:
+:
+Header
 &
 aux_out
 )
