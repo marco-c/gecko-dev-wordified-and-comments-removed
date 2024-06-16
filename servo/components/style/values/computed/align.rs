@@ -33,10 +33,8 @@ specified
 {
 AlignContent
 AlignItems
-AlignTracks
 ContentDistribution
 JustifyContent
-JustifyTracks
 SelfAlignment
 }
 ;

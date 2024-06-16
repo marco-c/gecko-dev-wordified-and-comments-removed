@@ -325,10 +325,8 @@ align
 {
 AlignContent
 AlignItems
-AlignTracks
 JustifyContent
 JustifyItems
-JustifyTracks
 SelfAlignment
 }
 ;

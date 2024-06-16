@@ -42,11 +42,6 @@ align
 self
 "
 "
-align
--
-tracks
-"
-"
 aspect
 -
 ratio
@@ -567,11 +562,6 @@ items
 justify
 -
 self
-"
-"
-justify
--
-tracks
 "
 "
 line

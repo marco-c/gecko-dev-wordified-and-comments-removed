@@ -246,7 +246,6 @@ align
 AlignContent
 AlignItems
 AlignSelf
-AlignTracks
 ContentDistribution
 }
 ;
@@ -273,7 +272,6 @@ align
 JustifyContent
 JustifyItems
 JustifySelf
-JustifyTracks
 SelfAlignment
 }
 ;
