@@ -2247,7 +2247,7 @@ rtp_packet
 .
 GetExtension
 <
-RtpDependencyDescriptorExtensionMandatory
+RtpDependencyDescriptorExtension
 >
 (
 &

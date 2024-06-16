@@ -252,7 +252,7 @@ Write
 ;
 }
 bool
-RtpDependencyDescriptorExtensionMandatory
+RtpDependencyDescriptorExtension
 :
 :
 Parse
