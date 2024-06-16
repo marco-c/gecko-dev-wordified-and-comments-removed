@@ -314,6 +314,13 @@ cpp
 "
 "
 MIR
+-
+wasm
+.
+cpp
+"
+"
+MIR
 .
 cpp
 "
