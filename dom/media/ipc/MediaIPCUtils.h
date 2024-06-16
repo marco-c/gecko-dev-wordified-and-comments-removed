@@ -62,17 +62,6 @@ include
 "
 mozilla
 /
-dom
-/
-WebGLIpdl
-.
-h
-"
-#
-include
-"
-mozilla
-/
 gfx
 /
 Rect
@@ -891,7 +880,7 @@ Mp3CodecSpecificData
 >
 :
 public
-ParamTraits_TiedFields
+PlainOldDataSerializer
 <
 mozilla
 :
