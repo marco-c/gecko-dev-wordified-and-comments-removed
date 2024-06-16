@@ -943,9 +943,7 @@ glean
 i32
 :
 :
-max_value
-(
-)
+MAX
 )
 ;
 assert_eq
@@ -954,9 +952,7 @@ assert_eq
 i32
 :
 :
-max_value
-(
-)
+MAX
 counter
 .
 get_value

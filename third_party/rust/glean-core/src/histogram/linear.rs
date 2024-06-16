@@ -835,9 +835,7 @@ accumulate
 u64
 :
 :
-max_value
-(
-)
+MAX
 )
 ;
 hist
@@ -847,9 +845,7 @@ accumulate
 u64
 :
 :
-max_value
-(
-)
+MAX
 )
 ;
 assert_eq
@@ -869,9 +865,7 @@ assert_eq
 u64
 :
 :
-max_value
-(
-)
+MAX
 hist
 .
 sum
