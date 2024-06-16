@@ -37,6 +37,16 @@ mjs
 class
 NetworkEventRecord
 {
+addCacheDetails
+(
+)
+{
+}
+addRawHeaders
+(
+)
+{
+}
 addRequestPostData
 (
 )
