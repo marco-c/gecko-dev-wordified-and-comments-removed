@@ -3629,7 +3629,7 @@ mServiceWorkersTestingInWindow
 ;
 }
 bool
-IsThirdPartyContextToTopWindow
+IsThirdPartyContext
 (
 )
 const
@@ -3637,7 +3637,7 @@ const
 return
 mLoadInfo
 .
-mIsThirdPartyContextToTopWindow
+mIsThirdPartyContext
 ;
 }
 bool
