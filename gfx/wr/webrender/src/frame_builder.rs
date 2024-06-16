@@ -2129,6 +2129,7 @@ mut
 frame_state
 &
 frame_context
+data_stores
 &
 mut
 scratch
