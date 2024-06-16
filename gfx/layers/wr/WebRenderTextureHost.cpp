@@ -366,6 +366,12 @@ WebRenderTextureHost
 :
 GetAsSurface
 (
+gfx
+:
+:
+DataSourceSurface
+*
+aSurface
 )
 {
 return
@@ -374,6 +380,7 @@ mWrappedTextureHost
 >
 GetAsSurface
 (
+aSurface
 )
 ;
 }
