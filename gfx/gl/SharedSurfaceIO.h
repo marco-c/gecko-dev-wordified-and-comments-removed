@@ -177,6 +177,17 @@ GLContext
 gl
 )
 ;
+bool
+SupportsCspaces
+(
+)
+const
+override
+{
+return
+true
+;
+}
 virtual
 UniquePtr
 <
