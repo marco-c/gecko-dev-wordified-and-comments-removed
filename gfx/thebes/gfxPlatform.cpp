@@ -19249,15 +19249,6 @@ StaticPrefs
 apz_allow_zooming
 (
 )
-&
-&
-!
-StaticPrefs
-:
-:
-apz_force_disable_desktop_zooming_scrollbars
-(
-)
 ;
 }
 bool
