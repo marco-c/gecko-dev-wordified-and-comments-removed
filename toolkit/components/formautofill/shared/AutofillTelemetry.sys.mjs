@@ -754,14 +754,9 @@ not_filled
 ;
 if
 (
-section
-.
-handler
-.
-getFilledStateByElement
-(
 element
-)
+.
+autofillState
 =
 =
 FIELD_STATES
