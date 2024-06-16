@@ -209,6 +209,8 @@ getSelectionRects
 text
 .
 length
++
+1
 0
 )
 )
@@ -230,6 +232,8 @@ getSelectionRects
 text
 .
 length
++
+1
 )
 )
 ;
@@ -249,9 +253,13 @@ getSelectionRects
 text
 .
 length
++
+1
 text
 .
 length
++
+1
 )
 )
 ;
