@@ -20,9 +20,6 @@ NativeFontHandle
 }
 ;
 use
-dwrote
-;
-use
 crate
 :
 :
