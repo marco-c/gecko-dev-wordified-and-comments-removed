@@ -612,6 +612,8 @@ createWebRTCEncoder
 [
 this
 &
+aEnv
+&
 aFormat
 ]
 (
@@ -733,11 +735,9 @@ encoder
 webrtc
 :
 :
-VP8Encoder
-:
-:
-Create
+CreateVp8Encoder
 (
+aEnv
 )
 ;
 break
@@ -756,11 +756,9 @@ encoder
 webrtc
 :
 :
-VP9Encoder
-:
-:
-Create
+CreateVp9Encoder
 (
+aEnv
 )
 ;
 break
