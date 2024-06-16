@@ -163,10 +163,6 @@ DoSendDBusCommandLine
 const
 char
 *
-aProgram
-const
-char
-*
 aProfile
 const
 char
