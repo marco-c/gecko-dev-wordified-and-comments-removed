@@ -137,7 +137,7 @@ include
 "
 cairo
 -
-win32
+dwrite
 .
 h
 "
@@ -4111,7 +4111,6 @@ nullptr
 return
 cairo_dwrite_font_face_create_for_dwrite_fontface
 (
-nullptr
 mFontFace
 )
 ;
@@ -4127,6 +4126,9 @@ cairo_scaled_font_t
 aFont
 )
 {
+#
+if
+0
 if
 (
 mGDIForced
@@ -4139,6 +4141,8 @@ true
 )
 ;
 }
+#
+endif
 }
 already_AddRefed
 <

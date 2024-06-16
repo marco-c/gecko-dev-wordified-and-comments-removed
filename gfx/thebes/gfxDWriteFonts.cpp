@@ -1219,6 +1219,9 @@ renderingMode
 )
 ;
 }
+#
+if
+0
 cairo_dwrite_set_cleartype_params
 (
 gamma
@@ -1228,6 +1231,8 @@ pixelGeometry
 renderingModePref
 )
 ;
+#
+endif
 }
 gfxFont
 *
