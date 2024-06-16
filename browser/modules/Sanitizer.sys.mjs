@@ -5969,6 +5969,12 @@ Ci
 .
 nsIClearDataService
 .
+CLEAR_EME
+|
+Ci
+.
+nsIClearDataService
+.
 CLEAR_AUTH_TOKENS
 |
 Ci
@@ -6019,6 +6025,12 @@ Ci
 nsIClearDataService
 .
 CLEAR_DOM_STORAGES
+|
+Ci
+.
+nsIClearDataService
+.
+CLEAR_EME
 |
 Ci
 .
