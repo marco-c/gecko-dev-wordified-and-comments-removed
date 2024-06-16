@@ -75,6 +75,12 @@ InlinableNative
 :
 uint16_t
 ;
+enum
+class
+TrampolineNative
+:
+uint16_t
+;
 }
 }
 class
@@ -687,6 +693,7 @@ Setter
 Method
 StaticMethod
 InlinableNative
+TrampolineNative
 IgnoresReturnValueNative
 OpTypeCount
 }
@@ -981,6 +988,15 @@ jit
 :
 InlinableNative
 inlinableNative
+;
+js
+:
+:
+jit
+:
+:
+TrampolineNative
+trampolineNative
 ;
 }
 ;

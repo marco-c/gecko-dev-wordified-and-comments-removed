@@ -98,6 +98,7 @@ Exit
 Bailout
 WasmToJSJit
 JSJitToWasm
+TrampolineNative
 }
 ;
 enum

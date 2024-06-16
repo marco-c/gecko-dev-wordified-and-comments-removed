@@ -7566,6 +7566,15 @@ prevFrameType
 FrameType
 :
 :
+TrampolineNative
+|
+|
+prevFrameType
+=
+=
+FrameType
+:
+:
 IonICCall
 |
 |
