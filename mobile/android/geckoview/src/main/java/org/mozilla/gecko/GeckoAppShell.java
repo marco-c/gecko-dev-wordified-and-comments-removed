@@ -6353,6 +6353,9 @@ GeckoBatteryManager
 .
 getCurrentInformation
 (
+getApplicationContext
+(
+)
 )
 ;
 }
