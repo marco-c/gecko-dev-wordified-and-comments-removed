@@ -1226,6 +1226,11 @@ aShow
 )
 override
 ;
+bool
+GetSupportsNativeFullscreen
+(
+)
+;
 void
 SetSupportsNativeFullscreen
 (
