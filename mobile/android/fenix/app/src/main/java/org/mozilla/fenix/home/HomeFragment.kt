@@ -4006,9 +4006,6 @@ operation
 =
 {
 }
-anchorView
-=
-snackbarAnchorView
 elevation
 =
 TOAST_ELEVATION
