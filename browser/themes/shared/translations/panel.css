@@ -1123,6 +1123,16 @@ resize
 :
 vertical
 ;
+color
+:
+inherit
+;
+background
+-
+color
+:
+transparent
+;
 &
 :
 disabled
