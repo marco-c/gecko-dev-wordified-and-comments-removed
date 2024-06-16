@@ -14653,6 +14653,9 @@ switch
 id
 )
 {
+#
+ifndef
+MOZ_WIDGET_ANDROID
 case
 JSMetric
 :
@@ -14722,6 +14725,8 @@ sample
 ;
 break
 ;
+#
+endif
 case
 JSMetric
 :
