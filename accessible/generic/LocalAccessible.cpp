@@ -6193,17 +6193,6 @@ forget
 (
 )
 ;
-nsEventShell
-:
-:
-GetEventAttributes
-(
-GetNode
-(
-)
-attributes
-)
-;
 nsAccUtils
 :
 :

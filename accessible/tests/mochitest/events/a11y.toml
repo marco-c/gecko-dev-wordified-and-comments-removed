@@ -131,13 +131,6 @@ html
 ]
 [
 "
-test_attrs
-.
-html
-"
-]
-[
-"
 test_bug1322593
 -
 2
