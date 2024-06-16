@@ -7117,7 +7117,6 @@ sMainThreadCapability
 ;
 }
 ;
-const
 nsDependentCSubstring
 RemoteTypePrefix
 (
