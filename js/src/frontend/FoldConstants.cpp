@@ -425,6 +425,17 @@ ParseNodeKind
 :
 ConstDecl
 :
+#
+ifdef
+ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
+case
+ParseNodeKind
+:
+:
+UsingDecl
+:
+#
+endif
 MOZ_ASSERT
 (
 node
