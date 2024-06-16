@@ -269,6 +269,14 @@ aReason
 )
 ;
 void
+ResolvePromise
+(
+MediaKeySystemAccess
+*
+aAccess
+)
+;
+void
 CancelTimer
 (
 )
