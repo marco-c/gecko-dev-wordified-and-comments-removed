@@ -33654,6 +33654,16 @@ if
 (
 secInfo
 .
+errorCodeString
+=
+=
+"
+SEC_ERROR_UNKNOWN_ISSUER
+"
+&
+&
+secInfo
+.
 serverCert
 &
 &
