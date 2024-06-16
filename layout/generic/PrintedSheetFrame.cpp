@@ -17,6 +17,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_print
 .
 h

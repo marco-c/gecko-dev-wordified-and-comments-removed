@@ -190,14 +190,14 @@ h
 #
 include
 "
-nsDOMNavigationTiming
+nsCSSFrameConstructor
 .
 h
 "
 #
 include
 "
-nsFrameManager
+nsDOMNavigationTiming
 .
 h
 "
@@ -1244,7 +1244,7 @@ GetRootFrame
 const
 {
 return
-mFrameManager
+mFrameConstructor
 -
 >
 GetRootFrame
@@ -6425,10 +6425,6 @@ RefPtr
 AccessibleCaretEventHub
 >
 mAccessibleCaretEventHub
-;
-nsFrameManager
-*
-mFrameManager
 ;
 WeakPtr
 <
