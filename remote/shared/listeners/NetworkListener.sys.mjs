@@ -413,6 +413,9 @@ lazy
 NetworkObserver
 (
 {
+earlyEvents
+:
+true
 ignoreChannelFunction
 :
 this
