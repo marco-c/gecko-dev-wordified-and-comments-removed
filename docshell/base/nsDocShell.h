@@ -3568,9 +3568,6 @@ mLoadType
 uint32_t
 mFailedLoadType
 ;
-MetaViewportOverride
-mMetaViewportOverride
-;
 mozilla
 :
 :
