@@ -3085,7 +3085,9 @@ VK_HOME
 oncommand
 =
 "
-BrowserHome
+BrowserCommands
+.
+home
 (
 )
 ;

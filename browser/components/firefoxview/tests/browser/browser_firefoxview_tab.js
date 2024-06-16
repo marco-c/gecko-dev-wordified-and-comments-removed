@@ -814,7 +814,9 @@ TabOpen
 ;
 win
 .
-BrowserHome
+BrowserCommands
+.
+home
 (
 )
 ;
@@ -823,7 +825,9 @@ info
 "
 Waiting
 for
-BrowserHome
+BrowserCommands
+.
+home
 (
 )
 to

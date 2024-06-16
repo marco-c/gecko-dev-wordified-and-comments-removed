@@ -2036,7 +2036,9 @@ promisePopupShown
 panel
 )
 ;
-BrowserHome
+BrowserCommands
+.
+home
 (
 )
 ;
@@ -2158,7 +2160,9 @@ start
 "
 )
 ;
-BrowserHome
+BrowserCommands
+.
+home
 (
 )
 ;
@@ -2270,7 +2274,9 @@ start
 "
 )
 ;
-BrowserHome
+BrowserCommands
+.
+home
 (
 )
 ;
@@ -2742,7 +2748,9 @@ start
 ;
 win
 .
-BrowserHome
+BrowserCommands
+.
+home
 (
 )
 ;
@@ -2992,7 +3000,9 @@ panel
 ;
 win
 .
-BrowserHome
+BrowserCommands
+.
+home
 (
 )
 ;

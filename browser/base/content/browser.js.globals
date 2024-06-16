@@ -108,9 +108,6 @@ BrowserStop
 kSkipCacheFlags
 "
 "
-BrowserHome
-"
-"
 loadOneOrMoreURIs
 "
 "

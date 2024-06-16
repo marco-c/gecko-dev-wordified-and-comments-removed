@@ -645,7 +645,9 @@ getTopWindow
 ;
 win
 .
-BrowserHome
+BrowserCommands
+.
+home
 (
 )
 ;
