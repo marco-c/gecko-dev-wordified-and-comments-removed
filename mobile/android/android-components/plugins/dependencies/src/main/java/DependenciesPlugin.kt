@@ -360,7 +360,7 @@ detekt
 .
 23
 .
-5
+6
 "
 const
 val
