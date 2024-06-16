@@ -53,6 +53,9 @@ MPL
 0
 /
 .
+MOZ_APP_VENDOR
+=
+Mozilla
 MOZ_APP_UA_NAME
 =
 Firefox
@@ -100,3 +103,16 @@ sh
 MOZ_RAW
 =
 1
+MOZ_APP_ID
+=
+{
+aa3c5121
+-
+dab2
+-
+40e2
+-
+81ca
+-
+7ea25febc110
+}
