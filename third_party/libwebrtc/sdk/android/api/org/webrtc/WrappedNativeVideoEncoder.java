@@ -13,14 +13,6 @@ VideoEncoder
 Override
 public
 abstract
-long
-createNativeVideoEncoder
-(
-)
-;
-Override
-public
-abstract
 boolean
 isHardwareEncoder
 (
