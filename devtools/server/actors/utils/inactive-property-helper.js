@@ -408,6 +408,13 @@ selection
 "
 :
 :
+target
+-
+text
+"
+"
+:
+:
 grammar
 -
 error
@@ -418,13 +425,6 @@ error
 spelling
 -
 error
-"
-"
-:
-:
-target
--
-text
 "
 ]
 ;
