@@ -379,6 +379,13 @@ js
 ]
 [
 "
+browser_isactiveintab
+.
+js
+"
+]
+[
+"
 browser_layers_unloaded_while_interruptingJS
 .
 js
