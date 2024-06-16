@@ -56,7 +56,7 @@ metrics
 "
 ]
 "
-application
+ping
 "
 false
 {
@@ -286,7 +286,7 @@ metrics
 "
 ]
 "
-application
+ping
 "
 false
 {
@@ -389,7 +389,7 @@ metrics
 "
 ]
 "
-application
+ping
 "
 false
 {

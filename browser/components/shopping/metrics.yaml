@@ -222,6 +222,10 @@ metrics
 telemetry_mirror
 :
 SHOPPING_NIMBUS_DISABLED
+no_lint
+:
+-
+GIFFT_NON_PING_LIFETIME
 component_opted_out
 :
 type
@@ -330,6 +334,10 @@ metrics
 telemetry_mirror
 :
 SHOPPING_COMPONENT_OPTED_OUT
+no_lint
+:
+-
+GIFFT_NON_PING_LIFETIME
 has_onboarded
 :
 type
@@ -437,6 +445,10 @@ metrics
 telemetry_mirror
 :
 SHOPPING_HAS_ONBOARDED
+no_lint
+:
+-
+GIFFT_NON_PING_LIFETIME
 disabled_ads
 :
 type
@@ -541,6 +553,10 @@ metrics
 telemetry_mirror
 :
 SHOPPING_DISABLED_ADS
+no_lint
+:
+-
+GIFFT_NON_PING_LIFETIME
 auto_open_user_disabled
 :
 type
@@ -649,6 +665,10 @@ metrics
 telemetry_mirror
 :
 SHOPPING_AUTO_OPEN_USER_DISABLED
+no_lint
+:
+-
+GIFFT_NON_PING_LIFETIME
 shopping
 :
 surface_displayed
