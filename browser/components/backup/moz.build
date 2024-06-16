@@ -82,6 +82,15 @@ mjs
 "
 resources
 /
+MiscDataBackupResource
+.
+sys
+.
+mjs
+"
+"
+resources
+/
 PlacesBackupResource
 .
 sys
