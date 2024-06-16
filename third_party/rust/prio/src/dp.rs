@@ -37,6 +37,10 @@ thiserror
 Error
 )
 ]
+#
+[
+non_exhaustive
+]
 pub
 enum
 DpError
