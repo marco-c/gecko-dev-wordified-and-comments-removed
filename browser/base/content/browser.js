@@ -11614,8 +11614,6 @@ event
 let
 where
 =
-BrowserUtils
-.
 whereToOpenLink
 (
 event
@@ -19813,7 +19811,6 @@ nsIBrowserDOMWindow
 .
 OPEN_NEWWINDOW
 :
-{
 var
 url
 =
@@ -19929,7 +19926,6 @@ ex
 }
 break
 ;
-}
 case
 Ci
 .
@@ -21838,7 +21834,6 @@ newtab
 :
 default
 :
-{
 let
 currentURI
 =
@@ -21928,7 +21923,6 @@ isVisible
 ;
 break
 ;
-}
 }
 }
 if
@@ -24017,8 +24011,6 @@ false
 var
 where
 =
-BrowserUtils
-.
 whereToOpenLink
 (
 event
@@ -24287,8 +24279,6 @@ clipboard
 let
 where
 =
-BrowserUtils
-.
 whereToOpenLink
 (
 event
@@ -30787,7 +30777,6 @@ case
 window
 "
 :
-{
 let
 otherWin
 =
@@ -30907,7 +30896,6 @@ finished
 ;
 break
 ;
-}
 case
 "
 tabshifted
@@ -35250,7 +35238,6 @@ case
 TabSelect
 "
 :
-{
 const
 selected
 =
@@ -35332,7 +35319,6 @@ normal
 ;
 break
 ;
-}
 case
 "
 TabClose

@@ -3220,7 +3220,9 @@ metaKey
 let
 openWhere
 =
-BrowserUtils
+target
+.
+ownerGlobal
 .
 whereToOpenLink
 (

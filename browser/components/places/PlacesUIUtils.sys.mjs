@@ -174,23 +174,6 @@ sys
 .
 mjs
 "
-BrowserUtils
-:
-"
-resource
-:
-/
-/
-gre
-/
-modules
-/
-BrowserUtils
-.
-sys
-.
-mjs
-"
 BrowserWindowTracker
 :
 "
@@ -2905,7 +2888,6 @@ case
 tags
 "
 :
-{
 const
 newTags
 =
@@ -3026,7 +3008,6 @@ removedTags
 }
 break
 ;
-}
 case
 "
 keyword
@@ -6049,9 +6030,7 @@ where
 =
 browserWindow
 ?
-lazy
-.
-BrowserUtils
+browserWindow
 .
 whereToOpenLink
 (
@@ -6648,9 +6627,7 @@ ownerGlobal
 let
 where
 =
-lazy
-.
-BrowserUtils
+window
 .
 whereToOpenLink
 (
@@ -10638,7 +10615,6 @@ case
 placesCmd_copy
 "
 :
-{
 /
 /
 This
@@ -10921,7 +10897,6 @@ kGlobalClipboard
 ;
 break
 ;
-}
 case
 "
 placesCmd_open
