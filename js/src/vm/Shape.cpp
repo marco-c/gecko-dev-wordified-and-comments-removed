@@ -5447,6 +5447,7 @@ watchFreezeOrSeal
 (
 cx
 obj
+level
 )
 )
 {
