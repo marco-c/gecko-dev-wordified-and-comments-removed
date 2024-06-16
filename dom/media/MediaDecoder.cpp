@@ -5180,6 +5180,8 @@ mStateMachine
 .
 mTotalBufferingTimeMs
 flags
+*
+mInfo
 )
 ;
 }

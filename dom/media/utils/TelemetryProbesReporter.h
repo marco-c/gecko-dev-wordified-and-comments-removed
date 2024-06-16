@@ -324,6 +324,10 @@ aTotalBufferingTime
 const
 FirstFrameLoadedFlagSet
 aFlags
+const
+MediaInfo
+&
+aInfo
 )
 ;
 double
