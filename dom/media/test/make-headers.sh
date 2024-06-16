@@ -131,9 +131,6 @@ ls
 ogg
 *
 .
-ogv
-*
-.
 webm
 *
 .
@@ -157,12 +154,6 @@ f
 *
 .
 ogg
-^
-headers
-^
-*
-.
-ogv
 ^
 headers
 ^

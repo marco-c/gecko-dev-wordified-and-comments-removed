@@ -86,9 +86,9 @@ media
 /
 test
 /
-seek
+vp9
 .
-ogv
+webm
 "
 ;
 var
@@ -195,7 +195,7 @@ Type
 "
 video
 /
-ogg
+webm
 "
 false
 )
