@@ -94,6 +94,12 @@ exclude
 -
 .
 gitattributes
+patches
+:
+-
+agent_improvements
+.
+patch
 updatebot
 :
 maintainer
