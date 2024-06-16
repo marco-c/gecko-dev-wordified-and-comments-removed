@@ -692,7 +692,7 @@ CalendarRecord
 calendar
 TemporalUnit
 largestUnit
-Duration
+NormalizedDuration
 *
 result
 )
@@ -730,7 +730,7 @@ PlainObject
 *
 >
 options
-Duration
+NormalizedDuration
 *
 result
 )
