@@ -409,7 +409,7 @@ Account
 accountState
 :
 AccountState
-onSignInButtonClick
+onClick
 :
 (
 )
@@ -452,7 +452,7 @@ BUTTON_SHAPE
 .
 clickable
 {
-onSignInButtonClick
+onClick
 (
 )
 }
@@ -871,7 +871,7 @@ null
 accountState
 =
 NotAuthenticated
-onSignInButtonClick
+onClick
 =
 {
 }
@@ -884,7 +884,7 @@ null
 accountState
 =
 AuthenticationProblem
-onSignInButtonClick
+onClick
 =
 {
 }
@@ -927,7 +927,7 @@ null
 accountState
 =
 Authenticated
-onSignInButtonClick
+onClick
 =
 {
 }
@@ -967,7 +967,7 @@ null
 accountState
 =
 Authenticated
-onSignInButtonClick
+onClick
 =
 {
 }
@@ -1002,7 +1002,7 @@ null
 accountState
 =
 Authenticated
-onSignInButtonClick
+onClick
 =
 {
 }

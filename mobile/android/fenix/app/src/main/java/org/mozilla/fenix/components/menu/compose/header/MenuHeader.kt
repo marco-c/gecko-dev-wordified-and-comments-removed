@@ -320,7 +320,7 @@ Account
 accountState
 :
 AccountState
-onSignInButtonClick
+onMozillaAccountButtonClick
 :
 (
 )
@@ -381,9 +381,9 @@ account
 accountState
 =
 accountState
-onSignInButtonClick
+onClick
 =
-onSignInButtonClick
+onMozillaAccountButtonClick
 modifier
 =
 Modifier
@@ -530,7 +530,7 @@ null
 accountState
 =
 NotAuthenticated
-onSignInButtonClick
+onMozillaAccountButtonClick
 =
 {
 }
@@ -589,7 +589,7 @@ null
 accountState
 =
 NotAuthenticated
-onSignInButtonClick
+onMozillaAccountButtonClick
 =
 {
 }
