@@ -152,6 +152,7 @@ lexer
 getCSSLexer
 (
 value
+true
 )
 ;
 while
@@ -186,18 +187,7 @@ tokenType
 =
 =
 "
-symbol
-"
-&
-&
-token
-.
-text
-=
-=
-=
-"
-;
+Semicolon
 "
 )
 {
