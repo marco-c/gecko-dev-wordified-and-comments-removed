@@ -1279,6 +1279,9 @@ body2
 action
 =
 {
+dismissCFR
+-
+>
 FirefoxTheme
 {
 Text
@@ -1305,11 +1308,14 @@ modifier
 Modifier
 .
 clickable
+{
+dismissCFR
 (
-onClick
-=
-onCFRClick
 )
+onCFRClick
+(
+)
+}
 style
 =
 FirefoxTheme

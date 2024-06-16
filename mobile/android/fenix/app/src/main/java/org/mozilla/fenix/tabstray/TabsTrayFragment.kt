@@ -1986,6 +1986,9 @@ NoExtras
 (
 )
 )
+onTabsTrayDismissed
+(
+)
 }
 onInactiveTabsCFRDismiss
 =
