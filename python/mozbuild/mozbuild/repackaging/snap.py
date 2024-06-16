@@ -103,20 +103,27 @@ repackage_snap
 (
     
 srcdir
+    
 objdir
+    
 snapdir
+    
 snapcraft
+    
 appname
+    
 branchname
 =
 "
 nightly
 "
+    
 arch
 =
 "
 amd64
 "
+    
 dry_run
 =
 False
