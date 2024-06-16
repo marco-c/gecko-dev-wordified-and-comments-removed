@@ -56,12 +56,6 @@ recursive_compare
 {
                 
 "
-context
-"
-:
-any_string
-                
-"
 origin
 "
 :
