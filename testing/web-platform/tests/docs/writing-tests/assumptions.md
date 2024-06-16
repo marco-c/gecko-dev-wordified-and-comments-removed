@@ -38,13 +38,14 @@ device
 The
 device
 has
-a
 viewport
-width
+dimensions
 of
 at
 least
 800px
+by
+600px
 .
 *
 The
