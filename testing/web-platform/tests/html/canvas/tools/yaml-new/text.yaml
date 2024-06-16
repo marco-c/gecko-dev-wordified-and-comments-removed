@@ -1912,8 +1912,11 @@ variant
 -
 definition
 -
-_HtmlCanvas
+HtmlCanvas
 :
+append_variants_to_name
+:
+false
 canvas_types
 :
 [
@@ -1932,8 +1935,11 @@ fonts
 .
 ready
 ;
-_OffscreenCanvas
+OffscreenCanvas
 :
+append_variants_to_name
+:
+false
 canvas_types
 :
 [

@@ -3878,25 +3878,19 @@ variant_name_list
 [
 ]
         
-should_append_variant_names
-=
-original_test
-.
-get
-(
-            
-'
-append_variants_to_name
-'
-True
-)
-        
 for
 variant_name
 variant_params
 in
 current_selection
 :
+            
+test
+.
+update
+(
+variant_params
+)
             
 variant_name_list
 .
@@ -3906,19 +3900,14 @@ variant_name
 )
             
 if
-(
-should_append_variant_names
-                    
-and
-not
-variant_name
+test
 .
-startswith
+get
 (
 '
-_
+append_variants_to_name
 '
-)
+True
 )
 :
                 
@@ -3935,13 +3924,6 @@ name
 '
 +
 variant_name
-            
-test
-.
-update
-(
-variant_params
-)
         
 test
 .
