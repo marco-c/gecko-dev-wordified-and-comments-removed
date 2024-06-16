@@ -794,7 +794,7 @@ iconActionSecondary
 =
 PhotonColors
 .
-DarkGrey90
+LightGrey05
 iconActionTertiary
 =
 PhotonColors
