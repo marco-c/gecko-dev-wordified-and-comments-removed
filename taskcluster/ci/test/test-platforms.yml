@@ -340,8 +340,6 @@ tests
 -
 backlog
 -
-webgpu
--
 talos
 -
 browsertime
@@ -395,8 +393,6 @@ tests
 -
 backlog
 -
-webgpu
--
 talos
 -
 talos
@@ -462,8 +458,6 @@ web
 platform
 -
 tests
--
-webgpu
 linux1804
 -
 64
@@ -497,8 +491,6 @@ web
 platform
 -
 tests
--
-webgpu
 linux1804
 -
 64
@@ -532,8 +524,6 @@ web
 platform
 -
 tests
--
-webgpu
 linux1804
 -
 64
@@ -581,8 +571,6 @@ web
 platform
 -
 tests
--
-webgpu
 linux1804
 -
 64
@@ -622,8 +610,6 @@ web
 platform
 -
 tests
--
-webgpu
 linux1804
 -
 64
