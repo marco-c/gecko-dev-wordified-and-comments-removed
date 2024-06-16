@@ -3474,6 +3474,7 @@ WidgetType
 {
 constructor
 (
+line
 createElementNode
 )
 {
@@ -3485,7 +3486,14 @@ this
 .
 toDOM
 =
+(
+)
+=
+>
 createElementNode
+(
+line
+)
 ;
 }
 }
@@ -3633,6 +3641,9 @@ widget
 new
 LineContentWidget
 (
+line
+.
+number
 marker
 .
 createLineElementNode
