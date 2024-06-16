@@ -236,7 +236,6 @@ class
 DeviceFlag
 {
 isHardwareWebRenderInUse
-disableDeviceReuse
 }
 ;
 using
