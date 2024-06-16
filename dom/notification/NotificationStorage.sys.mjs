@@ -527,12 +527,6 @@ data
 notifications
 request
 .
-origin
-request
-.
-tag
-request
-.
 callback
 )
 ;
@@ -712,8 +706,6 @@ requestID
 returnNotifications
 (
 notifications
-origin
-tag
 callback
 )
 {
