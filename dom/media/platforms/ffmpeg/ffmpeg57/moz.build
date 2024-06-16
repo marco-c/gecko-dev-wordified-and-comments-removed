@@ -18,6 +18,14 @@ FFmpegDataDecoder
 .
 cpp
 '
+"
+.
+.
+/
+FFmpegDataEncoder
+.
+cpp
+"
 '
 .
 .

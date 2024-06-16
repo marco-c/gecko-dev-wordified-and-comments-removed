@@ -253,7 +253,12 @@ FFMPEG_LOGV
 \
 MOZ_LOG
 (
+mVideoCodec
+?
 sFFmpegVideoLog
+:
+sFFmpegAudioLog
+\
 mozilla
 :
 :
