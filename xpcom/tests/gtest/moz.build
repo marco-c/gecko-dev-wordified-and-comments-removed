@@ -308,6 +308,11 @@ TestThreadManager
 cpp
 "
 "
+TestThreadPoolIdleTimeout
+.
+cpp
+"
+"
 TestThreadPoolListener
 .
 cpp
