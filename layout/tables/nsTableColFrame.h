@@ -307,7 +307,7 @@ Count
 )
 const
 ;
-BCPixelSize
+nscoord
 GetIStartBorderWidth
 (
 )
@@ -317,7 +317,7 @@ return
 mIStartBorderWidth
 ;
 }
-BCPixelSize
+nscoord
 GetIEndBorderWidth
 (
 )
@@ -330,7 +330,7 @@ mIEndBorderWidth
 void
 SetIStartBorderWidth
 (
-BCPixelSize
+nscoord
 aWidth
 )
 {
@@ -342,7 +342,7 @@ aWidth
 void
 SetIEndBorderWidth
 (
-BCPixelSize
+nscoord
 aWidth
 )
 {
@@ -832,10 +832,10 @@ mFinalISize
 uint32_t
 mColIndex
 ;
-BCPixelSize
+nscoord
 mIStartBorderWidth
 ;
-BCPixelSize
+nscoord
 mIEndBorderWidth
 ;
 bool

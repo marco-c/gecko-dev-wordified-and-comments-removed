@@ -22,3 +22,10 @@ test_bug1832110
 html
 "
 ]
+[
+"
+test_bug1825384
+.
+html
+"
+]
