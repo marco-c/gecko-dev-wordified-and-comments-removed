@@ -2934,8 +2934,6 @@ mActiveIntersliceGCBudget
 ToMilliseconds
 (
 )
-/
-2
 1
 .
 0
