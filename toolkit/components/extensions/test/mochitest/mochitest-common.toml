@@ -298,6 +298,11 @@ file_with_xorigin_frame
 html
 "
 "
+file_with_same_origin_frame
+.
+html
+"
+"
 head
 .
 js
@@ -2022,6 +2027,13 @@ http2
 [
 "
 test_ext_scripting_executeScript_null_principal
+.
+html
+"
+]
+[
+"
+test_ext_scripting_executeScript_slow_frame
 .
 html
 "
