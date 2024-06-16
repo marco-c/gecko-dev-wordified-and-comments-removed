@@ -120,6 +120,7 @@ AnchorScope
 InsetArea
 InsetAreaKeyword
 PositionAnchor
+PositionTryOrder
 PositionVisibility
 }
 ;
