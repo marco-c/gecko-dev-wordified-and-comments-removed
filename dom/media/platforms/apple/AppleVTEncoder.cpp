@@ -3009,15 +3009,6 @@ aConfigurationChanges
 {
 return
 InvokeAsync
-<
-const
-RefPtr
-<
-const
-EncoderConfigurationChangeList
->
-&
->
 (
 mTaskQueue
 this
