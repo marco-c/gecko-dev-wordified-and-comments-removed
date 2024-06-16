@@ -23971,6 +23971,15 @@ MOZ_ALLOW_DOWNGRADE
 )
 )
 {
+#
+ifdef
+XP_MACOSX
+InitializeMacApp
+(
+)
+;
+#
+endif
 rv
 =
 CheckDowngrade
