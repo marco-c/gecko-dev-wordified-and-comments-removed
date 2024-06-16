@@ -171,6 +171,19 @@ bugzilla
 1892302
 )
 .
+-
+Removed
+deprecated
+[
+GeckoSession
+.
+requestAnalysisCreationStatus
+]
+[
+125
+.
+1
+]
 [
 127
 .
@@ -26277,4 +26290,4 @@ api
 version
 ]
 :
-bd57d2b224e3e875a711e88c4b4a927e07d9d890
+be4af9e6d4559d30c3f1e6bb6d64e58665ff01f9
