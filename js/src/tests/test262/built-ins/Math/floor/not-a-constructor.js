@@ -40,6 +40,16 @@ floor
 )
 ;
 }
+'
+new
+Math
+.
+floor
+(
+)
+throws
+TypeError
+'
 )
 ;
 reportCompare

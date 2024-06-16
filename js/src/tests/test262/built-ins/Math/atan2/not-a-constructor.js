@@ -40,6 +40,16 @@ atan2
 )
 ;
 }
+'
+new
+Math
+.
+atan2
+(
+)
+throws
+TypeError
+'
 )
 ;
 reportCompare

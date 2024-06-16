@@ -31,6 +31,16 @@ typedArray
 null
 ;
 }
+'
+typedArray
+[
+0
+]
+=
+null
+throws
+TypeError
+'
 )
 ;
 }

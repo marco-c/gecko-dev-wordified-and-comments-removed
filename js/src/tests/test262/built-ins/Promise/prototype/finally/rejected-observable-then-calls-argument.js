@@ -284,6 +284,14 @@ reject
 )
 ;
 }
+'
+new
+reject
+(
+)
+throws
+TypeError
+'
 )
 ;
 assert

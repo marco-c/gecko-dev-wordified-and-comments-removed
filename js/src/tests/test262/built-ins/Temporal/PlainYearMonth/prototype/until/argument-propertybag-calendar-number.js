@@ -4,10 +4,11 @@ instance
 new
 Temporal
 .
-PlainYearMonth
+PlainDate
 (
-2019
-6
+1976
+11
+18
 )
 ;
 const

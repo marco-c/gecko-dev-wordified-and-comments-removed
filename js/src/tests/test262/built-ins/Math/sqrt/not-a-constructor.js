@@ -40,6 +40,16 @@ sqrt
 )
 ;
 }
+'
+new
+Math
+.
+sqrt
+(
+)
+throws
+TypeError
+'
 )
 ;
 reportCompare

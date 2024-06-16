@@ -3,6 +3,10 @@ badResults
 =
 [
 [
+undefined
+TypeError
+]
+[
 null
 TypeError
 ]

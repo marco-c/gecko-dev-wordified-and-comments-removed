@@ -40,6 +40,16 @@ asin
 )
 ;
 }
+'
+new
+Math
+.
+asin
+(
+)
+throws
+TypeError
+'
 )
 ;
 reportCompare
