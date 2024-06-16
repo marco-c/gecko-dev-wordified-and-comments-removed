@@ -259,13 +259,11 @@ suggestImportCount
 ;
 registerCleanupFunction
 (
-async
 (
 )
 =
 >
 {
-await
 doExperimentCleanup
 (
 )

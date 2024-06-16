@@ -619,7 +619,6 @@ string
 )
 ;
 }
-await
 doExperimentCleanup
 (
 )

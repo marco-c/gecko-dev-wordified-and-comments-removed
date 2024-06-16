@@ -593,7 +593,6 @@ slug
 }
 )
 ;
-await
 doExperimentCleanup
 (
 )
@@ -834,7 +833,6 @@ branch
 }
 )
 ;
-await
 doCleanup
 (
 )

@@ -222,7 +222,6 @@ nimbus
 "
 )
 ;
-await
 cleanupExperiment
 (
 )
@@ -343,7 +342,6 @@ nimbus
 "
 )
 ;
-await
 cleanupExperiment
 (
 )

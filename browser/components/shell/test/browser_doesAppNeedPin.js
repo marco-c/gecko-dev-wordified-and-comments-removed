@@ -205,7 +205,6 @@ nimbus
 "
 )
 ;
-await
 doCleanup
 (
 )

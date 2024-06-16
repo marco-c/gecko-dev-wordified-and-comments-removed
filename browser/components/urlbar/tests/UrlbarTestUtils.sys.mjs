@@ -8703,7 +8703,6 @@ here
 .
 try
 {
-await
 doCleanup
 (
 )

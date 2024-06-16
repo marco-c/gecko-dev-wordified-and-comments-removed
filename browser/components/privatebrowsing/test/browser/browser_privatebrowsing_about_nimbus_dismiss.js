@@ -375,7 +375,6 @@ closeWindow
 win2
 )
 ;
-await
 doExperimentCleanup
 (
 )
@@ -786,7 +785,6 @@ closeWindow
 win2
 )
 ;
-await
 doExperimentCleanup
 (
 )

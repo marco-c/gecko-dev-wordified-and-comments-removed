@@ -745,7 +745,7 @@ createSandbox
 )
 ;
 const
-cleanupEnrollment
+doEnrollmentCleanup
 =
 await
 ExperimentFakes
@@ -840,8 +840,7 @@ args
 SURVEY
 )
 ;
-await
-cleanupEnrollment
+doEnrollmentCleanup
 (
 )
 ;
@@ -879,7 +878,7 @@ createSandbox
 )
 ;
 const
-cleanupEnrollment
+doEnrollmentCleanup
 =
 await
 ExperimentFakes
@@ -1092,8 +1091,7 @@ surveyVersion
 "
 )
 ;
-await
-cleanupEnrollment
+doEnrollmentCleanup
 (
 )
 ;

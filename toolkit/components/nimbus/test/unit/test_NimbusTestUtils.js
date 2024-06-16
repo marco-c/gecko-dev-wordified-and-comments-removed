@@ -161,12 +161,10 @@ onStartup
 (
 )
 ;
-let
-{
-enrollmentPromise
-doExperimentCleanup
-}
+const
+doEnrollmentCleanup
 =
+await
 ExperimentFakes
 .
 enrollmentHelper
@@ -176,9 +174,6 @@ recipe
 manager
 }
 )
-;
-await
-enrollmentPromise
 ;
 Assert
 .
@@ -254,8 +249,7 @@ set
 "
 )
 ;
-await
-doExperimentCleanup
+doEnrollmentCleanup
 (
 )
 ;
@@ -338,7 +332,7 @@ onStartup
 )
 ;
 let
-doExperimentCleanup
+doEnrollmentCleanup
 =
 await
 ExperimentFakes
@@ -384,8 +378,7 @@ successfully
 "
 )
 ;
-await
-doExperimentCleanup
+doEnrollmentCleanup
 (
 )
 ;

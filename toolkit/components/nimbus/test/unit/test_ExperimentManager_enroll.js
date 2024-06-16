@@ -2644,8 +2644,6 @@ experiment
 manager
 }
 )
-.
-enrollmentPromise
 ;
 await
 ExperimentFakes
@@ -2657,8 +2655,6 @@ rollout
 manager
 }
 )
-.
-enrollmentPromise
 ;
 Assert
 .
@@ -4501,11 +4497,9 @@ onStartup
 )
 ;
 const
-{
-enrollmentPromise
 doExperimentCleanup
-}
 =
+await
 ExperimentFakes
 .
 enrollmentHelper
@@ -4515,9 +4509,6 @@ recipe
 manager
 }
 )
-;
-await
-enrollmentPromise
 ;
 Assert
 .
@@ -4587,7 +4578,6 @@ value
 "
 )
 ;
-await
 doExperimentCleanup
 (
 )
@@ -4638,7 +4628,7 @@ onStartup
 )
 ;
 let
-rolloutCleanup
+doRolloutCleanup
 =
 await
 ExperimentFakes
@@ -4668,7 +4658,7 @@ true
 )
 ;
 let
-experimentCleanup
+doExperimentCleanup
 =
 await
 ExperimentFakes
@@ -4732,8 +4722,7 @@ enabled
 )
 )
 ;
-await
-experimentCleanup
+doExperimentCleanup
 (
 )
 ;
@@ -4777,8 +4766,7 @@ enabled
 )
 )
 ;
-await
-rolloutCleanup
+doRolloutCleanup
 (
 )
 ;

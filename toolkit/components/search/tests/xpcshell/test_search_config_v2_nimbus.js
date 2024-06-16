@@ -371,7 +371,6 @@ AppProvidedSearchEngine
 "
 )
 ;
-await
 doExperimentCleanup
 (
 )

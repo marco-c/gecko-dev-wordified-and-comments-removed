@@ -337,7 +337,6 @@ removeCurrentTab
 (
 )
 ;
-await
 doCleanup
 (
 )
@@ -462,7 +461,6 @@ removeCurrentTab
 (
 )
 ;
-await
 doCleanup
 (
 )
@@ -570,7 +568,6 @@ removeCurrentTab
 (
 )
 ;
-await
 doCleanup
 (
 )

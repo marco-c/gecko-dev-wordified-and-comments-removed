@@ -626,7 +626,6 @@ closeWindow
 win3
 )
 ;
-await
 doExperimentCleanup
 (
 )

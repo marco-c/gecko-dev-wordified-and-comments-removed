@@ -204,7 +204,6 @@ AW_STEP1
 ]
 )
 ;
-await
 doExperimentCleanup
 (
 )
@@ -1098,7 +1097,6 @@ nimbus_experiment
 1
 )
 ;
-await
 doExperimentCleanup
 (
 )
@@ -1299,7 +1297,6 @@ TEST_BACKDROP
 ]
 )
 ;
-await
 doExperimentCleanup
 (
 )
@@ -1672,7 +1669,6 @@ tab
 }
 )
 ;
-await
 doExperimentCleanup
 (
 )

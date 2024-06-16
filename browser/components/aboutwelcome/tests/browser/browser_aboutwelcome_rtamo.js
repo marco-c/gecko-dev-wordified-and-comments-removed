@@ -1289,7 +1289,6 @@ title
 ]
 )
 ;
-await
 doExperimentCleanup
 (
 )

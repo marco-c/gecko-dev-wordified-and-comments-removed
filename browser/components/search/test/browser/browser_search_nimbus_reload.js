@@ -261,7 +261,6 @@ value
 "
 )
 ;
-await
 doExperimentCleanup
 (
 )

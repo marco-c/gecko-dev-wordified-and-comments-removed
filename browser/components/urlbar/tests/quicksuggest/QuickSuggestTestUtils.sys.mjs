@@ -5621,7 +5621,6 @@ cleanup
 "
 )
 ;
-await
 doExperimentCleanup
 (
 )

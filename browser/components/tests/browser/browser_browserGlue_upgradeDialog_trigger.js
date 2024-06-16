@@ -333,7 +333,6 @@ disabled
 ]
 )
 ;
-await
 doCleanup
 (
 )

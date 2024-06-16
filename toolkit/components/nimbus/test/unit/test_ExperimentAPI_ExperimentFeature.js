@@ -1071,7 +1071,6 @@ restore
 (
 )
 ;
-await
 doExperimentCleanup
 (
 )
