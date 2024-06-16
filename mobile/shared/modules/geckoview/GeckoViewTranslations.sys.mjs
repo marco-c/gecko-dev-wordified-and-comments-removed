@@ -1844,7 +1844,12 @@ getRecordsForTranslatingToAndFromAppLanguage
 language
 .
 langTag
-false
+/
+*
+includePivotRecords
+*
+/
+true
 )
 .
 then
