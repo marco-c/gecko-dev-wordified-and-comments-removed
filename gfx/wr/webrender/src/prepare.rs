@@ -325,6 +325,7 @@ util
 {
 clamp_to_scale_factor
 pack_as_float
+ScaleOffset
 }
 ;
 use
@@ -4288,6 +4289,12 @@ WHITE
 &
 [
 ]
+ScaleOffset
+:
+:
+identity
+(
+)
 )
 ;
 if
