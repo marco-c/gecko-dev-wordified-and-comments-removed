@@ -699,6 +699,16 @@ dom
 .
 security
 .
+https_first
+"
+false
+]
+[
+"
+dom
+.
+security
+.
 https_first_schemeless
 "
 false
