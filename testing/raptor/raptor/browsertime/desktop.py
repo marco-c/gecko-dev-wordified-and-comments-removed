@@ -129,10 +129,6 @@ chrome
 "
             
 "
-chromium
-"
-            
-"
 custom
 -
 car

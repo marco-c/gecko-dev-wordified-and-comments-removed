@@ -2441,10 +2441,6 @@ chrome
 "
         
 "
-chromium
-"
-        
-"
 custom
 -
 car

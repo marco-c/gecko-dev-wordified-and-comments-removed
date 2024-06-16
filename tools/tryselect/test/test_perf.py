@@ -1810,12 +1810,6 @@ android
 p2
 geckoview
 "
-                
-"
-Benchmarks
-desktop
-chromium
-"
             
 ]
         
@@ -2032,12 +2026,6 @@ android
 -
 p2
 geckoview
-"
-                
-"
-Benchmarks
-desktop
-chromium
 "
                 
 "
@@ -2301,7 +2289,7 @@ chrome
 True
 }
             
-114
+90
             
 {
                 
@@ -2418,58 +2406,6 @@ safari
 m
 -
 car
-"
-                    
-]
-                
-}
-                
-"
-Benchmarks
-desktop
-chromium
-"
-:
-{
-                    
-"
-raptor
-"
-:
-[
-                        
-"
-'
-browsertime
-'
-benchmark
-"
-                        
-"
-!
-android
-'
-shippable
-!
--
-32
-!
-clang
-"
-                        
-"
-'
-chromium
-"
-                        
-"
-!
-bytecode
-"
-                        
-"
-!
-profil
 "
                     
 ]
@@ -2685,7 +2621,7 @@ chrome
 True
 }
             
-138
+118
             
 {
                 
@@ -2855,7 +2791,7 @@ profile
 True
 }
             
-176
+156
             
 {
                 
@@ -2987,13 +2923,6 @@ chrome
 Resource
 Usage
 android
-"
-                
-"
-Resource
-Usage
-windows
-chromium
 "
             
 ]
@@ -3170,13 +3099,6 @@ chrome
 Resource
 Usage
 android
-"
-                
-"
-Resource
-Usage
-windows
-chromium
 "
             
 ]

@@ -3501,19 +3501,6 @@ platform
 )
         
 if
-(
-            
-"
--
--
-app
-=
-chromium
-"
-in
-extra_options
-            
-or
 "
 -
 -
@@ -3525,7 +3512,6 @@ car
 "
 in
 extra_options
-            
 or
 "
 -
@@ -3540,8 +3526,6 @@ m
 "
 in
 extra_options
-        
-)
 :
             
 for

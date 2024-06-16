@@ -1508,10 +1508,6 @@ chrome
 "
             
 "
-chromium
-"
-            
-"
 refbrow
 "
             

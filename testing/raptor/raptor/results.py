@@ -118,9 +118,6 @@ NON_FIREFOX_BROWSERS
 chrome
 "
 "
-chromium
-"
-"
 custom
 -
 car

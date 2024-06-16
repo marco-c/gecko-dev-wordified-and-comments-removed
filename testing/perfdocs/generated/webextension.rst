@@ -398,8 +398,6 @@ on
 Firefox
 /
 Chrome
-/
-Chromium
 desktop
 :
 *
@@ -686,8 +684,6 @@ on
 Firefox
 /
 Chrome
-/
-Chromium
 desktop
 :
 *

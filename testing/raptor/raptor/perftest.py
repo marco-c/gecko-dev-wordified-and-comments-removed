@@ -836,10 +836,6 @@ m
 "
             
 "
-chromium
-"
-            
-"
 custom
 -
 car
@@ -5111,6 +5107,11 @@ Chrome
         
 and
 Chromium
+as
+Release
+(
+CaR
+)
 .
 Also
 add
@@ -5122,9 +5123,9 @@ to
 turn
 on
 the
+        
 proxy
 and
-        
 ignore
 security
 certificate
