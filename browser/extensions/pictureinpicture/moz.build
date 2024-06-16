@@ -277,6 +277,15 @@ video
 -
 wrappers
 /
+jwplayerWrapper
+.
+js
+"
+"
+video
+-
+wrappers
+/
 mock
 -
 wrapper
