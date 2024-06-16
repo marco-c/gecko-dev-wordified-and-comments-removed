@@ -267,11 +267,11 @@ NS_OK
 MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
-MouseClick
+PointerClick
 (
 WidgetMouseEvent
 *
-aMouseClickEvent
+aPointerClick
 )
 ;
 MOZ_CAN_RUN_SCRIPT

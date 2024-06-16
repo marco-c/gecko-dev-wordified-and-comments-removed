@@ -3026,7 +3026,7 @@ AsXULButton
 {
 if
 (
-MouseClicked
+OnPointerClicked
 (
 *
 keyEvent
@@ -3154,7 +3154,7 @@ HOVER
 ;
 if
 (
-MouseClicked
+OnPointerClicked
 (
 *
 keyEvent
@@ -3200,7 +3200,7 @@ IsLeftClickEvent
 {
 if
 (
-MouseClicked
+OnPointerClicked
 (
 *
 mouseEvent
@@ -3331,7 +3331,7 @@ bool
 XULButtonElement
 :
 :
-MouseClicked
+OnPointerClicked
 (
 WidgetGUIEvent
 &

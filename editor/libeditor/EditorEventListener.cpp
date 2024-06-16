@@ -2328,7 +2328,7 @@ NS_OK
 nsresult
 rv
 =
-MouseClick
+PointerClick
 (
 widgetMouseEvent
 )
@@ -2343,7 +2343,7 @@ rv
 EditorEventListener
 :
 :
-MouseClick
+PointerClick
 (
 )
 failed
@@ -3315,11 +3315,11 @@ nsresult
 EditorEventListener
 :
 :
-MouseClick
+PointerClick
 (
 WidgetMouseEvent
 *
-aMouseClickEvent
+aPointerClickEvent
 )
 {
 if
@@ -3327,7 +3327,7 @@ if
 NS_WARN_IF
 (
 !
-aMouseClickEvent
+aPointerClickEvent
 )
 |
 |
@@ -3365,7 +3365,7 @@ editorBase
 >
 IsAcceptableInputEvent
 (
-aMouseClickEvent
+aPointerClickEvent
 )
 )
 {
@@ -3415,7 +3415,7 @@ OnClickInEditor
 presContext
 focusedElement
 *
-aMouseClickEvent
+aPointerClickEvent
 )
 ;
 if
@@ -3435,7 +3435,7 @@ if
 (
 DetachedFromEditorOrDefaultPrevented
 (
-aMouseClickEvent
+aPointerClickEvent
 )
 )
 {
@@ -3457,7 +3457,7 @@ NS_OK
 }
 if
 (
-aMouseClickEvent
+aPointerClickEvent
 -
 >
 mButton
@@ -3529,7 +3529,7 @@ NS_OK
 MOZ_ASSERT
 (
 !
-aMouseClickEvent
+aPointerClickEvent
 -
 >
 DefaultPrevented
@@ -3567,7 +3567,7 @@ esm
 HandleMiddleClickPaste
 (
 presShell
-aMouseClickEvent
+aPointerClickEvent
 &
 status
 editorBase
@@ -3600,7 +3600,7 @@ status
 nsEventStatus_eConsumeNoDefault
 )
 {
-aMouseClickEvent
+aPointerClickEvent
 -
 >
 PreventDefault

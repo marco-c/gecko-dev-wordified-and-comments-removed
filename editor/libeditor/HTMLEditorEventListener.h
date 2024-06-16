@@ -241,11 +241,11 @@ override
 MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
-MouseClick
+PointerClick
 (
 WidgetMouseEvent
 *
-aMouseClickEvent
+aPointerClickEvent
 )
 override
 ;
