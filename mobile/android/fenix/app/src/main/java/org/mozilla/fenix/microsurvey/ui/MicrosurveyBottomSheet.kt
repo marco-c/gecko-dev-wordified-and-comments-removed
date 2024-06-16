@@ -566,6 +566,17 @@ height
 dp
 )
 )
+if
+(
+isSubmitted
+)
+{
+MicrosurveyCompleted
+(
+)
+}
+else
+{
 MicroSurveyContent
 (
 question
@@ -588,6 +599,7 @@ selectedAnswer
 it
 }
 )
+}
 Spacer
 (
 modifier
