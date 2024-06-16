@@ -1215,7 +1215,7 @@ createChild
 (
 selectorContainer
 "
-span
+button
 "
 {
 class
@@ -1224,11 +1224,6 @@ class
 open
 -
 inspector
-"
-role
-:
-"
-button
 "
 title
 :
