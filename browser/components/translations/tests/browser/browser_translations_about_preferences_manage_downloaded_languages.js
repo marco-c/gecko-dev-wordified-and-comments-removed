@@ -144,7 +144,7 @@ translations
 -
 manage
 -
-install
+download
 -
 description
 "
@@ -861,7 +861,7 @@ manage
 -
 error
 -
-install
+download
 "
 document
 )
@@ -974,7 +974,7 @@ manage
 -
 error
 -
-install
+download
 "
 document
 )
@@ -1013,7 +1013,7 @@ manage
 -
 error
 -
-install
+download
 "
 document
 )

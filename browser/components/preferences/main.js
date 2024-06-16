@@ -5460,7 +5460,7 @@ manage
 -
 error
 -
-install
+download
 "
 error
 )
@@ -5638,7 +5638,7 @@ manage
 -
 error
 -
-install
+download
 "
 error
 )
@@ -5879,7 +5879,7 @@ manage
 -
 language
 -
-install
+download
 -
 button
 "
