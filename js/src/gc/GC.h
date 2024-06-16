@@ -491,6 +491,15 @@ semispaceNurseryEnabled
 JSGC_SEMISPACE_NURSERY_ENABLED
 true
 )
+\
+_
+(
+"
+generateMissingAllocSites
+"
+JSGC_GENERATE_MISSING_ALLOC_SITES
+true
+)
 extern
 bool
 GetGCParameterInfo
