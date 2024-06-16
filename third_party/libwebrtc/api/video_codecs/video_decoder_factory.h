@@ -138,6 +138,8 @@ SdpVideoFormat
 format
 )
 ;
+private
+:
 virtual
 std
 :
