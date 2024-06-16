@@ -841,13 +841,6 @@ js
 ]
 [
 "
-browser_close_other_panels
-.
-js
-"
-]
-[
-"
 browser_content_opener
 .
 js
