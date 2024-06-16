@@ -1737,6 +1737,9 @@ m1
 .
 generate_build_files
 (
+processes
+=
+1
 )
                     
 l
@@ -1794,6 +1797,9 @@ m2
 .
 generate_build_files
 (
+processes
+=
+1
 )
                     
 self
@@ -1815,6 +1821,9 @@ m2
 .
 generate_build_files
 (
+processes
+=
+1
 )
                     
 self
