@@ -104,6 +104,13 @@ GUID
 pguid
 )
 ;
+void
+CoTaskMemFree
+(
+LPVOID
+pv
+)
+;
 }
 #
 endif
