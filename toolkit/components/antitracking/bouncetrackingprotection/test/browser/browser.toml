@@ -81,6 +81,13 @@ js
 ]
 [
 "
+browser_bouncetracking_popup
+.
+js
+"
+]
+[
+"
 browser_bouncetracking_purge
 .
 js
