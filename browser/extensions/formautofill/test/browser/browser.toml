@@ -157,13 +157,6 @@ js
 ]
 [
 "
-browser_cancel_attribute_change_task
-.
-js
-"
-]
-[
-"
 browser_check_installed
 .
 js
