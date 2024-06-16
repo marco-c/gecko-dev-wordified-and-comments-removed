@@ -407,3 +407,10 @@ test_supports
 html
 "
 ]
+[
+"
+test_valueMatchesSyntax
+.
+html
+"
+]

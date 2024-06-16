@@ -799,6 +799,17 @@ Document
 document
 )
 ;
+boolean
+valueMatchesSyntax
+(
+Document
+document
+UTF8String
+value
+UTF8String
+syntax
+)
+;
 /
 /
 Get
