@@ -220,12 +220,6 @@ msd
 ;
 MOZ_ASSERT
 (
-0
-<
-=
-msdLeadingZeroes
-&
-&
 msdLeadingZeroes
 <
 =
