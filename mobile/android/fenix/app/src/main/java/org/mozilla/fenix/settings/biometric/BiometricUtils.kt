@@ -473,7 +473,7 @@ R
 .
 string
 .
-logins_biometric_prompt_message
+logins_biometric_prompt_message_2
 )
 )
 onShowPinVerification
