@@ -13421,8 +13421,13 @@ new_notification_store
 milestone
 )
 :
+if
+milestone
+.
+is_nightly
+:
 return
-False
+True
 set_config
 (
 "
