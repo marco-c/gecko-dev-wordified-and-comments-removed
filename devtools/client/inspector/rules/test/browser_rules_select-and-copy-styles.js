@@ -1470,6 +1470,7 @@ expectedNested
 =
 html
 {
+&
 body
 {
 container
