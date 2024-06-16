@@ -2513,7 +2513,7 @@ android
 name
 =
 "
-webAppManifest
+webAppManifestUrl
 "
 app
 :

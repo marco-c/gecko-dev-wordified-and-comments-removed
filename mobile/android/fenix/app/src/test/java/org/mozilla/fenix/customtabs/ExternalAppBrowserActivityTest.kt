@@ -919,7 +919,7 @@ actionGlobalExternalAppBrowser
 activeSessionId
 =
 customTabSessionId
-webAppManifest
+webAppManifestUrl
 =
 null
 isSandboxCustomTab
@@ -1073,7 +1073,7 @@ actionGlobalExternalAppBrowser
 activeSessionId
 =
 customTabSessionId
-webAppManifest
+webAppManifestUrl
 =
 null
 isSandboxCustomTab
