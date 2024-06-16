@@ -374,6 +374,13 @@ html
 ]
 [
 "
+test_replaceBlockRuleBodyTextInStylesheet
+.
+html
+"
+]
+[
+"
 test_rgba_to_color_name
 .
 html
