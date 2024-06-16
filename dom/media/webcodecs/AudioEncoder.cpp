@@ -1201,7 +1201,8 @@ ToEncoderConfig
 )
 const
 {
-MediaDataEncoder
+const
+mozilla
 :
 :
 BitrateMode
@@ -1221,7 +1222,7 @@ BitrateMode
 :
 Constant
 ?
-MediaDataEncoder
+mozilla
 :
 :
 BitrateMode
@@ -1229,7 +1230,7 @@ BitrateMode
 :
 Constant
 :
-MediaDataEncoder
+mozilla
 :
 :
 BitrateMode

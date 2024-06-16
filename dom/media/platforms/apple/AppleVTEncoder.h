@@ -78,9 +78,6 @@ aConfig
 mHardwarePreference
 =
 =
-MediaDataEncoder
-:
-:
 HardwarePreference
 :
 :

@@ -3097,7 +3097,7 @@ BitrateModeChange
 )
 )
 {
-MediaDataEncoder
+mozilla
 :
 :
 BitrateMode
@@ -3133,7 +3133,7 @@ Constant
 {
 mode
 =
-MediaDataEncoder
+mozilla
 :
 :
 BitrateMode
@@ -3170,7 +3170,7 @@ Variable
 {
 mode
 =
-MediaDataEncoder
+mozilla
 :
 :
 BitrateMode
@@ -3183,7 +3183,7 @@ else
 {
 mode
 =
-MediaDataEncoder
+mozilla
 :
 :
 BitrateMode
@@ -3220,9 +3220,6 @@ LatencyModeChange
 )
 )
 {
-MediaDataEncoder
-:
-:
 Usage
 usage
 ;
@@ -3253,9 +3250,6 @@ Quality
 {
 usage
 =
-MediaDataEncoder
-:
-:
 Usage
 :
 :
@@ -3266,9 +3260,6 @@ else
 {
 usage
 =
-MediaDataEncoder
-:
-:
 Usage
 :
 :
