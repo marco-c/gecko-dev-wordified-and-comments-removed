@@ -103,7 +103,7 @@ onChangeLanguage
 :
 SelectTranslationsTestUtils
 .
-assertPanelViewFailure
+assertPanelViewTranslationFailure
 }
 )
 ;
@@ -128,7 +128,7 @@ onChangeLanguage
 :
 SelectTranslationsTestUtils
 .
-assertPanelViewFailure
+assertPanelViewTranslationFailure
 }
 )
 ;
@@ -178,7 +178,7 @@ onChangeLanguage
 :
 SelectTranslationsTestUtils
 .
-assertPanelViewFailure
+assertPanelViewTranslationFailure
 }
 )
 ;
@@ -314,7 +314,7 @@ onChangeLanguage
 :
 SelectTranslationsTestUtils
 .
-assertPanelViewFailure
+assertPanelViewTranslationFailure
 }
 )
 ;
@@ -339,7 +339,7 @@ onChangeLanguage
 :
 SelectTranslationsTestUtils
 .
-assertPanelViewFailure
+assertPanelViewTranslationFailure
 }
 )
 ;
@@ -392,7 +392,7 @@ onChangeLanguage
 :
 SelectTranslationsTestUtils
 .
-assertPanelViewFailure
+assertPanelViewTranslationFailure
 }
 )
 ;

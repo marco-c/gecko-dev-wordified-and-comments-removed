@@ -540,6 +540,8 @@ string
 phase
 :
 "
+translation
+-
 failure
 "
 ;

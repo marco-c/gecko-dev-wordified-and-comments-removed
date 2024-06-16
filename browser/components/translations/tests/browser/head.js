@@ -7981,7 +7981,7 @@ complete
 /
 static
 async
-assertPanelViewFailure
+assertPanelViewTranslationFailure
 (
 )
 {
@@ -7991,6 +7991,8 @@ SelectTranslationsTestUtils
 waitForPanelState
 (
 "
+translation
+-
 failure
 "
 )

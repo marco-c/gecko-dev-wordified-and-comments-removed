@@ -117,7 +117,7 @@ viewAssertion
 :
 SelectTranslationsTestUtils
 .
-assertPanelViewFailure
+assertPanelViewTranslationFailure
 }
 )
 ;
@@ -134,7 +134,7 @@ viewAssertion
 :
 SelectTranslationsTestUtils
 .
-assertPanelViewFailure
+assertPanelViewTranslationFailure
 }
 )
 ;

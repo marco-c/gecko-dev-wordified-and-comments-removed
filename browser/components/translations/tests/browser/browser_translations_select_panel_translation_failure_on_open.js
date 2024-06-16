@@ -78,7 +78,7 @@ onOpenPanel
 :
 SelectTranslationsTestUtils
 .
-assertPanelViewFailure
+assertPanelViewTranslationFailure
 }
 )
 ;
@@ -213,7 +213,7 @@ onOpenPanel
 :
 SelectTranslationsTestUtils
 .
-assertPanelViewFailure
+assertPanelViewTranslationFailure
 }
 )
 ;
@@ -230,7 +230,7 @@ viewAssertion
 :
 SelectTranslationsTestUtils
 .
-assertPanelViewFailure
+assertPanelViewTranslationFailure
 }
 )
 ;
@@ -247,7 +247,7 @@ viewAssertion
 :
 SelectTranslationsTestUtils
 .
-assertPanelViewFailure
+assertPanelViewTranslationFailure
 }
 )
 ;
