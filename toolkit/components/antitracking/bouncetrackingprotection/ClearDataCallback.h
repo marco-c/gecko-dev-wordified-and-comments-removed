@@ -118,6 +118,13 @@ TimerId
 mClearDurationTimer
 ;
 void
+RecordPurgeCountTelemetry
+(
+bool
+aFailed
+)
+;
+void
 RecordURLClassifierTelemetry
 (
 )

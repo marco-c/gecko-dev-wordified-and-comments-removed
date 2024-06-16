@@ -151,3 +151,10 @@ browser_bouncetracking_initialize
 js
 "
 ]
+[
+"
+browser_bouncetracking_telemetry_purge_count
+.
+js
+"
+]
