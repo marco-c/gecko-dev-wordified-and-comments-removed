@@ -381,8 +381,5 @@ verifyTabCounter
 "
 )
 }
-checkExperimentExists
-(
-)
 }
 }
