@@ -1782,7 +1782,7 @@ FromNoResult
 NoContentAnalysisResult
 :
 :
-ERROR_OTHER
+DENY_DUE_TO_OTHER_ERROR
 )
 )
 ;
@@ -1955,8 +1955,21 @@ Err
 NoContentAnalysisResult
 :
 :
-ERROR_OTHER
+DENY_DUE_TO_OTHER_ERROR
 )
+;
+}
+if
+(
+text
+.
+IsEmpty
+(
+)
+)
+{
+return
+true
 ;
 }
 RefPtr
@@ -2000,7 +2013,7 @@ Err
 NoContentAnalysisResult
 :
 :
-ERROR_OTHER
+DENY_DUE_TO_OTHER_ERROR
 )
 ;
 }
@@ -2072,7 +2085,7 @@ Err
 NoContentAnalysisResult
 :
 :
-ERROR_OTHER
+DENY_DUE_TO_OTHER_ERROR
 )
 ;
 }
@@ -2202,7 +2215,7 @@ Err
 NoContentAnalysisResult
 :
 :
-ERROR_OTHER
+DENY_DUE_TO_OTHER_ERROR
 )
 ;
 }
@@ -2267,7 +2280,7 @@ Err
 NoContentAnalysisResult
 :
 :
-ERROR_OTHER
+DENY_DUE_TO_OTHER_ERROR
 )
 ;
 }
@@ -2338,7 +2351,7 @@ Err
 NoContentAnalysisResult
 :
 :
-ERROR_OTHER
+DENY_DUE_TO_OTHER_ERROR
 )
 ;
 }
@@ -2414,7 +2427,7 @@ FromNoResult
 NoContentAnalysisResult
 :
 :
-CONTEXT_EXEMPT_FROM_CONTENT_ANALYSIS
+ALLOW_DUE_TO_CONTEXT_EXEMPT_FROM_CONTENT_ANALYSIS
 )
 )
 ;
@@ -2459,7 +2472,7 @@ FromNoResult
 NoContentAnalysisResult
 :
 :
-ERROR_OTHER
+DENY_DUE_TO_OTHER_ERROR
 )
 )
 ;
@@ -2509,7 +2522,7 @@ FromNoResult
 NoContentAnalysisResult
 :
 :
-CONTENT_ANALYSIS_NOT_ACTIVE
+ALLOW_DUE_TO_CONTENT_ANALYSIS_NOT_ACTIVE
 )
 )
 ;
@@ -2584,7 +2597,7 @@ FromNoResult
 NoContentAnalysisResult
 :
 :
-ERROR_OTHER
+DENY_DUE_TO_OTHER_ERROR
 )
 )
 ;
@@ -2728,7 +2741,7 @@ FromNoResult
 NoContentAnalysisResult
 :
 :
-ERROR_COULD_NOT_GET_DATA
+ALLOW_DUE_TO_COULD_NOT_GET_DATA
 )
 )
 ;

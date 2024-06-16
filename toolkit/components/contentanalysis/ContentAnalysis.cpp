@@ -4252,7 +4252,7 @@ result
 NoContentAnalysisResult
 :
 :
-CANCELED
+DENY_DUE_TO_CANCELED
 ;
 }
 else
@@ -4266,7 +4266,7 @@ result
 NoContentAnalysisResult
 :
 :
-CONTENT_ANALYSIS_NOT_ACTIVE
+ALLOW_DUE_TO_CONTENT_ANALYSIS_NOT_ACTIVE
 |
 |
 result
@@ -4275,7 +4275,7 @@ result
 NoContentAnalysisResult
 :
 :
-CONTEXT_EXEMPT_FROM_CONTENT_ANALYSIS
+ALLOW_DUE_TO_CONTEXT_EXEMPT_FROM_CONTENT_ANALYSIS
 |
 |
 result
@@ -4284,7 +4284,7 @@ result
 NoContentAnalysisResult
 :
 :
-ERROR_COULD_NOT_GET_DATA
+ALLOW_DUE_TO_COULD_NOT_GET_DATA
 ;
 }
 }
