@@ -997,8 +997,9 @@ nsWaylandDisplay
 nsWaylandDisplay
 (
 )
-{
-}
+=
+default
+;
 static
 void
 WlLogHandler
