@@ -599,6 +599,9 @@ BreakWithin
 BorderStyle
 "
 "
+BorderSpacing
+"
+"
 BoolInteger
 "
 "

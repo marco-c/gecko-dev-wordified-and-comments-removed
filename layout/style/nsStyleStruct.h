@@ -7440,11 +7440,11 @@ nsStyleTableBorder
 (
 )
 ;
-nscoord
-mBorderSpacingCol
-;
-nscoord
-mBorderSpacingRow
+mozilla
+:
+:
+StyleBorderSpacing
+mBorderSpacing
 ;
 mozilla
 :
