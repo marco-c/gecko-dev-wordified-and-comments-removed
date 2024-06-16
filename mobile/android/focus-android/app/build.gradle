@@ -1927,6 +1927,10 @@ androidx_cardview
 implementation
 ComponentsDependencies
 .
+androidx_collection
+implementation
+ComponentsDependencies
+.
 androidx_compose_ui
 implementation
 ComponentsDependencies
