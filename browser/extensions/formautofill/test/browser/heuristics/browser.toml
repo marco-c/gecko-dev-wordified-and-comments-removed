@@ -60,6 +60,13 @@ js
 ]
 [
 "
+browser_autofill_prefer_visible
+.
+js
+"
+]
+[
+"
 browser_basic
 .
 js
