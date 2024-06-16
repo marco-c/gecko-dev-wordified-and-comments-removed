@@ -385,7 +385,9 @@ Accessible
 *
 aTarget
 uint64_t
+aState
 bool
+aEnabled
 )
 {
 MsaaAccessible
@@ -398,6 +400,16 @@ nsIAccessibleEvent
 :
 :
 EVENT_STATE_CHANGE
+)
+;
+uiaRawElmProvider
+:
+:
+RaiseUiaEventForStateChange
+(
+aTarget
+aState
+aEnabled
 )
 ;
 }
