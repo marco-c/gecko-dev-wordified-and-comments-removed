@@ -245,7 +245,7 @@ b
 -
 linux
 -
-large
+medium
 -
 gcp
 "
