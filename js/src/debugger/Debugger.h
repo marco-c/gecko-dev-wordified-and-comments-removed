@@ -2520,6 +2520,9 @@ inspectNativeCallArguments
 bool
 collectCoverageInfo
 ;
+bool
+shouldAvoidSideEffects
+;
 template
 <
 typename
