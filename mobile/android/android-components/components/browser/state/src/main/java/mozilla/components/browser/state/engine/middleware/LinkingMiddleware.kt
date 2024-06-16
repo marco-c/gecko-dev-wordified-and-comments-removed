@@ -358,12 +358,6 @@ engineSession
 action
 .
 tab
-skipLoading
-=
-true
-includeParent
-=
-false
 )
 }
 }
@@ -478,9 +472,6 @@ tab
 action
 .
 skipLoading
-action
-.
-includeParent
 )
 }
 }
@@ -554,9 +545,6 @@ skipLoading
 Boolean
 =
 true
-includeParent
-:
-Boolean
 )
 :
 Pair
@@ -684,9 +672,6 @@ parentEngineSession
 =
 if
 (
-includeParent
-&
-&
 tab
 is
 TabSessionState

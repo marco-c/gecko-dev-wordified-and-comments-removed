@@ -540,9 +540,6 @@ store
 action
 .
 tabId
-action
-.
-includeParent
 )
 action
 .
@@ -588,9 +585,6 @@ BrowserAction
 tabId
 :
 String
-includeParent
-:
-Boolean
 )
 :
 EngineSession
@@ -705,7 +699,6 @@ engine
 logger
 store
 tab
-includeParent
 )
 }
 MainThread
@@ -729,9 +722,6 @@ BrowserAction
 tab
 :
 SessionState
-includeParent
-:
-Boolean
 )
 :
 EngineSession
@@ -814,9 +804,6 @@ engineSession
 skipLoading
 =
 skipLoading
-includeParent
-=
-includeParent
 )
 )
 return
