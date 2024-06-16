@@ -2377,6 +2377,15 @@ aCookie
 IsPartitioned
 (
 )
+&
+&
+!
+aDocument
+-
+>
+UsingStorageAccess
+(
+)
 )
 {
 return
