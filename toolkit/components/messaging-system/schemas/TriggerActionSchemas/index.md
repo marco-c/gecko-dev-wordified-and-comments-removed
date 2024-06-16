@@ -407,6 +407,14 @@ messagesLoaded
 #
 messagesloaded
 )
+*
+[
+pageActionInUrlbar
+]
+(
+#
+pageactioninurlbar
+)
 #
 #
 #
