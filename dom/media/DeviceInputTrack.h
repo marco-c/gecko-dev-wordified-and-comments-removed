@@ -152,10 +152,6 @@ GetInputSourceData
 AudioSegment
 &
 aOutput
-const
-MediaInputPort
-*
-aPort
 GraphTime
 aFrom
 GraphTime
