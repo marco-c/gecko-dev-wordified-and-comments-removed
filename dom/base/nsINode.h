@@ -4626,6 +4626,10 @@ mozilla
 PresShell
 *
 aPresShell
+bool
+aAllowCrossShadowBoundary
+=
+false
 )
 ;
 nsINodeList
