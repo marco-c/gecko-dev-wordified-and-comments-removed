@@ -7678,6 +7678,17 @@ OnGraphThread
 )
 )
 ;
+if
+(
+mStateComputedTime
+=
+=
+mProcessedTime
+)
+{
+return
+;
+}
 bool
 allBlockedForever
 =
