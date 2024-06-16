@@ -15,7 +15,7 @@ Path
 from
 mozbuild
 .
-util
+buildversion
 import
 mozilla_build_version
 from
