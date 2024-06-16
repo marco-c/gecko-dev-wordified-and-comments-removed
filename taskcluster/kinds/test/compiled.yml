@@ -295,7 +295,7 @@ instance
 -
 size
 :
-xlarge
+large
 -
 noscratch
 run
