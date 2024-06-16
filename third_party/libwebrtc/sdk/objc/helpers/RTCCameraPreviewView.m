@@ -305,7 +305,7 @@ if
 deviceOrientation
 =
 =
-UIInterfaceOrientationPortraitUpsideDown
+UIDeviceOrientationPortraitUpsideDown
 )
 {
 previewLayer
@@ -323,7 +323,7 @@ if
 deviceOrientation
 =
 =
-UIInterfaceOrientationLandscapeRight
+UIDeviceOrientationLandscapeRight
 )
 {
 previewLayer
@@ -341,7 +341,7 @@ if
 deviceOrientation
 =
 =
-UIInterfaceOrientationLandscapeLeft
+UIDeviceOrientationLandscapeLeft
 )
 {
 previewLayer
@@ -359,7 +359,7 @@ if
 deviceOrientation
 =
 =
-UIInterfaceOrientationPortrait
+UIDeviceOrientationPortrait
 )
 {
 previewLayer
