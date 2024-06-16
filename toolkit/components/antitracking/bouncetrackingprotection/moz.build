@@ -58,6 +58,11 @@ mozilla
 =
 [
 "
+BounceTrackingAllowList
+.
+h
+"
+"
 BounceTrackingMapEntry
 .
 h
@@ -97,6 +102,11 @@ UNIFIED_SOURCES
 +
 =
 [
+"
+BounceTrackingAllowList
+.
+cpp
+"
 "
 BounceTrackingMapEntry
 .
