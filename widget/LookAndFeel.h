@@ -217,6 +217,7 @@ DynamicRange
 PanelAnimations
 HideCursorWhileTyping
 GTKThemeFamily
+FullKeyboardAccess
 End
 }
 ;

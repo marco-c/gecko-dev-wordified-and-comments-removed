@@ -1036,6 +1036,11 @@ ui
 .
 gtkThemeFamily
 "
+"
+ui
+.
+fullKeyboardAccess
+"
 }
 ;
 static_assert
