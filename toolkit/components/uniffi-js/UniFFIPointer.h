@@ -189,7 +189,7 @@ nullptr
 }
 void
 *
-GetPtr
+ClonePtr
 (
 )
 const

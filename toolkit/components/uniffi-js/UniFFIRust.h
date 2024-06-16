@@ -61,10 +61,10 @@ C
 struct
 RustBuffer
 {
-int32_t
+uint64_t
 capacity
 ;
-int32_t
+uint64_t
 len
 ;
 uint8_t
@@ -109,7 +109,7 @@ buf_ptr
 RustBuffer
 uniffi_rustbuffer_alloc
 (
-int32_t
+uint64_t
 size
 RustCallStatus
 *

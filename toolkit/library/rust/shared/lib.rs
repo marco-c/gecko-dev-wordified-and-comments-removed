@@ -601,6 +601,14 @@ uniffi_reexport_scaffolding
 (
 )
 ;
+uniffi_fixture_refcounts
+:
+:
+uniffi_reexport_scaffolding
+!
+(
+)
+;
 uniffi_geometry
 :
 :
@@ -830,7 +838,7 @@ uniffi_rustbuffer_alloc
 (
 size
 :
-i32
+u64
 call_status
 :
 &
