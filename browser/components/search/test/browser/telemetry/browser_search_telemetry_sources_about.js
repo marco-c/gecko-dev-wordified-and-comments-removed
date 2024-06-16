@@ -686,6 +686,11 @@ shopping_tab_displayed
 "
 false
 "
+is_signed_in
+:
+"
+false
+"
 }
 engagements
 :
