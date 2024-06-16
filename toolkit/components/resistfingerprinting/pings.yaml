@@ -112,6 +112,11 @@ Bug
 include_client_id
 :
 false
+metadata
+:
+include_info_sections
+:
+false
 bugs
 :
 -
