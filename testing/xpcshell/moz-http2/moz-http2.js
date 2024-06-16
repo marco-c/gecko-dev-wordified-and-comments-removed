@@ -11770,16 +11770,6 @@ port
 }
 /
 redirect_to_http
-?
-port
-=
-{
-u
-.
-query
-.
-port
-}
 )
 ;
 res

@@ -37859,16 +37859,7 @@ GetLoadErrorPage
 nsHTTPSOnlyUtils
 :
 :
-ShouldUpgradeConnection
-(
-docLoadInfo
-)
-&
-&
-nsHTTPSOnlyUtils
-:
-:
-IsHttpDowngrade
+IsEqualURIExceptSchemeAndRef
 (
 currentExposableURI
 aLoadState
@@ -37877,6 +37868,7 @@ aLoadState
 URI
 (
 )
+docLoadInfo
 )
 )
 {
