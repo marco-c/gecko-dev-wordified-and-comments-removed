@@ -486,6 +486,7 @@ ensureLangListsBuilt
 (
 document
 panel
+innerWindowId
 )
 {
 const
@@ -504,7 +505,13 @@ langListsInitState
 .
 get
 (
+{
 id
+}
+-
+{
+innerWindowId
+}
 )
 )
 {

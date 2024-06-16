@@ -1645,6 +1645,11 @@ this
 elements
 .
 panel
+gBrowser
+.
+selectedBrowser
+.
+innerWindowID
 )
 ;
 }
