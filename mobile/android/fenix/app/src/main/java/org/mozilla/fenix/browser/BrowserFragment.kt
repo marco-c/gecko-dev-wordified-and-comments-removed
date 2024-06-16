@@ -1749,13 +1749,6 @@ addPageAction
 (
 translationsAction
 )
-getCurrentTab
-(
-)
-?
-.
-let
-{
 translationsBinding
 .
 set
@@ -1773,11 +1766,6 @@ components
 core
 .
 store
-sessionId
-=
-it
-.
-id
 onStateUpdated
 =
 {
@@ -1882,7 +1870,6 @@ view
 =
 view
 )
-}
 }
 private
 fun

@@ -418,9 +418,6 @@ TranslationsBinding
 browserStore
 =
 browserStore
-sessionId
-=
-tabId
 onStateUpdated
 =
 onIconChanged
@@ -617,9 +614,6 @@ TranslationsBinding
 browserStore
 =
 browserStore
-sessionId
-=
-tabId
 onStateUpdated
 =
 onIconChanged
@@ -709,9 +703,6 @@ TranslationsBinding
 browserStore
 =
 browserStore
-sessionId
-=
-tabId
 onStateUpdated
 =
 onIconChanged
@@ -782,9 +773,6 @@ TranslationsBinding
 browserStore
 =
 browserStore
-sessionId
-=
-tabId
 onStateUpdated
 =
 onIconChanged
