@@ -64,6 +64,13 @@ js
 ]
 [
 "
+browser_simplePatterns
+.
+js
+"
+]
+[
+"
 browser_tree
 .
 js

@@ -43,6 +43,8 @@ public
 IRawElementProviderSimple
 public
 IRawElementProviderFragment
+public
+IInvokeProvider
 {
 public
 :
@@ -234,6 +236,14 @@ IRawElementProviderFragmentRoot
 *
 *
 aRetVal
+)
+;
+virtual
+HRESULT
+STDMETHODCALLTYPE
+Invoke
+(
+void
 )
 ;
 private
