@@ -3094,6 +3094,7 @@ Format
 {
 Url
 FilePath
+SanitizedString
 String
 UniqueString
 Duration
