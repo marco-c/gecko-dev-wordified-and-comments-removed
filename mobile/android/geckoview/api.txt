@@ -23134,17 +23134,6 @@ UiThread
 default
 public
 void
-onOptionalPermissionsChanged
-(
-NonNull
-WebExtension
-)
-;
-method
-UiThread
-default
-public
-void
 onReady
 (
 NonNull
