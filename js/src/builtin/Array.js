@@ -3287,6 +3287,12 @@ property
 )
 ;
 }
+ReportUsageCounter
+(
+C
+SUBCLASS_ARRAY_TYPE_III
+)
+;
 return
 constructContentFunction
 (
