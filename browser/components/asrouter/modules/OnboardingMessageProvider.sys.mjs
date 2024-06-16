@@ -5308,10 +5308,6 @@ activeNotifications
 &
 !
 launchOnLoginEnabled
-&
-&
-!
-isMSIX
 }
 {
 id
@@ -5640,10 +5636,6 @@ FOURTEEN_DAYS_IN_MS
 &
 !
 launchOnLoginEnabled
-&
-&
-!
-isMSIX
 }
 {
 id
