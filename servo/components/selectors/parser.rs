@@ -8016,6 +8016,16 @@ ty
 is_of_type
 (
 )
+&
+&
+!
+self
+.
+ty
+.
+is_only
+(
+)
 }
 #
 [
