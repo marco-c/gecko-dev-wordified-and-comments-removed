@@ -2328,6 +2328,9 @@ UnsafeMapInputToSECItem
 candidateCertDER
 )
 ;
+#
+ifndef
+MOZ_WIDGET_ANDROID
 auto
 timerId
 =
@@ -2346,6 +2349,8 @@ Start
 (
 )
 ;
+#
+endif
 UniqueCERTCertificate
 candidateCert
 (
@@ -2362,6 +2367,9 @@ true
 )
 )
 ;
+#
+ifndef
+MOZ_WIDGET_ANDROID
 mozilla
 :
 :
@@ -2384,6 +2392,8 @@ timerId
 )
 )
 ;
+#
+endif
 if
 (
 !
