@@ -542,11 +542,7 @@ char
 *
 Description
 =
-"
-Generic
-text
-marker
-"
+nullptr
 ;
 static
 constexpr
@@ -725,11 +721,7 @@ char
 *
 Description
 =
-"
-Generic
-tracing
-marker
-"
+nullptr
 ;
 static
 constexpr
