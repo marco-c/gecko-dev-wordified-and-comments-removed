@@ -4902,9 +4902,6 @@ version
 type
 :
 string
-ping
-:
-true
 VRProcessStatus
 :
 description
