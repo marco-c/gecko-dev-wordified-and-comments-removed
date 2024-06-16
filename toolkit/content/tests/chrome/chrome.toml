@@ -1058,6 +1058,13 @@ xhtml
 ]
 [
 "
+test_menulist_initial_selection_with_connected_callback
+.
+xhtml
+"
+]
+[
+"
 test_menulist_keynav
 .
 xhtml
