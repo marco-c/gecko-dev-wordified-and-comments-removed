@@ -465,6 +465,15 @@ features
 "
 windows_rs
 "
+"
+oom_panic
+"
+"
+device_lost_panic
+"
+"
+internal_error_panic
+"
 ]
 [
 target
