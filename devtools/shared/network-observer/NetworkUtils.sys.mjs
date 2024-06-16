@@ -657,6 +657,7 @@ browsingContext
 browsingContext
 .
 currentWindowGlobal
+?
 .
 documentPrincipal
 :
@@ -671,6 +672,7 @@ nodePrincipal
 }
 return
 principal
+?
 .
 isSystemPrincipal
 ;
