@@ -605,7 +605,7 @@ SetPriorityDependency
 aAssociatedStream
 -
 >
-Priority
+RFC7540Priority
 (
 )
 +
