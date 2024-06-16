@@ -1577,7 +1577,14 @@ fromLanguage
 this
 .
 toLanguage
+{
+allowSameLanguage
+:
+false
+requestTranslationsPort
+:
 translationPortPromise
+}
 )
 ;
 const
