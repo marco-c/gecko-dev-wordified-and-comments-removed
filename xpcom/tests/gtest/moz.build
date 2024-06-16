@@ -108,6 +108,11 @@ TestIDUtils
 cpp
 "
 "
+TestINIParser
+.
+cpp
+"
+"
 TestInputStreamLengthHelper
 .
 cpp
