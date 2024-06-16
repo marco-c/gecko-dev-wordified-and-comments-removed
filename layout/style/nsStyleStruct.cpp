@@ -1039,6 +1039,12 @@ aSrc
 .
 mLineHeight
 )
+mMinFontSizeRatio
+(
+aSrc
+.
+mMinFontSizeRatio
+)
 mMathVariant
 (
 aSrc
@@ -1050,12 +1056,6 @@ mMathStyle
 aSrc
 .
 mMathStyle
-)
-mMinFontSizeRatio
-(
-aSrc
-.
-mMinFontSizeRatio
 )
 mExplicitLanguage
 (
