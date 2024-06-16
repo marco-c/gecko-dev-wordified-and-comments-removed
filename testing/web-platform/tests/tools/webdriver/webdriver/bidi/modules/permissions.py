@@ -77,6 +77,19 @@ Undefined
 ]
 =
 UNDEFINED
+                    
+user_context
+:
+Union
+[
+Optional
+[
+str
+]
+Undefined
+]
+=
+UNDEFINED
 )
 -
 >
@@ -114,6 +127,12 @@ origin
 "
 :
 origin
+            
+"
+userContext
+"
+:
+user_context
         
 }
         
