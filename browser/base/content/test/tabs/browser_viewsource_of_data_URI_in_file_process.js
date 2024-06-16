@@ -202,7 +202,9 @@ gBrowser
 DATA_URI_SOURCE
 )
 ;
-BrowserViewSource
+BrowserCommands
+.
+viewSource
 (
 fileBrowser
 )

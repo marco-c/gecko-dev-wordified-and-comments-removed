@@ -5439,7 +5439,9 @@ source
 oncommand
 =
 "
-BrowserViewSource
+BrowserCommands
+.
+viewSource
 (
 gContextMenu
 .

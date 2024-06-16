@@ -123,7 +123,9 @@ waitForViewSourceTab
 {
 window
 .
-BrowserViewSource
+BrowserCommands
+.
+viewSource
 (
 browser
 )
