@@ -7404,6 +7404,9 @@ false
 mainContent
 :
 false
+settingsButton
+:
+false
 textArea
 :
 false
@@ -7688,6 +7691,9 @@ true
 mainContent
 :
 true
+settingsButton
+:
+true
 textArea
 :
 true
@@ -7873,6 +7879,9 @@ true
 mainContent
 :
 true
+settingsButton
+:
+true
 toLabel
 :
 true
@@ -8014,6 +8023,9 @@ doneButton
 :
 true
 header
+:
+true
+settingsButton
 :
 true
 translateButton
@@ -8439,6 +8451,9 @@ header
 :
 true
 mainContent
+:
+true
+settingsButton
 :
 true
 textArea
