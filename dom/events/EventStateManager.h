@@ -1053,6 +1053,12 @@ nullptr
 ;
 }
 static
+bool
+CursorSettingManagerHasLockedCursor
+(
+)
+;
+static
 EventStateManager
 *
 GetActiveEventStateManager

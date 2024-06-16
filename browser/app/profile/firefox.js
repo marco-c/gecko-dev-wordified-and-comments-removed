@@ -3965,6 +3965,16 @@ pref
 "
 browser
 .
+spin_cursor_while_busy
+"
+false
+)
+;
+pref
+(
+"
+browser
+.
 privatebrowsing
 .
 vpnpromourl
