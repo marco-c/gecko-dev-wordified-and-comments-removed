@@ -137,7 +137,7 @@ body
 script
 >
 function
-addLinkRelDictionaryElement
+addLinkRelCompressionDictionaryElement
 (
 url
 crossOrigin
@@ -160,6 +160,8 @@ link
 rel
 =
 '
+compression
+-
 dictionary
 '
 ;
@@ -197,8 +199,9 @@ t
 =
 >
 {
-assert_true
-(
+const
+link_element
+=
 document
 .
 createElement
@@ -207,12 +210,18 @@ createElement
 link
 '
 )
+;
+assert_true
+(
+link_element
 .
 relList
 .
 supports
 (
 '
+compression
+-
 dictionary
 '
 )
@@ -225,6 +234,8 @@ supports
 link
 element
 with
+compression
+-
 dictionary
 rel
 .
@@ -260,7 +271,7 @@ save_header
 dict_token
 }
 ;
-addLinkRelDictionaryElement
+addLinkRelCompressionDictionaryElement
 (
 url
 )
@@ -451,7 +462,7 @@ dict_token
 }
 )
 ;
-addLinkRelDictionaryElement
+addLinkRelCompressionDictionaryElement
 (
 url
 '
