@@ -1,13 +1,6 @@
 #
 include
 "
-AppearanceOverride
-.
-h
-"
-#
-include
-"
 mozilla
 /
 widget
