@@ -792,7 +792,6 @@ module_inst
 "
 shape_plan_create
 "
-nullptr
 )
 ;
 if
@@ -1043,7 +1042,6 @@ module_inst
 "
 shape_plan_destroy
 "
-nullptr
 )
 ;
 if
@@ -1422,7 +1420,6 @@ module_inst
 "
 shape
 "
-nullptr
 )
 ;
 if

@@ -3116,11 +3116,6 @@ random
 =
 false
 ;
-uint32_t
-random_state
-=
-1
-;
 unsigned
 new_syllables
 =
@@ -3502,8 +3497,14 @@ random_number
 (
 )
 {
+buffer
+-
+>
 random_state
 =
+buffer
+-
+>
 random_state
 *
 48271
@@ -3511,6 +3512,9 @@ random_state
 2147483647
 ;
 return
+buffer
+-
+>
 random_state
 ;
 }

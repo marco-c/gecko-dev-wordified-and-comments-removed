@@ -230,6 +230,9 @@ allocated_var_bits
 uint8_t
 serial
 ;
+uint32_t
+random_state
+;
 hb_buffer_scratch_flags_t
 scratch_flags
 ;

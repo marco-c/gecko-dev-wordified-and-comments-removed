@@ -14,9 +14,9 @@ HarfBuzz
 [
 8
 .
-3
+4
 .
-1
+0
 ]
 [
 https
@@ -891,9 +891,7 @@ glib
 =
 2
 .
-19
-.
-1
+30
 "
 AC_SUBST
 (
@@ -1603,9 +1601,7 @@ cairo
 =
 1
 .
-8
-.
-0
+10
 have_cairo
 =
 true
@@ -2105,6 +2101,11 @@ ICU
 icu
 -
 uc
+>
+=
+49
+.
+0
 have_icu
 =
 true
