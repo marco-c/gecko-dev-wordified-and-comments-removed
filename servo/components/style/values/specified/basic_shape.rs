@@ -934,6 +934,15 @@ PATH
 bits
 (
 )
+|
+Self
+:
+:
+SHAPE
+.
+bits
+(
+)
 ;
 /
 /
@@ -1344,11 +1353,6 @@ AllowedBasicShapes
 :
 :
 ALL
-|
-AllowedBasicShapes
-:
-:
-SHAPE
 )
 }
 }
