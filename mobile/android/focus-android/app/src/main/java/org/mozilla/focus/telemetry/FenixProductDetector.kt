@@ -170,9 +170,7 @@ product
 in
 FenixVersion
 .
-values
-(
-)
+entries
 )
 {
 if
@@ -225,9 +223,7 @@ product
 in
 FenixVersion
 .
-values
-(
-)
+entries
 )
 {
 if

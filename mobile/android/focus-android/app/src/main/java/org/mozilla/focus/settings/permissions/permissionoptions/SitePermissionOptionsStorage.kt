@@ -1270,9 +1270,7 @@ Boolean
 {
 SitePermission
 .
-values
-(
-)
+entries
 .
 forEach
 {
