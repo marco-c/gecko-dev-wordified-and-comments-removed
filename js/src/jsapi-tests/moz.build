@@ -240,6 +240,11 @@ testForwardSetProperty
 cpp
 "
 "
+testFractionToDouble
+.
+cpp
+"
+"
 testFreshGlobalEvalRedefinition
 .
 cpp
