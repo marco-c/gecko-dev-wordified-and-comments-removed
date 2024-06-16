@@ -5973,7 +5973,7 @@ nursery
 .
 max_kb
 "
-16384
+65536
 )
 ;
 pref
