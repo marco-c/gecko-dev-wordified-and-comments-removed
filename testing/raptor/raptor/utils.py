@@ -22,6 +22,12 @@ collections
 abc
 import
 Iterable
+from
+distutils
+.
+util
+import
+strtobool
 import
 yaml
 from
@@ -34,12 +40,6 @@ logger
 logger
 import
 RaptorLogger
-from
-mach
-.
-util
-import
-strtobool
 from
 mozgeckoprofiler
 import

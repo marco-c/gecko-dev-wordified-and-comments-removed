@@ -974,20 +974,21 @@ c
                 
 "
 from
+distutils
+.
 sysconfig
+import
+get_python_lib
 ;
+"
+                
++
+"
 print
 (
-sysconfig
-.
-get_paths
+get_python_lib
 (
 )
-[
-'
-purelib
-'
-]
 )
 "
             
