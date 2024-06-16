@@ -1383,7 +1383,7 @@ needZealousGC
 )
 ;
 bool
-hasIncrementalTwoSliceZealMode
+zealModeControlsYieldPoint
 (
 )
 const
@@ -6540,7 +6540,7 @@ bool
 GCRuntime
 :
 :
-hasIncrementalTwoSliceZealMode
+zealModeControlsYieldPoint
 (
 )
 const
