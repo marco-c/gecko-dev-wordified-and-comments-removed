@@ -416,6 +416,11 @@ webRTC
 -
 preview
 "
+orient
+=
+"
+vertical
+"
 hidden
 =
 "
