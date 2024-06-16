@@ -527,6 +527,11 @@ TextListItem
 label
 =
 permission
+maxLabelLines
+=
+Int
+.
+MAX_VALUE
 )
 }
 }
