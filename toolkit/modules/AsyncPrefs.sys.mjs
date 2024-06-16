@@ -272,6 +272,16 @@ text_alignment
 "
 reader
 .
+character_spacing
+"
+"
+reader
+.
+word_spacing
+"
+"
+reader
+.
 custom_colors
 .
 foreground
