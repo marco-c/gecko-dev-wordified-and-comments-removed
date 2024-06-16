@@ -37,13 +37,36 @@ object
 )
 :
     
-TEST_PROC_TIMEOUT
-=
-2400
-    
 TEST_PROC_NO_OUTPUT_TIMEOUT
 =
 300
+    
+def
+gtest_timeout_value
+(
+self
+)
+:
+        
+if
+mozinfo
+.
+info
+[
+"
+tsan
+"
+]
+:
+            
+return
+3600
+        
+else
+:
+            
+return
+2400
     
 def
 run_gtest
@@ -321,6 +344,7 @@ log
 .
 testFail
 (
+                
 "
 gtest
 |
@@ -331,9 +355,12 @@ after
 d
 seconds
 "
-GTests
+self
 .
-TEST_PROC_TIMEOUT
+gtest_timeout_value
+(
+)
+            
 )
             
 mozcrash
@@ -433,9 +460,11 @@ output_line_handler
             
 timeout
 =
-GTests
+self
 .
-TEST_PROC_TIMEOUT
+gtest_timeout_value
+(
+)
             
 timeout_handler
 =
