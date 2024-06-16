@@ -1237,7 +1237,7 @@ already_AddRefed
 <
 nsIWidget
 >
-DispatchMouseOrPointerEvent
+DispatchMouseOrPointerBoundaryEvent
 (
 WidgetMouseEvent
 *
