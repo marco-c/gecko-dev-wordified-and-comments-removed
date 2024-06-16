@@ -475,6 +475,11 @@ WritingMode
 aWM
 nscoord
 aMaxAscent
+mozilla
+:
+:
+ForceAlignTopForTableCell
+aForceAlignTop
 )
 ;
 virtual
