@@ -6924,10 +6924,6 @@ wr
 :
 SpatialTreeItemKey
 aKey
-const
-WrAnimationProperty
-*
-aAnimation
 )
 {
 auto
@@ -6948,7 +6944,6 @@ aVerticalBounds
 aHorizontalBounds
 aAppliedOffset
 aKey
-aAnimation
 )
 ;
 WRDL_LOG

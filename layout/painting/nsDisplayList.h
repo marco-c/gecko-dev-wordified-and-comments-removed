@@ -19603,7 +19603,7 @@ const
 ;
 virtual
 bool
-ShouldGetFixedAnimationId
+ShouldGetFixedOrStickyAnimationId
 (
 )
 {
@@ -19840,10 +19840,6 @@ mShouldFlatten
 (
 false
 )
-mWrStickyAnimationId
-(
-0
-)
 {
 MOZ_COUNT_CTOR
 (
@@ -19974,6 +19970,12 @@ aLayerData
 )
 override
 ;
+bool
+ShouldGetFixedOrStickyAnimationId
+(
+)
+override
+;
 const
 ActiveScrolledRoot
 *
@@ -20031,12 +20033,6 @@ return
 mShouldFlatten
 ;
 }
-bool
-ShouldGetStickyAnimationId
-(
-)
-const
-;
 private
 :
 NS_DISPLAY_ALLOW_CLONING
@@ -20080,9 +20076,6 @@ mClippedToDisplayPort
 ;
 bool
 mShouldFlatten
-;
-uint64_t
-mWrStickyAnimationId
 ;
 }
 ;
@@ -20286,7 +20279,7 @@ aLayerData
 override
 ;
 bool
-ShouldGetFixedAnimationId
+ShouldGetFixedOrStickyAnimationId
 (
 )
 override

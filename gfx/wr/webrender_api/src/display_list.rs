@@ -10681,15 +10681,6 @@ di
 :
 :
 SpatialTreeItemKey
-transform
-:
-Option
-<
-PropertyBinding
-<
-LayoutTransform
->
->
 )
 -
 >
@@ -10774,7 +10765,6 @@ vertical_offset_bounds
 horizontal_offset_bounds
 previously_applied_offset
 key
-transform
 }
 )
 ;
