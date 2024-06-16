@@ -457,9 +457,6 @@ browserStore
 translationsDialogStore
 =
 translationsDialogStore
-sessionId
-=
-tabId
 getTranslatedPageTitle
 =
 {
@@ -734,9 +731,6 @@ browserStore
 translationsDialogStore
 =
 translationsDialogStore
-sessionId
-=
-tabId
 getTranslatedPageTitle
 =
 {
@@ -893,9 +887,6 @@ browserStore
 translationsDialogStore
 =
 translationsDialogStore
-sessionId
-=
-tabId
 getTranslatedPageTitle
 =
 {
@@ -1080,9 +1071,6 @@ browserStore
 translationsDialogStore
 =
 translationsDialogStore
-sessionId
-=
-tabId
 getTranslatedPageTitle
 =
 {
@@ -1243,9 +1231,6 @@ browserStore
 translationsDialogStore
 =
 translationsDialogStore
-sessionId
-=
-tabId
 getTranslatedPageTitle
 =
 {
@@ -1388,9 +1373,6 @@ browserStore
 translationsDialogStore
 =
 translationsDialogStore
-sessionId
-=
-tabId
 getTranslatedPageTitle
 =
 {
@@ -1531,9 +1513,6 @@ browserStore
 translationsDialogStore
 =
 translationsDialogStore
-sessionId
-=
-tabId
 getTranslatedPageTitle
 =
 {
@@ -1720,9 +1699,6 @@ browserStore
 translationsDialogStore
 =
 translationsDialogStore
-sessionId
-=
-tabId
 getTranslatedPageTitle
 =
 {

@@ -5513,11 +5513,6 @@ BrowserFragmentDirections
 .
 actionBrowserFragmentToTranslationsDialogFragment
 (
-sessionId
-=
-selectedTab
-.
-id
 )
 )
 )
