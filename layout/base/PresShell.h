@@ -1265,9 +1265,9 @@ GetSelectedContentForScrolling
 )
 const
 ;
-nsIScrollableFrame
+ScrollContainerFrame
 *
-GetScrollableFrameToScrollForContent
+GetScrollContainerFrameToScrollForContent
 (
 nsIContent
 *
@@ -1279,9 +1279,9 @@ ScrollDirections
 aDirections
 )
 ;
-nsIScrollableFrame
+ScrollContainerFrame
 *
-GetScrollableFrameToScroll
+GetScrollContainerFrameToScroll
 (
 layers
 :
