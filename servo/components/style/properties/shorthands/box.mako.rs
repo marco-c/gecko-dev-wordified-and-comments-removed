@@ -42,11 +42,6 @@ engines
 gecko
 servo
 "
-flags
-=
-"
-SHORTHAND_IN_GETCS
-"
 spec
 =
 "
@@ -520,7 +515,6 @@ before
 flags
 =
 "
-SHORTHAND_IN_GETCS
 IS_LEGACY_SHORTHAND
 "
 sub_properties
@@ -710,7 +704,6 @@ after
 flags
 =
 "
-SHORTHAND_IN_GETCS
 IS_LEGACY_SHORTHAND
 "
 sub_properties
@@ -900,7 +893,6 @@ inside
 flags
 =
 "
-SHORTHAND_IN_GETCS
 IS_LEGACY_SHORTHAND
 "
 sub_properties
