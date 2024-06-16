@@ -1972,7 +1972,12 @@ nsIEventTarget
 >
 cubebOpThread
 =
-CUBEB_TASK_THREAD
+CubebUtils
+:
+:
+GetCubebOperationThread
+(
+)
 ;
 MOZ_ALWAYS_SUCCEEDS
 (
@@ -2763,7 +2768,12 @@ nsIEventTarget
 >
 cubebOpThread
 =
-CUBEB_TASK_THREAD
+CubebUtils
+:
+:
+GetCubebOperationThread
+(
+)
 ;
 MOZ_ALWAYS_SUCCEEDS
 (

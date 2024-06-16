@@ -253,7 +253,12 @@ aListener
 )
 mTaskThread
 (
-CUBEB_TASK_THREAD
+CubebUtils
+:
+:
+GetCubebOperationThread
+(
+)
 )
 mDriftCorrector
 (

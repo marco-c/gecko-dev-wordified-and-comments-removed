@@ -51,6 +51,9 @@ mozilla
 class
 CallbackThreadRegistry
 ;
+class
+SharedThreadPool
+;
 namespace
 CubebUtils
 {
@@ -198,6 +201,14 @@ ShutdownLibrary
 ;
 bool
 SandboxEnabled
+(
+)
+;
+already_AddRefed
+<
+SharedThreadPool
+>
+GetCubebOperationThread
 (
 )
 ;
