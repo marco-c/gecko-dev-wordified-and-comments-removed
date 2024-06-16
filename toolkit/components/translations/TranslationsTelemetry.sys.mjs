@@ -254,6 +254,8 @@ Telemetry
 functions
 for
 the
+Full
+Page
 Translations
 panel
 .
@@ -261,17 +263,17 @@ panel
 *
 returns
 {
-Panel
+FullPageTranslationsPanelTelemetry
 }
 *
 /
 static
-panel
+fullPagePanel
 (
 )
 {
 return
-Panel
+FullPageTranslationsPanelTelemetry
 ;
 }
 /
@@ -489,6 +491,9 @@ telemetry
 event
 when
 a
+full
+-
+page
 translation
 request
 is
@@ -659,12 +664,12 @@ Telemetry
 functions
 for
 the
-Translations
-panel
+FullPageTranslationsPanel
+UI
 *
 /
 class
-Panel
+FullPageTranslationsPanelTelemetry
 {
 /
 *
@@ -676,8 +681,7 @@ telemetry
 event
 when
 the
-translations
-panel
+FullPageTranslationsPanel
 is
 opened
 .
@@ -797,7 +801,7 @@ TranslationsTelemetry
 .
 logEventToConsole
 (
-Panel
+FullPageTranslationsPanelTelemetry
 .
 onOpen
 data
@@ -832,7 +836,7 @@ TranslationsTelemetry
 .
 logEventToConsole
 (
-Panel
+FullPageTranslationsPanelTelemetry
 .
 onClose
 )
@@ -866,7 +870,7 @@ TranslationsTelemetry
 .
 logEventToConsole
 (
-Panel
+FullPageTranslationsPanelTelemetry
 .
 onOpenFromLanguageMenu
 )
@@ -904,7 +908,7 @@ TranslationsTelemetry
 .
 logEventToConsole
 (
-Panel
+FullPageTranslationsPanelTelemetry
 .
 onChangeFromLanguage
 {
@@ -941,7 +945,7 @@ TranslationsTelemetry
 .
 logEventToConsole
 (
-Panel
+FullPageTranslationsPanelTelemetry
 .
 onCloseFromLanguageMenu
 )
@@ -975,7 +979,7 @@ TranslationsTelemetry
 .
 logEventToConsole
 (
-Panel
+FullPageTranslationsPanelTelemetry
 .
 onOpenToLanguageMenu
 )
@@ -1013,7 +1017,7 @@ TranslationsTelemetry
 .
 logEventToConsole
 (
-Panel
+FullPageTranslationsPanelTelemetry
 .
 onChangeToLanguage
 {
@@ -1050,7 +1054,7 @@ TranslationsTelemetry
 .
 logEventToConsole
 (
-Panel
+FullPageTranslationsPanelTelemetry
 .
 onChangeToLanguage
 )
@@ -1084,7 +1088,7 @@ TranslationsTelemetry
 .
 logEventToConsole
 (
-Panel
+FullPageTranslationsPanelTelemetry
 .
 onOpenSettingsMenu
 )
@@ -1118,7 +1122,7 @@ TranslationsTelemetry
 .
 logEventToConsole
 (
-Panel
+FullPageTranslationsPanelTelemetry
 .
 onCloseSettingsMenu
 )
@@ -1152,7 +1156,7 @@ TranslationsTelemetry
 .
 logEventToConsole
 (
-Panel
+FullPageTranslationsPanelTelemetry
 .
 onCancelButton
 )
@@ -1186,7 +1190,7 @@ TranslationsTelemetry
 .
 logEventToConsole
 (
-Panel
+FullPageTranslationsPanelTelemetry
 .
 onChangeSourceLanguageButton
 )
@@ -1220,7 +1224,7 @@ TranslationsTelemetry
 .
 logEventToConsole
 (
-Panel
+FullPageTranslationsPanelTelemetry
 .
 onDismissErrorButton
 )
@@ -1254,7 +1258,7 @@ TranslationsTelemetry
 .
 logEventToConsole
 (
-Panel
+FullPageTranslationsPanelTelemetry
 .
 onRestorePageButton
 )
@@ -1288,7 +1292,7 @@ TranslationsTelemetry
 .
 logEventToConsole
 (
-Panel
+FullPageTranslationsPanelTelemetry
 .
 onTranslateButton
 )
@@ -1326,7 +1330,7 @@ TranslationsTelemetry
 .
 logEventToConsole
 (
-Panel
+FullPageTranslationsPanelTelemetry
 .
 onAlwaysOfferTranslations
 {
@@ -1371,7 +1375,7 @@ TranslationsTelemetry
 .
 logEventToConsole
 (
-Panel
+FullPageTranslationsPanelTelemetry
 .
 onAlwaysTranslateLanguage
 {
@@ -1417,7 +1421,7 @@ TranslationsTelemetry
 .
 logEventToConsole
 (
-Panel
+FullPageTranslationsPanelTelemetry
 .
 onNeverTranslateLanguage
 {
@@ -1459,7 +1463,7 @@ TranslationsTelemetry
 .
 logEventToConsole
 (
-Panel
+FullPageTranslationsPanelTelemetry
 .
 onNeverTranslateSite
 {
@@ -1496,7 +1500,7 @@ TranslationsTelemetry
 .
 logEventToConsole
 (
-Panel
+FullPageTranslationsPanelTelemetry
 .
 onManageLanguages
 )
@@ -1530,7 +1534,7 @@ TranslationsTelemetry
 .
 logEventToConsole
 (
-Panel
+FullPageTranslationsPanelTelemetry
 .
 onAboutTranslations
 )
@@ -1564,7 +1568,7 @@ TranslationsTelemetry
 .
 logEventToConsole
 (
-Panel
+FullPageTranslationsPanelTelemetry
 .
 onLearnMoreLink
 )
