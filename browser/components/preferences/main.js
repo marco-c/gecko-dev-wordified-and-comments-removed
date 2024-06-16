@@ -486,7 +486,7 @@ browser
 .
 tabs
 .
-cardPreview
+hoverPreview
 .
 enabled
 "
@@ -504,7 +504,7 @@ browser
 .
 tabs
 .
-cardPreview
+hoverPreview
 .
 showThumbnails
 "
@@ -1835,7 +1835,7 @@ browser
 .
 tabs
 .
-cardPreview
+hoverPreview
 .
 enabled
 "
