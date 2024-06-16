@@ -311,6 +311,14 @@ aDir
 )
 ;
 void
+handleRequireTrustedTypesForDirective
+(
+nsCSPDirective
+*
+aDir
+)
+;
+void
 sourceList
 (
 nsTArray
