@@ -246,6 +246,9 @@ uint32_t
 mActiveDatabaseCount
 ;
 bool
+mAllowed
+;
+bool
 mBackgroundActorFailed
 ;
 bool
@@ -253,12 +256,13 @@ mPrivateBrowsingMode
 ;
 public
 :
-explicit
 IDBFactory
 (
 const
 IDBFactoryGuard
 &
+bool
+aAllowed
 )
 ;
 static
@@ -307,8 +311,11 @@ CreateForWorker
 nsIGlobalObject
 *
 aGlobal
-const
+UniquePtr
+<
 PrincipalInfo
+>
+&
 &
 aPrincipalInfo
 uint64_t
