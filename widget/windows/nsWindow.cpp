@@ -5135,6 +5135,8 @@ WS_SYSMENU
 WS_MINIMIZEBOX
 |
 WS_MAXIMIZEBOX
+|
+WS_CAPTION
 ;
 const
 DWORD
@@ -5145,6 +5147,8 @@ kTitlebarItemsWindowStyles
 WS_THICKFRAME
 |
 WS_DLGFRAME
+|
+DS_MODALFRAME
 ;
 static
 DWORD
@@ -5233,7 +5237,7 @@ Title
 toRemove
 |
 =
-WS_DLGFRAME
+kTitlebarItemsWindowStyles
 ;
 }
 if
