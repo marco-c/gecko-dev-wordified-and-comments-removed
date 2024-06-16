@@ -127,8 +127,10 @@ de
 CH
 "
 "
-Koordinierte
-Weltzeit
+Mittlere
+Greenwich
+-
+Zeit
 "
 )
 ;
@@ -138,8 +140,8 @@ test
 en
 "
 "
-Coordinated
-Universal
+Greenwich
+Mean
 Time
 "
 )
