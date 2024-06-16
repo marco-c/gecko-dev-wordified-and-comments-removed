@@ -163,9 +163,6 @@ NullExternRef
 NullFuncRef
 =
 0x73
-NullExnRef
-=
-0x74
 StructRef
 =
 0x6b
