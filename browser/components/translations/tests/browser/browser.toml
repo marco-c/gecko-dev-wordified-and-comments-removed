@@ -446,6 +446,13 @@ js
 ]
 [
 "
+browser_translations_select_panel_fallback_to_doc_language
+.
+js
+"
+]
+[
+"
 browser_translations_select_panel_open_to_idle_state
 .
 js
