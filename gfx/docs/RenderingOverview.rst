@@ -1138,9 +1138,10 @@ know
 about
 ?
 See
-AsyncPanZoom
-.
-rst
+:
+ref
+:
+apz
 for
 all
 that
