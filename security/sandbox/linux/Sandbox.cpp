@@ -678,6 +678,17 @@ ctx
 return
 ;
 }
+#
+if
+defined
+(
+DEBUG
+)
+AutoForbidSignalContext
+sigContext
+;
+#
+endif
 ucontext_t
 savedCtx
 =

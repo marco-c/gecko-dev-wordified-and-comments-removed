@@ -16,6 +16,11 @@ SandboxBrokerClient
 cpp
 "
 "
+SandboxProfiler
+.
+cpp
+"
+"
 TestBroker
 .
 cpp

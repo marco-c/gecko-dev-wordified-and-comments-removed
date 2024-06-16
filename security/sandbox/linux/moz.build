@@ -58,6 +58,11 @@ SandboxInfo
 .
 h
 "
+"
+SandboxProfiler
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +
@@ -691,6 +696,11 @@ cpp
 "
 "
 SandboxOpenedFiles
+.
+cpp
+"
+"
+SandboxProfiler
 .
 cpp
 "
