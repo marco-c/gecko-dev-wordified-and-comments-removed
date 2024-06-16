@@ -607,10 +607,12 @@ TranslationsParent
 LanguageState
 "
 :
+{
 const
 {
 detectedLanguages
 requestedTranslationPair
+hasVisibleChange
 error
 isEngineReady
 }
@@ -629,6 +631,7 @@ data
 {
 detectedLanguages
 requestedTranslationPair
+hasVisibleChange
 error
 isEngineReady
 }
@@ -655,6 +658,7 @@ data
 ;
 break
 ;
+}
 }
 }
 }
