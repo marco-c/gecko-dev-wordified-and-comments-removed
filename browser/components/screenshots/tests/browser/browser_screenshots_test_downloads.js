@@ -605,7 +605,7 @@ shadowRoot
 querySelector
 (
 "
-.
+#
 visible
 -
 page

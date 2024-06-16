@@ -290,7 +290,7 @@ helper
 getPanelButton
 (
 "
-.
+#
 visible
 -
 page
@@ -558,7 +558,7 @@ helper
 getPanelButton
 (
 "
-.
+#
 visible
 -
 page

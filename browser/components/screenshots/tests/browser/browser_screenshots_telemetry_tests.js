@@ -1226,7 +1226,7 @@ shadowRoot
 querySelector
 (
 "
-.
+#
 visible
 -
 page
@@ -1386,7 +1386,7 @@ shadowRoot
 querySelector
 (
 "
-.
+#
 full
 -
 page
@@ -1684,7 +1684,7 @@ shadowRoot
 querySelector
 (
 "
-.
+#
 visible
 -
 page
@@ -2217,7 +2217,7 @@ shadowRoot
 querySelector
 (
 "
-.
+#
 visible
 -
 page
@@ -2319,7 +2319,7 @@ shadowRoot
 querySelector
 (
 "
-.
+#
 full
 -
 page
