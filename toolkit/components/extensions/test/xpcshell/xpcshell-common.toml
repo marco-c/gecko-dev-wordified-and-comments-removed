@@ -2424,6 +2424,13 @@ js
 ]
 [
 "
+test_ext_runtime_onPerformanceWarning
+.
+js
+"
+]
+[
+"
 test_ext_runtime_ports
 .
 js
