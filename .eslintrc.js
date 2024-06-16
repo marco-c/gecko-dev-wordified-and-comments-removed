@@ -5699,6 +5699,16 @@ browser
 /
 components
 /
+topsites
+/
+*
+*
+"
+"
+browser
+/
+components
+/
 touchbar
 /
 *
