@@ -100,6 +100,7 @@ true
 false
 )
 ;
+await
 checkUpdateManager
 (
 STATE_PENDING
