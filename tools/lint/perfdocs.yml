@@ -75,15 +75,6 @@ exclude
 extensions
 :
 [
-'
-rst
-'
-'
-ini
-'
-'
-yml
-'
 ]
 support
 -

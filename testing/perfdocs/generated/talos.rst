@@ -49445,6 +49445,10 @@ pdfpaint
 :
 True
 *
+subtest_alerts
+:
+True
+*
 timeout
 :
 1800
