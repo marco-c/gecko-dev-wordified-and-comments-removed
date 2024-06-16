@@ -9,6 +9,7 @@ api
 :
 :
 {
+ColorF
 ExtendMode
 GradientStop
 PremultipliedColorF
@@ -2188,7 +2189,7 @@ as_int
 )
 base_color
 :
-PremultipliedColorF
+ColorF
 :
 :
 WHITE
