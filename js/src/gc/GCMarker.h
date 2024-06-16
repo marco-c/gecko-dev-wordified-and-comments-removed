@@ -403,6 +403,12 @@ Cell
 ptr
 )
 ;
+uintptr_t
+asBits
+(
+)
+const
+;
 Tag
 tag
 (
@@ -492,6 +498,11 @@ setStart
 (
 size_t
 newStart
+)
+;
+void
+setEmpty
+(
 )
 ;
 private
