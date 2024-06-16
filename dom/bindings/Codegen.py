@@ -21389,7 +21389,7 @@ is
 not
 None
         
-call
+ensureCaches
 =
 fill
 (
@@ -21429,6 +21429,29 @@ interfaceCache
 interfaceCache
 }
 ;
+            
+"
+"
+"
+            
+protoCache
+=
+protoCache
+            
+interfaceCache
+=
+interfaceCache
+        
+)
+        
+call
+=
+fill
+(
+            
+"
+"
+"
             
 dom
 :
@@ -21505,10 +21528,6 @@ parentProto
 =
 parentProto
             
-protoCache
-=
-protoCache
-            
 constructorProto
 =
 constructorProto
@@ -21531,10 +21550,6 @@ isConstructorChromeOnly
 legacyFactoryFunctions
 =
 legacyFactoryFunctions
-            
-interfaceCache
-=
-interfaceCache
             
 properties
 =
@@ -22586,6 +22601,11 @@ CGList
 (
             
 [
+                
+CGGeneric
+(
+ensureCaches
+)
                 
 getParentProto
                 
