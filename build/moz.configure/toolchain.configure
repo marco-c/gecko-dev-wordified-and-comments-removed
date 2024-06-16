@@ -9264,7 +9264,7 @@ type
 gcc
 "
 )
-building_with_gnu_compatible_cc
+building_with_gnu_cc
 =
 depends
 (
