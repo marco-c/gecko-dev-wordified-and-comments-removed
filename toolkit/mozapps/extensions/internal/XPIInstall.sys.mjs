@@ -10374,6 +10374,7 @@ addonAllowedByPolicies
 Services
 .
 policies
+?
 .
 getExtensionSettings
 (
@@ -10393,6 +10394,7 @@ globallyAllowedByPolicies
 Services
 .
 policies
+?
 .
 getExtensionSettings
 (
