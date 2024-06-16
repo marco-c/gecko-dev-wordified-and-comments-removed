@@ -156,6 +156,8 @@ private
 BounceTrackingProtection
 (
 )
+=
+default
 ;
 ~
 BounceTrackingProtection
@@ -163,6 +165,16 @@ BounceTrackingProtection
 )
 =
 default
+;
+[
+[
+nodiscard
+]
+]
+nsresult
+Init
+(
+)
 ;
 static
 Maybe
