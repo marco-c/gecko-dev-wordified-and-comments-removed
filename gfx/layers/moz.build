@@ -731,13 +731,6 @@ h
 "
 client
 /
-TextureClientPool
-.
-h
-"
-"
-client
-/
 TextureClientRecycleAllocator
 .
 h
@@ -2212,13 +2205,6 @@ cpp
 client
 /
 ImageClient
-.
-cpp
-"
-"
-client
-/
-TextureClientPool
 .
 cpp
 "

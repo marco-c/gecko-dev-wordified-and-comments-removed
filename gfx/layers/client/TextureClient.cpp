@@ -6870,15 +6870,6 @@ mSerial
 +
 sSerialCounter
 )
-#
-ifdef
-GFX_DEBUG_TRACK_CLIENTS_IN_POOL
-mPoolTracker
-(
-nullptr
-)
-#
-endif
 {
 mData
 -

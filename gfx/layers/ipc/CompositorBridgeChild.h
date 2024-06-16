@@ -177,9 +177,6 @@ WebRenderLayerManager
 class
 TextureClient
 ;
-class
-TextureClientPool
-;
 struct
 FrameMetrics
 ;
@@ -889,16 +886,6 @@ nsCOMPtr
 nsISerialEventTarget
 >
 mThread
-;
-AutoTArray
-<
-RefPtr
-<
-TextureClientPool
->
-2
->
-mTexturePools
 ;
 uint64_t
 mProcessToken
