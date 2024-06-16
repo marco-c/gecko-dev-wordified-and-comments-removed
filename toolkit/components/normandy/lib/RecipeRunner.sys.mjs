@@ -1395,6 +1395,7 @@ prefs
 getBoolPref
 (
 SHIELD_ENABLED_PREF
+false
 )
 )
 {
@@ -1433,6 +1434,8 @@ prefs
 getCharPref
 (
 API_URL_PREF
+"
+"
 )
 ;
 if
@@ -1961,8 +1964,12 @@ prefs
 getIntPref
 (
 RUN_INTERVAL_PREF
+21600
 )
 ;
+/
+/
+6h
 lazy
 .
 timerManager
@@ -4023,6 +4030,8 @@ prefs
 getCharPref
 (
 API_URL_PREF
+"
+"
 )
 ;
 Services
