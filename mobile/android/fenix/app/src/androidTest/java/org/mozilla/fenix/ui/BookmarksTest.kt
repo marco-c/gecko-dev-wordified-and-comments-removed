@@ -397,9 +397,6 @@ HomeActivityIntentTestRule
 .
 withDefaultSettingsOverrides
 (
-tabsTrayRewriteEnabled
-=
-true
 )
 )
 {
@@ -2014,7 +2011,7 @@ url
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 activityTestRule
 )

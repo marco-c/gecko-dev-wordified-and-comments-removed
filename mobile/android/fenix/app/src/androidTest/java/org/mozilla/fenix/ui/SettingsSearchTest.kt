@@ -2827,6 +2827,9 @@ waitForPageToLoad
 }
 .
 openTabDrawer
+(
+activityTestRule
+)
 {
 }
 .
@@ -2868,6 +2871,9 @@ link
 }
 .
 openTabDrawer
+(
+activityTestRule
+)
 {
 }
 .
@@ -2917,6 +2923,9 @@ homeScreen
 }
 .
 openTabDrawer
+(
+activityTestRule
+)
 {
 }
 .

@@ -1695,6 +1695,9 @@ browserScreen
 }
 .
 openTabDrawer
+(
+activityTestRule
+)
 {
 closeTab
 (
@@ -1789,6 +1792,9 @@ browserScreen
 }
 .
 openTabDrawer
+(
+activityTestRule
+)
 {
 closeTab
 (

@@ -319,9 +319,6 @@ withDefaultSettingsOverrides
 skipOnboarding
 =
 true
-tabsTrayRewriteEnabled
-=
-true
 )
 )
 {
@@ -739,7 +736,7 @@ goBack
 {
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )
@@ -1194,7 +1191,7 @@ waitForPageToLoad
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )

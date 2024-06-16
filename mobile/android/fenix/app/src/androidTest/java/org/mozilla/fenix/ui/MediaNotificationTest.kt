@@ -329,9 +329,6 @@ HomeActivityTestRule
 .
 withDefaultSettingsOverrides
 (
-tabsTrayRewriteEnabled
-=
-true
 )
 )
 {
@@ -473,7 +470,7 @@ PAUSED
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )
@@ -631,7 +628,7 @@ PAUSED
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )
@@ -714,7 +711,7 @@ homeScreen
 {
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )
@@ -810,7 +807,7 @@ PAUSED
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )

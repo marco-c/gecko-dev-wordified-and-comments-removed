@@ -250,9 +250,6 @@ HomeActivityTestRule
 .
 withDefaultSettingsOverrides
 (
-tabsTrayRewriteEnabled
-=
-true
 )
 )
 {
@@ -340,7 +337,7 @@ url
 {
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )
@@ -506,7 +503,7 @@ url
 {
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )

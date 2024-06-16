@@ -343,9 +343,6 @@ withDefaultSettingsOverrides
 skipOnboarding
 =
 true
-tabsTrayRewriteEnabled
-=
-true
 )
 )
 {
@@ -617,7 +614,7 @@ homeScreen
 {
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )

@@ -438,9 +438,6 @@ AndroidComposeTestRule
 (
 HomeActivityIntentTestRule
 (
-tabsTrayRewriteEnabled
-=
-true
 isJumpBackInCFREnabled
 =
 false
@@ -586,7 +583,7 @@ toString
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )
@@ -730,7 +727,7 @@ toString
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )

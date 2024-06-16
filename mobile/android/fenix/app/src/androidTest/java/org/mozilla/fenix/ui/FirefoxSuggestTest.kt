@@ -230,9 +230,6 @@ false
 isWallpaperOnboardingEnabled
 =
 false
-tabsTrayRewriteEnabled
-=
-false
 )
 )
 {

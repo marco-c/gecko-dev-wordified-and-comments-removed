@@ -401,9 +401,6 @@ withDefaultSettingsOverrides
 skipOnboarding
 =
 true
-tabsTrayRewriteEnabled
-=
-true
 )
 )
 {
@@ -481,7 +478,7 @@ url
 {
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )
@@ -539,7 +536,7 @@ url
 {
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )
@@ -622,7 +619,7 @@ url
 {
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )
@@ -719,7 +716,7 @@ waitForPageToLoad
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )
@@ -770,7 +767,7 @@ waitForPageToLoad
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )
@@ -871,7 +868,7 @@ url
 {
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )
@@ -991,7 +988,7 @@ PLAYING
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )
@@ -1153,7 +1150,7 @@ homeScreen
 {
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )
@@ -1331,7 +1328,7 @@ homeScreen
 {
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )
@@ -1405,7 +1402,7 @@ homeScreen
 {
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )
@@ -1503,7 +1500,7 @@ url
 {
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )
@@ -1622,7 +1619,7 @@ homeScreen
 {
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )
@@ -1650,7 +1647,7 @@ toString
 {
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )
@@ -2363,7 +2360,7 @@ navigationToolbar
 {
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )
@@ -2510,7 +2507,7 @@ content
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )
@@ -2540,7 +2537,7 @@ content
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )
@@ -2666,7 +2663,7 @@ verifyPrivateBrowsingHomeScreenItems
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )
@@ -2757,7 +2754,7 @@ url
 {
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )
@@ -2799,7 +2796,7 @@ verifyPrivateBrowsingHomeScreenItems
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )

@@ -266,9 +266,6 @@ HomeActivityIntentTestRule
 .
 withDefaultSettingsOverrides
 (
-tabsTrayRewriteEnabled
-=
-true
 )
 )
 {
@@ -351,7 +348,7 @@ waitForIdle
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 activityTestRule
 )
@@ -516,7 +513,7 @@ waitForIdle
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 activityTestRule
 )
@@ -639,7 +636,7 @@ waitForPageToLoad
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 activityTestRule
 )
@@ -666,7 +663,7 @@ waitForPageToLoad
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 activityTestRule
 )
@@ -767,7 +764,7 @@ toString
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 activityTestRule
 )
@@ -853,7 +850,7 @@ waitForPageToLoad
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 activityTestRule
 )
@@ -880,7 +877,7 @@ waitForPageToLoad
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 activityTestRule
 )
@@ -981,7 +978,7 @@ toString
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 activityTestRule
 )
@@ -1092,7 +1089,7 @@ waitForPageToLoad
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 activityTestRule
 )
@@ -1119,7 +1116,7 @@ waitForPageToLoad
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 activityTestRule
 )
@@ -1263,7 +1260,7 @@ waitForPageToLoad
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 activityTestRule
 )
@@ -1290,7 +1287,7 @@ waitForPageToLoad
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 activityTestRule
 )
@@ -1385,7 +1382,7 @@ waitForPageToLoad
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 activityTestRule
 )
@@ -1412,7 +1409,7 @@ waitForPageToLoad
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 activityTestRule
 )

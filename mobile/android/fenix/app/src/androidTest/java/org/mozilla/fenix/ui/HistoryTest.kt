@@ -317,9 +317,6 @@ AndroidComposeTestRule
 (
 HomeActivityIntentTestRule
 (
-tabsTrayRewriteEnabled
-=
-true
 isJumpBackInCFREnabled
 =
 false
@@ -945,7 +942,7 @@ waitForIdle
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 activityTestRule
 )

@@ -244,9 +244,6 @@ HomeActivityTestRule
 .
 withDefaultSettingsOverrides
 (
-tabsTrayRewriteEnabled
-=
-true
 )
 )
 {
@@ -656,7 +653,7 @@ toString
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 activityTestRule
 )
@@ -697,7 +694,7 @@ toString
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 activityTestRule
 )

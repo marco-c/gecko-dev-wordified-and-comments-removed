@@ -261,9 +261,6 @@ false
 isTCPCFREnabled
 =
 false
-tabsTrayRewriteEnabled
-=
-true
 )
 )
 {
@@ -320,7 +317,7 @@ clickTabCrashedCloseButton
 {
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 activityTestRule
 )
@@ -492,7 +489,7 @@ waitForIdle
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 activityTestRule
 )
@@ -530,7 +527,7 @@ tabCrashMessage
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 activityTestRule
 )

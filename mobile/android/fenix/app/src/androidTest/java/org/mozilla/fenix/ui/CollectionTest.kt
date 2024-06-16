@@ -311,9 +311,6 @@ false
 isTCPCFREnabled
 =
 false
-tabsTrayRewriteEnabled
-=
-true
 )
 )
 {
@@ -389,7 +386,7 @@ waitForIdle
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )
@@ -617,7 +614,7 @@ url
 {
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )
@@ -863,7 +860,7 @@ waitForPageToLoad
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )
@@ -890,7 +887,7 @@ waitForPageToLoad
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )
@@ -1042,7 +1039,7 @@ url
 {
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )
@@ -1069,7 +1066,7 @@ waitForPageToLoad
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )
@@ -1217,7 +1214,7 @@ url
 {
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )
@@ -1392,7 +1389,7 @@ url
 {
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )
@@ -1550,7 +1547,7 @@ url
 {
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )
@@ -1687,7 +1684,7 @@ url
 {
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )
@@ -1814,7 +1811,7 @@ url
 {
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )
@@ -1838,7 +1835,7 @@ toString
 {
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )
@@ -1936,7 +1933,7 @@ url
 {
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )
@@ -2094,7 +2091,7 @@ waitForPageToLoad
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )
@@ -2246,7 +2243,7 @@ waitForPageToLoad
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )
@@ -2406,7 +2403,7 @@ waitForPageToLoad
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )
@@ -2433,7 +2430,7 @@ waitForPageToLoad
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )
@@ -2575,7 +2572,7 @@ url
 {
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 composeTestRule
 )

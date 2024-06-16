@@ -573,9 +573,6 @@ false
 isWallpaperOnboardingEnabled
 =
 false
-tabsTrayRewriteEnabled
-=
-true
 )
 )
 {
@@ -1753,7 +1750,7 @@ waitForPageToLoad
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 activityTestRule
 )
@@ -2065,7 +2062,7 @@ waitForPageToLoad
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 activityTestRule
 )
@@ -2258,7 +2255,7 @@ waitForPageToLoad
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 activityTestRule
 )
@@ -2414,7 +2411,7 @@ tab
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 activityTestRule
 )
@@ -2432,7 +2429,7 @@ openPrivateTab
 {
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 activityTestRule
 )
@@ -2446,7 +2443,7 @@ openPrivateTab
 {
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 activityTestRule
 )
@@ -2705,7 +2702,7 @@ waitForPageToLoad
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 activityTestRule
 )
@@ -2995,7 +2992,7 @@ waitForPageToLoad
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 activityTestRule
 )
@@ -3301,7 +3298,7 @@ waitForPageToLoad
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 activityTestRule
 )
@@ -3410,8 +3407,11 @@ multipleSelectionToolbar
 }
 .
 clickOpenPrivateTab
+(
+activityTestRule
+)
 {
-verifyPrivateModeSelected
+verifyPrivateBrowsingButtonIsSelected
 (
 )
 }
@@ -3612,7 +3612,7 @@ waitForPageToLoad
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 activityTestRule
 )
@@ -4833,7 +4833,7 @@ verifyTabCounter
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 activityTestRule
 )

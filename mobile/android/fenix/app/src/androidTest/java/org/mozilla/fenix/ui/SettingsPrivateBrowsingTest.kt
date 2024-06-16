@@ -242,9 +242,6 @@ withDefaultSettingsOverrides
 skipOnboarding
 =
 true
-tabsTrayRewriteEnabled
-=
-true
 )
 )
 {
@@ -399,7 +396,7 @@ toString
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 activityTestRule
 )
@@ -461,7 +458,7 @@ toString
 )
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 activityTestRule
 )
@@ -581,7 +578,7 @@ browserScreen
 {
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 activityTestRule
 )
@@ -604,7 +601,7 @@ pageShortcutName
 {
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 activityTestRule
 )
@@ -630,7 +627,7 @@ pageShortcutName
 {
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 activityTestRule
 )
@@ -709,7 +706,7 @@ openBrowser
 {
 }
 .
-openComposeTabDrawer
+openTabDrawer
 (
 activityTestRule
 )

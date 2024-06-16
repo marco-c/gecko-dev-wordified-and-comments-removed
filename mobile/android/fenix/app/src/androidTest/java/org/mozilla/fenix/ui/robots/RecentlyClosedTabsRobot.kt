@@ -955,7 +955,7 @@ testRule
 HomeActivityComposeTestRule
 interact
 :
-ComposeTabDrawerRobot
+TabDrawerRobot
 .
 (
 )
@@ -964,7 +964,7 @@ ComposeTabDrawerRobot
 Unit
 )
 :
-ComposeTabDrawerRobot
+TabDrawerRobot
 .
 Transition
 {
@@ -1031,7 +1031,7 @@ menu
 button
 "
 )
-ComposeTabDrawerRobot
+TabDrawerRobot
 (
 testRule
 )
@@ -1040,7 +1040,7 @@ interact
 (
 )
 return
-ComposeTabDrawerRobot
+TabDrawerRobot
 .
 Transition
 (
@@ -1055,7 +1055,7 @@ testRule
 HomeActivityComposeTestRule
 interact
 :
-ComposeTabDrawerRobot
+TabDrawerRobot
 .
 (
 )
@@ -1064,7 +1064,7 @@ ComposeTabDrawerRobot
 Unit
 )
 :
-ComposeTabDrawerRobot
+TabDrawerRobot
 .
 Transition
 {
@@ -1131,7 +1131,7 @@ menu
 button
 "
 )
-ComposeTabDrawerRobot
+TabDrawerRobot
 (
 testRule
 )
@@ -1140,7 +1140,7 @@ interact
 (
 )
 return
-ComposeTabDrawerRobot
+TabDrawerRobot
 .
 Transition
 (
