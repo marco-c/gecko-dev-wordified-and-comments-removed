@@ -728,6 +728,7 @@ prefs
 getBoolPref
 (
 UPLOAD_ENABLED_PREF
+false
 )
 &
 &
@@ -738,6 +739,7 @@ prefs
 getBoolPref
 (
 STUDIES_OPT_OUT_PREF
+false
 )
 )
 ;
