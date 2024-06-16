@@ -4641,7 +4641,7 @@ rolloutCleanup
 await
 ExperimentFakes
 .
-enrollWithRollout
+enrollWithFeatureConfig
 (
 {
 featureId
@@ -4659,6 +4659,9 @@ true
 }
 {
 manager
+isRollout
+:
+true
 }
 )
 ;

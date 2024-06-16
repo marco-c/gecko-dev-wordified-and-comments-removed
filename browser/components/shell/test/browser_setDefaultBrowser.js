@@ -350,7 +350,7 @@ doCleanup
 await
 ExperimentFakes
 .
-enrollWithRollout
+enrollWithFeatureConfig
 (
 {
 featureId
@@ -370,6 +370,11 @@ enabled
 :
 true
 }
+}
+{
+isRollout
+:
+true
 }
 )
 ;
@@ -624,7 +629,7 @@ doCleanup
 await
 ExperimentFakes
 .
-enrollWithRollout
+enrollWithFeatureConfig
 (
 {
 featureId
@@ -647,6 +652,11 @@ enabled
 :
 true
 }
+}
+{
+isRollout
+:
+true
 }
 )
 ;

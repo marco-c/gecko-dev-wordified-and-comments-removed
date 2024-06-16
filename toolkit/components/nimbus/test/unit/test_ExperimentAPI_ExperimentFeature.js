@@ -295,7 +295,7 @@ FAKE_FEATURE_MANIFEST
 await
 ExperimentFakes
 .
-enrollWithRollout
+enrollWithFeatureConfig
 (
 {
 featureId
@@ -318,6 +318,9 @@ true
 }
 {
 manager
+isRollout
+:
+true
 }
 )
 ;
