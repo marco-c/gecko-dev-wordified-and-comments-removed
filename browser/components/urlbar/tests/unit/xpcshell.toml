@@ -484,6 +484,13 @@ js
 ]
 [
 "
+test_provider_notification
+.
+js
+"
+]
+[
+"
 test_providerAliasEngines
 .
 js

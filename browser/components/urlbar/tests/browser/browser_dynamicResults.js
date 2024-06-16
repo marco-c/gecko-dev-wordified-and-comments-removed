@@ -3810,12 +3810,11 @@ searchString
 }
 ;
 }
-onLegacyEngagement
+onEngagement
 (
-state
 queryContext
+controller
 details
-_controller
 )
 {
 if

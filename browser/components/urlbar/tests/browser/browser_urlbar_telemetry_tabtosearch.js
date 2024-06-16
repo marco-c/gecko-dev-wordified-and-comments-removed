@@ -354,26 +354,6 @@ ENGINE_DOMAIN
 }
 )
 ;
-UrlbarProviderTabToSearch
-.
-enginesShown
-.
-regular
-.
-clear
-(
-)
-;
-UrlbarProviderTabToSearch
-.
-enginesShown
-.
-onboarding
-.
-clear
-(
-)
-;
 let
 oldCanRecord
 =
@@ -1235,7 +1215,7 @@ tabtosearch
 -
 shown
 "
-3
+2
 )
 ;
 TelemetryTestUtils
@@ -1263,7 +1243,7 @@ impressions
 "
 other
 "
-3
+2
 )
 ;
 info
@@ -1443,7 +1423,7 @@ tabtosearch
 -
 shown
 "
-4
+3
 )
 ;
 TelemetryTestUtils
@@ -1471,7 +1451,7 @@ impressions
 "
 other
 "
-4
+3
 )
 ;
 info
@@ -1641,7 +1621,7 @@ tabtosearch
 -
 shown
 "
-5
+4
 )
 ;
 TelemetryTestUtils
@@ -1669,7 +1649,7 @@ impressions
 "
 other
 "
-5
+4
 )
 ;
 info
@@ -1776,7 +1756,7 @@ tabtosearch
 -
 shown
 "
-6
+5
 )
 ;
 TelemetryTestUtils
@@ -1804,7 +1784,7 @@ impressions
 "
 other
 "
-6
+5
 )
 ;
 info
@@ -1981,7 +1961,7 @@ tabtosearch
 -
 shown
 "
-8
+7
 )
 ;
 TelemetryTestUtils
@@ -2009,7 +1989,7 @@ impressions
 "
 other
 "
-8
+7
 )
 ;
 await
