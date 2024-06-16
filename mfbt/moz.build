@@ -515,6 +515,11 @@ StaticAnalysisFunctions
 h
 "
 "
+StringBuffer
+.
+h
+"
+"
 TaggedAnonymousMemory
 .
 h

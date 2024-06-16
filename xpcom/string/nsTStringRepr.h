@@ -49,7 +49,9 @@ h
 #
 include
 "
-nsStringBuffer
+mozilla
+/
+StringBuffer
 .
 h
 "
@@ -267,7 +269,10 @@ T
 +
 sizeof
 (
-nsStringBuffer
+mozilla
+:
+:
+StringBuffer
 )
 )
 .
@@ -280,7 +285,10 @@ required
 to
 allocate
 a
-nsStringBuffer
+mozilla
+:
+:
+StringBuffer
 for
 a
 "

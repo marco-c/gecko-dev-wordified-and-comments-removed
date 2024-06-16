@@ -39,7 +39,9 @@ h
 #
 include
 "
-nsStringBuffer
+mozilla
+/
+StringBuffer
 .
 h
 "
@@ -335,7 +337,10 @@ aUpdateBidi
 {
 if
 (
-nsStringBuffer
+mozilla
+:
+:
+StringBuffer
 *
 buffer
 =
@@ -1026,7 +1031,10 @@ aLength
 ;
 union
 {
-nsStringBuffer
+mozilla
+:
+:
+StringBuffer
 *
 m2b
 ;

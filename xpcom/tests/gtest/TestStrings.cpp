@@ -43,7 +43,9 @@ h
 #
 include
 "
-nsStringBuffer
+mozilla
+/
+StringBuffer
 .
 h
 "
@@ -263,6 +265,12 @@ mozilla
 :
 :
 Span
+;
+using
+mozilla
+:
+:
+StringBuffer
 ;
 #
 define
@@ -7590,13 +7598,13 @@ world
 ;
 RefPtr
 <
-nsStringBuffer
+StringBuffer
 >
 buf
 ;
 buf
 =
-nsStringBuffer
+StringBuffer
 :
 :
 Alloc
@@ -7616,7 +7624,7 @@ buf
 ;
 buf
 =
-nsStringBuffer
+StringBuffer
 :
 :
 Alloc
@@ -7675,7 +7683,7 @@ kData
 1
 )
 ;
-nsStringBuffer
+StringBuffer
 *
 buf2
 =

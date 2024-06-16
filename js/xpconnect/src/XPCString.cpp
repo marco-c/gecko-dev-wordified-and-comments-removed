@@ -15,7 +15,9 @@ h
 #
 include
 "
-nsStringBuffer
+mozilla
+/
+StringBuffer
 .
 h
 "
@@ -36,6 +38,12 @@ h
 using
 namespace
 JS
+;
+using
+mozilla
+:
+:
+StringBuffer
 ;
 const
 XPCStringConvert
@@ -163,11 +171,11 @@ aChars
 )
 const
 {
-nsStringBuffer
+StringBuffer
 *
 buf
 =
-nsStringBuffer
+StringBuffer
 :
 :
 FromData
@@ -198,11 +206,11 @@ aChars
 )
 const
 {
-nsStringBuffer
+StringBuffer
 *
 buf
 =
-nsStringBuffer
+StringBuffer
 :
 :
 FromData
@@ -249,11 +257,11 @@ AutoCheckCannotGC
 autoCannotGC
 ;
 const
-nsStringBuffer
+StringBuffer
 *
 buf
 =
-nsStringBuffer
+StringBuffer
 :
 :
 FromData
@@ -309,11 +317,11 @@ AutoCheckCannotGC
 autoCannotGC
 ;
 const
-nsStringBuffer
+StringBuffer
 *
 buf
 =
-nsStringBuffer
+StringBuffer
 :
 :
 FromData
@@ -351,7 +359,7 @@ const
 nsAString
 &
 readable
-nsStringBuffer
+StringBuffer
 *
 *
 sharedBuffer
@@ -398,7 +406,7 @@ vp
 }
 if
 (
-nsStringBuffer
+StringBuffer
 *
 buf
 =
@@ -494,7 +502,7 @@ const
 nsACString
 &
 latin1
-nsStringBuffer
+StringBuffer
 *
 *
 sharedBuffer
@@ -552,7 +560,7 @@ vp
 }
 if
 (
-nsStringBuffer
+StringBuffer
 *
 buf
 =
@@ -648,7 +656,7 @@ const
 nsACString
 &
 utf8
-nsStringBuffer
+StringBuffer
 *
 *
 sharedBuffer
@@ -701,7 +709,7 @@ vp
 }
 if
 (
-nsStringBuffer
+StringBuffer
 *
 buf
 =
@@ -806,7 +814,7 @@ MutableHandleValue
 rval
 )
 {
-nsStringBuffer
+StringBuffer
 *
 sharedBuffer
 ;
@@ -860,7 +868,7 @@ MutableHandleValue
 rval
 )
 {
-nsStringBuffer
+StringBuffer
 *
 sharedBuffer
 ;
@@ -914,7 +922,7 @@ MutableHandleValue
 rval
 )
 {
-nsStringBuffer
+StringBuffer
 *
 sharedBuffer
 ;
@@ -968,7 +976,7 @@ MutableHandleValue
 rval
 )
 {
-nsStringBuffer
+StringBuffer
 *
 sharedBuffer
 ;
@@ -1022,7 +1030,7 @@ MutableHandleValue
 rval
 )
 {
-nsStringBuffer
+StringBuffer
 *
 sharedBuffer
 ;
@@ -1076,7 +1084,7 @@ MutableHandleValue
 rval
 )
 {
-nsStringBuffer
+StringBuffer
 *
 sharedBuffer
 ;

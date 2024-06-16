@@ -585,7 +585,7 @@ else
 {
 m2b
 =
-nsStringBuffer
+StringBuffer
 :
 :
 Alloc
@@ -1613,7 +1613,7 @@ false
 }
 m2b
 =
-nsStringBuffer
+StringBuffer
 :
 :
 Alloc
@@ -1988,13 +1988,13 @@ sizeof
 char16_t
 )
 ;
-nsStringBuffer
+StringBuffer
 *
 buff
 =
 nullptr
 ;
-nsStringBuffer
+StringBuffer
 *
 bufferToRelease
 =
@@ -2012,7 +2012,7 @@ IsReadonly
 {
 buff
 =
-nsStringBuffer
+StringBuffer
 :
 :
 Alloc
@@ -2074,7 +2074,7 @@ else
 {
 buff
 =
-nsStringBuffer
+StringBuffer
 :
 :
 Realloc
@@ -2231,11 +2231,11 @@ sizeof
 char16_t
 )
 ;
-nsStringBuffer
+StringBuffer
 *
 buff
 =
-nsStringBuffer
+StringBuffer
 :
 :
 Alloc

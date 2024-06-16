@@ -14,7 +14,9 @@ h
 #
 include
 "
-nsStringBuffer
+mozilla
+/
+StringBuffer
 .
 h
 "
@@ -193,7 +195,7 @@ MOZ_ASSERT
 mDataInitialized
 )
 ;
-nsStringBuffer
+StringBuffer
 :
 :
 FromData
@@ -219,7 +221,7 @@ aString
 {
 RefPtr
 <
-nsStringBuffer
+StringBuffer
 >
 sharedBuffer
 =
@@ -509,11 +511,11 @@ else
 {
 RefPtr
 <
-nsStringBuffer
+StringBuffer
 >
 buf
 =
-nsStringBuffer
+StringBuffer
 :
 :
 Alloc
@@ -596,7 +598,7 @@ true
 }
 RefPtr
 <
-nsStringBuffer
+StringBuffer
 >
 buffer
 ;
@@ -614,7 +616,7 @@ buffer
 =
 dont_AddRef
 (
-nsStringBuffer
+StringBuffer
 :
 :
 FromData
@@ -718,7 +720,7 @@ AssignFromStringBuffer
 (
 already_AddRefed
 <
-nsStringBuffer
+StringBuffer
 >
 aBuffer
 size_t
@@ -1023,7 +1025,7 @@ REFCOUNTED
 &
 &
 !
-nsStringBuffer
+StringBuffer
 :
 :
 FromData
@@ -1279,6 +1281,9 @@ nsTString
 }
 ;
 }
+namespace
+mozilla
+{
 template
 <
 typename
@@ -1288,14 +1293,11 @@ inline
 void
 AssignFromStringBuffer
 (
-nsStringBuffer
+StringBuffer
 *
 aBuffer
 size_t
 aLength
-mozilla
-:
-:
 dom
 :
 :
@@ -1321,6 +1323,7 @@ aBuffer
 aLength
 )
 ;
+}
 }
 #
 endif

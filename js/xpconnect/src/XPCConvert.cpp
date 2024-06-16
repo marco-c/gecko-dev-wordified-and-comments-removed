@@ -1014,7 +1014,7 @@ return
 true
 ;
 }
-nsStringBuffer
+StringBuffer
 *
 buf
 ;
@@ -1464,7 +1464,7 @@ utf8String
 )
 )
 {
-nsStringBuffer
+StringBuffer
 *
 buf
 ;
@@ -1683,7 +1683,7 @@ return
 true
 ;
 }
-nsStringBuffer
+StringBuffer
 *
 buf
 ;

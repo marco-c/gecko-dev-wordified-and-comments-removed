@@ -603,7 +603,10 @@ return
 count
 ;
 }
-nsStringBuffer
+mozilla
+:
+:
+StringBuffer
 *
 StringBuffer
 (
@@ -679,7 +682,10 @@ nsDynamicAtom
 (
 already_AddRefed
 <
-nsStringBuffer
+mozilla
+:
+:
+StringBuffer
 >
 uint32_t
 aLength
@@ -726,7 +732,10 @@ mRefCnt
 ;
 RefPtr
 <
-nsStringBuffer
+mozilla
+:
+:
+StringBuffer
 >
 mStringBuffer
 ;

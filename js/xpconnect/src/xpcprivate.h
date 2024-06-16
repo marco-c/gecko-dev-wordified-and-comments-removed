@@ -509,13 +509,6 @@ h
 #
 include
 "
-nsStringBuffer
-.
-h
-"
-#
-include
-"
 nsDeque
 .
 h

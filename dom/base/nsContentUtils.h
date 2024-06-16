@@ -573,6 +573,9 @@ class
 PresShell
 ;
 class
+StringBuffer
+;
+class
 TextEditor
 ;
 class

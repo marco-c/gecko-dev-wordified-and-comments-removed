@@ -257,7 +257,7 @@ Length
 ;
 if
 (
-nsStringBuffer
+StringBuffer
 *
 buf
 =

@@ -649,13 +649,6 @@ h
 #
 include
 "
-nsStringBuffer
-.
-h
-"
-#
-include
-"
 nsIFileChannel
 .
 h

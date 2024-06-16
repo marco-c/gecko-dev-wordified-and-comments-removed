@@ -15302,7 +15302,7 @@ about
 performance
 have
 an
-nsStringBuffer
+StringBuffer
 available
 and
 promise
@@ -15311,7 +15311,7 @@ hold
 on
 to
 the
-nsStringBuffer
+StringBuffer
 at
 least
 until
@@ -15340,7 +15340,7 @@ SetStringBuffer
 method
 with
 the
-nsStringBuffer
+StringBuffer
 and
 its
 length
@@ -15381,7 +15381,7 @@ having
 to
 addref
 the
-nsStringBuffer
+StringBuffer
 .
 #
 #

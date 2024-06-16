@@ -310,13 +310,6 @@ h
 #
 include
 "
-nsStringBuffer
-.
-h
-"
-#
-include
-"
 nsThread
 .
 h

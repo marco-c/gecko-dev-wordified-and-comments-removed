@@ -70,7 +70,9 @@ h
 #
 include
 "
-nsStringBuffer
+mozilla
+/
+StringBuffer
 .
 h
 "
@@ -121,7 +123,10 @@ aCx
 )
 )
 ;
-nsStringBuffer
+mozilla
+:
+:
+StringBuffer
 *
 sharedBuffer
 ;

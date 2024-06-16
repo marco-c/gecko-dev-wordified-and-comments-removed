@@ -72,11 +72,6 @@ nsString
 h
 "
 "
-nsStringBuffer
-.
-h
-"
-"
 nsStringFlags
 .
 h
@@ -170,11 +165,6 @@ cpp
 "
 "
 nsReadableUtils
-.
-cpp
-"
-"
-nsStringBuffer
 .
 cpp
 "

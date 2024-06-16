@@ -26,7 +26,9 @@ h
 #
 include
 "
-nsStringBuffer
+mozilla
+/
+StringBuffer
 .
 h
 "
@@ -380,7 +382,10 @@ public
 explicit
 nsCheapString
 (
-nsStringBuffer
+mozilla
+:
+:
+StringBuffer
 *
 aBuf
 )
@@ -1475,7 +1480,10 @@ GetStoredAtom
 )
 const
 ;
-nsStringBuffer
+mozilla
+:
+:
+StringBuffer
 *
 GetStoredStringBuffer
 (
@@ -1646,7 +1654,10 @@ EnsureEmptyMiscContainer
 ;
 already_AddRefed
 <
-nsStringBuffer
+mozilla
+:
+:
+StringBuffer
 >
 GetStringBuffer
 (

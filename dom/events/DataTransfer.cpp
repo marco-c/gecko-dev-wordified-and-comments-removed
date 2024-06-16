@@ -5052,11 +5052,11 @@ inputStream
 ;
 RefPtr
 <
-nsStringBuffer
+StringBuffer
 >
 stringBuffer
 =
-nsStringBuffer
+StringBuffer
 :
 :
 Alloc
