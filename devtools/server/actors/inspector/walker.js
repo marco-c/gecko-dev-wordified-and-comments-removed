@@ -1567,7 +1567,10 @@ hasEventListeners
 :
 actor
 .
-_hasEventListeners
+hasEventListeners
+(
+true
+)
 }
 ;
 this
