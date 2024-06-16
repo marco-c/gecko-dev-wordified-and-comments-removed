@@ -142,10 +142,10 @@ content
 more
 info
 "
-source
+feature
 =
 "
-FEATURE_HIGHLIGHT_SPONSORED_CONTENT
+SPONSORED_CONTENT_INFO
 "
 dispatch
 =
