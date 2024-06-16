@@ -5,7 +5,10 @@ crate
 applicable_declarations
 :
 :
+{
 ApplicableDeclarationList
+ScopeProximity
+}
 ;
 use
 crate
@@ -1365,6 +1368,12 @@ to_applicable_declaration_block
 (
 cascade_level
 cascade_data
+ScopeProximity
+:
+:
+infinity
+(
+)
 )
 )
 ;
