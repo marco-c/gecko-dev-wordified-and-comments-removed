@@ -540,8 +540,6 @@ rendering
 const
 scale
 =
-win
-.
 browsingContext
 .
 overrideDPPX
