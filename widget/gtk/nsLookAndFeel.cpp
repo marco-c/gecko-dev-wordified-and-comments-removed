@@ -4516,7 +4516,7 @@ MenusCanOverlapOSBar
 :
 aResult
 =
-0
+1
 ;
 break
 ;
