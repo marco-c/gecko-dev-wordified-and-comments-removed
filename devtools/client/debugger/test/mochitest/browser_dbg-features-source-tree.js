@@ -1726,7 +1726,7 @@ thread
 >
 thread
 .
-name
+url
 =
 =
 testServer
