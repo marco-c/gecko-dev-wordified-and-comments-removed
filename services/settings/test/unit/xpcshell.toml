@@ -40,6 +40,9 @@ unit
 head_helpers
 .
 js
+head_settings
+.
+js
 "
 firefox
 -
