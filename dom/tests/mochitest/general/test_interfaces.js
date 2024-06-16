@@ -1825,7 +1825,7 @@ CSSStartingStyleRule
 insecureContext
 :
 true
-nightly
+disabled
 :
 true
 }
