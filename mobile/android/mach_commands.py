@@ -998,7 +998,6 @@ tarfile
 .
 open
 (
-        
 os
 .
 path
@@ -1018,10 +1017,7 @@ xz
 )
 "
 w
-|
-xz
 "
-    
 )
 as
 tar
