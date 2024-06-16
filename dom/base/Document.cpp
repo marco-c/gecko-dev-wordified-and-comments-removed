@@ -62080,6 +62080,15 @@ HighlightAndGoToTextFragment
 true
 )
 ;
+FragmentDirective
+(
+)
+-
+>
+ClearUninvokedDirectives
+(
+)
+;
 if
 (
 didScrollToTextFragment
