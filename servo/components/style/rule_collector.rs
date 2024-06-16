@@ -1671,7 +1671,7 @@ host_rules
 match
 style_data
 .
-host_rules
+featureless_host_rules
 (
 self
 .
