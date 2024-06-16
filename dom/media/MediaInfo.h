@@ -2556,7 +2556,7 @@ const
 uint32_t
 MAX_RATE
 =
-640000
+768000
 ;
 static
 const
