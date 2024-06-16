@@ -5075,6 +5075,15 @@ aTriggeringPrincipal
 &
 &
 !
+StaticPrefs
+:
+:
+security_allow_disjointed_external_uri_loads
+(
+)
+&
+&
+!
 BasePrincipal
 :
 :
