@@ -2186,8 +2186,10 @@ null
 {
 can_load
 :
+(
 !
 corrupted
+)
 .
 toString
 (
