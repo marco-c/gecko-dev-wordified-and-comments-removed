@@ -10341,11 +10341,6 @@ network_unittest
 cc
 "
 "
-proxy_unittest
-.
-cc
-"
-"
 rolling_accumulator_unittest
 .
 cc
