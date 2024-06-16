@@ -344,7 +344,7 @@ mozpng
 FINAL_LIBRARY
 =
 '
-gkmedias
+xul
 '
 AllowCompilerWarnings
 (

@@ -28,6 +28,9 @@ style
 base
 "
 "
+build
+"
+"
 generic
 "
 "
@@ -115,17 +118,6 @@ TEST_DIRS
 tools
 /
 reftest
-"
-]
-DIRS
-+
-=
-[
-"
-build
-"
-"
-media
 "
 ]
 if

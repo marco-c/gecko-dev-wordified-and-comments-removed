@@ -138,7 +138,7 @@ if
 CONFIG
 [
 '
-CPU_ARCH
+TARGET_CPU
 '
 ]
 =
@@ -270,7 +270,7 @@ elif
 CONFIG
 [
 '
-CPU_ARCH
+TARGET_CPU
 '
 ]
 in
@@ -303,7 +303,7 @@ expected
 CONFIG
 [
 '
-CPU_ARCH
+TARGET_CPU
 '
 ]
 )
@@ -1927,7 +1927,7 @@ h
 FINAL_LIBRARY
 =
 '
-gkmedias
+xul
 '
 AllowCompilerWarnings
 (

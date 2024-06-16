@@ -37,7 +37,7 @@ mozbuild
 FINAL_LIBRARY
 =
 '
-gkmedias
+xul
 '
 AllowCompilerWarnings
 (

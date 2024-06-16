@@ -294,7 +294,7 @@ AllowCompilerWarnings
 FINAL_LIBRARY
 =
 '
-gkmedias
+xul
 '
 LOCAL_INCLUDES
 +

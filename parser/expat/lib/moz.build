@@ -48,7 +48,7 @@ expat_sources
 FINAL_LIBRARY
 =
 '
-gkmedias
+xul
 '
 for
 k

@@ -37,7 +37,7 @@ AllowCompilerWarnings
 FINAL_LIBRARY
 =
 '
-gkmedias
+xul
 '
 DEFINES
 [
@@ -120,7 +120,7 @@ if
 CONFIG
 [
 '
-CPU_ARCH
+TARGET_CPU
 '
 ]
 =

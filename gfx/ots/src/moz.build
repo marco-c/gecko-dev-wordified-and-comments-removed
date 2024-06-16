@@ -286,7 +286,7 @@ AllowCompilerWarnings
 FINAL_LIBRARY
 =
 '
-gkmedias
+xul
 '
 DEFINES
 [

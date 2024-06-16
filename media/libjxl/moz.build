@@ -1616,7 +1616,7 @@ JPEGXL_ENABLE_TRANSCODE_JPEG
 FINAL_LIBRARY
 =
 "
-gkmedias
+xul
 "
 AllowCompilerWarnings
 (
