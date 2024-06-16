@@ -236,6 +236,7 @@ trimmedSearchString
 .
 length
 >
+=
 lazy
 .
 UrlbarPrefs
