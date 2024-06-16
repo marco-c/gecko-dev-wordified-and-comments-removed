@@ -242,13 +242,6 @@ test_bfcache_telemetry
 (
 Services
 .
-appinfo
-.
-sessionHistoryInParent
-&
-&
-Services
-.
 prefs
 .
 getBoolPref

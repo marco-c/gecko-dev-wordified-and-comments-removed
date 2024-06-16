@@ -1817,14 +1817,6 @@ Services
 appinfo
 .
 fissionAutostart
-|
-|
-!
-Services
-.
-appinfo
-.
-sessionHistoryInParent
 )
 {
 ok
@@ -1835,8 +1827,6 @@ Skipping
 test_wireframes
 when
 Fission
-or
-SHIP
 is
 not
 enabled
