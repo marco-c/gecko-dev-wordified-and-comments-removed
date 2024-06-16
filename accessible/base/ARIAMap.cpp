@@ -478,7 +478,7 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
-kGenericAccType
+eDPub
 kNoReqStates
 }
 {
@@ -526,6 +526,8 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+eDPub
+|
 eLandmark
 kNoReqStates
 }
@@ -542,7 +544,7 @@ kUseMapRole
 eNoValue
 eJumpAction
 eNoLiveAttr
-kGenericAccType
+eDPub
 states
 :
 :
@@ -561,7 +563,7 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
-kGenericAccType
+eDPub
 states
 :
 :
@@ -580,6 +582,8 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+eDPub
+|
 eLandmark
 kNoReqStates
 }
@@ -596,7 +600,7 @@ kUseMapRole
 eNoValue
 eJumpAction
 eNoLiveAttr
-kGenericAccType
+eDPub
 states
 :
 :
@@ -615,6 +619,8 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+eDPub
+|
 eLandmark
 kNoReqStates
 }
@@ -631,7 +637,7 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
-kGenericAccType
+eDPub
 kNoReqStates
 }
 {
@@ -647,6 +653,8 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+eDPub
+|
 eLandmark
 kNoReqStates
 }
@@ -663,7 +671,7 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
-kGenericAccType
+eDPub
 kNoReqStates
 }
 {
@@ -679,7 +687,7 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
-kGenericAccType
+eDPub
 kNoReqStates
 }
 {
@@ -695,6 +703,8 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+eDPub
+|
 eLandmark
 kNoReqStates
 }
@@ -711,7 +721,7 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
-kGenericAccType
+eDPub
 kNoReqStates
 }
 {
@@ -727,7 +737,7 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
-kGenericAccType
+eDPub
 states
 :
 :
@@ -746,6 +756,8 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+eDPub
+|
 eLandmark
 kNoReqStates
 }
@@ -762,7 +774,7 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
-kGenericAccType
+eDPub
 kNoReqStates
 }
 {
@@ -778,6 +790,8 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+eDPub
+|
 eLandmark
 kNoReqStates
 }
@@ -794,6 +808,8 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+eDPub
+|
 eLandmark
 kNoReqStates
 }
@@ -805,12 +821,12 @@ docExample
 roles
 :
 :
-SECTION
+FIGURE
 kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
-kGenericAccType
+eDPub
 kNoReqStates
 }
 {
@@ -826,6 +842,8 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+eDPub
+|
 eLandmark
 kNoReqStates
 }
@@ -842,6 +860,8 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+eDPub
+|
 eLandmark
 kNoReqStates
 }
@@ -858,6 +878,8 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+eDPub
+|
 eLandmark
 kNoReqStates
 }
@@ -874,7 +896,7 @@ kUseMapRole
 eNoValue
 eJumpAction
 eNoLiveAttr
-kGenericAccType
+eDPub
 states
 :
 :
@@ -893,6 +915,8 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+eDPub
+|
 eLandmark
 kNoReqStates
 }
@@ -909,6 +933,8 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+eDPub
+|
 eLandmark
 kNoReqStates
 }
@@ -925,7 +951,7 @@ kUseMapRole
 eNoValue
 eJumpAction
 eNoLiveAttr
-kGenericAccType
+eDPub
 states
 :
 :
@@ -944,7 +970,7 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
-kGenericAccType
+eDPub
 kNoReqStates
 }
 {
@@ -960,7 +986,39 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
-kGenericAccType
+eDPub
+kNoReqStates
+}
+{
+nsGkAtoms
+:
+:
+docPagefooter
+roles
+:
+:
+SECTION
+kUseMapRole
+eNoValue
+eNoAction
+eNoLiveAttr
+eDPub
+kNoReqStates
+}
+{
+nsGkAtoms
+:
+:
+docPageheader
+roles
+:
+:
+SECTION
+kUseMapRole
+eNoValue
+eNoAction
+eNoLiveAttr
+eDPub
 kNoReqStates
 }
 {
@@ -976,6 +1034,8 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+eDPub
+|
 eLandmark
 kNoReqStates
 }
@@ -992,6 +1052,8 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+eDPub
+|
 eLandmark
 kNoReqStates
 }
@@ -1008,6 +1070,8 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+eDPub
+|
 eLandmark
 kNoReqStates
 }
@@ -1024,6 +1088,8 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+eDPub
+|
 eLandmark
 kNoReqStates
 }
@@ -1040,7 +1106,7 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
-kGenericAccType
+eDPub
 kNoReqStates
 }
 {
@@ -1056,7 +1122,7 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
-kGenericAccType
+eDPub
 kNoReqStates
 }
 {
@@ -1072,7 +1138,7 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
-kGenericAccType
+eDPub
 kNoReqStates
 }
 {
@@ -1088,7 +1154,7 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
-kGenericAccType
+eDPub
 kNoReqStates
 }
 {
@@ -1104,6 +1170,8 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+eDPub
+|
 eLandmark
 kNoReqStates
 }
