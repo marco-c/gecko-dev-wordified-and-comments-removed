@@ -1508,12 +1508,6 @@ case
 roles
 :
 :
-ROWGROUP
-:
-case
-roles
-:
-:
 TREE_TABLE
 :
 case

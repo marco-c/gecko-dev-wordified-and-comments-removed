@@ -1853,7 +1853,7 @@ rowgroup
 roles
 :
 :
-ROWGROUP
+GROUPING
 kUseMapRole
 eNoValue
 eNoAction
