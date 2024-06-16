@@ -319,15 +319,7 @@ onclose
 ;
 attribute
 EventHandler
-oncontextlost
-;
-attribute
-EventHandler
 oncontextmenu
-;
-attribute
-EventHandler
-oncontextrestored
 ;
 attribute
 EventHandler
