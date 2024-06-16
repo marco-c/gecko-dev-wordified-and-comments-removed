@@ -298,15 +298,6 @@ val
 ;
 }
 case
-LOCAL_GL_MAX_CLIENT_WAIT_TIMEOUT_WEBGL
-:
-return
-Some
-(
-kMaxClientWaitSyncTimeoutNS
-)
-;
-case
 LOCAL_GL_MAX_ELEMENT_INDEX
 :
 if
