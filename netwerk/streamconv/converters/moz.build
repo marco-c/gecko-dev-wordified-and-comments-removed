@@ -92,3 +92,14 @@ netwerk
 base
 "
 ]
+DIRS
++
+=
+[
+"
+/
+third_party
+/
+zstd
+"
+]

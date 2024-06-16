@@ -142,6 +142,7 @@ Encoding
 gzip
 deflate
 br
+zstd
 "
 "
 X
@@ -472,6 +473,7 @@ Encoding
 gzip
 deflate
 br
+zstd
 "
 "
 X
@@ -814,6 +816,7 @@ Encoding
 gzip
 deflate
 br
+zstd
 "
 "
 X
@@ -1199,6 +1202,7 @@ Encoding
 gzip
 deflate
 br
+zstd
 "
 "
 X
