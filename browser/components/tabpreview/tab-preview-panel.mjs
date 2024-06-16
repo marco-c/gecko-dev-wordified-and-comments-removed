@@ -1011,14 +1011,6 @@ if
 this
 .
 _tab
-|
-|
-!
-this
-.
-_tab
-.
-linkedBrowser
 )
 {
 return
@@ -1119,10 +1111,8 @@ return
 this
 .
 _tab
-?
 .
 linkedBrowser
-?
 .
 docShellIsActive
 ?
