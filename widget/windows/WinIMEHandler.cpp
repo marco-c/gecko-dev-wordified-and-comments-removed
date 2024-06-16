@@ -1265,12 +1265,8 @@ REQUEST_TO_COMMIT_COMPOSITION
 :
 if
 (
-TSFTextStore
-:
-:
-IsComposingOn
+IsTSFAvailable
 (
-aWindow
 )
 )
 {
@@ -1283,7 +1279,6 @@ false
 )
 ;
 }
-else
 if
 (
 IsIMMActive
@@ -1308,12 +1303,8 @@ REQUEST_TO_CANCEL_COMPOSITION
 :
 if
 (
-TSFTextStore
-:
-:
-IsComposingOn
+IsTSFAvailable
 (
-aWindow
 )
 )
 {
@@ -1326,7 +1317,6 @@ true
 )
 ;
 }
-else
 if
 (
 IsIMMActive
