@@ -313,14 +313,6 @@ yaml_dir
 patches
 :
 -
-0001
--
-errno
-.
-patch
--
-0002
--
 mmloadusi64
 .
 patch
