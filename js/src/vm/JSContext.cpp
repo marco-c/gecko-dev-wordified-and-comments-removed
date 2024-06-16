@@ -4541,8 +4541,9 @@ exn
 cx
 )
 ;
-if
-(
+bool
+success
+=
 cx
 -
 >
@@ -4551,8 +4552,7 @@ getPendingException
 &
 exn
 )
-)
-{
+;
 cx
 -
 >
@@ -4560,6 +4560,11 @@ clearPendingException
 (
 )
 ;
+if
+(
+success
+)
+{
 js
 :
 :
