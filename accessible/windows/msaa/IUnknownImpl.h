@@ -184,6 +184,7 @@ void
 *
 *
 )
+override
 ;
 \
 ULONG
@@ -302,6 +303,7 @@ void
 *
 *
 )
+override
 ;
 #
 define
