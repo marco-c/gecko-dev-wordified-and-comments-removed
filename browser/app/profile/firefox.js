@@ -21203,3 +21203,15 @@ ingestEnabled
 false
 )
 ;
+pref
+(
+"
+toolkit
+.
+contentRelevancy
+.
+log
+"
+false
+)
+;
