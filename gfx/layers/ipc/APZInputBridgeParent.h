@@ -38,10 +38,8 @@ final
 public
 :
 static
-RefPtr
-<
 APZInputBridgeParent
->
+*
 Create
 (
 const
@@ -303,6 +301,9 @@ RefPtr
 IAPZCTreeManager
 >
 mTreeManager
+;
+LayersId
+mLayersId
 ;
 }
 ;
