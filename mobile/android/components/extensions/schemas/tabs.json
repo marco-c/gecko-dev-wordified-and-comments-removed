@@ -6762,12 +6762,6 @@ window
 You
 must
 have
-(
-topic
-:
-declare_permissions
-)
-[
 &
 lt
 ;
@@ -6775,7 +6769,8 @@ all_urls
 &
 gt
 ;
-]
+or
+activeTab
 permission
 to
 use
@@ -6792,6 +6787,9 @@ permissions
 <
 all_urls
 >
+"
+"
+activeTab
 "
 ]
 "
