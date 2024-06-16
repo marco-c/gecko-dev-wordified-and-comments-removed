@@ -6,6 +6,11 @@ define
 mozilla_SimpleMap_h
 #
 include
+<
+utility
+>
+#
+include
 "
 mozilla
 /
@@ -20,11 +25,6 @@ nsTArray
 .
 h
 "
-#
-include
-<
-utility
->
 namespace
 mozilla
 {
