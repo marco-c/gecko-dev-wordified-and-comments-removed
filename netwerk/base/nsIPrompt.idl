@@ -170,9 +170,6 @@ long
 BUTTON_POS_0_DEFAULT
 =
 0
-<
-<
-24
 ;
 const
 unsigned
@@ -189,10 +186,10 @@ unsigned
 long
 BUTTON_POS_2_DEFAULT
 =
-2
+1
 <
 <
-24
+25
 ;
 const
 unsigned
