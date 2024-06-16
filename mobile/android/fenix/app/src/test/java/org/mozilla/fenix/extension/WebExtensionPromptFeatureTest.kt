@@ -458,7 +458,7 @@ R
 .
 string
 .
-mozac_feature_addons_failed_to_install_network_error
+mozac_feature_addons_extension_failed_to_install_network_error
 "
 name
 "
@@ -779,7 +779,7 @@ R
 .
 string
 .
-mozac_feature_addons_failed_to_install_generic
+mozac_feature_addons_extension_failed_to_install
 )
 webExtensionPromptFeature
 .
@@ -856,7 +856,7 @@ R
 .
 string
 .
-mozac_feature_addons_failed_to_install_corrupt_error
+mozac_feature_addons_extension_failed_to_install_corrupt_error
 )
 webExtensionPromptFeature
 .
@@ -933,7 +933,7 @@ R
 .
 string
 .
-mozac_feature_addons_failed_to_install_not_signed_error
+mozac_feature_addons_extension_failed_to_install_not_signed_error
 )
 webExtensionPromptFeature
 .

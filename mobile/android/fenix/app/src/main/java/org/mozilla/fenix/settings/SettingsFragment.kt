@@ -2457,7 +2457,7 @@ R
 .
 string
 .
-preferences_customize_amo_collection
+preferences_customize_extension_collection
 )
 )
 setView
@@ -2543,7 +2543,7 @@ R
 .
 string
 .
-toast_customize_addon_collection_done
+toast_customize_extension_collection_done
 )
 Toast
 .

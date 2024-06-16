@@ -214,7 +214,7 @@ text
 "
 string
 /
-addon_process_crash_dialog_message
+extension_process_crash_dialog_message
 "
 /
 >
@@ -266,7 +266,7 @@ text
 "
 string
 /
-addon_process_crash_dialog_retry_button_text
+extension_process_crash_dialog_retry_button_text
 "
 android
 :
@@ -333,7 +333,7 @@ text
 "
 string
 /
-addon_process_crash_dialog_disable_addons_button_text
+extension_process_crash_dialog_disable_extensions_button_text
 "
 android
 :

@@ -516,7 +516,7 @@ R
 .
 string
 .
-preferences_addons
+preferences_extensions
 )
 )
 }
@@ -910,7 +910,7 @@ R
 .
 string
 .
-mozac_feature_addons_failed_to_query_add_ons
+mozac_feature_addons_failed_to_query_extensions
 )
 )
 }

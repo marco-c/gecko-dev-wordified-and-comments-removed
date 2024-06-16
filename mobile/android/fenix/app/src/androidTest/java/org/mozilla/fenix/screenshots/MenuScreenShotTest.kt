@@ -1428,7 +1428,7 @@ R
 .
 string
 .
-preferences_addons
+preferences_extensions
 )
 )
 .

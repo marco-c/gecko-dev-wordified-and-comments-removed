@@ -1784,7 +1784,7 @@ R
 .
 string
 .
-mozac_feature_addons_updater_notification_channel
+mozac_feature_addons_updater_notification_channel_2
 NotificationManagerCompat
 .
 IMPORTANCE_LOW

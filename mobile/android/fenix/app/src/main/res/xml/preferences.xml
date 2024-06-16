@@ -1100,7 +1100,7 @@ title
 "
 string
 /
-preferences_addons
+preferences_extensions
 "
 /
 >
@@ -1140,7 +1140,7 @@ title
 "
 string
 /
-preferences_install_local_addon
+preferences_install_local_extension
 "
 /
 >
@@ -1173,7 +1173,7 @@ title
 "
 string
 /
-preferences_customize_amo_collection
+preferences_customize_extension_collection
 "
 /
 >

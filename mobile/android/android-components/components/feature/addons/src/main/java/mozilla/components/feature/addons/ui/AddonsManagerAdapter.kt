@@ -1644,7 +1644,7 @@ R
 .
 string
 .
-mozac_feature_addons_unsupported_caption
+mozac_feature_addons_unsupported_caption_2
 )
 }
 else
@@ -1657,7 +1657,7 @@ R
 .
 string
 .
-mozac_feature_addons_unsupported_caption_plural
+mozac_feature_addons_unsupported_caption_plural_2
 unsupportedAddons
 .
 size

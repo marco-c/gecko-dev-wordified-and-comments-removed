@@ -972,7 +972,7 @@ R
 .
 string
 .
-mozac_feature_addons_failed_to_install_generic
+mozac_feature_addons_extension_failed_to_install
 )
 }
 }
@@ -991,7 +991,7 @@ R
 .
 string
 .
-mozac_feature_addons_failed_to_install_network_error
+mozac_feature_addons_extension_failed_to_install_network_error
 )
 }
 is
@@ -1009,7 +1009,7 @@ R
 .
 string
 .
-mozac_feature_addons_failed_to_install_corrupt_error
+mozac_feature_addons_extension_failed_to_install_corrupt_error
 )
 }
 is
@@ -1027,7 +1027,7 @@ R
 .
 string
 .
-mozac_feature_addons_failed_to_install_not_signed_error
+mozac_feature_addons_extension_failed_to_install_not_signed_error
 )
 }
 is

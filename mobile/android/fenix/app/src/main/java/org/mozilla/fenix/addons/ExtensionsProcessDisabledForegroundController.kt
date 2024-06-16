@@ -565,7 +565,7 @@ R
 .
 string
 .
-addon_process_crash_dialog_message
+extension_process_crash_dialog_message
 appName
 )
 var
@@ -723,7 +723,7 @@ R
 .
 string
 .
-addon_process_crash_dialog_title
+extension_process_crash_dialog_title
 )
 }
 val

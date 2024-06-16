@@ -952,7 +952,7 @@ R
 .
 string
 .
-browser_menu_add_ons
+browser_menu_extensions
 )
 R
 .

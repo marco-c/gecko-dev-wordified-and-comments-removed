@@ -563,9 +563,7 @@ the
 Downloading
 and
 verifying
-add
--
-on
+extension
 \
 "
 prompt
@@ -581,7 +579,7 @@ R
 .
 string
 .
-mozac_add_on_install_progress_caption
+mozac_extension_install_progress_caption
 )
 )
 .
@@ -610,9 +608,7 @@ the
 Downloading
 and
 verifying
-add
--
-on
+extension
 \
 "
 prompt

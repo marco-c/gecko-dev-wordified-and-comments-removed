@@ -741,7 +741,7 @@ R
 .
 string
 .
-mozac_browser_menu_addons_description
+mozac_browser_menu_extensions_content_description
 )
 label
 =
@@ -753,7 +753,7 @@ R
 .
 string
 .
-mozac_browser_menu_addons
+mozac_browser_menu_extensions
 )
 imageResource
 =
@@ -781,7 +781,7 @@ R
 .
 string
 .
-mozac_browser_menu_addons_manager
+mozac_browser_menu_extensions_manager
 )
 imageResource
 =
@@ -873,7 +873,7 @@ R
 .
 string
 .
-mozac_browser_menu_addons
+mozac_browser_menu_extensions
 )
 imageResource
 =
@@ -907,7 +907,7 @@ R
 .
 string
 .
-mozac_browser_menu_addons
+mozac_browser_menu_extensions
 )
 imageResource
 =
