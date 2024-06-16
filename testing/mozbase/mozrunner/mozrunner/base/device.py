@@ -510,9 +510,6 @@ launch_activity
                 
 app
 activity
-e10s
-=
-True
 moz_env
 =
 env

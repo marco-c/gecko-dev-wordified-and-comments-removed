@@ -30051,12 +30051,9 @@ param
 bool
 e10s
 :
-If
-True
-run
-in
-multiprocess
-mode
+No
+longer
+used
 .
         
 :
@@ -30250,15 +30247,6 @@ arg_count
 ]
 =
 arg
-        
-extras
-[
-"
-use_multiprocess
-"
-]
-=
-e10s
         
 extras
 [
@@ -30497,12 +30485,9 @@ param
 bool
 e10s
 :
-If
-True
-run
-in
-multiprocess
-mode
+No
+longer
+used
 .
         
 :
@@ -30689,15 +30674,6 @@ arg_count
 ]
 =
 arg
-        
-extras
-[
-"
-use_multiprocess
-"
-]
-=
-e10s
         
 self
 .

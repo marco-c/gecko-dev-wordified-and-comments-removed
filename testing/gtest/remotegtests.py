@@ -693,10 +693,6 @@ activity_name
 =
 activity
                 
-e10s
-=
-False
-                
 moz_env
 =
 env
