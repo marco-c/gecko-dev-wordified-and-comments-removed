@@ -31,7 +31,7 @@ android
 ]
 [
 "
-test_BrowserResource
+test_BackupResource
 .
 js
 "
