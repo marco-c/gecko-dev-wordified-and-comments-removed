@@ -2887,6 +2887,12 @@ widget
 /
 xpcom
 /
+build
+"
+"
+/
+xpcom
+/
 ds
 "
 ]
