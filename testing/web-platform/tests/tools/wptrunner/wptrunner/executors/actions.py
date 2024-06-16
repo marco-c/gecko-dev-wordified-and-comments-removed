@@ -2024,6 +2024,7 @@ fedcm
 .
 click_fedcm_dialog_button
 (
+dialog_button
 )
 class
 SelectFedCMAccountAction
