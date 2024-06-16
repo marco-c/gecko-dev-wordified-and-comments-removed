@@ -1028,6 +1028,13 @@ html
 ]
 [
 "
+test_page_scroll_overlap
+.
+html
+"
+]
+[
+"
 test_page_scroll_with_fixed_pos
 .
 html
