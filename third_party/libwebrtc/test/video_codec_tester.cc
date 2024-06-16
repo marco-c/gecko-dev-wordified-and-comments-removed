@@ -5344,6 +5344,10 @@ public
 :
 Decoder
 (
+const
+Environment
+&
+env
 VideoDecoderFactory
 *
 decoder_factory
@@ -5356,6 +5360,10 @@ VideoCodecAnalyzer
 analyzer
 )
 :
+env_
+(
+env
+)
 decoder_factory_
 (
 decoder_factory
@@ -5447,8 +5455,9 @@ decoder_
 decoder_factory_
 -
 >
-CreateVideoDecoder
+Create
 (
+env_
 sdp_video_format
 )
 ;
@@ -5832,6 +5841,10 @@ return
 WEBRTC_VIDEO_CODEC_OK
 ;
 }
+const
+Environment
+env_
+;
 VideoDecoderFactory
 *
 decoder_factory_
@@ -9874,6 +9887,10 @@ VideoCodecTester
 :
 RunDecodeTest
 (
+const
+Environment
+&
+env
 CodedVideoSource
 *
 video_source
@@ -9913,6 +9930,7 @@ nullptr
 Decoder
 decoder
 (
+env
 decoder_factory
 decoder_settings
 analyzer
@@ -10171,6 +10189,10 @@ VideoCodecTester
 RunEncodeDecodeTest
 (
 const
+Environment
+&
+env
+const
 VideoSourceSettings
 &
 source_settings
@@ -10313,6 +10335,7 @@ make_unique
 Decoder
 >
 (
+env
 decoder_factory
 decoder_settings
 analyzer
