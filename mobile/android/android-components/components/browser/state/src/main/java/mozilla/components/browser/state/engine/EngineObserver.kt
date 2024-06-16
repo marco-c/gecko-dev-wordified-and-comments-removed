@@ -2127,6 +2127,9 @@ onCheckForFormData
 containsFormData
 :
 Boolean
+adjustPriority
+:
+Boolean
 )
 {
 store
@@ -2139,6 +2142,7 @@ UpdateHasFormDataAction
 (
 tabId
 containsFormData
+adjustPriority
 )
 )
 }

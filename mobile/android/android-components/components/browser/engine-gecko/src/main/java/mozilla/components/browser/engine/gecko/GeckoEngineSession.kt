@@ -3762,6 +3762,9 @@ override
 fun
 checkForFormData
 (
+adjustPriority
+:
+Boolean
 )
 {
 geckoSession
@@ -3811,6 +3814,7 @@ notifyObservers
 onCheckForFormData
 (
 result
+adjustPriority
 )
 }
 GeckoResult

@@ -17894,6 +17894,9 @@ onCheckForFormData
 containsFormData
 :
 Boolean
+adjustPriority
+:
+Boolean
 )
 {
 formData

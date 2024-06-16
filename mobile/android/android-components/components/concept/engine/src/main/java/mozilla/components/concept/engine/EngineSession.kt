@@ -2201,6 +2201,11 @@ onCheckForFormData
 containsFormData
 :
 Boolean
+adjustPriority
+:
+Boolean
+=
+true
 )
 =
 Unit
@@ -6621,6 +6626,11 @@ open
 fun
 checkForFormData
 (
+adjustPriority
+:
+Boolean
+=
+true
 )
 =
 Unit

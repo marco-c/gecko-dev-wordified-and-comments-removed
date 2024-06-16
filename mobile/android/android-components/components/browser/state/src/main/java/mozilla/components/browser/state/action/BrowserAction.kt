@@ -5589,6 +5589,12 @@ val
 containsFormData
 :
 Boolean
+val
+adjustPriority
+:
+Boolean
+=
+true
 )
 :
 ContentAction
