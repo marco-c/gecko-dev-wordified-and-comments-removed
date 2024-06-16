@@ -1696,9 +1696,9 @@ a
 fallback
 to
 "
-mail3
+mail
 :
-pane
+3pane
 "
 as
 well
