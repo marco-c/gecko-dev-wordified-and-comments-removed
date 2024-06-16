@@ -93,9 +93,6 @@ key
 !
 [
 "
-breakpoints
-"
-"
 eventBreakpoints
 "
 ]

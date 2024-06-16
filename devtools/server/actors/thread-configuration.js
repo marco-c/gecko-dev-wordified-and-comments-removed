@@ -103,6 +103,9 @@ const
 SUPPORTED_OPTIONS
 =
 {
+breakpoints
+:
+true
 ignoreCaughtExceptions
 :
 true

@@ -835,6 +835,17 @@ js
 browser_dbg
 -
 breakpoints
+-
+startup
+.
+js
+"
+]
+[
+"
+browser_dbg
+-
+breakpoints
 .
 js
 "
