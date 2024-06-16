@@ -2207,6 +2207,11 @@ genObject
 NULL
 )
 ;
+PK11_DestroyGenericObject
+(
+genObject
+)
+;
 if
 (
 handle
@@ -2219,11 +2224,6 @@ return
 NULL
 ;
 }
-PK11_DestroyGenericObject
-(
-genObject
-)
-;
 return
 PK11_SymKeyFromHandle
 (
