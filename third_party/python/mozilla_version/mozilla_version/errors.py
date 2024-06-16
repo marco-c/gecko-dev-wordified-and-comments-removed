@@ -106,7 +106,7 @@ number_of_patterns
 raise
 ValueError
 (
-'
+"
 At
 least
 one
@@ -114,10 +114,10 @@ pattern
 must
 be
 provided
-'
+"
 )
         
-elif
+if
 number_of_patterns
 =
 =
@@ -174,12 +174,11 @@ format
 (
                 
 string
-                
-'
+"
 \
 n
 -
-'
+"
 .
 join
 (
@@ -269,10 +268,12 @@ super
 __init__
 (
             
+f
 '
 Version
 "
 {
+version_string
 }
 "
 matched
@@ -283,13 +284,13 @@ a
 valid
 version
 but
+'
+            
+"
 it
 is
 unable
 to
-'
-            
-'
 find
 what
 type
@@ -302,17 +303,13 @@ likely
 a
 bug
 in
+"
+            
+"
 mozilla
 -
 version
-'
-.
-format
-(
-                
-version_string
-            
-)
+"
         
 )
 class
@@ -510,10 +507,12 @@ super
 __init__
 (
             
+f
 '
 Release
 "
 {
+version_string
 }
 "
 cannot
@@ -521,22 +520,19 @@ match
 types
 "
 {
+first_matched_type
 }
 "
 and
+'
+            
+f
+'
 "
 {
+second_matched_type
 }
 "
 '
-.
-format
-(
-                
-version_string
-first_matched_type
-second_matched_type
-            
-)
         
 )

@@ -131,8 +131,6 @@ balrog_release
 #
 True
         
-invalid
-=
 BalrogReleaseName
 .
 parse
@@ -149,8 +147,6 @@ parse
 raises
 PatternNotMatchedError
         
-invalid
-=
 BalrogReleaseName
 .
 parse
@@ -191,7 +187,6 @@ FirefoxVersion
 60
 0
 1
-1
 )
 )
 #
@@ -201,8 +196,6 @@ firefox
 60
 .
 0
-.
-1
 -
 build1
 '
@@ -210,9 +203,9 @@ build1
 "
 "
 import
-attr
-import
 re
+import
+attr
 from
 mozilla_version
 .
@@ -222,22 +215,26 @@ PatternNotMatchedError
 from
 mozilla_version
 .
-parser
-import
-get_value_matched_by_regex
-from
-mozilla_version
-.
 gecko
 import
 (
     
-GeckoVersion
-FirefoxVersion
 DeveditionVersion
+    
 FennecVersion
+    
+FirefoxVersion
+    
+GeckoVersion
+    
 ThunderbirdVersion
 )
+from
+mozilla_version
+.
+parser
+import
+get_value_matched_by_regex
 _VALID_ENOUGH_BALROG_RELEASE_PATTERN
 =
 re
@@ -280,27 +277,27 @@ _SUPPORTED_PRODUCTS
 =
 {
     
-'
+"
 firefox
-'
+"
 :
 FirefoxVersion
     
-'
+"
 devedition
-'
+"
 :
 DeveditionVersion
     
-'
+"
 fennec
-'
+"
 :
 FennecVersion
     
-'
+"
 thunderbird
-'
+"
 :
 ThunderbirdVersion
 }
@@ -333,10 +330,10 @@ string
 patterns
 =
 (
-'
+"
 unknown
 product
-'
+"
 )
 )
     
@@ -451,6 +448,7 @@ pattern
 of
 a
 valid
+            
 release
         
 MissingFieldError
@@ -466,6 +464,7 @@ the
 string
 .
 Mandatory
+            
 fields
 are
             
@@ -580,11 +579,11 @@ self
 patterns
 =
 (
-'
+"
 build_number
 must
 exist
-'
+"
 )
 )
     
@@ -633,19 +632,21 @@ None
 raise
 PatternNotMatchedError
 (
+                
 release_string
 (
 _VALID_ENOUGH_BALROG_RELEASE_PATTERN
 )
+            
 )
         
 product
 =
 get_value_matched_by_regex
 (
-'
+"
 product
-'
+"
 regex_matches
 release_string
 )
@@ -653,7 +654,7 @@ release_string
 try
 :
             
-VersionClass
+version_class
 =
 _SUPPORTED_PRODUCTS
 [
@@ -671,31 +672,37 @@ KeyError
 raise
 PatternNotMatchedError
 (
+                
 release_string
 patterns
 =
 (
-'
+"
 unknown
 product
-'
+"
 )
+            
 )
+from
+None
         
 version_string
 =
 get_value_matched_by_regex
 (
-'
+            
+"
 version
-'
+"
 regex_matches
 release_string
+        
 )
         
 version
 =
-VersionClass
+version_class
 .
 parse
 (
@@ -750,18 +757,18 @@ version
 .
 replace
 (
-'
+"
 build
-'
-'
+"
+"
 -
 build
-'
+"
 )
         
 return
 f
-'
+"
 {
 self
 .
@@ -771,7 +778,7 @@ product
 {
 version_string
 }
-'
+"
     
 _products_must_be_identical
     

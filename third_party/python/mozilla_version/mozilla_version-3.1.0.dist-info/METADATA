@@ -12,9 +12,9 @@ mozilla
 version
 Version
 :
-2
+3
 .
-0
+1
 .
 0
 Summary
@@ -102,10 +102,8 @@ Requires
 Dist
 :
 attrs
-(
 >
 =
 19
 .
 2
-)

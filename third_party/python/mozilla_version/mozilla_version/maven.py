@@ -14,9 +14,9 @@ Mozilla
 "
 "
 import
-attr
-import
 re
+import
+attr
 from
 mozilla_version
 .
@@ -70,6 +70,7 @@ like
 GeckoView
 "
 or
+    
 "
 Android
 -
@@ -135,6 +136,7 @@ re
 .
 compile
 (
+        
 r
 "
 "
@@ -194,9 +196,11 @@ SNAPSHOT
 "
 "
 "
+        
 re
 .
 VERBOSE
+    
 )
     
 classmethod
@@ -237,9 +241,9 @@ version_string
 regex_groups
 =
 (
-'
+"
 is_snapshot
-'
+"
 )
 )
     
@@ -292,13 +296,13 @@ is_snapshot
 string
 =
 f
-'
+"
 {
 string
 }
 -
 SNAPSHOT
-'
+"
         
 return
 string
@@ -328,7 +332,7 @@ parse
 other
 )
         
-elif
+if
 not
 isinstance
 (
@@ -391,7 +395,7 @@ is_snapshot
 return
 1
         
-elif
+if
 self
 .
 is_snapshot
@@ -406,9 +410,6 @@ return
 -
 1
         
-else
-:
-            
 return
 0
     
@@ -442,7 +443,6 @@ not
 any
 (
 (
-            
 self
 .
 is_beta
@@ -452,6 +452,5 @@ is_release_candidate
 self
 .
 is_snapshot
-        
 )
 )
