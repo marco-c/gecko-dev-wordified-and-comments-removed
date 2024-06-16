@@ -2501,6 +2501,42 @@ traceback
         
 ]
         
+is_windows_7
+=
+(
+            
+mozinfo
+.
+info
+[
+"
+os
+"
+]
+=
+=
+"
+win
+"
+and
+mozinfo
+.
+info
+[
+"
+os_version
+"
+]
+=
+=
+"
+6
+.
+1
+"
+        
+)
+        
 if
 self
 .
@@ -2563,6 +2599,9 @@ c
 disable_fission
 "
 ]
+            
+or
+is_windows_7
             
 and
 mozinfo
@@ -2685,6 +2724,19 @@ firefox
 "
 ]
         
+if
+is_windows_7
+:
+            
+self
+.
+_install_fonts
+(
+)
+        
+else
+:
+            
 cmd
 +
 =
