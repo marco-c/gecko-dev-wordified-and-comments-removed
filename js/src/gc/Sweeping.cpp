@@ -3664,7 +3664,7 @@ if
 useZeal
 &
 &
-zealModeControlsYieldPoint
+hasIncrementalTwoSliceZealMode
 (
 )
 )

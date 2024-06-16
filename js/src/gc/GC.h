@@ -166,15 +166,6 @@ false
 _
 (
 "
-sliceNumber
-"
-JSGC_SLICE_NUMBER
-false
-)
-\
-_
-(
-"
 incrementalGCEnabled
 "
 JSGC_INCREMENTAL_GC_ENABLED
