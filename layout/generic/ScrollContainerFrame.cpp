@@ -1,7 +1,9 @@
 #
 include
 "
-nsGfxScrollFrame
+mozilla
+/
+ScrollContainerFrame
 .
 h
 "

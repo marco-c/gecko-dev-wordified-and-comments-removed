@@ -1580,7 +1580,7 @@ layout
 /
 generic
 /
-nsGfxScrollFrame
+ScrollContainerFrame
 .
 cpp
 that
