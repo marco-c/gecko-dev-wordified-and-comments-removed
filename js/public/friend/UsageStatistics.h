@@ -408,6 +408,12 @@ _
 SUBCLASSING_TYPEDARRAY_TYPE_II
 SubclassingTypedArrayTypeII
 )
+\
+_
+(
+SUBCLASSING_TYPEDARRAY_TYPE_III
+SubclassingTypedArrayTypeIII
+)
 #
 define
 ENUM_DEF
