@@ -495,6 +495,11 @@ RegExpSharedNamedCaptureData
 \
 _
 (
+RegExpSharedNamedCaptureSliceData
+)
+\
+_
+(
 TypedArrayElements
 )
 \
