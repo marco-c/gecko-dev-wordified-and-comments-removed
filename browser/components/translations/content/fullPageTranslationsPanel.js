@@ -2307,6 +2307,11 @@ TranslationsPanelShared
 getLangListsInitState
 (
 panel
+gBrowser
+.
+selectedBrowser
+.
+innerWindowID
 )
 =
 =
