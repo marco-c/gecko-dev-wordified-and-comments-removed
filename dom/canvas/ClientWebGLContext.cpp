@@ -8434,6 +8434,10 @@ mCanBeAvailable
 =
 false
 ;
+AutoEnqueueFlush
+(
+)
+;
 return
 ret
 .
@@ -32478,6 +32482,10 @@ if
 mNotLost
 )
 return
+;
+AutoEnqueueFlush
+(
+)
 ;
 Run
 <
