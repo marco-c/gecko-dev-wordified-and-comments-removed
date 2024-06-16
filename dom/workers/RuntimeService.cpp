@@ -1824,6 +1824,13 @@ gc_parallel_marking_threshold_mb
 "
 JSGC_PARALLEL_MARKING_THRESHOLD_MB
 )
+PREF
+(
+"
+gc_max_parallel_marking_threads
+"
+JSGC_MAX_MARKING_THREADS
+)
 #
 ifdef
 NIGHTLY_BUILD
@@ -2226,6 +2233,9 @@ JSGC_HEAP_GROWTH_FACTOR
 :
 case
 JSGC_PARALLEL_MARKING_THRESHOLD_MB
+:
+case
+JSGC_MAX_MARKING_THREADS
 :
 UpdateCommonJSGCMemoryOption
 (
