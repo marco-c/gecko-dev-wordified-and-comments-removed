@@ -144,6 +144,7 @@ accesskey
 )
 ;
 }
+async
 onLoad
 (
 )
@@ -211,9 +212,12 @@ nsIUpdateManager
 let
 update
 =
+await
 um
 .
-readyUpdate
+getReadyUpdate
+(
+)
 ;
 let
 updateFinishedName
