@@ -529,13 +529,6 @@ eBidiRTL
 0x10
 }
 ;
-enum
-{
-eUnknownWritingMode
-=
-0xff
-}
-;
 InlineDir
 GetInlineDir
 (
@@ -2162,6 +2155,13 @@ widget
 IMENotification
 ;
 static
+constexpr
+uint8_t
+kUnknownWritingMode
+=
+0xff
+;
+static
 inline
 WritingMode
 Unknown
@@ -2171,7 +2171,7 @@ Unknown
 return
 WritingMode
 (
-eUnknownWritingMode
+kUnknownWritingMode
 )
 ;
 }
