@@ -1737,13 +1737,7 @@ mjs
 events
 :
 {
-"
-form
--
-submission
--
-detected
-"
+DOMFormBeforeSubmit
 :
 {
 }
