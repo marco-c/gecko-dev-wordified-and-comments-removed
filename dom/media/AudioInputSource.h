@@ -197,6 +197,11 @@ aTargetRate
 )
 ;
 void
+Init
+(
+)
+;
+void
 Start
 (
 )
