@@ -3734,9 +3734,6 @@ components
 core
 .
 store
-menuButton
-=
-menuButton
 onBackButtonClick
 =
 {
@@ -3844,6 +3841,9 @@ actionGlobalHome
 )
 }
 }
+menuButton
+=
+menuButton
 onTabsButtonClick
 =
 {

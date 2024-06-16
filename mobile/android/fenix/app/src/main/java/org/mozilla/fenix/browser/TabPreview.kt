@@ -617,12 +617,6 @@ false
 browserStore
 =
 browserStore
-menuButton
-=
-MenuButton
-(
-context
-)
 onBackButtonClick
 =
 {
@@ -668,6 +662,12 @@ no
 -
 op
 }
+menuButton
+=
+MenuButton
+(
+context
+)
 onTabsButtonClick
 =
 {

@@ -3196,9 +3196,6 @@ components
 core
 .
 store
-menuButton
-=
-menuButton
 onSearchButtonClick
 =
 {
@@ -3251,6 +3248,9 @@ HOME
 )
 )
 }
+menuButton
+=
+menuButton
 onTabsButtonClick
 =
 {
