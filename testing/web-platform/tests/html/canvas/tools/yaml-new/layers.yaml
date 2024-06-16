@@ -3502,6 +3502,9 @@ getTransform
 inside
 layers
 .
+test_type
+:
+sync
 code
 :
 |
@@ -4415,9 +4418,7 @@ HtmlCanvas
 ]
 test_type
 :
-"
 promise
-"
 code
 :
 |
@@ -4744,6 +4745,9 @@ size
 200
 200
 ]
+test_type
+:
+sync
 code
 :
 |
@@ -5061,9 +5065,7 @@ size
 ]
 test_type
 :
-"
 promise
-"
 code
 :
 |
@@ -6619,6 +6621,9 @@ variant_desc
 }
 }
 .
+test_type
+:
+sync
 code
 :
 |
@@ -6871,6 +6876,9 @@ if
 beginLayer
 throws
 .
+test_type
+:
+sync
 code
 :
 |
@@ -7060,6 +7068,9 @@ different
 option
 parameter
 values
+test_type
+:
+sync
 code
 :
 |
