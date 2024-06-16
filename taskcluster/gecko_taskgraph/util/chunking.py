@@ -218,6 +218,10 @@ repo
 =
 "
 "
+env
+=
+{
+}
 )
 :
     
@@ -1103,6 +1107,24 @@ tag
 ]
 =
 False
+    
+info
+[
+"
+tag
+"
+]
+=
+env
+.
+get
+(
+"
+MOZHARNESS_TEST_TAG
+"
+"
+"
+)
     
 return
 info
@@ -2007,7 +2029,8 @@ tests
         
 filters
 =
-None
+[
+]
         
 if
 mozinfo
@@ -2019,7 +2042,9 @@ condprof
 :
             
 filters
-=
+.
+extend
+(
 [
 tags
 (
@@ -2030,6 +2055,35 @@ condprof
 ]
 )
 ]
+)
+        
+if
+mozinfo
+[
+"
+tag
+"
+]
+:
+            
+filters
+.
+extend
+(
+[
+tags
+(
+[
+mozinfo
+[
+"
+tag
+"
+]
+]
+)
+]
+)
         
 m
 =
