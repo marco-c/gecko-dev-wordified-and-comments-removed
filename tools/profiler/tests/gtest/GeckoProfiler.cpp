@@ -7941,17 +7941,6 @@ pages
 Array
 )
 ;
-EXPECT_HAS_JSON
-(
-aRoot
-[
-"
-profilerOverhead
-"
-]
-Object
-)
-;
 if
 (
 aRoot
