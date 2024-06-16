@@ -771,6 +771,13 @@ eSelectStart
 EventNameType_HTMLXUL
 eBasicEventClass
 )
+NON_IDL_EVENT
+(
+textInput
+eLegacyTextInput
+EventNameType_None
+eLegacyTextEventClass
+)
 EVENT
 (
 contextlost
