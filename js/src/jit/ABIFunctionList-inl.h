@@ -75,6 +75,15 @@ include
 "
 builtin
 /
+Sorting
+.
+h
+"
+#
+include
+"
+builtin
+/
 TestingFunctions
 .
 h
@@ -470,7 +479,7 @@ js
 ArraySortData
 :
 :
-sortWithComparator
+sortArrayWithComparator
 )
 \
 _

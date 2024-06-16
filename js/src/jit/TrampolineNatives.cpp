@@ -1032,7 +1032,7 @@ Fn2
 ArraySortData
 :
 :
-sortWithComparator
+sortArrayWithComparator
 >
 (
 ABIType
