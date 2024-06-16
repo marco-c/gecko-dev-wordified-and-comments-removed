@@ -6028,7 +6028,7 @@ VERSION_CODES
 S_V2
 )
 {
-FenixSnackbarDelegate
+ContextMenuSnackbarDelegate
 (
 binding
 .

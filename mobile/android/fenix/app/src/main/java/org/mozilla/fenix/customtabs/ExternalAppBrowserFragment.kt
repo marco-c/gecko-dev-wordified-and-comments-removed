@@ -323,7 +323,7 @@ fenix
 .
 browser
 .
-CustomTabContextMenuCandidate
+ContextMenuSnackbarDelegate
 import
 org
 .
@@ -333,7 +333,7 @@ fenix
 .
 browser
 .
-FenixSnackbarDelegate
+CustomTabContextMenuCandidate
 import
 org
 .
@@ -1483,7 +1483,7 @@ useCases
 .
 contextMenuUseCases
 view
-FenixSnackbarDelegate
+ContextMenuSnackbarDelegate
 (
 view
 )

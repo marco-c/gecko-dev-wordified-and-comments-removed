@@ -183,7 +183,7 @@ helpers
 .
 MockkRetryTestRule
 class
-FenixSnackbarDelegateTest
+ContextMenuSnackbarDelegateTest
 {
 MockK
 private
@@ -209,7 +209,7 @@ lateinit
 var
 delegate
 :
-FenixSnackbarDelegate
+ContextMenuSnackbarDelegate
 get
 :
 Rule
@@ -239,7 +239,7 @@ Companion
 )
 delegate
 =
-FenixSnackbarDelegate
+ContextMenuSnackbarDelegate
 (
 view
 )

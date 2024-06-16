@@ -4061,7 +4061,7 @@ useCases
 .
 contextMenuUseCases
 view
-FenixSnackbarDelegate
+ContextMenuSnackbarDelegate
 (
 view
 )
