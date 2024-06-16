@@ -1717,7 +1717,7 @@ options
 keepDimensions
 "
 :
-true
+false
 }
 "
 expected
