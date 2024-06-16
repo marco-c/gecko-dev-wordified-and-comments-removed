@@ -347,6 +347,16 @@ nsACString
 aACE
 )
 ;
+bool
+IsLocalDomain
+(
+const
+nsACString
+&
+aHostname
+)
+const
+;
 nsresult
 AsyncResolveInternal
 (
