@@ -3850,17 +3850,6 @@ load
 html
 pref
 (
-apz
-.
-mvm
-.
-force
--
-enabled
-false
-)
-pref
-(
 dom
 .
 meta
