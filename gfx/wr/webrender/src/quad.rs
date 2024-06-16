@@ -2178,7 +2178,6 @@ kind
 pattern
 .
 shader_input
-prim_spatial_node_index
 raster_spatial_node_index
 device_pixel_scale
 content_origin

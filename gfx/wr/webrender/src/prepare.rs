@@ -3075,9 +3075,6 @@ update
 (
 common_data
 image_instance
-pic_context
-.
-surface_index
 prim_spatial_node_index
 frame_state
 frame_context
@@ -3160,9 +3157,6 @@ prim_data
 update
 (
 frame_state
-pic_context
-.
-surface_index
 )
 ;
 if
@@ -3475,9 +3469,6 @@ prim_data
 update
 (
 frame_state
-pic_context
-.
-surface_index
 )
 ;
 if
@@ -3714,9 +3705,6 @@ prim_data
 update
 (
 frame_state
-pic_context
-.
-surface_index
 )
 ;
 if
@@ -3953,9 +3941,6 @@ prim_data
 update
 (
 frame_state
-pic_context
-.
-surface_index
 )
 ;
 if
