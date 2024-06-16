@@ -513,7 +513,7 @@ MutableHandle
 <
 ParsedTimeZone
 >
-timeZoneName
+timeZoneAnnotation
 JS
 :
 :
@@ -559,7 +559,7 @@ MutableHandle
 <
 ParsedTimeZone
 >
-timeZoneName
+timeZoneAnnotation
 JS
 :
 :

@@ -7506,7 +7506,8 @@ if
 done
 )
 {
-break
+return
+true
 ;
 }
 if
@@ -7585,9 +7586,6 @@ return
 false
 ;
 }
-return
-true
-;
 }
 static
 bool

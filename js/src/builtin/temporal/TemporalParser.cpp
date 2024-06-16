@@ -14133,7 +14133,7 @@ MutableHandle
 <
 ParsedTimeZone
 >
-timeZoneName
+timeZoneAnnotation
 MutableHandle
 <
 JSString
@@ -14259,7 +14259,7 @@ ParseTimeZoneAnnotation
 cx
 annotation
 linear
-timeZoneName
+timeZoneAnnotation
 )
 )
 {
@@ -14519,7 +14519,7 @@ MutableHandle
 <
 ParsedTimeZone
 >
-timeZoneName
+timeZoneAnnotation
 MutableHandle
 <
 JSString
@@ -14677,7 +14677,7 @@ ParseTimeZoneAnnotation
 cx
 annotation
 linear
-timeZoneName
+timeZoneAnnotation
 )
 )
 {
@@ -14783,7 +14783,7 @@ timeZoneOffset
 =
 0
 ;
-timeZoneName
+timeZoneAnnotation
 .
 set
 (
