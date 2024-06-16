@@ -191,7 +191,7 @@ Throws
 undefined
 send
 (
-DOMString
+USVString
 data
 )
 ;

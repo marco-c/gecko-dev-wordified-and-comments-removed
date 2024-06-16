@@ -187,7 +187,7 @@ NonSystem
 SetterThrows
 ]
 attribute
-DOMString
+USVString
 src
 ;
 [
@@ -212,7 +212,7 @@ NonSystem
 SetterThrows
 ]
 attribute
-DOMString
+USVString
 srcset
 ;
 [

@@ -283,7 +283,7 @@ CEReactions
 SetterThrows
 ]
 attribute
-DOMString
+USVString
 ping
 ;
 [
