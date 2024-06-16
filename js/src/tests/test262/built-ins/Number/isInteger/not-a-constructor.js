@@ -40,16 +40,6 @@ isInteger
 )
 ;
 }
-'
-new
-Number
-.
-isInteger
-(
-)
-throws
-TypeError
-'
 )
 ;
 reportCompare

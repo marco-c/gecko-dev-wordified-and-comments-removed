@@ -40,16 +40,6 @@ acosh
 )
 ;
 }
-'
-new
-Math
-.
-acosh
-(
-)
-throws
-TypeError
-'
 )
 ;
 reportCompare

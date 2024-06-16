@@ -40,16 +40,6 @@ asinh
 )
 ;
 }
-'
-new
-Math
-.
-asinh
-(
-)
-throws
-TypeError
-'
 )
 ;
 reportCompare

@@ -40,16 +40,6 @@ for
 )
 ;
 }
-'
-new
-Symbol
-.
-for
-(
-)
-throws
-TypeError
-'
 )
 ;
 reportCompare
