@@ -44773,8 +44773,8 @@ Methu
 llwytho
 ieithoedd
 .
-Gwiriwch
-yn
+Dewch
+n
 l
 yn
 nes
@@ -45307,8 +45307,8 @@ Methu
 llwytho
 gwefannau
 .
-Gwiriwch
-yn
+Dewch
+n
 l
 yn
 nes
@@ -47368,6 +47368,9 @@ debug_drawer_tab_tools_tab_quantity_empty_error
 "
 >
 Mae
+\
+'
+r
 maes
 testun
 yn
@@ -47541,7 +47544,8 @@ tabiau
 s
 )
 y
-gellir
+mae
+modd
 eu
 cynhyrchu
 mewn
