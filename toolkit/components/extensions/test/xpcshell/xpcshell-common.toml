@@ -927,13 +927,6 @@ js
 ]
 [
 "
-test_ext_contentscript_slow_frame
-.
-js
-"
-]
-[
-"
 test_ext_contentscript_teardown
 .
 js
