@@ -732,7 +732,10 @@ this
 :
 GetFocusDelegate
 (
-false
+IsFocusableFlags
+(
+0
+)
 )
 ;
 if

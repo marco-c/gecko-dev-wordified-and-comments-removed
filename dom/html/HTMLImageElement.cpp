@@ -23,7 +23,7 @@ include
 "
 mozilla
 /
-TabFocusModel
+FocusModel
 .
 h
 "
@@ -2395,8 +2395,8 @@ HTMLImageElement
 :
 IsHTMLFocusable
 (
-bool
-aWithMouse
+IsFocusableFlags
+aFlags
 bool
 *
 aIsFocusable
@@ -2427,7 +2427,7 @@ FindImageMap
 *
 aTabIndex
 =
-TabFocusModel
+FocusModel
 :
 :
 IsTabFocusable
@@ -2455,7 +2455,7 @@ false
 *
 aTabIndex
 =
-TabFocusModel
+FocusModel
 :
 :
 IsTabFocusable
@@ -2476,7 +2476,7 @@ aIsFocusable
 =
 IsFormControlDefaultFocusable
 (
-aWithMouse
+aFlags
 )
 &
 &

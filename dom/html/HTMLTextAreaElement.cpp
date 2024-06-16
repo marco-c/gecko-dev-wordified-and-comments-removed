@@ -690,8 +690,8 @@ HTMLTextAreaElement
 :
 IsHTMLFocusable
 (
-bool
-aWithMouse
+IsFocusableFlags
+aFlags
 bool
 *
 aIsFocusable
@@ -707,7 +707,7 @@ nsGenericHTMLFormControlElementWithState
 :
 IsHTMLFocusable
 (
-aWithMouse
+aFlags
 aIsFocusable
 aTabIndex
 )

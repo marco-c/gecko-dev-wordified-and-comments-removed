@@ -8646,7 +8646,6 @@ nextElement
 >
 IsFocusableWithoutStyle
 (
-false
 )
 )
 {

@@ -595,6 +595,11 @@ FlushType
 h
 "
 "
+FocusModel
+.
+h
+"
+"
 FullscreenChange
 .
 h
@@ -636,11 +641,6 @@ h
 "
 "
 SelectionChangeEventDispatcher
-.
-h
-"
-"
-TabFocusModel
 .
 h
 "

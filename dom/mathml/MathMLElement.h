@@ -325,8 +325,7 @@ final
 Focusable
 IsFocusableWithoutStyle
 (
-bool
-aWithMouse
+IsFocusableFlags
 )
 override
 ;

@@ -113,8 +113,8 @@ SVGSymbolElement
 :
 IsFocusableWithoutStyle
 (
-bool
-aWithMouse
+IsFocusableFlags
+aFlags
 )
 {
 if
@@ -136,7 +136,7 @@ SVGSymbolElementBase
 :
 IsFocusableWithoutStyle
 (
-aWithMouse
+aFlags
 )
 ;
 }

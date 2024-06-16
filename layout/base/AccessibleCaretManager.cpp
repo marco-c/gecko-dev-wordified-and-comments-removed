@@ -118,6 +118,15 @@ include
 "
 mozilla
 /
+FocusModel
+.
+h
+"
+#
+include
+"
+mozilla
+/
 IMEStateManager
 .
 h
@@ -4373,7 +4382,10 @@ focusableFrame
 >
 IsFocusable
 (
-true
+IsFocusableFlags
+:
+:
+WithMouse
 )
 )
 {

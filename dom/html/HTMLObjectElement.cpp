@@ -634,8 +634,8 @@ HTMLObjectElement
 :
 IsHTMLFocusable
 (
-bool
-aWithMouse
+IsFocusableFlags
+aFlags
 bool
 *
 aIsFocusable

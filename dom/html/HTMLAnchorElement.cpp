@@ -86,7 +86,7 @@ include
 "
 mozilla
 /
-TabFocusModel
+FocusModel
 .
 h
 "
@@ -372,8 +372,8 @@ HTMLAnchorElement
 :
 IsHTMLFocusable
 (
-bool
-aWithMouse
+IsFocusableFlags
+aFlags
 bool
 *
 aIsFocusable
@@ -389,7 +389,7 @@ nsGenericHTMLElement
 :
 IsHTMLFocusable
 (
-aWithMouse
+aFlags
 aIsFocusable
 aTabIndex
 )
@@ -491,7 +491,7 @@ false
 if
 (
 !
-TabFocusModel
+FocusModel
 :
 :
 IsTabFocusable
