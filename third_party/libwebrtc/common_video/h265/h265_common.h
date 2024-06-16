@@ -132,6 +132,9 @@ kAp
 kFu
 =
 49
+kPaci
+=
+50
 }
 ;
 enum
