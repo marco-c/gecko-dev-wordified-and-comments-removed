@@ -6429,15 +6429,15 @@ pub
 transform_index
 :
 CompositorTransformIndex
-local_to_surface
+local_to_raster
+:
+ScaleOffset
+raster_to_device
 :
 ScaleOffset
 invalidate_all_tiles
 :
 bool
-surface_to_device
-:
-ScaleOffset
 current_raster_scale
 :
 f32
@@ -6760,7 +6760,7 @@ CompositorTransformIndex
 :
 :
 INVALID
-surface_to_device
+raster_to_device
 :
 ScaleOffset
 :
@@ -6768,7 +6768,7 @@ ScaleOffset
 identity
 (
 )
-local_to_surface
+local_to_raster
 :
 ScaleOffset
 :
@@ -8059,7 +8059,7 @@ spatial_tree
 ;
 let
 mut
-surface_to_device
+raster_to_device
 =
 local_to_device
 ;
@@ -8070,7 +8070,7 @@ config
 .
 low_quality_pinch_zoom
 {
-surface_to_device
+raster_to_device
 .
 scale
 .
@@ -8081,7 +8081,7 @@ self
 .
 current_raster_scale
 ;
-surface_to_device
+raster_to_device
 .
 scale
 .
@@ -8095,7 +8095,7 @@ current_raster_scale
 }
 else
 {
-surface_to_device
+raster_to_device
 .
 scale
 .
@@ -8105,7 +8105,7 @@ x
 .
 0
 ;
-surface_to_device
+raster_to_device
 .
 scale
 .
@@ -8117,14 +8117,14 @@ y
 ;
 }
 let
-local_to_surface
+local_to_raster
 =
 local_to_device
 .
 accumulate
 (
 &
-surface_to_device
+raster_to_device
 .
 inverse
 (
@@ -8144,7 +8144,7 @@ let
 compositor_translation_changed
 =
 !
-surface_to_device
+raster_to_device
 .
 offset
 .
@@ -8155,7 +8155,7 @@ approx_eq_eps
 &
 self
 .
-surface_to_device
+raster_to_device
 .
 offset
 .
@@ -8166,7 +8166,7 @@ EPSILON
 |
 |
 !
-surface_to_device
+raster_to_device
 .
 offset
 .
@@ -8177,7 +8177,7 @@ approx_eq_eps
 &
 self
 .
-surface_to_device
+raster_to_device
 .
 offset
 .
@@ -8190,7 +8190,7 @@ let
 compositor_scale_changed
 =
 !
-surface_to_device
+raster_to_device
 .
 scale
 .
@@ -8201,7 +8201,7 @@ approx_eq_eps
 &
 self
 .
-surface_to_device
+raster_to_device
 .
 scale
 .
@@ -8212,7 +8212,7 @@ EPSILON
 |
 |
 !
-surface_to_device
+raster_to_device
 .
 scale
 .
@@ -8223,7 +8223,7 @@ approx_eq_eps
 &
 self
 .
-surface_to_device
+raster_to_device
 .
 scale
 .
@@ -8236,7 +8236,7 @@ let
 surface_scale_changed
 =
 !
-local_to_surface
+local_to_raster
 .
 scale
 .
@@ -8247,7 +8247,7 @@ approx_eq_eps
 &
 self
 .
-local_to_surface
+local_to_raster
 .
 scale
 .
@@ -8258,7 +8258,7 @@ EPSILON
 |
 |
 !
-local_to_surface
+local_to_raster
 .
 scale
 .
@@ -8269,7 +8269,7 @@ approx_eq_eps
 &
 self
 .
-local_to_surface
+local_to_raster
 .
 scale
 .
@@ -8305,15 +8305,15 @@ false
 }
 self
 .
-surface_to_device
+raster_to_device
 =
-surface_to_device
+raster_to_device
 ;
 self
 .
-local_to_surface
+local_to_raster
 =
-local_to_surface
+local_to_raster
 ;
 self
 .
@@ -8583,7 +8583,7 @@ width
 /
 self
 .
-local_to_surface
+local_to_raster
 .
 scale
 .
@@ -8594,7 +8594,7 @@ height
 /
 self
 .
-local_to_surface
+local_to_raster
 .
 scale
 .
@@ -10307,7 +10307,7 @@ local_prim_to_device
 )
 ;
 let
-local_to_surface
+local_to_raster
 =
 ScaleOffset
 :
@@ -10317,7 +10317,7 @@ identity
 )
 ;
 let
-surface_to_device
+raster_to_device
 =
 normalized_prim_to_device
 ;
@@ -10414,7 +10414,7 @@ supports_external_compositor_surface_negative_scaling
 &
 &
 (
-surface_to_device
+raster_to_device
 .
 scale
 .
@@ -10425,7 +10425,7 @@ x
 0
 |
 |
-surface_to_device
+raster_to_device
 .
 scale
 .
@@ -10449,8 +10449,8 @@ composite_state
 .
 register_transform
 (
-local_to_surface
-surface_to_device
+local_to_raster
+raster_to_device
 )
 ;
 let
@@ -11326,7 +11326,7 @@ pic_index
 ]
 ;
 let
-map_local_to_picture
+map_local_to_parent
 =
 SpaceMapper
 :
@@ -11348,7 +11348,7 @@ spatial_tree
 current_pic_coverage_rect
 =
 match
-map_local_to_picture
+map_local_to_parent
 .
 map
 (
@@ -14035,10 +14035,10 @@ register_transform
 (
 self
 .
-local_to_surface
+local_to_raster
 self
 .
-surface_to_device
+raster_to_device
 )
 ;
 let
@@ -15024,11 +15024,11 @@ LayoutPixel
 PicturePixel
 >
 pub
-raster_spatial_node_index
+surface_spatial_node_index
 :
 SpatialNodeIndex
 pub
-surface_spatial_node_index
+raster_spatial_node_index
 :
 SpatialNodeIndex
 pub
