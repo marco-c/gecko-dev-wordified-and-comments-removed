@@ -1092,6 +1092,12 @@ mHaveLoggedAudioPreferredCodec
 =
 false
 ;
+Maybe
+<
+nsString
+>
+mLastTransactionId
+;
 RefPtr
 <
 dom
