@@ -1504,7 +1504,7 @@ err
 return
 id
 .
-ToInteger
+ToUnsignedInteger
 (
 &
 err
