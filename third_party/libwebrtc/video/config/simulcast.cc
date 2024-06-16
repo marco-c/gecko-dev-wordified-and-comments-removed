@@ -65,6 +65,15 @@ include
 "
 api
 /
+field_trials_view
+.
+h
+"
+#
+include
+"
+api
+/
 video
 /
 video_codec_constants
@@ -162,6 +171,14 @@ cricket
 {
 namespace
 {
+using
+:
+:
+webrtc
+:
+:
+FieldTrialsView
+;
 constexpr
 char
 kUseLegacySimulcastLayerLimitFieldTrial
@@ -1340,6 +1357,10 @@ return
 int
 NormalizeSimulcastSize
 (
+const
+FieldTrialsView
+&
+field_trials
 int
 size
 size_t
@@ -1377,6 +1398,7 @@ NormalizeSimulcastSizeExperiment
 :
 GetBase2Exponent
 (
+field_trials
 )
 ;
 if
@@ -2327,6 +2349,7 @@ width
 =
 NormalizeSimulcastSize
 (
+trials
 width
 layer_count
 )
@@ -2335,6 +2358,7 @@ height
 =
 NormalizeSimulcastSize
 (
+trials
 height
 layer_count
 )
