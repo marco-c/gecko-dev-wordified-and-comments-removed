@@ -1982,7 +1982,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-55
+62
 /
 /
 external_types
@@ -2144,7 +2144,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-56
+63
 /
 /
 external_types
