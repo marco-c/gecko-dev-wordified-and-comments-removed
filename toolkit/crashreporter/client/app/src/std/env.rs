@@ -219,6 +219,13 @@ into
 }
 )
 }
+#
+[
+allow
+(
+unused
+)
+]
 pub
 fn
 current_exe
