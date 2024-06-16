@@ -35,13 +35,6 @@ js
 ]
 [
 "
-browser_hide_sidebar_on_popup
-.
-js
-"
-]
-[
-"
 browser_history_sidebar
 .
 js
