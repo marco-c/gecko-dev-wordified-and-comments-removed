@@ -537,6 +537,7 @@ aOldUsage
 Usage
 aNewUsage
 )
+const
 ;
 nsresult
 ClearDestinationIfNotLocked
