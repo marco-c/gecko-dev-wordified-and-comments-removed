@@ -643,7 +643,7 @@ constexpr
 float
 kConvergenceTimeAfterConfidenceNumFrames
 =
-600
+700
 ;
 static_assert
 (
