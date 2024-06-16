@@ -76,9 +76,6 @@ TestXREMakeCommandLineWin
 tests
 '
 (
-RUN_TEST_PROGRAM
-)
-(
 FINAL_TARGET
 )
 /

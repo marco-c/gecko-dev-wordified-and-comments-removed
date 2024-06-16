@@ -21,15 +21,3 @@ DIRS
 elfhack
 "
 ]
-FINAL_TARGET_FILES
-+
-=
-[
-"
-run
--
-mozilla
-.
-sh
-"
-]
