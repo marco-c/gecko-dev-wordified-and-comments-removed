@@ -26,7 +26,7 @@ and
 CONFIG
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 in
@@ -131,6 +131,14 @@ OS_TARGET
 "
 Android
 "
+and
+not
+CONFIG
+[
+"
+MOZ_TSAN
+"
+]
 :
 UNIFIED_SOURCES
 +
