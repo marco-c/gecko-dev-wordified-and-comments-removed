@@ -3572,12 +3572,6 @@ nsBrowserStatusFilter
 >
 mStatusFilter
 ;
-Maybe
-<
-CodeNameIndex
->
-mPreviousConsumedKeyDownCode
-;
 uint32_t
 mChromeFlags
 ;
@@ -3633,6 +3627,11 @@ mDidFakeShow
 ;
 bool
 mTriedBrowserInit
+:
+1
+;
+bool
+mIgnoreKeyPressEvent
 :
 1
 ;
