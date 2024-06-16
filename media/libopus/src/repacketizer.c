@@ -683,8 +683,10 @@ i
 )
 {
 int
-frame_ext_count
 j
+;
+opus_int32
+frame_ext_count
 ;
 frame_ext_count
 =
