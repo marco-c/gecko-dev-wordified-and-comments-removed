@@ -94,10 +94,6 @@ aboutwelcome
 "
     
 "
-majorRelease2022
-"
-    
-"
 newtab
 "
     
