@@ -147,6 +147,11 @@ argumentsList
 )
 ;
 }
+SetIsInlinableLargeFunction
+(
+Reflect_apply
+)
+;
 function
 Reflect_construct
 (
