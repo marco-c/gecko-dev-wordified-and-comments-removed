@@ -508,7 +508,7 @@ ToXPC
 document
 -
 >
-GetAccessible
+GetAccessibleEvenIfNotInMap
 (
 aNode
 )
