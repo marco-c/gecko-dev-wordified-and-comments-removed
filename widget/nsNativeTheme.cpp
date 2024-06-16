@@ -780,6 +780,12 @@ case
 StyleAppearance
 :
 :
+PasswordInput
+:
+case
+StyleAppearance
+:
+:
 Searchfield
 :
 case

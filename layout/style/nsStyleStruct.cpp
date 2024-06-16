@@ -11903,6 +11903,15 @@ aDefaultAppearance
 StyleAppearance
 :
 :
+PasswordInput
+|
+|
+aDefaultAppearance
+=
+=
+StyleAppearance
+:
+:
 Searchfield
 ;
 case
