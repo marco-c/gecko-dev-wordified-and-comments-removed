@@ -8982,6 +8982,10 @@ TransactionBase
 >
 mTransaction
 ;
+const
+int64_t
+mRequestId
+;
 InternalState
 mInternalState
 =
@@ -9152,6 +9156,9 @@ SafeRefPtr
 TransactionBase
 >
 aTransaction
+const
+int64_t
+aRequestId
 uint64_t
 aLoggingSerialNumber
 )
@@ -10621,6 +10628,7 @@ move
 (
 aTransaction
 )
+0
 0
 )
 {
@@ -13336,6 +13344,7 @@ mVersionChangeTransaction
 clonePtr
 (
 )
+0
 aOpenDatabaseOp
 -
 >
@@ -73970,6 +73979,10 @@ aTransaction
 )
 )
 )
+mRequestId
+(
+0
+)
 mTransactionIsAborted
 (
 (
@@ -74013,6 +74026,9 @@ SafeRefPtr
 TransactionBase
 >
 aTransaction
+const
+int64_t
+aRequestId
 uint64_t
 aLoggingSerialNumber
 )
@@ -74044,6 +74060,10 @@ move
 aTransaction
 )
 )
+)
+mRequestId
+(
+aRequestId
 )
 mTransactionIsAborted
 (
@@ -74112,6 +74132,11 @@ subclass
 !
 "
 )
+;
+(
+void
+)
+mRequestId
 ;
 }
 #

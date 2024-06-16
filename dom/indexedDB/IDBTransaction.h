@@ -286,6 +286,9 @@ mNextObjectStoreId
 int64_t
 mNextIndexId
 ;
+int64_t
+mNextRequestId
+;
 nsresult
 mAbortCode
 ;
@@ -986,6 +989,11 @@ NextObjectStoreId
 ;
 int64_t
 NextIndexId
+(
+)
+;
+int64_t
+NextRequestId
 (
 )
 ;
