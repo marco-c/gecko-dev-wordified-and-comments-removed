@@ -488,9 +488,9 @@ remote
 /
 content
 /
-marionette
+shared
 /
-permissions
+Permissions
 .
 sys
 .
