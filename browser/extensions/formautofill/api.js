@@ -838,9 +838,6 @@ detected
 "
 :
 {
-createActor
-:
-false
 }
 }
 }

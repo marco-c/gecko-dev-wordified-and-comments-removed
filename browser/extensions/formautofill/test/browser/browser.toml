@@ -81,6 +81,13 @@ html
 ]
 [
 "
+browser_active_window_navigation
+.
+js
+"
+]
+[
+"
 browser_autocomplete_footer
 .
 js
@@ -201,13 +208,6 @@ js
 [
 "
 browser_manageAddressesDialog
-.
-js
-"
-]
-[
-"
-browser_page_navigation_in_subtree
 .
 js
 "
