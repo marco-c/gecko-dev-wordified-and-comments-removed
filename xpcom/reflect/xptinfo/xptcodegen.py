@@ -1455,14 +1455,6 @@ d2
 =
 0
         
-assert
-tag
-!
-=
-"
-TD_VOID
-"
-        
 if
 tag
 =
@@ -1854,6 +1846,7 @@ lower_method
 (
 method
 ifacename
+builtinclass
 )
 :
         
@@ -1901,6 +1894,8 @@ method
 if
 not
 reflectable
+and
+builtinclass
 :
             
 paramidx
@@ -2438,6 +2433,19 @@ name
 "
 ]
         
+builtinclass
+=
+"
+builtinclass
+"
+in
+iface
+[
+"
+flags
+"
+]
+        
 iface
 [
 "
@@ -2531,16 +2539,7 @@ const_cnt
             
 mBuiltinClass
 =
-"
 builtinclass
-"
-in
-iface
-[
-"
-flags
-"
-]
             
 mMainProcessScriptableOnly
 =
@@ -2590,6 +2589,7 @@ iface
 name
 "
 ]
+builtinclass
 )
         
 for
