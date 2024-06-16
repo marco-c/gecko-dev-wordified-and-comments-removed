@@ -1019,6 +1019,8 @@ bug_numbers
 :
 -
 1883747
+-
+1887746
 description
 :
 >
@@ -1035,6 +1037,10 @@ media
 device
 origin
 mapping
+chrome
+privileged
+IndexedDB
+databases
 and
 Mozilla
 Accounts
