@@ -2459,7 +2459,7 @@ arrayArg
 uint32_t
 arrayStart
 uint32_t
-arrayCount
+arrayEnd
 )
 ;
 static
