@@ -504,16 +504,6 @@ nsIJumpListBuilder
 idl
 "
 "
-nsILegacyJumpListBuilder
-.
-idl
-"
-"
-nsILegacyJumpListItem
-.
-idl
-"
-"
 nsIPrintSettingsWin
 .
 idl
