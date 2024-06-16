@@ -194,7 +194,7 @@ attribute
 int64_t
 bundleContentsLastModifiedTime
 ;
-bool
+boolean
 hasXAttr
 (
 in

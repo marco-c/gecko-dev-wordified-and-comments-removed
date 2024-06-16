@@ -652,7 +652,7 @@ void
 lockAspectRatio
 (
 in
-bool
+boolean
 aShouldLock
 )
 ;

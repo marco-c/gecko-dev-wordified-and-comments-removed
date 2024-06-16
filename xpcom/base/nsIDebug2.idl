@@ -238,7 +238,7 @@ Mac
 /
 readonly
 attribute
-bool
+boolean
 isDebuggerAttached
 ;
 /

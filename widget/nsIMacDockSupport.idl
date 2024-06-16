@@ -283,7 +283,7 @@ Dock
 /
 readonly
 attribute
-bool
+boolean
 isAppInDock
 ;
 /
@@ -527,7 +527,7 @@ false
 .
 *
 /
-bool
+boolean
 ensureAppIsPinnedToDock
 (
 [

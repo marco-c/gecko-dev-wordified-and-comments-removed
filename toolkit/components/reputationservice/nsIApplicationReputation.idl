@@ -86,7 +86,7 @@ nsIApplicationReputationCallback
 aCallback
 )
 ;
-bool
+boolean
 isBinary
 (
 in
@@ -94,7 +94,7 @@ AUTF8String
 aFilename
 )
 ;
-bool
+boolean
 isExecutable
 (
 in
@@ -196,7 +196,7 @@ void
 onComplete
 (
 in
-bool
+boolean
 aShouldBlock
 in
 nsresult

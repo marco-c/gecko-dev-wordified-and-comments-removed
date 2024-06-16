@@ -178,7 +178,7 @@ void
 setEnabled
 (
 in
-bool
+boolean
 enabled
 )
 ;

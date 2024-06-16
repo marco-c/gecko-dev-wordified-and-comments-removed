@@ -71,7 +71,7 @@ drainDirectTasks
 [
 noscript
 ]
-bool
+boolean
 haveDirectTasks
 (
 )

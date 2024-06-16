@@ -1381,7 +1381,7 @@ query
 .
 *
 /
-bool
+boolean
 isDomainKnown
 (
 in

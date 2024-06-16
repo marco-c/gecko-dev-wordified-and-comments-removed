@@ -584,7 +584,7 @@ ODoHConfig
 ;
 readonly
 attribute
-bool
+boolean
 hasIPHintAddress
 ;
 readonly

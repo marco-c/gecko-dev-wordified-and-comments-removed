@@ -117,13 +117,13 @@ aBrowsingContext
 optional
 ]
 in
-bool
+boolean
 aWasTriggeredExternally
 [
 optional
 ]
 in
-bool
+boolean
 aHasValidUserGestureActivation
 )
 ;
@@ -135,7 +135,7 @@ AUTF8String
 aScheme
 )
 ;
-bool
+boolean
 isCurrentAppOSDefaultForProtocol
 (
 in

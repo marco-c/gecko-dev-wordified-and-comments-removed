@@ -257,7 +257,7 @@ loadInfo
 ;
 readonly
 attribute
-bool
+boolean
 isDocument
 ;
 %

@@ -70,7 +70,7 @@ AString
 canonicalPath
 ;
 attribute
-bool
+boolean
 readOnly
 ;
 attribute

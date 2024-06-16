@@ -46,7 +46,7 @@ credentialId
 ;
 readonly
 attribute
-bool
+boolean
 isResidentCredential
 ;
 readonly
@@ -168,7 +168,7 @@ nsISupports
 {
 readonly
 attribute
-bool
+boolean
 isUVPAA
 ;
 void
@@ -283,7 +283,7 @@ in
 uint64_t
 aTransactionId
 in
-bool
+boolean
 aForceNoneAttestation
 )
 ;
@@ -308,16 +308,16 @@ in
 ACString
 transport
 in
-bool
+boolean
 hasResidentKey
 in
-bool
+boolean
 hasUserVerification
 in
-bool
+boolean
 isUserConsenting
 in
-bool
+boolean
 isUserVerified
 )
 ;
@@ -339,7 +339,7 @@ in
 ACString
 credentialId
 in
-bool
+boolean
 isResidentCredential
 in
 ACString
@@ -392,7 +392,7 @@ in
 uint64_t
 authenticatorId
 in
-bool
+boolean
 isUserVerified
 )
 ;

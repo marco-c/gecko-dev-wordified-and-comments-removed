@@ -241,13 +241,6 @@ types
 substitute
 ]
 typedef
-boolean
-bool
-;
-[
-substitute
-]
-typedef
 octet
 uint8_t
 ;

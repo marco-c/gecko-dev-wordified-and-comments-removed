@@ -256,7 +256,7 @@ aBrowsingContext
 optional
 ]
 in
-bool
+boolean
 aWasTriggeredExternally
 )
 ;

@@ -884,7 +884,7 @@ itself
 .
 *
 /
-bool
+boolean
 finishChangeRemoteness
 (
 in

@@ -529,12 +529,12 @@ occur
 /
 readonly
 attribute
-bool
+boolean
 ignoreResults
 ;
 readonly
 attribute
-bool
+boolean
 ignoreErrors
 ;
 }

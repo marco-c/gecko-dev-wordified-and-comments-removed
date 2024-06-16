@@ -205,7 +205,7 @@ false
 )
 ]
 in
-bool
+boolean
 skipAncestors
 )
 ;

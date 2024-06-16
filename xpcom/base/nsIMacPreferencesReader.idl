@@ -154,7 +154,7 @@ otherwise
 .
 *
 /
-bool
+boolean
 policiesEnabled
 (
 )

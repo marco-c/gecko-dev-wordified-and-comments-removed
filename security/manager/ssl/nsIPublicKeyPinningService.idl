@@ -113,7 +113,7 @@ otherwise
 [
 must_use
 ]
-bool
+boolean
 hostHasPins
 (
 in

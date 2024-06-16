@@ -1864,7 +1864,7 @@ yet
 /
 readonly
 attribute
-bool
+boolean
 isInitialized
 ;
 /
@@ -1884,7 +1884,7 @@ successfully
 /
 readonly
 attribute
-bool
+boolean
 hasSuccessfullyInitialized
 ;
 /

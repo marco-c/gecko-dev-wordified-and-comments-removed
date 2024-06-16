@@ -169,7 +169,7 @@ aClientCert
 must_use
 noscript
 ]
-bool
+boolean
 hasRememberedDecision
 (
 in
@@ -186,7 +186,7 @@ aCertDBKey
 [
 implicit_jscontext
 ]
-bool
+boolean
 hasRememberedDecisionScriptable
 (
 in

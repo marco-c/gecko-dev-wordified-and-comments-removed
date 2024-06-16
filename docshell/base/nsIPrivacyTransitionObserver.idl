@@ -88,7 +88,7 @@ void
 privateModeChanged
 (
 in
-bool
+boolean
 enabled
 )
 ;

@@ -884,7 +884,7 @@ void
 setReuseAddrPort
 (
 in
-bool
+boolean
 reuseAddrPort
 )
 ;
@@ -2328,7 +2328,7 @@ TRR
 .
 *
 /
-bool
+boolean
 resolvedByTRR
 (
 )

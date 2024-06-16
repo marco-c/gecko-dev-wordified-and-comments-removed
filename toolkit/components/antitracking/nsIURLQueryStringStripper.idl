@@ -262,7 +262,7 @@ in
 nsIURI
 aURI
 in
-bool
+boolean
 aIsPBM
 out
 nsIURI

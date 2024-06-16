@@ -283,7 +283,7 @@ in
 float
 aVolume
 in
-bool
+boolean
 aMuted
 )
 ;
@@ -330,7 +330,7 @@ void
 windowAudioCaptureChanged
 (
 in
-bool
+boolean
 aCapture
 )
 ;

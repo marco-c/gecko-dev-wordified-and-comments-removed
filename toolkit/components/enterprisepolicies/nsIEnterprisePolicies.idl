@@ -120,7 +120,7 @@ attribute
 short
 status
 ;
-bool
+boolean
 isAllowed
 (
 in
@@ -343,7 +343,7 @@ installed
 .
 *
 /
-bool
+boolean
 mayInstallAddon
 (
 in
@@ -387,7 +387,7 @@ installed
 .
 *
 /
-bool
+boolean
 allowedInstallSource
 (
 in
@@ -438,7 +438,7 @@ exempt
 .
 *
 /
-bool
+boolean
 isExemptExecutableExtension
 (
 in

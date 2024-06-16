@@ -205,7 +205,7 @@ void
 initIsPromiseRejection
 (
 in
-bool
+boolean
 isPromiseRejection
 )
 ;
@@ -271,13 +271,13 @@ category
 optional
 ]
 in
-bool
+boolean
 fromPrivateWindow
 [
 optional
 ]
 in
-bool
+boolean
 fromChromeContext
 )
 ;
@@ -314,7 +314,7 @@ innerWindowID
 optional
 ]
 in
-bool
+boolean
 fromChromeContext
 )
 ;
@@ -351,7 +351,7 @@ innerWindowID
 optional
 ]
 in
-bool
+boolean
 fromChromeContext
 )
 ;
@@ -388,7 +388,7 @@ innerWindowID
 optional
 ]
 in
-bool
+boolean
 fromChromeContext
 )
 ;

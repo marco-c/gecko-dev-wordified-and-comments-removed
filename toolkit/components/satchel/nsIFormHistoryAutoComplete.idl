@@ -127,7 +127,7 @@ in
 nsIAutoCompleteResult
 aPreviousResult
 in
-bool
+boolean
 aAddDatalist
 in
 nsIFormFillCompleteObserver

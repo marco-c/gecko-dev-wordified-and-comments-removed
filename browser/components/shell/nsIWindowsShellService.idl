@@ -1036,7 +1036,7 @@ Promise
 pinCurrentAppToTaskbarAsync
 (
 in
-bool
+boolean
 aPrivateBrowsing
 )
 ;
@@ -1134,7 +1134,7 @@ Promise
 checkPinCurrentAppToTaskbarAsync
 (
 in
-bool
+boolean
 aPrivateBrowsing
 )
 ;
@@ -1922,7 +1922,7 @@ in
 AString
 aAUMID
 in
-bool
+boolean
 aPrivateBrowsing
 )
 ;
@@ -1971,7 +1971,7 @@ otherwise
 .
 *
 /
-bool
+boolean
 canSetDefaultBrowserUserChoice
 (
 )
@@ -2012,12 +2012,12 @@ otherwise
 .
 *
 /
-bool
+boolean
 checkAllProgIDsExist
 (
 )
 ;
-bool
+boolean
 checkBrowserUserChoiceHashes
 (
 )

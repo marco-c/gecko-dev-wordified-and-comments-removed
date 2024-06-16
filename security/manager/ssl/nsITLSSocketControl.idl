@@ -99,7 +99,7 @@ getAlpnEarlySelection
 ;
 readonly
 attribute
-bool
+boolean
 earlyDataAccepted
 ;
 void

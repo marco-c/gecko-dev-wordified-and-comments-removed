@@ -440,7 +440,7 @@ aDocumentURI
 optional
 ]
 in
-bool
+boolean
 aPrivate
 )
 ;
@@ -620,7 +620,7 @@ aStoragePrincipal
 optional
 ]
 in
-bool
+boolean
 aPrivate
 )
 ;
@@ -791,7 +791,7 @@ false
 otherwise
 *
 /
-bool
+boolean
 checkStorage
 (
 in

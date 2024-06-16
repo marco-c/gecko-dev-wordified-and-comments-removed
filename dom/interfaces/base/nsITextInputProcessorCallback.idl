@@ -692,7 +692,7 @@ false
 /
 readonly
 attribute
-bool
+boolean
 hasRange
 ;
 /

@@ -176,7 +176,7 @@ long
 classFlags
 ;
 attribute
-bool
+boolean
 incremental
 ;
 void

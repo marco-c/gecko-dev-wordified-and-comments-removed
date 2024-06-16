@@ -97,7 +97,7 @@ in
 nsIX509Cert
 cert
 in
-bool
+boolean
 rememberDecision
 )
 ;

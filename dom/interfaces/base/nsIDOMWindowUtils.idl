@@ -7631,7 +7631,7 @@ needed
 .
 *
 /
-bool
+boolean
 needsFlush
 (
 in
@@ -11048,7 +11048,7 @@ above
 /
 readonly
 attribute
-bool
+boolean
 isTestControllingRefreshes
 ;
 /
@@ -11096,7 +11096,7 @@ enabled
 /
 readonly
 attribute
-bool
+boolean
 asyncPanZoomEnabled
 ;
 /
@@ -11330,7 +11330,7 @@ only
 !
 *
 /
-bool
+boolean
 flushApzRepaints
 (
 )
@@ -12417,7 +12417,7 @@ enableDialogs
 (
 )
 ;
-bool
+boolean
 areDialogsEnabled
 (
 )
@@ -13149,7 +13149,7 @@ property
 .
 *
 /
-bool
+boolean
 isKeyboardEventUserActivity
 (
 in
@@ -13445,7 +13445,7 @@ NS_ERROR_NOT_AVAILABLE
 /
 readonly
 attribute
-bool
+boolean
 refreshDriverHasPendingTick
 ;
 /
@@ -13788,7 +13788,7 @@ constants
 .
 *
 /
-bool
+boolean
 hasRuleProcessorUsedByMultipleStyleSets
 (
 in
@@ -14713,7 +14713,7 @@ invalid
 .
 *
 /
-bool
+boolean
 isCssPropertyRecordedInUseCounter
 (
 in
@@ -14757,7 +14757,7 @@ resetMobileViewportManager
 (
 )
 ;
-bool
+boolean
 isCoepCredentialless
 (
 )
@@ -15147,7 +15147,7 @@ requests
 .
 readonly
 attribute
-bool
+boolean
 effectivelyThrottlesFrameRequests
 ;
 /
@@ -15235,7 +15235,7 @@ status
 .
 readonly
 attribute
-bool
+boolean
 suspendedByBrowsingContextGroup
 ;
 /
@@ -15319,7 +15319,7 @@ effects
 .
 readonly
 attribute
-bool
+boolean
 hasScrollLinkedEffect
 ;
 /

@@ -238,7 +238,7 @@ void
 unregisterSucceeded
 (
 in
-bool
+boolean
 aState
 )
 ;
@@ -403,7 +403,7 @@ evaluatingWorker
 .
 readonly
 attribute
-bool
+boolean
 handlesFetchEvents
 ;
 readonly
@@ -1799,7 +1799,7 @@ aScope
 notxpcom
 nostdcall
 ]
-bool
+boolean
 StartControlling
 (
 in

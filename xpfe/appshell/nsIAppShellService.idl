@@ -102,7 +102,7 @@ createWindowlessBrowser
 optional
 ]
 in
-bool
+boolean
 aIsChrome
 [
 optional
@@ -172,7 +172,7 @@ attribute
 boolean
 hasHiddenWindow
 ;
-bool
+boolean
 startEventLoopLagTracking
 (
 )

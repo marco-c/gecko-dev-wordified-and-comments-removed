@@ -58,7 +58,7 @@ directory
 optional
 ]
 in
-bool
+boolean
 defer
 )
 ;
@@ -81,7 +81,7 @@ AString
 baseDomain
 )
 ;
-bool
+boolean
 isPersistentStorageAllowed
 (
 in

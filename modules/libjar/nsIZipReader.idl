@@ -1849,7 +1849,7 @@ file
 cached
 *
 /
-bool
+boolean
 isCached
 (
 in

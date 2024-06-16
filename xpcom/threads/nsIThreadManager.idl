@@ -69,7 +69,7 @@ nsINestedEventLoopCondition
 :
 nsISupports
 {
-bool
+boolean
 isDone
 (
 )

@@ -428,7 +428,7 @@ noscript
 notxpcom
 nostdcall
 ]
-bool
+boolean
 HasOrthogonalPagesPerSheet
 (
 )
@@ -446,7 +446,7 @@ nsIPrintSettings
 aPS
 )
 ;
-bool
+boolean
 equivalentTo
 (
 in

@@ -687,7 +687,7 @@ TRR
 .
 *
 /
-bool
+boolean
 IsTRR
 (
 )
@@ -705,7 +705,7 @@ process
 .
 *
 /
-bool
+boolean
 resolvedInSocketProcess
 (
 )

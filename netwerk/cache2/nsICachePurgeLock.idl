@@ -194,7 +194,7 @@ called
 .
 *
 /
-bool
+boolean
 isOtherInstanceRunning
 (
 )

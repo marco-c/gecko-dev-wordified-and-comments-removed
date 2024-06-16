@@ -33,12 +33,12 @@ caretOffset
 ;
 readonly
 attribute
-bool
+boolean
 isSelectionCollapsed
 ;
 readonly
 attribute
-bool
+boolean
 isAtEndOfLine
 ;
 readonly

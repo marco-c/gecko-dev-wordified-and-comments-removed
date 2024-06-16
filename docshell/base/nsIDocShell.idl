@@ -1706,7 +1706,7 @@ owner
 .
 *
 /
-bool
+boolean
 tabToTreeOwner
 (
 in
@@ -3182,7 +3182,7 @@ void
 notifyReflowObservers
 (
 in
-bool
+boolean
 interruptible
 in
 DOMHighResTimeStamp
@@ -3344,7 +3344,7 @@ docshell
 /
 readonly
 attribute
-bool
+boolean
 asyncPanZoomEnabled
 ;
 /
@@ -3594,7 +3594,7 @@ activity
 noscript
 notxpcom
 ]
-bool
+boolean
 IsInvisible
 (
 )
@@ -3607,7 +3607,7 @@ void
 SetInvisible
 (
 in
-bool
+boolean
 aIsInvisibleDocshell
 )
 ;
@@ -4063,7 +4063,7 @@ reload
 /
 readonly
 attribute
-bool
+boolean
 isForceReloading
 ;
 Array

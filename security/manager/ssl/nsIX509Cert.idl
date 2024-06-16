@@ -326,7 +326,7 @@ aWriter
 notxpcom
 noscript
 ]
-bool
+boolean
 DeserializeFromIPC
 (
 in

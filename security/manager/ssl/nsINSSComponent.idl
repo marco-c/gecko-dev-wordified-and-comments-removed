@@ -93,7 +93,7 @@ logoutAuthenticatedPK11
 [
 noscript
 ]
-bool
+boolean
 isCertTestBuiltInRoot
 (
 in

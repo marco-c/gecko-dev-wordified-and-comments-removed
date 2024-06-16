@@ -651,7 +651,7 @@ tab
 /
 readonly
 attribute
-bool
+boolean
 hasPrimaryContent
 ;
 }

@@ -841,7 +841,7 @@ in
 ACString
 aIdExtension
 out
-bool
+boolean
 aHasAltData
 out
 uint32_t

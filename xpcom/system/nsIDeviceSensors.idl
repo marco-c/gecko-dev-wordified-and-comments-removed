@@ -296,7 +296,7 @@ given
 type
 *
 /
-bool
+boolean
 hasWindowListener
 (
 in

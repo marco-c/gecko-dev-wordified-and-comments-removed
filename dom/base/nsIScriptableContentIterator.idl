@@ -406,7 +406,7 @@ IsDone
 )
 readonly
 attribute
-bool
+boolean
 isDone
 ;
 /

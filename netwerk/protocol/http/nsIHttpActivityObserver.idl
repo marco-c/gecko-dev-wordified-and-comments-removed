@@ -1029,7 +1029,7 @@ getter
 noscript
 notxpcom
 ]
-bool
+boolean
 Activated
 (
 )
@@ -1038,7 +1038,7 @@ Activated
 noscript
 notxpcom
 ]
-bool
+boolean
 ObserveProxyResponseEnabled
 (
 )
@@ -1047,7 +1047,7 @@ ObserveProxyResponseEnabled
 noscript
 notxpcom
 ]
-bool
+boolean
 ObserveConnectionEnabled
 (
 )

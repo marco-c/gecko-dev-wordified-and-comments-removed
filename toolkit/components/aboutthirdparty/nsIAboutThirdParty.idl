@@ -126,12 +126,12 @@ aModulePath
 ;
 readonly
 attribute
-bool
+boolean
 isDynamicBlocklistAvailable
 ;
 readonly
 attribute
-bool
+boolean
 isDynamicBlocklistDisabled
 ;
 [

@@ -279,7 +279,7 @@ dbus
 /
 readonly
 attribute
-bool
+boolean
 mainThreadOnly
 ;
 /
@@ -411,7 +411,7 @@ WPAD
 /
 readonly
 attribute
-bool
+boolean
 systemWPADSetting
 ;
 }

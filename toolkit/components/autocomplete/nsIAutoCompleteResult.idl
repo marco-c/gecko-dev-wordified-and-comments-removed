@@ -474,7 +474,7 @@ removable
 .
 *
 /
-bool
+boolean
 isRemovableAt
 (
 in

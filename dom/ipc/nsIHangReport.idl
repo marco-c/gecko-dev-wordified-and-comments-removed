@@ -78,7 +78,7 @@ endStartingDebugger
 (
 )
 ;
-bool
+boolean
 isReportForBrowserOrChildren
 (
 in

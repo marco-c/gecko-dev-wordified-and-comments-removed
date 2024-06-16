@@ -2100,7 +2100,7 @@ usual
 *
 /
 attribute
-bool
+boolean
 manualDoNotDisturb
 ;
 /
@@ -2134,7 +2134,7 @@ API
 *
 /
 attribute
-bool
+boolean
 suppressForScreenSharing
 ;
 }

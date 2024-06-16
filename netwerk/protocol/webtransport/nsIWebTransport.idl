@@ -321,7 +321,7 @@ void
 onSessionClosed
 (
 in
-bool
+boolean
 aCleanly
 in
 uint32_t
@@ -454,7 +454,7 @@ nsISupports
 {
 readonly
 attribute
-bool
+boolean
 dedicated
 ;
 void

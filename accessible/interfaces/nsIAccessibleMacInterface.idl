@@ -148,7 +148,7 @@ AString
 actionName
 )
 ;
-bool
+boolean
 isAttributeSettable
 (
 in

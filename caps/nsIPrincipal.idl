@@ -269,7 +269,7 @@ in
 nsIPrincipal
 other
 in
-bool
+boolean
 aExactHost
 )
 ;
@@ -563,7 +563,7 @@ nsIURI
 otherURI
 )
 ;
-bool
+boolean
 allowsRelaxStrictFileOriginPolicy
 (
 in
@@ -581,14 +581,14 @@ in
 nsIURI
 aURI
 in
-bool
+boolean
 aWithCredentials
 in
 const_OriginAttributes
 aOriginAttributes
 )
 ;
-bool
+boolean
 hasFirstpartyStorageAccess
 (
 in

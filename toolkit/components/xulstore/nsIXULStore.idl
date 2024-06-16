@@ -346,7 +346,7 @@ attr
 attribute
 *
 /
-bool
+boolean
 hasValue
 (
 in

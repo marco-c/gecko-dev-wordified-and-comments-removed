@@ -297,7 +297,7 @@ unlocked
 .
 *
 /
-bool
+boolean
 isLocked
 (
 )

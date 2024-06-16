@@ -343,7 +343,7 @@ long
 flags
 )
 ;
-bool
+boolean
 inFileURIAllowlist
 (
 in
@@ -552,7 +552,7 @@ DomainPolicyClonePtr
 aClone
 )
 ;
-bool
+boolean
 policyAllowsScript
 (
 in

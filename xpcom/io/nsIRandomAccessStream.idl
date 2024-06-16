@@ -130,7 +130,7 @@ aCallbacks
 notxpcom
 nostdcall
 ]
-bool
+boolean
 deserialize
 (
 inout

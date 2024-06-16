@@ -226,7 +226,7 @@ SF_OUTGOING
 =
 1
 ;
-bool
+boolean
 filterPacket
 (
 [

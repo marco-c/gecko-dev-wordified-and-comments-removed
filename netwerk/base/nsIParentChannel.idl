@@ -353,7 +353,7 @@ in
 uint32_t
 aClassificationFlags
 in
-bool
+boolean
 aIsThirdParty
 )
 ;

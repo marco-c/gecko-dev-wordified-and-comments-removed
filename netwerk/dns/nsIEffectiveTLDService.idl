@@ -112,7 +112,7 @@ AUTF8String
 aHost
 )
 ;
-bool
+boolean
 hasRootDomain
 (
 in

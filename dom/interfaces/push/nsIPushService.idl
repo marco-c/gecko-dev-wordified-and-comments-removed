@@ -171,7 +171,7 @@ quota
 ;
 readonly
 attribute
-bool
+boolean
 isSystemSubscription
 ;
 readonly
@@ -179,12 +179,12 @@ attribute
 jsval
 p256dhPrivateKey
 ;
-bool
+boolean
 quotaApplies
 (
 )
 ;
-bool
+boolean
 isExpired
 (
 )
@@ -389,7 +389,7 @@ in
 nsresult
 status
 in
-bool
+boolean
 success
 )
 ;

@@ -37,7 +37,7 @@ state
 ;
 readonly
 attribute
-bool
+boolean
 isSecureContext
 ;
 readonly

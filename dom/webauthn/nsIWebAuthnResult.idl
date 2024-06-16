@@ -55,14 +55,14 @@ transports
 ;
 readonly
 attribute
-bool
+boolean
 hmacCreateSecret
 ;
 [
 must_use
 ]
 attribute
-bool
+boolean
 credPropsRk
 ;
 [
@@ -146,7 +146,7 @@ userName
 must_use
 ]
 attribute
-bool
+boolean
 usedAppId
 ;
 [

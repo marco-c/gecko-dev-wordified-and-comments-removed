@@ -1301,7 +1301,7 @@ nsIKeyValueEnumerator
 :
 nsISupports
 {
-bool
+boolean
 hasMoreElements
 (
 )

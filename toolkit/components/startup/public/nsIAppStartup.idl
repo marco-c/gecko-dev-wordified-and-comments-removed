@@ -516,7 +516,7 @@ is
 necessary
 *
 /
-bool
+boolean
 trackStartupCrashBegin
 (
 )
@@ -969,7 +969,7 @@ closed
 .
 *
 /
-bool
+boolean
 quit
 (
 in
@@ -1174,7 +1174,7 @@ phase
 .
 *
 /
-bool
+boolean
 isInOrBeyondShutdownPhase
 (
 in
@@ -1465,7 +1465,7 @@ UI
 /
 readonly
 attribute
-bool
+boolean
 showedPreXULSkeletonUI
 ;
 /

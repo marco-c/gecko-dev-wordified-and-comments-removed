@@ -1665,7 +1665,7 @@ nsISFVBool
 newBool
 (
 in
-bool
+boolean
 value
 )
 ;

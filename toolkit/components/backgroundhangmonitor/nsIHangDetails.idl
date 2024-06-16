@@ -53,7 +53,7 @@ nsISupports
 {
 readonly
 attribute
-bool
+boolean
 wasPersisted
 ;
 readonly

@@ -310,7 +310,7 @@ nsIPaymentActionResponse
 {
 readonly
 attribute
-bool
+boolean
 result
 ;
 void
@@ -320,7 +320,7 @@ in
 AString
 aRequestId
 in
-bool
+boolean
 aResult
 )
 ;
@@ -442,7 +442,7 @@ uint32_t
 aAbortStatus
 )
 ;
-bool
+boolean
 isSucceeded
 (
 )
@@ -486,7 +486,7 @@ uint32_t
 aCompleteStatus
 )
 ;
-bool
+boolean
 isCompleted
 (
 )

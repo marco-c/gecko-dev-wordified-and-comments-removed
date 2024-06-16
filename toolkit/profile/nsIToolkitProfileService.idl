@@ -599,7 +599,7 @@ once
 .
 *
 /
-bool
+boolean
 selectStartupProfile
 (
 in

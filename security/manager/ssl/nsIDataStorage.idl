@@ -121,7 +121,7 @@ clear
 (
 )
 ;
-bool
+boolean
 isReady
 (
 )

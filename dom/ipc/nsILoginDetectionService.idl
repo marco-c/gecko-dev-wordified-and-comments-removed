@@ -132,7 +132,7 @@ only
 .
 *
 /
-bool
+boolean
 isLoginsLoaded
 (
 )

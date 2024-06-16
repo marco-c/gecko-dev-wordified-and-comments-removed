@@ -502,7 +502,7 @@ directive
 /
 readonly
 attribute
-bool
+boolean
 upgradeInsecureRequests
 ;
 /
@@ -574,7 +574,7 @@ upgrade
 /
 readonly
 attribute
-bool
+boolean
 blockAllMixedContent
 ;
 /
@@ -596,7 +596,7 @@ directive
 /
 readonly
 attribute
-bool
+boolean
 enforcesFrameAncestors
 ;
 /
@@ -872,7 +872,7 @@ in
 nsIContentSecurityPolicy_CSPDirective
 aDirective
 in
-bool
+boolean
 aHasUnsafeHash
 in
 AString
@@ -2100,7 +2100,7 @@ in
 nsIURI
 aOriginalURIIfRedirect
 in
-bool
+boolean
 aSendViolationReports
 )
 ;

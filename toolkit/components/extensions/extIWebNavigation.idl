@@ -116,10 +116,10 @@ in
 nsIURI
 location
 in
-bool
+boolean
 isHistoryStateUpdated
 in
-bool
+boolean
 isReferenceFragmentUpdated
 )
 ;

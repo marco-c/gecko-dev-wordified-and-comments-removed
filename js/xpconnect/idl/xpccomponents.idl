@@ -2136,7 +2136,7 @@ lineNo
 optional
 ]
 in
-bool
+boolean
 enforceFilenameRestrictions
 )
 ;
@@ -4132,7 +4132,7 @@ property
 .
 *
 /
-bool
+boolean
 isDeadWrapper
 (
 in
@@ -4243,7 +4243,7 @@ doCrossOriginThing
 }
 *
 /
-bool
+boolean
 isRemoteProxy
 (
 in
@@ -4684,7 +4684,7 @@ PermissiveXrayOpaque
 .
 *
 /
-bool
+boolean
 isOpaqueWrapper
 (
 in
@@ -4707,7 +4707,7 @@ XrayWrapper
 .
 *
 /
-bool
+boolean
 isXrayWrapper
 (
 in
@@ -4838,7 +4838,7 @@ in
 jsval
 aObj
 in
-bool
+boolean
 aUnwrap
 )
 ;

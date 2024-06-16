@@ -121,7 +121,7 @@ in
 Document
 doc
 in
-bool
+boolean
 privileged
 )
 ;

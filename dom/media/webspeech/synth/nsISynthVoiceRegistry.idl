@@ -389,7 +389,7 @@ uint32_t
 aIndex
 )
 ;
-bool
+boolean
 isDefaultVoice
 (
 in
@@ -397,7 +397,7 @@ AString
 aUri
 )
 ;
-bool
+boolean
 isLocalVoice
 (
 in

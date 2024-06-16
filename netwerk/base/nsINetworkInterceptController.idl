@@ -199,7 +199,7 @@ in
 ACString
 finalURLSpec
 in
-bool
+boolean
 responseRedirected
 )
 ;
@@ -300,7 +300,7 @@ aTimeStamp
 [
 noscript
 ]
-bool
+boolean
 GetIsReset
 (
 )
@@ -580,7 +580,7 @@ nsINetworkInterceptController
 :
 nsISupports
 {
-bool
+boolean
 shouldPrepareForIntercept
 (
 in

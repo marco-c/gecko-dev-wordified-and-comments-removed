@@ -849,7 +849,7 @@ start
 notxpcom
 nostdcall
 ]
-bool
+boolean
 isSynthesizedForTests
 (
 )
@@ -918,7 +918,7 @@ element
 notxpcom
 nostdcall
 ]
-bool
+boolean
 isDraggingTextInTextControl
 (
 )

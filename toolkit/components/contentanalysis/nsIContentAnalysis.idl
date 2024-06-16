@@ -531,11 +531,11 @@ isActive
 ;
 readonly
 attribute
-bool
+boolean
 mightBeActive
 ;
 attribute
-bool
+boolean
 isSetByEnterprisePolicy
 ;
 [
@@ -548,7 +548,7 @@ in
 nsIContentAnalysisRequest
 aCar
 in
-bool
+boolean
 aAutoAcknowledge
 )
 ;
@@ -559,7 +559,7 @@ in
 nsIContentAnalysisRequest
 aCar
 in
-bool
+boolean
 aAutoAcknowledge
 in
 nsIContentAnalysisCallback
@@ -581,7 +581,7 @@ in
 ACString
 aRequestToken
 in
-bool
+boolean
 aAllowContent
 )
 ;

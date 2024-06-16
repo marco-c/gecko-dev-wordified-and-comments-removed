@@ -179,12 +179,12 @@ imagePrincipal
 ;
 readonly
 attribute
-bool
+boolean
 hadCrossOriginRedirects
 ;
 readonly
 attribute
-bool
+boolean
 multipart
 ;
 readonly

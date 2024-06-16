@@ -433,7 +433,7 @@ in
 nsIURI
 aURI
 in
-bool
+boolean
 aIsPrivateBrowsing
 )
 ;
@@ -463,7 +463,7 @@ in
 ACString
 aDomain
 in
-bool
+boolean
 aIsTopLevel
 )
 ;
@@ -883,10 +883,10 @@ in
 ACString
 aSite
 in
-bool
+boolean
 aIsTopLevel
 in
-bool
+boolean
 aIsPrivate
 )
 ;
@@ -921,10 +921,10 @@ in
 ACString
 aSite
 in
-bool
+boolean
 aIsTopLevel
 in
-bool
+boolean
 aIsPrivate
 )
 ;
@@ -959,7 +959,7 @@ in
 ACString
 aSite
 in
-bool
+boolean
 aIsPrivate
 )
 ;
@@ -996,7 +996,7 @@ void
 removeAllExecutedRecords
 (
 in
-bool
+boolean
 aIsPrivate
 )
 ;

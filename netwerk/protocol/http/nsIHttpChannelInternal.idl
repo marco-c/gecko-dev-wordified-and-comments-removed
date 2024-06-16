@@ -347,7 +347,7 @@ must_use
 ]
 readonly
 attribute
-bool
+boolean
 isAuthChannel
 ;
 const
@@ -818,7 +818,7 @@ aInitiatorPolicy
 [
 noscript
 ]
-bool
+boolean
 hasCrossOriginOpenerPolicyMismatch
 (
 )

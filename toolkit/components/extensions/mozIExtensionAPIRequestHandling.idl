@@ -252,7 +252,7 @@ appended
 .
 readonly
 attribute
-bool
+boolean
 apiObjectPrepended
 ;
 cenum
