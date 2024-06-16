@@ -105,7 +105,6 @@ class
 FrameChildListID
 {
 Principal
-Popup
 Caption
 ColGroup
 Absolute
