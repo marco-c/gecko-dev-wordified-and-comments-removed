@@ -719,6 +719,11 @@ tagged
 "
 true
 "
+is_shopping_page
+:
+"
+false
+"
 num_ads_visible
 :
 "

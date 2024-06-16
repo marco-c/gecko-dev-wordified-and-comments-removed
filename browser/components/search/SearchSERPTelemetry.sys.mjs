@@ -11122,6 +11122,11 @@ tagged
 impressionInfo
 .
 tagged
+is_shopping_page
+:
+impressionInfo
+.
+isShoppingPage
 num_ads_clicked
 :
 telemetryState
