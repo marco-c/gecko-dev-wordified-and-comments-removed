@@ -118,6 +118,17 @@ selectedFileTypeIndex
 ;
 }
 ;
+struct
+RemoteError
+{
+nsCString
+where
+;
+uint32_t
+why
+;
+}
+;
 }
 }
 }
