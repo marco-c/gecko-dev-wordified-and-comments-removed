@@ -63,15 +63,13 @@ name
 mozac_lib_crash_dialog_title
 "
 >
-Sent
-moslo
 %
 1
 s
 tuvo
 un
 problema
-ya
+y
 casc
 .
 <
@@ -319,9 +317,7 @@ name
 mozac_lib_crash_background_process_notification_title
 "
 >
-Sent
-moslo
-prod
+Prod
 xose
 un
 problema
@@ -588,7 +584,7 @@ neng
 n
 informe
 de
-casques
+casque
 .
 <
 /
