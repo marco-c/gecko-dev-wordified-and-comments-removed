@@ -1573,6 +1573,15 @@ wjc
 return
 ;
 }
+AutoJSAPI
+jsapi
+;
+jsapi
+.
+Init
+(
+)
+;
 aDispatchable
 -
 >
