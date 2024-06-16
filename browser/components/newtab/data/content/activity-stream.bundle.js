@@ -47121,7 +47121,6 @@ newtabWallpapers
 wallpaper
 "
 "
-i
 "
 )
 ;

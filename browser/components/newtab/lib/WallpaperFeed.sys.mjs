@@ -287,6 +287,9 @@ args
 async
 wallpaperSetup
 (
+isStartup
+=
+false
 )
 {
 const
@@ -361,6 +364,7 @@ this
 .
 updateWallpapers
 (
+isStartup
 )
 ;
 }
@@ -437,6 +441,9 @@ base_url
 async
 updateWallpapers
 (
+isStartup
+=
+false
 )
 {
 const
@@ -534,6 +541,11 @@ WALLPAPERS_SET
 data
 :
 wallpapers
+meta
+:
+{
+isStartup
+}
 }
 )
 )
@@ -562,6 +574,12 @@ this
 .
 wallpaperSetup
 (
+true
+/
+*
+isStartup
+*
+/
 )
 ;
 break
@@ -607,6 +625,12 @@ this
 .
 wallpaperSetup
 (
+false
+/
+*
+isStartup
+*
+/
 )
 ;
 }

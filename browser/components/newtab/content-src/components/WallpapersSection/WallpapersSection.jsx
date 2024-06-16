@@ -286,7 +286,6 @@ newtabWallpapers
 wallpaper
 "
 "
-i
 "
 )
 ;
