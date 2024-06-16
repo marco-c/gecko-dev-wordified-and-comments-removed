@@ -68,11 +68,6 @@ bloomfilters
 .
 json
 "
-"
-plugins
-.
-json
-"
 ]
 FINAL_TARGET_FILES
 .
