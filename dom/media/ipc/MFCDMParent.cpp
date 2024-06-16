@@ -6044,6 +6044,13 @@ videoCapabilities
 )
 )
 ;
+MFCDM_REJECT_IF
+(
+!
+mFactory
+NS_ERROR_DOM_NOT_SUPPORTED_ERR
+)
+;
 MOZ_ASSERT
 (
 IsTypeSupported
