@@ -297,6 +297,8 @@ Moments
 .
 /
 moments
+-
+image
 .
 png
 )
