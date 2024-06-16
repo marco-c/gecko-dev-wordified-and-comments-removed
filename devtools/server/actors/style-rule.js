@@ -1303,6 +1303,9 @@ canSetRuleText
 this
 .
 canSetRuleText
+hasMatchedSelectorIndexes
+:
+true
 }
 }
 ;
@@ -4379,7 +4382,7 @@ ruleProp
 !
 ruleProp
 .
-matchedDesugaredSelectors
+matchedSelectorIndexes
 .
 length
 )

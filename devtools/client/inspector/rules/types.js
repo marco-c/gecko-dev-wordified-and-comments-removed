@@ -270,6 +270,16 @@ PropTypes
 .
 string
 )
+matchedSelectorIndexes
+:
+PropTypes
+.
+arrayOf
+(
+PropTypes
+.
+number
+)
 selectorText
 :
 PropTypes
