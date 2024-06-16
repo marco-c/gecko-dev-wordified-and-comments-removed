@@ -805,6 +805,15 @@ timestamp
 override
 ;
 int
+RecvFrom
+(
+ReceiveBuffer
+&
+buffer
+)
+override
+;
+int
 Listen
 (
 int
