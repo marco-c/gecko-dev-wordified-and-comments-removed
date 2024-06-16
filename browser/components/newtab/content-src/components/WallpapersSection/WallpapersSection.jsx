@@ -364,9 +364,13 @@ radio
 "
 name
 =
-"
+{
 wallpaper
-"
+-
+{
+title
+}
+}
 id
 =
 {

@@ -2625,7 +2625,7 @@ input
 name
 =
 '
-theme
+mountain
 '
 ]
 "
