@@ -8,7 +8,9 @@ const
 DevToolsWorker
 }
 =
-require
+ChromeUtils
+.
+importESModule
 (
 "
 resource
@@ -23,7 +25,9 @@ worker
 /
 worker
 .
-js
+sys
+.
+mjs
 "
 )
 ;
