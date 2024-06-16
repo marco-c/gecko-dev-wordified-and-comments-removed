@@ -3586,7 +3586,7 @@ de
 funcionar
 haciendo
 que
-tu
+el
 sistema
 sea
 inestable
@@ -3755,7 +3755,7 @@ name
 mozac_feature_addons_find_more_extensions_button_text
 "
 >
-Encontrar
+Buscar
 mas
 extensiones
 <
@@ -4858,8 +4858,7 @@ mozac_feature_addons_failed_to_query_extensions
 >
 Error
 al
-consultar
-las
+solicitar
 extensiones
 !
 <
@@ -5465,8 +5464,8 @@ pudo
 instalar
 porque
 no
-se
-verific
+fue
+verificada
 .
 <
 /

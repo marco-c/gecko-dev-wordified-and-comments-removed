@@ -10896,10 +10896,8 @@ preferences_customize_extension_collection
 "
 >
 Anpassad
-samling
-av
 till
-gg
+ggssamling
 <
 /
 string
@@ -12061,9 +12059,9 @@ UnusedResources
 Nya
 till
 gg
+finns
 tillg
 ngliga
-nu
 <
 /
 string
@@ -12569,11 +12567,11 @@ name
 extension_process_crash_dialog_message
 "
 >
-En
+Ett
 eller
 flera
-ut
-kningar
+till
+gg
 slutade
 fungera
 vilket
