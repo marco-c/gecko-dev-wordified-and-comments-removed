@@ -119,9 +119,9 @@ fenix
 .
 home
 .
-recentbookmarks
+bookmarks
 .
-RecentBookmark
+Bookmark
 import
 java
 .
@@ -437,7 +437,7 @@ a
 list
 of
 [
-RecentBookmark
+Bookmark
 ]
 that
 were
@@ -492,7 +492,7 @@ DEFAULT_BOOKMARKS_DAYS_AGE_TO_RETRIEVE
 :
 List
 <
-RecentBookmark
+Bookmark
 >
 {
 val
@@ -551,7 +551,7 @@ map
 bookmark
 -
 >
-RecentBookmark
+Bookmark
 (
 title
 =

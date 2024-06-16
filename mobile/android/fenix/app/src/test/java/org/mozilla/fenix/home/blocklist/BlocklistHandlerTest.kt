@@ -165,9 +165,9 @@ fenix
 .
 home
 .
-recentbookmarks
+bookmarks
 .
-RecentBookmark
+Bookmark
 import
 org
 .
@@ -362,7 +362,7 @@ bookmarks
 =
 listOf
 (
-RecentBookmark
+Bookmark
 (
 url
 =
@@ -426,7 +426,7 @@ bookmarks
 =
 listOf
 (
-RecentBookmark
+Bookmark
 (
 url
 =

@@ -514,7 +514,7 @@ settings
 (
 )
 .
-showRecentBookmarksFeature
+showBookmarksHomeFeature
 onPreferenceChangeListener
 =
 object

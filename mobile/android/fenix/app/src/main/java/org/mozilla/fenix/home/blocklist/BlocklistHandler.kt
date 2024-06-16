@@ -109,9 +109,9 @@ fenix
 .
 home
 .
-recentbookmarks
+bookmarks
 .
-RecentBookmark
+Bookmark
 import
 org
 .
@@ -315,7 +315,7 @@ filterRecentBookmark
 fun
 List
 <
-RecentBookmark
+Bookmark
 >
 .
 filteredByBlocklist
@@ -324,7 +324,7 @@ filteredByBlocklist
 :
 List
 <
-RecentBookmark
+Bookmark
 >
 =
 settings

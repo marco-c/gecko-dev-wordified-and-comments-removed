@@ -1014,9 +1014,9 @@ blocklistHandler
 {
 copy
 (
-recentBookmarks
+bookmarks
 =
-recentBookmarks
+bookmarks
 .
 filteredByBlocklist
 (

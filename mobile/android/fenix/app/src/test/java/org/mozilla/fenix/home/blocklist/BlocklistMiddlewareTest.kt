@@ -213,9 +213,9 @@ fenix
 .
 home
 .
-recentbookmarks
+bookmarks
 .
-RecentBookmark
+Bookmark
 import
 org
 .
@@ -307,7 +307,7 @@ middleware
 val
 updatedBookmark
 =
-RecentBookmark
+Bookmark
 (
 url
 =
@@ -399,7 +399,7 @@ appStore
 state
 .
 recentTabs
-recentBookmarks
+bookmarks
 =
 listOf
 (
@@ -432,7 +432,7 @@ appStore
 .
 state
 .
-recentBookmarks
+bookmarks
 [
 0
 ]
@@ -462,7 +462,7 @@ middleware
 val
 updatedBookmark
 =
-RecentBookmark
+Bookmark
 (
 url
 =
@@ -570,7 +570,7 @@ appStore
 state
 .
 recentTabs
-recentBookmarks
+bookmarks
 =
 listOf
 (
@@ -603,7 +603,7 @@ appStore
 .
 state
 .
-recentBookmarks
+bookmarks
 [
 0
 ]
@@ -635,7 +635,7 @@ middleware
 val
 updatedBookmark
 =
-RecentBookmark
+Bookmark
 (
 url
 =
@@ -744,7 +744,7 @@ appStore
 state
 .
 recentTabs
-recentBookmarks
+bookmarks
 =
 listOf
 (
@@ -777,7 +777,7 @@ appStore
 .
 state
 .
-recentBookmarks
+bookmarks
 [
 0
 ]
@@ -806,7 +806,7 @@ middleware
 val
 updatedBookmark
 =
-RecentBookmark
+Bookmark
 (
 url
 =
@@ -914,7 +914,7 @@ appStore
 state
 .
 recentTabs
-recentBookmarks
+bookmarks
 =
 listOf
 (
@@ -946,7 +946,7 @@ appStore
 .
 state
 .
-recentBookmarks
+bookmarks
 .
 isEmpty
 (
@@ -996,7 +996,7 @@ updatedBookmarks
 =
 listOf
 (
-RecentBookmark
+Bookmark
 (
 url
 =
@@ -1096,7 +1096,7 @@ showCollectionPlaceholder
 recentTabs
 =
 updatedRecentTabs
-recentBookmarks
+bookmarks
 =
 updatedBookmarks
 recentHistory
@@ -1125,7 +1125,7 @@ appStore
 .
 state
 .
-recentBookmarks
+bookmarks
 .
 isEmpty
 (
@@ -1198,7 +1198,7 @@ org
 val
 unblockedBookmark
 =
-RecentBookmark
+Bookmark
 (
 unblockedUrl
 )
@@ -1207,7 +1207,7 @@ updatedBookmarks
 =
 listOf
 (
-RecentBookmark
+Bookmark
 (
 url
 =
@@ -1332,7 +1332,7 @@ showCollectionPlaceholder
 recentTabs
 =
 updatedRecentTabs
-recentBookmarks
+bookmarks
 =
 updatedBookmarks
 recentHistory
@@ -1362,7 +1362,7 @@ appStore
 .
 state
 .
-recentBookmarks
+bookmarks
 [
 0
 ]
@@ -1427,7 +1427,7 @@ org
 val
 removedBookmark
 =
-RecentBookmark
+Bookmark
 (
 url
 =
@@ -1491,7 +1491,7 @@ AppStore
 (
 AppState
 (
-recentBookmarks
+bookmarks
 =
 listOf
 (
@@ -1512,7 +1512,7 @@ dispatch
 (
 AppAction
 .
-RemoveRecentBookmark
+RemoveBookmark
 (
 removedBookmark
 )
@@ -1539,13 +1539,13 @@ assertEquals
 (
 emptyList
 <
-RecentBookmark
+Bookmark
 >
 (
 )
 capturedAction
 .
-recentBookmarks
+bookmarks
 )
 assertEquals
 (
@@ -1591,7 +1591,7 @@ org
 val
 updatedBookmark
 =
-RecentBookmark
+Bookmark
 (
 url
 =
@@ -1689,7 +1689,7 @@ appStore
 state
 .
 recentTabs
-recentBookmarks
+bookmarks
 =
 listOf
 (
@@ -1721,7 +1721,7 @@ appStore
 .
 state
 .
-recentBookmarks
+bookmarks
 .
 isEmpty
 (
@@ -1756,7 +1756,7 @@ org
 val
 updatedBookmark
 =
-RecentBookmark
+Bookmark
 (
 url
 =
@@ -1842,7 +1842,7 @@ appStore
 state
 .
 recentTabs
-recentBookmarks
+bookmarks
 =
 listOf
 (
@@ -1874,7 +1874,7 @@ appStore
 .
 state
 .
-recentBookmarks
+bookmarks
 .
 isEmpty
 (
@@ -1910,7 +1910,7 @@ org
 val
 updatedBookmark
 =
-RecentBookmark
+Bookmark
 (
 url
 =
@@ -2009,7 +2009,7 @@ appStore
 state
 .
 recentTabs
-recentBookmarks
+bookmarks
 =
 listOf
 (
@@ -2041,7 +2041,7 @@ appStore
 .
 state
 .
-recentBookmarks
+bookmarks
 .
 isEmpty
 (

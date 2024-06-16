@@ -65,7 +65,7 @@ fenix
 .
 home
 .
-recentbookmarks
+bookmarks
 .
 view
 import
@@ -195,11 +195,11 @@ fenix
 .
 home
 .
-recentbookmarks
+bookmarks
 .
 interactor
 .
-RecentBookmarksInteractor
+BookmarksInteractor
 /
 *
 *
@@ -208,7 +208,6 @@ View
 holder
 for
 the
-recent
 bookmarks
 header
 and
@@ -252,7 +251,7 @@ view
 param
 interactor
 [
-RecentBookmarksInteractor
+BookmarksInteractor
 ]
 which
 will
@@ -266,7 +265,7 @@ interactions
 *
 /
 class
-RecentBookmarksHeaderViewHolder
+BookmarksHeaderViewHolder
 (
 composeView
 :
@@ -278,7 +277,7 @@ private
 val
 interactor
 :
-RecentBookmarksInteractor
+BookmarksInteractor
 )
 :
 ComposeViewHolder

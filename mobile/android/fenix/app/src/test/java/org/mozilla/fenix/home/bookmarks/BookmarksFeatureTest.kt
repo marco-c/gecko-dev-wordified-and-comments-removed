@@ -65,7 +65,7 @@ fenix
 .
 home
 .
-recentbookmarks
+bookmarks
 import
 io
 .
@@ -238,7 +238,7 @@ ExperimentalCoroutinesApi
 class
 )
 class
-RecentBookmarksFeatureTest
+BookmarksFeatureTest
 {
 private
 val
@@ -280,7 +280,7 @@ private
 val
 bookmark
 =
-RecentBookmark
+Bookmark
 (
 title
 =
@@ -352,7 +352,6 @@ Test
 fun
 GIVEN
 no
-recent
 bookmarks
 WHEN
 feature
@@ -371,7 +370,7 @@ runTestOnMain
 val
 feature
 =
-RecentBookmarksFeature
+BookmarksFeature
 (
 appStore
 bookmarksUseCases
@@ -390,7 +389,7 @@ appStore
 .
 state
 .
-recentBookmarks
+bookmarks
 )
 feature
 .
@@ -419,7 +418,7 @@ assertLastAction
 (
 AppAction
 .
-RecentBookmarksChange
+BookmarksChange
 :
 :
 class
@@ -433,7 +432,7 @@ bookmark
 )
 it
 .
-recentBookmarks
+bookmarks
 )
 }
 }

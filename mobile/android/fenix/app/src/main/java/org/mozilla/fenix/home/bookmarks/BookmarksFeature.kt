@@ -65,7 +65,7 @@ fenix
 .
 home
 .
-recentbookmarks
+bookmarks
 import
 kotlinx
 .
@@ -175,8 +175,6 @@ retrieves
 a
 list
 of
-recently
-added
 [
 BookmarkNode
 ]
@@ -221,9 +219,6 @@ retrieving
 the
 list
 of
-recently
-saved
-*
 bookmarks
 from
 storage
@@ -258,7 +253,7 @@ operations
 *
 /
 class
-RecentBookmarksFeature
+BookmarksFeature
 (
 private
 val
@@ -325,7 +320,7 @@ dispatch
 (
 AppAction
 .
-RecentBookmarksChange
+BookmarksChange
 (
 bookmarks
 )
@@ -350,12 +345,12 @@ cancel
 *
 *
 *
-A
+The
+simple
+metadata
+of
+a
 bookmark
-that
-was
-recently
-added
 .
 *
 *
@@ -403,7 +398,7 @@ available
 /
 data
 class
-RecentBookmark
+Bookmark
 (
 val
 title

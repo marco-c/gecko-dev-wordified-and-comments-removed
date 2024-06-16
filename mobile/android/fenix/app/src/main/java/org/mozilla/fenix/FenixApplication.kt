@@ -6258,7 +6258,7 @@ set
 (
 settings
 .
-showRecentBookmarksFeature
+showBookmarksHomeFeature
 )
 CustomizeHome
 .

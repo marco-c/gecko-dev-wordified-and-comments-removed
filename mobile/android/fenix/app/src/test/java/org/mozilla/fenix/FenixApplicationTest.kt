@@ -1142,7 +1142,7 @@ every
 {
 settings
 .
-showRecentBookmarksFeature
+showBookmarksHomeFeature
 }
 returns
 true

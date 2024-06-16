@@ -205,9 +205,9 @@ fenix
 .
 home
 .
-recentbookmarks
+bookmarks
 .
-RecentBookmark
+Bookmark
 import
 java
 .
@@ -822,7 +822,7 @@ assertEquals
 (
 listOf
 (
-RecentBookmark
+Bookmark
 (
 title
 =

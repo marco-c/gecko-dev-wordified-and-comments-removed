@@ -65,7 +65,7 @@ fenix
 .
 home
 .
-recentbookmarks
+bookmarks
 .
 view
 import
@@ -77,9 +77,9 @@ fenix
 .
 home
 .
-recentbookmarks
+bookmarks
 .
-RecentBookmark
+Bookmark
 /
 *
 *
@@ -89,7 +89,6 @@ menu
 item
 in
 the
-recent
 bookmarks
 dropdown
 menu
@@ -120,7 +119,7 @@ item
 /
 data
 class
-RecentBookmarksMenuItem
+BookmarksMenuItem
 (
 val
 title
@@ -130,7 +129,7 @@ val
 onClick
 :
 (
-RecentBookmark
+Bookmark
 )
 -
 >

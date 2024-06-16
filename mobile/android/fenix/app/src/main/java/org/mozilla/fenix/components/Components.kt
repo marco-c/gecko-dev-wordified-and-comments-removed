@@ -1225,7 +1225,7 @@ cachedTopSites
 sort
 (
 )
-recentBookmarks
+bookmarks
 =
 emptyList
 (

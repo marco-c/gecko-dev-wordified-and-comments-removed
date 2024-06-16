@@ -231,9 +231,9 @@ fenix
 .
 home
 .
-recentbookmarks
+bookmarks
 .
-RecentBookmark
+Bookmark
 import
 org
 .
@@ -346,11 +346,11 @@ Set
 <
 Long
 >
-recentBookmarks
+bookmarks
 :
 List
 <
-RecentBookmark
+Bookmark
 >
 showCollectionsPlaceholder
 :
@@ -539,10 +539,10 @@ if
 (
 settings
 .
-showRecentBookmarksFeature
+showBookmarksHomeFeature
 &
 &
-recentBookmarks
+bookmarks
 .
 isNotEmpty
 (
@@ -558,7 +558,7 @@ add
 (
 AdapterItem
 .
-RecentBookmarksHeader
+BookmarksHeader
 )
 items
 .
@@ -566,7 +566,7 @@ add
 (
 AdapterItem
 .
-RecentBookmarks
+Bookmarks
 )
 }
 if
@@ -913,7 +913,7 @@ settings
 topSites
 collections
 expandedCollections
-recentBookmarks
+bookmarks
 showCollectionPlaceholder
 messaging
 .

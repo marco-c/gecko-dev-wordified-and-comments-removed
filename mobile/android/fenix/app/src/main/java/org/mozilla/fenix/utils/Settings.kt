@@ -8143,7 +8143,7 @@ visible
 *
 /
 var
-showRecentBookmarksFeature
+showBookmarksHomeFeature
 by
 lazyFeatureFlagPreference
 (

@@ -65,7 +65,7 @@ fenix
 .
 home
 .
-recentbookmarks
+bookmarks
 .
 controller
 import
@@ -205,9 +205,9 @@ fenix
 .
 home
 .
-recentbookmarks
+bookmarks
 .
-RecentBookmark
+Bookmark
 import
 org
 .
@@ -217,11 +217,11 @@ fenix
 .
 home
 .
-recentbookmarks
+bookmarks
 .
 interactor
 .
-RecentBookmarksInteractor
+BookmarksInteractor
 /
 *
 *
@@ -235,8 +235,6 @@ view
 manipulation
 of
 the
-recently
-saved
 bookmarks
 on
 the
@@ -247,7 +245,7 @@ screen
 *
 /
 interface
-RecentBookmarksController
+BookmarksController
 {
 /
 *
@@ -255,9 +253,9 @@ RecentBookmarksController
 *
 see
 [
-RecentBookmarksInteractor
+BookmarksInteractor
 .
-onRecentBookmarkClicked
+onBookmarkClicked
 ]
 *
 /
@@ -266,7 +264,7 @@ handleBookmarkClicked
 (
 bookmark
 :
-RecentBookmark
+Bookmark
 )
 /
 *
@@ -274,7 +272,7 @@ RecentBookmark
 *
 see
 [
-RecentBookmarksInteractor
+BookmarksInteractor
 .
 onShowAllBookmarksClicked
 ]
@@ -290,9 +288,9 @@ handleShowAllBookmarksClicked
 *
 see
 [
-RecentBookmarksInteractor
+BookmarksInteractor
 .
-onRecentBookmarkRemoved
+onBookmarkRemoved
 ]
 *
 /
@@ -301,7 +299,7 @@ handleBookmarkRemoved
 (
 bookmark
 :
-RecentBookmark
+Bookmark
 )
 }
 /
@@ -313,13 +311,13 @@ default
 implementation
 of
 [
-RecentBookmarksController
+BookmarksController
 ]
 .
 *
 /
 class
-DefaultRecentBookmarksController
+DefaultBookmarksController
 (
 private
 val
@@ -350,7 +348,7 @@ TabsUseCases
 SelectTabUseCase
 )
 :
-RecentBookmarksController
+BookmarksController
 {
 override
 fun
@@ -358,7 +356,7 @@ handleBookmarkClicked
 (
 bookmark
 :
-RecentBookmark
+Bookmark
 )
 {
 val
@@ -486,7 +484,7 @@ handleBookmarkRemoved
 (
 bookmark
 :
-RecentBookmark
+Bookmark
 )
 {
 appStore
@@ -495,7 +493,7 @@ dispatch
 (
 AppAction
 .
-RemoveRecentBookmark
+RemoveBookmark
 (
 bookmark
 )

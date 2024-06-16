@@ -3014,7 +3014,7 @@ set
 (
 state
 .
-recentBookmarks
+bookmarks
 .
 size
 .

@@ -65,7 +65,7 @@ fenix
 .
 home
 .
-recentbookmarks
+bookmarks
 import
 androidx
 .
@@ -327,11 +327,11 @@ fenix
 .
 home
 .
-recentbookmarks
+bookmarks
 .
 controller
 .
-DefaultRecentBookmarksController
+DefaultBookmarksController
 RunWith
 (
 FenixRobolectricTestRunner
@@ -340,7 +340,7 @@ FenixRobolectricTestRunner
 class
 )
 class
-DefaultRecentBookmarksControllerTest
+DefaultBookmarksControllerTest
 {
 get
 :
@@ -414,7 +414,7 @@ lateinit
 var
 controller
 :
-DefaultRecentBookmarksController
+DefaultBookmarksController
 Before
 fun
 setup
@@ -459,7 +459,7 @@ controller
 =
 spyk
 (
-DefaultRecentBookmarksController
+DefaultBookmarksController
 (
 activity
 =
@@ -490,8 +490,6 @@ no
 tabs
 WHEN
 a
-recently
-saved
 bookmark
 is
 clicked
@@ -521,7 +519,7 @@ testGetValue
 val
 bookmark
 =
-RecentBookmark
+Bookmark
 (
 title
 =
@@ -598,8 +596,6 @@ matching
 tabs
 WHEN
 a
-recently
-saved
 bookmark
 is
 clicked
@@ -662,7 +658,7 @@ testTab
 val
 bookmark
 =
-RecentBookmark
+Bookmark
 (
 title
 =
@@ -738,8 +734,6 @@ matching
 tab
 WHEN
 a
-recently
-saved
 bookmark
 is
 clicked
@@ -802,7 +796,7 @@ testTab
 val
 bookmark
 =
-RecentBookmark
+Bookmark
 (
 title
 =
@@ -854,9 +848,7 @@ fun
 WHEN
 show
 all
-recently
-saved
-bookmark
+bookmarks
 is
 clicked
 THEN
@@ -923,6 +915,7 @@ fun
 WHEN
 show
 all
+bookmarks
 is
 clicked
 from
