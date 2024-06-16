@@ -1723,7 +1723,7 @@ selected
 .
 type
 :
-boolean
+string
 newtab_visit_id
 :
 *
