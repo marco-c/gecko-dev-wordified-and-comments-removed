@@ -951,6 +951,9 @@ rpcrt4
 "
 urlmon
 "
+"
+winmm
+"
 ]
 if
 CONFIG
