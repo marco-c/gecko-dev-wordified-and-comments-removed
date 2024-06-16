@@ -1081,13 +1081,6 @@ StorageManager
 global
 )
 ;
-workerPrivate
--
->
-NotifyStorageKeyUsed
-(
-)
-;
 }
 return
 mStorageManager

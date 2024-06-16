@@ -3723,11 +3723,6 @@ PropagateStorageAccessPermissionGranted
 )
 ;
 void
-NotifyStorageKeyUsed
-(
-)
-;
-void
 EnableDebugger
 (
 )
@@ -5403,12 +5398,6 @@ MOZ_GUARDED_BY
 (
 mMutex
 )
-{
-false
-}
-;
-bool
-hasNotifiedStorageKeyUsed
 {
 false
 }
