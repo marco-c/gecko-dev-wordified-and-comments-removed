@@ -251,8 +251,6 @@ aListener
 void
 KillProcess
 (
-bool
-aGenerateMinidump
 )
 ;
 void
@@ -308,8 +306,10 @@ OnChannelClosed
 void
 KillHard
 (
-bool
-aGenerateMinidump
+const
+char
+*
+aReason
 )
 ;
 void
