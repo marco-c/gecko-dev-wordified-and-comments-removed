@@ -71,10 +71,3 @@ test_URLPattern_parseURLPattern
 js
 "
 ]
-[
-"
-test_UserPromptHandler
-.
-js
-"
-]
