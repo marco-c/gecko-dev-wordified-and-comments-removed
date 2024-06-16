@@ -315,13 +315,9 @@ label
 "
 )
 .
-setAttribute
-(
-"
-value
-"
+textContent
+=
 label
-)
 ;
 hbox
 .
