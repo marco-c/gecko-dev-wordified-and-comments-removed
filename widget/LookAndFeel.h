@@ -174,7 +174,6 @@ TreeCloseDelay
 TreeLazyScrollDelay
 TreeScrollDelay
 TreeScrollLinesMax
-TabFocusModel
 ChosenMenuItemsShouldBlink
 WindowsAccentColorInTitlebar
 MacBigSurTheme
