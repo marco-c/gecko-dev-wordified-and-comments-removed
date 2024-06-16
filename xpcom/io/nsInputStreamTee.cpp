@@ -44,6 +44,15 @@ h
 #
 include
 "
+mozilla
+/
+IntegerPrintfMacros
+.
+h
+"
+#
+include
+"
 nsIInputStreamTee
 .
 h

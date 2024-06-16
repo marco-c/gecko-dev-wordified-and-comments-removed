@@ -31,6 +31,15 @@ h
 #
 include
 "
+mozilla
+/
+IntegerPrintfMacros
+.
+h
+"
+#
+include
+"
 nsNetAddr
 .
 h

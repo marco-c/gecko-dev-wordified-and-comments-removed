@@ -66,6 +66,15 @@ Atomics
 h
 "
 #
+include
+"
+mozilla
+/
+IntegerPrintfMacros
+.
+h
+"
+#
 ifdef
 ANDROID
 #
