@@ -3060,7 +3060,7 @@ depends
 target
 )
 def
-has_pthread_jit_write_protect_np
+has_apple_fast_wx
 (
 target
 )
@@ -3068,11 +3068,11 @@ target
 return
 target
 .
-os
+kernel
 =
 =
 "
-OSX
+Darwin
 "
 and
 target
@@ -3091,7 +3091,7 @@ JS_USE_APPLE_FAST_WX
 True
 when
 =
-has_pthread_jit_write_protect_np
+has_apple_fast_wx
 )
 depends
 (
