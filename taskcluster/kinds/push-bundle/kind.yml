@@ -92,6 +92,12 @@ transforms
 .
 push_android_app
 -
+android_taskgraph
+.
+transforms
+.
+startup_tests_deps
+-
 gecko_taskgraph
 .
 transforms
@@ -128,6 +134,13 @@ from
 -
 deps
 :
+kinds
+:
+[
+signing
+-
+bundle
+]
 with
 -
 attributes
