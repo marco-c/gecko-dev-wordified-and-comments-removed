@@ -2235,6 +2235,15 @@ float
 aFontSizeInflation
 )
 ;
+static
+constexpr
+float
+kNormalLineHeightFactor
+=
+1
+.
+2f
+;
 mozilla
 :
 :

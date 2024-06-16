@@ -190,6 +190,12 @@ eCSSUnit_Ideographic
 eCSSUnit_CapHeight
 =
 805
+eCSSUnit_LineHeight
+=
+806
+eCSSUnit_RootLineHeight
+=
+807
 eCSSUnit_Point
 =
 900
