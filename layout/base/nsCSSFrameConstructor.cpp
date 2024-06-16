@@ -12350,7 +12350,7 @@ RestyleManager
 )
 ;
 }
-nsIFrame
+ViewportFrame
 *
 nsCSSFrameConstructor
 :
