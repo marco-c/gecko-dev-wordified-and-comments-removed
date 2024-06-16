@@ -1,13 +1,10 @@
-"
-wheel
-"
-copyright
+MIT
+License
+Copyright
 (
 c
 )
 2012
--
-2014
 Daniel
 Holth
 <
@@ -18,10 +15,6 @@ fm
 >
 and
 contributors
-.
-The
-MIT
-License
 Permission
 is
 hereby

@@ -1,3 +1,7 @@
+from
+__future__
+import
+annotations
 import
 os
 .
@@ -7,15 +11,9 @@ re
 import
 shutil
 import
-sys
-import
 tempfile
 import
 zipfile
-from
-distutils
-import
-dist
 from
 glob
 import
@@ -36,17 +34,34 @@ from
 .
 import
 WheelError
-require_pkgresources
+try
+:
+    
+from
+setuptools
+import
+Distribution
+except
+ImportError
+:
+    
+from
+distutils
+.
+dist
+import
+Distribution
 egg_info_re
 =
 re
 .
 compile
 (
+    
 r
-'
-'
-'
+"
+"
+"
     
 (
 ?
@@ -107,9 +122,10 @@ arch
 ?
 .
 egg
-'
-'
-'
+"
+"
+"
+    
 re
 .
 VERBOSE
@@ -168,8 +184,15 @@ def
 egg2wheel
 (
 egg_path
+:
+str
 dest_dir
+:
+str
 )
+-
+>
+None
 :
     
 filename
@@ -200,20 +223,17 @@ match
 raise
 WheelError
 (
-'
+f
+"
 Invalid
 egg
 file
 name
 :
 {
-}
-'
-.
-format
-(
 filename
-)
+}
+"
 )
     
 egg_info
@@ -334,9 +354,9 @@ pyver
 =
 egg_info
 [
-'
+"
 pyver
-'
+"
 ]
     
 if
@@ -347,20 +367,20 @@ pyver
 =
 egg_info
 [
-'
+"
 pyver
-'
+"
 ]
 =
 pyver
 .
 replace
 (
-'
+"
 .
-'
-'
-'
+"
+"
+"
 )
     
 arch
@@ -368,41 +388,41 @@ arch
 (
 egg_info
 [
-'
+"
 arch
-'
+"
 ]
 or
-'
+"
 any
-'
+"
 )
 .
 replace
 (
-'
+"
 .
-'
-'
+"
+"
 _
-'
+"
 )
 .
 replace
 (
-'
+"
 -
-'
-'
+"
+"
 _
-'
+"
 )
     
 abi
 =
-'
+"
 cp
-'
+"
 +
 pyver
 [
@@ -413,21 +433,21 @@ if
 arch
 !
 =
-'
+"
 any
-'
+"
 else
-'
+"
 none
-'
+"
     
 root_is_purelib
 =
 egg_info
 [
-'
+"
 arch
-'
+"
 ]
 is
 None
@@ -440,8 +460,6 @@ bw
 =
 bdist_wheel
 (
-dist
-.
 Distribution
 (
 )
@@ -454,8 +472,6 @@ bw
 =
 _bdist_wheel_tag
 (
-dist
-.
 Distribution
 (
 )
@@ -485,14 +501,14 @@ plat_name
 =
 egg_info
 [
-'
+"
 arch
-'
+"
 ]
 or
-'
+"
 any
-'
+"
     
 if
 not
@@ -524,7 +540,7 @@ path
 join
 (
 dir
-'
+"
 {
 name
 }
@@ -536,7 +552,7 @@ ver
 dist
 -
 info
-'
+"
 .
 format
 (
@@ -557,11 +573,11 @@ path
 join
 (
 dir
-'
+"
 EGG
 -
 INFO
-'
+"
 )
 dist_info_dir
 )
@@ -573,14 +589,14 @@ write_wheelfile
 dist_info_dir
 generator
 =
-'
+"
 egg2wheel
-'
+"
 )
     
 wheel_name
 =
-'
+"
 {
 name
 }
@@ -600,7 +616,7 @@ pyver
 }
 .
 whl
-'
+"
 .
 format
 (
@@ -623,9 +639,9 @@ join
 dest_dir
 wheel_name
 )
-'
+"
 w
-'
+"
 )
 as
 wf
@@ -967,20 +983,18 @@ egginfo
 raise
 ValueError
 (
+f
 "
 Egg
 info
 filename
-%
-s
+{
+egginfo_name
+}
 is
 not
 valid
 "
-%
-(
-egginfo_name
-)
 )
     
 w_name
@@ -991,9 +1005,9 @@ wininfo_name
 .
 partition
 (
-'
+"
 -
-'
+"
 )
     
 if
@@ -1004,19 +1018,17 @@ sep
 raise
 ValueError
 (
+f
 "
 Installer
 filename
-%
-s
+{
+wininfo_name
+}
 is
 not
 valid
 "
-%
-(
-wininfo_name
-)
 )
     
 rest
@@ -1036,9 +1048,9 @@ rest
 .
 rpartition
 (
-'
+"
 -
-'
+"
 )
     
 if
@@ -1048,9 +1060,9 @@ w_pyver
 .
 startswith
 (
-'
+"
 py
-'
+"
 )
 :
         
@@ -1064,11 +1076,11 @@ w_pyver
 .
 replace
 (
-'
+"
 .
-'
-'
-'
+"
+"
+"
 )
     
 else
@@ -1076,11 +1088,11 @@ else
         
 w_pyver
 =
-'
+"
 py2
 .
 py3
-'
+"
     
 w_ver
 sep
@@ -1090,9 +1102,9 @@ rest
 .
 rpartition
 (
-'
+"
 .
-'
+"
 )
     
 if
@@ -1103,19 +1115,17 @@ sep
 raise
 ValueError
 (
+f
 "
 Installer
 filename
-%
-s
+{
+wininfo_name
+}
 is
 not
 valid
 "
-%
-(
-wininfo_name
-)
 )
     
 if
@@ -1128,9 +1138,9 @@ egginfo
 .
 group
 (
-'
+"
 name
-'
+"
 )
         
 w_ver
@@ -1139,31 +1149,31 @@ egginfo
 .
 group
 (
-'
+"
 ver
-'
+"
 )
     
 return
 {
-'
+"
 name
-'
+"
 :
 w_name
-'
+"
 ver
-'
+"
 :
 w_ver
-'
+"
 arch
-'
+"
 :
 w_arch
-'
+"
 pyver
-'
+"
 :
 w_pyver
 }
@@ -1201,12 +1211,12 @@ namelist
 :
             
 if
-'
+"
 .
 egg
 -
 info
-'
+"
 in
 filename
 :
@@ -1253,9 +1263,9 @@ filename
 .
 startswith
 (
-'
+"
 PLATLIB
-'
+"
 )
 :
                 
@@ -1272,12 +1282,12 @@ root_is_purelib
 paths
 =
 {
-'
+"
 purelib
-'
+"
 :
-'
-'
+"
+"
 }
         
 else
@@ -1286,31 +1296,32 @@ else
 paths
 =
 {
-'
+"
 platlib
-'
+"
 :
-'
-'
+"
+"
 }
         
 dist_info
 =
 "
-%
-(
+{
 name
-)
-s
+}
 -
-%
-(
+{
 ver
-)
-s
+}
 "
-%
+.
+format
+(
+*
+*
 info
+)
         
 datadir
 =
@@ -1331,8 +1342,8 @@ members
         
 egginfo_name
 =
-'
-'
+"
+"
         
 for
 zipinfo
@@ -1353,9 +1364,9 @@ filename
 .
 split
 (
-'
+"
 /
-'
+"
 1
 )
             
@@ -1393,9 +1404,9 @@ lower
 (
 )
 +
-'
+"
 /
-'
+"
             
 oldname
 =
@@ -1453,12 +1464,12 @@ newname
 .
 endswith
 (
-'
+"
 .
 egg
 -
 info
-'
+"
 )
 :
                     
@@ -1467,13 +1478,13 @@ egginfo_name
 newname
                 
 elif
-'
+"
 .
 egg
 -
 info
 /
-'
+"
 in
 newname
 :
@@ -1486,9 +1497,9 @@ newname
 .
 rpartition
 (
-'
+"
 /
-'
+"
 )
         
 dir
@@ -1514,17 +1525,17 @@ members
     
 abi
 =
-'
+"
 none
-'
+"
     
 pyver
 =
 info
 [
-'
+"
 pyver
-'
+"
 ]
     
 arch
@@ -1532,34 +1543,34 @@ arch
 (
 info
 [
-'
+"
 arch
-'
+"
 ]
 or
-'
+"
 any
-'
+"
 )
 .
 replace
 (
-'
+"
 .
-'
-'
+"
+"
 _
-'
+"
 )
 .
 replace
 (
-'
+"
 -
-'
-'
+"
+"
 _
-'
+"
 )
     
 if
@@ -1568,17 +1579,17 @@ root_is_purelib
         
 arch
 =
-'
+"
 any
-'
+"
     
 if
 arch
 !
 =
-'
+"
 any
-'
+"
 :
         
 pyver
@@ -1587,19 +1598,19 @@ pyver
 .
 replace
 (
-'
+"
 py
-'
-'
+"
+"
 cp
-'
+"
 )
     
 wheel_name
 =
-'
+"
 -
-'
+"
 .
 join
 (
@@ -1619,8 +1630,6 @@ bw
 =
 bdist_wheel
 (
-dist
-.
 Distribution
 (
 )
@@ -1633,8 +1642,6 @@ bw
 =
 _bdist_wheel_tag
 (
-dist
-.
 Distribution
 (
 )
@@ -1664,14 +1671,14 @@ plat_name
 =
 info
 [
-'
+"
 arch
-'
+"
 ]
 or
-'
+"
 any
-'
+"
     
 if
 not
@@ -1703,14 +1710,14 @@ path
 join
 (
 dir
-'
+"
 %
 s
 .
 dist
 -
 info
-'
+"
 %
 dist_info
 )
@@ -1738,9 +1745,9 @@ write_wheelfile
 dist_info_dir
 generator
 =
-'
+"
 wininst2wheel
-'
+"
 )
     
 wheel_path
@@ -1759,9 +1766,9 @@ with
 WheelFile
 (
 wheel_path
-'
+"
 w
-'
+"
 )
 as
 wf
@@ -1788,14 +1795,6 @@ dest_dir
 verbose
 )
 :
-    
-require_pkgresources
-(
-'
-wheel
-convert
-'
-)
     
 for
 pat
@@ -1826,10 +1825,10 @@ installer
 ]
 =
 =
-'
+"
 .
 egg
-'
+"
 :
                 
 conv
@@ -1849,26 +1848,18 @@ verbose
                 
 print
 (
+f
 "
 {
+installer
 }
 .
 .
 .
 "
-.
-format
-(
-installer
-)
-)
-                
-sys
-.
-stdout
-.
 flush
-(
+=
+True
 )
             
 conv

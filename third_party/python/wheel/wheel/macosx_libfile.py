@@ -336,6 +336,10 @@ is
 "
 "
 "
+from
+__future__
+import
+annotations
 import
 ctypes
 import
@@ -362,28 +366,28 @@ files
 "
 FAT_MAGIC
 =
-0xcafebabe
+0xCAFEBABE
 FAT_CIGAM
 =
-0xbebafeca
+0xBEBAFECA
 FAT_MAGIC_64
 =
-0xcafebabf
+0xCAFEBABF
 FAT_CIGAM_64
 =
-0xbfbafeca
+0xBFBAFECA
 MH_MAGIC
 =
-0xfeedface
+0xFEEDFACE
 MH_CIGAM
 =
-0xcefaedfe
+0xCEFAEDFE
 MH_MAGIC_64
 =
-0xfeedfacf
+0xFEEDFACF
 MH_CIGAM_64
 =
-0xcffaedfe
+0xCFFAEDFE
 LC_VERSION_MIN_MACOSX
 =
 0x24
@@ -392,11 +396,11 @@ LC_BUILD_VERSION
 0x32
 CPU_TYPE_ARM64
 =
-0x0100000c
+0x0100000C
 mach_header_fields
 =
 [
-        
+    
 (
 "
 magic
@@ -405,6 +409,7 @@ ctypes
 .
 c_uint32
 )
+    
 (
 "
 cputype
@@ -413,7 +418,7 @@ ctypes
 .
 c_int
 )
-        
+    
 (
 "
 cpusubtype
@@ -422,6 +427,7 @@ ctypes
 .
 c_int
 )
+    
 (
 "
 filetype
@@ -430,7 +436,7 @@ ctypes
 .
 c_uint32
 )
-        
+    
 (
 "
 ncmds
@@ -439,6 +445,7 @@ ctypes
 .
 c_uint32
 )
+    
 (
 "
 sizeofcmds
@@ -447,7 +454,7 @@ ctypes
 .
 c_uint32
 )
-        
+    
 (
 "
 flags
@@ -456,7 +463,6 @@ ctypes
 .
 c_uint32
 )
-    
 ]
 "
 "
@@ -736,6 +742,7 @@ ctypes
 .
 c_int
 )
+    
 (
 "
 cpusubtype
@@ -753,6 +760,7 @@ ctypes
 .
 c_uint32
 )
+    
 (
 "
 size
@@ -861,6 +869,7 @@ ctypes
 .
 c_int
 )
+    
 (
 "
 cpusubtype
@@ -878,6 +887,7 @@ ctypes
 .
 c_uint64
 )
+    
 (
 "
 size
@@ -895,6 +905,7 @@ ctypes
 .
 c_uint32
 )
+    
 (
 "
 reserved
@@ -1034,6 +1045,7 @@ ctypes
 .
 c_uint32
 )
+    
 (
 "
 cmdsize
@@ -1053,6 +1065,7 @@ c_char
 *
 16
 )
+    
 (
 "
 vmaddr
@@ -1070,6 +1083,7 @@ ctypes
 .
 c_uint32
 )
+    
 (
 "
 fileoff
@@ -1087,6 +1101,7 @@ ctypes
 .
 c_uint32
 )
+    
 (
 "
 maxprot
@@ -1104,6 +1119,7 @@ ctypes
 .
 c_int
 )
+    
 (
 "
 nsects
@@ -1121,7 +1137,6 @@ ctypes
 .
 c_uint32
 )
-    
 ]
 "
 "
@@ -1290,6 +1305,7 @@ ctypes
 .
 c_uint32
 )
+    
 (
 "
 cmdsize
@@ -1309,6 +1325,7 @@ c_char
 *
 16
 )
+    
 (
 "
 vmaddr
@@ -1326,6 +1343,7 @@ ctypes
 .
 c_uint64
 )
+    
 (
 "
 fileoff
@@ -1343,6 +1361,7 @@ ctypes
 .
 c_uint64
 )
+    
 (
 "
 maxprot
@@ -1360,6 +1379,7 @@ ctypes
 .
 c_int
 )
+    
 (
 "
 nsects
@@ -1377,7 +1397,6 @@ ctypes
 .
 c_uint32
 )
-    
 ]
 "
 "
@@ -1534,9 +1553,8 @@ version_min_command_fields
 =
 segment_base_fields
 +
-\
-    
 [
+    
 (
 "
 version
@@ -1545,6 +1563,7 @@ ctypes
 .
 c_uint32
 )
+    
 (
 "
 sdk
@@ -1644,9 +1663,8 @@ build_version_command_fields
 =
 segment_base_fields
 +
-\
-    
 [
+    
 (
 "
 platform
@@ -1655,6 +1673,7 @@ ctypes
 .
 c_uint32
 )
+    
 (
 "
 minos
@@ -1663,7 +1682,7 @@ ctypes
 .
 c_uint32
 )
-     
+    
 (
 "
 sdk
@@ -1672,6 +1691,7 @@ ctypes
 .
 c_uint32
 )
+    
 (
 "
 ntools
@@ -1803,6 +1823,7 @@ x
     
 return
 (
+        
 (
 (
 x
@@ -1813,8 +1834,8 @@ x
 &
 0xFF000000
 )
+        
 |
-            
 (
 (
 x
@@ -1825,8 +1846,8 @@ x
 &
 0x00FF0000
 )
+        
 |
-            
 (
 (
 x
@@ -1837,8 +1858,8 @@ x
 &
 0x0000FF00
 )
+        
 |
-            
 (
 (
 x
@@ -1849,6 +1870,7 @@ x
 &
 0x000000FF
 )
+    
 )
 def
 get_base_class_and_magic_number
@@ -1906,6 +1928,7 @@ ctypes
 c_uint32
 )
 )
+    
 )
 .
 value
@@ -1990,7 +2013,6 @@ lib_file
 .
 read
 (
-                        
 ctypes
 .
 sizeof
@@ -2104,6 +2126,7 @@ fat_arch_64_fields
 fat_arch_list
 =
 [
+                
 read_data
 (
 FatArch
@@ -2118,6 +2141,7 @@ fat_header
 .
 nfat_arch
 )
+            
 ]
             
 versions_list
@@ -2263,20 +2287,23 @@ None
 "
     
 This
-funcition
-parse
-mach
+function
+parses
+a
+Mach
 -
 O
 header
 and
-extract
+extracts
     
 information
 about
+the
 minimal
-system
+macOS
 version
+.
     
 :
 param
@@ -2294,26 +2321,13 @@ pointer
 "
 "
     
-if
-seek
-is
-not
-None
-:
-        
-lib_file
-.
-seek
-(
-seek
-)
-    
 base_class
 magic_number
 =
 get_base_class_and_magic_number
 (
 lib_file
+seek
 )
     
 arch
@@ -2517,7 +2531,7 @@ x
 (
 version
 &
-0xffff0000
+0xFFFF0000
 )
 >
 >
@@ -2528,7 +2542,7 @@ y
 (
 version
 &
-0x0000ff00
+0x0000FF00
 )
 >
 >
@@ -2536,11 +2550,9 @@ version
     
 z
 =
-(
 version
 &
-0x000000ff
-)
+0x000000FF
     
 return
 x
@@ -2595,16 +2607,15 @@ platform_tag
 .
 split
 (
-'
+"
 -
-'
+"
 )
     
 base_version
 =
 tuple
 (
-[
 int
 (
 x
@@ -2620,7 +2631,6 @@ split
 .
 "
 )
-]
 )
     
 base_version
@@ -2673,7 +2683,7 @@ deploy_target
 =
 tuple
 (
-[
+            
 int
 (
 x
@@ -2685,7 +2695,6 @@ os
 .
 environ
 [
-            
 "
 MACOSX_DEPLOYMENT_TARGET
 "
@@ -2697,7 +2706,7 @@ split
 .
 "
 )
-]
+        
 )
         
 deploy_target
@@ -2739,7 +2748,7 @@ stderr
 .
 write
 (
-                 
+                
 "
 [
 WARNING
@@ -2756,10 +2765,10 @@ value
 }
 )
 than
+"
+                
+"
 the
-"
-                 
-"
 version
 on
 which
@@ -2773,11 +2782,11 @@ compiled
 }
 )
 and
+"
+                
+"
 will
 be
-"
-                 
-"
 ignored
 .
 \
@@ -2786,9 +2795,10 @@ n
 .
 format
 (
-'
+                    
+"
 .
-'
+"
 .
 join
 (
@@ -2801,10 +2811,10 @@ x
 in
 deploy_target
 )
-                                     
-'
+                    
+"
 .
-'
+"
 .
 join
 (
@@ -2817,8 +2827,9 @@ x
 in
 base_version
 )
-)
                 
+)
+            
 )
         
 else
@@ -2847,11 +2858,9 @@ versions_dict
 }
     
 for
-(
 dirpath
-dirnames
+_dirnames
 filenames
-)
 in
 os
 .
@@ -2872,20 +2881,20 @@ filename
 .
 endswith
 (
-'
+"
 .
 dylib
-'
+"
 )
 or
 filename
 .
 endswith
 (
-'
+"
 .
 so
-'
+"
 )
 :
                 
@@ -3060,7 +3069,7 @@ files
         
 error_message
 =
-\
+(
             
 "
 [
@@ -3077,7 +3086,6 @@ than
 {
 }
 "
-\
             
 "
 To
@@ -3090,23 +3098,24 @@ to
 at
 least
 "
-+
-\
             
++
 fin_base_version
+            
 +
 "
 or
 recreate
 "
+            
 +
 files_form
+            
 +
 "
 with
 lower
 "
-\
             
 "
 MACOSX_DEPLOYMENT_TARGET
@@ -3116,6 +3125,8 @@ n
 "
 +
 problematic_files
+        
+)
         
 if
 "
@@ -3133,6 +3144,7 @@ error_message
 .
 format
 (
+                
 "
 is
 set
@@ -3141,6 +3153,7 @@ MACOSX_DEPLOYMENT_TARGET
 variable
 .
 "
+            
 )
         
 else
@@ -3164,6 +3177,7 @@ compiled
 against
 .
 "
+            
 )
         
 sys
