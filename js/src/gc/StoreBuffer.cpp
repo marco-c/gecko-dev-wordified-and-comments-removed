@@ -387,7 +387,7 @@ mEntered
 (
 false
 )
-markingNondeduplicatable
+markingStringWholeCells
 (
 false
 )
@@ -541,11 +541,11 @@ other
 .
 mEntered
 )
-markingNondeduplicatable
+markingStringWholeCells
 (
 other
 .
-markingNondeduplicatable
+markingStringWholeCells
 )
 #
 endif
@@ -564,7 +564,7 @@ mEntered
 MOZ_ASSERT
 (
 !
-markingNondeduplicatable
+markingStringWholeCells
 )
 ;
 other
