@@ -770,6 +770,11 @@ EndOurNativeTransition
 (
 )
 ;
+Show
+(
+false
+)
+;
 [
 mWindow
 releaseJSObjects
