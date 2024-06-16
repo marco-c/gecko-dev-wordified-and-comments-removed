@@ -1706,6 +1706,19 @@ webpagetest
 .
 org
 "
+"
+X
+-
+WPT
+-
+API
+-
+KEY
+"
+:
+self
+.
+WPT_key
 }
         
 requested_results
@@ -2200,14 +2213,6 @@ url
 =
 {
 website_to_be_tested
-}
-&
-k
-=
-{
-self
-.
-WPT_key
 }
 &
 "
