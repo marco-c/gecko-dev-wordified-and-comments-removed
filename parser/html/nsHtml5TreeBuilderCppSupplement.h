@@ -9060,6 +9060,8 @@ aShadowRootMode
 bool
 aShadowRootIsClonable
 bool
+aShadowRootIsSerializable
+bool
 aShadowRootDelegatesFocus
 )
 {
