@@ -3143,8 +3143,6 @@ clang
 -
 17
 -
-cmake
--
 ninja
 toolchain
 :
@@ -3164,6 +3162,10 @@ compiler
 rt
 -
 17
+-
+win64
+-
+cmake
 -
 vs
 -
@@ -5907,8 +5909,6 @@ clang
 -
 18
 -
-cmake
--
 ninja
 toolchain
 :
@@ -5920,6 +5920,10 @@ clang
 18
 -
 stage1
+-
+win64
+-
+cmake
 -
 win64
 -
@@ -8730,8 +8734,6 @@ clang
 -
 trunk
 -
-cmake
--
 ninja
 toolchain
 :
@@ -8743,6 +8745,10 @@ clang
 trunk
 -
 stage1
+-
+win64
+-
+cmake
 -
 win64
 -
