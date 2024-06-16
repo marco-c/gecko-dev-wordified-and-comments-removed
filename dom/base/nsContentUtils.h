@@ -7180,6 +7180,7 @@ DataSourceSurface
 >
 IPCImageToSurface
 (
+const
 mozilla
 :
 :
@@ -7187,7 +7188,6 @@ dom
 :
 :
 IPCImage
-&
 &
 )
 ;

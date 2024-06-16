@@ -26940,13 +26940,7 @@ nsContentUtils
 :
 IPCImageToSurface
 (
-std
-:
-:
-move
-(
 aImage
-)
 )
 ;
 if
