@@ -41,17 +41,12 @@ Element
 .
 h
 "
-using
-namespace
-mozilla
-;
-using
 namespace
 mozilla
 :
 :
 a11y
-;
+{
 TreeWalker
 :
 :
@@ -1595,4 +1590,5 @@ LastElement
 (
 )
 ;
+}
 }
