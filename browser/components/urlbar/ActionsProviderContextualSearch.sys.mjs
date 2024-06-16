@@ -346,6 +346,7 @@ let
 icon
 =
 engine
+?
 .
 icon
 |
@@ -440,15 +441,6 @@ engine
 title
 }
 icon
-dataset
-:
-{
-input
-:
-queryContext
-.
-searchString
-}
 }
 )
 ;
@@ -575,7 +567,7 @@ engines
 async
 pickAction
 (
-_queryContext
+queryContext
 controller
 element
 )
@@ -685,11 +677,9 @@ UrlbarUtils
 getSearchQueryUrl
 (
 engine
-element
+queryContext
 .
-dataset
-.
-input
+searchString
 )
 ;
 element
