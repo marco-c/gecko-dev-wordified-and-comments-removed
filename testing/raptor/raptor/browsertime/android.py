@@ -750,6 +750,8 @@ GleanDebugActivity
 "
             
 if
+int
+(
 self
 .
 device
@@ -760,18 +762,16 @@ shell_output
 getprop
 ro
 .
-product
+build
 .
-model
+version
+.
+release
 "
 )
-in
-[
-"
-Pixel
-6
-"
-]
+)
+>
+11
 :
                 
 args_list
