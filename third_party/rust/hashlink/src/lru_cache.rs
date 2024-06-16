@@ -1,5 +1,5 @@
 use
-std
+core
 :
 :
 {
@@ -407,7 +407,6 @@ Q
 >
 (
 &
-mut
 self
 key
 :
@@ -435,13 +434,11 @@ Sized
 {
 self
 .
-get_mut
+map
+.
+contains_key
 (
 key
-)
-.
-is_some
-(
 )
 }
 #

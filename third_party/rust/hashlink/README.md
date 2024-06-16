@@ -41,7 +41,7 @@ project
 /
 github
 /
-triplehex
+kyren
 /
 hashlink
 .
@@ -59,7 +59,7 @@ com
 /
 gh
 /
-triplehex
+kyren
 /
 hashlink
 )

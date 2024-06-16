@@ -140,6 +140,13 @@ flush
 ;
 }
 }
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 struct
 StatementCache

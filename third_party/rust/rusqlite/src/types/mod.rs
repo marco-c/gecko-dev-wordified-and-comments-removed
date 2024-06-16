@@ -391,6 +391,7 @@ Null
 [
 derive
 (
+Copy
 Clone
 Debug
 PartialEq

@@ -1,3 +1,12 @@
+#
+!
+[
+no_std
+]
+extern
+crate
+alloc
+;
 pub
 mod
 linked_hash_map

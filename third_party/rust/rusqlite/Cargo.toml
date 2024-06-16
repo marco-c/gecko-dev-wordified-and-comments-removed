@@ -112,7 +112,7 @@ version
 "
 0
 .
-30
+31
 .
 0
 "
@@ -353,13 +353,7 @@ features
 loadable_extension
 "
 "
-modern_sqlite
-"
-"
 functions
-"
-"
-vtab
 "
 "
 trace
@@ -388,9 +382,6 @@ bundled
 "
 "
 functions
-"
-"
-vtab
 "
 "
 trace
@@ -549,7 +540,7 @@ version
 "
 0
 .
-8
+9
 "
 [
 dependencies
@@ -563,7 +554,7 @@ version
 "
 0
 .
-27
+28
 .
 0
 "
@@ -579,7 +570,7 @@ version
 "
 0
 .
-1
+2
 .
 0
 "
@@ -1145,17 +1136,6 @@ window
 [
 "
 functions
-"
-]
-winsqlite3
-=
-[
-"
-libsqlite3
--
-sys
-/
-winsqlite3
 "
 ]
 with

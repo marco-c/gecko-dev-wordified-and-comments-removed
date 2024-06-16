@@ -21,6 +21,15 @@ c_int
 ;
 #
 [
+derive
+(
+Copy
+Clone
+Debug
+)
+]
+#
+[
 repr
 (
 i32

@@ -114,7 +114,7 @@ version
 "
 0
 .
-27
+28
 .
 0
 "
@@ -513,10 +513,6 @@ wasm32
 wasi
 -
 vfs
-=
-[
-]
-winsqlite3
 =
 [
 ]
