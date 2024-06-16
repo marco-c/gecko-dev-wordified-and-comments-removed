@@ -125,7 +125,7 @@ version
 .
 8
 .
-1
+0
 "
 authors
 =
@@ -302,6 +302,11 @@ m4b
 /
 goblin
 "
+resolver
+=
+"
+2
+"
 [
 dependencies
 .
@@ -414,9 +419,6 @@ pe32
 pe64
 "
 "
-te
-"
-"
 archive
 "
 "
@@ -494,16 +496,6 @@ alloc
 scroll
 /
 std
-"
-]
-te
-=
-[
-"
-alloc
-"
-"
-endian_fd
 "
 ]
 [
