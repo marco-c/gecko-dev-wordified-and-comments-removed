@@ -825,7 +825,7 @@ satisfy
 Android
 isDuplicateUsername
 isOriginMatched
-comment
+secondary
 :
 isOriginMatched
 &
