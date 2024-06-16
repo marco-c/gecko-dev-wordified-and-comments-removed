@@ -1773,7 +1773,6 @@ if
 mCaptivePortalService
 )
 {
-return
 static_cast
 <
 CaptivePortalService
