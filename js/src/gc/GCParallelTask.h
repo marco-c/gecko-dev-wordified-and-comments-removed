@@ -408,6 +408,12 @@ State
 >
 state_
 ;
+HelperThreadLockData
+<
+bool
+>
+dispatchedToThreadPool
+;
 mozilla
 :
 :
@@ -1066,6 +1072,12 @@ runHelperThreadTask
 AutoLockHelperThreadState
 &
 locked
+)
+override
+;
+void
+onThreadPoolDispatch
+(
 )
 override
 ;

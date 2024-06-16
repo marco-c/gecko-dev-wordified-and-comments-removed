@@ -8756,6 +8756,13 @@ reason
 )
 const
 {
+task
+-
+>
+onThreadPoolDispatch
+(
+)
+;
 AutoEnterOOMUnsafeRegion
 oomUnsafe
 ;
