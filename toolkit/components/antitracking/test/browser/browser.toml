@@ -768,13 +768,6 @@ js
 ]
 [
 "
-browser_partitionedABA
-.
-js
-"
-]
-[
-"
 browser_partitionedClearSiteDataHeader
 .
 js

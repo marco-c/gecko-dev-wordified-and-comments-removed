@@ -1455,11 +1455,11 @@ usingStorageAccess
 ;
 info
 .
-mIsThirdPartyContext
+mIsThirdPartyContextToTopWindow
 =
 aData
 .
-isThirdPartyContext
+isThirdPartyContextToTopWindow
 (
 )
 ;

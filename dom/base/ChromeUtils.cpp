@@ -7419,9 +7419,6 @@ pkBaseDomain
 int32_t
 port
 ;
-bool
-ancestor
-;
 if
 (
 !
@@ -7437,7 +7434,6 @@ aPartitionKey
 scheme
 pkBaseDomain
 port
-ancestor
 )
 )
 {
@@ -7560,7 +7556,6 @@ attrs
 SetPartitionKey
 (
 uri
-false
 )
 ;
 aPartitionKey
