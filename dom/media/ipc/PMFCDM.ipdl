@@ -340,11 +340,6 @@ MFCDMMediaCapability
 nsString
 contentType
 ;
-CryptoScheme
-[
-]
-encryptionSchemes
-;
 nsString
 robustness
 ;
@@ -375,6 +370,11 @@ SessionType
 [
 ]
 sessionTypes
+;
+CryptoScheme
+[
+]
+encryptionSchemes
 ;
 Requirement
 distinctiveID

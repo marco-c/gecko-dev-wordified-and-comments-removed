@@ -186,7 +186,7 @@ mozilla
 CryptoScheme
 :
 :
-Cbcs_1_9
+Cbcs
 >
 {
 }

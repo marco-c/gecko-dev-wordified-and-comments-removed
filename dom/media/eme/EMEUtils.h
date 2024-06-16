@@ -343,6 +343,17 @@ KeySystemConfig
 aConfig
 )
 ;
+const
+char
+*
+EncryptionSchemeStr
+(
+const
+CryptoScheme
+&
+aScheme
+)
+;
 #
 ifdef
 MOZ_WMF_CDM
