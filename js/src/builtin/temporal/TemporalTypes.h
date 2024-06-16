@@ -1165,7 +1165,6 @@ nanos
 ;
 }
 static
-constexpr
 Derived
 fromNanoseconds
 (

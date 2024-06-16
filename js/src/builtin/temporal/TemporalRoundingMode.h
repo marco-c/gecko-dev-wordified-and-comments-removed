@@ -1107,7 +1107,7 @@ mode
 )
 ;
 }
-constexpr
+inline
 Int128
 CeilDiv
 (
@@ -1173,7 +1173,7 @@ return
 quotient
 ;
 }
-constexpr
+inline
 Int128
 FloorDiv
 (
@@ -1239,7 +1239,7 @@ return
 quotient
 ;
 }
-constexpr
+inline
 Int128
 ExpandDiv
 (
@@ -1324,7 +1324,7 @@ return
 quotient
 ;
 }
-constexpr
+inline
 Int128
 TruncDiv
 (
