@@ -673,7 +673,7 @@ glean_test_get_experimentation_id
 }
 pub
 fn
-glean_set_metrics_enabled_config
+glean_apply_server_knobs_config
 (
 json
 :
@@ -683,7 +683,7 @@ String
 glean_core
 :
 :
-glean_set_metrics_enabled_config
+glean_apply_server_knobs_config
 (
 json
 )

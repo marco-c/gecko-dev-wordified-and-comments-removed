@@ -1404,7 +1404,7 @@ Services
 .
 fog
 .
-setMetricsFeatureConfig
+applyServerKnobsConfig
 (
 JSON
 .

@@ -9352,7 +9352,7 @@ parser
 version
 =
 "
-13
+14
 .
 0
 .
@@ -9394,7 +9394,7 @@ file
 "
 glean_parser
 -
-13
+14
 .
 0
 .
@@ -9413,7 +9413,7 @@ hash
 "
 sha256
 :
-8421c88f3673dd195d0cde635f4f09c9bfd0c9709ad3d28c8b201b3b7145e257
+3275ca235885c99da659fa7d9bf929b8fb020df79d26fcbec317328c369cd039
 "
 }
 {
@@ -9422,7 +9422,7 @@ file
 "
 glean_parser
 -
-13
+14
 .
 0
 .
@@ -9437,7 +9437,7 @@ hash
 "
 sha256
 :
-feead4cbec6930ed38a48df5bae9eb4ee486bb4026ddf2f3206b85f80279d1e7
+3e9e5f99ad8592300e364b70d6247b21c445774a73a2ad274677fb58a0065809
 "
 }
 ]
@@ -23179,5 +23179,5 @@ content
 hash
 =
 "
-8dc66a54aad7ab1d775e5a94fb1d24c517a0970f0dab2fa12d0002e84641d5e4
+8ccca3a41d674b8232b9784d558be138ff3feb306796e898f80e383f47f2e26c
 "

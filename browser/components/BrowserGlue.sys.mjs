@@ -17845,7 +17845,7 @@ Services
 .
 fog
 .
-setMetricsFeatureConfig
+applyServerKnobsConfig
 (
 JSON
 .
@@ -17921,7 +17921,7 @@ Services
 .
 fog
 .
-setMetricsFeatureConfig
+applyServerKnobsConfig
 (
 JSON
 .

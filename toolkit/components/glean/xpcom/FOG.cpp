@@ -1709,7 +1709,7 @@ NS_IMETHODIMP
 FOG
 :
 :
-SetMetricsFeatureConfig
+ApplyServerKnobsConfig
 (
 const
 nsACString
@@ -1758,7 +1758,7 @@ glean
 impl
 :
 :
-fog_set_metrics_feature_config
+fog_apply_server_knobs_config
 (
 &
 aJsonConfig
@@ -2258,6 +2258,16 @@ const
 bool
 aIncludeInfoSections
 const
+bool
+aEnabled
+const
+nsTArray
+<
+nsCString
+>
+&
+aSchedulesPings
+const
 nsTArray
 <
 nsCString
@@ -2291,6 +2301,9 @@ aIncludeClientId
 aSendIfEmpty
 aPreciseTimestamps
 aIncludeInfoSections
+aEnabled
+&
+aSchedulesPings
 &
 aReasonCodes
 )

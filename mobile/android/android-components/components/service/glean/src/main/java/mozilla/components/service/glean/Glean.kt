@@ -709,7 +709,7 @@ state
 *
 /
 fun
-setMetricsEnabledConfig
+applyServerKnobsConfig
 (
 enabled
 :
@@ -722,7 +722,7 @@ Boolean
 {
 GleanCore
 .
-setMetricsEnabledConfig
+applyServerKnobsConfig
 (
 JSONObject
 (

@@ -2619,6 +2619,9 @@ value
 gleanMetricConfiguration
 :
 {
+metrics_enabled
+:
+{
 "
 nimbus_events
 .
@@ -2626,6 +2629,7 @@ enrollment_status
 "
 :
 true
+}
 }
 }
 }

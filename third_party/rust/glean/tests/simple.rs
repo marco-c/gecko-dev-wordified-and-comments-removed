@@ -176,6 +176,7 @@ new
 (
 |
 |
+{
 glean
 :
 :
@@ -194,11 +195,17 @@ true
 true
 true
 true
+true
+vec
+!
+[
+]
 vec
 !
 [
 ]
 )
+}
 )
 ;
 }

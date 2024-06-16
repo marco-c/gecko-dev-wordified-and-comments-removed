@@ -1752,7 +1752,7 @@ Nimbus
 .
 Glean
 .
-setMetricsEnabledConfig
+applyServerKnobsConfig
 (
 FxNimbus
 .

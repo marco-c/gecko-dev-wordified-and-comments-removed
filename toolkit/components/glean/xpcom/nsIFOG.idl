@@ -117,7 +117,7 @@ aExperimentId
 )
 ;
 void
-setMetricsFeatureConfig
+applyServerKnobsConfig
 (
 in
 ACString
@@ -211,6 +211,15 @@ aPreciseTimestamps
 in
 boolean
 aIncludeInfoSections
+in
+boolean
+aEnabled
+in
+Array
+<
+ACString
+>
+aSchedulesPings
 in
 Array
 <

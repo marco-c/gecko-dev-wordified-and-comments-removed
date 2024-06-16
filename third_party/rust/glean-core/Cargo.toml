@@ -121,7 +121,7 @@ core
 version
 =
 "
-59
+60
 .
 0
 .
@@ -258,11 +258,11 @@ glean
 parser
 =
 "
-13
+14
 .
 0
 .
-0
+1
 "
 [
 dependencies
