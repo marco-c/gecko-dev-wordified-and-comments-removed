@@ -14692,13 +14692,6 @@ build
 /
 vs
 /
-vs2019
-.
-yaml
-build
-/
-vs
-/
 vs2022
 .
 yaml
