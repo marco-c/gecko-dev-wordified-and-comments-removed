@@ -1696,10 +1696,12 @@ promise
 }
 Rooted
 <
-ArrayObject
-*
+UniquePtr
+<
+ImportAttributeVector
 >
-assertionArray
+>
+attributes
 (
 cx
 )
@@ -1719,7 +1721,8 @@ create
 (
 cx
 specifierAtom
-assertionArray
+&
+attributes
 )
 )
 ;
