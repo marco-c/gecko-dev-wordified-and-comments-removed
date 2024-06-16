@@ -95,6 +95,13 @@ fill
 context
 -
 fill
+light
+-
+dark
+(
+black
+white
+)
 "
 d
 =
@@ -224,6 +231,13 @@ fill
 context
 -
 fill
+light
+-
+dark
+(
+black
+white
+)
 "
 d
 =

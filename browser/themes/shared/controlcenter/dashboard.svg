@@ -102,6 +102,13 @@ fill
 context
 -
 fill
+light
+-
+dark
+(
+black
+white
+)
 "
 fill
 -
@@ -158,6 +165,13 @@ fill
 context
 -
 fill
+light
+-
+dark
+(
+black
+white
+)
 "
 fill
 -
