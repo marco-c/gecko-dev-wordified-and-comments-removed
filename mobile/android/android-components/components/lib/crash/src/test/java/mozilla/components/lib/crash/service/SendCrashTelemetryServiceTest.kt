@@ -610,6 +610,11 @@ notificationsDelegate
 mock
 (
 )
+crashBuilder
+=
+mock
+(
+)
 )
 )
 .

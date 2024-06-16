@@ -286,6 +286,11 @@ notificationsDelegate
 mock
 (
 )
+crashBuilder
+=
+mock
+(
+)
 )
 .
 install
@@ -447,6 +452,11 @@ Prompt
 .
 NEVER
 notificationsDelegate
+=
+mock
+(
+)
+crashBuilder
 =
 mock
 (
@@ -614,6 +624,11 @@ Prompt
 .
 NEVER
 notificationsDelegate
+=
+mock
+(
+)
+crashBuilder
 =
 mock
 (
