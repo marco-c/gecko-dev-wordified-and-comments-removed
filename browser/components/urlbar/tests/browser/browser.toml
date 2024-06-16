@@ -1267,6 +1267,13 @@ js
 ]
 [
 "
+browser_less_common_selection_manipulations
+.
+js
+"
+]
+[
+"
 browser_loadRace
 .
 js
