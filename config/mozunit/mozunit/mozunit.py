@@ -993,9 +993,14 @@ r
         
 buffering
 =
-None
+-
+1
         
 encoding
+=
+None
+        
+errors
 =
 None
         
@@ -1003,9 +1008,9 @@ newline
 =
 None
         
-errors
+closefd
 =
-None
+True
         
 opener
 =
@@ -1042,13 +1047,17 @@ encoding
 =
 encoding
                 
+errors
+=
+errors
+                
 newline
 =
 newline
                 
-errors
+closefd
 =
-errors
+closefd
                 
 opener
 =
