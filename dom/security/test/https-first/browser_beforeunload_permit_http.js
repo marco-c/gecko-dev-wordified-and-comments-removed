@@ -890,9 +890,15 @@ click
 await
 BrowserTestUtils
 .
-browserLoaded
+waitForLocationChange
 (
-browser
+gBrowser
+{
+TEST_PATH_HTTP
+}
+file_beforeunload_permit_http
+.
+html
 )
 ;
 is
