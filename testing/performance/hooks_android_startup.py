@@ -33,6 +33,8 @@ KEY_DATETIME
 KEY_NAME
     
 KEY_PRODUCT
+    
+MOZILLA_PRODUCTS
 )
 from
 mozversioncontrol
@@ -254,6 +256,12 @@ strftime
 DATETIME_FORMAT
 )
     
+if
+product
+in
+MOZILLA_PRODUCTS
+:
+        
 nightly_url
 =
 BASE_URL_DICT
@@ -265,16 +273,16 @@ pre_mono_repo
 .
 format
 (
-        
+            
 date
 =
 download_date
 architecture
 =
 architecture
-    
+        
 )
-    
+        
 filename
 =
 f
@@ -289,7 +297,7 @@ architecture
 .
 apk
 "
-    
+        
 print
 (
 "
@@ -313,14 +321,14 @@ flush
 =
 True
 )
-    
+        
 download_apk_as_date
 (
 nightly_url
 download_date
 filename
 )
-    
+        
 print
 (
 f
@@ -337,6 +345,18 @@ download_date
 }
 "
 )
+    
+else
+:
+        
+filename
+=
+product
++
+"
+.
+apk
+"
     
 kw
 [

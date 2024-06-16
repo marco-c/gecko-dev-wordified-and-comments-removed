@@ -1706,6 +1706,14 @@ package_id
 FakeID
 "
             
+test
+.
+product
+=
+"
+fenix
+"
+            
 assert
 test
 .
