@@ -21810,6 +21810,16 @@ public
 static
 final
 int
+ERROR_ADMIN_INSTALL_ONLY
+=
+-
+13
+;
+field
+public
+static
+final
+int
 ERROR_BLOCKLISTED
 =
 -

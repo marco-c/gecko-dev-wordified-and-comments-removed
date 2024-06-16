@@ -4564,6 +4564,15 @@ public
 static
 final
 int
+ERROR_ADMIN_INSTALL_ONLY
+=
+-
+13
+;
+public
+static
+final
+int
 ERROR_USER_CANCELED
 =
 -
@@ -4828,6 +4837,9 @@ ERROR_POSTPONED
 ErrorCodes
 .
 ERROR_UNSUPPORTED_ADDON_TYPE
+ErrorCodes
+.
+ERROR_ADMIN_INSTALL_ONLY
 }
 )
 public

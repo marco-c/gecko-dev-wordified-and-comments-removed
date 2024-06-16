@@ -909,6 +909,10 @@ return
 is
 WebExtensionInstallException
 .
+AdminInstallOnly
+is
+WebExtensionInstallException
+.
 UnsupportedAddonType
 is
 WebExtensionInstallException
