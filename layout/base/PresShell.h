@@ -2844,9 +2844,6 @@ return
 ObservingStyleFlushes
 (
 )
-|
-|
-mReflowContinueTimer
 ;
 }
 void
@@ -6439,12 +6436,6 @@ mLastReflowStart
 .
 0
 }
-;
-nsCOMPtr
-<
-nsITimer
->
-mReflowContinueTimer
 ;
 #
 ifdef
