@@ -940,6 +940,7 @@ class
 DeviceCapability
 {
 SEND_TAB
+CLOSE_TABS
 }
 /
 *

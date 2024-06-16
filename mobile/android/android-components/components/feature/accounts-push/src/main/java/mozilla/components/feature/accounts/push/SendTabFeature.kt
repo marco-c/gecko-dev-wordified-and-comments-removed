@@ -245,8 +245,7 @@ devices
 *
 param
 accountManager
-Firefox
-account
+Account
 manager
 .
 *
@@ -355,7 +354,7 @@ init
 val
 observer
 =
-EventsObserver
+TabReceivedEventsObserver
 (
 onTabsReceived
 )
@@ -394,7 +393,7 @@ autoPause
 }
 internal
 class
-EventsObserver
+TabReceivedEventsObserver
 (
 private
 val
@@ -422,7 +421,7 @@ logger
 Logger
 (
 "
-EventsObserver
+TabReceivedEventsObserver
 "
 )
 override

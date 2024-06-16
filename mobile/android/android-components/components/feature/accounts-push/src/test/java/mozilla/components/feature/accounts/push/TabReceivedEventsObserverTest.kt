@@ -159,7 +159,7 @@ Mockito
 .
 verify
 class
-EventsObserverTest
+TabReceivedEventsObserverTest
 {
 Test
 fun
@@ -191,7 +191,7 @@ mock
 val
 observer
 =
-EventsObserver
+TabReceivedEventsObserver
 (
 callback
 )
@@ -310,7 +310,7 @@ mock
 val
 observer
 =
-EventsObserver
+TabReceivedEventsObserver
 (
 callback
 )
