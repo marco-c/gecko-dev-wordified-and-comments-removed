@@ -6096,7 +6096,7 @@ handler
 ObjId
 trap
 :
-ObjectField
+ObjId
 property
 :
 IdField
@@ -6135,7 +6135,7 @@ property
 ValId
 trap
 :
-ObjectField
+ObjId
 nargsAndFlags
 :
 UInt32Imm

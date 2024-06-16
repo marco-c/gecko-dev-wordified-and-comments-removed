@@ -3584,6 +3584,8 @@ ObjOperandId
 receiver
 ObjOperandId
 handler
+ObjOperandId
+trapId
 JSFunction
 *
 trap
@@ -3616,7 +3618,7 @@ callScriptedProxyGetResult_
 target
 receiver
 handler
-trap
+trapId
 property
 nargsAndFlags
 )
@@ -3633,6 +3635,8 @@ ObjOperandId
 handler
 ValOperandId
 property
+ObjOperandId
+trapId
 JSFunction
 *
 trap
@@ -3664,7 +3668,7 @@ target
 receiver
 handler
 property
-trap
+trapId
 nargsAndFlags
 )
 ;

@@ -8332,9 +8332,7 @@ guardToObject
 fnValId
 )
 ;
-writer
-.
-guardSpecificFunction
+emitCalleeGuard
 (
 fnObjId
 trapFn
@@ -8368,6 +8366,7 @@ callScriptedProxyGetResult
 targetValId
 objId
 handlerObjId
+fnObjId
 trapFn
 id
 )
@@ -8400,6 +8399,7 @@ targetValId
 objId
 handlerObjId
 stringIdId
+fnObjId
 trapFn
 )
 ;
