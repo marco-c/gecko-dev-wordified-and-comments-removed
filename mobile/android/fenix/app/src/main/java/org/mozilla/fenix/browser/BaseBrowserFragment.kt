@@ -2112,7 +2112,7 @@ BottomToolbarContainerView
 ?
 =
 null
-private
+protected
 val
 bottomToolbarContainerView
 :
