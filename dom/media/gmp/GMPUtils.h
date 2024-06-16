@@ -96,6 +96,9 @@ cdm10
 host4
 "
 class
+GMPVideoEncodedFrame
+;
+class
 nsIFile
 ;
 class
@@ -347,6 +350,14 @@ int32_t
 aWidth
 int32_t
 aHeight
+)
+;
+bool
+AdjustOpenH264NALUSequence
+(
+GMPVideoEncodedFrame
+*
+aEncodedFrame
 )
 ;
 MediaResult
