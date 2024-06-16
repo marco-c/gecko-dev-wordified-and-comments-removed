@@ -268,6 +268,11 @@ mPacketsDelivered
 =
 0
 ;
+int
+mDtxThreshold
+=
+0
+;
 }
 ;
 }
