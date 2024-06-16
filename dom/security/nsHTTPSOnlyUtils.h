@@ -204,6 +204,10 @@ TestIfPrincipalIsExempt
 nsIPrincipal
 *
 aPrincipal
+bool
+aCheckForHTTPSFirst
+=
+false
 )
 ;
 static
