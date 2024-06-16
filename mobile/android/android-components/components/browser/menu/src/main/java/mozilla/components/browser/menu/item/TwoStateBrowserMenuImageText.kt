@@ -424,18 +424,13 @@ secondaryLabel
 :
 String
 ColorRes
-private
+internal
 val
 textColorResource
 :
 Int
 =
 NO_ID
-enabled
-:
-Boolean
-=
-true
 DrawableRes
 val
 primaryStateIconResource
@@ -522,7 +517,6 @@ primaryLabel
 primaryStateIconResource
 iconTintColorResource
 textColorResource
-enabled
 isCollapsingMenuLimit
 isSticky
 primaryStateAction

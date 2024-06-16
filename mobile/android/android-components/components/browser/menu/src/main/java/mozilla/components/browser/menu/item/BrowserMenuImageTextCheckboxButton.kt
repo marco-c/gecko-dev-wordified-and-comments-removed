@@ -391,16 +391,13 @@ Int
 =
 NO_ID
 ColorRes
+internal
+val
 textColorResource
 :
 Int
 =
 NO_ID
-enabled
-:
-Boolean
-=
-true
 get
 :
 VisibleForTesting
@@ -485,7 +482,6 @@ label
 imageResource
 iconTintColorResource
 textColorResource
-enabled
 isCollapsingMenuLimit
 isSticky
 labelListener

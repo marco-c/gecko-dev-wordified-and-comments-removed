@@ -424,11 +424,6 @@ textColorResource
 Int
 =
 NO_ID
-enabled
-:
-Boolean
-=
-true
 override
 val
 isCollapsingMenuLimit
@@ -481,7 +476,6 @@ label
 startImageResource
 iconTintColorResource
 textColorResource
-enabled
 isCollapsingMenuLimit
 isSticky
 listener
@@ -531,11 +525,6 @@ textColorResource
 Int
 =
 NO_ID
-enabled
-:
-Boolean
-=
-true
 isCollapsingMenuLimit
 :
 Boolean
@@ -570,7 +559,6 @@ label
 imageResource
 iconTintColorResource
 textColorResource
-enabled
 isCollapsingMenuLimit
 isSticky
 highlight
