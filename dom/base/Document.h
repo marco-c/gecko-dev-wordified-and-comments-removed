@@ -10904,15 +10904,10 @@ IsEmpty
 ;
 }
 void
-UpdateIntersectionObservations
+UpdateIntersections
 (
 TimeStamp
 aNowTime
-)
-;
-void
-ScheduleIntersectionObserverNotification
-(
 )
 ;
 MOZ_CAN_RUN_SCRIPT
