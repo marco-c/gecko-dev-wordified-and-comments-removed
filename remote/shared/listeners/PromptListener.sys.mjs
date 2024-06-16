@@ -778,6 +778,7 @@ detail
 const
 {
 areLeaving
+promptType
 value
 }
 =
@@ -827,6 +828,12 @@ undefined
 true
 :
 areLeaving
+;
+detail
+.
+promptType
+=
+promptType
 ;
 if
 (
