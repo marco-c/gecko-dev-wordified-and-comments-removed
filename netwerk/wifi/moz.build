@@ -23,6 +23,15 @@ XPIDL_MODULE
 "
 necko_wifi
 "
+OS_LIBS
++
+=
+CONFIG
+[
+"
+SOCKET_LIBS
+"
+]
 UNIFIED_SOURCES
 +
 =
