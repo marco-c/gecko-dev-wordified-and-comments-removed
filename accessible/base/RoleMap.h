@@ -2165,7 +2165,7 @@ nullptr
 ATK_ROLE_LIST
 NSAccessibilityListRole
 "
-AXDescriptionList
+AXDefinitionList
 "
 ROLE_SYSTEM_LIST
 ROLE_SYSTEM_LIST
@@ -2227,7 +2227,7 @@ definition
 ATK_ROLE_PARAGRAPH
 NSAccessibilityGroupRole
 "
-AXDescription
+AXDefinition
 "
 ROLE_SYSTEM_GROUPING
 IA2_ROLE_PARAGRAPH

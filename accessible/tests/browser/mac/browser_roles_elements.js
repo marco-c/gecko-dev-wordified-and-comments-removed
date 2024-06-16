@@ -2060,7 +2060,7 @@ dl
 AXList
 "
 "
-AXDescriptionList
+AXDefinitionList
 "
 )
 ;
@@ -2088,7 +2088,7 @@ dd
 AXGroup
 "
 "
-AXDescription
+AXDefinition
 "
 )
 ;
