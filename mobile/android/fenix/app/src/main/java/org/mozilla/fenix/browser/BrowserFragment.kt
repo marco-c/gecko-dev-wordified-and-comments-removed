@@ -1077,7 +1077,7 @@ READER_MODE_WEIGHT
 }
 selected
 =
-getCurrentTab
+getSafeCurrentTab
 (
 )
 ?
@@ -1946,7 +1946,7 @@ context
 isInPrimaryState
 =
 {
-getCurrentTab
+getSafeCurrentTab
 (
 )
 ?
@@ -3019,7 +3019,7 @@ enableTint
 isInPrimaryState
 =
 {
-getCurrentTab
+getSafeCurrentTab
 (
 )
 ?
@@ -3137,7 +3137,7 @@ enableTint
 isInPrimaryState
 =
 {
-getCurrentTab
+getSafeCurrentTab
 (
 )
 ?
@@ -3291,7 +3291,7 @@ enableTint
 isInPrimaryState
 =
 {
-getCurrentTab
+getSafeCurrentTab
 (
 )
 ?
