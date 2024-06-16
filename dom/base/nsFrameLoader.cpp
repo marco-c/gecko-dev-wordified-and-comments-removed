@@ -15969,7 +15969,6 @@ aInfo
 )
 ;
 }
-nullptr
 rv
 )
 ;
