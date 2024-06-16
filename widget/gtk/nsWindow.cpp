@@ -43184,6 +43184,11 @@ ClearTransparencyBitmap
 ;
 }
 }
+SetInputRegion
+(
+mInputRegion
+)
+;
 }
 GtkWindow
 *
