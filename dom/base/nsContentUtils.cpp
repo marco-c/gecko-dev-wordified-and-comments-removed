@@ -23469,6 +23469,14 @@ EqualsLiteral
 (
 TEXT_JSON
 )
+|
+|
+aContentType
+.
+EqualsLiteral
+(
+TEXT_EVENT_STREAM
+)
 ;
 }
 bool
