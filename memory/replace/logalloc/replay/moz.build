@@ -519,6 +519,15 @@ OS_LIBS
 atomic
 "
 ]
+OS_LIBS
++
+=
+CONFIG
+[
+"
+DL_LIBS
+"
+]
 DisableStlWrapping
 (
 )

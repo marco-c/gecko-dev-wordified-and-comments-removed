@@ -102,6 +102,15 @@ CONFIG
 MOZ_GTK3_LIBS
 "
 ]
+OS_LIBS
++
+=
+CONFIG
+[
+"
+DL_LIBS
+"
+]
 NO_PGO
 =
 True

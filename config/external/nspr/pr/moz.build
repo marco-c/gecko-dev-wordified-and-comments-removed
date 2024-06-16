@@ -23,6 +23,15 @@ nspr4
 AllowCompilerWarnings
 (
 )
+OS_LIBS
++
+=
+CONFIG
+[
+"
+DL_LIBS
+"
+]
 DEFINES
 [
 "
@@ -110,7 +119,7 @@ if
 CONFIG
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 =
@@ -144,7 +153,7 @@ elif
 CONFIG
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 =
@@ -186,7 +195,7 @@ elif
 CONFIG
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 =
@@ -510,7 +519,7 @@ if
 CONFIG
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 =
@@ -544,7 +553,7 @@ elif
 CONFIG
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 =
@@ -578,7 +587,7 @@ elif
 CONFIG
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 =
@@ -722,7 +731,7 @@ if
 CONFIG
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 =
@@ -743,7 +752,7 @@ elif
 CONFIG
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 =
@@ -764,7 +773,7 @@ elif
 CONFIG
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 =
@@ -787,7 +796,7 @@ error
 (
 "
 Unsupported
-CPU_ARCH
+TARGET_CPU
 value
 :
 %
@@ -797,7 +806,7 @@ s
 CONFIG
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 )

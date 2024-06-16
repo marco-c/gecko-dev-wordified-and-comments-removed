@@ -136,7 +136,7 @@ endif
 if
 defined
 (
-HAVE_DLOPEN
+HAVE_DLFCN_H
 )
 |
 |
