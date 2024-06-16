@@ -77,11 +77,6 @@ cairo_bool_t
 enable
 )
 ;
-slim_hidden_proto
-(
-cairo_script_surface_create
-)
-;
 CAIRO_END_DECLS
 #
 endif

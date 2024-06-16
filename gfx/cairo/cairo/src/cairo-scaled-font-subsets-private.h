@@ -14,6 +14,7 @@ h
 #
 if
 CAIRO_HAS_FONT_SUBSET
+CAIRO_BEGIN_DECLS
 typedef
 struct
 _cairo_scaled_font_subsets_glyph
@@ -154,20 +155,6 @@ closure
 cairo_private
 cairo_status_t
 _cairo_scaled_font_subsets_foreach_unscaled
-(
-cairo_scaled_font_subsets_t
-*
-font_subsets
-cairo_scaled_font_subset_callback_func_t
-font_subset_callback
-void
-*
-closure
-)
-;
-cairo_private
-cairo_status_t
-_cairo_scaled_font_subsets_foreach_user
 (
 cairo_scaled_font_subsets_t
 *
@@ -630,6 +617,7 @@ font_subsets
 ;
 #
 endif
+CAIRO_END_DECLS
 #
 endif
 #

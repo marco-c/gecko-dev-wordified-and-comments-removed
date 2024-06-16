@@ -154,12 +154,15 @@ status
 return
 status
 ;
-_cairo_xcb_connection_free_pixmap
+xcb_free_pixmap
 (
 surface
 -
 >
 connection
+-
+>
+xcb_connection
 surface
 -
 >

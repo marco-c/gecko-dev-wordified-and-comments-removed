@@ -147,11 +147,6 @@ is_vector
 :
 1
 ;
-unsigned
-permit_subpixel_antialiasing
-:
-1
-;
 cairo_user_data_array_t
 user_data
 ;
@@ -194,6 +189,13 @@ snapshot
 ;
 cairo_font_options_t
 font_options
+;
+cairo_pattern_t
+*
+foreground_source
+;
+cairo_bool_t
+foreground_used
 ;
 }
 ;

@@ -4512,6 +4512,9 @@ font
 void
 *
 )
+(
+uintptr_t
+)
 index
 )
 ;
@@ -4544,6 +4547,7 @@ info
 font
 index
 CAIRO_SCALED_GLYPH_INFO_SURFACE
+NULL
 &
 scaled_glyph
 )
@@ -4582,6 +4586,9 @@ font
 (
 void
 *
+)
+(
+uintptr_t
 )
 index
 glyph_surface
@@ -4941,6 +4948,7 @@ glyphs
 .
 index
 CAIRO_SCALED_GLYPH_INFO_SURFACE
+NULL
 &
 scaled_glyph
 )
@@ -5196,6 +5204,7 @@ glyphs
 .
 index
 CAIRO_SCALED_GLYPH_INFO_SURFACE
+NULL
 &
 scaled_glyph
 )
@@ -5493,6 +5502,7 @@ info
 font
 glyph_index
 CAIRO_SCALED_GLYPH_INFO_SURFACE
+NULL
 &
 scaled_glyph
 )
@@ -6128,6 +6138,7 @@ info
 font
 glyph_index
 CAIRO_SCALED_GLYPH_INFO_SURFACE
+NULL
 &
 scaled_glyph
 )

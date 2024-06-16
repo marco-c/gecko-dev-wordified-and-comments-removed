@@ -1606,6 +1606,7 @@ glyph_index
 CAIRO_SCALED_GLYPH_INFO_METRICS
 |
 CAIRO_SCALED_GLYPH_INFO_PATH
+NULL
 &
 scaled_glyph
 )
@@ -1638,6 +1639,7 @@ font
 type1_scaled_font
 glyph_index
 CAIRO_SCALED_GLYPH_INFO_METRICS
+NULL
 &
 scaled_glyph
 )

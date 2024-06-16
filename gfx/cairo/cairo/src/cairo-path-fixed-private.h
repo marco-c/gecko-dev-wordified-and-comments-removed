@@ -367,8 +367,7 @@ ty
 )
 ;
 cairo_private
-unsigned
-long
+uintptr_t
 _cairo_path_fixed_hash
 (
 const

@@ -78,6 +78,16 @@ cairoint
 .
 h
 '
+!
+-
+name
+'
+*
+-
+inline
+.
+h
+'
 fi
 grep
 -

@@ -5019,10 +5019,7 @@ left
 >
 next
 ;
-while
-(
-right
-)
+do
 {
 if
 unlikely
@@ -5099,13 +5096,10 @@ right
 next
 ;
 }
-;
-if
+while
 (
-!
-right
+1
 )
-return
 ;
 edges_start_or_continue
 (

@@ -262,17 +262,6 @@ PictOpBlendMaximum
 endif
 #
 if
-RENDER_MAJOR
-=
-=
-0
-&
-&
-RENDER_MINOR
-<
-10
-#
-if
 !
 HAVE_XRENDERCREATESOLIDFILL
 #
@@ -364,8 +353,6 @@ angle
 }
 XConicalGradient
 ;
-#
-endif
 #
 endif
 #

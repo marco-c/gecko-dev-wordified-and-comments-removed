@@ -3378,6 +3378,7 @@ info
 font
 glyph_index
 CAIRO_SCALED_GLYPH_INFO_SURFACE
+NULL
 &
 scaled_glyph
 )

@@ -83,6 +83,10 @@ cairo_surface_t
 *
 src_surface
 ;
+unsigned
+int
+regions_id
+;
 cairo_rectangle_int_t
 src_surface_extents
 ;

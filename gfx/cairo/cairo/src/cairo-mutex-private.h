@@ -50,7 +50,7 @@ _CAIRO_MUTEX_IMPL_USE_STATIC_INITIALIZER
 _CAIRO_MUTEX_IMPL_USE_STATIC_FINALIZER
 cairo_private
 extern
-cairo_bool_t
+int
 _cairo_mutex_initialized
 ;
 #

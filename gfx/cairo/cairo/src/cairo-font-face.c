@@ -183,11 +183,6 @@ return
 font_face
 ;
 }
-slim_hidden_def
-(
-cairo_font_face_reference
-)
-;
 static
 inline
 cairo_bool_t
@@ -364,11 +359,6 @@ font_face
 )
 ;
 }
-slim_hidden_def
-(
-cairo_font_face_destroy
-)
-;
 cairo_font_type_t
 cairo_font_face_get_type
 (
@@ -481,11 +471,6 @@ key
 )
 ;
 }
-slim_hidden_def
-(
-cairo_font_face_get_user_data
-)
-;
 cairo_status_t
 cairo_font_face_set_user_data
 (
@@ -534,11 +519,6 @@ destroy
 )
 ;
 }
-slim_hidden_def
-(
-cairo_font_face_set_user_data
-)
-;
 void
 _cairo_unscaled_font_init
 (

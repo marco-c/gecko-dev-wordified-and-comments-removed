@@ -103,7 +103,7 @@ flush_func
 cairo_output_stream_close_func_t
 close_func
 ;
-unsigned
+long
 long
 position
 ;
@@ -293,6 +293,7 @@ matrix
 )
 ;
 cairo_private
+long
 long
 _cairo_output_stream_get_position
 (
