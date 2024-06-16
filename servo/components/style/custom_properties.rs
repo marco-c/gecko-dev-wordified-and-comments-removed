@@ -1501,6 +1501,7 @@ self
 non_inherited
 }
 }
+pub
 fn
 get
 (
