@@ -196,6 +196,16 @@ None
 ;
 enum
 class
+StyleFieldSizing
+:
+bool
+{
+Fixed
+Content
+}
+;
+enum
+class
 StyleShapeSourceType
 :
 uint8_t
