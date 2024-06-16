@@ -511,7 +511,7 @@ SetType
 ArgRegMask
 =
 (
-1
+1U
 <
 <
 Registers
@@ -521,7 +521,7 @@ a0
 )
 |
 (
-1
+1U
 <
 <
 Registers
@@ -531,7 +531,7 @@ a1
 )
 |
 (
-1
+1U
 <
 <
 Registers
@@ -541,7 +541,7 @@ a2
 )
 |
 (
-1
+1U
 <
 <
 Registers
@@ -551,7 +551,7 @@ a3
 )
 |
 (
-1
+1U
 <
 <
 Registers
@@ -561,7 +561,7 @@ a4
 )
 |
 (
-1
+1U
 <
 <
 Registers
@@ -571,7 +571,7 @@ a5
 )
 |
 (
-1
+1U
 <
 <
 Registers
@@ -581,7 +581,7 @@ a6
 )
 |
 (
-1
+1U
 <
 <
 Registers
@@ -596,7 +596,7 @@ SetType
 VolatileMask
 =
 (
-1
+1U
 <
 <
 Registers
@@ -606,7 +606,7 @@ a0
 )
 |
 (
-1
+1U
 <
 <
 Registers
@@ -616,7 +616,7 @@ a1
 )
 |
 (
-1
+1U
 <
 <
 Registers
@@ -626,7 +626,7 @@ a2
 )
 |
 (
-1
+1U
 <
 <
 Registers
@@ -636,7 +636,7 @@ a3
 )
 |
 (
-1
+1U
 <
 <
 Registers
@@ -646,7 +646,7 @@ a4
 )
 |
 (
-1
+1U
 <
 <
 Registers
@@ -656,7 +656,7 @@ a5
 )
 |
 (
-1
+1U
 <
 <
 Registers
@@ -666,7 +666,7 @@ a6
 )
 |
 (
-1
+1U
 <
 <
 Registers
@@ -676,7 +676,7 @@ a7
 )
 |
 (
-1
+1U
 <
 <
 Registers
@@ -686,7 +686,7 @@ t0
 )
 |
 (
-1
+1U
 <
 <
 Registers
@@ -696,7 +696,7 @@ t1
 )
 |
 (
-1
+1U
 <
 <
 Registers
@@ -706,7 +706,7 @@ t2
 )
 |
 (
-1
+1U
 <
 <
 Registers
@@ -716,7 +716,7 @@ t3
 )
 |
 (
-1
+1U
 <
 <
 Registers
@@ -726,7 +726,7 @@ t4
 )
 |
 (
-1
+1U
 <
 <
 Registers
@@ -736,7 +736,7 @@ t5
 )
 |
 (
-1
+1U
 <
 <
 Registers
@@ -751,7 +751,7 @@ SetType
 NonVolatileMask
 =
 (
-1
+1U
 <
 <
 Registers
@@ -761,7 +761,7 @@ ra
 )
 |
 (
-1
+1U
 <
 <
 Registers
@@ -771,7 +771,7 @@ fp
 )
 |
 (
-1
+1U
 <
 <
 Registers
@@ -781,7 +781,7 @@ s0
 )
 |
 (
-1
+1U
 <
 <
 Registers
@@ -791,7 +791,7 @@ s1
 )
 |
 (
-1
+1u
 <
 <
 Registers
@@ -801,7 +801,7 @@ s2
 )
 |
 (
-1
+1U
 <
 <
 Registers
@@ -811,7 +811,7 @@ s3
 )
 |
 (
-1
+1U
 <
 <
 Registers
@@ -821,7 +821,7 @@ s4
 )
 |
 (
-1
+1U
 <
 <
 Registers
@@ -831,7 +831,7 @@ s5
 )
 |
 (
-1
+1U
 <
 <
 Registers
@@ -841,7 +841,7 @@ s6
 )
 |
 (
-1
+1U
 <
 <
 Registers
@@ -851,7 +851,7 @@ s7
 )
 |
 (
-1
+1U
 <
 <
 Registers
@@ -866,7 +866,7 @@ SetType
 NonAllocatableMask
 =
 (
-1
+1U
 <
 <
 Registers
@@ -876,7 +876,7 @@ zero
 )
 |
 (
-1
+1U
 <
 <
 Registers
@@ -886,7 +886,7 @@ t7
 )
 |
 (
-1
+1U
 <
 <
 Registers
@@ -896,7 +896,7 @@ t8
 )
 |
 (
-1
+1U
 <
 <
 Registers
@@ -906,7 +906,7 @@ rx
 )
 |
 (
-1
+1U
 <
 <
 Registers
@@ -916,7 +916,7 @@ ra
 )
 |
 (
-1
+1U
 <
 <
 Registers
@@ -926,7 +926,7 @@ tp
 )
 |
 (
-1
+1U
 <
 <
 Registers
@@ -936,7 +936,7 @@ sp
 )
 |
 (
-1
+1U
 <
 <
 Registers
@@ -1236,6 +1236,8 @@ return
 Names
 [
 code
+%
+TotalPhys
 ]
 ;
 }
@@ -1410,7 +1412,7 @@ NonVolatileMask
 SetType
 (
 (
-1
+1U
 <
 <
 FloatRegisters
@@ -1420,7 +1422,7 @@ f24
 )
 |
 (
-1
+1U
 <
 <
 FloatRegisters
@@ -1430,7 +1432,7 @@ f25
 )
 |
 (
-1
+1U
 <
 <
 FloatRegisters
@@ -1440,7 +1442,7 @@ f26
 )
 |
 (
-1
+1U
 <
 <
 FloatRegisters
@@ -1450,7 +1452,7 @@ f27
 )
 |
 (
-1
+1U
 <
 <
 FloatRegisters
@@ -1460,7 +1462,7 @@ f28
 )
 |
 (
-1
+1U
 <
 <
 FloatRegisters
@@ -1470,7 +1472,7 @@ f29
 )
 |
 (
-1
+1U
 <
 <
 FloatRegisters
@@ -1480,7 +1482,7 @@ f30
 )
 |
 (
-1
+1U
 <
 <
 FloatRegisters
