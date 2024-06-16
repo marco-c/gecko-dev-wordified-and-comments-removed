@@ -1219,7 +1219,7 @@ every
 {
 settings
 .
-isTabletAndTabStripEnabled
+isTabStripEnabled
 }
 returns
 true

@@ -5655,7 +5655,7 @@ set
 (
 settings
 .
-isTabletAndTabStripEnabled
+isTabStripEnabled
 )
 }
 VisibleForTesting
