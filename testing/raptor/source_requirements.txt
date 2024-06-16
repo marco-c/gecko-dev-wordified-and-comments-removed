@@ -129,9 +129,9 @@ pub
 /
 arsenic
 -
-19
+21
 .
-1
+8
 -
 py3
 -
@@ -159,7 +159,7 @@ pyyaml
 structlog
 =
 =
-15
+20
 .
 2
 .

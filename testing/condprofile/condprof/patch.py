@@ -9,6 +9,7 @@ async
 def
 request
 (
+    
 self
 *
 url
@@ -18,6 +19,9 @@ method
 :
 str
 data
+=
+None
+timeout
 =
 None
 )
@@ -154,6 +158,9 @@ body
 headers
 =
 headers
+timeout
+=
+timeout
     
 )
 as
