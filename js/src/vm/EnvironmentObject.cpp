@@ -14197,6 +14197,7 @@ CheckTableAfterMovingGC
 (
 missingEnvs
 [
+this
 ]
 (
 const
@@ -14216,6 +14217,9 @@ key
 scope
 (
 )
+zone
+(
+)
 )
 ;
 CheckGCThingAfterMovingGC
@@ -14227,6 +14231,9 @@ value
 )
 .
 unbarrieredGet
+(
+)
+zone
 (
 )
 )
@@ -14245,6 +14252,7 @@ CheckTableAfterMovingGC
 (
 liveEnvs
 [
+this
 ]
 (
 const
@@ -14260,6 +14268,9 @@ entry
 key
 (
 )
+zone
+(
+)
 )
 ;
 CheckGCThingAfterMovingGC
@@ -14273,6 +14284,9 @@ value
 scope_
 .
 get
+(
+)
+zone
 (
 )
 )

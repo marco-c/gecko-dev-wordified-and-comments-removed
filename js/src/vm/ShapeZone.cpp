@@ -162,12 +162,19 @@ ShapeZone
 :
 checkTablesAfterMovingGC
 (
+JS
+:
+:
+Zone
+*
+zone
 )
 {
 CheckTableAfterMovingGC
 (
 initialPropMaps
 [
+zone
 ]
 (
 const
@@ -189,6 +196,7 @@ unbarrieredGet
 CheckGCThingAfterMovingGC
 (
 map
+zone
 )
 ;
 PropertyKey
@@ -218,6 +226,7 @@ key
 toGCThing
 (
 )
+zone
 )
 ;
 }
@@ -244,6 +253,7 @@ CheckTableAfterMovingGC
 (
 baseShapes
 [
+zone
 ]
 (
 const
@@ -265,6 +275,7 @@ unbarrieredGet
 CheckGCThingAfterMovingGC
 (
 base
+zone
 )
 ;
 CheckProtoAfterMovingGC
@@ -275,6 +286,7 @@ base
 proto
 (
 )
+zone
 )
 ;
 return
@@ -310,6 +322,7 @@ CheckTableAfterMovingGC
 (
 initialShapes
 [
+zone
 ]
 (
 const
@@ -331,6 +344,7 @@ unbarrieredGet
 CheckGCThingAfterMovingGC
 (
 shape
+zone
 )
 ;
 CheckProtoAfterMovingGC
@@ -341,6 +355,7 @@ shape
 proto
 (
 )
+zone
 )
 ;
 return
@@ -388,6 +403,7 @@ CheckTableAfterMovingGC
 (
 propMapShapes
 [
+zone
 ]
 (
 const
@@ -409,6 +425,7 @@ unbarrieredGet
 CheckGCThingAfterMovingGC
 (
 shape
+zone
 )
 ;
 CheckGCThingAfterMovingGC
@@ -419,6 +436,7 @@ shape
 base
 (
 )
+zone
 )
 ;
 CheckGCThingAfterMovingGC
@@ -429,6 +447,7 @@ shape
 propMap
 (
 )
+zone
 )
 ;
 return
@@ -476,6 +495,7 @@ CheckTableAfterMovingGC
 (
 proxyShapes
 [
+zone
 ]
 (
 const
@@ -497,6 +517,7 @@ unbarrieredGet
 CheckGCThingAfterMovingGC
 (
 shape
+zone
 )
 ;
 CheckProtoAfterMovingGC
@@ -507,6 +528,7 @@ shape
 proto
 (
 )
+zone
 )
 ;
 return
@@ -548,6 +570,7 @@ CheckTableAfterMovingGC
 (
 wasmGCShapes
 [
+zone
 ]
 (
 const
@@ -569,6 +592,7 @@ unbarrieredGet
 CheckGCThingAfterMovingGC
 (
 shape
+zone
 )
 ;
 CheckProtoAfterMovingGC
@@ -579,6 +603,7 @@ shape
 proto
 (
 )
+zone
 )
 ;
 return

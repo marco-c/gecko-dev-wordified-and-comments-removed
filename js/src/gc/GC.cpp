@@ -25720,6 +25720,7 @@ shapeZone
 .
 checkTablesAfterMovingGC
 (
+zone
 )
 ;
 zone
@@ -25796,6 +25797,7 @@ table
 >
 checkAfterMovingGC
 (
+zone
 )
 ;
 }
@@ -25854,6 +25856,7 @@ table
 >
 checkAfterMovingGC
 (
+zone
 )
 ;
 }

@@ -1115,6 +1115,12 @@ JSGC_HASH_TABLE_CHECKS
 void
 checkAfterMovingGC
 (
+JS
+:
+:
+Zone
+*
+zone
 )
 ;
 #
