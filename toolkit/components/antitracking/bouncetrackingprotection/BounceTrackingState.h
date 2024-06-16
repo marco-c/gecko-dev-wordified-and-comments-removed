@@ -119,6 +119,9 @@ dom
 BrowsingContextWebProgress
 *
 aWebProgress
+nsresult
+&
+aRv
 )
 ;
 static
@@ -247,6 +250,14 @@ Describe
 (
 )
 ;
+nsresult
+OnStorageAccess
+(
+nsIPrincipal
+*
+aPrincipal
+)
+;
 private
 :
 explicit
@@ -341,11 +352,6 @@ OnDocumentLoaded
 nsIPrincipal
 *
 aDocumentPrincipal
-)
-;
-nsresult
-OnStorageAccess
-(
 )
 ;
 nsresult
