@@ -2870,10 +2870,6 @@ reset_nativeapp
 reset_streamfilter
 -
 reset_parentapicall
--
-permissions_request
--
-launchWebAuthFlow
 lifetime
 :
 application
