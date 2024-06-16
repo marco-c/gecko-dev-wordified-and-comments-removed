@@ -767,9 +767,6 @@ string
 .
 library_bookmarks
 )
-onClick
-=
-onBookmarksMenuClick
 beforeIconPainter
 =
 painterResource
@@ -782,6 +779,9 @@ drawable
 .
 mozac_ic_bookmark_tray_fill_24
 )
+onClick
+=
+onBookmarksMenuClick
 )
 Divider
 (
@@ -807,9 +807,6 @@ string
 .
 library_history
 )
-onClick
-=
-onHistoryMenuClick
 beforeIconPainter
 =
 painterResource
@@ -822,6 +819,9 @@ drawable
 .
 mozac_ic_history_24
 )
+onClick
+=
+onHistoryMenuClick
 )
 Divider
 (
@@ -847,9 +847,6 @@ string
 .
 library_downloads
 )
-onClick
-=
-onDownloadsMenuClick
 beforeIconPainter
 =
 painterResource
@@ -862,6 +859,9 @@ drawable
 .
 mozac_ic_download_24
 )
+onClick
+=
+onDownloadsMenuClick
 )
 Divider
 (
@@ -887,9 +887,6 @@ string
 .
 browser_menu_passwords
 )
-onClick
-=
-onPasswordsMenuClick
 beforeIconPainter
 =
 painterResource
@@ -902,6 +899,9 @@ drawable
 .
 mozac_ic_login_24
 )
+onClick
+=
+onPasswordsMenuClick
 )
 }
 }
