@@ -384,7 +384,7 @@ True
 FINAL_LIBRARY
 =
 "
-webrtc
+xul
 "
 LOCAL_INCLUDES
 +
@@ -548,7 +548,7 @@ if
 CONFIG
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 =
@@ -577,7 +577,7 @@ if
 CONFIG
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 =
@@ -598,7 +598,7 @@ if
 CONFIG
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 =
