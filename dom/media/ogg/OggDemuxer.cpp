@@ -11941,10 +11941,6 @@ backsteps
 maxBackStep
 )
 ;
-mustBackoff
-=
-false
-;
 }
 else
 {
