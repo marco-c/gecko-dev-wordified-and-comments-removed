@@ -378,6 +378,12 @@ _
 WASM_LEGACY_EXCEPTIONS
 WasmLegacyExceptions
 )
+\
+_
+(
+SUBCLASSING_ARRAY_TYPE_II
+SubclassingArrayTypeII
+)
 #
 define
 ENUM_DEF
