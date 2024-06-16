@@ -1385,6 +1385,13 @@ http
 "
 [
 "
+test_peerConnection_getParameters
+.
+html
+"
+]
+[
+"
 test_peerConnection_glean
 .
 html
@@ -1921,6 +1928,13 @@ html
 [
 "
 test_peerConnection_setParameters
+.
+html
+"
+]
+[
+"
+test_peerConnection_setParametersCompatMode
 .
 html
 "
