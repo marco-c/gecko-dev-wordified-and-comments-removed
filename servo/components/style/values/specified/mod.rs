@@ -794,6 +794,16 @@ self
 position
 :
 :
+PositionTryOptions
+;
+pub
+use
+self
+:
+:
+position
+:
+:
 PositionTryOrder
 ;
 pub
