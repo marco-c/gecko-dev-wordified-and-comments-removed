@@ -8406,6 +8406,25 @@ relpath
 )
 )
             
+if
+not
+tests
+:
+                
+tests
+=
+list
+(
+self
+.
+resolve_tests
+(
+tags
+=
+entry
+)
+)
+            
 run_tests
 .
 extend
