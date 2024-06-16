@@ -10040,7 +10040,7 @@ SetExtension
 webrtc
 :
 :
-AudioLevel
+AudioLevelExtension
 >
 (
 true
@@ -10110,7 +10110,7 @@ GetExtension
 webrtc
 :
 :
-AudioLevel
+AudioLevelExtension
 >
 (
 &

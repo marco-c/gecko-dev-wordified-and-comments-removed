@@ -466,7 +466,7 @@ AbsoluteCaptureTimeExtension
 )
 CreateExtensionSize
 <
-AudioLevel
+AudioLevelExtension
 >
 (
 )

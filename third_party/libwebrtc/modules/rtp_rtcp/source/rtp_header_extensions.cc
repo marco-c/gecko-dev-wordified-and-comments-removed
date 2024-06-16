@@ -527,7 +527,7 @@ true
 ;
 }
 bool
-AudioLevel
+AudioLevelExtension
 :
 :
 Parse
@@ -593,7 +593,7 @@ true
 ;
 }
 bool
-AudioLevel
+AudioLevelExtension
 :
 :
 Write

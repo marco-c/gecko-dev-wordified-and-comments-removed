@@ -161,7 +161,7 @@ TransmissionOffset
 )
 CreateExtensionInfo
 <
-AudioLevel
+AudioLevelExtension
 >
 (
 )

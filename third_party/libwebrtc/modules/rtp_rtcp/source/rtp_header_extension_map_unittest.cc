@@ -496,7 +496,7 @@ map
 .
 Register
 <
-AudioLevel
+AudioLevelExtension
 >
 (
 3
@@ -509,7 +509,7 @@ map
 .
 Register
 <
-AudioLevel
+AudioLevelExtension
 >
 (
 4

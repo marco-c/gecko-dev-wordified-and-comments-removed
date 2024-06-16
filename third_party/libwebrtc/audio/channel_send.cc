@@ -3086,10 +3086,7 @@ rtp_rtcp_
 >
 RegisterRtpHeaderExtension
 (
-webrtc
-:
-:
-AudioLevel
+AudioLevelExtension
 :
 :
 Uri
@@ -3106,10 +3103,7 @@ rtp_rtcp_
 >
 DeregisterSendRtpHeaderExtension
 (
-webrtc
-:
-:
-AudioLevel
+AudioLevelExtension
 :
 :
 Uri

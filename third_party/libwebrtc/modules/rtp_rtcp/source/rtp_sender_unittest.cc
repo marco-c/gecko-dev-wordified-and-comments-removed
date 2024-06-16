@@ -1700,7 +1700,7 @@ rtp_sender_
 >
 RegisterRtpHeaderExtension
 (
-AudioLevel
+AudioLevelExtension
 :
 :
 Uri
@@ -1805,7 +1805,7 @@ packet
 >
 HasExtension
 <
-AudioLevel
+AudioLevelExtension
 >
 (
 )

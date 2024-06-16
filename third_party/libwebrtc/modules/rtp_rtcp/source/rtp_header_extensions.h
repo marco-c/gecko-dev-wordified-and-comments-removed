@@ -447,7 +447,7 @@ extension
 }
 ;
 class
-AudioLevel
+AudioLevelExtension
 {
 public
 :
@@ -536,6 +536,16 @@ audio_level
 )
 ;
 }
+;
+using
+AudioLevel
+[
+[
+deprecated
+]
+]
+=
+AudioLevelExtension
 ;
 #
 if
