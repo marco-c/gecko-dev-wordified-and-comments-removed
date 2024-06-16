@@ -45,7 +45,7 @@ indices
 dataType
 :
 '
-int64
+uint64
 '
 dimensions
 :
