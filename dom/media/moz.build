@@ -975,11 +975,6 @@ MemoryBlockCache
 h
 "
 "
-MPSCQueue
-.
-h
-"
-"
 nsIDocumentActivity
 .
 h
@@ -1192,6 +1187,11 @@ h
 "
 "
 MediaStreamTrack
+.
+h
+"
+"
+MPSCQueue
 .
 h
 "

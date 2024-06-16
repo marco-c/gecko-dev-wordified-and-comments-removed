@@ -83,6 +83,10 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
 MPSCQueue
 .
 h
