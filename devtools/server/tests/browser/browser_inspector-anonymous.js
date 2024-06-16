@@ -27,7 +27,7 @@ allow
 true
 context
 :
-MAIN_DOMAIN
+MAIN_DOMAIN_HTTPS
 }
 ]
 )
@@ -40,7 +40,7 @@ walker
 await
 initInspectorFront
 (
-MAIN_DOMAIN
+MAIN_DOMAIN_HTTPS
 +
 "
 inspector

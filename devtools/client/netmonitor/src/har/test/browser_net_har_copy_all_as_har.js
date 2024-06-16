@@ -6,7 +6,7 @@ strict
 const
 EXPECTED_REQUEST_HEADER_COUNT
 =
-10
+13
 ;
 const
 EXPECTED_RESPONSE_HEADER_COUNT
@@ -43,7 +43,7 @@ toolbox
 await
 initNetMonitor
 (
-SIMPLE_URL
+HTTPS_SIMPLE_URL
 {
 requestCount
 :
@@ -260,7 +260,7 @@ is
 page
 .
 title
-SIMPLE_URL
+HTTPS_SIMPLE_URL
 "
 There
 must
@@ -683,7 +683,7 @@ entry
 request
 .
 url
-SIMPLE_URL
+HTTPS_SIMPLE_URL
 "
 URL
 is
@@ -1195,7 +1195,7 @@ entry
 request
 .
 url
-SIMPLE_URL
+HTTPS_SIMPLE_URL
 "
 Check
 the
