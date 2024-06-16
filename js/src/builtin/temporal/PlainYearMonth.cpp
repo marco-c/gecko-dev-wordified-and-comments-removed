@@ -2532,9 +2532,12 @@ duration
 .
 days
 +
+double
+(
 balancedTime
 .
 days
+)
 }
 ;
 int32_t
