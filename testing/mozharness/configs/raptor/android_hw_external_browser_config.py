@@ -82,6 +82,14 @@ install
 -
 chromium
 -
+android
+"
+        
+"
+install
+-
+chromium
+-
 distribution
 "
         
