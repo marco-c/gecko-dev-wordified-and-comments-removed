@@ -1877,6 +1877,15 @@ ReleaseChannel
 "
 release
 "
+"
+Version
+"
+:
+"
+100
+.
+0
+"
 }
 }
 "
