@@ -289,8 +289,6 @@ name
 expectedType
 :
 "
-autofill
--
 insecureWarning
 "
 expectedResultLength
