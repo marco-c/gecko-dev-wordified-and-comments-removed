@@ -9775,6 +9775,10 @@ aType
 {
 ENSURE_NOT_CHILD_PROCESS
 ;
+EnsureReadCompleted
+(
+)
+;
 int32_t
 typeIndex
 =
@@ -9843,6 +9847,10 @@ aModificationTime
 )
 {
 ENSURE_NOT_CHILD_PROCESS
+;
+EnsureReadCompleted
+(
+)
 ;
 int32_t
 typeIndex
