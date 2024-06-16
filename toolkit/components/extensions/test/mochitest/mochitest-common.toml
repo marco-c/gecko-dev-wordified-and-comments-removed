@@ -278,6 +278,11 @@ file_with_about_blank
 html
 "
 "
+file_with_iframe_sandbox
+.
+html
+"
+"
 file_with_subframes_and_embed
 .
 html
@@ -1990,6 +1995,13 @@ http3
 "
 "
 http2
+"
+]
+[
+"
+test_ext_scripting_executeScript_null_principal
+.
+html
 "
 ]
 [

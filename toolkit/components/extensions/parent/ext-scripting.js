@@ -390,7 +390,7 @@ document_idle
 ;
 options
 .
-matchAboutBlank
+matchOriginAsFallback
 =
 true
 ;
