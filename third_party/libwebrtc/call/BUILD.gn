@@ -848,14 +848,6 @@ environment
 /
 api
 /
-rtc_event_log
-"
-"
-.
-.
-/
-api
-/
 transport
 :
 bandwidth_estimation_settings

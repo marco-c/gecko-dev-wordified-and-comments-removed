@@ -790,9 +790,6 @@ const
 RtpSenderObservers
 &
 observers
-RtcEventLog
-*
-event_log
 std
 :
 :
@@ -846,7 +843,12 @@ rtcp_report_interval_ms
 send_transport
 observers
 this
+&
+env_
+.
 event_log
+(
+)
 &
 retransmission_rate_limiter_
 std

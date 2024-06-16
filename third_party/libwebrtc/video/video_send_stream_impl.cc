@@ -2423,12 +2423,6 @@ stats_proxy_
 &
 send_packet_observer_
 )
-&
-env_
-.
-event_log
-(
-)
 std
 :
 :

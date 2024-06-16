@@ -270,9 +270,6 @@ class
 FrameEncryptorInterface
 ;
 class
-RtcEventLog
-;
-class
 RtpTransportControllerSend
 final
 :
@@ -362,9 +359,6 @@ const
 RtpSenderObservers
 &
 observers
-RtcEventLog
-*
-event_log
 std
 :
 :

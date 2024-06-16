@@ -94,17 +94,6 @@ include
 "
 api
 /
-rtc_event_log
-/
-rtc_event_log
-.
-h
-"
-#
-include
-"
-api
-/
 transport
 /
 bandwidth_estimation_settings
@@ -366,9 +355,6 @@ const
 RtpSenderObservers
 &
 observers
-RtcEventLog
-*
-event_log
 std
 :
 :
