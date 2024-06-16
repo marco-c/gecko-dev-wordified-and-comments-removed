@@ -528,3 +528,10 @@ browser_translations_select_panel_translate_on_open
 js
 "
 ]
+[
+"
+browser_translations_select_panel_unsupported_language
+.
+js
+"
+]
