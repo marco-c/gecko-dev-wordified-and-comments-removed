@@ -1469,6 +1469,8 @@ resolver
 resolve_starting_style
 (
 )
+.
+style
 ;
 if
 starting_style

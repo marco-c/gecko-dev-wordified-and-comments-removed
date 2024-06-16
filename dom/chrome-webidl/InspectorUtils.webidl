@@ -185,6 +185,11 @@ boolean
 relevantLinkVisited
 =
 false
+optional
+boolean
+withStartingStyle
+=
+false
 )
 ;
 unsigned

@@ -2676,7 +2676,7 @@ self
 )
 -
 >
-ResolvedStyle
+PrimaryStyle
 {
 let
 parent_el
@@ -2915,8 +2915,6 @@ IncludeStartingStyle
 :
 Yes
 )
-.
-style
 }
 pub
 fn
