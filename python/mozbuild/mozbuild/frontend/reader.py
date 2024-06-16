@@ -609,6 +609,31 @@ topsrcdir
 return
 True
     
+hook
+=
+config
+.
+substs
+.
+get
+(
+"
+MOZ_BUILD_HOOK
+"
+)
+    
+if
+hook
+and
+path
+=
+=
+hook
+:
+        
+return
+True
+    
 return
 False
 class
@@ -1156,6 +1181,9 @@ exec_file
 (
 self
 path
+becomes_current_path
+=
+True
 )
 :
         
@@ -1239,6 +1267,7 @@ exec_file
 (
 self
 path
+becomes_current_path
 )
     
 def
@@ -8064,6 +8093,33 @@ sandbox
 exec_file
 (
 path
+)
+        
+hook
+=
+config
+.
+substs
+.
+get
+(
+"
+MOZ_BUILD_HOOK
+"
+)
+        
+if
+hook
+:
+            
+sandbox
+.
+exec_file
+(
+hook
+becomes_current_path
+=
+False
 )
         
 self

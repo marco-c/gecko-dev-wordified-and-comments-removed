@@ -850,6 +850,9 @@ exec_file
 (
 self
 path
+becomes_current_path
+=
+True
 )
 :
         
@@ -861,12 +864,15 @@ self
 .
 exec_file
 (
+            
 self
 .
 normalize_path
 (
 path
 )
+becomes_current_path
+        
 )
     
 def
@@ -878,6 +884,9 @@ path
 =
 "
 "
+becomes_current_path
+=
+True
 )
 :
         
@@ -902,6 +911,7 @@ path
 else
 "
 "
+becomes_current_path
         
 )
 class
