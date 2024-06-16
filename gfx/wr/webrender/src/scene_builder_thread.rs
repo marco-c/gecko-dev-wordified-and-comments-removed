@@ -2592,6 +2592,9 @@ SceneStats
 empty
 (
 )
+self
+.
+debug_flags
 )
 )
 ;
