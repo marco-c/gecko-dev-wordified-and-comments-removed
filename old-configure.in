@@ -741,7 +741,6 @@ sleep
 esac
 AC_PROG_CXX
 fi
-MOZ_TOOL_VARIABLES
 dnl
 =
 =
