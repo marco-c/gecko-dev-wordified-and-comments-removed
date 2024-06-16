@@ -7752,10 +7752,6 @@ nsIAnonymousContentCreator
 )
 NS_QUERYFRAME_ENTRY
 (
-nsIScrollableFrame
-)
-NS_QUERYFRAME_ENTRY
-(
 nsIStatefulFrame
 )
 NS_QUERYFRAME_ENTRY
@@ -33609,7 +33605,7 @@ nullptr
 }
 }
 ScrollDirections
-nsIScrollableFrame
+ScrollContainerFrame
 :
 :
 GetAvailableScrollingDirections
@@ -35587,7 +35583,7 @@ this
 )
 ;
 }
-nsIScrollableFrame
+ScrollContainerFrame
 :
 :
 PhysicalScrollSnapAlign
