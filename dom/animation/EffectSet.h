@@ -751,7 +751,9 @@ return
 mPropertiesWithImportantRules
 ;
 }
-nsCSSPropertyIDSet
+const
+AnimatedPropertyIDSet
+&
 PropertiesForAnimationsLevel
 (
 )
@@ -761,7 +763,7 @@ return
 mPropertiesForAnimationsLevel
 ;
 }
-nsCSSPropertyIDSet
+AnimatedPropertyIDSet
 &
 PropertiesForAnimationsLevel
 (
@@ -787,7 +789,7 @@ mAnimationGeneration
 nsCSSPropertyIDSet
 mPropertiesWithImportantRules
 ;
-nsCSSPropertyIDSet
+AnimatedPropertyIDSet
 mPropertiesForAnimationsLevel
 ;
 #

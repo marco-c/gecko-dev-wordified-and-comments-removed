@@ -1032,7 +1032,7 @@ StyleAnimationValueMap
 &
 aComposeResult
 const
-nsCSSPropertyIDSet
+InvertibleAnimatedPropertyIDSet
 &
 aPropertiesToSkip
 )

@@ -3011,7 +3011,7 @@ StyleAnimationValueMap
 &
 aComposeResult
 const
-nsCSSPropertyIDSet
+InvertibleAnimatedPropertyIDSet
 &
 aPropertiesToSkip
 )
@@ -7811,7 +7811,7 @@ blockedProperties
 effectSet
 -
 >
-PropertiesWithImportantRules
+PropertiesForAnimationsLevel
 (
 )
 .
@@ -7820,7 +7820,7 @@ Intersect
 effectSet
 -
 >
-PropertiesForAnimationsLevel
+PropertiesWithImportantRules
 (
 )
 )

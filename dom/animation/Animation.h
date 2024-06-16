@@ -23,6 +23,15 @@ include
 "
 mozilla
 /
+AnimatedPropertyIDSet
+.
+h
+"
+#
+include
+"
+mozilla
+/
 AnimationPerformanceWarning
 .
 h
@@ -1204,7 +1213,7 @@ StyleAnimationValueMap
 &
 aComposeResult
 const
-nsCSSPropertyIDSet
+InvertibleAnimatedPropertyIDSet
 &
 aPropertiesToSkip
 )
