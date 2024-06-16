@@ -1140,17 +1140,6 @@ wantUntrusted
 :
 true
 }
-"
-MigrationWizard
-:
-OpenURL
-"
-:
-{
-wantUntrusted
-:
-true
-}
 }
 }
 includeChrome
