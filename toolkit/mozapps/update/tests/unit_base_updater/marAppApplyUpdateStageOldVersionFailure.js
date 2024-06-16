@@ -121,6 +121,10 @@ runUpdateUsingApp
 STATE_AFTER_STAGE
 )
 ;
+reloadUpdateManagerData
+(
+)
+;
 await
 testPostUpdateProcessing
 (

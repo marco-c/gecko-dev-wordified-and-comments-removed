@@ -234,7 +234,7 @@ Log
 )
 ;
 await
-standardInit
+testPostUpdateProcessing
 (
 )
 ;

@@ -10221,6 +10221,13 @@ setupActiveUpdate
 (
 )
 {
+await
+gAUS
+.
+init
+(
+)
+;
 let
 pendingState
 =
@@ -14171,6 +14178,13 @@ updater
 test
 setup
 "
+)
+;
+await
+gAUS
+.
+init
+(
 )
 ;
 let
