@@ -1132,6 +1132,16 @@ id
 )
 ;
 if
+CustomPropertiesBuilder
+:
+:
+might_have_non_custom_dependency
+(
+id
+declaration
+)
+{
+if
 let
 Some
 (
@@ -1150,6 +1160,7 @@ id
 declaration
 )
 ;
+}
 }
 }
 }
