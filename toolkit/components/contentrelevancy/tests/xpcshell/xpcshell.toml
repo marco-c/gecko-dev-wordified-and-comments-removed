@@ -39,6 +39,11 @@ android
 #
 bug
 1886601
+lineno
+=
+"
+5
+"
 [
 "
 test_InputUtils
@@ -63,3 +68,8 @@ android
 #
 bug
 1886601
+lineno
+=
+"
+9
+"
