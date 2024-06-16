@@ -313,9 +313,6 @@ aDocPrincipal
 nsIURI
 *
 aDocumentURI
-nsIURI
-*
-aBaseURI
 )
 ;
 already_AddRefed
@@ -348,12 +345,6 @@ nsCOMPtr
 nsIURI
 >
 mDocumentURI
-;
-nsCOMPtr
-<
-nsIURI
->
-mBaseURI
 ;
 bool
 mForceEnableXULXBL

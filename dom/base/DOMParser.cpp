@@ -185,9 +185,6 @@ aDocPrincipal
 nsIURI
 *
 aDocumentURI
-nsIURI
-*
-aBaseURI
 )
 :
 mOwner
@@ -201,10 +198,6 @@ aDocPrincipal
 mDocumentURI
 (
 aDocumentURI
-)
-mBaseURI
-(
-aBaseURI
 )
 mForceEnableXULXBL
 (
@@ -1195,12 +1188,6 @@ nsIURI
 >
 documentURI
 ;
-nsIURI
-*
-baseURI
-=
-nullptr
-;
 if
 (
 docPrincipal
@@ -1267,15 +1254,6 @@ return
 nullptr
 ;
 }
-baseURI
-=
-window
--
->
-GetDocBaseURI
-(
-)
-;
 documentURI
 =
 window
@@ -1335,7 +1313,6 @@ DOMParser
 global
 docPrincipal
 documentURI
-baseURI
 )
 ;
 return
@@ -1418,7 +1395,6 @@ DOMParser
 nullptr
 docPrincipal
 documentURI
-nullptr
 )
 ;
 return
@@ -1506,7 +1482,7 @@ u
 _ns
 nullptr
 mDocumentURI
-mBaseURI
+mDocumentURI
 mPrincipal
 true
 scriptHandlingObject
