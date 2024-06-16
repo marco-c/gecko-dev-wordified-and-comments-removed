@@ -131,16 +131,6 @@ concept
 .
 sync
 .
-OAuthAccount
-import
-mozilla
-.
-components
-.
-concept
-.
-sync
-.
 StatePersistenceCallback
 import
 mozilla
@@ -246,7 +236,7 @@ Restored
 val
 account
 :
-OAuthAccount
+FirefoxAccount
 )
 :
 AccountOnDisk
@@ -268,7 +258,7 @@ New
 val
 account
 :
-OAuthAccount
+FirefoxAccount
 )
 :
 AccountOnDisk
@@ -293,7 +283,7 @@ account
 (
 )
 :
-OAuthAccount
+FirefoxAccount
 }
 /
 *
@@ -563,7 +553,7 @@ watchAccount
 (
 account
 :
-OAuthAccount
+FirefoxAccount
 )
 {
 account
@@ -601,7 +591,7 @@ own
 implementation
 of
 [
-OAuthAccount
+FirefoxAccount
 ]
 .
 *
@@ -613,7 +603,7 @@ obtainAccount
 (
 )
 :
-OAuthAccount
+FirefoxAccount
 =
 FirefoxAccount
 (
@@ -746,7 +736,7 @@ read
 (
 )
 :
-OAuthAccount
+FirefoxAccount
 ?
 fun
 write
@@ -1009,7 +999,7 @@ read
 (
 )
 :
-OAuthAccount
+FirefoxAccount
 ?
 {
 val
@@ -1545,7 +1535,7 @@ read
 (
 )
 :
-OAuthAccount
+FirefoxAccount
 ?
 {
 return
