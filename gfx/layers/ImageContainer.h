@@ -1178,15 +1178,6 @@ flag
 SYNCHRONOUS
 )
 ;
-explicit
-ImageContainer
-(
-const
-CompositableHandle
-&
-aHandle
-)
-;
 ~
 ImageContainer
 (
