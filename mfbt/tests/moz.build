@@ -201,6 +201,9 @@ CppUnitTests
 (
 [
 "
+TestMPSCQueue
+"
+"
 TestSPSCQueue
 "
 "
