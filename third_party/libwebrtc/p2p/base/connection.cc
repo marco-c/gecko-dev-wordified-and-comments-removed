@@ -251,6 +251,12 @@ cricket
 {
 namespace
 {
+using
+webrtc
+:
+:
+IceCandidateType
+;
 inline
 bool
 TooManyFailures
@@ -366,9 +372,6 @@ maximum_time
 )
 ;
 }
-webrtc
-:
-:
 IceCandidateType
 GetRtcEventLogCandidateType
 (
@@ -388,9 +391,6 @@ is_local
 )
 {
 return
-webrtc
-:
-:
 IceCandidateType
 :
 :
@@ -408,9 +408,6 @@ is_stun
 )
 {
 return
-webrtc
-:
-:
 IceCandidateType
 :
 :
@@ -428,9 +425,6 @@ is_prflx
 )
 {
 return
-webrtc
-:
-:
 IceCandidateType
 :
 :
@@ -447,9 +441,6 @@ is_relay
 )
 ;
 return
-webrtc
-:
-:
 IceCandidateType
 :
 :
@@ -9660,7 +9651,10 @@ local_candidate_
 .
 set_type
 (
-PRFLX_PORT_TYPE
+IceCandidateType
+:
+:
+kPrflx
 )
 ;
 local_candidate_

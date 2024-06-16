@@ -1840,16 +1840,6 @@ set_address
 address
 )
 ;
-candidate
-.
-set_type
-(
-cricket
-:
-:
-LOCAL_PORT_TYPE
-)
-;
 return
 candidate
 ;
