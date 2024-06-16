@@ -1056,6 +1056,11 @@ ElementState
 :
 :
 DEFINED
+|
+ElementState
+:
+:
+LTR
 )
 {
 MOZ_ASSERT

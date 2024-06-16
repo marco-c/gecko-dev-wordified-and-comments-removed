@@ -11560,13 +11560,6 @@ dir
 {
 self
 .
-is_html_element
-(
-)
-&
-&
-self
-.
 state
 (
 )
