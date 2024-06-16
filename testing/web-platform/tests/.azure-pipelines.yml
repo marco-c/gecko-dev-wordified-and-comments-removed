@@ -1256,7 +1256,7 @@ yml
 -
 job
 :
-tools_unittest_mac_py37
+tools_unittest_mac_py38
 displayName
 :
 '
@@ -1269,7 +1269,7 @@ macOS
 Python
 3
 .
-7
+8
 '
 dependsOn
 :
@@ -1311,7 +1311,7 @@ versionSpec
 '
 3
 .
-7
+8
 '
 -
 template
@@ -1345,7 +1345,7 @@ tools
 /
 toxenv
 :
-py37
+py38
 -
 job
 :
@@ -1442,7 +1442,7 @@ py311
 -
 job
 :
-wptrunner_unittest_mac_py37
+wptrunner_unittest_mac_py38
 displayName
 :
 '
@@ -1457,7 +1457,7 @@ macOS
 Python
 3
 .
-7
+8
 '
 dependsOn
 :
@@ -1499,7 +1499,7 @@ versionSpec
 '
 3
 .
-7
+8
 '
 -
 template
@@ -1535,7 +1535,7 @@ wptrunner
 /
 toxenv
 :
-py37
+py38
 -
 job
 :
@@ -1636,7 +1636,7 @@ py311
 -
 job
 :
-wpt_integration_mac_py37
+wpt_integration_mac_py38
 displayName
 :
 '
@@ -1651,7 +1651,7 @@ macOS
 Python
 3
 .
-7
+8
 '
 dependsOn
 :
@@ -1697,7 +1697,7 @@ versionSpec
 '
 3
 .
-7
+8
 '
 -
 template
@@ -1769,7 +1769,7 @@ wpt
 /
 toxenv
 :
-py37
+py38
 -
 job
 :
@@ -1910,7 +1910,7 @@ py311
 -
 job
 :
-tools_unittest_win_py37
+tools_unittest_win_py38
 displayName
 :
 '
@@ -1923,7 +1923,7 @@ Windows
 Python
 3
 .
-7
+8
 '
 dependsOn
 :
@@ -1970,7 +1970,7 @@ versionSpec
 '
 3
 .
-7
+8
 '
 addToPath
 :
@@ -2007,7 +2007,7 @@ tools
 /
 toxenv
 :
-py37
+py38
 -
 job
 :
@@ -2107,7 +2107,7 @@ py311
 -
 job
 :
-wptrunner_unittest_win_py37
+wptrunner_unittest_win_py38
 displayName
 :
 '
@@ -2122,7 +2122,7 @@ Windows
 Python
 3
 .
-7
+8
 '
 dependsOn
 :
@@ -2164,7 +2164,7 @@ versionSpec
 '
 3
 .
-7
+8
 '
 addToPath
 :
@@ -2203,7 +2203,7 @@ wptrunner
 /
 toxenv
 :
-py37
+py38
 -
 job
 :
@@ -2307,7 +2307,7 @@ py311
 -
 job
 :
-wpt_integration_win_py37
+wpt_integration_win_py38
 displayName
 :
 '
@@ -2322,7 +2322,7 @@ Windows
 Python
 3
 .
-7
+8
 '
 dependsOn
 :
@@ -2368,7 +2368,7 @@ versionSpec
 '
 3
 .
-7
+8
 '
 #
 currently
@@ -2467,7 +2467,7 @@ wpt
 /
 toxenv
 :
-py37
+py38
 -
 job
 :
