@@ -541,7 +541,7 @@ aPrefs
 )
 ;
 void
-EnsureAudioProcessing
+EnsurePacketizer
 (
 MediaTrackGraph
 *
