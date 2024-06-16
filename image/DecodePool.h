@@ -117,11 +117,11 @@ NumberOfCores
 (
 )
 ;
+static
 bool
 IsShuttingDown
 (
 )
-const
 ;
 void
 AsyncRun
