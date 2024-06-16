@@ -136,6 +136,10 @@ compact
 ;
 pub
 mod
+error
+;
+pub
+mod
 front
 ;
 pub

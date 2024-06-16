@@ -2250,7 +2250,7 @@ ash
 :
 Device
 mut
-max_value
+last_completed
 :
 crate
 :
@@ -2304,7 +2304,7 @@ unsafe
 if
 value
 >
-max_value
+last_completed
 &
 &
 device
@@ -2315,7 +2315,7 @@ raw
 )
 ?
 {
-max_value
+last_completed
 =
 value
 ;
@@ -2324,7 +2324,7 @@ value
 }
 Ok
 (
-max_value
+last_completed
 )
 }
 fn

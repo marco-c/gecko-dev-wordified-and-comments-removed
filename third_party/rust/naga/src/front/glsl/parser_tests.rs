@@ -17,7 +17,7 @@ error
 {
 Error
 ErrorKind
-ParseError
+ParseErrors
 }
 token
 :
@@ -103,7 +103,7 @@ err
 unwrap
 (
 )
-ParseError
+ParseErrors
 {
 errors
 :
@@ -176,7 +176,7 @@ err
 unwrap
 (
 )
-ParseError
+ParseErrors
 {
 errors
 :
@@ -250,7 +250,7 @@ err
 unwrap
 (
 )
-ParseError
+ParseErrors
 {
 errors
 :
@@ -331,7 +331,7 @@ err
 unwrap
 (
 )
-ParseError
+ParseErrors
 {
 errors
 :
@@ -1899,7 +1899,7 @@ err
 unwrap
 (
 )
-ParseError
+ParseErrors
 {
 errors
 :
@@ -2813,7 +2813,7 @@ err
 unwrap
 (
 )
-ParseError
+ParseErrors
 {
 errors
 :
@@ -2920,7 +2920,7 @@ err
 unwrap
 (
 )
-ParseError
+ParseErrors
 {
 errors
 :

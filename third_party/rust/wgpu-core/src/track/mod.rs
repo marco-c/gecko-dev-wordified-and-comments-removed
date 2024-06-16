@@ -32,6 +32,7 @@ lock
 {
 rank
 Mutex
+RwLock
 }
 pipeline
 resource
@@ -40,12 +41,6 @@ snatch
 :
 SnatchGuard
 }
-;
-use
-parking_lot
-:
-:
-RwLock
 ;
 use
 std
@@ -2103,6 +2098,10 @@ RwLock
 :
 new
 (
+rank
+:
+:
+RENDER_BUNDLE_SCOPE_BUFFERS
 BufferUsageScope
 :
 :
@@ -2117,6 +2116,10 @@ RwLock
 :
 new
 (
+rank
+:
+:
+RENDER_BUNDLE_SCOPE_TEXTURES
 TextureUsageScope
 :
 :
@@ -2131,6 +2134,10 @@ RwLock
 :
 new
 (
+rank
+:
+:
+RENDER_BUNDLE_SCOPE_BIND_GROUPS
 StatelessTracker
 :
 :
@@ -2145,6 +2152,10 @@ RwLock
 :
 new
 (
+rank
+:
+:
+RENDER_BUNDLE_SCOPE_RENDER_PIPELINES
 StatelessTracker
 :
 :
@@ -2159,6 +2170,10 @@ RwLock
 :
 new
 (
+rank
+:
+:
+RENDER_BUNDLE_SCOPE_QUERY_SETS
 StatelessTracker
 :
 :

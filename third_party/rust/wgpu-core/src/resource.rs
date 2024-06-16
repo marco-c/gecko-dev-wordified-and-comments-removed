@@ -75,7 +75,10 @@ TextureInitTracker
 lock
 :
 :
+{
 Mutex
+RwLock
+}
 resource
 resource_log
 snatch
@@ -107,12 +110,6 @@ hal
 :
 :
 CommandEncoder
-;
-use
-parking_lot
-:
-:
-RwLock
 ;
 use
 smallvec

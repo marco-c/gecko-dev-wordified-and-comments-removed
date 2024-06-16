@@ -1208,6 +1208,9 @@ TimestampQuerySupport
 supports_simd_scoped_operations
 :
 bool
+int64
+:
+bool
 }
 #
 [

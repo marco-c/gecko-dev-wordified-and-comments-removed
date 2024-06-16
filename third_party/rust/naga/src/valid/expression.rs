@@ -2075,9 +2075,6 @@ handle
 return
 Err
 (
-super
-:
-:
 ConstExpressionError
 :
 :
@@ -2218,9 +2215,6 @@ _
 return
 Err
 (
-super
-:
-:
 ConstExpressionError
 :
 :
@@ -2250,9 +2244,6 @@ allow_overrides
 return
 Err
 (
-super
-:
-:
 ConstExpressionError
 :
 :

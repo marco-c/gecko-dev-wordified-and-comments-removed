@@ -5328,9 +5328,6 @@ ty
 .
 inner
 {
-crate
-:
-:
 TypeInner
 :
 :
@@ -5357,9 +5354,6 @@ name
 :
 None
 inner
-:
-crate
-:
 :
 TypeInner
 :
@@ -7756,9 +7750,6 @@ size
 match
 size
 {
-crate
-:
-:
 ArraySize
 :
 :
@@ -7798,16 +7789,12 @@ expr
 span
 )
 }
-crate
-:
-:
 ArraySize
 :
 :
 Dynamic
 =
 >
-{
 Err
 (
 ConstantEvaluatorError
@@ -7815,7 +7802,6 @@ ConstantEvaluatorError
 :
 ArrayLengthDynamic
 )
-}
 }
 _
 =
@@ -8190,9 +8176,6 @@ ty
 ]
 .
 inner
-crate
-:
-:
 TypeInner
 :
 :
@@ -10256,9 +10239,6 @@ span
 }
 ;
 let
-crate
-:
-:
 TypeInner
 :
 :

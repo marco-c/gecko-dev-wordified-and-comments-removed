@@ -456,9 +456,6 @@ Function
 info
 :
 &
-crate
-:
-:
 valid
 :
 :
@@ -728,9 +725,6 @@ Function
 info
 :
 &
-crate
-:
-:
 valid
 :
 :

@@ -48,6 +48,9 @@ ranked
 {
 Mutex
 MutexGuard
+RwLock
+RwLockReadGuard
+RwLockWriteGuard
 }
 ;
 #
@@ -68,5 +71,8 @@ vanilla
 {
 Mutex
 MutexGuard
+RwLock
+RwLockReadGuard
+RwLockWriteGuard
 }
 ;
