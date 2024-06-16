@@ -115,13 +115,6 @@ h
 #
 include
 "
-plstr
-.
-h
-"
-#
-include
-"
 prio
 .
 h
@@ -1483,6 +1476,9 @@ continue
 #
 ifndef
 __aarch64__
+#
+ifdef
+MOZ_INTERPOSER_FORCE_MACOS_X64
 DebugOnly
 <
 mach_error_t
@@ -1514,6 +1510,8 @@ t
 err_none
 )
 ;
+#
+endif
 #
 endif
 }
