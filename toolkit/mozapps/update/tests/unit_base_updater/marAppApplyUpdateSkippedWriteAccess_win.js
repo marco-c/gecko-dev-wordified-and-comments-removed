@@ -214,6 +214,7 @@ runUpdateUsingApp
 STATE_PENDING
 )
 ;
+await
 standardInit
 (
 )

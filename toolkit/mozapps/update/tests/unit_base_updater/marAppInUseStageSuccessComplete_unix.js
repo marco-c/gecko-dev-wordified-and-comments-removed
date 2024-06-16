@@ -134,6 +134,7 @@ checkSymLinks
 (
 )
 ;
+await
 standardInit
 (
 )

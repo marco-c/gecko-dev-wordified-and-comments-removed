@@ -76,6 +76,7 @@ path
 null
 )
 ;
+await
 standardInit
 (
 )

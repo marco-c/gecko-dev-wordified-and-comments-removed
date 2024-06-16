@@ -6389,11 +6389,13 @@ path
 ;
 }
 }
+async
 function
 standardInit
 (
 )
 {
+await
 initUpdateServiceStub
 (
 )
