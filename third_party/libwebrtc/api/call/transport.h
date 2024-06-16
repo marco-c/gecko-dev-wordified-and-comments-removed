@@ -49,7 +49,7 @@ PacketOptions
 (
 )
 ;
-int
+int64_t
 packet_id
 =
 -
