@@ -730,6 +730,17 @@ menu
 =
 null
 }
+var
+recordClickEvent
+:
+(
+)
+-
+>
+Unit
+=
+{
+}
 VisibleForTesting
 internal
 var
@@ -885,6 +896,9 @@ View
 this
 .
 hideKeyboard
+(
+)
+recordClickEvent
 (
 )
 /
