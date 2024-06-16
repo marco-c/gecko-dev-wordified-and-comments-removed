@@ -415,12 +415,6 @@ StyleCssRuleType
 :
 Scope
 :
-case
-StyleCssRuleType
-:
-:
-StartingStyle
-:
 {
 mTable
 .
@@ -632,12 +626,6 @@ StyleCssRuleType
 :
 :
 Scope
-:
-case
-StyleCssRuleType
-:
-:
-StartingStyle
 :
 {
 auto

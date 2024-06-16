@@ -2489,12 +2489,6 @@ StyleCssRuleType
 :
 Scope
 :
-case
-StyleCssRuleType
-:
-:
-StartingStyle
-:
 break
 ;
 }

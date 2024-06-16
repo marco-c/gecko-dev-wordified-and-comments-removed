@@ -97,7 +97,6 @@ NamespaceRule
 PageRule
 PropertyRule
 ScopeRule
-StartingStyleRule
 StyleRule
 StylesheetContents
 SupportsRule
@@ -460,13 +459,5 @@ impl_simple_arc_ffi
 ScopeRule
 Servo_ScopeRule_AddRef
 Servo_ScopeRule_Release
-)
-;
-impl_simple_arc_ffi
-!
-(
-StartingStyleRule
-Servo_StartingStyleRule_AddRef
-Servo_StartingStyleRule_Release
 )
 ;
