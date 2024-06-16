@@ -398,7 +398,7 @@ CLEAR_CREDENTIAL_MANAGER_STATE
 1
 <
 <
-24
+25
 ;
 const
 uint32_t
@@ -407,7 +407,7 @@ CLEAR_COOKIE_BANNER_EXCEPTION
 1
 <
 <
-25
+26
 ;
 const
 uint32_t
@@ -416,7 +416,7 @@ CLEAR_COOKIE_BANNER_EXECUTED_RECORD
 1
 <
 <
-26
+27
 ;
 const
 uint32_t
@@ -425,7 +425,7 @@ CLEAR_FINGERPRINTING_PROTECTION_STATE
 1
 <
 <
-27
+28
 ;
 const
 uint32_t
@@ -434,7 +434,7 @@ CLEAR_BOUNCE_TRACKING_PROTECTION_STATE
 1
 <
 <
-28
+29
 ;
 const
 uint32_t
@@ -443,7 +443,7 @@ CLEAR_STORAGE_PERMISSIONS
 1
 <
 <
-29
+30
 ;
 const
 uint32_t

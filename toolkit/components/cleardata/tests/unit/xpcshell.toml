@@ -106,6 +106,13 @@ js
 ]
 [
 "
+test_clear_data_service_flags
+.
+js
+"
+]
+[
+"
 test_cookie_banner_handling
 .
 js
