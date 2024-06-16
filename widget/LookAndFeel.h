@@ -179,6 +179,7 @@ ChosenMenuItemsShouldBlink
 WindowsAccentColorInTitlebar
 MacBigSurTheme
 MacRTL
+MacTitlebarHeight
 AlertNotificationOrigin
 ScrollToClick
 IMERawInputUnderlineStyle
