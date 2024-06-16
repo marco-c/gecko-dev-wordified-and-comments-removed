@@ -1103,15 +1103,6 @@ aCDMConfig
 isHDCP22Compatible
 (
 )
-?
-*
-aCDMConfig
-.
-isHDCP22Compatible
-(
-)
-:
-false
 ;
 EME_LOG
 (
