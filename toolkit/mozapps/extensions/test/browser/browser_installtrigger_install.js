@@ -1213,7 +1213,7 @@ blob
 }
 expected
 .
-httpBlockedOnOrigin
+httpBlob
 ]
 [
 "
@@ -1241,7 +1241,7 @@ blob
 }
 expected
 .
-otherBlockedOnOrigin
+fileBlob
 ]
 [
 "
@@ -1644,7 +1644,7 @@ test
 host
 "
 }
-true
+false
 )
 ;
 }
