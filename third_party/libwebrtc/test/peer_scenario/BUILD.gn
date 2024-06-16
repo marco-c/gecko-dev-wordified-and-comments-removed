@@ -479,17 +479,6 @@ rtc_audio_video
 /
 media
 :
-rtc_media_base
-"
-"
-.
-.
-/
-.
-.
-/
-media
-:
 rtp_utils
 "
 "

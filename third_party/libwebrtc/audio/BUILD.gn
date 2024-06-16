@@ -543,7 +543,7 @@ media_channel
 /
 media
 :
-rtc_media_base
+media_channel_impl
 "
 "
 .

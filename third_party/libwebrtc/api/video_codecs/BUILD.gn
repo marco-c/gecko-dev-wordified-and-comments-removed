@@ -988,17 +988,6 @@ rtc_internal_video_codecs
 /
 media
 :
-rtc_media_base
-"
-"
-.
-.
-/
-.
-.
-/
-media
-:
 rtc_simulcast_encoder_adapter
 "
 "
@@ -1910,7 +1899,7 @@ video_frame
 /
 media
 :
-rtc_media_base
+video_common
 "
 "
 .
