@@ -6901,7 +6901,7 @@ button
 {
 return
 "
-fxa_toolbar_button
+fxa_avatar_menu
 "
 ;
 }
@@ -6936,7 +6936,7 @@ sourceElement
 {
 return
 "
-fxa_toolbar_button
+fxa_avatar_menu
 "
 ;
 }
@@ -7022,12 +7022,9 @@ this
 .
 openFxAEmailFirstPage
 (
-this
-.
-_getEntryPointForElement
-(
-sourceElement
-)
+"
+fxa_toolbar_button
+"
 extraParams
 )
 ;
