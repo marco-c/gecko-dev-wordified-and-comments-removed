@@ -46,12 +46,6 @@ endif
 if
 !
 CONFIG_RUNTIME_CPU_DETECT
-|
-|
-defined
-(
-__OpenBSD__
-)
 static
 int
 arm_get_cpu_caps
@@ -276,7 +270,7 @@ flags
 elif
 defined
 (
-ANDROID_USE_CPU_FEATURES_LIB
+VPX_USE_ANDROID_CPU_FEATURES
 )
 static
 int

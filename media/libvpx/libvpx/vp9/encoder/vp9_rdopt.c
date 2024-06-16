@@ -25027,6 +25027,7 @@ MI_BLOCK_SIZE
 if
 !
 CONFIG_REALTIME_ONLY
+static
 void
 init_frame_mv
 (

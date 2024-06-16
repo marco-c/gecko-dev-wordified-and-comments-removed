@@ -167,15 +167,6 @@ include
 "
 vpx_ports
 /
-msvc
-.
-h
-"
-#
-include
-"
-vpx_ports
-/
 vpx_timer
 .
 h

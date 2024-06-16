@@ -672,6 +672,7 @@ estimated_bits
 (
 int
 )
+round
 (
 (
 1
@@ -848,6 +849,7 @@ bits_per_mb
 (
 int
 )
+round
 (
 (
 1

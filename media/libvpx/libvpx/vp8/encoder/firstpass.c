@@ -16125,9 +16125,6 @@ target_bandwidth
 /
 DOUBLE_DIVIDE_CHECK
 (
-(
-double
-)
 cpi
 -
 >
@@ -16411,9 +16408,6 @@ target_bandwidth
 /
 DOUBLE_DIVIDE_CHECK
 (
-(
-double
-)
 cpi
 -
 >

@@ -52,6 +52,9 @@ typedef
 enum
 vpx_rc_type
 {
+VPX_RC_NONE
+=
+0
 VPX_RC_QP
 =
 1
@@ -608,6 +611,11 @@ get_frame_rdmult
 ;
 vpx_rc_delete_model_cb_fn_t
 delete_model
+;
+const
+char
+*
+rate_ctrl_log_path
 ;
 void
 *

@@ -63,15 +63,6 @@ vpx_integer
 .
 h
 "
-#
-include
-"
-vpx_ports
-/
-msvc
-.
-h
-"
 using
 libvpx_test
 :

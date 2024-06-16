@@ -574,7 +574,7 @@ rc_2pass_vbr_minsection_pct
 ;
 cfg_
 .
-rc_2pass_vbr_minsection_pct
+rc_2pass_vbr_maxsection_pct
 =
 2000
 ;

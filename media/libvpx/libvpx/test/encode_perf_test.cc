@@ -1,6 +1,11 @@
 #
 include
 <
+cstdio
+>
+#
+include
+<
 string
 >
 #

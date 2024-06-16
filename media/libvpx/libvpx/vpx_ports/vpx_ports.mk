@@ -129,14 +129,6 @@ PORTS_SRCS
 yes
 +
 =
-msvc
-.
-h
-PORTS_SRCS
--
-yes
-+
-=
 static_assert
 .
 h
