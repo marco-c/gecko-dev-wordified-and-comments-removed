@@ -30742,6 +30742,9 @@ aWindow
 winData
 .
 sidebar
+winData
+.
+isPopup
 )
 ;
 /
@@ -35832,6 +35835,9 @@ aWindow
 aWinData
 .
 sidebar
+aWinData
+.
+isPopup
 )
 ;
 }
@@ -35878,6 +35884,13 @@ restoreSidebar
 (
 aWindow
 aSidebar
+isPopup
+)
+{
+if
+(
+!
+isPopup
 )
 {
 let
@@ -35970,6 +35983,7 @@ aSidebar
 positionEnd
 )
 ;
+}
 }
 }
 /
