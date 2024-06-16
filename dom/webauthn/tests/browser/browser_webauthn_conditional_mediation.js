@@ -266,16 +266,6 @@ tab
 direct
 "
 )
-.
-then
-(
-arrivingHereIsBad
-)
-.
-catch
-(
-gExpectNotAllowedError
-)
 ;
 await
 condPromise
