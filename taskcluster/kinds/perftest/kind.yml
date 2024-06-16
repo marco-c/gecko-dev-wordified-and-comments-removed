@@ -73,6 +73,14 @@ dependencies
 toolchain
 -
 build
+-
+build
+-
+apk
+-
+signing
+-
+apk
 transforms
 :
 -
