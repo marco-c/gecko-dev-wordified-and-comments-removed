@@ -308,6 +308,7 @@ listener
 let
 updateCheckStarted
 =
+await
 gAUS
 .
 checkForBackgroundUpdates
@@ -609,6 +610,7 @@ update
 )
 ;
 }
+async
 function
 testUpdateCheckDoesNotStart
 (
@@ -617,6 +619,7 @@ testUpdateCheckDoesNotStart
 let
 updateCheckStarted
 =
+await
 gAUS
 .
 checkForBackgroundUpdates
@@ -1486,6 +1489,7 @@ prepareToDownloadVersion
 SECOND_UPDATE_VERSION
 )
 ;
+await
 testUpdateCheckDoesNotStart
 (
 )

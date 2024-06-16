@@ -13,6 +13,7 @@ test_manual_app_update_policy
 {
 is
 (
+await
 gAUS
 .
 checkForBackgroundUpdates

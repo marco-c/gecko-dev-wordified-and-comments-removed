@@ -1711,6 +1711,7 @@ nsIApplicationUpdateService
 )
 ;
                 
+await
 aus
 .
 checkForBackgroundUpdates

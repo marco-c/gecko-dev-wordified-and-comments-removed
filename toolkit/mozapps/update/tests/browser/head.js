@@ -3955,6 +3955,7 @@ setUpdateURL
 updateURL
 )
 ;
+await
 gAUS
 .
 checkForBackgroundUpdates
@@ -5437,6 +5438,7 @@ setUpdateURL
 updateURL
 )
 ;
+await
 gAUS
 .
 checkForBackgroundUpdates
