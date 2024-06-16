@@ -1887,6 +1887,17 @@ this
 outerWindowID
 ;
 }
+if
+(
+this
+.
+destroying
+)
+{
+return
+response
+;
+}
 const
 actors
 =
