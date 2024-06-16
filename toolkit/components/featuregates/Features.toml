@@ -148,14 +148,7 @@ is
 -
 public
 =
-{
-default
-=
-false
-nightly
-=
 true
-}
 default
 -
 value
@@ -512,7 +505,7 @@ is
 -
 public
 =
-false
+true
 default
 -
 value
@@ -521,7 +514,7 @@ value
 default
 =
 false
-nightly
+early_beta_or_earlier
 =
 true
 }
@@ -679,14 +672,7 @@ is
 -
 public
 =
-{
-default
-=
-false
-nightly
-=
 true
-}
 default
 -
 value
