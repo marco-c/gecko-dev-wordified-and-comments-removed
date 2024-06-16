@@ -62,3 +62,10 @@ test_bouncetracking_purge
 js
 "
 ]
+[
+"
+test_bouncetracking_purge_telemetry
+.
+js
+"
+]
