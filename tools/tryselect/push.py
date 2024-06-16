@@ -693,11 +693,13 @@ parameters
 try_task_config
 "
 ]
-[
+.
+get
+(
 "
 tasks
 "
-]
+)
         
 else
 :
