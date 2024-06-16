@@ -106,9 +106,6 @@ ZeroNoPercent
 ;
 use
 euclid
-;
-use
-euclid
 :
 :
 default

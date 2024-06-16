@@ -215,10 +215,7 @@ use
 smallbitvec
 :
 :
-{
-self
 SmallBitVec
-}
 ;
 use
 smallvec
@@ -245,10 +242,7 @@ std
 iter
 :
 :
-{
-DoubleEndedIterator
 Zip
-}
 ;
 use
 std

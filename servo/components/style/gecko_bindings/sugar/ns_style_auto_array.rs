@@ -98,7 +98,6 @@ iter
 {
 once
 Chain
-IntoIterator
 Once
 }
 ;

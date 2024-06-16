@@ -338,7 +338,6 @@ cssparser
 :
 :
 {
-self
 BasicParseErrorKind
 Parser
 Token

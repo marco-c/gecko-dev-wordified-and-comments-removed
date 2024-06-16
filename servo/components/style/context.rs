@@ -330,9 +330,6 @@ style_traits
 :
 SpeculativePainter
 ;
-use
-time
-;
 pub
 use
 selectors

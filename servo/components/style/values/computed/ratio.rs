@@ -73,10 +73,7 @@ std
 cmp
 :
 :
-{
 Ordering
-PartialOrd
-}
 ;
 pub
 type
