@@ -169,7 +169,7 @@ Dockerfile
 FROM
 debian
 :
-buster
+12
 as
 build
 -
