@@ -1597,6 +1597,11 @@ bool
 resetPretenuredSites
 )
 ;
+bool
+hasPretenuredAllocSites
+(
+)
+;
 void
 updateLastICStubCounter
 (
