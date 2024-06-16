@@ -478,9 +478,9 @@ PathUtils
 join
 (
 fakeProfilePath
-"
-backups
-"
+BackupService
+.
+PROFILE_FOLDER_NAME
 )
 ;
 let
