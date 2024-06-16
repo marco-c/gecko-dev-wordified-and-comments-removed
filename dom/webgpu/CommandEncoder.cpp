@@ -1523,6 +1523,10 @@ if
 (
 !
 mBridge
+|
+|
+!
+mBridge
 -
 >
 CanSend
@@ -1589,6 +1593,10 @@ aPass
 {
 if
 (
+!
+mBridge
+|
+|
 !
 mBridge
 -
