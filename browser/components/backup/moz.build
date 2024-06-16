@@ -125,13 +125,6 @@ backup
 =
 [
 "
-Archive
-.
-worker
-.
-mjs
-"
-"
 ArchiveEncryptionState
 .
 sys
