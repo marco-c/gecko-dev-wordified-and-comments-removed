@@ -995,6 +995,12 @@ macosx64
 -
 sdk
 -
+macosx64
+-
+llvm
+-
+symbolizer
+-
 sysroot
 -
 wasm32

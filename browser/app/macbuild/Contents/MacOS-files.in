@@ -72,6 +72,12 @@ defined
 (
 MOZ_TSAN
 )
+|
+|
+defined
+(
+FUZZING
+)
 /
 llvm
 -
