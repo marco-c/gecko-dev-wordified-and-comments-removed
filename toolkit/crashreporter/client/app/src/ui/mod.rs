@@ -1897,6 +1897,10 @@ enabled
 &
 input_enabled
 )
+hsize
+(
+160
+)
 {
 Label
 text
@@ -1951,6 +1955,10 @@ enabled
 (
 &
 input_enabled
+)
+hsize
+(
+160
 )
 {
 Label
