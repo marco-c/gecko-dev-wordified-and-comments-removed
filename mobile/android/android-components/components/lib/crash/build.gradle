@@ -310,6 +310,10 @@ androidx_constraintlayout
 implementation
 ComponentsDependencies
 .
+androidx_core_ktx
+implementation
+ComponentsDependencies
+.
 androidx_recyclerview
 implementation
 project

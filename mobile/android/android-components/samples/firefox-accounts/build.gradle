@@ -254,6 +254,10 @@ androidx_constraintlayout
 implementation
 ComponentsDependencies
 .
+androidx_core_ktx
+implementation
+ComponentsDependencies
+.
 kotlin_coroutines
 implementation
 ComponentsDependencies

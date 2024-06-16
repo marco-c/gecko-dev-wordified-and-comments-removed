@@ -269,6 +269,10 @@ implementation
 ComponentsDependencies
 .
 androidx_constraintlayout
+implementation
+ComponentsDependencies
+.
+androidx_core_ktx
 testImplementation
 ComponentsDependencies
 .

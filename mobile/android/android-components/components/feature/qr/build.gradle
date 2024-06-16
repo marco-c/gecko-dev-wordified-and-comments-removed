@@ -151,6 +151,10 @@ ComponentsDependencies
 .
 androidx_appcompat
 implementation
+ComponentsDependencies
+.
+androidx_core_ktx
+implementation
 project
 (
 '

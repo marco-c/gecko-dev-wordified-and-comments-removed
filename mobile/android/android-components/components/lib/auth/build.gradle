@@ -144,6 +144,10 @@ implementation
 ComponentsDependencies
 .
 androidx_biometric
+implementation
+ComponentsDependencies
+.
+androidx_core_ktx
 testImplementation
 project
 (
