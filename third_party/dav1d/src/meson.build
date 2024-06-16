@@ -678,6 +678,15 @@ mc
 .
 S
 '
+'
+arm
+/
+64
+/
+mc_dotprod
+.
+S
+'
 )
 endif
 if

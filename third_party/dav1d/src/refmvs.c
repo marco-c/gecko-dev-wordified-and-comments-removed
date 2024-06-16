@@ -6729,6 +6729,8 @@ n_tile_rows
 +
 uses_2pass
 )
++
+4
 64
 )
 ;

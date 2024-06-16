@@ -615,9 +615,6 @@ checkasm
 timeout
 :
 180
-is_parallel
-:
-false
 )
 benchmark
 (

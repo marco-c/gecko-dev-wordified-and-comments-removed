@@ -6948,6 +6948,9 @@ w
 .
 function
 put_neon
+export
+=
+1
 adr
 x9
 L
@@ -7537,6 +7540,9 @@ w
 .
 function
 prep_neon
+export
+=
+1
 adr
 x9
 L
