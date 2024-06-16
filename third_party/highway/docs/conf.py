@@ -119,7 +119,7 @@ display_version
 :
 True
 }
-master_doc
+top_doc
 =
 '
 index
@@ -460,7 +460,7 @@ rinoh_documents
 [
 (
  
-master_doc
+top_doc
  
 '
 target
