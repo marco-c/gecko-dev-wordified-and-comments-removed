@@ -1343,6 +1343,10 @@ computedProp
 textProp
 .
 invisible
+&
+&
+!
+isPropInStartingStyle
 )
 {
 variables
