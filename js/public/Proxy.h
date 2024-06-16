@@ -2779,7 +2779,6 @@ classSpec
 )
 \
 {
-\
 name
 \
 JSClass
@@ -2789,9 +2788,9 @@ NON_NATIVE
 |
 JSCLASS_IS_PROXY
 |
-\
 JSCLASS_DELAY_METADATA_BUILDER
 |
+\
 js
 :
 :
@@ -2807,7 +2806,9 @@ js
 :
 :
 ProxyClassOps
+\
 classSpec
+\
 &
 js
 :
@@ -2819,7 +2820,6 @@ js
 :
 :
 ProxyObjectOps
-\
 }
 #
 define
