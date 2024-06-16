@@ -6754,8 +6754,9 @@ WaitForFrame
 TimeDelta
 :
 :
-Zero
+Seconds
 (
+1
 )
 )
 RenderedFrame
