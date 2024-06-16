@@ -2510,15 +2510,11 @@ mGlobalVolume
 #
 ifdef
 DEBUG
-protected
-:
 bool
 mCanRunMessagesSynchronously
 ;
 #
 endif
-private
-:
 Watchable
 <
 GraphTime
