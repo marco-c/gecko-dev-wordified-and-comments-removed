@@ -476,7 +476,7 @@ return
 None
 memoize
 def
-get_json_automationrelevance
+get_json_pushchangedfiles
 (
 repository
 revision
@@ -491,7 +491,7 @@ url
 /
 json
 -
-automationrelevance
+pushchangedfiles
 /
 {
 }
@@ -528,7 +528,7 @@ url
 )
     
 def
-get_automationrelevance
+get_pushchangedfiles
 (
 )
 :
@@ -555,7 +555,7 @@ json
 return
 retry
 (
-get_automationrelevance
+get_pushchangedfiles
 attempts
 =
 10
