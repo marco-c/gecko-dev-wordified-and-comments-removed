@@ -1591,6 +1591,13 @@ js
 ]
 [
 "
+test_scriptable_nsIClassInfo
+.
+js
+"
+]
+[
+"
 test_storage
 .
 js
