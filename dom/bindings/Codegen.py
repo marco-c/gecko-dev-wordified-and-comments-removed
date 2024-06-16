@@ -53576,10 +53576,13 @@ isUnion
 )
 :
         
-memberWraps
+origValue
 =
-[
-]
+value
+        
+origType
+=
+type
         
 if
 type
@@ -53607,6 +53610,11 @@ Value
 "
 %
 value
+        
+memberWraps
+=
+[
+]
         
 for
 member
@@ -53680,7 +53688,21 @@ append
 memberWrap
 )
         
+if
+len
+(
+memberWraps
+)
+=
+=
+0
+:
+            
 return
+None
+        
+wrapCode
+=
 CGList
 (
 memberWraps
@@ -53688,16 +53710,35 @@ memberWraps
 else
 "
 )
+        
 if
-len
+origType
+.
+nullable
 (
-memberWraps
 )
-!
+:
+            
+wrapCode
 =
-0
-else
-None
+CGIfWrapper
+(
+wrapCode
+"
+!
+%
+s
+.
+IsNull
+(
+)
+"
+%
+origValue
+)
+        
+return
+wrapCode
     
 if
 (
