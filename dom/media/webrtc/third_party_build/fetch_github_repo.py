@@ -358,18 +358,6 @@ upstream
 "
 github_path
 )
-        
-run_git
-(
-"
-git
-merge
-upstream
-/
-master
-"
-github_path
-)
     
 else
 :
@@ -397,6 +385,28 @@ already
 configured
 "
         
+)
+    
+run_git
+(
+"
+git
+checkout
+master
+"
+github_path
+)
+    
+run_git
+(
+"
+git
+merge
+upstream
+/
+master
+"
+github_path
 )
     
 stdout_lines
@@ -511,6 +521,20 @@ heads
 already
 configured
 "
+)
+    
+run_git
+(
+"
+git
+show
+branch
+-
+heads
+/
+5059
+"
+github_path
 )
     
 run_git
