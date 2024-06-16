@@ -76,6 +76,11 @@ score
 }
 ]
 ;
+requestLongerTimeout
+(
+5
+)
+;
 add_setup
 (
 async
@@ -145,7 +150,7 @@ true
 }
 )
 ;
-add_task
+add_tasks_with_rust
 (
 async
 function
@@ -405,7 +410,7 @@ loaded
 }
 )
 ;
-add_task
+add_tasks_with_rust
 (
 async
 function
@@ -1025,7 +1030,7 @@ window
 ;
 }
 }
-add_task
+add_tasks_with_rust
 (
 async
 function
@@ -1063,7 +1068,7 @@ forceSync
 }
 )
 ;
-add_task
+add_tasks_with_rust
 (
 async
 function
@@ -1646,7 +1651,7 @@ clear
 )
 ;
 }
-add_task
+add_tasks_with_rust
 (
 async
 function
@@ -1764,7 +1769,7 @@ expected
 }
 )
 ;
-add_task
+add_tasks_with_rust
 (
 async
 function
