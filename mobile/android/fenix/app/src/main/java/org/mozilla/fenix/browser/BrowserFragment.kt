@@ -1767,12 +1767,6 @@ settings
 )
 .
 isEnabled
-|
-|
-refreshAction
-!
-=
-null
 )
 {
 return
