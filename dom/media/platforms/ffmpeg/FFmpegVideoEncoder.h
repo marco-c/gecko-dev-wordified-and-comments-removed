@@ -111,7 +111,7 @@ override
 protected
 :
 virtual
-MediaResult
+nsresult
 InitSpecific
 (
 )
@@ -123,14 +123,12 @@ LIBAVCODEC_VERSION_MAJOR
 >
 =
 58
-RefPtr
+Result
 <
-MediaDataEncoder
-:
-:
-EncodePromise
+EncodedData
+nsresult
 >
-EncodeWithModernAPIs
+EncodeInputWithModernAPIs
 (
 RefPtr
 <
