@@ -30367,9 +30367,9 @@ SetIsScrollInfoLayer
 true
 )
 ;
-nsIScrollableFrame
+ScrollContainerFrame
 *
-scrollableFrame
+scrollContainerFrame
 =
 mScrollFrame
 -
@@ -30380,7 +30380,7 @@ GetScrollTargetFrame
 ;
 if
 (
-scrollableFrame
+scrollContainerFrame
 )
 {
 aBuilder
@@ -30388,7 +30388,7 @@ aBuilder
 >
 AddScrollFrameToNotify
 (
-scrollableFrame
+scrollContainerFrame
 )
 ;
 }

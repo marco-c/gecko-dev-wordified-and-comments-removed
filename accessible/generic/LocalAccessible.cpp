@@ -396,13 +396,6 @@ h
 #
 include
 "
-nsIScrollableFrame
-.
-h
-"
-#
-include
-"
 nsStyleStructInlines
 .
 h
@@ -486,6 +479,15 @@ include
 mozilla
 /
 ProfilerMarkers
+.
+h
+"
+#
+include
+"
+mozilla
+/
+ScrollContainerFrame
 .
 h
 "
@@ -3455,7 +3457,7 @@ result
 }
 if
 (
-nsIScrollableFrame
+ScrollContainerFrame
 *
 sf
 =
@@ -3472,7 +3474,7 @@ PresShellPtr
 )
 -
 >
-GetRootScrollFrameAsScrollable
+GetRootScrollContainerFrame
 (
 )
 :

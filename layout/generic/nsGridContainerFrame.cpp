@@ -17273,10 +17273,8 @@ if
 (
 ScrollContainerFrame
 *
-scrollFrame
+scrollContainerFrame
 =
-do_QueryFrame
-(
 aGridItem
 .
 mFrame
@@ -17286,14 +17284,13 @@ GetScrollTargetFrame
 (
 )
 )
-)
 {
 scroller
 =
 true
 ;
 return
-scrollFrame
+scrollContainerFrame
 ;
 }
 if

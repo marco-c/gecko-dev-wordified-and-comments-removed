@@ -7919,9 +7919,9 @@ MOZ_ASSERT
 aFrame
 )
 ;
-nsIScrollableFrame
+ScrollContainerFrame
 *
-scrollableFrame
+scrollContainerFrame
 =
 aFrame
 -
@@ -7934,9 +7934,9 @@ nsIFrame
 *
 scrolledFrame
 =
-scrollableFrame
+scrollContainerFrame
 ?
-scrollableFrame
+scrollContainerFrame
 -
 >
 GetScrolledFrame
@@ -8048,7 +8048,7 @@ NS_OK
 }
 if
 (
-scrollableFrame
+scrollContainerFrame
 )
 {
 if
@@ -8061,7 +8061,7 @@ caretPos
 y
 +
 =
-scrollableFrame
+scrollContainerFrame
 -
 >
 GetPageScrollAmount
@@ -8078,7 +8078,7 @@ caretPos
 y
 -
 =
-scrollableFrame
+scrollContainerFrame
 -
 >
 GetPageScrollAmount
@@ -8303,7 +8303,7 @@ selectionChanged
 ;
 if
 (
-scrollableFrame
+scrollContainerFrame
 )
 {
 ScrollMode
@@ -8331,7 +8331,7 @@ ScrollMode
 :
 Smooth
 ;
-scrollableFrame
+scrollContainerFrame
 -
 >
 ScrollBy
