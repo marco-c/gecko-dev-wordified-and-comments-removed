@@ -98,6 +98,9 @@ DrawGeometryRealization
 ;
 }
 ;
+#
+ifdef
+__CRT_UUID_DECL
 __CRT_UUID_DECL
 (
 ID2D1DeviceContext1
@@ -113,6 +116,8 @@ ID2D1DeviceContext1
 0x99
 0x87
 )
+#
+endif
 DEFINE_GUID
 (
 IID_ID2D1DeviceContext2
@@ -249,6 +254,9 @@ CreateTransformedImageSource
 ;
 }
 ;
+#
+ifdef
+__CRT_UUID_DECL
 __CRT_UUID_DECL
 (
 ID2D1DeviceContext2
@@ -264,6 +272,8 @@ ID2D1DeviceContext2
 0xe6
 0xc7
 )
+#
+endif
 DEFINE_GUID
 (
 IID_ID2D1DeviceContext3
@@ -319,6 +329,9 @@ DrawSpriteBatch
 ;
 }
 ;
+#
+ifdef
+__CRT_UUID_DECL
 __CRT_UUID_DECL
 (
 ID2D1DeviceContext3
@@ -334,6 +347,8 @@ ID2D1DeviceContext3
 0x8e
 0x00
 )
+#
+endif
 DEFINE_GUID
 (
 IID_ID2D1SvgGlyphStyle
@@ -416,6 +431,9 @@ GetStroke
 ;
 }
 ;
+#
+ifdef
+__CRT_UUID_DECL
 __CRT_UUID_DECL
 (
 ID2D1SvgGlyphStyle
@@ -431,6 +449,8 @@ ID2D1SvgGlyphStyle
 0xa4
 0x38
 )
+#
+endif
 DEFINE_GUID
 (
 IID_ID2D1DeviceContext4
@@ -541,6 +561,9 @@ measuringMode
 ;
 }
 ;
+#
+ifdef
+__CRT_UUID_DECL
 __CRT_UUID_DECL
 (
 ID2D1DeviceContext4
@@ -556,5 +579,7 @@ ID2D1DeviceContext4
 0xe4
 0xdb
 )
+#
+endif
 #
 endif
