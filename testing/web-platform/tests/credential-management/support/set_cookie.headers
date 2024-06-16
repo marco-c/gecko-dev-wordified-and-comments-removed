@@ -18,6 +18,10 @@ SameSite
 None
 ;
 Secure
+;
+Path
+=
+/
 Set
 -
 Cookie
@@ -31,3 +35,7 @@ SameSite
 Strict
 ;
 Secure
+;
+Path
+=
+/
