@@ -42810,7 +42810,7 @@ mLastRequestBeforeCommit
 &
 *
 mLastFailedRequest
->
+=
 =
 *
 *
@@ -74298,11 +74298,6 @@ subclass
 "
 )
 ;
-(
-void
-)
-mRequestId
-;
 }
 #
 ifdef
@@ -75157,7 +75152,7 @@ mTransaction
 >
 NoteFinishedRequest
 (
-mLoggingSerialNumber
+mRequestId
 ResultCode
 (
 )
