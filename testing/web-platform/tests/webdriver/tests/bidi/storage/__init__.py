@@ -470,8 +470,11 @@ return
 (
 datetime
 .
-utcnow
+now
 (
+timezone
+.
+utc
 )
 +
 timedelta

@@ -417,7 +417,7 @@ versionSpec
 '
 3
 .
-11
+12
 '
 -
 template
@@ -525,7 +525,7 @@ versionSpec
 '
 3
 .
-11
+12
 '
 -
 template
@@ -689,7 +689,7 @@ versionSpec
 '
 3
 .
-11
+12
 '
 -
 template
@@ -828,7 +828,7 @@ versionSpec
 '
 3
 .
-11
+12
 '
 -
 template
@@ -1362,7 +1362,7 @@ macOS
 Python
 3
 .
-11
+12
 '
 dependsOn
 :
@@ -1404,7 +1404,7 @@ versionSpec
 '
 3
 .
-11
+12
 '
 -
 template
@@ -1554,7 +1554,7 @@ macOS
 Python
 3
 .
-11
+12
 '
 dependsOn
 :
@@ -1596,7 +1596,7 @@ versionSpec
 '
 3
 .
-11
+12
 '
 -
 template
@@ -1788,7 +1788,7 @@ macOS
 Python
 3
 .
-11
+12
 '
 dependsOn
 :
@@ -1834,7 +1834,7 @@ versionSpec
 '
 3
 .
-11
+12
 '
 -
 template
@@ -2024,7 +2024,7 @@ Windows
 Python
 3
 .
-11
+12
 '
 dependsOn
 :
@@ -2066,7 +2066,7 @@ versionSpec
 '
 3
 .
-11
+12
 '
 addToPath
 :
@@ -2222,7 +2222,7 @@ Windows
 Python
 3
 .
-11
+12
 '
 dependsOn
 :
@@ -2264,7 +2264,7 @@ versionSpec
 '
 3
 .
-11
+12
 '
 addToPath
 :
@@ -2486,7 +2486,7 @@ Windows
 Python
 3
 .
-11
+12
 '
 dependsOn
 :
@@ -2532,7 +2532,7 @@ versionSpec
 '
 3
 .
-11
+12
 '
 #
 currently
@@ -2752,7 +2752,7 @@ versionSpec
 '
 3
 .
-11
+12
 '
 -
 template
@@ -3155,7 +3155,7 @@ versionSpec
 '
 3
 .
-11
+12
 '
 -
 template
@@ -3558,7 +3558,7 @@ versionSpec
 '
 3
 .
-11
+12
 '
 -
 template
@@ -3948,7 +3948,7 @@ versionSpec
 '
 3
 .
-11
+12
 '
 -
 template
@@ -4362,7 +4362,7 @@ versionSpec
 '
 3
 .
-11
+12
 '
 -
 template
@@ -4753,7 +4753,7 @@ versionSpec
 '
 3
 .
-11
+12
 '
 -
 template

@@ -5,6 +5,7 @@ datetime
 import
 datetime
 timedelta
+timezone
 from
 webdriver
 .
@@ -989,8 +990,11 @@ int
 (
 datetime
 .
-utcnow
+now
 (
+timezone
+.
+utc
 )
 +
 timedelta

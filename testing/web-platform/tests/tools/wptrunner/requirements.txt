@@ -63,9 +63,9 @@ packaging
 pillow
 =
 =
-9
+10
 .
-5
+3
 .
 0
 requests

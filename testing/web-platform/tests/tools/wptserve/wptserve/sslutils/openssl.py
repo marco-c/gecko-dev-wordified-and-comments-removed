@@ -15,6 +15,7 @@ datetime
 import
 datetime
 timedelta
+timezone
 CERT_EXPIRY_BUFFER
 =
 dict
@@ -2063,8 +2064,11 @@ end_date
 <
 datetime
 .
-utcnow
+now
 (
+timezone
+.
+utc
 )
 +
 time_buffer

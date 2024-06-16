@@ -12,6 +12,7 @@ from
 datetime
 import
 datetime
+timezone
 from
 .
 .
@@ -1894,8 +1895,11 @@ generated
 =
 datetime
 .
-utcnow
+now
 (
+timezone
+.
+utc
 )
         
 with
