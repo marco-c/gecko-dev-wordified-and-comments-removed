@@ -7039,15 +7039,9 @@ if
 (
 candidate
 .
-type
+is_prflx
 (
 )
-=
-=
-cricket
-:
-:
-PRFLX_PORT_TYPE
 )
 {
 RTC_DCHECK_NOTREACHED

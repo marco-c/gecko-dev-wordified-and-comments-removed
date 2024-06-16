@@ -374,14 +374,12 @@ tcptype
 TCPTYPE_ACTIVE_STR
 &
 &
+!
 address
 .
-type
+is_prflx
 (
 )
-!
-=
-PRFLX_PORT_TYPE
 )
 |
 |

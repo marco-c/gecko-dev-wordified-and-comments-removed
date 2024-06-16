@@ -2920,7 +2920,7 @@ address
 )
 )
 ;
-EXPECT_EQ
+EXPECT_TRUE
 (
 port
 (
@@ -2934,13 +2934,9 @@ Candidates
 0
 ]
 .
-type
+is_local
 (
 )
-cricket
-:
-:
-LOCAL_PORT_TYPE
 )
 ;
 }
