@@ -100,3 +100,6 @@ patch
 set_delayed_integrity_on_process_acl
 .
 patch
+chromium_syscalls_6_8_update
+.
+patch
