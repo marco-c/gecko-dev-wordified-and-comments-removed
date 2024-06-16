@@ -242,6 +242,10 @@ nsHTMLButtonControlFrame
 )
 NS_QUERYFRAME_ENTRY
 (
+nsHTMLButtonControlFrame
+)
+NS_QUERYFRAME_ENTRY
+(
 nsIFormControlFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
