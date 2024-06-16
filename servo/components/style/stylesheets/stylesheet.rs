@@ -1635,6 +1635,15 @@ Scope
 .
 .
 )
+|
+CssRule
+:
+:
+StartingStyle
+(
+.
+.
+)
 =
 >
 false
