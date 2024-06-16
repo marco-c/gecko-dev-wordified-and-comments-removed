@@ -23438,7 +23438,7 @@ selectionIsCollapsed
 selection
 -
 >
-IsCollapsed
+AreNormalAndCrossShadowBoundaryRangesCollapsed
 (
 )
 ;
@@ -23463,6 +23463,7 @@ uint32_t
 (
 aOffsetAtEventPoint
 )
+true
 )
 )
 {

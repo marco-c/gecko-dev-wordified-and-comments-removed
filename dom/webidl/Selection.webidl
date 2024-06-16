@@ -192,6 +192,14 @@ attribute
 boolean
 isCollapsed
 ;
+[
+ChromeOnly
+]
+readonly
+attribute
+boolean
+areNormalAndCrossShadowBoundaryRangesCollapsed
+;
 /
 *
 *
