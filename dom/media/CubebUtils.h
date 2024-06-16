@@ -100,6 +100,13 @@ CUBEB_SAMPLE_S16NE
 ;
 }
 ;
+nsCString
+ProcessingParamsToString
+(
+cubeb_input_processing_params
+aParams
+)
+;
 class
 CubebHandle
 {
