@@ -2636,7 +2636,7 @@ PatternKind
 pattern_input
 :
 PatternShaderInput
-render_task_address
+dst_task_address
 :
 RenderTaskAddress
 transform_id
@@ -2654,7 +2654,7 @@ EdgeAaSegmentMask
 segment_index
 :
 u8
-task_id
+src_task_id
 :
 RenderTaskId
 z_id
@@ -2760,7 +2760,7 @@ let
 texture
 =
 match
-task_id
+src_task_id
 {
 RenderTaskId
 :
@@ -2768,12 +2768,10 @@ RenderTaskId
 INVALID
 =
 >
-{
 TextureSource
 :
 :
 Invalid
-}
 _
 =
 >
@@ -2785,7 +2783,7 @@ render_tasks
 .
 resolve_texture
 (
-task_id
+src_task_id
 )
 .
 expect
@@ -2836,7 +2834,7 @@ IS_OPAQUE
 )
 &
 &
-task_id
+src_task_id
 =
 =
 RenderTaskId
@@ -2915,7 +2913,7 @@ instance
 =
 QuadInstance
 {
-render_task_address
+dst_task_address
 prim_address_i
 prim_address_f
 z_id
