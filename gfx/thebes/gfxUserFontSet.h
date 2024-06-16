@@ -2280,7 +2280,13 @@ gfxUserFontFamily
 >
 mFontFamilies
 ;
+mozilla
+:
+:
+Atomic
+<
 uint64_t
+>
 mGeneration
 ;
 uint64_t
