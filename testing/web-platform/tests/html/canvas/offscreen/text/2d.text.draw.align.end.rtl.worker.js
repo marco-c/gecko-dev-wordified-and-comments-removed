@@ -241,12 +241,6 @@ canvas
 2
 )
 ;
-t
-.
-done
-(
-)
-;
 }
 "
 textAlign

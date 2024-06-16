@@ -88,12 +88,6 @@ canvas
 )
 )
 ;
-t
-.
-done
-(
-)
-;
 }
 "
 Check

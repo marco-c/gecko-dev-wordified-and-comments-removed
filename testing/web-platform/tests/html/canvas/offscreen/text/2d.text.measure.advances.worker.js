@@ -717,12 +717,6 @@ advances
 "
 )
 ;
-t
-.
-done
-(
-)
-;
 }
 "
 Testing

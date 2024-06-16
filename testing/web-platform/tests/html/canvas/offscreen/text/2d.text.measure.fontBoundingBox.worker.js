@@ -247,12 +247,6 @@ fontBoundingBoxDescent
 "
 )
 ;
-t
-.
-done
-(
-)
-;
 }
 "
 Testing

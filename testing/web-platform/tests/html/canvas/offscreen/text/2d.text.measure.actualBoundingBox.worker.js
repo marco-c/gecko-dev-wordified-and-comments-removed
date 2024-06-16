@@ -676,12 +676,6 @@ actualBoundingBoxDescent
 "
 )
 ;
-t
-.
-done
-(
-)
-;
 }
 "
 Testing

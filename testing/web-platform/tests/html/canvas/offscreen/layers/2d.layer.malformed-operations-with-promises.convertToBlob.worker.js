@@ -91,12 +91,6 @@ convertToBlob
 )
 )
 ;
-t
-.
-done
-(
-)
-;
 }
 "
 Check

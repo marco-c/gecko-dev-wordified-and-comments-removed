@@ -335,12 +335,6 @@ hangingBaseline
 "
 )
 ;
-t
-.
-done
-(
-)
-;
 }
 "
 Testing

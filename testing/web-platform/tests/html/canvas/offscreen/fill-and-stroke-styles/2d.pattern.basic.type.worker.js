@@ -144,12 +144,6 @@ thisImplementsCanvasPattern
 "
 )
 ;
-t
-.
-done
-(
-)
-;
 }
 "
 "
