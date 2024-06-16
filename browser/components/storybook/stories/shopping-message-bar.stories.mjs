@@ -192,6 +192,7 @@ type
 "
 select
 "
+}
 options
 :
 [
@@ -264,7 +265,6 @@ for
 feedback
 "
 ]
-}
 }
 }
 parameters
