@@ -12019,7 +12019,7 @@ input_volume_controller_config
 proc_fullband_sample_rate_hz
 (
 )
-num_proc_channels
+num_output_channels
 (
 )
 use_internal_vad
