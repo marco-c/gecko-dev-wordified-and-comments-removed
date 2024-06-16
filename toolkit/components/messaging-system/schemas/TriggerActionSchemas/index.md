@@ -341,7 +341,7 @@ deeplinkedToWindowsSettingsUI
 ]
 (
 #
-deeplinkedToWindowsSettingsUI
+deeplinkedtowindowssettingsui
 )
 *
 [
