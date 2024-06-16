@@ -343,10 +343,6 @@ aEntry
 nsIRequest
 *
 aRequest
-bool
-aForceTouch
-=
-false
 )
 ;
 bool
