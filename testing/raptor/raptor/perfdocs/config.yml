@@ -225,6 +225,10 @@ cnn
 :
 "
 "
+docomo
+:
+"
+"
 ebay
 :
 "
@@ -301,6 +305,10 @@ office
 :
 "
 "
+openai
+:
+"
+"
 outlook
 :
 "
@@ -317,6 +325,14 @@ reddit
 :
 "
 "
+samsung
+:
+"
+"
+tiktok
+:
+"
+"
 tumblr
 :
 "
@@ -326,6 +342,10 @@ twitch
 "
 "
 twitter
+:
+"
+"
+weather
 :
 "
 "
