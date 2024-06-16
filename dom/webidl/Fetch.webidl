@@ -182,6 +182,17 @@ NewObject
 ]
 Promise
 <
+Uint8Array
+>
+bytes
+(
+)
+;
+[
+NewObject
+]
+Promise
+<
 FormData
 >
 formData

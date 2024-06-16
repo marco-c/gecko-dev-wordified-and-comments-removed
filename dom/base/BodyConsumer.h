@@ -83,6 +83,7 @@ ConsumeType
 {
 ArrayBuffer
 Blob
+Bytes
 FormData
 JSON
 Text
