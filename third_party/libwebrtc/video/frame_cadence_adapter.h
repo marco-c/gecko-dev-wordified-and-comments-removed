@@ -293,14 +293,6 @@ GetInputFrameRateFps
 ;
 virtual
 void
-UpdateFrameRate
-(
-)
-=
-0
-;
-virtual
-void
 UpdateLayerQualityConvergence
 (
 size_t

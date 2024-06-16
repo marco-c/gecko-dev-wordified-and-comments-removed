@@ -10078,13 +10078,6 @@ GetInputFramerateFps
 (
 )
 ;
-frame_cadence_adapter_
--
->
-UpdateFrameRate
-(
-)
-;
 int64_t
 now_ms
 =
