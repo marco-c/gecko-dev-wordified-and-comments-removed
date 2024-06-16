@@ -3741,6 +3741,15 @@ ExternalPoint
 aExtPoint
 )
 ;
+CSSPoint
+MaybeFillOutOverscrollGutter
+(
+const
+RecursiveMutexAutoLock
+&
+aProofOfLock
+)
+;
 friend
 std
 :
