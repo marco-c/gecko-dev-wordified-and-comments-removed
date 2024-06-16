@@ -29,7 +29,6 @@ mock
 .
 patch
 (
-    
 "
 mozperftest
 .
@@ -39,7 +38,7 @@ browsertime
 .
 visualtools
 .
-find_executable
+which
 "
 new
 =
@@ -111,7 +110,6 @@ mock
 .
 patch
 (
-    
 "
 mozperftest
 .
@@ -121,7 +119,7 @@ browsertime
 .
 visualtools
 .
-find_executable
+which
 "
 new
 =
@@ -186,7 +184,6 @@ mock
 .
 patch
 (
-    
 "
 mozperftest
 .
@@ -196,7 +193,7 @@ browsertime
 .
 visualtools
 .
-find_executable
+which
 "
 new
 =
