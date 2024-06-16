@@ -1017,7 +1017,7 @@ gfx
 :
 DataSourceSurface
 >
-GetRecycledDataSurfaceForSurfaceDescriptor
+MaybeRecycleDataSurfaceForSurfaceDescriptor
 (
 TextureHost
 *

@@ -84,6 +84,11 @@ CriticalSection
 h
 "
 "
+DataSourceSurfaceWrapper
+.
+h
+"
+"
 DataSurfaceHelpers
 .
 h
