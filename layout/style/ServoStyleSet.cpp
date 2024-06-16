@@ -3837,6 +3837,7 @@ false
 }
 MOZ_ASSERT
 (
+!
 aPseudoStyle
 .
 StyleContent
@@ -3844,11 +3845,13 @@ StyleContent
 )
 -
 >
-ContentCount
+NonAltContentItems
 (
 )
->
-0
+.
+IsEmpty
+(
+)
 "
 IsItems
 (

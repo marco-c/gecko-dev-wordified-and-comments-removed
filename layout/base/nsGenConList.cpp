@@ -48,7 +48,11 @@ StyleContent
 )
 -
 >
-ContentCount
+NonAltContentItems
+(
+)
+.
+Length
 (
 )
 )
