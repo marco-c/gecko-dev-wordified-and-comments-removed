@@ -598,7 +598,7 @@ py
 func
 :
 ~
-gecko_taskgraph
+taskgraph
 .
 util
 .
