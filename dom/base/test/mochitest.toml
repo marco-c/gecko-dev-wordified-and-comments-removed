@@ -1960,13 +1960,6 @@ http2
 ]
 [
 "
-test_bug338679
-.
-html
-"
-]
-[
-"
 test_bug339494
 .
 html
