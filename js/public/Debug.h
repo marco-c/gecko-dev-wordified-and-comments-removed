@@ -741,6 +741,14 @@ cx
 }
 }
 ;
+bool
+ShouldAvoidSideEffects
+(
+JSContext
+*
+cx
+)
+;
 }
 }
 #

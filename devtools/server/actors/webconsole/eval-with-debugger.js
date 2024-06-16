@@ -873,6 +873,12 @@ onNativeCall
 =
 undefined
 ;
+noSideEffectDebugger
+.
+shouldAvoidSideEffects
+=
+false
+;
 }
 }
 }
@@ -1615,6 +1621,12 @@ return
 null
 ;
 }
+;
+dbg
+.
+shouldAvoidSideEffects
+=
+true
 ;
 return
 dbg
