@@ -217,9 +217,9 @@ lastEmptyCheck
 "
 security
 .
-webauth
+webauthn
 .
-softtoken_counter
+show_ms_settings_link
 "
 "
 toolkit
