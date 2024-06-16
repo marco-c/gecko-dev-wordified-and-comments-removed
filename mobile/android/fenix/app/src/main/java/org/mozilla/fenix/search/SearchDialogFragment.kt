@@ -3366,10 +3366,17 @@ shouldShowView
 )
 -
 >
+viewLifecycleOwner
+.
+lifecycleScope
+.
+launch
+{
 updateClipboardSuggestion
 (
 shouldShowView
 )
+}
 }
 }
 private

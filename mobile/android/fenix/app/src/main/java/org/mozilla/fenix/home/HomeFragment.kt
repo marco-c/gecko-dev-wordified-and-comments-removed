@@ -3198,6 +3198,9 @@ viewLifecycleOwner
 interactor
 =
 sessionControlInteractor
+fragmentManager
+=
+parentFragmentManager
 )
 updateSessionControlView
 (
