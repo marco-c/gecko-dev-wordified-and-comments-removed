@@ -2647,7 +2647,7 @@ recentsearches
 .
 featureGate
 "
-false
+true
 ]
 /
 /
@@ -3823,7 +3823,7 @@ trending
 .
 featureGate
 "
-false
+true
 ]
 /
 /
@@ -3909,7 +3909,7 @@ trending
 .
 requireSearchMode
 "
-true
+false
 ]
 /
 /
