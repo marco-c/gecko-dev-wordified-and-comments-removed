@@ -6844,6 +6844,11 @@ element_info
 element
 )
 )
+.
+to_resolved_value
+(
+context
+)
 )
 }
 #

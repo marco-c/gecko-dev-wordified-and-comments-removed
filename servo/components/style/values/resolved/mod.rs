@@ -452,15 +452,6 @@ Prefix
 trivial_to_resolved_value
 !
 (
-computed
-:
-:
-LengthPercentage
-)
-;
-trivial_to_resolved_value
-!
-(
 style_traits
 :
 :
