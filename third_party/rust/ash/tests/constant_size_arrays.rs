@@ -53,7 +53,7 @@ _
 PhysicalDeviceProperties
 :
 :
-builder
+default
 (
 )
 .
@@ -108,7 +108,7 @@ _
 PipelineColorBlendStateCreateInfo
 :
 :
-builder
+default
 (
 )
 .

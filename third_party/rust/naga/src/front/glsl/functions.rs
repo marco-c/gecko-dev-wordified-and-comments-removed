@@ -3977,9 +3977,6 @@ body
 .
 push
 (
-crate
-:
-:
 Statement
 :
 :
@@ -6655,9 +6652,6 @@ base
 pointer
 index
 }
-crate
-:
-:
 Span
 :
 :
@@ -6806,9 +6800,6 @@ i
 as
 u32
 }
-crate
-:
-:
 Span
 :
 :

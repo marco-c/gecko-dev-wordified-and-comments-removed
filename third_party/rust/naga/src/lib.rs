@@ -3087,11 +3087,15 @@ Pack4x8unorm
 Pack2x16snorm
 Pack2x16unorm
 Pack2x16float
+Pack4xI8
+Pack4xU8
 Unpack4x8snorm
 Unpack4x8unorm
 Unpack2x16snorm
 Unpack2x16unorm
 Unpack2x16float
+Unpack4xI8
+Unpack4xU8
 }
 #
 [

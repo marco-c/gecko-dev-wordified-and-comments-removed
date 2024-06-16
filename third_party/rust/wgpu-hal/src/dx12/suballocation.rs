@@ -663,9 +663,6 @@ null
 (
 )
 &
-d3d12_ty
-:
-:
 ID3D12Resource
 :
 :
@@ -921,9 +918,6 @@ null
 (
 )
 &
-d3d12_ty
-:
-:
 ID3D12Resource
 :
 :
@@ -1722,9 +1716,6 @@ null
 (
 )
 &
-d3d12_ty
-:
-:
 ID3D12Resource
 :
 :
@@ -1925,9 +1916,6 @@ null
 (
 )
 &
-d3d12_ty
-:
-:
 ID3D12Resource
 :
 :

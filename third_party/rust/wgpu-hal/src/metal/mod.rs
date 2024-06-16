@@ -203,6 +203,12 @@ ComputePipeline
 ComputePipeline
 ;
 type
+PipelineCache
+=
+(
+)
+;
+type
 AccelerationStructure
 =
 AccelerationStructure

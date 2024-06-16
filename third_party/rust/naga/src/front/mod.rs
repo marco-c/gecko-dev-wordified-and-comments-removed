@@ -805,9 +805,6 @@ fn
 lookup
 <
 Q
-:
-?
-Sized
 >
 (
 &
@@ -848,6 +845,9 @@ hash
 Hash
 +
 Eq
++
+?
+Sized
 {
 for
 scope

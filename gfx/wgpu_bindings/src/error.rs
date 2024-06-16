@@ -2620,11 +2620,6 @@ _
 TransferError
 :
 :
-InvalidDepthTextureExtent
-|
-TransferError
-:
-:
 TextureFormatsNotCopyCompatible
 {
 .

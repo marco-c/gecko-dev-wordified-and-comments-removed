@@ -7744,9 +7744,6 @@ matches
 sampler_layout
 .
 ty
-wgt
-:
-:
 BindingType
 :
 :

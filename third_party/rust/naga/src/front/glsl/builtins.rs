@@ -4039,9 +4039,6 @@ Vector
 {
 size
 :
-crate
-:
-:
 VectorSize
 :
 :
@@ -4075,9 +4072,6 @@ TypeInner
 Vector
 {
 size
-:
-crate
-:
 :
 VectorSize
 :

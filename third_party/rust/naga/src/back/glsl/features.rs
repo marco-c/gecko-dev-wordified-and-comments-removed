@@ -2129,9 +2129,6 @@ break
 }
 if
 let
-crate
-:
-:
 TypeInner
 :
 :
@@ -2721,9 +2718,6 @@ Image
 {
 class
 :
-crate
-:
-:
 ImageClass
 :
 :
@@ -3255,9 +3249,6 @@ ty
 .
 inner
 {
-crate
-:
-:
 TypeInner
 :
 :

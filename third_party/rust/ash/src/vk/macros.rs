@@ -213,7 +213,7 @@ other
 impl
 :
 :
-std
+core
 :
 :
 ops
@@ -259,7 +259,7 @@ rhs
 impl
 :
 :
-std
+core
 :
 :
 ops
@@ -296,7 +296,7 @@ rhs
 impl
 :
 :
-std
+core
 :
 :
 ops
@@ -342,7 +342,7 @@ rhs
 impl
 :
 :
-std
+core
 :
 :
 ops
@@ -379,7 +379,7 @@ rhs
 impl
 :
 :
-std
+core
 :
 :
 ops
@@ -425,7 +425,7 @@ rhs
 impl
 :
 :
-std
+core
 :
 :
 ops
@@ -462,7 +462,7 @@ rhs
 impl
 :
 :
-std
+core
 :
 :
 ops
@@ -665,6 +665,10 @@ fmt
 :
 :
 Formatter
+<
+'
+_
+>
 )
 -
 >
@@ -711,6 +715,10 @@ fmt
 :
 :
 Formatter
+<
+'
+_
+>
 )
 -
 >
@@ -919,7 +927,7 @@ Self
 (
 :
 :
-std
+core
 :
 :
 ptr
@@ -952,6 +960,10 @@ fmt
 :
 :
 Formatter
+<
+'
+_
+>
 )
 -
 >
@@ -997,6 +1009,10 @@ fmt
 :
 :
 Formatter
+<
+'
+_
+>
 )
 -
 >

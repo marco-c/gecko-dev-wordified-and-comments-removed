@@ -222,6 +222,9 @@ mod
 pipeline
 ;
 mod
+pipeline_cache
+;
+mod
 pool
 ;
 pub
