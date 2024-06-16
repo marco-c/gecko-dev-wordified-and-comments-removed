@@ -431,7 +431,7 @@ if
 (
 aOther
 .
-dynamicViaCors
+effectiveQueryURL
 (
 )
 .
@@ -442,13 +442,13 @@ isSome
 {
 creationOptions
 .
-mDynamicViaCORS
+mEffectiveQueryURL
 .
 Construct
 (
 aOther
 .
-dynamicViaCors
+effectiveQueryURL
 (
 )
 .
@@ -462,7 +462,7 @@ if
 (
 aOther
 .
-originAllowlist
+effectiveOrigins
 (
 )
 .
@@ -475,7 +475,7 @@ Length
 {
 creationOptions
 .
-mOriginAllowlist
+mEffectiveOrigins
 .
 Construct
 (
@@ -483,7 +483,7 @@ Sequence
 (
 aOther
 .
-originAllowlist
+effectiveOrigins
 (
 )
 .
@@ -759,7 +759,7 @@ this
 mCreationOptions
 -
 >
-mDynamicViaCORS
+mEffectiveQueryURL
 .
 WasPassed
 (
@@ -768,7 +768,7 @@ WasPassed
 {
 result
 .
-dynamicViaCors
+effectiveQueryURL
 (
 )
 =
@@ -780,7 +780,7 @@ this
 mCreationOptions
 -
 >
-mDynamicViaCORS
+mEffectiveQueryURL
 .
 Value
 (
@@ -796,7 +796,7 @@ this
 mCreationOptions
 -
 >
-mOriginAllowlist
+mEffectiveOrigins
 .
 WasPassed
 (
@@ -805,7 +805,7 @@ WasPassed
 {
 result
 .
-originAllowlist
+effectiveOrigins
 (
 )
 =
@@ -815,7 +815,7 @@ this
 mCreationOptions
 -
 >
-mOriginAllowlist
+mEffectiveOrigins
 .
 Value
 (
@@ -1530,7 +1530,7 @@ origin
 :
 aCredential
 .
-originAllowlist
+effectiveOrigins
 (
 )
 )
@@ -1589,7 +1589,7 @@ if
 (
 aCredential
 .
-dynamicViaCors
+effectiveQueryURL
 (
 )
 .
@@ -1615,7 +1615,7 @@ dynamicURI
 )
 aCredential
 .
-dynamicViaCors
+effectiveQueryURL
 (
 )
 .
@@ -1662,7 +1662,7 @@ if
 !
 provider
 .
-mDynamicViaCORS
+mEffectiveQueryURL
 .
 WasPassed
 (
@@ -1672,7 +1672,7 @@ WasPassed
 !
 provider
 .
-mDynamicViaCORS
+mEffectiveQueryURL
 .
 Value
 (
@@ -1682,7 +1682,7 @@ Equals
 (
 aCredential
 .
-dynamicViaCors
+effectiveQueryURL
 (
 )
 .
