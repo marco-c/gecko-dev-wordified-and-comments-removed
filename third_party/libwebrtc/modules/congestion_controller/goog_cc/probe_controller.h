@@ -236,14 +236,11 @@ double
 >
 second_allocation_probe_scale
 ;
-FieldTrialFlag
-allocation_allow_further_probing
-;
-FieldTrialParameter
+FieldTrialOptional
 <
-DataRate
+double
 >
-allocation_probe_max
+allocation_probe_limit_by_current_scale
 ;
 FieldTrialParameter
 <
