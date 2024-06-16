@@ -1585,6 +1585,8 @@ pgo
 :
 macosx64
 -
+aarch64
+-
 shippable
 /
 opt
