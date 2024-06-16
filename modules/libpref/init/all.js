@@ -4830,6 +4830,11 @@ cpu
 screenshots
 \
 "
+\
+"
+memory
+\
+"
 ]
 "
 )
@@ -4867,6 +4872,11 @@ cpu
 \
 "
 screenshots
+\
+"
+\
+"
+memory
 \
 "
 \

@@ -311,6 +311,9 @@ processcpu
 "
 ipcmessages
 "
+"
+memory
+"
 )
 private
 val
@@ -358,6 +361,9 @@ processcpu
 "
 "
 ipcmessages
+"
+"
+memory
 "
 )
 private
@@ -420,6 +426,9 @@ processcpu
 "
 "
 java
+"
+"
+memory
 "
 )
 private
@@ -529,6 +538,9 @@ bandwidth
 "
 "
 ipcmessages
+"
+"
+memory
 "
 )
 private
