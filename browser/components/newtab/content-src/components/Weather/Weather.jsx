@@ -344,6 +344,16 @@ if
 (
 !
 isWeatherEnabled
+|
+|
+!
+this
+.
+props
+.
+Weather
+.
+initialized
 )
 {
 return
