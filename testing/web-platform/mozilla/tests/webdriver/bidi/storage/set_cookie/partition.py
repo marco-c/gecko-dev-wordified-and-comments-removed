@@ -204,17 +204,11 @@ set_cookie_result
 =
 =
 {
-        
 "
 partitionKey
 "
 :
 {
-"
-sourceOrigin
-"
-:
-source_origin_1
 "
 userContext
 "
@@ -223,7 +217,6 @@ userContext
 default
 "
 }
-    
 }
     
 cookies
