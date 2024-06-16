@@ -46993,6 +46993,13 @@ name
 "
 micro_survey_close_button_label
 "
+moz
+:
+removedIn
+=
+"
+128
+"
 tools
 :
 ignore
