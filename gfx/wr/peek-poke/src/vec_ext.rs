@@ -1,12 +1,3 @@
-use
-std
-:
-:
-vec
-:
-:
-Vec
-;
 pub
 trait
 VecExt
