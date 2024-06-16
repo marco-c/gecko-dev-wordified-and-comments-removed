@@ -696,6 +696,9 @@ MediaFormatReader
 GMP
 :
 5
+EME
+:
+5
 "
 l10nIds
 :
