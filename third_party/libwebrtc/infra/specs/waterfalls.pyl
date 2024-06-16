@@ -440,7 +440,7 @@ mixins
 '
 linux
 -
-focal
+jammy
 '
 '
 x86
@@ -502,7 +502,7 @@ mixins
 '
 linux
 -
-focal
+jammy
 '
 '
 x86
@@ -883,7 +883,7 @@ mixins
 '
 linux
 -
-focal
+jammy
 '
 '
 x86
@@ -943,7 +943,7 @@ mixins
 '
 linux
 -
-focal
+jammy
 '
 '
 x86
@@ -1010,7 +1010,7 @@ mixins
 '
 linux
 -
-focal
+jammy
 '
 '
 x86
@@ -1070,7 +1070,7 @@ mixins
 '
 linux
 -
-focal
+jammy
 '
 '
 x86
@@ -2708,7 +2708,7 @@ mixins
 '
 linux
 -
-focal
+jammy
 '
 '
 x86
@@ -2914,7 +2914,7 @@ mixins
 '
 linux
 -
-focal
+jammy
 '
 '
 x86
@@ -2966,7 +2966,7 @@ mixins
 '
 linux
 -
-focal
+jammy
 '
 '
 x86
@@ -3021,7 +3021,7 @@ mixins
 '
 linux
 -
-focal
+jammy
 '
 '
 x86
@@ -3070,7 +3070,7 @@ mixins
 '
 linux
 -
-focal
+jammy
 '
 '
 x86
@@ -3208,7 +3208,7 @@ mixins
 '
 linux
 -
-focal
+jammy
 '
 '
 x86
@@ -3443,7 +3443,7 @@ mixins
 '
 linux
 -
-focal
+jammy
 '
 '
 x86
@@ -3492,7 +3492,7 @@ mixins
 '
 linux
 -
-focal
+jammy
 '
 '
 x86
