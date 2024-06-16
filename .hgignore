@@ -1499,7 +1499,6 @@ android
 /
 .
 *
-\
 /
 .
 build
@@ -1512,7 +1511,6 @@ android
 /
 .
 *
-\
 /
 .
 gradle
@@ -1523,7 +1521,6 @@ android
 /
 .
 *
-\
 /
 build
 ^
@@ -1533,7 +1530,6 @@ android
 /
 .
 *
-\
 /
 bin
 ^
@@ -1543,7 +1539,6 @@ android
 /
 .
 *
-\
 /
 generated
 #
@@ -1558,7 +1553,6 @@ android
 /
 .
 *
-\
 /
 local
 .
@@ -1582,7 +1576,6 @@ android
 /
 .
 *
-\
 /
 manifest
 .
