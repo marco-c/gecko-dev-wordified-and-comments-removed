@@ -36,6 +36,13 @@ h
 #
 include
 "
+CubebInputStream
+.
+h
+"
+#
+include
+"
 MediaTimer
 .
 h
