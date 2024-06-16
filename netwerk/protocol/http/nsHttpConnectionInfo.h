@@ -1173,6 +1173,16 @@ mUsingHttpsProxy
 ;
 }
 bool
+UsingOnlyHttpProxy
+(
+)
+const
+{
+return
+mUsingHttpProxy
+;
+}
+bool
 UsingHttpsProxy
 (
 )
