@@ -1231,15 +1231,6 @@ nsInlineFrame
 "
 )
 ;
-DISPLAY_REFLOW
-(
-aPresContext
-this
-aReflowInput
-aMetrics
-aStatus
-)
-;
 MOZ_ASSERT
 (
 aStatus
