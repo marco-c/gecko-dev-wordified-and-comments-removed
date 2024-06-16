@@ -1109,12 +1109,12 @@ int
 :
         
 return
+f
 "
-%
-d
-"
-%
+{
 s
+}
+"
     
 if
 s
@@ -1127,15 +1127,15 @@ search
 s
 )
 and
-not
 s
-.
-startswith
-(
+[
+0
+]
+!
+=
 "
 ~
 "
-)
 :
         
 return
