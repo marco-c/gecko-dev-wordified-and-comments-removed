@@ -860,6 +860,17 @@ g_strcmp0
 snapName
 MOZ_APP_NAME
 )
+&
+&
+g_strcmp0
+(
+snapName
+MOZ_APP_NAME
+"
+-
+devel
+"
+)
 )
 {
 return
