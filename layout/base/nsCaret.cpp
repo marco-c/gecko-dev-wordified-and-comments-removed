@@ -2805,6 +2805,10 @@ UpdateCaretPositionFromSelectionIfNeeded
 (
 )
 ;
+ResetBlinking
+(
+)
+;
 }
 return
 NS_OK
