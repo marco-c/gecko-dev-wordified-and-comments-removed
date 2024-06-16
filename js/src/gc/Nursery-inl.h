@@ -958,7 +958,10 @@ if
 allocCount
 =
 =
-1
+gc
+:
+:
+NormalSiteAttentionThreshold
 )
 {
 pretenuringNursery
@@ -977,6 +980,15 @@ site
 isNormal
 (
 )
+&
+&
+allocCount
+>
+=
+gc
+:
+:
+NormalSiteAttentionThreshold
 site
 -
 >
