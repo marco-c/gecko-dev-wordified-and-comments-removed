@@ -437,8 +437,6 @@ NS_IsMainThread
 {
 if
 (
-NS_WARN_IF
-(
 AppShutdown
 :
 :
@@ -448,7 +446,6 @@ ShutdownPhase
 :
 :
 AppShutdownConfirmed
-)
 )
 )
 {
