@@ -1496,6 +1496,14 @@ ModuleLoadRequest
 aRequest
 )
 ;
+bool
+IsFetchingAndHasWaitingRequest
+(
+ModuleLoadRequest
+*
+aRequest
+)
+;
 enum
 {
 ModulePrivateSlot
