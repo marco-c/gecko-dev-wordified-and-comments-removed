@@ -68,12 +68,12 @@ dictionary
 const
 kCheckAvailableDictionaryHeaderMaxRetry
 =
-5
+10
 ;
 const
 kCheckAvailableDictionaryHeaderRetryTimeout
 =
-100
+200
 ;
 const
 kCheckPreviousRequestHeadersMaxRetry
