@@ -464,12 +464,6 @@ nsIAutoCompleteObserver
 >
 mLastListener
 ;
-nsCOMPtr
-<
-nsIFormHistoryAutoComplete
->
-mLastFormHistoryAutoComplete
-;
 nsString
 mLastSearchString
 ;
