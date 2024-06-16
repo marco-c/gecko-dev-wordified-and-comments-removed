@@ -3835,9 +3835,6 @@ unlimitedStorage
 webRequest
 "
 "
-webRequestAuthProvider
-"
-"
 webRequestBlocking
 "
 "

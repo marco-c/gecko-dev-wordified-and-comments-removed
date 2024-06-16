@@ -42,9 +42,6 @@ enum
 webRequest
 "
 "
-webRequestAuthProvider
-"
-"
 webRequestBlocking
 "
 "
@@ -432,7 +429,7 @@ postprocess
 "
 :
 "
-webRequestBlockingOrAuthProviderPermissionRequired
+webRequestBlockingPermissionRequired
 "
 }
 {
