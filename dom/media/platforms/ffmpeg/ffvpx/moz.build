@@ -128,12 +128,6 @@ media
 /
 mozva
 "
-"
-/
-toolkit
-/
-xre
-"
 ]
 CXXFLAGS
 +
