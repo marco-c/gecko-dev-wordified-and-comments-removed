@@ -4286,7 +4286,7 @@ it
 null
 )
 {
-var
+val
 listOfFromLanguages
 =
 mutableListOf
@@ -4295,7 +4295,7 @@ Language
 >
 (
 )
-var
+val
 listOfToLanguages
 =
 mutableListOf
