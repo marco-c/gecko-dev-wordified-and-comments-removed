@@ -255,7 +255,6 @@ nsDisplayCanvas
 "
 TYPE_CANVAS
 )
-virtual
 nsRegion
 GetOpaqueRegion
 (
@@ -274,7 +273,7 @@ aSnap
 =
 false
 ;
-nsHTMLCanvasFrame
+auto
 *
 f
 =
@@ -289,7 +288,7 @@ Frame
 )
 )
 ;
-HTMLCanvasElement
+auto
 *
 canvas
 =
@@ -390,7 +389,6 @@ return
 result
 ;
 }
-virtual
 nsRect
 GetBounds
 (
@@ -424,7 +422,6 @@ ToReferenceFrame
 )
 ;
 }
-virtual
 bool
 CreateWebRenderCommands
 (
@@ -510,7 +507,7 @@ FlushOffscreenCanvas
 (
 )
 ;
-nsHTMLCanvasFrame
+auto
 *
 canvasFrame
 =
@@ -1179,7 +1176,6 @@ return
 true
 ;
 }
-virtual
 bool
 IsContentful
 (
@@ -1228,7 +1224,6 @@ MaybeModified
 )
 ;
 }
-virtual
 void
 Paint
 (
@@ -1954,7 +1949,9 @@ size
 0
 )
 ;
-HTMLCanvasElement
+if
+(
+auto
 *
 canvas
 =
@@ -1967,10 +1964,6 @@ GetContent
 (
 )
 )
-;
-if
-(
-canvas
 )
 {
 size
