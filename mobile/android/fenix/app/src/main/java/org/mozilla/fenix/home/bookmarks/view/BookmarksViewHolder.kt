@@ -338,7 +338,7 @@ R
 .
 string
 .
-recently_saved_menu_item_remove
+home_bookmarks_menu_item_remove
 )
 onClick
 =

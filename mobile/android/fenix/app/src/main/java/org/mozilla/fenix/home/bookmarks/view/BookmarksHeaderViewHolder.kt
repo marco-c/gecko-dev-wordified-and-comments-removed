@@ -345,7 +345,7 @@ R
 .
 string
 .
-recently_saved_title
+home_bookmarks_title
 )
 description
 =
@@ -355,7 +355,7 @@ R
 .
 string
 .
-recently_saved_show_all_content_description_2
+home_bookmarks_show_all_content_description
 )
 onShowAllClick
 =

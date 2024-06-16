@@ -3526,7 +3526,7 @@ R
 .
 string
 .
-customize_toggle_recent_bookmarks
+customize_toggle_bookmarks
 )
 )
 )

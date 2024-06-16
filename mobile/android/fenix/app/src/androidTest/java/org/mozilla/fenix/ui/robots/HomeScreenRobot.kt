@@ -3904,7 +3904,7 @@ exists
 exists
 )
 fun
-verifyRecentBookmarksSectionIsDisplayed
+verifyBookmarksSectionIsDisplayed
 (
 exists
 :
@@ -3921,7 +3921,7 @@ R
 .
 string
 .
-recently_saved_title
+home_bookmarks_title
 )
 )
 exists

@@ -501,7 +501,7 @@ R
 .
 string
 .
-pref_key_recent_bookmarks
+pref_key_customization_bookmarks
 )
 .
 apply

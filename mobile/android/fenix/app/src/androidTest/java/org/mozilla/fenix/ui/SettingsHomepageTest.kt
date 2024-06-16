@@ -703,7 +703,7 @@ bookmarkPage
 .
 goToHomescreen
 {
-verifyRecentBookmarksSectionIsDisplayed
+verifyBookmarksSectionIsDisplayed
 (
 exists
 =
@@ -724,7 +724,7 @@ clickRecentBookmarksButton
 .
 goBackToHomeScreen
 {
-verifyRecentBookmarksSectionIsDisplayed
+verifyBookmarksSectionIsDisplayed
 (
 exists
 =
