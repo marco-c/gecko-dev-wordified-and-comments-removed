@@ -43778,9 +43778,8 @@ MOZ_ASSERT
 listItem
 -
 >
-HasAnyStateBits
+HasOutsideMarker
 (
-NS_BLOCK_FRAME_HAS_OUTSIDE_MARKER
 )
 =
 =
