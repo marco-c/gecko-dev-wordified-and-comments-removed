@@ -1,4 +1,13 @@
 use
+crate
+:
+:
+dispatch
+:
+:
+*
+;
+use
 coreaudio_sys
 :
 :
@@ -299,6 +308,10 @@ T
 >
 OSStatus
 {
+debug_assert_running_serially
+(
+)
+;
 unsafe
 {
 AudioObjectSetPropertyData
@@ -380,6 +393,10 @@ T
 >
 OSStatus
 {
+debug_assert_running_serially
+(
+)
+;
 unsafe
 {
 AudioObjectAddPropertyListener
@@ -425,6 +442,10 @@ T
 >
 OSStatus
 {
+debug_assert_running_serially
+(
+)
+;
 unsafe
 {
 AudioObjectRemovePropertyListener

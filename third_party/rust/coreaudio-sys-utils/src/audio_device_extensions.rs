@@ -1,4 +1,13 @@
 use
+crate
+:
+:
+dispatch
+:
+:
+*
+;
+use
 coreaudio_sys
 :
 :
@@ -55,6 +64,10 @@ f32
 >
 OSStatus
 {
+debug_assert_running_serially
+(
+)
+;
 unsafe
 {
 AudioDeviceDuck
