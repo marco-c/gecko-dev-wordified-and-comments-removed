@@ -1242,6 +1242,17 @@ else
 false
 #
 endif
+MOZ_SELECTABLE_PROFILES
+:
+#
+ifdef
+MOZ_SELECTABLE_PROFILES
+true
+#
+else
+false
+#
+endif
 /
 /
 Returns
