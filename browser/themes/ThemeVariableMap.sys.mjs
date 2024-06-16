@@ -239,7 +239,7 @@ tabs
 -
 navbar
 -
-shadow
+separator
 -
 color
 "
