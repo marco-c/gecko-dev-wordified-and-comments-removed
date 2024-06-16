@@ -132,6 +132,9 @@ mCanBePan
 bool
 mCanBePanSet
 ;
+bool
+mSingleTapBeforeActivation
+;
 enum
 class
 TouchEndState
