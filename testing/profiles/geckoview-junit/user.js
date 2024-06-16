@@ -1,13 +1,11 @@
 user_pref
 (
 "
-browser
+app
 .
-tabs
+update
 .
-remote
-.
-autostart
+disabledForTesting
 "
 true
 )

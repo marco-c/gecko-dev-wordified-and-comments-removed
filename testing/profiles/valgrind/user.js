@@ -14,3 +14,15 @@ errors
 false
 )
 ;
+user_pref
+(
+"
+app
+.
+update
+.
+disabledForTesting
+"
+true
+)
+;
