@@ -61,9 +61,6 @@ class
 nsIContent
 ;
 class
-nsIScrollableFrame
-;
-class
 nsIWidget
 ;
 class
@@ -90,6 +87,9 @@ mozilla
 {
 class
 PresShell
+;
+class
+ScrollContainerFrame
 ;
 enum
 class
@@ -491,7 +491,7 @@ static
 bool
 IsScrollInProgress
 (
-nsIScrollableFrame
+ScrollContainerFrame
 *
 aFrame
 )
