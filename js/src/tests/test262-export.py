@@ -306,7 +306,7 @@ matchobj
 .
 group
 (
-1
+2
 )
         
 expected
@@ -317,7 +317,7 @@ matchobj
 .
 group
 (
-2
+3
 )
         
 if
@@ -367,6 +367,27 @@ rb
 "
 .
 *
+(
+if
+\
+(
+typeof
+reportCompare
+=
+=
+=
+\
+"
+function
+\
+"
+\
+)
+\
+s
+*
+)
+?
 reportCompare
 \
 s
