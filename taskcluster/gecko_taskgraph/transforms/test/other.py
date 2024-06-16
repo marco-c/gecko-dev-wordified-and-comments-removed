@@ -13,12 +13,6 @@ schedules
 import
 INCLUSIVE_COMPONENTS
 from
-mozbuild
-.
-util
-import
-ReadOnlyDict
-from
 taskgraph
 .
 transforms
@@ -42,6 +36,14 @@ util
 keyed_by
 import
 evaluate_keyed_by
+from
+taskgraph
+.
+util
+.
+readonlydict
+import
+ReadOnlyDict
 from
 taskgraph
 .
