@@ -647,6 +647,9 @@ DisplayMode
 Platform
 "
 "
+PositionAnchor
+"
+"
 GtkThemeFamily
 "
 "
