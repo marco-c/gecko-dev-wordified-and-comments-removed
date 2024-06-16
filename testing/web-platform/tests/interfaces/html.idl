@@ -352,7 +352,7 @@ static
 Document
 parseHTMLUnsafe
 (
-DOMString
+HTMLString
 html
 )
 ;
@@ -557,7 +557,7 @@ CEReactions
 undefined
 write
 (
-DOMString
+HTMLString
 .
 .
 .
@@ -570,7 +570,7 @@ CEReactions
 undefined
 writeln
 (
-DOMString
+HTMLString
 .
 .
 .
@@ -2300,7 +2300,7 @@ src
 CEReactions
 ]
 attribute
-DOMString
+HTMLString
 srcdoc
 ;
 [
@@ -11849,7 +11849,7 @@ NewObject
 Document
 parseFromString
 (
-DOMString
+HTMLString
 string
 DOMParserSupportedType
 type
@@ -11901,7 +11901,7 @@ CEReactions
 undefined
 setHTMLUnsafe
 (
-DOMString
+HTMLString
 html
 )
 ;
@@ -11917,7 +11917,7 @@ CEReactions
 undefined
 setHTMLUnsafe
 (
-DOMString
+HTMLString
 html
 )
 ;
@@ -12975,7 +12975,7 @@ navigator
 undefined
 importScripts
 (
-USVString
+ScriptURLString
 .
 .
 .
@@ -13133,7 +13133,7 @@ EventTarget
 {
 constructor
 (
-USVString
+ScriptURLString
 scriptURL
 optional
 WorkerOptions
@@ -13249,7 +13249,7 @@ EventTarget
 {
 constructor
 (
-USVString
+ScriptURLString
 scriptURL
 optional
 (

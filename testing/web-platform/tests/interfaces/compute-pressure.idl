@@ -207,11 +207,13 @@ toJSON
 dictionary
 PressureObserverOptions
 {
-double
-sampleRate
+[
+EnforceRange
+]
+unsigned
+long
+sampleInterval
 =
-1
-.
 0
 ;
 }

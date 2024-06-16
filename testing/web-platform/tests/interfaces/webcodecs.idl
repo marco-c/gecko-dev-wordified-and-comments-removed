@@ -644,6 +644,7 @@ codec
 [
 EnforceRange
 ]
+required
 unsigned
 long
 sampleRate
@@ -651,6 +652,7 @@ sampleRate
 [
 EnforceRange
 ]
+required
 unsigned
 long
 numberOfChannels

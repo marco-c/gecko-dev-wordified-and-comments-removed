@@ -779,6 +779,11 @@ attribute
 long
 clientHeight
 ;
+readonly
+attribute
+double
+currentCSSZoom
+;
 }
 ;
 partial
