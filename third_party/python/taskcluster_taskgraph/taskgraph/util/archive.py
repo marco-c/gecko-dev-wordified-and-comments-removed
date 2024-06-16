@@ -320,17 +320,17 @@ isreg
 raise
 ValueError
 (
+f
 "
 not
 a
 regular
 file
 :
-%
-s
-"
-%
+{
 f
+}
+"
 )
             
 if
@@ -352,6 +352,7 @@ S_ISGID
 raise
 ValueError
 (
+f
 "
 cannot
 add
@@ -362,13 +363,10 @@ or
 setgid
 set
 :
-"
-"
-%
-s
-"
-%
+{
 f
+}
+"
 )
             
 ti

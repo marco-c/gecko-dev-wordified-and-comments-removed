@@ -55,6 +55,8 @@ annotations
 "
 "
 import
+functools
+import
 hashlib
 import
 os
@@ -111,14 +113,6 @@ util
 keyed_by
 import
 evaluate_keyed_by
-from
-taskgraph
-.
-util
-.
-memoize
-import
-memoize
 from
 taskgraph
 .
@@ -208,7 +202,14 @@ run
 task
 "
 )
-memoize
+functools
+.
+lru_cache
+(
+maxsize
+=
+None
+)
 def
 _run_task_suffix
 (
@@ -953,7 +954,14 @@ params
 head_rev
 "
 ]
-memoize
+functools
+.
+lru_cache
+(
+maxsize
+=
+None
+)
 def
 get_default_priority
 (
@@ -987,7 +995,14 @@ project
 }
     
 )
-memoize
+functools
+.
+lru_cache
+(
+maxsize
+=
+None
+)
 def
 get_default_deadline
 (
@@ -1804,10 +1819,12 @@ raise
 Exception
 (
                         
+f
 "
 volume
-%
-s
+{
+v
+}
 already
 defined
 ;
@@ -1839,8 +1856,6 @@ the
 worker
 definition
 "
-%
-v
                     
 )
                 
@@ -2925,7 +2940,6 @@ scopes
 .
 append
 (
-                
 {
 "
 task
@@ -2933,6 +2947,7 @@ task
 reference
 "
 :
+f
 "
 docker
 -
@@ -2940,13 +2955,11 @@ worker
 :
 cache
 :
-%
-s
-"
-%
+{
 name
 }
-            
+"
+}
 )
         
 if

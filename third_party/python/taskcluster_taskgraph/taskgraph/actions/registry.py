@@ -1,4 +1,6 @@
 import
+functools
+import
 json
 from
 collections
@@ -36,14 +38,6 @@ import
 hash
 taskcluster
 yaml
-from
-taskgraph
-.
-util
-.
-memoize
-import
-memoize
 from
 taskgraph
 .
@@ -126,7 +120,14 @@ False
     
 return
 True
-memoize
+functools
+.
+lru_cache
+(
+maxsize
+=
+None
+)
 def
 read_taskcluster_yml
 (
@@ -144,7 +145,7 @@ parse
 taskcluster
 .
 yml
-memoized
+cached
 to
 save
 some
@@ -160,7 +161,14 @@ load_yaml
 (
 filename
 )
-memoize
+functools
+.
+lru_cache
+(
+maxsize
+=
+None
+)
 def
 hash_taskcluster_yml
 (

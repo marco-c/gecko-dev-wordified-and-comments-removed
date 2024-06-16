@@ -1,5 +1,11 @@
-import
+from
+taskgraph
+.
+util
+.
 copy
+import
+deepcopy
 def
 merge_to
 (
@@ -83,6 +89,53 @@ items
 :
         
 if
+(
+            
+isinstance
+(
+value
+dict
+)
+            
+and
+len
+(
+value
+)
+=
+=
+1
+            
+and
+list
+(
+value
+)
+[
+0
+]
+.
+startswith
+(
+"
+by
+-
+"
+)
+        
+)
+:
+            
+dest
+[
+key
+]
+=
+value
+            
+continue
+        
+if
 type
 (
 value
@@ -105,10 +158,7 @@ dest
 key
 ]
 =
-source
-[
-key
-]
+value
             
 continue
         
@@ -149,10 +199,7 @@ dest
 key
 ]
 +
-source
-[
-key
-]
+value
             
 continue
         
@@ -161,10 +208,7 @@ dest
 key
 ]
 =
-source
-[
-key
-]
+value
     
 return
 dest
@@ -241,8 +285,6 @@ objects
 :
         
 return
-copy
-.
 deepcopy
 (
 objects
