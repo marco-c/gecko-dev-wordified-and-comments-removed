@@ -223,6 +223,13 @@ burst_interval
 )
 ;
 void
+SetAllowProbeWithoutMediaPacket
+(
+bool
+allow
+)
+;
+void
 EnsureStarted
 (
 )

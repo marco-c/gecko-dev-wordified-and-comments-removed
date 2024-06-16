@@ -200,6 +200,12 @@ RtpRtcpInterface
 rtp_module
 )
 ;
+bool
+SupportsRtxPayloadPadding
+(
+)
+const
+;
 void
 AddReceiveRtpModule
 (

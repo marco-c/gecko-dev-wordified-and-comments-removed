@@ -864,6 +864,10 @@ env_
 SequenceChecker
 sequence_checker_
 ;
+const
+bool
+allow_bandwidth_estimation_probe_without_media_
+;
 TaskQueueBase
 *
 task_queue_
