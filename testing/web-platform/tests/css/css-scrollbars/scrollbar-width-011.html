@@ -22,7 +22,7 @@ Scrollbars
 scrollbar
 -
 width
-none
+thin
 on
 the
 root
@@ -91,6 +91,10 @@ scrollbars
 -
 1
 /
+#
+width
+-
+compat
 "
 /
 >
@@ -159,7 +163,7 @@ scrollbar
 -
 width
 :
-none
+thin
 ;
 }
 :
@@ -171,15 +175,9 @@ webkit
 -
 scrollbar
 {
-width
+display
 :
-20px
-;
-background
--
-color
-:
-lightgray
+none
 ;
 }
 :
@@ -301,7 +299,7 @@ content
 '
 )
 ;
-assert_equals
+assert_less_than
 (
 root
 .
@@ -311,9 +309,7 @@ window
 innerWidth
 "
 viewport
-does
-not
-show
+has
 a
 scrollbar
 "
@@ -354,7 +350,7 @@ body
 scrollbar
 -
 width
-none
+thin
 on
 the
 root
