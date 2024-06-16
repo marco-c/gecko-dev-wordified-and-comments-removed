@@ -16951,12 +16951,6 @@ StyleTextAlign
 :
 Start
 :
-case
-StyleTextAlign
-:
-:
-Char
-:
 if
 (
 hang
