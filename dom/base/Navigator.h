@@ -1205,12 +1205,6 @@ UserActivation
 (
 )
 ;
-MediaKeySystemAccessManager
-*
-GetOrCreateMediaKeySystemAccessManager
-(
-)
-;
 private
 :
 void
@@ -1491,11 +1485,6 @@ dom
 WakeLockJS
 >
 mWakeLock
-;
-bool
-mInvalidated
-=
-false
 ;
 }
 ;
