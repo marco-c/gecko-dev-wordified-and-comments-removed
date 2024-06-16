@@ -369,9 +369,6 @@ return
 retVal
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 function
 GetSetRecord
 (
@@ -1684,5 +1681,3 @@ return
 true
 ;
 }
-#
-endif
