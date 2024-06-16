@@ -678,7 +678,10 @@ value
 :
 value_
 (
+int8_t
+(
 value
+)
 )
 {
 MOZ_ASSERT

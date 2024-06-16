@@ -967,7 +967,7 @@ append
 '
 )
 ;
-uint32_t
+int32_t
 k
 =
 100
@@ -1044,7 +1044,7 @@ append
 '
 )
 ;
-uint32_t
+int32_t
 k
 =
 100
@@ -1507,7 +1507,10 @@ offsetNanoseconds
 ;
 }
 return
+int32_t
+(
 quotient
+)
 ;
 }
 static

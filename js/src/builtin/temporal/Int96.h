@@ -659,6 +659,8 @@ divisor
 int64_t
 result
 =
+int64_t
+(
 (
 TwoDigit
 (
@@ -676,6 +678,7 @@ quotient
 [
 0
 ]
+)
 ;
 if
 (

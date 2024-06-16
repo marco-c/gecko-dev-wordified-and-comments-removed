@@ -707,6 +707,8 @@ n
 +
 ]
 =
+char
+(
 '
 0
 '
@@ -715,6 +717,7 @@ n
 offsetHours
 /
 10
+)
 )
 ;
 }
@@ -725,6 +728,8 @@ n
 +
 ]
 =
+char
+(
 '
 0
 '
@@ -733,6 +738,7 @@ n
 offsetHours
 %
 10
+)
 )
 ;
 MOZ_ASSERT
