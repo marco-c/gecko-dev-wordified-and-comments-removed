@@ -2766,8 +2766,6 @@ dwarf
 ]
             
 elif
-(
-                
 self
 .
 _context
@@ -2779,16 +2777,19 @@ substs
 get
 (
 "
-OS_ARCH
+CC_TYPE
 "
 )
 =
 =
 "
-WINNT
+clang
+-
+cl
 "
+:
                 
-and
+if
 self
 .
 _context
@@ -2808,11 +2809,22 @@ TARGET_CPU
 "
 aarch64
 "
-            
-)
 :
-                
+                    
 pass
+                
+else
+:
+                    
+debug_flags
++
+=
+[
+"
+-
+Zi
+"
+]
             
 else
 :
