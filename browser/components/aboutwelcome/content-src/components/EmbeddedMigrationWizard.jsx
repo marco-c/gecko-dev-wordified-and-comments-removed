@@ -248,6 +248,14 @@ return
 migration
 -
 wizard
+in
+-
+aboutwelcome
+-
+bundle
+=
+"
+"
 force
 -
 show
