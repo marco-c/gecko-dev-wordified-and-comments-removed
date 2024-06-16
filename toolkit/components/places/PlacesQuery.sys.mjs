@@ -476,7 +476,6 @@ historyObserverTask
 =
 null
 ;
-#
 searchInProgress
 =
 false
@@ -1222,7 +1221,6 @@ if
 (
 this
 .
-#
 searchInProgress
 )
 {
@@ -1237,7 +1235,6 @@ try
 {
 this
 .
-#
 searchInProgress
 =
 true
@@ -1291,7 +1288,6 @@ finally
 {
 this
 .
-#
 searchInProgress
 =
 false
