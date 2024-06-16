@@ -2997,6 +2997,15 @@ nsAtom
 aHighlightName
 )
 ;
+already_AddRefed
+<
+ComputedStyle
+>
+ComputeTargetTextStyle
+(
+)
+const
+;
 nsContainerFrame
 *
 GetParent
