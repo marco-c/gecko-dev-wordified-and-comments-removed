@@ -2320,10 +2320,6 @@ if
 (
 !
 stream
-|
-|
-!
-params
 )
 {
 return
