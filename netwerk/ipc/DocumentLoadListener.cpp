@@ -4115,6 +4115,14 @@ UrgentStart
 )
 ;
 }
+AntiTrackingUtils
+:
+:
+UpdateAntiTrackingInfoForChannel
+(
+httpChannel
+)
+;
 }
 AddClientChannelHelperInParent
 (
