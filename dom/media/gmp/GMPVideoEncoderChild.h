@@ -290,6 +290,14 @@ RecvEncodingComplete
 (
 )
 ;
+void
+ActorDestroy
+(
+ActorDestroyReason
+why
+)
+override
+;
 GMPContentChild
 *
 mPlugin
