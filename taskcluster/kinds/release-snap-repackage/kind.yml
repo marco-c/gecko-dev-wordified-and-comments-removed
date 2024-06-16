@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -107,7 +107,7 @@ post
 langpack
 -
 dummy
-job
+task
 -
 defaults
 :
@@ -366,7 +366,7 @@ of
 trust
 :
 true
-jobs
+tasks
 :
 firefox
 :

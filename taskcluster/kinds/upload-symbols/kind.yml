@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -193,7 +193,7 @@ aarch64
 geckodriver
 /
 opt
-jobs
+tasks
 :
 upload
 -

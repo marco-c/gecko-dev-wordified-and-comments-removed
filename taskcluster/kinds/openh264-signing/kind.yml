@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -99,7 +99,7 @@ dependencies
 openh264
 -
 plugin
-jobs
+tasks
 :
 openh264
 -

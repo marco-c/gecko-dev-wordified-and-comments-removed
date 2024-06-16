@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -121,7 +121,7 @@ signing
 Mac
 -
 repackage
-job
+task
 -
 defaults
 :
@@ -513,7 +513,7 @@ use
 python
 :
 default
-jobs
+tasks
 :
 win32
 -

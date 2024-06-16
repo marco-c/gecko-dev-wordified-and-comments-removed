@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -99,7 +99,7 @@ dependencies
 repackage
 -
 msix
-jobs
+tasks
 :
 repackage
 -

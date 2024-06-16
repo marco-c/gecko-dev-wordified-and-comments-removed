@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -111,7 +111,7 @@ build
 fat
 -
 aar
-job
+task
 -
 defaults
 :
@@ -184,7 +184,7 @@ attributes
 build_platform
 :
 android
-jobs
+tasks
 :
 focus
 -

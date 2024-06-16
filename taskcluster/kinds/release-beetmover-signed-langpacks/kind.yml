@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -135,7 +135,7 @@ linux64
 devedition
 /
 opt
-jobs
+tasks
 :
 release
 -

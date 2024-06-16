@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -199,7 +199,7 @@ aarch64
 devedition
 /
 opt
-jobs
+tasks
 :
 shippable
 -

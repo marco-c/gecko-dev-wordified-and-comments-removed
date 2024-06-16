@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -109,7 +109,7 @@ release
 flatpak
 -
 repackage
-job
+task
 -
 defaults
 :
@@ -198,7 +198,7 @@ stable
 default
 :
 mock
-jobs
+tasks
 :
 firefox
 :

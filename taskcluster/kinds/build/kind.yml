@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -151,7 +151,7 @@ transforms
 task
 :
 transforms
-jobs
+tasks
 -
 from
 :
@@ -207,7 +207,7 @@ windows
 mingw
 .
 yml
-job
+task
 -
 defaults
 :

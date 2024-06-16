@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -83,7 +83,7 @@ transforms
 task
 :
 transforms
-job
+task
 -
 defaults
 :
@@ -847,7 +847,7 @@ locales
 "
 }
 ]
-jobs
+tasks
 :
 l10n
 -

@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -133,7 +133,7 @@ Mac
 repackage
 -
 l10n
-job
+task
 -
 defaults
 :
@@ -626,7 +626,7 @@ use
 python
 :
 default
-jobs
+tasks
 :
 win32
 -

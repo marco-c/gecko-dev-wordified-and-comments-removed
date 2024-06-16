@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -99,7 +99,7 @@ transforms
 task
 :
 transforms
-job
+task
 -
 defaults
 :
@@ -218,7 +218,7 @@ default
 :
 [
 ]
-jobs
+tasks
 :
 firefox
 :

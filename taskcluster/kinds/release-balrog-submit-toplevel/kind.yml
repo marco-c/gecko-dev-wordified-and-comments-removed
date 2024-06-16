@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -107,7 +107,7 @@ transforms
 task
 :
 transforms
-job
+task
 -
 defaults
 :
@@ -226,7 +226,7 @@ config
 whats_new_page
 .
 yml
-jobs
+tasks
 :
 firefox
 :

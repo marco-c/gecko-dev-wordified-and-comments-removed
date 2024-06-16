@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -152,7 +152,7 @@ linux64
 shippable
 /
 opt
-jobs
+tasks
 :
 repackage
 -

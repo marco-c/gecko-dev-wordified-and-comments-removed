@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -107,7 +107,7 @@ release
 push
 -
 langpacks
-job
+task
 -
 defaults
 :
@@ -139,7 +139,7 @@ balrog
 action
 :
 schedule
-jobs
+tasks
 :
 firefox
 :

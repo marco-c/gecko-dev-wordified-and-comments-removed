@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -153,7 +153,7 @@ win64
 shippable
 /
 opt
-jobs
+tasks
 :
 l10n
 :

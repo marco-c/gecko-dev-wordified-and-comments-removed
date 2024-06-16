@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -117,7 +117,7 @@ android
 startup
 -
 test
-jobs
+tasks
 :
 push
 -

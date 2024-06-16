@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -117,7 +117,7 @@ balrog
 submit
 -
 toplevel
-job
+task
 -
 defaults
 :
@@ -149,7 +149,7 @@ balrog
 action
 :
 schedule
-jobs
+tasks
 :
 firefox
 -

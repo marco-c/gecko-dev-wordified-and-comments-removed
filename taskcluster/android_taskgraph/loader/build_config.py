@@ -1,5 +1,5 @@
 from
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -70,7 +70,7 @@ yml
 config
 [
 "
-jobs
+tasks
 "
 ]
 =
@@ -154,7 +154,7 @@ yml
 under
 the
 key
-jobs
+tasks
 .
     
 "
@@ -183,7 +183,7 @@ config
 config
 [
 "
-jobs
+tasks
 "
 ]
 =
@@ -192,7 +192,7 @@ merge
 config
 [
 "
-jobs
+tasks
 "
 ]
 components_tasks

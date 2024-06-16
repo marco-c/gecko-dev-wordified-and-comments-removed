@@ -227,7 +227,7 @@ priority
 Optional
 (
 "
-job
+task
 -
 from
 "
@@ -236,7 +236,7 @@ from
 task_description_schema
 [
 "
-job
+task
 -
 from
 "

@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -109,7 +109,7 @@ snap
 upstream
 -
 build
-job
+task
 -
 defaults
 :
@@ -176,7 +176,7 @@ worker
 /
 artifacts
 /
-jobs
+tasks
 :
 basic
 :

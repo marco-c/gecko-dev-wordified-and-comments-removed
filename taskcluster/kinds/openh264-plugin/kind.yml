@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -97,7 +97,7 @@ transforms
 task
 :
 transforms
-job
+task
 -
 defaults
 :
@@ -163,7 +163,7 @@ of
 trust
 :
 true
-jobs
+tasks
 :
 linux32
 /

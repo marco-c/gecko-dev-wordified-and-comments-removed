@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -101,7 +101,7 @@ post
 beetmover
 -
 dummy
-job
+task
 -
 defaults
 :
@@ -326,7 +326,7 @@ default
 :
 [
 ]
-jobs
+tasks
 :
 firefox
 :

@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -113,7 +113,7 @@ release
 version
 -
 bump
-job
+task
 -
 defaults
 :
@@ -220,7 +220,7 @@ shipping
 phase
 :
 ship
-jobs
+tasks
 :
 firefox
 :

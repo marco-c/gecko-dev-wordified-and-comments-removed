@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -139,7 +139,7 @@ transforms
 task
 :
 transforms
-job
+task
 -
 defaults
 :
@@ -828,7 +828,7 @@ sysroot
 wasm32
 -
 wasi
-jobs
+tasks
 :
 android
 -

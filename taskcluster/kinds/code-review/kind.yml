@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -101,7 +101,7 @@ source
 test
 -
 toolchain
-job
+task
 -
 defaults
 :
@@ -110,7 +110,7 @@ use
 python
 :
 default
-jobs
+tasks
 :
 issues
 :

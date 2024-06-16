@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -121,7 +121,7 @@ signed
 langpacks
 -
 checksums
-jobs
+tasks
 :
 firefox
 -

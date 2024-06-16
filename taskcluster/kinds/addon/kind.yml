@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -94,7 +94,7 @@ transforms
 task
 :
 transforms
-job
+task
 -
 defaults
 :
@@ -103,7 +103,7 @@ use
 python
 :
 default
-jobs
+tasks
 :
 tps
 -

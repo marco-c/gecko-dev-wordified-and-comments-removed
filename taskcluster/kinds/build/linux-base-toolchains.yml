@@ -88,7 +88,7 @@ yml
 would
 make
 using
-job
+task
 -
 defaults
 there
@@ -99,7 +99,7 @@ useful
 -
 -
 -
-job
+task
 -
 defaults
 :

@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -163,7 +163,7 @@ attributes
 nightly
 -
 shippable
-jobs
+tasks
 :
 repackage
 -

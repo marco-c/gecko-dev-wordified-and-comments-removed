@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -175,7 +175,7 @@ aarch64
 shippable
 /
 opt
-jobs
+tasks
 :
 release
 -

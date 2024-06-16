@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -103,7 +103,7 @@ checksums
 beetmover
 -
 repackage
-jobs
+tasks
 :
 post
 -

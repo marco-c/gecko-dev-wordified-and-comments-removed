@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -125,7 +125,7 @@ build
 fat
 -
 aar
-job
+task
 -
 defaults
 :
@@ -382,7 +382,7 @@ unless
 backstop
 :
 null
-jobs
+tasks
 :
 unit
 -

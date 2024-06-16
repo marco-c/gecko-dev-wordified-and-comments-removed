@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -129,7 +129,7 @@ build
 fat
 -
 aar
-jobs
+tasks
 -
 from
 :
@@ -239,7 +239,7 @@ wpt
 metadata
 .
 yml
-job
+task
 -
 defaults
 :

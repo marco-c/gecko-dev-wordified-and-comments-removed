@@ -1949,7 +1949,7 @@ __update_image_paths
 config
 [
 "
-jobs
+tasks
 "
 ]
 image_dir

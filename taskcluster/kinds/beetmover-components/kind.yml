@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -115,7 +115,7 @@ post
 signing
 -
 dummy
-jobs
+tasks
 :
 push
 -

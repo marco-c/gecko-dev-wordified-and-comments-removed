@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -89,7 +89,7 @@ transforms
 task
 :
 transforms
-jobs
+tasks
 :
 debian11
 :

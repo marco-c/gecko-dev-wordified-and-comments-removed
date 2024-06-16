@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -109,7 +109,7 @@ release
 push
 -
 bundle
-job
+task
 -
 defaults
 :
@@ -282,7 +282,7 @@ default
 :
 [
 ]
-jobs
+tasks
 :
 firefox
 :

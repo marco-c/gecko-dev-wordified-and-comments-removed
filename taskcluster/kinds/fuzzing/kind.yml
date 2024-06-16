@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -107,7 +107,7 @@ fetch
 toolchain
 -
 build
-job
+task
 -
 defaults
 :
@@ -180,7 +180,7 @@ dependencies
 [
 build
 ]
-jobs
+tasks
 :
 simple
 :

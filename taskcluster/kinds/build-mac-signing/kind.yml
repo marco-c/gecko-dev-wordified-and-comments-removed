@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -155,7 +155,7 @@ macosx64
 aarch64
 /
 debug
-jobs
+tasks
 :
 build
 -

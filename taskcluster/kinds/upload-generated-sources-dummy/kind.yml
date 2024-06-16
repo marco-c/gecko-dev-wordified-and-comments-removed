@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -121,7 +121,7 @@ upload
 generated
 -
 sources
-jobs
+tasks
 :
 upload
 -

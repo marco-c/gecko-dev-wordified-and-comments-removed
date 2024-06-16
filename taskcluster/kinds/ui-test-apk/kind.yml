@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -123,7 +123,7 @@ toolchain
 signing
 -
 apk
-job
+task
 -
 defaults
 :
@@ -696,7 +696,7 @@ default
 :
 {
 }
-jobs
+tasks
 :
 focus
 -

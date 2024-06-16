@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -170,7 +170,7 @@ the
 target
 task
 graph
-jobs
+tasks
 :
 image_builder
 :

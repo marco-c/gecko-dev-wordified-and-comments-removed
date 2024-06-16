@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -125,7 +125,7 @@ build
 fat
 -
 aar
-job
+task
 -
 defaults
 :
@@ -242,7 +242,7 @@ run
 time
 :
 7200
-jobs
+tasks
 :
 focus
 -

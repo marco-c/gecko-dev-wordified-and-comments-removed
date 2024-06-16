@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -103,7 +103,7 @@ secondary
 balrog
 -
 scheduling
-job
+task
 -
 defaults
 :
@@ -202,7 +202,7 @@ default
 :
 [
 ]
-jobs
+tasks
 :
 firefox
 -

@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -149,7 +149,7 @@ opt
 macosx64
 /
 debug
-jobs
+tasks
 :
 shippable
 -

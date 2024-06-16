@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -97,7 +97,7 @@ generate
 checksums
 -
 signing
-jobs
+tasks
 :
 release
 -

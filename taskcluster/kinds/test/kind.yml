@@ -232,7 +232,7 @@ org
 Sheriffing
 /
 Job_Visibility_Policy
-jobs
+tasks
 -
 from
 :
@@ -292,7 +292,7 @@ yml
 xpcshell
 .
 yml
-job
+task
 -
 defaults
 :

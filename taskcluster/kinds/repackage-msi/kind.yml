@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -145,7 +145,7 @@ win64
 devedition
 /
 opt
-jobs
+tasks
 :
 repackage
 -

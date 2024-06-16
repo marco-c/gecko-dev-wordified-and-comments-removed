@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -209,7 +209,7 @@ reporter
 shippable
 /
 opt
-jobs
+tasks
 :
 mar
 -

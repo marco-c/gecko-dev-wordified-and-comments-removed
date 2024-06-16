@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -198,7 +198,7 @@ for
 each
 build
 .
-job
+task
 -
 defaults
 :
@@ -261,7 +261,7 @@ command
 line
 -
 numbers
-jobs
+tasks
 -
 from
 :
@@ -341,7 +341,7 @@ dependencies
 above
 .
 #
-jobs
+tasks
 :
 #
 android

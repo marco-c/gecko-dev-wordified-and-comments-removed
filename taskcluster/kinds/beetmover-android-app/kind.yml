@@ -58,7 +58,7 @@ mpl
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -109,7 +109,7 @@ apk
 signing
 -
 bundle
-jobs
+tasks
 :
 beetmover
 :

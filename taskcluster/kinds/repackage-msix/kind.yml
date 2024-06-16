@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -195,7 +195,7 @@ aarch
 devedition
 /
 opt
-jobs
+tasks
 :
 repackage
 -

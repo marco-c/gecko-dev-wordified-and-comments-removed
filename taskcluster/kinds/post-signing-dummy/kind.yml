@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -97,7 +97,7 @@ dependencies
 :
 -
 signing
-jobs
+tasks
 :
 post
 -

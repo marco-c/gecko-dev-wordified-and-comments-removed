@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -122,7 +122,7 @@ single
 job
 ?
 ?
-job
+task
 -
 defaults
 :
@@ -221,7 +221,7 @@ mozrelease
 attribute_builds
 .
 py
-jobs
+tasks
 :
 partner
 -

@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -129,7 +129,7 @@ attributes
 :
 -
 shippable
-jobs
+tasks
 :
 shippable
 -

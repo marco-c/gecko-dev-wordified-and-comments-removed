@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -101,7 +101,7 @@ release
 bouncer
 -
 check
-job
+task
 -
 defaults
 :
@@ -202,7 +202,7 @@ test
 tier
 :
 1
-jobs
+tasks
 :
 devedition
 :

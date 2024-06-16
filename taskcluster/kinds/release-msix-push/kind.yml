@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-gecko_taskgraph
+taskgraph
 .
 loader
 .
@@ -111,7 +111,7 @@ shippable
 l10n
 -
 msix
-job
+task
 -
 defaults
 :
@@ -227,7 +227,7 @@ Immediate
 default
 :
 Manual
-jobs
+tasks
 :
 firefox
 :
