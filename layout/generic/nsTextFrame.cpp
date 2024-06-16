@@ -14419,14 +14419,11 @@ textStyle
 -
 >
 mTextTransform
-.
-case_
-=
-=
-StyleTextTransformCase
+&
+StyleTextTransform
 :
 :
-Capitalize
+CAPITALIZE
 )
 {
 flags
