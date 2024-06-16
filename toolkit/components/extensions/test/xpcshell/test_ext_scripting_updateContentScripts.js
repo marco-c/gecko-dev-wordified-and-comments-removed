@@ -494,6 +494,11 @@ runAt
 "
 document_start
 "
+world
+:
+"
+ISOLATED
+"
 persistAcrossSessions
 :
 false
