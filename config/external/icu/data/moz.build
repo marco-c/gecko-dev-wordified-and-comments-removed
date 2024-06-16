@@ -33,7 +33,7 @@ and
 CONFIG
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 =
@@ -216,6 +216,15 @@ cl
 USE_INTEGRATED_CLANGCL_AS
 =
 True
+ASM_FLAGS
+[
+"
+DEBUG
+"
+]
+=
+[
+]
 if
 CONFIG
 [
