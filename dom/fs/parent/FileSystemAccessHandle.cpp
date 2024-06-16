@@ -1010,9 +1010,7 @@ CreateAndRejectInitPromise
 [
 ]
 (
-const
-char
-*
+StaticString
 aFunc
 nsresult
 aRv

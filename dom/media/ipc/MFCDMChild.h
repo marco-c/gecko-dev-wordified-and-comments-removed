@@ -110,9 +110,7 @@ void
 &
 &
 aCall
-const
-char
-*
+StaticString
 aCallerName
 MozPromiseHolder
 <

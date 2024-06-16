@@ -898,9 +898,7 @@ MozPromiseType
 >
 Dispatch
 (
-const
-char
-*
+StaticString
 aName
 FunctionType
 &

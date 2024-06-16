@@ -289,9 +289,7 @@ const
 TimeDuration
 &
 aDuration
-const
-char
-*
+StaticString
 aCallSite
 )
 {
@@ -323,9 +321,7 @@ const
 TimeStamp
 &
 aTimeStamp
-const
-char
-*
+StaticString
 aCallSite
 )
 {

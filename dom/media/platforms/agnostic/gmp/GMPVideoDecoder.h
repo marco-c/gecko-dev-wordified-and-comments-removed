@@ -379,9 +379,7 @@ DecodePromise
 >
 &
 aPromise
-const
-char
-*
+StaticString
 aMethodName
 )
 ;

@@ -597,9 +597,7 @@ aTarget
 void
 Resolve
 (
-const
-char
-*
+StaticString
 aCallSite
 )
 {
@@ -629,9 +627,7 @@ SeekJob
 void
 RejectIfExists
 (
-const
-char
-*
+StaticString
 aCallSite
 )
 {

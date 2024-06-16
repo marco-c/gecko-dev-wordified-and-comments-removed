@@ -2016,9 +2016,7 @@ const
 MediaResult
 &
 aError
-const
-char
-*
+StaticString
 aMethodName
 )
 =
@@ -2590,9 +2588,7 @@ Type
 >
 EnsurePromise
 (
-const
-char
-*
+StaticString
 aMethodName
 )
 {
@@ -2625,9 +2621,7 @@ ResolvePromise
 Type
 *
 aData
-const
-char
-*
+StaticString
 aMethodName
 )
 {
@@ -2661,9 +2655,7 @@ const
 MediaResult
 &
 aError
-const
-char
-*
+StaticString
 aMethodName
 )
 override

@@ -75,9 +75,7 @@ SeekJob
 :
 Resolve
 (
-const
-char
-*
+StaticString
 aCallSite
 )
 {
@@ -102,9 +100,7 @@ SeekJob
 :
 RejectIfExists
 (
-const
-char
-*
+StaticString
 aCallSite
 )
 {

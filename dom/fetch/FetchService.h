@@ -232,9 +232,7 @@ FetchServiceResponse
 &
 &
 aResponse
-const
-char
-*
+StaticString
 aMethodName
 )
 ;
@@ -246,9 +244,7 @@ CopyableErrorResult
 &
 &
 aError
-const
-char
-*
+StaticString
 aMethodName
 )
 ;
@@ -259,9 +255,7 @@ ResponseTiming
 &
 &
 aTiming
-const
-char
-*
+StaticString
 aMethodName
 )
 ;
@@ -273,9 +267,7 @@ CopyableErrorResult
 &
 &
 aError
-const
-char
-*
+StaticString
 aMethodName
 )
 ;
@@ -286,9 +278,7 @@ ResponseEndArgs
 &
 &
 aArgs
-const
-char
-*
+StaticString
 aMethodName
 )
 ;
@@ -300,9 +290,7 @@ CopyableErrorResult
 &
 &
 aError
-const
-char
-*
+StaticString
 aMethodName
 )
 ;

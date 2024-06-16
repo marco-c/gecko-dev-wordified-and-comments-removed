@@ -1691,9 +1691,7 @@ nsresult
 aLoadGroupStatus
 bool
 aContinueNavigating
-const
-char
-*
+StaticString
 aLocation
 )
 {

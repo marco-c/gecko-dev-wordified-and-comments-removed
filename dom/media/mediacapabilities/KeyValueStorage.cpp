@@ -495,9 +495,7 @@ GenericPromise
 >
 Ensure
 (
-const
-char
-*
+StaticString
 aMethodName
 )
 {
