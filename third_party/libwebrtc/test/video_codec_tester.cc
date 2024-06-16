@@ -6476,7 +6476,6 @@ for
 int
 sidx
 =
-*
 last_superframe_
 -
 >
@@ -6484,6 +6483,11 @@ encoded_frame
 .
 SpatialIndex
 (
+)
+.
+value_or
+(
+0
 )
 +
 1
