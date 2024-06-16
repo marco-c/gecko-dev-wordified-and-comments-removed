@@ -579,16 +579,7 @@ debug
 Bug
 1505235
 "
-os
-=
-=
-'
-mac
-'
-&
-&
-!
-debug
+apple_catalina
 "
 #
 Bug
@@ -596,6 +587,8 @@ Bug
 (
 osx
 )
+Bug
+1866073
 "
 socketprocess_networking
 "
