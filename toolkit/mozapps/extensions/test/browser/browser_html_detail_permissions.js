@@ -3818,10 +3818,11 @@ add
 "
 )
 /
-permission
-missing
-from
-manifest
+was
+not
+declared
+in
+optional_permissions
 /
 "
 unable
