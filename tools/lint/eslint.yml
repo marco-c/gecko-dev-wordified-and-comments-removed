@@ -90,10 +90,7 @@ js
 '
 .
 eslintrc
--
-test
--
-paths
+*
 .
 js
 '

@@ -124,6 +124,8 @@ exclude
 /
 .
 eslintrc
+-
+rollouts
 .
 js
 '
