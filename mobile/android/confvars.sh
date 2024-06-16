@@ -65,13 +65,13 @@ chrome
 :
 /
 /
-browser
+geckoview
 /
 content
 /
-browser
+geckoview
 .
-xul
+xhtml
 MOZ_BRANDING_DIRECTORY
 =
 mobile
