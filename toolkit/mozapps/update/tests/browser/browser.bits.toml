@@ -531,6 +531,13 @@ browser_doorhanger_sp_patch_partialApplyFailure_complete_staging
 js
 "
 ]
+[
+"
+browser_showWhatsNewPageTest
+.
+js
+"
+]
 #
 Telemetry
 Update
