@@ -61,6 +61,8 @@ empty
 -
 sw
 .
+worker
+.
 js
 "
 ;

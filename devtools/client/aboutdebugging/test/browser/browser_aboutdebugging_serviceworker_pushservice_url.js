@@ -37,6 +37,8 @@ push
 -
 sw
 .
+worker
+.
 js
 "
 ;

@@ -56,6 +56,8 @@ controlled
 -
 sw
 .
+worker
+.
 js
 "
 ;

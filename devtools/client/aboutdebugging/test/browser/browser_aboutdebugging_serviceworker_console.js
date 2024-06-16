@@ -92,6 +92,8 @@ controlled
 -
 sw
 .
+worker
+.
 js
 "
 ;

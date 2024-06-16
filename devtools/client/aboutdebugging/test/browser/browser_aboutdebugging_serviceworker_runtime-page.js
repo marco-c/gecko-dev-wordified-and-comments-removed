@@ -74,6 +74,8 @@ push
 -
 sw
 .
+worker
+.
 js
 "
 ;
