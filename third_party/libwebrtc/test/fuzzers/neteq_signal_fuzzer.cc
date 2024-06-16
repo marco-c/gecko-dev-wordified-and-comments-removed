@@ -1014,12 +1014,6 @@ config
 ;
 config
 .
-enable_post_decode_vad
-=
-true
-;
-config
-.
 enable_fast_accelerate
 =
 true

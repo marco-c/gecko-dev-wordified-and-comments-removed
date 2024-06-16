@@ -275,12 +275,6 @@ decoder_factory
 decoder_factory
 )
 {
-neteq_config
-.
-enable_post_decode_vad
-=
-true
-;
 }
 AcmReceiver
 :

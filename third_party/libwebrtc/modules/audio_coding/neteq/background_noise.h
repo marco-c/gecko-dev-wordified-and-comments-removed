@@ -92,10 +92,6 @@ const
 AudioMultiVector
 &
 sync_buffer
-const
-PostDecodeVad
-&
-vad
 )
 ;
 void
