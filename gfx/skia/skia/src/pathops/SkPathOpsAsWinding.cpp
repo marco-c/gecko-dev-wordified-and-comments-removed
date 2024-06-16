@@ -2930,13 +2930,12 @@ contour
 bool
 {
 return
-!
 contour
 -
 >
 fChildren
 .
-size
+empty
 (
 )
 ;

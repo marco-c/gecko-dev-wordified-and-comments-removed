@@ -226,11 +226,15 @@ color
 &
 0xFF
 )
+[
+[
+nodiscard
+]
+]
 static
 constexpr
 inline
 SkColor
-SK_WARN_UNUSED_RESULT
 SkColorSetA
 (
 SkColor

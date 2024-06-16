@@ -208,16 +208,6 @@ value
 )
 ;
 pure
-sampler2D
-makeSampler2D
-(
-texture2D
-texture
-sampler
-s
-)
-;
-pure
 half4
 sample
 (

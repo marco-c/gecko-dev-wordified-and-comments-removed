@@ -14,9 +14,9 @@ include
 "
 include
 /
-private
+core
 /
-SkColorData
+SkColorPriv
 .
 h
 "

@@ -266,7 +266,10 @@ key
 }
 }
 ;
-SkTHashTable
+skia_private
+:
+:
+THashTable
 <
 T
 *

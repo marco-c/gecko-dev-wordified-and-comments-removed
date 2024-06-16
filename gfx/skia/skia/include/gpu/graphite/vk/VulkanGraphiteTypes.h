@@ -82,6 +82,9 @@ fAspectMask
 =
 VK_IMAGE_ASPECT_COLOR_BIT
 ;
+VulkanYcbcrConversionInfo
+fYcbcrConversionInfo
+;
 VulkanTextureInfo
 (
 )
@@ -106,6 +109,8 @@ VkSharingMode
 sharingMode
 VkImageAspectFlags
 aspectMask
+VulkanYcbcrConversionInfo
+ycbcrConversionInfo
 )
 :
 fSampleCount
@@ -139,6 +144,10 @@ sharingMode
 fAspectMask
 (
 aspectMask
+)
+fYcbcrConversionInfo
+(
+ycbcrConversionInfo
 )
 {
 }

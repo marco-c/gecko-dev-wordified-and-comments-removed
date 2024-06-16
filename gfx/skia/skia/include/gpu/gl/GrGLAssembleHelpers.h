@@ -1,4 +1,10 @@
 #
+ifndef
+GrGLAssembleHelpers_DEFINED
+#
+define
+GrGLAssembleHelpers_DEFINED
+#
 include
 "
 include
@@ -28,3 +34,5 @@ GrGLGetProc
 get
 )
 ;
+#
+endif

@@ -1,4 +1,7 @@
 #
+ifndef
+GPU_DRIVER_BUG_WORKAROUNDS
+#
 define
 GPU_DRIVER_BUG_WORKAROUNDS
 (
@@ -124,7 +127,5 @@ UNFOLD_SHORT_CIRCUIT_AS_TERNARY_OPERATION
 unfold_short_circuit_as_ternary_operation
 )
 \
-/
-/
-The
-End
+#
+endif

@@ -732,6 +732,10 @@ SkEndian_SwapLE16
 (
 n
 )
+static_cast
+<
+uint16_t
+>
 (
 n
 )
@@ -741,6 +745,10 @@ SkEndian_SwapLE32
 (
 n
 )
+static_cast
+<
+uint32_t
+>
 (
 n
 )
@@ -750,6 +758,10 @@ SkEndian_SwapLE64
 (
 n
 )
+static_cast
+<
+uint64_t
+>
 (
 n
 )
@@ -827,6 +839,10 @@ SkEndian_SwapBE16
 (
 n
 )
+static_cast
+<
+uint16_t
+>
 (
 n
 )
@@ -836,6 +852,10 @@ SkEndian_SwapBE32
 (
 n
 )
+static_cast
+<
+uint32_t
+>
 (
 n
 )
@@ -845,6 +865,10 @@ SkEndian_SwapBE64
 (
 n
 )
+static_cast
+<
+uint64_t
+>
 (
 n
 )

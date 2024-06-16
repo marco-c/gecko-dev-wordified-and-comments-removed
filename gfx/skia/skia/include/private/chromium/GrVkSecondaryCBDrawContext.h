@@ -46,7 +46,13 @@ class
 GrBackendSemaphore
 ;
 class
+GrDeferredDisplayList
+;
+class
 GrRecordingContext
+;
+class
+GrSurfaceCharacterization
 ;
 struct
 GrVkDrawableInfo
@@ -64,14 +70,8 @@ Device
 class
 SkCanvas
 ;
-class
-SkDeferredDisplayList
-;
 struct
 SkImageInfo
-;
-class
-SkSurfaceCharacterization
 ;
 class
 SkSurfaceProps
@@ -159,7 +159,7 @@ fProps
 bool
 characterize
 (
-SkSurfaceCharacterization
+GrSurfaceCharacterization
 *
 characterization
 )
@@ -174,7 +174,7 @@ draw
 sk_sp
 <
 const
-SkDeferredDisplayList
+GrDeferredDisplayList
 >
 deferredDisplayList
 )
@@ -185,7 +185,7 @@ bool
 draw
 (
 const
-SkDeferredDisplayList
+GrDeferredDisplayList
 *
 deferredDisplayList
 )
@@ -196,7 +196,7 @@ bool
 isCompatible
 (
 const
-SkSurfaceCharacterization
+GrSurfaceCharacterization
 &
 characterization
 )

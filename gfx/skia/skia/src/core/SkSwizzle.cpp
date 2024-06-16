@@ -16,7 +16,7 @@ src
 /
 core
 /
-SkOpts
+SkSwizzlePriv
 .
 h
 "

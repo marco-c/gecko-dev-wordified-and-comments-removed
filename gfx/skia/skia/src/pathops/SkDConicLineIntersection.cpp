@@ -1713,6 +1713,7 @@ conicT
 =
 (
 (
+const
 SkDCurve
 *
 )

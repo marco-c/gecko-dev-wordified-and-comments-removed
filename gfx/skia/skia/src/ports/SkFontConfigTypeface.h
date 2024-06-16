@@ -55,7 +55,7 @@ src
 /
 ports
 /
-SkFontHost_FreeType_common
+SkTypeface_FreeType
 .
 h
 "

@@ -88,6 +88,10 @@ SkPathOpsTypes
 .
 h
 "
+using
+namespace
+skia_private
+;
 SkPathWriter
 :
 :
@@ -1742,7 +1746,7 @@ finishContour
 )
 ;
 const
-SkTArray
+TArray
 <
 SkPath
 >
@@ -1918,7 +1922,7 @@ endCount
 /
 2
 ;
-SkSTArray
+STArray
 <
 8
 double
@@ -1929,7 +1933,7 @@ distances
 entries
 )
 ;
-SkSTArray
+STArray
 <
 8
 int
@@ -1940,7 +1944,7 @@ sortedDist
 entries
 )
 ;
-SkSTArray
+STArray
 <
 8
 int
@@ -3092,6 +3096,4 @@ SK_MaxS32
 }
 #
 endif
-return
-;
 }

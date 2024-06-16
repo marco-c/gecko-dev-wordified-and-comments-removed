@@ -470,6 +470,11 @@ WORKGROUP
 "
 workgroup
 "
+PIXELLOCAL
+=
+"
+pixel_local
+"
 RESERVED
 =
 atomic

@@ -10,9 +10,6 @@ SkCapabilities
 h
 "
 #
-ifdef
-SK_ENABLE_SKSL
-#
 include
 "
 src
@@ -23,8 +20,6 @@ SkSLUtil
 .
 h
 "
-#
-endif
 sk_sp
 <
 const
@@ -54,9 +49,6 @@ caps
 new
 SkCapabilities
 ;
-#
-ifdef
-SK_ENABLE_SKSL
 caps
 -
 >
@@ -70,8 +62,6 @@ Version
 :
 k100
 ;
-#
-endif
 return
 caps
 ;
@@ -86,9 +76,6 @@ sCaps
 )
 ;
 }
-#
-ifdef
-SK_ENABLE_SKSL
 void
 SkCapabilities
 :
@@ -117,5 +104,3 @@ supportedSkSLVerion
 )
 ;
 }
-#
-endif

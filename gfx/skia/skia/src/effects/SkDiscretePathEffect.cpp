@@ -340,7 +340,6 @@ normal
 ;
 }
 class
-SK_API
 SkDiscretePathEffectImpl
 :
 public

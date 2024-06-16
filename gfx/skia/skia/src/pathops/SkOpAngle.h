@@ -694,8 +694,8 @@ SkDEBUGCODE
 (
 int
 fID
-)
 ;
+)
 friend
 class
 PathOpsAngleTester

@@ -15,6 +15,11 @@ SkEventTracer
 .
 h
 "
+#
+include
+<
+cstdint
+>
 class
 SkATrace
 :

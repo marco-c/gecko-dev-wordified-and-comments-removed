@@ -728,7 +728,7 @@ getDeviceClipBounds
 )
 )
 ;
-SkBaseDevice
+SkDevice
 *
 device
 =
@@ -1568,13 +1568,7 @@ y
 ;
 }
 return
-std
-:
-:
-move
-(
 canvas
-)
 ;
 }
 void

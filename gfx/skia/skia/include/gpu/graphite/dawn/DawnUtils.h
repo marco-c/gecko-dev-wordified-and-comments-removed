@@ -9,6 +9,19 @@ include
 <
 memory
 >
+#
+include
+"
+include
+/
+private
+/
+base
+/
+SkAPI
+.
+h
+"
 namespace
 skgpu
 :
@@ -27,6 +40,7 @@ DawnBackendContext
 namespace
 ContextFactory
 {
+SK_API
 std
 :
 :

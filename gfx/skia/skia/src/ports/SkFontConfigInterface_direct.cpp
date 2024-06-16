@@ -866,7 +866,6 @@ index
 0
 )
 {
-const
 char
 *
 name
@@ -3215,6 +3214,7 @@ FcPatternAddString
 pattern
 FC_FAMILY
 (
+const
 FcChar8
 *
 )
