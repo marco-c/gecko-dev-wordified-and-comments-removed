@@ -688,6 +688,13 @@ ContinueParserAsync
 )
 const
 ;
+Document
+*
+GetScriptOwnerDocument
+(
+)
+const
+;
 void
 SetIsPreloadRequest
 (
