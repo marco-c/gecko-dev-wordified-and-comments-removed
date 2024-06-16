@@ -116,17 +116,6 @@ aClosureData
 )
 final
 ;
-Document
-*
-DocToUpdate
-(
-)
-final
-{
-return
-nullptr
-;
-}
 nsDOMCSSDeclaration
 :
 :

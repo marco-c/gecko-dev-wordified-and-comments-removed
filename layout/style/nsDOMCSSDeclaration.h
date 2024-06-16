@@ -468,9 +468,11 @@ Document
 DocToUpdate
 (
 )
-=
-0
+{
+return
+nullptr
 ;
+}
 virtual
 ParsingEnvironment
 GetParsingEnvironment

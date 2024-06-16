@@ -44,6 +44,7 @@ dom
 {
 class
 CSSKeyframeDeclaration
+final
 :
 public
 nsDOMCSSDeclaration
@@ -289,17 +290,6 @@ StyleCssRuleType
 :
 Keyframe
 )
-;
-}
-Document
-*
-DocToUpdate
-(
-)
-final
-{
-return
-nullptr
 ;
 }
 nsINode
