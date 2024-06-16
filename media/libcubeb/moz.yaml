@@ -143,6 +143,16 @@ compile
 fixes
 .
 patch
+-
+0005
+-
+aaudio
+-
+timing
+-
+fix
+.
+patch
 skip
 -
 vendoring
