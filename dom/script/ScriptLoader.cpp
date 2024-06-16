@@ -2992,7 +2992,7 @@ GetScriptLoadContext
 )
 -
 >
-GetScriptElement
+HasScriptElement
 (
 )
 )
@@ -4089,7 +4089,7 @@ GetScriptLoadContext
 )
 -
 >
-GetScriptElement
+HasScriptElement
 (
 )
 )
@@ -10253,7 +10253,7 @@ GetScriptLoadContext
 )
 -
 >
-GetScriptElement
+HasScriptElement
 (
 )
 )
@@ -10269,7 +10269,7 @@ GetScriptLoadContext
 )
 -
 >
-GetScriptElement
+HasScriptElement
 (
 )
 )
