@@ -442,12 +442,6 @@ Config
 (
 )
 ;
-config
-.
-disable_encryption
-=
-true
-;
 auto
 *
 caller

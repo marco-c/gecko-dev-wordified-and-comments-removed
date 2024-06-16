@@ -96,14 +96,6 @@ namespace
 cricket
 {
 enum
-SecurePolicy
-{
-SEC_DISABLED
-SEC_ENABLED
-SEC_REQUIRED
-}
-;
-enum
 IceRole
 {
 ICEROLE_CONTROLLING
