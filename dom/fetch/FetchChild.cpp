@@ -2524,10 +2524,6 @@ if
 (
 !
 mWorkerRef
-|
-|
-!
-mIsKeepAliveRequest
 )
 {
 return
@@ -2553,6 +2549,12 @@ mCSPEventListener
 =
 nullptr
 ;
+if
+(
+!
+mIsKeepAliveRequest
+)
+{
 Unused
 <
 <
@@ -2560,6 +2562,7 @@ SendAbortFetchOp
 (
 )
 ;
+}
 mWorkerRef
 =
 nullptr
