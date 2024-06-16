@@ -1361,6 +1361,11 @@ mLocations
 bool
 mInitialized
 ;
+bool
+mIsUnloaded
+=
+false
+;
 #
 ifdef
 DEBUG
