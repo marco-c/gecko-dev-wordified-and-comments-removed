@@ -1055,8 +1055,13 @@ if
 mUseAccessibilityTheme
 &
 &
+(
+mIsChrome
+|
+|
 !
 mUseDocumentColors
+)
 )
 {
 mMustUseLightSystemColors
