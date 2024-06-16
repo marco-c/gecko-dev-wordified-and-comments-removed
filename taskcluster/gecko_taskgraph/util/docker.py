@@ -2124,7 +2124,7 @@ ImagePathsMap
 "
 taskcluster
 /
-kinds
+ci
 /
 docker
 -

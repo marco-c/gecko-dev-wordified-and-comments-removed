@@ -182,6 +182,9 @@ GECKO
 "
 taskcluster
 "
+"
+ci
+"
 )
 )
     

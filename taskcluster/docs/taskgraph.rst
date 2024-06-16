@@ -242,7 +242,7 @@ directory
 under
 taskcluster
 /
-kinds
+ci
 _
 which
 contains
@@ -926,6 +926,9 @@ typically
 file
 :
 taskcluster
+/
+ci
+/
 )
 .
 The
@@ -1100,7 +1103,7 @@ html
 .
 _taskcluster
 /
-kinds
+ci
 :
 https
 :
@@ -1118,7 +1121,7 @@ source
 /
 taskcluster
 /
-kinds
+ci
 .
 .
 _kind

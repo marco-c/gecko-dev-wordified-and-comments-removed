@@ -390,6 +390,8 @@ defined
 in
 taskcluster
 /
+ci
+/
 config
 .
 yml

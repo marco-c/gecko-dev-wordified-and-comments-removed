@@ -4724,6 +4724,8 @@ default
 =
 "
 taskcluster
+/
+ci
 "
     
 help
@@ -4941,6 +4943,8 @@ default
 =
 "
 taskcluster
+/
+ci
 "
     
 help

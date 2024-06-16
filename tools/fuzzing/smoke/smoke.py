@@ -32,7 +32,7 @@ done
 via
 taskcluster
 /
-kinds
+ci
 /
 fuzzing
 /

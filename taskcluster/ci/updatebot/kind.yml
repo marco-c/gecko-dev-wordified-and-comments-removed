@@ -481,7 +481,7 @@ TOOLTOOL_MANIFEST
 "
 taskcluster
 /
-kinds
+ci
 /
 updatebot
 /

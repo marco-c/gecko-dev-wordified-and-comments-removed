@@ -6390,7 +6390,7 @@ by
 editing
 taskcluster
 /
-kinds
+ci
 /
 diffoscope
 /

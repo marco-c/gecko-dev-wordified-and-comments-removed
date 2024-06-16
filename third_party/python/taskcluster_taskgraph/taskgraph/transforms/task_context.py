@@ -505,19 +505,19 @@ def
 render_task
 (
 config
-tasks
+jobs
 )
 :
     
 for
-task
+job
 in
-tasks
+jobs
 :
         
 sub_config
 =
-task
+job
 .
 pop
 (
@@ -700,7 +700,7 @@ fields
 container
 subfield
 =
-task
+job
 field
             
 while
@@ -748,4 +748,4 @@ subs
 )
         
 yield
-task
+job

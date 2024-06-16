@@ -2316,7 +2316,7 @@ h
 -
 taskcluster
 /
-kinds
+ci
 /
 docker
 -

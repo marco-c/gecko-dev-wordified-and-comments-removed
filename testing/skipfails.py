@@ -6852,7 +6852,7 @@ variants_file
 "
 taskcluster
 /
-kinds
+ci
 /
 test
 /

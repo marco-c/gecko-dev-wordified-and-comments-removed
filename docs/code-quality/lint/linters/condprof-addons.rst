@@ -97,7 +97,7 @@ searchfox
 :
 taskcluster
 /
-kinds
+ci
 /
 fetch
 /
@@ -423,7 +423,7 @@ searchfox
 :
 taskcluster
 /
-kinds
+ci
 /
 fetch
 /
@@ -573,7 +573,7 @@ searchfox
 :
 taskcluster
 /
-kinds
+ci
 /
 fetch
 /
@@ -746,7 +746,7 @@ searchfox
 :
 taskcluster
 /
-kinds
+ci
 /
 fetch
 /
@@ -976,7 +976,7 @@ searchfox
 :
 taskcluster
 /
-kinds
+ci
 /
 fetch
 /

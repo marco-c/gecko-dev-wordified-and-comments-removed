@@ -362,7 +362,7 @@ be
 in
 taskcluster
 /
-kinds
+ci
 /
 *
 /
@@ -603,7 +603,7 @@ stanza
 to
 taskcluster
 /
-kinds
+ci
 /
 <
 kind

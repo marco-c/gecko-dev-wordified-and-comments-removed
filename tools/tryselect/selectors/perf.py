@@ -1121,7 +1121,7 @@ g
 .
 taskcluster
 /
-kinds
+ci
 /
 test
 /

@@ -2910,7 +2910,7 @@ source
 /
 taskcluster
 /
-kinds
+ci
 /
 source
 -

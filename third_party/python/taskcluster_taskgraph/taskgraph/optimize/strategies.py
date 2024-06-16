@@ -269,7 +269,6 @@ logger
 debug
 (
                 
-f
 '
 no
 files
@@ -286,12 +285,18 @@ changed
 for
 "
 {
-task
-.
-label
 }
 "
 '
+.
+format
+(
+                    
+task
+.
+label
+                
+)
             
 )
             

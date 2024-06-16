@@ -164,7 +164,7 @@ found
 at
 taskcluster
 /
-kinds
+ci
 /
 source
 -

@@ -306,7 +306,7 @@ yml
 '
 taskcluster
 /
-kinds
+ci
 /
 *
 *
@@ -2008,6 +2008,8 @@ changed
 '
 taskcluster
 /
+ci
+/
 config
 .
 yml
@@ -2016,7 +2018,7 @@ yml
 '
 taskcluster
 /
-kinds
+ci
 /
 test
 /

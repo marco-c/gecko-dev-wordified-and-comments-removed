@@ -216,9 +216,6 @@ fetch_graph_and_labels
         
 parameters
 graph_config
-task_group_id
-=
-task_group_id
     
 )
     

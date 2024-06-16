@@ -313,7 +313,7 @@ changed
 '
 taskcluster
 /
-kinds
+ci
 /
 *
 *

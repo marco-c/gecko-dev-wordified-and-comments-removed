@@ -1001,6 +1001,8 @@ it
 to
 taskcluster
 /
+ci
+/
 config
 .
 yml
@@ -2000,6 +2002,8 @@ configured
 products
 in
 taskcluster
+/
+ci
 /
 config
 .
@@ -11312,6 +11316,8 @@ configured
 products
 in
 taskcluster
+/
+ci
 /
 config
 .

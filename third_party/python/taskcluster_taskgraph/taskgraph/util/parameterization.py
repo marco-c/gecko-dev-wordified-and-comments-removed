@@ -140,45 +140,6 @@ param_key
 }
 :
                         
-if
-isinstance
-(
-val
-[
-param_key
-]
-dict
-)
-:
-                            
-return
-{
-                                
-param_fn
-(
-key
-)
-:
-recurse
-(
-v
-)
-                                
-for
-key
-v
-in
-val
-[
-param_key
-]
-.
-items
-(
-)
-                            
-}
-                        
 return
 param_fn
 (
@@ -547,12 +508,10 @@ raise
 KeyError
 (
                         
-f
 "
 task
 '
 {
-label
 }
 '
 has
@@ -561,10 +520,17 @@ dependency
 named
 '
 {
-dependency
 }
 '
 "
+.
+format
+(
+                            
+label
+dependency
+                        
+)
                     
 )
             
@@ -580,7 +546,6 @@ public
 "
             
 )
-f
 "
 artifact
 -
@@ -591,9 +556,15 @@ public
 artifacts
 not
 {
-artifact_name
 }
 "
+.
+format
+(
+                
+artifact_name
+            
+)
             
 return
 get_artifact_url

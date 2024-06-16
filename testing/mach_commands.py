@@ -7077,7 +7077,7 @@ tip
 /
 taskcluster
 /
-kinds
+ci
 /
 test
 /

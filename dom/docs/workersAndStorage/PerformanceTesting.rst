@@ -346,7 +346,7 @@ yml
 under
 taskcluster
 /
-kinds
+ci
 /
 perftest
 <
@@ -366,7 +366,7 @@ source
 /
 taskcluster
 /
-kinds
+ci
 /
 perftest
 >
@@ -700,7 +700,7 @@ files
 under
 taskcluster
 /
-kinds
+ci
 /
 perftest
 .

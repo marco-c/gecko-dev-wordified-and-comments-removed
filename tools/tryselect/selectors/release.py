@@ -832,6 +832,8 @@ path
 "
 taskcluster
 /
+ci
+/
 config
 .
 yml

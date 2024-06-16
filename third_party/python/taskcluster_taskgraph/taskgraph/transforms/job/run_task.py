@@ -4,7 +4,7 @@
 Support
 for
 running
-tasks
+jobs
 that
 are
 invoked
@@ -33,15 +33,15 @@ taskgraph
 .
 transforms
 .
-run
+job
 import
-run_task_using
+run_job_using
 from
 taskgraph
 .
 transforms
 .
-run
+job
 .
 common
 import
@@ -296,7 +296,7 @@ def
 common_setup
 (
 config
-task
+job
 taskdesc
 command
 )
@@ -304,7 +304,7 @@ command
     
 run
 =
-task
+job
 [
 "
 run
@@ -414,7 +414,7 @@ support_vcs_checkout
             
 config
             
-task
+job
             
 taskdesc
             
@@ -662,14 +662,14 @@ cwd
 ]
 name
 =
-task
+job
 .
 get
 (
 "
 name
 "
-task
+job
 .
 get
 (
@@ -878,7 +878,7 @@ public
 script
 }
 "
-run_task_using
+run_job_using
 (
     
 "
@@ -902,14 +902,14 @@ def
 docker_worker_run_task
 (
 config
-task
+job
 taskdesc
 )
 :
     
 run
 =
-task
+job
 [
 "
 run
@@ -925,7 +925,7 @@ worker
 "
 ]
 =
-task
+job
 [
 "
 worker
@@ -964,7 +964,7 @@ task
 common_setup
 (
 config
-task
+job
 taskdesc
 command
 )
@@ -1169,7 +1169,7 @@ command
 ]
 =
 command
-run_task_using
+run_job_using
 (
     
 "
@@ -1193,14 +1193,14 @@ def
 generic_worker_run_task
 (
 config
-task
+job
 taskdesc
 )
 :
     
 run
 =
-task
+job
 [
 "
 run
@@ -1216,7 +1216,7 @@ worker
 "
 ]
 =
-task
+job
 [
 "
 worker
@@ -1358,7 +1358,7 @@ task
 common_setup
 (
 config
-task
+job
 taskdesc
 command
 )

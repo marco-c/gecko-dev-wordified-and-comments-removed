@@ -26,8 +26,8 @@ taskgraph
 .
 target_tasks
 import
+_target_task
 get_method
-register_target_task
 from
 taskgraph
 .
@@ -2565,7 +2565,7 @@ exception
     
 return
 target_tasks_labels
-register_target_task
+_target_task
 (
 "
 try_tasks
@@ -2626,7 +2626,7 @@ graph_config
 return
 [
 ]
-register_target_task
+_target_task
 (
 "
 try_select_tasks
@@ -2663,7 +2663,7 @@ filter_by_uncommon_try_tasks
 l
 )
 ]
-register_target_task
+_target_task
 (
 "
 try_select_tasks_uncommon
@@ -2805,7 +2805,7 @@ sorted
 (
 tasks
 )
-register_target_task
+_target_task
 (
 "
 try_auto
@@ -3056,7 +3056,7 @@ t
 )
     
 ]
-register_target_task
+_target_task
 (
 "
 default
@@ -3136,7 +3136,7 @@ parameters
 )
     
 ]
-register_target_task
+_target_task
 (
 "
 autoland_tasks
@@ -3285,7 +3285,7 @@ l
 ]
 )
 ]
-register_target_task
+_target_task
 (
 "
 mozilla_central_tasks
@@ -3489,7 +3489,7 @@ l
 ]
 )
 ]
-register_target_task
+_target_task
 (
 "
 graphics_tasks
@@ -3610,7 +3610,7 @@ l
 ]
 )
 ]
-register_target_task
+_target_task
 (
 "
 mozilla_beta_tasks
@@ -3704,7 +3704,7 @@ parameters
 )
     
 ]
-register_target_task
+_target_task
 (
 "
 mozilla_release_tasks
@@ -3798,7 +3798,7 @@ parameters
 )
     
 ]
-register_target_task
+_target_task
 (
 "
 mozilla_esr115_tasks
@@ -3941,7 +3941,7 @@ filter
 t
 )
 ]
-register_target_task
+_target_task
 (
 "
 promote_desktop
@@ -4117,7 +4117,7 @@ filter
 t
 )
 ]
-register_target_task
+_target_task
 (
 "
 push_desktop
@@ -4274,7 +4274,7 @@ filter
 t
 )
 ]
-register_target_task
+_target_task
 (
 "
 ship_desktop
@@ -4481,7 +4481,7 @@ filter
 t
 )
 ]
-register_target_task
+_target_task
 (
 "
 pine_tasks
@@ -4582,7 +4582,7 @@ l
 ]
 )
 ]
-register_target_task
+_target_task
 (
 "
 larch_tasks
@@ -4744,7 +4744,7 @@ l
 ]
 )
 ]
-register_target_task
+_target_task
 (
 "
 kaios_tasks
@@ -4805,7 +4805,7 @@ filter
 t
 )
 ]
-register_target_task
+_target_task
 (
 "
 custom
@@ -4991,7 +4991,7 @@ filter
 t
 )
 ]
-register_target_task
+_target_task
 (
 "
 general_perf_testing
@@ -5673,7 +5673,7 @@ l10n
     
 return
 filter
-register_target_task
+_target_task
 (
 "
 sp
@@ -5829,7 +5829,7 @@ filter
 t
 )
 ]
-register_target_task
+_target_task
 (
 "
 nightly_linux
@@ -5932,7 +5932,7 @@ t
 parameters
 )
 ]
-register_target_task
+_target_task
 (
 "
 nightly_macosx
@@ -6021,7 +6021,7 @@ t
 parameters
 )
 ]
-register_target_task
+_target_task
 (
 "
 nightly_win32
@@ -6112,7 +6112,7 @@ t
 parameters
 )
 ]
-register_target_task
+_target_task
 (
 "
 nightly_win64
@@ -6203,7 +6203,7 @@ t
 parameters
 )
 ]
-register_target_task
+_target_task
 (
 "
 nightly_win64_aarch64
@@ -6296,7 +6296,7 @@ t
 parameters
 )
 ]
-register_target_task
+_target_task
 (
 "
 nightly_asan
@@ -6400,7 +6400,7 @@ t
 parameters
 )
 ]
-register_target_task
+_target_task
 (
 "
 daily_releases
@@ -6497,7 +6497,7 @@ filter
 t
 )
 ]
-register_target_task
+_target_task
 (
 "
 nightly_desktop
@@ -6755,7 +6755,7 @@ release_tasks
 )
     
 )
-register_target_task
+_target_task
 (
 "
 nightly_all
@@ -6924,7 +6924,7 @@ graph_config
 )
     
 )
-register_target_task
+_target_task
 (
 "
 searchfox_index
@@ -7056,7 +7056,7 @@ summary
 "
     
 ]
-register_target_task
+_target_task
 (
 "
 linux64_clang_trunk_perf
@@ -7145,7 +7145,7 @@ t
 label
 )
 ]
-register_target_task
+_target_task
 (
 "
 updatebot_cron
@@ -7185,7 +7185,7 @@ updatebot
 cron
 "
 ]
-register_target_task
+_target_task
 (
 "
 customv8_update
@@ -7230,7 +7230,7 @@ custom
 v8
 "
 ]
-register_target_task
+_target_task
 (
 "
 file_update
@@ -7306,7 +7306,7 @@ filter
 t
 )
 ]
-register_target_task
+_target_task
 (
 "
 l10n_bump
@@ -7379,7 +7379,7 @@ filter
 t
 )
 ]
-register_target_task
+_target_task
 (
 "
 merge_automation
@@ -7452,7 +7452,7 @@ filter
 t
 )
 ]
-register_target_task
+_target_task
 (
 "
 scriptworker_canary
@@ -7525,7 +7525,7 @@ filter
 t
 )
 ]
-register_target_task
+_target_task
 (
 "
 cron_bouncer_check
@@ -7613,7 +7613,7 @@ filter
 t
 )
 ]
-register_target_task
+_target_task
 (
 "
 staging_release_builds
@@ -7788,7 +7788,7 @@ filter
 t
 )
 ]
-register_target_task
+_target_task
 (
 "
 release_simulation
@@ -8046,7 +8046,7 @@ t
 )
     
 ]
-register_target_task
+_target_task
 (
 "
 codereview
@@ -8145,7 +8145,7 @@ filter
 t
 )
 ]
-register_target_task
+_target_task
 (
 "
 nothing
@@ -8175,7 +8175,7 @@ pushes
 return
 [
 ]
-register_target_task
+_target_task
 (
 "
 daily_beta_perf
@@ -8815,7 +8815,7 @@ filter
 t
 )
 ]
-register_target_task
+_target_task
 (
 "
 weekly_release_perf
@@ -9200,7 +9200,7 @@ filter
 t
 )
 ]
-register_target_task
+_target_task
 (
 "
 raptor_tp6m
@@ -9374,7 +9374,7 @@ filter
 t
 )
 ]
-register_target_task
+_target_task
 (
 "
 backfill_all_browsertime
@@ -9875,7 +9875,7 @@ e
 return
 [
 ]
-register_target_task
+_target_task
 (
 "
 condprof
@@ -9942,7 +9942,7 @@ name
                 
 yield
 name
-register_target_task
+_target_task
 (
 "
 system_symbols
@@ -10022,7 +10022,7 @@ reprocess
             
 yield
 name
-register_target_task
+_target_task
 (
 "
 perftest
@@ -10096,7 +10096,7 @@ False
             
 yield
 name
-register_target_task
+_target_task
 (
 "
 perftest
@@ -10191,7 +10191,7 @@ view
             
 yield
 name
-register_target_task
+_target_task
 (
 "
 l10n
@@ -10272,7 +10272,7 @@ filter
 t
 )
 ]
-register_target_task
+_target_task
 (
 "
 eslint
@@ -10349,7 +10349,7 @@ name
             
 yield
 name
-register_target_task
+_target_task
 (
 "
 holly_tasks
@@ -10417,7 +10417,7 @@ filter
 t
 )
 ]
-register_target_task
+_target_task
 (
 "
 snap_upstream_tests
@@ -10503,7 +10503,7 @@ name
             
 yield
 name
-register_target_task
+_target_task
 (
 "
 nightly
@@ -10763,7 +10763,7 @@ t
 parameters
 )
 ]
-register_target_task
+_target_task
 (
 "
 android
@@ -10808,7 +10808,7 @@ l10n
 import
 "
 ]
-register_target_task
+_target_task
 (
 "
 android

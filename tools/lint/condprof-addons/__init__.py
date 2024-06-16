@@ -29,7 +29,7 @@ Path
 "
 taskcluster
 /
-kinds
+ci
 /
 fetch
 /

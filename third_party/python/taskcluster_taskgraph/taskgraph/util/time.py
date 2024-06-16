@@ -418,10 +418,8 @@ raise
 UnknownTimeMeasurement
 (
             
-f
 "
 {
-unit
 }
 is
 not
@@ -433,6 +431,13 @@ use
 one
 of
 {
+}
+"
+.
+format
+(
+                
+unit
 sorted
 (
 ALIASES
@@ -441,8 +446,8 @@ keys
 (
 )
 )
-}
-"
+            
+)
         
 )
     

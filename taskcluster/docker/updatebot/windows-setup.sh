@@ -265,7 +265,7 @@ section
 in
 taskcluster
 /
-kinds
+ci
 /
 updatebot
 /
@@ -1198,7 +1198,7 @@ GECKO_PATH
 /
 taskcluster
 /
-kinds
+ci
 /
 fetch
 /

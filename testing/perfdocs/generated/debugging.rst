@@ -172,7 +172,7 @@ source
 /
 taskcluster
 /
-kinds
+ci
 /
 test
 /
@@ -301,7 +301,7 @@ source
 /
 taskcluster
 /
-kinds
+ci
 /
 test
 /

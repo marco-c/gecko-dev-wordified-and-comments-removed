@@ -172,7 +172,7 @@ at
 [
 taskcluster
 /
-kinds
+ci
 /
 source
 -
@@ -199,7 +199,7 @@ source
 /
 taskcluster
 /
-kinds
+ci
 /
 source
 -

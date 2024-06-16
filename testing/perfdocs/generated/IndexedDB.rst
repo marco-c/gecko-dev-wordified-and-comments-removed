@@ -931,7 +931,7 @@ for
 Desktop
 taskcluster
 /
-kinds
+ci
 /
 test
 /

@@ -359,7 +359,7 @@ defined
 in
 taskcluster
 /
-kinds
+ci
 /
 fetch
 /
