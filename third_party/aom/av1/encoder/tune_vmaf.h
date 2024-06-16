@@ -100,6 +100,7 @@ struct
 AV1_COMP
 *
 cpi
+const
 YV12_BUFFER_CONFIG
 *
 source
@@ -112,6 +113,7 @@ struct
 AV1_COMP
 *
 cpi
+const
 YV12_BUFFER_CONFIG
 *
 source
@@ -124,6 +126,7 @@ struct
 AV1_COMP
 *
 cpi
+const
 YV12_BUFFER_CONFIG
 *
 source

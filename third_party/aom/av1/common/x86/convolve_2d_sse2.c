@@ -65,8 +65,9 @@ convolve
 .
 h
 "
+static
 void
-av1_convolve_2d_sr_12tap_sse2
+convolve_2d_sr_12tap_sse2
 (
 const
 uint8_t
@@ -1757,7 +1758,7 @@ conv_params
 }
 else
 {
-av1_convolve_2d_sr_12tap_sse2
+convolve_2d_sr_12tap_sse2
 (
 src
 src_stride

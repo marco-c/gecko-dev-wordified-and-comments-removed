@@ -48,7 +48,7 @@ include
 "
 aom_util
 /
-aom_thread
+aom_pthread
 .
 h
 "
@@ -114,11 +114,11 @@ mutex
 ;
 #
 endif
-bool
-valid
+int
+max_levels
 ;
 int
-n_levels
+filled_levels
 ;
 uint8_t
 *
@@ -138,8 +138,6 @@ int
 width
 int
 height
-int
-n_levels
 bool
 image_is_16bit
 )
@@ -152,13 +150,11 @@ int
 width
 int
 height
-int
-n_levels
 bool
 image_is_16bit
 )
 ;
-bool
+int
 aom_compute_pyramid
 (
 const
@@ -167,6 +163,8 @@ YV12_BUFFER_CONFIG
 frame
 int
 bit_depth
+int
+n_levels
 ImagePyramid
 *
 pyr
@@ -181,6 +179,8 @@ aom_is_pyramid_valid
 ImagePyramid
 *
 pyr
+int
+n_levels
 )
 ;
 #

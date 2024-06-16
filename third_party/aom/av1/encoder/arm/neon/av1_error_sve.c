@@ -37,7 +37,7 @@ aom_dsp
 /
 arm
 /
-dot_sve
+aom_neon_sve_bridge
 .
 h
 "

@@ -864,8 +864,9 @@ t
 #
 if
 CONFIG_ENTROPY_STATS
+static
 void
-av1_update_eob_context
+update_eob_context
 (
 int
 cdf_idx
@@ -889,8 +890,9 @@ allow_update_cdf
 {
 #
 else
+static
 void
-av1_update_eob_context
+update_eob_context
 (
 int
 eob
@@ -4374,7 +4376,7 @@ tx_type
 #
 if
 CONFIG_ENTROPY_STATS
-av1_update_eob_context
+update_eob_context
 (
 cdf_idx
 eob
@@ -4391,7 +4393,7 @@ allow_update_cdf
 ;
 #
 else
-av1_update_eob_context
+update_eob_context
 (
 eob
 tx_size
@@ -5580,7 +5582,7 @@ xd
 >
 tile_ctx
 ;
-av1_update_eob_context
+update_eob_context
 (
 cdf_idx
 eob

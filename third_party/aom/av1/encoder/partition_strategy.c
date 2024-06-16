@@ -11164,6 +11164,7 @@ do_square_split
 ;
 }
 }
+static
 int
 evaluate_ab_partition_based_on_split
 (

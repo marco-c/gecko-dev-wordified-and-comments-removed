@@ -25,15 +25,6 @@ h
 #
 include
 "
-aom_dsp
-/
-rect
-.
-h
-"
-#
-include
-"
 aom_scale
 /
 yv12config
@@ -156,6 +147,8 @@ YV12_BUFFER_CONFIG
 ref
 int
 bit_depth
+int
+downsample_level
 MotionModel
 *
 motion_models

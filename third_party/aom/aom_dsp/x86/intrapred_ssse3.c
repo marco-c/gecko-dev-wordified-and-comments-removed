@@ -7261,6 +7261,7 @@ _mm_setzero_si128
 )
 ;
 }
+static
 void
 smooth_predictor_wxh
 (

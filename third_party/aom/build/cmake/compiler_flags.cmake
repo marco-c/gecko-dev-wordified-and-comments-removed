@@ -1211,6 +1211,8 @@ message
 "
 Checking
 C
++
++
 compiler
 flag
 support
@@ -1246,6 +1248,8 @@ requires
 support
 for
 C
++
++
 flag
 :
 {

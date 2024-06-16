@@ -12,7 +12,7 @@ aom_dsp
 /
 arm
 /
-dot_sve
+aom_neon_sve_bridge
 .
 h
 "
@@ -87,7 +87,7 @@ usdot_permute_idx
 }
 ;
 static
-INLINE
+AOM_FORCE_INLINE
 int16x8_t
 horizontal_filter_4x1_f4
 (
@@ -295,7 +295,7 @@ res
 ;
 }
 static
-INLINE
+AOM_FORCE_INLINE
 int16x8_t
 horizontal_filter_8x1_f8
 (
@@ -649,7 +649,7 @@ res
 ;
 }
 static
-INLINE
+AOM_FORCE_INLINE
 int16x8_t
 horizontal_filter_4x1_f1
 (
@@ -817,7 +817,7 @@ res
 ;
 }
 static
-INLINE
+AOM_FORCE_INLINE
 int16x8_t
 horizontal_filter_8x1_f1
 (
@@ -1044,7 +1044,7 @@ res
 ;
 }
 static
-INLINE
+AOM_FORCE_INLINE
 void
 vertical_filter_4x1_f1
 (
@@ -1279,7 +1279,7 @@ m0123
 ;
 }
 static
-INLINE
+AOM_FORCE_INLINE
 void
 vertical_filter_4x1_f4
 (
@@ -1482,7 +1482,7 @@ m23
 ;
 }
 static
-INLINE
+AOM_FORCE_INLINE
 void
 vertical_filter_8x1_f1
 (
@@ -1853,7 +1853,7 @@ m4567
 ;
 }
 static
-INLINE
+AOM_FORCE_INLINE
 void
 vertical_filter_8x1_f8
 (

@@ -69,8 +69,9 @@ convolve
 .
 h
 "
+static
 void
-av1_convolve_2d_sr_general_avx2
+convolve_2d_sr_general_avx2
 (
 const
 uint8_t
@@ -1014,7 +1015,7 @@ if
 use_general
 )
 {
-av1_convolve_2d_sr_general_avx2
+convolve_2d_sr_general_avx2
 (
 src
 src_stride

@@ -22422,8 +22422,9 @@ return
 AOM_CODEC_OK
 ;
 }
+static
 size_t
-av1_obu_memmove
+obu_memmove
 (
 size_t
 obu_header_size
@@ -23517,7 +23518,7 @@ const
 size_t
 length_field_size
 =
-av1_obu_memmove
+obu_memmove
 (
 lst_obu
 -
@@ -24857,7 +24858,7 @@ const
 size_t
 length_field_size
 =
-av1_obu_memmove
+obu_memmove
 (
 obu_header_size
 obu_payload_size
@@ -25973,6 +25974,7 @@ new_length_field_size
 }
 }
 }
+static
 int
 calc_pack_bs_mt_workers
 (
@@ -26794,7 +26796,7 @@ obu_header_size
 ;
 length_field_size
 =
-av1_obu_memmove
+obu_memmove
 (
 obu_header_size
 obu_payload_size
@@ -27060,7 +27062,7 @@ const
 size_t
 length_field_size
 =
-av1_obu_memmove
+obu_memmove
 (
 obu_header_size
 obu_payload_size
@@ -27193,7 +27195,7 @@ obu_header_size
 ;
 length_field
 =
-av1_obu_memmove
+obu_memmove
 (
 obu_header_size
 obu_payload_size

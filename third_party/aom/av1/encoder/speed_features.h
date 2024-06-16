@@ -1368,6 +1368,9 @@ int
 disable_gm_search_based_on_stats
 ;
 int
+downsample_level
+;
+int
 num_refinement_steps
 ;
 }
@@ -2153,6 +2156,9 @@ dct_only_palette_nonrd
 ;
 int
 skip_lf_screen
+;
+int
+thresh_active_maps_skip_lf_cdef
 ;
 int
 part_early_exit_zeromv

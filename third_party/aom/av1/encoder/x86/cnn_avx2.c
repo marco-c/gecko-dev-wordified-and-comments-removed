@@ -2814,6 +2814,7 @@ j
 }
 }
 }
+static
 void
 cnn_convolve_no_maxpool_padding_valid_2x2_avx2
 (

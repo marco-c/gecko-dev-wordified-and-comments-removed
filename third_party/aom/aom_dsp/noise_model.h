@@ -547,9 +547,10 @@ struct
 aom_denoise_and_model_t
 *
 ctx
+const
 YV12_BUFFER_CONFIG
 *
-buf
+sd
 aom_film_grain_t
 *
 grain

@@ -553,8 +553,9 @@ coeffs
 )
 ;
 }
+static
 void
-av1_convolve_y_sr_12tap_sse2
+convolve_y_sr_12tap_sse2
 (
 const
 uint8_t
@@ -1474,7 +1475,7 @@ subpel_y_qn
 }
 else
 {
-av1_convolve_y_sr_12tap_sse2
+convolve_y_sr_12tap_sse2
 (
 src
 src_stride
@@ -2713,8 +2714,9 @@ w
 }
 }
 }
+static
 void
-av1_convolve_x_sr_12tap_sse2
+convolve_x_sr_12tap_sse2
 (
 const
 uint8_t
@@ -3181,7 +3183,7 @@ conv_params
 }
 else
 {
-av1_convolve_x_sr_12tap_sse2
+convolve_x_sr_12tap_sse2
 (
 src
 src_stride
