@@ -137,6 +137,10 @@ ComponentsDependencies
 .
 kotlin_coroutines
 implementation
+ComponentsDependencies
+.
+play_services_base
+implementation
 project
 (
 '
