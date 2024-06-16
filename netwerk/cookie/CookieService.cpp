@@ -851,8 +851,10 @@ ComposeCookieString
 (
 nsTArray
 <
+RefPtr
+<
 Cookie
-*
+>
 >
 &
 aCookieList
@@ -1979,8 +1981,10 @@ PartitionedPrincipal
 }
 nsTArray
 <
+RefPtr
+<
 Cookie
-*
+>
 >
 cookieList
 ;
@@ -2583,8 +2587,10 @@ IsEmpty
 }
 AutoTArray
 <
+RefPtr
+<
 Cookie
-*
+>
 8
 >
 foundCookieList
@@ -4500,8 +4506,10 @@ OriginAttributes
 aOriginAttrsList
 nsTArray
 <
+RefPtr
+<
 Cookie
-*
+>
 >
 &
 aCookieList
