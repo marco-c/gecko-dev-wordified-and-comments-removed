@@ -103,3 +103,6 @@ patch
 chromium_syscalls_6_8_update
 .
 patch
+no_user_deny_for_restricted_tokens
+.
+patch
