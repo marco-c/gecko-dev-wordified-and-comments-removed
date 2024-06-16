@@ -47,6 +47,11 @@ head_dnr
 js
 "
 "
+head_dnr_static_rules
+.
+js
+"
+"
 xpcshell
 -
 content
