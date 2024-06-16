@@ -999,6 +999,13 @@ Glean
 topsites
 .
 rows
+showWeather
+:
+Glean
+.
+newtab
+.
+weatherEnabled
 }
 ;
 const
