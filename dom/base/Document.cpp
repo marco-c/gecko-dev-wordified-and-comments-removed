@@ -21330,6 +21330,8 @@ GetFormattedTimeString
 (
 PRTime
 aTime
+bool
+aUniversal
 nsAString
 &
 aFormattedTimeString
@@ -21341,6 +21343,10 @@ prtime
 PR_ExplodeTime
 (
 aTime
+aUniversal
+?
+PR_GMTParameters
+:
 PR_LocalTimeParameters
 &
 prtime
@@ -21470,6 +21476,13 @@ GetFormattedTimeString
 (
 PR_Now
 (
+)
+ShouldResistFingerprinting
+(
+RFPTarget
+:
+:
+JSDateTimeUTC
 )
 aLastModified
 )
@@ -52715,6 +52728,13 @@ modDate
 GetFormattedTimeString
 (
 modDate
+ShouldResistFingerprinting
+(
+RFPTarget
+:
+:
+JSDateTimeUTC
+)
 mLastModified
 )
 ;
