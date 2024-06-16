@@ -6068,6 +6068,15 @@ Symbol
 {
 if
 (
+IsOwnedByOtherRuntime
+(
+runtime
+(
+)
+thing
+)
+|
+|
 !
 thing
 -
