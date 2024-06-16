@@ -2680,7 +2680,7 @@ rust
 .
 77
 .
-1
+2
 :
 description
 :
@@ -2689,7 +2689,7 @@ Rust
 .
 77
 .
-1
+2
 source
 code
 fetch
@@ -2722,7 +2722,7 @@ rust
 /
 revision
 :
-7cf61ebde7b22796c69757901dd346d0fe70bd97
+25ef9e3d85d934b27d9dada2f9dd52b1dc63bb04
 wasi
 -
 sdk
