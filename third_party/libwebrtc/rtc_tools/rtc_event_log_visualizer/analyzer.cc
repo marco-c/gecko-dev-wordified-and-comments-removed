@@ -5029,7 +5029,9 @@ header
 .
 extension
 .
-hasAudioLevel
+audio_level
+(
+)
 )
 {
 float
@@ -5061,7 +5063,14 @@ header
 .
 extension
 .
-audioLevel
+audio_level
+(
+)
+-
+>
+level
+(
+)
 )
 ;
 time_series
