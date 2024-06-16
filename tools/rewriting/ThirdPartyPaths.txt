@@ -406,16 +406,6 @@ platforms
 /
 ffmpeg
 /
-ffmpeg61
-/
-dom
-/
-media
-/
-platforms
-/
-ffmpeg
-/
 libav53
 /
 dom

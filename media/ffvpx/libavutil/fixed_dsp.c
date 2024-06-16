@@ -12,13 +12,6 @@ fixed_dsp
 .
 h
 "
-#
-include
-"
-mem
-.
-h
-"
 static
 void
 vector_fmul_add_c
@@ -682,11 +675,11 @@ butterflies_fixed_c
 (
 int
 *
-restrict
+av_restrict
 v1s
 int
 *
-restrict
+av_restrict
 v2
 int
 len

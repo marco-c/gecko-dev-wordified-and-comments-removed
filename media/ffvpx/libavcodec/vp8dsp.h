@@ -468,14 +468,6 @@ c
 )
 ;
 void
-ff_vp8dsp_init_riscv
-(
-VP8DSPContext
-*
-c
-)
-;
-void
 ff_vp8dsp_init_x86
 (
 VP8DSPContext

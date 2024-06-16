@@ -58,16 +58,6 @@ lls_init
 c
 '
 '
-pixelutils
-.
-asm
-'
-'
-pixelutils_init
-.
-c
-'
-'
 tx_float
 .
 asm

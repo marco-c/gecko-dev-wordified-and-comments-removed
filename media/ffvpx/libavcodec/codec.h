@@ -315,6 +315,17 @@ AVSampleFormat
 *
 sample_fmts
 ;
+#
+if
+FF_API_OLD_CHANNEL_LAYOUT
+attribute_deprecated
+const
+uint64_t
+*
+channel_layouts
+;
+#
+endif
 const
 AVClass
 *

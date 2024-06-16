@@ -2452,12 +2452,8 @@ notcpuflag
 (
 ssse3
 )
-INIT_XMM
-cpuname
 WIN64_SPILL_XMM
 8
-INIT_MMX
-cpuname
 %
 endif
 movdqa

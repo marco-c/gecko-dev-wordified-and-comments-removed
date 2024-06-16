@@ -39,15 +39,6 @@ include
 "
 libavutil
 /
-mem
-.
-h
-"
-#
-include
-"
-libavutil
-/
 opt
 .
 h

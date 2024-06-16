@@ -1613,9 +1613,6 @@ index
 AV_INPUT_BUFFER_PADDING_SIZE
 )
 ;
-*
-buf_size
-=
 pc
 -
 >

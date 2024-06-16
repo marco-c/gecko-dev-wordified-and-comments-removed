@@ -35,15 +35,6 @@ include
 "
 libavutil
 /
-mem
-.
-h
-"
-#
-include
-"
-libavutil
-/
 reverse
 .
 h
