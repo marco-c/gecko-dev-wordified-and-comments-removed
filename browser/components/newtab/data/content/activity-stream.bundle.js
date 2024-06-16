@@ -30644,6 +30644,7 @@ actionTypes
 .
 SOV_UPDATED
 :
+{
 const
 sov
 =
@@ -30673,6 +30674,7 @@ prevState
 sov
 }
 ;
+}
 default
 :
 return
@@ -32776,6 +32778,7 @@ actionTypes
 .
 DISCOVERY_STREAM_FEED_UPDATE
 :
+{
 const
 newData
 =
@@ -32831,6 +32834,7 @@ newData
 }
 }
 ;
+}
 case
 actionTypes
 .
@@ -33086,6 +33090,7 @@ actionTypes
 .
 PLACES_SAVED_TO_POCKET
 :
+{
 const
 addPocketInfo
 =
@@ -33165,6 +33170,7 @@ addPocketInfo
 )
 )
 ;
+}
 case
 actionTypes
 .
@@ -33213,6 +33219,7 @@ actionTypes
 .
 PLACES_BOOKMARK_ADDED
 :
+{
 const
 updateBookmarkInfo
 =
@@ -33294,11 +33301,13 @@ updateBookmarkInfo
 )
 )
 ;
+}
 case
 actionTypes
 .
 PLACES_BOOKMARKS_REMOVED
 :
+{
 const
 removeBookmarkInfo
 =
@@ -33406,6 +33415,7 @@ removeBookmarkInfo
 )
 )
 ;
+}
 case
 actionTypes
 .

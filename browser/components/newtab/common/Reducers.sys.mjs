@@ -1854,6 +1854,7 @@ at
 .
 SOV_UPDATED
 :
+{
 const
 sov
 =
@@ -1883,6 +1884,7 @@ prevState
 sov
 }
 ;
+}
 default
 :
 return
@@ -4151,6 +4153,7 @@ at
 .
 DISCOVERY_STREAM_FEED_UPDATE
 :
+{
 const
 newData
 =
@@ -4206,6 +4209,7 @@ newData
 }
 }
 ;
+}
 case
 at
 .
@@ -4461,6 +4465,7 @@ at
 .
 PLACES_SAVED_TO_POCKET
 :
+{
 const
 addPocketInfo
 =
@@ -4540,6 +4545,7 @@ addPocketInfo
 )
 )
 ;
+}
 case
 at
 .
@@ -4588,6 +4594,7 @@ at
 .
 PLACES_BOOKMARK_ADDED
 :
+{
 const
 updateBookmarkInfo
 =
@@ -4669,11 +4676,13 @@ updateBookmarkInfo
 )
 )
 ;
+}
 case
 at
 .
 PLACES_BOOKMARKS_REMOVED
 :
+{
 const
 removeBookmarkInfo
 =
@@ -4781,6 +4790,7 @@ removeBookmarkInfo
 )
 )
 ;
+}
 case
 at
 .
