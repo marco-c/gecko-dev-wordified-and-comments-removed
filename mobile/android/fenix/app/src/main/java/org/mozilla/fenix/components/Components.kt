@@ -688,6 +688,9 @@ bookmarksStorage
 core
 .
 historyStorage
+backgroundServices
+.
+syncedTabsCommands
 appStore
 core
 .
