@@ -3277,6 +3277,20 @@ name
 "
 browser_menu_install_on_homescreen
 "
+moz
+:
+removedIn
+=
+"
+126
+"
+tools
+:
+ignore
+=
+"
+UnusedResources
+"
 >
 Installer
 <
@@ -14357,7 +14371,7 @@ Flytt
 gamle
 faner
 til
-inaktive
+uverksame
 <
 /
 string
@@ -14394,7 +14408,7 @@ vert
 flytta
 til
 den
-inaktive
+uverksame
 delen
 .
 <
@@ -34782,7 +34796,7 @@ name
 inactive_tabs_title
 "
 >
-Inaktive
+Uverksame
 faner
 <
 /
@@ -34844,7 +34858,7 @@ inactive_tabs_expand_content_description
 "
 >
 Utvid
-inaktive
+uverksame
 faner
 <
 /
@@ -34876,7 +34890,7 @@ inactive_tabs_collapse_content_description
 >
 Fald
 saman
-inaktive
+uverksame
 faner
 <
 /
@@ -43369,7 +43383,7 @@ name
 debug_drawer_tab_tools_tab_count_normal
 "
 >
-Aktiv
+Verksam
 <
 /
 string
@@ -43403,7 +43417,7 @@ name
 debug_drawer_tab_tools_tab_count_inactive
 "
 >
-Inaktiv
+Uverksam
 <
 /
 string
@@ -43584,7 +43598,7 @@ debug_drawer_tab_tools_tab_creation_tool_button_text_active
 Legg
 til
 i
-aktive
+verksame
 faner
 <
 /
@@ -43625,7 +43639,7 @@ debug_drawer_tab_tools_tab_creation_tool_button_text_inactive
 Legg
 til
 i
-inaktive
+uverksame
 faner
 <
 /
