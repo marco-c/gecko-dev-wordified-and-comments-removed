@@ -2829,6 +2829,12 @@ unsigned
 radix
 )
 ;
+friend
+struct
+:
+:
+JSStructuredCloneReader
+;
 static
 BigInt
 *
