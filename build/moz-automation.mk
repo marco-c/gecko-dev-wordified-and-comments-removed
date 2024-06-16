@@ -113,7 +113,7 @@ filter
 x86
 %
 (
-CPU_ARCH
+TARGET_CPU
 )
 )
 )
@@ -182,7 +182,7 @@ MAKECMDGOALS
 )
 )
 )
-ifeq
+ifneq
 (
 4
 .
@@ -200,17 +200,6 @@ MAKE_VERSION
 )
 )
 )
-MAKEFLAGS
-+
-=
--
--
-output
--
-sync
-=
-target
-else
 .
 NOTPARALLEL
 :

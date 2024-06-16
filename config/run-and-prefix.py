@@ -134,6 +134,30 @@ b
         
 break
     
+if
+data
+.
+startswith
+(
+b
+"
+BUILDSTATUS
+"
+)
+:
+        
+sys
+.
+stdout
+.
+write
+(
+data
+)
+    
+else
+:
+        
 sys
 .
 stdout
