@@ -196,7 +196,7 @@ requiresEncryption
 )
 {
 return
-true
+false
 ;
 }
 static
