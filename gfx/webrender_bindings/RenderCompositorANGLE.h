@@ -304,7 +304,7 @@ GetBufferSize
 )
 override
 ;
-DeviceResetReason
+GLenum
 IsContextLost
 (
 bool

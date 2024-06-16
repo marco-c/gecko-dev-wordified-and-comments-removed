@@ -154,10 +154,6 @@ aParentBuildID
 void
 NotifyDeviceReset
 (
-DeviceResetReason
-aReason
-DeviceResetDetectPlace
-aPlace
 )
 ;
 void

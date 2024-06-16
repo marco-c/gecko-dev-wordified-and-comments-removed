@@ -1393,14 +1393,6 @@ const
 GPUDeviceData
 &
 aData
-const
-DeviceResetReason
-&
-aReason
-const
-DeviceResetDetectPlace
-&
-aPlace
 )
 {
 gfxPlatform
@@ -1425,8 +1417,6 @@ mListener
 OnRemoteProcessDeviceReset
 (
 mHost
-aReason
-aPlace
 )
 ;
 return
