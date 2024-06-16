@@ -10,8 +10,9 @@ STATy
 l
 .
 cmap
+B
 Z
-Ugasp
+Vgasp
 l
 glyf
 -
@@ -19,8 +20,6 @@ glyf
 t
 hhead
 )
-:
-z
 6hhea
 i
 4
@@ -39,11 +38,11 @@ vhea
 vmtx
 X
 B
-1
 _
 <
 5g
-\
+g
+w
 2
 a
 l
