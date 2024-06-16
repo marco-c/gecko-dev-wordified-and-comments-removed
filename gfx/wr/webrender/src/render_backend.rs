@@ -2813,13 +2813,6 @@ dirty_rects_are_valid
 =
 true
 ;
-let
-is_new_scene
-=
-self
-.
-has_built_scene
-;
 self
 .
 has_built_scene
@@ -2880,7 +2873,6 @@ stats
 RenderedDocument
 {
 frame
-is_new_scene
 profile
 :
 self
@@ -10444,9 +10436,6 @@ id
 RenderedDocument
 {
 frame
-is_new_scene
-:
-true
 profile
 :
 TransactionProfile
