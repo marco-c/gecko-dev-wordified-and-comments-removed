@@ -1054,10 +1054,6 @@ n
 aWasClick
 )
 ;
-CancelTask
-(
-)
-;
 mTouchEndState
 +
 =
@@ -1140,6 +1136,10 @@ return
 false
 ;
 }
+CancelTask
+(
+)
+;
 if
 (
 aWasClick
