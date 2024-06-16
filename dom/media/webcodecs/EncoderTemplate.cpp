@@ -1891,10 +1891,6 @@ mDescription
 aConfigInternal
 .
 mDescription
-.
-value
-(
-)
 -
 >
 IsEmpty
@@ -1929,10 +1925,6 @@ lengthBytes
 aConfigInternal
 .
 mDescription
-.
-value
-(
-)
 -
 >
 Length
@@ -1968,10 +1960,6 @@ get
 aConfigInternal
 .
 mDescription
-.
-value
-(
-)
 -
 >
 Elements
