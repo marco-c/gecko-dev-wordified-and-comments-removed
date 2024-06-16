@@ -1709,6 +1709,20 @@ logcat
 )
 )
         
+if
+metadata
+.
+binary
+:
+            
+self
+.
+app_name
+=
+metadata
+.
+binary
+        
 logger_name
 =
 "
