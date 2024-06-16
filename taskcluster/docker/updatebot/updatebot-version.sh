@@ -1,4 +1,4 @@
 export
 UPDATEBOT_REVISION
 =
-d7689dd2e47c6df15f5fece49a85a5297d4c4ff3
+6ea0f0c10efafb5df82ef057730e8c570f834f0d
