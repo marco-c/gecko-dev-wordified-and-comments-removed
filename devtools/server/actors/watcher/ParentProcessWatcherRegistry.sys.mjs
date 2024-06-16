@@ -785,7 +785,7 @@ flush
 }
 export
 const
-WatcherRegistry
+ParentProcessWatcherRegistry
 =
 {
 /

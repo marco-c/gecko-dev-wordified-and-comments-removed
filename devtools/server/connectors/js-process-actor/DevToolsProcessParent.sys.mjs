@@ -102,7 +102,7 @@ mjs
 ;
 const
 {
-WatcherRegistry
+ParentProcessWatcherRegistry
 }
 =
 ChromeUtils
@@ -122,7 +122,7 @@ actors
 /
 watcher
 /
-WatcherRegistry
+ParentProcessWatcherRegistry
 .
 sys
 .
@@ -130,7 +130,7 @@ mjs
 "
 /
 /
-WatcherRegistry
+ParentProcessWatcherRegistry
 needs
 to
 be
@@ -681,7 +681,7 @@ targetActorForm
 const
 watcher
 =
-WatcherRegistry
+ParentProcessWatcherRegistry
 .
 getWatcher
 (
@@ -1023,7 +1023,7 @@ actors
 const
 watcher
 =
-WatcherRegistry
+ParentProcessWatcherRegistry
 .
 getWatcher
 (
@@ -1853,7 +1853,7 @@ for
 const
 watcherActor
 of
-WatcherRegistry
+ParentProcessWatcherRegistry
 .
 getWatchersForBrowserId
 (
@@ -1923,7 +1923,7 @@ for
 const
 watcherActor
 of
-WatcherRegistry
+ParentProcessWatcherRegistry
 .
 getWatchersForBrowserId
 (
