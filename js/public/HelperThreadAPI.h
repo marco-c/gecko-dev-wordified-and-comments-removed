@@ -21,8 +21,13 @@ h
 namespace
 JS
 {
+enum
 class
-HelperThreadTask
+DispatchReason
+{
+NewTask
+FinishedTask
+}
 ;
 using
 HelperThreadTaskCallback
@@ -32,9 +37,8 @@ void
 *
 )
 (
-HelperThreadTask
-*
-task
+DispatchReason
+reason
 )
 ;
 extern
@@ -55,9 +59,6 @@ JS_PUBLIC_API
 void
 RunHelperThreadTask
 (
-HelperThreadTask
-*
-task
 )
 ;
 }
