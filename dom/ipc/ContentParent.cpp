@@ -28768,6 +28768,10 @@ const
 bool
 &
 aForWindowDotPrint
+const
+bool
+&
+aIsTopLevelCreatedByWebContent
 nsIURI
 *
 aURIToLoad
@@ -28924,6 +28928,13 @@ openInfo
 mOriginAttributes
 =
 aOriginAttributes
+;
+openInfo
+-
+>
+mIsTopLevelCreatedByWebContent
+=
+aIsTopLevelCreatedByWebContent
 ;
 MOZ_ASSERT_IF
 (
@@ -29992,6 +30003,10 @@ const
 bool
 &
 aForWindowDotPrint
+const
+bool
+&
+aIsTopLevelCreatedByWebContent
 nsIURI
 *
 aURIToLoad
@@ -30544,6 +30559,7 @@ aChromeFlags
 aCalledFromJS
 aForPrinting
 aForWindowDotPrint
+aIsTopLevelCreatedByWebContent
 aURIToLoad
 aFeatures
 aModifiers
@@ -30747,6 +30763,10 @@ const
 bool
 &
 aCalledFromJS
+const
+bool
+&
+aIsTopLevelCreatedByWebContent
 nsIURI
 *
 aURIToLoad
@@ -30992,6 +31012,7 @@ aChromeFlags
 aCalledFromJS
 false
 false
+aIsTopLevelCreatedByWebContent
 aURIToLoad
 aFeatures
 aModifiers

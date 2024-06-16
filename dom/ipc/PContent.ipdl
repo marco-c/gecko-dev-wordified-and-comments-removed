@@ -9550,6 +9550,8 @@ bool
 aForPrinting
 bool
 aForWindowDotPrint
+bool
+aTopLevelCreatedByContent
 nullable
 nsIURI
 aURIToLoad
@@ -9586,6 +9588,8 @@ uint32_t
 aChromeFlags
 bool
 aCalledFromJS
+bool
+aTopLevelCreatedByContent
 nullable
 nsIURI
 aURIToLoad

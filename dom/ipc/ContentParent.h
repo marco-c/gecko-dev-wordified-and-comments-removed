@@ -1910,6 +1910,10 @@ const
 bool
 &
 aForWindowDotPrint
+const
+bool
+&
+aTopLevelCreatedByWebContent
 nsIURI
 *
 aURIToLoad
@@ -1970,6 +1974,10 @@ const
 bool
 &
 aCalledFromJS
+const
+bool
+&
+aTopLevelCreatedByWebContent
 nsIURI
 *
 aURIToLoad
@@ -2926,6 +2934,10 @@ const
 bool
 &
 aForWindowDotPrint
+const
+bool
+&
+aIsTopLevelCreatedByWebContent
 nsIURI
 *
 aURIToLoad

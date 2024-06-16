@@ -89843,7 +89843,7 @@ IsTop
 bc
 -
 >
-HadOriginalOpener
+GetTopLevelCreatedByWebContent
 (
 )
 ;

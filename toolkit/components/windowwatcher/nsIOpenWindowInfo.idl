@@ -148,6 +148,14 @@ boolean
 isForWindowDotPrint
 ;
 [
+infallible
+]
+readonly
+attribute
+boolean
+isTopLevelCreatedByWebContent
+;
+[
 notxpcom
 nostdcall
 ]
