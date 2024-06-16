@@ -54,7 +54,7 @@ lib
 )
 check_when
 =
-building_with_gnu_cc
+building_with_gnu_compatible_cc
 if
 when
 is
@@ -229,7 +229,7 @@ D_BSD_SOURCE
 )
 when
 =
-building_with_gnu_cc
+building_with_gnu_compatible_cc
 &
 ~
 target_is_netbsd
@@ -247,7 +247,7 @@ have_res_ninit
 with
 only_when
 (
-building_with_gnu_cc
+building_with_gnu_compatible_cc
 )
 :
 dladdr_check
@@ -374,7 +374,7 @@ gethostbyname_r
 "
 when
 =
-building_with_gnu_cc
+building_with_gnu_compatible_cc
 )
 )
 set_config
@@ -402,7 +402,7 @@ socket
 "
 when
 =
-building_with_gnu_cc
+building_with_gnu_compatible_cc
 )
 )
 moz_use_pthreads
@@ -425,7 +425,7 @@ pthread_create
 "
 when
 =
-building_with_gnu_cc
+building_with_gnu_compatible_cc
 &
 ~
 target_is_darwin
@@ -528,7 +528,7 @@ True
 with
 only_when
 (
-building_with_gnu_cc
+building_with_gnu_compatible_cc
 )
 :
 template
