@@ -135,11 +135,13 @@ config
 kind
 in
 (
+            
 "
 build
 -
 components
 "
+            
 "
 build
 -
@@ -147,6 +149,13 @@ samples
 -
 browser
 "
+            
+"
+test
+-
+components
+"
+        
 )
 :
             
@@ -183,6 +192,13 @@ build
 bundle
 "
 "
+test
+-
+apk
+"
+"
+ui
+-
 test
 -
 apk
