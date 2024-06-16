@@ -441,11 +441,6 @@ mOutRate
 ;
 MOZ_ASSERT
 (
-aInBuffer
-)
-;
-MOZ_ASSERT
-(
 aInFrames
 )
 ;
@@ -582,11 +577,6 @@ mInRate
 MOZ_ASSERT
 (
 mOutRate
-)
-;
-MOZ_ASSERT
-(
-aInBuffer
 )
 ;
 MOZ_ASSERT
