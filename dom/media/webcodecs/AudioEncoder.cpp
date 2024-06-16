@@ -1051,7 +1051,7 @@ aConfig
 )
 ;
 }
-nsString
+nsCString
 AudioEncoderConfigInternal
 :
 :
@@ -1060,7 +1060,7 @@ ToString
 )
 const
 {
-nsString
+nsCString
 rv
 ;
 rv
@@ -1591,13 +1591,10 @@ s
 %
 s
 "
-NS_ConvertUTF16toUTF8
-(
 aConfig
 .
 ToString
 (
-)
 )
 .
 get

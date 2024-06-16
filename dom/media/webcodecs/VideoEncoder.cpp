@@ -750,7 +750,7 @@ mAvc
 )
 {
 }
-nsString
+nsCString
 VideoEncoderConfigInternal
 :
 :
@@ -759,7 +759,7 @@ ToString
 )
 const
 {
-nsString
+nsCString
 rv
 ;
 rv
