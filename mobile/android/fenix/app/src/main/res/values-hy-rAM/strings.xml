@@ -6568,7 +6568,7 @@ preference_search_address_bar_fx_suggest
 >
 -
 Firefox
--
+Suggest
 <
 /
 string
@@ -6597,6 +6597,7 @@ preference_search_learn_about_fx_suggest
 "
 >
 Firefox
+Suggest
 -
 <
 /
@@ -8847,6 +8848,8 @@ name
 preferences_enable_autocomplete_urls
 "
 >
+URL
+-
 <
 /
 string
@@ -9666,7 +9669,6 @@ UnusedResources
 "
 >
 :
-:
 <
 /
 string
@@ -9695,7 +9697,6 @@ name
 toast_customize_extension_collection_done
 "
 >
-:
 :
 <
 /
@@ -11661,7 +11662,6 @@ name
 sync_never_synced_summary
 "
 >
-.
 <
 /
 string
@@ -16372,7 +16372,6 @@ name
 bookmark_saved_snackbar
 "
 >
-:
 <
 /
 string
@@ -18810,7 +18809,6 @@ name
 create_collection_tabs_saved
 "
 >
-:
 <
 /
 string
@@ -18878,7 +18876,6 @@ name
 create_collection_tab_saved
 "
 >
-:
 <
 /
 string
@@ -19595,6 +19592,8 @@ name
 sync_reconnect
 "
 >
+.
+-
 <
 /
 string
@@ -20637,7 +20636,6 @@ name
 snackbar_added_to_shortcuts
 "
 >
-:
 <
 /
 string
@@ -22417,7 +22415,6 @@ name
 sync_sent_tabs_snackbar
 "
 >
-:
 <
 /
 string
@@ -22449,7 +22446,6 @@ name
 sync_sent_tab_snackbar
 "
 >
-:
 <
 /
 string

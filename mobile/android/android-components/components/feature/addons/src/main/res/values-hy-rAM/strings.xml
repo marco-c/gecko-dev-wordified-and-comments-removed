@@ -975,8 +975,6 @@ name
 mozac_feature_addons_permissions_browser_data_description
 "
 >
-cookie
--
 <
 /
 string
@@ -4616,6 +4614,7 @@ ignore
 UnusedResources
 "
 >
+:
 <
 /
 string
@@ -6149,7 +6148,6 @@ ignore
 UnusedResources
 "
 >
-:
 <
 /
 string
