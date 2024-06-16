@@ -186,10 +186,10 @@ move
 decoder_factory
 )
 SdpVideoFormat
-(
-"
+:
+:
 VP8
-"
+(
 )
 )
 ;

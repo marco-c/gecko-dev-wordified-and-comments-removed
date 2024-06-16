@@ -4713,10 +4713,10 @@ video_source
 decoder_factory
 decoder_settings
 SdpVideoFormat
-(
-"
+:
+:
 VP8
-"
+(
 )
 )
 -

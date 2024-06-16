@@ -367,11 +367,10 @@ webrtc
 :
 :
 SdpVideoFormat
+:
+:
+H264
 (
-cricket
-:
-:
-kH264CodecName
 )
 )
 ;

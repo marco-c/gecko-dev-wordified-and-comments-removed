@@ -1063,10 +1063,10 @@ override
 return
 {
 SdpVideoFormat
-(
-"
+:
+:
 VP8
-"
+(
 )
 }
 ;
@@ -1143,10 +1143,10 @@ override
 return
 {
 SdpVideoFormat
-(
-"
+:
+:
 VP8
-"
+(
 )
 }
 ;

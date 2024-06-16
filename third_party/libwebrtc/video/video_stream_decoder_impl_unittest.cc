@@ -634,10 +634,10 @@ std
 make_pair
 (
 SdpVideoFormat
-(
-"
+:
+:
 VP8
-"
+(
 )
 1
 )
@@ -650,10 +650,10 @@ std
 make_pair
 (
 SdpVideoFormat
+:
+:
+AV1Profile0
 (
-"
-AV1
-"
 )
 1
 )

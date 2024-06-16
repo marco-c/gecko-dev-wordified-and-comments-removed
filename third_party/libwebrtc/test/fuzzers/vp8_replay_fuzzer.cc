@@ -89,10 +89,10 @@ vp8_decoder
 video_format
 =
 SdpVideoFormat
-(
-"
+:
+:
 VP8
-"
+(
 )
 ;
 vp8_decoder

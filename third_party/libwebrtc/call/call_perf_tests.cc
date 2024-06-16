@@ -6643,10 +6643,10 @@ SimulcastEncoderAdapter
 &
 internal_encoder_factory
 SdpVideoFormat
-(
-"
+:
+:
 VP8
-"
+(
 )
 )
 ;
@@ -6701,10 +6701,10 @@ SimulcastEncoderAdapter
 &
 internal_encoder_factory
 SdpVideoFormat
-(
-"
+:
+:
 VP8
-"
+(
 )
 )
 ;

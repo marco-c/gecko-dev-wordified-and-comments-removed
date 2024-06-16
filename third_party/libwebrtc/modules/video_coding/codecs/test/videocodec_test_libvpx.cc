@@ -2929,11 +2929,10 @@ SimulcastEncoderAdapter
 &
 internal_encoder_factory
 SdpVideoFormat
+:
+:
+VP8
 (
-cricket
-:
-:
-kVp8CodecName
 )
 )
 ;

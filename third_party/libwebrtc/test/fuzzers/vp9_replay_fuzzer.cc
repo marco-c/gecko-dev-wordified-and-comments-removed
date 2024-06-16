@@ -89,10 +89,10 @@ vp9_decoder
 video_format
 =
 SdpVideoFormat
+:
+:
+VP9Profile0
 (
-"
-VP9
-"
 )
 ;
 vp9_decoder
