@@ -250,6 +250,14 @@ fenix
 theme
 .
 Theme
+internal
+const
+val
+TOOLS_MENU_ROUTE
+=
+"
+tools_menu
+"
 Suppress
 (
 "
