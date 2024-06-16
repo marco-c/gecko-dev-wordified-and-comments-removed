@@ -23093,14 +23093,6 @@ authHeader
 ;
 if
 (
-StaticPrefs
-:
-:
-network_http_redirect_stripAuthHeader
-(
-)
-&
-&
 NS_SUCCEEDED
 (
 httpChannel
@@ -23115,10 +23107,8 @@ _ns
 authHeader
 )
 )
-)
-{
-if
-(
+&
+&
 NS_ShouldRemoveAuthHeaderOnRedirect
 (
 static_cast
@@ -23159,7 +23149,6 @@ rv
 )
 )
 ;
-}
 }
 return
 NS_OK

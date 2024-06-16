@@ -15743,14 +15743,6 @@ rv
 bool
 stripAuth
 =
-StaticPrefs
-:
-:
-network_fetch_redirect_stripAuthHeader
-(
-)
-&
-&
 NS_ShouldRemoveAuthHeaderOnRedirect
 (
 aOldChannel
