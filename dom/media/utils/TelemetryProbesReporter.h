@@ -294,6 +294,7 @@ FirstFrameLoadedFlag
 IsMSE
 IsExternalEngineStateMachine
 IsHLS
+IsHardwareDecoding
 }
 ;
 using
