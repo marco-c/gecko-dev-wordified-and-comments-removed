@@ -1103,13 +1103,19 @@ button
 .
 The
 name
+of
+the
+button
 is
+/
+/
 calculated
 from
-/
-/
-this
-button
+the
+content
+of
+the
+label
 .
 /
 /
@@ -1117,7 +1123,9 @@ Note
 :
 the
 name
-contains
+does
+not
+contain
 the
 content
 of
@@ -1130,9 +1138,7 @@ testName
 btn_label_inside
 "
 "
-text
-10
-text
+texttext
 "
 )
 ;
@@ -1255,7 +1261,8 @@ testName
 btn_label_multi
 "
 "
-label1label2
+label1
+label2
 "
 )
 ;
@@ -1730,6 +1737,7 @@ textarea
 s
 name
 should
+not
 have
 the
 value
@@ -1737,9 +1745,9 @@ which
 initially
 is
 specified
+/
+/
 by
-/
-/
 a
 text
 child
@@ -1751,7 +1759,6 @@ textareawithchild
 "
 "
 Story
-Foo
 is
 ended
 .
@@ -1764,6 +1771,7 @@ new
 textarea
 name
 should
+not
 reflect
 the
 value
@@ -1796,7 +1804,6 @@ textareawithchild
 "
 "
 Story
-Bar
 is
 ended
 .
@@ -2139,7 +2146,6 @@ combo4
 "
 Subscribe
 to
-ATOM
 feed
 .
 "
@@ -2224,7 +2230,6 @@ combo6
 "
 Play
 the
-Haliluya
 sound
 when
 new
