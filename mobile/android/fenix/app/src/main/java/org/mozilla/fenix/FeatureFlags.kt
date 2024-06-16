@@ -493,9 +493,12 @@ microsurveys
 .
 *
 /
-const
 val
 microsurveysEnabled
 =
-false
+Config
+.
+channel
+.
+isDebug
 }
