@@ -1158,7 +1158,7 @@ basic_packet_socket_factory
 /
 p2p
 :
-basic_port_allocator_and_turn_port
+basic_port_allocator
 "
 "
 .

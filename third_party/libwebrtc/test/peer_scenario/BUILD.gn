@@ -516,7 +516,7 @@ rtp_rtcp_format
 /
 p2p
 :
-basic_port_allocator_and_turn_port
+basic_port_allocator
 "
 "
 .
