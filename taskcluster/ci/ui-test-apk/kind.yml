@@ -138,11 +138,11 @@ worker
 -
 type
 :
-t
+b
 -
 linux
 -
-large
+gcp
 worker
 :
 docker
