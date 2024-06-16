@@ -10383,7 +10383,7 @@ false
 if
 (
 !
-RejectTemporalLikeObject
+ThrowIfTemporalLikeObject
 (
 cx
 temporalDateLike

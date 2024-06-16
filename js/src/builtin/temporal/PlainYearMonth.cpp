@@ -4716,7 +4716,7 @@ false
 if
 (
 !
-RejectTemporalLikeObject
+ThrowIfTemporalLikeObject
 (
 cx
 temporalYearMonthLike

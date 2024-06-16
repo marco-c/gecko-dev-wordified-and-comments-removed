@@ -1032,7 +1032,7 @@ result
 )
 ;
 bool
-RejectTemporalLikeObject
+ThrowIfTemporalLikeObject
 (
 JSContext
 *

@@ -6048,7 +6048,7 @@ false
 if
 (
 !
-RejectTemporalLikeObject
+ThrowIfTemporalLikeObject
 (
 cx
 temporalTimeLike

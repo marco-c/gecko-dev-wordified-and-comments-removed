@@ -5963,7 +5963,7 @@ js
 temporal
 :
 :
-RejectTemporalLikeObject
+ThrowIfTemporalLikeObject
 (
 JSContext
 *

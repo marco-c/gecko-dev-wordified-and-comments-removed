@@ -2493,7 +2493,7 @@ false
 if
 (
 !
-RejectTemporalLikeObject
+ThrowIfTemporalLikeObject
 (
 cx
 temporalMonthDayLike

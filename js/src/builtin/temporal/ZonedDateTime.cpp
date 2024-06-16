@@ -11317,7 +11317,7 @@ false
 if
 (
 !
-RejectTemporalLikeObject
+ThrowIfTemporalLikeObject
 (
 cx
 temporalZonedDateTimeLike
