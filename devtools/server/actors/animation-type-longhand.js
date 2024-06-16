@@ -804,6 +804,11 @@ events
 position
 "
 "
+position
+-
+anchor
+"
+"
 print
 -
 color
