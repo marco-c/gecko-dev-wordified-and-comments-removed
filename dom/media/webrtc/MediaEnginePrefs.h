@@ -81,6 +81,10 @@ mFreq
 (
 0
 )
+mUsePlatformProcessing
+(
+false
+)
 mAecOn
 (
 false
@@ -139,6 +143,9 @@ mFPS
 ;
 int32_t
 mFreq
+;
+bool
+mUsePlatformProcessing
 ;
 bool
 mAecOn
