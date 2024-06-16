@@ -13803,15 +13803,21 @@ const
 std
 :
 :
+vector
+<
+std
+:
+:
 string
-kBasicAudioVideoOffer
+>
+kBasicAudioVideoOfferLines
 =
+{
 "
 v
 =
 0
 "
-CRLF
 "
 o
 =
@@ -13834,14 +13840,12 @@ IP4
 .
 0
 "
-CRLF
 "
 s
 =
 SIP
 Call
 "
-CRLF
 "
 c
 =
@@ -13859,14 +13863,12 @@ IP4
 /
 12
 "
-CRLF
 "
 t
 =
 0
 0
 "
-CRLF
 "
 a
 =
@@ -13877,7 +13879,6 @@ message
 client
 "
 BASE64_DTLS_HELLO
-CRLF
 "
 a
 =
@@ -13887,7 +13888,6 @@ ufrag
 :
 4a799b2e
 "
-CRLF
 "
 a
 =
@@ -13897,7 +13897,6 @@ pwd
 :
 e4cc12a910f106a0a744719425510e17
 "
-CRLF
 "
 a
 =
@@ -13905,7 +13904,6 @@ ice
 -
 lite
 "
-CRLF
 "
 a
 =
@@ -13916,7 +13914,6 @@ options
 trickle
 foo
 "
-CRLF
 "
 a
 =
@@ -13928,7 +13925,6 @@ WMS
 stream
 streama
 "
-CRLF
 "
 a
 =
@@ -13939,7 +13935,6 @@ semantic
 foo
 stream
 "
-CRLF
 "
 a
 =
@@ -14016,7 +14011,6 @@ A0
 :
 4C
 "
-CRLF
 "
 a
 =
@@ -14024,7 +14018,6 @@ identity
 :
 "
 LONG_IDENTITY
-CRLF
 "
 a
 =
@@ -14034,7 +14027,6 @@ BUNDLE
 first
 second
 "
-CRLF
 "
 a
 =
@@ -14043,7 +14035,6 @@ group
 BUNDLE
 third
 "
-CRLF
 "
 a
 =
@@ -14053,7 +14044,6 @@ LS
 first
 third
 "
-CRLF
 "
 m
 =
@@ -14068,7 +14058,6 @@ SAVPF
 8
 101
 "
-CRLF
 "
 c
 =
@@ -14082,7 +14071,6 @@ IP4
 .
 0
 "
-CRLF
 "
 a
 =
@@ -14090,7 +14078,6 @@ mid
 :
 first
 "
-CRLF
 "
 a
 =
@@ -14103,7 +14090,6 @@ opus
 /
 2
 "
-CRLF
 "
 a
 =
@@ -14118,7 +14104,6 @@ stereo
 =
 1
 "
-CRLF
 "
 a
 =
@@ -14126,7 +14111,6 @@ ptime
 :
 20
 "
-CRLF
 "
 a
 =
@@ -14134,7 +14118,6 @@ maxptime
 :
 20
 "
-CRLF
 "
 a
 =
@@ -14145,7 +14128,6 @@ G722
 /
 8000
 "
-CRLF
 "
 a
 =
@@ -14156,7 +14138,6 @@ PCMU
 /
 8000
 "
-CRLF
 "
 a
 =
@@ -14167,7 +14148,6 @@ PCMA
 /
 8000
 "
-CRLF
 "
 a
 =
@@ -14180,7 +14160,6 @@ event
 /
 8000
 "
-CRLF
 "
 a
 =
@@ -14196,7 +14175,6 @@ fmtp
 34
 67
 "
-CRLF
 "
 a
 =
@@ -14206,7 +14184,6 @@ ufrag
 :
 00000000
 "
-CRLF
 "
 a
 =
@@ -14216,13 +14193,11 @@ pwd
 :
 0000000000000000000000000000000
 "
-CRLF
 "
 a
 =
 sendonly
 "
-CRLF
 "
 a
 =
@@ -14245,7 +14220,6 @@ audio
 -
 level
 "
-CRLF
 "
 a
 =
@@ -14253,7 +14227,6 @@ setup
 :
 actpass
 "
-CRLF
 "
 a
 =
@@ -14261,7 +14234,6 @@ rtcp
 -
 mux
 "
-CRLF
 "
 a
 =
@@ -14270,7 +14242,6 @@ msid
 stream
 track
 "
-CRLF
 "
 a
 =
@@ -14291,7 +14262,6 @@ UDP
 typ
 host
 "
-CRLF
 "
 a
 =
@@ -14324,7 +14294,6 @@ raddr
 rport
 62453
 "
-CRLF
 "
 a
 =
@@ -14357,7 +14326,6 @@ raddr
 rport
 49761
 "
-CRLF
 "
 a
 =
@@ -14390,7 +14358,6 @@ raddr
 rport
 51858
 "
-CRLF
 "
 a
 =
@@ -14423,7 +14390,6 @@ raddr
 rport
 62454
 "
-CRLF
 "
 a
 =
@@ -14456,7 +14422,6 @@ raddr
 rport
 55428
 "
-CRLF
 "
 a
 =
@@ -14489,7 +14454,6 @@ raddr
 rport
 50340
 "
-CRLF
 "
 a
 =
@@ -14510,7 +14474,6 @@ UDP
 typ
 host
 "
-CRLF
 "
 a
 =
@@ -14527,7 +14490,6 @@ IP4
 .
 171
 "
-CRLF
 "
 a
 =
@@ -14537,7 +14499,6 @@ of
 -
 candidates
 "
-CRLF
 "
 a
 =
@@ -14545,7 +14506,6 @@ ssrc
 :
 5150
 "
-CRLF
 "
 m
 =
@@ -14559,7 +14519,6 @@ SAVPF
 122
 123
 "
-CRLF
 "
 c
 =
@@ -14569,7 +14528,6 @@ IP6
 :
 1
 "
-CRLF
 "
 a
 =
@@ -14620,7 +14578,6 @@ A0
 :
 4C
 "
-CRLF
 "
 a
 =
@@ -14628,7 +14585,6 @@ mid
 :
 second
 "
-CRLF
 "
 a
 =
@@ -14639,7 +14595,6 @@ VP8
 /
 90000
 "
-CRLF
 "
 a
 =
@@ -14658,7 +14613,6 @@ fr
 =
 30
 "
-CRLF
 "
 a
 =
@@ -14669,7 +14623,6 @@ VP9
 /
 90000
 "
-CRLF
 "
 a
 =
@@ -14688,7 +14641,6 @@ fr
 =
 30
 "
-CRLF
 "
 a
 =
@@ -14699,7 +14651,6 @@ red
 /
 90000
 "
-CRLF
 "
 a
 =
@@ -14710,13 +14661,23 @@ ulpfec
 /
 90000
 "
-CRLF
+"
+a
+=
+fmtp
+:
+122
+120
+/
+121
+/
+123
+"
 "
 a
 =
 recvonly
 "
-CRLF
 "
 a
 =
@@ -14727,7 +14688,6 @@ fb
 120
 nack
 "
-CRLF
 "
 a
 =
@@ -14739,7 +14699,6 @@ fb
 nack
 pli
 "
-CRLF
 "
 a
 =
@@ -14751,7 +14710,6 @@ fb
 ccm
 fir
 "
-CRLF
 "
 a
 =
@@ -14762,7 +14720,6 @@ fb
 121
 nack
 "
-CRLF
 "
 a
 =
@@ -14774,7 +14731,6 @@ fb
 nack
 pli
 "
-CRLF
 "
 a
 =
@@ -14786,7 +14742,6 @@ fb
 ccm
 fir
 "
-CRLF
 "
 a
 =
@@ -14794,7 +14749,6 @@ setup
 :
 active
 "
-CRLF
 "
 a
 =
@@ -14802,7 +14756,6 @@ rtcp
 -
 mux
 "
-CRLF
 "
 a
 =
@@ -14811,7 +14764,6 @@ msid
 streama
 tracka
 "
-CRLF
 "
 a
 =
@@ -14820,7 +14772,6 @@ msid
 streamb
 trackb
 "
-CRLF
 "
 a
 =
@@ -14841,7 +14792,6 @@ UDP
 typ
 host
 "
-CRLF
 "
 a
 =
@@ -14862,7 +14812,6 @@ UDP
 typ
 host
 "
-CRLF
 "
 a
 =
@@ -14895,7 +14844,6 @@ raddr
 rport
 64378
 "
-CRLF
 "
 a
 =
@@ -14928,7 +14876,6 @@ raddr
 rport
 64941
 "
-CRLF
 "
 a
 =
@@ -14961,7 +14908,6 @@ raddr
 rport
 64800
 "
-CRLF
 "
 a
 =
@@ -14994,7 +14940,6 @@ raddr
 rport
 59530
 "
-CRLF
 "
 a
 =
@@ -15027,7 +14972,6 @@ raddr
 rport
 62935
 "
-CRLF
 "
 a
 =
@@ -15060,7 +15004,6 @@ raddr
 rport
 61026
 "
-CRLF
 "
 a
 =
@@ -15068,7 +15011,6 @@ rtcp
 :
 61026
 "
-CRLF
 "
 a
 =
@@ -15078,7 +15020,6 @@ of
 -
 candidates
 "
-CRLF
 "
 a
 =
@@ -15087,7 +15028,6 @@ ssrc
 1111
 foo
 "
-CRLF
 "
 a
 =
@@ -15098,7 +15038,6 @@ foo
 :
 bar
 "
-CRLF
 "
 a
 =
@@ -15128,7 +15067,6 @@ msid
 -
 caf0b038c79d
 "
-CRLF
 "
 a
 =
@@ -15140,7 +15078,6 @@ send
 recv
 *
 "
-CRLF
 "
 a
 =
@@ -15166,7 +15103,6 @@ y
 480
 ]
 "
-CRLF
 "
 a
 =
@@ -15190,7 +15126,6 @@ height
 =
 600
 "
-CRLF
 "
 a
 =
@@ -15210,7 +15145,6 @@ height
 =
 1080
 "
-CRLF
 "
 a
 =
@@ -15221,7 +15155,6 @@ bar
 ;
 bar123
 "
-CRLF
 "
 m
 =
@@ -15232,7 +15165,6 @@ RTP
 SAVPF
 0
 "
-CRLF
 "
 a
 =
@@ -15240,7 +15172,6 @@ mid
 :
 third
 "
-CRLF
 "
 a
 =
@@ -15251,7 +15182,6 @@ PCMU
 /
 8000
 "
-CRLF
 "
 a
 =
@@ -15262,7 +15192,6 @@ options
 foo
 bar
 "
-CRLF
 "
 a
 =
@@ -15270,7 +15199,6 @@ msid
 :
 noappdata
 "
-CRLF
 "
 a
 =
@@ -15278,7 +15206,108 @@ bundle
 -
 only
 "
-CRLF
+}
+;
+static
+std
+:
+:
+string
+joinSdp
+(
+const
+std
+:
+:
+vector
+<
+std
+:
+:
+string
+>
+&
+aSdp
+const
+std
+:
+:
+string
+&
+aEndl
+)
+{
+std
+:
+:
+ostringstream
+result
+;
+for
+(
+const
+auto
+&
+line
+:
+aSdp
+)
+{
+result
+<
+<
+line
+<
+<
+aEndl
+;
+}
+result
+<
+<
+aEndl
+;
+return
+result
+.
+str
+(
+)
+;
+}
+const
+std
+:
+:
+string
+kBasicAudioVideoOffer
+=
+joinSdp
+(
+kBasicAudioVideoOfferLines
+"
+\
+r
+\
+n
+"
+)
+;
+const
+std
+:
+:
+string
+kBasicAudioVideoOfferLinefeedOnly
+=
+joinSdp
+(
+kBasicAudioVideoOfferLines
+"
+\
+n
+"
+)
 ;
 TEST_P
 (
@@ -15638,7 +15667,7 @@ kFmtpAttribute
 ;
 ASSERT_EQ
 (
-2U
+3U
 videoAttrList
 .
 GetFmtp
@@ -15688,6 +15717,26 @@ FindFmtp
 (
 "
 121
+"
+)
+)
+;
+ASSERT_TRUE
+(
+Sdp
+(
+)
+-
+>
+GetMediaSection
+(
+1
+)
+.
+FindFmtp
+(
+"
+122
 "
 )
 )
@@ -36710,6 +36759,14 @@ ASSERT_TRUE
 check_comparison
 (
 kBasicAudioVideoOffer
+)
+)
+;
+ASSERT_TRUE
+(
+check_comparison
+(
+kBasicAudioVideoOfferLinefeedOnly
 )
 )
 ;
