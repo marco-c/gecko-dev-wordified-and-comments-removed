@@ -484,18 +484,12 @@ file
     
 os
 .
-path
-.
-exists
-(
-dir
-)
-or
-os
-.
 makedirs
 (
 dir
+exist_ok
+=
+True
 )
     
 oldcontents
