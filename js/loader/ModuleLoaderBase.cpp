@@ -6809,16 +6809,6 @@ HasScriptLoadContext
 TRACE_FOR_TEST
 (
 aRequest
--
->
-GetScriptLoadContext
-(
-)
--
->
-GetScriptElement
-(
-)
 "
 scriptloader_evaluate_module
 "
