@@ -1197,6 +1197,9 @@ LogicalPoint
 &
 aFramePos
 const
+bool
+aIsAdjacentWithBStart
+const
 mozilla
 :
 :
