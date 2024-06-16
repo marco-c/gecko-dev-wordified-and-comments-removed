@@ -12516,7 +12516,9 @@ bitflags
 Influences
 the
 operation
+[
 texture_args_generator
+]
 struct
 TextureArgsOptions
 :

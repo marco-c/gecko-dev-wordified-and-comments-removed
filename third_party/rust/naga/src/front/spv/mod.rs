@@ -218,6 +218,13 @@ spirv
 Capability
 :
 :
+Int64Atomics
+spirv
+:
+:
+Capability
+:
+:
 Float16
 spirv
 :
@@ -21288,7 +21295,10 @@ value
 one_lexp_handle
 result
 :
+Some
+(
 r_lexp_handle
+)
 }
 ;
 block

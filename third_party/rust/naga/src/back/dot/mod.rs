@@ -1214,6 +1214,15 @@ result
 =
 >
 {
+if
+let
+Some
+(
+result
+)
+=
+result
+{
 self
 .
 emits
@@ -1226,6 +1235,7 @@ result
 )
 )
 ;
+}
 self
 .
 dependencies

@@ -14323,6 +14323,14 @@ BufferUsageFlags
 :
 :
 ACCELERATION_STRUCTURE_STORAGE_KHR
+|
+vk
+:
+:
+BufferUsageFlags
+:
+:
+SHADER_DEVICE_ADDRESS
 )
 .
 sharing_mode

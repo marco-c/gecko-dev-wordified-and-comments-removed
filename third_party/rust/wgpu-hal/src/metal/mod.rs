@@ -1217,6 +1217,9 @@ bool
 int64
 :
 bool
+int64_atomics
+:
+bool
 }
 #
 [

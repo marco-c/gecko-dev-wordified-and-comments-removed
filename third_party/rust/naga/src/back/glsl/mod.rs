@@ -12293,6 +12293,15 @@ level
 )
 ?
 ;
+if
+let
+Some
+(
+result
+)
+=
+result
+{
 let
 res_name
 =
@@ -12365,6 +12374,7 @@ result
 res_name
 )
 ;
+}
 let
 fun_str
 =
