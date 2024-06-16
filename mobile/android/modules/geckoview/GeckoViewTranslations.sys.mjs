@@ -445,7 +445,7 @@ GetNeverTranslateSite
 :
 try
 {
-var
+const
 value
 =
 this
@@ -740,7 +740,7 @@ setting
 is
 offer
 .
-var
+let
 setting
 =
 "
@@ -826,7 +826,7 @@ may
 throw
 an
 error
-var
+const
 canonicalTag
 =
 new
@@ -1644,7 +1644,7 @@ many
 model
 binary
 files
-var
+let
 size
 =
 0
@@ -1680,7 +1680,7 @@ required
 files
 are
 downloaded
-var
+const
 isDownloaded
 =
 await
@@ -1695,7 +1695,7 @@ language
 langTag
 )
 ;
-var
+const
 model
 =
 {
@@ -1762,7 +1762,7 @@ getLanguageList
 supportedLanguages
 )
 ;
-var
+const
 results
 =
 [
@@ -1871,7 +1871,7 @@ models
 =
 >
 {
-var
+const
 response
 =
 [
@@ -1989,7 +1989,7 @@ return
 }
 try
 {
-var
+const
 setting
 =
 this
@@ -2245,7 +2245,7 @@ SetLanguageSettings
 "
 :
 {
-var
+let
 {
 language
 languageSetting
