@@ -75,7 +75,7 @@ ResetAfterUnderrun
 )
 ;
 uint32_t
-GetCorrectedTargetRate
+GetCorrectedSourceRate
 (
 )
 const
@@ -245,7 +245,7 @@ float
 mIntegralCenterForCap
 ;
 float
-mCorrectedTargetRate
+mCorrectedSourceRate
 ;
 Maybe
 <

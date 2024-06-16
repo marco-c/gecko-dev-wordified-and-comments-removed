@@ -545,7 +545,7 @@ won
 '
 t
 correct
-out
+in
 rate
 within
 area
@@ -623,7 +623,7 @@ legend_label
 =
 "
 Corrected
-out
+in
 sample
 rate
 "
@@ -651,7 +651,7 @@ legend_label
 Hysteresis
 -
 corrected
-out
+in
 sample
 rate
 "
@@ -674,7 +674,7 @@ legend_label
 =
 "
 Configured
-out
+in
 sample
 rate
 "

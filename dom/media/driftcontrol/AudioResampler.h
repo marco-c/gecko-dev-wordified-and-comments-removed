@@ -80,15 +80,15 @@ aHasUnderrun
 )
 ;
 void
-UpdateOutRate
+UpdateInRate
 (
 uint32_t
-aOutRate
+aInRate
 )
 {
 Update
 (
-aOutRate
+aInRate
 mResampler
 .
 GetChannels
@@ -125,7 +125,7 @@ Update
 (
 mResampler
 .
-GetOutRate
+GetInRate
 (
 )
 aChannels
@@ -136,7 +136,7 @@ void
 Update
 (
 uint32_t
-aOutRate
+aInRate
 uint32_t
 aChannels
 )

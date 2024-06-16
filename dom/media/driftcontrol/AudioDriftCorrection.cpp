@@ -572,12 +572,12 @@ BufferSize
 mResampler
 -
 >
-UpdateOutRate
+UpdateInRate
 (
 mDriftController
 -
 >
-GetCorrectedTargetRate
+GetCorrectedSourceRate
 (
 )
 )

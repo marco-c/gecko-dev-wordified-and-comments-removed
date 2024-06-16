@@ -81,13 +81,13 @@ aFormat
 )
 ;
 uint32_t
-GetOutRate
+GetInRate
 (
 )
 const
 {
 return
-mOutRate
+mInRate
 ;
 }
 uint32_t
@@ -197,7 +197,7 @@ void
 UpdateResampler
 (
 uint32_t
-aOutRate
+aInRate
 uint32_t
 aChannels
 )
@@ -1001,7 +1001,7 @@ public
 :
 const
 uint32_t
-mInRate
+mOutRate
 ;
 private
 :
@@ -1024,7 +1024,7 @@ mChannels
 0
 ;
 uint32_t
-mOutRate
+mInRate
 ;
 AutoTArray
 <
