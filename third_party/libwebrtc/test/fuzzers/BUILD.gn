@@ -3055,6 +3055,17 @@ deps
 /
 p2p
 :
+pseudo_tcp
+"
+"
+.
+.
+/
+.
+.
+/
+p2p
+:
 rtc_p2p
 "
 "
