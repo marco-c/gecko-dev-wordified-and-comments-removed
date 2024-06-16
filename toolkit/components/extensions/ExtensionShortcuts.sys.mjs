@@ -2698,7 +2698,7 @@ sidebarKey
 {
 window
 .
-SidebarUI
+SidebarController
 .
 updateShortcut
 (

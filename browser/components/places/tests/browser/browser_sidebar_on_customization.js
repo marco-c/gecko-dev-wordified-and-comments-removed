@@ -124,7 +124,7 @@ Assert
 .
 ok
 (
-SidebarUI
+SidebarController
 .
 isOpen
 "
@@ -142,7 +142,7 @@ BrowserTestUtils
 .
 isVisible
 (
-SidebarUI
+SidebarController
 .
 browser
 )
@@ -238,7 +238,7 @@ BrowserTestUtils
 .
 isVisible
 (
-SidebarUI
+SidebarController
 .
 browser
 )

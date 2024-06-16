@@ -424,7 +424,7 @@ function
 )
 {
 await
-SidebarUI
+SidebarController
 .
 show
 (
@@ -444,7 +444,7 @@ SimpleTest
 .
 promiseFocus
 (
-SidebarUI
+SidebarController
 .
 browser
 )
@@ -491,7 +491,7 @@ SimpleTest
 .
 promiseFocus
 (
-SidebarUI
+SidebarController
 .
 browser
 )
@@ -649,7 +649,7 @@ window2
 )
 ;
 await
-SidebarUI
+SidebarController
 .
 hide
 (

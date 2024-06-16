@@ -281,7 +281,7 @@ ready
 let
 content
 =
-SidebarUI
+SidebarController
 .
 browser
 .

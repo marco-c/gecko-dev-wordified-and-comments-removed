@@ -18,7 +18,7 @@ position_start
 "
 )
 ;
-SidebarUI
+SidebarController
 .
 hide
 (
@@ -35,7 +35,7 @@ EXPECTED_START_ORDINALS
 "
 sidebar
 -
-launcher
+main
 "
 1
 ]
@@ -71,7 +71,7 @@ EXPECTED_END_ORDINALS
 "
 sidebar
 -
-launcher
+main
 "
 5
 ]
@@ -156,7 +156,7 @@ function
 )
 {
 await
-SidebarUI
+SidebarController
 .
 show
 (
@@ -165,7 +165,7 @@ viewBookmarksSidebar
 "
 )
 ;
-SidebarUI
+SidebarController
 .
 showSwitcherPanel
 (
@@ -247,13 +247,13 @@ start
 "
 )
 ;
-SidebarUI
+SidebarController
 .
 reversePosition
 (
 )
 ;
-SidebarUI
+SidebarController
 .
 showSwitcherPanel
 (
@@ -309,13 +309,13 @@ end
 "
 )
 ;
-SidebarUI
+SidebarController
 .
 reversePosition
 (
 )
 ;
-SidebarUI
+SidebarController
 .
 showSwitcherPanel
 (

@@ -76,7 +76,7 @@ sidebar
 /
 sidebar
 -
-launcher
+main
 .
 css
 content
@@ -87,7 +87,7 @@ sidebar
 /
 sidebar
 -
-launcher
+main
 .
 mjs
 content

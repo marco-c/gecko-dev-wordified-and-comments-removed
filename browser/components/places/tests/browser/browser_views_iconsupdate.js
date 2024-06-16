@@ -176,7 +176,7 @@ true
 }
 )
 ;
-SidebarUI
+SidebarController
 .
 show
 (
@@ -192,7 +192,7 @@ registerCleanupFunction
 =
 >
 {
-SidebarUI
+SidebarController
 .
 hide
 (

@@ -836,7 +836,7 @@ getTopWindow
 ;
 win
 .
-SidebarUI
+SidebarController
 .
 toggle
 (
