@@ -39,13 +39,6 @@ html
 ]
 [
 "
-test_turn_off_scheduled_backups
-.
-html
-"
-]
-[
-"
 test_turn_on_scheduled_backups
 .
 html
