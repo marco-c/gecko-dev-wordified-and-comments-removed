@@ -1523,7 +1523,7 @@ fin
 =
 >
 {
-qdebug
+qinfo
 !
 (
 [

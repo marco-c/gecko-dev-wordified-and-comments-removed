@@ -41,6 +41,7 @@ neqo_common
 :
 {
 qdebug
+qinfo
 Encoder
 Header
 }
@@ -877,7 +878,7 @@ Res
 usize
 >
 {
-qdebug
+qinfo
 !
 (
 [
@@ -916,7 +917,7 @@ Res
 )
 >
 {
-qdebug
+qinfo
 !
 (
 [
@@ -1263,7 +1264,7 @@ Res
 )
 >
 {
-qdebug
+qinfo
 !
 (
 [

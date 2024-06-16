@@ -316,15 +316,6 @@ pub
 fn
 init
 (
-level_filter
-:
-Option
-<
-log
-:
-:
-LevelFilter
->
 )
 {
 static
@@ -382,23 +373,6 @@ RUST_LOG
 "
 )
 ;
-if
-let
-Some
-(
-filter
-)
-=
-level_filter
-{
-builder
-.
-filter_level
-(
-filter
-)
-;
-}
 builder
 .
 format
@@ -483,7 +457,7 @@ log
 Level
 :
 :
-Warn
+Info
 "
 Logging
 initialization
@@ -510,7 +484,7 @@ log
 Level
 :
 :
-Debug
+Info
 "
 Logging
 initialized
@@ -558,7 +532,6 @@ log
 :
 init
 (
-None
 )
 ;
 :
@@ -664,7 +637,6 @@ log
 :
 init
 (
-None
 )
 ;
 :
@@ -766,7 +738,6 @@ log
 :
 init
 (
-None
 )
 ;
 :
@@ -868,7 +839,6 @@ log
 :
 init
 (
-None
 )
 ;
 :
@@ -970,7 +940,6 @@ log
 :
 init
 (
-None
 )
 ;
 :
@@ -1072,7 +1041,6 @@ log
 :
 init
 (
-None
 )
 ;
 :

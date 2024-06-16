@@ -1700,7 +1700,7 @@ Res
 )
 >
 {
-qdebug
+qinfo
 !
 (
 [
@@ -1959,7 +1959,7 @@ bool
 )
 >
 {
-qdebug
+qinfo
 !
 (
 [

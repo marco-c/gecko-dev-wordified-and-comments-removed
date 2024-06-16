@@ -756,7 +756,7 @@ Res
 )
 >
 {
-qdebug
+qinfo
 !
 (
 [
@@ -2800,7 +2800,7 @@ Decoder
 =
 >
 {
-qdebug
+qinfo
 !
 (
 [
@@ -2870,7 +2870,7 @@ Encoder
 =
 >
 {
-qdebug
+qinfo
 !
 (
 [
@@ -3190,7 +3190,7 @@ error
 AppError
 )
 {
-qdebug
+qinfo
 !
 (
 [
@@ -4174,7 +4174,7 @@ bool
 )
 >
 {
-qdebug
+qinfo
 !
 (
 [
@@ -4849,7 +4849,7 @@ Res
 )
 >
 {
-qdebug
+qinfo
 !
 (
 [
@@ -6393,7 +6393,7 @@ HFrame
 >
 >
 {
-qdebug
+qinfo
 !
 (
 [
@@ -6634,7 +6634,7 @@ Res
 )
 >
 {
-qdebug
+qinfo
 !
 (
 [

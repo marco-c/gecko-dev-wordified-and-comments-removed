@@ -8,9 +8,7 @@ not
 feature
 =
 "
-disable
--
-encryption
+fuzzing
 "
 )
 )

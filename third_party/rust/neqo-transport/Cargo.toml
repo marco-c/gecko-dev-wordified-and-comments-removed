@@ -127,7 +127,7 @@ version
 .
 7
 .
-3
+2
 "
 authors
 =
@@ -434,9 +434,7 @@ bench
 =
 [
 ]
-disable
--
-encryption
+fuzzing
 =
 [
 "
@@ -444,9 +442,7 @@ neqo
 -
 crypto
 /
-disable
--
-encryption
+fuzzing
 "
 ]
 [

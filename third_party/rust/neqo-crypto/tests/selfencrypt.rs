@@ -8,9 +8,7 @@ not
 feature
 =
 "
-disable
--
-encryption
+fuzzing
 "
 )
 )
@@ -45,10 +43,6 @@ se_create
 )
 {
 init
-(
-)
-.
-unwrap
 (
 )
 ;
@@ -111,10 +105,6 @@ u8
 )
 {
 init
-(
-)
-.
-unwrap
 (
 )
 ;
