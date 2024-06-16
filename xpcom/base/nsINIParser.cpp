@@ -1247,6 +1247,9 @@ next
 )
 )
 ;
+delete
+val
+;
 }
 return
 NS_OK
