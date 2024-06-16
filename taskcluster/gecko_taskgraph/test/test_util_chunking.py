@@ -935,6 +935,12 @@ webgpu
 False
             
 "
+webcodecs
+"
+:
+False
+            
+"
 privatebrowsing
 "
 :
