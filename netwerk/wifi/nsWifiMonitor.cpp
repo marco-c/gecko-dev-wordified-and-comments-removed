@@ -108,6 +108,15 @@ include
 "
 mozilla
 /
+Components
+.
+h
+"
+#
+include
+"
+mozilla
+/
 DelayedRunnable
 .
 h
@@ -477,6 +486,8 @@ nsCOMPtr
 <
 nsINetworkLinkService
 >
+nls
+;
 nls
 =
 do_GetService
