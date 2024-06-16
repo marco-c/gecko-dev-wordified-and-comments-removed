@@ -518,14 +518,19 @@ dest
 def
 vcs_checkout_repos
 (
+        
 self
 repo_list
 parent_dir
 =
 None
+tag_override
+=
+None
 *
 *
 kwargs
+    
 )
 :
         
@@ -629,6 +634,19 @@ update
 (
 repo_dict
 )
+            
+if
+tag_override
+:
+                
+kwargs
+[
+"
+branch
+"
+]
+=
+tag_override
             
 dest
 =
