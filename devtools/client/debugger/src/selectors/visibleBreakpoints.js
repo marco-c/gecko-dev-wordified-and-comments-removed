@@ -99,7 +99,7 @@ breakpoints
 .
 filter
 (
-bp
+breakpoint
 =
 >
 selectedSource
@@ -107,7 +107,7 @@ selectedSource
 &
 getSelectedLocation
 (
-bp
+breakpoint
 selectedSource
 )
 ?
@@ -121,6 +121,14 @@ id
 selectedSource
 .
 id
+&
+&
+!
+breakpoint
+.
+options
+.
+hidden
 )
 ;
 }
