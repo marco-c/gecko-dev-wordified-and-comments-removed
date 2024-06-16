@@ -1184,10 +1184,7 @@ seller
 '
 expect
 :
-EXPECT_EXCEPTION
-(
-TypeError
-)
+EXPECT_WINNER
 auctionConfigOverrides
 :
 {

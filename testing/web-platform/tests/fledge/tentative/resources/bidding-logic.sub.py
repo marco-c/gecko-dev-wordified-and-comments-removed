@@ -488,6 +488,8 @@ trustedBiddingSignals
 browserSignals
                               
 directFromSellerSignals
+                              
+crossOriginTrustedBiddingSignals
 )
 {
 {

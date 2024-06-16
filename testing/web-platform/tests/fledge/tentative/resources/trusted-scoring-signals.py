@@ -367,6 +367,10 @@ dataVersion
 =
 None
     
+cors
+=
+False
+    
 for
 urlList
 in
@@ -929,6 +933,19 @@ value
 request
 .
 url
+                    
+elif
+signalsParam
+=
+=
+"
+cors
+"
+:
+                        
+cors
+=
+True
             
 if
 addValue
@@ -973,6 +990,21 @@ renderUrl
 ]
 =
 value
+    
+if
+cors
+and
+fledge_http_server_util
+.
+handle_cors_headers_and_preflight
+(
+            
+request
+response
+)
+:
+        
+return
     
 if
 contentType
