@@ -4622,13 +4622,6 @@ insertManyFavicons
 (
 favicons
 )
-.
-catch
-(
-console
-.
-error
-)
 ;
 if
 (
