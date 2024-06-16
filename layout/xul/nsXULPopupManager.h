@@ -274,13 +274,13 @@ keycode
 \
 (
 DirectionFromKeyCodeTable
+\
 [
 static_cast
 <
 uint8_t
 >
 (
-\
 (
 frame
 )
@@ -294,9 +294,9 @@ StyleVisibility
 mDirection
 )
 ]
+\
 [
 (
-\
 keycode
 )
 -
