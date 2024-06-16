@@ -2029,7 +2029,7 @@ Ci
 .
 nsIRequest
 .
-LOAD_BYPASS_CACHE
+LOAD_FRESH_CONNECTION
 ;
 let
 [
@@ -2141,7 +2141,7 @@ Ci
 .
 nsIRequest
 .
-LOAD_BYPASS_CACHE
+LOAD_FRESH_CONNECTION
 ;
 [
 req
