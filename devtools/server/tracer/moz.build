@@ -3,7 +3,9 @@ DevToolsModules
 "
 tracer
 .
-jsm
+sys
+.
+mjs
 "
 )
 XPCSHELL_TESTS_MANIFESTS
