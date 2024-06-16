@@ -402,11 +402,6 @@ spread_amount
 let
 shadow_rect
 =
-self
-.
-snap_rect
-(
-&
 prim_info
 .
 rect
@@ -421,8 +416,6 @@ inflate
 (
 spread_amount
 spread_amount
-)
-spatial_node_index
 )
 ;
 if
