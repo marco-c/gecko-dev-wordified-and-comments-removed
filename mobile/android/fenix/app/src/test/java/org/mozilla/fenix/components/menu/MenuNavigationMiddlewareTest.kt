@@ -1193,6 +1193,13 @@ private
 fun
 createStore
 (
+menuState
+:
+MenuState
+=
+MenuState
+(
+)
 openToBrowser
 :
 (
@@ -1212,9 +1219,7 @@ MenuStore
 (
 initialState
 =
-MenuState
-(
-)
+menuState
 middleware
 =
 listOf
