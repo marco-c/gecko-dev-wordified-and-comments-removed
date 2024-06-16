@@ -410,6 +410,11 @@ file_iframe_document_open
 html
 "
 "
+file_iframe_document_open_partitioned
+.
+html
+"
+"
 file_localStorage
 .
 html
