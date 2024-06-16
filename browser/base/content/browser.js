@@ -1575,6 +1575,8 @@ browser
 /
 content
 /
+tabbrowser
+/
 browser
 -
 fullZoom
@@ -1648,6 +1650,8 @@ browser
 /
 content
 /
+tabbrowser
+/
 browser
 -
 allTabsMenu
@@ -1708,6 +1712,8 @@ chrome
 browser
 /
 content
+/
+tabbrowser
 /
 browser
 -

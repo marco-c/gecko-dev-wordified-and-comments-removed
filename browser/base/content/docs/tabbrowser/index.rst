@@ -178,7 +178,9 @@ js
 <
 browser
 /
-base
+components
+/
+tabbrowser
 /
 content
 /
@@ -625,7 +627,9 @@ js
 <
 browser
 /
-base
+components
+/
+tabbrowser
 /
 content
 /
