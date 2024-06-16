@@ -499,7 +499,7 @@ OriginAttributes
 mOriginAttributes
 ;
 bool
-mIsThirdPartyContext
+mIsThirdPartyContextToTopWindow
 ;
 enum
 {

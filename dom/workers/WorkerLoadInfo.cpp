@@ -495,7 +495,7 @@ mShouldResistFingerprinting
 (
 false
 )
-mIsThirdPartyContext
+mIsThirdPartyContextToTopWindow
 (
 true
 )

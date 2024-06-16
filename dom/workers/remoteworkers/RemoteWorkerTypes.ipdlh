@@ -432,7 +432,7 @@ StorageAccess
 storageAccess
 ;
 bool
-isThirdPartyContext
+isThirdPartyContextToTopWindow
 ;
 bool
 shouldResistFingerprinting
