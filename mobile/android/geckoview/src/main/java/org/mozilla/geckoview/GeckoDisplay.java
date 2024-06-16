@@ -1026,7 +1026,11 @@ isCompositorReady
 )
 )
 {
-throw
+return
+GeckoResult
+.
+fromException
+(
 new
 IllegalStateException
 (
@@ -1041,6 +1045,7 @@ can
 be
 captured
 "
+)
 )
 ;
 }
