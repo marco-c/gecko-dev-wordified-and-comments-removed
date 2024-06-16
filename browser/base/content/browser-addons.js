@@ -4295,6 +4295,12 @@ isPanelOpen
 let
 rect
 =
+window
+.
+windowUtils
+.
+getBoundsWithoutFlushing
+(
 document
 .
 getElementById
@@ -4307,9 +4313,6 @@ progress
 notification
 "
 )
-.
-getBoundingClientRect
-(
 )
 ;
 height
