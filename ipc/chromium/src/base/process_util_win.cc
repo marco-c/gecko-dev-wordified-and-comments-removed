@@ -1130,6 +1130,9 @@ return
 Err
 (
 LaunchError
+:
+:
+FromWin32Error
 (
 "
 SetHandleInformation
@@ -1411,6 +1414,9 @@ return
 Err
 (
 LaunchError
+:
+:
+FromWin32Error
 (
 "
 CreateProcess
