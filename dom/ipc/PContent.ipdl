@@ -7044,8 +7044,8 @@ aRequestingWindowContext
 )
 returns
 (
-IPCTransferableData
-transferableData
+IPCTransferableDataOrError
+transferableDataOrError
 )
 ;
 /
