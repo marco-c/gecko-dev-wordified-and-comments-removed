@@ -2031,6 +2031,7 @@ make_unique
 OveruseFrameDetector
 >
 (
+env
 stats_proxy
 )
 FrameCadenceAdapterInterface
