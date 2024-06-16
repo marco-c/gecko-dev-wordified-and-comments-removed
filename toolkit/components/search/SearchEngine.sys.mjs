@@ -5101,6 +5101,7 @@ case
 https
 "
 :
+{
 let
 iconLoadCallback
 =
@@ -5386,6 +5387,7 @@ listener
 ;
 break
 ;
+}
 }
 }
 /
