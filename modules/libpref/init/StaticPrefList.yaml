@@ -11261,6 +11261,15 @@ user
 scalable
 =
 no
+or
+use
+touch
+-
+action
+to
+disable
+pinch
+gestures
 .
 -
 name
