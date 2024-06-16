@@ -547,7 +547,7 @@ GetBlockingAll
 false
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 cookieJarSettings
 )
@@ -785,7 +785,7 @@ OriginAttributes
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 principal
 )

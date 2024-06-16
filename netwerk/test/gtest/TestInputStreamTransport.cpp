@@ -186,7 +186,7 @@ do_QueryInterface
 wrapper
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 asyncStream
 )
