@@ -12417,9 +12417,7 @@ reportAsAutoTranslate
 requestTarget
 :
 "
-full
--
-page
+full_page
 "
 }
 )
