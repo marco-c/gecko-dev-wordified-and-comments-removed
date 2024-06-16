@@ -122,6 +122,13 @@ limit_clang_14
 patch
 "
 "
+arm64e
+-
+hack
+.
+patch
+"
+"
 compiler
 -
 rt
