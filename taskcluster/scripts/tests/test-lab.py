@@ -948,6 +948,30 @@ py
     
 )
     
+copy_robo_crash_artifacts_script
+=
+os
+.
+path
+.
+join
+(
+        
+ANDROID_TEST
+"
+copy
+-
+robo
+-
+crash
+-
+artifacts
+.
+py
+"
+    
+)
+    
 os
 .
 chmod
@@ -961,6 +985,14 @@ os
 chmod
 (
 parse_ui_test_fromfile_script
+0o755
+)
+    
+os
+.
+chmod
+(
+copy_robo_crash_artifacts_script
 0o755
 )
     
@@ -1002,6 +1034,24 @@ flank
 log
 "
         
+)
+    
+if
+test_type
+=
+=
+"
+robo
+"
+:
+        
+exit_code
+=
+run_command
+(
+[
+copy_robo_crash_artifacts_script
+]
 )
     
 command
