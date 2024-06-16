@@ -256,7 +256,7 @@ overrides
 "
 "
 +
-HardwareConcurrency
+NavigatorHWConcurrency
 "
 ]
 ]

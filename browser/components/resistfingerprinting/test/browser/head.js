@@ -3372,7 +3372,7 @@ overrides
 "
 "
 +
-HardwareConcurrency
+NavigatorHWConcurrency
 "
 ]
 ]
@@ -3510,7 +3510,7 @@ overrides
 "
 "
 -
-HardwareConcurrency
+NavigatorHWConcurrency
 "
 ]
 ]
