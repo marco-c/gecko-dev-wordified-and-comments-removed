@@ -63,6 +63,11 @@ TestHttpResponseHead
 cpp
 "
 "
+TestIDNA
+.
+cpp
+"
+"
 TestInputStreamTransport
 .
 cpp
