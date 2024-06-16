@@ -2532,11 +2532,8 @@ engagement
 one
 of
 :
-start
 engagement
 abandonment
-*
-discard
 *
 param
 {
