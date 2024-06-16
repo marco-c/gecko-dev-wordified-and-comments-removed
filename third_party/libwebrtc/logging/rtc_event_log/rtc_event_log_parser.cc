@@ -1095,7 +1095,7 @@ parsed_type
 IceCandidateType
 :
 :
-kLocal
+kHost
 ;
 break
 ;
@@ -1113,7 +1113,7 @@ parsed_type
 IceCandidateType
 :
 :
-kStun
+kSrflx
 ;
 break
 ;
@@ -5659,7 +5659,7 @@ return
 IceCandidateType
 :
 :
-kLocal
+kHost
 ;
 case
 rtclog2
@@ -5674,7 +5674,7 @@ return
 IceCandidateType
 :
 :
-kStun
+kSrflx
 ;
 case
 rtclog2
@@ -5716,7 +5716,7 @@ return
 IceCandidateType
 :
 :
-kLocal
+kHost
 ;
 }
 }
@@ -5755,7 +5755,7 @@ parsed_type
 IceCandidateType
 :
 :
-kLocal
+kHost
 ;
 break
 ;
@@ -5773,7 +5773,7 @@ parsed_type
 IceCandidateType
 :
 :
-kStun
+kSrflx
 ;
 break
 ;
@@ -15314,7 +15314,7 @@ remote_candidate_type
 IceCandidateType
 :
 :
-kLocal
+kHost
 )
 route
 .
@@ -15364,7 +15364,7 @@ remote_candidate_type
 IceCandidateType
 :
 :
-kLocal
+kHost
 )
 route
 .
