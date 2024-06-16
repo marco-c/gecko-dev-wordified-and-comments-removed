@@ -216,15 +216,6 @@ cl
 USE_INTEGRATED_CLANGCL_AS
 =
 True
-ASM_FLAGS
-[
-"
-DEBUG
-"
-]
-=
-[
-]
 if
 CONFIG
 [
