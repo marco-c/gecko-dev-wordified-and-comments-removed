@@ -13688,6 +13688,9 @@ RoundedDuration
 result
 )
 {
+#
+ifdef
+DEBUG
 static
 constexpr
 int32_t
@@ -13699,6 +13702,8 @@ epochDays
 '
 000
 ;
+#
+endif
 auto
 [
 years
@@ -14222,6 +14227,9 @@ RoundedDuration
 result
 )
 {
+#
+ifdef
+DEBUG
 static
 constexpr
 int32_t
@@ -14233,6 +14241,8 @@ epochDays
 '
 000
 ;
+#
+endif
 auto
 [
 years
@@ -14754,6 +14764,9 @@ RoundedDuration
 result
 )
 {
+#
+ifdef
+DEBUG
 static
 constexpr
 int32_t
@@ -14765,6 +14778,8 @@ epochDays
 '
 000
 ;
+#
+endif
 auto
 [
 years
