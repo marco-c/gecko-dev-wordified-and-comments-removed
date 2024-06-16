@@ -18155,11 +18155,6 @@ GetScriptLoadContext
 )
 -
 >
-GetScriptElement
-(
-)
--
->
 UnblockParser
 (
 )
@@ -18180,11 +18175,6 @@ aParserBlockingRequest
 -
 >
 GetScriptLoadContext
-(
-)
--
->
-GetScriptElement
 (
 )
 -
