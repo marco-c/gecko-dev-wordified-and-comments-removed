@@ -221,7 +221,7 @@ of
 the
 xpcshell
 .
-ini
+toml
 manifest
 file
 .
@@ -235,7 +235,7 @@ XPCSHELL_TESTS_MANIFESTS
 '
 xpcshell
 .
-ini
+toml
 '
 ]
 declaration
@@ -246,7 +246,7 @@ correct
 relative
 xpcshell
 .
-ini
+toml
 path
 )
 to
@@ -268,7 +268,7 @@ an
 empty
 xpcshell
 .
-ini
+toml
 file
 to
 tell
@@ -398,7 +398,7 @@ it
 to
 xpcshell
 .
-ini
+toml
 the
 second
 line
@@ -2567,8 +2567,9 @@ resolves
 .
 xpcshell
 .
-ini
+toml
 manifest
+-
 -
 -
 -
@@ -2798,7 +2799,7 @@ in
 the
 xpcshell
 .
-ini
+toml
 manifest
 <
 #
@@ -2917,8 +2918,9 @@ a
 new
 xpcshell
 .
-ini
+toml
 file
+^
 ^
 ^
 ^
@@ -2960,7 +2962,7 @@ and
 new
 xpcshell
 .
-ini
+toml
 manifest
 file
 the
@@ -2999,7 +3001,7 @@ to
 /
 xpcshell
 .
-ini
+toml
 '
 ]
 Typically
@@ -3021,7 +3023,7 @@ as
 *
 xpcshell
 .
-ini
+toml
 *
 but
 rather
@@ -3051,7 +3053,7 @@ tests
 xpcshell
 xpcshell
 .
-ini
+toml
 #
 or
 feature
@@ -3065,7 +3067,7 @@ build
 xpcshell
 xpcshell
 .
-ini
+toml
 Test
 head
 and
@@ -3135,7 +3137,7 @@ in
 the
 xpcshell
 .
-ini
+toml
 manifest
 file
 under
@@ -3190,7 +3192,7 @@ in
 the
 xpcshell
 .
-ini
+toml
 manifest
 file
 .
@@ -3292,17 +3294,17 @@ test_example
 js
 xpcshell
 .
-ini
+toml
 .
 .
 code
 :
 :
-ini
+toml
 #
 xpcshell
 .
-ini
+toml
 [
 DEFAULT
 ]
@@ -4882,8 +4884,9 @@ in
 the
 xpcshell
 .
-ini
+toml
 manifest
+^
 ^
 ^
 ^
@@ -6273,7 +6276,7 @@ to
 the
 xpcshell
 .
-ini
+toml
 manifest
 .
 It
@@ -6320,7 +6323,7 @@ to
 the
 xpcshell
 .
-ini
+toml
 however
 as
 it
@@ -6348,7 +6351,7 @@ left
 in
 xpcshell
 .
-ini
+toml
 for
 tests
 that

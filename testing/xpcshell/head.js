@@ -1822,7 +1822,7 @@ to
 the
 xpcshell
 .
-ini
+toml
 manifest
 .
 \
