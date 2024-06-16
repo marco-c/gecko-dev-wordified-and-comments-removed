@@ -3184,8 +3184,6 @@ break
 case
 "
 autofill
--
-profile
 "
 :
 {

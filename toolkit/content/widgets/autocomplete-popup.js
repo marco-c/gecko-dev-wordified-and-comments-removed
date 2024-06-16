@@ -1850,8 +1850,6 @@ UNREUSEABLE_STYLES
 [
 "
 autofill
--
-profile
 "
 "
 action
@@ -1929,8 +1927,6 @@ style
 case
 "
 autofill
--
-profile
 "
 :
 options
@@ -1941,9 +1937,9 @@ is
 "
 autocomplete
 -
-profile
+autofill
 -
-listitem
+richlistitem
 "
 }
 ;
