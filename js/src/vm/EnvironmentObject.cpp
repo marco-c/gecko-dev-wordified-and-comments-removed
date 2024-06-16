@@ -8839,7 +8839,7 @@ class
 DebugEnvironmentProxyHandler
 :
 public
-BaseProxyHandler
+NurseryAllocableProxyHandler
 {
 enum
 Action
@@ -11482,7 +11482,7 @@ DebugEnvironmentProxyHandler
 (
 )
 :
-BaseProxyHandler
+NurseryAllocableProxyHandler
 (
 &
 family
