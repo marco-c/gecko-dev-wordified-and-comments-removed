@@ -677,17 +677,6 @@ packet
 )
 ;
 void
-OnTransportClosed
-(
-rtc
-:
-:
-PacketTransportInternal
-*
-transport
-)
-;
-void
 MaybeConnectSocket
 (
 )

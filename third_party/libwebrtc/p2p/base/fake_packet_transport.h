@@ -442,6 +442,12 @@ using
 PacketTransportInternal
 :
 :
+NotifyOnClose
+;
+using
+PacketTransportInternal
+:
+:
 NotifyPacketReceived
 ;
 private
