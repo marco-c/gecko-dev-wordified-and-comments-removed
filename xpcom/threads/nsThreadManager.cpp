@@ -138,6 +138,15 @@ include
 "
 mozilla
 /
+Perfetto
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Preferences
 .
 h
@@ -1204,6 +1213,10 @@ Init
 (
 )
 {
+InitPerfetto
+(
+)
+;
 {
 OffTheBooksMutexAutoLock
 lock
