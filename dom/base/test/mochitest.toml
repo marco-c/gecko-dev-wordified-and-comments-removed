@@ -6225,6 +6225,13 @@ html
 ]
 [
 "
+test_reportPatternFailure
+.
+html
+"
+]
+[
+"
 test_root_iframe
 .
 html
