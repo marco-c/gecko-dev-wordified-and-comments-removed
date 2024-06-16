@@ -1845,6 +1845,16 @@ libwebrtc
 /
 media
 /
+rtc_sdp_video_format_utils_gn
+"
+"
+/
+third_party
+/
+libwebrtc
+/
+media
+/
 rtc_simulcast_encoder_adapter_gn
 "
 "
