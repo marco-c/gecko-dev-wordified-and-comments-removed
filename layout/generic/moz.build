@@ -816,6 +816,11 @@ ScrollSnap
 h
 "
 "
+ScrollVelocityQueue
+.
+h
+"
+"
 TextDrawTarget
 .
 h
