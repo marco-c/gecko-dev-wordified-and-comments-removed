@@ -188,17 +188,6 @@ nscolor
 aBackColor
 )
 ;
-void
-GetTargetTextColors
-(
-nscolor
-*
-aForeColor
-nscolor
-*
-aBackColor
-)
-;
 bool
 GetCustomHighlightTextColor
 (

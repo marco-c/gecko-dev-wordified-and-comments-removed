@@ -284,12 +284,6 @@ SELECTION_URLSTRIKEOUT
 =
 10
 ;
-const
-short
-SELECTION_TARGET_TEXT
-=
-11
-;
 /
 /
 Custom
@@ -326,7 +320,7 @@ const
 short
 SELECTION_HIGHLIGHT
 =
-12
+11
 ;
 /
 /
@@ -339,7 +333,7 @@ const
 short
 NUM_SELECTIONTYPES
 =
-13
+12
 ;
 /
 /
@@ -2255,12 +2249,6 @@ nsISelectionController
 :
 :
 SELECTION_URLSTRIKEOUT
-eTargetText
-=
-nsISelectionController
-:
-:
-SELECTION_TARGET_TEXT
 eHighlight
 =
 nsISelectionController
@@ -2339,10 +2327,6 @@ SelectionType
 :
 :
 eURLStrikeout
-SelectionType
-:
-:
-eTargetText
 SelectionType
 :
 :
