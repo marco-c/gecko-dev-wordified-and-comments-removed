@@ -957,6 +957,11 @@ HTMLAnchorElement
 (
 )
 ;
+void
+MaybeTryDNSPrefetch
+(
+)
+;
 JSObject
 *
 WrapNode
