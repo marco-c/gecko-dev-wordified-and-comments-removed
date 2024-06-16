@@ -34,17 +34,6 @@ mozilla
 /
 dom
 /
-ShadowRoot
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 TypedArray
 .
 h
@@ -527,9 +516,6 @@ SerializeNodeToMarkup
 mBody
 true
 serialized
-false
-{
-}
 )
 )
 {

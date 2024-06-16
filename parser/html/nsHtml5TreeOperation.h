@@ -1304,9 +1304,6 @@ bool
 mShadowRootIsClonable
 ;
 bool
-mShadowRootIsSerializable
-;
-bool
 mShadowRootDelegatesFocus
 ;
 explicit
@@ -1331,8 +1328,6 @@ ShadowRootMode
 aShadowRootMode
 bool
 aShadowRootIsClonable
-bool
-aShadowRootIsSerializable
 bool
 aShadowRootDelegatesFocus
 )
@@ -1380,10 +1375,6 @@ aShadowRootMode
 mShadowRootIsClonable
 =
 aShadowRootIsClonable
-;
-mShadowRootIsSerializable
-=
-aShadowRootIsSerializable
 ;
 mShadowRootDelegatesFocus
 =
