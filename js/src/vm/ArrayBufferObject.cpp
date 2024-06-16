@@ -984,6 +984,11 @@ err
 ENOMEM
 )
 ;
+(
+void
+)
+err
+;
 return
 nullptr
 ;
