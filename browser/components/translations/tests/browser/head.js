@@ -5891,7 +5891,7 @@ tag
 *
 /
 static
-switchSelectedFromLanguage
+changeSelectedFromLanguage
 (
 langTag
 )
@@ -5964,7 +5964,7 @@ tag
 *
 /
 static
-switchSelectedToLanguage
+changeSelectedToLanguage
 (
 langTag
 )

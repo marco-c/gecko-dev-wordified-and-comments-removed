@@ -114,7 +114,7 @@ assertPanelViewRevisit
 ;
 FullPageTranslationsTestUtils
 .
-switchSelectedToLanguage
+changeSelectedToLanguage
 (
 "
 fr
