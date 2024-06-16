@@ -492,8 +492,8 @@ showmore
 label
 =
 Show
-More
-Tabs
+more
+tabs
 .
 tooltiptext
 =
