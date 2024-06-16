@@ -65,10 +65,7 @@ core
 iter
 :
 :
-{
-FromIterator
 FusedIterator
-}
 ;
 use
 core
@@ -18479,6 +18476,8 @@ i32
 >
 >
 =
+const
+{
 RefCell
 :
 :
@@ -18491,6 +18490,7 @@ new
 (
 )
 )
+}
 }
 #
 [
@@ -31042,8 +31042,6 @@ test_clone_from_memory_leaks
 )
 {
 use
-:
-:
 alloc
 :
 :
