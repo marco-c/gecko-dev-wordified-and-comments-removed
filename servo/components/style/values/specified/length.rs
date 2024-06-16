@@ -1383,7 +1383,7 @@ x
 Self
 :
 :
-Lh
+Rlh
 (
 op
 (
