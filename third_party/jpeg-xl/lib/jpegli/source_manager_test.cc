@@ -266,9 +266,11 @@ size
 src
 )
 ;
-rewind
+fseek
 (
 src
+0
+SEEK_SET
 )
 ;
 return

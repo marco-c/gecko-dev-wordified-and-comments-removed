@@ -358,9 +358,15 @@ float
 sum1
 =
 0
+;
+\
+float
 sum2
 =
 0
+;
+\
+float
 sum3
 =
 0

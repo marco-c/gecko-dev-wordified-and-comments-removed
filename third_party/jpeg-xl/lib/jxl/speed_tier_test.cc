@@ -418,15 +418,6 @@ GetParam
 (
 )
 ;
-test
-:
-:
-ThreadPoolForTests
-pool
-(
-8
-)
-;
 const
 std
 :

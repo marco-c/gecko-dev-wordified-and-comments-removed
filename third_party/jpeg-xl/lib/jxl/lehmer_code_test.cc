@@ -557,8 +557,11 @@ RoundtripSizeRange
 uint16_t
 >
 (
-&
 pool
+.
+get
+(
+)
 1
 1026
 )
@@ -568,8 +571,11 @@ RoundtripSizeRange
 uint32_t
 >
 (
-&
 pool
+.
+get
+(
+)
 65536
 65540
 )

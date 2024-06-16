@@ -785,6 +785,7 @@ target_include_directories
 LIB
 }
 "
+BEFORE
 PRIVATE
 {
 PROJECT_SOURCE_DIR

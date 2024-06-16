@@ -966,8 +966,7 @@ delete
 ;
 ThreadPool
 *
-operator
-&
+get
 (
 )
 {

@@ -433,6 +433,7 @@ error
 ;
 const
 Header
+&
 header
 ;
 const
@@ -533,7 +534,9 @@ kPredExtraBits
 }
 State
 (
+const
 Header
+&
 header
 size_t
 xsize

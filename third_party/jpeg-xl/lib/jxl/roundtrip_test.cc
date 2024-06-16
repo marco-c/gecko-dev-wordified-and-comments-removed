@@ -5904,13 +5904,10 @@ dec
 )
 ;
 }
-TEST
-(
-RoundtripTest
 JXL_TRANSCODE_JPEG_TEST
 (
+RoundtripTest
 TestJPEGReconstruction
-)
 )
 {
 TEST_LIBJPEG_SUPPORT

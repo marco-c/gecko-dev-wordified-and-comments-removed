@@ -1,12 +1,12 @@
 #
 include
 <
-cmath
+cstdint
 >
 #
 include
 <
-cstdint
+cstdio
 >
 #
 include
@@ -3558,9 +3558,11 @@ cinfo
 )
 ;
 }
-rewind
+fseek
 (
 tmpf
+0
+SEEK_SET
 )
 ;
 std

@@ -1171,8 +1171,11 @@ EXPECT_TRUE
 (
 RunOnPool
 (
-&
 pool
+.
+get
+(
+)
 0
 kBlockSize
 ThreadPool

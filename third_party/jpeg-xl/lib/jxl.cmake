@@ -378,6 +378,7 @@ target_include_directories
 (
 jxl_base
 SYSTEM
+BEFORE
 INTERFACE
 "
 <
@@ -394,6 +395,7 @@ include
 target_include_directories
 (
 jxl_base
+BEFORE
 INTERFACE
 {
 PROJECT_SOURCE_DIR
@@ -515,6 +517,7 @@ target_include_directories
 jxl_dec
 -
 obj
+BEFORE
 PUBLIC
 "
 <
@@ -622,6 +625,7 @@ target_include_directories
 jxl_enc
 -
 obj
+BEFORE
 PUBLIC
 {
 PROJECT_SOURCE_DIR
@@ -843,6 +847,7 @@ target_include_directories
 jxl
 -
 internal
+BEFORE
 PUBLIC
 "
 <

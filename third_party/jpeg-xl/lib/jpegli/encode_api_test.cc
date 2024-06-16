@@ -1025,9 +1025,11 @@ ftell
 tmpf
 )
 ;
-rewind
+fseek
 (
 tmpf
+0
+SEEK_SET
 )
 ;
 std

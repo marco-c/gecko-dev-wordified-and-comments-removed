@@ -362,6 +362,7 @@ TF_709
 {
 public
 :
+static
 JXL_INLINE
 double
 EncodedFromDisplay
@@ -370,7 +371,6 @@ const
 double
 d
 )
-const
 {
 if
 (

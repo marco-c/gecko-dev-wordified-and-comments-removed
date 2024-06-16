@@ -74,6 +74,7 @@ M
 void
 DCT1D
 (
+const
 double
 block
 [
@@ -293,6 +294,7 @@ M
 void
 IDCT1D
 (
+const
 double
 block
 [
@@ -510,6 +512,7 @@ M
 void
 TransposeBlock
 (
+const
 double
 in
 [

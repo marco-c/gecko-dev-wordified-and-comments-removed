@@ -118,6 +118,7 @@ clear
 }
 private
 :
+static
 Status
 CheckEOI
 (

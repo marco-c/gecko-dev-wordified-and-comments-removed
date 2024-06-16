@@ -911,8 +911,6 @@ GetWriteToImageBundleStage
 &
 frame_storage_for_referencing
 output_encoding_info
-.
-color_encoding
 )
 )
 ;
@@ -1276,8 +1274,6 @@ GetWriteToImageBundleStage
 &
 frame_storage_for_referencing
 output_encoding_info
-.
-color_encoding
 )
 )
 ;
@@ -1691,8 +1687,6 @@ GetWriteToImageBundleStage
 (
 decoded
 output_encoding_info
-.
-color_encoding
 )
 )
 ;

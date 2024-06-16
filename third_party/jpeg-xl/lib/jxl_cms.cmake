@@ -115,6 +115,7 @@ h
 target_include_directories
 (
 jxl_cms
+BEFORE
 PUBLIC
 "
 <
