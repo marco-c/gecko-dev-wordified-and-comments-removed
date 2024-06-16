@@ -346,6 +346,11 @@ nsDOMCSSDeclaration
 h
 "
 "
+nsFontFaceLoader
+.
+h
+"
+"
 nsICSSDeclaration
 .
 h
