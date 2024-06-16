@@ -1178,6 +1178,15 @@ TranslateExpectedAction
 -
 >
 {
+FxNimbus
+.
+features
+.
+translations
+.
+recordExposure
+(
+)
 Translations
 .
 offerEvent
