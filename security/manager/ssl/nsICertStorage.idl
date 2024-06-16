@@ -428,6 +428,7 @@ callback
 ;
 [
 must_use
+noscript
 ]
 short
 getCRLiteRevocationState
@@ -477,6 +478,7 @@ callback
 ;
 [
 must_use
+noscript
 ]
 boolean
 isCertRevokedByStash

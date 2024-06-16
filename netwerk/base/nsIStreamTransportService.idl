@@ -242,6 +242,9 @@ boolean
 aCloseWhenDone
 )
 ;
+[
+noscript
+]
 void
 InputAvailable
 (

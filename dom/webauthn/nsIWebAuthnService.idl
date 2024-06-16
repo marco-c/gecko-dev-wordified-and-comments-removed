@@ -171,6 +171,9 @@ attribute
 boolean
 isUVPAA
 ;
+[
+noscript
+]
 void
 makeCredential
 (
@@ -188,6 +191,9 @@ nsIWebAuthnRegisterPromise
 promise
 )
 ;
+[
+noscript
+]
 void
 getAssertion
 (

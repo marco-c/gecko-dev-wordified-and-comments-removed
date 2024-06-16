@@ -753,6 +753,9 @@ crash
 .
 *
 /
+[
+noscript
+]
 void
 syncListen
 (

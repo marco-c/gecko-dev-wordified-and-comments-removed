@@ -36,6 +36,9 @@ nsIIDRef
 >
 interfaces
 ;
+[
+noscript
+]
 nsIXPCScriptable
 getScriptableHelper
 (

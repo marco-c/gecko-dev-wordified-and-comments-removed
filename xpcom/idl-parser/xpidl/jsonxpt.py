@@ -247,6 +247,9 @@ None
 size_is
 =
 None
+needs_scriptable
+=
+None
 )
 :
     
@@ -367,6 +370,8 @@ type
 type
 calltype
 iid_is
+None
+needs_scriptable
 )
         
 }
@@ -409,6 +414,8 @@ type
 type
 calltype
 iid_is
+None
+needs_scriptable
 )
         
 }
@@ -430,6 +437,23 @@ xpidl
 Forward
 )
 :
+        
+if
+isinstance
+(
+needs_scriptable
+set
+)
+:
+            
+needs_scriptable
+.
+add
+(
+type
+.
+name
+)
         
 return
 {
@@ -932,6 +956,12 @@ methods
 [
 ]
     
+needs_scriptable
+=
+set
+(
+)
+    
 def
 build_const
 (
@@ -1039,6 +1069,9 @@ def
 build_method
 (
 m
+needs_scriptable
+=
+None
 )
 :
         
@@ -1095,6 +1128,10 @@ m
 size_is
 "
 )
+                        
+needs_scriptable
+=
+needs_scriptable
                     
 )
                     
@@ -1177,12 +1214,8 @@ hasretval
 =
 True
             
-params
-.
-append
-(
-mk_param
-(
+type
+=
 get_type
 (
 m
@@ -1191,7 +1224,18 @@ realtype
 "
 out
 "
+needs_scriptable
+=
+needs_scriptable
 )
+            
+params
+.
+append
+(
+mk_param
+(
+type
 out
 =
 1
@@ -1223,6 +1267,9 @@ def
 build_attr
 (
 a
+needs_scriptable
+=
+None
 )
 :
         
@@ -1250,12 +1297,8 @@ a
 notxpcom
 :
             
-getter_params
-.
-append
-(
-mk_param
-(
+type
+=
 get_type
 (
 a
@@ -1264,7 +1307,18 @@ realtype
 "
 out
 "
+needs_scriptable
+=
+needs_scriptable
 )
+            
+getter_params
+.
+append
+(
+mk_param
+(
+type
 out
 =
 1
@@ -1295,10 +1349,8 @@ a
 readonly
 :
             
-param
+type
 =
-mk_param
-(
 get_type
 (
 a
@@ -1307,10 +1359,9 @@ realtype
 "
 in
 "
-)
-in_
+needs_scriptable
 =
-1
+needs_scriptable
 )
             
 methods
@@ -1321,7 +1372,13 @@ mk_method
 (
 a
 [
-param
+mk_param
+(
+type
+in_
+=
+1
+)
 ]
 setter
 =
@@ -1365,6 +1422,13 @@ Attribute
 build_attr
 (
 member
+member
+.
+isScriptable
+(
+)
+and
+needs_scriptable
 )
         
 elif
@@ -1380,6 +1444,13 @@ Method
 build_method
 (
 member
+member
+.
+isScriptable
+(
+)
+and
+needs_scriptable
 )
         
 elif
@@ -1427,6 +1498,108 @@ s
 member
 )
     
+for
+ref
+in
+set
+(
+needs_scriptable
+)
+:
+        
+p
+=
+iface
+.
+idl
+.
+getName
+(
+xpidl
+.
+TypeId
+(
+ref
+)
+None
+)
+        
+if
+isinstance
+(
+p
+xpidl
+.
+Interface
+)
+:
+            
+needs_scriptable
+.
+remove
+(
+ref
+)
+            
+if
+not
+p
+.
+attributes
+.
+scriptable
+:
+                
+raise
+Exception
+(
+                    
+f
+"
+Scriptable
+member
+in
+{
+iface
+.
+name
+}
+references
+non
+-
+scriptable
+{
+ref
+}
+.
+"
+                    
+"
+The
+interface
+must
+be
+marked
+as
+[
+scriptable
+]
+"
+                    
+"
+or
+the
+referencing
+member
+with
+[
+noscript
+]
+.
+"
+                
+)
+    
 return
 {
         
@@ -1467,6 +1640,15 @@ parent
 iface
 .
 base
+        
+"
+needs_scriptable
+"
+:
+sorted
+(
+needs_scriptable
+)
         
 "
 flags

@@ -12,8 +12,6 @@ interface
 nsIThreadObserver
 ;
 [
-builtinclass
-scriptable
 rust_sync
 uuid
 (
