@@ -1195,6 +1195,9 @@ class
 FontFaceSet
 ;
 class
+FragmentDirective
+;
+class
 FrameRequestCallback
 ;
 class
@@ -11874,6 +11877,12 @@ HighlightRegistry
 (
 )
 ;
+FragmentDirective
+*
+FragmentDirective
+(
+)
+;
 bool
 ShouldResistFingerprinting
 (
@@ -14654,6 +14663,13 @@ uint64_t
 mLastCanvasUsage
 =
 0
+;
+RefPtr
+<
+class
+FragmentDirective
+>
+mFragmentDirective
 ;
 UniquePtr
 <
