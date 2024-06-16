@@ -1189,6 +1189,7 @@ list
 from
 pref
 .
+await
 this
 .
 _onPrefUpdate
@@ -1206,6 +1207,7 @@ PREF_STRIP_LIST_NAME
 )
 )
 ;
+await
 this
 .
 _onPrefUpdate
