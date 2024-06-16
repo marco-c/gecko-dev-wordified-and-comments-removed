@@ -267,6 +267,11 @@ make_unique
 RtcEventLogEncoderNewFormat
 >
 (
+env
+.
+field_trials
+(
+)
 )
 ;
 }
