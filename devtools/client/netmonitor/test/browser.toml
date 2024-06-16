@@ -1317,6 +1317,12 @@ browser_net_columns_time
 js
 "
 ]
+https_first_disabled
+=
+true
+#
+Bug
+1898241
 skip
 -
 if
