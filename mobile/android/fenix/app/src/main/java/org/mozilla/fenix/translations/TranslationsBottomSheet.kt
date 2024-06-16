@@ -819,12 +819,6 @@ TranslationPageSettings
 ?
 =
 null
-offerTranslation
-:
-Boolean
-?
-=
-null
 initialFrom
 :
 Language
@@ -875,9 +869,6 @@ getTranslationSwitchItemList
 translationPageSettings
 =
 translationPageSettings
-offerTranslation
-=
-offerTranslation
 initialFrom
 =
 initialFrom
@@ -907,12 +898,6 @@ getTranslationSwitchItemList
 translationPageSettings
 :
 TranslationPageSettings
-?
-=
-null
-offerTranslation
-:
-Boolean
 ?
 =
 null
@@ -956,6 +941,12 @@ translationPageSettings
 let
 {
 val
+alwaysOfferPopup
+=
+translationPageSettings
+.
+alwaysOfferPopup
+val
 alwaysTranslateLanguage
 =
 translationPageSettings
@@ -973,7 +964,7 @@ neverTranslateSite
 translationPageSettings
 .
 neverTranslateSite
-offerTranslation
+alwaysOfferPopup
 ?
 .
 let
