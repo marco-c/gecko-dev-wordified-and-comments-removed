@@ -239,6 +239,14 @@ nsILoadInfo
 aLoadInfo
 )
 ;
+static
+uint32_t
+GetStatusForSubresourceLoad
+(
+uint32_t
+aHttpsOnlyStatus
+)
+;
 private
 :
 static
