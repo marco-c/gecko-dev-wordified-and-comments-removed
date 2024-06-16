@@ -1870,6 +1870,9 @@ x
 -
 deflate
 "
+"
+zstd
+"
 ]
 ;
 for
