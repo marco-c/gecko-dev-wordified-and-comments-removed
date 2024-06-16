@@ -1981,11 +1981,6 @@ load
 )
 ;
 }
-void
-OnThreadIdChanged
-(
-)
-;
 bool
 CheckThreadIdChanged
 (
