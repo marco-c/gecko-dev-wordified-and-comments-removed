@@ -592,13 +592,6 @@ js
 ]
 [
 "
-browser_strip_on_share_nested_link
-.
-js
-"
-]
-[
-"
 browser_utilityOverlay
 .
 js
