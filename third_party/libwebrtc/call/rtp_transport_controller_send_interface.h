@@ -225,9 +225,6 @@ SentPacket
 struct
 NetworkRoute
 ;
-class
-TaskQueue
-;
 }
 namespace
 webrtc
