@@ -645,9 +645,8 @@ GPUFeatureName
 Shader_f16
 :
 return
-Some
+Nothing
 (
-WGPUFeatures_SHADER_F16
 )
 ;
 case
