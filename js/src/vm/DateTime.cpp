@@ -2215,9 +2215,7 @@ MakeStringSpan
 (
 u
 "
-Atlantic
-/
-Reykjavik
+UTC
 "
 )
 )
