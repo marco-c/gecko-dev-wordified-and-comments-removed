@@ -15724,6 +15724,15 @@ newInfo
 IsHttp3
 (
 )
+&
+&
+!
+newInfo
+-
+>
+GetWebTransport
+(
+)
 ;
 bool
 foundInPendingQ
