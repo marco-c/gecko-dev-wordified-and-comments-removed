@@ -962,6 +962,9 @@ tab
 toDisplayTitle
 (
 )
+url
+=
+tabUrl
 description
 =
 tabUrl
@@ -976,9 +979,6 @@ onTabClick
 tab
 )
 }
-url
-=
-tabUrl
 iconPainter
 =
 painterResource

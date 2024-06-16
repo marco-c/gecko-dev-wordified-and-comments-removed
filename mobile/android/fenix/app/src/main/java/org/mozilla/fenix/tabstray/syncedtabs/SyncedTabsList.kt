@@ -758,12 +758,12 @@ label
 syncedTab
 .
 displayTitle
-description
+url
 =
 syncedTab
 .
 displayURL
-url
+description
 =
 syncedTab
 .
@@ -821,12 +821,12 @@ label
 syncedTab
 .
 displayTitle
-description
+url
 =
 syncedTab
 .
 displayURL
-url
+description
 =
 syncedTab
 .
@@ -1480,7 +1480,7 @@ label
 "
 Mozilla
 "
-description
+url
 =
 "
 www
@@ -1489,7 +1489,7 @@ mozilla
 .
 org
 "
-url
+description
 =
 "
 www

@@ -791,6 +791,11 @@ label
 tab
 .
 title
+url
+=
+tab
+.
+url
 description
 =
 tab
@@ -803,11 +808,6 @@ toShortUrl
 onClick
 =
 onClick
-url
-=
-tab
-.
-url
 iconPainter
 =
 painterResource
