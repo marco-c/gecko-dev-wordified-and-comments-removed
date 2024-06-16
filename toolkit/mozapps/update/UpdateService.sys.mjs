@@ -21558,11 +21558,13 @@ that
 fired
 *
 /
+async
 notify
 (
 _timer
 )
 {
+await
 this
 .
 _checkForBackgroundUpdates
@@ -21581,6 +21583,7 @@ nsIUpdateService
 idl
 *
 /
+async
 checkForBackgroundUpdates
 (
 )
@@ -21732,6 +21735,7 @@ notification
 .
 *
 /
+async
 _checkForBackgroundUpdates
 (
 isNotify

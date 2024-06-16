@@ -2540,6 +2540,10 @@ checks
 .
 *
 returns
+A
+promise
+resolving
+to
 true
 if
 the
@@ -2547,6 +2551,11 @@ update
 check
 was
 started
+or
+*
+one
+resolving
+to
 false
 if
 not
@@ -2554,10 +2563,10 @@ not
 Note
 that
 the
-*
 check
 starting
 does
+*
 not
 necessarily
 mean
@@ -2565,11 +2574,11 @@ that
 the
 check
 will
-*
 succeed
 or
 that
 an
+*
 update
 will
 be
@@ -2577,7 +2586,7 @@ downloaded
 .
 *
 /
-boolean
+Promise
 checkForBackgroundUpdates
 (
 )
