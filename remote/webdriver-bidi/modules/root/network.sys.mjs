@@ -2899,7 +2899,9 @@ isValidHeaderValue
 value
 )
 Expected
+"
 header
+"
 value
 to
 be
