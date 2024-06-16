@@ -776,6 +776,11 @@ NS_ERROR_NOT_INITIALIZED
 )
 }
 ;
+if
+len
+>
+0
+{
 let
 data
 =
@@ -814,6 +819,7 @@ update
 data
 )
 ;
+}
 Ok
 (
 (
