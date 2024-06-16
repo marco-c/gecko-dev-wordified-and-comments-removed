@@ -3759,6 +3759,14 @@ ScrollToAnchor
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
+bool
+HighlightAndGoToTextFragment
+(
+bool
+aScrollToTextFragment
+)
+;
 void
 RootScrollFrameAdjusted
 (
