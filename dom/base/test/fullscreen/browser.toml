@@ -282,6 +282,15 @@ Bug
 "
 browser_fullscreen
 -
+popup
+.
+js
+"
+]
+[
+"
+browser_fullscreen
+-
 sizemode
 .
 js
