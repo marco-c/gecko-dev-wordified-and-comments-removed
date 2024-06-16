@@ -80,14 +80,12 @@ nsWrapperCache
 {
 public
 :
-explicit
 AnimationTimeline
 (
 nsIGlobalObject
 *
 aWindow
 RTPCallerType
-aRTPCallerType
 )
 ;
 struct
