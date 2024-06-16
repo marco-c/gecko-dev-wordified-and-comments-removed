@@ -9580,7 +9580,8 @@ MajorCollecting
 {
 MOZ_ASSERT
 (
-CurrentThreadIsGCSweeping
+!
+CurrentThreadIsGCMarking
 (
 )
 )
