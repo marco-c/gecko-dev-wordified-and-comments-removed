@@ -12,3 +12,17 @@ files
 *
 *
 "
+-
+name
+:
+slot
+-
+assign
+files
+:
+-
+imperative
+-
+slot
+-
+*
