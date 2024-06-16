@@ -173,8 +173,6 @@ AppState
 action
 :
 AppAction
-.
-MessagingAction
 )
 :
 AppState
