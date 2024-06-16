@@ -8040,6 +8040,17 @@ explicit_key_value_config
 /
 test
 :
+field_trial
+"
+"
+.
+.
+/
+.
+.
+/
+test
+:
 fileutils
 "
 "
