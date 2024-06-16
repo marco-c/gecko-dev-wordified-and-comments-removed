@@ -902,7 +902,7 @@ edge_flags
 )
 )
 ;
-init_transform_vs
+rectangle_aa_vertex
 (
 mix
 (

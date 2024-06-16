@@ -1513,7 +1513,7 @@ defined
 (
 SWGL_ANTIALIAS
 )
-init_transform_vs
+rectangle_aa_vertex
 (
 vec4
 (
@@ -1918,7 +1918,7 @@ defined
 SWGL_ANTIALIAS
 )
 return
-init_transform_fs
+rectangle_aa_fragment
 (
 v_local_pos
 )

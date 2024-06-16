@@ -437,7 +437,7 @@ uTransform
 *
 vertex_pos
 ;
-init_transform_vs
+rectangle_aa_vertex
 (
 vec4
 (

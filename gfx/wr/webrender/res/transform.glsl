@@ -75,7 +75,7 @@ sampler2D
 sTransformPalette
 ;
 void
-init_transform_vs
+rectangle_aa_vertex
 (
 vec4
 local_bounds
@@ -789,7 +789,7 @@ w
 ;
 }
 float
-init_transform_fs
+rectangle_aa_fragment
 (
 vec2
 local_pos
@@ -1067,7 +1067,7 @@ d
 ;
 }
 float
-init_transform_rough_fs
+rectangle_aa_rough_fragment
 (
 vec2
 local_pos

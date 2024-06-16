@@ -737,7 +737,7 @@ zw
 float
 in_shadow_rect
 =
-init_transform_rough_fs
+rectangle_aa_rough_fragment
 (
 vLocalPos
 .
@@ -1909,7 +1909,7 @@ zw
 float
 in_shadow_rect
 =
-init_transform_rough_fs
+rectangle_aa_rough_fragment
 (
 local_pos
 )

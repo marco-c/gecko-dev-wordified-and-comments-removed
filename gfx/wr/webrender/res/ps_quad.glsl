@@ -2358,7 +2358,7 @@ v_flags_has_edge_mask
 {
 alpha
 =
-init_transform_fs
+rectangle_aa_fragment
 (
 vLocalPos
 )
