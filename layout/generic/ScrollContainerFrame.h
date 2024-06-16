@@ -2989,8 +2989,6 @@ aSetBase
 bool
 *
 aDirtyRectHasBeenOverriden
-=
-nullptr
 )
 ;
 bool

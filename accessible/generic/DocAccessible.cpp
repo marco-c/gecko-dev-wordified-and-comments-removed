@@ -2794,14 +2794,14 @@ nsRect
 nsRect
 scrollPort
 ;
-nsIScrollableFrame
+ScrollContainerFrame
 *
 sf
 =
 presShell
 -
 >
-GetRootScrollFrameAsScrollable
+GetRootScrollContainerFrame
 (
 )
 ;

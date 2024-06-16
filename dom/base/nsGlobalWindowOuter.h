@@ -328,9 +328,6 @@ class
 nsIDOMWindowUtils
 ;
 class
-nsIScrollableFrame
-;
-class
 nsIControllers
 ;
 class
@@ -395,6 +392,9 @@ ErrorResult
 ;
 class
 ThrottledEventQueue
+;
+class
+ScrollContainerFrame
 ;
 namespace
 dom
@@ -1613,9 +1613,12 @@ return
 mIsChrome
 ;
 }
-nsIScrollableFrame
+mozilla
+:
+:
+ScrollContainerFrame
 *
-GetScrollFrame
+GetScrollContainerFrame
 (
 )
 ;
