@@ -185,6 +185,13 @@ js
 ]
 [
 "
+browser_firefoxview_dragDrop_pinned_tab
+.
+js
+"
+]
+[
+"
 browser_firefoxview_general_telemetry
 .
 js
