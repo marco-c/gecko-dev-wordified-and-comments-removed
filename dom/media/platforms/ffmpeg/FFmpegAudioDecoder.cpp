@@ -1831,7 +1831,9 @@ audio
 )
 numChannels
 samplingRate
-numChannels
+mAudioInfo
+.
+mChannelMap
 )
 ;
 MOZ_ASSERT
