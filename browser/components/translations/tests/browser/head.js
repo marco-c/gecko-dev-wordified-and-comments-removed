@@ -8379,6 +8379,13 @@ tryAgainButton
 ]
 )
 ;
+SharedTranslationsTestUtils
+.
+_assertHasFocus
+(
+tryAgainButton
+)
+;
 }
 /
 *
@@ -8556,6 +8563,13 @@ tryAgainButton
 ]
 )
 ]
+)
+;
+SharedTranslationsTestUtils
+.
+_assertHasFocus
+(
+tryAgainButton
 )
 ;
 }
