@@ -665,7 +665,7 @@ clipboard
 .
 featureGate
 "
-true
+false
 ]
 /
 /

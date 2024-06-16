@@ -2483,7 +2483,7 @@ clipboard
 .
 featureGate
 "
-true
+false
 )
 ;
 pref
