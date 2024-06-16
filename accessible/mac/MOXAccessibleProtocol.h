@@ -822,6 +822,14 @@ NSString
 *
 _Nullable
 )
+moxLanguage
+;
+-
+(
+NSString
+*
+_Nullable
+)
 moxMozDebugDescription
 ;
 #
