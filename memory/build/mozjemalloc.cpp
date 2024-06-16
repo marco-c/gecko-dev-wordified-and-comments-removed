@@ -22140,6 +22140,12 @@ _malloc_postfork_child
 void
 )
 {
+gArenas
+.
+PostForkFixMainThread
+(
+)
+;
 huge_mtx
 .
 Init
@@ -22175,12 +22181,6 @@ gForkingThread
 )
 ;
 }
-gArenas
-.
-PostForkFixMainThread
-(
-)
-;
 gArenas
 .
 mLock
