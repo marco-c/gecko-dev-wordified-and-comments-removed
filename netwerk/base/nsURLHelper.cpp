@@ -6542,9 +6542,10 @@ true
 )
 ;
 }
-namespace
-{
 void
+URLParams
+:
+:
 SerializeString
 (
 const
@@ -6723,7 +6724,6 @@ p
 +
 p
 ;
-}
 }
 }
 void
