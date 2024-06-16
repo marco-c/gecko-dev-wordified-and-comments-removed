@@ -301,7 +301,7 @@ GetSingleton
 (
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 service
 )
@@ -448,7 +448,7 @@ Run
 )
 override
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -687,7 +687,7 @@ Run
 )
 override
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -782,7 +782,7 @@ Run
 )
 override
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -1427,7 +1427,7 @@ GetSingleton
 (
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 service
 )
@@ -1501,7 +1501,7 @@ GetGeckoMediaPluginService
 (
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 service
 )
@@ -1523,7 +1523,7 @@ thread
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 thread
 )
@@ -1534,10 +1534,7 @@ nsIThread
 >
 currentThread
 ;
-DebugOnly
-<
 nsresult
->
 rv
 =
 NS_GetCurrentThread
@@ -1548,7 +1545,7 @@ currentThread
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_SUCCEEDED
 (
@@ -1556,7 +1553,7 @@ rv
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 currentThread
 =
@@ -5635,7 +5632,7 @@ Just_some_arbitrary_data
 "
 _ns
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 longRecordName
 .
@@ -5646,7 +5643,7 @@ Length
 GMP_MAX_RECORD_NAME_SIZE
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 longRecordName
 .

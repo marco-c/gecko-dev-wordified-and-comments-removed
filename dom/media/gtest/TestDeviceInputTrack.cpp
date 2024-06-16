@@ -426,7 +426,7 @@ MediaTrackGraph
 aGraph
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -465,7 +465,7 @@ Destroy
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -537,7 +537,7 @@ AsDeviceInputTrack
 (
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 t
 )

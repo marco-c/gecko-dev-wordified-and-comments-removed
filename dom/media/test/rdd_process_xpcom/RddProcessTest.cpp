@@ -285,7 +285,7 @@ nsresult
 aError
 )
 {
-MOZ_ASSERT_UNREACHABLE
+MOZ_CRASH
 (
 "
 RddProcessTest
@@ -296,14 +296,6 @@ get
 RDD
 child
 "
-)
-;
-promise
--
->
-MaybeReject
-(
-aError
 )
 ;
 }

@@ -2985,7 +2985,7 @@ MediaTrackGraph
 aGraph
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -3024,7 +3024,7 @@ Destroy
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -3093,7 +3093,7 @@ aFrom
 }
 else
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mInputs
 .
@@ -3174,7 +3174,7 @@ AsDeviceInputTrack
 (
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 t
 )
@@ -3942,7 +3942,7 @@ uint32_t
 aChannelCount
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
