@@ -55,7 +55,7 @@ MPL
 .
 filter
 -
-placeholder
+input
 =
 .
 placeholder
@@ -67,6 +67,14 @@ Data
 key
 =
 F
+.
+aria
+-
+label
+=
+Search
+Your
+Data
 #
 #
 Commands
