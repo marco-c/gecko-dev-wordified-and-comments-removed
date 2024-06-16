@@ -338,9 +338,6 @@ pc
 .
 read_write_texture_tier
 {
-metal
-:
-:
 MTLReadWriteTextureTier
 :
 :
@@ -361,9 +358,6 @@ empty
 (
 )
 )
-metal
-:
-:
 MTLReadWriteTextureTier
 :
 :
@@ -382,16 +376,12 @@ empty
 (
 )
 )
-metal
-:
-:
 MTLReadWriteTextureTier
 :
 :
 Tier2
 =
 >
-{
 (
 Tfc
 :
@@ -402,7 +392,6 @@ Tfc
 :
 STORAGE_READ_WRITE
 )
-}
 }
 ;
 let
@@ -3851,6 +3840,9 @@ else
 max_color_attachment_bytes_per_sample
 :
 if
+family_check
+&
+&
 device
 .
 supports_family
@@ -5112,9 +5104,6 @@ self
 .
 max_buffer_size
 max_non_sampler_bindings
-:
-std
-:
 :
 u32
 :

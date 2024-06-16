@@ -1112,6 +1112,10 @@ pub
 zero_initialize_workgroup_memory
 :
 bool
+pub
+vertex_pulling_transform
+:
+bool
 }
 pub
 type

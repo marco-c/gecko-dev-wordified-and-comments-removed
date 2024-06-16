@@ -2632,6 +2632,13 @@ time
 :
 Duration
 >
+_fence
+:
+&
+super
+:
+:
+Fence
 )
 -
 >

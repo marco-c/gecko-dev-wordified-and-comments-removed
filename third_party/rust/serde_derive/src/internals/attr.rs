@@ -995,9 +995,11 @@ pub
 struct
 RenameAllRules
 {
+pub
 serialize
 :
 RenameRule
+pub
 deserialize
 :
 RenameRule

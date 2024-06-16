@@ -14,7 +14,7 @@ uninlined_format_args
 )
 ]
 use
-std
+core
 :
 :
 fmt

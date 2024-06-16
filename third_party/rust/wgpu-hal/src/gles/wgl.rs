@@ -4626,6 +4626,13 @@ Option
 <
 Duration
 >
+_fence
+:
+&
+super
+:
+:
+Fence
 )
 -
 >

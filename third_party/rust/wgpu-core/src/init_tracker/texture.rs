@@ -396,9 +396,6 @@ let
 mut
 mip_range_start
 =
-std
-:
-:
 usize
 :
 :
@@ -408,9 +405,6 @@ let
 mut
 mip_range_end
 =
-std
-:
-:
 usize
 :
 :
@@ -420,9 +414,6 @@ let
 mut
 layer_range_start
 =
-std
-:
-:
 u32
 :
 :
@@ -432,9 +423,6 @@ let
 mut
 layer_range_end
 =
-std
-:
-:
 u32
 :
 :

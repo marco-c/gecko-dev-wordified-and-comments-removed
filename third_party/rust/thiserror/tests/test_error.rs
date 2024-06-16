@@ -7,7 +7,7 @@ dead_code
 )
 ]
 use
-std
+core
 :
 :
 fmt

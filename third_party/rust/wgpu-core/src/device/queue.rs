@@ -8243,12 +8243,9 @@ submit
 refs
 &
 submit_surface_textures
-Some
-(
 (
 fence
 submit_index
-)
 )
 )
 .

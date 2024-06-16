@@ -383,6 +383,10 @@ time
 :
 Duration
 >
+fence
+:
+&
+Resource
 )
 -
 >
@@ -590,8 +594,6 @@ Resource
 ]
 signal_fence
 :
-Option
-<
 (
 &
 mut
@@ -601,7 +603,6 @@ crate
 :
 FenceValue
 )
->
 )
 -
 >
