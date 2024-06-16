@@ -10839,6 +10839,12 @@ PopupType
 :
 :
 Tooltip
+&
+&
+!
+IsAnchored
+(
+)
 )
 {
 const
@@ -11177,7 +11183,7 @@ aAttributesOverride
 {
 NS_ASSERTION
 (
-IsVisible
+IsVisibleOrShowing
 (
 )
 "
@@ -11185,6 +11191,8 @@ popup
 must
 be
 visible
+or
+showing
 to
 move
 it
