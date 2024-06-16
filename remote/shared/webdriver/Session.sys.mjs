@@ -79,9 +79,11 @@ remote
 /
 content
 /
-marionette
+shared
 /
-accessibility
+webdriver
+/
+Accessibility
 .
 sys
 .
