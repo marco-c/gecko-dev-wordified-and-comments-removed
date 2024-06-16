@@ -184,6 +184,10 @@ as
 e
 :
     
+error
+=
+e
+    
 def
 reraise
 (
@@ -196,9 +200,7 @@ kwargs
 :
         
 raise
-(
-e
-)
+error
     
 Marionette
 =
