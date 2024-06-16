@@ -60,6 +60,14 @@ system
 proxy
 import
 ProxyRunner
+from
+mozperftest
+.
+system
+.
+versionproducer
+import
+VersionProducer
 def
 get_layers
 (
@@ -95,6 +103,8 @@ MacosDevice
 Profile
         
 ProxyRunner
+        
+VersionProducer
     
 ]
     
@@ -103,9 +113,15 @@ mobile_layers
 [
         
 Profile
+        
 ProxyRunner
+        
 BinarySetup
+        
 AndroidDevice
+        
+VersionProducer
+        
 AndroidStartUp
     
 ]
