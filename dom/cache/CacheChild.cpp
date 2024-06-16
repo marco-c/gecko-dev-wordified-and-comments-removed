@@ -446,7 +446,7 @@ NumChildActors
 )
 =
 =
-1
+0
 &
 &
 mDelayedDestroy
