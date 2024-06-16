@@ -160,11 +160,10 @@ PortInterface
 )
 ;
 virtual
-const
-absl
+webrtc
 :
 :
-string_view
+IceCandidateType
 Type
 (
 )

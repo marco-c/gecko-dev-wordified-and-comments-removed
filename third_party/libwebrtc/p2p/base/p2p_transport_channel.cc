@@ -7324,14 +7324,11 @@ skip_relay_to_non_relay_connections
 IceCandidateType
 port_type
 =
-PortTypeToIceCandidateType
-(
 port
 -
 >
 Type
 (
-)
 )
 ;
 if
@@ -9252,7 +9249,10 @@ Type
 )
 =
 =
-RELAY_PORT_TYPE
+IceCandidateType
+:
+:
+kRelay
 )
 .
 remote
