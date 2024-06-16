@@ -559,16 +559,6 @@ get_balrog_platform_name
 platform
 )
     
-if
-platform
-not
-in
-BALROG_PLATFORM_MAP
-:
-        
-return
-platform
-    
 return
 BALROG_PLATFORM_MAP
 [
