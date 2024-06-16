@@ -413,12 +413,6 @@ TOLERATED_DUPES
 {
     
 "
-mio
-"
-:
-2
-    
-"
 time
 "
 :
