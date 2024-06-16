@@ -38204,6 +38204,7 @@ tmpArgc
 noCopy
 )
 ;
+{
 size_t
 argvDstOffset
 =
@@ -38213,11 +38214,6 @@ Register
 argvSrcBase
 =
 srcBaseAndArgc
-;
-Register
-copyreg
-=
-scratch
 ;
 masm
 .
@@ -38244,7 +38240,7 @@ emitCopyValuesForApply
 (
 argvSrcBase
 argvIndex
-copyreg
+scratch
 argvSrcOffset
 argvDstOffset
 )
@@ -38264,6 +38260,7 @@ jump
 epilogue
 )
 ;
+}
 masm
 .
 bind
@@ -38272,6 +38269,7 @@ bind
 noCopy
 )
 ;
+{
 masm
 .
 movePtr
@@ -38283,6 +38281,7 @@ ImmWord
 srcBaseAndArgc
 )
 ;
+}
 masm
 .
 bind
