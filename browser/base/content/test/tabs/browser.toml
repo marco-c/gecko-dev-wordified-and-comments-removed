@@ -652,6 +652,13 @@ js
 ]
 [
 "
+browser_multiselect_tabs_close_duplicate_tabs
+.
+js
+"
+]
+[
+"
 browser_multiselect_tabs_close_other_tabs
 .
 js
