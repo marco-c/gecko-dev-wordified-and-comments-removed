@@ -623,7 +623,7 @@ priority
 default
 =
 "
-less
+idle
 "
     
 metavar
@@ -651,7 +651,7 @@ high
 .
 (
 Default
-less
+idle
 )
 "
 )
@@ -688,7 +688,7 @@ False
 priority
 =
 "
-less
+idle
 "
 )
 :
