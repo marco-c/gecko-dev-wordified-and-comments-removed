@@ -1,7 +1,4 @@
 use
-moz_task
-;
-use
 std
 :
 :
