@@ -637,12 +637,6 @@ close
 (
 )
 ;
-aCacheEntry
-.
-close
-(
-)
-;
 }
 function
 test_nocache

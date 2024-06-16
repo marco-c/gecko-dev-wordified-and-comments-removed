@@ -851,12 +851,6 @@ close
 (
 )
 ;
-entry
-.
-close
-(
-)
-;
 resolve
 (
 )

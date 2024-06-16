@@ -397,12 +397,6 @@ metaDataReady
 (
 )
 ;
-cacheEntry
-.
-close
-(
-)
-;
 var
 chan
 =

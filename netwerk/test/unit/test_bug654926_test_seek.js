@@ -165,12 +165,6 @@ close
 (
 )
 ;
-entry
-.
-close
-(
-)
-;
 asyncOpenCacheEntry
 (
 "
@@ -226,12 +220,6 @@ dataSize
 )
 ;
 os
-.
-close
-(
-)
-;
-entry
 .
 close
 (

@@ -184,12 +184,6 @@ close
 (
 )
 ;
-entry
-.
-close
-(
-)
-;
 Services
 .
 prefs
@@ -310,12 +304,6 @@ ex
 )
 {
 }
-entry
-.
-close
-(
-)
-;
 do_test_finished
 (
 )

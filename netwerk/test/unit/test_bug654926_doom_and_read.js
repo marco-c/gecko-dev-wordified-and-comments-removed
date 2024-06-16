@@ -165,12 +165,6 @@ close
 (
 )
 ;
-entry
-.
-close
-(
-)
-;
 asyncOpenCacheEntry
 (
 "
@@ -288,12 +282,6 @@ length
 )
 ;
 is
-.
-close
-(
-)
-;
-entry
 .
 close
 (

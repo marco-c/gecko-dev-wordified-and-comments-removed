@@ -317,12 +317,6 @@ close
 (
 )
 ;
-entry
-.
-close
-(
-)
-;
 store_idx
 +
 +
@@ -506,12 +500,6 @@ function
 read
 )
 {
-entry
-.
-close
-(
-)
-;
 Assert
 .
 equal

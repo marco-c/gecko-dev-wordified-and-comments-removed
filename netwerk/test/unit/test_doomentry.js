@@ -193,12 +193,6 @@ close
 (
 )
 ;
-entry
-.
-close
-(
-)
-;
 doom
 (
 "
@@ -302,9 +296,6 @@ openOutputStream
 ;
 }
 var
-gEntry
-;
-var
 gOstream
 ;
 function
@@ -329,10 +320,6 @@ data
 .
 length
 )
-;
-gEntry
-=
-entry
 ;
 gOstream
 =
@@ -385,12 +372,6 @@ length
 )
 ;
 gOstream
-.
-close
-(
-)
-;
-gEntry
 .
 close
 (
