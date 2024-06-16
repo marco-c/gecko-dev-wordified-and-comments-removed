@@ -190,5 +190,10 @@ browsingContextReadyCallback
 (
 )
 ;
+void
+cancel
+(
+)
+;
 }
 ;
