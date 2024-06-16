@@ -7047,17 +7047,6 @@ ColorInterpolationMethod
 ;
 if
 (
-mStops
-.
-Length
-(
-)
->
-=
-2
-&
-&
-(
 styleColorInterpolationMethod
 .
 space
@@ -7081,7 +7070,6 @@ CMSMode
 :
 :
 All
-)
 )
 {
 WrColorStopInterpolator
