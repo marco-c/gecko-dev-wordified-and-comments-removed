@@ -64,6 +64,13 @@ json
 ]
 [
 "
+test_CredentialsAndSecurityBackupResource
+.
+js
+"
+]
+[
+"
 test_MiscDataBackupResource
 .
 js
