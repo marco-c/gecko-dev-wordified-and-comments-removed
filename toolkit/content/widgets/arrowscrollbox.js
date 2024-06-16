@@ -157,7 +157,7 @@ scroll
 -
 button
 -
-up
+backwards
 "
 /
 >
@@ -270,7 +270,7 @@ scroll
 -
 button
 -
-down
+forwards
 "
 /
 >

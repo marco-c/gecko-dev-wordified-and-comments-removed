@@ -90,7 +90,6 @@ tabs
 opened
 and
 in
-the
 overflowing
 menus
 .
@@ -164,13 +163,13 @@ scroll
 -
 button
 -
-up
+backwards
 =
 .
 tooltiptext
 =
 Scroll
-up
+backwards
 #
 This
 button
@@ -241,10 +240,10 @@ scroll
 -
 button
 -
-down
+forwards
 =
 .
 tooltiptext
 =
 Scroll
-down
+forwards
