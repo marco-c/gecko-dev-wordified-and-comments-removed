@@ -236,6 +236,14 @@ region
 region
 )
 ;
+assert_throws_js
+(
+TypeError
+(
+)
+=
+>
+{
 cue
 .
 region
@@ -243,6 +251,9 @@ region
 '
 foo
 '
+;
+}
+)
 ;
 assert_equals
 (
