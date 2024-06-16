@@ -133,6 +133,10 @@ bool
 sCanUseVP9Decoder
 ;
 static
+bool
+sCanUseAV1Decoder
+;
+static
 constexpr
 int
 kCMVideoCodecType_H264
