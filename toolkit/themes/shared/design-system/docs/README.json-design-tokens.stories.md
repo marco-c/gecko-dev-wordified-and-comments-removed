@@ -1469,9 +1469,6 @@ forcedColors
 "
 ButtonText
 "
-.
-.
-.
 }
 }
 }
@@ -1520,9 +1517,6 @@ content
 host
 )
 {
-.
-.
-.
 /
 *
 *
@@ -1547,15 +1541,9 @@ text
 color
 )
 ;
-.
-.
-.
 }
 }
 }
-.
-.
-.
 layer
 tokens
 -
@@ -1583,9 +1571,6 @@ content
 host
 )
 {
-.
-.
-.
 /
 *
 *
@@ -1603,9 +1588,6 @@ interactive
 :
 ButtonText
 ;
-.
-.
-.
 }
 }
 }
@@ -1720,9 +1702,6 @@ gray
 80
 }
 "
-.
-.
-.
 }
 }
 }
@@ -1846,9 +1825,6 @@ color
 base
 }
 "
-.
-.
-.
 }
 }
 }
@@ -2145,9 +2121,6 @@ value
 "
 :
 {
-.
-.
-.
 "
 brand
 "
@@ -2293,9 +2266,6 @@ content
 host
 )
 {
-.
-.
-.
 /
 *
 *
@@ -2311,9 +2281,6 @@ color
 :
 currentColor
 ;
-.
-.
-.
 }
 }
 css
@@ -2344,9 +2311,6 @@ content
 host
 )
 {
-.
-.
-.
 /
 *
 *
@@ -2386,9 +2350,6 @@ gray
 )
 )
 ;
-.
-.
-.
 }
 }
 #
