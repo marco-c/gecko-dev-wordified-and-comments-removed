@@ -450,5 +450,12 @@ attribute
 AString
 documentCharacterSet
 ;
+[
+must_use
+]
+attribute
+boolean
+requestObserversCalled
+;
 }
 ;
