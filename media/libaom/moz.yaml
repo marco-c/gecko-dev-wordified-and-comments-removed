@@ -318,3 +318,9 @@ patches
 errno
 .
 patch
+-
+0002
+-
+mmloadusi64
+.
+patch
