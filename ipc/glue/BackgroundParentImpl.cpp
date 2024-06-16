@@ -6968,11 +6968,7 @@ resolver
 (
 Type
 (
-aValue
-.
-RejectValue
-(
-)
+NS_ERROR_FAILURE
 Endpoint
 <
 PRemoteDecoderManagerChild

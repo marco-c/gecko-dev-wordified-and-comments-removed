@@ -800,7 +800,7 @@ NS_ERROR_NOT_AVAILABLE
 promise
 ]
 (
-nsresult
+LaunchError
 aError
 )
 {
@@ -822,7 +822,7 @@ promise
 >
 MaybeReject
 (
-aError
+NS_ERROR_FAILURE
 )
 ;
 }

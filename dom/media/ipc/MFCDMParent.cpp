@@ -7690,7 +7690,12 @@ __func__
 [
 ]
 (
-nsresult
+ipc
+:
+:
+LaunchError
+const
+&
 aError
 )
 {
