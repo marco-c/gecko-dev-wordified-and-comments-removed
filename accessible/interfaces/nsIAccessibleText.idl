@@ -104,6 +104,12 @@ BOUNDARY_PARAGRAPH
 =
 7
 ;
+const
+AccessibleTextBoundary
+BOUNDARY_CLUSTER
+=
+8
+;
 attribute
 long
 caretOffset

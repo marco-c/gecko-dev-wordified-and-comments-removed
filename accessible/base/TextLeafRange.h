@@ -542,6 +542,16 @@ false
 )
 const
 ;
+TextLeafPoint
+FindClusterSameAcc
+(
+nsDirection
+aDirection
+bool
+aIncludeOrigin
+)
+const
+;
 bool
 IsInSpellingError
 (

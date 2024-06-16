@@ -41,6 +41,13 @@ nsIAccessibleText
 BOUNDARY_PARAGRAPH
 ;
 const
+BOUNDARY_CLUSTER
+=
+nsIAccessibleText
+.
+BOUNDARY_CLUSTER
+;
+const
 kTextEndOffset
 =
 nsIAccessibleText
