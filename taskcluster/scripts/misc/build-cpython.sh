@@ -523,6 +523,11 @@ tardir
 enable
 -
 optimizations
+-
+-
+with
+-
+lto
 {
 configure_flags_extra
 }
