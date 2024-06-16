@@ -102,6 +102,13 @@ css
 ]
 [
 "
+test_CSSStyleRule_querySelectorAll
+.
+html
+"
+]
+[
+"
 test_fontFaceGeneric
 .
 xhtml
