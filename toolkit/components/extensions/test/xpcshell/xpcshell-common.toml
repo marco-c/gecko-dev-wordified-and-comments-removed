@@ -1949,6 +1949,13 @@ test
 .
 [
 "
+test_ext_optional_host_permissions
+.
+js
+"
+]
+[
+"
 test_ext_permission_xhr
 .
 js

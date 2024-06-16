@@ -8397,6 +8397,11 @@ this
 manifest
 .
 optional_permissions
+this
+.
+manifest
+.
+optional_host_permissions
 )
 ;
 if
