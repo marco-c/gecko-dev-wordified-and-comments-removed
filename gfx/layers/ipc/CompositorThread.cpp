@@ -414,13 +414,6 @@ return
 nullptr
 ;
 }
-CompositorBridgeParent
-:
-:
-Setup
-(
-)
-;
 ImageBridgeParent
 :
 :
