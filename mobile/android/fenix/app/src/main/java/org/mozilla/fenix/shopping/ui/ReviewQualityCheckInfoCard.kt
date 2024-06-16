@@ -946,7 +946,7 @@ FirefoxTheme
 .
 colors
 .
-layerInfo
+layerInformation
 AnalysisUpdate
 -
 >

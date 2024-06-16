@@ -451,7 +451,7 @@ color
 name
 =
 "
-fx_mobile_layer_color_info
+fx_mobile_layer_color_information
 "
 tools
 :
@@ -463,7 +463,7 @@ UnusedResources
 >
 color
 /
-photonBlue50A80
+photonBlue50
 <
 /
 color
