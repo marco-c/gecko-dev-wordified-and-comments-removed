@@ -1706,7 +1706,7 @@ mjs
 )
 ;
 const
-browser
+browsingContext
 =
 BrowserWindowTracker
 .
@@ -1714,7 +1714,7 @@ getTopWindow
 (
 )
 .
-gBrowser
+browsingContext
 ;
 let
 {
@@ -1755,9 +1755,7 @@ tsv
 "
 }
 ]
-browser
-.
-ownerGlobal
+browsingContext
 )
 ;
 if
@@ -1824,7 +1822,7 @@ openFilePickerDialog
 title
 okButtonLabel
 appendFilters
-ownerGlobal
+browsingContext
 )
 {
 return
@@ -1862,7 +1860,7 @@ fp
 .
 init
 (
-ownerGlobal
+browsingContext
 title
 Ci
 .
