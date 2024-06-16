@@ -183,6 +183,7 @@ getCSSLexer
 this
 .
 authored
+true
 )
 .
 nextToken
@@ -208,13 +209,13 @@ tokenType
 =
 =
 "
-dimension
+Dimension
 "
 &
 &
 token
 .
-text
+unit
 .
 toLowerCase
 (
