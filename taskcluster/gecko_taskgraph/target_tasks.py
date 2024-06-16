@@ -5162,6 +5162,23 @@ platform
             
 if
 "
+responsiveness
+"
+in
+try_name
+and
+"
+chrome
+"
+in
+try_name
+:
+                
+return
+False
+            
+if
+"
 browsertime
 "
 in
