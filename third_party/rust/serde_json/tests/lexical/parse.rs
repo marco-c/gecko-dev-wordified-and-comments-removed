@@ -17,9 +17,6 @@ crate
 lexical
 :
 :
-parse
-:
-:
 {
 parse_concise_float
 parse_truncated_float

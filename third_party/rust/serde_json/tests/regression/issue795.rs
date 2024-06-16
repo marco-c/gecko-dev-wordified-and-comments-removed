@@ -51,6 +51,13 @@ Enum
 {
 Variant
 {
+#
+[
+allow
+(
+dead_code
+)
+]
 x
 :
 u8

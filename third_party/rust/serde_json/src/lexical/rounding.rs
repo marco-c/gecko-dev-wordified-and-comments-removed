@@ -160,9 +160,7 @@ bits
 u64
 :
 :
-max_value
-(
-)
+MAX
 }
 else
 {

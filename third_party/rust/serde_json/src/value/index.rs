@@ -713,15 +713,11 @@ v
 }
 impl
 <
-'
-a
 T
 >
 Index
 for
 &
-'
-a
 T
 where
 T
