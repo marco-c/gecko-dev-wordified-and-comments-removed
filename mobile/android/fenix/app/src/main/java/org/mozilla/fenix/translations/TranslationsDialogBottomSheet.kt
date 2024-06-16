@@ -3381,6 +3381,9 @@ Modifier
 onClick
 =
 onNegativeButtonClicked
+upperCaseText
+=
+false
 )
 Spacer
 (
