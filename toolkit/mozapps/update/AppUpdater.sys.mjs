@@ -3035,7 +3035,7 @@ DOWNLOADING
 )
 ;
 let
-success
+result
 =
 await
 this
@@ -3053,8 +3053,14 @@ false
 ;
 if
 (
+result
 !
-success
+=
+Ci
+.
+nsIApplicationUpdateService
+.
+DOWNLOAD_SUCCESS
 )
 {
 LOG
