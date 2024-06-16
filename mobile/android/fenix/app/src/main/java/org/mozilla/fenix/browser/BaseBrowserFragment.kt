@@ -4724,6 +4724,17 @@ core
 .
 lazyPasswordsStorage
 )
+isLoginAutofillEnabled
+=
+{
+context
+.
+settings
+(
+)
+.
+shouldAutofillLogins
+}
 isSaveLoginEnabled
 =
 {
