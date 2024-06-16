@@ -876,6 +876,16 @@ block_active_content
 "
 false
 ]
+[
+"
+dom
+.
+security
+.
+https_first
+"
+false
+]
 ]
 }
 )
