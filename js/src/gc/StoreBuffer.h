@@ -2689,7 +2689,7 @@ public
 ifdef
 DEBUG
 bool
-markingNondeduplicatable
+markingStringWholeCells
 ;
 #
 endif
