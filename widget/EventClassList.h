@@ -45,11 +45,6 @@ EditorInputEvent
 )
 NS_EVENT_CLASS
 (
-Internal
-LegacyTextEvent
-)
-NS_EVENT_CLASS
-(
 Widget
 MouseEventBase
 )

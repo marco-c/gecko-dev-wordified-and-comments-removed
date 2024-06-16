@@ -1003,10 +1003,6 @@ eEditorBeforeInput
 )
 NS_EVENT_MESSAGE
 (
-eLegacyTextInput
-)
-NS_EVENT_MESSAGE
-(
 eSelectStart
 )
 NS_EVENT_MESSAGE
