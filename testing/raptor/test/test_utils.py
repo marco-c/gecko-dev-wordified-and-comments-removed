@@ -4,6 +4,12 @@ import
 sys
 import
 tempfile
+from
+unittest
+.
+mock
+import
+patch
 import
 mozunit
 import
@@ -249,9 +255,22 @@ _x64
 "
 in
 transformed
+patch
+(
+"
+logger
+.
+logger
+.
+RaptorLogger
+.
+info
+"
+)
 def
 test_write_yml_file
 (
+mock_info
 )
 :
     
