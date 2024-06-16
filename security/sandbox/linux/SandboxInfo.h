@@ -94,6 +94,12 @@ kPermissive
 <
 <
 7
+kVerboseTests
+=
+1
+<
+<
+9
 }
 ;
 bool
