@@ -650,7 +650,13 @@ package
 .
 *
 >
+(
+?
+:
 Error
+|
+ERROR
+)
 :
 "
 "
