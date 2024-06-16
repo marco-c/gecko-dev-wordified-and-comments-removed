@@ -960,6 +960,17 @@ SharedMemory
 >
 mReadOnlyShmems
 ;
+#
+ifdef
+XP_WIN
+nsTArray
+<
+bool
+>
+mFaceNamesRead
+;
+#
+endif
 }
 ;
 }
