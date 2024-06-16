@@ -3709,7 +3709,7 @@ services
 /
 blob
 /
-master
+main
 /
 docs
 /
@@ -3734,15 +3734,11 @@ application
 -
 services
 /
-docs
+book
 /
-applications
+design
 /
-consuming
--
-megazord
--
-libraries
+megazords
 .
 html
 *
