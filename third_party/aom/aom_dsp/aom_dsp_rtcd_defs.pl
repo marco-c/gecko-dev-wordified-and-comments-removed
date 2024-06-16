@@ -17064,6 +17064,7 @@ aom_compute_flow_at_point
 sse4_1
 avx2
 neon
+sve
 /
 ;
 }

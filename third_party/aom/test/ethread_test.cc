@@ -88,6 +88,17 @@ av1
 /
 encoder
 /
+enc_enums
+.
+h
+"
+#
+include
+"
+av1
+/
+encoder
+/
 firstpass
 .
 h
@@ -2131,7 +2142,7 @@ cfg_
 .
 g_threads
 =
-64
+MAX_NUM_THREADS
 ;
 ASSERT_NO_FATAL_FAILURE
 (

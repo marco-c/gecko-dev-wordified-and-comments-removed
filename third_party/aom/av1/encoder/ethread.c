@@ -72,6 +72,17 @@ av1
 /
 encoder
 /
+enc_enums
+.
+h
+"
+#
+include
+"
+av1
+/
+encoder
+/
 encodeframe
 .
 h
@@ -16187,7 +16198,7 @@ cpi
 >
 gm_info
 ;
-JobInfo
+GlobalMotionJobInfo
 *
 job_info
 =
@@ -16382,7 +16393,7 @@ mt_info
 .
 gm_sync
 ;
-JobInfo
+GlobalMotionJobInfo
 *
 job_info
 =
@@ -17102,7 +17113,7 @@ AV1_COMP
 cpi
 )
 {
-JobInfo
+GlobalMotionJobInfo
 *
 job_info
 =

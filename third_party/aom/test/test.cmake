@@ -1859,6 +1859,17 @@ AOM_ROOT
 /
 test
 /
+frame_resize_test
+.
+cc
+"
+"
+{
+AOM_ROOT
+}
+/
+test
+/
 fwht4x4_test
 .
 cc

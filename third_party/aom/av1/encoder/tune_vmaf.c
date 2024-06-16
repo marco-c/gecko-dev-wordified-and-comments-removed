@@ -1760,7 +1760,7 @@ const
 int16_t
 gauss_filter
 [
-8
+9
 ]
 )
 =

@@ -198,6 +198,17 @@ av1
 /
 encoder
 /
+enc_enums
+.
+h
+"
+#
+include
+"
+av1
+/
+encoder
+/
 encoder
 .
 h
