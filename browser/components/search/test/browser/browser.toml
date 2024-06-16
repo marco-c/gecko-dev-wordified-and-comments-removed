@@ -272,6 +272,13 @@ js
 ]
 [
 "
+browser_remote_override
+.
+js
+"
+]
+[
+"
 browser_rich_suggestions
 .
 js
