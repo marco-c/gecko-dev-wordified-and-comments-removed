@@ -802,6 +802,17 @@ extensionsWebAPIEnabled
 true
 )
 .
+translationsOfferPopup
+(
+context
+.
+settings
+(
+)
+.
+offerTranslation
+)
+.
 build
 (
 )
