@@ -63,6 +63,13 @@ js
 ]
 [
 "
+browser_sidebar_max_width
+.
+js
+"
+]
+[
+"
 browser_toolbar_sidebar_button
 .
 js
