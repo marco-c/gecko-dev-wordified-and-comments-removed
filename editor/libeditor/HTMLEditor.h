@@ -2784,13 +2784,12 @@ aSrcElement
 Element
 &
 aDestElement
+int32_t
+aNamespaceID
 const
-dom
-:
-:
-Attr
+nsAtom
 &
-aAttr
+aAttrName
 nsString
 &
 aValue
