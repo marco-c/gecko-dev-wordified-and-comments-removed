@@ -11832,8 +11832,6 @@ FlushAndStopTracking
 ;
 if
 (
-NS_WARN_IF
-(
 result
 .
 inspect
@@ -11842,7 +11840,6 @@ inspect
 .
 Handled
 (
-)
 )
 )
 {
