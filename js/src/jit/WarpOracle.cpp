@@ -3283,6 +3283,12 @@ case
 JSOp
 :
 :
+TypeofEq
+:
+case
+JSOp
+:
+:
 NewObject
 :
 case
