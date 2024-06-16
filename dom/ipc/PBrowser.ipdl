@@ -920,6 +920,11 @@ MessagePort
 h
 "
 ;
+[
+MoveOnly
+=
+data
+]
 using
 class
 mozilla
