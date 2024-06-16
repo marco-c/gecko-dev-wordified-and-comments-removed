@@ -278,7 +278,7 @@ type
 "
 BackupUI
 :
-ScheduledBackupsConfirm
+ToggleScheduledBackups
 "
 )
 {
@@ -287,8 +287,11 @@ this
 sendAsyncMessage
 (
 "
-ScheduledBackupsConfirm
+ToggleScheduledBackups
 "
+event
+.
+detail
 )
 ;
 }
