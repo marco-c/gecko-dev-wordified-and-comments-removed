@@ -594,6 +594,17 @@ TemporalRoundingMode
 roundingMode
 )
 ;
+int64_t
+RoundNumberToIncrement
+(
+int64_t
+x
+int64_t
+increment
+TemporalRoundingMode
+roundingMode
+)
+;
 Int128
 RoundNumberToIncrement
 (
