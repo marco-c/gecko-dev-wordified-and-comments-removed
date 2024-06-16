@@ -791,7 +791,7 @@ EINTR
 )
 ;
 }
-LOGCLIP
+MOZ_CLIPBOARD_LOG
 (
 "
 exceeded
@@ -815,7 +815,7 @@ int32_t
 aWhichClipboard
 )
 {
-LOGCLIP
+MOZ_CLIPBOARD_LOG
 (
 "
 nsRetrievalContextX11
@@ -875,7 +875,7 @@ int32_t
 aWhichClipboard
 )
 {
-LOGCLIP
+MOZ_CLIPBOARD_LOG
 (
 "
 nsRetrievalContextX11
@@ -935,7 +935,7 @@ int32_t
 aWhichClipboard
 )
 {
-LOGCLIP
+MOZ_CLIPBOARD_LOG
 (
 "
 nsRetrievalContextX11

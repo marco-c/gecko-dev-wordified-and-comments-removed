@@ -248,6 +248,17 @@ dom
 :
 Document
 ;
+mozilla
+:
+:
+LazyLogModule
+gWidgetClipboardLog
+(
+"
+WidgetClipboard
+"
+)
+;
 static
 const
 int32_t
