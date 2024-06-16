@@ -14441,7 +14441,7 @@ success
 CubebUtils
 :
 :
-EstimatedRoundTripLatencyDefaultDevices
+EstimatedLatencyDefaultDevices
 (
 &
 mean
