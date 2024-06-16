@@ -2079,7 +2079,7 @@ color
 name
 =
 "
-fx_mobile_border_color_warning
+fx_mobile_border_color_critical
 "
 tools
 :
@@ -2091,7 +2091,7 @@ UnusedResources
 >
 color
 /
-photonRed40
+photonRed20
 <
 /
 color

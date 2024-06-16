@@ -1371,7 +1371,7 @@ FirefoxTheme
 .
 colors
 .
-borderWarning
+borderCritical
 focusedIndicatorColor
 =
 FirefoxTheme
@@ -1392,7 +1392,7 @@ FirefoxTheme
 .
 colors
 .
-borderWarning
+borderCritical
 )
 )
 Spacer

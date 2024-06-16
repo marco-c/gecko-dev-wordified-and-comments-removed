@@ -840,11 +840,11 @@ borderDisabled
 PhotonColors
 .
 LightGrey05A40
-borderWarning
+borderCritical
 =
 PhotonColors
 .
-Red40
+Red20
 borderToolbarDivider
 =
 PhotonColors
@@ -1233,7 +1233,7 @@ borderDisabled
 PhotonColors
 .
 DarkGrey90A40
-borderWarning
+borderCritical
 =
 PhotonColors
 .
@@ -1540,7 +1540,7 @@ Color
 borderDisabled
 :
 Color
-borderWarning
+borderCritical
 :
 Color
 borderToolbarDivider
@@ -2599,11 +2599,11 @@ set
 Form
 parts
 var
-borderWarning
+borderCritical
 by
 mutableStateOf
 (
-borderWarning
+borderCritical
 )
 private
 set
@@ -3026,11 +3026,11 @@ borderDisabled
 other
 .
 borderDisabled
-borderWarning
+borderCritical
 =
 other
 .
-borderWarning
+borderCritical
 borderToolbarDivider
 =
 other
@@ -3600,7 +3600,7 @@ Color
 =
 this
 .
-borderWarning
+borderCritical
 borderToolbarDivider
 :
 Color
@@ -3839,7 +3839,7 @@ borderAccent
 borderDisabled
 =
 borderDisabled
-borderWarning
+borderCritical
 =
 borderWarning
 borderToolbarDivider
