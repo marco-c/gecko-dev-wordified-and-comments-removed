@@ -2154,9 +2154,6 @@ is_binary
 }
 ;
 use
-dirs
-;
-use
 plist
 :
 :
