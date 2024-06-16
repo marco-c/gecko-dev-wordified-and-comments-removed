@@ -5409,6 +5409,11 @@ output_buffer
 buffer_length
 )
 ;
+PORT_SetError
+(
+SEC_ERROR_LIBRARY_FAILURE
+)
+;
 return
 SECFailure
 ;

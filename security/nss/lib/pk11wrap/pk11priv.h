@@ -161,13 +161,6 @@ char
 serial
 )
 ;
-int
-PK11_GetMaxKeyLength
-(
-CK_MECHANISM_TYPE
-type
-)
-;
 CK_OBJECT_HANDLE
 PK11_CopyKey
 (

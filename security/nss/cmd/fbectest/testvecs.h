@@ -28,7 +28,6 @@ vector
 :
 0
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P256
@@ -53,7 +52,6 @@ vector
 :
 1
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P256
@@ -78,7 +76,6 @@ vector
 :
 2
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P256
@@ -103,7 +100,6 @@ vector
 :
 3
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P256
@@ -128,7 +124,6 @@ vector
 :
 4
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P256
@@ -153,7 +148,6 @@ vector
 :
 5
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P256
@@ -178,7 +172,6 @@ vector
 :
 6
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P256
@@ -203,7 +196,6 @@ vector
 :
 7
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P256
@@ -228,7 +220,6 @@ vector
 :
 8
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P256
@@ -253,7 +244,6 @@ vector
 :
 9
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P256
@@ -278,7 +268,6 @@ vector
 :
 10
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P256
@@ -303,7 +292,6 @@ vector
 :
 11
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P256
@@ -328,7 +316,6 @@ vector
 :
 12
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P256
@@ -353,7 +340,6 @@ vector
 :
 13
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P256
@@ -378,7 +364,6 @@ vector
 :
 14
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P256
@@ -403,7 +388,6 @@ vector
 :
 15
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P256
@@ -428,7 +412,6 @@ vector
 :
 16
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P256
@@ -453,7 +436,6 @@ vector
 :
 17
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P256
@@ -478,7 +460,6 @@ vector
 :
 18
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P256
@@ -503,7 +484,6 @@ vector
 :
 19
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P256
@@ -528,7 +508,6 @@ vector
 :
 20
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P256
@@ -553,7 +532,6 @@ vector
 :
 21
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P256
@@ -578,7 +556,6 @@ vector
 :
 22
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P256
@@ -603,7 +580,6 @@ vector
 :
 23
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P256
@@ -628,7 +604,6 @@ vector
 :
 24
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P384
@@ -659,7 +634,6 @@ vector
 :
 0
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P384
@@ -690,7 +664,6 @@ vector
 :
 1
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P384
@@ -721,7 +694,6 @@ vector
 :
 2
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P384
@@ -752,7 +724,6 @@ vector
 :
 3
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P384
@@ -783,7 +754,6 @@ vector
 :
 4
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P384
@@ -814,7 +784,6 @@ vector
 :
 5
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P384
@@ -845,7 +814,6 @@ vector
 :
 6
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P384
@@ -876,7 +844,6 @@ vector
 :
 7
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P384
@@ -907,7 +874,6 @@ vector
 :
 8
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P384
@@ -938,7 +904,6 @@ vector
 :
 9
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P384
@@ -969,7 +934,6 @@ vector
 :
 10
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P384
@@ -1000,7 +964,6 @@ vector
 :
 11
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P384
@@ -1031,7 +994,6 @@ vector
 :
 12
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P384
@@ -1062,7 +1024,6 @@ vector
 :
 13
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P384
@@ -1093,7 +1054,6 @@ vector
 :
 14
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P384
@@ -1124,7 +1084,6 @@ vector
 :
 15
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P384
@@ -1155,7 +1114,6 @@ vector
 :
 16
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P384
@@ -1186,7 +1144,6 @@ vector
 :
 17
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P384
@@ -1217,7 +1174,6 @@ vector
 :
 18
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P384
@@ -1248,7 +1204,6 @@ vector
 :
 19
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P384
@@ -1279,7 +1234,6 @@ vector
 :
 20
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P384
@@ -1310,7 +1264,6 @@ vector
 :
 21
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P384
@@ -1341,7 +1294,6 @@ vector
 :
 22
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P384
@@ -1372,7 +1324,6 @@ vector
 :
 23
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P384
@@ -1403,7 +1354,6 @@ vector
 :
 24
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P521
@@ -1446,7 +1396,6 @@ vector
 :
 0
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P521
@@ -1489,7 +1438,6 @@ vector
 :
 1
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P521
@@ -1532,7 +1480,6 @@ vector
 :
 2
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P521
@@ -1575,7 +1522,6 @@ vector
 :
 3
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P521
@@ -1618,7 +1564,6 @@ vector
 :
 4
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P521
@@ -1661,7 +1606,6 @@ vector
 :
 5
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P521
@@ -1704,7 +1648,6 @@ vector
 :
 6
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P521
@@ -1747,7 +1690,6 @@ vector
 :
 7
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P521
@@ -1790,7 +1732,6 @@ vector
 :
 8
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P521
@@ -1833,7 +1774,6 @@ vector
 :
 9
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P521
@@ -1876,7 +1816,6 @@ vector
 :
 10
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P521
@@ -1919,7 +1858,6 @@ vector
 :
 11
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P521
@@ -1962,7 +1900,6 @@ vector
 :
 12
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P521
@@ -2005,7 +1942,6 @@ vector
 :
 13
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P521
@@ -2048,7 +1984,6 @@ vector
 :
 14
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P521
@@ -2091,7 +2026,6 @@ vector
 :
 15
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P521
@@ -2134,7 +2068,6 @@ vector
 :
 16
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P521
@@ -2177,7 +2110,6 @@ vector
 :
 17
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P521
@@ -2220,7 +2152,6 @@ vector
 :
 18
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P521
@@ -2263,7 +2194,6 @@ vector
 :
 19
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P521
@@ -2306,7 +2236,6 @@ vector
 :
 20
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P521
@@ -2349,7 +2278,6 @@ vector
 :
 21
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P521
@@ -2392,7 +2320,6 @@ vector
 :
 22
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P521
@@ -2435,7 +2362,6 @@ vector
 :
 23
 "
-ec_field_GFp
 }
 {
 ECCurve_NIST_P521
@@ -2478,7 +2404,6 @@ vector
 :
 24
 "
-ec_field_GFp
 }
 {
 ECCurve_pastLastCurve
@@ -2488,7 +2413,6 @@ NULL
 NULL
 NULL
 NULL
-0
 }
 }
 ;
@@ -2520,7 +2444,6 @@ vector
 :
 0
 "
-ec_field_plain
 }
 {
 ECCurve25519
@@ -2543,7 +2466,6 @@ vector
 :
 1
 "
-ec_field_plain
 }
 {
 ECCurve25519
@@ -2566,7 +2488,6 @@ vector
 :
 2
 "
-ec_field_plain
 }
 {
 ECCurve25519
@@ -2590,7 +2511,6 @@ vector
 1000
 iterations
 "
-ec_field_plain
 }
 #
 ifdef
@@ -2617,7 +2537,6 @@ vector
 1000000
 iterations
 "
-ec_field_plain
 }
 #
 endif
@@ -2642,7 +2561,6 @@ custom
 vector
 1
 "
-ec_field_plain
 }
 {
 ECCurve25519
@@ -2665,7 +2583,6 @@ custom
 vector
 1
 "
-ec_field_plain
 }
 {
 ECCurve_pastLastCurve
@@ -2675,7 +2592,6 @@ NULL
 NULL
 NULL
 NULL
-0
 }
 }
 ;
@@ -2701,7 +2617,6 @@ vector
 bad
 point
 "
-ec_field_plain
 }
 {
 ECCurve25519
@@ -2718,7 +2633,6 @@ vector
 bad
 point
 "
-ec_field_plain
 }
 {
 ECCurve25519
@@ -2735,7 +2649,6 @@ vector
 bad
 point
 "
-ec_field_plain
 }
 {
 ECCurve25519
@@ -2752,7 +2665,6 @@ vector
 bad
 point
 "
-ec_field_plain
 }
 {
 ECCurve25519
@@ -2769,7 +2681,6 @@ vector
 bad
 point
 "
-ec_field_plain
 }
 {
 ECCurve25519
@@ -2786,7 +2697,6 @@ vector
 bad
 point
 "
-ec_field_plain
 }
 {
 ECCurve25519
@@ -2803,7 +2713,6 @@ vector
 bad
 point
 "
-ec_field_plain
 }
 {
 ECCurve25519
@@ -2820,7 +2729,6 @@ vector
 bad
 point
 "
-ec_field_plain
 }
 {
 ECCurve25519
@@ -2837,7 +2745,6 @@ vector
 bad
 point
 "
-ec_field_plain
 }
 {
 ECCurve25519
@@ -2854,7 +2761,6 @@ vector
 bad
 point
 "
-ec_field_plain
 }
 {
 ECCurve25519
@@ -2871,7 +2777,6 @@ vector
 bad
 point
 "
-ec_field_plain
 }
 {
 ECCurve25519
@@ -2888,13 +2793,11 @@ vector
 bad
 point
 "
-ec_field_plain
 }
 {
 ECCurve_pastLastCurve
 0
 NULL
-0
 }
 }
 ;

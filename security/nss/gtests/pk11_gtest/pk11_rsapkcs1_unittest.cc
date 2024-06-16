@@ -1586,6 +1586,12 @@ data
 sig_len
 }
 ;
+NSS_OptionSet
+(
+NSS_KEY_SIZE_POLICY_CLEAR_FLAGS
+NSS_KEY_SIZE_POLICY_VERIFY_FLAG
+)
+;
 rv
 =
 VFY_VerifyDigestDirect

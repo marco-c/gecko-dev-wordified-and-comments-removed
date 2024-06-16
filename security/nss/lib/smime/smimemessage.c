@@ -288,6 +288,8 @@ sigd
 NSSCMSSignerInfo
 *
 signerinfo
+=
+NULL
 ;
 cmsg
 =
@@ -386,6 +388,10 @@ SECSuccess
 goto
 loser
 ;
+signerinfo
+=
+NULL
+;
 if
 (
 NSS_CMSSignedData_AddCertChain
@@ -445,6 +451,15 @@ cmsg
 NSS_CMSMessage_Destroy
 (
 cmsg
+)
+;
+if
+(
+signerinfo
+)
+NSS_CMSSignerInfo_Destroy
+(
+signerinfo
 )
 ;
 return

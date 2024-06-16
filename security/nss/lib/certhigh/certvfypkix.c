@@ -119,7 +119,7 @@ static
 PRBool
 usePKIXValidationEngine
 =
-PR_FALSE
+PR_TRUE
 ;
 #
 endif

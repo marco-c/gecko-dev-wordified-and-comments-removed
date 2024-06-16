@@ -7219,7 +7219,7 @@ NULL
 ec_params_named
 {
 256
-ec_field_GFp
+ec_field_plain
 {
 {
 siBuffer

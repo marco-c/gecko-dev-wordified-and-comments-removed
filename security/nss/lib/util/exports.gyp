@@ -155,6 +155,11 @@ nsslocks
 h
 '
 '
+nsshash
+.
+h
+'
+'
 nssrwlk
 .
 h

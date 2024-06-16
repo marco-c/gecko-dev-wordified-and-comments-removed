@@ -1630,6 +1630,11 @@ OCSPResponseExtension
 *
 responseExtensions
 ;
+const
+ByteString
+*
+trailingResponseData
+;
 bool
 includeEmptyExtensions
 ;

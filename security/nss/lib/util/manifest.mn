@@ -92,6 +92,10 @@ nssb64t
 .
 h
 \
+nsshash
+.
+h
+\
 nsslocks
 .
 h
@@ -269,6 +273,10 @@ nssb64d
 c
 \
 nssb64e
+.
+c
+\
+nsshash
 .
 c
 \

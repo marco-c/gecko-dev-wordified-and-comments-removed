@@ -134,6 +134,11 @@ nssb64e
 c
 '
 '
+nsshash
+.
+c
+'
+'
 nssilock
 .
 c

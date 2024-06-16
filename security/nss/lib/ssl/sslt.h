@@ -1165,11 +1165,15 @@ const
 SECItem
 *
 input
-SECItem
+unsigned
+char
 *
 output
 size_t
-expectedLenDecodedCertificate
+outputLen
+size_t
+*
+usedLen
 )
 ;
 }
