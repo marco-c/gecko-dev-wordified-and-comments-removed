@@ -1071,6 +1071,9 @@ lazy
 .
 getRuntimeWasmFilename
 (
+this
+.
+browsingContext
 )
 ;
 /
@@ -1367,6 +1370,16 @@ processorId
 options
 .
 processorId
+runtimeFilename
+:
+lazy
+.
+getRuntimeWasmFilename
+(
+this
+.
+browsingContext
+)
 }
 ;
 }
