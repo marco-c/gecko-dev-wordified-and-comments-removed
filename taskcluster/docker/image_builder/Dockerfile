@@ -61,6 +61,10 @@ golang
 22
 as
 skopeo
+ARG
+ARCH
+=
+amd64
 WORKDIR
 /
 go
@@ -86,6 +90,7 @@ build
 skopeo
 .
 sh
+ARCH
 FROM
 golang
 :
@@ -94,6 +99,10 @@ golang
 22
 as
 kaniko
+ARG
+ARCH
+=
+amd64
 WORKDIR
 /
 go
@@ -119,6 +128,7 @@ build
 kaniko
 .
 sh
+ARCH
 #
 Build
 the
@@ -174,6 +184,10 @@ as
 build
 -
 image
+ARG
+ARCH
+=
+amd64
 COPY
 apt
 .
@@ -231,6 +245,7 @@ build
 image
 .
 sh
+ARCH
 #
 Run
 all
@@ -324,6 +339,7 @@ build
 image
 .
 sh
+ARCH
 FROM
 scratch
 as
