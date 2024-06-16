@@ -8537,10 +8537,7 @@ mStyleDisplay
 )
 !
 =
-PhysicalAxes
-:
-:
-Both
+kPhysicalAxesBoth
 )
 {
 LogicalMargin
@@ -8839,10 +8836,7 @@ StyleDisplay
 )
 !
 =
-PhysicalAxes
-:
-:
-Both
+kPhysicalAxesBoth
 )
 {
 nsRect
