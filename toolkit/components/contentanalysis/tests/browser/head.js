@@ -628,6 +628,11 @@ response
 )
 ;
 }
+cancelAllRequests
+(
+)
+{
+}
 }
 ;
 }
