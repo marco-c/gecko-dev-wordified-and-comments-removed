@@ -3960,6 +3960,12 @@ asJit
 ;
 while
 (
+!
+isWasm
+(
+)
+|
+|
 wasmFrame
 (
 )
