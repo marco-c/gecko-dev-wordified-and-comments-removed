@@ -3588,8 +3588,6 @@ mailto
 handler
 -
 set
--
-message
 "
 "
 l10n
