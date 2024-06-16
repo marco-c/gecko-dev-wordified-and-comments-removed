@@ -7541,6 +7541,12 @@ false
 header
 :
 false
+initFailureContent
+:
+false
+initFailureMessageBar
+:
+false
 mainContent
 :
 false
