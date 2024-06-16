@@ -607,9 +607,7 @@ const
 FILE_NAME_DECODED_3
 =
 "
-file
-%
-X
+file_X
 encode
 .
 txt

@@ -201,9 +201,7 @@ testSanitize
 (
 kSpecialChars
 "
-A
-B
-C
+A________________B________________C
 "
 )
 ;
@@ -217,7 +215,9 @@ Website
 :
 "
 "
+__
 Website
+__
 "
 )
 ;
@@ -229,6 +229,7 @@ Website
 !
 "
 "
+_
 Website
 !
 "
@@ -244,6 +245,7 @@ Page
 "
 "
 Website
+_
 Page
 !
 "
@@ -263,7 +265,7 @@ b
 "
 "
 Directory
-Listing
+Listing_
 _a_b_
 "
 )
@@ -286,7 +288,7 @@ testSanitize
 (
 kSpecialChars
 "
-A
+A__________
 ;
 +
 =
@@ -298,7 +300,7 @@ B
 =
 +
 ;
-C
+__________C
 "
 )
 ;
@@ -312,7 +314,9 @@ Website
 :
 "
 "
+__
 Website
+__
 "
 )
 ;
@@ -324,6 +328,7 @@ Website
 !
 "
 "
+_
 Website
 !
 "
@@ -339,6 +344,7 @@ Page
 "
 "
 Website
+_
 Page
 !
 "
@@ -358,7 +364,7 @@ b
 "
 "
 Directory
-Listing
+Listing_
 _a_b_
 "
 )
@@ -381,7 +387,7 @@ testSanitize
 (
 kSpecialChars
 "
-A
+A__________
 ;
 +
 =
@@ -393,7 +399,7 @@ B
 =
 +
 ;
-C
+__________C
 "
 )
 ;
@@ -407,7 +413,9 @@ Website
 :
 "
 "
+__
 Website
+__
 "
 )
 ;
@@ -419,6 +427,7 @@ Website
 !
 "
 "
+_
 Website
 !
 "
@@ -434,6 +443,7 @@ Page
 "
 "
 Website
+_
 Page
 !
 "
@@ -453,7 +463,7 @@ b
 "
 "
 Directory
-Listing
+Listing_
 _a_b_
 "
 )
@@ -465,7 +475,7 @@ testSanitize
 (
 kSpecialChars
 "
-A
+A__________
 ;
 +
 =
@@ -477,7 +487,7 @@ B
 =
 +
 ;
-C
+__________C
 "
 )
 ;
@@ -491,7 +501,9 @@ Website
 :
 "
 "
+__
 Website
+__
 "
 )
 ;
@@ -503,6 +515,7 @@ Website
 !
 "
 "
+_
 Website
 !
 "
@@ -518,6 +531,7 @@ Page
 "
 "
 Website
+_
 Page
 !
 "
@@ -537,7 +551,7 @@ b
 "
 "
 Directory
-Listing
+Listing_
 _a_b_
 "
 )
@@ -639,6 +653,8 @@ xa0
 txt
 "
 "
+_________
+.
 txt
 "
 )
@@ -743,8 +759,7 @@ u200f
 "
 "
 _
-____test
-_
+____test__
 "
 )
 ;
@@ -764,10 +779,19 @@ u202a
 x7fCD
 "
 "
-AB
-_
-_
-CD
+AB_____CD
+"
+)
+;
+testSanitize
+(
+"
+foo
+:
+bar
+"
+"
+foo_bar
 "
 )
 ;
@@ -780,19 +804,7 @@ bar
 "
 "
 foo
-bar
-"
-)
-;
-testSanitize
-(
-"
-foo
-:
-bar
-"
-"
-foo
+_
 bar
 "
 {
@@ -830,9 +842,7 @@ n
 "
 thing
 .
-lnk
-.
-download
+lnk_
 "
 )
 ;
@@ -867,7 +877,7 @@ n
 "
 thing
 .
-lnk
+lnk_
 "
 {
 allowInvalidFilenames
@@ -904,7 +914,7 @@ n
 "
 thing
 .
-URl
+URl_
 "
 {
 allowInvalidFilenames
@@ -973,9 +983,7 @@ local
 "
 thing
 .
-local
-.
-download
+local_
 "
 )
 ;
@@ -991,8 +999,7 @@ cal
 "
 thing
 .
-lo
-cal
+lo_cal
 "
 )
 ;
@@ -1009,7 +1016,7 @@ local
 "
 thing
 .
-local_
+local___
 "
 )
 ;
@@ -1041,7 +1048,7 @@ n
 "
 thing
 .
-desktoP
+desktoP_
 "
 {
 allowInvalidFilenames
