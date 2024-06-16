@@ -29,9 +29,6 @@ Iterator
 {
 iter
 :
-core
-:
-:
 iter
 :
 :

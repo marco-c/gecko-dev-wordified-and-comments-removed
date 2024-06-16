@@ -49,7 +49,7 @@ Error
 {
 datetime
 .
-unix_timestamp
+unix_timestamp_nanos
 (
 )
 .
@@ -91,7 +91,7 @@ Error
 OffsetDateTime
 :
 :
-from_unix_timestamp
+from_unix_timestamp_nanos
 (
 <
 _
@@ -196,7 +196,7 @@ map
 OffsetDateTime
 :
 :
-unix_timestamp
+unix_timestamp_nanos
 )
 .
 serialize
@@ -251,7 +251,7 @@ map
 OffsetDateTime
 :
 :
-from_unix_timestamp
+from_unix_timestamp_nanos
 )
 .
 transpose

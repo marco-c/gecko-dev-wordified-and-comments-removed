@@ -182,7 +182,7 @@ Sound
 Ordering
 :
 :
-SeqCst
+Release
 )
 ;
 }
@@ -203,7 +203,7 @@ load
 Ordering
 :
 :
-SeqCst
+Acquire
 )
 {
 false

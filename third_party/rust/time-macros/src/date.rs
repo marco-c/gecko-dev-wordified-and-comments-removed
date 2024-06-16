@@ -8,6 +8,12 @@ iter
 Peekable
 ;
 use
+num_conv
+:
+:
+Truncate
+;
+use
 proc_macro
 :
 :
@@ -673,8 +679,10 @@ let
 month
 =
 month
-as
-_
+.
+truncate
+(
+)
 ;
 if
 day
@@ -850,6 +858,8 @@ time
 :
 Date
 =
+unsafe
+{
 :
 :
 time
@@ -873,6 +883,7 @@ self
 ordinal
 )
 )
+}
 ;
 DATE
 }

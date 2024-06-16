@@ -73,7 +73,7 @@ field_ty
 :
 ty
 )
-+
+*
 (
 )
 ?
@@ -106,7 +106,7 @@ field_name
 :
 field_ty
 )
-+
+*
 }
 impl
 ToTokenTree
@@ -139,7 +139,7 @@ Self
 (
 field_name
 )
-+
+*
 }
 =
 self
@@ -200,7 +200,7 @@ tokens
 )
 ;
 )
-+
+*
 quote_append
 !
 (
@@ -931,5 +931,17 @@ crate
 sign_is_mandatory
 :
 bool
+}
+}
+to_tokens
+!
+{
+pub
+(
+crate
+)
+struct
+End
+{
 }
 }

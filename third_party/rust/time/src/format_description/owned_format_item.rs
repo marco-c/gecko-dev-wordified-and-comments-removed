@@ -45,8 +45,8 @@ format_description
 :
 :
 {
+BorrowedFormatItem
 Component
-FormatItem
 }
 ;
 #
@@ -251,7 +251,7 @@ finish
 impl
 From
 <
-FormatItem
+BorrowedFormatItem
 <
 '
 _
@@ -265,7 +265,7 @@ from
 (
 item
 :
-FormatItem
+BorrowedFormatItem
 <
 '
 _
@@ -289,7 +289,7 @@ impl
 From
 <
 &
-FormatItem
+BorrowedFormatItem
 <
 '
 _
@@ -304,7 +304,7 @@ from
 item
 :
 &
-FormatItem
+BorrowedFormatItem
 <
 '
 _
@@ -317,7 +317,7 @@ Self
 match
 item
 {
-FormatItem
+BorrowedFormatItem
 :
 :
 Literal
@@ -326,6 +326,7 @@ literal
 )
 =
 >
+{
 Self
 :
 :
@@ -341,7 +342,8 @@ into_boxed_slice
 (
 )
 )
-FormatItem
+}
+BorrowedFormatItem
 :
 :
 Component
@@ -358,7 +360,7 @@ Component
 *
 component
 )
-FormatItem
+BorrowedFormatItem
 :
 :
 Compound
@@ -406,7 +408,7 @@ into_boxed_slice
 (
 )
 )
-FormatItem
+BorrowedFormatItem
 :
 :
 Optional
@@ -435,7 +437,7 @@ into
 )
 )
 )
-FormatItem
+BorrowedFormatItem
 :
 :
 First
@@ -491,7 +493,7 @@ From
 <
 Vec
 <
-FormatItem
+BorrowedFormatItem
 <
 '
 _
@@ -508,7 +510,7 @@ items
 :
 Vec
 <
-FormatItem
+BorrowedFormatItem
 <
 '
 _
@@ -539,7 +541,7 @@ T
 AsRef
 <
 [
-FormatItem
+BorrowedFormatItem
 <
 '
 a

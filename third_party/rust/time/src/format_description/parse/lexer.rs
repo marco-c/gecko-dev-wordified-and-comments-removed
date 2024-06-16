@@ -30,9 +30,6 @@ Iterator
 {
 iter
 :
-core
-:
-:
 iter
 :
 :

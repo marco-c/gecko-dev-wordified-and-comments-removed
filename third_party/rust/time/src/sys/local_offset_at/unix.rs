@@ -61,11 +61,6 @@ b
 "
 netbsd
 "
-|
-b
-"
-macos
-"
 =
 >
 true

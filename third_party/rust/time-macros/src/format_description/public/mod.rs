@@ -132,7 +132,7 @@ time
 format_description
 :
 :
-FormatItem
+BorrowedFormatItem
 :
 :
 Literal
@@ -176,7 +176,7 @@ time
 format_description
 :
 :
-FormatItem
+BorrowedFormatItem
 :
 :
 Component
@@ -250,7 +250,7 @@ time
 format_description
 :
 :
-FormatItem
+BorrowedFormatItem
 :
 :
 Compound
@@ -289,7 +289,7 @@ time
 format_description
 :
 :
-FormatItem
+BorrowedFormatItem
 :
 :
 Optional
@@ -365,7 +365,7 @@ time
 format_description
 :
 :
-FormatItem
+BorrowedFormatItem
 :
 :
 First

@@ -2,15 +2,6 @@ use
 std
 :
 :
-boxed
-:
-:
-Box
-;
-use
-std
-:
-:
 iter
 ;
 use
