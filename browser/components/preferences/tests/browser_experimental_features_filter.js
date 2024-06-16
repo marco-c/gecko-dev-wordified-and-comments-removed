@@ -223,9 +223,11 @@ addDefinition
 {
 id
 preference
-isPublic
+isPublicJexl
 :
+"
 true
+"
 }
 )
 ;
