@@ -271,6 +271,12 @@ BounceTrackingState
 (
 )
 ;
+bool
+mIsInitialized
+{
+false
+}
+;
 uint64_t
 mBrowserId
 {
