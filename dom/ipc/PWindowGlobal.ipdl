@@ -805,11 +805,6 @@ CookieStruct
 cookies
 )
 ;
-async
-OnInitialStorageAccess
-(
-)
-;
 child
 :
 async

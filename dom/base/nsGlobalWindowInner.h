@@ -3945,11 +3945,6 @@ ErrorResult
 aError
 )
 ;
-void
-MaybeNotifyStorageKeyUsed
-(
-)
-;
 mozilla
 :
 :
@@ -7521,12 +7516,6 @@ mStorageAllowedCache
 ;
 uint32_t
 mStorageAllowedReasonCache
-;
-bool
-hasNotifiedStorageKeyUsed
-{
-false
-}
 ;
 RefPtr
 <
