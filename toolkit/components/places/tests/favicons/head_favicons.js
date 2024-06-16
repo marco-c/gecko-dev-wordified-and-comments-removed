@@ -89,6 +89,11 @@ aExpectedMimeType
 aMimeType
 )
 ;
+if
+(
+aExpectedData
+)
+{
 Assert
 .
 ok
@@ -100,6 +105,7 @@ aData
 )
 )
 ;
+}
 await
 check_guid_for_uri
 (

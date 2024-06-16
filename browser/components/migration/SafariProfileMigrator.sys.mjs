@@ -1686,6 +1686,13 @@ insertManyFavicons
 (
 favicons
 )
+.
+catch
+(
+console
+.
+error
+)
 ;
 }
 /
