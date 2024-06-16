@@ -1441,8 +1441,6 @@ V
 A
 :
 Allocator
-+
-Clone
 =
 Global
 >
@@ -1469,8 +1467,6 @@ Send
 A
 :
 Allocator
-+
-Clone
 +
 Send
 >
@@ -1564,8 +1560,6 @@ Debug
 A
 :
 Allocator
-+
-Clone
 >
 fmt
 :
@@ -1640,8 +1634,6 @@ V
 A
 :
 Allocator
-+
-Clone
 =
 Global
 >
@@ -1670,8 +1662,6 @@ Send
 A
 :
 Allocator
-+
-Clone
 +
 Sync
 >
@@ -1767,8 +1757,6 @@ Debug
 A
 :
 Allocator
-+
-Clone
 >
 fmt
 :
@@ -1846,8 +1834,6 @@ S
 A
 :
 Allocator
-+
-Clone
 >
 HashMap
 <
@@ -1970,8 +1956,6 @@ S
 A
 :
 Allocator
-+
-Clone
 >
 HashMap
 <
@@ -2115,8 +2099,6 @@ A
 :
 Allocator
 +
-Clone
-+
 Sync
 {
 pub
@@ -2197,8 +2179,6 @@ S
 A
 :
 Allocator
-+
-Clone
 +
 Send
 >
@@ -2284,8 +2264,6 @@ S
 A
 :
 Allocator
-+
-Clone
 >
 IntoParallelIterator
 for
@@ -2385,8 +2363,6 @@ S
 A
 :
 Allocator
-+
-Clone
 >
 IntoParallelIterator
 for
@@ -2598,8 +2574,6 @@ BuildHasher
 A
 :
 Allocator
-+
-Clone
 {
 fn
 par_extend
@@ -2686,8 +2660,6 @@ BuildHasher
 A
 :
 Allocator
-+
-Clone
 {
 fn
 par_extend
@@ -2769,8 +2741,6 @@ IntoParallelIterator
 A
 :
 Allocator
-+
-Clone
 HashMap
 <
 K
@@ -3374,9 +3344,7 @@ into_par_iter
 filter
 (
 |
-&
 (
-ref
 key
 _
 )
@@ -3710,9 +3678,7 @@ drain
 filter
 (
 |
-&
 (
-ref
 key
 _
 )

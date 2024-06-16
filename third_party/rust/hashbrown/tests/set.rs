@@ -224,14 +224,14 @@ println
 "
 removing
 {
+i
 }
 {
+x
 :
 ?
 }
 "
-i
-x
 )
 ;
 assert_eq

@@ -118,6 +118,9 @@ vec
 Vec
 ;
 pub
+(
+crate
+)
 trait
 CallHasher
 {

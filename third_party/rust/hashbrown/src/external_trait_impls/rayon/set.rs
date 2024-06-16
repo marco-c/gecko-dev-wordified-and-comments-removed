@@ -71,8 +71,6 @@ T
 A
 :
 Allocator
-+
-Clone
 =
 Global
 >
@@ -98,8 +96,6 @@ Send
 A
 :
 Allocator
-+
-Clone
 +
 Send
 >
@@ -175,8 +171,6 @@ T
 A
 :
 Allocator
-+
-Clone
 =
 Global
 >
@@ -204,8 +198,6 @@ Send
 A
 :
 Allocator
-+
-Clone
 +
 Send
 +
@@ -372,8 +364,6 @@ S
 A
 :
 Allocator
-+
-Clone
 =
 Global
 >
@@ -435,8 +425,6 @@ Sync
 A
 :
 Allocator
-+
-Clone
 +
 Sync
 {
@@ -518,8 +506,6 @@ S
 A
 :
 Allocator
-+
-Clone
 =
 Global
 >
@@ -581,8 +567,6 @@ Sync
 A
 :
 Allocator
-+
-Clone
 +
 Sync
 {
@@ -664,8 +648,6 @@ S
 A
 :
 Allocator
-+
-Clone
 =
 Global
 >
@@ -727,8 +709,6 @@ Sync
 A
 :
 Allocator
-+
-Clone
 +
 Sync
 {
@@ -809,8 +789,6 @@ S
 A
 :
 Allocator
-+
-Clone
 =
 Global
 >
@@ -872,8 +850,6 @@ Sync
 A
 :
 Allocator
-+
-Clone
 +
 Sync
 {
@@ -1008,8 +984,6 @@ Sync
 A
 :
 Allocator
-+
-Clone
 +
 Sync
 {
@@ -1400,8 +1374,6 @@ A
 :
 Allocator
 +
-Clone
-+
 Send
 {
 #
@@ -1459,8 +1431,6 @@ S
 A
 :
 Allocator
-+
-Clone
 +
 Send
 >
@@ -1538,8 +1508,6 @@ S
 A
 :
 Allocator
-+
-Clone
 >
 IntoParallelIterator
 for
@@ -1851,8 +1819,6 @@ BuildHasher
 A
 :
 Allocator
-+
-Clone
 I
 :
 IntoParallelIterator
