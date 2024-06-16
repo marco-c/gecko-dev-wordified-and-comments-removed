@@ -1525,7 +1525,7 @@ FirefoxTheme
 .
 colors
 .
-textWarningButton
+textCriticalButton
 backgroundColor
 :
 Color

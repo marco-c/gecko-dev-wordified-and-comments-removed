@@ -1143,12 +1143,12 @@ color
 name
 =
 "
-fx_mobile_text_color_warning_button
+fx_mobile_text_color_critical_button
 "
 >
 color
 /
-photonRed70
+photonRed20
 <
 /
 color

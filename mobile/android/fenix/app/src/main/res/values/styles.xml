@@ -4843,7 +4843,7 @@ textColor
 >
 color
 /
-fx_mobile_text_color_warning_button
+fx_mobile_text_color_critical_button
 <
 /
 item
