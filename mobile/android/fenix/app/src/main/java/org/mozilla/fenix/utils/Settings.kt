@@ -7717,7 +7717,11 @@ pref_key_website_pull_to_refresh
 )
 default
 =
-true
+Config
+.
+channel
+.
+isNightlyOrDebug
 )
 var
 isDynamicToolbarEnabled
