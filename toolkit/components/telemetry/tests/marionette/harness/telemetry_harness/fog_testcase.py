@@ -377,6 +377,16 @@ glean_core
 "
 :
 5
+                
+"
+dom
+.
+events
+.
+user_interaction_interval
+"
+:
+60000
             
 }
         
