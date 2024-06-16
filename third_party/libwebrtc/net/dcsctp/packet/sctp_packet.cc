@@ -782,7 +782,15 @@ disable_checksum_verification
 (
 options
 .
-enable_zero_checksum
+zero_checksum_alternate_error_detection_method
+!
+=
+ZeroChecksumAlternateErrorDetectionMethod
+:
+:
+None
+(
+)
 &
 &
 common_header

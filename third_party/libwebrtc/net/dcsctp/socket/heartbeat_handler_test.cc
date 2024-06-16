@@ -227,9 +227,14 @@ heartbeat_interval
 ;
 options
 .
-enable_zero_checksum
+zero_checksum_alternate_error_detection_method
 =
-false
+ZeroChecksumAlternateErrorDetectionMethod
+:
+:
+None
+(
+)
 ;
 return
 options
