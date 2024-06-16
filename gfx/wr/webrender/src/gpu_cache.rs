@@ -700,6 +700,13 @@ as_int
 }
 #
 [
+repr
+(
+C
+)
+]
+#
+[
 derive
 (
 Copy
