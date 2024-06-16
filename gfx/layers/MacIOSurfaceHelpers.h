@@ -47,14 +47,6 @@ CreateSourceSurfaceFromMacIOSurface
 MacIOSurface
 *
 aSurface
-gfx
-:
-:
-DataSourceSurface
-*
-aDataSurface
-=
-nullptr
 )
 ;
 nsresult

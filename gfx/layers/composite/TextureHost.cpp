@@ -4026,12 +4026,6 @@ BufferTextureHost
 :
 GetAsSurface
 (
-gfx
-:
-:
-DataSourceSurface
-*
-aSurface
 )
 {
 RefPtr
@@ -4102,7 +4096,6 @@ mDescriptor
 get_YCbCrDescriptor
 (
 )
-aSurface
 )
 ;
 if

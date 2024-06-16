@@ -4794,12 +4794,6 @@ DXGITextureHostD3D11
 :
 GetAsSurface
 (
-gfx
-:
-:
-DataSourceSurface
-*
-aSurface
 )
 {
 switch

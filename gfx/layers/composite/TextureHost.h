@@ -1463,14 +1463,6 @@ DataSourceSurface
 >
 GetAsSurface
 (
-gfx
-:
-:
-DataSourceSurface
-*
-aSurface
-=
-nullptr
 )
 =
 0
@@ -2502,12 +2494,6 @@ DataSourceSurface
 >
 GetAsSurface
 (
-gfx
-:
-:
-DataSourceSurface
-*
-aSurface
 )
 override
 ;
