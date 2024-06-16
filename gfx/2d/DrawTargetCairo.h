@@ -229,7 +229,11 @@ Link
 const
 char
 *
-aDestination
+aDest
+const
+char
+*
+aURI
 const
 Rect
 &
