@@ -235,12 +235,6 @@ deleteDatabase
 (
 DOMString
 name
-optional
-IDBOpenDBOptions
-options
-=
-{
-}
 )
 ;
 Promise
