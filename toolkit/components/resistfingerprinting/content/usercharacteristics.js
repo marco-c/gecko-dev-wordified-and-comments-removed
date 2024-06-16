@@ -124,12 +124,6 @@ object
 }
 )
 ;
-navigator
-.
-getGamepads
-(
-)
-;
 let
 output
 =
