@@ -344,6 +344,8 @@ tests
 -
 backlog
 -
+webgpu
+-
 talos
 -
 browsertime
@@ -401,6 +403,8 @@ tests
 -
 backlog
 -
+webgpu
+-
 talos
 -
 talos
@@ -470,6 +474,8 @@ web
 platform
 -
 tests
+-
+webgpu
 linux1804
 -
 64
@@ -507,6 +513,8 @@ web
 platform
 -
 tests
+-
+webgpu
 linux1804
 -
 64
@@ -544,6 +552,8 @@ web
 platform
 -
 tests
+-
+webgpu
 linux1804
 -
 64
@@ -595,6 +605,8 @@ web
 platform
 -
 tests
+-
+webgpu
 linux1804
 -
 64
@@ -634,6 +646,8 @@ web
 platform
 -
 tests
+-
+webgpu
 linux1804
 -
 64
@@ -700,6 +714,8 @@ web
 platform
 -
 tests
+-
+webgpu
 linux2204
 -
 64
@@ -731,6 +747,8 @@ web
 platform
 -
 tests
+-
+webgpu
 linux2204
 -
 64
@@ -766,6 +784,8 @@ web
 platform
 -
 tests
+-
+webgpu
 #
 #
 #
@@ -1626,6 +1646,8 @@ platform
 -
 tests
 -
+webgpu
+-
 windows11
 -
 2009
@@ -1704,6 +1726,8 @@ platform
 tests
 -
 backlog
+-
+webgpu
 -
 windows11
 -
@@ -2183,6 +2207,8 @@ platform
 tests
 -
 backlog
+-
+webgpu
 macosx1015
 -
 64
@@ -2245,6 +2271,8 @@ web
 platform
 -
 tests
+-
+webgpu
 macosx1015
 -
 64
@@ -2293,6 +2321,8 @@ tests
 -
 backlog
 -
+webgpu
+-
 browsertime
 macosx1015
 -
@@ -2327,6 +2357,8 @@ web
 platform
 -
 tests
+-
+webgpu
 macosx1015
 -
 64
