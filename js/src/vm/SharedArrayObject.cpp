@@ -1522,6 +1522,9 @@ SharedArrayBufferObject
 )
 ;
 }
+#
+ifdef
+NIGHTLY_BUILD
 static
 bool
 IsGrowableSharedArrayBuffer
@@ -1552,6 +1555,8 @@ GrowableSharedArrayBufferObject
 )
 ;
 }
+#
+endif
 MOZ_ALWAYS_INLINE
 bool
 SharedArrayBufferObject
@@ -1659,6 +1664,9 @@ args
 )
 ;
 }
+#
+ifdef
+NIGHTLY_BUILD
 bool
 SharedArrayBufferObject
 :
@@ -2053,6 +2061,8 @@ args
 )
 ;
 }
+#
+endif
 bool
 SharedArrayBufferObject
 :
@@ -2128,6 +2138,9 @@ uint64_t
 >
 maxByteLength
 ;
+#
+ifdef
+NIGHTLY_BUILD
 if
 (
 JS
@@ -2269,6 +2282,8 @@ maxByteLengthInt
 }
 }
 }
+#
+endif
 RootedObject
 proto
 (
@@ -3607,6 +3622,9 @@ SharedArrayBufferSlice
 2
 0
 )
+#
+ifdef
+NIGHTLY_BUILD
 JS_FN
 (
 "
@@ -3619,6 +3637,8 @@ grow
 1
 0
 )
+#
+endif
 JS_FS_END
 }
 ;
@@ -3641,6 +3661,9 @@ SharedArrayBufferObject
 byteLengthGetter
 0
 )
+#
+ifdef
+NIGHTLY_BUILD
 JS_PSG
 (
 "
@@ -3663,6 +3686,8 @@ SharedArrayBufferObject
 growableGetter
 0
 )
+#
+endif
 JS_STRING_SYM_PS
 (
 toStringTag
