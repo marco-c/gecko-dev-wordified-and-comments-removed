@@ -1963,6 +1963,14 @@ nsresult
 aReason
 )
 ;
+void
+DisallowHTTPSRR
+(
+uint32_t
+&
+aCaps
+)
+;
 }
 }
 #
