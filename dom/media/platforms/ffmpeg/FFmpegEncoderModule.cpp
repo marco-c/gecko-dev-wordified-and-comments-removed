@@ -121,9 +121,6 @@ aConfig
 .
 mCodec
 )
-!
-=
-AV_CODEC_ID_NONE
 ;
 }
 template
