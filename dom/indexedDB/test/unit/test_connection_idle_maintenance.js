@@ -7,7 +7,7 @@ testSteps
 const
 cosmologicalConstant
 =
-31768
+20000
 ;
 const
 connectionIdleMaintenanceMS
