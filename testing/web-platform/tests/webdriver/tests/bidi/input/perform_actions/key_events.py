@@ -99,6 +99,7 @@ test_non_printable_key_sends_events
     
 bidi_session
 top_context
+setup_key_test
 key
 event
 )
@@ -962,6 +963,7 @@ test_key_printable_sequence
 (
 bidi_session
 top_context
+setup_key_test
 use_keyup
 )
 :
@@ -1612,6 +1614,7 @@ test_key_space
 (
 bidi_session
 top_context
+setup_key_test
 )
 :
     
@@ -1764,6 +1767,7 @@ test_keyup_only_sends_no_events
 (
 bidi_session
 top_context
+setup_key_test
 )
 :
     
