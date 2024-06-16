@@ -166,7 +166,7 @@ version
 name
 :
 Setup
-Audio
+switchaudio
 if
 :
 {
@@ -203,6 +203,16 @@ install
 switchaudio
 -
 osx
+-
+name
+:
+Setup
+blackhole
+-
+2ch
+run
+:
+|
 brew
 install
 blackhole

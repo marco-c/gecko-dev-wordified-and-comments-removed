@@ -14,6 +14,9 @@ mod
 macros
 ;
 mod
+audio_dump
+;
+mod
 callbacks
 ;
 mod
@@ -42,6 +45,13 @@ resampler
 ;
 mod
 stream
+;
+pub
+use
+audio_dump
+:
+:
+*
 ;
 pub
 use

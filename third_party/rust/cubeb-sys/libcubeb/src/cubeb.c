@@ -451,7 +451,7 @@ output_stream_params
 >
 rate
 >
-192000
+768000
 |
 |
 output_stream_params
@@ -495,7 +495,7 @@ input_stream_params
 >
 rate
 >
-192000
+768000
 |
 |
 input_stream_params
@@ -2320,10 +2320,6 @@ if
 (
 !
 stream
-|
-|
-!
-params
 )
 {
 return

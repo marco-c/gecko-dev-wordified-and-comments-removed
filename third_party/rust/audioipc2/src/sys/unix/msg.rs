@@ -243,9 +243,7 @@ c_int
 >
 :
 :
-max_value
-(
-)
+MAX
 as
 usize
 slice
@@ -492,9 +490,7 @@ c_int
 >
 :
 :
-max_value
-(
-)
+MAX
 as
 usize
 slice

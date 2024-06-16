@@ -556,6 +556,11 @@ cubeb
 c
 src
 /
+cubeb_audio_dump
+.
+cpp
+src
+/
 cubeb_mixer
 .
 cpp
@@ -1498,7 +1503,6 @@ target_link_libraries
 (
 cubeb
 PRIVATE
-avrt
 ole32
 ksuser
 )
@@ -2323,6 +2327,10 @@ logging
 cubeb_add_test
 (
 triple_buffer
+)
+cubeb_add_test
+(
+audio_dump
 )
 if
 (
