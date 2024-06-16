@@ -177,6 +177,14 @@ return
 primaryPasswordSet
 ;
 }
+getOSAuthEnabled
+(
+)
+{
+return
+true
+;
+}
 }
 ;
 let
