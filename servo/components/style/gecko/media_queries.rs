@@ -891,7 +891,7 @@ set_root_font_size
 self
 size
 :
-Length
+f32
 )
 {
 self
@@ -901,10 +901,6 @@ root_font_size
 store
 (
 size
-.
-px
-(
-)
 .
 to_bits
 (
@@ -971,7 +967,7 @@ set_root_line_height
 self
 size
 :
-Length
+f32
 )
 {
 self
@@ -981,10 +977,6 @@ root_line_height
 store
 (
 size
-.
-px
-(
-)
 .
 to_bits
 (
