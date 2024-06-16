@@ -151,6 +151,14 @@ blob
 [
 Throws
 ]
+Uint8Array
+bytes
+(
+)
+;
+[
+Throws
+]
 any
 json
 (
