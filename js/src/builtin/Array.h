@@ -755,7 +755,7 @@ Value
 SystemAllocPolicy
 >
 ;
-private
+protected
 :
 uintptr_t
 descriptor_
@@ -775,6 +775,8 @@ callArgs
 ComparatorActualArgs
 ]
 ;
+private
+:
 ValueVector
 vec
 ;
@@ -1054,18 +1056,6 @@ const
 {
 return
 comparatorKind_
-;
-}
-void
-initDescriptor
-(
-uintptr_t
-descriptor
-)
-{
-descriptor_
-=
-descriptor
 ;
 }
 static
