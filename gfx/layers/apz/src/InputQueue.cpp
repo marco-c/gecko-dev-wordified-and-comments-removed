@@ -1018,6 +1018,17 @@ if
 wasInSlop
 &
 &
+aEvent
+.
+mType
+=
+=
+MultiTouchInput
+:
+:
+MULTITOUCH_MOVE
+&
+&
 (
 block
 -
