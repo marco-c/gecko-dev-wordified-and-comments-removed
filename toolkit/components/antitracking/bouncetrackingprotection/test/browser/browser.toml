@@ -81,6 +81,13 @@ js
 ]
 [
 "
+browser_bouncetracking_schemes
+.
+js
+"
+]
+[
+"
 browser_bouncetracking_simple
 .
 js
