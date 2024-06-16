@@ -1621,3 +1621,8 @@ diameter
 type
 :
 number
+CamelCasedParameter
+:
+type
+:
+number

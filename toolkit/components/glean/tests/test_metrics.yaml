@@ -2196,6 +2196,11 @@ diameter
 type
 :
 number
+CamelCasedParameter
+:
+type
+:
+number
 crash_stack
 :
 type
