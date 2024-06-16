@@ -393,6 +393,11 @@ long
 >
 perBuyerCumulativeTimeouts
 ;
+unsigned
+long
+long
+reportingTimeout
+;
 USVString
 sellerCurrency
 ;

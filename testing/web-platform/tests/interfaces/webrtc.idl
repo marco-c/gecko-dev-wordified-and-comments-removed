@@ -1551,6 +1551,11 @@ getStats
 (
 )
 ;
+attribute
+DOMHighResTimeStamp
+?
+jitterBufferTarget
+;
 }
 ;
 dictionary
@@ -1632,7 +1637,7 @@ setCodecPreferences
 (
 sequence
 <
-RTCRtpCodecCapability
+RTCRtpCodec
 >
 codecs
 )
@@ -1803,9 +1808,11 @@ password
 dictionary
 RTCIceCandidatePair
 {
+required
 RTCIceCandidate
 local
 ;
+required
 RTCIceCandidate
 remote
 ;

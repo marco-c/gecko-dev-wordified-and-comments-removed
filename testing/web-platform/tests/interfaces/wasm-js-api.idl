@@ -315,6 +315,16 @@ long
 delta
 )
 ;
+ArrayBuffer
+toFixedLengthBuffer
+(
+)
+;
+ArrayBuffer
+toResizableBuffer
+(
+)
+;
 readonly
 attribute
 ArrayBuffer

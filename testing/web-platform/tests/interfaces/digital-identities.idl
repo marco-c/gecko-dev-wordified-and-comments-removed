@@ -96,7 +96,7 @@ DOMString
 protocol
 ;
 required
-DOMString
+object
 request
 ;
 }
@@ -117,9 +117,12 @@ attribute
 DOMString
 protocol
 ;
+[
+SameObject
+]
 readonly
 attribute
-DOMString
+Uint8Array
 data
 ;
 }

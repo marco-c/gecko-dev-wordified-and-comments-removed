@@ -114,12 +114,6 @@ constructor
 (
 PressureUpdateCallback
 callback
-optional
-PressureObserverOptions
-options
-=
-{
-}
 )
 ;
 Promise
@@ -130,6 +124,12 @@ observe
 (
 PressureSource
 source
+optional
+PressureObserverOptions
+options
+=
+{
+}
 )
 ;
 undefined

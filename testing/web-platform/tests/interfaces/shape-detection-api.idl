@@ -115,7 +115,7 @@ DOMRectReadOnly
 boundingBox
 ;
 required
-FrozenArray
+sequence
 <
 Landmark
 >
@@ -128,7 +128,7 @@ dictionary
 Landmark
 {
 required
-FrozenArray
+sequence
 <
 Point2D
 >
@@ -229,7 +229,7 @@ BarcodeFormat
 format
 ;
 required
-FrozenArray
+sequence
 <
 Point2D
 >

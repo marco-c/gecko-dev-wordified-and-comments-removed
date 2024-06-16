@@ -901,6 +901,9 @@ RouterCondition
 >
 _or
 ;
+RouterCondition
+not
+;
 }
 ;
 typedef

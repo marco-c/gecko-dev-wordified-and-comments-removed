@@ -104,7 +104,7 @@ DOMString
 rawValue
 ;
 required
-FrozenArray
+sequence
 <
 Point2D
 >
