@@ -491,16 +491,6 @@ WebDriverSession
 class
 .
 *
-param
-{
-Set
-}
-flags
-*
-Session
-configuration
-flags
-.
 *
 param
 {
@@ -578,7 +568,6 @@ async
 createSession
 (
 capabilities
-flags
 sessionlessConnection
 )
 {
@@ -616,7 +605,6 @@ lazy
 WebDriverSession
 (
 capabilities
-flags
 sessionlessConnection
 )
 ;
