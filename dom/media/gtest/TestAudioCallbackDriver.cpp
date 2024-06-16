@@ -1841,8 +1841,7 @@ thread
 id
 >
 threadInDriverIteration
-(
-(
+{
 std
 :
 :
@@ -1852,8 +1851,7 @@ thread
 id
 (
 )
-)
-)
+}
 ;
 EXPECT_CALL
 (
@@ -2705,8 +2703,7 @@ thread
 id
 >
 threadInDriverIteration
-(
-(
+{
 std
 :
 :
@@ -2716,8 +2713,7 @@ this_thread
 get_id
 (
 )
-)
-)
+}
 ;
 EXPECT_CALL
 (
