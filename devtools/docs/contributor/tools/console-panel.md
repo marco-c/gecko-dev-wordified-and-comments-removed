@@ -286,7 +286,7 @@ editor
 js
 ]
 FilterButton
-FilterCheckbox
+ConsoleSettings
 MessageContainer
 Message
 Frame
