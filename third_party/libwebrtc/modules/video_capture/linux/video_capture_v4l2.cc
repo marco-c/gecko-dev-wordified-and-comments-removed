@@ -635,6 +635,7 @@ StopCapture
 ;
 }
 }
+{
 RTC_CHECK_RUNS_SERIALIZED
 (
 &
@@ -1759,6 +1760,7 @@ _streaming
 =
 true
 ;
+}
 if
 (
 _captureThread
