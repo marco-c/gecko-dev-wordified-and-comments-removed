@@ -4910,7 +4910,7 @@ createElement
 "
 screenshots
 -
-ui
+preview
 "
 )
 ;
