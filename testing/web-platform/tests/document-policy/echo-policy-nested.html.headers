@@ -2,14 +2,9 @@ Document
 -
 Policy
 :
-lossless
+sync
 -
-images
--
-max
--
-bpp
+xhr
 =
-0
-.
+?
 0

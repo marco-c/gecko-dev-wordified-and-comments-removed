@@ -107,9 +107,9 @@ Report
 -
 Only
 :
-document
+sync
 -
-write
+xhr
 =
 ?
 0
