@@ -921,6 +921,17 @@ implemented
 ;
 }
 void
+ReconfigureBandwidthEstimation
+(
+const
+BandwidthEstimationSettings
+&
+settings
+)
+override
+{
+}
+void
 SetAudioPlayout
 (
 bool

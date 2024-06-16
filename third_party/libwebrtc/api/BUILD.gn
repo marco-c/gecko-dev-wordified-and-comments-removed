@@ -1989,6 +1989,11 @@ task_queue
 "
 transport
 :
+bandwidth_estimation_settings
+"
+"
+transport
+:
 bitrate_settings
 "
 "

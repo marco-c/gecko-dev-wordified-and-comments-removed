@@ -858,6 +858,16 @@ api
 /
 transport
 :
+bandwidth_estimation_settings
+"
+"
+.
+.
+/
+api
+/
+transport
+:
 bitrate_settings
 "
 "

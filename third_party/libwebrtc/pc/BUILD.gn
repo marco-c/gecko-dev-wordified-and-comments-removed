@@ -2694,6 +2694,16 @@ api
 :
 libjingle_peerconnection_api
 "
+"
+.
+.
+/
+api
+/
+transport
+:
+bandwidth_estimation_settings
+"
 ]
 }
 rtc_source_set
