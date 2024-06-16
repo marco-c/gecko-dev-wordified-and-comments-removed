@@ -2028,6 +2028,12 @@ AudioOutputLatency
 )
 ;
 bool
+HasFallback
+(
+)
+const
+;
+bool
 OnFallback
 (
 )
