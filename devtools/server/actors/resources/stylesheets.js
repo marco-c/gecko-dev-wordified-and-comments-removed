@@ -411,7 +411,6 @@ resource
 )
 )
 ;
-await
 this
 .
 _onAvailable

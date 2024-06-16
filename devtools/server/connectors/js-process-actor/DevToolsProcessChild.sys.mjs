@@ -2999,7 +2999,7 @@ watcherDataObject
 of
 ContentProcessWatcherRegistry
 .
-getAllWatchersDataObjects
+getAllExistingWatchersDataObjects
 (
 )
 )
