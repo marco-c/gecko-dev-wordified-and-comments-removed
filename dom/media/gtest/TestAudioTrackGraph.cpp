@@ -3297,6 +3297,7 @@ MediaTrackGraph
 *
 aGraph
 )
+const
 override
 {
 return
@@ -4067,6 +4068,7 @@ MediaTrackGraph
 *
 aGraph
 )
+const
 override
 {
 aGraph
@@ -5245,6 +5247,7 @@ MediaTrackGraph
 *
 aGraph
 )
+const
 override
 {
 return
