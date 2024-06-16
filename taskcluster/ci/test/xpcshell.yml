@@ -67,17 +67,6 @@ category
 xpcshell
 name
 :
-by
--
-variant
-:
-msix
-:
-xpcshell
--
-msix
-default
-:
 xpcshell
 target
 :

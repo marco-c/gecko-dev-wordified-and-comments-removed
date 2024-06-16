@@ -2684,7 +2684,7 @@ platform
 ]
 )
 '
-merge
+replace
 :
 mozharness
 :
@@ -2692,6 +2692,14 @@ extra
 -
 options
 :
+-
+"
+-
+-
+variant
+=
+msix
+"
 -
 "
 -
