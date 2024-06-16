@@ -720,7 +720,7 @@ class_name_rb
 }
 }
 .
-_uniffi_allocate
+uniffi_allocate
 (
 pointer
 )
@@ -1458,6 +1458,18 @@ fields
 )
 %
 }
+{
+{
+field
+.
+name
+(
+)
+|
+var_name_rb
+}
+}
+:
 read
 {
 {

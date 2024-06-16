@@ -121,6 +121,7 @@ format
 !
 (
 "
+uniffiCallbackInterface
 {
 }
 .
@@ -128,9 +129,7 @@ register
 "
 self
 .
-ffi_converter_name
-(
-)
+id
 )
 )
 }

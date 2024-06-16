@@ -1737,7 +1737,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-116
+127
 /
 /
 todolist
@@ -1850,7 +1850,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-117
+128
 /
 /
 todolist
@@ -1985,7 +1985,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-118
+129
 /
 /
 todolist
@@ -2120,7 +2120,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-119
+130
 /
 /
 todolist
@@ -2245,7 +2245,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-120
+131
 /
 /
 todolist
@@ -2380,7 +2380,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-121
+132
 /
 /
 todolist
@@ -2474,7 +2474,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-122
+133
 /
 /
 todolist
@@ -2572,7 +2572,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-123
+134
 /
 /
 todolist
@@ -2660,7 +2660,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-124
+135
 /
 /
 todolist
@@ -2758,7 +2758,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-125
+136
 /
 /
 todolist
@@ -2856,7 +2856,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-126
+137
 /
 /
 todolist
@@ -2939,7 +2939,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-127
+138
 /
 /
 todolist
@@ -3079,6 +3079,10 @@ instance
 }
 return
 ptr
+.
+clone
+(
+)
 ;
 }
 static
@@ -4664,7 +4668,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-128
+139
 /
 /
 todolist
@@ -4754,7 +4758,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-129
+140
 /
 /
 todolist
@@ -4869,7 +4873,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-130
+141
 /
 /
 todolist

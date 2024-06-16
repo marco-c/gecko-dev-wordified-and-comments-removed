@@ -15,6 +15,10 @@ pub
 resolve_rva
 :
 bool
+pub
+parse_attribute_certificates
+:
+bool
 }
 impl
 ParseOptions
@@ -31,6 +35,9 @@ Self
 ParseOptions
 {
 resolve_rva
+:
+true
+parse_attribute_certificates
 :
 true
 }

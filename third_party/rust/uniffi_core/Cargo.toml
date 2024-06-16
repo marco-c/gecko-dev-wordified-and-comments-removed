@@ -112,9 +112,9 @@ version
 "
 0
 .
-25
+27
 .
-3
+1
 "
 authors
 =
@@ -183,6 +183,13 @@ io
 uniffi
 -
 rs
+"
+readme
+=
+"
+README
+.
+md
 "
 keywords
 =
@@ -313,7 +320,7 @@ version
 .
 1
 .
-5
+6
 "
 features
 =
@@ -359,12 +366,6 @@ version
 features
 ]
 default
-=
-[
-]
-extern
--
-rustbuffer
 =
 [
 ]

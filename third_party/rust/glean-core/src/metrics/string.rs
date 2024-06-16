@@ -626,12 +626,6 @@ use
 crate
 :
 :
-test_get_num_recorded_errors
-;
-use
-crate
-:
-:
 tests
 :
 :
@@ -645,12 +639,6 @@ util
 :
 :
 truncate_string_at_boundary
-;
-use
-crate
-:
-:
-ErrorType
 ;
 use
 crate

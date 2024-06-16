@@ -61,15 +61,6 @@ use
 std
 :
 :
-convert
-:
-:
-TryFrom
-;
-use
-std
-:
-:
 fmt
 ;
 use
@@ -124,10 +115,7 @@ use
 log
 :
 :
-{
-self
 LevelFilter
-}
 ;
 use
 once_cell
@@ -715,6 +703,10 @@ Option
 <
 String
 >
+pub
+enable_internal_pings
+:
+bool
 }
 #
 [

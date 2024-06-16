@@ -2089,7 +2089,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-21
+28
 /
 /
 tabs
@@ -2223,7 +2223,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-22
+29
 /
 /
 tabs
@@ -2327,7 +2327,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-23
+30
 /
 /
 tabs
@@ -2456,7 +2456,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-24
+31
 /
 /
 tabs
@@ -2555,7 +2555,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-25
+32
 /
 /
 tabs
@@ -2653,7 +2653,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-26
+33
 /
 /
 tabs
@@ -2782,7 +2782,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-27
+34
 /
 /
 tabs
@@ -2953,7 +2953,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-28
+35
 /
 /
 tabs
@@ -3094,7 +3094,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-29
+36
 /
 /
 tabs
@@ -3193,7 +3193,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-30
+37
 /
 /
 tabs
@@ -3291,7 +3291,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-31
+38
 /
 /
 tabs
@@ -3384,7 +3384,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-32
+39
 /
 /
 tabs
@@ -3477,7 +3477,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-33
+40
 /
 /
 tabs
@@ -3617,6 +3617,10 @@ instance
 }
 return
 ptr
+.
+clone
+(
+)
 ;
 }
 static
@@ -3896,7 +3900,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-34
+42
 /
 /
 tabs
@@ -3984,7 +3988,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-35
+43
 /
 /
 tabs
@@ -4072,7 +4076,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-36
+44
 /
 /
 tabs
@@ -4155,7 +4159,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-37
+45
 /
 /
 tabs
@@ -4274,7 +4278,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-38
+46
 /
 /
 tabs
@@ -4420,6 +4424,10 @@ instance
 }
 return
 ptr
+.
+clone
+(
+)
 ;
 }
 static

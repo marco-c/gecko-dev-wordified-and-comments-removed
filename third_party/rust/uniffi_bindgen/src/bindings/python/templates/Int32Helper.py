@@ -45,7 +45,7 @@ read_i32
 staticmethod
     
 def
-write_unchecked
+write
 (
 value
 buf
