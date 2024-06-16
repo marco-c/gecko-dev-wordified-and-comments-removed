@@ -378,6 +378,13 @@ minsize
 "
 )
 ;
+const
+unstretched_size
+=
+1
+*
+emToPx
+;
 assert_approx_equals
 (
 element
@@ -387,9 +394,7 @@ getBoundingClientRect
 )
 .
 height
-1
-*
-emToPx
+unstretched_size
 epsilon
 "
 remove
