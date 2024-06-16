@@ -10427,6 +10427,13 @@ saveFailedICHash
 JitOptions
 .
 disableBailoutLoopCheck
+&
+&
+JitOptions
+.
+frequentBailoutThreshold
+>
+1
 )
 {
 outerScript
