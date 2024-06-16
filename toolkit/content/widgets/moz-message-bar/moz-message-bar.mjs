@@ -647,7 +647,7 @@ setAttribute
 role
 "
 "
-status
+alert
 "
 )
 ;
