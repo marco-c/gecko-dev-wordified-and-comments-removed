@@ -315,6 +315,12 @@ interactor
 :
 :
 onSyncedTabClicked
+onTabCloseClick
+=
+interactor
+:
+:
+onSyncedTabClosed
 )
 }
 }
