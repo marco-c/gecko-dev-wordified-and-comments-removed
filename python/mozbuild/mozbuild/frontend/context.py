@@ -2830,17 +2830,11 @@ substs
 .
 get
 (
-                    
 "
 MOZ_DEBUG_FLAGS
 "
-"
-"
-                
-)
-.
-split
-(
+[
+]
 )
         
 return
@@ -3337,12 +3331,8 @@ get
 "
 MOZ_DEBUG_FLAGS
 "
-"
-"
-)
-.
-split
-(
+[
+]
 )
         
 return
