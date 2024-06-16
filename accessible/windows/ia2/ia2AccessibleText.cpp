@@ -2052,7 +2052,7 @@ return
 nsIAccessibleText
 :
 :
-BOUNDARY_CHAR
+BOUNDARY_CLUSTER
 ;
 case
 IA2_TEXT_BOUNDARY_WORD
