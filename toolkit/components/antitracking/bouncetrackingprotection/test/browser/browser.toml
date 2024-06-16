@@ -137,10 +137,3 @@ browser_bouncetracking_stateful_web_worker
 js
 "
 ]
-[
-"
-browser_bouncetracking_telemetry_purge_events
-.
-js
-"
-]
