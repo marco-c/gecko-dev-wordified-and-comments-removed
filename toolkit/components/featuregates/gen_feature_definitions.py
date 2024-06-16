@@ -921,7 +921,7 @@ feature
 setdefault
 (
 "
-defaultValue
+defaultValueJexl
 "
 None
 )
@@ -972,7 +972,7 @@ feature
 setdefault
 (
 "
-isPublic
+isPublicJexl
 "
 "
 false
