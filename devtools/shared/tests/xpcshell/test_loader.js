@@ -30,13 +30,6 @@ sys
 .
 mjs
 "
-{
-global
-:
-"
-shared
-"
-}
 )
 ;
 function

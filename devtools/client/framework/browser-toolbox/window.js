@@ -59,13 +59,6 @@ sys
 .
 mjs
 "
-{
-global
-:
-"
-shared
-"
-}
 )
 ;
 loader
