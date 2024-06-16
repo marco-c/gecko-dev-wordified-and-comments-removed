@@ -3,9 +3,9 @@ __version__
 "
 8
 .
-0
-.
 1
+.
+0
 "
 MAX_DEPENDENCIES
 =
