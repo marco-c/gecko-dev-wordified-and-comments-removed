@@ -522,6 +522,8 @@ TypedArrayObject
 *
 >
 tarray
+size_t
+length
 Value
 *
 vp

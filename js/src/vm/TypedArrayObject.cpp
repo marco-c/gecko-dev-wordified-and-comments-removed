@@ -16138,13 +16138,17 @@ TypedArrayObject
 *
 >
 tarray
+size_t
+length
 Value
 *
 vp
 )
 {
-size_t
+MOZ_ASSERT
+(
 length
+<
 =
 tarray
 -
@@ -16156,6 +16160,7 @@ length
 valueOr
 (
 0
+)
 )
 ;
 MOZ_ASSERT_IF
