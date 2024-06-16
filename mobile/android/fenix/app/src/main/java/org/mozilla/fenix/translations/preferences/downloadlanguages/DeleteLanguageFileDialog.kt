@@ -507,6 +507,9 @@ string
 .
 delete_language_file_dialog_positive_button_text
 )
+upperCaseText
+=
+false
 onClick
 =
 {
@@ -533,6 +536,9 @@ string
 .
 delete_language_file_dialog_negative_button_text
 )
+upperCaseText
+=
+false
 onClick
 =
 {
