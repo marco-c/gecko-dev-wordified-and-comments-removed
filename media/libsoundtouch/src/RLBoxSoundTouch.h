@@ -167,7 +167,8 @@ RLBoxSoundTouch
 public
 :
 RLBOX_SOUNDTOUCH_API
-RLBoxSoundTouch
+bool
+Init
 (
 )
 ;
@@ -288,6 +289,12 @@ flush
 ;
 private
 :
+bool
+mCreated
+{
+false
+}
+;
 uint
 mChannels
 {
