@@ -68,6 +68,7 @@ VibrancyType
 {
 TOOLTIP
 MENU
+TITLEBAR
 }
 ;
 class
