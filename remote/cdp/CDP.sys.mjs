@@ -720,6 +720,8 @@ address
 n
 )
 ;
+try
+{
 /
 /
 Write
@@ -766,8 +768,6 @@ this
 mainTargetPath
 }
 ;
-try
-{
 await
 IOUtils
 .
