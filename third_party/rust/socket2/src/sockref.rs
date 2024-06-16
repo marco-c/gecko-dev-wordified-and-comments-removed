@@ -52,6 +52,7 @@ io
 :
 :
 {
+AsFd
 AsRawFd
 FromRawFd
 }
@@ -78,6 +79,7 @@ io
 :
 {
 AsRawSocket
+AsSocket
 FromRawSocket
 }
 ;
@@ -192,7 +194,7 @@ s
 where
 S
 :
-AsRawFd
+AsFd
 {
 fn
 from
@@ -212,6 +214,10 @@ let
 fd
 =
 socket
+.
+as_fd
+(
+)
 .
 as_raw_fd
 (
@@ -295,7 +301,7 @@ s
 where
 S
 :
-AsRawSocket
+AsSocket
 {
 fn
 from
@@ -316,6 +322,10 @@ socket
 =
 socket
 .
+as_socket
+(
+)
+.
 as_raw_socket
 (
 )
@@ -326,13 +336,16 @@ assert
 socket
 !
 =
-winapi
+windows_sys
 :
 :
-um
+Win32
 :
 :
-winsock2
+Networking
+:
+:
+WinSock
 :
 :
 INVALID_SOCKET
