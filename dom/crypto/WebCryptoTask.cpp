@@ -4999,7 +4999,7 @@ mEarlyRv
 {
 mEarlyRv
 =
-NS_ERROR_DOM_SYNTAX_ERR
+NS_ERROR_DOM_NOT_SUPPORTED_ERR
 ;
 return
 ;
@@ -11550,7 +11550,7 @@ aLength
 {
 mEarlyRv
 =
-NS_ERROR_DOM_DATA_ERR
+NS_ERROR_DOM_OPERATION_ERR
 ;
 return
 ;
@@ -13024,7 +13024,7 @@ curve2
 {
 mEarlyRv
 =
-NS_ERROR_DOM_DATA_ERR
+NS_ERROR_DOM_INVALID_ACCESS_ERR
 ;
 return
 ;
