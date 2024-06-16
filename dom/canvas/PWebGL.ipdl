@@ -917,6 +917,13 @@ ContextLossReason
 aReason
 )
 ;
+async
+OnSyncComplete
+(
+uint64_t
+id
+)
+;
 }
 ;
 }
