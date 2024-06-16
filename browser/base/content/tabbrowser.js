@@ -1629,7 +1629,7 @@ this
 .
 tabs
 .
-sort
+toSorted
 (
 (
 a
