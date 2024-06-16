@@ -4481,6 +4481,11 @@ mPendingDestroy
 false
 ;
 bool
+mPendingToCreateNativeCaret
+=
+false
+;
+bool
 mDeferClearingContentForTSF
 =
 false
