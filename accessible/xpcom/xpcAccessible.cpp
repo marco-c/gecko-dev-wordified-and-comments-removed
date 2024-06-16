@@ -2917,8 +2917,6 @@ uint16_t
 aPriority
 )
 {
-if
-(
 RemoteAccessible
 *
 proxy
@@ -2931,6 +2929,10 @@ IntlGeneric
 AsRemote
 (
 )
+;
+if
+(
+proxy
 )
 {
 #
