@@ -109,7 +109,7 @@ version
 "
 1
 .
-6
+7
 .
 0
 "
@@ -209,7 +209,7 @@ features
 =
 [
 "
-clang_16_0
+clang_17_0
 "
 "
 runtime
@@ -256,7 +256,7 @@ version
 "
 0
 .
-7
+8
 "
 optional
 =
@@ -292,13 +292,11 @@ dev
 -
 dependencies
 .
-tempdir
+tempfile
 ]
 version
 =
 "
-0
-.
 3
 "
 [
@@ -365,6 +363,13 @@ clang_16_0
 [
 "
 clang_15_0
+"
+]
+clang_17_0
+=
+[
+"
+clang_16_0
 "
 ]
 clang_3_5

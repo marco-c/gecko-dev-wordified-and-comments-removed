@@ -2188,10 +2188,6 @@ _
 else
 {
 directories
-.
-into
-(
-)
 }
 ;
 let

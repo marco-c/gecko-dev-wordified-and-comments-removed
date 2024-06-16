@@ -236,7 +236,6 @@ is_file
 &
 is_executable
 (
-&
 p
 )
 .
@@ -1144,10 +1143,6 @@ path
 to_string_lossy
 (
 )
-.
-into_owned
-(
-)
 arguments
 )
 .
@@ -1249,9 +1244,8 @@ c
 |
 c
 .
-is_digit
+is_ascii_digit
 (
-10
 )
 )
 .
