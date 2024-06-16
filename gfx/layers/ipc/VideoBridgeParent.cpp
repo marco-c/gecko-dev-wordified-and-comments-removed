@@ -39,6 +39,17 @@ mozilla
 /
 layers
 /
+PTextureParent
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 TextureHost
 .
 h
