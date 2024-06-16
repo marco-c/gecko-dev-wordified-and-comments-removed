@@ -272,7 +272,7 @@ Sign
 -
 in
 or
-Sign
+sign
 -
 out
 report
