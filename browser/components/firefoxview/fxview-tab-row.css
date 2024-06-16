@@ -137,9 +137,9 @@ radius
 }
 media
 (
-prefers
+forced
 -
-contrast
+colors
 )
 {
 :
@@ -483,9 +483,9 @@ active
 }
 media
 (
-prefers
+forced
 -
-contrast
+colors
 )
 {
 a
@@ -1542,9 +1542,9 @@ svg
 }
 media
 (
-prefers
+forced
 -
-contrast
+colors
 )
 {
 .

@@ -477,9 +477,9 @@ grayscale
 media
 not
 (
-prefers
+forced
 -
-contrast
+colors
 )
 {
 opacity
