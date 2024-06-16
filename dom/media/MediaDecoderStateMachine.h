@@ -1299,6 +1299,9 @@ mBypassingSkipToNextKeyFrameCheck
 =
 false
 ;
+TimeDuration
+mTotalBufferingDuration
+;
 private
 :
 Mirror

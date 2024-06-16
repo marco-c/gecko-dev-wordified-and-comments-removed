@@ -730,6 +730,11 @@ mediaSink
 {
 }
 ;
+double
+totalBufferingTimeMs
+=
+0
+;
 }
 ;
 dictionary
