@@ -205,7 +205,10 @@ aAxis
 mozilla
 :
 :
-eLogicalAxisBlock
+LogicalAxis
+:
+:
+Block
 ?
 NS_STATE_GRID_IS_ROW_MASONRY
 :

@@ -57,6 +57,7 @@ namespace
 mozilla
 {
 enum
+class
 LogicalAxis
 :
 uint8_t

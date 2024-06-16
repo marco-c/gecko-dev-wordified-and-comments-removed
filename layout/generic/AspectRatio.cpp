@@ -87,7 +87,7 @@ aRatioDependentAxis
 LogicalAxis
 :
 :
-eLogicalAxisInline
+Inline
 ?
 ConvertToWritingMode
 (

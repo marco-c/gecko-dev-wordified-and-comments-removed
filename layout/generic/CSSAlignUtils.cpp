@@ -378,7 +378,10 @@ if
 aAxis
 =
 =
-eLogicalAxisBlock
+LogicalAxis
+:
+:
+Block
 )
 {
 hasAutoMarginStart

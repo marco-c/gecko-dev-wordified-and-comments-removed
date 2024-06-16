@@ -2295,7 +2295,10 @@ alignAreaSizeInAxis
 pcAxis
 =
 =
-eLogicalAxisInline
+LogicalAxis
+:
+:
+Inline
 )
 ?
 alignAreaSize
@@ -2720,7 +2723,10 @@ aKidSize
 logicalCBSizeOuterWM
 placeholderContainer
 outerWM
-eLogicalAxisInline
+LogicalAxis
+:
+:
+Inline
 )
 ;
 aOffsets
@@ -2855,7 +2861,10 @@ aKidSize
 logicalCBSizeOuterWM
 placeholderContainer
 outerWM
-eLogicalAxisBlock
+LogicalAxis
+:
+:
+Block
 )
 ;
 aOffsets

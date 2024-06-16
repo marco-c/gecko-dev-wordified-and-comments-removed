@@ -18277,7 +18277,10 @@ lastSize
 aAxis
 =
 =
-eLogicalAxisBlock
+LogicalAxis
+:
+:
+Block
 ?
 element
 -
@@ -18401,7 +18404,10 @@ Resolve
 bSize
 aNoneValue
 aFrame
-eLogicalAxisBlock
+LogicalAxis
+:
+:
+Block
 )
 )
 ;
@@ -18465,7 +18471,10 @@ Resolve
 iSize
 aNoneValue
 aFrame
-eLogicalAxisInline
+LogicalAxis
+:
+:
+Inline
 )
 )
 ;

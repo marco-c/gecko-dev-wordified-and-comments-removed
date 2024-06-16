@@ -2943,7 +2943,10 @@ gridContainer
 GridItemShouldStretch
 (
 this
-eLogicalAxisInline
+LogicalAxis
+:
+:
+Inline
 )
 )
 {
