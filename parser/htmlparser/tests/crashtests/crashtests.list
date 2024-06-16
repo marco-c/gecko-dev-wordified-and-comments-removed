@@ -410,6 +410,9 @@ isDebugBuild
 |
 |
 AddressSanitizer
+|
+|
+ThreadSanitizer
 )
 load
 1747514
