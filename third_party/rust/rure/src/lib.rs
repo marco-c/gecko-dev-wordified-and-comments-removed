@@ -1,4 +1,12 @@
 #
+!
+[
+allow
+(
+warnings
+)
+]
+#
 [
 macro_use
 ]
