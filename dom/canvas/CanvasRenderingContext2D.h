@@ -3762,6 +3762,10 @@ bool
 aWillClear
 =
 false
+bool
+aSkipTransform
+=
+false
 )
 ;
 bool
@@ -3780,6 +3784,10 @@ bool
 aWillClear
 =
 false
+bool
+aSkipTransform
+=
+false
 )
 {
 IgnoredErrorResult
@@ -3791,6 +3799,7 @@ EnsureTarget
 error
 aCoveredRect
 aWillClear
+aSkipTransform
 )
 ;
 }
