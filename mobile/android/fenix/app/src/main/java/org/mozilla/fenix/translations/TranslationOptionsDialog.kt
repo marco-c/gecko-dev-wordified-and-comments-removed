@@ -861,7 +861,7 @@ R
 .
 string
 .
-translation_option_bottom_sheet_title
+translation_option_bottom_sheet_title_heading
 )
 modifier
 =
