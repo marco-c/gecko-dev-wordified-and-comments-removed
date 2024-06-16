@@ -121,12 +121,6 @@ gfxContext
 aRenderingContext
 )
 {
-DISPLAY_MIN_INLINE_SIZE
-(
-mTableFrame
-mMinISize
-)
-;
 if
 (
 mMinISize
@@ -158,12 +152,6 @@ bool
 aComputingSize
 )
 {
-DISPLAY_PREF_INLINE_SIZE
-(
-mTableFrame
-mPrefISize
-)
-;
 NS_ASSERTION
 (
 (

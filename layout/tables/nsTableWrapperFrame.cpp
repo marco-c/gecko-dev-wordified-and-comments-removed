@@ -1241,12 +1241,6 @@ IntrinsicISizeType
 MinISize
 )
 ;
-DISPLAY_MIN_INLINE_SIZE
-(
-this
-iSize
-)
-;
 if
 (
 mCaptionFrames
@@ -1305,14 +1299,6 @@ aRenderingContext
 )
 {
 nscoord
-maxISize
-;
-DISPLAY_PREF_INLINE_SIZE
-(
-this
-maxISize
-)
-;
 maxISize
 =
 nsLayoutUtils

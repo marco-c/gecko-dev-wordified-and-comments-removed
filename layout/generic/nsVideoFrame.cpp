@@ -2085,15 +2085,6 @@ gfxContext
 aRenderingContext
 )
 {
-nscoord
-result
-;
-DISPLAY_MIN_INLINE_SIZE
-(
-this
-result
-)
-;
 nsSize
 size
 =
@@ -2112,8 +2103,7 @@ nsSize
 )
 )
 ;
-result
-=
+return
 GetWritingMode
 (
 )
@@ -2129,9 +2119,6 @@ height
 size
 .
 width
-;
-return
-result
 ;
 }
 nscoord

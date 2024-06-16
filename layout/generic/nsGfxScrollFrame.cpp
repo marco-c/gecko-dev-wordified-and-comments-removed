@@ -6148,12 +6148,6 @@ aRenderingContext
 (
 )
 ;
-DISPLAY_MIN_INLINE_SIZE
-(
-this
-result
-)
-;
 return
 result
 +
@@ -6198,12 +6192,6 @@ mScrolledFrame
 GetPrefISize
 (
 aRenderingContext
-)
-;
-DISPLAY_PREF_INLINE_SIZE
-(
-this
-result
 )
 ;
 return

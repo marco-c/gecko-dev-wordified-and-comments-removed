@@ -697,12 +697,6 @@ iSize
 =
 0
 ;
-DISPLAY_MIN_INLINE_SIZE
-(
-this
-iSize
-)
-;
 if
 (
 Maybe
@@ -870,12 +864,6 @@ nscoord
 iSize
 =
 0
-;
-DISPLAY_PREF_INLINE_SIZE
-(
-this
-iSize
-)
 ;
 if
 (

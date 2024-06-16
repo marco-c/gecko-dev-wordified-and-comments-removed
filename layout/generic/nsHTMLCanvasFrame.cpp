@@ -2114,12 +2114,6 @@ width
 )
 ;
 }
-DISPLAY_MIN_INLINE_SIZE
-(
-this
-result
-)
-;
 return
 result
 ;
@@ -2193,12 +2187,6 @@ width
 )
 ;
 }
-DISPLAY_PREF_INLINE_SIZE
-(
-this
-result
-)
-;
 return
 result
 ;
