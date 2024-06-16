@@ -258,12 +258,12 @@ aData
 override
 ;
 virtual
-VideoDecoderConfigInternal
+void
 EncoderConfigToDecoderConfig
 (
-nsIGlobalObject
+JSContext
 *
-aGlobal
+aCx
 const
 RefPtr
 <
@@ -274,7 +274,10 @@ aRawData
 const
 VideoEncoderConfigInternal
 &
-aOutputConfig
+aSrcConfig
+VideoDecoderConfig
+&
+aDestConfig
 )
 const
 override
