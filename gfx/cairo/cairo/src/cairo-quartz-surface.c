@@ -2857,6 +2857,16 @@ imageSurface
 image_extra
 )
 ;
+if
+(
+source
+-
+>
+type
+!
+=
+CAIRO_SURFACE_TYPE_IMAGE
+)
 image_surface
 -
 >
