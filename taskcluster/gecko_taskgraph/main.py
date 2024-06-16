@@ -566,6 +566,8 @@ split
 )
                 
 while
+obj
+and
 attrs
 [
 0
