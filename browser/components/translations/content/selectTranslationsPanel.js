@@ -383,17 +383,6 @@ panel
 -
 header
 "
-multiview
-:
-"
-select
--
-translations
--
-panel
--
-multiview
-"
 textArea
 :
 "
