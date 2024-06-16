@@ -730,6 +730,11 @@ addon
 promptRequest
 =
 promptRequest
+permissions
+=
+promptRequest
+.
+permissions
 )
 }
 VisibleForTesting
@@ -806,7 +811,7 @@ promptRequest
 forOptionalPermissions
 =
 true
-optionalPermissions
+permissions
 =
 promptRequest
 .
@@ -1130,7 +1135,7 @@ forOptionalPermissions
 Boolean
 =
 false
-optionalPermissions
+permissions
 :
 List
 <
@@ -1167,9 +1172,9 @@ addon
 forOptionalPermissions
 =
 forOptionalPermissions
-optionalPermissions
+permissions
 =
-optionalPermissions
+permissions
 promptsStyling
 =
 AddonDialogFragment

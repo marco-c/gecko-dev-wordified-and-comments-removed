@@ -3347,7 +3347,7 @@ metaData
 =
 mockNativeWebExtensionMetaData
 (
-origins
+requiredOrigins
 =
 arrayOf
 (
@@ -3446,7 +3446,7 @@ USER
 temporary
 =
 true
-permissions
+requiredPermissions
 =
 arrayOf
 (
@@ -3690,7 +3690,7 @@ p2
 )
 metadata
 .
-permissions
+requiredPermissions
 )
 assertEquals
 (
@@ -3705,7 +3705,7 @@ o2
 )
 metadata
 .
-hostPermissions
+requiredOrigins
 )
 assertEquals
 (
@@ -4004,7 +4004,7 @@ disabledFlags
 DisabledFlags
 .
 USER
-permissions
+requiredPermissions
 =
 arrayOf
 (
@@ -4080,7 +4080,7 @@ p2
 )
 metadata
 .
-permissions
+requiredPermissions
 )
 assertEquals
 (
@@ -4092,7 +4092,7 @@ String
 )
 metadata
 .
-hostPermissions
+requiredOrigins
 )
 assertEquals
 (

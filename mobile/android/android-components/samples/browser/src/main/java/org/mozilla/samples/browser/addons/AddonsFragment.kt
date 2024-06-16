@@ -909,6 +909,11 @@ addon
 onPositiveButtonClicked
 =
 onConfirmPermissionButtonClicked
+permissions
+=
+addon
+.
+permissions
 )
 if
 (

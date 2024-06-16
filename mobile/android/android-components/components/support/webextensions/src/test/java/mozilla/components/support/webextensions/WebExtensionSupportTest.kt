@@ -3524,6 +3524,15 @@ mock
 (
 )
 val
+permissions
+=
+listOf
+(
+"
+permissions
+"
+)
+val
 delegateCaptor
 =
 argumentCaptor
@@ -3568,6 +3577,7 @@ value
 onInstallPermissionRequest
 (
 ext
+permissions
 onPermissionsGranted
 )
 verify
@@ -3590,6 +3600,7 @@ Permissions
 Required
 (
 ext
+permissions
 onPermissionsGranted
 )
 )

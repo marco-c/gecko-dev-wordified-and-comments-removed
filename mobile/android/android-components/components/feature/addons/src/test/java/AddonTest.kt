@@ -2421,7 +2421,7 @@ activeTab
 "
 )
 val
-hostPermissions
+origins
 =
 listOf
 (
@@ -2524,7 +2524,7 @@ whenever
 (
 metadata
 .
-permissions
+requiredPermissions
 )
 .
 thenReturn
@@ -2636,12 +2636,12 @@ whenever
 (
 metadata
 .
-hostPermissions
+requiredOrigins
 )
 .
 thenReturn
 (
-hostPermissions
+origins
 )
 whenever
 (
@@ -2909,7 +2909,7 @@ assertEquals
 (
 permissions
 +
-hostPermissions
+origins
 addon
 .
 permissions
