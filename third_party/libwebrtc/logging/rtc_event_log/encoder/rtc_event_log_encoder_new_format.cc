@@ -1582,16 +1582,6 @@ IceCandidatePairConfig
 :
 RELAY
 ;
-case
-IceCandidateType
-:
-:
-kNumValues
-:
-RTC_DCHECK_NOTREACHED
-(
-)
-;
 }
 RTC_DCHECK_NOTREACHED
 (

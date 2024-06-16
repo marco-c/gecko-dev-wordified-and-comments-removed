@@ -1886,15 +1886,6 @@ kRelay
 RELAY
 "
 }
-{
-IceCandidateType
-:
-:
-kNumValues
-"
-NUM_VALUES
-"
-}
 }
 ;
 static

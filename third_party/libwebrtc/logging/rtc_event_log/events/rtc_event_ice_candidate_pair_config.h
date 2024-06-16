@@ -94,7 +94,6 @@ kLocal
 kStun
 kPrflx
 kRelay
-kNumValues
 }
 ;
 enum
