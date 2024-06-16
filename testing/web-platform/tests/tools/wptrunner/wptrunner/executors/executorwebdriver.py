@@ -3581,14 +3581,9 @@ None
 )
         
 except
-(
 socket
 .
 timeout
-error
-.
-UnknownErrorException
-)
 :
             
 self
@@ -3658,6 +3653,26 @@ None
 else
 :
                 
+status
+=
+"
+INTERNAL
+-
+ERROR
+"
+if
+self
+.
+protocol
+.
+is_alive
+(
+)
+else
+"
+CRASH
+"
+                
 message
 =
 str
@@ -3700,11 +3715,7 @@ result
 =
 False
 (
-"
-INTERNAL
--
-ERROR
-"
+status
 message
 )
         
