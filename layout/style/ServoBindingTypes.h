@@ -360,6 +360,10 @@ Namespace
 )
 UNLOCKED_RULE_TYPE
 (
+Margin
+)
+UNLOCKED_RULE_TYPE
+(
 Container
 )
 UNLOCKED_RULE_TYPE

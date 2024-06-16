@@ -24,6 +24,10 @@ KeyframesRule
 )
 SERVO_LOCKED_ARC_TYPE
 (
+MarginList
+)
+SERVO_LOCKED_ARC_TYPE
+(
 MediaList
 )
 SERVO_LOCKED_ARC_TYPE
