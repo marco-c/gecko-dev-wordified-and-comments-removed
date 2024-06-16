@@ -999,7 +999,7 @@ FirefoxTheme
 .
 colors
 .
-actionInfo
+actionInformation
 AnalysisUpdate
 -
 >
