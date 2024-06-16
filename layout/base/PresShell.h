@@ -436,6 +436,9 @@ class
 ProfileChunkedBuffer
 ;
 class
+ScrollContainerFrame
+;
+class
 StyleSheet
 ;
 #
@@ -1230,9 +1233,9 @@ GetRootFrame
 )
 ;
 }
-nsIFrame
+ScrollContainerFrame
 *
-GetRootScrollFrame
+GetRootScrollContainerFrame
 (
 )
 const
