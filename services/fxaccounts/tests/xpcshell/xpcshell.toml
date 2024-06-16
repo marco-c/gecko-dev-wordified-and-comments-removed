@@ -146,6 +146,13 @@ js
 ]
 [
 "
+test_commands_closetab
+.
+js
+"
+]
+[
+"
 test_credentials
 .
 js
