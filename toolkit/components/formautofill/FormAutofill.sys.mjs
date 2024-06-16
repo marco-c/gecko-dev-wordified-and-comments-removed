@@ -578,6 +578,10 @@ _addressAutofillSupportedCountries
 includes
 (
 country
+.
+toUpperCase
+(
+)
 )
 ;
 }
