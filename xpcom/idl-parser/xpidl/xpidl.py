@@ -3522,6 +3522,14 @@ self
 )
 :
         
+self
+.
+realtype
+.
+tsType
+(
+)
+        
 return
 self
 .
