@@ -3560,6 +3560,17 @@ wantUntrusted
 :
 true
 }
+"
+BackupUI
+:
+ShowFilepicker
+"
+:
+{
+wantUntrusted
+:
+true
+}
 }
 }
 matches
