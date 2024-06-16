@@ -21411,7 +21411,7 @@ if
 (
 TranslationsParent
 .
-isRestrictedPage
+isFullPageTranslationsRestrictedForPage
 (
 gBrowser
 )
