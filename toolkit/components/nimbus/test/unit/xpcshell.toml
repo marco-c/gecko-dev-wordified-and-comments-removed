@@ -184,3 +184,10 @@ test_localization
 js
 "
 ]
+[
+"
+test_schema_uris
+.
+js
+"
+]
