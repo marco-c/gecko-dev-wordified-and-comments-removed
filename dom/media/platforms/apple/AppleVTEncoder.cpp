@@ -3302,7 +3302,7 @@ mChanges
 )
 {
 ok
-|
+&
 =
 confChange
 .
