@@ -64,6 +64,12 @@ shoppingTab
 domainExtraction
 "
 "
+accountCookies
+"
+"
+signedInCookies
+"
+"
 isSPA
 "
 "
