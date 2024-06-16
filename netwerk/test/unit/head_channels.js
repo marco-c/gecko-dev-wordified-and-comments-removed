@@ -2679,6 +2679,13 @@ httpVersion
 =
 request
 .
+QueryInterface
+(
+Ci
+.
+nsIHttpChannel
+)
+.
 protocolVersion
 ;
 }
