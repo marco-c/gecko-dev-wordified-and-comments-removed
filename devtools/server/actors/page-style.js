@@ -2797,6 +2797,10 @@ matches
 "
 :
 modal
+:
+popover
+-
+open
 "
 )
 ;
