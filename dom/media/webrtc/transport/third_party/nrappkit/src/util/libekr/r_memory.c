@@ -146,6 +146,8 @@ total
 r_malloc_chunk
 *
 chunk
+=
+0
 ;
 total
 =
@@ -245,6 +247,8 @@ size
 void
 *
 ret
+=
+0
 ;
 size_t
 total
@@ -299,6 +303,8 @@ ptr
 r_malloc_chunk
 *
 chunk
+=
+0
 ;
 if
 (
@@ -383,8 +389,12 @@ size
 r_malloc_chunk
 *
 chunk
+=
+0
 *
 nchunk
+=
+0
 ;
 size_t
 total
@@ -541,6 +551,8 @@ len
 char
 *
 nstr
+=
+0
 ;
 if
 (

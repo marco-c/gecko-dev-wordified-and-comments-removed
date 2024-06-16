@@ -164,10 +164,14 @@ listp
 r_list
 *
 list
+=
+0
 ;
 r_list_el
 *
 el
+=
+0
 ;
 if
 (
@@ -288,8 +292,12 @@ out
 r_list_el
 *
 el
+=
+0
 *
 el2
+=
+0
 *
 last
 =

@@ -151,6 +151,8 @@ ctxp
 nr_p_buf_ctx
 *
 ctx
+=
+0
 ;
 if
 (
@@ -418,8 +420,12 @@ head
 nr_p_buf
 *
 n1
+=
+0
 *
 n2
+=
+0
 ;
 n1
 =
@@ -489,6 +495,8 @@ _status
 nr_p_buf
 *
 buf
+=
+0
 ;
 buf
 =
@@ -649,8 +657,12 @@ head
 nr_p_buf
 *
 n1
+=
+0
 *
 n2
+=
+0
 ;
 n1
 =

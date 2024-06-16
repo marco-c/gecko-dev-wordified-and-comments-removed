@@ -408,6 +408,8 @@ _status
 r_assoc
 *
 assoc
+=
+0
 ;
 int
 create_assoc
@@ -417,6 +419,8 @@ create_assoc
 nr_reg_cb_info
 *
 info
+=
+0
 ;
 int
 create_info
@@ -862,6 +866,8 @@ _status
 r_assoc
 *
 assoc
+=
+0
 ;
 int
 size
@@ -1334,6 +1340,8 @@ _status
 r_assoc
 *
 assoc
+=
+0
 ;
 nr_reg_cb_info
 *
@@ -1345,6 +1353,8 @@ iter
 char
 *
 key
+=
+0
 ;
 int
 keyl
@@ -1352,6 +1362,8 @@ keyl
 char
 *
 c
+=
+0
 ;
 int
 free_tmp

@@ -30,6 +30,8 @@ str
 char
 *
 n
+=
+0
 ;
 if
 (
