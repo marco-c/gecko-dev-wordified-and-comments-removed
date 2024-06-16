@@ -3890,11 +3890,7 @@ days
 )
 <
 =
-200
-'
-000
-'
-000
+MaxEpochDaysDuration
 )
 ;
 int32_t
