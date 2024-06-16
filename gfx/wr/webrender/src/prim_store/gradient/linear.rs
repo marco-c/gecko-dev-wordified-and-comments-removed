@@ -2969,9 +2969,6 @@ _prim_store
 &
 mut
 PrimitiveStore
-_reference_frame_relative_offset
-:
-LayoutVector2D
 )
 -
 >
