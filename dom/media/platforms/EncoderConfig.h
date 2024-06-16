@@ -615,6 +615,12 @@ nsACString
 aMimeType
 )
 ;
+nsCString
+ToString
+(
+)
+const
+;
 bool
 IsVideo
 (
