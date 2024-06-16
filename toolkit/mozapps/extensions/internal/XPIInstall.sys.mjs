@@ -750,7 +750,10 @@ weakSignaturesTemporarilyAllowed
 const
 PREF_XPI_WEAK_SIGNATURES_ALLOWED_DEFAULT
 =
-true
+!
+AppConstants
+.
+NIGHTLY_BUILD
 ;
 const
 PREF_SELECTED_THEME
