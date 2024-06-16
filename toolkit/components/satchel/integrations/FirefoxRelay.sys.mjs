@@ -399,15 +399,6 @@ toolkit
 /
 branding
 /
-accounts
-.
-ftl
-"
-"
-toolkit
-/
-branding
-/
 brandings
 .
 ftl

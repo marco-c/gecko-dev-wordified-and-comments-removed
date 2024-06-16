@@ -386,15 +386,6 @@ brandings
 .
 ftl
 "
-"
-toolkit
-/
-branding
-/
-accounts
-.
-ftl
-"
 ]
 )
 ;

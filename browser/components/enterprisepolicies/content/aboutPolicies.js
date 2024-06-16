@@ -1718,6 +1718,11 @@ SecurityDevices
 "
 SecurityDevices2
 "
+DisableFirefoxAccounts
+:
+"
+DisableFirefoxAccounts1
+"
 }
 ;
 for
