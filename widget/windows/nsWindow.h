@@ -2183,13 +2183,6 @@ UpdateDarkModeToolbar
 )
 ;
 void
-UpdateGetWindowInfoCaptionStatus
-(
-bool
-aActiveCaption
-)
-;
-void
 ResetLayout
 (
 )
