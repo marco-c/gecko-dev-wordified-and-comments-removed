@@ -31,7 +31,9 @@ js
 "
 SessionDataHelpers
 .
-jsm
+sys
+.
+mjs
 "
 "
 WatcherRegistry
