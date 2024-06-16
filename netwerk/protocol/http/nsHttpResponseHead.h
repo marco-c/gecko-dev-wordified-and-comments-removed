@@ -172,6 +172,11 @@ ContentLength
 )
 ;
 void
+ExtractContentType
+(
+)
+;
+void
 ContentType
 (
 nsACString
@@ -981,6 +986,13 @@ mRecursiveMutex
 -
 1
 }
+;
+nsCString
+mCombinedContentTypeHeader
+MOZ_GUARDED_BY
+(
+mRecursiveMutex
+)
 ;
 nsCString
 mContentType
