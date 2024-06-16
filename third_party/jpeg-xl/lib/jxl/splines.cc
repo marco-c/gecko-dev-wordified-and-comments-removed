@@ -3404,7 +3404,7 @@ kChannelWeight
 inv_quant
 ;
 auto
-decorellated
+decorrelated
 =
 original
 .
@@ -3430,7 +3430,7 @@ i
 =
 to_int
 (
-decorellated
+decorrelated
 *
 dct_factor
 *
@@ -5108,9 +5108,9 @@ const
 size_t
 image_ysize
 const
-ColorCorrelationMap
+ColorCorrelation
 &
-cmap
+color_correlation
 )
 {
 segments_
@@ -5210,13 +5210,13 @@ starting_points_
 i
 ]
 quantization_adjustment_
-cmap
+color_correlation
 .
 YtoXRatio
 (
 0
 )
-cmap
+color_correlation
 .
 YtoBRatio
 (

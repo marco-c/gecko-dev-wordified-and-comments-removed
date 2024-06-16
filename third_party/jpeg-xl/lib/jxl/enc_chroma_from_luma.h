@@ -129,12 +129,12 @@ class
 Quantizer
 ;
 void
-ColorCorrelationMapEncodeDC
+ColorCorrelationEncodeDC
 (
 const
-ColorCorrelationMap
+ColorCorrelation
 &
-map
+color_correlation
 BitWriter
 *
 writer

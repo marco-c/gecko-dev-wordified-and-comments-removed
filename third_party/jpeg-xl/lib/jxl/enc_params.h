@@ -176,7 +176,7 @@ max_error
 }
 ;
 bool
-disable_percepeptual_optimizations
+disable_perceptual_optimizations
 =
 false
 ;

@@ -75,6 +75,12 @@ jxl
 {
 namespace
 {
+constexpr
+size_t
+kMaxClusters
+=
+256
+;
 Status
 VerifyContextMap
 (

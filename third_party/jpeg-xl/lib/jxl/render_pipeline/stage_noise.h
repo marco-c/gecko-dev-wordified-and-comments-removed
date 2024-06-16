@@ -66,9 +66,9 @@ NoiseParams
 &
 noise_params
 const
-ColorCorrelationMap
+ColorCorrelation
 &
-cmap
+color_correlation
 size_t
 noise_c_start
 )

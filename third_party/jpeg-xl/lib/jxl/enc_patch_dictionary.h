@@ -529,6 +529,8 @@ vector
 PatchBlending
 >
 blendings
+size_t
+blendings_stride
 )
 {
 pdic
@@ -569,6 +571,13 @@ move
 (
 blendings
 )
+;
+pdic
+-
+>
+blendings_stride_
+=
+blendings_stride
 ;
 pdic
 -

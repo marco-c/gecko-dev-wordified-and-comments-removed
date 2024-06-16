@@ -22,7 +22,7 @@ cstdint
 #
 include
 <
-memory
+vector
 >
 #
 include
@@ -104,7 +104,7 @@ frame_dim_
 std
 :
 :
-unique_ptr
+vector
 <
 std
 :
@@ -113,8 +113,6 @@ atomic
 <
 uint8_t
 >
-[
-]
 >
 counters_
 ;

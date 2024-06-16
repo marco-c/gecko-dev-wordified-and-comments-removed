@@ -1418,7 +1418,7 @@ return
 ;
 const
 uint32_t
-max_cll
+max_content_light_level
 =
 static_cast
 <
@@ -1456,7 +1456,7 @@ chunk_data
 ]
 =
 (
-max_cll
+max_content_light_level
 >
 >
 24
@@ -1470,7 +1470,7 @@ chunk_data
 ]
 =
 (
-max_cll
+max_content_light_level
 >
 >
 16
@@ -1484,7 +1484,7 @@ chunk_data
 ]
 =
 (
-max_cll
+max_content_light_level
 >
 >
 8
@@ -1497,7 +1497,7 @@ chunk_data
 3
 ]
 =
-max_cll
+max_content_light_level
 &
 0xFF
 ;

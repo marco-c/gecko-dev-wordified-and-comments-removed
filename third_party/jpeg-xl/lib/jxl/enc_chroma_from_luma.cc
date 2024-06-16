@@ -2828,12 +2828,12 @@ ItemsPerThread
 ;
 }
 void
-ColorCorrelationMapEncodeDC
+ColorCorrelationEncodeDC
 (
 const
-ColorCorrelationMap
+ColorCorrelation
 &
-map
+color_correlation
 BitWriter
 *
 writer
@@ -2847,7 +2847,7 @@ aux_out
 float
 color_factor
 =
-map
+color_correlation
 .
 GetColorFactor
 (
@@ -2856,7 +2856,7 @@ GetColorFactor
 float
 base_correlation_x
 =
-map
+color_correlation
 .
 GetBaseCorrelationX
 (
@@ -2865,7 +2865,7 @@ GetBaseCorrelationX
 float
 base_correlation_b
 =
-map
+color_correlation
 .
 GetBaseCorrelationB
 (
@@ -2874,7 +2874,7 @@ GetBaseCorrelationB
 int32_t
 ytox_dc
 =
-map
+color_correlation
 .
 GetYToXDC
 (
@@ -2883,7 +2883,7 @@ GetYToXDC
 int32_t
 ytob_dc
 =
-map
+color_correlation
 .
 GetYToBDC
 (

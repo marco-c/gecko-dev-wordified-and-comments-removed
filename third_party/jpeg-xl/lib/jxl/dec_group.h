@@ -96,7 +96,9 @@ lib
 /
 jxl
 /
-image_bundle
+jpeg
+/
+jpeg_data
 .
 h
 "

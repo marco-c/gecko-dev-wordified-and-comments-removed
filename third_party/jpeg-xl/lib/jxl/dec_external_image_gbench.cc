@@ -239,6 +239,11 @@ _
 state
 )
 {
+(
+void
+)
+_
+;
 for
 (
 size_t

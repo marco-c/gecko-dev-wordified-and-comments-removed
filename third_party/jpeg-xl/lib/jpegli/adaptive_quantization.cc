@@ -3857,7 +3857,7 @@ iy
 ;
 float
 *
-row_dout
+row_d_out
 =
 pre_erosion
 -
@@ -3883,7 +3883,7 @@ x
 +
 )
 {
-row_dout
+row_d_out
 [
 x
 ]

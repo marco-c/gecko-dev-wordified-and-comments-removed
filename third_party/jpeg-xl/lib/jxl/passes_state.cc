@@ -119,9 +119,13 @@ image_features
 .
 patches
 .
-SetPassesSharedState
+SetShared
 (
+&
 shared
+-
+>
+reference_frames
 )
 ;
 const

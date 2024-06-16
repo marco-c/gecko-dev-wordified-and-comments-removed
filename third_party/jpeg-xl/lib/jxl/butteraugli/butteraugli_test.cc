@@ -37,6 +37,11 @@ algorithm
 #
 include
 <
+cstddef
+>
+#
+include
+<
 cstdint
 >
 #
@@ -143,7 +148,7 @@ lib
 /
 jxl
 /
-test_utils
+test_memory_manager
 .
 h
 "
@@ -670,7 +675,7 @@ SinglePixelImage
 )
 ;
 ButteraugliParams
-ba
+butteraugli_params
 ;
 ImageF
 diffmap
@@ -684,7 +689,7 @@ ButteraugliInterface
 (
 rgb0
 rgb1
-ba
+butteraugli_params
 diffmap
 diffval
 )
@@ -725,7 +730,7 @@ move
 (
 rgb1
 )
-ba
+butteraugli_params
 diffmap2
 diffval2
 )
@@ -853,7 +858,7 @@ xsize
 )
 ;
 ButteraugliParams
-ba
+butteraugli_params
 ;
 ImageF
 diffmap
@@ -867,7 +872,7 @@ ButteraugliInterface
 (
 rgb0
 rgb1
-ba
+butteraugli_params
 diffmap
 diffval
 )
@@ -879,7 +884,7 @@ distp
 ComputeDistanceP
 (
 diffmap
-ba
+butteraugli_params
 3
 .
 0
@@ -931,7 +936,7 @@ move
 (
 rgb1
 )
-ba
+butteraugli_params
 diffmap2
 diffval2
 )
@@ -943,7 +948,7 @@ distp2
 ComputeDistanceP
 (
 diffmap2
-ba
+butteraugli_params
 3
 .
 0

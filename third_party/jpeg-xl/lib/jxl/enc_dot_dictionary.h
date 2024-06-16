@@ -120,9 +120,9 @@ Rect
 &
 rect
 const
-ColorCorrelationMap
+ColorCorrelation
 &
-cmap
+color_correlation
 ThreadPool
 *
 pool
