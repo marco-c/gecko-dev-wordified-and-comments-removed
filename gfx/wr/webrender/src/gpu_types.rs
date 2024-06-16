@@ -669,6 +669,14 @@ pub
 blur_direction
 :
 i32
+pub
+blur_std_deviation
+:
+f32
+pub
+blur_region
+:
+DeviceSize
 }
 #
 [
