@@ -966,13 +966,6 @@ h
 #
 include
 "
-nsSystemInfo
-.
-h
-"
-#
-include
-"
 nsXULPopupManager
 .
 h
