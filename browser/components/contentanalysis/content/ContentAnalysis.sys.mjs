@@ -2356,7 +2356,6 @@ element
 panelUI
 )
 {
-await
 element
 .
 ownerDocument
