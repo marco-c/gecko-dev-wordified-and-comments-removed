@@ -3767,7 +3767,7 @@ mSrcStreamReportPlaybackEnded
 =
 false
 ;
-UniquePtr
+RefPtr
 <
 MediaStreamWindowCapturer
 >
@@ -4262,7 +4262,7 @@ VideoTrackList
 >
 mVideoTrackList
 ;
-UniquePtr
+RefPtr
 <
 MediaStreamTrackListener
 >
