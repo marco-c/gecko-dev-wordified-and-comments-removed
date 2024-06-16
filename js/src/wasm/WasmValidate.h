@@ -194,6 +194,9 @@ moduleName
 NameVector
 funcNames
 ;
+bool
+parsedBranchHints
+;
 explicit
 ModuleEnvironment
 (
@@ -243,6 +246,10 @@ UINT32_MAX
 tagsOffsetStart
 (
 UINT32_MAX
+)
+parsedBranchHints
+(
+false
 )
 {
 }

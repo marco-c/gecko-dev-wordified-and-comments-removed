@@ -5649,6 +5649,16 @@ moduleEnv_
 funcNames
 )
 ;
+metadata_
+-
+>
+parsedBranchHints
+=
+moduleEnv_
+-
+>
+parsedBranchHints
+;
 if
 (
 compilerEnv_

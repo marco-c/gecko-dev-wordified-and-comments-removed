@@ -19999,9 +19999,11 @@ return
 true
 ;
 }
-(
-void
-)
+env
+-
+>
+parsedBranchHints
+=
 ParseBranchHintingSection
 (
 d
