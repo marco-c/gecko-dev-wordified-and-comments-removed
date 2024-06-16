@@ -674,6 +674,15 @@ aTarget
 aType
 )
 ;
+uiaRawElmProvider
+:
+:
+RaiseUiaEventForGeckoEvent
+(
+aTarget
+aType
+)
+;
 }
 static
 bool
