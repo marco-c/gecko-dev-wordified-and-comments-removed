@@ -2257,9 +2257,6 @@ options
 merge_whitespace
 :
 true
-remove_punctuation
-:
-true
 }
 ;
 this
@@ -5649,7 +5646,7 @@ instance
 *
 *
 Note
-.
+:
 This
 class
 assumes
