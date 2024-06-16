@@ -3156,6 +3156,11 @@ caseBResult
 )
 )
 {
+free
+(
+caseBResult
+)
+;
 caseBResult
 =
 nullptr
@@ -3185,6 +3190,11 @@ caseCDResult
 )
 )
 {
+free
+(
+caseCDResult
+)
+;
 caseCDResult
 =
 nullptr
