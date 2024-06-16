@@ -428,6 +428,9 @@ selectTab
 secondWebPage
 .
 title
+numberOfSelectedTabs
+=
+2
 )
 verifyTabsMultiSelectionCounter
 (
@@ -2382,6 +2385,9 @@ selectTab
 secondWebPage
 .
 title
+numberOfSelectedTabs
+=
+2
 )
 verifyTabsMultiSelectionCounter
 (
