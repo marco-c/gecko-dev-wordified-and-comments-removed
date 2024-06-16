@@ -28,7 +28,7 @@ Snap
 2
 Test
 :
-snapchanged
+scrollsnapchange
 event
 on
 the
@@ -490,7 +490,7 @@ offsetTop
 }
 ;
 await
-test_snapchanged
+test_scrollsnapchange
 (
 t
 test_data
@@ -498,7 +498,7 @@ test_data
 ;
 }
 "
-snapchanged
+scrollsnapchange
 event
 fires
 after
@@ -578,7 +578,7 @@ offsetTop
 }
 ;
 await
-test_snapchanged
+test_scrollsnapchange
 (
 t
 test_data
@@ -594,7 +594,7 @@ true
 "
 Document
 .
-onsnapchanged
+onscrollsnapchange
 event
 fires
 after
@@ -621,7 +621,7 @@ t
 checkSnapEventSupport
 (
 "
-snapchanged
+scrollsnapchange
 "
 )
 ;
@@ -670,9 +670,9 @@ horizontally
 )
 ;
 let
-snapchanged_promise
+scrollsnapchange_promise
 =
-waitForSnapChangedEvent
+waitForScrollSnapChangeEvent
 (
 document
 false
@@ -726,7 +726,7 @@ let
 evt
 =
 await
-snapchanged_promise
+scrollsnapchange_promise
 ;
 assert_equals
 (
@@ -757,7 +757,7 @@ to
 )
 with
 no
-snapchanged
+scrollsnapchange
 event
 .
 assert_equals
@@ -792,9 +792,9 @@ left
 "
 )
 ;
-snapchanged_promise
+scrollsnapchange_promise
 =
-waitForSnapChangedEvent
+waitForScrollSnapChangeEvent
 (
 document
 )
@@ -824,7 +824,7 @@ snap
 to
 snap_point_2
 so
-snapchanged
+scrollsnapchange
 should
 be
 /
@@ -842,7 +842,7 @@ scroll_top_target
 evt
 =
 await
-snapchanged_promise
+scrollsnapchange_promise
 ;
 assertSnapEvent
 (
@@ -899,7 +899,7 @@ snap_point_2
 ;
 }
 "
-snapchanged
+scrollsnapchange
 is
 not
 fired

@@ -10,7 +10,7 @@ event_type
 =
 =
 "
-snapchanged
+scrollsnapchange
 "
 )
 {
@@ -18,13 +18,13 @@ assert_true
 (
 window
 .
-onsnapchanged
+onscrollsnapchange
 !
 =
 =
 undefined
 "
-snapchanged
+scrollsnapchange
 not
 supported
 "
@@ -332,7 +332,7 @@ mismatch
 }
 async
 function
-test_snapchanged
+test_scrollsnapchange
 (
 test
 test_data
@@ -347,7 +347,7 @@ test_snap_event
 test
 test_data
 "
-snapchanged
+scrollsnapchange
 "
 use_onsnap_member
 )
@@ -419,7 +419,7 @@ else
 {
 event_target
 .
-onsnapchanged
+onscrollsnapchange
 =
 listener
 ;
@@ -472,7 +472,7 @@ else
 {
 event_target
 .
-onsnapchanged
+onscrollsnapchange
 =
 null
 ;
@@ -618,7 +618,7 @@ use_onsnap_member
 ;
 }
 function
-waitForSnapChangedEvent
+waitForScrollSnapChangeEvent
 (
 event_target
 scroll_happens
@@ -631,7 +631,7 @@ waitForSnapEvent
 (
 event_target
 "
-snapchanged
+scrollsnapchange
 "
 scroll_happens
 )

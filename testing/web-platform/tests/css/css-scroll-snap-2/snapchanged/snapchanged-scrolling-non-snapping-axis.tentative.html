@@ -18,7 +18,7 @@ Snap
 2
 Test
 :
-snapchanged
+scrollsnapchange
 events
 <
 /
@@ -404,13 +404,13 @@ focus
 )
 ;
 const
-snapchanged_promise
+scrollsnapchange_promise
 =
 waitForSnapEvent
 (
 scroller
 "
-snapchanged
+scrollsnapchange
 "
 )
 ;
@@ -432,7 +432,7 @@ const
 snap_event
 =
 await
-snapchanged_promise
+scrollsnapchange_promise
 ;
 assert_equals
 (
@@ -440,7 +440,7 @@ snap_event
 null
 "
 no
-snapchanged
+scrollsnapchange
 event
 fired
 as
@@ -472,7 +472,7 @@ doesn
 '
 t
 trigger
-snapchanged
+scrollsnapchange
 "
 )
 ;
@@ -504,13 +504,13 @@ focus
 )
 ;
 const
-snapchanged_promise
+scrollsnapchange_promise
 =
 waitForSnapEvent
 (
 scroller
 "
-snapchanged
+scrollsnapchange
 "
 )
 ;
@@ -547,7 +547,7 @@ const
 snap_event
 =
 await
-snapchanged_promise
+scrollsnapchange_promise
 ;
 assert_equals
 (
@@ -555,7 +555,7 @@ snap_event
 null
 "
 no
-snapchanged
+scrollsnapchange
 event
 fired
 as
@@ -587,7 +587,7 @@ doesn
 '
 t
 trigger
-snapchanged
+scrollsnapchange
 "
 )
 ;

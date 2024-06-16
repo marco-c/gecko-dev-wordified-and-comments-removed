@@ -394,7 +394,7 @@ t
 checkSnapEventSupport
 (
 "
-snapchanged
+scrollsnapchange
 "
 )
 ;
@@ -569,9 +569,9 @@ its
 bottom
 .
 let
-snapchanged_promise
+scrollsnapchange_promise
 =
-waitForSnapChangedEvent
+waitForScrollSnapChangeEvent
 (
 scroller
 )
@@ -599,7 +599,7 @@ const
 evt
 =
 await
-snapchanged_promise
+scrollsnapchange_promise
 ;
 assertSnapEvent
 (
@@ -660,7 +660,7 @@ covering
 ;
 }
 "
-snapchanged
+scrollsnapchange
 fires
 after
 snap
@@ -814,9 +814,9 @@ snap
 area
 .
 let
-snapchanged_promise
+scrollsnapchange_promise
 =
-waitForSnapChangedEvent
+waitForScrollSnapChangeEvent
 (
 scroller
 false
@@ -845,7 +845,7 @@ const
 evt
 =
 await
-snapchanged_promise
+scrollsnapchange_promise
 ;
 assertSnapEvent
 (
@@ -882,7 +882,7 @@ area
 ;
 }
 "
-snapchanged
+scrollsnapchange
 fires
 after
 snap
@@ -923,9 +923,9 @@ waitForCompositorCommit
 )
 ;
 let
-snapchanged_promise
+scrollsnapchange_promise
 =
-waitForSnapChangedEvent
+waitForScrollSnapChangeEvent
 (
 scroller
 false
@@ -945,7 +945,7 @@ let
 evt
 =
 await
-snapchanged_promise
+scrollsnapchange_promise
 ;
 assertSnapEvent
 (
@@ -960,9 +960,9 @@ null
 }
 )
 ;
-snapchanged_promise
+scrollsnapchange_promise
 =
-waitForSnapChangedEvent
+waitForScrollSnapChangeEvent
 (
 scroller
 false
@@ -982,7 +982,7 @@ mandatory
 evt
 =
 await
-snapchanged_promise
+scrollsnapchange_promise
 ;
 assertSnapEvent
 (
@@ -999,7 +999,7 @@ null
 ;
 }
 "
-snapchanged
+scrollsnapchange
 fires
 when
 container
@@ -1029,9 +1029,9 @@ waitForCompositorCommit
 )
 ;
 let
-snapchanged_promise
+scrollsnapchange_promise
 =
-waitForSnapChangedEvent
+waitForScrollSnapChangeEvent
 (
 scroller
 false
@@ -1061,7 +1061,7 @@ let
 evt
 =
 await
-snapchanged_promise
+scrollsnapchange_promise
 ;
 assertSnapEvent
 (
@@ -1076,9 +1076,9 @@ null
 }
 )
 ;
-snapchanged_promise
+scrollsnapchange_promise
 =
-waitForSnapChangedEvent
+waitForScrollSnapChangeEvent
 (
 scroller
 false
@@ -1107,7 +1107,7 @@ start
 evt
 =
 await
-snapchanged_promise
+scrollsnapchange_promise
 ;
 assertSnapEvent
 (
@@ -1124,7 +1124,7 @@ null
 ;
 }
 "
-snapchanged
+scrollsnapchange
 fires
 when
 snap

@@ -21,7 +21,7 @@ Snap
 2
 Test
 :
-snapchanged
+scrollsnapchange
 events
 on
 proximity
@@ -321,7 +321,7 @@ test
 checkSnapEventSupport
 (
 "
-snapchanged
+scrollsnapchange
 "
 )
 ;
@@ -360,9 +360,9 @@ scrollLeft
 )
 ;
 let
-snapchanged_promise
+scrollsnapchange_promise
 =
-waitForSnapChangedEvent
+waitForScrollSnapChangeEvent
 (
 scroller
 )
@@ -406,7 +406,7 @@ scrollTo
 ;
 /
 /
-snapchanged
+scrollsnapchange
 should
 fire
 as
@@ -436,7 +436,7 @@ let
 evt
 =
 await
-snapchanged_promise
+scrollsnapchange_promise
 ;
 assert_equals
 (
@@ -463,9 +463,9 @@ evt
 =
 null
 ;
-snapchanged_promise
+scrollsnapchange_promise
 =
-waitForSnapChangedEvent
+waitForScrollSnapChangeEvent
 (
 scroller
 )
@@ -502,7 +502,7 @@ scrollTo
 evt
 =
 await
-snapchanged_promise
+scrollsnapchange_promise
 ;
 assert_equals
 (
@@ -514,7 +514,7 @@ scrollTop
 ;
 /
 /
-snapchanged
+scrollsnapchange
 should
 fire
 as
@@ -555,7 +555,7 @@ null
 ;
 }
 "
-Snapchanged
+Scrollsnapchange
 fires
 when
 scrolling
