@@ -4228,6 +4228,12 @@ return
 true
 ;
 }
+AutoSuppressAllocationMetadataBuilder
+suppressMetadata
+(
+cx
+)
+;
 JSRuntime
 *
 runtime
@@ -4351,6 +4357,12 @@ MutableHandleValue
 value
 )
 {
+AutoSuppressAllocationMetadataBuilder
+suppressMetadata
+(
+cx
+)
+;
 if
 (
 const
