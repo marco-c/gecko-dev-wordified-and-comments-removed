@@ -98,6 +98,8 @@ video_source
 .
 h
 "
+namespace
+{
 void
 grain_equal
 (
@@ -575,6 +577,7 @@ actual
 cr_offset
 )
 ;
+}
 }
 }
 TEST

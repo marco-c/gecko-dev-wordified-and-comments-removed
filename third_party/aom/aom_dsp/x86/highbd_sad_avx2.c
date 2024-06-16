@@ -3750,10 +3750,10 @@ const
 __m256i
 mask
 =
-yy_set1_64_from_32i
+_mm256_set1_epi64x
 (
 ~
-0
+0u
 )
 ;
 __m128i

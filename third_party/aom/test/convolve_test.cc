@@ -2962,7 +2962,7 @@ for
 (
 subpel_search
 =
-USE_4_TAPS
+USE_2_TAPS
 ;
 subpel_search
 <
@@ -3557,7 +3557,7 @@ for
 (
 subpel_search
 =
-USE_4_TAPS
+USE_2_TAPS
 ;
 subpel_search
 <
@@ -4442,7 +4442,7 @@ for
 (
 subpel_search
 =
-USE_4_TAPS
+USE_2_TAPS
 ;
 subpel_search
 <

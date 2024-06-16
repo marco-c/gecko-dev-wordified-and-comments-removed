@@ -70,6 +70,7 @@ blend
 .
 h
 "
+static
 uint8x8_t
 alpha_blend_a64_d16_u16x8
 (

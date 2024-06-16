@@ -155,6 +155,7 @@ return
 ;
 }
 }
+static
 int
 scan_order_test
 (

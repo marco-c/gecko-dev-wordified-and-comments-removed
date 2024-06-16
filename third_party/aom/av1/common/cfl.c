@@ -1039,6 +1039,8 @@ lbd
 #
 if
 CONFIG_AV1_HIGHBITDEPTH
+static
+INLINE
 void
 cfl_predict_hbd_c
 (

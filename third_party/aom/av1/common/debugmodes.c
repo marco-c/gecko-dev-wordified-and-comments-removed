@@ -1,5 +1,16 @@
 #
 include
+"
+av1
+/
+common
+/
+debugmodes
+.
+h
+"
+#
+include
 <
 stdio
 .
@@ -38,6 +49,9 @@ enums
 .
 h
 "
+#
+if
+0
 static
 void
 log_frame_info
@@ -660,6 +674,8 @@ mvs
 )
 ;
 }
+#
+endif
 void
 av1_print_uncompressed_frame_header
 (

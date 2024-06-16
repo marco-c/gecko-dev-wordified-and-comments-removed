@@ -24,6 +24,15 @@ h
 #
 include
 "
+config
+/
+av1_rtcd
+.
+h
+"
+#
+include
+"
 aom
 /
 aom_integer

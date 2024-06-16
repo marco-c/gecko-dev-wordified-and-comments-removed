@@ -306,7 +306,7 @@ flags
 elif
 defined
 (
-ANDROID_USE_CPU_FEATURES_LIB
+AOM_USE_ANDROID_CPU_FEATURES
 )
 static
 int

@@ -221,17 +221,6 @@ AOM_ROOT
 /
 aom_ports
 /
-msvc
-.
-h
-"
-"
-{
-AOM_ROOT
-}
-/
-aom_ports
-/
 sanitizer
 .
 h

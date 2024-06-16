@@ -4679,7 +4679,7 @@ const
 __m128i
 xshift
 =
-xx_set1_64_from_32i
+_mm_set1_epi64x
 (
 bd
 -

@@ -65,6 +65,8 @@ h
 namespace
 aom_tools
 {
+namespace
+{
 const
 uint32_t
 kObuForbiddenBitMask
@@ -452,6 +454,7 @@ header
 spatial_layer_id
 )
 ;
+}
 }
 }
 bool

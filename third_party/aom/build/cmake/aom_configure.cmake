@@ -1382,6 +1382,7 @@ CMAKE_ASM_COMPILER
 {
 CMAKE_C_COMPILER
 }
+"
 -
 c
 -
@@ -1390,6 +1391,7 @@ mimplicit
 it
 =
 always
+"
 )
 endif
 (

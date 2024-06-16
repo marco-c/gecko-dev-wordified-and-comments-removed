@@ -84,10 +84,10 @@ const
 __m256i
 v_zext_mask_q
 =
-yy_set1_64_from_32i
+_mm256_set1_epi64x
 (
 ~
-0
+0u
 )
 ;
 for

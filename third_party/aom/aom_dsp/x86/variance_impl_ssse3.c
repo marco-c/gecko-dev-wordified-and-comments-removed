@@ -34,6 +34,17 @@ synonyms
 .
 h
 "
+#
+include
+"
+aom_dsp
+/
+x86
+/
+variance_impl_ssse3
+.
+h
+"
 void
 aom_var_filter_block2d_bil_first_pass_ssse3
 (

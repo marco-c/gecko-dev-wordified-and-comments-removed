@@ -17,6 +17,15 @@ h
 #
 include
 "
+config
+/
+aom_dsp_rtcd
+.
+h
+"
+#
+include
+"
 aom
 /
 aom_integer

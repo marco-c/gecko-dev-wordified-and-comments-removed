@@ -3723,8 +3723,9 @@ out
 step1
 ;
 }
+static
 void
-av1_round_shift_array_16_neon
+round_shift_array_16_neon
 (
 int16x8_t
 *
@@ -44084,7 +44085,7 @@ cur_a
 INV_COS_BIT
 )
 ;
-av1_round_shift_array_16_neon
+round_shift_array_16_neon
 (
 cur_a
 txfm_size_col
@@ -44698,7 +44699,7 @@ txfm_size_row
 INV_COS_BIT
 )
 ;
-av1_round_shift_array_16_neon
+round_shift_array_16_neon
 (
 &
 b
@@ -45260,6 +45261,7 @@ r
 }
 }
 }
+static
 void
 lowbd_inv_txfm2d_add_4x8_neon
 (
@@ -45740,6 +45742,7 @@ r
 }
 }
 }
+static
 void
 lowbd_inv_txfm2d_add_8x4_neon
 (
@@ -46220,6 +46223,7 @@ r
 }
 }
 }
+static
 void
 lowbd_inv_txfm2d_add_4x16_neon
 (
@@ -46704,6 +46708,7 @@ r
 }
 }
 }
+static
 void
 lowbd_inv_txfm2d_add_16x4_neon
 (
@@ -47497,7 +47502,7 @@ cur_a
 INV_COS_BIT
 )
 ;
-av1_round_shift_array_16_neon
+round_shift_array_16_neon
 (
 cur_a
 txfm_size_col
@@ -47658,7 +47663,7 @@ txfm_size_row
 INV_COS_BIT
 )
 ;
-av1_round_shift_array_16_neon
+round_shift_array_16_neon
 (
 &
 b

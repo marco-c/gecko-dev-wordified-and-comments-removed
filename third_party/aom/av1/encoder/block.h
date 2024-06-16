@@ -2057,6 +2057,9 @@ MAX_MB_PLANE
 int64_t
 min_dist_inter_uv
 ;
+int
+color_palette_thresh
+;
 tran_low_t
 *
 dqcoeff_buf

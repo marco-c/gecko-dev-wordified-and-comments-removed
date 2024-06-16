@@ -10,6 +10,15 @@ h
 #
 include
 "
+config
+/
+av1_rtcd
+.
+h
+"
+#
+include
+"
 av1
 /
 common

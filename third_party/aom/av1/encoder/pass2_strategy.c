@@ -1560,7 +1560,7 @@ static
 int
 find_qindex_by_rate_with_correction
 (
-int
+uint64_t
 desired_bits_per_mb
 aom_bit_depth_t
 bit_depth
@@ -1633,11 +1633,11 @@ bit_depth
 )
 ;
 const
-int
+uint64_t
 mid_bits_per_mb
 =
 (
-int
+uint64_t
 )
 (
 (
@@ -1821,12 +1821,9 @@ inactive_zone
 )
 ;
 const
-int
+uint64_t
 target_norm_bits_per_mb
 =
-(
-int
-)
 (
 (
 uint64_t

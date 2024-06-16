@@ -14,6 +14,15 @@ txfm_common
 .
 h
 "
+#
+include
+"
+config
+/
+av1_rtcd
+.
+h
+"
 static
 void
 transpose4x4

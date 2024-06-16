@@ -41,6 +41,8 @@ tuple
 namespace
 libaom_test
 {
+namespace
+{
 int32_t
 random_warped_param
 (
@@ -751,6 +753,7 @@ WARP_PARAM_REDUCE_BITS
 ;
 return
 ;
+}
 }
 }
 namespace

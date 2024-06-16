@@ -4907,11 +4907,8 @@ test_aom_rc
 {
 AOM_LIB_LINK_TYPE
 }
-aom
 aom_av1_rc
 aom_gtest
-aom_gmock
-webm
 )
 set_property
 (
