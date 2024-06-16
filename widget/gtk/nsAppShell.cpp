@@ -333,14 +333,6 @@ Dmabuf
 "
 )
 ;
-LazyLogModule
-gClipboardLog
-(
-"
-WidgetClipboard
-"
-)
-;
 static
 GPollFunc
 sPollFunc
