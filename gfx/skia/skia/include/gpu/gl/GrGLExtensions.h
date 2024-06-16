@@ -211,7 +211,10 @@ fInitialized
 =
 false
 ;
-SkTArray
+skia_private
+:
+:
+TArray
 <
 SkString
 >

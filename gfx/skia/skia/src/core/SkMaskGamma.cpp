@@ -16,7 +16,7 @@ include
 /
 core
 /
-SkColor
+SkTypes
 .
 h
 "
@@ -25,9 +25,11 @@ include
 "
 include
 /
-core
+private
 /
-SkTypes
+base
+/
+SkDebug
 .
 h
 "
@@ -57,6 +59,11 @@ SkTo
 .
 h
 "
+#
+include
+<
+cmath
+>
 class
 SkLinearColorSpaceLuminance
 :

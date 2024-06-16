@@ -762,7 +762,7 @@ unique_ptr
 <
 Type
 >
-fTexture2D
+fTexture2D_sample
 ;
 const
 std
@@ -792,7 +792,7 @@ unique_ptr
 <
 Type
 >
-fReadWriteTexture2D
+fTexture2D
 ;
 const
 std

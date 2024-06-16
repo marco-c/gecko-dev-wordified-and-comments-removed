@@ -126,7 +126,10 @@ const
 ;
 #
 if
+defined
+(
 GR_TEST_UTILS
+)
 bool
 operator
 =

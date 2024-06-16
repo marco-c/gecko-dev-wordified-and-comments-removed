@@ -6,17 +6,6 @@ define
 SKSL_POOL
 #
 include
-"
-src
-/
-sksl
-/
-SkSLMemoryPool
-.
-h
-"
-#
-include
 <
 cstddef
 >
@@ -28,6 +17,9 @@ memory
 namespace
 SkSL
 {
+class
+MemoryPool
+;
 class
 Pool
 {
@@ -89,8 +81,6 @@ private
 Pool
 (
 )
-=
-default
 ;
 std
 :

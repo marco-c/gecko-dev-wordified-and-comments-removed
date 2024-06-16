@@ -232,6 +232,7 @@ fImage
 >
 makeSubset
 (
+nullptr
 subset
 )
 ;

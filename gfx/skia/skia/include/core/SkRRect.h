@@ -765,8 +765,12 @@ dy
 )
 ;
 }
+[
+[
+nodiscard
+]
+]
 SkRRect
-SK_WARN_UNUSED_RESULT
 makeOffset
 (
 SkScalar

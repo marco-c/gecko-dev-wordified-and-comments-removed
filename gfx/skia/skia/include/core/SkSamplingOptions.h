@@ -246,7 +246,6 @@ mm
 )
 {
 }
-explicit
 constexpr
 SkSamplingOptions
 (
@@ -267,7 +266,6 @@ kNone
 )
 {
 }
-explicit
 constexpr
 SkSamplingOptions
 (

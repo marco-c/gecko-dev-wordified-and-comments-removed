@@ -535,9 +535,9 @@ SkScalarInvert
 (
 x
 )
-sk_ieee_float_divide_TODO_IS_DIVIDE_BY_ZERO_SAFE_HERE
 (
 SK_Scalar1
+/
 (
 x
 )

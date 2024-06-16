@@ -1,4 +1,10 @@
 #
+ifndef
+SkRescaleAndReadPixels_DEFINED
+#
+define
+SkRescaleAndReadPixels_DEFINED
+#
 include
 "
 include
@@ -49,3 +55,5 @@ SkImage
 ReadPixelsContext
 )
 ;
+#
+endif

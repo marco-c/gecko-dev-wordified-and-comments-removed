@@ -1859,11 +1859,10 @@ SkASSERT
 individualMipOffsets
 |
 |
-!
 individualMipOffsets
 -
 >
-size
+empty
 (
 )
 )

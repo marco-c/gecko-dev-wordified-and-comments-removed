@@ -160,8 +160,8 @@ SkPath
 :
 Verb
 fVerb
-)
 ;
+)
 const
 SkPoint
 &
@@ -354,8 +354,8 @@ SkPath
 :
 Verb
 fVerb
-)
 ;
+)
 const
 SkDPoint
 &

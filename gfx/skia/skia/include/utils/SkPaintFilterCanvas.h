@@ -248,6 +248,7 @@ GrRecordingContext
 recordingContext
 (
 )
+const
 override
 {
 return

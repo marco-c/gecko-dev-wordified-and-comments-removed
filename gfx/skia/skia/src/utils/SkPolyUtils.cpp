@@ -7030,7 +7030,7 @@ return
 false
 ;
 }
-SkSTArray
+STArray
 <
 64
 OffsetEdge

@@ -18,9 +18,9 @@ h
 #
 include
 "
-include
+src
 /
-private
+sksl
 /
 SkSLDefines
 .
@@ -29,7 +29,7 @@ h
 #
 include
 "
-include
+src
 /
 sksl
 /

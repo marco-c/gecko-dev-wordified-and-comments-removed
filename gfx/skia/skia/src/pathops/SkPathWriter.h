@@ -239,7 +239,10 @@ moveTo
 )
 ;
 const
-SkTArray
+skia_private
+:
+:
+TArray
 <
 SkPath
 >
@@ -270,7 +273,10 @@ pt
 SkPath
 fCurrent
 ;
-SkTArray
+skia_private
+:
+:
+TArray
 <
 SkPath
 >

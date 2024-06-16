@@ -1545,6 +1545,7 @@ quadT
 =
 (
 (
+const
 SkDCurve
 *
 )

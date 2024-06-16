@@ -114,8 +114,10 @@ familyName
 const
 override
 ;
+sk_sp
+<
 SkFontStyleSet
-*
+>
 onCreateStyleSet
 (
 int
@@ -124,8 +126,10 @@ index
 const
 override
 ;
+sk_sp
+<
 SkFontStyleSet
-*
+>
 onMatchFamily
 (
 const
@@ -137,8 +141,10 @@ familyName
 const
 override
 ;
+sk_sp
+<
 SkTypeface
-*
+>
 onMatchFamilyStyle
 (
 const
@@ -153,8 +159,10 @@ SkFontStyle
 const
 override
 ;
+sk_sp
+<
 SkTypeface
-*
+>
 onMatchFamilyStyleCharacter
 (
 const

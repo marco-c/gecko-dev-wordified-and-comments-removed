@@ -21,6 +21,13 @@ SkReadBuffer
 class
 SkWriteBuffer
 ;
+static
+constexpr
+int
+kBicubicFilterTexelPad
+=
+2
+;
 enum
 SkLegacyFQ
 {

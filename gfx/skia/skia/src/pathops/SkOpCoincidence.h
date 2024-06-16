@@ -955,8 +955,8 @@ SkDEBUGCODE
 SkOpGlobalState
 *
 fGlobalState
-)
 ;
+)
 }
 ;
 class

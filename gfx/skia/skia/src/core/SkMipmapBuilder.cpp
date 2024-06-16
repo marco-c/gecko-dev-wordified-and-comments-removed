@@ -178,8 +178,12 @@ SkMipmapBuilder
 attachTo
 (
 const
+sk_sp
+<
+const
 SkImage
-*
+>
+&
 src
 )
 {
