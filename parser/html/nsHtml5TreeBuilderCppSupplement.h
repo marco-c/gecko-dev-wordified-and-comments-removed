@@ -221,6 +221,10 @@ allowDeclarativeShadowRoots
 (
 false
 )
+keepBuffer
+(
+false
+)
 mBuilder
 (
 aBuilder
@@ -377,6 +381,10 @@ forceNoQuirks
 false
 )
 allowDeclarativeShadowRoots
+(
+false
+)
+keepBuffer
 (
 false
 )
