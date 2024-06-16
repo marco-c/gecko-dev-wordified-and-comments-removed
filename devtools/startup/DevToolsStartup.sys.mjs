@@ -7589,13 +7589,6 @@ sys
 .
 mjs
 "
-{
-global
-:
-"
-shared
-"
-}
 )
 ;
 try

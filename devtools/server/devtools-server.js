@@ -854,15 +854,6 @@ connID
 ;
 if
 (
-!
-connection
-)
-{
-continue
-;
-}
-if
-(
 connection
 .
 isAcceptedBy
