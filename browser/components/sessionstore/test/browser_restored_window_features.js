@@ -223,6 +223,8 @@ tabbrowser
 /
 test
 /
+browser
+/
 tabs
 /
 dummy_page

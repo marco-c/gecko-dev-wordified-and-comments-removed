@@ -25,6 +25,8 @@ tabbrowser
 /
 test
 /
+browser
+/
 tabs
 /
 "

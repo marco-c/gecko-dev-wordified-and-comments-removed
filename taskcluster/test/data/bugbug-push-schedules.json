@@ -3018,6 +3018,8 @@ tabbrowser
 /
 test
 /
+browser
+/
 tabs
 /
 browser
@@ -24129,6 +24131,8 @@ components
 tabbrowser
 /
 test
+/
+browser
 /
 tabs
 /

@@ -448,6 +448,8 @@ tabbrowser
 /
 test
 /
+browser
+/
 tabs
 /
 browser_new_file_whitelisted_http_tab

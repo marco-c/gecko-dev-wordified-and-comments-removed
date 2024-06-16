@@ -152,6 +152,8 @@ tabbrowser
 /
 test
 /
+browser
+/
 tabs
 /
 dummy_page
@@ -173,6 +175,8 @@ components
 tabbrowser
 /
 test
+/
+browser
 /
 tabs
 /

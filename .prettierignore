@@ -1966,6 +1966,8 @@ tabbrowser
 /
 test
 /
+browser
+/
 tabs
 /
 dummy_page
@@ -1979,6 +1981,8 @@ tabbrowser
 /
 test
 /
+browser
+/
 tabs
 /
 file_anchor_elements
@@ -1991,6 +1995,8 @@ components
 tabbrowser
 /
 test
+/
+browser
 /
 tabs
 /
