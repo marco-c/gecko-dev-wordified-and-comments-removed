@@ -111,9 +111,6 @@ TEST_DIRS
 =
 [
 "
-rust
-"
-"
 TestDllBlocklist_AllowByVersion
 "
 "
