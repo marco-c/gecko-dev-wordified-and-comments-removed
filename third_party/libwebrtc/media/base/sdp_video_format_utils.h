@@ -96,6 +96,15 @@ CodecParameterMap
 params
 )
 ;
+bool
+SupportsPerLayerPictureLossIndication
+(
+const
+CodecParameterMap
+&
+params
+)
+;
 }
 #
 endif

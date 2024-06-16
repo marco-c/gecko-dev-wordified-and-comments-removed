@@ -919,6 +919,10 @@ bool
 prefer_temporal_support_on_base_layer_
 ;
 const
+bool
+per_layer_pli_
+;
+const
 SimulcastEncoderAdapterEncoderInfoSettings
 encoder_info_override_
 ;

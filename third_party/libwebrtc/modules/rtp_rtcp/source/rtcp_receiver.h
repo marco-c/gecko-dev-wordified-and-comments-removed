@@ -823,13 +823,6 @@ kMediaSsrcIndex
 =
 0
 ;
-static
-constexpr
-size_t
-kMaxSsrcs
-=
-3
-;
 RegisteredSsrcs
 (
 bool
@@ -876,7 +869,7 @@ absl
 InlinedVector
 <
 uint32_t
-kMaxSsrcs
+kMaxSimulcastStreams
 >
 ssrcs_
 RTC_GUARDED_BY

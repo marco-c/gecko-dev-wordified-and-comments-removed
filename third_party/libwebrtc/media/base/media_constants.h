@@ -252,6 +252,13 @@ kCodecParamMaxPlaybackRate
 extern
 const
 char
+kCodecParamPerLayerPictureLossIndication
+[
+]
+;
+extern
+const
+char
 kParamValueTrue
 [
 ]
