@@ -1114,6 +1114,10 @@ lifetime
 }
 targeting
 :
+!
+inMr2022Holdback
+&
+&
 source
 =
 =
@@ -1703,6 +1707,10 @@ priority
 3
 targeting
 :
+!
+inMr2022Holdback
+&
+&
 source
 =
 =
@@ -2030,6 +2038,10 @@ priority
 2
 targeting
 :
+!
+inMr2022Holdback
+&
+&
 source
 =
 =
