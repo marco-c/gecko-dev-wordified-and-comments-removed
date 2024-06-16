@@ -60,15 +60,6 @@ use
 std
 :
 :
-iter
-:
-:
-Iterator
-;
-use
-std
-:
-:
 str
 ;
 use
