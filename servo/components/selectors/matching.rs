@@ -5314,6 +5314,11 @@ Component
 :
 :
 Scope
+|
+Component
+:
+:
+ImplicitScope
 =
 >
 match

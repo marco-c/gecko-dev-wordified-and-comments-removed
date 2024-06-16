@@ -4476,6 +4476,11 @@ Scope
 Component
 :
 :
+ImplicitScope
+|
+Component
+:
+:
 ParentSelector
 |
 Component
