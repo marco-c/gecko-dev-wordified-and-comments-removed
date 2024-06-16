@@ -30,6 +30,12 @@ Desk
 "
 #
 define
+NS_OS_DOCUMENTS_DIR
+"
+Docs
+"
+#
+define
 NS_OS_DEFAULT_DOWNLOAD_DIR
 "
 DfltDwnld
