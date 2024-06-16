@@ -315,6 +315,10 @@ height
 :
 100vh
 ;
+display
+:
+block
+;
 width
 :
 var
@@ -479,7 +483,8 @@ height
 :
 calc
 (
-100vh
+100
+%
 -
 var
 (
