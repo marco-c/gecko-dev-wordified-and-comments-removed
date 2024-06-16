@@ -197,8 +197,7 @@ override
 void
 HandleInvokeInternal
 (
-nsAtom
-*
+InvokeAction
 aAction
 ErrorResult
 &

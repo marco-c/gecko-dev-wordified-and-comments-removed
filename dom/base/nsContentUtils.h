@@ -2841,6 +2841,17 @@ aBaseURI
 ;
 static
 bool
+ContainsChar
+(
+nsAtom
+*
+aAtom
+char
+aChar
+)
+;
+static
+bool
 IsNameWithDash
 (
 nsAtom
