@@ -2564,6 +2564,15 @@ CryptoScheme
 aScheme
 )
 ;
+nsCString
+CryptoSchemeSetToString
+(
+const
+CryptoSchemeSet
+&
+aSchemes
+)
+;
 CryptoScheme
 StringToCryptoScheme
 (
