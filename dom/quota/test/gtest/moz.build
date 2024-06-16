@@ -61,6 +61,11 @@ TestClientUsageArray
 cpp
 "
 "
+TestDirectoryLock
+.
+cpp
+"
+"
 TestEncryptedStream
 .
 cpp
