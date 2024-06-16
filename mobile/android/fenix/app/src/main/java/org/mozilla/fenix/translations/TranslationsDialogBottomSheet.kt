@@ -2576,7 +2576,7 @@ CouldNotTranslateError
 {
 ReviewQualityCheckInfoCard
 (
-title
+description
 =
 stringResource
 (
@@ -2593,6 +2593,11 @@ type
 ReviewQualityCheckInfoType
 .
 Error
+verticalRowAlignment
+=
+Alignment
+.
+CenterVertically
 modifier
 =
 modifier
@@ -2607,7 +2612,7 @@ CouldNotLoadLanguagesError
 {
 ReviewQualityCheckInfoCard
 (
-title
+description
 =
 stringResource
 (
@@ -2624,6 +2629,11 @@ type
 ReviewQualityCheckInfoType
 .
 Error
+verticalRowAlignment
+=
+Alignment
+.
+CenterVertically
 modifier
 =
 modifier
@@ -2643,7 +2653,7 @@ let
 {
 ReviewQualityCheckInfoCard
 (
-title
+description
 =
 stringResource
 (
