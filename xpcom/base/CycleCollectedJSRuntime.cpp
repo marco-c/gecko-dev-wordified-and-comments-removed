@@ -4860,7 +4860,7 @@ TraceGrayJS
 JSTracer
 *
 aTracer
-JS
+js
 :
 :
 SliceBudget
@@ -7324,13 +7324,13 @@ isNothing
 )
 )
 ;
-JS
+js
 :
 :
 SliceBudget
 budget
 =
-JS
+js
 :
 :
 SliceBudget
@@ -7370,7 +7370,7 @@ JSHolderMap
 :
 WhichHolders
 aWhich
-JS
+js
 :
 :
 SliceBudget
@@ -7456,7 +7456,7 @@ JSHolderMap
 Iter
 &
 aIter
-JS
+js
 :
 :
 SliceBudget

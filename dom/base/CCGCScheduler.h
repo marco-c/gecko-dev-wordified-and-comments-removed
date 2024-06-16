@@ -541,7 +541,7 @@ eInterruptible
 true
 }
 ;
-JS
+js
 :
 :
 SliceBudget
@@ -567,7 +567,7 @@ false
 auto
 budget
 =
-JS
+js
 :
 :
 SliceBudget
@@ -1141,7 +1141,7 @@ KillAllTimersAndRunners
 )
 ;
 }
-JS
+js
 :
 :
 SliceBudget
@@ -1161,7 +1161,7 @@ aPreferShorterSlices
 )
 const
 ;
-JS
+js
 :
 :
 SliceBudget
@@ -1538,7 +1538,7 @@ uint32_t
 aSuspectedCCObjects
 )
 ;
-JS
+js
 :
 :
 SliceBudget
@@ -1569,7 +1569,7 @@ false
 bool
 mReadyForMajorGC
 ;
-JS
+js
 :
 :
 SliceBudget

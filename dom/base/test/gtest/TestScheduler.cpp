@@ -294,7 +294,7 @@ Now
 +
 kTenthSecond
 ;
-JS
+js
 :
 :
 SliceBudget
@@ -798,7 +798,7 @@ suspectedBefore
 =
 sSuspected
 ;
-JS
+js
 :
 :
 SliceBudget
@@ -1101,7 +1101,7 @@ InIncrementalGC
 bool
 preferShorter
 ;
-JS
+js
 :
 :
 SliceBudget
@@ -1281,7 +1281,7 @@ InIncrementalGC
 bool
 preferShorter
 ;
-JS
+js
 :
 :
 SliceBudget

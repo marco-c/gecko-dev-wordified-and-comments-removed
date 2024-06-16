@@ -2082,13 +2082,13 @@ leafOwner
 =
 nullptr
 ;
-JS
+js
 :
 :
 SliceBudget
 budget
 (
-JS
+js
 :
 :
 WorkBudget
@@ -2435,7 +2435,7 @@ isMarkedBlack
 auto
 unlimited
 =
-JS
+js
 :
 :
 SliceBudget

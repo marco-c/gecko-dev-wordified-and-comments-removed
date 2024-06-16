@@ -5268,9 +5268,6 @@ TraceGrayRoots
 JSTracer
 *
 trc
-JS
-:
-:
 SliceBudget
 &
 budget
