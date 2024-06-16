@@ -1256,12 +1256,12 @@ layer1
 =
 PhotonColors
 .
-Ink50
+Violet90
 layer2
 =
 PhotonColors
 .
-Ink50
+Violet90
 layer3
 =
 PhotonColors
