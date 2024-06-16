@@ -570,15 +570,3 @@ disabledForTesting
 true
 )
 ;
-user_pref
-(
-"
-marionette
-.
-setpermission
-.
-enabled
-"
-true
-)
-;
