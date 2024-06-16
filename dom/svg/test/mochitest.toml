@@ -114,7 +114,7 @@ svg
 "
 getBBox
 -
-method
+options
 -
 helper
 .
@@ -407,7 +407,7 @@ html
 "
 test_getBBox
 -
-method
+options
 .
 html
 "

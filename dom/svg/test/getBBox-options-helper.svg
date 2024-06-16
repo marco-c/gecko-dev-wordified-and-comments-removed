@@ -2184,10 +2184,10 @@ clip
 "
 rect
 (
-200
-300
-300
-200
+10px
+90px
+90px
+10px
 )
 "
 xlink
@@ -4404,10 +4404,10 @@ clip
 "
 rect
 (
-2
-102
-102
-2
+2px
+102px
+102px
+2px
 )
 "
 >
@@ -4461,7 +4461,7 @@ required
 for
 tiling
 .
-Accroding
+According
 to
 '
 postpone
@@ -4622,7 +4622,7 @@ required
 for
 tiling
 .
-Accroding
+According
 to
 '
 postpone
@@ -4783,7 +4783,7 @@ required
 for
 tiling
 .
-Accroding
+According
 to
 '
 postpone
@@ -4898,10 +4898,10 @@ clip
 "
 rect
 (
-2
-102
-102
-2
+2px
+102px
+102px
+2px
 )
 "
 >
@@ -4955,7 +4955,7 @@ required
 for
 tiling
 .
-Accroding
+According
 to
 '
 postpone
@@ -5116,7 +5116,7 @@ required
 for
 tiling
 .
-Accroding
+According
 to
 '
 postpone
@@ -5277,7 +5277,7 @@ required
 for
 tiling
 .
-Accroding
+According
 to
 '
 postpone
@@ -5438,7 +5438,7 @@ required
 for
 tiling
 .
-Accroding
+According
 to
 '
 postpone
@@ -5599,7 +5599,7 @@ required
 for
 tiling
 .
-Accroding
+According
 to
 '
 postpone
