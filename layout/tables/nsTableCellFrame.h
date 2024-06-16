@@ -859,9 +859,13 @@ nsTableRowFrame
 ;
 uint32_t
 mColIndex
+=
+0
 ;
 nscoord
 mPriorAvailISize
+=
+0
 ;
 mozilla
 :
