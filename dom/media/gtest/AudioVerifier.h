@@ -299,6 +299,8 @@ Amplitude
 (
 )
 *
+2
+*
 sin
 (
 2
