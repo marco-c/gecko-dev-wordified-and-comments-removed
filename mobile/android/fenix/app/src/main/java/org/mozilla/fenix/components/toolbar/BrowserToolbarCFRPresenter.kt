@@ -2515,6 +2515,12 @@ IndicatorDirection
 .
 DOWN
 }
+dismissOnBackPress
+=
+true
+dismissOnClickOutside
+=
+true
 )
 onDismiss
 =

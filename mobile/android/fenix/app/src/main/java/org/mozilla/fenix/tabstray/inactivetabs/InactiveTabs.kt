@@ -1225,6 +1225,12 @@ popupVerticalOffset
 )
 .
 dp
+dismissOnBackPress
+=
+true
+dismissOnClickOutside
+=
+false
 )
 onCFRShown
 =
