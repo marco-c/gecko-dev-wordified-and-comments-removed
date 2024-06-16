@@ -2111,6 +2111,11 @@ mNumQueriesBeforeFirstFrameBoundary
 =
 0
 ;
+uint8_t
+mNumQueriesWithoutFlushCommandsBit
+=
+0
+;
 public
 :
 NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
