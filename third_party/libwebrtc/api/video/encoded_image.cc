@@ -19,9 +19,7 @@ h
 #
 include
 <
-string
-.
-h
+algorithm
 >
 namespace
 webrtc
@@ -73,11 +71,14 @@ EncodedImageBuffer
 size
 )
 {
-memcpy
+std
+:
+:
+copy_n
 (
-buffer_
 data
 size
+buffer_
 )
 ;
 }
