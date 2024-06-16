@@ -113,6 +113,8 @@ toml
 cargo
 /
 config
+.
+toml
 mkdir
 wrench
 -

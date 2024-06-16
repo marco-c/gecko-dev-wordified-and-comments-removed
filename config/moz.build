@@ -597,6 +597,8 @@ inputs
 cargo
 /
 config
+.
+toml
 "
 ]
 )

@@ -1682,6 +1682,8 @@ topobjdir
 cargo
 /
 config
+.
+toml
 to
 be
 preprocessed
@@ -1783,6 +1785,8 @@ DEPTH
 cargo
 /
 config
+.
+toml
 ifndef
 TEST_MOZBUILD
 recurse_pre
@@ -1797,5 +1801,7 @@ DEPTH
 cargo
 /
 config
+.
+toml
 endif
 endif

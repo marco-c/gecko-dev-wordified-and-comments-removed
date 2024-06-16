@@ -1474,6 +1474,8 @@ cargo
 /
 config
 .
+toml
+.
 in
 "
 ]

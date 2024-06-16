@@ -2271,8 +2271,11 @@ cargo
 "
 config
 .
+toml
+.
 in
 "
+            
 topsrcdir
 /
 "
@@ -2282,6 +2285,8 @@ cargo
 /
 "
 config
+.
+toml
 "
         
 )
@@ -2338,6 +2343,8 @@ cargo
 /
 "
 config
+.
+toml
 "
 )
 .

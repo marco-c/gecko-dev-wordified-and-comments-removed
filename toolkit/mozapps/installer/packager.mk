@@ -801,6 +801,8 @@ cargo
 /
 config
 .
+toml
+.
 in
 (
 topsrcdir
@@ -810,6 +812,8 @@ topsrcdir
 cargo
 /
 config
+.
+toml
 cd
 (
 topsrcdir
@@ -888,6 +892,8 @@ topsrcdir
 cargo
 /
 config
+.
+toml
 ifeq
 (
 (

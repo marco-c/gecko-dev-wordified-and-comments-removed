@@ -355,6 +355,8 @@ cargo
 /
 config
 .
+toml
+.
 in
 GECKO_PATH
 /
@@ -362,6 +364,8 @@ GECKO_PATH
 cargo
 /
 config
+.
+toml
 cargo
 build
 -

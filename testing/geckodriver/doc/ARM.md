@@ -186,6 +186,8 @@ geckodriver
 cargo
 /
 config
+.
+toml
 ]
 :
 rust
@@ -269,6 +271,8 @@ geckodriver
 cargo
 /
 config
+.
+toml
 ]
 :
 https
@@ -293,3 +297,5 @@ geckodriver
 cargo
 /
 config
+.
+toml

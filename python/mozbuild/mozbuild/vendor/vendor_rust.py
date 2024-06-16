@@ -183,6 +183,8 @@ topsrcdir
 cargo
 /
 config
+.
+toml
 with
 no
 preprocessing
@@ -218,6 +220,8 @@ a
 cargo
 /
 config
+.
+toml
 with
 the
 right
