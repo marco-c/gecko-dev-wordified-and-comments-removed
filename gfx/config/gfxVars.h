@@ -345,6 +345,15 @@ int32_t
 \
 _
 (
+WebRenderSlowCpuFrameThreshold
+float
+10
+.
+0
+)
+\
+_
+(
 UseSoftwareWebRender
 bool
 false

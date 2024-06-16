@@ -1334,6 +1334,17 @@ value
 )
 ;
 void
+SetFloat
+(
+wr
+:
+:
+FloatParameter
+float
+value
+)
+;
+void
 SetClearColor
 (
 const
