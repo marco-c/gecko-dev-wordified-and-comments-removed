@@ -930,7 +930,7 @@ FirefoxTheme
 .
 colors
 .
-layerConfirmation
+layerSuccess
 Error
 -
 >
