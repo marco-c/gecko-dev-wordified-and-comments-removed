@@ -86,6 +86,9 @@ mozilla
 class
 PresShell
 ;
+class
+ScrollContainerFrame
+;
 }
 class
 nsTableCellFrame
@@ -141,7 +144,10 @@ NS_DECL_FRAMEARENA_HELPERS
 (
 nsTableCellFrame
 )
-nsIScrollableFrame
+mozilla
+:
+:
+ScrollContainerFrame
 *
 GetScrollTargetFrame
 (
