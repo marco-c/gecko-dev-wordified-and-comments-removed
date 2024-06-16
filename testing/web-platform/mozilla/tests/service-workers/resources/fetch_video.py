@@ -27,7 +27,7 @@ media
 -
 green
 .
-webm
+ogv
 "
 )
     
@@ -67,7 +67,7 @@ b
 "
 video
 /
-webm
+ogg
 "
 )
         
