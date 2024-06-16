@@ -166,11 +166,13 @@ worker
 -
 type
 :
-t
+b
 -
 linux
 -
-xlarge
+medium
+-
+gcp
 treeherder
 :
 symbol
