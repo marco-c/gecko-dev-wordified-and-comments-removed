@@ -156,6 +156,11 @@ Worker
 )
 ;
 }
+bool
+IsEligibleForMessaging
+(
+)
+;
 void
 PostMessage
 (
