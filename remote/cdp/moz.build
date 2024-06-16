@@ -101,6 +101,15 @@ test
 /
 browser
 /
+browser_cdp_only
+.
+toml
+"
+"
+test
+/
+browser
+/
 dom
 /
 browser
