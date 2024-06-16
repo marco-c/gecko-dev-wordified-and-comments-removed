@@ -352,6 +352,10 @@ flags
 (
 )
 )
+allocator_
+(
+allocator
+)
 network_thread_
 (
 network_thread
@@ -450,11 +454,6 @@ in6addr_loopback
 )
 )
 ;
-set_ice_tiebreaker
-(
-44444
-)
-;
 }
 void
 SetCandidateFilter
@@ -546,6 +545,9 @@ port_
 >
 SetIceTiebreaker
 (
+allocator_
+-
+>
 ice_tiebreaker
 (
 )
@@ -943,6 +945,10 @@ release
 )
 ;
 }
+PortAllocator
+*
+allocator_
+;
 rtc
 :
 :

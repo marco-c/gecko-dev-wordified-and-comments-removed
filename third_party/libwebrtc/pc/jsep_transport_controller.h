@@ -2436,13 +2436,6 @@ ICEROLE_CONTROLLING
 ;
 uint64_t
 ice_tiebreaker_
-=
-rtc
-:
-:
-CreateRandomId64
-(
-)
 ;
 rtc
 :

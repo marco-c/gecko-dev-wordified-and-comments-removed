@@ -238,12 +238,6 @@ kIcePwd
 TESTICEPWD00000000000000
 "
 ;
-constexpr
-uint64_t
-kTiebreakerDefault
-=
-44444
-;
 }
 namespace
 webrtc
@@ -362,14 +356,6 @@ field_trials_
 )
 )
 {
-allocator_
--
->
-SetIceTiebreaker
-(
-kTiebreakerDefault
-)
-;
 BasicRegatheringController
 :
 :
