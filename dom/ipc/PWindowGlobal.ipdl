@@ -810,11 +810,6 @@ OnInitialStorageAccess
 (
 )
 ;
-async
-RecordUserActivationForBTP
-(
-)
-;
 child
 :
 async

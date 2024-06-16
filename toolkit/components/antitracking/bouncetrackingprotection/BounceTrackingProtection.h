@@ -118,7 +118,6 @@ aBounceTrackingState
 nodiscard
 ]
 ]
-static
 nsresult
 RecordUserActivation
 (

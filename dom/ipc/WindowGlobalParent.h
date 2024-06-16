@@ -1576,17 +1576,6 @@ RecvOnInitialStorageAccess
 (
 )
 ;
-mozilla
-:
-:
-ipc
-:
-:
-IPCResult
-RecvRecordUserActivationForBTP
-(
-)
-;
 private
 :
 WindowGlobalParent
