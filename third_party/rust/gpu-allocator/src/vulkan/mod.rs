@@ -89,12 +89,6 @@ super
 :
 :
 allocator
-:
-:
-{
-self
-AllocationType
-}
 ;
 use
 crate
@@ -1755,6 +1749,9 @@ desc
 .
 linear
 {
+allocator
+:
+:
 AllocationType
 :
 :
@@ -1762,6 +1759,9 @@ Linear
 }
 else
 {
+allocator
+:
+:
 AllocationType
 :
 :
