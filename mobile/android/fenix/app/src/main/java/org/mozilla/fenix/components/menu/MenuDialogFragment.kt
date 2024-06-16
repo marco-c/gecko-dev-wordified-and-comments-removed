@@ -1367,6 +1367,16 @@ ManageExtensions
 onDiscoverMoreExtensionsMenuClick
 =
 {
+store
+.
+dispatch
+(
+MenuAction
+.
+Navigate
+.
+DiscoverMoreExtensions
+)
 }
 )
 }
