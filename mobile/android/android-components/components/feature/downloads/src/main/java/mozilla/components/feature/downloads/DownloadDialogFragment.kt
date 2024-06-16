@@ -491,6 +491,12 @@ formatted
 string
 *
 /
+Suppress
+(
+"
+DefaultLocale
+"
+)
 fun
 Long
 .
@@ -536,6 +542,12 @@ formatted
 string
 *
 /
+Suppress
+(
+"
+DefaultLocale
+"
+)
 fun
 Long
 .
