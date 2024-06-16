@@ -2848,6 +2848,12 @@ background
 .
 update
 "
+/
+*
+disableInternalPings
+*
+/
+true
 )
 ;
 /
