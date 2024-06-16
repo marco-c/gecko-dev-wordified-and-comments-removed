@@ -929,6 +929,16 @@ modules
 /
 video_coding
 :
+h264_sprop_parameter_sets
+"
+"
+.
+.
+/
+modules
+/
+video_coding
+:
 nack_requester
 "
 "
