@@ -12029,7 +12029,7 @@ aNotify
 ;
 if
 (
-DoesReadOnlyApply
+DoesReadWriteApply
 (
 )
 )
@@ -12053,7 +12053,7 @@ const
 {
 if
 (
-DoesReadOnlyApply
+DoesReadWriteApply
 (
 )
 )
@@ -14015,7 +14015,7 @@ bool
 nsGenericHTMLFormControlElement
 :
 :
-DoesReadOnlyApply
+DoesReadWriteApply
 (
 )
 const
@@ -14210,7 +14210,7 @@ Unexpected
 input
 type
 in
-DoesReadOnlyApply
+DoesReadWriteApply
 (
 )
 "

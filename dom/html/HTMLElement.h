@@ -310,13 +310,6 @@ CanBeDisabled
 const
 override
 ;
-bool
-DoesReadOnlyApply
-(
-)
-const
-override
-;
 void
 UpdateDisabledState
 (

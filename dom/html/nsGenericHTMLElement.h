@@ -4150,7 +4150,7 @@ false
 }
 virtual
 bool
-DoesReadOnlyApply
+DoesReadWriteApply
 (
 )
 const
@@ -4369,7 +4369,7 @@ const
 override
 ;
 bool
-DoesReadOnlyApply
+DoesReadWriteApply
 (
 )
 const
