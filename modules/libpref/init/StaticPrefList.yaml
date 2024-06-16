@@ -63156,6 +63156,12 @@ defined
 (
 MOZ_WIDGET_GTK
 )
+|
+|
+defined
+(
+XP_WIN
+)
 value
 :
 IS_NIGHTLY_BUILD
