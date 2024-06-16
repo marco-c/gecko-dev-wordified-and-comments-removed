@@ -113,6 +113,10 @@ mType
 (
 aType
 )
+mDoNotAttemptToLoadData
+(
+false
+)
 mDataTransfer
 (
 aDataTransfer
@@ -471,14 +475,6 @@ nsAString
 aContentType
 )
 ;
-already_AddRefed
-<
-nsIGlobalObject
->
-GetGlobalFromDataTransfer
-(
-)
-;
 uint32_t
 mIndex
 ;
@@ -497,6 +493,9 @@ nsCOMPtr
 nsIVariant
 >
 mData
+;
+bool
+mDoNotAttemptToLoadData
 ;
 nsCOMPtr
 <
