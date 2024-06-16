@@ -1347,6 +1347,7 @@ case
 CollectionCardGrid
 "
 :
+{
 const
 {
 DiscoveryStream
@@ -1428,6 +1429,7 @@ dispatch
 >
 )
 ;
+}
 case
 "
 CardGrid
@@ -1608,6 +1610,15 @@ props
 DiscoveryStream
 .
 hideDescriptions
+}
+firstVisibleTimestamp
+=
+{
+this
+.
+props
+.
+firstVisibleTimestamp
 }
 /
 >
