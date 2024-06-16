@@ -68,7 +68,7 @@ print
 output
 )
     
-expected
+expected_part1
 =
 dedent
 (
@@ -87,6 +87,25 @@ release
 97
 .
 0
+        
+"
+"
+"
+    
+)
+.
+lstrip
+(
+)
+    
+expected_part2
+=
+dedent
+(
+        
+"
+"
+"
         
 Pushed
 via
@@ -151,7 +170,12 @@ lstrip
 )
     
 assert
-expected
+expected_part1
+in
+output
+    
+assert
+expected_part2
 in
 output
 if
