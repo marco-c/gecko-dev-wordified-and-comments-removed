@@ -403,6 +403,9 @@ browser_contextmenu_share_macosx
 js
 "
 ]
+https_first_disabled
+=
+true
 support
 -
 files
