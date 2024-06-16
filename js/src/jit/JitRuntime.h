@@ -249,6 +249,10 @@ AutoLockHelperThreadState
 class
 GCMarker
 ;
+enum
+class
+ArraySortKind
+;
 namespace
 jit
 {
@@ -1326,6 +1330,8 @@ generateArraySortTrampoline
 MacroAssembler
 &
 masm
+ArraySortKind
+kind
 )
 ;
 void

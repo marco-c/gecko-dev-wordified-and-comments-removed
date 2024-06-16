@@ -36,9 +36,15 @@ TRAMPOLINE_NATIVE_LIST
 (
 _
 )
+\
 _
 (
 ArraySort
+)
+\
+_
+(
+TypedArraySort
 )
 namespace
 js
