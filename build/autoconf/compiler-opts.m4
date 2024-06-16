@@ -264,13 +264,7 @@ main
 )
 {
 return
-foo
-(
-)
--
-bar
-(
-)
+0
 ;
 }
 '
