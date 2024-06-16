@@ -367,6 +367,9 @@ stagingPath
 databases
 )
 ;
+return
+null
+;
 }
 async
 measure

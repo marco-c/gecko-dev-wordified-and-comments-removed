@@ -149,6 +149,9 @@ sqlite
 ]
 )
 ;
+return
+null
+;
 }
 async
 measure
