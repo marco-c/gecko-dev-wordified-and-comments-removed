@@ -5788,3 +5788,17 @@ selectedBrowser
 )
 ;
 }
+async
+function
+destroyTranslationsEngine
+(
+)
+{
+await
+EngineProcess
+.
+destroyTranslationsEngine
+(
+)
+;
+}
