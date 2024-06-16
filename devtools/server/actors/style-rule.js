@@ -3118,6 +3118,15 @@ this
 column
 )
 ;
+if
+(
+text
+!
+=
+=
+newText
+)
+{
 cssText
 =
 cssText
@@ -3159,6 +3168,7 @@ UPDATE_PRESERVING_RULES
 }
 )
 ;
+}
 }
 this
 .
