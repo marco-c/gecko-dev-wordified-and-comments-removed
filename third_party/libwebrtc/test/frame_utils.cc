@@ -150,14 +150,14 @@ if
 (
 f1
 .
-timestamp
+rtp_timestamp
 (
 )
 !
 =
 f2
 .
-timestamp
+rtp_timestamp
 (
 )
 |

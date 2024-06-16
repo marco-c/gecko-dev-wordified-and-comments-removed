@@ -789,7 +789,7 @@ set_video_frame_buffer
 buffer
 )
 .
-set_timestamp_rtp
+set_rtp_timestamp
 (
 timestamp_rtp
 )
@@ -894,7 +894,7 @@ set_video_frame_buffer
 buffer
 )
 .
-set_timestamp_rtp
+set_rtp_timestamp
 (
 timestamp_rtp
 )
@@ -2027,7 +2027,7 @@ timestamp_rtp
 =
 video_frame
 .
-timestamp
+rtp_timestamp
 (
 )
 encoding_settings
@@ -2703,7 +2703,7 @@ timestamp_rtp
 =
 decoded_frame
 .
-timestamp
+rtp_timestamp
 (
 )
 spatial_idx
@@ -2827,7 +2827,7 @@ timestamp_rtp
 =
 decoded_frame
 .
-timestamp
+rtp_timestamp
 (
 )
 spatial_idx
@@ -6165,7 +6165,7 @@ callbacks_
 [
 input_frame
 .
-timestamp
+rtp_timestamp
 (
 )
 ]
@@ -6190,7 +6190,7 @@ Micros
 (
 input_frame
 .
-timestamp
+rtp_timestamp
 (
 )
 /
@@ -6292,7 +6292,7 @@ timestamp
 <
 input_frame
 .
-timestamp
+rtp_timestamp
 (
 )
 ;

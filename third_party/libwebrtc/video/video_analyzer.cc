@@ -1345,14 +1345,14 @@ front
 (
 )
 .
-timestamp
+rtp_timestamp
 (
 )
 !
 =
 video_frame
 .
-timestamp
+rtp_timestamp
 (
 )
 )
@@ -1382,7 +1382,7 @@ first_encoded_timestamp_
 =
 video_frame
 .
-timestamp
+rtp_timestamp
 (
 )
 ;
@@ -1669,7 +1669,7 @@ Unwrap
 (
 video_frame
 .
-timestamp
+rtp_timestamp
 (
 )
 -
@@ -1688,7 +1688,7 @@ front
 (
 )
 .
-timestamp
+rtp_timestamp
 (
 )
 )
@@ -1764,7 +1764,7 @@ Unwrap
 (
 reference_frame
 .
-timestamp
+rtp_timestamp
 (
 )
 )
@@ -4735,7 +4735,7 @@ Unwrap
 (
 reference
 .
-timestamp
+rtp_timestamp
 (
 )
 )
@@ -5220,7 +5220,7 @@ RTC_DCHECK_EQ
 0
 video_frame
 .
-timestamp
+rtp_timestamp
 (
 )
 )
@@ -5250,7 +5250,7 @@ CurrentNtpInMilliseconds
 ;
 copy
 .
-set_timestamp
+set_rtp_timestamp
 (
 copy
 .

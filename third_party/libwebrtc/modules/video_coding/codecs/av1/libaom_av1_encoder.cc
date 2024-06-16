@@ -4222,7 +4222,7 @@ SetRtpTimestamp
 (
 frame
 .
-timestamp
+rtp_timestamp
 (
 )
 )

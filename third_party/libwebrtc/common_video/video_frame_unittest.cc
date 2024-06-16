@@ -1523,7 +1523,7 @@ height
 ;
 frame
 .
-set_timestamp
+set_rtp_timestamp
 (
 123u
 )
@@ -1533,7 +1533,7 @@ EXPECT_EQ
 123u
 frame
 .
-timestamp
+rtp_timestamp
 (
 )
 )
@@ -1719,7 +1719,7 @@ build
 ;
 frame1
 .
-set_timestamp
+set_rtp_timestamp
 (
 timestamp
 )
@@ -1848,12 +1848,12 @@ EXPECT_EQ
 (
 frame2
 .
-timestamp
+rtp_timestamp
 (
 )
 frame1
 .
-timestamp
+rtp_timestamp
 (
 )
 )
@@ -1902,7 +1902,7 @@ rotation
 ;
 frame2
 .
-set_timestamp
+set_rtp_timestamp
 (
 timestamp
 +
@@ -1938,12 +1938,12 @@ EXPECT_NE
 (
 frame2
 .
-timestamp
+rtp_timestamp
 (
 )
 frame1
 .
-timestamp
+rtp_timestamp
 (
 )
 )
@@ -2043,7 +2043,7 @@ EXPECT_EQ
 100u
 frame
 .
-timestamp
+rtp_timestamp
 (
 )
 )
@@ -2095,7 +2095,7 @@ kNative
 ;
 frame
 .
-set_timestamp
+set_rtp_timestamp
 (
 200
 )
@@ -2105,7 +2105,7 @@ EXPECT_EQ
 200u
 frame
 .
-timestamp
+rtp_timestamp
 (
 )
 )

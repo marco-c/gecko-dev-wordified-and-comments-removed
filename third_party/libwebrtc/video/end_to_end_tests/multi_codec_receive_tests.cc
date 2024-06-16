@@ -605,7 +605,7 @@ Contains
 (
 rendered_frame
 .
-timestamp
+rtp_timestamp
 (
 )
 )
@@ -618,7 +618,7 @@ RemoveOlderOrEqual
 (
 rendered_frame
 .
-timestamp
+rtp_timestamp
 (
 )
 &

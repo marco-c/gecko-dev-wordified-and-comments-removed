@@ -28423,7 +28423,7 @@ CreateBlackFrameBuffer
 )
 )
 .
-set_timestamp_rtp
+set_rtp_timestamp
 (
 kInitialTimestamp
 )
@@ -28481,7 +28481,7 @@ kFrameOffsetMs
 ;
 video_frame
 .
-set_timestamp
+set_rtp_timestamp
 (
 kFrameOffsetMs
 *
@@ -51822,7 +51822,7 @@ CreateBlackFrameBuffer
 )
 )
 .
-set_timestamp_rtp
+set_rtp_timestamp
 (
 100
 )
@@ -51961,7 +51961,7 @@ CreateBlackFrameBuffer
 )
 )
 .
-set_timestamp_rtp
+set_rtp_timestamp
 (
 200
 )
@@ -52099,7 +52099,7 @@ CreateBlackFrameBuffer
 )
 )
 .
-set_timestamp_rtp
+set_rtp_timestamp
 (
 300
 )

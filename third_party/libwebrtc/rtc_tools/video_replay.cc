@@ -1236,7 +1236,7 @@ _
 <
 video_frame
 .
-timestamp
+rtp_timestamp
 (
 )
 <

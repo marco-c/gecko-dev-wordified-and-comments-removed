@@ -615,7 +615,7 @@ find
 (
 video_frame
 .
-timestamp
+rtp_timestamp
 (
 )
 )
@@ -1669,7 +1669,7 @@ find
 (
 video_frame
 .
-timestamp
+rtp_timestamp
 (
 )
 )

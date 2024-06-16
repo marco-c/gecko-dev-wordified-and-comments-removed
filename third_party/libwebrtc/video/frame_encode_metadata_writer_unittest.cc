@@ -474,7 +474,7 @@ Builder
 (
 )
 .
-set_timestamp_rtp
+set_rtp_timestamp
 (
 current_timestamp
 *
@@ -1156,7 +1156,7 @@ set_timestamp_ms
 timestamp
 )
 .
-set_timestamp_rtp
+set_rtp_timestamp
 (
 timestamp
 *
@@ -1330,7 +1330,7 @@ Builder
 (
 )
 .
-set_timestamp_rtp
+set_rtp_timestamp
 (
 kTimestampMs1
 *
@@ -1376,7 +1376,7 @@ capture_time_ms_
 ;
 frame
 .
-set_timestamp
+set_rtp_timestamp
 (
 image
 .
@@ -1458,7 +1458,7 @@ Timing
 ;
 frame
 .
-set_timestamp
+set_rtp_timestamp
 (
 image
 .
@@ -1531,7 +1531,7 @@ Timing
 ;
 frame
 .
-set_timestamp
+set_rtp_timestamp
 (
 image
 .
@@ -1613,7 +1613,7 @@ Timing
 ;
 frame
 .
-set_timestamp
+set_rtp_timestamp
 (
 image
 .
@@ -1754,7 +1754,7 @@ image
 capture_time_ms_
 )
 .
-set_timestamp_rtp
+set_rtp_timestamp
 (
 image
 .
@@ -1887,7 +1887,7 @@ set_timestamp_ms
 kTimestampMs
 )
 .
-set_timestamp_rtp
+set_rtp_timestamp
 (
 kTimestampMs
 *
@@ -2027,7 +2027,7 @@ set_timestamp_ms
 kTimestampMs
 )
 .
-set_timestamp_rtp
+set_rtp_timestamp
 (
 kTimestampMs
 *
@@ -2171,7 +2171,7 @@ set_timestamp_ms
 kTimestampMs
 )
 .
-set_timestamp_rtp
+set_rtp_timestamp
 (
 kTimestampMs
 *
@@ -2322,7 +2322,7 @@ set_timestamp_ms
 kTimestampMs
 )
 .
-set_timestamp_rtp
+set_rtp_timestamp
 (
 kTimestampMs
 *

@@ -910,7 +910,7 @@ GetDummyFrameBuffer
 )
 )
 .
-set_timestamp_rtp
+set_rtp_timestamp
 (
 timestamp_ms
 )
@@ -1053,7 +1053,7 @@ find
 frame
 -
 >
-timestamp
+rtp_timestamp
 (
 )
 )
@@ -1103,7 +1103,7 @@ timestamp
 frame
 -
 >
-timestamp
+rtp_timestamp
 (
 )
 ;
@@ -1131,7 +1131,7 @@ erase
 frame
 -
 >
-timestamp
+rtp_timestamp
 (
 )
 )

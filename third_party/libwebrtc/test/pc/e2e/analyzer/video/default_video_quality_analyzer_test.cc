@@ -498,7 +498,7 @@ RtpPacketInfo
 }
 frame
 .
-timestamp
+rtp_timestamp
 (
 )
 Timestamp

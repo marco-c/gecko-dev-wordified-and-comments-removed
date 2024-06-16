@@ -1674,7 +1674,7 @@ received_pli_
 &
 video_frame
 .
-timestamp
+rtp_timestamp
 (
 )
 >
@@ -2189,7 +2189,7 @@ if
 (
 frame
 .
-timestamp
+rtp_timestamp
 (
 )
 =

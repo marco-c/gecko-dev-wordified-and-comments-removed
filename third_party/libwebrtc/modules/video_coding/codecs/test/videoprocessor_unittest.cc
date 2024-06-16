@@ -604,7 +604,7 @@ Property
 VideoFrame
 :
 :
-timestamp
+rtp_timestamp
 1
 *
 90000
@@ -649,7 +649,7 @@ Property
 VideoFrame
 :
 :
-timestamp
+rtp_timestamp
 2
 *
 90000
@@ -802,7 +802,7 @@ Property
 VideoFrame
 :
 :
-timestamp
+rtp_timestamp
 kStartTimestamp
 )
 _
@@ -900,7 +900,7 @@ Property
 VideoFrame
 :
 :
-timestamp
+rtp_timestamp
 kStartTimestamp
 +
 90000

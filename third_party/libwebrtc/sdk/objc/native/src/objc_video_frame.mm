@@ -108,7 +108,7 @@ timeStamp
 =
 frame
 .
-timestamp
+rtp_timestamp
 (
 )
 ;

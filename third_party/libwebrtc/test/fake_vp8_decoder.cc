@@ -313,7 +313,7 @@ build
 ;
 frame
 .
-set_timestamp
+set_rtp_timestamp
 (
 input
 .

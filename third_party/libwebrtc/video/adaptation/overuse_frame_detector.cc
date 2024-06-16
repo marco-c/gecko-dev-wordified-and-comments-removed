@@ -466,7 +466,7 @@ timestamp_us
 )
 frame
 .
-timestamp
+rtp_timestamp
 (
 )
 time_when_first_seen_us

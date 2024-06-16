@@ -3885,7 +3885,7 @@ set_video_frame_buffer
 cropped_buffer
 )
 .
-set_timestamp_rtp
+set_rtp_timestamp
 (
 input_image
 .
