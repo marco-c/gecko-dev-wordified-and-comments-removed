@@ -206,6 +206,8 @@ params
 async
 PBackgroundIDBRequest
 (
+int64_t
+requestId
 RequestParams
 params
 )
