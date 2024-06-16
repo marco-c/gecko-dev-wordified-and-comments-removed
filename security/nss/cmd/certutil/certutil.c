@@ -5350,6 +5350,11 @@ slot
 )
 )
 ;
+PK11_FreeSlot
+(
+slot
+)
+;
 return
 SECFailure
 ;
