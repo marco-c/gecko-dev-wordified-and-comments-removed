@@ -1551,6 +1551,11 @@ mCloneWriteInfo
 )
 )
 {
+JS_ClearPendingException
+(
+aCx
+)
+;
 return
 NS_ERROR_DOM_DATA_CLONE_ERR
 ;
@@ -3130,6 +3135,11 @@ aCx
 )
 )
 {
+JS_ClearPendingException
+(
+aCx
+)
+;
 aRv
 .
 Throw
@@ -3216,6 +3226,11 @@ aCx
 )
 )
 {
+JS_ClearPendingException
+(
+aCx
+)
+;
 aRv
 .
 Throw
@@ -3433,6 +3448,11 @@ aCx
 )
 )
 {
+JS_ClearPendingException
+(
+aCx
+)
+;
 aRv
 .
 Throw
