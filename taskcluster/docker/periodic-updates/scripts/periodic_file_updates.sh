@@ -3970,14 +3970,14 @@ EXPERIMENTER_DIFF_ARTIFACT
 ]
 ;
 then
+return
+0
+else
 #
 no
 change
 return
 1
-else
-return
-0
 fi
 }
 #
