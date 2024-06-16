@@ -117,10 +117,10 @@ return
 {
 SdpVideoFormat
 (
-"
+SdpVideoFormat
+:
+:
 VP8
-"
-CodecParameterMap
 (
 )
 scalability_modes

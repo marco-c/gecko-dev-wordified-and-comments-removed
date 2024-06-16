@@ -102,10 +102,10 @@ return
 {
 SdpVideoFormat
 (
-"
-AV1
-"
-CodecParameterMap
+SdpVideoFormat
+:
+:
+AV1Profile0
 (
 )
 scalability_modes
