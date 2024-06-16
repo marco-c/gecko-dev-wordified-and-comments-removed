@@ -102,7 +102,7 @@ HandleAppCommandEvent
 gotoHistoryIndex
 "
 "
-BrowserForward
+BrowserCommands
 "
 "
 BrowserBack

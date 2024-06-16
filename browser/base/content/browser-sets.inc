@@ -962,7 +962,9 @@ Forward
 oncommand
 =
 "
-BrowserForward
+BrowserCommands
+.
+forward
 (
 )
 ;
@@ -986,7 +988,9 @@ ForwardOrForwardDuplicate
 oncommand
 =
 "
-BrowserForward
+BrowserCommands
+.
+forward
 (
 event
 )
