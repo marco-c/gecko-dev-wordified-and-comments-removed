@@ -125,9 +125,6 @@ h
 namespace
 jxl
 {
-struct
-AuxOut
-;
 namespace
 {
 Status
@@ -763,7 +760,7 @@ matrices
 BitWriter
 *
 writer
-size_t
+LayerType
 layer
 AuxOut
 *
@@ -936,7 +933,7 @@ matrices
 BitWriter
 *
 writer
-size_t
+LayerType
 layer
 AuxOut
 *
@@ -1119,7 +1116,10 @@ DequantMatricesEncodeDC
 matrices
 &
 writer
-0
+LayerType
+:
+:
+Header
 nullptr
 )
 )
@@ -1254,7 +1254,10 @@ memory_manager
 matrices
 &
 writer
-0
+LayerType
+:
+:
+Header
 nullptr
 )
 )
@@ -1336,10 +1339,7 @@ size
 )
 =
 =
-DequantMatrices
-:
-:
-kNum
+kNumQuantTables
 )
 ;
 JxlMemoryManager

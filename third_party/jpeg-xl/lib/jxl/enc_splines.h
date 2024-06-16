@@ -7,7 +7,7 @@ LIB_JXL_ENC_SPLINES_H_
 #
 include
 <
-cstddef
+cstdint
 >
 #
 include
@@ -59,6 +59,12 @@ jxl
 struct
 AuxOut
 ;
+enum
+class
+LayerType
+:
+uint8_t
+;
 void
 EncodeSplines
 (
@@ -69,7 +75,7 @@ splines
 BitWriter
 *
 writer
-size_t
+LayerType
 layer
 const
 HistogramParams

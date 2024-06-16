@@ -2409,6 +2409,11 @@ common
 h
 extras
 /
+compressed_icc
+.
+cc
+extras
+/
 dec
 /
 color_description
@@ -2956,6 +2961,13 @@ include
 /
 jxl
 /
+compressed_icc
+.
+h
+include
+/
+jxl
+/
 decode
 .
 h
@@ -3093,6 +3105,11 @@ JPEGXL_INTERNAL_TESTS
 extras
 /
 codec_test
+.
+cc
+extras
+/
+compressed_icc_test
 .
 cc
 extras

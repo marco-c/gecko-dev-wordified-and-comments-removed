@@ -2583,7 +2583,7 @@ noise_params
 BitWriter
 *
 writer
-size_t
+LayerType
 layer
 AuxOut
 *

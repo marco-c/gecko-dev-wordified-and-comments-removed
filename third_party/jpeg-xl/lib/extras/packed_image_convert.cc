@@ -1730,11 +1730,14 @@ m
 )
 ;
 }
+JXL_RETURN_IF_ERROR
+(
 io
 -
 >
 CheckMetadata
 (
+)
 )
 ;
 return

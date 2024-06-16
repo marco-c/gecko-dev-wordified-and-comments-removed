@@ -78,6 +78,12 @@ jxl
 struct
 AuxOut
 ;
+enum
+class
+LayerType
+:
+uint8_t
+;
 #
 define
 USE_MULT_BY_RECIPROCAL
@@ -422,7 +428,7 @@ codes
 BitWriter
 *
 writer
-size_t
+LayerType
 layer
 AuxOut
 *
@@ -471,7 +477,7 @@ context_map
 BitWriter
 *
 writer
-size_t
+LayerType
 layer
 AuxOut
 *
@@ -510,7 +516,7 @@ context_offset
 BitWriter
 *
 writer
-size_t
+LayerType
 layer
 AuxOut
 *

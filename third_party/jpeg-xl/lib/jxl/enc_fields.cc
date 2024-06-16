@@ -346,7 +346,7 @@ fields
 BitWriter
 *
 writer
-size_t
+LayerType
 layer
 AuxOut
 *
@@ -1136,7 +1136,10 @@ allotment
 ReclaimAndCharge
 (
 writer
-kLayerHeader
+LayerType
+:
+:
+Header
 aux_out
 )
 ;
@@ -1149,7 +1152,10 @@ metadata
 >
 size
 writer
-kLayerHeader
+LayerType
+:
+:
+Header
 aux_out
 )
 )
@@ -1163,7 +1169,10 @@ metadata
 >
 m
 writer
-kLayerHeader
+LayerType
+:
+:
+Header
 aux_out
 )
 )
@@ -1194,7 +1203,10 @@ metadata
 >
 transform_data
 writer
-kLayerHeader
+LayerType
+:
+:
+Header
 aux_out
 )
 )
@@ -1227,7 +1239,10 @@ Write
 (
 frame
 writer
-kLayerHeader
+LayerType
+:
+:
+Header
 aux_out
 )
 ;
@@ -1243,7 +1258,7 @@ BitWriter
 *
 JXL_RESTRICT
 writer
-size_t
+LayerType
 layer
 AuxOut
 *
@@ -1274,7 +1289,7 @@ BitWriter
 *
 JXL_RESTRICT
 writer
-size_t
+LayerType
 layer
 AuxOut
 *
@@ -1305,7 +1320,7 @@ BitWriter
 *
 JXL_RESTRICT
 writer
-size_t
+LayerType
 layer
 AuxOut
 *

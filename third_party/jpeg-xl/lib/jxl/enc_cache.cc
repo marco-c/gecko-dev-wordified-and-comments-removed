@@ -1285,10 +1285,13 @@ layers
 aux_out
 -
 >
-layers
-[
-kLayerDC
-]
+layer
+(
+LayerType
+:
+:
+Dc
+)
 .
 Assimilate
 (
