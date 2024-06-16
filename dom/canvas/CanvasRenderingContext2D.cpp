@@ -28216,6 +28216,7 @@ IsRecording
 &
 !
 (
+!
 NeedToApplyFilter
 (
 )
