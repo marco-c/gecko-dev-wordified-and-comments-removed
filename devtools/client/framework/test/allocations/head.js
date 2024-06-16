@@ -35,6 +35,13 @@ sys
 .
 mjs
 "
+{
+global
+:
+"
+shared
+"
+}
 )
 ;
 const
