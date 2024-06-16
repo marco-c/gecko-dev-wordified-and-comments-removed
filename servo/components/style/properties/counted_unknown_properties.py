@@ -6,15 +6,6 @@ COUNTED_UNKNOWN_PROPERTIES
 -
 webkit
 -
-font
--
-smoothing
-"
-    
-"
--
-webkit
--
 tap
 -
 highlight
