@@ -1478,9 +1478,6 @@ name
 "
 ClipboardItem
 "
-earlyBetaOrEarlier
-:
-true
 }
 {
 name
