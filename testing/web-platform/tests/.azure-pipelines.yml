@@ -2954,7 +2954,7 @@ info
 -
 channel
 stable
-edgechromium
+edge
 displayName
 :
 '
@@ -3357,7 +3357,7 @@ info
 -
 channel
 dev
-edgechromium
+edge
 displayName
 :
 '
@@ -3748,7 +3748,7 @@ info
 -
 channel
 canary
-edgechromium
+edge
 displayName
 :
 '

@@ -46,11 +46,11 @@ executoredge
 import
 (
     
-EdgeChromiumDriverPrintRefTestExecutor
+EdgeDriverPrintRefTestExecutor
     
-EdgeChromiumDriverRefTestExecutor
+EdgeDriverRefTestExecutor
     
-EdgeChromiumDriverTestharnessExecutor
+EdgeDriverTestharnessExecutor
 )
 __wptrunner__
 =
@@ -60,7 +60,7 @@ product
 "
 :
 "
-edgechromium
+edge
 "
                  
 "
@@ -76,7 +76,7 @@ browser
 "
 :
 "
-EdgeChromiumBrowser
+EdgeBrowser
 "
                  
 "
@@ -89,7 +89,7 @@ testharness
 "
 :
 "
-EdgeChromiumDriverTestharnessExecutor
+EdgeDriverTestharnessExecutor
 "
                               
 "
@@ -97,7 +97,7 @@ reftest
 "
 :
 "
-EdgeChromiumDriverRefTestExecutor
+EdgeDriverRefTestExecutor
 "
                               
 "
@@ -107,7 +107,7 @@ reftest
 "
 :
 "
-EdgeChromiumDriverPrintRefTestExecutor
+EdgeDriverPrintRefTestExecutor
 "
                               
 "
@@ -374,7 +374,7 @@ bits
 }
 )
 class
-EdgeChromiumBrowser
+EdgeBrowser
 (
 WebDriverBrowser
 )
@@ -397,7 +397,7 @@ wptrunner
 .
 webdriver
 .
-EdgeChromiumDriverServer
+EdgeDriverServer
 .
     
 "

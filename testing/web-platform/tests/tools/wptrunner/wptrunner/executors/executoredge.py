@@ -45,7 +45,7 @@ make_sanitizer_mixin
 WebDriverCrashtestExecutor
 )
 class
-EdgeChromiumDriverTestharnessProtocolPart
+EdgeDriverTestharnessProtocolPart
 (
 ChromeDriverTestharnessProtocolPart
 )
@@ -74,7 +74,7 @@ cdp_company_prefix
 ms
 "
 class
-EdgeChromiumDriverPrintProtocolPart
+EdgeDriverPrintProtocolPart
 (
 ChromeDriverPrintProtocolPart
 )
@@ -103,7 +103,7 @@ cdp_company_prefix
 ms
 "
 class
-EdgeChromiumDriverProtocol
+EdgeDriverProtocol
 (
 WebDriverProtocol
 )
@@ -113,9 +113,9 @@ implements
 =
 [
         
-EdgeChromiumDriverPrintProtocolPart
+EdgeDriverPrintProtocolPart
         
-EdgeChromiumDriverTestharnessProtocolPart
+EdgeDriverTestharnessProtocolPart
         
 *
 (
@@ -133,7 +133,7 @@ part
 name
 !
 =
-EdgeChromiumDriverTestharnessProtocolPart
+EdgeDriverTestharnessProtocolPart
 .
 name
 )
@@ -144,7 +144,7 @@ reuse_window
 =
 False
 class
-EdgeChromiumDriverRefTestExecutor
+EdgeDriverRefTestExecutor
 (
 WebDriverRefTestExecutor
 _SanitizerMixin
@@ -153,9 +153,9 @@ _SanitizerMixin
     
 protocol_cls
 =
-EdgeChromiumDriverProtocol
+EdgeDriverProtocol
 class
-EdgeChromiumDriverTestharnessExecutor
+EdgeDriverTestharnessExecutor
 (
 WebDriverTestharnessExecutor
 _SanitizerMixin
@@ -164,7 +164,7 @@ _SanitizerMixin
     
 protocol_cls
 =
-EdgeChromiumDriverProtocol
+EdgeDriverProtocol
     
 def
 __init__
@@ -202,15 +202,15 @@ reuse_window
 =
 reuse_window
 class
-EdgeChromiumDriverPrintRefTestExecutor
+EdgeDriverPrintRefTestExecutor
 (
-EdgeChromiumDriverRefTestExecutor
+EdgeDriverRefTestExecutor
 )
 :
     
 protocol_cls
 =
-EdgeChromiumDriverProtocol
+EdgeDriverProtocol
     
 def
 setup

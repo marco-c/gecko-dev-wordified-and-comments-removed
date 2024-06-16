@@ -907,7 +907,7 @@ chrome_ios
 content_shell
 "
 "
-edgechromium
+edge
 "
 "
 firefox
@@ -4964,7 +4964,7 @@ binary
 "
 )
 class
-EdgeChromium
+Edge
 (
 BrowserSetup
 )
@@ -4980,7 +4980,7 @@ browser_cls
 =
 browser
 .
-EdgeChromium
+Edge
     
 experimental_channels
 :
@@ -6434,10 +6434,10 @@ content_shell
 ContentShell
     
 "
-edgechromium
+edge
 "
 :
-EdgeChromium
+Edge
     
 "
 safari
@@ -6658,6 +6658,34 @@ not
 in
 product_setup
 :
+        
+if
+kwargs
+[
+"
+product
+"
+]
+=
+=
+"
+edgechromium
+"
+:
+            
+raise
+WptrunError
+(
+"
+edgechromium
+has
+been
+renamed
+to
+edge
+.
+"
+)
         
 raise
 WptrunError

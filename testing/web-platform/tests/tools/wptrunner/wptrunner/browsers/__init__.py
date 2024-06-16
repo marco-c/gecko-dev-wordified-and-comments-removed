@@ -234,7 +234,7 @@ content_shell
 "
                 
 "
-edgechromium
+edge
 "
                 
 "
