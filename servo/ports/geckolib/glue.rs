@@ -14304,6 +14304,7 @@ matching
 :
 {
 matches_selector
+IncludeStartingStyle
 MatchingContext
 MatchingMode
 NeedsSelectorFlags
@@ -14502,6 +14503,10 @@ None
 mut
 selector_caches
 visited_mode
+IncludeStartingStyle
+:
+:
+No
 quirks_mode
 NeedsSelectorFlags
 :

@@ -94,6 +94,7 @@ matching
 :
 :
 {
+IncludeStartingStyle
 MatchingContext
 MatchingForInvalidation
 MatchingMode
@@ -285,6 +286,10 @@ VisitedHandlingMode
 :
 :
 AllLinksVisitedAndUnvisited
+IncludeStartingStyle
+:
+:
+No
 quirks_mode
 NeedsSelectorFlags
 :

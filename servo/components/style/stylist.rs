@@ -5485,6 +5485,16 @@ VisitedHandlingMode
 :
 :
 RelevantLinkVisited
+selectors
+:
+:
+matching
+:
+:
+IncludeStartingStyle
+:
+:
+No
 self
 .
 quirks_mode
