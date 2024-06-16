@@ -230,6 +230,13 @@ composite_needed
 ;
 }
 }
+#
+[
+allow
+(
+dead_code
+)
+]
 pub
 trait
 HandyDandyRectBuilder
