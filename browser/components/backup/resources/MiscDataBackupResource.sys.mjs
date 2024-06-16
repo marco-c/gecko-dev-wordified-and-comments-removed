@@ -148,11 +148,6 @@ times
 json
 "
 "
-signedInUser
-.
-json
-"
-"
 enumerate_devices
 .
 txt

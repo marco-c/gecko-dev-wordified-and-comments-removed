@@ -240,6 +240,11 @@ credentialstate
 .
 sqlite
 "
+"
+signedInUser
+.
+json
+"
 ]
 ;
 let

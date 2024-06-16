@@ -772,7 +772,7 @@ testResetFOG
 const
 EXPECTED_CREDENTIALS_KILOBYTES_SIZE
 =
-403
+413
 ;
 const
 EXPECTED_SECURITY_KILOBYTES_SIZE
@@ -836,6 +836,14 @@ credentialstate
 sqlite
 "
 100
+]
+[
+"
+signedInUser
+.
+json
+"
+5
 ]
 ]
 )
@@ -1569,7 +1577,7 @@ testResetFOG
 const
 EXPECTED_MISC_KILOBYTES_SIZE
 =
-251
+241
 ;
 const
 tempDir
@@ -1588,14 +1596,6 @@ Map
 [
 "
 times
-.
-json
-"
-5
-]
-[
-"
-signedInUser
 .
 json
 "
