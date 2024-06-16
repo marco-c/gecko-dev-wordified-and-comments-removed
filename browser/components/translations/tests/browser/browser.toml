@@ -213,13 +213,6 @@ js
 ]
 [
 "
-browser_translations_full_page_panel_engine_unsupported_lang
-.
-js
-"
-]
-[
-"
 browser_translations_full_page_panel_firstrun
 .
 js
@@ -321,6 +314,13 @@ js
 [
 "
 browser_translations_full_page_panel_switch_languages
+.
+js
+"
+]
+[
+"
+browser_translations_full_page_panel_unsupported_lang
 .
 js
 "
