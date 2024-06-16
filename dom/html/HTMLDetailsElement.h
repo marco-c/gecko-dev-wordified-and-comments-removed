@@ -194,6 +194,15 @@ aEvent
 )
 override
 ;
+bool
+IsValidInvokeAction
+(
+InvokeAction
+aAction
+)
+const
+override
+;
 void
 HandleInvokeInternal
 (
