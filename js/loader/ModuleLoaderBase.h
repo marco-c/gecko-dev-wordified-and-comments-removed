@@ -1012,14 +1012,6 @@ nsCString
 aURLs
 )
 ;
-bool
-RemoveFetchedModule
-(
-nsIURI
-*
-aURL
-)
-;
 void
 SetOverride
 (
