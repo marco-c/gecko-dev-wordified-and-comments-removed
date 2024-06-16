@@ -2494,6 +2494,8 @@ mozilla
 org
 /
 image
+%
+20name
 .
 png
 "
@@ -2591,6 +2593,8 @@ mozilla
 org
 /
 image
+%
+20name
 .
 png
 "
@@ -2601,6 +2605,7 @@ eq
 (
 "
 image
+name
 .
 png
 "
