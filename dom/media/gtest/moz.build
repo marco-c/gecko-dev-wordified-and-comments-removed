@@ -266,6 +266,11 @@ TestMediaEventSource
 cpp
 "
 "
+TestMediaInfo
+.
+cpp
+"
+"
 TestMediaMIMETypes
 .
 cpp
