@@ -215,6 +215,13 @@ manager
 lastEmptyCheck
 "
 "
+places
+.
+frecency
+.
+accelerateRecalculation
+"
+"
 security
 .
 webauthn
