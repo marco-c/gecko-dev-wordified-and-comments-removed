@@ -12,7 +12,7 @@ include
 "
 libavutil
 /
-common
+mem
 .
 h
 "

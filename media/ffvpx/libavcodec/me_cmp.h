@@ -274,6 +274,17 @@ avctx
 )
 ;
 void
+ff_me_cmp_init_riscv
+(
+MECmpContext
+*
+c
+AVCodecContext
+*
+avctx
+)
+;
+void
 ff_me_cmp_init_x86
 (
 MECmpContext

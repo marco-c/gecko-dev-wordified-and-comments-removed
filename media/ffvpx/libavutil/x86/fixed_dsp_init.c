@@ -1,13 +1,6 @@
 #
 include
 "
-config
-.
-h
-"
-#
-include
-"
 libavutil
 /
 attributes
@@ -44,11 +37,11 @@ ff_butterflies_fixed_sse2
 (
 int
 *
-av_restrict
+restrict
 src0
 int
 *
-av_restrict
+restrict
 src1
 int
 len

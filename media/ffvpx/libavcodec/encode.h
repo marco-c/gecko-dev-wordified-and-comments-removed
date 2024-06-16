@@ -27,6 +27,10 @@ packet
 .
 h
 "
+#
+define
+FF_INPUT_BUFFER_MIN_SIZE
+16384
 int
 ff_encode_get_frame
 (
