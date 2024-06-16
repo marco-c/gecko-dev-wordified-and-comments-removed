@@ -709,7 +709,7 @@ true
 Preferences
 :
 :
-SetBool
+SetInt
 (
 "
 image
