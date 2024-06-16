@@ -150,10 +150,6 @@ CFLAGS
 [
 '
 -
-Wall
-'
-'
--
 Wextra
 '
 '
