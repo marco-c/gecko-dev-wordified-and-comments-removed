@@ -445,8 +445,6 @@ querySelector
 #
 appMenu
 -
-proton
--
 update
 -
 banner

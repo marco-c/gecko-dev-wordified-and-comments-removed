@@ -114,8 +114,6 @@ getElementById
 "
 appMenu
 -
-proton
--
 update
 -
 banner
@@ -291,8 +289,6 @@ getElementById
 (
 "
 appMenu
--
-proton
 -
 update
 -
@@ -520,8 +516,6 @@ getElementById
 (
 "
 appMenu
--
-proton
 -
 update
 -
