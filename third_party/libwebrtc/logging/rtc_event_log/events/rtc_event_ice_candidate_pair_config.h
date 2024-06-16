@@ -90,7 +90,6 @@ enum
 class
 IceCandidateType
 {
-kUnknown
 kLocal
 kStun
 kPrflx
@@ -220,6 +219,10 @@ public
 :
 IceCandidatePairDescription
 (
+IceCandidateType
+local_candidate_type
+IceCandidateType
+remote_candidate_type
 )
 ;
 explicit

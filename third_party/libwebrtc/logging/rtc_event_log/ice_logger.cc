@@ -73,11 +73,12 @@ return
 ;
 }
 candidate_pair_desc_by_id_
-[
+.
+emplace
+(
 candidate_pair_id
-]
-=
 candidate_pair_desc
+)
 ;
 event_log_
 -
