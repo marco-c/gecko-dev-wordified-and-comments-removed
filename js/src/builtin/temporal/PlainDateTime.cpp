@@ -3657,8 +3657,13 @@ result
 )
 ;
 }
-static
 PlainDateTime
+js
+:
+:
+temporal
+:
+:
 RoundISODateTime
 (
 const
