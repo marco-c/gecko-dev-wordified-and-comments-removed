@@ -3,7 +3,7 @@ use
 strict
 '
 ;
-testWebNNOperation
+runWebNNConformanceTests
 (
 '
 convTranspose2d

@@ -3,7 +3,7 @@ use
 strict
 '
 ;
-testWebNNOperation
+runWebNNConformanceTests
 (
 '
 conv2d
