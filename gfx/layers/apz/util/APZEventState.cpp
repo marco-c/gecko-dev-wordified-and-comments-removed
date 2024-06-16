@@ -2399,7 +2399,7 @@ eStartTouch
 :
 {
 bool
-canBePan
+canBePanOrZoom
 =
 aArg
 ;
@@ -2408,7 +2408,7 @@ mActiveElementManager
 >
 HandleTouchStart
 (
-canBePan
+canBePanOrZoom
 )
 ;
 APZES_LOG
@@ -2422,6 +2422,10 @@ can
 be
 -
 pan
+-
+or
+-
+zoom
 =
 %
 d
@@ -2433,7 +2437,7 @@ aArg
 if
 (
 !
-canBePan
+canBePanOrZoom
 )
 {
 MOZ_ASSERT

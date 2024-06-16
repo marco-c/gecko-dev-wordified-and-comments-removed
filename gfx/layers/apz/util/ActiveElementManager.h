@@ -93,7 +93,7 @@ void
 HandleTouchStart
 (
 bool
-aCanBePan
+aCanBePanOrZoom
 )
 ;
 void
@@ -143,10 +143,10 @@ Element
 mTarget
 ;
 bool
-mCanBePan
+mCanBePanOrZoom
 ;
 bool
-mCanBePanSet
+mCanBePanOrZoomSet
 ;
 bool
 mSingleTapBeforeActivation
