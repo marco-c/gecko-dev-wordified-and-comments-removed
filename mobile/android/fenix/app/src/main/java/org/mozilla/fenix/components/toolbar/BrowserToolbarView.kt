@@ -498,7 +498,6 @@ layout
 component_browser_top_toolbar
 }
 }
-VisibleForTesting
 internal
 val
 layout
