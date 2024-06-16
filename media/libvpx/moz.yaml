@@ -294,6 +294,10 @@ tools
 patches
 :
 -
+arm_cpu_runtime_detection_code_on_openbsd
+.
+patch
+-
 input_frame_validation
 .
 patch
