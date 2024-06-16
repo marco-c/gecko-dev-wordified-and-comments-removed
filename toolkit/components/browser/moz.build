@@ -39,11 +39,6 @@ nsIWebBrowserChrome
 .
 idl
 "
-"
-nsIWebBrowserChromeFocus
-.
-idl
-"
 ]
 XPIDL_SOURCES
 +

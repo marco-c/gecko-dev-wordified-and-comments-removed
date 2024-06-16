@@ -319,15 +319,6 @@ CODE
 <
 CODE
 >
-nsIWebBrowserChromeFocus
-<
-/
-CODE
->
-*
-<
-CODE
->
 nsIContextMenuListener
 <
 /
@@ -464,9 +455,6 @@ nsIWebBrowserChrome
 *
 see
 nsIInterfaceRequestor
-*
-see
-nsIWebBrowserChromeFocus
 *
 see
 nsIContextMenuListener

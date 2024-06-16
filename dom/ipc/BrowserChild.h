@@ -50,13 +50,6 @@ h
 #
 include
 "
-nsIWebBrowserChromeFocus
-.
-h
-"
-#
-include
-"
 nsIInterfaceRequestor
 .
 h
@@ -558,8 +551,6 @@ PBrowserChild
 public
 nsIWebBrowserChrome
 public
-nsIWebBrowserChromeFocus
-public
 nsIInterfaceRequestor
 public
 nsIWindowProvider
@@ -777,7 +768,6 @@ mUniqueId
 }
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_NSIWEBBROWSERCHROME
-NS_DECL_NSIWEBBROWSERCHROMEFOCUS
 NS_DECL_NSIINTERFACEREQUESTOR
 NS_DECL_NSIWINDOWPROVIDER
 NS_DECL_NSIBROWSERCHILD
