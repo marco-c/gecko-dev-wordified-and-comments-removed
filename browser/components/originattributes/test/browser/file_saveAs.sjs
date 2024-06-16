@@ -57,7 +57,7 @@ sjs
 /
 Reusing
 existing
-webm
+ogv
 file
 for
 testing
@@ -72,7 +72,7 @@ file_thirdPartyChild
 .
 video
 .
-webm
+ogv
 ;
 /
 /

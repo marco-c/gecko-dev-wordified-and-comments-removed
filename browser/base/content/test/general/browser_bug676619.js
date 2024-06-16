@@ -642,7 +642,7 @@ link2
 "
 video
 .
-webm
+ogg
 "
 )
 ;
@@ -657,7 +657,7 @@ just
 some
 video
 .
-webm
+ogg
 "
 )
 ;
@@ -786,14 +786,14 @@ com
 )
 ;
 let
-webmExtension
+oggExtension
 =
 getMIMEInfoForType
 (
 "
-video
+application
 /
-webm
+ogg
 "
 )
 .
@@ -812,7 +812,7 @@ extension
 .
 "
 +
-webmExtension
+oggExtension
 )
 ;
 if

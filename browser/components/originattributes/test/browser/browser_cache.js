@@ -133,7 +133,7 @@ ogg
 "
 video
 .
-webm
+ogv
 "
 "
 track
@@ -810,7 +810,7 @@ file_thirdPartyChild
 .
 video
 .
-webm
+ogv
 "
 ;
 let

@@ -677,7 +677,7 @@ Type
 "
 video
 /
-webm
+ogg
 "
 false
 )
@@ -697,9 +697,9 @@ media
 /
 test
 /
-vp9
+320x240
 .
-webm
+ogv
 "
 )
 )

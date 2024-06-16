@@ -43,7 +43,7 @@ xhtml
 "
 seek_with_sound
 .
-webm
+ogg
 "
 ]
 prefs
@@ -338,7 +338,7 @@ js
 "
 video
 .
-webm
+ogg
 "
 ]
 skip
