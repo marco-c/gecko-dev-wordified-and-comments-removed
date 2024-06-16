@@ -5962,6 +5962,16 @@ errStr
 return
 MediaResult
 (
+res
+=
+=
+int
+(
+AVERROR_EOF
+)
+?
+NS_ERROR_DOM_MEDIA_END_OF_STREAM
+:
 NS_ERROR_DOM_MEDIA_DECODE_ERR
 RESULT_DETAIL
 (
