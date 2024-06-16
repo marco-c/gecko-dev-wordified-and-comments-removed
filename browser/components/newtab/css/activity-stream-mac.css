@@ -16000,6 +16000,12 @@ position
 :
 absolute
 ;
+pointer
+-
+events
+:
+none
+;
 }
 .
 wallpapers
