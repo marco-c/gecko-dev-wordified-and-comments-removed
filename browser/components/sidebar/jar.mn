@@ -63,6 +63,17 @@ browser
 /
 sidebar
 /
+browser
+-
+sidebar
+.
+js
+content
+/
+browser
+/
+sidebar
+/
 sidebar
 -
 launcher
