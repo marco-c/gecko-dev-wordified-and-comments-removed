@@ -10671,16 +10671,6 @@ amzn_2020_a1
 pref
 (
 "
-prompts
-.
-windowPromptSubDialog
-"
-true
-)
-;
-pref
-(
-"
 browser
 .
 newtab
