@@ -564,7 +564,7 @@ actionSecondary
 =
 PhotonColors
 .
-LightGrey30
+DarkGrey05
 actionTertiary
 =
 PhotonColors
