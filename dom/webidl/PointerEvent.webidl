@@ -91,16 +91,6 @@ MPL
 .
 *
 *
-For
-more
-information
-see
-nsIPointerEvent
-.
-idl
-.
-*
-*
 Portions
 Copyright
 2013
