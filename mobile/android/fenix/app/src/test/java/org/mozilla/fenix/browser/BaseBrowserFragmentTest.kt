@@ -1018,6 +1018,11 @@ destinationDirectory
 "
 /
 "
+directoryPath
+=
+"
+/
+"
 )
 val
 status
@@ -1125,6 +1130,11 @@ sessionId
 1
 "
 destinationDirectory
+=
+"
+/
+"
+directoryPath
 =
 "
 /
@@ -1237,6 +1247,11 @@ sessionId
 2
 "
 destinationDirectory
+=
+"
+/
+"
+directoryPath
 =
 "
 /

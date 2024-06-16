@@ -1053,6 +1053,9 @@ openThreeDotMenu
 }
 .
 openDownloadsManager
+(
+composeTestRule
+)
 {
 verifyEmptyDownloadsList
 (

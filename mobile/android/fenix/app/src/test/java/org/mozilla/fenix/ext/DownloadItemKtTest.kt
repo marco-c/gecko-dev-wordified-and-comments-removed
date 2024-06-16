@@ -145,7 +145,7 @@ filePath
 =
 "
 "
-size
+formattedSize
 =
 "
 "
