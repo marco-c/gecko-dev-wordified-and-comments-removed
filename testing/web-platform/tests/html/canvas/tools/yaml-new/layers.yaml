@@ -1189,10 +1189,7 @@ globalCompositeOperation
 '
 {
 {
-variant_names
-[
-0
-]
+variant_name
 }
 }
 '
@@ -1364,10 +1361,7 @@ globalCompositeOperation
 '
 {
 {
-variant_names
-[
-0
-]
+variant_name
 }
 }
 '
@@ -4752,10 +4746,7 @@ Throws
 if
 {
 {
-variant_names
-[
-0
-]
+variant_name
 }
 }
 is
@@ -5075,10 +5066,7 @@ Throws
 if
 {
 {
-variant_names
-[
-0
-]
+variant_name
 }
 }
 is
