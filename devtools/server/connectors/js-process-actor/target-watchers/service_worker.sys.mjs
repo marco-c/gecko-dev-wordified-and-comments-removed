@@ -223,7 +223,6 @@ watcherDataObject
 {
 const
 {
-watcherActorID
 sessionData
 }
 =
@@ -326,11 +325,8 @@ this
 .
 createWorkerTargetActor
 (
-{
-watcherActorID
-sessionData
+watcherDataObject
 dbg
-}
 )
 )
 ;
