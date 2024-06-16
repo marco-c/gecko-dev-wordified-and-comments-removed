@@ -964,6 +964,14 @@ onStateChange
 )
 )
 }
+if
+(
+initialFrom
+!
+=
+null
+)
+{
 alwaysTranslateLanguage
 ?
 .
@@ -994,7 +1002,6 @@ string
 .
 translation_option_bottom_sheet_always_translate_in_language
 initialFrom
-?
 .
 localizedDisplayName
 )
@@ -1043,7 +1050,6 @@ string
 .
 translation_option_bottom_sheet_never_translate_in_language
 initialFrom
-?
 .
 localizedDisplayName
 )
@@ -1061,6 +1067,7 @@ onStateChange
 onStateChange
 )
 )
+}
 }
 translationPageSettings
 .
