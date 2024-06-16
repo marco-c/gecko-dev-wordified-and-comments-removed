@@ -5706,6 +5706,11 @@ attribute
 nsIUpdate
 downloadingUpdate
 ;
+Promise
+refreshUpdateStatus
+(
+)
+;
 }
 ;
 /
