@@ -1823,11 +1823,34 @@ s
 "
 +
 XPCSHELL_NAME
+            
+]
+            
+"
+tests
+"
+:
+[
+]
+        
+}
+        
+"
+xpcshell
+-
+msix
+"
+:
+{
+            
+"
+options
+"
+:
+[
                 
 "
 -
--
-msix
 -
 app
 -
@@ -1843,8 +1866,6 @@ s
 "
 -
 -
-msix
--
 app
 -
 path
@@ -1858,8 +1879,6 @@ s
                 
 "
 -
--
-msix
 -
 xre
 -
