@@ -235,6 +235,8 @@ search
 -
 telemetry
 -
+v2
+-
 schema
 .
 json
