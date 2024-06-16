@@ -347,6 +347,13 @@ https_first_disabled
 true
 [
 "
+browser_UrlbarInput_untrimOnUserInteraction
+.
+js
+"
+]
+[
+"
 browser_aboutHomeLoading
 .
 js
