@@ -350,7 +350,7 @@ DeviceColor
 )
 const
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mPremultiplied
@@ -457,12 +457,12 @@ sRGBColor
 )
 const
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 msRGB
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mPremultiplied
