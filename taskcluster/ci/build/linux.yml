@@ -9001,7 +9001,7 @@ sysroot
 wasm32
 -
 wasi
-linux
+linux64
 -
 aarch64
 -
@@ -9043,7 +9043,7 @@ job
 -
 name
 :
-linux
+linux64
 -
 aarch64
 -
@@ -9086,7 +9086,7 @@ treeherder
 :
 platform
 :
-linux
+linux64
 -
 aarch64
 -

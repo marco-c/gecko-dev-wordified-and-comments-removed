@@ -500,7 +500,7 @@ sysroot
 wasm32
 -
 wasi
-linux
+linux64
 -
 aarch64
 -
@@ -535,7 +535,7 @@ name
 :
 instrumented
 -
-linux
+linux64
 -
 aarch64
 shipping
@@ -547,7 +547,7 @@ treeherder
 :
 platform
 :
-linux
+linux64
 -
 aarch64
 -
