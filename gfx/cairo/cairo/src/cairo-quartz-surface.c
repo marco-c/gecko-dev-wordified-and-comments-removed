@@ -615,6 +615,9 @@ return
 color_space
 ;
 }
+#
+if
+CAIRO_HAS_QUARTZ_APPLICATION_SERVICES
 if
 (
 !
@@ -629,6 +632,8 @@ CGMainDisplayID
 )
 )
 ;
+#
+endif
 if
 (
 !

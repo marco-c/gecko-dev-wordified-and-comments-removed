@@ -950,6 +950,9 @@ context
 }
 else
 {
+#
+if
+CAIRO_HAS_QUARTZ_APPLICATION_SERVICES
 colorspace
 =
 CGDisplayCopyColorSpace
@@ -959,6 +962,16 @@ CGMainDisplayID
 )
 )
 ;
+#
+else
+colorspace
+=
+CGColorSpaceCreateDeviceRGB
+(
+)
+;
+#
+endif
 }
 bitinfo
 |
