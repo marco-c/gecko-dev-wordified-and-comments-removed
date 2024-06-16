@@ -135,7 +135,6 @@ to
 be
 installed
 .
-export
 RUSTFLAGS
 =
 "
@@ -226,7 +225,6 @@ bin
 :
 PATH
 "
-export
 RUSTFLAGS
 =
 "
@@ -287,7 +285,6 @@ linux
 -
 musl
 )
-export
 RUSTFLAGS
 =
 "
@@ -340,6 +337,14 @@ rustc
 bin
 :
 PATH
+"
+export
+RUSTFLAGS
+=
+"
+-
+Dwarnings
+RUSTFLAGS
 "
 cd
 GECKO_PATH
