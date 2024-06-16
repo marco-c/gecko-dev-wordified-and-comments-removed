@@ -111,7 +111,7 @@ toolbar
 .
 navbar
 .
-NavbarIntegration
+BottomToolbarContainerIntegration
 import
 org
 .
@@ -130,14 +130,14 @@ FenixRobolectricTestRunner
 class
 )
 class
-NavbarIntegrationTest
+BottomToolbarContainerIntegrationTest
 {
 private
 lateinit
 var
 feature
 :
-NavbarIntegration
+BottomToolbarContainerIntegration
 Before
 fun
 setup
@@ -146,7 +146,7 @@ setup
 {
 feature
 =
-NavbarIntegration
+BottomToolbarContainerIntegration
 (
 toolbar
 =
