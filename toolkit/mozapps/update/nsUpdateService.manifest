@@ -25,5 +25,5 @@ app
 update
 .
 interval
-43200
+21600
 86400

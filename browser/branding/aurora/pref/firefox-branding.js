@@ -54,7 +54,7 @@ update
 .
 interval
 "
-28800
+21600
 )
 ;
 pref
