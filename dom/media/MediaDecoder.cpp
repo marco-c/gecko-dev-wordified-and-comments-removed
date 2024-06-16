@@ -343,10 +343,12 @@ NS_DispatchToMainThread
 .
 )
 CompileError_UseAbstractMainThreadInstead
-static
 const
 char
 *
+MediaDecoder
+:
+:
 ToPlayStateStr
 (
 MediaDecoder
