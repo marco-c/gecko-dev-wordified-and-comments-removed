@@ -155,9 +155,13 @@ tabsTrayStore
 .
 observeAsState
 (
-emptyList
-(
-)
+initialValue
+=
+tabsTrayStore
+.
+state
+.
+syncedTabs
 )
 {
 state
