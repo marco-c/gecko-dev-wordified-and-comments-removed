@@ -74,6 +74,11 @@ file_canvascompare_aboutblank_popupmaker
 html
 "
 "
+file_canvascompare_blob_popupmaker
+.
+html
+"
+"
 file_canvascompare_iframer
 .
 html
@@ -333,6 +338,13 @@ lineno
 "
 68
 "
+[
+"
+browser_canvascompare_popups_blob
+.
+js
+"
+]
 [
 "
 browser_cross_origin_isolated_animation_api
