@@ -17881,14 +17881,6 @@ MathRoundToInt32Result
 )
 CACHEOP_CASE_UNIMPL
 (
-MegamorphicLoadSlotByValuePermissiveResult
-)
-CACHEOP_CASE_UNIMPL
-(
-MegamorphicLoadSlotPermissiveResult
-)
-CACHEOP_CASE_UNIMPL
-(
 NumberMinMax
 )
 CACHEOP_CASE_UNIMPL
