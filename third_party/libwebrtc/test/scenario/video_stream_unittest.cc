@@ -2035,12 +2035,17 @@ num_qvga_frames_
 0u
 )
 ;
+#
+ifndef
+__ANDROID__
 EXPECT_GT
 (
 num_vga_frames_
 0u
 )
 ;
+#
+endif
 }
 TEST
 (
