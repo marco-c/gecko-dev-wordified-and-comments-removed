@@ -250,7 +250,10 @@ checkFinalizeStatus
 #
 ifdef
 JS_GC_ZEAL
-JS_SetGCZeal
+JS
+:
+:
+SetGCZeal
 (
 cx
 0
@@ -862,7 +865,10 @@ FinalizeCalls
 =
 0
 ;
-JS_SetGCZeal
+JS
+:
+:
+SetGCZeal
 (
 cx
 9
@@ -1054,7 +1060,10 @@ checkFinalizeStatus
 )
 )
 ;
-JS_SetGCZeal
+JS
+:
+:
+SetGCZeal
 (
 cx
 0

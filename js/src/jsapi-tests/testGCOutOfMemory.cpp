@@ -377,7 +377,10 @@ ChunkSize
 #
 ifdef
 JS_GC_ZEAL
-JS_UnsetGCZeal
+JS
+:
+:
+UnsetGCZeal
 (
 cx
 uint8_t

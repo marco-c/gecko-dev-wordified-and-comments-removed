@@ -2832,7 +2832,10 @@ BudgetMS
 =
 10000
 ;
-JS_SetGCZeal
+JS
+:
+:
+SetGCZeal
 (
 cx
 mode

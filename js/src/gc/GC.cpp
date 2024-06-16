@@ -3691,7 +3691,10 @@ PrintZealHelpAndFail
 uint32_t
 frequency
 =
-JS_DEFAULT_ZEAL_FREQ
+JS
+:
+:
+ShellDefaultGCZealFrequency
 ;
 if
 (

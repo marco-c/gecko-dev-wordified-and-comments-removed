@@ -1410,7 +1410,10 @@ JSGC_INCREMENTAL_GC_ENABLED
 true
 )
 ;
-JS_SetGCZeal
+JS
+:
+:
+SetGCZeal
 (
 cx
 17
@@ -1452,7 +1455,10 @@ TestUniqueIDLookups
 )
 )
 ;
-JS_SetGCZeal
+JS
+:
+:
+SetGCZeal
 (
 cx
 0

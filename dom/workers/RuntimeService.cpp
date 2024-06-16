@@ -1375,7 +1375,10 @@ frequency
 {
 frequency
 =
-JS_DEFAULT_ZEAL_FREQ
+JS
+:
+:
+BrowserDefaultGCZealFrequency
 ;
 }
 RuntimeService
@@ -3393,7 +3396,10 @@ CTypesActivityCallback
 #
 ifdef
 JS_GC_ZEAL
-JS_SetGCZeal
+JS
+:
+:
+SetGCZeal
 (
 aWorkerCx
 settings

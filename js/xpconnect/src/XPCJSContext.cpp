@@ -4331,7 +4331,10 @@ gczeal
 .
 frequency
 "
-JS_DEFAULT_ZEAL_FREQ
+JS
+:
+:
+BrowserDefaultGCZealFrequency
 )
 ;
 if
@@ -4342,7 +4345,10 @@ zeal
 0
 )
 {
-JS_SetGCZeal
+JS
+:
+:
+SetGCZeal
 (
 cx
 (
