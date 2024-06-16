@@ -3,17 +3,13 @@ json
 import
 os
 import
+shutil
+import
 sys
 from
 collections
 import
 namedtuple
-from
-distutils
-.
-spawn
-import
-find_executable
 from
 subprocess
 import
@@ -740,7 +736,9 @@ Exception
 pass
     
 return
-find_executable
+shutil
+.
+which
 (
 debugger
 )
