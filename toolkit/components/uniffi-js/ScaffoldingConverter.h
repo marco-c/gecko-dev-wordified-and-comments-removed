@@ -777,7 +777,7 @@ _ns
 return
 value
 .
-GetPtr
+ClonePtr
 (
 )
 ;
