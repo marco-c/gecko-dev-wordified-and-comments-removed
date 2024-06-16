@@ -2572,6 +2572,11 @@ BigUint64Array
 :
 case
 "
+Float16Array
+"
+:
+case
+"
 Float32Array
 "
 :
