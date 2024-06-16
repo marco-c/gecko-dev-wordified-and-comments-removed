@@ -116,7 +116,7 @@ paramCount
 methodInfo
 -
 >
-GetParamCount
+ParamCount
 (
 )
 ;
