@@ -5268,6 +5268,8 @@ cargo
 "
 config
 .
+toml
+.
 in
 "
 )
