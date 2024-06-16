@@ -2765,7 +2765,7 @@ LoadD3D11
 return
 ;
 }
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mDeviceStatus
 )
