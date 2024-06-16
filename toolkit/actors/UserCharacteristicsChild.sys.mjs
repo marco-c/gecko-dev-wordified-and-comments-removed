@@ -162,12 +162,7 @@ type
 {
 case
 "
-DOMContentLoaded
-"
-:
-case
-"
-pageshow
+UserCharacteristicsDataDone
 "
 :
 lazy
@@ -213,6 +208,9 @@ UserCharacteristics
 :
 PageReady
 "
+event
+.
+detail
 )
 ;
 }

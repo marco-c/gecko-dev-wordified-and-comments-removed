@@ -81,8 +81,6 @@ MPL
 .
 *
 /
-/
-/
 import
 {
 XPCOMUtils
@@ -151,8 +149,6 @@ logLevel
 }
 )
 ;
-/
-*
 XPCOMUtils
 .
 defineLazyServiceGetter
@@ -179,8 +175,6 @@ nsIUserCharacteristicsPageService
 "
 )
 ;
-*
-/
 export
 class
 UserCharacteristicsParent
@@ -231,6 +225,20 @@ debug
 Got
 pageReady
 "
+)
+;
+lazy
+.
+UserCharacteristicsPageService
+.
+pageLoaded
+(
+this
+.
+browsingContext
+aMessage
+.
+data
 )
 ;
 }

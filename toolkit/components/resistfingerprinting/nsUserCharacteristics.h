@@ -23,9 +23,13 @@ MaybeSubmitPing
 )
 ;
 static
-nsresult
-PopulateData
+void
+PopulateDataAndEventuallySubmit
 (
+bool
+aUpdatePref
+=
+true
 bool
 aTesting
 =
@@ -33,7 +37,7 @@ false
 )
 ;
 static
-nsresult
+void
 SubmitPing
 (
 )

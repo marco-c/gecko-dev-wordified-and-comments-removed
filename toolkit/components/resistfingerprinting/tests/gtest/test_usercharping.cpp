@@ -169,8 +169,9 @@ UserCharacteristics_Complex
 nsUserCharacteristics
 :
 :
-PopulateData
+PopulateDataAndEventuallySubmit
 (
+false
 true
 )
 ;
@@ -503,8 +504,9 @@ get
 nsUserCharacteristics
 :
 :
-PopulateData
+PopulateDataAndEventuallySubmit
 (
+false
 true
 )
 ;
@@ -714,8 +716,9 @@ get
 nsUserCharacteristics
 :
 :
-PopulateData
+PopulateDataAndEventuallySubmit
 (
+false
 true
 )
 ;
