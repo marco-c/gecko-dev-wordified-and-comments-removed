@@ -30,6 +30,7 @@ Copyright
 C
 )
 2016
+2024
 D
 .
 R
@@ -438,7 +439,7 @@ wk
 0
 )
 ]
-pushpic
+PUSHPIC
 eax
 ;
 make
@@ -469,13 +470,13 @@ push
 esi
 push
 edi
-get_GOT
+GET_GOT
 ebx
 ;
 get
 GOT
 address
-movpic
+MOVPIC
 POINTER
 [
 gotptr
@@ -607,13 +608,13 @@ jle
 near
 .
 return
-alignx
+ALIGNX
 16
 7
 .
 rowloop
 :
-pushpic
+PUSHPIC
 eax
 push
 edx
@@ -659,7 +660,7 @@ edx
 ]
 ;
 outptr2
-movpic
+MOVPIC
 eax
 POINTER
 [
@@ -680,7 +681,7 @@ jae
 short
 .
 columnloop
-alignx
+ALIGNX
 16
 7
 %
@@ -885,7 +886,7 @@ jmp
 short
 .
 rgb_ycc_cnv
-alignx
+ALIGNX
 16
 7
 .
@@ -1404,7 +1405,7 @@ jmp
 short
 .
 rgb_ycc_cnv
-alignx
+ALIGNX
 16
 7
 .
@@ -3402,7 +3403,7 @@ pop
 ebx
 pop
 edx
-poppic
+POPPIC
 eax
 add
 esi

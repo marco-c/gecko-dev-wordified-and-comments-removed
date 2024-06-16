@@ -38,6 +38,7 @@ Copyright
 C
 )
 2016
+2024
 D
 .
 R
@@ -505,7 +506,7 @@ ebp
 ]
 ;
 input_data
-alignx
+ALIGNX
 16
 7
 .
@@ -656,7 +657,7 @@ ebp
 ]
 ;
 output_data
-alignx
+ALIGNX
 16
 7
 .
@@ -692,7 +693,7 @@ jae
 short
 .
 columnloop
-alignx
+ALIGNX
 16
 7
 .
@@ -793,7 +794,7 @@ jmp
 short
 .
 downsample
-alignx
+ALIGNX
 16
 7
 .
@@ -1315,7 +1316,7 @@ ebp
 ]
 ;
 input_data
-alignx
+ALIGNX
 16
 7
 .
@@ -1459,7 +1460,7 @@ ebp
 ]
 ;
 output_data
-alignx
+ALIGNX
 16
 7
 .
@@ -1511,7 +1512,7 @@ jae
 short
 .
 columnloop
-alignx
+ALIGNX
 16
 7
 .
@@ -1652,7 +1653,7 @@ jmp
 short
 .
 downsample
-alignx
+ALIGNX
 16
 7
 .

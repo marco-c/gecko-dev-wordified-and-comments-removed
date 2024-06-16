@@ -8,6 +8,13 @@ jpeglib
 .
 h
 "
+#
+include
+"
+jsamplecomp
+.
+h
+"
 typedef
 void
 (
@@ -20,9 +27,9 @@ cinfo
 jpeg_component_info
 *
 compptr
-JSAMPARRAY
+_JSAMPARRAY
 input_data
-JSAMPARRAY
+_JSAMPARRAY
 *
 output_data_ptr
 )
@@ -34,7 +41,7 @@ struct
 jpeg_upsampler
 pub
 ;
-JSAMPARRAY
+_JSAMPARRAY
 color_buf
 [
 MAX_COMPONENTS

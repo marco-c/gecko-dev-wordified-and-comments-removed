@@ -49,7 +49,7 @@ Mar
 endif
 #
 define
-JCOPYRIGHT
+JCOPYRIGHT1
 \
 "
 Copyright
@@ -58,7 +58,7 @@ C
 )
 2009
 -
-2023
+2024
 D
 .
 R
@@ -136,6 +136,9 @@ Corporation
 \
 n
 "
+#
+define
+JCOPYRIGHT2
 \
 "
 Copyright
@@ -225,6 +228,18 @@ Copyright
 (
 C
 )
+1999
+Ken
+Murchison
+\
+n
+"
+\
+"
+Copyright
+(
+C
+)
 1991
 -
 2020
@@ -234,6 +249,8 @@ G
 Lane
 Guido
 Vollbeding
+\
+n
 "
 #
 define
@@ -246,7 +263,7 @@ C
 )
 1991
 -
-2023
+2024
 The
 libjpeg
 -

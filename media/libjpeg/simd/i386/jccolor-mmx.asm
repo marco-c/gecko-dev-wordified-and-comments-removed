@@ -31,6 +31,7 @@ C
 )
 2009
 2016
+2024
 D
 .
 R
@@ -411,7 +412,7 @@ FIX
 -
 SECTION
 SEG_CONST
-alignz
+ALIGNZ
 32
 GLOBAL_DATA
 (
@@ -488,7 +489,7 @@ SCALEBITS
 1
 )
 )
-alignz
+ALIGNZ
 32
 ;
 -

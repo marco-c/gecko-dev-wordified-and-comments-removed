@@ -35,6 +35,7 @@ C
 )
 2012
 2016
+2024
 D
 .
 R
@@ -445,7 +446,7 @@ wk
 0
 )
 ]
-pushpic
+PUSHPIC
 eax
 ;
 make
@@ -476,13 +477,13 @@ push
 esi
 push
 edi
-get_GOT
+GET_GOT
 ebx
 ;
 get
 GOT
 address
-movpic
+MOVPIC
 POINTER
 [
 gotptr
@@ -617,13 +618,13 @@ pop
 ecx
 ;
 col
-alignx
+ALIGNX
 16
 7
 .
 columnloop
 :
-movpic
+MOVPIC
 eax
 POINTER
 [
@@ -1530,7 +1531,7 @@ jmp
 short
 .
 Yloop_1st
-alignx
+ALIGNX
 16
 7
 .
@@ -1590,7 +1591,7 @@ B
 Y
 )
 H
-alignx
+ALIGNX
 16
 7
 .
@@ -3562,7 +3563,7 @@ jmp
 near
 .
 columnloop
-alignx
+ALIGNX
 16
 7
 .
@@ -5103,7 +5104,7 @@ jmp
 near
 .
 columnloop
-alignx
+ALIGNX
 16
 7
 .

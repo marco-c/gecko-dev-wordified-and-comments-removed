@@ -31,6 +31,7 @@ Copyright
 C
 )
 2016
+2024
 D
 .
 R
@@ -640,7 +641,7 @@ PRE_MULTIPLY_SCALE_BITS
 -
 CONST_BITS
 )
-alignz
+ALIGNZ
 32
 GLOBAL_DATA
 (
@@ -689,7 +690,7 @@ times
 8
 db
 CENTERJSAMPLE
-alignz
+ALIGNZ
 32
 ;
 -
@@ -988,7 +989,7 @@ push
 esi
 push
 edi
-get_GOT
+GET_GOT
 ebx
 ;
 get
@@ -1055,7 +1056,7 @@ DCTSIZE
 4
 ;
 ctr
-alignx
+ALIGNX
 16
 7
 .
@@ -1415,7 +1416,7 @@ jmp
 near
 .
 nextcolumn
-alignx
+ALIGNX
 16
 7
 %
@@ -2654,7 +2655,7 @@ DCTSIZE
 4
 ;
 ctr
-alignx
+ALIGNX
 16
 7
 .
@@ -3665,7 +3666,7 @@ mm1
 36
 37
 )
-pushpic
+PUSHPIC
 ebx
 ;
 save
@@ -3751,7 +3752,7 @@ eax
 SIZEOF_JSAMPLE
 ]
 mm1
-poppic
+POPPIC
 ebx
 ;
 restore

@@ -37,6 +37,7 @@ C
 2016
 2018
 2020
+2024
 D
 .
 R
@@ -806,7 +807,7 @@ Temp
 registers
 %
 macro
-dotranspose
+DOTRANSPOSE
 8
 ;
 %
@@ -1507,7 +1508,7 @@ or
 )
 %
 macro
-dodct
+DODCT
 13
 ;
 -
@@ -2871,7 +2872,7 @@ endmacro
 -
 SECTION
 SEG_CONST
-alignz
+ALIGNZ
 32
 GLOBAL_DATA
 (
@@ -3001,7 +3002,7 @@ times
 dw
 -
 1
-alignz
+ALIGNZ
 32
 ;
 -
@@ -3148,15 +3149,8 @@ EXTN
 jsimd_idct_islow_avx2
 )
 :
+ENDBR64
 push
-rbp
-mov
-rax
-rsp
-;
-rax
-=
-original
 rbp
 mov
 rbp
@@ -3166,9 +3160,9 @@ rbp
 =
 aligned
 rbp
-push_xmm
+PUSH_XMM
 4
-collect_args
+COLLECT_ARGS
 4
 ;
 -
@@ -3667,7 +3661,7 @@ ymm6
 ymm3
 =
 in7_5
-dodct
+DODCT
 ymm0
 ymm1
 ymm2
@@ -3694,7 +3688,7 @@ data4_5
 ymm3
 =
 data7_6
-dotranspose
+DOTRANSPOSE
 ymm0
 ymm1
 ymm2
@@ -3804,7 +3798,7 @@ ymm1
 ymm1
 =
 in3_1
-dodct
+DODCT
 ymm0
 ymm1
 ymm2
@@ -3831,7 +3825,7 @@ data4_5
 ymm4
 =
 data7_6
-dotranspose
+DOTRANSPOSE
 ymm0
 ymm1
 ymm2
@@ -4219,9 +4213,9 @@ rax
 SIZEOF_JSAMPLE
 ]
 xmm7
-uncollect_args
+UNCOLLECT_ARGS
 4
-pop_xmm
+POP_XMM
 4
 pop
 rbp

@@ -9,6 +9,18 @@ jpeglib
 h
 "
 #
+if
+BITS_IN_JSAMPLE
+!
+=
+16
+|
+|
+defined
+(
+D_LOSSLESS_SUPPORTED
+)
+#
 ifndef
 D_PROGRESSIVE_SUPPORTED
 #
@@ -193,3 +205,5 @@ MCU_vert_offset
 0
 ;
 }
+#
+endif

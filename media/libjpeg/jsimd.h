@@ -1,4 +1,7 @@
 #
+ifdef
+WITH_SIMD
+#
 include
 "
 jchuff
@@ -534,3 +537,5 @@ size_t
 bits
 )
 ;
+#
+endif

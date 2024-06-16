@@ -37,6 +37,7 @@ C
 2016
 2018
 2020
+2024
 D
 .
 R
@@ -793,7 +794,7 @@ Temp
 registers
 %
 macro
-dotranspose
+DOTRANSPOSE
 8
 ;
 %
@@ -1371,7 +1372,7 @@ or
 )
 %
 macro
-dodct
+DODCT
 9
 vpsubw
 %
@@ -2527,7 +2528,7 @@ endmacro
 -
 SECTION
 SEG_CONST
-alignz
+ALIGNZ
 32
 GLOBAL_DATA
 (
@@ -2664,7 +2665,7 @@ times
 dw
 -
 1
-alignz
+ALIGNZ
 32
 ;
 -
@@ -2788,15 +2789,13 @@ EXTN
 jsimd_fdct_islow_avx2
 )
 :
+ENDBR64
 push
 rbp
 mov
-rax
-rsp
-mov
 rbp
 rsp
-collect_args
+COLLECT_ARGS
 1
 ;
 -
@@ -3045,7 +3044,7 @@ ymm3
 76
 77
 )
-dotranspose
+DOTRANSPOSE
 ymm0
 ymm1
 ymm2
@@ -3054,7 +3053,7 @@ ymm4
 ymm5
 ymm6
 ymm7
-dodct
+DODCT
 ymm0
 ymm1
 ymm2
@@ -3106,7 +3105,7 @@ ymm3
 ymm1
 =
 data1_5
-dotranspose
+DOTRANSPOSE
 ymm0
 ymm1
 ymm2
@@ -3115,7 +3114,7 @@ ymm3
 ymm5
 ymm6
 ymm7
-dodct
+DODCT
 ymm0
 ymm1
 ymm2
@@ -3223,7 +3222,7 @@ SIZEOF_DCTELEM
 ]
 ymm7
 vzeroupper
-uncollect_args
+UNCOLLECT_ARGS
 1
 pop
 rbp

@@ -31,6 +31,7 @@ Copyright
 C
 )
 2016
+2024
 D
 .
 R
@@ -570,7 +571,7 @@ PRE_MULTIPLY_SCALE_BITS
 -
 CONST_BITS
 )
-alignz
+ALIGNZ
 32
 GLOBAL_DATA
 (
@@ -613,7 +614,7 @@ F_1_306
 <
 <
 CONST_SHIFT
-alignz
+ALIGNZ
 32
 ;
 -
@@ -826,7 +827,7 @@ wk
 0
 )
 ]
-pushpic
+PUSHPIC
 ebx
 ;
 push
@@ -854,7 +855,7 @@ push
 edi
 ;
 unused
-get_GOT
+GET_GOT
 ebx
 ;
 get
@@ -890,7 +891,7 @@ ecx
 DCTSIZE
 /
 4
-alignx
+ALIGNX
 16
 7
 .
@@ -1989,7 +1990,7 @@ ecx
 DCTSIZE
 /
 4
-alignx
+ALIGNX
 16
 7
 .
@@ -3087,7 +3088,7 @@ need
 not
 be
 preserved
-poppic
+POPPIC
 ebx
 mov
 esp

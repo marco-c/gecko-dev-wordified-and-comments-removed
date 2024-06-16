@@ -36,6 +36,15 @@ R
 Commander
 .
 ;
+Copyright
+(
+C
+)
+2023
+Aliaksiej
+Kandracienka
+.
+;
 ;
 Based
 on
@@ -265,6 +274,11 @@ jpeg_simd_cpu_support
 )
 :
 push
+rbp
+mov
+rbp
+rsp
+push
 rbx
 push
 rdi
@@ -457,6 +471,8 @@ pop
 rdi
 pop
 rbx
+pop
+rbp
 ret
 ;
 For

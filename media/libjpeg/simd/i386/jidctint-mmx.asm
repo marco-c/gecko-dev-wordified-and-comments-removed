@@ -32,6 +32,7 @@ C
 )
 2016
 2020
+2024
 D
 .
 R
@@ -758,7 +759,7 @@ endif
 -
 SECTION
 SEG_CONST
-alignz
+ALIGNZ
 32
 GLOBAL_DATA
 (
@@ -882,7 +883,7 @@ times
 8
 db
 CENTERJSAMPLE
-alignz
+ALIGNZ
 32
 ;
 -
@@ -1181,7 +1182,7 @@ push
 esi
 push
 edi
-get_GOT
+GET_GOT
 ebx
 ;
 get
@@ -1248,7 +1249,7 @@ DCTSIZE
 4
 ;
 ctr
-alignx
+ALIGNX
 16
 7
 .
@@ -1611,7 +1612,7 @@ jmp
 near
 .
 nextcolumn
-alignx
+ALIGNX
 16
 7
 %
@@ -4214,7 +4215,7 @@ DCTSIZE
 4
 ;
 ctr
-alignx
+ALIGNX
 16
 7
 .
@@ -6533,7 +6534,7 @@ mm4
 36
 37
 )
-pushpic
+PUSHPIC
 ebx
 ;
 save
@@ -6619,7 +6620,7 @@ eax
 SIZEOF_JSAMPLE
 ]
 mm4
-poppic
+POPPIC
 ebx
 ;
 restore

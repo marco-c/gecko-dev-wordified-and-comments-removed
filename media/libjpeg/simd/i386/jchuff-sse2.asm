@@ -25,6 +25,7 @@ C
 -
 2017
 2019
+2024
 D
 .
 R
@@ -409,7 +410,7 @@ EXTN
 jconst_huff_encode_one_block
 )
 :
-alignz
+ALIGNZ
 32
 jpeg_mask_bits
 dq
@@ -541,7 +542,14 @@ times
 1
 db
 0
+GLOBAL_DATA
+(
 jpeg_nbits_table
+)
+EXTN
+(
+jpeg_nbits_table
+)
 :
 times
 1
@@ -652,7 +660,7 @@ times
 14
 db
 15
-alignz
+ALIGNZ
 32
 %
 ifdef
@@ -674,7 +682,10 @@ NBITS
 (
 x
 )
+EXTN
+(
 jpeg_nbits_table
+)
 +
 x
 %
@@ -697,7 +708,10 @@ x
 (
 jpeg_mask_bits
 -
+EXTN
+(
 jpeg_nbits_table
+)
 )
 ;
 -
@@ -2217,7 +2231,7 @@ register
 Equivalent
 to
 ;
-get_GOT
+GET_GOT
 %
 1
 ;
@@ -4821,7 +4835,10 @@ i
 endmacro
 GET_SYM
 nbits_base
+EXTN
+(
 jpeg_nbits_table
+)
 GET_SYM_BEFORE
 GET_SYM_AFTER
 psrldq

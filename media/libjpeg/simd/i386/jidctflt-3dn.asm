@@ -35,6 +35,7 @@ Copyright
 C
 )
 2016
+2024
 D
 .
 R
@@ -289,7 +290,7 @@ inc
 -
 SECTION
 SEG_CONST
-alignz
+ALIGNZ
 32
 GLOBAL_DATA
 (
@@ -350,7 +351,7 @@ times
 8
 db
 CENTERJSAMPLE
-alignz
+ALIGNZ
 32
 ;
 -
@@ -649,7 +650,7 @@ push
 esi
 push
 edi
-get_GOT
+GET_GOT
 ebx
 ;
 get
@@ -716,7 +717,7 @@ DCTSIZE
 2
 ;
 ctr
-alignx
+ALIGNX
 16
 7
 .
@@ -753,7 +754,7 @@ jnz
 short
 .
 columnDCT
-pushpic
+PUSHPIC
 ebx
 ;
 save
@@ -822,7 +823,7 @@ SIZEOF_JCOEF
 or
 eax
 ebx
-poppic
+POPPIC
 ebx
 ;
 restore
@@ -985,7 +986,7 @@ jmp
 near
 .
 nextcolumn
-alignx
+ALIGNX
 16
 7
 %
@@ -2064,7 +2065,7 @@ DCTSIZE
 2
 ;
 ctr
-alignx
+ALIGNX
 16
 7
 .
@@ -3095,7 +3096,7 @@ mm7
 16
 17
 )
-pushpic
+PUSHPIC
 ebx
 ;
 save
@@ -3141,7 +3142,7 @@ eax
 SIZEOF_JSAMPLE
 ]
 mm7
-poppic
+POPPIC
 ebx
 ;
 restore

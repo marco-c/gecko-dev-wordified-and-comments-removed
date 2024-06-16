@@ -34,6 +34,7 @@ Copyright
 C
 )
 2016
+2024
 D
 .
 R
@@ -288,7 +289,7 @@ inc
 -
 %
 macro
-unpcklps2
+UNPCKLPS2
 2
 ;
 %
@@ -331,7 +332,7 @@ shufps
 endmacro
 %
 macro
-unpckhps2
+UNPCKHPS2
 2
 ;
 %
@@ -449,7 +450,7 @@ endmacro
 -
 SECTION
 SEG_CONST
-alignz
+ALIGNZ
 32
 GLOBAL_DATA
 (
@@ -511,7 +512,7 @@ times
 16
 db
 CENTERJSAMPLE
-alignz
+ALIGNZ
 32
 ;
 -
@@ -810,7 +811,7 @@ push
 esi
 push
 edi
-get_GOT
+GET_GOT
 ebx
 ;
 get
@@ -877,7 +878,7 @@ DCTSIZE
 4
 ;
 ctr
-alignx
+ALIGNX
 16
 7
 .
@@ -1269,7 +1270,7 @@ jmp
 near
 .
 nextcolumn
-alignx
+ALIGNX
 16
 7
 %
@@ -2462,7 +2463,7 @@ coefficients
 phase
 2
 )
-unpcklps2
+UNPCKLPS2
 xmm6
 xmm7
 ;
@@ -2474,7 +2475,7 @@ xmm6
 20
 30
 )
-unpckhps2
+UNPCKHPS2
 xmm3
 xmm7
 ;
@@ -2496,7 +2497,7 @@ coefficients
 phase
 2
 )
-unpcklps2
+UNPCKLPS2
 xmm1
 xmm2
 ;
@@ -2508,7 +2509,7 @@ xmm1
 22
 32
 )
-unpckhps2
+UNPCKHPS2
 xmm0
 xmm2
 ;
@@ -2614,7 +2615,7 @@ coefficients
 phase
 2
 )
-unpcklps2
+UNPCKLPS2
 xmm5
 xmm7
 ;
@@ -2626,7 +2627,7 @@ xmm5
 60
 70
 )
-unpckhps2
+UNPCKHPS2
 xmm6
 xmm7
 ;
@@ -2648,7 +2649,7 @@ coefficients
 phase
 2
 )
-unpcklps2
+UNPCKLPS2
 xmm4
 xmm2
 ;
@@ -2660,7 +2661,7 @@ xmm4
 62
 72
 )
-unpckhps2
+UNPCKHPS2
 xmm3
 xmm2
 ;
@@ -2890,7 +2891,7 @@ DCTSIZE
 4
 ;
 ctr
-alignx
+ALIGNX
 16
 7
 .
@@ -4152,7 +4153,7 @@ xmm3
 26
 27
 )
-pushpic
+PUSHPIC
 ebx
 ;
 save
@@ -4238,7 +4239,7 @@ eax
 SIZEOF_JSAMPLE
 ]
 xmm3
-poppic
+POPPIC
 ebx
 ;
 restore

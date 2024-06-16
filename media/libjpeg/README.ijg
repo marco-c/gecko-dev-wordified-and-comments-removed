@@ -393,7 +393,7 @@ programs
 .
 example
 .
-txt
+c
 Sample
 code
 for
@@ -613,6 +613,7 @@ images
 .
 JPEG
 is
+normally
 lossy
 meaning
 that
@@ -686,8 +687,9 @@ baseline
 extended
 -
 sequential
-and
 progressive
+and
+lossless
 compression
 processes
 .
@@ -721,8 +723,6 @@ for
 supporting
 the
 hierarchical
-or
-lossless
 processes
 defined
 in
@@ -2456,9 +2456,7 @@ are
 incompatible
 with
 the
-DCT
--
-based
+original
 JPEG
 standard
 or

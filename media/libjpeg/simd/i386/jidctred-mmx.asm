@@ -32,6 +32,7 @@ Copyright
 C
 )
 2016
+2024
 D
 .
 R
@@ -841,7 +842,7 @@ endif
 -
 SECTION
 SEG_CONST
-alignz
+ALIGNZ
 32
 GLOBAL_DATA
 (
@@ -954,7 +955,7 @@ times
 8
 db
 CENTERJSAMPLE
-alignz
+ALIGNZ
 32
 ;
 -
@@ -1240,7 +1241,7 @@ esp
 [
 workspace
 ]
-pushpic
+PUSHPIC
 ebx
 ;
 push
@@ -1262,7 +1263,7 @@ push
 esi
 push
 edi
-get_GOT
+GET_GOT
 ebx
 ;
 get
@@ -1329,7 +1330,7 @@ DCTSIZE
 4
 ;
 ctr
-alignx
+ALIGNX
 16
 7
 .
@@ -1632,7 +1633,7 @@ jmp
 near
 .
 nextcolumn
-alignx
+ALIGNX
 16
 7
 %
@@ -3618,7 +3619,7 @@ need
 not
 be
 preserved
-poppic
+POPPIC
 ebx
 mov
 esp
@@ -3853,7 +3854,7 @@ push
 esi
 push
 edi
-get_GOT
+GET_GOT
 ebx
 ;
 get

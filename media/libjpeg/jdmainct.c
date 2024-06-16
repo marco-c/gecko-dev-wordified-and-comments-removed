@@ -12,6 +12,18 @@ jdmainct
 .
 h
 "
+#
+if
+BITS_IN_JSAMPLE
+!
+=
+16
+|
+|
+defined
+(
+D_LOSSLESS_SUPPORTED
+)
 METHODDEF
 (
 void
@@ -20,7 +32,7 @@ process_data_simple_main
 (
 j_decompress_ptr
 cinfo
-JSAMPARRAY
+_JSAMPARRAY
 output_buf
 JDIMENSION
 *
@@ -37,7 +49,7 @@ process_data_context_main
 (
 j_decompress_ptr
 cinfo
-JSAMPARRAY
+_JSAMPARRAY
 output_buf
 JDIMENSION
 *
@@ -57,7 +69,7 @@ process_data_crank_post
 (
 j_decompress_ptr
 cinfo
-JSAMPARRAY
+_JSAMPARRAY
 output_buf
 JDIMENSION
 *
@@ -105,7 +117,7 @@ jpeg_component_info
 *
 compptr
 ;
-JSAMPARRAY
+_JSAMPARRAY
 xbuf
 ;
 main_ptr
@@ -117,7 +129,7 @@ xbuffer
 ]
 =
 (
-JSAMPIMAGE
+_JSAMPIMAGE
 )
 (
 *
@@ -144,7 +156,7 @@ num_components
 *
 sizeof
 (
-JSAMPARRAY
+_JSAMPARRAY
 )
 )
 ;
@@ -218,7 +230,7 @@ _min_DCT_scaled_size
 xbuf
 =
 (
-JSAMPARRAY
+_JSAMPARRAY
 )
 (
 *
@@ -250,7 +262,7 @@ M
 *
 sizeof
 (
-JSAMPROW
+_JSAMPROW
 )
 )
 ;
@@ -336,7 +348,7 @@ jpeg_component_info
 *
 compptr
 ;
-JSAMPARRAY
+_JSAMPARRAY
 buf
 xbuf0
 xbuf1
@@ -584,7 +596,7 @@ jpeg_component_info
 *
 compptr
 ;
-JSAMPARRAY
+_JSAMPARRAY
 xbuf
 ;
 for
@@ -789,7 +801,7 @@ main_ptr
 >
 pub
 .
-process_data
+_process_data
 =
 process_data_context_main
 ;
@@ -827,7 +839,7 @@ main_ptr
 >
 pub
 .
-process_data
+_process_data
 =
 process_data_simple_main
 ;
@@ -859,7 +871,7 @@ main_ptr
 >
 pub
 .
-process_data
+_process_data
 =
 process_data_crank_post
 ;
@@ -887,7 +899,7 @@ process_data_simple_main
 (
 j_decompress_ptr
 cinfo
-JSAMPARRAY
+_JSAMPARRAY
 output_buf
 JDIMENSION
 *
@@ -930,7 +942,7 @@ cinfo
 coef
 -
 >
-decompress_data
+_decompress_data
 )
 (
 cinfo
@@ -968,7 +980,7 @@ cinfo
 post
 -
 >
-post_process_data
+_post_process_data
 )
 (
 cinfo
@@ -1022,7 +1034,7 @@ process_data_context_main
 (
 j_decompress_ptr
 cinfo
-JSAMPARRAY
+_JSAMPARRAY
 output_buf
 JDIMENSION
 *
@@ -1062,7 +1074,7 @@ cinfo
 coef
 -
 >
-decompress_data
+_decompress_data
 )
 (
 cinfo
@@ -1114,7 +1126,7 @@ cinfo
 post
 -
 >
-post_process_data
+_post_process_data
 )
 (
 cinfo
@@ -1238,7 +1250,7 @@ cinfo
 post
 -
 >
-post_process_data
+_post_process_data
 )
 (
 cinfo
@@ -1364,7 +1376,7 @@ process_data_crank_post
 (
 j_decompress_ptr
 cinfo
-JSAMPARRAY
+_JSAMPARRAY
 output_buf
 JDIMENSION
 *
@@ -1381,12 +1393,12 @@ cinfo
 post
 -
 >
-post_process_data
+_post_process_data
 )
 (
 cinfo
 (
-JSAMPIMAGE
+_JSAMPIMAGE
 )
 NULL
 (
@@ -1410,7 +1422,7 @@ GLOBAL
 (
 void
 )
-jinit_d_main_controller
+_jinit_d_main_controller
 (
 j_decompress_ptr
 cinfo
@@ -1429,6 +1441,26 @@ ngroups
 jpeg_component_info
 *
 compptr
+;
+if
+(
+cinfo
+-
+>
+data_precision
+!
+=
+BITS_IN_JSAMPLE
+)
+ERREXIT1
+(
+cinfo
+JERR_BAD_PRECISION
+cinfo
+-
+>
+data_precision
+)
 ;
 main_ptr
 =
@@ -1594,6 +1626,9 @@ ci
 ]
 =
 (
+_JSAMPARRAY
+)
+(
 *
 cinfo
 -
@@ -1630,3 +1665,5 @@ ngroups
 ;
 }
 }
+#
+endif

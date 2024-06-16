@@ -33,6 +33,7 @@ Copyright
 C
 )
 2016
+2024
 D
 .
 R
@@ -402,7 +403,7 @@ ecx
 DCTSIZE
 /
 4
-alignx
+ALIGNX
 16
 7
 .
@@ -987,7 +988,7 @@ eax
 DCTSIZE2
 /
 32
-alignx
+ALIGNX
 16
 7
 .

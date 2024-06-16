@@ -215,7 +215,7 @@ GLOBAL
 (
 void
 )
-jpeg_fdct_ifast
+_jpeg_fdct_ifast
 (
 DCTELEM
 *

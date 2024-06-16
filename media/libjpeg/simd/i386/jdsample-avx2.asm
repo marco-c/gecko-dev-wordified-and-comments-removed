@@ -38,6 +38,7 @@ Copyright
 C
 )
 2016
+2024
 D
 .
 R
@@ -238,7 +239,7 @@ inc
 -
 SECTION
 SEG_CONST
-alignz
+ALIGNZ
 32
 GLOBAL_DATA
 (
@@ -274,7 +275,7 @@ times
 16
 dw
 8
-alignz
+ALIGNZ
 32
 ;
 -
@@ -527,7 +528,7 @@ ebp
 mov
 ebp
 esp
-pushpic
+PUSHPIC
 ebx
 ;
 push
@@ -549,7 +550,7 @@ push
 esi
 push
 edi
-get_GOT
+GET_GOT
 ebx
 ;
 get
@@ -619,7 +620,7 @@ edi
 ]
 ;
 output_data
-alignx
+ALIGNX
 16
 7
 .
@@ -765,7 +766,7 @@ ja
 short
 .
 columnloop
-alignx
+ALIGNX
 16
 7
 .
@@ -829,7 +830,7 @@ jmp
 short
 .
 upsample
-alignx
+ALIGNX
 16
 7
 .
@@ -1653,7 +1654,7 @@ need
 not
 be
 preserved
-poppic
+POPPIC
 ebx
 pop
 ebp
@@ -1950,7 +1951,7 @@ wk
 0
 )
 ]
-pushpic
+PUSHPIC
 eax
 ;
 make
@@ -1981,13 +1982,13 @@ push
 esi
 push
 edi
-get_GOT
+GET_GOT
 ebx
 ;
 get
 GOT
 address
-movpic
+MOVPIC
 POINTER
 [
 gotptr
@@ -2069,7 +2070,7 @@ edi
 ]
 ;
 output_data
-alignx
+ALIGNX
 16
 7
 .
@@ -2314,9 +2315,9 @@ row
 [
 0
 ]
-pushpic
+PUSHPIC
 ebx
-movpic
+MOVPIC
 ebx
 POINTER
 [
@@ -3012,7 +3013,7 @@ wk
 )
 ]
 ymm2
-poppic
+POPPIC
 ebx
 add
 eax
@@ -3033,7 +3034,7 @@ ja
 short
 .
 columnloop
-alignx
+ALIGNX
 16
 7
 .
@@ -3047,9 +3048,9 @@ the
 last
 column
 block
-pushpic
+PUSHPIC
 ebx
-movpic
+MOVPIC
 ebx
 POINTER
 [
@@ -3218,7 +3219,7 @@ jmp
 near
 .
 upsample
-alignx
+ALIGNX
 16
 7
 .
@@ -3294,9 +3295,9 @@ row
 [
 1
 ]
-pushpic
+PUSHPIC
 ebx
-movpic
+MOVPIC
 ebx
 POINTER
 [
@@ -5412,7 +5413,7 @@ edi
 SIZEOF_YMMWORD
 ]
 ymm0
-poppic
+POPPIC
 ebx
 sub
 eax
@@ -5853,7 +5854,7 @@ edi
 ]
 ;
 output_data
-alignx
+ALIGNX
 16
 7
 .
@@ -5884,7 +5885,7 @@ eax
 edx
 ;
 colctr
-alignx
+ALIGNX
 16
 7
 .
@@ -6013,7 +6014,7 @@ jmp
 short
 .
 columnloop
-alignx
+ALIGNX
 16
 7
 .
@@ -6366,7 +6367,7 @@ edi
 ]
 ;
 output_data
-alignx
+ALIGNX
 16
 7
 .
@@ -6413,7 +6414,7 @@ eax
 edx
 ;
 colctr
-alignx
+ALIGNX
 16
 7
 .
@@ -6588,7 +6589,7 @@ jmp
 short
 .
 columnloop
-alignx
+ALIGNX
 16
 7
 .

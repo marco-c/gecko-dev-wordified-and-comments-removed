@@ -34,6 +34,7 @@ C
 2016
 2018
 2020
+2024
 D
 .
 R
@@ -790,7 +791,7 @@ Temp
 registers
 %
 macro
-dotranspose
+DOTRANSPOSE
 8
 ;
 %
@@ -1368,7 +1369,7 @@ or
 )
 %
 macro
-dodct
+DODCT
 9
 vpsubw
 %
@@ -2572,7 +2573,7 @@ endmacro
 -
 SECTION
 SEG_CONST
-alignz
+ALIGNZ
 32
 GLOBAL_DATA
 (
@@ -2709,7 +2710,7 @@ times
 dw
 -
 1
-alignz
+ALIGNZ
 32
 ;
 -
@@ -2847,7 +2848,7 @@ ebp
 mov
 ebp
 esp
-pushpic
+PUSHPIC
 ebx
 ;
 push
@@ -2872,7 +2873,7 @@ push
 edi
 ;
 unused
-get_GOT
+GET_GOT
 ebx
 ;
 get
@@ -3139,7 +3140,7 @@ ymm3
 76
 77
 )
-dotranspose
+DOTRANSPOSE
 ymm0
 ymm1
 ymm2
@@ -3148,7 +3149,7 @@ ymm4
 ymm5
 ymm6
 ymm7
-dodct
+DODCT
 ymm0
 ymm1
 ymm2
@@ -3200,7 +3201,7 @@ ymm3
 ymm1
 =
 data1_5
-dotranspose
+DOTRANSPOSE
 ymm0
 ymm1
 ymm2
@@ -3209,7 +3210,7 @@ ymm3
 ymm5
 ymm6
 ymm7
-dodct
+DODCT
 ymm0
 ymm1
 ymm2
@@ -3340,7 +3341,7 @@ pop
 ecx
 ;
 unused
-poppic
+POPPIC
 ebx
 pop
 ebp

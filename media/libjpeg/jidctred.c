@@ -544,7 +544,7 @@ GLOBAL
 (
 void
 )
-jpeg_idct_4x4
+_jpeg_idct_4x4
 (
 j_decompress_ptr
 cinfo
@@ -553,7 +553,7 @@ jpeg_component_info
 compptr
 JCOEFPTR
 coef_block
-JSAMPARRAY
+_JSAMPARRAY
 output_buf
 JDIMENSION
 output_col
@@ -582,10 +582,10 @@ int
 *
 wsptr
 ;
-JSAMPROW
+_JSAMPROW
 outptr
 ;
-JSAMPLE
+_JSAMPLE
 *
 range_limit
 =
@@ -1185,7 +1185,7 @@ wsptr
 0
 )
 {
-JSAMPLE
+_JSAMPLE
 dcval
 =
 range_limit
@@ -1518,7 +1518,7 @@ GLOBAL
 (
 void
 )
-jpeg_idct_2x2
+_jpeg_idct_2x2
 (
 j_decompress_ptr
 cinfo
@@ -1527,7 +1527,7 @@ jpeg_component_info
 compptr
 JCOEFPTR
 coef_block
-JSAMPARRAY
+_JSAMPARRAY
 output_buf
 JDIMENSION
 output_col
@@ -1549,10 +1549,10 @@ int
 *
 wsptr
 ;
-JSAMPROW
+_JSAMPROW
 outptr
 ;
-JSAMPLE
+_JSAMPLE
 *
 range_limit
 =
@@ -1984,7 +1984,7 @@ wsptr
 0
 )
 {
-JSAMPLE
+_JSAMPLE
 dcval
 =
 range_limit
@@ -2166,7 +2166,7 @@ GLOBAL
 (
 void
 )
-jpeg_idct_1x1
+_jpeg_idct_1x1
 (
 j_decompress_ptr
 cinfo
@@ -2175,7 +2175,7 @@ jpeg_component_info
 compptr
 JCOEFPTR
 coef_block
-JSAMPARRAY
+_JSAMPARRAY
 output_buf
 JDIMENSION
 output_col
@@ -2188,7 +2188,7 @@ ISLOW_MULT_TYPE
 *
 quantptr
 ;
-JSAMPLE
+_JSAMPLE
 *
 range_limit
 =

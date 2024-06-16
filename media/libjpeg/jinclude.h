@@ -282,6 +282,13 @@ value
 )
 #
 else
+#
+include
+<
+errno
+.
+h
+>
 static
 INLINE
 int

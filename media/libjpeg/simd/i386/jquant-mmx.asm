@@ -33,6 +33,7 @@ Copyright
 C
 )
 2016
+2024
 D
 .
 R
@@ -400,7 +401,7 @@ ecx
 DCTSIZE
 /
 4
-alignx
+ALIGNX
 16
 7
 .
@@ -1122,7 +1123,7 @@ coef_block
 mov
 ah
 2
-alignx
+ALIGNX
 16
 7
 .
@@ -1135,7 +1136,7 @@ DCTSIZE2
 8
 /
 2
-alignx
+ALIGNX
 16
 7
 .

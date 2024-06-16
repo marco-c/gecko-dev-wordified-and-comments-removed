@@ -467,7 +467,7 @@ GLOBAL
 (
 void
 )
-jpeg_fdct_islow
+_jpeg_fdct_islow
 (
 DCTELEM
 *

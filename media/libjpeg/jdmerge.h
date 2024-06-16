@@ -9,6 +9,13 @@ jpeglib
 h
 "
 #
+include
+"
+jsamplecomp
+.
+h
+"
+#
 ifdef
 UPSAMPLE_MERGING_SUPPORTED
 typedef
@@ -26,11 +33,11 @@ upmethod
 (
 j_decompress_ptr
 cinfo
-JSAMPIMAGE
+_JSAMPIMAGE
 input_buf
 JDIMENSION
 in_row_group_ctr
-JSAMPARRAY
+_JSAMPARRAY
 output_buf
 )
 ;
@@ -50,7 +57,7 @@ JLONG
 *
 Cb_g_tab
 ;
-JSAMPROW
+_JSAMPROW
 spare_row
 ;
 boolean

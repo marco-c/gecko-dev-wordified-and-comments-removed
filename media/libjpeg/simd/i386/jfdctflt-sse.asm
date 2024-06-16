@@ -32,6 +32,7 @@ Copyright
 C
 )
 2016
+2024
 D
 .
 R
@@ -447,7 +448,7 @@ endmacro
 -
 SECTION
 SEG_CONST
-alignz
+ALIGNZ
 32
 GLOBAL_DATA
 (
@@ -486,7 +487,7 @@ dd
 1
 .
 306562964876376527856643
-alignz
+ALIGNZ
 32
 ;
 -
@@ -699,7 +700,7 @@ wk
 0
 )
 ]
-pushpic
+PUSHPIC
 ebx
 ;
 push
@@ -727,7 +728,7 @@ push
 edi
 ;
 unused
-get_GOT
+GET_GOT
 ebx
 ;
 get
@@ -763,7 +764,7 @@ ecx
 DCTSIZE
 /
 4
-alignx
+ALIGNX
 16
 7
 .
@@ -1849,7 +1850,7 @@ ecx
 DCTSIZE
 /
 4
-alignx
+ALIGNX
 16
 7
 .
@@ -2930,7 +2931,7 @@ need
 not
 be
 preserved
-poppic
+POPPIC
 ebx
 mov
 esp
