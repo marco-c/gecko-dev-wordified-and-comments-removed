@@ -4903,6 +4903,15 @@ mHasPatternAttribute
 ;
 private
 :
+Maybe
+<
+int32_t
+>
+GetNumberInputCols
+(
+)
+const
+;
 static
 void
 ImageInputMapAttributesIntoRule
