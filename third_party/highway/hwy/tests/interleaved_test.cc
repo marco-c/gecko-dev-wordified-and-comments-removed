@@ -167,7 +167,7 @@ bytes
 i
 ]
 =
-ConvertScalarTo
+static_cast
 <
 T
 >
@@ -490,12 +490,6 @@ if
 HWY_COMPILER_GCC_ACTUAL
 &
 &
-HWY_COMPILER_GCC_ACTUAL
-<
-1300
-&
-&
-\
 HWY_ARCH_ARM_A64
 #
 define
@@ -621,7 +615,7 @@ bytes
 i
 ]
 =
-ConvertScalarTo
+static_cast
 <
 T
 >
@@ -1125,7 +1119,7 @@ bytes
 i
 ]
 =
-ConvertScalarTo
+static_cast
 <
 T
 >

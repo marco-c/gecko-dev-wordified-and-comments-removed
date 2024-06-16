@@ -41,6 +41,17 @@ lib
 /
 jxl
 /
+ac_strategy
+.
+h
+"
+#
+include
+"
+lib
+/
+jxl
+/
 base
 /
 compiler_specific
@@ -107,9 +118,6 @@ h
 namespace
 jxl
 {
-class
-AcStrategyImage
-;
 void
 TokenizeCoefficients
 (

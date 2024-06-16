@@ -316,7 +316,7 @@ num_c
 )
 ;
 }
-Status
+void
 AddStage
 (
 std

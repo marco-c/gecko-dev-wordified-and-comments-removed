@@ -41,16 +41,6 @@ int64_t
 x
 =
 targets
-&
-hwy
-:
-:
-LimitsMax
-<
-int64_t
->
-(
-)
 ;
 x
 !

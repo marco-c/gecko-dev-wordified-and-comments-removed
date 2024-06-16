@@ -1038,7 +1038,16 @@ if
 blend_mode
 >
 =
-kNumPatchBlendModes
+static_cast
+<
+uint32_t
+>
+(
+PatchBlendMode
+:
+:
+kNumBlendModes
+)
 )
 {
 return

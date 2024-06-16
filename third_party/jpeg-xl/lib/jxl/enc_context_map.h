@@ -47,12 +47,6 @@ jxl
 struct
 AuxOut
 ;
-enum
-class
-LayerType
-:
-uint8_t
-;
 static
 const
 size_t
@@ -78,7 +72,7 @@ num_histograms
 BitWriter
 *
 writer
-LayerType
+size_t
 layer
 AuxOut
 *

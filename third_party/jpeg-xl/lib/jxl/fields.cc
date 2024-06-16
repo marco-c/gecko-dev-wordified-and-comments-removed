@@ -1866,7 +1866,7 @@ fields
 )
 )
 {
-JXL_DEBUG_ABORT
+JXL_UNREACHABLE
 (
 "
 Init
@@ -1903,7 +1903,7 @@ fields
 )
 )
 {
-JXL_DEBUG_ABORT
+JXL_UNREACHABLE
 (
 "
 SetDefault
@@ -1941,7 +1941,7 @@ fields
 )
 )
 {
-JXL_DEBUG_ABORT
+JXL_UNREACHABLE
 (
 "
 AllDefault

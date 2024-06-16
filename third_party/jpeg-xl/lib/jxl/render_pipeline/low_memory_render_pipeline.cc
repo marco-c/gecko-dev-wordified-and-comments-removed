@@ -2360,11 +2360,10 @@ SwitchToImageDimensions
 )
 )
 {
-return
 JXL_UNREACHABLE
 (
 "
-cannot
+Cannot
 switch
 to
 image
