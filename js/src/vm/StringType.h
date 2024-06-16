@@ -3144,7 +3144,7 @@ trc
 ;
 inline
 void
-traceBaseAndRecordOldRoot
+traceBaseFromStoreBuffer
 (
 JSTracer
 *
@@ -5229,13 +5229,13 @@ CharT
 >
 inline
 void
-updatePromotedBaseImpl
+sweepTypedAfterMinorGC
 (
 )
 ;
 inline
 void
-updatePromotedBase
+sweepAfterMinorGC
 (
 )
 ;
