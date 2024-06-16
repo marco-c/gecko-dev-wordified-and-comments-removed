@@ -123,8 +123,7 @@ void
 Cleanup
 (
 )
-{
-}
+;
 std
 :
 :
