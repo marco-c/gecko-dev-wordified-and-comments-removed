@@ -4121,11 +4121,10 @@ name
 browser_menu_sign_back_in_to_sync
 "
 >
-Mewngofnodwch
-yn
-l
+Ail
+fewngofnodi
 i
-gysoni
+gydweddu
 <
 /
 string
@@ -4171,8 +4170,12 @@ name
 browser_menu_syncing_paused_caption
 "
 >
-Seibio
-cysoni
+Cydweddu
+wedi
+\
+'
+i
+oedi
 <
 /
 string
@@ -11187,7 +11190,7 @@ u
 ar
 gyfer
 pob
-safle
+gwefan
 <
 /
 string
@@ -44900,7 +44903,7 @@ name
 translation_option_bottom_sheet_title_heading
 "
 >
-Opsiynau
+Dewisiadau
 cyfieithu
 <
 /
