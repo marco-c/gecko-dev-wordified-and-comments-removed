@@ -541,10 +541,14 @@ close
 "
 )
 ;
-doneButton
+EventUtils
 .
-click
+synthesizeMouseAtCenter
 (
+doneButton
+{
+}
+prefsWin
 )
 ;
 await
