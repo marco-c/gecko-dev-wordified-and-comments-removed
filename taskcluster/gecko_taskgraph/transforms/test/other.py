@@ -3489,7 +3489,7 @@ linux
 "
 linux64
 -
-chromium
+chromiumdriver
 "
 ]
             
@@ -3503,7 +3503,7 @@ macosx1015
 "
 mac
 -
-chromium
+chromiumdriver
 "
 ]
             
@@ -3517,7 +3517,7 @@ macosx1400
 "
 mac
 -
-chromium
+chromiumdriver
 -
 arm
 "
@@ -3536,7 +3536,7 @@ aarch64
 "
 win32
 -
-chromium
+chromiumdriver
 "
 ]
             
@@ -3554,7 +3554,7 @@ windows
 "
 win32
 -
-chromium
+chromiumdriver
 "
 ]
             
@@ -3572,7 +3572,7 @@ windows
 "
 win64
 -
-chromium
+chromiumdriver
 "
 ]
             
@@ -3586,7 +3586,7 @@ android
 "
 linux64
 -
-chromium
+chromiumdriver
 "
 ]
         
