@@ -7,6 +7,12 @@ OrderedDict
 import
 buildconfig
 from
+mozbuild
+.
+util
+import
+memoize
+from
 perfecthash
 import
 PerfectHash
@@ -405,6 +411,7 @@ iid
 )
 )
 )
+memoize
 def
 iid_bytes
 (
