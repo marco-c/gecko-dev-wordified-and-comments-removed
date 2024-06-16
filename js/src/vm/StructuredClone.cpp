@@ -4106,7 +4106,9 @@ nelems
 )
 ;
 return
-false
+reportTruncated
+(
+)
 ;
 }
 swapFromLittleEndianInPlace
