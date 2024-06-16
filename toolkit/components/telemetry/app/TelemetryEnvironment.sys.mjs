@@ -6060,6 +6060,16 @@ signedState
 addon
 .
 signedState
+signedTypes
+:
+JSON
+.
+stringify
+(
+addon
+.
+signedTypes
+)
 quarantineIgnoredByApp
 :
 enforceBoolean
