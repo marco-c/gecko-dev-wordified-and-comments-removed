@@ -180,10 +180,6 @@ export
 var
 BookmarkJSONUtils
 =
-Object
-.
-freeze
-(
 {
 /
 *
@@ -1100,7 +1096,6 @@ hash
 ;
 }
 }
-)
 ;
 function
 BookmarkImporter
