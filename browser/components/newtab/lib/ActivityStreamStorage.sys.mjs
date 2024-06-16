@@ -470,13 +470,9 @@ open
 this
 .
 dbName
-{
-version
-:
 this
 .
 dbVersion
-}
 db
 =
 >
