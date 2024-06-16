@@ -937,7 +937,7 @@ duration
 /
 microseconds
 required
-BufferSource
+AllowSharedBufferSource
 data
 ;
 sequence
