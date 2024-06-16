@@ -1550,6 +1550,12 @@ aPriority
 ;
 #
 endif
+int32_t
+ValueRegion
+(
+)
+const
+;
 virtual
 already_AddRefed
 <

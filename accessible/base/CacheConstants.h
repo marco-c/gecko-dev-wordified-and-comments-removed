@@ -1025,6 +1025,17 @@ static
 constexpr
 nsStaticAtom
 *
+ValueRegion
+=
+nsGkAtoms
+:
+:
+valuetype
+;
+static
+constexpr
+nsStaticAtom
+*
 Viewport
 =
 nsGkAtoms
