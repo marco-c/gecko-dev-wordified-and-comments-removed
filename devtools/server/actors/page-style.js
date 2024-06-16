@@ -3100,6 +3100,8 @@ hasVisitedState
 (
 node
 )
+!
+inherited
 )
 ;
 if

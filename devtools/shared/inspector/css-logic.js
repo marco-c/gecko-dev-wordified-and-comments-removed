@@ -217,6 +217,13 @@ CSSScopeRule
 "
 scope
 "
+CSSStartingStyleRule
+:
+"
+starting
+-
+style
+"
 CSSSupportsRule
 :
 "
