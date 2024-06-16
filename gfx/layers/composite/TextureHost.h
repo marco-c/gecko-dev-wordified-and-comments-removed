@@ -335,6 +335,9 @@ class
 CompositorBridgeParent
 ;
 class
+DXGITextureHostD3D11
+;
+class
 SurfaceDescriptor
 ;
 class
@@ -1846,6 +1849,17 @@ virtual
 TextureHostWrapperD3D11
 *
 AsTextureHostWrapperD3D11
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+DXGITextureHostD3D11
+*
+AsDXGITextureHostD3D11
 (
 )
 {

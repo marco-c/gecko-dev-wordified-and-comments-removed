@@ -1726,6 +1726,17 @@ aBackend
 )
 override
 ;
+DXGITextureHostD3D11
+*
+AsDXGITextureHostD3D11
+(
+)
+override
+{
+return
+this
+;
+}
 const
 RefPtr
 <
