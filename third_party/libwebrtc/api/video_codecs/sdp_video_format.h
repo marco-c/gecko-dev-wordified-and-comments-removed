@@ -89,7 +89,6 @@ Parameters
 [
 deprecated
 (
-(
 "
 Use
 webrtc
@@ -97,7 +96,6 @@ webrtc
 :
 CodecParameterMap
 "
-)
 )
 ]
 ]
