@@ -146,7 +146,7 @@ param
 methodInfo
 -
 >
-GetParam
+Param
 (
 i
 )
