@@ -4959,10 +4959,7 @@ aConfig
 webrtc
 :
 :
-SdpAudioFormat
-:
-:
-Parameters
+CodecParameterMap
 parameters
 ;
 if

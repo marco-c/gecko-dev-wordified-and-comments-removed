@@ -453,10 +453,7 @@ const
 webrtc
 :
 :
-SdpVideoFormat
-:
-:
-Parameters
+CodecParameterMap
 &
 aParameters
 )
@@ -805,10 +802,7 @@ const
 webrtc
 :
 :
-SdpVideoFormat
-:
-:
-Parameters
+CodecParameterMap
 &
 aParameters
 )

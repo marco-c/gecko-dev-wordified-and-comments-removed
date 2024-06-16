@@ -321,10 +321,7 @@ mInfo
 webrtc
 :
 :
-SdpVideoFormat
-:
-:
-Parameters
+CodecParameterMap
 mFormatParams
 ;
 webrtc
