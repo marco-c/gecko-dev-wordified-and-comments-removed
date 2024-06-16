@@ -103,13 +103,6 @@ hack
 patch
 "
 "
-i586
--
-linux
-.
-patch
-"
-"
 compiler
 -
 rt
