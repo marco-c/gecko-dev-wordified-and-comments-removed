@@ -177,16 +177,6 @@ base
 ds
 "
 ]
-RESOURCE_FILES
-+
-=
-[
-"
-test
-.
-properties
-"
-]
 CRASHTEST_MANIFESTS
 +
 =
