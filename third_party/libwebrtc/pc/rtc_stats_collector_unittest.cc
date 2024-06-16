@@ -1604,11 +1604,10 @@ rtc
 AdapterType
 adapter_type
 const
-std
+absl
 :
 :
-string
-&
+string_view
 candidate_type
 uint32_t
 priority
