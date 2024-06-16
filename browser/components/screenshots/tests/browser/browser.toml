@@ -116,13 +116,6 @@ linux
 ]
 [
 "
-browser_keyboard_shortcuts
-.
-js
-"
-]
-[
-"
 browser_overlay_keyboard_test
 .
 js
