@@ -1288,6 +1288,17 @@ Element
 aOriginatingElement
 )
 ;
+void
+GetSubmissionTarget
+(
+nsGenericHTMLElement
+*
+aSubmitter
+nsAString
+&
+aTarget
+)
+;
 int32_t
 GetFormNumberForStateKey
 (

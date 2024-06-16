@@ -558,7 +558,7 @@ void
 HTMLAnchorElement
 :
 :
-GetLinkTarget
+GetLinkTargetImpl
 (
 nsAString
 &

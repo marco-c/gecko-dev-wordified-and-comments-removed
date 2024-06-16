@@ -118,7 +118,7 @@ aVisitor
 override
 ;
 void
-GetLinkTarget
+GetLinkTargetImpl
 (
 nsAString
 &

@@ -232,7 +232,7 @@ IsFocusableFlags
 override
 ;
 void
-GetLinkTarget
+GetLinkTargetImpl
 (
 nsAString
 &

@@ -13501,7 +13501,7 @@ content
 anchor
 -
 >
-GetTarget
+GetLinkTarget
 (
 aTarget
 )
