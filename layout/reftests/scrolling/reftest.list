@@ -847,9 +847,6 @@ fuzzy
 if
 (
 winWidget
-&
-&
-fission
 0
 -
 96
@@ -878,6 +875,8 @@ ref
 .
 html
 #
+win
+/
 fission
 :
 Bug
@@ -918,9 +917,6 @@ fuzzy
 if
 (
 winWidget
-&
-&
-fission
 0
 -
 96
@@ -949,6 +945,8 @@ ref
 .
 html
 #
+win
+/
 fission
 :
 Bug
@@ -1010,9 +1008,6 @@ fuzzy
 if
 (
 winWidget
-&
-&
-fission
 0
 -
 92
@@ -1097,9 +1092,6 @@ fuzzy
 if
 (
 winWidget
-&
-&
-fission
 0
 -
 92
