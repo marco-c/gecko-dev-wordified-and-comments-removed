@@ -3123,7 +3123,7 @@ mjs
 await
 WindowsLaunchOnLogin
 .
-createLaunchOnLogin
+createLaunchOnLoginRegistryKey
 (
 )
 ;
