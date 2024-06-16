@@ -298,6 +298,13 @@ pop
 )
 #
 endif
+#
+if
+!
+defined
+(
+JS_CODEGEN_NONE
+)
 static_assert
 (
 (
@@ -323,6 +330,8 @@ aligned
 "
 )
 ;
+#
+endif
 BailoutFrameInfo
 :
 :
