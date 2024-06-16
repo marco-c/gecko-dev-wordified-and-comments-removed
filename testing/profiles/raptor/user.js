@@ -61,7 +61,7 @@ time_to_dom_content_flushed
 .
 enabled
 "
-true
+false
 )
 ;
 user_pref
