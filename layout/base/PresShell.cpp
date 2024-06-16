@@ -31360,7 +31360,7 @@ IsStaticDocument
 StaticPrefs
 :
 :
-image_decode_sync_enabled
+image_testing_decode_sync_enabled
 (
 )
 )
