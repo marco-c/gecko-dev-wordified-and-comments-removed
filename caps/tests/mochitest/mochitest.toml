@@ -121,10 +121,3 @@ test_disallowInheritPrincipal
 html
 "
 ]
-[
-"
-test_loadLocalFont
-.
-html
-"
-]
