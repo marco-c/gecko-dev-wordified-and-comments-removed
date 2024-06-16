@@ -364,7 +364,7 @@ Frame
 nsFileControlFrame
 "
 "
-Block
+FileControl
 "
 REPLACED_WITH_BLOCK
 |
