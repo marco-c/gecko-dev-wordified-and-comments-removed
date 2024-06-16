@@ -215,6 +215,12 @@ defined
 (
 __sparc__
 )
+|
+|
+defined
+(
+__loongarch__
+)
 #
 undef
 WITH_SIMD
