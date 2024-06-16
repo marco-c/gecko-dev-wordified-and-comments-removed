@@ -1,4 +1,4 @@
-53553
+53569
 0
 /
 nm
@@ -38926,6 +38926,8 @@ abdomen
 /
 SM
 abdominal
+/
+Y
 abduct
 /
 DSG
@@ -38986,7 +38988,7 @@ abject
 YP
 abjection
 /
-M
+MS
 abjectness
 /
 M
@@ -39013,6 +39015,7 @@ ablaze
 able
 /
 UT
+ableism
 abler
 abloom
 ablution
@@ -39036,7 +39039,10 @@ abode
 MS
 abolish
 /
-GDS
+ZGLDRS
+abolishment
+/
+SM
 abolition
 /
 M
@@ -39444,7 +39450,7 @@ accomplice
 SM
 accomplish
 /
-DSLG
+DRSLZG
 accomplished
 /
 U
@@ -39903,6 +39909,10 @@ M
 adaption
 /
 S
+adaptive
+/
+PY
+adaptivity
 add
 -
 on
@@ -40737,6 +40747,9 @@ M
 aggregator
 /
 SM
+aggress
+/
+DSGV
 aggression
 /
 M
@@ -50028,6 +50041,7 @@ MS
 breath
 /
 MDRSZGB
+breathability
 breathalyze
 /
 ZGDRS
@@ -52329,6 +52343,8 @@ captaincy
 /
 SM
 captcha
+/
+S
 caption
 /
 SMDG
@@ -54752,6 +54768,9 @@ choleric
 cholesterol
 /
 M
+cholla
+/
+MS
 chomp
 /
 ZGMDRS
@@ -54822,6 +54841,9 @@ M
 chorister
 /
 SM
+chorizo
+/
+MS
 choroid
 /
 MS
@@ -62505,6 +62527,9 @@ M
 debarment
 /
 M
+debatable
+/
+U
 debate
 /
 BMZR
@@ -62599,6 +62624,7 @@ XGNDS
 decapitator
 /
 MS
+decarboxylation
 decathlete
 /
 S
@@ -63763,6 +63789,9 @@ GNDS
 desalination
 /
 M
+desalinator
+/
+SM
 desalinization
 /
 M
@@ -80133,6 +80162,9 @@ NRSXZGVJ
 ha
 /
 SH
+habanero
+/
+MS
 habeas
 haberdasher
 /
@@ -80339,7 +80371,7 @@ hairspring
 MS
 hairstyle
 /
-MS
+MGS
 hairstylist
 /
 SM
@@ -84163,7 +84195,7 @@ hypothesize
 DSG
 hypothetical
 /
-Y
+YS
 hypothyroid
 /
 M
@@ -89548,10 +89580,13 @@ kiwifruit
 /
 MS
 kl
+klansmen
 klaxon
 /
 S
 kleptocracy
+/
+S
 kleptomania
 /
 M
@@ -89988,6 +90023,7 @@ lagged
 lagging
 /
 M
+laggy
 lagniappe
 /
 SM
@@ -125175,6 +125211,7 @@ GDS
 specialty
 /
 SM
+speciation
 specie
 /
 SM
@@ -135988,6 +136025,7 @@ uncut
 undaunted
 /
 Y
+undebatably
 undecided
 /
 SM
