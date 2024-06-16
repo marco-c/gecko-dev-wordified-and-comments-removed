@@ -56,7 +56,7 @@ send_keys
 (
 document
 .
-documentElement
+body
 kTab
 )
 ;
