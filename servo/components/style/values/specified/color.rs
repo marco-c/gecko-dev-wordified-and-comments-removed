@@ -3142,11 +3142,6 @@ a
 b
 >
 {
-type
-Output
-=
-Color
-;
 fn
 parse_number_or_angle
 <
