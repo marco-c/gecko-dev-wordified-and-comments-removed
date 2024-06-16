@@ -1355,7 +1355,7 @@ can
 use
 it
 in
-onEngagement
+onLegacyEngagement
 if
 (
 sponsoredSites
@@ -2063,7 +2063,7 @@ break
 }
 }
 }
-onEngagement
+onLegacyEngagement
 (
 state
 queryContext

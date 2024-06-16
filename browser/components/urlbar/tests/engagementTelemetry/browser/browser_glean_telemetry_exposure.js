@@ -36,7 +36,7 @@ add_task
 (
 async
 function
-exposureSponsoredOnEngagement
+exposureSponsoredOnLegacyEngagement
 (
 )
 {

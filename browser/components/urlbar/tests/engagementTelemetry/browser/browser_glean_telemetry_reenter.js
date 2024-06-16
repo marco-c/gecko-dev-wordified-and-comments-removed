@@ -105,7 +105,7 @@ help
 priority
 :
 999
-onEngagement
+onLegacyEngagement
 :
 (
 )
@@ -121,7 +121,7 @@ address
 bar
 during
 the
-onEngagement
+onLegacyEngagement
 notification
 "
 )
@@ -174,7 +174,7 @@ spy
 (
 provider
 "
-onEngagement
+onLegacyEngagement
 "
 )
 ;
@@ -347,7 +347,7 @@ engagementSpy
 callCount
 1
 "
-onEngagement
+onLegacyEngagement
 was
 invoked
 twice

@@ -555,7 +555,7 @@ provider
 )
 ;
 let
-onEngagementPromise
+onLegacyEngagementPromise
 =
 new
 Promise
@@ -566,7 +566,7 @@ resolve
 (
 provider
 .
-onEngagement
+onLegacyEngagement
 =
 resolve
 )
@@ -771,7 +771,7 @@ KEY_Enter
 )
 ;
 await
-onEngagementPromise
+onLegacyEngagementPromise
 ;
 await
 loadPromise

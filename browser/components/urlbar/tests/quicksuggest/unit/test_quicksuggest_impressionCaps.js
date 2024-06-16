@@ -13817,7 +13817,7 @@ removeResult
 ;
 UrlbarProviderQuickSuggest
 .
-onEngagement
+onLegacyEngagement
 (
 "
 engagement

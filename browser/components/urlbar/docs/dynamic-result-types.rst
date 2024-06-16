@@ -1387,7 +1387,7 @@ your
 provider
 '
 s
-onEngagement
+onLegacyEngagement
 method
 .
 For
@@ -4702,7 +4702,7 @@ the
 URL
 .
 The
-onEngagement
+onLegacyEngagement
 method
 of
 the

@@ -10185,7 +10185,7 @@ Function
 [
 options
 .
-onEngagement
+onLegacyEngagement
 ]
 *
 If
@@ -10260,7 +10260,7 @@ null
 onSelection
 =
 null
-onEngagement
+onLegacyEngagement
 =
 null
 delayResultsPromise
@@ -10351,9 +10351,9 @@ onSelection
 ;
 this
 .
-_onEngagement
+_onLegacyEngagement
 =
-onEngagement
+onLegacyEngagement
 ;
 /
 /
@@ -10609,7 +10609,7 @@ element
 )
 ;
 }
-onEngagement
+onLegacyEngagement
 (
 state
 queryContext
@@ -10619,7 +10619,7 @@ controller
 {
 this
 .
-_onEngagement
+_onLegacyEngagement
 ?
 .
 (

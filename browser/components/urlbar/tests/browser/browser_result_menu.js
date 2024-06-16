@@ -1190,13 +1190,13 @@ suggest
 )
 ;
 let
-onEngagementCallCount
+onLegacyEngagementCallCount
 =
 0
 ;
 provider
 .
-onEngagement
+onLegacyEngagement
 =
 (
 state
@@ -1207,7 +1207,7 @@ controller
 =
 >
 {
-onEngagementCallCount
+onLegacyEngagementCallCount
 +
 +
 ;
@@ -1389,10 +1389,10 @@ Assert
 .
 greater
 (
-onEngagementCallCount
+onLegacyEngagementCallCount
 0
 "
-onEngagement
+onLegacyEngagement
 (
 )
 should

@@ -2510,9 +2510,10 @@ details
 on
 parameters
 see
+*
 UrlbarProvider
 .
-onEngagement
+onLegacyEngagement
 (
 )
 .
@@ -2612,7 +2613,7 @@ provider
 tryMethod
 (
 "
-onEngagement
+onLegacyEngagement
 "
 state
 queryContext
