@@ -1997,7 +1997,7 @@ RUSTC_BOOTSTRAP
 RUSTC_BOOTSTRAP
 )
 encoding_rs
-packed_simd
+any_all_workaround
 endif
 export
 RUSTC_BOOTSTRAP

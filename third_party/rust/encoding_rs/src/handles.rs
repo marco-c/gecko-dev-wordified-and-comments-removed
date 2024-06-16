@@ -108,7 +108,10 @@ neon
 )
 ]
 use
-packed_simd
+core
+:
+:
+simd
 :
 :
 u16x8
@@ -4019,7 +4022,6 @@ inline
 always
 )
 ]
-pub
 fn
 write_surrogate_pair
 (
