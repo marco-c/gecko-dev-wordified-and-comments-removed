@@ -19,6 +19,8 @@ parse
       
 [
 Global
+=
+Foo
 Exposed
 =
 Foo
@@ -501,6 +503,8 @@ parse
       
 [
 Global
+=
+Foo
 Exposed
 =
 Foo
@@ -797,6 +801,8 @@ parse
       
 [
 Global
+=
+Foo
 Exposed
 =
 Foo
@@ -1480,6 +1486,8 @@ parse
             
 [
 Global
+=
+Foo
 Exposed
 =
 Foo
@@ -1492,6 +1500,8 @@ Foo
             
 [
 Global
+=
+Bar
 Exposed
 =
 Bar
@@ -1593,6 +1603,8 @@ parse
         
 [
 Global
+=
+Foo
 Exposed
 =
 Foo
@@ -1605,6 +1617,8 @@ Foo
         
 [
 Global
+=
+Bar
 Exposed
 =
 Bar
@@ -1898,6 +1912,8 @@ parse
         
 [
 Global
+=
+Foo
 Exposed
 =
 Foo
@@ -1910,6 +1926,8 @@ Foo
         
 [
 Global
+=
+Bar
 Exposed
 =
 Bar
@@ -2216,6 +2234,8 @@ parse
             
 [
 Global
+=
+Foo
 Exposed
 =
 Foo
@@ -2228,6 +2248,8 @@ Foo
             
 [
 Global
+=
+Bar
 Exposed
 =
 Bar
@@ -2336,6 +2358,8 @@ parse
             
 [
 Global
+=
+Foo
 Exposed
 =
 Foo
@@ -2348,6 +2372,8 @@ Foo
             
 [
 Global
+=
+Bar
 Exposed
 =
 Bar

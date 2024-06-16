@@ -437,6 +437,8 @@ work
 /
 [
 Global
+=
+Window
 LegacyUnenumerableNamedProperties
 NeedResolve
 Exposed

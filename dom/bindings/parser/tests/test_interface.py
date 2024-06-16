@@ -2230,6 +2230,8 @@ parse
         
 [
 Global
+=
+Window
 Exposed
 =
 Window
@@ -2525,6 +2527,8 @@ parse
             
 [
 Global
+=
+Window
 Exposed
 =
 Window
@@ -2634,6 +2638,8 @@ parse
             
 [
 Global
+=
+Window
 Exposed
 =
 Window
@@ -2743,6 +2749,8 @@ parse
             
 [
 Global
+=
+Window
 Exposed
 =
 Window

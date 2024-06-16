@@ -19,6 +19,8 @@ parse
       
 [
 Global
+=
+Foo
 Exposed
 =
 Foo
@@ -155,6 +157,8 @@ parse
           
 [
 Global
+=
+Foo
 Exposed
 =
 Foo
@@ -262,6 +266,8 @@ parse
           
 [
 Global
+=
+Foo
 Exposed
 =
 Foo
@@ -367,6 +373,8 @@ parse
           
 [
 Global
+=
+Foo
 LegacyOverrideBuiltIns
 Exposed
 =
@@ -459,6 +467,8 @@ parse
           
 [
 Global
+=
+Foo
 Exposed
 =
 Foo
@@ -567,6 +577,8 @@ parse
           
 [
 Global
+=
+Foo
 Exposed
 =
 Foo
@@ -640,6 +652,91 @@ a
 "
 "
 descendant
+"
+    
+)
+    
+parser
+=
+parser
+.
+reset
+(
+)
+    
+threw
+=
+False
+    
+try
+:
+        
+parser
+.
+parse
+(
+            
+"
+"
+"
+          
+[
+Global
+Exposed
+=
+Foo
+]
+          
+interface
+Foo
+{
+          
+}
+;
+        
+"
+"
+"
+        
+)
+        
+parser
+.
+finish
+(
+)
+    
+except
+WebIDL
+.
+WebIDLError
+:
+        
+threw
+=
+True
+    
+harness
+.
+ok
+(
+        
+threw
+        
+"
+Should
+have
+thrown
+for
+[
+Global
+]
+without
+a
+right
+hand
+side
+value
 "
     
 )

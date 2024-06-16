@@ -2580,6 +2580,8 @@ parse
         
 [
 Global
+=
+Window
 Exposed
 =
 Window
@@ -2592,6 +2594,8 @@ Window
         
 [
 Global
+=
+Worker
 Exposed
 =
 Worker
@@ -2715,6 +2719,8 @@ parse
         
 [
 Global
+=
+Window
 Exposed
 =
 Window
@@ -2727,6 +2733,8 @@ Window
         
 [
 Global
+=
+Worker
 Exposed
 =
 Worker
@@ -2851,6 +2859,8 @@ parse
         
 [
 Global
+=
+Window
 Exposed
 =
 Window
@@ -2863,6 +2873,8 @@ Window
         
 [
 Global
+=
+Worker
 Exposed
 =
 Worker

@@ -26,6 +26,8 @@ parse
             
 [
 Global
+=
+TestConstructorGlobal
 Exposed
 =
 TestConstructorGlobal
@@ -104,6 +106,8 @@ parse
             
 [
 Global
+=
+TestLegacyFactoryFunctionGlobal
 Exposed
 =
 TestLegacyFactoryFunctionGlobal
@@ -184,6 +188,8 @@ LegacyFactoryFunction
 =
 FooBar
 Global
+=
+TestLegacyFactoryFunctionGlobal
              
 Exposed
 =
@@ -258,6 +264,8 @@ parse
             
 [
 Global
+=
+TestHTMLConstructorGlobal
 Exposed
 =
 TestHTMLConstructorGlobal
