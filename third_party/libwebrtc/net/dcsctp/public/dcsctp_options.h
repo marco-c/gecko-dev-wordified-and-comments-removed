@@ -114,6 +114,15 @@ max_send_buffer_size
 000
 ;
 size_t
+per_stream_send_queue_limit
+=
+2
+'
+000
+'
+000
+;
+size_t
 total_buffered_amount_low_threshold
 =
 1
