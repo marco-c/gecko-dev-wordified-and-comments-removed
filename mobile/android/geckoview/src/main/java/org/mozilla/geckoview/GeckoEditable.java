@@ -5487,6 +5487,14 @@ keyCode
 =
 KeyEvent
 .
+KEYCODE_NUMPAD_ENTER
+|
+|
+keyCode
+=
+=
+KeyEvent
+.
 KEYCODE_TAB
 )
 {
