@@ -483,6 +483,7 @@ beforetoggle
 Services
 .
 prefs
+?
 .
 getBoolPref
 (
@@ -550,14 +551,17 @@ control
 "
 invoke
 "
-win
+global
 =
 >
+global
+&
+&
 "
 InvokeEvent
 "
 in
-win
+global
 )
 generalEvent
 (
@@ -2627,7 +2631,7 @@ getAvailableEventBreakpoints
 function
 getAvailableEventBreakpoints
 (
-window
+global
 )
 {
 const
@@ -2672,7 +2676,7 @@ item
 .
 condition
 (
-window
+global
 )
 )
 .
