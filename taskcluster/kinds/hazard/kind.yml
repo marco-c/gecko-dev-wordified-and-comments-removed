@@ -86,6 +86,14 @@ gecko_taskgraph
 .
 transforms
 .
+build_schedules
+:
+transforms
+-
+gecko_taskgraph
+.
+transforms
+.
 build_lints
 :
 transforms
