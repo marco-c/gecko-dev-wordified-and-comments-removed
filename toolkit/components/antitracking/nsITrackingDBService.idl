@@ -130,5 +130,12 @@ SUSPICIOUS_FINGERPRINTERS_ID
 =
 6
 ;
+const
+unsigned
+long
+BOUNCETRACKERS_ID
+=
+7
+;
 }
 ;
