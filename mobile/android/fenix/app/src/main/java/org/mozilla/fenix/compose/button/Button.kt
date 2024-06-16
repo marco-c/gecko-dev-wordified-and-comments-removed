@@ -1584,7 +1584,7 @@ FirefoxTheme
 .
 colors
 .
-iconWarningButton
+iconCriticalButton
 onClick
 =
 onClick

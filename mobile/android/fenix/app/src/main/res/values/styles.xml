@@ -4826,7 +4826,7 @@ iconTint
 >
 color
 /
-fx_mobile_icon_color_warning_button
+fx_mobile_icon_color_critical_button
 <
 /
 item
