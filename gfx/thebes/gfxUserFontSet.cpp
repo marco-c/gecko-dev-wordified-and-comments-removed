@@ -4885,6 +4885,12 @@ mDownloadSize
 (
 0
 )
+mMutex
+(
+"
+gfxUserFontSet
+"
+)
 {
 IncrementGeneration
 (
@@ -5331,7 +5337,7 @@ void
 gfxUserFontSet
 :
 :
-IncrementGeneration
+IncrementGenerationLocked
 (
 bool
 aIsRebuild

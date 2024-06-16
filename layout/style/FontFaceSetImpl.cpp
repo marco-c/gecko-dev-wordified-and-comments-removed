@@ -519,18 +519,6 @@ FontFaceSet
 aOwner
 )
 :
-mMutex
-(
-"
-mozilla
-:
-:
-dom
-:
-:
-FontFaceSetImpl
-"
-)
 mOwner
 (
 aOwner
@@ -4495,7 +4483,7 @@ Clear
 (
 )
 ;
-IncrementGeneration
+IncrementGenerationLocked
 (
 false
 )

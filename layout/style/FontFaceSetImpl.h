@@ -834,10 +834,6 @@ GetNavigationStartTimeStamp
 =
 0
 ;
-mutable
-RecursiveMutex
-mMutex
-;
 FontFaceSet
 *
 MOZ_NON_OWNING_REF
