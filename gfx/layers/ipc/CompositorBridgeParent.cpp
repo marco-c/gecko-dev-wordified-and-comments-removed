@@ -6050,15 +6050,6 @@ UpdateWebRenderParameters
 gfxVars
 :
 :
-SetWebRenderSlowCpuFrameThresholdListener
-(
-&
-UpdateWebRenderParameters
-)
-;
-gfxVars
-:
-:
 SetWebRenderBatchedUploadThresholdListener
 (
 &
