@@ -368,7 +368,7 @@ title
 "
 string
 /
-preferences_toolbar
+preferences_toolbar_2
 "
 android
 :
@@ -568,7 +568,7 @@ title
 "
 string
 /
-preference_gestures_swipe_toolbar_switch_tabs
+preference_gestures_swipe_toolbar_switch_tabs_2
 "
 /
 >

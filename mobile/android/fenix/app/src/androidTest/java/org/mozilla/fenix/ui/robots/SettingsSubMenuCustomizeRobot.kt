@@ -1373,7 +1373,7 @@ R
 .
 string
 .
-preference_gestures_swipe_toolbar_switch_tabs
+preference_gestures_swipe_toolbar_switch_tabs_2
 )
 )
 )

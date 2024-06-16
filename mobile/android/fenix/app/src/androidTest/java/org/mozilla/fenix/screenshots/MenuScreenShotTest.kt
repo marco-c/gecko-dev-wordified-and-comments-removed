@@ -1336,7 +1336,7 @@ R
 .
 string
 .
-preferences_toolbar
+preferences_toolbar_2
 )
 )
 .
