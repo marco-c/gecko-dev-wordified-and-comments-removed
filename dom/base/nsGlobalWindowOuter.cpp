@@ -26685,7 +26685,7 @@ nsContentUtils
 :
 eDOM_PROPERTIES
 "
-WindowCloseBlockedWarning
+WindowCloseByScriptBlockedWarning
 "
 )
 ;
