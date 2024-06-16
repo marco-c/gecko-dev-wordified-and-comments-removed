@@ -24006,6 +24006,8 @@ Register
 str
 Register
 scratch
+Register
+output
 Label
 *
 fail

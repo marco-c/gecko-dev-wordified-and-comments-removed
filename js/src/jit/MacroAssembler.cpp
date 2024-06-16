@@ -14506,6 +14506,8 @@ Register
 str
 Register
 scratch
+Register
+output
 Label
 *
 fail
@@ -14660,7 +14662,7 @@ Address
 scratch
 atomOffset
 )
-str
+output
 )
 ;
 }
@@ -15081,6 +15083,7 @@ lookupStringInAtomCacheLastLookups
 (
 outId
 outHash
+outId
 cacheMiss
 )
 ;
