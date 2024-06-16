@@ -711,6 +711,13 @@ AllowWebGPUPresentWithoutReadback
 bool
 false
 )
+\
+_
+(
+GPUProcessEnabled
+bool
+false
+)
 class
 gfxVars
 final

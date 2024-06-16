@@ -528,15 +528,6 @@ mozilla
 .
 geckoview
 .
-GeckoResult
-;
-import
-org
-.
-mozilla
-.
-geckoview
-.
 R
 ;
 public
@@ -8200,10 +8191,7 @@ WrapForJNI
 public
 static
 native
-GeckoResult
-<
-Boolean
->
+boolean
 isGpuProcessEnabled
 (
 )

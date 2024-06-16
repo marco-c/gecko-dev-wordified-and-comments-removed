@@ -432,10 +432,7 @@ getSurfaceAllocator
 )
 {
 final
-GeckoResult
-<
-Boolean
->
+boolean
 gpuEnabled
 =
 GeckoAppShell
@@ -463,11 +460,6 @@ GeckoResult
 if
 (
 gpuEnabled
-.
-poll
-(
-1000
-)
 )
 {
 XPCOMEventTarget
