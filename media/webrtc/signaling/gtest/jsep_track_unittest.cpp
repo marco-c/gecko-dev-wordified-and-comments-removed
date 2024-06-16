@@ -1093,6 +1093,10 @@ GetOffer
 void
 OfferAnswer
 (
+bool
+offerCodecsMatchAnswer
+=
+true
 )
 {
 CreateOffer
@@ -1109,6 +1113,7 @@ Negotiate
 ;
 SanityCheck
 (
+offerCodecsMatchAnswer
 )
 ;
 }
@@ -1979,6 +1984,8 @@ const
 JsepTrackNegotiatedDetails
 &
 b
+bool
+codecsMustMatch
 )
 const
 {
@@ -1996,6 +2003,11 @@ GetEncodingCount
 )
 )
 ;
+if
+(
+codecsMustMatch
+)
+{
 for
 (
 size_t
@@ -2032,6 +2044,7 @@ i
 )
 )
 ;
+}
 }
 ASSERT_EQ
 (
@@ -2112,6 +2125,8 @@ const
 JsepTrack
 &
 b
+bool
+codecsMustMatch
 )
 const
 {
@@ -2298,12 +2313,17 @@ b
 GetNegotiatedDetails
 (
 )
+codecsMustMatch
 )
 ;
 }
 void
 SanityCheck
 (
+bool
+offerCodecsMatchAnswer
+=
+true
 )
 const
 {
@@ -2311,12 +2331,14 @@ SanityCheckTracks
 (
 mSendOff
 mRecvAns
+true
 )
 ;
 SanityCheckTracks
 (
 mRecvOff
 mSendAns
+offerCodecsMatchAnswer
 )
 ;
 }
@@ -2983,6 +3005,7 @@ kAudio
 ;
 OfferAnswer
 (
+false
 )
 ;
 CheckOffEncodingCount
@@ -3155,7 +3178,7 @@ track
 GetAudioCodec
 (
 mRecvOff
-2
+3
 0
 )
 )
@@ -3255,7 +3278,7 @@ track
 GetAudioCodec
 (
 mRecvOff
-2
+3
 1
 )
 )
@@ -5987,6 +6010,7 @@ kVideo
 ;
 OfferAnswer
 (
+false
 )
 ;
 CheckOffEncodingCount
@@ -6154,7 +6178,7 @@ track
 GetVideoCodec
 (
 mRecvOff
-2
+4
 0
 )
 )
@@ -6254,7 +6278,7 @@ track
 GetVideoCodec
 (
 mRecvOff
-2
+4
 1
 )
 )
@@ -7300,6 +7324,7 @@ kVideo
 ;
 OfferAnswer
 (
+false
 )
 ;
 CheckOffEncodingCount
@@ -7466,7 +7491,7 @@ track
 GetVideoCodec
 (
 mRecvOff
-3
+4
 )
 )
 )
@@ -12728,6 +12753,8 @@ codec
 GetVideoCodec
 (
 mRecvOff
+2
+0
 )
 )
 )
