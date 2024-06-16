@@ -719,6 +719,15 @@ height
 dp
 )
 )
+if
+(
+categories
+.
+isNotEmpty
+(
+)
+)
+{
 PocketStoriesCategories
 (
 categories
@@ -741,6 +750,7 @@ onCategoryClick
 =
 onCategoryClick
 )
+}
 }
 }
 Composable
