@@ -72,6 +72,8 @@ node
 linux64
 -
 geckodriver
+-
+browsertime
 worker
 :
 env

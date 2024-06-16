@@ -162,6 +162,8 @@ geckodriver
 macosx64
 -
 node
+-
+browsertime
 platform
 :
 macosx1015

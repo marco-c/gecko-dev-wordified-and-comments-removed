@@ -2323,6 +2323,8 @@ opt
 linux64
 -
 node
+-
+browsertime
 macosx1015
 -
 64
@@ -2333,6 +2335,8 @@ opt
 macosx64
 -
 node
+-
+browsertime
 windows11
 -
 64
@@ -2343,6 +2347,8 @@ opt
 win64
 -
 node
+-
+browsertime
 when
 :
 files

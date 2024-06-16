@@ -141,6 +141,8 @@ node
 win64
 -
 geckodriver
+-
+browsertime
 platform
 :
 windows10
