@@ -143,6 +143,13 @@ js
 ]
 [
 "
+browser_autofill_address_select_inexact
+.
+js
+"
+]
+[
+"
 browser_autofill_duplicate_fields
 .
 js
