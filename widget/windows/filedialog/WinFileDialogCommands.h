@@ -36,6 +36,17 @@ include
 "
 mozilla
 /
+ipc
+/
+MessageLink
+.
+h
+"
+#
+include
+"
+mozilla
+/
 widget
 /
 filedialog
