@@ -7474,6 +7474,11 @@ String
 value
 :
 "
+^
+about
+:
+.
+*
 "
 mirror
 :
