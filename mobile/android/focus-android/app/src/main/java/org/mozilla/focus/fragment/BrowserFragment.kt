@@ -1966,6 +1966,11 @@ components
 sessionUseCases
 .
 goBack
+components
+.
+sessionUseCases
+.
+goForward
 binding
 .
 engineView

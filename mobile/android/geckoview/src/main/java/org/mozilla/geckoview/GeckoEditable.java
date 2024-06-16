@@ -12502,6 +12502,11 @@ KEYCODE_BACK
 case
 KeyEvent
 .
+KEYCODE_FORWARD
+:
+case
+KeyEvent
+.
 KEYCODE_VOLUME_UP
 :
 case
