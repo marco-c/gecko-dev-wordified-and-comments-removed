@@ -935,6 +935,9 @@ out_addr
 int64_t
 *
 timestamp
+EcnMarking
+*
+ecn
 )
 ;
 void
@@ -1049,6 +1052,16 @@ webrtc
 AsyncDnsResolverInterface
 >
 resolver_
+;
+uint8_t
+dscp_
+=
+0
+;
+uint8_t
+ecn_
+=
+0
 ;
 #
 if
