@@ -204,13 +204,6 @@ html
 ]
 [
 "
-test_moz_lit_element
-.
-html
-"
-]
-[
-"
 test_moz_message_bar
 .
 html
