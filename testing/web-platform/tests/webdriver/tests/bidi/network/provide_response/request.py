@@ -66,6 +66,7 @@ subscribe_events
 wait_for_event
 bidi_session
 navigate
+wait_for_future_safe
 )
 :
     
@@ -122,7 +123,10 @@ request
 )
     
 await
+wait_for_future_safe
+(
 on_auth_required
+)
 pytest
 .
 mark
@@ -176,6 +180,7 @@ wait_for_event
 bidi_session
 phase
 navigate
+wait_for_future_safe
 )
 :
     
@@ -263,7 +268,10 @@ request
 )
     
 await
+wait_for_future_safe
+(
 on_response_completed
+)
     
 if
 phase
@@ -275,11 +283,17 @@ beforeRequestSent
 :
         
 await
+wait_for_future_safe
+(
 on_response_started
+)
     
 if
 navigate
 :
         
 await
+wait_for_future_safe
+(
 on_load
+)
