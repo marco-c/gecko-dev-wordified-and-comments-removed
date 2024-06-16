@@ -506,6 +506,17 @@ Bundle
 :
 View
 {
+requireComponents
+.
+useCases
+.
+sessionUseCases
+.
+exitFullscreen
+.
+invoke
+(
+)
 val
 binding
 =
