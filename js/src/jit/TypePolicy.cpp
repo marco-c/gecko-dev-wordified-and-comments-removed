@@ -2415,6 +2415,13 @@ MIRType
 Int32
 )
 {
+power
+-
+>
+setImplicitlyUsedUnchecked
+(
+)
+;
 ins
 -
 >
