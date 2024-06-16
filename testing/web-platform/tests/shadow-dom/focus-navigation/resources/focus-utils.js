@@ -942,7 +942,7 @@ split
 )
 ;
 await
-assert_focus_navigation_forward
+assert_focus_navigation_bidirectional
 (
 expected
 )
