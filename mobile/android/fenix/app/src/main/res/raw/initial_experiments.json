@@ -503,7 +503,7 @@ experiment
 isEnrollmentPaused
 "
 :
-false
+true
 "
 isRollout
 "
