@@ -3544,6 +3544,13 @@ metadata
 "
 ]
 )
+GroupMetadata
+=
+Mapping
+[
+str
+Any
+]
 class
 TestQueueBuilder
 :
@@ -3837,11 +3844,7 @@ Any
 )
 -
 >
-Mapping
-[
-str
-Any
-]
+GroupMetadata
 :
         
 return
@@ -4581,11 +4584,7 @@ Any
 )
 -
 >
-Mapping
-[
-str
-Any
-]
+GroupMetadata
 :
         
 return

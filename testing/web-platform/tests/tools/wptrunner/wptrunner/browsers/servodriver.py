@@ -1000,6 +1000,8 @@ after_process_stop
 (
 )
     
+property
+    
 def
 pid
 (

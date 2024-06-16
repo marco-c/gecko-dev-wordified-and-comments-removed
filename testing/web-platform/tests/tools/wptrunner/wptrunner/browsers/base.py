@@ -17,8 +17,28 @@ abc
 import
 ABCMeta
 abstractmethod
+from
+typing
+import
+cast
+Any
+List
+Mapping
+Optional
+Tuple
+Type
 import
 mozprocess
+from
+mozdebug
+import
+DebuggerInfo
+from
+mozlog
+.
+structuredlog
+import
+StructuredLogger
 from
 .
 .
@@ -28,9 +48,21 @@ wait_for_service
 from
 .
 .
+testloader
+import
+GroupMetadata
+from
+.
+.
 wptcommandline
 import
 require_arg
+from
+.
+.
+wpttest
+import
+Test
 here
 =
 os
@@ -45,10 +77,20 @@ def
 cmd_arg
 (
 name
+:
+str
 value
+:
+Optional
+[
+str
+]
 =
 None
 )
+-
+>
+str
 :
     
 prefix
@@ -101,8 +143,24 @@ def
 maybe_add_args
 (
 required_args
+:
+List
+[
+str
+]
 current_args
+:
+List
+[
+str
+]
 )
+-
+>
+List
+[
+str
+]
 :
     
 for
@@ -186,8 +244,26 @@ def
 certificate_domain_list
 (
 list_of_domains
+:
+List
+[
+str
+]
+                            
 certificate_file
+:
+str
 )
+-
+>
+List
+[
+Mapping
+[
+str
+Any
+]
+]
 :
     
 "
@@ -208,6 +284,15 @@ used
 "
     
 cert_list
+:
+List
+[
+Mapping
+[
+str
+Any
+]
+]
 =
 [
 ]
@@ -242,6 +327,9 @@ def
 get_free_port
 (
 )
+-
+>
+int
 :
     
 "
@@ -299,6 +387,9 @@ else
 :
             
 return
+cast
+(
+int
 s
 .
 getsockname
@@ -307,6 +398,7 @@ getsockname
 [
 1
 ]
+)
         
 finally
 :
@@ -320,11 +412,24 @@ def
 get_timeout_multiplier
 (
 test_type
+:
+str
 run_info_data
+:
+Mapping
+[
+str
+Any
+]
 *
 *
 kwargs
+:
+Any
 )
+-
+>
+float
 :
     
 if
@@ -340,12 +445,16 @@ None
 :
         
 return
+cast
+(
+float
 kwargs
 [
 "
 timeout_multiplier
 "
 ]
+)
     
 return
 1
@@ -353,9 +462,33 @@ def
 browser_command
 (
 binary
+:
+str
+                    
 args
+:
+List
+[
+str
+]
+                    
 debug_info
+:
+DebuggerInfo
 )
+-
+>
+Tuple
+[
+List
+[
+str
+]
+List
+[
+str
+]
+]
 :
     
 if
@@ -429,6 +562,13 @@ Exception
 :
     
 pass
+BrowserSettings
+=
+Mapping
+[
+str
+Any
+]
 class
 Browser
 :
@@ -492,11 +632,9 @@ __metaclass__
 =
 ABCMeta
     
-process_cls
-=
-None
-    
 init_timeout
+:
+float
 =
 30
     
@@ -505,6 +643,8 @@ __init__
 (
 self
 logger
+:
+StructuredLogger
 )
 :
         
@@ -519,6 +659,9 @@ setup
 (
 self
 )
+-
+>
+None
 :
         
 "
@@ -550,7 +693,12 @@ settings
 (
 self
 test
+:
+Test
 )
+-
+>
+BrowserSettings
 :
         
 "
@@ -633,10 +781,17 @@ start
 (
 self
 group_metadata
+:
+GroupMetadata
 *
 *
 kwargs
+:
+Any
 )
+-
+>
+None
 :
         
 "
@@ -672,9 +827,14 @@ stop
 (
 self
 force
+:
+bool
 =
 False
 )
+-
+>
+bool
 :
         
 "
@@ -686,11 +846,24 @@ running
 browser
 process
 .
+        
+Return
+True
+iff
+the
+browser
+was
+successfully
+stopped
+.
+        
 "
 "
 "
         
 pass
+    
+property
     
 abstractmethod
     
@@ -699,6 +872,12 @@ pid
 (
 self
 )
+-
+>
+Optional
+[
+int
+]
 :
         
 "
@@ -729,6 +908,9 @@ is_alive
 (
 self
 )
+-
+>
+bool
 :
         
 "
@@ -754,6 +936,9 @@ cleanup
 (
 self
 )
+-
+>
+None
 :
         
 "
@@ -782,6 +967,22 @@ executor_browser
 (
 self
 )
+-
+>
+Tuple
+[
+Type
+[
+'
+ExecutorBrowser
+'
+]
+Mapping
+[
+str
+Any
+]
+]
 :
         
 "
@@ -816,37 +1017,19 @@ ExecutorBrowser
 }
     
 def
-maybe_parse_tombstone
-(
-self
-)
-:
-        
-"
-"
-"
-Possibly
-parse
-tombstones
-on
-Android
-device
-for
-Android
-target
-"
-"
-"
-        
-pass
-    
-def
 check_crash
 (
 self
 process
+:
+int
 test
+:
+str
 )
+-
+>
+bool
 :
         
 "
@@ -890,6 +1073,12 @@ pac
 (
 self
 )
+-
+>
+Optional
+[
+str
+]
 :
         
 return
@@ -906,9 +1095,13 @@ __init__
 (
 self
 logger
+:
+StructuredLogger
 *
 *
 kwargs
+:
+Any
 )
 :
         
@@ -925,10 +1118,18 @@ def
 start
 (
 self
+group_metadata
+:
+GroupMetadata
 *
 *
 kwargs
+:
+Any
 )
+-
+>
+None
 :
         
 "
@@ -980,18 +1181,32 @@ stop
 (
 self
 force
+:
+bool
 =
 False
 )
+-
+>
+bool
 :
         
-pass
+return
+True
+    
+property
     
 def
 pid
 (
 self
 )
+-
+>
+Optional
+[
+int
+]
 :
         
 return
@@ -1002,6 +1217,9 @@ is_alive
 (
 self
 )
+-
+>
+bool
 :
         
 return
@@ -1095,6 +1313,8 @@ self
 *
 *
 kwargs
+:
+Any
 )
 :
         
@@ -1486,10 +1706,19 @@ __init__
 (
 self
 logger
+:
+StructuredLogger
 command
+:
+List
+[
+str
+]
 *
 *
 kwargs
+:
+Any
 )
 :
         
@@ -1508,6 +1737,11 @@ command
 self
 .
 pid
+:
+Optional
+[
+int
+]
 =
 None
         
@@ -1522,6 +1756,11 @@ BEFORE_PROCESS_START
 self
 .
 line_buffer
+:
+List
+[
+bytes
+]
 =
 [
 ]
@@ -1531,7 +1770,12 @@ after_process_start
 (
 self
 pid
+:
+int
 )
+-
+>
+None
 :
         
 assert
@@ -1578,7 +1822,12 @@ self
 *
 *
 kwargs
+:
+Any
 )
+-
+>
+None
 :
         
 assert
@@ -1628,17 +1877,24 @@ item
 self
 .
 line_buffer
-=
-None
+.
+clear
+(
+)
     
 def
 after_process_stop
 (
 self
 clean_shutdown
+:
+bool
 =
 True
 )
+-
+>
+None
 :
         
 self
@@ -1683,7 +1939,12 @@ __call__
 (
 self
 line
+:
+bytes
 )
+-
+>
+None
 :
         
 if
@@ -1763,18 +2024,44 @@ def
 __init__
 (
 self
+                 
 logger
+:
+StructuredLogger
+                 
 binary
+:
+Optional
+[
+str
+]
 =
 None
+                 
 webdriver_binary
+:
+Optional
+[
+str
+]
 =
 None
                  
 webdriver_args
+:
+Optional
+[
+List
+[
+str
+]
+]
 =
 None
+                 
 host
+:
+str
 =
 "
 127
@@ -1785,24 +2072,48 @@ host
 .
 1
 "
+                 
 port
+:
+Optional
+[
+int
+]
 =
 None
+                 
 base_path
+:
+str
 =
 "
 /
 "
                  
 env
+:
+Optional
+[
+Mapping
+[
+str
+str
+]
+]
 =
 None
+                 
 supports_pac
+:
+bool
 =
 True
+                 
 *
 *
 kwargs
+:
+Any
 )
 :
         
@@ -1921,12 +2232,22 @@ else
 self
 .
 init_deadline
+:
+Optional
+[
+float
+]
 =
 None
         
 self
 .
 _output_handler
+:
+Optional
+[
+OutputHandler
+]
 =
 None
         
@@ -1939,6 +2260,13 @@ None
 self
 .
 _proc
+:
+Optional
+[
+mozprocess
+.
+ProcessHandler
+]
 =
 None
         
@@ -1953,6 +2281,12 @@ make_command
 (
 self
 )
+-
+>
+List
+[
+str
+]
 :
         
 "
@@ -1991,10 +2325,17 @@ start
 (
 self
 group_metadata
+:
+GroupMetadata
 *
 *
 kwargs
+:
+Any
 )
+-
+>
+None
 :
         
 self
@@ -2041,7 +2382,15 @@ create_output_handler
 (
 self
 cmd
+:
+List
+[
+str
+]
 )
+-
+>
+OutputHandler
 :
         
 "
@@ -2097,11 +2446,26 @@ _run_server
 (
 self
 group_metadata
+:
+GroupMetadata
 *
 *
 kwargs
-)
 :
+Any
+)
+-
+>
+None
+:
+        
+assert
+self
+.
+init_deadline
+is
+not
+None
         
 cmd
 =
@@ -2347,9 +2711,14 @@ stop
 (
 self
 force
+:
+bool
 =
 False
 )
+-
+>
+bool
 :
         
 self
@@ -2376,11 +2745,21 @@ is_alive
 )
 :
             
-kill_result
+proc
 =
+cast
+(
+mozprocess
+.
+ProcessHandler
 self
 .
 _proc
+)
+            
+kill_result
+=
+proc
 .
 kill
 (
@@ -2402,9 +2781,7 @@ clean
 =
 False
                 
-self
-.
-_proc
+proc
 .
 kill
 (
@@ -2457,9 +2834,19 @@ is_alive
 (
 self
 )
+-
+>
+bool
 :
         
 return
+self
+.
+_proc
+is
+not
+None
+and
 hasattr
 (
 self
@@ -2487,6 +2874,9 @@ url
 (
 self
 )
+-
+>
+str
 :
         
 if
@@ -2547,8 +2937,20 @@ pid
 (
 self
 )
+-
+>
+Optional
+[
+int
+]
 :
         
+return
+self
+.
+_proc
+.
+pid
 if
 self
 .
@@ -2556,14 +2958,8 @@ _proc
 is
 not
 None
-:
-            
-return
-self
-.
-_proc
-.
-pid
+else
+None
     
 property
     
@@ -2572,6 +2968,9 @@ port
 (
 self
 )
+-
+>
+int
 :
         
 if
@@ -2600,6 +2999,9 @@ cleanup
 (
 self
 )
+-
+>
+None
 :
         
 self
@@ -2613,6 +3015,20 @@ executor_browser
 (
 self
 )
+-
+>
+Tuple
+[
+Type
+[
+ExecutorBrowser
+]
+Mapping
+[
+str
+Any
+]
+]
 :
         
 return
@@ -2664,7 +3080,12 @@ settings
 (
 self
 test
+:
+Test
 )
+-
+>
+BrowserSettings
 :
         
 self
@@ -2707,6 +3128,12 @@ pac
 (
 self
 )
+-
+>
+Optional
+[
+str
+]
 :
         
 return
