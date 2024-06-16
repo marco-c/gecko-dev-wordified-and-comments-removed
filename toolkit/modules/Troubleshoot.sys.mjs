@@ -3154,11 +3154,11 @@ if
 (
 AppConstants
 .
-platform
-=
+MOZ_BUILD_APP
+!
 =
 "
-android
+browser
 "
 )
 {

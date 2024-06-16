@@ -305,9 +305,6 @@ DIRS
 aboutconfig
 "
 "
-featuregates
-"
-"
 narrate
 "
 "
@@ -517,12 +514,15 @@ DIRS
 =
 [
 "
-normandy
+featuregates
 "
 "
 messaging
 -
 system
+"
+"
+normandy
 "
 ]
 DIRS
