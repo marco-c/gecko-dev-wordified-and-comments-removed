@@ -928,7 +928,7 @@ persist_ping_lifetime_data
 glean_core
 :
 :
-persist_ping_lifetime_data
+glean_persist_ping_lifetime_data
 (
 )
 ;

@@ -362,6 +362,11 @@ value
 )
 ;
 void
+glean_persist_ping_lifetime_data
+(
+)
+;
+void
 glean_handle_client_active
 (
 )
