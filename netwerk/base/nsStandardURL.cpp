@@ -5782,7 +5782,7 @@ mDirectory
 .
 mLen
 >
-1
+0
 )
 {
 netCoalesceFlags
