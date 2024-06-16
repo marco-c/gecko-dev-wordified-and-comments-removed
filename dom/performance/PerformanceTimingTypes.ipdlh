@@ -178,6 +178,9 @@ uint8_t
 redirectCount
 ;
 bool
+renderBlocking
+;
+bool
 allRedirectsSameOrigin
 ;
 bool

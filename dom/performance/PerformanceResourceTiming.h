@@ -54,6 +54,12 @@ mozilla
 :
 dom
 {
+enum
+class
+RenderBlockingStatusType
+:
+uint8_t
+;
 #
 define
 IMPL_RESOURCE_TIMING_TAO_PROTECTED_TIMING_PROP
@@ -284,6 +290,12 @@ mInitiatorType
 aInitiatorType
 ;
 }
+RenderBlockingStatusType
+RenderBlockingStatus
+(
+)
+const
+;
 void
 GetNextHopProtocol
 (

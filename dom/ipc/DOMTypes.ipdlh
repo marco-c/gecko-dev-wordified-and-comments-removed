@@ -931,6 +931,9 @@ bool
 ?
 timingAllowCheckForPrincipal
 ;
+bool
+renderBlocking
+;
 TimeStamp
 launchServiceWorkerStart
 ;

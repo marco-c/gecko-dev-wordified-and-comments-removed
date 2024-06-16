@@ -4226,6 +4226,9 @@ mDummyChannelForImageCache
 bool
 mHasContentDecompressed
 ;
+bool
+mRenderBlocking
+;
 MOZ_ATOMIC_BITFIELDS
 (
 mAtomicBitfields3
