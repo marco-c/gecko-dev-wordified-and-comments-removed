@@ -157,6 +157,23 @@ NO_ANSI
 return
 False
     
+if
+not
+os
+.
+environ
+.
+get
+(
+"
+MOZILLABUILD
+"
+)
+:
+        
+return
+False
+    
 return
 mozilla_build_version
 (
