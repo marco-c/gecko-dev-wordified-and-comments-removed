@@ -100,7 +100,7 @@ sorted
 =
 callFunction
 (
-ArraySort
+std_Array_sort
 items
 comparefn
 )

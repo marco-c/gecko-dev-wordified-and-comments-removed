@@ -5037,6 +5037,11 @@ hasAutoUnsafeCallWithABI
 this
 false
 )
+liveArraySortDataInstances
+(
+this
+0
+)
 #
 endif
 #
@@ -5348,6 +5353,14 @@ MOZ_ASSERT
 (
 !
 resolvingList
+)
+;
+MOZ_ASSERT
+(
+liveArraySortDataInstances
+=
+=
+0
 )
 ;
 if
