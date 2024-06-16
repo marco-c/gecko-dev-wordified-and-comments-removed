@@ -641,7 +641,7 @@ isCHIPS
 StaticPrefs
 :
 :
-network_cookie_cookieBehavior_optInPartitioning
+network_cookie_CHIPS_enabled
 (
 )
 ;
@@ -2151,7 +2151,7 @@ isCHIPS
 StaticPrefs
 :
 :
-network_cookie_cookieBehavior_optInPartitioning
+network_cookie_CHIPS_enabled
 (
 )
 ;
@@ -2857,7 +2857,7 @@ needPartitioned
 StaticPrefs
 :
 :
-network_cookie_cookieBehavior_optInPartitioning
+network_cookie_CHIPS_enabled
 (
 )
 &
@@ -3484,7 +3484,7 @@ isCHIPS
 StaticPrefs
 :
 :
-network_cookie_cookieBehavior_optInPartitioning
+network_cookie_CHIPS_enabled
 (
 )
 ;
