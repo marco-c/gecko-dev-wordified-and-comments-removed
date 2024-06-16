@@ -791,6 +791,9 @@ ClipboardHelper
 copyString
 (
 detail
+this
+.
+windowContext
 lazy
 .
 ClipboardHelper

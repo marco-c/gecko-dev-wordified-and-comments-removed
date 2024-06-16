@@ -201,6 +201,15 @@ nsIClipboardOwner
 anOwner
 int32_t
 aWhichClipboard
+mozilla
+:
+:
+dom
+:
+:
+WindowContext
+*
+aWindowContext
 )
 {
 #
@@ -266,6 +275,7 @@ move
 ipcTransferable
 )
 aWhichClipboard
+aWindowContext
 )
 ;
 return
@@ -280,6 +290,15 @@ AsyncSetData
 (
 int32_t
 aWhichClipboard
+mozilla
+:
+:
+dom
+:
+:
+WindowContext
+*
+aSettingWindowContext
 nsIAsyncClipboardRequestCallback
 *
 aCallback
@@ -315,6 +334,7 @@ SendPClipboardWriteRequestConstructor
 (
 request
 aWhichClipboard
+aSettingWindowContext
 )
 ;
 request

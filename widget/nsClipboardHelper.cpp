@@ -107,6 +107,15 @@ nsAString
 aString
 int32_t
 aClipboardID
+mozilla
+:
+:
+dom
+:
+:
+WindowContext
+*
+aSettingWindowContext
 SensitiveData
 aSensitive
 )
@@ -368,6 +377,7 @@ SetData
 trans
 nullptr
 aClipboardID
+aSettingWindowContext
 )
 ;
 NS_ENSURE_SUCCESS
@@ -390,6 +400,15 @@ const
 nsAString
 &
 aString
+mozilla
+:
+:
+dom
+:
+:
+WindowContext
+*
+aSettingWindowContext
 SensitiveData
 aSensitive
 )
@@ -406,6 +425,7 @@ nsIClipboard
 :
 :
 kGlobalClipboard
+aSettingWindowContext
 aSensitive
 )
 ;
@@ -422,6 +442,7 @@ nsIClipboard
 :
 :
 kSelectionClipboard
+aSettingWindowContext
 aSensitive
 )
 ;

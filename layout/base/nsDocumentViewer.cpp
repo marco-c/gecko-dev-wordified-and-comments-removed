@@ -9346,6 +9346,12 @@ clipboard
 CopyString
 (
 locationText
+mDocument
+-
+>
+GetWindowContext
+(
+)
 )
 ;
 }
@@ -9399,6 +9405,12 @@ ImageCopy
 node
 loadContext
 aCopyFlags
+mDocument
+-
+>
+GetWindowContext
+(
+)
 )
 ;
 }

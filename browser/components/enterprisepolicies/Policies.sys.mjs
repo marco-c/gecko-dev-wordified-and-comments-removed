@@ -3323,6 +3323,14 @@ DefaultAllow
 default_allow
 "
 ]
+[
+"
+BypassForSameTabOperations
+"
+"
+bypass_for_same_tab_operations
+"
+]
 ]
 ;
 for

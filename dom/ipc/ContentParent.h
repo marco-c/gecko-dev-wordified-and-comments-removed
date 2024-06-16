@@ -3701,6 +3701,13 @@ const
 int32_t
 &
 aWhichClipboard
+const
+MaybeDiscarded
+<
+WindowContext
+>
+&
+aRequestingWindowContext
 )
 ;
 mozilla
@@ -3859,6 +3866,13 @@ const
 int32_t
 &
 aClipboardType
+const
+MaybeDiscarded
+<
+WindowContext
+>
+&
+aSettingWindowContext
 )
 ;
 mozilla

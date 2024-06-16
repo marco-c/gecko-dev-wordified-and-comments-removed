@@ -3889,6 +3889,12 @@ nsIClipboard
 :
 :
 kGlobalClipboard
+owner
+-
+>
+GetWindowContext
+(
+)
 callback
 getter_AddRefs
 (

@@ -80,6 +80,15 @@ const
 int32_t
 &
 aClipboardType
+mozilla
+:
+:
+dom
+:
+:
+WindowContext
+*
+aSettingWindowContext
 )
 ;
 IPCResult
