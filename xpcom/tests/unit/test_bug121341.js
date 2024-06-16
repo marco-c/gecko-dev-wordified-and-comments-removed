@@ -136,6 +136,8 @@ equal
 value
 "
 xy
+\
+t
 "
 )
 ;
@@ -289,7 +291,7 @@ value
 \
 ttest5
 \
-u0020
+t
 "
 )
 ;
@@ -311,6 +313,8 @@ equal
 value
 "
 test6
+\
+t
 \
 t
 "
