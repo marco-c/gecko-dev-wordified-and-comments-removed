@@ -6031,14 +6031,6 @@ IsEmpty
 return
 ;
 }
-MOZ_ASSERT
-(
-!
-LoadWasOpened
-(
-)
-)
-;
 nsAutoCString
 contentLengthStr
 ;

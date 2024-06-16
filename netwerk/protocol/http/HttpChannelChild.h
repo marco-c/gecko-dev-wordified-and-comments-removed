@@ -914,6 +914,17 @@ aContentType
 )
 override
 ;
+virtual
+void
+ExplicitSetUploadStreamLength
+(
+uint64_t
+aContentLength
+bool
+aSetContentLengthHeader
+)
+override
+;
 private
 :
 nsresult
