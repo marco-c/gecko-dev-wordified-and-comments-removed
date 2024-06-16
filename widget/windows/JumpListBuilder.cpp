@@ -114,6 +114,9 @@ h
 ifdef
 __MINGW32__
 #
+define
+INITGUID
+#
 include
 <
 propkeydef
@@ -137,6 +140,9 @@ PKEY_Link_Arguments
 100
 )
 ;
+#
+undef
+INITGUID
 #
 endif
 using
