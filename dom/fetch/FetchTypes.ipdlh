@@ -373,6 +373,9 @@ preferredAlternativeDataType
 uint32_t
 contentPolicyType
 ;
+int32_t
+internalPriority
+;
 nsCString
 referrer
 ;
