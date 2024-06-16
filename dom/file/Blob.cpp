@@ -201,6 +201,13 @@ nsAString
 aType
 )
 {
+aType
+.
+SetIsVoid
+(
+false
+)
+;
 char16_t
 *
 iter
