@@ -2017,6 +2017,9 @@ flags
 uprofiler_simple_event_marker
 (
 name
+'
+M
+'
 phase
 num_args
 arg_names
