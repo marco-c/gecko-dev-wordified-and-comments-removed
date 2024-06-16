@@ -876,6 +876,8 @@ button
 :
 enabled
 :
+hover
+:
 active
 {
 background
@@ -1002,6 +1004,8 @@ true
 ]
 :
 enabled
+:
+hover
 :
 active
 {
@@ -1211,6 +1215,8 @@ true
 ]
 :
 enabled
+:
+hover
 :
 active
 :
@@ -1527,6 +1533,8 @@ button
 :
 enabled
 :
+hover
+:
 active
 {
 border
@@ -1654,6 +1662,8 @@ true
 :
 enabled
 :
+hover
+:
 active
 {
 background
@@ -1708,6 +1718,8 @@ before
 toggle
 -
 button
+:
+hover
 :
 active
 :
@@ -2041,6 +2053,8 @@ true
 ]
 :
 enabled
+:
+hover
 :
 active
 :
