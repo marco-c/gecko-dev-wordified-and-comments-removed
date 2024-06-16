@@ -28,10 +28,3 @@ if
 true
 "
 ]
-[
-"
-test_private_repository_cleanup
-.
-py
-"
-]
