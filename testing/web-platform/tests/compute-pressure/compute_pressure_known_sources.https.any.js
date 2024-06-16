@@ -15,7 +15,7 @@ sources
 =
 PressureObserver
 .
-supportedSources
+knownSources
 ;
 assert_in_array
 (
@@ -50,14 +50,14 @@ sources
 =
 PressureObserver
 .
-supportedSources
+knownSources
 ;
 assert_equals
 (
 sources
 PressureObserver
 .
-supportedSources
+knownSources
 )
 ;
 }
@@ -84,7 +84,7 @@ sources
 =
 PressureObserver
 .
-supportedSources
+knownSources
 ;
 assert_equals
 (
@@ -92,6 +92,7 @@ Object
 .
 isFrozen
 (
+sources
 )
 true
 )
