@@ -6916,7 +6916,7 @@ off
 =
 0
 ;
-clang_getSpellingLocation
+clang_getFileLocation
 (
 self
 .
