@@ -13,15 +13,6 @@ config
 mozbuild
 "
 )
-OS_LIBS
-+
-=
-CONFIG
-[
-"
-SOCKET_LIBS
-"
-]
 if
 CONFIG
 [

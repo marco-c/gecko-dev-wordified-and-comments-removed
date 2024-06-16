@@ -135,15 +135,6 @@ nsNamedPipeService
 cpp
 "
 ]
-OS_LIBS
-+
-=
-CONFIG
-[
-"
-SOCKET_LIBS
-"
-]
 FINAL_LIBRARY
 =
 "
