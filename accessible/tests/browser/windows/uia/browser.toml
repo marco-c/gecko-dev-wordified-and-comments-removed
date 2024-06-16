@@ -50,6 +50,13 @@ js
 ]
 [
 "
+browser_focus
+.
+js
+"
+]
+[
+"
 browser_tree
 .
 js
