@@ -12054,9 +12054,6 @@ return
 true
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 if
 (
 key
@@ -12195,6 +12192,9 @@ return
 true
 ;
 }
+#
+ifdef
+NIGHTLY_BUILD
 if
 (
 key
