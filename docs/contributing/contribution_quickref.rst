@@ -3228,6 +3228,15 @@ contribution
 :
 ref
 :
+How
+to
+Contribute
+Code
+to
+Firefox
+:
+ref
+:
 Contributing
 to
 Mozilla
