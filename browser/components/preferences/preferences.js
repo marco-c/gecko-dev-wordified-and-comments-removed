@@ -1613,7 +1613,9 @@ topChromeWindow
 ;
 mainWindow
 .
-BrowserOpenAddonsMgr
+BrowserAddonUI
+.
+openAddonsMgr
 (
 )
 ;

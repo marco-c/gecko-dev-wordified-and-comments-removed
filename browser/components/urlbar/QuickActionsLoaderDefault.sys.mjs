@@ -398,7 +398,9 @@ getTopWindow
 ;
 window
 .
-BrowserOpenAddonsMgr
+BrowserAddonUI
+.
+openAddonsMgr
 (
 url
 {

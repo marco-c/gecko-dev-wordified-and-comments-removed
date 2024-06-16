@@ -1094,7 +1094,9 @@ hideMainMenu
 win
 =
 await
-BrowserOpenAddonsMgr
+BrowserAddonUI
+.
+openAddonsMgr
 (
 VIEW
 )
@@ -1424,7 +1426,9 @@ hideMainMenu
 win
 =
 await
-BrowserOpenAddonsMgr
+BrowserAddonUI
+.
+openAddonsMgr
 (
 addons
 :

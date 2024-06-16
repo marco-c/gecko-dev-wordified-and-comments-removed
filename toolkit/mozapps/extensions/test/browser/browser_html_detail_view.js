@@ -8603,7 +8603,9 @@ let
 win
 =
 await
-BrowserOpenAddonsMgr
+BrowserAddonUI
+.
+openAddonsMgr
 (
 viewID
 )
@@ -8732,7 +8734,9 @@ let
 win
 =
 await
-BrowserOpenAddonsMgr
+BrowserAddonUI
+.
+openAddonsMgr
 (
 viewID
 )
@@ -8850,7 +8854,9 @@ let
 win
 =
 await
-BrowserOpenAddonsMgr
+BrowserAddonUI
+.
+openAddonsMgr
 (
 viewID
 )

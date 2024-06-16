@@ -922,7 +922,9 @@ ownerGlobal
 return
 global
 .
-BrowserOpenAddonsMgr
+BrowserAddonUI
+.
+openAddonsMgr
 (
 "
 addons

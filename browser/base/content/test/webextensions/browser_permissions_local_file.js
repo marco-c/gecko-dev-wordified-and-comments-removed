@@ -118,7 +118,9 @@ document
 }
 =
 await
-BrowserOpenAddonsMgr
+BrowserAddonUI
+.
+openAddonsMgr
 (
 "
 addons

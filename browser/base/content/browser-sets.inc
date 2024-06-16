@@ -1555,7 +1555,9 @@ Addons
 oncommand
 =
 "
-BrowserOpenAddonsMgr
+BrowserAddonUI
+.
+openAddonsMgr
 (
 )
 ;

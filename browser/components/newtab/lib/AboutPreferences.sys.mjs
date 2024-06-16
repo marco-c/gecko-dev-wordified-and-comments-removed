@@ -472,7 +472,9 @@ browser
 .
 ownerGlobal
 .
-BrowserOpenAddonsMgr
+BrowserAddonUI
+.
+openAddonsMgr
 (
 addons
 :

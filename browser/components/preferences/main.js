@@ -18608,7 +18608,9 @@ browsingContext
 .
 topChromeWindow
 .
-BrowserOpenAddonsMgr
+BrowserAddonUI
+.
+openAddonsMgr
 (
 "
 addons

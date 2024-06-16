@@ -42,7 +42,9 @@ selected
 "
 )
 ;
-BrowserOpenAddonsMgr
+BrowserAddonUI
+.
+openAddonsMgr
 (
 )
 ;

@@ -8670,7 +8670,9 @@ this
 .
 window
 .
-BrowserOpenAddonsMgr
+BrowserAddonUI
+.
+openAddonsMgr
 (
 "
 addons

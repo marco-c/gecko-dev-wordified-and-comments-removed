@@ -10173,7 +10173,9 @@ callback
 {
 win
 .
-BrowserOpenAddonsMgr
+BrowserAddonUI
+.
+openAddonsMgr
 (
 "
 addons
