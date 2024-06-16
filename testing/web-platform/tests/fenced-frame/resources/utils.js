@@ -1219,6 +1219,7 @@ object_constructor
 html
 headers
 origin
+component_origin
 num_components
 )
 {
@@ -1265,7 +1266,7 @@ component_url
 generateRemoteContextURL
 (
 headers
-origin
+component_origin
 )
 ;
 html
@@ -1377,6 +1378,7 @@ frame_constructor
 html
 headers
 origin
+component_origin
 num_components
 )
 {
@@ -1418,6 +1420,7 @@ frame_constructor
 html
 headers
 origin
+component_origin
 num_components
 )
 ;
@@ -1448,6 +1451,7 @@ html
 headers
 attributes
 origin
+component_origin
 num_components
 )
 {
@@ -1569,6 +1573,7 @@ frame_constructor
 html
 headers
 origin
+component_origin
 num_components
 )
 ;
@@ -1809,6 +1814,10 @@ origin
 =
 '
 '
+component_origin
+=
+'
+'
 num_components
 =
 0
@@ -1833,6 +1842,7 @@ html
 headers
 attributes
 origin
+component_origin
 num_components
 )
 ;
@@ -1861,6 +1871,10 @@ attributes
 [
 ]
 origin
+=
+'
+'
+component_origin
 =
 '
 '
@@ -1894,6 +1908,7 @@ html
 headers
 attributes
 origin
+component_origin
 num_components
 )
 ;
