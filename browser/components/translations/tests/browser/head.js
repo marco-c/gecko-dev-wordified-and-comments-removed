@@ -7422,6 +7422,9 @@ false
 tryAnotherSourceMenuList
 :
 false
+tryAnotherSourceMenuPopup
+:
+false
 unsupportedLanguageContent
 :
 false
@@ -7838,6 +7841,7 @@ unsupported
 const
 {
 translateButton
+tryAnotherSourceMenuList
 unsupportedLanguageMessageBar
 }
 =
@@ -7929,6 +7933,13 @@ message
 -
 known
 "
+)
+;
+SharedTranslationsTestUtils
+.
+_assertHasFocus
+(
+tryAnotherSourceMenuList
 )
 ;
 }
