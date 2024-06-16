@@ -894,7 +894,9 @@ Back
 oncommand
 =
 "
-BrowserBack
+BrowserCommands
+.
+back
 (
 )
 ;
@@ -918,7 +920,9 @@ BackOrBackDuplicate
 oncommand
 =
 "
-BrowserBack
+BrowserCommands
+.
+back
 (
 event
 )

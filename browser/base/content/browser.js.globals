@@ -105,9 +105,6 @@ gotoHistoryIndex
 BrowserCommands
 "
 "
-BrowserBack
-"
-"
 BrowserHandleBackspace
 "
 "
