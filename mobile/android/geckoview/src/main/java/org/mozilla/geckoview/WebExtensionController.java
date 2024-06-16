@@ -6519,8 +6519,11 @@ result
 =
 GeckoResult
 .
-deny
+fromValue
 (
+AllowOrDeny
+.
+DENY
 )
 ;
 }

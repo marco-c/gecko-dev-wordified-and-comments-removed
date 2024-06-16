@@ -21981,8 +21981,11 @@ geckoResult
 !
 GeckoResult
 .
-allow
+fromValue
 (
+AllowOrDeny
+.
+ALLOW
 )
 )
 }
