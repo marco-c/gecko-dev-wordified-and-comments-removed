@@ -143,6 +143,8 @@ int
 num_glyphs
 cairo_bool_t
 overlap
+cairo_bool_t
+permit_subpixel_antialiasing
 )
 {
 ASSERT_NOT_REACHED
