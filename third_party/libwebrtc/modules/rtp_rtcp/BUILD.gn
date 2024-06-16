@@ -1704,6 +1704,13 @@ h
 "
 source
 /
+rtp_packet_send_info
+.
+cc
+"
+"
+source
+/
 rtp_packetizer_av1
 .
 cc
@@ -4760,6 +4767,13 @@ cc
 source
 /
 rtp_packet_history_unittest
+.
+cc
+"
+"
+source
+/
+rtp_packet_send_info_unittest
 .
 cc
 "
