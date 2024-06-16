@@ -1767,6 +1767,7 @@ true
 }
 if
 (
+!
 _captureThread
 .
 empty
@@ -1774,6 +1775,10 @@ empty
 )
 )
 {
+return
+0
+;
+}
 quit_
 =
 false
@@ -1831,7 +1836,6 @@ kHigh
 )
 )
 ;
-}
 return
 0
 ;
