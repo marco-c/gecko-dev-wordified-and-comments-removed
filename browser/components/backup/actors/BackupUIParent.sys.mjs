@@ -438,7 +438,7 @@ name
 =
 =
 "
-ScheduledBackupsConfirm
+ToggleScheduledBackups
 "
 )
 {
@@ -449,7 +449,12 @@ bs
 .
 setScheduledBackups
 (
-true
+message
+.
+data
+?
+.
+isScheduledBackupsEnabled
 )
 ;
 }

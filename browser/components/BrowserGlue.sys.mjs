@@ -3552,7 +3552,7 @@ true
 "
 BackupUI
 :
-ScheduledBackupsConfirm
+ToggleScheduledBackups
 "
 :
 {
