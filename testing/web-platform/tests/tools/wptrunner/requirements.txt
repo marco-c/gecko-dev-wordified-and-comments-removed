@@ -11,7 +11,7 @@ mozdebug
 .
 3
 .
-0
+1
 mozinfo
 =
 =
