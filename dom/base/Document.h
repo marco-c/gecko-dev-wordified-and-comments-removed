@@ -4504,16 +4504,6 @@ DoNotifyPossibleTitleChange
 void
 InitFeaturePolicy
 (
-const
-Variant
-<
-Nothing
-FeaturePolicyInfo
-Element
-*
->
-&
-aContainerFeaturePolicy
 )
 ;
 nsresult
