@@ -694,7 +694,7 @@ textActionSecondary
 =
 PhotonColors
 .
-DarkGrey90
+LightGrey05
 textActionTertiary
 =
 PhotonColors
