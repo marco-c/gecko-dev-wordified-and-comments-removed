@@ -635,7 +635,14 @@ js
 ]
 [
 "
-browser_translations_select_telemetry_init_failure_ui
+browser_translations_select_telemetry_init_failure_ui_then_cancel
+.
+js
+"
+]
+[
+"
+browser_translations_select_telemetry_init_failure_ui_then_succeed
 .
 js
 "
