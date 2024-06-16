@@ -252,6 +252,11 @@ font_type
 "
 reader
 .
+font_weight
+"
+"
+reader
+.
 color_scheme
 "
 "
