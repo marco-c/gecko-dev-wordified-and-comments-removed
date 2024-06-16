@@ -340,6 +340,11 @@ MFCDMMediaCapability
 nsString
 contentType
 ;
+CryptoScheme
+[
+]
+encryptionSchemes
+;
 nsString
 robustness
 ;
