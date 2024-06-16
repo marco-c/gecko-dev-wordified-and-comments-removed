@@ -18065,11 +18065,6 @@ GetScriptLoadContext
 )
 -
 >
-GetScriptElement
-(
-)
--
->
 GetParserCreated
 (
 )
