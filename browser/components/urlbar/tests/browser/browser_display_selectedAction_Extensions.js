@@ -31,6 +31,7 @@ keyword
 omniboxtest
 "
 }
+}
 background
 (
 )
@@ -50,7 +51,6 @@ doit
 }
 )
 ;
-}
 }
 }
 )

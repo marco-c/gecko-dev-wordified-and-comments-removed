@@ -899,6 +899,7 @@ keyword
 omniboxtest
 "
 }
+}
 background
 (
 )
@@ -958,7 +959,6 @@ suggest
 }
 )
 ;
-}
 }
 }
 )
@@ -1024,8 +1024,7 @@ true
 title
 :
 "
-Generated
-extension
+doit
 "
 type
 :

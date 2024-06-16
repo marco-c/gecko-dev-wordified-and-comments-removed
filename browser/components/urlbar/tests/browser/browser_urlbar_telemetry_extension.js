@@ -457,6 +457,7 @@ keyword
 omniboxtest
 "
 }
+}
 background
 (
 )
@@ -516,7 +517,6 @@ suggest
 }
 )
 ;
-}
 }
 }
 )
