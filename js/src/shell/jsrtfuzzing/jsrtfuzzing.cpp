@@ -35,6 +35,9 @@ stdio
 h
 >
 #
+ifdef
+LIBFUZZER
+#
 include
 "
 FuzzerDefs
@@ -42,12 +45,7 @@ FuzzerDefs
 h
 "
 #
-include
-"
-FuzzingInterface
-.
-h
-"
+endif
 #
 include
 "

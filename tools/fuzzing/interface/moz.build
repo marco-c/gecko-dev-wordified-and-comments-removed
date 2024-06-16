@@ -51,16 +51,6 @@ FuzzingInterfaceStream
 h
 "
 ]
-SOURCES
-+
-=
-[
-"
-FuzzingInterfaceStream
-.
-cpp
-"
-]
 DIRS
 +
 =
