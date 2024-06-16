@@ -1667,7 +1667,6 @@ key_
 \
 nsLiteralCString
 (
-PREF_MEM_OPTIONS_PREFIX
 suffix_
 )
 \
