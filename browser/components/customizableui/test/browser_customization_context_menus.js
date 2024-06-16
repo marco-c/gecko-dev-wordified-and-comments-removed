@@ -1001,8 +1001,9 @@ EventUtils
 synthesizeMouse
 (
 urlBarContainer
-100
+-
 2
+4
 {
 type
 :
