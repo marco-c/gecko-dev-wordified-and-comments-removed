@@ -509,6 +509,13 @@ js
 ]
 [
 "
+browser_translations_select_panel_settings_menu
+.
+js
+"
+]
+[
+"
 browser_translations_select_panel_translate_on_change_language_directly
 .
 js
