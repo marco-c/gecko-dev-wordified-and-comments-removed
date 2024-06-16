@@ -34,11 +34,6 @@ browser_autocomplete
 js
 "
 ]
-lineno
-=
-"
-7
-"
 [
 "
 browser_close_tab
@@ -46,11 +41,6 @@ browser_close_tab
 js
 "
 ]
-lineno
-=
-"
-10
-"
 [
 "
 browser_popup_mouseover
@@ -67,11 +57,6 @@ if
 verify
 "
 ]
-lineno
-=
-"
-13
-"
 [
 "
 browser_privbrowsing_perwindowpb
@@ -88,8 +73,3 @@ if
 verify
 "
 ]
-lineno
-=
-"
-17
-"
