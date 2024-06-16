@@ -90,12 +90,6 @@ None
         
 self
 .
-gecko_locale_revisions
-=
-None
-        
-self
-.
 l10n_revisions
 =
 {
@@ -1046,45 +1040,6 @@ mkdir_p
 parent_dir
 )
         
-if
-c
-.
-get
-(
-"
-l10n_repos
-"
-)
-:
-            
-repos
-=
-c
-.
-get
-(
-"
-l10n_repos
-"
-)
-            
-self
-.
-vcs_checkout_repos
-(
-repos
-tag_override
-=
-c
-.
-get
-(
-"
-tag_override
-"
-)
-)
-        
 locales
 =
 self
@@ -1174,8 +1129,6 @@ vcs
             
 )
         
-revs
-=
 self
 .
 vcs_checkout_repos
@@ -1188,25 +1141,8 @@ locale_repos
 parent_dir
 =
 parent_dir
-            
-tag_override
-=
-c
-.
-get
-(
-"
-tag_override
-"
-)
         
 )
-        
-self
-.
-gecko_locale_revisions
-=
-revs
 if
 __name__
 =
