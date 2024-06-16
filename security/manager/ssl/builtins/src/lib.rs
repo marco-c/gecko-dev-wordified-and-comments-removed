@@ -1,10 +1,3 @@
-#
-[
-allow
-(
-dead_code
-)
-]
 mod
 certdata
 ;

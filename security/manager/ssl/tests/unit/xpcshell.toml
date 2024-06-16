@@ -91,12 +91,6 @@ test_broken_fips
 *
 "
 "
-test_builtins
-/
-*
-*
-"
-"
 test_cert_eku
 /
 *
@@ -480,13 +474,6 @@ os
 '
 linux
 '
-"
-]
-[
-"
-test_builtins
-.
-js
 "
 ]
 [
