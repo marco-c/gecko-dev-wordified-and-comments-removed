@@ -484,7 +484,7 @@ aKey
 override
 ;
 void
-InvalidateRecording
+InvalidateSurface
 (
 )
 override

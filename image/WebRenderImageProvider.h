@@ -97,7 +97,7 @@ NS_ERROR_NOT_AVAILABLE
 }
 virtual
 void
-InvalidateRecording
+InvalidateSurface
 (
 )
 {
