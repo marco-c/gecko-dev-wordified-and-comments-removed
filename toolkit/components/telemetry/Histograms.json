@@ -139011,6 +139011,12 @@ reset_streamfilter
 "
 reset_parentapicall
 "
+"
+permissions_request
+"
+"
+launchWebAuthFlow
+"
 ]
 "
 releaseChannelCollection
@@ -139144,6 +139150,12 @@ reset_streamfilter
 "
 "
 reset_parentapicall
+"
+"
+permissions_request
+"
+"
+launchWebAuthFlow
 "
 ]
 "
