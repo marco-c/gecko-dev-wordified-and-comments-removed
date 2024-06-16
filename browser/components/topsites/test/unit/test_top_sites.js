@@ -6818,7 +6818,7 @@ foo
 ;
 TopSites
 .
-onAction
+insert
 (
 addAction
 )
@@ -6932,7 +6932,7 @@ index
 ;
 TopSites
 .
-onAction
+insert
 (
 dropAction
 )
@@ -11267,9 +11267,10 @@ link
 }
 )
 ;
+await
 TopSites
 .
-onAction
+insert
 (
 {
 type
