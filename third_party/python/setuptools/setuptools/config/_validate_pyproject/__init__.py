@@ -176,7 +176,7 @@ custom_formats
 =
 FORMAT_FUNCTIONS
 )
-    
+        
 reduce
 (
 lambda

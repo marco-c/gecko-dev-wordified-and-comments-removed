@@ -292,10 +292,12 @@ directory
 for
 "
                         
+f
 "
 '
-%
-s
+{
+f
+}
 '
 -
 -
@@ -303,17 +305,13 @@ installing
 right
 in
 '
-%
-s
-'
-"
-%
-(
-f
+{
 self
 .
 install_dir
-)
+}
+'
+"
                     
 )
                 

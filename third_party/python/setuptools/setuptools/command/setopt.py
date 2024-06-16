@@ -21,9 +21,16 @@ os
 import
 configparser
 from
-setuptools
+.
+.
 import
 Command
+from
+.
+.
+unicode_utils
+import
+_cfg_read_utf8_with_fallback
 __all__
 =
 [
@@ -120,7 +127,6 @@ path
 .
 join
 (
-            
 os
 .
 path
@@ -136,7 +142,6 @@ distutils
 .
 cfg
 '
-        
 )
     
 if
@@ -191,7 +196,6 @@ dot
 raise
 ValueError
 (
-        
 "
 config_file
 (
@@ -211,7 +215,6 @@ user
 '
 "
 kind
-    
 )
 def
 edit_config
@@ -323,13 +326,10 @@ x
 :
 x
     
-opts
-.
-read
+_cfg_read_utf8_with_fallback
 (
-[
+opts
 filename
-]
 )
     
 for
@@ -436,7 +436,6 @@ log
 .
 debug
 (
-                        
 "
 Deleting
 %
@@ -448,11 +447,9 @@ from
 %
 s
 "
-                        
 section
 option
 filename
-                    
 )
                     
 opts
@@ -477,6 +474,7 @@ log
 .
 info
 (
+                            
 "
 Deleting
 empty
@@ -489,9 +487,9 @@ from
 %
 s
 "
-                                 
 section
 filename
+                        
 )
                         
 opts
@@ -523,7 +521,6 @@ in
 %
 s
 "
-                        
 section
 option
 value
@@ -564,6 +561,13 @@ filename
 '
 w
 '
+encoding
+=
+"
+utf
+-
+8
+"
 )
 as
 f
@@ -612,7 +616,6 @@ config
 '
 g
 '
-         
 "
 save
 options
@@ -637,7 +640,6 @@ config
 '
 u
 '
-         
 "
 save
 options
@@ -662,7 +664,6 @@ filename
 '
 f
 '
-         
 "
 configuration
 file
@@ -689,6 +690,7 @@ global
 -
 config
 '
+        
 '
 user
 -
@@ -827,14 +829,15 @@ configuration
 file
 option
 "
-                
 filenames
             
 )
         
+(
 self
 .
 filename
+)
 =
 filenames
 class
@@ -1093,8 +1096,8 @@ edit_config
 self
 .
 filename
+            
 {
-                
 self
 .
 command
@@ -1118,7 +1121,6 @@ self
 .
 set_value
 }
-            
 }
             
 self

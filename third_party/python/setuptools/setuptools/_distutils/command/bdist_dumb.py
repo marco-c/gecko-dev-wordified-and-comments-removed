@@ -45,6 +45,12 @@ exec_prefix
 import
 os
 from
+distutils
+.
+_log
+import
+log
+from
 .
 .
 core
@@ -53,16 +59,10 @@ Command
 from
 .
 .
-util
-import
-get_platform
-from
-.
-.
 dir_util
 import
-remove_tree
 ensure_relative
+remove_tree
 from
 .
 .
@@ -76,11 +76,11 @@ sysconfig
 import
 get_python_version
 from
-distutils
 .
-_log
+.
+util
 import
-log
+get_platform
 class
 bdist_dumb
 (
@@ -185,8 +185,6 @@ tar
 gztar
 bztar
 xztar
-"
-"
 ztar
 zip
 )
@@ -283,8 +281,6 @@ archive
 using
 relative
 paths
-"
-"
 (
 default
 :
@@ -314,8 +310,6 @@ creating
 a
 tar
 file
-"
-"
 [
 default
 :
@@ -346,8 +340,6 @@ creating
 a
 tar
 file
-"
-"
 [
 default
 :
@@ -683,17 +675,9 @@ install
         
 archive_basename
 =
+f
 "
 {
-}
-.
-{
-}
-"
-.
-format
-(
-            
 self
 .
 distribution
@@ -701,11 +685,14 @@ distribution
 get_fullname
 (
 )
+}
+.
+{
 self
 .
 plat_name
-        
-)
+}
+"
         
 pseudoinstall_root
 =
@@ -776,6 +763,7 @@ distribution
 where
 "
                     
+f
 "
 base
 and
@@ -783,28 +771,24 @@ platbase
 are
 different
 (
-%
-s
-%
-s
-)
-"
-                    
-%
-(
+{
 repr
 (
 install
 .
 install_base
 )
+}
+{
 repr
 (
 install
 .
 install_platbase
 )
+}
 )
+"
                 
 )
             

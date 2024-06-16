@@ -24,12 +24,6 @@ scripts
 import
 os
 from
-.
-.
-core
-import
-Command
-from
 distutils
 .
 _log
@@ -39,6 +33,12 @@ from
 stat
 import
 ST_MODE
+from
+.
+.
+core
+import
+Command
 class
 install_scripts
 (

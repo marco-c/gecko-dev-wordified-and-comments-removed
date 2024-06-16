@@ -1,4 +1,8 @@
 from
+functools
+import
+lru_cache
+from
 typing
 import
 Callable
@@ -45,6 +49,22 @@ Iterable
 str
 ]
 ]
+parse_req
+:
+Callable
+[
+[
+str
+]
+Requirement
+]
+=
+lru_cache
+(
+)
+(
+Requirement
+)
 def
 parse_strings
 (
@@ -127,7 +147,6 @@ Iterator
 Requirement
 ]
 :
-    
 .
 .
 .
@@ -155,7 +174,6 @@ Iterator
 _T
 ]
 :
-    
 .
 .
 .
@@ -165,7 +183,7 @@ parse
 strs
 parser
 =
-Requirement
+parse_req
 )
 :
     

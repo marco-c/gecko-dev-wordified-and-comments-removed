@@ -38,21 +38,27 @@ urllib
 .
 request
 from
+distutils
+.
+_log
+import
+log
+from
 warnings
 import
 warn
 from
 .
 .
+_itertools
+import
+always_iterable
+from
+.
+.
 core
 import
 PyPIRCCommand
-from
-distutils
-.
-_log
-import
-log
 class
 register
 (
@@ -406,9 +412,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
 Reads
 the
 configuration
@@ -417,9 +423,9 @@ and
 set
 attributes
 .
-'
-'
-'
+"
+"
+"
         
 config
 =
@@ -556,9 +562,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
 Fetch
 the
 list
@@ -568,9 +574,9 @@ from
 the
 server
 .
-'
-'
-'
+"
+"
+"
         
 url
 =
@@ -616,9 +622,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
 Send
 the
 metadata
@@ -631,9 +637,9 @@ to
 be
 checked
 .
-'
-'
-'
+"
+"
+"
         
 (
 code
@@ -680,9 +686,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
 Send
 the
 metadata
@@ -837,9 +843,9 @@ the
 user
 .
         
-'
-'
-'
+"
+"
+"
         
 if
 self
@@ -906,9 +912,9 @@ self
 announce
 (
                 
-'
-'
-'
+"
+"
+"
 \
 We
 need
@@ -968,9 +974,9 @@ default
 1
 ]
 :
-'
-'
-'
+"
+"
+"
                 
 logging
 .
@@ -1117,23 +1123,20 @@ self
 .
 announce
 (
+f
 '
 Server
 response
 (
 {
+code
 }
 )
 :
 {
+result
 }
 '
-.
-format
-(
-code
-result
-)
 logging
 .
 INFO
@@ -1921,9 +1924,9 @@ None
 )
 :
         
-'
-'
-'
+"
+"
+"
 Post
 a
 query
@@ -1936,9 +1939,9 @@ a
 string
 response
 .
-'
-'
-'
+"
+"
+"
         
 if
 '
@@ -2031,7 +2034,7 @@ StringIO
         
 for
 key
-value
+values
 in
 data
 .
@@ -2040,45 +2043,18 @@ items
 )
 :
             
-if
-type
-(
-value
-)
-not
-in
-(
-type
-(
-[
-]
-)
-type
-(
-(
-)
-)
-)
-:
-                
-value
-=
-[
-value
-]
-            
 for
 value
 in
-value
-:
-                
-value
-=
-str
+map
 (
-value
+str
+make_iterable
+(
+values
 )
+)
+:
                 
 body
 .
@@ -2413,3 +2389,26 @@ INFO
         
 return
 result
+def
+make_iterable
+(
+values
+)
+:
+    
+if
+values
+is
+None
+:
+        
+return
+[
+None
+]
+    
+return
+always_iterable
+(
+values
+)

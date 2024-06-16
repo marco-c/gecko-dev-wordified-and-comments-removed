@@ -1,12 +1,8 @@
-import
-urllib
-.
-parse
 from
 typing
 import
 Any
-List
+Iterator
 Optional
 Set
 from
@@ -32,6 +28,11 @@ from
 specifiers
 import
 SpecifierSet
+from
+.
+utils
+import
+canonicalize_name
 class
 InvalidRequirement
 (
@@ -154,105 +155,6 @@ parsed
 .
 name
         
-if
-parsed
-.
-url
-:
-            
-parsed_url
-=
-urllib
-.
-parse
-.
-urlparse
-(
-parsed
-.
-url
-)
-            
-if
-parsed_url
-.
-scheme
-=
-=
-"
-file
-"
-:
-                
-if
-urllib
-.
-parse
-.
-urlunparse
-(
-parsed_url
-)
-!
-=
-parsed
-.
-url
-:
-                    
-raise
-InvalidRequirement
-(
-"
-Invalid
-URL
-given
-"
-)
-            
-elif
-not
-(
-parsed_url
-.
-scheme
-and
-parsed_url
-.
-netloc
-)
-or
-(
-                
-not
-parsed_url
-.
-scheme
-and
-not
-parsed_url
-.
-netloc
-            
-)
-:
-                
-raise
-InvalidRequirement
-(
-f
-"
-Invalid
-URL
-:
-{
-parsed
-.
-url
-}
-"
-)
-            
 self
 .
 url
@@ -265,14 +167,7 @@ str
 parsed
 .
 url
-        
-else
-:
-            
-self
-.
-url
-=
+or
 None
         
 self
@@ -289,11 +184,7 @@ set
 parsed
 .
 extras
-if
-parsed
-.
-extras
-else
+or
 [
 ]
 )
@@ -356,27 +247,23 @@ marker
 )
     
 def
-__str__
+_iter_parts
 (
 self
+name
+:
+str
 )
 -
 >
+Iterator
+[
 str
+]
 :
         
-parts
-:
-List
-[
-str
-]
-=
-[
-self
-.
+yield
 name
-]
         
 if
 self
@@ -399,10 +286,7 @@ extras
 )
 )
             
-parts
-.
-append
-(
+yield
 f
 "
 [
@@ -411,7 +295,6 @@ formatted_extras
 }
 ]
 "
-)
         
 if
 self
@@ -419,16 +302,12 @@ self
 specifier
 :
             
-parts
-.
-append
-(
+yield
 str
 (
 self
 .
 specifier
-)
 )
         
 if
@@ -437,10 +316,7 @@ self
 url
 :
             
-parts
-.
-append
-(
+yield
 f
 "
 {
@@ -449,7 +325,6 @@ self
 url
 }
 "
-)
             
 if
 self
@@ -457,13 +332,9 @@ self
 marker
 :
                 
-parts
-.
-append
-(
+yield
 "
 "
-)
         
 if
 self
@@ -471,10 +342,7 @@ self
 marker
 :
             
-parts
-.
-append
-(
+yield
 f
 "
 ;
@@ -484,7 +352,16 @@ self
 marker
 }
 "
+    
+def
+__str__
+(
+self
 )
+-
+>
+str
+:
         
 return
 "
@@ -492,7 +369,14 @@ return
 .
 join
 (
-parts
+self
+.
+_iter_parts
+(
+self
+.
+name
+)
 )
     
 def
@@ -533,17 +417,30 @@ int
 return
 hash
 (
+            
 (
+                
 self
 .
 __class__
 .
 __name__
-str
+                
+*
+self
+.
+_iter_parts
+(
+canonicalize_name
 (
 self
+.
+name
 )
 )
+            
+)
+        
 )
     
 def
@@ -574,14 +471,20 @@ NotImplemented
 return
 (
             
+canonicalize_name
+(
 self
 .
 name
+)
 =
 =
+canonicalize_name
+(
 other
 .
 name
+)
             
 and
 self

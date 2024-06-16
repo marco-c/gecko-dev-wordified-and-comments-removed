@@ -417,6 +417,7 @@ _module_matches_namespace
 (
 fullname
 )
+            
 else
 None
         
@@ -472,23 +473,11 @@ names
 (
     
 '
-packaging
-'
-    
-'
-ordered_set
-'
-    
-'
-more_itertools
+backports
 '
     
 '
 importlib_metadata
-'
-    
-'
-zipp
 '
     
 '
@@ -500,11 +489,23 @@ jaraco
 '
     
 '
-typing_extensions
+more_itertools
+'
+    
+'
+ordered_set
+'
+    
+'
+packaging
 '
     
 '
 tomli
+'
+    
+'
+zipp
 '
 )
 VendorImporter

@@ -94,14 +94,19 @@ Dict
 Mapping
 Optional
 Set
-Union
+from
+.
+.
+_path
+import
+StrPath
 from
 .
 .
 errors
 import
 FileError
-OptionError
+InvalidConfigError
 from
 .
 .
@@ -119,7 +124,7 @@ from
 _apply_pyprojecttoml
 import
 _PREVIOUSLY_DEFINED
-_WouldIgnoreField
+_MissingDynamic
 from
 .
 _apply_pyprojecttoml
@@ -137,15 +142,11 @@ setuptools
 dist
 import
 Distribution
-_Path
-=
-Union
-[
-str
-os
-.
-PathLike
-]
+    
+from
+typing_extensions
+import
+Self
 _logger
 =
 logging
@@ -159,7 +160,7 @@ load_file
 (
 filepath
 :
-_Path
+StrPath
 )
 -
 >
@@ -167,11 +168,13 @@ dict
 :
     
 from
-setuptools
 .
-extern
+.
+compat
+.
+py310
 import
-tomli
+tomllib
     
 with
 open
@@ -186,7 +189,7 @@ file
 :
         
 return
-tomli
+tomllib
 .
 load
 (
@@ -200,7 +203,7 @@ config
 dict
 filepath
 :
-_Path
+StrPath
 )
 -
 >
@@ -358,7 +361,7 @@ Distribution
     
 filepath
 :
-_Path
+StrPath
     
 ignore_option_errors
 =
@@ -418,7 +421,7 @@ read_configuration
     
 filepath
 :
-_Path
+StrPath
     
 expand
 =
@@ -745,13 +748,49 @@ return
 }
     
 if
-setuptools_table
+"
+setuptools
+"
+in
+asdict
+.
+get
+(
+"
+tools
+"
+{
+}
+)
 :
         
-_BetaConfiguration
+_ToolsTypoInMetadata
 .
 emit
 (
+)
+    
+if
+"
+distutils
+"
+in
+tool_table
+:
+        
+_ExperimentalConfiguration
+.
+emit
+(
+subject
+=
+"
+[
+tool
+.
+distutils
+]
+"
 )
     
 if
@@ -893,7 +932,7 @@ root_dir
 :
 Optional
 [
-_Path
+StrPath
 ]
 =
 None
@@ -1089,7 +1128,7 @@ root_dir
 :
 Optional
 [
-_Path
+StrPath
 ]
 =
 None
@@ -1948,7 +1987,7 @@ py
 )
             
 raise
-OptionError
+InvalidConfigError
 (
 msg
 )
@@ -2470,16 +2509,16 @@ self
 dynamic
 :
                     
-_WouldIgnoreField
+raise
+InvalidConfigError
+(
+_MissingDynamic
 .
-emit
+details
 (
 field
-=
-field
 value
-=
-value
+)
 )
                 
 expanded
@@ -2680,11 +2719,12 @@ group
 :
 _parse_requirements_list
 (
+                    
 self
 .
 _expand_directive
 (
-                    
+                        
 f
 "
 tool
@@ -2701,13 +2741,14 @@ dependencies
 group
 }
 "
-                    
+                        
 directive
-                    
+                        
 {
 }
-                
+                    
 )
+                
 )
                 
 for
@@ -2886,6 +2927,11 @@ __enter__
 (
 self
 )
+-
+>
+"
+Self
+"
 :
         
 "
@@ -3139,7 +3185,7 @@ exc_value
 traceback
 )
 class
-_BetaConfiguration
+_ExperimentalConfiguration
 (
 SetuptoolsWarning
 )
@@ -3147,14 +3193,12 @@ SetuptoolsWarning
     
 _SUMMARY
 =
+(
+        
 "
-Support
-for
-[
-tool
-.
-setuptools
-]
+{
+subject
+}
 in
 pyproject
 .
@@ -3162,7 +3206,53 @@ toml
 is
 still
 *
-beta
+experimental
 *
+"
+        
+"
+and
+likely
+to
+change
+in
+future
+releases
 .
 "
+    
+)
+class
+_ToolsTypoInMetadata
+(
+SetuptoolsWarning
+)
+:
+    
+_SUMMARY
+=
+(
+        
+"
+Ignoring
+[
+tools
+.
+setuptools
+]
+in
+pyproject
+.
+toml
+did
+you
+mean
+[
+tool
+.
+setuptools
+]
+?
+"
+    
+)

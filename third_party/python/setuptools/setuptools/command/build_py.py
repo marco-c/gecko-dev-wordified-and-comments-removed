@@ -27,8 +27,6 @@ fnmatch
 import
 textwrap
 import
-io
-import
 distutils
 .
 errors
@@ -63,6 +61,20 @@ from
 warnings
 import
 SetuptoolsDeprecationWarning
+_IMPLICIT_DATA_FILES
+=
+(
+'
+*
+.
+pyi
+'
+'
+py
+.
+typed
+'
+)
 def
 make_writable
 (
@@ -261,6 +273,7 @@ __updated_files
 def
 copy_file
 (
+        
 self
 infile
 outfile
@@ -270,13 +283,13 @@ preserve_mode
 preserve_times
 =
 1
-                  
 link
 =
 None
 level
 =
 1
+    
 )
 :
         
@@ -319,13 +332,14 @@ super
 .
 copy_file
 (
+            
 infile
 outfile
 preserve_mode
 preserve_times
-                                 
 link
 level
+        
 )
     
 def
@@ -747,6 +761,10 @@ package_data
 package
             
 src_dir
+            
+extra_patterns
+=
+_IMPLICIT_DATA_FILES
         
 )
         
@@ -990,11 +1008,9 @@ pairs
 "
         
 for
-(
 package
 module
 module_file
-)
 in
 self
 .
@@ -1792,8 +1808,6 @@ return
 init_py
         
 with
-io
-.
 open
 (
 init_py
@@ -2101,6 +2115,10 @@ _get_platform_patterns
 spec
 package
 src_dir
+extra_patterns
+=
+(
+)
 )
 :
         
@@ -2157,6 +2175,8 @@ itertools
 .
 chain
 (
+            
+extra_patterns
             
 spec
 .

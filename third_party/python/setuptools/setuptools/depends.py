@@ -7,13 +7,9 @@ contextlib
 import
 dis
 from
-setuptools
 .
-extern
-.
-packaging
 import
-version
+_imp
 from
 .
 _imp
@@ -24,12 +20,16 @@ PY_FROZEN
 PY_SOURCE
 from
 .
+extern
+.
+packaging
+.
+version
 import
-_imp
+Version
 __all__
 =
 [
-    
 '
 Require
 '
@@ -65,7 +65,7 @@ distribution
 def
 __init__
 (
-            
+        
 self
 name
 requested_version
@@ -74,13 +74,13 @@ homepage
 =
 '
 '
-            
 attribute
 =
 None
 format
 =
 None
+    
 )
 :
         
@@ -97,8 +97,6 @@ None
             
 format
 =
-version
-.
 Version
         
 if
@@ -225,20 +223,22 @@ date
 "
         
 return
+(
+            
 self
 .
 attribute
 is
 None
+            
 or
 self
 .
 format
 is
 None
-or
-\
             
+or
 str
 (
 version
@@ -248,6 +248,7 @@ version
 "
 unknown
 "
+            
 and
 self
 .
@@ -260,6 +261,8 @@ version
 self
 .
 requested_version
+        
+)
     
 def
 get_version
@@ -979,15 +982,36 @@ symbol
     
 STORE_NAME
 =
-90
+dis
+.
+opmap
+[
+'
+STORE_NAME
+'
+]
     
 STORE_GLOBAL
 =
-97
+dis
+.
+opmap
+[
+'
+STORE_GLOBAL
+'
+]
     
 LOAD_CONST
 =
-100
+dis
+.
+opmap
+[
+'
+LOAD_CONST
+'
+]
     
 const
 =
@@ -1060,6 +1084,9 @@ else
 const
 =
 default
+    
+return
+None
 def
 _update_globals
 (

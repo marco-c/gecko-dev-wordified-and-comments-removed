@@ -25,13 +25,33 @@ model
 "
 "
 import
-sys
-import
 os
 import
 re
 import
+sys
+import
 warnings
+from
+.
+_itertools
+import
+always_iterable
+from
+.
+_log
+import
+log
+from
+.
+_modified
+import
+newer_group
+from
+.
+dir_util
+import
+mkpath
 from
 .
 errors
@@ -40,19 +60,14 @@ import
     
 CompileError
     
-LinkError
-    
-UnknownFileError
+DistutilsModuleError
     
 DistutilsPlatformError
     
-DistutilsModuleError
+LinkError
+    
+UnknownFileError
 )
-from
-.
-spawn
-import
-spawn
 from
 .
 file_util
@@ -60,25 +75,15 @@ import
 move_file
 from
 .
-dir_util
+spawn
 import
-mkpath
-from
-.
-dep_util
-import
-newer_group
+spawn
 from
 .
 util
 import
-split_quoted
 execute
-from
-.
-_log
-import
-log
+split_quoted
 class
 CCompiler
 :
@@ -670,28 +675,25 @@ raise
 ValueError
 (
                     
+f
 "
 unknown
 executable
 '
-%
-s
+{
+key
+}
 '
 for
 class
-%
-s
-"
-                    
-%
-(
-key
+{
 self
 .
 __class__
 .
 __name__
-)
+}
+"
                 
 )
             
@@ -2410,9 +2412,12 @@ None
             
 macros
 =
+list
+(
 self
 .
 macros
+)
         
 elif
 isinstance
@@ -2868,9 +2873,12 @@ None
             
 libraries
 =
+list
+(
 self
 .
 libraries
+)
         
 elif
 isinstance
@@ -2930,9 +2938,12 @@ None
             
 library_dirs
 =
+list
+(
 self
 .
 library_dirs
+)
         
 elif
 isinstance
@@ -3001,9 +3012,12 @@ None
             
 runtime_library_dirs
 =
+list
+(
 self
 .
 runtime_library_dirs
+)
         
 elif
 isinstance
@@ -3049,8 +3063,6 @@ runtime_library_dirs
 if
 supplied
 )
-"
-"
 must
 be
 a
@@ -5401,8 +5413,7 @@ text
 True
 )
         
-f
-=
+with
 os
 .
 fdopen
@@ -5411,9 +5422,16 @@ fd
 "
 w
 "
+encoding
+=
+'
+utf
+-
+8
+'
 )
-        
-try
+as
+f
 :
             
 for
@@ -5521,15 +5539,6 @@ return
 %
 funcname
             
-)
-        
-finally
-:
-            
-f
-.
-close
-(
 )
         
 try
@@ -5855,30 +5864,25 @@ LookupError
 raise
 UnknownFileError
 (
-                
+f
 "
 unknown
 file
 type
 '
 {
+ext
 }
 '
 (
 from
 '
 {
+src_name
 }
 '
 )
 "
-.
-format
-(
-ext
-src_name
-)
-            
 )
         
 if
@@ -6095,15 +6099,19 @@ library_filename
 (
         
 self
+        
 libname
+        
 lib_type
 =
 '
 static
 '
+        
 strip_dir
 =
 0
+        
 output_dir
 =
 '
@@ -6403,6 +6411,15 @@ unix
     
 (
 '
+zos
+'
+'
+zos
+'
+)
+    
+(
+'
 posix
 '
 '
@@ -6696,6 +6713,29 @@ C
 +
 Compiler
 "
+)
+    
+'
+zos
+'
+:
+(
+'
+zosccompiler
+'
+'
+zOSCCompiler
+'
+'
+IBM
+XL
+C
+/
+C
++
++
+Compilers
+'
 )
 }
 def
@@ -7146,6 +7186,7 @@ raise
 DistutilsModuleError
 (
             
+f
 "
 can
 '
@@ -7163,24 +7204,22 @@ to
 find
 class
 '
-%
-s
+{
+class_name
+}
 '
 "
             
+f
 "
 in
 module
 '
-%
-s
+{
+module_name
+}
 '
 "
-%
-(
-class_name
-module_name
-)
         
 )
     
@@ -7485,14 +7524,18 @@ append
 "
 -
 D
-%
-s
+{
+}
 =
-%
-s
+{
+}
 "
-%
+.
+format
+(
+*
 macro
+)
 )
     
 for
@@ -7628,37 +7671,19 @@ in
 runtime_library_dirs
 :
         
-opt
-=
+lib_opts
+.
+extend
+(
+always_iterable
+(
 compiler
 .
 runtime_library_dir_option
 (
 dir
 )
-        
-if
-isinstance
-(
-opt
-list
 )
-:
-            
-lib_opts
-=
-lib_opts
-+
-opt
-        
-else
-:
-            
-lib_opts
-.
-append
-(
-opt
 )
     
 for
@@ -7722,8 +7747,6 @@ library
 file
 corresponding
 to
-"
-"
 '
 %
 s

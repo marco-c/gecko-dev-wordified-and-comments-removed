@@ -118,7 +118,6 @@ set_undefined_options
 '
 install_lib
 '
-                                   
 (
 '
 install_dir
@@ -295,7 +294,6 @@ self
 .
 execute
 (
-            
 self
 .
 copytree
@@ -318,7 +316,6 @@ self
 .
 target
 )
-        
 )
         
 self

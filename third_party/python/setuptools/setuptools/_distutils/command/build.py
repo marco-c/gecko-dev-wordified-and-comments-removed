@@ -18,9 +18,9 @@ command
 "
 "
 import
-sys
-import
 os
+import
+sys
 from
 .
 .
@@ -522,26 +522,23 @@ platform
         
 plat_specifier
 =
+f
 "
 .
 {
-}
--
-{
-}
-"
-.
-format
-(
 self
 .
 plat_name
+}
+-
+{
 sys
 .
 implementation
 .
 cache_tag
-)
+}
+"
         
 if
 hasattr

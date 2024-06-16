@@ -20,6 +20,12 @@ command
 import
 os
 from
+distutils
+.
+_log
+import
+log
+from
 .
 .
 core
@@ -31,12 +37,6 @@ from
 dir_util
 import
 remove_tree
-from
-distutils
-.
-_log
-import
-log
 class
 clean
 (

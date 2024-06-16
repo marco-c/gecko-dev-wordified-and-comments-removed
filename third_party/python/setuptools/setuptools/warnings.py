@@ -514,6 +514,7 @@ and
 due_date
 >
 today
+                
 else
 None
             
@@ -555,6 +556,7 @@ and
 due_date
 <
 today
+                
 else
 None
             

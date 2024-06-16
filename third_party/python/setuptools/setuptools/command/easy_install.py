@@ -98,9 +98,11 @@ import
 (
     
 DistutilsArgError
+    
 DistutilsOptionError
     
 DistutilsError
+    
 DistutilsPlatformError
 )
 from
@@ -132,6 +134,11 @@ import
 sys
 import
 os
+from
+typing
+import
+Dict
+List
 import
 zipimport
 import
@@ -200,7 +207,9 @@ import
 (
     
 PackageIndex
+    
 parse_requirement_arg
+    
 URL_SCHEME
 )
 from
@@ -229,20 +238,29 @@ import
 (
     
 normalize_path
+    
 resource_string
     
 get_distribution
+    
 find_distributions
+    
 Environment
+    
 Requirement
     
 Distribution
+    
 PathMetadata
+    
 EggMetadata
+    
 WorkingSet
+    
 DistributionNotFound
     
 VersionConflict
+    
 DEVELOP_DIST
 )
 import
@@ -250,8 +268,10 @@ pkg_resources
 from
 .
 .
+compat
 import
-py312compat
+py39
+py311
 from
 .
 .
@@ -288,9 +308,11 @@ __all__
 '
 easy_install
 '
+    
 '
 PthDistributions
 '
+    
 '
 extract_wininst_cfg
 '
@@ -631,7 +653,6 @@ directory
 "
 b
 "
-         
 "
 download
 /
@@ -648,14 +669,16 @@ results
 )
         
 (
+            
 '
 optimize
 =
 '
+            
 '
 O
 '
-         
+            
 "
 also
 compile
@@ -673,7 +696,7 @@ O
 \
 "
 "
-         
+            
 "
 -
 O2
@@ -697,6 +720,7 @@ default
 O0
 ]
 "
+        
 )
         
 (
@@ -705,7 +729,6 @@ record
 =
 '
 None
-         
 "
 filename
 in
@@ -832,7 +855,6 @@ ok
 '
 l
 '
-         
 "
 allow
 building
@@ -858,6 +880,7 @@ exit
 )
         
 (
+            
 '
 no
 -
@@ -865,8 +888,9 @@ find
 -
 links
 '
+            
 None
-         
+            
 "
 Don
 '
@@ -881,6 +905,7 @@ packages
 being
 installed
 "
+        
 )
         
 (
@@ -917,19 +942,23 @@ zip
 -
 ok
 '
+        
 '
 multi
 -
 version
 '
+        
 '
 exclude
 -
 scripts
 '
+        
 '
 upgrade
 '
+        
 '
 always
 -
@@ -945,6 +974,7 @@ no
 -
 deps
 '
+        
 '
 local
 -
@@ -952,6 +982,7 @@ snapshots
 -
 ok
 '
+        
 '
 version
 '
@@ -1256,6 +1287,7 @@ extant_blockers
 (
             
 filename
+            
 for
 filename
 in
@@ -1807,9 +1839,11 @@ _expand
 '
 install_dir
 '
+            
 '
 script_dir
 '
+            
 '
 build_directory
 '
@@ -1854,7 +1888,6 @@ self
 .
 set_undefined_options
 (
-            
 '
 install_lib
 '
@@ -1866,14 +1899,12 @@ install_dir
 install_dir
 '
 )
-        
 )
         
 self
 .
 set_undefined_options
 (
-            
 '
 install_scripts
 '
@@ -1885,7 +1916,6 @@ install_dir
 script_dir
 '
 )
-        
 )
         
 if
@@ -2107,11 +2137,13 @@ create_index
 self
 .
 index_url
+                
 search_path
 =
 self
 .
 shadow_path
+                
 hosts
 =
 hosts
@@ -2302,6 +2334,7 @@ see
 help
 )
 "
+            
 )
         
 self
@@ -2341,7 +2374,6 @@ path
 site_dirs
 =
 [
-            
 os
 .
 path
@@ -2357,7 +2389,6 @@ strip
 for
 s
 in
-            
 site_dirs
 .
 split
@@ -2365,7 +2396,6 @@ split
 '
 '
 )
-        
 ]
         
 for
@@ -2421,7 +2451,6 @@ normpath
 raise
 DistutilsOptionError
 (
-                    
 d
 +
 "
@@ -2440,7 +2469,6 @@ sys
 .
 path
 "
-                
 )
             
 else
@@ -2493,7 +2521,6 @@ e
 raise
 DistutilsOptionError
 (
-                
 "
 -
 -
@@ -2505,7 +2532,6 @@ be
 or
 2
 "
-            
 )
 from
 e
@@ -2951,6 +2977,7 @@ execute
 file_util
 .
 write_file
+                    
 (
 self
 .
@@ -2971,7 +2998,6 @@ s
 '
 "
 %
-                    
 self
 .
 record
@@ -3187,10 +3213,7 @@ instdir
 )
             
 except
-(
 OSError
-IOError
-)
 :
                 
 self
@@ -3272,7 +3295,7 @@ open
 (
 testfile
 '
-w
+wb
 '
 )
 .
@@ -3288,10 +3311,7 @@ testfile
 )
             
 except
-(
 OSError
-IOError
-)
 :
                 
 self
@@ -3405,6 +3425,7 @@ textwrap
 .
 dedent
 (
+        
 "
 "
 "
@@ -3472,6 +3493,7 @@ s
 "
 "
 "
+    
 )
 .
 lstrip
@@ -3484,6 +3506,7 @@ textwrap
 .
 dedent
 (
+        
 "
 "
 "
@@ -3527,6 +3550,7 @@ option
 "
 "
 "
+    
 )
 .
 lstrip
@@ -3539,6 +3563,7 @@ textwrap
 .
 dedent
 (
+        
 "
 "
 "
@@ -3668,6 +3693,7 @@ again
 "
 "
 "
+    
 )
 .
 lstrip
@@ -3688,6 +3714,7 @@ self
 __cant_write_msg
 %
 (
+            
 sys
 .
 exc_info
@@ -3696,9 +3723,11 @@ exc_info
 [
 1
 ]
+            
 self
 .
 install_dir
+        
 )
         
 if
@@ -3832,8 +3861,11 @@ ok_file
         
 tmpl
 =
+(
+            
 _one_liner
 (
+                
 "
 "
 "
@@ -3853,6 +3885,13 @@ r
 '
 w
 '
+encoding
+=
+"
+utf
+-
+8
+"
 )
             
 f
@@ -3873,12 +3912,16 @@ close
 "
 "
 "
+            
 )
+            
 +
 '
 \
 n
 '
+        
+)
         
 try
 :
@@ -3923,13 +3966,15 @@ pth_file
 '
 w
 '
+encoding
+=
+py39
+.
+LOCALE_ENCODING
 )
         
 except
-(
 OSError
-IOError
-)
 :
             
 self
@@ -4017,8 +4062,6 @@ exe
                     
 use_alt
 =
-(
-                        
 basename
 .
 lower
@@ -4032,7 +4075,6 @@ python
 exe
 '
 and
-                        
 os
 .
 path
@@ -4040,8 +4082,6 @@ path
 exists
 (
 alt
-)
-                    
 )
                     
 if
@@ -4093,7 +4133,6 @@ log
 .
 info
 (
-                        
 "
 TEST
 PASSED
@@ -4107,9 +4146,7 @@ support
 pth
 files
 "
-                        
 instdir
-                    
 )
                     
 return
@@ -4271,7 +4308,6 @@ install_script
                     
 dist
 script_name
-                    
 dist
 .
 get_metadata
@@ -4412,7 +4448,6 @@ option
 )
 .
 "
-                
 %
 (
 spec
@@ -4481,8 +4516,8 @@ a
 checkout
 there
 "
-%
                 
+%
 (
 spec
 .
@@ -4513,7 +4548,6 @@ mkdtemp
 (
 prefix
 =
-u
 "
 easy_install
 -
@@ -4671,10 +4705,13 @@ fetch_distribution
 (
                 
 spec
+                
 tmpdir
+                
 self
 .
 upgrade
+                
 self
 .
 editable
@@ -4683,6 +4720,7 @@ not
 self
 .
 always_copy
+                
 self
 .
 local_index
@@ -4845,8 +4883,8 @@ always_copy_from
 is
 not
 None
-and
             
+and
 os
 .
 path
@@ -4858,9 +4896,9 @@ normalize_path
 download
 )
 )
-=
-=
             
+=
+=
 normalize_path
 (
 self
@@ -5007,6 +5045,9 @@ spec
                     
 return
 dist
+        
+return
+None
     
 def
 select_scheme
@@ -5054,13 +5095,17 @@ unix
 def
 process_distribution
 (
-            
+        
 self
+        
 requirement
+        
 dist
+        
 deps
 =
 True
+        
 *
 info
     
@@ -5148,7 +5193,6 @@ info
 )
         
 if
-(
 dist
 .
 has_metadata
@@ -5160,12 +5204,10 @@ txt
 '
 )
 and
-                
 not
 self
 .
 no_find_links
-)
 :
             
 self
@@ -5489,8 +5531,6 @@ dst
             
 msg
 =
-(
-                
 "
 %
 r
@@ -5509,8 +5549,6 @@ not
 be
 kept
 "
-            
-)
             
 log
 .
@@ -5991,6 +6029,22 @@ unlink
 target
 )
         
+encoding
+=
+None
+if
+"
+b
+"
+in
+mode
+else
+"
+utf
+-
+8
+"
+        
 with
 open
 (
@@ -6000,6 +6054,9 @@ w
 "
 +
 mode
+encoding
+=
+encoding
 )
 as
 f
@@ -6070,7 +6127,6 @@ install_dist
 =
 installer_map
 [
-                
 dist_filename
 .
 lower
@@ -6081,7 +6137,6 @@ lower
 4
 :
 ]
-            
 ]
         
 except
@@ -6161,22 +6216,25 @@ dist_filename
         
 if
 (
+            
 setup_base
 .
 startswith
 (
 tmpdir
 )
-                
+            
 and
 self
 .
 build_directory
+            
 and
 spec
 is
 not
 None
+        
 )
 :
             
@@ -6262,8 +6320,8 @@ in
 %
 s
 "
-%
                     
+%
 os
 .
 path
@@ -6297,7 +6355,6 @@ in
 s
 "
 %
-                    
 os
 .
 path
@@ -6382,7 +6439,6 @@ path
 join
 (
 egg_path
-                                                           
 '
 EGG
 -
@@ -6711,9 +6767,9 @@ to
 s
 "
 )
+                    
 %
 (
-                        
 os
 .
 path
@@ -6722,7 +6778,6 @@ basename
 (
 egg_path
 )
-                        
 os
 .
 path
@@ -6731,7 +6786,6 @@ dirname
 (
 destination
 )
-                    
 )
                 
 )
@@ -6853,6 +6907,7 @@ metadata
 version
 '
 )
+            
 platform
 =
 get_platform
@@ -6964,16 +7019,25 @@ pkg_inf
 )
 :
             
-f
-=
+with
 open
 (
 pkg_inf
 '
 w
 '
+encoding
+=
+"
+utf
+-
+8
+"
 )
-            
+as
+f
+:
+                
 f
 .
 write
@@ -6990,7 +7054,7 @@ Version
 n
 '
 )
-            
+                
 for
 k
 v
@@ -7004,7 +7068,7 @@ metadata
 '
 )
 :
-                
+                    
 if
 k
 !
@@ -7013,7 +7077,7 @@ k
 target_version
 '
 :
-                    
+                        
 f
 .
 write
@@ -7046,12 +7110,6 @@ title
 )
 v
 )
-)
-            
-f
-.
-close
-(
 )
         
 script_dir
@@ -7086,7 +7144,6 @@ args
 0
 ]
 )
-            
 for
 args
 in
@@ -7106,12 +7163,15 @@ make_zipfile
 (
             
 egg_path
+            
 egg_tmp
+            
 verbose
 =
 self
 .
 verbose
+            
 dry_run
 =
 self
@@ -7538,7 +7598,6 @@ EGG
 INFO
 '
 )
-            
 bdist_egg
 .
 analyze_egg
@@ -7546,6 +7605,7 @@ analyze_egg
 egg_tmp
 stubs
 )
+        
 )
         
 for
@@ -7602,16 +7662,25 @@ txt
 )
 :
                     
-f
-=
+with
 open
 (
 txt
 '
 w
 '
+encoding
+=
+"
+utf
+-
+8
+"
 )
-                    
+as
+f
+:
+                        
 f
 .
 write
@@ -7635,12 +7704,6 @@ name
 \
 n
 '
-)
-                    
-f
-.
-close
-(
 )
     
 def
@@ -7798,9 +7861,9 @@ to
 s
 "
 )
+                
 %
 (
-                    
 os
 .
 path
@@ -7809,7 +7872,6 @@ basename
 (
 wheel_path
 )
-                    
 os
 .
 path
@@ -7818,7 +7880,6 @@ dirname
 (
 destination
 )
-                
 )
             
 )
@@ -7855,6 +7916,7 @@ textwrap
 .
 dedent
 (
+        
 "
 "
 "
@@ -7985,6 +8047,7 @@ higher
 "
 "
 "
+    
 )
 .
 lstrip
@@ -7997,6 +8060,7 @@ textwrap
 .
 dedent
 (
+        
 "
 "
 "
@@ -8056,6 +8120,7 @@ code
 "
 "
 "
+    
 )
     
 def
@@ -8195,6 +8260,7 @@ textwrap
 .
 dedent
 (
+        
 "
 "
 "
@@ -8271,6 +8337,7 @@ info
 "
 "
 "
+    
 )
 .
 lstrip
@@ -8440,7 +8507,6 @@ log
 .
 info
 (
-            
 "
 Running
 %
@@ -8465,7 +8531,6 @@ join
 (
 args
 )
-        
 )
         
 try
@@ -8486,7 +8551,6 @@ v
 raise
 DistutilsError
 (
-                
 "
 Setup
 script
@@ -8504,7 +8568,6 @@ args
 0
 ]
 )
-            
 )
 from
 v
@@ -8668,7 +8731,6 @@ problem
 ?
 )
 "
-                         
 dist_dir
 )
             
@@ -8775,15 +8837,19 @@ fetch_directives
 '
 find_links
 '
+            
 '
 site_dirs
 '
+            
 '
 index_url
 '
+            
 '
 optimize
 '
+            
 '
 allow_hosts
 '
@@ -9125,6 +9191,11 @@ filename
 '
 wt
 '
+encoding
+=
+py39
+.
+LOCALE_ENCODING
 )
 as
 f
@@ -9403,11 +9474,13 @@ byte_compile
 (
                     
 to_compile
+                    
 optimize
 =
 self
 .
 optimize
+                    
 force
 =
 1
@@ -9438,6 +9511,7 @@ textwrap
 .
 dedent
 (
+        
 "
 "
 "
@@ -9664,6 +9738,7 @@ again
 "
 "
 "
+    
 )
 .
 strip
@@ -10412,8 +10487,7 @@ getsitepackages
 )
 )
     
-sitedirs
-=
+return
 list
 (
 map
@@ -10422,9 +10496,6 @@ normalize_path
 sitedirs
 )
 )
-    
-return
-sitedirs
 def
 expand_paths
 (
@@ -10555,8 +10626,7 @@ pth
                 
 continue
             
-f
-=
+with
 open
 (
 os
@@ -10568,8 +10638,16 @@ join
 dirname
 name
 )
+encoding
+=
+py39
+.
+LOCALE_ENCODING
 )
-            
+as
+f
+:
+                
 lines
 =
 list
@@ -10578,12 +10656,6 @@ yield_lines
 (
 f
 )
-)
-            
-f
-.
-close
-(
 )
             
 for
@@ -11474,6 +11546,11 @@ filename
 '
 rt
 '
+encoding
+=
+py39
+.
+LOCALE_ENCODING
 )
         
 for
@@ -11786,8 +11863,6 @@ path
 not
 in
 last_paths
-\
-                    
 and
 not
 path
@@ -11795,15 +11870,19 @@ path
 startswith
 (
 (
+                
 '
 import
 '
+                
 '
 from
 '
+                
 '
 #
 '
+            
 )
 )
 :
@@ -11979,6 +12058,11 @@ filename
 '
 wt
 '
+encoding
+=
+py39
+.
+LOCALE_ENCODING
 )
 as
 f
@@ -12083,8 +12167,6 @@ map
         
 new_path
 =
-(
-            
 dist
 .
 location
@@ -12095,7 +12177,7 @@ self
 paths
 and
 (
-                
+            
 dist
 .
 location
@@ -12104,8 +12186,9 @@ in
 self
 .
 sitedirs
+            
 or
-                
+            
 dist
 .
 location
@@ -12115,8 +12198,6 @@ os
 .
 getcwd
 (
-)
-            
 )
         
 )
@@ -12353,14 +12434,9 @@ cls
 .
 prelude
         
-for
-line
-in
-lines
-:
-            
 yield
-line
+from
+lines
         
 yield
 cls
@@ -12371,6 +12447,7 @@ prelude
 =
 _one_liner
 (
+        
 "
 "
 "
@@ -12392,12 +12469,14 @@ path
 "
 "
 "
+    
 )
     
 postlude
 =
 _one_liner
 (
+        
 "
 "
 "
@@ -12464,6 +12543,7 @@ new
 "
 "
 "
+    
 )
 if
 os
@@ -13249,7 +13329,6 @@ p
 )
         
 if
-(
 np
 .
 startswith
@@ -13257,7 +13336,6 @@ startswith
 normalized_path
 )
 and
-                
 np
 [
 prefix_len
@@ -13268,12 +13346,14 @@ prefix_len
 ]
 in
 (
+            
 os
 .
 sep
+            
 '
 '
-)
+        
 )
 :
             
@@ -13515,6 +13595,7 @@ _update_zipimporter_cache
 (
         
 normalized_path
+        
 zipimport
 .
 _zip_directory_cache
@@ -13522,6 +13603,7 @@ _zip_directory_cache
 updater
 =
 clear_and_remove_cached_zip_archive_directory_data
+    
 )
 if
 '
@@ -13535,8 +13617,6 @@ builtin_module_names
     
 _replace_zip_directory_cache_data
 =
-\
-        
 _remove_and_clear_zip_directory_cache_data
 else
 :
@@ -13588,6 +13668,7 @@ _update_zipimporter_cache
 (
             
 normalized_path
+            
 zipimport
 .
 _zip_directory_cache
@@ -13595,6 +13676,7 @@ _zip_directory_cache
 updater
 =
 replace_cached_zip_archive_directory_data
+        
 )
 def
 is_python
@@ -13682,8 +13764,6 @@ try
 :
         
 with
-io
-.
 open
 (
 executable
@@ -13709,10 +13789,7 @@ read
 )
     
 except
-(
 OSError
-IOError
-)
 :
         
 return
@@ -13790,7 +13867,6 @@ bat
 /
 etc
 .
-    
 "
 "
 "
@@ -13881,7 +13957,17 @@ _chmod
 (
 *
 args
+:
+object
+*
+*
+kwargs
+:
+object
 )
+-
+>
+None
 :
         
 pass
@@ -13921,9 +14007,7 @@ mode
 )
     
 except
-os
-.
-error
+OSError
 as
 e
 :
@@ -13980,11 +14064,22 @@ Popen
 "
     
 options
+:
+List
+[
+str
+]
 =
 [
 ]
     
 split_args
+:
+Dict
+[
+str
+bool
+]
 =
 dict
 (
@@ -14455,6 +14550,7 @@ for
 item
 in
 items
+        
 )
         
 return
@@ -14524,6 +14620,7 @@ textwrap
 .
 dedent
 (
+        
 r
 "
 "
@@ -14762,6 +14859,7 @@ r
 "
 "
 "
+    
 )
 .
 lstrip
@@ -14901,14 +14999,9 @@ header
 script_text
 )
                 
-for
-res
-in
-args
-:
-                    
 yield
-res
+from
+args
     
 staticmethod
     
@@ -15750,6 +15843,7 @@ name
 .
 exe
 '
+            
 get_win_launcher
 (
 launcher_type
@@ -15983,7 +16077,7 @@ auto_chmod
 :
     
 return
-py312compat
+py311
 .
 shutil_rmtree
 (

@@ -13,10 +13,6 @@ orig
 import
 os
 import
-sys
-import
-io
-import
 contextlib
 from
 itertools
@@ -76,9 +72,8 @@ file_finders
 )
 :
         
-for
-item
-in
+yield
+from
 ep
 .
 load
@@ -87,10 +82,6 @@ load
 (
 dirname
 )
-:
-            
-yield
-item
 class
 sdist
 (
@@ -126,7 +117,6 @@ formats
 =
 '
 None
-         
 "
 formats
 for
@@ -142,15 +132,17 @@ list
 )
         
 (
+            
 '
 keep
 -
 temp
 '
+            
 '
 k
 '
-         
+            
 "
 keep
 the
@@ -161,7 +153,6 @@ after
 creating
 "
 +
-         
 "
 archive
 file
@@ -169,19 +160,22 @@ file
 s
 )
 "
+        
 )
         
 (
+            
 '
 dist
 -
 dir
 =
 '
+            
 '
 d
 '
-         
+            
 "
 directory
 to
@@ -195,7 +189,6 @@ s
 )
 in
 "
-         
 "
 [
 default
@@ -203,17 +196,20 @@ default
 dist
 ]
 "
+        
 )
         
 (
+            
 '
 owner
 =
 '
+            
 '
 u
 '
-         
+            
 "
 Owner
 name
@@ -230,17 +226,20 @@ current
 user
 ]
 "
+        
 )
         
 (
+            
 '
 group
 =
 '
+            
 '
 g
 '
-         
+            
 "
 Group
 name
@@ -257,6 +256,7 @@ current
 group
 ]
 "
+        
 )
     
 ]
@@ -455,48 +455,6 @@ initialize_options
 (
 self
 )
-        
-self
-.
-_default_to_gztar
-(
-)
-    
-def
-_default_to_gztar
-(
-self
-)
-:
-        
-if
-sys
-.
-version_info
->
-=
-(
-3
-6
-0
-'
-beta
-'
-1
-)
-:
-            
-return
-        
-self
-.
-formats
-=
-[
-'
-gztar
-'
-]
     
 def
 make_distribution
@@ -614,14 +572,11 @@ not
 NoValue
 :
                 
-setattr
-(
 os
-'
+.
 link
-'
+=
 orig_val
-)
     
 def
 add_defaults
@@ -1078,7 +1033,6 @@ one
 of
 "
 +
-                
 '
 '
 .
@@ -1204,8 +1158,6 @@ return
 False
         
 with
-io
-.
 open
 (
 self
@@ -1228,11 +1180,10 @@ readline
 )
         
 return
-(
 first_line
 !
 =
-                
+b
 '
 #
 file
@@ -1245,11 +1196,6 @@ edit
 \
 n
 '
-.
-encode
-(
-)
-)
     
 def
 read_manifest

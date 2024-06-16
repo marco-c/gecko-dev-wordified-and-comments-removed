@@ -2,15 +2,6 @@ import
 sys
 import
 os
-is_pypy
-=
-'
-__pypy__
-'
-in
-sys
-.
-builtin_module_names
 def
 warn_distutils_present
 (
@@ -26,21 +17,6 @@ in
 sys
 .
 modules
-:
-        
-return
-    
-if
-is_pypy
-and
-sys
-.
-version_info
-<
-(
-3
-7
-)
 :
         
 return
@@ -473,6 +449,7 @@ test
 :
             
 return
+None
         
 method_name
 =
@@ -524,6 +501,7 @@ is_cpython
 :
             
 return
+None
         
 import
 importlib
@@ -559,6 +537,7 @@ Exception
 :
             
 return
+None
         
 class
 DistutilsLoader

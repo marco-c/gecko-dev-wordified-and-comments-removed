@@ -27,20 +27,17 @@ ImportError
 pass
     
 return
+f
 "
 {
+osname
 }
 -
 {
+version
 }
 .
 {
+release
 }
 "
-.
-format
-(
-osname
-version
-release
-)

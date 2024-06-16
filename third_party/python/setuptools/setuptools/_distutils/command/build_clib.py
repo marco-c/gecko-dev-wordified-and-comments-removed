@@ -42,6 +42,12 @@ module
 import
 os
 from
+distutils
+.
+_log
+import
+log
+from
 .
 .
 core
@@ -59,12 +65,6 @@ from
 sysconfig
 import
 customize_compiler
-from
-distutils
-.
-_log
-import
-log
 def
 show_compilers
 (
@@ -875,7 +875,7 @@ lib_names
         
 for
 lib_name
-build_info
+_build_info
 in
 self
 .

@@ -18,8 +18,6 @@ import
 os
 import
 glob
-import
-io
 from
 setuptools
 .
@@ -31,6 +29,10 @@ easy_install
 from
 setuptools
 import
+_normalization
+from
+setuptools
+import
 _path
 from
 setuptools
@@ -38,6 +40,12 @@ import
 namespaces
 import
 setuptools
+from
+.
+.
+unicode_utils
+import
+_read_utf8_with_fallback
 class
 develop
 (
@@ -294,9 +302,16 @@ egg
         
 egg_link_fn
 =
+(
+            
+_normalization
+.
+filename_component_broken
+(
 ei
 .
 egg_name
+)
 +
 '
 .
@@ -304,6 +319,8 @@ egg
 -
 link
 '
+        
+)
         
 self
 .
@@ -587,7 +604,6 @@ _path
 .
 normpath
 (
-            
 os
 .
 path
@@ -598,7 +614,6 @@ install_dir
 egg_path
 path_to_setup
 )
-        
 )
         
 curdir
@@ -754,6 +769,13 @@ egg_link
 "
 w
 "
+encoding
+=
+"
+utf
+-
+8
+"
 )
 as
 f
@@ -834,34 +856,31 @@ self
 egg_base
 )
             
-egg_link_file
-=
-open
-(
-self
-.
-egg_link
-)
-            
 contents
 =
 [
+                
 line
 .
 rstrip
 (
 )
+                
 for
 line
 in
-egg_link_file
-]
-            
-egg_link_file
+_read_utf8_with_fallback
+(
+self
 .
-close
+egg_link
+)
+.
+splitlines
 (
 )
+            
+]
             
 if
 contents
@@ -1032,23 +1051,11 @@ basename
 script_path
 )
             
-with
-io
-.
-open
-(
-script_path
-)
-as
-strm
-:
-                
 script_text
 =
-strm
-.
-read
+_read_utf8_with_fallback
 (
+script_path
 )
             
 self
@@ -1060,6 +1067,9 @@ script_name
 script_text
 script_path
 )
+        
+return
+None
     
 def
 install_wrapper_scripts

@@ -118,6 +118,12 @@ Union
 from
 .
 .
+_path
+import
+StrPath
+from
+.
+.
 errors
 import
 FileError
@@ -193,15 +199,6 @@ setuptools
 dist
 import
 Distribution
-_Path
-=
-Union
-[
-str
-os
-.
-PathLike
-]
 SingleCommandOptions
 =
 Dict
@@ -315,7 +312,7 @@ read_configuration
     
 filepath
 :
-_Path
+StrPath
 find_others
 =
 False
@@ -494,7 +491,7 @@ Distribution
 "
 filepath
 :
-_Path
+StrPath
 )
 -
 >
@@ -553,13 +550,13 @@ Distribution
     
 filepath
 :
-_Path
+StrPath
     
 other_files
 :
 Iterable
 [
-_Path
+StrPath
 ]
 =
 (
@@ -1757,6 +1754,8 @@ option_name
         
 except
 AttributeError
+as
+e
 :
             
 raise
@@ -1764,6 +1763,8 @@ KeyError
 (
 option_name
 )
+from
+e
         
 if
 current_value
@@ -2260,7 +2261,7 @@ self
 value
 root_dir
 :
-_Path
+StrPath
 )
 :
         
@@ -2424,7 +2425,7 @@ value
 package_dir
 root_dir
 :
-_Path
+StrPath
 )
 :
         
@@ -2856,6 +2857,9 @@ parse
 (
 self
 )
+-
+>
+None
 :
         
 "
@@ -3215,7 +3219,7 @@ None
         
 root_dir
 :
-_Path
+StrPath
 =
 os
 .
@@ -3326,45 +3330,6 @@ provides
 parse_list
             
 '
-requires
-'
-:
-self
-.
-_deprecated_config_handler
-(
-                
-parse_list
-                
-"
-The
-requires
-parameter
-is
-deprecated
-please
-use
-"
-                
-"
-install_requires
-for
-runtime
-dependencies
-.
-"
-                
-due_date
-=
-(
-2023
-10
-30
-)
-            
-)
-            
-'
 obsoletes
 '
 :
@@ -3391,47 +3356,6 @@ exclude_files_parser
 '
 license
 '
-)
-            
-'
-license_file
-'
-:
-self
-.
-_deprecated_config_handler
-(
-                
-exclude_files_parser
-(
-'
-license_file
-'
-)
-                
-"
-The
-license_file
-parameter
-is
-deprecated
-"
-                
-"
-use
-license_files
-instead
-.
-"
-                
-due_date
-=
-(
-2023
-10
-30
-)
-            
 )
             
 '
@@ -3536,6 +3460,8 @@ version
             
 except
 InvalidVersion
+as
+e
 :
                 
 raise
@@ -3567,6 +3493,8 @@ version
 '
                 
 )
+from
+e
             
 return
 version
@@ -4191,8 +4119,8 @@ find_kwargs
 =
 dict
 (
-            
 [
+            
 (
 k
 v
@@ -4212,8 +4140,8 @@ in
 valid_keys
 and
 v
-]
         
+]
 )
         
 where

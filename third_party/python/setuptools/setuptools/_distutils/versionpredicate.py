@@ -15,13 +15,13 @@ strings
 "
 "
 import
+operator
+import
 re
 from
 .
 import
 version
-import
-operator
 re_validPackage
 =
 re

@@ -19,6 +19,10 @@ os
 import
 shutil
 from
+typing
+import
+List
+from
 setuptools
 import
 Command
@@ -113,6 +117,11 @@ keep
 ]
     
 boolean_options
+:
+List
+[
+str
+]
 =
 [
 ]
@@ -269,7 +278,6 @@ self
 match
 =
 [
-                
 convert_path
 (
 p
@@ -290,7 +298,6 @@ split
 '
 '
 )
-            
 ]
         
 self
@@ -437,10 +444,8 @@ keep
 ]
             
 for
-(
 t
 f
-)
 in
 files
 :

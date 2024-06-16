@@ -108,10 +108,6 @@ versions
 import
 json
 from
-io
-import
-open
-from
 os
 import
 listdir
@@ -142,6 +138,11 @@ distutils
 .
 errors
 from
+typing
+import
+Dict
+TYPE_CHECKING
+from
 setuptools
 .
 extern
@@ -150,6 +151,9 @@ more_itertools
 import
 unique_everseen
 if
+not
+TYPE_CHECKING
+and
 platform
 .
 system
@@ -193,6 +197,12 @@ HKEY_CLASSES_ROOT
 None
     
 environ
+:
+Dict
+[
+str
+str
+]
 =
 dict
 (
@@ -547,12 +557,14 @@ UnicodeDecodeError
             
 path
 =
+(
+                
 subprocess
 .
 check_output
 (
 [
-                
+                    
 join
 (
 root
@@ -570,41 +582,45 @@ vswhere
 exe
 "
 )
-                
+                    
 "
 -
 latest
 "
-                
+                    
 "
 -
 prerelease
 "
-                
+                    
 "
 -
 requires
 "
+                    
 component
-                
+                    
 "
 -
 property
 "
+                    
 "
 installationPath
 "
-                
+                    
 "
 -
 products
 "
+                    
 "
 *
 "
-            
+                
 ]
 )
+                
 .
 decode
 (
@@ -619,9 +635,12 @@ errors
 strict
 "
 )
+                
 .
 strip
 (
+)
+            
 )
             
 path
@@ -767,27 +786,34 @@ vcredist
 =
 join
 (
+            
 best_dir
+            
 "
 .
 .
 "
+            
 "
 .
 .
 "
+            
 "
 redist
 "
+            
 "
 MSVC
 "
+            
 "
 *
 *
 "
-                        
+            
 vcruntime_plat
+            
 "
 Microsoft
 .
@@ -796,12 +822,13 @@ VC14
 .
 CRT
 "
-                        
+            
 "
 vcruntime140
 .
 dll
 "
+        
 )
         
 try
@@ -858,12 +885,15 @@ vcruntime
 =
 join
 (
+                
 best_dir
+                
 '
 redist
 '
+                
 vcruntime_plat
-                             
+                
 "
 Microsoft
 .
@@ -871,11 +901,13 @@ VC140
 .
 CRT
 "
+                
 "
 vcruntime140
 .
 dll
 "
+            
 )
     
 if
@@ -965,7 +997,6 @@ environ
         
 return
 {
-            
 key
 .
 lower
@@ -973,7 +1004,6 @@ lower
 )
 :
 value
-            
 for
 key
 value
@@ -983,7 +1013,6 @@ environ
 items
 (
 )
-        
 }
     
 vcvarsall
@@ -1006,7 +1035,6 @@ errors
 .
 DistutilsPlatformError
 (
-            
 "
 Unable
 to
@@ -1015,7 +1043,6 @@ vcvarsall
 .
 bat
 "
-        
 )
     
 try
@@ -1124,7 +1151,6 @@ key
 _
 value
 in
-        
 (
 line
 .
@@ -1519,6 +1545,7 @@ message
 +
 =
 (
+                
 '
 Get
 it
@@ -1533,7 +1560,7 @@ Tools
 "
 :
 '
-                        
+                
 r
 '
 https
@@ -1546,7 +1573,7 @@ microsoft
 .
 com
 '
-                        
+                
 r
 '
 /
@@ -1559,6 +1586,7 @@ build
 tools
 /
 '
+            
 )
     
 exc
@@ -1929,6 +1957,7 @@ return
             
 '
 '
+            
 if
 (
 self
@@ -1942,13 +1971,14 @@ x86
 and
 hidex86
 )
-else
             
+else
 r
 '
 \
 x64
 '
+            
 if
 (
 self
@@ -1962,8 +1992,8 @@ amd64
 and
 x64
 )
-else
             
+else
 r
 '
 \
@@ -2089,6 +2119,7 @@ return
             
 '
 '
+            
 if
 (
 self
@@ -2102,13 +2133,14 @@ x86
 and
 hidex86
 )
-else
             
+else
 r
 '
 \
 x64
 '
+            
 if
 (
 self
@@ -2122,8 +2154,8 @@ amd64
 and
 x64
 )
-else
             
+else
 r
 '
 \
@@ -2243,6 +2275,7 @@ return
             
 '
 '
+            
 if
 self
 .
@@ -2250,8 +2283,8 @@ target_cpu
 =
 =
 current
-else
             
+else
 self
 .
 target_dir
@@ -2321,21 +2354,23 @@ instance
 HKEYS
 =
 (
+        
 winreg
 .
 HKEY_USERS
-             
+        
 winreg
 .
 HKEY_CURRENT_USER
-             
+        
 winreg
 .
 HKEY_LOCAL_MACHINE
-             
+        
 winreg
 .
 HKEY_CLASSES_ROOT
+    
 )
     
 def
@@ -3027,10 +3062,7 @@ key_read
 )
             
 except
-(
 OSError
-IOError
-)
 :
                 
 if
@@ -3062,10 +3094,7 @@ key_read
 )
                     
 except
-(
 OSError
-IOError
-)
 :
                         
 continue
@@ -3091,10 +3120,7 @@ name
 ]
             
 except
-(
 OSError
-IOError
-)
 :
                 
 pass
@@ -3110,6 +3136,9 @@ closekey
 (
 bkey
 )
+        
+return
+None
 class
 SystemInfo
 :
@@ -3254,15 +3283,12 @@ self
 .
 vc_ver
 =
-(
-            
 vc_ver
 or
 self
 .
 _find_latest_available_vs_ver
 (
-)
 )
     
 def
@@ -3336,6 +3362,7 @@ C
 version
 found
 '
+            
 )
         
 vc_vers
@@ -3475,10 +3502,7 @@ KEY_READ
 )
             
 except
-(
 OSError
-IOError
-)
 :
                 
 continue
@@ -3666,8 +3690,6 @@ vs_versions
         
 instances_dir
 =
-\
-            
 r
 '
 C
@@ -3695,10 +3717,7 @@ instances_dir
 )
         
 except
-(
 OSError
-IOError
-)
 :
             
 return
@@ -3785,7 +3804,6 @@ self
 .
 _as_float_version
 (
-                    
 state
 [
 '
@@ -3795,12 +3813,15 @@ installationVersion
 )
 ]
 =
+(
+                    
 vs_path
+                
+)
             
 except
 (
 OSError
-IOError
 KeyError
 )
 :
@@ -3939,10 +3960,10 @@ default
 =
 join
 (
+            
 self
 .
 ProgramFilesx86
-                       
 '
 Microsoft
 Visual
@@ -3956,6 +3977,7 @@ Studio
 self
 .
 vs_ver
+        
 )
         
 return
@@ -4197,7 +4219,6 @@ vc_ver
 except
 (
 OSError
-IOError
 IndexError
 )
 :
@@ -4250,10 +4271,10 @@ default
 =
 join
 (
+            
 self
 .
 ProgramFilesx86
-                       
 r
 '
 Microsoft
@@ -4270,6 +4291,7 @@ VC
 self
 .
 vs_ver
+        
 )
         
 reg_path
@@ -4510,6 +4532,9 @@ return
 .
 1
 '
+        
+return
+None
     
 property
     
@@ -5077,6 +5102,9 @@ execpath
                 
 return
 execpath
+        
+return
+None
     
 property
     
@@ -5237,7 +5265,6 @@ self
 ri
 .
 windows_kits_roots
-                                    
 '
 kitsroot
 %
@@ -5256,6 +5283,9 @@ sdkdir
 or
 '
 '
+        
+return
+None
     
 property
     
@@ -5354,6 +5384,7 @@ versions
         
 return
 (
+            
 (
 '
 4
@@ -5374,7 +5405,6 @@ return
 .
 7
 '
-                 
 '
 4
 .
@@ -5394,7 +5424,6 @@ return
 .
 6
 '
-                 
 '
 4
 .
@@ -5415,7 +5444,7 @@ return
 5
 '
 )
-                
+            
 if
 self
 .
@@ -5425,9 +5454,11 @@ vs_ver
 14
 .
 0
+            
 else
 (
 )
+        
 )
     
 property
@@ -6103,7 +6134,6 @@ dir_name
 )
 )
 and
-            
 dir_name
 .
 startswith
@@ -6625,6 +6655,7 @@ paths
         
 return
 [
+            
 join
 (
 self
@@ -6636,7 +6667,7 @@ VCInstallDir
 Include
 '
 )
-                
+            
 join
 (
 self
@@ -6651,6 +6682,7 @@ ATLMFC
 Include
 '
 )
+        
 ]
     
 property
@@ -7045,6 +7077,7 @@ vs_ver
 host_dir
 =
 (
+                
 r
 '
 bin
@@ -7062,7 +7095,6 @@ current_is_x86
 (
 )
 else
-                        
 r
 '
 bin
@@ -7071,6 +7103,7 @@ HostX64
 %
 s
 '
+            
 )
             
 tools
@@ -7079,7 +7112,6 @@ tools
 [
 join
 (
-                
 si
 .
 VCInstallDir
@@ -7117,9 +7149,9 @@ tools
 +
 =
 [
+                    
 join
 (
-                    
 si
 .
 VCInstallDir
@@ -7136,6 +7168,7 @@ x64
 True
 )
 )
+                
 ]
         
 else
@@ -7403,6 +7436,7 @@ sdkver
             
 return
 [
+                
 join
 (
 include
@@ -7413,7 +7447,7 @@ sshared
 %
 sdkver
 )
-                    
+                
 join
 (
 include
@@ -7424,7 +7458,7 @@ sum
 %
 sdkver
 )
-                    
+                
 join
 (
 include
@@ -7435,6 +7469,7 @@ swinrt
 %
 sdkver
 )
+            
 ]
     
 property
@@ -7572,7 +7607,6 @@ UnionMetadata
                 
 join
 (
-                    
 ref
 '
 Windows
@@ -7615,7 +7649,6 @@ FoundationContract
                 
 join
 (
-                    
 ref
 '
 Windows
@@ -7626,7 +7659,6 @@ Connectivity
 .
 WwanContract
 '
-                    
 '
 1
 .
@@ -7646,9 +7678,11 @@ self
 si
 .
 WindowsSdkDir
+                    
 '
 ExtensionSDKs
 '
+                    
 '
 Microsoft
 .
@@ -7665,9 +7699,11 @@ VCLibs
 self
 .
 vs_ver
+                    
 '
 References
 '
+                    
 '
 CommonConfiguration
 '
@@ -7675,6 +7711,7 @@ CommonConfiguration
 '
 neutral
 '
+                
 )
             
 ]
@@ -8279,7 +8316,6 @@ si
 FrameworkDir32
 ver
 )
-                      
 for
 ver
 in
@@ -8303,7 +8339,6 @@ si
 FrameworkDir64
 ver
 )
-                      
 for
 ver
 in
@@ -9256,6 +9291,7 @@ redist
 crt_dirs
 =
 (
+            
 '
 Microsoft
 .
@@ -9273,7 +9309,7 @@ vc_ver
 *
 10
 )
-                    
+            
 '
 Microsoft
 .
@@ -9294,6 +9330,7 @@ vs_ver
 *
 10
 )
+        
 )
         
 for
@@ -9401,29 +9438,33 @@ self
 .
 _build_paths
 (
+                
 '
 include
 '
-                                      
+                
 [
+                    
 self
 .
 VCIncludes
-                                       
+                    
 self
 .
 OSIncludes
-                                       
+                    
 self
 .
 UCRTIncludes
-                                       
+                    
 self
 .
 NetFxSDKIncludes
+                
 ]
-                                      
+                
 exists
+            
 )
             
 lib
@@ -9432,33 +9473,37 @@ self
 .
 _build_paths
 (
+                
 '
 lib
 '
-                                  
+                
 [
+                    
 self
 .
 VCLibraries
-                                   
+                    
 self
 .
 OSLibraries
-                                   
+                    
 self
 .
 FxTools
-                                   
+                    
 self
 .
 UCRTLibraries
-                                   
+                    
 self
 .
 NetFxSDKLibraries
+                
 ]
-                                  
+                
 exists
+            
 )
             
 libpath
@@ -9467,29 +9512,28 @@ self
 .
 _build_paths
 (
+                
 '
 libpath
 '
-                                      
+                
 [
 self
 .
 VCLibraries
-                                       
 self
 .
 FxTools
-                                       
 self
 .
 VCStoreRefs
-                                       
 self
 .
 OSLibpath
 ]
-                                      
+                
 exists
+            
 )
             
 path
@@ -9498,49 +9542,53 @@ self
 .
 _build_paths
 (
+                
 '
 path
 '
-                                   
+                
 [
+                    
 self
 .
 VCTools
-                                    
+                    
 self
 .
 VSTools
-                                    
+                    
 self
 .
 VsTDb
-                                    
+                    
 self
 .
 SdkTools
-                                    
+                    
 self
 .
 SdkSetup
-                                    
+                    
 self
 .
 FxTools
-                                    
+                    
 self
 .
 MSBuild
-                                    
+                    
 self
 .
 HTMLHelpWorkshop
-                                    
+                    
 self
 .
 FSharp
+                
 ]
-                                   
+                
 exists
+            
 )
         
 )

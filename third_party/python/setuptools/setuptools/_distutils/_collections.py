@@ -1,3 +1,7 @@
+from
+__future__
+import
+annotations
 import
 collections
 import
@@ -6,6 +10,16 @@ import
 itertools
 import
 operator
+from
+collections
+.
+abc
+import
+Mapping
+from
+typing
+import
+Any
 class
 DictStack
 (
@@ -552,10 +566,7 @@ as
 sort_params
 .
     
-Let
-'
-s
-create
+Create
 a
 map
 that
@@ -682,11 +693,7 @@ r
 b
 '
     
-But
-you
-'
-ll
-notice
+Notice
 that
 the
 way
@@ -1155,17 +1162,28 @@ b
 def
 __init__
 (
+        
 self
+        
 source
+        
 sort_params
+:
+Mapping
+[
+str
+Any
+]
 =
 {
 }
+        
 key_match_comparator
 =
 operator
 .
 le
+    
 )
 :
         

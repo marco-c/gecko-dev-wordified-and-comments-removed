@@ -25,12 +25,12 @@ thing
 "
 import
 os
+import
+sys
 from
 warnings
 import
 warn
-import
-sys
 try
 :
     
@@ -45,6 +45,16 @@ zipfile
 None
 from
 .
+_log
+import
+log
+from
+.
+dir_util
+import
+mkpath
+from
+.
 errors
 import
 DistutilsExecError
@@ -53,16 +63,6 @@ from
 spawn
 import
 spawn
-from
-.
-dir_util
-import
-mkpath
-from
-.
-_log
-import
-log
 try
 :
     

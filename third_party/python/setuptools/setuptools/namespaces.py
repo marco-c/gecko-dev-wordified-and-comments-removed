@@ -6,6 +6,11 @@ import
 log
 import
 itertools
+from
+.
+compat
+import
+py39
 flatten
 =
 itertools
@@ -49,27 +54,12 @@ nsp
 return
         
 filename
-ext
-=
-os
-.
-path
-.
-splitext
-(
-self
-.
-_get_target
-(
-)
-)
-        
-filename
-+
 =
 self
 .
-nspkg_ext
+_get_nspkg_file
+(
+)
         
 self
 .
@@ -122,6 +112,11 @@ filename
 '
 wt
 '
+encoding
+=
+py39
+.
+LOCALE_ENCODING
 )
 as
 f
@@ -142,27 +137,12 @@ self
 :
         
 filename
-ext
-=
-os
-.
-path
-.
-splitext
-(
-self
-.
-_get_target
-(
-)
-)
-        
-filename
-+
 =
 self
 .
-nspkg_ext
+_get_nspkg_file
+(
+)
         
 if
 not
@@ -198,6 +178,36 @@ filename
 )
     
 def
+_get_nspkg_file
+(
+self
+)
+:
+        
+filename
+_
+=
+os
+.
+path
+.
+splitext
+(
+self
+.
+_get_target
+(
+)
+)
+        
+return
+filename
++
+self
+.
+nspkg_ext
+    
+def
 _get_target
 (
 self
@@ -218,19 +228,6 @@ import
 sys
 types
 os
-"
-        
-"
-has_mfs
-=
-sys
-.
-version_info
->
-(
-3
-5
-)
 "
         
 "
@@ -259,8 +256,6 @@ r
 "
 importlib
 =
-has_mfs
-and
 __import__
 (
 '
@@ -272,8 +267,6 @@ util
 "
         
 "
-has_mfs
-and
 __import__
 (
 '
@@ -289,8 +282,6 @@ machinery
 "
 m
 =
-has_mfs
-and
 "
             
 "
@@ -351,14 +342,12 @@ p
 )
         
 (
-            
 "
 m
 =
 m
 or
 "
-            
 "
 sys
 .
@@ -383,7 +372,6 @@ r
 )
 )
 "
-        
 )
         
 "
@@ -439,7 +427,6 @@ installer
 _nspkg_tmpl_multi
 =
 (
-        
 '
 m
 and
@@ -463,7 +450,6 @@ r
 m
 )
 '
-    
 )
     
 "
@@ -618,6 +604,8 @@ or
 return
 sorted
 (
+set
+(
 flatten
 (
 map
@@ -626,6 +614,7 @@ self
 .
 _pkg_names
 pkgs
+)
 )
 )
 )

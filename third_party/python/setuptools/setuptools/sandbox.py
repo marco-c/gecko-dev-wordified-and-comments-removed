@@ -20,6 +20,11 @@ import
 textwrap
 import
 builtins
+from
+typing
+import
+Union
+List
 import
 pkg_resources
 from
@@ -508,7 +513,7 @@ will
 save
 an
 exception
-serialized
+serialize
 and
 restore
 it
@@ -546,6 +551,7 @@ exc
 :
             
 return
+False
         
 self
 .
@@ -1476,6 +1482,8 @@ def
 _mk_dual_path_wrapper
 (
 name
+:
+str
 )
 :
         
@@ -1540,7 +1548,7 @@ return
 wrap
     
 for
-name
+__name
 in
 [
 "
@@ -1559,7 +1567,7 @@ if
 hasattr
 (
 _os
-name
+__name
 )
 :
             
@@ -1567,18 +1575,20 @@ locals
 (
 )
 [
-name
+__name
 ]
 =
 _mk_dual_path_wrapper
 (
-name
+__name
 )
     
 def
 _mk_single_path_wrapper
 (
 name
+:
+str
 original
 =
 None
@@ -1668,7 +1678,7 @@ _open
 )
     
 for
-name
+__name
 in
 [
         
@@ -1755,7 +1765,7 @@ if
 hasattr
 (
 _os
-name
+__name
 )
 :
             
@@ -1763,18 +1773,20 @@ locals
 (
 )
 [
-name
+__name
 ]
 =
 _mk_single_path_wrapper
 (
-name
+__name
 )
     
 def
 _mk_single_with_return
 (
 name
+:
+str
 )
 :
         
@@ -1852,7 +1864,7 @@ return
 wrap
     
 for
-name
+__name
 in
 [
 '
@@ -1868,7 +1880,7 @@ if
 hasattr
 (
 _os
-name
+__name
 )
 :
             
@@ -1876,18 +1888,20 @@ locals
 (
 )
 [
-name
+__name
 ]
 =
 _mk_single_with_return
 (
-name
+__name
 )
     
 def
 _mk_query
 (
 name
+:
+str
 )
 :
         
@@ -1944,7 +1958,7 @@ return
 wrap
     
 for
-name
+__name
 in
 [
 '
@@ -1960,7 +1974,7 @@ if
 hasattr
 (
 _os
-name
+__name
 )
 :
             
@@ -1968,12 +1982,12 @@ locals
 (
 )
 [
-name
+__name
 ]
 =
 _mk_query
 (
-name
+__name
 )
     
 def
@@ -2192,66 +2206,75 @@ dict
 .
 fromkeys
 (
-        
 [
-            
+        
 "
 open
 "
-            
+        
 "
 chmod
 "
-            
+        
 "
 chown
 "
-            
+        
 "
 mkdir
 "
-            
+        
 "
 remove
 "
-            
+        
 "
 unlink
 "
-            
+        
 "
 rmdir
 "
-            
+        
 "
 utime
 "
-            
+        
 "
 lchown
 "
-            
+        
 "
 chroot
 "
-            
+        
 "
 mkfifo
 "
-            
+        
 "
 mknod
 "
-            
+        
 "
 tempnam
 "
-        
-]
     
+]
 )
     
 _exception_patterns
+:
+List
+[
+Union
+[
+str
+re
+.
+Pattern
+]
+]
 =
 [
 ]

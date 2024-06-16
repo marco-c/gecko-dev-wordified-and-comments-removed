@@ -42,8 +42,6 @@ DistutilsOptionError
 import
 os
 import
-socket
-import
 zipfile
 import
 tempfile
@@ -143,14 +141,16 @@ user_options
 [
         
 (
+            
 '
 repository
 =
 '
+            
 '
 r
 '
-         
+            
 "
 url
 of
@@ -166,6 +166,7 @@ s
 upload
 .
 DEFAULT_REPOSITORY
+        
 )
         
 (
@@ -175,7 +176,6 @@ show
 response
 '
 None
-         
 '
 display
 full
@@ -321,6 +321,7 @@ org
 instead
 .
 "
+        
 )
         
 upload
@@ -981,12 +982,17 @@ b
         
 end_items
 =
+(
+            
 end_boundary
+            
 b
 "
 \
 n
 "
+        
+)
         
 builder
 =
@@ -1225,17 +1231,17 @@ params
 query
 fragments
 =
-\
-            
 urllib
 .
 parse
 .
 urlparse
 (
+            
 self
 .
 repository
+        
 )
         
 assert
@@ -1384,9 +1390,7 @@ body
 )
         
 except
-socket
-.
-error
+OSError
 as
 e
 :

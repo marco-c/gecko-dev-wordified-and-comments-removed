@@ -169,8 +169,6 @@ ast
 import
 importlib
 import
-io
-import
 os
 import
 pathlib
@@ -245,6 +243,7 @@ import
 same_path
 as
 _same_path
+StrPath
 from
 .
 .
@@ -280,15 +279,6 @@ chain_iter
 chain
 .
 from_iterable
-_Path
-=
-Union
-[
-str
-os
-.
-PathLike
-]
 _K
 =
 TypeVar
@@ -575,7 +565,7 @@ root_dir
 :
 Optional
 [
-_Path
+StrPath
 ]
 =
 None
@@ -725,9 +715,10 @@ expanded_values
 .
 extend
 (
+                
 sorted
 (
-                
+                    
 os
 .
 path
@@ -747,7 +738,7 @@ sep
 /
 "
 )
-                
+                    
 for
 path
 in
@@ -758,7 +749,9 @@ recursive
 =
 True
 )
+                
 )
+            
 )
         
 else
@@ -806,7 +799,7 @@ str
 bytes
 Iterable
 [
-_Path
+StrPath
 ]
 ]
 root_dir
@@ -946,14 +939,14 @@ filepaths
 :
 Iterable
 [
-_Path
+StrPath
 ]
 )
 -
 >
 Iterator
 [
-_Path
+StrPath
 ]
 :
     
@@ -1005,7 +998,7 @@ filepath
 Union
 [
 bytes
-_Path
+StrPath
 ]
 )
 -
@@ -1014,8 +1007,6 @@ str
 :
     
 with
-io
-.
 open
 (
 filepath
@@ -1042,7 +1033,7 @@ _assert_local
 (
 filepath
 :
-_Path
+StrPath
 root_dir
 :
 str
@@ -1134,7 +1125,7 @@ root_dir
 :
 Optional
 [
-_Path
+StrPath
 ]
 =
 None
@@ -1404,7 +1395,7 @@ module_path
 :
 Optional
 [
-_Path
+StrPath
 ]
 )
 -
@@ -1543,13 +1534,13 @@ str
 ]
 root_dir
 :
-_Path
+StrPath
 )
 -
 >
 Tuple
 [
-_Path
+StrPath
 Optional
 [
 str
@@ -1862,7 +1853,7 @@ root_dir
 :
 Optional
 [
-_Path
+StrPath
 ]
 =
 None
@@ -1986,7 +1977,7 @@ root_dir
 :
 Optional
 [
-_Path
+StrPath
 ]
 =
 None
@@ -2078,7 +2069,7 @@ root_dir
 :
 Optional
 [
-_Path
+StrPath
 ]
 =
 None
@@ -2430,7 +2421,6 @@ get
 =
 =
 path
-            
 or
 os
 .
@@ -2463,10 +2453,10 @@ _nest_path
 (
 parent
 :
-_Path
+StrPath
 path
 :
-_Path
+StrPath
 )
 -
 >
@@ -2682,7 +2672,7 @@ root_dir
 :
 Optional
 [
-_Path
+StrPath
 ]
 =
 None

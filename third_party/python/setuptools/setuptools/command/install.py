@@ -18,6 +18,10 @@ command
 install
 as
 orig
+from
+typing
+import
+cast
 import
 setuptools
 from
@@ -27,6 +31,13 @@ warnings
 import
 SetuptoolsDeprecationWarning
 SetuptoolsWarning
+from
+.
+bdist_egg
+import
+bdist_egg
+as
+bdist_egg_cls
 _install
 =
 orig
@@ -87,6 +98,7 @@ this
 )
         
 (
+            
 '
 single
 -
@@ -96,8 +108,9 @@ externally
 -
 managed
 '
+            
 None
-         
+            
 "
 used
 by
@@ -111,6 +124,7 @@ flat
 '
 eggs
 "
+        
 )
     
 ]
@@ -132,6 +146,7 @@ and
 -
 unmanageable
 '
+        
 '
 single
 -
@@ -263,13 +278,12 @@ html
         
 )
         
-orig
-.
-install
+super
+(
+)
 .
 initialize_options
 (
-self
 )
         
 self
@@ -291,13 +305,12 @@ self
 )
 :
         
-orig
-.
-install
+super
+(
+)
 .
 finalize_options
 (
-self
 )
         
 if
@@ -395,6 +408,9 @@ extra_dirs
 =
 '
 '
+        
+return
+None
     
 def
 run
@@ -414,13 +430,12 @@ single_version_externally_managed
 :
             
 return
-orig
-.
-install
+super
+(
+)
 .
 run
 (
-self
 )
         
 if
@@ -437,13 +452,12 @@ currentframe
 )
 :
             
-orig
-.
-install
+super
+(
+)
 .
 run
 (
-self
 )
         
 else
@@ -454,6 +468,9 @@ self
 do_egg_install
 (
 )
+        
+return
+None
     
 staticmethod
     
@@ -667,7 +684,9 @@ frames
 ]
 :
             
+(
 caller
+)
 =
 frame
 [
@@ -722,8 +741,6 @@ run_command
 continue
             
 return
-(
-                
 caller_module
 =
 =
@@ -732,7 +749,6 @@ distutils
 .
 dist
 '
-                
 and
 info
 .
@@ -742,8 +758,9 @@ function
 '
 run_commands
 '
-            
-)
+        
+return
+False
     
 def
 do_egg_install
@@ -773,16 +790,19 @@ easy_install
 self
 .
 distribution
+            
 args
 =
 "
 x
 "
+            
 root
 =
 self
 .
 root
+            
 record
 =
 self
@@ -832,9 +852,11 @@ bdist_egg
 '
 )
         
-args
+bdist_egg
 =
-[
+cast
+(
+bdist_egg_cls
 self
 .
 distribution
@@ -845,6 +867,12 @@ get_command_obj
 bdist_egg
 '
 )
+)
+        
+args
+=
+[
+bdist_egg
 .
 egg_output
 ]
@@ -889,9 +917,8 @@ install
 .
 sub_commands
 =
-(
-    
 [
+    
 cmd
 for
 cmd
@@ -913,8 +940,6 @@ install
 _nc
 ]
 +
-    
 install
 .
 new_commands
-)

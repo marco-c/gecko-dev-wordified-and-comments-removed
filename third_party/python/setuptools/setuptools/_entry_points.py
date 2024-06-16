@@ -81,7 +81,10 @@ ep
 extras
     
 except
+(
 AttributeError
+AssertionError
+)
 as
 ex
 :
@@ -323,7 +326,6 @@ load_group
 value
 group
 )
-        
 for
 group
 value
@@ -333,6 +335,7 @@ eps
 items
 (
 )
+    
 )
     
 return
@@ -495,7 +498,6 @@ n
 .
 join
 (
-        
 f
 '
 [
@@ -514,13 +516,11 @@ items
 \
 n
 '
-        
 for
 group
 items
 in
 groups
-    
 )
 def
 render_items
@@ -537,7 +537,6 @@ n
 .
 join
 (
-        
 f
 '
 {
@@ -552,7 +551,6 @@ ep
 value
 }
 '
-        
 for
 ep
 in
@@ -560,5 +558,4 @@ sorted
 (
 eps
 )
-    
 )

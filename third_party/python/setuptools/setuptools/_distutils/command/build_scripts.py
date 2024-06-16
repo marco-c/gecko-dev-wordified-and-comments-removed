@@ -21,14 +21,28 @@ import
 os
 import
 re
+import
+tokenize
+from
+distutils
+import
+sysconfig
+from
+distutils
+.
+_log
+import
+log
 from
 stat
 import
 ST_MODE
 from
-distutils
+.
+.
+_modified
 import
-sysconfig
+newer
 from
 .
 .
@@ -38,23 +52,9 @@ Command
 from
 .
 .
-dep_util
-import
-newer
-from
-.
-.
 util
 import
 convert_path
-from
-distutils
-.
-_log
-import
-log
-import
-tokenize
 shebang_pattern
 =
 re
@@ -685,13 +685,13 @@ BINDIR
                         
 "
 python
-%
-s
-%
-s
+{
+}
+{
+}
 "
-                        
-%
+.
+format
 (
                             
 sysconfig
@@ -976,12 +976,13 @@ UnicodeEncodeError
 raise
 ValueError
 (
-                
+f
 "
 The
 shebang
 (
 {
+shebang
 !
 r
 }
@@ -989,19 +990,11 @@ r
 is
 not
 encodable
-"
-"
 to
 utf
 -
 8
 "
-.
-format
-(
-shebang
-)
-            
 )
         
 try
@@ -1022,11 +1015,13 @@ raise
 ValueError
 (
                 
+f
 "
 The
 shebang
 (
 {
+shebang
 !
 r
 }
@@ -1036,6 +1031,7 @@ not
 encodable
 "
                 
+f
 "
 to
 the
@@ -1043,14 +1039,9 @@ script
 encoding
 (
 {
+encoding
 }
 )
 "
-.
-format
-(
-shebang
-encoding
-)
             
 )

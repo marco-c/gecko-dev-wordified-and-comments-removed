@@ -260,6 +260,7 @@ opts
 raise
 DistutilsError
 (
+            
 '
 the
 allow
@@ -270,7 +271,7 @@ is
 not
 supported
 '
-                             
+            
 '
 when
 using
@@ -280,6 +281,7 @@ install
 requirements
 .
 '
+        
 )
     
 quiet
@@ -368,7 +370,6 @@ find_links
 '
 in
 opts
-        
 else
 [
 ]
@@ -457,10 +458,12 @@ cmd
 sys
 .
 executable
+            
 '
 -
 m
 '
+            
 '
 pip
 '
@@ -480,6 +483,7 @@ check
 '
 wheel
 '
+            
 '
 -
 -
@@ -492,6 +496,7 @@ deps
 -
 w
 '
+            
 tmpdir
         
 ]
@@ -673,10 +678,10 @@ EGG
 INFO
 '
 )
+        
 )
         
-dist
-=
+return
 pkg_resources
 .
 Distribution
@@ -688,10 +693,8 @@ dist_location
 metadata
 =
 dist_metadata
-)
         
-return
-dist
+)
 def
 strip_marker
 (

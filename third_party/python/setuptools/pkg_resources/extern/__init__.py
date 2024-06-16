@@ -473,6 +473,22 @@ names
 (
     
 '
+backports
+'
+    
+'
+importlib_resources
+'
+    
+'
+jaraco
+'
+    
+'
+more_itertools
+'
+    
+'
 packaging
 '
     
@@ -481,15 +497,7 @@ platformdirs
 '
     
 '
-jaraco
-'
-    
-'
-importlib_resources
-'
-    
-'
-more_itertools
+zipp
 '
 )
 VendorImporter
