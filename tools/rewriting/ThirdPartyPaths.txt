@@ -1587,6 +1587,14 @@ toolkit
 /
 components
 /
+ml
+/
+vendor
+/
+toolkit
+/
+components
+/
 normandy
 /
 vendor
