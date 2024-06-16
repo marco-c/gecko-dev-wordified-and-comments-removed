@@ -332,12 +332,12 @@ return
 mMightHavePendingStyleUpdates
 ;
 }
-bool
+void
 PreTraverse
 (
 )
 ;
-bool
+void
 PreTraverseInSubtree
 (
 mozilla
