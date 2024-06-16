@@ -515,6 +515,7 @@ VoidCString
 VoidCString
 (
 )
+false
 )
 ;
 }
@@ -661,6 +662,9 @@ const
 nsACString
 &
 aAppIdOverride
+const
+bool
+aDisableInternalPings
 )
 {
 MOZ_ASSERT
@@ -730,6 +734,7 @@ fog_init
 aDataPathOverride
 &
 aAppIdOverride
+aDisableInternalPings
 )
 ;
 }

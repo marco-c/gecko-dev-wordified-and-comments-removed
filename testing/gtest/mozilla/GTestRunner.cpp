@@ -1016,6 +1016,7 @@ InitializeFOG
 (
 empty
 empty
+false
 )
 ;
 return

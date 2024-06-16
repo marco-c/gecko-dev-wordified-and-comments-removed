@@ -40,6 +40,12 @@ optional
 in
 AUTF8String
 aAppIdOverride
+[
+optional
+]
+in
+boolean
+aDisableInternalPings
 )
 ;
 void

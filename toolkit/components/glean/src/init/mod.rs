@@ -210,6 +210,9 @@ app_id_override
 :
 &
 nsACString
+disable_internal_pings
+:
+bool
 )
 -
 >
@@ -290,6 +293,8 @@ upload_enabled
 |
 recording_enabled
 uploader
+!
+disable_internal_pings
 )
 .
 into
@@ -327,6 +332,9 @@ app_id_override
 :
 &
 nsACString
+disable_internal_pings
+:
+bool
 )
 -
 >
@@ -348,6 +356,8 @@ data_path_override
 app_id_override
 upload_enabled
 uploader
+!
+disable_internal_pings
 )
 .
 into
@@ -384,6 +394,9 @@ net
 PingUploader
 >
 >
+enable_internal_pings
+:
+bool
 )
 -
 >
@@ -449,6 +462,12 @@ conf
 uploader
 =
 uploader
+;
+conf
+.
+enable_internal_pings
+=
+enable_internal_pings
 ;
 if
 env
