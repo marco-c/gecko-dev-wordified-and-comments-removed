@@ -5005,17 +5005,6 @@ GetDocumentURIAsReferrer
 (
 )
 ;
-nsCOMPtr
-<
-Element
->
-domElement
-=
-do_QueryInterface
-(
-aElement
-)
-;
 RefPtr
 <
 ScriptFetchOptions
@@ -5030,7 +5019,6 @@ aNonce
 aRequestPriority
 aParserMetadata
 aTriggeringPrincipal
-domElement
 )
 ;
 RefPtr
@@ -5042,6 +5030,7 @@ context
 new
 ScriptLoadContext
 (
+aElement
 )
 ;
 if

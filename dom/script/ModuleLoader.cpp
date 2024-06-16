@@ -1903,7 +1903,6 @@ ParserMetadata
 :
 NotParserInserted
 principal
-nullptr
 )
 ;
 referrerPolicy
