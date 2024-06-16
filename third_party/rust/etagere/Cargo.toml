@@ -114,7 +114,7 @@ version
 .
 2
 .
-7
+11
 "
 authors
 =
@@ -168,6 +168,13 @@ rs
 etagere
 /
 "
+readme
+=
+"
+README
+.
+md
+"
 keywords
 =
 [
@@ -208,7 +215,7 @@ release
 ]
 debug
 =
-true
+2
 [
 dependencies
 .
