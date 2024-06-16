@@ -275,6 +275,10 @@ Worker
 interface
 WebGLObject
 {
+attribute
+USVString
+label
+;
 }
 ;
 [
