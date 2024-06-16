@@ -678,7 +678,7 @@ waitingTime
 verifyCookiesEnabled
 (
 "
-PARTITIONED
+BLOCKED
 "
 )
 }
