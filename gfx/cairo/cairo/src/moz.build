@@ -657,6 +657,14 @@ font
 c
 '
 ]
+DEFINES
+[
+'
+HAVE_FT_LOAD_SFNT_TABLE
+'
+]
+=
+True
 SOURCES
 +
 =
