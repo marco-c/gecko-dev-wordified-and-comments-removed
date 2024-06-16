@@ -491,6 +491,16 @@ return
 mEnded
 ;
 }
+bool
+HadAECAndDrift
+(
+)
+const
+{
+return
+mHadAECAndDrift
+;
+}
 private
 :
 ~
