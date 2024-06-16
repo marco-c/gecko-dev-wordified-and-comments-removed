@@ -20038,6 +20038,12 @@ Frame
 (
 )
 ;
+nsIContent
+*
+content
+=
+nullptr
+;
 nsIFrame
 *
 targetFrame
@@ -20047,8 +20053,11 @@ GetFirstNonAnonBoxInSubtree
 frame
 )
 ;
-nsIContent
-*
+if
+(
+targetFrame
+)
+{
 content
 =
 targetFrame
@@ -20058,6 +20067,7 @@ GetContent
 (
 )
 ;
+}
 while
 (
 content
