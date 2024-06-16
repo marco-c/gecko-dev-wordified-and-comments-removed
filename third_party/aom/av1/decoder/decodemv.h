@@ -34,17 +34,6 @@ C
 {
 #
 endif
-int
-av1_neg_deinterleave
-(
-int
-diff
-int
-ref
-int
-max
-)
-;
 void
 av1_read_mode_info
 (

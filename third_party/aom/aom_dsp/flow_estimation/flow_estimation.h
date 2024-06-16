@@ -143,6 +143,14 @@ ry
 }
 Correspondence
 ;
+extern
+const
+int
+global_motion_pyr_levels
+[
+GLOBAL_MOTION_METHODS
+]
+;
 static
 const
 GlobalMotionMethod
@@ -173,8 +181,6 @@ int
 bit_depth
 GlobalMotionMethod
 gm_method
-int
-downsample_level
 MotionModel
 *
 motion_models

@@ -75,15 +75,6 @@ HAS_SVE
 <
 4
 )
-#
-define
-HAS_SVE2
-(
-1
-<
-<
-5
-)
 int
 aom_arm_cpu_caps
 (

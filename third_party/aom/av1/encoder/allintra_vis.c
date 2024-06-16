@@ -15,15 +15,6 @@ aom_config
 h
 "
 #
-include
-"
-aom_util
-/
-aom_pthread
-.
-h
-"
-#
 if
 CONFIG_TFLITE
 #
@@ -4123,7 +4114,7 @@ NULL
 cpi
 -
 >
-alloc_pyramid
+image_pyramid_levels
 0
 )
 )

@@ -16,13 +16,6 @@ C
 endif
 #
 include
-<
-stdbool
-.
-h
->
-#
-include
 "
 config
 /
@@ -351,8 +344,8 @@ int
 border
 int
 byte_alignment
-bool
-alloc_pyramid
+int
+num_pyramid_levels
 int
 alloc_y_plane_only
 )
@@ -385,8 +378,8 @@ cb
 void
 *
 cb_priv
-bool
-alloc_pyramid
+int
+num_pyramid_levels
 int
 alloc_y_plane_only
 )

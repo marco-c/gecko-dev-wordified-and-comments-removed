@@ -3766,9 +3766,8 @@ height
 ;
 }
 }
-static
 uint64_t
-mse_4xh_16bit_avx2
+aom_mse_4xh_16bit_avx2
 (
 uint8_t
 *
@@ -4191,9 +4190,8 @@ return
 sum
 ;
 }
-static
 uint64_t
-mse_4xh_quad_16bit_avx2
+aom_mse_4xh_quad_16bit_avx2
 (
 uint8_t
 *
@@ -4723,9 +4721,8 @@ return
 sum
 ;
 }
-static
 uint64_t
-mse_8xh_16bit_avx2
+aom_mse_8xh_16bit_avx2
 (
 uint8_t
 *
@@ -5006,9 +5003,8 @@ return
 sum
 ;
 }
-static
 uint64_t
-mse_8xh_dual_16bit_avx2
+aom_mse_8xh_dual_16bit_avx2
 (
 uint8_t
 *
@@ -5398,7 +5394,7 @@ case
 4
 :
 return
-mse_4xh_16bit_avx2
+aom_mse_4xh_16bit_avx2
 (
 dst
 dstride
@@ -5411,7 +5407,7 @@ case
 8
 :
 return
-mse_8xh_16bit_avx2
+aom_mse_8xh_16bit_avx2
 (
 dst
 dstride
@@ -5513,7 +5509,7 @@ case
 4
 :
 return
-mse_4xh_quad_16bit_avx2
+aom_mse_4xh_quad_16bit_avx2
 (
 dst
 dstride
@@ -5528,7 +5524,7 @@ case
 8
 :
 return
-mse_8xh_dual_16bit_avx2
+aom_mse_8xh_dual_16bit_avx2
 (
 dst
 dstride

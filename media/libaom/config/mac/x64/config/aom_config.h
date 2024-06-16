@@ -182,10 +182,6 @@ CONFIG_PIC
 0
 #
 define
-CONFIG_QUANT_MATRIX
-1
-#
-define
 CONFIG_RATECTRL_LOG
 0
 #
@@ -319,10 +315,6 @@ HAVE_SSSE3
 #
 define
 HAVE_SVE
-0
-#
-define
-HAVE_SVE2
 0
 #
 define

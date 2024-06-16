@@ -2982,7 +2982,7 @@ cm
 features
 .
 byte_alignment
-false
+0
 0
 )
 ;
@@ -3533,7 +3533,7 @@ ssy
 use_highbitdepth
 border
 legacy_byte_alignment
-false
+0
 0
 )
 ;
@@ -3588,7 +3588,7 @@ ssy
 use_highbitdepth
 border
 legacy_byte_alignment
-false
+0
 0
 )
 ;
@@ -3623,7 +3623,7 @@ ssy
 use_highbitdepth
 border
 legacy_byte_alignment
-false
+0
 0
 )
 ;

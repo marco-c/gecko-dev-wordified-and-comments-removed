@@ -69,15 +69,6 @@ h
 #
 include
 "
-aom_util
-/
-aom_pthread
-.
-h
-"
-#
-include
-"
 av1
 /
 common
@@ -1253,7 +1244,7 @@ tpl_data
 >
 border_in_pixels
 byte_alignment
-false
+0
 alloc_y_plane_only
 )
 )

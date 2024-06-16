@@ -144,17 +144,6 @@ AOM_ROOT
 /
 aom_util
 /
-aom_pthread
-.
-h
-"
-"
-{
-AOM_ROOT
-}
-/
-aom_util
-/
 aom_thread
 .
 c

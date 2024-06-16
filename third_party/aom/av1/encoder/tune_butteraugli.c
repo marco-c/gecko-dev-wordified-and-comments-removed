@@ -1678,7 +1678,7 @@ cm
 features
 .
 byte_alignment
-false
+0
 0
 )
 ;
@@ -1746,7 +1746,7 @@ cm
 features
 .
 byte_alignment
-false
+0
 0
 )
 ;
@@ -1939,7 +1939,7 @@ cm
 features
 .
 byte_alignment
-false
+0
 0
 )
 ;
@@ -2110,7 +2110,7 @@ border_in_pixels
 cpi
 -
 >
-alloc_pyramid
+image_pyramid_levels
 )
 ;
 if
@@ -2159,7 +2159,7 @@ border_in_pixels
 cpi
 -
 >
-alloc_pyramid
+image_pyramid_levels
 )
 ;
 }

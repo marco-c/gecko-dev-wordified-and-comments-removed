@@ -59,15 +59,6 @@ h
 #
 include
 "
-aom_util
-/
-aom_pthread
-.
-h
-"
-#
-include
-"
 av1
 /
 common

@@ -171,8 +171,8 @@ int
 num_lap_buffers
 bool
 is_all_intra
-bool
-alloc_pyramid
+int
+num_pyramid_levels
 )
 ;
 void
@@ -211,8 +211,8 @@ int64_t
 ts_end
 int
 use_highbitdepth
-bool
-alloc_pyramid
+int
+num_pyramid_levels
 aom_enc_frame_flags_t
 flags
 )

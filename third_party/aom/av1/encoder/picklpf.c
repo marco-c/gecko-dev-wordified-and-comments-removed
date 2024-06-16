@@ -150,7 +150,6 @@ aom_yv12_copy_y
 (
 src_bc
 dst_bc
-0
 )
 ;
 break
@@ -162,7 +161,6 @@ aom_yv12_copy_u
 (
 src_bc
 dst_bc
-0
 )
 ;
 break
@@ -174,7 +172,6 @@ aom_yv12_copy_v
 (
 src_bc
 dst_bc
-0
 )
 ;
 break
@@ -2034,7 +2031,7 @@ byte_alignment
 NULL
 NULL
 NULL
-false
+0
 0
 )
 )

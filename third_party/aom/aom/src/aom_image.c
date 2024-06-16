@@ -192,16 +192,6 @@ aom_image_t
 ;
 if
 (
-fmt
-=
-=
-AOM_IMG_FMT_NONE
-)
-goto
-fail
-;
-if
-(
 !
 buf_align
 )

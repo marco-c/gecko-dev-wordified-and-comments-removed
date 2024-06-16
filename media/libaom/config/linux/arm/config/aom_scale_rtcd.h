@@ -18,13 +18,6 @@ RTCD_EXTERN
 extern
 #
 endif
-#
-include
-<
-stdbool
-.
-h
->
 struct
 yv12_buffer_config
 ;
@@ -45,6 +38,7 @@ struct
 yv12_buffer_config
 *
 ybf
+const
 int
 num_planes
 )
@@ -303,8 +297,6 @@ struct
 yv12_buffer_config
 *
 dst_bc
-int
-use_crop
 )
 ;
 #
@@ -323,8 +315,6 @@ struct
 yv12_buffer_config
 *
 dst_bc
-int
-use_crop
 )
 ;
 #
@@ -343,8 +333,6 @@ struct
 yv12_buffer_config
 *
 dst_ybc
-int
-use_crop
 )
 ;
 #
@@ -546,8 +534,8 @@ int
 new_border
 int
 byte_alignment
-bool
-alloc_pyramid
+int
+num_pyramid_levels
 int
 num_planes
 )

@@ -135,13 +135,6 @@ print
 <
 <
 EOF
-#
-include
-<
-stdbool
-.
-h
->
 struct
 yv12_buffer_config
 ;
@@ -354,8 +347,8 @@ int
 new_border
 int
 byte_alignment
-bool
-alloc_pyramid
+int
+num_pyramid_levels
 int
 num_planes
 "
@@ -413,8 +406,6 @@ struct
 yv12_buffer_config
 *
 dst_ybc
-int
-use_crop
 "
 ;
 add_proto
@@ -433,8 +424,6 @@ struct
 yv12_buffer_config
 *
 dst_bc
-int
-use_crop
 "
 ;
 add_proto
@@ -453,8 +442,6 @@ struct
 yv12_buffer_config
 *
 dst_bc
-int
-use_crop
 "
 ;
 add_proto
@@ -656,6 +643,7 @@ struct
 yv12_buffer_config
 *
 ybf
+const
 int
 num_planes
 "

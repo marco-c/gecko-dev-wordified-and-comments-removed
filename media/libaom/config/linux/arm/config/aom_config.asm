@@ -294,10 +294,6 @@ CONFIG_PIC
 1
 .
 equ
-CONFIG_QUANT_MATRIX
-1
-.
-equ
 CONFIG_RATECTRL_LOG
 0
 .
@@ -431,10 +427,6 @@ HAVE_SSSE3
 .
 equ
 HAVE_SVE
-0
-.
-equ
-HAVE_SVE2
 0
 .
 equ
