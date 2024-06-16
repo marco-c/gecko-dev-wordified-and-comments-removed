@@ -34,9 +34,7 @@ include
 *
 Failures
 in
-Travis
-or
-Taskcluster
+CI
 runs
 for
 this
