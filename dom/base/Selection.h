@@ -2814,6 +2814,17 @@ aSelected
 )
 const
 ;
+void
+SelectFramesOfShadowIncludingDescendantsOfContent
+(
+nsIContent
+*
+aContent
+bool
+aSelected
+)
+const
+;
 nsresult
 SelectFrames
 (
