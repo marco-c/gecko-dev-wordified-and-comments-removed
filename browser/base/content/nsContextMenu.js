@@ -11672,6 +11672,13 @@ this
 #
 translationsLangPairPromise
 )
+.
+catch
+(
+console
+.
+error
+)
 ;
 }
 async
