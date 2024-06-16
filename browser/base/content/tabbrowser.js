@@ -29124,7 +29124,7 @@ bar
 ;
 navbar
 .
-setAttribute
+toggleAttribute
 (
 "
 tabs
