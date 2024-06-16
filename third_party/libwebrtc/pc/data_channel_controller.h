@@ -513,7 +513,13 @@ signaling_thread
 RTCError
 ReserveOrAllocateSid
 (
+absl
+:
+:
+optional
+<
 StreamId
+>
 &
 sid
 absl
