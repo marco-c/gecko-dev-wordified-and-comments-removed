@@ -12680,9 +12680,7 @@ struct
 ZOrderComparator
 {
 bool
-operator
-(
-)
+LessThan
 (
 const
 ZSortItem
@@ -12748,9 +12746,7 @@ aCommonAncestor
 {
 }
 bool
-operator
-(
-)
+LessThan
 (
 nsDisplayItem
 *
