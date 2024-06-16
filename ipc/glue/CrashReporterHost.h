@@ -120,9 +120,6 @@ base
 :
 ProcessId
 aPid
-uint32_t
-*
-aOutSequence
 )
 ;
 bool
