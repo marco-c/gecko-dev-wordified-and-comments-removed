@@ -87,7 +87,7 @@ value
 Boolean
 )
 =
-1UL
+1
 override
 fun
 write

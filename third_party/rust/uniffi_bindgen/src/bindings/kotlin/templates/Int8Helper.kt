@@ -63,7 +63,7 @@ value
 Byte
 )
 =
-1UL
+1
 override
 fun
 write

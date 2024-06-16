@@ -147,11 +147,12 @@ println
 data
 :
 {
-data
 :
 ?
 }
 "
+&
+data
 )
 ;
 assert_eq

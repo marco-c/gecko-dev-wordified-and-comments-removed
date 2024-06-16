@@ -24,7 +24,6 @@ common
 :
 :
 {
-Docstring
 Generics
 Identifier
 Parenthesized
@@ -332,12 +331,6 @@ ConstructorInterfaceMember
 a
 >
 {
-docstring
-:
-Option
-<
-Docstring
->
 attributes
 :
 Option
@@ -422,12 +415,6 @@ OperationInterfaceMember
 a
 >
 {
-docstring
-:
-Option
-<
-Docstring
->
 attributes
 :
 Option

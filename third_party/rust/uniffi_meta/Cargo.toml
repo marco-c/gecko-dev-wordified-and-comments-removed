@@ -112,9 +112,9 @@ version
 "
 0
 .
-27
+25
 .
-1
+3
 "
 description
 =
@@ -137,13 +137,6 @@ io
 uniffi
 -
 rs
-"
-readme
-=
-"
-README
-.
-md
 "
 keywords
 =
@@ -225,7 +218,7 @@ version
 "
 0
 .
-27
+25
 .
-1
+3
 "

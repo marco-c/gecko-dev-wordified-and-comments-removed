@@ -51,9 +51,10 @@ size
 staticmethod
     
 def
-check_lower
+write
 (
 value
+buf
 )
 :
         
@@ -97,16 +98,6 @@ value
 __name__
 )
 )
-    
-staticmethod
-    
-def
-write
-(
-value
-buf
-)
-:
         
 buf
 .

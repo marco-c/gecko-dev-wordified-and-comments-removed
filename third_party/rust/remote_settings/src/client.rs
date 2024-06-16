@@ -329,7 +329,7 @@ new
 (
 )
 .
-filter_gt
+gt
 (
 "
 last_modified
@@ -1533,11 +1533,6 @@ derive
 Clone
 Debug
 Default
-Hash
-PartialEq
-Eq
-PartialOrd
-Ord
 )
 ]
 pub
@@ -1590,7 +1585,7 @@ default
 }
 pub
 fn
-filter_eq
+eq
 (
 &
 mut
@@ -1644,7 +1639,7 @@ self
 }
 pub
 fn
-filter_not
+not
 (
 &
 mut
@@ -1698,7 +1693,7 @@ self
 }
 pub
 fn
-filter_contains
+contains
 (
 &
 mut
@@ -1752,7 +1747,7 @@ self
 }
 pub
 fn
-filter_lt
+lt
 (
 &
 mut
@@ -1806,7 +1801,7 @@ self
 }
 pub
 fn
-filter_gt
+gt
 (
 &
 mut
@@ -1860,7 +1855,7 @@ self
 }
 pub
 fn
-filter_max
+max
 (
 &
 mut
@@ -1914,7 +1909,7 @@ self
 }
 pub
 fn
-filter_min
+min
 (
 &
 mut
@@ -1968,7 +1963,7 @@ self
 }
 pub
 fn
-filter_like
+like
 (
 &
 mut
@@ -2022,7 +2017,7 @@ self
 }
 pub
 fn
-filter_has
+has
 (
 &
 mut
@@ -2064,7 +2059,7 @@ self
 }
 pub
 fn
-filter_has_not
+has_not
 (
 &
 mut
@@ -2414,8 +2409,6 @@ Debug
 Eq
 Hash
 PartialEq
-PartialOrd
-Ord
 )
 ]
 pub
@@ -2431,11 +2424,6 @@ derive
 (
 Clone
 Debug
-Hash
-PartialEq
-Eq
-PartialOrd
-Ord
 )
 ]
 enum
@@ -2827,11 +2815,6 @@ derive
 (
 Clone
 Debug
-Hash
-PartialEq
-Eq
-PartialOrd
-Ord
 )
 ]
 struct
@@ -4415,7 +4398,7 @@ b
 "
 )
 .
-filter_eq
+eq
 (
 "
 a
@@ -4425,7 +4408,7 @@ b
 "
 )
 .
-filter_lt
+lt
 (
 "
 c
@@ -4437,7 +4420,7 @@ d
 "
 )
 .
-filter_gt
+gt
 (
 "
 e
@@ -4447,7 +4430,7 @@ e
 "
 )
 .
-filter_max
+max
 (
 "
 f
@@ -4457,7 +4440,7 @@ f
 "
 )
 .
-filter_min
+min
 (
 "
 g
@@ -4467,7 +4450,7 @@ g
 "
 )
 .
-filter_not
+not
 (
 "
 h
@@ -4477,7 +4460,7 @@ i
 "
 )
 .
-filter_like
+like
 (
 "
 j
@@ -4489,21 +4472,21 @@ k
 "
 )
 .
-filter_has
+has
 (
 "
 l
 "
 )
 .
-filter_has_not
+has_not
 (
 "
 m
 "
 )
 .
-filter_contains
+contains
 (
 "
 n

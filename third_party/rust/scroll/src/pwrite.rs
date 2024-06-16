@@ -335,6 +335,7 @@ E
 if
 offset
 >
+=
 self
 .
 len

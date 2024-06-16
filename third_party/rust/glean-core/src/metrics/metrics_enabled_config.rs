@@ -2,10 +2,16 @@ use
 std
 :
 :
+{
 collections
 :
 :
 HashMap
+convert
+:
+:
+TryFrom
+}
 ;
 use
 serde

@@ -39,9 +39,12 @@ use
 serde_json
 :
 :
+{
+self
 Value
 as
 JsonValue
+}
 ;
 use
 std

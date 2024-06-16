@@ -997,7 +997,7 @@ class_name_rb
 }
 }
 .
-uniffi_lower
+_uniffi_lower
 obj
 pack_into
 (

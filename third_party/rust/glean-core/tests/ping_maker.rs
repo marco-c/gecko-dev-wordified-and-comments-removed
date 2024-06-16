@@ -649,9 +649,6 @@ to_string
 (
 )
 )
-enable_internal_pings
-:
-true
 }
 )
 .
@@ -997,9 +994,6 @@ to_string
 (
 )
 )
-enable_internal_pings
-:
-true
 }
 )
 .

@@ -63,7 +63,7 @@ value
 Long
 )
 =
-8UL
+8
 override
 fun
 write

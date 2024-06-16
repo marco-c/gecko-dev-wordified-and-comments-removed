@@ -161,12 +161,12 @@ value_type_name
 >
 )
 :
-ULong
+Int
 {
 val
 spaceForMapSize
 =
-4UL
+4
 val
 spaceForChildren
 =

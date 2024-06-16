@@ -173,7 +173,7 @@ time
 Instant
 )
 =
-12UL
+12
 override
 fun
 write

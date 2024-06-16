@@ -11,8 +11,6 @@ entry
 =
 TodoEntry
 (
-text
-=
 "
 Write
 bindings
@@ -179,8 +177,6 @@ entry2
 =
 TodoEntry
 (
-text
-=
 "
 Test
 nicode

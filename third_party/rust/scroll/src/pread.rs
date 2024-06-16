@@ -502,6 +502,7 @@ offset
 if
 start
 >
+=
 self
 .
 len

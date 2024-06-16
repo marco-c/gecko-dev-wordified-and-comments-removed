@@ -31,11 +31,6 @@ format
 (
 package_name
 name
-|
-class_name
-(
-ci
-)
 )
 %
 }
