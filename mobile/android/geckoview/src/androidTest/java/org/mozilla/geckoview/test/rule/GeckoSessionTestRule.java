@@ -4232,6 +4232,7 @@ Nullable
 String
 url
 NonNull
+final
 List
 <
 ContentPermission
