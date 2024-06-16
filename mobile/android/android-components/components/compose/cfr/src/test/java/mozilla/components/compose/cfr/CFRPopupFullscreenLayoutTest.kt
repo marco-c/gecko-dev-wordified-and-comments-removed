@@ -613,7 +613,7 @@ verify
 windowManager
 )
 .
-removeViewImmediate
+removeView
 (
 popupView
 )

@@ -544,13 +544,13 @@ dismissOnBackPress
 :
 Boolean
 =
-false
+true
 val
 dismissOnClickOutside
 :
 Boolean
 =
-false
+true
 val
 overlapAnchor
 :

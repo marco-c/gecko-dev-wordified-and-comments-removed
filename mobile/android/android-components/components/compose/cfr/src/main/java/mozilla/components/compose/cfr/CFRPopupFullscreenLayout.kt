@@ -3039,7 +3039,7 @@ null
 )
 windowManager
 .
-removeViewImmediate
+removeView
 (
 this
 )
