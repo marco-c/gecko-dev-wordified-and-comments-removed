@@ -2184,6 +2184,9 @@ is_used_
 ]
 )
 +
+(
+float
+)
 VP8LExtraCost
 (
 p
@@ -2195,6 +2198,9 @@ NUM_LITERAL_CODES
 NUM_LENGTH_CODES
 )
 +
+(
+float
+)
 VP8LExtraCost
 (
 p
@@ -2293,6 +2299,9 @@ is_used_
 cost
 +
 =
+(
+float
+)
 VP8LExtraCostCombined
 (
 a
@@ -2603,6 +2612,9 @@ is_used_
 cost
 +
 =
+(
+float
+)
 VP8LExtraCostCombined
 (
 a
@@ -3117,6 +3129,9 @@ is_used_
 ]
 )
 +
+(
+float
+)
 VP8LExtraCost
 (
 h
@@ -3161,6 +3176,9 @@ is_used_
 ]
 )
 +
+(
+float
+)
 VP8LExtraCost
 (
 h
@@ -7123,6 +7141,7 @@ WebPSafeMalloc
 image_histo_raw_size
 sizeof
 (
+*
 map_tmp
 )
 )

@@ -78,6 +78,17 @@ dsp
 h
 "
 #
+include
+"
+src
+/
+webp
+/
+types
+.
+h
+"
+#
 ifdef
 __cplusplus
 extern
@@ -94,11 +105,11 @@ DEC_MAJ_VERSION
 #
 define
 DEC_MIN_VERSION
-3
+4
 #
 define
 DEC_REV_VERSION
-2
+0
 #
 define
 YUV_SIZE
@@ -453,6 +464,9 @@ error_msg_
 VP8BitReader
 br_
 ;
+int
+incremental_
+;
 VP8FrameHeader
 frm_hdr_
 ;
@@ -687,6 +701,7 @@ const
 dec
 )
 ;
+WEBP_NODISCARD
 int
 VP8InitFrame
 (
@@ -713,6 +728,7 @@ const
 io
 )
 ;
+WEBP_NODISCARD
 int
 VP8ExitCritical
 (
@@ -759,6 +775,7 @@ const
 dec
 )
 ;
+WEBP_NODISCARD
 int
 VP8ProcessRow
 (
@@ -781,6 +798,7 @@ const
 dec
 )
 ;
+WEBP_NODISCARD
 int
 VP8DecodeMB
 (

@@ -229,8 +229,6 @@ VP8LBitWriter
 *
 const
 bw
-int
-use_cache
 )
 ;
 #

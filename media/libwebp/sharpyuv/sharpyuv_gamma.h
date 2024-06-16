@@ -7,6 +7,15 @@ WEBP_SHARPYUV_SHARPYUV_GAMMA_H_
 #
 include
 "
+sharpyuv
+/
+sharpyuv
+.
+h
+"
+#
+include
+"
 src
 /
 webp
@@ -38,6 +47,8 @@ uint16_t
 v
 int
 bit_depth
+SharpYuvTransferFunctionType
+transfer_type
 )
 ;
 uint16_t
@@ -47,6 +58,8 @@ uint32_t
 value
 int
 bit_depth
+SharpYuvTransferFunctionType
+transfer_type
 )
 ;
 #

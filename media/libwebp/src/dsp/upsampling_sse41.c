@@ -363,6 +363,7 @@ r1
 r2
 out
 )
+do
 {
 \
 const
@@ -814,6 +815,10 @@ bottom
 /
 \
 }
+while
+(
+0
+)
 static
 void
 Upsample32Pixels_SSE41
@@ -1934,7 +1939,6 @@ VP8YuvToRgb32_SSE41
 WebPYuv444ToRgb_C
 3
 )
-;
 YUV444_FUNC
 (
 Yuv444ToBgr_SSE41
@@ -1942,7 +1946,6 @@ VP8YuvToBgr32_SSE41
 WebPYuv444ToBgr_C
 3
 )
-;
 #
 endif
 WEBP_TSAN_IGNORE_FUNCTION

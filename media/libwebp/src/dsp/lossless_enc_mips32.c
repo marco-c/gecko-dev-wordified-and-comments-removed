@@ -567,7 +567,7 @@ v
 }
 }
 static
-float
+uint32_t
 ExtraCost_MIPS32
 (
 const
@@ -874,9 +874,6 @@ lo
 ;
 return
 (
-float
-)
-(
 (
 int64_t
 )
@@ -890,7 +887,7 @@ temp1
 ;
 }
 static
-float
+uint32_t
 ExtraCostCombined_MIPS32
 (
 const
@@ -1336,9 +1333,6 @@ lo
 )
 ;
 return
-(
-float
-)
 (
 (
 int64_t

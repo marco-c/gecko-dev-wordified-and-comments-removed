@@ -498,6 +498,9 @@ size
 =
 MIN_BUFFER_SIZE
 (
+(
+uint64_t
+)
 width
 *
 kModeBpp

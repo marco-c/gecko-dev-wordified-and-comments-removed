@@ -36,6 +36,17 @@ vp8_dec
 .
 h
 "
+#
+include
+"
+src
+/
+webp
+/
+decode
+.
+h
+"
 typedef
 struct
 WebPDecParams
@@ -229,6 +240,7 @@ const
 io
 )
 ;
+WEBP_NODISCARD
 int
 WebPIoInitFromOptions
 (

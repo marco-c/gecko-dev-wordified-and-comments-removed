@@ -23,6 +23,15 @@ mux_types
 h
 "
 #
+include
+"
+.
+/
+types
+.
+h
+"
+#
 ifdef
 __cplusplus
 extern
@@ -99,6 +108,7 @@ WEBP_DEMUX_DONE
 }
 WebPDemuxState
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 WebPDemuxer
 *
@@ -113,6 +123,7 @@ WebPDemuxState
 int
 )
 ;
+WEBP_NODISCARD
 static
 WEBP_INLINE
 WebPDemuxer
@@ -135,6 +146,7 @@ WEBP_DEMUX_ABI_VERSION
 )
 ;
 }
+WEBP_NODISCARD
 static
 WEBP_INLINE
 WebPDemuxer
@@ -241,6 +253,7 @@ private_
 ;
 }
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPDemuxGetFrame
@@ -256,6 +269,7 @@ WebPIterator
 iter
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPDemuxNextFrame
@@ -265,6 +279,7 @@ WebPIterator
 iter
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPDemuxPrevFrame
@@ -307,6 +322,7 @@ private_
 ;
 }
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPDemuxGetChunk
@@ -328,6 +344,7 @@ WebPChunkIterator
 iter
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPDemuxNextChunk
@@ -337,6 +354,7 @@ WebPChunkIterator
 iter
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPDemuxPrevChunk
@@ -377,6 +395,7 @@ padding
 ;
 }
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPAnimDecoderOptionsInitInternal
@@ -386,6 +405,7 @@ WebPAnimDecoderOptions
 int
 )
 ;
+WEBP_NODISCARD
 static
 WEBP_INLINE
 int
@@ -404,6 +424,7 @@ WEBP_DEMUX_ABI_VERSION
 )
 ;
 }
+WEBP_NODISCARD
 WEBP_EXTERN
 WebPAnimDecoder
 *
@@ -418,6 +439,7 @@ WebPAnimDecoderOptions
 int
 )
 ;
+WEBP_NODISCARD
 static
 WEBP_INLINE
 WebPAnimDecoder
@@ -469,6 +491,7 @@ pad
 ;
 }
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPAnimDecoderGetInfo
@@ -482,6 +505,7 @@ WebPAnimInfo
 info
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPAnimDecoderGetNext
@@ -498,6 +522,7 @@ int
 timestamp
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPAnimDecoderHasMoreFrames
@@ -517,6 +542,7 @@ WebPAnimDecoder
 dec
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 const
 WebPDemuxer

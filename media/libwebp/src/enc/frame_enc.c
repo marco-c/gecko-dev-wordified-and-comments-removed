@@ -4490,6 +4490,9 @@ const
 uint64_t
 pixel_count
 =
+(
+uint64_t
+)
 nb_mbs
 *
 384
@@ -5812,6 +5815,9 @@ const
 uint64_t
 pixel_count
 =
+(
+uint64_t
+)
 enc
 -
 >

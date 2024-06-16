@@ -80,6 +80,7 @@ WebPGetDecoderVersion
 void
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPGetInfo
@@ -98,6 +99,7 @@ int
 height
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 uint8_t
 *
@@ -117,6 +119,7 @@ int
 height
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 uint8_t
 *
@@ -136,6 +139,7 @@ int
 height
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 uint8_t
 *
@@ -155,6 +159,7 @@ int
 height
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 uint8_t
 *
@@ -174,6 +179,7 @@ int
 height
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 uint8_t
 *
@@ -193,6 +199,7 @@ int
 height
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 uint8_t
 *
@@ -226,6 +233,7 @@ int
 uv_stride
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 uint8_t
 *
@@ -246,6 +254,7 @@ int
 output_stride
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 uint8_t
 *
@@ -266,6 +275,7 @@ int
 output_stride
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 uint8_t
 *
@@ -286,6 +296,7 @@ int
 output_stride
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 uint8_t
 *
@@ -306,6 +317,7 @@ int
 output_stride
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 uint8_t
 *
@@ -326,6 +338,7 @@ int
 output_stride
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 uint8_t
 *
@@ -596,6 +609,7 @@ private_memory
 ;
 }
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPInitDecBufferInternal
@@ -605,6 +619,7 @@ WebPDecBuffer
 int
 )
 ;
+WEBP_NODISCARD
 static
 WEBP_INLINE
 int
@@ -634,6 +649,7 @@ buffer
 ;
 typedef
 enum
+WEBP_NODISCARD
 VP8StatusCode
 {
 VP8_STATUS_OK
@@ -649,6 +665,7 @@ VP8_STATUS_NOT_ENOUGH_DATA
 }
 VP8StatusCode
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 WebPIDecoder
 *
@@ -659,6 +676,7 @@ WebPDecBuffer
 output_buffer
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 WebPIDecoder
 *
@@ -675,6 +693,7 @@ int
 output_stride
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 WebPIDecoder
 *
@@ -710,6 +729,7 @@ int
 a_stride
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 WebPIDecoder
 *
@@ -777,6 +797,7 @@ size_t
 data_size
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 uint8_t
 *
@@ -800,6 +821,7 @@ int
 stride
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 uint8_t
 *
@@ -841,6 +863,7 @@ int
 a_stride
 )
 ;
+WEBP_NODISCARD
 static
 WEBP_INLINE
 uint8_t
@@ -892,6 +915,7 @@ NULL
 )
 ;
 }
+WEBP_NODISCARD
 WEBP_EXTERN
 const
 WebPDecBuffer
@@ -1042,6 +1066,7 @@ options
 ;
 }
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPInitDecoderConfigInternal
@@ -1051,6 +1076,7 @@ WebPDecoderConfig
 int
 )
 ;
+WEBP_NODISCARD
 static
 WEBP_INLINE
 int
@@ -1069,6 +1095,7 @@ WEBP_DECODER_ABI_VERSION
 )
 ;
 }
+WEBP_NODISCARD
 WEBP_EXTERN
 WebPIDecoder
 *

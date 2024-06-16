@@ -138,6 +138,7 @@ curr_segment
 }
 HuffmanTables
 ;
+WEBP_NODISCARD
 int
 VP8LHuffmanTablesAllocate
 (
@@ -205,6 +206,7 @@ HUFFMAN_PACKED_TABLE_SIZE
 ;
 }
 ;
+WEBP_NODISCARD
 HTreeGroup
 *
 VP8LHtreeGroupsNew
@@ -222,6 +224,7 @@ const
 htree_groups
 )
 ;
+WEBP_NODISCARD
 int
 VP8LBuildHuffmanTable
 (

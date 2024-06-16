@@ -159,6 +159,7 @@ webp_data
 ;
 }
 }
+WEBP_NODISCARD
 static
 WEBP_INLINE
 int

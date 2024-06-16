@@ -31,6 +31,17 @@ sharpyuv_cpu
 h
 "
 #
+include
+"
+src
+/
+webp
+/
+types
+.
+h
+"
+#
 if
 !
 WEBP_NEON_OMIT_C_CODE

@@ -159,9 +159,11 @@ vdupq_n_u32
 0
 )
 ;
+int
+i
+;
 for
 (
-int
 i
 =
 0

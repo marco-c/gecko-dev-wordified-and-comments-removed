@@ -855,7 +855,7 @@ VP8LPredictorsSub_C
 ]
 ;
 typedef
-float
+uint32_t
 (
 *
 VP8LCostFunc
@@ -870,7 +870,7 @@ length
 )
 ;
 typedef
-float
+uint32_t
 (
 *
 VP8LCostCombinedFunc

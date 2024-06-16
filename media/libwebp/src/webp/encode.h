@@ -354,6 +354,7 @@ WEBP_PRESET_TEXT
 }
 WebPPreset
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPConfigInitInternal
@@ -365,6 +366,7 @@ float
 int
 )
 ;
+WEBP_NODISCARD
 static
 WEBP_INLINE
 int
@@ -387,6 +389,7 @@ WEBP_ENCODER_ABI_VERSION
 )
 ;
 }
+WEBP_NODISCARD
 static
 WEBP_INLINE
 int
@@ -411,6 +414,7 @@ WEBP_ENCODER_ABI_VERSION
 )
 ;
 }
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPConfigLosslessPreset
@@ -422,6 +426,7 @@ int
 level
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPValidateConfig
@@ -579,6 +584,7 @@ WebPMemoryWriter
 writer
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPMemoryWrite
@@ -768,6 +774,7 @@ pad7
 ;
 }
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPPictureInitInternal
@@ -777,6 +784,7 @@ WebPPicture
 int
 )
 ;
+WEBP_NODISCARD
 static
 WEBP_INLINE
 int
@@ -795,6 +803,7 @@ WEBP_ENCODER_ABI_VERSION
 )
 ;
 }
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPPictureAlloc
@@ -813,6 +822,7 @@ WebPPicture
 picture
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPPictureCopy
@@ -826,6 +836,7 @@ WebPPicture
 dst
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPPlaneDistortion
@@ -858,6 +869,7 @@ float
 result
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPPictureDistortion
@@ -879,6 +891,7 @@ result
 ]
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPPictureCrop
@@ -896,6 +909,7 @@ int
 height
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPPictureView
@@ -927,6 +941,7 @@ WebPPicture
 picture
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPPictureRescale
@@ -940,6 +955,7 @@ int
 height
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPPictureImportRGB
@@ -955,6 +971,7 @@ int
 rgb_stride
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPPictureImportRGBA
@@ -970,6 +987,7 @@ int
 rgba_stride
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPPictureImportRGBX
@@ -985,6 +1003,7 @@ int
 rgbx_stride
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPPictureImportBGR
@@ -1000,6 +1019,7 @@ int
 bgr_stride
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPPictureImportBGRA
@@ -1015,6 +1035,7 @@ int
 bgra_stride
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPPictureImportBGRX
@@ -1030,6 +1051,7 @@ int
 bgrx_stride
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPPictureARGBToYUVA
@@ -1040,6 +1062,7 @@ picture
 WebPEncCSP
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPPictureARGBToYUVADithered
@@ -1053,6 +1076,7 @@ float
 dithering
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPPictureSharpARGBToYUVA
@@ -1062,6 +1086,7 @@ WebPPicture
 picture
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPPictureSmartARGBToYUVA
@@ -1071,6 +1096,7 @@ WebPPicture
 picture
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPPictureYUVAToARGB
@@ -1110,6 +1136,7 @@ uint32_t
 background_rgb
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPEncode

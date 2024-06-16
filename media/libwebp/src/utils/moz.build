@@ -33,6 +33,11 @@ huffman_utils
 c
 '
 '
+palette
+.
+c
+'
+'
 quant_levels_dec_utils
 .
 c

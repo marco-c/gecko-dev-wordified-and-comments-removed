@@ -16,6 +16,17 @@ decode
 h
 "
 #
+include
+"
+src
+/
+webp
+/
+types
+.
+h
+"
+#
 ifdef
 __cplusplus
 extern
@@ -149,6 +160,7 @@ a
 ;
 }
 ;
+WEBP_NODISCARD
 int
 VP8InitIoInternal
 (
@@ -158,6 +170,7 @@ const
 int
 )
 ;
+WEBP_NODISCARD
 int
 WebPISetIOHooks
 (
@@ -188,6 +201,7 @@ VP8New
 void
 )
 ;
+WEBP_NODISCARD
 static
 WEBP_INLINE
 int
@@ -207,6 +221,7 @@ WEBP_DECODER_ABI_VERSION
 )
 ;
 }
+WEBP_NODISCARD
 int
 VP8GetHeaders
 (
@@ -220,6 +235,7 @@ const
 io
 )
 ;
+WEBP_NODISCARD
 int
 VP8Decode
 (

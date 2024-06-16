@@ -356,6 +356,7 @@ r1
 r2
 out
 )
+do
 {
 \
 const
@@ -807,6 +808,10 @@ bottom
 /
 \
 }
+while
+(
+0
+)
 static
 void
 Upsample32Pixels_SSE2
@@ -2023,7 +2028,6 @@ VP8YuvToRgba32_SSE2
 WebPYuv444ToRgba_C
 4
 )
-;
 YUV444_FUNC
 (
 Yuv444ToBgra_SSE2
@@ -2031,7 +2035,6 @@ VP8YuvToBgra32_SSE2
 WebPYuv444ToBgra_C
 4
 )
-;
 #
 if
 !
@@ -2046,7 +2049,6 @@ VP8YuvToRgb32_SSE2
 WebPYuv444ToRgb_C
 3
 )
-;
 YUV444_FUNC
 (
 Yuv444ToBgr_SSE2
@@ -2054,7 +2056,6 @@ VP8YuvToBgr32_SSE2
 WebPYuv444ToBgr_C
 3
 )
-;
 YUV444_FUNC
 (
 Yuv444ToArgb_SSE2
