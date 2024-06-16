@@ -4432,10 +4432,10 @@ LayoutParams
 .
 apply
 {
-marginStart
+goneStartMargin
 =
 horizontalPadding
-marginEnd
+goneEndMargin
 =
 horizontalPadding
 background

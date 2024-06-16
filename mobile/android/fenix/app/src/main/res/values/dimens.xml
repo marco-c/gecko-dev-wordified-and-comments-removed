@@ -1191,7 +1191,7 @@ name
 browser_fragment_display_toolbar_padding
 "
 >
-8dp
+16dp
 <
 /
 dimen
