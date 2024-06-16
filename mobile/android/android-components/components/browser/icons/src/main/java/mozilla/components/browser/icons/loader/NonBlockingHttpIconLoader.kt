@@ -246,6 +246,9 @@ NonBlockingHttpIconLoader
 httpClient
 :
 Client
+memoryInfoProvider
+:
+MemoryInfoProvider
 private
 val
 scope
@@ -279,6 +282,7 @@ Unit
 HttpIconLoader
 (
 httpClient
+memoryInfoProvider
 )
 {
 override
