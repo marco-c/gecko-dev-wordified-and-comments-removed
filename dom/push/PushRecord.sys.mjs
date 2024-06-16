@@ -928,7 +928,7 @@ if
 (
 AppConstants
 .
-MOZ_ANDROID_HISTORY
+MOZ_GECKOVIEW_HISTORY
 )
 {
 let
