@@ -171,6 +171,13 @@ mc
 config
 .
 js
+import
+:
+=
+>
+import
+-
+rollouts
 tddmc
 :
 karma
