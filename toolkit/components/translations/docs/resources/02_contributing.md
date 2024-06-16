@@ -1,5 +1,7 @@
 #
 Contributing
+to
+Translations
 The
 following
 content
@@ -28,7 +30,6 @@ information
 regarding
 contributing
 to
-Firefox
 Translations
 .
 -
@@ -168,19 +169,30 @@ primary
 source
 code
 for
-Firefox
 Translations
 lives
 in
 the
 following
-directory
+directories
 :
 >
 *
 *
 [
 toolkit
+/
+components
+/
+translations
+]
+*
+*
+>
+*
+*
+[
+browser
 /
 components
 /
@@ -341,7 +353,6 @@ to
 get
 access
 to
-Firefox
 Translations
 content
 in
@@ -371,7 +382,6 @@ you
 have
 access
 to
-Firefox
 Translations
 content
 in
@@ -627,7 +637,6 @@ extension
 #
 #
 Versioning
-Firefox
 Translations
 uses
 semantic
@@ -654,7 +663,6 @@ Non
 -
 breaking
 Changes
-Firefox
 Translations
 code
 will
@@ -773,7 +781,6 @@ Changes
 Breaking
 changes
 for
-Firefox
 Translations
 are
 a
@@ -841,7 +848,6 @@ not
 sufficient
 .
 Since
-Firefox
 Translations
 always
 attempts
@@ -890,7 +896,6 @@ To
 handle
 these
 changes
-Firefox
 Translations
 utilizes
 Remote
@@ -914,7 +919,6 @@ Firefox
 This
 will
 allow
-Firefox
 Translations
 to
 make
@@ -1158,7 +1162,6 @@ this
 way
 frees
 up
-Firefox
 Translations
 to
 make

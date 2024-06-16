@@ -30,6 +30,8 @@ used
 to
 power
 Firefox
+'
+s
 translations
 .
 The
