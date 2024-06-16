@@ -354,6 +354,7 @@ icon
 (
 await
 engine
+?
 .
 getIconURL
 ?
