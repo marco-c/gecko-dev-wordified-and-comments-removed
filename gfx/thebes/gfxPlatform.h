@@ -339,9 +339,9 @@ All
 TaggedOnly
 =
 2
-_ENUM_MAX
+AllCount
 =
-TaggedOnly
+3
 }
 ;
 enum

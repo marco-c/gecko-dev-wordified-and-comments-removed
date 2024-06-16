@@ -415,10 +415,8 @@ return
 ;
 }
 const
-auto
-texTarget
-=
 TexTarget
+texTarget
 (
 rawTarget
 )
