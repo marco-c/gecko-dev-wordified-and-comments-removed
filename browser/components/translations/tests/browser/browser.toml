@@ -691,7 +691,14 @@ js
 ]
 [
 "
-browser_translations_select_telemetry_keypresses_try_again_button
+browser_translations_select_telemetry_keypresses_try_again_button_init_failure
+.
+js
+"
+]
+[
+"
+browser_translations_select_telemetry_keypresses_try_again_button_translation_failure
 .
 js
 "
