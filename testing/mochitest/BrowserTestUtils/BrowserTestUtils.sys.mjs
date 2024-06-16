@@ -4909,7 +4909,9 @@ param
 {
 string
 }
+[
 url
+]
 *
 The
 string
@@ -4938,6 +4940,11 @@ Promise
 }
 *
 resolves
+{
+webProgress
+request
+flags
+}
 When
 onLocationChange
 fires
@@ -4964,10 +4971,11 @@ progressListener
 {
 onLocationChange
 (
-aBrowser
-aWebProgress
-aRequest
-aLocationURI
+browser
+webProgress
+request
+newURI
+flags
 )
 {
 if
@@ -4976,7 +4984,7 @@ if
 url
 &
 &
-aLocationURI
+newURI
 .
 spec
 !
@@ -4990,7 +4998,7 @@ url
 url
 &
 &
-aLocationURI
+newURI
 .
 spec
 =
@@ -5015,6 +5023,11 @@ progressListener
 ;
 resolve
 (
+{
+webProgress
+request
+flags
+}
 )
 ;
 }
