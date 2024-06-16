@@ -3083,6 +3083,14 @@ xulWinName
 ;
 virtual
 void
+SetIsEarlyBlankWindow
+(
+bool
+)
+{
+}
+virtual
+void
 CaptureRollupEvents
 (
 bool
