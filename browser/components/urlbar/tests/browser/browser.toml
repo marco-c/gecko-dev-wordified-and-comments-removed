@@ -1791,6 +1791,13 @@ js
 ]
 [
 "
+browser_searchModeSwitcher_basic
+.
+js
+"
+]
+[
+"
 browser_searchMode_alias_replacement
 .
 js

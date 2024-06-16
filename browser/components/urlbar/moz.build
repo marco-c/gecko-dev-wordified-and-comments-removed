@@ -138,6 +138,13 @@ sys
 mjs
 "
 "
+SearchModeSwitcher
+.
+sys
+.
+mjs
+"
+"
 UrlbarController
 .
 sys

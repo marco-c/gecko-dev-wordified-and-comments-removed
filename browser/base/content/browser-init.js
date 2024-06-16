@@ -1697,6 +1697,13 @@ init
 (
 )
 ;
+SearchModeSwitcher
+.
+init
+(
+window
+)
+;
 gProtectionsHandler
 .
 init
