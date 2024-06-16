@@ -2114,6 +2114,13 @@ settings
 )
 .
 inactiveTabsAreEnabled
+loginsStorage
+=
+components
+.
+core
+.
+passwordsStorage
 )
 }
 }
