@@ -5159,6 +5159,13 @@ html
 ]
 [
 "
+test_custom_element_invalid_name
+.
+html
+"
+]
+[
+"
 test_custom_element_reflector
 .
 html
