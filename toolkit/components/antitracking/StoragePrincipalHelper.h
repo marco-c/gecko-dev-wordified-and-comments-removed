@@ -382,6 +382,17 @@ nsAString
 aBaseDomain
 )
 ;
+static
+void
+UpdatePartitionKeyWithForeignAncestorBit
+(
+nsAString
+&
+aKey
+bool
+aForeignByAncestorContext
+)
+;
 }
 ;
 }

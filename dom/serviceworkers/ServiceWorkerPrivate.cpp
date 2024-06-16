@@ -2873,6 +2873,9 @@ pkBaseDomain
 int32_t
 unused
 ;
+bool
+unused2
+;
 if
 (
 OriginAttributes
@@ -2891,6 +2894,7 @@ mPartitionKey
 scheme
 pkBaseDomain
 unused
+unused2
 )
 )
 {
@@ -3112,6 +3116,7 @@ cookieJarSettings
 SetPartitionKey
 (
 uri
+false
 )
 ;
 overriddenFingerprintingSettings
