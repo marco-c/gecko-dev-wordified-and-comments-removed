@@ -232,7 +232,6 @@ mDecoder
 ;
 class
 AnonymousDecodingTask
-final
 :
 public
 IDecodingTask
@@ -294,7 +293,7 @@ Resume
 )
 override
 ;
-private
+protected
 :
 virtual
 ~
