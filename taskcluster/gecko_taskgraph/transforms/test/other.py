@@ -3409,7 +3409,9 @@ linux
 "
 linux64
 -
-chromiumdriver
+cft
+-
+chromedriver
 "
 ]
             
@@ -3423,7 +3425,9 @@ macosx1015
 "
 mac
 -
-chromiumdriver
+cft
+-
+chromedriver
 "
 ]
             
@@ -3437,44 +3441,11 @@ macosx1400
 "
 mac
 -
-chromiumdriver
+cft
+-
+chromedriver
 -
 arm
-"
-]
-            
-"
-windows
-.
-*
-aarch64
-.
-*
-"
-:
-[
-"
-win32
--
-chromiumdriver
-"
-]
-            
-"
-windows
-.
-*
--
-32
-.
-*
-"
-:
-[
-"
-win32
--
-chromiumdriver
 "
 ]
             
@@ -3492,7 +3463,9 @@ windows
 "
 win64
 -
-chromiumdriver
+cft
+-
+chromedriver
 "
 ]
             
@@ -3506,7 +3479,9 @@ android
 "
 linux64
 -
-chromiumdriver
+cft
+-
+chromedriver
 "
 ]
         
@@ -3667,9 +3642,11 @@ windows
 "
 :
 "
-chrome
+cft
 -
-win
+chromedriver
+-
+win64
 /
 chromedriver
 .
@@ -3681,7 +3658,9 @@ mac
 "
 :
 "
-chrome
+cft
+-
+chromedriver
 -
 mac
 /
@@ -3693,7 +3672,9 @@ default
 "
 :
 "
-chrome
+cft
+-
+chromedriver
 -
 linux
 /
