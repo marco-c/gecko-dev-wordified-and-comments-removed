@@ -802,6 +802,8 @@ std
 fstream
 &
 f
+bool
+set_relrhack_bit
 )
 ;
 }
@@ -1108,6 +1110,8 @@ std
 fstream
 &
 f
+bool
+set_relrhack_bit
 )
 {
 auto
@@ -1640,6 +1644,11 @@ return
 false
 ;
 }
+if
+(
+set_relrhack_bit
+)
+{
 for
 (
 const
@@ -1667,6 +1676,7 @@ tag
 DT_RELRHACK_BIT
 )
 ;
+}
 }
 bool
 is_glibc
@@ -4335,6 +4345,8 @@ RelR
 hack
 (
 f
+!
+is_android
 )
 ;
 }
@@ -4358,6 +4370,8 @@ RelR
 hack
 (
 f
+!
+is_android
 )
 ;
 }
