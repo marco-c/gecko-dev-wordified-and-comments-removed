@@ -211,6 +211,14 @@ IDBTransactionMode
 mode
 ;
 [
+Throws
+]
+readonly
+attribute
+IDBTransactionDurability
+durability
+;
+[
 SameObject
 ]
 readonly
