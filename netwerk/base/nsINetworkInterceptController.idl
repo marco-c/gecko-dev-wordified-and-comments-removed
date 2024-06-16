@@ -135,6 +135,7 @@ aRv
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 f4b82975

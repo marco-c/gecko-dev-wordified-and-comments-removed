@@ -181,6 +181,7 @@ not
 available
 [
 scriptable
+builtinclass
 uuid
 (
 ca63784d
@@ -873,6 +874,9 @@ attribute
 nsIArray
 serverTiming
 ;
+[
+noscript
+]
 nsServerTimingArrayRef
 getNativeServerTiming
 (

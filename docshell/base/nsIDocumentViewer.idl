@@ -1341,6 +1341,7 @@ subdocument
 /
 [
 can_run_script
+noscript
 ]
 void
 setPrintSettingsForSubdocument

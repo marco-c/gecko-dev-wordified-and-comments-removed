@@ -134,6 +134,7 @@ browser
 /
 [
 scriptable
+builtinclass
 uuid
 (
 E8C414C4
@@ -895,6 +896,9 @@ see
 nsIBaseWindow
 *
 /
+[
+noscript
+]
 void
 setDimensions
 (
@@ -954,6 +958,9 @@ see
 nsIBaseWindow
 *
 /
+[
+noscript
+]
 void
 getDimensions
 (

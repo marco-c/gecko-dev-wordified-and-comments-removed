@@ -558,6 +558,9 @@ infallible
 .
 *
 /
+[
+noscript
+]
 readonly
 attribute
 ScreenColorGamut

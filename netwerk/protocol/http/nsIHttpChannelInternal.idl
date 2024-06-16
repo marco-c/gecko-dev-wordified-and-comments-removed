@@ -248,6 +248,9 @@ nsresult
 aErrorCode
 )
 ;
+[
+noscript
+]
 void
 onWebSocketConnectionAvailable
 (

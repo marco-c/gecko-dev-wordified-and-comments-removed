@@ -309,6 +309,7 @@ GMPCrashHelper
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 44d362ae

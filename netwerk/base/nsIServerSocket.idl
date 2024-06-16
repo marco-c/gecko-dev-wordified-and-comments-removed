@@ -133,6 +133,7 @@ connections
 /
 [
 scriptable
+builtinclass
 uuid
 (
 7a9c39cb

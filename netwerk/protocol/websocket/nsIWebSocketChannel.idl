@@ -232,6 +232,7 @@ aContext
 ;
 [
 must_use
+noscript
 ]
 void
 asyncOpenNative

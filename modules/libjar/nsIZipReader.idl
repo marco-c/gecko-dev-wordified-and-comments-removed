@@ -636,6 +636,9 @@ afterwards
 .
 *
 /
+[
+noscript
+]
 void
 openMemory
 (
@@ -1917,6 +1920,9 @@ platform
 .
 *
 /
+[
+noscript
+]
 PRFileDescStar
 getFd
 (

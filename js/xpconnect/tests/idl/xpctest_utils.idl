@@ -240,10 +240,16 @@ are
 not
 exposed
 .
+[
+noscript
+]
 attribute
 Noncompat
 noncompatProp
 ;
+[
+noscript
+]
 void
 noncompatMethod
 (

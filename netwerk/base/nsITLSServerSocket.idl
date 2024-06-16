@@ -74,6 +74,7 @@ nsISocketTransport
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 cc2c30f9

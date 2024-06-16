@@ -630,6 +630,9 @@ attribute
 ACString
 storageOriginKey
 ;
+[
+noscript
+]
 nsIReferrerInfo
 createReferrerInfo
 (

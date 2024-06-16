@@ -190,6 +190,7 @@ connections
 /
 [
 scriptable
+builtinclass
 uuid
 (
 d423bf4e
@@ -796,6 +797,9 @@ connect
 to
 *
 /
+[
+noscript
+]
 void
 connect
 (
@@ -1358,6 +1362,9 @@ implementation
 .
 *
 /
+[
+noscript
+]
 void
 sendBinaryStreamWithAddress
 (

@@ -133,6 +133,7 @@ interface
 /
 [
 scriptable
+builtinclass
 uuid
 (
 652B9EC5

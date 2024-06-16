@@ -152,6 +152,7 @@ ClassOfService
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 1ccb58ec
@@ -197,6 +198,9 @@ long
 flags
 )
 ;
+[
+noscript
+]
 void
 setClassOfService
 (

@@ -190,6 +190,7 @@ addresses
 /
 [
 scriptable
+builtinclass
 uuid
 (
 f92228ae
@@ -212,6 +213,7 @@ nsISupports
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 cb260e20

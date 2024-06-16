@@ -66,6 +66,7 @@ Modifiers
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 e97a3830

@@ -371,6 +371,9 @@ h
 }
 %
 }
+[
+noscript
+]
 void
 setDimensions
 (
@@ -379,6 +382,9 @@ DimensionRequest
 aRequest
 )
 ;
+[
+noscript
+]
 void
 getDimensions
 (
@@ -414,6 +420,9 @@ attribute
 nsIWidget
 parentWidget
 ;
+[
+noscript
+]
 attribute
 nativeWindow
 parentNativeWindow
