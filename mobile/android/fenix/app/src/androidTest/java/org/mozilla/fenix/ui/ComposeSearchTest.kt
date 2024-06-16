@@ -503,11 +503,6 @@ topicEnginesList
 listOf
 (
 "
-Amazon
-.
-com
-"
-"
 Wikipedia
 "
 "
@@ -761,11 +756,6 @@ DuckDuckGo
 Google
 "
 "
-Amazon
-.
-com
-"
-"
 Wikipedia
 "
 "
@@ -980,11 +970,6 @@ topicEnginesList
 =
 listOf
 (
-"
-Amazon
-.
-com
-"
 "
 Wikipedia
 "
@@ -1354,11 +1339,6 @@ DuckDuckGo
 "
 "
 Google
-"
-"
-Amazon
-.
-com
 "
 "
 Wikipedia

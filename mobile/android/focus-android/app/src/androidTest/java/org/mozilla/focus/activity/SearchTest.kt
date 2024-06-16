@@ -250,11 +250,6 @@ DuckDuckGo
 Google
 "
 "
-Amazon
-.
-com
-"
-"
 Wikipedia
 "
 )

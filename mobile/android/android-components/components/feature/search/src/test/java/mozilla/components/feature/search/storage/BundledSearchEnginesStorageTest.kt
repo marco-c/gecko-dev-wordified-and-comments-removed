@@ -241,7 +241,7 @@ engines
 list
 assertEquals
 (
-6
+5
 searchEngines
 .
 size
@@ -387,7 +387,7 @@ engines
 list
 assertEquals
 (
-8
+7
 searchEngines
 .
 size
@@ -460,7 +460,7 @@ engines
 list
 assertEquals
 (
-8
+7
 searchEngines
 .
 size
@@ -555,7 +555,7 @@ searchEngines
 )
 assertEquals
 (
-6
+5
 searchEngines
 .
 size
@@ -625,7 +625,7 @@ searchEngines
 )
 assertEquals
 (
-5
+4
 searchEngines
 .
 size
@@ -1027,9 +1027,6 @@ m
 bing
 "
 "
-amazondotcom
-"
-"
 ddg
 "
 "
@@ -1066,9 +1063,6 @@ m
 "
 "
 bing
-"
-"
-amazondotcom
 "
 "
 ddg
@@ -1184,7 +1178,7 @@ engines
 list
 assertEquals
 (
-5
+4
 searchEngines
 .
 size
@@ -1332,7 +1326,7 @@ engines
 list
 assertEquals
 (
-6
+5
 searchEngines
 .
 size
