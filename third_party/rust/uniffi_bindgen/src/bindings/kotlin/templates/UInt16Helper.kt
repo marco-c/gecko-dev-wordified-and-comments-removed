@@ -74,7 +74,7 @@ value
 UShort
 )
 =
-2
+2UL
 override
 fun
 write

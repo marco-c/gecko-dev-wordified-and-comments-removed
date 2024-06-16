@@ -3934,15 +3934,6 @@ collections
 HashMap
 ;
 use
-std
-:
-:
-path
-:
-:
-Path
-;
-use
 tempfile
 :
 :

@@ -91,7 +91,7 @@ inner_type_name
 ?
 )
 :
-Int
+ULong
 {
 if
 (
@@ -102,12 +102,12 @@ null
 )
 {
 return
-1
+1UL
 }
 else
 {
 return
-1
+1UL
 +
 {
 {

@@ -110,7 +110,7 @@ weedle2
 version
 =
 "
-4
+5
 .
 0
 .
@@ -199,8 +199,6 @@ weedle2
 readme
 =
 "
-.
-/
 README
 .
 md
@@ -226,11 +224,6 @@ mozilla
 uniffi
 -
 rs
-"
-resolver
-=
-"
-2
 "
 [
 lib

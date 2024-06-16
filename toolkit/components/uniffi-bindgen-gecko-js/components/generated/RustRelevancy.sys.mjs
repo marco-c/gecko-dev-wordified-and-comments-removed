@@ -1923,7 +1923,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-0
+1
 /
 /
 relevancy
@@ -2021,7 +2021,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-1
+2
 /
 /
 relevancy
@@ -2150,7 +2150,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-2
+3
 /
 /
 relevancy
@@ -2254,7 +2254,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-3
+4
 /
 /
 relevancy

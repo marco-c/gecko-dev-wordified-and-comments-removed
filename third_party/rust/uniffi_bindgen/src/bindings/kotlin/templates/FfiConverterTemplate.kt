@@ -215,7 +215,7 @@ value
 KotlinType
 )
 :
-Int
+ULong
 /
 /
 Write
@@ -334,10 +334,6 @@ getByteBuffer
 rbuf
 .
 capacity
-.
-toLong
-(
-)
 )
 .
 also
@@ -366,6 +362,10 @@ len
 bbuf
 .
 position
+(
+)
+.
+toLong
 (
 )
 )

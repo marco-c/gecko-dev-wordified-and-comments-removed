@@ -24,6 +24,7 @@ common
 :
 :
 {
+Docstring
 Identifier
 Parenthesized
 }
@@ -114,6 +115,12 @@ OperationNamespaceMember
 a
 >
 {
+docstring
+:
+Option
+<
+Docstring
+>
 attributes
 :
 Option
@@ -182,6 +189,12 @@ AttributeNamespaceMember
 a
 >
 {
+docstring
+:
+Option
+<
+Docstring
+>
 attributes
 :
 Option

@@ -5,7 +5,7 @@ _UniffiConverterString
 staticmethod
     
 def
-check
+check_lower
 (
 value
 )
@@ -112,15 +112,6 @@ buf
 )
 :
         
-value
-=
-_UniffiConverterString
-.
-check
-(
-value
-)
-        
 utf8_bytes
 =
 value
@@ -199,15 +190,6 @@ lower
 value
 )
 :
-        
-value
-=
-_UniffiConverterString
-.
-check
-(
-value
-)
         
 with
 _UniffiRustBuffer

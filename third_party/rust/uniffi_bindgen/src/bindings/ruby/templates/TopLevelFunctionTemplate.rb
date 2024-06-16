@@ -58,7 +58,7 @@ call
 rb
 :
 :
-coerce_args
+setup_args
 (
 func
 )
@@ -135,7 +135,7 @@ call
 rb
 :
 :
-coerce_args
+setup_args
 (
 func
 )

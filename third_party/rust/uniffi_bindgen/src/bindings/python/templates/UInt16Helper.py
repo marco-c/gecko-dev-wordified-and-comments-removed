@@ -41,7 +41,7 @@ read_u16
 staticmethod
     
 def
-write_unchecked
+write
 (
 value
 buf

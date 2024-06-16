@@ -1,14 +1,11 @@
 class
 _UniffiConverterBool
-(
-_UniffiConverterPrimitive
-)
 :
     
 classmethod
     
 def
-check
+check_lower
 (
 cls
 value
@@ -19,6 +16,38 @@ return
 not
 not
 value
+    
+classmethod
+    
+def
+lower
+(
+cls
+value
+)
+:
+        
+return
+1
+if
+value
+else
+0
+    
+staticmethod
+    
+def
+lift
+(
+value
+)
+:
+        
+return
+value
+!
+=
+0
     
 classmethod
     
@@ -45,7 +74,7 @@ read_u8
 classmethod
     
 def
-write_unchecked
+write
 (
 cls
 value
@@ -59,18 +88,3 @@ write_u8
 (
 value
 )
-    
-staticmethod
-    
-def
-lift
-(
-value
-)
-:
-        
-return
-value
-!
-=
-0
