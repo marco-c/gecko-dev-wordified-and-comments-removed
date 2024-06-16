@@ -208,6 +208,15 @@ mjs
 "
 modules
 /
+TabsStore
+.
+sys
+.
+mjs
+"
+"
+modules
+/
 telemetry
 .
 sys
