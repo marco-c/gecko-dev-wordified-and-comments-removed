@@ -161,6 +161,18 @@ helpers
 .
 TestHelper
 .
+clickSnackbarButton
+import
+org
+.
+mozilla
+.
+fenix
+.
+helpers
+.
+TestHelper
+.
 closeApp
 import
 org
@@ -592,7 +604,7 @@ Tab
 closed
 "
 )
-snackBarButtonClick
+clickSnackbarButton
 (
 "
 UNDO
@@ -839,7 +851,7 @@ tab
 closed
 "
 )
-snackBarButtonClick
+clickSnackbarButton
 (
 "
 UNDO

@@ -452,7 +452,7 @@ saved
 !
 "
 )
-snackBarButtonClick
+clickSnackbarButton
 (
 "
 VIEW
@@ -612,7 +612,7 @@ collectionName
 =
 collectionName
 )
-snackBarButtonClick
+clickSnackbarButton
 (
 "
 VIEW
@@ -1189,7 +1189,7 @@ collectionName
 =
 collectionName
 )
-snackBarButtonClick
+clickSnackbarButton
 (
 "
 VIEW
