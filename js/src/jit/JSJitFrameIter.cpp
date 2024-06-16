@@ -514,6 +514,11 @@ MOZ_ASSERT
 isScripted
 (
 )
+|
+|
+isTrampolineNative
+(
+)
 )
 ;
 MOZ_ASSERT
