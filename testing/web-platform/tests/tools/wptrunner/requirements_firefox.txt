@@ -39,11 +39,11 @@ mozleak
 mozprofile
 =
 =
-2
+3
 .
-6
+0
 .
-1
+0
 mozrunner
 =
 =
