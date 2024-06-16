@@ -462,16 +462,6 @@ true
 name
 :
 "
-MediaCapabilitiesInfo
-"
-insecureContext
-:
-true
-}
-{
-name
-:
-"
 Math
 "
 insecureContext

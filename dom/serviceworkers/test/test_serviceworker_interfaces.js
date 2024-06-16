@@ -611,9 +611,6 @@ LockManager
 MediaCapabilities
 "
 "
-MediaCapabilitiesInfo
-"
-"
 MessageChannel
 "
 "

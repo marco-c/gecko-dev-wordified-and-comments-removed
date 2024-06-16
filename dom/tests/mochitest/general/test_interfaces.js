@@ -4160,16 +4160,6 @@ true
 name
 :
 "
-MediaCapabilitiesInfo
-"
-insecureContext
-:
-true
-}
-{
-name
-:
-"
 MediaDeviceInfo
 "
 insecureContext
