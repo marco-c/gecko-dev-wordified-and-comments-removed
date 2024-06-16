@@ -8,6 +8,11 @@ UiaGrid
 cpp
 "
 "
+UiaGridItem
+.
+cpp
+"
+"
 uiaRawElmProvider
 .
 cpp

@@ -25,6 +25,13 @@ IUnknownImpl
 .
 h
 "
+#
+include
+"
+UiaGridItem
+.
+h
+"
 namespace
 mozilla
 {
@@ -39,6 +46,8 @@ ia2AccessibleTableCell
 :
 public
 IAccessibleTableCell
+public
+UiaGridItem
 public
 ia2AccessibleHypertext
 {

@@ -118,6 +118,10 @@ IMPL_IUNKNOWN_QUERY_IFACE
 (
 IAccessibleTableCell
 )
+IMPL_IUNKNOWN_QUERY_IFACE
+(
+IGridItemProvider
+)
 IMPL_IUNKNOWN_QUERY_TAIL_INHERITED
 (
 ia2AccessibleHypertext
