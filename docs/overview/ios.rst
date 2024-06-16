@@ -197,7 +197,7 @@ rendering
 HTML
 CSS
 and
-JavaScrip
+JavaScript
 content
 alongside
 an
