@@ -25879,8 +25879,6 @@ ExprCode
 "
 "
                     
-MOZ_ALWAYS_TRUE
-(
 {
 container
 }
@@ -25895,7 +25893,6 @@ manageecxxtype
 >
 (
 aListener
-)
 )
 )
 ;
