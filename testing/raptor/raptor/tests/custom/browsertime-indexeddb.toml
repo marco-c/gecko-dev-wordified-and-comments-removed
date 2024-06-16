@@ -30,6 +30,7 @@ gecko_profile_features
 js
 stackwalk
 cpu
+memory
 "
 gecko_profile_threads
 =
