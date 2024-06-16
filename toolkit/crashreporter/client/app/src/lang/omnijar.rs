@@ -219,6 +219,8 @@ localization
 locale
 }
 /
+toolkit
+/
 crashreporter
 /
 crashreporter
