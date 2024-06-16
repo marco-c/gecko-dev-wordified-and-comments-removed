@@ -156,7 +156,6 @@ SetRequestContextWithPrincipal
 (
 selfURIPrincipal
 selfURI
-u
 "
 "
 _ns
