@@ -2307,6 +2307,11 @@ nsIFile
 >
 mCurrentFile
 ;
+PRTime
+mUserPrefsFileLastModifiedAtStartup
+=
+0
+;
 bool
 mDirty
 =
