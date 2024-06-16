@@ -1,9 +1,9 @@
 #
 ifndef
-MODULES_VIDEO_CODING_H264_PACKET_BUFFER_H_
+MODULES_VIDEO_CODING_H26X_PACKET_BUFFER_H_
 #
 define
-MODULES_VIDEO_CODING_H264_PACKET_BUFFER_H_
+MODULES_VIDEO_CODING_H26X_PACKET_BUFFER_H_
 #
 include
 <
@@ -67,7 +67,7 @@ namespace
 webrtc
 {
 class
-H264PacketBuffer
+H26xPacketBuffer
 {
 public
 :
@@ -94,10 +94,10 @@ PacketBuffer
 InsertResult
 ;
 explicit
-H264PacketBuffer
+H26xPacketBuffer
 (
 bool
-idr_only_keyframes_allowed
+h264_idr_only_keyframes_allowed
 )
 ;
 ABSL_MUST_USE_RESULT
@@ -192,7 +192,7 @@ packets
 ;
 const
 bool
-idr_only_keyframes_allowed_
+h264_idr_only_keyframes_allowed_
 ;
 std
 :
