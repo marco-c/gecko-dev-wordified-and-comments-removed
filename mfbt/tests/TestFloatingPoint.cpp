@@ -2550,7 +2550,7 @@ i32
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 i32
 =
@@ -2568,7 +2568,7 @@ i32
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 i32
 =
@@ -2589,7 +2589,7 @@ i64
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 i64
 =
@@ -2607,7 +2607,7 @@ i64
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 i64
 =
@@ -2668,7 +2668,7 @@ i64
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 i64
 =
@@ -2686,7 +2686,7 @@ i64
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 i64
 =
