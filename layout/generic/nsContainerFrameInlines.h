@@ -95,7 +95,10 @@ wm
 .
 PhysicalSideForInlineAxis
 (
-eLogicalEdgeStart
+LogicalEdge
+:
+:
+Start
 )
 ;
 Side
@@ -105,7 +108,10 @@ wm
 .
 PhysicalSideForInlineAxis
 (
-eLogicalEdgeEnd
+LogicalEdge
+:
+:
+End
 )
 ;
 const
