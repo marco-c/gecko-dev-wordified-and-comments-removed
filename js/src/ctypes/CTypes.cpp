@@ -135,9 +135,6 @@ stdint
 h
 >
 #
-ifdef
-HAVE_SSIZE_T
-#
 include
 <
 sys
@@ -146,8 +143,6 @@ types
 .
 h
 >
-#
-endif
 #
 include
 <
