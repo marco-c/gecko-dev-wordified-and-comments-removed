@@ -15,9 +15,6 @@ browser_css_cache
 js
 "
 ]
-https_first_disabled
-=
-true
 support
 -
 files
@@ -41,9 +38,6 @@ browser_image_cache
 js
 "
 ]
-https_first_disabled
-=
-true
 support
 -
 files
@@ -67,9 +61,6 @@ browser_preflight_cache
 js
 "
 ]
-https_first_disabled
-=
-true
 support
 -
 files
