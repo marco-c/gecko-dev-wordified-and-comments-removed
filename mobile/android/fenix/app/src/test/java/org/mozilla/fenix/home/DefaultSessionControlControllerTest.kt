@@ -1290,17 +1290,6 @@ filesDir
 }
 returns
 filesDir
-every
-{
-filesDir
-.
-path
-}
-returns
-"
-/
-test
-"
 }
 Test
 fun
