@@ -2116,6 +2116,14 @@ neverTranslateLanguages
 "
 "
 ]
+[
+"
+accessibility
+.
+tabfocus_applies_to_xul
+"
+false
+]
 .
 .
 .

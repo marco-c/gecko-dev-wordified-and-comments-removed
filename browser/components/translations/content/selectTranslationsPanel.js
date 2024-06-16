@@ -4525,6 +4525,12 @@ translateButton
 }
 )
 ;
+tryAgainButton
+.
+focus
+(
+)
+;
 }
 #
 displayTranslationFailureMessage
@@ -4587,6 +4593,12 @@ doneButton
 translateButton
 ]
 }
+)
+;
+tryAgainButton
+.
+focus
+(
 )
 ;
 }
