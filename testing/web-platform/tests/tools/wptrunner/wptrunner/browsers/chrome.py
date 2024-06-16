@@ -816,6 +816,24 @@ GenericSensorExtraClasses
 "
 )
     
+chrome_options
+[
+"
+args
+"
+]
+.
+append
+(
+"
+-
+-
+disable
+-
+infobars
+"
+)
+    
 address_space_overrides_ports
 =
 [
