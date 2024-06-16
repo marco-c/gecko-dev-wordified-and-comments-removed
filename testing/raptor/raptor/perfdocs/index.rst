@@ -178,7 +178,9 @@ titlesonly
 browsertime
 debugging
 contributing
-metrics
+{
+metrics_rst_name
+}
 .
 .
 contents

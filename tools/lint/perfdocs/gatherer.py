@@ -565,6 +565,26 @@ file
                 
 elif
 file
+=
+=
+"
+metrics
+.
+rst
+"
+:
+                    
+matched
+[
+"
+metrics
+"
+]
+=
+file
+                
+elif
+file
 .
 split
 (
