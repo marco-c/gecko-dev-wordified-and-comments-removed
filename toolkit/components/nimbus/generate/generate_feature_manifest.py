@@ -118,10 +118,6 @@ pocketNewtab
 "
     
 "
-saveToPocket
-"
-    
-"
 searchConfiguration
 "
     
