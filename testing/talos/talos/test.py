@@ -1718,10 +1718,6 @@ win_counters
 "
         
 "
-w7_counters
-"
-        
-"
 linux_counters
 "
         
@@ -2970,8 +2966,6 @@ gecko_profile_interval
     
 win_counters
 =
-w7_counters
-=
 linux_counters
 =
 mac_counters
@@ -3219,8 +3213,6 @@ Worker
     
 win_counters
 =
-w7_counters
-=
 linux_counters
 =
 mac_counters
@@ -3392,8 +3384,6 @@ gecko_profile_interval
 10
     
 win_counters
-=
-w7_counters
 =
 linux_counters
 =
@@ -3572,8 +3562,6 @@ MediaSupervisor
     
 win_counters
 =
-w7_counters
-=
 linux_counters
 =
 mac_counters
@@ -3711,8 +3699,6 @@ MediaSupervisor
     
 win_counters
 =
-w7_counters
-=
 linux_counters
 =
 mac_counters
@@ -3853,8 +3839,6 @@ MediaSupervisor
 "
     
 win_counters
-=
-w7_counters
 =
 linux_counters
 =
@@ -4033,8 +4017,6 @@ MediaSupervisor
     
 win_counters
 =
-w7_counters
-=
 linux_counters
 =
 mac_counters
@@ -4211,8 +4193,6 @@ MediaSupervisor
 "
     
 win_counters
-=
-w7_counters
 =
 linux_counters
 =
@@ -4394,8 +4374,6 @@ MediaSupervisor
     
 win_counters
 =
-w7_counters
-=
 linux_counters
 =
 mac_counters
@@ -4576,8 +4554,6 @@ MediaSupervisor
     
 win_counters
 =
-w7_counters
-=
 linux_counters
 =
 mac_counters
@@ -4757,8 +4733,6 @@ MediaSupervisor
 "
     
 win_counters
-=
-w7_counters
 =
 linux_counters
 =
@@ -4942,8 +4916,6 @@ MediaSupervisor
     
 win_counters
 =
-w7_counters
-=
 linux_counters
 =
 mac_counters
@@ -5126,8 +5098,6 @@ MediaSupervisor
     
 win_counters
 =
-w7_counters
-=
 linux_counters
 =
 mac_counters
@@ -5309,8 +5279,6 @@ MediaSupervisor
 "
     
 win_counters
-=
-w7_counters
 =
 linux_counters
 =
@@ -5497,8 +5465,6 @@ MediaSupervisor
     
 win_counters
 =
-w7_counters
-=
 linux_counters
 =
 mac_counters
@@ -5684,8 +5650,6 @@ MediaSupervisor
     
 win_counters
 =
-w7_counters
-=
 linux_counters
 =
 mac_counters
@@ -5870,8 +5834,6 @@ MediaSupervisor
 )
     
 win_counters
-=
-w7_counters
 =
 linux_counters
 =
@@ -6075,11 +6037,6 @@ tptimeout
 mainthread
 =
 True
-    
-w7_counters
-=
-[
-]
     
 win_counters
 =
@@ -6395,16 +6352,6 @@ manifest
 "
     
 win_counters
-=
-[
-"
-%
-Processor
-Time
-"
-]
-    
-w7_counters
 =
 [
 "
@@ -8689,8 +8636,6 @@ gecko_profile_interval
     
 win_counters
 =
-w7_counters
-=
 linux_counters
 =
 mac_counters
@@ -8843,8 +8788,6 @@ gecko_profile_interval
     
 win_counters
 =
-w7_counters
-=
 linux_counters
 =
 mac_counters
@@ -8988,8 +8931,6 @@ gecko_profile_interval
 2
     
 win_counters
-=
-w7_counters
 =
 linux_counters
 =

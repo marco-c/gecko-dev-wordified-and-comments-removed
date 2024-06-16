@@ -180,11 +180,6 @@ win_counters
 [
 ]
         
-w7_counters
-=
-[
-]
-        
 linux_counters
 =
 [
@@ -420,25 +415,6 @@ config
 )
 :
     
-win7_path
-=
-"
-c
-:
-/
-Program
-Files
-/
-Microsoft
-Windows
-Performance
-Toolkit
-/
-xperf
-.
-exe
-"
-    
 if
 config
 [
@@ -506,63 +482,6 @@ xperf_path
 ]
                 
 break
-        
-if
-not
-os
-.
-path
-.
-exists
-(
-config
-[
-"
-xperf_path
-"
-]
-)
-:
-            
-if
-not
-os
-.
-path
-.
-exists
-(
-win7_path
-)
-:
-                
-raise
-ConfigurationError
-(
-                    
-"
-xperf
-.
-exe
-cannot
-be
-found
-at
-the
-path
-specified
-"
-                
-)
-            
-config
-[
-"
-xperf_path
-"
-]
-=
-win7_path
 validator
 def
 set_webserver
@@ -821,21 +740,6 @@ symbols
 "
         
 )
-def
-get_counters
-(
-config
-)
-:
-    
-counters
-=
-set
-(
-)
-    
-return
-counters
 def
 get_active_tests
 (
@@ -1404,10 +1308,6 @@ win_counters
 "
             
 "
-w7_counters
-"
-            
-"
 xperf_counters
 "
         
@@ -1499,9 +1399,8 @@ config
     
 counters
 =
-get_counters
+set
 (
-config
 )
     
 global_overrides

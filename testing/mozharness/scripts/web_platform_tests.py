@@ -2501,42 +2501,6 @@ traceback
         
 ]
         
-is_windows_7
-=
-(
-            
-mozinfo
-.
-info
-[
-"
-os
-"
-]
-=
-=
-"
-win
-"
-and
-mozinfo
-.
-info
-[
-"
-os_version
-"
-]
-=
-=
-"
-6
-.
-1
-"
-        
-)
-        
 if
 self
 .
@@ -2601,17 +2565,23 @@ disable_fission
 ]
             
 or
-is_windows_7
+"
+reftest
+"
+in
+test_types
             
 and
-mozinfo
+sys
 .
-info
-[
+platform
+.
+startswith
+(
 "
-debug
+darwin
 "
-]
+)
         
 )
 :
@@ -2724,19 +2694,6 @@ firefox
 "
 ]
         
-if
-is_windows_7
-:
-            
-self
-.
-_install_fonts
-(
-)
-        
-else
-:
-            
 cmd
 +
 =
