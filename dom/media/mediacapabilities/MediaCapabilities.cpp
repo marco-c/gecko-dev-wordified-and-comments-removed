@@ -1313,7 +1313,7 @@ if
 supported
 )
 {
-MediaCapabilitiesInfo
+MediaCapabilitiesDecodingInfo
 info
 ;
 info
@@ -1892,7 +1892,7 @@ __func__
 )
 ;
 }
-MediaCapabilitiesInfo
+MediaCapabilitiesDecodingInfo
 info
 ;
 info
@@ -2329,7 +2329,7 @@ if
 shouldResistFingerprinting
 )
 {
-MediaCapabilitiesInfo
+MediaCapabilitiesDecodingInfo
 info
 ;
 info
@@ -2495,7 +2495,7 @@ media_mediacapabilities_drop_threshold
 (
 )
 ;
-MediaCapabilitiesInfo
+MediaCapabilitiesDecodingInfo
 info
 ;
 info
@@ -2572,7 +2572,7 @@ height
 480
 )
 {
-MediaCapabilitiesInfo
+MediaCapabilitiesDecodingInfo
 info
 ;
 info
@@ -2735,7 +2735,7 @@ needed
 ;
 }
 }
-MediaCapabilitiesInfo
+MediaCapabilitiesDecodingInfo
 info
 ;
 info
@@ -3068,7 +3068,7 @@ IsReject
 )
 )
 {
-MediaCapabilitiesInfo
+MediaCapabilitiesDecodingInfo
 info
 ;
 info
@@ -3173,7 +3173,7 @@ capability
 mPowerEfficient
 ;
 }
-MediaCapabilitiesInfo
+MediaCapabilitiesDecodingInfo
 info
 ;
 info
