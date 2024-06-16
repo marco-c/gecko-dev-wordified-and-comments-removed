@@ -147,7 +147,7 @@ fenix
 .
 GleanMetrics
 .
-RecentBookmarks
+HomeBookmarks
 import
 org
 .
@@ -441,7 +441,7 @@ id
 browserFragment
 )
 }
-RecentBookmarks
+HomeBookmarks
 .
 bookmarkClicked
 .
@@ -455,7 +455,7 @@ handleShowAllBookmarksClicked
 (
 )
 {
-RecentBookmarks
+HomeBookmarks
 .
 showAllBookmarks
 .

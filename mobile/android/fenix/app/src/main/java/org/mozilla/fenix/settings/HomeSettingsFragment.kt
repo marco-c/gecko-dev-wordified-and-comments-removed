@@ -552,7 +552,7 @@ newValue
 as
 Boolean
 "
-recently_saved
+bookmarks
 "
 )
 )

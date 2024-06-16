@@ -6252,7 +6252,7 @@ showRecentTabsFeature
 )
 CustomizeHome
 .
-recentlySaved
+bookmarks
 .
 set
 (

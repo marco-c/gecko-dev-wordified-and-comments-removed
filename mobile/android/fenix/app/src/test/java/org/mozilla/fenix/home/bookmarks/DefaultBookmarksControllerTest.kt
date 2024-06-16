@@ -281,7 +281,7 @@ fenix
 .
 GleanMetrics
 .
-RecentBookmarks
+HomeBookmarks
 import
 org
 .
@@ -508,7 +508,7 @@ tab
 {
 assertNull
 (
-RecentBookmarks
+HomeBookmarks
 .
 bookmarkClicked
 .
@@ -579,7 +579,7 @@ FromHome
 }
 assertNotNull
 (
-RecentBookmarks
+HomeBookmarks
 .
 bookmarkClicked
 .
@@ -614,7 +614,7 @@ tab
 {
 assertNull
 (
-RecentBookmarks
+HomeBookmarks
 .
 bookmarkClicked
 .
@@ -718,7 +718,7 @@ FromHome
 }
 assertNotNull
 (
-RecentBookmarks
+HomeBookmarks
 .
 bookmarkClicked
 .
@@ -748,7 +748,7 @@ opened
 {
 assertNull
 (
-RecentBookmarks
+HomeBookmarks
 .
 bookmarkClicked
 .
@@ -834,7 +834,7 @@ browserFragment
 }
 assertNotNull
 (
-RecentBookmarks
+HomeBookmarks
 .
 bookmarkClicked
 .
@@ -864,7 +864,7 @@ runTestOnMain
 {
 assertNull
 (
-RecentBookmarks
+HomeBookmarks
 .
 showAllBookmarks
 .
@@ -901,7 +901,7 @@ directions
 }
 assertNotNull
 (
-RecentBookmarks
+HomeBookmarks
 .
 showAllBookmarks
 .
@@ -915,7 +915,7 @@ fun
 WHEN
 show
 all
-bookmarks
+bppkmarks
 is
 clicked
 from
@@ -931,7 +931,7 @@ root
 {
 assertNull
 (
-RecentBookmarks
+HomeBookmarks
 .
 showAllBookmarks
 .
@@ -968,7 +968,7 @@ directions
 }
 assertNotNull
 (
-RecentBookmarks
+HomeBookmarks
 .
 showAllBookmarks
 .
