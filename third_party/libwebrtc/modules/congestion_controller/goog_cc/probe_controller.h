@@ -178,6 +178,12 @@ further_probe_threshold
 ;
 FieldTrialParameter
 <
+bool
+>
+abort_further_probe_if_max_lower_than_current
+;
+FieldTrialParameter
+<
 TimeDelta
 >
 alr_probing_interval
