@@ -250,6 +250,11 @@ PushSubscriptionOptions
 .
 h
 "
+"
+PushUtil
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +
@@ -272,6 +277,11 @@ cpp
 "
 "
 PushSubscriptionOptions
+.
+cpp
+"
+"
+PushUtil
 .
 cpp
 "
