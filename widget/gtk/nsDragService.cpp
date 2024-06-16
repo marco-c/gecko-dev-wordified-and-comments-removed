@@ -3355,7 +3355,7 @@ GetAvailableDragFlavors
 availableDragFlavors
 )
 ;
-GetTargetDragData
+GetDragData
 (
 requestedFlavor
 availableDragFlavors
@@ -3390,7 +3390,7 @@ return
 NS_OK
 ;
 }
-GetTargetDragData
+GetDragData
 (
 requestedFlavor
 availableDragFlavors
@@ -3427,7 +3427,7 @@ return
 NS_OK
 ;
 }
-GetTargetDragData
+GetDragData
 (
 requestedFlavor
 availableDragFlavors
@@ -4273,7 +4273,7 @@ if
 requestedFlavor
 )
 {
-GetTargetDragData
+GetDragData
 (
 requestedFlavor
 availableDragFlavors
@@ -4331,7 +4331,7 @@ if
 requestedFlavor
 )
 {
-GetTargetDragData
+GetDragData
 (
 requestedFlavor
 availableDragFlavors
@@ -4391,7 +4391,7 @@ if
 requestedFlavor
 )
 {
-GetTargetDragData
+GetDragData
 (
 requestedFlavor
 availableDragFlavors
@@ -4469,7 +4469,7 @@ if
 requestedFlavor
 )
 {
-GetTargetDragData
+GetDragData
 (
 requestedFlavor
 availableDragFlavors
@@ -4612,7 +4612,7 @@ kTextMime
 FALSE
 )
 ;
-GetTargetDragData
+GetDragData
 (
 requestedFlavor
 availableDragFlavors
@@ -4662,7 +4662,7 @@ gTextUriListType
 FALSE
 )
 ;
-GetTargetDragData
+GetDragData
 (
 requestedFlavor
 availableDragFlavors
@@ -4764,7 +4764,7 @@ gMozUrlType
 FALSE
 )
 ;
-GetTargetDragData
+GetDragData
 (
 requestedFlavor
 availableDragFlavors
@@ -6585,7 +6585,7 @@ void
 nsDragService
 :
 :
-GetTargetDragData
+GetDragData
 (
 GdkAtom
 aRequestedFlavor
@@ -6597,7 +6597,7 @@ nsCString
 &
 aAvailableDragFlavors
 bool
-aResetTargetData
+aResetDragData
 )
 {
 LOGDRAGSERVICE
@@ -6606,7 +6606,7 @@ LOGDRAGSERVICE
 nsDragService
 :
 :
-GetTargetDragData
+GetDragData
 (
 %
 p
@@ -6642,7 +6642,7 @@ get
 ;
 if
 (
-aResetTargetData
+aResetDragData
 )
 {
 TargetResetData
