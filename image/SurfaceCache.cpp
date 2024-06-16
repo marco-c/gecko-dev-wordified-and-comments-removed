@@ -8887,6 +8887,11 @@ XPCOMShutdownFinal
 )
 )
 {
+Unused
+<
+<
+aImage
+;
 return
 ;
 }
