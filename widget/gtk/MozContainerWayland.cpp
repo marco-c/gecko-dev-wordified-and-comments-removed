@@ -3655,6 +3655,15 @@ requestedSize
 !
 =
 recentSize
+|
+|
+wl_container
+-
+>
+buffer_scale
+!
+=
+scale
 )
 {
 LOGCONTAINER
