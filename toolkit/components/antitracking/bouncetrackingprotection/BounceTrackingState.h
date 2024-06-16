@@ -206,6 +206,15 @@ aBrowsingContext
 )
 ;
 static
+bool
+ShouldTrackPrincipal
+(
+nsIPrincipal
+*
+aPrincipal
+)
+;
+static
 nsresult
 HasBounceTrackingStateForSite
 (
