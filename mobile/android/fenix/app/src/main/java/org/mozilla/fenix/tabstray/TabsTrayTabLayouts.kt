@@ -1418,6 +1418,12 @@ draggingItemKey
 tab
 .
 id
+swipingEnabled
+=
+!
+state
+.
+isScrollInProgress
 onCloseClick
 =
 onTabClose
@@ -1889,6 +1895,12 @@ draggingItemKey
 tab
 .
 id
+swipingEnabled
+=
+!
+state
+.
+isScrollInProgress
 onCloseClick
 =
 onTabClose
@@ -2088,7 +2100,7 @@ Mode
 Normal
 displayTabsInGrid
 =
-false
+true
 onTabClose
 =
 tabs
