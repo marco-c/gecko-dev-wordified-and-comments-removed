@@ -3,9 +3,9 @@ mypy
 =
 1
 .
-4
+10
 .
-1
+0
 mypy
 -
 extensions

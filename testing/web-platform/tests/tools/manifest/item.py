@@ -2004,6 +2004,9 @@ PageRanges
 :
         
 return
+cast
+(
+PageRanges
 self
 .
 _extras
@@ -2015,6 +2018,7 @@ page_ranges
 "
 {
 }
+)
 )
     
 def
