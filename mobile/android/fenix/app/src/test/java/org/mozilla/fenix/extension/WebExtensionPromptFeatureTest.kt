@@ -1677,8 +1677,18 @@ message
 val
 expectedTitle
 =
+testContext
+.
+getString
+(
+R
+.
+string
+.
+mozac_feature_addons_failed_to_install
 "
 "
+)
 val
 extensionName
 =
@@ -1712,7 +1722,7 @@ R
 .
 string
 .
-mozac_feature_addons_failed_to_install
+mozac_feature_addons_admin_install_only
 extensionName
 )
 webExtensionPromptFeature
