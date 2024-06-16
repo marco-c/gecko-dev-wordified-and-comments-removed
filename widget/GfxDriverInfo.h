@@ -750,6 +750,7 @@ IntelSkylake
 IntelKabyLake
 IntelHD520
 IntelMobileHDGraphics
+IntelGen12
 NvidiaBlockD3D9Layers
 RadeonX1000
 RadeonCaicos
