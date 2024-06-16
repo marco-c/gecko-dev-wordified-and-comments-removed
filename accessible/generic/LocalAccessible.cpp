@@ -6752,6 +6752,7 @@ nsGkAtoms
 aria_disabled
 |
 |
+(
 aAttribute
 =
 =
@@ -6759,6 +6760,16 @@ nsGkAtoms
 :
 :
 disabled
+&
+&
+!
+mContent
+-
+>
+IsHTMLElement
+(
+)
+)
 |
 |
 aAttribute
