@@ -1723,6 +1723,7 @@ cc
 name
 "
 ]
+?
 .
 toUpperCase
 (
