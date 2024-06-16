@@ -675,6 +675,15 @@ return
 mAnchorFocusRange
 ;
 }
+void
+GetDirection
+(
+nsAString
+&
+aDirection
+)
+const
+;
 nsDirection
 GetDirection
 (
