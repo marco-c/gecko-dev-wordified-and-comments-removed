@@ -10574,7 +10574,7 @@ false
 if
 (
 !
-ToTemporalDisambiguation
+GetTemporalDisambiguationOption
 (
 cx
 options

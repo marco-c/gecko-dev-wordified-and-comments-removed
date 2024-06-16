@@ -2014,7 +2014,7 @@ ignored
 if
 (
 !
-ToTemporalOverflow
+GetTemporalOverflowOption
 (
 cx
 maybeOptions
@@ -2125,7 +2125,7 @@ ignored
 if
 (
 !
-ToTemporalOverflow
+GetTemporalOverflowOption
 (
 cx
 maybeOptions
@@ -2511,7 +2511,7 @@ ignored
 if
 (
 !
-ToTemporalOverflow
+GetTemporalOverflowOption
 (
 cx
 maybeResolvedOptions
@@ -4249,7 +4249,7 @@ Constrain
 if
 (
 !
-ToTemporalOverflow
+GetTemporalOverflowOption
 (
 cx
 options
@@ -4599,7 +4599,7 @@ Constrain
 if
 (
 !
-ToTemporalOverflow
+GetTemporalOverflowOption
 (
 cx
 options
@@ -4738,7 +4738,7 @@ Constrain
 if
 (
 !
-ToTemporalOverflow
+GetTemporalOverflowOption
 (
 cx
 options
@@ -7062,7 +7062,7 @@ ignored
 if
 (
 !
-ToTemporalOverflow
+GetTemporalOverflowOption
 (
 cx
 options
@@ -11883,7 +11883,7 @@ PlainDateObject
 auto
 showCalendar
 =
-CalendarOption
+ShowCalendar
 :
 :
 Auto
@@ -11935,7 +11935,7 @@ false
 if
 (
 !
-ToCalendarNameOption
+GetTemporalShowCalendarNameOption
 (
 cx
 options
@@ -12068,7 +12068,7 @@ TemporalDateToString
 (
 cx
 temporalDate
-CalendarOption
+ShowCalendar
 :
 :
 Auto
@@ -12182,7 +12182,7 @@ TemporalDateToString
 (
 cx
 temporalDate
-CalendarOption
+ShowCalendar
 :
 :
 Auto

@@ -5398,7 +5398,7 @@ toString
 if
 (
 !
-GetTemporalUnit
+GetTemporalUnitValuedOption
 (
 cx
 paramString
@@ -5461,7 +5461,7 @@ false
 if
 (
 !
-ToTemporalRoundingIncrement
+GetRoundingIncrementOption
 (
 cx
 options
@@ -5477,7 +5477,7 @@ false
 if
 (
 !
-ToTemporalRoundingMode
+GetRoundingModeOption
 (
 cx
 options
@@ -5493,7 +5493,7 @@ false
 if
 (
 !
-GetTemporalUnit
+GetTemporalUnitValuedOption
 (
 cx
 options
@@ -5892,7 +5892,7 @@ Auto
 if
 (
 !
-ToFractionalSecondDigits
+GetTemporalFractionalSecondDigitsOption
 (
 cx
 options
@@ -5908,7 +5908,7 @@ false
 if
 (
 !
-ToTemporalRoundingMode
+GetRoundingModeOption
 (
 cx
 options
@@ -5932,7 +5932,7 @@ Auto
 if
 (
 !
-GetTemporalUnit
+GetTemporalUnitValuedOption
 (
 cx
 options

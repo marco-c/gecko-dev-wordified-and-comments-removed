@@ -11832,7 +11832,7 @@ maybeOptions
 if
 (
 !
-ToTemporalOverflow
+GetTemporalOverflowOption
 (
 cx
 maybeOptions
@@ -12571,7 +12571,7 @@ maybeOptions
 if
 (
 !
-ToTemporalOverflow
+GetTemporalOverflowOption
 (
 cx
 maybeOptions
@@ -13216,7 +13216,7 @@ maybeOptions
 if
 (
 !
-ToTemporalOverflow
+GetTemporalOverflowOption
 (
 cx
 maybeOptions
@@ -14613,7 +14613,7 @@ options
 if
 (
 !
-ToTemporalOverflow
+GetTemporalOverflowOption
 (
 cx
 options
@@ -19205,7 +19205,7 @@ false
 if
 (
 !
-GetTemporalUnit
+GetTemporalUnitValuedOption
 (
 cx
 options

@@ -11486,7 +11486,7 @@ finishString
 }
 static
 bool
-ToRelativeTemporalObject
+GetTemporalRelativeToOption
 (
 JSContext
 *
@@ -17260,7 +17260,7 @@ false
 if
 (
 !
-ToRelativeTemporalObject
+GetTemporalRelativeToOption
 (
 cx
 options
@@ -18226,7 +18226,7 @@ options
 if
 (
 !
-ToRelativeTemporalObject
+GetTemporalRelativeToOption
 (
 cx
 options
@@ -20500,7 +20500,7 @@ toString
 if
 (
 !
-GetTemporalUnit
+GetTemporalUnitValuedOption
 (
 cx
 paramString
@@ -20668,7 +20668,7 @@ Auto
 if
 (
 !
-GetTemporalUnit
+GetTemporalUnitValuedOption
 (
 cx
 largestUnitStr
@@ -20693,7 +20693,7 @@ false
 if
 (
 !
-ToRelativeTemporalObject
+GetTemporalRelativeToOption
 (
 cx
 options
@@ -20733,7 +20733,7 @@ receiver
 if
 (
 !
-ToTemporalRoundingIncrement
+GetRoundingIncrementOption
 (
 cx
 options
@@ -20749,7 +20749,7 @@ false
 if
 (
 !
-ToTemporalRoundingMode
+GetRoundingModeOption
 (
 cx
 options
@@ -20765,7 +20765,7 @@ false
 if
 (
 !
-GetTemporalUnit
+GetTemporalUnitValuedOption
 (
 cx
 options
@@ -21898,7 +21898,7 @@ toString
 if
 (
 !
-GetTemporalUnit
+GetTemporalUnitValuedOption
 (
 cx
 paramString
@@ -21961,7 +21961,7 @@ false
 if
 (
 !
-ToRelativeTemporalObject
+GetTemporalRelativeToOption
 (
 cx
 totalOf
@@ -22001,7 +22001,7 @@ receiver
 if
 (
 !
-GetTemporalUnit
+GetTemporalUnitValuedOption
 (
 cx
 totalOf
@@ -22947,7 +22947,7 @@ Auto
 if
 (
 !
-ToFractionalSecondDigits
+GetTemporalFractionalSecondDigitsOption
 (
 cx
 options
@@ -22963,7 +22963,7 @@ false
 if
 (
 !
-ToTemporalRoundingMode
+GetRoundingModeOption
 (
 cx
 options
@@ -22987,7 +22987,7 @@ Auto
 if
 (
 !
-GetTemporalUnit
+GetTemporalUnitValuedOption
 (
 cx
 options

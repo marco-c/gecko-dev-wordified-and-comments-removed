@@ -694,7 +694,7 @@ js
 temporal
 :
 :
-ToTemporalRoundingIncrement
+GetRoundingIncrementOption
 (
 JSContext
 *
@@ -1791,7 +1791,7 @@ js
 temporal
 :
 :
-GetTemporalUnit
+GetTemporalUnitValuedOption
 (
 JSContext
 *
@@ -1853,7 +1853,7 @@ true
 ;
 }
 return
-GetTemporalUnit
+GetTemporalUnitValuedOption
 (
 cx
 value
@@ -1870,7 +1870,7 @@ js
 temporal
 :
 :
-GetTemporalUnit
+GetTemporalUnitValuedOption
 (
 JSContext
 *
@@ -2034,7 +2034,7 @@ js
 temporal
 :
 :
-ToTemporalRoundingMode
+GetRoundingModeOption
 (
 JSContext
 *
@@ -4065,7 +4065,7 @@ js
 temporal
 :
 :
-ToCalendarNameOption
+GetTemporalShowCalendarNameOption
 (
 JSContext
 *
@@ -4076,7 +4076,7 @@ JSObject
 *
 >
 options
-CalendarOption
+ShowCalendar
 *
 result
 )
@@ -4161,7 +4161,7 @@ auto
 *
 result
 =
-CalendarOption
+ShowCalendar
 :
 :
 Auto
@@ -4182,7 +4182,7 @@ always
 *
 result
 =
-CalendarOption
+ShowCalendar
 :
 :
 Always
@@ -4203,7 +4203,7 @@ never
 *
 result
 =
-CalendarOption
+ShowCalendar
 :
 :
 Never
@@ -4224,7 +4224,7 @@ critical
 *
 result
 =
-CalendarOption
+ShowCalendar
 :
 :
 Critical
@@ -4279,7 +4279,7 @@ js
 temporal
 :
 :
-ToFractionalSecondDigits
+GetTemporalFractionalSecondDigitsOption
 (
 JSContext
 *
@@ -4979,7 +4979,7 @@ js
 temporal
 :
 :
-ToTemporalOverflow
+GetTemporalOverflowOption
 (
 JSContext
 *
@@ -5151,7 +5151,7 @@ js
 temporal
 :
 :
-ToTemporalDisambiguation
+GetTemporalDisambiguationOption
 (
 JSContext
 *
@@ -5365,7 +5365,7 @@ js
 temporal
 :
 :
-ToTemporalOffset
+GetTemporalOffsetOption
 (
 JSContext
 *
@@ -5579,7 +5579,7 @@ js
 temporal
 :
 :
-ToTimeZoneNameOption
+GetTemporalShowTimeZoneNameOption
 (
 JSContext
 *
@@ -5590,7 +5590,7 @@ JSObject
 *
 >
 options
-TimeZoneNameOption
+ShowTimeZoneName
 *
 result
 )
@@ -5675,7 +5675,7 @@ auto
 *
 result
 =
-TimeZoneNameOption
+ShowTimeZoneName
 :
 :
 Auto
@@ -5696,7 +5696,7 @@ never
 *
 result
 =
-TimeZoneNameOption
+ShowTimeZoneName
 :
 :
 Never
@@ -5717,7 +5717,7 @@ critical
 *
 result
 =
-TimeZoneNameOption
+ShowTimeZoneName
 :
 :
 Critical
@@ -5772,7 +5772,7 @@ js
 temporal
 :
 :
-ToShowOffsetOption
+GetTemporalShowOffsetOption
 (
 JSContext
 *
@@ -5783,7 +5783,7 @@ JSObject
 *
 >
 options
-ShowOffsetOption
+ShowOffset
 *
 result
 )
@@ -5868,7 +5868,7 @@ auto
 *
 result
 =
-ShowOffsetOption
+ShowOffset
 :
 :
 Auto
@@ -5889,7 +5889,7 @@ never
 *
 result
 =
-ShowOffsetOption
+ShowOffset
 :
 :
 Never
@@ -7088,7 +7088,7 @@ Auto
 if
 (
 !
-GetTemporalUnit
+GetTemporalUnitValuedOption
 (
 cx
 options
@@ -7143,7 +7143,7 @@ Increment
 if
 (
 !
-ToTemporalRoundingIncrement
+GetRoundingIncrementOption
 (
 cx
 options
@@ -7167,7 +7167,7 @@ Trunc
 if
 (
 !
-ToTemporalRoundingMode
+GetRoundingModeOption
 (
 cx
 options
@@ -7193,7 +7193,7 @@ Since
 {
 roundingMode
 =
-NegateTemporalRoundingMode
+NegateRoundingMode
 (
 roundingMode
 )
@@ -7207,7 +7207,7 @@ fallbackSmallestUnit
 if
 (
 !
-GetTemporalUnit
+GetTemporalUnitValuedOption
 (
 cx
 options

@@ -59,7 +59,7 @@ HalfEven
 ;
 constexpr
 auto
-NegateTemporalRoundingMode
+NegateRoundingMode
 (
 TemporalRoundingMode
 roundingMode

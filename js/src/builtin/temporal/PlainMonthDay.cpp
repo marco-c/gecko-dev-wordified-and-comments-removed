@@ -1370,7 +1370,7 @@ ignored
 if
 (
 !
-ToTemporalOverflow
+GetTemporalOverflowOption
 (
 cx
 maybeResolvedOptions
@@ -1950,7 +1950,7 @@ ignored
 if
 (
 !
-ToTemporalOverflow
+GetTemporalOverflowOption
 (
 cx
 options
@@ -3022,7 +3022,7 @@ PlainMonthDayObject
 auto
 showCalendar
 =
-CalendarOption
+ShowCalendar
 :
 :
 Auto
@@ -3074,7 +3074,7 @@ false
 if
 (
 !
-ToCalendarNameOption
+GetTemporalShowCalendarNameOption
 (
 cx
 options
@@ -3207,7 +3207,7 @@ TemporalMonthDayToString
 (
 cx
 monthDay
-CalendarOption
+ShowCalendar
 :
 :
 Auto
@@ -3321,7 +3321,7 @@ TemporalMonthDayToString
 (
 cx
 monthDay
-CalendarOption
+ShowCalendar
 :
 :
 Auto

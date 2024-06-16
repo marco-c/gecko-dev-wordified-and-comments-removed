@@ -1568,7 +1568,7 @@ result
 JSLinearString
 *
 id
-CalendarOption
+ShowCalendar
 showCalendar
 )
 {
@@ -1578,7 +1578,7 @@ showCalendar
 )
 {
 case
-CalendarOption
+ShowCalendar
 :
 :
 Never
@@ -1587,7 +1587,7 @@ return
 true
 ;
 case
-CalendarOption
+ShowCalendar
 :
 :
 Auto
@@ -1616,7 +1616,7 @@ fallthrough
 ;
 }
 case
-CalendarOption
+ShowCalendar
 :
 :
 Always
@@ -1666,7 +1666,7 @@ append
 ;
 }
 case
-CalendarOption
+ShowCalendar
 :
 :
 Critical
@@ -1742,7 +1742,7 @@ Handle
 CalendarValue
 >
 calendar
-CalendarOption
+ShowCalendar
 showCalendar
 )
 {
@@ -1751,7 +1751,7 @@ if
 showCalendar
 =
 =
-CalendarOption
+ShowCalendar
 :
 :
 Never
@@ -1822,7 +1822,7 @@ result
 JSLinearString
 *
 id
-TimeZoneNameOption
+ShowTimeZoneName
 showTimeZone
 )
 {
@@ -1832,7 +1832,7 @@ showTimeZone
 )
 {
 case
-TimeZoneNameOption
+ShowTimeZoneName
 :
 :
 Never
@@ -1841,7 +1841,7 @@ return
 true
 ;
 case
-TimeZoneNameOption
+ShowTimeZoneName
 :
 :
 Auto
@@ -1887,7 +1887,7 @@ append
 ;
 }
 case
-TimeZoneNameOption
+ShowTimeZoneName
 :
 :
 Critical
@@ -1960,7 +1960,7 @@ Handle
 TimeZoneValue
 >
 timeZone
-TimeZoneNameOption
+ShowTimeZoneName
 showTimeZone
 )
 {
@@ -1969,7 +1969,7 @@ if
 showTimeZone
 =
 =
-TimeZoneNameOption
+ShowTimeZoneName
 :
 :
 Never
@@ -2210,7 +2210,7 @@ PlainDateObject
 *
 >
 temporalDate
-CalendarOption
+ShowCalendar
 showCalendar
 )
 {
@@ -2315,7 +2315,7 @@ CalendarValue
 calendar
 Precision
 precision
-CalendarOption
+ShowCalendar
 showCalendar
 )
 {
@@ -2453,7 +2453,7 @@ PlainMonthDayObject
 *
 >
 monthDay
-CalendarOption
+ShowCalendar
 showCalendar
 )
 {
@@ -2556,7 +2556,7 @@ if
 showCalendar
 =
 =
-CalendarOption
+ShowCalendar
 :
 :
 Always
@@ -2565,7 +2565,7 @@ Always
 showCalendar
 =
 =
-CalendarOption
+ShowCalendar
 :
 :
 Critical
@@ -2660,7 +2660,7 @@ PlainYearMonthObject
 *
 >
 yearMonth
-CalendarOption
+ShowCalendar
 showCalendar
 )
 {
@@ -2763,7 +2763,7 @@ if
 showCalendar
 =
 =
-CalendarOption
+ShowCalendar
 :
 :
 Always
@@ -2772,7 +2772,7 @@ Always
 showCalendar
 =
 =
-CalendarOption
+ShowCalendar
 :
 :
 Critical
@@ -2868,11 +2868,11 @@ ZonedDateTime
 zonedDateTime
 Precision
 precision
-CalendarOption
+ShowCalendar
 showCalendar
-TimeZoneNameOption
+ShowTimeZoneName
 showTimeZone
-ShowOffsetOption
+ShowOffset
 showOffset
 Increment
 increment
@@ -2990,7 +2990,7 @@ if
 showOffset
 !
 =
-ShowOffsetOption
+ShowOffset
 :
 :
 Never

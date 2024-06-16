@@ -343,7 +343,7 @@ other
 }
 ;
 bool
-ToTemporalRoundingIncrement
+GetRoundingIncrementOption
 (
 JSContext
 *
@@ -497,7 +497,7 @@ Unit
 }
 ;
 bool
-GetTemporalUnit
+GetTemporalUnitValuedOption
 (
 JSContext
 *
@@ -521,7 +521,7 @@ unit
 )
 ;
 bool
-GetTemporalUnit
+GetTemporalUnitValuedOption
 (
 JSContext
 *
@@ -545,7 +545,7 @@ unit
 )
 ;
 bool
-ToTemporalRoundingMode
+GetRoundingModeOption
 (
 JSContext
 *
@@ -644,7 +644,7 @@ denominator
 ;
 enum
 class
-CalendarOption
+ShowCalendar
 {
 Auto
 Always
@@ -653,7 +653,7 @@ Critical
 }
 ;
 bool
-ToCalendarNameOption
+GetTemporalShowCalendarNameOption
 (
 JSContext
 *
@@ -667,7 +667,7 @@ JSObject
 *
 >
 options
-CalendarOption
+ShowCalendar
 *
 result
 )
@@ -839,7 +839,7 @@ Tag
 }
 ;
 bool
-ToFractionalSecondDigits
+GetTemporalFractionalSecondDigitsOption
 (
 JSContext
 *
@@ -906,7 +906,7 @@ Reject
 }
 ;
 bool
-ToTemporalOverflow
+GetTemporalOverflowOption
 (
 JSContext
 *
@@ -936,7 +936,7 @@ Reject
 }
 ;
 bool
-ToTemporalDisambiguation
+GetTemporalDisambiguationOption
 (
 JSContext
 *
@@ -966,7 +966,7 @@ Reject
 }
 ;
 bool
-ToTemporalOffset
+GetTemporalOffsetOption
 (
 JSContext
 *
@@ -987,7 +987,7 @@ offset
 ;
 enum
 class
-TimeZoneNameOption
+ShowTimeZoneName
 {
 Auto
 Never
@@ -995,7 +995,7 @@ Critical
 }
 ;
 bool
-ToTimeZoneNameOption
+GetTemporalShowTimeZoneNameOption
 (
 JSContext
 *
@@ -1009,21 +1009,21 @@ JSObject
 *
 >
 options
-TimeZoneNameOption
+ShowTimeZoneName
 *
 result
 )
 ;
 enum
 class
-ShowOffsetOption
+ShowOffset
 {
 Auto
 Never
 }
 ;
 bool
-ToShowOffsetOption
+GetTemporalShowOffsetOption
 (
 JSContext
 *
@@ -1037,7 +1037,7 @@ JSObject
 *
 >
 options
-ShowOffsetOption
+ShowOffset
 *
 result
 )
