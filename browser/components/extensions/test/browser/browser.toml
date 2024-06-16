@@ -2137,6 +2137,13 @@ js
 ]
 [
 "
+browser_ext_runtime_getContexts
+.
+js
+"
+]
+[
+"
 browser_ext_runtime_onPerformanceWarning
 .
 js
