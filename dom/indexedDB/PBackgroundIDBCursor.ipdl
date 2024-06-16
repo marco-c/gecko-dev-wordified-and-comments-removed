@@ -299,6 +299,8 @@ DeleteMe
 async
 Continue
 (
+int64_t
+requestId
 CursorRequestParams
 params
 Key

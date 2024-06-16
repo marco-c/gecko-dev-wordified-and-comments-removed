@@ -18008,6 +18008,10 @@ IPCResult
 RecvContinue
 (
 const
+int64_t
+&
+aRequestId
+const
 CursorRequestParams
 &
 aParams
@@ -19149,6 +19153,8 @@ Cursor
 *
 const
 aCursor
+int64_t
+aRequestId
 CursorRequestParams
 aParams
 CursorPosition
@@ -19161,7 +19167,7 @@ aPosition
 CursorOpBase
 (
 aCursor
-0
+aRequestId
 )
 mParams
 (
@@ -51437,6 +51443,10 @@ CursorType
 RecvContinue
 (
 const
+int64_t
+&
+aRequestId
+const
 CursorRequestParams
 &
 aParams
@@ -51713,6 +51723,7 @@ new
 ContinueOp
 (
 this
+aRequestId
 aParams
 std
 :
