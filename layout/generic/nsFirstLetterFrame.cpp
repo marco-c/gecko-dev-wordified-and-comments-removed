@@ -2291,7 +2291,10 @@ return
 LogicalSides
 (
 mWritingMode
-eLogicalSideBitsAll
+LogicalSides
+:
+:
+All
 )
 ;
 }

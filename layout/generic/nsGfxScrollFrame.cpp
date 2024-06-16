@@ -4760,7 +4760,10 @@ ApplySkipSides
 LogicalSides
 (
 wm
-eLogicalSideBitsBBoth
+LogicalSides
+:
+:
+BBoth
 )
 )
 ;
