@@ -716,7 +716,7 @@ color
 name
 =
 "
-fx_mobile_action_color_error
+fx_mobile_action_color_critical
 "
 tools
 :

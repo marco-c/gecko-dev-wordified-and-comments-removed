@@ -991,7 +991,7 @@ FirefoxTheme
 .
 colors
 .
-actionError
+actionCritical
 Info
 -
 >
