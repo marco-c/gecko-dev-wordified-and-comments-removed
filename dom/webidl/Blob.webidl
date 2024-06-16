@@ -266,6 +266,17 @@ arrayBuffer
 (
 )
 ;
+[
+NewObject
+]
+Promise
+<
+Uint8Array
+>
+bytes
+(
+)
+;
 }
 ;
 enum
