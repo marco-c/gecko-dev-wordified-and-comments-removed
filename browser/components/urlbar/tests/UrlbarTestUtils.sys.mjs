@@ -1184,7 +1184,6 @@ gURLBar
 _setValue
 (
 value
-false
 )
 ;
 fireInputEvent
@@ -8895,13 +8894,6 @@ length
 -
 1
 )
-false
-/
-*
-allowTrim
-=
-*
-/
 )
 ;
 }
