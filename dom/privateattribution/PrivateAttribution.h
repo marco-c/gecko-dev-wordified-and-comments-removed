@@ -134,7 +134,7 @@ nodiscard
 ]
 ]
 bool
-GetSourceHost
+GetSourceHostIfNonPrivate
 (
 nsACString
 &
