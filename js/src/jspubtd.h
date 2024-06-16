@@ -72,6 +72,9 @@ DEBUG
 define
 JSGC_HASH_TABLE_CHECKS
 #
+define
+JS_CHECK_UNSAFE_CALL_WITH_ABI
+#
 endif
 namespace
 JS

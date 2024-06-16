@@ -1872,7 +1872,7 @@ jitActivation
 }
 #
 ifdef
-DEBUG
+JS_CHECK_UNSAFE_CALL_WITH_ABI
 static
 size_t
 offsetOfInUnsafeCallWithABI
@@ -2018,7 +2018,7 @@ noExecuteDebuggerTop
 ;
 #
 ifdef
-DEBUG
+JS_CHECK_UNSAFE_CALL_WITH_ABI
 js
 :
 :
@@ -2037,6 +2037,11 @@ bool
 >
 hasAutoUnsafeCallWithABI
 ;
+#
+endif
+#
+ifdef
+DEBUG
 js
 :
 :
@@ -4583,7 +4588,7 @@ AutoUnsafeCallWithABI
 {
 #
 ifdef
-DEBUG
+JS_CHECK_UNSAFE_CALL_WITH_ABI
 JSContext
 *
 cx_
@@ -4606,7 +4611,7 @@ public
 :
 #
 ifdef
-DEBUG
+JS_CHECK_UNSAFE_CALL_WITH_ABI
 explicit
 AutoUnsafeCallWithABI
 (

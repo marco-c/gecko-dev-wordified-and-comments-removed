@@ -5037,7 +5037,7 @@ nullptr
 )
 #
 ifdef
-DEBUG
+JS_CHECK_UNSAFE_CALL_WITH_ABI
 inUnsafeCallWithABI
 (
 this
@@ -5048,6 +5048,11 @@ hasAutoUnsafeCallWithABI
 this
 false
 )
+#
+endif
+#
+ifdef
+DEBUG
 liveArraySortDataInstances
 (
 this
@@ -6938,7 +6943,7 @@ ExternalValueArray
 }
 #
 ifdef
-DEBUG
+JS_CHECK_UNSAFE_CALL_WITH_ABI
 AutoUnsafeCallWithABI
 :
 :
