@@ -3260,13 +3260,12 @@ let
 color_parser
 =
 ColorParser
+{
+context
 :
-:
-new
-(
 &
 context
-)
+}
 ;
 match
 input
