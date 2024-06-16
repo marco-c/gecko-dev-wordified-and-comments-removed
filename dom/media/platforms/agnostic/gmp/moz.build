@@ -25,6 +25,11 @@ GMPVideoDecoder
 .
 h
 "
+"
+GMPVideoEncoder
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +
@@ -37,6 +42,11 @@ cpp
 "
 "
 GMPVideoDecoder
+.
+cpp
+"
+"
+GMPVideoEncoder
 .
 cpp
 "
