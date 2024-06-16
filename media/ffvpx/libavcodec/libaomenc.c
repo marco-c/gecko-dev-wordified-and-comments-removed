@@ -86,6 +86,15 @@ include
 "
 libavutil
 /
+mem
+.
+h
+"
+#
+include
+"
+libavutil
+/
 opt
 .
 h
@@ -9227,6 +9236,9 @@ i64
 1
 4
 VE
+.
+unit
+=
 "
 aq_mode
 "
@@ -9251,6 +9263,9 @@ i64
 0
 0
 VE
+.
+unit
+=
 "
 aq_mode
 "
@@ -9275,6 +9290,9 @@ i64
 0
 0
 VE
+.
+unit
+=
 "
 aq_mode
 "
@@ -9299,6 +9317,9 @@ i64
 0
 0
 VE
+.
+unit
+=
 "
 aq_mode
 "
@@ -9323,6 +9344,9 @@ i64
 0
 0
 VE
+.
+unit
+=
 "
 aq_mode
 "
@@ -9352,6 +9376,9 @@ i64
 INT_MIN
 INT_MAX
 VE
+.
+unit
+=
 "
 er
 "
@@ -9380,6 +9407,9 @@ AOM_ERROR_RESILIENT_DEFAULT
 0
 0
 VE
+.
+unit
+=
 "
 er
 "
@@ -9975,6 +10005,9 @@ i64
 0
 INT_MAX
 VE
+.
+unit
+=
 "
 usage
 "
@@ -9998,6 +10031,9 @@ i64
 0
 0
 VE
+.
+unit
+=
 "
 usage
 "
@@ -10021,6 +10057,9 @@ i64
 0
 0
 VE
+.
+unit
+=
 "
 usage
 "
@@ -10045,6 +10084,9 @@ i64
 0
 0
 VE
+.
+unit
+=
 "
 usage
 "
@@ -10086,6 +10128,9 @@ i64
 1
 AOM_TUNE_SSIM
 VE
+.
+unit
+=
 "
 tune
 "
@@ -10106,6 +10151,9 @@ AOM_TUNE_PSNR
 0
 0
 VE
+.
+unit
+=
 "
 tune
 "
@@ -10126,6 +10174,9 @@ AOM_TUNE_SSIM
 0
 0
 VE
+.
+unit
+=
 "
 tune
 "

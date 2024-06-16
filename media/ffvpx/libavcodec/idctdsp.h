@@ -18,13 +18,6 @@ stdint
 .
 h
 >
-#
-include
-"
-config
-.
-h
-"
 struct
 AVCodecContext
 ;
@@ -99,7 +92,7 @@ int16_t
 block
 uint8_t
 *
-av_restrict
+restrict
 pixels
 ptrdiff_t
 line_size
@@ -117,7 +110,7 @@ int16_t
 block
 uint8_t
 *
-av_restrict
+restrict
 pixels
 ptrdiff_t
 line_size
@@ -135,7 +128,7 @@ int16_t
 block
 uint8_t
 *
-av_restrict
+restrict
 pixels
 ptrdiff_t
 line_size
@@ -209,7 +202,7 @@ int16_t
 block
 uint8_t
 *
-av_restrict
+restrict
 pixels
 ptrdiff_t
 line_size
@@ -224,7 +217,7 @@ int16_t
 block
 uint8_t
 *
-av_restrict
+restrict
 pixels
 ptrdiff_t
 line_size

@@ -1781,7 +1781,7 @@ char
 *
 p
 ;
-int
+size_t
 len
 namelen
 ;
