@@ -531,14 +531,8 @@ rv
 winMediator
 -
 >
-GetMostRecentWindow
+GetMostRecentBrowserWindow
 (
-u
-"
-navigator
-:
-browser
-"
 getter_AddRefs
 (
 navWin
