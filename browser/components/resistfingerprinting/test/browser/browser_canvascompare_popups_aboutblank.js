@@ -592,7 +592,7 @@ rfpFullyRandomized
 ]
 ;
 const
-fppRandomized
+fppRandomizedSameDomain
 =
 [
 1
@@ -619,7 +619,7 @@ https
 /
 /
 {
-FRAMER_DOMAIN
+IFRAME_DOMAIN
 }
 /
 browser
@@ -634,13 +634,13 @@ test
 /
 browser
 /
-file_canvascompare_iframer
+file_canvascompare_aboutblank_popupmaker
 .
 html
 ?
 mode
 =
-iframe
+addOnLoadCallback
 ;
 expectedResults
 =
@@ -706,7 +706,7 @@ expectedResults
 =
 structuredClone
 (
-fppRandomized
+fppRandomizedSameDomain
 )
 ;
 add_task
@@ -726,7 +726,7 @@ expectedResults
 =
 structuredClone
 (
-fppRandomized
+fppRandomizedSameDomain
 )
 ;
 add_task
@@ -766,7 +766,7 @@ expectedResults
 =
 structuredClone
 (
-fppRandomized
+fppRandomizedSameDomain
 )
 ;
 add_task
@@ -804,13 +804,13 @@ test
 /
 browser
 /
-file_canvascompare_iframer
+file_canvascompare_aboutblank_popupmaker
 .
 html
 ?
 mode
 =
-iframe
+skipOnLoadCallback
 ;
 expectedResults
 =
@@ -876,7 +876,7 @@ expectedResults
 =
 structuredClone
 (
-fppRandomized
+fppRandomizedSameDomain
 )
 ;
 add_task
@@ -896,7 +896,7 @@ expectedResults
 =
 structuredClone
 (
-fppRandomized
+fppRandomizedSameDomain
 )
 ;
 add_task
@@ -936,7 +936,7 @@ expectedResults
 =
 structuredClone
 (
-fppRandomized
+fppRandomizedSameDomain
 )
 ;
 add_task

@@ -69,6 +69,11 @@ head
 js
 "
 "
+file_canvascompare_aboutblank_popupmaker
+.
+html
+"
+"
 file_canvascompare_iframer
 .
 html
@@ -239,7 +244,7 @@ js
 lineno
 =
 "
-45
+48
 "
 [
 "
@@ -251,7 +256,7 @@ js
 lineno
 =
 "
-47
+51
 "
 [
 "
@@ -266,7 +271,7 @@ true
 lineno
 =
 "
-49
+54
 "
 [
 "
@@ -278,7 +283,7 @@ js
 lineno
 =
 "
-52
+58
 "
 [
 "
@@ -290,7 +295,7 @@ js
 lineno
 =
 "
-54
+61
 "
 [
 "
@@ -299,6 +304,11 @@ browser_canvascompare_iframes
 js
 "
 ]
+lineno
+=
+"
+64
+"
 [
 "
 browser_canvascompare_popups
@@ -306,6 +316,23 @@ browser_canvascompare_popups
 js
 "
 ]
+lineno
+=
+"
+66
+"
+[
+"
+browser_canvascompare_popups_aboutblank
+.
+js
+"
+]
+lineno
+=
+"
+68
+"
 [
 "
 browser_cross_origin_isolated_animation_api
@@ -316,7 +343,7 @@ js
 lineno
 =
 "
-56
+70
 "
 [
 "
@@ -328,7 +355,7 @@ js
 lineno
 =
 "
-58
+73
 "
 [
 "
@@ -340,7 +367,7 @@ js
 lineno
 =
 "
-60
+76
 "
 [
 "
@@ -385,7 +412,7 @@ Bug
 lineno
 =
 "
-62
+79
 "
 [
 "
@@ -397,7 +424,7 @@ js
 lineno
 =
 "
-69
+87
 "
 [
 "
@@ -409,7 +436,7 @@ js
 lineno
 =
 "
-71
+90
 "
 [
 "
@@ -421,7 +448,7 @@ js
 lineno
 =
 "
-73
+93
 "
 [
 "
@@ -433,7 +460,7 @@ js
 lineno
 =
 "
-75
+96
 "
 [
 "
@@ -445,7 +472,7 @@ js
 lineno
 =
 "
-77
+99
 "
 [
 "
@@ -457,7 +484,7 @@ js
 lineno
 =
 "
-79
+102
 "
 [
 "
@@ -469,7 +496,7 @@ js
 lineno
 =
 "
-81
+105
 "
 [
 "
@@ -481,7 +508,7 @@ js
 lineno
 =
 "
-83
+108
 "
 [
 "
@@ -493,7 +520,7 @@ js
 lineno
 =
 "
-85
+111
 "
 [
 "
@@ -505,7 +532,7 @@ js
 lineno
 =
 "
-87
+114
 "
 [
 "
@@ -517,7 +544,7 @@ js
 lineno
 =
 "
-89
+117
 "
 [
 "
@@ -529,7 +556,7 @@ js
 lineno
 =
 "
-91
+120
 "
 [
 "
@@ -541,7 +568,7 @@ js
 lineno
 =
 "
-93
+123
 "
 [
 "
@@ -553,7 +580,7 @@ js
 lineno
 =
 "
-95
+126
 "
 [
 "
@@ -565,7 +592,7 @@ js
 lineno
 =
 "
-97
+129
 "
 [
 "
@@ -577,7 +604,7 @@ js
 lineno
 =
 "
-99
+132
 "
 [
 "
@@ -592,7 +619,7 @@ true
 lineno
 =
 "
-101
+135
 "
 [
 "
@@ -607,7 +634,7 @@ true
 lineno
 =
 "
-104
+139
 "
 [
 "
@@ -622,7 +649,7 @@ true
 lineno
 =
 "
-107
+143
 "
 [
 "
@@ -634,7 +661,7 @@ js
 lineno
 =
 "
-110
+147
 "
 [
 "
@@ -646,7 +673,7 @@ js
 lineno
 =
 "
-112
+150
 "
 [
 "
@@ -661,7 +688,7 @@ true
 lineno
 =
 "
-114
+153
 "
 [
 "
@@ -673,7 +700,7 @@ js
 lineno
 =
 "
-117
+157
 "
 [
 "
@@ -685,7 +712,7 @@ js
 lineno
 =
 "
-119
+160
 "
 [
 "
@@ -697,7 +724,7 @@ js
 lineno
 =
 "
-121
+163
 "
 [
 "
@@ -709,7 +736,7 @@ js
 lineno
 =
 "
-123
+166
 "
 [
 "
@@ -721,7 +748,7 @@ js
 lineno
 =
 "
-125
+169
 "
 [
 "
@@ -764,7 +791,7 @@ Bug
 lineno
 =
 "
-127
+172
 "
 [
 "
@@ -776,5 +803,5 @@ js
 lineno
 =
 "
-130
+176
 "
