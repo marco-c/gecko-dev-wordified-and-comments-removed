@@ -431,6 +431,12 @@ TransferredData
 aData
 )
 ;
+nsCString
+ToString
+(
+)
+const
+;
 private
 :
 size_t
@@ -444,12 +450,6 @@ ErrorResult
 &
 aRv
 )
-;
-nsCString
-ToString
-(
-)
-const
 ;
 void
 AssertIsOnOwningThread
