@@ -9146,6 +9146,7 @@ backend_file
 .
 write
 (
+            
 "
 SHARED_LIBRARY
 :
@@ -9155,10 +9156,18 @@ s
 \
 n
 "
+            
 %
+self
+.
+_pretty_path
+(
 libdef
 .
-lib_name
+output_path
+backend_file
+)
+        
 )
         
 if
@@ -9253,25 +9262,6 @@ libdef
 .
 lib_name
 backend_file
-)
-            
-backend_file
-.
-write
-(
-"
-SHARED_LIBRARY_TARGET
-:
-=
-%
-s
-\
-n
-"
-%
-libdef
-.
-output_category
 )
     
 def
@@ -9666,8 +9656,7 @@ backend_file
 def
 pretty_relpath
 (
-lib
-name
+path
 )
 :
             
@@ -9678,25 +9667,15 @@ path
 .
 normpath
 (
-                
-mozpath
-.
-join
-(
 mozpath
 .
 relpath
 (
-lib
-.
-objdir
+path
 obj
 .
 objdir
 )
-name
-)
-            
 )
         
 objs
@@ -9721,7 +9700,10 @@ if
 isinstance
 (
 obj
+(
 Program
+SharedLibrary
+)
 )
 :
             
@@ -10168,9 +10150,8 @@ n
 pretty_relpath
 (
 lib
-lib
 .
-import_name
+import_path
 )
             
 )
@@ -10253,9 +10234,8 @@ var
 pretty_relpath
 (
 lib
-lib
 .
-import_name
+import_path
 )
 )
             

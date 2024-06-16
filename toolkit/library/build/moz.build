@@ -111,6 +111,11 @@ inputs
 [
 "
 !
+/
+dist
+/
+bin
+/
 %
 s
 "
