@@ -3008,7 +3008,6 @@ icStorageService
 >
 StoreIdentityCredential
 (
-nullptr
 aCredential
 )
 ;
