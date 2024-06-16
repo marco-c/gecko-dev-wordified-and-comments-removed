@@ -885,7 +885,7 @@ readFileSync
 __dirname
 }
 /
-fixtures
+config
 /
 intrinsics
 .
