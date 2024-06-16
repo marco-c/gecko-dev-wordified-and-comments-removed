@@ -29,6 +29,13 @@ h
 #
 include
 "
+CssAltContent
+.
+h
+"
+#
+include
+"
 DocAccessible
 -
 inl
@@ -1242,6 +1249,13 @@ AccType
 :
 :
 eImageType
+)
+&
+&
+!
+CssAltContent
+(
+aElement
 )
 )
 {
