@@ -453,13 +453,6 @@ js
 ]
 [
 "
-browser_translations_select_panel_open_to_idle_state
-.
-js
-"
-]
-[
-"
 browser_translations_select_panel_retranslate_on_change_language_directly
 .
 js
