@@ -11633,6 +11633,15 @@ type
 boolean
 "
 }
+isManageable
+:
+{
+type
+:
+"
+boolean
+"
+}
 isPinned
 :
 {
