@@ -2791,8 +2791,9 @@ backstop
         
 index_paths
 .
-append
+insert
 (
+0
 BACKSTOP_INDEX
 )
     
@@ -2822,23 +2823,6 @@ domain
 "
 ]
     
-index_paths
-=
-[
-i
-.
-format
-(
-*
-*
-subs
-)
-for
-i
-in
-index_paths
-]
-    
 for
 index_path
 in
@@ -2848,6 +2832,13 @@ index_paths
 insert_index
 (
 index_path
+.
+format
+(
+*
+*
+subs
+)
 decision_task_id
 use_proxy
 =
