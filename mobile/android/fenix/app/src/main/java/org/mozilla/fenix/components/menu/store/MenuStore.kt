@@ -195,6 +195,10 @@ InitAction
 is
 MenuAction
 .
+AddBookmark
+is
+MenuAction
+.
 Navigate
 -
 >
