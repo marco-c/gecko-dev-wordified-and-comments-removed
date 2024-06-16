@@ -78,6 +78,10 @@ Resource
 &
 &
 aResource
+uint32_t
+aLineNumber
+uint32_t
+aColumnNumber
 )
 ;
 BlockedContentSource
@@ -93,6 +97,14 @@ mViolatedPolicyIndex
 const
 Resource
 mResource
+;
+const
+uint32_t
+mLineNumber
+;
+const
+uint32_t
+mColumnNumber
 ;
 }
 ;

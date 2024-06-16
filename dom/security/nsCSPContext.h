@@ -275,10 +275,6 @@ const
 nsAString
 &
 aScriptSample
-uint32_t
-aLineNum
-uint32_t
-aColumnNum
 mozilla
 :
 :
@@ -387,10 +383,6 @@ const
 nsAString
 &
 aScriptSample
-uint32_t
-aLineNum
-uint32_t
-aColumnNum
 )
 ;
 void
