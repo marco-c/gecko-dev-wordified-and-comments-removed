@@ -6,6 +6,11 @@ define
 MEDIA_BASE_RTP_UTILS_H_
 #
 include
+<
+cstdint
+>
+#
+include
 "
 absl
 /
@@ -144,7 +149,7 @@ rtc
 ArrayView
 <
 const
-char
+uint8_t
 >
 packet
 )
