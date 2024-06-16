@@ -827,11 +827,6 @@ URL
 :
 "
 "
-ACTION
-:
-"
->
-"
 }
 /
 /
@@ -877,11 +872,6 @@ this
 RESTRICT
 .
 SEARCH
-this
-.
-RESTRICT
-.
-ACTION
 ]
 )
 ;
