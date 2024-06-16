@@ -798,6 +798,12 @@ licmEnabled
 )
 const
 ;
+bool
+branchHintingEnabled
+(
+)
+const
+;
 private
 :
 uint64_t
