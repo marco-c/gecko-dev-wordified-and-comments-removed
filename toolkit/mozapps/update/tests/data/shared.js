@@ -1180,6 +1180,7 @@ processing
 )
 ;
 }
+async
 function
 initUpdateServiceStub
 (

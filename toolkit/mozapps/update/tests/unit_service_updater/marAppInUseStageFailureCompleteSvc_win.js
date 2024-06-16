@@ -94,6 +94,7 @@ waitForHelperExit
 (
 )
 ;
+await
 standardInit
 (
 )

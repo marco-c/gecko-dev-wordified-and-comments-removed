@@ -417,6 +417,7 @@ updates
 false
 )
 ;
+await
 standardInit
 (
 )

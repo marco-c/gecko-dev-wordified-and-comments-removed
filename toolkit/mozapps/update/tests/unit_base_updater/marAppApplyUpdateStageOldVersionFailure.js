@@ -121,6 +121,7 @@ runUpdateUsingApp
 STATE_AFTER_STAGE
 )
 ;
+await
 standardInit
 (
 )

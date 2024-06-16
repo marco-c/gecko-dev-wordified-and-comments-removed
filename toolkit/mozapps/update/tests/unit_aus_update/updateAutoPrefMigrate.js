@@ -50,6 +50,7 @@ setupTestCommon
 null
 )
 ;
+await
 standardInit
 (
 )

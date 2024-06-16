@@ -233,6 +233,7 @@ Log
 "
 )
 ;
+await
 standardInit
 (
 )

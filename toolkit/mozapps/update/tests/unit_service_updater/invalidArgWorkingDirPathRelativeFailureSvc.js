@@ -57,6 +57,7 @@ test
 null
 )
 ;
+await
 standardInit
 (
 )

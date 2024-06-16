@@ -103,6 +103,7 @@ null
 null
 )
 ;
+await
 standardInit
 (
 )

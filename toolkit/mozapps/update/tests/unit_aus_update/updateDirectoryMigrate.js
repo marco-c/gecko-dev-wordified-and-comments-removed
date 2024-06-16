@@ -529,6 +529,7 @@ oldPendingPingFile
 pendingPingContents
 )
 ;
+await
 standardInit
 (
 )
