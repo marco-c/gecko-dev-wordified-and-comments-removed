@@ -9708,10 +9708,10 @@ wasmCallFrame
 .
 set
 (
-args
-.
-calleev
+ObjectValue
 (
+*
+func
 )
 )
 ;
