@@ -430,6 +430,12 @@ mAssociatedBrowsingContextID
 0
 }
 ;
+bool
+mIsThirdPartyContext
+{
+true
+}
+;
 Atomic
 <
 bool

@@ -116,6 +116,9 @@ hasCSPEventListener
 uint64_t
 associatedBrowsingContextID
 ;
+bool
+isThirdPartyContext
+;
 }
 ;
 protocol

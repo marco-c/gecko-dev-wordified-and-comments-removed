@@ -435,6 +435,9 @@ mEventTarget
 nsID
 mActorID
 ;
+bool
+mIsThirdPartyContext
+;
 }
 ;
 struct
