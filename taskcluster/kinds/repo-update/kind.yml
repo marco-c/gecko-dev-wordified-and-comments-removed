@@ -276,7 +276,11 @@ project
 :
 mozilla
 -
+(
 central
+|
+beta
+)
 :
 "
 1
