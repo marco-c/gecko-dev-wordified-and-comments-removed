@@ -36,6 +36,10 @@ MAX_NUM_TILE_COLS
 define
 MAX_NUM_TILE_ROWS
 4
+#
+define
+MAX_NUM_THREADS
+64
 struct
 VP9_COMP
 ;

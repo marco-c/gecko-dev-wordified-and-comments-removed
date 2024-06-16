@@ -313,16 +313,6 @@ API_SRCS
 yes
 +
 =
-src
-/
-vpx_tpl
-.
-c
-API_SRCS
--
-yes
-+
-=
 vpx_codec
 .
 h

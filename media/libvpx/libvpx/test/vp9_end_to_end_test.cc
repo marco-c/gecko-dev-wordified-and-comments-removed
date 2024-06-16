@@ -74,6 +74,13 @@ yuv_video_source
 .
 h
 "
+#
+include
+"
+vpx_config
+.
+h
+"
 namespace
 {
 const
@@ -459,6 +466,10 @@ kEncodingModeVectors
 ]
 =
 {
+#
+if
+!
+CONFIG_REALTIME_ONLY
 :
 :
 libvpx_test
@@ -471,6 +482,8 @@ libvpx_test
 :
 :
 kOnePassGood
+#
+endif
 :
 :
 libvpx_test

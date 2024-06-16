@@ -75,6 +75,13 @@ h
 #
 include
 "
+vpx_config
+.
+h
+"
+#
+include
+"
 vpx_dsp
 /
 postproc

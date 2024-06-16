@@ -56,6 +56,13 @@ register_state_check
 .
 h
 "
+#
+include
+"
+vpx_config
+.
+h
+"
 namespace
 {
 using

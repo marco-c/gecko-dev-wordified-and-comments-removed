@@ -491,6 +491,13 @@ vpx_read_bit
 r
 )
 ;
+assert
+(
+tx_mode
+<
+TX_MODES
+)
+;
 return
 tx_mode
 ;

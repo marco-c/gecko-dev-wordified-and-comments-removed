@@ -465,9 +465,6 @@ postproc_state
 ;
 #
 endif
-int
-cpu_caps
-;
 }
 VP8_COMMON
 ;

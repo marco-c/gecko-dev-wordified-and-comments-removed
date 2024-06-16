@@ -1055,6 +1055,9 @@ int
 *
 row_base_thresh_freq_fact
 ;
+int
+sb_rows
+;
 MV
 firstpass_top_mv
 ;
@@ -3968,6 +3971,8 @@ size
 uint8_t
 *
 dest
+size_t
+dest_size
 int64_t
 *
 time_stamp

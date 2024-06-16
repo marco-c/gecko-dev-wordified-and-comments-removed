@@ -54,6 +54,13 @@ h
 #
 include
 "
+vpx_config
+.
+h
+"
+#
+include
+"
 vpx_ports
 /
 vpx_timer

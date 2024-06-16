@@ -82,6 +82,15 @@ h
 #
 include
 "
+vpx_dsp
+/
+vpx_filter
+.
+h
+"
+#
+include
+"
 vpx_ports
 /
 mem

@@ -120,6 +120,13 @@ h
 #
 include
 "
+vpx_config
+.
+h
+"
+#
+include
+"
 vpx
 /
 vpx_codec

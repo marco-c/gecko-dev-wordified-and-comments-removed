@@ -4556,6 +4556,7 @@ qw
 vpx_highbd_convolve8
 avx2
 neon
+sve2
 /
 "
 sse2_x86_64
@@ -4705,6 +4706,7 @@ qw
 vpx_highbd_convolve8_avg
 avx2
 neon
+sve2
 /
 "
 sse2_x86_64

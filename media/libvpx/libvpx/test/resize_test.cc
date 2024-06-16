@@ -71,6 +71,13 @@ util
 h
 "
 #
+include
+"
+vpx_config
+.
+h
+"
+#
 define
 WRITE_COMPRESSED_STREAM
 0
