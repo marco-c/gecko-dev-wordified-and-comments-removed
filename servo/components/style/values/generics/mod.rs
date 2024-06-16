@@ -327,6 +327,13 @@ ToResolvedValue
 ToShmem
 )
 ]
+#
+[
+repr
+(
+transparent
+)
+]
 pub
 struct
 GreaterThanOrEqualToOne

@@ -23,8 +23,6 @@ generics
 column
 :
 :
-ColumnCount
-as
 GenericColumnCount
 ;
 pub
