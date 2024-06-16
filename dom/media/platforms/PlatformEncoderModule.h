@@ -130,6 +130,7 @@ _BeginAudio_
 =
 _EndVideo_
 Opus
+Vorbis
 G722
 _EndAudio_
 Unknown
