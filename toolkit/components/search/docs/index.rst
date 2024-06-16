@@ -251,6 +251,7 @@ maxdepth
 SearchServiceHighlevelOverviewArchive
 SearchEngineConfigurationArchive
 SearchConfigurationSchemaArchive
+SearchEnginesArchive
 API
 Reference
 -
