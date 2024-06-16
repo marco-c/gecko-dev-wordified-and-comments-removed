@@ -190,6 +190,9 @@ features
 formatting
 "
 "
+macros
+"
+"
 serde
 "
 ]
