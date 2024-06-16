@@ -5670,9 +5670,6 @@ aOperation
 mShadowRootIsClonable
 aOperation
 .
-mShadowRootIsSerializable
-aOperation
-.
 mShadowRootDelegatesFocus
 )
 ;

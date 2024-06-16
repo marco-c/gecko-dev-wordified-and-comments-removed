@@ -11108,18 +11108,6 @@ SHADOWROOTCLONABLE
 )
 ;
 boolean
-shadowRootIsSerializable
-=
-attributes
-.
-contains
-(
-AttributeName
-.
-SHADOWROOTSERIALIZABLE
-)
-;
-boolean
 shadowRootDelegatesFocus
 =
 attributes
@@ -11138,7 +11126,6 @@ currentNode
 templateNode
 shadowRootMode
 shadowRootIsClonable
-shadowRootIsSerializable
 shadowRootDelegatesFocus
 )
 ;
@@ -22933,8 +22920,6 @@ String
 shadowRootMode
 boolean
 shadowRootIsClonable
-boolean
-shadowRootIsSerializable
 boolean
 shadowRootDelegatesFocus
 )
