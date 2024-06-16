@@ -67,7 +67,9 @@ devtools
 .
 toolbox
 .
-splitconsoleEnabled
+splitconsole
+.
+open
 "
 false
 )
