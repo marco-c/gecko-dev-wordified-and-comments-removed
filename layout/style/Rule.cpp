@@ -473,6 +473,15 @@ StyleCssRuleType
 :
 :
 StartingStyle
+|
+|
+type
+=
+=
+StyleCssRuleType
+:
+:
+Page
 )
 ;
 }
