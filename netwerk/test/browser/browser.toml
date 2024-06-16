@@ -433,6 +433,11 @@ file_link_header
 .
 sjs
 "
+"
+file_link_dns_prefetch
+.
+sjs
+"
 ]
 prefs
 =
@@ -861,6 +866,13 @@ js
 [
 "
 browser_cookie_sync_across_tabs
+.
+js
+"
+]
+[
+"
+browser_dns_prefetch_link_header
 .
 js
 "
