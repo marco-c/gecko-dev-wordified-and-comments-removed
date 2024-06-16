@@ -8,3 +8,13 @@ mochitest
 toml
 "
 ]
+MOCHITEST_CHROME_MANIFESTS
++
+=
+[
+"
+chrome
+.
+toml
+"
+]
