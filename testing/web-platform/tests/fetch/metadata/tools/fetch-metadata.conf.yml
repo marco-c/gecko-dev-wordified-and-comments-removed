@@ -328,7 +328,7 @@ template_axes
 :
 #
 The
-audioWorklet
+AudioWorklet
 interface
 is
 only
@@ -354,7 +354,7 @@ audio
 api
 /
 #
-BaseAudioContext
+AudioWorklet
 audioworklet
 .
 https
@@ -2055,7 +2055,7 @@ template_axes
 Unused
 #
 The
-audioWorklet
+AudioWorklet
 interface
 is
 only
@@ -2081,7 +2081,7 @@ audio
 api
 /
 #
-BaseAudioContext
+AudioWorklet
 audioworklet
 .
 https

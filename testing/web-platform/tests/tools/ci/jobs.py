@@ -237,21 +237,18 @@ update_built
 :
 [
 "
-update
--
-built
--
-tests
-\
-\
-.
-sh
-"
-                     
-"
 conformance
 -
 checkers
+/
+"
+                     
+"
+css
+/
+css
+-
+images
 /
 "
                      
@@ -272,6 +269,13 @@ css
 writing
 -
 modes
+/
+"
+                     
+"
+fetch
+/
+metadata
 /
 "
                      
