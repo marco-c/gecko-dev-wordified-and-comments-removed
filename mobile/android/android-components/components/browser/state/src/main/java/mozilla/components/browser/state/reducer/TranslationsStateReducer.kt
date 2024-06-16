@@ -620,6 +620,9 @@ isExpectedTranslate
 isTranslated
 =
 true
+isTranslateProcessing
+=
+false
 translationError
 =
 null
@@ -730,9 +733,6 @@ it
 .
 copy
 (
-isTranslateProcessing
-=
-false
 translationError
 =
 null
