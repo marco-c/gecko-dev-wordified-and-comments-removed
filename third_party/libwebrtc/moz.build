@@ -1883,6 +1883,16 @@ third_party
 /
 libwebrtc
 /
+media
+/
+video_source_base_gn
+"
+"
+/
+third_party
+/
+libwebrtc
+/
 modules
 /
 async_audio_processing
