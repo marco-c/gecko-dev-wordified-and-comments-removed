@@ -27653,7 +27653,7 @@ ASSERT_EQ
 (
 uint32_t
 )
-0x420010
+0x42000A
 answererVideoSendCodec
 -
 >
@@ -27823,7 +27823,7 @@ ASSERT_EQ
 (
 uint32_t
 )
-0x420010
+0x42000A
 answererVideoSendCodec
 -
 >
@@ -27887,7 +27887,7 @@ ASSERT_EQ
 (
 uint32_t
 )
-0x420010
+0x42000A
 answererVideoRecvCodec
 -
 >

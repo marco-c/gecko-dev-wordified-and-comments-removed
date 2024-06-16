@@ -5182,7 +5182,7 @@ const
 uint32_t
 kDefaultProfileLevelId
 =
-0x420010
+0x42000A
 ;
 H264Parameters
 (
