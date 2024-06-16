@@ -14618,9 +14618,6 @@ prompt
 is
 displayed
 .
-isEarlyStartup
-:
-true
 variables
 :
 showReleaseNotesLink
