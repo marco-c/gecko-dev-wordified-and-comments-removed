@@ -252,6 +252,15 @@ PBackground
 ;
 child
 :
+async
+CaptureEnded
+(
+CaptureEngine
+capEngine
+int
+streamId
+)
+;
 /
 /
 transfers
