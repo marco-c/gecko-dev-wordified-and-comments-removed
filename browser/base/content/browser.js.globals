@@ -87,15 +87,6 @@ gKeywordURIFixup
 _createNullPrincipalFromTabUserContextId
 "
 "
-_resolveDelayedStartup
-"
-"
-delayedStartupPromise
-"
-"
-gBrowserInit
-"
-"
 HandleAppCommandEvent
 "
 "
