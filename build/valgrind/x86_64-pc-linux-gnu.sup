@@ -9140,5 +9140,6 @@ CowRcStr
 >
 fun
 :
-_ZN5style6values9specified5color5Color14parse_internal17h55055c87de7e3615E
+_ZN5style6values9specified5color5Color14parse_internal
+*
 }
