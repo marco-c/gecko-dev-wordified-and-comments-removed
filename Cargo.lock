@@ -36319,9 +36319,6 @@ serde
 smallvec
 "
 "
-static_prefs
-"
-"
 svg_fmt
 "
 "
