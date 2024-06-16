@@ -1614,7 +1614,7 @@ the
 user
 wants
 to
-select
+save
 the
 login
 .
