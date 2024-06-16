@@ -1199,12 +1199,6 @@ Vec
 new
 (
 )
-Vec
-:
-:
-new
-(
-)
 ]
 prim_instances_with_scissor
 :
