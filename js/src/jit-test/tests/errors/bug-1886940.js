@@ -1,0 +1,10 @@
+[
+]
+.
+with
+(
+Symbol
+.
+hasInstance
+)
+;
