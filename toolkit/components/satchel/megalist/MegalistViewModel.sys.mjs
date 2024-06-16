@@ -1136,6 +1136,7 @@ const
 dotIndex
 =
 commandId
+?
 .
 indexOf
 (
