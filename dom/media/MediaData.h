@@ -1806,6 +1806,12 @@ char
 *
 sTypeName
 ;
+nsCString
+ToString
+(
+)
+const
+;
 Span
 <
 AudioDataValue
