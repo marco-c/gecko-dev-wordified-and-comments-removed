@@ -40,16 +40,6 @@ tan
 )
 ;
 }
-'
-new
-Math
-.
-tan
-(
-)
-throws
-TypeError
-'
 )
 ;
 reportCompare

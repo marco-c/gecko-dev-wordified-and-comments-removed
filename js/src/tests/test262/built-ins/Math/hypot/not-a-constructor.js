@@ -40,16 +40,6 @@ hypot
 )
 ;
 }
-'
-new
-Math
-.
-hypot
-(
-)
-throws
-TypeError
-'
 )
 ;
 reportCompare

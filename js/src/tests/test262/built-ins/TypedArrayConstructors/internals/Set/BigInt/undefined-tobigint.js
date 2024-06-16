@@ -31,16 +31,6 @@ typedArray
 undefined
 ;
 }
-'
-typedArray
-[
-0
-]
-=
-undefined
-throws
-TypeError
-'
 )
 ;
 }

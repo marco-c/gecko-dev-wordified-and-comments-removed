@@ -174,15 +174,6 @@ key
 ]
 ;
 }
-'
-delete
-sample
-[
-key
-]
-throws
-TypeError
-'
 )
 ;
 delete

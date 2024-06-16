@@ -87,14 +87,6 @@ revocationFunction
 )
 ;
 }
-'
-new
-revocationFunction
-(
-)
-throws
-TypeError
-'
 )
 ;
 reportCompare

@@ -40,16 +40,6 @@ cbrt
 )
 ;
 }
-'
-new
-Math
-.
-cbrt
-(
-)
-throws
-TypeError
-'
 )
 ;
 reportCompare

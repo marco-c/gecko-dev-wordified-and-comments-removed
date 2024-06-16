@@ -3,10 +3,6 @@ badResults
 =
 [
 [
-undefined
-TypeError
-]
-[
 Infinity
 RangeError
 ]

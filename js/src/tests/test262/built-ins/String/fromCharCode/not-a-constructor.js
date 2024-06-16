@@ -40,16 +40,6 @@ fromCharCode
 )
 ;
 }
-'
-new
-String
-.
-fromCharCode
-(
-)
-throws
-TypeError
-'
 )
 ;
 reportCompare

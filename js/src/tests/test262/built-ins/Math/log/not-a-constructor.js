@@ -40,16 +40,6 @@ log
 )
 ;
 }
-'
-new
-Math
-.
-log
-(
-)
-throws
-TypeError
-'
 )
 ;
 reportCompare

@@ -40,16 +40,6 @@ has
 )
 ;
 }
-'
-new
-Reflect
-.
-has
-(
-)
-throws
-TypeError
-'
 )
 ;
 reportCompare

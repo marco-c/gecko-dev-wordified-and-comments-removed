@@ -40,16 +40,6 @@ imul
 )
 ;
 }
-'
-new
-Math
-.
-imul
-(
-)
-throws
-TypeError
-'
 )
 ;
 reportCompare
