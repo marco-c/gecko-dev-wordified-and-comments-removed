@@ -491,11 +491,13 @@ lclangASTMatchers
 fi
 if
 test
+"
+CC_TYPE
+"
+=
+clang
 -
-n
-"
-CLANG_CL
-"
+cl
 ;
 then
 dnl
