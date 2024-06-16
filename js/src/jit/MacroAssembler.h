@@ -22392,6 +22392,15 @@ fail
 )
 ;
 void
+loadArgumentsObjectLength
+(
+Register
+obj
+Register
+output
+)
+;
+void
 branchTestArgumentsObjectFlags
 (
 Register
