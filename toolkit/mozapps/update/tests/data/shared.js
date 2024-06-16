@@ -1155,6 +1155,7 @@ topic
 )
 ;
 }
+async
 function
 testPostUpdateProcessing
 (
