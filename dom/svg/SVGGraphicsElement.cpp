@@ -523,7 +523,7 @@ flags
 SVGUtils
 :
 :
-eBBoxIncludeFillGeometry
+eBBoxIncludeFill
 ;
 }
 if
@@ -589,8 +589,12 @@ new
 SVGRect
 (
 this
-{
-}
+gfx
+:
+:
+Rect
+(
+)
 )
 )
 ;
@@ -621,7 +625,7 @@ flags
 SVGUtils
 :
 :
-eBBoxIncludeFillGeometry
+eBBoxIncludeFill
 ;
 }
 flags
