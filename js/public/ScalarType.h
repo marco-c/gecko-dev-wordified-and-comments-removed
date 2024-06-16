@@ -47,8 +47,7 @@ Int64
 Simd128
 }
 ;
-static
-inline
+constexpr
 size_t
 byteSize
 (
@@ -131,8 +130,7 @@ type
 )
 ;
 }
-static
-inline
+constexpr
 bool
 isSignedIntType
 (
@@ -206,8 +204,7 @@ type
 )
 ;
 }
-static
-inline
+constexpr
 bool
 isBigIntType
 (
@@ -281,8 +278,7 @@ type
 )
 ;
 }
-static
-inline
+constexpr
 bool
 isFloatingType
 (
@@ -356,8 +352,7 @@ type
 )
 ;
 }
-static
-inline
+constexpr
 const
 char
 *
@@ -495,8 +490,7 @@ type
 )
 ;
 }
-static
-inline
+constexpr
 const
 char
 *
