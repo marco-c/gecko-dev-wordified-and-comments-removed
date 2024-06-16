@@ -361,7 +361,7 @@ document
 document
 -
 >
-IsHTMLDocument
+IsHTMLOrXHTML
 (
 )
 )

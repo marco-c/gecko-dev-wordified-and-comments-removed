@@ -850,7 +850,7 @@ document
 document
 -
 >
-IsHTMLDocument
+IsHTMLOrXHTML
 (
 )
 )
