@@ -88,7 +88,12 @@ assert_equals
 evt
 .
 bubbles
-false
+evt
+.
+target
+=
+=
+document
 "
 snap
 events
@@ -96,6 +101,12 @@ don
 '
 t
 bubble
+except
+when
+fired
+at
+the
+document
 "
 )
 ;
