@@ -231,6 +231,11 @@ l10nconfigs
 load_configs
 (
 lintconfig
+[
+"
+l10n_configs
+"
+]
 root
 l10n_base
 name
@@ -266,6 +271,29 @@ lintconfig
 path
 "
 ]
+)
+        
+lintconfig
+[
+"
+include
+"
+]
+.
+remove
+(
+mozpath
+.
+relpath
+(
+lintconfig
+[
+"
+path
+"
+]
+root
+)
 )
     
 else
@@ -843,7 +871,7 @@ flush
 def
 load_configs
 (
-lintconfig
+l10n_configs
 root
 l10n_base
 locale
@@ -885,12 +913,7 @@ l10n_base
 for
 toml
 in
-lintconfig
-[
-"
 l10n_configs
-"
-]
 :
         
 cfg
