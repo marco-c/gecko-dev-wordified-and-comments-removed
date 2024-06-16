@@ -1028,6 +1028,12 @@ background
 .
 defaultagent
 "
+/
+*
+disableInternalPings
+*
+/
+true
 )
 ;
 let
