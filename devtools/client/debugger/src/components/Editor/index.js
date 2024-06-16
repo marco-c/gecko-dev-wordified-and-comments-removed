@@ -1561,6 +1561,7 @@ shortcut
 componentDidUpdate
 (
 prevProps
+prevState
 )
 {
 const
@@ -1636,6 +1637,19 @@ id
 selectedSource
 .
 id
+|
+|
+(
+!
+prevState
+.
+editor
+&
+&
+!
+!
+editor
+)
 ;
 const
 isSourceWasm
