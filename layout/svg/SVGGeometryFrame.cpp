@@ -561,6 +561,14 @@ ClearAnyCachedPath
 (
 )
 ;
+SVGObserverUtils
+:
+:
+InvalidateRenderingObservers
+(
+this
+)
+;
 }
 }
 bool
