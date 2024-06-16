@@ -472,6 +472,12 @@ TrackingId
 >
 mTrackingId
 ;
+nsTArray
+<
+int64_t
+>
+mPTSQueue
+;
 }
 ;
 }
