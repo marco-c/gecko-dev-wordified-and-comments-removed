@@ -11622,9 +11622,8 @@ IsBackgroundTaskMode
 )
 )
 {
-Output
+printf_stderr
 (
-false
 "
 Could
 not
