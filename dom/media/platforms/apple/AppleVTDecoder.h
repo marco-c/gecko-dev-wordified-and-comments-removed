@@ -534,7 +534,6 @@ StreamType
 Unknown
 H264
 VP9
-AV1
 }
 ;
 const
