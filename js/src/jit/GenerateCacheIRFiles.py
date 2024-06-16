@@ -635,6 +635,19 @@ writeJSOpImm
 )
     
 "
+JSTypeImm
+"
+:
+(
+"
+JSType
+"
+"
+writeJSTypeImm
+"
+)
+    
+"
 BoolImm
 "
 :
@@ -1788,6 +1801,25 @@ jsop
 )
     
 "
+JSTypeImm
+"
+:
+(
+"
+JSType
+"
+"
+"
+"
+reader
+.
+jstype
+(
+)
+"
+)
+    
+"
 BoolImm
 "
 :
@@ -2621,6 +2653,14 @@ JSOpImm
 :
 "
 spewJSOpImm
+"
+    
+"
+JSTypeImm
+"
+:
+"
+spewJSTypeImm
 "
     
 "
@@ -3500,6 +3540,12 @@ UnaryMathFunctionImm
     
 "
 JSOpImm
+"
+:
+1
+    
+"
+JSTypeImm
 "
 :
 1
