@@ -148,6 +148,10 @@ script
 >
   
 <
+body
+>
+  
+<
 script
 src
 =
@@ -159,6 +163,11 @@ s
 <
 /
 script
+>
+  
+<
+/
+body
 >
   
 "
