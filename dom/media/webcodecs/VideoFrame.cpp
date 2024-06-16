@@ -10641,9 +10641,6 @@ forget
 )
 ;
 }
-CombinedBufferLayout
-layout
-;
 auto
 r
 =
@@ -10691,6 +10688,7 @@ forget
 )
 ;
 }
+CombinedBufferLayout
 layout
 =
 r
