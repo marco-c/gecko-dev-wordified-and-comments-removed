@@ -40,6 +40,17 @@ faviconURL
 implicit_jscontext
 ]
 Promise
+obtainAndCacheFaviconAsync
+(
+in
+nsIURI
+faviconURL
+)
+;
+[
+implicit_jscontext
+]
+Promise
 isAvailable
 (
 )
