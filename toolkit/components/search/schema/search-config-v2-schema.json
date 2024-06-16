@@ -1246,7 +1246,7 @@ which
 include
 '
 {
-pc
+partnerCode
 }
 '
 "
@@ -1731,7 +1731,7 @@ field
 should
 be
 {
-pc
+partnerCode
 }
 .
 "
