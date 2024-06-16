@@ -1908,9 +1908,6 @@ CustomStateSet
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
