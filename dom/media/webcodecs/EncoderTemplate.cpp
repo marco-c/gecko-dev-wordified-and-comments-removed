@@ -2449,7 +2449,7 @@ mOutputNewDecoderConfig
 =
 false
 ;
-LOGE
+LOG
 (
 "
 New
@@ -2833,7 +2833,7 @@ mOutputNewDecoderConfig
 =
 false
 ;
-LOGE
+LOG
 (
 "
 New
