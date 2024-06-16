@@ -1108,14 +1108,6 @@ dependencies
 -
 android
 -
-gradle
--
-python
--
-envs
--
-android
--
 ndk
 -
 linux

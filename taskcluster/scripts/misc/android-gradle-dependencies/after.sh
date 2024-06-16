@@ -45,11 +45,6 @@ WORKSPACE
 mkdir
 -
 p
-android
--
-gradle
--
-dependencies
 /
 builds
 /

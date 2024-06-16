@@ -244,14 +244,6 @@ dependencies
 -
 android
 -
-gradle
--
-python
--
-envs
--
-android
--
 sdk
 -
 linux

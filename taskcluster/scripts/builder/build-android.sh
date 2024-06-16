@@ -205,6 +205,12 @@ file
 /
 MOZ_FETCHES_DIR
 /
+android
+-
+gradle
+-
+dependencies
+/
 plugins
 .
 gradle
