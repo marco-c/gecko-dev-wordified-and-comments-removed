@@ -239,6 +239,16 @@ id_
 ;
 }
 void
+generate_id
+(
+)
+;
+[
+[
+deprecated
+]
+]
+void
 set_id
 (
 absl
