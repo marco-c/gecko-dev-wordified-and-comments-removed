@@ -654,9 +654,6 @@ resultProperties
 isRichSuggestion
 :
 true
-richSuggestionIconSize
-:
-38
 showFeedbackMenu
 :
 true
@@ -670,12 +667,6 @@ suggestion
 is_top_pick
 )
 {
-resultProperties
-.
-richSuggestionIconSize
-=
-16
-;
 resultProperties
 .
 isSuggestedIndexRelativeToGroup
