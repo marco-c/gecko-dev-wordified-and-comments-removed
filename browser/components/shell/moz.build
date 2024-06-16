@@ -203,6 +203,16 @@ nsWindowsShellService
 cpp
 "
 "
+Windows11LimitedAccessFeatures
+.
+cpp
+"
+"
+Windows11TaskbarPinning
+.
+cpp
+"
+"
 WindowsDefaultBrowser
 .
 cpp

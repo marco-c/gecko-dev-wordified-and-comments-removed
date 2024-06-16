@@ -143,6 +143,19 @@ build
 {
 include
 }
+Identity
+LimitedAccessFeature
+{
+{
+L
+"
+{
+lafidentity
+}
+_pcsmm0jrprpb2
+"
+}
+}
 /
 /
 /
@@ -765,7 +778,7 @@ manifest_id
 :
     
 for
-line
+lineFromInput
 in
 module_rc
 .
@@ -776,7 +789,7 @@ splitlines
         
 line
 =
-line
+lineFromInput
 .
 split
 (
@@ -1167,6 +1180,12 @@ include
 "
 "
     
+lafidentity
+=
+"
+MozillaFirefox
+"
+    
 data
 =
 TEMPLATE
@@ -1177,6 +1196,10 @@ format
 include
 =
 include
+        
+lafidentity
+=
+lafidentity
         
 fileversion
 =
