@@ -7553,10 +7553,10 @@ callback
 .
 op
 (
-rt
--
->
-mainContextFromOwnThread
+&
+mainThreadContext
+.
+ref
 (
 )
 callback
