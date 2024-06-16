@@ -4136,6 +4136,11 @@ bool
 aIsFinalIteration
 )
 ;
+AuCoord64
+mTotalOuterHypotheticalMainSize
+=
+0
+;
 nsTArray
 <
 FlexItem
@@ -4149,11 +4154,6 @@ mNumFrozenItems
 ;
 nscoord
 mTotalItemMBP
-=
-0
-;
-AuCoord64
-mTotalOuterHypotheticalMainSize
 =
 0
 ;
