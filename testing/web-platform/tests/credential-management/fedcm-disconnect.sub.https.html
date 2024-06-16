@@ -127,7 +127,6 @@ import
 {
 fedcm_test
 mark_signed_in
-set_fedcm_cookie
 disconnect_options
 fedcm_get_and_select_first_account
 request_options_with_mediation_required
@@ -161,11 +160,7 @@ t
 await
 mark_signed_in
 (
-)
-;
-await
-set_fedcm_cookie
-(
+alt_manifest_origin
 )
 ;
 /
@@ -188,7 +183,7 @@ await
 fedcm_get_and_select_first_account
 (
 t
-request_options_with_mediation_required
+alt_request_options_with_mediation_required
 (
 )
 )
@@ -274,7 +269,7 @@ IdentityCredential
 .
 disconnect
 (
-disconnect_options
+alt_disconnect_options
 (
 "
 1234
@@ -324,7 +319,7 @@ IdentityCredential
 .
 disconnect
 (
-disconnect_options
+alt_disconnect_options
 (
 "
 nonExistent
@@ -365,6 +360,12 @@ t
 =
 >
 {
+await
+mark_signed_in
+(
+alt_manifest_origin
+)
+;
 const
 cred
 =
@@ -372,7 +373,7 @@ await
 fedcm_get_and_select_first_account
 (
 t
-request_options_with_mediation_required
+alt_request_options_with_mediation_required
 (
 )
 )
@@ -382,7 +383,7 @@ IdentityCredential
 .
 disconnect
 (
-disconnect_options
+alt_disconnect_options
 (
 "
 1234
@@ -413,6 +414,12 @@ t
 =
 >
 {
+await
+mark_signed_in
+(
+alt_manifest_origin
+)
+;
 const
 cred
 =
@@ -420,7 +427,7 @@ await
 fedcm_get_and_select_first_account
 (
 t
-request_options_with_mediation_required
+alt_request_options_with_mediation_required
 (
 )
 )
@@ -430,7 +437,7 @@ IdentityCredential
 .
 disconnect
 (
-disconnect_options
+alt_disconnect_options
 (
 "
 1234
@@ -445,7 +452,7 @@ IdentityCredential
 .
 disconnect
 (
-disconnect_options
+alt_disconnect_options
 (
 "
 1234
@@ -486,6 +493,12 @@ t
 =
 >
 {
+await
+mark_signed_in
+(
+alt_manifest_origin
+)
+;
 const
 cred
 =
@@ -493,7 +506,7 @@ await
 fedcm_get_and_select_first_account
 (
 t
-request_options_with_mediation_required
+alt_request_options_with_mediation_required
 (
 )
 )
@@ -538,7 +551,7 @@ IdentityCredential
 .
 disconnect
 (
-disconnect_options
+alt_disconnect_options
 (
 "
 noMatch
@@ -567,7 +580,7 @@ t
 >
 {
 await
-set_alt_fedcm_cookie
+mark_signed_in
 (
 )
 ;
