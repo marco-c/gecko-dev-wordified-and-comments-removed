@@ -66,9 +66,12 @@ ColorOrTexture
 RadialGradient
 =
 1
-Mask
+ConicGradient
 =
 2
+Mask
+=
+3
 }
 pub
 const
@@ -76,7 +79,7 @@ NUM_PATTERNS
 :
 u32
 =
-3
+4
 ;
 impl
 PatternKind
