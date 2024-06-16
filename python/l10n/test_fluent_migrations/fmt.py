@@ -20,11 +20,13 @@ difflib
 import
 unified_diff
 from
+subprocess
+import
+check_call
+from
 typing
 import
 Iterable
-import
-hglib
 from
 compare_locales
 .
@@ -84,13 +86,6 @@ path
 import
 join
 normpath
-from
-mozversioncontrol
-.
-repoupdate
-import
-update_git_repo
-update_mercurial_repo
 L10N_SOURCE_NAME
 =
 "
@@ -120,32 +115,6 @@ l10n
 source
 .
 git
-"
-STRINGS_NAME
-=
-"
-gecko
--
-strings
-"
-STRINGS_REPO
-=
-"
-https
-:
-/
-/
-hg
-.
-mozilla
-.
-org
-/
-l10n
-/
-gecko
--
-strings
 "
 PULL_AFTER
 =
@@ -187,9 +156,6 @@ def
 prepare_directories
 (
 cmd
-use_git
-=
-False
 )
 :
     
@@ -276,10 +242,6 @@ makedirs
 obj_dir
 )
     
-if
-use_git
-:
-        
 repo_dir
 =
 join
@@ -289,7 +251,7 @@ get_state_dir
 )
 L10N_SOURCE_NAME
 )
-        
+    
 marker
 =
 join
@@ -298,33 +260,6 @@ repo_dir
 "
 .
 git
-"
-"
-l10n_pull_marker
-"
-)
-    
-else
-:
-        
-repo_dir
-=
-join
-(
-get_state_dir
-(
-)
-STRINGS_NAME
-)
-        
-marker
-=
-join
-(
-repo_dir
-"
-.
-hg
 "
 "
 l10n_pull_marker
@@ -376,22 +311,47 @@ skip_clone
 :
         
 if
-use_git
+os
+.
+path
+.
+exists
+(
+repo_dir
+)
 :
             
-update_git_repo
+check_call
 (
+[
+"
+git
+"
+"
+pull
+"
 L10N_SOURCE_REPO
+]
+cwd
+=
 repo_dir
 )
         
 else
 :
             
-update_mercurial_repo
+check_call
 (
-STRINGS_REPO
+[
+"
+git
+"
+"
+clone
+"
+L10N_SOURCE_REPO
 repo_dir
+]
 )
         
 with
@@ -542,10 +502,6 @@ str
 repo_dir
 :
 str
-    
-use_git
-:
-bool
     
 to_test
 :
@@ -996,10 +952,6 @@ join
 (
 work_dir
 L10N_SOURCE_NAME
-if
-use_git
-else
-STRINGS_NAME
 ref
 )
         
@@ -1102,10 +1054,6 @@ US
 "
 )
     
-if
-use_git
-:
-        
 git
 (
 work_dir
@@ -1113,21 +1061,6 @@ work_dir
 clone
 "
 repo_dir
-l10n_root
-)
-    
-else
-:
-        
-hglib
-.
-clone
-(
-source
-=
-repo_dir
-dest
-=
 l10n_root
 )
     
