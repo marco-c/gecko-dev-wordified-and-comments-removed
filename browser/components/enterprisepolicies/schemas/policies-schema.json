@@ -1043,7 +1043,7 @@ boolean
 "
 }
 "
-DefaultAllow
+DefaultResult
 "
 :
 {
@@ -1052,7 +1052,7 @@ type
 "
 :
 "
-boolean
+number
 "
 }
 "
