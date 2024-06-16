@@ -938,7 +938,7 @@ FirefoxTheme
 .
 colors
 .
-layerError
+layerCritical
 Info
 -
 >
