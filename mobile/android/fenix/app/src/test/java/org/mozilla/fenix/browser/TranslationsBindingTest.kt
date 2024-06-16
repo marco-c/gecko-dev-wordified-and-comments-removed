@@ -491,6 +491,9 @@ null
 isEngineReady
 =
 true
+hasVisibleChange
+=
+true
 requestedTranslationPair
 =
 TranslationPair
