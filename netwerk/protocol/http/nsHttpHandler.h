@@ -2825,8 +2825,8 @@ nsHttpConnectionInfo
 ci
 )
 ;
-uint32_t
-mProcessId
+uint64_t
+mUniqueProcessId
 {
 0
 }
@@ -2839,6 +2839,12 @@ Relaxed
 mNextChannelId
 {
 1
+}
+;
+uint32_t
+mProcessId
+{
+0
 }
 ;
 Mutex
