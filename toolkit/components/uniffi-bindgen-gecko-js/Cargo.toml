@@ -141,11 +141,11 @@ true
 }
 uniffi_bindgen
 =
-"
-0
-.
-25
-"
+{
+workspace
+=
+true
+}
 serde
 =
 "

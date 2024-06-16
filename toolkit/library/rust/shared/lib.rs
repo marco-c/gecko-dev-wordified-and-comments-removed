@@ -830,7 +830,7 @@ uniffi_rustbuffer_alloc
 (
 size
 :
-i32
+u64
 call_status
 :
 &

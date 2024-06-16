@@ -187,6 +187,12 @@ return
 nullptr
 ;
 }
+UniFFIPointer
+*
+Clone
+(
+)
+;
 void
 *
 GetPtr
