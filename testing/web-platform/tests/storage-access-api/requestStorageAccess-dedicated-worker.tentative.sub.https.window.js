@@ -339,7 +339,7 @@ credentialed
 "
 )
 ;
-assert_true
+assert_false
 (
 cookieStringHasCookie
 (
@@ -371,7 +371,7 @@ Worker
 s
 fetch
 is
-credentialed
+uncredentialed
 .
 "
 )
@@ -379,6 +379,9 @@ credentialed
 }
 "
 Workers
+don
+'
+t
 inherit
 storage
 access
