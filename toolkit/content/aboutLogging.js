@@ -699,6 +699,9 @@ GMP
 EME
 :
 5
+MediaSource
+:
+4
 "
 l10nIds
 :
