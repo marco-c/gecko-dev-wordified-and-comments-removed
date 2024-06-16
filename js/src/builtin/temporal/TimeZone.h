@@ -18,6 +18,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EnumSet
 .
 h
@@ -427,6 +436,7 @@ js
 temporal
 {
 class
+MOZ_STACK_CLASS
 TimeZoneValue
 final
 {
@@ -766,7 +776,9 @@ GetPossibleInstantsFor
 }
 ;
 class
+MOZ_STACK_CLASS
 TimeZoneRecord
+final
 {
 TimeZoneValue
 receiver_

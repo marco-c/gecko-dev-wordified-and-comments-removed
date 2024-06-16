@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 FloatingPoint
 .
 h
@@ -90,6 +99,7 @@ TimeZone
 }
 ;
 struct
+MOZ_STACK_CLASS
 TemporalFields
 final
 {

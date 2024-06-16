@@ -15,6 +15,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
 <
 stdint
 .
@@ -336,7 +345,9 @@ nanoseconds
 ;
 }
 class
+MOZ_STACK_CLASS
 ZonedDateTime
+final
 {
 Instant
 instant_

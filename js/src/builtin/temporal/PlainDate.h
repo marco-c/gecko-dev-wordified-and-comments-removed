@@ -15,6 +15,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
 <
 initializer_list
 >
@@ -256,7 +265,9 @@ classSpec_
 }
 ;
 class
+MOZ_STACK_CLASS
 PlainDateWithCalendar
+final
 {
 PlainDate
 date_

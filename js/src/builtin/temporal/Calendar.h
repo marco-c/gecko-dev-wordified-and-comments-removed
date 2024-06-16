@@ -18,6 +18,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EnumSet
 .
 h
@@ -177,6 +186,7 @@ classSpec_
 }
 ;
 class
+MOZ_STACK_CLASS
 CalendarValue
 final
 {
@@ -439,7 +449,9 @@ YearMonthFromFields
 }
 ;
 class
+MOZ_STACK_CLASS
 CalendarRecord
+final
 {
 CalendarValue
 receiver_
