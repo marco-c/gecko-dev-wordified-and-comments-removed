@@ -340,6 +340,14 @@ rtc_export
 /
 units
 :
+data_rate
+"
+"
+.
+.
+/
+units
+:
 time_delta
 "
 ]
