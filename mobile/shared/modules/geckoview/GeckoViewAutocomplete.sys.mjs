@@ -3171,7 +3171,7 @@ parse
 (
 comment
 .
-login
+fillMessageData
 )
 hint
 }
@@ -3188,7 +3188,9 @@ autofill
 :
 {
 const
-comment
+{
+fillMessageData
+}
 =
 JSON
 .
@@ -3202,7 +3204,7 @@ comment
 debug
 delegateSelection
 {
-comment
+fillMessageData
 }
 ;
 const
@@ -3212,9 +3214,7 @@ CreditCard
 .
 fromGecko
 (
-comment
-.
-profile
+fillMessageData
 )
 ;
 const
@@ -3224,9 +3224,7 @@ Address
 .
 fromGecko
 (
-comment
-.
-profile
+fillMessageData
 )
 ;
 if

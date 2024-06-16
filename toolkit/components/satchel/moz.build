@@ -67,11 +67,6 @@ nsIFormFillController
 .
 idl
 "
-"
-nsIFormHistoryAutoComplete
-.
-idl
-"
 ]
 XPIDL_MODULE
 =

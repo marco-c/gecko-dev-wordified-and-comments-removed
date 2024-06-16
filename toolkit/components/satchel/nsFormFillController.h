@@ -58,13 +58,6 @@ h
 #
 include
 "
-nsIFormHistoryAutoComplete
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
