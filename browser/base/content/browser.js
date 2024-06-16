@@ -15798,6 +15798,13 @@ busyUI
 =
 false
 ;
+if
+(
+this
+.
+spinCursorWhileBusy
+)
+{
 window
 .
 setCursor
@@ -15807,6 +15814,7 @@ auto
 "
 )
 ;
+}
 this
 .
 stopCommand
