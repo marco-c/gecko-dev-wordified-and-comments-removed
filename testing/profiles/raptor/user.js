@@ -272,3 +272,15 @@ foreground
 true
 )
 ;
+user_pref
+(
+"
+app
+.
+update
+.
+disabledForTesting
+"
+true
+)
+;

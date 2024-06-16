@@ -1418,3 +1418,15 @@ dont_notify_on_error
 true
 )
 ;
+user_pref
+(
+"
+app
+.
+update
+.
+disabledForTesting
+"
+true
+)
+;
