@@ -69,6 +69,9 @@ TopBackRight
 Silence
 =
 18
+Discrete
+=
+19
 }
 impl
 Channel
@@ -101,7 +104,7 @@ usize
 Channel
 :
 :
-Silence
+Discrete
 as
 usize
 +
@@ -358,6 +361,18 @@ Channel
 :
 :
 Silence
+.
+bitmask
+(
+)
+;
+const
+DISCRETE
+=
+Channel
+:
+:
+Discrete
 .
 bitmask
 (
