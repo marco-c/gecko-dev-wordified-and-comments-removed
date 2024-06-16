@@ -1272,6 +1272,11 @@ layerSearch
 PhotonColors
 .
 Ink90
+borderPrimary
+=
+PhotonColors
+.
+Ink05
 borderSecondary
 =
 PhotonColors
