@@ -4541,11 +4541,11 @@ EnsureParsedUrlFilters
 (
 )
 ;
+nsCOMPtr
+<
 nsIURI
-*
+>
 nsiUrl
-=
-nullptr
 ;
 MOZ_ALWAYS_SUCCEEDS
 (
@@ -4554,8 +4554,10 @@ aRequest
 >
 GetUrl
 (
-&
+getter_AddRefs
+(
 nsiUrl
+)
 )
 )
 ;
