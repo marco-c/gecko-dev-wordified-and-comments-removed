@@ -19093,6 +19093,10 @@ pending
 :
 after
 {
+display
+:
+block
+;
 visibility
 :
 visible
@@ -22438,6 +22442,10 @@ loading
 :
 after
 {
+display
+:
+block
+;
 visibility
 :
 visible
@@ -22480,6 +22488,10 @@ absolute
 visibility
 :
 hidden
+;
+display
+:
+none
 ;
 top
 :
