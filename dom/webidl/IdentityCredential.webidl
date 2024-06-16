@@ -348,6 +348,9 @@ required
 DOMString
 id
 ;
+UTF8String
+token
+;
 sequence
 <
 UTF8String
