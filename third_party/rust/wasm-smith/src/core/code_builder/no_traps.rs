@@ -11,11 +11,7 @@ use
 wasm_encoder
 :
 :
-{
-BlockType
 Instruction
-ValType
-}
 ;
 use
 super

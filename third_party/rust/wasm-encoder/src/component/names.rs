@@ -19,8 +19,6 @@ crate
 :
 {
 encoding_size
-CustomSection
-Encode
 ExportKind
 NameMap
 SectionId

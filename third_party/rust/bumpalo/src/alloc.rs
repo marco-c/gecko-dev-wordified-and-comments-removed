@@ -1547,11 +1547,8 @@ ptr
 cast
 (
 )
+*
 k_old
-.
-clone
-(
-)
 k_new
 .
 size
