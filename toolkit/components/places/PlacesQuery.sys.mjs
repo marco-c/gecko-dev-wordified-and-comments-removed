@@ -2089,6 +2089,12 @@ null
 ;
 if
 (
+this
+.
+#
+historyObserverTask
+&
+&
 !
 this
 .
