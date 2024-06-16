@@ -722,7 +722,7 @@ api
 /
 p2p
 :
-connection_and_port
+connection
 "
 "
 .

@@ -1963,7 +1963,7 @@ bool
 IsPortPruned
 (
 const
-Port
+PortInterface
 *
 port
 )

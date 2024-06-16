@@ -1894,7 +1894,7 @@ rtc_data_sctp_transport_internal
 /
 p2p
 :
-connection_and_port
+connection
 "
 "
 .
@@ -4017,7 +4017,7 @@ libjingle_peerconnection_api
 /
 p2p
 :
-connection_and_port
+connection
 "
 "
 .
@@ -5744,7 +5744,7 @@ rtp_rtcp_format
 /
 p2p
 :
-connection_and_port
+connection
 "
 "
 .
@@ -6359,7 +6359,7 @@ stream_params
 /
 p2p
 :
-connection_and_port
+connection
 "
 "
 .
@@ -7075,7 +7075,7 @@ basic_async_resolver_factory
 /
 p2p
 :
-connection_and_port
+connection
 "
 "
 .
@@ -7705,7 +7705,7 @@ audio_processing_statistics
 /
 p2p
 :
-connection_and_port
+connection
 "
 "
 .
@@ -8232,7 +8232,7 @@ candidate_pair_interface
 /
 p2p
 :
-connection_and_port
+connection
 "
 "
 .
@@ -8691,7 +8691,7 @@ rtc_error
 /
 p2p
 :
-connection_and_port
+connection
 "
 "
 .
@@ -9134,7 +9134,7 @@ rtc_media_base
 /
 p2p
 :
-connection_and_port
+connection
 "
 "
 .
@@ -13794,7 +13794,7 @@ api
 /
 p2p
 :
-connection_and_port
+connection
 "
 "
 .
@@ -14141,7 +14141,7 @@ time_delta
 /
 p2p
 :
-connection_and_port
+connection
 "
 "
 .
@@ -15306,7 +15306,7 @@ rtp_rtcp_format
 /
 p2p
 :
-connection_and_port
+connection
 "
 "
 .
@@ -16855,7 +16855,7 @@ rtp_rtcp_format
 /
 p2p
 :
-connection_and_port
+connection
 "
 "
 .
@@ -17986,7 +17986,7 @@ rtp_rtcp_format
 /
 p2p
 :
-connection_and_port
+connection
 "
 "
 .

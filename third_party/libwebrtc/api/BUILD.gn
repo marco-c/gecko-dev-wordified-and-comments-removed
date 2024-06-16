@@ -1860,7 +1860,7 @@ rtp_interfaces
 /
 p2p
 :
-connection_and_port
+connection
 "
 "
 .
@@ -4991,7 +4991,7 @@ scoped_refptr
 /
 p2p
 :
-connection_and_port
+connection
 "
 "
 .
