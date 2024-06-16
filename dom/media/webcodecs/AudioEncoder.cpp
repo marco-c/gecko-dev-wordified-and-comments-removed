@@ -2687,6 +2687,7 @@ EncodedDataToOutputType
 nsIGlobalObject
 *
 aGlobalObject
+const
 RefPtr
 <
 MediaRawData
