@@ -64,6 +64,13 @@ json
 ]
 [
 "
+test_MiscDataBackupResource
+.
+js
+"
+]
+[
+"
 test_PreferencesBackupResource
 .
 js
