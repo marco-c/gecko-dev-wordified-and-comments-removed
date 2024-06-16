@@ -781,6 +781,7 @@ self
 .
 prev_scroll_root_cache
 spatial_tree
+true
 )
 ;
 *
@@ -1130,6 +1131,10 @@ self
 .
 prev_scroll_root_cache
 spatial_tree
+!
+quality_settings
+.
+force_subpixel_aa_where_possible
 )
 ;
 let
@@ -1316,6 +1321,7 @@ self
 .
 prev_scroll_root_cache
 spatial_tree
+true
 )
 ;
 if
@@ -1714,6 +1720,9 @@ spatial_tree
 :
 &
 SceneSpatialTree
+allow_sticky_frames
+:
+bool
 )
 -
 >
@@ -1741,6 +1750,7 @@ spatial_tree
 find_scroll_root
 (
 spatial_node_index
+allow_sticky_frames
 )
 ;
 *

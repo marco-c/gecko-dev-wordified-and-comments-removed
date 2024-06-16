@@ -1700,6 +1700,9 @@ self
 spatial_node_index
 :
 SpatialNodeIndex
+allow_sticky_frames
+:
+bool
 )
 -
 >
@@ -1840,6 +1843,9 @@ StickyFrame
 =
 >
 {
+if
+allow_sticky_frames
+{
 outermost_scroll_root
 =
 node_index
@@ -1852,6 +1858,7 @@ current_scroll_root_is_sticky
 =
 true
 ;
+}
 }
 SpatialNodeType
 :
@@ -8877,6 +8884,7 @@ st
 find_scroll_root
 (
 scroll
+true
 )
 scroll
 )
@@ -9215,6 +9223,7 @@ st
 find_scroll_root
 (
 sub_scroll
+true
 )
 root_scroll
 )
@@ -9553,6 +9562,7 @@ st
 find_scroll_root
 (
 sub_scroll
+true
 )
 sub_scroll
 )
@@ -9887,6 +9897,7 @@ st
 find_scroll_root
 (
 sub_scroll
+true
 )
 sub_scroll
 )
@@ -10299,6 +10310,7 @@ st
 find_scroll_root
 (
 sub_scroll
+true
 )
 root_scroll
 )
@@ -10717,6 +10729,7 @@ st
 find_scroll_root
 (
 sub_scroll
+true
 )
 sub_scroll
 )
@@ -11071,8 +11084,22 @@ st
 find_scroll_root
 (
 sticky
+true
 )
 sticky
+)
+;
+assert_eq
+!
+(
+st
+.
+find_scroll_root
+(
+sticky
+false
+)
+scroll
 )
 ;
 }
