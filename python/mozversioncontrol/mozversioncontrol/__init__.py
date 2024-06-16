@@ -6770,7 +6770,14 @@ None
 )
 :
         
-pass
+raise
+MissingUpstreamRepo
+(
+"
+Unknown
+Upstream
+"
+)
     
 def
 add_remove_files
