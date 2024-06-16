@@ -1422,17 +1422,6 @@ DEFAULT_TAG
 "
 default
 "
-MOZ_PARAM
-:
-{
-LOCALE
-:
-"
-moz
-:
-locale
-"
-}
 /
 /
 Query
