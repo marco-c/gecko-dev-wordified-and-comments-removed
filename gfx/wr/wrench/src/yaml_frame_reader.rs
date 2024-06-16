@@ -11096,6 +11096,7 @@ self
 next_spatial_key
 (
 )
+None
 )
 ;
 if
