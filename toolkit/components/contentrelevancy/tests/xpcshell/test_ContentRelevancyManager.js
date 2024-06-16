@@ -556,7 +556,7 @@ add_task
 (
 async
 function
-test_doClassificationHelper
+test_doClassification
 (
 )
 {
@@ -587,7 +587,7 @@ _isStoreReady
 await
 ContentRelevancyManager
 .
-_test_doClassificationHelper
+_test_doClassification
 (
 [
 ]
@@ -617,7 +617,7 @@ rejects
 (
 ContentRelevancyManager
 .
-_test_doClassificationHelper
+_test_doClassification
 (
 [
 ]
