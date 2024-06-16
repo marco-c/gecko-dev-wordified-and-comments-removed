@@ -3478,6 +3478,13 @@ split
 "
 "
 )
+encoding
+=
+"
+utf
+-
+8
+"
     
 )
     
@@ -3558,6 +3565,13 @@ split
 "
 "
 )
+encoding
+=
+"
+utf
+-
+8
+"
     
 )
 .
@@ -3610,6 +3624,14 @@ split
 "
 "
 )
+        
+encoding
+=
+"
+utf
+-
+8
+"
     
 )
     
@@ -3651,6 +3673,14 @@ split
 "
 "
 )
+        
+encoding
+=
+"
+utf
+-
+8
+"
     
 )
     
@@ -3692,6 +3722,14 @@ split
 "
 "
 )
+        
+encoding
+=
+"
+utf
+-
+8
+"
     
 )
     
@@ -3731,6 +3769,14 @@ split
 "
 "
 )
+        
+encoding
+=
+"
+utf
+-
+8
+"
     
 )
     
