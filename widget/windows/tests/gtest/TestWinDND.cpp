@@ -3941,7 +3941,7 @@ tmpdir
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 tmpdir
 )
