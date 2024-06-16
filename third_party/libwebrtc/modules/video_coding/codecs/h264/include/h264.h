@@ -234,6 +234,16 @@ override
 struct
 H264EncoderSettings
 {
+static
+H264EncoderSettings
+Parse
+(
+const
+SdpVideoFormat
+&
+format
+)
+;
 H264PacketizationMode
 packetization_mode
 =
