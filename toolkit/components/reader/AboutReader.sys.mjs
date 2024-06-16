@@ -382,10 +382,10 @@ lineSpacing
 4
 characterSpacing
 :
-0
+1
 wordSpacing
 :
-0
+1
 textAlignment
 :
 "
@@ -2637,7 +2637,7 @@ reader
 .
 character_spacing
 "
-0
+1
 )
 ;
 this
@@ -2682,7 +2682,7 @@ reader
 .
 word_spacing
 "
-0
+1
 )
 ;
 this

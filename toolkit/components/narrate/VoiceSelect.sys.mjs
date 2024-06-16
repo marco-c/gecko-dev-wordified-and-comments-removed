@@ -1497,7 +1497,7 @@ winHeight
 -
 listboxTop
 -
-10
+32
 +
 "
 px
