@@ -1485,6 +1485,14 @@ hostname
 if
 (
 gNeckoChild
+&
+&
+gNeckoChild
+-
+>
+CanSend
+(
+)
 )
 {
 gNeckoChild

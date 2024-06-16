@@ -552,6 +552,14 @@ IsNeckoChild
 &
 &
 gNeckoChild
+&
+&
+gNeckoChild
+-
+>
+CanSend
+(
+)
 )
 {
 gNeckoChild
