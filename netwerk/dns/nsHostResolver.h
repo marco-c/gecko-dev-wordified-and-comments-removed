@@ -1564,6 +1564,12 @@ DNSCacheEntries
 *
 )
 ;
+static
+bool
+IsNativeHTTPSEnabled
+(
+)
+;
 }
 ;
 #

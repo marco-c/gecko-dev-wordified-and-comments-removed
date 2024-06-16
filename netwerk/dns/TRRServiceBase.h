@@ -314,6 +314,12 @@ nsHttpConnectionInfo
 >
 mDefaultTRRConnectionInfo
 ;
+bool
+mNativeHTTPSQueryEnabled
+{
+false
+}
+;
 }
 ;
 }

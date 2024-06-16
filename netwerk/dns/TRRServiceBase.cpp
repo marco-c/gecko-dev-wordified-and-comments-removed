@@ -759,6 +759,9 @@ nsIDNSService
 :
 :
 MODE_TRRONLY
+|
+|
+mNativeHTTPSQueryEnabled
 )
 &
 &

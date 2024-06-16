@@ -989,6 +989,8 @@ TRRService
 :
 Init
 (
+bool
+aNativeHTTPSQueryEnabled
 )
 {
 MOZ_ASSERT
@@ -1073,6 +1075,10 @@ true
 sTRRServicePtr
 =
 this
+;
+mNativeHTTPSQueryEnabled
+=
+aNativeHTTPSQueryEnabled
 ;
 ReadPrefs
 (
@@ -5643,7 +5649,10 @@ Excluded
 From
 TRR
 via
-pref
+DNSSuffix
+"
+"
+domains
 \
 n
 "
