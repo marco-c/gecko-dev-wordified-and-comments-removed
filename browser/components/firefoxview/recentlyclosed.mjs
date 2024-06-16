@@ -2184,15 +2184,6 @@ fxview
 tab
 -
 list
-class
-=
-"
-with
--
-dismiss
--
-button
-"
 slot
 =
 "

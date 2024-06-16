@@ -1941,6 +1941,8 @@ cards
 querySelector
 (
 "
+moz
+-
 button
 .
 close
