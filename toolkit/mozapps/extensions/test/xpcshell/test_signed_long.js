@@ -14,6 +14,9 @@ com
 ;
 add_task
 (
+useAMOStageCert
+(
+)
 async
 function
 test_long_id

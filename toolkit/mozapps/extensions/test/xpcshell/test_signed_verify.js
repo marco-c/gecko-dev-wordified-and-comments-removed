@@ -1620,6 +1620,9 @@ uninstall
 ;
 add_task
 (
+useAMOStageCert
+(
+)
 async
 function
 test_no_change
@@ -1843,6 +1846,9 @@ listener
 ;
 add_task
 (
+useAMOStageCert
+(
+)
 async
 function
 test_disable

@@ -150,6 +150,9 @@ null
 }
 add_task
 (
+useAMOStageCert
+(
+)
 async
 function
 (
