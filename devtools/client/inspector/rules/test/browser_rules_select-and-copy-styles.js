@@ -1479,6 +1479,7 @@ container
 width
 )
 {
+&
 #
 nested
 {

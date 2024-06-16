@@ -350,6 +350,7 @@ concat
 text
 :
 "
+&
 .
 mySpan
 {

@@ -432,6 +432,7 @@ declarations
 {
 selector
 :
+&
 .
 foo
 ancestorRulesData
@@ -499,6 +500,7 @@ declarations
 {
 selector
 :
+&
 #
 bar
 ancestorRulesData
@@ -640,6 +642,7 @@ declarations
 {
 selector
 :
+&
 [
 href
 ]

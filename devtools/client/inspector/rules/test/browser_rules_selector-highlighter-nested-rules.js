@@ -435,6 +435,7 @@ info
 Clicking
 on
 "
+&
 .
 title
 "
@@ -449,6 +450,7 @@ clickSelectorIcon
 (
 view
 "
+&
 .
 title
 "
