@@ -64,6 +64,9 @@ I32
 mutable
 :
 true
+shared
+:
+false
 }
 )
 ;

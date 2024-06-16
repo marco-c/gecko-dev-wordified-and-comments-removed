@@ -1,3 +1,15 @@
+#
+!
+[
+cfg
+(
+feature
+=
+"
+wasmparser
+"
+)
+]
 use
 arbitrary
 :

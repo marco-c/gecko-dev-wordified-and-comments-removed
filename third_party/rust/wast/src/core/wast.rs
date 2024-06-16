@@ -39,9 +39,9 @@ token
 :
 :
 {
-Float32
-Float64
 Index
+F32
+F64
 }
 ;
 #
@@ -76,11 +76,11 @@ i64
 )
 F32
 (
-Float32
+F32
 )
 F64
 (
-Float64
+F64
 )
 V128
 (
@@ -593,14 +593,14 @@ F32
 (
 NanPattern
 <
-Float32
+F32
 >
 )
 F64
 (
 NanPattern
 <
-Float64
+F64
 >
 )
 V128
@@ -1274,6 +1274,8 @@ value
 [
 derive
 (
+Copy
+Clone
 Debug
 PartialEq
 )
@@ -1450,6 +1452,7 @@ val
 [
 derive
 (
+Clone
 Debug
 )
 ]
@@ -1501,7 +1504,7 @@ F32x4
 [
 NanPattern
 <
-Float32
+F32
 >
 ;
 4
@@ -1512,7 +1515,7 @@ F64x2
 [
 NanPattern
 <
-Float64
+F64
 >
 ;
 2
