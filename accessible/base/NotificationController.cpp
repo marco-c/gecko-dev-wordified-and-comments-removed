@@ -2482,7 +2482,7 @@ return
 mPresShell
 -
 >
-IsLayoutFlushObserver
+ObservingStyleFlushes
 (
 )
 |

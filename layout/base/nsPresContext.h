@@ -3000,11 +3000,6 @@ GetUndisplayedRestyleGeneration
 )
 const
 ;
-bool
-HasPendingRestyleOrReflow
-(
-)
-;
 void
 ReflowStarted
 (
