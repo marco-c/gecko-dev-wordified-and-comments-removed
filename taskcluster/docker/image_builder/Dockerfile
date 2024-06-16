@@ -58,7 +58,7 @@ golang
 :
 1
 .
-14
+22
 as
 skopeo
 WORKDIR
@@ -91,7 +91,7 @@ golang
 :
 1
 .
-14
+22
 as
 kaniko
 WORKDIR

@@ -25,7 +25,7 @@ branch
 =
 v1
 .
-1
+15
 .
 1
 https
@@ -42,7 +42,7 @@ skopeo
 .
 git
 checkout
-67abbb3cefbdc876447583d5ea45e76bf441eba7
+e2ea426918973e5e007a5e1e2457a41ab336fc41
 export
 GO111MODULE
 =
