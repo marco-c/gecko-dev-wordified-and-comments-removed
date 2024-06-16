@@ -178,6 +178,12 @@ send_in_pings
 test
 -
 ping
+-
+ride
+-
+along
+-
+ping
 can_we_time_it
 :
 type

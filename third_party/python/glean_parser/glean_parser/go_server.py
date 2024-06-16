@@ -174,6 +174,9 @@ quantity
 "
 event
 "
+"
+datetime
+"
 ]
 def
 generate_event_type_name
@@ -352,6 +355,22 @@ boolean
 return
 "
 bool
+"
+    
+elif
+metric_type
+=
+=
+"
+datetime
+"
+:
+        
+return
+"
+time
+.
+Time
 "
     
 else

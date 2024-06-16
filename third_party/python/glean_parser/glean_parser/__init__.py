@@ -24,24 +24,29 @@ parser
 "
 "
 "
-from
-pkg_resources
 import
-get_distribution
-DistributionNotFound
+importlib
+.
+metadata
 try
 :
     
 __version__
 =
-get_distribution
+importlib
+.
+metadata
+.
+version
 (
 __name__
 )
-.
-version
 except
-DistributionNotFound
+importlib
+.
+metadata
+.
+PackageNotFoundError
 :
     
 pass
