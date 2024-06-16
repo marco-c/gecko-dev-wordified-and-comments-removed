@@ -6,9 +6,7 @@ onCreated
 .
 addListener
 (
-(
 tab
-)
 =
 >
 {

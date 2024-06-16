@@ -46,9 +46,7 @@ contentScripts
 register
 (
 {
-"
 matches
-"
 :
 [
 event
@@ -60,9 +58,7 @@ url
 *
 "
 ]
-"
 js
-"
 :
 [
 {
@@ -75,9 +71,7 @@ js
 "
 }
 ]
-"
 runAt
-"
 :
 "
 document_start

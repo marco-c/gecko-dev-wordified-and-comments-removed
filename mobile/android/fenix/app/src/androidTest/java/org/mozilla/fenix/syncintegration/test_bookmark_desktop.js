@@ -11,9 +11,7 @@ var
 phases
 =
 {
-"
 phase1
-"
 :
 "
 profile1
@@ -24,9 +22,7 @@ var
 bookmarksExpected
 =
 {
-"
 mobile
-"
 :
 [
 {
