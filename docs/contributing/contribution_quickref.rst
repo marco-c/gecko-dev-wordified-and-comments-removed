@@ -935,11 +935,9 @@ Firefox
 for
 Android
 <
-fenix
--
-contributor
--
-guide
+Firefox
+for
+Android
 >
 To
 set

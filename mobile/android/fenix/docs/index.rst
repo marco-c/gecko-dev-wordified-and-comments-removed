@@ -172,6 +172,8 @@ Plan
 md
 >
 Fennec
+Legacy
+:
 Migration
 <
 Fennec
