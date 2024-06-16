@@ -55,15 +55,6 @@ stub
 c
 "
 ]
-OS_LIBS
-+
-=
-CONFIG
-[
-"
-DL_LIBS
-"
-]
 if
 CONFIG
 [

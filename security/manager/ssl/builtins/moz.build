@@ -8,15 +8,6 @@ dynamic
 library
 "
 ]
-OS_LIBS
-+
-=
-CONFIG
-[
-"
-DL_LIBS
-"
-]
 RustLibrary
 (
 "

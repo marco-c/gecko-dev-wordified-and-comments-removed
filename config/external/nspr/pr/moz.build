@@ -23,15 +23,6 @@ nspr4
 AllowCompilerWarnings
 (
 )
-OS_LIBS
-+
-=
-CONFIG
-[
-"
-DL_LIBS
-"
-]
 DEFINES
 [
 "
