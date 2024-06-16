@@ -1639,6 +1639,8 @@ EditorDOMPointType
 .
 template
 NextPoint
+<
+>
 (
 )
 ;
