@@ -497,6 +497,13 @@ h
 #
 include
 "
+nsIScrollableFrame
+.
+h
+"
+#
+include
+"
 ChildIterator
 .
 h

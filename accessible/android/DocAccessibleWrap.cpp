@@ -38,6 +38,13 @@ h
 #
 include
 "
+nsIScrollableFrame
+.
+h
+"
+#
+include
+"
 nsLayoutUtils
 .
 h

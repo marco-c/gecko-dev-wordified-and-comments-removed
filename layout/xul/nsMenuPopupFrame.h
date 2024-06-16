@@ -1165,12 +1165,9 @@ bool
 aAttributesOverride
 )
 ;
-mozilla
-:
-:
-ScrollContainerFrame
+nsIScrollableFrame
 *
-GetScrollContainerFrame
+GetScrollFrame
 (
 )
 const

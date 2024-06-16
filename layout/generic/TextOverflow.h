@@ -60,6 +60,9 @@ include
 algorithm
 >
 class
+nsIScrollableFrame
+;
+class
 nsBlockFrame
 ;
 class
@@ -68,9 +71,6 @@ nsLineBox
 namespace
 mozilla
 {
-class
-ScrollContainerFrame
-;
 namespace
 css
 {
@@ -703,9 +703,9 @@ nsIFrame
 *
 mBlock
 ;
-ScrollContainerFrame
+nsIScrollableFrame
 *
-mScrollContainerFrame
+mScrollableFrame
 ;
 nsDisplayList
 mMarkerList

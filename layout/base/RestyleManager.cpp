@@ -133,15 +133,6 @@ include
 "
 mozilla
 /
-ScrollContainerFrame
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ServoBindings
 .
 h
@@ -300,6 +291,13 @@ h
 include
 "
 nsBlockFrame
+.
+h
+"
+#
+include
+"
+nsIScrollableFrame
 .
 h
 "
@@ -6671,7 +6669,7 @@ newOverride
 {
 if
 (
-ScrollContainerFrame
+nsIScrollableFrame
 *
 sf
 =
@@ -6692,7 +6690,7 @@ MarkScrollbarsDirtyForReflow
 else
 if
 (
-ScrollContainerFrame
+nsIScrollableFrame
 *
 sf
 =
@@ -6704,7 +6702,7 @@ PresShell
 )
 -
 >
-GetRootScrollContainerFrame
+GetRootScrollFrameAsScrollable
 (
 )
 )
@@ -6753,7 +6751,7 @@ IsScrollableOverflow
 ;
 if
 (
-ScrollContainerFrame
+nsIScrollableFrame
 *
 sf
 =

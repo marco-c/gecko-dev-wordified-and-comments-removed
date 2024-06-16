@@ -524,6 +524,9 @@ AllCells
 ;
 }
 class
+nsIScrollableFrame
+;
+class
 nsFrameSelection
 final
 {

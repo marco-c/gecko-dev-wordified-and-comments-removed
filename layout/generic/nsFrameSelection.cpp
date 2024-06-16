@@ -91,15 +91,6 @@ include
 "
 mozilla
 /
-ScrollContainerFrame
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ScrollTypes
 .
 h
@@ -230,6 +221,13 @@ h
 include
 "
 nsTableCellFrame
+.
+h
+"
+#
+include
+"
+nsIScrollableFrame
 .
 h
 "
@@ -7747,7 +7745,7 @@ rootFrameToSelect
 mPresShell
 -
 >
-GetRootScrollContainerFrame
+GetRootScrollFrame
 (
 )
 ;
@@ -7814,9 +7812,9 @@ GetParent
 )
 )
 {
-ScrollContainerFrame
+nsIScrollableFrame
 *
-scrollContainerFrame
+scrollableFrame
 =
 do_QueryFrame
 (
@@ -7826,7 +7824,7 @@ frame
 if
 (
 !
-scrollContainerFrame
+scrollableFrame
 )
 {
 continue
@@ -7835,7 +7833,7 @@ continue
 ScrollStyles
 scrollStyles
 =
-scrollContainerFrame
+scrollableFrame
 -
 >
 GetScrollStyles
@@ -7864,7 +7862,7 @@ layers
 ScrollDirections
 directions
 =
-scrollContainerFrame
+scrollableFrame
 -
 >
 GetAvailableScrollingDirections
@@ -7919,9 +7917,9 @@ MOZ_ASSERT
 aFrame
 )
 ;
-ScrollContainerFrame
+nsIScrollableFrame
 *
-scrollContainerFrame
+scrollableFrame
 =
 aFrame
 -
@@ -7934,9 +7932,9 @@ nsIFrame
 *
 scrolledFrame
 =
-scrollContainerFrame
+scrollableFrame
 ?
-scrollContainerFrame
+scrollableFrame
 -
 >
 GetScrolledFrame
@@ -8048,7 +8046,7 @@ NS_OK
 }
 if
 (
-scrollContainerFrame
+scrollableFrame
 )
 {
 if
@@ -8061,7 +8059,7 @@ caretPos
 y
 +
 =
-scrollContainerFrame
+scrollableFrame
 -
 >
 GetPageScrollAmount
@@ -8078,7 +8076,7 @@ caretPos
 y
 -
 =
-scrollContainerFrame
+scrollableFrame
 -
 >
 GetPageScrollAmount
@@ -8303,7 +8301,7 @@ selectionChanged
 ;
 if
 (
-scrollContainerFrame
+scrollableFrame
 )
 {
 ScrollMode
@@ -8331,7 +8329,7 @@ ScrollMode
 :
 Smooth
 ;
-scrollContainerFrame
+scrollableFrame
 -
 >
 ScrollBy

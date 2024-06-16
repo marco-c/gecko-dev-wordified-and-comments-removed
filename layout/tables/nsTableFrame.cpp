@@ -302,6 +302,13 @@ h
 #
 include
 "
+nsIScrollableFrame
+.
+h
+"
+#
+include
+"
 nsCSSProps
 .
 h

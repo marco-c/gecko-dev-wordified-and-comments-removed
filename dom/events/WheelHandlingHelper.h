@@ -47,6 +47,9 @@ class
 nsIFrame
 ;
 class
+nsIScrollableFrame
+;
+class
 nsITimer
 ;
 namespace
@@ -54,9 +57,6 @@ mozilla
 {
 class
 EventStateManager
-;
-class
-ScrollContainerFrame
 ;
 struct
 DeltaValues
@@ -135,9 +135,9 @@ static
 bool
 CanScrollOn
 (
-ScrollContainerFrame
+nsIScrollableFrame
 *
-aScrollContainerFrame
+aScrollFrame
 double
 aDirectionX
 double
@@ -202,7 +202,7 @@ static
 void
 SetActiveScrollTarget
 (
-ScrollContainerFrame
+nsIScrollableFrame
 *
 aScrollTarget
 )
@@ -881,7 +881,7 @@ IsHorizontalContentRightToLeft
 const
 override
 ;
-ScrollContainerFrame
+nsIScrollableFrame
 *
 mScrollTargetFrame
 ;

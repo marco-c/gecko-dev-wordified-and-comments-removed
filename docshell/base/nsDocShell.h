@@ -232,9 +232,6 @@ HTMLEditor
 class
 ObservedDocShell
 ;
-class
-ScrollContainerFrame
-;
 enum
 class
 TaskCategory
@@ -289,6 +286,9 @@ nsIMutableArray
 ;
 class
 nsIPrompt
+;
+class
+nsIScrollableFrame
 ;
 class
 nsIStringBundle
@@ -2757,12 +2757,9 @@ aCheckIfUnloadFired
 true
 )
 ;
-mozilla
-:
-:
-ScrollContainerFrame
+nsIScrollableFrame
 *
-GetRootScrollContainerFrame
+GetRootScrollFrame
 (
 )
 ;

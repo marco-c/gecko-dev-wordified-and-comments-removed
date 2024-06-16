@@ -349,7 +349,7 @@ ScrollFrameToPoint
 (
 nsIFrame
 *
-aScrollContainerFrame
+aScrollableFrame
 nsIFrame
 *
 aFrame

@@ -17273,8 +17273,10 @@ if
 (
 ScrollContainerFrame
 *
-scrollContainerFrame
+scrollFrame
 =
+do_QueryFrame
+(
 aGridItem
 .
 mFrame
@@ -17284,13 +17286,14 @@ GetScrollTargetFrame
 (
 )
 )
+)
 {
 scroller
 =
 true
 ;
 return
-scrollContainerFrame
+scrollFrame
 ;
 }
 if
@@ -41698,7 +41701,7 @@ cbRI
 mCBReflowInput
 )
 {
-ScrollContainerFrame
+nsIScrollableFrame
 *
 sf
 =

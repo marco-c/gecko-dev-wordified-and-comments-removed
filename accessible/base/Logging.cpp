@@ -116,15 +116,6 @@ include
 "
 mozilla
 /
-ScrollContainerFrame
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StackWalk
 .
 h
@@ -1362,7 +1353,7 @@ presShell
 )
 )
 ;
-ScrollContainerFrame
+nsIScrollableFrame
 *
 sf
 =
@@ -1403,7 +1394,7 @@ sf
 presShell
 -
 >
-GetRootScrollContainerFrame
+GetRootScrollFrameAsScrollable
 (
 )
 ;
@@ -1413,7 +1404,6 @@ printf
 "
 root
 scroll
-container
 frame
 :
 %
