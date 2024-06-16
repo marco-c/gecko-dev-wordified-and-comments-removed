@@ -224,18 +224,11 @@ title
 ;
 let
 {
-useTitle
 promptPrincipal
 }
 =
 args
 ;
-if
-(
-!
-useTitle
-)
-{
 if
 (
 promptPrincipal
@@ -434,7 +427,6 @@ authOrigin
 }
 ;
 }
-}
 if
 (
 args
@@ -472,10 +464,6 @@ title
 .
 shouldUseMaskFade
 =
-!
-useTitle
-&
-&
 title
 .
 raw
