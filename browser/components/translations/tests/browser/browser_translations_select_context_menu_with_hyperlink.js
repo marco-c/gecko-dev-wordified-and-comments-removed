@@ -220,7 +220,9 @@ expectMenuItemVisible
 true
 expectedTargetLanguage
 :
-null
+"
+en
+"
 }
 "
 The
@@ -241,8 +243,8 @@ text
 "
 +
 "
-without
-a
+to
+the
 target
 language
 .

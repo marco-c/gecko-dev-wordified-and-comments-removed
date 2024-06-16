@@ -230,7 +230,9 @@ expectMenuItemVisible
 true
 expectedTargetLanguage
 :
-null
+"
+en
+"
 }
 "
 The
@@ -241,7 +243,7 @@ context
 menu
 item
 should
-not
+still
 display
 a
 target
