@@ -17113,6 +17113,10 @@ nullptr
 if
 (
 mIsMapped
+&
+&
+!
+mIsDestroyed
 )
 {
 #
@@ -27639,6 +27643,8 @@ mIsMapped
 %
 d
 "
+!
+!
 mIsDestroyed
 !
 !
