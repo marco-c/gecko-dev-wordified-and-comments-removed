@@ -2761,6 +2761,13 @@ html
 ]
 [
 "
+test_reframe_table_in_ib_split
+.
+html
+"
+]
+[
+"
 test_rem_unit
 .
 html
