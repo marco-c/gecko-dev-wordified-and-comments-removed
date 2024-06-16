@@ -573,6 +573,13 @@ false
 isWallpaperOnboardingEnabled
 =
 false
+isLocationPermissionEnabled
+=
+SitePermissionsRules
+.
+Action
+.
+BLOCKED
 )
 )
 {
