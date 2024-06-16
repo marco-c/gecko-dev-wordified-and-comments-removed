@@ -452,7 +452,7 @@ false
 void
 GetAnnotation
 (
-uint32_t
+ProcessId
 childPid
 Annotation
 annotation
@@ -871,7 +871,7 @@ false
 bool
 TakeMinidumpForChild
 (
-uint32_t
+ProcessId
 childPid
 nsIFile
 *
@@ -889,7 +889,7 @@ false
 bool
 FinalizeOrphanedMinidump
 (
-uint32_t
+ProcessId
 aChildPid
 GeckoProcessType
 aType

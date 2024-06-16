@@ -17069,7 +17069,7 @@ IsOutOfProcess
 void
 GetAnnotation
 (
-uint32_t
+ProcessId
 childPid
 Annotation
 annotation
@@ -17134,7 +17134,7 @@ annotation
 bool
 TakeMinidumpForChild
 (
-uint32_t
+ProcessId
 childPid
 nsIFile
 *
@@ -17221,7 +17221,7 @@ dump
 bool
 FinalizeOrphanedMinidump
 (
-uint32_t
+ProcessId
 aChildPid
 GeckoProcessType
 aType
