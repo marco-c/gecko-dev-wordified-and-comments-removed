@@ -255,7 +255,7 @@ python
 .
 l10n_lint
 :
-gecko_strings_setup
+source_repo_setup
 support
 -
 files
