@@ -1237,6 +1237,10 @@ linux64
 minidump
 -
 stackwalk
+-
+linux64
+-
+hostutils
 mochitest
 -
 a11y
@@ -3749,6 +3753,10 @@ linux64
 minidump
 -
 stackwalk
+-
+linux64
+-
+hostutils
 mochitest
 -
 devtools

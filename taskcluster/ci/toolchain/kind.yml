@@ -202,6 +202,10 @@ grcov
 .
 yml
 -
+hostutils
+.
+yml
+-
 libunwind
 .
 yml

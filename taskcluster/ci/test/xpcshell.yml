@@ -959,6 +959,10 @@ linux64
 minidump
 -
 stackwalk
+-
+linux64
+-
+hostutils
 xpcshell
 -
 failures

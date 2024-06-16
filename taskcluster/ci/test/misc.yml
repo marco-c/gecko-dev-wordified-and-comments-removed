@@ -900,6 +900,10 @@ linux64
 fix
 -
 stacks
+-
+linux64
+-
+hostutils
 test
 -
 verify
@@ -1494,6 +1498,10 @@ linux64
 fix
 -
 stacks
+-
+linux64
+-
+hostutils
 test
 -
 coverage

@@ -499,6 +499,10 @@ stacks
 linux64
 -
 jdk
+-
+linux64
+-
+hostutils
 replace
 :
 target

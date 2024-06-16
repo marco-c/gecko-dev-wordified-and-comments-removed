@@ -3069,6 +3069,10 @@ linux64
 fix
 -
 stacks
+-
+linux64
+-
+hostutils
 linux
 .
 *

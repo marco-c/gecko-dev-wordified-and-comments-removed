@@ -731,6 +731,10 @@ minidump
 -
 stackwalk
 -
+linux64
+-
+hostutils
+-
 android
 -
 sdk
@@ -1012,6 +1016,10 @@ linux64
 minidump
 -
 stackwalk
+-
+linux64
+-
+hostutils
 -
 android
 -
@@ -1311,6 +1319,10 @@ linux64
 minidump
 -
 stackwalk
+-
+linux64
+-
+hostutils
 -
 android
 -
