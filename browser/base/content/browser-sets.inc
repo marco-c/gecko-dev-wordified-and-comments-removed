@@ -464,7 +464,9 @@ cmd_close
 oncommand
 =
 "
-BrowserCloseTabOrWindow
+BrowserCommands
+.
+closeTabOrWindow
 (
 event
 )
@@ -482,7 +484,9 @@ cmd_closeWindow
 oncommand
 =
 "
-BrowserTryToCloseWindow
+BrowserCommands
+.
+tryToCloseWindow
 (
 event
 )

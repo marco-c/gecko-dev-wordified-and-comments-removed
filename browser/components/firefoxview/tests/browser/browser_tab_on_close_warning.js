@@ -196,7 +196,9 @@ warnAboutClosingWindow
 ;
 win
 .
-BrowserTryToCloseWindow
+BrowserCommands
+.
+tryToCloseWindow
 (
 )
 ;

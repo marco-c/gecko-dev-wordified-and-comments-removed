@@ -36,7 +36,9 @@ openTab
 ;
 privateWin
 .
-BrowserTryToCloseWindow
+BrowserCommands
+.
+tryToCloseWindow
 (
 )
 ;

@@ -114,12 +114,6 @@ openLocation
 gLastOpenDirectory
 "
 "
-BrowserCloseTabOrWindow
-"
-"
-BrowserTryToCloseWindow
-"
-"
 getLoadContext
 "
 "

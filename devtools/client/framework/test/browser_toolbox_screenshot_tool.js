@@ -736,7 +736,9 @@ privateWindow
 ;
 privateWindow
 .
-BrowserTryToCloseWindow
+BrowserCommands
+.
+tryToCloseWindow
 (
 )
 ;

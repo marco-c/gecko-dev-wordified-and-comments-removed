@@ -188,7 +188,9 @@ win
 ;
 win
 .
-BrowserTryToCloseWindow
+BrowserCommands
+.
+tryToCloseWindow
 (
 )
 ;

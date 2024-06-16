@@ -474,7 +474,9 @@ this
 .
 _win
 .
-BrowserCloseTabOrWindow
+BrowserCommands
+.
+closeTabOrWindow
 (
 )
 ;

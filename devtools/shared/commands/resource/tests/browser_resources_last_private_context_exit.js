@@ -332,7 +332,9 @@ window
 ;
 secondPrivateWindow
 .
-BrowserTryToCloseWindow
+BrowserCommands
+.
+tryToCloseWindow
 (
 )
 ;
@@ -384,7 +386,9 @@ sent
 ;
 privateWindow
 .
-BrowserTryToCloseWindow
+BrowserCommands
+.
+tryToCloseWindow
 (
 )
 ;
