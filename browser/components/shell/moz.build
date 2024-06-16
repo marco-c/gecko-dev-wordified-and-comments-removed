@@ -35,14 +35,6 @@ xpcshell
 toml
 "
 ]
-TEST_DIRS
-+
-=
-[
-"
-gtest
-"
-]
 JAR_MANIFESTS
 +
 =
