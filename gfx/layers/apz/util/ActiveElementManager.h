@@ -91,14 +91,14 @@ ClearActivation
 (
 )
 ;
-void
+bool
 HandleTouchEndEvent
 (
 bool
 aWasClick
 )
 ;
-void
+bool
 HandleTouchEnd
 (
 bool
@@ -211,7 +211,7 @@ CancelTask
 (
 )
 ;
-void
+bool
 MaybeChangeActiveState
 (
 bool
