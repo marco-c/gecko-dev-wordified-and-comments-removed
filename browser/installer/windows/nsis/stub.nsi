@@ -8249,6 +8249,10 @@ open
 {
 URLManualDownload
 }
+&
+installer_arch
+=
+ArchToInstall
 {
 URLManualDownloadAppend
 }
