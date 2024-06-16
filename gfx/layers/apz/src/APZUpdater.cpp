@@ -785,6 +785,10 @@ mWindowId
 }
 }
 )
+DuringShutdown
+:
+:
+Yes
 )
 ;
 }
@@ -1840,6 +1844,8 @@ already_AddRefed
 Runnable
 >
 aTask
+DuringShutdown
+aDuringShutdown
 )
 {
 RefPtr
@@ -1885,7 +1891,13 @@ IsConnectedToWebRender
 bool
 sendWakeMessage
 =
-true
+aDuringShutdown
+=
+=
+DuringShutdown
+:
+:
+No
 ;
 {
 MutexAutoLock
@@ -1894,6 +1906,11 @@ lock
 mQueueLock
 )
 ;
+if
+(
+sendWakeMessage
+)
+{
 for
 (
 const
@@ -1920,6 +1937,7 @@ false
 ;
 break
 ;
+}
 }
 }
 mUpdaterQueue
