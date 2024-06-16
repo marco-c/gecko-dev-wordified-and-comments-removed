@@ -1205,6 +1205,12 @@ UserActivation
 (
 )
 ;
+MediaKeySystemAccessManager
+*
+GetOrCreateMediaKeySystemAccessManager
+(
+)
+;
 private
 :
 void
