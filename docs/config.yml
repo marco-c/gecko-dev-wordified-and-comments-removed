@@ -255,6 +255,10 @@ testing
 /
 xpcshell
 -
+testing
+/
+tps
+-
 web
 -
 platform
