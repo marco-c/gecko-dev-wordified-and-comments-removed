@@ -5024,6 +5024,14 @@ typedValue
 result
 :
 selectedResult
+|
+|
+this
+.
+_resultForCurrentValue
+|
+|
+null
 }
 )
 ;

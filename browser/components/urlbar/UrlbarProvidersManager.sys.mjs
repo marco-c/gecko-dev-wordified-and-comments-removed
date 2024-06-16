@@ -2988,6 +2988,13 @@ engagement
 "
 )
 {
+if
+(
+details
+.
+result
+)
+{
 this
 .
 #
@@ -3003,6 +3010,7 @@ controller
 details
 )
 ;
+}
 }
 else
 {
