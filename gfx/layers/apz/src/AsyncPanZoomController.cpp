@@ -16670,6 +16670,15 @@ aOverscrollSideBits
 )
 ;
 }
+aOverscrollHandoffChain
+-
+>
+SnapBackOverscrolledApzcForMomentum
+(
+this
+residualVelocity
+)
+;
 }
 }
 }
