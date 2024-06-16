@@ -657,6 +657,16 @@ ShouldDrawScrollbarButtons
 (
 )
 {
+if
+(
+StaticPrefs
+:
+:
+widget_non_native_theme_enabled
+(
+)
+)
+{
 return
 StaticPrefs
 :
@@ -664,6 +674,10 @@ StaticPrefs
 widget_non_native_theme_gtk_scrollbar_allow_buttons
 (
 )
+;
+}
+return
+true
 ;
 }
 void

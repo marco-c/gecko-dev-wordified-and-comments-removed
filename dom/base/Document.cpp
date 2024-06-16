@@ -89674,6 +89674,15 @@ ShouldAvoidNativeTheme
 const
 {
 return
+StaticPrefs
+:
+:
+widget_non_native_theme_enabled
+(
+)
+&
+&
+(
 !
 IsInChromeDocShell
 (
@@ -89682,6 +89691,7 @@ IsInChromeDocShell
 |
 XRE_IsContentProcess
 (
+)
 )
 ;
 }
