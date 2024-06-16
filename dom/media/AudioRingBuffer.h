@@ -189,7 +189,7 @@ Clear
 )
 ;
 bool
-SetLengthBytes
+EnsureLengthBytes
 (
 uint32_t
 aLengthBytes
