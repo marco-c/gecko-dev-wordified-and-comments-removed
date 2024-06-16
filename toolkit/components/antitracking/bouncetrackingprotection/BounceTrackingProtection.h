@@ -66,6 +66,9 @@ namespace
 mozilla
 {
 class
+BounceTrackingAllowList
+;
+class
 BounceTrackingState
 ;
 class
@@ -73,9 +76,6 @@ BounceTrackingStateGlobal
 ;
 class
 BounceTrackingProtectionStorage
-;
-class
-ContentBlockingAllowListCache
 ;
 class
 OriginAttributes
@@ -228,9 +228,9 @@ PurgeBounceTrackersForStateGlobal
 BounceTrackingStateGlobal
 *
 aStateGlobal
-ContentBlockingAllowListCache
+BounceTrackingAllowList
 &
-aContentBlockingAllowList
+aBounceTrackingAllowList
 nsTArray
 <
 RefPtr
