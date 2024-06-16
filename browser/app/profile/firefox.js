@@ -20988,3 +20988,15 @@ enabled
 false
 )
 ;
+pref
+(
+"
+toolkit
+.
+contentRelevancy
+.
+ingestEnabled
+"
+false
+)
+;

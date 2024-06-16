@@ -54,11 +54,6 @@ are
 lazily
 opened
 .
-[
-Throws
-=
-RelevancyApiError
-]
 constructor
 (
 string
@@ -132,7 +127,7 @@ Throws
 =
 RelevancyApiError
 ]
-void
+InterestVector
 ingest
 (
 sequence

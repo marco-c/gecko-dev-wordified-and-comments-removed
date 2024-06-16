@@ -86,10 +86,7 @@ Path
 )
 -
 >
-Result
-<
 Self
->
 {
 let
 db_open_flags
@@ -114,8 +111,6 @@ OpenFlags
 :
 SQLITE_OPEN_READ_WRITE
 ;
-Ok
-(
 Self
 {
 reader
@@ -149,7 +144,6 @@ db_open_flags
 RelevancyConnectionInitializer
 )
 }
-)
 }
 pub
 fn
@@ -288,10 +282,6 @@ cache
 shared
 "
 )
-)
-.
-unwrap
-(
 )
 }
 pub
@@ -703,8 +693,6 @@ Result
 Interest
 >
 {
-Ok
-(
 row
 .
 get
@@ -719,9 +707,8 @@ u32
 )
 ?
 .
-into
+try_into
 (
-)
 )
 }
 )

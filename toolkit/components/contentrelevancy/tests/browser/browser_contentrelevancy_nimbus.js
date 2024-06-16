@@ -196,6 +196,9 @@ maxInputUrls
 timerInterval
 :
 0
+ingestEnabled
+:
+false
 }
 }
 )
@@ -313,6 +316,9 @@ maxInputUrls
 timerInterval
 :
 0
+ingestEnabled
+:
+false
 }
 }
 )

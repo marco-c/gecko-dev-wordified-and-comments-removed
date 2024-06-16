@@ -189,7 +189,7 @@ RustCallStatus
 *
 )
 ;
-void
+RustBuffer
 uniffi_relevancy_fn_method_relevancystore_ingest
 (
 void
@@ -1043,7 +1043,7 @@ ScaffoldingCallHandler
 <
 ScaffoldingConverter
 <
-void
+RustBuffer
 >
 ScaffoldingObjectConverter
 <
@@ -3223,7 +3223,7 @@ ScaffoldingCallHandler
 <
 ScaffoldingConverter
 <
-void
+RustBuffer
 >
 ScaffoldingObjectConverter
 <

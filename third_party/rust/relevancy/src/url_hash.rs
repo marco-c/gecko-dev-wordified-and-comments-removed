@@ -42,6 +42,13 @@ Option
 String
 >
 {
+const
+URL_COMPONENTS_TO_USE
+:
+usize
+=
+2
+;
 let
 url
 =
@@ -104,7 +111,7 @@ in
 0
 .
 .
-3
+URL_COMPONENTS_TO_USE
 {
 match
 domain
@@ -294,8 +301,6 @@ path
 Some
 (
 "
-foo
-.
 example
 .
 com
@@ -325,8 +330,6 @@ path
 Some
 (
 "
-baz
-.
 example
 .
 com
@@ -352,8 +355,6 @@ path
 Some
 (
 "
-foo
-.
 com
 .
 uk
