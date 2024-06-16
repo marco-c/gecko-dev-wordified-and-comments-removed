@@ -136,6 +136,15 @@ default
 ;
 }
 ;
+enum
+FrameDefect
+{
+None
+EmptyData
+CorruptedData
+CorruptedMetadata
+}
+;
 explicit
 TestScreenCastStreamProvider
 (
@@ -163,6 +172,10 @@ RecordFrame
 (
 RgbaColor
 rgba_color
+FrameDefect
+frame_defect
+=
+None
 )
 ;
 void
