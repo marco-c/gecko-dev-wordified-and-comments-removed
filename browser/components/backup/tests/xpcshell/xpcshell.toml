@@ -51,13 +51,6 @@ js
 ]
 [
 "
-test_ArchiveEncryptionState
-.
-js
-"
-]
-[
-"
 test_BackupResource
 .
 js
