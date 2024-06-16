@@ -367,6 +367,23 @@ sys
 .
 mjs
 "
+BrowserUtils
+:
+"
+resource
+:
+/
+/
+gre
+/
+modules
+/
+BrowserUtils
+.
+sys
+.
+mjs
+"
 BrowserUsageTelemetry
 :
 "
@@ -7781,6 +7798,7 @@ text
 link
 "
 :
+{
 let
 linkHandled
 =
@@ -7829,7 +7847,9 @@ data
 let
 where
 =
-win
+lazy
+.
+BrowserUtils
 .
 whereToOpenLink
 (
@@ -7894,6 +7914,7 @@ true
 }
 break
 ;
+}
 case
 "
 profile
@@ -7955,6 +7976,7 @@ keyword
 search
 "
 :
+{
 /
 /
 This
@@ -8058,6 +8080,7 @@ urlbar
 ;
 break
 ;
+}
 case
 "
 xpi
@@ -8067,6 +8090,7 @@ signature
 changed
 "
 :
+{
 let
 disabledAddons
 =
@@ -8114,6 +8138,7 @@ _notifyUnsignedAddonsDisabled
 }
 break
 ;
+}
 case
 "
 sync
@@ -8269,6 +8294,7 @@ app
 startup
 "
 :
+{
 this
 .
 _earlyBlankFirstPaint
@@ -8476,6 +8502,7 @@ removeLaunchOnLoginRegistryKey
 }
 break
 ;
+}
 }
 }
 /
