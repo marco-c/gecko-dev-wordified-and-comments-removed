@@ -1661,12 +1661,10 @@ MaxTouchPoints
 ;
 if
 (
+!
 aTesting
 )
 {
-return
-;
-}
 PopulateMissingFonts
 (
 )
@@ -1877,6 +1875,7 @@ Set
 locale
 )
 ;
+}
 RefPtr
 <
 mozilla
@@ -1942,6 +1941,12 @@ Resolved
 )
 )
 ;
+if
+(
+!
+aTesting
+)
+{
 nsUserCharacteristics
 :
 :
@@ -1949,6 +1954,7 @@ SubmitPing
 (
 )
 ;
+}
 if
 (
 aUpdatePref

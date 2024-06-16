@@ -137,3 +137,10 @@ browser_serviceWorker_fingerprinting_webcompat
 js
 "
 ]
+[
+"
+browser_usercharacteristics
+.
+js
+"
+]

@@ -1015,12 +1015,6 @@ metrics
 "
 )
 ;
-/
-/
-e
-.
-g
-.
 Glean
 .
 characteristics
@@ -1035,6 +1029,7 @@ output
 .
 foo
 )
+;
 lazy
 .
 console
