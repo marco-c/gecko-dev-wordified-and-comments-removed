@@ -195,7 +195,13 @@ nsIEventTarget
 >
 target_
 ;
+std
+:
+:
+atomic
+<
 size_t
+>
 received_
 ;
 PRFileDesc
@@ -206,7 +212,13 @@ PRFileDesc
 *
 writepipe_
 ;
+std
+:
+:
+atomic
+<
 bool
+>
 registered_
 ;
 }
