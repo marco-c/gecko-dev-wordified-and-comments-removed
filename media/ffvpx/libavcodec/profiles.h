@@ -7,7 +7,14 @@ AVCODEC_PROFILES_H
 #
 include
 "
-avcodec
+codec
+.
+h
+"
+#
+include
+"
+defs
 .
 h
 "
@@ -52,6 +59,9 @@ type
 #
 #
 _PARAM
+.
+unit
+=
 "
 avctx
 .

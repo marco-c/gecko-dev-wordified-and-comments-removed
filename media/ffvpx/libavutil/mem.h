@@ -96,17 +96,6 @@ av_alloc_size
 (
 1
 )
-__attribute__
-(
-(
-visibility
-(
-"
-default
-"
-)
-)
-)
 ;
 void
 *

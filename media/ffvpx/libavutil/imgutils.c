@@ -29,13 +29,6 @@ h
 #
 include
 "
-internal
-.
-h
-"
-#
-include
-"
 intreadwrite
 .
 h
@@ -51,6 +44,13 @@ h
 include
 "
 mathematics
+.
+h
+"
+#
+include
+"
+mem
 .
 h
 "

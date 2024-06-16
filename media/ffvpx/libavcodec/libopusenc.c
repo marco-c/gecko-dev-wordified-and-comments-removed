@@ -26,6 +26,15 @@ include
 "
 libavutil
 /
+mem
+.
+h
+"
+#
+include
+"
+libavutil
+/
 opt
 .
 h
@@ -3086,6 +3095,9 @@ OPUS_APPLICATION_AUDIO
 OPUS_APPLICATION_VOIP
 OPUS_APPLICATION_RESTRICTED_LOWDELAY
 FLAGS
+.
+unit
+=
 "
 application
 "
@@ -3111,6 +3123,9 @@ OPUS_APPLICATION_VOIP
 0
 0
 FLAGS
+.
+unit
+=
 "
 application
 "
@@ -3137,6 +3152,9 @@ OPUS_APPLICATION_AUDIO
 0
 0
 FLAGS
+.
+unit
+=
 "
 application
 "
@@ -3153,6 +3171,11 @@ the
 lowest
 delay
 modes
+disable
+voice
+-
+optimized
+modes
 "
 0
 AV_OPT_TYPE_CONST
@@ -3165,6 +3188,9 @@ OPUS_APPLICATION_RESTRICTED_LOWDELAY
 0
 0
 FLAGS
+.
+unit
+=
 "
 application
 "
@@ -3284,6 +3310,9 @@ i64
 0
 2
 FLAGS
+.
+unit
+=
 "
 vbr
 "
@@ -3309,6 +3338,9 @@ i64
 0
 0
 FLAGS
+.
+unit
+=
 "
 vbr
 "
@@ -3334,6 +3366,9 @@ i64
 0
 0
 FLAGS
+.
+unit
+=
 "
 vbr
 "
@@ -3358,6 +3393,9 @@ i64
 0
 0
 FLAGS
+.
+unit
+=
 "
 vbr
 "
@@ -3387,6 +3425,9 @@ i64
 1
 255
 FLAGS
+.
+unit
+=
 "
 mapping_family
 "
