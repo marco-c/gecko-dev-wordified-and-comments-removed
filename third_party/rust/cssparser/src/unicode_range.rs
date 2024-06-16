@@ -68,8 +68,6 @@ parse
 <
 '
 i
-'
-t
 >
 (
 input
@@ -81,7 +79,7 @@ Parser
 '
 i
 '
-t
+_
 >
 )
 -
@@ -237,8 +235,6 @@ parse_tokens
 <
 '
 i
-'
-t
 >
 (
 input
@@ -250,7 +246,7 @@ Parser
 '
 i
 '
-t
+_
 >
 )
 -
@@ -720,7 +716,6 @@ first_hex_value
 ;
 }
 else
-{
 if
 let
 Some
@@ -787,7 +782,6 @@ second_hex_value
 }
 )
 ;
-}
 }
 }
 Err

@@ -79,7 +79,6 @@ docs
 rs
 /
 cssparser
-/
 )
 Rust
 implementation
@@ -510,13 +509,11 @@ com
 /
 servo
 /
-servo
+stylo
 /
 tree
 /
-master
-/
-components
+main
 /
 style
 )
