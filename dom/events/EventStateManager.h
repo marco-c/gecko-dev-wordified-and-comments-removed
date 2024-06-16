@@ -2738,9 +2738,6 @@ mGestureModifiers
 uint16_t
 mGestureDownButtons
 ;
-int16_t
-mGestureDownButton
-;
 LastMouseDownInfo
 mLastLeftMouseDownInfo
 ;
