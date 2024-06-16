@@ -1,0 +1,17 @@
+[
+DEFAULT
+]
+firefox
+-
+appdir
+=
+"
+browser
+"
+[
+"
+test_selectable_profile_service_exists
+.
+js
+"
+]
