@@ -2103,6 +2103,17 @@ nsIContent
 aContent
 )
 {
+if
+(
+!
+sPointerCaptureList
+-
+>
+IsEmpty
+(
+)
+)
+{
 for
 (
 const
@@ -2156,6 +2167,7 @@ GetKey
 )
 )
 ;
+}
 }
 }
 }
