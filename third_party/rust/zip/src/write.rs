@@ -69,6 +69,17 @@ crc32fast
 :
 Hasher
 ;
+#
+[
+cfg
+(
+feature
+=
+"
+time
+"
+)
+]
 use
 std
 :
