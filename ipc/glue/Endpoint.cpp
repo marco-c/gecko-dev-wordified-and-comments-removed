@@ -576,6 +576,8 @@ reset
 (
 )
 ;
+MOZ_ALWAYS_TRUE
+(
 aActor
 -
 >
@@ -583,6 +585,7 @@ SetManagerAndRegister
 (
 aManager
 id
+)
 )
 ;
 aManager

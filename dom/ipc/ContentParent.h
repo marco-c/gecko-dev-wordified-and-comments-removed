@@ -1646,13 +1646,6 @@ aAnonymize
 false
 )
 ;
-virtual
-void
-OnChannelError
-(
-)
-override
-;
 mozilla
 :
 :
