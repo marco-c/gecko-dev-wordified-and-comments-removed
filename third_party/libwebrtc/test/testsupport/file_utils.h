@@ -81,6 +81,14 @@ std
 :
 :
 string
+OutputPathWithRandomDirectory
+(
+)
+;
+std
+:
+:
+string
 TempFilename
 (
 absl
