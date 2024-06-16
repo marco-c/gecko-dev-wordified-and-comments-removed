@@ -2601,7 +2601,7 @@ ntype
 <
 a
 .
-type
+type_name
 (
 )
 <
@@ -2614,7 +2614,7 @@ type
 <
 b
 .
-type
+type_name
 (
 )
 ;

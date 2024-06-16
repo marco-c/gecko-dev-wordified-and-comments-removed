@@ -676,7 +676,9 @@ address
 "
 <
 <
-type_
+type_name
+(
+)
 <
 <
 "
