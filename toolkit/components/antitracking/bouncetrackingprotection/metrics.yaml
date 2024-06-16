@@ -300,7 +300,7 @@ determining
 error
 rate
 with
-failed
+failure
 /
 success
 label
@@ -391,7 +391,7 @@ labels
 -
 success
 -
-failed
+failure
 -
 dry
 enabled_at_startup
