@@ -1157,7 +1157,7 @@ iconAccentViolet
 =
 PhotonColors
 .
-Violet60
+Violet70
 iconAccentBlue
 =
 PhotonColors
