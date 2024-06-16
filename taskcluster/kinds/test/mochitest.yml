@@ -1065,7 +1065,10 @@ linux
 *
 64
 -
-tsan
+[
+at
+]
+san
 -
 qr
 /
