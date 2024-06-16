@@ -13961,8 +13961,10 @@ printf
 Channels
 Allowed
 :
+'
 %
 s
+'
 \
 n
 "
