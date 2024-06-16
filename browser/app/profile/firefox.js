@@ -21140,6 +21140,17 @@ homepage_override_nimbus_maxVersion
 pref
 (
 "
+startup
+.
+homepage_override_nimbus_minVersion
+"
+"
+"
+)
+;
+pref
+(
+"
 toolkit
 .
 contentRelevancy
