@@ -39833,6 +39833,15 @@ IsDestroying
 &
 &
 aIsHandlingNativeEvent
+&
+&
+aEvent
+-
+>
+mClass
+!
+=
+eQueryContentEventClass
 )
 {
 manager
