@@ -433,6 +433,12 @@ _
 SUBCLASSING_REGEXP_TYPE_III
 SubclassingRegExpTypeIII
 )
+\
+_
+(
+SUBCLASSING_REGEXP_TYPE_IV
+SubclassingRegExpTypeIV
+)
 #
 define
 ENUM_DEF
