@@ -2341,7 +2341,7 @@ port
 port
 )
         
-sandbox_whitelist_paths
+sandbox_allowlist_paths
 =
 options
 .
@@ -2378,7 +2378,7 @@ Microsoft
 )
 :
             
-sandbox_whitelist_paths
+sandbox_allowlist_paths
 =
 map
 (
@@ -2396,7 +2396,7 @@ p
 "
 "
 )
-sandbox_whitelist_paths
+sandbox_allowlist_paths
             
 )
         
@@ -2554,10 +2554,10 @@ locations
 locations
             
 "
-whitelistpaths
+allowlistpaths
 "
 :
-sandbox_whitelist_paths
+sandbox_allowlist_paths
         
 }
         

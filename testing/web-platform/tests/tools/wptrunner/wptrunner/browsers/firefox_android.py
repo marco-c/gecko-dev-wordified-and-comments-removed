@@ -1029,6 +1029,10 @@ binary
 package_name
 certutil_binary
 ca_certificate_path
+                 
+allow_list_paths
+=
+None
 )
 :
         
@@ -1052,6 +1056,8 @@ None
 package_name
 certutil_binary
 ca_certificate_path
+                         
+allow_list_paths
 )
     
 def
