@@ -147,6 +147,13 @@ nsTArray
 .
 h
 "
+#
+include
+"
+EncoderConfig
+.
+h
+"
 namespace
 mozilla
 {
@@ -2985,6 +2992,13 @@ bool
 mShouldCopyCryptoToRemoteRawData
 =
 false
+;
+UniquePtr
+<
+const
+EncoderConfig
+>
+mConfig
 ;
 CryptoSample
 &
