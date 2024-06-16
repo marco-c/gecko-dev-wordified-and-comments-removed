@@ -2977,12 +2977,6 @@ mon
 __func__
 )
 ;
-MonitorAutoLock
-lock
-(
-mon
-)
-;
 bool
 canContinueToStartNextDriver
 =
@@ -3009,6 +3003,12 @@ KeepProcessing
 :
 :
 Yes
+)
+;
+MonitorAutoLock
+lock
+(
+mon
 )
 ;
 graph
