@@ -37,6 +37,7 @@ NS_DECL_CYCLE_COLLECTION_WRAPPERCACHE_CLASS
 (
 ConsoleInstance
 )
+MOZ_CAN_RUN_SCRIPT
 explicit
 ConsoleInstance
 (
