@@ -696,7 +696,9 @@ interaction
 "
 )
 ;
-BrowserReloadWithFlags
+BrowserCommands
+.
+reloadWithFlags
 (
 testCase
 .

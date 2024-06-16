@@ -109,7 +109,9 @@ api
 "
 )
 ;
-BrowserReload
+BrowserCommands
+.
+reload
 (
 )
 ;

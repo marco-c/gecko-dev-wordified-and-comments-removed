@@ -633,7 +633,9 @@ process
 "
 )
 ;
-BrowserReload
+BrowserCommands
+.
+reload
 (
 )
 ;

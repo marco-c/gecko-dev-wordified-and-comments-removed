@@ -135,7 +135,9 @@ Reload
 "
 )
 ;
-BrowserReload
+BrowserCommands
+.
+reload
 (
 )
 ;

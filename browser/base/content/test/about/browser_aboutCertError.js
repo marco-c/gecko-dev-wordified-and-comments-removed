@@ -3518,7 +3518,9 @@ waitForErrorPage
 browser
 )
 ;
-BrowserReloadSkipCache
+BrowserCommands
+.
+reloadSkipCache
 (
 )
 ;

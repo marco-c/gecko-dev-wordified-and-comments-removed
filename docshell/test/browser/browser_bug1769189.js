@@ -122,7 +122,9 @@ pageshow
 "
 )
 ;
-BrowserReload
+BrowserCommands
+.
+reload
 (
 )
 ;

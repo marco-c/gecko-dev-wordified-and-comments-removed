@@ -696,7 +696,9 @@ newtab
 "
 )
 ;
-BrowserReload
+BrowserCommands
+.
+reload
 (
 )
 ;

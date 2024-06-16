@@ -2432,7 +2432,9 @@ popuphidden
 "
 )
 ;
-BrowserReloadSkipCache
+BrowserCommands
+.
+reloadSkipCache
 (
 )
 ;

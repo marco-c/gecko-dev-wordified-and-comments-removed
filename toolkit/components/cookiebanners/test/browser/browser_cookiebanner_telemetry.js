@@ -296,7 +296,9 @@ url
 ;
 window
 .
-BrowserReload
+BrowserCommands
+.
+reload
 (
 )
 ;

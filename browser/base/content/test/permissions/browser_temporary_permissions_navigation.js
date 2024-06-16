@@ -172,7 +172,9 @@ false
 origin
 )
 ;
-BrowserReload
+BrowserCommands
+.
+reload
 (
 )
 ;
