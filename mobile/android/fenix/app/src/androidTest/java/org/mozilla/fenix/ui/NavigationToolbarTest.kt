@@ -340,7 +340,10 @@ url
 {
 }
 .
-openTabDrawer
+openComposeTabDrawer
+(
+composeTestRule
+)
 {
 }
 .
@@ -503,7 +506,10 @@ url
 {
 }
 .
-openTabDrawer
+openComposeTabDrawer
+(
+composeTestRule
+)
 {
 }
 .
