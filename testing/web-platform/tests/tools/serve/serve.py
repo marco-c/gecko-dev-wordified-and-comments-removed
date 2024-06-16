@@ -6483,7 +6483,30 @@ latency
     
 except
 Exception
+as
+error
 :
+        
+logger
+.
+critical
+(
+f
+"
+start_http_server
+:
+Caught
+exception
+from
+wptserve
+.
+WebTestHttpd
+:
+{
+error
+}
+"
+)
         
 startup_failed
 (
@@ -6597,7 +6620,30 @@ latency
     
 except
 Exception
+as
+error
 :
+        
+logger
+.
+critical
+(
+f
+"
+start_https_server
+:
+Caught
+exception
+from
+wptserve
+.
+WebTestHttpd
+:
+{
+error
+}
+"
+)
         
 startup_failed
 (
@@ -6730,7 +6776,30 @@ True
     
 except
 Exception
+as
+error
 :
+        
+logger
+.
+critical
+(
+f
+"
+start_http2_server
+:
+Caught
+exception
+from
+wptserve
+.
+WebTestHttpd
+:
+{
+error
+}
+"
+)
         
 startup_failed
 (
@@ -7175,7 +7244,28 @@ None
     
 except
 Exception
+as
+error
 :
+        
+logger
+.
+critical
+(
+f
+"
+start_ws_server
+:
+Caught
+exception
+from
+WebSocketDomain
+:
+{
+error
+}
+"
+)
         
 startup_failed
 (
@@ -7230,7 +7320,28 @@ ssl_config
     
 except
 Exception
+as
+error
 :
+        
+logger
+.
+critical
+(
+f
+"
+start_wss_server
+:
+Caught
+exception
+from
+WebSocketDomain
+:
+{
+error
+}
+"
+)
         
 startup_failed
 (
