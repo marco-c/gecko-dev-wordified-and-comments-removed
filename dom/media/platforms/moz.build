@@ -108,6 +108,13 @@ MediaDataDecoderProxy
 .
 h
 "
+"
+wrappers
+/
+MediaDataEncoderProxy
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +
@@ -208,6 +215,13 @@ cpp
 wrappers
 /
 MediaDataDecoderProxy
+.
+cpp
+"
+"
+wrappers
+/
+MediaDataEncoderProxy
 .
 cpp
 "
