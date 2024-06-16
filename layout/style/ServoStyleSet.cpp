@@ -7081,14 +7081,14 @@ const
 Element
 *
 aFromSibling
+bool
+aForceRestyleSiblings
 )
 {
 if
 (
+!
 aFromSibling
-=
-=
-nullptr
 )
 {
 return
@@ -7102,6 +7102,7 @@ get
 (
 )
 aFromSibling
+aForceRestyleSiblings
 )
 ;
 }

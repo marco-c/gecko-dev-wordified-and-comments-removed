@@ -899,6 +899,13 @@ undisplayed_style_cache_generation
 :
 u64
 }
+#
+[
+derive
+(
+Deref
+)
+]
 pub
 struct
 PerDocumentStyleData

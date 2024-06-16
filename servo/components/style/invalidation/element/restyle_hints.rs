@@ -399,6 +399,10 @@ RESTYLE_SMIL
 impl
 RestyleHint
 {
+#
+[
+inline
+]
 pub
 fn
 restyle_subtree
@@ -418,6 +422,10 @@ RestyleHint
 :
 RESTYLE_DESCENDANTS
 }
+#
+[
+inline
+]
 pub
 fn
 recascade_subtree
@@ -437,6 +445,10 @@ RestyleHint
 :
 RECASCADE_DESCENDANTS
 }
+#
+[
+inline
+]
 pub
 fn
 contains_subtree
@@ -460,6 +472,10 @@ restyle_subtree
 )
 )
 }
+#
+[
+inline
+]
 pub
 fn
 will_recascade_subtree

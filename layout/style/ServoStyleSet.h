@@ -1462,6 +1462,8 @@ dom
 :
 Element
 *
+bool
+aForceRestyleSiblings
 )
 ;
 void
