@@ -2923,10 +2923,10 @@ CSPDirective
 aDirective
 nsAString
 &
-outDirective
+aDirectiveName
 nsAString
 &
-outDirectiveString
+aDirectiveNameAndValue
 bool
 *
 aReportSample
