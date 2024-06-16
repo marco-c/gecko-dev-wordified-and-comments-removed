@@ -308,6 +308,22 @@ major
 =
 11
     
+if
+build_number
+=
+=
+22621
+or
+build_number
+=
+=
+19045
+:
+        
+build_number
+=
+2009
+    
 os_version
 =
 "
@@ -320,7 +336,7 @@ d
 %
 (
 major
-minor
+build_number
 )
 elif
 system
@@ -632,6 +648,14 @@ versionNums
 [
 1
 ]
+.
+ljust
+(
+2
+"
+0
+"
+)
 )
     
 info
@@ -1787,7 +1811,7 @@ MozconfigFindException
 pass
     
 for
-d
+dir
 in
 dirs
 :
@@ -1800,7 +1824,7 @@ path
 .
 abspath
 (
-d
+dir
 )
         
 json_path
