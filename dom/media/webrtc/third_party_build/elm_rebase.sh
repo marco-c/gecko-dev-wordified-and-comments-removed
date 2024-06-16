@@ -2320,6 +2320,12 @@ changes
 .
 /
 mach
+clobber
+&
+&
+.
+/
+mach
 build
 &
 &
