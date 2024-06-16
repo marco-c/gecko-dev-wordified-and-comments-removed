@@ -981,7 +981,7 @@ mPushSource
 >
 SetPriorityDependency
 (
-mRFC7540Priority
+mPriority
 mPriorityDependency
 )
 ;
