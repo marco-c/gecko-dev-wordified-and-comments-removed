@@ -365,13 +365,6 @@ js
 ]
 [
 "
-browser_test_prevent_events
-.
-js
-"
-]
-[
-"
 browser_test_resize
 .
 js
