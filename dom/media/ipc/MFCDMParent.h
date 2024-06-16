@@ -415,6 +415,7 @@ CapabilitesFlag
 {
 HarewareDecryption
 NeedHDCPCheck
+NeedClearLeadCheck
 }
 ;
 using
