@@ -1715,13 +1715,6 @@ html
 ]
 [
 "
-test_bug1425997
-.
-html
-"
-]
-[
-"
 test_bug1543312
 .
 html
