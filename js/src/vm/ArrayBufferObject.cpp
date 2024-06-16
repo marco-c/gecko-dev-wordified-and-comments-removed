@@ -1535,9 +1535,6 @@ ArrayBufferSlice
 2
 0
 )
-#
-ifdef
-NIGHTLY_BUILD
 JS_FN
 (
 "
@@ -1550,8 +1547,6 @@ resize
 1
 0
 )
-#
-endif
 JS_FN
 (
 "
@@ -1598,9 +1593,6 @@ ArrayBufferObject
 byteLengthGetter
 0
 )
-#
-ifdef
-NIGHTLY_BUILD
 JS_PSG
 (
 "
@@ -1623,8 +1615,6 @@ ArrayBufferObject
 resizableGetter
 0
 )
-#
-endif
 JS_PSG
 (
 "
@@ -1854,9 +1844,6 @@ ArrayBufferObject
 )
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 static
 bool
 IsResizableArrayBuffer
@@ -1887,8 +1874,6 @@ ResizableArrayBufferObject
 )
 ;
 }
-#
-endif
 MOZ_ALWAYS_INLINE
 bool
 ArrayBufferObject
@@ -2287,9 +2272,6 @@ arrayBuffer
 )
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 bool
 ArrayBufferObject
 :
@@ -2521,8 +2503,6 @@ args
 )
 ;
 }
-#
-endif
 bool
 ArrayBufferObject
 :
@@ -2903,9 +2883,6 @@ args
 )
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 bool
 ArrayBufferObject
 :
@@ -3114,8 +3091,6 @@ args
 )
 ;
 }
-#
-endif
 bool
 ArrayBufferObject
 :
@@ -3256,9 +3231,6 @@ uint64_t
 >
 maxByteLength
 ;
-#
-ifdef
-NIGHTLY_BUILD
 if
 (
 JS
@@ -3400,8 +3372,6 @@ maxByteLengthInt
 }
 }
 }
-#
-endif
 RootedObject
 proto
 (
