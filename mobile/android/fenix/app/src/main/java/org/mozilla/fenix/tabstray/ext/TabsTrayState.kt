@@ -475,7 +475,7 @@ onMakeSelectedTabsInactive
 }
 else
 {
-generateSingleSelectBannerMenuItems
+generateTabPageBannerMenuItems
 (
 resources
 =
@@ -660,7 +660,7 @@ LongParameterList
 )
 private
 fun
-generateSingleSelectBannerMenuItems
+generateTabPageBannerMenuItems
 (
 resources
 :

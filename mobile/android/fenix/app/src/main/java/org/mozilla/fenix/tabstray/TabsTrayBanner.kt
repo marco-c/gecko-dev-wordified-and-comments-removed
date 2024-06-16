@@ -1224,7 +1224,7 @@ onShareSelectedTabsClick
 }
 else
 {
-SingleSelectBanner
+TabPageBanner
 (
 menuItems
 =
@@ -1329,7 +1329,7 @@ LongMethod
 Composable
 private
 fun
-SingleSelectBanner
+TabPageBanner
 (
 menuItems
 :
