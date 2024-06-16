@@ -1382,6 +1382,11 @@ AudioConfig
 aConfig
 )
 ;
+void
+UpdateParametersCodecs
+(
+)
+;
 Canonical
 <
 Ssrcs

@@ -125,7 +125,7 @@ RTCRtpCapabilities
 required
 sequence
 <
-RTCRtpCodecCapability
+RTCRtpCodec
 >
 codecs
 ;
@@ -138,13 +138,9 @@ headerExtensions
 ;
 }
 ;
-dictionary
-RTCRtpCodecCapability
-:
-RTCRtpCodec
-{
-}
-;
+[
+GenerateEqualityOperator
+]
 dictionary
 RTCRtpCodec
 {

@@ -161,6 +161,11 @@ DOMString
 kind
 )
 ;
+RTCRtpReceiveParameters
+getParameters
+(
+)
+;
 sequence
 <
 RTCRtpContributingSource
