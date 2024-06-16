@@ -43,12 +43,12 @@ bool
 >
 &
 opt_indices
-float
+double
 tolerance
 =
 0
 .
-f
+0
 )
 ;
 #

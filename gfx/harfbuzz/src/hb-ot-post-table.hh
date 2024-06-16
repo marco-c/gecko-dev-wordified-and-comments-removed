@@ -415,7 +415,7 @@ hb_max
 -
 90
 .
-f
+0
 hb_min
 (
 axis_range
@@ -424,7 +424,7 @@ axis_range
 middle
 90
 .
-f
+0
 )
 )
 ;

@@ -11,8 +11,6 @@ hb
 .
 h
 "
-HB_BEGIN_DECLS
-HB_END_DECLS
 #
 ifdef
 __cplusplus

@@ -67,13 +67,13 @@ HB_SUBSET_FLAGS_NO_PRUNE_UNICODE_RANGES
 HB_SUBSET_FLAGS_NO_LAYOUT_CLOSURE
 =
 0x00000200u
+HB_SUBSET_FLAGS_OPTIMIZE_IUP_DELTAS
+=
+0x00000400u
 #
 ifdef
 HB_EXPERIMENTAL_API
 HB_SUBSET_FLAGS_IFTB_REQUIREMENTS
-=
-0x00000400u
-HB_SUBSET_FLAGS_OPTIMIZE_IUP_DELTAS
 =
 0x00000800u
 #
@@ -270,9 +270,6 @@ float
 axis_value
 )
 ;
-#
-ifdef
-HB_EXPERIMENTAL_API
 HB_EXTERN
 hb_bool_t
 hb_subset_input_get_axis_range
@@ -313,6 +310,9 @@ float
 axis_def_value
 )
 ;
+#
+ifdef
+HB_EXPERIMENTAL_API
 HB_EXTERN
 hb_bool_t
 hb_subset_input_override_name_table

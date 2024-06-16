@@ -2066,7 +2066,9 @@ store_cache
 )
 )
 ;
-return
+unsigned
+glyf_advance
+=
 _glyf_get_advance_with_var_unscaled
 (
 font
@@ -2079,6 +2081,13 @@ tableTag
 =
 HB_OT_TAG_vmtx
 )
+;
+return
+glyf_advance
+?
+glyf_advance
+:
+advance
 ;
 #
 else
