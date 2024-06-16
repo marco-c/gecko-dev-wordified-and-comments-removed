@@ -1373,14 +1373,6 @@ RTC_GUARDED_BY
 mutex_
 )
 ;
-const
-bool
-enable_fec_delay_adaptation_
-RTC_GUARDED_BY
-(
-mutex_
-)
-;
 std
 :
 :
