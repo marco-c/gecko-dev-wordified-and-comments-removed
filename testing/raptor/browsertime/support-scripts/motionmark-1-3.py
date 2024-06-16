@@ -498,6 +498,17 @@ replicates
                 
 continue
             
+if
+self
+.
+is_additional_metric
+(
+measurement_name
+)
+:
+                
+continue
+            
 suite
 [
 "
@@ -517,6 +528,17 @@ replicates
 test
 )
             
+)
+        
+self
+.
+add_additional_metrics
+(
+test
+suite
+*
+*
+kwargs
 )
         
 suite

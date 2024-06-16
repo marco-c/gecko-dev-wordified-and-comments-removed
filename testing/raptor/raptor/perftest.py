@@ -425,6 +425,10 @@ screenshot_on_failure
 =
 False
         
+power_test
+=
+False
+        
 *
 *
 kwargs
@@ -697,6 +701,12 @@ screenshot_on_failure
 "
 :
 screenshot_on_failure
+            
+"
+power_test
+"
+:
+power_test
         
 }
         
