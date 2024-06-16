@@ -608,16 +608,6 @@ num_active_streams_
 =
 0
 ;
-const
-std
-:
-:
-unique_ptr
-<
-Vp8FrameBufferControllerFactory
->
-frame_buffer_controller_factory_
-;
 std
 :
 :
