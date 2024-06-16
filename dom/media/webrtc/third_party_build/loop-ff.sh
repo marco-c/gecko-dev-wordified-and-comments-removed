@@ -708,6 +708,8 @@ use_config_env
 .
 sh
 ;
+\
+\
 .
 /
 mach
@@ -718,12 +720,14 @@ save_patch_stack
 .
 py
 \
+\
 -
 -
 repo
 -
 path
 MOZ_LIBWEBRTC_SRC
+\
 \
 -
 -
