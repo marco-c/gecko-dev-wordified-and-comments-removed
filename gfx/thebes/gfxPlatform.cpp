@@ -5294,12 +5294,6 @@ StaticPrefs
 gfx_canvas_accelerated
 (
 )
-StaticPrefs
-:
-:
-layers_force_shmem_tiles_AtStartup
-(
-)
 )
 ;
 ScopedGfxFeatureReporter
