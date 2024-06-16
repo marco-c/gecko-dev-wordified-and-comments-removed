@@ -55,7 +55,7 @@ jstypes
 h
 "
 namespace
-js
+JS
 {
 struct
 JS_PUBLIC_API

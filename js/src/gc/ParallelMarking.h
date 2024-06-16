@@ -114,6 +114,9 @@ gc
 bool
 mark
 (
+JS
+:
+:
 SliceBudget
 &
 sliceBudget
@@ -171,6 +174,9 @@ markOneColor
 (
 MarkColor
 color
+JS
+:
+:
 SliceBudget
 &
 sliceBudget
@@ -343,6 +349,9 @@ marker
 MarkColor
 color
 const
+JS
+:
+:
 SliceBudget
 &
 budget
@@ -427,6 +436,9 @@ marker
 AutoSetMarkColor
 color
 ;
+JS
+:
+:
 SliceBudget
 budget
 ;

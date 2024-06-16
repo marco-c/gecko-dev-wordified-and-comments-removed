@@ -292,6 +292,9 @@ GCContext
 *
 gcx
 ;
+JS
+:
+:
 SliceBudget
 &
 budget
@@ -686,6 +689,9 @@ void
 setBudget
 (
 const
+JS
+:
+:
 SliceBudget
 &
 budget
@@ -709,6 +715,9 @@ lock
 override
 ;
 private
+:
+JS
+:
 :
 SliceBudget
 budget
@@ -1612,6 +1621,9 @@ JS
 GCReason
 reason
 const
+JS
+:
+:
 SliceBudget
 &
 budget
@@ -1626,6 +1638,9 @@ JS
 GCReason
 reason
 const
+JS
+:
+:
 SliceBudget
 &
 budget
@@ -1655,6 +1670,9 @@ JS
 GCOptions
 options
 const
+JS
+:
+:
 SliceBudget
 &
 budget
@@ -1664,6 +1682,9 @@ void
 debugGCSlice
 (
 const
+JS
+:
+:
 SliceBudget
 &
 budget
@@ -3857,6 +3878,9 @@ GCReason
 reason
 )
 ;
+JS
+:
+:
 SliceBudget
 defaultBudget
 (
@@ -3872,6 +3896,9 @@ millis
 bool
 maybeIncreaseSliceBudget
 (
+JS
+:
+:
 SliceBudget
 &
 budget
@@ -3880,6 +3907,9 @@ budget
 bool
 maybeIncreaseSliceBudgetForLongCollections
 (
+JS
+:
+:
 SliceBudget
 &
 budget
@@ -3888,6 +3918,9 @@ budget
 bool
 maybeIncreaseSliceBudgetForUrgentCollections
 (
+JS
+:
+:
 SliceBudget
 &
 budget
@@ -3903,6 +3936,9 @@ JS
 :
 GCReason
 reason
+JS
+:
+:
 SliceBudget
 &
 budget
@@ -3976,6 +4012,9 @@ collect
 bool
 nonincrementalByAPI
 const
+JS
+:
+:
 SliceBudget
 &
 budget
@@ -3998,6 +4037,9 @@ gcCycle
 bool
 nonincrementalByAPI
 const
+JS
+:
+:
 SliceBudget
 &
 budgetArg
@@ -4021,6 +4063,9 @@ reason
 void
 incrementalSlice
 (
+JS
+:
+:
 SliceBudget
 &
 budget
@@ -4258,6 +4303,9 @@ traceEmbeddingGrayRoots
 JSTracer
 *
 trc
+JS
+:
+:
 SliceBudget
 &
 budget
@@ -4301,6 +4349,9 @@ true
 IncrementalProgress
 markUntilBudgetExhausted
 (
+JS
+:
+:
 SliceBudget
 &
 sliceBudget
@@ -4448,6 +4499,9 @@ ZoneIterT
 IncrementalProgress
 markWeakReferences
 (
+JS
+:
+:
 SliceBudget
 &
 budget
@@ -4456,6 +4510,9 @@ budget
 IncrementalProgress
 markWeakReferencesInCurrentGroup
 (
+JS
+:
+:
 SliceBudget
 &
 budget
@@ -4464,6 +4521,9 @@ budget
 IncrementalProgress
 markGrayRoots
 (
+JS
+:
+:
 SliceBudget
 &
 budget
@@ -4583,6 +4643,9 @@ JS
 GCContext
 *
 gcx
+JS
+:
+:
 SliceBudget
 &
 budget
@@ -4597,6 +4660,9 @@ JS
 GCContext
 *
 gcx
+JS
+:
+:
 SliceBudget
 &
 budget
@@ -4611,6 +4677,9 @@ JS
 GCContext
 *
 gcx
+JS
+:
+:
 SliceBudget
 &
 budget
@@ -4625,6 +4694,9 @@ JS
 GCContext
 *
 gcx
+JS
+:
+:
 SliceBudget
 &
 budget
@@ -4644,6 +4716,9 @@ JS
 GCContext
 *
 gcx
+JS
+:
+:
 SliceBudget
 &
 budget
@@ -4676,6 +4751,9 @@ JS
 GCContext
 *
 gcx
+JS
+:
+:
 SliceBudget
 &
 budget
@@ -4784,6 +4862,9 @@ JS
 GCContext
 *
 gcx
+JS
+:
+:
 SliceBudget
 &
 budget
@@ -4792,6 +4873,9 @@ budget
 IncrementalProgress
 performSweepActions
 (
+JS
+:
+:
 SliceBudget
 &
 sliceBudget
@@ -4811,6 +4895,9 @@ JS
 GCContext
 *
 gcx
+JS
+:
+:
 SliceBudget
 &
 budget
@@ -4825,6 +4912,9 @@ JS
 GCContext
 *
 gcx
+JS
+:
+:
 SliceBudget
 &
 budget
@@ -4839,6 +4929,9 @@ JS
 GCContext
 *
 gcx
+JS
+:
+:
 SliceBudget
 &
 budget
@@ -4858,7 +4951,7 @@ Zone
 zone
 AllocKind
 thingKind
-js
+JS
 :
 :
 SliceBudget
@@ -4878,6 +4971,9 @@ JS
 GCContext
 *
 gcx
+JS
+:
+:
 SliceBudget
 &
 budget
@@ -5047,6 +5143,9 @@ JS
 :
 GCReason
 reason
+JS
+:
+:
 SliceBudget
 &
 sliceBudget
@@ -5100,6 +5199,9 @@ Arena
 *
 &
 relocatedListOut
+JS
+:
+:
 SliceBudget
 &
 sliceBudget
@@ -5261,6 +5363,9 @@ GCParallelTask
 &
 task
 const
+JS
+:
+:
 SliceBudget
 &
 budget
