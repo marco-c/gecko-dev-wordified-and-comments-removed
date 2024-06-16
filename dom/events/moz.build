@@ -441,6 +441,11 @@ TextClause
 h
 "
 "
+TextEvent
+.
+h
+"
+"
 Touch
 .
 h
@@ -734,6 +739,11 @@ cpp
 "
 "
 TextComposition
+.
+cpp
+"
+"
+TextEvent
 .
 cpp
 "
