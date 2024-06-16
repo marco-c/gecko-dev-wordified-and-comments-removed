@@ -69,9 +69,6 @@ HOST_LDFLAGS
 (
 LLVM_LDFLAGS
 )
-(
-CLANG_LDFLAGS
-)
 ifeq
 (
 (
