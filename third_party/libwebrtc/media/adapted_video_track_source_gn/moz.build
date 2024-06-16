@@ -397,9 +397,6 @@ OS_LIBS
 =
 [
 "
-GLESv2
-"
-"
 log
 "
 ]
@@ -593,14 +590,6 @@ __STDC_FORMAT_MACROS
 ]
 =
 True
-OS_LIBS
-+
-=
-[
-"
-rt
-"
-]
 if
 CONFIG
 [
@@ -1482,6 +1471,6 @@ True
 Library
 (
 "
-rtc_media_base_gn
+adapted_video_track_source_gn
 "
 )
