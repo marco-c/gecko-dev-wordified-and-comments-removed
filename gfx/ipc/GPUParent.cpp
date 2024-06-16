@@ -845,19 +845,6 @@ sReported
 =
 true
 ;
-if
-(
-StaticPrefs
-:
-:
-media_wmf_hevc_enabled
-(
-)
-!
-=
-1
-)
-{
 WMFDecoderModule
 :
 :
@@ -872,7 +859,6 @@ Config
 ForceEnableHEVC
 )
 ;
-}
 const
 auto
 support
@@ -1101,7 +1087,7 @@ media_wmf_hevc_enabled
 WMFDecoderModule
 :
 :
-Init
+DisableForceEnableHEVC
 (
 )
 ;
