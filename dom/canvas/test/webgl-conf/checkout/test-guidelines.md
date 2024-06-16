@@ -217,7 +217,7 @@ Copyright
 (
 c
 )
-2019
+2023
 The
 Khronos
 Group
@@ -828,7 +828,7 @@ src
 .
 .
 /
-resources
+js
 /
 js
 -
@@ -1114,7 +1114,7 @@ the
 testing
 infrastructure
 .
-resources
+js
 /
 js
 -
