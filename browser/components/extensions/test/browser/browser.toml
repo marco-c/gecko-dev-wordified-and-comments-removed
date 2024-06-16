@@ -1839,6 +1839,13 @@ js
 ]
 [
 "
+browser_ext_overflow_underflow_events
+.
+js
+"
+]
+[
+"
 browser_ext_pageAction_activeTab
 .
 js

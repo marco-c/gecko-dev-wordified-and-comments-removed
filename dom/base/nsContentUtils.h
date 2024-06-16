@@ -4035,6 +4035,16 @@ aDocument
 ;
 static
 bool
+IsAddonDoc
+(
+const
+Document
+*
+aDocument
+)
+;
+static
+bool
 IsChildOfSameType
 (
 Document
