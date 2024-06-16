@@ -1304,7 +1304,7 @@ requireComponents
 .
 backgroundServices
 .
-accountManager
+syncedTabsCommands
 )
 bookmarksUseCase
 =
@@ -2882,6 +2882,13 @@ requireComponents
 backgroundServices
 .
 syncedTabsStorage
+commands
+=
+requireComponents
+.
+backgroundServices
+.
+syncedTabsCommands
 accountManager
 =
 requireComponents

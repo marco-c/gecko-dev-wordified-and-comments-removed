@@ -471,6 +471,11 @@ String
 DeviceCommandOutgoing
 (
 )
+DeviceCommandQueue
+.
+Type
+.
+RemoteTabs
 }
 /
 *

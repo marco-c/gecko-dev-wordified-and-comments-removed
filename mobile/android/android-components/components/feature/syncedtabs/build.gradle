@@ -339,6 +339,10 @@ androidx_test_junit
 testImplementation
 ComponentsDependencies
 .
+androidx_work_testing
+testImplementation
+ComponentsDependencies
+.
 testing_coroutines
 testImplementation
 ComponentsDependencies
