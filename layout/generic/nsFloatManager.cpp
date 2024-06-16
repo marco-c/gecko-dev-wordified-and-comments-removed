@@ -11007,16 +11007,7 @@ StyleBasicShape
 Tag
 :
 :
-Path
-:
-case
-StyleBasicShape
-:
-:
-Tag
-:
-:
-Shape
+PathOrShape
 :
 MOZ_ASSERT_UNREACHABLE
 (
