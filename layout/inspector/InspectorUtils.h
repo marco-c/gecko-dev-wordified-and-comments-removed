@@ -853,7 +853,7 @@ aResult
 ;
 static
 void
-GetRuleBodyTextOffsets
+GetRuleBodyText
 (
 GlobalObject
 &
@@ -861,12 +861,9 @@ const
 nsACString
 &
 aInitialText
-Nullable
-<
-InspectorGetRuleBodyTextResult
->
+nsACString
 &
-aResult
+aBodyText
 )
 ;
 static

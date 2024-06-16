@@ -2788,9 +2788,7 @@ resourceId
 )
 ;
 const
-{
 text
-}
 =
 getRuleText
 (
