@@ -1366,6 +1366,17 @@ padding
 icon
 )
 ;
+color
+:
+var
+(
+-
+-
+icon
+-
+color
+)
+;
 &
 [
 size
