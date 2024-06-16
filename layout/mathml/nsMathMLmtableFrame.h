@@ -807,9 +807,15 @@ aLists
 )
 override
 ;
+mozilla
+:
+:
 LogicalMargin
 GetBorderWidth
 (
+mozilla
+:
+:
 WritingMode
 aWM
 )
