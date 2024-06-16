@@ -22897,7 +22897,7 @@ mCrashReporter
 >
 GenerateMinidumpAndPair
 (
-mSubprocess
+this
 "
 browser
 "

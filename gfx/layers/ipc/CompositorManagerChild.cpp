@@ -1231,7 +1231,6 @@ Get
 >
 KillProcess
 (
-true
 )
 ;
 }
