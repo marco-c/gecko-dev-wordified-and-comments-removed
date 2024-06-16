@@ -9,6 +9,9 @@ arrayBuffer
 blob
 '
 '
+bytes
+'
+'
 formData
 '
 '
