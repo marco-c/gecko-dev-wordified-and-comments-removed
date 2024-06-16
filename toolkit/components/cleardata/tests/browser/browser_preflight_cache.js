@@ -40,7 +40,7 @@ const
 ORIGIN_A
 =
 "
-https
+http
 :
 /
 /
@@ -53,7 +53,7 @@ const
 ORIGIN_B
 =
 "
-https
+http
 :
 /
 /
@@ -252,7 +252,7 @@ BrowserTestUtils
 withNewTab
 (
 "
-https
+http
 :
 /
 /
@@ -632,7 +632,7 @@ browser
 .
 gBrowser
 "
-https
+http
 :
 /
 /
