@@ -225,7 +225,7 @@ video
 -
 wrappers
 /
-yahoo
+videojsWrapper
 .
 js
 "
@@ -1560,7 +1560,7 @@ js
 "
 }
 }
-yahoofinance
+yahoo
 :
 {
 "
@@ -1570,9 +1570,9 @@ https
 /
 *
 .
-finance
+s
 .
-yahoo
+yimg
 .
 com
 /
@@ -1587,7 +1587,7 @@ video
 -
 wrappers
 /
-yahoo
+videojsWrapper
 .
 js
 "
