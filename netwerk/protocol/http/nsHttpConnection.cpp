@@ -5357,6 +5357,11 @@ mConnInfo
 UsingHttpsProxy
 (
 )
+|
+|
+mTransactionCaps
+&
+NS_HTTP_TLS_TUNNEL
 )
 {
 LOG

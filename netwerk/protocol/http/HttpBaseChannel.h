@@ -1528,6 +1528,8 @@ override
 NS_IMETHOD
 SetConnectOnly
 (
+bool
+aTlsTunnel
 )
 override
 ;

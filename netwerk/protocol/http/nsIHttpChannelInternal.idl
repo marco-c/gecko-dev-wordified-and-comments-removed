@@ -449,6 +449,9 @@ must_use
 void
 setConnectOnly
 (
+in
+boolean
+tlsTunnel
 )
 ;
 [

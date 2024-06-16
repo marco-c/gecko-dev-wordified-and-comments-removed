@@ -482,6 +482,15 @@ NS_HTTP_DISALLOW_HTTP2_PROXY
 )
 #
 define
+NS_HTTP_TLS_TUNNEL
+(
+1
+<
+<
+29
+)
+#
+define
 NS_HTTP_TRR_FLAGS_FROM_MODE
 (
 x

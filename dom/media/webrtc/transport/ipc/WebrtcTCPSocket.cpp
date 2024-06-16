@@ -2381,6 +2381,7 @@ httpChannel
 >
 SetConnectOnly
 (
+false
 )
 ;
 if
