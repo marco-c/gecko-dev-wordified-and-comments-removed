@@ -611,7 +611,7 @@ aNewPid
 }
 #
 ifdef
-XP_MACOSX
+XP_DARWIN
 void
 NodeChannel
 :
