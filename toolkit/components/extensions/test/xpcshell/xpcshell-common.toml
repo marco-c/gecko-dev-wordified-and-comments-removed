@@ -953,6 +953,13 @@ js
 ]
 [
 "
+test_ext_contentscript_world
+.
+js
+"
+]
+[
+"
 test_ext_contentscript_xml_prettyprint
 .
 js

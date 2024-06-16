@@ -3958,6 +3958,12 @@ aInit
 .
 mRunAt
 )
+mWorld
+(
+aInit
+.
+mWorld
+)
 {
 mCssPaths
 .

@@ -308,6 +308,11 @@ CSSOrigin
 "
 extensionTypes
 .
+ExecutionWorld
+"
+"
+extensionTypes
+.
 ImageFormat
 "
 "
