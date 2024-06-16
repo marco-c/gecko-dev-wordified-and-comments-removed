@@ -4991,6 +4991,13 @@ html
 ]
 [
 "
+test_content_iterator_subtree_shadow_tree
+.
+html
+"
+]
+[
+"
 test_copyimage
 .
 html
