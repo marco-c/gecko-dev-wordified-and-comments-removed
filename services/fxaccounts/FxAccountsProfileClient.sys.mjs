@@ -73,12 +73,6 @@ Account
 .
 *
 /
-"
-use
-strict
-;
-"
-;
 import
 {
 ERRNO_NETWORK
