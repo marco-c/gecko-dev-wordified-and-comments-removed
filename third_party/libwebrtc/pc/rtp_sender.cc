@@ -1256,7 +1256,7 @@ CheckRtpParametersInvalidModificationAndValues
 (
 init_parameters_
 parameters
-codec_preferences_
+send_codecs_
 absl
 :
 :
@@ -1526,7 +1526,7 @@ CheckRtpParametersInvalidModificationAndValues
 (
 init_parameters_
 parameters
-codec_preferences_
+send_codecs_
 absl
 :
 :
@@ -1807,14 +1807,14 @@ absl
 :
 c_find_if
 (
-codec_preferences_
+send_codecs_
 [
 &
 ]
 (
 auto
 &
-codec_preference
+codec
 )
 {
 return
@@ -1823,7 +1823,7 @@ send_codec
 >
 Matches
 (
-codec_preference
+codec
 )
 ;
 }
@@ -1834,7 +1834,7 @@ if
 codec_match
 !
 =
-codec_preferences_
+send_codecs_
 .
 end
 (
@@ -1855,7 +1855,7 @@ cricket
 CheckScalabilityModeValues
 (
 parameters
-codec_preferences_
+send_codecs_
 send_codec_with_svc_info
 )
 ;

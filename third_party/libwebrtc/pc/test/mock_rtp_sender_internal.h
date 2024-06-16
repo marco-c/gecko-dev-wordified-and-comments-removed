@@ -309,7 +309,7 @@ override
 MOCK_METHOD
 (
 void
-SetCodecPreferences
+SetSendCodecs
 (
 std
 :
