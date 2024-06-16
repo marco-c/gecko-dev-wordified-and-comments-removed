@@ -8039,7 +8039,7 @@ maskShader
 (
 maskPaint
 .
-getShader
+refShader
 (
 )
 )
