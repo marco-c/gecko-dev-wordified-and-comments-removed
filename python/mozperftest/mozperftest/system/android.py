@@ -2,6 +2,8 @@ import
 sys
 import
 tempfile
+import
+time
 from
 pathlib
 import
@@ -1124,6 +1126,13 @@ fenix
 App
 "
         
+)
+        
+time
+.
+sleep
+(
+4
 )
     
 def
