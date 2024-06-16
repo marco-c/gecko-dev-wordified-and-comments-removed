@@ -44,7 +44,9 @@ modules
 /
 Downloads
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
