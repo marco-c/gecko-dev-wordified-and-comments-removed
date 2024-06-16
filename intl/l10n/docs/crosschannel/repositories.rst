@@ -238,7 +238,7 @@ tip
 /
 taskcluster
 /
-ci
+kinds
 /
 l10n
 -

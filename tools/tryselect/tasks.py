@@ -437,9 +437,6 @@ topsrcdir
 "
 taskcluster
 "
-"
-ci
-"
 )
     
 taskgraph

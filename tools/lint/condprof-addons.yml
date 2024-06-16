@@ -45,7 +45,7 @@ files
 '
 taskcluster
 /
-ci
+kinds
 /
 fetch
 /

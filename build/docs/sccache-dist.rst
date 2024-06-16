@@ -837,7 +837,7 @@ tip
 /
 taskcluster
 /
-ci
+kinds
 /
 toolchain
 /

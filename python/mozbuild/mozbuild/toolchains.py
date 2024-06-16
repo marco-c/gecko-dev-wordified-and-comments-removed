@@ -48,7 +48,6 @@ path
 .
 join
 (
-        
 os
 .
 path
@@ -72,10 +71,6 @@ __file__
 "
 taskcluster
 "
-"
-ci
-"
-    
 )
     
 toolchains

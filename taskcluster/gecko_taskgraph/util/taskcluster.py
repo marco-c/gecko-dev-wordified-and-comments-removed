@@ -75,8 +75,6 @@ get_task_definition
 (
 task_id
 use_proxy
-=
-use_proxy
 )
 [
 "

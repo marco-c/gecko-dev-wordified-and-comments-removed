@@ -7,7 +7,7 @@ running
 toolchain
 -
 building
-jobs
+tasks
 via
 dedicated
 scripts
@@ -28,16 +28,16 @@ taskgraph
 .
 transforms
 .
-job
+run
 import
 configure_taskdesc_for_run
-run_job_using
+run_task_using
 from
 taskgraph
 .
 transforms
 .
-job
+run
 .
 common
 import
@@ -182,7 +182,7 @@ of
 the
 real
 toolchain
-job
+task
 name
 in
 "
@@ -191,7 +191,7 @@ in
 fetch
 stanzas
 for
-jobs
+tasks
 .
 "
         
@@ -406,7 +406,7 @@ def
 common_toolchain
 (
 config
-job
+task
 taskdesc
 is_docker
 )
@@ -414,7 +414,7 @@ is_docker
     
 run
 =
-job
+task
 [
 "
 run
@@ -430,7 +430,7 @@ worker
 "
 ]
 =
-job
+task
 [
 "
 worker
@@ -536,7 +536,7 @@ is_docker
 docker_worker_add_artifacts
 (
 config
-job
+task
 taskdesc
 )
         
@@ -546,7 +546,7 @@ else
 generic_worker_add_artifacts
 (
 config
-job
+task
 taskdesc
 )
     
@@ -912,7 +912,7 @@ command
 configure_taskdesc_for_run
 (
 config
-job
+task
 taskdesc
 worker
 [
@@ -937,7 +937,7 @@ toolchain
 build
 "
 }
-run_job_using
+run_task_using
 (
     
 "
@@ -964,7 +964,7 @@ def
 docker_worker_toolchain
 (
 config
-job
+task
 taskdesc
 )
 :
@@ -972,13 +972,13 @@ taskdesc
 common_toolchain
 (
 config
-job
+task
 taskdesc
 is_docker
 =
 True
 )
-run_job_using
+run_task_using
 (
     
 "
@@ -1005,7 +1005,7 @@ def
 generic_worker_toolchain
 (
 config
-job
+task
 taskdesc
 )
 :
@@ -1013,7 +1013,7 @@ taskdesc
 common_toolchain
 (
 config
-job
+task
 taskdesc
 is_docker
 =

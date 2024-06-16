@@ -95986,7 +95986,7 @@ py
 -
 taskcluster
 /
-ci
+kinds
 /
 build
 -
@@ -95998,7 +95998,7 @@ yml
 -
 taskcluster
 /
-ci
+kinds
 /
 build
 -
@@ -96010,7 +96010,7 @@ yml
 -
 taskcluster
 /
-ci
+kinds
 /
 build
 -
@@ -96022,7 +96022,7 @@ yml
 -
 taskcluster
 /
-ci
+kinds
 /
 build
 -
@@ -96036,7 +96036,7 @@ yml
 -
 taskcluster
 /
-ci
+kinds
 /
 test
 -
@@ -96048,7 +96048,7 @@ yml
 -
 taskcluster
 /
-ci
+kinds
 /
 test
 -
@@ -96060,7 +96060,7 @@ yml
 -
 taskcluster
 /
-ci
+kinds
 /
 ui
 -

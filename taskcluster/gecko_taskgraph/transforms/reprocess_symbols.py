@@ -11,7 +11,7 @@ description
 template
 taskcluster
 /
-ci
+kinds
 /
 reprocess
 -

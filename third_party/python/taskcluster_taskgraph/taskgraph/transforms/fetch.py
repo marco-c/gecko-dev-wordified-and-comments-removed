@@ -100,6 +100,17 @@ str
 Optional
 (
 "
+expires
+-
+after
+"
+)
+:
+str
+        
+Optional
+(
+"
 docker
 -
 image
@@ -131,7 +142,7 @@ of
 the
 real
 fetch
-job
+task
 name
 in
 "
@@ -140,7 +151,7 @@ in
 fetch
 stanzas
 for
-jobs
+tasks
 .
 "
         
@@ -330,22 +341,22 @@ transforms
 .
 add
 def
-process_fetch_job
+process_fetch_task
 (
 config
-jobs
+tasks
 )
 :
     
 for
-job
+task
 in
-jobs
+tasks
 :
         
 typ
 =
-job
+task
 [
 "
 fetch
@@ -359,7 +370,7 @@ type
         
 name
 =
-job
+task
 [
 "
 name
@@ -368,7 +379,7 @@ name
         
 fetch
 =
-job
+task
 .
 pop
 (
@@ -427,7 +438,7 @@ r
 "
 )
         
-job
+task
 .
 update
 (
@@ -441,7 +452,7 @@ fetch
 )
         
 yield
-job
+task
 def
 configure_fetch
 (
@@ -521,7 +532,7 @@ def
 make_task
 (
 config
-jobs
+tasks
 )
 :
     
@@ -553,20 +564,36 @@ else
         
 expires
 =
+config
+.
+graph_config
+.
+_config
+.
+get
+(
+"
+task
+-
+expires
+-
+after
+"
 "
 28
 days
 "
+)
     
 for
-job
+task
 in
-jobs
+tasks
 :
         
 name
 =
-job
+task
 [
 "
 name
@@ -575,7 +602,7 @@ name
         
 artifact_prefix
 =
-job
+task
 .
 get
 (
@@ -591,7 +618,7 @@ public
         
 env
 =
-job
+task
 .
 get
 (
@@ -624,7 +651,7 @@ artifacts
         
 attributes
 =
-job
+task
 .
 get
 (
@@ -649,7 +676,7 @@ path
 join
 (
 artifact_prefix
-job
+task
 [
 "
 artifact_name
@@ -659,7 +686,7 @@ artifact_name
         
 alias
 =
-job
+task
 .
 get
 (
@@ -685,7 +712,7 @@ alias
 =
 alias
         
-task
+task_desc
 =
 {
             
@@ -705,7 +732,7 @@ name
 description
 "
 :
-job
+task
 [
 "
 description
@@ -718,7 +745,17 @@ expires
 after
 "
 :
+task
+.
+get
+(
+"
 expires
+-
+after
+"
+expires
+)
             
 "
 label
@@ -770,7 +807,7 @@ False
 command
 "
 :
-job
+task
 [
 "
 command
@@ -811,7 +848,7 @@ docker
 image
 "
 :
-job
+task
 .
 get
 (
@@ -902,7 +939,7 @@ config
 graph_config
 :
             
-task
+task_desc
 [
 "
 treeherder
@@ -950,7 +987,7 @@ tier
 }
         
 if
-job
+task
 .
 get
 (
@@ -961,7 +998,7 @@ None
 )
 :
             
-task
+task_desc
 [
 "
 scopes
@@ -976,7 +1013,7 @@ get
 :
 "
 +
-job
+task
 .
 get
 (
@@ -986,7 +1023,7 @@ secret
 )
 ]
             
-task
+task_desc
 [
 "
 worker
@@ -1011,7 +1048,7 @@ fast
             
 cache_name
 =
-task
+task_desc
 [
 "
 label
@@ -1039,7 +1076,7 @@ add_optimization
                 
 config
                 
-task
+task_desc
                 
 cache_type
 =
@@ -1051,7 +1088,7 @@ cache_name
                 
 digest_data
 =
-job
+task
 [
 "
 digest_data
@@ -1061,7 +1098,7 @@ digest_data
 )
         
 yield
-task
+task_desc
 fetch_builder
 (
     

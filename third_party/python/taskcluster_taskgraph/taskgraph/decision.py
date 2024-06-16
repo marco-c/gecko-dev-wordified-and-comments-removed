@@ -144,13 +144,13 @@ object
 }
 )
 def
-full_task_graph_to_runnable_jobs
+full_task_graph_to_runnable_tasks
 (
 full_task_json
 )
 :
     
-runnable_jobs
+runnable_tasks
 =
 {
 }
@@ -219,7 +219,7 @@ treeherder
 "
 ]
         
-runnable_jobs
+runnable_tasks
 [
 label
 ]
@@ -259,7 +259,7 @@ in
 th
 :
                 
-runnable_jobs
+runnable_tasks
 [
 label
 ]
@@ -292,7 +292,7 @@ platform
 )
 :
             
-runnable_jobs
+runnable_tasks
 [
 label
 ]
@@ -315,7 +315,7 @@ platform
 ]
     
 return
-runnable_jobs
+runnable_tasks
 def
 taskgraph_decision
 (
@@ -531,7 +531,7 @@ jobs
 .
 json
 "
-full_task_graph_to_runnable_jobs
+full_task_graph_to_runnable_tasks
 (
 full_task_json
 )
@@ -1153,6 +1153,7 @@ logger
 warning
 (
             
+f
 "
 using
 default
@@ -1161,14 +1162,17 @@ parameters
 ;
 add
 {
+project
 }
 to
 "
             
+f
 "
 PER_PROJECT_PARAMETERS
 in
 {
+__file__
 }
 to
 customize
@@ -1180,12 +1184,6 @@ for
 this
 project
 "
-.
-format
-(
-project
-__file__
-)
         
 )
         

@@ -105,9 +105,15 @@ fetch_graph_and_labels
 (
 parameters
 graph_config
+task_group_id
+=
+None
 )
 :
     
+try
+:
+        
 decision_task_id
 =
 find_decision_task
@@ -115,6 +121,21 @@ find_decision_task
 parameters
 graph_config
 )
+    
+except
+KeyError
+:
+        
+if
+not
+task_group_id
+:
+            
+raise
+        
+decision_task_id
+=
+task_group_id
     
 full_task_graph
 =
@@ -551,6 +572,7 @@ create_task_from_def
 task_id
 task_def
 level
+trust_domain
 )
 :
     
@@ -679,7 +701,9 @@ schedulerId
 =
 f
 "
-gecko
+{
+trust_domain
+}
 -
 level
 -

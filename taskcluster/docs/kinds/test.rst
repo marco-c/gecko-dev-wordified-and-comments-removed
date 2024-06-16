@@ -1118,7 +1118,7 @@ source
 /
 taskcluster
 /
-ci
+kinds
 /
 test
 /

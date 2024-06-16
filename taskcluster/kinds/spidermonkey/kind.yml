@@ -308,7 +308,7 @@ build
 -
 taskcluster
 /
-ci
+kinds
 /
 spidermonkey
 /

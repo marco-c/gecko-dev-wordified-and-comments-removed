@@ -1517,7 +1517,7 @@ load_yaml
 taskcluster
 "
 "
-ci
+kinds
 "
 "
 docker

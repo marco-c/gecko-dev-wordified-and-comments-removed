@@ -428,12 +428,14 @@ raise
 Exception
 (
                 
+f
 "
 Keyed
 -
 by
 '
 {
+keyed_by
 }
 '
 unnecessary
@@ -445,20 +447,16 @@ default
 '
 "
                 
+f
 "
 found
 when
 determining
 item
 {
+item_name
 }
 "
-.
-format
-(
-keyed_by
-item_name
-)
             
 )
         
@@ -494,10 +492,12 @@ raise
 Exception
 (
                     
+f
 "
 No
 attribute
 {
+keyed_by
 }
 and
 no
@@ -509,19 +509,15 @@ default
 found
 "
                     
+f
 "
 while
 determining
 item
 {
+item_name
 }
 "
-.
-format
-(
-keyed_by
-item_name
-)
                 
 )
         
@@ -548,14 +544,17 @@ raise
 Exception
 (
                 
+f
 "
 Multiple
 matching
 values
 for
 {
+keyed_by
 }
 {
+key
 !
 r
 }
@@ -563,19 +562,14 @@ found
 while
 "
                 
+f
 "
 determining
 item
 {
+item_name
 }
 "
-.
-format
-(
-keyed_by
-key
-item_name
-)
             
 )
         
@@ -596,12 +590,15 @@ raise
 Exception
 (
             
+f
 "
 No
 {
+keyed_by
 }
 matching
 {
+key
 !
 r
 }
@@ -614,16 +611,8 @@ while
 determining
 item
 {
+item_name
 }
 "
-.
-format
-(
-                
-keyed_by
-key
-item_name
-            
-)
         
 )

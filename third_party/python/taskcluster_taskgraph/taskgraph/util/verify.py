@@ -710,9 +710,13 @@ raise
 Exception
 (
                     
+f
 "
 Task
 {
+task
+.
+label
 }
 can
 '
@@ -724,6 +728,7 @@ treeherder
 collections
 "
                     
+f
 "
 (
 the
@@ -736,18 +741,9 @@ after
 )
 :
 {
+collection_keys
 }
 "
-.
-format
-(
-                        
-task
-.
-label
-collection_keys
-                    
-)
                 
 )
             
@@ -1009,34 +1005,29 @@ raise
 Exception
 (
                     
+f
 "
 conflict
 between
 {
+task
+.
+label
 }
 :
 {
+scratch_pad
+[
+route
+]
 }
 for
 route
 :
 {
+route
 }
 "
-.
-format
-(
-                        
-task
-.
-label
-scratch_pad
-[
-route
-]
-route
-                    
-)
                 
 )
             
@@ -1217,8 +1208,12 @@ raise
 Exception
 (
                     
+f
 "
 {
+task
+.
+label
 }
 has
 invalid
@@ -1226,19 +1221,10 @@ notification
 filter
 (
 {
+route_filter
 }
 )
 "
-.
-format
-(
-                        
-task
-.
-label
-route_filter
-                    
-)
                 
 )
 verifications
@@ -1427,40 +1413,31 @@ raise
 Exception
 (
                         
+f
 "
 {
+task
+.
+label
 }
 (
 tier
 {
+printable_tier
+(
+tier
+)
 }
 )
 cannot
 depend
 on
 {
+d
 }
 (
 tier
 {
-}
-)
-"
-.
-format
-(
-                            
-task
-.
-label
-                            
-printable_tier
-(
-tier
-)
-                            
-d
-                            
 printable_tier
 (
 tiers
@@ -1468,8 +1445,9 @@ tiers
 d
 ]
 )
-                        
+}
 )
+"
                     
 )
 verifications
@@ -1594,32 +1572,25 @@ in
 tasks
 "
                     
+f
 "
 {
-}
-and
-{
-}
-:
-{
-}
-"
-.
-format
-(
-                        
 task
 .
 label
-                        
+}
+and
+{
 scratch_pad
 [
 key
 ]
-                        
+}
+:
+{
 key
-                    
-)
+}
+"
                 
 )
             

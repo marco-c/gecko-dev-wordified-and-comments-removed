@@ -455,31 +455,26 @@ raise
 Exception
 (
                     
+f
 "
 Missing
 package
 job
 for
 {
-}
--
-{
-}
-:
-{
-}
-"
-.
-format
-(
-                        
 config
 .
 kind
+}
+-
+{
 image_name
+}
+:
+{
 p
-                    
-)
+}
+"
                 
 )
         
@@ -661,12 +656,14 @@ context_hash
         
 description
 =
+f
 "
 Build
 the
 docker
 image
 {
+image_name
 }
 for
 use
@@ -674,13 +671,6 @@ by
 dependent
 tasks
 "
-.
-format
-(
-            
-image_name
-        
-)
         
 args
 [
@@ -732,6 +722,29 @@ else
 "
 10
 "
+        
+expires
+=
+config
+.
+graph_config
+.
+_config
+.
+get
+(
+"
+task
+-
+expires
+-
+after
+"
+"
+28
+days
+"
+)
         
 taskdesc
 =
@@ -794,10 +807,7 @@ expires
 after
 "
 :
-"
-28
-days
-"
+expires
 if
 config
 .
@@ -941,6 +951,7 @@ decision
 CONTEXT_PATH
 "
 :
+f
 "
 public
 /
@@ -949,19 +960,13 @@ docker
 contexts
 /
 {
+image_name
 }
 .
 tar
 .
 gz
 "
-.
-format
-(
-                        
-image_name
-                    
-)
                     
 "
 HASH

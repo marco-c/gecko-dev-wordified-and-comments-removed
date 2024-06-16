@@ -273,7 +273,7 @@ path
 :
 taskcluster
 /
-ci
+kinds
 /
 docker
 -

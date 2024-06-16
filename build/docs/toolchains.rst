@@ -2453,7 +2453,7 @@ tasks
 in
 taskcluster
 /
-ci
+kinds
 /
 toolchain
 /

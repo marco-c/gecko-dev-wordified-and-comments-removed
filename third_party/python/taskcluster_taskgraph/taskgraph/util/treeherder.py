@@ -292,8 +292,8 @@ symbol
 def
 inherit_treeherder_from_dep
 (
-job
-dep_job
+task
+dep_task
 )
 :
     
@@ -304,14 +304,14 @@ Inherit
 treeherder
 defaults
 from
-dep_job
+dep_task
 "
 "
 "
     
 treeherder
 =
-job
+task
 .
 get
 (
@@ -326,7 +326,7 @@ dep_th_platform
 =
 (
         
-dep_job
+dep_task
 .
 task
 .
@@ -376,7 +376,7 @@ dep_th_collection
 list
 (
         
-dep_job
+dep_task
 .
 task
 .
@@ -388,6 +388,7 @@ extra
 {
 }
 )
+        
 .
 get
 (
@@ -397,6 +398,7 @@ treeherder
 {
 }
 )
+        
 .
 get
 (
@@ -406,6 +408,7 @@ collection
 {
 }
 )
+        
 .
 keys
 (
@@ -443,7 +446,7 @@ setdefault
 "
 tier
 "
-dep_job
+dep_task
 .
 task
 .
