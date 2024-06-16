@@ -430,6 +430,17 @@ nsIContent
 aContent
 )
 ;
+const
+nsRoleMapEntry
+*
+GetRoleMap
+(
+const
+nsStaticAtom
+*
+aAriaRole
+)
+;
 class
 AttrIterator
 {
