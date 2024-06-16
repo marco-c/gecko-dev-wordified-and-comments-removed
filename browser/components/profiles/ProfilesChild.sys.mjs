@@ -60,6 +60,6 @@ export
 class
 ProfilesChild
 extends
-JSWindowActorChild
+JSWindowActorParent
 {
 }
