@@ -6960,9 +6960,9 @@ flags
 nsCString
 category
 bool
-privateWindow
+isFromPrivateWindow
 bool
-fromChromeContext
+isFromChromeContext
 ClonedMessageData
 stack
 )
@@ -10923,11 +10923,11 @@ flags
 nsCString
 category
 bool
-privateWindow
+isFromPrivateWindow
 uint64_t
 innerWindowId
 bool
-fromChromeContext
+isFromChromeContext
 )
 ;
 /

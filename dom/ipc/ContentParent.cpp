@@ -26262,7 +26262,7 @@ aCategory
 const
 bool
 &
-aFromPrivateWindow
+aIsFromPrivateWindow
 const
 uint64_t
 &
@@ -26270,7 +26270,7 @@ aInnerWindowId
 const
 bool
 &
-aFromChromeContext
+aIsFromChromeContext
 )
 {
 return
@@ -26283,8 +26283,8 @@ aLineNumber
 aColNumber
 aFlags
 aCategory
-aFromPrivateWindow
-aFromChromeContext
+aIsFromPrivateWindow
+aIsFromChromeContext
 )
 ;
 }
@@ -26331,15 +26331,15 @@ aCategory
 const
 bool
 &
-aFromPrivateWindow
+aIsFromPrivateWindow
 const
 bool
 &
-aFromChromeContext
+aIsFromChromeContext
 const
 ClonedMessageData
 &
-aFrame
+aStack
 )
 {
 return
@@ -26352,10 +26352,10 @@ aLineNumber
 aColNumber
 aFlags
 aCategory
-aFromPrivateWindow
-aFromChromeContext
+aIsFromPrivateWindow
+aIsFromChromeContext
 &
-aFrame
+aStack
 )
 ;
 }
@@ -26402,11 +26402,11 @@ aCategory
 const
 bool
 &
-aFromPrivateWindow
+aIsFromPrivateWindow
 const
 bool
 &
-aFromChromeContext
+aIsFromChromeContext
 const
 ClonedMessageData
 *
@@ -26658,8 +26658,8 @@ aLineNumber
 aColNumber
 aFlags
 aCategory
-aFromPrivateWindow
-aFromChromeContext
+aIsFromPrivateWindow
+aIsFromChromeContext
 )
 ;
 if
@@ -26739,7 +26739,7 @@ nsAString
 aMessage
 StructuredCloneData
 &
-aHelper
+aData
 )
 {
 ClonedMessageData
@@ -26750,7 +26750,7 @@ if
 !
 BuildClonedMessageData
 (
-aHelper
+aData
 data
 )
 )
@@ -27106,7 +27106,7 @@ RecvAddIdleObserver
 const
 uint64_t
 &
-aObserver
+aObserverId
 const
 uint32_t
 &
@@ -27165,7 +27165,7 @@ new
 ParentIdleListener
 (
 this
-aObserver
+aObserverId
 aIdleTimeInS
 )
 ;
@@ -27222,7 +27222,7 @@ RecvRemoveIdleObserver
 const
 uint64_t
 &
-aObserver
+aObserverId
 const
 uint32_t
 &
@@ -27284,7 +27284,7 @@ listener
 mObserver
 =
 =
-aObserver
+aObserverId
 &
 &
 listener
@@ -29938,7 +29938,7 @@ aForPrinting
 const
 bool
 &
-aForPrintPreview
+aForWindowDotPrint
 nsIURI
 *
 aURIToLoad
@@ -30490,7 +30490,7 @@ newBCOpenerId
 aChromeFlags
 aCalledFromJS
 aForPrinting
-aForPrintPreview
+aForWindowDotPrint
 aURIToLoad
 aFeatures
 aModifiers
@@ -32811,7 +32811,7 @@ RecvGetFilesRequest
 const
 nsID
 &
-aUUID
+aID
 const
 nsAString
 &
@@ -32829,7 +32829,7 @@ mGetFilesPendingRequests
 .
 GetWeak
 (
-aUUID
+aID
 )
 )
 ;
@@ -32932,7 +32932,7 @@ GetFilesHelperParent
 :
 Create
 (
-aUUID
+aID
 aDirectoryPath
 aRecursiveFlag
 this
@@ -32956,7 +32956,7 @@ if
 !
 SendGetFilesResponse
 (
-aUUID
+aID
 GetFilesResponseFailure
 (
 rv
@@ -32990,7 +32990,7 @@ mGetFilesPendingRequests
 .
 InsertOrUpdate
 (
-aUUID
+aID
 std
 :
 :
@@ -33021,14 +33021,14 @@ RecvDeleteGetFilesRequest
 const
 nsID
 &
-aUUID
+aID
 )
 {
 mGetFilesPendingRequests
 .
 Remove
 (
-aUUID
+aID
 )
 ;
 return
@@ -33046,7 +33046,7 @@ SendGetFilesResponseAndForget
 const
 nsID
 &
-aUUID
+aID
 const
 GetFilesResponseResult
 &
@@ -33059,7 +33059,7 @@ mGetFilesPendingRequests
 .
 Remove
 (
-aUUID
+aID
 )
 )
 {
@@ -33068,7 +33068,7 @@ Unused
 <
 SendGetFilesResponse
 (
-aUUID
+aID
 aResult
 )
 ;
@@ -35063,7 +35063,7 @@ RecvBHRThreadHang
 const
 HangDetails
 &
-aDetails
+aHangDetails
 )
 {
 nsCOMPtr
@@ -35098,7 +35098,7 @@ nsHangDetails
 (
 HangDetails
 (
-aDetails
+aHangDetails
 )
 PersistedToDisk
 :

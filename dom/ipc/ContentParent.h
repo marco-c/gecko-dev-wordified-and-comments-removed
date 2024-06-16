@@ -1621,7 +1621,7 @@ KillHard
 const
 char
 *
-aWhy
+aReason
 )
 ;
 ContentParentId
@@ -1883,7 +1883,7 @@ RecvCreateWindow
 (
 PBrowserParent
 *
-aThisBrowserParent
+aThisTab
 const
 MaybeDiscarded
 <
@@ -3336,7 +3336,7 @@ PBrowserParent
 >
 &
 &
-actor
+aBrowserEp
 ManagedEndpoint
 <
 PWindowGlobalParent
@@ -4559,7 +4559,7 @@ RecvAddIdleObserver
 const
 uint64_t
 &
-observerId
+aObserverId
 const
 uint32_t
 &
@@ -4578,7 +4578,7 @@ RecvRemoveIdleObserver
 const
 uint64_t
 &
-observerId
+aObserverId
 const
 uint32_t
 &
