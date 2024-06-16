@@ -53,11 +53,6 @@ PressureObserver
 >
 {
 }
-{
-sampleInterval
-:
-1000
-}
 )
 ;
 }

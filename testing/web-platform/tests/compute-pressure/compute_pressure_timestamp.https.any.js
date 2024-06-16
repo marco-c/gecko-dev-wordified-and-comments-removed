@@ -72,9 +72,6 @@ changes
 )
 ;
 }
-{
-sampleInterval
-}
 )
 ;
 observer
@@ -84,6 +81,9 @@ observe
 '
 cpu
 '
+{
+sampleInterval
+}
 )
 ;
 mockPressureService
@@ -313,9 +313,6 @@ changes
 )
 ;
 }
-{
-sampleInterval
-}
 )
 ;
 await
@@ -334,6 +331,9 @@ observe
 '
 cpu
 '
+{
+sampleInterval
+}
 )
 ;
 mockPressureService

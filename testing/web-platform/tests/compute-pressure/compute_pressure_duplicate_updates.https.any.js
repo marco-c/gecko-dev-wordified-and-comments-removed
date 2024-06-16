@@ -69,11 +69,6 @@ observer_changes
 )
 ;
 }
-{
-sampleInterval
-:
-200
-}
 )
 ;
 observer
@@ -83,6 +78,11 @@ observe
 '
 cpu
 '
+{
+sampleInterval
+:
+200
+}
 )
 ;
 const
