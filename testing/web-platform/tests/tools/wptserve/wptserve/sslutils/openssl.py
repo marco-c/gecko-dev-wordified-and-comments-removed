@@ -16,6 +16,12 @@ import
 datetime
 timedelta
 timezone
+from
+email
+.
+utils
+import
+parsedate_to_datetime
 CERT_EXPIRY_BUFFER
 =
 dict
@@ -2025,29 +2031,9 @@ strip
             
 end_date
 =
-datetime
-.
-strptime
+parsedate_to_datetime
 (
 end_date_str
-"
-%
-b
-%
-d
-%
-H
-:
-%
-M
-:
-%
-S
-%
-Y
-%
-Z
-"
 )
             
 time_buffer
