@@ -3263,13 +3263,17 @@ check_output
 (
                         
 [
+                            
 "
 hg
 "
+                            
 "
 -
-R
+-
+cwd
 "
+                            
 self
 .
 config
@@ -3278,15 +3282,20 @@ config
 local_repo
 "
 ]
+                            
 "
 cat
 "
+                            
 "
 -
 r
 "
+                            
 rev
+                            
 path
+                        
 ]
                     
 )
