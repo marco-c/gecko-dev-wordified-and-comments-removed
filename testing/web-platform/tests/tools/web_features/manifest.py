@@ -1350,6 +1350,9 @@ web_features_map
 cls
 =
 WebFeatureManifestEncoder
+sort_keys
+=
+True
 )
 )
 def
