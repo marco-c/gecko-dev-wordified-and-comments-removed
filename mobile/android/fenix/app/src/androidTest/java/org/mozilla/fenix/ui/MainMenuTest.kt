@@ -604,11 +604,11 @@ openThreeDotMenu
 .
 openDownloadsManager
 (
-composeTestRule
 )
 {
 verifyEmptyDownloadsList
 (
+composeTestRule
 )
 }
 .

@@ -439,11 +439,11 @@ openThreeDotMenu
 .
 openDownloadsManager
 (
-activityTestRule
 )
 {
 verifyDownloadedFileExistsInDownloadsList
 (
+activityTestRule
 downloadFile
 )
 }
