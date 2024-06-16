@@ -267,6 +267,11 @@ nightly
 -
 simulation
 "
+    
+r
+"
+notarization
+"
 ]
 def
 index_exists
