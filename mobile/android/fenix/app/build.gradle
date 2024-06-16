@@ -7316,7 +7316,7 @@ ext
 glean_version
 }
 "
-lintChecks
+lintPublish
 project
 (
 "
