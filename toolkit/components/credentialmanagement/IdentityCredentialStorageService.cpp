@@ -3704,7 +3704,7 @@ if
 (
 aData
 .
-originAllowlist
+effectiveOrigins
 (
 )
 .
@@ -3732,7 +3732,7 @@ StringJoin
 _ns
 aData
 .
-originAllowlist
+effectiveOrigins
 (
 )
 )
@@ -3765,7 +3765,7 @@ if
 (
 aData
 .
-dynamicViaCors
+effectiveQueryURL
 (
 )
 .
@@ -3787,7 +3787,7 @@ dynamicAllowEndpoint
 _ns
 aData
 .
-dynamicViaCors
+effectiveQueryURL
 (
 )
 .

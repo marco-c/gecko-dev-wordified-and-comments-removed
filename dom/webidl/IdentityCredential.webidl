@@ -295,7 +295,7 @@ enabled
 "
 ]
 UTF8String
-dynamicViaCORS
+effectiveQueryURL
 ;
 [
 Pref
@@ -352,10 +352,10 @@ sequence
 <
 UTF8String
 >
-originAllowlist
+effectiveOrigins
 ;
 UTF8String
-dynamicViaCORS
+effectiveQueryURL
 ;
 IdentityCredentialUserData
 uiHint
