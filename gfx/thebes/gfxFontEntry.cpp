@@ -2509,6 +2509,10 @@ hb_blob_get_empty
 )
 )
 {
+mSharedBlobData
+=
+nullptr
+;
 return
 hb_blob_reference
 (
