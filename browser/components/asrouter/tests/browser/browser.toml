@@ -242,6 +242,13 @@ js
 ]
 [
 "
+browser_feature_callout
+.
+js
+"
+]
+[
+"
 browser_trigger_listeners
 .
 js
