@@ -59,6 +59,13 @@ ff_libvorbis_decoder
 endif
 #
 if
+CONFIG_LIBVORBIS_ENCODER
+&
+ff_libvorbis_encoder
+#
+endif
+#
+if
 CONFIG_PCM_ALAW_DECODER
 &
 ff_pcm_alaw_decoder
@@ -111,6 +118,13 @@ if
 CONFIG_LIBOPUS_DECODER
 &
 ff_libopus_decoder
+#
+endif
+#
+if
+CONFIG_LIBOPUS_ENCODER
+&
+ff_libopus_encoder
 #
 endif
 #
