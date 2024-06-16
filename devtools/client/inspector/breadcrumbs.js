@@ -2011,7 +2011,6 @@ widget
 item
 -
 tag
-plain
 "
 ;
 const
@@ -2041,7 +2040,6 @@ widget
 item
 -
 id
-plain
 "
 ;
 const
@@ -2071,7 +2069,6 @@ widget
 item
 -
 classes
-plain
 "
 ;
 const
@@ -2103,7 +2100,6 @@ item
 pseudo
 -
 classes
-plain
 "
 ;
 let

@@ -10664,7 +10664,6 @@ name
 className
 =
 "
-plain
 name
 "
 ;
@@ -15039,7 +15038,6 @@ separatorLabel
 className
 =
 "
-plain
 separator
 "
 ;
@@ -15081,7 +15079,6 @@ valueLabel
 className
 =
 "
-plain
 value
 "
 ;
@@ -15496,7 +15493,6 @@ editNode
 className
 =
 "
-plain
 variables
 -
 view
@@ -15566,7 +15562,6 @@ deleteNode
 className
 =
 "
-plain
 variables
 -
 view
@@ -15633,7 +15628,6 @@ addPropertyNode
 className
 =
 "
-plain
 variables
 -
 view
@@ -15780,7 +15774,6 @@ nonWritableIcon
 className
 =
 "
-plain
 variable
 -
 or
@@ -15863,7 +15856,6 @@ frozenLabel
 className
 =
 "
-plain
 variable
 -
 or
@@ -15938,7 +15930,6 @@ sealedLabel
 className
 =
 "
-plain
 variable
 -
 or
@@ -16014,7 +16005,6 @@ nonExtensibleLabel
 className
 =
 "
-plain
 variable
 -
 or
@@ -16680,7 +16670,6 @@ _openInspectorNode
 className
 =
 "
-plain
 variables
 -
 view
