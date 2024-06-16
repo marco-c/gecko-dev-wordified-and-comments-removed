@@ -460,7 +460,7 @@ DecodePromise
 public
 :
 using
-Id
+SeqId
 =
 size_t
 ;
@@ -478,8 +478,8 @@ Id
 ;
 DecodeMessage
 (
-Id
-aId
+SeqId
+aSeqId
 ConfigId
 aConfigId
 UniquePtr
@@ -537,8 +537,8 @@ this
 ;
 }
 const
-Id
-mId
+SeqId
+mSeqId
 ;
 UniquePtr
 <
@@ -566,7 +566,7 @@ DecodePromise
 public
 :
 using
-Id
+SeqId
 =
 size_t
 ;
@@ -584,8 +584,8 @@ Id
 ;
 FlushMessage
 (
-Id
-aId
+SeqId
+aSeqId
 ConfigId
 aConfigId
 Promise
@@ -664,8 +664,8 @@ aReason
 )
 ;
 const
-Id
-mId
+SeqId
+mSeqId
 ;
 private
 :
