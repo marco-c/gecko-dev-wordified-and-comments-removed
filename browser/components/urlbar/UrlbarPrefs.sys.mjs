@@ -4355,6 +4355,16 @@ true
 ]
 [
 "
+security
+.
+insecure_connection_text
+.
+enabled
+"
+false
+]
+[
+"
 ui
 .
 popup
