@@ -124,11 +124,6 @@ FILES_FOR_BACKUP
 =
 [
 "
-times
-.
-json
-"
-"
 enumerate_devices
 .
 txt
@@ -220,11 +215,6 @@ const
 files
 =
 [
-"
-times
-.
-json
-"
 "
 enumerate_devices
 .
