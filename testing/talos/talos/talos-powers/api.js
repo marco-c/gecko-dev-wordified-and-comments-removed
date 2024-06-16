@@ -1235,7 +1235,9 @@ topWin
 .
 gBrowserInit
 .
-idleTasksFinishedPromise
+idleTasksFinished
+.
+promise
 ;
 }
 for
