@@ -751,7 +751,7 @@ pop
 #
 endif
 #
-ifdef
+if
 HAVE_LIBZ
 ZLib
 :
