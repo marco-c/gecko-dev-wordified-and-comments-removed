@@ -360,7 +360,7 @@ lock
 mMutex
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mMainThreadDestroyed
@@ -405,7 +405,7 @@ lock
 mMutex
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mListener
@@ -434,7 +434,7 @@ lock
 mMutex
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mListener
 =

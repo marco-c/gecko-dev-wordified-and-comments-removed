@@ -94,7 +94,7 @@ SdpAudioFormat
 decoder_map
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mCallWrapper
 -
