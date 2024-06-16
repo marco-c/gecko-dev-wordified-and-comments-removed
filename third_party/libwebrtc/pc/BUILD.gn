@@ -284,7 +284,7 @@ rtc_pc
 "
 ]
 }
-rtc_library
+rtc_source_set
 (
 "
 proxy
@@ -302,11 +302,6 @@ visibility
 sources
 =
 [
-"
-proxy
-.
-cc
-"
 "
 proxy
 .
