@@ -5632,7 +5632,7 @@ scanResultInTextNode
 WSRunScanner
 :
 :
-ScanNextVisibleNodeOrBlockBoundary
+ScanInclusiveNextVisibleNodeOrBlockBoundary
 (
 editingHost
 EditorRawDOMPoint
