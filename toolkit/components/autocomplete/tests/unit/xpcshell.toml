@@ -122,13 +122,6 @@ js
 ]
 [
 "
-test_immediate_search
-.
-js
-"
-]
-[
-"
 test_insertMatchAt
 .
 js
@@ -144,6 +137,13 @@ js
 [
 "
 test_removeMatchAt
+.
+js
+"
+]
+[
+"
+test_search_zerotimeout
 .
 js
 "

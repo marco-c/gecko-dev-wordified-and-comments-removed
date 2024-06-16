@@ -177,8 +177,12 @@ ClosePopup
 nsresult
 StartSearch
 (
-uint16_t
-aSearchType
+)
+;
+MOZ_CAN_RUN_SCRIPT
+nsresult
+DoSearches
+(
 )
 ;
 nsresult
@@ -500,9 +504,6 @@ mProhibitAutoFill
 bool
 mUserClearedAutoFill
 ;
-bool
-mClearingAutoFillSearchesAgain
-;
 enum
 CompositionState
 {
@@ -525,9 +526,6 @@ mSearchesOngoing
 ;
 uint32_t
 mSearchesFailed
-;
-uint32_t
-mImmediateSearchesCount
 ;
 int32_t
 mCompletedSelectionIndex
