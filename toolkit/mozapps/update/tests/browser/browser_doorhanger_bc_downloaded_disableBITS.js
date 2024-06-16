@@ -86,12 +86,9 @@ getPatchOfType
 "
 partial
 "
-await
 gUpdateManager
 .
-getReadyUpdate
-(
-)
+readyUpdate
 )
 .
 QueryInterface

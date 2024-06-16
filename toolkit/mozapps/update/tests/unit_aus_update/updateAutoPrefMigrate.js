@@ -50,7 +50,6 @@ setupTestCommon
 null
 )
 ;
-await
 standardInit
 (
 )

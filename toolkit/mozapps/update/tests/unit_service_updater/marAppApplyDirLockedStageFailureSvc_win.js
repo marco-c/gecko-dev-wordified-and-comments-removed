@@ -87,7 +87,6 @@ true
 false
 )
 ;
-await
 checkUpdateManager
 (
 STATE_AFTER_STAGE

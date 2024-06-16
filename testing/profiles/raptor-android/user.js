@@ -58,15 +58,3 @@ localhost_port
 1
 )
 ;
-user_pref
-(
-"
-app
-.
-update
-.
-disabledForTesting
-"
-true
-)
-;

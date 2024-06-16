@@ -706,7 +706,6 @@ setupTestCommon
 null
 )
 ;
-await
 standardInit
 (
 )

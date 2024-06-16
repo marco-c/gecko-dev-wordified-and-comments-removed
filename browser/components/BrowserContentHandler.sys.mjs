@@ -5038,7 +5038,7 @@ lazy
 .
 UpdateManager
 .
-updateInstalledAtStartup
+readyUpdate
 ;
 /
 *

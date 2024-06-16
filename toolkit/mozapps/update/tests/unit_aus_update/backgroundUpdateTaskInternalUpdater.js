@@ -205,7 +205,6 @@ true
 let
 bestUpdate
 =
-await
 gAUS
 .
 selectUpdate
@@ -214,7 +213,7 @@ updates
 )
 ;
 let
-result
+success
 =
 await
 gAUS
@@ -229,12 +228,8 @@ Assert
 .
 equal
 (
-result
-Ci
-.
-nsIApplicationUpdateService
-.
-DOWNLOAD_FAILURE_CANNOT_RESUME_IN_BACKGROUND
+success
+false
 "
 We
 should

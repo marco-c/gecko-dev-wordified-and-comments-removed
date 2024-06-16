@@ -490,13 +490,6 @@ only
 "
 [
 "
-updateEnabledTelemetry
-.
-js
-"
-]
-[
-"
 updateManagerXML
 .
 js

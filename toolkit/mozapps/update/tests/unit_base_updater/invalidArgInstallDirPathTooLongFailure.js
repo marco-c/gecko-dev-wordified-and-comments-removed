@@ -122,8 +122,7 @@ null
 null
 )
 ;
-await
-testPostUpdateProcessing
+standardInit
 (
 )
 ;
@@ -147,7 +146,6 @@ if
 gIsServiceTest
 )
 {
-await
 checkUpdateManager
 (
 STATE_NONE
@@ -160,7 +158,6 @@ STATE_PENDING_SVC
 }
 else
 {
-await
 checkUpdateManager
 (
 STATE_NONE

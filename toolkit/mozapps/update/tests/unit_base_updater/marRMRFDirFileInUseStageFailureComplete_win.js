@@ -117,8 +117,7 @@ waitForHelperExit
 (
 )
 ;
-await
-testPostUpdateProcessing
+standardInit
 (
 )
 ;
@@ -165,7 +164,6 @@ waitForUpdateXMLFiles
 (
 )
 ;
-await
 checkUpdateManager
 (
 STATE_NONE

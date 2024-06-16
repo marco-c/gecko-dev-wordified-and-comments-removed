@@ -150,15 +150,3 @@ on
 "
 )
 ;
-user_pref
-(
-"
-app
-.
-update
-.
-disabledForTesting
-"
-true
-)
-;
