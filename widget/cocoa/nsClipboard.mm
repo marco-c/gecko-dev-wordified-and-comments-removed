@@ -2557,10 +2557,6 @@ objectAtIndex
 {
 if
 (
-NSString
-*
-availableType
-=
 [
 item
 availableTypeFromArray
