@@ -227,6 +227,18 @@ release
 "
                     
 "
+esr128
+"
+:
+"
+releases
+/
+mozilla
+-
+esr128
+"
+                    
+"
 esr115
 "
 :
