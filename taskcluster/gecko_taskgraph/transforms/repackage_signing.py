@@ -197,7 +197,7 @@ exe
 :
 [
 "
-autograph_authenticode_sha2_stub
+autograph_authenticode_202404_stub
 "
 ]
     
@@ -213,7 +213,7 @@ exe
 :
 [
 "
-autograph_authenticode_sha2_stub
+autograph_authenticode_202404_stub
 "
 ]
     
@@ -227,7 +227,7 @@ msi
 :
 [
 "
-autograph_authenticode_sha2
+autograph_authenticode_202404
 "
 ]
     
@@ -241,7 +241,7 @@ msix
 :
 [
 "
-autograph_authenticode_sha2
+autograph_authenticode_202404
 "
 ]
 }
