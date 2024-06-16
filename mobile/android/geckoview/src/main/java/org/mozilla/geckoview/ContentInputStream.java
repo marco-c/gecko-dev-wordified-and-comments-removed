@@ -306,9 +306,7 @@ close
 catch
 (
 final
-IOException
-|
-SecurityException
+Exception
 e
 )
 {
@@ -800,9 +798,7 @@ true
 catch
 (
 final
-IOException
-|
-SecurityException
+Exception
 e
 )
 {
