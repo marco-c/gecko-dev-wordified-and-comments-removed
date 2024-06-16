@@ -2360,11 +2360,21 @@ return
 manifest
     
 if
+channel
+.
+startswith
+(
+(
 "
+beta
 -
 "
-in
-channel
+"
+nightly
+-
+"
+)
+)
 :
         
 channel
