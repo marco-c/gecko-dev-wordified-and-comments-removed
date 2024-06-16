@@ -1117,7 +1117,6 @@ SVGContentUtils
 GetCTM
 (
 this
-true
 )
 ;
 if
