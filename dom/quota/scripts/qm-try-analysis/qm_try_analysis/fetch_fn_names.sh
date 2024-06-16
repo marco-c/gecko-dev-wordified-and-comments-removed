@@ -85,7 +85,6 @@ TEMPDIR
 tmp
 /
 fetch_fn_names_
-BASHPID
 TEMPSRC
 =
 TEMPDIR
@@ -140,11 +139,6 @@ m
 -
 O
 json
--
-o
-"
-TEMPDIR
-"
 -
 p
 "

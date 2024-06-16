@@ -4,6 +4,14 @@ import
 json
 import
 requests
+from
+qm_try_analysis
+.
+logging
+import
+error
+info
+warning
 def
 readJSONFile
 (
@@ -165,22 +173,19 @@ in
 buildids
 :
         
-print
+info
 (
+f
 "
 Fetching
 revision
 for
 build
 {
+bid
 }
 .
 "
-.
-format
-(
-bid
-)
 )
         
 body
@@ -313,8 +318,9 @@ revision
 else
 :
             
-print
+warning
 (
+f
 "
 No
 revision
@@ -323,13 +329,9 @@ build
 .
 id
 {
+bid
 }
 "
-.
-format
-(
-bid
-)
 )
             
 delids
@@ -429,7 +431,7 @@ except
 OSError
 :
         
-print
+error
 (
 "
 Error
