@@ -198,6 +198,7 @@ HardwareDecoderNotAllowed
 FullH264Parsing
 ErrorIfNoInitializationData
 DefaultPlaybackDeviceMono
+KeepOriginalPts
 SENTINEL
 }
 ;
