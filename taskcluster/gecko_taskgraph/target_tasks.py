@@ -5304,6 +5304,25 @@ m
 in
 try_name
 and
+"
+essential
+"
+in
+try_name
+:
+                
+return
+True
+            
+if
+"
+chrome
+-
+m
+"
+in
+try_name
+and
 (
                 
 (

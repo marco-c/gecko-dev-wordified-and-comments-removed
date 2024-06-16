@@ -50,6 +50,9 @@ Reference
 Browser
 Chromium
 Chrome
+Chrome
+for
+Android
 Safari
 and
 Safari
