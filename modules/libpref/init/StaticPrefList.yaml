@@ -57893,12 +57893,6 @@ defined
 (
 XP_MACOSX
 )
-|
-|
-defined
-(
-NIGHTLY_BUILD
-)
 value
 :
 true
