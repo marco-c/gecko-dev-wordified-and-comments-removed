@@ -6,7 +6,6 @@ HIGHWAY_HWY_CONTRIB_BIT_PACK_INL_H_
 )
 =
 =
-\
 defined
 (
 HWY_TARGET_TOGGLE
