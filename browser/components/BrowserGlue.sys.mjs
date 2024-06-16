@@ -1190,7 +1190,7 @@ sys
 .
 mjs
 "
-SearchSERPDomainToCategoriesMap
+SearchSERPCategorization
 :
 "
 resource
@@ -12978,7 +12978,7 @@ uninit
 >
 lazy
 .
-SearchSERPDomainToCategoriesMap
+SearchSERPCategorization
 .
 uninit
 (
@@ -18599,7 +18599,7 @@ ensureJSOracleStarted
 name
 :
 "
-SearchSERPDomainToCategoriesMap
+SearchSERPCategorization
 .
 init
 "
@@ -18612,17 +18612,10 @@ task
 {
 lazy
 .
-SearchSERPDomainToCategoriesMap
+SearchSERPCategorization
 .
 init
 (
-)
-.
-catch
-(
-console
-.
-error
 )
 ;
 }
