@@ -428,10 +428,10 @@ DIRS
 =
 [
 "
-actors
-"
-"
-chrome
+.
+.
+/
+shared
 "
 "
 components

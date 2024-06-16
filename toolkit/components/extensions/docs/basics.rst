@@ -634,7 +634,7 @@ json
 -
 mobile
 /
-android
+shared
 /
 components
 /
@@ -880,7 +880,7 @@ desktop
 -
 mobile
 /
-android
+shared
 /
 components
 /
@@ -2386,7 +2386,7 @@ builds
 :
 mobile
 /
-android
+shared
 /
 components
 /
@@ -2414,7 +2414,7 @@ source
 /
 mobile
 /
-android
+shared
 /
 components
 /
