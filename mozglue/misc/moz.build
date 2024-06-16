@@ -346,6 +346,11 @@ NativeNt
 h
 "
 "
+WindowsDiagnostics
+.
+h
+"
+"
 WindowsDpiInitialization
 .
 h
@@ -401,6 +406,11 @@ cpp
 "
 "
 TimeStamp_windows
+.
+cpp
+"
+"
+WindowsDiagnostics
 .
 cpp
 "
