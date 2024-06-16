@@ -51,6 +51,9 @@ load_flags
 unsigned
 int
 synth_flags
+void
+*
+face_context
 )
 ;
 typedef
