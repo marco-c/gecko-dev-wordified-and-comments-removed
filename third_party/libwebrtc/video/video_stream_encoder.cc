@@ -6544,7 +6544,7 @@ simulcastStream
 i
 ]
 .
-GetScalabilityMode2
+GetScalabilityMode
 (
 )
 ;
