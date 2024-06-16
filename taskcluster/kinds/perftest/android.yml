@@ -303,7 +303,9 @@ on
 projects
 :
 [
-autoland
+trunk
+-
+only
 ]
 description
 :
@@ -353,7 +355,7 @@ attributes
 :
 cron
 :
-true
+false
 fetches
 :
 build
@@ -510,7 +512,9 @@ on
 projects
 :
 [
-autoland
+trunk
+-
+only
 ]
 description
 :
@@ -560,7 +564,7 @@ attributes
 :
 cron
 :
-true
+false
 fetches
 :
 build
@@ -1109,7 +1113,9 @@ on
 projects
 :
 [
-autoland
+trunk
+-
+only
 ]
 description
 :
@@ -1159,7 +1165,7 @@ attributes
 :
 cron
 :
-true
+false
 fetches
 :
 build
@@ -1312,7 +1318,9 @@ on
 projects
 :
 [
-autoland
+trunk
+-
+only
 ]
 description
 :
@@ -1362,7 +1370,7 @@ attributes
 :
 cron
 :
-true
+false
 fetches
 :
 build
