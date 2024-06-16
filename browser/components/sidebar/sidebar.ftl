@@ -55,7 +55,7 @@ MPL
 .
 sidebar
 -
-main
+launcher
 -
 insights
 =

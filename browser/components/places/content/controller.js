@@ -6118,7 +6118,7 @@ xhtml
 {
 window
 .
-SidebarController
+SidebarUI
 .
 _show
 (

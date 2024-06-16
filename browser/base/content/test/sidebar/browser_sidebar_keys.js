@@ -79,7 +79,7 @@ Assert
 ok
 (
 !
-SidebarController
+SidebarUI
 .
 isOpen
 )
@@ -99,7 +99,7 @@ registerCleanupFunction
 )
 =
 >
-SidebarController
+SidebarUI
 .
 hide
 (
@@ -195,7 +195,7 @@ registerCleanupFunction
 )
 =
 >
-SidebarController
+SidebarUI
 .
 hide
 (
@@ -353,7 +353,7 @@ SidebarShown
 "
 )
 ;
-SidebarController
+SidebarUI
 .
 show
 (
@@ -424,7 +424,7 @@ unchecked
 )
 ;
 await
-SidebarController
+SidebarUI
 .
 toggle
 (
@@ -432,7 +432,7 @@ toggle
 ;
 ok
 (
-SidebarController
+SidebarUI
 .
 isOpen
 "
@@ -485,7 +485,7 @@ again
 )
 ;
 await
-SidebarController
+SidebarUI
 .
 toggle
 (
@@ -494,7 +494,7 @@ toggle
 ok
 (
 !
-SidebarController
+SidebarUI
 .
 isOpen
 "

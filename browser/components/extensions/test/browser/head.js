@@ -1957,7 +1957,7 @@ body
 let
 contentAreaContextMenu
 =
-SidebarController
+SidebarUI
 .
 browser
 .
@@ -1973,7 +1973,7 @@ contentAreaContextMenu
 let
 browser
 =
-SidebarController
+SidebarUI
 .
 browser
 .
@@ -2004,7 +2004,7 @@ popupshown
 )
 ;
 await
-SidebarController
+SidebarUI
 .
 browser
 .

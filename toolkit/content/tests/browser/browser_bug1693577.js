@@ -32,7 +32,7 @@ load
 true
 )
 ;
-SidebarController
+SidebarUI
 .
 toggle
 (
@@ -173,7 +173,7 @@ hidePopup
 await
 popuphidden
 ;
-SidebarController
+SidebarUI
 .
 toggle
 (

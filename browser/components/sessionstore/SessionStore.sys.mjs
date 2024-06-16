@@ -36455,7 +36455,7 @@ checked
 {
 aWindow
 .
-SidebarController
+SidebarUI
 .
 showInitially
 (

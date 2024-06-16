@@ -8486,7 +8486,7 @@ window
 TabsProgressListener
 )
 ;
-SidebarController
+SidebarUI
 .
 init
 (
@@ -9811,7 +9811,7 @@ init
 (
 )
 ;
-SidebarController
+SidebarUI
 .
 startDelayedLoad
 (
@@ -11981,7 +11981,7 @@ uninit
 (
 )
 ;
-SidebarController
+SidebarUI
 .
 uninit
 (
@@ -12563,7 +12563,7 @@ case
 Bookmarks
 "
 :
-SidebarController
+SidebarUI
 .
 toggle
 (
@@ -27594,12 +27594,12 @@ documentElement
 let
 shouldUpdateSidebar
 =
-SidebarController
+SidebarUI
 .
 initialized
 &
 &
-SidebarController
+SidebarUI
 .
 isOpen
 ;
@@ -27612,7 +27612,7 @@ docs
 .
 push
 (
-SidebarController
+SidebarUI
 .
 browser
 .
@@ -27696,7 +27696,7 @@ shouldUpdateSidebar
 let
 tree
 =
-SidebarController
+SidebarUI
 .
 browser
 .

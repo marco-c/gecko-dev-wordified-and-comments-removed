@@ -2625,7 +2625,7 @@ unload
 ;
 window
 .
-SidebarController
+SidebarUI
 .
 lastOpenedId
 =

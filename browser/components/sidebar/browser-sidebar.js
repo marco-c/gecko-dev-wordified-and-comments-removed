@@ -1,5 +1,5 @@
 var
-SidebarController
+SidebarUI
 =
 {
 get
@@ -681,7 +681,7 @@ sidebar
 /
 sidebar
 -
-main
+launcher
 .
 mjs
 "
@@ -694,7 +694,7 @@ getElementById
 "
 sidebar
 -
-main
+launcher
 "
 )
 .
@@ -1671,7 +1671,7 @@ i
 )
 ;
 let
-sidebarMain
+sidebarLauncher
 =
 document
 .
@@ -1680,7 +1680,7 @@ querySelector
 "
 sidebar
 -
-main
+launcher
 "
 )
 ;
@@ -1737,7 +1737,7 @@ order
 =
 boxOrdinal
 ;
-sidebarMain
+sidebarLauncher
 .
 style
 .
@@ -1768,7 +1768,7 @@ positionend
 true
 )
 ;
-sidebarMain
+sidebarLauncher
 .
 setAttribute
 (
@@ -1792,7 +1792,7 @@ positionend
 "
 )
 ;
-sidebarMain
+sidebarLauncher
 .
 removeAttribute
 (
@@ -1811,7 +1811,7 @@ hideSwitcherPanel
 let
 content
 =
-SidebarController
+SidebarUI
 .
 browser
 .
@@ -1845,7 +1845,7 @@ sourceUI
 =
 sourceWindow
 .
-SidebarController
+SidebarUI
 ;
 if
 (
@@ -3873,21 +3873,21 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-SidebarController
+SidebarUI
 "
 _positionStart
 "
-SidebarController
+SidebarUI
 .
 POSITION_START_PREF
 true
-SidebarController
+SidebarUI
 .
 setPosition
 .
 bind
 (
-SidebarController
+SidebarUI
 )
 )
 ;
@@ -3895,7 +3895,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-SidebarController
+SidebarUI
 "
 sidebarRevampEnabled
 "

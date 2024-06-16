@@ -4278,7 +4278,7 @@ accel
 oncommand
 =
 "
-SidebarController
+SidebarUI
 .
 toggle
 (
@@ -4434,7 +4434,7 @@ endif
 oncommand
 =
 "
-SidebarController
+SidebarUI
 .
 toggle
 (

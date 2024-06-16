@@ -627,7 +627,7 @@ visible
 ;
 browser
 =
-SidebarController
+SidebarUI
 .
 browser
 .

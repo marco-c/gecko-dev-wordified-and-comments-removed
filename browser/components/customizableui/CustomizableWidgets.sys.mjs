@@ -1789,7 +1789,7 @@ ownerGlobal
 ;
 win
 .
-SidebarController
+SidebarUI
 .
 toggle
 (

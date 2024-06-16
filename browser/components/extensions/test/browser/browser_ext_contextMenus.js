@@ -3973,7 +3973,7 @@ sidebar
 =
 window
 .
-SidebarController
+SidebarUI
 .
 browser
 ;
