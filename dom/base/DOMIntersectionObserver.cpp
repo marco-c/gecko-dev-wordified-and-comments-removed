@@ -1833,9 +1833,9 @@ aRoot
 {
 if
 (
-nsIScrollableFrame
+ScrollContainerFrame
 *
-scrollFrame
+scrollContainerFrame
 =
 do_QueryFrame
 (
@@ -1871,7 +1871,7 @@ break
 nsRect
 subFrameRect
 =
-scrollFrame
+scrollContainerFrame
 -
 >
 GetScrollPortRect
@@ -2620,9 +2620,9 @@ rootRectRelativeToRootFrame
 ;
 if
 (
-nsIScrollableFrame
+ScrollContainerFrame
 *
-scrollFrame
+scrollContainerFrame
 =
 do_QueryFrame
 (
@@ -2632,7 +2632,7 @@ rootFrame
 {
 rootRectRelativeToRootFrame
 =
-scrollFrame
+scrollContainerFrame
 -
 >
 GetScrollPortRect

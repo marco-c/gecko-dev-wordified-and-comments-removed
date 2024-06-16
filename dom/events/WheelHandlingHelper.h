@@ -47,9 +47,6 @@ class
 nsIFrame
 ;
 class
-nsIScrollableFrame
-;
-class
 nsITimer
 ;
 namespace
@@ -205,7 +202,7 @@ static
 void
 SetActiveScrollTarget
 (
-nsIScrollableFrame
+ScrollContainerFrame
 *
 aScrollTarget
 )
@@ -884,7 +881,7 @@ IsHorizontalContentRightToLeft
 const
 override
 ;
-nsIScrollableFrame
+ScrollContainerFrame
 *
 mScrollTargetFrame
 ;

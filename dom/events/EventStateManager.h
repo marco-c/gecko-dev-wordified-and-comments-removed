@@ -141,9 +141,6 @@ class
 nsIDocumentViewer
 ;
 class
-nsIScrollableFrame
-;
-class
 nsITimer
 ;
 class
@@ -172,6 +169,9 @@ IMEContentObserver
 ;
 class
 ScrollbarsForWheel
+;
+class
+ScrollContainerFrame
 ;
 class
 TextControlElement
@@ -1901,7 +1901,7 @@ MAY_BE_ADJUSTED_BY_AUTO_DIR
 )
 }
 ;
-nsIFrame
+ScrollContainerFrame
 *
 ComputeScrollTargetAndMayAdjustWheelEvent
 (
@@ -1915,7 +1915,7 @@ ComputeScrollTargetOptions
 aOptions
 )
 ;
-nsIFrame
+ScrollContainerFrame
 *
 ComputeScrollTargetAndMayAdjustWheelEvent
 (
@@ -1933,7 +1933,7 @@ ComputeScrollTargetOptions
 aOptions
 )
 ;
-nsIFrame
+ScrollContainerFrame
 *
 ComputeScrollTarget
 (
@@ -1976,7 +1976,7 @@ aOptions
 )
 ;
 }
-nsIFrame
+ScrollContainerFrame
 *
 ComputeScrollTarget
 (
@@ -2034,17 +2034,17 @@ aPresContext
 WidgetWheelEvent
 *
 aEvent
-nsIScrollableFrame
+ScrollContainerFrame
 *
-aScrollableFrame
+aScrollContainerFrame
 )
 ;
 void
 DoScrollText
 (
-nsIScrollableFrame
+ScrollContainerFrame
 *
-aScrollableFrame
+aScrollContainerFrame
 WidgetWheelEvent
 *
 aEvent

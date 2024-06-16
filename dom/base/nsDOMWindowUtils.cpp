@@ -3303,7 +3303,7 @@ scrollContainerFrame
 >
 GetActualScrollbarSizes
 (
-nsIScrollableFrame
+ScrollContainerFrame
 :
 :
 ScrollbarSizesOptions
@@ -15736,7 +15736,7 @@ NS_OK
 static
 nsTArray
 <
-nsIScrollableFrame
+ScrollContainerFrame
 *
 >
 CollectScrollableAncestors
@@ -15748,7 +15748,7 @@ aStart
 {
 nsTArray
 <
-nsIScrollableFrame
+ScrollContainerFrame
 *
 >
 result
@@ -15783,7 +15783,7 @@ frame
 break
 ;
 }
-nsIScrollableFrame
+ScrollContainerFrame
 *
 scrollAncestor
 =
@@ -16342,7 +16342,7 @@ false
 ;
 for
 (
-nsIScrollableFrame
+ScrollContainerFrame
 *
 scrollAncestor
 :
