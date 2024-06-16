@@ -318,6 +318,11 @@ nsCString
 aTags
 )
 ;
+bool
+IsOnGMPThread
+(
+)
+;
 void
 LogToConsole
 (
