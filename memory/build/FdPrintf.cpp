@@ -402,7 +402,7 @@ x
 void
 FdPrintf
 (
-intptr_t
+platform_handle_t
 aFd
 const
 char
@@ -885,13 +885,7 @@ written
 ;
 WriteFile
 (
-reinterpret_cast
-<
-HANDLE
->
-(
 aFd
-)
 buf
 b
 -

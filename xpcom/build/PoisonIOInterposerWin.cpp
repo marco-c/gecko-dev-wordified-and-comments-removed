@@ -409,13 +409,7 @@ mozilla
 :
 IsDebugFile
 (
-reinterpret_cast
-<
-intptr_t
->
-(
 aFileHandle
-)
 )
 )
 mFileHandle

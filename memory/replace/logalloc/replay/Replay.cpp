@@ -2095,7 +2095,7 @@ mTotalRequests
 void
 printDist
 (
-intptr_t
+platform_handle_t
 std_err
 )
 {
@@ -2419,7 +2419,7 @@ MemoryMap
 >
 readMap
 (
-intptr_t
+platform_handle_t
 aStdErr
 )
 {
@@ -2878,15 +2878,9 @@ ifdef
 _WIN32
 mStdErr
 =
-reinterpret_cast
-<
-intptr_t
->
-(
 GetStdHandle
 (
 STD_ERROR_HANDLE
-)
 )
 ;
 #
@@ -5654,7 +5648,7 @@ mRequest
 ;
 }
 }
-intptr_t
+platform_handle_t
 mStdErr
 ;
 size_t

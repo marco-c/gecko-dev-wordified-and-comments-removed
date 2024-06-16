@@ -78,7 +78,7 @@ malloc_table_t
 sFuncs
 ;
 static
-intptr_t
+platform_handle_t
 sFd
 =
 0
@@ -1019,13 +1019,7 @@ INVALID_HANDLE_VALUE
 {
 sFd
 =
-reinterpret_cast
-<
-intptr_t
->
-(
 handle
-)
 ;
 }
 #
