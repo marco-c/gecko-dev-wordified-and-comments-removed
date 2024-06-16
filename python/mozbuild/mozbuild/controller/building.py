@@ -4055,7 +4055,7 @@ hasattr
 (
 self
 "
-handler
+_handler
 "
 )
             
@@ -4065,7 +4065,7 @@ have_handler
                 
 self
 .
-handler
+_handler
 .
 acquire
 (
@@ -4089,7 +4089,7 @@ have_handler
                     
 self
 .
-handler
+_handler
 .
 release
 (
@@ -4457,7 +4457,7 @@ hasattr
 (
 self
 "
-handler
+_handler
 "
 )
             
@@ -4467,7 +4467,7 @@ have_handler
                 
 self
 .
-handler
+_handler
 .
 acquire
 (
@@ -4491,7 +4491,7 @@ have_handler
                     
 self
 .
-handler
+_handler
 .
 release
 (
