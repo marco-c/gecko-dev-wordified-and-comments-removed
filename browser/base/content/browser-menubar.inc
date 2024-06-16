@@ -1451,7 +1451,7 @@ viewSidebarMenu
 onpopupshowing
 =
 "
-SidebarUI
+SidebarController
 .
 setMegalistMenubarVisibility
 (

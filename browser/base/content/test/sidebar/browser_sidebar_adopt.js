@@ -5,7 +5,7 @@ registerCleanupFunction
 =
 >
 {
-SidebarUI
+SidebarController
 .
 hide
 (
@@ -114,7 +114,7 @@ openNewBrowserWindow
 await
 win1
 .
-SidebarUI
+SidebarController
 .
 show
 (
@@ -178,7 +178,7 @@ ok
 !
 win2
 .
-SidebarUI
+SidebarController
 .
 isOpen
 "
@@ -250,7 +250,7 @@ SidebarFocused
 )
 ;
 await
-SidebarUI
+SidebarController
 .
 show
 (

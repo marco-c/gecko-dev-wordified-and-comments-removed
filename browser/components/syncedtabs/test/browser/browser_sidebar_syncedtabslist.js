@@ -659,7 +659,7 @@ resolve
 {
 window
 .
-SidebarUI
+SidebarController
 .
 browser
 .
@@ -686,7 +686,7 @@ true
 }
 )
 ;
-SidebarUI
+SidebarController
 .
 hide
 (
@@ -705,7 +705,7 @@ testSyncedTabsSidebarList
 )
 {
 await
-SidebarUI
+SidebarController
 .
 show
 (
@@ -718,7 +718,7 @@ Assert
 .
 equal
 (
-SidebarUI
+SidebarController
 .
 currentID
 "
@@ -736,7 +736,7 @@ loaded
 let
 syncedTabsDeckComponent
 =
-SidebarUI
+SidebarController
 .
 browser
 .
@@ -1038,7 +1038,7 @@ testSyncedTabsSidebarFilteredList
 )
 {
 await
-SidebarUI
+SidebarController
 .
 show
 (
@@ -1052,7 +1052,7 @@ syncedTabsDeckComponent
 =
 window
 .
-SidebarUI
+SidebarController
 .
 browser
 .
@@ -1384,7 +1384,7 @@ testSyncedTabsSidebarStatus
 )
 {
 await
-SidebarUI
+SidebarController
 .
 show
 (
@@ -1398,7 +1398,7 @@ syncedTabsDeckComponent
 =
 window
 .
-SidebarUI
+SidebarController
 .
 browser
 .
@@ -2039,7 +2039,7 @@ testSyncedTabsSidebarContextMenu
 )
 {
 await
-SidebarUI
+SidebarController
 .
 show
 (
@@ -2053,7 +2053,7 @@ syncedTabsDeckComponent
 =
 window
 .
-SidebarUI
+SidebarController
 .
 browser
 .
@@ -3107,7 +3107,7 @@ contentRect
 =
 chromeWindow
 .
-SidebarUI
+SidebarController
 .
 browser
 .

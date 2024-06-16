@@ -27,7 +27,7 @@ button
 "
 )
 ;
-SidebarUI
+SidebarController
 .
 hide
 (

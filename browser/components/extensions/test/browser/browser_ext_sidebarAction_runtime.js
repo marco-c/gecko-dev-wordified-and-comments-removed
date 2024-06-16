@@ -284,7 +284,7 @@ currentURI
 =
 window
 .
-SidebarUI
+SidebarController
 .
 browser
 .
@@ -382,7 +382,7 @@ disconnected
 ;
 window
 .
-SidebarUI
+SidebarController
 .
 show
 (

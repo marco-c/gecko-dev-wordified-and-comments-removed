@@ -1402,7 +1402,7 @@ it
 .
 triggeringWindow
 .
-SidebarUI
+SidebarController
 ?
 .
 hide

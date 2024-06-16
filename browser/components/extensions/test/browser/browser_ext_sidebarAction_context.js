@@ -712,7 +712,7 @@ resolve
 }
 )
 ;
-SidebarUI
+SidebarController
 .
 browser
 .

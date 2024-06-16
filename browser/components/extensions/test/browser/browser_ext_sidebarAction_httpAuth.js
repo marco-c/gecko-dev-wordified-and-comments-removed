@@ -227,7 +227,7 @@ PromptTestUtils
 .
 handleNextPrompt
 (
-SidebarUI
+SidebarController
 .
 browser
 .
