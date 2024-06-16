@@ -500,6 +500,22 @@ pine
 }
     
 "
+cypress
+"
+:
+{
+        
+"
+target_tasks_method
+"
+:
+"
+cypress_tasks
+"
+    
+}
+    
+"
 larch
 "
 :
