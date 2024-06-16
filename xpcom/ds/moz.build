@@ -288,11 +288,6 @@ nsProperties
 h
 "
 "
-nsQuickSort
-.
-h
-"
-"
 nsRefCountedHashtable
 .
 h
@@ -543,11 +538,6 @@ cpp
 "
 "
 nsProperties
-.
-cpp
-"
-"
-nsQuickSort
 .
 cpp
 "
