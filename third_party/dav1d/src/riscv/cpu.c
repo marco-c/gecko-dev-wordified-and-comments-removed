@@ -59,6 +59,12 @@ a
 )
 #
 endif
+int
+dav1d_has_compliant_rvv
+(
+void
+)
+;
 COLD
 unsigned
 dav1d_get_cpu_flags_riscv
@@ -93,6 +99,11 @@ flags
 hw_cap
 &
 HWCAP_RVV
+)
+&
+&
+dav1d_has_compliant_rvv
+(
 )
 ?
 DAV1D_RISCV_CPU_FLAG_V

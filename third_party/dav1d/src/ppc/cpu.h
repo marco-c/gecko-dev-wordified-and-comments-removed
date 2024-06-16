@@ -13,6 +13,12 @@ DAV1D_PPC_CPU_FLAG_VSX
 <
 <
 0
+DAV1D_PPC_CPU_FLAG_PWR9
+=
+1
+<
+<
+1
 }
 ;
 unsigned

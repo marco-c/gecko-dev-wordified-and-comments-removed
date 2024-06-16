@@ -11152,7 +11152,7 @@ b
 >
 y_angle
 =
-dav1d_msac_decode_symbol_adapt4
+dav1d_msac_decode_symbol_adapt8
 (
 &
 ts

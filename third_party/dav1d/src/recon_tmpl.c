@@ -2925,7 +2925,7 @@ TX_16X16
 {
 idx
 =
-dav1d_msac_decode_symbol_adapt4
+dav1d_msac_decode_symbol_adapt8
 (
 &
 ts
@@ -3372,7 +3372,7 @@ case_sz
 (
 0
 16
-4
+8
 [
 is_1d
 ]
