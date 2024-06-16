@@ -59,9 +59,6 @@ MPL
 0
 /
 .
-MOZ_APP_VENDOR
-=
-Mozilla
 MOZ_BRANDING_DIRECTORY
 =
 browser
