@@ -298,6 +298,10 @@ androidx_appcompat
 implementation
 ComponentsDependencies
 .
+androidx_core
+implementation
+ComponentsDependencies
+.
 androidx_preferences
 implementation
 project

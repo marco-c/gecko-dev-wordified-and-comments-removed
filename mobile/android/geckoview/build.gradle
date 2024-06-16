@@ -1926,6 +1926,10 @@ ComponentsDependencies
 .
 androidx_collection
 implementation
+ComponentsDependencies
+.
+androidx_core
+implementation
 "
 com
 .
