@@ -7184,7 +7184,7 @@ quad_flags
 QuadFlags
 :
 :
-SAMPLE_AS_MASK
+IS_MASK
 ;
 if
 is_same_coord_system
