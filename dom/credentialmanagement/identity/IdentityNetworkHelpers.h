@@ -370,7 +370,7 @@ BodyConsumer
 ConsumeType
 :
 :
-Blob
+CONSUME_JSON
 error
 )
 ;

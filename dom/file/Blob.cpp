@@ -1429,10 +1429,7 @@ ConsumeBody
 BodyConsumer
 :
 :
-ConsumeType
-:
-:
-Text
+CONSUME_TEXT
 aRv
 )
 ;
@@ -1458,10 +1455,7 @@ ConsumeBody
 BodyConsumer
 :
 :
-ConsumeType
-:
-:
-ArrayBuffer
+CONSUME_ARRAYBUFFER
 aRv
 )
 ;
