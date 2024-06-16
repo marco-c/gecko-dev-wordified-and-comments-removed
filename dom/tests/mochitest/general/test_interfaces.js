@@ -1880,16 +1880,6 @@ true
 name
 :
 "
-CustomStateSet
-"
-insecureContext
-:
-true
-}
-{
-name
-:
-"
 DecompressionStream
 "
 insecureContext
