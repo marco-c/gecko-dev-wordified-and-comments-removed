@@ -88,8 +88,8 @@ tparams
 self
 TransportParameter
 }
+CloseReason
 Connection
-ConnectionError
 ConnectionParameters
 Error
 StreamId
@@ -3312,7 +3312,7 @@ assert_error
 &
 client
 &
-ConnectionError
+CloseReason
 :
 :
 Transport
@@ -3339,7 +3339,7 @@ assert_error
 &
 server
 &
-ConnectionError
+CloseReason
 :
 :
 Transport

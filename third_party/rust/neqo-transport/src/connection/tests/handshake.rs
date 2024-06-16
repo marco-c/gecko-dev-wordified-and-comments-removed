@@ -152,7 +152,7 @@ tracking
 :
 :
 DEFAULT_ACK_DELAY
-ConnectionError
+CloseReason
 ConnectionParameters
 EmptyConnectionIdGenerator
 Error
@@ -973,7 +973,7 @@ assert_error
 &
 client
 &
-ConnectionError
+CloseReason
 :
 :
 Transport
@@ -993,7 +993,7 @@ assert_error
 &
 server
 &
-ConnectionError
+CloseReason
 :
 :
 Transport
@@ -1113,7 +1113,7 @@ assert_error
 &
 server
 &
-ConnectionError
+CloseReason
 :
 :
 Transport
@@ -7321,7 +7321,7 @@ error
 Some
 (
 &
-ConnectionError
+CloseReason
 :
 :
 Transport
@@ -7342,7 +7342,7 @@ PeerError
 let
 Some
 (
-ConnectionError
+CloseReason
 :
 :
 Transport
@@ -7733,7 +7733,7 @@ if
 let
 Some
 (
-ConnectionError
+CloseReason
 :
 :
 Transport
@@ -7818,7 +7818,7 @@ error
 Some
 (
 &
-ConnectionError
+CloseReason
 :
 :
 Transport
@@ -7847,9 +7847,9 @@ bad_min_ack_delay
 const
 EXPECTED_ERROR
 :
-ConnectionError
+CloseReason
 =
-ConnectionError
+CloseReason
 :
 :
 Transport
@@ -8045,7 +8045,7 @@ error
 Some
 (
 &
-ConnectionError
+CloseReason
 :
 :
 Transport

@@ -3967,6 +3967,16 @@ unwrap_or
 [
 must_use
 ]
+#
+[
+allow
+(
+clippy
+:
+:
+len_without_is_empty
+)
+]
 pub
 fn
 len

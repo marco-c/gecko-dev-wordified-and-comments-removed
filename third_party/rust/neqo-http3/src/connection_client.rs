@@ -4705,7 +4705,7 @@ neqo_transport
 :
 :
 {
-ConnectionError
+CloseReason
 ConnectionEvent
 ConnectionParameters
 Output
@@ -4824,7 +4824,7 @@ assert_eq
 !
 (
 err
-ConnectionError
+CloseReason
 :
 :
 Application
@@ -22675,7 +22675,7 @@ Http3State
 :
 Closing
 (
-ConnectionError
+CloseReason
 :
 :
 Application
@@ -22765,7 +22765,7 @@ Http3State
 :
 Closing
 (
-ConnectionError
+CloseReason
 :
 :
 Application
@@ -22947,7 +22947,7 @@ Http3State
 :
 Closing
 (
-ConnectionError
+CloseReason
 :
 :
 Application
@@ -23048,7 +23048,7 @@ Http3State
 :
 Closing
 (
-ConnectionError
+CloseReason
 :
 :
 Application
@@ -23241,7 +23241,7 @@ Http3State
 :
 Closing
 (
-ConnectionError
+CloseReason
 :
 :
 Application
@@ -23434,7 +23434,7 @@ Http3State
 :
 Closing
 (
-ConnectionError
+CloseReason
 :
 :
 Application
@@ -23686,7 +23686,7 @@ Http3State
 :
 Closing
 (
-ConnectionError
+CloseReason
 :
 :
 Application

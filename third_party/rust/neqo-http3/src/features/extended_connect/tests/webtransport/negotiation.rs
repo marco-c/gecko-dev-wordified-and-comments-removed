@@ -30,8 +30,8 @@ neqo_transport
 :
 :
 {
+CloseReason
 Connection
-ConnectionError
 StreamType
 }
 ;
@@ -1440,7 +1440,7 @@ assert_eq
 !
 (
 err
-ConnectionError
+CloseReason
 :
 :
 Application

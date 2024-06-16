@@ -77,8 +77,8 @@ streams
 :
 SendOrder
 AppError
+CloseReason
 Connection
-ConnectionError
 DatagramTracking
 State
 StreamId
@@ -388,11 +388,11 @@ StreamId
 )
 Closing
 (
-ConnectionError
+CloseReason
 )
 Closed
 (
-ConnectionError
+CloseReason
 )
 }
 impl
@@ -3218,7 +3218,7 @@ Http3State
 :
 Closing
 (
-ConnectionError
+CloseReason
 :
 :
 Application

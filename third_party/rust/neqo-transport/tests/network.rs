@@ -18,7 +18,7 @@ neqo_transport
 :
 :
 {
-ConnectionError
+CloseReason
 ConnectionParameters
 Error
 State
@@ -243,7 +243,7 @@ State
 :
 Closed
 (
-ConnectionError
+CloseReason
 :
 :
 Transport
@@ -275,7 +275,7 @@ State
 :
 Closed
 (
-ConnectionError
+CloseReason
 :
 :
 Transport
@@ -343,7 +343,7 @@ State
 :
 Closed
 (
-ConnectionError
+CloseReason
 :
 :
 Transport
@@ -426,7 +426,7 @@ State
 :
 Closed
 (
-ConnectionError
+CloseReason
 :
 :
 Transport

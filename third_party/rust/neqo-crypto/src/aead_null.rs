@@ -1,17 +1,3 @@
-#
-!
-[
-cfg
-(
-feature
-=
-"
-disable
--
-encryption
-"
-)
-]
 use
 std
 :

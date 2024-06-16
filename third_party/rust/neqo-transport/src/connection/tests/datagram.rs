@@ -73,8 +73,8 @@ send_stream
 RetransmissionPriority
 TransmissionPriority
 }
+CloseReason
 Connection
-ConnectionError
 ConnectionParameters
 Error
 StreamType
@@ -2678,7 +2678,7 @@ assert_error
 &
 client
 &
-ConnectionError
+CloseReason
 :
 :
 Transport
@@ -2817,7 +2817,7 @@ assert_error
 &
 client
 &
-ConnectionError
+CloseReason
 :
 :
 Transport
@@ -4306,6 +4306,10 @@ client
 paths
 .
 primary
+(
+)
+.
+unwrap
 (
 )
 ;

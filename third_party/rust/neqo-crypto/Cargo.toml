@@ -109,7 +109,7 @@ version
 "
 1
 .
-74
+76
 .
 0
 "
@@ -127,7 +127,7 @@ version
 .
 7
 .
-5
+7
 "
 authors
 =
@@ -383,6 +383,12 @@ features
 disable
 -
 encryption
+=
+[
+]
+disable
+-
+random
 =
 [
 ]

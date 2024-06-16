@@ -1284,7 +1284,7 @@ crate
 :
 :
 {
-ConnectionError
+CloseReason
 ConnectionEvent
 ConnectionEvents
 Error
@@ -1800,7 +1800,7 @@ State
 :
 Closed
 (
-ConnectionError
+CloseReason
 :
 :
 Transport

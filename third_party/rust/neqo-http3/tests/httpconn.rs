@@ -64,7 +64,7 @@ neqo_transport
 :
 :
 {
-ConnectionError
+CloseReason
 ConnectionParameters
 Error
 Output
@@ -3009,7 +3009,7 @@ assert_eq
 !
 (
 error_code
-ConnectionError
+CloseReason
 :
 :
 Transport

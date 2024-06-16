@@ -423,7 +423,7 @@ Datagram
 IpTos
 (
 Cs0
-NotEct
+Ect0
 )
 TTL
 Some
