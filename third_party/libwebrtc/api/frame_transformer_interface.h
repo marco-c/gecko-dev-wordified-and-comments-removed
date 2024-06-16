@@ -303,14 +303,9 @@ SequenceNumber
 (
 )
 const
-{
-return
-absl
-:
-:
-nullopt
+=
+0
 ;
-}
 virtual
 absl
 :
