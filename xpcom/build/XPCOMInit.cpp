@@ -2127,10 +2127,6 @@ RegisterCategoryProviders
 (
 )
 ;
-profiler_lookup_download_directory
-(
-)
-;
 mozilla
 :
 :
