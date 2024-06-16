@@ -2414,6 +2414,14 @@ aChar
 ;
 static
 bool
+IsHyphen
+(
+uint32_t
+aChar
+)
+;
+static
+bool
 IsHTMLWhitespace
 (
 char16_t
