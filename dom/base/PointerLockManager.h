@@ -156,7 +156,7 @@ aContext
 )
 ;
 static
-bool
+void
 SetLockedRemoteTarget
 (
 dom
@@ -165,6 +165,9 @@ dom
 BrowserParent
 *
 aBrowserParent
+nsACString
+&
+aError
 )
 ;
 static

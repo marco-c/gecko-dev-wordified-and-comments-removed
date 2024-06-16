@@ -1694,6 +1694,10 @@ nsMenuPopupFrame
 >
 &
 aPopups
+bool
+aIncludeNativeMenu
+=
+false
 )
 ;
 already_AddRefed
