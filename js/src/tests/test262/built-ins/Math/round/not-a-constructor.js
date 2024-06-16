@@ -40,16 +40,6 @@ round
 )
 ;
 }
-'
-new
-Math
-.
-round
-(
-)
-throws
-TypeError
-'
 )
 ;
 reportCompare

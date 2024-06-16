@@ -4,7 +4,7 @@ instance
 new
 Temporal
 .
-PlainDate
+PlainDateTime
 (
 1976
 11

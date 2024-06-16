@@ -49,14 +49,6 @@ proxy
 )
 ;
 }
-'
-new
-proxy
-(
-)
-throws
-TypeError
-'
 )
 ;
 reportCompare

@@ -40,16 +40,6 @@ parseInt
 )
 ;
 }
-'
-new
-Number
-.
-parseInt
-(
-)
-throws
-TypeError
-'
 )
 ;
 reportCompare

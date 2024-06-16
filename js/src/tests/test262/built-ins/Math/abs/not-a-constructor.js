@@ -40,16 +40,6 @@ abs
 )
 ;
 }
-'
-new
-Math
-.
-abs
-(
-)
-throws
-TypeError
-'
 )
 ;
 reportCompare

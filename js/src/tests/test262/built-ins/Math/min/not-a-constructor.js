@@ -40,16 +40,6 @@ min
 )
 ;
 }
-'
-new
-Math
-.
-min
-(
-)
-throws
-TypeError
-'
 )
 ;
 reportCompare

@@ -40,16 +40,6 @@ reject
 )
 ;
 }
-'
-new
-Promise
-.
-reject
-(
-)
-throws
-TypeError
-'
 )
 ;
 reportCompare

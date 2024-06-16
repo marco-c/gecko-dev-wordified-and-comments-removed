@@ -40,16 +40,6 @@ isNaN
 )
 ;
 }
-'
-new
-Number
-.
-isNaN
-(
-)
-throws
-TypeError
-'
 )
 ;
 reportCompare
