@@ -1520,7 +1520,7 @@ test
 /
 mochitest
 /
-MockServices
+MockAlertsService
 .
 js
 "
