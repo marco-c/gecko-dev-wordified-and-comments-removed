@@ -6178,7 +6178,7 @@ this
 ;
 }
 ;
-bool
+nsresult
 NVImage
 :
 :
@@ -6280,9 +6280,11 @@ isValid
 (
 )
 )
+{
 return
-false
+NS_ERROR_INVALID_ARG
 ;
+}
 const
 auto
 size
@@ -6307,7 +6309,7 @@ mBuffer
 )
 {
 return
-false
+NS_ERROR_OUT_OF_MEMORY
 ;
 }
 mBufferSize
@@ -6386,7 +6388,7 @@ mBufferSize
 )
 ;
 return
-true
+NS_OK
 ;
 }
 const

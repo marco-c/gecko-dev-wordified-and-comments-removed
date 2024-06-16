@@ -2895,7 +2895,7 @@ AsNVImage
 )
 override
 ;
-bool
+nsresult
 SetData
 (
 const

@@ -5794,13 +5794,15 @@ NVImage
 ;
 if
 (
-!
+NS_FAILED
+(
 image
 -
 >
 SetData
 (
 data
+)
 )
 )
 {
