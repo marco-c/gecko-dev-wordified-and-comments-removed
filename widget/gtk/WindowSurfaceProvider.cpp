@@ -58,6 +58,13 @@ ScopeExit
 h
 "
 #
+include
+"
+WidgetUtilsGtk
+.
+h
+"
+#
 ifdef
 MOZ_WAYLAND
 #
