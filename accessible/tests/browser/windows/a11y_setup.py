@@ -1528,7 +1528,8 @@ uiaClient
 .
 RawViewCondition
     
-return
+el
+=
 root
 .
 FindFirstBuildCache
@@ -1538,6 +1539,24 @@ uiaMod
 TreeScope_Descendants
 cond
 request
+)
+    
+if
+not
+el
+:
+        
+return
+None
+    
+return
+el
+.
+QueryInterface
+(
+uiaMod
+.
+IUIAutomationElement9
 )
 class
 WaitForUiaEvent
