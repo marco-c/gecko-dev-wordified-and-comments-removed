@@ -300,6 +300,11 @@ clipboard
 queryContext
 .
 searchString
+|
+|
+queryContext
+.
+searchMode
 )
 {
 return
