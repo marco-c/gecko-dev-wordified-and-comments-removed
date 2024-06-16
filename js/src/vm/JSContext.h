@@ -2298,6 +2298,15 @@ regExpSearcherLastLimit
 )
 ;
 }
+js
+:
+:
+ContextData
+<
+uint32_t
+>
+isEvaluatingModule
+;
 private
 :
 js
