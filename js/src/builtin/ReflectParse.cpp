@@ -2045,7 +2045,7 @@ HandleValue
 moduleSpec
 NodeVector
 &
-assertions
+attributes
 TokenPos
 *
 pos
@@ -5595,7 +5595,7 @@ HandleValue
 moduleSpec
 NodeVector
 &
-assertions
+attributes
 TokenPos
 *
 pos
@@ -5614,7 +5614,7 @@ if
 !
 newArray
 (
-assertions
+attributes
 &
 array
 )
@@ -10325,7 +10325,7 @@ ImportAttributeList
 )
 ;
 NodeVector
-assertions
+attributes
 (
 cx
 )
@@ -10336,7 +10336,7 @@ if
 importAttributes
 (
 attributeList
-assertions
+attributes
 )
 )
 {
@@ -10352,7 +10352,7 @@ builder
 moduleRequest
 (
 moduleSpec
-assertions
+attributes
 &
 exportNode
 -
@@ -10745,7 +10745,7 @@ false
 ;
 }
 RootedValue
-assertion
+attribute
 (
 cx
 )
@@ -10765,7 +10765,7 @@ attributeNode
 >
 pn_pos
 &
-assertion
+attribute
 )
 )
 {
@@ -10780,7 +10780,7 @@ attributes
 .
 append
 (
-assertion
+attribute
 )
 )
 {

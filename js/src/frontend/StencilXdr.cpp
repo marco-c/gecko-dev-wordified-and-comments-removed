@@ -3723,7 +3723,7 @@ XDRVectorContent
 xdr
 stencil
 .
-assertions
+attributes
 )
 )
 ;

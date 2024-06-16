@@ -395,7 +395,7 @@ frontend
 :
 ListNode
 *
-assertionList
+attributeList
 )
 ;
 bool
@@ -450,7 +450,7 @@ nodiscard
 ]
 ]
 bool
-processAssertions
+processAttributes
 (
 frontend
 :
@@ -463,7 +463,7 @@ frontend
 :
 ListNode
 *
-assertionList
+attributeList
 )
 ;
 [
@@ -472,7 +472,7 @@ nodiscard
 ]
 ]
 bool
-isAssertionSupported
+isAttributeSupported
 (
 frontend
 :
