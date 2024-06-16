@@ -3928,7 +3928,7 @@ IsBlockFrame
 aFrame
 -
 >
-IsScrollFrame
+IsScrollContainerFrame
 (
 )
 &

@@ -10897,7 +10897,7 @@ if
 aForFrame
 -
 >
-IsScrollFrame
+IsScrollContainerFrame
 (
 )
 &
@@ -13893,7 +13893,7 @@ frameType
 LayoutFrameType
 :
 :
-Scroll
+ScrollContainer
 &
 &
 StyleImageLayerAttachment

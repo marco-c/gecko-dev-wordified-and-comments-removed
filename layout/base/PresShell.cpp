@@ -12072,7 +12072,7 @@ theFrame
 theFrame
 -
 >
-IsScrollFrame
+IsScrollContainerFrame
 (
 )
 )
