@@ -174,9 +174,7 @@ mockPressureService
 .
 startPlatformCollector
 (
-5
-.
-0
+200
 )
 ;
 }

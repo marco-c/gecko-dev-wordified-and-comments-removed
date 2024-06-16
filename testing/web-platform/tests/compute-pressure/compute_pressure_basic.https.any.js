@@ -153,9 +153,7 @@ mockPressureService
 .
 startPlatformCollector
 (
-5
-.
-0
+200
 )
 ;
 }
@@ -293,9 +291,7 @@ mockPressureService
 .
 startPlatformCollector
 (
-5
-.
-0
+200
 )
 ;
 return
@@ -437,9 +433,7 @@ mockPressureService
 .
 startPlatformCollector
 (
-5
-.
-0
+200
 )
 ;
 return
@@ -550,9 +544,7 @@ mockPressureService
 .
 startPlatformCollector
 (
-5
-.
-0
+200
 )
 ;
 }
