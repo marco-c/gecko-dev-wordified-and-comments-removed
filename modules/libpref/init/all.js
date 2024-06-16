@@ -7463,7 +7463,6 @@ secure
 gzip
 deflate
 br
-zstd
 "
 )
 ;

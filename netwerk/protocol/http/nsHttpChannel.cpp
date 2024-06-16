@@ -36721,14 +36721,6 @@ APPLICATION_BROTLI
 |
 contentType
 .
-EqualsLiteral
-(
-APPLICATION_ZSTD
-)
-|
-|
-contentType
-.
 Find
 (
 "

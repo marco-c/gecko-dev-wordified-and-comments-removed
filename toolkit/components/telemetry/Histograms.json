@@ -41406,9 +41406,6 @@ deflate
 3
 =
 brotli
-4
-=
-zstd
 "
 }
 "
