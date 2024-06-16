@@ -477,7 +477,7 @@ considerably
 -
 Cookies
 are
-explicitely
+explicitly
 not
 supported
 at

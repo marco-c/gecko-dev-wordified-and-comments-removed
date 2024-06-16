@@ -56,7 +56,7 @@ where
 an
 error
 is
-occuring
+occurring
 .
 -
 Without
@@ -847,7 +847,7 @@ which
 makes
 it
 very
-diffucult
+difficult
 to
 be
 completely

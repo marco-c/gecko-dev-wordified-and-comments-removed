@@ -1128,6 +1128,7 @@ storage
 .
 replace_remote_tabs
 (
+&
 remote_tabs
 )
 ?
@@ -1137,6 +1138,15 @@ storage
 .
 remove_stale_clients
 (
+)
+?
+;
+storage
+.
+remove_old_pending_closures
+(
+&
+remote_tabs
 )
 ?
 ;

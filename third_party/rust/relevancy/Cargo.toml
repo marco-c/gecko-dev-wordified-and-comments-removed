@@ -208,6 +208,13 @@ serde_json
 "
 1
 "
+serde_path_to_error
+=
+"
+0
+.
+1
+"
 thiserror
 =
 "

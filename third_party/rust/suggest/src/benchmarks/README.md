@@ -60,7 +60,7 @@ empty
 database
 .
 The
-bechmark
+benchmark
 downloads
 network
 resources

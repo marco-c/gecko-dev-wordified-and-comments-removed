@@ -11,7 +11,7 @@ all
 current
 and
 future
-interruptable
+interruptible
 operations
 to
 be

@@ -508,7 +508,7 @@ id
 A
 *
 *
-WebExtenstion
+WebExtension
 Store
 *
 *
