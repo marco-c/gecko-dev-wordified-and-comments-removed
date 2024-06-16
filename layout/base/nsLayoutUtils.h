@@ -5668,12 +5668,6 @@ aDisplaySize
 )
 ;
 static
-bool
-GPUImageScalingEnabled
-(
-)
-;
-static
 void
 UnionChildOverflow
 (
