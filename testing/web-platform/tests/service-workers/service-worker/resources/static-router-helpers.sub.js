@@ -179,6 +179,7 @@ async
 test
 ruleKey
 swScript
+swScope
 )
 =
 >
@@ -203,6 +204,17 @@ sw
 js
 '
 }
+if
+(
+!
+swScope
+)
+{
+swScope
+=
+scriptDir
+;
+}
 const
 swURL
 =
@@ -215,11 +227,6 @@ key
 {
 ruleKey
 }
-;
-const
-swScope
-=
-scriptDir
 ;
 const
 reg
