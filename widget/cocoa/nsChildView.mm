@@ -7311,16 +7311,6 @@ aThemeGeometries
 eThemeGeometryTypeWindowButtons
 )
 ;
-if
-(
-!
-windowButtonRect
-.
-IsEmpty
-(
-)
-)
-{
 [
 win
 placeWindowButtons
@@ -7339,7 +7329,6 @@ nil
 ]
 ]
 ;
-}
 }
 static
 Maybe
