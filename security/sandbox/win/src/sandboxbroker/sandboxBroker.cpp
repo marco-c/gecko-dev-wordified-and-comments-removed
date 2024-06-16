@@ -4784,16 +4784,6 @@ aSandboxLevel
 4
 )
 {
-bool
-useAlternateWinstation
-=
-StaticPrefs
-:
-:
-widget_non_native_theme_enabled
-(
-)
-;
 result
 =
 mPolicy
@@ -4801,7 +4791,7 @@ mPolicy
 >
 SetAlternateDesktop
 (
-useAlternateWinstation
+true
 )
 ;
 if
