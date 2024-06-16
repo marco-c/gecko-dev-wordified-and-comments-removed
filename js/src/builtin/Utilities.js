@@ -428,11 +428,11 @@ s
 {
 if
 (
-ctor
+s
 !
 =
 =
-defaultConstructor
+ctor
 )
 {
 ReportUsageCounter
