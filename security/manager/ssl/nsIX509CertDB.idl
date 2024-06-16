@@ -669,5 +669,11 @@ nsIAsyncBoolCallback
 callback
 )
 ;
+unsigned
+long
+countTrustObjects
+(
+)
+;
 }
 ;
