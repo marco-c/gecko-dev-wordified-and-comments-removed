@@ -11,8 +11,6 @@ eThemeGeometryTypeTitlebar
 =
 1
 eThemeGeometryTypeWindowButtons
-eThemeGeometryTypeMenu
-eThemeGeometryTypeTooltip
 }
 ;
 #
