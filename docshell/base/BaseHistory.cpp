@@ -194,6 +194,14 @@ page
 thumb
 "
 _ns
+"
+x
+-
+moz
+-
+ews
+"
+_ns
 }
 ;
 bool
