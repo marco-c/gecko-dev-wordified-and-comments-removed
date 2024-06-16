@@ -7533,7 +7533,7 @@ ColumnNumberOneOrigin
 (
 columnNumber
 .
-toLimitedColumnNumber
+oneOriginValue
 (
 )
 )
