@@ -1215,10 +1215,6 @@ Translate
 )
 }
 }
-onReviewCheckerMenuClick
-=
-{
-}
 onPrintMenuClick
 =
 {
