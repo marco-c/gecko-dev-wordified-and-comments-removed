@@ -158,9 +158,17 @@ define
 HAVE_AS_FUNC
 0
 #
+if
+defined
+(
+__linux__
+)
+#
 define
 HAVE_GETAUXVAL
 1
+#
+endif
 #
 define
 PIC
