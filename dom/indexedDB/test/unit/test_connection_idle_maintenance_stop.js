@@ -7,7 +7,7 @@ testSteps
 const
 cosmologicalConstant
 =
-35000
+32768
 ;
 const
 maxConnectionThreadCount
