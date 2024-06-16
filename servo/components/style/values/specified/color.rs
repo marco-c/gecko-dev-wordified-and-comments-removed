@@ -40,7 +40,6 @@ parsing
 :
 {
 self
-ColorParser
 FromParsedColor
 NumberOrAngle
 NumberOrPercentage
@@ -3256,18 +3255,6 @@ authored
 }
 }
 ;
-let
-color_parser
-=
-ColorParser
-:
-:
-new
-(
-&
-context
-)
-;
 match
 input
 .
@@ -3281,8 +3268,7 @@ parsing
 :
 parse_color_with
 (
-&
-color_parser
+context
 i
 )
 )
