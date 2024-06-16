@@ -12,14 +12,6 @@ VideoDecoder
 {
 Override
 public
-abstract
-long
-createNativeVideoDecoder
-(
-)
-;
-Override
-public
 final
 VideoCodecStatus
 initDecode
