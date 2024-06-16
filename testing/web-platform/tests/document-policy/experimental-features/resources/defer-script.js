@@ -1,6 +1,0 @@
-window
-.
-didExecuteExternalDeferredScript
-=
-true
-;
