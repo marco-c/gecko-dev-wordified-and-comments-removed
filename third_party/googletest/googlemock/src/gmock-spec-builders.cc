@@ -2560,7 +2560,7 @@ qurt_exception_raise_fatal
 ;
 #
 else
-_exit
+_Exit
 (
 1
 )

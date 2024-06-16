@@ -29,6 +29,11 @@ type_traits
 #
 include
 <
+utility
+>
+#
+include
+<
 vector
 >
 #
@@ -1486,7 +1491,10 @@ Tuple
 &
 &
 args
-IndexSequence
+std
+:
+:
+index_sequence
 <
 Idx
 .
@@ -1616,7 +1624,10 @@ Tuple
 (
 args
 )
-MakeIndexSequence
+std
+:
+:
+make_index_sequence
 <
 std
 :
@@ -1667,7 +1678,10 @@ Tuple
 (
 args
 )
-MakeIndexSequence
+std
+:
+:
+make_index_sequence
 <
 std
 :

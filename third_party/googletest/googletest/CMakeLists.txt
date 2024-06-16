@@ -1122,6 +1122,12 @@ MATCHES
 "
 QNX
 "
+AND
+CMAKE_SYSTEM_VERSION
+VERSION_GREATER_EQUAL
+7
+.
+1
 )
 target_link_libraries
 (

@@ -399,8 +399,10 @@ override
 }
 ;
 \
+GTEST_INTERNAL_ATTRIBUTE_MAYBE_UNUSED
 static
 bool
+\
 gtest_
 #
 #
@@ -414,9 +416,8 @@ TestName
 #
 #
 _registered_
-\
-GTEST_ATTRIBUTE_UNUSED_
 =
+\
 :
 :
 testing
@@ -442,8 +443,8 @@ TemplateSel
 <
 GTEST_TEST_CLASS_NAME_
 (
-CaseName
 \
+CaseName
 TestName
 )
 >
@@ -710,8 +711,10 @@ override
 }
 ;
 \
+GTEST_INTERNAL_ATTRIBUTE_MAYBE_UNUSED
 static
 bool
+\
 gtest_
 #
 #
@@ -719,7 +722,6 @@ TestName
 #
 #
 _defined_
-GTEST_ATTRIBUTE_UNUSED_
 =
 \
 GTEST_TYPED_TEST_SUITE_P_STATE_
@@ -804,17 +806,17 @@ gtest_AllTests_
 \
 }
 \
+GTEST_INTERNAL_ATTRIBUTE_MAYBE_UNUSED
 static
 const
 char
 *
 const
+\
 GTEST_REGISTERED_TEST_NAMES_
 (
-\
 SuiteName
 )
-GTEST_ATTRIBUTE_UNUSED_
 =
 \
 GTEST_TYPED_TEST_SUITE_P_STATE_
@@ -901,8 +903,10 @@ empty
 )
 ;
 \
+GTEST_INTERNAL_ATTRIBUTE_MAYBE_UNUSED
 static
 bool
+\
 gtest_
 #
 #
@@ -913,7 +917,6 @@ _
 #
 #
 SuiteName
-GTEST_ATTRIBUTE_UNUSED_
 =
 \
 :
@@ -957,6 +960,7 @@ type
 \
 Register
 (
+\
 GTEST_STRINGIFY_
 (
 Prefix
