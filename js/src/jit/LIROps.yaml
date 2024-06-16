@@ -11796,6 +11796,9 @@ operands
 object
 :
 WordSized
+mir_op
+:
+true
 -
 name
 :
