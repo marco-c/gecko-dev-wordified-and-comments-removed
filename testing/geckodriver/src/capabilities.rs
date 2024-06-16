@@ -94,7 +94,6 @@ mozversion
 :
 :
 {
-self
 firefox_binary_version
 firefox_version
 Version
