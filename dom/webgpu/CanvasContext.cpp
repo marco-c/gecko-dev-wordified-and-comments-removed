@@ -768,7 +768,7 @@ mBridge
 mBridge
 -
 >
-IsOpen
+CanSend
 (
 )
 &
@@ -1098,7 +1098,7 @@ mBridge
 mBridge
 -
 >
-IsOpen
+CanSend
 (
 )
 |
@@ -1670,7 +1670,7 @@ mBridge
 mBridge
 -
 >
-IsOpen
+CanSend
 (
 )
 |

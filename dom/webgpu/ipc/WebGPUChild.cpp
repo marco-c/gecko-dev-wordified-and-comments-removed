@@ -1443,7 +1443,7 @@ aDeviceId
 {
 if
 (
-IsOpen
+CanSend
 (
 )
 )

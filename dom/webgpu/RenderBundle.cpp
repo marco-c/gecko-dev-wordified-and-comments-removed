@@ -133,7 +133,7 @@ if
 bridge
 -
 >
-IsOpen
+CanSend
 (
 )
 )

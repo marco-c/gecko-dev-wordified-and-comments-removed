@@ -675,7 +675,7 @@ bridge
 bridge
 -
 >
-IsOpen
+CanSend
 (
 )
 )
