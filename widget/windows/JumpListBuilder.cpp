@@ -761,7 +761,7 @@ this
 JumpListBuilder
 :
 :
-DoSetAppID
+DoSetAppIDIfAvailable
 aAppUserModelId
 )
 NS_DISPATCH_NORMAL
@@ -868,7 +868,7 @@ void
 JumpListBuilder
 :
 :
-DoSetAppID
+DoSetAppIDIfAvailable
 (
 nsString
 aAppUserModelID
@@ -887,6 +887,16 @@ MOZ_ASSERT
 mJumpListBackend
 )
 ;
+if
+(
+mJumpListBackend
+-
+>
+IsAvailable
+(
+)
+)
+{
 mJumpListBackend
 -
 >
@@ -899,6 +909,7 @@ get
 )
 )
 ;
+}
 }
 NS_IMETHODIMP
 JumpListBuilder
