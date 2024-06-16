@@ -76,6 +76,10 @@ mozilla
 :
 glean
 {
+typedef
+uint64_t
+TimerId
+;
 class
 GleanMetric
 :
