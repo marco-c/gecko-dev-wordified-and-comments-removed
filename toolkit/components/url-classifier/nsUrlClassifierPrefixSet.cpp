@@ -175,6 +175,12 @@ nsUrlClassifierPrefixSet
 (
 )
 {
+MutexAutoLock
+lock
+(
+mLock
+)
+;
 for
 (
 uint32_t
