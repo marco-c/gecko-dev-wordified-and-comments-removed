@@ -7,6 +7,15 @@ LIB_JXL_JPEG_ENC_JPEG_DATA_H_
 #
 include
 <
+jxl
+/
+memory_manager
+.
+h
+>
+#
+include
+<
 cstdint
 >
 #
@@ -85,6 +94,9 @@ jpeg
 Status
 EncodeJPEGData
 (
+JxlMemoryManager
+*
+memory_manager
 JPEGData
 &
 jpeg_data

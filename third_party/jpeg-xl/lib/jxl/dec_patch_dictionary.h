@@ -7,6 +7,15 @@ LIB_JXL_DEC_PATCH_DICTIONARY_H_
 #
 include
 <
+jxl
+/
+memory_manager
+.
+h
+>
+#
+include
+<
 sys
 /
 types
@@ -254,6 +263,9 @@ empty
 Status
 Decode
 (
+JxlMemoryManager
+*
+memory_manager
 BitReader
 *
 br

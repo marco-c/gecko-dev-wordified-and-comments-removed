@@ -7,6 +7,15 @@ LIB_JXL_RENDER_PIPELINE_STAGE_WRITE_H_
 #
 include
 <
+jxl
+/
+memory_manager
+.
+h
+>
+#
+include
+<
 cstddef
 >
 #
@@ -117,6 +126,9 @@ RenderPipelineStage
 >
 GetWriteToImage3FStage
 (
+JxlMemoryManager
+*
+memory_manager
 Image3F
 *
 image
@@ -156,6 +168,9 @@ ImageOutput
 >
 &
 extra_output
+JxlMemoryManager
+*
+memory_manager
 )
 ;
 }

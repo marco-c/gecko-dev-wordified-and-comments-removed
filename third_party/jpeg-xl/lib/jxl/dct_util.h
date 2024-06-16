@@ -7,6 +7,15 @@ LIB_JXL_DCT_UTIL_H_
 #
 include
 <
+jxl
+/
+memory_manager
+.
+h
+>
+#
+include
+<
 cstddef
 >
 #
@@ -307,6 +316,9 @@ ACImageT
 >
 Make
 (
+JxlMemoryManager
+*
+memory_manager
 size_t
 xsize
 size_t
@@ -386,6 +398,7 @@ T
 :
 Create
 (
+memory_manager
 xsize
 ysize
 )

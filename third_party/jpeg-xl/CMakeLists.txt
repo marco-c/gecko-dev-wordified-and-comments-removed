@@ -3134,11 +3134,7 @@ if
 ASCIIDOC_SHEBANG
 MATCHES
 "
-/
 sh
-|
-/
-bash
 "
 OR
 MINGW

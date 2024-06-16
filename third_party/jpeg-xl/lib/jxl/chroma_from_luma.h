@@ -7,6 +7,15 @@ LIB_JXL_CHROMA_FROM_LUMA_H_
 #
 include
 <
+jxl
+/
+memory_manager
+.
+h
+>
+#
+include
+<
 cmath
 >
 #
@@ -234,6 +243,9 @@ ColorCorrelationMap
 >
 Create
 (
+JxlMemoryManager
+*
+memory_manager
 size_t
 xsize
 size_t

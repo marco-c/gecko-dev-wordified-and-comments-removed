@@ -14,14 +14,16 @@ include
 <
 jxl
 /
-types
+memory_manager
 .
 h
 >
 #
 include
 <
-stdint
+jxl
+/
+types
 .
 h
 >
@@ -49,16 +51,6 @@ cstdint
 include
 <
 limits
->
-#
-include
-<
-numeric
->
-#
-include
-<
-type_traits
 >
 #
 include
@@ -2846,6 +2838,9 @@ method
 size_t
 BuildAndStoreANSEncodingData
 (
+JxlMemoryManager
+*
+memory_manager
 HistogramParams
 :
 :
@@ -2974,6 +2969,9 @@ nullptr
 {
 BitWriter
 tmp_writer
+{
+memory_manager
+}
 ;
 BitWriter
 :
@@ -4762,6 +4760,9 @@ symbol
 size_t
 BuildAndStoreEntropyCodes
 (
+JxlMemoryManager
+*
+memory_manager
 const
 HistogramParams
 &
@@ -5513,6 +5514,7 @@ encoded_histograms
 .
 emplace_back
 (
+memory_manager
 )
 ;
 histo_writer
@@ -5547,6 +5549,7 @@ cost
 =
 BuildAndStoreANSEncodingData
 (
+memory_manager
 params
 .
 ans_histogram_strategy
@@ -10716,6 +10719,9 @@ aux_out
 size_t
 BuildAndEncodeHistograms
 (
+JxlMemoryManager
+*
+memory_manager
 const
 HistogramParams
 &
@@ -11515,6 +11521,7 @@ encoded_histograms
 .
 emplace_back
 (
+memory_manager
 )
 ;
 BitWriter
@@ -11547,6 +11554,7 @@ alphabet_size
 ;
 BuildAndStoreANSEncodingData
 (
+memory_manager
 params
 .
 ans_histogram_strategy
@@ -11593,6 +11601,7 @@ builder
 .
 BuildAndStoreEntropyCodes
 (
+memory_manager
 params
 tokens
 codes

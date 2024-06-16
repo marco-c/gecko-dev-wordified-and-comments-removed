@@ -7,6 +7,15 @@ LIB_JXL_SPLINES_H_
 #
 include
 <
+jxl
+/
+memory_manager
+.
+h
+>
+#
+include
+<
 array
 >
 #
@@ -497,6 +506,9 @@ Clear
 Status
 Decode
 (
+JxlMemoryManager
+*
+memory_manager
 BitReader
 *
 br

@@ -12,7 +12,9 @@ h
 #
 include
 <
-string
+jxl
+/
+memory_manager
 .
 h
 >
@@ -20,6 +22,11 @@ h
 include
 <
 algorithm
+>
+#
+include
+<
+cstring
 >
 #
 include
@@ -491,6 +498,9 @@ AcStrategyImage
 :
 Create
 (
+JxlMemoryManager
+*
+memory_manager
 size_t
 xsize
 size_t
@@ -510,6 +520,7 @@ ImageB
 :
 Create
 (
+memory_manager
 xsize
 ysize
 )

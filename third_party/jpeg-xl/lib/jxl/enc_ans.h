@@ -7,6 +7,15 @@ LIB_JXL_ENC_ANS_H_
 #
 include
 <
+jxl
+/
+memory_manager
+.
+h
+>
+#
+include
+<
 cstddef
 >
 #
@@ -423,6 +432,9 @@ aux_out
 size_t
 BuildAndEncodeHistograms
 (
+JxlMemoryManager
+*
+memory_manager
 const
 HistogramParams
 &

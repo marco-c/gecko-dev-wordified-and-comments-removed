@@ -7,6 +7,15 @@ LIB_JXL_BLENDING_H_
 #
 include
 <
+jxl
+/
+memory_manager
+.
+h
+>
+#
+include
+<
 cstddef
 >
 #
@@ -75,6 +84,9 @@ frame_header
 Status
 PerformBlending
 (
+JxlMemoryManager
+*
+memory_manager
 const
 float
 *

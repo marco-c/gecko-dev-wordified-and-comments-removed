@@ -7,6 +7,15 @@ LIB_JXL_COEFF_ORDER_H_
 #
 include
 <
+jxl
+/
+memory_manager
+.
+h
+>
+#
+include
+<
 array
 >
 #
@@ -270,6 +279,9 @@ val
 Status
 DecodeCoeffOrders
 (
+JxlMemoryManager
+*
+memory_manager
 uint16_t
 used_orders
 uint32_t
@@ -285,6 +297,9 @@ br
 Status
 DecodePermutation
 (
+JxlMemoryManager
+*
+memory_manager
 size_t
 skip
 size_t

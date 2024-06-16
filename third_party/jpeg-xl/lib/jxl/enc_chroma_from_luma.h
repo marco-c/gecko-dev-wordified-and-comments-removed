@@ -7,6 +7,15 @@ LIB_JXL_ENC_CHROMA_FROM_LUMA_H_
 #
 include
 <
+jxl
+/
+memory_manager
+.
+h
+>
+#
+include
+<
 cstddef
 >
 #
@@ -142,6 +151,9 @@ CfLHeuristics
 Status
 Init
 (
+JxlMemoryManager
+*
+memory_manager
 const
 Rect
 &

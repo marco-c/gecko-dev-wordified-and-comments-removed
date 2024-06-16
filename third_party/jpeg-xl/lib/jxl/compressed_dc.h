@@ -6,6 +6,15 @@ define
 LIB_JXL_COMPRESSED_DC_H_
 #
 include
+<
+jxl
+/
+memory_manager
+.
+h
+>
+#
+include
 "
 lib
 /
@@ -95,6 +104,9 @@ jxl
 Status
 AdaptiveDCSmoothing
 (
+JxlMemoryManager
+*
+memory_manager
 const
 float
 *
