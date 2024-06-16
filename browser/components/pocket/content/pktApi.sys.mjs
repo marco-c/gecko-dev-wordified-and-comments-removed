@@ -2005,11 +2005,6 @@ request
 new
 XMLHttpRequest
 (
-{
-mozAnon
-:
-false
-}
 )
 ;
 if

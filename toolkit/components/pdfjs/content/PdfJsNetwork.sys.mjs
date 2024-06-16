@@ -271,11 +271,6 @@ return
 new
 XMLHttpRequest
 (
-{
-mozAnon
-:
-false
-}
 )
 ;
 }

@@ -558,9 +558,6 @@ const
 RequestInit
 &
 aInit
-const
-CallerType
-aCallerType
 ErrorResult
 &
 rv

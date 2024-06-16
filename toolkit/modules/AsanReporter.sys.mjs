@@ -893,12 +893,6 @@ xhr
 new
 XMLHttpRequest
 (
-{
-mozAnon
-:
-!
-auth_token
-}
 )
 ;
 xhr
