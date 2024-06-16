@@ -1436,6 +1436,7 @@ event
 clickAsPointer
 &
 &
+(
 aEvent
 .
 type
@@ -1444,6 +1445,17 @@ type
 "
 click
 "
+|
+|
+aEvent
+.
+type
+=
+=
+"
+contextmenu
+"
+)
 ?
 new
 aWindow

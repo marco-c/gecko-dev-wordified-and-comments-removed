@@ -759,6 +759,15 @@ nsIWidget
 aRootWidget
 )
 {
+MOZ_ASSERT
+(
+!
+IsPointerEventMessage
+(
+aMessage
+)
+)
+;
 WidgetMouseEvent
 event
 (
@@ -769,10 +778,6 @@ WidgetMouseEvent
 :
 :
 eReal
-WidgetMouseEvent
-:
-:
-eNormal
 )
 ;
 event

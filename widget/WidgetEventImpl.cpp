@@ -357,6 +357,9 @@ ePointerClick
 case
 ePointerAuxClick
 :
+case
+eContextMenu
+:
 return
 StaticPrefs
 :
@@ -399,6 +402,12 @@ aMessage
 =
 =
 ePointerAuxClick
+|
+|
+aMessage
+=
+=
+eContextMenu
 )
 ;
 }
