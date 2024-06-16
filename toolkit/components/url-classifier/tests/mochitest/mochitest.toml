@@ -27,7 +27,9 @@ classifierHelper
 js
 "
 "
-cleanWorker
+clean
+.
+worker
 .
 js
 "
@@ -68,7 +70,9 @@ headers
 ^
 "
 "
-evilWorker
+evil
+.
+worker
 .
 js
 "
@@ -116,7 +120,9 @@ headers
 ^
 "
 "
-unwantedWorker
+unwanted
+.
+worker
 .
 js
 "

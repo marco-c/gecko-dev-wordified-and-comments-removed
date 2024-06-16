@@ -26,7 +26,9 @@ xpcshellTestHarnessAdaptor
 js
 "
 "
-ctypes_worker
+ctypes
+.
+worker
 .
 js
 "

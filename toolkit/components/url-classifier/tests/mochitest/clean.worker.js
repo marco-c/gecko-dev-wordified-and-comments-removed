@@ -9,7 +9,9 @@ try
 importScripts
 (
 "
-evilWorker
+evil
+.
+worker
 .
 js
 "

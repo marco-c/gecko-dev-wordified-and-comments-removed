@@ -42,7 +42,9 @@ file_with_images
 html
 "
 "
-webrequest_chromeworker
+webrequest_chrome
+.
+worker
 .
 js
 "
