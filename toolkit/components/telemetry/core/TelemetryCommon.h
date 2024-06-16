@@ -224,14 +224,6 @@ Fennec
 <
 1
 )
-GeckoviewStreaming
-=
-(
-1
-<
-<
-3
-)
 Thunderbird
 =
 (

@@ -40268,10 +40268,6 @@ fennec
 '
 -
 '
-geckoview_streaming
-'
--
-'
 thunderbird
 '
 record_in_processes
@@ -40350,10 +40346,6 @@ fennec
 '
 -
 '
-geckoview_streaming
-'
--
-'
 thunderbird
 '
 record_in_processes
@@ -40417,10 +40409,6 @@ firefox
 -
 '
 fennec
-'
--
-'
-geckoview_streaming
 '
 -
 '

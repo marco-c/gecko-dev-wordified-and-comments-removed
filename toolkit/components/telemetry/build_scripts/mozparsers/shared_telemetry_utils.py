@@ -82,11 +82,6 @@ all_childs
 AllChildren
 "
 }
-GECKOVIEW_STREAMING_PRODUCT
-=
-"
-geckoview_streaming
-"
 SUPPORTED_PRODUCTS
 =
 {
@@ -105,12 +100,6 @@ fennec
 :
 "
 Fennec
-"
-    
-GECKOVIEW_STREAMING_PRODUCT
-:
-"
-GeckoviewStreaming
 "
     
 "
@@ -515,18 +504,6 @@ return
 name
 in
 SUPPORTED_PRODUCTS
-def
-is_geckoview_streaming_product
-(
-name
-)
-:
-    
-return
-name
-=
-=
-GECKOVIEW_STREAMING_PRODUCT
 def
 is_valid_os
 (

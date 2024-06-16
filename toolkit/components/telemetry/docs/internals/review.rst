@@ -705,8 +705,7 @@ our
 products
 :
 Firefox
-Fennec
-GeckoView
+Fenix
 Glean
 .
 -

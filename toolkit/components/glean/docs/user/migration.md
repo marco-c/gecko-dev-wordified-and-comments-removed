@@ -1244,9 +1244,6 @@ products
 "
 firefox
 "
-"
-geckoview_streaming
-"
 ]
 "
 alert_emails
@@ -2115,12 +2112,6 @@ products
 "
 firefox
 "
-"
-fennec
-"
-"
-geckoview_streaming
-"
 ]
 "
 alert_emails
@@ -2655,9 +2646,6 @@ products
 [
 "
 firefox
-"
-"
-geckoview_streaming
 "
 ]
 "
@@ -3958,7 +3946,7 @@ products
 :
 -
 '
-geckoview_streaming
+firefox
 '
 record_in_processes
 :
