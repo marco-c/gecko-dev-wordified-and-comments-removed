@@ -205,6 +205,11 @@ Event
 "
 command
 "
+{
+bubbles
+:
+true
+}
 )
 )
 ;
