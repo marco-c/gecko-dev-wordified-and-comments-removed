@@ -4051,21 +4051,6 @@ logging
 .
 WARN
     
-if
-sys
-.
-version_info
-[
-:
-2
-]
->
-(
-2
-3
-)
-:
-        
 logging
 .
 basicConfig
@@ -4079,15 +4064,6 @@ message
 )
 s
 "
-)
-    
-else
-:
-        
-logging
-.
-basicConfig
-(
 )
     
 logging

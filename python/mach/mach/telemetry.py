@@ -159,17 +159,8 @@ isn
 '
 t
 enabled
-the
-current
-interpreter
-isn
-'
-t
-Python
-3
 or
 Glean
-    
 can
 '
 t
@@ -181,6 +172,7 @@ a
 mock
 "
 telemetry
+    
 instance
 is
 returned
@@ -188,7 +180,6 @@ that
 doesn
 '
 t
-    
 set
 or
 record
@@ -198,11 +189,11 @@ data
 This
 allows
 consumers
+    
 to
 optimistically
 set
 telemetry
-    
 data
 without
 needing
@@ -210,12 +201,12 @@ to
 specifically
 handle
 the
+    
 case
 where
 the
 current
 system
-    
 doesn
 '
 t
@@ -272,17 +263,6 @@ not
         
 is_applicable_telemetry_environment
 (
-)
-        
-and
-sys
-.
-version_info
->
-=
-(
-3
-0
 )
         
 and
