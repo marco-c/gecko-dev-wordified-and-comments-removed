@@ -26,6 +26,17 @@ enabled
 =
 true
 "
+"
+browser
+.
+backup
+.
+scheduled
+.
+enabled
+=
+false
+"
 ]
 [
 "

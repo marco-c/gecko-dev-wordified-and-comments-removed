@@ -3533,6 +3533,17 @@ wantUntrusted
 :
 true
 }
+"
+BackupUI
+:
+ScheduledBackupsConfirm
+"
+:
+{
+wantUntrusted
+:
+true
+}
 }
 }
 matches
