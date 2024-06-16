@@ -251,6 +251,9 @@ TelemetryUtils
 WebAuthnTokenManager
 "
 "
+WebAuthnUtils
+"
+"
 WebMessage
 "
 "
