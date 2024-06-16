@@ -542,7 +542,7 @@ lazy
 .
 error
 .
-InvalidArgumentError
+UnsupportedOperationError
 (
 Failed
 to
