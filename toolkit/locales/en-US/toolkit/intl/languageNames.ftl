@@ -1226,6 +1226,13 @@ language
 -
 name
 -
+skr
+=
+Saraiki
+language
+-
+name
+-
 sl
 =
 Slovenian

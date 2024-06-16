@@ -1644,6 +1644,9 @@ si
 sk
 "
 "
+skr
+"
+"
 sl
 "
 "
@@ -3074,6 +3077,10 @@ sk
 "
 Sloven
 ina
+"
+skr
+:
+"
 "
 sl
 :
