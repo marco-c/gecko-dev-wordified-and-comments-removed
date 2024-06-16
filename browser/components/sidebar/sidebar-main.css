@@ -70,6 +70,7 @@ template
 rows
 :
 auto
+auto
 1fr
 ;
 box
@@ -205,17 +206,6 @@ justify
 content
 :
 end
-;
-gap
-:
-var
-(
--
--
-space
--
-xsmall
-)
 ;
 }
 .
