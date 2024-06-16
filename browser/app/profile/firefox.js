@@ -17423,7 +17423,7 @@ toolbar
 .
 pxiToolbarEnabled
 "
-false
+true
 )
 ;
 pref
