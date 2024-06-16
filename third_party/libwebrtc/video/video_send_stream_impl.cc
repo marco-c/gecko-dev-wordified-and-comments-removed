@@ -4346,6 +4346,11 @@ experimental_min_bitrate
 =
 GetExperimentalMinVideoBitrate
 (
+env_
+.
+field_trials
+(
+)
 codec_type
 )
 ;

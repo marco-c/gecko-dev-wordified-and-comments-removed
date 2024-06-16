@@ -685,6 +685,7 @@ experimental_min_bitrate
 =
 GetExperimentalMinVideoBitrate
 (
+trials_
 encoder_config
 .
 codec_type
