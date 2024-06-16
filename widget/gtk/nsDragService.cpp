@@ -379,7 +379,11 @@ gfx
 #
 define
 NS_DND_TIMEOUT
+(
+5
+*
 1000000
+)
 #
 define
 NS_DND_TMP_CLEANUP_TIMEOUT
