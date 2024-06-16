@@ -24,6 +24,13 @@ mac
 ]
 [
 "
+browser_beforeinput_and_microtask
+.
+js
+"
+]
+[
+"
 browser_beforeinput_by_execCommand_in_contentscript
 .
 js
