@@ -4495,7 +4495,7 @@ currentFrame
 nsRect
 displayPort
 ;
-nsIScrollableFrame
+ScrollContainerFrame
 *
 sf
 =

@@ -7814,9 +7814,9 @@ GetParent
 )
 )
 {
-nsIScrollableFrame
+ScrollContainerFrame
 *
-scrollableFrame
+scrollContainerFrame
 =
 do_QueryFrame
 (
@@ -7826,7 +7826,7 @@ frame
 if
 (
 !
-scrollableFrame
+scrollContainerFrame
 )
 {
 continue
@@ -7835,7 +7835,7 @@ continue
 ScrollStyles
 scrollStyles
 =
-scrollableFrame
+scrollContainerFrame
 -
 >
 GetScrollStyles
@@ -7864,7 +7864,7 @@ layers
 ScrollDirections
 directions
 =
-scrollableFrame
+scrollContainerFrame
 -
 >
 GetAvailableScrollingDirections

@@ -1883,7 +1883,7 @@ aFilters
 aDisplayListBuilder
 -
 >
-NotifyAndClearScrollFrames
+NotifyAndClearScrollContainerFrames
 (
 )
 ;

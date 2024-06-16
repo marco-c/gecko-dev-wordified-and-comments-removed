@@ -41698,7 +41698,7 @@ cbRI
 mCBReflowInput
 )
 {
-nsIScrollableFrame
+ScrollContainerFrame
 *
 sf
 =

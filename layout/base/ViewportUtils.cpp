@@ -1347,7 +1347,7 @@ LayoutFrameType
 PageSequence
 )
 {
-nsIScrollableFrame
+ScrollContainerFrame
 *
 sf
 =

@@ -30,9 +30,6 @@ h
 class
 nsIFrame
 ;
-class
-nsIScrollableFrame
-;
 namespace
 mozilla
 {

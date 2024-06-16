@@ -1122,9 +1122,9 @@ IsTextArea
 )
 )
 {
-nsIScrollableFrame
+ScrollContainerFrame
 *
-scrollableFrame
+scrollContainerFrame
 =
 GetScrollTargetFrame
 (
@@ -1132,7 +1132,7 @@ GetScrollTargetFrame
 ;
 NS_ASSERTION
 (
-scrollableFrame
+scrollContainerFrame
 "
 Child
 must
@@ -1143,14 +1143,14 @@ scrollable
 ;
 if
 (
-scrollableFrame
+scrollContainerFrame
 )
 {
 LogicalMargin
 scrollbarSizes
 (
 aWM
-scrollableFrame
+scrollContainerFrame
 -
 >
 GetDesiredScrollbarSizes

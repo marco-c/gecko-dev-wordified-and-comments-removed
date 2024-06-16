@@ -35,9 +35,6 @@ nsFrameList
 class
 nsIFrame
 ;
-class
-nsIScrollableFrame
-;
 namespace
 mozilla
 {
@@ -98,9 +95,9 @@ Frame
 )
 const
 ;
-nsIScrollableFrame
+ScrollContainerFrame
 *
-ScrollableFrame
+ScrollContainer
 (
 )
 const
