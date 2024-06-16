@@ -6414,6 +6414,10 @@ BackgroundTransactionChild
 AllocPBackgroundIDBCursorChild
 (
 const
+int64_t
+&
+aRequestId
+const
 OpenCursorParams
 &
 aParams
@@ -6811,6 +6815,10 @@ BackgroundVersionChangeTransactionChild
 :
 AllocPBackgroundIDBCursorChild
 (
+const
+int64_t
+&
+aRequestId
 const
 OpenCursorParams
 &

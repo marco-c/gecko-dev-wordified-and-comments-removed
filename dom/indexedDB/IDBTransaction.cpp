@@ -1548,6 +1548,7 @@ T__None
 DoWithTransactionChild
 (
 [
+this
 &
 aBackgroundActor
 &
@@ -1565,6 +1566,9 @@ SendPBackgroundIDBCursorConstructor
 (
 &
 aBackgroundActor
+NextRequestId
+(
+)
 aParams
 )
 ;

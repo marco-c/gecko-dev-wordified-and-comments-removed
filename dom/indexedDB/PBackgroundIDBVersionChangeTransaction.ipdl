@@ -199,6 +199,8 @@ name
 async
 PBackgroundIDBCursor
 (
+int64_t
+requestId
 OpenCursorParams
 params
 )

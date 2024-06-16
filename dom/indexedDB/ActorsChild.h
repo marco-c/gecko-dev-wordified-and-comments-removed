@@ -1164,6 +1164,10 @@ PBackgroundIDBCursorChild
 AllocPBackgroundIDBCursorChild
 (
 const
+int64_t
+&
+aRequestId
+const
 OpenCursorParams
 &
 aParams
@@ -1299,6 +1303,10 @@ PBackgroundIDBCursorChild
 *
 AllocPBackgroundIDBCursorChild
 (
+const
+int64_t
+&
+aRequestId
 const
 OpenCursorParams
 &
