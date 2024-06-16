@@ -11627,6 +11627,8 @@ event
 {
 event
 =
+BrowserUtils
+.
 getRootEvent
 (
 event

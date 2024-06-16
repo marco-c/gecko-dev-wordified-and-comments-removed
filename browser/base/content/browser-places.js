@@ -513,6 +513,7 @@ break
 case
 0
 :
+{
 let
 accessKey
 =
@@ -545,6 +546,7 @@ hidePopup
 }
 break
 ;
+}
 }
 break
 ;
@@ -2980,6 +2982,8 @@ aEvent
 {
 aEvent
 =
+BrowserUtils
+.
 getRootEvent
 (
 aEvent
