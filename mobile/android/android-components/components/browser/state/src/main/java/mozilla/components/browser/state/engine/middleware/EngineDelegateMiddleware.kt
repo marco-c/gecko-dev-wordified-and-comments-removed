@@ -654,6 +654,11 @@ CreateEngineSessionAction
 action
 .
 tabId
+includeParent
+=
+action
+.
+includeParent
 )
 )
 return
@@ -664,6 +669,11 @@ parentEngineSession
 =
 if
 (
+action
+.
+includeParent
+&
+&
 tab
 is
 TabSessionState

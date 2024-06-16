@@ -1702,6 +1702,9 @@ firefox
 .
 com
 "
+includeParent
+=
+true
 )
 )
 .
