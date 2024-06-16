@@ -8058,6 +8058,7 @@ NS_ERROR_EDITOR_UNEXPECTED_DOM_TREE
 )
 ;
 }
+const
 WSScanResult
 backwardScanFromBeforeBRElementResult
 =
@@ -8113,6 +8114,7 @@ NS_ERROR_FAILURE
 )
 ;
 }
+const
 WSScanResult
 forwardScanFromAfterBRElementResult
 =
@@ -11511,6 +11513,7 @@ BlockInlineCheck
 UseComputedDisplayStyle
 )
 ;
+const
 WSScanResult
 backwardScanResult
 =
@@ -11563,6 +11566,7 @@ ReachedBlockBoundary
 (
 )
 ;
+const
 WSScanResult
 forwardScanResult
 =
@@ -12171,6 +12175,7 @@ pointToPutCaret
 )
 ;
 }
+const
 WSScanResult
 forwardScanFromAfterBRElementResult
 =
@@ -13336,6 +13341,7 @@ pointToSplit
 aPointToSplit
 )
 ;
+const
 WSScanResult
 forwardScanFromPointToSplitResult
 =
@@ -13897,6 +13903,7 @@ GetNewNode
 )
 )
 ;
+const
 WSScanResult
 backwardScanFromPointToCreateNewBRElementResult
 =
@@ -13967,6 +13974,7 @@ return
 NS_SUCCESS_DOM_NO_OPERATION
 ;
 }
+const
 WSScanResult
 forwardScanFromPointAfterNewBRElementResult
 =
@@ -39968,6 +39976,7 @@ BlockInlineCheck
 UseHTMLDefaultStyle
 )
 ;
+const
 WSScanResult
 scanResultAtEnd
 =
@@ -40162,6 +40171,7 @@ BlockInlineCheck
 UseHTMLDefaultStyle
 )
 ;
+const
 WSScanResult
 scanResultAtStart
 =
@@ -46435,6 +46445,7 @@ unwrap
 )
 ;
 }
+const
 WSScanResult
 forwardScanFromStartOfListItemResult
 =

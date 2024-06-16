@@ -5625,6 +5625,7 @@ GetAsText
 )
 )
 {
+const
 WSScanResult
 scanResultInTextNode
 =

@@ -11557,6 +11557,7 @@ IsSet
 ;
 )
 {
+const
 WSScanResult
 nextVisibleThing
 =
@@ -11609,12 +11610,7 @@ IsContentEditable
 &
 nextVisibleThing
 .
-GetContent
-(
-)
--
->
-IsElement
+ContentIsElement
 (
 )
 &
@@ -11622,7 +11618,7 @@ IsElement
 !
 nextVisibleThing
 .
-GetContent
+ElementPtr
 (
 )
 -
@@ -11813,6 +11809,7 @@ BlockInlineCheck
 UseComputedDisplayStyle
 )
 ;
+const
 WSScanResult
 forwardScanFromPointToInsertResult
 =
@@ -11828,14 +11825,6 @@ if
 !
 forwardScanFromPointToInsertResult
 .
-GetContent
-(
-)
-|
-|
-!
-forwardScanFromPointToInsertResult
-.
 ReachedBRElement
 (
 )
@@ -11845,6 +11834,7 @@ return
 pointToInsert
 ;
 }
+const
 WSScanResult
 backwardScanFromPointToInsertResult
 =
@@ -11857,10 +11847,9 @@ pointToInsert
 ;
 if
 (
-!
 backwardScanFromPointToInsertResult
 .
-GetContent
+Failed
 (
 )
 |
@@ -12026,6 +12015,7 @@ BlockInlineCheck
 UseComputedDisplayStyle
 )
 ;
+const
 WSScanResult
 previousThing
 =

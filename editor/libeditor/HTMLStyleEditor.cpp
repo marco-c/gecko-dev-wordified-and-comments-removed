@@ -10897,6 +10897,7 @@ IsInContentNode
 )
 )
 {
+const
 WSScanResult
 nextContentData
 =
