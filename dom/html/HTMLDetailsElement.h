@@ -203,9 +203,13 @@ aAction
 const
 override
 ;
-void
+MOZ_CAN_RUN_SCRIPT
+bool
 HandleInvokeInternal
 (
+Element
+*
+invoker
 InvokeAction
 aAction
 ErrorResult

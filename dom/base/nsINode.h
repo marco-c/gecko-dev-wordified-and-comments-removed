@@ -1663,6 +1663,13 @@ const
 ;
 nsGenericHTMLElement
 *
+GetEffectiveInvokeTargetElement
+(
+)
+const
+;
+nsGenericHTMLElement
+*
 GetEffectivePopoverTargetElement
 (
 )
@@ -8155,12 +8162,12 @@ static
 auto
 FromNode
 (
+\
 _const
 T
 &
 aNode
 )
-\
 -
 >
 decltype
