@@ -53,11 +53,6 @@ nullable
 :
 boolean
 "
-breakpoints
-:
-"
-json
-"
 }
 )
 ;
