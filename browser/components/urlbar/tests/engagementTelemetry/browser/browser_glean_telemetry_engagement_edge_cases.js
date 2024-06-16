@@ -766,14 +766,6 @@ inputField
 )
 ;
 await
-UrlbarTestUtils
-.
-promiseSearchComplete
-(
-window
-)
-;
-await
 doEnter
 (
 )
@@ -823,12 +815,10 @@ undefined
 results
 :
 "
-action
 "
 groups
 :
 "
-suggested_index
 "
 }
 ]
