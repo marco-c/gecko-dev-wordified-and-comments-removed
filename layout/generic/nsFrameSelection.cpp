@@ -6559,17 +6559,6 @@ break
 ;
 }
 }
-if
-(
-IsBatching
-(
-)
-)
-{
-return
-NS_OK
-;
-}
 return
 NotifySelectionListeners
 (
