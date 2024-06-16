@@ -267,6 +267,11 @@ line_height
 "
 reader
 .
+text_alignment
+"
+"
+reader
+.
 custom_colors
 .
 foreground
