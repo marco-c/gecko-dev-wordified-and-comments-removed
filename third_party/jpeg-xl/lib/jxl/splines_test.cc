@@ -2084,7 +2084,10 @@ EncodeSplines
 splines
 &
 writer
-kLayerSplines
+LayerType
+:
+:
+Splines
 HistogramParams
 (
 )
@@ -2640,7 +2643,10 @@ EncodeSplines
 splines
 &
 writer
-kLayerSplines
+LayerType
+:
+:
+Splines
 HistogramParams
 (
 SpeedTier

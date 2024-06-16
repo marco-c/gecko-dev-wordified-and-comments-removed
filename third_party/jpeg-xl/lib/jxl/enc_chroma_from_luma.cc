@@ -1924,10 +1924,7 @@ AcStrategy
 :
 FromRawStrategy
 (
-AcStrategy
-:
-:
-Type
+AcStrategyType
 :
 :
 DCT
@@ -2837,7 +2834,7 @@ color_correlation
 BitWriter
 *
 writer
-size_t
+LayerType
 layer
 AuxOut
 *

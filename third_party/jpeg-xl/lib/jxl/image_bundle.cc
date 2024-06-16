@@ -180,7 +180,7 @@ VerifySizes
 )
 ;
 }
-void
+Status
 ImageBundle
 :
 :
@@ -242,6 +242,7 @@ xsize
 0
 )
 {
+return
 JXL_UNREACHABLE
 (
 "
@@ -304,6 +305,9 @@ alpha_bits
 =
 32
 )
+;
+return
+true
 ;
 }
 void

@@ -197,7 +197,10 @@ size
 (
 )
 writer
-0
+LayerType
+:
+:
+Header
 aux_out
 )
 ;
@@ -285,7 +288,10 @@ allotment
 ReclaimAndCharge
 (
 writer
-kLayerTOC
+LayerType
+:
+:
+Toc
 aux_out
 )
 ;

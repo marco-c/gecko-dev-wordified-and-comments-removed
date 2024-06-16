@@ -107,6 +107,12 @@ jxl
 struct
 AuxOut
 ;
+enum
+class
+LayerType
+:
+uint8_t
+;
 struct
 BitWriter
 {
@@ -402,7 +408,7 @@ BitWriter
 *
 JXL_RESTRICT
 writer
-size_t
+LayerType
 layer
 AuxOut
 *
