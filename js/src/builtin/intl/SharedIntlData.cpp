@@ -492,6 +492,7 @@ Lookup
 :
 Lookup
 (
+const
 JSLinearString
 *
 timeZone
@@ -1692,6 +1693,7 @@ Lookup
 :
 Lookup
 (
+const
 JSLinearString
 *
 locale

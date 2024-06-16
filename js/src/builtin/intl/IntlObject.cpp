@@ -732,9 +732,11 @@ static
 bool
 SameOrParentLocale
 (
+const
 JSLinearString
 *
 locale
+const
 JSLinearString
 *
 otherLocale

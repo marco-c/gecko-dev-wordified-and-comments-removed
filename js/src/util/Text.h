@@ -1569,6 +1569,7 @@ size
 GenericPrinter
 *
 out
+const
 JSLinearString
 *
 str
@@ -1612,6 +1613,7 @@ char
 buffer
 size_t
 size
+const
 JSLinearString
 *
 str
@@ -1707,6 +1709,7 @@ EscapedStringPrinter
 GenericPrinter
 &
 out
+const
 JSLinearString
 *
 str

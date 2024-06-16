@@ -2100,6 +2100,7 @@ ExecuteRegExpAtomRaw
 RegExpShared
 *
 re
+const
 JSLinearString
 *
 input

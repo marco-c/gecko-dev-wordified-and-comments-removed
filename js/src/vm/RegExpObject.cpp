@@ -3520,6 +3520,7 @@ js
 :
 StringHasRegExpMetaChars
 (
+const
 JSLinearString
 *
 str
@@ -4868,6 +4869,7 @@ ExecuteAtomImpl
 RegExpShared
 *
 re
+const
 JSLinearString
 *
 input
@@ -5131,6 +5133,7 @@ ExecuteRegExpAtomRaw
 RegExpShared
 *
 re
+const
 JSLinearString
 *
 input

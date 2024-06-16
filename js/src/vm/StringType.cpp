@@ -7174,9 +7174,11 @@ js
 :
 HasSubstringAt
 (
+const
 JSLinearString
 *
 text
+const
 JSLinearString
 *
 pat
@@ -7577,6 +7579,7 @@ char16_t
 s1
 size_t
 len1
+const
 JSLinearString
 *
 s2
@@ -7935,6 +7938,7 @@ js
 :
 StringIsAscii
 (
+const
 JSLinearString
 *
 str
@@ -8015,6 +8019,7 @@ js
 :
 StringEqualsAscii
 (
+const
 JSLinearString
 *
 str
@@ -8042,6 +8047,7 @@ js
 :
 StringEqualsAscii
 (
+const
 JSLinearString
 *
 str

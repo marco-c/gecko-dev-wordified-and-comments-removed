@@ -650,6 +650,7 @@ static
 bool
 IsAsciiLowercaseAlpha
 (
+const
 JSLinearString
 *
 str
@@ -773,6 +774,7 @@ static
 bool
 IsAsciiAlpha
 (
+const
 JSLinearString
 *
 str

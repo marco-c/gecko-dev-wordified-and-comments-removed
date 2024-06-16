@@ -12105,6 +12105,7 @@ RegExpRunStatus
 RegExpShared
 *
 re
+const
 JSLinearString
 *
 input

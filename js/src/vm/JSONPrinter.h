@@ -196,6 +196,7 @@ const
 char
 *
 name
+const
 JSLinearString
 *
 value

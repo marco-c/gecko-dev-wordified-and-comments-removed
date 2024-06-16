@@ -786,6 +786,7 @@ extern
 double
 LinearStringToNumber
 (
+const
 JSLinearString
 *
 str

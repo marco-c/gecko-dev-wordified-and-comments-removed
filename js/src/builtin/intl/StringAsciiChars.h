@@ -107,6 +107,7 @@ JS
 AutoCheckCannotGC
 nogc_
 ;
+const
 JSLinearString
 *
 str_
@@ -129,6 +130,7 @@ public
 explicit
 StringAsciiChars
 (
+const
 JSLinearString
 *
 str

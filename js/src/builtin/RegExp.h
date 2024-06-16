@@ -664,6 +664,7 @@ extern
 int32_t
 GetFirstDollarIndexRawFlat
 (
+const
 JSLinearString
 *
 text

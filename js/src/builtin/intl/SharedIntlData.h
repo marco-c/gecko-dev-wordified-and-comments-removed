@@ -177,6 +177,7 @@ hash
 explicit
 LinearStringLookup
 (
+const
 JSLinearString
 *
 string
@@ -287,6 +288,7 @@ LinearStringLookup
 explicit
 Lookup
 (
+const
 JSLinearString
 *
 timeZone
@@ -462,6 +464,7 @@ LinearStringLookup
 explicit
 Lookup
 (
+const
 JSLinearString
 *
 locale

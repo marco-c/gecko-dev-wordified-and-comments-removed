@@ -29,6 +29,7 @@ js
 bool
 IsIdentifier
 (
+const
 JSLinearString
 *
 str
@@ -78,6 +79,7 @@ c2
 bool
 IsIdentifierNameOrPrivateName
 (
+const
 JSLinearString
 *
 str

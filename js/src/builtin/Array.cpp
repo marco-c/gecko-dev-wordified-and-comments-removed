@@ -1285,6 +1285,7 @@ js
 :
 StringIsArrayIndex
 (
+const
 JSLinearString
 *
 str

@@ -25108,6 +25108,7 @@ static
 JSType
 TypeOfName
 (
+const
 JSLinearString
 *
 str

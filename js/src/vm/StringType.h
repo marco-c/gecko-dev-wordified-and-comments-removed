@@ -2370,6 +2370,7 @@ bool
 isDeduplicatable
 (
 )
+const
 {
 MOZ_ASSERT
 (
@@ -8928,6 +8929,7 @@ char16_t
 s1
 size_t
 len1
+const
 JSLinearString
 *
 s2
@@ -8969,6 +8971,7 @@ extern
 bool
 StringIsAscii
 (
+const
 JSLinearString
 *
 str
@@ -8978,6 +8981,7 @@ extern
 bool
 StringEqualsAscii
 (
+const
 JSLinearString
 *
 str
@@ -8991,6 +8995,7 @@ extern
 bool
 StringEqualsAscii
 (
+const
 JSLinearString
 *
 str
@@ -9010,6 +9015,7 @@ N
 bool
 StringEqualsLiteral
 (
+const
 JSLinearString
 *
 str
@@ -9055,9 +9061,11 @@ extern
 int
 StringFindPattern
 (
+const
 JSLinearString
 *
 text
+const
 JSLinearString
 *
 pat
@@ -9069,9 +9077,11 @@ extern
 bool
 HasSubstringAt
 (
+const
 JSLinearString
 *
 text
+const
 JSLinearString
 *
 pat
@@ -9101,6 +9111,7 @@ js
 HashNumber
 HashStringChars
 (
+const
 JSLinearString
 *
 str

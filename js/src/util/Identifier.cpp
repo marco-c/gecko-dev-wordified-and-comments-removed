@@ -69,6 +69,7 @@ js
 :
 IsIdentifier
 (
+const
 JSLinearString
 *
 str
@@ -139,6 +140,7 @@ js
 :
 IsIdentifierNameOrPrivateName
 (
+const
 JSLinearString
 *
 str
