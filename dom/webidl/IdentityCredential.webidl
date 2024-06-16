@@ -202,17 +202,6 @@ providers
 ;
 }
 ;
-enum
-IdentityLoginTargetType
-{
-"
-redirect
-"
-"
-popup
-"
-}
-;
 [
 GenerateConversionToJS
 ]
@@ -285,7 +274,7 @@ lightweight
 enabled
 "
 ]
-IdentityLoginTargetType
+UTF8String
 loginTarget
 ;
 [
