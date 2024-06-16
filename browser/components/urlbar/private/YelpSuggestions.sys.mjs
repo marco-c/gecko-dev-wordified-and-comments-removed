@@ -750,9 +750,6 @@ HIGHLIGHT
 .
 TYPED
 ]
-shouldShowUrl
-:
-true
 bottomTextL10n
 :
 {
