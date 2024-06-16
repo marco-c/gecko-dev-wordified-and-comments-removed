@@ -638,8 +638,6 @@ ShutdownGlobalObjects
 (
 )
 ;
-public
-:
 struct
 URLSegment
 {
@@ -797,6 +795,8 @@ mLen
 }
 }
 ;
+public
+:
 class
 nsSegmentEncoder
 {
