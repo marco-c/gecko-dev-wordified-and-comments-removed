@@ -122,6 +122,9 @@ true
 threads_enabled
 :
 true
+gc_enabled
+:
+true
 .
 .
 Config
