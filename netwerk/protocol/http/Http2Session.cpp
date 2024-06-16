@@ -11960,16 +11960,6 @@ mPreviousUsed
 =
 false
 ;
-self
--
->
-mLastDataReadEpoch
-=
-self
--
->
-mLastReadEpoch
-;
 }
 else
 {
