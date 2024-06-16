@@ -1333,6 +1333,10 @@ fake_renderer_
 &
 time_controller_
 )
+fake_call_
+(
+env_
+)
 fake_metronome_
 (
 TimeDelta
