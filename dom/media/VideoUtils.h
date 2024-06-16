@@ -2417,11 +2417,6 @@ nsCString
 aResolutionOut
 )
 ;
-void
-ReportHardwareMediaCodecSupportProbe
-(
-)
-;
 }
 #
 endif
