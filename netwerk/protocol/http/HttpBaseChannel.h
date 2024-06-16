@@ -2130,12 +2130,6 @@ DoDiagnosticAssertWhenOnStopNotCalledOnDestroy
 override
 ;
 NS_IMETHOD
-SetWaitForHTTPSSVCRecord
-(
-)
-override
-;
-NS_IMETHOD
 SetEarlyHintPreloaderId
 (
 uint64_t

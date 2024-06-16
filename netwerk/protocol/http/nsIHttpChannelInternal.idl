@@ -850,14 +850,6 @@ DoDiagnosticAssertWhenOnStopNotCalledOnDestroy
 [
 must_use
 ]
-void
-setWaitForHTTPSSVCRecord
-(
-)
-;
-[
-must_use
-]
 readonly
 attribute
 boolean
