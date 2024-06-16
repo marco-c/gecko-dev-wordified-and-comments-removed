@@ -309,6 +309,16 @@ editor
 {
 editor
 .
+scrollTo
+(
+range
+.
+start
+0
+)
+;
+editor
+.
 setLineContentMarker
 (
 {
