@@ -135,7 +135,7 @@ checkSymLinks
 )
 ;
 await
-standardInit
+testPostUpdateProcessing
 (
 )
 ;

@@ -215,7 +215,7 @@ STATE_PENDING
 )
 ;
 await
-standardInit
+testPostUpdateProcessing
 (
 )
 ;

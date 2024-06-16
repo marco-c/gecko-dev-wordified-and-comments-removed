@@ -83,7 +83,7 @@ waitForHelperExit
 )
 ;
 await
-standardInit
+testPostUpdateProcessing
 (
 )
 ;

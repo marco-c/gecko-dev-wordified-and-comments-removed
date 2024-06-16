@@ -62,7 +62,7 @@ path
 )
 ;
 await
-standardInit
+testPostUpdateProcessing
 (
 )
 ;

@@ -384,7 +384,7 @@ checkAppBundleModTime
 )
 ;
 await
-standardInit
+testPostUpdateProcessing
 (
 )
 ;

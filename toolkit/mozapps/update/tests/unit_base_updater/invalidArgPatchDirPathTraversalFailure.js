@@ -104,7 +104,7 @@ null
 )
 ;
 await
-standardInit
+testPostUpdateProcessing
 (
 )
 ;

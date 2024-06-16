@@ -60,7 +60,7 @@ false
 )
 ;
 await
-standardInit
+testPostUpdateProcessing
 (
 )
 ;
