@@ -34157,9 +34157,9 @@ RequestDiscardAll
 (
 )
 ;
-MarkUserFontSetDirty
-(
-)
+mFontFaceSetDirty
+=
+true
 ;
 if
 (
