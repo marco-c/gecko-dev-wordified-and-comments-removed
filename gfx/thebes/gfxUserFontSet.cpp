@@ -2091,6 +2091,17 @@ ContinueLoad
 (
 )
 {
+if
+(
+mUserFontLoadState
+=
+=
+STATUS_NOT_LOADED
+)
+{
+return
+;
+}
 MOZ_ASSERT
 (
 mUserFontLoadState
