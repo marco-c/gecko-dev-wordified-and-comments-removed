@@ -249,6 +249,7 @@ maxdepth
 :
 2
 SearchEngineConfigurationArchive
+SearchConfigurationSchemaArchive
 API
 Reference
 -
