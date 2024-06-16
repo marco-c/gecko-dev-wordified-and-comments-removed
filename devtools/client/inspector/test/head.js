@@ -389,10 +389,6 @@ inspector
 selector
 x
 y
-eventOptions
-=
-{
-}
 )
 {
 const
@@ -523,10 +519,6 @@ synthesizeMouseAtCenter
 (
 selector
 {
-.
-.
-.
-eventOptions
 type
 :
 "
@@ -547,10 +539,6 @@ selector
 x
 y
 {
-.
-.
-.
-eventOptions
 type
 :
 "
