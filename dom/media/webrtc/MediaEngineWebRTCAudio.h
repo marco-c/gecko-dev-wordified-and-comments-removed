@@ -578,6 +578,11 @@ AudioProcessing
 >
 mAudioProcessing
 ;
+bool
+mHadAECAndDrift
+=
+false
+;
 Maybe
 <
 AudioPacketizer

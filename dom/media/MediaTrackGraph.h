@@ -2936,6 +2936,11 @@ AudioOutputLatency
 (
 )
 ;
+bool
+OutputForAECMightDrift
+(
+)
+;
 void
 RegisterCaptureTrackForWindow
 (

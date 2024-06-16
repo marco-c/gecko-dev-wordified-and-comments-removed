@@ -144,6 +144,13 @@ return
 this
 ;
 }
+DeviceInputTrack
+*
+GetDeviceInputTrackGraphThread
+(
+)
+const
+;
 protected
 :
 void
