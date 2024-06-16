@@ -68716,7 +68716,7 @@ type
 uint32_t
 value
 :
-65536
+16384
 mirror
 :
 always
@@ -68737,7 +68737,7 @@ type
 uint32_t
 value
 :
-16384
+4096
 mirror
 :
 always
