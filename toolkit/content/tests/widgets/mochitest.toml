@@ -592,6 +592,13 @@ html
 ]
 [
 "
+test_videocontrols_src_change
+.
+html
+"
+]
+[
+"
 test_videocontrols_standalone
 .
 html
