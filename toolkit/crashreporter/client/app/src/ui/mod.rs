@@ -369,17 +369,6 @@ unimplemented
 }
 }
 }
-#
-[
-cfg_attr
-(
-mock
-allow
-(
-unused
-)
-)
-]
 pub
 fn
 error_dialog
