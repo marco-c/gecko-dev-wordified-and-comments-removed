@@ -5681,7 +5681,7 @@ CollapseSelectionTo
 (
 scanResultInTextNode
 .
-Point_Deprecated
+PointAtReachedContent
 <
 EditorRawDOMPoint
 >

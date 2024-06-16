@@ -8323,7 +8323,7 @@ pointToPutCaret
 =
 forwardScanFromAfterBRElementResult
 .
-Point_Deprecated
+PointAtReachedContent
 <
 EditorDOMPoint
 >
@@ -46700,7 +46700,7 @@ InsertParagraphResult
 rightListItemElement
 forwardScanFromStartOfListItemResult
 .
-Point_Deprecated
+PointAtReachedContent
 <
 EditorDOMPoint
 >

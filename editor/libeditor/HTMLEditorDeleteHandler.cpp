@@ -11712,7 +11712,7 @@ TextPtr
 return
 maybePreviousText
 .
-Point_Deprecated
+PointAfterReachedContent
 <
 EditorDOMPoint
 >
@@ -11757,7 +11757,7 @@ InVisibleOrCollapsibleCharacters
 return
 maybeNextText
 .
-Point_Deprecated
+PointAtReachedContent
 <
 EditorDOMPoint
 >
@@ -18543,7 +18543,7 @@ CollapseSelectionTo
 (
 maybePreviousText
 .
-Point_Deprecated
+PointAfterReachedContent
 <
 EditorRawDOMPoint
 >
@@ -25916,7 +25916,7 @@ mPointToPutCaret
 =
 maybePreviousText
 .
-Point_Deprecated
+PointAfterReachedContent
 <
 EditorDOMPoint
 >
