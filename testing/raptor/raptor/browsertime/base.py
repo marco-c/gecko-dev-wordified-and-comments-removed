@@ -902,6 +902,16 @@ type
 "
 benchmark
 "
+or
+test
+.
+get
+(
+"
+benchmark_webserver
+"
+False
+)
 :
             
 self
@@ -5963,9 +5973,21 @@ output_timeout
 timeout
         
 elif
-self
+test
 .
+get
+(
+"
+type
+"
+"
+"
+)
+=
+=
+"
 benchmark
+"
 :
             
 output_timeout
@@ -6598,9 +6620,21 @@ output_timeout
 BROWSERTIME_PAGELOAD_OUTPUT_TIMEOUT
             
 if
-self
+test
 .
+get
+(
+"
+type
+"
+"
+"
+)
+=
+=
+"
 benchmark
+"
 :
                 
 output_timeout

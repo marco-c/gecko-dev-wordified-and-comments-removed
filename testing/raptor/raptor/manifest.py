@@ -811,6 +811,19 @@ in
 benchmark
 "
 )
+and
+not
+test_details
+.
+get
+(
+            
+"
+benchmark_webserver
+"
+False
+        
+)
 :
             
 LOG
