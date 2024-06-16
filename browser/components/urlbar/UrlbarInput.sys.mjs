@@ -7426,7 +7426,7 @@ lazy
 .
 UrlbarPrefs
 .
-get
+getScotchBonnetPref
 (
 "
 secondaryActions

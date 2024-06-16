@@ -2399,9 +2399,9 @@ browser
 .
 urlbar
 .
-secondaryActions
+scotchBonnet
 .
-featureGate
+enableOverride
 "
 false
 )
@@ -3226,7 +3226,7 @@ contextualSearch
 .
 enabled
 "
-false
+true
 )
 ;
 pref
