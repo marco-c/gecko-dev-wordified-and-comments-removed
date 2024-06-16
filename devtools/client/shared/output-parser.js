@@ -9638,6 +9638,8 @@ urlTokenizer
 getCSSLexer
 (
 url
+true
+true
 )
 ;
 /
