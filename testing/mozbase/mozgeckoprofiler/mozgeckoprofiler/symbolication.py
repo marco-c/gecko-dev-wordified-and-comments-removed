@@ -9,13 +9,11 @@ os
 import
 platform
 import
+shutil
+import
 subprocess
 import
 zipfile
-from
-distutils
-import
-spawn
 import
 six
 from
@@ -469,9 +467,9 @@ self
 .
 nm
 =
-spawn
+shutil
 .
-find_executable
+which
 (
 "
 nm
