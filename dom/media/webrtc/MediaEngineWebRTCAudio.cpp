@@ -2455,6 +2455,7 @@ AudioInputProcessing
 GetRequestedInputChannelCount
 (
 )
+const
 {
 return
 mSettings
