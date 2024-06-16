@@ -1523,7 +1523,7 @@ sourceFooter
 .
 sourceMapButton
 .
-jumpToGeneratedSource
+jumpToOriginalSource
 "
 )
 :
@@ -1536,7 +1536,7 @@ sourceFooter
 .
 sourceMapButton
 .
-jumpToOriginalSource
+jumpToGeneratedSource
 "
 )
 tooltip
