@@ -1023,10 +1023,8 @@ aPoint
 {
 if
 (
-nsCOMPtr
-<
-Document
->
+auto
+*
 doc
 =
 GetComposedDoc

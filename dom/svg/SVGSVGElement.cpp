@@ -885,10 +885,8 @@ return
 }
 if
 (
-RefPtr
-<
-Document
->
+auto
+*
 currentDoc
 =
 GetComposedDoc
