@@ -7299,6 +7299,12 @@ mList
 )
 ;
 }
+mBuilder
+.
+InvalidateCaretFramesIfNeeded
+(
+)
+;
 AutoClearFramePropsArray
 modifiedFrames
 (

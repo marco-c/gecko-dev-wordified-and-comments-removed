@@ -740,11 +740,6 @@ nsDisplayItem
 aItem
 )
 ;
-void
-InvalidateCaretFramesIfNeeded
-(
-)
-;
 bool
 ShouldBuildPartial
 (
