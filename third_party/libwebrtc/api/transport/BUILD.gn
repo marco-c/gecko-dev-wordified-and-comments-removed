@@ -819,6 +819,13 @@ feedback_generator_interface
 h
 "
 ]
+visibility
+=
+[
+"
+*
+"
+]
 deps
 =
 [
