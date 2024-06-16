@@ -3626,7 +3626,9 @@ userPermissions
 =
 extension
 .
-manifestPermissions
+getRequiredPermissions
+(
+)
 ;
 addon
 .
@@ -3635,6 +3637,16 @@ optionalPermissions
 extension
 .
 manifestOptionalPermissions
+;
+addon
+.
+requestedPermissions
+=
+extension
+.
+getRequestedPermissions
+(
+)
 ;
 addon
 .

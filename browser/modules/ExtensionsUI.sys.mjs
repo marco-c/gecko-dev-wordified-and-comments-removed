@@ -1006,7 +1006,7 @@ permissions
 :
 addon
 .
-userPermissions
+installPermissions
 type
 :
 "

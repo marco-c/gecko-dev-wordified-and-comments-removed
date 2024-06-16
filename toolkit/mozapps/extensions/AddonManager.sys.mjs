@@ -17072,7 +17072,7 @@ info
 .
 addon
 .
-userPermissions
+installPermissions
 )
 {
 let
@@ -17113,7 +17113,7 @@ info
 .
 addon
 .
-userPermissions
+installPermissions
 ;
 Services
 .

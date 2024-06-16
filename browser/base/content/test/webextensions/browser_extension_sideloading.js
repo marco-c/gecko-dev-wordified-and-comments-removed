@@ -82,6 +82,14 @@ options
 manifest
 :
 {
+manifest_version
+:
+details
+.
+manifest_version
+?
+?
+2
 browser_specific_settings
 :
 {
@@ -105,6 +113,11 @@ permissions
 details
 .
 permissions
+host_permissions
+:
+details
+.
+host_permissions
 }
 }
 ;
@@ -480,6 +493,9 @@ await
 createWebExtension
 (
 {
+manifest_version
+:
+3
 id
 :
 ID2
@@ -489,7 +505,7 @@ name
 Test
 2
 "
-permissions
+host_permissions
 :
 [
 "

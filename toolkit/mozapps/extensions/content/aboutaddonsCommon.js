@@ -628,7 +628,7 @@ perms
 =
 addon
 .
-userPermissions
+installPermissions
 ;
 return
 perms
@@ -666,7 +666,7 @@ permissions
 =
 addon
 .
-userPermissions
+installPermissions
 ;
 const
 target

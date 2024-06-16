@@ -227,7 +227,9 @@ result
 =
 extension
 .
-manifestPermissions
+getRequiredPermissions
+(
+)
 ;
 if
 (
