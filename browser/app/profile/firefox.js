@@ -17222,16 +17222,6 @@ true
 pref
 (
 "
-corroborator
-.
-enabled
-"
-true
-)
-;
-pref
-(
-"
 devtools
 .
 toolbox
