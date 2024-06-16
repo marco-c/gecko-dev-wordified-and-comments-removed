@@ -21,6 +21,13 @@ h
 #
 include
 "
+nsString
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Variant
@@ -82,6 +89,10 @@ uint32_t
 aLineNumber
 uint32_t
 aColumnNumber
+const
+nsAString
+&
+aSample
 )
 ;
 BlockedContentSource
@@ -105,6 +116,10 @@ mLineNumber
 const
 uint32_t
 mColumnNumber
+;
+const
+nsString
+mSample
 ;
 }
 ;
