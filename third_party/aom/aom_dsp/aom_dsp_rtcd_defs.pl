@@ -3807,7 +3807,6 @@ aom_convolve8_horiz
 neon
 neon_dotprod
 neon_i8mm
-sse2
 ssse3
 /
 "
@@ -3821,7 +3820,6 @@ aom_convolve8_vert
 neon
 neon_dotprod
 neon_i8mm
-sse2
 ssse3
 /
 "
@@ -3964,6 +3962,7 @@ aom_highbd_convolve8_horiz
 sse2
 avx2
 neon
+sve
 /
 ;
 add_proto
@@ -4011,6 +4010,7 @@ aom_highbd_convolve8_vert
 sse2
 avx2
 neon
+sve
 /
 ;
 }
@@ -10376,6 +10376,7 @@ specialize
 qw
 /
 aom_sad_skip_16x4x4d
+avx2
 neon
 neon_dotprod
 /
@@ -10599,6 +10600,7 @@ specialize
 qw
 /
 aom_sad16x4x3d
+avx2
 neon
 neon_dotprod
 /
@@ -11860,30 +11862,6 @@ avx2
 sse4_1
 neon
 sve
-/
-;
-#
-TODO
-(
-kyslov
-)
-bring
-back
-SSE2
-by
-extending
-it
-to
-128
-block
-size
-#
-specialize
-qw
-/
-aom_vector_var
-neon
-sse2
 /
 ;
 #
@@ -13355,7 +13333,6 @@ qw
 aom_sub_pixel_variance128x128
 avx2
 neon
-sse2
 ssse3
 /
 ;
@@ -13365,7 +13342,6 @@ qw
 aom_sub_pixel_variance128x64
 avx2
 neon
-sse2
 ssse3
 /
 ;
@@ -13375,7 +13351,6 @@ qw
 aom_sub_pixel_variance64x128
 avx2
 neon
-sse2
 ssse3
 /
 ;
@@ -13385,7 +13360,6 @@ qw
 aom_sub_pixel_variance64x64
 avx2
 neon
-sse2
 ssse3
 /
 ;
@@ -13395,7 +13369,6 @@ qw
 aom_sub_pixel_variance64x32
 avx2
 neon
-sse2
 ssse3
 /
 ;
@@ -13405,7 +13378,6 @@ qw
 aom_sub_pixel_variance32x64
 avx2
 neon
-sse2
 ssse3
 /
 ;
@@ -13415,7 +13387,6 @@ qw
 aom_sub_pixel_variance32x32
 avx2
 neon
-sse2
 ssse3
 /
 ;
@@ -13425,7 +13396,6 @@ qw
 aom_sub_pixel_variance32x16
 avx2
 neon
-sse2
 ssse3
 /
 ;
@@ -13435,7 +13405,6 @@ qw
 aom_sub_pixel_variance16x32
 avx2
 neon
-sse2
 ssse3
 /
 ;
@@ -13445,7 +13414,6 @@ qw
 aom_sub_pixel_variance16x16
 avx2
 neon
-sse2
 ssse3
 /
 ;
@@ -13455,7 +13423,6 @@ qw
 aom_sub_pixel_variance16x8
 avx2
 neon
-sse2
 ssse3
 /
 ;
@@ -13464,7 +13431,6 @@ qw
 /
 aom_sub_pixel_variance8x16
 neon
-sse2
 ssse3
 /
 ;
@@ -13473,7 +13439,6 @@ qw
 /
 aom_sub_pixel_variance8x8
 neon
-sse2
 ssse3
 /
 ;
@@ -13482,7 +13447,6 @@ qw
 /
 aom_sub_pixel_variance8x4
 neon
-sse2
 ssse3
 /
 ;
@@ -13491,7 +13455,6 @@ qw
 /
 aom_sub_pixel_variance4x8
 neon
-sse2
 ssse3
 /
 ;
@@ -13500,7 +13463,6 @@ qw
 /
 aom_sub_pixel_variance4x4
 neon
-sse2
 ssse3
 /
 ;
@@ -13510,7 +13472,6 @@ qw
 aom_sub_pixel_avg_variance128x128
 avx2
 neon
-sse2
 ssse3
 /
 ;
@@ -13520,7 +13481,6 @@ qw
 aom_sub_pixel_avg_variance128x64
 avx2
 neon
-sse2
 ssse3
 /
 ;
@@ -13530,7 +13490,6 @@ qw
 aom_sub_pixel_avg_variance64x128
 avx2
 neon
-sse2
 ssse3
 /
 ;
@@ -13540,7 +13499,6 @@ qw
 aom_sub_pixel_avg_variance64x64
 avx2
 neon
-sse2
 ssse3
 /
 ;
@@ -13550,7 +13508,6 @@ qw
 aom_sub_pixel_avg_variance64x32
 avx2
 neon
-sse2
 ssse3
 /
 ;
@@ -13560,7 +13517,6 @@ qw
 aom_sub_pixel_avg_variance32x64
 avx2
 neon
-sse2
 ssse3
 /
 ;
@@ -13570,7 +13526,6 @@ qw
 aom_sub_pixel_avg_variance32x32
 avx2
 neon
-sse2
 ssse3
 /
 ;
@@ -13580,7 +13535,6 @@ qw
 aom_sub_pixel_avg_variance32x16
 avx2
 neon
-sse2
 ssse3
 /
 ;
@@ -13589,7 +13543,6 @@ qw
 /
 aom_sub_pixel_avg_variance16x32
 neon
-sse2
 ssse3
 /
 ;
@@ -13598,7 +13551,6 @@ qw
 /
 aom_sub_pixel_avg_variance16x16
 neon
-sse2
 ssse3
 /
 ;
@@ -13607,7 +13559,6 @@ qw
 /
 aom_sub_pixel_avg_variance16x8
 neon
-sse2
 ssse3
 /
 ;
@@ -13616,7 +13567,6 @@ qw
 /
 aom_sub_pixel_avg_variance8x16
 neon
-sse2
 ssse3
 /
 ;
@@ -13625,7 +13575,6 @@ qw
 /
 aom_sub_pixel_avg_variance8x8
 neon
-sse2
 ssse3
 /
 ;
@@ -13634,7 +13583,6 @@ qw
 /
 aom_sub_pixel_avg_variance8x4
 neon
-sse2
 ssse3
 /
 ;
@@ -13643,7 +13591,6 @@ qw
 /
 aom_sub_pixel_avg_variance4x8
 neon
-sse2
 ssse3
 /
 ;
@@ -13652,7 +13599,6 @@ qw
 /
 aom_sub_pixel_avg_variance4x4
 neon
-sse2
 ssse3
 /
 ;
@@ -13733,7 +13679,6 @@ qw
 /
 aom_sub_pixel_variance4x16
 neon
-sse2
 ssse3
 /
 ;
@@ -13743,7 +13688,6 @@ qw
 aom_sub_pixel_variance16x4
 neon
 avx2
-sse2
 ssse3
 /
 ;
@@ -13752,7 +13696,6 @@ qw
 /
 aom_sub_pixel_variance8x32
 neon
-sse2
 ssse3
 /
 ;
@@ -13761,7 +13704,6 @@ qw
 /
 aom_sub_pixel_variance32x8
 neon
-sse2
 ssse3
 /
 ;
@@ -13771,7 +13713,6 @@ qw
 aom_sub_pixel_variance16x64
 neon
 avx2
-sse2
 ssse3
 /
 ;
@@ -13780,7 +13721,6 @@ qw
 /
 aom_sub_pixel_variance64x16
 neon
-sse2
 ssse3
 /
 ;
@@ -13789,7 +13729,6 @@ qw
 /
 aom_sub_pixel_avg_variance4x16
 neon
-sse2
 ssse3
 /
 ;
@@ -13798,7 +13737,6 @@ qw
 /
 aom_sub_pixel_avg_variance16x4
 neon
-sse2
 ssse3
 /
 ;
@@ -13807,7 +13745,6 @@ qw
 /
 aom_sub_pixel_avg_variance8x32
 neon
-sse2
 ssse3
 /
 ;
@@ -13816,7 +13753,6 @@ qw
 /
 aom_sub_pixel_avg_variance32x8
 neon
-sse2
 ssse3
 /
 ;
@@ -13825,7 +13761,6 @@ qw
 /
 aom_sub_pixel_avg_variance16x64
 neon
-sse2
 ssse3
 /
 ;
@@ -13834,7 +13769,6 @@ qw
 /
 aom_sub_pixel_avg_variance64x16
 neon
-sse2
 ssse3
 /
 ;
@@ -16945,8 +16879,42 @@ yes
 add_proto
 qw
 /
+bool
+aom_compute_mean_stddev
+/
+"
+const
+unsigned
+char
+*
+frame
+int
+stride
+int
+x
+int
+y
 double
-av1_compute_cross_correlation
+*
+mean
+double
+*
+one_over_stddev
+"
+;
+specialize
+qw
+/
+aom_compute_mean_stddev
+sse4_1
+avx2
+/
+;
+add_proto
+qw
+/
+double
+aom_compute_correlation
 /
 "
 const
@@ -16960,6 +16928,10 @@ int
 x1
 int
 y1
+double
+mean1
+double
+one_over_stddev1
 const
 unsigned
 char
@@ -16971,12 +16943,16 @@ int
 x2
 int
 y2
+double
+mean2
+double
+one_over_stddev2
 "
 ;
 specialize
 qw
 /
-av1_compute_cross_correlation
+aom_compute_correlation
 sse4_1
 avx2
 /
@@ -17019,6 +16995,7 @@ qw
 /
 aom_compute_flow_at_point
 sse4_1
+avx2
 neon
 /
 ;

@@ -2502,6 +2502,9 @@ cc
 endif
 (
 )
+endif
+(
+)
 if
 (
 CONFIG_REALTIME_ONLY
@@ -2675,9 +2678,6 @@ tpl_model_test
 .
 cc
 "
-)
-endif
-(
 )
 endif
 (

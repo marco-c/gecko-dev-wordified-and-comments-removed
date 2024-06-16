@@ -49,7 +49,7 @@ include
 "
 aom_util
 /
-aom_thread
+aom_pthread
 .
 h
 "

@@ -2077,6 +2077,9 @@ sb_me_block
 int_mv
 sb_me_mv
 ;
+int
+sb_force_fixed_part
+;
 unsigned
 int
 pred_sse

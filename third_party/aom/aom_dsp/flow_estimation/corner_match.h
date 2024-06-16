@@ -76,7 +76,7 @@ endif
 #
 define
 MATCH_SZ
-13
+16
 #
 define
 MATCH_SZ_BY2
@@ -97,6 +97,14 @@ MATCH_SZ
 *
 MATCH_SZ
 )
+#
+define
+MIN_FEATURE_VARIANCE
+(
+1
+*
+MATCH_SZ_SQ
+)
 bool
 av1_compute_global_motion_feature_match
 (
@@ -110,6 +118,8 @@ YV12_BUFFER_CONFIG
 ref
 int
 bit_depth
+int
+downsample_level
 MotionModel
 *
 motion_models

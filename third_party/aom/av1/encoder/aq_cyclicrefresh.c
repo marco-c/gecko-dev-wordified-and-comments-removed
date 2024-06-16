@@ -2768,6 +2768,15 @@ oxcf
 speed
 >
 9
+&
+&
+!
+cpi
+-
+>
+active_map
+.
+enabled
 )
 ?
 1

@@ -68,18 +68,6 @@ yv12config
 h
 "
 const
-int
-global_motion_pyr_levels
-[
-GLOBAL_MOTION_METHODS
-]
-=
-{
-1
-16
-}
-;
-const
 double
 kIdentityParams
 [
@@ -122,6 +110,8 @@ int
 bit_depth
 GlobalMotionMethod
 gm_method
+int
+downsample_level
 MotionModel
 *
 motion_models
@@ -147,6 +137,7 @@ type
 src
 ref
 bit_depth
+downsample_level
 motion_models
 num_motion_models
 mem_alloc_failed
@@ -162,6 +153,7 @@ type
 src
 ref
 bit_depth
+downsample_level
 motion_models
 num_motion_models
 mem_alloc_failed

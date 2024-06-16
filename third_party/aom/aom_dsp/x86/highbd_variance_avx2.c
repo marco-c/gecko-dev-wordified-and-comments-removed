@@ -4327,8 +4327,9 @@ var
 0
 ;
 }
+static
 void
-aom_highbd_calc8x8var_avx2
+highbd_calc8x8var_avx2
 (
 const
 uint16_t
@@ -4648,8 +4649,9 @@ v_d
 )
 ;
 }
+static
 void
-aom_highbd_calc16x16var_avx2
+highbd_calc16x16var_avx2
 (
 const
 uint16_t
@@ -5098,7 +5100,6 @@ ref8
 \
 highbd_10_variance_avx2
 (
-\
 src
 src_stride
 ref
@@ -5109,7 +5110,7 @@ sse
 &
 sum
 \
-aom_highbd_calc
+highbd_calc
 #
 #
 block_size
@@ -5122,6 +5123,7 @@ block_size
 #
 #
 var_avx2
+\
 block_size
 )
 ;
@@ -5538,8 +5540,9 @@ HIGHBD_SUBPIX_VAR
 #
 undef
 HIGHBD_SUBPIX_VAR
+static
 uint64_t
-aom_mse_4xh_16bit_highbd_avx2
+mse_4xh_16bit_highbd_avx2
 (
 uint16_t
 *
@@ -6015,8 +6018,9 @@ return
 sum
 ;
 }
+static
 uint64_t
-aom_mse_8xh_16bit_highbd_avx2
+mse_8xh_16bit_highbd_avx2
 (
 uint16_t
 *
@@ -6413,7 +6417,7 @@ case
 4
 :
 return
-aom_mse_4xh_16bit_highbd_avx2
+mse_4xh_16bit_highbd_avx2
 (
 dst
 dstride
@@ -6426,7 +6430,7 @@ case
 8
 :
 return
-aom_mse_8xh_16bit_highbd_avx2
+mse_8xh_16bit_highbd_avx2
 (
 dst
 dstride

@@ -42,7 +42,7 @@ aom_dsp
 /
 arm
 /
-dot_sve
+aom_neon_sve_bridge
 .
 h
 "
@@ -116,7 +116,7 @@ highbd_warp_plane_neon
 h
 "
 static
-INLINE
+AOM_FORCE_INLINE
 int16x8_t
 highbd_horizontal_filter_4x1_f4
 (
@@ -410,7 +410,7 @@ vdup_n_s16
 ;
 }
 static
-INLINE
+AOM_FORCE_INLINE
 int16x8_t
 highbd_horizontal_filter_8x1_f8
 (
@@ -931,7 +931,7 @@ res1
 ;
 }
 static
-INLINE
+AOM_FORCE_INLINE
 int16x8_t
 highbd_horizontal_filter_4x1_f1
 (
@@ -1206,7 +1206,7 @@ vdup_n_s16
 ;
 }
 static
-INLINE
+AOM_FORCE_INLINE
 int16x8_t
 highbd_horizontal_filter_8x1_f1
 (
@@ -1696,7 +1696,7 @@ res1
 ;
 }
 static
-INLINE
+AOM_FORCE_INLINE
 int32x4_t
 vertical_filter_4x1_f1
 (
@@ -1868,7 +1868,7 @@ m0123
 ;
 }
 static
-INLINE
+AOM_FORCE_INLINE
 int32x4x2_t
 vertical_filter_8x1_f1
 (
@@ -2176,7 +2176,7 @@ m4567
 ;
 }
 static
-INLINE
+AOM_FORCE_INLINE
 int32x4_t
 vertical_filter_4x1_f4
 (
@@ -2374,7 +2374,7 @@ m23
 ;
 }
 static
-INLINE
+AOM_FORCE_INLINE
 int32x4x2_t
 vertical_filter_8x1_f8
 (

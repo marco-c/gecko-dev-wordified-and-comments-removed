@@ -2246,6 +2246,7 @@ arm_crc32
 neon_dotprod
 neon_i8mm
 sve
+sve2
 /
 )
 ;

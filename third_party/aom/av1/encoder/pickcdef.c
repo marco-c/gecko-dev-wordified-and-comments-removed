@@ -5896,6 +5896,10 @@ best_lev0
 [
 CDEF_MAX_STRENGTHS
 ]
+=
+{
+0
+}
 ;
 int
 best_lev1

@@ -8656,7 +8656,7 @@ NULL
 cpi
 -
 >
-image_pyramid_levels
+alloc_pyramid
 0
 )
 )

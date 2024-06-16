@@ -4403,7 +4403,7 @@ NULL
 cpi
 -
 >
-image_pyramid_levels
+alloc_pyramid
 0
 )
 ;
@@ -5033,7 +5033,7 @@ border_in_pixels
 cpi
 -
 >
-image_pyramid_levels
+alloc_pyramid
 )
 ;
 cpi
@@ -9648,19 +9648,6 @@ sf
 rt_sf
 .
 use_rtc_tf
-&
-&
-cpi
--
->
-common
-.
-current_frame
-.
-frame_type
-!
-=
-KEY_FRAME
 )
 {
 assert
@@ -9986,6 +9973,7 @@ cpi
 svc
 .
 source_last_TL0
+1
 )
 ;
 aom_yv12_copy_u
@@ -10001,6 +9989,7 @@ cpi
 svc
 .
 source_last_TL0
+1
 )
 ;
 aom_yv12_copy_v
@@ -10016,6 +10005,7 @@ cpi
 svc
 .
 source_last_TL0
+1
 )
 ;
 }

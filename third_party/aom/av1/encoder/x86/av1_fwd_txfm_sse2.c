@@ -28601,6 +28601,9 @@ i
 ;
 }
 }
+#
+if
+AOM_ARCH_X86
 static
 FwdTxfm2dFunc
 fwd_txfm2d_func_ls
@@ -28709,3 +28712,5 @@ bd
 )
 ;
 }
+#
+endif

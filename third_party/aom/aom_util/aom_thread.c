@@ -23,6 +23,15 @@ h
 #
 include
 "
+config
+/
+aom_config
+.
+h
+"
+#
+include
+"
 aom_mem
 /
 aom_mem
@@ -35,6 +44,15 @@ include
 aom_ports
 /
 sanitizer
+.
+h
+"
+#
+include
+"
+aom_util
+/
+aom_pthread
 .
 h
 "
@@ -255,7 +273,7 @@ worker
 status_
 =
 =
-OK
+AVX_WORKER_STATUS_OK
 )
 {
 pthread_cond_wait
@@ -287,7 +305,7 @@ worker
 status_
 =
 =
-WORK
+AVX_WORKER_STATUS_WORKING
 )
 {
 pthread_mutex_unlock
@@ -327,7 +345,7 @@ worker
 status_
 =
 =
-WORK
+AVX_WORKER_STATUS_WORKING
 )
 ;
 worker
@@ -335,7 +353,7 @@ worker
 >
 status_
 =
-OK
+AVX_WORKER_STATUS_OK
 ;
 pthread_cond_signal
 (
@@ -360,7 +378,7 @@ worker
 status_
 =
 =
-NOT_OK
+AVX_WORKER_STATUS_NOT_OK
 )
 ;
 break
@@ -380,10 +398,7 @@ mutex_
 )
 ;
 return
-THREAD_RETURN
-(
-NULL
-)
+THREAD_EXIT_SUCCESS
 ;
 }
 static
@@ -430,7 +445,7 @@ worker
 status_
 >
 =
-OK
+AVX_WORKER_STATUS_OK
 )
 {
 while
@@ -441,7 +456,7 @@ worker
 status_
 !
 =
-OK
+AVX_WORKER_STATUS_OK
 )
 {
 pthread_cond_wait
@@ -470,7 +485,7 @@ if
 new_status
 !
 =
-OK
+AVX_WORKER_STATUS_OK
 )
 {
 worker
@@ -535,7 +550,7 @@ worker
 >
 status_
 =
-NOT_OK
+AVX_WORKER_STATUS_NOT_OK
 ;
 }
 static
@@ -554,7 +569,7 @@ CONFIG_MULTITHREAD
 change_state
 (
 worker
-OK
+AVX_WORKER_STATUS_OK
 )
 ;
 #
@@ -567,7 +582,7 @@ worker
 status_
 <
 =
-OK
+AVX_WORKER_STATUS_OK
 )
 ;
 return
@@ -607,7 +622,7 @@ worker
 >
 status_
 <
-OK
+AVX_WORKER_STATUS_OK
 )
 {
 #
@@ -831,7 +846,7 @@ worker
 >
 status_
 =
-OK
+AVX_WORKER_STATUS_OK
 ;
 pthread_mutex_unlock
 (
@@ -911,7 +926,7 @@ worker
 >
 status_
 =
-OK
+AVX_WORKER_STATUS_OK
 ;
 #
 endif
@@ -924,7 +939,7 @@ worker
 >
 status_
 >
-OK
+AVX_WORKER_STATUS_OK
 )
 {
 ok
@@ -948,7 +963,7 @@ worker
 status_
 =
 =
-OK
+AVX_WORKER_STATUS_OK
 )
 )
 ;
@@ -1017,7 +1032,7 @@ CONFIG_MULTITHREAD
 change_state
 (
 worker
-WORK
+AVX_WORKER_STATUS_WORKING
 )
 ;
 #
@@ -1057,7 +1072,7 @@ NULL
 change_state
 (
 worker
-NOT_OK
+AVX_WORKER_STATUS_NOT_OK
 )
 ;
 pthread_join
@@ -1119,7 +1134,7 @@ worker
 >
 status_
 =
-NOT_OK
+AVX_WORKER_STATUS_NOT_OK
 ;
 assert
 (
@@ -1142,7 +1157,7 @@ worker
 status_
 =
 =
-NOT_OK
+AVX_WORKER_STATUS_NOT_OK
 )
 ;
 }
