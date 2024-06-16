@@ -1052,6 +1052,15 @@ IsReversed
 ;
 if
 (
+mCounterName
+=
+=
+nsGkAtoms
+:
+:
+list_item
+&
+&
 aNode
 -
 >
