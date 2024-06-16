@@ -165,7 +165,7 @@ request_options_with_mediation_required
 )
 ;
 const
-title
+result
 =
 await
 fedcm_get_title_promise
@@ -175,6 +175,8 @@ t
 ;
 assert_true
 (
+result
+.
 title
 .
 toLowerCase
@@ -246,7 +248,7 @@ signup
 )
 ;
 const
-title
+result
 =
 await
 fedcm_get_title_promise
@@ -256,6 +258,8 @@ t
 ;
 assert_true
 (
+result
+.
 title
 .
 toLowerCase
@@ -325,7 +329,7 @@ use
 )
 ;
 const
-title
+result
 =
 await
 fedcm_get_title_promise
@@ -335,6 +339,8 @@ t
 ;
 assert_true
 (
+result
+.
 title
 .
 toLowerCase
@@ -403,7 +409,7 @@ continue
 )
 ;
 const
-title
+result
 =
 await
 fedcm_get_title_promise
@@ -413,6 +419,8 @@ t
 ;
 assert_true
 (
+result
+.
 title
 .
 toLowerCase
