@@ -404,6 +404,14 @@ DOMString
 type
 )
 ;
+static
+boolean
+supports
+(
+DOMString
+type
+)
+;
 }
 ;
 enum

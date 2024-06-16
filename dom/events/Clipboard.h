@@ -188,6 +188,16 @@ JSObject
 aGlobal
 )
 ;
+static
+Span
+<
+const
+nsLiteralCString
+>
+MandatoryDataTypes
+(
+)
+;
 virtual
 JSObject
 *
