@@ -485,6 +485,10 @@ True
 document
 =
 False
+    
+add_line_no
+=
+False
 )
 :
     
@@ -603,6 +607,51 @@ test
 document
 "
 ]
+    
+-
+add_line_no
+:
+add
+the
+line
+number
+where
+the
+test
+name
+appears
+in
+the
+file
+to
+the
+source
+.
+Also
+the
+document
+variable
+must
+be
+set
+to
+True
+for
+this
+flag
+to
+work
+.
+(
+This
+is
+used
+only
+to
+generate
+the
+documentation
+)
     
 "
 "
@@ -1072,6 +1121,8 @@ sections
     
 if
 document
+and
+add_line_no
 :
         
 for
@@ -1136,7 +1187,9 @@ str
 line
 )
     
-else
+elif
+not
+document
 :
         
 manifest

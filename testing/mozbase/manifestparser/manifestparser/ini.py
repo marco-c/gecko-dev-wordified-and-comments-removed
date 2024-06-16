@@ -146,6 +146,10 @@ True
 document
 =
 False
+    
+add_line_no
+=
+False
 )
 :
     
@@ -246,6 +250,27 @@ defaults
 into
 each
 section
+    
+-
+add_line_no
+:
+whether
+to
+include
+the
+line
+number
+that
+points
+to
+the
+test
+in
+the
+generated
+ini
+file
+.
     
 "
 "

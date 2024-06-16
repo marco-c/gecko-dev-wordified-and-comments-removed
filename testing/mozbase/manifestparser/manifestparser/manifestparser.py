@@ -219,6 +219,10 @@ True
 document
 =
 False
+        
+add_line_no
+=
+False
     
 )
 :
@@ -549,6 +553,50 @@ to
 False
 )
         
+:
+param
+add_line_no
+:
+If
+True
+the
+*
+.
+toml
+configuration
+will
+add
+the
+line
+number
+where
+the
+test
+name
+appears
+in
+the
+file
+to
+the
+parsed
+document
+.
+Also
+the
+document
+should
+be
+set
+to
+True
+.
+(
+defaults
+to
+False
+)
+        
 "
 "
 "
@@ -632,6 +680,12 @@ self
 document
 =
 document
+        
+self
+.
+add_line_no
+=
+add_line_no
         
 self
 .
@@ -1477,6 +1531,12 @@ document
 self
 .
 document
+            
+add_line_no
+=
+self
+.
+add_line_no
         
 )
         
