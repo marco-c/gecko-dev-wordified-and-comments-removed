@@ -1677,6 +1677,11 @@ checkForPostRecovery
 testProfilePath
 )
 ;
+await
+bs
+.
+postRecoveryComplete
+;
 Assert
 .
 ok
