@@ -3323,6 +3323,13 @@ isEmpty
 )
 )
 ;
+setCapacity
+(
+minSpaceSize
+(
+)
+)
+;
 toSpace
 .
 moveToStartOfChunk
