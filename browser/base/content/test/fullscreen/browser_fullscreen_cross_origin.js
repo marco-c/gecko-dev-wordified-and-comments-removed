@@ -263,6 +263,8 @@ allowed
 "
 )
 {
+DOMFullscreenTestUtils
+.
 waitForFullScreenState
 (
 browser

@@ -96,6 +96,8 @@ fullscreen
 )
 ;
 await
+DOMFullscreenTestUtils
+.
 changeFullscreen
 (
 browser
@@ -137,6 +139,8 @@ popup
 let
 fsExit
 =
+DOMFullscreenTestUtils
+.
 waitForFullScreenState
 (
 browser
