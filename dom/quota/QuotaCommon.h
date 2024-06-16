@@ -1659,7 +1659,6 @@ QM_TRY_META
 )
 \
 {
-\
 MOZ_ARG_7
 (
 #
@@ -1695,7 +1694,6 @@ QM_MISSING_ARGS
 __VA_ARGS__
 )
 )
-\
 }
 #
 define
@@ -2417,7 +2415,6 @@ QM_TRY_RETURN_META
 )
 \
 {
-\
 MOZ_ARG_6
 (
 #
@@ -2448,7 +2445,6 @@ QM_MISSING_ARGS
 __VA_ARGS__
 )
 )
-\
 }
 #
 define
@@ -2810,7 +2806,6 @@ QM_REPORTONLY_TRY_META
 )
 \
 {
-\
 MOZ_ARG_6
 (
 #
@@ -2839,7 +2834,6 @@ QM_MISSING_ARGS
 __VA_ARGS__
 )
 )
-\
 }
 #
 define
