@@ -215,7 +215,7 @@ shadowRoot
 querySelector
 (
 "
-#
+.
 full
 -
 page
@@ -703,7 +703,7 @@ shadowRoot
 querySelector
 (
 "
-#
+.
 full
 -
 page

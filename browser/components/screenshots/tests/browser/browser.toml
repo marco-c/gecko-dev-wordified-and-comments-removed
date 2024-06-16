@@ -132,13 +132,6 @@ js
 ]
 [
 "
-browser_keyboard_tests
-.
-js
-"
-]
-[
-"
 browser_overlay_keyboard_test
 .
 js

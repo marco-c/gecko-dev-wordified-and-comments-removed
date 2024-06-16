@@ -4925,14 +4925,6 @@ ShowPanel
 :
 {
 }
-"
-Screenshots
-:
-FocusPanel
-"
-:
-{
-}
 }
 }
 enablePreference
