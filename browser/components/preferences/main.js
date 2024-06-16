@@ -11541,6 +11541,13 @@ Ci
 nsIUpdateManager
 )
 ;
+await
+aus
+.
+init
+(
+)
+;
 if
 (
 aus
