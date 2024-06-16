@@ -892,6 +892,62 @@ enabled
 }
             
 ]
+            
+[
+                
+[
+"
+-
+-
+subsuite
+"
+]
+                
+{
+                    
+"
+action
+"
+:
+"
+store
+"
+                    
+"
+dest
+"
+:
+"
+subsuite
+"
+                    
+"
+default
+"
+:
+"
+marionette
+"
+                    
+"
+help
+"
+:
+"
+Selects
+test
+paths
+from
+test
+-
+manifests
+.
+active
+"
+                
+}
+            
+]
         
 ]
         
@@ -1103,6 +1159,19 @@ get
 (
 "
 test_packages_url
+"
+)
+        
+self
+.
+subsuite
+=
+c
+.
+get
+(
+"
+subsuite
 "
 )
         
@@ -2542,9 +2611,9 @@ MOZHARNESS_CONFIRM_PATHS
         
 suite
 =
-"
-marionette
-"
+self
+.
+subsuite
         
 if
 test_paths
