@@ -706,6 +706,8 @@ _ZN11nsPK11Token12InitPasswordEPKDs
 We
 intentionally
 leak
+bloom
+filter
 TLS
 data
 in
@@ -752,7 +754,7 @@ kinds
 definite
 fun
 :
-malloc
+calloc
 .
 .
 .
@@ -791,6 +793,8 @@ GT
 We
 intentionally
 leak
+sharing
+cache
 TLS
 data
 in
