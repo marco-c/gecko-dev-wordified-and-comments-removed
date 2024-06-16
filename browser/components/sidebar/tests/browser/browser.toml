@@ -54,3 +54,10 @@ browser_toolbar_sidebar_button
 js
 "
 ]
+[
+"
+browser_view_sidebar_menu
+.
+js
+"
+]
