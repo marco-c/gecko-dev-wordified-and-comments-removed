@@ -24,14 +24,6 @@ JS
 class
 HelperThreadTask
 ;
-enum
-class
-DispatchReason
-{
-NewTask
-FinishedTask
-}
-;
 using
 HelperThreadTaskCallback
 =
@@ -43,8 +35,6 @@ void
 HelperThreadTask
 *
 task
-DispatchReason
-reason
 )
 ;
 extern
