@@ -320,7 +320,7 @@ return
 div
 >
 <
-div
+fieldset
 className
 =
 "
@@ -364,13 +364,9 @@ radio
 "
 name
 =
-{
+"
 wallpaper
--
-{
-title
-}
-}
+"
 id
 =
 {
@@ -459,7 +455,7 @@ label
 }
 <
 /
-div
+fieldset
 >
 <
 button
