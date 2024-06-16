@@ -4912,6 +4912,10 @@ Empty
 )
 )
 {
+mOutputNewDecoderConfig
+=
+true
+;
 LOG
 (
 "
