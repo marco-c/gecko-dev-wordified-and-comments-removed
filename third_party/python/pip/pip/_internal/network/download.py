@@ -240,23 +240,20 @@ total_length
         
 logged_url
 =
+f
 "
 {
-}
-(
-{
-}
-)
-"
-.
-format
-(
 logged_url
+}
+(
+{
 format_size
 (
 total_length
 )
+}
 )
+"
     
 if
 is_from_cache

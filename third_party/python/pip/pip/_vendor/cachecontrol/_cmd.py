@@ -1,5 +1,17 @@
+from
+__future__
+import
+annotations
 import
 logging
+from
+argparse
+import
+ArgumentParser
+from
+typing
+import
+TYPE_CHECKING
 from
 pip
 .
@@ -36,14 +48,32 @@ cachecontrol
 controller
 import
 logger
+if
+TYPE_CHECKING
+:
+    
 from
 argparse
 import
-ArgumentParser
+Namespace
+    
+from
+pip
+.
+_vendor
+.
+cachecontrol
+.
+controller
+import
+CacheController
 def
 setup_logging
 (
 )
+-
+>
+None
 :
     
 logger
@@ -73,6 +103,11 @@ def
 get_session
 (
 )
+-
+>
+requests
+.
+Session
 :
     
 adapter
@@ -143,6 +178,9 @@ def
 get_args
 (
 )
+-
+>
+Namespace
 :
     
 parser
@@ -179,10 +217,10 @@ parse_args
 def
 main
 (
-args
-=
-None
 )
+-
+>
+None
 :
     
 args
@@ -212,8 +250,18 @@ setup_logging
 (
 )
     
+cache_controller
+:
+CacheController
+=
+(
+        
 sess
 .
+cache_controller
+    
+)
+    
 cache_controller
 .
 cache_response
@@ -227,8 +275,6 @@ raw
 )
     
 if
-sess
-.
 cache_controller
 .
 cached_request

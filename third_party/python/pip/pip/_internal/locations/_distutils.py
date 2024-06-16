@@ -510,19 +510,22 @@ scheme
 .
 update
 (
-dict
-(
+{
+"
 purelib
-=
+"
+:
 i
 .
 install_lib
+"
 platlib
-=
+"
+:
 i
 .
 install_lib
-)
+}
 )
     
 if

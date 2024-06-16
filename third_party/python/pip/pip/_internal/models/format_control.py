@@ -203,33 +203,28 @@ str
 :
         
 return
+f
 "
 {
-}
-(
-{
-}
-{
-}
-)
-"
-.
-format
-(
-            
 self
 .
 __class__
 .
 __name__
+}
+(
+{
 self
 .
 no_binary
+}
+{
 self
 .
 only_binary
-        
+}
 )
+"
     
 staticmethod
     

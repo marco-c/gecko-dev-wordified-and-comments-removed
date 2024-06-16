@@ -147,22 +147,22 @@ object
 "
 "
 "
+    
 A
 list
 of
 files
 built
 by
-on
 exploring
 the
 filesystem
 and
 filtered
 by
-    
 applying
 various
+    
 patterns
 to
 what
@@ -914,8 +914,6 @@ in
 patterns
 :
                 
-found
-=
 self
 .
 _exclude_pattern
@@ -994,8 +992,6 @@ in
 patterns
 :
                 
-found
-=
 self
 .
 _exclude_pattern
@@ -1076,8 +1072,6 @@ in
 patterns
 :
                 
-found
-=
 self
 .
 _exclude_pattern

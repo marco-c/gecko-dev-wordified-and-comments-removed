@@ -333,11 +333,9 @@ pathspec
 pip
 =
 =
-23
+24
 .
 0
-.
-1
 pip
 -
 tools

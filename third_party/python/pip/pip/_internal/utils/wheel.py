@@ -159,25 +159,22 @@ e
 raise
 UnsupportedWheel
 (
+f
 "
 {
+name
 }
 has
 an
 invalid
 wheel
 {
-}
-"
-.
-format
-(
-name
 str
 (
 e
 )
-)
+}
+"
 )
     
 check_compatibility
@@ -386,6 +383,7 @@ raise
 UnsupportedWheel
 (
             
+f
 "
 .
 dist
@@ -393,6 +391,7 @@ dist
 info
 directory
 {
+info_dir
 !
 r
 }
@@ -401,18 +400,11 @@ not
 start
 with
 {
+canonical_name
 !
 r
 }
 "
-.
-format
-(
-                
-info_dir
-canonical_name
-            
-)
         
 )
     

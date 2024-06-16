@@ -1,4 +1,8 @@
 from
+pathlib
+import
+Path
+from
 json
 import
 loads
@@ -939,25 +943,16 @@ read
 else
 :
             
-with
-open
+json_data
+=
+Path
 (
 args
 .
 path
-"
-rt
-"
 )
-as
-json_file
-:
-                
-json_data
-=
-json_file
 .
-read
+read_text
 (
 )
     

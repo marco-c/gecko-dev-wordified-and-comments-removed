@@ -1,14 +1,31 @@
 from
+__future__
+import
+annotations
+import
+mmap
+from
 tempfile
 import
 NamedTemporaryFile
+from
+typing
 import
-mmap
+TYPE_CHECKING
+Any
+Callable
+if
+TYPE_CHECKING
+:
+    
+from
+http
+.
+client
+import
+HTTPResponse
 class
 CallbackFileWrapper
-(
-object
-)
 :
     
 "
@@ -180,10 +197,27 @@ impact
 def
 __init__
 (
+        
 self
 fp
+:
+HTTPResponse
 callback
+:
+Callable
+[
+[
+bytes
+]
+None
+]
+|
+None
+    
 )
+-
+>
+None
 :
         
 self
@@ -218,7 +252,12 @@ __getattr__
 (
 self
 name
+:
+str
 )
+-
+>
+Any
 :
         
 fp
@@ -244,6 +283,9 @@ __is_fp_closed
 (
 self
 )
+-
+>
+bool
 :
         
 try
@@ -267,11 +309,17 @@ pass
 try
 :
             
-return
+closed
+:
+bool
+=
 self
 .
 __fp
 .
+closed
+            
+return
 closed
         
 except
@@ -288,6 +336,9 @@ _close
 (
 self
 )
+-
+>
+None
 :
         
 if
@@ -380,12 +431,21 @@ read
 (
 self
 amt
+:
+int
+|
+None
 =
 None
 )
+-
+>
+bytes
 :
         
 data
+:
+bytes
 =
 self
 .
@@ -431,10 +491,17 @@ _safe_read
 (
 self
 amt
+:
+int
 )
+-
+>
+bytes
 :
         
 data
+:
+bytes
 =
 self
 .

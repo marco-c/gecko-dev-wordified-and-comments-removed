@@ -178,13 +178,6 @@ List
 InstallRequirement
 ]
     
-install_options
-:
-List
-[
-str
-]
-    
 global_options
 :
 Sequence
@@ -379,8 +372,6 @@ requirement
 .
 install
 (
-                    
-install_options
                     
 global_options
                     

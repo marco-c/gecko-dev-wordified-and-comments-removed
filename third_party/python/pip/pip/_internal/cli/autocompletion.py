@@ -407,6 +407,17 @@ optparse
 SUPPRESS_HELP
 :
                 
+options
++
+=
+[
+                    
+(
+opt_str
+opt
+.
+nargs
+)
 for
 opt_str
 in
@@ -417,19 +428,8 @@ _long_opts
 opt
 .
 _short_opts
-:
-                    
-options
-.
-append
-(
-(
-opt_str
-opt
-.
-nargs
-)
-)
+                
+]
         
 prev_opts
 =

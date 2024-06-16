@@ -2000,7 +2000,7 @@ dark_blue
 title
 =
 "
-Algin
+Align
 "
     
 )

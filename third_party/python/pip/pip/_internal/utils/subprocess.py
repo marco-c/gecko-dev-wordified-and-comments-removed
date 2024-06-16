@@ -1050,15 +1050,19 @@ subprocess_logger
 error
 (
 "
-[
-present
--
-rich
-]
 %
 s
 "
 error
+extra
+=
+{
+"
+rich
+"
+:
+True
+}
 )
                 
 subprocess_logger

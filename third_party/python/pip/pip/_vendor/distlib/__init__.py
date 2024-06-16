@@ -19,7 +19,7 @@ __version__
 .
 3
 .
-6
+8
 '
 class
 DistlibException
@@ -56,6 +56,7 @@ self
 record
 )
 :
+            
 pass
         
 def
@@ -65,6 +66,7 @@ self
 record
 )
 :
+            
 pass
         
 def
@@ -73,6 +75,7 @@ createLock
 self
 )
 :
+            
 self
 .
 lock

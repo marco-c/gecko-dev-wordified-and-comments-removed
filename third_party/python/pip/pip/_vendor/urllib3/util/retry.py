@@ -1517,6 +1517,9 @@ frozenset
 (
 [
 "
+Cookie
+"
+"
 Authorization
 "
 ]

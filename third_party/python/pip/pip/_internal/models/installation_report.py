@@ -104,12 +104,25 @@ to_dict
 is_direct
 "
 :
-bool
-(
 ireq
 .
-original_link
-)
+is_direct
+            
+"
+is_yanked
+"
+:
+ireq
+.
+link
+.
+is_yanked
+if
+ireq
+.
+link
+else
+False
             
 "
 requested
@@ -150,14 +163,11 @@ requested_extras
 "
 ]
 =
-list
-(
 sorted
 (
 ireq
 .
 extras
-)
 )
         
 return

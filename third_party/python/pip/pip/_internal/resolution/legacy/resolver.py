@@ -1355,8 +1355,12 @@ raise
 InstallationError
 (
                     
+f
 "
 {
+wheel
+.
+filename
 }
 is
 not
@@ -1368,15 +1372,6 @@ this
 platform
 .
 "
-.
-format
-(
-                        
-wheel
-.
-filename
-                    
-)
                 
 )
         
@@ -1620,6 +1615,7 @@ raise
 InstallationError
 (
                 
+f
 "
 Could
 not
@@ -1628,6 +1624,9 @@ constraints
 for
 '
 {
+install_req
+.
+name
 }
 '
 :
@@ -1649,13 +1648,6 @@ to
 a
 version
 "
-.
-format
-(
-install_req
-.
-name
-)
             
 )
         
@@ -2246,17 +2238,19 @@ is
 a
 "
                 
+f
 "
 yanked
 version
 :
 {
-candidate
+best_candidate
 }
 \
 n
 "
                 
+f
 "
 Reason
 for
@@ -2268,16 +2262,6 @@ reason
 }
 "
             
-)
-.
-format
-(
-candidate
-=
-best_candidate
-reason
-=
-reason
 )
             
 logger
@@ -2522,9 +2506,11 @@ persistent
                 
 req
 .
-original_link_is_in_wheel_cache
+cached_wheel_source_link
 =
-True
+req
+.
+link
             
 if
 cache_entry

@@ -90,7 +90,6 @@ utils
 misc
 import
 ask
-is_local
 normalize_path
 renames
 rmtree
@@ -105,6 +104,16 @@ temp_dir
 import
 AdjacentTempDirectory
 TempDirectory
+from
+pip
+.
+_internal
+.
+utils
+.
+virtualenv
+import
+running_under_virtualenv
 logger
 =
 getLogger
@@ -513,6 +522,7 @@ None
         
 msg
 =
+f
 "
 Cannot
 uninstall
@@ -525,13 +535,6 @@ not
 found
 .
 "
-.
-format
-(
-dist
-=
-dist
-)
         
 installer
 =
@@ -553,24 +556,21 @@ pip
             
 dep
 =
+f
 "
 {
-}
-=
-=
-{
-}
-"
-.
-format
-(
 dist
 .
 raw_name
+}
+=
+=
+{
 dist
 .
 version
-)
+}
+"
             
 msg
 +
@@ -590,6 +590,7 @@ via
 :
 "
                 
+f
 "
 '
 pip
@@ -605,15 +606,11 @@ no
 -
 deps
 {
+dep
 }
 '
 .
 "
-.
-format
-(
-dep
-)
             
 )
         
@@ -623,6 +620,7 @@ else
 msg
 +
 =
+f
 "
 Hint
 :
@@ -632,14 +630,10 @@ was
 installed
 by
 {
+installer
 }
 .
 "
-.
-format
-(
-installer
-)
         
 raise
 UninstallationError
@@ -2051,14 +2045,13 @@ files
 "
         
 for
-_
 save_dir
 in
 self
 .
 _save_dirs
 .
-items
+values
 (
 )
 :
@@ -2363,6 +2356,19 @@ _moved_paths
 StashedUninstallPathSet
 (
 )
+        
+self
+.
+_normalize_path_cached
+=
+functools
+.
+lru_cache
+(
+)
+(
+normalize_path
+)
     
 def
 _permitted
@@ -2405,10 +2411,29 @@ otherwise
 "
 "
         
-return
-is_local
+if
+not
+running_under_virtualenv
 (
+)
+:
+            
+return
+True
+        
+return
 path
+.
+startswith
+(
+self
+.
+_normalize_path_cached
+(
+sys
+.
+prefix
+)
 )
     
 def
@@ -2444,7 +2469,9 @@ path
 .
 join
 (
-normalize_path
+self
+.
+_normalize_path_cached
 (
 head
 )
@@ -2550,7 +2577,9 @@ None
         
 pth_file
 =
-normalize_path
+self
+.
+_normalize_path_cached
 (
 pth_file
 )
@@ -3824,9 +3853,13 @@ strip
                 
 normalized_link_pointer
 =
-normalize_path
+paths_to_remove
+.
+_normalize_path_cached
 (
+                    
 link_pointer
+                
 )
             
 assert
@@ -3849,18 +3882,24 @@ Egg
 -
 link
 {
+develop_egg_link
+}
+(
+to
+{
 link_pointer
 }
+)
 does
 not
 match
-installed
-location
-of
 "
                 
 f
 "
+installed
+location
+of
 {
 dist
 .

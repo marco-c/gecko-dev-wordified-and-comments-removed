@@ -1,4 +1,8 @@
 from
+typing
+import
+Optional
+from
 pip
 .
 _internal
@@ -62,6 +66,24 @@ computed
 "
 "
 "
+    
+property
+    
+def
+build_tracker_id
+(
+self
+)
+-
+>
+Optional
+[
+str
+]
+:
+        
+return
+None
     
 def
 get_metadata_distribution

@@ -880,40 +880,23 @@ tuple
 )
         
 if
-record
-.
-msg
-=
-=
-"
-[
-present
--
-rich
-]
-%
-s
-"
-and
-len
+getattr
 (
 record
-.
-args
+"
+rich
+"
+False
 )
-=
-=
-1
 :
             
+(
 rich_renderable
+)
 =
 record
 .
 args
-[
-0
-]
             
 assert
 isinstance

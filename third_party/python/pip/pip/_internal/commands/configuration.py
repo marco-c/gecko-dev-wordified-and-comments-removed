@@ -1697,7 +1697,7 @@ e
 raise
 PipError
 (
-                
+f
 "
 Editor
 Subprocess
@@ -1706,16 +1706,11 @@ with
 exit
 code
 {
-}
-"
-.
-format
-(
 e
 .
 returncode
-)
-            
+}
+"
 )
     
 def
@@ -1773,6 +1768,7 @@ msg
 =
 (
                 
+f
 "
 Got
 unexpected
@@ -1781,33 +1777,30 @@ of
 arguments
 expected
 {
+n
 }
 .
 "
                 
+f
 '
 (
 example
 :
 "
 {
+get_prog
+(
+)
 }
 config
 {
+example
 }
 "
 )
 '
             
-)
-.
-format
-(
-n
-get_prog
-(
-)
-example
 )
             
 raise

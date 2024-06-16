@@ -1,4 +1,6 @@
 import
+contextlib
+import
 functools
 import
 logging
@@ -88,6 +90,16 @@ _internal
 .
 req
 .
+constructors
+import
+install_req_extend_extras
+from
+pip
+.
+_internal
+.
+req
+.
 req_install
 import
 InstallRequirement
@@ -141,6 +153,16 @@ PipDebuggingReporter
     
 PipReporter
 )
+from
+pip
+.
+_internal
+.
+utils
+.
+packaging
+import
+get_requirement
 from
 .
 base
@@ -481,9 +503,9 @@ reporter
 try
 :
             
-try_to_avoid_resolution_too_deep
+limit_how_complex_resolution_can_be
 =
-2000000
+200000
             
 result
 =
@@ -501,7 +523,7 @@ collected
 requirements
 max_rounds
 =
-try_to_avoid_resolution_too_deep
+limit_how_complex_resolution_can_be
             
 )
         
@@ -555,12 +577,30 @@ check_supported_wheels
 for
 candidate
 in
+sorted
+(
+            
 result
 .
 mapping
 .
 values
 (
+)
+key
+=
+lambda
+c
+:
+c
+.
+name
+!
+=
+c
+.
+project_name
+        
 )
 :
             
@@ -577,6 +617,59 @@ ireq
 is
 None
 :
+                
+if
+candidate
+.
+name
+!
+=
+candidate
+.
+project_name
+:
+                    
+with
+contextlib
+.
+suppress
+(
+KeyError
+)
+:
+                        
+req
+=
+req_set
+.
+get_requirement
+(
+candidate
+.
+project_name
+)
+                        
+req_set
+.
+add_named_requirement
+(
+                            
+install_req_extend_extras
+(
+                                
+req
+get_requirement
+(
+candidate
+.
+name
+)
+.
+extras
+                            
+)
+                        
+)
                 
 continue
             
@@ -861,6 +954,24 @@ prepare_linked_requirements_more
 (
 reqs
 )
+        
+for
+req
+in
+reqs
+:
+            
+req
+.
+prepared
+=
+True
+            
+req
+.
+needs_more_preparation
+=
+False
         
 return
 req_set

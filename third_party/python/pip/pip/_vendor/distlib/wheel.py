@@ -67,13 +67,9 @@ from
 .
 metadata
 import
-(
 Metadata
-METADATA_FILENAME
 WHEEL_METADATA_FILENAME
-                       
 LEGACY_METADATA_FILENAME
-)
 from
 .
 util
@@ -454,6 +450,7 @@ re
 .
 compile
 (
+    
 r
 '
 '
@@ -580,6 +577,7 @@ re
 .
 compile
 (
+    
 r
 '
 '
@@ -1671,8 +1669,8 @@ self
 name
 version
 buildver
-                                         
 pyver
+                                         
 abi
 arch
 )
@@ -1832,48 +1830,11 @@ as
 zf
 :
             
-wheel_metadata
-=
 self
 .
 get_wheel_metadata
 (
 zf
-)
-            
-wv
-=
-wheel_metadata
-[
-'
-Wheel
--
-Version
-'
-]
-.
-split
-(
-'
-.
-'
-1
-)
-            
-file_version
-=
-tuple
-(
-[
-int
-(
-i
-)
-for
-i
-in
-wv
-]
 )
             
 fns
@@ -2392,6 +2353,7 @@ algorithm
 r
 '
 %
+                                   
 hash_kind
 )
         
@@ -2505,16 +2467,6 @@ distinfo
 info_dir
 =
 info
-        
-hasher
-=
-getattr
-(
-hashlib
-self
-.
-hash_kind
-)
         
 for
 ap
@@ -3860,6 +3812,7 @@ get
 '
 bytecode_hashed_invalidation
 '
+                                            
 False
 )
         
@@ -4573,6 +4526,7 @@ os
 chmod
 (
 outfile
+                                     
 (
 zinfo
 .
@@ -4685,8 +4639,9 @@ fileop
 .
 byte_compile
 (
+                                    
 outfile
-                                                          
+                                    
 hashed_invalidation
 =
 bc_hashed_invalidation
@@ -5727,6 +5682,7 @@ datetime
 .
 fromtimestamp
 (
+                                
 file_time
 )
                             
@@ -6182,17 +6138,6 @@ self
 version
 )
         
-data_dir
-=
-'
-%
-s
-.
-data
-'
-%
-name_ver
-        
 info_dir
 =
 '
@@ -6205,16 +6150,6 @@ info
 '
 %
 name_ver
-        
-metadata_name
-=
-posixpath
-.
-join
-(
-info_dir
-LEGACY_METADATA_FILENAME
-)
         
 wheel_metadata_name
 =
@@ -6283,46 +6218,9 @@ wrapper
 bwf
 )
                 
-message
-=
 message_from_file
 (
 wf
-)
-            
-wv
-=
-message
-[
-'
-Wheel
--
-Version
-'
-]
-.
-split
-(
-'
-.
-'
-1
-)
-            
-file_version
-=
-tuple
-(
-[
-int
-(
-i
-)
-for
-i
-in
-wv
-]
 )
             
 records
@@ -6859,8 +6757,6 @@ None
 try
 :
                 
-v
-=
 NormalizedVersion
 (
 version
@@ -6948,13 +6844,13 @@ version
 :
 i
 ]
-                                         
 '
 .
 '
 .
 join
 (
+                        
 str
 (
 i
@@ -6974,6 +6870,7 @@ logger
 .
 debug
 (
+                    
 '
 Cannot
 update
@@ -6986,7 +6883,7 @@ PEP
 440
 )
 '
-                             
+                    
 '
 version
 %
@@ -7050,7 +6947,6 @@ to
 r
 '
 version
-                             
 updated
 )
         
@@ -7367,6 +7263,7 @@ directory
 r
 '
 %
+                                               
 dest_dir
 )
                     
@@ -8143,6 +8040,7 @@ result
 .
 append
 (
+                        
 (
 '
 '
@@ -8158,7 +8056,7 @@ versions
 )
 )
 abi
-                                   
+                         
 '
 manylinux_
 %
@@ -8178,7 +8076,6 @@ parts
 [
 1
 ]
-                                                           
 arch
 )
 )

@@ -1,4 +1,8 @@
 from
+typing
+import
+Optional
+from
 pip
 .
 _vendor
@@ -76,6 +80,24 @@ unpacked
 "
 "
 "
+    
+property
+    
+def
+build_tracker_id
+(
+self
+)
+-
+>
+Optional
+[
+str
+]
+:
+        
+return
+None
     
 def
 get_metadata_distribution

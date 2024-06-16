@@ -273,9 +273,10 @@ backtracking
 "
     
 def
-backtracking
+rejecting_candidate
 (
 self
+criterion
 candidate
 )
 :

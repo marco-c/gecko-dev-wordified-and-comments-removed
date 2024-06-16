@@ -413,6 +413,8 @@ cls
 :
         
 "
+"
+"
 all
 non
 -
@@ -421,6 +423,8 @@ characters
 in
 this
 range
+"
+"
 "
         
 return
@@ -450,12 +454,16 @@ cls
 :
         
 "
+"
+"
 all
 alphabetic
 characters
 in
 this
 range
+"
+"
 "
         
 return
@@ -485,6 +493,8 @@ cls
 :
         
 "
+"
+"
 all
 numeric
 digit
@@ -492,6 +502,8 @@ characters
 in
 this
 range
+"
+"
 "
         
 return
@@ -521,12 +533,16 @@ cls
 :
         
 "
+"
+"
 all
 alphanumeric
 characters
 in
 this
 range
+"
+"
 "
         
 return
@@ -548,6 +564,8 @@ cls
 :
         
 "
+"
+"
 all
 characters
 in
@@ -563,6 +581,8 @@ underscore
 '
 _
 '
+"
+"
 "
         
 return
@@ -645,6 +665,12 @@ digits
 0
 -
 9
+and
+(
+Unicode
+MIDDLE
+DOT
+)
         
 "
 "
@@ -708,6 +734,62 @@ isidentifier
 )
         
 )
+    
+_lazyclassproperty
+    
+def
+identifier
+(
+cls
+)
+:
+        
+"
+"
+"
+        
+a
+pyparsing
+Word
+expression
+for
+an
+identifier
+using
+this
+range
+'
+s
+definitions
+for
+        
+identchars
+and
+identbodychars
+        
+"
+"
+"
+        
+from
+pip
+.
+_vendor
+.
+pyparsing
+import
+Word
+        
+return
+Word
+(
+cls
+.
+identchars
+cls
+.
+identbodychars
+)
 class
 pyparsing_unicode
 (
@@ -756,6 +838,8 @@ unicode_set
 :
         
 "
+"
+"
 Unicode
 set
 for
@@ -763,6 +847,8 @@ the
 Basic
 Multilingual
 Plane
+"
+"
 "
         
 _ranges
@@ -786,6 +872,8 @@ unicode_set
 :
         
 "
+"
+"
 Unicode
 set
 for
@@ -795,6 +883,8 @@ Latin
 Unicode
 Character
 Range
+"
+"
 "
         
 _ranges
@@ -823,6 +913,8 @@ unicode_set
 :
         
 "
+"
+"
 Unicode
 set
 for
@@ -832,6 +924,8 @@ A
 Unicode
 Character
 Range
+"
+"
 "
         
 _ranges
@@ -855,6 +949,8 @@ unicode_set
 :
         
 "
+"
+"
 Unicode
 set
 for
@@ -864,6 +960,8 @@ B
 Unicode
 Character
 Range
+"
+"
 "
         
 _ranges
@@ -887,6 +985,8 @@ unicode_set
 :
         
 "
+"
+"
 Unicode
 set
 for
@@ -894,6 +994,8 @@ Greek
 Unicode
 Character
 Ranges
+"
+"
 "
         
 _ranges
@@ -1078,6 +1180,8 @@ unicode_set
 :
         
 "
+"
+"
 Unicode
 set
 for
@@ -1085,6 +1189,8 @@ Cyrillic
 Unicode
 Character
 Range
+"
+"
 "
         
 _ranges
@@ -1141,6 +1247,8 @@ unicode_set
 :
         
 "
+"
+"
 Unicode
 set
 for
@@ -1148,6 +1256,8 @@ Chinese
 Unicode
 Character
 Range
+"
+"
 "
         
 _ranges
@@ -1256,6 +1366,8 @@ unicode_set
 :
         
 "
+"
+"
 Unicode
 set
 for
@@ -1270,13 +1382,8 @@ and
 Katakana
 ranges
 "
-        
-_ranges
-:
-UnicodeRangeList
-=
-[
-]
+"
+"
         
 class
 Kanji
@@ -1321,6 +1428,8 @@ unicode_set
 :
             
 "
+"
+"
 Unicode
 set
 for
@@ -1328,6 +1437,8 @@ Hiragana
 Unicode
 Character
 Range
+"
+"
 "
             
 _ranges
@@ -1377,6 +1488,8 @@ unicode_set
 :
             
 "
+"
+"
 Unicode
 set
 for
@@ -1384,6 +1497,8 @@ Katakana
 Unicode
 Character
 Range
+"
+"
 "
             
 _ranges
@@ -1436,6 +1551,35 @@ UnicodeRangeList
 )
             
 ]
+        
+=
+Kanji
+        
+=
+Katakana
+        
+=
+Hiragana
+        
+_ranges
+=
+(
+            
+Kanji
+.
+_ranges
+            
++
+Hiragana
+.
+_ranges
+            
++
+Katakana
+.
+_ranges
+        
+)
     
 class
 Hangul
@@ -1444,6 +1588,8 @@ unicode_set
 )
 :
         
+"
+"
 "
 Unicode
 set
@@ -1455,6 +1601,8 @@ Korean
 Unicode
 Character
 Range
+"
+"
 "
         
 _ranges
@@ -1553,6 +1701,8 @@ Hangul
 :
         
 "
+"
+"
 Unicode
 set
 for
@@ -1568,6 +1718,8 @@ Unicode
 Character
 Range
 "
+"
+"
     
 class
 Thai
@@ -1577,6 +1729,8 @@ unicode_set
 :
         
 "
+"
+"
 Unicode
 set
 for
@@ -1584,6 +1738,8 @@ Thai
 Unicode
 Character
 Range
+"
+"
 "
         
 _ranges
@@ -1612,6 +1768,8 @@ unicode_set
 :
         
 "
+"
+"
 Unicode
 set
 for
@@ -1619,6 +1777,8 @@ Arabic
 Unicode
 Character
 Range
+"
+"
 "
         
 _ranges
@@ -1652,6 +1812,8 @@ unicode_set
 :
         
 "
+"
+"
 Unicode
 set
 for
@@ -1659,6 +1821,8 @@ Hebrew
 Unicode
 Character
 Range
+"
+"
 "
         
 _ranges
@@ -1721,6 +1885,8 @@ unicode_set
 :
         
 "
+"
+"
 Unicode
 set
 for
@@ -1728,6 +1894,8 @@ Devanagari
 Unicode
 Character
 Range
+"
+"
 "
         
 _ranges
@@ -1747,128 +1915,34 @@ UnicodeRangeList
 )
         
 ]
-pyparsing_unicode
-.
-Japanese
-.
-_ranges
-=
-(
     
-pyparsing_unicode
-.
-Japanese
-.
-Kanji
-.
-_ranges
-    
-+
-pyparsing_unicode
-.
-Japanese
-.
-Hiragana
-.
-_ranges
-    
-+
-pyparsing_unicode
-.
-Japanese
-.
-Katakana
-.
-_ranges
-)
-pyparsing_unicode
-.
 BMP
 =
-pyparsing_unicode
-.
 BasicMultilingualPlane
-pyparsing_unicode
-.
+    
 =
-pyparsing_unicode
-.
 Arabic
-pyparsing_unicode
-.
+    
 =
-pyparsing_unicode
-.
 Chinese
-pyparsing_unicode
-.
+    
 =
-pyparsing_unicode
-.
 Cyrillic
-pyparsing_unicode
-.
+    
 =
-pyparsing_unicode
-.
 Greek
-pyparsing_unicode
-.
+    
 =
-pyparsing_unicode
-.
 Hebrew
-pyparsing_unicode
-.
+    
 =
-pyparsing_unicode
-.
 Japanese
-pyparsing_unicode
-.
-Japanese
-.
+    
 =
-pyparsing_unicode
-.
-Japanese
-.
-Kanji
-pyparsing_unicode
-.
-Japanese
-.
-=
-pyparsing_unicode
-.
-Japanese
-.
-Katakana
-pyparsing_unicode
-.
-Japanese
-.
-=
-pyparsing_unicode
-.
-Japanese
-.
-Hiragana
-pyparsing_unicode
-.
-=
-pyparsing_unicode
-.
 Korean
-pyparsing_unicode
-.
+    
 =
-pyparsing_unicode
-.
 Thai
-pyparsing_unicode
-.
+    
 =
-pyparsing_unicode
-.
 Devanagari

@@ -1,11 +1,16 @@
 from
 __future__
 import
-division
+annotations
 from
 datetime
 import
 datetime
+timezone
+from
+typing
+import
+TYPE_CHECKING
 from
 pip
 .
@@ -16,6 +21,14 @@ cachecontrol
 cache
 import
 BaseCache
+if
+TYPE_CHECKING
+:
+    
+from
+redis
+import
+Redis
 class
 RedisCache
 (
@@ -28,7 +41,15 @@ __init__
 (
 self
 conn
+:
+Redis
+[
+bytes
+]
 )
+-
+>
+None
 :
         
 self
@@ -42,7 +63,14 @@ get
 (
 self
 key
+:
+str
 )
+-
+>
+bytes
+|
+None
 :
         
 return
@@ -58,13 +86,28 @@ key
 def
 set
 (
+        
 self
 key
+:
+str
 value
+:
+bytes
 expires
+:
+int
+|
+datetime
+|
+None
 =
 None
+    
 )
+-
+>
+None
 :
         
 if
@@ -90,15 +133,41 @@ datetime
 )
 :
             
+now_utc
+=
+datetime
+.
+now
+(
+timezone
+.
+utc
+)
+            
+if
 expires
+.
+tzinfo
+is
+None
+:
+                
+now_utc
+=
+now_utc
+.
+replace
+(
+tzinfo
+=
+None
+)
+            
+delta
 =
 expires
 -
-datetime
-.
-utcnow
-(
-)
+now_utc
             
 self
 .
@@ -109,7 +178,7 @@ setex
 key
 int
 (
-expires
+delta
 .
 total_seconds
 (
@@ -137,7 +206,12 @@ delete
 (
 self
 key
+:
+str
 )
+-
+>
+None
 :
         
 self
@@ -154,6 +228,9 @@ clear
 (
 self
 )
+-
+>
+None
 :
         
 "
@@ -204,6 +281,9 @@ close
 (
 self
 )
+-
+>
+None
 :
         
 "

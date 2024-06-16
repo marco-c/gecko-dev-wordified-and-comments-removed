@@ -40,6 +40,7 @@ TYPE_CHECKING
 from
 typing
 import
+Literal
 Protocol
 else
 :
@@ -279,6 +280,20 @@ Backend
 Protocol
 )
 :
+    
+NAME
+:
+'
+Literal
+[
+"
+importlib
+"
+"
+pkg_resources
+"
+]
+'
     
 Distribution
 :

@@ -1115,7 +1115,15 @@ installation
         
 gone_in
 =
-None
+"
+24
+.
+3
+"
+        
+issue
+=
+12330
     
 )
 class
@@ -1254,6 +1262,13 @@ find_eggs
 location
 )
 :
+                
+_emit_egg_deprecation
+(
+dist
+.
+location
+)
                 
 yield
 dist

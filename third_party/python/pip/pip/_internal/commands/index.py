@@ -734,6 +734,7 @@ raise
 DistributionNotFound
 (
                     
+f
 "
 No
 matching
@@ -741,13 +742,9 @@ distribution
 found
 for
 {
+query
 }
 "
-.
-format
-(
-query
-)
                 
 )
             
@@ -779,20 +776,17 @@ formatted_versions
         
 write_output
 (
+f
 "
 {
-}
-(
-{
-}
-)
-"
-.
-format
-(
 query
+}
+(
+{
 latest
+}
 )
+"
 )
         
 write_output

@@ -774,8 +774,6 @@ items
 ]
 )
         
-response
-=
 self
 .
 send_request
@@ -2915,9 +2913,6 @@ command
 failed
 with
 error
-'
-                             
-'
 code
 %
 s

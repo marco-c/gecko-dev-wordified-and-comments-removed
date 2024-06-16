@@ -16,6 +16,10 @@ import
 ABC
 abstractmethod
 from
+pathlib
+import
+Path
+from
 typing
 import
 (
@@ -2720,27 +2724,18 @@ console
 "
 "
         
-with
-open
-(
-path
-"
-rt
-"
-encoding
-=
-encoding
-)
-as
-code_file
-:
-            
 code
 =
-code_file
-.
-read
+Path
 (
+path
+)
+.
+read_text
+(
+encoding
+=
+encoding
 )
         
 if
@@ -3703,6 +3698,9 @@ line_no
 _line_start
 :
                         
+try
+:
+                            
 _token_type
 token
 =
@@ -3710,6 +3708,12 @@ next
 (
 tokens
 )
+                        
+except
+StopIteration
+:
+                            
+break
                         
 yield
 (
@@ -4955,6 +4959,17 @@ self
 line_range
 :
             
+if
+line_offset
+>
+len
+(
+lines
+)
+:
+                
+return
+            
 lines
 =
 lines
@@ -5037,6 +5052,13 @@ tab_size
 style
 =
 style
++
+Style
+(
+italic
+=
+False
+)
 )
                 
 .

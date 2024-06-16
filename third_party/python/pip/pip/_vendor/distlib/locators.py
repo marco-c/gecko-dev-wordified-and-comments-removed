@@ -1784,8 +1784,6 @@ pyver
             
 except
 Exception
-as
-e
 :
                 
 logger
@@ -3547,15 +3545,6 @@ dist
 locator
 =
 self
-            
-urls
-=
-d
-[
-'
-urls
-'
-]
             
 result
 [
@@ -5743,7 +5732,7 @@ _process_download
 link
 )
 and
-                                    
+                                        
 self
 .
 _should_queue

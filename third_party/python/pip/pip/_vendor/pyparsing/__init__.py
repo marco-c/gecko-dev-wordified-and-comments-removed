@@ -397,7 +397,7 @@ class
 :
 ParserElement
 .
-parseString
+parse_string
 can
 be
 accessed
@@ -640,7 +640,7 @@ class
 :
 ParserElement
 .
-setResultsName
+set_results_name
  
 -
 access
@@ -671,13 +671,13 @@ like
 :
 class
 :
-delimitedList
+DelimitedList
    
 and
 :
 class
 :
-oneOf
+one_of
  
 -
 find
@@ -740,48 +740,36 @@ self
 return
 (
             
+f
 "
 {
-}
-.
-{
-}
-.
-{
-}
-"
-.
-format
-(
 self
 .
 major
+}
+.
+{
 self
 .
 minor
+}
+.
+{
 self
 .
 micro
-)
+}
+"
             
 +
 (
                 
+f
 "
 {
-}
-{
-}
-{
-}
-"
-.
-format
-(
-                    
-"
+'
 r
-"
+'
 if
 self
 .
@@ -791,25 +779,27 @@ releaselevel
 ]
 =
 =
-"
+'
 c
-"
+'
 else
-"
-"
-                    
+'
+'
+}
+{
 self
 .
 releaselevel
 [
 0
 ]
-                    
+}
+{
 self
 .
 serial
-                
-)
+}
+"
                 
 "
 "
@@ -836,24 +826,21 @@ self
 :
         
 return
+f
 "
 {
-}
-{
-}
-/
-{
-}
-"
-.
-format
-(
 __name__
+}
+{
 self
 .
 __version__
+}
+/
+{
 __version_time__
-)
+}
+"
     
 def
 __repr__
@@ -863,36 +850,28 @@ self
 :
         
 return
+f
 "
 {
-}
-.
-{
-}
-(
-{
-}
-)
-"
-.
-format
-(
-            
 __name__
-            
+}
+.
+{
 type
 (
 self
 )
 .
 __name__
-            
-"
-"
+}
+(
+{
+'
+'
 .
 join
 (
-"
+'
 {
 }
 =
@@ -900,7 +879,7 @@ join
 !
 r
 }
-"
+'
 .
 format
 (
@@ -918,29 +897,30 @@ _fields
 self
 )
 )
-        
+}
 )
+"
 __version_info__
 =
 version_info
 (
 3
+1
 0
-9
 "
 final
 "
-0
+1
 )
 __version_time__
 =
 "
-05
-May
-2022
-07
+18
+Jun
+2023
+14
 :
-02
+05
 UTC
 "
 __version__
@@ -1144,7 +1124,15 @@ CharsNotIn
 "
     
 "
+CloseMatch
+"
+    
+"
 Combine
+"
+    
+"
+DelimitedList
 "
     
 "
@@ -1356,6 +1344,10 @@ any_open_tag
 "
     
 "
+autoname_elements
+"
+    
+"
 c_style_comment
 "
     
@@ -1365,6 +1357,10 @@ col
     
 "
 common_html_entity
+"
+    
+"
+condition_as_parse_action
 "
     
 "
@@ -1409,6 +1405,10 @@ identchars
     
 "
 identbodychars
+"
+    
+"
+infix_notation
 "
     
 "
@@ -1468,11 +1468,27 @@ one_of
 "
     
 "
+original_text_for
+"
+    
+"
 printables
 "
     
 "
 punc8bit
+"
+    
+"
+pyparsing_common
+"
+    
+"
+pyparsing_test
+"
+    
+"
+pyparsing_unicode
 "
     
 "
@@ -1516,7 +1532,19 @@ string_start
 "
     
 "
+token_map
+"
+    
+"
 trace_parse_action
+"
+    
+"
+ungroup
+"
+    
+"
+unicode_set
 "
     
 "
@@ -1528,55 +1556,7 @@ with_attribute
 "
     
 "
-indentedBlock
-"
-    
-"
-original_text_for
-"
-    
-"
-ungroup
-"
-    
-"
-infix_notation
-"
-    
-"
-locatedExpr
-"
-    
-"
 with_class
-"
-    
-"
-CloseMatch
-"
-    
-"
-token_map
-"
-    
-"
-pyparsing_common
-"
-    
-"
-pyparsing_unicode
-"
-    
-"
-unicode_set
-"
-    
-"
-condition_as_parse_action
-"
-    
-"
-pyparsing_test
 "
     
 "
@@ -1597,6 +1577,10 @@ cStyleComment
     
 "
 commonHTMLEntity
+"
+    
+"
+conditionAsParseAction
 "
     
 "
@@ -1628,6 +1612,14 @@ htmlComment
 "
     
 "
+indentedBlock
+"
+    
+"
+infixNotation
+"
+    
+"
 javaStyleComment
 "
     
@@ -1637,6 +1629,10 @@ lineEnd
     
 "
 lineStart
+"
+    
+"
+locatedExpr
 "
     
 "
@@ -1676,6 +1672,10 @@ opAssoc
 "
     
 "
+originalTextFor
+"
+    
+"
 pythonStyleComment
 "
     
@@ -1712,6 +1712,10 @@ stringStart
 "
     
 "
+tokenMap
+"
+    
+"
 traceParseAction
 "
     
@@ -1724,34 +1728,6 @@ withAttribute
 "
     
 "
-indentedBlock
-"
-    
-"
-originalTextFor
-"
-    
-"
-infixNotation
-"
-    
-"
-locatedExpr
-"
-    
-"
 withClass
-"
-    
-"
-tokenMap
-"
-    
-"
-conditionAsParseAction
-"
-    
-"
-autoname_elements
 "
 ]

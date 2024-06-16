@@ -357,21 +357,22 @@ patch
     
 assert
 major
-=
+>
 =
 1
     
+if
+major
+=
+=
+1
+:
+        
 assert
 minor
 >
 =
 21
-    
-assert
-minor
-<
-=
-26
     
 if
 chardet_version

@@ -1521,6 +1521,16 @@ None
 None
         
 if
+not
+scheme
+.
+startswith
+(
+'
+https
+'
+)
+and
 username
 and
 password

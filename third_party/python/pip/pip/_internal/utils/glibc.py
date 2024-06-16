@@ -82,8 +82,7 @@ None
 try
 :
         
-_
-version
+gnu_libc_version
 =
 os
 .
@@ -93,6 +92,20 @@ confstr
 CS_GNU_LIBC_VERSION
 "
 )
+        
+if
+gnu_libc_version
+is
+None
+:
+            
+return
+None
+        
+_
+version
+=
+gnu_libc_version
 .
 split
 (

@@ -7,7 +7,7 @@ from
 .
 helpers
 import
-delimited_list
+DelimitedList
 any_open_tag
 any_close_tag
 from
@@ -164,43 +164,43 @@ actions
 :
 class
 :
-convertToInteger
+convert_to_integer
     
 -
 :
 class
 :
-convertToFloat
+convert_to_float
     
 -
 :
 class
 :
-convertToDate
+convert_to_date
     
 -
 :
 class
 :
-convertToDatetime
+convert_to_datetime
     
 -
 :
 class
 :
-stripHTMLTags
+strip_html_tags
     
 -
 :
 class
 :
-upcaseTokens
+upcase_tokens
     
 -
 :
 class
 :
-downcaseTokens
+downcase_tokens
     
 Example
 :
@@ -210,7 +210,7 @@ pyparsing_common
 .
 number
 .
-runTests
+run_tests
 (
 '
 '
@@ -257,7 +257,7 @@ pyparsing_common
 .
 fnumber
 .
-runTests
+run_tests
 (
 '
 '
@@ -302,7 +302,7 @@ pyparsing_common
 .
 hex_integer
 .
-runTests
+run_tests
 (
 '
 '
@@ -325,7 +325,7 @@ pyparsing_common
 .
 fraction
 .
-runTests
+run_tests
 (
 '
 '
@@ -352,7 +352,7 @@ pyparsing_common
 .
 mixed_integer
 .
-runTests
+run_tests
 (
 '
 '
@@ -391,9 +391,9 @@ pyparsing_common
 .
 uuid
 .
-setParseAction
+set_parse_action
 (
-tokenMap
+token_map
 (
 uuid
 .
@@ -405,7 +405,7 @@ pyparsing_common
 .
 uuid
 .
-runTests
+run_tests
 (
 '
 '
@@ -1857,11 +1857,11 @@ copy
             
 date_expr
 .
-setParseAction
+set_parse_action
 (
 pyparsing_common
 .
-convertToDate
+convert_to_date
 (
 )
 )
@@ -1870,7 +1870,7 @@ print
 (
 date_expr
 .
-parseString
+parse_string
 (
 "
 1999
@@ -2059,11 +2059,11 @@ copy
             
 dt_expr
 .
-setParseAction
+set_parse_action
 (
 pyparsing_common
 .
-convertToDatetime
+convert_to_datetime
 (
 )
 )
@@ -2072,7 +2072,7 @@ print
 (
 dt_expr
 .
-parseString
+parse_string
 (
 "
 1999
@@ -2584,7 +2584,7 @@ td
 td
 td_end
 =
-makeHTMLTags
+make_html_tags
 (
 "
 TD
@@ -2600,11 +2600,11 @@ SkipTo
 td_end
 )
 .
-setParseAction
+set_parse_action
 (
 pyparsing_common
 .
-stripHTMLTags
+strip_html_tags
 )
 (
 "
@@ -2618,7 +2618,7 @@ print
 (
 table_text
 .
-parseString
+parse_string
 (
 text
 )
@@ -2732,7 +2732,7 @@ commaItem
     
 comma_separated_list
 =
-delimited_list
+DelimitedList
 (
         
 Opt
@@ -2856,7 +2856,12 @@ Regex
         
 r
 "
-^
+(
+?
+P
+<
+url
+>
 "
 +
         
@@ -3381,6 +3386,7 @@ S
         
 r
 "
+)
 "
     
 )
@@ -3392,33 +3398,147 @@ url
 "
 )
     
+"
+"
+"
+URL
+(
+http
+/
+https
+/
+ftp
+scheme
+)
+"
+"
+"
+    
 convertToInteger
 =
 convert_to_integer
+    
+"
+"
+"
+Deprecated
+-
+use
+:
+class
+:
+convert_to_integer
+"
+"
+"
     
 convertToFloat
 =
 convert_to_float
     
+"
+"
+"
+Deprecated
+-
+use
+:
+class
+:
+convert_to_float
+"
+"
+"
+    
 convertToDate
 =
 convert_to_date
+    
+"
+"
+"
+Deprecated
+-
+use
+:
+class
+:
+convert_to_date
+"
+"
+"
     
 convertToDatetime
 =
 convert_to_datetime
     
+"
+"
+"
+Deprecated
+-
+use
+:
+class
+:
+convert_to_datetime
+"
+"
+"
+    
 stripHTMLTags
 =
 strip_html_tags
+    
+"
+"
+"
+Deprecated
+-
+use
+:
+class
+:
+strip_html_tags
+"
+"
+"
     
 upcaseTokens
 =
 upcase_tokens
     
+"
+"
+"
+Deprecated
+-
+use
+:
+class
+:
+upcase_tokens
+"
+"
+"
+    
 downcaseTokens
 =
 downcase_tokens
+    
+"
+"
+"
+Deprecated
+-
+use
+:
+class
+:
+downcase_tokens
+"
+"
+"
 _builtin_exprs
 =
 [

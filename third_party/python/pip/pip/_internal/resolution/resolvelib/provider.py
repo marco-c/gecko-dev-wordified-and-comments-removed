@@ -640,6 +640,28 @@ specified
 requirements
 first
 .
+If
+the
+depth
+cannot
+          
+by
+determined
+(
+eg
+:
+due
+to
+no
+matching
+parents
+)
+it
+is
+considered
+          
+infinite
+.
         
 *
 Order
@@ -700,6 +722,39 @@ debuggability
 "
 "
         
+try
+:
+            
+next
+(
+iter
+(
+information
+[
+identifier
+]
+)
+)
+        
+except
+StopIteration
+:
+            
+has_information
+=
+False
+        
+else
+:
+            
+has_information
+=
+True
+        
+if
+has_information
+:
+            
 lookups
 =
 (
@@ -717,7 +772,7 @@ information
 identifier
 ]
 )
-        
+            
 candidate
 ireqs
 =
@@ -725,6 +780,16 @@ zip
 (
 *
 lookups
+)
+        
+else
+:
+            
+candidate
+ireqs
+=
+None
+(
 )
         
 operators
@@ -820,10 +885,14 @@ math
 .
 inf
             
+if
+has_information
+:
+                
 parent_depths
 =
 (
-                
+                    
 self
 .
 _known_depths
@@ -841,7 +910,7 @@ else
 0
 .
 0
-                
+                    
 for
 _
 parent
@@ -850,9 +919,9 @@ information
 [
 identifier
 ]
-            
+                
 )
-            
+                
 inferred_depth
 =
 min
@@ -867,6 +936,15 @@ parent_depths
 1
 .
 0
+            
+else
+:
+                
+inferred_depth
+=
+math
+.
+inf
         
 else
 :
@@ -907,15 +985,6 @@ identifier
 =
 REQUIRES_PYTHON_IDENTIFIER
         
-delay_this
-=
-identifier
-=
-=
-"
-setuptools
-"
-        
 backtrack_cause
 =
 self
@@ -931,8 +1000,6 @@ return
             
 not
 requires_python
-            
-delay_this
             
 not
 direct

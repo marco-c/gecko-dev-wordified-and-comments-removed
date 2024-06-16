@@ -62,6 +62,11 @@ client
 import
 _HostType
 _Marshallable
+    
+from
+_typeshed
+import
+SizedBuffer
 logger
 =
 logging
@@ -176,7 +181,9 @@ str
         
 request_body
 :
-bytes
+"
+SizedBuffer
+"
         
 verbose
 :

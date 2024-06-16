@@ -1,7 +1,17 @@
+from
+__future__
+import
+annotations
 import
 calendar
 import
 time
+from
+datetime
+import
+datetime
+timedelta
+timezone
 from
 email
 .
@@ -11,10 +21,23 @@ formatdate
 parsedate
 parsedate_tz
 from
-datetime
+typing
 import
-datetime
-timedelta
+TYPE_CHECKING
+Any
+Mapping
+if
+TYPE_CHECKING
+:
+    
+from
+pip
+.
+_vendor
+.
+urllib3
+import
+HTTPResponse
 TIME_FMT
 =
 "
@@ -40,10 +63,19 @@ def
 expire_after
 (
 delta
+:
+timedelta
 date
+:
+datetime
+|
+None
 =
 None
 )
+-
+>
+datetime
 :
     
 date
@@ -52,8 +84,11 @@ date
 or
 datetime
 .
-utcnow
+now
 (
+timezone
+.
+utc
 )
     
 return
@@ -64,7 +99,12 @@ def
 datetime_to_header
 (
 dt
+:
+datetime
 )
+-
+>
+str
 :
     
 return
@@ -83,9 +123,6 @@ timetuple
 )
 class
 BaseHeuristic
-(
-object
-)
 :
     
 def
@@ -93,7 +130,14 @@ warning
 (
 self
 response
+:
+HTTPResponse
 )
+-
+>
+str
+|
+None
 :
         
 "
@@ -180,7 +224,16 @@ update_headers
 (
 self
 response
+:
+HTTPResponse
 )
+-
+>
+dict
+[
+str
+str
+]
 :
         
 "
@@ -239,7 +292,12 @@ apply
 (
 self
 response
+:
+HTTPResponse
 )
+-
+>
+HTTPResponse
 :
         
 updated_headers
@@ -332,7 +390,16 @@ update_headers
 (
 self
 response
+:
+HTTPResponse
 )
+-
+>
+dict
+[
+str
+str
+]
 :
         
 headers
@@ -385,6 +452,11 @@ date
 :
 6
 ]
+tzinfo
+=
+timezone
+.
+utc
 )
 )
             
@@ -451,7 +523,12 @@ self
 *
 *
 kw
+:
+Any
 )
+-
+>
+None
 :
         
 self
@@ -470,7 +547,16 @@ update_headers
 (
 self
 response
+:
+HTTPResponse
 )
+-
+>
+dict
+[
+str
+str
+]
 :
         
 expires
@@ -508,7 +594,14 @@ warning
 (
 self
 response
+:
+HTTPResponse
 )
+-
+>
+str
+|
+None
 :
         
 tmpl
@@ -671,15 +764,25 @@ cacheable_by_default_statuses
 {
         
 200
+        
 203
+        
 204
+        
 206
+        
 300
+        
 301
+        
 404
+        
 405
+        
 410
+        
 414
+        
 501
     
 }
@@ -689,10 +792,25 @@ update_headers
 (
 self
 resp
+:
+HTTPResponse
 )
+-
+>
+dict
+[
+str
+str
+]
 :
         
 headers
+:
+Mapping
+[
+str
+str
+]
 =
 resp
 .
@@ -775,12 +893,8 @@ return
 {
 }
         
-date
+time_tuple
 =
-calendar
-.
-timegm
-(
 parsedate_tz
 (
 headers
@@ -790,6 +904,24 @@ date
 "
 ]
 )
+        
+assert
+time_tuple
+is
+not
+None
+        
+date
+=
+calendar
+.
+timegm
+(
+time_tuple
+[
+:
+6
+]
 )
         
 last_modified
@@ -807,10 +939,6 @@ modified
 )
         
 if
-date
-is
-None
-or
 last_modified
 is
 None
@@ -907,7 +1035,14 @@ warning
 (
 self
 resp
+:
+HTTPResponse
 )
+-
+>
+str
+|
+None
 :
         
 return

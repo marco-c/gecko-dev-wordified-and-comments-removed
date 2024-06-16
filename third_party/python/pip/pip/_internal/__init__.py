@@ -3,14 +3,6 @@ typing
 import
 List
 Optional
-import
-pip
-.
-_internal
-.
-utils
-.
-inject_securetransport
 from
 pip
 .

@@ -46,7 +46,7 @@ egg_link_path_from_location
 "
 ]
 def
-_egg_link_name
+_egg_link_names
 (
 raw_name
 :
@@ -54,7 +54,10 @@ str
 )
 -
 >
+List
+[
 str
+]
 :
     
 "
@@ -101,11 +104,57 @@ different
 logic
 .
     
+We
+also
+look
+for
+the
+raw
+name
+(
+without
+normalization
+)
+as
+setuptools
+69
+changed
+    
+the
+way
+it
+names
+.
+egg
+-
+link
+files
+(
+https
+:
+/
+/
+github
+.
+com
+/
+pypa
+/
+setuptools
+/
+issues
+/
+4167
+)
+.
+    
 "
 "
 "
     
 return
+[
+        
 re
 .
 sub
@@ -136,6 +185,19 @@ egg
 -
 link
 "
+        
+f
+"
+{
+raw_name
+}
+.
+egg
+-
+link
+"
+    
+]
 def
 egg_link_path_from_sys_path
 (
@@ -177,9 +239,9 @@ path
 "
 "
     
-egg_link_name
+egg_link_names
 =
-_egg_link_name
+_egg_link_names
 (
 raw_name
 )
@@ -192,6 +254,12 @@ sys
 path
 :
         
+for
+egg_link_name
+in
+egg_link_names
+:
+            
 egg_link
 =
 os
@@ -203,7 +271,7 @@ join
 path_item
 egg_link_name
 )
-        
+            
 if
 os
 .
@@ -214,7 +282,7 @@ isfile
 egg_link
 )
 :
-            
+                
 return
 egg_link
     
@@ -424,9 +492,9 @@ append
 site_packages
 )
     
-egg_link_name
+egg_link_names
 =
-_egg_link_name
+_egg_link_names
 (
 raw_name
 )
@@ -437,6 +505,12 @@ in
 sites
 :
         
+for
+egg_link_name
+in
+egg_link_names
+:
+            
 egglink
 =
 os
@@ -448,7 +522,7 @@ join
 site
 egg_link_name
 )
-        
+            
 if
 os
 .
@@ -459,7 +533,7 @@ isfile
 egglink
 )
 :
-            
+                
 return
 egglink
     
