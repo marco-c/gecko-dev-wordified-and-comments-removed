@@ -2675,7 +2675,16 @@ openInNewWindowContainer
 .
 hidden
 =
-false
+RPMGetBoolPref
+(
+"
+security
+.
+xfocsp
+.
+hideOpenInNewWindow
+"
+)
 ;
 const
 openInNewWindowButton

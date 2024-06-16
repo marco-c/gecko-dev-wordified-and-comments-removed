@@ -693,6 +693,13 @@ errorReporting
 enabled
 "
 "
+security
+.
+xfocsp
+.
+hideOpenInNewWindow
+"
+"
 network
 .
 trr
