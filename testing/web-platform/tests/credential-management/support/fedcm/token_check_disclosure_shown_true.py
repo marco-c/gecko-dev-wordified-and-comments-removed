@@ -82,7 +82,7 @@ disclosure_text_shown
 =
 b
 "
-false
+true
 "
 :
     
@@ -95,7 +95,7 @@ return
 disclosure_text_shown
 is
 not
-false
+true
 "
 )
   
@@ -111,9 +111,14 @@ b
 disclosure_shown_for
 "
 )
-is
-not
-None
+!
+=
+b
+"
+name
+email
+picture
+"
 :
     
 return
@@ -125,7 +130,9 @@ return
 disclosure_shown_for
 is
 not
-None
+name
+email
+picture
 "
 )
   
