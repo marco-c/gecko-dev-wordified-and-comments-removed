@@ -2705,6 +2705,17 @@ IsForWindowDotPrint
 PrintPreviewResolver
 &
 &
+RefPtr
+<
+mozilla
+:
+:
+dom
+:
+:
+BrowsingContext
+>
+*
 mozilla
 :
 :
