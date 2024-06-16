@@ -152,6 +152,11 @@ KeyPath
 }
 public
 :
+using
+VoidOrObjectStoreKeyPathString
+=
+nsAString
+;
 enum
 class
 KeyPathType
@@ -335,6 +340,14 @@ aValue
 Key
 &
 aKey
+const
+VoidOrObjectStoreKeyPathString
+&
+aAutoIncrementedObjectStoreKeyPath
+=
+VoidString
+(
+)
 )
 const
 ;

@@ -188,6 +188,11 @@ indexedDB
 :
 StructuredCloneReadInfoChild
 ;
+using
+VoidOrObjectStoreKeyPathString
+=
+nsAString
+;
 template
 <
 IDBCursor
@@ -421,6 +426,10 @@ IndexUpdateInfo
 >
 *
 aUpdateInfoArray
+const
+VoidOrObjectStoreKeyPathString
+&
+aAutoIncrementedObjectStoreKeyPath
 ErrorResult
 *
 aRv
