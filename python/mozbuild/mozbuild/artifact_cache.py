@@ -149,7 +149,7 @@ urlparse
 from
 mozbuild
 .
-util
+dirutils
 import
 mkdir
 CHUNK_SIZE

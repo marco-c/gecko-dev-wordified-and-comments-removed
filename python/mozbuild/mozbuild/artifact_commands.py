@@ -51,7 +51,7 @@ conditions
 from
 mozbuild
 .
-util
+dirutils
 import
 ensureParentDir
 _COULD_NOT_FIND_ARTIFACTS_TEMPLATE

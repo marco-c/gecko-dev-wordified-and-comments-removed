@@ -77,6 +77,12 @@ MozbuildObject
 from
 mozbuild
 .
+dirutils
+import
+ensureParentDir
+from
+mozbuild
+.
 frontend
 .
 emitter
@@ -90,12 +96,6 @@ frontend
 reader
 import
 BuildReader
-from
-mozbuild
-.
-util
-import
-ensureParentDir
 def
 make_path
 (

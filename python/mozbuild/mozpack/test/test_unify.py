@@ -11,7 +11,7 @@ mozunit
 from
 mozbuild
 .
-util
+dirutils
 import
 ensureParentDir
 from

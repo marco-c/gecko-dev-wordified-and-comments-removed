@@ -23,7 +23,7 @@ mozpath
 from
 mozbuild
 .
-util
+dirutils
 import
 ensureParentDir
 _MSI_ARCH

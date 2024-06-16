@@ -1,10 +1,15 @@
 from
 mozbuild
 .
+dirutils
+import
+ensureParentDir
+from
+mozbuild
+.
 util
 import
 ensure_bytes
-ensureParentDir
 from
 mozpack
 .

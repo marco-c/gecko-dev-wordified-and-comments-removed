@@ -672,7 +672,7 @@ _from
 "
 mozbuild
 .
-util
+dirutils
 "
 _import
 =

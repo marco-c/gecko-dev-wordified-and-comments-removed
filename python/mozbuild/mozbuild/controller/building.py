@@ -113,6 +113,12 @@ WarningsDatabase
 from
 .
 .
+dirutils
+import
+mkdir
+from
+.
+.
 telemetry
 import
 get_cpu_brand
@@ -128,7 +134,6 @@ from
 util
 import
 FileAvoidWrite
-mkdir
 resolve_target_to_make
 from
 .

@@ -58,7 +58,7 @@ ReftestManifest
 from
 mozbuild
 .
-util
+dirutils
 import
 ensureParentDir
 STAGE
