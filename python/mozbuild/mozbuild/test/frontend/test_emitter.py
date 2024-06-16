@@ -1992,10 +1992,13 @@ WINNT
 "
                 
 "
-GNU_CC
+CC_TYPE
 "
 :
 "
+clang
+-
+cl
 "
                 
 "
@@ -2135,10 +2138,13 @@ WINNT
 "
                 
 "
-GNU_CC
+CC_TYPE
 "
 :
 "
+clang
+-
+cl
 "
                 
 "
@@ -2759,9 +2765,11 @@ compile
 -
 flags
 "
+            
 extra_substs
 =
 {
+                
 "
 OS_ARCH
 "
@@ -2769,6 +2777,7 @@ OS_ARCH
 "
 WINNT
 "
+                
 "
 MOZ_DEBUG
 "
@@ -2776,6 +2785,17 @@ MOZ_DEBUG
 "
 1
 "
+                
+"
+CC_TYPE
+"
+:
+"
+clang
+-
+cl
+"
+            
 }
         
 )

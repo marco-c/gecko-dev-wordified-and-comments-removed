@@ -53,9 +53,16 @@ if
 CONFIG
 [
 "
-GNU_CXX
+CC_TYPE
 "
 ]
+!
+=
+"
+clang
+-
+cl
+"
 :
 CXXFLAGS
 +
