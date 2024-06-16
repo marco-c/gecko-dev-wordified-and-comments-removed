@@ -396,6 +396,12 @@ bool
 aIsKeyframe
 )
 ;
+bool
+IsAnnexB
+(
+)
+const
+;
 void
 AssertOnTaskQueue
 (
