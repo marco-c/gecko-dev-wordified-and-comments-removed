@@ -225,14 +225,6 @@ ScrollTimeline
 interface
 .
 [
-Func
-=
-"
-Document
-:
-:
-AreWebAnimationsTimelinesEnabled
-"
 BinaryName
 =
 "

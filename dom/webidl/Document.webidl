@@ -2643,16 +2643,6 @@ partial
 interface
 Document
 {
-[
-Func
-=
-"
-Document
-:
-:
-AreWebAnimationsTimelinesEnabled
-"
-]
 readonly
 attribute
 DocumentTimeline

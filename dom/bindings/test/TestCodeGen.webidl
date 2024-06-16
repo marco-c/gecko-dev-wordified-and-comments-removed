@@ -11164,7 +11164,7 @@ Func
 Document
 :
 :
-AreWebAnimationsTimelinesEnabled
+IsCallerChromeOrAddon
 "
 ]
 interface

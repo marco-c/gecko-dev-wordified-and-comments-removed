@@ -152,14 +152,6 @@ originTime
 }
 ;
 [
-Func
-=
-"
-Document
-:
-:
-AreWebAnimationsTimelinesEnabled
-"
 Exposed
 =
 Window
