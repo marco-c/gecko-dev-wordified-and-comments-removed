@@ -826,7 +826,7 @@ win
 signing_format
 =
 "
-autograph_authenticode_sha2
+autograph_authenticode_202404
 "
     
 elif
