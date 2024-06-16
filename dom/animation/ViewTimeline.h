@@ -17,6 +17,13 @@ h
 "
 namespace
 mozilla
+{
+class
+ScrollContainerFrame
+;
+}
+namespace
+mozilla
 :
 :
 dom
@@ -220,9 +227,9 @@ ScrollOffsets
 ComputeOffsets
 (
 const
-nsIScrollableFrame
+ScrollContainerFrame
 *
-aScrollFrame
+aScrollContainerFrame
 layers
 :
 :
@@ -236,9 +243,9 @@ ScrollOffsets
 ComputeInsets
 (
 const
-nsIScrollableFrame
+ScrollContainerFrame
 *
-aScrollFrame
+aScrollContainerFrame
 layers
 :
 :
