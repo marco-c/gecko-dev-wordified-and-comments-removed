@@ -112,6 +112,10 @@ ResourceInfo
 ResourceType
 }
 resource_log
+snatch
+:
+:
+SnatchGuard
 track
 :
 :
@@ -4450,6 +4454,10 @@ A
 :
 :
 CommandEncoder
+snatch_guard
+:
+&
+SnatchGuard
 )
 -
 >
@@ -4523,19 +4531,6 @@ label
 ;
 }
 }
-let
-snatch_guard
-=
-self
-.
-device
-.
-snatchable_lock
-.
-read
-(
-)
-;
 use
 ArcRenderCommand
 as
@@ -4576,7 +4571,6 @@ bind_group
 .
 raw
 (
-&
 snatch_guard
 )
 .
@@ -4707,7 +4701,6 @@ buffer
 .
 raw
 (
-&
 snatch_guard
 )
 .
@@ -4781,7 +4774,6 @@ buffer
 .
 raw
 (
-&
 snatch_guard
 )
 .
@@ -5054,7 +5046,6 @@ buffer
 .
 raw
 (
-&
 snatch_guard
 )
 .
@@ -5114,7 +5105,6 @@ buffer
 .
 raw
 (
-&
 snatch_guard
 )
 .
