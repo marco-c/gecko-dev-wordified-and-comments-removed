@@ -59,6 +59,11 @@ file_bounce
 .
 html
 "
+"
+file_web_worker
+.
+js
+"
 ]
 [
 "
@@ -84,6 +89,13 @@ js
 [
 "
 browser_bouncetracking_stateful
+.
+js
+"
+]
+[
+"
+browser_bouncetracking_stateful_web_worker
 .
 js
 "
