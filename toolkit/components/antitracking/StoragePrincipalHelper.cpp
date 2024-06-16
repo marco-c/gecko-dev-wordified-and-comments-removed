@@ -1901,7 +1901,7 @@ return
 aWorkerPrivate
 -
 >
-IsThirdPartyContextToTopWindow
+IsThirdPartyContext
 (
 )
 ;
