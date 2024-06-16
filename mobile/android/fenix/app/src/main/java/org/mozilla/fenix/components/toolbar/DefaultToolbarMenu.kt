@@ -1228,12 +1228,6 @@ Share
 )
 }
 )
-registerForIsBookmarkedUpdates
-(
-)
-registerForScreenReaderUpdates
-(
-)
 BrowserMenuItemToolbar
 (
 listOf
@@ -2754,6 +2748,12 @@ shouldShowMenuToolbar
 menuToolbar
 else
 null
+)
+registerForIsBookmarkedUpdates
+(
+)
+registerForScreenReaderUpdates
+(
 )
 menuItems
 }
