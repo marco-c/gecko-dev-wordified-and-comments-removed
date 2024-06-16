@@ -734,11 +734,6 @@ caretWidth
 "
 ui
 .
-caretVisibleWithSelection
-"
-"
-ui
-.
 selectTextfieldsOnKeyFocus
 "
 "

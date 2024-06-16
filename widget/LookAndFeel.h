@@ -156,7 +156,6 @@ IntID
 CaretBlinkTime
 CaretBlinkCount
 CaretWidth
-ShowCaretDuringSelection
 SelectTextfieldsOnKeyFocus
 SubmenuDelay
 MenusCanOverlapOSBar

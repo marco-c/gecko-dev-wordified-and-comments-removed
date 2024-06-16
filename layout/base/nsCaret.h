@@ -190,6 +190,7 @@ bool
 IsVisible
 (
 )
+const
 ;
 void
 AddForceHide
@@ -496,6 +497,11 @@ CheckSelectionLanguageChange
 )
 ;
 void
+CaretVisibilityMaybeChanged
+(
+)
+;
+void
 ResetBlinking
 (
 )
@@ -543,11 +549,6 @@ aCaretRect
 nsRect
 *
 aHookRect
-)
-;
-bool
-IsMenuPopupHidingCaret
-(
 )
 ;
 void
@@ -628,6 +629,11 @@ true
 ;
 bool
 mFixedCaretPosition
+=
+false
+;
+bool
+mHiddenDuringSelection
 =
 false
 ;
