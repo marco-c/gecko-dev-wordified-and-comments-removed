@@ -3463,9 +3463,6 @@ requireComponents
 core
 .
 pinnedSiteStorage
-browserStore
-=
-store
 onShowPinVerification
 =
 {

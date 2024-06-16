@@ -5655,9 +5655,6 @@ topSitesStorage
 pinnedSiteStorage
 =
 pinnedSiteStorage
-browserStore
-=
-browserStore
 onShowPinVerification
 =
 {
