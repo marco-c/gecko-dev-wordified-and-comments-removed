@@ -41168,15 +41168,8 @@ mClosed
 )
 {
 return
-IPC_FAIL
+IPC_OK
 (
-this
-"
-Database
-already
-closed
-!
-"
 )
 ;
 }
