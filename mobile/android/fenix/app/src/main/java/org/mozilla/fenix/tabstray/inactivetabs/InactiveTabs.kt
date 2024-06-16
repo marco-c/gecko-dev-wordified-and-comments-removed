@@ -79,6 +79,14 @@ androidx
 .
 compose
 .
+animation
+.
+animateContentSize
+import
+androidx
+.
+compose
+.
 foundation
 .
 BorderStroke
@@ -854,6 +862,10 @@ Column
 modifier
 =
 Modifier
+.
+animateContentSize
+(
+)
 .
 fillMaxWidth
 (
