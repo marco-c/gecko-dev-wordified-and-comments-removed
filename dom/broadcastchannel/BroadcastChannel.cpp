@@ -458,7 +458,6 @@ aWorkerPrivate
 "
 TeardownRunnableOnWorker
 "
-WorkerThread
 )
 TeardownRunnable
 (

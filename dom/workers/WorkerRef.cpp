@@ -65,7 +65,6 @@ aWorkerPrivate
 "
 ReleaseRefControlRunnable
 "
-WorkerThread
 )
 mRef
 (

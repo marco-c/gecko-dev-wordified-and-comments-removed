@@ -2068,7 +2068,7 @@ DispatchDebuggeeToMainThread
 (
 already_AddRefed
 <
-WorkerDebuggeeRunnable
+WorkerRunnable
 >
 aRunnable
 uint32_t
@@ -3919,9 +3919,9 @@ DispatchControlRunnable
 (
 already_AddRefed
 <
-WorkerControlRunnable
+WorkerRunnable
 >
-aWorkerControlRunnable
+aWorkerRunnable
 )
 ;
 nsresult
@@ -3932,6 +3932,16 @@ already_AddRefed
 WorkerRunnable
 >
 aDebuggerRunnable
+)
+;
+nsresult
+DispatchToParent
+(
+already_AddRefed
+<
+WorkerRunnable
+>
+aRunnable
 )
 ;
 bool
@@ -4788,7 +4798,7 @@ workerinternals
 :
 Queue
 <
-WorkerControlRunnable
+WorkerRunnable
 *
 4
 >

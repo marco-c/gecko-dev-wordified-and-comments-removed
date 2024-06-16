@@ -1146,13 +1146,6 @@ CanvasDataShmemHolder
 :
 Destroy
 "
-dom
-:
-:
-WorkerRunnable
-:
-:
-WorkerThread
 )
 mShmemHolder
 (

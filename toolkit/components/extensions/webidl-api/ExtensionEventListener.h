@@ -546,10 +546,6 @@ GetWorkerPrivate
 "
 ExtensionListenerCallWorkerRunnable
 "
-WorkerRunnable
-:
-:
-WorkerThread
 )
 mListener
 (

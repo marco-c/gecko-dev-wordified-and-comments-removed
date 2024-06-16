@@ -1280,7 +1280,6 @@ aWorkerPrivate
 "
 ServiceWorkerOpRunnable
 "
-WorkerThread
 )
 mOwner
 (

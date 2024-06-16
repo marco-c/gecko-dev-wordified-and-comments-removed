@@ -149,7 +149,6 @@ aWorkerPrivate
 "
 WrappedControlRunnable
 "
-WorkerThread
 )
 mInner
 (
