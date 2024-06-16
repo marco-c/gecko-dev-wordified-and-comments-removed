@@ -1418,6 +1418,9 @@ flags
 additionalHeaders
 =
 additionalHeaders
+includeParent
+=
+true
 )
 )
 }
@@ -2531,6 +2534,9 @@ tab
 id
 url
 flags
+includeParent
+=
+true
 )
 )
 tab
