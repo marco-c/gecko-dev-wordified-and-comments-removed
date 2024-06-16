@@ -1883,6 +1883,13 @@ view
 showPageActionSeparator
 (
 )
+it
+.
+view
+.
+isNavBarEnabled
+=
+true
 }
 inlineAutocompleteEditText
 =

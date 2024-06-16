@@ -666,6 +666,12 @@ Boolean
 ?
 =
 null
+var
+isNavBarEnabled
+:
+Boolean
+=
+false
 /
 *
 *
