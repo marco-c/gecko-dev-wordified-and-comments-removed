@@ -8442,8 +8442,6 @@ static
 void
 MergeStacks
 (
-uint32_t
-aFeatures
 bool
 aIsSynchronous
 const
@@ -8453,10 +8451,6 @@ ThreadRegistration
 UnlockedReaderAndAtomicRWOnThread
 &
 aThreadData
-const
-Registers
-&
-aRegs
 const
 NativeStack
 &
@@ -11621,10 +11615,8 @@ stackWalkControlIfSupported
 ;
 MergeStacks
 (
-aFeatures
 aIsSynchronous
 aThreadData
-aRegs
 nativeStack
 collector
 aJsFrames
@@ -11638,10 +11630,8 @@ endif
 {
 MergeStacks
 (
-aFeatures
 aIsSynchronous
 aThreadData
-aRegs
 nativeStack
 collector
 aJsFrames
@@ -33041,11 +33031,9 @@ configuration
 endif
 MergeStacks
 (
-aFeatures
 !
 aLockIfAsynchronousSampling
 aThreadData
-aRegs
 nativeStack
 aCollector
 aJsFrames
@@ -33059,11 +33047,9 @@ endif
 {
 MergeStacks
 (
-aFeatures
 !
 aLockIfAsynchronousSampling
 aThreadData
-aRegs
 nativeStack
 aCollector
 aJsFrames
