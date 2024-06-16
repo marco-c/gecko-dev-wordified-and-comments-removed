@@ -208,6 +208,13 @@ node_modules
 /
 dom
 /
+base
+/
+use_counter_metrics
+.
+yaml
+dom
+/
 tests
 /
 ajax
