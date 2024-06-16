@@ -2496,7 +2496,7 @@ local_to_device
 =
 local_to_raster
 .
-accumulate
+pre_transform
 (
 &
 raster_to_device

@@ -8121,7 +8121,7 @@ local_to_raster
 =
 local_to_device
 .
-accumulate
+pre_transform
 (
 &
 raster_to_device
@@ -10300,7 +10300,7 @@ normalized_prim_to_device
 =
 prim_offset
 .
-accumulate
+pre_transform
 (
 &
 local_prim_to_device

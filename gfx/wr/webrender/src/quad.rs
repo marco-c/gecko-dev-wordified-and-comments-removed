@@ -1387,7 +1387,7 @@ only
 "
 )
 .
-scale
+then_scale
 (
 device_pixel_scale
 .
@@ -1522,7 +1522,7 @@ only
 "
 )
 .
-scale
+then_scale
 (
 device_pixel_scale
 .
