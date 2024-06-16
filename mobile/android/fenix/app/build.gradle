@@ -6949,6 +6949,10 @@ FenixDependencies
 .
 androidx_transition
 implementation
+FenixDependencies
+.
+androidx_viewpager2
+implementation
 ComponentsDependencies
 .
 androidx_work_runtime
