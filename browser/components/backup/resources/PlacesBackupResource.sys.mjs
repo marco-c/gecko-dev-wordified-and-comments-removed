@@ -113,6 +113,16 @@ places
 "
 ;
 }
+static
+get
+requiresEncryption
+(
+)
+{
+return
+false
+;
+}
 async
 measure
 (

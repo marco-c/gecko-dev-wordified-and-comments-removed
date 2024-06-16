@@ -111,6 +111,16 @@ cookies
 "
 ;
 }
+static
+get
+requiresEncryption
+(
+)
+{
+return
+true
+;
+}
 async
 measure
 (

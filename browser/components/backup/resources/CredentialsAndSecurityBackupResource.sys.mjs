@@ -118,6 +118,16 @@ credentials_and_security
 "
 ;
 }
+static
+get
+requiresEncryption
+(
+)
+{
+return
+true
+;
+}
 async
 measure
 (

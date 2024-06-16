@@ -136,6 +136,16 @@ preferences
 "
 ;
 }
+static
+get
+requiresEncryption
+(
+)
+{
+return
+false
+;
+}
 async
 backup
 (
