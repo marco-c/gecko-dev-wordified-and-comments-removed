@@ -737,10 +737,6 @@ NS_ASSERT_OWNINGTHREAD
 CacheStreamControlParent
 )
 ;
-NotifyCloseAll
-(
-)
-;
 QM_WARNONLY_TRY
 (
 OkIf
@@ -749,6 +745,10 @@ SendCloseAll
 (
 )
 )
+)
+;
+NotifyCloseAll
+(
 )
 ;
 }
