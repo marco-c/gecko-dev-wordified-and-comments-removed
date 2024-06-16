@@ -5425,7 +5425,7 @@ private
 enum
 BooleanFlag
 {
-NodeHasRenderingObservers
+NodeHasDirectRenderingObservers
 IsInDocument
 IsConnected
 ParentIsContent
@@ -5625,7 +5625,7 @@ name
 public
 :
 bool
-HasRenderingObservers
+HasDirectRenderingObservers
 (
 )
 const
@@ -5633,12 +5633,12 @@ const
 return
 GetBoolFlag
 (
-NodeHasRenderingObservers
+NodeHasDirectRenderingObservers
 )
 ;
 }
 void
-SetHasRenderingObservers
+SetHasDirectRenderingObservers
 (
 bool
 aValue
@@ -5646,7 +5646,7 @@ aValue
 {
 SetBoolFlag
 (
-NodeHasRenderingObservers
+NodeHasDirectRenderingObservers
 aValue
 )
 ;

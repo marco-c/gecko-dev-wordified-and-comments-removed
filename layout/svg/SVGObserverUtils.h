@@ -481,6 +481,16 @@ aFrame
 )
 ;
 static
+bool
+SelfOrAncestorHasRenderingObservers
+(
+const
+nsIFrame
+*
+aFrame
+)
+;
+static
 void
 AddRenderingObserver
 (
