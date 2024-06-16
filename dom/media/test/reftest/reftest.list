@@ -75,6 +75,15 @@ firstframe
 ref
 .
 html
+pref
+(
+media
+.
+seekToNextFrame
+.
+enabled
+true
+)
 skip
 -
 if
