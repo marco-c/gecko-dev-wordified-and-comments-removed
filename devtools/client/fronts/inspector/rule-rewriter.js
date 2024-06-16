@@ -925,7 +925,6 @@ performEOFFixup
 (
 "
 "
-true
 )
 ;
 if

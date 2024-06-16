@@ -530,7 +530,6 @@ token
 performEOFFixup
 (
 inputString
-preserveBackslash
 )
 {
 let
@@ -548,9 +547,6 @@ eofCharacters
 ;
 if
 (
-preserveBackslash
-&
-&
 (
 eofChars
 &
