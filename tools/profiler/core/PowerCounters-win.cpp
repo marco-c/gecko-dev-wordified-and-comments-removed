@@ -1102,10 +1102,6 @@ aCounters
 infallibleAppend
 (
 channel
-.
-get
-(
-)
 )
 ;
 }
@@ -1115,10 +1111,8 @@ private
 :
 Vector
 <
-UniquePtr
-<
 PowerMeterChannel
->
+*
 4
 >
 mChannels
@@ -1504,12 +1498,6 @@ PowerCounters
 (
 )
 {
-mCounters
-.
-clear
-(
-)
-;
 }
 void
 PowerCounters
