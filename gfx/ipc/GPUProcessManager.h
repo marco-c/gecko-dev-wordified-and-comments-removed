@@ -744,6 +744,10 @@ aTopic
 void
 KillProcess
 (
+bool
+aGenerateMinidump
+=
+false
 )
 ;
 void

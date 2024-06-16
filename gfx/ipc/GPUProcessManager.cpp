@@ -3733,6 +3733,7 @@ mProcess
 >
 KillProcess
 (
+false
 )
 ;
 }
@@ -5213,6 +5214,8 @@ GPUProcessManager
 :
 KillProcess
 (
+bool
+aGenerateMinidump
 )
 {
 if
@@ -5229,6 +5232,7 @@ mProcess
 >
 KillProcess
 (
+aGenerateMinidump
 )
 ;
 }
