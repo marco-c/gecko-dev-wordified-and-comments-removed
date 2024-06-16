@@ -22,6 +22,8 @@ workspace
 .
 RUN
 mkdir
+-
+p
 /
 builds
 &
