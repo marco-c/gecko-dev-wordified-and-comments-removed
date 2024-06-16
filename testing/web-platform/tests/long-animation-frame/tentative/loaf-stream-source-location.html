@@ -201,8 +201,6 @@ scriptElement
 script
 =
 >
-{
-return
 script
 .
 invoker
@@ -210,11 +208,12 @@ invoker
 =
 =
 "
-Promise
+StreamPromise
 .
 resolve
+.
+then
 "
-}
 t
 )
 ;
