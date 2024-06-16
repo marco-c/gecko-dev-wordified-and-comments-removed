@@ -572,6 +572,15 @@ id
 }
 not
 found
+isInstalled
+:
+{
+addon
+.
+isInstalled
+(
+)
+}
 "
 )
 )
