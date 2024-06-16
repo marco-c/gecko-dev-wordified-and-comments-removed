@@ -212,6 +212,8 @@ t
 linux
 -
 wayland
+-
+vm
 run
 :
 command
@@ -308,6 +310,8 @@ t
 linux
 -
 wayland
+-
+vm
 run
 :
 command

@@ -1933,6 +1933,7 @@ tasks
 :
         
 if
+not
 task
 [
 "
@@ -1941,8 +1942,9 @@ worker
 type
 "
 ]
-!
-=
+.
+startswith
+(
 "
 t
 -
@@ -1950,6 +1952,7 @@ linux
 -
 wayland
 "
+)
 :
             
 yield
