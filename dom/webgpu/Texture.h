@@ -140,7 +140,7 @@ aDesc
 ;
 Device
 *
-GetParentDevice
+GetDevice
 (
 )
 {
