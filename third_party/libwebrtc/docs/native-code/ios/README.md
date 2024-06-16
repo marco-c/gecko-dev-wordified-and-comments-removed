@@ -598,6 +598,9 @@ target_cpu
 "
 x64
 "
+enable_run_ios_unittests_with_xctest
+=
+true
 '
 #
 #
