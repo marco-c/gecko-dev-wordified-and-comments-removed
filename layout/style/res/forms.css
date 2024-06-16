@@ -1138,6 +1138,15 @@ ui
 :
 placeholder
 {
+-
+webkit
+-
+text
+-
+security
+:
+none
+;
 opacity
 :
 0
