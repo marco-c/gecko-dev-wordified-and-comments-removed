@@ -85,6 +85,11 @@ rs
 [
 dependencies
 ]
+dirs
+=
+"
+4
+"
 mozbuild
 =
 "
@@ -144,6 +149,11 @@ serde_json
 1
 .
 0
+"
+tempfile
+=
+"
+3
 "
 url
 =

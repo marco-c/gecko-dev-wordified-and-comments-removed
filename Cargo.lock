@@ -22437,6 +22437,9 @@ dependencies
 =
 [
 "
+dirs
+"
+"
 mozbuild
 "
 "
@@ -22453,6 +22456,9 @@ serde
 "
 "
 serde_json
+"
+"
+tempfile
 "
 "
 url
