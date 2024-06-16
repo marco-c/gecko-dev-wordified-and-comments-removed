@@ -84,14 +84,6 @@ title
 '
 )
 ;
-self
-.
-notification
-.
-close
-(
-)
-;
 }
 }
 )
