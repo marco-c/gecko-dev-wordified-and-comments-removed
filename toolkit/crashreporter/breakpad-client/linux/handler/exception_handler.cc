@@ -258,13 +258,6 @@ MOZ_OXIDIZED_BREAKPAD
 #
 include
 "
-nsString
-.
-h
-"
-#
-include
-"
 mozilla
 /
 toolkit
@@ -3872,7 +3865,8 @@ defined
 (
 MOZ_OXIDIZED_BREAKPAD
 )
-nsCString
+char
+*
 error_msg
 ;
 if
@@ -3891,9 +3885,11 @@ child_blamed_thread
 error_msg
 )
 )
+{
 return
 false
 ;
+}
 #
 else
 if

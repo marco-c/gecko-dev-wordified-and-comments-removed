@@ -4,6 +4,15 @@ CLIENT_LINUX_CRASH_GENERATION_CLIENT_INFO_H_
 #
 define
 CLIENT_LINUX_CRASH_GENERATION_CLIENT_INFO_H_
+#
+include
+<
+sys
+/
+types
+.
+h
+>
 namespace
 google_breakpad
 {
@@ -58,8 +67,8 @@ pid_
 void
 set_error_msg
 (
-nsCString
-&
+char
+*
 error_msg
 )
 {
@@ -73,7 +82,7 @@ error_msg
 ;
 }
 const
-nsCString
+char
 *
 error_msg
 (
@@ -81,7 +90,6 @@ error_msg
 const
 {
 return
-&
 error_msg_
 ;
 }
@@ -109,8 +117,11 @@ had_error_
 =
 false
 ;
-nsCString
+char
+*
 error_msg_
+=
+nullptr
 ;
 }
 ;
