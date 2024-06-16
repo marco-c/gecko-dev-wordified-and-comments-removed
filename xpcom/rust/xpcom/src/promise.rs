@@ -92,6 +92,13 @@ nsIVariant
 }
 #
 [
+allow
+(
+dead_code
+)
+]
+#
+[
 repr
 (
 C
