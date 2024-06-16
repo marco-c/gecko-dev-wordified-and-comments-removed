@@ -498,7 +498,10 @@ bool
 aSmallCapsSynthesis
 bool
 aPositionSynthesis
-uint32_t
+mozilla
+:
+:
+StyleFontLanguageOverride
 aLanguageOverride
 )
 ;
@@ -543,7 +546,10 @@ sizeAdjust
 float
 baselineOffset
 ;
-uint32_t
+mozilla
+:
+:
+StyleFontLanguageOverride
 languageOverride
 ;
 FontWeight
