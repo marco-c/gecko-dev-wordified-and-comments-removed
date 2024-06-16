@@ -1606,9 +1606,6 @@ form
 traits
 :
 {
-hasGetIdrefNode
-:
-true
 }
 }
 ;
