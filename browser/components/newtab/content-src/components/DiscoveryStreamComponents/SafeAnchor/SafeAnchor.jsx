@@ -356,6 +356,7 @@ const
 {
 url
 className
+title
 }
 =
 this
@@ -375,6 +376,11 @@ safeURI
 (
 url
 )
+}
+title
+=
+{
+title
 }
 className
 =

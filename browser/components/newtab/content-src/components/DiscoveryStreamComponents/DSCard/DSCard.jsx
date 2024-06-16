@@ -551,11 +551,6 @@ sponsored_by_override
 }
 <
 header
-title
-=
-{
-title
-}
 className
 =
 "
@@ -2358,7 +2353,7 @@ button
 return
 (
 <
-div
+article
 className
 =
 {
@@ -2507,6 +2502,15 @@ this
 props
 .
 url
+}
+title
+=
+{
+this
+.
+props
+.
+title
 }
 >
 <
@@ -3119,7 +3123,7 @@ isRecentSave
 }
 <
 /
-div
+article
 >
 )
 ;

@@ -11766,6 +11766,7 @@ const
 {
 url
 className
+title
 }
 =
 this
@@ -11791,6 +11792,9 @@ safeURI
 (
 url
 )
+title
+:
+title
 className
 :
 className
@@ -13641,9 +13645,6 @@ createElement
 header
 "
 {
-title
-:
-title
 className
 :
 "
@@ -15275,7 +15276,7 @@ external_React_default
 createElement
 (
 "
-div
+article
 "
 {
 className
@@ -15422,6 +15423,13 @@ this
 props
 .
 url
+title
+:
+this
+.
+props
+.
+title
 }
 external_React_default
 (
