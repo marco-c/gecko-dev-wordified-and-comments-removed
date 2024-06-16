@@ -88,3 +88,10 @@ than
 "
 )
 ;
+validateInputFromAnotherBuilder
+(
+'
+triangular
+'
+)
+;

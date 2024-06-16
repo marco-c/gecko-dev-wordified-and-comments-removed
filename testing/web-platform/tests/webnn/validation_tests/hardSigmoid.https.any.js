@@ -1,0 +1,12 @@
+'
+use
+strict
+'
+;
+validateInputFromAnotherBuilder
+(
+'
+hardSigmoid
+'
+)
+;
