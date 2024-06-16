@@ -114,7 +114,7 @@ version
 .
 27
 .
-1
+3
 "
 description
 =
@@ -225,6 +225,18 @@ version
 .
 16
 "
+features
+=
+[
+"
+smawk
+"
+]
+default
+-
+features
+=
+false
 [
 dependencies
 .
@@ -238,7 +250,7 @@ version
 .
 27
 .
-1
+3
 "
 [
 dependencies
@@ -253,7 +265,7 @@ version
 .
 27
 .
-1
+3
 "
 [
 dependencies
