@@ -210,11 +210,6 @@ MouseEvent
 "
 popupshowing
 "
-{
-bubbles
-:
-true
-}
 )
 )
 ;
@@ -228,11 +223,6 @@ MouseEvent
 "
 popupshown
 "
-{
-bubbles
-:
-true
-}
 )
 )
 ;
@@ -280,11 +270,6 @@ MouseEvent
 "
 popuphiding
 "
-{
-bubbles
-:
-true
-}
 )
 )
 ;
@@ -298,11 +283,6 @@ MouseEvent
 "
 popuphidden
 "
-{
-bubbles
-:
-true
-}
 )
 )
 ;
