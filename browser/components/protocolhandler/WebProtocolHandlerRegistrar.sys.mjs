@@ -3787,8 +3787,6 @@ mailto
 handler
 -
 confirm
--
-message
 "
 ;
 newitem
