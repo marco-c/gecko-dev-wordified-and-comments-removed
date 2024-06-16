@@ -460,6 +460,13 @@ js
 ]
 [
 "
+browser_translations_select_panel_a11y_utils
+.
+js
+"
+]
+[
+"
 browser_translations_select_panel_close_on_new_tab
 .
 js
