@@ -3739,7 +3739,7 @@ StyleList
 )
 -
 >
-mCounterStyle
+mListStyleType
 .
 IsNone
 (
