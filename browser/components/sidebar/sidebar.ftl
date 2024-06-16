@@ -93,7 +93,6 @@ today
 heading
 =
 Today
--
 {
 DATETIME
 (
@@ -117,7 +116,6 @@ yesterday
 heading
 =
 Yesterday
--
 {
 DATETIME
 (
@@ -182,6 +180,8 @@ numeric
 "
 )
 }
+#
+#
 #
 "
 Search
