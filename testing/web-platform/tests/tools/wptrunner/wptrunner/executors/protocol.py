@@ -4407,6 +4407,9 @@ browser
 port
 )
         
+try
+:
+            
 conn
 .
 request
@@ -4419,7 +4422,7 @@ HEAD
 invalid
 "
 )
-        
+            
 res
 =
 conn
@@ -4427,7 +4430,7 @@ conn
 getresponse
 (
 )
-        
+            
 return
 res
 .
@@ -4435,6 +4438,13 @@ status
 =
 =
 404
+        
+except
+OSError
+:
+            
+return
+False
 class
 VirtualSensorProtocolPart
 (
