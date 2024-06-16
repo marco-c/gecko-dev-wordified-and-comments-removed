@@ -1,4 +1,6 @@
 import
+contextlib
+import
 errno
 import
 json
@@ -596,6 +598,16 @@ get_context
         
 self
 .
+_stack
+=
+contextlib
+.
+ExitStack
+(
+)
+        
+self
+.
 cache_manager
 =
 mp_context
@@ -672,10 +684,13 @@ server_log_handler
 =
 self
 .
-server_logging_ctx
+_stack
 .
-__enter__
+enter_context
 (
+self
+.
+server_logging_ctx
 )
         
 self
@@ -694,26 +709,35 @@ config
 =
 self
 .
-config_ctx
+_stack
 .
-__enter__
+enter_context
 (
+self
+.
+config_ctx
 )
         
+self
+.
+_stack
+.
+enter_context
+(
 self
 .
 stash
-.
-__enter__
-(
 )
         
 self
 .
-cache_manager
+_stack
 .
-__enter__
+enter_context
 (
+self
+.
+cache_manager
 )
         
 assert
@@ -761,10 +785,13 @@ self
 config
 )
             
-cm
+self
 .
-__enter__
+_stack
+.
+enter_context
 (
+cm
 )
             
 self
@@ -844,8 +871,15 @@ interactive
             
 self
 .
+_stack
+.
+enter_context
+(
+self
+.
 ignore_interrupts
 (
+)
 )
         
 return
@@ -860,12 +894,6 @@ exc_val
 exc_tb
 )
 :
-        
-self
-.
-process_interrupts
-(
-)
         
 for
 servers
@@ -917,15 +945,9 @@ wait
 (
 )
         
-for
-cm
-in
 self
 .
-env_extras_cms
-:
-            
-cm
+_stack
 .
 __exit__
 (
@@ -939,47 +961,10 @@ self
 env_extras_cms
 =
 None
-        
-self
+    
+contextlib
 .
-cache_manager
-.
-__exit__
-(
-exc_type
-exc_val
-exc_tb
-)
-        
-self
-.
-stash
-.
-__exit__
-(
-)
-        
-self
-.
-config_ctx
-.
-__exit__
-(
-exc_type
-exc_val
-exc_tb
-)
-        
-self
-.
-server_logging_ctx
-.
-__exit__
-(
-exc_type
-exc_val
-exc_tb
-)
+contextmanager
     
 def
 ignore_interrupts
@@ -988,6 +973,8 @@ self
 )
 :
         
+prev_handler
+=
 signal
 .
 signal
@@ -999,14 +986,15 @@ signal
 .
 SIG_IGN
 )
-    
-def
-process_interrupts
-(
-self
-)
-:
         
+try
+:
+            
+yield
+        
+finally
+:
+            
 signal
 .
 signal
@@ -1014,9 +1002,7 @@ signal
 signal
 .
 SIGINT
-signal
-.
-SIG_DFL
+prev_handler
 )
     
 def
