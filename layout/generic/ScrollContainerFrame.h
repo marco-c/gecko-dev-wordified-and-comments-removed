@@ -79,13 +79,6 @@ h
 #
 include
 "
-TextOverflow
-.
-h
-"
-#
-include
-"
 ScrollVelocityQueue
 .
 h
@@ -146,6 +139,9 @@ AutoContainsBlendModeCapturer
 namespace
 mozilla
 {
+struct
+nsDisplayListCollection
+;
 class
 PresShell
 ;
