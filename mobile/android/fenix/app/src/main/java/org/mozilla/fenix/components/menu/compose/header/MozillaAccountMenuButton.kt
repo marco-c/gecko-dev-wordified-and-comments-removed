@@ -735,7 +735,7 @@ FirefoxTheme
 .
 colors
 .
-iconWarning
+iconCritical
 )
 Spacer
 (

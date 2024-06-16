@@ -938,7 +938,7 @@ FirefoxTheme
 .
 colors
 .
-iconWarning
+iconCritical
 else
 -
 >

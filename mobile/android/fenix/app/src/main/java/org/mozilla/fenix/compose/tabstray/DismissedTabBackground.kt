@@ -482,7 +482,7 @@ FirefoxTheme
 .
 colors
 .
-iconWarning
+iconCritical
 )
 Icon
 (
@@ -552,7 +552,7 @@ FirefoxTheme
 .
 colors
 .
-iconWarning
+iconCritical
 )
 }
 }

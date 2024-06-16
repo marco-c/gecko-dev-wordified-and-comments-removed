@@ -424,7 +424,7 @@ FirefoxTheme
 .
 colors
 .
-iconWarning
+iconCritical
 )
 }
 }

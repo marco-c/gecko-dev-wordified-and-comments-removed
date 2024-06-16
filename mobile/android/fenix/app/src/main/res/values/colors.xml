@@ -1628,7 +1628,7 @@ color
 name
 =
 "
-fx_mobile_icon_color_warning
+fx_mobile_icon_color_critical
 "
 tools
 :
@@ -3492,7 +3492,7 @@ color
 name
 =
 "
-fx_mobile_private_icon_color_warning
+fx_mobile_private_icon_color_critical
 "
 tools
 :
