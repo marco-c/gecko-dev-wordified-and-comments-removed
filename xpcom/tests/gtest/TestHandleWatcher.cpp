@@ -505,7 +505,7 @@ AssertIsLive
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 sIsLive
 "
@@ -1629,7 +1629,7 @@ TargetType
 targetTyoe
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -1802,7 +1802,7 @@ Execute
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -1819,7 +1819,7 @@ SpinEventLoopUntil
 this
 ]
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (

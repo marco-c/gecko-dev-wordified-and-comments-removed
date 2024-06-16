@@ -190,7 +190,7 @@ nsILocalFileWin
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 winFile
 )

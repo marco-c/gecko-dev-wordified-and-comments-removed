@@ -1542,7 +1542,7 @@ uint32_t
 aType
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aType
 =
