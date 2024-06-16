@@ -13,6 +13,16 @@ VideoEncoder
 Override
 public
 abstract
+long
+createNative
+(
+long
+webrtcEnvRef
+)
+;
+Override
+public
+abstract
 boolean
 isHardwareEncoder
 (
