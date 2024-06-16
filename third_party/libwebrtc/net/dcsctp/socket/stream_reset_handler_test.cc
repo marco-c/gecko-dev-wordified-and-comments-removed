@@ -840,7 +840,6 @@ ReassemblyQueue
 log
 :
 "
-kPeerInitialTsn
 kArwnd
 )
 )
@@ -1412,7 +1411,6 @@ ReassemblyQueue
 log
 :
 "
-kPeerInitialTsn
 kArwnd
 )
 ;

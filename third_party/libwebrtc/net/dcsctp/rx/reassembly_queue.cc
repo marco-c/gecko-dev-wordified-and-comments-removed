@@ -324,8 +324,6 @@ absl
 :
 string_view
 log_prefix
-TSN
-peer_initial_tsn
 size_t
 max_size_bytes
 bool
