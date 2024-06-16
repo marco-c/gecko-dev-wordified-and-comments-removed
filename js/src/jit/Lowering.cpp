@@ -22555,7 +22555,7 @@ alloc
 )
 LWasmNewI31Ref
 (
-useRegister
+useRegisterOrConstant
 (
 ins
 -
