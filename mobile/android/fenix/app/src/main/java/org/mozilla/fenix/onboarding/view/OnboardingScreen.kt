@@ -781,7 +781,7 @@ if
 pagerState
 .
 currentPage
-=
+>
 =
 pagesToDisplay
 .
@@ -792,9 +792,9 @@ onFinish
 (
 pagesToDisplay
 [
-pagerState
+pagesToDisplay
 .
-currentPage
+lastIndex
 ]
 )
 }
