@@ -713,6 +713,16 @@ widgetName
 DateTimeBoxWidget
 "
 ;
+prefKeys
+=
+[
+"
+privacy
+.
+resistFingerprinting
+"
+]
+;
 break
 ;
 case
