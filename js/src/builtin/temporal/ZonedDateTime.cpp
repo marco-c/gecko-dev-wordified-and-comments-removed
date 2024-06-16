@@ -3286,6 +3286,9 @@ maybeOptions
 if
 (
 !
+temporal
+:
+:
 CalendarDateAdd
 (
 cx

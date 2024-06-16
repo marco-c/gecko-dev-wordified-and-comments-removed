@@ -1178,6 +1178,9 @@ maybeResolvedOptions
 )
 {
 return
+temporal
+:
+:
 CalendarYearMonthFromFields
 (
 cx
@@ -3153,6 +3156,9 @@ false
 auto
 obj
 =
+temporal
+:
+:
 CalendarYearMonthFromFields
 (
 cx
@@ -4958,6 +4964,9 @@ false
 auto
 obj
 =
+temporal
+:
+:
 CalendarYearMonthFromFields
 (
 cx
