@@ -109,6 +109,16 @@ r
 mut
 encoded
 )
+.
+expect
+(
+"
+Report
+encoding
+failed
+!
+"
+)
 ;
 let
 decoded
