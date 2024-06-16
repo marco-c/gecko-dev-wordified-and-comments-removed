@@ -381,8 +381,11 @@ url
 ;
 if
 (
-!
 expectedDestinationUrl
+=
+=
+=
+undefined
 )
 {
 expectedDestinationUrl
@@ -390,6 +393,11 @@ expectedDestinationUrl
 url
 ;
 }
+if
+(
+expectedDestinationUrl
+)
+{
 expectedDestinationUrl
 .
 username
@@ -434,6 +442,7 @@ URL
 "
 )
 ;
+}
 await
 this
 .
