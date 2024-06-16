@@ -556,6 +556,12 @@ InheritsPrincipal
 )
 const
 ;
+bool
+IsNonOpaqueURL
+(
+)
+const
+;
 private
 :
 nsIURI
@@ -618,6 +624,13 @@ Maybe
 bool
 >
 mInheritsPrincipal
+;
+mutable
+Maybe
+<
+bool
+>
+mIsNonOpaqueURL
 ;
 }
 ;
