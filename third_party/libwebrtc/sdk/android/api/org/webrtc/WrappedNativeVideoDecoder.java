@@ -12,6 +12,16 @@ VideoDecoder
 {
 Override
 public
+abstract
+long
+createNative
+(
+long
+webrtcEnvRef
+)
+;
+Override
+public
 final
 VideoCodecStatus
 initDecode

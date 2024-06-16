@@ -12,8 +12,10 @@ WrappedNativeVideoDecoder
 Override
 public
 long
-createNativeVideoDecoder
+createNative
 (
+long
+webrtcEnvRef
 )
 {
 return
