@@ -1166,7 +1166,7 @@ Path
 }
 chromedriver
 -
-win32
+win64
 "
 "
 chromedriver
@@ -1366,6 +1366,7 @@ chromedriver
 .
 exe
 "
+                                
 cd_extracted_names_115
 [
 "
