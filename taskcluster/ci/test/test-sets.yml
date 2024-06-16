@@ -157,6 +157,10 @@ groups
 webgpu
 :
 -
+mochitest
+-
+webgpu
+-
 web
 -
 platform
@@ -264,14 +268,6 @@ mochitest
 devtools
 -
 chrome
-mochitest
--
-webgpu
-:
--
-mochitest
--
-webgpu
 talos
 :
 -

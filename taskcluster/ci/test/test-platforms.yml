@@ -326,10 +326,6 @@ linux1804
 -
 tests
 -
-mochitest
--
-webgpu
--
 web
 -
 platform
@@ -385,10 +381,6 @@ linux1804
 -
 tests
 -
-mochitest
--
-webgpu
--
 web
 -
 platform
@@ -465,10 +457,6 @@ linux1804
 -
 tests
 -
-mochitest
--
-webgpu
--
 web
 -
 platform
@@ -504,10 +492,6 @@ linux1804
 -
 tests
 -
-mochitest
--
-webgpu
--
 web
 -
 platform
@@ -542,10 +526,6 @@ sets
 linux1804
 -
 tests
--
-mochitest
--
-webgpu
 -
 web
 -
@@ -595,10 +575,6 @@ linux1804
 ccov
 -
 tests
--
-mochitest
--
-webgpu
 -
 web
 -
