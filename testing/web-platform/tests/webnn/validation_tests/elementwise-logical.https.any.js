@@ -42,7 +42,7 @@ operatorName
 }
 )
 ;
-validateInputFromOtherBuilder
+validateInputFromAnotherBuilder
 (
 '
 not
