@@ -1032,6 +1032,10 @@ remove
 (
 )
 ;
+mPendingCount
+-
+-
+;
 InsertRecord
 (
 aRec
