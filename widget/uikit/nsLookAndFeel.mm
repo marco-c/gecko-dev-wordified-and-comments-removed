@@ -1094,6 +1094,8 @@ aID
 aColorScheme
 )
 ;
+break
+;
 default
 :
 NS_WARNING
