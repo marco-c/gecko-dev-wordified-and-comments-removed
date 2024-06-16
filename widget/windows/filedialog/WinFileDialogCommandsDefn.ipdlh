@@ -121,7 +121,7 @@ selectedFileTypeIndex
 struct
 RemoteError
 {
-nsCString
+uint32_t
 where
 ;
 uint32_t
