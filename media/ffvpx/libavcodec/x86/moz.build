@@ -153,16 +153,6 @@ vp9mc_16bpp
 asm
 '
 ]
-LOCAL_INCLUDES
-+
-=
-[
-"
-.
-.
-/
-"
-]
 if
 CONFIG
 [

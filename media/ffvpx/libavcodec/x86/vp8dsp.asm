@@ -801,7 +801,7 @@ db
 1
 7
 %
-if
+ifdef
 PIC
 %
 define
@@ -1241,7 +1241,7 @@ m4
 filter_h6_shuf3
 ]
 %
-if
+ifdef
 PIC
 lea
 picregq
@@ -1442,7 +1442,7 @@ m4
 filter_h4_shuf
 ]
 %
-if
+ifdef
 PIC
 lea
 picregq
@@ -1553,7 +1553,7 @@ shl
 myd
 4
 %
-if
+ifdef
 PIC
 lea
 picregq
@@ -1710,7 +1710,7 @@ myq
 3
 ]
 %
-if
+ifdef
 PIC
 lea
 picregq
@@ -1929,7 +1929,7 @@ shl
 mxd
 4
 %
-if
+ifdef
 PIC
 lea
 picregq
@@ -2242,7 +2242,7 @@ mxq
 3
 ]
 %
-if
+ifdef
 PIC
 lea
 picregq
@@ -2643,7 +2643,7 @@ shl
 mxd
 5
 %
-if
+ifdef
 PIC
 lea
 picregq
@@ -2850,7 +2850,7 @@ shl
 mxd
 4
 %
-if
+ifdef
 PIC
 lea
 picregq
@@ -3136,7 +3136,7 @@ shl
 myd
 5
 %
-if
+ifdef
 PIC
 lea
 picregq
@@ -3365,7 +3365,7 @@ myq
 3
 ]
 %
-if
+ifdef
 PIC
 lea
 picregq
@@ -3650,7 +3650,7 @@ shl
 myd
 4
 %
-if
+ifdef
 PIC
 lea
 picregq
@@ -3805,7 +3805,7 @@ shl
 myd
 4
 %
-if
+ifdef
 PIC
 lea
 picregq
@@ -4026,7 +4026,7 @@ shl
 mxd
 4
 %
-if
+ifdef
 PIC
 lea
 picregq
@@ -4179,7 +4179,7 @@ shl
 mxd
 4
 %
-if
+ifdef
 PIC
 lea
 picregq

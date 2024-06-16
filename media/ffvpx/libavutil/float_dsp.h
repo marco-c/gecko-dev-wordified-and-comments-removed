@@ -4,6 +4,13 @@ AVUTIL_FLOAT_DSP_H
 #
 define
 AVUTIL_FLOAT_DSP_H
+#
+include
+"
+config
+.
+h
+"
 typedef
 struct
 AVFloatDSPContext
@@ -184,11 +191,11 @@ butterflies_float
 (
 float
 *
-restrict
+av_restrict
 v1
 float
 *
-restrict
+av_restrict
 v2
 int
 len

@@ -23,15 +23,6 @@ include
 "
 libavutil
 /
-attributes_internal
-.
-h
-"
-#
-include
-"
-libavutil
-/
 macros
 .
 h
@@ -163,7 +154,6 @@ block_type
 }
 MPADSPContext
 ;
-FF_VISIBILITY_PUSH_HIDDEN
 void
 ff_mpadsp_init
 (
@@ -422,6 +412,5 @@ ff_mdct_win_float
 MDCT_BUF_SIZE
 ]
 ;
-FF_VISIBILITY_POP_HIDDEN
 #
 endif

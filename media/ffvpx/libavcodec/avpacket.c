@@ -1664,16 +1664,6 @@ SMPTE
 "
 ;
 case
-AV_PKT_DATA_AMBIENT_VIEWING_ENVIRONMENT
-:
-return
-"
-Ambient
-viewing
-environment
-"
-;
-case
 AV_PKT_DATA_IAMF_MIX_GAIN_PARAM
 :
 return

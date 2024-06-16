@@ -6263,14 +6263,6 @@ dsp
 ;
 #
 elif
-ARCH_RISCV
-ff_vp8dsp_init_riscv
-(
-dsp
-)
-;
-#
-elif
 ARCH_X86
 ff_vp8dsp_init_x86
 (

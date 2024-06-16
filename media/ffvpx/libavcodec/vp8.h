@@ -803,6 +803,9 @@ int
 threadnr
 )
 ;
+int
+vp7
+;
 uint16_t
 inter_dc_pred
 [

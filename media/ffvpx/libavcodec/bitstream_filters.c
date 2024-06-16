@@ -148,6 +148,11 @@ ff_mjpega_dump_header_bsf
 extern
 const
 FFBitStreamFilter
+ff_mp3_header_decompress_bsf
+;
+extern
+const
+FFBitStreamFilter
 ff_mpeg2_metadata_bsf
 ;
 extern
@@ -199,11 +204,6 @@ extern
 const
 FFBitStreamFilter
 ff_setts_bsf
-;
-extern
-const
-FFBitStreamFilter
-ff_showinfo_bsf
 ;
 extern
 const
