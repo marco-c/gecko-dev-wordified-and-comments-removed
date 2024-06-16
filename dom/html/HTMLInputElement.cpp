@@ -27842,10 +27842,10 @@ IsAutoDirectionalityAssociated
 return
 SetDirectionality
 (
-GetParentDirectionality
-(
-this
-)
+Directionality
+:
+:
+Ltr
 aNotify
 )
 ;
