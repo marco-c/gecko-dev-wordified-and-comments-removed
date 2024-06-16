@@ -427,6 +427,15 @@ layout
 "
 CBINDGEN_IS_SERVO
 "
+"
+feature
+=
+track_alloc_size
+"
+=
+"
+CBINDGEN_IS_SERVO
+"
 #
 These
 will

@@ -101,6 +101,13 @@ servo
 "
 serde
 "
+"
+track_alloc_size
+"
+]
+track_alloc_size
+=
+[
 ]
 [
 dependencies
