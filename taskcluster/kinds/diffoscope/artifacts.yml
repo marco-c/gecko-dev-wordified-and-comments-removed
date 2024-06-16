@@ -247,7 +247,8 @@ firefox
 .
 js
 #
-Artifact
+macOS
+artifact
 builds
 have
 local
@@ -255,12 +256,14 @@ update
 configurations
 not
 Nightly
-update
 #
+update
 configurations
 .
 -
 rm
+-
+f
 {
 a
 b
@@ -282,6 +285,8 @@ framework
 ChannelPrefs
 -
 rm
+-
+f
 {
 a
 b
