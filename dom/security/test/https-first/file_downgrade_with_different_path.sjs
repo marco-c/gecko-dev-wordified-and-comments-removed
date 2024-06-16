@@ -43,7 +43,12 @@ result
 scheme
 -
 https
+-
 '
++
+window
+.
+location
 }
 '
 *
@@ -95,6 +100,13 @@ result
 scheme
 -
 http
+-
+'
++
+window
+.
+location
+}
 '
 }
 '
