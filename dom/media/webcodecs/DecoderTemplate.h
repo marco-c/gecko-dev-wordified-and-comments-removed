@@ -891,6 +891,10 @@ MediaData
 &
 &
 aData
+const
+ConfigTypeInternal
+&
+aConfig
 )
 ;
 void
