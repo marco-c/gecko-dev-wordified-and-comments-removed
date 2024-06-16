@@ -411,6 +411,8 @@ uint8_t
 portInstanceIndex
 uint8_t
 actorIndex
+uint8_t
+actorProtocolIndex
 uint16_t
 typeOffset
 mojo
