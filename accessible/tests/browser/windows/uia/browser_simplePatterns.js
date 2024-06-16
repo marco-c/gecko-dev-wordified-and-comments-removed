@@ -2281,7 +2281,7 @@ pattern
 "
 )
 ;
-todo
+ok
 (
 await
 runPython
@@ -3055,7 +3055,7 @@ testRangeValueProps
 "
 progress
 "
-false
+true
 0
 .
 5

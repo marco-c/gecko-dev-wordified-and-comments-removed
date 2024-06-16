@@ -4053,6 +4053,14 @@ NativeState
 (
 )
 ;
+state
+|
+=
+states
+:
+:
+READONLY
+;
 nsAutoString
 attrValue
 ;
