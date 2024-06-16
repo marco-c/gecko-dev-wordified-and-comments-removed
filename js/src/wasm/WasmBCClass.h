@@ -4870,16 +4870,6 @@ nodiscard
 ]
 ]
 bool
-emitBodyDelegateThrowPad
-(
-)
-;
-[
-[
-nodiscard
-]
-]
-bool
 emitTry
 (
 )
