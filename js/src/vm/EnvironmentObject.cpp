@@ -14187,12 +14187,6 @@ checkHashTablesAfterMovingGC
 (
 )
 {
-proxiedEnvs
-.
-checkAfterMovingGC
-(
-)
-;
 CheckTableAfterMovingGC
 (
 missingEnvs

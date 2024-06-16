@@ -25861,6 +25861,14 @@ zone
 ;
 }
 }
+WeakMapBase
+:
+:
+checkWeakMapsAfterMovingGC
+(
+zone
+)
+;
 }
 for
 (
