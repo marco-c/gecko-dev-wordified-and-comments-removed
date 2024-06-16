@@ -385,10 +385,6 @@ Tier2GeneratorTaskPtrVector
 class
 GlobalHelperThreadState
 {
-friend
-class
-AutoLockHelperThreadState
-;
 public
 :
 static
@@ -610,6 +606,10 @@ dispatchTaskCallback
 =
 nullptr
 ;
+friend
+class
+AutoHelperTaskQueue
+;
 size_t
 tasksPending_
 =
@@ -799,7 +799,7 @@ wait
 (
 AutoLockHelperThreadState
 &
-locked
+lock
 mozilla
 :
 :
