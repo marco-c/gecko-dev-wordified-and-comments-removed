@@ -909,7 +909,6 @@ pic_context
 subpixel_mode
 frame_state
 frame_context
-data_stores
 scratch
 tile_caches
 )
@@ -4124,18 +4123,6 @@ DropShadows
 .
 .
 }
-)
-)
-|
-Some
-(
-PictureCompositeMode
-:
-:
-SVGFEGraph
-(
-.
-.
 )
 )
 =
