@@ -467,6 +467,15 @@ Duration
 duration
 )
 ;
+int32_t
+DurationSign
+(
+const
+DateDuration
+&
+duration
+)
+;
 bool
 IsValidDuration
 (

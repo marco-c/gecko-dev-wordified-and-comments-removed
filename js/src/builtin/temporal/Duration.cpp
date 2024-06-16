@@ -925,8 +925,13 @@ return
 0
 ;
 }
-static
 int32_t
+js
+:
+:
+temporal
+:
+:
 DurationSign
 (
 const
@@ -2345,8 +2350,6 @@ time
 int32_t
 dateSign
 =
-:
-:
 DurationSign
 (
 date
@@ -2733,8 +2736,6 @@ time
 &
 &
 (
-:
-:
 DurationSign
 (
 duration
@@ -3259,8 +3260,6 @@ duration
 int32_t
 sign
 =
-:
-:
 DurationSign
 (
 duration
