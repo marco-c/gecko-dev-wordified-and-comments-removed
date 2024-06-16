@@ -671,6 +671,15 @@ this
 kTopicCycleCollectorBegin
 )
 ;
+obs
+-
+>
+RemoveObserver
+(
+this
+kTopicShutdown
+)
+;
 return
 NS_OK
 ;
