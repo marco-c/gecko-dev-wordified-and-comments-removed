@@ -1889,11 +1889,6 @@ CollectMixedContentTelemetry
 (
 )
 ;
-void
-RecordChannelCompletionDurationForEarlyHint
-(
-)
-;
 friend
 class
 HttpAsyncAborter
