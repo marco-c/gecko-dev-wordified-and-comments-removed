@@ -1552,8 +1552,8 @@ removeView
 it
 )
 }
-}
 reinitializeMicrosurveyPrompt
 (
 )
+}
 }
