@@ -338,9 +338,9 @@ FRAME_TYPE_UNUSED
 FRAME_TYPE_ORIGIN
 =
 0xC
-FRAME_TYPE_LAST
+FRAME_TYPE_PRIORITY_UPDATE
 =
-0xD
+0x10
 }
 ;
 enum
@@ -455,6 +455,9 @@ SETTINGS_TYPE_MAX_FRAME_SIZE
 SETTINGS_TYPE_ENABLE_CONNECT_PROTOCOL
 =
 8
+SETTINGS_NO_RFC7540_PRIORITIES
+=
+9
 }
 ;
 const
@@ -701,6 +704,14 @@ Http2Session
 static
 nsresult
 RecvOrigin
+(
+Http2Session
+*
+)
+;
+static
+nsresult
+RecvPriorityUpdate
 (
 Http2Session
 *
