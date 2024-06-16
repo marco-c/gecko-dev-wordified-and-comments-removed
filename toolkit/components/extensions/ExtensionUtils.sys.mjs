@@ -426,6 +426,7 @@ error
 .
 *
 /
+export
 class
 ExtensionError
 extends
@@ -605,6 +606,7 @@ error
 .
 *
 /
+export
 class
 WorkerExtensionError
 extends
@@ -2181,6 +2183,5 @@ DefaultMap
 DefaultWeakMap
 ExtensionError
 LimitedSet
-WorkerExtensionError
 }
 ;

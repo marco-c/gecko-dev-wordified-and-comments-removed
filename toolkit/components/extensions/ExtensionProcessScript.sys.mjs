@@ -458,8 +458,6 @@ new
 lazy
 .
 ExtensionChild
-.
-BrowserExtensionContent
 (
 policy
 )

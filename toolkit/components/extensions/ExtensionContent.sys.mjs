@@ -323,8 +323,10 @@ initWithWindowID
 ;
 import
 {
+ChildAPIManager
 ExtensionChild
 ExtensionActivityLogChild
+Messenger
 }
 from
 "
@@ -408,15 +410,6 @@ runSafeSyncWithoutClone
 }
 =
 ExtensionCommon
-;
-const
-{
-BrowserExtensionContent
-ChildAPIManager
-Messenger
-}
-=
-ExtensionChild
 ;
 ChromeUtils
 .
@@ -1603,7 +1596,7 @@ value
 }
 defineLazyGetter
 (
-BrowserExtensionContent
+ExtensionChild
 .
 prototype
 "
@@ -1630,7 +1623,7 @@ this
 ;
 defineLazyGetter
 (
-BrowserExtensionContent
+ExtensionChild
 .
 prototype
 "
@@ -1657,7 +1650,7 @@ this
 ;
 defineLazyGetter
 (
-BrowserExtensionContent
+ExtensionChild
 .
 prototype
 "
@@ -1684,7 +1677,7 @@ this
 ;
 defineLazyGetter
 (
-BrowserExtensionContent
+ExtensionChild
 .
 prototype
 "
@@ -1760,7 +1753,7 @@ cssCode
 .
 defineLazyGetter
 (
-BrowserExtensionContent
+ExtensionChild
 .
 prototype
 "
@@ -1787,7 +1780,7 @@ this
 ;
 defineLazyGetter
 (
-BrowserExtensionContent
+ExtensionChild
 .
 prototype
 "
@@ -1828,7 +1821,7 @@ Script
 *
 param
 {
-BrowserExtensionContent
+ExtensionChild
 }
 extension
 *
@@ -3847,7 +3840,7 @@ Script
 *
 param
 {
-BrowserExtensionContent
+ExtensionChild
 }
 extension
 *
@@ -6424,7 +6417,6 @@ var
 ExtensionContent
 =
 {
-BrowserExtensionContent
 contentScripts
 shutdownExtension
 (

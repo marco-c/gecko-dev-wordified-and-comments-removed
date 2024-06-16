@@ -977,7 +977,7 @@ param
 {
 Extension
 |
-BrowserExtensionContent
+ExtensionChild
 }
 extension
 *
@@ -1581,7 +1581,7 @@ param
 {
 Extension
 |
-BrowserExtensionContent
+ExtensionChild
 }
 options
 .

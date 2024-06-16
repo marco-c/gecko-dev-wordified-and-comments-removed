@@ -216,8 +216,9 @@ mjs
 ;
 import
 {
-ExtensionChild
+ChildAPIManager
 ExtensionActivityLogChild
+Messenger
 }
 from
 "
@@ -274,14 +275,6 @@ redefineGetter
 }
 =
 ExtensionCommon
-;
-const
-{
-ChildAPIManager
-Messenger
-}
-=
-ExtensionChild
 ;
 const
 initializeBackgroundPage
@@ -1021,7 +1014,7 @@ process
 *
 param
 {
-BrowserExtensionContent
+ExtensionChild
 }
 extension
 This
@@ -1704,7 +1697,7 @@ mjs
 *
 param
 {
-BrowserExtensionContent
+ExtensionChild
 }
 extension
 This
@@ -2001,7 +1994,7 @@ environment
 *
 param
 {
-BrowserExtensionContent
+ExtensionChild
 }
 extension
 This
@@ -2532,7 +2525,7 @@ inserted
 *
 param
 {
-BrowserExtensionContent
+ExtensionChild
 }
 extension
 *

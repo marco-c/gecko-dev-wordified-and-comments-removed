@@ -1482,6 +1482,7 @@ onceMap
 "
 )
 ;
+export
 class
 EventEmitter
 {
@@ -2188,6 +2189,7 @@ API
 .
 *
 /
+export
 class
 ExtensionAPI
 extends
@@ -2893,6 +2895,7 @@ process
 abstract
 *
 /
+export
 class
 BaseContext
 {
@@ -6389,6 +6392,7 @@ mjs
 interface
 *
 /
+export
 class
 SchemaAPIInterface
 {
