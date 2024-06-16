@@ -540,9 +540,12 @@ eLogicalSideBitsIBoth
 }
 ;
 enum
+class
 LineRelativeDir
+:
+uint8_t
 {
-eLineRelativeDirOver
+Over
 =
 static_cast
 <
@@ -554,7 +557,7 @@ LogicalSide
 :
 BStart
 )
-eLineRelativeDirUnder
+Under
 =
 static_cast
 <
@@ -566,7 +569,7 @@ LogicalSide
 :
 BEnd
 )
-eLineRelativeDirLeft
+Left
 =
 static_cast
 <
@@ -578,7 +581,7 @@ LogicalSide
 :
 IStart
 )
-eLineRelativeDirRight
+Right
 =
 static_cast
 <

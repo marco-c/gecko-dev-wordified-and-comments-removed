@@ -12471,7 +12471,10 @@ aWM
 .
 LogicalSideForLineRelativeDir
 (
-eLineRelativeDirLeft
+LineRelativeDir
+:
+:
+Left
 )
 )
 ;
@@ -12546,7 +12549,10 @@ aWM
 .
 LogicalSideForLineRelativeDir
 (
-eLineRelativeDirRight
+LineRelativeDir
+:
+:
+Right
 )
 )
 ;
