@@ -895,15 +895,6 @@ rendered
 )
 ;
 }
-OwnerDoc
-(
-)
--
->
-ConsumeTransientUserGestureActivation
-(
-)
-;
 #
 if
 !
