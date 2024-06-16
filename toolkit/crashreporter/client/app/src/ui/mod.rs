@@ -424,9 +424,12 @@ string_or
 "
 crashreporter
 -
+branded
+-
 title
 "
 "
+Firefox
 Crash
 Reporter
 "
@@ -1439,6 +1442,8 @@ string
 (
 "
 crashreporter
+-
+branded
 -
 title
 "
