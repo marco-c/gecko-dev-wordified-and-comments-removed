@@ -2305,6 +2305,7 @@ cacheMode
 requestRedirect
 requestPriority
 integrity
+false
 fragment
 principalInfo
 interceptionPrincipalInfo
