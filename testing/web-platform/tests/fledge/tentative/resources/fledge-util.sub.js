@@ -1627,6 +1627,7 @@ if
 owner
 !
 =
+=
 window
 .
 location
@@ -2600,6 +2601,7 @@ data
 messageUuid
 !
 =
+=
 messageUuid
 )
 return
@@ -2756,6 +2758,7 @@ data
 .
 messageUuid
 !
+=
 =
 frameUuid
 )
@@ -3330,7 +3333,6 @@ if
 directFromSellerSignals
 =
 =
-=
 null
 |
 |
@@ -3365,6 +3367,7 @@ directFromSellerSignals
 .
 length
 !
+=
 =
 2
 )
@@ -3396,7 +3399,6 @@ reportResultSuccessCondition
 directFromSellerSignals
 !
 =
-=
 null
 &
 &
@@ -3432,6 +3434,7 @@ directFromSellerSignals
 length
 =
 =
+=
 2
 reportResult
 :
@@ -3452,7 +3455,6 @@ generateBid
 if
 (
 directFromSellerSignals
-=
 =
 =
 null
@@ -3489,6 +3491,7 @@ directFromSellerSignals
 .
 length
 !
+=
 =
 2
 )
@@ -3520,7 +3523,6 @@ reportWinSuccessCondition
 directFromSellerSignals
 !
 =
-=
 null
 &
 &
@@ -3554,6 +3556,7 @@ directFromSellerSignals
 )
 .
 length
+=
 =
 =
 2

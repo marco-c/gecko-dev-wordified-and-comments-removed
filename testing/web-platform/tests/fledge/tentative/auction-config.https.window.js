@@ -2213,6 +2213,7 @@ browserSignals
 bid
 =
 =
+=
 1
 )
 sendReportTo
@@ -2229,6 +2230,7 @@ if
 browserSignals
 .
 bid
+=
 =
 =
 2
@@ -2319,6 +2321,7 @@ browserSignals
 desirability
 =
 =
+=
 1
 )
 sendReportTo
@@ -2335,6 +2338,7 @@ if
 browserSignals
 .
 desirability
+=
 =
 =
 2
