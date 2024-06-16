@@ -138,6 +138,7 @@ position
 AnchorName
 AnchorScope
 PositionAnchor
+PositionVisibility
 }
 ;
 use

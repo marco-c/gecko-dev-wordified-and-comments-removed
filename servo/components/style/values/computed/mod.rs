@@ -829,6 +829,16 @@ self
 position
 :
 :
+PositionVisibility
+;
+pub
+use
+self
+:
+:
+position
+:
+:
 AspectRatio
 ;
 pub

@@ -3424,6 +3424,10 @@ Percentage
 "
                 
 "
+PositionVisibility
+"
+                
+"
 PrintColorAdjust
 "
                 
