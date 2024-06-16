@@ -1764,7 +1764,6 @@ _streaming
 =
 true
 ;
-}
 if
 (
 !
@@ -1783,6 +1782,7 @@ quit_
 =
 false
 ;
+}
 _captureThread
 =
 rtc
