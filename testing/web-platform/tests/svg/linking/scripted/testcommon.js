@@ -89,6 +89,11 @@ appendChild
 elem
 )
 ;
+if
+(
+test
+)
+{
 test
 .
 add_cleanup
@@ -106,6 +111,7 @@ remove
 }
 )
 ;
+}
 return
 elem
 ;
