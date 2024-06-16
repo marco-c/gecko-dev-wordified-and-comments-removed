@@ -2197,9 +2197,6 @@ HOST_CXXFLAGS
 "
 HOST_CXXFLAGS
 "
-"
-HOST_CXX_LDFLAGS
-"
 )
             
 )
@@ -2227,9 +2224,6 @@ HOST_CFLAGS
 "
 HOST_CFLAGS
 "
-"
-HOST_C_LDFLAGS
-"
 )
             
 )
@@ -2253,12 +2247,6 @@ HOST_CFLAGS
 "
 HOST_CXXFLAGS
 "
-"
-HOST_C_LDFLAGS
-"
-"
-HOST_CXX_LDFLAGS
-"
 )
             
 )
@@ -2271,9 +2259,6 @@ None
 (
 "
 HOST_CFLAGS
-"
-"
-HOST_C_LDFLAGS
 "
 )
 )
@@ -2303,9 +2288,6 @@ MOZBUILD_HOST_CFLAGS
 "
 HOST_CFLAGS
 "
-"
-HOST_C_LDFLAGS
-"
 )
 )
             
@@ -2318,9 +2300,6 @@ MOZBUILD_HOST_CXXFLAGS
 (
 "
 HOST_CXXFLAGS
-"
-"
-HOST_CXX_LDFLAGS
 "
 )
 )
