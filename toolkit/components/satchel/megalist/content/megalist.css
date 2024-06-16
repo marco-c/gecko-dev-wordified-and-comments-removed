@@ -90,8 +90,6 @@ content
 :
 center
 ;
-max
--
 height
 :
 100vh
@@ -165,6 +163,12 @@ auto
 margin
 :
 20px
+;
+flex
+-
+grow
+:
+1
 ;
 .
 lines
