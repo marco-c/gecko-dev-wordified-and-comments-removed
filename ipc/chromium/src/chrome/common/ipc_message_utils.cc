@@ -164,6 +164,14 @@ shmem_
 =
 nullptr
 ;
+writer
+-
+>
+NoteLargeBufferShmemFailure
+(
+full_len
+)
+;
 }
 }
 remaining_
