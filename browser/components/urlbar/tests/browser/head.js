@@ -764,11 +764,6 @@ gURLBar
 _setValue
 (
 searchString
-{
-allowTrim
-:
-false
-}
 )
 ;
 gURLBar

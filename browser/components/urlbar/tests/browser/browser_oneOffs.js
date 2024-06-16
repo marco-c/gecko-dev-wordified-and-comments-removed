@@ -623,10 +623,6 @@ rebuilding
 let
 resultURL
 =
-UrlbarTestUtils
-.
-trimURL
-(
 "
 http
 :
@@ -647,7 +643,6 @@ js
 gMaxResults
 -
 1
-)
 )
 ;
 Assert
@@ -994,10 +989,6 @@ i
 1
 -
 1
-UrlbarTestUtils
-.
-trimURL
-(
 "
 http
 :
@@ -1020,7 +1011,6 @@ gMaxResults
 i
 -
 1
-)
 )
 )
 ;
@@ -1308,10 +1298,6 @@ i
 1
 -
 1
-UrlbarTestUtils
-.
-trimURL
-(
 "
 http
 :
@@ -1334,7 +1320,6 @@ gMaxResults
 i
 -
 1
-)
 )
 )
 ;

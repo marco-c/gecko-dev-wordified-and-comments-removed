@@ -477,6 +477,8 @@ substring
 5
 )
 )
++
+1
 )
 ;
 }
@@ -772,6 +774,8 @@ substring
 5
 )
 )
++
+1
 getTextWidth
 (
 gURLBar
@@ -784,6 +788,8 @@ substring
 10
 )
 )
++
+1
 )
 ;
 }

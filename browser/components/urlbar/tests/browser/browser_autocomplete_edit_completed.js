@@ -291,7 +291,7 @@ editedValue
 =
 gURLBar
 .
-value
+untrimmedValue
 ;
 Assert
 .
@@ -338,13 +338,6 @@ BrowserTestUtils
 .
 waitForDocLoadAndStopIt
 (
-"
-http
-:
-/
-/
-"
-+
 editedValue
 gBrowser
 .
