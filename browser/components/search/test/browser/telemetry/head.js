@@ -1279,6 +1279,12 @@ testResetFOG
 (
 )
 ;
+SERPCategorizationRecorder
+.
+testReset
+(
+)
+;
 }
 function
 assertSERPTelemetry
