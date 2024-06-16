@@ -5907,6 +5907,9 @@ focus
 focusVisible
 :
 true
+preventScroll
+:
+true
 }
 )
 ;
@@ -5921,6 +5924,9 @@ focus
 (
 {
 focusVisible
+:
+true
+preventScroll
 :
 true
 }
