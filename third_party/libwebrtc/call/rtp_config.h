@@ -79,6 +79,11 @@ shared_frame_id
 =
 0
 ;
+int64_t
+frame_id
+=
+0
+;
 }
 ;
 struct
