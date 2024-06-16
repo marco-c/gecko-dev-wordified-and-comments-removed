@@ -155,6 +155,9 @@ manifestVersion
 extension
 .
 manifestVersion
+ignoreUnrecognizedProperties
+:
+false
 }
 ;
 return

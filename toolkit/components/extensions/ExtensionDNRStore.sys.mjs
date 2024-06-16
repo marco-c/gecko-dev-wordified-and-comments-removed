@@ -6823,6 +6823,9 @@ manifestVersion
 extension
 .
 manifestVersion
+ignoreUnrecognizedProperties
+:
+true
 }
 ;
 /
