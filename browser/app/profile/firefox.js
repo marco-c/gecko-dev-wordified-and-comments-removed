@@ -1940,7 +1940,7 @@ windowsLaunchOnLogin
 .
 enabled
 "
-false
+true
 )
 ;
 pref
