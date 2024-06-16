@@ -852,15 +852,6 @@ ensureLangListsBuilt
 (
 document
 this
-.
-elements
-.
-panel
-gBrowser
-.
-selectedBrowser
-.
-innerWindowID
 )
 ;
 }
