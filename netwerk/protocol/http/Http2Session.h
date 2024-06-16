@@ -1271,13 +1271,6 @@ GenerateSettingsAck
 )
 ;
 void
-GeneratePriority
-(
-uint32_t
-uint8_t
-)
-;
-void
 GenerateRstStream
 (
 uint32_t
