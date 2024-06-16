@@ -39,13 +39,6 @@ h
 #
 include
 "
-nsIScrollableFrame
-.
-h
-"
-#
-include
-"
 nsLayoutUtils
 .
 h
@@ -340,9 +333,9 @@ ViewTimeline
 ComputeOffsets
 (
 const
-nsIScrollableFrame
+ScrollContainerFrame
 *
-aScrollFrame
+aScrollContainerFrame
 layers
 :
 :
@@ -358,7 +351,7 @@ mSubject
 ;
 MOZ_ASSERT
 (
-aScrollFrame
+aScrollContainerFrame
 )
 ;
 const
@@ -404,7 +397,7 @@ nsIFrame
 *
 scrolledFrame
 =
-aScrollFrame
+aScrollContainerFrame
 -
 >
 GetScrolledFrame
@@ -439,7 +432,7 @@ const
 nsRect
 scrollPort
 =
-aScrollFrame
+aScrollContainerFrame
 -
 >
 GetScrollPortRect
@@ -532,7 +525,7 @@ sideInsets
 =
 ComputeInsets
 (
-aScrollFrame
+aScrollContainerFrame
 aOrientation
 )
 ;
@@ -579,9 +572,9 @@ ViewTimeline
 ComputeInsets
 (
 const
-nsIScrollableFrame
+ScrollContainerFrame
 *
-aScrollFrame
+aScrollContainerFrame
 layers
 :
 :
@@ -594,7 +587,7 @@ const
 WritingMode
 wm
 =
-aScrollFrame
+aScrollContainerFrame
 -
 >
 GetScrolledFrame
@@ -614,7 +607,7 @@ scrollPadding
 LogicalMargin
 (
 wm
-aScrollFrame
+aScrollContainerFrame
 -
 >
 GetScrollPadding
@@ -675,7 +668,7 @@ const
 nsRect
 scrollPort
 =
-aScrollFrame
+aScrollContainerFrame
 -
 >
 GetScrollPortRect

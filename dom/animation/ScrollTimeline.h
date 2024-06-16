@@ -66,12 +66,12 @@ h
 define
 PROGRESS_TIMELINE_DURATION_MILLISEC
 100000
-class
-nsIScrollableFrame
-;
 namespace
 mozilla
 {
+class
+ScrollContainerFrame
+;
 class
 ElementAnimationData
 ;
@@ -559,7 +559,7 @@ IsActive
 const
 {
 return
-GetScrollFrame
+GetScrollContainerFrame
 (
 )
 ;
@@ -690,7 +690,7 @@ ScrollOffsets
 ComputeOffsets
 (
 const
-nsIScrollableFrame
+ScrollContainerFrame
 *
 aScrollFrame
 layers
@@ -722,9 +722,9 @@ UnregisterFromScrollSource
 )
 ;
 const
-nsIScrollableFrame
+ScrollContainerFrame
 *
-GetScrollFrame
+GetScrollContainerFrame
 (
 )
 const
