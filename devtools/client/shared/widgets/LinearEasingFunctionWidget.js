@@ -2437,6 +2437,7 @@ tokenStream
 getCSSLexer
 (
 value
+true
 )
 ;
 const
@@ -2475,7 +2476,7 @@ tokenType
 =
 =
 "
-whitespace
+WhiteSpace
 "
 &
 &
@@ -2486,7 +2487,7 @@ tokenType
 =
 =
 "
-comment
+Comment
 "
 )
 )
@@ -2518,13 +2519,13 @@ tokenType
 =
 =
 "
-function
+Function
 "
 |
 |
 token
 .
-text
+value
 !
 =
 =
@@ -2564,12 +2565,12 @@ if
 (
 token
 .
-text
+tokenType
 =
 =
 =
 "
-)
+CloseParenthesis
 "
 )
 {
@@ -2585,7 +2586,7 @@ tokenType
 =
 =
 "
-number
+Number
 "
 )
 {
@@ -2628,7 +2629,7 @@ tokenType
 =
 =
 "
-percentage
+Percentage
 "
 )
 {
@@ -2670,7 +2671,7 @@ tokenType
 =
 =
 "
-percentage
+Percentage
 "
 )
 {
