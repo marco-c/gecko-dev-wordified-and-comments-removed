@@ -4713,6 +4713,7 @@ State
 StreamId
 StreamType
 Version
+MIN_INITIAL_PACKET_SIZE
 RECV_BUFFER_SIZE
 SEND_BUFFER_SIZE
 }
@@ -36534,7 +36535,15 @@ default
 .
 max_data
 (
-1200
+MIN_INITIAL_PACKET_SIZE
+.
+try_into
+(
+)
+.
+unwrap
+(
+)
 )
 )
 ;

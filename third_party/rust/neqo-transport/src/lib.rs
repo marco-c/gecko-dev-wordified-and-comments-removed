@@ -257,6 +257,10 @@ frame
 :
 :
 CloseError
+packet
+:
+:
+MIN_INITIAL_PACKET_SIZE
 quic_datagrams
 :
 :

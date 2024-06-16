@@ -80,6 +80,14 @@ Res
 ;
 pub
 const
+MIN_INITIAL_PACKET_SIZE
+:
+usize
+=
+1200
+;
+pub
+const
 PACKET_BIT_LONG
 :
 u8

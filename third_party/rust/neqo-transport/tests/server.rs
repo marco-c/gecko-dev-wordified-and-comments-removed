@@ -83,6 +83,7 @@ Output
 State
 StreamType
 Version
+MIN_INITIAL_PACKET_SIZE
 }
 ;
 use
@@ -1502,7 +1503,7 @@ Encoder
 :
 with_capacity
 (
-1200
+MIN_INITIAL_PACKET_SIZE
 )
 ;
 header
@@ -1558,7 +1559,7 @@ bogus_data
 .
 resize
 (
-1200
+MIN_INITIAL_PACKET_SIZE
 66
 )
 ;
@@ -3107,7 +3108,7 @@ ciphertext
 .
 resize
 (
-1200
+MIN_INITIAL_PACKET_SIZE
 0
 )
 ;
@@ -3558,7 +3559,7 @@ Encoder
 :
 with_capacity
 (
-1200
+MIN_INITIAL_PACKET_SIZE
 )
 ;
 payload_enc
@@ -3767,7 +3768,7 @@ ciphertext
 .
 resize
 (
-1200
+MIN_INITIAL_PACKET_SIZE
 0
 )
 ;

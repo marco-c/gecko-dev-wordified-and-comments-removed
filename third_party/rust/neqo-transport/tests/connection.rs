@@ -22,6 +22,7 @@ ConnectionParameters
 Error
 State
 Version
+MIN_INITIAL_PACKET_SIZE
 }
 ;
 use
@@ -795,7 +796,7 @@ packet
 .
 resize
 (
-1200
+MIN_INITIAL_PACKET_SIZE
 0
 )
 ;
@@ -1857,7 +1858,7 @@ Encoder
 :
 with_capacity
 (
-1200
+MIN_INITIAL_PACKET_SIZE
 )
 ;
 packet
@@ -2039,7 +2040,7 @@ packet
 .
 resize
 (
-1200
+MIN_INITIAL_PACKET_SIZE
 0
 )
 ;

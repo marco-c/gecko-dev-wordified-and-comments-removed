@@ -71,6 +71,7 @@ ConnectionParameters
 Error
 StreamType
 Version
+MIN_INITIAL_PACKET_SIZE
 }
 ;
 #
@@ -401,7 +402,7 @@ len
 (
 )
 <
-1200
+MIN_INITIAL_PACKET_SIZE
 )
 ;
 let

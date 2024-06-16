@@ -77,6 +77,7 @@ TransportParameter
 ConnectionParameters
 Error
 Version
+MIN_INITIAL_PACKET_SIZE
 }
 ;
 const
@@ -147,7 +148,7 @@ unknown_version_packet
 .
 resize
 (
-1200
+MIN_INITIAL_PACKET_SIZE
 0x0
 )
 ;
@@ -223,7 +224,7 @@ unknown_version_packet
 .
 resize
 (
-1200
+MIN_INITIAL_PACKET_SIZE
 0x0
 )
 ;
