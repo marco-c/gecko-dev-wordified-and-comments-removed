@@ -109,6 +109,11 @@ mAgc2Forced
 (
 false
 )
+mExpectDrift
+(
+-
+1
+)
 mAgc
 (
 0
@@ -155,6 +160,9 @@ mTransientOn
 ;
 bool
 mAgc2Forced
+;
+int32_t
+mExpectDrift
 ;
 int32_t
 mAgc
