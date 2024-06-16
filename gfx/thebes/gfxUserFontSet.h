@@ -1880,7 +1880,9 @@ aKey
 mFontEntry
 -
 >
-mRangeFlags
+AutoRangeFlags
+(
+)
 aKey
 -
 >
