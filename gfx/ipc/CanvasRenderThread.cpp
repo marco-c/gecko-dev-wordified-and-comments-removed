@@ -640,6 +640,16 @@ Shutdown
 (
 )
 ;
+layers
+:
+:
+CanvasTranslator
+:
+:
+Shutdown
+(
+)
+;
 while
 (
 true
