@@ -1121,6 +1121,11 @@ nsNavHistoryQueryOptions
 aOptions
 )
 ;
+PRTime
+GetNow
+(
+)
+;
 private
 :
 ~
@@ -1159,11 +1164,6 @@ mDB
 ;
 void
 LoadPrefs
-(
-)
-;
-PRTime
-GetNow
 (
 )
 ;
