@@ -37,7 +37,7 @@ Profiler
 inside
 Firefox
 with
-dome
+some
 details
 around
 tricky
