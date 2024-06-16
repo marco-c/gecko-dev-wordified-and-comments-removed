@@ -5564,10 +5564,7 @@ else
 {
 nextNode
 =
-mRange
--
->
-MayCrossShadowBoundary
+IterAllowCrossShadowBoundary
 (
 )
 ?
