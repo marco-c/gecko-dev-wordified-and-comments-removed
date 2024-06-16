@@ -104,9 +104,6 @@ content
 min
 -
 content
-min
--
-content
 ;
 gap
 :
@@ -144,9 +141,6 @@ content
 min
 -
 content
-min
--
-content
 ;
 }
 }
@@ -163,7 +157,7 @@ grid
 column
 :
 span
-9
+7
 ;
 grid
 -
@@ -187,7 +181,7 @@ grid
 column
 :
 span
-9
+7
 ;
 }
 }
