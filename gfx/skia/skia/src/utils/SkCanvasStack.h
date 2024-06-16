@@ -359,10 +359,7 @@ true_type
 ;
 }
 ;
-skia_private
-:
-:
-TArray
+SkTArray
 <
 CanvasData
 >

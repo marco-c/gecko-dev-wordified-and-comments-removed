@@ -3,9 +3,9 @@ include
 "
 include
 /
-ports
+codec
 /
-SkImageGeneratorCG
+SkEncodedOrigin
 .
 h
 "
@@ -14,9 +14,9 @@ include
 "
 include
 /
-codec
+ports
 /
-SkEncodedOrigin
+SkImageGeneratorCG
 .
 h
 "
@@ -53,7 +53,7 @@ src
 /
 codec
 /
-SkPixmapUtilsPriv
+SkPixmapUtils
 .
 h
 "

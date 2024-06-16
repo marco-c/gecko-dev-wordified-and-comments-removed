@@ -1,6 +1,17 @@
 #
 include
 "
+include
+/
+core
+/
+SkImage
+.
+h
+"
+#
+include
+"
 src
 /
 core

@@ -30,7 +30,7 @@ struct
 Program
 ;
 class
-DebugTracePriv
+SkRPDebugTrace
 ;
 namespace
 RP
@@ -59,15 +59,11 @@ const
 FunctionDefinition
 &
 function
-DebugTracePriv
+SkRPDebugTrace
 *
 debugTrace
 =
 nullptr
-bool
-writeTraceOps
-=
-false
 )
 ;
 }

@@ -17,7 +17,6 @@ h
 "
 #
 if
-(
 SKIA_IMPLEMENTATION
 |
 |
@@ -25,14 +24,6 @@ SKIA_IMPLEMENTATION
 defined
 (
 SK_VULKAN
-)
-)
-&
-&
-!
-defined
-(
-SK_USE_EXTERNAL_VULKAN_HEADERS
 )
 #
 include
@@ -67,7 +58,6 @@ ifdef
 SK_BUILD_FOR_ANDROID
 #
 if
-(
 SKIA_IMPLEMENTATION
 |
 |
@@ -75,14 +65,6 @@ SKIA_IMPLEMENTATION
 defined
 (
 SK_VULKAN
-)
-)
-&
-&
-!
-defined
-(
-SK_USE_EXTERNAL_VULKAN_HEADERS
 )
 #
 include

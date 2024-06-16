@@ -3299,7 +3299,6 @@ return
 (
 Fn
 *
-const
 *
 )
 buf

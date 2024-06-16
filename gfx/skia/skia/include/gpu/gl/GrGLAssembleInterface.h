@@ -1,10 +1,4 @@
 #
-ifndef
-GrGLAssembleInterface_DEFINED
-#
-define
-GrGLAssembleInterface_DEFINED
-#
 include
 "
 include
@@ -14,19 +8,6 @@ gpu
 gl
 /
 GrGLInterface
-.
-h
-"
-#
-include
-"
-include
-/
-private
-/
-base
-/
-SkAPI
 .
 h
 "
@@ -120,5 +101,3 @@ GrGLGetProc
 get
 )
 ;
-#
-endif

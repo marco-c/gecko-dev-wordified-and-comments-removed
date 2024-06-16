@@ -28,7 +28,6 @@ kDawn
 kMetal
 kVulkan
 kMock
-kUnsupported
 }
 ;
 enum
@@ -99,16 +98,6 @@ false
 kYes
 =
 true
-}
-;
-enum
-class
-Origin
-:
-unsigned
-{
-kTopLeft
-kBottomLeft
 }
 ;
 }

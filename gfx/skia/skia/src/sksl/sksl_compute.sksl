@@ -60,19 +60,9 @@ in
 uint
 sk_LocalInvocationIndex
 ;
-struct
-IndirectDispatchArgs
-{
-int
-x
-y
-z
-;
-}
-;
 pure
 half4
-textureRead
+read
 (
 readableTexture2D
 t
@@ -81,7 +71,7 @@ pos
 )
 ;
 void
-textureWrite
+write
 (
 writableTexture2D
 t
@@ -93,7 +83,7 @@ color
 ;
 pure
 uint
-textureWidth
+width
 (
 genTexture2D
 t
@@ -101,7 +91,7 @@ t
 ;
 pure
 uint
-textureHeight
+height
 (
 genTexture2D
 t

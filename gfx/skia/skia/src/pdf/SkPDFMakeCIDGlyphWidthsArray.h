@@ -38,7 +38,7 @@ const
 SkPDFGlyphUse
 &
 subset
-int32_t
+SkScalar
 *
 defaultAdvance
 )

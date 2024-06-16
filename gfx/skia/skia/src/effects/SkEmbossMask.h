@@ -16,7 +16,7 @@ SkEmbossMaskFilter
 h
 "
 struct
-SkMaskBuilder
+SkMask
 ;
 class
 SkEmbossMask
@@ -27,7 +27,7 @@ static
 void
 Emboss
 (
-SkMaskBuilder
+SkMask
 *
 mask
 const

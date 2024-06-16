@@ -79,13 +79,13 @@ class
 SkArenaAlloc
 ;
 class
+SkBaseDevice
+;
+class
 SkBitmap
 ;
 class
 SkBlender
-;
-class
-SkDevice
 ;
 class
 SkGlyph
@@ -230,7 +230,7 @@ SkPoint
 const
 SkPaint
 &
-SkDevice
+SkBaseDevice
 *
 )
 const

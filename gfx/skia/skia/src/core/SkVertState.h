@@ -15,11 +15,6 @@ SkVertices
 .
 h
 "
-#
-include
-<
-cstdint
->
 struct
 VertState
 {

@@ -190,11 +190,9 @@ bufferInfo
 )
 ;
 }
-sk_sp
-<
 SkPicture
->
-makePictureSnapshot
+*
+newPictureSnapshot
 (
 )
 ;
@@ -397,11 +395,9 @@ nullptr
 ;
 }
 virtual
-sk_sp
-<
 SkPicture
->
-onMakePictureSnapshot
+*
+onNewPictureSnapshot
 (
 )
 ;

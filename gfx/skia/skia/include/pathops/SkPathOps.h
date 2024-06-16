@@ -150,10 +150,7 @@ result
 ;
 private
 :
-skia_private
-:
-:
-TArray
+SkTArray
 <
 SkPath
 >

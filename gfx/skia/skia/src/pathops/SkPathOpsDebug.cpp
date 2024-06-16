@@ -530,17 +530,6 @@ endif
 #
 if
 DEBUG_COIN
-#
-include
-"
-src
-/
-pathops
-/
-SkOpContour
-.
-h
-"
 class
 SkCoincidentSpans
 ;
@@ -680,7 +669,7 @@ glitch
 =
 fGlitches
 .
-append
+push
 (
 )
 ;
@@ -803,7 +792,7 @@ SkOpSpanBase
 *
 suspect
 =
-nullptr
+NULL
 )
 {
 SpanGlitch
@@ -883,7 +872,7 @@ SkCoincidentSpans
 *
 opp
 =
-nullptr
+NULL
 )
 {
 SpanGlitch
@@ -1505,7 +1494,7 @@ dict
 .
 fDict
 .
-size
+count
 (
 )
 ;
@@ -1560,7 +1549,7 @@ count
 =
 fDict
 .
-size
+count
 (
 )
 ;
@@ -2122,7 +2111,7 @@ glitches
 .
 fGlitches
 .
-size
+count
 (
 )
 )
@@ -2450,7 +2439,7 @@ glitches
 .
 fGlitches
 .
-size
+count
 (
 )
 ;
@@ -2555,7 +2544,7 @@ glitches
 .
 fGlitches
 .
-size
+count
 (
 )
 ;
@@ -13212,7 +13201,7 @@ overlap
 =
 overlaps
 .
-size
+count
 (
 )
 ?
@@ -13234,7 +13223,7 @@ index
 <
 overlaps
 .
-size
+count
 (
 )
 ;

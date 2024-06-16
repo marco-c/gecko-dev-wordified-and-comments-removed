@@ -331,12 +331,16 @@ fuzzy
 if
 (
 winWidget
+&
+&
+!
+swgl
 0
 -
 36
 0
 -
-293
+15
 )
 =
 =

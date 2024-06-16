@@ -1450,13 +1450,12 @@ n
 <
 <
 "
-static
 State
 get_transition
 (
-uint8_t
+int
 transition
-State
+int
 state
 )
 {

@@ -2427,10 +2427,7 @@ fMode
 State
 fState
 ;
-skia_private
-:
-:
-STArray
+SkSTArray
 <
 16
 Scope
@@ -2438,10 +2435,7 @@ true
 >
 fScopeStack
 ;
-skia_private
-:
-:
-STArray
+SkSTArray
 <
 16
 bool

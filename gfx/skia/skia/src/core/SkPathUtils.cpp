@@ -376,6 +376,7 @@ isHairlineStyle
 ;
 }
 }
+SK_API
 bool
 FillPathWithPaint
 (
@@ -412,6 +413,7 @@ resScale
 )
 ;
 }
+SK_API
 bool
 FillPathWithPaint
 (
@@ -450,6 +452,7 @@ ctm
 )
 ;
 }
+SK_API
 bool
 FillPathWithPaint
 (

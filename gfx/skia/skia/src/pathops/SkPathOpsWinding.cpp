@@ -214,10 +214,6 @@ include
 <
 utility
 >
-using
-namespace
-skia_private
-;
 enum
 class
 SkOpRayDir
@@ -1846,7 +1842,7 @@ next
 )
 )
 ;
-STArray
+SkSTArray
 <
 1
 SkOpRayHit

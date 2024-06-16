@@ -192,11 +192,8 @@ dwrite
 .
 h
 >
-using
-namespace
-skia_private
-;
 class
+SK_API
 SkRemotableFontMgr_DirectWrite
 :
 public
@@ -299,7 +296,7 @@ fKey
 }
 ;
 mutable
-TArray
+SkTArray
 <
 DataId
 >

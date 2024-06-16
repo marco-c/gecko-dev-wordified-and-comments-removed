@@ -39,11 +39,6 @@ SkTDArray
 .
 h
 "
-#
-include
-<
-cstdint
->
 class
 SkPtrSet
 :

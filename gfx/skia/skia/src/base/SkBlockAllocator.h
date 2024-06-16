@@ -1061,6 +1061,7 @@ Block
 #
 ifdef
 SK_FORCE_8_BYTE_ALIGNMENT
+inline
 static
 constexpr
 size_t
@@ -1070,6 +1071,7 @@ kAddressAlign
 ;
 #
 else
+inline
 static
 constexpr
 size_t

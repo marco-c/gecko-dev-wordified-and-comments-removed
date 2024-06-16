@@ -6,11 +6,6 @@ define
 SkParseEncodedOrigin_DEFINED
 #
 include
-<
-cstddef
->
-#
-include
 "
 include
 /
@@ -24,7 +19,7 @@ bool
 SkParseEncodedOrigin
 (
 const
-void
+uint8_t
 *
 data
 size_t

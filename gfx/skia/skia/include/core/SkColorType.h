@@ -32,8 +32,6 @@ kBGRA_1010102_SkColorType
 kRGB_101010x_SkColorType
 kBGR_101010x_SkColorType
 kBGR_101010x_XR_SkColorType
-kBGRA_10101010_XR_SkColorType
-kRGBA_10x6_SkColorType
 kGray_8_SkColorType
 kRGBA_F16Norm_SkColorType
 kRGBA_F16_SkColorType

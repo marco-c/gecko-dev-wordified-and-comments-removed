@@ -48,6 +48,10 @@ const
 BuiltinTypes
 &
 types
+const
+ShaderCaps
+*
+caps
 ErrorReporter
 &
 errors
@@ -56,6 +60,10 @@ errors
 fTypes
 (
 types
+)
+fCaps
+(
+caps
 )
 fErrors
 (

@@ -61,7 +61,7 @@ image
 SkImage
 :
 :
-RequiredProperties
+RequiredImageProperties
 )
 =
 0

@@ -2454,7 +2454,6 @@ SurfaceFormat
 :
 :
 B8G8R8A8
-true
 )
 ;
 if
@@ -2608,7 +2607,7 @@ DrawOptions
 CompositionOp
 :
 :
-OP_OVER
+OP_SOURCE
 )
 )
 ;

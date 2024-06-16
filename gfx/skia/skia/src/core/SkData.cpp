@@ -527,14 +527,11 @@ void
 {
 sk_free
 (
-const_cast
-<
+(
 void
 *
->
-(
-ptr
 )
+ptr
 )
 ;
 }

@@ -26,11 +26,6 @@ SkTypes
 .
 h
 "
-#
-include
-<
-iterator
->
 static
 const
 SkScalar

@@ -12,7 +12,7 @@ h
 #
 include
 <
-cstring
+string
 >
 int
 SkIntersections

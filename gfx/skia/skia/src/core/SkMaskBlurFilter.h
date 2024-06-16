@@ -67,7 +67,7 @@ const
 SkMask
 &
 src
-SkMaskBuilder
+SkMask
 *
 dst
 )
