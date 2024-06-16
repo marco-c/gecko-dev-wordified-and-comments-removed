@@ -302,11 +302,6 @@ notificationsDelegate
 mock
 (
 )
-crashBuilder
-=
-mock
-(
-)
 )
 )
 val
@@ -316,11 +311,6 @@ ExceptionHandler
 (
 testContext
 crashReporter
-crashBuilder
-=
-mock
-(
-)
 )
 val
 exception
@@ -507,11 +497,6 @@ notificationsDelegate
 mock
 (
 )
-crashBuilder
-=
-mock
-(
-)
 )
 .
 install
@@ -526,11 +511,6 @@ ExceptionHandler
 testContext
 crashReporter
 defaultExceptionHandler
-crashBuilder
-=
-mock
-(
-)
 )
 verify
 (
