@@ -598,7 +598,6 @@ aAppServerKey
 :
 WorkerThreadRunnable
 (
-aWorkerPrivate
 "
 GetSubscriptionResultRunnable
 "
@@ -1063,6 +1062,7 @@ r
 >
 Dispatch
 (
+worker
 )
 )
 {
@@ -1547,12 +1547,6 @@ aState
 :
 WorkerThreadRunnable
 (
-aProxy
--
->
-GetWorkerPrivate
-(
-)
 "
 PermissionResultRunnable
 "
@@ -1797,6 +1791,12 @@ r
 >
 Dispatch
 (
+mProxy
+-
+>
+GetWorkerPrivate
+(
+)
 )
 )
 ;

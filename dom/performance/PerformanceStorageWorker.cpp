@@ -158,7 +158,6 @@ aData
 :
 WorkerControlRunnable
 (
-aWorkerPrivate
 "
 PerformanceEntryAdder
 "
@@ -523,6 +522,7 @@ r
 >
 Dispatch
 (
+workerPrivate
 )
 )
 ;

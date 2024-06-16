@@ -1219,10 +1219,9 @@ aNotification
 :
 MainThreadWorkerControlRunnable
 (
-aNotification
--
->
-mWorkerPrivate
+"
+ReleaseNotificationControlRunnable
+"
 )
 mNotification
 (
@@ -1527,7 +1526,6 @@ NotificationWorkerRunnable
 :
 MainThreadWorkerRunnable
 (
-aWorkerPrivate
 aName
 )
 {
@@ -1917,6 +1915,10 @@ r
 >
 Dispatch
 (
+notification
+-
+>
+mWorkerPrivate
 )
 )
 {
@@ -1939,6 +1941,10 @@ r
 >
 Dispatch
 (
+notification
+-
+>
+mWorkerPrivate
 )
 )
 ;
@@ -4759,6 +4765,9 @@ aWindow
 {
 MOZ_ASSERT_IF
 (
+mNotification
+-
+>
 mWorkerPrivate
 -
 >
@@ -4791,6 +4800,9 @@ DispatchClickEvent
 ;
 MOZ_ASSERT_IF
 (
+mNotification
+-
+>
 mWorkerPrivate
 -
 >
@@ -4818,6 +4830,9 @@ FocusWindowRunnable
 mWindow
 )
 ;
+mNotification
+-
+>
 mWorkerPrivate
 -
 >
@@ -5588,6 +5603,10 @@ r
 >
 Dispatch
 (
+notification
+-
+>
+mWorkerPrivate
 )
 )
 {
@@ -6353,6 +6372,7 @@ r
 >
 Dispatch
 (
+mWorkerPrivate
 )
 )
 {
@@ -8407,6 +8427,12 @@ r
 >
 Dispatch
 (
+proxy
+-
+>
+GetWorkerPrivate
+(
+)
 )
 ;
 return

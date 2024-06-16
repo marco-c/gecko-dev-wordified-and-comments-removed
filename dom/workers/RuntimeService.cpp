@@ -2905,7 +2905,6 @@ aDispatchable
 :
 WorkerThreadRunnable
 (
-aWorkerPrivate
 "
 JSDispatchableRunnable
 "
@@ -2935,18 +2934,10 @@ override
 {
 MOZ_ASSERT
 (
-aWorkerPrivate
-=
-=
-mWorkerPrivate
-)
-;
-MOZ_ASSERT
-(
 aCx
 =
 =
-mWorkerPrivate
+aWorkerPrivate
 -
 >
 GetJSContext
@@ -2973,7 +2964,7 @@ mDispatchable
 >
 run
 (
-mWorkerPrivate
+aWorkerPrivate
 -
 >
 GetJSContext
@@ -3021,7 +3012,9 @@ mDispatchable
 >
 run
 (
-mWorkerPrivate
+GetCurrentThreadWorkerPrivate
+(
+)
 -
 >
 GetJSContext
@@ -3093,6 +3086,7 @@ r
 >
 Dispatch
 (
+workerPrivate
 )
 ;
 }
@@ -6956,7 +6950,6 @@ aWorkerPrivate
 :
 WorkerControlRunnable
 (
-aWorkerPrivate
 "
 DumpCrashInfoRunnable
 "
@@ -6969,6 +6962,10 @@ DumpCrashInfoRunnable
 :
 mMonitor
 "
+)
+mWorkerPrivate
+(
+aWorkerPrivate
 )
 {
 }
@@ -7081,6 +7078,7 @@ if
 !
 Dispatch
 (
+mWorkerPrivate
 )
 )
 {
@@ -7178,6 +7176,10 @@ FlippedOnce
 false
 >
 mHasMsg
+;
+WorkerPrivate
+*
+mWorkerPrivate
 ;
 }
 ;

@@ -344,6 +344,10 @@ const
 ;
 private
 :
+friend
+class
+ThreadSafeWeakWorkerRef
+;
 explicit
 WeakWorkerRef
 (

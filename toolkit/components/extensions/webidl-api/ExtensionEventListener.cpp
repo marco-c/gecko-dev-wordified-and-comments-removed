@@ -1483,6 +1483,9 @@ runnable
 >
 Dispatch
 (
+GetWorkerPrivate
+(
+)
 )
 ;
 retPromise
@@ -1654,14 +1657,6 @@ aWorkerPrivate
 >
 AssertIsOnWorkerThread
 (
-)
-;
-MOZ_ASSERT
-(
-aWorkerPrivate
-=
-=
-mWorkerPrivate
 )
 ;
 auto

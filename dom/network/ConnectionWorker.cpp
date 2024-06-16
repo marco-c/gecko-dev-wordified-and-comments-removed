@@ -512,7 +512,6 @@ aDHCPGateway
 :
 WorkerThreadRunnable
 (
-aWorkerPrivate
 "
 NotifyRunnable
 "
@@ -878,6 +877,12 @@ runnable
 >
 Dispatch
 (
+mWorkerRef
+-
+>
+Private
+(
+)
 )
 ;
 }

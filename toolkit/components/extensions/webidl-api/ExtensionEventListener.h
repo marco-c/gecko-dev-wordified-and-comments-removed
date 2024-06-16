@@ -537,12 +537,6 @@ nullptr
 :
 WorkerThreadRunnable
 (
-aExtensionEventListener
--
->
-GetWorkerPrivate
-(
-)
 "
 ExtensionListenerCallWorkerRunnable
 "

@@ -866,7 +866,6 @@ aFunc
 :
 WorkerThreadRunnable
 (
-aWorkerPrivate
 "
 FontFaceSetWorkerRunnable
 "
@@ -942,6 +941,7 @@ runnable
 >
 Dispatch
 (
+workerPrivate
 )
 ;
 }

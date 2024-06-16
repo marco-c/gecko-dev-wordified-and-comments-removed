@@ -257,7 +257,9 @@ Init
 (
 aCx
 aTransformerOptions
-mWorkerPrivate
+GetCurrentThreadWorkerPrivate
+(
+)
 mProxy
 )
 ;

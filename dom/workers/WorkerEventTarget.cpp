@@ -145,7 +145,6 @@ aInner
 :
 WorkerControlRunnable
 (
-aWorkerPrivate
 "
 WrappedControlRunnable
 "
@@ -561,6 +560,7 @@ r
 >
 Dispatch
 (
+mWorkerPrivate
 )
 )
 {
@@ -670,6 +670,7 @@ r
 >
 Dispatch
 (
+mWorkerPrivate
 )
 )
 {

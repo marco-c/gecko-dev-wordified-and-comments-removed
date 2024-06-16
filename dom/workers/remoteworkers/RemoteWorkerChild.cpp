@@ -599,7 +599,6 @@ aPortIdentifier
 :
 WorkerThreadRunnable
 (
-aWorkerPrivate
 "
 MessagePortIdentifierRunnable
 "
@@ -4788,6 +4787,7 @@ r
 >
 Dispatch
 (
+workerPrivate
 )
 )
 )

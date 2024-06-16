@@ -1048,7 +1048,6 @@ MainThreadProxyRunnable
 :
 MainThreadWorkerSyncRunnable
 (
-aWorkerPrivate
 aProxy
 -
 >
@@ -3098,7 +3097,6 @@ runnable
 new
 MainThreadStopSyncLoopRunnable
 (
-mWorkerPrivate
 std
 :
 :
@@ -3116,6 +3114,7 @@ runnable
 >
 Dispatch
 (
+mWorkerPrivate
 )
 )
 ;
@@ -3663,6 +3662,7 @@ runnable
 >
 Dispatch
 (
+mWorkerPrivate
 )
 ;
 }
@@ -3844,6 +3844,7 @@ runnable
 >
 Dispatch
 (
+mWorkerPrivate
 )
 )
 {

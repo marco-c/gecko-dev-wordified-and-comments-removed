@@ -70,7 +70,6 @@ aWorkerPrivate
 :
 WorkerDebuggeeRunnable
 (
-aWorkerPrivate
 "
 MessageEventRunnable
 "
@@ -573,7 +572,6 @@ aWorkerPrivate
 :
 WorkerParentDebuggeeRunnable
 (
-aWorkerPrivate
 "
 MessageEventToParentRunnable
 "

@@ -7845,6 +7845,12 @@ runnable
 >
 Dispatch
 (
+mWorkerRef
+-
+>
+Private
+(
+)
 )
 &
 &
@@ -7895,7 +7901,6 @@ aLoadedRequests
 :
 MainThreadWorkerSyncRunnable
 (
-aWorkerPrivate
 aSyncLoopTarget
 "
 ScriptExecutorRunnable

@@ -90,7 +90,6 @@ aJSON
 :
 MainThreadWorkerRunnable
 (
-aWorkerPrivate
 "
 WorkerCSPEventRunnable
 "
@@ -403,6 +402,7 @@ runnable
 >
 Dispatch
 (
+workerPrivate
 )
 ;
 return

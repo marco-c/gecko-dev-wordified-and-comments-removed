@@ -1139,7 +1139,6 @@ dom
 :
 WorkerThreadRunnable
 (
-aWorkerPrivate
 "
 CanvasDataShmemHolder
 :
@@ -1285,6 +1284,20 @@ Private
 this
 )
 ;
+dom
+:
+:
+WorkerPrivate
+*
+worker
+=
+mWorkerRef
+-
+>
+Private
+(
+)
+;
 mMutex
 .
 Unlock
@@ -1296,6 +1309,7 @@ task
 >
 Dispatch
 (
+worker
 )
 ;
 return

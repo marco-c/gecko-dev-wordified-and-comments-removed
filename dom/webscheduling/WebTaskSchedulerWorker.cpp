@@ -48,7 +48,6 @@ aSchedulerWorker
 :
 WorkerSameThreadRunnable
 (
-aWorkerPrivate
 "
 WebTaskWorkerRunnable
 "
@@ -285,6 +284,7 @@ runnable
 >
 Dispatch
 (
+mWorkerPrivate
 )
 ;
 }

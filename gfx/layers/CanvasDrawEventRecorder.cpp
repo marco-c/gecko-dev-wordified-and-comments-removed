@@ -1955,7 +1955,9 @@ dom
 :
 WorkerThreadRunnable
 (
-aWorkerPrivate
+"
+ProcessPendingRunnable
+"
 )
 mRecorder
 (
@@ -2050,6 +2052,12 @@ task
 >
 Dispatch
 (
+mWorkerRef
+-
+>
+Private
+(
+)
 )
 )
 )
