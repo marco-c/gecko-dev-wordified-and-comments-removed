@@ -6,6 +6,13 @@ import
 deepcopy
 import
 pytest
+pytestmark
+=
+pytest
+.
+mark
+.
+asyncio
 pytest
 .
 mark
@@ -35,6 +42,7 @@ fixed
 "
 ]
 )
+async
 def
 test_marionette_port
 (
@@ -71,11 +79,13 @@ new_session
 (
 )
     
+await
 driver
 .
 delete_session
 (
 )
+async
 def
 test_marionette_port_outdated_active_port_file
 (
@@ -228,6 +238,7 @@ b
 53
 "
     
+await
 driver
 .
 delete_session

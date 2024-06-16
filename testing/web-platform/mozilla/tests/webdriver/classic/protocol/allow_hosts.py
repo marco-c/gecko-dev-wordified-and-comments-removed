@@ -12,6 +12,13 @@ import
 get_host
 http_request
 websocket_request
+pytestmark
+=
+pytest
+.
+mark
+.
+asyncio
 pytest
 .
 mark
@@ -255,6 +262,7 @@ allowed
 "
 ]
 )
+async
 def
 test_allow_hosts_passed_to_remote_agent
 (
@@ -362,6 +370,7 @@ status
 =
 status
     
+await
 driver
 .
 delete_session

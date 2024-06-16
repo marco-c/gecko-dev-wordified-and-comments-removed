@@ -16,6 +16,13 @@ support
 refine
 import
 get_events
+pytestmark
+=
+pytest
+.
+mark
+.
+asyncio
 pytest
 .
 mark
@@ -43,9 +50,11 @@ device_pixel_ratio
 "
 ]
 )
+async
 def
 test_scroll_delta_device_pixel
 (
+    
 configuration
 url
 geckodriver
@@ -318,6 +327,7 @@ content
 finally
 :
         
+await
 driver
 .
 stop
