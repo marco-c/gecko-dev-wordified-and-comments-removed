@@ -106,7 +106,6 @@ mjs
 import
 {
 getLogger
-isSearchEnabled
 placeLinkOnClipboard
 MAX_TABS_FOR_RECENT_BROWSING
 }
@@ -1439,17 +1438,6 @@ tabs
 options
 "
 >
-{
-when
-(
-isSearchEnabled
-(
-)
-(
-)
-=
->
-html
 <
 div
 >
@@ -1534,8 +1522,6 @@ textbox
 /
 div
 >
-)
-}
 <
 div
 class

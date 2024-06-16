@@ -84,7 +84,6 @@ mjs
 import
 {
 escapeHtmlEntities
-isSearchEnabled
 navigateToLink
 }
 from
@@ -2561,17 +2560,6 @@ sort
 options
 "
 >
-{
-when
-(
-isSearchEnabled
-(
-)
-(
-)
-=
->
-html
 <
 div
 class
@@ -2665,8 +2653,6 @@ textbox
 /
 div
 >
-)
-}
 <
 div
 class

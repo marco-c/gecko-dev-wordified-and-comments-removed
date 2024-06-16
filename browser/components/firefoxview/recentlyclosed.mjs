@@ -84,7 +84,6 @@ mjs
 ;
 import
 {
-isSearchEnabled
 MAX_TABS_FOR_RECENT_BROWSING
 }
 from
@@ -2027,17 +2026,6 @@ header
 /
 h2
 >
-{
-when
-(
-isSearchEnabled
-(
-)
-(
-)
-=
->
-html
 <
 div
 >
@@ -2122,8 +2110,6 @@ textbox
 /
 div
 >
-)
-}
 <
 /
 div
