@@ -379,6 +379,12 @@ defined
 (
 MOZ_WIDGET_ANDROID
 )
+|
+|
+defined
+(
+MOZ_WIDGET_UIKIT
+)
 -
 1
 #
@@ -542,6 +548,12 @@ if
 defined
 (
 MOZ_WIDGET_ANDROID
+)
+|
+|
+defined
+(
+MOZ_WIDGET_UIKIT
 )
 void
 Channel
