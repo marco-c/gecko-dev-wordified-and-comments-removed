@@ -285,7 +285,9 @@ copy
 (
 isOfferTranslate
 =
-true
+action
+.
+isOfferTranslate
 )
 }
 }

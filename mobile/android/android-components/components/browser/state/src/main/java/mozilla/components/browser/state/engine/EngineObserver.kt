@@ -2197,6 +2197,11 @@ TranslationsAction
 TranslateOfferAction
 (
 tabId
+=
+tabId
+isOfferTranslate
+=
+true
 )
 )
 }
