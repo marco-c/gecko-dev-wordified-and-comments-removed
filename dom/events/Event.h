@@ -203,6 +203,9 @@ class
 MessageEvent
 ;
 class
+PointerEvent
+;
+class
 TimeEvent
 ;
 class
@@ -488,6 +491,17 @@ virtual
 MouseEvent
 *
 AsMouseEvent
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+PointerEvent
+*
+AsPointerEvent
 (
 )
 {

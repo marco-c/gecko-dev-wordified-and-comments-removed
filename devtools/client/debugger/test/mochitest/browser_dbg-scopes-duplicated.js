@@ -714,6 +714,8 @@ toggleScopeNode
 (
 dbg
 targetNodeIndex
++
+1
 )
 ;
 nodes

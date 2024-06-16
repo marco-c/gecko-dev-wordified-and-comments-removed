@@ -7966,6 +7966,7 @@ aPointerEvent
 {
 MouseEvent
 *
+const
 mouseEvent
 =
 aPointerEvent

@@ -41708,10 +41708,9 @@ if
 aEvent
 -
 >
-mClass
-=
-=
-eMouseEventClass
+IsMouseEventClassOrHasClickRelatedPointerEvent
+(
+)
 )
 {
 PresShell
