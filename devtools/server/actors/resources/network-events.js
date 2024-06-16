@@ -303,6 +303,9 @@ bind
 (
 this
 )
+earlyEvents
+:
+true
 }
 )
 ;

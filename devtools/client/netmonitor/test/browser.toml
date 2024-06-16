@@ -995,6 +995,17 @@ js
 "
 browser_net_block
 -
+before
+-
+network
+.
+js
+"
+]
+[
+"
+browser_net_block
+-
 context
 .
 js
