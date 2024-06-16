@@ -853,11 +853,6 @@ DBusMenu
 .
 cpp
 "
-"
-DBusService
-.
-cpp
-"
 ]
 CXXFLAGS
 +
