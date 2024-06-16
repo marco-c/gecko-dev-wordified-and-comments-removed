@@ -1218,6 +1218,13 @@ decoder_factory
 internal_decoder_factory
 ]
 (
+const
+Environment
+&
+env
+const
+SdpVideoFormat
+&
 )
 {
 return
@@ -1229,6 +1236,7 @@ make_unique
 MultiplexDecoderAdapter
 >
 (
+env
 &
 internal_decoder_factory
 SdpVideoFormat
@@ -1327,6 +1335,13 @@ decoder_factory
 internal_decoder_factory
 ]
 (
+const
+Environment
+&
+env
+const
+SdpVideoFormat
+&
 )
 {
 return
@@ -1338,6 +1353,7 @@ make_unique
 MultiplexDecoderAdapter
 >
 (
+env
 &
 internal_decoder_factory
 SdpVideoFormat

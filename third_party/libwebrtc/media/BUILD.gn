@@ -2721,6 +2721,14 @@ rtc_simulcast_encoder_adapter
 /
 api
 /
+environment
+"
+"
+.
+.
+/
+api
+/
 video
 :
 encoded_image
