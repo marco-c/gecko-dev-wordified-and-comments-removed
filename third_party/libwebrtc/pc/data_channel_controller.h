@@ -271,6 +271,15 @@ state
 )
 override
 ;
+size_t
+buffered_amount
+(
+StreamId
+sid
+)
+const
+override
+;
 void
 OnDataReceived
 (

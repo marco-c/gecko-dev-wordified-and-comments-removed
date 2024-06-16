@@ -442,6 +442,15 @@ max_inbound_streams
 const
 override
 ;
+size_t
+buffered_amount
+(
+int
+sid
+)
+const
+override
+;
 void
 set_debug_name_for_testing
 (

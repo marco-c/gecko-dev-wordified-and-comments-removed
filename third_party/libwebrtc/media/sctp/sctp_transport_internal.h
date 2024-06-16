@@ -336,6 +336,17 @@ const
 0
 ;
 virtual
+size_t
+buffered_amount
+(
+int
+sid
+)
+const
+=
+0
+;
+virtual
 void
 set_debug_name_for_testing
 (
