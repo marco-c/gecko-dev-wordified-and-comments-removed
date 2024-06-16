@@ -296,15 +296,6 @@ Edit
 "
 ;
 case
-eUXRebar
-:
-return
-L
-"
-Rebar
-"
-;
-case
 eUXToolbar
 :
 return
