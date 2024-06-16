@@ -723,6 +723,13 @@ function
 (
 )
 {
+this
+.
+timeout
+(
+60000
+)
+;
 const
 expectedOutputPath
 =
@@ -793,6 +800,9 @@ https
 .
 1
 '
+forceFallbackForTesting
+:
+true
 }
 )
 ;

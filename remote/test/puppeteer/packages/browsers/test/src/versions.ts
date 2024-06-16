@@ -25,7 +25,7 @@ const
 testFirefoxBuildId
 =
 '
-125
+126
 .
 0a1
 '

@@ -329,11 +329,7 @@ parameters
 chrome
 "
 "
-chrome
--
 headless
--
-shell
 "
 "
 webDriverBiDi

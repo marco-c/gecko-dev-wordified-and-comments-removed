@@ -667,6 +667,7 @@ test
 suit
 :
 bash
+npm2yarn
 npm
 run
 test

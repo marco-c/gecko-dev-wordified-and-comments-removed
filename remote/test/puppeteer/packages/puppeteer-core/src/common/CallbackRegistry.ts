@@ -155,10 +155,6 @@ callback
 .
 promise
 .
-valueOrThrow
-(
-)
-.
 catch
 (
 debugError
@@ -203,10 +199,6 @@ return
 callback
 .
 promise
-.
-valueOrThrow
-(
-)
 .
 finally
 (
@@ -736,7 +728,7 @@ promise
 (
 )
 :
-Deferred
+Promise
 <
 unknown
 >
@@ -746,6 +738,10 @@ this
 .
 #
 deferred
+.
+valueOrThrow
+(
+)
 ;
 }
 get

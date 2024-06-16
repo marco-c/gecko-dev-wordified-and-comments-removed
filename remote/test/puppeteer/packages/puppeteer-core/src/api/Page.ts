@@ -138,7 +138,6 @@ js
 import
 type
 {
-Credentials
 NetworkConditions
 }
 from
@@ -662,6 +661,19 @@ JSHeapTotalSize
 ?
 :
 number
+;
+}
+export
+interface
+Credentials
+{
+username
+:
+string
+;
+password
+:
+string
 ;
 }
 export
@@ -2982,8 +2994,6 @@ the
 {
 link
 Page
-|
-Page
 .
 mouse
 }
@@ -4335,8 +4345,6 @@ the
 *
 {
 link
-Page
-|
 Page
 .
 mouse
@@ -7399,7 +7407,6 @@ navigations
 :
 :
 :
-note
 *
 *
 example
@@ -12800,7 +12807,10 @@ via
 {
 link
 BrowserConnectOptions
+.
+defaultViewport
 |
+*
 BrowserConnectOptions
 .
 defaultViewport

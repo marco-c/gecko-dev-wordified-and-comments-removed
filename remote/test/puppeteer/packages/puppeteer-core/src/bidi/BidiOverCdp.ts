@@ -205,11 +205,9 @@ cdp
 CdpConnection
 options
 :
-{
-acceptInsecureCerts
-:
-boolean
-}
+BidiMapper
+.
+MapperOptions
 )
 :
 Promise

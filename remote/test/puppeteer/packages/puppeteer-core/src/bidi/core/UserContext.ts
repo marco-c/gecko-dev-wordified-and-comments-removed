@@ -1053,11 +1053,7 @@ setPermission
 origin
 descriptor
 state
-'
-goog
-:
 userContext
-'
 :
 this
 .
