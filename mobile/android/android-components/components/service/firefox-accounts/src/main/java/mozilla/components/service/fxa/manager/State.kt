@@ -850,6 +850,13 @@ val
 entrypoint
 :
 FxAEntryPoint
+val
+scopes
+:
+Set
+<
+String
+>
 )
 :
 Account
@@ -868,6 +875,13 @@ val
 entrypoint
 :
 FxAEntryPoint
+val
+scopes
+:
+Set
+<
+String
+>
 )
 :
 Account
