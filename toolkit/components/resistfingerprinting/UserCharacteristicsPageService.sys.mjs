@@ -957,7 +957,7 @@ newURI
 "
 about
 :
-fingerprinting
+fingerprintingprotection
 "
 )
 ;
