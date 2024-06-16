@@ -1589,6 +1589,7 @@ AddUnescapedChars
 =
 [
 ]
+^
 |
 "
 esc_Directory
@@ -1605,6 +1606,7 @@ AddUnescapedChars
 =
 [
 ]
+^
 |
 "
 esc_FileBaseName
@@ -1620,6 +1622,7 @@ AddUnescapedChars
 =
 [
 ]
+^
 |
 "
 esc_FileExtension
