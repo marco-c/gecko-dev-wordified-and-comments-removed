@@ -2132,7 +2132,7 @@ return
 false
 ;
 }
-Duration
+DateDuration
 until
 ;
 if
@@ -2192,18 +2192,12 @@ dateDuration
 =
 DateDuration
 {
-int64_t
-(
 until
 .
 years
-)
-int64_t
-(
 until
 .
 months
-)
 }
 ;
 if
