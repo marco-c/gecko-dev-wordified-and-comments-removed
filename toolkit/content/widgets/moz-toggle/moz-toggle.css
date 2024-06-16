@@ -352,9 +352,9 @@ var
 -
 border
 -
-color
--
 interactive
+-
+color
 )
 ;
 -
@@ -557,8 +557,6 @@ pressed
 var
 (
 -
--
-background
 -
 color
 -
@@ -1882,9 +1880,9 @@ var
 -
 border
 -
-color
--
 interactive
+-
+color
 -
 hover
 )
@@ -1905,9 +1903,9 @@ var
 -
 border
 -
-color
--
 interactive
+-
+color
 -
 active
 )
@@ -1928,9 +1926,9 @@ var
 -
 border
 -
-color
--
 interactive
+-
+color
 -
 disabled
 )

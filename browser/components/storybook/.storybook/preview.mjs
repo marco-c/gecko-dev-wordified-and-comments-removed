@@ -448,8 +448,6 @@ var
 (
 -
 -
-background
--
 color
 -
 canvas
