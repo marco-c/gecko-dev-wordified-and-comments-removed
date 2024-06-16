@@ -336,19 +336,25 @@ False
 raise
     
 if
+int
+(
 params
 [
 "
 pushlog_id
 "
 ]
+)
 -
+int
+(
 last_params
 [
 "
 pushlog_id
 "
 ]
+)
 >
 =
 push_interval
