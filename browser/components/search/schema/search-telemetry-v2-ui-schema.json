@@ -40,9 +40,6 @@ followOnParamNames
 followOnCookies
 "
 "
-ignoreLinkRegexps
-"
-"
 extraAdServersRegexps
 "
 "
@@ -52,10 +49,13 @@ adServerAttributes
 components
 "
 "
-nonAdsLinkRegexps
+ignoreLinkRegexps
 "
 "
 nonAdsLinkQueryParamNames
+"
+"
+nonAdsLinkRegexps
 "
 "
 shoppingTab
