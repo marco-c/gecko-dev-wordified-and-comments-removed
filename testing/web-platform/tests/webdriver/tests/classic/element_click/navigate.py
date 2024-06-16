@@ -291,7 +291,7 @@ url
 link
 )
 def
-test_link_unload_event
+test_navigation_retains_input_state
 (
 session
 url
@@ -332,10 +332,10 @@ f
         
 <
 body
-onunload
+onpagehide
 =
 "
-checkUnload
+checkPageHide
 (
 )
 "
@@ -372,7 +372,7 @@ script
 >
                 
 function
-checkUnload
+checkPageHide
 (
 )
 {
