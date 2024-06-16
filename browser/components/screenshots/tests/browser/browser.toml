@@ -77,6 +77,15 @@ page
 .
 html
 "
+"
+rtl
+-
+test
+-
+page
+.
+html
+"
 ]
 prefs
 =
