@@ -21,6 +21,7 @@ IsAccessibilityElementRule
 :
 :
 No
+UIA_CustomControlTypeId
 eNameFromSubtreeIfReqRule
 )
 ROLE
@@ -49,6 +50,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_MenuBarControlTypeId
 eNoNameRule
 )
 ROLE
@@ -77,6 +79,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_ScrollBarControlTypeId
 eNameFromValueRule
 )
 ROLE
@@ -107,6 +110,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNameFromSubtreeIfReqRule
 )
 ROLE
@@ -133,6 +137,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_PaneControlTypeId
 eNoNameRule
 )
 ROLE
@@ -161,6 +166,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_MenuControlTypeId
 eNoNameRule
 )
 ROLE
@@ -189,6 +195,7 @@ IsAccessibilityElementRule
 :
 :
 Yes
+UIA_MenuItemControlTypeId
 eNameFromSubtreeRule
 )
 ROLE
@@ -219,6 +226,7 @@ IsAccessibilityElementRule
 :
 :
 Yes
+UIA_ToolTipControlTypeId
 eNameFromSubtreeRule
 )
 ROLE
@@ -249,6 +257,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_PaneControlTypeId
 eNoNameRule
 )
 ROLE
@@ -279,6 +288,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_DocumentControlTypeId
 eNoNameRule
 )
 ROLE
@@ -304,6 +314,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_PaneControlTypeId
 eNoNameRule
 )
 ROLE
@@ -332,6 +343,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_PaneControlTypeId
 eNoNameRule
 )
 ROLE
@@ -360,6 +372,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNameFromSubtreeIfReqRule
 )
 ROLE
@@ -390,6 +403,7 @@ IsAccessibilityElementRule
 :
 :
 Yes
+UIA_SeparatorControlTypeId
 eNoNameRule
 )
 ROLE
@@ -418,6 +432,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_ToolBarControlTypeId
 eNoNameRule
 )
 ROLE
@@ -448,6 +463,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNoNameRule
 )
 ROLE
@@ -476,6 +492,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_TableControlTypeId
 eNameFromSubtreeIfReqRule
 )
 ROLE
@@ -504,6 +521,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_DataItemControlTypeId
 eNameFromSubtreeRule
 )
 ROLE
@@ -532,6 +550,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_HeaderItemControlTypeId
 eNameFromSubtreeRule
 )
 ROLE
@@ -560,6 +579,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_DataItemControlTypeId
 eNameFromSubtreeRule
 )
 ROLE
@@ -588,6 +608,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_DataItemControlTypeId
 eNameFromSubtreeIfReqRule
 )
 ROLE
@@ -616,6 +637,7 @@ IsAccessibilityElementRule
 :
 :
 IfBrokenUp
+UIA_HyperlinkControlTypeId
 eNameFromSubtreeRule
 )
 ROLE
@@ -644,6 +666,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_ListControlTypeId
 eNameFromSubtreeIfReqRule
 )
 ROLE
@@ -672,6 +695,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_ListItemControlTypeId
 eNameFromSubtreeRule
 )
 ROLE
@@ -700,6 +724,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_TreeControlTypeId
 eNoNameRule
 )
 ROLE
@@ -728,6 +753,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_TreeItemControlTypeId
 eNameFromSubtreeRule
 )
 ROLE
@@ -758,6 +784,7 @@ IsAccessibilityElementRule
 :
 :
 Yes
+UIA_TabItemControlTypeId
 eNameFromSubtreeRule
 )
 ROLE
@@ -788,6 +815,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_PaneControlTypeId
 eNoNameRule
 )
 ROLE
@@ -816,6 +844,7 @@ IsAccessibilityElementRule
 :
 :
 Yes
+UIA_ImageControlTypeId
 eNoNameRule
 )
 ROLE
@@ -841,6 +870,7 @@ IsAccessibilityElementRule
 :
 :
 IfParentIsntElementWithName
+UIA_TextControlTypeId
 eNoNameRule
 )
 ROLE
@@ -867,6 +897,7 @@ IsAccessibilityElementRule
 :
 :
 IfParentIsntElementWithName
+UIA_TextControlTypeId
 eNoNameRule
 )
 ROLE
@@ -895,6 +926,7 @@ IsAccessibilityElementRule
 :
 :
 Yes
+UIA_ButtonControlTypeId
 eNameFromSubtreeRule
 )
 ROLE
@@ -923,6 +955,7 @@ IsAccessibilityElementRule
 :
 :
 Yes
+UIA_CheckBoxControlTypeId
 eNameFromSubtreeRule
 )
 ROLE
@@ -951,6 +984,7 @@ IsAccessibilityElementRule
 :
 :
 Yes
+UIA_RadioButtonControlTypeId
 eNameFromSubtreeRule
 )
 ROLE
@@ -979,6 +1013,7 @@ IsAccessibilityElementRule
 :
 :
 Yes
+UIA_ComboBoxControlTypeId
 eNameFromValueRule
 )
 ROLE
@@ -1007,6 +1042,7 @@ IsAccessibilityElementRule
 :
 :
 Yes
+UIA_ProgressBarControlTypeId
 eNameFromValueRule
 )
 ROLE
@@ -1035,6 +1071,7 @@ IsAccessibilityElementRule
 :
 :
 Yes
+UIA_SliderControlTypeId
 eNameFromValueRule
 )
 ROLE
@@ -1063,6 +1100,7 @@ IsAccessibilityElementRule
 :
 :
 Yes
+UIA_SpinnerControlTypeId
 eNameFromValueRule
 )
 ROLE
@@ -1091,6 +1129,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_ImageControlTypeId
 eNoNameRule
 )
 ROLE
@@ -1121,6 +1160,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNoNameRule
 )
 ROLE
@@ -1146,6 +1186,7 @@ IsAccessibilityElementRule
 :
 :
 Yes
+UIA_SplitButtonControlTypeId
 eNameFromSubtreeRule
 )
 ROLE
@@ -1174,6 +1215,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_ButtonControlTypeId
 eNameFromSubtreeRule
 )
 ROLE
@@ -1199,6 +1241,7 @@ IsAccessibilityElementRule
 :
 :
 No
+UIA_TextControlTypeId
 eNoNameRule
 )
 ROLE
@@ -1227,6 +1270,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_TabControlTypeId
 eNoNameRule
 )
 ROLE
@@ -1252,6 +1296,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_ImageControlTypeId
 eNoNameRule
 )
 ROLE
@@ -1282,6 +1327,7 @@ IsAccessibilityElementRule
 :
 :
 Yes
+UIA_MenuItemControlTypeId
 eNameFromSubtreeRule
 )
 ROLE
@@ -1310,6 +1356,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNoNameRule
 )
 ROLE
@@ -1336,6 +1383,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_WindowControlTypeId
 eNoNameRule
 )
 ROLE
@@ -1361,6 +1409,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNameFromSubtreeRule
 )
 ROLE
@@ -1387,6 +1436,7 @@ IsAccessibilityElementRule
 :
 :
 Yes
+UIA_EditControlTypeId
 eNoNameRule
 )
 ROLE
@@ -1417,6 +1467,7 @@ IsAccessibilityElementRule
 :
 :
 Yes
+UIA_MenuItemControlTypeId
 eNameFromSubtreeRule
 )
 ROLE
@@ -1446,6 +1497,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNameFromSubtreeIfReqRule
 )
 ROLE
@@ -1475,6 +1527,7 @@ IsAccessibilityElementRule
 :
 :
 Yes
+UIA_ButtonControlTypeId
 eNameFromSubtreeRule
 )
 ROLE
@@ -1504,6 +1557,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_DataGridControlTypeId
 eNoNameRule
 )
 ROLE
@@ -1532,6 +1586,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_TextControlTypeId
 eNameFromSubtreeIfReqRule
 )
 ROLE
@@ -1560,6 +1615,7 @@ IsAccessibilityElementRule
 :
 :
 Yes
+UIA_EditControlTypeId
 eNameFromValueRule
 )
 ROLE
@@ -1588,6 +1644,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_TextControlTypeId
 eNameFromSubtreeIfReqRule
 )
 ROLE
@@ -1621,6 +1678,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_DocumentControlTypeId
 eNoNameRule
 )
 ROLE
@@ -1651,6 +1709,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildless
+UIA_TextControlTypeId
 eNameFromSubtreeRule
 )
 ROLE
@@ -1679,6 +1738,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNameFromSubtreeIfReqRule
 )
 ROLE
@@ -1707,6 +1767,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNoNameRule
 )
 ROLE
@@ -1733,6 +1794,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_WindowControlTypeId
 eNoNameRule
 )
 ROLE
@@ -1762,6 +1824,7 @@ IsAccessibilityElementRule
 :
 :
 Yes
+UIA_MenuItemControlTypeId
 eNameFromSubtreeRule
 )
 ROLE
@@ -1791,6 +1854,7 @@ IsAccessibilityElementRule
 :
 :
 No
+UIA_ListControlTypeId
 eNoNameRule
 )
 ROLE
@@ -1820,6 +1884,7 @@ IsAccessibilityElementRule
 :
 :
 Yes
+UIA_ListItemControlTypeId
 eNameFromSubtreeRule
 )
 ROLE
@@ -1851,6 +1916,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_ImageControlTypeId
 eNoNameRule
 )
 ROLE
@@ -1880,6 +1946,7 @@ IsAccessibilityElementRule
 :
 :
 Yes
+UIA_ListItemControlTypeId
 eNameFromSubtreeRule
 )
 ROLE
@@ -1907,6 +1974,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_ListItemControlTypeId
 eNameFromSubtreeRule
 )
 ROLE
@@ -1935,6 +2003,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_ListControlTypeId
 eNameFromValueRule
 )
 ROLE
@@ -1966,6 +2035,7 @@ IsAccessibilityElementRule
 :
 :
 Yes
+UIA_GroupControlTypeId
 eNoNameRule
 )
 ROLE
@@ -1994,6 +2064,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_DataItemControlTypeId
 eNameFromSubtreeRule
 )
 ROLE
@@ -2024,6 +2095,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNameFromSubtreeIfReqRule
 )
 ROLE
@@ -2052,6 +2124,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNoNameRule
 )
 ROLE
@@ -2079,6 +2152,7 @@ IsAccessibilityElementRule
 :
 :
 Yes
+UIA_CheckBoxControlTypeId
 eNameFromSubtreeRule
 )
 ROLE
@@ -2106,6 +2180,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_ListControlTypeId
 eNameFromSubtreeIfReqRule
 )
 ROLE
@@ -2136,6 +2211,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_TextControlTypeId
 eNameFromSubtreeRule
 )
 ROLE
@@ -2166,6 +2242,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNameFromSubtreeRule
 )
 ROLE
@@ -2191,6 +2268,7 @@ IsAccessibilityElementRule
 :
 :
 Yes
+UIA_ButtonControlTypeId
 eNameFromSubtreeRule
 )
 ROLE
@@ -2219,6 +2297,7 @@ IsAccessibilityElementRule
 :
 :
 Yes
+UIA_ButtonControlTypeId
 eNameFromSubtreeRule
 )
 ROLE
@@ -2249,6 +2328,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNoNameRule
 )
 ROLE
@@ -2277,6 +2357,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNameFromSubtreeRule
 )
 ROLE
@@ -2305,6 +2386,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNameFromSubtreeRule
 )
 ROLE
@@ -2333,6 +2415,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNameFromSubtreeRule
 )
 ROLE
@@ -2361,6 +2444,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNameFromSubtreeRule
 )
 ROLE
@@ -2388,6 +2472,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNameFromSubtreeRule
 )
 ROLE
@@ -2414,6 +2499,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNameFromSubtreeRule
 )
 ROLE
@@ -2442,6 +2528,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNoNameRule
 )
 ROLE
@@ -2470,6 +2557,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNoNameRule
 )
 ROLE
@@ -2499,6 +2587,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNoNameRule
 )
 ROLE
@@ -2527,6 +2616,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNoNameRule
 )
 ROLE
@@ -2553,6 +2643,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNoNameRule
 )
 ROLE
@@ -2581,6 +2672,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNoNameRule
 )
 ROLE
@@ -2609,6 +2701,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNoNameRule
 )
 ROLE
@@ -2637,6 +2730,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNoNameRule
 )
 ROLE
@@ -2666,6 +2760,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNoNameRule
 )
 ROLE
@@ -2694,6 +2789,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNoNameRule
 )
 ROLE
@@ -2722,6 +2818,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNoNameRule
 )
 ROLE
@@ -2751,6 +2848,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNoNameRule
 )
 ROLE
@@ -2779,6 +2877,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNoNameRule
 )
 ROLE
@@ -2807,6 +2906,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNoNameRule
 )
 ROLE
@@ -2834,6 +2934,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNoNameRule
 )
 ROLE
@@ -2863,6 +2964,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNoNameRule
 )
 ROLE
@@ -2891,6 +2993,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNoNameRule
 )
 ROLE
@@ -2917,6 +3020,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNoNameRule
 )
 ROLE
@@ -2945,6 +3049,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNoNameRule
 )
 ROLE
@@ -2971,6 +3076,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNoNameRule
 )
 ROLE
@@ -2998,6 +3104,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNoNameRule
 )
 ROLE
@@ -3025,6 +3132,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNoNameRule
 )
 ROLE
@@ -3052,6 +3160,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNoNameRule
 )
 ROLE
@@ -3079,6 +3188,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNoNameRule
 )
 ROLE
@@ -3106,6 +3216,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNoNameRule
 )
 ROLE
@@ -3133,6 +3244,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNoNameRule
 )
 ROLE
@@ -3161,6 +3273,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_ListControlTypeId
 eNoNameRule
 )
 ROLE
@@ -3189,6 +3302,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNameFromSubtreeIfReqRule
 )
 ROLE
@@ -3219,6 +3333,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNoNameRule
 )
 ROLE
@@ -3246,6 +3361,7 @@ IsAccessibilityElementRule
 :
 :
 Yes
+UIA_ButtonControlTypeId
 eNameFromSubtreeRule
 )
 ROLE
@@ -3271,6 +3387,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNoNameRule
 )
 ROLE
@@ -3298,6 +3415,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNoNameRule
 )
 ROLE
@@ -3323,6 +3441,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNoNameRule
 )
 ROLE
@@ -3353,6 +3472,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNoNameRule
 )
 ROLE
@@ -3383,6 +3503,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNoNameRule
 )
 ROLE
@@ -3411,6 +3532,7 @@ IsAccessibilityElementRule
 :
 :
 Yes
+UIA_ComboBoxControlTypeId
 eNameFromValueRule
 )
 ROLE
@@ -3439,6 +3561,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNoNameRule
 )
 ROLE
@@ -3470,6 +3593,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_TextControlTypeId
 eNameFromSubtreeIfReqRule
 )
 ROLE
@@ -3501,6 +3625,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_TextControlTypeId
 eNameFromSubtreeIfReqRule
 )
 ROLE
@@ -3531,6 +3656,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNoNameRule
 )
 ROLE
@@ -3559,6 +3685,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNameFromSubtreeIfReqRule
 )
 ROLE
@@ -3587,6 +3714,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNoNameRule
 )
 ROLE
@@ -3615,6 +3743,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNoNameRule
 )
 ROLE
@@ -3645,6 +3774,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_TextControlTypeId
 eNameFromSubtreeIfReqRule
 )
 ROLE
@@ -3673,6 +3803,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_GroupControlTypeId
 eNameFromSubtreeIfReqRule
 )
 ROLE
@@ -3702,6 +3833,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_TextControlTypeId
 eNoNameRule
 )
 ROLE
@@ -3732,6 +3864,7 @@ IsAccessibilityElementRule
 :
 :
 Yes
+UIA_ProgressBarControlTypeId
 eNameFromValueRule
 )
 ROLE
@@ -3762,6 +3895,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_TextControlTypeId
 eNameFromSubtreeIfReqRule
 )
 ROLE
@@ -3792,6 +3926,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_TextControlTypeId
 eNameFromSubtreeIfReqRule
 )
 ROLE
@@ -3822,6 +3957,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_TextControlTypeId
 eNameFromSubtreeIfReqRule
 )
 ROLE
@@ -3852,6 +3988,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_TextControlTypeId
 eNameFromSubtreeIfReqRule
 )
 ROLE
@@ -3882,6 +4019,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_TextControlTypeId
 eNameFromSubtreeIfReqRule
 )
 ROLE
@@ -3910,5 +4048,6 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
+UIA_DataGridControlTypeId
 eNameFromSubtreeIfReqRule
 )

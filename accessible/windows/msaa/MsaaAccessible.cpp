@@ -3621,6 +3621,8 @@ _msaaRole
 ia2Role
 androidClass
 iosIsElement
+uiaControlType
+\
 nameRule
 )
 \
