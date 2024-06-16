@@ -6931,6 +6931,9 @@ mPendingDidDoReflow
 :
 1
 ;
+TimeStamp
+mLastConsumedEscapeKeyUpForFullscreen
+;
 struct
 CapturingContentInfo
 final
