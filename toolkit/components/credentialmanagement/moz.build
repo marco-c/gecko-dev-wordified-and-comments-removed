@@ -27,6 +27,11 @@ mozilla
 =
 [
 "
+CredentialChosenCallback
+.
+h
+"
+"
 IdentityCredentialStorageService
 .
 h
@@ -36,6 +41,11 @@ UNIFIED_SOURCES
 +
 =
 [
+"
+CredentialChosenCallback
+.
+cpp
+"
 "
 IdentityCredentialStorageService
 .

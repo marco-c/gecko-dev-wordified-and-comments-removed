@@ -25,9 +25,6 @@ class
 WebAuthnManager
 ;
 class
-CredentialChosenCallback
-;
-class
 CredentialsContainer
 final
 :
@@ -36,9 +33,6 @@ nsISupports
 public
 nsWrapperCache
 {
-friend
-CredentialChosenCallback
-;
 public
 :
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
