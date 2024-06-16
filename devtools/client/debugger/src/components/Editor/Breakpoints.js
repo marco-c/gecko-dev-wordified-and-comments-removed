@@ -540,7 +540,16 @@ markers
 =
 [
 {
-gutterLineClassName
+id
+:
+"
+gutter
+-
+breakpoint
+-
+marker
+"
+lineClassName
 :
 "
 cm6
@@ -586,7 +595,7 @@ lineNumber
 )
 ;
 }
-createGutterLineElementNode
+createLineElementNode
 :
 line
 =
