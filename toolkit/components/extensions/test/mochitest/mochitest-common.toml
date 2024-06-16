@@ -1391,6 +1391,13 @@ http2
 ]
 [
 "
+test_ext_extension_getViews
+.
+html
+"
+]
+[
+"
 test_ext_extension_iframe_messaging
 .
 html

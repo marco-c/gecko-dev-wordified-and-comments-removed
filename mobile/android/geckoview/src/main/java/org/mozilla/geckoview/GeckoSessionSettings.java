@@ -919,7 +919,7 @@ Key
 <
 Boolean
 >
-IS_POPUP
+IS_EXTENSION_POPUP
 =
 new
 Key
@@ -928,7 +928,7 @@ Boolean
 >
 (
 "
-isPopup
+isExtensionPopup
 "
 false
 null
@@ -1150,7 +1150,7 @@ mBundle
 .
 putBoolean
 (
-IS_POPUP
+IS_EXTENSION_POPUP
 .
 name
 false
@@ -1298,7 +1298,7 @@ value
 ;
 }
 void
-setIsPopup
+setIsExtensionPopup
 (
 final
 boolean
@@ -1307,7 +1307,7 @@ value
 {
 setBoolean
 (
-IS_POPUP
+IS_EXTENSION_POPUP
 value
 )
 ;
@@ -1438,14 +1438,14 @@ FULL_ACCESSIBILITY_TREE
 ;
 }
 boolean
-getIsPopup
+getIsExtensionPopup
 (
 )
 {
 return
 getBoolean
 (
-IS_POPUP
+IS_EXTENSION_POPUP
 )
 ;
 }

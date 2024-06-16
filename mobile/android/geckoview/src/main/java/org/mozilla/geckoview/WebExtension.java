@@ -4332,7 +4332,7 @@ getSettings
 (
 )
 .
-setIsPopup
+setIsExtensionPopup
 (
 true
 )

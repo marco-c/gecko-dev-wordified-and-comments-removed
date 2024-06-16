@@ -130,7 +130,7 @@ if
 (
 settings
 .
-isPopup
+isExtensionPopup
 )
 {
 /
