@@ -107,11 +107,9 @@ defaults
 :
 use
 -
-system
--
 python
 :
-false
+default
 jobs
 :
 issues

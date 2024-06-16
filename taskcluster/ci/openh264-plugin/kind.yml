@@ -151,11 +151,9 @@ revision
 '
 use
 -
-system
--
 python
 :
-false
+default
 worker
 :
 chain

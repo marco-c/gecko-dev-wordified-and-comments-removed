@@ -212,11 +212,9 @@ MACH_BUILD_PYTHON_NATIVE_PACKAGE_SOURCE
 system
 use
 -
-system
--
 python
 :
-false
+default
 run
 :
 mozconfig

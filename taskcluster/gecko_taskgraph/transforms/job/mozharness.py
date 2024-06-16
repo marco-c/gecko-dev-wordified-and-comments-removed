@@ -1922,12 +1922,17 @@ get
 "
 use
 -
-system
--
 python
 "
-True
+"
+system
+"
 )
+=
+=
+"
+system
+"
 :
         
 python_bindir

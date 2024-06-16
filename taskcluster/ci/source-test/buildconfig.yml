@@ -279,11 +279,9 @@ sdk
 linux
 use
 -
-system
--
 python
 :
-true
+system
 buildconfig
 -
 android

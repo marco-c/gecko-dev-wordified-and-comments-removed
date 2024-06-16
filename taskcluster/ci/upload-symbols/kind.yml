@@ -223,11 +223,9 @@ linux
 gcp
 use
 -
-system
--
 python
 :
-false
+default
 worker
 :
 docker

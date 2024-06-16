@@ -212,11 +212,9 @@ time
 3600
 use
 -
-system
--
 python
 :
-false
+default
 treeherder
 :
 kind

@@ -144,11 +144,9 @@ analysis
 autotest
 use
 -
-system
--
 python
 :
-false
+default
 run
 -
 on

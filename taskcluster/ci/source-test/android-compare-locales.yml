@@ -187,11 +187,9 @@ time
 1800
 use
 -
-system
--
 python
 :
-true
+system
 compare
 -
 locales

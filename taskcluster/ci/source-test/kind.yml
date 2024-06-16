@@ -245,11 +245,9 @@ defaults
 :
 use
 -
-system
--
 python
 :
-false
+default
 attributes
 :
 retrigger

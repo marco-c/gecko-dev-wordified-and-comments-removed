@@ -226,13 +226,18 @@ Optional
 "
 use
 -
-system
--
 python
 "
 )
 :
-bool
+job_description_schema
+[
+"
+use
+-
+python
+"
+]
         
 Optional
 (
@@ -774,7 +779,7 @@ fetches
             
 }
             
-use_system_python
+use_taskcluster_python
 =
 task
 .
@@ -783,18 +788,20 @@ get
 "
 use
 -
-system
--
 python
 "
-None
+"
+system
+"
 )
             
 if
-use_system_python
-is
-not
-None
+use_taskcluster_python
+!
+=
+"
+system
+"
 :
                 
 taskdesc
@@ -802,13 +809,11 @@ taskdesc
 "
 use
 -
-system
--
 python
 "
 ]
 =
-use_system_python
+use_taskcluster_python
             
 yield
 taskdesc

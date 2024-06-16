@@ -152,11 +152,9 @@ projects
 ]
 use
 -
-system
--
 python
 :
-false
+default
 treeherder
 :
 kind

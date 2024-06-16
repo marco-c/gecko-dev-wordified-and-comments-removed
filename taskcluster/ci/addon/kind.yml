@@ -100,11 +100,9 @@ defaults
 :
 use
 -
-system
--
 python
 :
-false
+default
 jobs
 :
 tps
