@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsRegion
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
