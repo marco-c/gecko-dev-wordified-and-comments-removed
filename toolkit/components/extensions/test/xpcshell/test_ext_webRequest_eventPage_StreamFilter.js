@@ -788,6 +788,11 @@ extension
 .
 terminateBackground
 (
+{
+expectStopped
+:
+false
+}
 )
 ;
 info
@@ -1683,6 +1688,9 @@ extension
 terminateBackground
 (
 {
+expectStopped
+:
+false
 disableResetIdleForTest
 :
 true

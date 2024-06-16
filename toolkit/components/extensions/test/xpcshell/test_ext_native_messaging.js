@@ -5719,6 +5719,11 @@ extension
 .
 terminateBackground
 (
+{
+expectStopped
+:
+false
+}
 )
 ;
 info

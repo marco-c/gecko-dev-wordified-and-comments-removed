@@ -2270,6 +2270,14 @@ extension
 .
 terminateBackground
 (
+{
+expectStopped
+:
+false
+disableResetIdleForTest
+:
+true
+}
 )
 ;
 extension
