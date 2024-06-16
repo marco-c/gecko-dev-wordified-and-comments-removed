@@ -300,7 +300,9 @@ media
 .
 getusermedia
 .
-audiocapture
+audio
+.
+capture
 .
 enabled
 true
@@ -322,7 +324,9 @@ media
 .
 getusermedia
 .
-audiocapture
+audio
+.
+capture
 .
 enabled
 true
