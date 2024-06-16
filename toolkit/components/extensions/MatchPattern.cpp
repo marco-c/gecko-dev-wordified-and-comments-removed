@@ -582,6 +582,10 @@ nsGkAtoms
 :
 :
 file
+nsGkAtoms
+:
+:
+view_source
 )
 ;
 #
