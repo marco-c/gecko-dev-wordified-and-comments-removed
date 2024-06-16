@@ -165,9 +165,6 @@ CreateContainerTabMenu
 FillHistoryMenu
 "
 "
-BrowserDownloadsUI
-"
-"
 toOpenWindowByType
 "
 "

@@ -1534,7 +1534,9 @@ Downloads
 oncommand
 =
 "
-BrowserDownloadsUI
+BrowserCommands
+.
+downloadsUI
 (
 )
 ;

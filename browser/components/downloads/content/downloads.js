@@ -1124,7 +1124,9 @@ hidePanel
 (
 )
 ;
-BrowserDownloadsUI
+BrowserCommands
+.
+downloadsUI
 (
 )
 ;
