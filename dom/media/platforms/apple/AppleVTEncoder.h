@@ -89,10 +89,6 @@ HardwarePreference
 :
 RequireSoftware
 )
-mFramesCompleted
-(
-false
-)
 mError
 (
 NS_OK
@@ -377,9 +373,6 @@ mHardwareNotAllowed
 ;
 EncodedData
 mEncodedData
-;
-bool
-mFramesCompleted
 ;
 RefPtr
 <
