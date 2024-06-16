@@ -530,6 +530,13 @@ js
 ]
 [
 "
+browser_translations_select_panel_translate_full_page_button
+.
+js
+"
+]
+[
+"
 browser_translations_select_panel_translate_on_change_language_directly
 .
 js
