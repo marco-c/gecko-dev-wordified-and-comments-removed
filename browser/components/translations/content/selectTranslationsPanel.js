@@ -4000,6 +4000,14 @@ overflow
 ;
 textArea
 .
+setSelectionRange
+(
+0
+0
+)
+;
+textArea
+.
 scrollTop
 =
 0
