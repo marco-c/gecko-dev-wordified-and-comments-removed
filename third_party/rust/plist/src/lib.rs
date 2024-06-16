@@ -1,3 +1,11 @@
+#
+!
+[
+allow
+(
+warnings
+)
+]
 pub
 mod
 dictionary

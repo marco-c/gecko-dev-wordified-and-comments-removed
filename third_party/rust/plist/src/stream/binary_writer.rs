@@ -3566,7 +3566,6 @@ usize
 &
 '
 a
-mut
 Value
 <
 '
