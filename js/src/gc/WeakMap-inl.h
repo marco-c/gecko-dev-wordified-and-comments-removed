@@ -1018,13 +1018,6 @@ if
 populateWeakKeysTable
 )
 {
-if
-(
-keyColor
-<
-mapColor
-)
-{
 MOZ_ASSERT
 (
 trc
@@ -1044,6 +1037,13 @@ WeakMapTraceAction
 Expand
 )
 ;
+if
+(
+keyColor
+<
+mapColor
+)
+{
 gc
 :
 :
@@ -1083,7 +1083,7 @@ if
 this
 -
 >
-addImplicitEdges
+addEphemeronEdgesForEntry
 (
 AsMarkColor
 (
