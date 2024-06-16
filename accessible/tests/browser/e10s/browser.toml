@@ -194,6 +194,9 @@ browser_caching_document_props
 js
 "
 ]
+https_first_disabled
+=
+true
 [
 "
 browser_caching_domnodeid
