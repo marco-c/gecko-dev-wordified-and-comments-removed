@@ -119,9 +119,6 @@ associatedBrowsingContextID
 bool
 isThirdPartyContext
 ;
-bool
-isWorkerRequest
-;
 }
 ;
 protocol
