@@ -637,6 +637,14 @@ FLAG_LAYOUT_NO_LIMITS
 )
 }
 Test
+Config
+(
+sdk
+=
+[
+28
+]
+)
 fun
 GIVEN
 enterImmersiveMode
