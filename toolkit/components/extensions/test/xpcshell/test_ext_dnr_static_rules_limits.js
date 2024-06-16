@@ -235,7 +235,7 @@ Services
 .
 prefs
 .
-setBoolPref
+setIntPref
 (
 "
 extensions
@@ -244,9 +244,9 @@ background
 .
 idle
 .
-enabled
+timeout
 "
-false
+300_000
 )
 ;
 Services
