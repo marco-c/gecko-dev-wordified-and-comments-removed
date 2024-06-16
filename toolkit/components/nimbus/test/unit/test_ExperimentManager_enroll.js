@@ -4216,7 +4216,9 @@ stub
 (
 loader
 .
-remoteSettingsClient
+remoteSettingsClients
+.
+experiments
 "
 get
 "

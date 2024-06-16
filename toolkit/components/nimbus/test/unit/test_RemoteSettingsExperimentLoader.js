@@ -730,7 +730,9 @@ stub
 (
 loader
 .
-remoteSettingsClient
+remoteSettingsClients
+.
+experiments
 "
 get
 "
@@ -939,7 +941,9 @@ stub
 (
 loader
 .
-remoteSettingsClient
+remoteSettingsClients
+.
+experiments
 "
 get
 "
@@ -1172,7 +1176,9 @@ stub
 (
 loader
 .
-remoteSettingsClient
+remoteSettingsClients
+.
+experiments
 "
 get
 "
@@ -1319,7 +1325,9 @@ stub
 (
 loader
 .
-remoteSettingsClient
+remoteSettingsClients
+.
+experiments
 "
 get
 "
@@ -1760,7 +1768,9 @@ stub
 (
 loader
 .
-remoteSettingsClient
+remoteSettingsClients
+.
+experiments
 "
 get
 "
@@ -1956,7 +1966,9 @@ stub
 (
 loader
 .
-remoteSettingsClient
+remoteSettingsClients
+.
+experiments
 "
 get
 "
@@ -2165,7 +2177,9 @@ stub
 (
 loader
 .
-remoteSettingsClient
+remoteSettingsClients
+.
+experiments
 "
 get
 "
