@@ -486,6 +486,11 @@ EnsureAsyncScreenshot
 (
 )
 ;
+void
+CheckInactive
+(
+)
+;
 protected
 :
 bool
@@ -543,6 +548,9 @@ mWindowId
 ;
 TimeStamp
 mFrameStartTime
+;
+TimeStamp
+mLastRenderTime
 ;
 bool
 mDisableNativeCompositor
