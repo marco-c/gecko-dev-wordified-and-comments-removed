@@ -58,7 +58,7 @@ general
 /
 video
 .
-ogg
+webm
 "
 ;
 var
