@@ -731,6 +731,10 @@ end
 :
 8px
 ;
+margin
+:
+0
+;
 }
 .
 alertTitle
@@ -749,6 +753,10 @@ padding
 :
 6px
 8px
+0
+;
+margin
+:
 0
 ;
 width
@@ -811,6 +819,10 @@ size
 color
 :
 GrayText
+;
+margin
+:
+0
 ;
 }
 #
