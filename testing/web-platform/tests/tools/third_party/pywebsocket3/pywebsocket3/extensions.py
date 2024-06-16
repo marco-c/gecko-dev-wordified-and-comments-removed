@@ -3,15 +3,12 @@ __future__
 import
 absolute_import
 from
-mod_pywebsocket
+pywebsocket3
 import
 common
-from
-mod_pywebsocket
-import
 util
 from
-mod_pywebsocket
+pywebsocket3
 .
 http_header_util
 import

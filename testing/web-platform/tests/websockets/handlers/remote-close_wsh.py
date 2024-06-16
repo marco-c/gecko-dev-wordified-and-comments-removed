@@ -107,7 +107,7 @@ Done
 import
 urllib
 from
-mod_pywebsocket
+pywebsocket3
 .
 handshake
 import

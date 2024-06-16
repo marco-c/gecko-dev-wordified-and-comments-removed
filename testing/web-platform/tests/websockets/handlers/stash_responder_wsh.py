@@ -3,7 +3,7 @@ json
 import
 urllib
 from
-mod_pywebsocket
+pywebsocket3
 import
 msgutil
 from

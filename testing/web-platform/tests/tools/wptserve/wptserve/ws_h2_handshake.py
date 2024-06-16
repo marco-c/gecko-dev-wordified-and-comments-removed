@@ -41,11 +41,11 @@ rfc8441
 "
 "
 from
-mod_pywebsocket
+pywebsocket3
 import
 common
 from
-mod_pywebsocket
+pywebsocket3
 .
 handshake
 .
@@ -53,7 +53,7 @@ base
 import
 get_mandatory_header
 from
-mod_pywebsocket
+pywebsocket3
 .
 handshake
 .
@@ -61,7 +61,7 @@ base
 import
 HandshakeException
 from
-mod_pywebsocket
+pywebsocket3
 .
 handshake
 .
@@ -69,7 +69,7 @@ base
 import
 validate_mandatory_header
 from
-mod_pywebsocket
+pywebsocket3
 .
 handshake
 .

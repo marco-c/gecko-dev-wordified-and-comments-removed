@@ -29,14 +29,14 @@ is
 code
 for
 testing
-mod_pywebsocket
+pywebsocket3
 .
 Keep
 this
 code
 independent
 from
-mod_pywebsocket
+pywebsocket3
 .
 Don
 '
@@ -100,11 +100,7 @@ base64
 import
 errno
 import
-logging
-import
 os
-import
-random
 import
 re
 import
@@ -120,21 +116,15 @@ sha1
 from
 six
 import
+indexbytes
 iterbytes
 from
-six
-import
-indexbytes
-from
-mod_pywebsocket
+pywebsocket3
 import
 common
-from
-mod_pywebsocket
-import
 util
 from
-mod_pywebsocket
+pywebsocket3
 .
 handshake
 import
@@ -4308,7 +4298,6 @@ e
 .
 find
 (
-                    
 '
 Connection
 closed
@@ -4317,7 +4306,6 @@ receiving
 requested
 length
 '
-            
 )
 =
 =
@@ -4328,11 +4316,6 @@ return
             
 try
 :
-                
-error_number
-message
-=
-e
                 
 for
 error_name
@@ -4349,15 +4332,18 @@ WSAECONNRESET
                     
 if
 (
+                        
 error_name
 in
 dir
 (
 errno
 )
-                            
 and
-error_number
+                        
+e
+.
+errno
 =
 =
 getattr
@@ -4365,6 +4351,7 @@ getattr
 errno
 error_name
 )
+                    
 )
 :
                         

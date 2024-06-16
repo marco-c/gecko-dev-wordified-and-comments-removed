@@ -8,7 +8,7 @@ to
 end
 tests
 for
-pywebsocket
+pywebsocket3
 .
 Tests
 standalone
@@ -22,20 +22,12 @@ from
 __future__
 import
 absolute_import
-from
-six
-.
-moves
-import
-urllib
 import
 locale
 import
 logging
 import
 os
-import
-signal
 import
 socket
 import
@@ -46,6 +38,12 @@ import
 time
 import
 unittest
+from
+six
+.
+moves
+import
+urllib
 import
 set_sys_path
 from
@@ -550,7 +548,7 @@ self
 .
 top_dir
 '
-mod_pywebsocket
+pywebsocket3
 '
                                                
 '

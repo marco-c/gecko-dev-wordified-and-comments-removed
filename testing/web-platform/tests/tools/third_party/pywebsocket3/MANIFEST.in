@@ -16,7 +16,7 @@ py
 recursive
 -
 include
-mod_pywebsocket
+pywebsocket3
 *
 .
 py

@@ -1,5 +1,5 @@
 from
-mod_pywebsocket
+pywebsocket3
 import
 common
 import

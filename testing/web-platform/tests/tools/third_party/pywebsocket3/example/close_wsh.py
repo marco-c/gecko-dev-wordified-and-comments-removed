@@ -2,16 +2,10 @@ from
 __future__
 import
 absolute_import
-import
-struct
 from
-mod_pywebsocket
+pywebsocket3
 import
 common
-from
-mod_pywebsocket
-import
-stream
 def
 web_socket_do_extra_handshake
 (

@@ -103,7 +103,7 @@ get_port
 HTTPException
 http2_compatible
 from
-mod_pywebsocket
+pywebsocket3
 import
 standalone
 as

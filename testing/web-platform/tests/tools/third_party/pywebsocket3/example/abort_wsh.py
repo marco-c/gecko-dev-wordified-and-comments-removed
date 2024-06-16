@@ -3,7 +3,7 @@ __future__
 import
 absolute_import
 from
-mod_pywebsocket
+pywebsocket3
 import
 handshake
 def

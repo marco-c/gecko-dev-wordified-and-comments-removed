@@ -12,7 +12,7 @@ import
 this
 module
 before
-mod_pywebsocket
+pywebsocket3
 .
 "
 "

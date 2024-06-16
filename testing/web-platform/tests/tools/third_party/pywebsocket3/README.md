@@ -2,7 +2,7 @@
 pywebsocket3
 #
 The
-pywebsocket
+pywebsocket3
 project
 aims
 to
@@ -54,8 +54,9 @@ the
 general
 document
 :
+bash
 pydoc
-mod_pywebsocket
+pywebsocket3
 Please
 see
 [
@@ -93,6 +94,7 @@ system
 run
 this
 :
+bash
 python
 setup
 .
@@ -116,6 +118,7 @@ run
 this
 instead
 :
+bash
 python
 setup
 .
@@ -145,8 +148,9 @@ read
 the
 document
 :
+bash
 pydoc
-mod_pywebsocket
+pywebsocket3
 .
 standalone
 #

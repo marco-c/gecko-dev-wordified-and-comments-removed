@@ -13,7 +13,7 @@ queue
 import
 Empty
 from
-mod_pywebsocket
+pywebsocket3
 import
 stream
 msgutil

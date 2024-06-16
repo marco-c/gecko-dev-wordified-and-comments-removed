@@ -18,12 +18,9 @@ unittest
 import
 set_sys_path
 from
-mod_pywebsocket
+pywebsocket3
 import
 common
-from
-mod_pywebsocket
-import
 stream
 class
 StreamTest

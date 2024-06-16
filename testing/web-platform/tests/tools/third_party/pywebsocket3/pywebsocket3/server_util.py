@@ -19,12 +19,9 @@ threading
 import
 time
 from
-mod_pywebsocket
+pywebsocket3
 import
 common
-from
-mod_pywebsocket
-import
 util
 def
 _get_logger_from_class

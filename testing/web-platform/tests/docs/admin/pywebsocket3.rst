@@ -82,7 +82,7 @@ local
 :
 mod
 :
-mod_pywebsocket
+pywebsocket3
 -
 -
 -
@@ -133,14 +133,14 @@ mod_pywebsocket
 automodule
 :
 :
-mod_pywebsocket
+pywebsocket3
 :
 members
 :
 :
 mod
 :
-mod_pywebsocket
+pywebsocket3
 .
 common
 -
@@ -193,7 +193,7 @@ common
 automodule
 :
 :
-mod_pywebsocket
+pywebsocket3
 .
 common
 :
@@ -202,7 +202,7 @@ members
 :
 mod
 :
-mod_pywebsocket
+pywebsocket3
 .
 dispatch
 -
@@ -255,7 +255,7 @@ dispatch
 automodule
 :
 :
-mod_pywebsocket
+pywebsocket3
 .
 dispatch
 :
@@ -264,7 +264,7 @@ members
 :
 mod
 :
-mod_pywebsocket
+pywebsocket3
 .
 extensions
 -
@@ -317,7 +317,7 @@ extensions
 automodule
 :
 :
-mod_pywebsocket
+pywebsocket3
 .
 extensions
 :
@@ -326,7 +326,7 @@ members
 :
 mod
 :
-mod_pywebsocket
+pywebsocket3
 .
 handshake
 -
@@ -379,7 +379,7 @@ handshake
 automodule
 :
 :
-mod_pywebsocket
+pywebsocket3
 .
 handshake
 :
@@ -393,7 +393,7 @@ members
 :
 mod
 :
-mod_pywebsocket
+pywebsocket3
 .
 request_handler
 -
@@ -446,7 +446,7 @@ request_handler
 automodule
 :
 :
-mod_pywebsocket
+pywebsocket3
 .
 request_handler
 :
@@ -455,7 +455,7 @@ members
 :
 mod
 :
-mod_pywebsocket
+pywebsocket3
 .
 stream
 -
@@ -508,7 +508,7 @@ stream
 automodule
 :
 :
-mod_pywebsocket
+pywebsocket3
 .
 stream
 :
@@ -522,7 +522,7 @@ members
 :
 mod
 :
-mod_pywebsocket
+pywebsocket3
 .
 http_header_util
 -
@@ -575,7 +575,7 @@ http_header_util
 automodule
 :
 :
-mod_pywebsocket
+pywebsocket3
 .
 http_header_util
 :
@@ -584,7 +584,7 @@ members
 :
 mod
 :
-mod_pywebsocket
+pywebsocket3
 .
 msgutil
 -
@@ -637,7 +637,7 @@ msgutil
 automodule
 :
 :
-mod_pywebsocket
+pywebsocket3
 .
 msgutil
 :
@@ -646,7 +646,7 @@ members
 :
 mod
 :
-mod_pywebsocket
+pywebsocket3
 .
 util
 -
@@ -699,7 +699,7 @@ util
 automodule
 :
 :
-mod_pywebsocket
+pywebsocket3
 .
 util
 :
@@ -708,7 +708,7 @@ members
 :
 mod
 :
-mod_pywebsocket
+pywebsocket3
 .
 memorizingfile
 -
@@ -761,7 +761,7 @@ memorizingfile
 automodule
 :
 :
-mod_pywebsocket
+pywebsocket3
 .
 memorizingfile
 :
@@ -770,7 +770,7 @@ members
 :
 mod
 :
-mod_pywebsocket
+pywebsocket3
 .
 websocket_server
 -
@@ -823,7 +823,7 @@ websocket_server
 automodule
 :
 :
-mod_pywebsocket
+pywebsocket3
 .
 websocket_server
 :
@@ -832,7 +832,7 @@ members
 :
 mod
 :
-mod_pywebsocket
+pywebsocket3
 .
 server_util
 -
@@ -885,7 +885,7 @@ server_util
 automodule
 :
 :
-mod_pywebsocket
+pywebsocket3
 .
 server_util
 :
@@ -894,7 +894,7 @@ members
 :
 mod
 :
-mod_pywebsocket
+pywebsocket3
 .
 standalone
 -
@@ -947,7 +947,7 @@ standalone
 automodule
 :
 :
-mod_pywebsocket
+pywebsocket3
 .
 standalone
 :

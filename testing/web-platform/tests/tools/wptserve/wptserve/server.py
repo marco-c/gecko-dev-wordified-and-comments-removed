@@ -82,11 +82,11 @@ import
 urlsplit
 urlunsplit
 from
-mod_pywebsocket
+pywebsocket3
 import
 dispatch
 from
-mod_pywebsocket
+pywebsocket3
 .
 handshake
 import
