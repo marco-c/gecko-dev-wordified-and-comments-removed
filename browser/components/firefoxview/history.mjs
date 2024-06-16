@@ -3198,7 +3198,6 @@ div
 }
 willUpdate
 (
-changedProperties
 )
 {
 this
@@ -3216,17 +3215,6 @@ controller
 allHistoryItems
 .
 size
-&
-&
-!
-changedProperties
-.
-has
-(
-"
-sortOption
-"
-)
 )
 {
 /
@@ -3253,7 +3241,7 @@ this
 .
 controller
 .
-createHistoryMapsForView
+createHistoryMaps
 (
 )
 ;
