@@ -613,7 +613,7 @@ Handle
 CalendarValue
 >
 calendar
-double
+int64_t
 days
 TemporalOverflow
 overflow
@@ -652,7 +652,7 @@ Handle
 CalendarValue
 >
 calendar
-double
+int64_t
 days
 Instant
 *
