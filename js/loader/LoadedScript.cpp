@@ -594,12 +594,7 @@ AsWindowContext
 scriptLoadContext
 -
 >
-GetScriptElement
-(
-)
--
->
-GetScriptText
+GetInlineScriptText
 (
 inlineData
 )

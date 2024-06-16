@@ -626,6 +626,15 @@ GetScriptElement
 const
 ;
 void
+GetInlineScriptText
+(
+nsAString
+&
+aText
+)
+const
+;
+void
 SetIsPreloadRequest
 (
 )
