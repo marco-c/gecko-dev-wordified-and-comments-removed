@@ -362,9 +362,11 @@ search
 For
 example
 :
-Home
+HOME
+HOME_QR
+HOME_VOICE
 or
-Browser
+BROWSER
 )
 type
 :
