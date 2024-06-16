@@ -467,6 +467,13 @@ js
 ]
 [
 "
+test_open_and_databases
+.
+js
+"
+]
+[
+"
 test_open_empty_db
 .
 js

@@ -527,6 +527,13 @@ js
 "
 unit
 /
+test_open_and_databases
+.
+js
+"
+"
+unit
+/
 test_open_empty_db
 .
 js
@@ -1545,6 +1552,13 @@ html
 [
 "
 test_odd_result_order
+.
+html
+"
+]
+[
+"
+test_open_and_databases
 .
 html
 "
