@@ -1835,6 +1835,9 @@ status
 ModelState
 .
 DOWNLOADED
+ModelState
+.
+ERROR_DELETION
 -
 >
 {
@@ -1859,6 +1862,9 @@ download_languages_item_content_description_downloaded_state
 ModelState
 .
 NOT_DOWNLOADED
+ModelState
+.
+ERROR_DOWNLOAD
 -
 >
 {
@@ -1933,6 +1939,9 @@ status
 ModelState
 .
 DOWNLOADED
+ModelState
+.
+ERROR_DELETION
 -
 >
 {
@@ -1983,6 +1992,9 @@ iconPrimary
 ModelState
 .
 NOT_DOWNLOADED
+ModelState
+.
+ERROR_DOWNLOAD
 -
 >
 {
