@@ -120,7 +120,7 @@ WriteParam
 aWriter
 aParam
 .
-mDynamicViaCORS
+mEffectiveQueryURL
 )
 ;
 }
@@ -210,7 +210,7 @@ aReader
 aResult
 -
 >
-mDynamicViaCORS
+mEffectiveQueryURL
 )
 ;
 }
