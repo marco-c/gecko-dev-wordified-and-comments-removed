@@ -1082,30 +1082,11 @@ nsIUpdateManager
             
 UM
 .
-QueryInterface
-(
-Ci
+internal
 .
-nsIObserver
-)
-.
-observe
-(
-null
-"
-um
--
 reload
--
-update
--
-data
-"
-"
-skip
--
-files
-"
+(
+true
 )
 ;
             
