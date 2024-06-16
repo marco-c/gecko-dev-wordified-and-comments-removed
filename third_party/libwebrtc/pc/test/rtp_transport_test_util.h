@@ -191,10 +191,6 @@ rtp_count_
 last_recv_rtp_packet_
 =
 packet
-.
-Buffer
-(
-)
 ;
 }
 void
@@ -274,10 +270,9 @@ return
 sent_packet_count_
 ;
 }
-rtc
-:
-:
-CopyOnWriteBuffer
+const
+RtpPacketReceived
+&
 last_recv_rtp_packet
 (
 )
@@ -428,10 +423,7 @@ ready_to_send_signal_count_
 =
 0
 ;
-rtc
-:
-:
-CopyOnWriteBuffer
+RtpPacketReceived
 last_recv_rtp_packet_
 ;
 rtc
