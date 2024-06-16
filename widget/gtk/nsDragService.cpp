@@ -3394,6 +3394,7 @@ GetTargetDragData
 (
 gdkFlavor
 dragFlavors
+false
 )
 ;
 }
@@ -3430,6 +3431,7 @@ GetTargetDragData
 (
 gdkFlavor
 dragFlavors
+false
 )
 ;
 }
@@ -4333,6 +4335,7 @@ GetTargetDragData
 (
 gdkFlavor
 dragFlavors
+false
 )
 ;
 GetReachableFileFromUriList
@@ -4392,6 +4395,7 @@ GetTargetDragData
 (
 gdkFlavor
 dragFlavors
+false
 )
 ;
 GetReachableFileFromUriList
@@ -4469,6 +4473,7 @@ GetTargetDragData
 (
 gdkFlavor
 dragFlavors
+false
 )
 ;
 GetReachableFileFromUriList
@@ -6590,6 +6595,8 @@ nsCString
 >
 &
 aDropFlavors
+bool
+aResetTargetData
 )
 {
 LOGDRAGSERVICE
@@ -6631,10 +6638,16 @@ get
 )
 )
 ;
+if
+(
+aResetTargetData
+)
+{
 TargetResetData
 (
 )
 ;
+}
 GUniquePtr
 <
 gchar

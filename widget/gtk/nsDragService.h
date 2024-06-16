@@ -648,6 +648,10 @@ nsCString
 >
 &
 aDropFlavors
+bool
+aResetTargetData
+=
+true
 )
 ;
 void
