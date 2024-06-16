@@ -262,7 +262,7 @@ html
 "
 ;
 const
-EMPTY_PDF_URL
+PDF_TEST_PAGE_URL
 =
 URL_COM_PREFIX
 +
@@ -272,8 +272,6 @@ DIR_PATH
 translations
 -
 tester
--
-empty
 -
 pdf
 -
