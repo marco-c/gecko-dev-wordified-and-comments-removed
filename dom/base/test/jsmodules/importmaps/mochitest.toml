@@ -245,6 +245,13 @@ html
 ]
 [
 "
+test_invalid_dynamic_import
+.
+html
+"
+]
+[
+"
 test_dynamic_importMap_with_external_script
 .
 html
