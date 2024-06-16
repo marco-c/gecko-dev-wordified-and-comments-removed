@@ -11186,7 +11186,7 @@ es
 modificada
 .
 A
-encerrar
+fechar
 a
 aplica
 o
@@ -12643,7 +12643,7 @@ ou
 mais
 extens
 es
-pararam
+deixaram
 de
 funcionar
 tornando
@@ -12656,8 +12656,6 @@ vel
 1
 s
 tentou
-sem
-sucesso
 reiniciar
 a
 (
@@ -12668,6 +12666,8 @@ o
 (
 es
 )
+sem
+sucesso
 .
 \
 n
@@ -12695,8 +12695,8 @@ desativar
 as
 extens
 es
-pode
-resolver
+poder
+corrigir
 este
 problema
 .
