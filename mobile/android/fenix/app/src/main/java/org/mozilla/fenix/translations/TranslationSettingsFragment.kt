@@ -517,7 +517,7 @@ navigate
 (
 TranslationSettingsFragmentDirections
 .
-actionTranslationSettingsFragmentToNeverTranslateSitePreferenceFragment
+actionTranslationSettingsToNeverTranslateSitePreference
 (
 )
 )

@@ -11587,7 +11587,7 @@ id
 +
 id
 /
-action_translationSettingsFragment_to_neverTranslateSitePreferenceFragment
+action_translationSettings_to_neverTranslateSitePreference
 "
 app
 :
@@ -11758,7 +11758,7 @@ preferences
 .
 nevertranslatesite
 .
-NeverTranslateSitePreferenceFragment
+NeverTranslateSitesPreferenceFragment
 "
 >
 <
@@ -11771,7 +11771,7 @@ id
 +
 id
 /
-action_neverTranslateSitePreferenceFragment_to_neverTranslateSiteDialogPreferenceFragment
+action_neverTranslateSitePreference_to_neverTranslateSiteDialogPreference
 "
 app
 :
@@ -11827,7 +11827,7 @@ android
 name
 =
 "
-websiteUrl
+neverTranslateSiteUrl
 "
 app
 :
