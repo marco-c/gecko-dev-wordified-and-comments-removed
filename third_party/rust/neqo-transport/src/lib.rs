@@ -13,7 +13,7 @@ use
 neqo_common
 :
 :
-qinfo
+qwarn
 ;
 use
 neqo_crypto
@@ -576,7 +576,7 @@ CryptoError
 >
 Self
 {
-qinfo
+qwarn
 !
 (
 "

@@ -1462,9 +1462,7 @@ from_micros
 u64
 :
 :
-max_value
-(
-)
+MAX
 )
 )
 ;
