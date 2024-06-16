@@ -29683,7 +29683,7 @@ get
 if
 (
 !
-js
+JS
 :
 :
 ModuleLink
@@ -29853,7 +29853,7 @@ get
 if
 (
 !
-js
+JS
 :
 :
 ModuleEvaluate
