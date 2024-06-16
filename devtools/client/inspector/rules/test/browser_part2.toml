@@ -1100,6 +1100,17 @@ browser_rules_keyframes
 -
 rule
 -
+nested
+.
+js
+"
+]
+[
+"
+browser_rules_keyframes
+-
+rule
+-
 shadowdom
 .
 js
