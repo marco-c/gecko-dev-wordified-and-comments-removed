@@ -140,9 +140,6 @@ serde
 Serialize
 ;
 use
-serde_cbor
-;
-use
 serde_json
 :
 :
