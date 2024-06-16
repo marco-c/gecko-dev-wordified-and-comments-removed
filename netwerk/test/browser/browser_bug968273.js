@@ -310,16 +310,6 @@ persist_permanent_redirects_http
 "
 false
 ]
-[
-"
-dom
-.
-security
-.
-https_first
-"
-false
-]
 ]
 }
 )
