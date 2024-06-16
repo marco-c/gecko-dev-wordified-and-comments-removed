@@ -10232,7 +10232,7 @@ _storedFullKeyboardNavigation
 ;
 }
 return
-undefined
+1
 ;
 }
 _storedSpellCheck
