@@ -982,13 +982,8 @@ window
 .
 SidebarController
 .
-getSidebarPanels
+getCustomize
 (
-[
-"
-viewCustomizeSidebar
-"
-]
 )
 .
 map

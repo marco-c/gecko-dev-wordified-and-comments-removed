@@ -291,6 +291,13 @@ Tabs
 from
 other
 devices
+sidebar
+-
+customize
+-
+bookmarks
+=
+Bookmarks
 #
 #
 Labels
