@@ -318,6 +318,13 @@ html
 ]
 [
 "
+test_isUsedColorSchemeDark
+.
+html
+"
+]
+[
+"
 test_is_element_themed
 .
 html

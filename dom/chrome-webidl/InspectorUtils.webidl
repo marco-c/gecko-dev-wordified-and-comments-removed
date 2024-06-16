@@ -695,6 +695,13 @@ Element
 element
 )
 ;
+boolean
+isUsedColorSchemeDark
+(
+Element
+element
+)
+;
 Element
 ?
 containingBlockOf
