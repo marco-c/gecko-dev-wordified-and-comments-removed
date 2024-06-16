@@ -50,6 +50,13 @@ js
 ]
 [
 "
+browser_clearSiteData_v2
+.
+js
+"
+]
+[
+"
 browser_siteData
 .
 js

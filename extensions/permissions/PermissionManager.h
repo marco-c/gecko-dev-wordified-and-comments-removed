@@ -1015,6 +1015,17 @@ nsIPermission
 aResult
 )
 ;
+nsresult
+ShouldHandlePrincipalForPermission
+(
+nsIPrincipal
+*
+aPrincipal
+bool
+&
+aIsPermissionPrincipalValid
+)
+;
 PermissionHashKey
 *
 GetPermissionHashKey

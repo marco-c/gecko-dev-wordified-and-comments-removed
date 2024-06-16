@@ -187,3 +187,10 @@ test_storage_permission
 js
 "
 ]
+[
+"
+test_storage_permission_clearing
+.
+js
+"
+]
