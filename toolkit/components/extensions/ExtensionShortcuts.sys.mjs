@@ -2888,16 +2888,6 @@ else
 {
 this
 .
-extension
-.
-tabManager
-.
-addActiveTabPermission
-(
-)
-;
-this
-.
 onCommand
 (
 name
