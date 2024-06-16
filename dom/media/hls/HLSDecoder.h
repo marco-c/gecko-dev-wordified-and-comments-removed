@@ -149,6 +149,17 @@ nsCString
 aMediaUrl
 )
 ;
+bool
+IsHLSDecoder
+(
+)
+const
+override
+{
+return
+true
+;
+}
 private
 :
 friend
