@@ -7660,7 +7660,7 @@ hasExposure
 false
 variables
 :
-boolean
+enabled
 :
 description
 :
