@@ -477,6 +477,11 @@ enable_internal_pings
 cfg
 .
 enable_internal_pings
+ping_schedule
+:
+cfg
+.
+ping_schedule
 }
 ;
 glean_core

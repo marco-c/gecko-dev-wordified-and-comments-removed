@@ -708,6 +708,17 @@ pub
 enable_internal_pings
 :
 bool
+pub
+ping_schedule
+:
+HashMap
+<
+String
+Vec
+<
+String
+>
+>
 }
 #
 [
