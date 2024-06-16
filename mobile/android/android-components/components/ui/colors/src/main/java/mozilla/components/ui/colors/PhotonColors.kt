@@ -883,6 +883,13 @@ Color
 0x7A312A64
 )
 val
+Ink20A50
+=
+Color
+(
+0x80312A64
+)
+val
 Ink30
 =
 Color
@@ -1259,6 +1266,13 @@ Violet60
 Color
 (
 0xFF7542E5
+)
+val
+Violet60A50
+=
+Color
+(
+0x807542E5
 )
 val
 Violet70

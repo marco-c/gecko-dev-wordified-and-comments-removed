@@ -527,18 +527,6 @@ compose
 .
 button
 .
-TertiaryButton
-import
-org
-.
-mozilla
-.
-fenix
-.
-compose
-.
-button
-.
 TextButton
 import
 org
@@ -3437,7 +3425,7 @@ else
 -
 >
 {
-TertiaryButton
+PrimaryButton
 (
 text
 =
