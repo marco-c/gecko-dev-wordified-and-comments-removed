@@ -102,6 +102,7 @@ recommends
 -
 y
 \
+file
 7zip
 binutils
 build
