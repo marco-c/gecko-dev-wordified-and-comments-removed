@@ -750,6 +750,17 @@ static
 constexpr
 nsStaticAtom
 *
+Language
+=
+nsGkAtoms
+:
+:
+language
+;
+static
+constexpr
+nsStaticAtom
+*
 MimeType
 =
 nsGkAtoms
