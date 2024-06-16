@@ -1612,7 +1612,7 @@ gecko_profile_entries
 gecko_profile_interval
 "
 :
-int
+float
 (
                     
 test_details
