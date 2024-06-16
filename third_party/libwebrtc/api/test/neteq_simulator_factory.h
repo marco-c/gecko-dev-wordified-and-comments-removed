@@ -7,6 +7,11 @@ API_TEST_NETEQ_SIMULATOR_FACTORY_H_
 #
 include
 <
+cstdint
+>
+#
+include
+<
 memory
 >
 #
@@ -146,6 +151,15 @@ NetEqFactory
 neteq_factory
 =
 nullptr
+;
+absl
+:
+:
+optional
+<
+uint32_t
+>
+ssrc_filter
 ;
 }
 ;

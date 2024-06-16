@@ -196,6 +196,14 @@ simulation_config
 .
 text_log_filename
 ;
+config
+.
+ssrc_filter
+=
+simulation_config
+.
+ssrc_filter
+;
 return
 config
 ;
