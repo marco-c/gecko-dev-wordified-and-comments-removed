@@ -4943,7 +4943,7 @@ browser_menu_turn_on_reader_view
 "
 >
 Ativar
-vista
+Vista
 de
 leitura
 <
@@ -50379,6 +50379,9 @@ UnusedResources
 "
 >
 Satisfeito
+(
+a
+)
 <
 /
 string
@@ -50410,6 +50413,9 @@ UnusedResources
 "
 >
 Neutro
+(
+a
+)
 <
 /
 string
@@ -50441,6 +50447,9 @@ UnusedResources
 "
 >
 Insatisfeito
+(
+a
+)
 <
 /
 string
