@@ -1253,6 +1253,17 @@ test_event_target_radius
 html
 "
 ]
+support
+-
+files
+=
+[
+"
+helper_bug1733509
+.
+html
+"
+]
 skip
 -
 if
