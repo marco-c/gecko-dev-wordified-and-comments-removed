@@ -994,6 +994,16 @@ concat
 items
 )
 ;
+var
+modifiers
+=
+[
+.
+.
+.
+items
+]
+;
 while
 (
 items
@@ -3342,6 +3352,7 @@ null
 chaosMode
 wrCapture
 noAutoFuzz
+modifiers
 }
 aFilter
 aManifestID
@@ -3686,6 +3697,7 @@ items
 chaosMode
 wrCapture
 noAutoFuzz
+modifiers
 }
 aFilter
 aManifestID
