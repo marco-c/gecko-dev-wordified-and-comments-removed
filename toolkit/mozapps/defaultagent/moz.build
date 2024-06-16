@@ -12,6 +12,16 @@ agent
 "
 docs
 "
+JAR_MANIFESTS
++
+=
+[
+"
+jar
+.
+mn
+"
+]
 DIRS
 +
 =
