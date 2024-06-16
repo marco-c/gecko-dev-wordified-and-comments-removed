@@ -856,6 +856,13 @@ js
 ]
 [
 "
+browser_webapi_sendAbuseReport
+.
+js
+"
+]
+[
+"
 browser_webapi_theme
 .
 js
