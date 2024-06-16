@@ -108,6 +108,7 @@ pub
 mod
 wgsl
 ;
+pub
 const
 COMPONENTS
 :
@@ -132,6 +133,7 @@ w
 '
 ]
 ;
+pub
 const
 INDENT
 :
@@ -141,6 +143,7 @@ str
 "
 "
 ;
+pub
 const
 BAKE_PREFIX
 :
@@ -151,6 +154,7 @@ str
 _e
 "
 ;
+pub
 type
 NeedBakeExpressions
 =
@@ -179,9 +183,11 @@ Clone
 Copy
 )
 ]
+pub
 struct
 Level
 (
+pub
 usize
 )
 ;
@@ -279,6 +285,7 @@ INDENT
 )
 }
 }
+pub
 enum
 FunctionType
 {
@@ -309,6 +316,7 @@ EntryPointIndex
 impl
 FunctionType
 {
+pub
 fn
 is_compute_entry_point
 (
@@ -373,6 +381,7 @@ false
 }
 }
 }
+pub
 struct
 FunctionCtx
 <
@@ -380,9 +389,11 @@ FunctionCtx
 a
 >
 {
+pub
 ty
 :
 FunctionType
+pub
 info
 :
 &
@@ -395,6 +406,7 @@ valid
 :
 :
 FunctionInfo
+pub
 expressions
 :
 &
@@ -410,6 +422,7 @@ crate
 :
 Expression
 >
+pub
 named_expressions
 :
 &
@@ -427,6 +440,7 @@ FunctionCtx
 _
 >
 {
+pub
 fn
 resolve_type
 <
@@ -490,6 +504,7 @@ inner_with
 types
 )
 }
+pub
 const
 fn
 name_key
@@ -572,6 +587,7 @@ local
 )
 }
 }
+pub
 const
 fn
 argument_key
@@ -647,6 +663,7 @@ arg
 }
 }
 }
+pub
 fn
 is_fixed_function_input
 (
@@ -895,6 +912,7 @@ crate
 :
 Expression
 {
+pub
 const
 fn
 bake_ref_count
@@ -1000,6 +1018,7 @@ _
 }
 }
 }
+pub
 const
 fn
 binary_operation_str
@@ -1266,6 +1285,7 @@ crate
 :
 TypeInner
 {
+pub
 const
 fn
 is_handle
@@ -1562,6 +1582,7 @@ repr
 u32
 )
 ]
+pub
 enum
 RayIntersectionType
 {

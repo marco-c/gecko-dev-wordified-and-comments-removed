@@ -2223,7 +2223,7 @@ using
 CommandEncoder
 :
 :
-resolve_query_sets
+resolve_query_set
 ]
 into
 a
@@ -3526,7 +3526,7 @@ call
 .
 Call
 [
-RenderPassEncoder
+RenderPass
 :
 :
 begin_pipeline_statistics_query
@@ -3541,7 +3541,7 @@ query
 then
 call
 [
-RenderPassEncoder
+RenderPass
 :
 :
 end_pipeline_statistics_query
@@ -3565,7 +3565,7 @@ using
 CommandEncoder
 :
 :
-resolve_query_sets
+resolve_query_set
 ]
 into
 a
@@ -3826,7 +3826,7 @@ using
 /
 -
 [
-RenderPassEncoder
+RenderPass
 :
 :
 write_timestamp
@@ -3836,7 +3836,7 @@ write_timestamp
 /
 -
 [
-ComputePassEncoder
+ComputePass
 :
 :
 write_timestamp
@@ -35124,6 +35124,8 @@ derive
 Debug
 Copy
 Clone
+Eq
+PartialEq
 )
 ]
 pub
@@ -35142,4 +35144,7 @@ Dropped
 ReplacedCallback
 =
 3
+DeviceInvalid
+=
+4
 }

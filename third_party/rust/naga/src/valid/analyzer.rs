@@ -1616,7 +1616,7 @@ add_ref_impl
 &
 mut
 self
-handle
+expr
 :
 Handle
 <
@@ -1642,7 +1642,7 @@ self
 .
 expressions
 [
-handle
+expr
 .
 index
 (
@@ -1698,7 +1698,7 @@ add_ref
 &
 mut
 self
-handle
+expr
 :
 Handle
 <
@@ -1716,7 +1716,7 @@ self
 .
 add_ref_impl
 (
-handle
+expr
 GlobalUse
 :
 :
@@ -1733,7 +1733,7 @@ add_assignable_ref
 &
 mut
 self
-handle
+expr
 :
 Handle
 <
@@ -1770,7 +1770,7 @@ self
 .
 expressions
 [
-handle
+expr
 .
 index
 (

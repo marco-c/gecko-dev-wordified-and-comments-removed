@@ -567,7 +567,7 @@ phd_capabilities
 adapter
 :
 :
-PhysicalDeviceCapabilities
+PhysicalDeviceProperties
 downlevel_flags
 :
 wgt
@@ -2575,12 +2575,14 @@ crate
 :
 :
 Queue
-<
-Api
->
 for
 Queue
 {
+type
+A
+=
+Api
+;
 unsafe
 fn
 submit
