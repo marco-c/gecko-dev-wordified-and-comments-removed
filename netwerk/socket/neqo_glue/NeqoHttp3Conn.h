@@ -72,6 +72,8 @@ uint32_t
 aDatagramSize
 uint32_t
 aMaxAccumulatedTime
+uint32_t
+aProviderFlags
 NeqoHttp3Conn
 *
 *
@@ -99,6 +101,7 @@ aWebTransport
 aQlogDir
 aDatagramSize
 aMaxAccumulatedTime
+aProviderFlags
 (
 const
 mozilla
