@@ -1207,6 +1207,16 @@ pub
 key
 :
 SpatialTreeItemKey
+pub
+transform
+:
+Option
+<
+PropertyBinding
+<
+LayoutTransform
+>
+>
 }
 #
 [
