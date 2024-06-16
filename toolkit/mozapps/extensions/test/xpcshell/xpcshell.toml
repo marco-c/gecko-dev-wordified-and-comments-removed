@@ -57,6 +57,16 @@ data
 xpinstall
 /
 amosigned
+.
+xpi
+"
+"
+.
+.
+/
+xpinstall
+/
+amosigned
 -
 mv3
 -
