@@ -800,7 +800,7 @@ FirefoxTheme
 .
 colors
 .
-scrim
+layerScrim
 drawerState
 =
 drawerState
