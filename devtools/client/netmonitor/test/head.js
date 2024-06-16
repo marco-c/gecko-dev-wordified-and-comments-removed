@@ -3139,11 +3139,6 @@ Actions
 .
 clearRequests
 (
-{
-isExplicitClear
-:
-true
-}
 )
 )
 ;

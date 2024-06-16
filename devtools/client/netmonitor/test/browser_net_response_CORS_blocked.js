@@ -184,11 +184,8 @@ info
 (
 "
 selecting
-preflight
+first
 request
-at
-index
-1
 "
 )
 ;
@@ -209,7 +206,7 @@ item
 "
 )
 [
-1
+0
 ]
 ;
 EventUtils
@@ -554,11 +551,8 @@ info
 (
 "
 selecting
-preflight
+first
 request
-at
-index
-1
 "
 )
 ;
@@ -579,7 +573,7 @@ item
 "
 )
 [
-1
+0
 ]
 ;
 EventUtils

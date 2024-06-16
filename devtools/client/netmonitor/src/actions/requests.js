@@ -408,9 +408,6 @@ REMOVE_SELECTED_CUSTOM_REQUEST
 function
 clearRequests
 (
-{
-isExplicitClear
-}
 )
 {
 return
@@ -436,9 +433,6 @@ connector
 .
 clear
 (
-{
-isExplicitClear
-}
 )
 ;
 }
