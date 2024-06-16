@@ -297,6 +297,11 @@ Nothing
 )
 )
 ;
+void
+profiler_lookup_download_directory
+(
+)
+;
 RefPtr
 <
 mozilla
