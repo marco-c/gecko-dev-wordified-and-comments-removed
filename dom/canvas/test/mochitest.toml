@@ -1229,6 +1229,13 @@ html
 ]
 [
 "
+test_accelerated_canvas_context_loss
+.
+html
+"
+]
+[
+"
 test_bitmaprenderer
 .
 html
