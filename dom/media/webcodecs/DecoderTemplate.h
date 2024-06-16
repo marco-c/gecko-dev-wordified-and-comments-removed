@@ -812,7 +812,6 @@ MediaData
 &
 &
 aData
-const
 ConfigTypeInternal
 &
 aConfig
@@ -891,10 +890,6 @@ MediaData
 &
 &
 aData
-const
-ConfigTypeInternal
-&
-aConfig
 )
 ;
 void
