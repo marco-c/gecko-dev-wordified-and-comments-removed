@@ -217,6 +217,13 @@ const
 int
 STUN_KEEPALIVE_INTERVAL
 ;
+static
+const
+int
+MIN_PINGS_AT_WEAK_PING_INTERVAL
+=
+3
+;
 extern
 const
 int
