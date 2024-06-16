@@ -269,6 +269,13 @@ startFullPlayback
 )
 {
 await
+document
+.
+requestStorageAccess
+(
+)
+;
+await
 waitForDOMContentLoaded
 (
 )

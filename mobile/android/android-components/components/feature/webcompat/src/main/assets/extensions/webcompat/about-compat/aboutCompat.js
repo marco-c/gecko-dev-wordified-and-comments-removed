@@ -54,7 +54,8 @@ onDisconnect
 .
 addListener
 (
-e
+(
+)
 =
 >
 {

@@ -363,7 +363,8 @@ blocks
 const
 blistener
 =
-details
+(
+)
 =
 >
 {
