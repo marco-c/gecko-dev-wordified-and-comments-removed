@@ -266,9 +266,9 @@ server
 port
 .
     
-capabilites
+capabilities
 -
-Capabilites
+Capabilities
 passed
 when
 creating
