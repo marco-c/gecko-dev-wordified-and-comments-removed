@@ -208,6 +208,7 @@ lexer
 getCSSLexer
 (
 string
+true
 )
 ;
 const
@@ -288,7 +289,7 @@ tokenType
 =
 =
 "
-comment
+Comment
 "
 )
 {
