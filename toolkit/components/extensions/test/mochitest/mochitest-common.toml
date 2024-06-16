@@ -155,6 +155,11 @@ file_simple_iframe_worker
 html
 "
 "
+file_simple_inline_script
+.
+html
+"
+"
 file_simple_sandboxed_frame
 .
 html
@@ -2007,6 +2012,13 @@ http2
 [
 "
 test_ext_scripting_executeScript_null_principal
+.
+html
+"
+]
+[
+"
+test_ext_scripting_executeScript_world
 .
 html
 "

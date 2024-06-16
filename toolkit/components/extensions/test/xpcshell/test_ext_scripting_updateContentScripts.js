@@ -497,7 +497,7 @@ document_start
 world
 :
 "
-ISOLATED
+MAIN
 "
 persistAcrossSessions
 :
