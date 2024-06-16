@@ -241,7 +241,6 @@ delegate
 =
 ContextMenuSnackbarDelegate
 (
-view
 )
 every
 {
@@ -357,9 +356,7 @@ show
 (
 snackBarParentView
 =
-mockk
-(
-)
+view
 text
 =
 R
@@ -433,9 +430,7 @@ show
 (
 snackBarParentView
 =
-mockk
-(
-)
+view
 text
 =
 R
@@ -510,9 +505,7 @@ show
 (
 snackBarParentView
 =
-mockk
-(
-)
+view
 text
 =
 R
@@ -606,9 +599,7 @@ show
 (
 snackBarParentView
 =
-mockk
-(
-)
+view
 text
 =
 R

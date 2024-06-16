@@ -128,13 +128,6 @@ item
 /
 class
 ContextMenuSnackbarDelegate
-(
-private
-val
-view
-:
-View
-)
 :
 SnackbarDelegate
 {
@@ -171,6 +164,10 @@ Unit
 ?
 )
 {
+val
+view
+=
+snackBarParentView
 val
 snackbar
 =
