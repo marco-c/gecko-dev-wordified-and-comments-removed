@@ -3532,6 +3532,15 @@ editor
 selectedSource
 }
 )
+React
+.
+createElement
+(
+Exceptions
+{
+editor
+}
+)
 )
 ;
 }
