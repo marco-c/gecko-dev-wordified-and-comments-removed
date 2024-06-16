@@ -804,6 +804,27 @@ version
 .
 msix
 "
+            
+"
+win64
+-
+aarch64
+"
+:
+"
+{
+pretty_product
+}
+%
+20Setup
+%
+20
+{
+version
+}
+.
+msix
+"
         
 }
     
