@@ -2276,7 +2276,7 @@ suite
 in
 manifests
 .
-iteritems
+items
 (
 )
 :
