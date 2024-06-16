@@ -97029,7 +97029,7 @@ manifest
 :
 mitm8
 -
-linux
+darwin
 -
 firefox
 -
