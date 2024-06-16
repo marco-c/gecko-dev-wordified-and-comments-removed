@@ -457,17 +457,6 @@ content
 /
 test
 /
-statuspanel
-/
-browser
-.
-toml
-"
-"
-content
-/
-test
-/
 sync
 /
 browser

@@ -130,6 +130,15 @@ BROWSER_CHROME_MANIFESTS
 "
 test
 /
+statuspanel
+/
+browser
+.
+toml
+"
+"
+test
+/
 tabs
 /
 browser
