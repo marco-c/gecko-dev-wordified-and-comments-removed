@@ -64,11 +64,11 @@ HAVE_NEON_I8MM
 .
 equ
 HAVE_SVE
-1
+0
 .
 equ
 HAVE_SVE2
-1
+0
 .
 equ
 HAVE_MIPS32

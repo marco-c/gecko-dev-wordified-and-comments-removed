@@ -610,7 +610,6 @@ Remove
 vpx_config
 .
 c
-.
 source_list
 =
 (

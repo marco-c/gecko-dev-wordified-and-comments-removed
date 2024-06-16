@@ -58,11 +58,11 @@ HAVE_NEON_I8MM
 #
 define
 HAVE_SVE
-1
+0
 #
 define
 HAVE_SVE2
-1
+0
 #
 define
 HAVE_MIPS32
