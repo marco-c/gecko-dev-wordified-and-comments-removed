@@ -1130,13 +1130,6 @@ js
 ]
 [
 "
-test_engine_old_selector_remote_override
-.
-js
-"
-]
-[
-"
 test_engine_old_selector_remote_settings
 .
 js
@@ -1165,6 +1158,13 @@ js
 [
 "
 test_engine_selector_environment
+.
+js
+"
+]
+[
+"
+test_engine_selector_remote_override
 .
 js
 "
