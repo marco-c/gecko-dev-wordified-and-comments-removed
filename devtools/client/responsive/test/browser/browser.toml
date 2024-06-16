@@ -789,9 +789,6 @@ browser_target_blank
 js
 "
 ]
-https_first_disabled
-=
-true
 [
 "
 browser_telemetry_activate_rdm
