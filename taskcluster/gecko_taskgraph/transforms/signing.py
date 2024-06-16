@@ -409,6 +409,9 @@ config
 job
 )
         
+assert
+dep_job
+        
 requirements_path
 =
 evaluate_keyed_by
@@ -511,6 +514,9 @@ config
 job
 )
         
+assert
+dep_job
+        
 attributes
 =
 dep_job
@@ -585,6 +591,9 @@ get
 build_platform
 "
 )
+        
+assert
+build_platform
         
 treeherder
 =
@@ -1228,24 +1237,6 @@ notarization
 "
 )
 :
-            
-task
-[
-"
-worker
-"
-]
-[
-"
-mac
--
-behavior
-"
-]
-=
-"
-apple_notarization
-"
             
 task
 [

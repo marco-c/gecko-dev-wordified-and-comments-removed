@@ -309,7 +309,7 @@ formats
 =
 [
 "
-apple_notarization
+apple_notarization_stacked
 "
 ]
             

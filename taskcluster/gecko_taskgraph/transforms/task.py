@@ -5449,6 +5449,10 @@ apple_notarization
 "
             
 "
+apple_notarization_stacked
+"
+            
+"
 mac_sign_and_pkg
 "
             
