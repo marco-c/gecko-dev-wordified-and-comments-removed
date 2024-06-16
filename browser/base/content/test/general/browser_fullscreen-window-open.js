@@ -152,7 +152,9 @@ TEST_FILE
 ;
 newWin
 .
-BrowserFullScreen
+BrowserCommands
+.
+fullScreen
 (
 )
 ;
@@ -170,7 +172,9 @@ function
 {
 newWin
 .
-BrowserFullScreen
+BrowserCommands
+.
+fullScreen
 (
 )
 ;

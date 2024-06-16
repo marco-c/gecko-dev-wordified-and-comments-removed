@@ -651,7 +651,9 @@ FullScreen
 oncommand
 =
 "
-BrowserFullScreen
+BrowserCommands
+.
+fullScreen
 (
 )
 ;
