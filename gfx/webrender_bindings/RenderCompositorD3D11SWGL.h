@@ -139,7 +139,10 @@ Resume
 )
 override
 ;
-GLenum
+gfx
+:
+:
+DeviceResetReason
 IsContextLost
 (
 bool

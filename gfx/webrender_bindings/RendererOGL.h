@@ -358,10 +358,11 @@ IsPaused
 void
 CheckGraphicsResetStatus
 (
-const
-char
-*
-aCaller
+gfx
+:
+:
+DeviceResetDetectPlace
+aPlace
 bool
 aForce
 )

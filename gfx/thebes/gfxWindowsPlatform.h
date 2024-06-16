@@ -426,6 +426,12 @@ override
 bool
 DidRenderingDeviceReset
 (
+mozilla
+:
+:
+gfx
+:
+:
 DeviceResetReason
 *
 aResetReason

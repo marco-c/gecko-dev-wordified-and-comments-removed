@@ -410,7 +410,10 @@ get
 ;
 }
 virtual
-GLenum
+gfx
+:
+:
+DeviceResetReason
 IsContextLost
 (
 bool
