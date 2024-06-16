@@ -19,10 +19,6 @@ SUPPRESS
 ArgumentParser
 from
 distutils
-import
-spawn
-from
-distutils
 .
 util
 import
@@ -31,6 +27,10 @@ from
 itertools
 import
 chain
+from
+shutil
+import
+which
 import
 mozinfo
 import
@@ -7847,9 +7847,7 @@ currently
             
 gst01
 =
-spawn
-.
-find_executable
+which
 (
 "
 gst
@@ -7864,9 +7862,7 @@ launch
             
 gst010
 =
-spawn
-.
-find_executable
+which
 (
 "
 gst
@@ -7881,9 +7877,7 @@ launch
             
 gst10
 =
-spawn
-.
-find_executable
+which
 (
 "
 gst
@@ -7898,9 +7892,7 @@ launch
             
 pactl
 =
-spawn
-.
-find_executable
+which
 (
 "
 pactl

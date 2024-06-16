@@ -105,9 +105,9 @@ import
 datetime
 timedelta
 from
-distutils
+shutil
 import
-spawn
+which
 import
 bisection
 import
@@ -5508,9 +5508,7 @@ None
     
 gst01
 =
-spawn
-.
-find_executable
+which
 (
 "
 gst
@@ -5525,9 +5523,7 @@ launch
     
 gst010
 =
-spawn
-.
-find_executable
+which
 (
 "
 gst
@@ -5542,9 +5538,7 @@ launch
     
 gst10
 =
-spawn
-.
-find_executable
+which
 (
 "
 gst
@@ -17500,9 +17494,7 @@ virtualDeviceIdList
             
 pactl
 =
-spawn
-.
-find_executable
+which
 (
 "
 pactl
@@ -20153,9 +20145,7 @@ return
         
 pactl
 =
-spawn
-.
-find_executable
+which
 (
 "
 pactl
