@@ -304,6 +304,13 @@ html
 ]
 [
 "
+test_input_datetime_preventDefault
+.
+html
+"
+]
+[
+"
 test_input_datetime_readonly
 .
 html
