@@ -3456,9 +3456,12 @@ Auto
 }
 MOZ_CAN_RUN_SCRIPT
 virtual
-void
+bool
 HandleInvokeInternal
 (
+Element
+*
+invoker
 InvokeAction
 aAction
 ErrorResult
@@ -3466,6 +3469,9 @@ ErrorResult
 aRv
 )
 {
+return
+false
+;
 }
 private
 :
