@@ -4269,11 +4269,6 @@ ComputeSizeFlag
 :
 ShrinkWrap
 )
-|
-|
-IsReplaced
-(
-)
 )
 {
 const

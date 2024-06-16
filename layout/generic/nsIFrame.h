@@ -5253,6 +5253,12 @@ aRadii
 const
 ;
 nscoord
+OneEmInAppUnits
+(
+)
+const
+;
+nscoord
 GetLogicalBaseline
 (
 mozilla
