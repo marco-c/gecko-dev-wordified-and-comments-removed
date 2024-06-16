@@ -3058,6 +3058,7 @@ allFrames
 cssPaths
 jsPaths
 matchAboutBlank
+matchOriginAsFallback
 runAt
 originAttributesPatterns
 }
@@ -3071,6 +3072,7 @@ allFrames
 cssPaths
 jsPaths
 matchAboutBlank
+matchOriginAsFallback
 runAt
 originAttributesPatterns
 }
@@ -3103,6 +3105,9 @@ js
 matchAboutBlank
 :
 true
+matchOriginAsFallback
+:
+false
 runAt
 :
 "

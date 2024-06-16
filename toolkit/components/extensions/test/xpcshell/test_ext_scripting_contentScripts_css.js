@@ -192,6 +192,9 @@ http
 html
 "
 ]
+matchOriginAsFallback
+:
+false
 runAt
 :
 "
@@ -860,6 +863,9 @@ http
 html
 "
 ]
+matchOriginAsFallback
+:
+false
 runAt
 :
 "
@@ -944,6 +950,9 @@ http
 html
 "
 ]
+matchOriginAsFallback
+:
+false
 runAt
 :
 "
@@ -1033,6 +1042,9 @@ file_with_iframe
 html
 "
 ]
+matchOriginAsFallback
+:
+false
 runAt
 :
 "
@@ -1116,6 +1128,9 @@ http
 html
 "
 ]
+matchOriginAsFallback
+:
+false
 runAt
 :
 "
@@ -1219,6 +1234,9 @@ http
 html
 "
 ]
+matchOriginAsFallback
+:
+false
 runAt
 :
 "
@@ -1309,6 +1327,9 @@ http
 html
 "
 ]
+matchOriginAsFallback
+:
+false
 runAt
 :
 "
@@ -1357,6 +1378,9 @@ http
 html
 "
 ]
+matchOriginAsFallback
+:
+false
 runAt
 :
 "
@@ -1447,6 +1471,9 @@ http
 html
 "
 ]
+matchOriginAsFallback
+:
+false
 runAt
 :
 "
@@ -1565,6 +1592,9 @@ http
 html
 "
 ]
+matchOriginAsFallback
+:
+false
 runAt
 :
 "
@@ -1683,6 +1713,9 @@ http
 html
 "
 ]
+matchOriginAsFallback
+:
+false
 runAt
 :
 "
