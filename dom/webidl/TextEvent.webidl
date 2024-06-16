@@ -136,6 +136,9 @@ TextEvent
 :
 UIEvent
 {
+[
+NeedsSubjectPrincipal
+]
 readonly
 attribute
 DOMString
