@@ -5526,6 +5526,12 @@ MainThreadData
 <
 size_t
 >
+maxMarkingThreads
+;
+MainThreadData
+<
+size_t
+>
 markingThreadCount
 ;
 HelperThreadLockData

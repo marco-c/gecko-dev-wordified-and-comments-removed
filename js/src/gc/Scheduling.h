@@ -1091,6 +1091,13 @@ MaxHelperThreads
 =
 8
 ;
+static
+const
+size_t
+MaxMarkingThreads
+=
+2
+;
 }
 class
 GCSchedulingTunables
