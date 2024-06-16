@@ -955,7 +955,7 @@ nsLayoutUtils
 GetAllInFlowRectsFlag
 :
 :
-UseMarginBox
+UseMarginBoxWithAutoResolvedAsZero
 )
 ;
 aContain

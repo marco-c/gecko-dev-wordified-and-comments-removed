@@ -2731,6 +2731,7 @@ AccountForTransforms
 UseContentBox
 UsePaddingBox
 UseMarginBox
+UseMarginBoxWithAutoResolvedAsZero
 }
 ;
 using
