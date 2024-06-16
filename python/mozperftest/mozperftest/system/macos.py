@@ -666,6 +666,15 @@ str
 path
 )
 )
+            
+metadata
+.
+binary
+=
+str
+(
+path
+)
         
 return
 metadata

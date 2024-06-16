@@ -1946,7 +1946,7 @@ self
 get_arg
 (
 "
-binary
+browsertime_binary
 "
 )
             

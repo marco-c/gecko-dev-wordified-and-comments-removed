@@ -200,6 +200,37 @@ app_name
         
 return
 True
+def
+get_android_device_layer
+(
+layers
+)
+:
+    
+for
+layer
+in
+layers
+:
+        
+if
+layer
+.
+__class__
+.
+__name__
+=
+=
+"
+AndroidDevice
+"
+:
+            
+return
+layer
+    
+return
+None
 mock
 .
 patch
@@ -1648,12 +1679,12 @@ SYSTEM
         
 andro
 =
+get_android_device_layer
+(
 system
 .
 layers
-[
-1
-]
+)
         
 with
 system
@@ -1848,12 +1879,12 @@ SYSTEM
         
 android
 =
+get_android_device_layer
+(
 system
 .
 layers
-[
-1
-]
+)
         
 with
 system
@@ -2003,12 +2034,12 @@ SYSTEM
     
 android
 =
+get_android_device_layer
+(
 system
 .
 layers
-[
-1
-]
+)
     
 with
 system
@@ -2163,12 +2194,12 @@ SYSTEM
         
 android
 =
+get_android_device_layer
+(
 system
 .
 layers
-[
-1
-]
+)
         
 with
 system

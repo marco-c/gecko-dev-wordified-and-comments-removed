@@ -605,7 +605,7 @@ self
 get_arg
 (
 "
-binary
+xpcshell_binary
 "
 )
         

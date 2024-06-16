@@ -25,6 +25,14 @@ mozperftest
 .
 system
 .
+binarysetup
+import
+BinarySetup
+from
+mozperftest
+.
+system
+.
 macos
 import
 MacosDevice
@@ -74,6 +82,34 @@ mach_cmd
 )
 :
     
+desktop_layers
+=
+[
+        
+PingServer
+        
+BinarySetup
+        
+MacosDevice
+        
+Profile
+        
+ProxyRunner
+    
+]
+    
+mobile_layers
+=
+[
+        
+Profile
+ProxyRunner
+BinarySetup
+AndroidDevice
+AndroidStartUp
+    
+]
+    
 if
 flavor
 in
@@ -100,17 +136,7 @@ env
             
 mach_cmd
             
-(
-                
-PingServer
-                
-MacosDevice
-                
-Profile
-                
-ProxyRunner
-            
-)
+desktop_layers
         
 )
     
@@ -128,16 +154,9 @@ browser
 return
 Layers
 (
-            
 env
 mach_cmd
-(
-Profile
-ProxyRunner
-AndroidDevice
-AndroidStartUp
-)
-        
+mobile_layers
 )
     
 if
