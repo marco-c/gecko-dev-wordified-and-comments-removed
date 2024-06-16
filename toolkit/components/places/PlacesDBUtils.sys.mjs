@@ -9043,6 +9043,7 @@ idle
 daily
 "
 :
+{
 /
 /
 Once
@@ -9106,6 +9107,7 @@ maintenanceOnIdle
 }
 break
 ;
+}
 default
 :
 throw

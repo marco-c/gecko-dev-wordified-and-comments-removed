@@ -342,6 +342,7 @@ nsINavHistoryResultNode
 .
 RESULT_TYPE_FOLDER
 :
+{
 Assert
 .
 equal
@@ -601,6 +602,7 @@ root
 }
 break
 ;
+}
 case
 Ci
 .
@@ -650,6 +652,7 @@ break
 ;
 default
 :
+{
 Assert
 .
 equal
@@ -920,6 +923,7 @@ title
 ;
 }
 }
+}
 if
 (
 aIsRootItem
@@ -983,6 +987,7 @@ test
 .
 item
 .
+y
 "
 +
 itemsCount

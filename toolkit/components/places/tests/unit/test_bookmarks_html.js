@@ -2031,6 +2031,7 @@ case
 icon
 "
 :
+{
 let
 {
 data
@@ -2084,6 +2085,7 @@ icon
 ;
 break
 ;
+}
 case
 "
 keyword
@@ -2169,6 +2171,7 @@ case
 charset
 "
 :
+{
 let
 pageInfo
 =
@@ -2210,6 +2213,7 @@ charset
 ;
 break
 ;
+}
 case
 "
 feedUrl
@@ -2222,6 +2226,7 @@ case
 children
 "
 :
+{
 let
 folder
 =
@@ -2316,6 +2321,7 @@ false
 ;
 break
 ;
+}
 default
 :
 throw

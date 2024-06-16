@@ -10875,6 +10875,7 @@ bookmarks
 .
 TYPE_BOOKMARK
 :
+{
 item
 .
 type
@@ -11004,6 +11005,7 @@ postData
 }
 break
 ;
+}
 case
 PlacesUtils
 .
@@ -12514,6 +12516,7 @@ case
 hex
 "
 :
+{
 let
 hash
 =
@@ -12563,6 +12566,7 @@ join
 "
 )
 ;
+}
 case
 "
 base64
@@ -12842,6 +12846,7 @@ case
 hex
 "
 :
+{
 let
 hash
 =
@@ -12891,6 +12896,7 @@ join
 "
 )
 ;
+}
 case
 "
 base64url

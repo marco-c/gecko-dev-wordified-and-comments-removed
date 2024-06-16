@@ -1816,6 +1816,7 @@ case
 icon
 "
 :
+{
 let
 {
 data
@@ -1867,6 +1868,7 @@ icon
 ;
 break
 ;
+}
 case
 "
 keyword
@@ -1971,6 +1973,7 @@ case
 charset
 "
 :
+{
 let
 pageInfo
 =
@@ -2012,11 +2015,13 @@ charset
 ;
 break
 ;
+}
 case
 "
 children
 "
 :
+{
 let
 folder
 =
@@ -2111,11 +2116,13 @@ false
 ;
 break
 ;
+}
 case
 "
 tags
 "
 :
+{
 let
 uri
 =
@@ -2156,6 +2163,7 @@ tags
 ;
 break
 ;
+}
 default
 :
 throw
