@@ -514,6 +514,14 @@ GetStringInfo
 )
 override
 ;
+void
+DidAnimateString
+(
+PRUint8
+aAttrEnum
+)
+override
+;
 nsIContent
 *
 AsContent
