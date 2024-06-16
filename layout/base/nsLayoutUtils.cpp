@@ -19815,7 +19815,13 @@ mRectList
 >
 Append
 (
+std
+:
+:
+move
+(
 rect
+)
 )
 ;
 }

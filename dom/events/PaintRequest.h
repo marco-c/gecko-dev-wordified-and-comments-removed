@@ -241,8 +241,12 @@ mParent
 void
 Append
 (
+RefPtr
+<
 PaintRequest
-*
+>
+&
+&
 aElement
 )
 {
@@ -250,7 +254,13 @@ mArray
 .
 AppendElement
 (
+std
+:
+:
+move
+(
 aElement
+)
 )
 ;
 }

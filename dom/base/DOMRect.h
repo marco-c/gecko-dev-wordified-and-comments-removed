@@ -804,8 +804,12 @@ mParent
 void
 Append
 (
+RefPtr
+<
 DOMRect
-*
+>
+&
+&
 aElement
 )
 {
@@ -813,7 +817,13 @@ mArray
 .
 AppendElement
 (
+std
+:
+:
+move
+(
 aElement
+)
 )
 ;
 }
