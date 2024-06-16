@@ -93,7 +93,7 @@ waitForCondition
 let
 timeSinceShown
 =
-performance
+Cu
 .
 now
 (
