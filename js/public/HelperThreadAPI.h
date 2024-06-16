@@ -21,6 +21,9 @@ h
 namespace
 JS
 {
+class
+HelperThreadTask
+;
 enum
 class
 DispatchReason
@@ -37,6 +40,9 @@ void
 *
 )
 (
+HelperThreadTask
+*
+task
 DispatchReason
 reason
 )
@@ -59,6 +65,9 @@ JS_PUBLIC_API
 void
 RunHelperThreadTask
 (
+HelperThreadTask
+*
+task
 )
 ;
 }
