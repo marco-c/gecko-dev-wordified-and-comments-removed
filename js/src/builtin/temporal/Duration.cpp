@@ -628,6 +628,7 @@ Duration
 duration
 )
 {
+const
 auto
 &
 [
@@ -716,6 +717,7 @@ Duration
 duration
 )
 {
+const
 auto
 &
 [
@@ -902,6 +904,7 @@ duration
 )
 )
 ;
+const
 auto
 &
 [
@@ -976,6 +979,7 @@ DateDuration
 duration
 )
 {
+const
 auto
 &
 [
@@ -2516,6 +2520,7 @@ duration
 )
 )
 ;
+const
 auto
 &
 [
@@ -2864,6 +2869,7 @@ duration
 )
 )
 ;
+const
 auto
 &
 [
@@ -3279,6 +3285,7 @@ DateDuration
 duration
 )
 {
+const
 auto
 &
 [
@@ -3765,6 +3772,7 @@ Duration
 duration
 )
 {
+const
 auto
 &
 [
@@ -4089,6 +4097,7 @@ Duration
 duration
 )
 {
+const
 auto
 &
 [
@@ -8045,6 +8054,7 @@ return
 true
 ;
 }
+const
 auto
 &
 yearsMonthsWeeksDaysDuration
@@ -8157,6 +8167,7 @@ return
 true
 ;
 }
+const
 auto
 &
 monthsWeeksDaysDuration
@@ -8238,6 +8249,7 @@ months
 0
 )
 ;
+const
 auto
 &
 weeksDaysDuration
