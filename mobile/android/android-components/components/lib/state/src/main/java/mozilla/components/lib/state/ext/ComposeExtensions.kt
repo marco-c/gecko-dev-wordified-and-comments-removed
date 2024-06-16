@@ -578,9 +578,6 @@ initialValue
 initialValue
 )
 {
-val
-subscription
-=
 observe
 (
 lifecycleOwner
@@ -594,15 +591,6 @@ value
 map
 (
 browserState
-)
-}
-awaitDispose
-{
-subscription
-?
-.
-unsubscribe
-(
 )
 }
 }
