@@ -134,7 +134,7 @@ shortcutShortLabel
 "
 string
 /
-home_screen_shortcut_open_password_screen
+home_screen_shortcut_passwords
 "
 android
 :
@@ -143,7 +143,7 @@ shortcutLongLabel
 "
 string
 /
-home_screen_shortcut_open_password_screen
+home_screen_shortcut_passwords
 "
 >
 <
