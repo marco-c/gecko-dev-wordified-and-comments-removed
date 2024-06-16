@@ -4856,7 +4856,7 @@ WritingMode
 BlockDir
 :
 :
-eBlockLR
+LR
 :
 return
 PhysicalArrowDirection
@@ -4871,7 +4871,7 @@ WritingMode
 BlockDir
 :
 :
-eBlockRL
+RL
 :
 return
 PhysicalArrowDirection
@@ -4886,7 +4886,7 @@ WritingMode
 BlockDir
 :
 :
-eBlockTB
+TB
 :
 return
 PhysicalArrowDirection

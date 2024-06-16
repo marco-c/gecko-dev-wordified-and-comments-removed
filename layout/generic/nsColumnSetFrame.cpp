@@ -2653,7 +2653,10 @@ case
 WritingMode
 :
 :
-eBlockTB
+BlockDir
+:
+:
+TB
 :
 if
 (
@@ -2684,7 +2687,10 @@ case
 WritingMode
 :
 :
-eBlockLR
+BlockDir
+:
+:
+LR
 :
 if
 (
@@ -2715,7 +2721,10 @@ case
 WritingMode
 :
 :
-eBlockRL
+BlockDir
+:
+:
+RL
 :
 reflowChild
 =

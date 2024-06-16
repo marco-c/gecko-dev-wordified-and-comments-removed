@@ -1775,7 +1775,10 @@ GetInlineDir
 WritingMode
 :
 :
-eInlineRTL
+InlineDir
+:
+:
+RTL
 |
 |
 wm
@@ -1788,7 +1791,10 @@ GetBlockDir
 WritingMode
 :
 :
-eBlockRL
+BlockDir
+:
+:
+RL
 )
 &
 &
@@ -1851,7 +1857,10 @@ GetInlineDir
 WritingMode
 :
 :
-eInlineBTT
+InlineDir
+:
+:
+BTT
 &
 &
 !

@@ -382,7 +382,10 @@ mozilla
 WritingMode
 :
 :
-eBlockTB
+BlockDir
+:
+:
+TB
 |
 |
 wm
@@ -398,7 +401,10 @@ mozilla
 WritingMode
 :
 :
-eInlineBTT
+InlineDir
+:
+:
+BTT
 ;
 }
 double
