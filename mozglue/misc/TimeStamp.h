@@ -1772,7 +1772,6 @@ uint64_t
 RawClockMonotonicNanosecondsSinceBoot
 (
 )
-const
 {
 return
 static_cast
