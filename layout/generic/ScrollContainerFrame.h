@@ -666,12 +666,6 @@ GetScrollStyles
 const
 ;
 bool
-IsForTextControlWithNoScrollbars
-(
-)
-const
-;
-bool
 HasAllNeededScrollbars
 (
 )
