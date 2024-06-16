@@ -17,6 +17,12 @@ Optional
 Mapping
 import
 websockets
+from
+websockets
+.
+exceptions
+import
+ConnectionClosed
 logger
 =
 logging
@@ -461,6 +467,9 @@ is
 not
 None
         
+try
+:
+            
 async
 for
 msg
@@ -469,7 +478,7 @@ self
 .
 connection
 :
-            
+                
 if
 not
 isinstance
@@ -478,7 +487,7 @@ msg
 str
 )
 :
-                
+                    
 raise
 ValueError
 (
@@ -489,13 +498,30 @@ binary
 message
 "
 )
-            
+                
 await
 self
 .
 handle
 (
 msg
+)
+        
+except
+ConnectionClosed
+:
+            
+logger
+.
+debug
+(
+"
+connection
+closed
+while
+reading
+messages
+"
 )
     
 async
