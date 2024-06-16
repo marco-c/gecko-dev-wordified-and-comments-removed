@@ -136,12 +136,12 @@ style_traits
 {
 Comma
 CssWriter
+KeywordsCollectFn
 OneOrMoreSeparated
 ParseError
+SpecifiedValueInfo
 StyleParseErrorKind
 ToCss
-KeywordsCollectFn
-SpecifiedValueInfo
 }
 ;
 #

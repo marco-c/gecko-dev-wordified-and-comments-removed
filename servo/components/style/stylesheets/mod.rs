@@ -35,6 +35,9 @@ mod
 loader
 ;
 mod
+margin_rule
+;
+mod
 media_rule
 ;
 mod
@@ -46,9 +49,6 @@ origin
 ;
 mod
 page_rule
-;
-mod
-margin_rule
 ;
 mod
 property_rule

@@ -1491,6 +1491,7 @@ root
 |
 context
 |
+{
 add_rule_if_matching
 (
 element
@@ -1505,6 +1506,7 @@ cascade_data
 stylist
 include_starting_style
 )
+}
 )
 ;
 }
@@ -3160,7 +3162,6 @@ local_name
 }
 =
 >
-{
 Bucket
 :
 :
@@ -3172,7 +3173,6 @@ local_name
 lower_name
 :
 local_name
-}
 }
 Component
 :
@@ -3293,7 +3293,6 @@ selector
 )
 =
 >
-{
 find_bucket
 (
 selector
@@ -3303,7 +3302,6 @@ iter
 )
 disjoint_buckets
 )
-}
 Component
 :
 :
@@ -3317,7 +3315,6 @@ selector
 )
 =
 >
-{
 find_bucket
 (
 selector
@@ -3327,7 +3324,6 @@ iter
 )
 disjoint_buckets
 )
-}
 Component
 :
 :

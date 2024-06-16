@@ -2612,6 +2612,7 @@ ForcedColors
 :
 :
 None
+;
 }
 let
 prefs
@@ -2633,6 +2634,7 @@ ForcedColors
 :
 :
 Active
+;
 }
 if
 cfg

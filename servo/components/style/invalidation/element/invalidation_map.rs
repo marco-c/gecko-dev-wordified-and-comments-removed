@@ -37,16 +37,16 @@ use
 crate
 :
 :
-AllocErr
+values
+:
+:
+AtomIdent
 ;
 use
 crate
 :
 :
-values
-:
-:
-AtomIdent
+AllocErr
 ;
 use
 crate
@@ -5047,7 +5047,6 @@ Component
 Empty
 =
 >
-{
 Ok
 (
 ComponentVisitResult
@@ -5061,7 +5060,6 @@ TSStateForInvalidation
 EMPTY
 )
 )
-}
 Component
 :
 :
