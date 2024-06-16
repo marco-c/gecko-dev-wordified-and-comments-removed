@@ -5461,9 +5461,10 @@ TestPort
 (
 &
 main_
-"
-test
-"
+cricket
+:
+:
+LOCAL_PORT_TYPE
 &
 socket_factory_
 MakeNetwork
@@ -5602,9 +5603,10 @@ TestPort
 (
 &
 main_
-"
-test
-"
+cricket
+:
+:
+LOCAL_PORT_TYPE
 &
 socket_factory_
 network
