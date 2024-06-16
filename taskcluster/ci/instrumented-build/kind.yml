@@ -615,7 +615,9 @@ projects
 :
 [
 '
-release
+mozilla
+-
+central
 '
 ]
 fetches

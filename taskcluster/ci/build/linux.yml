@@ -9235,6 +9235,17 @@ mozilla
 central
 '
 ]
+run
+-
+on
+-
+releases
+:
+[
+'
+nightly
+'
+]
 fetches
 :
 toolchain
