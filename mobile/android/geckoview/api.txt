@@ -1985,6 +1985,17 @@ NonNull
 Autocomplete
 .
 LoginEntry
+int
+)
+;
+ctor
+public
+LoginSelectOption
+(
+NonNull
+Autocomplete
+.
+LoginEntry
 )
 ;
 }

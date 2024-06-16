@@ -3357,6 +3357,7 @@ SelectOption
 LoginEntry
 >
 {
+public
 LoginSelectOption
 (
 final
