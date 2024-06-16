@@ -61,7 +61,7 @@ const
 ping_entry_t
 sPingByNameLookupEntries
 [
-5
+6
 ]
 ;
 }
