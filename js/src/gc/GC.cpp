@@ -6117,6 +6117,15 @@ minorGCNumber
 )
 ;
 case
+JSGC_SLICE_NUMBER
+:
+return
+uint32_t
+(
+sliceNumber
+)
+;
+case
 JSGC_INCREMENTAL_GC_ENABLED
 :
 return
