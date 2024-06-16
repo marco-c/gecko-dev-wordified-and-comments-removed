@@ -281,14 +281,6 @@ GetWritingMode
 )
 )
 {
-mColIndex
-=
-0
-;
-mPriorAvailISize
-=
-0
-;
 SetContentEmpty
 (
 false
