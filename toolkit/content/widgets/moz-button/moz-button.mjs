@@ -421,6 +421,9 @@ String
 reflect
 :
 true
+fluent
+:
+true
 }
 type
 :
@@ -483,6 +486,9 @@ tooltipText
 type
 :
 String
+fluent
+:
+true
 }
 ariaLabelAttribute
 :
