@@ -11,9 +11,6 @@ load_sync
 }
 ;
 use
-moz_task
-;
-use
 std
 :
 :
