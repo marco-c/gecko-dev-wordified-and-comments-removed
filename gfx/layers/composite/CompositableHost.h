@@ -409,13 +409,12 @@ return
 0
 ;
 }
-protected
-:
-protected
-:
+const
 TextureInfo
 mTextureInfo
 ;
+protected
+:
 AsyncCompositableRef
 mAsyncRef
 ;

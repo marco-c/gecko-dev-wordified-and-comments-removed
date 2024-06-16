@@ -29280,6 +29280,10 @@ MakeAndAddRef
 ImageContainer
 >
 (
+ImageUsageType
+:
+:
+VideoFrameContainer
 ImageContainer
 :
 :

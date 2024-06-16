@@ -227,6 +227,10 @@ CompositableType
 :
 :
 IMAGE
+ImageUsageType
+:
+:
+Canvas
 mTextureFlags
 )
 ;

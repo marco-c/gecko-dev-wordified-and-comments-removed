@@ -258,6 +258,8 @@ CreateImageClient
 (
 CompositableType
 aCompositableHostType
+ImageUsageType
+aUsageType
 CompositableForwarder
 *
 aForwarder
@@ -295,6 +297,7 @@ CompositableType
 :
 :
 IMAGE
+aUsageType
 )
 ;
 break
@@ -380,6 +383,8 @@ TextureFlags
 aFlags
 CompositableType
 aType
+ImageUsageType
+aUsageType
 )
 :
 ImageClient
@@ -387,6 +392,7 @@ ImageClient
 aFwd
 aFlags
 aType
+aUsageType
 )
 {
 }
@@ -406,6 +412,11 @@ CompositableType
 :
 :
 IMAGE
+mUsageType
+TextureFlags
+:
+:
+DEFAULT
 )
 ;
 }
@@ -1487,6 +1498,8 @@ TextureFlags
 aFlags
 CompositableType
 aType
+ImageUsageType
+aUsageType
 )
 :
 CompositableClient
@@ -1497,6 +1510,10 @@ aFlags
 mType
 (
 aType
+)
+mUsageType
+(
+aUsageType
 )
 mLastUpdateGenerationCounter
 (

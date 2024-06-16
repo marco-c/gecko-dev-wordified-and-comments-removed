@@ -1223,6 +1223,10 @@ CompositableType
 :
 :
 IMAGE
+ImageUsageType
+:
+:
+WebRenderImageData
 WrBridge
 (
 )
@@ -2027,6 +2031,14 @@ MakeAndAddRef
 ImageContainer
 >
 (
+ImageUsageType
+:
+:
+Canvas
+ImageContainer
+:
+:
+SYNCHRONOUS
 )
 ;
 }

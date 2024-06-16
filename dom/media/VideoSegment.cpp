@@ -216,6 +216,10 @@ MakeAndAddRef
 ImageContainer
 >
 (
+ImageUsageType
+:
+:
+BlackImage
 ImageContainer
 :
 :
