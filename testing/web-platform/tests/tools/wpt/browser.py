@@ -11141,6 +11141,7 @@ version
 browser_binary
 )
 dest
+channel
 )
     
 def
