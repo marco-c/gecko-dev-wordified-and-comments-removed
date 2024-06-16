@@ -154,7 +154,10 @@ GatherTotalMemory
 nsresult
 FinishGatheringTotalMemory
 (
+Maybe
+<
 int64_t
+>
 aTotalMemory
 const
 nsTArray
