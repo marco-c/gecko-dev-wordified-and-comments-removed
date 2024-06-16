@@ -81,10 +81,8 @@ CapabilitiesPromise
 >
 GetCapabilities
 (
-MFCDMCapabilitiesRequest
-&
-&
-aRequest
+bool
+aIsHWSecured
 )
 ;
 template

@@ -177,9 +177,8 @@ IPCResult
 RecvGetCapabilities
 (
 const
-MFCDMCapabilitiesRequest
-&
-aRequest
+bool
+aIsHWSecured
 GetCapabilitiesResolver
 &
 &

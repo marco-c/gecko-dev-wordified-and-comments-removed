@@ -7,13 +7,6 @@ DOM_MEDIA_MEDIAKEYSYSTEMACCESSMANAGER_H_
 #
 include
 "
-DecoderDoctorDiagnostics
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -117,9 +110,6 @@ Sequence
 MediaKeySystemConfiguration
 >
 mConfigs
-;
-DecoderDoctorDiagnostics
-mDiagnostics
 ;
 }
 ;
