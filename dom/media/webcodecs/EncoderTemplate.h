@@ -82,7 +82,7 @@ mozilla
 /
 dom
 /
-VideoEncoderBinding
+AudioEncoderBinding
 .
 h
 "
@@ -93,7 +93,7 @@ mozilla
 /
 dom
 /
-AudioEncoderBinding
+VideoEncoderBinding
 .
 h
 "
