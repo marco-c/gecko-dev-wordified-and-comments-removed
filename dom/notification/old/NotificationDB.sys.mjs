@@ -170,9 +170,9 @@ GetAll
 "
 ]
 ;
-var
+export
+class
 NotificationDB
-=
 {
 /
 /
@@ -191,9 +191,11 @@ xpcom
 shutdown
 is
 performed
-_shutdownInProgress
-:
+#
+shutdownInProgress
+=
 false
+;
 /
 /
 A
@@ -222,13 +224,53 @@ queue
 starts
 again
 .
-_queueDrainedPromise
-:
+#
+queueDrainedPromise
+=
 null
-_queueDrainedPromiseResolve
-:
+;
+#
+queueDrainedPromiseResolve
+=
 null
-init
+;
+#
+byTag
+=
+Object
+.
+create
+(
+null
+)
+;
+#
+notifications
+=
+Object
+.
+create
+(
+null
+)
+;
+#
+loaded
+=
+false
+;
+#
+tasks
+=
+[
+]
+;
+#
+runningTask
+=
+null
+;
+constructor
 (
 )
 {
@@ -236,7 +278,8 @@ if
 (
 this
 .
-_shutdownInProgress
+#
+shutdownInProgress
 )
 {
 return
@@ -244,6 +287,7 @@ return
 }
 this
 .
+#
 notifications
 =
 Object
@@ -255,6 +299,7 @@ null
 ;
 this
 .
+#
 byTag
 =
 Object
@@ -266,12 +311,14 @@ null
 ;
 this
 .
+#
 loaded
 =
 false
 ;
 this
 .
+#
 tasks
 =
 [
@@ -286,6 +333,7 @@ operation
 queue
 this
 .
+#
 runningTask
 =
 null
@@ -333,7 +381,8 @@ phase
 potentially
 replacing
 the
-_queueDrainedPromise
+#
+queueDrainedPromise
 if
 there
 was
@@ -370,7 +419,8 @@ processed
 >
 this
 .
-_queueDrainedPromise
+#
+queueDrainedPromise
 )
 ;
 }
@@ -455,7 +505,8 @@ shutdown
 {
 this
 .
-_shutdownInProgress
+#
+shutdownInProgress
 =
 true
 ;
@@ -674,6 +725,7 @@ tasks
 .
 this
 .
+#
 notifications
 =
 this
@@ -702,6 +754,7 @@ if
 (
 this
 .
+#
 notifications
 )
 {
@@ -712,11 +765,13 @@ origin
 in
 this
 .
+#
 notifications
 )
 {
 this
 .
+#
 byTag
 [
 origin
@@ -736,6 +791,7 @@ id
 in
 this
 .
+#
 notifications
 [
 origin
@@ -747,6 +803,7 @@ curNotification
 =
 this
 .
+#
 notifications
 [
 origin
@@ -764,6 +821,7 @@ tag
 {
 this
 .
+#
 byTag
 [
 origin
@@ -782,6 +840,7 @@ curNotification
 }
 this
 .
+#
 loaded
 =
 true
@@ -808,6 +867,7 @@ load
 {
 this
 .
+#
 loaded
 =
 true
@@ -924,6 +984,7 @@ stringify
 (
 this
 .
+#
 notifications
 )
 ;
@@ -965,6 +1026,7 @@ or
 is
 loaded
 .
+#
 ensureLoaded
 (
 )
@@ -974,6 +1036,7 @@ if
 !
 this
 .
+#
 loaded
 )
 {
@@ -1440,6 +1503,7 @@ defer
 ;
 this
 .
+#
 tasks
 .
 push
@@ -1498,6 +1562,7 @@ if
 !
 this
 .
+#
 runningTask
 )
 {
@@ -1529,7 +1594,8 @@ runNextTask
 ;
 this
 .
-_queueDrainedPromise
+#
+queueDrainedPromise
 =
 new
 Promise
@@ -1540,7 +1606,8 @@ resolve
 {
 this
 .
-_queueDrainedPromiseResolve
+#
+queueDrainedPromiseResolve
 =
 resolve
 ;
@@ -1560,6 +1627,7 @@ if
 (
 this
 .
+#
 tasks
 .
 length
@@ -1588,6 +1656,7 @@ depleted
 ;
 this
 .
+#
 runningTask
 =
 null
@@ -1596,12 +1665,14 @@ if
 (
 this
 .
-_queueDrainedPromiseResolve
+#
+queueDrainedPromiseResolve
 )
 {
 this
 .
-_queueDrainedPromiseResolve
+#
+queueDrainedPromiseResolve
 (
 )
 ;
@@ -1615,7 +1686,8 @@ console
 debug
 (
 "
-_queueDrainedPromiseResolve
+#
+queueDrainedPromiseResolve
 was
 null
 somehow
@@ -1632,10 +1704,12 @@ return
 }
 this
 .
+#
 runningTask
 =
 this
 .
+#
 tasks
 .
 shift
@@ -1660,6 +1734,7 @@ tasks
 .
 this
 .
+#
 ensureLoaded
 (
 )
@@ -1676,6 +1751,7 @@ task
 =
 this
 .
+#
 runningTask
 ;
 switch
@@ -1776,6 +1852,7 @@ task
 {
 this
 .
+#
 runningTask
 .
 operation
@@ -1784,6 +1861,7 @@ operation
 ;
 this
 .
+#
 runningTask
 .
 defer
@@ -1814,6 +1892,7 @@ running
 {
 this
 .
+#
 runningTask
 .
 operation
@@ -1826,6 +1905,7 @@ err
 ;
 this
 .
+#
 runningTask
 .
 defer
@@ -1900,6 +1980,7 @@ if
 (
 this
 .
+#
 notifications
 [
 origin
@@ -1923,6 +2004,7 @@ n
 =
 this
 .
+#
 byTag
 [
 origin
@@ -1953,6 +2035,7 @@ i
 in
 this
 .
+#
 notifications
 [
 origin
@@ -1965,6 +2048,7 @@ push
 (
 this
 .
+#
 notifications
 [
 origin
@@ -2022,6 +2106,7 @@ if
 !
 this
 .
+#
 notifications
 [
 origin
@@ -2030,6 +2115,7 @@ origin
 {
 this
 .
+#
 notifications
 [
 origin
@@ -2044,6 +2130,7 @@ null
 ;
 this
 .
+#
 byTag
 [
 origin
@@ -2094,6 +2181,7 @@ oldNotification
 =
 this
 .
+#
 byTag
 [
 origin
@@ -2112,6 +2200,7 @@ oldNotification
 delete
 this
 .
+#
 notifications
 [
 origin
@@ -2125,6 +2214,7 @@ id
 }
 this
 .
+#
 byTag
 [
 origin
@@ -2140,6 +2230,7 @@ notification
 }
 this
 .
+#
 notifications
 [
 origin
@@ -2196,6 +2287,7 @@ if
 !
 this
 .
+#
 notifications
 [
 origin
@@ -2244,6 +2336,7 @@ oldNotification
 =
 this
 .
+#
 notifications
 [
 origin
@@ -2293,6 +2386,7 @@ tag
 delete
 this
 .
+#
 byTag
 [
 origin
@@ -2307,6 +2401,7 @@ tag
 delete
 this
 .
+#
 notifications
 [
 origin
@@ -2324,10 +2419,8 @@ save
 ;
 }
 }
-;
+new
 NotificationDB
-.
-init
 (
 )
 ;
