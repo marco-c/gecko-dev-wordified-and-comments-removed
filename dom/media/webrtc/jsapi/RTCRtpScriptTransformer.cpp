@@ -833,7 +833,7 @@ Promise
 WritableStreamRTCFrameSink
 :
 :
-WriteCallback
+WriteCallbackImpl
 (
 JSContext
 *
