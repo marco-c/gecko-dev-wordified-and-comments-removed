@@ -906,7 +906,6 @@ ICOIconDecoder
 )
 SvgIconDecoder
 (
-context
 )
 )
 private
