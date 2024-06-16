@@ -927,7 +927,10 @@ GetParent
 nsLayoutUtils
 :
 :
-RECTS_USE_CONTENT_BOX
+GetAllInFlowRectsFlag
+:
+:
+UseContentBox
 )
 ;
 }
@@ -949,7 +952,10 @@ GetParent
 nsLayoutUtils
 :
 :
-RECTS_USE_MARGIN_BOX
+GetAllInFlowRectsFlag
+:
+:
+UseMarginBox
 )
 ;
 aContain
