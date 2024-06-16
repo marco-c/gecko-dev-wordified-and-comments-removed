@@ -35,7 +35,7 @@ lazyRequireGetter
 (
 this
 "
-getCSSLexer
+InspectorCSSParserWrapper
 "
 "
 resource
@@ -149,10 +149,10 @@ insertionPoint
 const
 lexer
 =
-getCSSLexer
+new
+InspectorCSSParserWrapper
 (
 value
-true
 )
 ;
 while

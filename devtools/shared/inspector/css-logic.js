@@ -14,7 +14,7 @@ lazyRequireGetter
 (
 this
 "
-getCSSLexer
+InspectorCSSParserWrapper
 "
 "
 resource
@@ -972,10 +972,10 @@ indentLevel
 const
 lexer
 =
-getCSSLexer
+new
+InspectorCSSParserWrapper
 (
 text
-true
 )
 ;
 const

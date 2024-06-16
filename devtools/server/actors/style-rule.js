@@ -53,7 +53,7 @@ js
 ;
 const
 {
-getCSSLexer
+InspectorCSSParserWrapper
 }
 =
 require
@@ -4683,10 +4683,10 @@ column
 const
 lexer
 =
-getCSSLexer
+new
+InspectorCSSParserWrapper
 (
 text
-true
 )
 ;
 let

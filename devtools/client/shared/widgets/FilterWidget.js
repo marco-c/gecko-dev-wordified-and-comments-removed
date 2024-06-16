@@ -5272,7 +5272,6 @@ of
 cssTokenizer
 (
 css
-true
 )
 )
 {

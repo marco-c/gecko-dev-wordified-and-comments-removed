@@ -24,7 +24,7 @@ unset
 ;
 const
 {
-getCSSLexer
+InspectorCSSParserWrapper
 }
 =
 require
@@ -178,12 +178,12 @@ valid
 const
 token
 =
-getCSSLexer
+new
+InspectorCSSParserWrapper
 (
 this
 .
 authored
-true
 )
 .
 nextToken
