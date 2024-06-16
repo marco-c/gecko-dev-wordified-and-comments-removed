@@ -532,6 +532,7 @@ io
 /
 testapp
 /
+loginForm
 "
 navigationToolbar
 {
@@ -546,6 +547,13 @@ toUri
 )
 )
 {
+verifyPageContent
+(
+"
+Login
+Form
+"
+)
 }
 .
 openThreeDotMenu
