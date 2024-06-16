@@ -1728,6 +1728,12 @@ framework
 )
 ;
 }
+extra_labels
+.
+sort
+(
+)
+;
 }
 }
 return

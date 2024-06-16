@@ -1021,6 +1021,12 @@ true
 ;
 }
 }
+extra_labels
+.
+sort
+(
+)
+;
 return
 reformatted
 ;
