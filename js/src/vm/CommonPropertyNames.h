@@ -1350,6 +1350,14 @@ extends
 \
 MACRO_
 (
+f16round
+"
+f16round
+"
+)
+\
+MACRO_
+(
 false_
 "
 false
