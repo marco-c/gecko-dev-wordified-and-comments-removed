@@ -408,6 +408,21 @@ git_repository
 "
 :
 "
+https
+:
+/
+/
+github
+.
+com
+/
+mozilla
+-
+l10n
+/
+firefox
+-
+l10n
 "
             
 }
