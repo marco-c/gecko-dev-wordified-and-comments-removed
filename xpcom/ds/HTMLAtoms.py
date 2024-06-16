@@ -227,6 +227,16 @@ shadowrootclonable
 Atom
 (
 "
+shadowrootserializable
+"
+"
+shadowrootserializable
+"
+)
+    
+Atom
+(
+"
 stddeviation
 "
 "
