@@ -14027,7 +14027,7 @@ aDocument
 |
 aSelection
 .
-IsCollapsed
+AreNormalAndCrossShadowBoundaryRangesCollapsed
 (
 )
 )
