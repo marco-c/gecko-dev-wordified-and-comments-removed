@@ -520,6 +520,14 @@ type_hint
 )
 :
     
+await
+subscribe_events
+(
+[
+CONTEXT_CREATED_EVENT
+]
+)
+    
 events
 =
 [
@@ -549,14 +557,6 @@ add_event_listener
 (
 CONTEXT_CREATED_EVENT
 on_event
-)
-    
-await
-subscribe_events
-(
-[
-CONTEXT_CREATED_EVENT
-]
 )
     
 context
@@ -635,6 +635,14 @@ test_page_multiple_frames
 )
 :
     
+await
+subscribe_events
+(
+[
+CONTEXT_CREATED_EVENT
+]
+)
+    
 events
 =
 [
@@ -664,14 +672,6 @@ add_event_listener
 (
 CONTEXT_CREATED_EVENT
 on_event
-)
-    
-await
-subscribe_events
-(
-[
-CONTEXT_CREATED_EVENT
-]
 )
     
 await
@@ -898,6 +898,14 @@ test_page_nested_frames
 )
 :
     
+await
+subscribe_events
+(
+[
+CONTEXT_CREATED_EVENT
+]
+)
+    
 events
 =
 [
@@ -927,14 +935,6 @@ add_event_listener
 (
 CONTEXT_CREATED_EVENT
 on_event
-)
-    
-await
-subscribe_events
-(
-[
-CONTEXT_CREATED_EVENT
-]
 )
     
 await
@@ -1387,6 +1387,14 @@ type_hint
 )
 :
     
+await
+subscribe_events
+(
+[
+CONTEXT_CREATED_EVENT
+]
+)
+    
 events
 =
 [
@@ -1416,14 +1424,6 @@ add_event_listener
 (
 CONTEXT_CREATED_EVENT
 on_event
-)
-    
-await
-subscribe_events
-(
-[
-CONTEXT_CREATED_EVENT
-]
 )
     
 user_context
