@@ -373,10 +373,12 @@ helpers
 .
 getIsTopLevelAndUnconditionallyExecuted
 (
-context
+helpers
 .
 getAncestors
 (
+context
+node
 )
 )
 )

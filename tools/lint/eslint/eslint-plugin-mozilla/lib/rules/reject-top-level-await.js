@@ -120,10 +120,12 @@ helpers
 .
 getIsTopLevelScript
 (
-context
+helpers
 .
 getAncestors
 (
+context
+node
 )
 )
 )
@@ -164,10 +166,12 @@ helpers
 .
 getIsTopLevelScript
 (
-context
+helpers
 .
 getAncestors
 (
+context
+node
 )
 )
 )
