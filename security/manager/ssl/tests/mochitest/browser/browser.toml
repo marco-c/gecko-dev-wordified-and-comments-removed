@@ -155,6 +155,13 @@ socketprocess_networking
 ]
 [
 "
+browser_clientAuth_fetch_from_extension
+.
+js
+"
+]
+[
+"
 browser_clientAuth_speculative_connection
 .
 js
