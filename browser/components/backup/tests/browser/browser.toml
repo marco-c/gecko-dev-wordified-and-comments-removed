@@ -45,3 +45,10 @@ browser_settings
 js
 "
 ]
+[
+"
+browser_settings_turn_on_scheduled_backups
+.
+js
+"
+]
