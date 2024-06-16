@@ -90,24 +90,6 @@ set
 -
 methods
 "
-        
-"
-Float16Array
-"
-        
-"
-explicit
--
-resource
--
-management
-"
-        
-"
-regexp
--
-modifiers
-"
     
 ]
 )

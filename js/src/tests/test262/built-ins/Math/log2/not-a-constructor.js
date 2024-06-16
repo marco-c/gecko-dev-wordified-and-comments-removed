@@ -40,6 +40,16 @@ log2
 )
 ;
 }
+'
+new
+Math
+.
+log2
+(
+)
+throws
+TypeError
+'
 )
 ;
 reportCompare

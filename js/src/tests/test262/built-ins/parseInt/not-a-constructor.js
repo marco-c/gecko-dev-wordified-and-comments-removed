@@ -35,6 +35,15 @@ parseInt
 )
 ;
 }
+'
+new
+parseInt
+(
+1
+)
+throws
+TypeError
+'
 )
 ;
 reportCompare

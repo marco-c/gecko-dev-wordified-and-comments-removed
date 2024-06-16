@@ -45,7 +45,7 @@ P4294967295M104249991374DT7H36M31
 string
 with
 max
-months
+weeks
 "
 ]
 [

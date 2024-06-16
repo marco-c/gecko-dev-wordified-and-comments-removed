@@ -40,6 +40,16 @@ resolve
 )
 ;
 }
+'
+new
+Promise
+.
+resolve
+(
+)
+throws
+TypeError
+'
 )
 ;
 reportCompare

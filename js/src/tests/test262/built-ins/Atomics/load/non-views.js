@@ -23,6 +23,17 @@ view
 )
 ;
 }
+'
+Atomics
+.
+load
+(
+view
+0
+)
+throws
+TypeError
+'
 )
 ;
 }

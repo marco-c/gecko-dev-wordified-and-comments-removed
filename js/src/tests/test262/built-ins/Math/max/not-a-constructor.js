@@ -40,6 +40,16 @@ max
 )
 ;
 }
+'
+new
+Math
+.
+max
+(
+)
+throws
+TypeError
+'
 )
 ;
 reportCompare

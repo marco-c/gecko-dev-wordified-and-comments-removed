@@ -40,6 +40,16 @@ parse
 )
 ;
 }
+'
+new
+Date
+.
+parse
+(
+)
+throws
+TypeError
+'
 )
 ;
 reportCompare

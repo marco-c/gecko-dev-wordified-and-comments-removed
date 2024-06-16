@@ -109,6 +109,14 @@ executorFunction
 )
 ;
 }
+'
+new
+executorFunction
+(
+)
+throws
+TypeError
+'
 )
 ;
 reportCompare

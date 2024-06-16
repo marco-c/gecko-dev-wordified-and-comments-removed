@@ -40,6 +40,16 @@ isView
 )
 ;
 }
+'
+new
+ArrayBuffer
+.
+isView
+(
+)
+throws
+TypeError
+'
 )
 ;
 reportCompare

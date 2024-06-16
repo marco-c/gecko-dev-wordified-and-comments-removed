@@ -41,6 +41,17 @@ null
 )
 ;
 }
+'
+new
+Object
+.
+create
+(
+null
+)
+throws
+TypeError
+'
 )
 ;
 reportCompare

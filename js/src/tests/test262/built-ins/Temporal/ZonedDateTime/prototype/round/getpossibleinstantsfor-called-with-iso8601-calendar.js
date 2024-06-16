@@ -128,7 +128,7 @@ round
 smallestUnit
 :
 "
-day
+hours
 "
 }
 )
@@ -140,14 +140,14 @@ sameValue
 timeZone
 .
 calls
-4
+6
 "
 getPossibleInstantsFor
 should
 have
 been
 called
-4
+6
 times
 "
 )

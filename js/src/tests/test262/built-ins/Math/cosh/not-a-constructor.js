@@ -40,6 +40,16 @@ cosh
 )
 ;
 }
+'
+new
+Math
+.
+cosh
+(
+)
+throws
+TypeError
+'
 )
 ;
 reportCompare

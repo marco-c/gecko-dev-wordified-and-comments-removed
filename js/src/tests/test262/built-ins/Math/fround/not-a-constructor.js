@@ -40,6 +40,16 @@ fround
 )
 ;
 }
+'
+new
+Math
+.
+fround
+(
+)
+throws
+TypeError
+'
 )
 ;
 reportCompare
