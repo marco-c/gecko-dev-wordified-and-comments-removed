@@ -339,4 +339,12 @@ id
 .
 translationsDialogFragment
 )
+FromMenuDialogFragment
+(
+R
+.
+id
+.
+menuDialogFragment
+)
 }
