@@ -668,7 +668,7 @@ TEST
 TestAudioCallbackDriver
 StartStop
 )
-MOZ_CAN_RUN_SCRIPT_FOR_DEFINITION
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 {
 const
 TrackRate
@@ -916,7 +916,7 @@ const
 TrackRate
 aRate
 )
-MOZ_CAN_RUN_SCRIPT_FOR_DEFINITION
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 {
 std
 :
@@ -1594,7 +1594,6 @@ TEST
 TestAudioCallbackDriver
 SlowStart
 )
-MOZ_CAN_RUN_SCRIPT_FOR_DEFINITION
 {
 TestSlowStart
 (
