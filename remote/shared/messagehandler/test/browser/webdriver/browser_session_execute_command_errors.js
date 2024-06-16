@@ -82,6 +82,11 @@ WebDriverSession
 new
 Set
 (
+[
+"
+bidi
+"
+]
 )
 )
 ;
@@ -159,6 +164,11 @@ WebDriverSession
 new
 Set
 (
+[
+"
+bidi
+"
+]
 )
 )
 ;

@@ -1277,7 +1277,7 @@ HTTP
 session
 this
 .
-_flags
+_sessionConfigFlags
 =
 new
 Set
@@ -3076,7 +3076,7 @@ createSession
 capabilities
 this
 .
-_flags
+_sessionConfigFlags
 )
 ;
 }
@@ -3122,7 +3122,7 @@ WebDriverSession
 capabilities
 this
 .
-_flags
+_sessionConfigFlags
 )
 ;
 this
