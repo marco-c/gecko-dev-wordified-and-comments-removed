@@ -191,7 +191,7 @@ size_t
 waste
 ;
 size_t
-page_cache
+pages_dirty
 ;
 size_t
 pages_fresh

@@ -20545,7 +20545,7 @@ waste
 aStats
 -
 >
-page_cache
+pages_dirty
 =
 0
 ;
@@ -21050,7 +21050,7 @@ arena_allocated
 aStats
 -
 >
-page_cache
+pages_dirty
 +
 =
 arena_dirty
@@ -21205,7 +21205,7 @@ waste
 aStats
 -
 >
-page_cache
+pages_dirty
 +
 aStats
 -
