@@ -19124,7 +19124,7 @@ aUpdates
 )
 ;
 let
-success
+result
 =
 await
 gAUS
@@ -19137,8 +19137,14 @@ false
 ;
 if
 (
+result
 !
-success
+=
+Ci
+.
+nsIApplicationUpdateService
+.
+DOWNLOAD_SUCCESS
 )
 {
 do_throw
@@ -19150,7 +19156,7 @@ downloadUpdate
 returned
 "
 +
-success
+result
 )
 ;
 }

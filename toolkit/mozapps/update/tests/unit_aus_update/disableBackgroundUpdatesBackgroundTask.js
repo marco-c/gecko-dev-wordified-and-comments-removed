@@ -131,7 +131,7 @@ updates
 )
 ;
 let
-success
+result
 =
 await
 gAUS
@@ -146,8 +146,12 @@ Assert
 .
 equal
 (
-success
-false
+result
+Ci
+.
+nsIApplicationUpdateService
+.
+DOWNLOAD_FAILURE_GENERIC
 "
 Update
 should
