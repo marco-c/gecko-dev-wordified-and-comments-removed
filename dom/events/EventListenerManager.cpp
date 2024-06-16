@@ -6764,6 +6764,9 @@ aDOMEvent
 )
 ;
 }
+nsAutoMicroTask
+mt
+;
 if
 (
 listenerHolder
