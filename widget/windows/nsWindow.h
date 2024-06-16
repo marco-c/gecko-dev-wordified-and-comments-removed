@@ -2679,14 +2679,6 @@ Nothing
 ;
 static
 bool
-NeedsToHandleNCActivateDelayed
-(
-HWND
-aWnd
-)
-;
-static
-bool
 DealWithPopups
 (
 HWND
