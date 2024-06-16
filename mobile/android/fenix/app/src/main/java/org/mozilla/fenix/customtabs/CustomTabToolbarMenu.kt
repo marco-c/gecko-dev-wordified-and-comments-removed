@@ -529,9 +529,8 @@ app_name
 )
 private
 val
-shouldShowMenuToolbar
+isNavBarEnabled
 =
-!
 IncompleteRedesignToolbarFeature
 (
 context
@@ -542,6 +541,12 @@ settings
 )
 .
 isEnabled
+private
+val
+shouldShowMenuToolbar
+=
+!
+isNavBarEnabled
 override
 val
 menuToolbar
@@ -1023,6 +1028,10 @@ visible
 {
 !
 isSandboxCustomTab
+&
+&
+!
+isNavBarEnabled
 }
 }
 BrowserMenuDivider
