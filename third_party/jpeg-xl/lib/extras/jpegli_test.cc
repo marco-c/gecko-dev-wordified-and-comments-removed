@@ -1841,7 +1841,7 @@ ppf_in
 EXPECT_EQ
 (
 "
-RGB_D65_202_Rel_HLG
+Rec2100HLG
 "
 Description
 (

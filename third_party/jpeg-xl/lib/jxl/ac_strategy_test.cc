@@ -12,14 +12,12 @@ h
 #
 include
 <
-string
-.
-h
+algorithm
 >
 #
 include
 <
-cmath
+cstring
 >
 #
 include
@@ -52,11 +50,6 @@ h
 >
 #
 include
-<
-utility
->
-#
-include
 "
 lib
 /
@@ -75,7 +68,7 @@ lib
 /
 jxl
 /
-dct_scales
+coeff_order_fwd
 .
 h
 "

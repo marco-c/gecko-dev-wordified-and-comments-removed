@@ -7,16 +7,7 @@ LIB_JXL_DEC_TRANSFORMS_TESTONLY_H_
 #
 include
 <
-stddef
-.
-h
->
-#
-include
-<
-stdint
-.
-h
+cstddef
 >
 #
 include

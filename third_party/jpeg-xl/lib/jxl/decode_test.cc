@@ -11428,7 +11428,7 @@ nullptr
 )
 0
 .
-56f
+58f
 )
 ;
 JxlDecoderDestroy
@@ -14878,7 +14878,7 @@ nullptr
 )
 1
 .
-3f
+9f
 )
 ;
 JxlDecoderDestroy

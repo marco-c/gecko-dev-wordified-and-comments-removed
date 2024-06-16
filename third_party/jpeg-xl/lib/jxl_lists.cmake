@@ -151,6 +151,13 @@ jxl
 /
 base
 /
+include_jpeglib
+.
+h
+jxl
+/
+base
+/
 matrix_ops
 .
 h
@@ -189,6 +196,13 @@ base
 rational_polynomial
 -
 inl
+.
+h
+jxl
+/
+base
+/
+rect
 .
 h
 jxl

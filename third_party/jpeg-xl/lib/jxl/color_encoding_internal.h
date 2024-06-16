@@ -25,6 +25,15 @@ h
 #
 include
 <
+jxl
+/
+types
+.
+h
+>
+#
+include
+<
 stddef
 .
 h

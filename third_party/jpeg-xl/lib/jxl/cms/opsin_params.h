@@ -6,6 +6,16 @@ define
 LIB_JXL_CMS_OPSIN_PARAMS_H_
 #
 include
+<
+array
+>
+#
+include
+<
+cstddef
+>
+#
+include
 "
 lib
 /

@@ -995,6 +995,7 @@ binaries
 add_library
 (
 jxl_extras_codec
+STATIC
 <
 TARGET_OBJECTS
 :

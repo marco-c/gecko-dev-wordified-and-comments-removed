@@ -1,9 +1,9 @@
 #
 ifndef
-LIB_JXL_EXIF_H_
+LIB_JXL_BASE_EXIF_H_
 #
 define
-LIB_JXL_EXIF_H_
+LIB_JXL_BASE_EXIF_H_
 #
 include
 <

@@ -50,7 +50,7 @@ jxl
 /
 base
 /
-span
+status
 .
 h
 "
@@ -84,17 +84,6 @@ lib
 jxl
 /
 enc_ans
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
-enc_aux_out
 .
 h
 "

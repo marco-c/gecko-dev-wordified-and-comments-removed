@@ -1173,6 +1173,12 @@ progression_index
 bool
 codestream_done
 =
+jpeg_bytes
+=
+=
+nullptr
+&
+&
 accepted_formats
 .
 empty

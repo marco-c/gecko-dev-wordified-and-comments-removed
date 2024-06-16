@@ -7,14 +7,12 @@ LIB_JXL_DCT_FOR_TEST_H_
 #
 include
 <
-string
-.
-h
+cmath
 >
 #
 include
 <
-cmath
+cstring
 >
 #
 include
