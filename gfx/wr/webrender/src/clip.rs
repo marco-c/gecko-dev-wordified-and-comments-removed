@@ -3949,6 +3949,13 @@ coordinate_system_id
 let
 scale_offset
 =
+clip_spatial_node
+.
+content_transform
+.
+then
+(
+&
 prim_spatial_node
 .
 content_transform
@@ -3956,13 +3963,6 @@ content_transform
 inverse
 (
 )
-.
-pre_transform
-(
-&
-clip_spatial_node
-.
-content_transform
 )
 ;
 ClipSpaceConversion
