@@ -28,6 +28,14 @@ cpp
 "
 "
 /
+mfbt
+/
+TaggedAnonymousMemory
+.
+cpp
+"
+"
+/
 mozglue
 /
 misc
