@@ -2645,6 +2645,12 @@ defaultParent
 :
 {
 }
+backupFileToRestore
+:
+null
+backupFileInfo
+:
+null
 backupInProgress
 :
 false
