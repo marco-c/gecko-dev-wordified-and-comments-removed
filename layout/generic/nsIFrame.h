@@ -10750,7 +10750,7 @@ Maybe
 <
 nscoord
 >
-ComputeInlineSizeFromAspectRatio
+ComputeISizeValueFromAspectRatio
 (
 mozilla
 :

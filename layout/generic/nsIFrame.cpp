@@ -32507,7 +32507,7 @@ nscoord
 nsIFrame
 :
 :
-ComputeInlineSizeFromAspectRatio
+ComputeISizeValueFromAspectRatio
 (
 WritingMode
 aWM
@@ -32721,7 +32721,7 @@ Maybe
 <
 nscoord
 >
-intrinsicSizeFromAspectRatio
+iSizeFromAspectRatio
 =
 aSize
 =
@@ -32735,7 +32735,7 @@ Nothing
 (
 )
 :
-ComputeInlineSizeFromAspectRatio
+ComputeISizeValueFromAspectRatio
 (
 aWM
 aContainingBlockSize
@@ -32760,10 +32760,10 @@ MaxContent
 :
 result
 =
-intrinsicSizeFromAspectRatio
+iSizeFromAspectRatio
 ?
 *
-intrinsicSizeFromAspectRatio
+iSizeFromAspectRatio
 :
 GetPrefISize
 (
@@ -32789,7 +32789,7 @@ zero
 return
 {
 result
-intrinsicSizeFromAspectRatio
+iSizeFromAspectRatio
 ?
 AspectRatioUsage
 :
@@ -32810,10 +32810,10 @@ MinContent
 :
 result
 =
-intrinsicSizeFromAspectRatio
+iSizeFromAspectRatio
 ?
 *
-intrinsicSizeFromAspectRatio
+iSizeFromAspectRatio
 :
 GetMinISize
 (
@@ -32888,7 +32888,7 @@ result
 return
 {
 result
-intrinsicSizeFromAspectRatio
+iSizeFromAspectRatio
 ?
 AspectRatioUsage
 :
@@ -32926,7 +32926,7 @@ min
 ;
 if
 (
-intrinsicSizeFromAspectRatio
+iSizeFromAspectRatio
 )
 {
 pref
@@ -32934,7 +32934,7 @@ pref
 min
 =
 *
-intrinsicSizeFromAspectRatio
+iSizeFromAspectRatio
 ;
 }
 else

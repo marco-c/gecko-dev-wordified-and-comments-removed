@@ -22887,7 +22887,7 @@ Maybe
 <
 nscoord
 >
-aInlineSizeFromAspectRatio
+aISizeFromAspectRatio
 nsIFrame
 :
 :
@@ -23056,13 +23056,13 @@ aFrame
 ;
 if
 (
-aInlineSizeFromAspectRatio
+aISizeFromAspectRatio
 )
 {
 aResult
 =
 *
-aInlineSizeFromAspectRatio
+aISizeFromAspectRatio
 ;
 }
 else
@@ -23136,7 +23136,7 @@ Maybe
 <
 nscoord
 >
-aInlineSizeFromAspectRatio
+aISizeFromAspectRatio
 nsIFrame
 :
 :
@@ -23177,7 +23177,7 @@ GetIntrinsicCoord
 length
 aRenderingContext
 aFrame
-aInlineSizeFromAspectRatio
+aISizeFromAspectRatio
 aProperty
 aContentBoxToBoxSizingDiff
 aResult
@@ -23358,7 +23358,7 @@ Maybe
 <
 nscoord
 >
-aInlineSizeFromAspectRatio
+aISizeFromAspectRatio
 uint32_t
 aFlags
 PhysicalAxis
@@ -23493,7 +23493,7 @@ IsFitContentFunction
 {
 if
 (
-aInlineSizeFromAspectRatio
+aISizeFromAspectRatio
 )
 {
 minContent
@@ -23501,7 +23501,7 @@ minContent
 maxContent
 =
 *
-aInlineSizeFromAspectRatio
+aISizeFromAspectRatio
 ;
 }
 else
@@ -23584,7 +23584,7 @@ GetIntrinsicCoord
 aStyleSize
 aRenderingContext
 aFrame
-aInlineSizeFromAspectRatio
+aISizeFromAspectRatio
 nsIFrame
 :
 :
@@ -23683,7 +23683,7 @@ GetIntrinsicCoord
 aStyleMaxSize
 aRenderingContext
 aFrame
-aInlineSizeFromAspectRatio
+aISizeFromAspectRatio
 nsIFrame
 :
 :
@@ -23789,7 +23789,7 @@ GetIntrinsicCoord
 aStyleMinSize
 aRenderingContext
 aFrame
-aInlineSizeFromAspectRatio
+aISizeFromAspectRatio
 nsIFrame
 :
 :
@@ -24691,7 +24691,7 @@ Maybe
 <
 nscoord
 >
-inlineSizeFromAspectRatio
+iSizeFromAspectRatio
 ;
 Maybe
 <
@@ -25234,7 +25234,7 @@ h
 contentBoxSizeToBoxSizingAdjust
 )
 ;
-inlineSizeFromAspectRatio
+iSizeFromAspectRatio
 .
 emplace
 (
@@ -25526,7 +25526,7 @@ SupportsAspectRatio
 &
 &
 !
-inlineSizeFromAspectRatio
+iSizeFromAspectRatio
 )
 {
 const
@@ -25625,7 +25625,7 @@ bSize
 =
 bSizeTakenByBoxSizing
 ;
-inlineSizeFromAspectRatio
+iSizeFromAspectRatio
 .
 emplace
 (
@@ -25677,7 +25677,7 @@ maxISize
 :
 nullptr
 styleMaxISize
-inlineSizeFromAspectRatio
+iSizeFromAspectRatio
 aFlags
 aAxis
 )
