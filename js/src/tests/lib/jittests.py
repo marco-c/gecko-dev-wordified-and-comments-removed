@@ -2431,7 +2431,9 @@ cmd
 =
 list
 (
-set
+dict
+.
+fromkeys
 (
 self
 .
