@@ -206,7 +206,7 @@ targetActor
 {
 xpcShellTargetActors
 .
-remove
+delete
 (
 targetActor
 )
