@@ -12609,15 +12609,6 @@ IntrinsicArrayIteratorPrototypeOptimizable
 JS_FN
 (
 "
-ArrayNativeSort
-"
-intrinsic_ArrayNativeSort
-1
-0
-)
-JS_FN
-(
-"
 AssertionFailed
 "
 intrinsic_AssertionFailed
