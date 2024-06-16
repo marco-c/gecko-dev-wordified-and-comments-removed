@@ -70,7 +70,7 @@ contextual
 ;
 const
 {
-ParentProcessWatcherRegistry
+WatcherRegistry
 }
 =
 ChromeUtils
@@ -90,7 +90,7 @@ actors
 /
 watcher
 /
-ParentProcessWatcherRegistry
+WatcherRegistry
 .
 sys
 .
@@ -781,7 +781,7 @@ all
 &
 &
 !
-ParentProcessWatcherRegistry
+WatcherRegistry
 .
 isWatchingTargets
 (

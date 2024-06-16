@@ -120,7 +120,9 @@ focus
 await
 targetCommand
 .
-stopListening
+targetFront
+.
+destroy
 (
 )
 ;

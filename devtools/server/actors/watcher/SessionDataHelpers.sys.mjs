@@ -63,7 +63,7 @@ MPL
 Helper
 module
 alongside
-ParentProcessWatcherRegistry
+WatcherRegistry
 which
 focus
 on

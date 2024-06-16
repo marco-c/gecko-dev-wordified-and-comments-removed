@@ -1762,6 +1762,12 @@ null
 ;
 this
 .
+_nodeActorsMap
+=
+null
+;
+this
+.
 targetActor
 .
 off
@@ -1976,12 +1982,6 @@ this
 .
 _onEventListenerChange
 )
-;
-this
-.
-_nodeActorsMap
-=
-null
 ;
 this
 .

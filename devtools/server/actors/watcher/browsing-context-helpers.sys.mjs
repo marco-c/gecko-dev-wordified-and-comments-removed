@@ -3014,9 +3014,6 @@ unloaded
 if
 (
 topBrowsingContext
-?
-.
-embedderElement
 )
 {
 /
