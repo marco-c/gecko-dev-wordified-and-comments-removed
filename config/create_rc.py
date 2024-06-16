@@ -143,6 +143,19 @@ build
 {
 include
 }
+Identity
+LimitedAccessFeature
+{
+{
+L
+"
+{
+lafidentity
+}
+_pcsmm0jrprpb2
+"
+}
+}
 /
 /
 /
@@ -765,7 +778,7 @@ manifest_id
 :
     
 for
-line
+lineFromInput
 in
 module_rc
 .
@@ -776,7 +789,7 @@ splitlines
         
 line
 =
-line
+lineFromInput
 .
 split
 (
@@ -1167,6 +1180,24 @@ include
 "
 "
     
+lafidentity
+=
+buildconfig
+.
+substs
+.
+get
+(
+        
+"
+MOZ_WINDOWS_TASKBAR_PINNING_API_CLIENTID
+"
+"
+LAF_ID_UNDEFINED
+"
+    
+)
+    
 data
 =
 TEMPLATE
@@ -1177,6 +1208,10 @@ format
 include
 =
 include
+        
+lafidentity
+=
+lafidentity
         
 fileversion
 =
