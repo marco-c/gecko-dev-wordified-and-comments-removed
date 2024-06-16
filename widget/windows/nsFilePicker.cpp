@@ -2246,11 +2246,8 @@ return
 p
 -
 >
-SendShowFileDialog
+ShowFileDialogImpl
 (
-(
-uintptr_t
-)
 parent
 type
 commands
@@ -2354,11 +2351,8 @@ return
 p
 -
 >
-SendShowFolderDialog
+ShowFolderDialogImpl
 (
-(
-uintptr_t
-)
 parent
 commands
 )
