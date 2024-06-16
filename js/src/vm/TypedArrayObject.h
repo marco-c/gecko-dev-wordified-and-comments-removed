@@ -1679,6 +1679,12 @@ Scalar
 :
 Uint16
 :
+case
+Scalar
+:
+:
+Float16
+:
 return
 1
 ;

@@ -42,6 +42,7 @@ Float64
 Uint8Clamped
 BigInt64
 BigUint64
+Float16
 MaxTypedArrayViewType
 Int64
 Simd128
@@ -78,6 +79,9 @@ Int16
 :
 case
 Uint16
+:
+case
+Float16
 :
 return
 2
@@ -176,6 +180,9 @@ case
 Uint32
 :
 case
+Float16
+:
+case
 Float32
 :
 case
@@ -254,6 +261,9 @@ case
 Uint32
 :
 case
+Float16
+:
+case
 Float32
 :
 case
@@ -328,6 +338,9 @@ BigUint64
 return
 false
 ;
+case
+Float16
+:
 case
 Float32
 :
@@ -418,6 +431,14 @@ Uint32
 return
 "
 Uint32
+"
+;
+case
+Float16
+:
+return
+"
+Float16
 "
 ;
 case
@@ -530,6 +551,9 @@ Int16
 :
 case
 Uint16
+:
+case
+Float16
 :
 return
 "

@@ -483,6 +483,15 @@ BigUint64
 \
 REAL
 (
+Float16Array
+TYPED_ARRAY_CLASP
+(
+Float16
+)
+)
+\
+REAL
+(
 BigInt
 OCLASP
 (
