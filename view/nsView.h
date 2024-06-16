@@ -320,14 +320,6 @@ aWidget
 )
 const
 ;
-nsPoint
-ConvertFromParentCoords
-(
-nsPoint
-aPt
-)
-const
-;
 ViewVisibility
 GetVisibility
 (
@@ -1105,12 +1097,6 @@ void
 DropMouseGrabbing
 (
 )
-;
-nsRect
-GetBoundsInParentUnits
-(
-)
-const
 ;
 bool
 HasNonEmptyDirtyRegion
