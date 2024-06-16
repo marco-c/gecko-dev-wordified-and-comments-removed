@@ -234,6 +234,9 @@ button
 -
 labelled
 =
+.
+label
+=
 Button
 moz
 -
