@@ -63,6 +63,11 @@ TestMoz2D
 cpp
 "
 "
+TestPoint
+.
+cpp
+"
+"
 TestPolygon
 .
 cpp
@@ -159,11 +164,6 @@ cpp
 "
 "
 TestCairo
-.
-cpp
-"
-"
-TestPoint
 .
 cpp
 "
@@ -296,6 +296,12 @@ src
 gfx
 /
 qcms
+"
+"
+/
+layout
+/
+base
 "
 ]
 FINAL_LIBRARY
