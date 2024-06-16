@@ -2,8 +2,6 @@ from
 __future__
 import
 annotations
-import
-sys
 from
 typing
 import
@@ -23,36 +21,12 @@ Mapping
     
 MutableMapping
     
+Protocol
+    
 Tuple
     
 Union
 )
-if
-sys
-.
-version_info
-[
-:
-2
-]
->
-=
-(
-3
-8
-)
-:
-    
-from
-typing
-import
-Protocol
-else
-:
-    
-Protocol
-=
-object
 __all__
 =
 [

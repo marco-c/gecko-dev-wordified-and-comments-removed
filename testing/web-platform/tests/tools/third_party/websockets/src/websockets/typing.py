@@ -3,6 +3,8 @@ __future__
 import
 annotations
 import
+http
+import
 logging
 from
 typing
@@ -22,6 +24,10 @@ Data
     
 "
 LoggerLike
+"
+    
+"
+StatusLike
 "
     
 "
@@ -155,6 +161,35 @@ class
 logging
 .
 Logger
+is
+expected
+.
+"
+"
+"
+StatusLike
+=
+Union
+[
+http
+.
+HTTPStatus
+int
+]
+"
+"
+"
+Types
+accepted
+where
+an
+:
+class
+:
+~
+http
+.
+HTTPStatus
 is
 expected
 .

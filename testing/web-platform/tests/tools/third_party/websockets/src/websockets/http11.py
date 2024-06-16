@@ -21,10 +21,10 @@ datastructures
 exceptions
 MAX_HEADERS
 =
-256
+128
 MAX_LINE
 =
-4111
+8192
 MAX_BODY
 =
 2
@@ -220,7 +220,7 @@ deprecated
             
 "
 use
-ServerConnection
+ServerProtocol
 .
 handshake_exc
 instead
@@ -832,7 +832,7 @@ deprecated
             
 "
 use
-ClientConnection
+ClientProtocol
 .
 handshake_exc
 instead

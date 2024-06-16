@@ -2,6 +2,10 @@ from
 __future__
 import
 annotations
+import
+importlib
+.
+metadata
 __all__
 =
 [
@@ -25,9 +29,9 @@ version
 commit
 =
 "
-10
+12
 .
-3
+0
 "
 if
 not
@@ -150,10 +154,17 @@ strip
         
 except
 (
+            
 FileNotFoundError
+            
 subprocess
 .
 CalledProcessError
+            
+subprocess
+.
+TimeoutExpired
+        
 )
 :
             
@@ -263,11 +274,6 @@ remainder
         
 try
 :
-            
-import
-importlib
-.
-metadata
             
 return
 importlib

@@ -153,6 +153,9 @@ max_size
 "
 "
 "
+        
+raise
+NotImplementedError
     
 def
 encode
@@ -205,6 +208,9 @@ frame
 "
 "
 "
+        
+raise
+NotImplementedError
 class
 ClientExtensionFactory
 :
@@ -289,6 +295,9 @@ server
 "
 "
 "
+        
+raise
+NotImplementedError
     
 def
 process_response_params
@@ -392,6 +401,9 @@ acceptable
 "
 "
 "
+        
+raise
+NotImplementedError
 class
 ServerExtensionFactory
 :
@@ -569,3 +581,6 @@ acceptable
 "
 "
 "
+        
+raise
+NotImplementedError

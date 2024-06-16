@@ -1,0 +1,17 @@
+def
+apply_mask
+(
+data
+:
+bytes
+mask
+:
+bytes
+)
+-
+>
+bytes
+:
+.
+.
+.

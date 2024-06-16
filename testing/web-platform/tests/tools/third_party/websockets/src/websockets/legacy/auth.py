@@ -371,7 +371,7 @@ it
 should
 fail
 with
-a
+an
 HTTP
 401
 error
@@ -437,7 +437,7 @@ Basic
 Auth
 and
 return
-a
+an
 HTTP
 401
 response
@@ -668,9 +668,9 @@ Optional
 [
 Callable
 [
-[
-Any
-]
+.
+.
+.
 BasicAuthWebSocketServerProtocol
 ]
 ]
@@ -681,9 +681,9 @@ None
 >
 Callable
 [
-[
-Any
-]
+.
+.
+.
 BasicAuthWebSocketServerProtocol
 ]
 :
@@ -769,9 +769,7 @@ Args
         
 realm
 :
-indicates
-the
-scope
+Scope
 of
 protection
 .
@@ -780,8 +778,8 @@ should
 contain
 only
 ASCII
-            
 characters
+            
 because
 the
 encoding
@@ -791,9 +789,9 @@ non
 ASCII
 characters
 is
-            
 undefined
 .
+            
 Refer
 to
 section
@@ -811,8 +809,7 @@ details
         
 credentials
 :
-defines
-hard
+Hard
 coded
 authorized
 credentials
@@ -837,16 +834,13 @@ pairs
         
 check_credentials
 :
-defines
-a
-coroutine
+Coroutine
 that
 verifies
 credentials
 .
             
-This
-coroutine
+It
 receives
 username
 and
@@ -877,7 +871,7 @@ both
         
 create_protocol
 :
-factory
+Factory
 that
 creates
 the
@@ -908,7 +902,7 @@ Raises
         
 TypeError
 :
-if
+If
 the
 credentials
 or
@@ -1094,20 +1088,7 @@ None
         
 create_protocol
 =
-cast
-(
-            
-Callable
-[
-[
-Any
-]
 BasicAuthWebSocketServerProtocol
-]
-            
-BasicAuthWebSocketServerProtocol
-        
-)
     
 return
 functools

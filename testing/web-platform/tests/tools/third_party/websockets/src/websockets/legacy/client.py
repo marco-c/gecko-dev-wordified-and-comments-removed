@@ -133,6 +133,11 @@ WebSocketURI
 parse_uri
 from
 .
+compatibility
+import
+asyncio_timeout
+from
+.
 handshake
 import
 build_request
@@ -246,6 +251,11 @@ or
 going
 away
 )
+or
+without
+a
+close
+code
 .
 It
 raises
@@ -286,8 +296,10 @@ origin
     
 extensions
 subprotocols
-and
 extra_headers
+and
+    
+user_agent_header
 .
     
 See
@@ -391,6 +403,15 @@ HeadersLike
 =
 None
         
+user_agent_header
+:
+Optional
+[
+str
+]
+=
+USER_AGENT
+        
 *
 *
 kwargs
@@ -459,6 +480,12 @@ self
 extra_headers
 =
 extra_headers
+        
+self
+.
+user_agent_header
+=
+user_agent_header
     
 def
 write_http_request
@@ -658,7 +685,7 @@ Raises
             
 InvalidMessage
 :
-if
+If
 the
 HTTP
 message
@@ -697,14 +724,6 @@ self
 .
 reader
 )
-        
-except
-asyncio
-.
-CancelledError
-:
-            
-raise
         
 except
 Exception
@@ -1456,53 +1475,56 @@ server
             
 origin
 :
-value
+Value
 of
 the
 Origin
 header
 .
             
-available_extensions
+extensions
 :
-list
+List
 of
 supported
 extensions
 in
 order
 in
-                
 which
 they
+                
 should
 be
-tried
+negotiated
+and
+run
 .
             
-available_subprotocols
+subprotocols
 :
-list
+List
 of
 supported
 subprotocols
 in
 order
-                
 of
 decreasing
+                
 preference
 .
             
 extra_headers
 :
-arbitrary
+Arbitrary
 HTTP
 headers
 to
 add
 to
 the
+handshake
 request
 .
         
@@ -1511,7 +1533,7 @@ Raises
             
 InvalidHandshake
 :
-if
+If
 the
 handshake
 fails
@@ -1685,6 +1707,15 @@ self
 extra_headers
 )
         
+if
+self
+.
+user_agent_header
+is
+not
+None
+:
+            
 request_headers
 .
 setdefault
@@ -1694,7 +1725,9 @@ User
 -
 Agent
 "
-USER_AGENT
+self
+.
+user_agent_header
 )
         
 self
@@ -2067,7 +2100,7 @@ server
         
 create_protocol
 :
-factory
+Factory
 for
 the
 :
@@ -2080,18 +2113,18 @@ managing
             
 the
 connection
-;
+.
+It
 defaults
 to
 :
 class
 :
 WebSocketClientProtocol
-;
-may
+.
             
-be
-set
+Set
+it
 to
 a
 wrapper
@@ -2106,12 +2139,13 @@ handling
         
 logger
 :
-logger
+Logger
 for
 this
-connection
-;
+client
+.
             
+It
 defaults
 to
 logging
@@ -2124,9 +2158,9 @@ websockets
 client
 "
 )
-;
+.
             
-see
+See
 the
 :
 doc
@@ -2134,6 +2168,9 @@ doc
 logging
 guide
 <
+.
+.
+/
 .
 .
 /
@@ -2147,23 +2184,21 @@ details
         
 compression
 :
-shortcut
-that
-enables
-the
+The
 "
 permessage
 -
 deflate
 "
 extension
-            
+is
+enabled
 by
 default
-;
-may
-be
-set
+.
+            
+Set
+compression
 to
 :
 obj
@@ -2171,17 +2206,20 @@ obj
 None
 to
 disable
-compression
-;
-            
-see
+it
+.
+See
 the
+            
 :
 doc
 :
 compression
 guide
 <
+.
+.
+/
 .
 .
 /
@@ -2195,41 +2233,21 @@ details
         
 origin
 :
-value
+Value
 of
 the
 Origin
 header
-.
-This
-is
-useful
-when
-connecting
-            
-to
-a
-server
+for
+servers
 that
-validates
-the
-Origin
-header
-to
-defend
-against
-            
-Cross
--
-Site
-WebSocket
-Hijacking
-attacks
+require
+it
 .
         
 extensions
 :
-list
+List
 of
 supported
 extensions
@@ -2241,12 +2259,14 @@ they
             
 should
 be
-tried
+negotiated
+and
+run
 .
         
 subprotocols
 :
-list
+List
 of
 supported
 subprotocols
@@ -2260,35 +2280,79 @@ preference
         
 extra_headers
 :
-arbitrary
+Arbitrary
 HTTP
 headers
 to
 add
 to
 the
+handshake
 request
+.
+        
+user_agent_header
+:
+Value
+of
+the
+User
+-
+Agent
+request
+header
+.
+            
+It
+defaults
+to
+"
+Python
+/
+x
+.
+y
+.
+z
+websockets
+/
+X
+.
+Y
+"
+.
+            
+Setting
+it
+to
+:
+obj
+:
+None
+removes
+the
+header
 .
         
 open_timeout
 :
-timeout
+Timeout
 for
 opening
 the
 connection
 in
 seconds
-;
+.
             
 :
 obj
 :
 None
-to
-disable
+disables
 the
 timeout
+.
     
 See
 :
@@ -2454,21 +2518,12 @@ Host
 header
 .
     
-Returns
-:
-        
-WebSocketClientProtocol
-:
-WebSocket
-connection
-.
-    
 Raises
 :
         
 InvalidURI
 :
-if
+If
 uri
 isn
 '
@@ -2479,9 +2534,18 @@ WebSocket
 URI
 .
         
+OSError
+:
+If
+the
+TCP
+connection
+fails
+.
+        
 InvalidHandshake
 :
-if
+If
 the
 opening
 handshake
@@ -2493,7 +2557,7 @@ asyncio
 .
 TimeoutError
 :
-if
+If
 the
 opening
 handshake
@@ -2527,9 +2591,9 @@ Optional
 [
 Callable
 [
-[
-Any
-]
+.
+.
+.
 WebSocketClientProtocol
 ]
 ]
@@ -2597,6 +2661,15 @@ HeadersLike
 ]
 =
 None
+        
+user_agent_header
+:
+Optional
+[
+str
+]
+=
+USER_AGENT
         
 open_timeout
 :
@@ -3014,6 +3087,10 @@ extra_headers
 =
 extra_headers
             
+user_agent_header
+=
+user_agent_header
+            
 ping_interval
 =
 ping_interval
@@ -3165,6 +3242,29 @@ port
 =
 None
 None
+                
+if
+kwargs
+.
+get
+(
+"
+ssl
+"
+)
+:
+                    
+kwargs
+.
+setdefault
+(
+"
+server_hostname
+"
+wsuri
+.
+host
+)
             
 host
 =
@@ -3510,14 +3610,6 @@ yield
 protocol
             
 except
-asyncio
-.
-CancelledError
-:
-                
-raise
-            
-except
 Exception
 :
                 
@@ -3750,20 +3842,22 @@ self
 WebSocketClientProtocol
 :
         
+async
+with
+asyncio_timeout
+(
+self
+.
+open_timeout
+)
+:
+            
 return
 await
-asyncio
-.
-wait_for
-(
 self
 .
 __await_impl__
 (
-)
-self
-.
-open_timeout
 )
     
 async
@@ -3788,8 +3882,8 @@ MAX_REDIRECTS_ALLOWED
 )
 :
             
-transport
-protocol
+_transport
+_protocol
 =
 await
 self
@@ -3803,7 +3897,7 @@ protocol
 cast
 (
 WebSocketClientProtocol
-protocol
+_protocol
 )
             
 try
@@ -4033,7 +4127,7 @@ Args
         
 path
 :
-file
+File
 system
 path
 to

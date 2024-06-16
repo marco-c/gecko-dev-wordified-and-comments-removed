@@ -34,10 +34,10 @@ read_response
 ]
 MAX_HEADERS
 =
-256
+128
 MAX_LINE
 =
-4110
+8192
 def
 d
 (
@@ -262,19 +262,20 @@ Args
         
 stream
 :
-input
+Input
 to
 read
 the
 request
 from
+.
     
 Raises
 :
         
 EOFError
 :
-if
+If
 the
 connection
 is
@@ -284,20 +285,22 @@ a
 full
 HTTP
 request
+.
         
 SecurityError
 :
-if
+If
 the
 request
 exceeds
 a
 security
 limit
+.
         
 ValueError
 :
-if
+If
 the
 request
 isn
@@ -305,6 +308,7 @@ isn
 t
 well
 formatted
+.
     
 "
 "
@@ -580,19 +584,20 @@ Args
         
 stream
 :
-input
+Input
 to
 read
 the
 response
 from
+.
     
 Raises
 :
         
 EOFError
 :
-if
+If
 the
 connection
 is
@@ -602,20 +607,22 @@ a
 full
 HTTP
 response
+.
         
 SecurityError
 :
-if
+If
 the
 response
 exceeds
 a
 security
 limit
+.
         
 ValueError
 :
-if
+If
 the
 response
 isn
@@ -623,6 +630,7 @@ isn
 t
 well
 formatted
+.
     
 "
 "
