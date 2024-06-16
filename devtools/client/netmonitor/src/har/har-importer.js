@@ -119,6 +119,11 @@ actions
 .
 clearRequests
 (
+{
+isExplicitClear
+:
+true
+}
 )
 ;
 const

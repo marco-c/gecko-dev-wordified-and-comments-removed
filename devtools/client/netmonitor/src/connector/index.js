@@ -690,6 +690,9 @@ destroy
 }
 clear
 (
+{
+isExplicitClear
+}
 )
 {
 this
@@ -708,6 +711,11 @@ clear
 (
 )
 ;
+if
+(
+isExplicitClear
+)
+{
 this
 .
 commands
@@ -734,6 +742,7 @@ resources
 "
 )
 ;
+}
 this
 .
 toolbox
@@ -1185,6 +1194,11 @@ actions
 .
 clearRequests
 (
+{
+isExplicitClear
+:
+false
+}
 )
 ;
 }
