@@ -4488,16 +4488,7 @@ suite
                 
 if
 test_paths
-:
-                    
-base_cmd
-.
-extend
-(
-test_paths
-)
-                
-elif
+or
 c
 [
 "
@@ -4506,6 +4497,26 @@ test_tags
 ]
 :
                     
+if
+test_paths
+:
+                        
+base_cmd
+.
+extend
+(
+test_paths
+)
+                    
+if
+c
+[
+"
+test_tags
+"
+]
+:
+                        
 base_cmd
 .
 extend
