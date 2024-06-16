@@ -64,6 +64,13 @@ js
 ]
 [
 "
+browser_gridPatterns
+.
+js
+"
+]
+[
+"
 browser_simplePatterns
 .
 js

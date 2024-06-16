@@ -3,6 +3,11 @@ SOURCES
 =
 [
 "
+UiaGrid
+.
+cpp
+"
+"
 uiaRawElmProvider
 .
 cpp
@@ -34,6 +39,14 @@ generic
 accessible
 /
 html
+"
+"
+/
+accessible
+/
+windows
+/
+ia2
 "
 "
 /
