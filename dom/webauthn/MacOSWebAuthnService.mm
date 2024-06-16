@@ -1635,6 +1635,17 @@ endif
 }
 else
 {
+transports
+.
+AppendElement
+(
+u
+"
+usb
+"
+_ns
+)
+;
 authenticatorAttachment
 .
 emplace
