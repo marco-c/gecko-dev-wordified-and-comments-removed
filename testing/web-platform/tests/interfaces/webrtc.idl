@@ -686,7 +686,7 @@ sdp
 [
 Default
 ]
-object
+RTCSessionDescriptionInit
 toJSON
 (
 )

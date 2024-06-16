@@ -50,8 +50,7 @@ io
 /
 digital
 -
-identities
-/
+credentials
 )
 partial
 interface
@@ -117,12 +116,9 @@ attribute
 DOMString
 protocol
 ;
-[
-SameObject
-]
 readonly
 attribute
-Uint8Array
+any
 data
 ;
 }

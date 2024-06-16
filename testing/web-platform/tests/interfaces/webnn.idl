@@ -539,9 +539,6 @@ epsilon
 -
 5
 ;
-MLActivation
-activation
-;
 }
 ;
 partial
@@ -721,9 +718,6 @@ oihw
 MLOperand
 bias
 ;
-MLActivation
-activation
-;
 }
 ;
 partial
@@ -839,9 +833,6 @@ iohw
 ;
 MLOperand
 bias
-;
-MLActivation
-activation
 ;
 }
 ;

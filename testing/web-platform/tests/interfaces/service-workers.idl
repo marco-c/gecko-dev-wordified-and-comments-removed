@@ -299,7 +299,11 @@ ServiceWorkerRegistration
 >
 register
 (
+(
+TrustedScriptURL
+or
 USVString
+)
 scriptURL
 optional
 RegistrationOptions

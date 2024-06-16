@@ -522,6 +522,11 @@ double
 x
 double
 y
+ShadowRoot
+.
+.
+.
+shadowRoots
 )
 ;
 readonly

@@ -162,7 +162,7 @@ FrozenArray
 <
 PressureSource
 >
-supportedSources
+knownSources
 ;
 }
 ;
