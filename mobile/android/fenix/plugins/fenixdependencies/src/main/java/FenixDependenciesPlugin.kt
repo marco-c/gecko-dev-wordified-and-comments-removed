@@ -178,7 +178,7 @@ androidx_benchmark
 .
 2
 .
-4
+3
 "
 const
 val
