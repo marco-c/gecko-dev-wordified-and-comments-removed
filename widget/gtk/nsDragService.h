@@ -646,6 +646,13 @@ GdkDragContext
 aContext
 )
 ;
+bool
+IsDragFlavorAvailable
+(
+GdkAtom
+aRequestedFlavor
+)
+;
 class
 AutoEventLoop
 {
@@ -855,13 +862,6 @@ bool
 IsTargetContextList
 (
 void
-)
-;
-bool
-IsDragFlavorAvailable
-(
-GdkAtom
-aRequestedFlavor
 )
 ;
 RefPtr
