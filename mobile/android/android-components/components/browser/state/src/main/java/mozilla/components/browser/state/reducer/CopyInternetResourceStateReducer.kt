@@ -119,7 +119,7 @@ CopyInternetResourceAction
 AddCopyAction
 -
 >
-updateTheContentState
+updateContentState
 (
 state
 action
@@ -144,7 +144,7 @@ CopyInternetResourceAction
 ConsumeCopyAction
 -
 >
-updateTheContentState
+updateContentState
 (
 state
 action

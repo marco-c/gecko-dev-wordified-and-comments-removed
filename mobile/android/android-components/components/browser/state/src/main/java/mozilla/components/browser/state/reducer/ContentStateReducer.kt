@@ -2262,7 +2262,7 @@ permissionHighlights
 )
 }
 }
-private
+internal
 inline
 fun
 updateContentState

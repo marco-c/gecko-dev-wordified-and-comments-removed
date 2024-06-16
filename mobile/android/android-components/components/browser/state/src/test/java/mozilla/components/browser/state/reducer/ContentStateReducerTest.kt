@@ -125,11 +125,11 @@ junit
 .
 Test
 class
-InternetResourceReducerUtilsTest
+ContentStateReducerTest
 {
 Test
 fun
-updateTheContentState
+updateContentState
 will
 return
 a
@@ -171,7 +171,7 @@ initialContentState
 val
 result
 =
-updateTheContentState
+updateContentState
 (
 browserState
 "

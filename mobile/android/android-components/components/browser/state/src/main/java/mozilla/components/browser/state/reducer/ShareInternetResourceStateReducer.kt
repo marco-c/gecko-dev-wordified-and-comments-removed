@@ -119,7 +119,7 @@ ShareInternetResourceAction
 AddShareAction
 -
 >
-updateTheContentState
+updateContentState
 (
 state
 action
@@ -144,7 +144,7 @@ ShareInternetResourceAction
 ConsumeShareAction
 -
 >
-updateTheContentState
+updateContentState
 (
 state
 action
