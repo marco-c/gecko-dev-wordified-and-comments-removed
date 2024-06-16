@@ -1499,15 +1499,6 @@ files
 :
         
 if
-is_test
-(
-f
-)
-:
-            
-continue
-        
-if
 not
 is_valid_license
 (
