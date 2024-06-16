@@ -44,3 +44,16 @@ test_backup
 py
 "
 ]
+support
+-
+files
+=
+[
+"
+http2
+-
+ca
+.
+pem
+"
+]
