@@ -30,9 +30,19 @@ from
 .
 executors
 .
+executorchrome
+import
+ChromeDriverPrintRefTestExecutor
+from
+.
+.
+executors
+.
 executorwebdriver
 import
 (
+WebDriverCrashtestExecutor
+                                           
 WebDriverTestharnessExecutor
                                            
 WebDriverRefTestExecutor
@@ -83,6 +93,24 @@ reftest
 :
 "
 WebDriverRefTestExecutor
+"
+                              
+"
+print
+-
+reftest
+"
+:
+"
+ChromeDriverPrintRefTestExecutor
+"
+                              
+"
+crashtest
+"
+:
+"
+WebDriverCrashtestExecutor
 "
 }
                  
