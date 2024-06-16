@@ -9255,6 +9255,15 @@ public
 static
 final
 int
+FINDER_FIND_FORWARD
+=
+0
+;
+field
+public
+static
+final
+int
 FINDER_FIND_LINKS_ONLY
 =
 8
