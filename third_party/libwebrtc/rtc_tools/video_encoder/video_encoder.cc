@@ -2552,12 +2552,8 @@ test
 :
 CreateFromIvfFileFrameGenerator
 (
+env
 ivf_input_file
-)
-;
-RTC_CHECK
-(
-frame_buffer_generator
 )
 ;
 webrtc
