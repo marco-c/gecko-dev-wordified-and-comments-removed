@@ -725,6 +725,13 @@ page
 "
 }
 }
+options
+:
+{
+showPanel
+:
+true
+}
 }
 }
 ;
