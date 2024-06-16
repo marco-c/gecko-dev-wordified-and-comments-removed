@@ -467,6 +467,13 @@ IsTypeInList
 type
 gSVGTypes
 )
+|
+|
+IsTypeInList
+(
+type
+gXMLTypes
+)
 ;
 if
 (
