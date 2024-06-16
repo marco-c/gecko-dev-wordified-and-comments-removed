@@ -10645,7 +10645,7 @@ CombinedBufferLayout
 layout
 ;
 auto
-r1
+r
 =
 ParseVideoFrameCopyToOptions
 (
@@ -10664,7 +10664,7 @@ ref
 ;
 if
 (
-r1
+r
 .
 isErr
 (
@@ -10676,7 +10676,7 @@ p
 >
 MaybeRejectWithTypeError
 (
-r1
+r
 .
 unwrapErr
 (
@@ -10693,7 +10693,7 @@ forget
 }
 layout
 =
-r1
+r
 .
 unwrap
 (
