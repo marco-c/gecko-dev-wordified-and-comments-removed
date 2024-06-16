@@ -1218,7 +1218,7 @@ test_telemetry_private_empty_submission_url
 await
 SearchTestUtils
 .
-promiseNewSearchEngine
+installOpenSearchEngine
 (
 {
 url

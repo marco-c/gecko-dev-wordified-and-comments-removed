@@ -68,7 +68,7 @@ MAX_FORM_HISTORY_PREF
 await
 SearchTestUtils
 .
-promiseNewSearchEngine
+installOpenSearchEngine
 (
 {
 url

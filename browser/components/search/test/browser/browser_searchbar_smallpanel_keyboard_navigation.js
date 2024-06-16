@@ -149,7 +149,7 @@ button
 await
 SearchTestUtils
 .
-promiseNewSearchEngine
+installOpenSearchEngine
 (
 {
 url

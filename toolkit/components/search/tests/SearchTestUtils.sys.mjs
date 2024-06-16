@@ -455,7 +455,7 @@ fails
 *
 /
 async
-promiseNewSearchEngine
+installOpenSearchEngine
 (
 {
 url

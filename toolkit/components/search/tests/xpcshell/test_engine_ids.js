@@ -644,7 +644,7 @@ openSearchEngine
 await
 SearchTestUtils
 .
-promiseNewSearchEngine
+installOpenSearchEngine
 (
 {
 url

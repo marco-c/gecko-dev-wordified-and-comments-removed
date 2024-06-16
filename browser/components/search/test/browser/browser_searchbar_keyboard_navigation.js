@@ -209,7 +209,7 @@ textbox
 await
 SearchTestUtils
 .
-promiseNewSearchEngine
+installOpenSearchEngine
 (
 {
 url

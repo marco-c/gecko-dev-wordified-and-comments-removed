@@ -169,7 +169,7 @@ TRANSITION_TYPED
 await
 SearchTestUtils
 .
-promiseNewSearchEngine
+installOpenSearchEngine
 (
 {
 url

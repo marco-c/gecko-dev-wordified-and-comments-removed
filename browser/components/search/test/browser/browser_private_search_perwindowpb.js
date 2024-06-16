@@ -15,7 +15,7 @@ addSearchBar
 await
 SearchTestUtils
 .
-promiseNewSearchEngine
+installOpenSearchEngine
 (
 {
 url

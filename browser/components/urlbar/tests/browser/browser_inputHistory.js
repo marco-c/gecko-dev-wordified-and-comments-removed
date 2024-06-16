@@ -3149,7 +3149,7 @@ suggestionsEngine
 await
 SearchTestUtils
 .
-promiseNewSearchEngine
+installOpenSearchEngine
 (
 {
 url

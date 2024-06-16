@@ -609,7 +609,7 @@ checkPrefTurnsOffCanonize
 await
 SearchTestUtils
 .
-promiseNewSearchEngine
+installOpenSearchEngine
 (
 {
 url

@@ -67,7 +67,7 @@ useHttpServer
 await
 SearchTestUtils
 .
-promiseNewSearchEngine
+installOpenSearchEngine
 (
 {
 url

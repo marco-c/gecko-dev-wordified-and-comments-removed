@@ -61,7 +61,7 @@ suggestionsEngine
 await
 SearchTestUtils
 .
-promiseNewSearchEngine
+installOpenSearchEngine
 (
 {
 url
@@ -1156,7 +1156,7 @@ manySuggestionsEngine
 await
 SearchTestUtils
 .
-promiseNewSearchEngine
+installOpenSearchEngine
 (
 {
 url
