@@ -1605,6 +1605,13 @@ js
 ]
 [
 "
+browser_ext_menus_startup_restored
+.
+js
+"
+]
+[
+"
 browser_ext_menus_targetElement
 .
 js
