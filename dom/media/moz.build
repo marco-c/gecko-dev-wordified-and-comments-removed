@@ -810,7 +810,7 @@ FrameStatistics
 h
 "
 "
-ImageConversion
+ImageToI420
 .
 h
 "
@@ -1415,7 +1415,7 @@ GraphRunner
 cpp
 "
 "
-ImageConversion
+ImageToI420
 .
 cpp
 "
