@@ -2779,6 +2779,9 @@ dummy
 with_blob_url
 "
 ]
+match_origin_as_fallback
+:
+true
 all_frames
 :
 true

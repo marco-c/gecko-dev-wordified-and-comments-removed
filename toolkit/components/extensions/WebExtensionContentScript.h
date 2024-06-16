@@ -205,6 +205,12 @@ PrincipalURL
 const
 ;
 bool
+RequiresMatchOriginAsFallback
+(
+)
+const
+;
+bool
 IsTopLevel
 (
 )
@@ -404,6 +410,13 @@ const
 URLInfo
 >
 mPrincipalURL
+;
+mutable
+Maybe
+<
+bool
+>
+mRequiresMatchOriginAsFallback
 ;
 mutable
 Maybe
