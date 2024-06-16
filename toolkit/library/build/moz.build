@@ -165,11 +165,9 @@ topsrcdir
 TOPSRCDIR
 OBJDIR_FILES
 .
-toolkit
+dist
 .
-library
-.
-build
+bin
 +
 =
 [
