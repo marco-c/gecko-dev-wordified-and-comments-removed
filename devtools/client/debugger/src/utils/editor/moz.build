@@ -76,13 +76,6 @@ editor
 js
 "
 "
-get
--
-expression
-.
-js
-"
-"
 index
 .
 js
