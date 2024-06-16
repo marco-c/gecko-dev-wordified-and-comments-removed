@@ -4481,16 +4481,6 @@ libwebrtc
 /
 rtc_base
 /
-rtc_task_queue_gn
-"
-"
-/
-third_party
-/
-libwebrtc
-/
-rtc_base
-/
 safe_compare_gn
 "
 "
