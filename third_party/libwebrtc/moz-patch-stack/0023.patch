@@ -155,10 +155,10 @@ libvpx_vp8_decoder
 .
 cc
 index
-5afd105949
+3466080c83
 .
 .
-9b77388f10
+4c06aca5ad
 100644
 -
 -
@@ -193,10 +193,10 @@ libvpx_vp8_decoder
 .
 cc
 -
-46
+48
 7
 +
-46
+48
 7
 const
 char
