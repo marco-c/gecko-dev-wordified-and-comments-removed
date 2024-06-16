@@ -38830,7 +38830,6 @@ overflowAreas
 InkOverflow
 (
 )
-true
 )
 ;
 }

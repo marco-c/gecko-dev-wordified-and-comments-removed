@@ -300,10 +300,6 @@ const
 nsRect
 &
 aRect
-bool
-aRepaintExposedAreaOnly
-=
-false
 )
 ;
 void

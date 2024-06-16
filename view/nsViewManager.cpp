@@ -4063,8 +4063,6 @@ const
 nsRect
 &
 aRect
-bool
-aRepaintExposedAreaOnly
 )
 {
 NS_ASSERTION
