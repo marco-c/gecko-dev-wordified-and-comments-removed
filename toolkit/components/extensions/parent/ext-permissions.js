@@ -89,6 +89,17 @@ internal
 :
 "
 )
+&
+&
+perm
+!
+=
+=
+"
+<
+all_urls
+>
+"
 )
 ;
 return
