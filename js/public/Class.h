@@ -2650,6 +2650,7 @@ nullptr
 ;
 }
 }
+MOZ_STATIC_CLASS
 ;
 static
 constexpr
