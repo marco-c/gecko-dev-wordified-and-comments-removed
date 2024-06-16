@@ -17928,7 +17928,7 @@ as
 CanvasGradient
 color
 input
-canvasType
+canvas_types
 :
 [
 '
