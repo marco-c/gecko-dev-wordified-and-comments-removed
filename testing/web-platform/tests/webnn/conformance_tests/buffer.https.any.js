@@ -39,6 +39,13 @@ write
 '
 )
 ;
+testDispatchWebNNBuffer
+(
+'
+dispatch
+'
+)
+;
 }
 else
 {
