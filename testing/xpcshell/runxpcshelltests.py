@@ -13570,9 +13570,12 @@ MOZ_CHAOSMODE
 0xfb
 "
                 
-self
-.
+kwargs
+[
+"
 harness_timeout
+"
+]
 =
 self
 .
@@ -13638,15 +13641,16 @@ kwargs
                 
 )
                 
-self
-.
+kwargs
+[
+"
 harness_timeout
+"
+]
 =
 self
 .
 harness_timeout
-/
-2
                 
 return
 status

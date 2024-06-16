@@ -684,6 +684,14 @@ interval
 .
 5
             
+interval
+=
+min
+(
+15
+interval
+)
+            
 if
 timeout
 and
