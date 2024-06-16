@@ -64,6 +64,13 @@ json
 ]
 [
 "
+test_PreferencesBackupResource
+.
+js
+"
+]
+[
+"
 test_createBackup
 .
 js
