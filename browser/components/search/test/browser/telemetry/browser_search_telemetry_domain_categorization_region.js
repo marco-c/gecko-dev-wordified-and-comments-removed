@@ -575,6 +575,16 @@ num_ads_clicked
 "
 0
 "
+num_ads_hidden
+:
+"
+0
+"
+num_ads_loaded
+:
+"
+2
+"
 num_ads_visible
 :
 "
