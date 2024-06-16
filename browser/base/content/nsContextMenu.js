@@ -11950,6 +11950,14 @@ selectTranslationsEnabled
 )
 |
 |
+!
+TranslationsParent
+.
+getIsTranslationsEngineSupported
+(
+)
+|
+|
 textToTranslate
 .
 length
