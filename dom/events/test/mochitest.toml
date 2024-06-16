@@ -2699,13 +2699,6 @@ html
 ]
 [
 "
-test_marquee_events
-.
-html
-"
-]
-[
-"
 test_messageEvent
 .
 html
