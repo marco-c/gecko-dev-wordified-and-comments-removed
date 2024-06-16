@@ -3654,13 +3654,6 @@ OTSMessage
 aMessages
 )
 {
-MOZ_ASSERT
-(
-NS_IsMainThread
-(
-)
-)
-;
 RefPtr
 <
 gfxUserFontSet
@@ -4233,6 +4226,13 @@ SetLoadState
 STATUS_LOADED
 )
 ;
+if
+(
+NS_IsMainThread
+(
+)
+)
+{
 gfxUserFontSet
 :
 :
@@ -4244,6 +4244,7 @@ CacheFont
 fe
 )
 ;
+}
 }
 else
 {
