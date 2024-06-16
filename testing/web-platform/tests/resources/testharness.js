@@ -8974,7 +8974,7 @@ no
 constructor
 version
 of
-promise_rejects_dom
+assert_throws_dom
 or
 accidentally
 explicitly
