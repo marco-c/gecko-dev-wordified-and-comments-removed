@@ -492,6 +492,10 @@ key
 {
 abortKey
 }
+&
+value
+=
+close
 )
 ;
 }
