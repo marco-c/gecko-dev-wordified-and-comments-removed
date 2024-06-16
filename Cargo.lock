@@ -21739,7 +21739,7 @@ version
 .
 7
 .
-2
+3
 "
 source
 =
@@ -21764,9 +21764,9 @@ v0
 .
 7
 .
-2
+3
 #
-ce5cbe4dfc2e38b238abb022c39eee4215058221
+1dc8ea33e27b65a0294ff3502204285358fc4a77
 "
 dependencies
 =
@@ -21816,7 +21816,7 @@ version
 .
 7
 .
-2
+3
 "
 source
 =
@@ -21841,9 +21841,9 @@ v0
 .
 7
 .
-2
+3
 #
-ce5cbe4dfc2e38b238abb022c39eee4215058221
+1dc8ea33e27b65a0294ff3502204285358fc4a77
 "
 dependencies
 =
@@ -21866,6 +21866,9 @@ mozbuild
 neqo
 -
 common
+"
+"
+semver
 "
 "
 serde
@@ -21896,7 +21899,7 @@ version
 .
 7
 .
-2
+3
 "
 source
 =
@@ -21921,9 +21924,9 @@ v0
 .
 7
 .
-2
+3
 #
-ce5cbe4dfc2e38b238abb022c39eee4215058221
+1dc8ea33e27b65a0294ff3502204285358fc4a77
 "
 dependencies
 =
@@ -21986,7 +21989,7 @@ version
 .
 7
 .
-2
+3
 "
 source
 =
@@ -22011,9 +22014,9 @@ v0
 .
 7
 .
-2
+3
 #
-ce5cbe4dfc2e38b238abb022c39eee4215058221
+1dc8ea33e27b65a0294ff3502204285358fc4a77
 "
 dependencies
 =
@@ -22062,7 +22065,7 @@ version
 .
 7
 .
-2
+3
 "
 source
 =
@@ -22087,9 +22090,9 @@ v0
 .
 7
 .
-2
+3
 #
-ce5cbe4dfc2e38b238abb022c39eee4215058221
+1dc8ea33e27b65a0294ff3502204285358fc4a77
 "
 dependencies
 =

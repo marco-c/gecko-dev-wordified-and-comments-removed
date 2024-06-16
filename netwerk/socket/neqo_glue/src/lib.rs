@@ -775,6 +775,15 @@ nsresult
 init
 (
 )
+.
+map_err
+(
+|
+_
+|
+NS_ERROR_UNEXPECTED
+)
+?
 ;
 let
 origin_conv

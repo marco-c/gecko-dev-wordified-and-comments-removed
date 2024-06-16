@@ -933,7 +933,7 @@ Option
 PathRef
 >
 {
-qinfo
+qdebug
 !
 (
 [
