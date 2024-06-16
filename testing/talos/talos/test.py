@@ -2121,11 +2121,15 @@ manifest
     
 tppagecycles
 =
-20
+1
     
 timeout
 =
-600
+1800
+    
+tptimeout
+=
+60000
     
 pdfpaint
 =
