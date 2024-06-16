@@ -636,6 +636,16 @@ return
 mMatchAboutBlank
 ;
 }
+bool
+MatchOriginAsFallback
+(
+)
+const
+{
+return
+mMatchOriginAsFallback
+;
+}
 MatchPatternSet
 *
 Matches
@@ -833,6 +843,9 @@ mFrameID
 ;
 bool
 mMatchAboutBlank
+;
+bool
+mMatchOriginAsFallback
 ;
 Nullable
 <
