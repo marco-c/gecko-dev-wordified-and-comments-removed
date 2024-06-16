@@ -3638,11 +3638,11 @@ mozilla
 StyleUnicodeBidi
 mUnicodeBidi
 ;
-nscoord
-mInitialLetterSink
-;
-float
-mInitialLetterSize
+mozilla
+:
+:
+StyleInitialLetter
+mInitialLetter
 ;
 mozilla
 :
