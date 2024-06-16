@@ -185,6 +185,11 @@ DirectoryLockCategory
 h
 "
 "
+DirectoryLockInlines
+.
+h
+"
+"
 DummyCipherStrategy
 .
 h
