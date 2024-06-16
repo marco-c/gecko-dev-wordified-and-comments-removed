@@ -390,6 +390,12 @@ _
 SUBCLASSING_PROMISE_TYPE_II
 SubclassingPromiseTypeII
 )
+\
+_
+(
+SUBCLASSING_TYPEDARRAY_TYPE_II
+SubclassingTypedArrayTypeII
+)
 #
 define
 ENUM_DEF
