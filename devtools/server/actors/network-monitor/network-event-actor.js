@@ -734,16 +734,6 @@ isChannelFromSystemPrincipal
 (
 channel
 )
-fromCache
-:
-networkEventOptions
-.
-fromCache
-fromServiceWorker
-:
-networkEventOptions
-.
-fromServiceWorker
 innerWindowId
 :
 this
