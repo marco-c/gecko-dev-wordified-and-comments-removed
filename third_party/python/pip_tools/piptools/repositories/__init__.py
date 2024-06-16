@@ -1,4 +1,8 @@
 from
+__future__
+import
+annotations
+from
 .
 local
 import
@@ -8,3 +12,13 @@ from
 pypi
 import
 PyPIRepository
+__all__
+=
+[
+"
+LocalRequirementsRepository
+"
+"
+PyPIRepository
+"
+]

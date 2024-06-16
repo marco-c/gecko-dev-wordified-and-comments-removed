@@ -1,8 +1,10 @@
+from
+__future__
+import
+annotations
 import
 locale
 from
-piptools
-.
 click
 import
 secho
@@ -29,6 +31,7 @@ e
     
 secho
 (
+f
 "
 Ignoring
 error
@@ -37,13 +40,9 @@ setting
 locale
 :
 {
+e
 }
 "
-.
-format
-(
-e
-)
 fg
 =
 "

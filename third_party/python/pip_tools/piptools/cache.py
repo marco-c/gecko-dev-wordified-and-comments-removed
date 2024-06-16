@@ -1,18 +1,7 @@
-#
-coding
-:
-utf
--
-8
 from
 __future__
 import
-absolute_import
-division
-print_function
-unicode_literals
-import
-errno
+annotations
 import
 json
 import
@@ -21,6 +10,22 @@ import
 platform
 import
 sys
+from
+typing
+import
+Dict
+Iterable
+List
+Tuple
+cast
+from
+pip
+.
+_internal
+.
+req
+import
+InstallRequirement
 from
 pip
 .
@@ -33,11 +38,6 @@ import
 Requirement
 from
 .
-_compat
-import
-makedirs
-from
-.
 exceptions
 import
 PipToolsError
@@ -47,7 +47,31 @@ utils
 import
 as_tuple
 key_from_req
-lookup_table
+lookup_table_from_tuples
+CacheKey
+=
+Tuple
+[
+str
+str
+]
+CacheLookup
+=
+Dict
+[
+str
+List
+[
+str
+]
+]
+CacheDict
+=
+Dict
+[
+str
+CacheLookup
+]
 _PEP425_PY_TAGS
 =
 {
@@ -84,12 +108,16 @@ def
 _implementation_name
 (
 )
+-
+>
+str
 :
     
 "
 "
 "
-similar
+    
+Similar
 to
 PEP
 425
@@ -101,10 +129,10 @@ is
 separated
 from
 the
-    
 major
 to
-differentation
+    
+differentiate
 "
 3
 .
@@ -178,6 +206,8 @@ __init__
 (
 self
 path
+:
+str
 )
 :
         
@@ -192,6 +222,9 @@ __str__
 (
 self
 )
+-
+>
+str
 :
         
 lines
@@ -220,17 +253,14 @@ file
 :
 "
             
+f
 "
 {
-}
-"
-.
-format
-(
 self
 .
 path
-)
+}
+"
         
 ]
         
@@ -247,15 +277,24 @@ def
 read_cache_file
 (
 cache_file_path
+:
+str
 )
+-
+>
+CacheDict
 :
     
 with
 open
 (
 cache_file_path
+encoding
+=
 "
-r
+utf
+-
+8
 "
 )
 as
@@ -275,7 +314,12 @@ cache_file
 )
         
 except
-ValueError
+(
+json
+.
+JSONDecodeError
+UnicodeDecodeError
+)
 :
             
 raise
@@ -308,17 +352,18 @@ format
 )
         
 return
+cast
+(
+CacheDict
 doc
 [
 "
 dependencies
 "
 ]
+)
 class
 DependencyCache
-(
-object
-)
 :
     
 "
@@ -403,9 +448,13 @@ __init__
 (
 self
 cache_dir
+:
+str
 )
 :
         
+os
+.
 makedirs
 (
 cache_dir
@@ -416,21 +465,18 @@ True
         
 cache_filename
 =
+f
 "
 depcache
 -
 {
+_implementation_name
+(
+)
 }
 .
 json
 "
-.
-format
-(
-_implementation_name
-(
-)
-)
         
 self
 .
@@ -449,6 +495,10 @@ cache_filename
 self
 .
 _cache
+:
+CacheDict
+|
+None
 =
 None
     
@@ -459,6 +509,9 @@ cache
 (
 self
 )
+-
+>
+CacheDict
 :
         
 "
@@ -499,11 +552,30 @@ is
 None
 :
             
+try
+:
+                
 self
 .
-read_cache
+_cache
+=
+read_cache_file
 (
+self
+.
+_cache_file
 )
+            
+except
+FileNotFoundError
+:
+                
+self
+.
+_cache
+=
+{
+}
         
 return
 self
@@ -515,7 +587,12 @@ as_cache_key
 (
 self
 ireq
+:
+InstallRequirement
 )
+-
+>
+CacheKey
 :
         
 "
@@ -642,105 +719,41 @@ else
             
 extras_string
 =
+f
 "
 [
 {
-}
-]
-"
-.
-format
-(
-"
-"
+'
+'
 .
 join
 (
 extras
 )
-)
+}
+]
+"
         
 return
 name
+f
 "
 {
-}
-{
-}
-"
-.
-format
-(
 version
-extras_string
-)
-    
-def
-read_cache
-(
-self
-)
-:
-        
-"
-"
-"
-Reads
-the
-cached
-contents
-into
-memory
-.
-"
-"
-"
-        
-try
-:
-            
-self
-.
-_cache
-=
-read_cache_file
-(
-self
-.
-_cache_file
-)
-        
-except
-IOError
-as
-e
-:
-            
-if
-e
-.
-errno
-!
-=
-errno
-.
-ENOENT
-:
-                
-raise
-            
-self
-.
-_cache
-=
-{
 }
+{
+extras_string
+}
+"
     
 def
 write_cache
 (
 self
 )
+-
+>
+None
 :
         
 "
@@ -784,6 +797,13 @@ _cache_file
 "
 w
 "
+encoding
+=
+"
+utf
+-
+8
+"
 )
 as
 f
@@ -805,6 +825,9 @@ clear
 (
 self
 )
+-
+>
+None
 :
         
 self
@@ -825,7 +848,12 @@ __contains__
 (
 self
 ireq
+:
+InstallRequirement
 )
+-
+>
+bool
 :
         
 pkgname
@@ -857,7 +885,15 @@ __getitem__
 (
 self
 ireq
+:
+InstallRequirement
 )
+-
+>
+list
+[
+str
+]
 :
         
 pkgname
@@ -886,8 +922,18 @@ __setitem__
 (
 self
 ireq
+:
+InstallRequirement
 values
+:
+list
+[
+str
+]
 )
+-
+>
+None
 :
         
 pkgname
@@ -932,9 +978,26 @@ write_cache
 def
 reverse_dependencies
 (
+        
 self
 ireqs
+:
+Iterable
+[
+InstallRequirement
+]
+    
 )
+-
+>
+dict
+[
+str
+set
+[
+str
+]
+]
 :
         
 "
@@ -1032,9 +1095,30 @@ ireqs_as_cache_values
 def
 _reverse_dependencies
 (
+        
 self
 cache_keys
+:
+Iterable
+[
+tuple
+[
+str
+str
+]
+]
+    
 )
+-
+>
+dict
+[
+str
+set
+[
+str
+]
+]
 :
         
 "
@@ -1160,7 +1244,7 @@ flake8
 "
         
 return
-lookup_table
+lookup_table_from_tuples
 (
             
 (
