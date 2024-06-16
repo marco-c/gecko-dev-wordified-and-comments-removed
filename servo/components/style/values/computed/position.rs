@@ -115,6 +115,7 @@ position
 :
 :
 {
+AnchorName
 GridAutoFlow
 GridTemplateAreas
 MasonryAutoFlow

@@ -6101,6 +6101,12 @@ mShapeOutside
 mozilla
 :
 :
+StyleAnchorName
+mAnchorName
+;
+mozilla
+:
+:
 Maybe
 <
 mozilla

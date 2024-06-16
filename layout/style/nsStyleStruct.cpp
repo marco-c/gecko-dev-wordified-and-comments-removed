@@ -11486,6 +11486,12 @@ aSource
 .
 mShapeOutside
 )
+mAnchorName
+(
+aSource
+.
+mAnchorName
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -12909,6 +12915,14 @@ mContainerName
 aNewData
 .
 mContainerName
+|
+|
+mAnchorName
+!
+=
+aNewData
+.
+mAnchorName
 )
 )
 {
