@@ -92,8 +92,8 @@ nsWindow
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 widget
 {
 class
@@ -299,10 +299,9 @@ HasFxrOutputHandler
 const
 {
 return
-mFxrHandler
 !
-=
-nullptr
+!
+mFxrHandler
 ;
 }
 FxROutputHandler
@@ -394,7 +393,6 @@ mFxrHandler
 ;
 }
 ;
-}
 }
 #
 endif
