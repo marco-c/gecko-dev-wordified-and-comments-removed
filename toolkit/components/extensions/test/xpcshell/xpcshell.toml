@@ -498,6 +498,13 @@ js
 ]
 [
 "
+test_ext_experiments_glean
+.
+js
+"
+]
+[
+"
 test_ext_geckoProfiler_schema
 .
 js

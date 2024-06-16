@@ -11130,6 +11130,8 @@ Cu
 ExtensionAPI
 ExtensionAPIPersistent
 ExtensionCommon
+Glean
+GleanPings
 IOUtils
 MatchGlob
 MatchPattern
