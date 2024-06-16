@@ -3046,13 +3046,14 @@ handle
 =
 :
 :
-FindFirstFileW
+FindFirstFileExW
 (
 filename
 .
 get
 (
 )
+FindExInfoBasic
 &
 (
 d
@@ -3060,6 +3061,9 @@ d
 >
 data
 )
+FindExSearchNameMatch
+nullptr
+FIND_FIRST_EX_LARGE_FETCH
 )
 ;
 if
