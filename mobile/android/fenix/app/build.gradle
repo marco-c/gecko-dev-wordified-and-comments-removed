@@ -6953,13 +6953,13 @@ ComponentsDependencies
 .
 androidx_work_runtime
 implementation
-FenixDependencies
+ComponentsDependencies
 .
 androidx_datastore
 implementation
 ComponentsDependencies
 .
-androidx_data_store_preferences
+androidx_datastore_preferences
 implementation
 FenixDependencies
 .

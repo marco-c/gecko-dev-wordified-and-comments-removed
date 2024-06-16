@@ -422,7 +422,7 @@ androidx_paging
 implementation
 ComponentsDependencies
 .
-androidx_data_store_preferences
+androidx_datastore_preferences
 implementation
 ComponentsDependencies
 .

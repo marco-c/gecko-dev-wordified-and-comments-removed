@@ -2003,7 +2003,7 @@ androidx_work_runtime
 implementation
 ComponentsDependencies
 .
-androidx_data_store_preferences
+androidx_datastore_preferences
 implementation
 FocusDependencies
 .
