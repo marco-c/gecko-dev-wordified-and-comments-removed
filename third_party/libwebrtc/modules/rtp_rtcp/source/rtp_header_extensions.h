@@ -537,16 +537,6 @@ audio_level
 ;
 }
 ;
-using
-AudioLevel
-[
-[
-deprecated
-]
-]
-=
-AudioLevelExtension
-;
 #
 if
 !
