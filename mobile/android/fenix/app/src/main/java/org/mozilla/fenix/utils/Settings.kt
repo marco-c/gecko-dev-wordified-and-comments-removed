@@ -8164,7 +8164,7 @@ homescreenSections
 [
 HomeScreenSection
 .
-RECENTLY_SAVED
+BOOKMARKS
 ]
 =
 =

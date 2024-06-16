@@ -532,7 +532,7 @@ to
 false
 HomeScreenSection
 .
-RECENTLY_SAVED
+BOOKMARKS
 to
 false
 HomeScreenSection

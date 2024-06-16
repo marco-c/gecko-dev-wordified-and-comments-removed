@@ -312,9 +312,7 @@ in
 :
 true
 "
-recently
--
-saved
+bookmarks
 "
 :
 true
@@ -373,9 +371,7 @@ in
 :
 true
 "
-recently
--
-saved
+bookmarks
 "
 :
 true
@@ -2802,9 +2798,7 @@ and
 pinned
 sites
 .
-recently
--
-saved
+bookmarks
 :
 description
 :
@@ -2814,7 +2808,6 @@ the
 user
 has
 bookmarked
-recently
 .
 jump
 -
