@@ -221,6 +221,12 @@ WidgetTouchEvent
 aTouchEndEvent
 )
 ;
+static
+bool
+IsPrecedingTouchPointerDownConsumedByContent
+(
+)
+;
 private
 :
 void
@@ -335,6 +341,10 @@ sSingleTouchStartTimeStamp
 static
 LayoutDeviceIntPoint
 sSingleTouchStartPoint
+;
+static
+bool
+sPrecedingTouchPointerDownConsumedByContent
 ;
 }
 ;
