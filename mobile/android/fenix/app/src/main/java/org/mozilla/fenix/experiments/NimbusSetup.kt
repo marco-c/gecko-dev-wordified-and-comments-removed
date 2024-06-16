@@ -631,6 +631,14 @@ nimbusExperimentsFetched
 =
 true
 }
+recordedContext
+=
+RecordedNimbusContext
+(
+isFirstRun
+=
+isAppFirstRun
+)
 }
 .
 build
