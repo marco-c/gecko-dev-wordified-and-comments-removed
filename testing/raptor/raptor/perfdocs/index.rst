@@ -49,8 +49,12 @@ Fenix
 Reference
 Browser
 Chromium
-and
 Chrome
+Safari
+and
+Safari
+Technology
+Preview
 .
 -
 Contact
