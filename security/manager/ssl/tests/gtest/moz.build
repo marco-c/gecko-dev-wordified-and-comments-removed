@@ -3,6 +3,11 @@ SOURCES
 =
 [
 "
+CertificateCompressionTest
+.
+cpp
+"
+"
 CoseTest
 .
 cpp
