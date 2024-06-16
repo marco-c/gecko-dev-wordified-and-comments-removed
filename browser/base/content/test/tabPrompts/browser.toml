@@ -205,6 +205,13 @@ html
 ]
 [
 "
+browser_promptDelays
+.
+js
+"
+]
+[
+"
 browser_promptFocus
 .
 js
