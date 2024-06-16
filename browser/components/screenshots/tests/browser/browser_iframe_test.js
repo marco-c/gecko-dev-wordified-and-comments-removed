@@ -392,9 +392,11 @@ helper
 .
 waitForStateChange
 (
+[
 "
 selected
 "
+]
 )
 ;
 let
@@ -500,9 +502,11 @@ helper
 .
 waitForStateChange
 (
+[
 "
 crosshairs
 "
+]
 )
 ;
 }
