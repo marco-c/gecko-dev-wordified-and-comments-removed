@@ -60,7 +60,13 @@ MPL
 -
 >
 <
-ScrollView
+androidx
+.
+core
+.
+widget
+.
+NestedScrollView
 xmlns
 :
 android
@@ -758,5 +764,11 @@ RelativeLayout
 >
 <
 /
-ScrollView
+androidx
+.
+core
+.
+widget
+.
+NestedScrollView
 >
