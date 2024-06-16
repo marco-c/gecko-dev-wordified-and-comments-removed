@@ -57,15 +57,6 @@ nsstring
 nsCString
 ;
 use
-std
-:
-:
-convert
-:
-:
-From
-;
-use
 xpcom
 :
 :
