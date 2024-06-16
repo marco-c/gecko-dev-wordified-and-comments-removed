@@ -65,11 +65,7 @@ OFlag
 [
 cfg
 (
-target_os
-=
-"
-illumos
-"
+solarish
 )
 ]
 let
@@ -91,11 +87,7 @@ cfg
 (
 not
 (
-target_os
-=
-"
-illumos
-"
+solarish
 )
 )
 ]
