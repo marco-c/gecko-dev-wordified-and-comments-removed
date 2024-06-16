@@ -288,7 +288,7 @@ ftl
 )
 preview
 /
-backupPreferences
+backupSettings
 .
 ftl
 (
@@ -299,7 +299,7 @@ locales
 -
 preview
 /
-backupPreferences
+backupSettings
 .
 ftl
 )
