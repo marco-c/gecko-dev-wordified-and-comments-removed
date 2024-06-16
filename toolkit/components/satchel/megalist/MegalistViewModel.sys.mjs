@@ -675,6 +675,8 @@ of
 snapshotData
 .
 stickers
+(
+)
 )
 {
 snapshot

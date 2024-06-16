@@ -753,11 +753,9 @@ if
 (
 this
 .
-editingValue
-!
-=
-=
-undefined
+isEditing
+(
+)
 )
 {
 return
