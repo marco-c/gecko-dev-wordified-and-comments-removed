@@ -183,8 +183,14 @@ PNG_DATA
 len
 (
 )
-as
-i64
+.
+try_into
+(
+)
+.
+unwrap
+(
+)
 None
 )
 ;
