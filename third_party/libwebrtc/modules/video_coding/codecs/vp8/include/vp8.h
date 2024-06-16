@@ -132,6 +132,11 @@ VP8Decoder
 {
 public
 :
+[
+[
+deprecated
+]
+]
 static
 std
 :
