@@ -468,6 +468,8 @@ height
 test_inset_area
 (
 "
+span
+-
 all
 "
 {
@@ -489,8 +491,11 @@ height
 test_inset_area
 (
 "
+span
+-
 all
-/
+span
+-
 all
 "
 {
@@ -518,7 +523,6 @@ test_inset_area
 (
 "
 top
-/
 left
 "
 {
@@ -541,7 +545,6 @@ test_inset_area
 (
 "
 top
-/
 center
 "
 {
@@ -564,7 +567,6 @@ test_inset_area
 (
 "
 top
-/
 right
 "
 {
@@ -587,7 +589,6 @@ test_inset_area
 (
 "
 center
-/
 left
 "
 {
@@ -610,7 +611,6 @@ test_inset_area
 (
 "
 center
-/
 center
 "
 {
@@ -633,7 +633,6 @@ test_inset_area
 (
 "
 center
-/
 right
 "
 {
@@ -656,7 +655,6 @@ test_inset_area
 (
 "
 bottom
-/
 left
 "
 {
@@ -679,7 +677,6 @@ test_inset_area
 (
 "
 bottom
-/
 center
 "
 {
@@ -702,7 +699,6 @@ test_inset_area
 (
 "
 bottom
-/
 right
 "
 {
@@ -725,7 +721,6 @@ test_inset_area
 (
 "
 start
-/
 start
 "
 {
@@ -748,7 +743,6 @@ test_inset_area
 (
 "
 start
-/
 center
 "
 {
@@ -771,7 +765,6 @@ test_inset_area
 (
 "
 start
-/
 end
 "
 {
@@ -794,7 +787,6 @@ test_inset_area
 (
 "
 center
-/
 start
 "
 {
@@ -817,7 +809,6 @@ test_inset_area
 (
 "
 center
-/
 end
 "
 {
@@ -840,7 +831,6 @@ test_inset_area
 (
 "
 end
-/
 start
 "
 {
@@ -863,7 +853,6 @@ test_inset_area
 (
 "
 end
-/
 center
 "
 {
@@ -886,7 +875,6 @@ test_inset_area
 (
 "
 end
-/
 end
 "
 {
@@ -911,7 +899,6 @@ test_inset_area
 self
 -
 start
-/
 self
 -
 start
@@ -938,7 +925,6 @@ test_inset_area
 self
 -
 start
-/
 center
 "
 {
@@ -963,7 +949,6 @@ test_inset_area
 self
 -
 start
-/
 self
 -
 end
@@ -988,7 +973,6 @@ test_inset_area
 (
 "
 center
-/
 self
 -
 start
@@ -1013,7 +997,6 @@ test_inset_area
 (
 "
 center
-/
 self
 -
 end
@@ -1040,7 +1023,6 @@ test_inset_area
 self
 -
 end
-/
 self
 -
 start
@@ -1067,7 +1049,6 @@ test_inset_area
 self
 -
 end
-/
 center
 "
 {
@@ -1092,7 +1073,6 @@ test_inset_area
 self
 -
 end
-/
 self
 -
 end
@@ -1119,7 +1099,6 @@ test_inset_area
 y
 -
 start
-/
 x
 -
 start
@@ -1146,7 +1125,6 @@ test_inset_area
 y
 -
 start
-/
 center
 "
 {
@@ -1171,7 +1149,6 @@ test_inset_area
 y
 -
 start
-/
 x
 -
 end
@@ -1196,7 +1173,6 @@ test_inset_area
 (
 "
 center
-/
 x
 -
 start
@@ -1221,7 +1197,6 @@ test_inset_area
 (
 "
 center
-/
 x
 -
 end
@@ -1248,7 +1223,6 @@ test_inset_area
 y
 -
 end
-/
 x
 -
 start
@@ -1275,7 +1249,6 @@ test_inset_area
 y
 -
 end
-/
 center
 "
 {
@@ -1300,7 +1273,6 @@ test_inset_area
 y
 -
 end
-/
 x
 -
 end
@@ -1329,7 +1301,6 @@ y
 self
 -
 start
-/
 x
 -
 self
@@ -1360,7 +1331,6 @@ y
 self
 -
 start
-/
 center
 "
 {
@@ -1387,7 +1357,6 @@ y
 self
 -
 start
-/
 x
 -
 self
@@ -1414,7 +1383,6 @@ test_inset_area
 (
 "
 center
-/
 x
 -
 self
@@ -1441,7 +1409,6 @@ test_inset_area
 (
 "
 center
-/
 x
 -
 self
@@ -1472,7 +1439,6 @@ y
 self
 -
 end
-/
 x
 -
 self
@@ -1503,7 +1469,6 @@ y
 self
 -
 end
-/
 center
 "
 {
@@ -1530,7 +1495,6 @@ y
 self
 -
 end
-/
 x
 -
 self
@@ -1562,17 +1526,20 @@ spans
 test_inset_area
 (
 "
+span
+-
 y
 -
 self
 -
 start
-center
-/
+span
+-
+x
+-
 self
 -
 end
-center
 "
 {
 left
@@ -1593,15 +1560,12 @@ height
 test_inset_area
 (
 "
+span
+-
 bottom
-center
-/
-x
+span
 -
-start
-x
--
-end
+all
 "
 {
 left
@@ -1626,14 +1590,29 @@ Non
 orthogonal
 axes
 .
+anchored
+.
+style
+.
+writingMode
+=
+"
+vertical
+-
+lr
+"
+;
 test_inset_area
 (
 "
-x
+self
+-
+inline
 -
 start
-/
-left
+block
+-
+start
 "
 {
 left
@@ -1654,13 +1633,12 @@ height
 test_inset_area
 (
 "
-y
+self
+-
+block
 -
 end
-/
-y
--
-self
+inline
 -
 start
 "
@@ -1679,6 +1657,18 @@ height
 0
 }
 )
+;
+anchored
+.
+style
+.
+writingMode
+=
+"
+horizontal
+-
+tb
+"
 ;
 /
 /
@@ -1707,8 +1697,9 @@ implicit
 test_inset_area
 (
 "
+span
+-
 all
-/
 top
 "
 {
