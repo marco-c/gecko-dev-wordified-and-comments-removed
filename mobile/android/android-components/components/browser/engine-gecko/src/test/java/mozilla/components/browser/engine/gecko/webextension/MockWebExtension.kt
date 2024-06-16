@@ -469,7 +469,7 @@ setField
 (
 metadata
 "
-permissions
+promptPermissions
 "
 permissions
 )
