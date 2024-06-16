@@ -235,9 +235,6 @@ enum
 RenderTaskParent
 {
 Surface
-(
-SurfaceIndex
-)
 RenderTask
 (
 RenderTaskId
@@ -1295,9 +1292,6 @@ RenderTaskParent
 :
 :
 Surface
-(
-_surface_index
-)
 =
 >
 {

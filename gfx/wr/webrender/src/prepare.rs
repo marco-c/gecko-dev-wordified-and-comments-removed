@@ -1742,11 +1742,6 @@ RenderTaskParent
 :
 :
 Surface
-(
-pic_context
-.
-surface_index
-)
 &
 mut
 frame_state
@@ -2485,11 +2480,6 @@ RenderTaskParent
 :
 :
 Surface
-(
-pic_context
-.
-surface_index
-)
 &
 mut
 frame_state
