@@ -3,14 +3,13 @@ crate
 :
 :
 {
-lazy
-:
-:
-LazyBool
 util
 :
 :
+{
 slice_as_uninit
+LazyBool
+}
 Error
 }
 ;
