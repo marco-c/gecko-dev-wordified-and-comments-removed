@@ -339,6 +339,14 @@ id
 .
 translationsDialogFragment
 )
+FromDownloadLanguagesPreferenceFragment
+(
+R
+.
+id
+.
+downloadLanguagesPreferenceFragment
+)
 FromMenuDialogFragment
 (
 R
