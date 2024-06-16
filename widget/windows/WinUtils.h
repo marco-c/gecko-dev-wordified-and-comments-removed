@@ -1296,16 +1296,6 @@ aRect
 )
 ;
 static
-RECT
-ToWinRect
-(
-const
-LayoutDeviceIntRect
-&
-aRect
-)
-;
-static
 bool
 IsIMEEnabled
 (
