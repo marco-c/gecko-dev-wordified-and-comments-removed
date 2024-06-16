@@ -1022,7 +1022,7 @@ result
 ;
 }
 class
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ScrollEvent
@@ -1036,7 +1036,7 @@ NS_DECL_NSIRUNNABLE
 explicit
 ScrollEvent
 (
-nsHTMLScrollFrame
+ScrollContainerFrame
 *
 aHelper
 bool
@@ -1055,14 +1055,14 @@ nullptr
 }
 private
 :
-nsHTMLScrollFrame
+ScrollContainerFrame
 *
 mHelper
 ;
 }
 ;
 class
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ScrollEndEvent
@@ -1076,7 +1076,7 @@ NS_DECL_NSIRUNNABLE
 explicit
 ScrollEndEvent
 (
-nsHTMLScrollFrame
+ScrollContainerFrame
 *
 aHelper
 bool
@@ -1095,14 +1095,14 @@ nullptr
 }
 private
 :
-nsHTMLScrollFrame
+ScrollContainerFrame
 *
 mHelper
 ;
 }
 ;
 class
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 AsyncScrollPortEvent
@@ -1116,7 +1116,7 @@ NS_DECL_NSIRUNNABLE
 explicit
 AsyncScrollPortEvent
 (
-nsHTMLScrollFrame
+ScrollContainerFrame
 *
 helper
 )
@@ -1124,7 +1124,7 @@ helper
 Runnable
 (
 "
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 AsyncScrollPortEvent
@@ -1148,14 +1148,14 @@ nullptr
 }
 private
 :
-nsHTMLScrollFrame
+ScrollContainerFrame
 *
 mHelper
 ;
 }
 ;
 class
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ScrolledAreaEvent
@@ -1169,7 +1169,7 @@ NS_DECL_NSIRUNNABLE
 explicit
 ScrolledAreaEvent
 (
-nsHTMLScrollFrame
+ScrollContainerFrame
 *
 helper
 )
@@ -1177,7 +1177,7 @@ helper
 Runnable
 (
 "
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ScrolledAreaEvent
@@ -1201,7 +1201,7 @@ nullptr
 }
 private
 :
-nsHTMLScrollFrame
+ScrollContainerFrame
 *
 mHelper
 ;
@@ -1214,7 +1214,7 @@ final
 public
 nsExpirationTracker
 <
-nsHTMLScrollFrame
+ScrollContainerFrame
 4
 >
 {
@@ -1237,7 +1237,7 @@ aEventTarget
 :
 nsExpirationTracker
 <
-nsHTMLScrollFrame
+ScrollContainerFrame
 4
 >
 (
@@ -1263,7 +1263,7 @@ virtual
 void
 NotifyExpired
 (
-nsHTMLScrollFrame
+ScrollContainerFrame
 *
 aObject
 )
@@ -1291,10 +1291,13 @@ ScrollFrameActivityTracker
 >
 gScrollFrameActivityTracker
 ;
-nsHTMLScrollFrame
+ScrollContainerFrame
 *
-NS_NewHTMLScrollFrame
+NS_NewScrollContainerFrame
 (
+mozilla
+:
+:
 PresShell
 *
 aPresShell
@@ -1310,7 +1313,7 @@ new
 (
 aPresShell
 )
-nsHTMLScrollFrame
+ScrollContainerFrame
 (
 aStyle
 aPresShell
@@ -1325,12 +1328,12 @@ aIsRoot
 }
 NS_IMPL_FRAMEARENA_HELPERS
 (
-nsHTMLScrollFrame
+ScrollContainerFrame
 )
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
-nsHTMLScrollFrame
+ScrollContainerFrame
 (
 ComputedStyle
 *
@@ -1663,18 +1666,18 @@ GetZoomableByAPZ
 ;
 }
 }
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ~
-nsHTMLScrollFrame
+ScrollContainerFrame
 (
 )
 =
 default
 ;
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ScrollbarActivityStarted
@@ -1697,7 +1700,7 @@ ActivityStarted
 }
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ScrollbarActivityStopped
@@ -1720,7 +1723,7 @@ ActivityStopped
 }
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 Destroy
@@ -1947,7 +1950,7 @@ aContext
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 SetInitialChildList
@@ -1981,7 +1984,7 @@ ReloadChildFrames
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 AppendFrames
@@ -2031,7 +2034,7 @@ ReloadChildFrames
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 InsertFrames
@@ -2118,7 +2121,7 @@ ReloadChildFrames
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 RemoveFrame
@@ -2299,7 +2302,7 @@ false
 ;
 ScrollReflowInput
 (
-nsHTMLScrollFrame
+ScrollContainerFrame
 *
 aFrame
 const
@@ -2492,7 +2495,7 @@ ScrollReflowInput
 :
 ScrollReflowInput
 (
-nsHTMLScrollFrame
+ScrollContainerFrame
 *
 aFrame
 const
@@ -2997,7 +3000,7 @@ wm
 ;
 }
 bool
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 TryLayout
@@ -4151,7 +4154,7 @@ true
 ;
 }
 bool
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ScrolledContentDependsOnBSize
@@ -4211,7 +4214,7 @@ NS_UNCONSTRAINEDSIZE
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ReflowScrolledFrame
@@ -4831,7 +4834,7 @@ aAssumeVScroll
 ;
 }
 bool
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 GuessHScrollbarNeeded
@@ -4876,7 +4879,7 @@ mOnlyNeedHScrollbarToScrollVVInsideLV
 ;
 }
 bool
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 GuessVScrollbarNeeded
@@ -4995,7 +4998,7 @@ false
 ;
 }
 bool
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 InInitialReflow
@@ -5015,7 +5018,7 @@ NS_FRAME_FIRST_REFLOW
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ReflowContents
@@ -5403,7 +5406,7 @@ true
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 PlaceScrollArea
@@ -5537,7 +5540,7 @@ Default
 ;
 }
 nscoord
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 IntrinsicScrollbarGutterSizeAtInlineEdges
@@ -5573,7 +5576,7 @@ wm
 ;
 }
 nsMargin
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 IntrinsicScrollbarGutterSize
@@ -5785,7 +5788,7 @@ gutter
 ;
 }
 nsMargin
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ComputeStableScrollbarGutter
@@ -6019,7 +6022,7 @@ GetContent
 ;
 }
 nscoord
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 GetMinISize
@@ -6093,7 +6096,7 @@ IntrinsicScrollbarGutterSizeAtInlineEdges
 ;
 }
 nscoord
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 GetPrefISize
@@ -6629,7 +6632,7 @@ ScrollableOverflowRectRelativeToParent
 }
 }
 BaselineSharingGroup
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 GetDefaultBaselineSharingGroup
@@ -6647,7 +6650,7 @@ GetDefaultBaselineSharingGroup
 ;
 }
 nscoord
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 SynthesizeFallbackBaseline
@@ -6724,7 +6727,7 @@ Maybe
 <
 nscoord
 >
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 GetNaturalBaselineBOffset
@@ -6862,7 +6865,7 @@ bSize
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 AdjustForPerspective
@@ -6904,7 +6907,7 @@ aScrollableOverflow
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 Reflow
@@ -6931,7 +6934,7 @@ MarkInReflow
 DO_GLOBAL_REFLOW_COUNT
 (
 "
-nsHTMLScrollFrame
+ScrollContainerFrame
 "
 )
 ;
@@ -7316,7 +7319,7 @@ mSkippedScrollbarLayout
 =
 false
 ;
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 SetScrollbarVisibility
@@ -7327,7 +7330,7 @@ state
 mShowHScrollbar
 )
 ;
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 SetScrollbarVisibility
@@ -7590,7 +7593,7 @@ PostOverflowEvent
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 DidReflow
@@ -7645,7 +7648,7 @@ Anchor
 ifdef
 DEBUG_FRAME_DUMP
 nsresult
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 GetFrameName
@@ -7661,7 +7664,7 @@ MakeFrameName
 (
 u
 "
-HTMLScroll
+ScrollContainer
 "
 _ns
 aResult
@@ -7677,7 +7680,7 @@ a11y
 :
 :
 AccType
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 AccessibleType
@@ -7748,7 +7751,7 @@ eHyperTextType
 endif
 NS_QUERYFRAME_HEAD
 (
-nsHTMLScrollFrame
+ScrollContainerFrame
 )
 NS_QUERYFRAME_ENTRY
 (
@@ -7768,14 +7771,14 @@ nsIScrollbarMediator
 )
 NS_QUERYFRAME_ENTRY
 (
-nsHTMLScrollFrame
+ScrollContainerFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
 nsContainerFrame
 )
 nsMargin
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 GetDesiredScrollbarSizes
@@ -7938,7 +7941,7 @@ result
 ;
 }
 nscoord
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 GetNonOverlayScrollbarSize
@@ -7987,7 +7990,7 @@ size
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 HandleScrollbarStyleSwitching
@@ -8097,7 +8100,7 @@ false
 #
 endif
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 SetScrollableByAPZ
@@ -8112,7 +8115,7 @@ aScrollable
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 SetZoomableByAPZ
@@ -8157,7 +8160,7 @@ SchedulePaint
 }
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 SetHasOutOfFlowContentInsideFilter
@@ -8170,7 +8173,7 @@ true
 ;
 }
 bool
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 WantAsyncScroll
@@ -8490,7 +8493,7 @@ allowedRange
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ScrollByPage
@@ -8521,7 +8524,7 @@ aSnapFlags
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ScrollByWhole
@@ -8552,7 +8555,7 @@ aSnapFlags
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ScrollByLine
@@ -8723,7 +8726,7 @@ aSnapFlags
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 RepeatButtonScroll
@@ -8749,7 +8752,7 @@ Yes
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ThumbMoved
@@ -8871,7 +8874,7 @@ Other
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ScrollbarReleased
@@ -8898,7 +8901,7 @@ Smooth
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ScrollByUnit
@@ -8981,7 +8984,7 @@ aSnapFlags
 ;
 }
 class
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 AsyncSmoothMSDScroll
@@ -9413,7 +9416,7 @@ mLastRefreshTime
 =
 aTime
 ;
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 AsyncSmoothMSDScrollCallback
@@ -9426,7 +9429,7 @@ deltaTime
 void
 SetRefreshObserver
 (
-nsHTMLScrollFrame
+ScrollContainerFrame
 *
 aCallee
 )
@@ -9613,7 +9616,7 @@ nsRefreshDriver
 *
 RefreshDriver
 (
-nsHTMLScrollFrame
+ScrollContainerFrame
 *
 aCallee
 )
@@ -9654,7 +9657,7 @@ mozilla
 TimeStamp
 mLastRefreshTime
 ;
-nsHTMLScrollFrame
+ScrollContainerFrame
 *
 mCallee
 ;
@@ -9673,7 +9676,7 @@ mTriggeredByScript
 }
 ;
 class
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 AsyncScroll
@@ -9954,7 +9957,7 @@ override
 void
 SetRefreshObserver
 (
-nsHTMLScrollFrame
+ScrollContainerFrame
 *
 aCallee
 )
@@ -10081,7 +10084,7 @@ aTime
 )
 override
 {
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 AsyncScrollCallback
@@ -10182,7 +10185,7 @@ Yes
 }
 private
 :
-nsHTMLScrollFrame
+ScrollContainerFrame
 *
 mCallee
 ;
@@ -10199,7 +10202,7 @@ nsRefreshDriver
 *
 RefreshDriver
 (
-nsHTMLScrollFrame
+ScrollContainerFrame
 *
 aCallee
 )
@@ -10221,7 +10224,7 @@ RefreshDriver
 }
 ;
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 AsyncScroll
@@ -10384,12 +10387,12 @@ aCurrentVelocity
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 AsyncSmoothMSDScrollCallback
 (
-nsHTMLScrollFrame
+ScrollContainerFrame
 *
 aInstance
 mozilla
@@ -10543,12 +10546,12 @@ TakeSnapTargetIds
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 AsyncScrollCallback
 (
-nsHTMLScrollFrame
+ScrollContainerFrame
 *
 aInstance
 mozilla
@@ -10724,7 +10727,7 @@ TakeSnapTargetIds
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 SetTransformingByAPZ
@@ -10791,7 +10794,7 @@ SchedulePaint
 }
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 CompleteAsyncScroll
@@ -10907,7 +10910,7 @@ PostScrollEndEvent
 }
 }
 bool
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 HasBgAttachmentLocal
@@ -10934,7 +10937,7 @@ HasLocalBackground
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ScrollToInternal
@@ -10989,7 +10992,7 @@ aTriggeredByScript
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ScrollToCSSPixels
@@ -11237,7 +11240,7 @@ Yes
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ScrollToCSSPixelsForApz
@@ -11326,7 +11329,7 @@ aLastSnapTargetIds
 ;
 }
 CSSIntPoint
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 GetRoundedScrollPositionCSSPixels
@@ -11346,7 +11349,7 @@ GetScrollPosition
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ScrollToWithOrigin
@@ -12194,7 +12197,7 @@ child
 }
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 MarkScrollbarsDirtyForReflow
@@ -12250,7 +12253,7 @@ NS_FRAME_IS_DIRTY
 }
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 InvalidateScrollbars
@@ -12286,7 +12289,7 @@ InvalidateFrameSubtree
 }
 }
 bool
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 IsAlwaysActive
@@ -12383,13 +12386,13 @@ void
 aClosure
 )
 {
-nsHTMLScrollFrame
+ScrollContainerFrame
 *
 sf
 =
 static_cast
 <
-nsHTMLScrollFrame
+ScrollContainerFrame
 *
 >
 (
@@ -12444,7 +12447,7 @@ GetContent
 ;
 if
 (
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ShouldActivateAllScrollFrames
@@ -12533,7 +12536,7 @@ SchedulePaint
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 MarkEverScrolled
@@ -12546,7 +12549,7 @@ true
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 MarkNotRecentlyScrolled
@@ -12570,7 +12573,7 @@ SchedulePaint
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 MarkRecentlyScrolled
@@ -12643,7 +12646,7 @@ ResetDisplayPortExpiryTimer
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ResetDisplayPortExpiryTimer
@@ -12673,7 +12676,7 @@ nsITimer
 :
 TYPE_ONE_SHOT
 "
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ResetDisplayPortExpiryTimer
@@ -12683,7 +12686,7 @@ ResetDisplayPortExpiryTimer
 }
 }
 bool
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 AllowDisplayPortExpiration
@@ -12765,7 +12768,7 @@ true
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 TriggerDisplayPortExpiration
@@ -12816,7 +12819,7 @@ ResetDisplayPortExpiryTimer
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ScrollVisual
@@ -13215,7 +13218,7 @@ y
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ScrollActivityCallback
@@ -13228,13 +13231,13 @@ void
 anInstance
 )
 {
-nsHTMLScrollFrame
+auto
 *
 self
 =
 static_cast
 <
-nsHTMLScrollFrame
+ScrollContainerFrame
 *
 >
 (
@@ -13273,7 +13276,7 @@ true
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ScheduleSyntheticMouseMove
@@ -13318,7 +13321,7 @@ nsITimer
 :
 TYPE_ONE_SHOT
 "
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ScheduleSyntheticMouseMove
@@ -13327,7 +13330,7 @@ ScheduleSyntheticMouseMove
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 NotifyApproximateFrameVisibilityUpdate
@@ -13377,7 +13380,7 @@ mDisplayPortAtLastFrameUpdate
 }
 }
 bool
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 GetDisplayPortAtLastApproximateFrameVisibilityUpdate
@@ -13541,7 +13544,7 @@ ToUnknownScale
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ScrollToImpl
@@ -15695,7 +15698,7 @@ B
 }
 ;
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 AppendScrollPartsTo
@@ -16347,7 +16350,7 @@ appendToTopFlags
 }
 }
 nsRect
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ExpandRectToNearlyVisible
@@ -16924,7 +16927,7 @@ uncapturedContainsBlendMode
 }
 ;
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 MaybeCreateTopLayerAndWrapRootItems
@@ -17379,7 +17382,7 @@ rootResultList
 }
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 BuildDisplayList
@@ -19352,7 +19355,7 @@ aLists
 ;
 }
 nsRect
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 RestrictToRootDisplayPort
@@ -20027,7 +20030,7 @@ rootDisplayPort
 ;
 }
 bool
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ShouldActivateAllScrollFrames
@@ -20061,7 +20064,7 @@ FissionAutostart
 ;
 }
 bool
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 DecideScrollableLayer
@@ -20711,7 +20714,7 @@ mWillBuildScrollableLayer
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 NotifyApzTransaction
@@ -20767,7 +20770,7 @@ Maybe
 <
 ScrollMetadata
 >
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ComputeScrollMetadata
@@ -20851,7 +20854,7 @@ isRootContent
 ;
 }
 bool
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 IsRectNearlyVisible
@@ -20943,7 +20946,7 @@ mScrollPort
 ;
 }
 OverscrollBehaviorInfo
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 GetOverscrollBehaviorInfo
@@ -20998,7 +21001,7 @@ mOverscrollBehaviorY
 ;
 }
 ScrollStyles
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 GetScrollStyles
@@ -21143,7 +21146,7 @@ result
 ;
 }
 nsRect
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 GetLayoutScrollRange
@@ -21164,7 +21167,7 @@ height
 ;
 }
 nsRect
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 GetScrollRange
@@ -21222,7 +21225,7 @@ range
 ;
 }
 nsRect
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 GetVisualScrollRange
@@ -21250,7 +21253,7 @@ height
 ;
 }
 nsSize
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 GetVisualViewportSize
@@ -21297,7 +21300,7 @@ Size
 ;
 }
 nsPoint
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 GetVisualViewportOffset
@@ -21361,7 +21364,7 @@ GetScrollPosition
 ;
 }
 bool
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 SetVisualViewportOffset
@@ -21429,7 +21432,7 @@ retVal
 ;
 }
 nsRect
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 GetVisualOptimalViewingRect
@@ -21694,7 +21697,7 @@ aNegTolerance
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ScrollBy
@@ -22649,7 +22652,7 @@ GetScrollPosition
 }
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ScrollByCSSPixelsInternal
@@ -22843,7 +22846,7 @@ Yes
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ScrollSnap
@@ -22944,7 +22947,7 @@ aMode
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ScrollSnap
@@ -23063,7 +23066,7 @@ mTargetIds
 }
 }
 nsSize
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 GetLineScrollAmount
@@ -23730,7 +23733,7 @@ headerBottom
 ;
 }
 nsSize
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 GetPageScrollAmount
@@ -23770,7 +23773,7 @@ GetScrollPortSizeExcludingHeadersAndFooters
 (
 const_cast
 <
-nsHTMLScrollFrame
+ScrollContainerFrame
 *
 >
 (
@@ -23887,7 +23890,7 @@ height
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ScrollToRestoredPosition
@@ -24300,16 +24303,16 @@ y
 ;
 }
 }
-auto
-nsHTMLScrollFrame
+ScrollContainerFrame
+:
+:
+LoadingState
+ScrollContainerFrame
 :
 :
 GetPageLoadingState
 (
 )
--
->
-LoadingState
 {
 bool
 loadCompleted
@@ -24409,11 +24412,11 @@ LoadingState
 Loading
 ;
 }
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 OverflowState
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 GetOverflowState
@@ -24494,7 +24497,7 @@ result
 ;
 }
 nsresult
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 FireScrollPortEvent
@@ -24719,7 +24722,7 @@ event
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 PostScrollEndEvent
@@ -24747,7 +24750,7 @@ aDelayed
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 FireScrollEndEvent
@@ -24909,7 +24912,7 @@ status
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ReloadChildFrames
@@ -25177,7 +25180,7 @@ already_AddRefed
 <
 Element
 >
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 MakeScrollbar
@@ -25373,7 +25376,7 @@ forget
 ;
 }
 bool
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 IsForTextControlWithNoScrollbars
@@ -25427,7 +25430,7 @@ input
 ;
 }
 auto
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 GetCurrentAnonymousContent
@@ -25494,7 +25497,7 @@ result
 ;
 }
 auto
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 GetNeededAnonymousContent
@@ -25714,7 +25717,7 @@ result
 ;
 }
 nsresult
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 CreateAnonymousContent
@@ -26297,7 +26300,7 @@ NS_OK
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 AppendAnonymousContentTo
@@ -26367,7 +26370,7 @@ mResizerContent
 }
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 DidSetComputedStyle
@@ -26420,7 +26423,7 @@ PostPendingResnap
 }
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 RemoveObservers
@@ -26463,7 +26466,7 @@ nullptr
 }
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 UpdateScrollbarPosition
@@ -26613,7 +26616,7 @@ false
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 CurPosAttributeChangedInternal
@@ -26950,7 +26953,7 @@ Scrollbars
 ;
 }
 }
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ScrollEvent
@@ -26958,7 +26961,7 @@ ScrollEvent
 :
 ScrollEvent
 (
-nsHTMLScrollFrame
+ScrollContainerFrame
 *
 aHelper
 bool
@@ -26968,7 +26971,7 @@ aDelayed
 Runnable
 (
 "
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ScrollEvent
@@ -27001,7 +27004,7 @@ aDelayed
 }
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHODIMP
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ScrollEvent
@@ -27028,7 +27031,7 @@ return
 NS_OK
 ;
 }
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ScrollEndEvent
@@ -27036,7 +27039,7 @@ ScrollEndEvent
 :
 ScrollEndEvent
 (
-nsHTMLScrollFrame
+ScrollContainerFrame
 *
 aHelper
 bool
@@ -27046,7 +27049,7 @@ aDelayed
 Runnable
 (
 "
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ScrollEndEvent
@@ -27079,7 +27082,7 @@ aDelayed
 }
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHODIMP
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ScrollEndEvent
@@ -27107,7 +27110,7 @@ NS_OK
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 FireScrollEvent
@@ -27359,7 +27362,7 @@ status
 }
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 PostScrollEvent
@@ -27388,7 +27391,7 @@ aDelayed
 }
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHODIMP
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 AsyncScrollPortEvent
@@ -27412,7 +27415,7 @@ NS_OK
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 PostOverflowEvent
@@ -27540,7 +27543,7 @@ get
 }
 nsIFrame
 *
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 GetFrameForStyle
@@ -27598,7 +27601,7 @@ styleFrame
 =
 const_cast
 <
-nsHTMLScrollFrame
+ScrollContainerFrame
 *
 >
 (
@@ -27611,7 +27614,7 @@ styleFrame
 ;
 }
 bool
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 NeedsScrollSnap
@@ -27658,7 +27661,7 @@ None
 ;
 }
 nsSize
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 GetSnapportSize
@@ -27696,7 +27699,7 @@ Size
 ;
 }
 bool
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 IsScrollbarOnRight
@@ -27765,7 +27768,7 @@ false
 }
 }
 bool
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 IsScrollingActive
@@ -27837,7 +27840,7 @@ content
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 FinishReflowForScrollbar
@@ -27920,14 +27923,14 @@ public
 explicit
 AutoMinimumScaleSizeChangeDetector
 (
-nsHTMLScrollFrame
+ScrollContainerFrame
 *
-ansHTMLScrollFrame
+aScrollFrame
 )
 :
 mHelper
 (
-ansHTMLScrollFrame
+aScrollFrame
 )
 {
 MOZ_ASSERT
@@ -27945,14 +27948,14 @@ mIsRoot
 ;
 mPreviousMinimumScaleSize
 =
-ansHTMLScrollFrame
+aScrollFrame
 -
 >
 mMinimumScaleSize
 ;
 mPreviousIsUsingMinimumScaleSize
 =
-ansHTMLScrollFrame
+aScrollFrame
 -
 >
 mIsUsingMinimumScaleSize
@@ -27994,7 +27997,7 @@ true
 }
 private
 :
-nsHTMLScrollFrame
+ScrollContainerFrame
 *
 mHelper
 ;
@@ -28007,7 +28010,7 @@ mPreviousIsUsingMinimumScaleSize
 }
 ;
 nsSize
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 TrueOuterSize
@@ -28132,7 +28135,7 @@ AppUnitsPerDevPixel
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 UpdateMinimumScaleSize
@@ -28406,7 +28409,7 @@ true
 ;
 }
 bool
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ReflowFinished
@@ -29267,7 +29270,7 @@ doScroll
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ReflowCallbackCanceled
@@ -29280,7 +29283,7 @@ false
 ;
 }
 bool
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ComputeCustomOverflow
@@ -29446,7 +29449,7 @@ aOverflowAreas
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 UpdateSticky
@@ -29484,7 +29487,7 @@ this
 }
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 UpdatePrevScrolledRect
@@ -29520,7 +29523,7 @@ currScrolledRect
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 AdjustScrollbarRectForResizer
@@ -30043,7 +30046,7 @@ y
 }
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 LayoutScrollbarPartAtRect
@@ -30221,7 +30224,7 @@ flags
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 LayoutScrollbars
@@ -31223,7 +31226,7 @@ presShell
 #
 endif
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 SetScrollbarEnabled
@@ -31307,7 +31310,7 @@ scrolling
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 SetCoordAttribute
@@ -31524,7 +31527,7 @@ ratio
 ;
 }
 bool
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 GetBorderRadii
@@ -31776,7 +31779,7 @@ aRes
 ;
 }
 nsRect
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 GetScrolledRect
@@ -31905,7 +31908,7 @@ GetReferenceFrame
 (
 const_cast
 <
-nsHTMLScrollFrame
+ScrollContainerFrame
 *
 >
 (
@@ -32178,7 +32181,7 @@ result
 ;
 }
 StyleDirection
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 GetScrolledFrameDir
@@ -32273,7 +32276,7 @@ Rtl
 ;
 }
 nsRect
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 GetUnsnappedScrolledRectInternal
@@ -32305,7 +32308,7 @@ GetScrolledFrameDir
 ;
 }
 nsMargin
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 GetActualScrollbarSizes
@@ -32469,7 +32472,7 @@ m
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 SetScrollbarVisibility
@@ -32523,7 +32526,7 @@ aVisible
 }
 }
 nscoord
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 GetCoordAttribute
@@ -32667,7 +32670,7 @@ aDefaultValue
 ;
 }
 bool
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 IsLastScrollUpdateAnimating
@@ -32734,7 +32737,7 @@ false
 ;
 }
 bool
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 IsLastScrollUpdateTriggeredByScriptAnimating
@@ -32829,7 +32832,7 @@ EnumSet
 <
 AnimationState
 >
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ScrollAnimationState
@@ -33010,7 +33013,7 @@ retval
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ResetScrollInfoIfNeeded
@@ -33070,7 +33073,7 @@ UniquePtr
 <
 PresState
 >
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 SaveState
@@ -33319,7 +33322,7 @@ state
 ;
 }
 NS_IMETHODIMP
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 RestoreState
@@ -33469,7 +33472,7 @@ NS_OK
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 PostScrolledAreaEvent
@@ -33511,7 +33514,7 @@ get
 }
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHODIMP
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ScrolledAreaEvent
@@ -33539,7 +33542,7 @@ NS_OK
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 FireScrolledAreaEvent
@@ -33698,7 +33701,7 @@ directions
 ;
 }
 nsRect
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 GetScrollRangeForUserInputEvents
@@ -33842,7 +33845,7 @@ scrollRange
 ;
 }
 ScrollDirections
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 GetAvailableScrollingDirectionsForUserInputEvents
@@ -33963,7 +33966,7 @@ aWritingModeOnScroller
 ScrollSnapInfo
 &
 aSnapInfo
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 SnapTargetSet
@@ -34692,7 +34695,7 @@ aWritingModeOnScroller
 ScrollSnapInfo
 &
 aSnapInfo
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 SnapTargetSet
@@ -34959,7 +34962,7 @@ aScrollPortSize
 ;
 }
 nsMargin
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 GetScrollPadding
@@ -35010,7 +35013,7 @@ Size
 ;
 }
 ScrollSnapInfo
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ComputeScrollSnapInfo
@@ -35117,7 +35120,7 @@ result
 ;
 }
 ScrollSnapInfo
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 GetScrollSnapInfo
@@ -35134,7 +35137,7 @@ Maybe
 <
 SnapDestination
 >
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 GetSnapPointForDestination
@@ -35182,7 +35185,7 @@ Maybe
 <
 SnapDestination
 >
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 GetSnapPointForResnap
@@ -35234,7 +35237,7 @@ focusedContent
 ;
 }
 bool
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 NeedsResnap
@@ -35284,7 +35287,7 @@ isSome
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 SetLastSnapTargetIds
@@ -35379,7 +35382,7 @@ aIds
 ;
 }
 bool
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 IsLastSnappedTarget
@@ -35458,7 +35461,7 @@ id
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 TryResnap
@@ -35551,7 +35554,7 @@ mTargetIds
 }
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 PostPendingResnapIfNeeded
@@ -35580,7 +35583,7 @@ PostPendingResnap
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 PostPendingResnap
@@ -35602,7 +35605,7 @@ nsIScrollableFrame
 :
 :
 PhysicalScrollSnapAlign
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 GetScrollSnapAlignFor
@@ -35995,7 +35998,7 @@ alignForY
 ;
 }
 bool
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 UsesOverlayScrollbars
@@ -36015,7 +36018,7 @@ UseOverlayScrollbars
 ;
 }
 bool
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 DragScroll
@@ -36448,7 +36451,7 @@ aDragBlockId
 }
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 AsyncScrollbarDragInitiated
@@ -36529,7 +36532,7 @@ AsyncScrollbarDragRejected
 }
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 AsyncScrollbarDragRejected
@@ -36552,7 +36555,7 @@ mVScrollbarBox
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ApzSmoothScrollTo
@@ -36762,7 +36765,7 @@ SchedulePaint
 ;
 }
 bool
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 CanApzScrollInTheseDirections
@@ -36835,7 +36838,7 @@ true
 ;
 }
 bool
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 SmoothScrollVisual
@@ -36936,7 +36939,7 @@ true
 ;
 }
 bool
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 IsSmoothScroll
@@ -37090,7 +37093,7 @@ nsTArray
 <
 ScrollPositionUpdate
 >
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 GetScrollUpdates
@@ -37107,7 +37110,7 @@ Clone
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 AppendScrollUpdate
@@ -37135,7 +37138,7 @@ aUpdate
 ;
 }
 void
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ScheduleScrollAnimations

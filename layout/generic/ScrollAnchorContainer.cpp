@@ -270,7 +270,7 @@ mozilla
 :
 layout
 {
-nsHTMLScrollFrame
+ScrollContainerFrame
 *
 ScrollAnchorContainer
 :
@@ -283,7 +283,7 @@ const
 return
 reinterpret_cast
 <
-nsHTMLScrollFrame
+ScrollContainerFrame
 *
 >
 (
@@ -297,7 +297,7 @@ this
 -
 offsetof
 (
-nsHTMLScrollFrame
+ScrollContainerFrame
 mAnchor
 )
 )
@@ -308,7 +308,7 @@ ScrollAnchorContainer
 :
 ScrollAnchorContainer
 (
-nsHTMLScrollFrame
+ScrollContainerFrame
 *
 aScrollFrame
 )
@@ -876,9 +876,9 @@ nscoord
 FindScrollAnchoringBoundingOffset
 (
 const
-nsHTMLScrollFrame
+ScrollContainerFrame
 *
-aScrollFrame
+aScrollContainerFrame
 nsIFrame
 *
 aCandidate
@@ -887,7 +887,7 @@ aCandidate
 WritingMode
 writingMode
 =
-aScrollFrame
+aScrollContainerFrame
 -
 >
 GetWritingMode
@@ -899,7 +899,7 @@ physicalBounding
 =
 FindScrollAnchoringBoundingRect
 (
-aScrollFrame
+aScrollContainerFrame
 aCandidate
 )
 ;
@@ -908,7 +908,7 @@ logicalBounding
 (
 writingMode
 physicalBounding
-aScrollFrame
+aScrollContainerFrame
 -
 >
 mScrolledFrame

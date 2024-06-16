@@ -321,7 +321,7 @@ nsPresContext
 aPresContext
 )
 :
-nsHTMLScrollFrame
+ScrollContainerFrame
 (
 aStyle
 aPresContext
@@ -422,7 +422,7 @@ Detach
 (
 )
 ;
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 Destroy
@@ -464,7 +464,7 @@ nsListControlFrame
 "
 )
 ;
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 BuildDisplayList
@@ -818,7 +818,7 @@ nsListControlFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-nsHTMLScrollFrame
+ScrollContainerFrame
 )
 #
 ifdef
@@ -1484,7 +1484,7 @@ containBSize
 )
 ;
 }
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 Reflow
@@ -1663,7 +1663,7 @@ SetSuppressScrollbarUpdate
 false
 )
 ;
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 DidReflow
@@ -1706,7 +1706,7 @@ Reset
 (
 )
 ;
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 Reflow
@@ -2589,7 +2589,7 @@ aEventStatus
 ;
 }
 return
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 HandleEvent
@@ -2651,7 +2651,7 @@ false
 ;
 }
 }
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 SetInitialChildList
@@ -2708,7 +2708,7 @@ nsIFrame
 aPrevInFlow
 )
 {
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 Init
@@ -3976,7 +3976,7 @@ HasPendingInterrupt
 (
 )
 ;
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 DidReflow

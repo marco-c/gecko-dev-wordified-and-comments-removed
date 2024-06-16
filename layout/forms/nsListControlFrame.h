@@ -99,7 +99,10 @@ nsListControlFrame
 final
 :
 public
-nsHTMLScrollFrame
+mozilla
+:
+:
+ScrollContainerFrame
 public
 nsIFormControlFrame
 public
@@ -608,7 +611,7 @@ bool
 aSuppress
 )
 {
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 SetSuppressScrollbarUpdate

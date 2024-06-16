@@ -17271,7 +17271,7 @@ nsIFrame
 {
 if
 (
-nsHTMLScrollFrame
+ScrollContainerFrame
 *
 scrollFrame
 =
@@ -17417,7 +17417,7 @@ ssz
 =
 static_cast
 <
-nsHTMLScrollFrame
+ScrollContainerFrame
 *
 >
 (
