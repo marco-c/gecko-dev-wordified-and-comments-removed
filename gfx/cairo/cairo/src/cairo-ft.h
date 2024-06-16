@@ -48,6 +48,9 @@ FT_Face
 face
 int
 load_flags
+unsigned
+int
+synth_flags
 )
 ;
 typedef
