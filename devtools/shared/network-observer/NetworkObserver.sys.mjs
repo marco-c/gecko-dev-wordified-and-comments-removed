@@ -2220,10 +2220,7 @@ this
 #
 createNetworkEvent
 (
-channel
-{
 httpActivity
-}
 )
 ;
 }
@@ -2540,9 +2537,8 @@ this
 #
 createNetworkEvent
 (
-channel
-{
 httpActivity
+{
 inProgressRequest
 :
 true
@@ -2590,9 +2586,8 @@ this
 #
 createNetworkEvent
 (
-channel
-{
 httpActivity
+{
 blockedReason
 blockingExtension
 }
@@ -3249,10 +3244,7 @@ this
 #
 createNetworkEvent
 (
-channel
-{
 httpActivity
-}
 )
 ;
 }
@@ -3550,9 +3542,8 @@ this
 #
 createNetworkEvent
 (
-channel
-{
 httpActivity
+{
 blockedReason
 }
 )
@@ -4639,9 +4630,8 @@ content
 #
 createNetworkEvent
 (
-channel
-{
 httpActivity
+{
 timestamp
 blockedReason
 blockingExtension
@@ -4666,6 +4656,8 @@ this
 #
 shouldBlockChannel
 (
+httpActivity
+.
 channel
 )
 )
@@ -4704,6 +4696,8 @@ and
 annotate
 the
 event
+.
+httpActivity
 .
 channel
 .
@@ -4759,6 +4753,8 @@ this
 #
 saveRequestAndResponseBodies
 }
+httpActivity
+.
 channel
 )
 ;
@@ -4830,6 +4826,8 @@ lazy
 .
 NetworkAuthListener
 (
+httpActivity
+.
 channel
 httpActivity
 .
@@ -5071,9 +5069,8 @@ this
 #
 createNetworkEvent
 (
-channel
-{
 httpActivity
+{
 timestamp
 }
 )
