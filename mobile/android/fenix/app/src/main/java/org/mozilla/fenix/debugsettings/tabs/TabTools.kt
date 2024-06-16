@@ -952,7 +952,7 @@ R
 .
 string
 .
-debug_drawer_tab_tools_tab_count_normal
+debug_drawer_tab_tools_tab_count_active
 )
 count
 =
