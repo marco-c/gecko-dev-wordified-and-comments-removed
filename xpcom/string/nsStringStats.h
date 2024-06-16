@@ -5,6 +5,9 @@ nsStringStats_h
 define
 nsStringStats_h
 #
+ifdef
+DEBUG
+#
 include
 "
 mozilla
@@ -41,7 +44,7 @@ int32_t
 mozilla
 :
 :
-SequentiallyConsistent
+Relaxed
 >
 ;
 AtomicInt
@@ -105,5 +108,15 @@ Count
 )
 +
 +
+#
+else
+#
+define
+STRING_STAT_INCREMENT
+(
+_s
+)
+#
+endif
 #
 endif

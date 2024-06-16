@@ -6,6 +6,9 @@ nsStringStats
 h
 "
 #
+ifdef
+DEBUG
+#
 include
 "
 mozilla
@@ -383,3 +386,5 @@ tid
 )
 ;
 }
+#
+endif
