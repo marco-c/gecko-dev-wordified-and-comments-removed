@@ -71,6 +71,15 @@ network
 .
 proxy
 .
+socks5_remote_dns
+"
+:
+true
+"
+network
+.
+proxy
+.
 type
 "
 :
