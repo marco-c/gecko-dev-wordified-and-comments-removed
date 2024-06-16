@@ -261,6 +261,9 @@ false
 isTCPCFREnabled
 =
 false
+tabsTrayRewriteEnabled
+=
+true
 )
 )
 {
@@ -317,7 +320,10 @@ clickTabCrashedCloseButton
 {
 }
 .
-openTabDrawer
+openComposeTabDrawer
+(
+activityTestRule
+)
 {
 verifyNoOpenTabsInNormalBrowsing
 (
@@ -486,7 +492,10 @@ waitForIdle
 )
 }
 .
-openTabDrawer
+openComposeTabDrawer
+(
+activityTestRule
+)
 {
 }
 .
@@ -521,7 +530,10 @@ tabCrashMessage
 )
 }
 .
-openTabDrawer
+openComposeTabDrawer
+(
+activityTestRule
+)
 {
 verifyExistingOpenTabs
 (
