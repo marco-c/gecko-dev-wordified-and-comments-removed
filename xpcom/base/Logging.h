@@ -222,12 +222,6 @@ bool
 aCaptureStacks
 )
 ;
-static
-void
-DisableModules
-(
-)
-;
 bool
 ShouldLog
 (
