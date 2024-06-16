@@ -26,17 +26,6 @@ enabled
 =
 true
 "
-"
-extensions
-.
-formautofill
-.
-reauth
-.
-enabled
-=
-true
-"
 ]
 support
 -
