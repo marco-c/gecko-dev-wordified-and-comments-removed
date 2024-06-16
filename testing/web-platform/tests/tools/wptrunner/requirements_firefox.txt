@@ -51,7 +51,7 @@ mozrunner
 .
 3
 .
-0
+1
 mozversion
 =
 =

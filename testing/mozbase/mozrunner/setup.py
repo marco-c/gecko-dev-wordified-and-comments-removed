@@ -15,7 +15,7 @@ PACKAGE_VERSION
 .
 3
 .
-0
+1
 "
 desc
 =
@@ -103,9 +103,9 @@ mozprocess
 mozprofile
 ~
 =
-2
-.
 3
+.
+0
 "
     
 "
