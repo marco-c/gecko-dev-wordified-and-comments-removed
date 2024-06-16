@@ -455,6 +455,8 @@ document
 querySelectorAll
 (
 "
+moz
+-
 message
 -
 bar
@@ -481,9 +483,9 @@ message
 -
 bar
 -
-icon
+background
 -
-url
+color
 "
 )
 )
