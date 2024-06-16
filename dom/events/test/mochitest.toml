@@ -2990,6 +2990,13 @@ html
 ]
 [
 "
+test_unicode_input_on_windows_with_emulation
+.
+html
+"
+]
+[
+"
 test_use_conflated_keypress_event_model_on_newer_Office_Online_Server
 .
 html
