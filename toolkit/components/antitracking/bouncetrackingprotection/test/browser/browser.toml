@@ -144,3 +144,10 @@ browser_bouncetracking_telemetry_purge_duration
 js
 "
 ]
+[
+"
+browser_bouncetracking_initialize
+.
+js
+"
+]
