@@ -164,7 +164,6 @@ ArrayNewElem
 ArrayInitData
 ArrayInitElem
 ArrayCopy
-UpdateSuspenderState
 SlotsToAllocKindBytesTable
 #
 define
@@ -185,6 +184,12 @@ VISIT_BUILTIN_FUNC
 #
 undef
 VISIT_BUILTIN_FUNC
+#
+ifdef
+ENABLE_WASM_JSPI
+UpdateSuspenderState
+#
+endif
 #
 ifdef
 WASM_CODEGEN_DEBUG
