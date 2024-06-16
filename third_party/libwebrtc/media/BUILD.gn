@@ -5272,6 +5272,14 @@ environment
 .
 /
 api
+:
+libjingle_peerconnection_api
+"
+"
+.
+.
+/
+api
 /
 task_queue
 :
