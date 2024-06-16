@@ -5,7 +5,7 @@ strict
 ;
 const
 {
-TopSitesFeed
+TopSites
 DEFAULT_TOP_SITES
 }
 =
@@ -486,7 +486,7 @@ let
 feed
 =
 new
-TopSitesFeed
+TopSites
 (
 )
 ;
@@ -843,7 +843,7 @@ let
 feed
 =
 new
-TopSitesFeed
+TopSites
 (
 )
 ;
@@ -897,7 +897,7 @@ let
 feed
 =
 new
-TopSitesFeed
+TopSites
 (
 )
 ;

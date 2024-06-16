@@ -451,7 +451,7 @@ new
 Logger
 (
 "
-TopSitesFeed
+TopSites
 "
 )
 ;
@@ -3557,7 +3557,7 @@ false
 }
 export
 class
-TopSitesFeed
+TopSites
 {
 constructor
 (
