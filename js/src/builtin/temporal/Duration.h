@@ -699,7 +699,7 @@ const
 NormalizedTimeDuration
 &
 d
-double
+int64_t
 days
 NormalizedTimeDuration
 *
