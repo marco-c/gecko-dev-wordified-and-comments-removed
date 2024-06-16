@@ -6,6 +6,9 @@ DIRS
 tlsserver
 "
 "
+test_builtins
+"
+"
 test_signed_apps
 "
 ]
