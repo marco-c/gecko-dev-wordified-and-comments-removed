@@ -688,6 +688,16 @@ aSelection
 )
 const
 ;
+static
+bool
+IsRootUAWidget
+(
+const
+nsINode
+*
+aRoot
+)
+;
 protected
 :
 template
