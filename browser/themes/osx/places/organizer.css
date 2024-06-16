@@ -85,6 +85,10 @@ auto
 #
 placesToolbar
 {
+appearance
+:
+none
+;
 position
 :
 relative

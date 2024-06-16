@@ -920,6 +920,10 @@ menus
 #
 placesToolbar
 {
+appearance
+:
+none
+;
 background
 -
 color
