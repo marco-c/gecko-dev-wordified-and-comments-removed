@@ -1983,16 +1983,58 @@ dataclasses
 .
 dataclass
 class
-TestConfig
+_OutputPaths
 :
     
-out_dir
+element
 :
 str
     
-image_out_dir
+offscreen
 :
 str
+    
+def
+sub_path
+(
+self
+sub_dir
+:
+str
+)
+:
+        
+return
+_OutputPaths
+(
+element
+=
+os
+.
+path
+.
+join
+(
+self
+.
+element
+sub_dir
+)
+                            
+offscreen
+=
+os
+.
+path
+.
+join
+(
+self
+.
+offscreen
+sub_dir
+)
+)
 def
 _validate_test
 (
@@ -2464,12 +2506,12 @@ jinja_env
 jinja2
 .
 Environment
-                          
 params
 :
 Mapping
 [
 str
+                                                                         
 Any
 ]
                           
@@ -2480,13 +2522,13 @@ Set
 CanvasType
 ]
                           
-canvas_path
+output_files
 :
-str
-offscreen_path
-:
-str
+_OutputPaths
 )
+-
+>
+None
 :
     
 if
@@ -2528,7 +2570,9 @@ Path
 f
 '
 {
-canvas_path
+output_files
+.
+element
 }
 .
 html
@@ -2596,7 +2640,9 @@ Path
 f
 '
 {
-offscreen_path
+output_files
+.
+offscreen
 }
 .
 html
@@ -2663,7 +2709,9 @@ Path
 f
 '
 {
-offscreen_path
+output_files
+.
+offscreen
 }
 .
 w
@@ -2779,7 +2827,9 @@ Path
 f
 '
 {
-canvas_path
+output_files
+.
+element
 }
 -
 expected
@@ -2824,7 +2874,9 @@ Path
 f
 '
 {
-offscreen_path
+output_files
+.
+offscreen
 }
 -
 expected
@@ -2872,14 +2924,13 @@ Set
 CanvasType
 ]
                             
-canvas_path
+output_files
 :
-str
-                            
-offscreen_path
-:
-str
+_OutputPaths
 )
+-
+>
+None
 :
     
 if
@@ -2921,7 +2972,9 @@ Path
 f
 '
 {
-canvas_path
+output_files
+.
+element
 }
 .
 html
@@ -2990,7 +3043,9 @@ Path
 f
 '
 {
-offscreen_path
+output_files
+.
+offscreen
 }
 .
 html
@@ -3057,7 +3112,9 @@ Path
 f
 '
 {
-offscreen_path
+output_files
+.
+offscreen
 }
 .
 worker
@@ -3095,9 +3152,6 @@ str
 name
 :
 str
-sub_dir
-:
-str
                              
 enabled_canvas_types
 :
@@ -3106,13 +3160,9 @@ Set
 CanvasType
 ]
                              
-html_canvas_cfg
+output_dirs
 :
-TestConfig
-                             
-offscreen_canvas_cfg
-:
-TestConfig
+_OutputPaths
 )
 -
 >
@@ -3257,6 +3307,15 @@ surface
 expected
 )
     
+output_paths
+=
+output_dirs
+.
+sub_path
+(
+name
+)
+    
 if
 CanvasType
 .
@@ -3271,6 +3330,7 @@ expected_canvas
             
 expected
 +
+            
 "
 \
 nsurface
@@ -3288,19 +3348,9 @@ png
 n
 "
 %
-            
-os
+output_paths
 .
-path
-.
-join
-(
-html_canvas_cfg
-.
-image_out_dir
-sub_dir
-name
-)
+element
 )
         
 eval
@@ -3352,6 +3402,7 @@ expected_offscreen
             
 expected
 +
+            
 "
 \
 nsurface
@@ -3369,19 +3420,9 @@ png
 n
 "
 %
-            
-os
+output_paths
 .
-path
-.
-join
-(
-offscreen_canvas_cfg
-.
-image_out_dir
-sub_dir
-name
-)
+offscreen
 )
         
 eval
@@ -3439,14 +3480,6 @@ jinja2
 .
 Environment
                    
-name_to_sub_dir
-:
-Mapping
-[
-str
-str
-]
-                   
 used_tests
 :
 DefaultDict
@@ -3458,13 +3491,9 @@ CanvasType
 ]
 ]
                    
-html_canvas_cfg
+output_dirs
 :
-TestConfig
-                   
-offscreen_canvas_cfg
-:
-TestConfig
+_OutputPaths
 )
 -
 >
@@ -3484,14 +3513,6 @@ test
 name
 '
 ]
-    
-sub_dir
-=
-_get_test_sub_dir
-(
-name
-name_to_sub_dir
-)
     
 enabled_canvas_types
 =
@@ -3599,12 +3620,9 @@ expected
 ]
 name
                                                 
-sub_dir
 enabled_canvas_types
                                                 
-html_canvas_cfg
-                                                
-offscreen_canvas_cfg
+output_dirs
 )
     
 params
@@ -3683,35 +3701,9 @@ update
 enabled_canvas_types
 )
     
-canvas_path
+file_name
 =
-os
-.
-path
-.
-join
-(
-html_canvas_cfg
-.
-out_dir
-sub_dir
 name
-)
-    
-offscreen_path
-=
-os
-.
-path
-.
-join
-(
-offscreen_canvas_cfg
-.
-out_dir
-sub_dir
-name
-)
     
 if
 '
@@ -3721,21 +3713,22 @@ in
 test
 :
         
-canvas_path
+file_name
 +
 =
 '
 -
 manual
 '
-        
-offscreen_path
-+
+    
+output_files
 =
-'
--
-manual
-'
+output_dirs
+.
+sub_path
+(
+file_name
+)
     
 if
 '
@@ -3757,8 +3750,7 @@ jinja_env
 params
 enabled_canvas_types
                               
-canvas_path
-offscreen_path
+output_files
 )
     
 else
@@ -3770,8 +3762,7 @@ jinja_env
 params
 enabled_canvas_types
                                 
-canvas_path
-offscreen_path
+output_files
 )
 def
 _recursive_expand_variant_matrix
@@ -4042,7 +4033,11 @@ str
 None
 :
     
-CANVASOUTPUTDIR
+output_dirs
+=
+_OutputPaths
+(
+element
 =
 '
 .
@@ -4050,17 +4045,7 @@ CANVASOUTPUTDIR
 /
 element
 '
-    
-CANVASIMAGEOUTPUTDIR
-=
-'
-.
-.
-/
-element
-'
-    
-OFFSCREENCANVASOUTPUTDIR
+offscreen
 =
 '
 .
@@ -4068,15 +4053,7 @@ OFFSCREENCANVASOUTPUTDIR
 /
 offscreen
 '
-    
-OFFSCREENCANVASIMAGEOUTPUTDIR
-=
-'
-.
-.
-/
-offscreen
-'
+)
     
 jinja_env
 =
@@ -4330,13 +4307,12 @@ t
 testdirs
 =
 [
-        
-CANVASOUTPUTDIR
-OFFSCREENCANVASOUTPUTDIR
-CANVASIMAGEOUTPUTDIR
-        
-OFFSCREENCANVASIMAGEOUTPUTDIR
-    
+output_dirs
+.
+element
+output_dirs
+.
+offscreen
 ]
     
 for
@@ -4365,7 +4341,9 @@ s
 '
 %
 (
-CANVASOUTPUTDIR
+output_dirs
+.
+element
 sub_dir
 )
 )
@@ -4383,7 +4361,9 @@ s
 '
 %
 (
-OFFSCREENCANVASOUTPUTDIR
+output_dirs
+.
+offscreen
 sub_dir
 )
 )
@@ -4488,42 +4468,30 @@ in
 variants
 :
             
+sub_dir
+=
+_get_test_sub_dir
+(
+variant
+[
+'
+name
+'
+]
+name_to_sub_dir
+)
+            
 _generate_test
 (
 variant
-                           
 jinja_env
-                           
-name_to_sub_dir
-                           
 used_tests
                            
-html_canvas_cfg
-=
-TestConfig
+output_dirs
+.
+sub_path
 (
-                               
-out_dir
-=
-CANVASOUTPUTDIR
-                               
-image_out_dir
-=
-CANVASIMAGEOUTPUTDIR
-)
-                           
-offscreen_canvas_cfg
-=
-TestConfig
-(
-                               
-out_dir
-=
-OFFSCREENCANVASOUTPUTDIR
-                               
-image_out_dir
-=
-OFFSCREENCANVASIMAGEOUTPUTDIR
+sub_dir
 )
 )
     
