@@ -260,6 +260,16 @@ mRgb10a2OverlaySupportFlags
 =
 0
 ;
+bool
+mSupportsVpSuperResolution
+=
+false
+;
+bool
+mSupportsVpAutoHDR
+=
+false
+;
 }
 ;
 struct

@@ -80,6 +80,16 @@ OverlaySupportType
 :
 None
 ;
+bool
+mSupportsVpSuperResolution
+=
+false
+;
+bool
+mSupportsVpAutoHDR
+=
+false
+;
 friend
 struct
 IPC
