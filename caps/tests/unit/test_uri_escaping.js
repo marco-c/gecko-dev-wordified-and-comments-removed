@@ -174,8 +174,8 @@ http
 test
 /
 foo
-^
-bar
+%
+5Ebar
 "
 )
 ;
