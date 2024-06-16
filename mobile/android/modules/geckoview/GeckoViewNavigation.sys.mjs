@@ -2325,11 +2325,6 @@ Ci
 nsIBrowserDOMWindow
 .
 OPEN_NEWTAB_BACKGROUND
-Ci
-.
-nsIBrowserDOMWindow
-.
-OPEN_NEWTAB_FOREGROUND
 ]
 .
 includes
