@@ -1,15 +1,6 @@
 #
 !
 [
-cfg_attr
-(
-feature
-=
-"
-cargo
--
-clippy
-"
 allow
 (
 clippy
@@ -24,7 +15,6 @@ clippy
 :
 :
 too_many_arguments
-)
 )
 ]
 macro_rules
