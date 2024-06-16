@@ -32,6 +32,17 @@ builtin
 /
 temporal
 /
+Crash
+.
+h
+"
+#
+include
+"
+builtin
+/
+temporal
+/
 Int128
 .
 h
@@ -152,7 +163,7 @@ return
 roundingMode
 ;
 }
-MOZ_CRASH
+JS_CONSTEXPR_CRASH
 (
 "
 invalid
@@ -257,7 +268,7 @@ TemporalRoundingMode
 HalfFloor
 ;
 }
-MOZ_CRASH
+JS_CONSTEXPR_CRASH
 (
 "
 unexpected

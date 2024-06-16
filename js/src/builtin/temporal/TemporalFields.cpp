@@ -114,6 +114,17 @@ builtin
 /
 temporal
 /
+Crash
+.
+h
+"
+#
+include
+"
+builtin
+/
+temporal
+/
 Temporal
 .
 h
@@ -853,7 +864,7 @@ timeZone
 "
 ;
 }
-MOZ_CRASH
+JS_CONSTEXPR_CRASH
 (
 "
 invalid
