@@ -295,7 +295,7 @@ base_color
 PremultipliedColorF
 :
 :
-WHITE
+BLACK
 is_opaque
 :
 false

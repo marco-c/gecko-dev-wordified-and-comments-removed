@@ -2209,10 +2209,9 @@ frame_gpu_data
 f32
 rect
 rect
-PremultipliedColorF
-:
-:
-WHITE
+pattern
+.
+base_color
 segments
 )
 ;
