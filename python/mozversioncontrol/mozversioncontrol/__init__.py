@@ -6753,7 +6753,9 @@ None
 )
 :
         
-pass
+return
+[
+]
     
 def
 get_outgoing_files
@@ -6770,14 +6772,9 @@ None
 )
 :
         
-raise
-MissingUpstreamRepo
-(
-"
-Unknown
-Upstream
-"
-)
+return
+[
+]
     
 def
 add_remove_files
