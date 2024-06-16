@@ -1,10 +1,5 @@
 #
 include
-<
-cstdint
->
-#
-include
 "
 lib
 /
@@ -54,12 +49,6 @@ jxl
 {
 struct
 AuxOut
-;
-enum
-class
-LayerType
-:
-uint8_t
 ;
 class
 QuantizedSplineEncoder
@@ -387,7 +376,7 @@ BitWriter
 *
 writer
 const
-LayerType
+size_t
 layer
 const
 HistogramParams

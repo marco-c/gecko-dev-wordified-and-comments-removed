@@ -637,7 +637,6 @@ Visitor
 )
 override
 {
-return
 JXL_UNREACHABLE
 (
 "
@@ -846,7 +845,6 @@ JPEGData
 *
 )
 {
-return
 JXL_UNREACHABLE
 (
 "

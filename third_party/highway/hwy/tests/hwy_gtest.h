@@ -7,6 +7,13 @@ HWY_TESTS_HWY_GTEST_H_
 #
 include
 <
+stddef
+.
+h
+>
+#
+include
+<
 stdint
 .
 h

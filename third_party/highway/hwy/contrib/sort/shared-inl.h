@@ -155,8 +155,6 @@ return
 kPartitionUnroll
 +
 1
-+
-2
 )
 *
 N
@@ -366,6 +364,7 @@ HIGHWAY_HWY_CONTRIB_SORT_SHARED_TOGGLE
 )
 =
 =
+\
 defined
 (
 HWY_TARGET_TOGGLE
@@ -421,18 +420,6 @@ HWY_ARCH_ARM_V7
 &
 &
 HWY_IS_DEBUG_BUILD
-)
-|
-|
-\
-(
-HWY_ARCH_ARM_A64
-&
-&
-HWY_COMPILER_GCC_ACTUAL
-&
-&
-HWY_IS_ASAN
 )
 #
 define

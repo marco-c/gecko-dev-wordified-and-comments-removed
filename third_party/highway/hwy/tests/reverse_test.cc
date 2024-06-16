@@ -1,11 +1,4 @@
 #
-include
-<
-stddef
-.
-h
->
-#
 undef
 HWY_TARGET_INCLUDE
 #
@@ -1016,7 +1009,7 @@ i
 =
 ReverseBytesOfValue
 (
-ConvertScalarTo
+static_cast
 <
 T
 >
@@ -1083,7 +1076,7 @@ in
 i
 ]
 =
-ConvertScalarTo
+static_cast
 <
 T
 >
@@ -1488,7 +1481,7 @@ i
 =
 ReverseBitsOfValue
 (
-ConvertScalarTo
+static_cast
 <
 T
 >
@@ -1555,7 +1548,7 @@ in
 i
 ]
 =
-ConvertScalarTo
+static_cast
 <
 T
 >
