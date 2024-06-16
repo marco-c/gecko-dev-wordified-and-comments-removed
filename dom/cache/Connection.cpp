@@ -1157,6 +1157,10 @@ aDestinationFile
 mozIStorageCompletionCallback
 *
 aCallback
+uint32_t
+aPagesPerStep
+uint32_t
+aStepDelayMs
 )
 {
 return
