@@ -563,6 +563,9 @@ include
 AnchorName
 "
 "
+AnchorScope
+"
+"
 AnimationTimeline
 "
 "

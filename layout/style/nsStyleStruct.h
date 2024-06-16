@@ -6107,6 +6107,12 @@ mAnchorName
 mozilla
 :
 :
+StyleAnchorScope
+mAnchorScope
+;
+mozilla
+:
+:
 Maybe
 <
 mozilla
