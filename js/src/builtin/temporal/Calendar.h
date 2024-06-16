@@ -1081,7 +1081,7 @@ CalendarValue
 result
 )
 ;
-JSString
+JSLinearString
 *
 ToTemporalCalendarIdentifier
 (
