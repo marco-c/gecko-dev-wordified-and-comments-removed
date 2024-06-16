@@ -141,3 +141,17 @@ selectDialog
 .
 xhtml
 )
+content
+/
+global
+/
+selectDialog
+.
+css
+(
+content
+/
+selectDialog
+.
+css
+)
