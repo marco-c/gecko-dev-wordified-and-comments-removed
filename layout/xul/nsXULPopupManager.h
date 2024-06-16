@@ -1689,15 +1689,11 @@ GetVisiblePopups
 (
 nsTArray
 <
-nsMenuPopupFrame
+nsIFrame
 *
 >
 &
 aPopups
-bool
-aIncludeNativeMenu
-=
-false
 )
 ;
 already_AddRefed
