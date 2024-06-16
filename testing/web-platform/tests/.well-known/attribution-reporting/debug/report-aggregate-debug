@@ -6,10 +6,8 @@ to
 receive
 and
 return
-attribution
--
-success
 aggregatable
+debug
 reports
 .
 "
