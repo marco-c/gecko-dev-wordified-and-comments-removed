@@ -597,6 +597,13 @@ js
 ]
 [
 "
+browser_html_options_ui_dark_theme
+.
+js
+"
+]
+[
+"
 browser_html_options_ui_in_tab
 .
 js

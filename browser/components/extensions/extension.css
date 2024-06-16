@@ -224,8 +224,14 @@ box
 ;
 color
 :
+light
+-
+dark
+(
 #
 222426
+CanvasText
+)
 ;
 cursor
 :
