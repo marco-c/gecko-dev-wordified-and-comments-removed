@@ -7868,7 +7868,7 @@ name
 "
 :
 "
-callback
+asyncCallback
 "
 "
 parameters
@@ -7956,6 +7956,13 @@ name
 :
 "
 extraInfoSpec
+"
+"
+postprocess
+"
+:
+"
+mutuallyExclusiveBlockingOrAsyncBlocking
 "
 "
 description
