@@ -1180,11 +1180,6 @@ GetPowerIsCharging
 (
 )
 ;
-void
-CheckInactiveRenderers
-(
-)
-;
 private
 :
 static
