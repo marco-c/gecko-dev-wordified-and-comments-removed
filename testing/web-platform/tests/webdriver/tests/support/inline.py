@@ -55,6 +55,16 @@ src
 "
     
 "
+html_quirks
+"
+:
+"
+{
+src
+}
+"
+    
+"
 xhtml
 "
 :
@@ -231,6 +241,16 @@ MIME_TYPES
     
 "
 html
+"
+:
+"
+text
+/
+html
+"
+    
+"
+html_quirks
 "
 :
 "
