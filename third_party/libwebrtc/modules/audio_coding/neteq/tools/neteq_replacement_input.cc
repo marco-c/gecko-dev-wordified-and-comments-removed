@@ -592,6 +592,11 @@ timestamp_diff
 48
 &
 &
+timestamp_diff
+>
+0
+&
+&
 !
 opus_dtx
 )
