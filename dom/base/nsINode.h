@@ -3227,8 +3227,9 @@ nullptr
 enum
 FlattenedParentType
 {
-eNotForStyle
+eNormal
 eForStyle
+eForSelection
 }
 ;
 inline
@@ -3250,6 +3251,14 @@ inline
 nsINode
 *
 GetFlattenedTreeParentNodeForStyle
+(
+)
+const
+;
+inline
+nsIContent
+*
+GetFlattenedTreeParentNodeForSelection
 (
 )
 const
