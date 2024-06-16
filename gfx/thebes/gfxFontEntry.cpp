@@ -1955,6 +1955,9 @@ if
 GetSVGGlyphs
 (
 )
+&
+&
+aFont
 )
 {
 AutoWriteLock
