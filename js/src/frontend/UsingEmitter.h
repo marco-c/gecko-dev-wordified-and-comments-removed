@@ -61,6 +61,16 @@ Kind
 kind
 )
 ;
+[
+[
+nodiscard
+]
+]
+bool
+emitEnd
+(
+)
+;
 private
 :
 bool
