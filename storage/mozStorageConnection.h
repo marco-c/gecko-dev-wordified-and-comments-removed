@@ -200,6 +200,10 @@ bool
 aIgnoreLockingMode
 =
 false
+bool
+aOpenNotExclusive
+=
+false
 )
 ;
 nsresult
@@ -704,6 +708,10 @@ mInterruptible
 const
 bool
 mIgnoreLockingMode
+;
+const
+bool
+mOpenNotExclusive
 ;
 bool
 mAsyncExecutionThreadShuttingDown
