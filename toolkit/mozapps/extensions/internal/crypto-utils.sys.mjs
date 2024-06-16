@@ -323,7 +323,7 @@ CryptoHashInstance
 *
 param
 {
-CryptoHash
+nsICryptoHash
 }
 aCrypto
 *

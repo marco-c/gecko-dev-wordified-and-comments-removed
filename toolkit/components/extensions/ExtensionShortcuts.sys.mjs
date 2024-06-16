@@ -98,6 +98,15 @@ sys
 mjs
 "
 ;
+/
+*
+*
+type
+{
+Lazy
+}
+*
+/
 const
 lazy
 =

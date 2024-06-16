@@ -895,7 +895,7 @@ added
 *
 param
 {
-integer
+number
 }
 limit
 *
@@ -916,7 +916,7 @@ large
 *
 param
 {
-integer
+number
 }
 [
 slop

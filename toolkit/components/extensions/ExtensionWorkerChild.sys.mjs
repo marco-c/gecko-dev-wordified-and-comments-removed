@@ -2041,7 +2041,10 @@ etc
 *
 returns
 {
+Partial
+<
 mozIExtensionAPIRequestResult
+>
 }
 *
 Result
@@ -2219,7 +2222,10 @@ error
 *
 returns
 {
+Partial
+<
 mozIExtensionAPIRequestResult
+>
 }
 *
 /
@@ -3930,8 +3936,7 @@ processed
 *
 returns
 {
-SavedFrame
-?
+nsIStackFrame
 }
 *
 /

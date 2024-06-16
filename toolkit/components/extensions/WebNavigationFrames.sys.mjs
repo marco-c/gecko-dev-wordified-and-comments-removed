@@ -365,7 +365,7 @@ json
 *
 param
 {
-BrowsingContext
+CanonicalBrowsingContext
 }
 bc
 *
