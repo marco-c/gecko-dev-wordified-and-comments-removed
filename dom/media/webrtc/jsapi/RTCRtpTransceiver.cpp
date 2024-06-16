@@ -5198,11 +5198,14 @@ return
 aA
 .
 mMimeType
-=
-=
+.
+Equals
+(
 aB
 .
 mMimeType
+nsCaseInsensitiveStringComparator
+)
 )
 &
 &
