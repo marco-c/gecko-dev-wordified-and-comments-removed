@@ -1423,16 +1423,6 @@ bool
 IsFixedToRootContent
 (
 const
-HitTestingTreeNode
-*
-aNode
-)
-const
-;
-bool
-IsFixedToRootContent
-(
-const
 FixedPositionInfo
 &
 aFixedInfo
