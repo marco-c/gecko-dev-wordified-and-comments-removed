@@ -10681,23 +10681,12 @@ project
 ]
 }
 .
-branch
+revision
 .
 "
         
 f
 "
-{
-parameters
-[
-'
-head_ref
-'
-]
-}
-.
-revision
-.
 {
 parameters
 [
