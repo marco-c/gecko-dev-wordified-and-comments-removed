@@ -983,7 +983,7 @@ FirefoxTheme
 .
 colors
 .
-actionConfirmation
+actionSuccess
 Error
 -
 >
