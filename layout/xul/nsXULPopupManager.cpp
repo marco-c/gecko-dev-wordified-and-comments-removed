@@ -9604,7 +9604,7 @@ GetVisiblePopups
 (
 nsTArray
 <
-nsIFrame
+nsMenuPopupFrame
 *
 >
 &
