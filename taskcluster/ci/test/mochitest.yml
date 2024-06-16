@@ -1072,6 +1072,8 @@ qr
 opt
 :
 xlarge
+-
+noscratch
 #
 runs
 out
@@ -3147,6 +3149,8 @@ qr
 opt
 :
 xlarge
+-
+noscratch
 #
 runs
 out
@@ -3555,6 +3559,8 @@ qr
 opt
 :
 xlarge
+-
+noscratch
 #
 runs
 out
@@ -4398,6 +4404,8 @@ qr
 opt
 :
 xlarge
+-
+noscratch
 #
 runs
 out
@@ -4640,6 +4648,8 @@ qr
 opt
 :
 xlarge
+-
+noscratch
 #
 runs
 out

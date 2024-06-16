@@ -588,6 +588,11 @@ test
 -
 platform
 "
+            
+"
+variant
+"
+            
 Any
 (
 "
@@ -597,7 +602,17 @@ default
 large
 "
 "
+large
+-
+noscratch
+"
+"
 xlarge
+"
+"
+xlarge
+-
+noscratch
 "
 )
         

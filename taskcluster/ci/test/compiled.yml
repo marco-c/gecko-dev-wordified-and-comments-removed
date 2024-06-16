@@ -296,6 +296,8 @@ instance
 size
 :
 xlarge
+-
+noscratch
 run
 -
 on
