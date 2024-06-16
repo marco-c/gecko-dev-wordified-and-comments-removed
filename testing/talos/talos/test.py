@@ -2140,6 +2140,10 @@ unit
 "
 ms
 "
+    
+subtest_alerts
+=
+True
 register_test
 (
 )

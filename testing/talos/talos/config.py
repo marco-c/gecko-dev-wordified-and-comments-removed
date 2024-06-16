@@ -1415,7 +1415,7 @@ Setting
 pdfpaint
 tppagecycles
 to
-5
+15
 "
 )
         
@@ -1423,7 +1423,7 @@ test_instance
 .
 tppagecycles
 =
-5
+15
 def
 get_test_host
 (
