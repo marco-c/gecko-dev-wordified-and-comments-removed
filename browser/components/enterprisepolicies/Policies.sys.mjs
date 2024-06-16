@@ -10713,19 +10713,7 @@ changeProxySettings
 "
 )
 ;
-lazy
-.
-ProxyPolicies
-.
-configureProxySettings
-(
-param
-setAndLockPref
-)
-;
 }
-else
-{
 lazy
 .
 ProxyPolicies
@@ -10738,7 +10726,6 @@ PoliciesUtils
 setDefaultPref
 )
 ;
-}
 }
 }
 RequestedLocales
