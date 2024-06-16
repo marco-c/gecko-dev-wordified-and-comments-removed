@@ -7417,6 +7417,10 @@ editingHost
 =
 ComputeEditingHost
 (
+LimitInBodyElement
+:
+:
+No
 )
 ;
 if
@@ -7667,6 +7671,10 @@ editingHost
 =
 ComputeEditingHost
 (
+LimitInBodyElement
+:
+:
+No
 )
 ;
 if
