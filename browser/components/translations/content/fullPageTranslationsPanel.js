@@ -4295,9 +4295,6 @@ false
 maintainFlow
 =
 false
-isFirstUserInteraction
-=
-null
 }
 )
 {
@@ -4355,7 +4352,6 @@ autoShow
 docLangTag
 maintainFlow
 openedFromAppMenu
-isFirstUserInteraction
 }
 )
 ;
@@ -4560,14 +4556,6 @@ selectedBrowser
 .
 languageState
 ;
-const
-isFirstUserInteraction
-=
-!
-this
-.
-_hasShownPanel
-;
 await
 this
 .
@@ -4732,7 +4720,6 @@ defaultView
 maintainFlow
 :
 false
-isFirstUserInteraction
 }
 )
 ;

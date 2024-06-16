@@ -7,7 +7,7 @@ add_task
 (
 async
 function
-test_translations_telemetry_firstrun_auto_translate
+test_translations_telemetry_auto_translate
 (
 )
 {
@@ -136,9 +136,6 @@ expectedEventCount
 expectNewFlowId
 :
 true
-expectFirstInteraction
-:
-true
 finalValuePredicates
 :
 [
@@ -219,9 +216,6 @@ expectedEventCount
 expectNewFlowId
 :
 false
-expectFirstInteraction
-:
-true
 finalValuePredicates
 :
 [
@@ -260,9 +254,6 @@ expectedEventCount
 expectNewFlowId
 :
 false
-expectFirstInteraction
-:
-true
 }
 )
 ;
@@ -283,9 +274,6 @@ expectedEventCount
 expectNewFlowId
 :
 false
-expectFirstInteraction
-:
-true
 }
 )
 ;
@@ -306,9 +294,6 @@ expectedEventCount
 expectNewFlowId
 :
 false
-expectFirstInteraction
-:
-true
 }
 )
 ;
@@ -350,9 +335,6 @@ expectedEventCount
 expectNewFlowId
 :
 true
-expectFirstInteraction
-:
-false
 finalValuePredicates
 :
 [
@@ -430,9 +412,6 @@ restorePageButton
 expectedEventCount
 :
 1
-expectFirstInteraction
-:
-false
 expectNewFlowId
 :
 false
@@ -453,9 +432,6 @@ close
 expectedEventCount
 :
 2
-expectFirstInteraction
-:
-false
 expectNewFlowId
 :
 false

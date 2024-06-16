@@ -7,7 +7,7 @@ add_task
 (
 async
 function
-test_translations_telemetry_firstrun_basics
+test_translations_telemetry_basics
 (
 )
 {
@@ -117,9 +117,6 @@ expectedEventCount
 expectNewFlowId
 :
 true
-expectFirstInteraction
-:
-true
 finalValuePredicates
 :
 [
@@ -200,9 +197,6 @@ expectedEventCount
 expectNewFlowId
 :
 false
-expectFirstInteraction
-:
-true
 }
 )
 ;
@@ -223,9 +217,6 @@ expectedEventCount
 expectNewFlowId
 :
 false
-expectFirstInteraction
-:
-true
 }
 )
 ;
@@ -267,9 +258,6 @@ expectedEventCount
 expectNewFlowId
 :
 true
-expectFirstInteraction
-:
-false
 allValuePredicates
 :
 [
@@ -350,9 +338,6 @@ expectedEventCount
 expectNewFlowId
 :
 false
-expectFirstInteraction
-:
-false
 }
 )
 ;
@@ -371,9 +356,6 @@ expectedEventCount
 :
 2
 expectNewFlowId
-:
-false
-expectFirstInteraction
 :
 false
 }
