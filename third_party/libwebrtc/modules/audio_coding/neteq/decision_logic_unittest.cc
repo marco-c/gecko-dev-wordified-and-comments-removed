@@ -42,19 +42,6 @@ audio_coding
 /
 neteq
 /
-buffer_level_filter
-.
-h
-"
-#
-include
-"
-modules
-/
-audio_coding
-/
-neteq
-/
 delay_manager
 .
 h
@@ -101,15 +88,6 @@ neteq
 mock
 /
 mock_packet_arrival_history
-.
-h
-"
-#
-include
-"
-test
-/
-field_trial
 .
 h
 "
@@ -375,6 +353,8 @@ make_unique
 MockPacketArrivalHistory
 >
 (
+&
+tick_timer_
 )
 ;
 mock_packet_arrival_history_
@@ -485,7 +465,6 @@ mock_packet_arrival_history_
 GetDelayMs
 (
 _
-_
 )
 )
 .
@@ -593,7 +572,6 @@ EXPECT_CALL
 mock_packet_arrival_history_
 GetDelayMs
 (
-_
 _
 )
 )
@@ -703,7 +681,6 @@ mock_packet_arrival_history_
 GetDelayMs
 (
 _
-_
 )
 )
 .
@@ -811,7 +788,6 @@ EXPECT_CALL
 mock_packet_arrival_history_
 GetDelayMs
 (
-_
 _
 )
 )
