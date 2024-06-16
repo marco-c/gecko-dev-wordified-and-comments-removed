@@ -1468,7 +1468,12 @@ info
 >
 mIsHDCP22Compatible
 =
-true
+*
+capabilities
+.
+isHDCP22Compatible
+(
+)
 ;
 }
 }
