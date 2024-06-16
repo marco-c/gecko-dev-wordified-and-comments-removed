@@ -206,6 +206,13 @@ js
 ]
 [
 "
+browser_address_doorhanger_ui_lines
+.
+js
+"
+]
+[
+"
 browser_address_doorhanger_unsupported_region
 .
 js
