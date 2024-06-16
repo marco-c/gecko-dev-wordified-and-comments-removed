@@ -1235,6 +1235,12 @@ webcompatInfo
 const
 extra_labels
 =
+reporterConfig
+?
+.
+extra_labels
+|
+|
 [
 ]
 ;
