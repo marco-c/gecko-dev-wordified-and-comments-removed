@@ -1760,6 +1760,8 @@ mBitrateAdjuster
 GetTargetBitrateBps
 (
 )
+mMinBitrateBps
+mMaxBitrateBps
 BitrateMode
 :
 :

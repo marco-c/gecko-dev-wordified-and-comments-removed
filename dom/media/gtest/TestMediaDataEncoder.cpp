@@ -1152,6 +1152,8 @@ aPixelFormat
 FRAME_RATE
 KEYFRAME_INTERVAL
 BIT_RATE
+0
+0
 BIT_RATE_MODE
 pref
 aScalabilityMode
