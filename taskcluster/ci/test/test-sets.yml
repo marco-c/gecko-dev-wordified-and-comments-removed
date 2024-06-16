@@ -933,10 +933,6 @@ ext
 -
 reftest
 -
-reftest
--
-snapshot
--
 telemetry
 -
 tests
@@ -1143,10 +1139,6 @@ webgl2
 ext
 -
 reftest
--
-reftest
--
-snapshot
 -
 telemetry
 -
