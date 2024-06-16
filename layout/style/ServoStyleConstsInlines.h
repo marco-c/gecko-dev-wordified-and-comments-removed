@@ -194,6 +194,13 @@ template
 struct
 StyleStrong
 <
+StyleMarginRule
+>
+;
+template
+struct
+StyleStrong
+<
 StyleLockedPageRule
 >
 ;

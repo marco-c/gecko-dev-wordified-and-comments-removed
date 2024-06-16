@@ -3311,6 +3311,11 @@ CSSLayerStatementRule
 webidl
 "
 "
+CSSMarginRule
+.
+webidl
+"
+"
 CSSMediaRule
 .
 webidl
