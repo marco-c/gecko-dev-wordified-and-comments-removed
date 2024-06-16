@@ -547,7 +547,7 @@ mPendingDragContext
 ;
 nsTHashMap
 <
-nsCStringHashKey
+nsVoidPtrHashKey
 nsTArray
 <
 uint8_t
@@ -560,7 +560,7 @@ mCachedDragContext
 ;
 nsTHashMap
 <
-nsCStringHashKey
+nsVoidPtrHashKey
 mozilla
 :
 :
@@ -645,7 +645,7 @@ aRequestedFlavor
 const
 nsTArray
 <
-nsCString
+GdkAtom
 >
 &
 aAvailableDragFlavors
@@ -799,7 +799,7 @@ GetAvailableDragFlavors
 (
 nsTArray
 <
-nsCString
+GdkAtom
 >
 &
 aAvailableFlavors
@@ -858,6 +858,8 @@ mTempFileTimerID
 int
 mEventLoopDepth
 ;
+public
+:
 static
 GdkAtom
 sTextMimeAtom
