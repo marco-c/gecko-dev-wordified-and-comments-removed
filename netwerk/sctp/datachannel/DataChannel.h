@@ -384,7 +384,7 @@ BufferedOutgoingMsg
 other
 )
 =
-default
+delete
 ;
 BufferedOutgoingMsg
 &
@@ -397,7 +397,7 @@ BufferedOutgoingMsg
 other
 )
 =
-default
+delete
 ;
 ~
 BufferedOutgoingMsg
@@ -480,7 +480,7 @@ QueuedDataMessage
 other
 )
 =
-default
+delete
 ;
 QueuedDataMessage
 &
@@ -493,7 +493,7 @@ QueuedDataMessage
 other
 )
 =
-default
+delete
 ;
 ~
 QueuedDataMessage
