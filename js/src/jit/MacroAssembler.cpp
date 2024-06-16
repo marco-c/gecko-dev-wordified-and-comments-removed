@@ -23752,7 +23752,7 @@ stackAdjust
 ;
 #
 ifdef
-JS_CHECK_UNSAFE_CALL_WITH_ABI
+DEBUG
 if
 (
 check
@@ -23819,7 +23819,7 @@ result
 ;
 #
 ifdef
-JS_CHECK_UNSAFE_CALL_WITH_ABI
+DEBUG
 if
 (
 check
