@@ -2579,7 +2579,9 @@ aEvent
 .
 view
 .
-BrowserForceEncodingDetection
+BrowserCommands
+.
+forceEncodingDetection
 (
 )
 ;

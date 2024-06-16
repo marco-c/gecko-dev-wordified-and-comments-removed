@@ -2012,7 +2012,9 @@ true
 oncommand
 =
 "
-BrowserForceEncodingDetection
+BrowserCommands
+.
+forceEncodingDetection
 (
 )
 ;
