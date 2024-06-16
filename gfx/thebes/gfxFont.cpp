@@ -5551,6 +5551,16 @@ n
 mKerningEnabled
 )
 ;
+Unused
+<
+<
+mFontEntry
+-
+>
+UnitsPerEm
+(
+)
+;
 }
 gfxFont
 :
