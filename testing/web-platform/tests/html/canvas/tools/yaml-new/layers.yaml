@@ -2322,6 +2322,9 @@ global
 context
 filter
 .
+test_type
+:
+sync
 code
 :
 |
