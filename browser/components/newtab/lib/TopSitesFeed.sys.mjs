@@ -666,7 +666,7 @@ Pocket
 const
 MAX_NUM_SPONSORED
 =
-2
+3
 ;
 /
 /
@@ -964,7 +964,7 @@ Contile
 const
 CONTILE_MAX_NUM_SPONSORED
 =
-2
+3
 ;
 const
 TOP_SITES_BLOCKED_SPONSORS_PREF
