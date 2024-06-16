@@ -1493,9 +1493,9 @@ DeviceType
 UNKNOWN
 default
 :
-return
+throw
 new
-Error
+UniFFITypeError
 (
 "
 Unknown
@@ -1639,9 +1639,9 @@ writeInt32
 return
 ;
 }
-return
+throw
 new
-Error
+UniFFITypeError
 (
 "
 Unknown

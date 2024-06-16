@@ -433,7 +433,7 @@ default
 :
 throw
 new
-Error
+UniFFITypeError
 (
 "
 Unknown
@@ -563,7 +563,7 @@ endfor
 }
 throw
 new
-Error
+UniFFITypeError
 (
 "
 Unknown
@@ -689,7 +689,7 @@ endfor
 }
 throw
 new
-Error
+UniFFITypeError
 (
 "
 Unknown

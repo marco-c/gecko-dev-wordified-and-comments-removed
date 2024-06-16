@@ -134,7 +134,7 @@ MOZ_CAN_RUN_SCRIPT
 void
 QueueCallback
 (
-size_t
+uint64_t
 aInterfaceId
 uint64_t
 aHandle

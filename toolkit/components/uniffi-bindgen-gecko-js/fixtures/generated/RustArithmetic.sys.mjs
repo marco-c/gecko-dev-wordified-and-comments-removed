@@ -1725,7 +1725,7 @@ default
 :
 throw
 new
-Error
+UniFFITypeError
 (
 "
 Unknown
@@ -1769,7 +1769,7 @@ totalSize
 }
 throw
 new
-Error
+UniFFITypeError
 (
 "
 Unknown
@@ -1805,7 +1805,7 @@ return
 }
 throw
 new
-Error
+UniFFITypeError
 (
 "
 Unknown
