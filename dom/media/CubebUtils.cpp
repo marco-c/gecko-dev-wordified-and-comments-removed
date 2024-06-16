@@ -4216,7 +4216,7 @@ kIdleThreadTimeoutMs
 pool
 -
 >
-SetIdleThreadTimeout
+SetIdleThreadMaximumTimeout
 (
 PR_MillisecondsToInterval
 (

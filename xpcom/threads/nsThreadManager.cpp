@@ -454,7 +454,7 @@ rv
 pool
 -
 >
-SetIdleThreadTimeout
+SetIdleThreadMaximumTimeout
 (
 300000
 )
@@ -577,7 +577,7 @@ rv
 ioPool
 -
 >
-SetIdleThreadTimeout
+SetIdleThreadMaximumTimeout
 (
 300000
 )

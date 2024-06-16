@@ -395,7 +395,7 @@ void
 gCertVerificationThreadPool
 -
 >
-SetIdleThreadTimeout
+SetIdleThreadMaximumTimeout
 (
 30
 *

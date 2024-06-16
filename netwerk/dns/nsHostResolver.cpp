@@ -1176,7 +1176,7 @@ MOZ_ALWAYS_SUCCEEDS
 threadPool
 -
 >
-SetIdleThreadTimeout
+SetIdleThreadMaximumTimeout
 (
 poolTimeoutMs
 )

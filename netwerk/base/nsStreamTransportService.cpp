@@ -933,15 +933,7 @@ SetIdleThreadLimit
 mPool
 -
 >
-SetIdleThreadTimeoutRegressive
-(
-true
-)
-;
-mPool
--
->
-SetIdleThreadTimeout
+SetIdleThreadMaximumTimeout
 (
 PR_SecondsToInterval
 (

@@ -103,11 +103,12 @@ idleThreadLimit
 attribute
 unsigned
 long
-idleThreadTimeout
+idleThreadGraceTimeout
 ;
 attribute
-boolean
-idleThreadTimeoutRegressive
+unsigned
+long
+idleThreadMaximumTimeout
 ;
 attribute
 unsigned

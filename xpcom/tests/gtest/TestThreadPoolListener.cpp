@@ -651,7 +651,7 @@ rv
 pool
 -
 >
-SetIdleThreadTimeout
+SetIdleThreadMaximumTimeout
 (
 IDLE_THREAD_TIMEOUT
 )

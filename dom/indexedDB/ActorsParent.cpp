@@ -27073,7 +27073,7 @@ MOZ_ALWAYS_SUCCEEDS
 threadPool
 -
 >
-SetIdleThreadTimeout
+SetIdleThreadMaximumTimeout
 (
 kConnectionThreadIdleMS
 )
@@ -53054,7 +53054,7 @@ MOZ_ALWAYS_SUCCEEDS
 threadPool
 -
 >
-SetIdleThreadTimeout
+SetIdleThreadMaximumTimeout
 (
 5
 *
