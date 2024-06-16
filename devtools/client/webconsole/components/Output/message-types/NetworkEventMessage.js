@@ -257,7 +257,7 @@ lazyRequireGetter
 (
 this
 "
-BLOCKED_REASON_MESSAGES
+getBlockedReasonString
 "
 "
 resource
@@ -272,7 +272,9 @@ netmonitor
 /
 src
 /
-constants
+utils
+/
+l10n
 .
 js
 "
@@ -398,6 +400,7 @@ method
 isXHR
 timeStamp
 blockedReason
+blockingExtension
 httpVersion
 status
 statusText
@@ -584,10 +587,11 @@ status
 info
 "
 }
-BLOCKED_REASON_MESSAGES
-[
+getBlockedReasonString
+(
 blockedReason
-]
+blockingExtension
+)
 )
 ;
 topLevelClasses
