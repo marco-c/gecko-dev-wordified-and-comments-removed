@@ -521,6 +521,17 @@ dp
 )
 }
 }
+if
+(
+showAutomaticTranslations
+|
+|
+showNeverTranslate
+|
+|
+showDownloads
+)
+{
 item
 {
 Text
@@ -590,6 +601,7 @@ typography
 .
 headline8
 )
+}
 }
 if
 (
