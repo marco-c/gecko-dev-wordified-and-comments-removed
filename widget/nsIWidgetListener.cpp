@@ -159,15 +159,6 @@ ScreenIntMargin
 )
 {
 }
-void
-nsIWidgetListener
-:
-:
-UIResolutionChanged
-(
-)
-{
-}
 #
 if
 defined

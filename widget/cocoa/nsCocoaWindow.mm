@@ -7872,13 +7872,6 @@ BackingScaleFactorChanged
 )
 ;
 }
-mWidgetListener
--
->
-UIResolutionChanged
-(
-)
-;
 }
 int32_t
 nsCocoaWindow

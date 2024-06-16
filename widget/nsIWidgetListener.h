@@ -166,12 +166,6 @@ nsSizeMode
 aSizeMode
 )
 ;
-virtual
-void
-UIResolutionChanged
-(
-)
-;
 #
 if
 defined
