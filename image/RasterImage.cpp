@@ -215,17 +215,6 @@ h
 #
 include
 "
-mozilla
-/
-gfx
-/
-Scale
-.
-h
-"
-#
-include
-"
 nsComponentManagerUtils
 .
 h

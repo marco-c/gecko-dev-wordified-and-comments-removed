@@ -533,6 +533,10 @@ SkCreateTypefaceFromLOGFONT
 (
 mLogFont
 )
+.
+release
+(
+)
 ;
 }
 cairo_font_face_t
