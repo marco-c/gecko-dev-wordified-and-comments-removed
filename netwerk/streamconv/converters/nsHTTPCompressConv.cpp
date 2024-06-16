@@ -834,7 +834,7 @@ if
 StaticPrefs
 :
 :
-network_decompression_off_mainthread
+network_decompression_off_mainthread2
 (
 )
 )
@@ -4739,6 +4739,14 @@ CheckListenerChain
 if
 (
 XRE_IsContentProcess
+(
+)
+&
+&
+StaticPrefs
+:
+:
+network_decompression_off_mainthread2
 (
 )
 )
