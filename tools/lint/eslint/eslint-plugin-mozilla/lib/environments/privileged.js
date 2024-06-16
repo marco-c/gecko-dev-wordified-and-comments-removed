@@ -920,6 +920,9 @@ false
 InputEvent
 :
 false
+InspectorCSSParser
+:
+false
 InspectorFontFace
 :
 false

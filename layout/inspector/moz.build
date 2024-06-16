@@ -68,6 +68,11 @@ dom
 =
 [
 "
+InspectorCSSParser
+.
+h
+"
+"
 InspectorFontFace
 .
 h
@@ -89,6 +94,11 @@ cpp
 "
 "
 inLayoutUtils
+.
+cpp
+"
+"
+InspectorCSSParser
 .
 cpp
 "

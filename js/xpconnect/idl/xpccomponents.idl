@@ -1646,18 +1646,17 @@ File
 FileReader
 FormData
 *
+InspectorCSSParser
 InspectorUtils
 MessageChannel
 Node
 NodeFilter
 PromiseDebugging
-*
 TextDecoder
 TextEncoder
 URL
 URLSearchParams
 XMLHttpRequest
-*
 XMLSerializer
 atob
 btoa
@@ -1665,7 +1664,6 @@ caches
 crypto
 fetch
 indexedDB
-*
 rtcIdentityProvider
 *
 -
