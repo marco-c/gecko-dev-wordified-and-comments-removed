@@ -824,6 +824,8 @@ payload
 length
 )
 ;
+try
+{
 aListener
 .
 onStartRequest
@@ -853,6 +855,13 @@ Cr
 NS_OK
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 }
 fetchList
 (
