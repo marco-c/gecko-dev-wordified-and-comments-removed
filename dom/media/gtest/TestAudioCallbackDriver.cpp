@@ -2988,7 +2988,7 @@ stream
 >
 ManualDataCallback
 (
-1
+0
 )
 MockCubebStream
 :
@@ -3171,7 +3171,7 @@ stream
 >
 ManualDataCallback
 (
-1
+0
 )
 MockCubebStream
 :
@@ -3302,7 +3302,7 @@ stream
 >
 ManualDataCallback
 (
-1
+0
 )
 MockCubebStream
 :
