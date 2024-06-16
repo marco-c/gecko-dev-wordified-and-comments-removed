@@ -73,7 +73,7 @@ toolbox
 await
 initNetMonitor
 (
-SIMPLE_URL
+HTTPS_SIMPLE_URL
 {
 requestCount
 :
@@ -254,7 +254,7 @@ waitFor
 findMessageByType
 (
 hud
-SIMPLE_URL
+HTTPS_SIMPLE_URL
 "
 .
 network
@@ -376,7 +376,7 @@ waitFor
 findMessageByType
 (
 hud
-SIMPLE_URL
+HTTPS_SIMPLE_URL
 "
 .
 network
