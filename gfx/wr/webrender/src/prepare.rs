@@ -2875,7 +2875,7 @@ color
 quad
 :
 :
-push_quad
+prepare_quad
 (
 &
 pattern
@@ -3629,7 +3629,7 @@ frame_gpu_data
 quad
 :
 :
-push_quad
+prepare_quad
 (
 &
 pattern
@@ -3865,7 +3865,7 @@ frame_gpu_data
 quad
 :
 :
-push_quad
+prepare_quad
 (
 &
 pattern
