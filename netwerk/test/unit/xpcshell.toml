@@ -7168,3 +7168,10 @@ test_xmlhttprequest
 js
 "
 ]
+[
+"
+test_default_uri_bypass
+.
+js
+"
+]
