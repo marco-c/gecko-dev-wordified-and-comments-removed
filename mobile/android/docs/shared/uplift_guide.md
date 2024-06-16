@@ -164,7 +164,7 @@ A
 PR
 for
 an
-intial
+initial
 experiment
 generated
 by
