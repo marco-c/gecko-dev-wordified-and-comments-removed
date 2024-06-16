@@ -81,6 +81,12 @@ LIBAV_VER
 {
 public
 :
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+(
+FFmpegAudioEncoder
+final
+)
+;
 FFmpegAudioEncoder
 (
 const
@@ -111,6 +117,14 @@ override
 ;
 protected
 :
+virtual
+~
+FFmpegAudioEncoder
+(
+)
+=
+default
+;
 virtual
 nsresult
 InitSpecific

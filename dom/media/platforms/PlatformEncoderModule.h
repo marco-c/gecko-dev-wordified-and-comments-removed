@@ -263,10 +263,7 @@ MediaDataEncoder
 {
 public
 :
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
-(
-MediaDataEncoder
-)
+NS_INLINE_DECL_PURE_VIRTUAL_REFCOUNTING
 static
 bool
 IsVideo
