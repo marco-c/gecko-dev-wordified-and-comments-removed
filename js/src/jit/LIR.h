@@ -7545,6 +7545,7 @@ uint8_t
 LirCall
 CodegenCall
 Trap
+StackSwitch
 }
 ;
 class

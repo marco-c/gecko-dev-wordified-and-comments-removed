@@ -188,6 +188,11 @@ WasmOpIter
 cpp
 "
 "
+WasmPI
+.
+cpp
+"
+"
 WasmProcess
 .
 cpp
