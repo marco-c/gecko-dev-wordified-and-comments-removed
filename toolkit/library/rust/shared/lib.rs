@@ -130,10 +130,6 @@ data_storage
 ;
 extern
 crate
-dom_fragmentdirectives
-;
-extern
-crate
 encoding_glue
 ;
 extern
