@@ -240,6 +240,15 @@ optional
 =
 true
 }
+thin
+-
+vec
+=
+"
+0
+.
+2
+"
 to_shmem
 =
 {

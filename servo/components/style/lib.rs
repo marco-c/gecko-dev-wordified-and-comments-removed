@@ -222,6 +222,14 @@ macro_use
 ]
 extern
 crate
+thin_vec
+;
+#
+[
+macro_use
+]
+extern
+crate
 to_shmem_derive
 ;
 #

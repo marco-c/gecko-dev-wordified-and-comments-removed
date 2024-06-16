@@ -117,6 +117,10 @@ servo_url
 ;
 extern
 crate
+thin_vec
+;
+extern
+crate
 to_shmem
 ;
 #

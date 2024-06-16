@@ -30750,6 +30750,11 @@ serde
 servo_arc
 "
 "
+thin
+-
+vec
+"
+"
 to_shmem
 "
 "

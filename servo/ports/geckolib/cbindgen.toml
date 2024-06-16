@@ -1609,7 +1609,7 @@ ThinVec
 "
 =
 "
-nsTArray
+CopyableTArray
 "
 "
 RawPthread
