@@ -444,6 +444,12 @@ esr115
 "
             
 "
+mozilla
+-
+esr128
+"
+            
+"
 comm
 -
 beta
@@ -459,6 +465,12 @@ release
 comm
 -
 esr115
+"
+            
+"
+comm
+-
+esr128
 "
         
 }
@@ -675,6 +687,12 @@ esr115
 "
             
 "
+mozilla
+-
+esr128
+"
+            
+"
 comm
 -
 beta
@@ -690,6 +708,12 @@ release
 comm
 -
 esr115
+"
+            
+"
+comm
+-
+esr128
 "
         
 }
@@ -1166,6 +1190,30 @@ esr115
 }
     
 ]
+    
+[
+        
+"
+esr128
+"
+        
+{
+            
+"
+mozilla
+-
+esr128
+"
+            
+"
+comm
+-
+esr128
+"
+        
+}
+    
+]
 ]
 "
 "
@@ -1237,6 +1285,18 @@ release
     
 "
 esr115
+"
+:
+"
+balrog
+:
+server
+:
+esr
+"
+    
+"
+esr128
 "
 :
 "

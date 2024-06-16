@@ -222,7 +222,7 @@ central
 '
 mozilla
 -
-esr115
+esr128
 '
 use
 -
@@ -411,7 +411,7 @@ central
 '
 mozilla
 -
-esr115
+esr128
 '
 use
 -
@@ -598,7 +598,7 @@ central
 '
 mozilla
 -
-esr115
+esr128
 '
 use
 -
@@ -787,7 +787,7 @@ central
 '
 mozilla
 -
-esr115
+esr128
 '
 use
 -
