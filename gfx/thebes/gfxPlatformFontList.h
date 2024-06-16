@@ -515,7 +515,7 @@ enum
 {
 ALLOW_MEMMOVE
 =
-true
+false
 }
 ;
 private
