@@ -132,6 +132,9 @@ download
 bin
 "
 ]
+https_first_disabled
+=
+true
 [
 "
 browser_download_open_with_internal_handler
