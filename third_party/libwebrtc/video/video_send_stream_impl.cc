@@ -2819,6 +2819,14 @@ started
 )
 )
 ;
+RTC_DCHECK
+(
+!
+IsRunning
+(
+)
+)
+;
 transport_
 -
 >
@@ -4063,10 +4071,7 @@ thread_checker_
 ;
 if
 (
-rtp_video_sender_
--
->
-IsActive
+IsRunning
 (
 )
 )
