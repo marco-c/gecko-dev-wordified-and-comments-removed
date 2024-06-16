@@ -227,9 +227,6 @@ endif
 case
 kVideoCodecGeneric
 :
-case
-kVideoCodecMultiplex
-:
 return
 std
 :

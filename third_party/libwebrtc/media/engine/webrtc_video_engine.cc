@@ -13146,12 +13146,6 @@ webrtc
 :
 kVideoCodecGeneric
 :
-case
-webrtc
-:
-:
-kVideoCodecMultiplex
-:
 max_qp
 =
 kDefaultVideoMaxQpVpx

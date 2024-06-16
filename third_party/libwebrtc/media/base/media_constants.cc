@@ -82,16 +82,6 @@ ulpfec
 ;
 const
 char
-kMultiplexCodecName
-[
-]
-=
-"
-multiplex
-"
-;
-const
-char
 kFlexfecCodecName
 [
 ]

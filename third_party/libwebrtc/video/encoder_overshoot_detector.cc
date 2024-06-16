@@ -1157,12 +1157,6 @@ VideoCodecType
 :
 kVideoCodecGeneric
 :
-case
-VideoCodecType
-:
-:
-kVideoCodecMultiplex
-:
 break
 ;
 }

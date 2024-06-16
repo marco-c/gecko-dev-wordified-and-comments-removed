@@ -7068,9 +7068,6 @@ break
 case
 kVideoCodecGeneric
 :
-case
-kVideoCodecMultiplex
-:
 RTC_CHECK_NOTREACHED
 (
 )
@@ -8559,9 +8556,6 @@ break
 case
 kVideoCodecGeneric
 :
-case
-kVideoCodecMultiplex
-:
 RTC_CHECK_NOTREACHED
 (
 )
@@ -9103,9 +9097,6 @@ break
 case
 kVideoCodecGeneric
 :
-case
-kVideoCodecMultiplex
-:
 RTC_CHECK_NOTREACHED
 (
 )
@@ -9234,9 +9225,6 @@ break
 ;
 case
 kVideoCodecGeneric
-:
-case
-kVideoCodecMultiplex
 :
 RTC_CHECK_NOTREACHED
 (
