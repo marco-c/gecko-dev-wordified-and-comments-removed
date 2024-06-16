@@ -371,6 +371,16 @@ verifySurveyButton
 (
 )
 }
+.
+clickNoThanksSurveyButton
+{
+verifyTabCounter
+(
+"
+0
+"
+)
+}
 checkExperimentExists
 (
 )
