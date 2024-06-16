@@ -7616,9 +7616,9 @@ args
 obj
 :
 ObjId
-type
+operand
 :
-JSTypeImm
+TypeofEqOperandImm
 -
 name
 :

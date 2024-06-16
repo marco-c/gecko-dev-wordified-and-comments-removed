@@ -648,6 +648,19 @@ writeJSTypeImm
 )
     
 "
+TypeofEqOperandImm
+"
+:
+(
+"
+TypeofEqOperand
+"
+"
+writeTypeofEqOperandImm
+"
+)
+    
+"
 BoolImm
 "
 :
@@ -1820,6 +1833,25 @@ jstype
 )
     
 "
+TypeofEqOperandImm
+"
+:
+(
+"
+TypeofEqOperand
+"
+"
+"
+"
+reader
+.
+typeofEqOperand
+(
+)
+"
+)
+    
+"
 BoolImm
 "
 :
@@ -2661,6 +2693,14 @@ JSTypeImm
 :
 "
 spewJSTypeImm
+"
+    
+"
+TypeofEqOperandImm
+"
+:
+"
+spewTypeofEqOperandImm
 "
     
 "
@@ -3546,6 +3586,12 @@ JSOpImm
     
 "
 JSTypeImm
+"
+:
+1
+    
+"
+TypeofEqOperandImm
 "
 :
 1
