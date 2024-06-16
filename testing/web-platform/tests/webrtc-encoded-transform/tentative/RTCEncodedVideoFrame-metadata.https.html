@@ -858,7 +858,7 @@ read
 )
 ;
 const
-metadata
+frame_metadata
 =
 result
 .
@@ -868,7 +868,7 @@ getMetadata
 (
 )
 ;
-metadata
+frame_metadata
 .
 rtpTimestamp
 =
@@ -883,7 +883,11 @@ RTCEncodedVideoFrame
 result
 .
 value
+{
 metadata
+:
+frame_metadata
+}
 )
 ;
 const
@@ -907,7 +911,7 @@ assert_equals
 newMetadata
 .
 frameId
-metadata
+frame_metadata
 .
 frameId
 '
@@ -920,7 +924,7 @@ assert_array_equals
 newMetadata
 .
 dependencies
-metadata
+frame_metadata
 .
 dependencies
 '
@@ -933,7 +937,7 @@ assert_equals
 newMetadata
 .
 width
-metadata
+frame_metadata
 .
 width
 '
@@ -946,7 +950,7 @@ assert_equals
 newMetadata
 .
 height
-metadata
+frame_metadata
 .
 height
 '
@@ -959,7 +963,7 @@ assert_equals
 newMetadata
 .
 spatialIndex
-metadata
+frame_metadata
 .
 spatialIndex
 '
@@ -972,7 +976,7 @@ assert_equals
 newMetadata
 .
 temporalIndex
-metadata
+frame_metadata
 .
 temporalIndex
 '
@@ -992,7 +996,7 @@ assert_equals
 newMetadata
 .
 synchronizationSource
-metadata
+frame_metadata
 .
 synchronizationSource
 '
@@ -1005,7 +1009,7 @@ assert_array_equals
 newMetadata
 .
 contributingSources
-metadata
+frame_metadata
 .
 contributingSources
 '
@@ -1018,7 +1022,7 @@ assert_equals
 newMetadata
 .
 payloadType
-metadata
+frame_metadata
 .
 payloadType
 '
@@ -1031,7 +1035,7 @@ assert_equals
 newMetadata
 .
 rtpTimestamp
-metadata
+frame_metadata
 .
 rtpTimestamp
 '
