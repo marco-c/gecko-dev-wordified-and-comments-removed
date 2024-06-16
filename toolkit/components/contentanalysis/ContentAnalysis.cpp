@@ -5375,7 +5375,7 @@ if
 std
 :
 :
-regex_search
+regex_match
 (
 url
 denyFilter
@@ -5666,7 +5666,7 @@ if
 std
 :
 :
-regex_search
+regex_match
 (
 url
 denyFilter
@@ -5737,7 +5737,7 @@ if
 std
 :
 :
-regex_search
+regex_match
 (
 url
 allowFilter
