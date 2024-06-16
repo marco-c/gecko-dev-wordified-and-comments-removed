@@ -1663,13 +1663,6 @@ const
 ;
 nsGenericHTMLElement
 *
-GetEffectiveInvokeTargetElement
-(
-)
-const
-;
-nsGenericHTMLElement
-*
 GetEffectivePopoverTargetElement
 (
 )
