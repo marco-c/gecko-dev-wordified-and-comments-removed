@@ -289,3 +289,10 @@ test_ext_scripting_updateContentScripts
 js
 "
 ]
+[
+"
+test_ext_service_worker_messaging
+.
+js
+"
+]
