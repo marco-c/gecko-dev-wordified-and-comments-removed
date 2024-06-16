@@ -1272,7 +1272,7 @@ writableEnded
 {
 request
 .
-end
+destroy
 (
 )
 ;

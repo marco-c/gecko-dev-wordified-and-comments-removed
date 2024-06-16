@@ -169,6 +169,17 @@ from
 '
 .
 /
+ExtensionTransport
+.
+js
+'
+;
+export
+*
+from
+'
+.
+/
 FirefoxTargetManager
 .
 js

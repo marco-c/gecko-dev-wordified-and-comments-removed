@@ -337,6 +337,12 @@ url
 (
 )
 pptrTransport
+cdp
+.
+delay
+cdp
+.
+timeout
 )
 ;
 const

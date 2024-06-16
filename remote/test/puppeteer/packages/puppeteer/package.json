@@ -13,9 +13,9 @@ version
 "
 22
 .
-6
+9
 .
-5
+0
 "
 "
 description
@@ -988,9 +988,9 @@ core
 "
 22
 .
-6
+9
 .
-5
+0
 "
 "
 puppeteer
@@ -1003,7 +1003,7 @@ browsers
 .
 2
 .
-2
+3
 "
 "
 devtools
@@ -1016,7 +1016,7 @@ protocol
 .
 0
 .
-1262051
+1286932
 "
 }
 "

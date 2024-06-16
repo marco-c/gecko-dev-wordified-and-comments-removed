@@ -385,7 +385,7 @@ wsEndpoint
 (
 )
 ;
-const
+using
 remoteBrowser
 =
 await
@@ -415,13 +415,6 @@ process
 toBe
 (
 null
-)
-;
-await
-remoteBrowser
-.
-disconnect
-(
 )
 ;
 }
@@ -587,7 +580,7 @@ wsEndpoint
 (
 )
 ;
-const
+using
 newBrowser
 =
 await

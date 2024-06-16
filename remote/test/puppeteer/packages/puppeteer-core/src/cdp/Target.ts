@@ -458,7 +458,6 @@ _create
 (
 client
 this
-false
 null
 )
 ;
@@ -474,7 +473,6 @@ _create
 (
 session
 this
-false
 null
 )
 ;
@@ -1056,11 +1054,6 @@ Promise
 Page
 >
 ;
-#
-ignoreHTTPSErrors
-:
-boolean
-;
 constructor
 (
 targetInfo
@@ -1094,9 +1087,6 @@ Promise
 <
 CDPSession
 >
-ignoreHTTPSErrors
-:
-boolean
 defaultViewport
 :
 Viewport
@@ -1112,13 +1102,6 @@ browserContext
 targetManager
 sessionFactory
 )
-;
-this
-.
-#
-ignoreHTTPSErrors
-=
-ignoreHTTPSErrors
 ;
 this
 .
@@ -1348,10 +1331,6 @@ _create
 (
 client
 this
-this
-.
-#
-ignoreHTTPSErrors
 this
 .
 #
