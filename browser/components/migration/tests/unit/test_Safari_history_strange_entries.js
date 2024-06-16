@@ -319,6 +319,11 @@ placesQuery
 .
 getHistory
 (
+{
+daysOld
+:
+Infinity
+}
 )
 ;
 Assert
@@ -464,6 +469,9 @@ placesQuery
 getHistory
 (
 {
+daysOld
+:
+Infinity
 sortBy
 :
 "
