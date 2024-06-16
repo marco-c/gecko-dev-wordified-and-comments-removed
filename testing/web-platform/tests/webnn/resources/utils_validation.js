@@ -34,6 +34,16 @@ uint8
 ]
 ;
 const
+kMaxUnsignedLong
+=
+2
+*
+*
+32
+-
+1
+;
+const
 unsignedLongType
 =
 '
@@ -571,7 +581,7 @@ range
 =
 [
 0
-4294967295
+kMaxUnsignedLong
 ]
 ;
 break
