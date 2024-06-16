@@ -71,6 +71,13 @@ js
 ]
 [
 "
+browser_selectionPatterns
+.
+js
+"
+]
+[
+"
 browser_simplePatterns
 .
 js
