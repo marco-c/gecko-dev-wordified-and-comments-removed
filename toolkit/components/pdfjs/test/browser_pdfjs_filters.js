@@ -392,6 +392,12 @@ pixels
 !
 )
 ;
+await
+waitForPdfJSClose
+(
+browser
+)
+;
 }
 )
 ;

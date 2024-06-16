@@ -107,6 +107,7 @@ waitForExplicitFinish
 ;
 registerCleanupFunction
 (
+async
 function
 (
 )

@@ -72,11 +72,13 @@ oldAction
 ]
 )
 ;
-gBrowser
-.
-removeTab
+await
+waitForPdfJSClose
 (
 tab
+.
+linkedBrowser
+true
 )
 ;
 }

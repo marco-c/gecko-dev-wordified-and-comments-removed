@@ -627,6 +627,12 @@ InitialDownloadsLoaded
 true
 )
 ;
+await
+waitForPdfJSClose
+(
+browser
+)
+;
 BrowserTestUtils
 .
 startLoadingURIString
@@ -681,6 +687,13 @@ cmd_copy
 )
 ;
 }
+)
+;
+await
+SpecialPowers
+.
+popPrefEnv
+(
 )
 ;
 }
