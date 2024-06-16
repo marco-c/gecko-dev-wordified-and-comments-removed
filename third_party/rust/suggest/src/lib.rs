@@ -2,7 +2,10 @@ use
 remote_settings
 :
 :
+{
 RemoteSettingsConfig
+RemoteSettingsServer
+}
 ;
 #
 [

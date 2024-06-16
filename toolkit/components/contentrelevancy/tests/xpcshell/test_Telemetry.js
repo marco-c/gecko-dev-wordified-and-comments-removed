@@ -96,7 +96,6 @@ PREF_CONTENT_RELEVANCY_ENABLED
 true
 )
 ;
-await
 ContentRelevancyManager
 .
 init

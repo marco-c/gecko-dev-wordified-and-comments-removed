@@ -463,7 +463,6 @@ initialized
 .
 *
 /
-async
 init
 (
 )
@@ -498,7 +497,6 @@ this
 shouldEnable
 )
 {
-await
 this
 .
 #
@@ -826,7 +824,6 @@ RELEVANCY_STORE_FILENAME
 )
 ;
 }
-async
 #
 enable
 (
@@ -877,7 +874,6 @@ this
 #
 _store
 =
-await
 lazy
 .
 RelevancyStore
@@ -970,6 +966,22 @@ disable
 (
 )
 {
+if
+(
+this
+.
+_isStoreReady
+)
+{
+this
+.
+#
+_store
+.
+close
+(
+)
+;
 this
 .
 #
@@ -977,6 +989,7 @@ _store
 =
 null
 ;
+}
 lazy
 .
 timerManager
@@ -987,7 +1000,6 @@ TIMER_ID
 )
 ;
 }
-async
 #
 toggleFeature
 (
@@ -1000,7 +1012,6 @@ this
 shouldEnable
 )
 {
-await
 this
 .
 #

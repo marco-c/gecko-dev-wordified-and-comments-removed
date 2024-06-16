@@ -25,6 +25,9 @@ mod
 each_chunk
 ;
 mod
+lazy
+;
+mod
 maybe_cached
 ;
 pub
@@ -36,9 +39,6 @@ repeat
 ;
 pub
 use
-crate
-:
-:
 conn_ext
 :
 :
@@ -46,9 +46,6 @@ conn_ext
 ;
 pub
 use
-crate
-:
-:
 each_chunk
 :
 :
@@ -56,9 +53,13 @@ each_chunk
 ;
 pub
 use
-crate
+lazy
 :
 :
+*
+;
+pub
+use
 maybe_cached
 :
 :
@@ -66,9 +67,6 @@ maybe_cached
 ;
 pub
 use
-crate
-:
-:
 repeat
 :
 :

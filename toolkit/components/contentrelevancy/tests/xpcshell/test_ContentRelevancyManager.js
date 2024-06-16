@@ -143,7 +143,6 @@ gSandbox
 ;
 add_setup
 (
-async
 (
 )
 =
@@ -171,7 +170,6 @@ PREF_CONTENT_RELEVANCY_ENABLED
 true
 )
 ;
-await
 ContentRelevancyManager
 .
 init
@@ -208,7 +206,6 @@ restore
 ;
 add_task
 (
-async
 function
 test_init
 (
@@ -233,7 +230,6 @@ succeed
 ;
 add_task
 (
-async
 function
 test_uninit
 (
@@ -291,7 +287,6 @@ notify
 "
 )
 ;
-await
 ContentRelevancyManager
 .
 init

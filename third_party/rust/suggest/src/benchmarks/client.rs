@@ -92,6 +92,9 @@ new
 (
 RemoteSettingsConfig
 {
+server
+:
+None
 server_url
 :
 None
