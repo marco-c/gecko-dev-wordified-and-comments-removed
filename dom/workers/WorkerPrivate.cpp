@@ -12457,12 +12457,12 @@ ServiceWorkersTestingInWindow
 ;
 loadInfo
 .
-mIsThirdPartyContext
+mIsThirdPartyContextToTopWindow
 =
 aParent
 -
 >
-IsThirdPartyContext
+IsThirdPartyContextToTopWindow
 (
 )
 ;
@@ -13263,7 +13263,7 @@ false
 }
 loadInfo
 .
-mIsThirdPartyContext
+mIsThirdPartyContextToTopWindow
 =
 AntiTrackingUtils
 :
@@ -13637,7 +13637,7 @@ OriginAttributes
 ;
 loadInfo
 .
-mIsThirdPartyContext
+mIsThirdPartyContextToTopWindow
 =
 false
 ;
