@@ -12996,9 +12996,7 @@ rv
 =
 NS_GetSpecialDirectory
 (
-"
-UAppData
-"
+XRE_USER_APP_DATA_DIR
 getter_AddRefs
 (
 reporterSettings
@@ -13681,9 +13679,7 @@ rv
 =
 NS_GetSpecialDirectory
 (
-"
-UAppData
-"
+XRE_USER_APP_DATA_DIR
 getter_AddRefs
 (
 eventsDir
@@ -13966,9 +13962,7 @@ rv
 =
 NS_GetSpecialDirectory
 (
-"
-UAppData
-"
+XRE_USER_APP_DATA_DIR
 getter_AddRefs
 (
 pendingDir
