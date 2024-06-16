@@ -1586,11 +1586,7 @@ search_string
 :
 queryContext
 .
-searchString
-.
-toLowerCase
-(
-)
+lowerCaseSearchString
 matchBehavior
 :
 Ci

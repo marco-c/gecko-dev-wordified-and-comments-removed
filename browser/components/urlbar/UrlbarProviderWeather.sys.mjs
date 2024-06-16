@@ -732,15 +732,7 @@ has
 (
 queryContext
 .
-searchString
-.
-trim
-(
-)
-.
-toLocaleLowerCase
-(
-)
+trimmedLowerCaseSearchString
 )
 ;
 }

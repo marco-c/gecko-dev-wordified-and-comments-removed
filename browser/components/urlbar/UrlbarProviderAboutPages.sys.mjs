@@ -311,11 +311,7 @@ queryContext
 return
 queryContext
 .
-trimmedSearchString
-.
-toLowerCase
-(
-)
+trimmedLowerCaseSearchString
 .
 startsWith
 (
@@ -401,11 +397,7 @@ searchString
 =
 queryContext
 .
-trimmedSearchString
-.
-toLowerCase
-(
-)
+trimmedLowerCaseSearchString
 ;
 for
 (

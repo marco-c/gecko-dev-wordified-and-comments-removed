@@ -991,15 +991,11 @@ queryContext
 )
 {
 let
+{
 lowerCaseSearchString
+}
 =
 queryContext
-.
-searchString
-.
-toLowerCase
-(
-)
 ;
 /
 /

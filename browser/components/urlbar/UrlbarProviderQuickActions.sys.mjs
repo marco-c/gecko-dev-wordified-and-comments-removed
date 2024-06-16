@@ -638,11 +638,7 @@ input
 =
 queryContext
 .
-trimmedSearchString
-.
-toLowerCase
-(
-)
+trimmedLowerCaseSearchString
 ;
 if
 (

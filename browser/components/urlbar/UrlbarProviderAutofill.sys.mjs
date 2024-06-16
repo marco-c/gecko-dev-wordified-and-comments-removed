@@ -4289,11 +4289,7 @@ fullSearchString
 :
 queryContext
 .
-searchString
-.
-toLowerCase
-(
-)
+lowerCaseSearchString
 searchString
 :
 this
