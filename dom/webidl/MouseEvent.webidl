@@ -570,6 +570,7 @@ bug
 1534199
 )
 [
+NeedsCallerType
 Deprecated
 =
 "
@@ -631,6 +632,7 @@ MOZ_SOURCE_KEYBOARD
 6
 ;
 [
+NeedsCallerType
 ChromeOnly
 ]
 readonly
@@ -640,6 +642,7 @@ short
 inputSource
 ;
 [
+NeedsCallerType
 Deprecated
 =
 "

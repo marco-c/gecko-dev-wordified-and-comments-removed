@@ -1789,6 +1789,10 @@ aDragEvent
 >
 InputSource
 (
+CallerType
+:
+:
+System
 )
 ;
 mRegion
@@ -2036,6 +2040,10 @@ aDragEvent
 >
 InputSource
 (
+CallerType
+:
+:
+System
 )
 ;
 nsresult
@@ -2204,6 +2212,10 @@ aDragEvent
 >
 InputSource
 (
+CallerType
+:
+:
+System
 )
 ;
 nsCOMPtr
