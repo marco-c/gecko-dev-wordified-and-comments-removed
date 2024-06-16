@@ -78,6 +78,11 @@ knows
 about
 its
 projects
+always
+-
+target
+:
+true
 run
 :
 using
