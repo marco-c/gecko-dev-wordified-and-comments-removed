@@ -56,3 +56,17 @@ dont_grant_insecure_contexts
 false
 )
 ;
+user_pref
+(
+"
+places
+.
+history
+.
+floodingPrevention
+.
+enabled
+"
+false
+)
+;
