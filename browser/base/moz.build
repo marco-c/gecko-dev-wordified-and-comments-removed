@@ -545,17 +545,6 @@ content
 /
 test
 /
-tabs
-/
-browser
-.
-toml
-"
-"
-content
-/
-test
-/
 touch
 /
 browser

@@ -1,15 +1,4 @@
 const
-PREF_MULTISELECT_TABS
-=
-"
-browser
-.
-tabs
-.
-multiselect
-"
-;
-const
 PREF_WARN_ON_CLOSE
 =
 "
@@ -37,10 +26,6 @@ pushPrefEnv
 set
 :
 [
-[
-PREF_MULTISELECT_TABS
-true
-]
 [
 PREF_WARN_ON_CLOSE
 false

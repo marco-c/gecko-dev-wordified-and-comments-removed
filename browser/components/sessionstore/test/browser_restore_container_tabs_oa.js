@@ -56,12 +56,7 @@ loadTestSubscript
 .
 .
 /
-.
-.
-/
-base
-/
-content
+tabbrowser
 /
 test
 /

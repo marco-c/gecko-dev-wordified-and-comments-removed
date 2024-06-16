@@ -20,9 +20,9 @@ browser
 /
 browser
 /
-base
+components
 /
-content
+tabbrowser
 /
 test
 /
@@ -49,9 +49,9 @@ browser
 /
 browser
 /
-base
+components
 /
-content
+tabbrowser
 /
 test
 /
@@ -78,9 +78,9 @@ browser
 /
 browser
 /
-base
+components
 /
-content
+tabbrowser
 /
 test
 /

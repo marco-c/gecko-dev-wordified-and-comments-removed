@@ -123,3 +123,17 @@ sys
 mjs
 "
 ]
+BROWSER_CHROME_MANIFESTS
++
+=
+[
+"
+test
+/
+tabs
+/
+browser
+.
+toml
+"
+]

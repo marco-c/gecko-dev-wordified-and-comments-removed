@@ -23,9 +23,9 @@ DUMMY_PAGE_PATH
 /
 browser
 /
-base
+components
 /
-content
+tabbrowser
 /
 test
 /

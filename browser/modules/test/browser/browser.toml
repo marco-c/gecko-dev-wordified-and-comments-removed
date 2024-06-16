@@ -146,9 +146,9 @@ html
 .
 .
 /
-base
+components
 /
-content
+tabbrowser
 /
 test
 /
@@ -168,9 +168,9 @@ html
 .
 .
 /
-base
+components
 /
-content
+tabbrowser
 /
 test
 /

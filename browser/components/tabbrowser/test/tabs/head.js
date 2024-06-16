@@ -298,9 +298,9 @@ browser
 /
 browser
 /
-base
+components
 /
-content
+tabbrowser
 /
 test
 /
