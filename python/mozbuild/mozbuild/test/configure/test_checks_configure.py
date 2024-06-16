@@ -5984,14 +5984,7 @@ True
 (
 lambda
 :
-namespace
-(
-os
-=
-"
-unknown
-"
-)
+None
 )
                 
 include
