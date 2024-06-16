@@ -270,7 +270,9 @@ browser
 -
 loader
 .
-js
+sys
+.
+mjs
 "
 :
 any
