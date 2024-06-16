@@ -1018,6 +1018,13 @@ NS_IsAboutBlank
 (
 aURI
 )
+&
+&
+!
+NS_IsAboutSrcdoc
+(
+aURI
+)
 )
 {
 nsCOMPtr
@@ -1567,6 +1574,12 @@ GetLoadingPrincipal
 if
 (
 NS_IsAboutBlank
+(
+channelURI
+)
+|
+|
+NS_IsAboutSrcdoc
 (
 channelURI
 )
