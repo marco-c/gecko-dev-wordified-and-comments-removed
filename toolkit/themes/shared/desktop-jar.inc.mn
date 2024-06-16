@@ -677,7 +677,7 @@ system
 /
 tokens
 -
-shared
+platform
 .
 css
 (
@@ -695,7 +695,7 @@ system
 /
 tokens
 -
-shared
+platform
 .
 css
 )
@@ -711,7 +711,7 @@ system
 /
 tokens
 -
-platform
+shared
 .
 css
 (
@@ -729,7 +729,7 @@ system
 /
 tokens
 -
-platform
+shared
 .
 css
 )
