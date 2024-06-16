@@ -2907,6 +2907,12 @@ FAILED
 (
 hr
 )
+&
+&
+hr
+!
+=
+E_ACCESSDENIED
 )
 {
 rv
