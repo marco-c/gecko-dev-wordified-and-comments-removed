@@ -567,6 +567,13 @@ asan
 ]
 [
 "
+browser_popupNotification_swapBrowser
+.
+js
+"
+]
+[
+"
 browser_reshow_in_background
 .
 js
