@@ -516,6 +516,15 @@ type
 ;
 }
 }
+resources
+=
+[
+.
+.
+.
+resources
+]
+;
 const
 pendingWatcher
 =
