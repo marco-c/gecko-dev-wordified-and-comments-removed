@@ -296,14 +296,6 @@ GetAsImageSurface
 (
 )
 ;
-already_AddRefed
-<
-gfxImageSurface
->
-CopyToARGB32ImageSurface
-(
-)
-;
 int
 CairoStatus
 (
