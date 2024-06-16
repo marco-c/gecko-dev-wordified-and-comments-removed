@@ -404,8 +404,6 @@ style
 :
 "
 autofill
--
-profile
 "
 comment
 :
@@ -464,8 +462,6 @@ style
 :
 "
 autofill
--
-profile
 "
 comment
 :
@@ -568,8 +564,6 @@ style
 :
 "
 autofill
--
-profile
 "
 comment
 :
@@ -634,8 +628,6 @@ style
 :
 "
 autofill
--
-profile
 "
 comment
 :
@@ -700,8 +692,6 @@ style
 :
 "
 autofill
--
-profile
 "
 comment
 :
@@ -816,8 +806,6 @@ style
 :
 "
 autofill
--
-profile
 "
 comment
 :
@@ -878,8 +866,6 @@ style
 :
 "
 autofill
--
-profile
 "
 comment
 :
@@ -939,8 +925,6 @@ style
 :
 "
 autofill
--
-profile
 "
 comment
 :
@@ -1055,8 +1039,6 @@ style
 :
 "
 autofill
--
-profile
 "
 comment
 :
@@ -1117,8 +1099,6 @@ style
 :
 "
 autofill
--
-profile
 "
 comment
 :
@@ -1178,8 +1158,6 @@ style
 :
 "
 autofill
--
-profile
 "
 comment
 :
@@ -1615,8 +1593,6 @@ style
 :
 "
 autofill
--
-profile
 "
 comment
 :
@@ -1647,10 +1623,6 @@ Lee
 secondary
 :
 "
-*
-*
-*
-*
 6785
 "
 ariaLabel
@@ -1725,8 +1697,6 @@ style
 :
 "
 autofill
--
-profile
 "
 comment
 :
@@ -1755,10 +1725,6 @@ Doe
 secondary
 :
 "
-*
-*
-*
-*
 1234
 "
 ariaLabel
@@ -1880,8 +1846,6 @@ style
 :
 "
 autofill
--
-profile
 "
 comment
 :
@@ -1904,10 +1868,6 @@ stringify
 primary
 :
 "
-*
-*
-*
-*
 6785
 "
 secondary
@@ -1986,8 +1946,6 @@ style
 :
 "
 autofill
--
-profile
 "
 comment
 :
@@ -2010,10 +1968,6 @@ stringify
 primary
 :
 "
-*
-*
-*
-*
 1234
 "
 secondary
@@ -2089,8 +2043,6 @@ style
 :
 "
 autofill
--
-profile
 "
 comment
 :
@@ -2113,10 +2065,6 @@ stringify
 primary
 :
 "
-*
-*
-*
-*
 5678
 "
 secondary

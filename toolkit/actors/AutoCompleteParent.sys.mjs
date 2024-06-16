@@ -1410,8 +1410,6 @@ has
 (
 "
 autofill
--
-profile
 "
 )
 |
