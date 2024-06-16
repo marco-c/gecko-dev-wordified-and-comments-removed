@@ -914,6 +914,21 @@ request
 .
 headers
 )
+                    
+elif
+signalsParam
+=
+=
+"
+url
+"
+:
+                        
+value
+=
+request
+.
+url
             
 if
 addValue
