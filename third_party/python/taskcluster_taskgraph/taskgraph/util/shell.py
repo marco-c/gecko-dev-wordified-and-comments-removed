@@ -100,13 +100,11 @@ quotes
 "
     
 if
-type
+isinstance
 (
 s
-)
-=
-=
 int
+)
 :
         
 return

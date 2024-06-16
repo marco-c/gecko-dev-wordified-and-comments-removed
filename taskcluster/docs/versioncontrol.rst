@@ -414,7 +414,7 @@ Images
 -
 taskcluster
 /
-ci
+kinds
 /
 packages
 /
@@ -424,7 +424,7 @@ yml
 and
 taskcluster
 /
-ci
+kinds
 /
 packages
 /

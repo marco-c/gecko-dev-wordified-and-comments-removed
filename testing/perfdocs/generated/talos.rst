@@ -1262,7 +1262,7 @@ defined
 in
 taskcluster
 /
-ci
+kinds
 /
 test
 /
@@ -1286,7 +1286,7 @@ source
 /
 taskcluster
 /
-ci
+kinds
 /
 test
 /
@@ -1371,7 +1371,7 @@ source
 /
 taskcluster
 /
-ci
+kinds
 /
 test
 /

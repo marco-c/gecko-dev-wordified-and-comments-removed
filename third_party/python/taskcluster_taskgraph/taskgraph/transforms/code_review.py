@@ -35,17 +35,17 @@ def
 add_dependencies
 (
 config
-jobs
+tasks
 )
 :
     
 for
-job
+task
 in
-jobs
+tasks
 :
         
-job
+task
 .
 setdefault
 (
@@ -58,7 +58,7 @@ dependencies
 ]
 )
         
-job
+task
 [
 "
 soft
@@ -104,4 +104,4 @@ True
 ]
         
 yield
-job
+task

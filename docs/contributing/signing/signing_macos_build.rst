@@ -1418,8 +1418,6 @@ mc
 /
 taskcluster
 /
-ci
-/
 config
 .
 yml
@@ -1818,8 +1816,6 @@ r
 mc
 /
 taskcluster
-/
-ci
 /
 config
 .

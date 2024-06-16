@@ -1095,7 +1095,7 @@ task
 <
 taskcluster
 /
-ci
+kinds
 /
 static
 -

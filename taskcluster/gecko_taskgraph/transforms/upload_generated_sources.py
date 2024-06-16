@@ -13,7 +13,7 @@ description
 template
 taskcluster
 /
-ci
+kinds
 /
 upload
 -

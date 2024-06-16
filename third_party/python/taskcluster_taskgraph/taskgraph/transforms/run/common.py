@@ -5,7 +5,7 @@ Common
 support
 for
 various
-job
+task
 types
 .
 These
@@ -75,7 +75,7 @@ vcs
 def
 add_cache
 (
-job
+task
 taskdesc
 name
 mount_point
@@ -103,16 +103,13 @@ implementation
 Args
 :
         
-job
+task
 (
 dict
 )
 :
-Task
-'
-s
-job
-description
+Tasks
+object
 .
         
 taskdesc
@@ -186,7 +183,7 @@ worker
     
 if
 not
-job
+task
 [
 "
 run
@@ -208,7 +205,7 @@ return
     
 worker
 =
-job
+task
 [
 "
 worker
@@ -349,7 +346,7 @@ def
 add_artifacts
 (
 config
-job
+task
 taskdesc
 path
 )
@@ -406,7 +403,7 @@ def
 docker_worker_add_artifacts
 (
 config
-job
+task
 taskdesc
 )
 :
@@ -440,7 +437,7 @@ format
 (
 *
 *
-job
+task
 [
 "
 run
@@ -470,7 +467,7 @@ path
 add_artifacts
 (
 config
-job
+task
 taskdesc
 path
 )
@@ -478,7 +475,7 @@ def
 generic_worker_add_artifacts
 (
 config
-job
+task
 taskdesc
 )
 :
@@ -500,7 +497,7 @@ task
 add_artifacts
 (
 config
-job
+task
 taskdesc
 path
 =
@@ -513,7 +510,7 @@ def
 support_vcs_checkout
 (
 config
-job
+task
 taskdesc
 repo_configs
 sparse
@@ -527,8 +524,6 @@ False
 "
 Update
 a
-job
-/
 task
 with
 parameters
@@ -569,7 +564,7 @@ tasks
     
 worker
 =
-job
+task
 [
 "
 worker
@@ -682,7 +677,7 @@ format
 (
 *
 *
-job
+task
 [
 "
 run
@@ -864,21 +859,9 @@ cache_name
 sparse
 "
     
-if
-is_docker
-:
-        
-cache_name
-+
-=
-"
--
-hg58
-"
-    
 add_cache
 (
-job
+task
 taskdesc
 cache_name
 checkoutdir
@@ -1090,7 +1073,7 @@ ssh_secret_name
 )
     
 if
-job
+task
 [
 "
 worker

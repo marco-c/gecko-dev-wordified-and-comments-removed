@@ -170,9 +170,11 @@ logger
 info
 (
                     
+f
 "
 Task
 {
+task_id
 }
 is
 past
@@ -184,13 +186,6 @@ be
 cancelled
 .
 "
-.
-format
-(
-                        
-task_id
-                    
-)
                 
 )
                 

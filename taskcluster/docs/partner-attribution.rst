@@ -294,8 +294,6 @@ defined
 in
 taskcluster
 /
-ci
-/
 config
 .
 yml
@@ -323,8 +321,6 @@ urls
 path
 =
 taskcluster
-%
-2Fci
 %
 2Fconfig
 .

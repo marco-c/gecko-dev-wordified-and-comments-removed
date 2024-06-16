@@ -129,7 +129,7 @@ GECKO
 taskcluster
 "
 "
-ci
+kinds
 "
 "
 test
@@ -152,7 +152,7 @@ GECKO
 taskcluster
 "
 "
-ci
+kinds
 "
 "
 test
