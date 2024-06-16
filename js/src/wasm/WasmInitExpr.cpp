@@ -3656,6 +3656,14 @@ if
 literal
 )
 {
+literal
+-
+>
+unsafeSetType
+(
+expected
+)
+;
 expr
 -
 >
