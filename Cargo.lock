@@ -5622,6 +5622,9 @@ intl
 memoizer
 "
 "
+lazy_static
+"
+"
 libloading
 "
 "
@@ -5641,9 +5644,6 @@ hack
 "
 "
 objc
-"
-"
-once_cell
 "
 "
 phf

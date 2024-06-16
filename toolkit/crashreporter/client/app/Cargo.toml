@@ -83,6 +83,13 @@ memoizer
 .
 5
 "
+lazy_static
+=
+"
+1
+.
+4
+"
 libloading
 =
 "
@@ -133,11 +140,6 @@ optional
 =
 true
 }
-once_cell
-=
-"
-1
-"
 phf
 =
 "
