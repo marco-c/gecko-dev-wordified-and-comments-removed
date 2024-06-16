@@ -857,11 +857,15 @@ days
 =
 0
 ;
-NormalizedTimeDuration
+int64_t
 time
+=
+0
 ;
-NormalizedTimeDuration
+int64_t
 dayLength
+=
+0
 ;
 }
 ;
