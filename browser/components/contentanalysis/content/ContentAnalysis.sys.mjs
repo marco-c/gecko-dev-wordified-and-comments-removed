@@ -4464,11 +4464,12 @@ bodyId
 )
 ;
 }
+await
 Services
 .
 prompt
 .
-alertBC
+asyncAlert
 (
 aBrowsingContext
 Ci
