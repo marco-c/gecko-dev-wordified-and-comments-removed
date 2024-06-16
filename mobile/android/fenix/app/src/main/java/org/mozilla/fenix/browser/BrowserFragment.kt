@@ -471,6 +471,16 @@ fenix
 .
 ext
 .
+isTablet
+import
+org
+.
+mozilla
+.
+fenix
+.
+ext
+.
 nav
 import
 org
