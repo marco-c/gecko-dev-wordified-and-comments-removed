@@ -73,16 +73,6 @@ attribute
 AString
 authenticatorAttachment
 ;
-bool
-hasIdentifyingAttestation
-(
-)
-;
-void
-anonymize
-(
-)
-;
 }
 ;
 [

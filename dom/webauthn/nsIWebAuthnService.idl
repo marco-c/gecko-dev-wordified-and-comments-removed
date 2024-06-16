@@ -283,14 +283,14 @@ aPin
 )
 ;
 void
-setHasAttestationConsent
+resumeMakeCredential
 (
 in
 uint64_t
 aTransactionId
 in
 boolean
-aHasConsent
+aForceNoneAttestation
 )
 ;
 void

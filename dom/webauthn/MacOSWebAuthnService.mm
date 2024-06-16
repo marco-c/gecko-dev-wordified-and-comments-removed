@@ -5600,12 +5600,12 @@ NS_IMETHODIMP
 MacOSWebAuthnService
 :
 :
-SetHasAttestationConsent
+ResumeMakeCredential
 (
 uint64_t
 aTransactionId
 bool
-aHasConsent
+aForceNoneAttestation
 )
 {
 return
