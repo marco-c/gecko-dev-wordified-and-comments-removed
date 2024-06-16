@@ -514,10 +514,13 @@ GetStringInfo
 override
 ;
 void
-DidAnimateString
+DidAnimateAttribute
 (
-PRUint8
-aAttrEnum
+int32_t
+aNameSpaceID
+nsAtom
+*
+aAttribute
 )
 override
 ;

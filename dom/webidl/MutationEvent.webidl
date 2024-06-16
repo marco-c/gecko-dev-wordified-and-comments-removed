@@ -185,16 +185,6 @@ REMOVAL
 =
 3
 ;
-[
-ChromeOnly
-]
-const
-unsigned
-short
-SMIL
-=
-4
-;
 readonly
 attribute
 Node
