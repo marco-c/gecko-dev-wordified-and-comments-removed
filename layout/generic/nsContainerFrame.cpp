@@ -1211,7 +1211,7 @@ frame
 frameList
 -
 >
-RemoveFirstChild
+RemoveLastChild
 (
 )
 ;
