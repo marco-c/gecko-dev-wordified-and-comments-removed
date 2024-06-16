@@ -1317,13 +1317,6 @@ NotifyGeckoEventDispatch
 (
 )
 ;
-private
-:
-void
-SpinInternalEventLoop
-(
-)
-;
 #
 endif
 private
