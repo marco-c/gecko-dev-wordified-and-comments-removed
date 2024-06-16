@@ -764,6 +764,11 @@ tempfile
 .
 NamedTemporaryFile
 (
+mode
+=
+"
+w
+"
 delete
 =
 False
