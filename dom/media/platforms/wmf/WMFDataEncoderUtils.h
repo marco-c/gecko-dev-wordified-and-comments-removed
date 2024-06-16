@@ -190,15 +190,6 @@ MFVideoFormat_VP90
 ;
 default
 :
-MOZ_ASSERT
-(
-false
-"
-Unsupported
-codec
-"
-)
-;
 return
 GUID_NULL
 ;
