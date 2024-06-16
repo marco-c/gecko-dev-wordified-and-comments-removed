@@ -87,6 +87,13 @@ js
 ]
 [
 "
+test_autocomplete
+.
+js
+"
+]
+[
+"
 test_db_access_denied
 .
 js
@@ -185,6 +192,13 @@ js
 [
 "
 test_notify
+.
+js
+"
+]
+[
+"
+test_previous_result
 .
 js
 "
