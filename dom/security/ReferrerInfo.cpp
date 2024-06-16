@@ -4665,7 +4665,7 @@ ReferrerInfo
 :
 GetComputedReferrerSpec
 (
-nsAString
+nsACString
 &
 aComputedReferrerSpec
 )
@@ -4680,16 +4680,13 @@ isSome
 (
 )
 ?
-NS_ConvertUTF8toUTF16
-(
 mComputedReferrer
 .
 value
 (
 )
-)
 :
-EmptyString
+EmptyCString
 (
 )
 )

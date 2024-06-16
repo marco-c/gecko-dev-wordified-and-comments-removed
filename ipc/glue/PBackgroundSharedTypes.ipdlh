@@ -319,7 +319,7 @@ requestPrincipalInfo
 nsCString
 selfURISpec
 ;
-nsString
+nsCString
 referrer
 ;
 uint64_t

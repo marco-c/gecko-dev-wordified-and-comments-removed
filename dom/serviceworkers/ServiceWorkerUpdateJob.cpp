@@ -1113,10 +1113,7 @@ Compare
 mRegistration
 mPrincipal
 cacheName
-NS_ConvertUTF8toUTF16
-(
 mScriptSpec
-)
 callback
 )
 ;

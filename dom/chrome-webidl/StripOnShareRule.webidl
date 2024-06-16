@@ -135,7 +135,7 @@ StripRule
 {
 sequence
 <
-DOMString
+UTF8String
 >
 queryParams
 =
@@ -144,7 +144,7 @@ queryParams
 ;
 sequence
 <
-DOMString
+UTF8String
 >
 topLevelSites
 =

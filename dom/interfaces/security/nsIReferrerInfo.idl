@@ -674,7 +674,7 @@ available
 /
 readonly
 attribute
-AString
+ACString
 computedReferrerSpec
 ;
 /

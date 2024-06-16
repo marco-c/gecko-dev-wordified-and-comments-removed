@@ -62,7 +62,7 @@ str1
 URLParams
 params
 ;
-nsAutoString
+nsAutoCString
 value
 ;
 if
@@ -74,12 +74,10 @@ params
 .
 Set
 (
-u
 "
 inBrowser
 "
 _ns
-u
 "
 1
 "
@@ -124,10 +122,7 @@ str1
 .
 Append
 (
-NS_ConvertUTF16toUTF8
-(
 value
-)
 )
 ;
 }
@@ -310,11 +305,11 @@ this
 ]
 (
 const
-nsAString
+nsACString
 &
 aName
 const
-nsAString
+nsACString
 &
 aValue
 )

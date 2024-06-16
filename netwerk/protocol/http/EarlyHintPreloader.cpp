@@ -1589,7 +1589,6 @@ SetRequestContextWithPrincipal
 (
 aPrincipal
 aBaseURI
-u
 "
 "
 _ns

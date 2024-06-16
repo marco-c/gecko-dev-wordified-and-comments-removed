@@ -1206,7 +1206,7 @@ internalRequest
 nullptr
 )
 ;
-RequestOrUSVString
+RequestOrUTF8String
 fetchInput
 ;
 fetchInput

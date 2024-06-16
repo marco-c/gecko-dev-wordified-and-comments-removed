@@ -34,7 +34,7 @@ aGlobal
 Blob
 &
 aBlob
-nsAString
+nsACString
 &
 aResult
 ErrorResult
@@ -53,7 +53,7 @@ aGlobal
 MediaSource
 &
 aSource
-nsAString
+nsACString
 &
 aResult
 ErrorResult
@@ -70,7 +70,7 @@ GlobalObject
 &
 aGlobal
 const
-nsAString
+nsACString
 &
 aURL
 ErrorResult
@@ -87,7 +87,7 @@ GlobalObject
 &
 aGlobal
 const
-nsAString
+nsACString
 &
 aURL
 ErrorResult

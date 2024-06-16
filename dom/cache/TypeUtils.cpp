@@ -476,7 +476,7 @@ JSContext
 *
 aCx
 const
-RequestOrUSVString
+RequestOrUTF8String
 &
 aIn
 BodyAction
@@ -539,7 +539,7 @@ ToInternalRequest
 (
 aIn
 .
-GetAsUSVString
+GetAsUTF8String
 (
 )
 aRv
@@ -559,7 +559,7 @@ JSContext
 *
 aCx
 const
-OwningRequestOrUSVString
+OwningRequestOrUTF8String
 &
 aIn
 BodyAction
@@ -622,7 +622,7 @@ ToInternalRequest
 (
 aIn
 .
-GetAsUSVString
+GetAsUTF8String
 (
 )
 aRv
@@ -2814,7 +2814,7 @@ TypeUtils
 ToInternalRequest
 (
 const
-nsAString
+nsACString
 &
 aIn
 ErrorResult
@@ -2822,12 +2822,12 @@ ErrorResult
 aRv
 )
 {
-RequestOrUSVString
+RequestOrUTF8String
 requestOrString
 ;
 requestOrString
 .
-SetAsUSVString
+SetAsUTF8String
 (
 )
 .

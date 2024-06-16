@@ -698,7 +698,7 @@ rv
 =
 NS_OK
 ;
-nsAutoString
+nsAutoCString
 referrer
 ;
 aRequest
@@ -840,7 +840,7 @@ rv
 rv
 )
 ;
-nsAutoString
+nsAutoCString
 computedReferrerSpec
 ;
 referrerInfo
@@ -3477,7 +3477,7 @@ MimeType
 :
 Wasm
 :
-nsAutoString
+nsAutoCString
 url
 ;
 response
@@ -3532,18 +3532,12 @@ JSMSG_WASM_ERROR_CONSUMING_RESPONSE
 )
 ;
 }
-NS_ConvertUTF16toUTF8
-urlUTF8
-(
-url
-)
-;
 aConsumer
 -
 >
 noteResponseURLs
 (
-urlUTF8
+url
 .
 get
 (

@@ -1644,7 +1644,7 @@ query
 )
 )
 ;
-nsAutoString
+nsAutoCString
 readerSpec
 ;
 if
@@ -1655,7 +1655,6 @@ URLParams
 Extract
 (
 query
-u
 "
 url
 "

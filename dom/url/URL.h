@@ -164,13 +164,13 @@ GlobalObject
 &
 aGlobal
 const
-nsAString
+nsACString
 &
 aURL
 const
 Optional
 <
-nsAString
+nsACString
 >
 &
 aBase
@@ -190,11 +190,11 @@ nsISupports
 *
 aParent
 const
-nsAString
+nsACString
 &
 aURL
 const
-nsAString
+nsACString
 &
 aBase
 ErrorResult
@@ -213,7 +213,7 @@ nsISupports
 *
 aParent
 const
-nsAString
+nsACString
 &
 aURL
 nsIURI
@@ -235,7 +235,7 @@ aGlobal
 Blob
 &
 aBlob
-nsAString
+nsACString
 &
 aResult
 ErrorResult
@@ -254,7 +254,7 @@ aGlobal
 MediaSource
 &
 aSource
-nsAString
+nsACString
 &
 aResult
 ErrorResult
@@ -271,7 +271,7 @@ GlobalObject
 &
 aGlobal
 const
-nsAString
+nsACString
 &
 aURL
 ErrorResult
@@ -288,7 +288,7 @@ GlobalObject
 &
 aGlobal
 const
-nsAString
+nsACString
 &
 aURL
 ErrorResult
@@ -344,7 +344,7 @@ aBase
 void
 GetHref
 (
-nsAString
+nsACString
 &
 aHref
 )
@@ -354,7 +354,7 @@ void
 SetHref
 (
 const
-nsAString
+nsACString
 &
 aHref
 ErrorResult
@@ -365,7 +365,7 @@ aRv
 void
 GetOrigin
 (
-nsAString
+nsACString
 &
 aOrigin
 )
@@ -374,7 +374,7 @@ const
 void
 GetProtocol
 (
-nsAString
+nsACString
 &
 aProtocol
 )
@@ -384,7 +384,7 @@ void
 SetProtocol
 (
 const
-nsAString
+nsACString
 &
 aProtocol
 )
@@ -392,7 +392,7 @@ aProtocol
 void
 GetUsername
 (
-nsAString
+nsACString
 &
 aUsername
 )
@@ -402,7 +402,7 @@ void
 SetUsername
 (
 const
-nsAString
+nsACString
 &
 aUsername
 )
@@ -410,7 +410,7 @@ aUsername
 void
 GetPassword
 (
-nsAString
+nsACString
 &
 aPassword
 )
@@ -420,7 +420,7 @@ void
 SetPassword
 (
 const
-nsAString
+nsACString
 &
 aPassword
 )
@@ -428,7 +428,7 @@ aPassword
 void
 GetHost
 (
-nsAString
+nsACString
 &
 aHost
 )
@@ -438,7 +438,7 @@ void
 SetHost
 (
 const
-nsAString
+nsACString
 &
 aHost
 )
@@ -446,7 +446,7 @@ aHost
 void
 GetHostname
 (
-nsAString
+nsACString
 &
 aHostname
 )
@@ -456,7 +456,7 @@ void
 SetHostname
 (
 const
-nsAString
+nsACString
 &
 aHostname
 )
@@ -464,7 +464,7 @@ aHostname
 void
 GetPort
 (
-nsAString
+nsACString
 &
 aPort
 )
@@ -474,7 +474,7 @@ void
 SetPort
 (
 const
-nsAString
+nsACString
 &
 aPort
 )
@@ -482,7 +482,7 @@ aPort
 void
 GetPathname
 (
-nsAString
+nsACString
 &
 aPathname
 )
@@ -492,7 +492,7 @@ void
 SetPathname
 (
 const
-nsAString
+nsACString
 &
 aPathname
 )
@@ -500,7 +500,7 @@ aPathname
 void
 GetSearch
 (
-nsAString
+nsACString
 &
 aSearch
 )
@@ -510,7 +510,7 @@ void
 SetSearch
 (
 const
-nsAString
+nsACString
 &
 aSearch
 )
@@ -524,9 +524,9 @@ SearchParams
 void
 GetHash
 (
-nsAString
+nsACString
 &
-aHost
+aHash
 )
 const
 ;
@@ -534,7 +534,7 @@ void
 SetHash
 (
 const
-nsAString
+nsACString
 &
 aHash
 )
@@ -542,7 +542,7 @@ aHash
 void
 ToJSON
 (
-nsAString
+nsACString
 &
 aResult
 )
@@ -623,7 +623,7 @@ void
 SetSearchInternal
 (
 const
-nsAString
+nsACString
 &
 aSearch
 )

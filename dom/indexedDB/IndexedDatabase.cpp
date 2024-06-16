@@ -1781,8 +1781,14 @@ params
 >
 Append
 (
+NS_ConvertUTF16toUTF8
+(
 key
+)
+NS_ConvertUTF16toUTF8
+(
 value
+)
 )
 ;
 }

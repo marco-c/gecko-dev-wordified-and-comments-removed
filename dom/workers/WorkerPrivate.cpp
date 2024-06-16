@@ -6571,7 +6571,6 @@ mLoadInfo
 .
 mPrincipal
 selfURI
-u
 "
 "
 _ns

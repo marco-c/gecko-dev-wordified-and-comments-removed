@@ -1725,7 +1725,7 @@ mozilla
 dom
 :
 :
-RequestOrUSVString
+RequestOrUTF8String
 request
 ;
 MOZ_ASSERT
@@ -1743,7 +1743,7 @@ IsEmpty
 ;
 request
 .
-SetAsUSVString
+SetAsUTF8String
 (
 )
 .

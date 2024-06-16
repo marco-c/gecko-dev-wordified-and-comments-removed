@@ -181,7 +181,7 @@ class
 ReadableStreamDefaultReader
 ;
 class
-RequestOrUSVString
+RequestOrUTF8String
 ;
 class
 WorkerPrivate
@@ -202,7 +202,7 @@ nsIGlobalObject
 *
 aGlobal
 const
-RequestOrUSVString
+RequestOrUTF8String
 &
 aInput
 const

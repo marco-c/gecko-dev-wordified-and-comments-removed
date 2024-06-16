@@ -19242,7 +19242,8 @@ rv
 )
 ;
 }
-nsAutoString
+{
+nsAutoCString
 href
 ;
 anchor
@@ -19265,6 +19266,7 @@ IsEmpty
 return
 NS_OK
 ;
+}
 }
 AutoPlaceholderBatch
 treatAsOneTransaction

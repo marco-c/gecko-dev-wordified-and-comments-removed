@@ -276,7 +276,7 @@ WorkerScriptLoader
 >
 mScriptLoader
 ;
-nsString
+nsCString
 mFullURL
 ;
 RefPtr

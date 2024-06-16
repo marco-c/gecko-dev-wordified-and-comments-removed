@@ -500,7 +500,7 @@ TYPE_FETCH
 )
 mReferrer
 (
-NS_LITERAL_STRING_FROM_CSTRING
+nsLiteralCString
 (
 kFETCH_CLIENT_REFERRER_STR
 )
@@ -603,7 +603,7 @@ aRequestRedirect
 RequestCredentials
 aRequestCredentials
 const
-nsAString
+nsACString
 &
 aReferrer
 ReferrerPolicy

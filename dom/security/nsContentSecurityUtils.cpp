@@ -5306,7 +5306,7 @@ nsIURI
 >
 selfURI
 ;
-nsAutoString
+nsAutoCString
 referrerSpec
 ;
 if

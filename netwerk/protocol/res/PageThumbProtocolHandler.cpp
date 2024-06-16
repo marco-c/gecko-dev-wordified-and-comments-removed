@@ -1380,7 +1380,7 @@ return
 NS_ERROR_MALFORMED_URI
 ;
 }
-nsAutoString
+nsAutoCString
 url
 ;
 bool
@@ -1398,7 +1398,6 @@ queryIndex
 +
 1
 )
-u
 "
 url
 "
@@ -1483,7 +1482,10 @@ pageThumbsStorage
 >
 GetFilePathForURL
 (
+NS_ConvertUTF8toUTF16
+(
 url
+)
 aThumbnailPath
 )
 ;
@@ -1549,7 +1551,10 @@ helper
 >
 GetFilePathForURL
 (
+NS_ConvertUTF8toUTF16
+(
 url
+)
 aThumbnailPath
 )
 ;

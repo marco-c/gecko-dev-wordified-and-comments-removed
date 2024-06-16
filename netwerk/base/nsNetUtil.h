@@ -3788,7 +3788,7 @@ TryChangeProtocol
 nsIURI
 *
 const
-nsAString
+nsACString
 &
 )
 ;

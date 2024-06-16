@@ -128,7 +128,7 @@ Private
 __func__
 )
 ;
-RequestOrUSVString
+RequestOrUTF8String
 fetchInput
 ;
 fetchInput

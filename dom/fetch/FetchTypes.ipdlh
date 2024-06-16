@@ -373,7 +373,7 @@ preferredAlternativeDataType
 uint32_t
 contentPolicyType
 ;
-nsString
+nsCString
 referrer
 ;
 ReferrerPolicy

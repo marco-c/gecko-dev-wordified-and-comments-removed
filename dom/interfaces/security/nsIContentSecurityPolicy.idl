@@ -1526,7 +1526,7 @@ in
 nsIURI
 aSelfURI
 in
-AString
+ACString
 aReferrer
 in
 unsigned
@@ -1581,7 +1581,7 @@ noscript
 ]
 readonly
 attribute
-AString
+ACString
 referrer
 ;
 [

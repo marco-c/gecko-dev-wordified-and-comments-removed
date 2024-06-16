@@ -17279,7 +17279,7 @@ nsGlobalWindowInner
 Fetch
 (
 const
-RequestOrUSVString
+RequestOrUTF8String
 &
 aInput
 const

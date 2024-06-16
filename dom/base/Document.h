@@ -9094,7 +9094,7 @@ rv
 void
 GetReferrer
 (
-nsAString
+nsACString
 &
 aReferrer
 )

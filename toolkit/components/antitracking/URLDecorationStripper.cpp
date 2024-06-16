@@ -83,7 +83,7 @@ nsACString
 aOutSpec
 )
 {
-nsAutoString
+nsAutoCString
 tokenList
 ;
 nsresult
@@ -92,7 +92,7 @@ rv
 Preferences
 :
 :
-GetString
+GetCString
 (
 kPrefName
 tokenList
@@ -149,7 +149,7 @@ queryBegins
 for
 (
 const
-nsAString
+nsACString
 &
 token
 :
@@ -174,7 +174,7 @@ IsEmpty
 continue
 ;
 }
-nsAutoString
+nsAutoCString
 value
 ;
 if

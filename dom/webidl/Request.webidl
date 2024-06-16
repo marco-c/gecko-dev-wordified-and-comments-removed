@@ -121,7 +121,7 @@ typedef
 (
 Request
 or
-USVString
+UTF8String
 )
 RequestInfo
 ;
@@ -207,7 +207,7 @@ method
 ;
 readonly
 attribute
-USVString
+UTF8String
 url
 ;
 [
@@ -230,7 +230,7 @@ destination
 ;
 readonly
 attribute
-USVString
+UTF8String
 referrer
 ;
 [
@@ -399,7 +399,7 @@ BodyInit
 ?
 body
 ;
-USVString
+UTF8String
 referrer
 ;
 ReferrerPolicy

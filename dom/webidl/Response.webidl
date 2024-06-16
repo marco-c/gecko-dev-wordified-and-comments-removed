@@ -213,7 +213,7 @@ static
 Response
 redirect
 (
-USVString
+UTF8String
 url
 optional
 unsigned
@@ -251,7 +251,7 @@ type
 ;
 readonly
 attribute
-USVString
+UTF8String
 url
 ;
 readonly

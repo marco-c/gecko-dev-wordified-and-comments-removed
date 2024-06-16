@@ -2196,7 +2196,7 @@ nsIGlobalObject
 *
 aGlobal
 const
-RequestOrUSVString
+RequestOrUTF8String
 &
 aInput
 const

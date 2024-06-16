@@ -11711,7 +11711,7 @@ return
 rel
 ;
 }
-nsAutoString
+nsAutoCString
 hash
 ;
 anchor
@@ -11735,13 +11735,14 @@ return
 rel
 ;
 }
-hash
-.
-Trim
+NS_ConvertUTF8toUTF16
+hash16
 (
-"
-#
-"
+Substring
+(
+hash
+1
+)
 )
 ;
 if
@@ -11763,7 +11764,7 @@ OwnerDoc
 >
 GetElementById
 (
-hash
+hash16
 )
 )
 {
@@ -11800,7 +11801,7 @@ OwnerDoc
 >
 GetElementsByName
 (
-hash
+hash16
 )
 )
 {

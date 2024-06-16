@@ -466,9 +466,6 @@ struct
 RequestInit
 ;
 class
-RequestOrUSVString
-;
-class
 Selection
 ;
 struct

@@ -190,7 +190,7 @@ void
 onQueryStrippingListUpdate
 (
 in
-AString
+ACString
 aStripList
 in
 ACString

@@ -1049,7 +1049,7 @@ domain
 ;
 readonly
 attribute
-DOMString
+UTF8String
 referrer
 ;
 [

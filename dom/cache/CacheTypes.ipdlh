@@ -425,7 +425,7 @@ headers
 HeadersGuardEnum
 headersGuard
 ;
-nsString
+nsCString
 referrer
 ;
 ReferrerPolicy

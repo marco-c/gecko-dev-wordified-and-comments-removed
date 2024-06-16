@@ -89,13 +89,13 @@ class
 InternalResponse
 ;
 class
-OwningRequestOrUSVString
+OwningRequestOrUTF8String
 ;
 class
 Request
 ;
 class
-RequestOrUSVString
+RequestOrUTF8String
 ;
 class
 Response
@@ -203,7 +203,7 @@ JSContext
 *
 aCx
 const
-RequestOrUSVString
+RequestOrUTF8String
 &
 aIn
 BodyAction
@@ -223,7 +223,7 @@ JSContext
 *
 aCx
 const
-OwningRequestOrUSVString
+OwningRequestOrUTF8String
 &
 aIn
 BodyAction
@@ -412,7 +412,7 @@ InternalRequest
 ToInternalRequest
 (
 const
-nsAString
+nsACString
 &
 aIn
 ErrorResult

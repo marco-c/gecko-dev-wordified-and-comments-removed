@@ -223,7 +223,7 @@ aRequestRedirect
 RequestCredentials
 aRequestCredentials
 const
-nsAString
+nsACString
 &
 aReferrer
 ReferrerPolicy
@@ -539,7 +539,7 @@ mURLList
 void
 GetReferrer
 (
-nsAString
+nsACString
 &
 aReferrer
 )
@@ -557,7 +557,7 @@ void
 SetReferrer
 (
 const
-nsAString
+nsACString
 &
 aReferrer
 )
@@ -646,12 +646,6 @@ pathPos
 int32_t
 pathLen
 ;
-NS_ConvertUTF16toUTF8
-ref
-(
-aReferrer
-)
-;
 nsresult
 rv
 =
@@ -660,12 +654,12 @@ parser
 >
 ParseURL
 (
-ref
+aReferrer
 .
-get
+BeginReading
 (
 )
-ref
+aReferrer
 .
 Length
 (
@@ -1698,7 +1692,7 @@ mPreferredAlternativeDataType
 nsContentPolicyType
 mContentPolicyType
 ;
-nsString
+nsCString
 mReferrer
 ;
 ReferrerPolicy

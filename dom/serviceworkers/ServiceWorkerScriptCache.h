@@ -119,7 +119,7 @@ nsAString
 &
 aCacheName
 const
-nsAString
+nsACString
 &
 aURL
 CompareCallback

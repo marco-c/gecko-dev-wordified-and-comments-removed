@@ -183,10 +183,10 @@ UTF8String
 configURL
 ;
 required
-USVString
+UTF8String
 clientId
 ;
-USVString
+UTF8String
 nonce
 ;
 }
@@ -246,7 +246,7 @@ dictionary
 IdentityProviderIcon
 {
 required
-USVString
+UTF8String
 url
 ;
 unsigned

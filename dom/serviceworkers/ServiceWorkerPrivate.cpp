@@ -1802,7 +1802,7 @@ MapChannelToRequestCredentials
 underlyingChannel
 )
 ;
-nsAutoString
+nsAutoCString
 referrer
 ;
 ReferrerPolicy
