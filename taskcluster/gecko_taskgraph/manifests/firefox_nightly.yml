@@ -4112,6 +4112,12 @@ win64
 -
 shippable
 -
+win64
+-
+aarch64
+-
+shippable
+-
 win32
 -
 shippable
