@@ -1121,12 +1121,6 @@ super
 :
 *
 ;
-use
-std
-:
-:
-env
-;
 #
 [
 test

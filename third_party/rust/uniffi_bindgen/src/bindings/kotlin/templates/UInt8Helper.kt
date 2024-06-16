@@ -74,7 +74,7 @@ value
 UByte
 )
 =
-1
+1UL
 override
 fun
 write

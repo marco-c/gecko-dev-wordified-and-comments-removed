@@ -472,6 +472,11 @@ experimentation_id
 cfg
 .
 experimentation_id
+enable_internal_pings
+:
+cfg
+.
+enable_internal_pings
 }
 ;
 glean_core

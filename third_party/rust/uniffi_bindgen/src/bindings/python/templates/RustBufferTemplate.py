@@ -17,7 +17,7 @@ capacity
 "
 ctypes
 .
-c_int32
+c_uint64
 )
         
 (
@@ -26,7 +26,7 @@ len
 "
 ctypes
 .
-c_int32
+c_uint64
 )
         
 (
@@ -44,6 +44,22 @@ c_char
 )
     
 ]
+    
+staticmethod
+    
+def
+default
+(
+)
+:
+        
+return
+_UniffiRustBuffer
+(
+0
+0
+None
+)
     
 staticmethod
     
@@ -946,31 +962,6 @@ _unpack_from
 "
 >
 d
-"
-)
-    
-def
-read_c_size_t
-(
-self
-)
-:
-        
-return
-self
-.
-_unpack_from
-(
-ctypes
-.
-sizeof
-(
-ctypes
-.
-c_size_t
-)
-"
-N
 "
 )
 class

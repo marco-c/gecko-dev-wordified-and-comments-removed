@@ -74,7 +74,7 @@ value
 UInt
 )
 =
-4
+4UL
 override
 fun
 write

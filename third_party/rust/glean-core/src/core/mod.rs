@@ -885,6 +885,9 @@ InternalPings
 :
 new
 (
+cfg
+.
+enable_internal_pings
 )
 upload_manager
 data_path
@@ -1205,6 +1208,11 @@ schedule_metrics_pings
 =
 cfg
 .
+enable_internal_pings
+&
+&
+cfg
+.
 use_core_mps
 ;
 let
@@ -1247,6 +1255,9 @@ application_id
 &
 str
 upload_enabled
+:
+bool
+enable_internal_pings
 :
 bool
 )
@@ -1316,6 +1327,7 @@ true
 experimentation_id
 :
 None
+enable_internal_pings
 }
 ;
 let

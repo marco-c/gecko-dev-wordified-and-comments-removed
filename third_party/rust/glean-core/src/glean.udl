@@ -550,6 +550,9 @@ string
 ?
 experimentation_id
 ;
+boolean
+enable_internal_pings
+;
 }
 ;
 /

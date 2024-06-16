@@ -109,6 +109,17 @@ microseconds
 staticmethod
     
 def
+check_lower
+(
+value
+)
+:
+        
+pass
+    
+staticmethod
+    
+def
 write
 (
 value
