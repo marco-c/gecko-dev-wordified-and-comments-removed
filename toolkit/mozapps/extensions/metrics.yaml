@@ -2589,6 +2589,10 @@ expires
 telemetry_mirror
 :
 BLOCKLIST_MLBF_SOURCE
+no_lint
+:
+-
+GIFFT_NON_PING_LIFETIME
 mlbf_generation_time
 :
 type

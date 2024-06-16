@@ -366,6 +366,10 @@ technical
 telemetry_mirror
 :
 EXTENSIONS_STARTUPCACHE_LOAD_TIME
+no_lint
+:
+-
+GIFFT_NON_PING_LIFETIME
 startup_cache_read_errors
 :
 type
@@ -452,6 +456,10 @@ technical
 telemetry_mirror
 :
 EXTENSIONS_STARTUPCACHE_READ_ERRORS
+no_lint
+:
+-
+GIFFT_NON_PING_LIFETIME
 startup_cache_write_bytelength
 :
 type
@@ -535,6 +543,10 @@ technical
 telemetry_mirror
 :
 EXTENSIONS_STARTUPCACHE_WRITE_BYTELENGTH
+no_lint
+:
+-
+GIFFT_NON_PING_LIFETIME
 process_event
 :
 type
@@ -762,9 +774,6 @@ startup
 cache
 file
 .
-lifetime
-:
-application
 notification_emails
 :
 -
@@ -875,9 +884,6 @@ startup
 cache
 file
 .
-lifetime
-:
-application
 notification_emails
 :
 -
@@ -984,9 +990,6 @@ startup
 cache
 file
 .
-lifetime
-:
-application
 notification_emails
 :
 -
@@ -1097,9 +1100,6 @@ startup
 cache
 file
 .
-lifetime
-:
-application
 notification_emails
 :
 -
@@ -1301,6 +1301,10 @@ miss
 telemetry_mirror
 :
 EXTENSIONS_APIS_DNR_STARTUP_CACHE_ENTRIES
+no_lint
+:
+-
+GIFFT_NON_PING_LIFETIME
 validate_rules_time
 :
 type
@@ -1338,9 +1342,6 @@ loaded
 from
 disk
 .
-lifetime
-:
-application
 notification_emails
 :
 -
@@ -1450,9 +1451,6 @@ one
 network
 request
 .
-lifetime
-:
-application
 notification_emails
 :
 -
@@ -2311,6 +2309,10 @@ technical
 telemetry_mirror
 :
 EXTENSIONS_QUARANTINEDDOMAINS_LISTSIZE
+no_lint
+:
+-
+GIFFT_NON_PING_LIFETIME
 listhash
 :
 type
@@ -2421,6 +2423,10 @@ technical
 telemetry_mirror
 :
 EXTENSIONS_QUARANTINEDDOMAINS_LISTHASH
+no_lint
+:
+-
+GIFFT_NON_PING_LIFETIME
 remotehash
 :
 type
@@ -2564,6 +2570,10 @@ technical
 telemetry_mirror
 :
 EXTENSIONS_QUARANTINEDDOMAINS_REMOTEHASH
+no_lint
+:
+-
+GIFFT_NON_PING_LIFETIME
 extensions
 .
 counters
@@ -2997,9 +3007,6 @@ the
 onload
 event
 .
-lifetime
-:
-application
 notification_emails
 :
 -
@@ -3101,9 +3108,6 @@ popup
 to
 open
 .
-lifetime
-:
-application
 notification_emails
 :
 -
@@ -3307,9 +3311,6 @@ into
 a
 window
 .
-lifetime
-:
-application
 notification_emails
 :
 -
@@ -3436,9 +3437,6 @@ entire
 addon
 shutdown
 .
-lifetime
-:
-application
 notification_emails
 :
 -
@@ -3541,9 +3539,6 @@ startup
 promise
 resolves
 .
-lifetime
-:
-application
 notification_emails
 :
 -
@@ -3645,9 +3640,6 @@ popup
 to
 open
 .
-lifetime
-:
-application
 notification_emails
 :
 -
@@ -3851,9 +3843,6 @@ the
 JSONFile
 backend
 .
-lifetime
-:
-application
 notification_emails
 :
 -
@@ -4057,9 +4046,6 @@ the
 JSONFile
 backend
 .
-lifetime
-:
-application
 notification_emails
 :
 -
@@ -4263,9 +4249,6 @@ the
 IndexedDB
 backend
 .
-lifetime
-:
-application
 notification_emails
 :
 -
@@ -4469,9 +4452,6 @@ the
 Indexed
 backend
 .
-lifetime
-:
-application
 notification_emails
 :
 -
