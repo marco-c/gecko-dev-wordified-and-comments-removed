@@ -47588,6 +47588,14 @@ DoObserveStyleFlushes
 (
 )
 {
+MOZ_DIAGNOSTIC_ASSERT
+(
+!
+IsDestroying
+(
+)
+)
+;
 MOZ_ASSERT
 (
 !
