@@ -275,18 +275,6 @@ mozilla
 .
 fenix
 .
-compose
-.
-list
-.
-IconListItem
-import
-org
-.
-mozilla
-.
-fenix
-.
 theme
 .
 FirefoxTheme
@@ -646,7 +634,7 @@ dp
 {
 MenuGroup
 {
-IconListItem
+MenuItem
 (
 label
 =
@@ -683,7 +671,7 @@ colors
 .
 borderSecondary
 )
-IconListItem
+MenuItem
 (
 label
 =
@@ -765,7 +753,7 @@ Unit
 {
 MenuGroup
 {
-IconListItem
+MenuItem
 (
 label
 =
@@ -805,7 +793,7 @@ colors
 .
 borderSecondary
 )
-IconListItem
+MenuItem
 (
 label
 =
@@ -845,7 +833,7 @@ colors
 .
 borderSecondary
 )
-IconListItem
+MenuItem
 (
 label
 =
@@ -885,7 +873,7 @@ colors
 .
 borderSecondary
 )
-IconListItem
+MenuItem
 (
 label
 =
