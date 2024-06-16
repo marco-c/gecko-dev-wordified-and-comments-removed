@@ -1222,17 +1222,6 @@ network_state_estimate_observer
 ;
 configuration
 .
-transport_feedback_callback
-=
-transport
--
->
-transport_feedback_observer
-(
-)
-;
-configuration
-.
 rtt_stats
 =
 observers

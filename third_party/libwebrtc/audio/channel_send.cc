@@ -1920,17 +1920,6 @@ GetRtcpObserver
 ;
 configuration
 .
-transport_feedback_callback
-=
-transport_controller
--
->
-transport_feedback_observer
-(
-)
-;
-configuration
-.
 clock
 =
 clock
