@@ -1773,6 +1773,10 @@ VideoCodecStats
 >
 RunEncodeTest
 (
+const
+Environment
+&
+env
 std
 :
 :
@@ -1991,6 +1995,7 @@ VideoCodecTester
 :
 RunEncodeTest
 (
+env
 source_settings
 encoder_factory
 .
@@ -2707,6 +2712,14 @@ GetParam
 (
 )
 ;
+const
+Environment
+env
+=
+CreateEnvironment
+(
+)
+;
 int
 duration_s
 =
@@ -2835,6 +2848,7 @@ stats
 =
 RunEncodeTest
 (
+env
 codec_type
 codec_impl
 video_info
@@ -3231,6 +3245,14 @@ GetParam
 (
 )
 ;
+const
+Environment
+env
+=
+CreateEnvironment
+(
+)
+;
 int
 duration_s
 =
@@ -3359,6 +3381,7 @@ stats
 =
 RunEncodeTest
 (
+env
 codec_type
 codec_impl
 video_info

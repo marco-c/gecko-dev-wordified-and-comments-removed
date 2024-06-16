@@ -1768,6 +1768,10 @@ VideoQualityTest
 CreateVideoEncoder
 (
 const
+Environment
+&
+env
+const
 SdpVideoFormat
 &
 format
@@ -1849,8 +1853,9 @@ encoder
 encoder_factory_
 -
 >
-CreateVideoEncoder
+Create
 (
+env
 format
 )
 ;
@@ -2205,6 +2210,10 @@ this
 ]
 (
 const
+Environment
+&
+env
+const
 SdpVideoFormat
 &
 format
@@ -2216,6 +2225,7 @@ this
 >
 CreateVideoEncoder
 (
+env
 format
 nullptr
 )
@@ -2229,6 +2239,10 @@ this
 ]
 (
 const
+Environment
+&
+env
+const
 SdpVideoFormat
 &
 format
@@ -2240,6 +2254,7 @@ this
 >
 CreateVideoEncoder
 (
+env
 format
 analyzer_
 .
