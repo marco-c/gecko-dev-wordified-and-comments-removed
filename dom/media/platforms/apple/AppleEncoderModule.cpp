@@ -152,12 +152,12 @@ if
 aConfig
 .
 mScalabilityMode
-!
+=
 =
 ScalabilityMode
 :
 :
-None
+L1T3
 )
 {
 return
