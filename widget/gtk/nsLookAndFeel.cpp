@@ -4038,6 +4038,12 @@ ColorID
 :
 Marktext
 :
+case
+ColorID
+:
+:
+MozAutofillBackground
+:
 aColor
 =
 GetStandinForNativeColor

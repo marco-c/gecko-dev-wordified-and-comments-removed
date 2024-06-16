@@ -1761,6 +1761,12 @@ ColorID
 :
 Inactiveborder
 :
+case
+ColorID
+:
+:
+MozAutofillBackground
+:
 aColor
 =
 GetStandinForNativeColor

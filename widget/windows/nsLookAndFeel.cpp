@@ -1805,6 +1805,12 @@ ColorID
 :
 SpellCheckerUnderline
 :
+case
+ColorID
+:
+:
+MozAutofillBackground
+:
 aColor
 =
 GetStandinForNativeColor
