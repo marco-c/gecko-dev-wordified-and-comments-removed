@@ -4,6 +4,7 @@ from
 collections
 import
 OrderedDict
+defaultdict
 from
 mozunit
 import
@@ -18,8 +19,6 @@ import
 KeyedDefaultDict
     
 List
-    
-OrderedDefaultDict
     
 ReadOnlyDefaultDict
     
@@ -860,7 +859,7 @@ bar
         
 test
 =
-OrderedDefaultDict
+defaultdict
 (
 bool
 original
@@ -914,7 +913,7 @@ self
         
 test
 =
-OrderedDefaultDict
+defaultdict
 (
 bool
 {

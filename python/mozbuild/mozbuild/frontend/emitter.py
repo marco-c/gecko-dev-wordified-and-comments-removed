@@ -52,7 +52,6 @@ mozbuild
 .
 util
 import
-OrderedDefaultDict
 memoize
 from
 .
@@ -285,7 +284,7 @@ self
 .
 _libs
 =
-OrderedDefaultDict
+defaultdict
 (
 list
 )

@@ -171,7 +171,6 @@ from
 util
 import
 FileAvoidWrite
-OrderedDefaultDict
 ensureParentDir
 pairwise
 from
@@ -2058,7 +2057,7 @@ self
 .
 _compile_graph
 =
-OrderedDefaultDict
+defaultdict
 (
 set
 )
@@ -5101,7 +5100,7 @@ defaultdict
 (
 lambda
 :
-OrderedDefaultDict
+defaultdict
 (
 set
 )
