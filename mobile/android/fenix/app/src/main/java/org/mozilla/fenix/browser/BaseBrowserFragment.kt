@@ -2130,15 +2130,7 @@ BrowserToolbarInteractor
 ?
 =
 null
-VisibleForTesting
-(
-otherwise
-=
-VisibleForTesting
-.
-PROTECTED
-)
-internal
+protected
 val
 browserToolbarInteractor
 :
