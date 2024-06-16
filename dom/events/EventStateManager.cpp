@@ -8830,6 +8830,17 @@ mMessage
 ePointerClick
 )
 ;
+MOZ_ASSERT
+(
+aEvent
+-
+>
+mMessage
+!
+=
+ePointerAuxClick
+)
+;
 AutoRestore
 <
 LayoutDeviceIntPoint

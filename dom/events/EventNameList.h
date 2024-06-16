@@ -382,6 +382,15 @@ EVENT
 auxclick
 ePointerAuxClick
 EventNameType_All
+StaticPrefs
+:
+:
+dom_w3c_pointer_events_dispatch_click_as_pointer_event
+(
+)
+?
+ePointerEventClass
+:
 eMouseEventClass
 )
 EVENT
