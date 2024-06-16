@@ -3165,6 +3165,11 @@ const
 extensions
 =
 [
+codemirrorLanguage
+.
+bracketMatching
+(
+)
 indentCompartment
 .
 of
