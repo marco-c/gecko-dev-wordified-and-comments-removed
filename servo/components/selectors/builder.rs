@@ -35,10 +35,7 @@ use
 smallvec
 :
 :
-{
-self
 SmallVec
-}
 ;
 use
 std
