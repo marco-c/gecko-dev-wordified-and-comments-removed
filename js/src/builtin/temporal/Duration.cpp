@@ -12778,7 +12778,7 @@ totalNanoseconds
 =
 duration
 .
-toTotalNanoseconds
+toNanoseconds
 (
 )
 ;
@@ -12841,7 +12841,7 @@ numerator
 =
 duration
 .
-toTotalNanoseconds
+toNanoseconds
 (
 )
 ;

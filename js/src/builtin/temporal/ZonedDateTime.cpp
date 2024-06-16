@@ -4437,7 +4437,7 @@ dayLengthNanos
 =
 dayLengthNs
 .
-toTotalNanoseconds
+toNanoseconds
 (
 )
 ;
@@ -4469,7 +4469,7 @@ timeNanos
 =
 ns
 .
-toTotalNanoseconds
+toNanoseconds
 (
 )
 ;
