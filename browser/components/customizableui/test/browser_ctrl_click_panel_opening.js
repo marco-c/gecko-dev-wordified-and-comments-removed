@@ -45,7 +45,7 @@ mainViewID
 "
 appMenu
 -
-protonMainView
+mainView
 "
 ;
 const

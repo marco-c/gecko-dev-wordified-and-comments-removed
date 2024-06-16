@@ -4002,7 +4002,7 @@ document
 "
 appMenu
 -
-protonMainView
+mainView
 "
 )
 ;
@@ -4037,8 +4037,6 @@ getViewNode
 document
 "
 appMenu
--
-proton
 -
 addon
 -
