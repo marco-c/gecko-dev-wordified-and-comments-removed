@@ -1492,6 +1492,15 @@ fallthrough
 ]
 ;
 case
+ERROR_INVALID_FUNCTION
+:
+[
+[
+fallthrough
+]
+]
+;
+case
 ERROR_IO_DEVICE
 :
 rv
