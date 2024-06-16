@@ -46493,13 +46493,6 @@ name
 "
 micro_survey_submit_button_label
 "
-tools
-:
-ignore
-=
-"
-UnusedResources
-"
 >
 Submit
 <
@@ -46524,6 +46517,13 @@ name
 =
 "
 micro_survey_close_button_label
+"
+tools
+:
+ignore
+=
+"
+UnusedResources
 "
 >
 Close
