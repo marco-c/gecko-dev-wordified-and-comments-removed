@@ -537,6 +537,7 @@ asm
 .
 h
 "
+pixman_syntax_unified
 /
 *
 *

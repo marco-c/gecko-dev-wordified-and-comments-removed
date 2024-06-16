@@ -221,19 +221,6 @@ org
 *
 *
 /
-#
-ifdef
-__clang__
-#
-define
-adceqs
-adcseq
-#
-define
-ldmnedb
-ldmdbne
-#
-endif
 /
 *
 Prevent
@@ -309,6 +296,7 @@ asm
 .
 h
 "
+pixman_syntax_unified
 /
 *
 A
@@ -818,6 +806,7 @@ ARGS_STACK_OFFSET
 orr
 SRC
 SRC
+SRC
 lsl
 #
 16
@@ -845,10 +834,12 @@ ARGS_STACK_OFFSET
 orr
 SRC
 SRC
+SRC
 lsl
 #
 8
 orr
+SRC
 SRC
 SRC
 lsl
@@ -7809,7 +7800,7 @@ all
 ?
 *
 /
-ldmnedb
+ldmdbne
 DST
 {
 WK
@@ -7869,7 +7860,7 @@ all
 ?
 *
 /
-ldmnedb
+ldmdbne
 DST
 {
 WK

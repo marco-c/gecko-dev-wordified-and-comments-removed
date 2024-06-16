@@ -292,23 +292,6 @@ pixman_composite_over_8888_0565_asm_neon
 pixman_composite_over_n_8_0565_asm_neon
 *
 /
-#
-ifdef
-__clang__
-#
-define
-ldrgeb
-ldrbge
-#
-define
-subges
-subsge
-#
-define
-subpls
-subspl
-#
-endif
 /
 *
 Prevent
@@ -422,6 +405,7 @@ asm
 .
 h
 "
+pixman_syntax_unified
 /
 *
 Global
@@ -2355,7 +2339,7 @@ q12
 #
 8
 PF
-subges
+subsge
 PF_CTL
 PF_CTL
 #
@@ -2368,7 +2352,7 @@ q9
 #
 11
 PF
-ldrgeb
+ldrbge
 DUMMY
 [
 PF_SRC
@@ -2391,7 +2375,7 @@ d23
 q11
 q3
 PF
-ldrgeb
+ldrbge
 DUMMY
 [
 PF_DST
@@ -3553,7 +3537,7 @@ PF_X
 PF_X
 ORIG_W
 PF
-subges
+subsge
 PF_CTL
 PF_CTL
 #
@@ -3566,7 +3550,7 @@ d2
 #
 8
 PF
-ldrgeb
+ldrbge
 DUMMY
 [
 PF_SRC
@@ -4033,7 +4017,7 @@ PF_X
 PF_X
 ORIG_W
 PF
-subges
+subsge
 PF_CTL
 PF_CTL
 #
@@ -4045,7 +4029,7 @@ q14
 q0
 q2
 PF
-ldrgeb
+ldrbge
 DUMMY
 [
 PF_SRC
@@ -4056,7 +4040,7 @@ src_bpp_shift
 ]
 !
 PF
-ldrgeb
+ldrbge
 DUMMY
 [
 PF_DST
@@ -4279,7 +4263,7 @@ PF_X
 PF_X
 ORIG_W
 PF
-subges
+subsge
 PF_CTL
 PF_CTL
 #
@@ -4291,7 +4275,7 @@ q14
 q0
 q2
 PF
-ldrgeb
+ldrbge
 DUMMY
 [
 PF_SRC
@@ -4302,7 +4286,7 @@ src_bpp_shift
 ]
 !
 PF
-ldrgeb
+ldrbge
 DUMMY
 [
 PF_DST
@@ -4737,7 +4721,7 @@ q9
 d22
 d5
 PF
-ldrgeb
+ldrbge
 DUMMY
 [
 PF_SRC
@@ -4754,7 +4738,7 @@ q10
 d22
 d6
 PF
-ldrgeb
+ldrbge
 DUMMY
 [
 PF_DST
@@ -5070,7 +5054,7 @@ q8
 d22
 d4
 PF
-subges
+subsge
 PF_CTL
 PF_CTL
 #
@@ -5082,7 +5066,7 @@ q9
 d22
 d5
 PF
-ldrgeb
+ldrbge
 DUMMY
 [
 PF_SRC
@@ -5099,7 +5083,7 @@ q10
 d22
 d6
 PF
-ldrgeb
+ldrbge
 DUMMY
 [
 PF_DST
@@ -5550,7 +5534,7 @@ q10
 d24
 d6
 PF
-subges
+subsge
 PF_CTL
 PF_CTL
 #
@@ -5562,7 +5546,7 @@ q11
 d24
 d7
 PF
-ldrgeb
+ldrbge
 DUMMY
 [
 PF_DST
@@ -5927,7 +5911,7 @@ q8
 d22
 d4
 PF
-subges
+subsge
 PF_CTL
 PF_CTL
 #
@@ -5945,7 +5929,7 @@ q10
 d22
 d6
 PF
-ldrgeb
+ldrbge
 DUMMY
 [
 PF_DST
@@ -8876,7 +8860,7 @@ q10
 d24
 d2
 PF
-subges
+subsge
 PF_CTL
 PF_CTL
 #
@@ -8888,7 +8872,7 @@ q11
 d24
 d3
 PF
-ldrgeb
+ldrbge
 DUMMY
 [
 PF_MASK
@@ -9307,7 +9291,7 @@ q2
 d26
 d16
 PF
-subges
+subsge
 PF_CTL
 PF_CTL
 #
@@ -9319,7 +9303,7 @@ q3
 d27
 d16
 PF
-ldrgeb
+ldrbge
 DUMMY
 [
 PF_MASK
@@ -9964,7 +9948,7 @@ q8
 d24
 d10
 PF
-subges
+subsge
 PF_CTL
 PF_CTL
 #
@@ -9976,7 +9960,7 @@ q9
 d24
 d11
 PF
-ldrgeb
+ldrbge
 DUMMY
 [
 PF_DST
@@ -9993,7 +9977,7 @@ q14
 q0
 q14
 PF
-ldrgeb
+ldrbge
 DUMMY
 [
 PF_MASK
@@ -16363,13 +16347,13 @@ PF_X
 PF_X
 ORIG_W
 PF
-subges
+subsge
 PF_CTL
 PF_CTL
 #
 0x10
 PF
-ldrgeb
+ldrbge
 DUMMY
 [
 PF_SRC
@@ -16722,13 +16706,13 @@ PF_X
 PF_X
 ORIG_W
 PF
-subges
+subsge
 PF_CTL
 PF_CTL
 #
 0x10
 PF
-ldrgeb
+ldrbge
 DUMMY
 [
 PF_SRC
@@ -20887,6 +20871,7 @@ OUT
 1
 <
 <
+\
 dst_bpp_shift
 )
 beq
@@ -20957,6 +20942,7 @@ OUT
 <
 <
 (
+\
 dst_bpp_shift
 +
 1
@@ -21037,6 +21023,7 @@ OUT
 <
 <
 (
+\
 dst_bpp_shift
 +
 2

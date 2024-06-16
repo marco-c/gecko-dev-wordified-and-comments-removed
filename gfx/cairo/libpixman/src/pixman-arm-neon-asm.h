@@ -1790,7 +1790,7 @@ VX
 UNIT_X
 5
 :
-subpls
+subspl
 VX
 VX
 SRC_WIDTH_FIXED
@@ -1816,7 +1816,7 @@ VX
 UNIT_X
 5
 :
-subpls
+subspl
 VX
 VX
 SRC_WIDTH_FIXED
@@ -1864,7 +1864,7 @@ VX
 UNIT_X
 5
 :
-subpls
+subspl
 VX
 VX
 SRC_WIDTH_FIXED
@@ -1912,7 +1912,7 @@ VX
 UNIT_X
 5
 :
-subpls
+subspl
 VX
 VX
 SRC_WIDTH_FIXED
@@ -1989,7 +1989,7 @@ VX
 UNIT_X
 5
 :
-subpls
+subspl
 VX
 VX
 SRC_WIDTH_FIXED
@@ -2015,7 +2015,7 @@ VX
 UNIT_X
 5
 :
-subpls
+subspl
 VX
 VX
 SRC_WIDTH_FIXED
@@ -2306,7 +2306,7 @@ VX
 UNIT_X
 5
 :
-subpls
+subspl
 VX
 VX
 SRC_WIDTH_FIXED
@@ -2362,7 +2362,7 @@ VX
 UNIT_X
 5
 :
-subpls
+subspl
 VX
 VX
 SRC_WIDTH_FIXED
@@ -3129,7 +3129,7 @@ PF_X
 PF_X
 ORIG_W
 PF
-subges
+subsge
 PF_CTL
 PF_CTL
 #
@@ -3141,7 +3141,7 @@ src_bpp_shift
 =
 0
 PF
-ldrgeb
+ldrbge
 DUMMY
 [
 PF_SRC
@@ -3160,7 +3160,7 @@ dst_r_bpp
 =
 0
 PF
-ldrgeb
+ldrbge
 DUMMY
 [
 PF_DST
@@ -3179,7 +3179,7 @@ mask_bpp_shift
 =
 0
 PF
-ldrgeb
+ldrbge
 DUMMY
 [
 PF_MASK
@@ -3314,13 +3314,6 @@ lowbit
 4
 8
 16
-#
-ifndef
-__clang__
-local
-skip1
-#
-endif
 .
 if
 (

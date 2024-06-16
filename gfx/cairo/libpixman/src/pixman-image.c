@@ -4,6 +4,8 @@ HAVE_CONFIG_H
 #
 include
 <
+pixman
+-
 config
 .
 h
@@ -2285,6 +2287,7 @@ pixman_image_set_clip_region32
 pixman_image_t
 *
 image
+const
 pixman_region32_t
 *
 region
@@ -2362,6 +2365,7 @@ pixman_image_set_clip_region
 pixman_image_t
 *
 image
+const
 pixman_region16_t
 *
 region
