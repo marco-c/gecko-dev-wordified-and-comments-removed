@@ -10826,12 +10826,6 @@ case
 CacheKind
 :
 :
-TypeOfEq
-:
-case
-CacheKind
-:
-:
 ToPropertyKey
 :
 case

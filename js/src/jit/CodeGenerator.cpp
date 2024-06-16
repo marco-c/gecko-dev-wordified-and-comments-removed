@@ -6054,12 +6054,6 @@ case
 CacheKind
 :
 :
-TypeOfEq
-:
-case
-CacheKind
-:
-:
 ToBool
 :
 case

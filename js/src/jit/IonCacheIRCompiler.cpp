@@ -3327,12 +3327,6 @@ case
 CacheKind
 :
 :
-TypeOfEq
-:
-case
-CacheKind
-:
-:
 ToBool
 :
 case
@@ -3976,12 +3970,6 @@ CacheKind
 :
 :
 TypeOf
-:
-case
-CacheKind
-:
-:
-TypeOfEq
 :
 case
 CacheKind

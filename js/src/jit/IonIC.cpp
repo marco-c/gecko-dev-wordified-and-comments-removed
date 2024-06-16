@@ -519,12 +519,6 @@ case
 CacheKind
 :
 :
-TypeOfEq
-:
-case
-CacheKind
-:
-:
 ToBool
 :
 case
@@ -2340,8 +2334,6 @@ false
 }
 if
 (
-IsTypeOfNameOp
-(
 JSOp
 (
 *
@@ -2350,7 +2342,12 @@ GetNextPc
 pc
 )
 )
-)
+=
+=
+JSOp
+:
+:
+Typeof
 )
 {
 return

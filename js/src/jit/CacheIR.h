@@ -764,11 +764,6 @@ TypeOf
 \
 _
 (
-TypeOfEq
-)
-\
-_
-(
 ToPropertyKey
 )
 \
