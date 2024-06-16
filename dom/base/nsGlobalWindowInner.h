@@ -353,9 +353,6 @@ class
 nsIDOMWindowUtils
 ;
 class
-nsIScrollableFrame
-;
-class
 nsIControllers
 ;
 class
@@ -417,6 +414,9 @@ mozilla
 {
 class
 AbstractThread
+;
+class
+ScrollContainerFrame
 ;
 class
 ErrorResult
@@ -1833,9 +1833,12 @@ return
 mIsChrome
 ;
 }
-nsIScrollableFrame
+mozilla
+:
+:
+ScrollContainerFrame
 *
-GetScrollFrame
+GetScrollContainerFrame
 (
 )
 ;

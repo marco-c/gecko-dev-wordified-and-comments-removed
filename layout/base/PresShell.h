@@ -1240,13 +1240,6 @@ GetRootScrollContainerFrame
 )
 const
 ;
-nsIScrollableFrame
-*
-GetRootScrollFrameAsScrollable
-(
-)
-const
-;
 already_AddRefed
 <
 nsIContent

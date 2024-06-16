@@ -18724,14 +18724,14 @@ nsIFrame
 >
 frames
 ;
-nsIScrollableFrame
+ScrollContainerFrame
 *
 sf
 =
 presShell
 -
 >
-GetRootScrollFrameAsScrollable
+GetRootScrollContainerFrame
 (
 )
 ;
