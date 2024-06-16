@@ -1535,6 +1535,8 @@ key
 =
 {
 name
+.
+string
 }
 data
 -
