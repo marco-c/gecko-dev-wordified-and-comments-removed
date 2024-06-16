@@ -1347,6 +1347,14 @@ record
 =
 record
 ;
+return
+this
+.
+lines
+[
+index
+]
+;
 }
 *
 enumerateLinesForMatchingRecords
