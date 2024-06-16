@@ -5157,8 +5157,6 @@ emplace_back
 (
 uri
 id
-+
-+
 webrtc
 :
 :
@@ -5181,8 +5179,6 @@ RtpExtension
 :
 kGenericFrameDescriptorUri00
 id
-+
-+
 IsEnabled
 (
 trials_
@@ -5222,8 +5218,6 @@ RtpExtension
 :
 kDependencyDescriptorUri
 id
-+
-+
 IsEnabled
 (
 trials_
@@ -5263,8 +5257,6 @@ RtpExtension
 :
 kVideoLayersAllocationUri
 id
-+
-+
 IsEnabled
 (
 trials_
@@ -5317,8 +5309,6 @@ RtpExtension
 :
 kVideoFrameTrackingIdUri
 id
-+
-+
 webrtc
 :
 :
