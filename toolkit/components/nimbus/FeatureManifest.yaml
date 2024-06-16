@@ -6824,9 +6824,6 @@ com
 hasExposure
 :
 false
-isEarlyStartup
-:
-true
 variables
 :
 disablePin
@@ -6846,7 +6843,12 @@ setDefaultBrowserUserChoice
 type
 :
 boolean
-fallbackPref
+setPref
+:
+branch
+:
+user
+pref
 :
 browser
 .
