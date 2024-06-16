@@ -13,6 +13,13 @@ types
 .
 h
 >
+#
+include
+<
+stdint
+.
+h
+>
 struct
 iovec
 ;
@@ -58,6 +65,9 @@ mOp
 ;
 int
 mFlags
+;
+uint64_t
+mId
 ;
 size_t
 mBufSize

@@ -492,6 +492,8 @@ int
 aOp
 int
 aFlags
+uint64_t
+aId
 int
 aPerms
 const
@@ -507,6 +509,8 @@ int
 aOp
 int
 aFlags
+uint64_t
+aId
 int
 aPerms
 const
