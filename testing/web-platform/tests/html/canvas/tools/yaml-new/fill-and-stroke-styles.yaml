@@ -19,7 +19,7 @@ from
 the
 canvas
 element
-canvasType
+canvas_types
 :
 [
 '
@@ -112,7 +112,7 @@ when
 it
 is
 painted
-canvasType
+canvas_types
 :
 [
 '
@@ -220,7 +220,7 @@ not
 in
 a
 document
-canvasType
+canvas_types
 :
 [
 '
@@ -1055,7 +1055,7 @@ canvas_type
 =
 =
 '
-worker
+Worker
 '
 else
 '
@@ -1132,7 +1132,7 @@ canvas_type
 =
 =
 '
-worker
+Worker
 '
 else
 '
@@ -4305,7 +4305,7 @@ variants
 -
 _HtmlCanvas
 :
-canvasType
+canvas_types
 :
 [
 '
@@ -4324,7 +4324,7 @@ canvas
 )
 _OffscreenCanvas
 :
-canvasType
+canvas_types
 :
 [
 '
@@ -4352,7 +4352,7 @@ gradient
 object
 .
 current
-canvasType
+canvas_types
 :
 [
 '
@@ -10394,7 +10394,7 @@ canvas_type
 =
 =
 '
-worker
+Worker
 '
 else
 '
@@ -10467,7 +10467,7 @@ definition
 -
 _HtmlCanvas
 :
-canvasType
+canvas_types
 :
 [
 '
@@ -10501,7 +10501,7 @@ svgimages
 ;
 _OffscreenCanvas
 :
-canvasType
+canvas_types
 :
 [
 '
@@ -10906,7 +10906,7 @@ definition
 -
 _HtmlCanvas
 :
-canvasType
+canvas_types
 :
 [
 '
@@ -10943,7 +10943,7 @@ height
 ;
 _OffscreenCanvas
 :
-canvasType
+canvas_types
 :
 [
 '
@@ -11703,7 +11703,7 @@ image
 incomplete
 .
 nosrc
-canvasType
+canvas_types
 :
 [
 '
@@ -11748,7 +11748,7 @@ image
 incomplete
 .
 immediate
-canvasType
+canvas_types
 :
 [
 '
@@ -11869,7 +11869,7 @@ image
 incomplete
 .
 reload
-canvasType
+canvas_types
 :
 [
 '
@@ -12012,7 +12012,7 @@ image
 incomplete
 .
 emptysrc
-canvasType
+canvas_types
 :
 [
 '
@@ -12087,7 +12087,7 @@ image
 incomplete
 .
 removedsrc
-canvasType
+canvas_types
 :
 [
 '
@@ -12162,7 +12162,7 @@ pattern
 image
 .
 broken
-canvasType
+canvas_types
 :
 [
 '
@@ -12215,7 +12215,7 @@ pattern
 image
 .
 nonexistent
-canvasType
+canvas_types
 :
 [
 '
@@ -12280,7 +12280,7 @@ pattern
 svgimage
 .
 nonexistent
-canvasType
+canvas_types
 :
 [
 '
@@ -12349,7 +12349,7 @@ nonexistent
 but
 -
 loading
-canvasType
+canvas_types
 :
 [
 '
@@ -12476,7 +12476,7 @@ pattern
 image
 .
 nosrc
-canvasType
+canvas_types
 :
 [
 '
@@ -12565,7 +12565,7 @@ pattern
 image
 .
 zerowidth
-canvasType
+canvas_types
 :
 [
 '
@@ -12624,7 +12624,7 @@ pattern
 image
 .
 zeroheight
-canvasType
+canvas_types
 :
 [
 '
@@ -12683,7 +12683,7 @@ pattern
 svgimage
 .
 zerowidth
-canvasType
+canvas_types
 :
 [
 '
@@ -12742,7 +12742,7 @@ pattern
 svgimage
 .
 zeroheight
-canvasType
+canvas_types
 :
 [
 '
@@ -13086,7 +13086,7 @@ pattern
 modify
 .
 image1
-canvasType
+canvas_types
 :
 [
 '
@@ -13236,7 +13236,7 @@ pattern
 modify
 .
 image2
-canvasType
+canvas_types
 :
 [
 '
@@ -13421,7 +13421,7 @@ pattern
 modify
 .
 canvas1
-canvasType
+canvas_types
 :
 [
 '
@@ -13867,7 +13867,7 @@ variants
 -
 _HtmlCanvas
 :
-canvasType
+canvas_types
 :
 [
 '
@@ -13907,7 +13907,7 @@ canvas
 )
 _OffscreenCanvas
 :
-canvasType
+canvas_types
 :
 [
 '
@@ -16836,7 +16836,7 @@ draws
 the
 first
 frame
-canvasType
+canvas_types
 :
 [
 '
@@ -16975,7 +16975,7 @@ works
 as
 color
 input
-canvasType
+canvas_types
 :
 [
 '
@@ -17303,7 +17303,7 @@ works
 as
 color
 input
-canvasType
+canvas_types
 :
 [
 '
@@ -17575,7 +17575,7 @@ works
 as
 color
 input
-canvasType
+canvas_types
 :
 [
 '
@@ -17688,7 +17688,7 @@ color
 input
 with
 currentcolor
-canvasType
+canvas_types
 :
 [
 '
@@ -17803,7 +17803,7 @@ works
 as
 color
 input
-canvasType
+canvas_types
 :
 [
 '

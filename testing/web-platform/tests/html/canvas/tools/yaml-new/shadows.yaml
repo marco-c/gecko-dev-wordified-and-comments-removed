@@ -879,7 +879,7 @@ from
 the
 canvas
 element
-canvasType
+canvas_types
 :
 [
 '
@@ -949,7 +949,7 @@ when
 it
 is
 painted
-canvasType
+canvas_types
 :
 [
 '
@@ -1030,7 +1030,7 @@ not
 in
 a
 document
-canvasType
+canvas_types
 :
 [
 '
@@ -3783,7 +3783,7 @@ definition
 -
 _HtmlCanvas
 :
-canvasType
+canvas_types
 :
 [
 '
@@ -3813,7 +3813,7 @@ images
 ;
 _OffscreenCanvas
 :
-canvasType
+canvas_types
 :
 [
 '
@@ -4666,7 +4666,7 @@ definition
 -
 _HtmlCanvas
 :
-canvasType
+canvas_types
 :
 [
 '
@@ -4703,7 +4703,7 @@ height
 ;
 _OffscreenCanvas
 :
-canvasType
+canvas_types
 :
 [
 '

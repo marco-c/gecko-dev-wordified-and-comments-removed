@@ -303,11 +303,11 @@ CanvasFilter
 (
 )
 object
-canvasType
+canvas_types
 :
 [
 '
-HTMLCanvas
+HtmlCanvas
 '
 ]
 code
@@ -631,7 +631,7 @@ CanvasFilter
 (
 )
 object
-canvasType
+canvas_types
 :
 [
 '

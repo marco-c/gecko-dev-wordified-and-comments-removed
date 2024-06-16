@@ -414,7 +414,7 @@ size
 144px
 "
 '
-canvasType
+canvas_types
 :
 [
 '
@@ -496,7 +496,7 @@ size
 percentage
 .
 default
-canvasType
+canvas_types
 :
 [
 '
@@ -1028,11 +1028,11 @@ text
 font
 .
 relative_size
-canvasType
+canvas_types
 :
 [
 '
-HTMLCanvas
+HtmlCanvas
 '
 ]
 code
@@ -1097,7 +1097,7 @@ text
 font
 .
 relative_size
-canvasType
+canvas_types
 :
 [
 '
@@ -1914,7 +1914,7 @@ definition
 -
 _HtmlCanvas
 :
-canvasType
+canvas_types
 :
 [
 '
@@ -1934,7 +1934,7 @@ ready
 ;
 _OffscreenCanvas
 :
-canvasType
+canvas_types
 :
 [
 '
@@ -2005,7 +2005,7 @@ canvas_type
 =
 =
 '
-worker
+Worker
 '
 else
 '
@@ -6576,7 +6576,7 @@ canvas_type
 !
 =
 '
-htmlcanvas
+HtmlCanvas
 '
 %
 }
@@ -6789,7 +6789,7 @@ canvas_type
 !
 =
 '
-htmlcanvas
+HtmlCanvas
 '
 %
 }
@@ -7002,7 +7002,7 @@ canvas_type
 !
 =
 '
-htmlcanvas
+HtmlCanvas
 '
 %
 }
@@ -7215,7 +7215,7 @@ canvas_type
 !
 =
 '
-htmlcanvas
+HtmlCanvas
 '
 %
 }

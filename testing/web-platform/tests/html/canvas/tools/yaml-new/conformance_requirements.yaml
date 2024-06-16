@@ -28,11 +28,11 @@ IDL
 (
 draft
 )
-canvasType
+canvas_types
 :
 [
 '
-HTMLCanvas
+HtmlCanvas
 '
 ]
 code
@@ -1744,11 +1744,11 @@ images
 yellow
 .
 png
-canvasType
+canvas_types
 :
 [
 '
-HTMLCanvas
+HtmlCanvas
 '
 ]
 code
