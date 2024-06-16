@@ -218,6 +218,11 @@ attribute
 DOMString
 type
 ;
+readonly
+attribute
+DOMString
+direction
+;
 /
 *
 *

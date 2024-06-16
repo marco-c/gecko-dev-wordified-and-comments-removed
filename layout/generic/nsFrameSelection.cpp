@@ -6811,11 +6811,11 @@ MOUSEUP_REASON
 ;
 AutoRestore
 <
-bool
+ClickSelectionType
 >
-restoreIsDoubleClickSelectionFlag
+restoreClickSelectionType
 (
-mIsDoubleClickSelection
+mClickSelectionType
 )
 ;
 NotifySelectionListeners
