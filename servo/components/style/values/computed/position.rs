@@ -137,6 +137,8 @@ position
 {
 AnchorName
 AnchorScope
+InsetArea
+InsetAreaKeyword
 PositionAnchor
 PositionVisibility
 }

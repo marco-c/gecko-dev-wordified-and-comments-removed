@@ -3318,6 +3318,14 @@ Integer
 "
                 
 "
+InsetArea
+"
+                
+"
+InsetAreaKeyword
+"
+                
+"
 JustifyContent
 "
                 
