@@ -160,6 +160,14 @@ isWebgl2
 )
 const
 {
+if
+(
+!
+kIsDebug
+)
+return
+true
+;
 auto
 actual
 =
