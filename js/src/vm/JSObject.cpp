@@ -15268,7 +15268,6 @@ name
 slot
 )
 {
-\
 slotname
 =
 #
