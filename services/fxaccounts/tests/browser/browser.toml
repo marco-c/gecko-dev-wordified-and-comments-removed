@@ -14,13 +14,6 @@ js
 ]
 [
 "
-browser_closetab_notification
-.
-js
-"
-]
-[
-"
 browser_device_connected
 .
 js
