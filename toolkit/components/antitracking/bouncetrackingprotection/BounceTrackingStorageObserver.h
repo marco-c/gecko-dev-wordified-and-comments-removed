@@ -51,6 +51,11 @@ BounceTrackingStorageObserver
 =
 default
 ;
+[
+[
+nodiscard
+]
+]
 nsresult
 Init
 (
