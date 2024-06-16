@@ -1610,6 +1610,7 @@ _notifyObservers
 )
 ;
 }
+async
 _onPrefUpdate
 (
 pref
@@ -1696,6 +1697,7 @@ _notifyObservers
 (
 )
 ;
+await
 this
 .
 _notifyStripOnShareObservers
