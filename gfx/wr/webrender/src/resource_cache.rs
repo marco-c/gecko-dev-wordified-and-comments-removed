@@ -9301,7 +9301,7 @@ key
 [
 cfg
 (
-features
+feature
 =
 "
 leak_checks
@@ -9319,7 +9319,7 @@ cfg
 (
 not
 (
-features
+feature
 =
 "
 leak_checks
