@@ -320,13 +320,6 @@ html
 ]
 [
 "
-test_bug869314
-.
-html
-"
-]
-[
-"
 test_bug903715
 .
 html
