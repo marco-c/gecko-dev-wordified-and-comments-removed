@@ -415,12 +415,11 @@ False
 }
 [
 ]
-None
 ]
 )
 async
 def
-test_params_origin_invalid_type
+test_params_user_context_invalid_type
 (
 bidi_session
 user_context
