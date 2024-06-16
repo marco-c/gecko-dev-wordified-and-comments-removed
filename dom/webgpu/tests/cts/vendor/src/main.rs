@@ -78,7 +78,6 @@ fs
 {
 copy_dir
 create_dir_all
-existing_file
 remove_file
 FileRoot
 }
