@@ -5895,6 +5895,9 @@ baseDomain
 long
 port
 ;
+boolean
+foreignByAncestorContext
+;
 }
 ;
 dictionary
