@@ -17292,6 +17292,17 @@ storeCallPointerResult
 scratch2
 )
 ;
+MOZ_ASSERT
+(
+!
+save
+.
+has
+(
+scratch2
+)
+)
+;
 PopRegsInMask
 (
 save
