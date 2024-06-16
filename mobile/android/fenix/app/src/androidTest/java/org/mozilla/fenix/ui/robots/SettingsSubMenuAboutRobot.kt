@@ -1528,15 +1528,8 @@ link
 )
 browserScreen
 {
-verifyUrl
+verifyHelpUrl
 (
-"
-support
-.
-mozilla
-.
-org
-"
 )
 }
 }
