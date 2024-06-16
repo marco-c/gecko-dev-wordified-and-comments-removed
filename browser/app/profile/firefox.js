@@ -3358,7 +3358,7 @@ yelp
 .
 minKeywordLength
 "
-5
+0
 )
 ;
 pref
