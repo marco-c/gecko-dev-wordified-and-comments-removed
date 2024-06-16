@@ -12079,10 +12079,6 @@ feed
 parameters
 "
 "
-&
-enableRankingByRegion
-=
-1
 "
 )
 ;
