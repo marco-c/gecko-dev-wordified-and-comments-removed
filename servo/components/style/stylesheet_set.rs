@@ -928,6 +928,7 @@ callback
 impl
 FnMut
 (
+usize
 &
 S
 SheetRebuildKind
@@ -938,13 +939,20 @@ bool
 )
 {
 for
+(
+index
 potential_sheet
+)
 in
 self
 .
 entries
 .
 iter_mut
+(
+)
+.
+enumerate
 (
 )
 {
@@ -1017,6 +1025,7 @@ if
 !
 callback
 (
+index
 &
 potential_sheet
 .

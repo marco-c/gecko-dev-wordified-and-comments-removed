@@ -1576,6 +1576,9 @@ Element
 GeckoFontMetrics
 "
 "
+GeckoImplicitShadowRoot
+"
+"
 gfxFontFeatureValueSet
 "
 "

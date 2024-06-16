@@ -89,6 +89,13 @@ for
 OpaqueElement
 {
 }
+unsafe
+impl
+Sync
+for
+OpaqueElement
+{
+}
 impl
 OpaqueElement
 {
