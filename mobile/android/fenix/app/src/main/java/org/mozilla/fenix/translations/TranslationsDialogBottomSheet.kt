@@ -3003,6 +3003,11 @@ colors
 .
 iconPrimary
 )
+if
+(
+expanded
+)
+{
 ContextualMenu
 (
 showMenu
@@ -3117,6 +3122,7 @@ ICON_SIZE
 )
 }
 )
+}
 }
 }
 Divider
