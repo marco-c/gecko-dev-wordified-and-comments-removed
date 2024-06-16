@@ -526,6 +526,7 @@ core
 autocrlf
 false
 "
+github_path
 )
     
 run_git
