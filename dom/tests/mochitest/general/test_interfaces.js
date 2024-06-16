@@ -1789,9 +1789,6 @@ CSSPropertyRule
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
