@@ -502,6 +502,13 @@ js
 ]
 [
 "
+browser_translations_select_panel_reader_mode
+.
+js
+"
+]
+[
+"
 browser_translations_select_panel_retranslate_on_change_language_directly
 .
 js
