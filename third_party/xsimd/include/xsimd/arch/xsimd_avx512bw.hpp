@@ -48,7 +48,7 @@ T
 int
 Cmp
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -328,7 +328,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -449,7 +449,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -563,7 +563,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -677,7 +677,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -835,7 +835,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -954,7 +954,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -1252,7 +1252,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -1329,7 +1329,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -1406,7 +1406,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -1483,7 +1483,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -1560,7 +1560,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -1637,7 +1637,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -1821,7 +1821,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -2005,7 +2005,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -2161,7 +2161,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -2215,7 +2215,7 @@ N
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 uint16_t
@@ -2254,7 +2254,7 @@ N
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 int16_t
@@ -2333,7 +2333,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -2517,7 +2517,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -2821,7 +2821,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -3392,7 +3392,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -3704,7 +3704,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -3888,7 +3888,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -3977,7 +3977,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 uint16_t
@@ -4019,7 +4019,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 int16_t
@@ -4076,7 +4076,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 uint8_t
@@ -4118,7 +4118,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 int8_t
@@ -4180,7 +4180,7 @@ uint16_t
 .
 Vs
 >
-inline
+XSIMD_INLINE
 batch
 <
 uint16_t
@@ -4238,7 +4238,7 @@ uint16_t
 .
 Vs
 >
-inline
+XSIMD_INLINE
 batch
 <
 int16_t
@@ -4296,7 +4296,7 @@ uint8_t
 .
 Vs
 >
-inline
+XSIMD_INLINE
 batch
 <
 uint8_t
@@ -4354,7 +4354,7 @@ uint8_t
 .
 Vs
 >
-inline
+XSIMD_INLINE
 batch
 <
 int8_t
@@ -4432,7 +4432,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -4598,7 +4598,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 T

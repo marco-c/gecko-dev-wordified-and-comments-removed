@@ -100,7 +100,7 @@ size_t
 .
 Is
 >
-inline
+XSIMD_INLINE
 batch
 <
 IT
@@ -249,7 +249,7 @@ A
 typename
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -390,7 +390,7 @@ size_t
 .
 Is
 >
-inline
+XSIMD_INLINE
 batch
 <
 IT
@@ -496,7 +496,7 @@ A
 typename
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -622,7 +622,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -1055,7 +1055,7 @@ A
 typename
 V
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -1160,7 +1160,7 @@ U
 typename
 V
 >
-inline
+XSIMD_INLINE
 detail
 :
 :
@@ -1273,7 +1273,7 @@ U
 typename
 V
 >
-inline
+XSIMD_INLINE
 detail
 :
 :
@@ -1384,7 +1384,7 @@ T
 size_t
 I
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -1470,7 +1470,7 @@ I
 class
 T
 >
-inline
+XSIMD_INLINE
 T
 get
 (
@@ -1547,7 +1547,7 @@ I
 class
 T
 >
-inline
+XSIMD_INLINE
 T
 get
 (
@@ -1624,7 +1624,7 @@ I
 class
 T
 >
-inline
+XSIMD_INLINE
 auto
 get
 (
@@ -1728,7 +1728,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 T
 get
 (
@@ -1799,7 +1799,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 T
 get
 (
@@ -1870,7 +1870,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 auto
 get
 (
@@ -1994,7 +1994,7 @@ T_in
 class
 T_out
 >
-inline
+XSIMD_INLINE
 batch
 <
 T_out
@@ -2064,7 +2064,7 @@ T_in
 class
 T_out
 >
-inline
+XSIMD_INLINE
 batch
 <
 T_out
@@ -2184,7 +2184,7 @@ T_in
 class
 T_out
 >
-inline
+XSIMD_INLINE
 batch
 <
 T_out
@@ -2248,7 +2248,7 @@ T_in
 class
 T_out
 >
-inline
+XSIMD_INLINE
 batch
 <
 T_out
@@ -2318,7 +2318,7 @@ T_in
 class
 T_out
 >
-inline
+XSIMD_INLINE
 batch
 <
 T_out
@@ -2398,7 +2398,7 @@ T_in
 class
 T_out
 >
-inline
+XSIMD_INLINE
 batch
 <
 T_out
@@ -2459,7 +2459,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -2538,7 +2538,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -2609,7 +2609,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -2688,7 +2688,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -2783,7 +2783,7 @@ type
 =
 0
 >
-inline
+XSIMD_INLINE
 void
 scatter
 (
@@ -2873,7 +2873,7 @@ type
 =
 0
 >
-inline
+XSIMD_INLINE
 void
 scatter
 (
@@ -2989,7 +2989,7 @@ T
 typename
 V
 >
-inline
+XSIMD_INLINE
 void
 scatter
 (
@@ -3095,7 +3095,7 @@ U
 typename
 V
 >
-inline
+XSIMD_INLINE
 detail
 :
 :
@@ -3209,7 +3209,7 @@ U
 typename
 V
 >
-inline
+XSIMD_INLINE
 detail
 :
 :
@@ -3733,7 +3733,7 @@ ITy
 .
 Indices
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -4113,7 +4113,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 void
 store
 (
@@ -4235,7 +4235,7 @@ T_in
 class
 T_out
 >
-inline
+XSIMD_INLINE
 void
 store_aligned
 (
@@ -4349,7 +4349,7 @@ T_in
 class
 T_out
 >
-inline
+XSIMD_INLINE
 void
 store_unaligned
 (
@@ -4427,7 +4427,7 @@ ITy
 .
 Vs
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -4504,7 +4504,7 @@ T
 class
 ITy
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -4662,7 +4662,7 @@ T
 class
 ITy
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -4736,7 +4736,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -4803,7 +4803,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -4863,7 +4863,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -4926,7 +4926,7 @@ T_out
 class
 T_in
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -5039,7 +5039,7 @@ T_out
 class
 T_in
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -5152,7 +5152,7 @@ T_out
 class
 T_in
 >
-inline
+XSIMD_INLINE
 void
 store_complex_aligned
 (
@@ -5265,7 +5265,7 @@ T_out
 class
 T_in
 >
-inline
+XSIMD_INLINE
 void
 store_complex_unaligned
 (

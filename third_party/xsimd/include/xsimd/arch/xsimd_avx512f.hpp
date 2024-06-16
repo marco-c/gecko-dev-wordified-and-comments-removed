@@ -44,7 +44,7 @@ types
 namespace
 detail
 {
-inline
+XSIMD_INLINE
 void
 split_avx512
 (
@@ -75,7 +75,7 @@ val
 )
 ;
 }
-inline
+XSIMD_INLINE
 void
 split_avx512
 (
@@ -106,7 +106,7 @@ val
 )
 ;
 }
-inline
+XSIMD_INLINE
 void
 split_avx512
 (
@@ -137,7 +137,7 @@ val
 )
 ;
 }
-inline
+XSIMD_INLINE
 __m512i
 merge_avx
 (
@@ -160,7 +160,7 @@ high
 )
 ;
 }
-inline
+XSIMD_INLINE
 __m512
 merge_avx
 (
@@ -192,7 +192,7 @@ high
 )
 ;
 }
-inline
+XSIMD_INLINE
 __m512d
 merge_avx
 (
@@ -383,7 +383,7 @@ res_high
 namespace
 detail
 {
-inline
+XSIMD_INLINE
 uint32_t
 morton
 (
@@ -717,7 +717,7 @@ T
 int
 Cmp
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -1842,7 +1842,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -1917,7 +1917,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -2017,7 +2017,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -2235,7 +2235,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -2442,7 +2442,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -2486,7 +2486,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -2532,7 +2532,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 bool
 all
 (
@@ -2584,7 +2584,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 bool
 any
 (
@@ -2637,7 +2637,7 @@ T_out
 class
 T_in
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T_out
@@ -2678,7 +2678,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -2748,7 +2748,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -2826,7 +2826,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -2872,7 +2872,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -2934,7 +2934,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -2987,7 +2987,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -3065,7 +3065,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -3111,7 +3111,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -3199,7 +3199,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -3479,7 +3479,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -3521,7 +3521,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -3572,7 +3572,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -3618,7 +3618,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -3664,7 +3664,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -3717,7 +3717,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -3772,7 +3772,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -3859,7 +3859,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -3928,7 +3928,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -4304,7 +4304,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -4357,7 +4357,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -4412,7 +4412,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -4499,7 +4499,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -4568,7 +4568,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -4635,7 +4635,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -4715,7 +4715,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 Tp
@@ -4763,7 +4763,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -4830,7 +4830,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -4872,7 +4872,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -4939,7 +4939,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -5006,7 +5006,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -5121,7 +5121,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -5155,7 +5155,7 @@ batch
 double
 A
 >
-inline
+XSIMD_INLINE
 broadcast
 (
 double
@@ -5179,7 +5179,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -5215,7 +5215,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -5251,7 +5251,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -5299,7 +5299,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -5347,7 +5347,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 int32_t
@@ -5395,7 +5395,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 uint32_t
@@ -5443,7 +5443,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 int64_t
@@ -5491,7 +5491,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 uint64_t
@@ -5542,7 +5542,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -5584,7 +5584,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 int32_t
@@ -5626,7 +5626,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -5712,7 +5712,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -5786,7 +5786,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -5852,7 +5852,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -5926,7 +5926,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -5993,7 +5993,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -6037,7 +6037,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -6081,7 +6081,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 float
@@ -6126,7 +6126,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 double
@@ -6196,7 +6196,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -6250,7 +6250,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -6313,7 +6313,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -6361,7 +6361,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -6409,7 +6409,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 int32_t
@@ -6457,7 +6457,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 uint32_t
@@ -6505,7 +6505,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 int64_t
@@ -6553,7 +6553,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 uint64_t
@@ -6601,7 +6601,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -6637,7 +6637,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -6673,7 +6673,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -6726,7 +6726,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -6779,7 +6779,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -6832,7 +6832,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -6885,7 +6885,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -6938,7 +6938,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -6993,7 +6993,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -7046,7 +7046,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -7117,7 +7117,7 @@ U
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -7203,7 +7203,7 @@ U
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -7277,7 +7277,7 @@ U
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -7343,7 +7343,7 @@ U
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -7409,7 +7409,7 @@ V
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -7536,7 +7536,7 @@ V
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 int32_t
@@ -7651,7 +7651,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 float
@@ -7696,7 +7696,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 double
@@ -7766,7 +7766,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -7818,7 +7818,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 float
@@ -7863,7 +7863,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 double
@@ -7933,7 +7933,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -7985,7 +7985,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -8448,7 +8448,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -8710,7 +8710,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 float
@@ -8747,7 +8747,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 double
@@ -8784,7 +8784,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -8834,7 +8834,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -8892,7 +8892,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 float
@@ -8937,7 +8937,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 double
@@ -9007,7 +9007,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -9084,7 +9084,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -9124,7 +9124,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -9159,7 +9159,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -9197,7 +9197,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -9312,7 +9312,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -9437,7 +9437,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -9477,7 +9477,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -9512,7 +9512,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -9547,7 +9547,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 float
@@ -9592,7 +9592,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 double
@@ -9662,7 +9662,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -9716,7 +9716,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 uint64_t
 mask
 (
@@ -9746,7 +9746,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -9790,7 +9790,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -9859,7 +9859,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -10082,7 +10082,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -10126,7 +10126,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -10195,7 +10195,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -10418,7 +10418,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -10462,7 +10462,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -10531,7 +10531,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -10632,7 +10632,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -10669,7 +10669,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -10706,7 +10706,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 int32_t
@@ -10743,7 +10743,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -10777,7 +10777,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 float
@@ -10822,7 +10822,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 double
@@ -10892,7 +10892,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -10940,7 +10940,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -11002,7 +11002,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -11040,7 +11040,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -11078,7 +11078,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 float
 reduce_add
 (
@@ -11182,7 +11182,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 double
 reduce_add
 (
@@ -11275,7 +11275,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 T
 reduce_add
 (
@@ -11370,7 +11370,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 T
 reduce_max
 (
@@ -11487,7 +11487,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 T
 reduce_min
 (
@@ -11579,7 +11579,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -11614,7 +11614,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -11674,7 +11674,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -11863,7 +11863,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 void
 scatter
 (
@@ -11952,7 +11952,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 void
 scatter
 (
@@ -12002,7 +12002,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 void
 scatter
 (
@@ -12052,7 +12052,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 void
 scatter
 (
@@ -12102,7 +12102,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -12155,7 +12155,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -12233,7 +12233,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -12737,7 +12737,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -12894,7 +12894,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -12975,7 +12975,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -13057,7 +13057,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -13139,7 +13139,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -13231,7 +13231,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -13427,7 +13427,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -13623,7 +13623,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -13947,7 +13947,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -14267,7 +14267,7 @@ class
 .
 Values
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -14421,7 +14421,7 @@ I14
 ITy
 I15
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -14874,7 +14874,7 @@ I6
 ITy
 I7
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -15199,7 +15199,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -15248,7 +15248,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -15293,7 +15293,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -15328,7 +15328,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -15388,7 +15388,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -15468,7 +15468,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 void
 store
 (
@@ -15584,7 +15584,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 void
 store_aligned
 (
@@ -15648,7 +15648,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 void
 store_aligned
 (
@@ -15687,7 +15687,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 void
 store_aligned
 (
@@ -15722,7 +15722,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 void
 store_aligned
 (
@@ -15782,7 +15782,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 void
 store_unaligned
 (
@@ -15846,7 +15846,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 void
 store_unaligned
 (
@@ -15885,7 +15885,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 void
 store_unaligned
 (
@@ -15920,7 +15920,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 void
 store_unaligned
 (
@@ -15980,7 +15980,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -16187,7 +16187,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -16231,7 +16231,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -16275,7 +16275,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -16317,7 +16317,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -16359,7 +16359,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 uint64_t
@@ -16401,7 +16401,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 int64_t
@@ -16458,7 +16458,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 uint32_t
@@ -16500,7 +16500,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 int32_t
@@ -16562,7 +16562,7 @@ uint32_t
 .
 Vs
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -16620,7 +16620,7 @@ uint64_t
 .
 Vs
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -16678,7 +16678,7 @@ uint64_t
 .
 Vs
 >
-inline
+XSIMD_INLINE
 batch
 <
 uint64_t
@@ -16736,7 +16736,7 @@ uint64_t
 .
 Vs
 >
-inline
+XSIMD_INLINE
 batch
 <
 int64_t
@@ -16794,7 +16794,7 @@ uint32_t
 .
 Vs
 >
-inline
+XSIMD_INLINE
 batch
 <
 uint32_t
@@ -16852,7 +16852,7 @@ uint32_t
 .
 Vs
 >
-inline
+XSIMD_INLINE
 batch
 <
 int32_t
@@ -17182,7 +17182,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 uint16_t
@@ -17255,7 +17255,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 uint16_t
@@ -17514,7 +17514,7 @@ uint16_t
 .
 Vs
 >
-inline
+XSIMD_INLINE
 batch
 <
 int16_t
@@ -17575,7 +17575,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -17612,7 +17612,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -17674,7 +17674,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -17881,7 +17881,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -17966,7 +17966,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -18085,7 +18085,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -18292,7 +18292,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -18377,7 +18377,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double

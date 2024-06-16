@@ -36,7 +36,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 int64_t
@@ -80,7 +80,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 uint64_t

@@ -31,7 +31,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -75,7 +75,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -119,7 +119,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -163,7 +163,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -207,7 +207,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -250,7 +250,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -293,7 +293,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -337,7 +337,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -383,7 +383,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -445,7 +445,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -489,7 +489,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -533,7 +533,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -963,7 +963,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -1013,7 +1013,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 uint64_t
@@ -1057,7 +1057,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 int64_t
@@ -1101,7 +1101,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 int64_t
@@ -1136,7 +1136,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 float
 reduce_add
 (
@@ -1207,7 +1207,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -1249,7 +1249,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 int64_t

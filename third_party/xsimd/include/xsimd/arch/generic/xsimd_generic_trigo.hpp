@@ -35,7 +35,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -186,7 +186,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -286,7 +286,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -399,7 +399,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -483,7 +483,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -646,7 +646,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -926,7 +926,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -1157,7 +1157,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -1210,7 +1210,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -1272,7 +1272,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -1312,7 +1312,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -1353,7 +1353,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -1578,7 +1578,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -1739,7 +1739,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -1840,7 +1840,7 @@ class
 A
 >
 static
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -2083,7 +2083,7 @@ class
 A
 >
 static
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -2341,7 +2341,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -2417,7 +2417,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -2638,7 +2638,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -2758,7 +2758,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -2857,7 +2857,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -2967,7 +2967,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -3004,7 +3004,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -3041,7 +3041,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -3103,7 +3103,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -3178,7 +3178,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -3248,7 +3248,7 @@ class
 A
 >
 static
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -3322,7 +3322,7 @@ class
 BB
 >
 static
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -3386,7 +3386,7 @@ class
 BB
 >
 static
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -3448,7 +3448,7 @@ class
 A
 >
 static
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -3515,7 +3515,7 @@ class
 A
 >
 static
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -3588,7 +3588,7 @@ class
 A
 >
 static
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -3683,7 +3683,7 @@ class
 BB
 >
 static
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -3747,7 +3747,7 @@ class
 BB
 >
 static
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -3826,7 +3826,7 @@ struct
 trigo_reducer
 {
 static
-inline
+XSIMD_INLINE
 B
 reduce
 (
@@ -4498,7 +4498,7 @@ trigo_pi_tag
 >
 {
 static
-inline
+XSIMD_INLINE
 B
 reduce
 (
@@ -4571,7 +4571,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -4781,7 +4781,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -4863,7 +4863,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -5002,7 +5002,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -5092,7 +5092,7 @@ Tag
 =
 trigo_radian_tag
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -5306,7 +5306,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -5346,7 +5346,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -5427,7 +5427,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 std
 :
 :
@@ -5709,7 +5709,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 std
 :
 :
@@ -5869,7 +5869,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -5928,7 +5928,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -6011,7 +6011,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -6208,7 +6208,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -6291,7 +6291,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -6447,7 +6447,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -6663,7 +6663,7 @@ A
 >
 ;
 static
-inline
+XSIMD_INLINE
 batch_type
 tanh
 (
@@ -6707,7 +6707,7 @@ x
 ;
 }
 static
-inline
+XSIMD_INLINE
 batch_type
 cotanh
 (
@@ -6758,7 +6758,7 @@ A
 >
 ;
 static
-inline
+XSIMD_INLINE
 batch_type
 tanh
 (
@@ -6796,7 +6796,7 @@ x
 ;
 }
 static
-inline
+XSIMD_INLINE
 batch_type
 cotanh
 (
@@ -6841,7 +6841,7 @@ qval
 ;
 }
 static
-inline
+XSIMD_INLINE
 batch_type
 p
 (
@@ -6869,7 +6869,7 @@ x
 ;
 }
 static
-inline
+XSIMD_INLINE
 batch_type
 q
 (
@@ -6906,7 +6906,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -7066,7 +7066,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 std

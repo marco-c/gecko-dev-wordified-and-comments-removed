@@ -455,7 +455,7 @@ ONCE0
 *
 *
 /
-inline
+XSIMD_INLINE
 int32_t
 __kernel_rem_pio2
 (
@@ -1924,7 +1924,7 @@ n
 7
 ;
 }
-inline
+XSIMD_INLINE
 std
 :
 :

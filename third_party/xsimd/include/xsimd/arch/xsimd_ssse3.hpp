@@ -88,7 +88,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -218,7 +218,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -283,7 +283,7 @@ size_t
 .
 Is
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -412,7 +412,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -540,7 +540,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 T
 reduce_add
 (
@@ -663,7 +663,7 @@ N
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 uint16_t
@@ -702,7 +702,7 @@ N
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 int16_t
@@ -756,7 +756,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 uint8_t
@@ -798,7 +798,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 int8_t
@@ -844,7 +844,7 @@ T
 class
 IT
 >
-inline
+XSIMD_INLINE
 typename
 std
 :
@@ -982,7 +982,7 @@ V6
 uint16_t
 V7
 >
-inline
+XSIMD_INLINE
 batch
 <
 uint16_t
@@ -1123,7 +1123,7 @@ V6
 uint16_t
 V7
 >
-inline
+XSIMD_INLINE
 batch
 <
 int16_t
@@ -1220,7 +1220,7 @@ V14
 uint8_t
 V15
 >
-inline
+XSIMD_INLINE
 batch
 <
 uint8_t
@@ -1317,7 +1317,7 @@ V14
 uint8_t
 V15
 >
-inline
+XSIMD_INLINE
 batch
 <
 int8_t

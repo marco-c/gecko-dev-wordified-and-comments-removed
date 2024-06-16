@@ -2410,7 +2410,7 @@ as_unsigned_integer_t
 T
 >
 >
-inline
+XSIMD_INLINE
 batch
 <
 U
@@ -2544,7 +2544,7 @@ T
 size_t
 Width
 >
-inline
+XSIMD_INLINE
 rvv_bool_t
 <
 T
@@ -2575,7 +2575,7 @@ T
 size_t
 Width
 >
-inline
+XSIMD_INLINE
 rvv_bool_t
 <
 T
@@ -2614,7 +2614,7 @@ shift
 =
 0
 >
-inline
+XSIMD_INLINE
 rvv_reg_t
 <
 T
@@ -2882,7 +2882,7 @@ T
 size_t
 Width
 >
-inline
+XSIMD_INLINE
 detail
 :
 :
@@ -2955,7 +2955,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -3041,7 +3041,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -3104,7 +3104,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -3179,7 +3179,7 @@ type
 =
 0
 >
-inline
+XSIMD_INLINE
 rvv_reg_t
 <
 T
@@ -3268,7 +3268,7 @@ type
 =
 0
 >
-inline
+XSIMD_INLINE
 rvv_reg_t
 <
 T
@@ -3643,7 +3643,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -3821,7 +3821,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 void
 store_aligned
 (
@@ -3882,7 +3882,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 void
 store_unaligned
 (
@@ -4042,7 +4042,7 @@ U
 =
 0
 >
-inline
+XSIMD_INLINE
 void
 scatter
 (
@@ -4160,7 +4160,7 @@ U
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -4666,7 +4666,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -4724,7 +4724,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -4782,7 +4782,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -4840,7 +4840,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -4898,7 +4898,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -4957,7 +4957,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -5015,7 +5015,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -5073,7 +5073,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -5131,7 +5131,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -5218,7 +5218,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -5267,7 +5267,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -5310,7 +5310,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -5359,7 +5359,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -5426,7 +5426,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -5493,7 +5493,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -5558,7 +5558,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -5749,7 +5749,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -5807,7 +5807,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -5904,7 +5904,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -5962,7 +5962,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -6032,7 +6032,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -6141,7 +6141,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -6199,7 +6199,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -6257,7 +6257,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -6354,7 +6354,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -6412,7 +6412,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -6470,7 +6470,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -6567,7 +6567,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -6625,7 +6625,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -6674,7 +6674,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -6750,7 +6750,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -6857,7 +6857,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -6954,7 +6954,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -7022,7 +7022,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -7119,7 +7119,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -7271,7 +7271,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 T
 reduce_scalar
 (
@@ -7351,7 +7351,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 V
 reduce_add
 (
@@ -7438,7 +7438,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 T
 reduce_max
 (
@@ -7533,7 +7533,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 T
 reduce_min
 (
@@ -7628,7 +7628,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -7748,7 +7748,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -7806,7 +7806,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -7876,7 +7876,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -7934,7 +7934,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -7992,7 +7992,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -8050,7 +8050,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -8108,7 +8108,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -8166,7 +8166,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -8231,7 +8231,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -8328,7 +8328,7 @@ I
 .
 idx
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -8425,7 +8425,7 @@ I
 .
 idx
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -8556,7 +8556,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -8634,7 +8634,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -8697,7 +8697,7 @@ bool
 .
 b
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -8777,7 +8777,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -8890,7 +8890,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -9012,7 +9012,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 void
 store_complex_aligned
 (
@@ -9134,7 +9134,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 void
 store_complex_unaligned
 (
@@ -9231,7 +9231,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -9307,7 +9307,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -9356,7 +9356,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -9611,7 +9611,7 @@ U
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 U
@@ -9667,7 +9667,7 @@ U
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 U
@@ -9717,7 +9717,7 @@ class
 .
 Args
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -9803,7 +9803,7 @@ class
 .
 Args
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -9911,7 +9911,7 @@ class
 .
 Args
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -10032,7 +10032,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -10114,7 +10114,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 T
 get
 (
@@ -10174,7 +10174,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 std
 :
 :
@@ -10283,7 +10283,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 bool
 all
 (
@@ -10338,7 +10338,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 bool
 any
 (
@@ -10396,7 +10396,7 @@ R
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 R
@@ -10474,7 +10474,7 @@ T_in
 =
 0
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T_out
@@ -10541,7 +10541,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -10605,7 +10605,7 @@ template
 size_t
 Width
 >
-inline
+XSIMD_INLINE
 vuint8m1_t
 rvvslidedownbytes
 (
@@ -10635,7 +10635,7 @@ rvv_width_m1
 template
 <
 >
-inline
+XSIMD_INLINE
 vuint8m1_t
 rvvslidedownbytes
 <
@@ -10692,7 +10692,7 @@ result
 template
 <
 >
-inline
+XSIMD_INLINE
 vuint8m1_t
 rvvslidedownbytes
 <
@@ -10749,7 +10749,7 @@ result
 template
 <
 >
-inline
+XSIMD_INLINE
 vuint8m1_t
 rvvslidedownbytes
 <
@@ -10822,7 +10822,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -10914,7 +10914,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -11007,7 +11007,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -11073,7 +11073,7 @@ rvv_as_signed_integer_t
 T
 >
 >
-inline
+XSIMD_INLINE
 batch
 <
 U
@@ -11116,7 +11116,7 @@ rvv_as_signed_integer_t
 T
 >
 >
-inline
+XSIMD_INLINE
 batch
 <
 U
@@ -11163,7 +11163,7 @@ rvv_as_signed_integer_t
 T
 >
 >
-inline
+XSIMD_INLINE
 batch
 <
 U
@@ -11212,7 +11212,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -11295,7 +11295,7 @@ T
 =
 0
 >
-inline
+XSIMD_INLINE
 batch
 <
 T

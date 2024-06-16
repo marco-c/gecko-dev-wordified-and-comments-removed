@@ -35,7 +35,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -69,7 +69,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -113,7 +113,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -156,7 +156,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -200,7 +200,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 real_batch_type_t
 <
 batch
@@ -247,7 +247,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 complex_batch_type_t
 <
 batch
@@ -294,7 +294,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 real_batch_type_t
 <
 batch
@@ -352,7 +352,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 complex_batch_type_t
 <
 batch
@@ -478,7 +478,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -542,7 +542,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -606,7 +606,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T

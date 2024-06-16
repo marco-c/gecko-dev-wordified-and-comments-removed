@@ -265,7 +265,7 @@ T
 register_type
 data
 ;
-inline
+XSIMD_INLINE
 operator
 register_type
 (
