@@ -245,6 +245,9 @@ tabHide
 tabs
 "
 "
+webRequestAuthProvider
+"
+"
 webRequestBlocking
 "
 "
