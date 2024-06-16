@@ -469,7 +469,7 @@ static
 queries
 =
 {
-actionsSlotEl
+actionsSlot
 :
 "
 slot
@@ -485,7 +485,7 @@ actionsEl
 .
 actions
 "
-closeButtonEl
+closeButton
 :
 "
 moz
@@ -494,7 +494,7 @@ button
 .
 close
 "
-supportLinkSlotEl
+supportLinkSlot
 :
 "
 slot
@@ -606,7 +606,7 @@ actions
 =
 this
 .
-actionsSlotEl
+actionsSlot
 .
 assignedNodes
 (
@@ -688,7 +688,7 @@ supportLinkEls
 return
 this
 .
-supportLinkSlotEl
+supportLinkSlot
 .
 assignedElements
 (

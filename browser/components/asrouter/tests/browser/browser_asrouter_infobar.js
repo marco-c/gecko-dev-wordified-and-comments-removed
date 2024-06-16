@@ -678,7 +678,7 @@ notificationStack
 .
 currentNotification
 .
-closeButtonEl
+closeButton
 .
 click
 (
@@ -778,7 +778,7 @@ infobar
 .
 notification
 .
-closeButtonEl
+closeButton
 .
 click
 (
@@ -1133,7 +1133,7 @@ infobar
 .
 notification
 .
-closeButtonEl
+closeButton
 .
 click
 (
@@ -1215,7 +1215,7 @@ infobar
 .
 notification
 .
-closeButtonEl
+closeButton
 .
 click
 (
