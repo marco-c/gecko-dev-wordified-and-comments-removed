@@ -306,3 +306,10 @@ browser_test_resize
 js
 "
 ]
+[
+"
+browser_test_selection_size_text
+.
+js
+"
+]
