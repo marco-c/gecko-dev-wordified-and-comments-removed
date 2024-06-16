@@ -198,6 +198,15 @@ WorkerPrivate
 aWorkerPrivate
 )
 ;
+void
+ClearEventQueueAndWorker
+(
+const
+WorkerThreadFriendKey
+&
+aKey
+)
+;
 nsresult
 DispatchPrimaryRunnable
 (
