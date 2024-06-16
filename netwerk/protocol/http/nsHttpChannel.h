@@ -2753,7 +2753,7 @@ mEndMarkerAdded
 =
 false
 ;
-uint32_t
+TimeDuration
 mSuspendTotalTime
 {
 0
