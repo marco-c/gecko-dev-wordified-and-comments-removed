@@ -1466,7 +1466,7 @@ const
 uint32_t
 DefaultNurseryMaxBytes
 =
-64
+16
 *
 js
 :
