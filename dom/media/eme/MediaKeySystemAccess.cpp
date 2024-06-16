@@ -1247,6 +1247,8 @@ nsAString
 aKeySystem
 bool
 aIsHardwareDecryption
+bool
+aIsPrivateBrowsing
 )
 {
 using
@@ -1288,6 +1290,7 @@ DecryptionInfo
 :
 :
 Software
+aIsPrivateBrowsing
 }
 )
 ;
@@ -1334,6 +1337,7 @@ DecryptionInfo
 :
 :
 Software
+aIsPrivateBrowsing
 }
 )
 ;
@@ -1356,6 +1360,7 @@ DecryptionInfo
 :
 :
 Hardware
+aIsPrivateBrowsing
 }
 )
 ;
@@ -1373,6 +1378,7 @@ DecryptionInfo
 :
 :
 Hardware
+aIsPrivateBrowsing
 }
 )
 ;
@@ -1402,6 +1408,7 @@ DecryptionInfo
 :
 :
 Hardware
+aIsPrivateBrowsing
 }
 )
 ;
@@ -1449,6 +1456,7 @@ DecryptionInfo
 :
 :
 Hardware
+aIsPrivateBrowsing
 }
 )
 ;
@@ -1477,6 +1485,7 @@ DecryptionInfo
 :
 :
 Hardware
+aIsPrivateBrowsing
 }
 )
 ;
@@ -1513,6 +1522,8 @@ nsAString
 aInitDataType
 bool
 aIsHardwareDecryption
+bool
+aIsPrivateBrowsing
 )
 {
 RefPtr
@@ -1537,6 +1548,7 @@ GetSupportedKeySystemConfigs
 (
 aKeySystem
 aIsHardwareDecryption
+aIsPrivateBrowsing
 )
 -
 >
@@ -5236,6 +5248,7 @@ aRequest
 >
 mKeySystem
 isHardwareDecryptionRequest
+aIsPrivateBrowsing
 )
 -
 >

@@ -370,6 +370,9 @@ DecryptionInfo
 :
 :
 Hardware
+request
+.
+mIsPrivateBrowsing
 }
 )
 )

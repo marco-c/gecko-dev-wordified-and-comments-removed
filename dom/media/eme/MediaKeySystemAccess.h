@@ -256,6 +256,8 @@ nsAString
 aInitDataType
 bool
 aIsHardwareDecryption
+bool
+aIsPrivateBrowsing
 )
 ;
 static

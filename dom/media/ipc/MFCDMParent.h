@@ -417,6 +417,7 @@ CapabilitesFlag
 HarewareDecryption
 NeedHDCPCheck
 NeedClearLeadCheck
+IsPrivateBrowsing
 }
 ;
 using

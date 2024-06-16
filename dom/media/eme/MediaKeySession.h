@@ -558,6 +558,10 @@ mExpiration
 bool
 mHardwareDecryption
 ;
+const
+bool
+mIsPrivateBrowsing
+;
 }
 ;
 }

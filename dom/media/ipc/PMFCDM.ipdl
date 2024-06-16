@@ -486,6 +486,9 @@ keySystem
 bool
 isHardwareDecryption
 ;
+bool
+isPrivateBrowsing
+;
 }
 ;
 [

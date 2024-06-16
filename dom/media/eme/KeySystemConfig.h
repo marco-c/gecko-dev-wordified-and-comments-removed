@@ -1061,6 +1061,8 @@ KeySystemConfig
 :
 DecryptionInfo
 aDecryption
+bool
+aIsPrivateBrowsing
 )
 :
 mKeySystem
@@ -1070,6 +1072,10 @@ aKeySystem
 mDecryption
 (
 aDecryption
+)
+mIsPrivateBrowsing
+(
+aIsPrivateBrowsing
 )
 {
 }
@@ -1083,6 +1089,10 @@ KeySystemConfig
 :
 DecryptionInfo
 mDecryption
+;
+const
+bool
+mIsPrivateBrowsing
 ;
 }
 ;
