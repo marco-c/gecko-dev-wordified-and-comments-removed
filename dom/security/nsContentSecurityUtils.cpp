@@ -6644,7 +6644,7 @@ aboutSpec
 "
 about
 :
-fingerprintingprotection
+fingerprinting
 "
 _ns
 )
