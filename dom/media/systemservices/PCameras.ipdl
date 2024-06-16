@@ -252,6 +252,15 @@ PBackground
 ;
 child
 :
+async
+CaptureEnded
+(
+CaptureEngine
+capEngine
+int
+streamId
+)
+;
 /
 /
 transfers
@@ -319,6 +328,8 @@ nsCString
 device_id
 bool
 scary
+bool
+placeholder
 )
 ;
 async
