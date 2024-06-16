@@ -1798,6 +1798,14 @@ RequestRedirect
 redirectMode
 )
 ;
+RequestPriority
+requestPriority
+=
+RequestPriority
+:
+:
+Auto
+;
 RequestCredentials
 requestCredentials
 =
@@ -2295,6 +2303,7 @@ requestMode
 requestCredentials
 cacheMode
 requestRedirect
+requestPriority
 integrity
 fragment
 principalInfo
