@@ -2376,6 +2376,17 @@ currentDOMEvent
 )
 ;
 }
+if
+(
+!
+this
+.
+isTracing
+)
+{
+return
+;
+}
 }
 }
 if
