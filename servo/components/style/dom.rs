@@ -146,7 +146,10 @@ use
 crate
 :
 :
+{
+LocalName
 WeakAtom
+}
 ;
 use
 atomic_refcell
@@ -2551,7 +2554,7 @@ F
 FnMut
 (
 &
-AtomIdent
+LocalName
 )
 ;
 fn

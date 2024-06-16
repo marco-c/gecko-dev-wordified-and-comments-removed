@@ -1391,6 +1391,9 @@ parse_page_name
 unwrap_or
 (
 AtomIdent
+:
+:
+new
 (
 atom
 !
