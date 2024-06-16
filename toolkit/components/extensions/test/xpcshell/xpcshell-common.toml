@@ -913,6 +913,13 @@ js
 ]
 [
 "
+test_ext_contentscript_preloading
+.
+js
+"
+]
+[
+"
 test_ext_contentscript_restrictSchemes
 .
 js
