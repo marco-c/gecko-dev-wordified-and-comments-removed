@@ -9256,6 +9256,7 @@ ContentAnalysis
 .
 initialize
 (
+document
 )
 ;
 FullZoom
