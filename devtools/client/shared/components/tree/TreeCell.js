@@ -548,13 +548,6 @@ this
 updateInputEnabled
 :
 null
-"
-aria
--
-labelledby
-"
-:
-id
 }
 renderValue
 (
