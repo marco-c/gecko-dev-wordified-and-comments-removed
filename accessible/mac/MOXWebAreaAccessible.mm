@@ -888,10 +888,7 @@ rootGroup
 {
 return
 [
-[
-self
 rootGroup
-]
 ]
 ;
 }
