@@ -6886,6 +6886,9 @@ test
 :
 test_support
 "
+"
+environment
+"
 ]
 }
 rtc_library

@@ -381,6 +381,11 @@ h
 "
 video_decoder_factory
 .
+cc
+"
+"
+video_decoder_factory
+.
 h
 "
 "
@@ -576,6 +581,12 @@ rtc_base
 system
 :
 rtc_export
+"
+"
+.
+.
+/
+environment
 "
 "
 .
