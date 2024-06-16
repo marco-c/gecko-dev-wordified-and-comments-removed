@@ -4809,17 +4809,6 @@ useGrouping
 "
 )
 \
-IF_EXPLICIT_RESOURCE_MANAGEMENT
-(
-MACRO_
-(
-using_
-"
-using
-"
-)
-)
-\
 MACRO_
 (
 UTC
