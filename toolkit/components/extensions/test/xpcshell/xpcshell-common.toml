@@ -1188,6 +1188,13 @@ js
 ]
 [
 "
+test_ext_dnr_domainType
+.
+js
+"
+]
+[
+"
 test_ext_dnr_download
 .
 js
