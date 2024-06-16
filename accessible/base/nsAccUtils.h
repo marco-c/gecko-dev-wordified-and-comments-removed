@@ -595,16 +595,6 @@ aAccessible
 )
 ;
 static
-bool
-IsARIALive
-(
-const
-LocalAccessible
-*
-aAccessible
-)
-;
-static
 Accessible
 *
 DocumentFor
