@@ -574,15 +574,6 @@ return
 mEnableAltSvcOE
 ;
 }
-bool
-AllowOriginExtension
-(
-)
-{
-return
-mEnableOriginExtension
-;
-}
 uint32_t
 ConnectTimeout
 (
@@ -2454,11 +2445,6 @@ mEnableAltSvc
 ;
 uint32_t
 mEnableAltSvcOE
-:
-1
-;
-uint32_t
-mEnableOriginExtension
 :
 1
 ;
