@@ -51,6 +51,10 @@ None
 super
 (
 )
+.
+__init__
+(
+)
         
 if
 http_status
