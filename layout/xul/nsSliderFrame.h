@@ -73,6 +73,9 @@ nsDisplaySliderMarks
 class
 PresShell
 ;
+class
+ScrollContainerFrame
+;
 }
 nsIFrame
 *
@@ -605,9 +608,12 @@ aMessage
 const
 override
 ;
-nsIScrollableFrame
+mozilla
+:
+:
+ScrollContainerFrame
 *
-GetScrollFrame
+GetScrollContainerFrame
 (
 )
 ;

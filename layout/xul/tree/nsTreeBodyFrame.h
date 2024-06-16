@@ -144,6 +144,9 @@ mozilla
 class
 PresShell
 ;
+class
+ScrollContainerFrame
+;
 namespace
 layout
 {
@@ -1005,7 +1008,10 @@ nsIFrame
 *
 mColumnsFrame
 ;
-nsIScrollableFrame
+mozilla
+:
+:
+ScrollContainerFrame
 *
 mColumnsScrollFrame
 ;

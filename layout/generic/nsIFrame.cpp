@@ -6167,9 +6167,9 @@ InvalidateAnchor
 }
 if
 (
-nsIScrollableFrame
+ScrollContainerFrame
 *
-scrollableFrame
+scrollContainerFrame
 =
 do_QueryFrame
 (
@@ -6177,7 +6177,7 @@ this
 )
 )
 {
-scrollableFrame
+scrollContainerFrame
 -
 >
 Anchor
@@ -11380,7 +11380,9 @@ f
 visible
 )
 {
-nsIScrollableFrame
+if
+(
+ScrollContainerFrame
 *
 sf
 =
@@ -11388,10 +11390,6 @@ do_QueryFrame
 (
 f
 )
-;
-if
-(
-sf
 )
 {
 nsRect
@@ -18315,7 +18313,7 @@ stickyScrollContainer
 stickyScrollContainer
 -
 >
-ScrollFrame
+ScrollContainer
 (
 )
 -
@@ -52883,9 +52881,9 @@ return
 false
 ;
 }
-nsIScrollableFrame
+ScrollContainerFrame
 *
-scrollFrame
+scrollContainerFrame
 =
 do_QueryFrame
 (
@@ -52895,7 +52893,7 @@ this
 if
 (
 !
-scrollFrame
+scrollContainerFrame
 )
 {
 return
@@ -52904,7 +52902,7 @@ false
 }
 if
 (
-scrollFrame
+scrollContainerFrame
 -
 >
 IsForTextControlWithNoScrollbars
@@ -52918,7 +52916,7 @@ false
 }
 if
 (
-scrollFrame
+scrollContainerFrame
 -
 >
 GetScrollStyles
@@ -52936,7 +52934,7 @@ false
 }
 if
 (
-scrollFrame
+scrollContainerFrame
 -
 >
 GetScrollRange
@@ -54699,9 +54697,9 @@ f
 )
 )
 {
-nsIScrollableFrame
+ScrollContainerFrame
 *
-scrollableFrame
+scrollContainerFrame
 =
 do_QueryFrame
 (
@@ -54710,7 +54708,7 @@ f
 ;
 if
 (
-scrollableFrame
+scrollContainerFrame
 )
 {
 clipParent

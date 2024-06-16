@@ -2765,7 +2765,7 @@ FirstChild
 ;
 if
 (
-nsIScrollableFrame
+ScrollContainerFrame
 *
 sf
 =
