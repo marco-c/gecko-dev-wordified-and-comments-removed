@@ -18,7 +18,7 @@ h
 #
 include
 "
-FuzzerRegistry
+XREShellData
 .
 h
 "
@@ -42,7 +42,9 @@ char
 *
 *
 argv
-LibFuzzerDriver
+const
+XREShellData
+*
 )
 ;
 int
