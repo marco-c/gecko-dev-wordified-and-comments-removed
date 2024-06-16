@@ -635,6 +635,15 @@ aText
 const
 ;
 void
+GetHintCharset
+(
+nsAString
+&
+aCharset
+)
+const
+;
+void
 SetIsPreloadRequest
 (
 )
