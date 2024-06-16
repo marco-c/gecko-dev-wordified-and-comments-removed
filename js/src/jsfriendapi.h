@@ -432,7 +432,7 @@ obj
 ;
 extern
 JS_PUBLIC_API
-int
+bool
 IsGCPoisoning
 (
 )
@@ -635,7 +635,6 @@ help
 )
 \
 {
-\
 name
 call
 nargs
@@ -658,12 +657,10 @@ native
 \
 usage
 help
-\
 }
 #
 define
 JS_FS_HELP_END
-\
 {
 nullptr
 nullptr
