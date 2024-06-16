@@ -37,6 +37,9 @@ wchar_t
 *
 aAumi
 const
+bool
+aRegRename
+const
 nsTArray
 <
 nsString
@@ -59,6 +62,9 @@ const
 wchar_t
 *
 aAumi
+const
+bool
+aRegRename
 const
 nsTArray
 <
