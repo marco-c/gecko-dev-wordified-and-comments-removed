@@ -818,6 +818,14 @@ vtable
 methodIndex
 ]
 ;
+asm
+volatile
+(
+"
+;
+"
+)
+;
 return
 func
 (
