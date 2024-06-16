@@ -96,6 +96,17 @@ mozilla
 /
 dom
 /
+PushUtil
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 RootedDictionary
 .
 h
