@@ -2602,11 +2602,6 @@ Wallpapers
 state
 .
 Wallpapers
-Weather
-:
-state
-.
-Weather
 }
 )
 )
