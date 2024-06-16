@@ -1146,7 +1146,7 @@ R
 .
 attr
 .
-textWarning
+textCritical
 )
 )
 verify
@@ -1259,7 +1259,7 @@ R
 .
 attr
 .
-textWarning
+textCritical
 )
 )
 verify
@@ -1630,7 +1630,7 @@ R
 .
 attr
 .
-textWarning
+textCritical
 )
 )
 verify

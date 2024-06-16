@@ -514,7 +514,7 @@ UnusedResources
 >
 color
 /
-fx_mobile_text_color_warning
+fx_mobile_text_color_critical
 <
 /
 item
@@ -536,7 +536,7 @@ UnusedResources
 >
 color
 /
-fx_mobile_text_color_warning
+fx_mobile_text_color_critical
 <
 /
 item
@@ -898,12 +898,12 @@ item
 name
 =
 "
-textWarning
+textCritical
 "
 >
 color
 /
-fx_mobile_text_color_warning
+fx_mobile_text_color_critical
 <
 /
 item
@@ -3006,7 +3006,7 @@ UnusedResources
 >
 color
 /
-fx_mobile_private_text_color_warning
+fx_mobile_private_text_color_critical
 <
 /
 item
@@ -3028,7 +3028,7 @@ UnusedResources
 >
 color
 /
-fx_mobile_private_text_color_warning
+fx_mobile_private_text_color_critical
 <
 /
 item
@@ -3390,12 +3390,12 @@ item
 name
 =
 "
-textWarning
+textCritical
 "
 >
 color
 /
-fx_mobile_private_text_color_warning
+fx_mobile_private_text_color_critical
 <
 /
 item

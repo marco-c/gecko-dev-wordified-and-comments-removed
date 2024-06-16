@@ -904,7 +904,7 @@ FirefoxTheme
 .
 colors
 .
-textWarning
+textCritical
 )
 {
 onDeleteCollectionTapped

@@ -1306,7 +1306,7 @@ R
 .
 attr
 .
-textWarning
+textCritical
 )
 }
 }

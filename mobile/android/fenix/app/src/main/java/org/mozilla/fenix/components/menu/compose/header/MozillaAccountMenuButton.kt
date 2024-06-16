@@ -637,7 +637,7 @@ FirefoxTheme
 .
 colors
 .
-textWarning
+textCritical
 maxLines
 =
 2

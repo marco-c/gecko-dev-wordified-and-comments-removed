@@ -1229,7 +1229,7 @@ FirefoxTheme
 .
 colors
 .
-textWarning
+textCritical
 )
 {
 onEditEngineClicked
@@ -1253,7 +1253,7 @@ FirefoxTheme
 .
 colors
 .
-textWarning
+textCritical
 )
 {
 onDeleteEngineClicked

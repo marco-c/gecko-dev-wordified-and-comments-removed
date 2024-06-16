@@ -890,7 +890,7 @@ FirefoxTheme
 .
 colors
 .
-textWarning
+textCritical
 else
 -
 >

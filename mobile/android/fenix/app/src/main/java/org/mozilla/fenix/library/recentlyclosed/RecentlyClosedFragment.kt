@@ -478,7 +478,7 @@ R
 .
 attr
 .
-textWarning
+textCritical
 )
 }
 }

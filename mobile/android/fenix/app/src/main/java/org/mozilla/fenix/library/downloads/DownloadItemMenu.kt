@@ -234,7 +234,7 @@ R
 .
 attr
 .
-textWarning
+textCritical
 )
 )
 )

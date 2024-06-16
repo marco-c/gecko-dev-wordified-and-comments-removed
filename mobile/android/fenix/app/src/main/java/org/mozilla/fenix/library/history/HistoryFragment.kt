@@ -1589,7 +1589,7 @@ R
 .
 attr
 .
-textWarning
+textCritical
 )
 }
 }

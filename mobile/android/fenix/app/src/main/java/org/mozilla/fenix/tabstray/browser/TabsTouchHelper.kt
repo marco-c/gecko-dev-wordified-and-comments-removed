@@ -675,7 +675,7 @@ R
 .
 attr
 .
-textWarning
+textCritical
 )
 )
 !

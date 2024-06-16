@@ -1565,7 +1565,7 @@ R
 .
 color
 .
-fx_mobile_text_color_warning
+fx_mobile_text_color_critical
 )
 )
 )
@@ -1643,7 +1643,7 @@ R
 .
 color
 .
-fx_mobile_text_color_warning
+fx_mobile_text_color_critical
 )
 )
 )

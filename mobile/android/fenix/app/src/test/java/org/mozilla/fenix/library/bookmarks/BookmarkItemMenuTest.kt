@@ -405,7 +405,7 @@ R
 .
 attr
 .
-textWarning
+textCritical
 )
 )
 deleteItem

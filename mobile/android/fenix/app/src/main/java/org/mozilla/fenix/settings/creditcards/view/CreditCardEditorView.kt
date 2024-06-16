@@ -444,7 +444,7 @@ R
 .
 attr
 .
-textWarning
+textCritical
 )
 )
 )
@@ -470,7 +470,7 @@ R
 .
 attr
 .
-textWarning
+textCritical
 )
 )
 )
@@ -893,7 +893,7 @@ R
 .
 attr
 .
-textWarning
+textCritical
 )
 )
 }
@@ -986,7 +986,7 @@ R
 .
 attr
 .
-textWarning
+textCritical
 )
 )
 }

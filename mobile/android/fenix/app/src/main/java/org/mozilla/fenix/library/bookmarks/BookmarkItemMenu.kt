@@ -570,7 +570,7 @@ R
 .
 attr
 .
-textWarning
+textCritical
 )
 )
 )
