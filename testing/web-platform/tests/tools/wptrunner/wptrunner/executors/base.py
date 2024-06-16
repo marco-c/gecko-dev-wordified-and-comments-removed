@@ -1462,6 +1462,18 @@ hang
 n
 "
                     
+if
+executor
+.
+ident
+in
+sys
+.
+_current_frames
+(
+)
+:
+                        
 message
 +
 =
@@ -1474,6 +1486,7 @@ traceback
 .
 format_stack
 (
+                            
 sys
 .
 _current_frames
