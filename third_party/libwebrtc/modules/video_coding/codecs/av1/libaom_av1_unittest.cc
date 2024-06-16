@@ -396,6 +396,12 @@ maxBitrate
 ;
 codec_settings
 .
+startBitrate
+=
+1
+;
+codec_settings
+.
 qpMax
 =
 63
