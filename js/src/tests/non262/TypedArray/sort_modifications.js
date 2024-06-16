@@ -14,17 +14,6 @@ Float64Array
 BigInt64Array
 BigUint64Array
 ]
-.
-concat
-(
-this
-.
-Float16Array
-?
-?
-[
-]
-)
 ;
 const
 sizes
