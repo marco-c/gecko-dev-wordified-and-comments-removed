@@ -19566,7 +19566,6 @@ password
 |
 this
 .
-#
 isProbablyANewPasswordField
 (
 input
@@ -20113,7 +20112,6 @@ WeakMap
 (
 )
 ;
-#
 isProbablyANewPasswordField
 (
 inputElement
