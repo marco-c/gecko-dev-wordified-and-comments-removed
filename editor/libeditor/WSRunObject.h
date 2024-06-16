@@ -5868,6 +5868,14 @@ VisibleWhiteSpacesData
 ;
 public
 :
+using
+InsertTextTo
+=
+EditorBase
+:
+:
+InsertTextTo
+;
 WhiteSpaceVisibilityKeeper
 (
 )
@@ -6421,6 +6429,8 @@ const
 EditorDOMPointType
 &
 aPointToInsert
+InsertTextTo
+aInsertTextTo
 const
 Element
 &
@@ -6439,6 +6449,7 @@ EditorDOMRange
 (
 aPointToInsert
 )
+aInsertTextTo
 aEditingHost
 )
 ;
@@ -6468,6 +6479,8 @@ const
 EditorDOMRange
 &
 aRangeToBeReplaced
+InsertTextTo
+aInsertTextTo
 const
 Element
 &

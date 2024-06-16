@@ -1136,6 +1136,10 @@ n
 "
 _ns
 pointToInsert
+InsertTextTo
+:
+:
+ExistingTextNodeIfAvailable
 )
 ;
 if
@@ -2293,6 +2297,10 @@ InsertTextWithTransaction
 document
 insertionString
 compositionStartPoint
+InsertTextTo
+:
+:
+ExistingTextNodeIfAvailable
 )
 ;
 if
@@ -2431,6 +2439,10 @@ InsertTextWithTransaction
 document
 insertionString
 atStartOfSelection
+InsertTextTo
+:
+:
+ExistingTextNodeIfAvailable
 )
 ;
 if

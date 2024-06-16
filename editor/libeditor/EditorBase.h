@@ -4665,6 +4665,15 @@ SelectionHandling
 aSelectionHandling
 )
 ;
+enum
+class
+InsertTextTo
+{
+ExistingTextNodeIfAvailable
+ExistingTextNodeIfAvailableAndNotStart
+AlwaysCreateNewTextNode
+}
+;
 [
 [
 nodiscard
@@ -4690,6 +4699,8 @@ const
 EditorDOMPoint
 &
 aPointToInsert
+InsertTextTo
+aInsertTextTo
 )
 ;
 [
