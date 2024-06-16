@@ -163,7 +163,7 @@ dnr
 .
 max_number_of_static_rulesets
 "
-50
+100
 )
 ;
 XPCOMUtils
