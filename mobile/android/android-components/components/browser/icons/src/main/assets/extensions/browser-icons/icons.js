@@ -368,8 +368,6 @@ location
 .
 href
 icons
-:
-icons
 }
 ;
 browser

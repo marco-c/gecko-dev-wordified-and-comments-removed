@@ -163,10 +163,6 @@ push
 (
 {
 name
-:
-name
-value
-:
 value
 }
 )

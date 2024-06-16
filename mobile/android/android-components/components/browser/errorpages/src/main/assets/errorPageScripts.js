@@ -359,7 +359,6 @@ none
 ;
 }
 else
-{
 if
 (
 showSSL
@@ -408,7 +407,6 @@ display
 none
 "
 ;
-}
 }
 }
 function
