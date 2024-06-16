@@ -2454,8 +2454,6 @@ DSO_PIC_CFLAGS
 =
 if
 test
--
-n
 "
 CC_TYPE
 "
