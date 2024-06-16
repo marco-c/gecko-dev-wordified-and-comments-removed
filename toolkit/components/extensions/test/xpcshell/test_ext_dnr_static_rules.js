@@ -5746,7 +5746,7 @@ limit
 .
 *
 "
-ruleset_10
+ruleset_20
 "
 /
 }
@@ -5764,7 +5764,7 @@ MAX_NUMBER_OF_ENABLED_STATIC_RULESETS
 .
 *
 "
-ruleset_10
+ruleset_20
 "
 /
 }
@@ -5810,10 +5810,10 @@ enableRulesetIds
 :
 [
 "
-ruleset_10
+ruleset_20
 "
 "
-ruleset_11
+ruleset_21
 "
 ]
 }
@@ -5956,7 +5956,7 @@ enableRulesetIds
 :
 [
 "
-ruleset_10
+ruleset_20
 "
 ]
 }
@@ -5965,14 +5965,14 @@ disableRulesetIds
 :
 [
 "
-ruleset_10
+ruleset_20
 "
 ]
 enableRulesetIds
 :
 [
 "
-ruleset_11
+ruleset_21
 "
 ]
 }
@@ -5997,7 +5997,7 @@ ruleset_0
 ;
 expectedEnabledRulesets
 .
-ruleset_11
+ruleset_21
 =
 getSchemaNormalizedRules
 (
@@ -6109,7 +6109,7 @@ disableRulesetIds
 :
 [
 "
-ruleset_11
+ruleset_21
 "
 ]
 }
@@ -6130,7 +6130,7 @@ done
 delete
 expectedEnabledRulesets
 .
-ruleset_11
+ruleset_21
 ;
 await
 assertDNRGetEnabledRulesets
