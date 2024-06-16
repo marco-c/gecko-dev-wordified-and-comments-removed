@@ -1254,6 +1254,16 @@ EqualsASCII
 kirin980
 "
 )
+|
+|
+hardware
+.
+EqualsASCII
+(
+"
+mt8696
+"
+)
 )
 {
 mTransformOverride
