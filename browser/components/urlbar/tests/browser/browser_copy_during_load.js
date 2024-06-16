@@ -253,7 +253,9 @@ null
 true
 )
 ;
-BrowserStop
+BrowserCommands
+.
+stop
 (
 )
 ;

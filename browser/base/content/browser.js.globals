@@ -102,9 +102,6 @@ HandleAppCommandEvent
 BrowserCommands
 "
 "
-BrowserStop
-"
-"
 kSkipCacheFlags
 "
 "

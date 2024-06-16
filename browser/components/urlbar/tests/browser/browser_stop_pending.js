@@ -626,7 +626,9 @@ null
 true
 )
 ;
-BrowserStop
+BrowserCommands
+.
+stop
 (
 )
 ;
@@ -1074,7 +1076,9 @@ null
 true
 )
 ;
-BrowserStop
+BrowserCommands
+.
+stop
 (
 )
 ;

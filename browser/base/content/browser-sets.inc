@@ -1046,7 +1046,9 @@ Stop
 oncommand
 =
 "
-BrowserStop
+BrowserCommands
+.
+stop
 (
 )
 ;
