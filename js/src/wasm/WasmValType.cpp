@@ -477,6 +477,9 @@ return
 true
 ;
 }
+#
+ifdef
+ENABLE_WASM_EXNREF
 if
 (
 ExnRefAvailable
@@ -511,6 +514,8 @@ true
 ;
 }
 }
+#
+endif
 #
 ifdef
 ENABLE_WASM_GC
