@@ -38,6 +38,15 @@ bounceTrackingPurgeTimerPeriodSec
 =
 0
 "
+"
+privacy
+.
+bounceTrackingProtection
+.
+enableDryRunMode
+=
+false
+"
 ]
 support
 -
