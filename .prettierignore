@@ -9848,7 +9848,9 @@ components
 /
 reader
 /
-test
+tests
+/
+browser
 /
 readerModeArticleMedium
 .
@@ -9859,7 +9861,9 @@ components
 /
 reader
 /
-test
+tests
+/
+browser
 /
 readerModeArticleShort
 .

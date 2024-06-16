@@ -4642,7 +4642,9 @@ components
 /
 reader
 /
-test
+tests
+/
+browser
 /
 browser
 .

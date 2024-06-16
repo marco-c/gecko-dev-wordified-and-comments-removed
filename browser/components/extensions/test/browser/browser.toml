@@ -374,7 +374,9 @@ components
 /
 reader
 /
-test
+tests
+/
+browser
 /
 readerModeNonArticle
 .
@@ -402,7 +404,9 @@ components
 /
 reader
 /
-test
+tests
+/
+browser
 /
 readerModeArticle
 .

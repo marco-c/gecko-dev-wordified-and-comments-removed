@@ -25,7 +25,9 @@ components
 /
 reader
 /
-test
+tests
+/
+browser
 /
 readerModeRandom
 .

@@ -22,7 +22,9 @@ components
 /
 reader
 /
-test
+tests
+/
+browser
 /
 readerModeArticle
 .

@@ -1898,7 +1898,7 @@ components
 /
 reader
 /
-test
+tests
 /
 "
 "
