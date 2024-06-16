@@ -3606,7 +3606,7 @@ Day
 largestUnit
 )
 ;
-Duration
+DateDuration
 dateDifference
 ;
 if
@@ -3726,10 +3726,6 @@ CreateNormalizedDurationRecord
 (
 cx
 dateDifference
-.
-toDateDuration
-(
-)
 timeDuration
 result
 )

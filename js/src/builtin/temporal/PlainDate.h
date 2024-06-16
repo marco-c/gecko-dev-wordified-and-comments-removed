@@ -853,7 +853,7 @@ PlainObject
 *
 >
 options
-Duration
+DateDuration
 *
 result
 )
@@ -898,7 +898,7 @@ PlainDateObject
 two
 TemporalUnit
 largestUnit
-Duration
+DateDuration
 *
 result
 )
