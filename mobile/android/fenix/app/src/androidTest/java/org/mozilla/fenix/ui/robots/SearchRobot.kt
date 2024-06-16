@@ -363,6 +363,18 @@ fenix
 .
 helpers
 .
+AppAndSystemHelper
+.
+registerAndCleanupIdlingResources
+import
+org
+.
+mozilla
+.
+fenix
+.
+helpers
+.
 Constants
 .
 LONG_CLICK_DURATION
@@ -4082,7 +4094,7 @@ enter
 button
 "
 )
-runWithIdleRes
+registerAndCleanupIdlingResources
 (
 sessionLoadedIdlingResource
 )

@@ -390,6 +390,18 @@ fenix
 .
 helpers
 .
+AppAndSystemHelper
+.
+registerAndCleanupIdlingResources
+import
+org
+.
+mozilla
+.
+fenix
+.
+helpers
+.
 Constants
 .
 RETRY_COUNT
@@ -778,7 +790,7 @@ sessionLoadedIdlingResource
 SessionLoadedIdlingResource
 (
 )
-runWithIdleRes
+registerAndCleanupIdlingResources
 (
 sessionLoadedIdlingResource
 )
@@ -950,7 +962,7 @@ engineView
 )
 waitingTime
 )
-runWithIdleRes
+registerAndCleanupIdlingResources
 (
 sessionLoadedIdlingResource
 )

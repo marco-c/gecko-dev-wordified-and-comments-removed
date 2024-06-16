@@ -427,6 +427,18 @@ fenix
 .
 helpers
 .
+AppAndSystemHelper
+.
+registerAndCleanupIdlingResources
+import
+org
+.
+mozilla
+.
+fenix
+.
+helpers
+.
 Constants
 import
 org
@@ -4729,7 +4741,7 @@ behavior
 .
 let
 {
-runWithIdleRes
+registerAndCleanupIdlingResources
 (
 BottomSheetBehaviorStateIdlingResource
 (
