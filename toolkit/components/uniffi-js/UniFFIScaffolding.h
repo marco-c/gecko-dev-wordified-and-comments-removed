@@ -53,7 +53,7 @@ mozilla
 dom
 {
 using
-ScaffoldingType
+UniFFIScaffoldingValue
 =
 OwningDoubleOrArrayBufferOrUniFFIPointer
 ;
@@ -78,7 +78,7 @@ aId
 const
 Sequence
 <
-ScaffoldingType
+UniFFIScaffoldingValue
 >
 &
 aArgs
@@ -100,7 +100,7 @@ aId
 const
 Sequence
 <
-ScaffoldingType
+UniFFIScaffoldingValue
 >
 &
 aArgs

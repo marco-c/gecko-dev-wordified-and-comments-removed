@@ -403,7 +403,7 @@ ArrayBuffer
 or
 UniFFIPointer
 )
-UniFFIScaffoldingType
+UniFFIScaffoldingValue
 ;
 /
 /
@@ -483,7 +483,7 @@ the
 serialized
 error
 value
-UniFFIScaffoldingType
+UniFFIScaffoldingValue
 data
 ;
 /
@@ -605,7 +605,7 @@ callAsync
 (
 UniFFIFunctionId
 id
-UniFFIScaffoldingType
+UniFFIScaffoldingValue
 .
 .
 .
@@ -652,7 +652,7 @@ callSync
 (
 UniFFIFunctionId
 id
-UniFFIScaffoldingType
+UniFFIScaffoldingValue
 .
 .
 .

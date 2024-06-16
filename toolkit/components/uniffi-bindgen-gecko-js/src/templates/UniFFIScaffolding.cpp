@@ -112,7 +112,7 @@ using
 dom
 :
 :
-ScaffoldingType
+UniFFIScaffoldingValue
 ;
 using
 dom
@@ -606,7 +606,7 @@ aId
 const
 Sequence
 <
-ScaffoldingType
+UniFFIScaffoldingValue
 >
 &
 aArgs
@@ -746,7 +746,7 @@ aId
 const
 Sequence
 <
-ScaffoldingType
+UniFFIScaffoldingValue
 >
 &
 aArgs

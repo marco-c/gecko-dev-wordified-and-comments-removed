@@ -168,7 +168,7 @@ const
 dom
 :
 :
-ScaffoldingType
+UniFFIScaffoldingValue
 &
 aValue
 )
@@ -500,7 +500,7 @@ aValue
 dom
 :
 :
-ScaffoldingType
+UniFFIScaffoldingValue
 &
 aDest
 )
@@ -552,7 +552,7 @@ const
 dom
 :
 :
-ScaffoldingType
+UniFFIScaffoldingValue
 &
 aValue
 )
@@ -647,7 +647,7 @@ aValue
 dom
 :
 :
-ScaffoldingType
+UniFFIScaffoldingValue
 &
 aDest
 )
@@ -711,7 +711,7 @@ const
 dom
 :
 :
-ScaffoldingType
+UniFFIScaffoldingValue
 &
 aValue
 )
@@ -830,7 +830,7 @@ aValue
 dom
 :
 :
-ScaffoldingType
+UniFFIScaffoldingValue
 &
 aDest
 )
