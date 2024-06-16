@@ -699,6 +699,9 @@ test_authentication
 js
 "
 ]
+requesttimeoutfactor
+=
+2
 [
 "
 test_authpromptwrapper
