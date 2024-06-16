@@ -636,13 +636,6 @@ py
 ]
 [
 "
-test_unhandled_prompt_behavior
-.
-py
-"
-]
-[
-"
 test_visibility
 .
 py
