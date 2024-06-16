@@ -136,6 +136,13 @@ no
 -
 cache
 "
+credentials
+:
+"
+same
+-
+origin
+"
 redirect
 :
 opts

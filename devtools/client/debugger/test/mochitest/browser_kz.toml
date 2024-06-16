@@ -2085,6 +2085,17 @@ browser_dbg
 -
 sourcemaps
 -
+credentials
+.
+js
+"
+]
+[
+"
+browser_dbg
+-
+sourcemaps
+-
 disabled
 .
 js
