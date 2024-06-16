@@ -364,6 +364,10 @@ webextensions
 talos
 -
 webgl
+-
+talos
+-
+pdfpaint
 #
 -
 talos
@@ -1756,6 +1760,10 @@ webextensions
 talos
 -
 webgl
+-
+talos
+-
+pdfpaint
 #
 -
 talos
@@ -2106,6 +2114,10 @@ webgl
 talos
 -
 tabswitch
+-
+talos
+-
+pdfpaint
 #
 -
 talos
