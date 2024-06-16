@@ -90,6 +90,17 @@ state
 import
 *
 as
+codemirrorSearch
+from
+"
+codemirror
+/
+search
+"
+;
+import
+*
+as
 codemirrorLanguage
 from
 "
@@ -167,6 +178,7 @@ export
 codemirror
 codemirrorView
 codemirrorState
+codemirrorSearch
 codemirrorLanguage
 codemirrorLangJavascript
 lezerHighlight
