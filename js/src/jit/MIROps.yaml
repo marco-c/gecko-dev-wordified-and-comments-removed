@@ -2736,7 +2736,10 @@ object
 Object
 result_type
 :
-Value
+Object
+guard
+:
+true
 congruent_to
 :
 if_operands_equal
