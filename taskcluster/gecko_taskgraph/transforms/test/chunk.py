@@ -506,7 +506,6 @@ guess_mozinfo_from_task
 (
             
 task
-            
 config
 .
 params
@@ -518,28 +517,6 @@ head_repository
 "
 "
 "
-)
-            
-config
-.
-params
-.
-get
-(
-"
-try_task_config
-"
-{
-}
-)
-.
-get
-(
-"
-env
-"
-{
-}
 )
         
 )
@@ -675,11 +652,6 @@ MOZHARNESS_TEST_PATHS
 )
         
 if
-(
-            
-mh_test_paths
-            
-and
 task
 [
 "
@@ -696,8 +668,6 @@ mh_test_paths
 .
 keys
 (
-)
-        
 )
 :
             
@@ -972,31 +942,6 @@ remaining_manifests
 ]
 :
                 
-continue
-        
-elif
-mh_test_paths
-:
-            
-continue
-        
-elif
-not
-task
-[
-"
-test
--
-manifests
-"
-]
-[
-"
-active
-"
-]
-:
-            
 continue
         
 if
