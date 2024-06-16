@@ -639,7 +639,7 @@ URI_MUST_LOAD_IN_CHILD
 }
 {
 "
-fingerprintingprotection
+fingerprinting
 "
 "
 chrome
