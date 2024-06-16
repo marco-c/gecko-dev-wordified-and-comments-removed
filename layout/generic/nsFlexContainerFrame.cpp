@@ -1333,7 +1333,10 @@ MainAxis
 )
 =
 =
-eAxisHorizontal
+PhysicalAxis
+:
+:
+Horizontal
 "
 Vertical
 column
@@ -8892,10 +8895,10 @@ MainAxis
 )
 =
 =
-mozilla
+PhysicalAxis
 :
 :
-eAxisHorizontal
+Horizontal
 ;
 nscoord
 marginTopOrLeftToBaseline

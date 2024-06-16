@@ -9075,7 +9075,10 @@ IsAuto
 !
 ShouldHonorMinSizeAutoInAxis
 (
-eAxisVertical
+PhysicalAxis
+:
+:
+Vertical
 )
 )
 {
@@ -9151,7 +9154,10 @@ IsAuto
 !
 ShouldHonorMinSizeAutoInAxis
 (
-eAxisHorizontal
+PhysicalAxis
+:
+:
+Horizontal
 )
 )
 {
