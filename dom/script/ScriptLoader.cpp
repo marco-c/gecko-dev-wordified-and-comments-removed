@@ -3009,7 +3009,7 @@ GetScriptLoadContext
 )
 -
 >
-GetScriptElement
+GetScriptElementForLoadingNode
 (
 )
 )
@@ -10623,7 +10623,7 @@ GetScriptLoadContext
 )
 -
 >
-GetScriptElement
+GetScriptElementForExecuteEvents
 (
 )
 )
@@ -10706,7 +10706,7 @@ GetScriptLoadContext
 )
 -
 >
-GetScriptElement
+GetScriptElementForCurrentParserInsertedScript
 (
 )
 ;
@@ -11030,7 +11030,7 @@ GetScriptLoadContext
 )
 -
 >
-GetScriptElement
+GetScriptElementForObserver
 (
 )
 aRequest
@@ -11094,7 +11094,7 @@ GetScriptLoadContext
 )
 -
 >
-GetScriptElement
+GetScriptElementForObserver
 (
 )
 ;
@@ -11181,7 +11181,7 @@ GetScriptLoadContext
 )
 -
 >
-GetScriptElement
+GetScriptElementForObserver
 (
 )
 ;
@@ -11218,7 +11218,7 @@ GetScriptLoadContext
 )
 -
 >
-GetScriptElement
+GetScriptElementForObserver
 (
 )
 ;
@@ -12543,7 +12543,7 @@ GetScriptLoadContext
 )
 -
 >
-GetScriptElement
+GetScriptElementForCurrentScript
 (
 )
 ;
@@ -17562,7 +17562,7 @@ GetScriptLoadContext
 )
 -
 >
-GetScriptElement
+GetScriptElementForUrlClassifier
 (
 )
 )
@@ -18056,7 +18056,7 @@ GetScriptLoadContext
 )
 -
 >
-GetScriptElement
+GetScriptElementForCurrentParserInsertedScript
 (
 )
 ;
