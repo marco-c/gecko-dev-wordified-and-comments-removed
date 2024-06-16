@@ -334,7 +334,7 @@ PrimitiveScratchBuffer
 )
 {
 let
-map_prim_to_surface
+map_prim_to_raster
 =
 frame_context
 .
@@ -351,7 +351,7 @@ raster_spatial_node_index
 let
 prim_is_2d_scale_translation
 =
-map_prim_to_surface
+map_prim_to_raster
 .
 is_2d_scale_translation
 (
@@ -360,7 +360,7 @@ is_2d_scale_translation
 let
 prim_is_2d_axis_aligned
 =
-map_prim_to_surface
+map_prim_to_raster
 .
 is_2d_axis_aligned
 (
@@ -1489,7 +1489,7 @@ spatial_tree
 let
 local_to_device
 =
-map_prim_to_surface
+map_prim_to_raster
 .
 as_2d_scale_offset
 (
