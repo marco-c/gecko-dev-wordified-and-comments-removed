@@ -3263,6 +3263,17 @@ SetNotificationCallbacks
 this
 )
 ;
+channel
+-
+>
+SetTRRMode
+(
+nsIRequest
+:
+:
+TRR_DISABLED_MODE
+)
+;
 if
 (
 NS_SUCCEEDED
