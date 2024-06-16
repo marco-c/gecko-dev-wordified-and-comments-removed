@@ -7607,12 +7607,6 @@ FLUSH_LAYOUT
 =
 1
 ;
-const
-long
-FLUSH_DISPLAY
-=
-2
-;
 /
 *
 *
