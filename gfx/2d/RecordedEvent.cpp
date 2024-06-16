@@ -304,6 +304,14 @@ DrawSurface
 "
 ;
 case
+DRAWSURFACEDESCRIPTOR
+:
+return
+"
+DrawSurfaceDescriptor
+"
+;
+case
 DRAWDEPENDENTSURFACE
 :
 return
