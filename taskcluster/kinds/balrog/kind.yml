@@ -111,6 +111,14 @@ repackage
 startup
 -
 test
+-
+release
+-
+balrog
+-
+submit
+-
+toplevel
 only
 -
 for
