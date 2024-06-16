@@ -49,6 +49,8 @@ tests
 import
 json
 import
+math
+import
 os
 import
 sys
@@ -435,6 +437,25 @@ run
 ]
 (
 )
+            
+if
+isinstance
+(
+ret
+float
+)
+and
+math
+.
+isnan
+(
+ret
+)
+:
+                
+ret
+=
+None
             
 send
 (
