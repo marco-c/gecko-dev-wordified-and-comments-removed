@@ -194,10 +194,11 @@ link_capacity_kbps
 =
 0
 ;
-int
+double
 loss_percent
 =
 0
+.
 ;
 bool
 allow_reordering
