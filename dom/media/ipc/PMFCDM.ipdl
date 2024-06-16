@@ -376,11 +376,6 @@ SessionType
 ]
 sessionTypes
 ;
-CryptoScheme
-[
-]
-encryptionSchemes
-;
 Requirement
 distinctiveID
 ;
