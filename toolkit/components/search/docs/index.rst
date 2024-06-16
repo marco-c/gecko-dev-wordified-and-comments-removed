@@ -248,6 +248,7 @@ toctree
 maxdepth
 :
 2
+SearchServiceHighlevelOverviewArchive
 SearchEngineConfigurationArchive
 SearchConfigurationSchemaArchive
 API
