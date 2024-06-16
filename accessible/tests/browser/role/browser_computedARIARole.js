@@ -168,6 +168,14 @@ div
 >
 <
 div
+role
+=
+"
+table
+"
+>
+<
+div
 id
 =
 "
@@ -181,6 +189,10 @@ rowgroup
 >
 ARIA
 rowgroup
+<
+/
+div
+>
 <
 /
 div
