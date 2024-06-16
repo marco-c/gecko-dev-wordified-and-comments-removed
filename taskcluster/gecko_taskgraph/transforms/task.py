@@ -91,6 +91,14 @@ taskgraph
 .
 util
 .
+copy
+import
+deepcopy
+from
+taskgraph
+.
+util
+.
 keyed_by
 import
 evaluate_keyed_by
@@ -172,14 +180,6 @@ import
 TRUNK_PROJECTS
 is_try
 release_level
-from
-gecko_taskgraph
-.
-util
-.
-copy_task
-import
-copy_task
 from
 gecko_taskgraph
 .
@@ -4849,7 +4849,7 @@ artifacts
     
 mounts
 =
-copy_task
+deepcopy
 (
 worker
 .

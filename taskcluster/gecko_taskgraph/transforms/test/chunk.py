@@ -23,6 +23,14 @@ taskgraph
 .
 util
 .
+copy
+import
+deepcopy
+from
+taskgraph
+.
+util
+.
 treeherder
 import
 join_symbol
@@ -56,14 +64,6 @@ get_runtimes
     
 guess_mozinfo_from_task
 )
-from
-gecko_taskgraph
-.
-util
-.
-copy_task
-import
-copy_task
 from
 gecko_taskgraph
 .
@@ -1602,7 +1602,7 @@ i
             
 chunked
 =
-copy_task
+deepcopy
 (
 task
 )

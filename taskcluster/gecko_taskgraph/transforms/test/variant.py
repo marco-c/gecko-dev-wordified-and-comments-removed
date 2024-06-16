@@ -15,6 +15,14 @@ taskgraph
 .
 util
 .
+copy
+import
+deepcopy
+from
+taskgraph
+.
+util
+.
 schema
 import
 Schema
@@ -42,14 +50,6 @@ util
 chunking
 import
 TEST_VARIANTS
-from
-gecko_taskgraph
-.
-util
-.
-copy_task
-import
-copy_task
 from
 gecko_taskgraph
 .
@@ -749,7 +749,7 @@ variant
 :
             
 yield
-copy_task
+deepcopy
 (
 task
 )
@@ -773,7 +773,7 @@ split
             
 taskv
 =
-copy_task
+deepcopy
 (
 task
 )

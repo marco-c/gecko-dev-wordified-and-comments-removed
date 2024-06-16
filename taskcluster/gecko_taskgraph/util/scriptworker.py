@@ -168,6 +168,14 @@ taskgraph
 .
 util
 .
+copy
+import
+deepcopy
+from
+taskgraph
+.
+util
+.
 schema
 import
 resolve_keyed_by
@@ -187,14 +195,6 @@ util
 yaml
 import
 load_yaml
-from
-gecko_taskgraph
-.
-util
-.
-copy_task
-import
-copy_task
 "
 "
 "
@@ -2607,7 +2607,7 @@ platform
     
 map_config
 =
-copy_task
+deepcopy
 (
 cached_load_yaml
 (
@@ -2932,7 +2932,7 @@ continue
             
 file_config
 =
-copy_task
+deepcopy
 (
 map_config
 [
@@ -3517,7 +3517,7 @@ platform
     
 map_config
 =
-copy_task
+deepcopy
 (
 cached_load_yaml
 (
@@ -3857,7 +3857,7 @@ continue
             
 file_config
 =
-copy_task
+deepcopy
 (
 map_config
 [
@@ -4128,7 +4128,7 @@ continue
         
 platforms
 =
-copy_task
+deepcopy
 (
 map_config
 .
@@ -4538,7 +4538,7 @@ platform
     
 map_config
 =
-copy_task
+deepcopy
 (
 cached_load_yaml
 (
@@ -4644,7 +4644,7 @@ platform
     
 platforms
 =
-copy_task
+deepcopy
 (
 map_config
 .
@@ -4800,7 +4800,7 @@ continue
             
 file_config
 =
-copy_task
+deepcopy
 (
 map_config
 [

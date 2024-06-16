@@ -11,6 +11,14 @@ taskgraph
 .
 util
 .
+copy
+import
+deepcopy
+from
+taskgraph
+.
+util
+.
 schema
 import
 Schema
@@ -39,14 +47,6 @@ transforms
 test
 import
 test_description_schema
-from
-gecko_taskgraph
-.
-util
-.
-copy_task
-import
-copy_task
 from
 gecko_taskgraph
 .
@@ -715,7 +715,7 @@ continue
             
 atest
 =
-copy_task
+deepcopy
 (
 test
 )
@@ -991,7 +991,7 @@ subtests
             
 chunked
 =
-copy_task
+deepcopy
 (
 test
 )
