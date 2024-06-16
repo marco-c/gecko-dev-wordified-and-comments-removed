@@ -5318,7 +5318,7 @@ SearchUtils
 .
 MODIFIED_TYPE
 .
-CHANGED
+ICON_CHANGED
 )
 ;
 }

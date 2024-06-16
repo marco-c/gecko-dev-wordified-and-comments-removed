@@ -1034,7 +1034,7 @@ now
 )
 ;
 let
-promiseEngineUpdated
+promiseIconChanged
 =
 SearchTestUtils
 .
@@ -1044,7 +1044,7 @@ SearchUtils
 .
 MODIFIED_TYPE
 .
-CHANGED
+ICON_CHANGED
 SearchUtils
 .
 TOPIC_ENGINE_MODIFIED
@@ -1100,7 +1100,7 @@ idle
 )
 ;
 await
-promiseEngineUpdated
+promiseIconChanged
 ;
 await
 assertEngineIcon
@@ -1190,7 +1190,7 @@ now
 )
 ;
 let
-promiseEngineUpdated
+promiseIconChanged
 =
 SearchTestUtils
 .
@@ -1200,7 +1200,7 @@ SearchUtils
 .
 MODIFIED_TYPE
 .
-CHANGED
+ICON_CHANGED
 SearchUtils
 .
 TOPIC_ENGINE_MODIFIED
@@ -1260,7 +1260,7 @@ idle
 )
 ;
 await
-promiseEngineUpdated
+promiseIconChanged
 ;
 await
 assertEngineIcon
@@ -1298,7 +1298,7 @@ null
 )
 ;
 let
-promiseEngineUpdated
+promiseIconChanged
 =
 SearchTestUtils
 .
@@ -1308,7 +1308,7 @@ SearchUtils
 .
 MODIFIED_TYPE
 .
-CHANGED
+ICON_CHANGED
 SearchUtils
 .
 TOPIC_ENGINE_MODIFIED
@@ -1326,7 +1326,7 @@ idle
 )
 ;
 await
-promiseEngineUpdated
+promiseIconChanged
 ;
 await
 assertEngineIcon
@@ -1368,7 +1368,7 @@ ico
 )
 ;
 let
-promiseEngineUpdated
+promiseIconChanged
 =
 SearchTestUtils
 .
@@ -1378,7 +1378,7 @@ SearchUtils
 .
 MODIFIED_TYPE
 .
-CHANGED
+ICON_CHANGED
 SearchUtils
 .
 TOPIC_ENGINE_MODIFIED
@@ -1396,7 +1396,7 @@ idle
 )
 ;
 await
-promiseEngineUpdated
+promiseIconChanged
 ;
 await
 assertEngineIcon

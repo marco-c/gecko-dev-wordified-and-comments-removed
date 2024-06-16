@@ -1113,6 +1113,15 @@ engine
 -
 changed
 "
+ICON_CHANGED
+:
+"
+engine
+-
+icon
+-
+changed
+"
 REMOVED
 :
 "

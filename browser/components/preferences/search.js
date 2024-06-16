@@ -3924,6 +3924,15 @@ engine
 changed
 "
 :
+case
+"
+engine
+-
+icon
+-
+changed
+"
+:
 this
 .
 updateEngine
