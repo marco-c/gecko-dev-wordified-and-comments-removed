@@ -1508,6 +1508,17 @@ override
 ;
 virtual
 void
+DOMNodeClass
+(
+nsString
+&
+aClass
+)
+const
+override
+;
+virtual
+void
 ScrollToPoint
 (
 uint32_t
