@@ -63,9 +63,12 @@ PatternKind
 ColorOrTexture
 =
 0
-Mask
+RadialGradient
 =
 1
+Mask
+=
+2
 }
 pub
 const
@@ -73,7 +76,7 @@ NUM_PATTERNS
 :
 u32
 =
-2
+3
 ;
 impl
 PatternKind
