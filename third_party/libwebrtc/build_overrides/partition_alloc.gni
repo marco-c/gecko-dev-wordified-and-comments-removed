@@ -121,3 +121,6 @@ partition_alloc
 gni
 "
 )
+assert_cpp20_default
+=
+true
