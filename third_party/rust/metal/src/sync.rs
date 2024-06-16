@@ -17,7 +17,7 @@ use
 std
 :
 :
-mem
+ptr
 ;
 #
 [
@@ -234,8 +234,14 @@ block
 .
 extra
 =
-&
+ptr
+:
+:
+addr_of
+!
+(
 BLOCK_EXTRA
+)
 ;
 let
 (

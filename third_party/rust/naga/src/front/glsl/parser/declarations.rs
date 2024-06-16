@@ -1188,7 +1188,7 @@ ctx
 .
 ctx
 .
-expression_constness
+local_expression_kind_tracker
 .
 is_const
 (
@@ -1547,6 +1547,9 @@ ctx
 .
 module
 false
+ctx
+.
+global_expression_kind_tracker
 )
 ?
 ;

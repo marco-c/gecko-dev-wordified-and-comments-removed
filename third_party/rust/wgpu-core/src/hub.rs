@@ -204,6 +204,9 @@ HalApi
 >
 {
 pub
+(
+crate
+)
 adapters
 :
 Registry
@@ -214,6 +217,9 @@ A
 >
 >
 pub
+(
+crate
+)
 devices
 :
 Registry
@@ -224,6 +230,9 @@ A
 >
 >
 pub
+(
+crate
+)
 queues
 :
 Registry
@@ -234,6 +243,9 @@ A
 >
 >
 pub
+(
+crate
+)
 pipeline_layouts
 :
 Registry
@@ -244,6 +256,9 @@ A
 >
 >
 pub
+(
+crate
+)
 shader_modules
 :
 Registry
@@ -254,6 +269,9 @@ A
 >
 >
 pub
+(
+crate
+)
 bind_group_layouts
 :
 Registry
@@ -264,6 +282,9 @@ A
 >
 >
 pub
+(
+crate
+)
 bind_groups
 :
 Registry
@@ -274,6 +295,9 @@ A
 >
 >
 pub
+(
+crate
+)
 command_buffers
 :
 Registry
@@ -284,6 +308,9 @@ A
 >
 >
 pub
+(
+crate
+)
 render_bundles
 :
 Registry
@@ -294,6 +321,9 @@ A
 >
 >
 pub
+(
+crate
+)
 render_pipelines
 :
 Registry
@@ -304,6 +334,9 @@ A
 >
 >
 pub
+(
+crate
+)
 compute_pipelines
 :
 Registry
@@ -314,6 +347,9 @@ A
 >
 >
 pub
+(
+crate
+)
 query_sets
 :
 Registry
@@ -324,6 +360,9 @@ A
 >
 >
 pub
+(
+crate
+)
 buffers
 :
 Registry
@@ -334,6 +373,9 @@ A
 >
 >
 pub
+(
+crate
+)
 staging_buffers
 :
 Registry
@@ -344,6 +386,9 @@ A
 >
 >
 pub
+(
+crate
+)
 textures
 :
 Registry
@@ -354,6 +399,9 @@ A
 >
 >
 pub
+(
+crate
+)
 texture_views
 :
 Registry
@@ -364,6 +412,9 @@ A
 >
 >
 pub
+(
+crate
+)
 samplers
 :
 Registry

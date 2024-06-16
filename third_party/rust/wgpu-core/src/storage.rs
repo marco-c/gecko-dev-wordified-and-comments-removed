@@ -101,6 +101,9 @@ Debug
 )
 ]
 pub
+(
+crate
+)
 struct
 Storage
 <

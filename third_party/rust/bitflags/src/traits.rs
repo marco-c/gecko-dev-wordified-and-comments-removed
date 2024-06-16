@@ -31,6 +31,13 @@ WriteHex
 }
 }
 ;
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 struct
 Flag

@@ -335,9 +335,9 @@ bitflags
 "
 2
 .
-4
+5
 .
-1
+0
 "
 and
 this

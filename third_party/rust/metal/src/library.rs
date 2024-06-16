@@ -5,12 +5,6 @@ super
 *
 ;
 use
-foreign_types
-:
-:
-ForeignType
-;
-use
 objc
 :
 :
@@ -18,7 +12,6 @@ runtime
 :
 :
 {
-Object
 BOOL
 NO
 YES
@@ -43,10 +36,7 @@ os
 raw
 :
 :
-{
 c_char
-c_void
-}
 ;
 use
 std
@@ -1451,6 +1441,12 @@ V2_3
 V2_4
 =
 0x20004
+V3_0
+=
+0x30000
+V3_1
+=
+0x30001
 }
 pub
 enum

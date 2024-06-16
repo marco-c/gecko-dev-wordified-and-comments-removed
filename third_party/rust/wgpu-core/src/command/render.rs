@@ -7159,6 +7159,14 @@ self
 ;
 let
 cmd_buf
+:
+Arc
+<
+CommandBuffer
+<
+A
+>
+>
 =
 CommandBuffer
 :
@@ -12463,7 +12471,7 @@ get
 (
 encoder_id
 .
-transmute
+into_command_buffer_id
 (
 )
 )

@@ -54,9 +54,6 @@ bytemuck
 #
 [
 macro_export
-(
-local_inner_macros
-)
 ]
 #
 [
@@ -147,6 +144,9 @@ it
 isn
 '
 t
+crate
+:
+:
 __impl_external_bitflags_serde
 !
 {
@@ -174,6 +174,9 @@ Flag
 *
 }
 }
+crate
+:
+:
 __impl_external_bitflags_arbitrary
 !
 {
@@ -201,6 +204,9 @@ Flag
 *
 }
 }
+crate
+:
+:
 __impl_external_bitflags_bytemuck
 !
 {
@@ -249,9 +255,6 @@ serde
 #
 [
 macro_export
-(
-local_inner_macros
-)
 ]
 #
 [
@@ -503,9 +506,6 @@ flags
 #
 [
 macro_export
-(
-local_inner_macros
-)
 ]
 #
 [
@@ -607,9 +607,6 @@ bytemuck
 #
 [
 macro_export
-(
-local_inner_macros
-)
 ]
 #
 [
@@ -766,9 +763,6 @@ flags
 #
 [
 macro_export
-(
-local_inner_macros
-)
 ]
 #
 [
@@ -841,9 +835,6 @@ tt
 #
 [
 macro_export
-(
-local_inner_macros
-)
 ]
 #
 [
@@ -1011,9 +1002,6 @@ Zeroable
 #
 [
 macro_export
-(
-local_inner_macros
-)
 ]
 #
 [

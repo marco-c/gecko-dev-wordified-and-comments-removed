@@ -11,6 +11,9 @@ raw
 c_void
 ;
 use
+crate
+:
+:
 base
 :
 :
@@ -55,6 +58,9 @@ CFAbsoluteTime
 CFTimeInterval
 ;
 extern
+"
+C
+"
 {
 pub
 static

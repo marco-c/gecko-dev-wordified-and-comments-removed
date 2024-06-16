@@ -125,7 +125,7 @@ version
 .
 19
 .
-0
+3
 "
 authors
 =
@@ -382,7 +382,7 @@ version
 .
 19
 .
-0
+3
 "
 path
 =
@@ -416,7 +416,7 @@ version
 .
 19
 .
-0
+2
 "
 path
 =
@@ -426,13 +426,6 @@ path
 /
 naga
 "
-features
-=
-[
-"
-clone
-"
-]
 [
 dependencies
 .
@@ -514,7 +507,7 @@ version
 .
 19
 .
-0
+2
 "
 path
 =

@@ -100,13 +100,6 @@ thiserror
 :
 Error
 ;
-#
-[
-derive
-(
-Default
-)
-]
 pub
 (
 crate
@@ -1489,8 +1482,10 @@ SubmissionIndex
 command_allocator
 :
 &
-mut
-super
+crate
+:
+:
+command
 :
 :
 CommandAllocator

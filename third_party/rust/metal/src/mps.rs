@@ -11,10 +11,7 @@ objc
 runtime
 :
 :
-{
 BOOL
-YES
-}
 ;
 #
 [

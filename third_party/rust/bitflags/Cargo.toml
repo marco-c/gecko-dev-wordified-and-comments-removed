@@ -123,9 +123,9 @@ version
 "
 2
 .
-4
+5
 .
-1
+0
 "
 authors
 =
@@ -141,9 +141,11 @@ exclude
 =
 [
 "
+/
 tests
 "
 "
+/
 .
 github
 "
