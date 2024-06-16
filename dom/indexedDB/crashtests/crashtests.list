@@ -26,13 +26,6 @@ skip
 -
 if
 (
-!
-is64Bit
-)
-skip
--
-if
-(
 Android
 )
 skip

@@ -193,16 +193,6 @@ load
 390476
 .
 html
-skip
--
-if
-(
-winWidget
-&
-&
-!
-is64Bit
-)
 load
 393746
 -
