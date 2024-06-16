@@ -236,7 +236,7 @@ object
 is
 maintained
 by
-WatcherRegistry
+ParentProcessWatcherRegistry
 in
 the
 parent
