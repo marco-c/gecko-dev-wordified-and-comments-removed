@@ -8336,17 +8336,6 @@ objOperandId
 (
 )
 ;
-bool
-constructing
-=
-icregs
-.
-cacheIRReader
-.
-readBool
-(
-)
-;
 JSObject
 *
 fun
@@ -8377,7 +8366,6 @@ FunctionFlags
 :
 HasJitEntryFlags
 (
-constructing
 )
 ;
 if
@@ -8461,7 +8449,6 @@ FunctionFlags
 :
 HasJitEntryFlags
 (
-false
 )
 ;
 if

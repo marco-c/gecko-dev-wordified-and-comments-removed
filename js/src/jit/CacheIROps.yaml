@@ -2523,9 +2523,6 @@ args
 fun
 :
 ObjId
-constructing
-:
-BoolImm
 -
 name
 :

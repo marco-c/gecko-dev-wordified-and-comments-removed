@@ -27494,8 +27494,6 @@ emitGuardFunctionHasJitEntry
 (
 ObjOperandId
 funId
-bool
-constructing
 )
 {
 JitSpew
@@ -27542,7 +27540,6 @@ masm
 branchIfFunctionHasNoJitEntry
 (
 fun
-constructing
 failure
 -
 >
@@ -27616,7 +27613,6 @@ masm
 branchIfFunctionHasJitEntry
 (
 obj
-false
 failure
 -
 >

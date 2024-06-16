@@ -6039,8 +6039,6 @@ emitGuardFunctionHasJitEntry
 (
 ObjOperandId
 funId
-bool
-constructing
 )
 {
 MDefinition
@@ -6060,7 +6058,6 @@ FunctionFlags
 :
 HasJitEntryFlags
 (
-constructing
 )
 ;
 uint16_t
@@ -6132,7 +6129,6 @@ FunctionFlags
 :
 HasJitEntryFlags
 (
-false
 )
 ;
 auto

@@ -2630,8 +2630,6 @@ branchIfFunctionHasNoJitEntry
 (
 Register
 fun
-bool
-isConstructing
 Label
 *
 label
@@ -2645,7 +2643,6 @@ FunctionFlags
 :
 HasJitEntryFlags
 (
-isConstructing
 )
 ;
 branchTestFunctionFlags
@@ -2668,8 +2665,6 @@ branchIfFunctionHasJitEntry
 (
 Register
 fun
-bool
-isConstructing
 Label
 *
 label
@@ -2683,7 +2678,6 @@ FunctionFlags
 :
 HasJitEntryFlags
 (
-isConstructing
 )
 ;
 branchTestFunctionFlags
