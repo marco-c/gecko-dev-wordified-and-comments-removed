@@ -134,6 +134,9 @@ _selectors
 }
 )
 ;
+const
+onTabOpened
+=
 addTab
 (
 "
@@ -276,6 +279,9 @@ ToolboxTask
 destroy
 (
 )
+;
+await
+onTabOpened
 ;
 }
 )
