@@ -342,11 +342,6 @@ size_t
 >
 mBlockSize
 ;
-size_t
-mLastBlockLength
-=
-0
-;
 }
 ;
 template
