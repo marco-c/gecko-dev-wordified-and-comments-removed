@@ -154,6 +154,12 @@ errorCodeString
 "
 "
 ;
+unsigned
+long
+channelStatus
+=
+0
+;
 OverridableErrorCategory
 overridableErrorCategory
 =

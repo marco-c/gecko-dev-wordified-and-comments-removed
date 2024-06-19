@@ -124,5 +124,11 @@ errorCodeString
 "
 "
 ;
+unsigned
+long
+channelStatus
+=
+0
+;
 }
 ;
