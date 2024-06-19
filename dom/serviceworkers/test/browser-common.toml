@@ -334,17 +334,3 @@ browser_userContextId_openWindow
 js
 "
 ]
-skip
--
-if
-=
-[
-"
-true
-"
-]
-#
-See
-bug
-1769437
-.
