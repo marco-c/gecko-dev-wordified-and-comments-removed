@@ -81,6 +81,3 @@ branding
 configure
 .
 sh
-MOZ_RAW
-=
-1
