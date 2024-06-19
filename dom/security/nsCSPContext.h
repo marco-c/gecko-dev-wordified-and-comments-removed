@@ -329,15 +329,6 @@ aViolationEventInit
 nsresult
 AsyncReportViolation
 (
-mozilla
-:
-:
-dom
-:
-:
-Element
-*
-aTriggeringElement
 nsICSPEventListener
 *
 aCSPEventListener
