@@ -174,9 +174,6 @@ const
 MatrixScalesDouble
 &
 aUserSpaceToFilterSpaceScale
-gfxRect
-&
-aFilterSpaceBoundsNotSnapped
 )
 :
 mFilter
@@ -267,10 +264,6 @@ ComputeBounds
 return
 ;
 }
-aFilterSpaceBoundsNotSnapped
-=
-mFilterSpaceBoundsNotSnapped
-;
 mInitialized
 =
 true
@@ -431,10 +424,6 @@ UserSpaceToFilterSpace
 (
 userSpaceBounds
 )
-;
-mFilterSpaceBoundsNotSnapped
-=
-filterSpaceBounds
 ;
 filterSpaceBounds
 .
