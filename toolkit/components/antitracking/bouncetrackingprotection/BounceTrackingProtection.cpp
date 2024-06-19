@@ -3426,6 +3426,7 @@ ClearDataCallback
 (
 clearPromise
 host
+bounceTime
 )
 ;
 MOZ_LOG
