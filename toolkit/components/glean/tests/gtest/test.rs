@@ -6,10 +6,7 @@ use
 firefox_on_glean
 :
 :
-{
 metrics
-pings
-}
 ;
 extern
 crate
