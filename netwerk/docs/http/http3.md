@@ -1571,7 +1571,6 @@ Session
 :
 TransactionHasDataToRecv
 is
-is
 executed
 with
 the
