@@ -319,6 +319,15 @@ PCanvasManager
 =
 8
 ;
+portNameToIndex
+[
+"
+PRemoteLazyInputStream
+"
+]
+=
+9
+;
 if
 (
 !
