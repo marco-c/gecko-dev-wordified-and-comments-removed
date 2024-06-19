@@ -354,9 +354,6 @@ nsAString
 &
 aViolatedDirectiveNameAndValue
 const
-CSPDirective
-aEffectiveDirective
-const
 nsAString
 &
 aObserverSubject

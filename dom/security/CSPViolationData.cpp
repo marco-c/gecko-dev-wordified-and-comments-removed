@@ -157,6 +157,9 @@ Resource
 &
 aResource
 const
+CSPDirective
+aEffectiveDirective
+const
 nsAString
 &
 aSourceFile
@@ -186,6 +189,10 @@ move
 (
 aResource
 )
+}
+mEffectiveDirective
+{
+aEffectiveDirective
 }
 mSourceFile
 {

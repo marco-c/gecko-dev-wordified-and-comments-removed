@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsIContentSecurityPolicy
+.
+h
+"
+#
+include
+"
 nsIURI
 .
 h
@@ -98,6 +105,9 @@ Resource
 &
 aResource
 const
+CSPDirective
+aEffectiveDirective
+const
 nsAString
 &
 aSourceFile
@@ -132,6 +142,10 @@ mViolatedPolicyIndex
 const
 Resource
 mResource
+;
+const
+CSPDirective
+mEffectiveDirective
 ;
 const
 nsString
