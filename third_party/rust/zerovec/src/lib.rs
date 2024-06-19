@@ -689,7 +689,7 @@ FlexZeroVec
 check_size_of
 !
 (
-32
+24
 Option
 <
 ZeroVec
@@ -703,6 +703,8 @@ check_size_of
 !
 (
 32
+|
+24
 Option
 <
 VarZeroVec
@@ -718,6 +720,8 @@ check_size_of
 64
 |
 56
+|
+48
 Option
 <
 ZeroMap
@@ -734,6 +738,8 @@ check_size_of
 120
 |
 104
+|
+96
 Option
 <
 ZeroMap2d
@@ -749,6 +755,8 @@ check_size_of
 !
 (
 32
+|
+24
 Option
 <
 vecs

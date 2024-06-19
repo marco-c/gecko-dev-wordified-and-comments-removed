@@ -186,7 +186,5 @@ lifetime_env
 }
 attrs
 :
-cfg
-:
-[
-]
+{
+}

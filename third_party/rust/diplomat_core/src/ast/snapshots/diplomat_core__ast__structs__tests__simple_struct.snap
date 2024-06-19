@@ -70,6 +70,13 @@ MyLocalStruct
 n
 }
 true
+&
+Default
+:
+:
+default
+(
+)
 )
 "
 -
@@ -154,7 +161,5 @@ output_only
 true
 attrs
 :
-cfg
-:
-[
-]
+{
+}

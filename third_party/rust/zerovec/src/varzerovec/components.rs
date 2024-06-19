@@ -915,9 +915,8 @@ len
 =
 len_ule
 .
-get
+first
 (
-0
 )
 .
 ok_or

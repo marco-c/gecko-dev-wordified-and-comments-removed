@@ -119,7 +119,11 @@ use
 lowering
 :
 :
+{
+ErrorAndContext
+ErrorContext
 LoweringError
+}
 ;
 pub
 use

@@ -90,6 +90,10 @@ for
 a
 T
 {
+#
+[
+inline
+]
 fn
 load_buffer
 (
@@ -148,6 +152,10 @@ Box
 T
 >
 {
+#
+[
+inline
+]
 fn
 load_buffer
 (
@@ -206,6 +214,10 @@ Rc
 T
 >
 {
+#
+[
+inline
+]
 fn
 load_buffer
 (
@@ -275,6 +287,10 @@ Arc
 T
 >
 {
+#
+[
+inline
+]
 fn
 load_buffer
 (

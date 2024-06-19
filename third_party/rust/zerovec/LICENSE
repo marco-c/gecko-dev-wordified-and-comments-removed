@@ -8,7 +8,7 @@ NOTICE
 Copyright
 2020
 -
-2023
+2024
 Unicode
 Inc
 .
@@ -346,6 +346,17 @@ the
 copyright
 holder
 .
+SPDX
+-
+License
+-
+Identifier
+:
+Unicode
+-
+3
+.
+0
 Portions
 of
 ICU4X

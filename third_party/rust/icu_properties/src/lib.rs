@@ -146,7 +146,9 @@ EastAsianWidth
 GeneralCategory
 GeneralCategoryGroup
 GraphemeClusterBreak
+HangulSyllableType
 IndicSyllabicCategory
+JoiningType
 LineBreak
 Script
 SentenceBreak

@@ -44,13 +44,6 @@ CodePointInversionListBuilder
 ;
 pub
 use
-conversions
-:
-:
-*
-;
-pub
-use
 cpinvlist
 :
 :

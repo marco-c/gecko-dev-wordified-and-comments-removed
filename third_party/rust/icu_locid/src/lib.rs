@@ -91,6 +91,9 @@ ordering
 mod
 parser
 ;
+mod
+shortvec
+;
 pub
 use
 langid
@@ -105,6 +108,13 @@ locale
 :
 Locale
 ;
+#
+[
+allow
+(
+deprecated
+)
+]
 pub
 use
 ordering

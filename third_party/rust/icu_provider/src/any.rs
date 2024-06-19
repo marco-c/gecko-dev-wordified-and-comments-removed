@@ -1414,6 +1414,10 @@ for
 a
 T
 {
+#
+[
+inline
+]
 fn
 load_any
 (
@@ -1469,6 +1473,10 @@ Box
 T
 >
 {
+#
+[
+inline
+]
 fn
 load_any
 (
@@ -1524,6 +1532,10 @@ Rc
 T
 >
 {
+#
+[
+inline
+]
 fn
 load_any
 (
@@ -1590,6 +1602,10 @@ Arc
 T
 >
 {
+#
+[
+inline
+]
 fn
 load_any
 (

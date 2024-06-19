@@ -26,10 +26,10 @@ Hasher
 }
 ;
 use
-t1ha
+twox_hash
 :
 :
-T1haHasher
+XxHash64
 ;
 const
 SEED
@@ -119,7 +119,7 @@ let
 mut
 hasher
 =
-T1haHasher
+XxHash64
 :
 :
 with_seed

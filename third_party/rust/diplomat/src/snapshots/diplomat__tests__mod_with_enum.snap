@@ -87,6 +87,14 @@ repr
 C
 )
 ]
+#
+[
+derive
+(
+Clone
+Copy
+)
+]
 enum
 Abc
 {
@@ -112,6 +120,12 @@ unimplemented
 )
 }
 }
+use
+diplomat_runtime
+:
+:
+*
+;
 #
 [
 no_mangle

@@ -156,6 +156,12 @@ unimplemented
 )
 }
 }
+use
+diplomat_runtime
+:
+:
+*
+;
 #
 [
 no_mangle

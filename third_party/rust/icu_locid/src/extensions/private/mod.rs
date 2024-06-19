@@ -40,15 +40,6 @@ use
 crate
 :
 :
-helpers
-:
-:
-ShortSlice
-;
-use
-crate
-:
-:
 parser
 :
 :
@@ -62,6 +53,15 @@ parser
 :
 :
 SubtagIterator
+;
+use
+crate
+:
+:
+shortvec
+:
+:
+ShortBoxSlice
 ;
 #
 [
@@ -81,7 +81,7 @@ pub
 struct
 Private
 (
-ShortSlice
+ShortBoxSlice
 <
 Subtag
 >
@@ -106,7 +106,7 @@ Self
 {
 Self
 (
-ShortSlice
+ShortBoxSlice
 :
 :
 new
@@ -153,7 +153,7 @@ Self
 {
 Self
 (
-ShortSlice
+ShortBoxSlice
 :
 :
 new_single
@@ -220,7 +220,7 @@ collect
 <
 Result
 <
-ShortSlice
+ShortBoxSlice
 <
 _
 >

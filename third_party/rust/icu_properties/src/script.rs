@@ -493,10 +493,14 @@ Script
 >
 }
 impl
+<
+'
+a
+>
 ScriptExtensionsSet
 <
 '
-_
+a
 >
 {
 pub
@@ -547,7 +551,7 @@ Script
 >
 +
 '
-_
+a
 {
 ZeroSlice
 :

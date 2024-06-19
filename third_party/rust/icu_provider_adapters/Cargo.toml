@@ -121,7 +121,7 @@ version
 "
 1
 .
-4
+5
 .
 0
 "
@@ -232,11 +232,13 @@ internationalization
 "
 ]
 license
--
-file
 =
 "
-LICENSE
+Unicode
+-
+3
+.
+0
 "
 repository
 =
@@ -267,7 +269,7 @@ version
 .
 1
 .
-7
+8
 "
 features
 =
@@ -295,7 +297,7 @@ version
 ~
 1
 .
-4
+5
 .
 0
 "
@@ -322,7 +324,7 @@ version
 ~
 1
 .
-4
+5
 .
 0
 "
@@ -342,7 +344,7 @@ version
 ~
 1
 .
-4
+5
 .
 0
 "
@@ -369,6 +371,8 @@ version
 1
 .
 0
+.
+110
 "
 features
 =
@@ -400,7 +404,7 @@ version
 .
 7
 .
-4
+5
 "
 features
 =
@@ -426,7 +430,7 @@ version
 .
 10
 .
-1
+2
 "
 features
 =

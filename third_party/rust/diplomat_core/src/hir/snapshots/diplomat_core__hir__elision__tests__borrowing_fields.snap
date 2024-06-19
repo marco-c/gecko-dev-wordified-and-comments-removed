@@ -14,7 +14,7 @@ elision
 rs
 expression
 :
-map
+lt_to_borrowing_fields
 -
 -
 -
@@ -33,7 +33,7 @@ _s
 ]
 NonStatic
 (
-MethodLifetime
+Lifetime
 (
 0
 )
@@ -48,7 +48,7 @@ p_data
 ]
 NonStatic
 (
-MethodLifetime
+Lifetime
 (
 1
 )

@@ -4,6 +4,14 @@
 no_std
 ]
 #
+!
+[
+doc
+(
+html_no_source
+)
+]
+#
 [
 cfg
 (

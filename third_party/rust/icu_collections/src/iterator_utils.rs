@@ -415,7 +415,7 @@ iter_ranges
 {
 builder
 .
-add_range_u32
+add_range32
 (
 &
 range
@@ -432,7 +432,7 @@ iter_ranges_complemented
 {
 builder_complement
 .
-add_range_u32
+add_range32
 (
 &
 range
@@ -542,7 +542,7 @@ value
 {
 builder
 .
-add_range_u32
+add_range32
 (
 &
 range
@@ -560,7 +560,7 @@ value
 {
 builder_complement
 .
-add_range_u32
+add_range32
 (
 &
 range

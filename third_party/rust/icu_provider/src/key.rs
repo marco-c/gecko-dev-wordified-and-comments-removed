@@ -732,11 +732,10 @@ from_utf8_unchecked
 core
 :
 :
-mem
+slice
 :
 :
-transmute
-(
+from_raw_parts
 (
 self
 .
@@ -781,7 +780,6 @@ leading_tag
 .
 len
 (
-)
 )
 )
 )

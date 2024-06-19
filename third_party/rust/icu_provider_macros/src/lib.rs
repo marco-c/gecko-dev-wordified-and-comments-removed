@@ -1235,14 +1235,10 @@ let
 name_with_lt
 =
 if
+!
 lifetimes
 .
-get
-(
-0
-)
-.
-is_some
+is_empty
 (
 )
 {

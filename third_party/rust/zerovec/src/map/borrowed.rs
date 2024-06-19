@@ -28,7 +28,6 @@ core
 :
 fmt
 ;
-pub
 use
 super
 :
@@ -38,7 +37,6 @@ kv
 :
 ZeroMapKV
 ;
-pub
 use
 super
 :
@@ -46,10 +44,7 @@ super
 vecs
 :
 :
-{
-MutableZeroVecLike
 ZeroVecLike
-}
 ;
 pub
 struct

@@ -98,6 +98,14 @@ repr
 C
 )
 ]
+#
+[
+derive
+(
+Clone
+Copy
+)
+]
 struct
 Foo
 {
@@ -128,6 +136,12 @@ unimplemented
 )
 }
 }
+use
+diplomat_runtime
+:
+:
+*
+;
 #
 [
 no_mangle
