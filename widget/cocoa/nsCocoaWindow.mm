@@ -3469,10 +3469,6 @@ GetTransparencyMode
 NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 return
-!
-mWindow
-|
-|
 mWindow
 .
 isOpaque
