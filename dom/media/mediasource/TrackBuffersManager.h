@@ -2323,6 +2323,15 @@ TaskQueue
 >
 mTaskQueueCapability
 ;
+Maybe
+<
+media
+:
+:
+TimeUnit
+>
+mFrameEndTimeBeforeRecreateDemuxer
+;
 }
 ;
 }
