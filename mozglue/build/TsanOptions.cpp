@@ -932,6 +932,13 @@ so
 \
 n
 "
+"
+race
+:
+LaunchAppWithForkServer
+\
+n
+"
 ;
 }
 #
