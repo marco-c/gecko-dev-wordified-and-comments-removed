@@ -1010,9 +1010,7 @@ this
 .
 browsingContext
 .
-top
-.
-embedderElement
+topChromeWindow
 ;
 this
 .
@@ -4978,7 +4976,7 @@ in
 *
 param
 {
-Element
+string
 }
 url
 *
@@ -4992,7 +4990,7 @@ opened
 *
 param
 {
-Element
+string
 }
 where
 *
