@@ -474,6 +474,7 @@ GlyphRasterizer
 new
 (
 workers
+None
 false
 )
 ;

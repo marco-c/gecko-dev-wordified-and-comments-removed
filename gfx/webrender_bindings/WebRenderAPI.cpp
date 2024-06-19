@@ -849,6 +849,15 @@ ThreadPoolLP
 Raw
 (
 )
+aRenderThread
+.
+GlyphRasterThread
+(
+)
+.
+Raw
+(
+)
 &
 WebRenderMallocSizeOf
 &
