@@ -210,6 +210,7 @@ MOZ_EXPORT
 bool
 uprofiler_backtrace_into_buffer
 (
+struct
 NativeStack
 *
 stack
@@ -227,6 +228,7 @@ const
 void
 *
 top
+struct
 NativeStack
 *
 stack
@@ -506,6 +508,7 @@ bool
 backtrace_into_buffer
 )
 (
+struct
 NativeStack
 *
 stack
@@ -524,6 +527,7 @@ const
 void
 *
 top
+struct
 NativeStack
 *
 stack
@@ -685,6 +689,7 @@ static
 bool
 backtrace_into_buffer_noop
 (
+struct
 NativeStack
 *
 stack
@@ -705,6 +710,7 @@ const
 void
 *
 top
+struct
 NativeStack
 *
 stack
