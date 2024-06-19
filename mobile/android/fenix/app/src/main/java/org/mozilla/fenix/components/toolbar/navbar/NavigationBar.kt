@@ -914,6 +914,9 @@ onTabsButtonClick
 tabCount
 =
 tabCount
+isPrivateMode
+=
+isPrivateMode
 )
 MenuButton
 (
@@ -1254,6 +1257,9 @@ onTabsButtonClick
 tabCount
 =
 tabCount
+isPrivateMode
+=
+isPrivateMode
 )
 MenuButton
 (
@@ -2117,6 +2123,9 @@ Unit
 tabCount
 :
 Int
+isPrivateMode
+:
+Boolean
 )
 {
 CompositionLocalProvider
@@ -2146,6 +2155,16 @@ TabCounter
 tabCount
 =
 tabCount
+showPrivacyBadge
+=
+isPrivateMode
+&
+&
+components
+.
+settings
+.
+feltPrivateBrowsingEnabled
 )
 }
 }
