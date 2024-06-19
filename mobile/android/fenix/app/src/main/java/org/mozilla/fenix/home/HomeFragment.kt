@@ -3424,6 +3424,16 @@ reinitializeNavBar
 :
 :
 reinitializeNavBar
+reinitializeMicrosurveyPrompt
+=
+{
+initializeMicrosurveyPrompt
+(
+requireContext
+(
+)
+)
+}
 )
 }
 /

@@ -10885,6 +10885,11 @@ reinitializeNavBar
 :
 :
 reinitializeNavBar
+reinitializeMicrosurveyPrompt
+=
+:
+:
+reinitializeMicrosurveyPrompt
 )
 }
 /
