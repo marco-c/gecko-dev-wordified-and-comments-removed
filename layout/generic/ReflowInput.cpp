@@ -5005,9 +5005,13 @@ nsHypotheticalPosition
 {
 nscoord
 mIStart
+=
+0
 ;
 nscoord
 mBStart
+=
+0
 ;
 WritingMode
 mWritingMode
@@ -5654,9 +5658,6 @@ ReflowInput
 :
 CalculateHypotheticalPosition
 (
-nsPresContext
-*
-aPresContext
 nsPlaceholderFrame
 *
 aPlaceholderFrame
@@ -5667,8 +5668,6 @@ aCBReflowInput
 nsHypotheticalPosition
 &
 aHypotheticalPos
-LayoutFrameType
-aFrameType
 )
 const
 {
@@ -6195,6 +6194,7 @@ true
 else
 {
 auto
+*
 prev
 =
 aPlaceholderFrame
@@ -6218,6 +6218,7 @@ IsPlaceholderFrame
 )
 {
 auto
+*
 ph
 =
 static_cast
@@ -7225,9 +7226,6 @@ ReflowInput
 :
 InitAbsoluteConstraints
 (
-nsPresContext
-*
-aPresContext
 const
 ReflowInput
 *
@@ -7236,8 +7234,6 @@ const
 LogicalSize
 &
 aCBSize
-LayoutFrameType
-aFrameType
 )
 {
 WritingMode
@@ -7280,13 +7276,13 @@ constrained
 ;
 NS_ASSERTION
 (
-aFrameType
 !
-=
-LayoutFrameType
-:
-:
-Table
+mFrame
+-
+>
+IsTableFrame
+(
+)
 "
 InitAbsoluteConstraints
 should
@@ -7635,11 +7631,9 @@ else
 {
 CalculateHypotheticalPosition
 (
-aPresContext
 placeholderFrame
 aCBReflowInput
 hypotheticalPos
-aFrameType
 )
 ;
 if
@@ -7779,8 +7773,6 @@ aCBSize
 ;
 LogicalMargin
 offsets
-=
-ComputedLogicalOffsets
 (
 cbwm
 )
@@ -10925,7 +10917,6 @@ GetPrevInFlow
 {
 InitAbsoluteConstraints
 (
-aPresContext
 cbri
 cbSize
 .
@@ -10939,7 +10930,6 @@ GetWritingMode
 )
 wm
 )
-aFrameType
 )
 ;
 }
