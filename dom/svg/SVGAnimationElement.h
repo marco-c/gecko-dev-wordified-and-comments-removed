@@ -292,6 +292,11 @@ ActivateByHyperlink
 (
 )
 ;
+bool
+IsDisabled
+(
+)
+;
 SVGElement
 *
 GetTargetElement

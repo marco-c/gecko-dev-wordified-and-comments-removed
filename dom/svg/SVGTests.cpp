@@ -334,6 +334,7 @@ return
 false
 ;
 }
+static
 int32_t
 FindBestLanguage
 (
