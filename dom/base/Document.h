@@ -12572,8 +12572,6 @@ aParams
 )
 const
 ;
-private
-:
 EditorBase
 *
 GetTargetEditor
@@ -12581,6 +12579,8 @@ GetTargetEditor
 )
 const
 ;
+private
+:
 RefPtr
 <
 EditorBase

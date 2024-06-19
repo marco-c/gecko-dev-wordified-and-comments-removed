@@ -2741,3 +2741,10 @@ test_undo_with_editingui
 html
 "
 ]
+[
+"
+test_updating_input_value_during_composition
+.
+html
+"
+]
