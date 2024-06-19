@@ -186,6 +186,13 @@ js
 ]
 [
 "
+test_prefFlips
+.
+js
+"
+]
+[
+"
 test_schema_uris
 .
 js
