@@ -7772,6 +7772,13 @@ insert
 :
 value
 }
+selection
+:
+{
+anchor
+:
+0
+}
 }
 )
 ;
