@@ -1759,6 +1759,15 @@ TransitionType
 >
 mTransitionsPending
 ;
+RefPtr
+<
+mozilla
+:
+:
+CancelableRunnable
+>
+mProcessTransitionsPending
+;
 bool
 mIsTransitionCurrentAdded
 =
