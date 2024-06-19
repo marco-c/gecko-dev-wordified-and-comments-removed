@@ -1581,7 +1581,6 @@ dnl
 =
 =
 MOZ_ARCH_OPTS
-MOZ_CONFIG_SANITIZE
 dnl
 =
 =
