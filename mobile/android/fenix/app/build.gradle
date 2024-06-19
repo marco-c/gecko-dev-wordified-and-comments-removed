@@ -7065,13 +7065,13 @@ in
 app
 reviews
 implementation
-FenixDependencies
+ComponentsDependencies
 .
-google_play_review
+play_review
 implementation
-FenixDependencies
+ComponentsDependencies
 .
-google_play_review_ktx
+play_review_ktx
 implementation
 FenixDependencies
 .
