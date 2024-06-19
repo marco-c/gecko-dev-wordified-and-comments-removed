@@ -6237,16 +6237,6 @@ profile
 location
 .
 #
--
-MOZ_PROFILE_MIGRATOR
-:
-When
-set
-enables
-profile
-migrator
-.
-#
 The
 following
 environment
@@ -6536,10 +6526,6 @@ MAR_CHANNEL_ID
 AC_SUBST
 (
 ACCEPTED_MAR_CHANNEL_IDS
-)
-AC_SUBST
-(
-MOZ_PROFILE_MIGRATOR
 )
 AC_DEFINE_UNQUOTED
 (

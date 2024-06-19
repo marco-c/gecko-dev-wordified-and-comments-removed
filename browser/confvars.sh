@@ -273,6 +273,3 @@ browser
 branding
 /
 official
-MOZ_PROFILE_MIGRATOR
-=
-1
