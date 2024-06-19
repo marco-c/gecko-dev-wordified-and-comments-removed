@@ -5946,6 +5946,17 @@ atNaturalBreak
 haveHyphenation
 &
 &
+(
+!
+aLineBreakBefore
+|
+|
+i
+>
+aStart
+)
+&
+&
 IsOptionalHyphenBreak
 (
 hyphenBuffer
