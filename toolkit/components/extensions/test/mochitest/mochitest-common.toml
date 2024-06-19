@@ -3017,9 +3017,6 @@ test_ext_webrequest_worker
 html
 "
 ]
-https_first_disabled
-=
-true
 [
 "
 test_ext_window_postMessage

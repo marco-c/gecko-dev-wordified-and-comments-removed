@@ -39,7 +39,7 @@ mochitests
 content
 "
 "
-https
+http
 :
 /
 /
@@ -74,7 +74,7 @@ BrowserTestUtils
 withNewTab
 (
 "
-https
+http
 :
 /
 /
@@ -274,7 +274,7 @@ BrowserTestUtils
 withNewTab
 (
 "
-https
+http
 :
 /
 /
