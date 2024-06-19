@@ -189,9 +189,9 @@ mozilla_glean
 "
 60
 .
-1
+3
 .
-1
+0
 "
 const
 val
