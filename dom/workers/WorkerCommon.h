@@ -78,6 +78,17 @@ aWindow
 )
 ;
 void
+UpdateWorkersBackgroundState
+(
+const
+nsPIDOMWindowInner
+&
+aWindow
+bool
+aIsBackground
+)
+;
+void
 FreezeWorkersForWindow
 (
 const
