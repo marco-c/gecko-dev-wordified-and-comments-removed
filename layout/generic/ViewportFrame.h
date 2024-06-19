@@ -201,14 +201,6 @@ aStatus
 )
 override
 ;
-ScrollContainerFrame
-*
-GetScrollTargetFrame
-(
-)
-const
-override
-;
 bool
 ComputeCustomOverflow
 (
