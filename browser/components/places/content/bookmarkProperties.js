@@ -1317,6 +1317,7 @@ _action
 case
 ACTION_EDIT
 :
+{
 await
 gEditItemOverlay
 .
@@ -1349,9 +1350,11 @@ readOnly
 ;
 break
 ;
+}
 case
 ACTION_ADD
 :
+{
 this
 .
 _node
@@ -1389,6 +1392,18 @@ focusedElement
 "
 first
 "
+addedMultipleBookmarks
+:
+this
+.
+_node
+.
+children
+?
+.
+length
+>
+1
 }
 )
 ;
@@ -1448,6 +1463,7 @@ _inputIsValid
 }
 break
 ;
+}
 }
 if
 (
