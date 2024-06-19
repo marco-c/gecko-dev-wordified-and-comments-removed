@@ -412,6 +412,11 @@ createDialogClosedEvent
 areLeaving
 :
 true
+promptType
+:
+prompt
+.
+type
 value
 :
 prompt
@@ -444,6 +449,11 @@ createDialogClosedEvent
 areLeaving
 :
 false
+promptType
+:
+prompt
+.
+type
 }
 )
 )
