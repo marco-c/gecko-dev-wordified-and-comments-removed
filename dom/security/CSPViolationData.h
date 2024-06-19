@@ -85,6 +85,10 @@ Resource
 &
 &
 aResource
+const
+nsAString
+&
+aSourceFile
 uint32_t
 aLineNumber
 uint32_t
@@ -108,6 +112,10 @@ mViolatedPolicyIndex
 const
 Resource
 mResource
+;
+const
+nsString
+mSourceFile
 ;
 const
 uint32_t

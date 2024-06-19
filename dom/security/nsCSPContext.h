@@ -270,10 +270,6 @@ aCSPViolationData
 const
 nsAString
 &
-aSourceFile
-const
-nsAString
-&
 aScriptSample
 mozilla
 :
@@ -373,10 +369,6 @@ const
 nsAString
 &
 aObserverSubject
-const
-nsAString
-&
-aSourceFile
 bool
 aReportSample
 )

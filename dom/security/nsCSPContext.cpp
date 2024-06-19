@@ -1170,6 +1170,7 @@ move
 (
 resource
 )
+spec
 lineNumber
 columnNumber
 u
@@ -1197,7 +1198,6 @@ u
 "
 "
 _ns
-spec
 false
 )
 ;
@@ -2780,6 +2780,7 @@ BlockedContentSource
 :
 Inline
 }
+sourceFile
 lineNumber
 columnNumber
 aSample
@@ -2801,7 +2802,6 @@ aViolatedDirective
 aViolatedDirectiveString
 aEffectiveDirective
 observerSubject
-sourceFile
 aReportSample
 )
 ;
@@ -3460,6 +3460,7 @@ Resource
 {
 blockedContentSource
 }
+aSourceFile
 static_cast
 <
 uint32_t
@@ -3496,7 +3497,6 @@ CSPDirective
 :
 SCRIPT_SRC_DIRECTIVE
 observerSubject
-aSourceFile
 reportSample
 )
 ;
@@ -4379,10 +4379,6 @@ aCSPViolationData
 const
 nsAString
 &
-aSourceFile
-const
-nsAString
-&
 aScriptSample
 mozilla
 :
@@ -4588,7 +4584,9 @@ originalPolicy
 if
 (
 !
-aSourceFile
+aCSPViolationData
+.
+mSourceFile
 .
 IsEmpty
 (
@@ -4607,7 +4605,9 @@ getter_AddRefs
 (
 sourceURI
 )
-aSourceFile
+aCSPViolationData
+.
+mSourceFile
 )
 ;
 if
@@ -4641,7 +4641,9 @@ aViolationEventInit
 .
 mSourceFile
 =
-aSourceFile
+aCSPViolationData
+.
+mSourceFile
 ;
 }
 }
@@ -6278,10 +6280,6 @@ const
 nsAString
 &
 aObserverSubject
-const
-nsAString
-&
-aSourceFile
 bool
 aReportSample
 nsCSPContext
@@ -6339,10 +6337,6 @@ aViolatedDirectiveNameAndValue
 mEffectiveDirective
 (
 aEffectiveDirective
-)
-mSourceFile
-(
-aSourceFile
 )
 mCSPContext
 (
@@ -6523,7 +6517,6 @@ GatherSecurityPolicyViolationEventData
 mOriginalURI
 effectiveDirective
 mCSPViolationData
-mSourceFile
 mReportSample
 ?
 mCSPViolationData
@@ -6786,6 +6779,8 @@ logToConsole
 (
 errorName
 params
+mCSPViolationData
+.
 mSourceFile
 mCSPViolationData
 .
@@ -6842,6 +6837,8 @@ CSPROEvalScriptViolation
 CSPEvalScriptViolation
 "
 params
+mCSPViolationData
+.
 mSourceFile
 mCSPViolationData
 .
@@ -6898,6 +6895,8 @@ CSPROWasmEvalScriptViolation
 CSPWasmEvalScriptViolation
 "
 params
+mCSPViolationData
+.
 mSourceFile
 mCSPViolationData
 .
@@ -7173,6 +7172,8 @@ logToConsole
 (
 errorName
 params
+mCSPViolationData
+.
 mSourceFile
 mCSPViolationData
 .
@@ -7234,9 +7235,6 @@ nsISupports
 >
 mObserverSubject
 ;
-nsString
-mSourceFile
-;
 RefPtr
 <
 nsCSPContext
@@ -7291,10 +7289,6 @@ const
 nsAString
 &
 aObserverSubject
-const
-nsAString
-&
-aSourceFile
 bool
 aReportSample
 )
@@ -7351,7 +7345,6 @@ aViolatedDirectiveName
 aViolatedDirectiveNameAndValue
 aEffectiveDirective
 aObserverSubject
-aSourceFile
 aReportSample
 this
 )
