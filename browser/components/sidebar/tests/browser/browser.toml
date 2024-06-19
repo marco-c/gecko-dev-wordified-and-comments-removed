@@ -77,6 +77,13 @@ js
 ]
 [
 "
+browser_sidebar_panel_header
+.
+js
+"
+]
+[
+"
 browser_sidebar_prefs
 .
 js
