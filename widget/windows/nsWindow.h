@@ -3224,6 +3224,11 @@ mResizable
 false
 ;
 bool
+mHasBeenShown
+=
+false
+;
+bool
 mIsAlert
 =
 false
