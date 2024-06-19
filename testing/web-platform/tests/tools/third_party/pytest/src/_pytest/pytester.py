@@ -24,12 +24,26 @@ collections
 abc
 import
 contextlib
+from
+fnmatch
+import
+fnmatch
 import
 gc
 import
 importlib
+from
+io
+import
+StringIO
+import
+locale
 import
 os
+from
+pathlib
+import
+Path
 import
 platform
 import
@@ -43,18 +57,6 @@ sys
 import
 traceback
 from
-fnmatch
-import
-fnmatch
-from
-io
-import
-StringIO
-from
-pathlib
-import
-Path
-from
 typing
 import
 Any
@@ -66,6 +68,14 @@ from
 typing
 import
 Dict
+from
+typing
+import
+Final
+from
+typing
+import
+final
 from
 typing
 import
@@ -82,6 +92,10 @@ from
 typing
 import
 List
+from
+typing
+import
+Literal
 from
 typing
 import
@@ -142,12 +156,6 @@ _pytest
 capture
 import
 _get_multicapture
-from
-_pytest
-.
-compat
-import
-final
 from
 _pytest
 .
@@ -275,12 +283,6 @@ _pytest
 .
 pathlib
 import
-copytree
-from
-_pytest
-.
-pathlib
-import
 make_numbered_dir
 from
 _pytest
@@ -309,16 +311,6 @@ PytestWarning
 if
 TYPE_CHECKING
 :
-    
-from
-typing_extensions
-import
-Final
-    
-from
-typing_extensions
-import
-Literal
     
 import
 pexpect
@@ -388,7 +380,7 @@ False
 help
 =
 "
-run
+Run
 FD
 checks
 if
@@ -438,7 +430,7 @@ help
 (
             
 "
-run
+Run
 pytest
 sub
 runs
@@ -480,7 +472,7 @@ pytester_example_dir
 help
 =
 "
-directory
+Directory
 to
 take
 the
@@ -591,6 +583,38 @@ str
 ]
 :
         
+if
+sys
+.
+version_info
+>
+=
+(
+3
+11
+)
+:
+            
+encoding
+=
+locale
+.
+getencoding
+(
+)
+        
+else
+:
+            
+encoding
+=
+locale
+.
+getpreferredencoding
+(
+False
+)
+        
 out
 =
 subprocess
@@ -636,9 +660,13 @@ check
 =
 True
             
-universal_newlines
+text
 =
 True
+            
+encoding
+=
+encoding
         
 )
 .
@@ -844,7 +872,7 @@ True
     
 hookimpl
 (
-hookwrapper
+wrapper
 =
 True
 tryfirst
@@ -865,8 +893,8 @@ Item
 Generator
 [
 None
-None
-None
+object
+object
 ]
 :
         
@@ -878,8 +906,17 @@ get_open_files
 (
 )
         
+try
+:
+            
+return
+(
 yield
+)
         
+finally
+:
+            
 if
 hasattr
 (
@@ -889,13 +926,13 @@ pypy_version_info
 "
 )
 :
-            
+                
 gc
 .
 collect
 (
 )
-        
+            
 lines2
 =
 self
@@ -903,7 +940,7 @@ self
 get_open_files
 (
 )
-        
+            
 new_fds
 =
 {
@@ -927,7 +964,7 @@ t
 in
 lines1
 }
-        
+            
 leaked_files
 =
 [
@@ -944,15 +981,15 @@ t
 in
 new_fds
 ]
-        
+            
 if
 leaked_files
 :
-            
+                
 error
 =
 [
-                
+                    
 "
 *
 *
@@ -970,7 +1007,7 @@ len
 (
 leaked_files
 )
-                
+                    
 *
 (
 str
@@ -982,7 +1019,7 @@ f
 in
 leaked_files
 )
-                
+                    
 "
 *
 *
@@ -990,7 +1027,7 @@ leaked_files
 Before
 :
 "
-                
+                    
 *
 (
 str
@@ -1002,7 +1039,7 @@ f
 in
 lines1
 )
-                
+                    
 "
 *
 *
@@ -1010,7 +1047,7 @@ lines1
 After
 :
 "
-                
+                    
 *
 (
 str
@@ -1022,7 +1059,7 @@ f
 in
 lines2
 )
-                
+                    
 "
 *
 *
@@ -1040,35 +1077,39 @@ len
 (
 leaked_files
 )
-                
+                    
 "
 *
 *
 *
 function
-%
-s
+{
+}
 :
-%
-s
+{
+}
 :
-%
-s
+{
+}
 "
-%
+.
+format
+(
+*
 item
 .
 location
-                
+)
+                    
 "
 See
 issue
 #
 2366
 "
-            
+                
 ]
-            
+                
 item
 .
 warn
@@ -1424,7 +1465,6 @@ key
 str
 )
 :
-            
 .
 .
 .
@@ -1728,6 +1768,8 @@ entries
         
 backlocals
 =
+dict
+(
 sys
 .
 _getframe
@@ -1736,6 +1778,7 @@ _getframe
 )
 .
 f_locals
+)
         
 while
 entries
@@ -2046,7 +2089,6 @@ Sequence
 CollectReport
 ]
 :
-        
 .
 .
 .
@@ -2078,7 +2120,6 @@ Sequence
 TestReport
 ]
 :
-        
 .
 .
 .
@@ -2126,7 +2167,6 @@ TestReport
 ]
 ]
 :
-        
 .
 .
 .
@@ -2346,6 +2386,7 @@ raise
 ValueError
 (
                 
+f
 "
 could
 not
@@ -2353,8 +2394,11 @@ find
 test
 report
 matching
-%
+{
+inamepart
+!
 r
+}
 :
 "
                 
@@ -2366,10 +2410,6 @@ at
 all
 !
 "
-%
-(
-inamepart
-)
             
 )
         
@@ -2386,6 +2426,7 @@ raise
 ValueError
 (
                 
+f
 "
 found
 2
@@ -2394,21 +2435,15 @@ more
 testreports
 matching
 {
+inamepart
 !
 r
 }
 :
 {
+values
 }
 "
-.
-format
-(
-                    
-inamepart
-values
-                
-)
             
 )
         
@@ -2445,7 +2480,6 @@ Sequence
 CollectReport
 ]
 :
-        
 .
 .
 .
@@ -2477,7 +2511,6 @@ Sequence
 TestReport
 ]
 :
-        
 .
 .
 .
@@ -2525,7 +2558,6 @@ TestReport
 ]
 ]
 :
-        
 .
 .
 .
@@ -2993,12 +3025,16 @@ fixture
 def
 pytester
 (
+    
 request
 :
 FixtureRequest
 tmp_path_factory
 :
 TempPathFactory
+monkeypatch
+:
+MonkeyPatch
 )
 -
 >
@@ -3107,6 +3143,7 @@ Pytester
 (
 request
 tmp_path_factory
+monkeypatch
 _ispytest
 =
 True
@@ -4054,48 +4091,6 @@ deselected
         
 )
 class
-CwdSnapshot
-:
-    
-def
-__init__
-(
-self
-)
--
->
-None
-:
-        
-self
-.
-__saved
-=
-os
-.
-getcwd
-(
-)
-    
-def
-restore
-(
-self
-)
--
->
-None
-:
-        
-os
-.
-chdir
-(
-self
-.
-__saved
-)
-class
 SysModulesSnapshot
 :
     
@@ -4321,101 +4316,15 @@ current
 working
 directory
 to
+:
+attr
+:
 path
 and
 environment
 variables
 during
 initialization
-.
-    
-Attributes
-:
-    
-:
-ivar
-Path
-path
-:
-temporary
-directory
-path
-used
-to
-create
-files
-/
-run
-tests
-from
-etc
-.
-    
-:
-ivar
-plugins
-:
-       
-A
-list
-of
-plugins
-to
-use
-with
-:
-py
-:
-meth
-:
-parseconfig
-and
-       
-:
-py
-:
-meth
-:
-runpytest
-.
-Initially
-this
-is
-an
-empty
-list
-but
-plugins
-can
-       
-be
-added
-to
-the
-list
-.
-The
-type
-of
-items
-to
-add
-to
-the
-list
-depends
-on
-       
-the
-method
-using
-them
-so
-refer
-to
-them
-for
-details
 .
     
 "
@@ -4456,6 +4365,10 @@ FixtureRequest
 tmp_path_factory
 :
 TempPathFactory
+        
+monkeypatch
+:
+MonkeyPatch
         
 *
         
@@ -4572,14 +4485,6 @@ _PluggyPlugin
         
 self
 .
-_cwd_snapshot
-=
-CwdSnapshot
-(
-)
-        
-self
-.
 _sys_path_snapshot
 =
 SysPathsSnapshot
@@ -4593,12 +4498,6 @@ _sys_modules_snapshot
 self
 .
 __take_sys_modules_snapshot
-(
-)
-        
-self
-.
-chdir
 (
 )
         
@@ -4659,7 +4558,11 @@ _monkeypatch
 =
 mp
 =
-MonkeyPatch
+monkeypatch
+        
+self
+.
+chdir
 (
 )
         
@@ -4760,14 +4663,16 @@ Path
 "
 Temporary
 directory
-where
+path
+used
+to
+create
 files
-are
-created
-and
-pytest
-is
-executed
+/
+run
+tests
+from
+etc
 .
 "
 "
@@ -4882,22 +4787,6 @@ _sys_path_snapshot
 restore
 (
 )
-        
-self
-.
-_cwd_snapshot
-.
-restore
-(
-)
-        
-self
-.
-_monkeypatch
-.
-undo
-(
-)
     
 def
 __take_sys_modules_snapshot
@@ -4959,14 +4848,15 @@ Create
 a
 new
 :
-py
-:
 class
 :
 HookRecorder
 for
 a
-PluginManager
+:
+class
+:
+PytestPluginManager
 .
 "
 "
@@ -5032,7 +4922,9 @@ instantiation
 "
 "
         
-os
+self
+.
+_monkeypatch
 .
 chdir
 (
@@ -5095,6 +4987,24 @@ files
 items
 (
 )
+)
+        
+if
+ext
+is
+None
+:
+            
+raise
+TypeError
+(
+"
+ext
+must
+not
+be
+None
+"
 )
         
 if
@@ -5356,7 +5266,6 @@ directory
         
 :
 param
-str
 ext
 :
             
@@ -5450,6 +5359,16 @@ as
 contents
 of
 the
+file
+.
+        
+:
+returns
+:
+            
+The
+first
+created
 file
 .
         
@@ -5589,17 +5508,30 @@ Path
 "
 Write
 a
-contest
+conftest
 .
 py
 file
-with
-'
+.
+        
+:
+param
 source
-'
-as
+:
+The
 contents
 .
+        
+:
+returns
+:
+The
+conftest
+.
+py
+file
+.
+        
 "
 "
 "
@@ -5636,13 +5568,26 @@ tox
 .
 ini
 file
-with
-'
+.
+        
+:
+param
 source
-'
-as
+:
+The
 contents
 .
+        
+:
+returns
+:
+The
+tox
+.
+ini
+file
+.
+        
 "
 "
 "
@@ -5738,12 +5683,24 @@ pyproject
 .
 toml
 file
-with
-'
+.
+        
+:
+param
 source
-'
-as
+:
+The
 contents
+.
+        
+:
+returns
+:
+The
+pyproject
+.
+ini
+file
 .
         
 .
@@ -6149,6 +6106,15 @@ each
 test
 .
         
+:
+param
+path
+:
+            
+The
+path
+.
+        
 "
 "
 "
@@ -6183,7 +6149,18 @@ mkdir
 self
 name
 :
+Union
+[
 str
+"
+os
+.
+PathLike
+[
+str
+]
+"
+]
 )
 -
 >
@@ -6201,6 +6178,33 @@ sub
 )
 directory
 .
+        
+:
+param
+name
+:
+            
+The
+name
+of
+the
+directory
+relative
+to
+the
+pytester
+path
+.
+        
+:
+returns
+:
+            
+The
+created
+directory
+.
+        
 "
 "
 "
@@ -6228,7 +6232,18 @@ mkpydir
 self
 name
 :
+Union
+[
 str
+"
+os
+.
+PathLike
+[
+str
+]
+"
+]
 )
 -
 >
@@ -6341,9 +6356,9 @@ testdir
         
 :
 param
-str
 name
 :
+            
 The
 name
 of
@@ -6356,7 +6371,8 @@ copy
 :
 return
 :
-path
+            
+Path
 to
 the
 copied
@@ -6373,7 +6389,7 @@ path
 "
 "
         
-example_dir
+example_dir_
 =
 self
 .
@@ -6389,7 +6405,7 @@ pytester_example_dir
 )
         
 if
-example_dir
+example_dir_
 is
 None
 :
@@ -6410,6 +6426,8 @@ examples
 )
         
 example_dir
+:
+Path
 =
 self
 .
@@ -6419,7 +6437,7 @@ config
 .
 rootpath
 /
-example_dir
+example_dir_
         
 for
 extra_element
@@ -6575,12 +6593,20 @@ is_file
 )
 :
             
+shutil
+.
 copytree
 (
 example_path
 self
 .
 path
+symlinks
+=
+True
+dirs_exist_ok
+=
+True
 )
             
 return
@@ -6673,20 +6699,17 @@ str
 )
 -
 >
-Optional
-[
 Union
 [
 Collector
 Item
-]
 ]
 :
         
 "
 "
 "
-Return
+Get
 the
 collection
 node
@@ -6697,9 +6720,6 @@ file
         
 :
 param
-pytest
-.
-Config
 config
 :
            
@@ -6729,12 +6749,6 @@ it
         
 :
 param
-os
-.
-PathLike
-[
-str
-]
 arg
 :
             
@@ -6742,6 +6756,14 @@ Path
 to
 the
 file
+.
+        
+:
+returns
+:
+            
+The
+node
 .
         
 "
@@ -6836,6 +6858,7 @@ res
 def
 getpathnode
 (
+        
 self
 path
 :
@@ -6851,7 +6874,15 @@ str
 ]
 "
 ]
+    
 )
+-
+>
+Union
+[
+Collector
+Item
+]
 :
         
 "
@@ -6897,18 +6928,21 @@ instance
         
 :
 param
-os
-.
-PathLike
-[
-str
-]
 path
 :
+            
 Path
 to
 the
 file
+.
+        
+:
+returns
+:
+            
+The
+node
 .
         
 "
@@ -7053,6 +7087,25 @@ contained
 within
 .
         
+:
+param
+colitems
+:
+            
+The
+collection
+nodes
+.
+        
+:
+returns
+:
+            
+The
+collected
+items
+.
+        
 "
 "
 "
@@ -7162,11 +7215,6 @@ e
 g
 .
         
-:
-py
-:
-func
-:
 _pytest
 .
 runner
@@ -7317,12 +7365,12 @@ source
         
 values
 =
+[
+*
 list
 (
 cmdlineargs
 )
-+
-[
 p
 ]
         
@@ -7366,7 +7414,9 @@ main
 '
 -
 -
-collectonly
+collect
+-
+only
 '
 ]
 )
@@ -8414,10 +8464,16 @@ Return
 a
 new
 pytest
+:
+class
+:
+pytest
+.
 Config
 instance
 from
 given
+        
 commandline
 args
 .
@@ -8434,30 +8490,9 @@ _pytest
 config
 to
 create
-        
 a
-new
-:
-py
-:
-class
-:
-_pytest
-.
-core
-.
-PluginManager
-and
-call
-the
         
-pytest_cmdline_parse
-hook
-to
-create
-a
 new
-        
 :
 py
 :
@@ -8465,13 +8500,31 @@ class
 :
 pytest
 .
+PytestPluginManager
+and
+call
+the
+        
+:
+hook
+:
+pytest_cmdline_parse
+hook
+to
+create
+a
+new
+:
+class
+:
+pytest
+.
 Config
+        
 instance
 .
         
 If
-:
-py
 :
 attr
 :
@@ -8490,7 +8543,8 @@ be
 registered
 with
 the
-PluginManager
+plugin
+manager
 .
         
 "
@@ -8613,7 +8667,11 @@ but
 also
 calls
 the
+:
+hook
+:
 pytest_configure
+        
 hook
 .
         
@@ -8746,6 +8804,15 @@ test
 item
 .
         
+:
+returns
+:
+            
+The
+test
+item
+.
+        
 "
 "
 "
@@ -8779,8 +8846,10 @@ item
         
 assert
 0
+f
 "
 {
+funcname
 !
 r
 }
@@ -8793,22 +8862,15 @@ module
 \
 n
 {
+source
 }
 \
 nitems
 :
 {
+items
 }
 "
-.
-format
-(
-            
-funcname
-source
-items
-        
-)
     
 def
 getitems
@@ -9745,11 +9807,6 @@ input
 If
 it
 is
-:
-py
-:
-attr
-:
 CLOSE_STDIN
 (
 Default
@@ -9856,6 +9913,14 @@ class
 subprocess
 .
 Popen
+.
+        
+:
+returns
+:
+            
+The
+result
 .
         
 "
@@ -10040,36 +10105,20 @@ True
                 
 timeout_message
 =
-(
-                    
+f
 "
 {
-seconds
+timeout
 }
 second
 timeout
 expired
 running
 :
-"
-                    
-"
 {
-command
+cmdargs
 }
 "
-.
-format
-(
-seconds
-=
-timeout
-command
-=
-cmdargs
-)
-                
-)
                 
 popen
 .
@@ -10554,6 +10603,14 @@ Pytester
 TimeoutExpired
 .
         
+:
+returns
+:
+            
+The
+result
+.
+        
 "
 "
 "
@@ -10595,9 +10652,9 @@ s
 "
 %
 p
-)
-+
+*
 args
+)
         
 plugins
 =
@@ -10632,9 +10689,9 @@ plugins
 [
 0
 ]
-)
-+
+*
 args
+)
         
 args
 =

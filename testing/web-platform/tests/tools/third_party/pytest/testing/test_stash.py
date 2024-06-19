@@ -1,5 +1,3 @@
-import
-pytest
 from
 _pytest
 .
@@ -12,6 +10,8 @@ _pytest
 stash
 import
 StashKey
+import
+pytest
 def
 test_stash
 (

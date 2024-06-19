@@ -665,7 +665,7 @@ earlier
 than
 Python3
 .
-6
+10
 :
 .
 .
@@ -689,7 +689,7 @@ version_info
 <
 (
 3
-7
+10
 )
 reason
 =
@@ -697,7 +697,7 @@ reason
 requires
 python3
 .
-7
+10
 or
 higher
 "

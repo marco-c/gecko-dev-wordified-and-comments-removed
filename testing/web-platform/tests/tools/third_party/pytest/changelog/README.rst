@@ -169,7 +169,9 @@ written
 in
 -
 -
-junitxml
+junit
+-
+xml
 improved
 colors
 in

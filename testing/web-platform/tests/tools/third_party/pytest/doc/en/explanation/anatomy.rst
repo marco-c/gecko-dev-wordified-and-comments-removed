@@ -386,7 +386,7 @@ does
 or
 does
 not
-aligns
+align
 with
 what
 we

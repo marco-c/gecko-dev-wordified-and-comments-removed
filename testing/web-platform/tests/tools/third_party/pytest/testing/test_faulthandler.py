@@ -2,14 +2,14 @@ import
 io
 import
 sys
-import
-pytest
 from
 _pytest
 .
 pytester
 import
 Pytester
+import
+pytest
 def
 test_enabled
 (

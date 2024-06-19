@@ -606,8 +606,6 @@ Pytest
 can
 run
 many
-nose_
-and
 unittest_
 tests
 by
@@ -844,13 +842,6 @@ weaknesses
 or
 deficiencies
 .
-.
-.
-_nose
-:
-nose
-.
-html
 .
 .
 _unittest

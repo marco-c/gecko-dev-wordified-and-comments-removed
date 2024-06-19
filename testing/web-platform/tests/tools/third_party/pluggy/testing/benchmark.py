@@ -14,21 +14,27 @@ pytest
 from
 pluggy
 import
-HookspecMarker
 HookimplMarker
-PluginManager
 from
 pluggy
-.
-_hooks
 import
-HookImpl
+HookspecMarker
+from
+pluggy
+import
+PluginManager
 from
 pluggy
 .
 _callers
 import
 _multicall
+from
+pluggy
+.
+_hooks
+import
+HookImpl
 hookspec
 =
 HookspecMarker
@@ -61,7 +67,7 @@ arg2
 arg3
 hookimpl
 (
-hookwrapper
+wrapper
 =
 True
 )
@@ -74,7 +80,10 @@ arg3
 )
 :
     
+return
+(
 yield
+)
 pytest
 .
 fixture
@@ -256,6 +265,9 @@ _multicall
 setup
 =
 setup
+rounds
+=
+10
 )
 pytest
 .
@@ -378,7 +390,7 @@ int
 )
 :
             
-yield
+pass
     
 class
 Plugin
@@ -389,7 +401,12 @@ __init__
 (
 self
 num
+:
+int
 )
+-
+>
+None
 :
             
 self
@@ -403,6 +420,9 @@ __repr__
 (
 self
 )
+-
+>
+str
 :
             
 return
@@ -429,6 +449,9 @@ nesting
 :
 int
 )
+-
+>
+None
 :
             
 if
@@ -458,7 +481,12 @@ __init__
 (
 self
 num
+:
+int
 )
+-
+>
+None
 :
             
 self
@@ -472,6 +500,9 @@ __repr__
 (
 self
 )
+-
+>
+str
 :
             
 return
@@ -489,7 +520,7 @@ num
         
 hookimpl
 (
-hookwrapper
+wrapper
 =
 True
 )
@@ -501,7 +532,10 @@ self
 )
 :
             
+return
+(
 yield
+)
     
 pm
 .

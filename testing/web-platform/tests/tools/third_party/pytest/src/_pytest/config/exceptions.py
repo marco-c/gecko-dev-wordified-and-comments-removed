@@ -1,7 +1,5 @@
 from
-_pytest
-.
-compat
+typing
 import
 final
 final

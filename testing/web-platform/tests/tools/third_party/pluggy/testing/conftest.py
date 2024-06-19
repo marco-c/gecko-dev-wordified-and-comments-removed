@@ -1,5 +1,13 @@
 import
 pytest
+from
+pluggy
+import
+HookspecMarker
+from
+pluggy
+import
+PluginManager
 pytest
 .
 fixture
@@ -44,13 +52,13 @@ he_pm
 (
 request
 pm
-)
 :
-    
-from
-pluggy
-import
-HookspecMarker
+PluginManager
+)
+-
+>
+PluginManager
+:
     
 hookspec
 =
@@ -72,7 +80,12 @@ he_method1
 (
 self
 arg
+:
+int
 )
+-
+>
+int
 :
             
 return
@@ -101,12 +114,10 @@ def
 pm
 (
 )
-:
-    
-from
-pluggy
-import
+-
+>
 PluginManager
+:
     
 return
 PluginManager

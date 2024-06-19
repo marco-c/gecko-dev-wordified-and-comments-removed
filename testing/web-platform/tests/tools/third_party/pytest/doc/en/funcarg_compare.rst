@@ -137,12 +137,6 @@ the
 other
 sections
 .
-.
-.
-currentmodule
-:
-:
-_pytest
 Shortcomings
 of
 the
@@ -410,13 +404,8 @@ or
 implement
 a
 :
-py
+hook
 :
-func
-:
-~
-hookspec
-.
 pytest_generate_tests
 hook
 calling
@@ -848,6 +837,9 @@ function
 or
 implement
 a
+:
+hook
+:
 pytest_generate_tests
 hook
 to

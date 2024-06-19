@@ -1,13 +1,16 @@
-import
-sys
 from
 subprocess
 import
 call
+import
+sys
 def
 main
 (
 )
+-
+>
+int
 :
     
 "
@@ -15,6 +18,7 @@ main
 "
     
 Platform
+-
 agnostic
 wrapper
 script
@@ -30,7 +34,7 @@ issue
 7251
 )
 where
-windows
+Windows
 users
 are
 unable
@@ -54,6 +58,7 @@ docs
 with
 open
 (
+        
 "
 doc
 /
@@ -66,6 +71,14 @@ rst
 "
 w
 "
+encoding
+=
+"
+utf
+-
+8
+"
+    
 )
 as
 draft_file

@@ -10,8 +10,6 @@ from
 unittest
 import
 mock
-import
-pytest
 from
 _pytest
 .
@@ -52,6 +50,8 @@ _code
 code
 import
 ReprFuncArgs
+import
+pytest
 def
 test_ne
 (

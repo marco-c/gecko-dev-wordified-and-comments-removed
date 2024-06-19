@@ -105,6 +105,15 @@ another
 key
 .
     
+.
+.
+versionadded
+:
+:
+7
+.
+0
+    
 "
 "
 "
@@ -360,6 +369,15 @@ stash
 [
 some_bool_key
 ]
+    
+.
+.
+versionadded
+:
+:
+7
+.
+0
     
 "
 "

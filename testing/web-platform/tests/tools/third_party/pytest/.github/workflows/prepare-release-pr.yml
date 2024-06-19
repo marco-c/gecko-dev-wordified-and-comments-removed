@@ -120,7 +120,7 @@ uses
 actions
 /
 checkout
-v2
+v4
 with
 :
 fetch
@@ -141,7 +141,7 @@ actions
 setup
 -
 python
-v2
+v5
 with
 :
 python

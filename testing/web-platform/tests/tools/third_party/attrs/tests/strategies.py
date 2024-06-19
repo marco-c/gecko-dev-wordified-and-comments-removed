@@ -13,6 +13,8 @@ tests
 "
 "
 import
+functools
+import
 keyword
 import
 string
@@ -28,6 +30,12 @@ as
 st
 import
 attr
+from
+attr
+.
+_compat
+import
+PY_3_8_PLUS
 from
 .
 utils
@@ -125,14 +133,9 @@ string
 .
 ascii_lowercase
     
-for
-c
-in
-lc
-:
-        
 yield
-c
+from
+lc
     
 for
 outer
@@ -375,12 +378,12 @@ factories
     
 attrs
 =
+[
+*
 draw
 (
 list_of_attrs
 )
-+
-[
 attr
 .
 ib
@@ -747,16 +750,24 @@ simple_classes
 (
     
 draw
+    
 slots
 =
 None
+    
 frozen
 =
 None
+    
 weakref_slot
 =
 None
+    
 private_attrs
+=
+None
+    
+cached_property
 =
 None
 )
@@ -1110,6 +1121,17 @@ booleans
 )
 )
     
+cached_property_flag
+=
+draw
+(
+st
+.
+booleans
+(
+)
+)
+    
 if
 pre_init_flag
 :
@@ -1191,6 +1213,55 @@ __init__
 =
 init
     
+bases
+=
+(
+object
+)
+    
+if
+cached_property
+or
+(
+        
+PY_3_8_PLUS
+and
+cached_property
+is
+None
+and
+cached_property_flag
+    
+)
+:
+        
+class
+BaseWithCachedProperty
+:
+            
+functools
+.
+cached_property
+            
+def
+_cached_property
+(
+self
+)
+-
+>
+int
+:
+                
+return
+1
+        
+bases
+=
+(
+BaseWithCachedProperty
+)
+    
 return
 make_class
 (
@@ -1200,6 +1271,10 @@ HypClass
 "
         
 cls_dict
+        
+bases
+=
+bases
         
 slots
 =

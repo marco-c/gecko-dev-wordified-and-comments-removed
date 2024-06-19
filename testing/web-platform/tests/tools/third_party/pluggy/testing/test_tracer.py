@@ -1,11 +1,15 @@
 from
+typing
+import
+List
+import
+pytest
+from
 pluggy
 .
 _tracing
 import
 TagTracer
-import
-pytest
 pytest
 .
 fixture
@@ -13,6 +17,9 @@ def
 rootlogger
 (
 )
+-
+>
+TagTracer
 :
     
 return
@@ -23,7 +30,12 @@ def
 test_simple
 (
 rootlogger
+:
+TagTracer
 )
+-
+>
+None
 :
     
 log
@@ -45,6 +57,11 @@ hello
 )
     
 out
+:
+List
+[
+str
+]
 =
 [
 ]
@@ -129,7 +146,12 @@ def
 test_indent
 (
 rootlogger
+:
+TagTracer
 )
+-
+>
+None
 :
     
 log
@@ -319,7 +341,12 @@ def
 test_readable_output_dictargs
 (
 rootlogger
+:
+TagTracer
 )
+-
+>
+None
 :
     
 out
@@ -397,7 +424,12 @@ def
 test_setprocessor
 (
 rootlogger
+:
+TagTracer
 )
+-
+>
+None
 :
     
 log

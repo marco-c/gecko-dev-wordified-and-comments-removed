@@ -1,6 +1,4 @@
 import
-io
-import
 os
 import
 sys
@@ -8,12 +6,6 @@ from
 typing
 import
 Generator
-from
-typing
-import
-TextIO
-import
-pytest
 from
 _pytest
 .
@@ -40,19 +32,21 @@ _pytest
 stash
 import
 StashKey
-fault_handler_stderr_key
+import
+pytest
+fault_handler_original_stderr_fd_key
 =
 StashKey
 [
-TextIO
+int
 ]
 (
 )
-fault_handler_originally_enabled_key
+fault_handler_stderr_fd_key
 =
 StashKey
 [
-bool
+int
 ]
 (
 )
@@ -92,7 +86,6 @@ TIMEOUT
 seconds
 to
 finish
-.
 "
     
 )
@@ -126,43 +119,41 @@ None
 import
 faulthandler
     
-stderr_fd_copy
+stderr_fileno
+=
+get_stderr_fileno
+(
+)
+    
+if
+faulthandler
+.
+is_enabled
+(
+)
+:
+        
+config
+.
+stash
+[
+fault_handler_original_stderr_fd_key
+]
+=
+stderr_fileno
+    
+config
+.
+stash
+[
+fault_handler_stderr_fd_key
+]
 =
 os
 .
 dup
 (
-get_stderr_fileno
-(
-)
-)
-    
-config
-.
-stash
-[
-fault_handler_stderr_key
-]
-=
-open
-(
-stderr_fd_copy
-"
-w
-"
-)
-    
-config
-.
-stash
-[
-fault_handler_originally_enabled_key
-]
-=
-faulthandler
-.
-is_enabled
-(
+stderr_fileno
 )
     
 faulthandler
@@ -175,7 +166,7 @@ config
 .
 stash
 [
-fault_handler_stderr_key
+fault_handler_stderr_fd_key
 ]
 )
 def
@@ -200,22 +191,23 @@ disable
 )
     
 if
-fault_handler_stderr_key
+fault_handler_stderr_fd_key
 in
 config
 .
 stash
 :
         
+os
+.
+close
+(
 config
 .
 stash
 [
-fault_handler_stderr_key
+fault_handler_stderr_fd_key
 ]
-.
-close
-(
 )
         
 del
@@ -223,31 +215,36 @@ config
 .
 stash
 [
-fault_handler_stderr_key
+fault_handler_stderr_fd_key
 ]
     
 if
+fault_handler_original_stderr_fd_key
+in
 config
 .
 stash
-.
-get
-(
-fault_handler_originally_enabled_key
-False
-)
 :
         
 faulthandler
 .
 enable
 (
-file
-=
-get_stderr_fileno
-(
+config
+.
+stash
+[
+fault_handler_original_stderr_fd_key
+]
 )
-)
+        
+del
+config
+.
+stash
+[
+fault_handler_original_stderr_fd_key
+]
 def
 get_stderr_fileno
 (
@@ -289,9 +286,7 @@ fileno
 except
 (
 AttributeError
-io
-.
-UnsupportedOperation
+ValueError
 )
 :
         
@@ -335,7 +330,7 @@ pytest
 .
 hookimpl
 (
-hookwrapper
+wrapper
 =
 True
 trylast
@@ -354,8 +349,8 @@ Item
 Generator
 [
 None
-None
-None
+object
+object
 ]
 :
     
@@ -368,6 +363,15 @@ item
 config
 )
     
+if
+timeout
+>
+0
+:
+        
+import
+faulthandler
+        
 stderr
 =
 item
@@ -376,22 +380,8 @@ config
 .
 stash
 [
-fault_handler_stderr_key
+fault_handler_stderr_fd_key
 ]
-    
-if
-timeout
->
-0
-and
-stderr
-is
-not
-None
-:
-        
-import
-faulthandler
         
 faulthandler
 .
@@ -406,7 +396,10 @@ stderr
 try
 :
             
+return
+(
 yield
+)
         
 finally
 :
@@ -420,7 +413,10 @@ cancel_dump_traceback_later
 else
 :
         
+return
+(
 yield
+)
 pytest
 .
 hookimpl

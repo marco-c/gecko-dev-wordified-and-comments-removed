@@ -1,17 +1,11 @@
-import
-os
-.
-path
-import
-subprocess
-import
-sys
-import
-textwrap
 from
 contextlib
 import
 contextmanager
+import
+os
+.
+path
 from
 pathlib
 import
@@ -20,6 +14,12 @@ from
 string
 import
 ascii_lowercase
+import
+subprocess
+import
+sys
+import
+textwrap
 from
 _pytest
 .
@@ -335,6 +335,14 @@ AssertionError
 "
         
 )
+        
+encoding
+=
+"
+utf
+-
+8
+"
     
 )
     

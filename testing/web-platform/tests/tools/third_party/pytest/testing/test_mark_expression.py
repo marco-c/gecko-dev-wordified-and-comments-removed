@@ -2,8 +2,6 @@ from
 typing
 import
 Callable
-import
-pytest
 from
 _pytest
 .
@@ -20,6 +18,8 @@ mark
 expression
 import
 ParseError
+import
+pytest
 def
 evaluate
 (
@@ -531,7 +531,7 @@ False
 )
 )
 def
-test_syntax_oddeties
+test_syntax_oddities
 (
 expr
 :

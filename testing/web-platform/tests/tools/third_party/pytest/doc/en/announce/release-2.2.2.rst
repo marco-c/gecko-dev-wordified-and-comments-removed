@@ -139,7 +139,7 @@ collectonly
 see
 below
 for
-betails
+details
 .
 For
 general

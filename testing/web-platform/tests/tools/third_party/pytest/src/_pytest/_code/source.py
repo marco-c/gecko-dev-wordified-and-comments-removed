@@ -1,5 +1,9 @@
 import
 ast
+from
+bisect
+import
+bisect_right
 import
 inspect
 import
@@ -8,12 +12,6 @@ import
 tokenize
 import
 types
-import
-warnings
-from
-bisect
-import
-bisect_right
 from
 typing
 import
@@ -42,6 +40,8 @@ from
 typing
 import
 Union
+import
+warnings
 class
 Source
 :
@@ -288,7 +288,6 @@ int
 >
 str
 :
-        
 .
 .
 .
@@ -309,7 +308,6 @@ slice
 Source
 "
 :
-        
 .
 .
 .
@@ -1383,6 +1381,18 @@ block_finder
 .
 started
 =
+(
+            
+bool
+(
+source
+.
+lines
+[
+start
+]
+)
+and
 source
 .
 lines
@@ -1395,6 +1405,8 @@ start
 .
 isspace
 (
+)
+        
 )
         
 it

@@ -1,7 +1,5 @@
 import
 sys
-import
-pytest
 from
 _pytest
 .
@@ -14,6 +12,8 @@ _pytest
 pytester
 import
 Pytester
+import
+pytest
 pytest
 .
 fixture

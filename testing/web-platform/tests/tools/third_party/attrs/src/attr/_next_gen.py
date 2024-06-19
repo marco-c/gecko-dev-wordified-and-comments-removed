@@ -3,14 +3,6 @@
 "
 These
 are
-Python
-3
-.
-6
-+
--
-only
-and
 keyword
 -
 only
@@ -93,6 +85,10 @@ repr
 =
 None
     
+unsafe_hash
+=
+None
+    
 hash
 =
 None
@@ -170,7 +166,9 @@ r
     
 Define
 an
+*
 attrs
+*
 class
 .
     
@@ -199,12 +197,12 @@ auto_attribs
 should
 be
 True
-      
 (
 c
 .
 f
 .
+      
 *
 auto_attribs
 *
@@ -213,23 +211,25 @@ parameter
 .
     
 -
-If
+Converters
+and
+validators
+run
+when
+attributes
+are
+set
+by
+default
+-
+-
+if
+      
 *
 frozen
 *
 is
 False
-run
-converters
-and
-validators
-when
-setting
-an
-      
-attribute
-by
-default
 .
     
 -
@@ -238,19 +238,50 @@ slots
 =
 True
 *
-(
-see
+      
+.
+.
+caution
+:
+:
+         
+Usually
+this
+has
+only
+upsides
+and
+few
+visible
+effects
+in
+everyday
+         
+programming
+.
+But
+it
+*
+can
+*
+lead
+to
+some
+surprising
+behaviors
+so
+please
+         
+make
+sure
+to
+read
 :
 term
 :
 slotted
 classes
-for
-potentially
-surprising
-      
-behaviors
-)
+.
     
 -
 *
@@ -271,13 +302,6 @@ True
 order
 =
 False
-*
-    
--
-*
-match_args
-=
-True
 *
     
 -
@@ -450,6 +474,37 @@ run
 on_setattr
 .
     
+.
+.
+versionadded
+:
+:
+22
+.
+2
+.
+0
+       
+*
+unsafe_hash
+*
+as
+an
+alias
+for
+*
+hash
+*
+(
+for
+:
+pep
+:
+681
+compliance
+)
+.
+    
 "
 "
 "
@@ -481,6 +536,10 @@ repr
 hash
 =
 hash
+            
+unsafe_hash
+=
+unsafe_hash
             
 init
 =
@@ -643,10 +702,8 @@ if
 had_on_setattr
 :
                     
-raise
-ValueError
-(
-                        
+msg
+=
 "
 Frozen
 classes
@@ -655,9 +712,6 @@ can
 t
 use
 on_setattr
-"
-                        
-"
 (
 frozen
 -
@@ -668,6 +722,10 @@ inherited
 .
 "
                     
+raise
+ValueError
+(
+msg
 )
                 
 on_setattr
@@ -722,9 +780,6 @@ None
 return
 wrap
     
-else
-:
-        
 return
 wrap
 (
@@ -775,6 +830,10 @@ metadata
 =
 None
     
+type
+=
+None
+    
 converter
 =
 None
@@ -796,6 +855,10 @@ order
 None
     
 on_setattr
+=
+None
+    
+alias
 =
 None
 )
@@ -820,6 +883,45 @@ some
 arguments
     
 removed
+.
+    
+.
+.
+versionadded
+:
+:
+23
+.
+1
+.
+0
+       
+The
+*
+type
+*
+parameter
+has
+been
+re
+-
+added
+;
+mostly
+for
+attrs
+.
+make_class
+.
+       
+Please
+note
+that
+type
+checkers
+ignore
+this
+metadata
 .
     
 .
@@ -865,6 +967,10 @@ metadata
 =
 metadata
         
+type
+=
+type
+        
 converter
 =
 converter
@@ -888,6 +994,10 @@ order
 on_setattr
 =
 on_setattr
+        
+alias
+=
+alias
     
 )
 def

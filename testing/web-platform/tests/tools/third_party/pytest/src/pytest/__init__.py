@@ -14,10 +14,6 @@ Python
 "
 "
 from
-.
-import
-collect
-from
 _pytest
 import
 __version__
@@ -130,15 +126,21 @@ __pytestPDB
 from
 _pytest
 .
-fixtures
+doctest
 import
-_fillfuncargs
+DoctestItem
 from
 _pytest
 .
 fixtures
 import
 fixture
+from
+_pytest
+.
+fixtures
+import
+FixtureDef
 from
 _pytest
 .
@@ -181,6 +183,12 @@ _pytest
 logging
 import
 LogCaptureFixture
+from
+_pytest
+.
+main
+import
+Dir
 from
 _pytest
 .
@@ -231,6 +239,12 @@ _pytest
 nodes
 import
 Collector
+from
+_pytest
+.
+nodes
+import
+Directory
 from
 _pytest
 .
@@ -396,6 +410,12 @@ StashKey
 from
 _pytest
 .
+terminal
+import
+TestShortLogReport
+from
+_pytest
+.
 tmpdir
 import
 TempPathFactory
@@ -440,13 +460,13 @@ _pytest
 .
 warning_types
 import
-PytestRemovedIn7Warning
+PytestRemovedIn9Warning
 from
 _pytest
 .
 warning_types
 import
-PytestRemovedIn8Warning
+PytestReturnNotNoneWarning
 from
 _pytest
 .
@@ -491,10 +511,6 @@ __version__
 "
     
 "
-_fillfuncargs
-"
-    
-"
 approx
 "
     
@@ -519,10 +535,6 @@ cmdline
 "
     
 "
-collect
-"
-    
-"
 Collector
 "
     
@@ -540,6 +552,18 @@ console_main
     
 "
 deprecated_call
+"
+    
+"
+Dir
+"
+    
+"
+Directory
+"
+    
+"
+DoctestItem
 "
     
 "
@@ -564,6 +588,10 @@ File
     
 "
 fixture
+"
+    
+"
+FixtureDef
 "
     
 "
@@ -683,11 +711,11 @@ PytestExperimentalApiWarning
 "
     
 "
-PytestRemovedIn7Warning
+PytestRemovedIn9Warning
 "
     
 "
-PytestRemovedIn8Warning
+PytestReturnNotNoneWarning
 "
     
 "
@@ -775,6 +803,10 @@ TestReport
 "
     
 "
+TestShortLogReport
+"
+    
+"
 UsageError
 "
     
@@ -794,51 +826,3 @@ xfail
 yield_fixture
 "
 ]
-def
-__getattr__
-(
-name
-:
-str
-)
--
->
-object
-:
-    
-if
-name
-=
-=
-"
-Instance
-"
-:
-        
-from
-_pytest
-.
-python
-import
-Instance
-        
-return
-Instance
-    
-raise
-AttributeError
-(
-f
-"
-module
-{
-__name__
-}
-has
-no
-attribute
-{
-name
-}
-"
-)

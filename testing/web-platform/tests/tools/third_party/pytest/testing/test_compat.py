@@ -1,7 +1,9 @@
 import
 enum
+from
+functools
 import
-sys
+cached_property
 from
 functools
 import
@@ -10,6 +12,8 @@ from
 functools
 import
 wraps
+import
+sys
 from
 typing
 import
@@ -18,8 +22,6 @@ from
 typing
 import
 Union
-import
-pytest
 from
 _pytest
 .
@@ -32,12 +34,6 @@ _pytest
 compat
 import
 assert_never
-from
-_pytest
-.
-compat
-import
-cached_property
 from
 _pytest
 .
@@ -74,6 +70,8 @@ _pytest
 pytester
 import
 Pytester
+import
+pytest
 if
 TYPE_CHECKING
 :
@@ -436,7 +434,7 @@ version_info
 reason
 =
 "
-couroutine
+coroutine
 removed
 "
 )
@@ -658,7 +656,7 @@ import
 is_generator
         
 def
-test_is_generator_py36
+test_is_generator
 (
 )
 :
@@ -818,6 +816,8 @@ Exception
 )
 :
         
+_
+=
 helper
 .
 raise_exception
@@ -831,6 +831,8 @@ OutcomeException
 )
 :
         
+_
+=
 helper
 .
 raise_fail_outcome

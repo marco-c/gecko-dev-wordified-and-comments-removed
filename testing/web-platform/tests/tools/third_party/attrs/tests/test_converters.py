@@ -10,10 +10,6 @@ converters
 "
 "
 "
-from
-__future__
-import
-absolute_import
 import
 pytest
 import
@@ -34,9 +30,6 @@ pipe
 to_bool
 class
 TestOptional
-(
-object
-)
 :
     
 "
@@ -183,9 +176,6 @@ not_an_int
 )
 class
 TestDefaultIfNone
-(
-object
-)
 :
     
 def
@@ -536,9 +526,6 @@ None
 )
 class
 TestPipe
-(
-object
-)
 :
     
 def
@@ -686,9 +673,6 @@ s
         
 class
 C
-(
-object
-)
 :
             
 a1
@@ -742,11 +726,46 @@ is
 c
 .
 a2
+    
+def
+test_empty
+(
+self
+)
+:
+        
+"
+"
+"
+        
+Empty
+pipe
+returns
+same
+value
+.
+        
+"
+"
+"
+        
+o
+=
+object
+(
+)
+        
+assert
+o
+is
+pipe
+(
+)
+(
+o
+)
 class
 TestToBool
-(
-object
-)
 :
     
 def

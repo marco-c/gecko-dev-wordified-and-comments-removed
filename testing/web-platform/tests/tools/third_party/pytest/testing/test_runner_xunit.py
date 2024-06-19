@@ -20,14 +20,14 @@ from
 typing
 import
 List
-import
-pytest
 from
 _pytest
 .
 pytester
 import
 Pytester
+import
+pytest
 def
 test_module_and_function_setup
 (
@@ -1375,6 +1375,7 @@ pytester
 makepyfile
 (
         
+f
 "
 "
 "
@@ -1525,15 +1526,6 @@ pass
 "
 "
 "
-.
-format
-(
-            
-arg
-=
-arg
-        
-)
     
 )
     

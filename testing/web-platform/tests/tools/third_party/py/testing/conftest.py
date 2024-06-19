@@ -1,5 +1,0 @@
-pytest_plugins
-=
-"
-pytester
-"

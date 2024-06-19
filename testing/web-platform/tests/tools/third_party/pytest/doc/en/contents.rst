@@ -239,11 +239,6 @@ how
 -
 to
 /
-nose
-how
--
-to
-/
 xunit_setup
 how
 -
@@ -369,11 +364,6 @@ backwards
 -
 compatibility
 deprecations
-py27
--
-py34
--
-deprecation
 contributing
 development_guide
 sponsor

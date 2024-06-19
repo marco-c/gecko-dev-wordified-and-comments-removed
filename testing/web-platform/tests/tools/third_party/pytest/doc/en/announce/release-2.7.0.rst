@@ -450,7 +450,7 @@ new
 option
 -
 -
-docttest
+doctest
 -
 ignore
 -

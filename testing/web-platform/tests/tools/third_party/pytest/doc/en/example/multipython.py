@@ -1,7 +1,7 @@
 "
 "
 "
-module
+Module
 containing
 a
 parametrized
@@ -33,17 +33,17 @@ pythonlist
 "
 python3
 .
-5
+9
 "
 "
 python3
 .
-6
+10
 "
 "
 python3
 .
-7
+11
 "
 ]
 pytest
@@ -192,7 +192,7 @@ textwrap
 dedent
 (
                 
-r
+rf
 "
 "
 "
@@ -205,6 +205,12 @@ f
 open
 (
 {
+str
+(
+self
+.
+picklefile
+)
 !
 r
 }
@@ -220,6 +226,7 @@ pickle
 dump
 (
 {
+obj
 !
 r
 }
@@ -238,19 +245,6 @@ close
 "
 "
 "
-.
-format
-(
-                    
-str
-(
-self
-.
-picklefile
-)
-obj
-                
-)
             
 )
         
@@ -258,7 +252,7 @@ obj
         
 subprocess
 .
-check_call
+run
 (
 (
 self
@@ -269,6 +263,9 @@ str
 dumpfile
 )
 )
+check
+=
+True
 )
     
 def
@@ -304,7 +301,7 @@ textwrap
 dedent
 (
                 
-r
+rf
 "
 "
 "
@@ -317,6 +314,12 @@ f
 open
 (
 {
+str
+(
+self
+.
+picklefile
+)
 !
 r
 }
@@ -345,6 +348,7 @@ res
 eval
 (
 {
+expression
 !
 r
 }
@@ -364,19 +368,6 @@ SystemExit
 "
 "
 "
-.
-format
-(
-                    
-str
-(
-self
-.
-picklefile
-)
-expression
-                
-)
             
 )
         
@@ -389,7 +380,7 @@ loadfile
         
 subprocess
 .
-check_call
+run
 (
 (
 self
@@ -400,6 +391,9 @@ str
 loadfile
 )
 )
+check
+=
+True
 )
 pytest
 .

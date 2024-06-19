@@ -1,15 +1,15 @@
 import
 os
+from
+pathlib
+import
+Path
 import
 re
 import
 sys
 import
 textwrap
-from
-pathlib
-import
-Path
 from
 typing
 import
@@ -22,8 +22,6 @@ from
 typing
 import
 Type
-import
-pytest
 from
 _pytest
 .
@@ -36,6 +34,8 @@ _pytest
 pytester
 import
 Pytester
+import
+pytest
 pytest
 .
 fixture
@@ -279,7 +279,17 @@ MonkeyPatch
 None
 :
         
+with
 monkeypatch
+.
+context
+(
+)
+as
+mp
+:
+            
+mp
 .
 setattr
 (
@@ -297,7 +307,7 @@ x
 hello2
 "
 )
-        
+            
 assert
 os
 .
@@ -328,7 +338,17 @@ MonkeyPatch
 None
 :
         
+with
 monkeypatch
+.
+context
+(
+)
+as
+mp
+:
+            
+mp
 .
 setattr
 (
@@ -341,10 +361,10 @@ Config
 "
 42
 )
-        
+            
 import
 _pytest
-        
+            
 assert
 _pytest
 .
@@ -368,7 +388,17 @@ MonkeyPatch
 None
 :
         
+with
 monkeypatch
+.
+context
+(
+)
+as
+mp
+:
+            
+mp
 .
 setattr
 (
@@ -381,10 +411,10 @@ Config
 "
 42
 )
-        
+            
 import
 _pytest
-        
+            
 assert
 _pytest
 .
@@ -394,8 +424,8 @@ Config
 =
 =
 42
-        
-monkeypatch
+            
+mp
 .
 delattr
 (
@@ -521,7 +551,17 @@ MonkeyPatch
 None
 :
         
+with
 monkeypatch
+.
+context
+(
+)
+as
+mp
+:
+            
+mp
 .
 setattr
 (
@@ -537,7 +577,7 @@ raising
 =
 False
 )
-        
+            
 assert
 os
 .
@@ -561,7 +601,17 @@ MonkeyPatch
 None
 :
         
+with
 monkeypatch
+.
+context
+(
+)
+as
+mp
+:
+            
+mp
 .
 delattr
 (
@@ -573,7 +623,7 @@ path
 abspath
 "
 )
-        
+            
 assert
 not
 hasattr
@@ -585,13 +635,13 @@ path
 abspath
 "
 )
-        
-monkeypatch
+            
+mp
 .
 undo
 (
 )
-        
+            
 assert
 os
 .
@@ -2229,6 +2279,14 @@ x
 "
         
 )
+        
+encoding
+=
+"
+utf
+-
+8
+"
     
 )
     
@@ -2284,6 +2342,14 @@ x
 "
         
 )
+        
+encoding
+=
+"
+utf
+-
+8
+"
     
 )
     
@@ -2723,6 +2789,26 @@ x
 =
 =
 1
+pytest
+.
+mark
+.
+filterwarnings
+(
+r
+"
+ignore
+:
+.
+*
+\
+bpkg_resources
+\
+b
+:
+DeprecationWarning
+"
+)
 def
 test_syspath_prepend_with_namespace_packages
 (
@@ -2803,6 +2889,13 @@ declare_namespace
 __name__
 )
 "
+encoding
+=
+"
+utf
+-
+8
+"
         
 )
         
@@ -2834,6 +2927,7 @@ py
 .
 write_text
 (
+            
 "
 def
 check
@@ -2846,6 +2940,14 @@ r
 "
 %
 dirname
+encoding
+=
+"
+utf
+-
+8
+"
+        
 )
     
 monkeypatch
@@ -2956,6 +3058,13 @@ write_text
 app
 =
 True
+"
+encoding
+=
+"
+utf
+-
+8
 "
 )
     

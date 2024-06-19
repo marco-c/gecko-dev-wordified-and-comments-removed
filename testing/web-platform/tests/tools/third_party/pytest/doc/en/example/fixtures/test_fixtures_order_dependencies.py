@@ -55,7 +55,6 @@ fixture
 def
 c
 (
-a
 b
 order
 )

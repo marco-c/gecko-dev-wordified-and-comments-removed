@@ -1,9 +1,3 @@
-from
-__future__
-import
-absolute_import
-division
-print_function
 __all__
 =
 [
@@ -96,9 +90,8 @@ bool
 )
 :
         
-raise
-TypeError
-(
+msg
+=
 "
 '
 run
@@ -108,6 +101,11 @@ be
 bool
 .
 "
+        
+raise
+TypeError
+(
+msg
 )
     
 global

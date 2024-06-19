@@ -13,14 +13,10 @@ _make
 "
 "
 "
-from
-__future__
-import
-absolute_import
-division
-print_function
 import
 copy
+import
+inspect
 import
 pickle
 import
@@ -53,8 +49,6 @@ _add_repr
 _is_slot_cls
     
 _make_init
-    
-_Nothing
     
 fields
     
@@ -139,9 +133,6 @@ True
 )
 class
 EqCallableC
-(
-object
-)
 :
     
 a
@@ -183,9 +174,6 @@ True
 )
 class
 EqCallableCSlots
-(
-object
-)
 :
     
 a
@@ -224,9 +212,6 @@ True
 )
 class
 OrderCallableC
-(
-object
-)
 :
     
 a
@@ -268,9 +253,6 @@ True
 )
 class
 OrderCallableCSlots
-(
-object
-)
 :
     
 a
@@ -442,6 +424,20 @@ _make_init
 "
 "
     
+has_pre_init
+=
+bool
+(
+getattr
+(
+cls
+"
+__attrs_pre_init__
+"
+False
+)
+)
+    
 cls
 .
 __init__
@@ -455,14 +451,29 @@ cls
 .
 __attrs_attrs__
         
-getattr
+has_pre_init
+        
+len
+(
+inspect
+.
+signature
 (
 cls
-"
+.
 __attrs_pre_init__
-"
-False
 )
+.
+parameters
+)
+>
+1
+        
+if
+has_pre_init
+        
+else
+False
         
 getattr
 (
@@ -507,9 +518,6 @@ return
 cls
 class
 InitC
-(
-object
-)
 :
     
 __attrs_attrs__
@@ -537,9 +545,6 @@ False
 )
 class
 TestEqOrder
-(
-object
-)
 :
     
 "
@@ -1038,9 +1043,6 @@ match
         
 class
 NotEqC
-(
-object
-)
 :
             
 a
@@ -2231,9 +2233,6 @@ __ge__
 )
 class
 TestAddRepr
-(
-object
-)
 :
     
 "
@@ -2248,21 +2247,6 @@ _add_repr
 "
 "
 "
-    
-pytest
-.
-mark
-.
-parametrize
-(
-"
-slots
-"
-[
-True
-False
-]
-)
     
 def
 test_repr
@@ -2461,9 +2445,6 @@ s
         
 class
 C
-(
-object
-)
 :
             
 a
@@ -2539,9 +2520,6 @@ s
         
 class
 Cycle
-(
-object
-)
 :
             
 value
@@ -2646,9 +2624,6 @@ s
         
 class
 LongCycle
-(
-object
-)
 :
             
 value
@@ -2746,9 +2721,6 @@ underscores
         
 class
 C
-(
-object
-)
 :
             
 __attrs_attrs__
@@ -3059,9 +3031,6 @@ False
 )
 class
 HashCacheSerializationTestUncached
-(
-object
-)
 :
     
 foo_value
@@ -3084,9 +3053,6 @@ True
 )
 class
 HashCacheSerializationTestCached
-(
-object
-)
 :
     
 foo_value
@@ -3112,9 +3078,6 @@ True
 )
 class
 HashCacheSerializationTestCachedSlots
-(
-object
-)
 :
     
 foo_value
@@ -3126,9 +3089,6 @@ ib
 )
 class
 IncrementingHasher
-(
-object
-)
 :
     
 def
@@ -3168,9 +3128,6 @@ return
 rv
 class
 TestAddHash
-(
-object
-)
 :
     
 "
@@ -4366,36 +4323,6 @@ False
 ]
 )
     
-pytest
-.
-mark
-.
-parametrize
-(
-"
-frozen
-"
-[
-True
-False
-]
-)
-    
-pytest
-.
-mark
-.
-parametrize
-(
-"
-slots
-"
-[
-True
-False
-]
-)
-    
 def
 test_copy_hash_cleared
 (
@@ -4429,18 +4356,23 @@ operation
         
 kwargs
 =
-dict
-(
+{
+"
 frozen
-=
+"
+:
 frozen
+"
 slots
-=
+"
+:
 slots
+"
 cache_hash
-=
+"
+:
 cache_hash
-)
+}
         
 if
 not
@@ -4467,9 +4399,6 @@ kwargs
         
 class
 C
-(
-object
-)
 :
             
 x
@@ -4539,10 +4468,14 @@ mark
 parametrize
 (
         
+(
 "
 klass
+"
+"
 cached
 "
+)
         
 [
             
@@ -4693,21 +4626,6 @@ hash
 obj_rt
 )
     
-pytest
-.
-mark
-.
-parametrize
-(
-"
-frozen
-"
-[
-True
-False
-]
-)
-    
 def
 test_copy_two_arg_reduce
 (
@@ -4780,9 +4698,6 @@ True
         
 class
 C
-(
-object
-)
 :
             
 x
@@ -4839,9 +4754,6 @@ pickle_str
 )
 class
 TestAddInit
-(
-object
-)
 :
     
 "
@@ -5348,9 +5260,6 @@ fallback
         
 class
 C
-(
-object
-)
 :
             
 __attrs_attrs__
@@ -5467,18 +5376,12 @@ fallback
         
 class
 D
-(
-object
-)
 :
             
 pass
         
 class
 C
-(
-object
-)
 :
             
 __attrs_attrs__
@@ -5982,9 +5885,6 @@ underscores
         
 class
 C
-(
-object
-)
 :
             
 __attrs_attrs__
@@ -6024,9 +5924,6 @@ i
 _private
 class
 TestNothing
-(
-object
-)
 :
     
 "
@@ -6035,7 +5932,7 @@ object
     
 Tests
 for
-_Nothing
+NOTHING
 .
     
 "
@@ -6066,9 +5963,7 @@ object
         
 n
 =
-_Nothing
-(
-)
+NOTHING
         
 assert
 n
@@ -6104,9 +5999,7 @@ object
         
 n
 =
-_Nothing
-(
-)
+NOTHING
         
 assert
 n
@@ -6140,14 +6033,10 @@ equal
 "
         
 assert
-_Nothing
-(
-)
+NOTHING
 =
 =
-_Nothing
-(
-)
+NOTHING
 =
 =
 NOTHING
@@ -6155,23 +6044,17 @@ NOTHING
 assert
 not
 (
-_Nothing
-(
-)
+NOTHING
 !
 =
-_Nothing
-(
-)
+NOTHING
 )
         
 assert
 1
 !
 =
-_Nothing
-(
-)
+NOTHING
     
 def
 test_false
@@ -6218,9 +6101,6 @@ True
 )
 class
 C
-(
-object
-)
 :
     
 pass
@@ -6240,9 +6120,6 @@ True
 )
 class
 C
-(
-object
-)
 :
     
 pass
@@ -6262,9 +6139,6 @@ True
 )
 class
 C
-(
-object
-)
 :
     
 "
@@ -6291,9 +6165,6 @@ ib
 )
 class
 TestFilenames
-(
-object
-)
 :
     
 def

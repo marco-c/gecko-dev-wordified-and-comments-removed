@@ -471,14 +471,14 @@ script
 "
 import
 argparse
-import
-os
-import
-sys
 from
 glob
 import
 glob
+import
+os
+import
+sys
 from
 typing
 import
@@ -552,8 +552,6 @@ str
 if
 os
 .
-path
-.
 sep
 in
 prefix
@@ -577,8 +575,6 @@ prefix
 )
 +
 os
-.
-path
 .
 sep
 )
@@ -628,8 +624,6 @@ prefix
 =
 =
 os
-.
-path
 .
 sep
 :

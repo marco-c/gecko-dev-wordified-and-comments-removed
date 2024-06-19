@@ -1530,7 +1530,7 @@ level
 functions
 .
 Thanks
-Anatloy
+Anatoly
 Bubenkoff
 .
 -

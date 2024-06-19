@@ -10,12 +10,6 @@ _config
 "
 "
 "
-from
-__future__
-import
-absolute_import
-division
-print_function
 import
 pytest
 from
@@ -24,9 +18,6 @@ import
 _config
 class
 TestConfig
-(
-object
-)
 :
     
 def

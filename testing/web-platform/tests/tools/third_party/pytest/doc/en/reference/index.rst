@@ -32,10 +32,10 @@ toctree
 maxdepth
 :
 1
-fixtures
-plugin_list
-customize
 reference
+fixtures
+customize
 exit
 -
 codes
+plugin_list

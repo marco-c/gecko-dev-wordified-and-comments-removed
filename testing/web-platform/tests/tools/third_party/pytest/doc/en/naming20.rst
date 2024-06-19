@@ -112,7 +112,7 @@ new
 pytest
 Python
 module
-flaty
+flatly
 provides
 the
 same

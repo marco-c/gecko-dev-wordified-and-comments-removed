@@ -11,14 +11,18 @@ configuration
 "
 "
 "
+from
+argparse
+import
+Action
 import
 os
 import
 sys
 from
-argparse
+typing
 import
-Action
+Generator
 from
 typing
 import
@@ -31,8 +35,6 @@ from
 typing
 import
 Union
-import
-pytest
 from
 _pytest
 .
@@ -59,6 +61,14 @@ config
 argparsing
 import
 Parser
+from
+_pytest
+.
+terminal
+import
+TerminalReporter
+import
+pytest
 class
 HelpAction
 (
@@ -290,7 +300,7 @@ version
 help
 =
 "
-display
+Display
 pytest
 version
 and
@@ -343,7 +353,7 @@ help
 help
 =
 "
-show
+Show
 help
 message
 and
@@ -389,7 +399,7 @@ name
 help
 =
 "
-early
+Early
 -
 load
 given
@@ -405,8 +415,6 @@ multi
 allowed
 )
 .
-\
-n
 "
         
 "
@@ -467,14 +475,13 @@ False
 help
 =
 "
-trace
+Trace
 considerations
 of
 conftest
 .
 py
 files
-.
 "
     
 )
@@ -525,7 +532,7 @@ DEBUG_FILE_NAME
 help
 =
 "
-store
+Store
 internal
 tracing
 debug
@@ -535,8 +542,6 @@ this
 log
 file
 .
-\
-n
 "
         
 "
@@ -556,18 +561,14 @@ result
 care
 advised
 .
-\
-n
 "
         
 "
-Defaults
-to
-'
+Default
+:
 pytestdebug
 .
 log
-'
 .
 "
     
@@ -606,7 +607,7 @@ append
 help
 =
 '
-override
+Override
 ini
 option
 with
@@ -616,6 +617,9 @@ option
 value
 "
 style
+'
+        
+"
 e
 .
 g
@@ -631,14 +635,14 @@ cache_dir
 =
 cache
 .
-'
+"
     
 )
 pytest
 .
 hookimpl
 (
-hookwrapper
+wrapper
 =
 True
 )
@@ -646,21 +650,19 @@ def
 pytest_cmdline_parse
 (
 )
+-
+>
+Generator
+[
+None
+Config
+Config
+]
 :
-    
-outcome
-=
-yield
     
 config
-:
-Config
 =
-outcome
-.
-get_result
-(
-)
+yield
     
 if
 config
@@ -686,6 +688,13 @@ path
 "
 w
 "
+encoding
+=
+"
+utf
+-
+8
+"
 )
         
 debugfile
@@ -697,32 +706,37 @@ write
 versions
 pytest
 -
-%
-s
+{
+}
 "
             
 "
 python
 -
-%
-s
+{
+}
+\
+ninvocation_dir
+=
+{
+}
 \
 ncwd
 =
-%
-s
+{
+}
 \
 nargs
 =
-%
-s
+{
+}
 \
 n
 \
 n
 "
-            
-%
+.
+format
 (
                 
 pytest
@@ -743,6 +757,12 @@ sys
 version_info
 )
 )
+                
+config
+.
+invocation_params
+.
+dir
                 
 os
 .
@@ -863,6 +883,9 @@ add_cleanup
 (
 unset_tracing
 )
+    
+return
+config
 def
 showversion
 (
@@ -892,32 +915,27 @@ stdout
 write
 (
             
+f
 "
 This
 is
 pytest
 version
 {
+pytest
+.
+__version__
 }
 imported
 from
 {
+pytest
+.
+__file__
 }
 \
 n
 "
-.
-format
-(
-                
-pytest
-.
-__version__
-pytest
-.
-__file__
-            
-)
         
 )
         
@@ -1056,6 +1074,11 @@ import
 textwrap
     
 reporter
+:
+Optional
+[
+TerminalReporter
+]
 =
 config
 .
@@ -1063,10 +1086,18 @@ pluginmanager
 .
 get_plugin
 (
+        
 "
 terminalreporter
 "
+    
 )
+    
+assert
+reporter
+is
+not
+None
     
 tw
 =
@@ -1110,6 +1141,9 @@ options
 in
 the
 first
+"
+        
+"
 pytest
 .
 ini
@@ -1121,6 +1155,10 @@ ini
 setup
 .
 cfg
+|
+pyproject
+.
+toml
 file
 found
 :
@@ -1375,7 +1413,7 @@ tw
 line
 (
 "
-environment
+Environment
 variables
 :
 "
@@ -1390,7 +1428,7 @@ vars
 PYTEST_ADDOPTS
 "
 "
-extra
+Extra
 command
 line
 options
@@ -1402,7 +1440,7 @@ options
 PYTEST_PLUGINS
 "
 "
-comma
+Comma
 -
 separated
 plugins
@@ -1418,7 +1456,7 @@ startup
 PYTEST_DISABLE_PLUGIN_AUTOLOAD
 "
 "
-set
+Set
 to
 disable
 plugin
@@ -1433,7 +1471,7 @@ loading
 PYTEST_DEBUG
 "
 "
-set
+Set
 to
 enable
 debug

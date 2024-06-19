@@ -6,8 +6,6 @@ from
 typing
 import
 Union
-import
-pytest
 from
 _pytest
 .
@@ -40,6 +38,8 @@ _pytest
 fixtures
 import
 SubRequest
+import
+pytest
 def
 pytest_addoption
 (
@@ -91,7 +91,7 @@ store_true
 help
 =
 "
-show
+Show
 what
 fixtures
 and
@@ -108,7 +108,6 @@ don
 t
 execute
 anything
-.
 "
     
 )

@@ -451,6 +451,14 @@ setup_class
 "
 "
 "
+.
+.
+_xunit
+-
+method
+-
+setup
+:
 Method
 and
 function

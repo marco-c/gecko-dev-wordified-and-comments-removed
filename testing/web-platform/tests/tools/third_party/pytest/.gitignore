@@ -151,6 +151,12 @@ project
 settings
 .
 vscode
+__pycache__
+/
+.
+python
+-
+version
 #
 generated
 by

@@ -72,6 +72,13 @@ path
 .
 open
 (
+encoding
+=
+"
+utf
+-
+8
+"
 )
 )
         
@@ -271,6 +278,16 @@ point
                 
 ]
             
+)
+        
+return
+super
+(
+)
+.
+repr_failure
+(
+excinfo
 )
     
 def

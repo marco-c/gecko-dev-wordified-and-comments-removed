@@ -2,6 +2,10 @@ import
 contextlib
 import
 io
+from
+io
+import
+UnsupportedOperation
 import
 os
 import
@@ -10,10 +14,6 @@ import
 sys
 import
 textwrap
-from
-io
-import
-UnsupportedOperation
 from
 typing
 import
@@ -30,8 +30,6 @@ from
 typing
 import
 TextIO
-import
-pytest
 from
 _pytest
 import
@@ -84,6 +82,8 @@ _pytest
 pytester
 import
 Pytester
+import
+pytest
 def
 StdCaptureFD
 (
@@ -3225,6 +3225,7 @@ pytester
 makepyfile
 (
             
+f
 "
 "
 "
@@ -3235,6 +3236,7 @@ test_hello
 (
 cap
 {
+method
 }
 )
 :
@@ -3252,13 +3254,6 @@ assert
 "
 "
 "
-.
-format
-(
-                
-method
-            
-)
         
 )
         
@@ -4107,6 +4102,7 @@ pytester
 makepyfile
 (
             
+f
 "
 "
 "
@@ -4200,15 +4196,6 @@ executed
 "
 "
 "
-.
-format
-(
-                
-fixture
-=
-fixture
-            
-)
         
 )
         
@@ -4596,6 +4583,7 @@ pytester
 makepyfile
 (
             
+f
 "
 "
 "
@@ -4759,15 +4747,6 @@ n
 "
 "
 "
-.
-format
-(
-                
-fixture
-=
-fixture
-            
-)
         
 )
         
@@ -4892,6 +4871,7 @@ pytester
 makepyfile
 (
             
+f
 "
 "
 "
@@ -5022,15 +5002,6 @@ n
 "
 "
 "
-.
-format
-(
-                
-cap
-=
-cap
-            
-)
         
 )
         
@@ -5115,6 +5086,14 @@ ValueError
 "
         
 )
+        
+encoding
+=
+"
+utf
+-
+8
+"
     
 )
     
@@ -5138,6 +5117,13 @@ test_func1
 )
 :
 pass
+"
+encoding
+=
+"
+utf
+-
+8
 "
 )
     
@@ -6092,11 +6078,117 @@ f
 fileno
 )
     
+pytest
+.
+raises
+(
+UnsupportedOperation
+f
+.
+flush
+)
+    
+assert
+not
+f
+.
+readable
+(
+)
+    
+pytest
+.
+raises
+(
+UnsupportedOperation
+f
+.
+seek
+0
+)
+    
+assert
+not
+f
+.
+seekable
+(
+)
+    
+pytest
+.
+raises
+(
+UnsupportedOperation
+f
+.
+tell
+)
+    
+pytest
+.
+raises
+(
+UnsupportedOperation
+f
+.
+truncate
+0
+)
+    
+pytest
+.
+raises
+(
+UnsupportedOperation
+f
+.
+write
+b
+"
+"
+)
+    
+pytest
+.
+raises
+(
+UnsupportedOperation
+f
+.
+writelines
+[
+]
+)
+    
+assert
+not
+f
+.
+writable
+(
+)
+    
+assert
+isinstance
+(
+f
+.
+encoding
+str
+)
+    
 f
 .
 close
 (
 )
+    
+with
+f
+:
+        
+pass
 def
 test_captureresult
 (
@@ -7323,6 +7415,7 @@ cap
 =
 (
                 
+f
 "
 <
 FDCapture
@@ -7330,6 +7423,9 @@ FDCapture
 oldfd
 =
 {
+cap
+.
+targetfd_save
 }
 _state
 =
@@ -7339,24 +7435,26 @@ done
 tmpfile
 =
 {
+cap
+.
+tmpfile
 !
 r
 }
 >
 "
-.
-format
-(
-                    
-cap
-.
-targetfd_save
-cap
-.
-tmpfile
-                
+            
 )
             
+assert
+isinstance
+(
+cap
+.
+syscapture
+capture
+.
+SysCapture
 )
             
 assert
@@ -7370,6 +7468,7 @@ syscapture
 =
 (
                 
+f
 "
 <
 SysCapture
@@ -7387,22 +7486,16 @@ done
 tmpfile
 =
 {
-!
-r
-}
->
-"
-.
-format
-(
-                    
 cap
 .
 syscapture
 .
 tmpfile
-                
-)
+!
+r
+}
+>
+"
             
 )
     
@@ -9646,6 +9739,17 @@ err
 True
 )
     
+assert
+isinstance
+(
+cap
+.
+err
+capture
+.
+FDCapture
+)
+    
 try
 :
         
@@ -9854,6 +9958,7 @@ pytester
 makepyfile
 (
         
+f
 "
 "
 "
@@ -9887,8 +9992,9 @@ err
 =
 capture
 .
-%
-s
+{
+method
+}
         
 )
         
@@ -9921,10 +10027,8 @@ print
 suspend
 captured
 %
-%
 s
 "
-%
 %
 (
 outerr
@@ -9969,10 +10073,8 @@ print
 suspend2
 captured
 %
-%
 s
 "
-%
 %
 (
 outerr
@@ -9982,11 +10084,6 @@ outerr
 "
 "
 "
-        
-%
-(
-method
-)
     
 )
     
@@ -10172,7 +10269,7 @@ windows
 "
 )
 def
-test_py36_windowsconsoleio_workaround_non_standard_streams
+test_windowsconsoleio_workaround_non_standard_streams
 (
 )
 -
@@ -10185,7 +10282,7 @@ None
 "
     
 Ensure
-_py36_windowsconsoleio_workaround
+_windowsconsoleio_workaround
 function
 works
 with
@@ -10221,7 +10318,7 @@ _pytest
 .
 capture
 import
-_py36_windowsconsoleio_workaround
+_windowsconsoleio_workaround
     
 class
 DummyStream
@@ -10247,7 +10344,7 @@ DummyStream
 )
 )
     
-_py36_windowsconsoleio_workaround
+_windowsconsoleio_workaround
 (
 stream
 )
@@ -10574,6 +10671,13 @@ caplog
 "
 w
 "
+encoding
+=
+"
+utf
+-
+8
+"
 )
 as
 f
@@ -10596,6 +10700,13 @@ capstdout
 "
 "
 w
+"
+encoding
+=
+"
+utf
+-
+8
 "
 )
 as
@@ -10765,6 +10876,13 @@ open
 "
 caplog
 "
+encoding
+=
+"
+utf
+-
+8
+"
 )
 as
 f
@@ -10808,6 +10926,13 @@ open
 (
 "
 capstdout
+"
+encoding
+=
+"
+utf
+-
+8
 "
 )
 as
@@ -10895,6 +11020,7 @@ pytester
 makepyfile
 (
         
+f
 "
 "
 "
@@ -10918,7 +11044,7 @@ def
 test_capture
 (
 {
-0
+capture_fixture
 }
 )
 :
@@ -10947,7 +11073,7 @@ n
 captured
 =
 {
-0
+capture_fixture
 }
 .
 readouterr
@@ -11008,7 +11134,7 @@ something
 captured
 =
 {
-0
+capture_fixture
 }
 .
 readouterr
@@ -11031,13 +11157,6 @@ n
 "
 "
 "
-.
-format
-(
-            
-capture_fixture
-        
-)
     
 )
     

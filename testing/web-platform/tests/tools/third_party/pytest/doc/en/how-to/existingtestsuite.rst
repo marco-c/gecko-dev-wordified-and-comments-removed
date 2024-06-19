@@ -76,14 +76,6 @@ test
 runners
 such
 as
-:
-ref
-:
-nose
-<
-noseintegration
->
-or
 Python
 '
 s

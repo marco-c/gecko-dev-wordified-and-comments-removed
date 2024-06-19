@@ -1,4 +1,8 @@
 import
+email
+.
+message
+import
 io
 from
 typing
@@ -8,8 +12,6 @@ from
 typing
 import
 Union
-import
-pytest
 from
 _pytest
 .
@@ -22,6 +24,8 @@ _pytest
 pytester
 import
 Pytester
+import
+pytest
 class
 TestPasteCapture
 :
@@ -657,19 +661,26 @@ error
 .
 HTTPError
 (
+                
 url
 400
 "
 Bad
 request
 "
-{
-}
+email
+.
+message
+.
+Message
+(
+)
 io
 .
 BytesIO
 (
 )
+            
 )
         
 monkeypatch

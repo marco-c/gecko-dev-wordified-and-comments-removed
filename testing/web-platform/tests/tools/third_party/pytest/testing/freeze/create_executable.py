@@ -24,10 +24,10 @@ __main__
 :
     
 import
-pytest
+subprocess
     
 import
-subprocess
+pytest
     
 hidden
 =
@@ -89,11 +89,8 @@ pyinstaller
 -
 noconfirm
 "
-]
-+
+*
 hidden
-+
-[
 "
 runtests_script
 .

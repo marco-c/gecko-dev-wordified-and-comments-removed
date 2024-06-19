@@ -17,6 +17,7 @@ what
 Union
 [
 type
+str
 Attribute
 [
 Any
@@ -42,6 +43,7 @@ what
 Union
 [
 type
+str
 Attribute
 [
 Any

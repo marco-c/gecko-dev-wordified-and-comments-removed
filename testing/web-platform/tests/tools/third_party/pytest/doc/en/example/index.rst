@@ -173,15 +173,6 @@ for
 basic
 unittest
 integration
--
-:
-ref
-:
-noseintegration
-for
-basic
-nosetests
-integration
 The
 following
 examples
@@ -210,3 +201,4 @@ markers
 special
 pythoncollection
 nonpython
+customdirectory

@@ -2,14 +2,18 @@ from
 pathlib
 import
 Path
-import
-pytest
 from
 _pytest
 .
 compat
 import
 LEGACY_PATH
+from
+_pytest
+.
+fixtures
+import
+TopRequest
 from
 _pytest
 .
@@ -22,6 +26,8 @@ _pytest
 legacypath
 import
 Testdir
+import
+pytest
 def
 test_item_fspath
 (
@@ -677,11 +683,18 @@ modcol
 ]
 )
     
-req
-=
+assert
+isinstance
+(
+item
 pytest
 .
-FixtureRequest
+Function
+)
+    
+req
+=
+TopRequest
 (
 item
 _ispytest
@@ -766,6 +779,8 @@ context
 )
 :
             
+_
+=
 session_request
 .
 fspath
@@ -1117,7 +1132,7 @@ r
 "
         
 def
-test_overriden
+test_overridden
 (
 pytestconfig
 )

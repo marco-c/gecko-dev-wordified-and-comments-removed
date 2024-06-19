@@ -13,10 +13,10 @@ import
 cProfile
     
 import
-pytest
+pstats
     
 import
-pstats
+pytest
     
 script
 =

@@ -10,8 +10,6 @@ from
 typing
 import
 TYPE_CHECKING
-import
-pytest
 from
 _pytest
 import
@@ -42,6 +40,8 @@ _pytest
 reports
 import
 TestReport
+import
+pytest
 if
 TYPE_CHECKING
 :
@@ -118,7 +118,7 @@ stepwise
 help
 =
 "
-exit
+Exit
 on
 test
 failure
@@ -174,7 +174,7 @@ stepwise_skip
 help
 =
 "
-ignore
+Ignore
 the
 first
 failing
@@ -187,12 +187,10 @@ next
 failing
 test
 .
-\
-n
 "
         
 "
-implicitly
+Implicitly
 enables
 -
 -
@@ -292,6 +290,20 @@ cache
 is
 not
 None
+        
+if
+hasattr
+(
+session
+.
+config
+"
+workerinput
+"
+)
+:
+            
+return
         
 session
 .
@@ -737,6 +749,20 @@ self
 >
 None
 :
+        
+if
+hasattr
+(
+self
+.
+config
+"
+workerinput
+"
+)
+:
+            
+return
         
 self
 .

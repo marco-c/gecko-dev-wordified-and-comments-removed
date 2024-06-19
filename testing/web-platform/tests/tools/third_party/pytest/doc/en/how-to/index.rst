@@ -212,7 +212,6 @@ maxdepth
 1
 existingtestsuite
 unittest
-nose
 xunit_setup
 pytest
 development

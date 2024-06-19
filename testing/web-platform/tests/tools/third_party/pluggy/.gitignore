@@ -141,6 +141,9 @@ coverage
 *
 .
 cache
+.
+mypy_cache
+/
 nosetests
 .
 xml
@@ -171,6 +174,11 @@ docs
 /
 _build
 /
+docs
+/
+_changelog_towncrier_draft
+.
+rst
 #
 PyBuilder
 target
@@ -198,4 +206,11 @@ pip
 wheel
 -
 metadata
+/
+#
+pytest
+-
+benchmark
+.
+benchmarks
 /

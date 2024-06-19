@@ -792,7 +792,7 @@ only
 use
 indices
 for
-paramentrized
+parametrized
 test
 ids
 -

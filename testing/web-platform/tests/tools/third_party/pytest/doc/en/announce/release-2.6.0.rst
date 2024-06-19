@@ -618,7 +618,7 @@ colour
 to
 yellow
 rather
-then
+than
 red
 when
 tests

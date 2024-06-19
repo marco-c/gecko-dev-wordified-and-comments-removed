@@ -16,14 +16,14 @@ from
 typing
 import
 Optional
-import
-pytest
 from
 _pytest
 .
 pytester
 import
 Pytester
+import
+pytest
 pytest
 .
 fixture
@@ -655,7 +655,7 @@ pytest
 .
 hookimpl
 (
-hookwrapper
+wrapper
 =
 True
 tryfirst
@@ -692,8 +692,17 @@ copy
 (
 )
             
+try
+:
+                
+return
+(
 yield
+)
             
+finally
+:
+                
 after
 =
 sys

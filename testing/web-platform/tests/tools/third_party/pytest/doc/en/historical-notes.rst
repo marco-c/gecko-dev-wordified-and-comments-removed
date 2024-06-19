@@ -992,9 +992,7 @@ py
 class
 :
 ~
-_pytest
-.
-mark
+pytest
 .
 Mark
 .

@@ -1,5 +1,5 @@
 def
-test
+test_foo
 (
 )
 :
