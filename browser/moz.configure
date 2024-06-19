@@ -71,6 +71,15 @@ c20a
 imply_option
 (
 "
+MOZ_DEVTOOLS
+"
+"
+all
+"
+)
+imply_option
+(
+"
 BROWSER_CHROME_URL
 "
 "
