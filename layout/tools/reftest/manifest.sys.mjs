@@ -4009,7 +4009,7 @@ appleSilicon
 =
 mozinfo
 .
-appleSilicon
+apple_silicon
 ;
 sandbox
 .
