@@ -8034,6 +8034,7 @@ document
 "
 SelectTranslationsPanelStateChanged
 "
+false
 event
 =
 >
@@ -10912,10 +10913,10 @@ button
 true
 circleArrows
 :
-true
+false
 locale
 :
-false
+true
 icon
 :
 true
@@ -10925,8 +10926,7 @@ The
 icon
 presents
 the
-loading
-indicator
+locale
 .
 "
 )
