@@ -276,14 +276,10 @@ UpdateLanguages
 (
 storage
 .
-getLanguages
-(
-)
+languages
 storage
 .
-getSelectedLanguageTag
-(
-)
+selectedLanguage
 )
 )
 }
