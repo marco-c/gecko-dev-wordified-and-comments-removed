@@ -4071,7 +4071,7 @@ indicator
 *
 /
 #
-PlacesToolbarDropIndicator
+PlacesToolbarDropIndicatorHolder
 {
 display
 :
@@ -4081,6 +4081,10 @@ position
 :
 absolute
 ;
+}
+#
+PlacesToolbarDropIndicator
+{
 list
 -
 style
