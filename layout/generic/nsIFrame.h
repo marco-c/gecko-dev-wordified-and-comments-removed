@@ -7233,8 +7233,6 @@ MarkIntrinsicISizesDirty
 (
 )
 ;
-public
-:
 void
 MarkSubtreeDirty
 (
