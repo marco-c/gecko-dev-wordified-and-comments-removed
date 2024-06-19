@@ -121,6 +121,9 @@ togglemicrophone
 togglecamera
 "
 "
+togglescreenshare
+"
+"
 hangup
 "
 "
@@ -196,6 +199,16 @@ Promise
 undefined
 >
 setCameraActive
+(
+boolean
+active
+)
+;
+Promise
+<
+undefined
+>
+setScreenshareActive
 (
 boolean
 active

@@ -71,6 +71,7 @@ MediaStreamTrackProcessorInit
 init
 )
 ;
+readonly
 attribute
 ReadableStream
 readable

@@ -405,9 +405,7 @@ bufferView
 /
 Create
 a
-single
--
-value
+scalar
 operand
 from
 the
@@ -421,15 +419,10 @@ type
 MLOperand
 constant
 (
-double
-value
-optional
 MLOperandDataType
 type
-=
-"
-float32
-"
+double
+value
 )
 ;
 /
@@ -976,7 +969,7 @@ b
 )
 ;
 MLOperand
-not
+logicalNot
 (
 MLOperand
 a

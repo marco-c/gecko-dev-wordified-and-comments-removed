@@ -198,6 +198,17 @@ USVString
 replacements
 )
 ;
+sequence
+<
+USVString
+>
+adAuctionComponents
+(
+unsigned
+short
+numAdComponents
+)
+;
 }
 ;
 enum

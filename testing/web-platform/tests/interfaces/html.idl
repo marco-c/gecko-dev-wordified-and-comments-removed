@@ -557,7 +557,11 @@ CEReactions
 undefined
 write
 (
-HTMLString
+(
+TrustedHTML
+or
+DOMString
+)
 .
 .
 .
@@ -570,7 +574,11 @@ CEReactions
 undefined
 writeln
 (
-HTMLString
+(
+TrustedHTML
+or
+DOMString
+)
 .
 .
 .
@@ -11644,6 +11652,8 @@ typedef
 DOMString
 or
 Function
+or
+TrustedScript
 )
 TimerHandler
 ;

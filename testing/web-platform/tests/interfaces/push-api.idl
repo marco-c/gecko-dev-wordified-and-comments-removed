@@ -295,6 +295,11 @@ blob
 (
 )
 ;
+Uint8Array
+bytes
+(
+)
+;
 any
 json
 (

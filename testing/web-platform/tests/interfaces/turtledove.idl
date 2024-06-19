@@ -875,6 +875,13 @@ unsigned
 short
 multiBidLimit
 ;
+record
+<
+DOMString
+DOMString
+>
+requestedSize
+;
 USVString
 topLevelSeller
 ;
@@ -921,6 +928,13 @@ biddingDurationMsec
 required
 DOMString
 bidCurrency
+;
+record
+<
+DOMString
+DOMString
+>
+renderSize
 ;
 unsigned
 long
