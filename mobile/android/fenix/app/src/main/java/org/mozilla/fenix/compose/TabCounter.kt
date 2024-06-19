@@ -325,8 +325,6 @@ NORMAL_TABS_BOTTOM_PADDING
 =
 0
 .
-5
-.
 dp
 private
 const
@@ -367,7 +365,7 @@ const
 val
 TAB_TEXT_BOTTOM_PADDING_RATIO
 =
-4
+6
 /
 *
 *
