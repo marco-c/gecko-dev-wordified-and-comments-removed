@@ -1301,6 +1301,13 @@ js
 ]
 [
 "
+browser_crossGroupOpener
+.
+js
+"
+]
+[
+"
 browser_cross_process_csp_inheritance
 .
 js

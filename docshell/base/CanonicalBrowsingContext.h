@@ -399,6 +399,15 @@ return
 mCrossGroupOpenerId
 ;
 }
+already_AddRefed
+<
+CanonicalBrowsingContext
+>
+GetCrossGroupOpener
+(
+)
+const
+;
 void
 SetCrossGroupOpenerId
 (
@@ -410,7 +419,7 @@ void
 SetCrossGroupOpener
 (
 CanonicalBrowsingContext
-&
+*
 aCrossGroupOpener
 ErrorResult
 &
