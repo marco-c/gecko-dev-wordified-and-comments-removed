@@ -237,6 +237,13 @@ js
 ]
 [
 "
+browser_LayoutUtils
+.
+js
+"
+]
+[
+"
 browser_Troubleshoot
 .
 js
