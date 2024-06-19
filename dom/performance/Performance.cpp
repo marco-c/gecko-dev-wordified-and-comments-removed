@@ -1960,7 +1960,7 @@ performanceMark
 ;
 if
 (
-profiler_is_collecting_markers
+profiler_thread_is_being_profiled_for_markers
 (
 )
 )
@@ -4243,7 +4243,7 @@ aEndMark
 ;
 if
 (
-profiler_is_collecting_markers
+profiler_thread_is_being_profiled_for_markers
 (
 )
 )
