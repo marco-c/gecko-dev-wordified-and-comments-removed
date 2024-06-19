@@ -53,9 +53,6 @@ MPL
 0
 /
 .
-MOZ_APP_UA_NAME
-=
-Firefox
 MOZ_BRANDING_DIRECTORY
 =
 mobile
