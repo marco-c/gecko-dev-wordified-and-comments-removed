@@ -366,6 +366,12 @@ using
 namespace
 mozilla
 ;
+using
+JS
+:
+:
+SliceBudget
+;
 struct
 NurseryPurpleBufferEntry
 {
@@ -3972,9 +3978,6 @@ RemoveSkippable
 nsCycleCollector
 *
 aCollector
-js
-:
-:
 SliceBudget
 &
 aBudget
@@ -4310,12 +4313,6 @@ CCIsManual
 true
 }
 ;
-using
-js
-:
-:
-SliceBudget
-;
 class
 JSPurpleBuffer
 ;
@@ -4495,9 +4492,6 @@ SuspectedCount
 void
 ForgetSkippable
 (
-js
-:
-:
 SliceBudget
 &
 aBudget
@@ -4517,9 +4511,6 @@ aUntilNoSWInPurpleBuffer
 bool
 FreeSnowWhiteWithBudget
 (
-js
-:
-:
 SliceBudget
 &
 aBudget
@@ -10864,9 +10855,6 @@ SnowWhiteKiller
 nsCycleCollector
 *
 aCollector
-js
-:
-:
 SliceBudget
 *
 aBudget
@@ -11599,9 +11587,6 @@ mCollector
 ObjectsVector
 mObjects
 ;
-js
-:
-:
 SliceBudget
 *
 mBudget
@@ -11624,9 +11609,6 @@ RemoveSkippableVisitor
 nsCycleCollector
 *
 aCollector
-js
-:
-:
 SliceBudget
 &
 aBudget
@@ -11869,9 +11851,6 @@ true
 }
 private
 :
-js
-:
-:
 SliceBudget
 &
 mBudget
@@ -11899,9 +11878,6 @@ RemoveSkippable
 nsCycleCollector
 *
 aCollector
-js
-:
-:
 SliceBudget
 &
 aBudget
@@ -12030,9 +12006,6 @@ nsCycleCollector
 :
 FreeSnowWhiteWithBudget
 (
-js
-:
-:
 SliceBudget
 &
 aBudget
@@ -12099,9 +12072,6 @@ nsCycleCollector
 :
 ForgetSkippable
 (
-js
-:
-:
 SliceBudget
 &
 aBudget
@@ -17843,9 +17813,6 @@ aCB
 void
 nsCycleCollector_forgetSkippable
 (
-js
-:
-:
 SliceBudget
 &
 aBudget
@@ -17994,9 +17961,6 @@ false
 bool
 nsCycleCollector_doDeferredDeletionWithBudget
 (
-js
-:
-:
 SliceBudget
 &
 aBudget

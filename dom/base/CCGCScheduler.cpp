@@ -2071,7 +2071,7 @@ Now
 (
 )
 ;
-js
+JS
 :
 :
 SliceBudget
@@ -3462,7 +3462,7 @@ KillGCRunner
 )
 ;
 }
-js
+JS
 :
 :
 SliceBudget
@@ -3528,12 +3528,12 @@ IsNull
 )
 {
 return
-js
+JS
 :
 :
 SliceBudget
 (
-js
+JS
 :
 :
 TimeBudget
@@ -3567,7 +3567,7 @@ kMaxICCDuration
 )
 {
 return
-js
+JS
 :
 :
 SliceBudget
@@ -3664,12 +3664,12 @@ percentToHalfDone
 )
 ;
 return
-js
+JS
 :
 :
 SliceBudget
 (
-js
+JS
 :
 :
 TimeBudget
@@ -3689,7 +3689,7 @@ baseBudget
 )
 ;
 }
-js
+JS
 :
 :
 SliceBudget
@@ -4724,7 +4724,7 @@ NO_REASON
 }
 ;
 }
-js
+JS
 :
 :
 SliceBudget
@@ -4846,7 +4846,7 @@ aStartTimeStamp
 kForgetSkippableSliceDuration
 ;
 return
-js
+JS
 :
 :
 SliceBudget
