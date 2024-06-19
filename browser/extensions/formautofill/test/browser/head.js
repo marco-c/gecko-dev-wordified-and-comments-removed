@@ -4979,6 +4979,14 @@ equal
 (
 actualValue
 expectedValue
+[
+{
+field
+.
+fieldName
+}
+]
+:
 {
 key
 }
