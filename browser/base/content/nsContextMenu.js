@@ -11771,6 +11771,9 @@ getTextToTranslate
 )
 this
 .
+isTextSelected
+this
+.
 #
 translationsLangPairPromise
 )

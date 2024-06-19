@@ -1407,6 +1407,7 @@ event
 screenX
 screenY
 sourceText
+isTextSelected
 langPairPromise
 maintainFlow
 =
@@ -1433,6 +1434,7 @@ event
 screenX
 screenY
 sourceText
+isTextSelected
 langPairPromise
 )
 ;
@@ -1479,6 +1481,17 @@ docLangTag
 fromLanguage
 toLanguage
 topPreferredLanguage
+textSource
+:
+isTextSelected
+?
+"
+selection
+"
+:
+"
+hyperlink
+"
 }
 )
 ;
@@ -1580,6 +1593,7 @@ event
 screenX
 screenY
 sourceText
+isTextSelected
 langPairPromise
 )
 ;
@@ -1603,6 +1617,7 @@ event
 screenX
 screenY
 sourceText
+isTextSelected
 langPairPromise
 )
 {
@@ -1646,6 +1661,7 @@ event
 screenX
 screenY
 sourceText
+isTextSelected
 langPairPromise
 )
 ;
@@ -3856,6 +3872,7 @@ event
 screenX
 screenY
 sourceText
+isTextSelected
 langPairPromise
 }
 =
@@ -3883,6 +3900,7 @@ event
 screenX
 screenY
 sourceText
+isTextSelected
 langPairPromise
 true
 )
@@ -4808,6 +4826,7 @@ event
 screenX
 screenY
 sourceText
+isTextSelected
 langPairPromise
 )
 {
@@ -4832,6 +4851,7 @@ event
 screenX
 screenY
 sourceText
+isTextSelected
 langPairPromise
 }
 )
