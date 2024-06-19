@@ -1524,6 +1524,7 @@ rootOrWatcherOrTargetActor
 "
 available
 "
+resourceType
 )
 onUpdated
 :
@@ -1537,6 +1538,7 @@ rootOrWatcherOrTargetActor
 "
 updated
 "
+resourceType
 )
 onDestroyed
 :
@@ -1550,6 +1552,7 @@ rootOrWatcherOrTargetActor
 "
 destroyed
 "
+resourceType
 )
 }
 )

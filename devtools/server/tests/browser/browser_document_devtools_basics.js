@@ -229,11 +229,11 @@ topTarget
 once
 (
 "
-resource
+resources
 -
 available
 -
-form
+array
 "
 )
 ;
@@ -286,7 +286,11 @@ log
 )
 ;
 const
+[
+[
 resources
+]
+]
 =
 await
 onConsoleMessages
