@@ -705,6 +705,13 @@ js
 ]
 [
 "
+browser_translations_select_telemetry_multi_page
+.
+js
+"
+]
+[
+"
 browser_translations_select_telemetry_primary_ui
 .
 js
