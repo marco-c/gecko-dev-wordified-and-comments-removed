@@ -1,0 +1,13 @@
+'
+use
+strict
+'
+;
+runWebNNConformanceTests
+(
+'
+mul
+'
+buildOperationWithTwoInputs
+)
+;
