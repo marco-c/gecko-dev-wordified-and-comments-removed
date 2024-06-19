@@ -900,7 +900,8 @@ SnapDirection
 UP
 )
 {
-0f
+-
+bottomToolbarHeight
 }
 else
 {
