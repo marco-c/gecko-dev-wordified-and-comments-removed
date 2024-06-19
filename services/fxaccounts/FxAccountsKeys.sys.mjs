@@ -100,9 +100,9 @@ mjs
 ;
 import
 {
-SCOPE_OLD_SYNC
+SCOPE_APP_SYNC
 DEPRECATED_SCOPE_ECOSYSTEM_TELEMETRY
-FX_OAUTH_CLIENT_ID
+OAUTH_CLIENT_ID
 log
 logPII
 }
@@ -321,7 +321,7 @@ const
 LEGACY_DERIVED_KEY_SCOPES
 =
 [
-SCOPE_OLD_SYNC
+SCOPE_APP_SYNC
 ]
 ;
 /
@@ -3280,7 +3280,7 @@ const
 scopes
 =
 [
-SCOPE_OLD_SYNC
+SCOPE_APP_SYNC
 ]
 .
 join
@@ -3302,7 +3302,7 @@ fxAccountsClient
 getScopedKeyData
 (
 sessionToken
-FX_OAUTH_CLIENT_ID
+OAUTH_CLIENT_ID
 scopes
 )
 ;
@@ -3339,7 +3339,7 @@ them
 except
 for
 the
-OLDSYNC
+sync
 scope
 whose
 absence
@@ -3354,7 +3354,7 @@ scopedKeysMetadata
 .
 hasOwnProperty
 (
-SCOPE_OLD_SYNC
+SCOPE_APP_SYNC
 )
 )
 {
@@ -3371,7 +3371,7 @@ not
 grant
 Firefox
 the
-oldsync
+sync
 scope
 ;
 this
@@ -3407,7 +3407,7 @@ not
 grant
 Firefox
 the
-oldsync
+sync
 scope
 "
 )
@@ -4324,7 +4324,7 @@ if
 scope
 =
 =
-SCOPE_OLD_SYNC
+SCOPE_APP_SYNC
 )
 {
 kid

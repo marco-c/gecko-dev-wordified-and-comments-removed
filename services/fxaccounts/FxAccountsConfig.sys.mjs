@@ -80,7 +80,7 @@ mjs
 import
 {
 log
-SCOPE_OLD_SYNC
+SCOPE_APP_SYNC
 SCOPE_PROFILE
 }
 from
@@ -2188,7 +2188,7 @@ const
 scopes
 =
 [
-SCOPE_OLD_SYNC
+SCOPE_APP_SYNC
 SCOPE_PROFILE
 ]
 ;

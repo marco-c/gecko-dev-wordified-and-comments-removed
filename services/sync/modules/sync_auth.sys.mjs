@@ -421,11 +421,11 @@ mjs
 "
 ;
 const
-SCOPE_OLD_SYNC
+SCOPE_APP_SYNC
 =
 fxAccountsCommon
 .
-SCOPE_OLD_SYNC
+SCOPE_APP_SYNC
 ;
 const
 OBSERVER_TOPICS
@@ -2161,7 +2161,7 @@ keys
 .
 canGetKeyForScope
 (
-SCOPE_OLD_SYNC
+SCOPE_APP_SYNC
 )
 )
 {
@@ -2308,7 +2308,7 @@ keys
 .
 canGetKeyForScope
 (
-SCOPE_OLD_SYNC
+SCOPE_APP_SYNC
 )
 )
 {
@@ -2700,7 +2700,7 @@ keys
 .
 canGetKeyForScope
 (
-SCOPE_OLD_SYNC
+SCOPE_APP_SYNC
 )
 )
 )
@@ -2891,7 +2891,7 @@ getOAuthTokenAndKey
 {
 scope
 :
-SCOPE_OLD_SYNC
+SCOPE_APP_SYNC
 ttl
 }
 )
@@ -3025,7 +3025,7 @@ getOAuthTokenAndKey
 {
 scope
 :
-SCOPE_OLD_SYNC
+SCOPE_APP_SYNC
 ttl
 }
 )

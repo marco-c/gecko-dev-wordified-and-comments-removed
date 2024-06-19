@@ -90,10 +90,10 @@ mjs
 ;
 import
 {
-FX_OAUTH_CLIENT_ID
+OAUTH_CLIENT_ID
 SCOPE_PROFILE
 SCOPE_PROFILE_WRITE
-SCOPE_OLD_SYNC
+SCOPE_APP_SYNC
 }
 from
 "
@@ -118,7 +118,7 @@ VALID_SCOPES
 [
 SCOPE_PROFILE
 SCOPE_PROFILE_WRITE
-SCOPE_OLD_SYNC
+SCOPE_APP_SYNC
 ]
 ;
 export
@@ -921,7 +921,7 @@ queryParams
 {
 client_id
 :
-FX_OAUTH_CLIENT_ID
+OAUTH_CLIENT_ID
 action
 :
 "
@@ -1551,7 +1551,7 @@ oauthToken
 sessionTokenHex
 code
 verifier
-FX_OAUTH_CLIENT_ID
+OAUTH_CLIENT_ID
 )
 ;
 if
@@ -1560,7 +1560,7 @@ requestedScopes
 .
 includes
 (
-SCOPE_OLD_SYNC
+SCOPE_APP_SYNC
 )
 &
 &
@@ -1569,7 +1569,7 @@ scope
 .
 includes
 (
-SCOPE_OLD_SYNC
+SCOPE_APP_SYNC
 )
 )
 {
@@ -1587,7 +1587,7 @@ scope
 .
 includes
 (
-SCOPE_OLD_SYNC
+SCOPE_APP_SYNC
 )
 &
 &

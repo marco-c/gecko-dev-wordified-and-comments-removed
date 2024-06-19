@@ -57,6 +57,7 @@ mjs
 ;
 const
 {
+SCOPE_APP_SYNC
 SCOPE_OLD_SYNC
 }
 =
@@ -89,7 +90,7 @@ scopedKeys
 :
 {
 [
-SCOPE_OLD_SYNC
+SCOPE_APP_SYNC
 ]
 :
 {

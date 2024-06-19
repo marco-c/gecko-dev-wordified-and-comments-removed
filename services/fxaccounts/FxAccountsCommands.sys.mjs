@@ -58,6 +58,7 @@ MPL
 /
 import
 {
+CLIENT_IS_THUNDERBIRD
 COMMAND_SENDTAB
 COMMAND_SENDTAB_TAIL
 COMMAND_CLOSETAB
@@ -351,6 +352,18 @@ availableCommands
 (
 )
 {
+let
+commands
+=
+{
+}
+;
+if
+(
+!
+CLIENT_IS_THUNDERBIRD
+)
+{
 /
 /
 Invalid
@@ -375,12 +388,6 @@ sendTab
 getEncryptedSendTabKeys
 (
 )
-;
-let
-commands
-=
-{
-}
 ;
 if
 (
@@ -466,6 +473,7 @@ COMMAND_CLOSETAB
 =
 encryptedCloseTabKeys
 ;
+}
 }
 }
 return
