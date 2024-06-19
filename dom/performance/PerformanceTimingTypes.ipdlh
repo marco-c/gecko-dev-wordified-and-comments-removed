@@ -190,6 +190,9 @@ transferSize
 uint64_t
 decodedBodySize
 ;
+uint16_t
+responseStatus
+;
 uint8_t
 redirectCount
 ;
