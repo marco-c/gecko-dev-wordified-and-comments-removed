@@ -208,11 +208,17 @@ test_prompt_type
 (
     
 bidi_session
+    
 subscribe_events
+    
 inline
+    
 new_tab
+    
 wait_for_event
+    
 wait_for_future_safe
+    
 prompt_type
 )
 :
@@ -328,22 +334,20 @@ text
 *
 (
 {
-            
 "
 defaultValue
 "
 :
 "
 "
-        
 }
 if
 prompt_type
 =
 =
-'
+"
 prompt
-'
+"
 else
 {
 }
@@ -360,6 +364,7 @@ parametrize
 "
 default
 "
+    
 [
 None
 "
@@ -368,6 +373,7 @@ None
 default
 "
 ]
+    
 ids
 =
 [
@@ -391,11 +397,17 @@ test_prompt_default_value
 (
     
 bidi_session
+    
 inline
+    
 new_tab
+    
 subscribe_events
+    
 wait_for_event
+    
 wait_for_future_safe
+    
 default
 )
 :
@@ -605,10 +617,15 @@ test_subscribe_to_one_context
 (
     
 bidi_session
+    
 subscribe_events
+    
 inline
+    
 wait_for_event
+    
 wait_for_future_safe
+    
 type_hint
 )
 :

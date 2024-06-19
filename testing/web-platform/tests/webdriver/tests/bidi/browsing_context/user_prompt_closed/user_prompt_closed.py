@@ -39,6 +39,7 @@ async
 def
 test_unsubscribe
 (
+    
 bidi_session
 inline
 new_tab
@@ -229,14 +230,19 @@ remove_listener
 )
 async
 def
-test_subscribe_with_alert
+test_prompt_type_alert
 (
     
 bidi_session
+    
 subscribe_events
+    
 inline
+    
 new_tab
+    
 wait_for_event
+    
 wait_for_future_safe
 )
 :
@@ -344,6 +350,7 @@ event
 =
 =
 {
+        
 "
 context
 "
@@ -354,11 +361,21 @@ new_tab
 context
 "
 ]
+        
 "
 accepted
 "
 :
 True
+        
+"
+type
+"
+:
+"
+alert
+"
+    
 }
 pytest
 .
@@ -376,15 +393,21 @@ False
 )
 async
 def
-test_subscribe_with_confirm
+test_prompt_type_confirm
 (
     
 bidi_session
+    
 subscribe_events
+    
 inline
+    
 new_tab
+    
 wait_for_event
+    
 wait_for_future_safe
+    
 accept
 )
 :
@@ -497,6 +520,7 @@ event
 =
 =
 {
+        
 "
 context
 "
@@ -507,11 +531,21 @@ new_tab
 context
 "
 ]
+        
 "
 accepted
 "
 :
 accept
+        
+"
+type
+"
+:
+"
+confirm
+"
+    
 }
 pytest
 .
@@ -529,15 +563,21 @@ False
 )
 async
 def
-test_subscribe_with_prompt
+test_prompt_type_prompt
 (
     
 bidi_session
+    
 subscribe_events
+    
 inline
+    
 new_tab
+    
 wait_for_event
+    
 wait_for_future_safe
+    
 accept
 )
 :
@@ -687,6 +727,14 @@ accepted
 accept
             
 "
+type
+"
+:
+"
+prompt
+"
+            
+"
 userText
 "
 :
@@ -702,6 +750,7 @@ event
 =
 =
 {
+            
 "
 context
 "
@@ -712,22 +761,37 @@ new_tab
 context
 "
 ]
+            
 "
 accepted
 "
 :
 accept
+            
+"
+type
+"
+:
+"
+prompt
+"
+        
 }
 async
 def
-test_subscribe_with_prompt_with_defaults
+test_prompt_with_defaults
 (
     
 bidi_session
+    
 subscribe_events
+    
 inline
+    
 new_tab
+    
 wait_for_event
+    
 wait_for_future_safe
 )
 :
@@ -815,7 +879,6 @@ browsing_context
 .
 handle_user_prompt
 (
-        
 context
 =
 new_tab
@@ -824,7 +887,6 @@ new_tab
 context
 "
 ]
-    
 )
     
 event
@@ -840,6 +902,7 @@ event
 =
 =
 {
+        
 "
 context
 "
@@ -850,11 +913,21 @@ new_tab
 context
 "
 ]
+        
 "
 accepted
 "
 :
 True
+        
+"
+type
+"
+:
+"
+prompt
+"
+    
 }
 pytest
 .
@@ -880,10 +953,15 @@ test_subscribe_to_one_context
 (
     
 bidi_session
+    
 subscribe_events
+    
 inline
+    
 wait_for_event
+    
 wait_for_future_safe
+    
 type_hint
 )
 :
@@ -1208,6 +1286,14 @@ accepted
 "
 :
 True
+        
+"
+type
+"
+:
+"
+alert
+"
     
 }
     
@@ -1454,7 +1540,6 @@ browsing_context
 .
 handle_user_prompt
 (
-        
 context
 =
 frame
@@ -1463,7 +1548,6 @@ frame
 context
 "
 ]
-    
 )
     
 event
@@ -1479,6 +1563,7 @@ event
 =
 =
 {
+        
 "
 context
 "
@@ -1489,9 +1574,19 @@ new_tab
 context
 "
 ]
+        
 "
 accepted
 "
 :
 True
+        
+"
+type
+"
+:
+"
+alert
+"
+    
 }
