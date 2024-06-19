@@ -597,6 +597,10 @@ section
 "
 >
 {
+!
+wallpapersV2Enabled
+&
+&
 wallpapersEnabled
 &
 &

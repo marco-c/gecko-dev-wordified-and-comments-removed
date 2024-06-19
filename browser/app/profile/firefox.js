@@ -11045,8 +11045,6 @@ stream
 newtabWallpapers
 .
 wallpaper
--
-color
 "
 "
 "

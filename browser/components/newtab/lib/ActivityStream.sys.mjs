@@ -2015,8 +2015,6 @@ value
 newtabWallpapers
 .
 wallpaper
--
-color
 "
 {
 title
@@ -2024,8 +2022,6 @@ title
 "
 Currently
 set
-solid
-color
 wallpaper
 "
 value
