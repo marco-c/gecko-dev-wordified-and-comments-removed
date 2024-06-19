@@ -24,12 +24,6 @@ src
 data_struct
 .
 rs
-index
-d66e20b117b58
-.
-.
-60765cec2419a
-100644
 -
 -
 -
@@ -59,10 +53,10 @@ data_struct
 .
 rs
 -
-20
+21
 7
 +
-20
+21
 7
 pub
 mod
@@ -90,7 +84,7 @@ diplomat
 :
 attr
 (
-dart
+*
 disable
 )
 ]

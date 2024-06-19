@@ -55,9 +55,9 @@ toml
 19
 +
 190
-7
+8
 "
-icu_timezone
+icu_experimental
 ?
 /
 serde
@@ -103,13 +103,6 @@ compiled_data
 "
 -
 "
-icu_displaynames
-?
-/
-compiled_data
-"
--
-"
 icu_list
 ?
 /
@@ -136,7 +129,6 @@ icu_plurals
 /
 compiled_data
 "
--
 "
 icu_properties
 ?
@@ -152,6 +144,13 @@ compiled_data
 -
 "
 icu_timezone
+?
+/
+compiled_data
+"
+-
+"
+icu_experimental
 ?
 /
 compiled_data
