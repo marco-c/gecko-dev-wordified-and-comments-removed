@@ -13738,7 +13738,15 @@ length
 &
 &
 !
+(
+!
+searchString
+.
+length
+&
+&
 allowEmptySearchString
+)
 )
 {
 return
