@@ -427,6 +427,13 @@ js
 ]
 [
 "
+browser_bookmarks_toolbar_drag_from_chevron
+.
+js
+"
+]
+[
+"
 browser_bookmarks_toolbar_telemetry
 .
 js
