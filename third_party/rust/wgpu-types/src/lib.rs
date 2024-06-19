@@ -26259,6 +26259,7 @@ ALL
 derive
 (
 Clone
+Debug
 )
 ]
 pub

@@ -917,7 +917,9 @@ new
 let
 error
 =
-loop
+'
+error
+:
 {
 let
 device
@@ -947,6 +949,8 @@ _
 >
 {
 break
+'
+error
 DeviceError
 :
 :
@@ -968,6 +972,8 @@ is_valid
 )
 {
 break
+'
+error
 DeviceError
 :
 :
@@ -988,6 +994,8 @@ is_empty
 )
 {
 break
+'
+error
 CreateBufferError
 :
 :
@@ -1140,6 +1148,8 @@ e
 >
 {
 break
+'
+error
 e
 ;
 }
@@ -1262,6 +1272,8 @@ buffer
 )
 ;
 break
+'
+error
 e
 .
 into
@@ -1410,6 +1422,8 @@ buffer
 )
 ;
 break
+'
+error
 e
 ;
 }
@@ -1487,6 +1501,8 @@ buffer
 )
 ;
 break
+'
+error
 CreateBufferError
 :
 :
@@ -3238,7 +3254,9 @@ id_in
 let
 error
 =
-loop
+'
+error
+:
 {
 let
 device
@@ -3267,6 +3285,8 @@ _
 =
 >
 break
+'
+error
 DeviceError
 :
 :
@@ -3286,6 +3306,8 @@ is_valid
 )
 {
 break
+'
+error
 DeviceError
 :
 :
@@ -3380,6 +3402,8 @@ error
 =
 >
 break
+'
+error
 error
 }
 ;
@@ -3594,7 +3618,9 @@ id_in
 let
 error
 =
-loop
+'
+error
+:
 {
 let
 device
@@ -3623,6 +3649,8 @@ _
 =
 >
 break
+'
+error
 DeviceError
 :
 :
@@ -3642,6 +3670,8 @@ is_valid
 )
 {
 break
+'
+error
 DeviceError
 :
 :
@@ -3758,6 +3788,8 @@ error
 =
 >
 break
+'
+error
 error
 }
 ;
@@ -4060,7 +4092,9 @@ id_in
 let
 error
 =
-loop
+'
+error
+:
 {
 let
 device
@@ -4089,6 +4123,8 @@ _
 =
 >
 break
+'
+error
 DeviceError
 :
 :
@@ -4108,6 +4144,8 @@ is_valid
 )
 {
 break
+'
+error
 DeviceError
 :
 :
@@ -4760,7 +4798,9 @@ id_in
 let
 error
 =
-loop
+'
+error
+:
 {
 let
 texture
@@ -4789,6 +4829,8 @@ _
 =
 >
 break
+'
+error
 resource
 :
 :
@@ -4828,6 +4870,8 @@ snatch_guard
 )
 {
 break
+'
+error
 resource
 :
 :
@@ -4930,6 +4974,8 @@ e
 =
 >
 break
+'
+error
 e
 }
 ;
@@ -5394,7 +5440,9 @@ id_in
 let
 error
 =
-loop
+'
+error
+:
 {
 let
 device
@@ -5423,6 +5471,8 @@ _
 =
 >
 break
+'
+error
 DeviceError
 :
 :
@@ -5442,6 +5492,8 @@ is_valid
 )
 {
 break
+'
+error
 DeviceError
 :
 :
@@ -5532,6 +5584,8 @@ e
 =
 >
 break
+'
+error
 e
 }
 ;
@@ -5849,7 +5903,9 @@ id_in
 let
 error
 =
-loop
+'
+error
+:
 {
 let
 device
@@ -5878,6 +5934,8 @@ _
 =
 >
 break
+'
+error
 DeviceError
 :
 :
@@ -5897,6 +5955,8 @@ is_valid
 )
 {
 break
+'
+error
 DeviceError
 :
 :
@@ -5998,6 +6058,8 @@ e
 =
 >
 break
+'
+error
 e
 }
 ;
@@ -6113,6 +6175,8 @@ e
 =
 >
 break
+'
+error
 e
 }
 ;
@@ -6440,7 +6504,9 @@ id_in
 let
 error
 =
-loop
+'
+error
+:
 {
 let
 device
@@ -6469,6 +6535,8 @@ _
 =
 >
 break
+'
+error
 DeviceError
 :
 :
@@ -6488,6 +6556,8 @@ is_valid
 )
 {
 break
+'
+error
 DeviceError
 :
 :
@@ -6582,6 +6652,8 @@ e
 =
 >
 break
+'
+error
 e
 }
 ;
@@ -6884,7 +6956,9 @@ id_in
 let
 error
 =
-loop
+'
+error
+:
 {
 let
 device
@@ -6913,6 +6987,8 @@ _
 =
 >
 break
+'
+error
 DeviceError
 :
 :
@@ -6932,6 +7008,8 @@ is_valid
 )
 {
 break
+'
+error
 DeviceError
 :
 :
@@ -7027,6 +7105,8 @@ Err
 =
 >
 break
+'
+error
 binding_model
 :
 :
@@ -7061,6 +7141,8 @@ id
 )
 {
 break
+'
+error
 DeviceError
 :
 :
@@ -7099,6 +7181,8 @@ e
 =
 >
 break
+'
+error
 e
 }
 ;
@@ -7490,7 +7574,9 @@ id_in
 let
 error
 =
-loop
+'
+error
+:
 {
 let
 device
@@ -7519,6 +7605,8 @@ _
 =
 >
 break
+'
+error
 DeviceError
 :
 :
@@ -7538,6 +7626,8 @@ is_valid
 )
 {
 break
+'
+error
 DeviceError
 :
 :
@@ -7853,6 +7943,8 @@ e
 =
 >
 break
+'
+error
 e
 }
 ;
@@ -8047,7 +8139,9 @@ id_in
 let
 error
 =
-loop
+'
+error
+:
 {
 let
 device
@@ -8076,6 +8170,8 @@ _
 =
 >
 break
+'
+error
 DeviceError
 :
 :
@@ -8095,6 +8191,8 @@ is_valid
 )
 {
 break
+'
+error
 DeviceError
 :
 :
@@ -8236,6 +8334,8 @@ e
 =
 >
 break
+'
+error
 e
 }
 ;
@@ -8533,7 +8633,9 @@ into_command_buffer_id
 let
 error
 =
-loop
+'
+error
+:
 {
 let
 device
@@ -8562,6 +8664,8 @@ _
 =
 >
 break
+'
+error
 DeviceError
 :
 :
@@ -8577,6 +8681,8 @@ is_valid
 )
 {
 break
+'
+error
 DeviceError
 :
 :
@@ -8597,6 +8703,8 @@ get_queue
 else
 {
 break
+'
+error
 DeviceError
 :
 :
@@ -8646,6 +8754,8 @@ _
 =
 >
 break
+'
+error
 DeviceError
 :
 :
@@ -9238,7 +9348,9 @@ id_in
 let
 error
 =
-loop
+'
+error
+:
 {
 let
 device
@@ -9271,6 +9383,8 @@ _
 =
 >
 break
+'
+error
 command
 :
 :
@@ -9289,6 +9403,8 @@ is_valid
 )
 {
 break
+'
+error
 command
 :
 :
@@ -9410,6 +9526,8 @@ e
 =
 >
 break
+'
+error
 e
 }
 ;
@@ -9727,7 +9845,9 @@ id_in
 let
 error
 =
-loop
+'
+error
+:
 {
 let
 device
@@ -9756,6 +9876,8 @@ _
 =
 >
 break
+'
+error
 DeviceError
 :
 :
@@ -9775,6 +9897,8 @@ is_valid
 )
 {
 break
+'
+error
 DeviceError
 :
 :
@@ -9869,6 +9993,8 @@ err
 =
 >
 break
+'
+error
 err
 }
 ;
@@ -10270,7 +10396,9 @@ clone
 let
 error
 =
-loop
+'
+error
+:
 {
 let
 device
@@ -10299,6 +10427,8 @@ _
 =
 >
 break
+'
+error
 DeviceError
 :
 :
@@ -10318,6 +10448,8 @@ is_valid
 )
 {
 break
+'
+error
 DeviceError
 :
 :
@@ -10425,6 +10557,8 @@ e
 =
 >
 break
+'
+error
 e
 }
 ;
@@ -10693,7 +10827,9 @@ self
 let
 error
 =
-loop
+'
+error
+:
 {
 let
 pipeline
@@ -10722,6 +10858,8 @@ _
 =
 >
 break
+'
+error
 binding_model
 :
 :
@@ -10770,7 +10908,10 @@ bg
 None
 =
 >
+{
 break
+'
+error
 binding_model
 :
 :
@@ -10781,6 +10922,7 @@ InvalidGroupIndex
 (
 index
 )
+}
 }
 ;
 return
@@ -11125,7 +11267,9 @@ clone
 let
 error
 =
-loop
+'
+error
+:
 {
 let
 device
@@ -11154,6 +11298,8 @@ _
 =
 >
 break
+'
+error
 DeviceError
 :
 :
@@ -11173,6 +11319,8 @@ is_valid
 )
 {
 break
+'
+error
 DeviceError
 :
 :
@@ -11276,6 +11424,8 @@ e
 =
 >
 break
+'
+error
 e
 }
 ;
@@ -11525,7 +11675,9 @@ self
 let
 error
 =
-loop
+'
+error
+:
 {
 let
 pipeline
@@ -11554,6 +11706,8 @@ _
 =
 >
 break
+'
+error
 binding_model
 :
 :
@@ -11602,7 +11756,10 @@ bg
 None
 =
 >
+{
 break
+'
+error
 binding_model
 :
 :
@@ -11613,6 +11770,7 @@ InvalidGroupIndex
 (
 index
 )
+}
 }
 ;
 return
@@ -12407,14 +12565,6 @@ present_mode
 )
 {
 let
-new_mode
-=
-'
-b
-:
-loop
-{
-let
 fallbacks
 =
 match
@@ -12523,30 +12673,39 @@ clone
 }
 }
 ;
-for
-&
-fallback
-in
+let
+new_mode
+=
 fallbacks
-{
-if
+.
+iter
+(
+)
+.
+copied
+(
+)
+.
+find
+(
+|
+fallback
+|
 caps
 .
 present_modes
 .
 contains
 (
-&
 fallback
 )
+)
+.
+unwrap_or_else
+(
+|
+|
 {
-break
-'
-b
-fallback
-;
-}
-}
 unreachable
 !
 (
@@ -12559,6 +12718,7 @@ choose
 present
 mode
 .
+\
 This
 is
 a
@@ -12587,6 +12747,7 @@ present_modes
 )
 ;
 }
+)
 ;
 api_log
 !
@@ -12682,7 +12843,6 @@ new_alpha_mode
 '
 alpha
 :
-loop
 {
 let
 fallbacks
@@ -12927,9 +13087,8 @@ let
 error
 =
 '
-outer
+error
 :
-loop
 {
 let
 user_callbacks
@@ -12993,6 +13152,8 @@ _
 =
 >
 break
+'
+error
 DeviceError
 :
 :
@@ -13012,6 +13173,8 @@ is_valid
 )
 {
 break
+'
+error
 DeviceError
 :
 :
@@ -13098,6 +13261,8 @@ _
 =
 >
 break
+'
+error
 E
 :
 :
@@ -13155,6 +13320,8 @@ None
 =
 >
 break
+'
+error
 E
 :
 :
@@ -13210,7 +13377,7 @@ format
 {
 break
 '
-outer
+error
 E
 :
 :
@@ -13247,7 +13414,7 @@ remove_srgb_suffix
 {
 break
 '
-outer
+error
 E
 :
 :
@@ -13300,7 +13467,7 @@ SURFACE_VIEW_FORMATS
 {
 break
 '
-outer
+error
 E
 :
 :
@@ -13429,6 +13596,8 @@ max_texture_dimension_2d
 )
 {
 break
+'
+error
 error
 ;
 }
@@ -13493,6 +13662,8 @@ e
 >
 {
 break
+'
+error
 e
 .
 into
@@ -13530,6 +13701,8 @@ is_some
 )
 {
 break
+'
+error
 E
 :
 :
@@ -13581,6 +13754,8 @@ error
 >
 {
 break
+'
+error
 match
 error
 {

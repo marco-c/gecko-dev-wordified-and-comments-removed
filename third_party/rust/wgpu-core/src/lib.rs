@@ -117,10 +117,6 @@ bool_assert_comparison
 clippy
 :
 :
-never_loop
-clippy
-:
-:
 match_like_matches_macro
 clippy
 :
