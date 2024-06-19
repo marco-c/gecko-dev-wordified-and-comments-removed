@@ -195,9 +195,6 @@ EarlyDataDone
 (
 )
 ;
-#
-ifndef
-ANDROID
 void
 EarlyDataTelemetry
 (
@@ -209,8 +206,6 @@ int64_t
 aContentBytesWritten0RTT
 )
 ;
-#
-endif
 bool
 NPNComplete
 (
