@@ -836,9 +836,9 @@ window
 isSheet
 |
 |
-NSApp
+window
 .
-modalWindow
+isMainWindow
 )
 {
 [
@@ -911,9 +911,9 @@ window
 isSheet
 |
 |
-NSApp
+window
 .
-modalWindow
+isMainWindow
 )
 {
 [
@@ -974,10 +974,9 @@ window
 attachedSheet
 &
 &
-!
-NSApp
+window
 .
-modalWindow
+isKeyWindow
 )
 {
 [
