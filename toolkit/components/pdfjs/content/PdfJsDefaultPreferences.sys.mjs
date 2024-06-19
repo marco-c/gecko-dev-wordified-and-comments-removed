@@ -268,6 +268,9 @@ false
 disableStream
 :
 false
+enableHWA
+:
+false
 enableXfa
 :
 true
