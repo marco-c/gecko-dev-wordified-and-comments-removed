@@ -3401,6 +3401,18 @@ grow
 :
 1
 ;
+gap
+:
+4px
+;
+padding
+-
+inline
+-
+end
+:
+4px
+;
 position
 :
 relative
@@ -3707,7 +3719,6 @@ center
 margin
 :
 0
-4px
 ;
 padding
 :
