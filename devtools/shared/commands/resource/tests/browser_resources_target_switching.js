@@ -191,8 +191,6 @@ availableResources
 0
 ]
 .
-message
-.
 arguments
 [
 0

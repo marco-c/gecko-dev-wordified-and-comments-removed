@@ -353,8 +353,6 @@ thirdMessageActor
 =
 assertPacket
 .
-message
-.
 arguments
 [
 0
@@ -380,8 +378,6 @@ i
 )
 {
 assertPacket
-.
-message
 .
 arguments
 .
@@ -690,8 +686,6 @@ const
 thirdMessageActor
 =
 assertPacket
-.
-message
 .
 arguments
 [
@@ -1027,8 +1021,6 @@ const
 secondMessageActor
 =
 assertPacket
-.
-message
 .
 arguments
 [

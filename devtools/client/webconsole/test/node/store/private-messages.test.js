@@ -1338,8 +1338,6 @@ mymap
 ;
 publicPacket
 .
-message
-.
 arguments
 [
 1
@@ -1350,8 +1348,6 @@ release
 mockFrontRelease
 ;
 privatePacket
-.
-message
 .
 arguments
 [

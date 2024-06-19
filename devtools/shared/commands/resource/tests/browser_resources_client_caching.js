@@ -1722,8 +1722,6 @@ availableResources
 0
 ]
 .
-message
-.
 arguments
 [
 0
@@ -1830,8 +1828,6 @@ const
 message
 =
 resource
-.
-message
 .
 arguments
 [

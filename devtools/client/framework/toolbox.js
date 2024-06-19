@@ -18547,6 +18547,9 @@ level
 resource
 .
 message
+|
+|
+resource
 ;
 if
 (

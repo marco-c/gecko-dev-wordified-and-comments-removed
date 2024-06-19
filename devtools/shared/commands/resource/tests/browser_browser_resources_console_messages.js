@@ -145,9 +145,7 @@ ignoreExistingResources
 false
 predicate
 (
-{
 message
-}
 )
 {
 return
@@ -224,9 +222,7 @@ ignoreExistingResources
 false
 predicate
 (
-{
 message
-}
 )
 {
 return
@@ -322,9 +318,7 @@ ignoreExistingResources
 true
 predicate
 (
-{
 message
-}
 )
 {
 return

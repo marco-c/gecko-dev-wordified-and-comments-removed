@@ -456,8 +456,6 @@ r
 >
 r
 .
-message
-.
 arguments
 .
 join

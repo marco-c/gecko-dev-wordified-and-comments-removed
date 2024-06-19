@@ -2037,9 +2037,14 @@ pageError
 private
 |
 |
+(
 resource
 .
 message
+|
+|
+resource
+)
 ?
 .
 private
