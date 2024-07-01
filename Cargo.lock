@@ -21138,6 +21138,9 @@ cc
 chrono
 "
 "
+clap
+"
+"
 core
 -
 foundation
@@ -21162,6 +21165,12 @@ fluent
 fluent
 -
 langneg
+"
+"
+fnv
+"
+"
+futures
 "
 "
 futures
@@ -21193,6 +21202,9 @@ hashbrown
 13
 .
 999
+"
+"
+hex
 "
 "
 hyper
@@ -21257,6 +21269,9 @@ regex
 scopeguard
 "
 "
+scroll
+"
+"
 semver
 "
 "
@@ -21270,6 +21285,9 @@ smallvec
 "
 "
 stable_deref_trait
+"
+"
+strsim
 "
 "
 syn
@@ -21339,6 +21357,11 @@ sys
 52
 .
 0
+"
+"
+xml
+-
+rs
 "
 "
 yoke
