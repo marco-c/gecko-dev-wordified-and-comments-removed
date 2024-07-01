@@ -2377,7 +2377,7 @@ pettay
 .
 fi
 /
-mozuuid
+uuidgen
 .
 html
 can
