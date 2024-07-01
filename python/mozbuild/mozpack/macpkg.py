@@ -27,12 +27,6 @@ etree
 ElementTree
 import
 XML
-from
-mozbuild
-.
-util
-import
-cpu_count
 class
 ZlibFile
 (
@@ -804,6 +798,8 @@ ThreadPoolExecutor
 (
 max_workers
 =
+os
+.
 cpu_count
 (
 )
