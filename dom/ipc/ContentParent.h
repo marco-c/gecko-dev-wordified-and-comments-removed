@@ -1804,7 +1804,7 @@ Maybe
 uint32_t
 >
 &
-aLookbackDays
+aLoopbackDays
 const
 Maybe
 <

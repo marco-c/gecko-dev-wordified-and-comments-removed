@@ -11928,14 +11928,14 @@ async
 AttributionConversion
 (
 nsCString
-aTargetHost
+aSourceHost
 nsString
 aTask
 uint32_t
 aHistogramSize
 uint32_t
 ?
-aLookbackDays
+aLoopbackDays
 PrivateAttributionImpressionType
 ?
 aImpressionType
