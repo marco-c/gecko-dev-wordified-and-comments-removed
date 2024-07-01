@@ -5640,7 +5640,16 @@ recGroup
 recGroup
 )
 {
+static_assert
+(
+MaxTypes
+<
+=
+0x7FFFFFFF
+)
+;
 return
+(
 uintptr_t
 (
 recGroup
@@ -5650,6 +5659,10 @@ indexOf
 (
 typeDef
 )
+)
+<
+<
+1
 )
 |
 0x1
