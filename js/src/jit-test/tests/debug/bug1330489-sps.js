@@ -32,6 +32,17 @@ arm
 simulator
 "
 )
+&
+&
+!
+getBuildConfiguration
+(
+"
+arm64
+-
+simulator
+"
+)
 )
 throw
 "

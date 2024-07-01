@@ -140,6 +140,12 @@ defined
 (
 JS_SIMULATOR_MIPS32
 )
+|
+|
+defined
+(
+JS_SIMULATOR_ARM64
+)
 #
 define
 SINGLESTEP_PROFILING
