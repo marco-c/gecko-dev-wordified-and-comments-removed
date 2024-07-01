@@ -904,9 +904,6 @@ chrome_ios
 "
                        
 "
-content_shell
-"
-"
 edge
 "
 "
@@ -914,6 +911,9 @@ firefox
 "
 "
 firefox_android
+"
+"
+headless_shell
 "
                        
 "
@@ -4033,7 +4033,7 @@ sandbox
 "
 )
 class
-ContentShell
+HeadlessShell
 (
 BrowserSetup
 )
@@ -4042,14 +4042,14 @@ BrowserSetup
 name
 =
 "
-content_shell
+headless_shell
 "
     
 browser_cls
 =
 browser
 .
-ContentShell
+HeadlessShell
     
 experimental_channels
 =
@@ -4141,10 +4141,8 @@ locate
 self
 .
 name
-.
-capitalize
-(
-)
+!
+r
 }
 binary
 "
@@ -4251,6 +4249,35 @@ run
 "
 )
         
+kwargs
+[
+"
+pause_after_test
+"
+]
+=
+False
+        
+kwargs
+[
+"
+headless
+"
+]
+=
+False
+        
+if
+kwargs
+[
+"
+enable_webtransport_h3
+"
+]
+is
+None
+:
+            
 kwargs
 [
 "
@@ -6428,16 +6455,16 @@ chromium
 Chromium
     
 "
-content_shell
-"
-:
-ContentShell
-    
-"
 edge
 "
 :
 Edge
+    
+"
+headless_shell
+"
+:
+HeadlessShell
     
 "
 safari

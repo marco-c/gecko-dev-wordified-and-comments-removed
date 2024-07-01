@@ -230,10 +230,6 @@ chromium
 "
                 
 "
-content_shell
-"
-                
-"
 edge
 "
                 
@@ -243,6 +239,10 @@ firefox
                 
 "
 firefox_android
+"
+                
+"
+headless_shell
 "
                 
 "
