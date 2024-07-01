@@ -26,5 +26,13 @@ nsIIndexedDatabaseManager
 :
 nsISupports
 {
+[
+implicit_jscontext
+]
+Promise
+doMaintenance
+(
+)
+;
 }
 ;

@@ -176,6 +176,16 @@ bool
 result
 )
 ;
+async
+DoMaintenance
+(
+)
+returns
+(
+nsresult
+rv
+)
+;
 child
 :
 async
