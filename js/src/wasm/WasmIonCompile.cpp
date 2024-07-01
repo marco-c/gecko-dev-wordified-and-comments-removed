@@ -23836,8 +23836,11 @@ alloc
 )
 op
 instancePointer_
-bytecodeOffset
+BytecodeOffset
 (
+readCallSiteLineOrBytecode
+(
+)
 )
 )
 ;
