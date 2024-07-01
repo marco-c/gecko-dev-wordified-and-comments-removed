@@ -87,14 +87,13 @@ using
 namespace
 mozilla
 ;
-void
 mozilla
 :
 :
 CycleCollectorStats
 :
 :
-Init
+CycleCollectorStats
 (
 )
 {
