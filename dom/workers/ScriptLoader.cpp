@@ -5048,11 +5048,6 @@ ScriptResponseHeaderProcessor
 >
 (
 mWorkerRef
--
->
-Private
-(
-)
 loadContext
 -
 >
