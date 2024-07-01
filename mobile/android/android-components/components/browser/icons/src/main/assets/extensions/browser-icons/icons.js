@@ -73,8 +73,6 @@ forEach
 function
 (
 currentValue
-currentIndex
-listObj
 )
 {
 icons
@@ -142,8 +140,6 @@ forEach
 function
 (
 currentValue
-currentIndex
-listObj
 )
 {
 icons
@@ -198,8 +194,6 @@ forEach
 function
 (
 currentValue
-currentIndex
-listObj
 )
 {
 icons

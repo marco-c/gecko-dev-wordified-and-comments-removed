@@ -187,6 +187,7 @@ case
 cachePage
 "
 :
+{
 let
 serializedDoc
 =
@@ -225,6 +226,7 @@ id
 ;
 break
 ;
+}
 case
 "
 checkReaderState
@@ -300,7 +302,7 @@ addEventListener
 "
 pageshow
 "
-event
+_event
 =
 >
 {
@@ -327,7 +329,7 @@ addEventListener
 "
 pagehide
 "
-event
+_event
 =
 >
 {

@@ -1403,7 +1403,7 @@ xhr
 .
 onload
 =
-evt
+_evt
 =
 >
 {
@@ -1677,6 +1677,7 @@ case
 show
 "
 :
+{
 async
 function
 showAsync
@@ -1794,6 +1795,7 @@ value
 ;
 break
 ;
+}
 case
 "
 hide
@@ -1806,6 +1808,8 @@ location
 href
 =
 articleUrl
+;
+break
 ;
 case
 "
