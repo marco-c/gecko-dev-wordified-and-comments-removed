@@ -4384,9 +4384,6 @@ SetPrefableContextOptions
 contextOptions
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 JS_SetGlobalJitCompilerOption
 (
 cx
@@ -4399,8 +4396,6 @@ javascript_options_experimental_regexp_duplicate_named_groups
 )
 )
 ;
-#
-endif
 contextOptions
 .
 setThrowOnDebuggeeWouldRun
