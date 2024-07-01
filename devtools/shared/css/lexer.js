@@ -349,6 +349,15 @@ text
 =
 =
 lastChar
+|
+|
+text
+.
+length
+=
+=
+=
+1
 )
 {
 this
