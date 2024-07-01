@@ -10271,6 +10271,17 @@ nsIStreamListener
 aListener
 )
 {
+AUTO_PROFILER_LABEL
+(
+"
+HttpChannelChild
+:
+:
+AsyncOpen
+"
+NETWORK
+)
+;
 LOG
 (
 (
