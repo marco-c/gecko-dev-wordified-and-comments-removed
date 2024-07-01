@@ -319,9 +319,6 @@ google
 ddg
 "
 "
-bing
-"
-"
 wikipedia
 "
 ]
