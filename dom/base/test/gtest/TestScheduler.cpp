@@ -793,11 +793,6 @@ ForgetSkippable
 (
 )
 {
-uint32_t
-suspectedBefore
-=
-sSuspected
-;
 JS
 :
 :
@@ -845,7 +840,6 @@ NoteForgetSkippableComplete
 Now
 (
 )
-suspectedBefore
 SuspectedCCObjects
 (
 )
