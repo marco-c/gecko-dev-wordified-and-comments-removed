@@ -364,7 +364,7 @@ index
 "
 GET
 "
-CONTENT_TYPE_SJS
+HTTPS_CONTENT_TYPE_SJS
 +
 "
 ?
