@@ -2828,6 +2828,7 @@ MultiTouchInput
 &
 aInput
 )
+const
 ;
 void
 ResetTouchInputState

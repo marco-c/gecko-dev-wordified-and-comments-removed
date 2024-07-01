@@ -2683,6 +2683,7 @@ MultiTouchInput
 &
 aInput
 )
+const
 {
 uint32_t
 touchPoints
