@@ -116,7 +116,7 @@ true
 .
 *
 *
-param
+property
 id
 identifies
 a
@@ -125,7 +125,7 @@ as
 unique
 .
 *
-param
+property
 data
 Data
 information
@@ -134,7 +134,7 @@ from
 Nimbus
 .
 *
-param
+property
 action
 A
 strings
@@ -153,7 +153,7 @@ is
 clicked
 .
 *
-param
+property
 style
 Indicates
 how
@@ -164,7 +164,7 @@ be
 styled
 .
 *
-param
+property
 triggerIfAll
 A
 list
@@ -190,7 +190,7 @@ to
 true
 .
 *
-param
+property
 excludeIfAny
 A
 list
@@ -217,7 +217,7 @@ to
 true
 .
 *
-param
+property
 metadata
 Metadata
 that
@@ -374,6 +374,18 @@ get
 metadata
 .
 displayCount
+val
+microsurvey
+:
+MicrosurveyConfig
+?
+get
+(
+)
+=
+data
+.
+microsurveyConfig
 /
 *
 *
