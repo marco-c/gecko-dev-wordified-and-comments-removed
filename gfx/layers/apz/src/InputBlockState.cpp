@@ -284,8 +284,7 @@ AsyncPanZoomController
 aTargetApzc
 TargetConfirmationState
 aState
-InputData
-*
+InputQueueIterator
 aFirstInput
 bool
 aForScrollbarDrag
@@ -1528,8 +1527,7 @@ AsyncPanZoomController
 aTargetApzc
 TargetConfirmationState
 aState
-InputData
-*
+InputQueueIterator
 aFirstInput
 bool
 aForScrollbarDrag
@@ -1565,6 +1563,11 @@ FindFirstScrollable
 (
 *
 aFirstInput
+-
+>
+Input
+(
+)
 &
 mAllowedScrollDirections
 )
@@ -2337,8 +2340,7 @@ AsyncPanZoomController
 aTargetApzc
 TargetConfirmationState
 aState
-InputData
-*
+InputQueueIterator
 aFirstInput
 bool
 aForScrollbarDrag
@@ -2378,6 +2380,11 @@ FindFirstScrollable
 (
 *
 aFirstInput
+-
+>
+Input
+(
+)
 &
 mAllowedScrollDirections
 )
