@@ -217,6 +217,12 @@ mSettingKeyValue
 ;
 }
 ;
+bool
+SvcEnabled
+(
+)
+const
+;
 Maybe
 <
 SVCSettings
