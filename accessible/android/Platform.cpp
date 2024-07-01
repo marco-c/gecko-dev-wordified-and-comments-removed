@@ -849,10 +849,6 @@ GetCaret
 aTarget
 )
 .
-ActualizeCaret
-(
-)
-.
 mAcc
 ;
 MOZ_ASSERT
