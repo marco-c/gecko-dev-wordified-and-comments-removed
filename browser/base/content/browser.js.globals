@@ -830,4 +830,7 @@ gFindBarPromise
 "
 BrowserSearch
 "
+"
+PBMExitStatus
+"
 ]
