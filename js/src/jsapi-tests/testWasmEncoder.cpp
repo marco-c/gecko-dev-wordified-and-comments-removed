@@ -70,6 +70,15 @@ include
 "
 wasm
 /
+WasmValidate
+.
+h
+"
+#
+include
+"
+wasm
+/
 WasmValType
 .
 h
