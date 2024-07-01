@@ -55,9 +55,6 @@ class
 nsIArray
 ;
 class
-nsIConsoleReportCollector
-;
-class
 nsICookie
 ;
 class
@@ -74,6 +71,9 @@ net
 {
 class
 Cookie
+;
+class
+CookieParser
 ;
 class
 CookieEntry
@@ -503,9 +503,9 @@ false
 void
 AddCookie
 (
-nsIConsoleReportCollector
+CookieParser
 *
-aCRC
+aCookieParser
 const
 nsACString
 &

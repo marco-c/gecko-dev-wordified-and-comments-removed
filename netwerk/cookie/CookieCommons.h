@@ -100,6 +100,9 @@ STATUS_REJECTED_WITH_ERROR
 class
 Cookie
 ;
+class
+CookieParser
+;
 static
 const
 char
@@ -381,6 +384,9 @@ Cookie
 >
 CreateCookieFromDocument
 (
+CookieParser
+&
+aCookieParser
 dom
 :
 :
@@ -417,10 +423,6 @@ OriginAttributes
 &
 &
 aHasExistingCookiesLambda
-nsIURI
-*
-*
-aDocumentURI
 nsACString
 &
 aBaseDomain
