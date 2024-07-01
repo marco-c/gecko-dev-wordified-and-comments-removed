@@ -986,7 +986,7 @@ settings
 (
 )
 .
-enableIncompleteToolbarRedesign
+navigationToolbarEnabled
 }
 returns
 false
@@ -1149,7 +1149,7 @@ settings
 (
 )
 .
-enableIncompleteToolbarRedesign
+navigationToolbarEnabled
 }
 returns
 false

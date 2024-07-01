@@ -719,7 +719,7 @@ every
 {
 settings
 .
-enableIncompleteToolbarRedesign
+navigationToolbarEnabled
 }
 returns
 true
