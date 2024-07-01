@@ -225,14 +225,6 @@ attribute
 AString
 displayName
 ;
-[
-implicit_jscontext
-]
-Promise
-hostPath
-(
-)
-;
 void
 copyTo
 (
