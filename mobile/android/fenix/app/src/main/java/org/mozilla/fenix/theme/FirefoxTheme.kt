@@ -524,7 +524,7 @@ layerGradientEnd
 =
 PhotonColors
 .
-Violet40
+Violet60
 layerWarning
 =
 PhotonColors
@@ -917,7 +917,7 @@ layerGradientEnd
 =
 PhotonColors
 .
-Violet40
+Violet60
 layerWarning
 =
 PhotonColors
