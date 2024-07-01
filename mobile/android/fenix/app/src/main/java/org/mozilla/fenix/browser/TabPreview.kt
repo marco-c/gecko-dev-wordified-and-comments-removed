@@ -711,6 +711,15 @@ no
 -
 op
 }
+onTabsButtonLongPress
+=
+{
+/
+/
+no
+-
+op
+}
 onMenuButtonClick
 =
 {
