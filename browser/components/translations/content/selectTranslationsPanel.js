@@ -6980,7 +6980,6 @@ docLangTag
 )
 ;
 }
-else
 if
 (
 selectedToLanguage
