@@ -1588,11 +1588,9 @@ WorkerSyncRunnable
 {
 public
 :
+explicit
 ReadReadyRunnable
 (
-WorkerPrivate
-*
-aWorkerPrivate
 nsIEventTarget
 *
 aSyncLoopTarget
@@ -1689,10 +1687,6 @@ nsIEventTarget
 aEventTarget
 )
 :
-mWorkerPrivate
-(
-aWorkerPrivate
-)
 mEventTarget
 (
 aEventTarget
@@ -1717,7 +1711,6 @@ runnable
 new
 ReadReadyRunnable
 (
-mWorkerPrivate
 mEventTarget
 )
 ;
@@ -1744,10 +1737,6 @@ ReadCallback
 )
 =
 default
-;
-WorkerPrivate
-*
-mWorkerPrivate
 ;
 nsCOMPtr
 <
