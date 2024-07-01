@@ -1867,6 +1867,12 @@ overflow
 :
 clip
 ;
+pointer
+-
+events
+:
+none
+;
 cursor
 :
 unset
