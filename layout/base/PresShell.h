@@ -3697,6 +3697,10 @@ const
 nsAString
 &
 aAnchorName
+const
+nsRange
+*
+aFirstTextDirective
 bool
 aScroll
 ScrollFlags
@@ -3712,14 +3716,6 @@ MOZ_CAN_RUN_SCRIPT
 nsresult
 ScrollToAnchor
 (
-)
-;
-MOZ_CAN_RUN_SCRIPT
-bool
-HighlightAndGoToTextFragment
-(
-bool
-aScrollToTextFragment
 )
 ;
 void
