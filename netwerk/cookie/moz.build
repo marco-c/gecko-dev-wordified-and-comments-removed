@@ -87,6 +87,11 @@ CookieNotification
 h
 "
 "
+CookieParser
+.
+h
+"
+"
 CookiePersistentStorage
 .
 h
@@ -143,6 +148,11 @@ cpp
 "
 "
 CookieNotification
+.
+cpp
+"
+"
+CookieParser
 .
 cpp
 "

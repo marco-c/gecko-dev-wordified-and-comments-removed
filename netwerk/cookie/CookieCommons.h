@@ -57,9 +57,6 @@ class
 nsIChannel
 ;
 class
-nsIConsoleReportCollector
-;
-class
 nsICookieJarSettings
 ;
 class
@@ -546,6 +543,16 @@ aHostURI
 bool
 *
 aHadCrossSiteRedirects
+)
+;
+static
+void
+RecordUnicodeTelemetry
+(
+const
+CookieStruct
+&
+cookieData
 )
 ;
 }

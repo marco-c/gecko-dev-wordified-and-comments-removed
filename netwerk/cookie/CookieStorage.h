@@ -55,6 +55,9 @@ class
 nsIArray
 ;
 class
+nsIConsoleReportCollector
+;
+class
 nsICookie
 ;
 class

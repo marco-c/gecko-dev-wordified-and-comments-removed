@@ -22,6 +22,13 @@ h
 #
 include
 "
+CookieParser
+.
+h
+"
+#
+include
+"
 CookieService
 .
 h
@@ -3667,7 +3674,7 @@ false
 ;
 moreCookies
 =
-CookieService
+CookieParser
 :
 :
 CanSetCookie
