@@ -800,7 +800,7 @@ is
 called
 THEN
 call
-UpdatePageSettingAction
+UpdateGlobalOfferTranslateSettingAction
 from
 BrowserStore
 (
@@ -868,7 +868,7 @@ dispatch
 (
 TranslationsAction
 .
-SetGlobalOfferTranslateSettingAction
+UpdateGlobalOfferTranslateSettingAction
 (
 offerTranslation
 =

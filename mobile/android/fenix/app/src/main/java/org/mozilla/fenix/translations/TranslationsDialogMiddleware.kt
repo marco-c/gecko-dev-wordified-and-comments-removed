@@ -545,7 +545,7 @@ dispatch
 (
 TranslationsAction
 .
-SetGlobalOfferTranslateSettingAction
+UpdateGlobalOfferTranslateSettingAction
 (
 offerTranslation
 =
