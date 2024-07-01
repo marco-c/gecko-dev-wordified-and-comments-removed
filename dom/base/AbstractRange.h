@@ -502,6 +502,12 @@ EndOffset
 )
 ;
 }
+bool
+AreNormalRangeAndCrossShadowBoundaryRangeCollapsed
+(
+)
+const
+;
 nsINode
 *
 GetParentObject
