@@ -1390,12 +1390,6 @@ messaging
 functionality
 .
 *
-Extends
-[
-MessagingAction
-]
-.
-*
 /
 sealed
 class

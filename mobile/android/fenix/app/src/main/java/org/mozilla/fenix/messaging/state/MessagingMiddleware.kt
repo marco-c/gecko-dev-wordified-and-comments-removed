@@ -464,7 +464,6 @@ MicrosurveyAction
 Completed
 -
 >
-{
 onMicrosurveyCompleted
 (
 context
@@ -475,7 +474,6 @@ action
 .
 answer
 )
-}
 else
 -
 >
@@ -513,8 +511,6 @@ newMessages
 removeMessage
 (
 context
-message
-=
 message
 )
 context
