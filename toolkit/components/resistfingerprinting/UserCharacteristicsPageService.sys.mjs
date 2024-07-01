@@ -1640,6 +1640,12 @@ audioFingerprint
 "
 jsErrors
 "
+"
+pointerType
+"
+"
+anyPointerType
+"
 ]
 }
 ;
