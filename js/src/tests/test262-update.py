@@ -94,6 +94,12 @@ regexp
 -
 modifiers
 "
+        
+"
+promise
+-
+try
+"
     
 ]
 )
