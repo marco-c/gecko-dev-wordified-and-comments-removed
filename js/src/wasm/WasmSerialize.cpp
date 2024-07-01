@@ -5908,7 +5908,7 @@ wasm
 :
 :
 ModuleMetadata
-128
+168
 )
 ;
 MOZ_TRY

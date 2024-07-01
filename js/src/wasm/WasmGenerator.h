@@ -1096,7 +1096,7 @@ const
 ShareableBytes
 &
 bytecode
-SharedModuleMetadata
+MutableModuleMetadata
 moduleMeta
 JS
 :
