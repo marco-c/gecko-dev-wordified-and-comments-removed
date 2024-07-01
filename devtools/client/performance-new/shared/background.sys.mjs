@@ -1779,6 +1779,9 @@ SwComposite
 RenderBackend
 "
 "
+GlyphRasterizer
+"
+"
 SceneBuilder
 "
 "
