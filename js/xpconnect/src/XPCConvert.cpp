@@ -1015,10 +1015,7 @@ true
 ;
 }
 return
-XPCStringConvert
-:
-:
-ReadableToJSVal
+NonVoidStringToJsval
 (
 cx
 *
@@ -1436,10 +1433,7 @@ utf8String
 )
 {
 return
-XPCStringConvert
-:
-:
-Latin1ToJSVal
+NonVoidLatin1StringToJsval
 (
 cx
 *
@@ -1626,10 +1620,7 @@ true
 ;
 }
 return
-XPCStringConvert
-:
-:
-Latin1ToJSVal
+NonVoidLatin1StringToJsval
 (
 cx
 *
