@@ -123,7 +123,7 @@ File
 h
 "
 class
-nsIAsyncGetClipboardData
+nsIClipboardDataSnapshot
 ;
 class
 nsINode
@@ -1282,9 +1282,9 @@ GetWindowContext
 )
 const
 ;
-nsIAsyncGetClipboardData
+nsIClipboardDataSnapshot
 *
-GetAsyncGetClipboardData
+GetClipboardDataSnapshot
 (
 )
 const
@@ -1499,9 +1499,9 @@ mClipboardType
 ;
 nsCOMPtr
 <
-nsIAsyncGetClipboardData
+nsIClipboardDataSnapshot
 >
-mAsyncGetClipboardData
+mClipboardDataSnapshot
 ;
 RefPtr
 <

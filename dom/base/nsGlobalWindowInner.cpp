@@ -35327,7 +35327,7 @@ aDataTransfer
 aDataTransfer
 -
 >
-GetAsyncGetClipboardData
+GetClipboardDataSnapshot
 (
 )
 )

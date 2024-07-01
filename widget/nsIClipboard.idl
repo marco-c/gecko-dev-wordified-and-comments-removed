@@ -325,7 +325,7 @@ a8781fdfcc39
 )
 ]
 interface
-nsIAsyncGetClipboardData
+nsIClipboardDataSnapshot
 :
 nsISupports
 {
@@ -541,8 +541,8 @@ void
 onSuccess
 (
 in
-nsIAsyncGetClipboardData
-aAsyncGetClipboardData
+nsIClipboardDataSnapshot
+aClipboardDataSnapshot
 )
 ;
 /
@@ -1393,7 +1393,7 @@ made
 .
 *
 /
-nsIAsyncGetClipboardData
+nsIClipboardDataSnapshot
 getDataSnapshotSync
 (
 in

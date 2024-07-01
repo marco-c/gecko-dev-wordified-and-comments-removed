@@ -773,7 +773,7 @@ ItemEntry
 :
 LoadDataFromSystemClipboard
 (
-nsIAsyncGetClipboardData
+nsIClipboardDataSnapshot
 *
 aDataGetter
 )

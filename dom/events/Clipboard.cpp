@@ -567,9 +567,9 @@ NS_DECL_ISUPPORTS
 NS_IMETHOD
 OnSuccess
 (
-nsIAsyncGetClipboardData
+nsIClipboardDataSnapshot
 *
-aAsyncGetClipboardData
+aClipboardDataSnapshot
 )
 override
 {
@@ -580,7 +580,7 @@ mPromise
 ;
 MOZ_ASSERT
 (
-aAsyncGetClipboardData
+aClipboardDataSnapshot
 )
 ;
 nsTArray
@@ -592,7 +592,7 @@ flavorList
 nsresult
 rv
 =
-aAsyncGetClipboardData
+aClipboardDataSnapshot
 -
 >
 GetFlavorList
@@ -671,7 +671,7 @@ entry
 >
 LoadDataFromSystemClipboard
 (
-aAsyncGetClipboardData
+aClipboardDataSnapshot
 )
 ;
 entries
@@ -833,9 +833,9 @@ NS_DECL_ISUPPORTS
 NS_IMETHOD
 OnSuccess
 (
-nsIAsyncGetClipboardData
+nsIClipboardDataSnapshot
 *
-aAsyncGetClipboardData
+aClipboardDataSnapshot
 )
 override
 {
@@ -852,7 +852,7 @@ mTransferable
 ;
 MOZ_ASSERT
 (
-aAsyncGetClipboardData
+aClipboardDataSnapshot
 )
 ;
 AutoTArray
@@ -865,7 +865,7 @@ flavors
 nsresult
 rv
 =
-aAsyncGetClipboardData
+aClipboardDataSnapshot
 -
 >
 GetFlavorList
@@ -957,7 +957,7 @@ NS_OK
 }
 rv
 =
-aAsyncGetClipboardData
+aClipboardDataSnapshot
 -
 >
 GetData
@@ -1155,7 +1155,7 @@ aOwner
 nsIPrincipal
 &
 aSubjectPrincipal
-nsIAsyncGetClipboardData
+nsIClipboardDataSnapshot
 &
 aRequest
 )
@@ -1701,14 +1701,14 @@ if
 (
 nsCOMPtr
 <
-nsIAsyncGetClipboardData
+nsIClipboardDataSnapshot
 >
-asyncGetClipboardData
+clipboardDataSnapshot
 =
 dataTransfer
 -
 >
-GetAsyncGetClipboardData
+GetClipboardDataSnapshot
 (
 )
 )
@@ -1718,7 +1718,7 @@ isValid
 =
 false
 ;
-asyncGetClipboardData
+clipboardDataSnapshot
 -
 >
 GetValid
@@ -1741,7 +1741,7 @@ aType
 owner
 aSubjectPrincipal
 *
-asyncGetClipboardData
+clipboardDataSnapshot
 )
 ;
 return

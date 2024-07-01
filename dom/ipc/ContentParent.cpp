@@ -18199,9 +18199,9 @@ CreateClipboardReadRequest
 ContentParent
 &
 aContentParent
-nsIAsyncGetClipboardData
+nsIClipboardDataSnapshot
 &
-aAsyncGetClipboardData
+aClipboardDataSnapshot
 )
 {
 nsTArray
@@ -18213,7 +18213,7 @@ flavors
 nsresult
 rv
 =
-aAsyncGetClipboardData
+aClipboardDataSnapshot
 .
 GetFlavorList
 (
@@ -18249,7 +18249,7 @@ ClipboardReadRequestParent
 &
 aContentParent
 &
-aAsyncGetClipboardData
+aClipboardDataSnapshot
 )
 ;
 ManagedEndpoint
@@ -18348,9 +18348,9 @@ NS_DECL_ISUPPORTS
 NS_IMETHOD
 OnSuccess
 (
-nsIAsyncGetClipboardData
+nsIClipboardDataSnapshot
 *
-aAsyncGetClipboardData
+aClipboardDataSnapshot
 )
 override
 {
@@ -18361,7 +18361,7 @@ mContentParent
 ;
 MOZ_ASSERT
 (
-aAsyncGetClipboardData
+aClipboardDataSnapshot
 )
 ;
 auto
@@ -18372,7 +18372,7 @@ CreateClipboardReadRequest
 *
 mContentParent
 *
-aAsyncGetClipboardData
+aClipboardDataSnapshot
 )
 ;
 if
@@ -18819,9 +18819,9 @@ IPC_OK
 }
 nsCOMPtr
 <
-nsIAsyncGetClipboardData
+nsIClipboardDataSnapshot
 >
-asyncGetClipboardData
+clipboardDataSnapshot
 ;
 nsresult
 rv
@@ -18836,7 +18836,7 @@ aWhichClipboard
 requestingWindow
 getter_AddRefs
 (
-asyncGetClipboardData
+clipboardDataSnapshot
 )
 )
 ;
@@ -18867,7 +18867,7 @@ CreateClipboardReadRequest
 *
 this
 *
-asyncGetClipboardData
+clipboardDataSnapshot
 )
 ;
 if

@@ -255,7 +255,7 @@ GetData
 void
 LoadDataFromSystemClipboard
 (
-nsIAsyncGetClipboardData
+nsIClipboardDataSnapshot
 *
 aDataGetter
 )
