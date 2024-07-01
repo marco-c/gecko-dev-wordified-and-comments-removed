@@ -253,6 +253,7 @@ gBrowser
 finalURL
 .
 href
+true
 )
 ;
 }
