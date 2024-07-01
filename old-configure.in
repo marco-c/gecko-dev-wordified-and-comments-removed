@@ -6623,15 +6623,6 @@ AC_SUBST
 WIN32_GUI_EXE_LDFLAGS
 )
 dnl
-Used
-specifically
-by
-Thunderbird
-AC_SUBST
-(
-NSS_EXTRA_SYMBOLS_FILE
-)
-dnl
 Set
 various
 defines
