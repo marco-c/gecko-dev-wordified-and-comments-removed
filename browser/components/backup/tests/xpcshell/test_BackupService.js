@@ -31,7 +31,7 @@ mjs
 ;
 const
 {
-JsonSchemaValidator
+JsonSchema
 }
 =
 ChromeUtils
@@ -47,11 +47,7 @@ gre
 /
 modules
 /
-components
--
-utils
-/
-JsonSchemaValidator
+JsonSchema
 .
 sys
 .
@@ -856,7 +852,7 @@ MANIFEST_SCHEMA
 let
 validationResult
 =
-JsonSchemaValidator
+JsonSchema
 .
 validate
 (
