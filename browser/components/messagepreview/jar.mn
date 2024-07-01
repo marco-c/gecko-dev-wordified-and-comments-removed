@@ -90,6 +90,15 @@ browser
 /
 messagepreview
 /
+switch
+.
+svg
+content
+/
+browser
+/
+messagepreview
+/
 messagepreview
 .
 css
