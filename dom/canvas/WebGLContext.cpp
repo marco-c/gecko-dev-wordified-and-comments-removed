@@ -1520,6 +1520,13 @@ CreateContextFlags
 NO_VALIDATION
 ;
 }
+bool
+forceSoftwareRendering
+=
+mOptions
+.
+forceSoftwareRendering
+;
 if
 (
 StaticPrefs
@@ -1528,6 +1535,9 @@ StaticPrefs
 webgl_forbid_hardware
 (
 )
+|
+|
+forceSoftwareRendering
 )
 {
 flags
@@ -1550,6 +1560,10 @@ StaticPrefs
 webgl_forbid_software
 (
 )
+&
+&
+!
+forceSoftwareRendering
 )
 {
 flags

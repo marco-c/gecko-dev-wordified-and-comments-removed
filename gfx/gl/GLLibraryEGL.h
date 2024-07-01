@@ -448,6 +448,8 @@ CreateDisplayLocked
 (
 bool
 forceAccel
+bool
+forceSoftware
 nsACString
 *
 const
@@ -480,6 +482,8 @@ CreateDisplay
 (
 bool
 forceAccel
+bool
+forceSoftware
 nsACString
 *
 const
