@@ -3555,6 +3555,12 @@ predicate
 it
 .
 shouldDismissOnLoad
+&
+&
+it
+!
+is
+File
 }
 consume
 =
