@@ -1089,6 +1089,12 @@ show
 (
 )
 {
+if
+(
+!
+isAttachedToWindow
+)
+{
 val
 anchorViewTreeLifecycleOwner
 =
@@ -1161,6 +1167,7 @@ createLayoutParams
 (
 )
 )
+}
 }
 }
 Composable
@@ -3036,6 +3043,11 @@ dismiss
 (
 )
 {
+if
+(
+isAttachedToWindow
+)
+{
 anchor
 .
 removeOnAttachStateChangeListener
@@ -3066,6 +3078,7 @@ removeViewImmediate
 (
 this
 )
+}
 }
 /
 *
