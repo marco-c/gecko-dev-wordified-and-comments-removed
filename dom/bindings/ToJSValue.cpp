@@ -124,10 +124,10 @@ aCx
 )
 ;
 return
-XPCStringConvert
+xpc
 :
 :
-ReadableToJSVal
+NonVoidStringToJsval
 (
 aCx
 aArgument
