@@ -110,9 +110,6 @@ namespace
 wasm
 {
 struct
-MetadataTier
-;
-struct
 ExprLoc
 {
 uint32_t
@@ -585,9 +582,9 @@ result
 const
 ;
 const
-MetadataTier
+CodeTier
 &
-metadata
+code
 (
 Tier
 t
@@ -598,7 +595,7 @@ return
 code_
 -
 >
-metadata
+codeTier
 (
 t
 )
@@ -649,7 +646,7 @@ t
 const
 {
 return
-metadata
+code
 (
 t
 )
@@ -668,7 +665,7 @@ t
 const
 {
 return
-metadata
+code
 (
 t
 )
@@ -685,7 +682,7 @@ funcIndex
 const
 {
 return
-metadata
+code
 (
 Tier
 :

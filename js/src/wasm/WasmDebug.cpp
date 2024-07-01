@@ -314,9 +314,9 @@ CallSite
 SlowCallSiteSearchByOffset
 (
 const
-MetadataTier
+CodeTier
 &
-metadata
+code
 uint32_t
 offset
 )
@@ -328,7 +328,7 @@ CallSite
 &
 callSite
 :
-metadata
+code
 .
 callSites
 )
@@ -391,7 +391,7 @@ callsite
 =
 SlowCallSiteSearchByOffset
 (
-metadata
+code
 (
 Tier
 :
@@ -439,7 +439,7 @@ CallSite
 &
 callSite
 :
-metadata
+code
 (
 Tier
 :
@@ -530,7 +530,7 @@ if
 !
 SlowCallSiteSearchByOffset
 (
-metadata
+code
 (
 Tier
 :
@@ -946,7 +946,7 @@ offset
 return
 SlowCallSiteSearchByOffset
 (
-metadata
+code
 (
 Tier
 :
@@ -982,7 +982,7 @@ callSite
 =
 SlowCallSiteSearchByOffset
 (
-metadata
+code
 (
 Tier
 :
@@ -1746,7 +1746,7 @@ base
 (
 )
 +
-metadata
+code
 (
 Tier
 :
@@ -2017,7 +2017,7 @@ callSite
 =
 SlowCallSiteSearchByOffset
 (
-metadata
+code
 (
 Tier
 :

@@ -183,9 +183,6 @@ CodeTier
 class
 ModuleSegment
 ;
-struct
-MetadataTier
-;
 class
 Decoder
 ;

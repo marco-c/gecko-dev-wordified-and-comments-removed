@@ -769,8 +769,8 @@ compilerEnv_
 UniqueLinkData
 linkData_
 ;
-UniqueMetadataTier
-metadataTier_
+UniqueCodeTier
+codeTier_
 ;
 MutableCodeMetadataForAsmJS
 codeMetaForAsmJS_
