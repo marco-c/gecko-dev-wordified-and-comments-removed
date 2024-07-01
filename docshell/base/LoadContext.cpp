@@ -473,9 +473,9 @@ aUsePrivateBrowsing
 =
 mOriginAttributes
 .
-mPrivateBrowsingId
->
-0
+IsPrivateBrowsing
+(
+)
 ;
 return
 NS_OK

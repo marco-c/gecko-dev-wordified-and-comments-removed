@@ -3699,13 +3699,9 @@ isForeignAndNotAddon
 mustBePartitioned
 storagePrincipalOriginAttributes
 .
-mPrivateBrowsingId
-!
-=
-nsIScriptSecurityManager
-:
-:
-DEFAULT_PRIVATE_BROWSING_ID
+IsPrivateBrowsing
+(
+)
 crc
 canSetCookie
 )

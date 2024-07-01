@@ -2026,9 +2026,9 @@ attrs
 (
 )
 .
-mPrivateBrowsingId
->
-0
+IsPrivateBrowsing
+(
+)
 )
 {
 return

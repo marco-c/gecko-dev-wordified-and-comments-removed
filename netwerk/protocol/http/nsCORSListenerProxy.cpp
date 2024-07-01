@@ -1606,10 +1606,9 @@ CacheEntry
 key
 aOriginAttributes
 .
-mPrivateBrowsingId
-!
-=
-0
+IsPrivateBrowsing
+(
+)
 )
 ;
 NS_ASSERTION

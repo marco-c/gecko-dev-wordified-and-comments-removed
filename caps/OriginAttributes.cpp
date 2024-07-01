@@ -1926,11 +1926,11 @@ false
 ;
 }
 return
-!
-!
 attrs
 .
-mPrivateBrowsingId
+IsPrivateBrowsing
+(
+)
 ;
 }
 bool

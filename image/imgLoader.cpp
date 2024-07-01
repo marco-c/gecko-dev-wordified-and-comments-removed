@@ -7129,13 +7129,9 @@ OriginAttributesRef
 (
 )
 .
-mPrivateBrowsingId
-=
-=
-nsIScriptSecurityManager
-:
-:
-DEFAULT_PRIVATE_BROWSING_ID
+IsPrivateBrowsing
+(
+)
 )
 {
 loader
@@ -7143,7 +7139,7 @@ loader
 imgLoader
 :
 :
-NormalLoader
+PrivateBrowsingLoader
 (
 )
 ;
@@ -7155,7 +7151,7 @@ loader
 imgLoader
 :
 :
-PrivateBrowsingLoader
+NormalLoader
 (
 )
 ;

@@ -10382,9 +10382,9 @@ result
 return
 attrs
 .
-mPrivateBrowsingId
->
-0
+IsPrivateBrowsing
+(
+)
 ;
 }
 bool
@@ -14410,8 +14410,6 @@ upgradeInsecureRequest
 "
 _ns
 innerWindowId
-!
-!
 aLoadInfo
 -
 >
@@ -14419,7 +14417,9 @@ GetOriginAttributes
 (
 )
 .
-mPrivateBrowsingId
+IsPrivateBrowsing
+(
+)
 )
 ;
 Telemetry

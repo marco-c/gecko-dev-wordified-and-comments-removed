@@ -3195,9 +3195,9 @@ prinURI
 aURI
 mOriginAttributes
 .
-mPrivateBrowsingId
->
-0
+IsPrivateBrowsing
+(
+)
 aInnerWindowID
 )
 ;

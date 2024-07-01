@@ -7192,6 +7192,7 @@ PrincipalInfo
 TContentPrincipalInfo
 &
 &
+!
 principalInfo
 -
 >
@@ -7203,10 +7204,9 @@ attrs
 (
 )
 .
-mPrivateBrowsingId
-=
-=
-0
+IsPrivateBrowsing
+(
+)
 )
 )
 )

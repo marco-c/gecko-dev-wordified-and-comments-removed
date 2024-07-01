@@ -655,9 +655,9 @@ OriginAttributesRef
 (
 )
 .
-mPrivateBrowsingId
->
-0
+IsPrivateBrowsing
+(
+)
 )
 {
 return

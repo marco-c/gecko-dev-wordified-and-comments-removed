@@ -3497,9 +3497,9 @@ GetOriginAttributes
 (
 )
 .
-mPrivateBrowsingId
->
-0
+IsPrivateBrowsing
+(
+)
 ;
 if
 (

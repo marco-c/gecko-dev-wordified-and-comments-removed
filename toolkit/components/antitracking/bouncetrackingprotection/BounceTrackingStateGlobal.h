@@ -80,13 +80,9 @@ const
 return
 mOriginAttributes
 .
-mPrivateBrowsingId
-!
-=
-nsIScriptSecurityManager
-:
-:
-DEFAULT_PRIVATE_BROWSING_ID
+IsPrivateBrowsing
+(
+)
 ;
 }
 bool

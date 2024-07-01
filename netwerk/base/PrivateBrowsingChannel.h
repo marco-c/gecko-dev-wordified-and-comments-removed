@@ -295,9 +295,9 @@ mPrivateBrowsing
 =
 attrs
 .
-mPrivateBrowsingId
->
-0
+IsPrivateBrowsing
+(
+)
 ;
 }
 bool

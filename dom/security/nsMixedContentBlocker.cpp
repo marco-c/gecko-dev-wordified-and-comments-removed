@@ -2948,8 +2948,6 @@ requestingWindow
 Id
 (
 )
-!
-!
 aLoadInfo
 -
 >
@@ -2957,7 +2955,9 @@ GetOriginAttributes
 (
 )
 .
-mPrivateBrowsingId
+IsPrivateBrowsing
+(
+)
 )
 ;
 *

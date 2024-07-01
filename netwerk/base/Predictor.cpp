@@ -2392,9 +2392,9 @@ if
 (
 originAttributes
 .
-mPrivateBrowsingId
->
-0
+IsPrivateBrowsing
+(
+)
 )
 {
 PREDICTOR_LOG
@@ -6268,9 +6268,9 @@ if
 (
 originAttributes
 .
-mPrivateBrowsingId
->
-0
+IsPrivateBrowsing
+(
+)
 )
 {
 PREDICTOR_LOG

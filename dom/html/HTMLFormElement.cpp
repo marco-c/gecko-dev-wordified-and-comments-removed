@@ -7389,8 +7389,6 @@ document
 InnerWindowID
 (
 )
-!
-!
 document
 -
 >
@@ -7403,7 +7401,9 @@ OriginAttributesRef
 (
 )
 .
-mPrivateBrowsingId
+IsPrivateBrowsing
+(
+)
 )
 ;
 }

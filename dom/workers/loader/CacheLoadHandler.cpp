@@ -682,9 +682,9 @@ NS_WARN_IF
 (
 mOriginAttributes
 .
-mPrivateBrowsingId
->
-0
+IsPrivateBrowsing
+(
+)
 )
 )
 {
