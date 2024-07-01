@@ -75346,7 +75346,7 @@ JS
 Prefs
 :
 :
-setAtStartup_experimental_json_parse_with_source
+set_experimental_json_parse_with_source
 (
 true
 )
