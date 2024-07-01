@@ -2820,6 +2820,7 @@ FlushRepaintForNewInputBlock
 PointerEventsConsumableFlags
 ArePointerEventsConsumable
 (
+const
 TouchBlockState
 *
 aBlock

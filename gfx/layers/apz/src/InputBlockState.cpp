@@ -3907,6 +3907,7 @@ MultiTouchInput
 &
 aInput
 )
+const
 {
 if
 (

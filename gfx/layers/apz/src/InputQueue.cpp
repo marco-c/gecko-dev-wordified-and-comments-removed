@@ -5245,6 +5245,7 @@ const
 AsyncPanZoomController
 *
 aApzc
+const
 InputBlockState
 *
 aCurrentInputBlock
