@@ -201,6 +201,13 @@ bug
 1729538
 [
 "
+test_BackupService_renderTemplate
+.
+js
+"
+]
+[
+"
 test_BackupService_schema_versions
 .
 js
