@@ -1890,7 +1890,7 @@ try
 {
 System
 .
-load
+loadLibrary
 (
 path
 )
