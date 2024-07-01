@@ -1325,6 +1325,31 @@ content
 "
 )
     
+robustcheckout_path
+=
+os
+.
+path
+.
+join
+(
+        
+GECKO
+        
+"
+testing
+/
+mozharness
+/
+external_tools
+/
+robustcheckout
+.
+py
+"
+    
+)
+    
 shutil
 .
 copy2
@@ -1338,6 +1363,14 @@ shutil
 copy2
 (
 fetch_content_file_path
+ARTIFACTS_DIR
+)
+    
+shutil
+.
+copy2
+(
+robustcheckout_path
 ARTIFACTS_DIR
 )
     
