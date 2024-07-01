@@ -107,17 +107,6 @@ mozilla
 :
 MediaRawData
 >
-GetNextHeader
-(
-)
-;
-already_AddRefed
-<
-mozilla
-:
-:
-MediaRawData
->
 GetNext
 (
 )

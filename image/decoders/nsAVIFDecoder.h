@@ -509,11 +509,6 @@ return
 mInfo
 ;
 }
-uint32_t
-GetFrameCount
-(
-)
-;
 nsAVIFDecoder
 :
 :

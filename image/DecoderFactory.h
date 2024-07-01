@@ -337,8 +337,6 @@ SourceBuffer
 *
 >
 aSourceBuffer
-DecoderFlags
-aDecoderFlags
 )
 ;
 private
