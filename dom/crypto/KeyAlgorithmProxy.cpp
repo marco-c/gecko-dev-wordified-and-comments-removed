@@ -197,6 +197,12 @@ mEc
 mNamedCurve
 )
 ;
+case
+ED
+:
+return
+true
+;
 }
 return
 false
