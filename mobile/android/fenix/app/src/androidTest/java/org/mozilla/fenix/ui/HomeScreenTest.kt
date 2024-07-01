@@ -107,7 +107,7 @@ fenix
 .
 helpers
 .
-HomeActivityTestRule
+HomeActivityIntentTestRule
 import
 org
 .
@@ -240,7 +240,7 @@ activityTestRule
 =
 AndroidComposeTestRule
 (
-HomeActivityTestRule
+HomeActivityIntentTestRule
 .
 withDefaultSettingsOverrides
 (

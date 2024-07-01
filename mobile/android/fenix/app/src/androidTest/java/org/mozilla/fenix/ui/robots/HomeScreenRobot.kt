@@ -1312,6 +1312,12 @@ withText
 (
 numberOfOpenTabs
 )
+withEffectiveVisibility
+(
+Visibility
+.
+VISIBLE
+)
 )
 )
 .
