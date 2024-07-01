@@ -1089,6 +1089,16 @@ boolean
 explicit
 =
 false
+optional
+boolean
+checkRestricted
+=
+true
+optional
+boolean
+allowFilePermission
+=
+false
 )
 ;
 /

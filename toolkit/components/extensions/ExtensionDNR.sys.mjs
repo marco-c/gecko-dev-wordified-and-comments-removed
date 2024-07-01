@@ -10715,6 +10715,9 @@ canAccessURI
 this
 .
 initiatorURI
+false
+true
+true
 )
 )
 {
