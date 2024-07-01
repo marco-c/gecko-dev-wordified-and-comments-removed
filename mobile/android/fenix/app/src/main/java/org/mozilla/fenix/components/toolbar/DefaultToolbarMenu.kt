@@ -703,13 +703,16 @@ val
 shouldShowMenuToolbar
 =
 !
+IncompleteRedesignToolbarFeature
+(
 context
 .
 settings
 (
 )
+)
 .
-navigationToolbarEnabled
+isEnabled
 private
 val
 shouldShowTopSites

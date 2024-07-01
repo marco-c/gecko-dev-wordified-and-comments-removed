@@ -3924,10 +3924,8 @@ searchWidgetInstalled
 Test
 fun
 GIVEN
-navigation
 toolbar
-is
-enabled
+redesign
 and
 microsurvey
 are
@@ -3956,7 +3954,7 @@ every
 {
 settings
 .
-navigationToolbarEnabled
+enableIncompleteToolbarRedesign
 }
 returns
 true
@@ -3986,8 +3984,8 @@ Test
 fun
 GIVEN
 only
-navigation
 toolbar
+redesign
 is
 enabled
 WHEN
@@ -4010,7 +4008,7 @@ every
 {
 settings
 .
-navigationToolbarEnabled
+enableIncompleteToolbarRedesign
 }
 returns
 true
@@ -4055,14 +4053,6 @@ every
 {
 settings
 .
-navigationToolbarEnabled
-}
-returns
-false
-every
-{
-settings
-.
 shouldShowMicrosurveyPrompt
 }
 returns
@@ -4086,8 +4076,8 @@ fun
 GIVEN
 that
 both
-navigation
 toolbar
+redesign
 and
 microsurvey
 are
@@ -4113,7 +4103,7 @@ every
 {
 settings
 .
-navigationToolbarEnabled
+enableIncompleteToolbarRedesign
 }
 returns
 false
