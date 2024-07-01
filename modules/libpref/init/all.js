@@ -33134,7 +33134,7 @@ improved_text_menu
 .
 enabled
 "
-false
+true
 )
 ;
 pref
@@ -33235,7 +33235,7 @@ colors_menu
 .
 enabled
 "
-false
+true
 )
 ;
 pref
