@@ -206,6 +206,17 @@ savedFieldNames
 )
 ;
 }
+get
+focusedInput
+(
+)
+{
+return
+formFillController
+.
+focusedInput
+;
+}
 /
 *
 *
