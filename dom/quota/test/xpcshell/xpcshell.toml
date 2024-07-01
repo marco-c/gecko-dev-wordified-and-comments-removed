@@ -275,6 +275,13 @@ anymore
 .
 [
 "
+test_idle_maintenance
+.
+js
+"
+]
+[
+"
 test_initTemporaryStorage
 .
 js

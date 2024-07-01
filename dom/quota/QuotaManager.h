@@ -1685,6 +1685,10 @@ StartIdleMaintenance
 )
 ;
 }
+NotifyMaintenanceStarted
+(
+)
+;
 }
 void
 StopIdleMaintenance
@@ -1917,6 +1921,11 @@ NotifyStoragePressure
 (
 uint64_t
 aUsage
+)
+;
+void
+NotifyMaintenanceStarted
+(
 )
 ;
 static
