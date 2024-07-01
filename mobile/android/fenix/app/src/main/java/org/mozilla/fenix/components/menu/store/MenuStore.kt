@@ -203,6 +203,10 @@ AddShortcut
 is
 MenuAction
 .
+RemoveShortcut
+is
+MenuAction
+.
 DeleteBrowsingDataAndQuit
 is
 MenuAction
