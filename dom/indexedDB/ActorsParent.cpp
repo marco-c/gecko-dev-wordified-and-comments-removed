@@ -58761,12 +58761,6 @@ AssertIsOnBackgroundThread
 ;
 MOZ_ASSERT
 (
-!
-mDirectoryLock
-)
-;
-MOZ_ASSERT
-(
 mState
 =
 =
@@ -58831,6 +58825,11 @@ get
 )
 ;
 }
+SafeDropDirectoryLock
+(
+mDirectoryLock
+)
+;
 const
 RefPtr
 <
