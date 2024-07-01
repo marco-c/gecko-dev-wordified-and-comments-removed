@@ -3449,6 +3449,17 @@ StringPrinter
 sp
 )
 ;
+extern
+UniqueChars
+ToDisassemblySource
+(
+JSContext
+*
+cx
+HandleValue
+v
+)
+;
 #
 endif
 [

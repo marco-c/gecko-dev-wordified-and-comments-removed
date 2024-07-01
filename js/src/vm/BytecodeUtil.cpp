@@ -5715,8 +5715,10 @@ return
 ok
 ;
 }
-static
 UniqueChars
+js
+:
+:
 ToDisassemblySource
 (
 JSContext
