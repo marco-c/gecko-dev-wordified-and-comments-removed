@@ -3234,7 +3234,7 @@ false
 ;
 sendTab
 .
-_generateAndPersistEncryptedSendTabKey
+_generateAndPersistEncryptedCommandKey
 =
 async
 (
@@ -3251,7 +3251,7 @@ true
 await
 sendTab
 .
-getEncryptedSendTabKeys
+getEncryptedCommandKeys
 (
 )
 ;
@@ -3412,7 +3412,7 @@ false
 ;
 sendTab
 .
-_generateAndPersistEncryptedSendTabKey
+_generateAndPersistEncryptedCommandKey
 =
 async
 (
@@ -3429,7 +3429,7 @@ true
 await
 sendTab
 .
-getEncryptedSendTabKeys
+getEncryptedCommandKeys
 (
 )
 ;
