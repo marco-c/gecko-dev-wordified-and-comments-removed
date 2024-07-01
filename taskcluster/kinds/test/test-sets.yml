@@ -1939,6 +1939,8 @@ qr
 tests
 :
 -
+cppunittest
+-
 mochitest
 -
 media
