@@ -1718,6 +1718,13 @@ js
 ]
 [
 "
+test_override_allowlist_update
+.
+js
+"
+]
+[
+"
 test_parseSubmissionURL
 .
 js
