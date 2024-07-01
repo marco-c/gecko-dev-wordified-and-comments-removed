@@ -2736,6 +2736,29 @@ aurora
 "
 )
     
+elif
+release_type
+.
+startswith
+(
+"
+esr
+"
+)
+:
+        
+return
+branding_fluent_filename_template
+.
+format
+(
+brand
+=
+"
+official
+"
+)
+    
 else
 :
         
