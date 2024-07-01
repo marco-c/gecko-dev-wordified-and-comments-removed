@@ -6613,11 +6613,11 @@ Code
 200
 )
 ;
-MutableMetadata
-metadata
-;
 MutableCodeMetadata
 codeMeta
+;
+MutableCodeMetadataForAsmJS
+codeMetaForAsmJS
 ;
 UniqueCodeTier
 codeTier
@@ -6755,9 +6755,9 @@ move
 (
 codeTier
 )
-nullptr
 *
 codeMeta
+nullptr
 std
 :
 :

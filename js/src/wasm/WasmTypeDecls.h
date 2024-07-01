@@ -163,7 +163,7 @@ SystemAllocPolicy
 >
 ;
 struct
-Metadata
+CodeMetadataForAsmJS
 ;
 namespace
 wasm
