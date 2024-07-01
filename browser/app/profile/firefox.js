@@ -13105,7 +13105,7 @@ on
 page
 "
 %
-currentTabTitle
+tabTitle
 %
 "
 with

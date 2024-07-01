@@ -15,3 +15,10 @@ test_build_chat_prompt
 js
 "
 ]
+[
+"
+test_contextual_prompts
+.
+js
+"
+]
