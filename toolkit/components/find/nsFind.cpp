@@ -2233,7 +2233,10 @@ NS_ERROR_NULL_POINTER
 *
 aEntireWord
 =
-mEntireWord
+mWordStartBounded
+&
+&
+mWordEndBounded
 ;
 return
 NS_OK
@@ -2249,7 +2252,9 @@ bool
 aEntireWord
 )
 {
-mEntireWord
+mWordStartBounded
+=
+mWordEndBounded
 =
 aEntireWord
 ;
@@ -4134,7 +4139,7 @@ true
 ;
 if
 (
-mEntireWord
+mWordStartBounded
 &
 &
 prevChar
@@ -4177,7 +4182,12 @@ patc
 &
 (
 !
-mEntireWord
+(
+mWordStartBounded
+|
+|
+mWordEndBounded
+)
 |
 |
 matchAnchorNode
@@ -4321,7 +4331,7 @@ n
 ;
 if
 (
-mEntireWord
+mWordEndBounded
 |
 |
 inWhitespace
@@ -4416,7 +4426,7 @@ CHAR_TO_UNICHAR
 }
 if
 (
-mEntireWord
+mWordEndBounded
 &
 &
 nextChar
