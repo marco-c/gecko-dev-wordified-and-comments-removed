@@ -32,14 +32,6 @@ from
 threading
 import
 Thread
-import
-six
-from
-six
-.
-moves
-import
-range
 from
 .
 import
@@ -49,9 +41,6 @@ _TEST_ROOT
 None
 class
 ADBProcess
-(
-object
-)
 :
     
 "
@@ -109,18 +98,6 @@ subprocess
 .
 PIPE
             
-if
-sys
-.
-version_info
->
-=
-(
-3
-6
-)
-:
-                
 Popen_args
 [
 "
@@ -133,18 +110,6 @@ utf
 -
 8
 "
-            
-else
-:
-                
-Popen_args
-[
-"
-universal_newlines
-"
-]
-=
-True
         
 else
 :
@@ -419,10 +384,6 @@ SEEK_SET
             
 content
 =
-six
-.
-ensure_str
-(
 self
 .
 stdout_file
@@ -434,6 +395,9 @@ read
 rstrip
 (
 )
+.
+decode
+(
 )
         
 return
@@ -484,18 +448,19 @@ return
 "
 args
 :
-%
-s
+{
+}
 exitcode
 :
-%
-s
+{
+}
 stdout
 :
-%
-s
+{
+}
 "
-%
+.
+format
 (
             
 arg_string
@@ -925,9 +890,6 @@ state
 pass
 class
 ADBCommand
-(
-object
-)
 :
     
 "
@@ -1302,24 +1264,22 @@ _logger
 .
 debug
 (
+f
 "
-%
-s
-:
-%
-s
-"
-%
-(
+{
 self
 .
 __class__
 .
 __name__
+}
+:
+{
 self
 .
 __dict__
-)
+}
+"
 )
         
 try
@@ -1381,9 +1341,7 @@ output
 [
 0
 ]
-six
-.
-binary_type
+bytes
 )
 :
                 
@@ -1490,22 +1448,20 @@ exc
 raise
 ADBError
 (
+f
 "
-%
-s
+{
+exc
+}
 :
-%
-s
+{
+adb
+}
 is
 not
 executable
 .
 "
-%
-(
-exc
-adb
-)
 )
     
 def
@@ -5751,6 +5707,7 @@ _logger
 .
 debug
 (
+f
 "
 detect
 /
@@ -5760,13 +5717,9 @@ bin
 /
 ls
 {
+e1
 }
 "
-.
-format
-(
-e1
-)
 )
                 
 try
@@ -5826,6 +5779,7 @@ _logger
 .
 debug
 (
+f
 "
 detect
 /
@@ -5836,13 +5790,9 @@ xbin
 ls
 :
 {
+e2
 }
 "
-.
-format
-(
-e2
-)
 )
             
 if
@@ -5910,22 +5860,19 @@ self
 .
 shell_output
 (
+f
 "
 {
+self
+.
+_ls
 }
 -
 1A
 {
+ls_dir
 }
 "
-.
-format
-(
-self
-.
-_ls
-ls_dir
-)
 timeout
 =
 timeout
@@ -5957,6 +5904,7 @@ _logger
 .
 debug
 (
+f
 "
 detect
 ls
@@ -5964,13 +5912,9 @@ ls
 1A
 :
 {
+e
 }
 "
-.
-format
-(
-e
-)
 )
                 
 if
@@ -6375,6 +6319,7 @@ _logger
 .
 debug
 (
+f
 "
 Check
 chmod
@@ -6382,13 +6327,9 @@ chmod
 R
 :
 {
+e
 }
 "
-.
-format
-(
-e
-)
 )
             
 match
@@ -6419,6 +6360,7 @@ _logger
 .
 info
 (
+f
 "
 Native
 chmod
@@ -6427,15 +6369,11 @@ R
 support
 :
 {
-}
-"
-.
-format
-(
 self
 .
 _chmod_R
-)
+}
+"
 )
         
 try
@@ -6495,6 +6433,7 @@ _logger
 .
 debug
 (
+f
 "
 Check
 chown
@@ -6502,13 +6441,9 @@ chown
 R
 :
 {
+e
 }
 "
-.
-format
-(
-e
-)
 )
         
 self
@@ -6517,6 +6452,7 @@ _logger
 .
 info
 (
+f
 "
 Native
 chown
@@ -6525,15 +6461,11 @@ R
 support
 :
 {
-}
-"
-.
-format
-(
 self
 .
 _chown_R
-)
+}
+"
 )
         
 try
@@ -6994,6 +6926,7 @@ _logger
 .
 debug
 (
+f
 "
 Check
 for
@@ -7003,13 +6936,9 @@ c
 failed
 :
 {
+e
 }
 "
-.
-format
-(
-e
-)
 )
                 
 try
@@ -7082,6 +7011,7 @@ _logger
 .
 debug
 (
+f
 "
 Check
 for
@@ -7090,13 +7020,9 @@ su
 failed
 :
 {
+e
 }
 "
-.
-format
-(
-e
-)
 )
         
 if
@@ -7646,9 +7572,7 @@ if
 isinstance
 (
 device
-six
-.
-string_types
+str
 )
 :
             
@@ -8799,16 +8723,15 @@ SEEK_END
             
 char
 =
-six
-.
-ensure_str
-(
 file_obj
 .
 read
 (
 1
 )
+.
+decode
+(
 )
             
 if
@@ -8918,13 +8841,12 @@ in
 file_obj
 :
                 
-line
+line_str
 =
-six
-.
-ensure_str
-(
 line
+.
+decode
+(
 )
                 
 match
@@ -8933,7 +8855,7 @@ re_returncode
 .
 search
 (
-line
+line_str
 )
                 
 if
@@ -9388,25 +9310,23 @@ _logger
 .
 warning
 (
+f
 "
 Package
-%
-s
+{
+package
+}
 is
 not
 debuggable
 :
-%
-s
-"
-%
-(
-package
+{
 str
 (
 e
 )
-)
+}
+"
 )
         
 return
@@ -10583,23 +10503,21 @@ _logger
 .
 debug
 (
+f
 "
 Setting
 test_root
 from
-%
-s
-to
-%
-s
-"
-%
-(
+{
 self
 .
 _test_root
+}
+to
+{
 value
-)
+}
+"
 )
         
 old_test_root
@@ -11054,24 +10972,22 @@ _logger
 .
 warning
 (
+f
 "
-%
-s
+{
+test_root
+}
 is
 not
 writable
 :
-%
-s
-"
-%
-(
-test_root
+{
 str
 (
 e
 )
-)
+}
+"
 )
             
 return
@@ -11718,18 +11634,15 @@ SOCKET_DIRECTION_REVERSE
 raise
 ValueError
 (
+f
 "
 Invalid
 direction
 specifier
 {
+direction
 }
 "
-.
-format
-(
-direction
-)
 )
     
 def
@@ -13303,7 +13216,7 @@ frame
 :
             
 raise
-IOError
+OSError
 (
 "
 ReadLineTimeout
@@ -13560,22 +13473,20 @@ enable_run_as
             
 cmd
 =
+f
 "
 run
 -
 as
-%
-s
-%
-s
-"
-%
-(
+{
 self
 .
 _run_as_package
+}
+{
 cmd
-)
+}
+"
         
 else
 :
@@ -13588,20 +13499,18 @@ cwd
             
 cmd
 =
+f
 "
 cd
-%
-s
-&
-&
-%
-s
-"
-%
-(
+{
 cwd
+}
+&
+&
+{
 cmd
-)
+}
+"
         
 if
 env
@@ -13617,25 +13526,23 @@ envstr
 join
 (
 [
+f
 "
 export
-%
-s
-=
-%
-s
-"
-%
-(
+{
 x
 [
 0
 ]
+}
+=
+{
 x
 [
 1
 ]
-)
+}
+"
 for
 x
 in
@@ -13911,8 +13818,6 @@ else
             
 stdout2
 =
-io
-.
 open
 (
 adb_process
@@ -14032,11 +13937,10 @@ _logger
 .
 info
 (
-six
-.
-ensure_str
-(
 line
+.
+decode
+(
 )
 )
                             
@@ -14067,7 +13971,7 @@ _polling_interval
 )
                 
 except
-IOError
+OSError
 :
                     
 pass
@@ -15297,6 +15201,7 @@ _logger
 warning
 (
                 
+f
 "
 retryable
 logcat
@@ -15305,6 +15210,10 @@ error
 ?
 :
 {
+str
+(
+e
+)
 }
 .
 Retrying
@@ -15312,14 +15221,6 @@ Retrying
 .
 .
 "
-.
-format
-(
-str
-(
-e
-)
-)
             
 )
             
@@ -15378,7 +15279,7 @@ _logger
 .
 warning
 (
-                    
+f
 "
 Ignoring
 failure
@@ -15387,18 +15288,13 @@ clear
 logcat
 :
 {
-}
-.
-"
-.
-format
-(
 str
 (
 e2
 )
-)
-                
+}
+.
+"
 )
     
 def
@@ -16477,25 +16373,21 @@ _logger
 .
 warning
 (
-                    
+f
 "
 get_ip_address
 ifconfig
-%
-s
-:
-%
-s
-"
-%
-(
+{
 interface
+}
+:
+{
 str
 (
 e
 )
-)
-                
+}
+"
 )
                 
 output
@@ -16835,21 +16727,19 @@ _logger
 debug
 (
                         
+f
 "
 get_ip_address
 :
 found
 :
-%
-s
-%
-s
-"
-%
-(
+{
 matched_interface
+}
+{
 matched_ip
-)
+}
+"
                     
 )
                     
@@ -17195,16 +17085,12 @@ close
             
 script
 =
+f
 "
 /
 sdcard
 /
 {
-}
-"
-.
-format
-(
 os
 .
 path
@@ -17215,7 +17101,8 @@ tmpf
 .
 name
 )
-)
+}
+"
             
 self
 .
@@ -17232,16 +17119,13 @@ self
 shell_output
 (
                 
+f
 "
 sh
 {
+script
 }
 "
-.
-format
-(
-script
-)
 enable_run_as
 =
 enable_run_as
@@ -17460,30 +17344,26 @@ _logger
 .
 debug
 (
-            
+f
 "
 chmod
 :
 path
 =
-%
-s
-recursive
-=
-%
-s
-mask
-=
-%
-s
-"
-%
-(
+{
 path
+}
 recursive
+=
+{
+recursive
+}
 mask
-)
-        
+=
+{
+mask
+}
+"
 )
         
 if
@@ -17932,6 +17812,7 @@ command
 .
 append
 (
+f
 "
 {
 owner
@@ -17941,16 +17822,6 @@ owner
 group
 }
 "
-.
-format
-(
-owner
-=
-owner
-group
-=
-group
-)
 )
         
 else
@@ -18253,26 +18124,17 @@ self
 shell_bool
 (
                 
+f
 "
 test
 -
 {
-arg
+argument
 }
 {
 path
 }
 "
-.
-format
-(
-arg
-=
-argument
-path
-=
-path
-)
                 
 timeout
 =
@@ -18332,19 +18194,16 @@ self
 shell_bool
 (
                 
+f
 "
 ls
 -
 a
 {
+path
 }
 /
 "
-.
-format
-(
-path
-)
 timeout
 =
 timeout
@@ -18369,18 +18228,15 @@ self
 shell_bool
 (
                 
+f
 "
 ls
 -
 a
 {
+path
 }
 "
-.
-format
-(
-path
-)
 timeout
 =
 timeout
@@ -19049,19 +18905,17 @@ self
 shell_output
 (
                     
+f
 "
-%
-s
-%
-s
-"
-%
-(
+{
 self
 .
 _ls
+}
+{
 path
-)
+}
+"
                     
 timeout
 =
@@ -19675,22 +19529,20 @@ self
 shell_output
 (
             
+f
 "
-%
-s
-%
-s
-%
-s
-"
-%
-(
+{
 self
 .
 _ls
+}
+{
 recursive_flag
+}
+{
 path
-)
+}
+"
             
 timeout
 =
@@ -19712,7 +19564,7 @@ in
 lines
 :
             
-line
+stripped_line
 =
 line
 .
@@ -19722,7 +19574,7 @@ strip
             
 if
 not
-line
+stripped_line
 :
                 
 parent
@@ -19733,7 +19585,7 @@ parent
 continue
             
 if
-line
+stripped_line
 .
 endswith
 (
@@ -19745,7 +19597,7 @@ endswith
                 
 parent
 =
-line
+stripped_line
 .
 replace
 (
@@ -19789,24 +19641,22 @@ parent
                 
 entry
 =
+f
 "
-%
-s
-%
-s
-"
-%
-(
+{
 parent
-line
-)
+}
+{
+stripped_line
+}
+"
             
 else
 :
                 
 entry
 =
-line
+stripped_line
             
 entries
 [
@@ -21488,25 +21338,23 @@ _logger
 .
 error
 (
+f
 "
 pull
-%
-s
-%
-s
-:
-%
-s
-"
-%
-(
+{
 intermediate
+}
+{
 local
+}
+:
+{
 str
 (
 e
 )
-)
+}
+"
 )
                 
 finally
@@ -21731,8 +21579,6 @@ timeout
 )
             
 with
-io
-.
 open
 (
 tf
@@ -22032,17 +21878,15 @@ self
 shell_output
 (
                 
+f
 "
-%
-s
-%
-s
-"
-%
-(
+{
 cmd
+}
+{
 path
-)
+}
+"
 timeout
 =
 timeout
@@ -22588,10 +22432,6 @@ adb_process
                 
 header
 =
-six
-.
-ensure_str
-(
 adb_process
 .
 stdout_file
@@ -22599,6 +22439,9 @@ stdout_file
 readline
 (
 )
+.
+decode
+(
 )
                 
 pid_i
@@ -22750,10 +22593,6 @@ ret
             
 line
 =
-six
-.
-ensure_str
-(
 adb_process
 .
 stdout_file
@@ -22761,6 +22600,9 @@ stdout_file
 readline
 (
 )
+.
+decode
+(
 )
             
 while
@@ -22842,26 +22684,22 @@ format_exc
 raise
 ADBError
 (
-                        
+f
 "
 get_process_list
 :
-%
-s
-:
-%
-s
-:
-%
-s
-"
-%
-(
+{
 header
+}
+:
+{
 line
+}
+:
+{
 adb_process
-)
-                    
+}
+"
 )
                 
 except
@@ -22953,10 +22791,6 @@ adb_process
                 
 line
 =
-six
-.
-ensure_str
-(
 adb_process
 .
 stdout_file
@@ -22964,6 +22798,9 @@ stdout_file
 readline
 (
 )
+.
+decode
+(
 )
             
 self
@@ -23806,9 +23643,7 @@ not
 isinstance
 (
 process_name
-six
-.
-string_types
+str
 )
 :
             
@@ -24187,21 +24022,19 @@ self
 shell_output
 (
                 
+f
 "
 cp
-%
-s
-%
-s
-%
-s
-"
-%
-(
+{
 r
+}
+{
 source
+}
+{
 destination
-)
+}
+"
                 
 timeout
 =
@@ -24320,22 +24153,20 @@ self
 .
 shell_output
 (
+f
 "
 dd
 if
 =
-%
-s
+{
+source
+}
 of
 =
-%
-s
-"
-%
-(
-source
+{
 destination
-)
+}
+"
 timeout
 =
 timeout
@@ -24723,18 +24554,16 @@ self
 shell_output
 (
             
+f
 "
 mv
-%
-s
-%
-s
-"
-%
-(
+{
 source
+}
+{
 destination
-)
+}
+"
             
 timeout
 =
@@ -26448,21 +26277,19 @@ _logger
 .
 info
 (
+f
 "
 _get_top_activity_P
 :
 Exception
-%
-s
-:
-%
-s
-"
-%
-(
+{
 cmd
+}
+:
+{
 e
-)
+}
+"
 )
             
 return
@@ -26681,21 +26508,19 @@ _logger
 .
 info
 (
+f
 "
 _get_top_activity_Q
 :
 Exception
-%
-s
-:
-%
-s
-"
-%
-(
+{
 cmd
+}
+:
+{
 e
-)
+}
+"
 )
             
 return
@@ -27653,19 +27478,17 @@ self
 shell_output
 (
                         
+f
 "
 pm
 grant
-%
-s
-%
-s
-"
-%
-(
+{
 app_name
+}
+{
 permission
-)
+}
+"
                         
 timeout
 =
@@ -28083,19 +27906,16 @@ key
             
 apks_path
 =
+f
 "
 {
+temporaryDirectory
 }
 /
 tmp
 .
 apks
 "
-.
-format
-(
-temporaryDirectory
-)
             
 java_path
 =
@@ -28133,33 +27953,27 @@ build
 apks
 "
                 
+f
 "
 -
 -
 bundle
 =
 {
+bundle_path
 }
 "
-.
-format
-(
-bundle_path
-)
                 
+f
 "
 -
 -
 output
 =
 {
+apks_path
 }
 "
-.
-format
-(
-apks_path
-)
                 
 "
 -
@@ -28169,6 +27983,7 @@ connected
 device
 "
                 
+f
 "
 -
 -
@@ -28177,43 +27992,33 @@ device
 id
 =
 {
+device_serial
 }
 "
-.
-format
-(
-device_serial
-)
                 
+f
 "
 -
 -
 adb
 =
 {
-}
-"
-.
-format
-(
 self
 .
 _adb_path
-)
+}
+"
                 
+f
 "
 -
 -
 ks
 =
 {
+keystore_path
 }
 "
-.
-format
-(
-keystore_path
-)
                 
 "
 -
@@ -28320,20 +28125,18 @@ install
 apks
 "
                 
+f
 "
 -
 -
 apks
 =
 {
+apks_path
 }
 "
-.
-format
-(
-apks_path
-)
                 
+f
 "
 -
 -
@@ -28342,29 +28145,22 @@ device
 id
 =
 {
+device_serial
 }
 "
-.
-format
-(
-device_serial
-)
                 
+f
 "
 -
 -
 adb
 =
 {
-}
-"
-.
-format
-(
 self
 .
 _adb_path
-)
+}
+"
             
 ]
             
@@ -28641,23 +28437,21 @@ Success
 raise
 ADBError
 (
+f
 "
 install
 failed
 for
-%
-s
+{
+apk_path
+}
 .
 Got
 :
-%
-s
-"
-%
-(
-apk_path
+{
 data
-)
+}
+"
 )
         
 packages_after
@@ -28928,17 +28722,14 @@ return
 any
 (
 [
+f
 "
 package
 :
 {
+app_name
 }
 "
-.
-format
-(
-app_name
-)
 =
 =
 out
@@ -29304,18 +29095,16 @@ extend
 n
 "
                 
+f
 "
-%
-s
-/
-%
-s
-"
-%
-(
+{
 app_name
+}
+/
+{
 activity_name
-)
+}
+"
             
 ]
         
@@ -29502,22 +29291,18 @@ line
 raise
 ADBError
 (
-                
+f
 "
 launch_application
-%
-s
+{
+app_name
+}
 /
-%
-s
+{
+activity_name
+}
 failed
 "
-%
-(
-app_name
-activity_name
-)
-            
 )
     
 def
@@ -30264,18 +30049,16 @@ launch_application
             
 app_name
             
+f
 "
-%
-s
-.
-%
-s
-"
-%
-(
+{
 app_name
+}
+.
+{
 activity_name
-)
+}
+"
             
 intent
             
@@ -30682,18 +30465,16 @@ launch_application
             
 app_name
             
+f
 "
-%
-s
-.
-%
-s
-"
-%
-(
+{
 app_name
+}
+.
+{
 activity_name
-)
+}
+"
             
 intent
             
@@ -31240,23 +31021,21 @@ data
 raise
 ADBError
 (
+f
 "
 uninstall
 failed
 for
-%
-s
+{
+app_name
+}
 .
 Got
 :
-%
-s
-"
-%
-(
-app_name
+{
 data
-)
+}
+"
 )
             
 self

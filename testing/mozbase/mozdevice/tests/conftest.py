@@ -1,6 +1,10 @@
 import
 sys
 from
+io
+import
+StringIO
+from
 random
 import
 randint
@@ -15,10 +19,6 @@ import
 mozdevice
 import
 pytest
-from
-six
-import
-StringIO
 seed
 (
 1488590
