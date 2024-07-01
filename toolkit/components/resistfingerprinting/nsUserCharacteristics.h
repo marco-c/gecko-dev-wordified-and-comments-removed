@@ -23,6 +23,12 @@ MaybeSubmitPing
 )
 ;
 static
+bool
+ShouldSubmit
+(
+)
+;
+static
 void
 PopulateDataAndEventuallySubmit
 (
