@@ -1501,6 +1501,6 @@ tests
 )
 parent
 :
-android
+ubuntu2204
 -
-components
+base
