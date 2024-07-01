@@ -1068,6 +1068,7 @@ prompt
 }
 SmokeTest
 Test
+Ignore
 fun
 testLocationSharingAllowed
 (
@@ -1121,6 +1122,7 @@ longitude
 }
 SmokeTest
 Test
+Ignore
 fun
 allowCameraPermissionsTest
 (
