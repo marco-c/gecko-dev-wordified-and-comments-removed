@@ -642,6 +642,11 @@ promptToSetAsDefaultBrowser
 )
 }
 }
+telemetryRecorder
+.
+onOnboardingStarted
+(
+)
 }
 RequiresApi
 (
