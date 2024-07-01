@@ -13,6 +13,11 @@ algorithm
 #
 include
 <
+array
+>
+#
+include
+<
 cstdio
 >
 #
