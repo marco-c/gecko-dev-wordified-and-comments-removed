@@ -365,6 +365,15 @@ nsIURI
 aURI
 )
 ;
+static
+bool
+UnknownPublicSuffixException
+(
+nsIURI
+*
+aURI
+)
+;
 }
 ;
 class
