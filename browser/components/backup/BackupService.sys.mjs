@@ -9694,7 +9694,7 @@ failed
 *
 /
 async
-recoverFromBackup
+recoverFromSnapshotFolder
 (
 recoveryPath
 shouldLaunch

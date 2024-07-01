@@ -996,7 +996,7 @@ PathUtils
 tempDir
               
 "
-recoverFromBackupTest
+recoverFromSnapshotFolderTest
 -
 newProfileRoot
 "
@@ -1010,7 +1010,7 @@ newProfile
 await
 bs
 .
-recoverFromBackup
+recoverFromSnapshotFolder
 (
 stagingPath
 false
