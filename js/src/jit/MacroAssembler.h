@@ -777,7 +777,7 @@ class
 MemoryAccessDesc
 ;
 struct
-ModuleEnvironment
+ModuleMetadata
 ;
 enum
 class
@@ -25517,9 +25517,9 @@ const
 wasm
 :
 :
-ModuleEnvironment
+ModuleMetadata
 &
-env
+moduleMeta
 bool
 limitedSize
 =

@@ -109,7 +109,7 @@ mozilla
 Maybe
 ;
 struct
-ModuleEnvironment
+ModuleMetadata
 ;
 class
 Opcode
@@ -3615,9 +3615,9 @@ startSection
 (
 SectionId
 id
-ModuleEnvironment
+ModuleMetadata
 *
-env
+moduleMeta
 MaybeSectionRange
 *
 range
@@ -3659,9 +3659,9 @@ char
 expected
 size_t
 expectedLength
-ModuleEnvironment
+ModuleMetadata
 *
-env
+moduleMeta
 MaybeSectionRange
 *
 range
@@ -3689,9 +3689,9 @@ name
 [
 NameSizeWith0
 ]
-ModuleEnvironment
+ModuleMetadata
 *
-env
+moduleMeta
 MaybeSectionRange
 *
 range
@@ -3720,7 +3720,7 @@ name
 NameSizeWith0
 -
 1
-env
+moduleMeta
 range
 )
 ;
@@ -3755,9 +3755,9 @@ nodiscard
 bool
 skipCustomSection
 (
-ModuleEnvironment
+ModuleMetadata
 *
-env
+moduleMeta
 )
 ;
 [

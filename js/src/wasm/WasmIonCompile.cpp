@@ -532,9 +532,9 @@ SystemAllocPolicy
 >
 ;
 const
-ModuleEnvironment
+ModuleMetadata
 &
-moduleEnv_
+moduleMeta_
 ;
 IonOpIter
 iter_
@@ -614,9 +614,9 @@ public
 FunctionCompiler
 (
 const
-ModuleEnvironment
+ModuleMetadata
 &
-moduleEnv
+moduleMeta
 Decoder
 &
 decoder
@@ -636,13 +636,13 @@ TryNoteVector
 tryNotes
 )
 :
-moduleEnv_
+moduleMeta_
 (
-moduleEnv
+moduleMeta
 )
 iter_
 (
-moduleEnv
+moduleMeta
 decoder
 )
 functionBodyOffset_
@@ -724,15 +724,15 @@ tryNotes
 {
 }
 const
-ModuleEnvironment
+ModuleMetadata
 &
-moduleEnv
+moduleMeta
 (
 )
 const
 {
 return
-moduleEnv_
+moduleMeta_
 ;
 }
 IonOpIter
@@ -791,7 +791,7 @@ const
 {
 return
 *
-moduleEnv_
+moduleMeta_
 .
 funcs
 [
@@ -835,7 +835,7 @@ bytecodeIfNotAsmJS
 const
 {
 return
-moduleEnv_
+moduleMeta_
 .
 isAsmJS
 (
@@ -2418,7 +2418,7 @@ type
 &
 &
 !
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -2735,7 +2735,7 @@ bool
 trapOnError
 =
 !
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -2995,7 +2995,7 @@ bool
 trapOnError
 =
 !
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -5141,7 +5141,7 @@ AliasSet
 aliases
 =
 !
-moduleEnv_
+moduleMeta_
 .
 memories
 [
@@ -5231,7 +5231,7 @@ Instance
 :
 offsetInData
 (
-moduleEnv_
+moduleMeta_
 .
 offsetOfMemoryInstanceData
 (
@@ -5313,7 +5313,7 @@ Int64
 ;
 if
 (
-moduleEnv_
+moduleMeta_
 .
 hugeMemoryEnabled
 (
@@ -5346,7 +5346,7 @@ Instance
 :
 offsetInData
 (
-moduleEnv_
+moduleMeta_
 .
 offsetOfMemoryInstanceData
 (
@@ -5365,7 +5365,7 @@ AliasSet
 aliases
 =
 !
-moduleEnv_
+moduleMeta_
 .
 memories
 [
@@ -5447,7 +5447,7 @@ mustAdd
 ;
 if
 (
-moduleEnv_
+moduleMeta_
 .
 isAsmJS
 (
@@ -5612,7 +5612,7 @@ offsetGuardLimit
 =
 GetMaxOffsetGuardLimit
 (
-moduleEnv_
+moduleMeta_
 .
 hugeMemoryEnabled
 (
@@ -5794,7 +5794,7 @@ offsetGuardLimit
 =
 GetMaxOffsetGuardLimit
 (
-moduleEnv_
+moduleMeta_
 .
 hugeMemoryEnabled
 (
@@ -5882,7 +5882,7 @@ memoryIndex
 &
 &
 !
-moduleEnv_
+moduleMeta_
 .
 memories
 [
@@ -5896,7 +5896,7 @@ boundsCheckLimitIs32Bits
 &
 MaxMemoryPages
 (
-moduleEnv_
+moduleMeta_
 .
 memories
 [
@@ -6145,7 +6145,7 @@ inDeadCode
 MOZ_ASSERT
 (
 !
-moduleEnv_
+moduleMeta_
 .
 isAsmJS
 (
@@ -6285,7 +6285,7 @@ Int64
 MOZ_ASSERT
 (
 !
-moduleEnv_
+moduleMeta_
 .
 hugeMemoryEnabled
 (
@@ -6412,7 +6412,7 @@ memoryIndex
 )
 {
 return
-moduleEnv_
+moduleMeta_
 .
 memories
 [
@@ -6438,7 +6438,7 @@ memoryIndex
 )
 {
 return
-moduleEnv_
+moduleMeta_
 .
 memories
 [
@@ -6464,7 +6464,7 @@ memoryIndex
 )
 {
 return
-moduleEnv_
+moduleMeta_
 .
 hugeMemoryEnabled
 (
@@ -6602,7 +6602,7 @@ nullptr
 ;
 if
 (
-moduleEnv_
+moduleMeta_
 .
 isAsmJS
 (
@@ -6782,7 +6782,7 @@ nullptr
 ;
 if
 (
-moduleEnv_
+moduleMeta_
 .
 isAsmJS
 (
@@ -7966,7 +7966,7 @@ base
 MOZ_ASSERT
 (
 !
-moduleEnv_
+moduleMeta_
 .
 isAsmJS
 (
@@ -8125,7 +8125,7 @@ base
 MOZ_ASSERT
 (
 !
-moduleEnv_
+moduleMeta_
 .
 isAsmJS
 (
@@ -8659,7 +8659,7 @@ Instance
 :
 offsetInData
 (
-moduleEnv_
+moduleMeta_
 .
 offsetOfTableInstanceData
 (
@@ -11305,7 +11305,7 @@ funcType
 =
 (
 *
-moduleEnv_
+moduleMeta_
 .
 types
 )
@@ -11325,7 +11325,7 @@ CallIndirectId
 :
 forFuncType
 (
-moduleEnv_
+moduleMeta_
 funcTypeIndex
 )
 ;
@@ -11352,7 +11352,7 @@ TableDesc
 &
 table
 =
-moduleEnv_
+moduleMeta_
 .
 tables
 [
@@ -11366,7 +11366,7 @@ CalleeDesc
 :
 wasmTable
 (
-moduleEnv_
+moduleMeta_
 table
 tableIndex
 callIndirectId
@@ -11479,7 +11479,7 @@ funcType
 =
 (
 *
-moduleEnv_
+moduleMeta_
 .
 types
 )
@@ -11499,7 +11499,7 @@ CallIndirectId
 :
 forFuncType
 (
-moduleEnv_
+moduleMeta_
 funcTypeIndex
 )
 ;
@@ -11508,7 +11508,7 @@ callee
 ;
 if
 (
-moduleEnv_
+moduleMeta_
 .
 isAsmJS
 (
@@ -11541,7 +11541,7 @@ AsmJS
 uint32_t
 tableIndex
 =
-moduleEnv_
+moduleMeta_
 .
 asmJSSigToTableIndex
 [
@@ -11553,7 +11553,7 @@ TableDesc
 &
 table
 =
-moduleEnv_
+moduleMeta_
 .
 tables
 [
@@ -11625,7 +11625,7 @@ CalleeDesc
 :
 asmJSTable
 (
-moduleEnv_
+moduleMeta_
 tableIndex
 )
 ;
@@ -11652,7 +11652,7 @@ TableDesc
 &
 table
 =
-moduleEnv_
+moduleMeta_
 .
 tables
 [
@@ -11666,7 +11666,7 @@ CalleeDesc
 :
 wasmTable
 (
-moduleEnv_
+moduleMeta_
 table
 tableIndex
 callIndirectId
@@ -15459,7 +15459,7 @@ MIRType
 :
 :
 WasmAnyRef
-moduleEnv_
+moduleMeta_
 .
 offsetOfTagInstanceData
 (
@@ -17426,7 +17426,7 @@ values
 SharedTagType
 tagType
 =
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -18132,7 +18132,7 @@ data
 SharedTagType
 tagType
 =
-moduleEnv_
+moduleMeta_
 .
 tags
 [
@@ -20452,7 +20452,7 @@ typeIndex
 uint32_t
 stvOffset
 =
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -20525,7 +20525,7 @@ Instance
 :
 offsetInData
 (
-moduleEnv_
+moduleMeta_
 .
 offsetOfTypeDefInstanceData
 (
@@ -20593,7 +20593,7 @@ typeDef
 =
 (
 *
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -22163,7 +22163,7 @@ arrayType
 =
 (
 *
-moduleEnv_
+moduleMeta_
 .
 types
 )
@@ -22314,7 +22314,7 @@ arrayType
 =
 (
 *
-moduleEnv_
+moduleMeta_
 .
 types
 )
@@ -22590,7 +22590,7 @@ isTypeRef
 uint32_t
 typeIndex
 =
-moduleEnv_
+moduleMeta_
 .
 types
 -
@@ -26170,7 +26170,7 @@ readOldCallDirect
 (
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -26233,7 +26233,7 @@ funcType
 *
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -26271,7 +26271,7 @@ if
 (
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -26286,7 +26286,7 @@ instanceDataOffset
 =
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -26477,7 +26477,7 @@ funcType
 *
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -26702,7 +26702,7 @@ funcType
 *
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -26748,7 +26748,7 @@ if
 (
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -26763,7 +26763,7 @@ globalDataOffset
 =
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -26899,7 +26899,7 @@ funcType
 *
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -27295,7 +27295,7 @@ global
 =
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -27632,7 +27632,7 @@ global
 =
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -27724,7 +27724,7 @@ global
 =
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -28117,7 +28117,7 @@ if
 (
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -28246,7 +28246,7 @@ MOZ_ASSERT
 !
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -32061,7 +32061,7 @@ callee
 (
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -32137,7 +32137,7 @@ dstIndexType
 =
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -32155,7 +32155,7 @@ srcIndexType
 =
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -33644,7 +33644,7 @@ callee
 (
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -34763,7 +34763,7 @@ callee
 (
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -34862,7 +34862,7 @@ table
 =
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -35200,7 +35200,7 @@ table
 =
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -37121,7 +37121,7 @@ typeDef
 *
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -37338,7 +37338,7 @@ structType
 *
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -37508,7 +37508,7 @@ structType
 *
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -37618,7 +37618,7 @@ structType
 *
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -37856,7 +37856,7 @@ arrayType
 *
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -38023,7 +38023,7 @@ arrayType
 *
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -38902,7 +38902,7 @@ arrayType
 *
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -39060,7 +39060,7 @@ arrayType
 *
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -40713,7 +40713,7 @@ if
 !
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -40758,7 +40758,7 @@ if
 !
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -44966,7 +44966,7 @@ if
 !
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -45177,7 +45177,7 @@ if
 !
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -45224,7 +45224,7 @@ if
 !
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -45275,7 +45275,7 @@ if
 !
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -45321,7 +45321,7 @@ if
 !
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -45368,7 +45368,7 @@ if
 !
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -45415,7 +45415,7 @@ if
 !
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -45476,7 +45476,7 @@ if
 !
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -45488,7 +45488,7 @@ gcEnabled
 !
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -45540,7 +45540,7 @@ if
 !
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -46174,7 +46174,7 @@ if
 !
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -49028,7 +49028,7 @@ if
 !
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -49117,7 +49117,7 @@ if
 !
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -49198,7 +49198,7 @@ if
 !
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -49260,7 +49260,7 @@ if
 !
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -49685,7 +49685,7 @@ if
 !
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -49786,7 +49786,7 @@ if
 (
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -51665,7 +51665,7 @@ if
 !
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -51721,7 +51721,7 @@ if
 !
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -51733,7 +51733,7 @@ isBuiltinModule
 !
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -51772,7 +51772,7 @@ if
 !
 f
 .
-moduleEnv
+moduleMeta
 (
 )
 .
@@ -52568,9 +52568,9 @@ Decoder
 &
 d
 const
-ModuleEnvironment
+ModuleMetadata
 &
-moduleEnv
+moduleMeta
 const
 FuncCompileInput
 &
@@ -52595,7 +52595,7 @@ error
 {
 if
 (
-moduleEnv
+moduleMeta
 .
 numMemories
 (
@@ -52606,7 +52606,7 @@ numMemories
 {
 if
 (
-moduleEnv
+moduleMeta
 .
 memories
 [
@@ -52628,7 +52628,7 @@ mir
 .
 initMinWasmMemory0Length
 (
-moduleEnv
+moduleMeta
 .
 memories
 [
@@ -52647,7 +52647,7 @@ mir
 .
 initMinWasmMemory0Length
 (
-moduleEnv
+moduleMeta
 .
 memories
 [
@@ -52664,7 +52664,7 @@ initialLength64
 FunctionCompiler
 f
 (
-moduleEnv
+moduleMeta
 d
 func
 locals
@@ -52739,9 +52739,9 @@ wasm
 IonCompileFunctions
 (
 const
-ModuleEnvironment
+ModuleMetadata
 &
-moduleEnv
+moduleMeta
 const
 CompilerEnvironment
 &
@@ -52812,7 +52812,7 @@ WasmMacroAssembler
 masm
 (
 alloc
-moduleEnv
+moduleMeta
 )
 ;
 #
@@ -53024,7 +53024,7 @@ if
 DecodeLocalEntriesWithParams
 (
 d
-moduleEnv
+moduleMeta
 func
 .
 index
@@ -53060,7 +53060,7 @@ length
 ;
 if
 (
-moduleEnv
+moduleMeta
 .
 branchHintingEnabled
 (
@@ -53068,7 +53068,7 @@ branchHintingEnabled
 &
 &
 !
-moduleEnv
+moduleMeta
 .
 branchHints
 .
@@ -53116,7 +53116,7 @@ if
 IonBuildMIR
 (
 d
-moduleEnv
+moduleMeta
 func
 locals
 mir
@@ -53238,7 +53238,7 @@ ArgTypeVector
 args
 (
 *
-moduleEnv
+moduleMeta
 .
 funcs
 [
@@ -53262,7 +53262,7 @@ CallIndirectId
 :
 forFunc
 (
-moduleEnv
+moduleMeta
 func
 .
 index
@@ -53485,9 +53485,9 @@ wasm
 IonDumpFunction
 (
 const
-ModuleEnvironment
+ModuleMetadata
 &
-moduleEnv
+moduleMeta
 const
 FuncCompileInput
 &
@@ -53545,7 +53545,7 @@ if
 DecodeLocalEntriesWithParams
 (
 d
-moduleEnv
+moduleMeta
 func
 .
 index
@@ -53613,7 +53613,7 @@ if
 IonBuildMIR
 (
 d
-moduleEnv
+moduleMeta
 func
 locals
 mir
