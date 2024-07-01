@@ -212,13 +212,6 @@ cmp
 .
 6
 "
-lazy_static
-=
-"
-1
-.
-2
-"
 libc
 =
 "
