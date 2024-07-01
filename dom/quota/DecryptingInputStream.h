@@ -512,6 +512,11 @@ EnsureBuffers
 (
 )
 ;
+nsresult
+EnsureDecryptedStreamSize
+(
+)
+;
 CipherStrategy
 mCipherStrategy
 ;
@@ -552,6 +557,13 @@ nsTArray
 uint8_t
 >
 mPlainBuffer
+;
+LazyInitializedOnce
+<
+const
+int64_t
+>
+mDecryptedStreamSize
 ;
 }
 ;
