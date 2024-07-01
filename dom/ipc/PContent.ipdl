@@ -1645,9 +1645,6 @@ PerformanceTiming
 h
 "
 ;
-[
-RefCounted
-]
 using
 mozilla
 :
@@ -1655,7 +1652,7 @@ mozilla
 dom
 :
 :
-FeaturePolicy
+MaybeFeaturePolicyInfo
 from
 "
 mozilla
@@ -11756,9 +11753,8 @@ SetContainerFeaturePolicy
 (
 MaybeDiscardedBrowsingContext
 aContainerContext
-nullable
-FeaturePolicy
-aContainerFeaturePolicy
+MaybeFeaturePolicyInfo
+aContainerFeaturePolicyInfo
 )
 ;
 /

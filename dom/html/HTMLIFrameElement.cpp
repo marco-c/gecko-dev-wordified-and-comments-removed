@@ -1297,7 +1297,15 @@ cc
 SendSetContainerFeaturePolicy
 (
 browsingContext
+Some
+(
 mFeaturePolicy
+-
+>
+ToFeaturePolicyInfo
+(
+)
+)
 )
 ;
 }

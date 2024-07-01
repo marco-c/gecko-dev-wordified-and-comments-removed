@@ -8353,6 +8353,11 @@ ContentChild
 GetSingleton
 (
 )
+;
+cc
+&
+&
+featurePolicy
 )
 {
 Unused
@@ -8364,7 +8369,15 @@ cc
 SendSetContainerFeaturePolicy
 (
 browsingContext
+Some
+(
 featurePolicy
+-
+>
+ToFeaturePolicyInfo
+(
+)
+)
 )
 ;
 }

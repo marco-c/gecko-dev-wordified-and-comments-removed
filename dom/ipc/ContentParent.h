@@ -6403,9 +6403,10 @@ const
 MaybeDiscardedBrowsingContext
 &
 aContainerContext
-FeaturePolicy
-*
-aContainerFeaturePolicy
+MaybeFeaturePolicyInfo
+&
+&
+aContainerFeaturePolicyInfo
 )
 ;
 mozilla
