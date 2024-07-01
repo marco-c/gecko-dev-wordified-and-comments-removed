@@ -1634,16 +1634,6 @@ cb
 ;
 extern
 JS_PUBLIC_API
-void
-DisableIncrementalGC
-(
-JSContext
-*
-cx
-)
-;
-extern
-JS_PUBLIC_API
 bool
 IsIncrementalGCEnabled
 (

@@ -660,14 +660,6 @@ func_
 }
 }
 ;
-GCAbortReason
-IsIncrementalGCUnsafe
-(
-JSRuntime
-*
-rt
-)
-;
 #
 ifdef
 JS_GC_ZEAL
