@@ -41,6 +41,15 @@ include
 "
 wasm
 /
+WasmBinary
+.
+h
+"
+#
+include
+"
+wasm
+/
 WasmBuiltinModule
 .
 h
@@ -50,7 +59,7 @@ include
 "
 wasm
 /
-WasmUtility
+WasmMetadata
 .
 h
 "
@@ -59,7 +68,7 @@ include
 "
 wasm
 /
-WasmValidate
+WasmUtility
 .
 h
 "
