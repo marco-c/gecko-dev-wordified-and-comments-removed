@@ -298,6 +298,14 @@ value
 }
 )
 ;
+content
+.
+document
+.
+notifyUserGestureActivation
+(
+)
+;
 input
 .
 focus

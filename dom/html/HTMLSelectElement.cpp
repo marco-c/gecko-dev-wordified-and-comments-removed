@@ -895,6 +895,15 @@ rendered
 )
 ;
 }
+OwnerDoc
+(
+)
+-
+>
+ConsumeTransientUserGestureActivation
+(
+)
+;
 #
 if
 !
