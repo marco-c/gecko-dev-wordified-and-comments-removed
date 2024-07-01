@@ -3731,7 +3731,6 @@ group
 .
 test_type
                 
--
 sum
 (
 test
@@ -3746,6 +3745,9 @@ group
 )
             
 )
+reverse
+=
+True
 )
         
 for
