@@ -169,9 +169,9 @@ Action
 (
 private
 val
-storeThreadFactory
+storeDispatcher
 :
-StoreThreadFactory
+StoreDispatcher
 private
 val
 reducer
@@ -404,7 +404,7 @@ next
 action
 -
 >
-storeThreadFactory
+storeDispatcher
 .
 assertOnThread
 (
