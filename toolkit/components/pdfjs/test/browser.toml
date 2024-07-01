@@ -26,6 +26,13 @@ js
 ]
 [
 "
+browser_pdfjs_chrome_events
+.
+js
+"
+]
+[
+"
 browser_pdfjs_download_button
 .
 js
