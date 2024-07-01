@@ -142,6 +142,12 @@ JS
 AutoGCRooter
 ;
 using
+JS
+:
+:
+SliceBudget
+;
+using
 RootRange
 =
 RootedValueMap

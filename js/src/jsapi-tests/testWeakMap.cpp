@@ -1587,13 +1587,13 @@ runtime
 (
 )
 ;
-js
+JS
 :
 :
 SliceBudget
 budget
 (
-js
+JS
 :
 :
 WorkBudget

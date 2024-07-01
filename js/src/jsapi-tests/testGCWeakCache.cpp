@@ -1791,9 +1791,15 @@ cx
 zone
 )
 ;
+JS
+:
+:
 SliceBudget
 budget
 (
+JS
+:
+:
 WorkBudget
 (
 1
@@ -1893,6 +1899,9 @@ GCReason
 :
 :
 API
+JS
+:
+:
 SliceBudget
 :
 :
