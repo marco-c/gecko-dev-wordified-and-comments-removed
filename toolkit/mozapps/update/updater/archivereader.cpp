@@ -702,7 +702,6 @@ return
 ARCHIVE_READER_MEM_ERROR
 ;
 }
-else
 if
 (
 result
@@ -981,8 +980,6 @@ strm
 enum
 xz_ret
 xz_rv
-=
-XZ_OK
 ;
 struct
 xz_dec
