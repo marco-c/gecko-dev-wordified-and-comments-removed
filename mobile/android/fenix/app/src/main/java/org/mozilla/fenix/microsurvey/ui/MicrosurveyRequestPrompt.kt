@@ -317,6 +317,16 @@ fenix
 .
 compose
 .
+Divider
+import
+org
+.
+mozilla
+.
+fenix
+.
+compose
+.
 annotation
 .
 LightDarkPreview
@@ -529,6 +539,11 @@ it
 )
 {
 Column
+{
+Divider
+(
+)
+Column
 (
 modifier
 =
@@ -593,6 +608,7 @@ micro_survey_continue_button_label
 onStartSurveyClicked
 (
 )
+}
 }
 }
 }
