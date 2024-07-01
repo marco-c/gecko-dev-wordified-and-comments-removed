@@ -17873,7 +17873,7 @@ lengthValue
 length
 -
 >
-GetAnimValueWithZoom
+GetAnimValue
 (
 tp
 )
@@ -19267,7 +19267,7 @@ expectedTextLength
 textLengthAttr
 -
 >
-GetAnimValueWithZoom
+GetAnimValue
 (
 element
 )

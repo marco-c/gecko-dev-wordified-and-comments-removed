@@ -845,8 +845,6 @@ uint8_t
 aUnitType
 uint8_t
 aAxis
-bool
-aApplyZoom
 )
 {
 auto
@@ -1217,11 +1215,6 @@ aUnitType
 (
 )
 ;
-if
-(
-aApplyZoom
-)
-{
 switch
 (
 zoomType
@@ -1275,7 +1268,6 @@ GetRootZoom
 ;
 break
 ;
-}
 }
 return
 value

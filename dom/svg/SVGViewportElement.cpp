@@ -460,7 +460,7 @@ GetAnimValInSpecifiedUnits
 return
 aLength
 .
-GetAnimValueWithZoom
+GetAnimValue
 (
 aSelf
 )
@@ -650,7 +650,7 @@ mLengthAttributes
 ATTR_WIDTH
 ]
 .
-GetAnimValueWithZoom
+GetAnimValue
 (
 metrics
 )
@@ -662,7 +662,7 @@ mLengthAttributes
 ATTR_HEIGHT
 ]
 .
-GetAnimValueWithZoom
+GetAnimValue
 (
 metrics
 )
@@ -991,7 +991,7 @@ mLengthAttributes
 ATTR_WIDTH
 ]
 .
-GetAnimValueWithZoom
+GetAnimValue
 (
 metrics
 )
@@ -1009,7 +1009,7 @@ mLengthAttributes
 ATTR_HEIGHT
 ]
 .
-GetAnimValueWithZoom
+GetAnimValue
 (
 metrics
 )

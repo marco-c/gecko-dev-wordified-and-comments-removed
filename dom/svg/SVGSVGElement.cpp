@@ -1778,7 +1778,7 @@ mLengthAttributes
 aAttr
 ]
 .
-GetAnimValueWithZoom
+GetAnimValue
 (
 this
 )
