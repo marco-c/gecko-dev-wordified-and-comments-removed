@@ -7068,7 +7068,7 @@ const
 uint32_t
 RANGE_SIZE_CUTOFF
 =
-1000000
+250000
 ;
 if
 (
