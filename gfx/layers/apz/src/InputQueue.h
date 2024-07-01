@@ -152,17 +152,6 @@ aHandledResult
 )
 >
 ;
-struct
-InputBlockCallbackInfo
-{
-nsEventStatus
-mEagerStatus
-;
-InputBlockCallback
-mCallback
-;
-}
-;
 class
 InputQueue
 {
@@ -363,7 +352,7 @@ AddInputBlockCallback
 (
 uint64_t
 aInputBlockId
-InputBlockCallbackInfo
+InputBlockCallback
 &
 &
 aCallback
@@ -730,7 +719,7 @@ std
 unordered_map
 <
 uint64_t
-InputBlockCallbackInfo
+InputBlockCallback
 >
 ;
 InputBlockCallbackMap
