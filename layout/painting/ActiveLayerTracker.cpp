@@ -1383,10 +1383,15 @@ return
 true
 ;
 }
-nsPIDOMWindowInner
+nsGlobalWindowInner
 *
 win
 =
+nsGlobalWindowInner
+:
+:
+Cast
+(
 aPresContext
 -
 >
@@ -1397,6 +1402,7 @@ Document
 >
 GetInnerWindow
 (
+)
 )
 ;
 return
