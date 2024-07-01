@@ -817,6 +817,14 @@ topSitesUseCase
 .
 removeTopSites
 val
+topSitesMaxLimit
+=
+components
+.
+settings
+.
+topSitesMaxLimit
+val
 printContentUseCase
 =
 components
@@ -934,6 +942,9 @@ addPinnedSiteUseCase
 removePinnedSitesUseCase
 =
 removePinnedSiteUseCase
+topSitesMaxLimit
+=
+topSitesMaxLimit
 scope
 =
 coroutineScope
