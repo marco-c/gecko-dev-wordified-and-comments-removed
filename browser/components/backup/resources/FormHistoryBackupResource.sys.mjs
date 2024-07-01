@@ -131,6 +131,9 @@ profilePath
 PathUtils
 .
 profileDir
+_isEncrypting
+=
+false
 )
 {
 await

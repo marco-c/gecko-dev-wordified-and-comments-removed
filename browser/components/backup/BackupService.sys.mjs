@@ -5318,6 +5318,7 @@ backup
 (
 resourcePath
 profilePath
+encryptionEnabled
 )
 ;
 if
