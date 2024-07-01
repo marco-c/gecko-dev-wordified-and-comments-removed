@@ -73,13 +73,6 @@ js
 ]
 [
 "
-test_TabManager
-.
-js
-"
-]
-[
-"
 test_UUID
 .
 js
