@@ -250,6 +250,17 @@ name
 args
 )
 {
+if
+(
+!
+this
+.
+commFun
+)
+{
+return
+;
+}
 try
 {
 args

@@ -5909,6 +5909,15 @@ invert
 )
 ;
 }
+&
+.
+copyAll
+{
+cursor
+:
+wait
+;
+}
 .
 canvasWrapper
 {
