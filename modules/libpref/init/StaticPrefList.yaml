@@ -66466,16 +66466,9 @@ defined
 (
 ANDROID
 )
-&
-&
-!
-defined
-(
-NIGHTLY_BUILD
-)
 value
 :
-true
+IS_NOT_EARLY_BETA_OR_EARLIER
 #
 else
 value
