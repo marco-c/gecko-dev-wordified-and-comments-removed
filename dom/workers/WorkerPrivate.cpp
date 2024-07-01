@@ -14946,11 +14946,11 @@ Create
 (
 )
 ;
-if
+MOZ_ASSERT_DEBUG_OR_FUZZING
 (
 mRemoteWorkerNonLifeCycleOpController
 )
-{
+;
 mChildEp
 .
 Bind
@@ -14958,7 +14958,6 @@ Bind
 mRemoteWorkerNonLifeCycleOpController
 )
 ;
-}
 }
 mPreStartRunnables
 .
@@ -23177,6 +23176,10 @@ mRemoteWorkerNonLifeCycleOpController
 TransistionStateToKilled
 (
 )
+;
+mRemoteWorkerNonLifeCycleOpController
+=
+nullptr
 ;
 }
 WorkerGlobalScope
