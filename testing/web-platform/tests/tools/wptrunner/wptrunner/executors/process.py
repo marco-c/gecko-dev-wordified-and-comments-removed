@@ -70,6 +70,9 @@ setup
 (
 self
 runner
+protocol
+=
+None
 )
 :
         

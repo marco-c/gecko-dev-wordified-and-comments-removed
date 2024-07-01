@@ -36,14 +36,6 @@ from
 .
 executors
 .
-executorwebdriver
-import
-WebDriverCrashtestExecutor
-from
-.
-.
-executors
-.
 base
 import
 WdspecExecutor
@@ -61,6 +53,8 @@ ChromeDriverPrintRefTestExecutor
 ChromeDriverRefTestExecutor
     
 ChromeDriverTestharnessExecutor
+    
+ChromeDriverCrashTestExecutor
 )
 __wptrunner__
 =
@@ -133,7 +127,7 @@ crashtest
 "
 :
 "
-WebDriverCrashtestExecutor
+ChromeDriverCrashTestExecutor
 "
 }
                  
@@ -1377,6 +1371,39 @@ ChromeBrowser
 WebDriverBrowser
 )
 :
+    
+def
+restart_on_test_type_change
+(
+self
+new_test_type
+:
+str
+old_test_type
+:
+str
+)
+-
+>
+bool
+:
+        
+if
+"
+wdspec
+"
+in
+[
+old_test_type
+new_test_type
+]
+:
+            
+return
+True
+        
+return
+False
     
 def
 make_command

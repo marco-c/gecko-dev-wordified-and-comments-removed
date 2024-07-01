@@ -6313,6 +6313,9 @@ setup
 (
 self
 runner
+protocol
+=
+None
 )
 :
         
@@ -6323,6 +6326,7 @@ super
 setup
 (
 runner
+protocol
 )
         
 for
@@ -7225,6 +7229,9 @@ setup
 (
 self
 runner
+protocol
+=
+None
 )
 :
         
@@ -7235,6 +7242,7 @@ super
 setup
 (
 runner
+protocol
 )
         
 for
@@ -9037,6 +9045,9 @@ setup
 (
 self
 runner
+protocol
+=
+None
 )
 :
         
@@ -9047,6 +9058,7 @@ super
 setup
 (
 runner
+protocol
 )
         
 if

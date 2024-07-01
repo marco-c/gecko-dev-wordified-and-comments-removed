@@ -1208,6 +1208,16 @@ vendor_prefix
 goog
 "
 class
+ChromeDriverCrashTestExecutor
+(
+WebDriverCrashtestExecutor
+)
+:
+    
+protocol_cls
+=
+ChromeDriverProtocol
+class
 ChromeDriverRefTestExecutor
 (
 WebDriverRefTestExecutor
@@ -1271,6 +1281,9 @@ setup
 (
 self
 runner
+protocol
+=
+None
 )
 :
         
@@ -1281,6 +1294,7 @@ super
 setup
 (
 runner
+protocol
 )
         
 params
@@ -1344,6 +1358,9 @@ setup
 (
 self
 runner
+protocol
+=
+None
 )
 :
         
@@ -1354,6 +1371,7 @@ super
 setup
 (
 runner
+protocol
 )
         
 self
