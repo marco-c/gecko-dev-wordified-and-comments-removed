@@ -767,16 +767,6 @@ mScheduler
 .
 NoteCCBegin
 (
-CCReason
-:
-:
-API
-Now
-(
-)
-0
-sSuspected
-0
 )
 ;
 RunSlices
@@ -934,9 +924,6 @@ NoteCCEnd
 (
 results
 Now
-(
-)
-TimeDuration
 (
 )
 )
