@@ -12186,7 +12186,10 @@ const
 bool
 isRTL
 =
-IsPopupDirectionRTL
+popupFrame
+-
+>
+IsDirectionRTL
 (
 )
 ;
@@ -12238,14 +12241,6 @@ GetPopupAnchor
 if
 (
 isRTL
-&
-&
-(
-anchored
-|
-|
-isTopContextMenu
-)
 )
 {
 popupAlign
