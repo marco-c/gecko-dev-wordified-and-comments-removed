@@ -64557,10 +64557,15 @@ type
 RelaxedAtomicBool
 #
 if
-!
 defined
 (
-MOZ_WIDGET_ANDROID
+MOZ_WIDGET_GTK
+)
+|
+|
+defined
+(
+XP_WIN
 )
 value
 :

@@ -669,10 +669,7 @@ CreateExtraData
 (
 aProfile
 aConstraints
-H264_LEVEL
-{
 aLevel
-}
 aSize
 )
 ;
