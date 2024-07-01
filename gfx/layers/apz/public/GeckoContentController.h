@@ -435,6 +435,17 @@ aIsRootContent
 )
 {
 }
+virtual
+void
+HideDynamicToolbar
+(
+const
+ScrollableLayerGuid
+&
+aGuid
+)
+{
+}
 GeckoContentController
 (
 )

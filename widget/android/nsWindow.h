@@ -484,6 +484,11 @@ float
 aY
 )
 ;
+void
+HideDynamicToolbar
+(
+)
+;
 mozilla
 :
 :

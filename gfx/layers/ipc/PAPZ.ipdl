@@ -313,6 +313,11 @@ aIsRootContent
 )
 ;
 async
+HideDynamicToolbar
+(
+)
+;
+async
 NotifyMozMouseScrollEvent
 (
 ViewID

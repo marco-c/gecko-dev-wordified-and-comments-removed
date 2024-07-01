@@ -216,6 +216,16 @@ aIsRootContent
 override
 ;
 void
+HideDynamicToolbar
+(
+const
+ScrollableLayerGuid
+&
+aGuid
+)
+override
+;
+void
 NotifyMozMouseScrollEvent
 (
 const

@@ -9666,6 +9666,17 @@ UiThread
 default
 public
 void
+onHideDynamicToolbar
+(
+NonNull
+GeckoSession
+)
+;
+method
+UiThread
+default
+public
+void
 onKill
 (
 NonNull
