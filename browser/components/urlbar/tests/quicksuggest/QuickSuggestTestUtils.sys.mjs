@@ -1940,17 +1940,7 @@ rustBackend
 .
 _test_setRemoteSettingsConfig
 (
-new
-lazy
-.
-RemoteSettingsConfig
-(
 {
-collectionName
-:
-"
-quicksuggest
-"
 bucketName
 :
 "
@@ -1969,7 +1959,6 @@ toString
 (
 )
 }
-)
 )
 ;
 /
