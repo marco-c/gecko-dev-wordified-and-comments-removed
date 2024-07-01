@@ -89,6 +89,10 @@ hebrew
 ;
 pub
 mod
+hebrew_keviyah
+;
+pub
+mod
 helpers
 ;
 pub

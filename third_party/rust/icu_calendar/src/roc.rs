@@ -18,6 +18,7 @@ CalendarError
 Date
 DateTime
 Iso
+Time
 }
 ;
 use
@@ -929,9 +930,6 @@ day
 )
 ?
 time
-:
-types
-:
 :
 Time
 :

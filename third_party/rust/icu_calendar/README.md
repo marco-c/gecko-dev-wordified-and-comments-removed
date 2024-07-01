@@ -745,11 +745,8 @@ types
 :
 :
 IsoWeekday
-types
-:
-:
-Time
 DateTime
+Time
 }
 ;
 /

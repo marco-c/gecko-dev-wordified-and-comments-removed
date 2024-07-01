@@ -13225,7 +13225,7 @@ unwrap_or_else
 Self
 :
 :
-calculate_lunar_phase_at_or_before
+calculate_new_moon_at_or_before
 (
 date
 )
@@ -13335,7 +13335,7 @@ unwrap_or_else
 Self
 :
 :
-calculate_lunar_phase_at_or_before
+calculate_new_moon_at_or_before
 (
 date
 )
@@ -13409,7 +13409,7 @@ visible_crescent
 }
 pub
 fn
-calculate_lunar_phase_at_or_before
+calculate_new_moon_at_or_before
 (
 date
 :

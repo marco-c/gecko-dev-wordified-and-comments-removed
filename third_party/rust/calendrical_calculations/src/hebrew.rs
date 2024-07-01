@@ -36,6 +36,10 @@ core_maths
 :
 *
 ;
+pub
+(
+crate
+)
 const
 FIXED_HEBREW_EPOCH
 :

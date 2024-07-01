@@ -40,6 +40,7 @@ Date
 DateDuration
 DateDurationUnit
 DateTime
+Time
 }
 ;
 use
@@ -875,9 +876,6 @@ day
 )
 ?
 time
-:
-types
-:
 :
 Time
 :
