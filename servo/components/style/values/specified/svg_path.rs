@@ -371,12 +371,6 @@ gecko_bindings
 structs
 :
 :
-dom
-:
-:
-SVGPathSeg_Binding
-:
-:
 *
 ;
 use

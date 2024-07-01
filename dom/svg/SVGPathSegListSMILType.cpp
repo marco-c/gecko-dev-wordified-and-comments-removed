@@ -37,16 +37,6 @@ SVGPathSegUtils
 .
 h
 "
-using
-namespace
-mozilla
-:
-:
-dom
-:
-:
-SVGPathSeg_Binding
-;
 #
 define
 LARGE_ARC_FLAG_IDX

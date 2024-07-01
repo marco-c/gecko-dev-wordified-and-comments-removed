@@ -5,17 +5,6 @@ prefs
 =
 [
 "
-dom
-.
-svg
-.
-pathSeg
-.
-enabled
-=
-true
-"
-"
 layout
 .
 css
