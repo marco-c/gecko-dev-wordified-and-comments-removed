@@ -544,7 +544,7 @@ R
 .
 string
 .
-review_quality_check_close_handle_content_description
+microsurvey_close_handle_content_description
 )
 modifier
 =

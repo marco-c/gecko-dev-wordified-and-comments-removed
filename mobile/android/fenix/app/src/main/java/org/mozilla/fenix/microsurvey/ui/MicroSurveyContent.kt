@@ -612,7 +612,16 @@ icon
 )
 contentDescription
 =
-null
+stringResource
+(
+id
+=
+R
+.
+string
+.
+microsurvey_feature_icon_content_description
+)
 modifier
 =
 Modifier
