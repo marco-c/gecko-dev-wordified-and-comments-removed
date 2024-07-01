@@ -385,6 +385,11 @@ testIntString
 cpp
 "
 "
+testIsCompilableUnit
+.
+cpp
+"
+"
 testIsInsideNursery
 .
 cpp
