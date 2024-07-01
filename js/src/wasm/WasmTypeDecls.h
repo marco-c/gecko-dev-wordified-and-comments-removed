@@ -181,9 +181,6 @@ class
 CodeBlock
 ;
 class
-ModuleSegment
-;
-class
 Decoder
 ;
 class
