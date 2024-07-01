@@ -873,6 +873,13 @@ event
 detail
 .
 backupFile
+backupPassword
+:
+event
+.
+detail
+.
+backupPassword
 }
 }
 )
@@ -944,13 +951,6 @@ event
 detail
 .
 backupFile
-backupPassword
-:
-event
-.
-detail
-.
-backupPassword
 }
 }
 )
