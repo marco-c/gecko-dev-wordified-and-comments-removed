@@ -137,6 +137,10 @@ FinalResponse
 (
 uint32_t
 aResponseStatus
+const
+nsACString
+&
+aProtocolVersion
 )
 ;
 void
@@ -183,7 +187,11 @@ Maybe
 <
 uint32_t
 >
-aResponseStatus
+aResponseStatu
+const
+nsACString
+&
+aProtocolVersion
 )
 ;
 void
