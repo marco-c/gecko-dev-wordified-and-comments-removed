@@ -113,6 +113,11 @@ nsRFPService
 h
 "
 "
+nsUserCharacteristics
+.
+h
+"
+"
 RFPTargets
 .
 inc
