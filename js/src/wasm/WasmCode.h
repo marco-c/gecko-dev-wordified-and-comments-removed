@@ -2379,8 +2379,11 @@ ShareableBase
 Code
 >
 {
-UniqueCodeTier
-tier1_
+SharedCodeMetadata
+codeMeta_
+;
+SharedCodeMetadataForAsmJS
+codeMetaForAsmJS_
 ;
 mutable
 UniqueConstCodeTier
@@ -2393,11 +2396,8 @@ bool
 >
 hasTier2_
 ;
-SharedCodeMetadata
-codeMeta_
-;
-SharedCodeMetadataForAsmJS
-codeMetaForAsmJS_
+UniqueCodeTier
+tier1_
 ;
 ExclusiveData
 <
@@ -2412,8 +2412,6 @@ public
 :
 Code
 (
-UniqueCodeTier
-tier1
 const
 CodeMetadata
 &
@@ -2422,6 +2420,8 @@ const
 CodeMetadataForAsmJS
 *
 codeMetaForAsmJS
+UniqueCodeTier
+tier1
 JumpTables
 &
 &
