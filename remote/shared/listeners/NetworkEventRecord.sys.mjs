@@ -775,7 +775,6 @@ NetworkResponse
 (
 channel
 {
-rawHeaders
 fromCache
 :
 this
@@ -787,6 +786,7 @@ fromCache
 !
 !
 fromCache
+rawHeaders
 }
 )
 ;
