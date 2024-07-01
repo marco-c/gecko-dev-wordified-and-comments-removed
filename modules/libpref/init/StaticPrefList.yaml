@@ -49531,7 +49531,7 @@ mirror
 always
 set_spidermonkey_pref
 :
-startup
+always
 -
 name
 :
@@ -49617,7 +49617,7 @@ mirror
 always
 set_spidermonkey_pref
 :
-startup
+always
 -
 name
 :
@@ -49637,7 +49637,7 @@ mirror
 always
 set_spidermonkey_pref
 :
-startup
+always
 -
 name
 :
@@ -49670,7 +49670,7 @@ mirror
 always
 set_spidermonkey_pref
 :
-startup
+always
 #
 if
 defined
@@ -49725,6 +49725,9 @@ true
 mirror
 :
 always
+set_spidermonkey_pref
+:
+startup
 #
 endif
 #
@@ -49761,7 +49764,7 @@ mirror
 always
 set_spidermonkey_pref
 :
-startup
+always
 -
 name
 :
@@ -49794,7 +49797,7 @@ mirror
 always
 set_spidermonkey_pref
 :
-startup
+always
 -
 name
 :
@@ -49847,7 +49850,7 @@ mirror
 always
 set_spidermonkey_pref
 :
-startup
+always
 -
 name
 :
@@ -49867,7 +49870,7 @@ mirror
 always
 set_spidermonkey_pref
 :
-startup
+always
 -
 name
 :
@@ -49887,7 +49890,7 @@ mirror
 always
 set_spidermonkey_pref
 :
-startup
+always
 -
 name
 :
