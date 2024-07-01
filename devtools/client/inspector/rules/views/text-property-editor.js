@@ -2962,6 +2962,15 @@ rule
 .
 pseudoElement
 )
+inStartingStyleRule
+:
+this
+.
+rule
+.
+isInStartingStyle
+(
+)
 }
 ;
 const

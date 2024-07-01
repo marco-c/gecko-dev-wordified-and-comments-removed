@@ -1482,6 +1482,7 @@ const
 {
 variable
 registeredProperty
+startingStyleVariable
 }
 =
 nodeInfo
@@ -1493,8 +1494,15 @@ this
 .
 _setVariablePreviewTooltip
 (
+{
+topSectionText
+:
 variable
 registeredProperty
+startingStyle
+:
+startingStyleVariable
+}
 )
 ;
 this
@@ -2136,8 +2144,7 @@ naturalHeight
 async
 _setVariablePreviewTooltip
 (
-text
-registeredProperty
+tooltipParams
 )
 {
 const
@@ -2163,8 +2170,7 @@ previewTooltip
 "
 )
 doc
-text
-registeredProperty
+tooltipParams
 )
 ;
 }
