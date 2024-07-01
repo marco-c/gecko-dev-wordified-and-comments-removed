@@ -6645,16 +6645,6 @@ dnl
 =
 =
 =
-#
-Avoid
-using
-obsolete
-NSPR
-features
-AC_DEFINE
-(
-NO_NSPR_10_SUPPORT
-)
 MOZ_CREATE_CONFIG_STATUS
 (
 )

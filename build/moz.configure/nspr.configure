@@ -583,6 +583,13 @@ lib_dir
 =
 lib_dir
 )
+set_define
+(
+"
+NO_NSPR_10_SUPPORT
+"
+True
+)
 set_config
 (
 "

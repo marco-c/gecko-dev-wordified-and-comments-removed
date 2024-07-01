@@ -5191,16 +5191,6 @@ AC_SUBST
 (
 JS_CONFIG_LIBS
 )
-#
-Avoid
-using
-obsolete
-NSPR
-features
-AC_DEFINE
-(
-NO_NSPR_10_SUPPORT
-)
 dnl
 Spit
 out
