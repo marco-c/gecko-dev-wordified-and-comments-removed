@@ -7050,7 +7050,7 @@ from
 clipboard
 .
 async
-GetClipboardAsync
+GetClipboardDataSnapshot
 (
 nsCString
 [

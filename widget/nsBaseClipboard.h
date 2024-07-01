@@ -236,7 +236,7 @@ override
 final
 ;
 NS_IMETHOD
-AsyncGetData
+GetDataSnapshot
 (
 const
 nsTArray
@@ -336,7 +336,7 @@ override
 final
 ;
 void
-AsyncGetDataInternal
+GetDataSnapshotInternal
 (
 const
 nsTArray

@@ -18322,7 +18322,7 @@ aContentParent
 ContentParent
 :
 :
-GetClipboardAsyncResolver
+GetClipboardDataSnapshotResolver
 &
 &
 aResolver
@@ -18443,7 +18443,7 @@ mContentParent
 ContentParent
 :
 :
-GetClipboardAsyncResolver
+GetClipboardDataSnapshotResolver
 mResolver
 ;
 }
@@ -18464,7 +18464,7 @@ IPCResult
 ContentParent
 :
 :
-RecvGetClipboardAsync
+RecvGetClipboardDataSnapshot
 (
 nsTArray
 <
@@ -18493,7 +18493,7 @@ nsIPrincipal
 *
 >
 aRequestingPrincipal
-GetClipboardAsyncResolver
+GetClipboardDataSnapshotResolver
 &
 &
 aResolver
@@ -18650,7 +18650,7 @@ rv
 clipboard
 -
 >
-AsyncGetData
+GetDataSnapshot
 (
 aTypes
 aWhichClipboard

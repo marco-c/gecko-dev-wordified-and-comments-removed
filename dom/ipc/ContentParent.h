@@ -3870,7 +3870,7 @@ ipc
 :
 :
 IPCResult
-RecvGetClipboardAsync
+RecvGetClipboardDataSnapshot
 (
 nsTArray
 <
@@ -3899,7 +3899,7 @@ nsIPrincipal
 *
 >
 aRequestingPrincipal
-GetClipboardAsyncResolver
+GetClipboardDataSnapshotResolver
 &
 &
 aResolver

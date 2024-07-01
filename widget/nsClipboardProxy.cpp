@@ -1060,7 +1060,7 @@ NS_IMETHODIMP
 nsClipboardProxy
 :
 :
-AsyncGetData
+GetDataSnapshot
 (
 const
 nsTArray
@@ -1151,7 +1151,7 @@ GetSingleton
 )
 -
 >
-SendGetClipboardAsync
+SendGetClipboardDataSnapshot
 (
 aFlavorList
 aWhichClipboard

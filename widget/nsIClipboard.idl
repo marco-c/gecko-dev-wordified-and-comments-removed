@@ -1204,7 +1204,7 @@ errors
 *
 /
 void
-asyncGetData
+getDataSnapshot
 (
 in
 Array

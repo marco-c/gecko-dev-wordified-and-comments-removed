@@ -775,7 +775,7 @@ aClipboardType
 ;
 }
 function
-asyncGetClipboardData
+getClipboardDataSnapshot
 (
 aClipboardType
 aFormats
@@ -814,7 +814,7 @@ try
 {
 clipboard
 .
-asyncGetData
+getDataSnapshot
 (
 aFormats
 aClipboardType
@@ -891,7 +891,7 @@ e
 ok
 (
 false
-asyncGetData
+getDataSnapshot
 should
 not
 throw
