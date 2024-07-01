@@ -71,7 +71,7 @@ sameValue
 calendar
 .
 dateAddCallCount
-3
+2
 "
 rounding
 difference

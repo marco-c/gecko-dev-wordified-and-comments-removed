@@ -218,14 +218,14 @@ target
 key
 "
 "
+get
+"
+"
 target
 -
 key
 -
 tostring
-"
-"
-get
 "
 "
 set

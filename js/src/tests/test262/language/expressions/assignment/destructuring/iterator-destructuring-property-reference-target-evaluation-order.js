@@ -239,13 +239,6 @@ target
 key
 "
 "
-target
--
-key
--
-tostring
-"
-"
 iterator
 -
 step
@@ -254,6 +247,13 @@ step
 iterator
 -
 done
+"
+"
+target
+-
+key
+-
+tostring
 "
 "
 set

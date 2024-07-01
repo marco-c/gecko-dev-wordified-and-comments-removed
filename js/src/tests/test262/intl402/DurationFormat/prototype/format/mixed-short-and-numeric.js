@@ -178,6 +178,11 @@ ListFormat
 (
 locale
 {
+type
+:
+"
+unit
+"
 style
 :
 "

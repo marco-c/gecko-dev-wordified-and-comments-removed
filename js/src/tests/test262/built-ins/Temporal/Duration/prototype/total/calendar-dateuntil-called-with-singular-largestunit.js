@@ -76,6 +76,9 @@ weeks
 "
 week
 "
+"
+week
+"
 ]
 days
 :

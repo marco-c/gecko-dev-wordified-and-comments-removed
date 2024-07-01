@@ -123,6 +123,7 @@ day_duration
 ;
 for
 (
+const
 [
 unit
 duration_desc

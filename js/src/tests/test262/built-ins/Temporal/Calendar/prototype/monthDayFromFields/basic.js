@@ -57,6 +57,7 @@ stringify
 opt
 )
 ;
+let
 result
 =
 cal
@@ -238,6 +239,7 @@ daysInMonth
 =
 >
 {
+let
 result
 =
 cal

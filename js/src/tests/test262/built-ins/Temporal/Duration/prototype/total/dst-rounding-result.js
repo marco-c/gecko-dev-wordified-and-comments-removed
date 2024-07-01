@@ -20,7 +20,8 @@ Duration
 1
 0
 15
-12
+11
+30
 )
 ;
 const
@@ -60,8 +61,9 @@ relativeTo
 month
 15
 days
-12
-hours
+11
+:
+30
 should
 be
 exactly
@@ -86,6 +88,8 @@ Duration
 1
 0
 15
+0
+30
 )
 ;
 const
@@ -125,6 +129,9 @@ relativeTo
 month
 15
 days
+00
+:
+30
 should
 be
 exactly
