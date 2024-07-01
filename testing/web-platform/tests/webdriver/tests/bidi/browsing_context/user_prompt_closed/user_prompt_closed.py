@@ -367,6 +367,14 @@ accepted
 "
 :
 True
+        
+"
+type
+"
+:
+"
+alert
+"
     
 }
 pytest
@@ -529,6 +537,14 @@ accepted
 "
 :
 accept
+        
+"
+type
+"
+:
+"
+confirm
+"
     
 }
 pytest
@@ -711,6 +727,14 @@ accepted
 accept
             
 "
+type
+"
+:
+"
+prompt
+"
+            
+"
 userText
 "
 :
@@ -743,6 +767,14 @@ accepted
 "
 :
 accept
+            
+"
+type
+"
+:
+"
+prompt
+"
         
 }
 async
@@ -887,6 +919,14 @@ accepted
 "
 :
 True
+        
+"
+type
+"
+:
+"
+prompt
+"
     
 }
 pytest
@@ -1246,6 +1286,14 @@ accepted
 "
 :
 True
+        
+"
+type
+"
+:
+"
+alert
+"
     
 }
     
@@ -1532,5 +1580,13 @@ accepted
 "
 :
 True
+        
+"
+type
+"
+:
+"
+alert
+"
     
 }
