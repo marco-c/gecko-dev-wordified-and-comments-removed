@@ -129,6 +129,17 @@ subsuite
 subsuite
 .
 name
+                       
+"
+target_platform
+"
+:
+run_info_data
+[
+"
+os
+"
+]
 }
     
 if
@@ -4342,6 +4353,7 @@ server_config
 webdriver_binary
                  
 webdriver_args
+target_platform
 timeout_multiplier
 =
 1
@@ -4418,6 +4430,30 @@ self
 binary_args
 =
 binary_args
+        
+os_map
+=
+{
+"
+win
+"
+:
+"
+windows
+"
+}
+        
+self
+.
+target_platform
+=
+os_map
+.
+get
+(
+target_platform
+target_platform
+)
     
 def
 setup
@@ -4601,6 +4637,14 @@ capabilities
 self
 .
 capabilities
+                          
+"
+target_platform
+"
+:
+self
+.
+target_platform
                           
 "
 timeout_multiplier

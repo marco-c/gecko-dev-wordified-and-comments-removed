@@ -2,12 +2,6 @@ from
 tests
 .
 support
-import
-platform_name
-from
-tests
-.
-support
 .
 asserts
 import
@@ -63,6 +57,7 @@ def
 test_file_protocol
 (
 session
+target_platform
 server_config
 )
 :
@@ -77,7 +72,7 @@ doc_root
 ]
     
 if
-platform_name
+target_platform
 =
 =
 "
