@@ -1842,8 +1842,6 @@ flags
 |
 =
 URI_LOADABLE_BY_ANYONE
-|
-URI_FETCHABLE_BY_ANYONE
 ;
 }
 else
