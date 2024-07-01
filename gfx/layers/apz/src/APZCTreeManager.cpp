@@ -9781,11 +9781,6 @@ LayersId
 }
 ;
 }
-if
-(
-aOutTouchBehaviors
-)
-{
 aOutTouchBehaviors
 -
 >
@@ -9799,7 +9794,6 @@ mHitResult
 )
 )
 ;
-}
 for
 (
 size_t
@@ -9837,11 +9831,6 @@ i
 mScreenPoint
 )
 ;
-if
-(
-aOutTouchBehaviors
-)
-{
 aOutTouchBehaviors
 -
 >
@@ -9855,7 +9844,6 @@ mHitResult
 )
 )
 ;
-}
 hit
 .
 mTargetApzc
