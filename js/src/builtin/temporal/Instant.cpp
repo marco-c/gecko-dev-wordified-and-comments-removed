@@ -3001,7 +3001,7 @@ InstantSpan
 )
 ;
 return
-RoundDuration
+RoundTimeDuration
 (
 diff
 roundingIncrement

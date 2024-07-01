@@ -4359,7 +4359,7 @@ Increment
 {
 diff
 =
-RoundDuration
+RoundTimeDuration
 (
 diff
 settings
