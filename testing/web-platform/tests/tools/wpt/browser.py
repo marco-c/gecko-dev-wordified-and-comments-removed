@@ -5425,9 +5425,11 @@ com
 /
 chrome
 -
-wpt
+for
 -
-mojom
+testing
+-
+public
 /
 "
                    
@@ -5436,8 +5438,6 @@ f
 {
 chrome_version
 }
-/
-linux64
 /
 mojojs
 .
