@@ -776,6 +776,14 @@ throw
 error
 .
 reason
+?
+.
+fail
+?
+?
+error
+.
+reason
 ;
 }
 )
