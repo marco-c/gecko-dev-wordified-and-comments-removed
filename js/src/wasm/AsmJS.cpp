@@ -11894,7 +11894,6 @@ mg
 *
 args
 codeMeta_
-moduleMeta_
 &
 compilerEnv_
 nullptr
@@ -12011,6 +12010,8 @@ finishModule
 (
 *
 bytes
+moduleMeta_
+nullptr
 )
 ;
 }

@@ -3081,7 +3081,6 @@ mg
 (
 args
 codeMeta
-moduleMeta
 &
 compilerEnv
 nullptr
@@ -3141,6 +3140,7 @@ mg
 finishModule
 (
 bytecode
+moduleMeta
 listener
 )
 ;
@@ -3281,7 +3281,6 @@ mg
 (
 args
 codeMeta
-moduleMeta
 &
 compilerEnv
 cancelled
@@ -4004,7 +4003,6 @@ mg
 (
 args
 codeMeta
-moduleMeta
 &
 compilerEnv
 &
@@ -4195,6 +4193,7 @@ finishModule
 (
 *
 bytecode
+moduleMeta
 streamEnd
 .
 tier2Listener

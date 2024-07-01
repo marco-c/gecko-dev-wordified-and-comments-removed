@@ -21675,7 +21675,6 @@ mg
 *
 compileArgs
 codeMeta
-moduleMeta
 &
 compilerEnv
 nullptr
@@ -21741,6 +21740,8 @@ finishModule
 (
 *
 shareableBytes
+moduleMeta
+nullptr
 )
 ;
 if

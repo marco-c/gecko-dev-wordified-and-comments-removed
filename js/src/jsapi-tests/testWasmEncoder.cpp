@@ -447,7 +447,6 @@ mg
 *
 compileArgs
 codeMeta
-moduleMeta
 &
 compilerEnv
 nullptr
@@ -604,6 +603,8 @@ finishModule
 (
 *
 shareableBytes
+moduleMeta
+nullptr
 )
 ;
 MOZ_ALWAYS_TRUE

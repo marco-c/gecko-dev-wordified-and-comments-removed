@@ -1181,7 +1181,6 @@ mg
 *
 compileArgs
 codeMeta
-moduleMeta
 &
 compilerEnv
 nullptr
@@ -1418,6 +1417,7 @@ finishModule
 (
 *
 bytecode
+moduleMeta
 nullptr
 )
 ;
