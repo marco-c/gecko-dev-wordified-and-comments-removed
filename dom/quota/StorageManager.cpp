@@ -1703,6 +1703,12 @@ runnnable
 >
 Dispatch
 (
+promiseProxy
+-
+>
+GetWorkerPrivate
+(
+)
 Canceling
 aRv
 )
@@ -1743,6 +1749,12 @@ runnnable
 >
 Dispatch
 (
+promiseProxy
+-
+>
+GetWorkerPrivate
+(
+)
 Canceling
 aRv
 )
