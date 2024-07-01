@@ -1060,6 +1060,13 @@ js
 ]
 [
 "
+browser_set_response_override
+.
+js
+"
+]
+[
+"
 browser_speculative_connection_link_header
 .
 js
