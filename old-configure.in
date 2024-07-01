@@ -1776,15 +1776,6 @@ clang
 cl
 ;
 then
-CXXFLAGS
-=
-"
-CXXFLAGS
--
-fno
--
-exceptions
-"
 _DEFINES_CXXFLAGS
 =
 "
