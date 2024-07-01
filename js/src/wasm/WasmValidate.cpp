@@ -20909,8 +20909,8 @@ section
 )
 ;
 }
-DataSegmentEnv
-seg
+DataSegmentRange
+segRange
 ;
 if
 (
@@ -20931,7 +20931,7 @@ d
 readVarU32
 (
 &
-seg
+segRange
 .
 memoryIndex
 )
@@ -20963,7 +20963,7 @@ DataSegmentKind
 Active
 )
 {
-seg
+segRange
 .
 memoryIndex
 =
@@ -20972,7 +20972,7 @@ memoryIndex
 }
 else
 {
-seg
+segRange
 .
 memoryIndex
 =
@@ -21001,7 +21001,7 @@ ActiveWithMemoryIndex
 {
 if
 (
-seg
+segRange
 .
 memoryIndex
 >
@@ -21040,7 +21040,7 @@ moduleMeta
 >
 memories
 [
-seg
+segRange
 .
 memoryIndex
 ]
@@ -21070,7 +21070,7 @@ return
 false
 ;
 }
-seg
+segRange
 .
 offsetIfActive
 .
@@ -21094,7 +21094,7 @@ d
 readVarU32
 (
 &
-seg
+segRange
 .
 length
 )
@@ -21115,7 +21115,7 @@ size
 }
 if
 (
-seg
+segRange
 .
 length
 >
@@ -21138,7 +21138,7 @@ big
 )
 ;
 }
-seg
+segRange
 .
 bytecodeOffset
 =
@@ -21155,7 +21155,7 @@ d
 .
 readBytes
 (
-seg
+segRange
 .
 length
 )
@@ -21182,7 +21182,7 @@ if
 moduleMeta
 -
 >
-dataSegments
+dataSegmentRanges
 .
 append
 (
@@ -21191,7 +21191,7 @@ std
 :
 move
 (
-seg
+segRange
 )
 )
 )
@@ -21222,7 +21222,7 @@ Decoder
 &
 d
 const
-CustomSectionEnv
+CustomSectionRange
 &
 nameSection
 ModuleMetadata
@@ -21401,7 +21401,7 @@ Decoder
 &
 d
 const
-CustomSectionEnv
+CustomSectionRange
 &
 nameSection
 ModuleMetadata
@@ -21789,7 +21789,7 @@ Some
 moduleMeta
 -
 >
-customSections
+customSectionRanges
 .
 length
 (
@@ -21799,14 +21799,14 @@ length
 )
 ;
 const
-CustomSectionEnv
+CustomSectionRange
 &
 nameSection
 =
 moduleMeta
 -
 >
-customSections
+customSectionRanges
 .
 back
 (

@@ -173,11 +173,11 @@ tablesOffsetStart
 uint32_t
 tagsOffsetStart
 ;
-DataSegmentEnvVector
-dataSegments
+DataSegmentRangeVector
+dataSegmentRanges
 ;
-CustomSectionEnvVector
-customSections
+CustomSectionRangeVector
+customSectionRanges
 ;
 Maybe
 <
