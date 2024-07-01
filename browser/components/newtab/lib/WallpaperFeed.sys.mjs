@@ -713,7 +713,6 @@ category
 |
 |
 "
-other
 "
 }
 ;
@@ -741,6 +740,11 @@ wallpaper
 wallpaper
 .
 category
+)
+.
+filter
+(
+Boolean
 )
 )
 ]

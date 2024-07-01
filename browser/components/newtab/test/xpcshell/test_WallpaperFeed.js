@@ -488,7 +488,6 @@ attachment
 category
 :
 "
-other
 "
 }
 ]
