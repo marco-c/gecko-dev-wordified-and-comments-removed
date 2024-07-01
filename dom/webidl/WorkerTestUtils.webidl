@@ -84,5 +84,13 @@ currentTimerNestingLevel
 (
 )
 ;
+[
+Throws
+]
+boolean
+IsRunningInBackground
+(
+)
+;
 }
 ;
