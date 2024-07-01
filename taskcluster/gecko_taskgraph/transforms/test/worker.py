@@ -383,6 +383,22 @@ win10
 -
 gpu
 "
+        
+"
+hardware
+"
+:
+"
+t
+-
+win10
+-
+64
+-
+1803
+-
+hw
+"
     
 }
     
@@ -428,6 +444,22 @@ win10
 2009
 -
 gpu
+"
+        
+"
+hardware
+"
+:
+"
+t
+-
+win10
+-
+64
+-
+1803
+-
+hw
 "
     
 }
@@ -606,6 +638,20 @@ win11
 2009
 -
 gpu
+"
+        
+"
+hardware
+"
+:
+"
+win11
+-
+64
+-
+2009
+-
+hw
 "
     
 }
@@ -793,6 +839,20 @@ win11
 -
 gpu
 "
+        
+"
+hardware
+"
+:
+"
+win11
+-
+64
+-
+2009
+-
+hw
+"
     
 }
     
@@ -836,6 +896,20 @@ win11
 2009
 -
 gpu
+"
+        
+"
+hardware
+"
+:
+"
+win11
+-
+64
+-
+2009
+-
+hw
 "
     
 }
@@ -882,6 +956,20 @@ win11
 2009
 -
 gpu
+"
+        
+"
+hardware
+"
+:
+"
+win11
+-
+64
+-
+2009
+-
+hw
 "
     
 }
@@ -1305,7 +1393,17 @@ ref
                     
 ]
                 
-else
+elif
+test_platform
+.
+startswith
+(
+"
+windows10
+-
+64
+"
+)
 :
                     
 win_worker_type_platform
@@ -1317,6 +1415,26 @@ windows10
 -
 64
 "
+]
+                
+else
+:
+                    
+win_worker_type_platform
+=
+WINDOWS_WORKER_TYPES
+[
+                        
+"
+windows11
+-
+64
+-
+2009
+-
+qr
+"
+                    
 ]
             
 else
