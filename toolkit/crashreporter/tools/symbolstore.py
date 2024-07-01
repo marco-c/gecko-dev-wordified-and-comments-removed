@@ -3,8 +3,6 @@ ctypes
 import
 errno
 import
-io
-import
 os
 import
 platform
@@ -66,6 +64,10 @@ manifests
 import
 InstallManifest
 UnreadableInstallManifest
+from
+variables
+import
+get_buildid
 class
 VCSFileInfo
 :
@@ -3753,56 +3755,14 @@ MOZ_APP_BASENAME
             
 )
         
-path
-=
-os
-.
-path
-.
-join
-(
-buildconfig
-.
-topobjdir
-"
-buildid
-.
-h
-"
-)
-        
 try
 :
             
 buildid
 =
-io
-.
-open
-(
-path
-"
-r
-"
-encoding
-=
-"
-utf
--
-8
-"
-)
-.
-read
+get_buildid
 (
 )
-.
-split
-(
-)
-[
-2
-]
             
 cmdline
 .
