@@ -264,6 +264,13 @@ bug
 ]
 [
 "
+test_autofill_ios_library
+.
+js
+"
+]
+[
+"
 test_collectFormFields
 .
 js
