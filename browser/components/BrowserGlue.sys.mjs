@@ -3683,6 +3683,17 @@ wantUntrusted
 :
 true
 }
+"
+BackupUI
+:
+ToggleEncryption
+"
+:
+{
+wantUntrusted
+:
+true
+}
 }
 }
 matches

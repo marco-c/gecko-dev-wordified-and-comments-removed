@@ -38,6 +38,17 @@ enabled
 false
 "
 ]
+support
+-
+files
+=
+[
+"
+head
+.
+js
+"
+]
 [
 "
 browser_settings
