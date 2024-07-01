@@ -34,8 +34,9 @@ t
 async_test
 (
 "
-canvas
-is
+Canvas
+objects
+are
 readonly
 "
 )
@@ -101,7 +102,7 @@ getContext
 )
 ;
 var
-offscreenCanvas2
+canvas2
 =
 new
 OffscreenCanvas
@@ -119,10 +120,10 @@ canvas
 ;
 _assertDifferent
 (
-offscreenCanvas2
+canvas2
 d
 "
-offscreenCanvas2
+canvas2
 "
 "
 d
@@ -133,7 +134,7 @@ ctx
 .
 canvas
 =
-offscreenCanvas2
+canvas2
 ;
 _assertSame
 (
