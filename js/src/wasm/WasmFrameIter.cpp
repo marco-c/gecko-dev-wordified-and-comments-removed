@@ -1677,15 +1677,9 @@ funcIndex
 code_
 -
 >
-codeBlock
-(
-Tier
-:
-:
-Debug
-)
-.
 funcImports
+(
+)
 .
 length
 (
