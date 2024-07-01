@@ -62693,6 +62693,16 @@ IsEmpty
 return
 ;
 }
+if
+(
+ForceLoadAtTop
+(
+)
+)
+{
+return
+;
+}
 NS_ConvertUTF8toUTF16
 ref
 (
