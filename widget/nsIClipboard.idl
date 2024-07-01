@@ -518,7 +518,7 @@ fa0796d9652c
 )
 ]
 interface
-nsIAsyncClipboardGetCallback
+nsIClipboardGetDataSnapshotCallback
 :
 nsISupports
 {
@@ -1222,7 +1222,7 @@ in
 nsIPrincipal
 aRequestingPrincipal
 in
-nsIAsyncClipboardGetCallback
+nsIClipboardGetDataSnapshotCallback
 aCallback
 )
 ;

@@ -422,7 +422,7 @@ class
 ClipboardGetCallback
 :
 public
-nsIAsyncClipboardGetCallback
+nsIClipboardGetDataSnapshotCallback
 {
 public
 :
@@ -792,7 +792,7 @@ mGlobal
 NS_IMPL_ISUPPORTS
 (
 ClipboardGetCallbackForRead
-nsIAsyncClipboardGetCallback
+nsIClipboardGetDataSnapshotCallback
 )
 class
 ClipboardGetCallbackForReadText
@@ -1132,7 +1132,7 @@ mTransferable
 NS_IMPL_ISUPPORTS
 (
 ClipboardGetCallbackForReadText
-nsIAsyncClipboardGetCallback
+nsIClipboardGetDataSnapshotCallback
 nsIAsyncClipboardRequestCallback
 )
 }

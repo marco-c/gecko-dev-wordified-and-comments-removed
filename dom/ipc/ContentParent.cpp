@@ -18310,7 +18310,7 @@ ClipboardGetCallback
 final
 :
 public
-nsIAsyncClipboardGetCallback
+nsIClipboardGetDataSnapshotCallback
 {
 public
 :
@@ -18451,7 +18451,7 @@ mResolver
 NS_IMPL_ISUPPORTS
 (
 ClipboardGetCallback
-nsIAsyncClipboardGetCallback
+nsIClipboardGetDataSnapshotCallback
 )
 }
 mozilla

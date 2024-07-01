@@ -1083,7 +1083,7 @@ aRequestingWindowContext
 nsIPrincipal
 *
 aRequestingPrincipal
-nsIAsyncClipboardGetCallback
+nsIClipboardGetDataSnapshotCallback
 *
 aCallback
 )
