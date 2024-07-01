@@ -52812,7 +52812,6 @@ WasmMacroAssembler
 masm
 (
 alloc
-moduleMeta
 )
 ;
 #

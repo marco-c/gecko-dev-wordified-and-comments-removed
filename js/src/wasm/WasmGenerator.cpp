@@ -411,8 +411,6 @@ lifo_
 masm_
 (
 masmAlloc_
-*
-moduleMeta
 false
 )
 debugTrapCodeOffset_

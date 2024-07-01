@@ -62752,7 +62752,6 @@ WasmMacroAssembler
 masm
 (
 alloc
-moduleMeta
 )
 ;
 MOZ_ASSERT
