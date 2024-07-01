@@ -255,3 +255,17 @@ xpcshell
 toml
 "
 ]
+MOCHITEST_MANIFESTS
++
+=
+[
+"
+test
+/
+mochitest
+/
+mochitest
+.
+toml
+"
+]

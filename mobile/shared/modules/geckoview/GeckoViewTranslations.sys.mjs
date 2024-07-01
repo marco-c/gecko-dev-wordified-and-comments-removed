@@ -307,6 +307,12 @@ translate
 (
 fromLanguage
 toLanguage
+/
+*
+reportAsAutoTranslate
+*
+/
+false
 )
 .
 then
