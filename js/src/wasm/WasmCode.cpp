@@ -1548,7 +1548,7 @@ trapOffset
 )
 {
 }
-UniqueModuleSegment
+SharedModuleSegment
 ModuleSegment
 :
 :
@@ -1611,10 +1611,7 @@ get
 )
 ;
 return
-js
-:
-:
-MakeUnique
+js_new
 <
 ModuleSegment
 >
@@ -1632,7 +1629,7 @@ linkData
 )
 ;
 }
-UniqueModuleSegment
+SharedModuleSegment
 ModuleSegment
 :
 :
@@ -1700,10 +1697,7 @@ codeLength
 )
 ;
 return
-js
-:
-:
-MakeUnique
+js_new
 <
 ModuleSegment
 >
@@ -1924,7 +1918,7 @@ get
 )
 ;
 }
-UniqueLazyStubSegment
+SharedLazyStubSegment
 LazyStubSegment
 :
 :
@@ -1964,12 +1958,10 @@ nullptr
 ;
 }
 auto
+*
 segment
 =
-js
-:
-:
-MakeUnique
+js_new
 <
 LazyStubSegment
 >
@@ -2891,7 +2883,7 @@ codeLength
 ExecutableCodePageSize
 )
 ;
-UniqueLazyStubSegment
+SharedLazyStubSegment
 newSegment
 =
 LazyStubSegment
@@ -3349,7 +3341,7 @@ false
 ;
 }
 const
-UniqueLazyStubSegment
+SharedLazyStubSegment
 &
 segment
 =
@@ -3702,7 +3694,7 @@ return
 ;
 }
 const
-UniqueLazyStubSegment
+SharedLazyStubSegment
 &
 segment
 =
@@ -3953,7 +3945,7 @@ mallocSizeOf
 for
 (
 const
-UniqueLazyStubSegment
+SharedLazyStubSegment
 &
 stub
 :
