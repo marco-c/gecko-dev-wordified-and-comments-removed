@@ -58,11 +58,11 @@ MPL
 /
 include
 protocol
-PBackground
+PFetchEventOpProxy
 ;
 include
 protocol
-PFetchEventOpProxy
+PRemoteWorkerService
 ;
 include
 DOMTypes
@@ -185,7 +185,7 @@ protocol
 PRemoteWorker
 {
 manager
-PBackground
+PRemoteWorkerService
 ;
 manages
 PFetchEventOpProxy

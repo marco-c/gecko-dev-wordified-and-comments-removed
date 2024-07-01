@@ -1500,7 +1500,7 @@ dom
 RemoteWorkerService
 :
 :
-Initialize
+InitializeParent
 (
 )
 ;

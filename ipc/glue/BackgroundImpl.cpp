@@ -2456,6 +2456,9 @@ already_AddRefed
 <
 nsISerialEventTarget
 >
+BackgroundParent
+:
+:
 GetBackgroundThread
 (
 )

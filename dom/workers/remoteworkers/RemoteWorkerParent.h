@@ -25,6 +25,9 @@ class
 RemoteWorkerController
 ;
 class
+RemoteWorkerServiceParent
+;
+class
 RemoteWorkerParent
 final
 :
@@ -68,6 +71,13 @@ void
 MaybeSendDelete
 (
 )
+;
+RemoteWorkerServiceParent
+*
+Manager
+(
+)
+const
 ;
 private
 :
