@@ -393,6 +393,9 @@ imports
 ExportVector
 exports
 ;
+ModuleElemSegmentVector
+elemSegments
+;
 DataSegmentRangeVector
 dataSegmentRanges
 ;
@@ -543,8 +546,8 @@ nameCustomSectionIndex
 FuncDescVector
 funcs
 ;
-ModuleElemSegmentVector
-elemSegments
+RefTypeVector
+elemSegmentTypes
 ;
 Uint32Vector
 asmJSSigToTableIndex

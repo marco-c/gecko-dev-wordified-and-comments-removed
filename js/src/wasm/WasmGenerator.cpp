@@ -5231,7 +5231,7 @@ const
 ShareableBytes
 &
 bytecode
-SharedModuleMetadata
+MutableModuleMetadata
 moduleMeta
 JS
 :
@@ -5708,7 +5708,7 @@ std
 :
 move
 (
-codeMeta_
+moduleMeta
 -
 >
 elemSegments
