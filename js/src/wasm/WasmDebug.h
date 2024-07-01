@@ -27,6 +27,15 @@ include
 "
 wasm
 /
+AsmJS
+.
+h
+"
+#
+include
+"
+wasm
+/
 WasmCode
 .
 h
@@ -597,7 +606,7 @@ t
 }
 const
 Metadata
-&
+*
 metadata
 (
 )
