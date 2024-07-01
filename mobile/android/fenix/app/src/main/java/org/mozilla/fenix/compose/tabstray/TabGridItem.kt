@@ -1532,7 +1532,12 @@ R
 .
 string
 .
-close_tab
+close_tab_title
+tab
+.
+content
+.
+title
 )
 tint
 =
