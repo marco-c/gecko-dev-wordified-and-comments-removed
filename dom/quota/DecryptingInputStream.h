@@ -383,6 +383,11 @@ DecryptingInputStream
 (
 )
 ;
+nsresult
+BaseStreamStatus
+(
+)
+;
 NS_IMETHOD
 Close
 (
@@ -487,6 +492,8 @@ DecryptingInputStream
 nsresult
 ParseNextChunk
 (
+bool
+aCheckAvailableBytes
 uint32_t
 *
 aBytesReadOut
@@ -502,6 +509,8 @@ uint32_t
 aCount
 uint32_t
 aMinValidCount
+bool
+aCheckAvailableBytes
 uint32_t
 *
 aBytesReadOut
