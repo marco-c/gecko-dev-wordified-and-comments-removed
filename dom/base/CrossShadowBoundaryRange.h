@@ -278,6 +278,10 @@ aOwner
 StaticRange
 (
 aNode
+RangeBoundaryIsMutationObserved
+:
+:
+Yes
 )
 mOwner
 (

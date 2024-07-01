@@ -399,6 +399,10 @@ new
 StaticRange
 (
 aNode
+RangeBoundaryIsMutationObserved
+:
+:
+No
 )
 )
 ;
@@ -718,10 +722,7 @@ mStart
 CopyFrom
 (
 aStartBoundary
-RangeBoundaryIsMutationObserved
-:
-:
-No
+mIsMutationObserved
 )
 ;
 mEnd
@@ -729,10 +730,7 @@ mEnd
 CopyFrom
 (
 aEndBoundary
-RangeBoundaryIsMutationObserved
-:
-:
-No
+mIsMutationObserved
 )
 ;
 MOZ_ASSERT
