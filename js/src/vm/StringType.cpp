@@ -13291,6 +13291,7 @@ JSLinearString
 new_
 <
 CanGC
+CharT
 >
 (
 cx
@@ -13301,7 +13302,6 @@ move
 (
 buffer
 )
-s
 length
 gc
 :
