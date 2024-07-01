@@ -1942,9 +1942,6 @@ return
 false
 ;
 }
-#
-ifndef
-DISABLE_UPDATER_AUTHENTICODE_CHECK
 return
 DoesBinaryMatchAllowedCertificates
 (
@@ -1952,13 +1949,6 @@ installDir
 updater
 )
 ;
-#
-else
-return
-true
-;
-#
-endif
 }
 BOOL
 ProcessSoftwareUpdateCommand
