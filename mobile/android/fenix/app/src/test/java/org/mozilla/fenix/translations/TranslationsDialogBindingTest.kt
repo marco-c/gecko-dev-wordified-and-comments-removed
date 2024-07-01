@@ -311,6 +311,14 @@ mockito
 .
 Mockito
 .
+times
+import
+org
+.
+mockito
+.
+Mockito
+.
 verify
 import
 org
@@ -1218,6 +1226,10 @@ true
 verify
 (
 translationsDialogStore
+times
+(
+2
+)
 )
 .
 dispatch
