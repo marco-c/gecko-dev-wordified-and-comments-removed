@@ -243,7 +243,7 @@ getState
 "
 GET
 "
-HTTPS_CONTENT_TYPE_SJS
+CONTENT_TYPE_SJS
 +
 "
 ?
@@ -322,7 +322,7 @@ getState
 "
 GET
 "
-HTTPS_CONTENT_TYPE_SJS
+CONTENT_TYPE_SJS
 +
 "
 ?
@@ -401,7 +401,7 @@ getState
 "
 GET
 "
-HTTPS_CONTENT_TYPE_SJS
+CONTENT_TYPE_SJS
 +
 "
 ?
@@ -480,7 +480,7 @@ getState
 "
 GET
 "
-HTTPS_CONTENT_TYPE_SJS
+CONTENT_TYPE_SJS
 +
 "
 ?
@@ -559,7 +559,7 @@ getState
 "
 GET
 "
-HTTPS_CONTENT_TYPE_SJS
+CONTENT_TYPE_SJS
 +
 "
 ?
@@ -639,7 +639,7 @@ getState
 "
 GET
 "
-HTTPS_TEST_IMAGE
+TEST_IMAGE
 {
 fuzzyUrl
 :
@@ -708,7 +708,7 @@ getState
 "
 GET
 "
-HTTPS_CONTENT_TYPE_SJS
+CONTENT_TYPE_SJS
 +
 "
 ?
