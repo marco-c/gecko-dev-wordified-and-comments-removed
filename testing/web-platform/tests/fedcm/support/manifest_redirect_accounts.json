@@ -14,13 +14,9 @@ py
 location
 =
 /
-credential
--
-management
+fedcm
 /
 support
-/
-fedcm
 /
 accounts
 .

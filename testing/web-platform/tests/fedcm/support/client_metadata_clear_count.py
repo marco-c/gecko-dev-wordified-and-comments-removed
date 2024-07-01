@@ -30,13 +30,9 @@ client_metadata_url
 =
 "
 /
-credential
--
-management
+fedcm
 /
 support
-/
-fedcm
 /
 client_metadata
 .

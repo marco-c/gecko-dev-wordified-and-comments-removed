@@ -89,13 +89,9 @@ https
 1
 }
 /
-credential
--
-management
+fedcm
 /
 support
-/
-fedcm
 /
 manifest
 .
