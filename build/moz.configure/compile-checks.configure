@@ -1400,14 +1400,6 @@ host_cxxflags
 =
 [
 ]
-cmflags
-=
-[
-]
-cmmflags
-=
-[
-]
 )
 template
 def
