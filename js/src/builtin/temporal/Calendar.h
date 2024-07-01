@@ -126,12 +126,6 @@ CalendarId
 int32_t
 {
 ISO8601
-#
-if
-defined
-(
-MOZ_ICU4X
-)
 Buddhist
 Chinese
 Coptic
@@ -149,8 +143,6 @@ IslamicUmmAlQura
 Japanese
 Persian
 ROC
-#
-endif
 }
 ;
 inline
@@ -163,12 +155,6 @@ CalendarId
 :
 :
 ISO8601
-#
-if
-defined
-(
-MOZ_ICU4X
-)
 CalendarId
 :
 :
@@ -237,8 +223,6 @@ CalendarId
 :
 :
 ROC
-#
-endif
 }
 ;
 constexpr
