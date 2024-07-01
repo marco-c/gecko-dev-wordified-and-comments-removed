@@ -4169,6 +4169,11 @@ mWillReadFrequently
 false
 ;
 bool
+mForceSoftwareRendering
+=
+false
+;
+bool
 mHasShutdown
 =
 false

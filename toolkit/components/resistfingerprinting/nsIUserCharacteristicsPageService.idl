@@ -63,6 +63,13 @@ nsISupports
 .
 idl
 "
+#
+include
+"
+nsIPrincipal
+.
+idl
+"
 webidl
 BrowsingContext
 ;
@@ -110,6 +117,9 @@ collection
 Promise
 createContentPage
 (
+in
+nsIPrincipal
+principal
 )
 ;
 /
