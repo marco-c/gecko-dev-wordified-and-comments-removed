@@ -66,8 +66,6 @@ fenix
 components
 .
 toolbar
-.
-navbar
 import
 androidx
 .

@@ -229,7 +229,7 @@ components
 .
 toolbar
 .
-ToolbarPosition
+ToolbarContainerView
 import
 org
 .
@@ -241,9 +241,7 @@ components
 .
 toolbar
 .
-navbar
-.
-ToolbarContainerView
+ToolbarPosition
 /
 *
 *

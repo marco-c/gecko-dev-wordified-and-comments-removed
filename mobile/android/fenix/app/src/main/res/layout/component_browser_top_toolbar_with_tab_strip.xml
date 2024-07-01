@@ -89,8 +89,6 @@ components
 .
 toolbar
 .
-navbar
-.
 ToolbarContainerView
 xmlns
 :
@@ -338,8 +336,6 @@ fenix
 components
 .
 toolbar
-.
-navbar
 .
 ToolbarContainerView
 >

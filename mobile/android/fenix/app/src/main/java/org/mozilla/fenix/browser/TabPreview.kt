@@ -243,7 +243,7 @@ components
 .
 toolbar
 .
-ToolbarPosition
+BottomToolbarContainerView
 import
 org
 .
@@ -255,9 +255,7 @@ components
 .
 toolbar
 .
-navbar
-.
-BottomToolbarContainerView
+ToolbarPosition
 import
 org
 .
