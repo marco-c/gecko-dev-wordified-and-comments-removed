@@ -1804,6 +1804,9 @@ test
 -
 provider
 "
+"
+pbNewtab
+"
 ]
 targeting
 :
