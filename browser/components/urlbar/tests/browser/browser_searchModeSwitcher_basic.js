@@ -21,9 +21,9 @@ browser
 .
 urlbar
 .
-searchModeSwitcher
+scotchBonnet
 .
-featureGate
+enableOverride
 "
 true
 ]
