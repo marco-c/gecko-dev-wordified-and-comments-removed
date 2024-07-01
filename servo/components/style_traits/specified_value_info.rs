@@ -248,10 +248,10 @@ SpecifiedValueInfo
 for
 :
 :
-servo_url
+url
 :
 :
-ServoUrl
+Url
 {
 }
 impl
