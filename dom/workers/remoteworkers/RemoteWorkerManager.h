@@ -82,9 +82,6 @@ class
 RemoteWorkerServiceParent
 ;
 class
-RemoteWorkerNonLifeCycleOpControllerParent
-;
-class
 RemoteWorkerManager
 final
 {

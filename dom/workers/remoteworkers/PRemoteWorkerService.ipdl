@@ -61,10 +61,6 @@ protocol
 PRemoteWorker
 ;
 include
-protocol
-PRemoteWorkerNonLifeCycleOpController
-;
-include
 ProtocolTypes
 ;
 include
@@ -130,11 +126,6 @@ PRemoteWorker
 (
 RemoteWorkerData
 data
-Endpoint
-<
-PRemoteWorkerNonLifeCycleOpControllerChild
->
-childEp
 )
 ;
 }
