@@ -35796,6 +35796,8 @@ supportedCountries
 "
 US
 CA
+FR
+DE
 "
 )
 ;
