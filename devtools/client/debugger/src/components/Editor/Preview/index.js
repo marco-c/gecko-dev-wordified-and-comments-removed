@@ -500,11 +500,12 @@ isTargetException
 =
 target
 .
-classList
-.
-contains
+closest
 (
+.
+{
 EXCEPTION_MARKER
+}
 )
 ;
 let
