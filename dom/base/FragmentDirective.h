@@ -288,6 +288,11 @@ TextDirective
 aTextDirectives
 =
 nullptr
+nsIURI
+*
+aURI
+=
+nullptr
 )
 ;
 private
