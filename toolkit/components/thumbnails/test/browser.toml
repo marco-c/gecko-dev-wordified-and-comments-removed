@@ -325,6 +325,13 @@ js
 ]
 [
 "
+browser_thumbnails_preserveAspectRatio
+.
+js
+"
+]
+[
+"
 browser_thumbnails_privacy
 .
 js
