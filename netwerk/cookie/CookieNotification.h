@@ -78,6 +78,10 @@ const
 nsACString
 &
 aBaseDomain
+bool
+aIsThirdParty
+=
+false
 nsIArray
 *
 aBatchDeletedCookies
@@ -100,6 +104,10 @@ aCookie
 mBaseDomain
 (
 aBaseDomain
+)
+mIsThirdParty
+(
+aIsThirdParty
 )
 mBatchDeletedCookies
 (
@@ -128,6 +136,9 @@ mCookie
 ;
 nsCString
 mBaseDomain
+;
+bool
+mIsThirdParty
 ;
 nsCOMPtr
 <

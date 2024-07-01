@@ -68,6 +68,14 @@ attribute
 ACString
 baseDomain
 ;
+[
+infallible
+]
+readonly
+attribute
+boolean
+isThirdParty
+;
 readonly
 attribute
 nsIArray

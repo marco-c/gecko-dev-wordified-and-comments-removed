@@ -9394,6 +9394,8 @@ nsIURI
 aHost
 bool
 aFromHttp
+bool
+aIsThirdParty
 const
 nsTArray
 <
@@ -9495,6 +9497,7 @@ aBaseDomain
 aOriginAttributes
 aHost
 aFromHttp
+aIsThirdParty
 aCookies
 GetBrowsingContext
 (

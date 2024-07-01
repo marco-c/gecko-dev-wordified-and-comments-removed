@@ -1613,6 +1613,8 @@ nsIURI
 aHost
 bool
 aFromHttp
+bool
+aIsThirdParty
 const
 nsTArray
 <

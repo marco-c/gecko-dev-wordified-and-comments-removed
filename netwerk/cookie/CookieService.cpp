@@ -3013,6 +3013,7 @@ currentTimeInUsec
 documentURI
 aCookieString
 false
+thirdParty
 aDocument
 -
 >
@@ -3839,6 +3840,7 @@ currentTimeInUsec
 aHostURI
 aCookieHeader
 true
+isForeignAndNotAddon
 bc
 )
 ;
@@ -4365,6 +4367,15 @@ VoidCString
 (
 )
 true
+!
+aOriginAttributes
+-
+>
+mPartitionKey
+.
+IsEmpty
+(
+)
 nullptr
 )
 ;
@@ -11543,6 +11554,8 @@ nsIURI
 aHostURI
 bool
 aFromHttp
+bool
+aIsThirdParty
 const
 nsTArray
 <
@@ -11723,6 +11736,7 @@ aHostURI
 "
 _ns
 aFromHttp
+aIsThirdParty
 aBrowsingContext
 )
 ;

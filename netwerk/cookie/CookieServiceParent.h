@@ -178,6 +178,8 @@ nsIURI
 aHost
 bool
 aFromHttp
+bool
+aIsThirdParty
 const
 nsTArray
 <
@@ -228,6 +230,8 @@ nsIURI
 aHost
 bool
 aFromHttp
+bool
+aIsThirdParty
 const
 nsTArray
 <

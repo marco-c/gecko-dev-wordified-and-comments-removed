@@ -5831,6 +5831,10 @@ const
 bool
 &
 aFromHttp
+const
+bool
+&
+aIsThirdParty
 nsTArray
 <
 CookieStruct
@@ -5917,6 +5921,7 @@ aBaseDomain
 aOriginAttributes
 aHost
 aFromHttp
+aIsThirdParty
 aCookies
 browsingContext
 )
