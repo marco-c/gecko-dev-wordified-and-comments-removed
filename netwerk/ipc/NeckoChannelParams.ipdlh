@@ -634,9 +634,6 @@ bool
 hasValidUserGestureActivation
 ;
 bool
-textDirectiveUserActivation
-;
-bool
 allowDeprecatedSystemRequests
 ;
 bool
@@ -717,9 +714,6 @@ hstsStatus
 ;
 bool
 hasValidUserGestureActivation
-;
-bool
-textDirectiveUserActivation
 ;
 bool
 allowDeprecatedSystemRequests

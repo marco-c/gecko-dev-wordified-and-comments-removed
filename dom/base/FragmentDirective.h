@@ -288,16 +288,6 @@ TextDirective
 aTextDirectives
 =
 nullptr
-nsIURI
-*
-aURI
-=
-nullptr
-)
-;
-bool
-IsTextDirectiveAllowedToBeScrolledTo
-(
 )
 ;
 private
