@@ -962,6 +962,11 @@ RandomNum
 cpp
 "
 "
+RefCounted
+.
+cpp
+"
+"
 SHA1
 .
 cpp
@@ -1110,6 +1115,14 @@ LZ4LIB_VISIBILITY
 =
 "
 "
+DEFINES
+[
+"
+MOZ_SUPPORT_LEAKCHECKING
+"
+]
+=
+True
 DIRS
 +
 =
