@@ -660,11 +660,6 @@ aParams
 )
 ;
 void
-logWarningForIgnoringNoneKeywordToConsole
-(
-)
-;
-void
 MaybeWarnAboutIgnoredSources
 (
 const
