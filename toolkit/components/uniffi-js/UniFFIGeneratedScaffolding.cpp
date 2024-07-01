@@ -442,7 +442,7 @@ RustCallStatus
 ;
 void
 *
-uniffi_suggest_fn_method_suggeststorebuilder_remote_settings_config
+uniffi_suggest_fn_method_suggeststorebuilder_remote_settings_bucket_name
 (
 void
 *
@@ -2163,11 +2163,11 @@ CallHandler
 :
 CallAsync
 (
-uniffi_suggest_fn_method_suggeststorebuilder_remote_settings_config
+uniffi_suggest_fn_method_suggeststorebuilder_remote_settings_bucket_name
 aGlobal
 aArgs
 "
-uniffi_suggest_fn_method_suggeststorebuilder_remote_settings_config
+uniffi_suggest_fn_method_suggeststorebuilder_remote_settings_bucket_name
 :
 "
 _ns
@@ -4665,12 +4665,12 @@ CallHandler
 :
 CallSync
 (
-uniffi_suggest_fn_method_suggeststorebuilder_remote_settings_config
+uniffi_suggest_fn_method_suggeststorebuilder_remote_settings_bucket_name
 aGlobal
 aArgs
 aReturnValue
 "
-uniffi_suggest_fn_method_suggeststorebuilder_remote_settings_config
+uniffi_suggest_fn_method_suggeststorebuilder_remote_settings_bucket_name
 :
 "
 _ns
