@@ -99,6 +99,13 @@ js
 ]
 [
 "
+browser_textPatterns
+.
+js
+"
+]
+[
+"
 browser_tree
 .
 js
