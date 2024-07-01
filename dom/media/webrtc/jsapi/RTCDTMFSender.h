@@ -172,6 +172,12 @@ int32_t
 aPayloadFrequency
 )
 ;
+bool
+CanInsertDTMF
+(
+)
+const
+;
 void
 InsertDTMF
 (

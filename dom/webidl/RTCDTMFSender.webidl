@@ -155,6 +155,11 @@ ontonechange
 ;
 readonly
 attribute
+boolean
+canInsertDTMF
+;
+readonly
+attribute
 DOMString
 toneBuffer
 ;
