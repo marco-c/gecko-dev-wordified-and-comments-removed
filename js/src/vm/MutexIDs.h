@@ -280,7 +280,7 @@ ThreadId
 \
 _
 (
-WasmCodeSegmentMap
+WasmCodeBlockMap
 600
 )
 \
