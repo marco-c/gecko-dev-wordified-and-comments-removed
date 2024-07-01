@@ -256,6 +256,13 @@ js
 ]
 [
 "
+browser_spotlight_default_messages
+.
+js
+"
+]
+[
+"
 browser_trigger_listeners
 .
 js
@@ -264,10 +271,3 @@ js
 https_first_disabled
 =
 true
-[
-"
-browser_spotlight_default_messages
-.
-js
-"
-]
