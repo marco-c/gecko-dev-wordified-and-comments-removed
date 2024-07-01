@@ -760,7 +760,7 @@ raise_for_status
 return
 response
 .
-content
+text
 def
 run
 (
