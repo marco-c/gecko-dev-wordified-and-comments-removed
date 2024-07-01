@@ -1473,6 +1473,7 @@ recoverFromSnapshotFolder
 stagingPath
 false
 newProfileRootPath
+null
 )
 ;
 Assert
