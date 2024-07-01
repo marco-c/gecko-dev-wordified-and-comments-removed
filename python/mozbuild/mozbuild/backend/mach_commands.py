@@ -29,6 +29,12 @@ from
 mozbuild
 import
 build_commands
+from
+mozbuild
+.
+util
+import
+cpu_count
 Command
 (
     
@@ -1615,9 +1621,6 @@ rc
 return
 rc
     
-import
-multiprocessing
-    
 from
 mozbuild
 .
@@ -1701,8 +1704,6 @@ j
         
 str
 (
-multiprocessing
-.
 cpu_count
 (
 )
@@ -1859,8 +1860,6 @@ j
             
 str
 (
-multiprocessing
-.
 cpu_count
 (
 )

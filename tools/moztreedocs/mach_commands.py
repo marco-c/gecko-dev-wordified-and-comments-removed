@@ -3,8 +3,6 @@ fnmatch
 import
 json
 import
-multiprocessing
-import
 os
 import
 re
@@ -55,6 +53,7 @@ mozbuild
 .
 util
 import
+cpu_count
 memoize
 from
 mozfile
@@ -468,8 +467,6 @@ default
 =
 str
 (
-multiprocessing
-.
 cpu_count
 (
 )

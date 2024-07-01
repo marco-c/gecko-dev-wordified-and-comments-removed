@@ -1,8 +1,6 @@
 import
 glob
 import
-multiprocessing
-import
 os
 import
 shutil
@@ -12,6 +10,12 @@ import
 sys
 import
 tempfile
+from
+mozbuild
+.
+util
+import
+cpu_count
 from
 mozpack
 import
@@ -2579,8 +2583,6 @@ jobs
 d
 "
 %
-multiprocessing
-.
 cpu_count
 (
 )

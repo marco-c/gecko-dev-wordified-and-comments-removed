@@ -48,6 +48,7 @@ mozbuild
 util
 import
 FileAvoidWrite
+cpu_count
 DEFAULT_PROCESS_COUNT
 =
 4
@@ -61,8 +62,6 @@ platform
 win32
 "
 else
-os
-.
 cpu_count
 (
 )

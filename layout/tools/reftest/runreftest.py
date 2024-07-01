@@ -13,8 +13,6 @@ harness
 import
 json
 import
-multiprocessing
-import
 os
 import
 platform
@@ -221,6 +219,13 @@ base
 import
 MozbuildObject
     
+from
+mozbuild
+.
+util
+import
+cpu_count
+    
 build_obj
 =
 MozbuildObject
@@ -238,6 +243,11 @@ ImportError
 build_obj
 =
 None
+    
+from
+multiprocessing
+import
+cpu_count
 def
 categoriesToRegex
 (
@@ -4754,8 +4764,6 @@ cmdargs
         
 cpuCount
 =
-multiprocessing
-.
 cpu_count
 (
 )

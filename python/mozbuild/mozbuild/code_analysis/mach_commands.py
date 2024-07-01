@@ -7,8 +7,6 @@ json
 import
 logging
 import
-multiprocessing
-import
 ntpath
 import
 os
@@ -95,6 +93,7 @@ mozbuild
 .
 util
 import
+cpu_count
 memoize
 def
 run_one_clang_format_batch
@@ -2178,8 +2177,6 @@ source
 )
 )
 /
-multiprocessing
-.
 cpu_count
 (
 )
@@ -3847,8 +3844,6 @@ TOOLS_UNSUPORTED_PLATFORM
     
 max_workers
 =
-multiprocessing
-.
 cpu_count
 (
 )
@@ -10462,8 +10457,6 @@ math
     
 max_workers
 =
-multiprocessing
-.
 cpu_count
 (
 )
