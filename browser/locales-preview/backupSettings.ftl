@@ -179,7 +179,7 @@ restore
 choose
 =
 Choose
-your
+backup
 file
 settings
 -
