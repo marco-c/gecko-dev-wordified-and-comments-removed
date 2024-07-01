@@ -485,11 +485,11 @@ mFlushing
 (
 false
 )
-mHasCheckedForXMLHttpRequest
+mHasCheckedForAsyncXMLHttpRequest
 (
 false
 )
-mForXMLHttpRequest
+mForAsyncXMLHttpRequest
 (
 false
 )
@@ -713,10 +713,10 @@ mMutex
 )
 ;
 bool
-mHasCheckedForXMLHttpRequest
+mHasCheckedForAsyncXMLHttpRequest
 ;
 bool
-mForXMLHttpRequest
+mForAsyncXMLHttpRequest
 ;
 nsISupports
 *

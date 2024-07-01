@@ -164,7 +164,7 @@ documentURI
 nsIContentPolicy
 :
 :
-TYPE_INTERNAL_XMLHTTPREQUEST
+TYPE_INTERNAL_XMLHTTPREQUEST_SYNC
 loaderDocument
 -
 >

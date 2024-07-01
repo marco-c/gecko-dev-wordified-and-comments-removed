@@ -974,7 +974,7 @@ secFlags
 nsIContentPolicy
 :
 :
-TYPE_INTERNAL_XMLHTTPREQUEST
+TYPE_INTERNAL_XMLHTTPREQUEST_ASYNC
 Maybe
 <
 mozilla
@@ -1062,7 +1062,7 @@ secFlags
 nsIContentPolicy
 :
 :
-TYPE_INTERNAL_XMLHTTPREQUEST
+TYPE_INTERNAL_XMLHTTPREQUEST_ASYNC
 nullptr
 nullptr
 nullptr

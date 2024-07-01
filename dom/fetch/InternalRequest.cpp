@@ -1875,7 +1875,13 @@ case
 nsIContentPolicy
 :
 :
-TYPE_INTERNAL_XMLHTTPREQUEST
+TYPE_INTERNAL_XMLHTTPREQUEST_ASYNC
+:
+case
+nsIContentPolicy
+:
+:
+TYPE_INTERNAL_XMLHTTPREQUEST_SYNC
 :
 return
 RequestDestination
