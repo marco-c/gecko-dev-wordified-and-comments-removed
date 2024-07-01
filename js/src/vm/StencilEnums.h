@@ -27,6 +27,12 @@ Destructuring
 ForOf
 ForOfIterClose
 Loop
+#
+ifdef
+ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
+Using
+#
+endif
 }
 ;
 enum

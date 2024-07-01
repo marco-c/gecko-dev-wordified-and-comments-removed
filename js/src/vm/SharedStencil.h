@@ -403,6 +403,17 @@ TryNoteKind
 :
 Destructuring
 :
+#
+ifdef
+ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
+case
+TryNoteKind
+:
+:
+Using
+:
+#
+endif
 return
 false
 ;

@@ -9245,6 +9245,17 @@ FinishTuple
 :
 #
 endif
+#
+ifdef
+ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
+case
+JSOp
+:
+:
+TryUsing
+:
+#
+endif
 return
 false
 ;
