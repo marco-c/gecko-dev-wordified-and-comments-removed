@@ -463,9 +463,9 @@ SystemAllocPolicy
 >
 ;
 const
-ModuleMetadata
+CodeMetadata
 &
-moduleMeta_
+codeMeta_
 ;
 const
 CompilerEnvironment
@@ -582,9 +582,9 @@ latentDoubleCmp_
 BaseCompiler
 (
 const
-ModuleMetadata
+CodeMetadata
 &
-moduleMeta
+codeMetadata
 const
 CompilerEnvironment
 &

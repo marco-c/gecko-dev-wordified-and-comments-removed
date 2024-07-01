@@ -1919,7 +1919,7 @@ CallIndirectId
 :
 forFunc
 (
-moduleMeta_
+codeMeta_
 func_
 .
 index
@@ -8367,7 +8367,7 @@ CallIndirectId
 :
 forFuncType
 (
-moduleMeta_
+codeMeta_
 funcTypeIndex
 )
 ;
@@ -8391,7 +8391,7 @@ TableDesc
 &
 table
 =
-moduleMeta_
+codeMeta_
 .
 tables
 [
@@ -8427,7 +8427,7 @@ CalleeDesc
 :
 wasmTable
 (
-moduleMeta_
+codeMeta_
 table
 tableIndex
 callIndirectId
@@ -8565,7 +8565,7 @@ funcType
 )
 (
 *
-moduleMeta_
+codeMeta_
 .
 types
 )
@@ -8996,7 +8996,7 @@ Instance
 :
 offsetInData
 (
-moduleMeta_
+codeMeta_
 .
 offsetOfTagInstanceData
 (
@@ -12007,7 +12007,7 @@ Instance
 :
 offsetInData
 (
-moduleMeta_
+codeMeta_
 .
 offsetOfTableInstanceData
 (
@@ -20973,7 +20973,7 @@ TagType
 tagType
 =
 *
-moduleMeta_
+codeMeta_
 .
 tags
 [
@@ -21925,7 +21925,7 @@ SharedTagType
 &
 tagType
 =
-moduleMeta_
+codeMeta_
 .
 tags
 [
@@ -23258,7 +23258,7 @@ TagDesc
 &
 tagDesc
 =
-moduleMeta_
+codeMeta_
 .
 tags
 [
@@ -24870,7 +24870,7 @@ FuncType
 funcType
 =
 *
-moduleMeta_
+codeMeta_
 .
 funcs
 [
@@ -24882,7 +24882,7 @@ type
 bool
 import
 =
-moduleMeta_
+codeMeta_
 .
 funcIsImport
 (
@@ -25012,7 +25012,7 @@ raOffset
 =
 callImport
 (
-moduleMeta_
+codeMeta_
 .
 offsetOfFuncImportInstanceData
 (
@@ -25148,7 +25148,7 @@ FuncType
 funcType
 =
 *
-moduleMeta_
+codeMeta_
 .
 funcs
 [
@@ -25160,7 +25160,7 @@ type
 bool
 import
 =
-moduleMeta_
+codeMeta_
 .
 funcIsImport
 (
@@ -25271,7 +25271,7 @@ CalleeDesc
 :
 import
 (
-moduleMeta_
+codeMeta_
 .
 offsetOfFuncImportInstanceData
 (
@@ -25411,7 +25411,7 @@ funcType
 =
 (
 *
-moduleMeta_
+codeMeta_
 .
 types
 )
@@ -25712,7 +25712,7 @@ funcType
 =
 (
 *
-moduleMeta_
+codeMeta_
 .
 types
 )
@@ -28030,7 +28030,7 @@ GlobalDesc
 &
 global
 =
-moduleMeta_
+codeMeta_
 .
 globals
 [
@@ -28526,7 +28526,7 @@ GlobalDesc
 &
 global
 =
-moduleMeta_
+codeMeta_
 .
 globals
 [
@@ -31668,7 +31668,7 @@ SASigMemCopyM64
 IndexType
 dstIndexType
 =
-moduleMeta_
+codeMeta_
 .
 memories
 [
@@ -31682,7 +31682,7 @@ indexType
 IndexType
 srcIndexType
 =
-moduleMeta_
+codeMeta_
 .
 memories
 [
@@ -32358,7 +32358,7 @@ true
 }
 if
 (
-moduleMeta_
+codeMeta_
 .
 tables
 [
@@ -32488,7 +32488,7 @@ true
 }
 if
 (
-moduleMeta_
+codeMeta_
 .
 tables
 [
@@ -33488,7 +33488,7 @@ Instance
 :
 offsetInData
 (
-moduleMeta_
+codeMeta_
 .
 offsetOfTypeDefInstanceData
 (
@@ -33560,7 +33560,7 @@ Instance
 :
 offsetInData
 (
-moduleMeta_
+codeMeta_
 .
 offsetOfSuperTypeVector
 (
@@ -35238,7 +35238,7 @@ typeDef
 =
 (
 *
-moduleMeta_
+codeMeta_
 .
 types
 )
@@ -35592,7 +35592,7 @@ typeDef
 =
 (
 *
-moduleMeta_
+codeMeta_
 .
 types
 )
@@ -35998,7 +35998,7 @@ structType
 =
 (
 *
-moduleMeta_
+codeMeta_
 .
 types
 )
@@ -36214,7 +36214,7 @@ structType
 =
 (
 *
-moduleMeta_
+codeMeta_
 .
 types
 )
@@ -36939,7 +36939,7 @@ arrayType
 =
 (
 *
-moduleMeta_
+codeMeta_
 .
 types
 )
@@ -37223,7 +37223,7 @@ arrayType
 =
 (
 *
-moduleMeta_
+codeMeta_
 .
 types
 )
@@ -37501,7 +37501,7 @@ arrayType
 =
 (
 *
-moduleMeta_
+codeMeta_
 .
 types
 )
@@ -37898,7 +37898,7 @@ arrayType
 =
 (
 *
-moduleMeta_
+codeMeta_
 .
 types
 )
@@ -38103,7 +38103,7 @@ arrayType
 =
 (
 *
-moduleMeta_
+codeMeta_
 .
 types
 )
@@ -38460,7 +38460,7 @@ TypeDef
 &
 typeDef
 =
-moduleMeta_
+codeMeta_
 .
 types
 -
@@ -39462,7 +39462,7 @@ needSuperSTV
 ?
 loadSuperTypeVector
 (
-moduleMeta_
+codeMeta_
 .
 types
 -
@@ -48320,7 +48320,7 @@ ThrowRef
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 exnrefEnabled
 (
@@ -48356,7 +48356,7 @@ TryTable
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 exnrefEnabled
 (
@@ -48532,7 +48532,7 @@ ReturnCall
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 tailCallsEnabled
 (
@@ -48568,7 +48568,7 @@ ReturnCallIndirect
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 tailCallsEnabled
 (
@@ -48609,7 +48609,7 @@ CallRef
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 gcEnabled
 (
@@ -48648,7 +48648,7 @@ ReturnCallRef
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 gcEnabled
 (
@@ -48656,7 +48656,7 @@ gcEnabled
 |
 |
 !
-moduleMeta_
+codeMeta_
 .
 tailCallsEnabled
 (
@@ -52951,7 +52951,7 @@ RefAsNonNull
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 gcEnabled
 (
@@ -52987,7 +52987,7 @@ BrOnNull
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 gcEnabled
 (
@@ -53023,7 +53023,7 @@ BrOnNonNull
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 gcEnabled
 (
@@ -53064,7 +53064,7 @@ RefEq
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 gcEnabled
 (
@@ -53171,7 +53171,7 @@ GcPrefix
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 gcEnabled
 (
@@ -53765,7 +53765,7 @@ laneIndex
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 simdAvailable
 (
@@ -58206,7 +58206,7 @@ F32x4RelaxedMadd
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 v128RelaxedEnabled
 (
@@ -58247,7 +58247,7 @@ F32x4RelaxedNmadd
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 v128RelaxedEnabled
 (
@@ -58288,7 +58288,7 @@ F64x2RelaxedMadd
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 v128RelaxedEnabled
 (
@@ -58329,7 +58329,7 @@ F64x2RelaxedNmadd
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 v128RelaxedEnabled
 (
@@ -58399,7 +58399,7 @@ I64x2RelaxedLaneSelect
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 v128RelaxedEnabled
 (
@@ -58435,7 +58435,7 @@ F32x4RelaxedMin
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 v128RelaxedEnabled
 (
@@ -58472,7 +58472,7 @@ F32x4RelaxedMax
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 v128RelaxedEnabled
 (
@@ -58509,7 +58509,7 @@ F64x2RelaxedMin
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 v128RelaxedEnabled
 (
@@ -58546,7 +58546,7 @@ F64x2RelaxedMax
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 v128RelaxedEnabled
 (
@@ -58583,7 +58583,7 @@ I32x4RelaxedTruncF32x4S
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 v128RelaxedEnabled
 (
@@ -58620,7 +58620,7 @@ I32x4RelaxedTruncF32x4U
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 v128RelaxedEnabled
 (
@@ -58657,7 +58657,7 @@ I32x4RelaxedTruncF64x2SZero
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 v128RelaxedEnabled
 (
@@ -58694,7 +58694,7 @@ I32x4RelaxedTruncF64x2UZero
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 v128RelaxedEnabled
 (
@@ -58731,7 +58731,7 @@ I8x16RelaxedSwizzle
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 v128RelaxedEnabled
 (
@@ -58768,7 +58768,7 @@ I16x8RelaxedQ15MulrS
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 v128RelaxedEnabled
 (
@@ -58805,7 +58805,7 @@ I16x8DotI8x16I7x16S
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 v128RelaxedEnabled
 (
@@ -58842,7 +58842,7 @@ I32x4DotI8x16I7x16AddS
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 v128RelaxedEnabled
 (
@@ -59312,7 +59312,7 @@ MemoryDiscard
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 memoryControlEnabled
 (
@@ -59479,7 +59479,7 @@ ThreadPrefix
 {
 if
 (
-moduleMeta_
+codeMeta_
 .
 sharedMemoryEnabled
 (
@@ -61277,7 +61277,7 @@ CallBuiltinModuleFunc
 |
 |
 !
-moduleMeta_
+codeMeta_
 .
 isBuiltinModule
 (
@@ -62207,9 +62207,9 @@ BaseCompiler
 BaseCompiler
 (
 const
-ModuleMetadata
+CodeMetadata
 &
-moduleMeta
+codeMeta
 const
 CompilerEnvironment
 &
@@ -62245,9 +62245,9 @@ StackMaps
 stackMaps
 )
 :
-moduleMeta_
+codeMeta_
 (
-moduleMeta
+codeMeta
 )
 compilerEnv_
 (
@@ -62289,7 +62289,7 @@ decoder
 )
 iter_
 (
-moduleMeta
+codeMeta
 decoder
 )
 fr
@@ -62411,7 +62411,7 @@ memoryIndex
 ;
 memoryIndex
 <
-moduleMeta_
+codeMeta_
 .
 memories
 .
@@ -62431,7 +62431,7 @@ isMem64
 memoryIndex
 )
 !
-moduleMeta_
+codeMeta_
 .
 hugeMemoryEnabled
 (
@@ -62443,7 +62443,7 @@ memoryIndex
 MOZ_ASSERT
 (
 !
-moduleMeta_
+codeMeta_
 .
 isAsmJS
 (
@@ -62681,9 +62681,9 @@ wasm
 BaselineCompileFunctions
 (
 const
-ModuleMetadata
+CodeMetadata
 &
-moduleMeta
+codeMeta
 const
 CompilerEnvironment
 &
@@ -62720,7 +62720,7 @@ Baseline
 ;
 MOZ_ASSERT
 (
-moduleMeta
+codeMeta
 .
 kind
 =
@@ -62846,7 +62846,7 @@ if
 DecodeLocalEntriesWithParams
 (
 d
-moduleMeta
+codeMeta
 func
 .
 index
@@ -62875,7 +62875,7 @@ length
 BaseCompiler
 f
 (
-moduleMeta
+codeMeta
 compilerEnv
 func
 locals

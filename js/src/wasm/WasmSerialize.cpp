@@ -5881,7 +5881,7 @@ CoderMode
 mode
 >
 CoderResult
-CodeMetadata
+CodeMetadata_
 (
 Coder
 <
@@ -6467,7 +6467,7 @@ CodeRefPtr
 MODE_DECODE
 Metadata
 &
-CodeMetadata
+CodeMetadata_
 >
 (
 coder
@@ -6691,7 +6691,7 @@ mode
 const
 Metadata
 &
-CodeMetadata
+CodeMetadata_
 >
 (
 coder
