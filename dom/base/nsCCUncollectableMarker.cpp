@@ -1028,11 +1028,10 @@ MarkForCC
 win
 -
 >
-GetTimeoutManager
+TimeoutManager
 (
 )
--
->
+.
 UnmarkGrayTimers
 (
 )
