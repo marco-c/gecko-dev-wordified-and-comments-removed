@@ -201,6 +201,13 @@ js
 ]
 [
 "
+test_shutdown_exception_permission
+.
+js
+"
+]
+[
+"
 test_storage_permission
 .
 js

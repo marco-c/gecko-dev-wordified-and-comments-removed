@@ -4284,7 +4284,7 @@ Ci
 .
 nsIClearDataService
 .
-CLEAR_PERMISSIONS
+CLEAR_SITE_PERMISSIONS
 |
 Ci
 .
