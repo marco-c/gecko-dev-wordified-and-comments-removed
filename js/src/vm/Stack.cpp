@@ -3665,6 +3665,9 @@ MOZ_DIAGNOSTIC_ASSERT
 endStackAddress_
 )
 ;
+#
+ifndef
+ENABLE_WASM_JSPI
 MOZ_DIAGNOSTIC_ASSERT
 (
 stackAddr
@@ -3673,6 +3676,8 @@ stackAddr
 endStackAddress_
 )
 ;
+#
+endif
 if
 (
 isWasm

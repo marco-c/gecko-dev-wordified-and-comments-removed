@@ -40752,6 +40752,9 @@ stackAddress
 nullptr
 )
 ;
+#
+ifndef
+ENABLE_WASM_JSPI
 MOZ_ASSERT
 (
 lastStackAddress
@@ -40764,6 +40767,8 @@ stackAddress
 )
 )
 ;
+#
+endif
 lastStackAddress
 =
 i
