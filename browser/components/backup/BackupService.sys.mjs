@@ -6017,6 +6017,11 @@ salt
 encState
 .
 salt
+nonce
+:
+encState
+.
+nonce
 backupAuthKey
 :
 encState

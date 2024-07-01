@@ -132,6 +132,13 @@ worker
 mjs
 "
 "
+ArchiveEncryption
+.
+sys
+.
+mjs
+"
+"
 ArchiveEncryptionState
 .
 sys
