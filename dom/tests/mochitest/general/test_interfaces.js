@@ -509,6 +509,16 @@ true
 name
 :
 "
+Float16Array
+"
+insecureContext
+:
+true
+}
+{
+name
+:
+"
 Float32Array
 "
 insecureContext
