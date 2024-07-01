@@ -834,6 +834,8 @@ aHstsStatus
 bool
 aHasValidUserGestureActivation
 bool
+aTextDirectiveUserActivation
+bool
 aAllowDeprecatedSystemRequests
 bool
 aIsInDevToolsContext
@@ -1391,6 +1393,11 @@ false
 ;
 bool
 mHasValidUserGestureActivation
+=
+false
+;
+bool
+mTextDirectiveUserActivation
 =
 false
 ;
