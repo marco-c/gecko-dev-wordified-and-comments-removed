@@ -76,7 +76,7 @@ class
 SendRunnable
 ;
 class
-StrongWorkerRef
+ThreadSafeWorkerRef
 ;
 class
 WorkerPrivate
@@ -167,7 +167,7 @@ mUpload
 ;
 RefPtr
 <
-StrongWorkerRef
+ThreadSafeWorkerRef
 >
 mWorkerRef
 ;
