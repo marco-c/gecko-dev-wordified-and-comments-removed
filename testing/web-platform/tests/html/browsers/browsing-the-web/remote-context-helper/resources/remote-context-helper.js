@@ -626,6 +626,16 @@ replace
 )
 '
 )
+.
+replace
+(
+'
+'
+'
+\
+\
+'
+)
 ;
 }
 const
