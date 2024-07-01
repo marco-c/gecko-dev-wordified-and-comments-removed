@@ -20069,7 +20069,15 @@ self
 .
 input_unit
 kAudioUnitProperty_StreamFormat
+if
+using_voice_processing_unit
+{
 kAudioUnitScope_Output
+}
+else
+{
+kAudioUnitScope_Input
+}
 AU_IN_BUS
 &
 mut
