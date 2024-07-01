@@ -29,13 +29,6 @@ py
 ]
 [
 "
-test_create_try_commit
-.
-py
-"
-]
-[
-"
 test_get_branch_nodes
 .
 py
@@ -71,7 +64,7 @@ py
 ]
 [
 "
-test_remove_current_commit
+test_try_commit
 .
 py
 "
