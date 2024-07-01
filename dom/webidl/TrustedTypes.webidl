@@ -383,6 +383,9 @@ enabled
 interface
 TrustedTypePolicyFactory
 {
+[
+Throws
+]
 TrustedTypePolicy
 createPolicy
 (
