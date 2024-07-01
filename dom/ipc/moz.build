@@ -373,6 +373,11 @@ TabMessageUtils
 h
 "
 "
+UniqueContentParentKeepAlive
+.
+h
+"
+"
 URLClassifierChild
 .
 h
@@ -666,6 +671,11 @@ cpp
 "
 "
 TabContext
+.
+cpp
+"
+"
+UniqueContentParentKeepAlive
 .
 cpp
 "
