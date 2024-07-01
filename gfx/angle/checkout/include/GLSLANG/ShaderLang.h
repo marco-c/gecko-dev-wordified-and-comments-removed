@@ -990,6 +990,12 @@ MaxColorAttachmentsWithActivePixelLocalStorage
 int
 MaxCombinedDrawBuffersAndPixelLocalStoragePlanes
 ;
+size_t
+MaxVariableSizeInBytes
+;
+size_t
+MaxPrivateVariableSizeInBytes
+;
 }
 ;
 using

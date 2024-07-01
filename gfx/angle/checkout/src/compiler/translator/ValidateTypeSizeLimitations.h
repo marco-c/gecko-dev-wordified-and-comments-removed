@@ -24,6 +24,9 @@ TDiagnostics
 bool
 ValidateTypeSizeLimitations
 (
+const
+ShBuiltInResources
+&
 TIntermNode
 *
 root

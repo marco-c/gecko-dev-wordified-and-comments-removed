@@ -3433,6 +3433,7 @@ shouldLimitTypeSizes
 !
 ValidateTypeSizeLimitations
 (
+mResources
 root
 &
 mSymbolTable
