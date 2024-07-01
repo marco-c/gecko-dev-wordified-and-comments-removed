@@ -1596,9 +1596,6 @@ rval
 )
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 static
 bool
 math_f16round
@@ -1703,8 +1700,6 @@ return
 true
 ;
 }
-#
-endif
 double
 js
 :
@@ -5697,9 +5692,6 @@ math_fround
 0
 MathFRound
 )
-#
-ifdef
-NIGHTLY_BUILD
 JS_FN
 (
 "
@@ -5709,8 +5701,6 @@ math_f16round
 1
 0
 )
-#
-endif
 JS_INLINABLE_FN
 (
 "
