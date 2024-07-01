@@ -19205,7 +19205,7 @@ element
 to
 search
 for
-autocomplete
+autocompelte
 entries
 *
 returns
@@ -19448,7 +19448,7 @@ element
 to
 search
 for
-autocomplete
+autocompelte
 entries
 *
 returns
@@ -19628,7 +19628,7 @@ element
 to
 search
 for
-autocomplete
+autocompelte
 entries
 *
 param

@@ -264,7 +264,7 @@ bug
 ]
 [
 "
-test_autofill_ios_library
+test_clearPopulatedForm
 .
 js
 "
@@ -430,6 +430,13 @@ js
 ]
 [
 "
+test_markAsAutofillField
+.
+js
+"
+]
+[
+"
 test_migrateRecords
 .
 js
@@ -473,6 +480,13 @@ js
 [
 "
 test_phoneNumber
+.
+js
+"
+]
+[
+"
+test_previewFormFields
 .
 js
 "

@@ -178,13 +178,6 @@ js
 ]
 [
 "
-browser_clearPopulatedForm
-.
-js
-"
-]
-[
-"
 browser_dropdown_layout
 .
 js
@@ -229,13 +222,6 @@ js
 [
 "
 browser_page_navigation_in_subtree
-.
-js
-"
-]
-[
-"
-browser_previewFormFields
 .
 js
 "
