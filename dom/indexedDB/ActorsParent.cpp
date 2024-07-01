@@ -56666,11 +56666,6 @@ Abort
 )
 ;
 }
-SafeDropDirectoryLock
-(
-mDirectoryLock
-)
-;
 mAborted
 =
 true
