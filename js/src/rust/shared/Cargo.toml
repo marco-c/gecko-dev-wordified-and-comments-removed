@@ -177,6 +177,9 @@ any_provider
 compiled_data
 "
 "
+icu_calendar
+"
+"
 icu_segmenter
 "
 ]

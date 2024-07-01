@@ -52,10 +52,10 @@ toml
 0900
 -
 190
-19
+20
 +
 190
-8
+10
 "
 icu_experimental
 ?
@@ -66,7 +66,6 @@ serde
 compiled_data
 =
 [
--
 "
 icu_calendar
 ?
@@ -166,3 +165,6 @@ logging
 default
 =
 [
+"
+compiled_data
+"
