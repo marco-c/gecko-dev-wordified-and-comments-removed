@@ -4980,6 +4980,7 @@ loadInfoArgs
 textDirectiveUserActivation
 (
 )
+false
 loadInfoArgs
 .
 allowDeprecatedSystemRequests
