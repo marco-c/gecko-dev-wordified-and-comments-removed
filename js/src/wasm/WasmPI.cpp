@@ -5699,7 +5699,6 @@ mg
 *
 compileArgs
 codeMeta
-moduleMeta
 &
 compilerEnv
 nullptr
@@ -5958,6 +5957,8 @@ finishModule
 (
 *
 shareableBytes
+moduleMeta
+nullptr
 )
 ;
 }
@@ -8418,7 +8419,6 @@ mg
 *
 compileArgs
 codeMeta
-moduleMeta
 &
 compilerEnv
 nullptr
@@ -8600,6 +8600,8 @@ finishModule
 (
 *
 shareableBytes
+moduleMeta
+nullptr
 )
 ;
 }
