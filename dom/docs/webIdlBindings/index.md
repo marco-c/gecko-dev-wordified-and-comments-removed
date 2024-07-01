@@ -13516,7 +13516,7 @@ MyInterface
 {
 [
 Pure
-StoreInSlot
+Cached
 ]
 attribute
 long
