@@ -1559,6 +1559,8 @@ H264
 uint8_t
 profile
 constraints
+;
+H264_LEVEL
 level
 ;
 H264BitStreamFormat
@@ -1653,13 +1655,7 @@ H264_PROFILE
 (
 profile
 )
-static_cast
-<
-H264_LEVEL
->
-(
 level
-)
 format
 )
 )
