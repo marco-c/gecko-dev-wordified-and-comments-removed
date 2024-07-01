@@ -177,9 +177,6 @@ any_provider
 compiled_data
 "
 "
-icu_calendar
-"
-"
 icu_segmenter
 "
 ]
@@ -240,6 +237,16 @@ icu4x
 [
 '
 icu_capi
+'
+]
+icu4x_calendar
+=
+[
+'
+icu_capi
+?
+/
+icu_calendar
 '
 ]
 #
