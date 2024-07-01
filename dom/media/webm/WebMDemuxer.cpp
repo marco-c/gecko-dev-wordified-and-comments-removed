@@ -957,7 +957,6 @@ isNothing
 ;
 if
 (
-!
 aIsMediaSource
 &
 &
