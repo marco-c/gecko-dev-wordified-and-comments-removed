@@ -199,6 +199,7 @@ detachTab
 tabToDetach
 )
 ;
+await
 UrlbarTestUtils
 .
 checkFormatting
@@ -234,6 +235,7 @@ closeWindow
 win
 )
 ;
+await
 UrlbarTestUtils
 .
 checkFormatting
@@ -410,6 +412,7 @@ focused
 "
 )
 ;
+await
 UrlbarTestUtils
 .
 checkFormatting

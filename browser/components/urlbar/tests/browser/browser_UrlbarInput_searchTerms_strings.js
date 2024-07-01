@@ -311,6 +311,7 @@ applied
 "
 )
 ;
+await
 UrlbarTestUtils
 .
 checkFormatting
