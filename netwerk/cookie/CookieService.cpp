@@ -3823,7 +3823,7 @@ bc
 loadInfo
 -
 >
-GetBrowsingContext
+GetTargetBrowsingContext
 (
 )
 ;
