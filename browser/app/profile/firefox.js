@@ -2740,8 +2740,7 @@ quicksuggest
 .
 sponsoredIndex
 "
--
-1
+0
 )
 ;
 pref
@@ -2755,8 +2754,7 @@ quicksuggest
 .
 nonSponsoredIndex
 "
--
-1
+0
 )
 ;
 pref

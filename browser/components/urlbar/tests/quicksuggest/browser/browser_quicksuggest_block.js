@@ -433,8 +433,7 @@ index
 let
 suggested_index
 =
--
-1
+0
 ;
 let
 suggested_index_relative_to_group
