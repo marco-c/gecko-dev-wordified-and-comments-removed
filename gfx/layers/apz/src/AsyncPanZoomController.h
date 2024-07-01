@@ -1181,6 +1181,13 @@ const
 ScrollDirections
 GetAllowedHandoffDirections
 (
+HandoffConsumer
+aConsumer
+=
+HandoffConsumer
+:
+:
+Scrolling
 )
 const
 ;

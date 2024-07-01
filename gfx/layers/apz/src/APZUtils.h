@@ -639,6 +639,14 @@ eForEventHandling
 eForCompositing
 }
 ;
+enum
+class
+HandoffConsumer
+{
+Scrolling
+PullToRefresh
+}
+;
 struct
 GeckoViewMetrics
 {

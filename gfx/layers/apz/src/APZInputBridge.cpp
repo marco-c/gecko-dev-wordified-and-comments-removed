@@ -206,6 +206,10 @@ aTarget
 >
 GetAllowedHandoffDirections
 (
+HandoffConsumer
+:
+:
+PullToRefresh
 )
 ;
 }
@@ -238,6 +242,10 @@ aTarget
 >
 GetAllowedHandoffDirections
 (
+HandoffConsumer
+:
+:
+PullToRefresh
 )
 ;
 }
@@ -281,6 +289,10 @@ aTarget
 >
 GetAllowedHandoffDirections
 (
+HandoffConsumer
+:
+:
+PullToRefresh
 )
 ;
 }
