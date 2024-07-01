@@ -7,6 +7,18 @@ AtlasAllocator
 size2
 }
 ;
+use
+std
+:
+:
+os
+:
+:
+raw
+:
+:
+c_char
+;
 pub
 type
 EtagereStatus
@@ -680,7 +692,7 @@ file_name
 :
 *
 const
-i8
+c_char
 )
 -
 >
