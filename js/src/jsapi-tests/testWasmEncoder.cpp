@@ -199,6 +199,9 @@ options
 ;
 ModuleMetadata
 moduleMeta
+;
+CodeMetadata
+codeMeta
 (
 compileArgs
 -
@@ -231,7 +234,7 @@ computeParameters
 ;
 MOZ_ALWAYS_TRUE
 (
-moduleMeta
+codeMeta
 .
 init
 (
@@ -289,10 +292,12 @@ impName
 ;
 MOZ_ALWAYS_TRUE
 (
-moduleMeta
+codeMeta
 .
 addImportedFunc
 (
+&
+moduleMeta
 std
 :
 :
@@ -361,10 +366,12 @@ expName
 ;
 MOZ_ALWAYS_TRUE
 (
-moduleMeta
+codeMeta
 .
 addDefinedFunc
 (
+&
+moduleMeta
 std
 :
 :
@@ -401,6 +408,8 @@ mg
 (
 *
 compileArgs
+&
+codeMeta
 &
 moduleMeta
 &

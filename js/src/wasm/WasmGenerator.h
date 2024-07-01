@@ -562,9 +562,9 @@ public
 HelperThreadTask
 {
 const
-ModuleMetadata
+CodeMetadata
 &
-moduleMeta
+codeMeta
 ;
 const
 CompilerEnvironment
@@ -587,9 +587,9 @@ output
 CompileTask
 (
 const
-ModuleMetadata
+CodeMetadata
 &
-moduleMeta
+codeMeta
 const
 CompilerEnvironment
 &
@@ -601,9 +601,9 @@ size_t
 defaultChunkSize
 )
 :
-moduleMeta
+codeMeta
 (
-moduleMeta
+codeMeta
 )
 compilerEnv
 (
@@ -749,6 +749,11 @@ bool
 *
 const
 cancelled_
+;
+CodeMetadata
+*
+const
+codeMeta_
 ;
 ModuleMetadata
 *
@@ -926,7 +931,7 @@ isAsmJS
 const
 {
 return
-moduleMeta_
+codeMeta_
 -
 >
 isAsmJS
@@ -1004,6 +1009,9 @@ const
 CompileArgs
 &
 args
+CodeMetadata
+*
+codeMeta
 ModuleMetadata
 *
 moduleMeta

@@ -727,8 +727,8 @@ computeParameters
 (
 )
 ;
-ModuleMetadata
-moduleMeta
+CodeMetadata
+codeMeta
 (
 compileArgs
 -
@@ -739,7 +739,7 @@ features
 if
 (
 !
-moduleMeta
+codeMeta
 .
 init
 (
@@ -755,6 +755,9 @@ return
 false
 ;
 }
+ModuleMetadata
+moduleMeta
+;
 if
 (
 memory
@@ -840,7 +843,7 @@ false
 if
 (
 !
-moduleMeta
+codeMeta
 .
 memories
 .
@@ -939,7 +942,7 @@ numTypes
 if
 (
 !
-moduleMeta
+codeMeta
 .
 types
 -
@@ -986,7 +989,7 @@ decl
 &
 (
 *
-moduleMeta
+codeMeta
 .
 types
 )
@@ -1003,7 +1006,7 @@ funcIndex
 if
 (
 !
-moduleMeta
+codeMeta
 .
 funcs
 .
@@ -1022,7 +1025,7 @@ return
 false
 ;
 }
-moduleMeta
+codeMeta
 .
 declareFuncExported
 (
@@ -1132,6 +1135,8 @@ mg
 (
 *
 compileArgs
+&
+codeMeta
 &
 moduleMeta
 &

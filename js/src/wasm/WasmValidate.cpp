@@ -146,11 +146,14 @@ mozilla
 Span
 ;
 bool
-ModuleMetadata
+CodeMetadata
 :
 :
 addDefinedFunc
 (
+ModuleMetadata
+*
+meta
 ValTypeVector
 &
 &
@@ -290,6 +293,9 @@ isSome
 if
 (
 !
+meta
+-
+>
 exports
 .
 emplaceBack
@@ -323,11 +329,14 @@ true
 ;
 }
 bool
-ModuleMetadata
+CodeMetadata
 :
 :
 addImportedFunc
 (
+ModuleMetadata
+*
+meta
 ValTypeVector
 &
 &
@@ -363,6 +372,7 @@ if
 !
 addDefinedFunc
 (
+meta
 std
 :
 :
@@ -396,6 +406,9 @@ numFuncImports
 +
 ;
 return
+meta
+-
+>
 imports
 .
 emplaceBack
@@ -638,7 +651,7 @@ Maybe
 <
 uint32_t
 >
-ModuleMetadata
+CodeMetadata
 :
 :
 doInstanceLayout
@@ -1126,9 +1139,9 @@ Decoder
 &
 d
 const
-ModuleMetadata
+CodeMetadata
 &
-moduleMeta
+codeMeta
 uint32_t
 funcIndex
 ValTypeVector
@@ -1176,7 +1189,7 @@ locals
 >
 appendAll
 (
-moduleMeta
+codeMeta
 .
 funcs
 [
@@ -1281,10 +1294,10 @@ d
 readValType
 (
 *
-moduleMeta
+codeMeta
 .
 types
-moduleMeta
+codeMeta
 .
 features
 &
@@ -1427,9 +1440,9 @@ Decoder
 &
 d
 const
-ModuleMetadata
+CodeMetadata
 &
-moduleMeta
+codeMeta
 size_t
 opcodeOffset
 StorageType
@@ -1460,7 +1473,7 @@ subText
 ToString
 (
 subType
-moduleMeta
+codeMeta
 .
 types
 )
@@ -1481,7 +1494,7 @@ superText
 ToString
 (
 superType
-moduleMeta
+codeMeta
 .
 types
 )
@@ -1557,9 +1570,9 @@ bool
 DecodeFunctionBodyExprs
 (
 const
-ModuleMetadata
+CodeMetadata
 &
-moduleMeta
+codeMeta
 uint32_t
 funcIndex
 const
@@ -1578,7 +1591,7 @@ d
 ValidatingOpIter
 iter
 (
-moduleMeta
+codeMeta
 *
 d
 )
@@ -1843,7 +1856,7 @@ ReturnCall
 if
 (
 !
-moduleMeta
+codeMeta
 .
 tailCallsEnabled
 (
@@ -1895,7 +1908,7 @@ ReturnCallIndirect
 if
 (
 !
-moduleMeta
+codeMeta
 .
 tailCallsEnabled
 (
@@ -1957,7 +1970,7 @@ CallRef
 if
 (
 !
-moduleMeta
+codeMeta
 .
 gcEnabled
 (
@@ -2016,7 +2029,7 @@ ReturnCallRef
 if
 (
 !
-moduleMeta
+codeMeta
 .
 gcEnabled
 (
@@ -2024,7 +2037,7 @@ gcEnabled
 |
 |
 !
-moduleMeta
+codeMeta
 .
 tailCallsEnabled
 (
@@ -5003,7 +5016,7 @@ GcPrefix
 if
 (
 !
-moduleMeta
+codeMeta
 .
 gcEnabled
 (
@@ -6087,7 +6100,7 @@ SimdPrefix
 if
 (
 !
-moduleMeta
+codeMeta
 .
 simdAvailable
 (
@@ -9168,7 +9181,7 @@ I32x4DotI8x16I7x16AddS
 if
 (
 !
-moduleMeta
+codeMeta
 .
 v128RelaxedEnabled
 (
@@ -9263,7 +9276,7 @@ I16x8DotI8x16I7x16S
 if
 (
 !
-moduleMeta
+codeMeta
 .
 v128RelaxedEnabled
 (
@@ -9338,7 +9351,7 @@ I32x4RelaxedTruncF64x2UZero
 if
 (
 !
-moduleMeta
+codeMeta
 .
 v128RelaxedEnabled
 (
@@ -9384,7 +9397,7 @@ I8x16RelaxedSwizzle
 if
 (
 !
-moduleMeta
+codeMeta
 .
 v128RelaxedEnabled
 (
@@ -9881,7 +9894,7 @@ MemoryDiscard
 if
 (
 !
-moduleMeta
+codeMeta
 .
 memoryControlEnabled
 (
@@ -10004,7 +10017,7 @@ RefAsNonNull
 if
 (
 !
-moduleMeta
+codeMeta
 .
 gcEnabled
 (
@@ -10046,7 +10059,7 @@ BrOnNull
 if
 (
 !
-moduleMeta
+codeMeta
 .
 gcEnabled
 (
@@ -10097,7 +10110,7 @@ BrOnNonNull
 if
 (
 !
-moduleMeta
+codeMeta
 .
 gcEnabled
 (
@@ -10153,7 +10166,7 @@ RefEq
 if
 (
 !
-moduleMeta
+codeMeta
 .
 gcEnabled
 (
@@ -10461,7 +10474,7 @@ ThrowRef
 if
 (
 !
-moduleMeta
+codeMeta
 .
 exnrefEnabled
 (
@@ -10503,7 +10516,7 @@ TryTable
 if
 (
 !
-moduleMeta
+codeMeta
 .
 exnrefEnabled
 (
@@ -10549,7 +10562,7 @@ ThreadPrefix
 {
 if
 (
-moduleMeta
+codeMeta
 .
 sharedMemoryEnabled
 (
@@ -12062,9 +12075,9 @@ wasm
 ValidateFunctionBody
 (
 const
-ModuleMetadata
+CodeMetadata
 &
-moduleMeta
+codeMeta
 uint32_t
 funcIndex
 uint32_t
@@ -12094,7 +12107,7 @@ if
 DecodeLocalEntriesWithParams
 (
 d
-moduleMeta
+codeMeta
 funcIndex
 &
 locals
@@ -12108,7 +12121,7 @@ false
 return
 DecodeFunctionBodyExprs
 (
-moduleMeta
+codeMeta
 funcIndex
 locals
 bodyBegin
@@ -12244,9 +12257,9 @@ DecodeValTypeVector
 Decoder
 &
 d
-ModuleMetadata
+CodeMetadata
 *
-moduleMeta
+codeMeta
 uint32_t
 count
 ValTypeVector
@@ -12294,11 +12307,11 @@ d
 readValType
 (
 *
-moduleMeta
+codeMeta
 -
 >
 types
-moduleMeta
+codeMeta
 -
 >
 features
@@ -12329,9 +12342,9 @@ DecodeFuncType
 Decoder
 &
 d
-ModuleMetadata
+CodeMetadata
 *
-moduleMeta
+codeMeta
 FuncType
 *
 funcType
@@ -12398,7 +12411,7 @@ if
 DecodeValTypeVector
 (
 d
-moduleMeta
+codeMeta
 numArgs
 &
 args
@@ -12470,7 +12483,7 @@ if
 DecodeValTypeVector
 (
 d
-moduleMeta
+codeMeta
 numResults
 &
 results
@@ -12513,9 +12526,9 @@ DecodeStructType
 Decoder
 &
 d
-ModuleMetadata
+CodeMetadata
 *
-moduleMeta
+codeMeta
 StructType
 *
 structType
@@ -12524,7 +12537,7 @@ structType
 if
 (
 !
-moduleMeta
+codeMeta
 -
 >
 gcEnabled
@@ -12638,11 +12651,11 @@ d
 readStorageType
 (
 *
-moduleMeta
+codeMeta
 -
 >
 types
-moduleMeta
+codeMeta
 -
 >
 features
@@ -12788,9 +12801,9 @@ DecodeArrayType
 Decoder
 &
 d
-ModuleMetadata
+CodeMetadata
 *
-moduleMeta
+codeMeta
 ArrayType
 *
 arrayType
@@ -12799,7 +12812,7 @@ arrayType
 if
 (
 !
-moduleMeta
+codeMeta
 -
 >
 gcEnabled
@@ -12831,11 +12844,11 @@ d
 readStorageType
 (
 *
-moduleMeta
+codeMeta
 -
 >
 types
-moduleMeta
+codeMeta
 -
 >
 features
@@ -12940,9 +12953,9 @@ DecodeTypeSection
 Decoder
 &
 d
-ModuleMetadata
+CodeMetadata
 *
-moduleMeta
+codeMeta
 )
 {
 MaybeSectionRange
@@ -12959,7 +12972,7 @@ SectionId
 :
 :
 Type
-moduleMeta
+codeMeta
 &
 range
 "
@@ -13054,7 +13067,7 @@ recGroupLength
 ;
 if
 (
-moduleMeta
+codeMeta
 -
 >
 gcEnabled
@@ -13141,7 +13154,7 @@ length
 MutableRecGroup
 recGroup
 =
-moduleMeta
+codeMeta
 -
 >
 types
@@ -13181,7 +13194,7 @@ recGroupTypeIndex
 uint32_t
 typeIndex
 =
-moduleMeta
+codeMeta
 -
 >
 types
@@ -13233,7 +13246,7 @@ true
 ;
 if
 (
-moduleMeta
+codeMeta
 -
 >
 gcEnabled
@@ -13414,7 +13427,7 @@ index
 superTypeDef
 =
 &
-moduleMeta
+codeMeta
 -
 >
 types
@@ -13489,7 +13502,7 @@ if
 DecodeFuncType
 (
 d
-moduleMeta
+codeMeta
 &
 funcType
 )
@@ -13532,7 +13545,7 @@ if
 DecodeStructType
 (
 d
-moduleMeta
+codeMeta
 &
 structType
 )
@@ -13575,7 +13588,7 @@ if
 DecodeArrayType
 (
 d
-moduleMeta
+codeMeta
 &
 arrayType
 )
@@ -13682,7 +13695,7 @@ funcType
 .
 initImmediateTypeId
 (
-moduleMeta
+codeMeta
 -
 >
 gcEnabled
@@ -13775,7 +13788,7 @@ type
 if
 (
 !
-moduleMeta
+codeMeta
 -
 >
 types
@@ -14557,9 +14570,9 @@ DecodeTableTypeAndLimits
 Decoder
 &
 d
-ModuleMetadata
+CodeMetadata
 *
-moduleMeta
+codeMeta
 )
 {
 bool
@@ -14668,11 +14681,11 @@ d
 readRefType
 (
 *
-moduleMeta
+codeMeta
 -
 >
 types
-moduleMeta
+codeMeta
 -
 >
 features
@@ -14769,7 +14782,7 @@ elements
 }
 if
 (
-moduleMeta
+codeMeta
 -
 >
 tables
@@ -14866,7 +14879,7 @@ InitExpr
 decodeAndValidate
 (
 d
-moduleMeta
+codeMeta
 tableElemType
 &
 initializer
@@ -14923,7 +14936,7 @@ initializer
 }
 }
 return
-moduleMeta
+codeMeta
 -
 >
 tables
@@ -15076,9 +15089,9 @@ DecodeMemoryTypeAndLimits
 Decoder
 &
 d
-ModuleMetadata
+CodeMetadata
 *
-moduleMeta
+codeMeta
 MemoryDescVector
 *
 memories
@@ -15087,7 +15100,7 @@ memories
 if
 (
 !
-moduleMeta
+codeMeta
 -
 >
 features
@@ -15095,7 +15108,7 @@ features
 multiMemory
 &
 &
-moduleMeta
+codeMeta
 -
 >
 numMemories
@@ -15122,7 +15135,7 @@ memory
 }
 if
 (
-moduleMeta
+codeMeta
 -
 >
 numMemories
@@ -15245,7 +15258,7 @@ Shareable
 True
 &
 &
-moduleMeta
+codeMeta
 -
 >
 sharedMemoryEnabled
@@ -15287,7 +15300,7 @@ I64
 &
 &
 !
-moduleMeta
+codeMeta
 -
 >
 memory64Enabled
@@ -15328,9 +15341,9 @@ DecodeTag
 Decoder
 &
 d
-ModuleMetadata
+CodeMetadata
 *
-moduleMeta
+codeMeta
 TagKind
 *
 tagKind
@@ -15434,7 +15447,7 @@ if
 funcTypeIndex
 >
 =
-moduleMeta
+codeMeta
 -
 >
 numTypes
@@ -15465,7 +15478,7 @@ if
 !
 (
 *
-moduleMeta
+codeMeta
 -
 >
 types
@@ -15502,7 +15515,7 @@ if
 (
 (
 *
-moduleMeta
+codeMeta
 -
 >
 types
@@ -15556,6 +15569,9 @@ DecodeImport
 Decoder
 &
 d
+CodeMetadata
+*
+codeMeta
 ModuleMetadata
 *
 moduleMeta
@@ -15678,7 +15694,7 @@ if
 DecodeFuncTypeIndex
 (
 d
-moduleMeta
+codeMeta
 -
 >
 types
@@ -15694,7 +15710,7 @@ false
 if
 (
 !
-moduleMeta
+codeMeta
 -
 >
 funcs
@@ -15704,7 +15720,7 @@ append
 FuncDesc
 (
 &
-moduleMeta
+codeMeta
 -
 >
 types
@@ -15729,7 +15745,7 @@ false
 }
 if
 (
-moduleMeta
+codeMeta
 -
 >
 funcs
@@ -15770,7 +15786,7 @@ if
 DecodeTableTypeAndLimits
 (
 d
-moduleMeta
+codeMeta
 )
 )
 {
@@ -15778,7 +15794,7 @@ return
 false
 ;
 }
-moduleMeta
+codeMeta
 -
 >
 tables
@@ -15807,9 +15823,9 @@ if
 DecodeMemoryTypeAndLimits
 (
 d
-moduleMeta
+codeMeta
 &
-moduleMeta
+codeMeta
 -
 >
 memories
@@ -15842,11 +15858,11 @@ if
 DecodeGlobalType
 (
 d
-moduleMeta
+codeMeta
 -
 >
 types
-moduleMeta
+codeMeta
 -
 >
 features
@@ -15864,7 +15880,7 @@ false
 if
 (
 !
-moduleMeta
+codeMeta
 -
 >
 globals
@@ -15875,7 +15891,7 @@ GlobalDesc
 (
 type
 isMutable
-moduleMeta
+codeMeta
 -
 >
 globals
@@ -15893,7 +15909,7 @@ false
 }
 if
 (
-moduleMeta
+codeMeta
 -
 >
 globals
@@ -15940,7 +15956,7 @@ if
 DecodeTag
 (
 d
-moduleMeta
+codeMeta
 &
 tagKind
 &
@@ -15964,7 +15980,7 @@ appendAll
 (
 (
 *
-moduleMeta
+codeMeta
 -
 >
 types
@@ -16026,7 +16042,7 @@ false
 if
 (
 !
-moduleMeta
+codeMeta
 -
 >
 tags
@@ -16044,7 +16060,7 @@ false
 }
 if
 (
-moduleMeta
+codeMeta
 -
 >
 tags
@@ -16120,6 +16136,9 @@ CheckImportsAgainstBuiltinModules
 Decoder
 &
 d
+CodeMetadata
+*
+codeMeta
 ModuleMetadata
 *
 moduleMeta
@@ -16130,7 +16149,7 @@ BuiltinModuleIds
 &
 builtinModules
 =
-moduleMeta
+codeMeta
 -
 >
 features
@@ -16204,7 +16223,7 @@ FuncDesc
 &
 func
 =
-moduleMeta
+codeMeta
 -
 >
 funcs
@@ -16274,7 +16293,7 @@ importTypeDef
 =
 (
 *
-moduleMeta
+codeMeta
 -
 >
 types
@@ -16372,6 +16391,9 @@ DecodeImportSection
 Decoder
 &
 d
+CodeMetadata
+*
+codeMeta
 ModuleMetadata
 *
 moduleMeta
@@ -16391,7 +16413,7 @@ SectionId
 :
 :
 Import
-moduleMeta
+codeMeta
 &
 range
 "
@@ -16487,6 +16509,7 @@ if
 DecodeImport
 (
 d
+codeMeta
 moduleMeta
 )
 )
@@ -16515,12 +16538,12 @@ return
 false
 ;
 }
-moduleMeta
+codeMeta
 -
 >
 numFuncImports
 =
-moduleMeta
+codeMeta
 -
 >
 funcs
@@ -16529,12 +16552,12 @@ length
 (
 )
 ;
-moduleMeta
+codeMeta
 -
 >
 numGlobalImports
 =
-moduleMeta
+codeMeta
 -
 >
 globals
@@ -16554,9 +16577,9 @@ DecodeFunctionSection
 Decoder
 &
 d
-ModuleMetadata
+CodeMetadata
 *
-moduleMeta
+codeMeta
 )
 {
 MaybeSectionRange
@@ -16573,7 +16596,7 @@ SectionId
 :
 :
 Function
-moduleMeta
+codeMeta
 &
 range
 "
@@ -16632,7 +16655,7 @@ uint32_t
 >
 numFuncs
 =
-moduleMeta
+codeMeta
 -
 >
 funcs
@@ -16681,7 +16704,7 @@ functions
 if
 (
 !
-moduleMeta
+codeMeta
 -
 >
 funcs
@@ -16725,7 +16748,7 @@ if
 DecodeFuncTypeIndex
 (
 d
-moduleMeta
+codeMeta
 -
 >
 types
@@ -16738,7 +16761,7 @@ return
 false
 ;
 }
-moduleMeta
+codeMeta
 -
 >
 funcs
@@ -16748,7 +16771,7 @@ infallibleAppend
 FuncDesc
 (
 &
-moduleMeta
+codeMeta
 -
 >
 types
@@ -16787,9 +16810,9 @@ DecodeTableSection
 Decoder
 &
 d
-ModuleMetadata
+CodeMetadata
 *
-moduleMeta
+codeMeta
 )
 {
 MaybeSectionRange
@@ -16806,7 +16829,7 @@ SectionId
 :
 :
 Table
-moduleMeta
+codeMeta
 &
 range
 "
@@ -16882,7 +16905,7 @@ if
 DecodeTableTypeAndLimits
 (
 d
-moduleMeta
+codeMeta
 )
 )
 {
@@ -16911,9 +16934,9 @@ DecodeMemorySection
 Decoder
 &
 d
-ModuleMetadata
+CodeMetadata
 *
-moduleMeta
+codeMeta
 )
 {
 MaybeSectionRange
@@ -16930,7 +16953,7 @@ SectionId
 :
 :
 Memory
-moduleMeta
+codeMeta
 &
 range
 "
@@ -16987,7 +17010,7 @@ memories
 if
 (
 !
-moduleMeta
+codeMeta
 -
 >
 features
@@ -17041,9 +17064,9 @@ if
 DecodeMemoryTypeAndLimits
 (
 d
-moduleMeta
+codeMeta
 &
-moduleMeta
+codeMeta
 -
 >
 memories
@@ -17075,9 +17098,9 @@ DecodeGlobalSection
 Decoder
 &
 d
-ModuleMetadata
+CodeMetadata
 *
-moduleMeta
+codeMeta
 )
 {
 MaybeSectionRange
@@ -17094,7 +17117,7 @@ SectionId
 :
 :
 Global
-moduleMeta
+codeMeta
 &
 range
 "
@@ -17152,7 +17175,7 @@ uint32_t
 >
 numGlobals
 =
-moduleMeta
+codeMeta
 -
 >
 globals
@@ -17201,7 +17224,7 @@ globals
 if
 (
 !
-moduleMeta
+codeMeta
 -
 >
 globals
@@ -17248,11 +17271,11 @@ if
 DecodeGlobalType
 (
 d
-moduleMeta
+codeMeta
 -
 >
 types
-moduleMeta
+codeMeta
 -
 >
 features
@@ -17279,7 +17302,7 @@ InitExpr
 decodeAndValidate
 (
 d
-moduleMeta
+codeMeta
 type
 &
 initializer
@@ -17290,7 +17313,7 @@ return
 false
 ;
 }
-moduleMeta
+codeMeta
 -
 >
 globals
@@ -17331,9 +17354,9 @@ DecodeTagSection
 Decoder
 &
 d
-ModuleMetadata
+CodeMetadata
 *
-moduleMeta
+codeMeta
 )
 {
 MaybeSectionRange
@@ -17350,7 +17373,7 @@ SectionId
 :
 :
 Tag
-moduleMeta
+codeMeta
 &
 range
 "
@@ -17408,7 +17431,7 @@ uint32_t
 >
 numTags
 =
-moduleMeta
+codeMeta
 -
 >
 tags
@@ -17457,7 +17480,7 @@ tags
 if
 (
 !
-moduleMeta
+codeMeta
 -
 >
 tags
@@ -17504,7 +17527,7 @@ if
 DecodeTag
 (
 d
-moduleMeta
+codeMeta
 &
 tagKind
 &
@@ -17528,7 +17551,7 @@ appendAll
 (
 (
 *
-moduleMeta
+codeMeta
 -
 >
 types
@@ -17587,7 +17610,7 @@ return
 false
 ;
 }
-moduleMeta
+codeMeta
 -
 >
 tags
@@ -17732,6 +17755,9 @@ DecodeExport
 Decoder
 &
 d
+CodeMetadata
+*
+codeMeta
 ModuleMetadata
 *
 moduleMeta
@@ -17837,7 +17863,7 @@ if
 funcIndex
 >
 =
-moduleMeta
+codeMeta
 -
 >
 numFuncs
@@ -17861,7 +17887,7 @@ bounds
 )
 ;
 }
-moduleMeta
+codeMeta
 -
 >
 declareFuncExported
@@ -17934,7 +17960,7 @@ if
 tableIndex
 >
 =
-moduleMeta
+codeMeta
 -
 >
 tables
@@ -17960,7 +17986,7 @@ bounds
 )
 ;
 }
-moduleMeta
+codeMeta
 -
 >
 tables
@@ -18035,7 +18061,7 @@ if
 memoryIndex
 >
 =
-moduleMeta
+codeMeta
 -
 >
 numMemories
@@ -18122,7 +18148,7 @@ if
 globalIndex
 >
 =
-moduleMeta
+codeMeta
 -
 >
 globals
@@ -18153,7 +18179,7 @@ GlobalDesc
 global
 =
 &
-moduleMeta
+codeMeta
 -
 >
 globals
@@ -18231,7 +18257,7 @@ if
 tagIndex
 >
 =
-moduleMeta
+codeMeta
 -
 >
 tags
@@ -18257,7 +18283,7 @@ bounds
 )
 ;
 }
-moduleMeta
+codeMeta
 -
 >
 tags
@@ -18322,6 +18348,9 @@ DecodeExportSection
 Decoder
 &
 d
+CodeMetadata
+*
+codeMeta
 ModuleMetadata
 *
 moduleMeta
@@ -18341,7 +18370,7 @@ SectionId
 :
 :
 Export
-moduleMeta
+codeMeta
 &
 range
 "
@@ -18440,6 +18469,7 @@ if
 DecodeExport
 (
 d
+codeMeta
 moduleMeta
 &
 dupSet
@@ -18471,6 +18501,9 @@ DecodeStartSection
 Decoder
 &
 d
+CodeMetadata
+*
+codeMeta
 ModuleMetadata
 *
 moduleMeta
@@ -18490,7 +18523,7 @@ SectionId
 :
 :
 Start
-moduleMeta
+codeMeta
 &
 range
 "
@@ -18549,7 +18582,7 @@ if
 funcIndex
 >
 =
-moduleMeta
+codeMeta
 -
 >
 numFuncs
@@ -18576,7 +18609,7 @@ FuncType
 funcType
 =
 *
-moduleMeta
+codeMeta
 -
 >
 funcs
@@ -18645,7 +18678,7 @@ nullary
 )
 ;
 }
-moduleMeta
+codeMeta
 -
 >
 declareFuncExported
@@ -18771,9 +18804,9 @@ DecodeElemSegment
 Decoder
 &
 d
-ModuleMetadata
+CodeMetadata
 *
-moduleMeta
+codeMeta
 )
 {
 uint32_t
@@ -18889,7 +18922,7 @@ ActiveWithTableIndex
 {
 if
 (
-moduleMeta
+codeMeta
 -
 >
 tables
@@ -18962,7 +18995,7 @@ if
 tableIndex
 >
 =
-moduleMeta
+codeMeta
 -
 >
 tables
@@ -19008,7 +19041,7 @@ InitExpr
 decodeAndValidate
 (
 d
-moduleMeta
+codeMeta
 ValType
 :
 :
@@ -19127,11 +19160,11 @@ d
 readRefType
 (
 *
-moduleMeta
+codeMeta
 -
 >
 types
-moduleMeta
+codeMeta
 -
 >
 features
@@ -19235,7 +19268,7 @@ active
 RefType
 tblElemType
 =
-moduleMeta
+codeMeta
 -
 >
 tables
@@ -19254,7 +19287,7 @@ CheckIsSubtypeOf
 (
 d
 *
-moduleMeta
+codeMeta
 d
 .
 currentOffset
@@ -19352,7 +19385,7 @@ active
 )
 &
 &
-moduleMeta
+codeMeta
 -
 >
 tables
@@ -19456,7 +19489,7 @@ if
 elemIndex
 >
 =
-moduleMeta
+codeMeta
 -
 >
 numFuncs
@@ -19494,7 +19527,7 @@ if
 isAsmJS
 )
 {
-moduleMeta
+codeMeta
 -
 >
 declareFuncExported
@@ -19575,7 +19608,7 @@ if
 DecodeConstantExpression
 (
 d
-moduleMeta
+codeMeta
 elemType
 &
 unusedLiteral
@@ -19622,7 +19655,7 @@ false
 break
 ;
 }
-moduleMeta
+codeMeta
 -
 >
 elemSegments
@@ -19649,9 +19682,9 @@ DecodeElemSection
 Decoder
 &
 d
-ModuleMetadata
+CodeMetadata
 *
-moduleMeta
+codeMeta
 )
 {
 MaybeSectionRange
@@ -19668,7 +19701,7 @@ SectionId
 :
 :
 Elem
-moduleMeta
+codeMeta
 &
 range
 "
@@ -19747,7 +19780,7 @@ segments
 if
 (
 !
-moduleMeta
+codeMeta
 -
 >
 elemSegments
@@ -19784,7 +19817,7 @@ if
 DecodeElemSegment
 (
 d
-moduleMeta
+codeMeta
 )
 )
 {
@@ -19813,9 +19846,9 @@ DecodeDataCountSection
 Decoder
 &
 d
-ModuleMetadata
+CodeMetadata
 *
-moduleMeta
+codeMeta
 )
 {
 MaybeSectionRange
@@ -19832,7 +19865,7 @@ SectionId
 :
 :
 DataCount
-moduleMeta
+codeMeta
 &
 range
 "
@@ -19884,7 +19917,7 @@ count
 )
 ;
 }
-moduleMeta
+codeMeta
 -
 >
 dataCount
@@ -20041,9 +20074,9 @@ ParseBranchHintingSection
 Decoder
 &
 d
-ModuleMetadata
+CodeMetadata
 *
-moduleMeta
+codeMeta
 )
 {
 uint32_t
@@ -20128,7 +20161,7 @@ if
 functionIndex
 >
 =
-moduleMeta
+codeMeta
 -
 >
 funcs
@@ -20142,7 +20175,7 @@ length
 (
 functionIndex
 <
-moduleMeta
+codeMeta
 -
 >
 numFuncImports
@@ -20396,7 +20429,7 @@ branchOffset
 if
 (
 !
-moduleMeta
+codeMeta
 -
 >
 branchHints
@@ -20430,9 +20463,9 @@ DecodeBranchHintingSection
 Decoder
 &
 d
-ModuleMetadata
+CodeMetadata
 *
-moduleMeta
+codeMeta
 )
 {
 MaybeSectionRange
@@ -20446,7 +20479,7 @@ d
 startCustomSection
 (
 BranchHintingSectionName
-moduleMeta
+codeMeta
 &
 range
 )
@@ -20466,7 +20499,7 @@ return
 true
 ;
 }
-moduleMeta
+codeMeta
 -
 >
 parsedBranchHints
@@ -20474,7 +20507,7 @@ parsedBranchHints
 ParseBranchHintingSection
 (
 d
-moduleMeta
+codeMeta
 )
 ;
 d
@@ -20501,6 +20534,9 @@ DecodeModuleEnvironment
 Decoder
 &
 d
+CodeMetadata
+*
+codeMeta
 ModuleMetadata
 *
 moduleMeta
@@ -20525,7 +20561,7 @@ if
 DecodeTypeSection
 (
 d
-moduleMeta
+codeMeta
 )
 )
 {
@@ -20539,6 +20575,7 @@ if
 DecodeImportSection
 (
 d
+codeMeta
 moduleMeta
 )
 )
@@ -20553,6 +20590,7 @@ if
 CheckImportsAgainstBuiltinModules
 (
 d
+codeMeta
 moduleMeta
 )
 )
@@ -20567,7 +20605,7 @@ if
 DecodeFunctionSection
 (
 d
-moduleMeta
+codeMeta
 )
 )
 {
@@ -20581,7 +20619,7 @@ if
 DecodeTableSection
 (
 d
-moduleMeta
+codeMeta
 )
 )
 {
@@ -20595,7 +20633,7 @@ if
 DecodeMemorySection
 (
 d
-moduleMeta
+codeMeta
 )
 )
 {
@@ -20609,7 +20647,7 @@ if
 DecodeTagSection
 (
 d
-moduleMeta
+codeMeta
 )
 )
 {
@@ -20623,7 +20661,7 @@ if
 DecodeGlobalSection
 (
 d
-moduleMeta
+codeMeta
 )
 )
 {
@@ -20637,6 +20675,7 @@ if
 DecodeExportSection
 (
 d
+codeMeta
 moduleMeta
 )
 )
@@ -20651,6 +20690,7 @@ if
 DecodeStartSection
 (
 d
+codeMeta
 moduleMeta
 )
 )
@@ -20665,7 +20705,7 @@ if
 DecodeElemSection
 (
 d
-moduleMeta
+codeMeta
 )
 )
 {
@@ -20679,7 +20719,7 @@ if
 DecodeDataCountSection
 (
 d
-moduleMeta
+codeMeta
 )
 )
 {
@@ -20692,7 +20732,7 @@ ifdef
 ENABLE_WASM_BRANCH_HINTING
 if
 (
-moduleMeta
+codeMeta
 -
 >
 branchHintingEnabled
@@ -20704,7 +20744,7 @@ branchHintingEnabled
 DecodeBranchHintingSection
 (
 d
-moduleMeta
+codeMeta
 )
 )
 {
@@ -20725,9 +20765,9 @@ SectionId
 :
 :
 Code
-moduleMeta
+codeMeta
 &
-moduleMeta
+codeMeta
 -
 >
 codeSection
@@ -20743,13 +20783,13 @@ false
 }
 if
 (
-moduleMeta
+codeMeta
 -
 >
 codeSection
 &
 &
-moduleMeta
+codeMeta
 -
 >
 codeSection
@@ -20786,9 +20826,9 @@ Decoder
 &
 d
 const
-ModuleMetadata
+CodeMetadata
 &
-moduleMeta
+codeMeta
 uint32_t
 funcIndex
 )
@@ -20874,7 +20914,7 @@ big
 return
 ValidateFunctionBody
 (
-moduleMeta
+codeMeta
 funcIndex
 bodySize
 d
@@ -20888,15 +20928,15 @@ DecodeCodeSection
 Decoder
 &
 d
-ModuleMetadata
+CodeMetadata
 *
-moduleMeta
+codeMeta
 )
 {
 if
 (
 !
-moduleMeta
+codeMeta
 -
 >
 codeSection
@@ -20904,7 +20944,7 @@ codeSection
 {
 if
 (
-moduleMeta
+codeMeta
 -
 >
 numFuncDefs
@@ -20966,7 +21006,7 @@ if
 numFuncDefs
 !
 =
-moduleMeta
+codeMeta
 -
 >
 numFuncDefs
@@ -21016,8 +21056,8 @@ DecodeFunctionBody
 (
 d
 *
-moduleMeta
-moduleMeta
+codeMeta
+codeMeta
 -
 >
 numFuncImports
@@ -21037,7 +21077,7 @@ d
 finishSection
 (
 *
-moduleMeta
+codeMeta
 -
 >
 codeSection
@@ -21054,6 +21094,9 @@ DecodeDataSection
 Decoder
 &
 d
+CodeMetadata
+*
+codeMeta
 ModuleMetadata
 *
 moduleMeta
@@ -21073,7 +21116,7 @@ SectionId
 :
 :
 Data
-moduleMeta
+codeMeta
 &
 range
 "
@@ -21094,7 +21137,7 @@ range
 {
 if
 (
-moduleMeta
+codeMeta
 -
 >
 dataCount
@@ -21105,7 +21148,7 @@ isSome
 &
 &
 *
-moduleMeta
+codeMeta
 -
 >
 dataCount
@@ -21191,7 +21234,7 @@ segments
 }
 if
 (
-moduleMeta
+codeMeta
 -
 >
 dataCount
@@ -21205,7 +21248,7 @@ numSegments
 !
 =
 *
-moduleMeta
+codeMeta
 -
 >
 dataCount
@@ -21348,7 +21391,7 @@ DataSegmentKind
 Passive
 &
 &
-moduleMeta
+codeMeta
 -
 >
 numMemories
@@ -21473,7 +21516,7 @@ segRange
 memoryIndex
 >
 =
-moduleMeta
+codeMeta
 -
 >
 numMemories
@@ -21502,7 +21545,7 @@ exprType
 =
 ToValType
 (
-moduleMeta
+codeMeta
 -
 >
 memories
@@ -21526,7 +21569,7 @@ InitExpr
 decodeAndValidate
 (
 d
-moduleMeta
+codeMeta
 exprType
 &
 segOffset
@@ -21871,6 +21914,9 @@ const
 CustomSectionRange
 &
 nameSection
+CodeMetadata
+*
+codeMeta
 ModuleMetadata
 *
 moduleMeta
@@ -22004,7 +22050,7 @@ if
 funcIndex
 >
 =
-moduleMeta
+codeMeta
 -
 >
 numFuncs
@@ -22210,6 +22256,9 @@ DecodeNameSection
 Decoder
 &
 d
+CodeMetadata
+*
+codeMeta
 ModuleMetadata
 *
 moduleMeta
@@ -22226,7 +22275,7 @@ d
 startCustomSection
 (
 NameSectionName
-moduleMeta
+codeMeta
 &
 range
 )
@@ -22253,7 +22302,7 @@ nameCustomSectionIndex
 =
 Some
 (
-moduleMeta
+codeMeta
 -
 >
 customSectionRanges
@@ -22270,7 +22319,7 @@ CustomSectionRange
 &
 nameSection
 =
-moduleMeta
+codeMeta
 -
 >
 customSectionRanges
@@ -22301,6 +22350,7 @@ DecodeFunctionNameSubsection
 (
 d
 nameSection
+codeMeta
 moduleMeta
 )
 )
@@ -22364,6 +22414,9 @@ DecodeModuleTail
 Decoder
 &
 d
+CodeMetadata
+*
+codeMeta
 ModuleMetadata
 *
 moduleMeta
@@ -22375,6 +22428,7 @@ if
 DecodeDataSection
 (
 d
+codeMeta
 moduleMeta
 )
 )
@@ -22389,6 +22443,7 @@ if
 DecodeNameSection
 (
 d
+codeMeta
 moduleMeta
 )
 )
@@ -22414,7 +22469,7 @@ d
 .
 skipCustomSection
 (
-moduleMeta
+codeMeta
 )
 )
 {
@@ -22490,8 +22545,8 @@ cx
 options
 )
 ;
-ModuleMetadata
-moduleMeta
+CodeMetadata
+codeMeta
 (
 features
 )
@@ -22499,7 +22554,7 @@ features
 if
 (
 !
-moduleMeta
+codeMeta
 .
 init
 (
@@ -22510,12 +22565,17 @@ return
 false
 ;
 }
+ModuleMetadata
+moduleMeta
+;
 if
 (
 !
 DecodeModuleEnvironment
 (
 d
+&
+codeMeta
 &
 moduleMeta
 )
@@ -22532,7 +22592,7 @@ DecodeCodeSection
 (
 d
 &
-moduleMeta
+codeMeta
 )
 )
 {
@@ -22546,6 +22606,8 @@ if
 DecodeModuleTail
 (
 d
+&
+codeMeta
 &
 moduleMeta
 )
