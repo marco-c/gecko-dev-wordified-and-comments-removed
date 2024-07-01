@@ -69,3 +69,10 @@ test_bouncetracking_purge_telemetry
 js
 "
 ]
+[
+"
+test_bouncetracking_telemetry_purge_num_hosts
+.
+js
+"
+]
