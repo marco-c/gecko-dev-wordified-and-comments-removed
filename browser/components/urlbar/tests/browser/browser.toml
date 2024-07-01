@@ -2648,6 +2648,9 @@ browser_urlbar_annotation
 js
 "
 ]
+https_first_disabled
+=
+true
 support
 -
 files
