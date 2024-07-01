@@ -114,6 +114,11 @@ this
 _addScriptsAndRender
 (
 )
+{
+once
+:
+true
+}
 )
 ;
 }
