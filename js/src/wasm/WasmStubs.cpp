@@ -11086,7 +11086,6 @@ WasmMacroAssembler
 masm
 (
 alloc
-moduleMeta
 )
 ;
 for
@@ -16446,7 +16445,6 @@ WasmMacroAssembler
 masm
 (
 alloc
-moduleMeta
 )
 ;
 AutoCreatedBy
