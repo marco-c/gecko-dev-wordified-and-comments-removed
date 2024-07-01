@@ -29,7 +29,7 @@ namespace
 wasm
 {
 const
-CodeTier
+CodeBlock
 &
 Instance
 :
@@ -45,7 +45,7 @@ return
 code_
 -
 >
-codeTier
+codeBlock
 (
 t
 )

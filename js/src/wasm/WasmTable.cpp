@@ -1240,9 +1240,9 @@ bestTier
 )
 ;
 const
-CodeTier
+CodeBlock
 &
-codeTier
+codeBlock
 =
 instance
 .
@@ -1256,11 +1256,11 @@ CodeRange
 &
 codeRange
 =
-codeTier
+codeBlock
 .
 codeRange
 (
-codeTier
+codeBlock
 .
 lookupFuncExport
 (

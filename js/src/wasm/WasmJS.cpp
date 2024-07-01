@@ -6078,9 +6078,9 @@ codeMeta
 )
 ;
 const
-CodeTier
+CodeBlock
 &
-codeTier
+codeBlock
 =
 module
 -
@@ -6341,7 +6341,7 @@ codeMeta
 .
 getFuncImportType
 (
-codeTier
+codeBlock
 .
 funcImports
 [
@@ -6798,9 +6798,9 @@ codeMeta
 )
 ;
 const
-CodeTier
+CodeBlock
 &
-codeTier
+codeBlock
 =
 module
 -
@@ -6984,7 +6984,7 @@ FuncExport
 &
 fe
 =
-codeTier
+codeBlock
 .
 lookupFuncExport
 (
@@ -10569,9 +10569,9 @@ superTypeVector
 )
 ;
 const
-CodeTier
+CodeBlock
 &
-codeTier
+codeBlock
 =
 instance
 .
@@ -10579,7 +10579,7 @@ code
 (
 )
 .
-codeTier
+codeBlock
 (
 instance
 .
@@ -10597,7 +10597,7 @@ CodeRange
 &
 codeRange
 =
-codeTier
+codeBlock
 .
 codeRange
 (
@@ -10615,7 +10615,7 @@ FunctionExtended
 WASM_FUNC_UNCHECKED_ENTRY_SLOT
 PrivateValue
 (
-codeTier
+codeBlock
 .
 segment
 -
@@ -10706,7 +10706,7 @@ fun
 )
 ;
 const
-CodeTier
+CodeBlock
 &
 code
 =

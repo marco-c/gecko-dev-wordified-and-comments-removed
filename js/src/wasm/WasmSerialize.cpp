@@ -665,7 +665,7 @@ Code
 Metadata
 ModuleMetadata
 CodeMetadata
-CodeTier
+CodeBlock
 ModuleSegment
 }
 ;
@@ -6273,7 +6273,7 @@ Ok
 ;
 }
 CoderResult
-CodeCodeTier
+CodeCodeBlock
 (
 Coder
 <
@@ -6284,7 +6284,7 @@ coder
 wasm
 :
 :
-UniqueCodeTier
+UniqueCodeBlock
 *
 item
 const
@@ -6301,7 +6301,7 @@ WASM_VERIFY_SERIALIZATION_FOR_SIZE
 wasm
 :
 :
-CodeTier
+CodeBlock
 248
 )
 ;
@@ -6313,7 +6313,7 @@ js
 :
 MakeUnique
 <
-CodeTier
+CodeBlock
 >
 (
 Tier
@@ -6346,7 +6346,7 @@ coder
 Marker
 :
 :
-CodeTier
+CodeBlock
 )
 )
 ;
@@ -6535,7 +6535,7 @@ CoderMode
 mode
 >
 CoderResult
-CodeCodeTier
+CodeCodeBlock
 (
 Coder
 <
@@ -6549,7 +6549,7 @@ mode
 wasm
 :
 :
-CodeTier
+CodeBlock
 >
 item
 const
@@ -6566,7 +6566,7 @@ WASM_VERIFY_SERIALIZATION_FOR_SIZE
 wasm
 :
 :
-CodeTier
+CodeBlock
 248
 )
 ;
@@ -6580,7 +6580,7 @@ coder
 Marker
 :
 :
-CodeTier
+CodeBlock
 )
 )
 ;
@@ -6773,8 +6773,8 @@ Code
 MutableCodeMetadata
 codeMeta
 ;
-UniqueCodeTier
-codeTier
+UniqueCodeBlock
+codeBlock
 ;
 MOZ_TRY
 (
@@ -6796,11 +6796,11 @@ codeMeta
 ;
 MOZ_TRY
 (
-CodeCodeTier
+CodeCodeBlock
 (
 coder
 &
-codeTier
+codeBlock
 linkData
 )
 )
@@ -6869,11 +6869,11 @@ CompileMode
 :
 Once
 *
-codeTier
+codeBlock
 -
 >
 segment
-codeTier
+codeBlock
 -
 >
 codeRanges
@@ -6905,7 +6905,7 @@ std
 :
 move
 (
-codeTier
+codeBlock
 )
 std
 :
@@ -7022,7 +7022,7 @@ codeMeta_
 ;
 MOZ_TRY
 (
-CodeCodeTier
+CodeCodeBlock
 (
 coder
 &
@@ -7032,7 +7032,7 @@ item
 )
 -
 >
-codeTier
+codeBlock
 (
 Tier
 :
