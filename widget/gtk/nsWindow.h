@@ -912,14 +912,6 @@ IsEnabled
 const
 override
 ;
-void
-SetZIndex
-(
-int32_t
-aZIndex
-)
-override
-;
 nsSizeMode
 SizeMode
 (

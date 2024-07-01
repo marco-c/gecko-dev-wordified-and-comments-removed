@@ -291,13 +291,6 @@ mTimeStamp
 (
 inTimeStamp
 )
-mZLevel
-(
-nsIAppWindow
-:
-:
-normalZ
-)
 {
 ReferenceSelf
 (
@@ -313,8 +306,9 @@ nsWindowInfo
 nsWindowInfo
 (
 )
-{
-}
+=
+default
+;
 bool
 nsWindowInfo
 :
