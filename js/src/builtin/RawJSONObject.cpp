@@ -136,7 +136,7 @@ cx
 obj
 id
 jsonStringVal
-0
+JSPROP_ENUMERATE
 )
 )
 {
