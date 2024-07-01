@@ -54,6 +54,7 @@ RasterImage
 ;
 class
 nsGIFDecoder2
+final
 :
 public
 Decoder
@@ -90,6 +91,12 @@ aIterator
 IResumable
 *
 aOnResume
+)
+override
+;
+nsresult
+FinishWithErrorInternal
+(
 )
 override
 ;
