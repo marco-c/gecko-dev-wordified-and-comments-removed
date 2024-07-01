@@ -2924,17 +2924,6 @@ MOZ_OPTIMIZE_FLAGS
 O
 "
 fi
-if
-test
--
-n
-"
-COMPILE_ENVIRONMENT
-"
-;
-then
-MOZ_COMPILER_OPTS
-fi
 dnl
 Mozilla
 specific
