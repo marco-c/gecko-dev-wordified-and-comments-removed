@@ -3907,7 +3907,16 @@ Blob
 (
 [
 data
+.
+icon
 ]
+{
+type
+:
+data
+.
+mimeType
+}
 )
 ;
 return

@@ -673,7 +673,6 @@ typeof
 data
 =
 =
-=
 "
 string
 "
@@ -691,7 +690,16 @@ Blob
 (
 [
 data
+.
+icon
 ]
+{
+type
+:
+data
+.
+mimeType
+}
 )
 ;
 return
