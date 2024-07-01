@@ -2376,6 +2376,10 @@ mNeedToReportActiveAfterLoadingBecomesActive
 (
 false
 )
+mCurrentLoadIsSameDocumentNavigation
+(
+false
+)
 {
 if
 (
@@ -38338,12 +38342,9 @@ aLoadState
 SameDocumentNavigationState
 &
 aState
-bool
-&
-aSameDocument
 )
 {
-aSameDocument
+mCurrentLoadIsSameDocumentNavigation
 =
 true
 ;
@@ -38619,7 +38620,7 @@ newURI
 )
 )
 {
-aSameDocument
+mCurrentLoadIsSameDocumentNavigation
 =
 false
 ;
@@ -40423,6 +40424,10 @@ TriggeringPrincipal
 "
 )
 ;
+mCurrentLoadIsSameDocumentNavigation
+=
+false
+;
 if
 (
 !
@@ -40643,8 +40648,9 @@ aLoadState
 SameDocumentNavigationState
 sameDocumentNavigationState
 ;
+const
 bool
-sameDocument
+maybeSameDocumentNavigation
 =
 IsSameDocumentNavigation
 (
@@ -41003,7 +41009,7 @@ false
 ;
 if
 (
-sameDocument
+maybeSameDocumentNavigation
 )
 {
 nsresult
@@ -41013,7 +41019,6 @@ HandleSameDocumentNavigation
 (
 aLoadState
 sameDocumentNavigationState
-sameDocument
 )
 ;
 NS_ENSURE_SUCCESS
@@ -41044,7 +41049,7 @@ IgnoreErrors
 }
 if
 (
-sameDocument
+mCurrentLoadIsSameDocumentNavigation
 )
 {
 return
