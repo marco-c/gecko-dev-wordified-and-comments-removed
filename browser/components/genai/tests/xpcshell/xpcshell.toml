@@ -22,3 +22,10 @@ test_contextual_prompts
 js
 "
 ]
+[
+"
+test_provider_id
+.
+js
+"
+]

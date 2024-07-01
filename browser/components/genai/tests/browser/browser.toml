@@ -50,6 +50,13 @@ js
 ]
 [
 "
+browser_chat_telemetry
+.
+js
+"
+]
+[
+"
 browser_genai_init
 .
 js
