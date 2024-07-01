@@ -243,7 +243,7 @@ dependencies
 api
 ComponentsDependencies
 .
-mozilla_appservices_suggest
+mozilla_remote_settings
 implementation
 project
 (
@@ -322,6 +322,10 @@ implementation
 ComponentsDependencies
 .
 kotlin_coroutines
+implementation
+ComponentsDependencies
+.
+mozilla_appservices_suggest
 testImplementation
 project
 (
