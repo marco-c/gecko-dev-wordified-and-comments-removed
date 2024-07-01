@@ -31,6 +31,13 @@ js
 ]
 [
 "
+browser_chips_partition_cap_child
+.
+js
+"
+]
+[
+"
 browser_cookie_chips
 .
 js
