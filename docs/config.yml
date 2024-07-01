@@ -146,6 +146,10 @@ nspr
 security
 /
 nss
+-
+content
+-
+security
 build_doc
 :
 -
