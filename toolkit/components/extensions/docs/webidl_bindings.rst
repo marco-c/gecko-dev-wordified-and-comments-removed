@@ -1223,7 +1223,7 @@ to
 generate
 the
 "
-privilged
+privileged
 JS
 "
 -

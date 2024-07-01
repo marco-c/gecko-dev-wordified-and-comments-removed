@@ -2627,7 +2627,7 @@ g
 for
 x86_64
 the
-platorm
+platform
 names
 would
 be

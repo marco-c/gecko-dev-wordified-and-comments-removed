@@ -667,7 +667,7 @@ TrrLookup_
 Since
 we
 usually
-reolve
+resolve
 both
 IPv4
 and

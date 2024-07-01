@@ -39,7 +39,7 @@ mobile
 specific
 ping
 is
-intendend
+intended
 to
 track
 activations
@@ -212,7 +212,7 @@ only
 if
 identifier
 was
-unabled
+unable
 to
 be
 retrieved

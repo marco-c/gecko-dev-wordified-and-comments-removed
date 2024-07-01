@@ -652,7 +652,7 @@ applications
 UI
 tests
 are
-classfied
+classified
 under
 the
 ui
