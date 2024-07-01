@@ -1279,6 +1279,14 @@ Kind
 :
 :
 Win11
+&
+&
+StaticPrefs
+:
+:
+widget_non_native_theme_win11_scrollbar_round_track
+(
+)
 )
 {
 LayoutDeviceCoord
