@@ -1466,7 +1466,7 @@ NS_ERROR_NOT_AVAILABLE
 mTRRServiceParent
 -
 >
-ReloadParentalControlsEnabled
+UpdateParentalControlEnabled
 (
 )
 ;
