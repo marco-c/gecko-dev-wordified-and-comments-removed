@@ -1216,6 +1216,20 @@ os
 macosx
 "
     
+is_linux
+=
+worker
+[
+"
+os
+"
+]
+=
+=
+"
+linux
+"
+    
 is_bitbar
 =
 worker
@@ -1552,6 +1566,9 @@ checkout
 and
 not
 is_mac
+and
+not
+is_linux
 :
         
 worker
