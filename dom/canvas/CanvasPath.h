@@ -159,7 +159,7 @@ GlobalObject
 &
 aGlobal
 const
-nsAString
+nsACString
 &
 aPathString
 )

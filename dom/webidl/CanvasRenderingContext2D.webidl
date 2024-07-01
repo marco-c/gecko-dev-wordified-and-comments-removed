@@ -3009,7 +3009,7 @@ other
 ;
 constructor
 (
-DOMString
+UTF8String
 pathString
 )
 ;

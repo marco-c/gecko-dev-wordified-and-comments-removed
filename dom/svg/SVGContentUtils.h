@@ -931,7 +931,7 @@ Path
 GetPath
 (
 const
-nsAString
+nsACString
 &
 aPathString
 )
