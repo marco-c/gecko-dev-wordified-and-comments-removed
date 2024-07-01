@@ -9615,10 +9615,6 @@ nsIReferrerInfo
 aReferrerInfo
 OriginAttributes
 aOriginAttributes
-bool
-aUserActivation
-bool
-aTextDirectiveUserActivation
 )
 returns
 (
@@ -9659,10 +9655,6 @@ nsIReferrerInfo
 aReferrerInfo
 OriginAttributes
 aOriginAttributes
-bool
-aUserActivation
-bool
-aTextDirectiveUserActivation
 )
 ;
 /
