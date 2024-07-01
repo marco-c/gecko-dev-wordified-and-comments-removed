@@ -2855,7 +2855,9 @@ browser
 await
 openProfilerTab
 (
+{
 profilerViewMode
+}
 )
 ;
 registerProfileCaptureForBrowser

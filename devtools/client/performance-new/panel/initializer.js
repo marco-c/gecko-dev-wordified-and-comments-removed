@@ -722,7 +722,9 @@ browser
 await
 openProfilerTab
 (
+{
 profilerViewMode
+}
 )
 ;
 const
