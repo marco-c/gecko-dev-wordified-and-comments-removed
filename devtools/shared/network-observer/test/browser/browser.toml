@@ -138,6 +138,13 @@ asan
 ]
 [
 "
+browser_networkobserver_data_url
+.
+js
+"
+]
+[
+"
 browser_networkobserver_invalid_constructor
 .
 js
