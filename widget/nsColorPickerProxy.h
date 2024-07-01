@@ -81,6 +81,15 @@ aColor
 )
 override
 ;
+virtual
+void
+ActorDestroy
+(
+ActorDestroyReason
+aWhy
+)
+override
+;
 private
 :
 ~
