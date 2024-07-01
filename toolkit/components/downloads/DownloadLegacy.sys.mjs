@@ -2296,6 +2296,17 @@ error
 )
 ;
 }
+get
+downloadPromise
+(
+)
+{
+return
+this
+.
+_promiseDownload
+;
+}
 setSha256Hash
 (
 hash
