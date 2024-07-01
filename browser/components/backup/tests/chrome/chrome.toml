@@ -46,6 +46,13 @@ html
 ]
 [
 "
+test_enable_backup_encryption
+.
+html
+"
+]
+[
+"
 test_restore_from_backup
 .
 html
