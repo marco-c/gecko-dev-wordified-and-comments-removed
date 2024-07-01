@@ -153,6 +153,8 @@ type_
 uint8_t
 *
 resumePCinCurrentFrame_
+=
+nullptr
 ;
 mozilla
 :
@@ -170,6 +172,8 @@ const
 SafepointIndex
 *
 cachedSafepointIndex_
+=
+nullptr
 ;
 const
 JitActivation
