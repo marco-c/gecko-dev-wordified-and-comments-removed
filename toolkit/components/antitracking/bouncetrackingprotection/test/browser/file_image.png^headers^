@@ -1,0 +1,16 @@
+Set
+-
+Cookie
+:
+foo
+=
+bar
+;
+SameSite
+=
+None
+;
+Secure
+;
+Partitioned
+;
