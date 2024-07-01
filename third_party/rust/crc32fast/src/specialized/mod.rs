@@ -8,7 +8,6 @@ cfg
 (
 all
 (
-crc32fast_stdarchx86
 target_feature
 =
 "

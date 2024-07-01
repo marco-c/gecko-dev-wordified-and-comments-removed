@@ -37,6 +37,10 @@ zip
 :
 :
 {
+write
+:
+:
+SimpleFileOptions
 ZipArchive
 ZipWriter
 }
@@ -86,13 +90,7 @@ data
 let
 options
 =
-zip
-:
-:
-write
-:
-:
-FileOptions
+SimpleFileOptions
 :
 :
 default
