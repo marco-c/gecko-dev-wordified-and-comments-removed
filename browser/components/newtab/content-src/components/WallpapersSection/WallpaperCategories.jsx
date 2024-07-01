@@ -747,7 +747,6 @@ wallpaper
 title
 "
 >
-Wallpapers
 <
 /
 h2
