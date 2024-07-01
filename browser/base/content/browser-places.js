@@ -2942,9 +2942,9 @@ aEvent
 target
 !
 =
-aEvent
+this
 .
-currentTarget
+rootElement
 )
 {
 return
