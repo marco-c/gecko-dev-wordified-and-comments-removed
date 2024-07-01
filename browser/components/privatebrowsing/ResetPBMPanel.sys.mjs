@@ -429,9 +429,6 @@ aEvent
 )
 ;
 }
-hideInNonPrivateBrowsing
-:
-true
 }
 ;
 if
