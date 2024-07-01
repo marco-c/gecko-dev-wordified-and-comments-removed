@@ -207,13 +207,6 @@ js
 ]
 [
 "
-browser_bouncetracking_userActivation
-.
-js
-"
-]
-[
-"
 browser_bouncetracking_webAuthUserActivation
 .
 js
