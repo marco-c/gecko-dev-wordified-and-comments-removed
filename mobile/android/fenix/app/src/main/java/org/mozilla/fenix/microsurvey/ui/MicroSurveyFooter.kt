@@ -310,10 +310,12 @@ not
 .
 *
 param
-onLinkClick
+onPrivacyPolicyLinkClick
 Invoked
 when
 the
+privacy
+policy
 link
 is
 clicked
@@ -347,7 +349,7 @@ Boolean
 isContentAnswerSelected
 :
 Boolean
-onLinkClick
+onPrivacyPolicyLinkClick
 :
 (
 )
@@ -463,7 +465,7 @@ url
 onClick
 =
 {
-onLinkClick
+onPrivacyPolicyLinkClick
 (
 )
 }
@@ -536,7 +538,7 @@ false
 isContentAnswerSelected
 =
 false
-onLinkClick
+onPrivacyPolicyLinkClick
 =
 {
 }
@@ -553,7 +555,7 @@ false
 isContentAnswerSelected
 =
 true
-onLinkClick
+onPrivacyPolicyLinkClick
 =
 {
 }
@@ -570,7 +572,7 @@ true
 isContentAnswerSelected
 =
 true
-onLinkClick
+onPrivacyPolicyLinkClick
 =
 {
 }

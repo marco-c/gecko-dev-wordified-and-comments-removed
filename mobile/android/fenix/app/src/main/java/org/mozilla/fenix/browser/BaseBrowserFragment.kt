@@ -7720,7 +7720,7 @@ R
 .
 id
 .
-homeFragment
+browserFragment
 BrowserFragmentDirections
 .
 actionGlobalMicrosurveyDialog
@@ -8229,7 +8229,7 @@ R
 .
 id
 .
-homeFragment
+browserFragment
 BrowserFragmentDirections
 .
 actionGlobalMicrosurveyDialog
