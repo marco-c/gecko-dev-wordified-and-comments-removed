@@ -36,6 +36,13 @@ js
 ]
 [
 "
+browser_chat_request
+.
+js
+"
+]
+[
+"
 browser_chat_sidebar
 .
 js
