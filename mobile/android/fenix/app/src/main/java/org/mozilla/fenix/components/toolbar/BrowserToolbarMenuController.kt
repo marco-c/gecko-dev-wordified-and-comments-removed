@@ -1612,6 +1612,15 @@ getUrl
 (
 )
 }
+?
+:
+currentSession
+?
+.
+content
+?
+.
+url
 val
 directions
 =
