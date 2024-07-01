@@ -2385,9 +2385,6 @@ Item
 Passwords
 -
 >
-browserAnimator
-.
-captureEngineViewAndDrawStatically
 {
 fragment
 .
