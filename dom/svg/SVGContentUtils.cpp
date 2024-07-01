@@ -4994,6 +4994,9 @@ StyleStrokeLinecap
 :
 Butt
 1
+1
+.
+0f
 )
 ;
 }

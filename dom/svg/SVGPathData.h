@@ -375,6 +375,8 @@ aDistance
 void
 GetMarkerPositioningData
 (
+float
+aZoom
 nsTArray
 <
 SVGMark
@@ -394,6 +396,8 @@ const
 StylePathCommand
 >
 aPath
+float
+aZoom
 nsTArray
 <
 SVGMark
@@ -438,6 +442,8 @@ Path
 >
 BuildPathForMeasuring
 (
+float
+aZoom
 )
 const
 ;
@@ -454,6 +460,8 @@ StyleStrokeLinecap
 aStrokeLineCap
 Float
 aStrokeWidth
+float
+aZoom
 )
 const
 ;
@@ -470,6 +478,8 @@ const
 StylePathCommand
 >
 aPath
+float
+aZoom
 )
 ;
 static
@@ -507,12 +517,8 @@ Point
 &
 aOffset
 =
-gfx
-:
-:
-Point
-(
-)
+{
+}
 float
 aZoomFactor
 =

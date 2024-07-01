@@ -599,6 +599,8 @@ StyleStrokeLinecap
 aStrokeLineCap
 Float
 aStrokeWidth
+float
+aZoom
 )
 const
 {
@@ -611,6 +613,11 @@ AsSpan
 aBuilder
 aStrokeLineCap
 aStrokeWidth
+{
+}
+{
+}
+aZoom
 )
 ;
 }
@@ -626,6 +633,8 @@ SVGPathData
 :
 BuildPathForMeasuring
 (
+float
+aZoom
 )
 const
 {
@@ -673,6 +682,7 @@ StyleStrokeLinecap
 :
 Butt
 0
+aZoom
 )
 ;
 }
@@ -691,6 +701,8 @@ const
 StylePathCommand
 >
 aPath
+float
+aZoom
 )
 {
 RefPtr
@@ -738,6 +750,11 @@ StyleStrokeLinecap
 :
 Butt
 0
+{
+}
+{
+}
+aZoom
 )
 ;
 }
@@ -3003,6 +3020,8 @@ SVGPathData
 :
 GetMarkerPositioningData
 (
+float
+aZoom
 nsTArray
 <
 SVGMark
@@ -3018,6 +3037,7 @@ GetMarkerPositioningData
 AsSpan
 (
 )
+aZoom
 aMarks
 )
 ;
@@ -3034,6 +3054,8 @@ const
 StylePathCommand
 >
 aPath
+float
+aZoom
 nsTArray
 <
 SVGMark
@@ -3184,6 +3206,8 @@ point
 ToGfxPoint
 (
 )
+*
+aZoom
 ;
 pathStart
 =
@@ -3253,6 +3277,8 @@ point
 ToGfxPoint
 (
 )
+*
+aZoom
 ;
 segEnd
 =
@@ -3309,6 +3335,8 @@ control1
 ToGfxPoint
 (
 )
+*
+aZoom
 ;
 Point
 cp2
@@ -3322,6 +3350,8 @@ control2
 ToGfxPoint
 (
 )
+*
+aZoom
 ;
 segEnd
 =
@@ -3334,6 +3364,8 @@ point
 ToGfxPoint
 (
 )
+*
+aZoom
 ;
 if
 (
@@ -3443,6 +3475,8 @@ control1
 ToGfxPoint
 (
 )
+*
+aZoom
 ;
 segEnd
 =
@@ -3455,6 +3489,8 @@ point
 ToGfxPoint
 (
 )
+*
+aZoom
 ;
 if
 (
@@ -3546,6 +3582,8 @@ arc
 radii
 .
 x
+*
+aZoom
 ;
 float
 ry
@@ -3555,6 +3593,8 @@ arc
 radii
 .
 y
+*
+aZoom
 ;
 float
 angle
@@ -3598,6 +3638,8 @@ point
 ToGfxPoint
 (
 )
+*
+aZoom
 ;
 if
 (
@@ -3723,6 +3765,8 @@ segStart
 .
 y
 )
+*
+aZoom
 ;
 }
 else
@@ -3742,6 +3786,8 @@ x
 .
 0f
 )
+*
+aZoom
 ;
 }
 segStartAngle
@@ -3795,6 +3841,8 @@ v_line
 .
 y
 )
+*
+aZoom
 ;
 }
 else
@@ -3814,6 +3862,8 @@ v_line
 .
 y
 )
+*
+aZoom
 ;
 }
 segStartAngle
@@ -3874,6 +3924,8 @@ control2
 ToGfxPoint
 (
 )
+*
+aZoom
 ;
 segEnd
 =
@@ -3886,6 +3938,8 @@ point
 ToGfxPoint
 (
 )
+*
+aZoom
 ;
 if
 (
@@ -4024,6 +4078,8 @@ point
 ToGfxPoint
 (
 )
+*
+aZoom
 :
 segStart
 +
@@ -4036,6 +4092,8 @@ point
 ToGfxPoint
 (
 )
+*
+aZoom
 ;
 prevCP
 =
@@ -4316,10 +4374,11 @@ segEndAngle
 }
 if
 (
+!
 aMarks
 -
 >
-Length
+IsEmpty
 (
 )
 )
