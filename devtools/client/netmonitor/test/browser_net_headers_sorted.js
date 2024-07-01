@@ -630,6 +630,9 @@ Connection
 Cookie
 "
 "
+Priority
+"
+"
 Upgrade
 -
 Insecure
@@ -656,9 +659,6 @@ Sec
 Fetch
 -
 Site
-"
-"
-Priority
 "
 "
 Pragma
