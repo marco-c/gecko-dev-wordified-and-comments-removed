@@ -20,14 +20,6 @@ IMPL_LIBXUL
 ]
 =
 True
-LIBRARY_DEFINES
-[
-"
-MOZ_SUPPORT_LEAKCHECKING
-"
-]
-=
-True
 if
 not
 CONFIG
