@@ -523,6 +523,9 @@ label
 labelTextColor
 =
 labelTextColor
+maxLabelLines
+=
+2
 description
 =
 description

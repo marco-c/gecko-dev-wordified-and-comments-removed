@@ -1692,7 +1692,7 @@ accessPoint
 =
 MenuAccessPoint
 .
-Home
+Browser
 account
 =
 null
