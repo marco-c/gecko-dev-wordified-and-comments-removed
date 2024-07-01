@@ -5,6 +5,11 @@ mozilla_WasiAtomic_h
 define
 mozilla_WasiAtomic_h
 #
+include
+<
+cstddef
+>
+#
 if
 _LIBCPP_VERSION
 >
@@ -17,11 +22,6 @@ atomic
 >
 #
 else
-#
-include
-<
-cstddef
->
 #
 include
 <
