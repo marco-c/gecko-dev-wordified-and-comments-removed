@@ -108,7 +108,7 @@ build
 "
 and
 "
-tsan
+fuzzing
 "
 in
 t
@@ -120,12 +120,12 @@ build_platform
 "
 ]
             
-1
+5
             
 id
 =
 "
-tsan
+fuzzing
 builds
 "
         

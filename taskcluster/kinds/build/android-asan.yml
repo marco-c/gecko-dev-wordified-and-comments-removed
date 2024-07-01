@@ -551,17 +551,6 @@ fuzzing
 asan
 -
 tc
-run
--
-on
--
-projects
-:
-[
-'
-trunk
-'
-]
 use
 -
 sccache
