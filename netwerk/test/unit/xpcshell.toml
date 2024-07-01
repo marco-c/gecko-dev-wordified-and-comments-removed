@@ -2623,13 +2623,6 @@ js
 ]
 [
 "
-test_cookies_thirdparty_session
-.
-js
-"
-]
-[
-"
 test_cookies_upgrade_10
 .
 js
