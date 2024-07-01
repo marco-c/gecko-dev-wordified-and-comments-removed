@@ -108,17 +108,6 @@ mozilla
 /
 dom
 /
-UniqueContentParentKeepAlive
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 VsyncParent
 .
 h
@@ -3679,9 +3668,6 @@ mBrowserBridgeParent
 BrowserHost
 *
 mBrowserHost
-;
-UniqueContentParentKeepAlive
-mContentParentKeepAlive
 ;
 ContentCacheInParent
 mContentCache
