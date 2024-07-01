@@ -3694,6 +3694,17 @@ wantUntrusted
 :
 true
 }
+"
+BackupUI
+:
+RerunEncryption
+"
+:
+{
+wantUntrusted
+:
+true
+}
 }
 }
 matches
