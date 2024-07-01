@@ -13,13 +13,9 @@ importlib
 import_module
 (
 "
-credential
--
-management
+fedcm
 .
 support
-.
-fedcm
 .
 keys
 "
