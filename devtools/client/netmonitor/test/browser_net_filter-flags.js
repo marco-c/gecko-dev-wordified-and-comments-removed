@@ -247,7 +247,7 @@ GET
 "
 url
 :
-CONTENT_TYPE_SJS
+HTTPS_CONTENT_TYPE_SJS
 +
 "
 ?
@@ -297,7 +297,7 @@ GET
 "
 url
 :
-CONTENT_TYPE_SJS
+HTTPS_CONTENT_TYPE_SJS
 +
 "
 ?
@@ -347,7 +347,7 @@ GET
 "
 url
 :
-CONTENT_TYPE_SJS
+HTTPS_CONTENT_TYPE_SJS
 +
 "
 ?
@@ -397,7 +397,7 @@ GET
 "
 url
 :
-CONTENT_TYPE_SJS
+HTTPS_CONTENT_TYPE_SJS
 +
 "
 ?
@@ -447,7 +447,7 @@ GET
 "
 url
 :
-CONTENT_TYPE_SJS
+HTTPS_CONTENT_TYPE_SJS
 +
 "
 ?
@@ -491,7 +491,7 @@ GET
 "
 url
 :
-CONTENT_TYPE_SJS
+HTTPS_CONTENT_TYPE_SJS
 +
 "
 ?
@@ -535,7 +535,7 @@ GET
 "
 url
 :
-CONTENT_TYPE_SJS
+HTTPS_CONTENT_TYPE_SJS
 +
 "
 ?
@@ -579,7 +579,7 @@ GET
 "
 url
 :
-CONTENT_TYPE_SJS
+HTTPS_CONTENT_TYPE_SJS
 +
 "
 ?
@@ -623,7 +623,7 @@ GET
 "
 url
 :
-CONTENT_TYPE_SJS
+HTTPS_CONTENT_TYPE_SJS
 +
 "
 ?
@@ -672,7 +672,7 @@ GET
 "
 url
 :
-STATUS_CODES_SJS
+HTTPS_STATUS_CODES_SJS
 +
 "
 ?
@@ -734,7 +734,7 @@ monitor
 await
 initNetMonitor
 (
-FILTERING_URL
+HTTPS_FILTERING_URL
 {
 requestCount
 :
@@ -1299,7 +1299,7 @@ flag
 all
 requests
 are
-http
+https
 )
 "
 )
@@ -1309,7 +1309,7 @@ setFreetextFilter
 "
 scheme
 :
-http
+https
 "
 )
 ;
@@ -1335,7 +1335,7 @@ setFreetextFilter
 "
 scheme
 :
-https
+http
 "
 )
 ;
