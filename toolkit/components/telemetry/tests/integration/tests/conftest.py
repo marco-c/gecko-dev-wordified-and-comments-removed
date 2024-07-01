@@ -610,7 +610,18 @@ server
 =
 PingServer
 (
+        
+os
+.
+path
+.
+join
+(
+build
+.
+topsrcdir
 SERVER_ROOT
+)
 "
 http
 :
@@ -620,6 +631,7 @@ localhost
 :
 0
 "
+    
 )
     
 server
