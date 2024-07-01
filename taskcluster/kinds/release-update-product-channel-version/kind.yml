@@ -109,7 +109,7 @@ transforms
 task
 :
 transforms
-task
+job
 -
 defaults
 :
@@ -241,7 +241,7 @@ other
 tier
 :
 1
-tasks
+jobs
 :
 firefox
 :
