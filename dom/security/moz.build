@@ -61,6 +61,11 @@ CSPViolationData
 h
 "
 "
+DomSecurityIPCUtils
+.
+h
+"
+"
 DOMSecurityMonitor
 .
 h
