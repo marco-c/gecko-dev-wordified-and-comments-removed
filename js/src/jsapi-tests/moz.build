@@ -630,6 +630,11 @@ testStringBuffer
 cpp
 "
 "
+testStringBuffers
+.
+cpp
+"
+"
 testStringIsArrayIndex
 .
 cpp
