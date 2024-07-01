@@ -959,10 +959,10 @@ dimen
 name
 =
 "
-browser_microsurvey_height
+tab_strip_height
 "
 >
-104dp
+48dp
 <
 /
 dimen
@@ -972,10 +972,10 @@ dimen
 name
 =
 "
-tab_strip_height
+browser_microsurvey_height
 "
 >
-0dp
+104dp
 <
 /
 dimen
