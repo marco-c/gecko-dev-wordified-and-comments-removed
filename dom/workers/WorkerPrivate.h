@@ -477,6 +477,9 @@ class
 WorkerThread
 ;
 class
+WorkerThreadRunnable
+;
+class
 MOZ_CAPABILITY
 (
 "
@@ -4990,7 +4993,7 @@ nsTArray
 <
 RefPtr
 <
-WorkerRunnable
+WorkerThreadRunnable
 >
 >
 mPreStartRunnables

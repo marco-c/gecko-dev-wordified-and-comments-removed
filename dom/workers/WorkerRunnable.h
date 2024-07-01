@@ -738,11 +738,11 @@ NS_DECL_NSIRUNNABLE
 bool
 mCallingCancelWithinRun
 ;
-CheckedUnsafePtr
-<
-WorkerPrivate
->
-mWorkerPrivateForPreStartCleaning
+bool
+mCleanPreStartDispatching
+{
+false
+}
 ;
 }
 ;
