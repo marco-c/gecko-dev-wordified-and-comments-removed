@@ -104,6 +104,11 @@ nsIRaceCacheWithNetwork
 idl
 "
 "
+nsIReplacedHttpResponse
+.
+idl
+"
+"
 nsITlsHandshakeListener
 .
 idl
@@ -329,6 +334,11 @@ h
 "
 "
 PSpdyPush
+.
+h
+"
+"
+ReplacedHttpResponse
 .
 h
 "
@@ -739,6 +749,11 @@ cpp
 "
 "
 QuicSocketControl
+.
+cpp
+"
+"
+ReplacedHttpResponse
 .
 cpp
 "
