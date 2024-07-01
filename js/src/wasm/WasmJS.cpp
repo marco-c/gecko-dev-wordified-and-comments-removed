@@ -899,6 +899,8 @@ utf8Bytes
 )
 codeMeta
 .
+features
+.
 builtinModules
 )
 ;
@@ -21445,10 +21447,7 @@ return
 nullptr
 ;
 }
-RefPtr
-<
-ModuleMetadata
->
+MutableModuleMetadata
 moduleMeta
 =
 js_new
@@ -21468,10 +21467,7 @@ return
 nullptr
 ;
 }
-RefPtr
-<
-CodeMetadata
->
+MutableCodeMetadata
 codeMeta
 =
 js_new
