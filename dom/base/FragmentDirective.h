@@ -295,6 +295,11 @@ aURI
 nullptr
 )
 ;
+bool
+IsTextDirectiveAllowedToBeScrolledTo
+(
+)
+;
 private
 :
 RefPtr
