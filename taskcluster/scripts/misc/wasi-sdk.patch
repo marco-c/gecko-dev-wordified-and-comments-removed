@@ -358,6 +358,12 @@ CFLAGS
 +
 =
 -
+mno
+-
+reference
+-
+types
+-
 Wall
 -
 Wextra
