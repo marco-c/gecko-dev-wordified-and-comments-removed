@@ -455,6 +455,11 @@ content
 .
 tour_pref_name
 ;
+if
+(
+tourPref
+)
+{
 Services
 .
 prefs
@@ -464,6 +469,7 @@ clearUserPref
 tourPref
 )
 ;
+}
 /
 /
 For
