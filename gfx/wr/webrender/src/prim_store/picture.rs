@@ -3291,10 +3291,6 @@ linear
 :
 bool
 pub
-inflate
-:
-i16
-pub
 inputs
 :
 Vec
@@ -3341,11 +3337,6 @@ linear
 node
 .
 linear
-inflate
-:
-node
-.
-inflate
 inputs
 :
 node

@@ -141,6 +141,9 @@ gfx
 MatrixScalesDouble
 &
 aUserSpaceToFilterSpaceScale
+gfxRect
+&
+aFilterSpaceBoundsNotSnapped
 )
 ;
 bool
@@ -393,6 +396,9 @@ mTargetBBox
 ;
 nsIntRect
 mFilterSpaceBounds
+;
+gfxRect
+mFilterSpaceBoundsNotSnapped
 ;
 gfx
 :
