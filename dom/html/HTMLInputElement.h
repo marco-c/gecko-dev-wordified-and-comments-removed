@@ -4827,11 +4827,6 @@ mChecked
 1
 ;
 bool
-mHandlingSelectEvent
-:
-1
-;
-bool
 mShouldInitChecked
 :
 1

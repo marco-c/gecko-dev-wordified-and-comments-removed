@@ -5069,10 +5069,6 @@ mChecked
 (
 false
 )
-mHandlingSelectEvent
-(
-false
-)
 mShouldInitChecked
 (
 false
