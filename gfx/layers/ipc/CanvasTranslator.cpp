@@ -1636,6 +1636,9 @@ readerState
 )
 )
 ;
+#
+ifndef
+FUZZING_SNAPSHOT
 MOZ_DIAGNOSTIC_ASSERT
 (
 false
@@ -1653,6 +1656,8 @@ Paused
 "
 )
 ;
+#
+endif
 Deactivate
 (
 )
@@ -1960,6 +1965,9 @@ readerState
 )
 )
 ;
+#
+ifndef
+FUZZING_SNAPSHOT
 MOZ_DIAGNOSTIC_ASSERT
 (
 false
@@ -1977,6 +1985,8 @@ Paused
 "
 )
 ;
+#
+endif
 Deactivate
 (
 )
@@ -5690,6 +5700,9 @@ aTextureId
 0
 )
 {
+#
+ifndef
+FUZZING_SNAPSHOT
 MOZ_DIAGNOSTIC_ASSERT
 (
 false
@@ -5701,6 +5714,8 @@ set
 "
 )
 ;
+#
+endif
 return
 nullptr
 ;
@@ -5715,6 +5730,9 @@ IsValid
 )
 )
 {
+#
+ifndef
+FUZZING_SNAPSHOT
 MOZ_DIAGNOSTIC_ASSERT
 (
 false
@@ -5726,6 +5744,8 @@ set
 "
 )
 ;
+#
+endif
 return
 nullptr
 ;
@@ -5939,6 +5959,9 @@ SurfaceFormat
 aFormat
 )
 {
+#
+ifndef
+FUZZING_SNAPSHOT
 MOZ_DIAGNOSTIC_ASSERT
 (
 false
@@ -5950,6 +5973,8 @@ call
 "
 )
 ;
+#
+endif
 return
 nullptr
 ;
