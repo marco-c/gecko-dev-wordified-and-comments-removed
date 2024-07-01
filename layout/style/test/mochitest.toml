@@ -1922,13 +1922,6 @@ html
 ]
 [
 "
-test_font_face_gc
-.
-html
-"
-]
-[
-"
 test_font_face_parser
 .
 html
