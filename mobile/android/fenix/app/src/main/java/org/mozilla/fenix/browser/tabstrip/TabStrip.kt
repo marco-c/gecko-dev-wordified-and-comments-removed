@@ -2114,11 +2114,16 @@ contentDescription
 =
 stringResource
 (
+id
+=
 R
 .
 string
 .
-close_tab
+close_tab_title
+state
+.
+title
 )
 )
 }
