@@ -42,6 +42,11 @@ RemoteWorkerNonLifeCycleOpControllerParent
 h
 "
 "
+RemoteWorkerOp
+.
+h
+"
+"
 RemoteWorkerParent
 .
 h
@@ -98,6 +103,11 @@ cpp
 "
 "
 RemoteWorkerNonLifeCycleOpControllerParent
+.
+cpp
+"
+"
+RemoteWorkerOp
 .
 cpp
 "
