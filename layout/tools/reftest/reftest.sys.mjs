@@ -12783,6 +12783,10 @@ isPrintSelection
 if
 (
 printRange
+&
+&
+!
+isPrintSelection
 )
 {
 ps
