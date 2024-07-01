@@ -6169,12 +6169,12 @@ nsWindow
 Show
 (
 bool
-bState
+aState
 )
 {
 if
 (
-bState
+aState
 &
 &
 mIsShowingPreXULSkeletonUI
@@ -6288,7 +6288,7 @@ mIsVisible
 ;
 mIsVisible
 =
-bState
+aState
 ;
 if
 (
@@ -6297,7 +6297,7 @@ mWnd
 {
 if
 (
-bState
+aState
 )
 {
 if
@@ -6941,7 +6941,7 @@ if
 wasVisible
 &
 &
-bState
+aState
 )
 {
 Invalidate
@@ -9684,7 +9684,7 @@ nsWindow
 Enable
 (
 bool
-bState
+aState
 )
 {
 if
@@ -9697,7 +9697,7 @@ mWnd
 EnableWindow
 (
 mWnd
-bState
+aState
 )
 ;
 }
