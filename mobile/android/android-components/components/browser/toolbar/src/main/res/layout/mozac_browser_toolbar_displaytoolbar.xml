@@ -327,9 +327,7 @@ android
 layout_marginEnd
 =
 "
-dimen
-/
-mozac_browser_toolbar_background_margin_end
+8dp
 "
 android
 :
