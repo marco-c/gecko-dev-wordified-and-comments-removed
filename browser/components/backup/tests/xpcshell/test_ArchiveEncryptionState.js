@@ -165,7 +165,7 @@ ok
 (
 encState
 .
-authKey
+backupAuthKey
 "
 An
 auth
@@ -335,10 +335,10 @@ deepEqual
 (
 encState
 .
-authKey
+backupAuthKey
 recoveredState
 .
-authKey
+backupAuthKey
 "
 Auth
 keys

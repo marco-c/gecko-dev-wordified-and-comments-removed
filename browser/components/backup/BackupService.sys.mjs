@@ -6016,11 +6016,11 @@ salt
 encState
 .
 salt
-authKey
+backupAuthKey
 :
 encState
 .
-authKey
+backupAuthKey
 wrappedSecrets
 :
 encState
