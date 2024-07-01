@@ -65,6 +65,11 @@ features
 =
 false
 }
+flate2
+=
+"
+1
+"
 fluent
 =
 "

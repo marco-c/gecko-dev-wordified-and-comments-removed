@@ -5744,6 +5744,9 @@ manifest
 env_logger
 "
 "
+flate2
+"
+"
 fluent
 "
 "
