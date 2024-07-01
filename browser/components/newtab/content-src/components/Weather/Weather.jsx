@@ -1962,7 +1962,7 @@ icon
 -
 info
 -
-critical
+warning
 "
 /
 >

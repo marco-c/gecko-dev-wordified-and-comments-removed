@@ -55844,7 +55844,7 @@ icon
 -
 info
 -
-critical
+warning
 "
 }
 )
