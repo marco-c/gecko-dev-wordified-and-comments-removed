@@ -171,26 +171,31 @@ WPT_SUBSUITES
 canvas
 "
 :
+[
 "
 html
 /
 canvas
 "
+]
     
 "
 webgpu
 "
 :
+[
 "
 _mozilla
 /
 webgpu
 "
+]
     
 "
 privatebrowsing
 "
 :
+[
 "
 /
 service
@@ -201,14 +206,17 @@ cache
 -
 storage
 "
+]
     
 "
 webcodecs
 "
 :
+[
 "
 webcodecs
 "
+]
 }
 def
 get_test_tags
@@ -2015,13 +2023,9 @@ subsuite
 :
                     
 if
-WPT_SUBSUITES
-[
-subsuite
-[
-0
-]
-]
+any
+(
+x
 in
 t
 [
@@ -2029,6 +2033,17 @@ t
 manifest
 "
 ]
+for
+x
+in
+WPT_SUBSUITES
+[
+subsuite
+[
+0
+]
+]
+)
 :
                         
 manifests
@@ -2046,10 +2061,24 @@ manifest
 else
 :
                     
+containsSubsuite
+=
+False
+                    
+for
+subsuites
+in
+WPT_SUBSUITES
+.
+values
+(
+)
+:
+                        
 if
 any
 (
-x
+subsuite
 in
 t
 [
@@ -2058,14 +2087,20 @@ manifest
 "
 ]
 for
-x
+subsuite
 in
-WPT_SUBSUITES
-.
-values
-(
+subsuites
 )
-)
+:
+                            
+containsSubsuite
+=
+True
+                            
+break
+                    
+if
+containsSubsuite
 :
                         
 continue
