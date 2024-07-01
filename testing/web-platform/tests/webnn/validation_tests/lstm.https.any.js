@@ -480,7 +480,7 @@ name
 [
 lstm
 ]
-DataError
+TypeError
 is
 expected
 if
@@ -512,7 +512,7 @@ name
 [
 lstm
 ]
-DataError
+TypeError
 is
 expected
 if
@@ -544,7 +544,7 @@ name
 [
 lstm
 ]
-DataError
+TypeError
 is
 expected
 if
@@ -576,7 +576,7 @@ name
 [
 lstm
 ]
-DataError
+TypeError
 is
 expected
 if
@@ -642,7 +642,7 @@ name
 [
 lstm
 ]
-DataError
+TypeError
 is
 expected
 if
@@ -689,7 +689,7 @@ name
 [
 lstm
 ]
-DataError
+TypeError
 is
 expected
 if
@@ -741,7 +741,7 @@ name
 [
 lstm
 ]
-DataError
+TypeError
 is
 expected
 if
@@ -790,7 +790,7 @@ name
 [
 lstm
 ]
-DataError
+TypeError
 is
 expected
 if
@@ -839,7 +839,7 @@ name
 [
 lstm
 ]
-DataError
+TypeError
 is
 expected
 if
@@ -890,7 +890,7 @@ name
 [
 lstm
 ]
-DataError
+TypeError
 is
 expected
 if
@@ -972,7 +972,7 @@ name
 [
 lstm
 ]
-DataError
+TypeError
 is
 expected
 if
@@ -1056,7 +1056,7 @@ name
 [
 lstm
 ]
-DataError
+TypeError
 is
 expected
 if
@@ -1140,7 +1140,7 @@ name
 [
 lstm
 ]
-DataError
+TypeError
 is
 expected
 if
@@ -1223,7 +1223,7 @@ name
 [
 lstm
 ]
-DataError
+TypeError
 is
 expected
 if
@@ -1804,11 +1804,9 @@ dimensions
 }
 else
 {
-assert_throws_dom
+assert_throws_js
 (
-'
-DataError
-'
+TypeError
 (
 )
 =

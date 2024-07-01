@@ -73,7 +73,7 @@ input
 [
 triangular
 ]
-DataError
+TypeError
 is
 expected
 if
