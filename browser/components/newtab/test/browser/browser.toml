@@ -386,13 +386,6 @@ and
 Windows
 [
 "
-browser_remote_l10n
-.
-js
-"
-]
-[
-"
 browser_topsites_annotation
 .
 js

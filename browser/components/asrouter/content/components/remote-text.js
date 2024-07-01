@@ -32,7 +32,7 @@ mjs
 )
 ;
 class
-MozTextParagraph
+MozRemoteText
 extends
 HTMLElement
 {
@@ -317,7 +317,7 @@ remote
 -
 text
 "
-MozTextParagraph
+MozRemoteText
 )
 ;
 }

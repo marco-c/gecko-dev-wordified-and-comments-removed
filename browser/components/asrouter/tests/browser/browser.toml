@@ -249,6 +249,13 @@ js
 ]
 [
 "
+browser_remote_l10n
+.
+js
+"
+]
+[
+"
 browser_trigger_listeners
 .
 js
