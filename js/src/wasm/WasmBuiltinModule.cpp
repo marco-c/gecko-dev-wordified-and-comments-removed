@@ -1069,7 +1069,7 @@ declareFuncExported
 (
 funcIndex
 true
-false
+true
 )
 ;
 }
