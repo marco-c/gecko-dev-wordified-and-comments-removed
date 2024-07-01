@@ -476,6 +476,11 @@ BuiltinModuleId
 module
 )
 ;
+[
+[
+nodiscard
+]
+]
 bool
 CompileBuiltinModule
 (
@@ -492,6 +497,11 @@ WasmModuleObject
 result
 )
 ;
+[
+[
+nodiscard
+]
+]
 bool
 InstantiateBuiltinModule
 (
