@@ -147,6 +147,20 @@ browser_dir
     
 ]
     
+env
+=
+{
+        
+"
+MOZ_DISABLE_SOCKET_PROCESS
+"
+:
+"
+1
+"
+    
+}
+    
 if
 args
 :
@@ -173,5 +187,9 @@ True
 ensure_exit_code
 =
 False
+        
+append_env
+=
+env
     
 )
