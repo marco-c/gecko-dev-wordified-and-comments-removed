@@ -7009,16 +7009,28 @@ _env
 input
 =
 fast_import
-            
-text
-=
-True
+.
+encode
+(
+"
+utf
+-
+8
+"
+)
         
 )
         
 try_head
 =
 stdout
+.
+decode
+(
+"
+ascii
+"
+)
 .
 strip
 (
