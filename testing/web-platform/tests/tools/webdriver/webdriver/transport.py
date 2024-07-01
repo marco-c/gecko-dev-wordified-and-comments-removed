@@ -1432,6 +1432,26 @@ specified
         
 :
 param
+timeout
+:
+Optional
+timeout
+for
+the
+underlying
+socket
+.
+None
+will
+            
+retain
+the
+existing
+timeout
+.
+        
+:
+param
 codec_kwargs
 :
 Surplus
@@ -1591,7 +1611,7 @@ payload
 headers
 timeout
 =
-None
+timeout
 )
         
 self
