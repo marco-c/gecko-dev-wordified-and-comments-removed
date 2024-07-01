@@ -674,7 +674,19 @@ checkbox
 content
 )
 ;
-&
+row
+-
+gap
+:
+var
+(
+-
+-
+space
+-
+large
+)
+;
 >
 #
 new
@@ -682,6 +694,7 @@ new
 password
 -
 label
+>
 #
 repeat
 -
@@ -700,7 +713,6 @@ direction
 column
 ;
 }
-&
 >
 #
 new
@@ -710,6 +722,7 @@ password
 label
 >
 input
+>
 #
 repeat
 -
@@ -725,7 +738,7 @@ inline
 -
 start
 :
-0px
+0
 ;
 }
 }
