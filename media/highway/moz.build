@@ -17,11 +17,15 @@ CONFIG
 TARGET_CPU
 "
 ]
-=
-=
+in
+(
 "
 ppc64
 "
+"
+s390x
+"
+)
 and
 CONFIG
 [
