@@ -6083,6 +6083,17 @@ nightly
 fuzzing
 -
 asan
+run
+-
+on
+-
+projects
+:
+[
+'
+trunk
+'
+]
 use
 -
 sccache

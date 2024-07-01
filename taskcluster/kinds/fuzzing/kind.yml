@@ -176,6 +176,17 @@ dependencies
 [
 build
 ]
+run
+-
+on
+-
+projects
+:
+[
+'
+trunk
+'
+]
 tasks
 :
 simple
