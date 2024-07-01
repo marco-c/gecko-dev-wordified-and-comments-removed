@@ -67,7 +67,7 @@ CONTEXT_CREATED_EVENT
 ]
 )
     
-on_entry
+on_created
 =
 wait_for_event
 (
@@ -93,7 +93,7 @@ context_info
 await
 wait_for_future_safe
 (
-on_entry
+on_created
 )
     
 assert_browsing_context
@@ -247,7 +247,7 @@ CONTEXT_CREATED_EVENT
 ]
 )
     
-on_entry
+on_created
 =
 wait_for_event
 (
@@ -326,7 +326,7 @@ context_info
 await
 wait_for_future_safe
 (
-on_entry
+on_created
 )
     
 context

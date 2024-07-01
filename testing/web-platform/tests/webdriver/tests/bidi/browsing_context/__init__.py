@@ -39,6 +39,10 @@ children
 =
 None
     
+original_opener
+=
+None
+    
 parent_expected
 =
 True
@@ -56,10 +60,6 @@ user_context
 "
 default
 "
-    
-original_opener
-=
-None
 )
 :
     
