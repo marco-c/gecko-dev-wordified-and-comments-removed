@@ -320,7 +320,7 @@ script
 nonce
 =
 "
-abc
+123
 "
 >
         
@@ -365,6 +365,32 @@ response
 *
 '
 )
+;
+    
+<
+/
+script
+>
+    
+<
+script
+>
+        
+/
+/
+Inline
+script
+which
+might
+be
+blocked
+by
+CSP
+.
+        
+navigator
+.
+userAgent
 ;
     
 <
