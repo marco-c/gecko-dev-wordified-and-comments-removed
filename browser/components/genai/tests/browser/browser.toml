@@ -26,6 +26,15 @@ openSidebarOnProviderChange
 =
 false
 "
+"
+browser
+.
+preferences
+.
+experimental
+=
+true
+"
 ]
 [
 "
