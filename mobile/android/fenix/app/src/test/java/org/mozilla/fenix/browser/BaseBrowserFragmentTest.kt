@@ -608,7 +608,7 @@ every
 {
 settings
 .
-enableIncompleteToolbarRedesign
+navigationToolbarEnabled
 }
 returns
 true
@@ -719,7 +719,7 @@ every
 {
 settings
 .
-enableIncompleteToolbarRedesign
+navigationToolbarEnabled
 }
 returns
 true
@@ -1414,7 +1414,7 @@ every
 {
 settings
 .
-enableIncompleteToolbarRedesign
+navigationToolbarEnabled
 }
 returns
 true

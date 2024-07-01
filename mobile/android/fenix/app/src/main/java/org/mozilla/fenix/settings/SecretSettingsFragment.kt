@@ -415,7 +415,7 @@ R
 .
 string
 .
-pref_key_toolbar_use_redesign_incomplete
+pref_key_toolbar_show_navigation_toolbar
 )
 .
 apply
@@ -435,7 +435,7 @@ settings
 (
 )
 .
-enableIncompleteToolbarRedesign
+navigationToolbarEnabled
 onPreferenceChangeListener
 =
 SharedPreferenceUpdater

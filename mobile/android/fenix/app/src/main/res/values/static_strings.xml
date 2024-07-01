@@ -1438,10 +1438,8 @@ string
 Label
 for
 enabling
+Navigation
 Toolbar
-Redesign
-incomplete
-portions
 -
 -
 >
@@ -1450,7 +1448,7 @@ string
 name
 =
 "
-preferences_debug_settings_toolbar_redesign
+preferences_debug_settings_navigation_toolbar
 "
 translatable
 =
@@ -1459,10 +1457,8 @@ false
 "
 >
 Enable
+Navigation
 Toolbar
-Redesign
-incomplete
-portions
 <
 /
 string

@@ -544,16 +544,13 @@ private
 val
 isNavBarEnabled
 =
-IncompleteRedesignToolbarFeature
-(
 context
 .
 settings
 (
 )
-)
 .
-isEnabled
+navigationToolbarEnabled
 val
 toolbarIntegration
 :
