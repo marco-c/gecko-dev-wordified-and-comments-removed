@@ -7,15 +7,6 @@ LIB_JXL_TOC_H_
 #
 include
 <
-jxl
-/
-memory_manager
-.
-h
->
-#
-include
-<
 stddef
 .
 h
@@ -199,9 +190,6 @@ num_passes
 Status
 ReadToc
 (
-JxlMemoryManager
-*
-memory_manager
 size_t
 toc_entries
 BitReader
@@ -233,9 +221,6 @@ permutation
 Status
 ReadGroupOffsets
 (
-JxlMemoryManager
-*
-memory_manager
 size_t
 toc_entries
 BitReader

@@ -150,7 +150,7 @@ size_t
 nb_chans
 size_t
 bitdepth
-bool
+int
 big_endian
 int
 effort
@@ -185,7 +185,7 @@ size_t
 nb_chans
 size_t
 bitdepth
-bool
+int
 big_endian
 int
 effort

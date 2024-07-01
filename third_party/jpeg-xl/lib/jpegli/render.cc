@@ -5273,7 +5273,7 @@ cinfo
 output_iMCU_row
 ;
 JBLOCKARRAY
-blocks
+ba
 [
 kMaxComponents
 ]
@@ -5358,7 +5358,7 @@ streaming_mode_
 :
 by0
 ;
-blocks
+ba
 [
 c
 ]
@@ -5494,7 +5494,7 @@ JXL_RESTRICT
 coeffs
 =
 &
-blocks
+ba
 [
 c
 ]
@@ -5671,7 +5671,7 @@ JXL_RESTRICT
 row_in
 =
 &
-blocks
+ba
 [
 c
 ]
@@ -5729,7 +5729,7 @@ apply_smoothing
 PredictSmooth
 (
 cinfo
-blocks
+ba
 [
 c
 ]

@@ -12,15 +12,6 @@ h
 #
 include
 <
-jxl
-/
-memory_manager
-.
-h
->
-#
-include
-<
 stdint
 .
 h
@@ -109,9 +100,6 @@ kBitsPerByte
 Status
 ReadToc
 (
-JxlMemoryManager
-*
-memory_manager
 size_t
 toc_entries
 BitReader
@@ -344,7 +332,6 @@ JXL_RETURN_IF_ERROR
 (
 DecodePermutation
 (
-memory_manager
 0
 toc_entries
 permutation
@@ -435,9 +422,6 @@ true
 Status
 ReadGroupOffsets
 (
-JxlMemoryManager
-*
-memory_manager
 size_t
 toc_entries
 BitReader
@@ -482,7 +466,6 @@ JXL_RETURN_IF_ERROR
 (
 ReadToc
 (
-memory_manager
 toc_entries
 reader
 sizes

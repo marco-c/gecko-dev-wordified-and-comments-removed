@@ -11,9 +11,7 @@ lib
 /
 jxl
 /
-base
-/
-rect
+dec_cache
 .
 h
 "
@@ -24,7 +22,7 @@ lib
 /
 jxl
 /
-dec_cache
+image
 .
 h
 "

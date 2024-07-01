@@ -7,12 +7,14 @@ LIB_JXL_DCT_FOR_TEST_H_
 #
 include
 <
-cmath
+string
+.
+h
 >
 #
 include
 <
-cstring
+cmath
 >
 #
 include
@@ -72,7 +74,6 @@ M
 void
 DCT1D
 (
-const
 double
 block
 [
@@ -292,7 +293,6 @@ M
 void
 IDCT1D
 (
-const
 double
 block
 [
@@ -510,7 +510,6 @@ M
 void
 TransposeBlock
 (
-const
 double
 in
 [

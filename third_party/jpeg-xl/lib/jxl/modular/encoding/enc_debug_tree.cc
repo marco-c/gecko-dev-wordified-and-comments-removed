@@ -21,6 +21,11 @@ cinttypes
 #
 include
 <
+cstdint
+>
+#
+include
+<
 cstdlib
 >
 #

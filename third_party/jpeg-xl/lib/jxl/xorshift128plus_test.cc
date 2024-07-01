@@ -1191,11 +1191,8 @@ EXPECT_TRUE
 (
 RunOnPool
 (
+&
 pool
-.
-get
-(
-)
 0
 kMaxSeed
 ThreadPool
@@ -1480,11 +1477,8 @@ EXPECT_TRUE
 (
 RunOnPool
 (
+&
 pool
-.
-get
-(
-)
 0
 kMaxSeed
 ThreadPool

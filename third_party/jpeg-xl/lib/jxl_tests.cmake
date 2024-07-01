@@ -235,7 +235,7 @@ NODERAWFS
 )
 if
 (
-JPEGXL_ENABLE_WASM_THREADS
+JPEGXL_ENABLE_WASM_TRHEADS
 )
 set
 (
@@ -433,6 +433,7 @@ target_link_libraries
 {
 TESTNAME
 }
+gmock
 GTest
 :
 :

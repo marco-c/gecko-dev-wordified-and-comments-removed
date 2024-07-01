@@ -134,6 +134,7 @@ len
 )
 {
 \
+return
 JPEGLI_ERROR
 (
 "
@@ -202,6 +203,7 @@ high
 )
 {
 \
+return
 JPEGLI_ERROR
 (
 "
@@ -240,6 +242,7 @@ len
 )
 {
 \
+return
 JPEGLI_ERROR
 (
 "
@@ -252,6 +255,7 @@ declared
 %
 "
 PRIuS
+\
 "
 actual
 =
@@ -779,6 +783,36 @@ quant_tbl_no
 =
 quant_tbl_idx
 ;
+if
+(
+cinfo
+-
+>
+quant_tbl_ptrs
+[
+quant_tbl_idx
+]
+=
+=
+nullptr
+)
+{
+JPEGLI_ERROR
+(
+"
+Quantization
+table
+with
+index
+%
+u
+not
+found
+"
+quant_tbl_idx
+)
+;
+}
 comp
 -
 >
@@ -1281,13 +1315,6 @@ marker
 )
 ;
 }
-m
--
->
-found_sos_
-=
-true
-;
 size_t
 pos
 =
@@ -1409,6 +1436,7 @@ id
 ]
 )
 {
+return
 JPEGLI_ERROR
 (
 "
@@ -1501,6 +1529,7 @@ if
 comp
 )
 {
+return
 JPEGLI_ERROR
 (
 "
@@ -2157,6 +2186,7 @@ k
 scan_bitmask
 )
 {
+return
 JPEGLI_ERROR
 (
 "
@@ -2211,6 +2241,7 @@ k
 refinement_bitmask
 )
 {
+return
 JPEGLI_ERROR
 (
 "
@@ -2286,6 +2317,7 @@ Al
 10
 )
 {
+return
 JPEGLI_ERROR
 (
 "
@@ -2334,6 +2366,7 @@ pos
 len
 )
 {
+return
 JPEGLI_ERROR
 (
 "
@@ -2670,7 +2703,7 @@ if
 m
 -
 >
-found_sos_
+found_sof_
 )
 {
 JPEGLI_ERROR
@@ -2702,6 +2735,7 @@ pos
 len
 )
 {
+return
 JPEGLI_ERROR
 (
 "
@@ -2930,6 +2964,7 @@ m
 found_dri_
 )
 {
+return
 JPEGLI_ERROR
 (
 "
@@ -3236,6 +3271,7 @@ payload_size
 2
 )
 {
+return
 JPEGLI_ERROR
 (
 "
@@ -3283,6 +3319,7 @@ icc_index_
 index
 )
 {
+return
 JPEGLI_ERROR
 (
 "
@@ -3303,6 +3340,7 @@ total
 0
 )
 {
+return
 JPEGLI_ERROR
 (
 "
@@ -3346,6 +3384,7 @@ icc_total_
 total
 )
 {
+return
 JPEGLI_ERROR
 (
 "
@@ -3371,6 +3410,7 @@ m
 icc_total_
 )
 {
+return
 JPEGLI_ERROR
 (
 "

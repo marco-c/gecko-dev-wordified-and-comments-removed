@@ -130,7 +130,6 @@ PeekBits
 uint32_t
 n
 )
-const
 {
 EXPECT_EQ
 (

@@ -164,7 +164,6 @@ ThreadPool
 *
 pool
 )
-const
 {
 JXL_DEBUG_V
 (

@@ -29,9 +29,7 @@ lib
 /
 jxl
 /
-base
-/
-rect
+image
 .
 h
 "

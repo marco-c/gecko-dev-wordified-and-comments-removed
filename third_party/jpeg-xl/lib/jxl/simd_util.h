@@ -7,7 +7,9 @@ LIB_JXL_SIMD_UTIL_H_
 #
 include
 <
-cstddef
+stddef
+.
+h
 >
 namespace
 jxl
@@ -15,6 +17,15 @@ jxl
 size_t
 MaxVectorSize
 (
+)
+;
+size_t
+BytesPerRow
+(
+size_t
+xsize
+size_t
+sizeof_t
 )
 ;
 }

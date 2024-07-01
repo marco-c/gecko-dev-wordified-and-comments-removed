@@ -524,6 +524,7 @@ hwy
 jpegli
 -
 static
+gmock
 GTest
 :
 :
