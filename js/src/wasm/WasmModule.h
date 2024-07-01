@@ -182,6 +182,7 @@ JS
 :
 WasmModule
 {
+const
 SharedModuleMetadata
 moduleMeta_
 ;

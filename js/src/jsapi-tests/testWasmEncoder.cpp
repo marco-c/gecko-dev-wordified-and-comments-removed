@@ -206,10 +206,7 @@ scriptedCaller
 options
 )
 ;
-RefPtr
-<
-ModuleMetadata
->
+MutableModuleMetadata
 moduleMeta
 =
 js_new
@@ -224,10 +221,7 @@ MOZ_ALWAYS_TRUE
 moduleMeta
 )
 ;
-RefPtr
-<
-CodeMetadata
->
+MutableCodeMetadata
 codeMeta
 =
 js_new

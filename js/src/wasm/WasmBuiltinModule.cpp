@@ -727,10 +727,7 @@ computeParameters
 (
 )
 ;
-RefPtr
-<
-ModuleMetadata
->
+MutableModuleMetadata
 moduleMeta
 =
 js_new
@@ -755,10 +752,7 @@ return
 false
 ;
 }
-RefPtr
-<
-CodeMetadata
->
+MutableCodeMetadata
 codeMeta
 =
 js_new
