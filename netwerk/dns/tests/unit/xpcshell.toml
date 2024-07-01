@@ -135,3 +135,10 @@ test_nsEffectiveTLDService_getSite
 js
 "
 ]
+[
+"
+test_nsEffectiveTLDService_hasKnownPublicSuffix
+.
+js
+"
+]
