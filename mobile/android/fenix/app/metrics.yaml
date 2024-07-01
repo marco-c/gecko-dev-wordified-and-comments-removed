@@ -1705,6 +1705,9 @@ marketing_notification_allowed
 type
 :
 boolean
+lifetime
+:
+application
 description
 :
 |
@@ -18953,6 +18956,9 @@ notifications_allowed
 type
 :
 boolean
+lifetime
+:
+application
 description
 :
 |
@@ -19423,6 +19429,9 @@ most_visited_sites
 type
 :
 boolean
+lifetime
+:
+application
 description
 :
 |
@@ -19568,6 +19577,9 @@ jump_back_in
 type
 :
 boolean
+lifetime
+:
+application
 description
 :
 |
@@ -19714,6 +19726,9 @@ bookmarks
 type
 :
 boolean
+lifetime
+:
+application
 description
 :
 |
@@ -19867,6 +19882,9 @@ recently_visited
 type
 :
 boolean
+lifetime
+:
+application
 description
 :
 |
@@ -20012,6 +20030,9 @@ pocket
 type
 :
 boolean
+lifetime
+:
+application
 description
 :
 |
@@ -20160,6 +20181,9 @@ sponsored_pocket
 type
 :
 boolean
+lifetime
+:
+application
 description
 :
 |
@@ -20292,6 +20316,9 @@ contile
 type
 :
 boolean
+lifetime
+:
+application
 description
 :
 |
@@ -20582,6 +20609,9 @@ opening_screen
 type
 :
 string
+lifetime
+:
+application
 description
 :
 |
@@ -20726,6 +20756,9 @@ studies_enabled
 type
 :
 boolean
+lifetime
+:
+application
 description
 :
 >
@@ -20968,6 +21001,9 @@ search_suggestions_enabled
 type
 :
 boolean
+lifetime
+:
+application
 description
 :
 |
@@ -21144,6 +21180,9 @@ remote_debugging_enabled
 type
 :
 boolean
+lifetime
+:
+application
 description
 :
 |
@@ -21356,6 +21395,9 @@ telemetry_enabled
 type
 :
 boolean
+lifetime
+:
+application
 description
 :
 |
@@ -21553,6 +21595,9 @@ enhanced_tracking_protection
 type
 :
 string
+lifetime
+:
+application
 description
 :
 |
@@ -21787,6 +21832,9 @@ etp_custom_cookies_selection
 type
 :
 string
+lifetime
+:
+application
 description
 :
 |
@@ -21954,6 +22002,9 @@ bookmarks_suggestion
 type
 :
 boolean
+lifetime
+:
+application
 description
 :
 |
@@ -22167,6 +22218,9 @@ browsing_history_suggestion
 type
 :
 boolean
+lifetime
+:
+application
 description
 :
 |
@@ -22381,6 +22435,9 @@ clipboard_suggestions_enabled
 type
 :
 boolean
+lifetime
+:
+application
 description
 :
 |
@@ -22595,6 +22652,9 @@ search_shortcuts_enabled
 type
 :
 boolean
+lifetime
+:
+application
 description
 :
 |
@@ -22772,6 +22832,9 @@ signed_in_sync
 type
 :
 boolean
+lifetime
+:
+application
 description
 :
 |
@@ -22986,6 +23049,9 @@ sync_items
 type
 :
 string_list
+lifetime
+:
+application
 description
 :
 |
@@ -23231,6 +23297,9 @@ voice_search_enabled
 type
 :
 boolean
+lifetime
+:
+application
 description
 :
 |
@@ -23450,6 +23519,9 @@ toolbar_position_setting
 type
 :
 string
+lifetime
+:
+application
 description
 :
 |
@@ -23633,6 +23705,9 @@ accessibility_services
 type
 :
 string_list
+lifetime
+:
+application
 description
 :
 |
@@ -23823,6 +23898,9 @@ open_links_in_app_enabled
 type
 :
 string
+lifetime
+:
+application
 description
 :
 |
@@ -23926,6 +24004,9 @@ user_theme
 type
 :
 string
+lifetime
+:
+application
 description
 :
 |
@@ -24123,6 +24204,9 @@ inactive_tabs_enabled
 type
 :
 boolean
+lifetime
+:
+application
 description
 :
 |
@@ -50165,6 +50249,9 @@ saved_all
 type
 :
 quantity
+lifetime
+:
+application
 description
 :
 |
@@ -53083,6 +53170,9 @@ context_id
 type
 :
 uuid
+lifetime
+:
+application
 description
 :
 |
@@ -53119,9 +53209,6 @@ contextual
 services
 features
 .
-lifetime
-:
-application
 send_in_pings
 :
 -
@@ -56814,6 +56901,9 @@ distribution_id
 type
 :
 string
+lifetime
+:
+application
 description
 :
 |
@@ -59895,6 +59985,9 @@ has_installed_addons
 type
 :
 boolean
+lifetime
+:
+application
 description
 :
 |
@@ -60085,6 +60178,9 @@ has_enabled_addons
 type
 :
 boolean
+lifetime
+:
+application
 description
 :
 |
@@ -70318,6 +70414,9 @@ supported
 type
 :
 boolean
+lifetime
+:
+application
 description
 :
 |
@@ -70465,6 +70564,9 @@ enabled
 type
 :
 boolean
+lifetime
+:
+application
 description
 :
 |
@@ -74313,6 +74415,9 @@ saved
 type
 :
 counter
+lifetime
+:
+application
 description
 :
 |
@@ -82670,6 +82775,9 @@ component_opted_out
 type
 :
 boolean
+lifetime
+:
+application
 description
 :
 |
@@ -82779,6 +82887,9 @@ nimbus_disabled_shopping
 type
 :
 boolean
+lifetime
+:
+application
 description
 :
 |
@@ -82888,6 +82999,9 @@ user_has_onboarded
 type
 :
 boolean
+lifetime
+:
+application
 description
 :
 |
@@ -82996,6 +83110,9 @@ disabled_ads
 type
 :
 boolean
+lifetime
+:
+application
 description
 :
 |
