@@ -84,6 +84,8 @@ const
 nsACString
 &
 aHost
+PRTime
+aBounceTime
 )
 ;
 private
@@ -96,6 +98,9 @@ ClearDataCallback
 ;
 nsCString
 mHost
+;
+PRTime
+mBounceTime
 ;
 RefPtr
 <
@@ -138,6 +143,13 @@ nsIUrlClassifierFeature
 >
 >
 sUrlClassifierFeatures
+;
+void
+RecordPurgeEventTelemetry
+(
+bool
+aSuccess
+)
 ;
 }
 ;
