@@ -10700,6 +10700,11 @@ HasBeenUserGestureActivated
 (
 )
 ;
+bool
+ConsumeTextDirectiveUserActivation
+(
+)
+;
 DOMHighResTimeStamp
 LastUserGestureTimeStamp
 (
