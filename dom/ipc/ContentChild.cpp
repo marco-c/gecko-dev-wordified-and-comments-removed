@@ -9313,6 +9313,15 @@ defined
 (
 XP_WIN
 )
+if
+(
+GetEffectiveContentSandboxLevel
+(
+)
+>
+7
+)
+{
 :
 :
 LoadLibraryW
@@ -9484,6 +9493,7 @@ dll
 ;
 #
 endif
+}
 mozilla
 :
 :
