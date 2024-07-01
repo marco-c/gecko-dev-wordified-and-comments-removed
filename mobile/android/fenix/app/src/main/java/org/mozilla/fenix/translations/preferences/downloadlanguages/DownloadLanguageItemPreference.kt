@@ -142,7 +142,7 @@ val
 type
 :
 DownloadLanguageItemTypePreference
-val
+var
 enabled
 :
 Boolean
