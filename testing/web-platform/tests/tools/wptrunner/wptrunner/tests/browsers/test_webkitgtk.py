@@ -1,5 +1,7 @@
 import
 logging
+import
+sys
 from
 os
 .
@@ -486,6 +488,13 @@ env_config
 )
                                                          
 {
+"
+os
+"
+:
+sys
+.
+platform
 }
                                                          
 *
