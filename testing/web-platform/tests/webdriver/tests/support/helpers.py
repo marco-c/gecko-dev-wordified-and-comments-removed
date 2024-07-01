@@ -231,12 +231,20 @@ webdriver
 NoSuchWindowException
 :
             
+handles
+=
+session
+.
+handles
+            
+if
+handles
+:
+                
 session
 .
 window_handle
 =
-session
-.
 handles
 [
 0
