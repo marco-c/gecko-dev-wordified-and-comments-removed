@@ -3843,7 +3843,6 @@ MultiTouchInput
 &
 aInput
 )
-const
 {
 if
 (
