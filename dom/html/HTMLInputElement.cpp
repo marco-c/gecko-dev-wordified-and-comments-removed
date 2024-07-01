@@ -2756,6 +2756,16 @@ rv
 ;
 if
 (
+!
+tmp
+)
+{
+return
+NS_OK
+;
+}
+if
+(
 mode
 =
 =
