@@ -22,6 +22,11 @@ UiaRoot
 .
 cpp
 "
+"
+UiaTextRange
+.
+cpp
+"
 ]
 LOCAL_INCLUDES
 +
