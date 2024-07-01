@@ -775,7 +775,7 @@ CSSPixelsToAppUnits
 (
 isize
 .
-GetAnimValue
+GetAnimValueWithZoom
 (
 svg
 )
@@ -909,7 +909,7 @@ CSSPixelsToAppUnits
 (
 width
 .
-GetAnimValue
+GetAnimValueWithZoom
 (
 content
 )
@@ -952,7 +952,7 @@ CSSPixelsToAppUnits
 (
 height
 .
-GetAnimValue
+GetAnimValueWithZoom
 (
 content
 )

@@ -7772,7 +7772,7 @@ i
 +
 ]
 .
-GetAnimValue
+GetAnimValueWithZoom
 (
 metrics
 )
