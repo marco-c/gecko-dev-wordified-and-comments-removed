@@ -173,11 +173,6 @@ WasmMemory
 cpp
 "
 "
-WasmMetadata
-.
-cpp
-"
-"
 WasmModule
 .
 cpp

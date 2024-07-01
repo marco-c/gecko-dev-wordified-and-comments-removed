@@ -2043,7 +2043,7 @@ Invariant
 )
 ;
 struct
-DataSegmentRange
+DataSegmentEnv
 {
 uint32_t
 memoryIndex
@@ -2063,11 +2063,11 @@ length
 }
 ;
 using
-DataSegmentRangeVector
+DataSegmentEnvVector
 =
 Vector
 <
-DataSegmentRange
+DataSegmentEnv
 0
 SystemAllocPolicy
 >
@@ -2136,7 +2136,7 @@ ShareableBytes
 &
 bytecode
 const
-DataSegmentRange
+DataSegmentEnv
 &
 src
 )
@@ -2241,7 +2241,7 @@ SystemAllocPolicy
 >
 ;
 struct
-CustomSectionRange
+CustomSectionEnv
 {
 uint32_t
 nameOffset
@@ -2258,11 +2258,11 @@ payloadLength
 }
 ;
 using
-CustomSectionRangeVector
+CustomSectionEnvVector
 =
 Vector
 <
-CustomSectionRange
+CustomSectionEnv
 0
 SystemAllocPolicy
 >

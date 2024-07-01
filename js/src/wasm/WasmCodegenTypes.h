@@ -128,7 +128,7 @@ mozilla
 EnumeratedArray
 ;
 struct
-CodeMetadata
+ModuleEnvironment
 ;
 struct
 TableDesc
@@ -3017,9 +3017,9 @@ CallIndirectId
 forFunc
 (
 const
-CodeMetadata
+ModuleEnvironment
 &
-codeMeta
+moduleEnv
 uint32_t
 funcIndex
 )
@@ -3029,9 +3029,9 @@ CallIndirectId
 forFuncType
 (
 const
-CodeMetadata
+ModuleEnvironment
 &
-codeMeta
+moduleEnv
 uint32_t
 funcTypeIndex
 )
@@ -3233,9 +3233,9 @@ CalleeDesc
 wasmTable
 (
 const
-CodeMetadata
+ModuleEnvironment
 &
-codeMeta
+moduleEnv
 const
 TableDesc
 &
@@ -3251,9 +3251,9 @@ CalleeDesc
 asmJSTable
 (
 const
-CodeMetadata
+ModuleEnvironment
 &
-codeMeta
+moduleEnv
 uint32_t
 tableIndex
 )

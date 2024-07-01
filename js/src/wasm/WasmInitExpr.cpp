@@ -152,7 +152,7 @@ instance
 (
 )
 .
-codeMeta
+metadata
 (
 )
 .
@@ -842,7 +842,7 @@ instance
 (
 )
 .
-codeMeta
+metadata
 (
 )
 .
@@ -1028,7 +1028,7 @@ instance
 (
 )
 .
-codeMeta
+metadata
 (
 )
 .
@@ -1146,7 +1146,7 @@ instance
 (
 )
 .
-codeMeta
+metadata
 (
 )
 .
@@ -1237,7 +1237,7 @@ instance
 (
 )
 .
-codeMeta
+metadata
 (
 )
 .
@@ -1375,7 +1375,7 @@ instance
 (
 )
 .
-codeMeta
+metadata
 (
 )
 .
@@ -2471,9 +2471,9 @@ DecodeConstantExpression
 Decoder
 &
 d
-CodeMetadata
+ModuleEnvironment
 *
-codeMeta
+env
 ValType
 expected
 Maybe
@@ -2488,7 +2488,7 @@ ValidatingOpIter
 iter
 (
 *
-codeMeta
+env
 d
 ValidatingOpIter
 :
@@ -2865,7 +2865,7 @@ SimdPrefix
 if
 (
 !
-codeMeta
+env
 -
 >
 simdAvailable
@@ -2976,7 +2976,7 @@ return
 false
 ;
 }
-codeMeta
+env
 -
 >
 declareFuncExported
@@ -3178,7 +3178,7 @@ GcPrefix
 if
 (
 !
-codeMeta
+env
 -
 >
 gcEnabled
@@ -3564,9 +3564,9 @@ decodeAndValidate
 Decoder
 &
 d
-CodeMetadata
+ModuleEnvironment
 *
-codeMeta
+env
 ValType
 expected
 InitExpr
@@ -3601,7 +3601,7 @@ if
 DecodeConstantExpression
 (
 d
-codeMeta
+env
 expected
 &
 literal

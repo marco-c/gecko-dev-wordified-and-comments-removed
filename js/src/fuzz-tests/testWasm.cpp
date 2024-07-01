@@ -1349,11 +1349,9 @@ importVec
 module
 -
 >
-moduleMeta
+imports
 (
 )
-.
-imports
 ;
 JS
 :

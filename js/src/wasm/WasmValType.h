@@ -2069,16 +2069,6 @@ ptc_
 }
 }
 ;
-using
-RefTypeVector
-=
-Vector
-<
-RefType
-0
-SystemAllocPolicy
->
-;
 class
 StorageTypeTraits
 {
