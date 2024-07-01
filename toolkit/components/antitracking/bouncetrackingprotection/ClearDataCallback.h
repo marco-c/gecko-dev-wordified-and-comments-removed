@@ -134,6 +134,16 @@ RecordURLClassifierTelemetry
 (
 )
 ;
+static
+nsTArray
+<
+RefPtr
+<
+nsIUrlClassifierFeature
+>
+>
+sUrlClassifierFeatures
+;
 void
 RecordPurgeEventTelemetry
 (

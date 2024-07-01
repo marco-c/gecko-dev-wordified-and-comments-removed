@@ -39,6 +39,13 @@ h
 #
 include
 "
+nsIWeakReferenceUtils
+.
+h
+"
+#
+include
+"
 nsStringFwd
 .
 h
