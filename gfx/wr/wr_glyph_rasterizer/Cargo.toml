@@ -248,15 +248,9 @@ fxhash
 glean
 =
 {
-version
+workspace
 =
-"
-60
-.
-3
-.
-0
-"
+true
 optional
 =
 true
