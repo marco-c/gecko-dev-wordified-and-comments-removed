@@ -502,7 +502,7 @@ aReplacedTransition
 )
 ;
 }
-void
+bool
 UpdateStartValueFromReplacedTransition
 (
 )

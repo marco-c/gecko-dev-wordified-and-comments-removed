@@ -1293,7 +1293,7 @@ Value
 )
 ;
 }
-void
+bool
 CSSTransition
 :
 :
@@ -1350,6 +1350,7 @@ mReplacedTransition
 )
 {
 return
+false
 ;
 }
 MOZ_ASSERT
@@ -1522,6 +1523,9 @@ mReplacedTransition
 reset
 (
 )
+;
+return
+true
 ;
 }
 void

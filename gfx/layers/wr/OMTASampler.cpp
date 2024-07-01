@@ -811,6 +811,12 @@ lock
 mStorageLock
 )
 ;
+MutexAutoLock
+timeLock
+(
+mSampleTimeLock
+)
+;
 mAnimStorage
 -
 >
@@ -819,6 +825,7 @@ SetAnimations
 aId
 aLayersId
 aAnimations
+mPreviousSampleTime
 )
 ;
 }
