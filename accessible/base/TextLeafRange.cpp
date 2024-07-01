@@ -5210,6 +5210,15 @@ nsIAccessibleText
 :
 :
 BOUNDARY_CHAR
+|
+|
+aBoundaryType
+=
+=
+nsIAccessibleText
+:
+:
+BOUNDARY_CLUSTER
 )
 {
 if
