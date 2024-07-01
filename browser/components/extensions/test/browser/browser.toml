@@ -1276,6 +1276,13 @@ js
 ]
 [
 "
+browser_ext_devtools_panel_zoom
+.
+js
+"
+]
+[
+"
 browser_ext_devtools_panels_elements
 .
 js
