@@ -2768,8 +2768,11 @@ NS_FRAME_IS_PUSHED_FLOAT
 mBlock
 -
 >
-mFloats
-.
+EnsureFloats
+(
+)
+-
+>
 AppendFrame
 (
 mBlock
