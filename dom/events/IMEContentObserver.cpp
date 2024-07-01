@@ -2345,7 +2345,7 @@ return
 composition
 -
 >
-IsEditorHandlingEvent
+EditorIsHandlingLatestChange
 (
 )
 ;

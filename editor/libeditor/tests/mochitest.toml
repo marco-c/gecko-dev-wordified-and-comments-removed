@@ -2743,7 +2743,14 @@ html
 ]
 [
 "
-test_updating_input_value_during_composition
+test_updating_input_value_during_composition_from_async_input
+.
+html
+"
+]
+[
+"
+test_updating_input_value_during_composition_from_input
 .
 html
 "
