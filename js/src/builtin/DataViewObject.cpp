@@ -2158,9 +2158,6 @@ return
 val
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 template
 <
 >
@@ -2201,8 +2198,6 @@ return
 val
 ;
 }
-#
-endif
 template
 uint32_t
 DataViewObject
@@ -2587,9 +2582,6 @@ return
 true
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 template
 <
 >
@@ -2641,8 +2633,6 @@ return
 true
 ;
 }
-#
-endif
 template
 <
 >
@@ -4072,9 +4062,6 @@ args
 )
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 bool
 DataViewObject
 :
@@ -4210,8 +4197,6 @@ args
 )
 ;
 }
-#
-endif
 bool
 DataViewObject
 :
@@ -5454,9 +5439,6 @@ args
 )
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 bool
 DataViewObject
 :
@@ -5580,8 +5562,6 @@ args
 )
 ;
 }
-#
-endif
 bool
 DataViewObject
 :
@@ -6469,9 +6449,6 @@ fun_getUint32
 0
 DataViewGetUint32
 )
-#
-ifdef
-NIGHTLY_BUILD
 JS_FN
 (
 "
@@ -6484,8 +6461,6 @@ fun_getFloat16
 1
 0
 )
-#
-endif
 JS_INLINABLE_FN
 (
 "
@@ -6616,9 +6591,6 @@ fun_setUint32
 0
 DataViewSetUint32
 )
-#
-ifdef
-NIGHTLY_BUILD
 JS_FN
 (
 "
@@ -6631,8 +6603,6 @@ fun_setFloat16
 2
 0
 )
-#
-endif
 JS_INLINABLE_FN
 (
 "
