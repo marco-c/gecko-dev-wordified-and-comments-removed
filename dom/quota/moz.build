@@ -210,6 +210,11 @@ EncryptingOutputStream_impl
 h
 "
 "
+ErrorHandling
+.
+h
+"
+"
 FileStreams
 .
 h
