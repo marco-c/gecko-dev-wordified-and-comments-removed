@@ -9730,7 +9730,7 @@ version
 .
 2
 .
-12
+13
 "
 source
 =
@@ -9758,7 +9758,7 @@ index
 checksum
 =
 "
-dff377452246a4a2e0ef3a7e85ce78ed77c7f93c3a4771e1c93d0cc0c69eb411
+0e2f1e3be19fb10f549be8c1bf013e8675b4066c445e36eb76d2ebb2f54ee495
 "
 dependencies
 =
@@ -12839,6 +12839,9 @@ dom_fragmentdirectives
 "
 "
 encoding_glue
+"
+"
+etagere
 "
 "
 fallible_collections
