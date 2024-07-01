@@ -321,6 +321,10 @@ serde_derive
 [
 features
 ]
+counters
+=
+[
+]
 fragile
 -
 send

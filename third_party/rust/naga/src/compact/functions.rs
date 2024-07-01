@@ -2,7 +2,7 @@ use
 super
 :
 :
-handle_set_map
+arena
 :
 :
 HandleSet

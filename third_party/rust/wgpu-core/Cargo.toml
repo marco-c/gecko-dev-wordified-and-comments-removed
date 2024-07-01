@@ -554,6 +554,15 @@ api_log_info
 =
 [
 ]
+counters
+=
+[
+"
+wgt
+/
+counters
+"
+]
 dx12
 =
 [

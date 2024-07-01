@@ -70,6 +70,12 @@ Mutex
 RwLock
 }
 ;
+use
+wgt
+:
+:
+InternalCounter
+;
 const
 MILLIS_TO_NANOS
 :
@@ -1754,6 +1760,9 @@ vk
 Framebuffer
 >
 >
+memory_allocations_counter
+:
+InternalCounter
 }
 pub
 struct
@@ -1841,6 +1850,12 @@ renderdoc
 :
 :
 RenderDoc
+counters
+:
+wgt
+:
+:
+HalCounters
 }
 #
 [

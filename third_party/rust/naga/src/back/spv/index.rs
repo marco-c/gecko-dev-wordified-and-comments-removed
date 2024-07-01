@@ -660,10 +660,6 @@ writer
 global_variables
 [
 global_handle
-.
-index
-(
-)
 ]
 .
 clone

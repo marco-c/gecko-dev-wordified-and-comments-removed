@@ -1496,6 +1496,12 @@ wgt
 :
 :
 Features
+counters
+:
+wgt
+:
+:
+HalCounters
 }
 pub
 struct

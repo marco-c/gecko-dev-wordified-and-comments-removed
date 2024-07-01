@@ -1084,6 +1084,12 @@ renderdoc
 :
 :
 RenderDoc
+counters
+:
+wgt
+:
+:
+HalCounters
 }
 pub
 struct

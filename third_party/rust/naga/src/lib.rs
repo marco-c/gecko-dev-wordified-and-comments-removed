@@ -146,6 +146,9 @@ pub
 mod
 keywords
 ;
+mod
+non_max_u32
+;
 pub
 mod
 proc

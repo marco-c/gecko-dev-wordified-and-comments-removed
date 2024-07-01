@@ -17,6 +17,15 @@ use
 crate
 :
 :
+arena
+:
+:
+HandleSet
+;
+use
+crate
+:
+:
 {
 arena
 compact
@@ -32,10 +41,7 @@ use
 handle_set_map
 :
 :
-{
 HandleMap
-HandleSet
-}
 ;
 pub
 fn
