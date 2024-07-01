@@ -167,31 +167,6 @@ SetBool
 "
 image
 .
-webp
-.
-enabled
-"
-true
-)
-;
-EXPECT_TRUE
-(
-rv
-=
-=
-NS_OK
-)
-;
-rv
-=
-Preferences
-:
-:
-SetBool
-(
-"
-image
-.
 avif
 .
 enabled
@@ -4642,6 +4617,7 @@ IntSize
 100
 )
 TEST_CASE_IS_ANIMATED
+2
 )
 ;
 }
@@ -4675,6 +4651,7 @@ IntSize
 TEST_CASE_IS_TRANSPARENT
 |
 TEST_CASE_IS_ANIMATED
+2
 )
 ;
 }
@@ -4706,6 +4683,7 @@ IntSize
 100
 )
 TEST_CASE_IS_ANIMATED
+2
 )
 ;
 }
@@ -4737,6 +4715,7 @@ IntSize
 100
 )
 TEST_CASE_IS_ANIMATED
+2
 )
 ;
 }
@@ -4764,6 +4743,7 @@ IntSize
 100
 )
 TEST_CASE_IS_ANIMATED
+2
 )
 ;
 }
@@ -4793,6 +4773,7 @@ IntSize
 TEST_CASE_IS_TRANSPARENT
 |
 TEST_CASE_IS_ANIMATED
+2
 )
 ;
 }
@@ -4822,6 +4803,7 @@ IntSize
 TEST_CASE_IS_TRANSPARENT
 |
 TEST_CASE_IS_ANIMATED
+2
 )
 ;
 }
@@ -4851,6 +4833,7 @@ IntSize
 TEST_CASE_IS_TRANSPARENT
 |
 TEST_CASE_IS_ANIMATED
+2
 )
 ;
 }
