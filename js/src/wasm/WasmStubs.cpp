@@ -7104,7 +7104,7 @@ funcType
 =
 inst
 .
-metadata
+codeMeta
 (
 )
 .
