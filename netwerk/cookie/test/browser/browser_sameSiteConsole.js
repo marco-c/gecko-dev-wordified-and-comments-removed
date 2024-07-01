@@ -53,6 +53,14 @@ _
 =
 >
 {
+Services
+.
+cookies
+.
+removeAll
+(
+)
+;
 await
 SpecialPowers
 .
