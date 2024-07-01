@@ -1672,10 +1672,6 @@ com
 title
 :
 "
-http
-:
-/
-/
 nonexisting
 .
 com
@@ -1704,10 +1700,6 @@ highlightedTitle
 [
 [
 "
-http
-:
-/
-/
 nonexisting
 .
 com

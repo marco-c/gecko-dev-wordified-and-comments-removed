@@ -158,10 +158,6 @@ org
 fallbackTitle
 :
 "
-http
-:
-/
-/
 mozilla
 .
 org
@@ -288,10 +284,6 @@ org
 fallbackTitle
 :
 "
-http
-:
-/
-/
 mozilla
 .
 org
@@ -436,10 +428,6 @@ link
 fallbackTitle
 :
 "
-http
-:
-/
-/
 mozilla
 .
 org
