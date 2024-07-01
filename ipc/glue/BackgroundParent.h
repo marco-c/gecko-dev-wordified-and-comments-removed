@@ -197,15 +197,6 @@ ThreadsafeContentParentHandle
 public
 :
 static
-already_AddRefed
-<
-nsISerialEventTarget
->
-GetBackgroundThread
-(
-)
-;
-static
 bool
 IsOtherProcessActor
 (
