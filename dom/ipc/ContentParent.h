@@ -6614,6 +6614,17 @@ IPCTransferableData
 aIPCTransferables
 )
 ;
+RemoteWorkerServiceParent
+*
+GetRemoteWorkerServiceParent
+(
+)
+const
+{
+return
+mRemoteWorkerServiceActor
+;
+}
 private
 :
 static
