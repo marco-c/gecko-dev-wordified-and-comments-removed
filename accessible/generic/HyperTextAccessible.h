@@ -410,6 +410,12 @@ nsIWidget
 aWidget
 )
 ;
+bool
+IsCaretAtEndOfLine
+(
+)
+const
+;
 virtual
 int32_t
 SelectionCount
