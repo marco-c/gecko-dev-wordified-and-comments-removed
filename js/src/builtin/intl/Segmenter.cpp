@@ -1855,8 +1855,6 @@ ICU4XSentenceSegmenter_destroy
 ;
 }
 ;
-#
-endif
 template
 <
 typename
@@ -1921,6 +1919,8 @@ result
 ok
 ;
 }
+#
+endif
 static
 bool
 EnsureInternalsResolved
