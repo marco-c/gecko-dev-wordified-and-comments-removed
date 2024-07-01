@@ -39,6 +39,13 @@ pdf
 ]
 [
 "
+browser_browserGlue_client_association_ping
+.
+js
+"
+]
+[
+"
 browser_browserGlue_os_auth
 .
 js
