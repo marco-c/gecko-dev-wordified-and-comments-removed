@@ -11057,9 +11057,9 @@ wasm
 GenerateImportFunctions
 (
 const
-ModuleEnvironment
+ModuleMetadata
 &
-env
+moduleMeta
 const
 FuncImportVector
 &
@@ -11086,7 +11086,7 @@ WasmMacroAssembler
 masm
 (
 alloc
-env
+moduleMeta
 )
 ;
 for
@@ -11125,7 +11125,7 @@ FuncType
 funcType
 =
 *
-env
+moduleMeta
 .
 funcs
 [
@@ -11142,7 +11142,7 @@ CallIndirectId
 :
 forFunc
 (
-env
+moduleMeta
 funcIndex
 )
 ;
@@ -16410,9 +16410,9 @@ wasm
 GenerateStubs
 (
 const
-ModuleEnvironment
+ModuleMetadata
 &
-env
+moduleMeta
 const
 FuncImportVector
 &
@@ -16446,7 +16446,7 @@ WasmMacroAssembler
 masm
 (
 alloc
-env
+moduleMeta
 )
 ;
 AutoCreatedBy
@@ -16528,7 +16528,7 @@ FuncType
 funcType
 =
 *
-env
+moduleMeta
 .
 funcs
 [
@@ -16698,7 +16698,7 @@ funcType
 =
 (
 *
-env
+moduleMeta
 .
 types
 )
@@ -16737,7 +16737,7 @@ i
 fe
 funcType
 noAbsolute
-env
+moduleMeta
 .
 isAsmJS
 (

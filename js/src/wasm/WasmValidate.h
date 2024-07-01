@@ -94,7 +94,7 @@ mozilla
 Some
 ;
 struct
-ModuleEnvironment
+ModuleMetadata
 {
 const
 ModuleKind
@@ -198,7 +198,7 @@ bool
 parsedBranchHints
 ;
 explicit
-ModuleEnvironment
+ModuleMetadata
 (
 FeatureArgs
 features
@@ -1162,9 +1162,9 @@ Decoder
 &
 d
 const
-ModuleEnvironment
+ModuleMetadata
 &
-env
+moduleMeta
 size_t
 opcodeOffset
 StorageType
@@ -1222,9 +1222,9 @@ Decoder
 &
 d
 const
-ModuleEnvironment
+ModuleMetadata
 &
-env
+moduleMeta
 uint32_t
 funcIndex
 ValTypeVector
@@ -1264,9 +1264,9 @@ DecodeModuleEnvironment
 Decoder
 &
 d
-ModuleEnvironment
+ModuleMetadata
 *
-env
+moduleMeta
 )
 ;
 [
@@ -1278,9 +1278,9 @@ bool
 ValidateFunctionBody
 (
 const
-ModuleEnvironment
+ModuleMetadata
 &
-env
+moduleMeta
 uint32_t
 funcIndex
 uint32_t
@@ -1301,9 +1301,9 @@ DecodeModuleTail
 Decoder
 &
 d
-ModuleEnvironment
+ModuleMetadata
 *
-env
+moduleMeta
 )
 ;
 [

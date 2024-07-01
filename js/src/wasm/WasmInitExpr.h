@@ -59,7 +59,7 @@ class
 Decoder
 ;
 struct
-ModuleEnvironment
+ModuleMetadata
 ;
 [
 [
@@ -72,9 +72,9 @@ DecodeConstantExpression
 Decoder
 &
 d
-ModuleEnvironment
+ModuleMetadata
 *
-env
+moduleMeta
 ValType
 expected
 Maybe
@@ -159,9 +159,9 @@ decodeAndValidate
 Decoder
 &
 d
-ModuleEnvironment
+ModuleMetadata
 *
-env
+moduleMeta
 ValType
 expected
 InitExpr

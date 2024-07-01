@@ -47,9 +47,9 @@ bool
 BaselineCompileFunctions
 (
 const
-ModuleEnvironment
+ModuleMetadata
 &
-moduleEnv
+moduleMeta
 const
 CompilerEnvironment
 &

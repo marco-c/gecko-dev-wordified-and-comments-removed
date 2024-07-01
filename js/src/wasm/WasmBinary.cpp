@@ -306,9 +306,9 @@ startSection
 (
 SectionId
 id
-ModuleEnvironment
+ModuleMetadata
 *
-env
+moduleMeta
 MaybeSectionRange
 *
 range
@@ -337,7 +337,7 @@ const
 size_t
 initialCustomSectionsLength
 =
-env
+moduleMeta
 -
 >
 customSections
@@ -408,7 +408,7 @@ if
 !
 skipCustomSection
 (
-env
+moduleMeta
 )
 )
 {
@@ -490,7 +490,7 @@ cur_
 =
 initialCur
 ;
-env
+moduleMeta
 -
 >
 customSections
@@ -593,9 +593,9 @@ char
 expected
 size_t
 expectedLength
-ModuleEnvironment
+ModuleMetadata
 *
-env
+moduleMeta
 MaybeSectionRange
 *
 range
@@ -613,7 +613,7 @@ const
 size_t
 initialCustomSectionsLength
 =
-env
+moduleMeta
 -
 >
 customSections
@@ -636,7 +636,7 @@ SectionId
 :
 :
 Custom
-env
+moduleMeta
 range
 "
 custom
@@ -771,7 +771,7 @@ payloadOffset
 if
 (
 !
-env
+moduleMeta
 -
 >
 customSections
@@ -852,7 +852,7 @@ cur_
 =
 initialCur
 ;
-env
+moduleMeta
 -
 >
 customSections
@@ -1124,9 +1124,9 @@ Decoder
 :
 skipCustomSection
 (
-ModuleEnvironment
+ModuleMetadata
 *
-env
+moduleMeta
 )
 {
 MaybeSectionRange
@@ -1139,7 +1139,7 @@ startCustomSection
 (
 nullptr
 0
-env
+moduleMeta
 &
 range
 )

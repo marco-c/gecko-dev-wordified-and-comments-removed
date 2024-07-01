@@ -41,9 +41,9 @@ bool
 IonCompileFunctions
 (
 const
-ModuleEnvironment
+ModuleMetadata
 &
-moduleEnv
+moduleMeta
 const
 CompilerEnvironment
 &
@@ -72,9 +72,9 @@ bool
 IonDumpFunction
 (
 const
-ModuleEnvironment
+ModuleMetadata
 &
-moduleEnv
+moduleMeta
 const
 FuncCompileInput
 &
