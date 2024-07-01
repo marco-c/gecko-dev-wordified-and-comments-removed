@@ -340,16 +340,6 @@ tabs
 '
 )
 implementation
-project
-(
-'
-:
-support
--
-utils
-'
-)
-implementation
 ComponentsDependencies
 .
 kotlin_coroutines
