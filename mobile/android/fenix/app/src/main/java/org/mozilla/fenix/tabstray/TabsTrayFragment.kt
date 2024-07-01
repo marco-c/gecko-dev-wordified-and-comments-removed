@@ -1187,6 +1187,17 @@ initialPage
 mode
 =
 initialMode
+selectedTabId
+=
+requireComponents
+.
+core
+.
+store
+.
+state
+.
+selectedTabId
 )
 middlewares
 =
