@@ -4237,10 +4237,15 @@ mozfile
 .
 copy_contents
 (
+                        
 tmpextractdir
 .
 name
 vendor_dir
+ignore_dangling_symlinks
+=
+True
+                    
 )
                 
 else
