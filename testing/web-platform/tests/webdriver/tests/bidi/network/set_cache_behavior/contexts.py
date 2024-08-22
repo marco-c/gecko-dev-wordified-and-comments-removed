@@ -1,7 +1,5 @@
 import
 pytest
-import
-random
 from
 .
 .
@@ -27,11 +25,9 @@ top_context
     
 new_tab
     
-url
-    
 inline
     
-is_request_from_cache
+is_cache_enabled_for_context
 )
 :
     
@@ -98,66 +94,19 @@ context
     
 )
     
-cached_url
-=
-url
-(
-        
-f
-"
-/
-webdriver
-/
-tests
-/
-support
-/
-http_handlers
-/
-cached
-.
-py
-?
-status
-=
-200
-&
-nocache
-=
-{
-random
-.
-random
-(
-)
-}
-"
-    
-)
-    
 assert
 await
-is_request_from_cache
+is_cache_enabled_for_context
 (
-url
-=
-cached_url
-context
-=
 top_context
 )
 is
-False
+True
     
 assert
 await
-is_request_from_cache
+is_cache_enabled_for_context
 (
-url
-=
-cached_url
-context
-=
 new_tab
 )
 is
@@ -191,13 +140,8 @@ context
     
 assert
 await
-is_request_from_cache
+is_cache_enabled_for_context
 (
-url
-=
-cached_url
-context
-=
 top_context
 )
 is
@@ -205,13 +149,8 @@ True
     
 assert
 await
-is_request_from_cache
+is_cache_enabled_for_context
 (
-url
-=
-cached_url
-context
-=
 new_tab
 )
 is
@@ -271,11 +210,9 @@ setup_network_test
     
 top_context
     
-url
-    
 inline
     
-is_request_from_cache
+is_cache_enabled_for_context
     
 type_hint
 )
@@ -291,61 +228,10 @@ RESPONSE_COMPLETED_EVENT
 ]
 )
     
-cached_url
-=
-url
-(
-        
-f
-"
-/
-webdriver
-/
-tests
-/
-support
-/
-http_handlers
-/
-cached
-.
-py
-?
-status
-=
-200
-&
-nocache
-=
-{
-random
-.
-random
-(
-)
-}
-"
-    
-)
-    
 assert
 await
-is_request_from_cache
+is_cache_enabled_for_context
 (
-url
-=
-cached_url
-)
-is
-False
-    
-assert
-await
-is_request_from_cache
-(
-url
-=
-cached_url
 )
 is
 True
@@ -378,14 +264,8 @@ context
     
 assert
 await
-is_request_from_cache
+is_cache_enabled_for_context
 (
-url
-=
-cached_url
-context
-=
-top_context
 )
 is
 False
@@ -447,9 +327,8 @@ complete
     
 assert
 await
-is_request_from_cache
+is_cache_enabled_for_context
 (
-cached_url
 context
 =
 new_context
@@ -495,11 +374,9 @@ top_context
     
 new_tab
     
-url
-    
 inline
     
-is_request_from_cache
+is_cache_enabled_for_context
 )
 :
     
@@ -566,64 +443,18 @@ context
     
 )
     
-cached_url
-=
-url
-(
-        
-f
-"
-/
-webdriver
-/
-tests
-/
-support
-/
-http_handlers
-/
-cached
-.
-py
-?
-status
-=
-200
-&
-nocache
-=
-{
-random
-.
-random
-(
-)
-}
-"
-    
-)
-    
 assert
 await
-is_request_from_cache
+is_cache_enabled_for_context
 (
-url
-=
-cached_url
-context
-=
-top_context
 )
 is
-False
+True
     
 assert
 await
-is_request_from_cache
+is_cache_enabled_for_context
 (
-url
-=
-cached_url
 context
 =
 new_tab
@@ -659,25 +490,16 @@ context
     
 assert
 await
-is_request_from_cache
+is_cache_enabled_for_context
 (
-url
-=
-cached_url
-context
-=
-top_context
 )
 is
 True
     
 assert
 await
-is_request_from_cache
+is_cache_enabled_for_context
 (
-url
-=
-cached_url
 context
 =
 new_tab
@@ -701,25 +523,16 @@ bypass
     
 assert
 await
-is_request_from_cache
+is_cache_enabled_for_context
 (
-url
-=
-cached_url
-context
-=
-top_context
 )
 is
 False
     
 assert
 await
-is_request_from_cache
+is_cache_enabled_for_context
 (
-url
-=
-cached_url
 context
 =
 new_tab
@@ -753,11 +566,9 @@ top_context
     
 new_tab
     
-url
-    
 inline
     
-is_request_from_cache
+is_cache_enabled_for_context
 )
 :
     
@@ -824,64 +635,21 @@ context
     
 )
     
-cached_url
-=
-url
-(
-        
-f
-"
-/
-webdriver
-/
-tests
-/
-support
-/
-http_handlers
-/
-cached
-.
-py
-?
-status
-=
-200
-&
-nocache
-=
-{
-random
-.
-random
-(
-)
-}
-"
-    
-)
-    
 assert
 await
-is_request_from_cache
+is_cache_enabled_for_context
 (
-url
-=
-cached_url
 context
 =
 top_context
 )
 is
-False
+True
     
 assert
 await
-is_request_from_cache
+is_cache_enabled_for_context
 (
-url
-=
-cached_url
 context
 =
 new_tab
@@ -917,11 +685,8 @@ context
     
 assert
 await
-is_request_from_cache
+is_cache_enabled_for_context
 (
-url
-=
-cached_url
 context
 =
 top_context
@@ -931,11 +696,8 @@ True
     
 assert
 await
-is_request_from_cache
+is_cache_enabled_for_context
 (
-url
-=
-cached_url
 context
 =
 new_tab
@@ -959,11 +721,8 @@ default
     
 assert
 await
-is_request_from_cache
+is_cache_enabled_for_context
 (
-url
-=
-cached_url
 context
 =
 top_context
@@ -973,11 +732,8 @@ True
     
 assert
 await
-is_request_from_cache
+is_cache_enabled_for_context
 (
-url
-=
-cached_url
 context
 =
 new_tab
@@ -997,11 +753,9 @@ top_context
     
 new_tab
     
-url
-    
 inline
     
-is_request_from_cache
+is_cache_enabled_for_context
 )
 :
     
@@ -1068,64 +822,21 @@ context
     
 )
     
-cached_url
-=
-url
-(
-        
-f
-"
-/
-webdriver
-/
-tests
-/
-support
-/
-http_handlers
-/
-cached
-.
-py
-?
-status
-=
-200
-&
-nocache
-=
-{
-random
-.
-random
-(
-)
-}
-"
-    
-)
-    
 assert
 await
-is_request_from_cache
+is_cache_enabled_for_context
 (
-url
-=
-cached_url
 context
 =
 top_context
 )
 is
-False
+True
     
 assert
 await
-is_request_from_cache
+is_cache_enabled_for_context
 (
-url
-=
-cached_url
 context
 =
 new_tab
@@ -1149,11 +860,8 @@ bypass
     
 assert
 await
-is_request_from_cache
+is_cache_enabled_for_context
 (
-url
-=
-cached_url
 context
 =
 top_context
@@ -1163,11 +871,8 @@ False
     
 assert
 await
-is_request_from_cache
+is_cache_enabled_for_context
 (
-url
-=
-cached_url
 context
 =
 new_tab
@@ -1203,11 +908,8 @@ context
     
 assert
 await
-is_request_from_cache
+is_cache_enabled_for_context
 (
-url
-=
-cached_url
 context
 =
 top_context
@@ -1217,11 +919,8 @@ False
     
 assert
 await
-is_request_from_cache
+is_cache_enabled_for_context
 (
-url
-=
-cached_url
 context
 =
 new_tab
