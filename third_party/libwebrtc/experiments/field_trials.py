@@ -5476,28 +5476,6 @@ FieldTrial
 '
 WebRTC
 -
-VP8VariableFramerateScreenshare
-'
-               
-'
-webrtc
-:
-10310
-'
-               
-date
-(
-2024
-4
-1
-)
-)
-    
-FieldTrial
-(
-'
-WebRTC
--
 VP9
 -
 GetEncoderInfoOverride
@@ -6075,7 +6053,7 @@ str
 \
     
 '
-4b765e142d10eccf80ec58cc9e994463c092cca0
+785cfbd78860c15c840e509f4859e2b20bf8f250
 '
 REGISTERED_FIELD_TRIALS
 :
