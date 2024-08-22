@@ -657,7 +657,14 @@ popup
 {
 padding
 :
-0
+var
+(
+-
+-
+space
+-
+small
+)
 var
 (
 -
@@ -821,8 +828,6 @@ center
 padding
 -
 block
--
-end
 :
 var
 (
@@ -830,7 +835,7 @@ var
 -
 space
 -
-large
+small
 )
 ;
 &
