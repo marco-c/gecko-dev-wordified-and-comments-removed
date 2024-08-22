@@ -636,6 +636,12 @@ LazyStubSegment
 ;
 class
 CodeSegment
+:
+public
+ShareableBase
+<
+CodeSegment
+>
 {
 protected
 :
@@ -903,9 +909,9 @@ const
 }
 ;
 using
-UniqueModuleSegment
+SharedModuleSegment
 =
-UniquePtr
+RefPtr
 <
 ModuleSegment
 >
@@ -942,7 +948,7 @@ linkData
 )
 ;
 static
-UniqueModuleSegment
+SharedModuleSegment
 create
 (
 Tier
@@ -960,7 +966,7 @@ linkData
 )
 ;
 static
-UniqueModuleSegment
+SharedModuleSegment
 create
 (
 Tier
@@ -1109,9 +1115,9 @@ linkData
 )
 ;
 using
-UniqueLazyStubSegment
+SharedLazyStubSegment
 =
-UniquePtr
+RefPtr
 <
 LazyStubSegment
 >
@@ -1121,7 +1127,7 @@ LazyStubSegmentVector
 =
 Vector
 <
-UniqueLazyStubSegment
+SharedLazyStubSegment
 0
 SystemAllocPolicy
 >
@@ -1173,7 +1179,7 @@ usedBytes_
 {
 }
 static
-UniqueLazyStubSegment
+SharedLazyStubSegment
 create
 (
 const
@@ -1544,7 +1550,7 @@ Code
 *
 code
 ;
-UniqueModuleSegment
+SharedModuleSegment
 segment
 ;
 const
