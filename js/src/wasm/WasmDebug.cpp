@@ -2783,9 +2783,11 @@ customSection
 module_
 -
 >
-customSections
+moduleMeta
 (
 )
+.
+customSections
 )
 {
 const

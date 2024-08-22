@@ -399,6 +399,12 @@ elemSegments
 DataSegmentRangeVector
 dataSegmentRanges
 ;
+DataSegmentVector
+dataSegments
+;
+CustomSectionVector
+customSections
+;
 explicit
 ModuleMetadata
 (
@@ -519,6 +525,7 @@ filename
 CacheableChars
 sourceMapURL
 ;
+mutable
 SharedBytes
 namePayload
 ;

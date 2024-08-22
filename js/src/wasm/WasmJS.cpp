@@ -7462,9 +7462,11 @@ cs
 module
 -
 >
-customSections
+moduleMeta
 (
 )
+.
+customSections
 )
 {
 if
