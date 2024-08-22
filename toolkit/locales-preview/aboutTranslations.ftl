@@ -97,6 +97,15 @@ results
 placeholder
 =
 Translation
+about
+-
+translations
+-
+translating
+-
+message
+=
+Translating
 #
 Text
 displayed
