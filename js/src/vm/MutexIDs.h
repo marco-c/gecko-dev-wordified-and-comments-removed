@@ -59,7 +59,7 @@ WasmInitBuiltinThunks
 \
 _
 (
-WasmCodeProtected
+WasmLazyStubsTier1
 250
 )
 \
@@ -280,7 +280,7 @@ ThreadId
 \
 _
 (
-WasmCodeBlockMap
+WasmCodeSegmentMap
 600
 )
 \

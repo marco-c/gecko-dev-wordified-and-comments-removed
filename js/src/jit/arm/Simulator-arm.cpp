@@ -15171,7 +15171,7 @@ CodeExists
 wasm
 :
 :
-LookupCodeBlock
+LookupCodeSegment
 (
 get_pc_as
 <
@@ -15224,7 +15224,7 @@ CodeExists
 wasm
 :
 :
-LookupCodeBlock
+LookupCodeSegment
 (
 get_pc_as
 <
