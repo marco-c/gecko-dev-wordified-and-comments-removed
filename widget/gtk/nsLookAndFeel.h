@@ -185,6 +185,15 @@ nsACString
 )
 override
 ;
+nsresult
+GetKeyboardLayoutImpl
+(
+nsACString
+&
+aLayout
+)
+override
+;
 static
 const
 nscolor
