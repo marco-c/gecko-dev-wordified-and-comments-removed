@@ -90,18 +90,10 @@ c_char
 ;
 fn
 cow_label
-<
-'
-a
-'
-b
->
 (
 raw
 :
 &
-'
-a
 RawString
 )
 -
@@ -111,7 +103,7 @@ Option
 Cow
 <
 '
-b
+_
 str
 >
 >
