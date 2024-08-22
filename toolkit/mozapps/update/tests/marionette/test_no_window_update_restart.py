@@ -1566,17 +1566,6 @@ addFileToRemove
 (
 patchDir
 "
-bt
-.
-result
-"
-)
-;
-            
-addFileToRemove
-(
-patchDir
-"
 update
 .
 status
