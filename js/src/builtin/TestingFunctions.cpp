@@ -23357,7 +23357,6 @@ move
 news
 )
 len
-true
 )
 ;
 return
