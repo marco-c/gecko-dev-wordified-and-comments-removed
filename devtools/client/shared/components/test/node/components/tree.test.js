@@ -6846,12 +6846,12 @@ n
 .
 find
 (
-"
 .
-arrow
+theme
+-
+twisty
 .
-expanded
-"
+open
 )
 .
 exists
@@ -6875,7 +6875,9 @@ find
 (
 "
 .
-arrow
+theme
+-
+twisty
 "
 )
 .
@@ -6952,7 +6954,9 @@ find
 (
 "
 .
-arrow
+theme
+-
+twisty
 "
 )
 ;
@@ -6977,7 +6981,7 @@ arrow
 hasClass
 (
 "
-expanded
+open
 "
 )
 )
@@ -7363,7 +7367,9 @@ find
 (
 "
 .
-arrow
+theme
+-
+twisty
 "
 )
 ;
@@ -7389,7 +7395,7 @@ arrow
 hasClass
 (
 "
-expanded
+open
 "
 )
 ?

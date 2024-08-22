@@ -2129,7 +2129,9 @@ querySelector
 (
 "
 .
-arrow
+theme
+-
+twisty
 "
 )
 .

@@ -300,9 +300,11 @@ querySelector
 (
 "
 .
-arrow
+theme
+-
+twisty
 .
-expanded
+open
 "
 )
 )
@@ -313,7 +315,9 @@ querySelector
 (
 "
 .
-arrow
+theme
+-
+twisty
 "
 )
 .

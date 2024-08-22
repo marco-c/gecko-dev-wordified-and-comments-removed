@@ -881,7 +881,9 @@ matches
 (
 "
 .
-arrow
+theme
+-
+twisty
 "
 )
 )

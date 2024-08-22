@@ -815,7 +815,9 @@ querySelector
 (
 "
 .
-arrow
+theme
+-
+twisty
 "
 )
 .

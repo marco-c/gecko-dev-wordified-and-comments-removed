@@ -398,7 +398,9 @@ find
 (
 "
 .
-arrow
+theme
+-
+twisty
 "
 )
 .
@@ -460,7 +462,9 @@ find
 (
 "
 .
-arrow
+theme
+-
+twisty
 "
 )
 .
@@ -522,7 +526,9 @@ find
 (
 "
 .
-arrow
+theme
+-
+twisty
 "
 )
 .
@@ -581,7 +587,9 @@ find
 (
 "
 .
-arrow
+theme
+-
+twisty
 "
 )
 .
@@ -718,7 +726,9 @@ find
 (
 "
 .
-arrow
+theme
+-
+twisty
 "
 )
 .
@@ -772,7 +782,9 @@ find
 (
 "
 .
-arrow
+theme
+-
+twisty
 "
 )
 .
@@ -826,7 +838,9 @@ find
 (
 "
 .
-arrow
+theme
+-
+twisty
 "
 )
 .
@@ -877,7 +891,9 @@ find
 (
 "
 .
-arrow
+theme
+-
+twisty
 "
 )
 .

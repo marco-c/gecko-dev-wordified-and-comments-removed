@@ -396,7 +396,9 @@ classNames
 =
 [
 "
-arrow
+theme
+-
+twisty
 "
 ]
 ;
@@ -419,7 +421,7 @@ classNames
 push
 (
 "
-expanded
+open
 "
 )
 ;

@@ -4967,7 +4967,9 @@ querySelector
 (
 "
 .
-arrow
+theme
+-
+twisty
 "
 )
 ;

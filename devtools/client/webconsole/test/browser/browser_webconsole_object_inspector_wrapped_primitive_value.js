@@ -223,7 +223,9 @@ querySelector
 (
 "
 .
-arrow
+theme
+-
+twisty
 "
 )
 .
@@ -242,7 +244,9 @@ querySelector
 (
 "
 .
-arrow
+theme
+-
+twisty
 "
 )
 .
@@ -251,7 +255,7 @@ classList
 contains
 (
 "
-expanded
+open
 "
 )
 "

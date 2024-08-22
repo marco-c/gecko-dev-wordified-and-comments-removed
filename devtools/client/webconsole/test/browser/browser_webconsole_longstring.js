@@ -145,7 +145,9 @@ querySelector
 (
 "
 .
-arrow
+theme
+-
+twisty
 "
 )
 ;

@@ -177,7 +177,9 @@ querySelector
 (
 "
 .
-arrow
+theme
+-
+twisty
 "
 )
 ;

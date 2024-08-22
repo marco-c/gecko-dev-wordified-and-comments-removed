@@ -338,7 +338,9 @@ find
 (
 "
 .
-arrow
+theme
+-
+twisty
 "
 )
 ;
@@ -364,7 +366,7 @@ arrow
 hasClass
 (
 "
-expanded
+open
 "
 )
 ?
