@@ -3944,8 +3944,8 @@ is_nightly
 return
 if
 simulator
-and
-(
+:
+return
 simulator
 [
 0
@@ -3955,10 +3955,6 @@ simulator
 "
 arm64
 "
-)
-:
-return
-True
 if
 target
 .
@@ -3967,6 +3963,9 @@ in
 (
 "
 x86_64
+"
+"
+x86
 "
 "
 aarch64
@@ -4192,6 +4191,9 @@ in
 x86_64
 "
 "
+x86
+"
+"
 aarch64
 "
 )
@@ -4214,6 +4216,8 @@ when
 targeting
 the
 x86_64
+/
+x86
 /
 arm64
 jits

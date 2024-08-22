@@ -1061,6 +1061,17 @@ UpdateSuspenderStateAction
 kind
 Register
 suspender
+Register
+temp
+)
+;
+void
+prepareWasmStackSwitchTrampolineCall
+(
+Register
+suspender
+Register
+data
 )
 ;
 #
