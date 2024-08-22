@@ -211,6 +211,10 @@ DeleteBrowsingDataAndQuit
 is
 MenuAction
 .
+OpenInApp
+is
+MenuAction
+.
 InstallAddon
 is
 MenuAction

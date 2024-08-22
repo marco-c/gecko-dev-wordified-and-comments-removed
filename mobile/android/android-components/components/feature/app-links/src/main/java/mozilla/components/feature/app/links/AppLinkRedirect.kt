@@ -103,6 +103,10 @@ appIntent
 Intent
 ?
 val
+appName
+:
+String
+val
 fallbackUrl
 :
 String

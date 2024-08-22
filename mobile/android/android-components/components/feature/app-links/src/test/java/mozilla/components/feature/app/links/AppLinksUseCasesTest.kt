@@ -2583,11 +2583,17 @@ Intent
 (
 )
 val
+appName
+=
+"
+"
+val
 redirect
 =
 AppLinkRedirect
 (
 appIntent
+appName
 appUrl
 null
 )
@@ -2645,6 +2651,11 @@ appIntent
 Intent
 (
 )
+val
+appName
+=
+"
+"
 appIntent
 .
 putExtra
@@ -2658,6 +2669,7 @@ redirect
 AppLinkRedirect
 (
 appIntent
+appName
 appUrl
 null
 )
@@ -2763,6 +2775,11 @@ appIntent
 Intent
 (
 )
+val
+appName
+=
+"
+"
 appIntent
 .
 putExtra
@@ -2776,6 +2793,7 @@ redirect
 AppLinkRedirect
 (
 appIntent
+appName
 appUrl
 null
 )
@@ -2882,6 +2900,11 @@ appIntent
 Intent
 (
 )
+val
+appName
+=
+"
+"
 appIntent
 .
 putExtra
@@ -2895,6 +2918,7 @@ redirect
 AppLinkRedirect
 (
 appIntent
+appName
 appUrl
 null
 )

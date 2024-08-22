@@ -659,6 +659,8 @@ webRedirect
 AppLinkRedirect
 (
 null
+"
+"
 webUrl
 null
 )
@@ -674,6 +676,8 @@ parseUri
 intentUrl
 0
 )
+"
+"
 null
 null
 )
@@ -689,6 +693,8 @@ parseUri
 webUrlWithAppLink
 0
 )
+"
+"
 null
 null
 )

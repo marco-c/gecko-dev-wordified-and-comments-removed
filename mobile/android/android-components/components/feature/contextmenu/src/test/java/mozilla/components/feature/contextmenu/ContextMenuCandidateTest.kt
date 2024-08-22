@@ -9401,6 +9401,8 @@ AppLinkRedirect
 mock
 (
 )
+"
+"
 null
 null
 )
@@ -9433,6 +9435,8 @@ doReturn
 AppLinkRedirect
 (
 null
+"
+"
 null
 mock
 (
@@ -9481,6 +9485,8 @@ doReturn
 AppLinkRedirect
 (
 null
+"
+"
 null
 null
 )
@@ -9929,6 +9935,8 @@ AppLinkRedirect
 mock
 (
 )
+"
+"
 null
 null
 )
@@ -9961,6 +9969,8 @@ doReturn
 AppLinkRedirect
 (
 null
+"
+"
 null
 mock
 (

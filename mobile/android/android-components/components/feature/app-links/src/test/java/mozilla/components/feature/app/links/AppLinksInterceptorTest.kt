@@ -517,6 +517,8 @@ webRedirect
 AppLinkRedirect
 (
 null
+"
+"
 webUrl
 null
 )
@@ -532,6 +534,8 @@ parseUri
 intentUrl
 0
 )
+"
+"
 null
 null
 )
@@ -547,6 +551,8 @@ parseUri
 webUrlWithAppLink
 0
 )
+"
+"
 null
 null
 )
@@ -556,6 +562,8 @@ fallbackRedirect
 AppLinkRedirect
 (
 null
+"
+"
 fallbackUrl
 null
 )
@@ -565,6 +573,8 @@ marketRedirect
 AppLinkRedirect
 (
 null
+"
+"
 null
 Intent
 .
@@ -1542,6 +1552,8 @@ parseUri
 blocklistedUrl
 0
 )
+"
+"
 blocklistedUrl
 null
 )
@@ -1659,6 +1671,8 @@ parseUri
 supportedUrl
 0
 )
+"
+"
 null
 null
 )
@@ -1776,6 +1790,8 @@ parseUri
 supportedUrl
 0
 )
+"
+"
 null
 null
 )
@@ -1894,6 +1910,8 @@ parseUri
 supportedUrl
 0
 )
+"
+"
 null
 null
 )
@@ -2032,6 +2050,8 @@ parseUri
 notSupportedUrl
 0
 )
+"
+"
 null
 null
 )
@@ -2170,6 +2190,8 @@ parseUri
 notSupportedUrl
 0
 )
+"
+"
 null
 null
 )
@@ -2311,6 +2333,8 @@ parseUri
 notSupportedUrl
 0
 )
+"
+"
 fallbackUrl
 null
 )
@@ -2469,6 +2493,8 @@ parseUri
 notSupportedUrl
 0
 )
+"
+"
 fallbackUrl
 null
 )
@@ -2622,6 +2648,8 @@ notSupportedRedirect
 AppLinkRedirect
 (
 null
+"
+"
 fallbackUrl
 Intent
 .
@@ -2744,6 +2772,8 @@ parseUri
 intentUrl
 0
 )
+"
+"
 null
 null
 )
@@ -2870,6 +2900,8 @@ parseUri
 intentUrl
 0
 )
+"
+"
 fallbackUrl
 null
 )
@@ -2948,6 +2980,8 @@ parseUri
 javascriptUri
 0
 )
+"
+"
 null
 null
 )
@@ -3216,6 +3250,8 @@ parseUri
 intentUrl
 0
 )
+"
+"
 fallbackUrl
 null
 )
@@ -3381,6 +3417,8 @@ parseUri
 intentUrl
 0
 )
+"
+"
 fallbackUrl
 null
 )
@@ -3448,6 +3486,8 @@ testRedirect
 AppLinkRedirect
 (
 null
+"
+"
 fallbackUrl
 Intent
 .
@@ -3521,6 +3561,8 @@ testRedirect
 AppLinkRedirect
 (
 null
+"
+"
 fallbackUrl
 null
 )
@@ -3853,6 +3895,8 @@ parseUri
 intentUrl
 0
 )
+"
+"
 fallbackUrl
 null
 )
@@ -3990,6 +4034,8 @@ parseUri
 notSupportedUrl
 0
 )
+"
+"
 null
 null
 )
