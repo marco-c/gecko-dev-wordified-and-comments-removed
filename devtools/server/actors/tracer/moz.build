@@ -1,12 +1,12 @@
 DevToolsModules
 (
 "
-console
+profiler
 .
 js
 "
 "
-profiler
+resources
 .
 js
 "
