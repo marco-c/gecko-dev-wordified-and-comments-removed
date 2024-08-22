@@ -223,7 +223,7 @@ constructor
 maxLogLevel
 =
 "
-Info
+Error
 "
 }
 =
