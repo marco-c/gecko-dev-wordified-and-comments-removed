@@ -1,0 +1,15 @@
+#
+include
+"
+rtc_base
+/
+trace_categories
+.
+h
+"
+PERFETTO_TRACK_EVENT_STATIC_STORAGE_IN_NAMESPACE_WITH_ATTRS
+(
+webrtc
+RTC_EXPORT
+)
+;

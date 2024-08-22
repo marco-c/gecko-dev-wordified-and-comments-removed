@@ -302,6 +302,12 @@ info
 ignore_elf32_limitations
 =
 true
+perfetto_build_with_embedder
+=
+true
+enable_perfetto_trace_processor
+=
+true
 #
 Use
 bundled

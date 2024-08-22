@@ -169,6 +169,8 @@ EventTracerDisabled
 TRACE_EVENT0
 (
 "
+webrtc
+-
 test
 "
 "
@@ -208,6 +210,13 @@ Reset
 #
 if
 RTC_TRACE_EVENTS_ENABLED
+&
+&
+!
+defined
+(
+RTC_USE_PERFETTO
+)
 TEST
 (
 EventTracerTest
@@ -234,6 +243,8 @@ char
 >
 (
 "
+webrtc
+-
 test
 "
 )
