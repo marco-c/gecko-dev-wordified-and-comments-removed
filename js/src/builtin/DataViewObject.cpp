@@ -6449,7 +6449,7 @@ fun_getUint32
 0
 DataViewGetUint32
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 getFloat16
@@ -6460,6 +6460,7 @@ DataViewObject
 fun_getFloat16
 1
 0
+DataViewGetFloat16
 )
 JS_INLINABLE_FN
 (

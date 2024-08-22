@@ -1471,6 +1471,12 @@ case
 InlinableNative
 :
 :
+DataViewGetFloat16
+:
+case
+InlinableNative
+:
+:
 DataViewGetFloat32
 :
 case
