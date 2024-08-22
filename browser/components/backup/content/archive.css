@@ -243,11 +243,7 @@ block
 5rem
 ;
 }
-a
-.
 button
--
-link
 {
 appearance
 :
@@ -310,13 +306,8 @@ start
 :
 18px
 ;
-text
--
-decoration
-:
-none
-;
-&
+}
+button
 :
 hover
 {
@@ -327,7 +318,8 @@ color
 #
 0250bb
 ;
-&
+}
+button
 :
 active
 {
@@ -338,6 +330,4 @@ color
 #
 073072
 ;
-}
-}
 }
