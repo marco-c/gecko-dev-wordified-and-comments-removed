@@ -437,7 +437,7 @@ hg
 or_else
 (
 |
-e
+hg_err
 |
 match
 find_up
@@ -463,7 +463,7 @@ debug
 (
 "
 {
-e
+hg_err
 :
 ?
 }
@@ -477,7 +477,7 @@ path
 }
 Err
 (
-e2
+git_err
 )
 =
 >
@@ -490,7 +490,7 @@ warn
 (
 "
 {
-e
+hg_err
 :
 ?
 }
@@ -505,7 +505,7 @@ warn
 (
 "
 {
-e2
+git_err
 :
 ?
 }
