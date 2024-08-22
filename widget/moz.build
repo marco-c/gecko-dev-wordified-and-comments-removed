@@ -798,6 +798,11 @@ nsBaseWidget
 h
 "
 "
+nsDragServiceProxy
+.
+h
+"
+"
 nsIDeviceContextSpec
 .
 h
