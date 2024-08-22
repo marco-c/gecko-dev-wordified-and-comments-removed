@@ -5626,11 +5626,6 @@ s
 "
 %
 port
-file
-=
-sys
-.
-stderr
 )
             
 raise
@@ -7038,11 +7033,6 @@ port
 "
 %
 port
-file
-=
-sys
-.
-stderr
 )
             
 raise
