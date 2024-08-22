@@ -1749,6 +1749,7 @@ webrtc
 "
 )
 __func__
+TRACE_EVENT_SCOPE_GLOBAL
 "
 spatial_index
 "
@@ -1822,6 +1823,7 @@ webrtc
 "
 )
 __func__
+TRACE_EVENT_SCOPE_GLOBAL
 "
 spatial_index
 "
@@ -2151,6 +2153,7 @@ webrtc
 "
 )
 __func__
+TRACE_EVENT_SCOPE_GLOBAL
 "
 max_frame_rate
 "
@@ -2220,6 +2223,7 @@ TRACE_EVENT_INSTANT0
 webrtc
 "
 __func__
+TRACE_EVENT_SCOPE_GLOBAL
 )
 ;
 ResetQualityConvergenceInfo

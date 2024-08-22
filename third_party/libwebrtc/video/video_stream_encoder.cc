@@ -11902,6 +11902,7 @@ VCMEncodedFrameCallback
 :
 Encoded
 "
+TRACE_EVENT_SCOPE_GLOBAL
 "
 timestamp
 "

@@ -7865,6 +7865,7 @@ webrtc_stats
 "
 webrtc_stats
 "
+TRACE_EVENT_SCOPE_GLOBAL
 "
 report
 "

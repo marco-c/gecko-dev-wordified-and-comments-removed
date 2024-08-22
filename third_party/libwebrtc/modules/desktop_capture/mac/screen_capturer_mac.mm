@@ -902,6 +902,7 @@ ScreenCapturermac
 :
 Start
 "
+TRACE_EVENT_SCOPE_GLOBAL
 "
 target
 display
