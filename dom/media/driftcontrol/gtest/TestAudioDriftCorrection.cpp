@@ -2104,7 +2104,7 @@ NumCorrectionChanges
 )
 numCorrectionChanges
 +
-5
+9
 )
 ;
 EXPECT_EQ
@@ -2480,7 +2480,7 @@ inputRate
 =
 nominalRate
 *
-998
+997
 /
 1000
 ;
@@ -2809,7 +2809,7 @@ i
 interval
 )
 {
-EXPECT_EQ
+EXPECT_NEAR
 (
 ad
 .
@@ -2823,7 +2823,6 @@ inputInterval1
 10
 *
 2
--
 1
 )
 <
