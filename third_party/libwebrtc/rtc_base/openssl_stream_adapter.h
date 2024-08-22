@@ -535,9 +535,6 @@ SSL_CLOSED
 void
 OnEvent
 (
-StreamInterface
-*
-stream
 int
 events
 int
