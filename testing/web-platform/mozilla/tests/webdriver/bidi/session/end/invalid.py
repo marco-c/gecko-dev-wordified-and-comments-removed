@@ -20,14 +20,27 @@ def
 test_without_session
 (
 bidi_client
+browser
 )
 :
+    
+current_browser
+=
+browser
+(
+use_bidi
+=
+True
+)
     
 bidi_session
 =
 await
 bidi_client
 (
+current_browser
+=
+current_browser
 )
     
 response
