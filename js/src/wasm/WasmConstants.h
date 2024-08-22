@@ -252,6 +252,7 @@ IndirectCallBadSig
 NullPointerDereference
 BadCast
 StackOverflow
+CheckHotness
 CheckInterrupt
 ThrowReported
 Limit

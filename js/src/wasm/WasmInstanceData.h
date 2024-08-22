@@ -253,6 +253,14 @@ arrayElemSize
 }
 ;
 struct
+FuncDefInstanceData
+{
+uint32_t
+hotnessCounter
+;
+}
+;
+struct
 FuncImportInstanceData
 {
 void

@@ -3301,6 +3301,16 @@ nodiscard
 ]
 ]
 bool
+addHotnessCheck
+(
+)
+;
+[
+[
+nodiscard
+]
+]
+bool
 addInterruptCheck
 (
 )

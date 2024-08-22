@@ -312,6 +312,17 @@ case
 Trap
 :
 :
+CheckHotness
+:
+return
+"
+CheckHotness
+"
+;
+case
+Trap
+:
+:
 CheckInterrupt
 :
 return
