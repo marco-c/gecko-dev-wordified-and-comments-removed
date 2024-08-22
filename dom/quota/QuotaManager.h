@@ -3163,9 +3163,6 @@ mTemporaryStorageUsage
 int64_t
 mNextDirectoryLockId
 ;
-uint64_t
-mShutdownStorageOpCount
-;
 bool
 mStorageInitialized
 ;
