@@ -4196,14 +4196,32 @@ COMPILE_ENVIRONMENT
             
 return
         
-build_dir
+self
+.
+import_name
 =
+self
+.
+lib_name
+    
+property
+    
+def
+import_path
+(
+self
+)
+:
+        
+return
 mozpath
 .
 join
 (
             
-context
+self
+.
+_context
 .
 config
 .
@@ -4211,32 +4229,24 @@ topobjdir
             
 cargo_output_directory
 (
-context
+self
+.
+_context
 self
 .
 TARGET_SUBST_VAR
 )
-        
-)
-        
+            
 self
 .
 import_name
-=
-mozpath
-.
-join
-(
-build_dir
-self
-.
-lib_name
+        
 )
 class
 RustLibrary
 (
-StaticLibrary
 BaseRustLibrary
+StaticLibrary
 )
 :
     
@@ -5204,8 +5214,8 @@ False
 class
 HostRustLibrary
 (
-HostLibrary
 BaseRustLibrary
+HostLibrary
 )
 :
     
