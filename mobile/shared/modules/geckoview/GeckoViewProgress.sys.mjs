@@ -780,8 +780,6 @@ convertToDisplayIDN
 uri
 .
 host
-{
-}
 )
 ;
 }

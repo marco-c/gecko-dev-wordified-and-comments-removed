@@ -7341,8 +7341,6 @@ IDNService
 convertToDisplayIDN
 (
 host
-{
-}
 )
 ;
 if

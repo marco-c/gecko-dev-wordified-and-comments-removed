@@ -42,8 +42,6 @@ idnService
 convertToDisplayIDN
 (
 hostname
-{
-}
 )
 ;
 }

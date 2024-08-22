@@ -6005,8 +6005,6 @@ idnService
 convertToDisplayIDN
 (
 baseDomain
-{
-}
 )
 ;
 }

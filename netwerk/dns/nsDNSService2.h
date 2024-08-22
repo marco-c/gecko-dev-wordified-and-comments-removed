@@ -28,13 +28,6 @@ h
 #
 include
 "
-nsIIDNService
-.
-h
-"
-#
-include
-"
 nsIMemoryReporter
 .
 h
@@ -348,9 +341,6 @@ const
 nsACString
 &
 aInput
-nsIIDNService
-*
-aIDN
 nsACString
 &
 aACE
@@ -471,12 +461,6 @@ RefPtr
 nsHostResolver
 >
 mResolver
-;
-nsCOMPtr
-<
-nsIIDNService
->
-mIDN
 ;
 mozilla
 :

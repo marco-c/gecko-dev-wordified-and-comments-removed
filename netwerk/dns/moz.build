@@ -433,11 +433,6 @@ nsIDNService
 cpp
 "
 "
-punycode
-.
-c
-"
-"
 TRR
 .
 cpp

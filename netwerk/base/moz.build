@@ -1395,6 +1395,9 @@ http
 -
 sfv
 "
+"
+idna_glue
+"
 ]
 include
 (

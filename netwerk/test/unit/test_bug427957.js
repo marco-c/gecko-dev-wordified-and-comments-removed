@@ -13,12 +13,6 @@ inputIDN
 )
 {
 var
-isASCII
-=
-{
-}
-;
-var
 displayIDN
 =
 idnService
@@ -26,7 +20,6 @@ idnService
 convertToDisplayIDN
 (
 inputIDN
-isASCII
 )
 ;
 Assert
@@ -45,12 +38,6 @@ inputIDN
 )
 {
 var
-isASCII
-=
-{
-}
-;
-var
 displayIDN
 =
 "
@@ -65,7 +52,6 @@ idnService
 convertToDisplayIDN
 (
 inputIDN
-isASCII
 )
 ;
 }
