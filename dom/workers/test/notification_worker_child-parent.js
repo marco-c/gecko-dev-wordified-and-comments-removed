@@ -123,10 +123,10 @@ data
 ;
 onmessage
 =
+function
 (
+e
 )
-=
->
 {
 child
 .

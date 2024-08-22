@@ -26,7 +26,7 @@ clients
 openWindow
 (
 "
-blank
+hello
 .
 html
 "
@@ -34,8 +34,7 @@ html
 .
 catch
 (
-(
-)
+err
 =
 >
 {
