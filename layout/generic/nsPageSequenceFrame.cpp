@@ -2865,7 +2865,7 @@ mCurrentCanvasList
 )
 )
 {
-nsIntSize
+CSSIntSize
 size
 =
 canvas
@@ -2887,6 +2887,10 @@ drawTarget
 CreateSimilarDrawTarget
 (
 size
+.
+ToUnknownSize
+(
+)
 drawTarget
 -
 >

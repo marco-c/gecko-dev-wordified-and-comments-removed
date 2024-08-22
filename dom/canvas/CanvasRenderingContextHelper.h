@@ -348,7 +348,7 @@ aCompositorBackend
 )
 ;
 virtual
-nsIntSize
+CSSIntSize
 GetWidthHeight
 (
 )

@@ -98,7 +98,7 @@ nsAString
 &
 aOptions
 const
-nsIntSize
+CSSIntSize
 aSize
 bool
 aUsePlaceholder
@@ -137,7 +137,7 @@ aImageBuffer
 int32_t
 aFormat
 const
-nsIntSize
+CSSIntSize
 aSize
 bool
 aUsePlaceholder
@@ -218,7 +218,7 @@ aImageBuffer
 int32_t
 aFormat
 const
-nsIntSize
+CSSIntSize
 aSize
 bool
 aUsePlaceholder

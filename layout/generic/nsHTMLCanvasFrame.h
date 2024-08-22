@@ -166,7 +166,10 @@ WebRenderCanvasData
 aCanvasData
 )
 ;
-nsIntSize
+mozilla
+:
+:
+CSSIntSize
 GetCanvasSize
 (
 )

@@ -11,6 +11,13 @@ mozilla_dom_HTMLCanvasElement_h
 #
 include
 "
+LayoutConstants
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -333,16 +340,6 @@ CanvasRenderingContextHelper
 public
 SupportsWeakPtr
 {
-enum
-{
-DEFAULT_CANVAS_WIDTH
-=
-300
-DEFAULT_CANVAS_HEIGHT
-=
-150
-}
-;
 typedef
 layers
 :
@@ -407,7 +404,7 @@ nsGkAtoms
 :
 :
 height
-DEFAULT_CANVAS_HEIGHT
+kFallbackIntrinsicHeightInPixels
 )
 ;
 }
@@ -423,7 +420,7 @@ nsGkAtoms
 :
 :
 width
-DEFAULT_CANVAS_WIDTH
+kFallbackIntrinsicWidthInPixels
 )
 ;
 }
@@ -637,7 +634,7 @@ ErrorResult
 aRv
 )
 ;
-nsIntSize
+CSSIntSize
 GetSize
 (
 )
@@ -1021,8 +1018,7 @@ aGivenProto
 )
 override
 ;
-virtual
-nsIntSize
+CSSIntSize
 GetWidthHeight
 (
 )

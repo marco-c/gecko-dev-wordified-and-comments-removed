@@ -11962,7 +11962,7 @@ element
 =
 canvas
 ;
-nsIntSize
+CSSIntSize
 size
 =
 canvas
@@ -12242,7 +12242,7 @@ GetAsOffscreenCanvas
 (
 )
 ;
-nsIntSize
+CSSIntSize
 size
 =
 offscreenCanvas
@@ -28032,7 +28032,7 @@ element
 =
 canvas
 ;
-nsIntSize
+CSSIntSize
 size
 =
 canvas
@@ -28111,7 +28111,7 @@ GetAsOffscreenCanvas
 (
 )
 ;
-nsIntSize
+CSSIntSize
 size
 =
 offscreenCanvas

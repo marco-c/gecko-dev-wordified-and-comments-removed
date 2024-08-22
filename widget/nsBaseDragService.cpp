@@ -4742,7 +4742,7 @@ null
 "
 )
 ;
-nsIntSize
+CSSIntSize
 sz
 =
 aCanvas
