@@ -432,26 +432,6 @@ nsBaseDragService
 (
 )
 :
-mCanDrop
-(
-false
-)
-mOnlyChromeDrop
-(
-false
-)
-mDoingDrag
-(
-false
-)
-mSessionIsSynthesizedForTests
-(
-false
-)
-mIsDraggingTextInTextControl
-(
-false
-)
 mEndingSession
 (
 false
@@ -459,26 +439,6 @@ false
 mHasImage
 (
 false
-)
-mUserCancelled
-(
-false
-)
-mDragEventDispatchedToChildProcess
-(
-false
-)
-mDragAction
-(
-DRAGDROP_ACTION_NONE
-)
-mDragActionFromChildProcess
-(
-DRAGDROP_ACTION_UNINITIALIZED
-)
-mEffectAllowedForTests
-(
-DRAGDROP_ACTION_UNINITIALIZED
 )
 mContentPolicyType
 (
@@ -517,7 +477,7 @@ nsIDragService
 nsIDragSession
 )
 NS_IMETHODIMP
-nsBaseDragService
+nsBaseDragSession
 :
 :
 SetCanDrop
@@ -535,7 +495,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsBaseDragService
+nsBaseDragSession
 :
 :
 GetCanDrop
@@ -555,7 +515,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsBaseDragService
+nsBaseDragSession
 :
 :
 SetOnlyChromeDrop
@@ -573,7 +533,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsBaseDragService
+nsBaseDragSession
 :
 :
 GetOnlyChromeDrop
@@ -593,7 +553,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsBaseDragService
+nsBaseDragSession
 :
 :
 SetDragAction
@@ -611,7 +571,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsBaseDragService
+nsBaseDragSession
 :
 :
 GetDragAction
@@ -631,7 +591,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsBaseDragService
+nsBaseDragSession
 :
 :
 GetNumDropItems
@@ -651,7 +611,7 @@ NS_ERROR_FAILURE
 ;
 }
 NS_IMETHODIMP
-nsBaseDragService
+nsBaseDragSession
 :
 :
 GetSourceWindowContext
@@ -682,7 +642,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsBaseDragService
+nsBaseDragSession
 :
 :
 SetSourceWindowContext
@@ -709,7 +669,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsBaseDragService
+nsBaseDragSession
 :
 :
 GetSourceTopWindowContext
@@ -740,7 +700,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsBaseDragService
+nsBaseDragSession
 :
 :
 SetSourceTopWindowContext
@@ -767,7 +727,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsBaseDragService
+nsBaseDragSession
 :
 :
 GetSourceNode
@@ -795,7 +755,7 @@ NS_OK
 ;
 }
 void
-nsBaseDragService
+nsBaseDragSession
 :
 :
 UpdateSource
@@ -868,7 +828,7 @@ aNewSelection
 }
 }
 NS_IMETHODIMP
-nsBaseDragService
+nsBaseDragSession
 :
 :
 GetTriggeringPrincipal
@@ -892,7 +852,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsBaseDragService
+nsBaseDragSession
 :
 :
 SetTriggeringPrincipal
@@ -911,7 +871,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsBaseDragService
+nsBaseDragSession
 :
 :
 GetCsp
@@ -935,7 +895,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsBaseDragService
+nsBaseDragSession
 :
 :
 SetCsp
@@ -954,7 +914,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsBaseDragService
+nsBaseDragSession
 :
 :
 GetData
@@ -971,7 +931,7 @@ NS_ERROR_FAILURE
 ;
 }
 NS_IMETHODIMP
-nsBaseDragService
+nsBaseDragSession
 :
 :
 IsDataFlavorSupported
@@ -990,7 +950,7 @@ NS_ERROR_FAILURE
 ;
 }
 NS_IMETHODIMP
-nsBaseDragService
+nsBaseDragSession
 :
 :
 GetDataTransferXPCOM
@@ -1017,7 +977,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsBaseDragService
+nsBaseDragSession
 :
 :
 SetDataTransferXPCOM
@@ -1042,7 +1002,7 @@ NS_OK
 }
 DataTransfer
 *
-nsBaseDragService
+nsBaseDragSession
 :
 :
 GetDataTransfer
@@ -1054,7 +1014,7 @@ mDataTransfer
 ;
 }
 void
-nsBaseDragService
+nsBaseDragSession
 :
 :
 SetDataTransfer
@@ -1070,7 +1030,7 @@ aDataTransfer
 ;
 }
 bool
-nsBaseDragService
+nsBaseDragSession
 :
 :
 IsSynthesizedForTests
@@ -1082,7 +1042,7 @@ mSessionIsSynthesizedForTests
 ;
 }
 bool
-nsBaseDragService
+nsBaseDragSession
 :
 :
 IsDraggingTextInTextControl
@@ -1094,7 +1054,7 @@ mIsDraggingTextInTextControl
 ;
 }
 uint32_t
-nsBaseDragService
+nsBaseDragSession
 :
 :
 GetEffectAllowedForTests
@@ -1111,7 +1071,7 @@ mEffectAllowedForTests
 ;
 }
 NS_IMETHODIMP
-nsBaseDragService
+nsBaseDragSession
 :
 :
 SetDragEndPointForTests
@@ -4436,7 +4396,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsBaseDragService
+nsBaseDragSession
 :
 :
 UserCancelled
@@ -4452,7 +4412,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsBaseDragService
+nsBaseDragSession
 :
 :
 UpdateDragEffect
@@ -4468,7 +4428,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsBaseDragService
+nsBaseDragSession
 :
 :
 UpdateDragImage
@@ -4510,7 +4470,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsBaseDragService
+nsBaseDragSession
 :
 :
 DragEventDispatchedToChildProcess
