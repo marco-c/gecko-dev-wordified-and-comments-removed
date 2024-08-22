@@ -259,11 +259,12 @@ threads
 )
 ;
 await
-toggleJsTracer
+clickElement
 (
 dbg
-.
-toolbox
+"
+trace
+"
 )
 ;
 info
