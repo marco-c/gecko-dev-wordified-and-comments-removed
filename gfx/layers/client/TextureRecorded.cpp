@@ -85,17 +85,6 @@ mFormat
 aFormat
 )
 {
-mCanvasChild
--
->
-EnsureRecorder
-(
-aSize
-aFormat
-aTextureType
-aWebglTextureType
-)
-;
 }
 RecordedTextureData
 :

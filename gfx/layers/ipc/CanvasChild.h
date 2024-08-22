@@ -181,7 +181,7 @@ SnapshotShmemResolver
 aResolve
 )
 ;
-void
+bool
 EnsureRecorder
 (
 gfx
