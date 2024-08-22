@@ -132,10 +132,10 @@ dependency_structure
 using
 EncodeResultCallback
 =
-absl
+std
 :
 :
-AnyInvocable
+function
 <
 void
 (
