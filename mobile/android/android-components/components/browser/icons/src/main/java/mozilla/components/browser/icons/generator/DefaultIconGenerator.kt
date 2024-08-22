@@ -434,7 +434,7 @@ size
 (
 1
 /
-8th
+5th
 )
 .
 For
@@ -444,7 +444,7 @@ icon
 /
 size
 of
-112dp
+100dp
 we
 '
 d
@@ -453,11 +453,11 @@ a
 text
 size
 of
-14dp
+20dp
 (
-112
+100
 /
-8
+5
 )
 .
 val
@@ -702,6 +702,6 @@ TARGET_ICON_RATIO
 =
 1
 /
-8f
+5f
 }
 }
