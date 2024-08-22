@@ -19020,7 +19020,7 @@ clearButton
 searchControlFrame
 -
 >
-GetAnonClearButton
+GetButton
 (
 )
 ;
@@ -19090,7 +19090,7 @@ reveal
 textControlFrame
 -
 >
-GetRevealButton
+GetButton
 (
 )
 ;
