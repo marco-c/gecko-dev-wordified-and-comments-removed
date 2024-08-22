@@ -14172,7 +14172,7 @@ clientAssociationPing
 .
 enabled
 "
-false
+true
 )
 ;
 #
