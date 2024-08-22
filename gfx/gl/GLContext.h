@@ -327,6 +327,7 @@ bind_buffer_offset
 blend_minmax
 clear_buffers
 copy_buffer
+depth_clamp
 depth_texture
 draw_buffers
 draw_buffers_indexed
@@ -1062,6 +1063,7 @@ ARB_ES3_compatibility
 ARB_color_buffer_float
 ARB_compatibility
 ARB_copy_buffer
+ARB_depth_clamp
 ARB_depth_texture
 ARB_draw_buffers
 ARB_draw_instanced
@@ -1102,6 +1104,7 @@ EXT_blend_minmax
 EXT_color_buffer_float
 EXT_color_buffer_half_float
 EXT_copy_texture
+EXT_depth_clamp
 EXT_disjoint_timer_query
 EXT_draw_buffers
 EXT_draw_buffers2
