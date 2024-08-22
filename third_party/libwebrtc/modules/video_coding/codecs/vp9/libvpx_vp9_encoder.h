@@ -596,6 +596,9 @@ num_active_spatial_layers_
 uint8_t
 first_active_layer_
 ;
+uint8_t
+last_active_layer_
+;
 bool
 layer_deactivation_requires_key_frame_
 ;
