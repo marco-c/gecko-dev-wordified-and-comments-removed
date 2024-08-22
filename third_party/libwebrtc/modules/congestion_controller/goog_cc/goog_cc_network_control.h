@@ -537,6 +537,10 @@ bool
 pace_at_max_of_bwe_and_lower_link_capacity_
 ;
 const
+bool
+limit_pacingfactor_by_upper_link_capacity_estimate_
+;
+const
 std
 :
 :

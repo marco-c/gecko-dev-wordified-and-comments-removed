@@ -272,6 +272,26 @@ FieldTrial
 '
 WebRTC
 -
+Bwe
+-
+LimitPacingFactorByUpperLinkCapacityEstimate
+'
+               
+42220543
+               
+date
+(
+2025
+1
+1
+)
+)
+    
+FieldTrial
+(
+'
+WebRTC
+-
 DataChannelMessageInterleaving
 '
                
