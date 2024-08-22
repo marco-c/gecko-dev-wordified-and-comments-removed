@@ -567,6 +567,10 @@ firstpass_stats_
 ;
 }
 ;
+#
+if
+!
+CONFIG_REALTIME_ONLY
 static
 void
 compare_fp_stats
@@ -932,6 +936,8 @@ sz
 0
 ;
 }
+#
+endif
 TEST_P
 (
 VPxFirstPassEncoderThreadTest

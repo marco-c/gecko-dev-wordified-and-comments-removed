@@ -26778,7 +26778,6 @@ content
 VP9E_CONTENT_SCREEN
 |
 |
-(
 cpi
 -
 >
@@ -26788,17 +26787,6 @@ speed
 >
 =
 5
-&
-&
-cpi
--
->
-oxcf
-.
-speed
-<
-8
-)
 )
 )
 vp9_scene_detection_onepass
