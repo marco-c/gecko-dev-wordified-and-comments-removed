@@ -466,6 +466,13 @@ f
 }
 #
 [
+allow
+(
+missing_docs
+)
+]
+#
+[
 derive
 (
 Clone

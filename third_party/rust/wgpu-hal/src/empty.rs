@@ -281,6 +281,13 @@ enumerate_adapters
 (
 &
 self
+_surface_hint
+:
+Option
+<
+&
+Context
+>
 )
 -
 >
@@ -458,6 +465,13 @@ wgt
 :
 :
 Limits
+_memory_hints
+:
+&
+wgt
+:
+:
+MemoryHints
 )
 -
 >

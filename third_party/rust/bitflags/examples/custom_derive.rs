@@ -22,6 +22,10 @@ zerocopy
 :
 :
 FromBytes
+zerocopy
+:
+:
+FromZeroes
 )
 ]
 #

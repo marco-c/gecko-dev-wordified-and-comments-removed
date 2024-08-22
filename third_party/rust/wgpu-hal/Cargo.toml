@@ -589,6 +589,12 @@ naga
 hlsl
 -
 out
+-
+if
+-
+target
+-
+windows
 "
 "
 dep
@@ -748,6 +754,12 @@ naga
 msl
 -
 out
+-
+if
+-
+target
+-
+apple
 "
 "
 dep
@@ -1545,7 +1557,7 @@ version
 "
 0
 .
-5
+6
 "
 optional
 =

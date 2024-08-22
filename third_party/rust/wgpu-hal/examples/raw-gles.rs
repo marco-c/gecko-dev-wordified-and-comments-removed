@@ -854,6 +854,16 @@ Limits
 downlevel_defaults
 (
 )
+&
+wgt
+:
+:
+MemoryHints
+:
+:
+default
+(
+)
 )
 }
 .

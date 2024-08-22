@@ -123,7 +123,7 @@ version
 "
 2
 .
-5
+6
 .
 0
 "
@@ -295,7 +295,7 @@ version
 "
 1
 .
-0
+12
 "
 optional
 =
@@ -356,6 +356,8 @@ version
 1
 .
 0
+.
+103
 "
 optional
 =
@@ -398,7 +400,9 @@ version
 "
 1
 .
-0
+12
+.
+2
 "
 features
 =
@@ -434,6 +438,8 @@ version
 1
 .
 0
+.
+103
 "
 [
 dev
@@ -462,6 +468,8 @@ version
 1
 .
 0
+.
+19
 "
 [
 dev
@@ -476,6 +484,8 @@ version
 1
 .
 0
+.
+18
 "
 [
 dev
@@ -489,8 +499,15 @@ version
 "
 0
 .
-6
+7
 "
+features
+=
+[
+"
+derive
+"
+]
 [
 features
 ]

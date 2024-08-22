@@ -585,7 +585,7 @@ const
 ffi
 :
 :
-WGPUDeviceDescriptor
+WGPUFfiDeviceDescriptor
 &
 aDesc
 )

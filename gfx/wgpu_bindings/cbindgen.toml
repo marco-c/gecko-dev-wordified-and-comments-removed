@@ -495,13 +495,6 @@ RenderBundleDescriptor______nsACString
 WGPURenderBundleDescriptor
 "
 "
-DeviceDescriptor______nsACString
-"
-=
-"
-WGPUDeviceDescriptor
-"
-"
 TextureDescriptor______nsACString__FfiSlice_TextureFormat
 "
 =

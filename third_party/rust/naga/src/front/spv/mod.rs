@@ -23491,9 +23491,6 @@ module
 .
 upgrade_atomics
 (
-std
-:
-:
 mem
 :
 :
@@ -32309,13 +32306,7 @@ wgsl
 -
 in
 "
-feature
-=
-"
-wgsl
--
-out
-"
+wgsl_out
 )
 )
 ]

@@ -1001,6 +1001,7 @@ hal
 .
 enumerate_adapters
 (
+None
 )
 {
 let
@@ -2845,7 +2846,6 @@ Some
 (
 buffer_id
 )
-label
 )
 )
 ;
@@ -3882,9 +3882,6 @@ Some
 (
 id
 )
-desc
-.
-label
 )
 )
 ;
@@ -4032,9 +4029,6 @@ Some
 (
 id
 )
-desc
-.
-label
 )
 )
 ;
@@ -4147,9 +4141,6 @@ Some
 (
 id
 )
-desc
-.
-label
 )
 )
 ;
@@ -4245,9 +4236,6 @@ Some
 (
 id
 )
-desc
-.
-label
 )
 )
 ;
@@ -5064,7 +5052,7 @@ DeviceAction
 CreateRenderBundleError
 (
 buffer_id
-label
+_label
 )
 =
 >
@@ -5082,7 +5070,6 @@ Some
 (
 buffer_id
 )
-label
 )
 ;
 }

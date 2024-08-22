@@ -11,13 +11,7 @@ wgsl
 -
 in
 "
-feature
-=
-"
-wgsl
--
-out
-"
+wgsl_out
 )
 )
 ]

@@ -279,7 +279,7 @@ features
 =
 [
 "
-serde_derive
+derive
 "
 ]
 optional
@@ -297,7 +297,7 @@ serde_json
 .
 0
 .
-116
+119
 "
 [
 dev
@@ -315,7 +315,7 @@ features
 =
 [
 "
-serde_derive
+derive
 "
 ]
 [
