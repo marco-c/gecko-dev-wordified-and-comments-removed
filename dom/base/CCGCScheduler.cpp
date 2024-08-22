@@ -2780,6 +2780,8 @@ IsNull
 )
 ?
 mActiveIntersliceGCBudget
+*
+2
 :
 aDeadline
 -
@@ -2817,7 +2819,7 @@ maxSliceGCBudget
 =
 mActiveIntersliceGCBudget
 *
-5
+10
 ;
 double
 percentOfBlockedTime
@@ -2870,12 +2872,12 @@ false
 auto
 result
 =
-js
+JS
 :
 :
 SliceBudget
 (
-js
+JS
 :
 :
 TimeBudget

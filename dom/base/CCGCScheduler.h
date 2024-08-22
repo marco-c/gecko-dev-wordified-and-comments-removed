@@ -1721,7 +1721,7 @@ TimeDuration
 :
 FromMilliseconds
 (
-10
+5
 )
 ;
 }

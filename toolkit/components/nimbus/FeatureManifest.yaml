@@ -15430,10 +15430,7 @@ milliseconds
 to
 spend
 in
-a
-non
--
-idle
+an
 incremental
 GC
 slice
