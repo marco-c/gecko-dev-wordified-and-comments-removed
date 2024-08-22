@@ -4719,26 +4719,6 @@ WebRTC
 -
 Video
 -
-QualityRampupSettings
-'
-               
-NO_BUG
-               
-date
-(
-2024
-4
-1
-)
-)
-    
-FieldTrial
-(
-'
-WebRTC
--
-Video
--
 QualityScalerSettings
 '
                
@@ -4914,7 +4894,7 @@ str
 \
     
 '
-230533dd083ddb73124412b928105b4c2ef3c1e9
+a84804e20ae8a5f63996e59560ca97d724665c20
 '
 REGISTERED_FIELD_TRIALS
 :
