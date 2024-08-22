@@ -60,6 +60,7 @@ GPU_IMPL_CYCLE_COLLECTION
 (
 CommandBuffer
 mParent
+mEncoder
 )
 GPU_IMPL_JS_WRAP
 (
