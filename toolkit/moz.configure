@@ -5442,6 +5442,9 @@ depends
 (
 toolkit
 bin_suffix
+(
+target
+)
 )
 def
 moz_child_process_name
