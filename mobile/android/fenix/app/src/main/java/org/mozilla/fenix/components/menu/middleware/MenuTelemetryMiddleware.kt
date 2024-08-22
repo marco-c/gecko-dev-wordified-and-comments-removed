@@ -840,9 +840,6 @@ quit
 MenuAction
 .
 InitAction
-MenuAction
-.
-ToggleReaderView
 is
 MenuAction
 .

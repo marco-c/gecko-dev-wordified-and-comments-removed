@@ -219,10 +219,6 @@ InstallAddon
 is
 MenuAction
 .
-ToggleReaderView
-is
-MenuAction
-.
 Navigate
 -
 >
