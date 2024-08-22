@@ -1437,6 +1437,11 @@ System
 currentTimeMillis
 (
 )
+currentDownloadJobState
+.
+currentBytesCopied
+=
+0
 setDownloadJobStatus
 (
 currentDownloadJobState
