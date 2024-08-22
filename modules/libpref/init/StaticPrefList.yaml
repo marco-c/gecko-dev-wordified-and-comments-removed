@@ -35647,7 +35647,7 @@ type
 uint32_t
 value
 :
-10000
+5000
 mirror
 :
 always
