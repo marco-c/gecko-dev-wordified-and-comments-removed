@@ -122,6 +122,17 @@ JSScript
 script
 )
 ;
+void
+RemoveFromScriptSet
+(
+WeakScriptCache
+&
+scripts
+JSScript
+*
+script
+)
+;
 }
 #
 endif
