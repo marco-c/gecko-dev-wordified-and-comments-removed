@@ -1723,6 +1723,17 @@ preferences
 .
 policy
 -
+PrivateBrowsingModeAvailability
+=
+Set
+availability
+of
+private
+browsing
+mode
+.
+policy
+-
 PromptForDownloadLocation
 =
 Ask

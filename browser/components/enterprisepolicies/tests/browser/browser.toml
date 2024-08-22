@@ -568,6 +568,13 @@ js
 ]
 [
 "
+browser_policy_privatebrowsingmodeavailability
+.
+js
+"
+]
+[
+"
 browser_policy_search_engine
 .
 js
