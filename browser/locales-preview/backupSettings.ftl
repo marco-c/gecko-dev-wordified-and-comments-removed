@@ -1326,6 +1326,17 @@ button
 Restore
 and
 restart
+restore
+-
+from
+-
+backup
+-
+restoring
+-
+button
+=
+Restoring
 #
 #
 These
