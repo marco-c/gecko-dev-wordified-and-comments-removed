@@ -9600,6 +9600,11 @@ MutableHandleValue
 rval
 )
 ;
+[
+[
+nodiscard
+]
+]
 nsresult
 SetSandboxMetadata
 (
