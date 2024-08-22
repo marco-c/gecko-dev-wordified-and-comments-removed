@@ -971,14 +971,6 @@ ClearJSReferences
 (
 )
 ;
-mozilla
-:
-:
-DropJSObjects
-(
-this
-)
-;
 }
 friend
 class
