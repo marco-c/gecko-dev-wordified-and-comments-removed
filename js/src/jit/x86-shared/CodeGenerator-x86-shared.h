@@ -107,7 +107,7 @@ masm
 )
 ;
 class
-OutOfLineLoadTypedArrayOutOfBounds
+OutOfLineAsmJSLoadHeapOutOfBounds
 :
 public
 OutOfLineCodeBase
@@ -126,7 +126,7 @@ viewType_
 ;
 public
 :
-OutOfLineLoadTypedArrayOutOfBounds
+OutOfLineAsmJSLoadHeapOutOfBounds
 (
 AnyRegister
 dest
@@ -182,7 +182,7 @@ override
 codegen
 -
 >
-visitOutOfLineLoadTypedArrayOutOfBounds
+visitOutOfLineAsmJSLoadHeapOutOfBounds
 (
 this
 )
@@ -875,9 +875,9 @@ ool
 )
 ;
 void
-visitOutOfLineLoadTypedArrayOutOfBounds
+visitOutOfLineAsmJSLoadHeapOutOfBounds
 (
-OutOfLineLoadTypedArrayOutOfBounds
+OutOfLineAsmJSLoadHeapOutOfBounds
 *
 ool
 )
