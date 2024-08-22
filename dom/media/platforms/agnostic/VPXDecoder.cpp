@@ -839,14 +839,6 @@ default
 break
 ;
 }
-flag
-|
-=
-MediaInfoFlag
-:
-:
-VIDEO_THEORA
-;
 auto
 rec
 =

@@ -1103,7 +1103,6 @@ through
 libogg
 for
 Ogg
-Theora
 and
 related
 media

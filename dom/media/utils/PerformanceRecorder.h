@@ -278,14 +278,6 @@ VIDEO_VP9
 <
 7
 )
-VIDEO_THEORA
-=
-(
-1
-<
-<
-8
-)
 VIDEO_HEVC
 =
 (

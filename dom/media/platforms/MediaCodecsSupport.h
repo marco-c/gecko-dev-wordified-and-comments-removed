@@ -103,11 +103,6 @@ HEVC
 \
 X
 (
-Theora
-)
-\
-X
-(
 AAC
 )
 \

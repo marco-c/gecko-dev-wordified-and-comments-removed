@@ -5673,13 +5673,6 @@ ogg
 h
 "
 "
-theora
-/
-theoradec
-.
-h
-"
-"
 vpx
 /
 svc_context

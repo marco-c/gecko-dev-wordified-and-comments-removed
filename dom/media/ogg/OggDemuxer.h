@@ -951,10 +951,6 @@ mCodecStore
 ;
 OggCodecState
 *
-mTheoraState
-;
-OggCodecState
-*
 mVorbisState
 ;
 OggCodecState
@@ -1089,9 +1085,6 @@ CommonResource
 OggStateContext
 mAudioOggState
 ;
-OggStateContext
-mVideoOggState
-;
 Maybe
 <
 media
@@ -1169,12 +1162,6 @@ TrackInfo
 TrackType
 aType
 )
-;
-gfx
-:
-:
-IntRect
-mPicture
 ;
 bool
 mIsChained
