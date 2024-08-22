@@ -196,15 +196,6 @@ GetPasswordCharacterImpl
 )
 override
 ;
-nsresult
-GetKeyboardLayoutImpl
-(
-nsACString
-&
-aLayout
-)
-override
-;
 private
 :
 struct
