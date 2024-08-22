@@ -7805,6 +7805,9 @@ BrowserFragmentDirections
 .
 actionGlobalMicrosurveyDialog
 (
+it
+.
+id
 )
 )
 }
@@ -8467,6 +8470,9 @@ BrowserFragmentDirections
 .
 actionGlobalMicrosurveyDialog
 (
+it
+.
+id
 )
 )
 }
