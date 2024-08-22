@@ -845,11 +845,6 @@ settings
 shouldShowMicrosurveyPrompt
 =
 false
-consumeMessageToShowIfNeeded
-(
-context
-oldMessage
-)
 removeMessage
 (
 context
