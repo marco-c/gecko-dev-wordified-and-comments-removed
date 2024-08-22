@@ -15009,7 +15009,7 @@ aFirstTextDirective
 aFirstTextDirective
 -
 >
-GetClosestCommonInclusiveAncestor
+GetStartContainer
 (
 )
 :
