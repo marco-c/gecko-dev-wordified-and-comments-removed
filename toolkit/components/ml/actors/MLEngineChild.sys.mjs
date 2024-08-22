@@ -1281,6 +1281,11 @@ setTimeout
 this
 .
 terminate
+.
+bind
+(
+this
+)
 this
 .
 timeoutMS
