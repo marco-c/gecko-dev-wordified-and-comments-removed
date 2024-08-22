@@ -437,9 +437,6 @@ qr
 opt
 :
 [
-'
-trunk
-'
 ]
 default
 :
