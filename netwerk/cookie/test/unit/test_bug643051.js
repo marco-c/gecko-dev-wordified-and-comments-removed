@@ -269,6 +269,9 @@ net
 expected
 =
 "
+foo
+=
+bar
 "
 ;
 Assert
