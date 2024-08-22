@@ -37125,7 +37125,7 @@ type
 bool
 value
 :
-IS_NIGHTLY_BUILD
+true
 mirror
 :
 once
@@ -43085,7 +43085,7 @@ type
 RelaxedAtomicBool
 value
 :
-IS_NOT_NIGHTLY_BUILD
+false
 mirror
 :
 always
