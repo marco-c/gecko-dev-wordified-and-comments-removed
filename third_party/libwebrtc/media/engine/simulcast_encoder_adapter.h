@@ -927,17 +927,6 @@ EncoderContext
 cached_encoder_contexts_
 ;
 const
-absl
-:
-:
-optional
-<
-unsigned
-int
->
-experimental_boosted_screenshare_qp_
-;
-const
 bool
 boost_base_layer_quality_
 ;
