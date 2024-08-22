@@ -125,7 +125,17 @@ telemetry
 (
 )
 {
+document
+.
+querySelector
+(
+"
+.
 searchbar
+-
+textbox
+"
+)
 .
 value
 =
