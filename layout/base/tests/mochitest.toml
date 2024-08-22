@@ -1206,6 +1206,13 @@ android
 ]
 [
 "
+test_caretPositionFromPoint_insertAnonymousContent
+.
+html
+"
+]
+[
+"
 test_dynamic_toolbar_max_height
 .
 html
