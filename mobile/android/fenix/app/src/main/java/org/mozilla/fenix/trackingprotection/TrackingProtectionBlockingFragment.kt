@@ -359,6 +359,15 @@ isVisible
 settings
 .
 blockRedirectTrackersInCustomTrackingProtection
+binding
+.
+categorySuspectedFingerprinters
+.
+isVisible
+=
+settings
+.
+blockSuspectedFingerprintersInCustomTrackingProtection
 }
 }
 }
