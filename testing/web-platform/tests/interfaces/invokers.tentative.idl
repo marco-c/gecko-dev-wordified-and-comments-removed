@@ -11,7 +11,7 @@ invoketarget
 attribute
 Element
 ?
-invokeTargetElement
+commandForElement
 ;
 [
 CEReactions
@@ -21,12 +21,12 @@ invokeaction
 ]
 attribute
 DOMString
-invokeAction
+command
 ;
 }
 ;
 interface
-InvokeEvent
+CommandEvent
 :
 Event
 {
@@ -35,7 +35,7 @@ constructor
 DOMString
 type
 optional
-InvokeEventInit
+CommandEventInit
 eventInitDict
 =
 {
@@ -51,12 +51,12 @@ invoker
 readonly
 attribute
 DOMString
-action
+command
 ;
 }
 ;
 dictionary
-InvokeEventInit
+CommandEventInit
 :
 EventInit
 {
@@ -67,7 +67,7 @@ invoker
 null
 ;
 DOMString
-action
+command
 =
 "
 "

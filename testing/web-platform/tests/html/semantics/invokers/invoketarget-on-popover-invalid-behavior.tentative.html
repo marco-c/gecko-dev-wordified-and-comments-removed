@@ -207,7 +207,7 @@ id
 "
 containedinvoker
 "
-invoketarget
+commandfor
 =
 "
 invokee
@@ -228,7 +228,7 @@ id
 "
 invokerbutton
 "
-invoketarget
+commandfor
 =
 "
 invokee
@@ -251,7 +251,7 @@ invokerbutton
 removeAttribute
 (
 "
-invokeaction
+command
 "
 )
 ;
@@ -260,7 +260,7 @@ containedinvoker
 removeAttribute
 (
 "
-invokeaction
+command
 "
 )
 ;
@@ -295,6 +295,9 @@ actions
 on
 showpopover
 [
+null
+"
+"
 "
 foo
 -
@@ -317,7 +320,7 @@ close
 forEach
 (
 (
-action
+command
 )
 =
 >
@@ -339,9 +342,9 @@ resetState
 ;
 invokerbutton
 .
-invokeAction
+command
 =
-action
+command
 ;
 assert_false
 (
@@ -384,7 +387,7 @@ invoking
 (
 as
 {
-action
+command
 }
 )
 on
@@ -410,9 +413,9 @@ resetState
 ;
 invokerbutton
 .
-invokeAction
+command
 =
-action
+command
 ;
 invokee
 .
@@ -461,7 +464,7 @@ invoking
 (
 as
 {
-action
+command
 }
 )
 on

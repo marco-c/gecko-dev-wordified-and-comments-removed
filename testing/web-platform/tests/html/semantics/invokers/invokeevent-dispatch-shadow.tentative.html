@@ -307,7 +307,7 @@ slot
 addEventListener
 (
 "
-invoke
+command
 "
 (
 e
@@ -344,7 +344,7 @@ host
 addEventListener
 (
 "
-invoke
+command
 "
 (
 e
@@ -380,10 +380,10 @@ const
 event
 =
 new
-InvokeEvent
+CommandEvent
 (
 "
-invoke
+command
 "
 {
 bubbles
@@ -409,7 +409,7 @@ assert_true
 (
 childEvent
 instanceof
-InvokeEvent
+CommandEvent
 "
 slot
 saw
@@ -490,7 +490,7 @@ host
 ;
 }
 "
-InvokeEvent
+CommandEvent
 propagates
 across
 shadow
@@ -595,9 +595,19 @@ div
 ;
 button
 .
-invokeTargetElement
+commandForElement
 =
 invokee
+;
+button
+.
+command
+=
+'
+test
+-
+command
+'
 ;
 let
 event
@@ -619,7 +629,7 @@ invokee
 addEventListener
 (
 "
-invoke
+command
 "
 (
 e
@@ -661,7 +671,7 @@ assert_true
 (
 event
 instanceof
-InvokeEvent
+CommandEvent
 )
 ;
 assert_equals
@@ -690,7 +700,7 @@ host
 "
 cross
 shadow
-InvokeEvent
+CommandEvent
 retargets
 invoker
 to

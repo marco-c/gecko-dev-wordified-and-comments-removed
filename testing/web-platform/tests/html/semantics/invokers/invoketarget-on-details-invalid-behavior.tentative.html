@@ -212,10 +212,15 @@ id
 "
 invokerbutton
 "
-invoketarget
+commandfor
 =
 "
 invokee
+"
+command
+=
+"
+open
 "
 >
 <
@@ -235,7 +240,7 @@ invokerbutton
 removeAttribute
 (
 "
-invokeaction
+command
 "
 )
 ;
@@ -256,6 +261,8 @@ actions
 on
 details
 [
+"
+"
 "
 foo
 -
@@ -284,7 +291,7 @@ toggleopen
 forEach
 (
 (
-action
+command
 )
 =
 >
@@ -306,9 +313,9 @@ resetState
 ;
 invokerbutton
 .
-invokeAction
+command
 =
-action
+command
 ;
 assert_false
 (
@@ -349,7 +356,7 @@ invoking
 (
 as
 {
-action
+command
 }
 )
 on
@@ -375,9 +382,9 @@ resetState
 ;
 invokerbutton
 .
-invokeAction
+command
 =
-action
+command
 ;
 invokee
 .
@@ -429,7 +436,7 @@ invoking
 (
 as
 {
-action
+command
 }
 )
 on

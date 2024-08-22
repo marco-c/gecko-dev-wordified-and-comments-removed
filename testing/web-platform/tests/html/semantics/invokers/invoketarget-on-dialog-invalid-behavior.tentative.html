@@ -205,10 +205,15 @@ id
 "
 containedinvoker
 "
-invoketarget
+commandfor
 =
 "
 invokee
+"
+command
+=
+"
+close
 "
 >
 <
@@ -226,10 +231,15 @@ id
 "
 invokerbutton
 "
-invoketarget
+commandfor
 =
 "
 invokee
+"
+command
+=
+"
+showmodal
 "
 >
 <
@@ -276,7 +286,7 @@ invokerbutton
 removeAttribute
 (
 "
-invokeaction
+command
 "
 )
 ;
@@ -285,7 +295,7 @@ containedinvoker
 removeAttribute
 (
 "
-invokeaction
+command
 "
 )
 ;
@@ -294,6 +304,8 @@ invokeaction
 /
 invalid
 [
+"
+"
 "
 foo
 "
@@ -347,7 +359,7 @@ invokerbutton
 setAttribute
 (
 "
-invokeaction
+command
 "
 action
 )
@@ -452,7 +464,7 @@ containedinvoker
 setAttribute
 (
 "
-invokeaction
+command
 "
 action
 )
@@ -564,7 +576,7 @@ containedinvoker
 setAttribute
 (
 "
-invokeaction
+command
 "
 action
 )
@@ -677,7 +689,7 @@ containedinvoker
 setAttribute
 (
 "
-invokeaction
+command
 "
 action
 )
@@ -723,7 +735,7 @@ invokee
 addEventListener
 (
 "
-invoke
+command
 "
 (
 e
@@ -736,7 +748,7 @@ containedinvoker
 setAttribute
 (
 "
-invokeaction
+command
 "
 "
 "
@@ -822,8 +834,6 @@ showmodal
 "
 close
 "
-"
-"
 ]
 .
 forEach
@@ -887,7 +897,7 @@ containedinvoker
 setAttribute
 (
 "
-invokeaction
+command
 "
 action
 )
@@ -949,7 +959,7 @@ invokee
 addEventListener
 (
 "
-invoke
+command
 "
 (
 e
