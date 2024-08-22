@@ -974,7 +974,7 @@ list
 button
 "
 )
-fingerprintersBlockListButton
+knownFingerprintersBlockListButton
 (
 )
 .
@@ -2618,7 +2618,7 @@ Cryptominers
 )
 private
 fun
-fingerprintersBlockListButton
+knownFingerprintersBlockListButton
 (
 )
 =
@@ -2637,6 +2637,7 @@ fingerprinters
 withText
 (
 "
+Known
 Fingerprinters
 "
 )

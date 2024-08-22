@@ -2176,6 +2176,14 @@ Cryptominers
 selectTrackingProtectionOption
 (
 "
+Known
+Fingerprinters
+"
+)
+selectTrackingProtectionOption
+(
+"
+Suspected
 Fingerprinters
 "
 )
