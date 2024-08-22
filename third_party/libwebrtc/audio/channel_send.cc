@@ -2017,6 +2017,13 @@ local_media_ssrc
 =
 ssrc
 ;
+configuration
+.
+field_trials
+=
+&
+field_trials
+;
 rtp_rtcp_
 =
 ModuleRtpRtcpImpl2
