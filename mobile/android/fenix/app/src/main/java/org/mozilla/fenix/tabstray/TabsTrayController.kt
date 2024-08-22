@@ -2011,6 +2011,18 @@ positionToPage
 (
 position
 )
+if
+(
+page
+!
+=
+tabsTrayStore
+.
+state
+.
+selectedPage
+)
+{
 when
 (
 page
@@ -2061,6 +2073,7 @@ NoExtras
 (
 )
 )
+}
 }
 selectTabPosition
 (
