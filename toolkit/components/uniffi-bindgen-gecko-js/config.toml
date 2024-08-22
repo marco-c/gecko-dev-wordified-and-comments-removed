@@ -170,6 +170,11 @@ data_path
 "
 SuggestStoreBuilder
 .
+load_extension
+"
+"
+SuggestStoreBuilder
+.
 remote_settings_bucket_name
 "
 "
