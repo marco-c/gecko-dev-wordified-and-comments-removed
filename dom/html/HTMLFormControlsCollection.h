@@ -367,6 +367,7 @@ static
 bool
 ShouldBeInElements
 (
+const
 nsIFormControl
 *
 aFormControl
