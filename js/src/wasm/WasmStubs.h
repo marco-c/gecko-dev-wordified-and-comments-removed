@@ -1054,7 +1054,7 @@ offsets
 ;
 extern
 bool
-GenerateImportFunctions
+GenerateStubs
 (
 const
 CodeMetadata
@@ -1071,16 +1071,12 @@ code
 ;
 extern
 bool
-GenerateStubs
+GenerateEntryStubs
 (
 const
 CodeMetadata
 &
 codeMeta
-const
-FuncImportVector
-&
-imports
 const
 FuncExportVector
 &
