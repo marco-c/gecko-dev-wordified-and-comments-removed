@@ -3687,12 +3687,6 @@ test
 -
 platform
 :
-android
-.
-*
-:
-[
-]
 .
 *
 wayland
