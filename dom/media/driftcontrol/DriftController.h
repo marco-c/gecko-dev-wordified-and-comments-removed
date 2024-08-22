@@ -156,6 +156,12 @@ aBufferSize
 ;
 private
 :
+int64_t
+NearThreshold
+(
+)
+const
+;
 void
 CalculateCorrection
 (
