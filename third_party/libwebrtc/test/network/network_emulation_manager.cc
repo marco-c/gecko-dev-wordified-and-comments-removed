@@ -53,9 +53,11 @@ h
 #
 include
 "
-call
+test
 /
-simulated_network
+network
+/
+emulated_turn_server
 .
 h
 "
@@ -66,7 +68,7 @@ test
 /
 network
 /
-emulated_turn_server
+simulated_network
 .
 h
 "

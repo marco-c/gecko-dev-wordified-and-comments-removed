@@ -1,7 +1,9 @@
 #
 include
 "
-call
+test
+/
+network
 /
 simulated_network
 .

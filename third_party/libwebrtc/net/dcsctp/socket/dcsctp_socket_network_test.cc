@@ -128,15 +128,6 @@ h
 #
 include
 "
-call
-/
-simulated_network
-.
-h
-"
-#
-include
-"
 net
 /
 dcsctp
