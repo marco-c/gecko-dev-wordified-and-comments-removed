@@ -47626,7 +47626,9 @@ mIsAlert
 {
 gdk_window_set_override_redirect
 (
-mGdkWindow
+GetToplevelGdkWindow
+(
+)
 TRUE
 )
 ;
