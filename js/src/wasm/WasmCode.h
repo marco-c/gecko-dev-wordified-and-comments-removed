@@ -3559,8 +3559,6 @@ requestTierUp
 (
 uint32_t
 funcIndex
-uint32_t
-funcBytecodeOffset
 )
 const
 ;

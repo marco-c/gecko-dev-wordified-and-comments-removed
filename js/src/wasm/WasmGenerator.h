@@ -781,6 +781,9 @@ compilerEnv_
 SharedCode
 partialTieringCode_
 ;
+FuncDefRangeVector
+funcDefRanges_
+;
 FuncImportVector
 funcImports_
 ;

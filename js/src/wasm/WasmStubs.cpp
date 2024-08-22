@@ -16527,7 +16527,6 @@ codeRanges
 emplaceBack
 (
 funcIndex
-0
 wrapperOffsets
 false
 )

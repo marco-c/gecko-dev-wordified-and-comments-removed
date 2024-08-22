@@ -4077,12 +4077,6 @@ code
 requestTierUp
 (
 funcIndex
-codeRange
--
->
-funcLineOrBytecode
-(
-)
 )
 ;
 if
