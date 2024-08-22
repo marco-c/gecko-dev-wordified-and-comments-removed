@@ -170,6 +170,10 @@ const
 c
 int
 bpc
+int
+*
+const
+all_simd
 )
 {
 const
@@ -361,5 +365,10 @@ assign_itx1_fn
 64
 neon
 )
+;
+*
+all_simd
+=
+1
 ;
 }
