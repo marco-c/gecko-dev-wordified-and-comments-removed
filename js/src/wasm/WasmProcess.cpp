@@ -768,10 +768,6 @@ MOZ_ASSERT
 cs
 -
 >
-codeTier
-(
-)
-.
 code
 (
 )
