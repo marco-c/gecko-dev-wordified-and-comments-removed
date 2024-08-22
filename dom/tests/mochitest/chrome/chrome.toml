@@ -89,6 +89,11 @@ file_bug1224790
 xhtml
 "
 "
+file_first_focusable_in_scope
+.
+xhtml
+"
+"
 file_popup_blocker_chrome
 .
 html
@@ -435,6 +440,13 @@ xhtml
 [
 "
 test_focus_docnav
+.
+xhtml
+"
+]
+[
+"
+test_first_focusable_in_scope
 .
 xhtml
 "
