@@ -463,11 +463,8 @@ notify
 {
 }
             
-"
-dismiss
-and
-notify
-"
+{
+}
             
 True
             
@@ -487,9 +484,15 @@ accept
 "
 }
             
+{
+"
+default
+"
+:
 "
 accept
 "
+}
             
 True
             
@@ -781,34 +784,6 @@ assert_success
 response
 )
     
-if
-prompt
-=
-=
-"
-default
-"
-:
-        
-assert
-value
-[
-"
-capabilities
-"
-]
-[
-"
-unhandledPromptBehavior
-"
-]
-=
-=
-handler
-    
-else
-:
-        
 assert
 value
 [
