@@ -744,7 +744,7 @@ return
 ;
 }
 const
-editorLine
+line
 =
 toEditorLine
 (
@@ -771,15 +771,11 @@ id
 markerTypes
 .
 CONDITIONAL_BP_MARKER
-condition
+lines
 :
+[
 line
-=
->
-line
-=
-=
-editorLine
+]
 createLineElementNode
 :
 (
