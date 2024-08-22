@@ -5738,9 +5738,9 @@ bestTier
 )
 ;
 const
-CodeTier
+CodeBlock
 &
-codeTier
+codeBlock
 =
 code
 (
@@ -5752,7 +5752,7 @@ FuncImportVector
 &
 funcImports
 =
-codeTier
+codeBlock
 .
 funcImports
 ;
@@ -5761,7 +5761,7 @@ CodeRangeVector
 &
 codeRanges
 =
-codeTier
+codeBlock
 .
 codeRanges
 ;
@@ -5770,7 +5770,7 @@ Uint32Vector
 &
 funcToCodeRange
 =
-codeTier
+codeBlock
 .
 funcToCodeRange
 ;
@@ -5824,7 +5824,7 @@ if
 (
 elemIndex
 <
-codeTier
+codeBlock
 .
 funcImports
 .
@@ -7632,9 +7632,9 @@ bestTier
 )
 ;
 const
-CodeTier
+CodeBlock
 &
-codeTier
+codeBlock
 =
 instance
 -
@@ -7649,7 +7649,7 @@ FuncImportVector
 &
 funcImports
 =
-codeTier
+codeBlock
 .
 funcImports
 ;
@@ -16664,9 +16664,9 @@ codeMeta
 )
 ;
 const
-CodeTier
+CodeBlock
 &
-codeTier
+codeBlock
 =
 instance
 .
@@ -16685,7 +16685,7 @@ createOneEntryStub
 (
 funcExportIndex
 codeMeta
-codeTier
+codeBlock
 )
 )
 {
@@ -19535,9 +19535,9 @@ printString
 const
 {
 const
-CodeTier
+CodeBlock
 &
-codeTier
+codeBlock
 =
 code
 (
@@ -19549,7 +19549,7 @@ FuncExport
 &
 funcExport
 =
-codeTier
+codeBlock
 .
 lookupFuncExport
 (
@@ -19561,7 +19561,7 @@ CodeRange
 &
 range
 =
-codeTier
+codeBlock
 .
 codeRange
 (
@@ -19574,7 +19574,7 @@ ModuleSegment
 segment
 =
 *
-codeTier
+codeBlock
 .
 segment
 ;

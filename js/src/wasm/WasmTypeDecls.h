@@ -178,7 +178,7 @@ class
 CodeRange
 ;
 class
-CodeTier
+CodeBlock
 ;
 class
 ModuleSegment

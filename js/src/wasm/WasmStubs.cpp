@@ -8033,9 +8033,9 @@ loadWasmPinnedRegsFromInstance
 )
 ;
 const
-CodeTier
+CodeBlock
 &
-codeTier
+codeBlock
 =
 inst
 .
@@ -8043,7 +8043,7 @@ code
 (
 )
 .
-codeTier
+codeBlock
 (
 inst
 .
@@ -8061,7 +8061,7 @@ CodeRange
 &
 codeRange
 =
-codeTier
+codeBlock
 .
 codeRange
 (
@@ -8072,7 +8072,7 @@ void
 *
 callee
 =
-codeTier
+codeBlock
 .
 segment
 -

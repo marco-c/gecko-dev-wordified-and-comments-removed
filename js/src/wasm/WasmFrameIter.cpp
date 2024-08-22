@@ -1677,7 +1677,7 @@ funcIndex
 code_
 -
 >
-codeTier
+codeBlock
 (
 Tier
 :
