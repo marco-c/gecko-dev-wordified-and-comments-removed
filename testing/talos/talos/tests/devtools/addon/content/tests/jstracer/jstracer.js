@@ -240,10 +240,11 @@ const
 type
 =
 resource
+[
+TRACER_FIELDS_INDEXES
 .
-shift
-(
-)
+TYPE
+]
 ;
 return
 (

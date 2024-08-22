@@ -1550,7 +1550,9 @@ type
 =
 traceResource
 [
-0
+TRACER_FIELDS_INDEXES
+.
+TYPE
 ]
 ;
 const
@@ -1577,11 +1579,6 @@ collectedFrames
 push
 (
 traceResource
-.
-slice
-(
-1
-)
 )
 ;
 return
