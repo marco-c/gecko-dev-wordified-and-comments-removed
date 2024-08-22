@@ -2349,6 +2349,11 @@ args
 "
 -
 -
+nologs
+"
+"
+-
+-
 write_perf_output_on_ios
 "
 "
@@ -2379,11 +2384,6 @@ dir
 {
 ISOLATED_OUTDIR
 }
-"
-"
--
--
-nologs
 "
 ]
 "
