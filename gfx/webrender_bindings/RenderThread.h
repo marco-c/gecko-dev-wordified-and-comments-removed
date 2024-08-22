@@ -738,6 +738,9 @@ uint8_t
 >
 &
 aReadbackBuffer
+RendererStats
+*
+aStats
 bool
 *
 aNeedsYFlip
