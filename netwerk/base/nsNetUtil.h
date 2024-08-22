@@ -3062,6 +3062,15 @@ bool
 aIsOriginTrialCoepCredentiallessEnabled
 )
 ;
+bool
+NS_GetForceLoadAtTopFromHeader
+(
+const
+nsACString
+&
+aHeader
+)
+;
 uint32_t
 NS_GetContentDispositionFromToken
 (
