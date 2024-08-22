@@ -2648,6 +2648,19 @@ MouseButtonsFlag
 :
 ePrimaryFlag
 ;
+if
+(
+aTouchEvent
+.
+mInputSource
+=
+=
+MouseEvent_Binding
+:
+:
+MOZ_SOURCE_TOUCH
+)
+{
 aPointerEvent
 .
 mIsPrimary
@@ -2673,6 +2686,7 @@ Identifier
 )
 )
 ;
+}
 aPointerEvent
 .
 pointerId
