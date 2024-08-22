@@ -2127,7 +2127,7 @@ RegisterCategoryProviders
 (
 )
 ;
-profiler_lookup_download_directory
+profiler_lookup_async_signal_dump_directory
 (
 )
 ;
