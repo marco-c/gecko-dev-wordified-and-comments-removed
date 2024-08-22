@@ -2288,13 +2288,6 @@ UnknownUnits
 >
 IntSize
 ;
-typedef
-Maybe
-<
-IntSize
->
-MaybeIntSize
-;
 template
 <
 class
