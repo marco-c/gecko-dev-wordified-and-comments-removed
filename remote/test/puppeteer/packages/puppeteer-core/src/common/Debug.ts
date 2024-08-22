@@ -23,7 +23,7 @@ js
 declare
 global
 {
-var
+const
 __PUPPETEER_DEBUG
 :
 string

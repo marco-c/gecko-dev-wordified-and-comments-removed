@@ -190,6 +190,11 @@ timeout
 :
 number
 ;
+waitForFonts
+?
+:
+boolean
+;
 }
 export
 interface

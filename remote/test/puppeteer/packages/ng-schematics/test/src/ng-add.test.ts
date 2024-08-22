@@ -1040,7 +1040,12 @@ compilerOptions
 module
 :
 '
-CommonJS
+NodeNext
+'
+moduleResolution
+:
+'
+NodeNext
 '
 }
 }
@@ -2138,7 +2143,12 @@ compilerOptions
 module
 :
 '
-CommonJS
+NodeNext
+'
+moduleResolution
+:
+'
+NodeNext
 '
 }
 }

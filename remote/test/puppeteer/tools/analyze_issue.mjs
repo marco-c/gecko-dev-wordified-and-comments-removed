@@ -1509,7 +1509,7 @@ runsOn
 '
 macos
 -
-13
+latest
 '
 ;
 break

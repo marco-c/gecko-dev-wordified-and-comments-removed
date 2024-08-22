@@ -1849,11 +1849,7 @@ page
 evaluate
 (
 async
-(
 url
-:
-string
-)
 =
 >
 {

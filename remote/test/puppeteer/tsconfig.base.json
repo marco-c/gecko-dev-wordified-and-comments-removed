@@ -109,6 +109,11 @@ resolveJsonModule
 :
 true
 "
+skipLibCheck
+"
+:
+true
+"
 sourceMap
 "
 :
@@ -160,11 +165,6 @@ types
 ]
 "
 useUnknownInCatchVariables
-"
-:
-true
-"
-skipLibCheck
 "
 :
 true

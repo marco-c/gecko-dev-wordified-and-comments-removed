@@ -264,9 +264,12 @@ string
 ;
 #
 credentials
-?
 :
 Credentials
+|
+null
+=
+null
 ;
 #
 attemptedAuthentications
@@ -653,9 +656,10 @@ async
 authenticate
 (
 credentials
-?
 :
 Credentials
+|
+null
 )
 :
 Promise

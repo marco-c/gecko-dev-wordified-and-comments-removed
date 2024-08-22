@@ -431,8 +431,7 @@ can
 specify
 the
 port
-the
-an
+in
 the
 angular
 .
@@ -607,7 +606,7 @@ single
 application
 and
 a
-milti
+multi
 application
 projects
 )
@@ -711,7 +710,7 @@ process
 .
 A
 more
-closes
+close
 comparison
 for
 Protractor

@@ -1,9 +1,7 @@
 import
 type
 {
-IncomingMessage
 Server
-ServerResponse
 }
 from
 '
@@ -255,11 +253,7 @@ createServer
 (
 (
 originalRequest
-:
-IncomingMessage
 originalResponse
-:
-ServerResponse
 )
 =
 >
@@ -271,8 +265,7 @@ push
 originalRequest
 .
 url
-as
-string
+!
 )
 ;
 const
@@ -285,8 +278,7 @@ request
 originalRequest
 .
 url
-as
-string
+!
 {
 method
 :

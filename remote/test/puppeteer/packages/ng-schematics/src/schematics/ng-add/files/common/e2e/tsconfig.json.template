@@ -21,7 +21,14 @@ module
 "
 :
 "
-CommonJS
+NodeNext
+"
+"
+moduleResolution
+"
+:
+"
+NodeNext
 "
 "
 rootDir

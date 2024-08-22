@@ -235,6 +235,17 @@ from
 '
 .
 /
+PSelectorParser
+.
+js
+'
+;
+export
+*
+from
+'
+.
+/
 Puppeteer
 .
 js

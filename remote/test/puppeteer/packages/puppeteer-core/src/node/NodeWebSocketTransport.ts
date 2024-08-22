@@ -92,6 +92,9 @@ true
 perMessageDeflate
 :
 false
+allowSynchronousEvents
+:
+false
 maxPayload
 :
 256
@@ -215,13 +218,6 @@ event
 =
 >
 {
-setImmediate
-(
-(
-)
-=
->
-{
 if
 (
 this
@@ -245,9 +241,6 @@ data
 }
 )
 ;
-}
-)
-;
 this
 .
 #
@@ -258,13 +251,6 @@ addEventListener
 '
 close
 '
-(
-)
-=
->
-{
-setImmediate
-(
 (
 )
 =
@@ -287,9 +273,6 @@ null
 )
 ;
 }
-}
-)
-;
 }
 )
 ;
