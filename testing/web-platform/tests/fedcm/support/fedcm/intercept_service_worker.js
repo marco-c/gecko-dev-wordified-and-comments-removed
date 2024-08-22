@@ -61,19 +61,6 @@ url
 indexOf
 (
 '
-credential
--
-management
-/
-support
-'
-|
-|
-url
-.
-indexOf
-(
-'
 fedcm
 /
 support
@@ -83,7 +70,6 @@ support
 =
 -
 1
-)
 )
 {
 +
