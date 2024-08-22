@@ -420,6 +420,9 @@ HomeActivityIntentTestRule
 isJumpBackInCFREnabled
 =
 false
+isNavigationBarCFREnabled
+=
+false
 isPWAsPromptEnabled
 =
 false

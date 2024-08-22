@@ -944,6 +944,11 @@ it
 isJumpBackInCFREnabled
 =
 true
+it
+.
+isNavigationBarCFREnabled
+=
+false
 }
 val
 genericPage

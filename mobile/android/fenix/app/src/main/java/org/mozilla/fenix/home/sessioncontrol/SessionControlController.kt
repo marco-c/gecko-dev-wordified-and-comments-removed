@@ -2613,6 +2613,11 @@ browsingModeManager
 mode
 .
 isPrivate
+|
+|
+settings
+.
+shouldShowNavigationBarCFR
 )
 {
 false
