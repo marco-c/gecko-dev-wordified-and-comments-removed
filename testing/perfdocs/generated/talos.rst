@@ -49565,7 +49565,7 @@ True
 *
 timeout
 :
-1800
+2000
 *
 tpmanifest
 :
@@ -65848,7 +65848,7 @@ maxurls
 *
 timeout
 :
-900
+1200
 *
 tploadnocache
 :

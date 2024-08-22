@@ -2374,7 +2374,7 @@ linux1804
 .
 *
 :
-1200
+1800
 macosx
 .
 *
@@ -4313,7 +4313,7 @@ run
 -
 time
 :
-1800
+2100
 mozharness
 :
 extra

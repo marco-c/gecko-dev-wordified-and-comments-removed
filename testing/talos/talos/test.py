@@ -2125,7 +2125,7 @@ tppagecycles
     
 timeout
 =
-1800
+2000
     
 tptimeout
 =
@@ -2486,7 +2486,7 @@ tppagecycles
     
 timeout
 =
-900
+1200
     
 tploadnocache
 =

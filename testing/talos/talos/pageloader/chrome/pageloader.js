@@ -1801,6 +1801,12 @@ spec
 )
 ;
 }
+setTimeout
+(
+function
+(
+)
+{
 start_time
 =
 window
@@ -1863,6 +1869,10 @@ getSystemPrincipal
 )
 ;
 }
+}
+200
+)
+;
 }
 function
 getTestName
