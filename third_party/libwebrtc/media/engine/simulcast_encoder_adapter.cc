@@ -1557,6 +1557,14 @@ format
 parameters
 )
 )
+encoder_info_override_
+(
+env
+.
+field_trials
+(
+)
+)
 {
 RTC_DCHECK
 (

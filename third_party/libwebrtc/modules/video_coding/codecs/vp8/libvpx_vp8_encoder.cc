@@ -1879,6 +1879,14 @@ variable_framerate_screenshare
 :
 kMinFps
 )
+encoder_info_override_
+(
+env_
+.
+field_trials
+(
+)
+)
 max_frame_drop_interval_
 (
 ParseFrameDropInterval
