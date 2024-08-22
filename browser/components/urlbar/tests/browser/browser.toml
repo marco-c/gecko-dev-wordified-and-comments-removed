@@ -1920,6 +1920,13 @@ js
 ]
 [
 "
+browser_searchMode_omnibox
+.
+js
+"
+]
+[
+"
 browser_searchMode_oneOffButton
 .
 js

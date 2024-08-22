@@ -426,6 +426,12 @@ tokens
 .
 value
 )
+&
+&
+!
+queryContext
+.
+searchMode
 )
 {
 return
