@@ -151,7 +151,7 @@ inline
 -
 start
 :
-6px
+10px
 ;
 }
 .
@@ -176,6 +176,11 @@ font
 size
 :
 13px
+;
+padding
+:
+4px
+0
 ;
 }
 #
