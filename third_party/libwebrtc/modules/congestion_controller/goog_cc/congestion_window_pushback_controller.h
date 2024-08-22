@@ -55,7 +55,7 @@ CongestionWindowPushbackController
 (
 const
 FieldTrialsView
-*
+&
 key_value_config
 )
 ;

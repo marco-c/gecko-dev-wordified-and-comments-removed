@@ -1410,11 +1410,7 @@ nullptr
 boost_base_layer_quality_
 (
 RateControlSettings
-:
-:
-ParseFromKeyValueConfig
 (
-&
 env_
 .
 field_trials

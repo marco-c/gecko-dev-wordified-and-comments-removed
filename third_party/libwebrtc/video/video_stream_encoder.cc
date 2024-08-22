@@ -3857,17 +3857,10 @@ allocation_cb_type
 )
 rate_control_settings_
 (
-RateControlSettings
-:
-:
-ParseFromKeyValueConfig
-(
-&
 env_
 .
 field_trials
 (
-)
 )
 )
 encoder_selector_from_constructor_
