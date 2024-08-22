@@ -244,8 +244,6 @@ IDNService
 convertToDisplayIDN
 (
 hostname
-{
-}
 )
 ;
 }

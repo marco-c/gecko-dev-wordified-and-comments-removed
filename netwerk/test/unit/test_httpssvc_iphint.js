@@ -236,7 +236,7 @@ add_task
 (
 async
 function
-testStoreIPHint
+testStoreiphint
 (
 )
 {
@@ -332,7 +332,7 @@ registerDoHAnswers
 "
 test
 .
-IPHint
+iphint
 .
 com
 "
@@ -349,7 +349,7 @@ name
 "
 test
 .
-IPHint
+iphint
 .
 com
 "
@@ -375,7 +375,7 @@ name
 "
 test
 .
-IPHint
+iphint
 .
 com
 "
@@ -485,7 +485,7 @@ TRRDNSListener
 "
 test
 .
-IPHint
+iphint
 .
 com
 "
@@ -557,7 +557,7 @@ name
 "
 test
 .
-IPHint
+iphint
 .
 com
 "
@@ -911,7 +911,7 @@ verifyAnswer
 "
 test
 .
-IPHint
+iphint
 .
 com
 "
@@ -965,7 +965,7 @@ verifyAnswer
 "
 test
 .
-IPHint
+iphint
 .
 com
 "
@@ -1007,7 +1007,7 @@ verifyAnswer
 "
 test
 .
-IPHint
+iphint
 .
 com
 "
@@ -1084,7 +1084,7 @@ registerDoHAnswers
 "
 testv6
 .
-IPHint
+iphint
 .
 com
 "
@@ -1101,7 +1101,7 @@ name
 "
 testv6
 .
-IPHint
+iphint
 .
 com
 "
@@ -1127,7 +1127,7 @@ name
 "
 testv6
 .
-IPHint
+iphint
 .
 com
 "
@@ -1237,7 +1237,7 @@ TRRDNSListener
 "
 testv6
 .
-IPHint
+iphint
 .
 com
 "
@@ -1275,7 +1275,7 @@ verifyAnswer
 "
 testv6
 .
-IPHint
+iphint
 .
 com
 "
@@ -1312,7 +1312,7 @@ verifyAnswer
 "
 testv6
 .
-IPHint
+iphint
 .
 com
 "
@@ -1452,7 +1452,7 @@ add_task
 (
 async
 function
-testConnectionWithIPHint
+testConnectionWithiphint
 (
 )
 {
@@ -1646,7 +1646,7 @@ add_task
 (
 async
 function
-testIPHintWithFreshDNS
+testiphintWithFreshDNS
 (
 )
 {

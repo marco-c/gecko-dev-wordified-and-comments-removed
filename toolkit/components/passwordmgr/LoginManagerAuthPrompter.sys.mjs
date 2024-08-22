@@ -5857,8 +5857,6 @@ idnService
 convertToDisplayIDN
 (
 baseDomain
-{
-}
 )
 ;
 }

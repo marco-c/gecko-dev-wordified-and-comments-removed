@@ -38,11 +38,6 @@ TestDisplayNames
 cpp
 "
 "
-TestIDNA
-.
-cpp
-"
-"
 TestListFormat
 .
 cpp

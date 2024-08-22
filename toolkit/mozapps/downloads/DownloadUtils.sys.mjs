@@ -2840,12 +2840,6 @@ base
 domain
 for
 display
-;
-ignore
-the
-isAscii
-out
-param
 displayHost
 =
 idnService
@@ -2853,8 +2847,6 @@ idnService
 convertToDisplayIDN
 (
 baseDomain
-{
-}
 )
 ;
 }

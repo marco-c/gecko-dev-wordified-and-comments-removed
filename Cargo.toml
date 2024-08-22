@@ -86,6 +86,13 @@ rust
 "
 netwerk
 /
+base
+/
+idna_glue
+"
+"
+netwerk
+/
 test
 /
 http3server
