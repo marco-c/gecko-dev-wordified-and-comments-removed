@@ -446,6 +446,9 @@ content
 :
 1
 "
+exists
+=
+true
 )
 }
 }
@@ -542,6 +545,9 @@ verifyTypedToolbarText
 "
 content
 "
+exists
+=
+true
 )
 }
 }
@@ -920,6 +926,9 @@ linkName
 :
 Android
 "
+exists
+=
+true
 )
 }
 }
@@ -1028,6 +1037,9 @@ verifyTypedToolbarText
 "
 Crossing
 "
+exists
+=
+true
 )
 }
 }
@@ -1756,6 +1768,9 @@ url
 toString
 (
 )
+exists
+=
+true
 )
 }
 .

@@ -4458,6 +4458,9 @@ verifyTypedToolbarText
 "
 generic
 "
+exists
+=
+true
 )
 verifySearchEngineSuggestionResults
 (
@@ -4794,6 +4797,9 @@ verifyTypedToolbarText
 "
 generic
 "
+exists
+=
+true
 )
 verifySearchEngineSuggestionResults
 (
