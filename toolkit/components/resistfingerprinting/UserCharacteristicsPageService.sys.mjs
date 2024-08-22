@@ -2449,6 +2449,15 @@ orientationFreq
 "
 orientationabsFreq
 "
+"
+audioFrames
+"
+"
+audioRate
+"
+"
+audioChannels
+"
 ]
 }
 ;
