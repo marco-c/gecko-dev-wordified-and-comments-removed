@@ -830,6 +830,26 @@ infobars
 "
 )
     
+chrome_options
+[
+"
+args
+"
+]
+.
+append
+(
+"
+-
+-
+enable
+-
+features
+=
+WebMachineLearningNeuralNetwork
+"
+)
+    
 address_space_overrides_ports
 =
 [
