@@ -2081,8 +2081,6 @@ macosx1100
 jittests
 macosx1100
 -
-64
--
 aarch64
 -
 qr
@@ -2125,7 +2123,7 @@ qr
 tests
 macosx1100
 -
-64
+aarch64
 -
 shippable
 -
@@ -2173,18 +2171,6 @@ macosx1100
 qr
 -
 tests
-#
--
-macosx64
--
-talos
-#
--
-browsertime
--
-high
--
-priority
 macosx1015
 -
 64
