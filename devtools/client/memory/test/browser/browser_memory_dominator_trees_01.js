@@ -491,6 +491,8 @@ nodeId
 }
 )
 .
+parentElement
+.
 classList
 .
 contains
@@ -599,6 +601,8 @@ nodeId
 }
 )
 .
+parentElement
+.
 classList
 .
 contains
@@ -673,6 +677,8 @@ deepest
 nodeId
 }
 )
+.
+parentElement
 .
 classList
 .
@@ -936,6 +942,8 @@ firstChild
 nodeId
 }
 )
+.
+parentElement
 .
 classList
 .
