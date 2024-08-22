@@ -295,6 +295,12 @@ mNotifyObserverAboutBackgroundRequests
 false
 }
 ;
+uint64_t
+mPendingKeepaliveRequestSize
+{
+0
+}
+;
 mozilla
 :
 :

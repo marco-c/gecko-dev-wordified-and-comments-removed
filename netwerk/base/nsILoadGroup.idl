@@ -76,6 +76,12 @@ attribute
 nsISimpleEnumerator
 requests
 ;
+attribute
+unsigned
+long
+long
+totalKeepAliveBytes
+;
 readonly
 attribute
 unsigned
