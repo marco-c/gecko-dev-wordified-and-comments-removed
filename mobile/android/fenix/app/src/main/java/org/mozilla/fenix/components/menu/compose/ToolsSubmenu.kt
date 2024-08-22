@@ -228,7 +228,6 @@ Boolean
 isTranslationSupported
 :
 Boolean
-?
 translatedLanguage
 :
 String
@@ -316,9 +315,6 @@ onReaderViewMenuClick
 if
 (
 isTranslationSupported
-=
-=
-true
 )
 {
 Divider
