@@ -4341,6 +4341,16 @@ sizeof
 (
 CharT
 )
+mozilla
+:
+:
+Some
+(
+js
+:
+:
+StringBufferArena
+)
 )
 ;
 if
