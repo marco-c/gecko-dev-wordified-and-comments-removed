@@ -1548,6 +1548,8 @@ aFrom
 )
 ;
 }
+else
+{
 if
 (
 aFrom
@@ -1623,6 +1625,7 @@ To
 aFrom
 )
 ;
+}
 }
 namespace
 detail
