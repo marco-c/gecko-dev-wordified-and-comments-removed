@@ -687,7 +687,7 @@ if
 mDriftController
 -
 >
-DurationWithinHysteresis
+DurationNearDesired
 (
 )
 >
