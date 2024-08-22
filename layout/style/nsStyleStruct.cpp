@@ -4656,6 +4656,13 @@ mFloodOpacity
 .
 0f
 )
+mVectorEffect
+(
+StyleVectorEffect
+:
+:
+NONE
+)
 mMaskType
 (
 StyleMaskType
