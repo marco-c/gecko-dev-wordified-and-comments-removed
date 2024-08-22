@@ -555,6 +555,15 @@ IsDefaultPathHtml
 (
 )
 ;
+RefPtr
+<
+nsIFile
+>
+ComputeFallbackSavePath
+(
+)
+const
+;
 nsCOMPtr
 <
 nsIWidget
