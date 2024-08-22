@@ -1252,9 +1252,9 @@ string
 close_tab_title
 tab
 .
-content
-.
-title
+toDisplayTitle
+(
+)
 )
 tint
 =
