@@ -20003,16 +20003,6 @@ val
 done
 )
 ;
-unboxInt32
-(
-val
-val
-.
-scratchReg
-(
-)
-)
-;
 ScratchDoubleScope
 fpscratch
 (
@@ -20024,7 +20014,7 @@ convertInt32ToDouble
 (
 val
 .
-scratchReg
+payloadOrValueReg
 (
 )
 fpscratch
