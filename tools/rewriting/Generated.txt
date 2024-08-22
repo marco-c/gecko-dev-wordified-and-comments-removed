@@ -1271,13 +1271,9 @@ components
 /
 pdfjs
 /
-content
-/
-PdfJsDefaultPreferences
+PdfJsDefaultPrefs
 .
-sys
-.
-mjs
+js
 toolkit
 /
 components
