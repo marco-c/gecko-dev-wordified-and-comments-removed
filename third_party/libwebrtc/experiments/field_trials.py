@@ -4062,24 +4062,6 @@ FieldTrial
 '
 WebRTC
 -
-SignalNetworkPreferenceChange
-'
-               
-42221944
-               
-date
-(
-2024
-4
-1
-)
-)
-    
-FieldTrial
-(
-'
-WebRTC
--
 SimulcastEncoderAdapter
 -
 GetEncoderInfoOverride
@@ -4856,7 +4838,7 @@ str
 \
     
 '
-84f7bc41874cd36cc4d5306e86972f53fef83f29
+b0b0cce63bfdf327229b569576a07b716db186b7
 '
 REGISTERED_FIELD_TRIALS
 :
