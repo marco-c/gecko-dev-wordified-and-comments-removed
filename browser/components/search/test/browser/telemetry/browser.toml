@@ -1240,3 +1240,17 @@ searchTelemetrySinglePageApp
 html
 "
 ]
+[
+"
+browser_search_telemetry_visibility_helper_horizontal
+.
+js
+"
+]
+[
+"
+browser_search_telemetry_visibility_helper_vertical
+.
+js
+"
+]
