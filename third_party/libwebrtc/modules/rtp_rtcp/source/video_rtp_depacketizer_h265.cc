@@ -775,7 +775,7 @@ VideoFrameType
 :
 kVideoFrameKey
 ;
-ABSL_FALLTHROUGH_INTENDED
+break
 ;
 case
 H265
