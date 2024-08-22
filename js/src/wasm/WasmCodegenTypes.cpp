@@ -312,11 +312,11 @@ case
 Trap
 :
 :
-CheckHotness
+RequestTierUp
 :
 return
 "
-CheckHotness
+RequestTierUp
 "
 ;
 case

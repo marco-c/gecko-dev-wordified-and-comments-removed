@@ -252,7 +252,7 @@ IndirectCallBadSig
 NullPointerDereference
 BadCast
 StackOverflow
-CheckHotness
+RequestTierUp
 CheckInterrupt
 ThrowReported
 Limit
@@ -2987,6 +2987,7 @@ Once
 EagerTier1
 EagerTier2
 LazyTier1
+LazyTier2
 }
 ;
 enum

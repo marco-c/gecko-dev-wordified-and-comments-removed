@@ -1193,9 +1193,8 @@ if
 !
 mg
 .
-init
+initializeCompleteTier
 (
-nullptr
 )
 )
 {

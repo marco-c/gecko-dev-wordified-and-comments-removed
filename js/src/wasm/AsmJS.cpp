@@ -11957,7 +11957,7 @@ if
 !
 mg
 .
-init
+initializeCompleteTier
 (
 codeMetaForAsmJS_
 .

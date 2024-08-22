@@ -5710,9 +5710,8 @@ if
 !
 mg
 .
-init
+initializeCompleteTier
 (
-nullptr
 )
 )
 {
@@ -8429,9 +8428,8 @@ if
 !
 mg
 .
-init
+initializeCompleteTier
 (
-nullptr
 )
 )
 {

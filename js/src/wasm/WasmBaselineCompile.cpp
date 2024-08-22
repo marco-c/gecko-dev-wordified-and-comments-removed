@@ -542,7 +542,7 @@ wasm
 Trap
 :
 :
-CheckHotness
+RequestTierUp
 bytecodeOffset
 (
 )

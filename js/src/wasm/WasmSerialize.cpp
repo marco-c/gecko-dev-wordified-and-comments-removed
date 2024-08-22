@@ -5435,12 +5435,6 @@ wasm
 LinkData
 &
 linkData
-wasm
-:
-:
-CodeBlock
-*
-maybeSharedStubs
 )
 {
 WASM_VERIFY_SERIALIZATION_FOR_SIZE
@@ -5505,7 +5499,6 @@ createFromBytes
 codeBytes
 length
 linkData
-maybeSharedStubs
 )
 ;
 if
@@ -6450,12 +6443,6 @@ wasm
 LinkData
 &
 linkData
-wasm
-:
-:
-CodeBlock
-*
-maybeSharedStubs
 )
 {
 WASM_VERIFY_SERIALIZATION_FOR_SIZE
@@ -6529,7 +6516,6 @@ coder
 &
 codeSegment
 linkData
-maybeSharedStubs
 )
 )
 ;
@@ -6980,7 +6966,7 @@ wasm
 :
 :
 Code
-712
+728
 )
 ;
 MutableCodeMetadata
@@ -7031,7 +7017,6 @@ coder
 &
 sharedStubs
 sharedStubsLinkData
-nullptr
 )
 )
 ;
@@ -7043,11 +7028,6 @@ coder
 &
 optimizedCode
 optimizedLinkData
-sharedStubs
-.
-get
-(
-)
 )
 )
 ;
@@ -7065,6 +7045,7 @@ CompileMode
 Once
 *
 codeMeta
+nullptr
 nullptr
 nullptr
 )
@@ -7171,7 +7152,7 @@ wasm
 :
 :
 Code
-712
+728
 )
 ;
 STATIC_ASSERT_ENCODING_OR_SIZING

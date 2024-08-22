@@ -46,6 +46,14 @@ test
 also
 =
 -
+P
+wasm_experimental_compile_pipeline
+;
+test
+-
+also
+=
+-
 -
 disable
 -
