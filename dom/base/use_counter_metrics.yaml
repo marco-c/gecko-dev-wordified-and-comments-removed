@@ -111413,7 +111413,7 @@ send_in_pings
 use
 -
 counters
-css_position_try_options
+css_position_try_fallbacks
 :
 type
 :
@@ -111432,7 +111432,7 @@ position
 -
 try
 -
-options
+fallbacks
 .
 Compare
 against
@@ -179178,7 +179178,7 @@ send_in_pings
 use
 -
 counters
-css_position_try_options
+css_position_try_fallbacks
 :
 type
 :
@@ -179197,7 +179197,7 @@ position
 -
 try
 -
-options
+fallbacks
 .
 Compare
 against

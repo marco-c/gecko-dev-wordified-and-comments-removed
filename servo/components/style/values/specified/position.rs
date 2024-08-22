@@ -2825,7 +2825,7 @@ C
 ]
 pub
 struct
-PositionTryOptionsTryTactic
+PositionTryFallbacksTryTactic
 (
 u8
 )
@@ -2834,7 +2834,7 @@ bitflags
 !
 {
 impl
-PositionTryOptionsTryTactic
+PositionTryFallbacksTryTactic
 :
 u8
 {
@@ -2915,7 +2915,7 @@ DashedIdent
 pub
 try_tactic
 :
-PositionTryOptionsTryTactic
+PositionTryFallbacksTryTactic
 }
 impl
 Parse
@@ -2975,7 +2975,7 @@ empty
 )
 try_tactic
 :
-PositionTryOptionsTryTactic
+PositionTryFallbacksTryTactic
 :
 :
 empty
@@ -3051,7 +3051,7 @@ try_parse
 |
 i
 |
-PositionTryOptionsTryTactic
+PositionTryFallbacksTryTactic
 :
 :
 parse
@@ -3140,7 +3140,7 @@ u8
 ]
 pub
 enum
-PositionTryOptionsItem
+PositionTryFallbacksItem
 {
 IdentAndOrTactic
 (
@@ -3197,7 +3197,7 @@ C
 ]
 pub
 struct
-PositionTryOptions
+PositionTryFallbacks
 (
 #
 [
@@ -3225,12 +3225,12 @@ crate
 :
 ArcSlice
 <
-PositionTryOptionsItem
+PositionTryFallbacksItem
 >
 )
 ;
 impl
-PositionTryOptions
+PositionTryFallbacks
 {
 #
 [
@@ -3278,7 +3278,7 @@ is_empty
 impl
 Parse
 for
-PositionTryOptions
+PositionTryFallbacks
 {
 fn
 parse
@@ -3358,7 +3358,7 @@ items
 SmallVec
 <
 [
-PositionTryOptionsItem
+PositionTryFallbacksItem
 ;
 4
 ]
@@ -3367,7 +3367,7 @@ PositionTryOptionsItem
 smallvec
 !
 [
-PositionTryOptionsItem
+PositionTryFallbacksItem
 :
 :
 parse
@@ -3401,7 +3401,7 @@ items
 .
 push
 (
-PositionTryOptionsItem
+PositionTryFallbacksItem
 :
 :
 parse

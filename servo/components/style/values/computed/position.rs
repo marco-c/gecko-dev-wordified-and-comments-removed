@@ -121,7 +121,7 @@ DashedIdentAndOrTryTactic
 InsetArea
 InsetAreaKeyword
 PositionAnchor
-PositionTryOptions
+PositionTryFallbacks
 PositionTryOrder
 PositionVisibility
 }

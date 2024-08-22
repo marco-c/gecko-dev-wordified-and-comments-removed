@@ -3147,8 +3147,8 @@ mPositionVisibility
 mozilla
 :
 :
-StylePositionTryOptions
-mPositionTryOptions
+StylePositionTryFallbacks
+mPositionTryFallbacks
 ;
 mozilla
 :
