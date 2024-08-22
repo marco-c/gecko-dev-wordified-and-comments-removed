@@ -5747,7 +5747,7 @@ R
 .
 attr
 .
-accentHighContrast
+actionPrimary
 context
 )
 sitePermissionsFeature
@@ -5796,7 +5796,7 @@ R
 .
 color
 .
-photonWhite
+fx_mobile_text_color_action_primary
 )
 sessionId
 =
