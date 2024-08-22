@@ -2766,7 +2766,8 @@ quicksuggest
 .
 nonSponsoredIndex
 "
-0
+-
+1
 )
 ;
 pref
