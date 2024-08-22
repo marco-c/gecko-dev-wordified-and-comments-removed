@@ -720,6 +720,13 @@ h
 "
 test
 /
+TestReflectedHTMLAttribute
+.
+h
+"
+"
+test
+/
 TestTrialInterface
 .
 h
@@ -838,6 +845,13 @@ cpp
 test
 /
 TestInterfaceSetlikeNode
+.
+cpp
+"
+"
+test
+/
+TestReflectedHTMLAttribute
 .
 cpp
 "
