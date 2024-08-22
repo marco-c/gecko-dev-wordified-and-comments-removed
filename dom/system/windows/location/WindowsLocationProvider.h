@@ -196,6 +196,11 @@ mWatching
 =
 false
 ;
+bool
+mEverUpdated
+=
+false
+;
 }
 ;
 }
