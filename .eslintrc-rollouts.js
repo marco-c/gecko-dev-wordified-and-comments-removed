@@ -3921,6 +3921,8 @@ profile
 /
 test
 /
+chrome
+/
 test_create_profile
 .
 xhtml
@@ -5678,6 +5680,8 @@ toolkit
 /
 profile
 /
+test
+/
 xpcshell
 /
 head
@@ -5690,6 +5694,8 @@ toolkit
 profile
 /
 test
+/
+chrome
 /
 test_create_profile
 .

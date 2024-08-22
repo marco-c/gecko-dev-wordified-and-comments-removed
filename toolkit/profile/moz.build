@@ -6,6 +6,8 @@ MOCHITEST_CHROME_MANIFESTS
 test
 /
 chrome
+/
+chrome
 .
 toml
 "
@@ -15,6 +17,8 @@ XPCSHELL_TESTS_MANIFESTS
 =
 [
 "
+test
+/
 xpcshell
 /
 xpcshell
@@ -35,6 +39,8 @@ DIRS
 =
 [
 "
+test
+/
 gtest
 "
 ]
