@@ -3401,30 +3401,6 @@ WebRTC
 -
 Bwe
 -
-LinkCapacity
-'
-               
-'
-webrtc
-:
-9718
-'
-               
-date
-(
-2024
-4
-1
-)
-)
-    
-FieldTrial
-(
-'
-WebRTC
--
-Bwe
--
 LossBasedBweV2
 '
                
@@ -6031,7 +6007,7 @@ str
 \
     
 '
-785cfbd78860c15c840e509f4859e2b20bf8f250
+ac66aba5d08866be534a452b59c3de627bf38f3e
 '
 REGISTERED_FIELD_TRIALS
 :
