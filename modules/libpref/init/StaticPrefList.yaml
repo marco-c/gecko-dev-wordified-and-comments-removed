@@ -29267,13 +29267,13 @@ webnotifications
 .
 privateBrowsing
 .
-enableDespiteLimitations
+enabled
 type
 :
 RelaxedAtomicBool
 value
 :
-false
+true
 mirror
 :
 always
