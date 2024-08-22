@@ -3677,7 +3677,7 @@ AnimationComposition
 gecko
 =
 "
-StyleScrollTimelineName
+StyleTimelineName
 "
 servo
 =
@@ -3691,7 +3691,7 @@ values
 computed
 :
 :
-ScrollTimelineName
+TimelineName
 "
 }
 {

@@ -29,16 +29,8 @@ animation
 {
 ScrollAxis
 ScrollFunction
-}
-;
-use
-crate
-:
-:
-values
-:
-:
 TimelineName
+}
 ;
 use
 std
