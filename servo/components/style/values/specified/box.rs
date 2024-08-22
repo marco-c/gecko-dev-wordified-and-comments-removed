@@ -7974,7 +7974,7 @@ chrome_rules_enabled
 "
 )
 ]
-MozMacUnifiedToolbarWindow
+MozMacWindow
 #
 [
 parse
