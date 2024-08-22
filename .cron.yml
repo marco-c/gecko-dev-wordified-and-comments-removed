@@ -1785,10 +1785,6 @@ autoland
 -
 mozilla
 -
-central
--
-mozilla
--
 beta
 when
 :
@@ -1815,12 +1811,6 @@ minute
 :
 45
 }
-]
-mozilla
--
-central
-:
-[
 ]
 #
 4h
