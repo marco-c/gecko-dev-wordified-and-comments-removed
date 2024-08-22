@@ -83,10 +83,6 @@ bool
 CompileCompleteTier2
 (
 const
-CompileArgs
-&
-args
-const
 Bytes
 &
 bytecode
@@ -111,10 +107,6 @@ cancelled
 bool
 CompilePartialTier2
 (
-const
-CompileArgs
-&
-args
 const
 Bytes
 &

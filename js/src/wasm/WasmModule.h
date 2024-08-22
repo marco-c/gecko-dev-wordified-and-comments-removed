@@ -500,10 +500,6 @@ void
 startTier2
 (
 const
-CompileArgs
-&
-args
-const
 ShareableBytes
 &
 bytecode

@@ -6231,8 +6231,6 @@ module
 >
 startTier2
 (
-*
-compileArgs_
 bytecode
 maybeTier2Listener
 )
