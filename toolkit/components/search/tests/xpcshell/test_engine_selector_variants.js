@@ -288,7 +288,7 @@ RemoteSettings
 (
 SearchUtils
 .
-NEW_SETTINGS_KEY
+SETTINGS_KEY
 )
 ;
 configStub

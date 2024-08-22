@@ -220,7 +220,7 @@ lazy
 .
 SearchUtils
 .
-NEW_SETTINGS_KEY
+SETTINGS_KEY
 )
 ;
 this
@@ -235,7 +235,7 @@ lazy
 .
 SearchUtils
 .
-NEW_SETTINGS_OVERRIDES_KEY
+SETTINGS_OVERRIDES_KEY
 )
 ;
 this
