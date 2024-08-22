@@ -1100,6 +1100,13 @@ VideoStreamFactory
 :
 CreateEncoderStreams
 (
+const
+webrtc
+:
+:
+FieldTrialsView
+&
+field_trials
 int
 aWidth
 int

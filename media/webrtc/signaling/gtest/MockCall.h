@@ -1689,6 +1689,7 @@ video_stream_factory
 >
 CreateEncoderStreams
 (
+mUnusedConfig
 width
 height
 *
