@@ -818,6 +818,12 @@ quit
 MenuAction
 .
 InitAction
+is
+MenuAction
+.
+Navigate
+.
+AddonDetails
 MenuAction
 .
 Navigate
