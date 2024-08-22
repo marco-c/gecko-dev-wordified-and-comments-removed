@@ -79,6 +79,13 @@ fluent
 .
 0
 "
+glean
+=
+{
+workspace
+=
+true
+}
 intl
 -
 memoizer
