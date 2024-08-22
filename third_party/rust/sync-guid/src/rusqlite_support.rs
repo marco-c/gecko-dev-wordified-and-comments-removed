@@ -1,15 +1,3 @@
-#
-!
-[
-cfg
-(
-feature
-=
-"
-rusqlite_support
-"
-)
-]
 use
 crate
 :

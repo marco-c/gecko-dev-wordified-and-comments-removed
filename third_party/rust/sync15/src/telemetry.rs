@@ -65,9 +65,6 @@ fn
 assert_json
 <
 T
-:
-?
-Sized
 >
 (
 v
@@ -88,6 +85,9 @@ serde
 :
 :
 Serialize
++
+?
+Sized
 {
 assert_eq
 !
@@ -145,6 +145,13 @@ took
 :
 u64
 }
+#
+[
+allow
+(
+dead_code
+)
+]
 #
 [
 derive
