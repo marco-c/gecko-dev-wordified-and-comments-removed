@@ -420,9 +420,6 @@ strictFileInteractability
 timeouts
 "
 "
-unhandledPromptBehavior
-"
-"
 webSocketUrl
 "
 /

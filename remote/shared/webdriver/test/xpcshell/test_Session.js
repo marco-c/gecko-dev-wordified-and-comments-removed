@@ -411,9 +411,7 @@ toJSON
 (
 )
 "
-dismiss
-and
-notify
+ignore
 "
 )
 ;
