@@ -294,7 +294,7 @@ base_color
 ColorF
 :
 :
-WHITE
+BLACK
 is_opaque
 :
 false
