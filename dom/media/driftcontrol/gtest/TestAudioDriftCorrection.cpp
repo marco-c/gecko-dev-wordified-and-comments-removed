@@ -1964,7 +1964,7 @@ BufferSize
 4800U
 )
 ;
-EXPECT_LE
+EXPECT_GT
 (
 ad
 .
@@ -1987,7 +1987,7 @@ NumUnderruns
 produceSomeData
 (
 transmitterBlockSize2
-10
+25
 *
 sampleRate
 )
@@ -2104,7 +2104,7 @@ NumCorrectionChanges
 )
 numCorrectionChanges
 +
-9
+2
 )
 ;
 EXPECT_EQ
