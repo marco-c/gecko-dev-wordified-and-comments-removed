@@ -725,6 +725,10 @@ ne_bitrate
 InitEncodeTest
 (
 const
+Environment
+&
+env
+const
 std
 :
 :
@@ -765,12 +769,7 @@ kDefaultTimeout
 )
 FakeEncoder
 (
-Clock
-:
-:
-GetRealTimeClock
-(
-)
+env
 )
 encoder_factory_
 (
@@ -1480,6 +1479,9 @@ max_bitrate_bps
 InitEncodeTest
 test
 (
+env
+(
+)
 payload_name_
 {
 {
@@ -1536,6 +1538,9 @@ OneStreamDefaultMaxBitrateAppliedForOneSpatialLayer
 InitEncodeTest
 test
 (
+env
+(
+)
 "
 VP9
 "
@@ -1620,6 +1625,9 @@ OneStreamSvcMaxBitrateAppliedForTwoSpatialLayers
 InitEncodeTest
 test
 (
+env
+(
+)
 "
 VP9
 "
@@ -1739,6 +1747,9 @@ max_bitrate_bps
 InitEncodeTest
 test
 (
+env
+(
+)
 "
 VP9
 "
@@ -1850,6 +1861,9 @@ max_bitrate_bps
 InitEncodeTest
 test
 (
+env
+(
+)
 "
 VP9
 "
@@ -1942,6 +1956,9 @@ EncodingsApplied
 InitEncodeTest
 test
 (
+env
+(
+)
 payload_name_
 {
 {
@@ -2055,6 +2072,9 @@ max_bitrate_bps
 InitEncodeTest
 test
 (
+env
+(
+)
 payload_name_
 {
 {
@@ -2176,6 +2196,9 @@ max_bitrate_bps
 InitEncodeTest
 test
 (
+env
+(
+)
 payload_name_
 {
 {
@@ -2290,6 +2313,9 @@ max_bitrate_bps
 InitEncodeTest
 test
 (
+env
+(
+)
 payload_name_
 {
 {
@@ -2404,6 +2430,9 @@ payload_name_
 InitEncodeTest
 test
 (
+env
+(
+)
 payload_name_
 {
 {
@@ -2507,6 +2536,9 @@ VP9
 InitEncodeTest
 test
 (
+env
+(
+)
 "
 VP9
 "
@@ -2630,6 +2662,9 @@ max_bitrate_bps
 InitEncodeTest
 test
 (
+env
+(
+)
 payload_name_
 {
 {
@@ -2744,6 +2779,9 @@ max_bitrate_bps
 InitEncodeTest
 test
 (
+env
+(
+)
 payload_name_
 {
 {
@@ -2877,6 +2915,9 @@ max_bitrate_bps
 InitEncodeTest
 test
 (
+env
+(
+)
 payload_name_
 {
 {
@@ -3012,6 +3053,9 @@ max_bitrate_bps
 InitEncodeTest
 test
 (
+env
+(
+)
 "
 VP9
 "
@@ -3129,6 +3173,9 @@ max_bitrate_bps
 InitEncodeTest
 test
 (
+env
+(
+)
 "
 VP9
 "
@@ -3265,6 +3312,9 @@ max_bitrate_bps
 InitEncodeTest
 test
 (
+env
+(
+)
 "
 AV1
 "
@@ -3376,6 +3426,9 @@ max_bitrate_bps
 InitEncodeTest
 test
 (
+env
+(
+)
 "
 AV1
 "
@@ -3493,6 +3546,9 @@ max_bitrate_bps
 InitEncodeTest
 test
 (
+env
+(
+)
 "
 AV1
 "
@@ -3637,6 +3693,9 @@ max_bitrate_bps
 InitEncodeTest
 test
 (
+env
+(
+)
 payload_name_
 {
 {

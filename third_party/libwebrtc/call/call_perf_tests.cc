@@ -4550,6 +4550,10 @@ public
 explicit
 BitrateObserver
 (
+const
+Environment
+&
+env
 TaskQueueBase
 *
 task_queue
@@ -4567,12 +4571,7 @@ kDefaultTimeout
 )
 FakeEncoder
 (
-Clock
-:
-:
-GetRealTimeClock
-(
-)
+env
 )
 encoder_inits_
 (
@@ -5157,6 +5156,9 @@ task_queue_
 }
 test
 (
+env
+(
+)
 task_queue
 (
 )
