@@ -6645,7 +6645,7 @@ uint8_t
 aProfile
 uint8_t
 aConstraints
-uint8_t
+H264_LEVEL
 aLevel
 const
 gfx
@@ -6790,7 +6790,13 @@ bw
 .
 WriteU8
 (
+static_cast
+<
+uint8_t
+>
+(
 aLevel
+)
 )
 ;
 bw
@@ -7192,7 +7198,13 @@ WriteExtraData
 extraData
 aProfile
 aConstraints
+static_cast
+<
+uint8_t
+>
+(
 aLevel
+)
 Span
 <
 const

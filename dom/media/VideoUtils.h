@@ -703,7 +703,7 @@ aProfile
 uint8_t
 &
 aConstraint
-uint8_t
+H264_LEVEL
 &
 aLevel
 )
