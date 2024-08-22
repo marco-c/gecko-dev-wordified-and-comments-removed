@@ -666,13 +666,6 @@ html
 ]
 [
 "
-browser_pointerlock_popup
-.
-js
-"
-]
-[
-"
 browser_pointerlock_warning
 .
 js
