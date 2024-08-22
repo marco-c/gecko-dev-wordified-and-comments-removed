@@ -685,6 +685,9 @@ above
 -
 button
 "
+"
+fullscreen
+"
 ]
 }
 ]
