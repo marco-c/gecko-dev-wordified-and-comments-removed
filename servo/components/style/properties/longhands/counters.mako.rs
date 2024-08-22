@@ -117,13 +117,6 @@ engines
 gecko
 servo
 "
-servo_pref
-=
-"
-layout
-.
-legacy_layout
-"
 initial_value
 =
 "
@@ -193,13 +186,6 @@ engines
 "
 gecko
 servo
-"
-servo_pref
-=
-"
-layout
-.
-legacy_layout
 "
 initial_value
 =

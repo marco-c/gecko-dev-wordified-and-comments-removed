@@ -48,13 +48,6 @@ engines
 gecko
 servo
 "
-servo_pref
-=
-"
-layout
-.
-legacy_layout
-"
 animation_value_type
 =
 "
@@ -126,13 +119,6 @@ engines
 "
 gecko
 servo
-"
-servo_pref
-=
-"
-layout
-.
-legacy_layout
 "
 gecko_enum_prefix
 =

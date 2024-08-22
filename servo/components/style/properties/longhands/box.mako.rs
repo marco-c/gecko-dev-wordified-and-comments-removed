@@ -816,13 +816,6 @@ engines
 "
 servo
 "
-servo_pref
-=
-"
-layout
-.
-legacy_layout
-"
 animation_value_type
 =
 "

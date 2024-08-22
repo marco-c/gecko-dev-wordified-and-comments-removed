@@ -2122,13 +2122,6 @@ engines
 gecko
 servo
 "
-servo_pref
-=
-"
-layout
-.
-legacy_layout
-"
 sub_properties
 =
 "
