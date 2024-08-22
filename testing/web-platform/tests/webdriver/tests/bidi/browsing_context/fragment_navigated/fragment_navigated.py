@@ -54,6 +54,8 @@ tests
 /
 bidi
 /
+browsing_context
+/
 support
 /
 empty
@@ -541,7 +543,7 @@ FRAGMENT_NAVIGATED_EVENT
 ]
 )
     
-on_frame_navigated
+on_fragment_navigated
 =
 wait_for_event
 (
@@ -632,7 +634,7 @@ target_url
 await
 wait_for_future_safe
 (
-on_frame_navigated
+on_fragment_navigated
 )
     
 )
@@ -707,7 +709,7 @@ FRAGMENT_NAVIGATED_EVENT
 ]
 )
     
-on_frame_navigated
+on_fragment_navigated
 =
 wait_for_event
 (
@@ -775,7 +777,7 @@ target_url
 await
 wait_for_future_safe
 (
-on_frame_navigated
+on_fragment_navigated
 )
     
 )
@@ -917,7 +919,7 @@ FRAGMENT_NAVIGATED_EVENT
 ]
 )
     
-on_frame_navigated
+on_fragment_navigated
 =
 wait_for_event
 (
@@ -995,7 +997,7 @@ target_url
 await
 wait_for_future_safe
 (
-on_frame_navigated
+on_fragment_navigated
 )
     
 )
@@ -1111,7 +1113,7 @@ FRAGMENT_NAVIGATED_EVENT
 ]
 )
     
-on_frame_navigated
+on_fragment_navigated
 =
 wait_for_event
 (
@@ -1225,7 +1227,7 @@ target_url
 await
 wait_for_future_safe
 (
-on_frame_navigated
+on_fragment_navigated
 )
     
 )
@@ -1341,7 +1343,7 @@ FRAGMENT_NAVIGATED_EVENT
 ]
 )
     
-on_frame_navigated
+on_fragment_navigated
 =
 wait_for_event
 (
@@ -1406,7 +1408,7 @@ target_url
 await
 wait_for_future_safe
 (
-on_frame_navigated
+on_fragment_navigated
 )
     
 )

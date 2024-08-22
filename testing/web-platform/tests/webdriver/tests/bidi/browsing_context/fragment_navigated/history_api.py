@@ -34,6 +34,8 @@ tests
 /
 bidi
 /
+browsing_context
+/
 support
 /
 empty
