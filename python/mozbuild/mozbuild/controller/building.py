@@ -7798,6 +7798,15 @@ MOZ_BUILD_APP
 )
 )
             
+mozbuild_metrics
+.
+target
+.
+set
+(
+target
+)
+            
 all_backends
 =
 config

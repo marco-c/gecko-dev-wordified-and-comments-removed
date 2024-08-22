@@ -2924,6 +2924,24 @@ metrics
 yaml
 "
 )
+        
+os
+.
+path
+.
+join
+(
+topsrcdir
+"
+python
+/
+mozbuild
+/
+metrics
+.
+yaml
+"
+)
     
 ]
     
