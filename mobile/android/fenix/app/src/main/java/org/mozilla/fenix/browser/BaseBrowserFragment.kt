@@ -11367,6 +11367,9 @@ navigationToolbarEnabled
 isTablet
 (
 )
+&
+&
+webAppToolbarShouldBeVisible
 if
 (
 shouldUpdateNavBarState
