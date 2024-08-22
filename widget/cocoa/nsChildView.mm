@@ -17414,15 +17414,7 @@ aMessage
 eDragOver
 )
 {
-nsCOMPtr
-<
-nsIDragService
->
-dragService
-=
-mDragService
-;
-dragService
+dragSession
 -
 >
 FireDragEventAtSource

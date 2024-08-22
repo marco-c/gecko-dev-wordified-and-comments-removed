@@ -1357,15 +1357,7 @@ pdwEffect
 ModifierKeyState
 modifierKeyState
 ;
-nsCOMPtr
-<
-nsIDragService
->
-dragService
-=
-mDragService
-;
-dragService
+currentDragSession
 -
 >
 FireDragEventAtSource
