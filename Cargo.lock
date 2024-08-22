@@ -25669,6 +25669,9 @@ dependencies
 libc
 "
 "
+log
+"
+"
 nserror
 "
 "
