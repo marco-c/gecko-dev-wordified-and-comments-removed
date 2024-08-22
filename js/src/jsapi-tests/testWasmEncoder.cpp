@@ -443,6 +443,11 @@ compileArgs
 codeMeta
 &
 compilerEnv
+compilerEnv
+.
+initialState
+(
+)
 nullptr
 nullptr
 nullptr

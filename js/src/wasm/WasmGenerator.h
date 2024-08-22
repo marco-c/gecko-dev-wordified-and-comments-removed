@@ -586,6 +586,10 @@ CompilerEnvironment
 &
 compilerEnv
 ;
+const
+CompileState
+compileState
+;
 CompileTaskState
 &
 state
@@ -609,6 +613,8 @@ const
 CompilerEnvironment
 &
 compilerEnv
+CompileState
+compileState
 CompileTaskState
 &
 state
@@ -623,6 +629,10 @@ codeMeta
 compilerEnv
 (
 compilerEnv
+)
+compileState
+(
+compileState
 )
 state
 (
@@ -732,6 +742,10 @@ default
 SharedCompileArgs
 const
 compileArgs_
+;
+const
+CompileState
+compileState_
 ;
 UniqueChars
 *
@@ -1062,6 +1076,8 @@ codeMeta
 CompilerEnvironment
 *
 compilerEnv
+CompileState
+compilerState
 const
 Atomic
 <

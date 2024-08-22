@@ -385,8 +385,8 @@ task
 wasm
 :
 :
-CompileMode
-mode
+CompileState
+state
 )
 ;
 size_t
@@ -402,8 +402,8 @@ taskState
 wasm
 :
 :
-CompileMode
-mode
+CompileState
+state
 const
 AutoLockHelperThreadState
 &

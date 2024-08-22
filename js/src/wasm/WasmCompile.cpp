@@ -2585,7 +2585,7 @@ mode_
 CompileMode
 :
 :
-Tier1
+EagerTiering
 ;
 tier_
 =
@@ -3077,6 +3077,11 @@ args
 codeMeta
 &
 compilerEnv
+compilerEnv
+.
+initialState
+(
+)
 nullptr
 error
 warnings
@@ -3246,7 +3251,7 @@ compilerEnv
 CompileMode
 :
 :
-Tier2
+EagerTiering
 Tier
 :
 :
@@ -3271,6 +3276,10 @@ args
 codeMeta
 &
 compilerEnv
+CompileState
+:
+:
+EagerTier2
 cancelled
 error
 warnings
@@ -3987,6 +3996,11 @@ args
 codeMeta
 &
 compilerEnv
+compilerEnv
+.
+initialState
+(
+)
 &
 cancelled
 error
