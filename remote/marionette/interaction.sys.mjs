@@ -1361,6 +1361,7 @@ dragService
 .
 getCurrentSession
 (
+win
 )
 )
 {

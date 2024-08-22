@@ -465,6 +465,7 @@ browser
 function
 initDragSession
 (
+win
 {
 dragData
 dropEffect
@@ -641,6 +642,7 @@ dragService
 .
 getCurrentSession
 (
+win
 )
 ;
 session
@@ -689,6 +691,7 @@ session
 =
 initDragSession
 (
+win
 {
 dragData
 dropEffect

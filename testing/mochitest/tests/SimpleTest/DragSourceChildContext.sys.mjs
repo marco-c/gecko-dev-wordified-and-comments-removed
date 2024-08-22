@@ -425,6 +425,9 @@ dragService
 .
 getCurrentSession
 (
+this
+.
+dragWindow
 )
 |
 |
@@ -460,6 +463,9 @@ dragService
 .
 getCurrentSession
 (
+this
+.
+dragWindow
 )
 drag
 session

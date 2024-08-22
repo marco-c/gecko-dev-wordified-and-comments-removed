@@ -1250,6 +1250,9 @@ dragService
 .
 getCurrentSession
 (
+this
+.
+_window
 )
 )
 {

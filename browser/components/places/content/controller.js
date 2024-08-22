@@ -6368,6 +6368,7 @@ dragService
 .
 getCurrentSession
 (
+window
 )
 ;
 }
