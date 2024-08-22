@@ -938,7 +938,6 @@ key
 )
 ;
 }
-async
 compareImpression
 (
 cur
