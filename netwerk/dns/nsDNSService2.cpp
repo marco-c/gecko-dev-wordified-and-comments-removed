@@ -6827,7 +6827,7 @@ mParentalControlEnabled
 TRRService
 :
 :
-GetParentalControlEnabledInternal
+ReloadParentalControlsEnabled
 (
 )
 ;
