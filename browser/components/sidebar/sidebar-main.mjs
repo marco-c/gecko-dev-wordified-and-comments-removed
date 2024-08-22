@@ -1232,6 +1232,11 @@ if
 action
 .
 disabled
+|
+|
+action
+.
+hidden
 )
 {
 return
