@@ -101,6 +101,16 @@ foundation
 .
 layout
 .
+fillMaxHeight
+import
+androidx
+.
+compose
+.
+foundation
+.
+layout
+.
 fillMaxWidth
 import
 androidx
@@ -502,6 +512,10 @@ Surface
 modifier
 =
 modifier
+.
+fillMaxHeight
+(
+)
 color
 =
 FirefoxTheme
