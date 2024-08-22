@@ -415,13 +415,6 @@ png
 ]
 [
 "
-browser_pdfjs_toolbar_density
-.
-js
-"
-]
-[
-"
 browser_pdfjs_unload_dialog
 .
 js

@@ -372,7 +372,6 @@ browser
 "
 Stamp
 "
-1
 )
 ;
 await

@@ -270,7 +270,6 @@ browser
 "
 FreeText
 "
-1
 )
 ;
 await
