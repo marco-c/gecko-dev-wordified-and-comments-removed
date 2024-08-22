@@ -9118,6 +9118,7 @@ backend_file
 .
 write
 (
+            
 "
 IMPORT_LIBRARY
 :
@@ -9127,10 +9128,18 @@ s
 \
 n
 "
+            
 %
+self
+.
+_pretty_path
+(
 libdef
 .
-import_name
+import_path
+backend_file
+)
+        
 )
         
 shared_lib
