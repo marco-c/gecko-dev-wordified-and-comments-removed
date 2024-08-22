@@ -89,10 +89,6 @@ std
 :
 {
 iter
-marker
-:
-:
-PhantomData
 sync
 :
 :
@@ -149,12 +145,6 @@ A
 >
 )
 >
-_phantom
-:
-PhantomData
-<
-A
->
 }
 impl
 <
@@ -186,9 +176,6 @@ FastHashMap
 default
 (
 )
-_phantom
-:
-PhantomData
 }
 }
 pub
