@@ -277,6 +277,13 @@ html
 ]
 [
 "
+test_text_change_notifications_when_inserting_text_containing_line_breaks
+.
+html
+"
+]
+[
+"
 test_urgent_start
 .
 html
