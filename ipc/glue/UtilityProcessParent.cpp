@@ -1060,6 +1060,7 @@ mHost
 >
 OnChannelClosed
 (
+aWhy
 )
 ;
 }

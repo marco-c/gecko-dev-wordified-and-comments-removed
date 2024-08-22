@@ -295,6 +295,11 @@ aSucceeded
 void
 OnChannelClosed
 (
+IProtocol
+:
+:
+ActorDestroyReason
+aReason
 )
 ;
 void

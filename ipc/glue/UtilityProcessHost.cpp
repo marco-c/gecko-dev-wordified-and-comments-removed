@@ -1370,6 +1370,11 @@ UtilityProcessHost
 :
 OnChannelClosed
 (
+IProtocol
+:
+:
+ActorDestroyReason
+aReason
 )
 {
 MOZ_ASSERT
@@ -1404,6 +1409,12 @@ UtilityProcessHost
 :
 OnChannelClosed
 "
+1
++
+(
+long
+)
+aReason
 )
 )
 ;
