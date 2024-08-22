@@ -632,6 +632,7 @@ dragService
 .
 startDragSessionForTests
 (
+win
 dropAction
 )
 ;

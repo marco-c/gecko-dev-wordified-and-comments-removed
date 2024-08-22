@@ -12190,6 +12190,7 @@ ds
 .
 startDragSessionForTests
 (
+aWindow
 dropAction
 )
 ;

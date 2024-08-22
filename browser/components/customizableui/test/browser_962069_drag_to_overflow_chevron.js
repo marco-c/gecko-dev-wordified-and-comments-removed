@@ -243,6 +243,7 @@ ds
 .
 startDragSessionForTests
 (
+window
 Ci
 .
 nsIDragService
