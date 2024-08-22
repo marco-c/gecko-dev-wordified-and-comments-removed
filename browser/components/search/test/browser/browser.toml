@@ -251,6 +251,13 @@ js
 ]
 [
 "
+browser_oneOff
+.
+js
+"
+]
+[
+"
 browser_oneOffContextMenu
 .
 js
@@ -428,6 +435,13 @@ js
 [
 "
 browser_searchbar_widths
+.
+js
+"
+]
+[
+"
+browser_searchPanelHeader
 .
 js
 "
