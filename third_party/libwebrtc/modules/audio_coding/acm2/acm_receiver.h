@@ -295,6 +295,8 @@ audio_frame
 bool
 *
 muted
+=
+nullptr
 )
 ;
 void

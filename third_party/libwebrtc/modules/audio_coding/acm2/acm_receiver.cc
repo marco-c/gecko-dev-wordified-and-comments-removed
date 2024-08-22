@@ -853,11 +853,6 @@ bool
 muted
 )
 {
-RTC_DCHECK
-(
-muted
-)
-;
 int
 current_sample_rate_hz
 =
@@ -1172,8 +1167,12 @@ audio_frame
 -
 >
 speech_type_
-*
+audio_frame
+-
+>
 muted
+(
+)
 )
 ;
 return
