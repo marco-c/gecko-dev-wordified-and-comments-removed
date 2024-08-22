@@ -4042,6 +4042,13 @@ mAutoWeakFrames
 (
 nullptr
 )
+mLastAnchorVerticalScrollViewPosition
+(
+WhereToScroll
+:
+:
+Start
+)
 #
 ifdef
 ACCESSIBILITY
@@ -15266,6 +15273,10 @@ GetScrollPosition
 .
 y
 ;
+mLastAnchorVerticalScrollViewPosition
+=
+verticalScrollPosition
+;
 }
 }
 {
@@ -15746,10 +15757,7 @@ ScrollContentIntoView
 lastAnchor
 ScrollAxis
 (
-WhereToScroll
-:
-:
-Start
+mLastAnchorVerticalScrollViewPosition
 WhenToScroll
 :
 :

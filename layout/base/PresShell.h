@@ -6522,6 +6522,9 @@ nsIContent
 >
 mLastAnchorScrolledTo
 ;
+WhereToScroll
+mLastAnchorVerticalScrollViewPosition
+;
 nsCOMPtr
 <
 nsIContent
