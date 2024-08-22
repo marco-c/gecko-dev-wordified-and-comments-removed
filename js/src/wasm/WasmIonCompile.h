@@ -72,6 +72,10 @@ bool
 IonDumpFunction
 (
 const
+CompilerEnvironment
+&
+compilerEnv
+const
 CodeMetadata
 &
 codeMeta
