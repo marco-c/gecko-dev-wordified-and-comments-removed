@@ -114,7 +114,7 @@ version
 .
 0
 .
-4
+3
 "
 authors
 =
@@ -242,4 +242,9 @@ com
 hsivonen
 /
 utf8_iter
+"
+resolver
+=
+"
+2
 "

@@ -120,6 +120,13 @@ h
 "
 src
 /
+IDNA
+.
+h
+"
+"
+src
+/
 ListFormat
 .
 h
@@ -315,6 +322,13 @@ cpp
 src
 /
 ICU4CLibrary
+.
+cpp
+"
+"
+src
+/
+IDNA
 .
 cpp
 "

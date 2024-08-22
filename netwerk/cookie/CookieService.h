@@ -79,6 +79,9 @@ class
 nsIEffectiveTLDService
 ;
 class
+nsIIDNService
+;
+class
 nsIURI
 ;
 class
@@ -420,6 +423,12 @@ nsCOMPtr
 nsIEffectiveTLDService
 >
 mTLDService
+;
+nsCOMPtr
+<
+nsIIDNService
+>
+mIDNService
 ;
 RefPtr
 <

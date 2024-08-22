@@ -284,6 +284,7 @@ docs
 rs
 /
 url
+/
 )
 Please
 see
@@ -309,7 +310,7 @@ url
 /
 blob
 /
-main
+master
 /
 UPGRADING
 .

@@ -995,6 +995,8 @@ convertToDisplayIDN
 providerURL
 .
 host
+{
+}
 )
 ;
 let
@@ -1364,6 +1366,8 @@ convertToDisplayIDN
 providerURL
 .
 host
+{
+}
 )
 ;
 let
@@ -2264,6 +2268,8 @@ convertToDisplayIDN
 providerURL
 .
 host
+{
+}
 )
 ;
 let
@@ -3251,6 +3257,8 @@ convertToDisplayIDN
 providerURL
 .
 host
+{
+}
 )
 ;
 let

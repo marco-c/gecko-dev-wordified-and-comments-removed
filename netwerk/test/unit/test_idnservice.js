@@ -216,6 +216,12 @@ test_extra_blocked
 (
 )
 {
+let
+isAscii
+=
+{
+}
+;
 equal
 (
 idnService
@@ -232,6 +238,7 @@ gou
 .
 ro
 "
+isAscii
 )
 "
 go
@@ -274,6 +281,7 @@ gou
 .
 ro
 "
+isAscii
 )
 "
 xn

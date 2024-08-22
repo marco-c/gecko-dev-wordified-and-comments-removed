@@ -718,9 +718,9 @@ trrServer
 registerDoHAnswers
 (
 "
-capital
+CAPITAL
 .
-com
+COM
 "
 "
 A
