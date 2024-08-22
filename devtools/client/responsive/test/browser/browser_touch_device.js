@@ -273,7 +273,6 @@ Defaults
 "
 )
 ;
-await
 testTouchEventsOverride
 (
 ui
@@ -326,7 +325,6 @@ testDevice
 height
 )
 ;
-await
 testTouchEventsOverride
 (
 ui
@@ -399,7 +397,6 @@ hasDevice
 }
 )
 ;
-await
 testTouchEventsOverride
 (
 ui
@@ -440,7 +437,6 @@ toggleTouchSimulation
 ui
 )
 ;
-await
 testTouchEventsOverride
 (
 ui
@@ -473,7 +469,6 @@ toggleTouchSimulation
 ui
 )
 ;
-await
 testTouchEventsOverride
 (
 ui

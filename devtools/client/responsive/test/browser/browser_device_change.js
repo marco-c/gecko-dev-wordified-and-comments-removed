@@ -213,7 +213,6 @@ ui
 DEFAULT_DPPX
 )
 ;
-await
 testTouchEventsOverride
 (
 ui
@@ -285,7 +284,6 @@ testDevice
 pixelRatio
 )
 ;
-await
 testTouchEventsOverride
 (
 ui
@@ -355,7 +353,6 @@ testDevice
 pixelRatio
 )
 ;
-await
 testTouchEventsOverride
 (
 ui
@@ -420,7 +417,6 @@ ui
 1
 )
 ;
-await
 testTouchEventsOverride
 (
 ui
