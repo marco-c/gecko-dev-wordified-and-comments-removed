@@ -32,6 +32,14 @@ nsIIncrementalStreamLoaderObserver
 nsISupports
 {
 void
+onStartRequest
+(
+in
+nsIRequest
+aRequest
+)
+;
+void
 onIncrementalData
 (
 in
