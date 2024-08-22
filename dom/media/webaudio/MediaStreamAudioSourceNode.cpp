@@ -72,6 +72,13 @@ h
 #
 include
 "
+nsGlobalWindowInner
+.
+h
+"
+#
+include
+"
 Tracing
 .
 h
@@ -485,10 +492,8 @@ Graph
 )
 )
 {
-nsCOMPtr
-<
-nsPIDOMWindowInner
->
+nsGlobalWindowInner
+*
 pWindow
 =
 Context
@@ -496,7 +501,7 @@ Context
 )
 -
 >
-GetParentObject
+GetOwnerWindow
 (
 )
 ;
@@ -1015,7 +1020,7 @@ nullptr
 ;
 if
 (
-nsPIDOMWindowInner
+nsGlobalWindowInner
 *
 parent
 =
@@ -1024,7 +1029,7 @@ Context
 )
 -
 >
-GetParentObject
+GetOwnerWindow
 (
 )
 )

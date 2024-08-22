@@ -51069,7 +51069,8 @@ aTarget
 {
 }
 else
-{
+if
+(
 nsCOMPtr
 <
 DOMEventTargetHelper
@@ -51080,10 +51081,6 @@ do_QueryInterface
 (
 aTarget
 )
-;
-if
-(
-helper
 )
 {
 innerWindow
@@ -51091,11 +51088,10 @@ innerWindow
 helper
 -
 >
-GetOwner
+GetOwnerWindow
 (
 )
 ;
-}
 }
 if
 (

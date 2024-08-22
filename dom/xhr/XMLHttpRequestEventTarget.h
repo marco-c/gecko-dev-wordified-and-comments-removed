@@ -120,12 +120,11 @@ GetParentObject
 const
 {
 return
-GetOwner
+GetOwnerGlobal
 (
 )
 ;
 }
-virtual
 void
 DisconnectFromOwner
 (

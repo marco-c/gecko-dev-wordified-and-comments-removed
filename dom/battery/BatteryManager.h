@@ -40,6 +40,7 @@ battery
 {
 class
 BatteryManager
+final
 :
 public
 DOMEventTargetHelper
@@ -82,7 +83,7 @@ aBatteryInfo
 )
 override
 ;
-nsPIDOMWindowInner
+nsIGlobalObject
 *
 GetParentObject
 (
@@ -90,19 +91,17 @@ GetParentObject
 const
 {
 return
-GetOwner
+GetOwnerGlobal
 (
 )
 ;
 }
-virtual
 JSObject
 *
 WrapObject
 (
 JSContext
 *
-aCx
 JS
 :
 :

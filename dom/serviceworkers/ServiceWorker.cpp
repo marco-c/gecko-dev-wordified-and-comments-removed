@@ -772,7 +772,7 @@ nsPIDOMWindowInner
 *
 window
 =
-GetOwner
+GetOwnerWindow
 (
 )
 ;

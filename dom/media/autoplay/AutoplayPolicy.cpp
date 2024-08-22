@@ -857,7 +857,7 @@ IsWindowAllowedToPlayOverall
 (
 aContext
 .
-GetParentObject
+GetOwnerWindow
 (
 )
 )
@@ -1509,7 +1509,7 @@ window
 =
 aContext
 .
-GetParentObject
+GetOwnerWindow
 (
 )
 ;

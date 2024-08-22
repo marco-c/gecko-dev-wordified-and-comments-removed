@@ -34,6 +34,13 @@ AudioContext
 .
 h
 "
+#
+include
+"
+nsGlobalWindowInner
+.
+h
+"
 namespace
 mozilla
 :
@@ -178,7 +185,7 @@ Context
 )
 -
 >
-GetOwner
+GetOwnerWindow
 (
 )
 aNumberOfChannels

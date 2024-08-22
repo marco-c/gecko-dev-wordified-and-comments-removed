@@ -67,6 +67,13 @@ h
 #
 include
 "
+nsGlobalWindowInner
+.
+h
+"
+#
+include
+"
 MIDILog
 .
 h
@@ -227,7 +234,7 @@ aMsgs
 if
 (
 !
-GetOwner
+GetOwnerWindow
 (
 )
 )
@@ -241,7 +248,7 @@ Document
 >
 doc
 =
-GetOwner
+GetOwnerWindow
 (
 )
 -

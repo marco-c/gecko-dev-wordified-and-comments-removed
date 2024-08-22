@@ -533,7 +533,7 @@ MOZ_DEFINE_MALLOC_SIZE_OF
 (
 MallocSizeOf
 )
-nsPIDOMWindowInner
+nsIGlobalObject
 *
 GetParentObject
 (
@@ -541,7 +541,7 @@ GetParentObject
 const
 {
 return
-GetOwner
+GetOwnerGlobal
 (
 )
 ;
@@ -553,7 +553,6 @@ GetMainThread
 )
 const
 ;
-virtual
 void
 DisconnectFromOwner
 (

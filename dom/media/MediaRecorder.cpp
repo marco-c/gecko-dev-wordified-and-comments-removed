@@ -246,6 +246,13 @@ h
 #
 include
 "
+nsGlobalWindowInner
+.
+h
+"
+#
+include
+"
 nsServiceManagerUtils
 .
 h
@@ -821,7 +828,7 @@ if
 aRecorder
 -
 >
-GetOwner
+GetOwnerWindow
 (
 )
 )
@@ -839,7 +846,7 @@ doc
 aRecorder
 -
 >
-GetOwner
+GetOwnerWindow
 (
 )
 -
@@ -983,14 +990,14 @@ doc
 aAudioNode
 -
 >
-GetOwner
+GetOwnerWindow
 (
 )
 ?
 aAudioNode
 -
 >
-GetOwner
+GetOwnerWindow
 (
 )
 -
@@ -5733,7 +5740,7 @@ nsPIDOMWindowInner
 *
 window
 =
-GetOwner
+GetOwnerWindow
 (
 )
 )
@@ -8270,7 +8277,7 @@ nsPIDOMWindowInner
 *
 window
 =
-GetOwner
+GetOwnerWindow
 (
 )
 ;

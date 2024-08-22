@@ -48,6 +48,13 @@ SpeechSynthesis
 h
 "
 #
+include
+"
+nsGlobalWindowInner
+.
+h
+"
+#
 undef
 LOG
 extern
@@ -1486,7 +1493,7 @@ InitWithWeakCallback
 mUtterance
 -
 >
-GetOwner
+GetOwnerWindow
 (
 )
 this

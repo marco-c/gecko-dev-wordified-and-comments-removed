@@ -448,6 +448,13 @@ h
 #
 include
 "
+nsGlobalWindowInner
+.
+h
+"
+#
+include
+"
 nsReadableUtils
 .
 h
@@ -2455,7 +2462,7 @@ LogMessage
 "
 HTMLSyncXHRWarning
 "
-GetOwner
+GetOwnerWindow
 (
 )
 )
@@ -2598,7 +2605,7 @@ LogMessage
 "
 JSONCharsetWarning
 "
-GetOwner
+GetOwnerWindow
 (
 )
 )
@@ -3366,7 +3373,7 @@ return
 }
 if
 (
-HasOrHasHadOwner
+HasOrHasHadOwnerWindow
 (
 )
 &
@@ -3388,7 +3395,7 @@ LogMessage
 "
 ResponseTypeSyncXHRWarning
 "
-GetOwner
+GetOwnerWindow
 (
 )
 )
@@ -7040,12 +7047,12 @@ DontWarnAboutSyncXHR
 )
 &
 &
-GetOwner
+GetOwnerWindow
 (
 )
 &
 &
-GetOwner
+GetOwnerWindow
 (
 )
 -
@@ -7055,7 +7062,7 @@ GetExtantDoc
 )
 )
 {
-GetOwner
+GetOwnerWindow
 (
 )
 -
@@ -7179,7 +7186,7 @@ aAsync
 responsibleDocument
 &
 &
-GetOwner
+GetOwnerWindow
 (
 )
 )
@@ -7226,7 +7233,7 @@ LogMessage
 "
 UseSendBeaconDuringUnloadAndPagehideWarning
 "
-GetOwner
+GetOwnerWindow
 (
 )
 )
@@ -7514,7 +7521,7 @@ if
 aAsync
 &
 &
-HasOrHasHadOwner
+HasOrHasHadOwnerWindow
 (
 )
 &
@@ -7543,7 +7550,7 @@ LogMessage
 "
 TimeoutSyncXHRWarning
 "
-GetOwner
+GetOwnerWindow
 (
 )
 )
@@ -7565,7 +7572,7 @@ LogMessage
 "
 ResponseTypeSyncXHRWarning
 "
-GetOwner
+GetOwnerWindow
 (
 )
 )
@@ -11284,7 +11291,7 @@ nsPIDOMWindowInner
 *
 owner
 =
-GetOwner
+GetOwnerWindow
 (
 )
 ;
@@ -12337,7 +12344,7 @@ nsPIDOMWindowInner
 >
 owner
 =
-GetOwner
+GetOwnerWindow
 (
 )
 ;
@@ -14492,7 +14499,7 @@ true
 ;
 if
 (
-GetOwner
+GetOwnerWindow
 (
 )
 )
@@ -14505,7 +14512,7 @@ nsPIDOMWindowOuter
 >
 topWindow
 =
-GetOwner
+GetOwnerWindow
 (
 )
 -
@@ -14914,7 +14921,7 @@ LogMessage
 "
 ForbiddenHeaderWarning
 "
-GetOwner
+GetOwnerWindow
 (
 )
 params
@@ -14980,7 +14987,7 @@ XMLHttpRequest_Binding
 UNSENT
 &
 &
-HasOrHasHadOwner
+HasOrHasHadOwnerWindow
 (
 )
 )
@@ -14990,7 +14997,7 @@ LogMessage
 "
 TimeoutSyncXHRWarning
 "
-GetOwner
+GetOwnerWindow
 (
 )
 )
@@ -16318,16 +16325,18 @@ window
 ;
 if
 (
-GetOwner
+nsGlobalWindowInner
+*
+inner
+=
+GetOwnerWindow
 (
 )
 )
 {
 window
 =
-GetOwner
-(
-)
+inner
 -
 >
 GetOuterWindow

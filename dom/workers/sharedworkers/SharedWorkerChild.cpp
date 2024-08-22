@@ -139,6 +139,13 @@ LockManagerChild
 .
 h
 "
+#
+include
+"
+nsGlobalWindowInner
+.
+h
+"
 namespace
 mozilla
 {
@@ -369,7 +376,7 @@ window
 mParent
 -
 >
-GetOwner
+GetOwnerWindow
 (
 )
 ;
@@ -855,7 +862,7 @@ NotifyBFCacheOnMainThread
 mParent
 -
 >
-GetOwner
+GetOwnerWindow
 (
 )
 aCreated
@@ -897,7 +904,7 @@ NotifyBFCacheOnMainThread
 mParent
 -
 >
-GetOwner
+GetOwnerWindow
 (
 )
 aCreated

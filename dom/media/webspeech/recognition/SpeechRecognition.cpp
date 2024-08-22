@@ -270,6 +270,13 @@ h
 #
 include
 "
+nsGlobalWindowInner
+.
+h
+"
+#
+include
+"
 SpeechTrackListener
 .
 h
@@ -760,7 +767,7 @@ mSpeechGrammarList
 new
 SpeechGrammarList
 (
-GetOwner
+GetOwnerGlobal
 (
 )
 )
@@ -3806,7 +3813,7 @@ nsPIDOMWindowInner
 *
 win
 =
-GetOwner
+GetOwnerWindow
 (
 )
 ;
@@ -4127,7 +4134,7 @@ aRv
 if
 (
 !
-GetOwner
+GetOwnerWindow
 (
 )
 )
@@ -4169,7 +4176,7 @@ Document
 >
 document
 =
-GetOwner
+GetOwnerWindow
 (
 )
 -
@@ -4242,7 +4249,7 @@ result
 =
 CreateSpeechRecognitionService
 (
-GetOwner
+GetOwnerWindow
 (
 )
 this

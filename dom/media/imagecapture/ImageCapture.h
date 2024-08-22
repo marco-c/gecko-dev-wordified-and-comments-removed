@@ -153,14 +153,15 @@ aGivenProto
 )
 ;
 }
-nsPIDOMWindowInner
+nsIGlobalObject
 *
 GetParentObject
 (
 )
+const
 {
 return
-GetOwner
+GetOwnerGlobal
 (
 )
 ;

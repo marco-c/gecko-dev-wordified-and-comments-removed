@@ -771,7 +771,7 @@ owner
 mScreenOrientation
 -
 >
-GetOwner
+GetOwnerWindow
 (
 )
 ;
@@ -2089,7 +2089,7 @@ nsPIDOMWindowInner
 >
 owner
 =
-GetOwner
+GetOwnerWindow
 (
 )
 ;
@@ -2676,7 +2676,7 @@ aIsFullscreen
 if
 (
 !
-GetOwner
+GetOwnerWindow
 (
 )
 )
@@ -2698,7 +2698,7 @@ EventTarget
 >
 target
 =
-GetOwner
+GetOwnerWindow
 (
 )
 -
@@ -2879,7 +2879,7 @@ mFullscreenListener
 |
 |
 !
-GetOwner
+GetOwnerWindow
 (
 )
 )
@@ -2899,7 +2899,7 @@ EventTarget
 >
 target
 =
-GetOwner
+GetOwnerWindow
 (
 )
 -
@@ -3202,7 +3202,7 @@ nsPIDOMWindowInner
 >
 owner
 =
-GetOwner
+GetOwnerWindow
 (
 )
 ;
@@ -3346,7 +3346,7 @@ nsPIDOMWindowInner
 >
 owner
 =
-GetOwner
+GetOwnerWindow
 (
 )
 ;

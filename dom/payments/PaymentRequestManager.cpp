@@ -1985,7 +1985,7 @@ win
 aRequest
 -
 >
-GetOwner
+GetOwnerWindow
 (
 )
 ;

@@ -1377,7 +1377,7 @@ jsapi
 .
 Init
 (
-GetOwner
+GetOwnerWindow
 (
 )
 )

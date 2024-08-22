@@ -184,6 +184,13 @@ h
 #
 include
 "
+nsGlobalWindowInner
+.
+h
+"
+#
+include
+"
 nsContentPermissionHelper
 .
 h
@@ -969,7 +976,7 @@ MIDIInput
 :
 Create
 (
-GetOwner
+GetOwnerWindow
 (
 )
 this
@@ -1123,7 +1130,7 @@ MIDIOutput
 :
 Create
 (
-GetOwner
+GetOwnerWindow
 (
 )
 this
@@ -1295,7 +1302,7 @@ Notify
 if
 (
 !
-GetOwner
+GetOwnerWindow
 (
 )
 )

@@ -3480,7 +3480,7 @@ window
 helper
 -
 >
-GetOwner
+GetOwnerWindow
 (
 )
 )

@@ -1647,7 +1647,7 @@ nsPIDOMWindowInner
 *
 window
 =
-GetOwner
+GetOwnerWindow
 (
 )
 )

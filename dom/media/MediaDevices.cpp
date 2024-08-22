@@ -1232,7 +1232,7 @@ nsPIDOMWindowInner
 *
 window
 =
-GetOwner
+GetOwnerWindow
 (
 )
 ;
@@ -1497,7 +1497,7 @@ nsPIDOMWindowInner
 *
 window
 =
-GetOwner
+GetOwnerWindow
 (
 )
 ;
@@ -2318,7 +2318,7 @@ nsPIDOMWindowInner
 >
 window
 =
-GetOwner
+GetOwnerWindow
 (
 )
 ;
@@ -2479,7 +2479,7 @@ nsPIDOMWindowInner
 >
 window
 =
-GetOwner
+GetOwnerWindow
 (
 )
 ;
@@ -4017,7 +4017,7 @@ nsPIDOMWindowInner
 >
 window
 =
-GetOwner
+GetOwnerWindow
 (
 )
 ;
@@ -4375,7 +4375,7 @@ nsPIDOMWindowInner
 >
 window
 =
-GetOwner
+GetOwnerWindow
 (
 )
 ;
@@ -4505,7 +4505,7 @@ nsPIDOMWindowInner
 *
 window
 =
-GetOwner
+GetOwnerWindow
 (
 )
 ;

@@ -205,6 +205,13 @@ h
 #
 include
 "
+nsGlobalWindowInner
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -4559,7 +4566,7 @@ paymentResponse
 new
 PaymentResponse
 (
-GetOwner
+GetOwnerWindow
 (
 )
 this
@@ -5751,7 +5758,7 @@ mShippingAddress
 new
 PaymentAddress
 (
-GetOwner
+GetOwnerWindow
 (
 )
 aCountry
@@ -5781,7 +5788,7 @@ mFullShippingAddress
 new
 PaymentAddress
 (
-GetOwner
+GetOwnerWindow
 (
 )
 aCountry
@@ -6317,7 +6324,7 @@ nsPIDOMWindowInner
 *
 window
 =
-GetOwner
+GetOwnerWindow
 (
 )
 )
@@ -6392,7 +6399,7 @@ nsPIDOMWindowInner
 *
 window
 =
-GetOwner
+GetOwnerWindow
 (
 )
 ;
