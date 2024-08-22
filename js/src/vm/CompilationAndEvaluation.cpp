@@ -649,6 +649,9 @@ Stencil
 &
 &
 stencil
+bool
+&
+alreadyStarted
 )
 {
 MOZ_ASSERT
@@ -792,6 +795,7 @@ move
 (
 initial
 )
+alreadyStarted
 )
 ;
 }

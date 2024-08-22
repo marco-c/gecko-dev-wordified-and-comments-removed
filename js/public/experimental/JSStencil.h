@@ -662,6 +662,9 @@ Stencil
 &
 &
 stencil
+bool
+&
+alreadyStarted
 )
 ;
 }

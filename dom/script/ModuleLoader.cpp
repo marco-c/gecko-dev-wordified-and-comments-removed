@@ -1213,6 +1213,9 @@ PassedConditionForBytecodeEncoding
 )
 )
 {
+bool
+alreadyStarted
+;
 if
 (
 !
@@ -1229,6 +1232,7 @@ move
 (
 stencil
 )
+alreadyStarted
 )
 )
 {
@@ -1236,6 +1240,12 @@ return
 NS_ERROR_FAILURE
 ;
 }
+MOZ_ASSERT
+(
+!
+alreadyStarted
+)
+;
 }
 return
 NS_OK
@@ -1482,6 +1492,9 @@ PassedConditionForBytecodeEncoding
 )
 )
 {
+bool
+alreadyStarted
+;
 if
 (
 !
@@ -1498,6 +1511,7 @@ move
 (
 stencil
 )
+alreadyStarted
 )
 )
 {
@@ -1505,6 +1519,12 @@ return
 NS_ERROR_FAILURE
 ;
 }
+MOZ_ASSERT
+(
+!
+alreadyStarted
+)
+;
 }
 return
 NS_OK

@@ -4477,6 +4477,9 @@ ExtensibleCompilationStencil
 &
 &
 initial
+bool
+&
+alreadyStarted
 )
 ;
 [

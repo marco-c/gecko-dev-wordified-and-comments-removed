@@ -1004,6 +1004,9 @@ if
 mEncodeBytecode
 )
 {
+bool
+alreadyStarted
+;
 if
 (
 !
@@ -1020,6 +1023,7 @@ move
 (
 aStencil
 )
+alreadyStarted
 )
 )
 {
@@ -1038,6 +1042,12 @@ return
 mRv
 ;
 }
+MOZ_ASSERT
+(
+!
+alreadyStarted
+)
+;
 }
 MOZ_ASSERT
 (
