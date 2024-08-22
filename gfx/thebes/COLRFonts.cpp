@@ -13859,14 +13859,6 @@ version
 )
 {
 return
-StaticPrefs
-:
-:
-gfx_font_rendering_colr_v1_enabled
-(
-)
-&
-&
 colrLength
 >
 =
