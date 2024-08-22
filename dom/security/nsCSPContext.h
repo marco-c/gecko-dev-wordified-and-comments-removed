@@ -439,6 +439,14 @@ aPolicies
 ;
 private
 :
+enum
+class
+ForceReportSample
+{
+Yes
+No
+}
+;
 void
 LogViolationDetailsUnchecked
 (
@@ -459,6 +467,8 @@ const
 nsAString
 &
 aObserverSubject
+ForceReportSample
+aForceReportSample
 )
 ;
 bool
