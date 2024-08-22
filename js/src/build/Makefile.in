@@ -773,7 +773,10 @@ libdir
 )
 /
 (
+notdir
+(
 SHARED_LIBRARY
+)
 )
 )
 (
@@ -784,7 +787,10 @@ libdir
 )
 /
 (
+notdir
+(
 SHARED_LIBRARY
+)
 )
 endif
 endif
