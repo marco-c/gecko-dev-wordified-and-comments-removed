@@ -3256,7 +3256,7 @@ split
 "
 )
 def
-host_cflags
+host_cxxflags
 (
 base_cxxflags
 compilation_flags
@@ -3589,7 +3589,7 @@ set_config
 "
 HOST_CXXFLAGS
 "
-host_cflags
+host_cxxflags
 )
 set_config
 (
