@@ -622,7 +622,7 @@ eviction_threshold
 .
 video
 "
-100
+150
 *
 1024
 *
