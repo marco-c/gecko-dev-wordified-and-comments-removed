@@ -721,6 +721,9 @@ MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 InvokeDragSession
 (
+nsIWidget
+*
+aWidget
 nsINode
 *
 aDOMNode

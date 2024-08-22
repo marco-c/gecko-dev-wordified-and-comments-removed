@@ -4091,6 +4091,9 @@ nsDragService
 :
 InvokeDragSession
 (
+nsIWidget
+*
+aWidget
 nsINode
 *
 aDOMNode
@@ -4140,6 +4143,7 @@ nsBaseDragService
 :
 InvokeDragSession
 (
+aWidget
 aDOMNode
 aPrincipal
 aCsp
