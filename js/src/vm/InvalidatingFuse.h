@@ -170,7 +170,7 @@ js
 SystemAllocPolicy
 >
 ;
-js
+JS
 :
 :
 WeakCache

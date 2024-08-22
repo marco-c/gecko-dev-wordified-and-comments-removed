@@ -1476,6 +1476,9 @@ delta
 using
 InstanceSet
 =
+JS
+:
+:
 WeakCache
 <
 GCHashSet

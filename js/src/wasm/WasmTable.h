@@ -53,6 +53,9 @@ Table
 using
 InstanceSet
 =
+JS
+:
+:
 WeakCache
 <
 GCHashSet

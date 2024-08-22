@@ -378,6 +378,9 @@ JSScript
 SystemAllocPolicy
 >
 ;
+JS
+:
+:
 WeakCache
 <
 ScriptMap
@@ -1866,10 +1869,7 @@ mozilla
 :
 LinkedList
 <
-js
-:
-:
-gc
+detail
 :
 :
 WeakCacheBase
@@ -3384,10 +3384,7 @@ mozilla
 :
 LinkedList
 <
-js
-:
-:
-gc
+detail
 :
 :
 WeakCacheBase
@@ -3408,10 +3405,7 @@ ref
 void
 registerWeakCache
 (
-js
-:
-:
-gc
+detail
 :
 :
 WeakCacheBase

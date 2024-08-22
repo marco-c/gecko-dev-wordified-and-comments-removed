@@ -4058,10 +4058,10 @@ stopRecordingAllocations
 }
 JS_PUBLIC_API
 void
-js
+JS
 :
 :
-gc
+shadow
 :
 :
 RegisterWeakCache
@@ -4069,7 +4069,7 @@ RegisterWeakCache
 JSRuntime
 *
 rt
-gc
+detail
 :
 :
 WeakCacheBase

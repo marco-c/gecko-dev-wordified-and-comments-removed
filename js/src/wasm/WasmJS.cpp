@@ -8719,6 +8719,9 @@ isUndefined
 using
 WasmFunctionScopeMap
 =
+JS
+:
+:
 WeakCache
 <
 GCHashMap
