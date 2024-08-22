@@ -78,7 +78,7 @@ required
 XRSpace
 space
 ;
-FrozenArray
+sequence
 <
 XRHitTestTrackableType
 >
@@ -96,7 +96,7 @@ required
 DOMString
 profile
 ;
-FrozenArray
+sequence
 <
 XRHitTestTrackableType
 >
@@ -215,7 +215,7 @@ partial
 interface
 XRFrame
 {
-FrozenArray
+sequence
 <
 XRHitTestResult
 >
@@ -225,7 +225,7 @@ XRHitTestSource
 hitTestSource
 )
 ;
-FrozenArray
+sequence
 <
 XRTransientInputHitTestResult
 >

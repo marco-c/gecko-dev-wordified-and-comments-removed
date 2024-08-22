@@ -36,7 +36,6 @@ webref
 Source
 :
 Geolocation
-API
 (
 https
 :
@@ -49,8 +48,6 @@ github
 io
 /
 geolocation
--
-api
 /
 )
 partial
