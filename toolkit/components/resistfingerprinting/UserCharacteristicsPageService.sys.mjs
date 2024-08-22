@@ -2450,6 +2450,9 @@ mathml9
 "
 mathml10
 "
+"
+monochrome
+"
 ]
 }
 ;
