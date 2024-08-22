@@ -1092,6 +1092,15 @@ case
 Args_Float32_Float32
 :
 case
+Args_Float32_Float64
+:
+case
+Args_Float32_General
+:
+case
+Args_Float32_Int32
+:
+case
 Args_Int_Float32
 :
 case
