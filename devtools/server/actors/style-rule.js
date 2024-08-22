@@ -1270,9 +1270,6 @@ canSetRuleText
 this
 .
 canSetRuleText
-hasMatchedSelectorIndexes
-:
-true
 }
 }
 ;

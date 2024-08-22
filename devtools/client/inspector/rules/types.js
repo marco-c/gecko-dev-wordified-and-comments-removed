@@ -260,16 +260,6 @@ getUniqueSelector
 PropTypes
 .
 func
-matchedDesugaredSelectors
-:
-PropTypes
-.
-arrayOf
-(
-PropTypes
-.
-string
-)
 matchedSelectorIndexes
 :
 PropTypes
