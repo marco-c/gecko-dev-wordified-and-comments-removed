@@ -2989,19 +2989,6 @@ scratch
 Label
 done
 ;
-if
-(
-JS
-:
-:
-Prefs
-:
-:
-use_emulates_undefined_fuse
-(
-)
-)
-{
 loadPtr
 (
 AbsoluteAddress
@@ -3033,7 +3020,6 @@ nullptr
 done
 )
 ;
-}
 loadObjClassUnsafe
 (
 objReg
