@@ -675,6 +675,21 @@ kwargs
 )
 :
         
+pernosco
+=
+pernosco
+or
+os
+.
+environ
+.
+get
+(
+"
+MOZ_USE_PERNOSCO
+"
+)
+        
 if
 pernosco
 is
@@ -891,6 +906,12 @@ break
         
 return
 {
+            
+"
+pernosco
+"
+:
+True
             
 "
 env

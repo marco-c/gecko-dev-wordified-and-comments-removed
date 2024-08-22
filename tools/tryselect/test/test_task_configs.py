@@ -1059,6 +1059,11 @@ PERNOSCO
 1
 "
 }
+"
+pernosco
+"
+:
+True
 }
 }
 def
