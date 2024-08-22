@@ -1228,6 +1228,13 @@ MAX_LATIN1_CHAR
 0xff
 ;
 static
+constexpr
+size_t
+MIN_BYTES_FOR_BUFFER
+=
+514
+;
+static
 inline
 bool
 validateLength
