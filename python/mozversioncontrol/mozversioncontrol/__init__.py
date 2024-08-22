@@ -7612,11 +7612,25 @@ os
 .
 walk
 (
-"
+self
 .
-"
+path
 )
 :
+            
+base
+=
+os
+.
+path
+.
+relpath
+(
+root
+self
+.
+path
+)
             
 for
 name
@@ -7634,7 +7648,7 @@ path
 .
 join
 (
-root
+base
 name
 )
 )
