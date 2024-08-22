@@ -2007,7 +2007,7 @@ DOMFormHasPassword
 :
 {
 }
-DOMFormHasPossibleUsername
+DOMPossibleUsernameInputAdded
 :
 {
 }
