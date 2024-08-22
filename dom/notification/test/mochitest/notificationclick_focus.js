@@ -189,12 +189,16 @@ function
 )
 {
 throw
+new
+Error
+(
 "
 Should
 have
 failed
 !
 "
+)
 ;
 }
 function

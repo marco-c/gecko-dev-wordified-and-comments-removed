@@ -148,10 +148,10 @@ DONE
 ;
 onnotificationclick
 =
-function
 (
-event
 )
+=
+>
 {
 clients
 .
