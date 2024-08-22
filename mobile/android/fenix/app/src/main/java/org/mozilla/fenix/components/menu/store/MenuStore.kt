@@ -211,6 +211,10 @@ DeleteBrowsingDataAndQuit
 is
 MenuAction
 .
+InstallAddon
+is
+MenuAction
+.
 Navigate
 -
 >
