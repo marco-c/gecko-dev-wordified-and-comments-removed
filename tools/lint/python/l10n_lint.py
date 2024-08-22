@@ -600,6 +600,27 @@ return
 1
     
 if
+"
+GIT_INDEX_FILE
+"
+in
+os
+.
+environ
+:
+        
+os
+.
+environ
+.
+pop
+(
+"
+GIT_INDEX_FILE
+"
+)
+    
+if
 os
 .
 path
