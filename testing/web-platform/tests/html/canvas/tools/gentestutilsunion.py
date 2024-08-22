@@ -2690,6 +2690,13 @@ svgimages
 :
 [
 ]
+            
+'
+fonts
+'
+:
+[
+]
         
 }
         
@@ -5215,6 +5222,19 @@ _param_set
 (
 '
 svgimages
+'
+)
+            
+'
+fonts
+'
+:
+self
+.
+_param_set
+(
+'
+fonts
 '
 )
         
