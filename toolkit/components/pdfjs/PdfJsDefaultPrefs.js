@@ -174,6 +174,16 @@ pref
 "
 pdfjs
 .
+enableUpdatedAddImage
+"
+false
+)
+;
+pref
+(
+"
+pdfjs
+.
 enableXfa
 "
 true
