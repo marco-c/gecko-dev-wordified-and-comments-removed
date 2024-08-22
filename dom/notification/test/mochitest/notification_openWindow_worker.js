@@ -16,9 +16,11 @@ tests
 /
 dom
 /
-serviceworkers
+notification
 /
 test
+/
+mochitest
 /
 "
 ;
@@ -28,7 +30,7 @@ gTestURL
 gRoot
 +
 "
-test_notification_openWindow
+test_notification_serviceworker_openWindow
 .
 html
 "

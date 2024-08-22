@@ -66,11 +66,6 @@ fetch
 js
 "
 "
-file_userContextId_openWindow
-.
-js
-"
-"
 force_refresh_browser_worker
 .
 js
@@ -323,13 +318,6 @@ js
 [
 "
 browser_unregister_with_containers
-.
-js
-"
-]
-[
-"
-browser_userContextId_openWindow
 .
 js
 "
