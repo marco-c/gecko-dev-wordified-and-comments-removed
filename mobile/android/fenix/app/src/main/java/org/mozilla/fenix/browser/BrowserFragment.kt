@@ -1395,6 +1395,11 @@ binding
 .
 dynamicSnackbarContainer
 )
+navController
+=
+findNavController
+(
+)
 customTabSessionId
 =
 customTabSessionId
