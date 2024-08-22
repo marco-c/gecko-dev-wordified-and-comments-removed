@@ -4,6 +4,9 @@ as
 test
 ;
 mod
+deprecated
+;
+mod
 punycode
 ;
 mod
@@ -93,6 +96,16 @@ run
 }
 ;
 punycode
+:
+:
+collect_tests
+(
+&
+mut
+add_test
+)
+;
+deprecated
 :
 :
 collect_tests
