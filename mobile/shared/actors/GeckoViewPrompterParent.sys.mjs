@@ -345,6 +345,16 @@ prompt
 .
 isDialog
 }
+getPromptId
+(
+)
+{
+return
+prompt
+.
+id
+;
+}
 setInputText
 (
 text
