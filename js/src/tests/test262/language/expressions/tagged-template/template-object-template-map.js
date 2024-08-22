@@ -7,6 +7,11 @@ cache
 [
 ]
 ;
+var
+site
+=
+1
+;
 function
 sameSite
 (
@@ -14,11 +19,9 @@ sameSite
 {
 tag
 {
-Math
-.
-random
-(
-)
+site
++
++
 }
 ;
 }

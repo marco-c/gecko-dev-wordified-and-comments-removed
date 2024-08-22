@@ -20,7 +20,6 @@ ZonedDateTime
 "
 UTC
 "
-temporalObject
 )
 ;
 datetime

@@ -1,15 +1,4 @@
 const
-tz
-=
-TemporalHelpers
-.
-specificOffsetTimeZone
-(
--
-2
-)
-;
-const
 datetime
 =
 new
@@ -18,7 +7,12 @@ Temporal
 ZonedDateTime
 (
 86400_000_000_001n
-tz
+"
+-
+00
+:
+02
+"
 )
 ;
 assert
@@ -48,7 +42,7 @@ sameValue
 datetime
 .
 minute
-59
+58
 )
 ;
 assert
@@ -58,7 +52,7 @@ sameValue
 datetime
 .
 second
-59
+0
 )
 ;
 assert
@@ -68,7 +62,7 @@ sameValue
 datetime
 .
 millisecond
-999
+0
 )
 ;
 assert
@@ -78,7 +72,7 @@ sameValue
 datetime
 .
 microsecond
-999
+0
 )
 ;
 assert
@@ -88,7 +82,7 @@ sameValue
 datetime
 .
 nanosecond
-999
+1
 )
 ;
 reportCompare

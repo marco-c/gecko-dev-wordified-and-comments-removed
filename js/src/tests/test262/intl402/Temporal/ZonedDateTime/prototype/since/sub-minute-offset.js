@@ -1,17 +1,11 @@
 const
 timeZone
 =
-new
-Temporal
-.
-TimeZone
-(
 "
 Africa
 /
 Monrovia
 "
-)
 ;
 const
 instance

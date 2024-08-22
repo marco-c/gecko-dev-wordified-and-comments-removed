@@ -1,0 +1,16 @@
+DONOTEVALUATE
+(
+)
+;
+(
+async
+(
+)
+=
+>
+await
+typeof
+import
+.
+source
+)

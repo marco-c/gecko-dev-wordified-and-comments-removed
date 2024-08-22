@@ -1,0 +1,12 @@
+DONOTEVALUATE
+(
+)
+;
+{
+typeof
+import
+.
+source
+;
+}
+;

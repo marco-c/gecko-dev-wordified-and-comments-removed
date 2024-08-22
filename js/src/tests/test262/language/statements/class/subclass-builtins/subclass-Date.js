@@ -10,6 +10,7 @@ sub
 new
 Subclass
 (
+0
 )
 ;
 assert

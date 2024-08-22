@@ -1,0 +1,7 @@
+DONOTEVALUATE
+(
+)
+;
+typeof
+import
+;

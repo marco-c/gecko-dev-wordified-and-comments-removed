@@ -162,6 +162,7 @@ typeof
 new
 Date
 (
+0
 )
 "
 object
@@ -171,6 +172,7 @@ typeof
 new
 Date
 (
+0
 )
 =
 =

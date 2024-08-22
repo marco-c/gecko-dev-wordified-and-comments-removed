@@ -1,0 +1,14 @@
+DONOTEVALUATE
+(
+)
+;
+if
+(
+false
+)
+{
+}
+else
+typeof
+import
+;

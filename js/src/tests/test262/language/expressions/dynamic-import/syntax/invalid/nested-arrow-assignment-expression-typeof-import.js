@@ -1,0 +1,14 @@
+DONOTEVALUATE
+(
+)
+;
+let
+f
+=
+(
+)
+=
+>
+typeof
+import
+;

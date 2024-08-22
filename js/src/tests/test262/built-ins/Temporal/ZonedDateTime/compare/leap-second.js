@@ -7,15 +7,9 @@ Temporal
 ZonedDateTime
 (
 1_483_228_799_000_000_000n
-new
-Temporal
-.
-TimeZone
-(
 "
 UTC
 "
-)
 )
 ;
 let

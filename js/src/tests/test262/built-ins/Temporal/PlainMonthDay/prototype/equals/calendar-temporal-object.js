@@ -18,7 +18,6 @@ PlainMonthDay
 (
 5
 2
-temporalObject
 )
 ;
 monthday

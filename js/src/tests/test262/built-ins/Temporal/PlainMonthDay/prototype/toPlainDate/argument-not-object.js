@@ -27,15 +27,6 @@ primitive
 >
 {
 const
-calendar
-=
-TemporalHelpers
-.
-calendarThrowEverything
-(
-)
-;
-const
 plainMonthDay
 =
 new
@@ -45,7 +36,6 @@ PlainMonthDay
 (
 5
 2
-calendar
 )
 ;
 assert

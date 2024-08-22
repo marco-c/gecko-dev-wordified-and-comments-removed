@@ -24,15 +24,9 @@ const
 args
 =
 [
-new
-Temporal
-.
-TimeZone
-(
 "
 UTC
 "
-)
 ]
 ;
 assert

@@ -86,15 +86,9 @@ key
 const
 timeZone
 =
-new
-Temporal
-.
-TimeZone
-(
 "
 UTC
 "
-)
 ;
 const
 instance

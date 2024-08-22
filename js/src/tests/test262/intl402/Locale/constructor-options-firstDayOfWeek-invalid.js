@@ -11,11 +11,8 @@ m
 mo
 "
 "
-monday
+longerThan8Chars
 "
-true
-false
-null
 ]
 ;
 for

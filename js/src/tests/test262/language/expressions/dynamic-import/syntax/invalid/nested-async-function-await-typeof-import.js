@@ -1,0 +1,15 @@
+DONOTEVALUATE
+(
+)
+;
+async
+function
+f
+(
+)
+{
+await
+typeof
+import
+;
+}

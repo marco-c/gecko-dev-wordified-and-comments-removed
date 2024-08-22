@@ -20,15 +20,9 @@ PlainDateTime
 const
 calendar
 =
-new
-Temporal
-.
-Calendar
-(
 "
 iso8601
 "
-)
 ;
 const
 result
@@ -68,9 +62,7 @@ sameValue
 (
 result
 .
-getCalendar
-(
-)
+calendarId
 calendar
 "
 underlying

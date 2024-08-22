@@ -4,6 +4,7 @@ timeZoneMinutes
 new
 Date
 (
+0
 )
 .
 getTimezoneOffset

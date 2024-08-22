@@ -1,0 +1,17 @@
+DONOTEVALUATE
+(
+)
+;
+if
+(
+true
+)
+{
+typeof
+import
+.
+source
+.
+UNKNOWN
+;
+}

@@ -30,15 +30,9 @@ Temporal
 ZonedDateTime
 (
 123456n
-new
-Temporal
-.
-TimeZone
-(
 "
 UTC
 "
-)
 )
 ]
 ;
