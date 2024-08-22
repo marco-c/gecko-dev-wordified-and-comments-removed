@@ -448,10 +448,10 @@ rtp_sender_video
 .
 cc
 index
-e02d18cc46
+c60305888b
 .
 .
-3ba14b2b74
+dfdf36434a
 100644
 -
 -
@@ -521,11 +521,8 @@ task_queue_factory
 :
 nullptr
 )
-{
-if
+enable_av1_even_split_
 (
-frame_transformer_delegate_
-)
 diff
 -
 -

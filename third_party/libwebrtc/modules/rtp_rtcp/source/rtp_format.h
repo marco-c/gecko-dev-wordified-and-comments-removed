@@ -123,6 +123,10 @@ const
 RTPVideoHeader
 &
 rtp_video_header
+bool
+enable_av1_even_split
+=
+false
 )
 ;
 virtual

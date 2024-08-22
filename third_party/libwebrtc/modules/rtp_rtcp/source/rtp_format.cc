@@ -208,6 +208,8 @@ const
 RTPVideoHeader
 &
 rtp_video_header
+bool
+enable_av1_even_split
 )
 {
 if
@@ -369,6 +371,7 @@ frame_type
 rtp_video_header
 .
 is_last_frame_in_picture
+enable_av1_even_split
 )
 ;
 #

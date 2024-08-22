@@ -996,6 +996,10 @@ RTPSenderVideoFrameTransformerDelegate
 >
 frame_transformer_delegate_
 ;
+const
+bool
+enable_av1_even_split_
+;
 }
 ;
 }
