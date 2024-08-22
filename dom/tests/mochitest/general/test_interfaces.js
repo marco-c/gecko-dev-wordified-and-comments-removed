@@ -1784,6 +1784,16 @@ true
 name
 :
 "
+CSSPageDescriptors
+"
+insecureContext
+:
+true
+}
+{
+name
+:
+"
 CSSPageRule
 "
 insecureContext
