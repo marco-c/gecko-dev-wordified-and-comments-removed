@@ -36,6 +36,15 @@ include
 "
 mozilla
 /
+HoldDropJSObjects
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Maybe
 .
 h
@@ -1769,6 +1778,8 @@ RemoveJSHolder
 void
 *
 aHolder
+ShouldClearJSRefs
+aClearRefs
 )
 ;
 #

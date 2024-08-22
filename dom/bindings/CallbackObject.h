@@ -977,6 +977,10 @@ mozilla
 DropJSObjects
 (
 this
+ShouldClearJSRefs
+:
+:
+AlreadyCleared
 )
 ;
 }
