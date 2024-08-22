@@ -159,12 +159,6 @@ override
 #
 endif
 NS_IMETHOD
-Close
-(
-)
-override
-;
-NS_IMETHOD
 AppendFilters
 (
 int32_t

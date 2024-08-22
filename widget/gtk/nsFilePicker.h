@@ -70,12 +70,6 @@ aCallback
 override
 ;
 NS_IMETHOD
-Close
-(
-)
-override
-;
-NS_IMETHOD
 IsModeSupported
 (
 nsIFilePicker

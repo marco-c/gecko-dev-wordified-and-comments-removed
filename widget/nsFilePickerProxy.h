@@ -277,12 +277,6 @@ aCallback
 )
 override
 ;
-NS_IMETHOD
-Close
-(
-)
-override
-;
 virtual
 mozilla
 :
