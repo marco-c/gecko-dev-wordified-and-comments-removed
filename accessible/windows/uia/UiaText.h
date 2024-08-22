@@ -65,7 +65,7 @@ RangeFromChild
 __RPC__in_opt
 IRawElementProviderSimple
 *
-childElement
+aChildElement
 __RPC__deref_out_opt
 ITextRangeProvider
 *
