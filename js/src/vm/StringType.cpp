@@ -5914,6 +5914,7 @@ str
 setNonInlineChars
 (
 chars
+false
 )
 ;
 MOZ_ASSERT
@@ -6109,6 +6110,7 @@ root
 setNonInlineChars
 (
 wholeChars
+false
 )
 ;
 root
@@ -15293,6 +15295,12 @@ Latin1Char
 (
 nogc
 )
+atom
+-
+>
+hasStringBuffer
+(
+)
 )
 ;
 }
@@ -15317,6 +15325,12 @@ char16_t
 >
 (
 nogc
+)
+atom
+-
+>
+hasStringBuffer
+(
 )
 )
 ;
