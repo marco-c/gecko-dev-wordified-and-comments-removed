@@ -950,11 +950,14 @@ push
 event
 "
 prefix
+null
 ChromeUtils
 .
 dateNow
 (
 )
+-
+1
 currentDOMEvent
 ]
 )
