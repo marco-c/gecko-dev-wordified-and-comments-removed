@@ -204,3 +204,14 @@ browser_whats_new_page_nimbus
 toml
 "
 ]
+[
+"
+include
+:
+.
+/
+browser_whats_new_page_nimbus_disable
+.
+toml
+"
+]
