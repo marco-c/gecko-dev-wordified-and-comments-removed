@@ -3930,7 +3930,6 @@ const
 lwtProperty
 fallbackProperty
 fallbackColor
-optionalElementID
 processColor
 isColor
 =
@@ -3938,20 +3937,6 @@ true
 }
 =
 definition
-;
-let
-elem
-=
-optionalElementID
-?
-doc
-.
-getElementById
-(
-optionalElementID
-)
-:
-root
 ;
 let
 val
@@ -4034,7 +4019,7 @@ val
 processColor
 (
 val
-elem
+root
 propertyOverrides
 )
 ;
@@ -4069,7 +4054,7 @@ val
 ;
 _setProperty
 (
-elem
+root
 hasTheme
 cssVarName
 val

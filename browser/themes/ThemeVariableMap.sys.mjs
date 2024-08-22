@@ -139,13 +139,6 @@ lwtProperty
 "
 tab_loading
 "
-optionalElementID
-:
-"
-tabbrowser
--
-tabs
-"
 }
 ]
 [
