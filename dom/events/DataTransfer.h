@@ -1289,6 +1289,12 @@ GetClipboardDataSnapshot
 )
 const
 ;
+nsIDragSession
+*
+GetOwnerDragSession
+(
+)
+;
 protected
 :
 void
@@ -1456,6 +1462,12 @@ mozilla
 ErrorResult
 &
 aRv
+)
+;
+nsIWidget
+*
+GetOwnerWidget
+(
 )
 ;
 nsCOMPtr

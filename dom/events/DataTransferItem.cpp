@@ -961,10 +961,10 @@ nsIDragSession
 >
 dragSession
 =
-nsContentUtils
-:
-:
-GetDragSession
+mDataTransfer
+-
+>
+GetOwnerDragSession
 (
 )
 ;
