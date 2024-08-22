@@ -1621,7 +1621,7 @@ nscoord
 nsFieldSetFrame
 :
 :
-GetIntrinsicISize
+IntrinsicISize
 (
 gfxContext
 *
@@ -1733,7 +1733,7 @@ aRenderingContext
 )
 {
 return
-GetIntrinsicISize
+IntrinsicISize
 (
 aRenderingContext
 IntrinsicISizeType
@@ -1755,7 +1755,7 @@ aRenderingContext
 )
 {
 return
-GetIntrinsicISize
+IntrinsicISize
 (
 aRenderingContext
 IntrinsicISizeType

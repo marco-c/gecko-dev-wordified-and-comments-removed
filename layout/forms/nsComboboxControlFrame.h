@@ -421,7 +421,7 @@ gfxContext
 const
 ;
 nscoord
-GetIntrinsicISize
+IntrinsicISize
 (
 gfxContext
 *
