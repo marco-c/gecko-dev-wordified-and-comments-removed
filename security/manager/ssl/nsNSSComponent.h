@@ -394,11 +394,6 @@ bool
 getRoots
 )
 ;
-nsresult
-MaybeEnableIntermediatePreloadingHealer
-(
-)
-;
 mozilla
 :
 :
@@ -480,12 +475,6 @@ mMutex
 static
 int
 mInstanceCount
-;
-nsCOMPtr
-<
-nsITimer
->
-mIntermediatePreloadingHealerTimer
 ;
 }
 ;
