@@ -4802,6 +4802,11 @@ matchedSelectorsContainer
 =
 null
 ;
+#
+matchedSelectorResponse
+=
+null
+;
 matchedExpander
 =
 null
@@ -6088,7 +6093,8 @@ return
 }
 this
 .
-_matchedSelectorResponse
+#
+matchedSelectorResponse
 =
 matched
 ;
@@ -6321,7 +6327,8 @@ matchedSelectors
 return
 this
 .
-_matchedSelectorResponse
+#
+matchedSelectorResponse
 ;
 }
 #
@@ -6719,7 +6726,8 @@ matchedSelectorViews
 ;
 this
 .
-_matchedSelectorResponse
+#
+matchedSelectorResponse
 .
 forEach
 (
