@@ -202,11 +202,6 @@ lwtProperty
 "
 tab_line
 "
-optionalElementID
-:
-"
-TabsToolbar
-"
 }
 ]
 [
