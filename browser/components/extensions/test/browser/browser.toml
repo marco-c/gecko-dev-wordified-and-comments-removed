@@ -1979,6 +1979,13 @@ js
 ]
 [
 "
+browser_ext_popup_bug1906132
+.
+js
+"
+]
+[
+"
 browser_ext_popup_corners
 .
 js
