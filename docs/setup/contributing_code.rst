@@ -595,10 +595,7 @@ contributors
 ~
 ~
 With
-more
-than
-a
-million
+millions
 bugs
 filed
 in
