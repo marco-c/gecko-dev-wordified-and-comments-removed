@@ -582,6 +582,7 @@ parametrize
 accept
 "
 [
+True
 False
 ]
 )
