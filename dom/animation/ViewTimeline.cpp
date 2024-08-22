@@ -635,7 +635,7 @@ mAxis
 StyleScrollAxis
 :
 :
-Horizontal
+X
 &
 &
 wm
@@ -653,7 +653,7 @@ mAxis
 StyleScrollAxis
 :
 :
-Vertical
+Y
 &
 &
 !

@@ -1432,10 +1432,10 @@ Block
 Inline
 =
 1
-Vertical
+X
 =
 2
-Horizontal
+Y
 =
 3
 }

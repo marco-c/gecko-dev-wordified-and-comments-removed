@@ -804,7 +804,7 @@ mAxis
 StyleScrollAxis
 :
 :
-Horizontal
+X
 |
 |
 (

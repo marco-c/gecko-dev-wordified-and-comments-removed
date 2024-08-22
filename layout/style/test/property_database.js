@@ -90815,13 +90815,13 @@ inline
 "
 scroll
 (
-horizontal
+x
 )
 "
 "
 scroll
 (
-vertical
+y
 )
 "
 "
@@ -90846,7 +90846,7 @@ nearest
 "
 scroll
 (
-vertical
+y
 root
 )
 "
@@ -90854,7 +90854,7 @@ root
 scroll
 (
 root
-horizontal
+x
 )
 "
 "
@@ -90891,7 +90891,7 @@ auto
 "
 view
 (
-vertical
+y
 auto
 auto
 )
@@ -90899,7 +90899,7 @@ auto
 "
 view
 (
-horizontal
+x
 1px
 1
 %
@@ -91094,10 +91094,10 @@ other_values
 inline
 "
 "
-vertical
+x
 "
 "
-horizontal
+y
 "
 ]
 invalid_values
@@ -91111,6 +91111,9 @@ none
 "
 "
 abc
+"
+"
+horizontal
 "
 ]
 }
@@ -91178,7 +91181,7 @@ inline
 "
 "
 bounce
-vertical
+y
 "
 "
 \
@@ -91196,7 +91199,7 @@ block
 \
 32
 0bounce
-vertical
+y
 "
 "
 -
@@ -91204,7 +91207,7 @@ vertical
 \
 32
 0bounce
-horizontal
+x
 "
 "
 a
@@ -91217,7 +91220,7 @@ block
 b
 inline
 c
-vertical
+y
 "
 ]
 invalid_values
@@ -91230,7 +91233,7 @@ bounce
 bounce
 "
 "
-horizontal
+x
 a
 "
 "
@@ -91397,10 +91400,10 @@ other_values
 inline
 "
 "
-vertical
+x
 "
 "
-horizontal
+y
 "
 "
 inline
@@ -91422,6 +91425,9 @@ abc
 "
 inline
 block
+"
+"
+vertical
 "
 ]
 }
@@ -91573,7 +91579,7 @@ inline
 "
 "
 bounce
-vertical
+y
 "
 "
 \
@@ -91591,7 +91597,7 @@ block
 \
 32
 0bounce
-vertical
+y
 "
 "
 -
@@ -91599,7 +91605,7 @@ vertical
 \
 32
 0bounce
-horizontal
+x
 "
 "
 a
@@ -91612,7 +91618,7 @@ block
 b
 inline
 c
-vertical
+y
 "
 ]
 invalid_values
@@ -91627,7 +91633,7 @@ abc
 abc
 "
 "
-horizontal
+x
 a
 "
 "
