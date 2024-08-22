@@ -1978,7 +1978,6 @@ statusBarBackground
 binding
 .
 engineView
-parentFragmentManager
 )
 this
 view
