@@ -3037,6 +3037,11 @@ mFlags
 mIsSynthesizedForTests
 )
 ;
+MOZ_ASSERT
+(
+mWidget
+)
+;
 nsCOMPtr
 <
 nsIDragSession
@@ -3048,6 +3053,7 @@ nsContentUtils
 :
 GetDragSession
 (
+mWidget
 )
 ;
 if

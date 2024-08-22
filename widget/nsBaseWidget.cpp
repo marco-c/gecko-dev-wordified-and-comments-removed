@@ -513,6 +513,13 @@ h
 #
 include
 "
+nsBaseDragService
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h

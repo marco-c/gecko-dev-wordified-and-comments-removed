@@ -3184,6 +3184,14 @@ bool
 aCanvasFingerprinterKnownText
 )
 ;
+already_AddRefed
+<
+nsIDragSession
+>
+GetDragSession
+(
+)
+;
 protected
 :
 virtual

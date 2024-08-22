@@ -22823,6 +22823,16 @@ return
 NS_ERROR_FAILURE
 ;
 }
+RefPtr
+<
+nsIWidget
+>
+widget
+=
+GetWidget
+(
+)
+;
 nsCOMPtr
 <
 nsIDragSession
@@ -22834,6 +22844,7 @@ nsContentUtils
 :
 GetDragSession
 (
+widget
 )
 ;
 if

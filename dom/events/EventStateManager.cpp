@@ -9468,6 +9468,19 @@ aEvent
 mMessage
 )
 ;
+RefPtr
+<
+nsIWidget
+>
+widget
+=
+browserParent
+-
+>
+GetTopLevelWidget
+(
+)
+;
 nsCOMPtr
 <
 nsIDragSession
@@ -9479,6 +9492,7 @@ nsContentUtils
 :
 GetDragSession
 (
+widget
 )
 ;
 uint32_t
@@ -18779,6 +18793,7 @@ nsContentUtils
 :
 GetDragSession
 (
+mPresContext
 )
 ;
 if
@@ -19175,6 +19190,7 @@ nsContentUtils
 :
 GetDragSession
 (
+mPresContext
 )
 ;
 if
@@ -25734,6 +25750,7 @@ nsContentUtils
 :
 GetDragSession
 (
+mPresContext
 )
 ;
 if
