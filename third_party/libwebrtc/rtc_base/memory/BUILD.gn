@@ -242,14 +242,6 @@ task_queue
 :
 pending_task_safety_flag
 "
-"
-.
-.
-/
-synchronization
-:
-mutex
-"
 ]
 }
 rtc_library
