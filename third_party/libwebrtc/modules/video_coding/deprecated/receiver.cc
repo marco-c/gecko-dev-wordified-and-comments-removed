@@ -877,7 +877,7 @@ SetRenderTime
 render_time_ms
 )
 ;
-TRACE_EVENT_ASYNC_STEP1
+TRACE_EVENT_ASYNC_STEP_INTO1
 (
 "
 webrtc
