@@ -31197,9 +31197,16 @@ elements
 ;
 minISize
 =
+std
+:
+:
+min
+(
 GetMinISize
 (
 aRenderingContext
+)
+maxISize
 )
 ;
 }
