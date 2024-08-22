@@ -201,6 +201,13 @@ bug
 1729538
 [
 "
+test_BackupService_finalizeSingleFileArchive
+.
+js
+"
+]
+[
+"
 test_BackupService_recoverFromSnapshotFolder
 .
 js
@@ -209,6 +216,13 @@ js
 [
 "
 test_BackupService_renderTemplate
+.
+js
+"
+]
+[
+"
+test_BackupService_resolveArchiveDestFolderPath
 .
 js
 "
