@@ -48,7 +48,7 @@ mochitest
 -
 errata
 .
-ini
+toml
 .
 [
 DEFAULT
