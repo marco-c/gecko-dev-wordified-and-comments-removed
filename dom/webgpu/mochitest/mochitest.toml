@@ -161,6 +161,13 @@ html
 ]
 [
 "
+test_buffer_mapping_overlapping_views
+.
+html
+"
+]
+[
+"
 test_command_buffer_creation
 .
 html
