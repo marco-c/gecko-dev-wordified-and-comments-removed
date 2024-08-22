@@ -1034,17 +1034,7 @@ Manifest
 .
 permission
 .
-READ_MEDIA_IMAGES
-Manifest
-.
-permission
-.
 READ_MEDIA_AUDIO
-Manifest
-.
-permission
-.
-READ_MEDIA_VIDEO
 )
 filePicker
 .
