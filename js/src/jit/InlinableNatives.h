@@ -232,6 +232,11 @@ DataViewSetUint32
 \
 _
 (
+DataViewSetFloat16
+)
+\
+_
+(
 DataViewSetFloat32
 )
 \

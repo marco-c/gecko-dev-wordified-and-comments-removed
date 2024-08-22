@@ -6592,7 +6592,7 @@ fun_setUint32
 0
 DataViewSetUint32
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 setFloat16
@@ -6603,6 +6603,7 @@ DataViewObject
 fun_setFloat16
 2
 0
+DataViewSetFloat16
 )
 JS_INLINABLE_FN
 (
