@@ -5504,28 +5504,6 @@ FieldTrial
 '
 WebRTC
 -
-VP9VariableFramerateScreenshare
-'
-               
-'
-webrtc
-:
-10310
-'
-               
-date
-(
-2024
-4
-1
-)
-)
-    
-FieldTrial
-(
-'
-WebRTC
--
 Video
 -
 BalancedDegradation
@@ -5990,7 +5968,7 @@ str
 \
     
 '
-5690e723f0ca378ceb708e02bf2334327c0f64b6
+680deace2615186c4d3cf9ed3bd3595b7b6c8ae8
 '
 REGISTERED_FIELD_TRIALS
 :
