@@ -84,6 +84,11 @@ blankSlate
 (
 )
 ;
+requestLongerTimeout
+(
+2
+)
+;
 registerCleanupFunction
 (
 async
@@ -100,6 +105,13 @@ await
 PlacesTestUtils
 .
 promiseAsyncUpdates
+(
+)
+;
+await
+SiteDataTestUtils
+.
+clear
 (
 )
 ;
