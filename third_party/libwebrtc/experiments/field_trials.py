@@ -2634,24 +2634,6 @@ FieldTrial
 '
 WebRTC
 -
-Avx2SupportKillSwitch
-'
-               
-42221774
-               
-date
-(
-2024
-4
-1
-)
-)
-    
-FieldTrial
-(
-'
-WebRTC
--
 BindUsingInterfaceName
 '
                
@@ -4894,7 +4876,7 @@ str
 \
     
 '
-a84804e20ae8a5f63996e59560ca97d724665c20
+84f7bc41874cd36cc4d5306e86972f53fef83f29
 '
 REGISTERED_FIELD_TRIALS
 :
