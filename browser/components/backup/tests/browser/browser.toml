@@ -65,6 +65,13 @@ js
 ]
 [
 "
+browser_settings_turn_off_scheduled_backups
+.
+js
+"
+]
+[
+"
 browser_settings_turn_on_scheduled_backups
 .
 js
