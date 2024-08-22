@@ -18,6 +18,15 @@ resolve
 )
 )
 ;
+if
+(
+"
+setup
+"
+in
+globalThis
+)
+{
 setup
 (
 (
@@ -41,6 +50,7 @@ supported
 )
 )
 ;
+}
 const
 very_long_frame_duration
 =
