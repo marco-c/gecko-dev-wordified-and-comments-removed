@@ -296,6 +296,10 @@ finally
 {
 ds
 .
+getCurrentSession
+(
+)
+.
 endDragSession
 (
 true

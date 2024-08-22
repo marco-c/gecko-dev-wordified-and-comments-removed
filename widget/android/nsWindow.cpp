@@ -14864,6 +14864,9 @@ return
 }
 if
 (
+dragSession
+&
+&
 aAction
 =
 =
@@ -14879,7 +14882,7 @@ DragEvent
 ACTION_DRAG_ENDED
 )
 {
-dragService
+dragSession
 -
 >
 EndDragSession
@@ -15047,7 +15050,7 @@ if
 sourceNode
 )
 {
-dragService
+dragSession
 -
 >
 EndDragSession
@@ -15203,7 +15206,7 @@ if
 sourceNode
 )
 {
-dragService
+dragSession
 -
 >
 EndDragSession
@@ -15219,7 +15222,7 @@ break
 case
 eDrop
 :
-dragService
+dragSession
 -
 >
 EndDragSession

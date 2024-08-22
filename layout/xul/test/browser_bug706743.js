@@ -368,6 +368,10 @@ true
 ;
 dragService
 .
+getCurrentSession
+(
+)
+.
 endDragSession
 (
 true

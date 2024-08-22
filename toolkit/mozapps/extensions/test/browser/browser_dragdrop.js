@@ -795,6 +795,11 @@ true
 ;
 dragService
 .
+getDragSession
+(
+win
+)
+.
 endDragSession
 (
 true

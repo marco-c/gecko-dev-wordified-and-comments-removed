@@ -766,11 +766,11 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
-nsDragService
+nsresult
+nsDragSession
 :
 :
-EndDragSession
+EndDragSessionImpl
 (
 bool
 aDoneDrag
@@ -791,10 +791,10 @@ EndDragSession
 nsresult
 rv
 =
-nsBaseDragService
+nsBaseDragSession
 :
 :
-EndDragSession
+EndDragSessionImpl
 (
 aDoneDrag
 aKeyModifiers

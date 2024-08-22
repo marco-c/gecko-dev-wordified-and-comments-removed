@@ -36400,7 +36400,7 @@ buttonPressCountWithDrag
 =
 0
 ;
-dragService
+currentDragSession
 -
 >
 EndDragSession
