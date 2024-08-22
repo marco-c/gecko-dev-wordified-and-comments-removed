@@ -29369,6 +29369,12 @@ sourceRect
 mTarget
 )
 ;
+res
+.
+mSourceSurface
+=
+nullptr
+;
 }
 AdjustedTarget
 tempTarget
