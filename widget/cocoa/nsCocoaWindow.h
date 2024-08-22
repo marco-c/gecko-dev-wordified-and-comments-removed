@@ -615,6 +615,17 @@ aState
 (
 void
 )
+setTitlebarAppearsTransparent
+:
+(
+BOOL
+)
+aState
+;
+-
+(
+void
+)
 placeWindowButtons
 :
 (
