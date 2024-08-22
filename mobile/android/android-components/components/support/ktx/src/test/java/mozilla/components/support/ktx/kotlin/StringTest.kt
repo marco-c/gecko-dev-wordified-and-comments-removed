@@ -2166,6 +2166,10 @@ utf
 8
 encoded
 characters
+or
+illegal
+filename
+characters
 decode
 decodes
 it
@@ -2180,6 +2184,10 @@ pairs
 of
 encoded
 strings
+or
+illegal
+filename
+characters
 and
 their
 expected

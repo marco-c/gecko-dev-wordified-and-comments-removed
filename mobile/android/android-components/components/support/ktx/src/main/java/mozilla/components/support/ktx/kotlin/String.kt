@@ -2431,6 +2431,15 @@ replaceEscapedCharacters
 *
 *
 Replaces
+<
+>
+*
+"
+:
+?
+\
+|
+and
 control
 characters
 from
@@ -2444,12 +2453,12 @@ with
 _
 '
 so
+*
 the
 file
 name
 is
 valid
-*
 and
 is
 correctly
@@ -2468,7 +2477,7 @@ replaceEscapedCharacters
 String
 {
 val
-controlCharactersRegex
+escapedCharactersRegex
 =
 "
 [
@@ -2479,7 +2488,6 @@ x00
 \
 \
 x13
-/
 *
 \
 "
@@ -2501,7 +2509,7 @@ toRegex
 return
 replace
 (
-controlCharactersRegex
+escapedCharactersRegex
 "
 _
 "
