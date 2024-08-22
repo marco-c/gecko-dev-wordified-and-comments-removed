@@ -374,6 +374,9 @@ dom
 DataTransfer
 *
 aDataTransfer
+nsINode
+*
+aTargetContent
 bool
 aIsSynthesizedForTests
 )

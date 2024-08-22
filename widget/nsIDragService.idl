@@ -775,6 +775,9 @@ aDragEvent
 in
 DataTransferPtr
 aDataTransfer
+in
+Node
+aTargetContent
 )
 ;
 /

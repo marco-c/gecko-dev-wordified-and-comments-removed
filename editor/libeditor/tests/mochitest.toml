@@ -1964,6 +1964,13 @@ html
 ]
 [
 "
+test_dragend_target
+.
+html
+"
+]
+[
+"
 test_execCommandPaste_noTarget
 .
 html
