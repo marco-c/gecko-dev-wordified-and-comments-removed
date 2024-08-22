@@ -276,13 +276,6 @@ override
 ;
 private
 :
-RTC_NO_UNIQUE_ADDRESS
-webrtc
-:
-:
-SequenceChecker
-sequence_checker_
-;
 IceTransportInternal
 *
 const
@@ -295,7 +288,7 @@ StreamState
 state_
 RTC_GUARDED_BY
 (
-sequence_checker_
+callback_sequence_
 )
 ;
 rtc
@@ -305,7 +298,7 @@ BufferQueue
 packets_
 RTC_GUARDED_BY
 (
-sequence_checker_
+callback_sequence_
 )
 ;
 }
@@ -973,6 +966,7 @@ DtlsTransportState
 state
 )
 ;
+RTC_NO_UNIQUE_ADDRESS
 webrtc
 :
 :
