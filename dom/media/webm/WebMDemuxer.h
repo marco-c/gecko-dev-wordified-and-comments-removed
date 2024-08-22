@@ -1000,6 +1000,12 @@ mAudioCodec
 int
 mVideoCodec
 ;
+int64_t
+mAudioDefaultDuration
+;
+int64_t
+mVideoDefaultDuration
+;
 bool
 mHasVideo
 ;
