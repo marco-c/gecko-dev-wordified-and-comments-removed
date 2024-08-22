@@ -390,10 +390,6 @@ mutex_
 )
 ;
 const
-bool
-variable_start_scale_factor_
-;
-const
 int
 source_resolution_alignment_
 ;
