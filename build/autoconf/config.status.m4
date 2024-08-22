@@ -1020,6 +1020,15 @@ see
 above
 )
 .
+if
+test
+-
+e
+confdefs
+.
+pytmp
+;
+then
 sed
 '
 s
@@ -1037,6 +1046,10 @@ rm
 confdefs
 .
 pytmp
+fi
+rm
+-
+f
 confdefs
 .
 h
