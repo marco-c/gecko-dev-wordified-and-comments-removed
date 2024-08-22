@@ -912,12 +912,12 @@ results
 [
 '
 source
-teardown
+abort
+event
 '
 '
 source
-abort
-event
+teardown
 '
 '
 map
