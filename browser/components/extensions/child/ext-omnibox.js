@@ -35,6 +35,9 @@ omnibox
 .
 onInputChanged
 "
+resetIdleOnEvent
+:
+false
 register
 :
 fire

@@ -420,6 +420,9 @@ webRequest
 .
 onAuthRequired
 "
+resetIdleOnEvent
+:
+false
 register
 :
 (

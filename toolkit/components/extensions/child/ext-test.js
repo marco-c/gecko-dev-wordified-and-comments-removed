@@ -1502,6 +1502,9 @@ test
 .
 onMessage
 "
+resetIdleOnEvent
+:
+true
 register
 :
 fire

@@ -612,6 +612,9 @@ context
 name
 :
 onChangedName
+resetIdleOnEvent
+:
+false
 register
 :
 fire

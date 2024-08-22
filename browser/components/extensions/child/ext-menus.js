@@ -1294,6 +1294,9 @@ menus
 .
 onClicked
 "
+resetIdleOnEvent
+:
+false
 register
 :
 fire
