@@ -4845,7 +4845,11 @@ funcType
 =
 code
 .
-getFuncExportType
+codeMeta
+(
+)
+.
+getFuncType
 (
 funcIndex
 )
