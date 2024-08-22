@@ -50,7 +50,7 @@ onAttributionConversion
 (
 in
 ACString
-sourceHost
+targetHost
 in
 AString
 task
@@ -59,7 +59,7 @@ uint32_t
 histogramSize
 in
 uint32_t
-loopbackDays
+lookbackDays
 in
 ACString
 impressionType
