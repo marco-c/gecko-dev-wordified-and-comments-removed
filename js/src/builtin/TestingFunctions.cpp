@@ -10780,13 +10780,13 @@ js
 wasm
 :
 :
-MetadataTier
+CodeTier
 &
-meta
+codeTier
 =
 inst
 .
-metadata
+code
 (
 tier
 )
@@ -10833,7 +10833,7 @@ FuncExport
 &
 func
 =
-meta
+codeTier
 .
 lookupFuncExport
 (
@@ -10851,7 +10851,7 @@ CodeRange
 &
 codeRange
 =
-meta
+codeTier
 .
 codeRange
 (

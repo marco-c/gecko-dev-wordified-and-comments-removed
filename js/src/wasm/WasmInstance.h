@@ -1237,17 +1237,6 @@ const
 ;
 inline
 const
-MetadataTier
-&
-metadata
-(
-Tier
-t
-)
-const
-;
-inline
-const
 CodeMetadata
 &
 codeMeta
