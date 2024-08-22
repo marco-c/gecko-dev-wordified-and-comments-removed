@@ -430,7 +430,7 @@ if
 (
 PlacesUtils
 .
-nodeIsFolder
+nodeIsFolderOrShortcut
 (
 selectedNode
 )

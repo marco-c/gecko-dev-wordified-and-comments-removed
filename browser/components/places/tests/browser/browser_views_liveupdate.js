@@ -1518,7 +1518,7 @@ if
 (
 PlacesUtils
 .
-nodeIsFolder
+nodeIsFolderOrShortcut
 (
 child
 .
@@ -1700,7 +1700,7 @@ if
 (
 PlacesUtils
 .
-nodeIsFolder
+nodeIsFolderOrShortcut
 (
 child
 .
@@ -1908,7 +1908,7 @@ if
 (
 PlacesUtils
 .
-nodeIsFolder
+nodeIsFolderOrShortcut
 (
 node
 )

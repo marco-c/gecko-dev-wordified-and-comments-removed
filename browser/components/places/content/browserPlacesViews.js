@@ -6698,7 +6698,7 @@ if
 !
 PlacesUtils
 .
-nodeIsFolder
+nodeIsFolderOrShortcut
 (
 this
 .
@@ -6789,7 +6789,7 @@ if
 (
 PlacesUtils
 .
-nodeIsFolder
+nodeIsFolderOrShortcut
 (
 elt
 .
@@ -8597,7 +8597,7 @@ this
 !
 PlacesUtils
 .
-nodeIsFolder
+nodeIsFolderOrShortcut
 (
 placesNode
 )
@@ -9074,7 +9074,7 @@ if
 !
 PlacesUtils
 .
-nodeIsFolder
+nodeIsFolderOrShortcut
 (
 placesNode
 )
@@ -10075,7 +10075,7 @@ this
 !
 PlacesUtils
 .
-nodeIsFolder
+nodeIsFolderOrShortcut
 (
 placesNode
 )

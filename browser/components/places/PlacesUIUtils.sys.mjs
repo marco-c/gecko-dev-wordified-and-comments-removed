@@ -5646,7 +5646,7 @@ lazy
 .
 PlacesUtils
 .
-nodeIsFolder
+nodeIsFolderOrShortcut
 (
 aNode
 )
@@ -6009,7 +6009,7 @@ lazy
 .
 PlacesUtils
 .
-nodeIsFolder
+nodeIsFolderOrShortcut
 (
 placesNode
 )
