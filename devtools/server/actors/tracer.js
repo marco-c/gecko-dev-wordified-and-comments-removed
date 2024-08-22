@@ -125,7 +125,7 @@ lazyRequireGetter
 (
 this
 "
-ConsoleTracingListener
+ResourcesTracingListener
 "
 "
 resource
@@ -140,7 +140,7 @@ actors
 /
 tracer
 /
-console
+resources
 .
 js
 "
@@ -526,7 +526,7 @@ CONSOLE
 :
 ListenerClass
 =
-ConsoleTracingListener
+ResourcesTracingListener
 ;
 break
 ;
