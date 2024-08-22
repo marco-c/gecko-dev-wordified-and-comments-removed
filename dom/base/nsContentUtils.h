@@ -8429,6 +8429,15 @@ nsIURI
 )
 ;
 static
+bool
+ShouldBypassSubResourceCache
+(
+Document
+*
+aDoc
+)
+;
+static
 uint32_t
 SecondsFromPRTime
 (
