@@ -33,16 +33,6 @@ org
 per
 -
 file
-cpu_speed_experiment
-*
-=
-asapersson
-webrtc
-.
-org
-per
--
-file
 field_trial
 *
 =
