@@ -129,6 +129,10 @@ warmup
 sqlite
 "
 )
+vec
+!
+[
+]
 RemoteSettingsWarmUpClient
 :
 :
@@ -243,6 +247,10 @@ SuggestStoreInner
 new
 (
 data_path
+vec
+!
+[
+]
 self
 .
 client
@@ -721,6 +729,10 @@ cache
 =
 shared
 "
+vec
+!
+[
+]
 RemoteSettingsWarmUpClient
 :
 :

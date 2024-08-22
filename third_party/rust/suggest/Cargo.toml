@@ -338,6 +338,9 @@ functions
 "
 bundled
 "
+"
+load_extension
+"
 ]
 [
 dependencies

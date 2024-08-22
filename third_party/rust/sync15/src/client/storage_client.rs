@@ -230,9 +230,7 @@ from
 u32
 :
 :
-max_value
-(
-)
+MAX
 )
 {
 log
