@@ -37,6 +37,9 @@ js
 namespace
 jit
 {
+class
+AutoMarkJitCodeWritableForThread
+;
 struct
 ResumeFromException
 ;
@@ -708,6 +711,17 @@ codeBase
 bool
 EnsureBuiltinThunksInitialized
 (
+)
+;
+bool
+EnsureBuiltinThunksInitialized
+(
+jit
+:
+:
+AutoMarkJitCodeWritableForThread
+&
+writable
 )
 ;
 bool
