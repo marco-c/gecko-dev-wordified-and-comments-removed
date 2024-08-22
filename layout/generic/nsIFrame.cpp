@@ -36219,7 +36219,7 @@ if
 aOutAncestor
 )
 return
-Matrix4x4
+Matrix4x4Flagged
 (
 )
 ;
@@ -36409,10 +36409,10 @@ AppUnitsPerDevPixel
 )
 ;
 return
-Matrix4x4
+Matrix4x4Flagged
 :
 :
-Translation
+Translation2d
 (
 NSAppUnitsToFloatPixels
 (
@@ -36428,9 +36428,6 @@ delta
 y
 scaleFactor
 )
-0
-.
-0f
 )
 ;
 }
