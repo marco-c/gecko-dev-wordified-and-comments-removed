@@ -96,11 +96,6 @@ js
 '
 -
 '
-.
-eslintignore
-'
--
-'
 tools
 /
 lint
@@ -108,6 +103,12 @@ lint
 eslint
 /
 *
+*
+'
+-
+'
+.
+prettier
 *
 '
 #
