@@ -4467,6 +4467,9 @@ VideoStream
 >
 CreateEncoderStreams
 (
+const
+FieldTrialsView
+&
 int
 frame_width
 int

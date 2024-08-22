@@ -37,6 +37,15 @@ include
 "
 api
 /
+field_trials_view
+.
+h
+"
+#
+include
+"
+api
+/
 scoped_refptr
 .
 h
@@ -392,6 +401,10 @@ VideoStream
 >
 CreateEncoderStreams
 (
+const
+FieldTrialsView
+&
+field_trials
 int
 frame_width
 int

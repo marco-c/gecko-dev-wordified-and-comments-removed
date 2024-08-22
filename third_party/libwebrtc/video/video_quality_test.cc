@@ -682,6 +682,9 @@ VideoStream
 >
 CreateEncoderStreams
 (
+const
+FieldTrialsView
+&
 int
 frame_width
 int
@@ -4117,6 +4120,13 @@ video_stream_factory
 >
 CreateEncoderStreams
 (
+env
+(
+)
+.
+field_trials
+(
+)
 params
 -
 >

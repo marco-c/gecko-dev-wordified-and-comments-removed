@@ -268,7 +268,6 @@ return
 payload_type_map_
 ;
 }
-static
 void
 FillScalabilitySettings
 (
