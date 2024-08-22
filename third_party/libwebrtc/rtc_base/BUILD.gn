@@ -4054,6 +4054,14 @@ deps
 [
 "
 :
+checks
+"
+"
+:
+macromagic
+"
+"
+:
 refcount
 "
 "
