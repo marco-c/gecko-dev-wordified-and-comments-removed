@@ -1,4 +1,8 @@
 from
+enum
+import
+Enum
+from
 typing
 import
 Any
@@ -55,6 +59,24 @@ password
 =
 password
 )
+class
+CacheBehavior
+(
+Enum
+)
+:
+    
+BYPASS
+=
+"
+bypass
+"
+    
+DEFAULT
+=
+"
+default
+"
 class
 NetworkBase64Value
 (
@@ -1445,13 +1467,15 @@ params
 command
     
 def
-set_cache_bypass
+set_cache_behavior
 (
-        
+            
 self
-bypass
+            
+cache_behavior
 :
-bool
+CacheBehavior
+            
 contexts
 :
 Optional
@@ -1463,7 +1487,6 @@ str
 ]
 =
 None
-    
 )
 -
 >
@@ -1484,10 +1507,10 @@ Any
 =
 {
 "
-bypass
+cacheBehavior
 "
 :
-bypass
+cache_behavior
 }
         
 if
