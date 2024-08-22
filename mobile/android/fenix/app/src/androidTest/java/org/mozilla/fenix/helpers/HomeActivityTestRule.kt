@@ -502,9 +502,7 @@ isNavigationToolbarEnabled
 :
 Boolean
 =
-settings
-.
-navigationToolbarEnabled
+false
 )
 :
 this
@@ -1201,9 +1199,7 @@ isNavigationToolbarEnabled
 :
 Boolean
 =
-settings
-.
-navigationToolbarEnabled
+false
 )
 :
 this
