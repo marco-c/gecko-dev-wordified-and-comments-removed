@@ -1988,7 +1988,7 @@ if
 not
 self
 .
-is_esr
+is_esr_115
 (
 )
 :
@@ -2842,7 +2842,7 @@ menu_id
 if
 self
 .
-is_esr
+is_esr_115
 (
 )
 and
