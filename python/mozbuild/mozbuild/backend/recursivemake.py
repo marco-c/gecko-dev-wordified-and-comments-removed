@@ -9372,11 +9372,22 @@ backend_file
 )
 :
         
+rust_lib
+=
+self
+.
+_pretty_path
+(
+libdef
+.
+import_path
+backend_file
+)
+        
 backend_file
 .
 write_once
 (
-            
 "
 %
 s
@@ -9392,13 +9403,8 @@ n
 libdef
 .
 LIB_FILE_VAR
-libdef
-.
-import_path
-.
-full_path
+rust_lib
 )
-        
 )
         
 backend_file
@@ -9500,15 +9506,9 @@ self
 .
 _process_non_default_target
 (
-                
 libdef
-libdef
-.
-import_path
-.
-full_path
+rust_lib
 backend_file
-            
 )
     
 def
@@ -9648,31 +9648,6 @@ obj
 backend_file
 )
 :
-        
-def
-pretty_relpath
-(
-path
-)
-:
-            
-return
-os
-.
-path
-.
-normpath
-(
-mozpath
-.
-relpath
-(
-path
-obj
-.
-objdir
-)
-)
         
 objs
 shared_libs
@@ -10143,13 +10118,14 @@ s
 n
 "
 %
-pretty_relpath
+self
+.
+_pretty_path
 (
 lib
 .
 import_path
-.
-full_path
+backend_file
 )
             
 )
@@ -10229,13 +10205,14 @@ n
 %
 (
 var
-pretty_relpath
+self
+.
+_pretty_path
 (
 lib
 .
 import_path
-.
-full_path
+backend_file
 )
 )
             
