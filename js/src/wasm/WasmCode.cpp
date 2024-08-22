@@ -5268,6 +5268,10 @@ const
 CodeMetadataForAsmJS
 *
 codeMetaForAsmJS
+const
+ShareableBytes
+*
+maybeBytecode
 )
 :
 mode_
@@ -5311,6 +5315,10 @@ CacheableCharsVector
 trapCode_
 (
 nullptr
+)
+bytecode_
+(
+maybeBytecode
 )
 {
 }

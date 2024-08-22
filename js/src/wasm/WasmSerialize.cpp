@@ -6967,7 +6967,7 @@ wasm
 :
 :
 Code
-704
+712
 )
 ;
 MutableCodeMetadata
@@ -7052,6 +7052,7 @@ CompileMode
 Once
 *
 codeMeta
+nullptr
 nullptr
 )
 ;
@@ -7157,7 +7158,7 @@ wasm
 :
 :
 Code
-704
+712
 )
 ;
 STATIC_ASSERT_ENCODING_OR_SIZING
@@ -7273,7 +7274,7 @@ wasm
 :
 :
 Module
-64
+56
 )
 ;
 JS
@@ -7496,7 +7497,6 @@ Module
 moduleMeta
 *
 code
-nullptr
 true
 )
 ;
@@ -7548,7 +7548,7 @@ wasm
 :
 :
 Module
-64
+56
 )
 ;
 STATIC_ASSERT_ENCODING_OR_SIZING
