@@ -1772,6 +1772,12 @@ tracing
 "
 )
 {
+if
+(
+!
+build_with_mozilla
+)
+{
 all_dependent_configs
 =
 [
@@ -1891,6 +1897,7 @@ perfetto
 tracing
 "
 ]
+}
 }
 }
 if
