@@ -4612,21 +4612,6 @@ WebRTC
 -
 Video
 -
-BandwidthQualityScalerSettings
-'
-               
-42223115
-               
-INDEFINITE
-)
-    
-FieldTrial
-(
-'
-WebRTC
--
-Video
--
 DisableAutomaticResize
 '
                
@@ -4947,7 +4932,7 @@ str
 \
     
 '
-263c7a29291a7c4472ff60c7c3b2520f6dd5cea8
+f74a8c7f29f03ef83154393d0a7ea0b7258d7441
 '
 REGISTERED_FIELD_TRIALS
 :
