@@ -3712,6 +3712,7 @@ hb_codepoint_t
 glyph
 hb_array_t
 <
+const
 int
 >
 coords
@@ -4078,7 +4079,7 @@ has_private_points
 GlyphVariationData
 :
 :
-unpack_points
+decompile_points
 (
 p
 private_indices
@@ -4154,7 +4155,7 @@ unlikely
 GlyphVariationData
 :
 :
-unpack_deltas
+decompile_deltas
 (
 p
 x_deltas
@@ -4190,7 +4191,7 @@ unlikely
 GlyphVariationData
 :
 :
-unpack_deltas
+decompile_deltas
 (
 p
 y_deltas

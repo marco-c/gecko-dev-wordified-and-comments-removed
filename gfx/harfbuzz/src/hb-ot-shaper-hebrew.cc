@@ -111,6 +111,13 @@ if
 found
 &
 &
+(
+c
+-
+>
+plan
+&
+&
 !
 c
 -
@@ -119,6 +126,7 @@ plan
 -
 >
 has_gpos_mark
+)
 )
 {
 switch

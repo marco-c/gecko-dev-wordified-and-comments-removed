@@ -258,6 +258,14 @@ HB_NO_VAR_COMPOSITES
 endif
 #
 ifdef
+HB_NO_VAR
+#
+define
+HB_NO_VAR_COMPOSITES
+#
+endif
+#
+ifdef
 HB_DISABLE_DEPRECATED
 #
 define

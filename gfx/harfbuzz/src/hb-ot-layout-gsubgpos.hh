@@ -24999,6 +24999,9 @@ unsigned
 int
 *
 index
+ItemVarStoreInstancer
+*
+instancer
 )
 const
 {
@@ -25028,6 +25031,7 @@ find_index
 coords
 num_coords
 index
+instancer
 )
 ;
 }

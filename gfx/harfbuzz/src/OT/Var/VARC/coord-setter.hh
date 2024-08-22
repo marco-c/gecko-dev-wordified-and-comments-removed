@@ -1,12 +1,15 @@
 #
 ifndef
-OT_GLYF_COORD_SETTER_HH
+OT_VAR_VARC_COORD_SETTER_HH
 #
 define
-OT_GLYF_COORD_SETTER_HH
+OT_VAR_VARC_COORD_SETTER_HH
 #
 include
 "
+.
+.
+/
 .
 .
 /
@@ -20,9 +23,6 @@ hh
 namespace
 OT
 {
-namespace
-glyf_impl
-{
 struct
 coord_setter_t
 {
@@ -30,6 +30,7 @@ coord_setter_t
 (
 hb_array_t
 <
+const
 int
 >
 coords
@@ -58,7 +59,7 @@ unlikely
 idx
 >
 =
-HB_GLYF_VAR_COMPOSITE_MAX_AXES
+HB_VAR_COMPOSITE_MAX_AXES
 )
 )
 return
@@ -117,7 +118,6 @@ coords
 ;
 }
 ;
-}
 }
 #
 endif
