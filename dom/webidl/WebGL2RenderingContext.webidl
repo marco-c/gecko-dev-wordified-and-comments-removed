@@ -5124,7 +5124,6 @@ Objects
 *
 /
 WebGLQuery
-?
 createQuery
 (
 )
@@ -5189,7 +5188,6 @@ Objects
 *
 /
 WebGLSampler
-?
 createSampler
 (
 )
@@ -5327,7 +5325,6 @@ Feedback
 *
 /
 WebGLTransformFeedback
-?
 createTransformFeedback
 (
 )
@@ -5557,7 +5554,6 @@ Objects
 *
 /
 WebGLVertexArrayObject
-?
 createVertexArray
 (
 )

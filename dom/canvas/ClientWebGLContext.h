@@ -1002,7 +1002,7 @@ ObjectJS
 (
 const
 ClientWebGLContext
-&
+*
 )
 ;
 virtual
@@ -1242,6 +1242,7 @@ webgl
 :
 ObjectJS
 (
+&
 webgl
 )
 {
@@ -1729,7 +1730,8 @@ WebGLQueryJS
 (
 const
 ClientWebGLContext
-&
+*
+const
 webgl
 )
 :
@@ -1817,6 +1819,7 @@ webgl
 :
 ObjectJS
 (
+&
 webgl
 )
 {
@@ -1883,6 +1886,7 @@ webgl
 :
 ObjectJS
 (
+&
 webgl
 )
 {
@@ -2140,6 +2144,7 @@ webgl
 :
 ObjectJS
 (
+&
 webgl
 )
 {
@@ -2217,6 +2222,7 @@ webgl
 :
 ObjectJS
 (
+&
 webgl
 )
 {
@@ -2446,6 +2452,7 @@ webgl
 :
 ObjectJS
 (
+&
 webgl
 )
 mParent
@@ -2549,7 +2556,7 @@ WebGLVertexArrayJS
 (
 const
 ClientWebGLContext
-&
+*
 )
 ;
 private
