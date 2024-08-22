@@ -170,6 +170,17 @@ deps
 .
 /
 api
+:
+array_view
+"
+"
+.
+.
+/
+.
+.
+/
+api
 /
 audio
 :
