@@ -877,6 +877,16 @@ aOverriddenFingerprintingSettings
 )
 ;
 static
+bool
+IsSoftwareRenderingOptionExposed
+(
+JSContext
+*
+JSObject
+*
+)
+;
+static
 double
 TimerResolution
 (

@@ -705,6 +705,12 @@ ucp
 >
 CreateContentPage
 (
+nsContentUtils
+:
+:
+GetFingerprintingProtectionPrincipal
+(
+)
 getter_AddRefs
 (
 promise

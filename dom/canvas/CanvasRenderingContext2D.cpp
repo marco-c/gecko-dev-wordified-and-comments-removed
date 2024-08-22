@@ -6044,6 +6044,12 @@ mWillReadFrequently
 =
 mWillReadFrequently
 ;
+aSettings
+.
+mForceSoftwareRendering
+=
+mForceSoftwareRendering
+;
 }
 CanvasRenderingContext2D
 :
@@ -10063,6 +10069,12 @@ mWillReadFrequently
 attributes
 .
 mWillReadFrequently
+;
+mForceSoftwareRendering
+=
+attributes
+.
+mForceSoftwareRendering
 ;
 mContextAttributesHasAlpha
 =

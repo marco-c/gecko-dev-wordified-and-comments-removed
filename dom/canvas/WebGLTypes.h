@@ -1206,6 +1206,11 @@ PredefinedColorSpace
 colorSpace
 ;
 bool
+forceSoftwareRendering
+=
+false
+;
+bool
 shouldResistFingerprinting
 =
 true
@@ -1214,6 +1219,13 @@ bool
 enableDebugRendererInfo
 =
 false
+;
+PaddingField
+<
+uint8_t
+7
+>
+_padding
 ;
 auto
 MutTiedFields
@@ -1236,8 +1248,10 @@ failIfMajorPerformanceCaveat
 xrCompatible
 powerPreference
 colorSpace
+forceSoftwareRendering
 shouldResistFingerprinting
 enableDebugRendererInfo
+_padding
 )
 ;
 }
