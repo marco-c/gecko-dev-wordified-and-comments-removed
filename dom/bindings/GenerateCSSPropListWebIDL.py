@@ -47,10 +47,6 @@ dataFile
 ruleType
 interfaceName
 bindingTemplate
-extraDecls
-=
-"
-"
 )
 :
     
@@ -228,9 +224,6 @@ CSSStyleDeclaration
 \
 n
 "
-        
-+
-extraDecls
     
 )
     
@@ -684,57 +677,6 @@ CSSPageDescriptors
         
 "
 CSSPageDescriptor
-"
-        
-"
-"
-"
-\
-  
-/
-/
-TODO
-alaskanemily
-:
-bug
-1894969
-.
-  
-/
-/
-This
-is
-here
-because
-otherwise
-PutForwards
-doesn
-'
-t
-work
-on
-  
-/
-/
-CSSPageRule
-.
-style
-.
-  
-[
-CEReactions
-SetterNeedsSubjectPrincipal
-=
-NonSystem
-SetterThrows
-]
-  
-attribute
-UTF8String
-cssText
-;
-"
-"
 "
     
 )
