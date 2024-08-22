@@ -1524,7 +1524,7 @@ recurrentBias
 {
 options
 .
-bias
+recurrentBias
 =
 builder
 .
