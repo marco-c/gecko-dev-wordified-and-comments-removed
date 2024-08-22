@@ -1343,6 +1343,9 @@ controller
 nimbus
 .
 messaging
+settings
+=
+settings
 )
 MetricsMiddleware
 (
