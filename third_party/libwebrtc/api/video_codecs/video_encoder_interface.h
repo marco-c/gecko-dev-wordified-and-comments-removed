@@ -259,6 +259,8 @@ EncodeResult
 &
 result
 )
+&
+&
 >
 ;
 struct
