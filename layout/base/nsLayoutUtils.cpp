@@ -19108,6 +19108,14 @@ GetRectRelativeToSelf
 }
 if
 (
+outer
+!
+=
+mRelativeTo
+)
+{
+if
+(
 mFlags
 .
 contains
@@ -19237,6 +19245,7 @@ GetOffsetTo
 mRelativeTo
 )
 ;
+}
 }
 }
 mCallback
