@@ -94,6 +94,15 @@ June
 *
 *
 .
+NSS
+3
+.
+101
+is
+an
+ESR
+release
+.
 Distribution
 Information
 <
