@@ -3163,6 +3163,13 @@ UNIFIED_SOURCES
 =
 [
 "
+builtin
+/
+DisposableStackObject
+.
+cpp
+"
+"
 vm
 /
 DisposableRecord

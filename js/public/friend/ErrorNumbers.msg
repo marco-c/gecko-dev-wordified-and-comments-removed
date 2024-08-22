@@ -1608,7 +1608,7 @@ disabled
 )
 MSG_DEF
 (
-JSMSG_NO_DISPOSE_IN_USING
+JSMSG_DISPOSE_NOT_CALLABLE
 0
 JSEXN_TYPEERR
 "
@@ -13877,5 +13877,18 @@ while
 disposing
 an
 object
+"
+)
+MSG_DEF
+(
+JSMSG_DISPOSABLE_STACK_DISPOSED
+0
+JSEXN_REFERENCEERR
+"
+DisposableStack
+has
+already
+been
+disposed
 "
 )

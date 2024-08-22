@@ -1,0 +1,10 @@
+{
+using
+stack
+=
+new
+DisposableStack
+(
+)
+;
+}
