@@ -5033,6 +5033,16 @@ empty
 )
 ;
 void
+prepareForSweepSlice
+(
+JS
+:
+:
+GCReason
+reason
+)
+;
+void
 assertBackgroundSweepingFinished
 (
 )
