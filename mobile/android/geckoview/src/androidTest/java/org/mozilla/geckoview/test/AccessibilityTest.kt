@@ -2050,7 +2050,7 @@ aria
 -
 label
 =
-Name
+Naame
 ]
 '
 )
@@ -2144,7 +2144,7 @@ hint
 equalTo
 (
 "
-Name
+Naame
 description
 "
 )
@@ -13270,7 +13270,7 @@ aria
 -
 label
 =
-Name
+Naame
 ]
 '
 )
@@ -13322,7 +13322,7 @@ aria
 -
 label
 =
-Name
+Naame
 ]
 '
 )
