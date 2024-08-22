@@ -1447,15 +1447,6 @@ id
 /
 menuButton
 "
-app
-:
-layout_constraintStart_toEndOf
-=
-"
-id
-/
-toolbar_wrapper
-"
 /
 >
 <
