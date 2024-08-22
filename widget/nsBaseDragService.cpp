@@ -3212,7 +3212,7 @@ status
 ;
 }
 NS_IMETHODIMP
-nsBaseDragService
+nsBaseDragSession
 :
 :
 DragMoved
