@@ -2381,6 +2381,15 @@ aTime
 )
 )
 {
+mManager
+-
+>
+EvictDataWithoutSize
+(
+mType
+seekTime
+)
+;
 return
 SeekPromise
 :
