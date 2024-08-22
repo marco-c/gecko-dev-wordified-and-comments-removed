@@ -1435,7 +1435,7 @@ System
 StyleSystemColor
 :
 :
-Graytext
+Buttonface
 )
 :
 sRGBColor
