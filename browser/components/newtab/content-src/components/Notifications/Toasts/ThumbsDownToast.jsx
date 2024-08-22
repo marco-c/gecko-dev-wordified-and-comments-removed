@@ -96,7 +96,9 @@ className
 icon
 icon
 -
-dismiss
+check
+-
+filled
 icon
 -
 themed
