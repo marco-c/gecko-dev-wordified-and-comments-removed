@@ -147,6 +147,15 @@ include
 "
 mozilla
 /
+Unused
+.
+h
+"
+#
+include
+"
+mozilla
+/
 WindowsProcessMitigations
 .
 h
@@ -2067,6 +2076,9 @@ if
 spoofedWindowsVersion
 )
 {
+Unused
+<
+<
 PR_sscanf
 (
 spoofedWindowsVersion
