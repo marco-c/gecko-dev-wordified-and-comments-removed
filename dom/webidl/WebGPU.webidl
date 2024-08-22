@@ -1219,7 +1219,7 @@ DedicatedWorker
 )
 SecureContext
 ]
-interface
+namespace
 GPUBufferUsage
 {
 const
@@ -1315,7 +1315,7 @@ DedicatedWorker
 )
 SecureContext
 ]
-interface
+namespace
 GPUMapMode
 {
 const
@@ -1510,7 +1510,7 @@ DedicatedWorker
 )
 SecureContext
 ]
-interface
+namespace
 GPUTextureUsage
 {
 const
@@ -2289,7 +2289,7 @@ DedicatedWorker
 )
 SecureContext
 ]
-interface
+namespace
 GPUShaderStage
 {
 const
@@ -3233,7 +3233,7 @@ DedicatedWorker
 )
 SecureContext
 ]
-interface
+namespace
 GPUColorWrite
 {
 const
