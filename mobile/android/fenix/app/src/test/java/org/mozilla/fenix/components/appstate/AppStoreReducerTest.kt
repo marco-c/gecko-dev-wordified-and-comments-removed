@@ -225,7 +225,11 @@ AppStoreReducer
 .
 reduce
 (
+state
+=
 initialState
+action
+=
 UpdateInactiveExpanded
 (
 false
