@@ -701,7 +701,7 @@ content
 .
 openThreeDotMenu
 {
-expandMenu
+expandMenuFully
 (
 )
 }
@@ -741,7 +741,7 @@ content
 .
 openThreeDotMenu
 {
-expandMenu
+expandMenuFully
 (
 )
 }
@@ -781,7 +781,7 @@ content
 .
 openThreeDotMenu
 {
-expandMenu
+expandMenuFully
 (
 )
 }
@@ -821,7 +821,7 @@ content
 .
 openThreeDotMenu
 {
-expandMenu
+expandMenuFully
 (
 )
 }
@@ -988,7 +988,7 @@ content
 .
 openThreeDotMenu
 {
-expandMenu
+expandMenuFully
 (
 )
 }
@@ -1028,7 +1028,7 @@ content
 .
 openThreeDotMenu
 {
-expandMenu
+expandMenuFully
 (
 )
 }
@@ -1068,7 +1068,7 @@ content
 .
 openThreeDotMenu
 {
-expandMenu
+expandMenuFully
 (
 )
 }
@@ -1108,7 +1108,7 @@ content
 .
 openThreeDotMenu
 {
-expandMenu
+expandMenuFully
 (
 )
 }
@@ -1148,7 +1148,7 @@ content
 .
 openThreeDotMenu
 {
-expandMenu
+expandMenuFully
 (
 )
 }

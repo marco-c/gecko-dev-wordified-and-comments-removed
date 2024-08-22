@@ -416,7 +416,7 @@ content
 .
 openThreeDotMenu
 {
-expandMenu
+expandMenuFully
 (
 )
 verifyAddToShortcutsButton
@@ -527,7 +527,7 @@ content
 .
 openThreeDotMenu
 {
-expandMenu
+expandMenuFully
 (
 )
 verifyAddToShortcutsButton
@@ -710,7 +710,7 @@ content
 .
 openThreeDotMenu
 {
-expandMenu
+expandMenuFully
 (
 )
 verifyAddToShortcutsButton
@@ -851,7 +851,7 @@ waitForPageToLoad
 .
 openThreeDotMenu
 {
-expandMenu
+expandMenuFully
 (
 )
 verifyAddToShortcutsButton
@@ -988,7 +988,7 @@ content
 .
 openThreeDotMenu
 {
-expandMenu
+expandMenuFully
 (
 )
 verifyAddToShortcutsButton
@@ -1149,7 +1149,7 @@ content
 .
 openThreeDotMenu
 {
-expandMenu
+expandMenuFully
 (
 )
 verifyAddToShortcutsButton
