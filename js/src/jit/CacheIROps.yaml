@@ -5929,7 +5929,7 @@ CallFlagsImm
 argcFixed
 :
 UInt32Imm
-funcExport
+funcType
 :
 RawPointerField
 instance
