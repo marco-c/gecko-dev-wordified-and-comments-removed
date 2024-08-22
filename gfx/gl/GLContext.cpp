@@ -597,9 +597,6 @@ GL_ARB_compatibility
 GL_ARB_copy_buffer
 "
 "
-GL_ARB_depth_clamp
-"
-"
 GL_ARB_depth_texture
 "
 "
@@ -718,9 +715,6 @@ GL_EXT_color_buffer_half_float
 "
 "
 GL_EXT_copy_texture
-"
-"
-GL_EXT_depth_clamp
 "
 "
 GL_EXT_disjoint_timer_query
