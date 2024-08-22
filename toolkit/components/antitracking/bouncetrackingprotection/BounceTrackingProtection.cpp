@@ -1797,12 +1797,6 @@ daily
 )
 )
 {
-#
-if
-defined
-(
-EARLY_BETA_OR_EARLIER
-)
 glean_pings
 :
 :
@@ -1812,8 +1806,6 @@ Submit
 (
 )
 ;
-#
-endif
 }
 return
 NS_OK
