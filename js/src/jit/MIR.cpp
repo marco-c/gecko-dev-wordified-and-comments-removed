@@ -23642,17 +23642,6 @@ IntConversionInputKind
 :
 :
 Any
-|
-|
-conversion
-(
-)
-=
-=
-IntConversionInputKind
-:
-:
-NumbersOrBoolsOnly
 )
 {
 return

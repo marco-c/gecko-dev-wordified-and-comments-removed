@@ -20887,15 +20887,6 @@ IntConversionInputKind
 :
 :
 Any
-|
-|
-conversion
-=
-=
-IntConversionInputKind
-:
-:
-NumbersOrBoolsOnly
 )
 {
 branchTestBoolean

@@ -1699,7 +1699,6 @@ class
 IntConversionInputKind
 {
 NumbersOnly
-NumbersOrBoolsOnly
 Any
 }
 ;
