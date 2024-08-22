@@ -3420,13 +3420,6 @@ DefaultBrowserToolbarController
 store
 =
 store
-appStore
-=
-context
-.
-components
-.
-appStore
 tabsUseCases
 =
 requireComponents

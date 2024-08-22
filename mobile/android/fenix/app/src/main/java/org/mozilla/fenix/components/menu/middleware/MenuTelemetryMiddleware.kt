@@ -818,16 +818,6 @@ quit
 MenuAction
 .
 InitAction
-is
-MenuAction
-.
-InstallAddon
-is
-MenuAction
-.
-Navigate
-.
-AddonDetails
 MenuAction
 .
 Navigate
@@ -862,10 +852,6 @@ is
 MenuAction
 .
 UpdateBookmarkState
-is
-MenuAction
-.
-UpdateExtensionState
 is
 MenuAction
 .
