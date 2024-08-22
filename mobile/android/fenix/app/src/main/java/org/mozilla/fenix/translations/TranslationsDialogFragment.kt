@@ -415,6 +415,16 @@ fenix
 .
 ext
 .
+runIfFragmentIsAttached
+import
+org
+.
+mozilla
+.
+fenix
+.
+ext
+.
 settings
 import
 org
@@ -669,6 +679,8 @@ apply
 {
 setOnShowListener
 {
+runIfFragmentIsAttached
+{
 val
 bottomSheet
 =
@@ -729,6 +741,7 @@ behavior
 hideFriction
 =
 DIALOG_FRICTION
+}
 }
 }
 Suppress

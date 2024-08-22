@@ -405,6 +405,16 @@ mozilla
 .
 fenix
 .
+ext
+.
+navigateSafe
+import
+org
+.
+mozilla
+.
+fenix
+.
 settings
 .
 SupportUtils
@@ -1242,7 +1252,7 @@ Translate
 >
 navController
 .
-nav
+navigateSafe
 (
 R
 .
