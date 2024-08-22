@@ -696,6 +696,9 @@ virtual
 nsresult
 InvokeDragSessionImpl
 (
+nsIWidget
+*
+aWidget
 nsIArray
 *
 anArrayTransferables
@@ -749,6 +752,9 @@ override
 NS_IMETHOD
 StartDragSession
 (
+nsISupports
+*
+aWidgetProvider
 )
 override
 ;

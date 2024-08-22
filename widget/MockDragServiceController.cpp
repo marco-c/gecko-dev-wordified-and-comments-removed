@@ -100,6 +100,9 @@ MOZ_CAN_RUN_SCRIPT
 nsresult
 InvokeDragSessionImpl
 (
+nsIWidget
+*
+aWidget
 nsIArray
 *
 aTransferableArray
@@ -127,6 +130,7 @@ DRAGDROP_ACTION_MOVE
 ;
 StartDragSession
 (
+aWidget
 )
 ;
 return
@@ -687,6 +691,7 @@ ds
 >
 StartDragSession
 (
+widget
 )
 ;
 }

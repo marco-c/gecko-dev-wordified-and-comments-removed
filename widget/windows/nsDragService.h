@@ -176,6 +176,9 @@ virtual
 nsresult
 InvokeDragSessionImpl
 (
+nsIWidget
+*
+aWidget
 nsIArray
 *
 anArrayTransferables
@@ -211,6 +214,9 @@ MOZ_CAN_RUN_SCRIPT
 nsresult
 StartInvokingDragSession
 (
+nsIWidget
+*
+aWidget
 IDataObject
 *
 aDataObj

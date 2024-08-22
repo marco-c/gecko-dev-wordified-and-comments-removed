@@ -862,6 +862,9 @@ nsDragService
 :
 InvokeDragSessionImpl
 (
+nsIWidget
+*
+aWidget
 nsIArray
 *
 anArrayTransferables
@@ -1171,6 +1174,7 @@ Release
 return
 StartInvokingDragSession
 (
+aWidget
 itemToDrag
 aActionType
 )
@@ -1261,6 +1265,9 @@ nsDragService
 :
 StartInvokingDragSession
 (
+nsIWidget
+*
+aWidget
 IDataObject
 *
 aDataObj
@@ -1337,6 +1344,7 @@ false
 ;
 StartDragSession
 (
+aWidget
 )
 ;
 OpenDragPopup

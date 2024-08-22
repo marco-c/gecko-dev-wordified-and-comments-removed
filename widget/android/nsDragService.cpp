@@ -311,6 +311,9 @@ nsDragService
 :
 InvokeDragSessionImpl
 (
+nsIWidget
+*
+aWidget
 nsIArray
 *
 aTransferableArray
@@ -443,6 +446,7 @@ nsBaseDragService
 :
 StartDragSession
 (
+aWidget
 )
 ;
 OpenDragPopup
