@@ -472,15 +472,3 @@ disabledForTesting
 true
 )
 ;
-user_pref
-(
-"
-javascript
-.
-options
-.
-asyncstack_capture_debuggee_only
-"
-false
-)
-;
