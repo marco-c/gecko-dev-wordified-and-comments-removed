@@ -3980,6 +3980,9 @@ cookiesOversize
 "
 cookieSameSite
 "
+"
+cookieInvalidAttribute
+"
 ]
 .
 includes
