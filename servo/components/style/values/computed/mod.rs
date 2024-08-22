@@ -969,6 +969,7 @@ svg
 SVGPaintOrder
 SVGStrokeDashArray
 SVGWidth
+VectorEffect
 }
 ;
 pub

@@ -3528,6 +3528,10 @@ UserSelect
 "
                 
 "
+VectorEffect
+"
+                
+"
 WordBreak
 "
                 

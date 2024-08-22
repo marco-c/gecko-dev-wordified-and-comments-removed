@@ -79,6 +79,7 @@ specified
 DProperty
 MozContextProperties
 SVGPaintOrder
+VectorEffect
 }
 ;
 pub
