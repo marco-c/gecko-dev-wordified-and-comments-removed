@@ -1241,8 +1241,6 @@ const
 nsACString
 &
 aHost
-bool
-aMailnews
 nsACString
 &
 aResult
