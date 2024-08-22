@@ -15,6 +15,11 @@ browser
 '
 "
 ]
+tags
+=
+"
+os_integration
+"
 [
 "
 test_refresh_firefox
