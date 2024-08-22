@@ -834,10 +834,7 @@ cycle
 "
 Cycle
 "
-"
-click
-ancestor
-"
+clickAncestor
 :
 "
 Click
