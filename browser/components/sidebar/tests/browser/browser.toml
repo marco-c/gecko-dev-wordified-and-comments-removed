@@ -109,6 +109,13 @@ js
 ]
 [
 "
+browser_sidebar_panel_switcher
+.
+js
+"
+]
+[
+"
 browser_sidebar_prefs
 .
 js
