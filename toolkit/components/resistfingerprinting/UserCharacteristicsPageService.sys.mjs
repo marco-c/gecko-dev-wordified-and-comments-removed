@@ -937,7 +937,6 @@ shutdown
 }
 createContentPage
 (
-principal
 )
 {
 lazy
@@ -1088,6 +1087,17 @@ set
 (
 browser
 resolve
+)
+;
+let
+principal
+=
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
 )
 ;
 let

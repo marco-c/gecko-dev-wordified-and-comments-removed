@@ -1015,10 +1015,6 @@ gfx
 :
 SurfaceFormat
 aFormat
-bool
-aRequireSoftwareRender
-=
-false
 )
 ;
 already_AddRefed

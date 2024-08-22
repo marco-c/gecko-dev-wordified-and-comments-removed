@@ -4093,7 +4093,7 @@ font
 ;
 }
 bool
-UseSoftwareRendering
+GetEffectiveWillReadFrequently
 (
 )
 const
@@ -4165,11 +4165,6 @@ true
 ;
 bool
 mWillReadFrequently
-=
-false
-;
-bool
-mForceSoftwareRendering
 =
 false
 ;
