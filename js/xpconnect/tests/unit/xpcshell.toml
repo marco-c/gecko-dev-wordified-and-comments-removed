@@ -1377,6 +1377,16 @@ json_parse_with_source
 true
 "
 ]
+skip
+-
+if
+=
+[
+"
+!
+nightly_build
+"
+]
 [
 "
 test_loadedESModules
