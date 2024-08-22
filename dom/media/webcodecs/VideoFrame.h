@@ -208,10 +208,10 @@ struct
 VideoFrameBufferInit
 ;
 struct
-VideoFrameInit
+VideoFrameCopyToOptions
 ;
 struct
-VideoFrameCopyToOptions
+VideoFrameInit
 ;
 }
 }
