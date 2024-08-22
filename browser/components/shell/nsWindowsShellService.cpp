@@ -8586,6 +8586,7 @@ PinCurrentAppToTaskbarWin11
 (
 aCheckOnly
 aAppUserModelId
+shortcutPath
 )
 ;
 switch
