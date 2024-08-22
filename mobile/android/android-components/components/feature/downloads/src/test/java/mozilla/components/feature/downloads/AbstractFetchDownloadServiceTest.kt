@@ -11526,6 +11526,10 @@ notificationsDelegate
 }
 )
 val
+append
+=
+true
+val
 uniqueFile
 :
 DownloadState
@@ -11584,6 +11588,10 @@ eq
 (
 uniqueFile
 )
+eq
+(
+append
+)
 any
 (
 )
@@ -11608,7 +11616,7 @@ useFileStream
 mock
 (
 )
-true
+append
 )
 {
 }
@@ -11622,6 +11630,10 @@ useFileStreamScopedStorage
 eq
 (
 uniqueFile
+)
+eq
+(
+append
 )
 any
 (
