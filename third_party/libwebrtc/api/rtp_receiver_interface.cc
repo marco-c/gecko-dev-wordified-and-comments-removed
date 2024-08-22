@@ -138,7 +138,7 @@ void
 RtpReceiverInterface
 :
 :
-SetDepacketizerToDecoderFrameTransformer
+SetFrameTransformer
 (
 rtc
 :

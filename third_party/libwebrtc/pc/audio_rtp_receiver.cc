@@ -1512,7 +1512,7 @@ void
 AudioRtpReceiver
 :
 :
-SetDepacketizerToDecoderFrameTransformer
+SetFrameTransformer
 (
 rtc
 :

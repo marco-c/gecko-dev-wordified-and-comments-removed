@@ -172,7 +172,7 @@ GetFrameDecryptor
 PROXY_SECONDARY_METHOD1
 (
 void
-SetDepacketizerToDecoderFrameTransformer
+SetFrameTransformer
 rtc
 :
 :

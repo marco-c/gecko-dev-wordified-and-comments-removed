@@ -639,7 +639,7 @@ attachment_id_
 ;
 }
 void
-SetDepacketizerToDecoderFrameTransformer
+SetFrameTransformer
 (
 rtc
 :

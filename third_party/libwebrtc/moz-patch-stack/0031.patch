@@ -2684,10 +2684,10 @@ rtp_sender_interface
 .
 h
 index
-7b8ab135c8
+7d92c42a18
 .
 .
-7090c233cd
+98591c6c99
 100644
 -
 -
@@ -2710,10 +2710,10 @@ rtp_sender_interface
 .
 h
 -
-32
+34
 9
 +
-32
+34
 9
 #
 include
@@ -2781,9 +2781,9 @@ webrtc
 :
 :
 RefCountInterface
-{
 public
-:
+FrameTransformerHost
+{
 diff
 -
 -
