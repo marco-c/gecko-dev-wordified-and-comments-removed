@@ -84,13 +84,6 @@ js
 ]
 [
 "
-test_QuarantinedDomains_telemetry
-.
-js
-"
-]
-[
-"
 test_change_backgroundServiceWorker_enabled_pref_false
 .
 js
