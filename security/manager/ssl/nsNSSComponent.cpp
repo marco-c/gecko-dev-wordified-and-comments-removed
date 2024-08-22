@@ -43,6 +43,13 @@ h
 #
 include
 "
+PKCS11ModuleDB
+.
+h
+"
+#
+include
+"
 SSLTokensCache
 .
 h
@@ -3094,6 +3101,10 @@ osClientCertsModule
 SECMOD_FindModule
 (
 kOSClientCertsModuleName
+.
+get
+(
+)
 )
 )
 ;

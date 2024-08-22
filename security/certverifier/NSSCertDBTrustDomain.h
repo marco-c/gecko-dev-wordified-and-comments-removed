@@ -202,12 +202,6 @@ nsCString
 dir
 )
 ;
-extern
-const
-char
-*
-kOSClientCertsModuleName
-;
 bool
 LoadIPCClientCertsModule
 (
@@ -216,12 +210,6 @@ nsCString
 &
 dir
 )
-;
-extern
-const
-char
-*
-kIPCClientCertsModuleName
 ;
 void
 UnloadUserModules
