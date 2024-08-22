@@ -14017,10 +14017,6 @@ libspeex_resampler
 /
 media
 /
-libtheora
-/
-media
-/
 libvorbis
 /
 media
@@ -14045,10 +14041,6 @@ media
 mp4parse
 -
 rust
-/
-media
-/
-openmax_dl
 /
 media
 /
