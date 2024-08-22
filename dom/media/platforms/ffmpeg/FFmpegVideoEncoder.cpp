@@ -4254,6 +4254,13 @@ IsEmpty
 )
 )
 ;
+MOZ_ASSERT
+(
+SvcEnabled
+(
+)
+)
+;
 CodecType
 codecType
 =
