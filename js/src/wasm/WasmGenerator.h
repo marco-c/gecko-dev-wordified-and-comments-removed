@@ -791,6 +791,9 @@ sharedStubsCodeBlock_
 MutableCodeMetadataForAsmJS
 codeMetaForAsmJS_
 ;
+FeatureUsage
+featureUsage_
+;
 UniqueCodeBlock
 codeBlock_
 ;

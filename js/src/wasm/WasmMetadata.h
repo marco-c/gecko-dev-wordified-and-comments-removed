@@ -405,6 +405,9 @@ dataSegments
 CustomSectionVector
 customSections
 ;
+FeatureUsage
+featureUsage
+;
 explicit
 ModuleMetadata
 (
@@ -515,9 +518,6 @@ tagsOffsetStart
 ;
 uint32_t
 instanceDataLength
-;
-FeatureUsage
-featureUsage
 ;
 bool
 filenameIsURL
@@ -630,13 +630,6 @@ UINT32_MAX
 instanceDataLength
 (
 0
-)
-featureUsage
-(
-FeatureUsage
-:
-:
-None
 )
 filenameIsURL
 (
