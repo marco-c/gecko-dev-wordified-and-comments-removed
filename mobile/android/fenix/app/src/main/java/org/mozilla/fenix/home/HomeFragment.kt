@@ -4161,7 +4161,7 @@ R
 .
 string
 .
-navbar_cfr_message
+navbar_cfr_message_2
 )
 color
 =
