@@ -203,6 +203,13 @@ css
 ]
 [
 "
+browser_search_telemetry_adblock_count
+.
+js
+"
+]
+[
+"
 browser_search_telemetry_categorization_timing
 .
 js
