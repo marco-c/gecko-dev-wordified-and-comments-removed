@@ -435,17 +435,6 @@ SocketAddress
 &
 remote_address
 const
-ProxyInfo
-&
-proxy_info
-const
-std
-:
-:
-string
-&
-user_agent
-const
 PacketSocketTcpOptions
 &
 tcp_options

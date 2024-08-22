@@ -93,15 +93,6 @@ const
 SocketAddress
 &
 const
-ProxyInfo
-&
-const
-std
-:
-:
-string
-&
-const
 PacketSocketTcpOptions
 &
 )
