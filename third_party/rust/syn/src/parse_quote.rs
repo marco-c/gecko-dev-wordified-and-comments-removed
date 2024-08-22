@@ -2,7 +2,7 @@
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -76,7 +76,7 @@ tt
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -158,6 +158,15 @@ use
 crate
 :
 :
+error
+:
+:
+Result
+;
+use
+crate
+:
+:
 parse
 :
 :
@@ -165,7 +174,6 @@ parse
 Parse
 ParseStream
 Parser
-Result
 }
 ;
 use
@@ -180,6 +188,10 @@ doc
 (
 hidden
 )
+]
+#
+[
+track_caller
 ]
 pub
 fn

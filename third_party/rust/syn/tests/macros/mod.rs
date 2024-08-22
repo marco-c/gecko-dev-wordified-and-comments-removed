@@ -567,6 +567,13 @@ pub
 trait
 TryIntoTokens
 {
+#
+[
+allow
+(
+dead_code
+)
+]
 fn
 try_into_tokens
 (

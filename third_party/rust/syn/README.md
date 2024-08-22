@@ -823,7 +823,7 @@ supports
 rustc
 1
 .
-56
+61
 and
 up
 .

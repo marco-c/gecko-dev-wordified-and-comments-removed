@@ -25,6 +25,13 @@ pub
 struct
 ident
 {
+#
+[
+allow
+(
+dead_code
+)
+]
 pub
 span
 :

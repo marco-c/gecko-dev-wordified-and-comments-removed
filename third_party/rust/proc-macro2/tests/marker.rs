@@ -133,6 +133,13 @@ that
 implement
 marker
 .
+#
+[
+allow
+(
+dead_code
+)
+]
 trait
 IsNotImplemented
 {

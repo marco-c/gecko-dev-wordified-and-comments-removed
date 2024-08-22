@@ -23,6 +23,10 @@ syn
 :
 Result
 ;
+#
+[
+track_caller
+]
 fn
 parse
 (
@@ -56,6 +60,10 @@ unwrap
 )
 )
 }
+#
+[
+track_caller
+]
 fn
 new
 (

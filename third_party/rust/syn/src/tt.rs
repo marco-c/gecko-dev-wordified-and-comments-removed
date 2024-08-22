@@ -523,7 +523,7 @@ h
 )
 ;
 }
-0xffu8
+0xFFu8
 .
 hash
 (
