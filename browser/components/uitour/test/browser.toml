@@ -190,6 +190,11 @@ on
 OS
 X
 .
+tags
+=
+"
+os_integration
+"
 [
 "
 browser_UITour_observe
@@ -532,6 +537,11 @@ browser_fxa
 js
 "
 ]
+tags
+=
+"
+os_integration
+"
 [
 "
 browser_fxa_config

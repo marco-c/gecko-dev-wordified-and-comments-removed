@@ -26,6 +26,11 @@ appdir
 "
 browser
 "
+tags
+=
+"
+os_integration
+"
 [
 "
 test_badMIMEType

@@ -231,6 +231,11 @@ browser_media_control_before_media_starts
 js
 "
 ]
+tags
+=
+"
+os_integration
+"
 [
 "
 browser_media_control_captured_audio

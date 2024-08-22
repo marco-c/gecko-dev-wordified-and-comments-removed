@@ -85,6 +85,11 @@ menubar
 behavior
 with
 keyboard
+tags
+=
+"
+os_integration
+"
 [
 "
 browser_bug1754298

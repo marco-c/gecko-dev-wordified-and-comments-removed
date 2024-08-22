@@ -8013,6 +8013,7 @@ tags
 =
 "
 cloneelementvisually
+os_integration
 "
 [
 "
@@ -8153,6 +8154,11 @@ scheme
 =
 "
 https
+"
+tags
+=
+"
+os_integration
 "
 [
 "
@@ -8758,6 +8764,11 @@ macOS
 -
 specific
 .
+tags
+=
+"
+os_integration
+"
 [
 "
 test_video_to_canvas

@@ -261,6 +261,11 @@ browser_bookmark_copy_folder_tree
 js
 "
 ]
+tags
+=
+"
+os_integration
+"
 [
 "
 browser_bookmark_current_tabs

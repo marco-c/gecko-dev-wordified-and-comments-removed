@@ -5,6 +5,11 @@ head
 =
 "
 "
+tags
+=
+"
+os_integration
+"
 [
 "
 test_JumpListBuilder_obtainAndCacheFaviconAsync

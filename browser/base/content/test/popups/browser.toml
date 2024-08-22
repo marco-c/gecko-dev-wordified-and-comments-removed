@@ -22,6 +22,11 @@ as
 dummy
 file
 ]
+tags
+=
+"
+os_integration
+"
 [
 "
 browser_popupUI

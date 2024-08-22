@@ -1,6 +1,11 @@
 [
 DEFAULT
 ]
+tags
+=
+"
+os_integration
+"
 [
 "
 test_TaskScheduler

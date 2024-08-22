@@ -216,6 +216,11 @@ browser_glean_first_frame_loaded_time
 js
 "
 ]
+tags
+=
+"
+os_integration
+"
 [
 "
 browser_tab_visibility_and_play_time

@@ -46,6 +46,11 @@ image_server
 sjs
 "
 ]
+tags
+=
+"
+os_integration
+"
 #
 Synchronous
 tests

@@ -23,6 +23,11 @@ closedTabsFromClosedWindows
 true
 "
 ]
+tags
+=
+"
+os_integration
+"
 [
 "
 browser_file_close_tabs

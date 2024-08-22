@@ -644,6 +644,11 @@ test_backends
 html
 "
 ]
+tags
+=
+"
+os_integration
+"
 [
 "
 test_canvas_size
@@ -937,6 +942,11 @@ wayland
 '
 "
 ]
+tags
+=
+"
+os_integration
+"
 [
 "
 test_sab_with_webgl

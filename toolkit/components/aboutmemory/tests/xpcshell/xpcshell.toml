@@ -19,6 +19,11 @@ win
 '
 "
 ]
+tags
+=
+"
+os_integration
+"
 [
 "
 test_gpuprocess

@@ -184,6 +184,11 @@ test_audiocontrols_fullscreen
 html
 "
 ]
+tags
+=
+"
+os_integration
+"
 [
 "
 test_bug898940
@@ -224,6 +229,11 @@ Mac
 only
 feature
 .
+tags
+=
+"
+os_integration
+"
 [
 "
 test_image_recognition_unsupported
@@ -290,6 +300,11 @@ support
 multilingual
 results
 .
+tags
+=
+"
+os_integration
+"
 [
 "
 test_mousecapture_area
@@ -297,6 +312,11 @@ test_mousecapture_area
 html
 "
 ]
+tags
+=
+"
+os_integration
+"
 [
 "
 test_nac_mutations
@@ -406,6 +426,7 @@ tags
 =
 "
 fullscreen
+os_integration
 "
 skip
 -
@@ -446,6 +467,11 @@ test_videocontrols_audio
 html
 "
 ]
+tags
+=
+"
+os_integration
+"
 [
 "
 test_videocontrols_audio_direction

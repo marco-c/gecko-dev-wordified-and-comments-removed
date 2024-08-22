@@ -141,6 +141,11 @@ runs
 too
 long
 ]
+tags
+=
+"
+os_integration
+"
 [
 "
 browser_about_settings

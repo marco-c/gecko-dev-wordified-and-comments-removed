@@ -52,6 +52,11 @@ common
 js
 "
 ]
+tags
+=
+"
+os_integration
+"
 [
 "
 browser_aboutwelcome_behavior
