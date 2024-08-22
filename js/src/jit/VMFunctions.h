@@ -3063,6 +3063,13 @@ double
 d
 )
 ;
+float
+Float16ToFloat32
+(
+int32_t
+value
+)
+;
 JSAtom
 *
 AtomizeStringNoGC

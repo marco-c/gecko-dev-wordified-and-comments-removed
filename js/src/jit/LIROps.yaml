@@ -7215,7 +7215,7 @@ index
 WordSized
 num_temps
 :
-1
+2
 mir_op
 :
 true
@@ -7251,6 +7251,9 @@ WordSized
 length
 :
 WordSized
+num_temps
+:
+1
 mir_op
 :
 true
