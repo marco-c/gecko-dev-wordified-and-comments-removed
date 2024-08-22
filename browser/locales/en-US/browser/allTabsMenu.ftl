@@ -124,6 +124,8 @@ menu
 -
 close
 -
+all
+-
 duplicate
 -
 tabs
@@ -132,5 +134,6 @@ tabs
 label
 =
 Close
+all
 duplicate
 tabs
