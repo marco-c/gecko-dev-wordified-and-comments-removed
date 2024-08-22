@@ -3866,7 +3866,7 @@ libjxl_minor_version
 10
 libjxl_patch_version
 =
-2
+3
 libjxl_public_headers
 =
 [
