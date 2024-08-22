@@ -654,12 +654,6 @@ true
 field_trials
 =
 "
-WebRTC
--
-SendPacketsOnWorkerThread
-/
-Enabled
-/
 "
 .
 test_case_name_postfix
