@@ -802,7 +802,7 @@ codeMeta
 (
 )
 .
-debugFuncType
+getFuncType
 (
 funcIndex
 (

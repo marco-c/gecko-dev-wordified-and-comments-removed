@@ -2810,6 +2810,10 @@ initialize
 CompileMode
 mode
 const
+CodeMetadata
+&
+codeMeta
+const
 CodeBlock
 &
 sharedStubs

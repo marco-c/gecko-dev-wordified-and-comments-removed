@@ -1831,7 +1831,7 @@ codeMeta
 (
 )
 .
-debugNumFuncs
+numFuncs
 (
 )
 ;
@@ -2155,7 +2155,7 @@ codeMeta
 (
 )
 .
-debugFuncType
+getFuncType
 (
 funcIndex
 )

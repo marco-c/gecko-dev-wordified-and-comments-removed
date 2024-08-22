@@ -14548,7 +14548,7 @@ codeMeta
 (
 )
 .
-debugNumFuncs
+numFuncs
 (
 )
 ;
