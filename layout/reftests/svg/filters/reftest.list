@@ -632,7 +632,7 @@ fuzzy
 -
 if
 (
-ggfxSVGFEGaussianBlur
+gfxSVGFEGaussianBlur
 0
 -
 4
