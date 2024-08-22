@@ -305,6 +305,9 @@ yet
 supported
 on
 windows
+-
+Bug
+1867328
 "
 os
 =
@@ -319,6 +322,9 @@ yet
 supported
 on
 android
+-
+Bug
+1904639
 ]
 #
 Native
