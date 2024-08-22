@@ -1930,11 +1930,6 @@ mProcessedTime
 0
 ;
 GraphTime
-mIterationEndTime
-=
-0
-;
-GraphTime
 mEndTime
 ;
 TimeStamp
