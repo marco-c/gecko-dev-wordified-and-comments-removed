@@ -2282,6 +2282,14 @@ libjingle_peerconnection_api
 /
 api
 :
+rtc_error
+"
+"
+.
+.
+/
+api
+:
 rtp_parameters
 "
 "
