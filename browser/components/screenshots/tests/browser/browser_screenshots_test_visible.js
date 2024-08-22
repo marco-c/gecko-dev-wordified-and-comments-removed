@@ -2151,6 +2151,13 @@ triggerUIFromToolbar
 (
 )
 ;
+await
+helper
+.
+waitForOverlay
+(
+)
+;
 let
 panel
 =
