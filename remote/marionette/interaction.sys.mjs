@@ -4241,6 +4241,19 @@ getContainer
 el
 )
 ;
+if
+(
+!
+lazy
+.
+dom
+.
+isInView
+(
+containerEl
+)
+)
+{
 lazy
 .
 dom
@@ -4250,6 +4263,7 @@ scrollIntoView
 containerEl
 )
 ;
+}
 /
 /
 TODO
