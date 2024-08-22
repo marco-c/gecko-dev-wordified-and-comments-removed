@@ -763,6 +763,20 @@ LICENSE
 ]
     
 '
+perfetto
+'
+:
+[
+'
+third_party
+/
+perfetto
+/
+LICENSE
+'
+]
+    
+'
 android_deps
 '
 :
