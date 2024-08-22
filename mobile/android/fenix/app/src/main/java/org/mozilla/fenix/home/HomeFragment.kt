@@ -4577,7 +4577,7 @@ searchFragmentAlreadyAdded
 &
 !
 searchFragmentShouldBeAdded
-composeView
+toolbarContainerView
 .
 isVisible
 =
