@@ -2007,13 +2007,6 @@ name
 "
 navbar_cfr_title
 "
-tools
-:
-ignore
-=
-"
-UnusedResources
-"
 >
 Browse
 faster
@@ -2053,13 +2046,6 @@ name
 =
 "
 navbar_cfr_message
-"
-tools
-:
-ignore
-=
-"
-UnusedResources
 "
 >
 This

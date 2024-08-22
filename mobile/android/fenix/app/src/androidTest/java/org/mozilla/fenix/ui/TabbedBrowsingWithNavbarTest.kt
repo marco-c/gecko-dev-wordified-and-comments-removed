@@ -248,6 +248,11 @@ it
 isNavigationToolbarEnabled
 =
 true
+it
+.
+isNavigationBarCFREnabled
+=
+false
 }
 val
 genericURL
@@ -622,6 +627,11 @@ it
 isNavigationToolbarEnabled
 =
 true
+it
+.
+isNavigationBarCFREnabled
+=
+false
 }
 val
 defaultWebPage
@@ -818,6 +828,11 @@ it
 isNavigationToolbarEnabled
 =
 true
+it
+.
+isNavigationBarCFREnabled
+=
+false
 }
 val
 defaultWebPage
@@ -929,6 +944,11 @@ it
 isNavigationToolbarEnabled
 =
 true
+it
+.
+isNavigationBarCFREnabled
+=
+false
 }
 val
 defaultWebPage
