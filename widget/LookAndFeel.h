@@ -829,15 +829,6 @@ DoHandleGlobalThemeChange
 ;
 }
 }
-static
-nsresult
-GetKeyboardLayout
-(
-nsACString
-&
-aLayout
-)
-;
 protected
 :
 static

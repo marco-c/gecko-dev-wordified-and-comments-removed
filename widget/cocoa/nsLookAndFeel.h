@@ -118,15 +118,6 @@ RecordAccessibilityTelemetry
 )
 ;
 }
-nsresult
-GetKeyboardLayoutImpl
-(
-nsACString
-&
-aLayout
-)
-override
-;
 static
 void
 RecordAccessibilityTelemetry
