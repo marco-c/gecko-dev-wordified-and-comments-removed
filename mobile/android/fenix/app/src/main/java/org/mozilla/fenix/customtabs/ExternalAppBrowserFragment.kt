@@ -803,9 +803,7 @@ ToolbarPosition
 BOTTOM
 bottomToolbarContainerView
 .
-composeView
-.
-setContent
+updateContent
 {
 FirefoxTheme
 {

@@ -3834,7 +3834,7 @@ homeLayout
 hideOnScroll
 =
 false
-composableContent
+content
 =
 {
 FirefoxTheme
@@ -4740,7 +4740,7 @@ parent
 binding
 .
 homeLayout
-composableContent
+content
 =
 {
 FirefoxTheme

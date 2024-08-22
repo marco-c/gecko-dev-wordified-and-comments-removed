@@ -564,7 +564,7 @@ context
 parent
 =
 this
-composableContent
+content
 =
 {
 FirefoxTheme

@@ -7899,7 +7899,7 @@ isToolbarDynamic
 (
 context
 )
-composableContent
+content
 =
 {
 FirefoxTheme
@@ -8623,7 +8623,7 @@ isToolbarDynamic
 (
 context
 )
-composableContent
+content
 =
 {
 FirefoxTheme
