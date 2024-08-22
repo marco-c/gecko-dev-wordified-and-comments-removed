@@ -93388,7 +93388,7 @@ type
 RelaxedAtomicBool
 value
 :
-IS_NIGHTLY_BUILD
+IS_EARLY_BETA_OR_EARLIER
 mirror
 :
 always
@@ -93405,7 +93405,7 @@ type
 RelaxedAtomicBool
 value
 :
-IS_NIGHTLY_BUILD
+IS_EARLY_BETA_OR_EARLIER
 mirror
 :
 always
@@ -93422,7 +93422,7 @@ type
 RelaxedAtomicBool
 value
 :
-IS_NIGHTLY_BUILD
+IS_EARLY_BETA_OR_EARLIER
 mirror
 :
 always
