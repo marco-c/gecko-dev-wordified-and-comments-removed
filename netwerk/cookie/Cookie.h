@@ -287,13 +287,6 @@ path
 )
 ;
 }
-const
-nsCString
-&
-GetFilePath
-(
-)
-;
 inline
 int64_t
 Expiry
@@ -723,9 +716,6 @@ mData
 ;
 OriginAttributes
 mOriginAttributes
-;
-nsCString
-mFilePathCache
 ;
 }
 ;
