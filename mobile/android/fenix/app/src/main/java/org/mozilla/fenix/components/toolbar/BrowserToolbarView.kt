@@ -1390,10 +1390,6 @@ isDynamicToolbarEnabled
 &
 &
 !
-isPwaTabOrTwaTab
-&
-&
-!
 settings
 .
 shouldUseFixedTopToolbar
