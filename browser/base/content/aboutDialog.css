@@ -757,6 +757,10 @@ grid
 #
 updateIcon
 {
+display
+:
+none
+;
 align
 -
 self
@@ -826,6 +830,10 @@ inline
 .
 noUpdatesFound
 {
+display
+:
+block
+;
 content
 :
 url
@@ -857,6 +865,10 @@ fill
 .
 apply
 {
+display
+:
+block
+;
 content
 :
 url
@@ -893,6 +905,10 @@ applying
 restarting
 )
 {
+display
+:
+block
+;
 content
 :
 url
