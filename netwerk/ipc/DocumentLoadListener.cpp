@@ -8899,6 +8899,15 @@ aWhere
 nsIBrowserDOMWindow
 :
 :
+OPEN_NEWTAB_FOREGROUND
+|
+|
+aWhere
+=
+=
+nsIBrowserDOMWindow
+:
+:
 OPEN_NEWWINDOW
 "
 Unsupported
