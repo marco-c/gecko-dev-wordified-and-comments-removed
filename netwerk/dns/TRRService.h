@@ -501,7 +501,13 @@ CheckCaptivePortalIsPassed
 ;
 static
 bool
-GetParentalControlEnabledInternal
+GetParentalControlsEnabledInternal
+(
+)
+;
+static
+bool
+ReloadParentalControlsEnabled
 (
 )
 ;

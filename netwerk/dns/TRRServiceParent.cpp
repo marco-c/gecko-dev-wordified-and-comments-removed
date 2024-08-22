@@ -305,7 +305,7 @@ parentalControlEnabled
 TRRService
 :
 :
-GetParentalControlEnabledInternal
+GetParentalControlsEnabledInternal
 (
 )
 ;
@@ -715,7 +715,7 @@ void
 TRRServiceParent
 :
 :
-UpdateParentalControlEnabled
+ReloadParentalControlsEnabled
 (
 )
 {
@@ -725,7 +725,7 @@ enabled
 TRRService
 :
 :
-GetParentalControlEnabledInternal
+ReloadParentalControlsEnabled
 (
 )
 ;

@@ -75,7 +75,7 @@ Init
 )
 ;
 void
-UpdateParentalControlEnabled
+ReloadParentalControlsEnabled
 (
 )
 ;
