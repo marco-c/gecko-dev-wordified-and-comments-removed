@@ -804,6 +804,16 @@ Document
 document
 )
 ;
+InspectorCSSPropertyDefinition
+?
+getCSSRegisteredProperty
+(
+Document
+document
+UTF8String
+name
+)
+;
 boolean
 valueMatchesSyntax
 (

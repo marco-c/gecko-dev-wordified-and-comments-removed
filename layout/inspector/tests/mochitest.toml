@@ -321,6 +321,13 @@ html
 ]
 [
 "
+test_getRegisteredCustomProperty
+.
+html
+"
+]
+[
+"
 test_getRelativeRuleLine
 .
 html
