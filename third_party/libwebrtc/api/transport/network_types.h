@@ -152,6 +152,15 @@ absl
 :
 optional
 <
+bool
+>
+initial_probe_to_max_bitrate
+;
+absl
+:
+:
+optional
+<
 double
 >
 pacing_factor
