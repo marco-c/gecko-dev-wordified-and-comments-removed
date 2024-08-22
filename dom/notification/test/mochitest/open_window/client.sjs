@@ -346,9 +346,11 @@ tests
 /
 dom
 /
-serviceworkers
+notification
 /
 test
+/
+mochitest
 /
 open_window
 /
