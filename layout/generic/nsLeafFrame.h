@@ -52,7 +52,6 @@ aLists
 )
 override
 ;
-virtual
 nscoord
 GetMinISize
 (
@@ -62,7 +61,6 @@ aRenderingContext
 )
 override
 ;
-virtual
 nscoord
 GetPrefISize
 (
@@ -124,7 +122,6 @@ aFlags
 )
 override
 ;
-virtual
 void
 Reflow
 (
@@ -172,18 +169,6 @@ virtual
 ~
 nsLeafFrame
 (
-)
-;
-void
-SizeToAvailSize
-(
-const
-ReflowInput
-&
-aReflowInput
-ReflowOutput
-&
-aDesiredSize
 )
 ;
 }
