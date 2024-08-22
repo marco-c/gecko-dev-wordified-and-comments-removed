@@ -3296,7 +3296,6 @@ mLastMotionPressure
 InputRegion
 mInputRegion
 ;
-static
 bool
 DragInProgress
 (
