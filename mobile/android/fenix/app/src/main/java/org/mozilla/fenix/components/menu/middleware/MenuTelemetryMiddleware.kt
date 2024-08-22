@@ -855,6 +855,10 @@ UpdateBookmarkState
 is
 MenuAction
 .
+UpdateExtensionState
+is
+MenuAction
+.
 UpdatePinnedState
 -
 >

@@ -886,6 +886,12 @@ backgroundServices
 .
 syncStore
 val
+addonManager
+=
+components
+.
+addonManager
+val
 bookmarksStorage
 =
 components
@@ -1041,6 +1047,9 @@ MenuDialogMiddleware
 appStore
 =
 appStore
+addonManager
+=
+addonManager
 bookmarksStorage
 =
 bookmarksStorage
