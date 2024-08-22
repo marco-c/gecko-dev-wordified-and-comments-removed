@@ -10903,17 +10903,6 @@ DOMIntersectionObserver
 aObserver
 )
 {
-MOZ_ASSERT
-(
-mIntersectionObservers
-.
-Contains
-(
-&
-aObserver
-)
-)
-;
 mIntersectionObservers
 .
 RemoveElement
