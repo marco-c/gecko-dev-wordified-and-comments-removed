@@ -87,13 +87,13 @@ kMaxVp9NumberOfSpatialLayers
 8
 ;
 const
-size_t
+int
 kMinVp9SpatialLayerLongSideLength
 =
 240
 ;
 const
-size_t
+int
 kMinVp9SpatialLayerShortSideLength
 =
 135

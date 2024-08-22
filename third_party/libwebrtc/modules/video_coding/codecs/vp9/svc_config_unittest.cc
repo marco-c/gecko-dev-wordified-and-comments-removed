@@ -1080,7 +1080,7 @@ max_num_spatial_layers
 3
 ;
 const
-size_t
+int
 kOddSize
 =
 1023
