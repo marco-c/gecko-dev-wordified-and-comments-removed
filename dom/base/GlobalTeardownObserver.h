@@ -122,11 +122,7 @@ GetOwnerWindow
 (
 )
 const
-{
-return
-mOwnerWindow
 ;
-}
 nsIGlobalObject
 *
 GetOwnerGlobal
@@ -212,13 +208,6 @@ nsIGlobalObject
 *
 MOZ_NON_OWNING_REF
 mParentObject
-=
-nullptr
-;
-nsGlobalWindowInner
-*
-MOZ_NON_OWNING_REF
-mOwnerWindow
 =
 nullptr
 ;
