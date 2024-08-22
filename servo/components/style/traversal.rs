@@ -2683,10 +2683,6 @@ insert_if_possible
 (
 &
 element
-&
-new_styles
-.
-primary
 Some
 (
 &
@@ -2842,10 +2838,6 @@ insert_if_possible
 (
 &
 element
-&
-new_styles
-.
-primary
 None
 traversal_data
 .
