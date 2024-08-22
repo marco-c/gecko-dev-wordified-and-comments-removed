@@ -1006,6 +1006,16 @@ state
 .
 selectedTab
 val
+isTranslationSupported
+=
+browserStore
+.
+state
+.
+translationEngine
+.
+isEngineSupported
+val
 settings
 =
 components
@@ -1638,6 +1648,9 @@ isTranslated
 ?
 :
 false
+isTranslationSupported
+=
+isTranslationSupported
 translatedLanguage
 =
 if

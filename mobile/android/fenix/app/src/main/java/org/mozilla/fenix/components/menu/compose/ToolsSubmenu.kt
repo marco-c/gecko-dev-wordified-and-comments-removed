@@ -225,6 +225,10 @@ Boolean
 isTranslated
 :
 Boolean
+isTranslationSupported
+:
+Boolean
+?
 translatedLanguage
 :
 String
@@ -309,6 +313,14 @@ onClick
 =
 onReaderViewMenuClick
 )
+if
+(
+isTranslationSupported
+=
+=
+true
+)
+{
 Divider
 (
 color
@@ -331,6 +343,7 @@ onClick
 =
 onTranslatePageMenuClick
 )
+}
 }
 MenuGroup
 {
@@ -671,6 +684,9 @@ false
 isTranslated
 =
 false
+isTranslationSupported
+=
+false
 translatedLanguage
 =
 "
@@ -746,6 +762,9 @@ false
 isTranslated
 =
 false
+isTranslationSupported
+=
+true
 translatedLanguage
 =
 "
