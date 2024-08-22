@@ -4242,11 +4242,9 @@ forkserver
 .
 enable
 (
-enabled
+disabled
 by
 default
-in
-Nightly
 )
 :
 primary
