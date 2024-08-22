@@ -1573,12 +1573,6 @@ indent
 )
 )
         
-self
-.
-_last_request_is_blocked
-=
-True
-        
 response
 =
 self
@@ -1593,12 +1587,6 @@ timeout
 =
 None
 )
-        
-self
-.
-_last_request_is_blocked
-=
-False
         
 return
 Response
@@ -1708,6 +1696,12 @@ close
         
 self
 .
+_last_request_is_blocked
+=
+True
+        
+self
+.
 connection
 .
 request
@@ -1769,6 +1763,12 @@ settimeout
 (
 previous_timeout
 )
+        
+self
+.
+_last_request_is_blocked
+=
+False
         
 return
 response
