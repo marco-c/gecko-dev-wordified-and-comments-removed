@@ -1407,6 +1407,14 @@ _
 js
 :
 :
+RoundFloat16
+)
+\
+_
+(
+js
+:
+:
 SetIteratorObject
 :
 :

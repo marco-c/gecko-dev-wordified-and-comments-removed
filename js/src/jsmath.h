@@ -259,6 +259,14 @@ d
 ;
 extern
 double
+RoundFloat16
+(
+double
+d
+)
+;
+extern
+double
 math_log_impl
 (
 double

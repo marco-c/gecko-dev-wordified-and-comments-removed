@@ -17833,6 +17833,10 @@ MathFRoundNumberResult
 )
 CACHEOP_CASE_UNIMPL
 (
+MathF16RoundNumberResult
+)
+CACHEOP_CASE_UNIMPL
+(
 MathRandomResult
 )
 CACHEOP_CASE_UNIMPL

@@ -4266,6 +4266,14 @@ ins
 isToFloat32
 (
 )
+|
+|
+ins
+-
+>
+isToFloat16
+(
+)
 )
 ;
 MDefinition

@@ -2879,6 +2879,13 @@ ToFloat32
 gen_boilerplate
 :
 false
+-
+name
+:
+ToFloat16
+gen_boilerplate
+:
+false
 #
 Converts
 a
