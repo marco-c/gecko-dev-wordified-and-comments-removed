@@ -727,6 +727,12 @@ vs
 <
 *
 output_size
+<
+<
+std
+:
+:
+endl
 ;
 *
 output_size
