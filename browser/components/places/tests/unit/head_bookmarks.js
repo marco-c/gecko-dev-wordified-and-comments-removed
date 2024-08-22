@@ -151,6 +151,11 @@ platformVersion
 )
 ;
 const
+DEFAULT_BOOKMARKS_ON_TOOLBAR
+=
+1
+;
+const
 DEFAULT_BOOKMARKS_ON_MENU
 =
 1
