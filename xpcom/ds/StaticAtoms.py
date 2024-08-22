@@ -5856,16 +5856,6 @@ intersection
 Atom
 (
 "
-intersectionobserverlist
-"
-"
-intersectionobserverlist
-"
-)
-    
-Atom
-(
-"
 invoketarget
 "
 "
@@ -6004,16 +5994,6 @@ keepcurrentinview
 "
 "
 keepcurrentinview
-"
-)
-    
-Atom
-(
-"
-keepobjectsalive
-"
-"
-keepobjectsalive
 "
 )
     
