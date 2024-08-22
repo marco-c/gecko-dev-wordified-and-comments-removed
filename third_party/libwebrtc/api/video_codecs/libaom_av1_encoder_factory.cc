@@ -68,6 +68,17 @@ h
 #
 include
 "
+rtc_base
+/
+strings
+/
+string_builder
+.
+h
+"
+#
+include
+"
 third_party
 /
 libaom
