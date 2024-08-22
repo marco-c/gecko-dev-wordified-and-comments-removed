@@ -2400,10 +2400,6 @@ CancelAllTransitions
 (
 )
 ;
-DestroyNativeWindow
-(
-)
-;
 }
 }
 void
