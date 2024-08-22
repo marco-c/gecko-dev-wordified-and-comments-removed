@@ -821,6 +821,10 @@ InitAction
 is
 MenuAction
 .
+InstallAddon
+is
+MenuAction
+.
 Navigate
 .
 AddonDetails
