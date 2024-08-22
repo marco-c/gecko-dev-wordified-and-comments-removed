@@ -767,6 +767,12 @@ PlaneLayout
 >
 layout
 ;
+VideoPixelFormat
+format
+;
+PredefinedColorSpace
+colorSpace
+;
 }
 ;
 dictionary
