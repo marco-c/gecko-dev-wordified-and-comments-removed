@@ -1410,7 +1410,7 @@ aSubjectPrincipal
 ;
 friend
 class
-ContentParent
+BrowserParent
 ;
 friend
 class

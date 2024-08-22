@@ -160,7 +160,7 @@ namespace
 dom
 {
 class
-ContentParent
+BrowserParent
 ;
 class
 DataTransfer
@@ -184,7 +184,7 @@ mozilla
 ptr
 ]
 native
-ContentParentPtr
+BrowserParentPtr
 (
 mozilla
 :
@@ -192,7 +192,7 @@ mozilla
 dom
 :
 :
-ContentParent
+BrowserParent
 )
 ;
 [
@@ -1211,11 +1211,11 @@ notxpcom
 nostdcall
 ]
 boolean
-maybeAddChildProcess
+maybeAddBrowser
 (
 in
-ContentParentPtr
-aChild
+BrowserParentPtr
+aBP
 )
 ;
 [
@@ -1223,7 +1223,7 @@ notxpcom
 nostdcall
 ]
 boolean
-removeAllChildProcesses
+removeAllBrowsers
 (
 )
 ;
