@@ -417,6 +417,15 @@ RtpHeaderExtensionCapability
 >
 header_extensions
 ;
+std
+:
+:
+vector
+<
+Codec
+>
+codecs_to_include
+;
 private
 :
 void
