@@ -2720,14 +2720,14 @@ const
 unsigned
 MaxImports
 =
-100000
+1000000
 ;
 static
 const
 unsigned
 MaxExports
 =
-100000
+1000000
 ;
 static
 const
