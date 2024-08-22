@@ -17371,6 +17371,12 @@ return
 NSDragOperationNone
 ;
 }
+nsCOMPtr
+<
+nsIDragSession
+>
+dragSession
+;
 if
 (
 aMessage
@@ -17385,6 +17391,8 @@ widget
 =
 mGeckoChild
 ;
+dragSession
+=
 mDragService
 -
 >
@@ -17394,10 +17402,8 @@ widget
 )
 ;
 }
-nsCOMPtr
-<
-nsIDragSession
->
+else
+{
 dragSession
 =
 mDragService
@@ -17408,6 +17414,7 @@ GetCurrentSession
 mGeckoChild
 )
 ;
+}
 if
 (
 dragSession

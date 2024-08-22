@@ -705,7 +705,8 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsIDragSession
+*
 nsDragServiceProxy
 :
 :
@@ -728,7 +729,7 @@ aWidgetProvider
 NS_ENSURE_TRUE
 (
 widget
-NS_ERROR_INVALID_ARG
+nullptr
 )
 ;
 BrowserChild
@@ -745,7 +746,7 @@ GetOwningBrowserChild
 NS_ENSURE_TRUE
 (
 targetBrowser
-NS_ERROR_INVALID_ARG
+nullptr
 )
 ;
 RefPtr
@@ -767,7 +768,7 @@ session
 )
 {
 return
-NS_OK
+session
 ;
 }
 session
@@ -809,7 +810,7 @@ session
 )
 ;
 return
-NS_OK
+session
 ;
 }
 NS_IMETHODIMP
