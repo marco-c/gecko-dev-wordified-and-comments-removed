@@ -19805,7 +19805,7 @@ currentSession
 userPromptHandler
 ;
 const
-handler
+handlerConfig
 =
 userPromptHandler
 .
@@ -19816,7 +19816,7 @@ type
 ;
 switch
 (
-handler
+handlerConfig
 .
 handler
 )
@@ -19865,7 +19865,7 @@ break
 }
 if
 (
-handler
+handlerConfig
 .
 notify
 )
@@ -19889,7 +19889,7 @@ Performed
 handler
 "
 {
-handler
+handlerConfig
 .
 handler
 }
