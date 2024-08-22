@@ -1180,7 +1180,13 @@ webAppToolbarShouldBeVisible
 toolbarVisible
 if
 (
-isNavBarEnabled
+requireContext
+(
+)
+.
+shouldAddNavigationBar
+(
+)
 )
 {
 bottomToolbarContainerView
