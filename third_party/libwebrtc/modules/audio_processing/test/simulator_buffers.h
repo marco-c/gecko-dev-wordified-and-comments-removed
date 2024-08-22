@@ -17,11 +17,11 @@ vector
 #
 include
 "
-modules
+api
+/
+audio
 /
 audio_processing
-/
-audio_buffer
 .
 h
 "
@@ -32,9 +32,7 @@ modules
 /
 audio_processing
 /
-include
-/
-audio_processing
+audio_buffer
 .
 h
 "

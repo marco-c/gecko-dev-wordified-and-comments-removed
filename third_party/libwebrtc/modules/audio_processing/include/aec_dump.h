@@ -41,13 +41,11 @@ h
 #
 include
 "
-modules
+api
+/
+audio
 /
 audio_processing
-/
-include
-/
-audio_frame_view
 .
 h
 "
@@ -60,7 +58,7 @@ audio_processing
 /
 include
 /
-audio_processing
+audio_frame_view
 .
 h
 "

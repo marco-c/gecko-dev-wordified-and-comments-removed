@@ -7,11 +7,9 @@ MODULES_AUDIO_PROCESSING_TEST_RUNTIME_SETTING_UTIL_H_
 #
 include
 "
-modules
+api
 /
-audio_processing
-/
-include
+audio
 /
 audio_processing
 .

@@ -43,13 +43,11 @@ h
 #
 include
 "
-modules
+api
+/
+audio
 /
 audio_processing
-/
-include
-/
-audio_frame_proxies
 .
 h
 "
@@ -62,7 +60,7 @@ audio_processing
 /
 include
 /
-audio_processing
+audio_frame_proxies
 .
 h
 "
