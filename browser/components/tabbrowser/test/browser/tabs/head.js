@@ -1454,8 +1454,6 @@ width
 /
 2
 +
-10
-*
 (
 afterTab
 ?
