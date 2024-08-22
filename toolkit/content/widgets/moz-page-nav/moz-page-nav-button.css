@@ -198,7 +198,14 @@ content
 ;
 gap
 :
-12px
+var
+(
+-
+-
+space
+-
+medium
+)
 ;
 align
 -
