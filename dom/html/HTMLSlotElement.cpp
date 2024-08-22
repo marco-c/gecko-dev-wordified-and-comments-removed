@@ -1608,7 +1608,7 @@ SetAssignedSlot
 this
 )
 ;
-SlotAssignedNodeChanged
+SlotAssignedNodeAdded
 (
 this
 aNode
@@ -1658,7 +1658,7 @@ SetAssignedSlot
 this
 )
 ;
-SlotAssignedNodeChanged
+SlotAssignedNodeAdded
 (
 this
 aNode
@@ -1716,7 +1716,7 @@ SetAssignedSlot
 nullptr
 )
 ;
-SlotAssignedNodeChanged
+SlotAssignedNodeRemoved
 (
 this
 aNode
