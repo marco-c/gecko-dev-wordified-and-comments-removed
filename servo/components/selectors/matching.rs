@@ -879,8 +879,9 @@ inline
 always
 )
 ]
+pub
 fn
-may_match
+selector_may_match
 (
 hashes
 :
@@ -1242,7 +1243,7 @@ bloom_filter
 {
 if
 !
-may_match
+selector_may_match
 (
 hashes
 filter
