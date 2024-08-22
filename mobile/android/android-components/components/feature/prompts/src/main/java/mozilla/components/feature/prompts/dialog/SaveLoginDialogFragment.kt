@@ -1925,7 +1925,7 @@ R
 .
 string
 .
-mozac_feature_prompt_login_add_username_headline
+mozac_feature_prompt_login_add_username_headline_2
 )
 }
 else
