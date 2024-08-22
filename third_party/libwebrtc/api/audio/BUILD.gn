@@ -232,6 +232,12 @@ deps
 .
 .
 :
+array_view
+"
+"
+.
+.
+:
 rtp_packet_info
 "
 "
