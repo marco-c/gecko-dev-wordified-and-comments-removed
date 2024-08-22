@@ -4696,6 +4696,13 @@ restored
 "
 )
 ;
+await
+Services
+.
+search
+.
+promiseInitialized
+;
 environmentData
 =
 TelemetryEnvironment
