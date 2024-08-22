@@ -369,7 +369,7 @@ R
 .
 color
 .
-fx_mobile_private_text_color_primary
+fx_mobile_private_icon_color_primary
 )
 }
 else
