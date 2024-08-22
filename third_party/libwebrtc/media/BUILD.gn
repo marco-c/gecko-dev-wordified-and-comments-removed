@@ -4127,6 +4127,16 @@ api
 /
 audio
 :
+audio_device
+"
+"
+.
+.
+/
+api
+/
+audio
+:
 audio_frame_api
 "
 "

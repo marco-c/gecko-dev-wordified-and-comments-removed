@@ -7,11 +7,9 @@ MODULES_AUDIO_DEVICE_INCLUDE_MOCK_AUDIO_TRANSPORT_H_
 #
 include
 "
-modules
+api
 /
-audio_device
-/
-include
+audio
 /
 audio_device_defines
 .

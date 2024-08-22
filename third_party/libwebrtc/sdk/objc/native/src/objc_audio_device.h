@@ -23,11 +23,11 @@ h
 #
 include
 "
-modules
+api
+/
+audio
 /
 audio_device
-/
-audio_device_buffer
 .
 h
 "
@@ -38,9 +38,7 @@ modules
 /
 audio_device
 /
-include
-/
-audio_device
+audio_device_buffer
 .
 h
 "
