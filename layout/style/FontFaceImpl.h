@@ -351,6 +351,11 @@ return
 mOwner
 ;
 }
+void
+StopKeepingOwnerAlive
+(
+)
+;
 static
 already_AddRefed
 <
