@@ -306,7 +306,10 @@ IsPasswordTextControl
 const
 override
 ;
+Maybe
+<
 int32_t
+>
 GetCols
 (
 )
@@ -789,13 +792,8 @@ Cols
 )
 {
 return
-GetUnsignedIntAttr
+GetColsOrDefault
 (
-nsGkAtoms
-:
-:
-cols
-DEFAULT_COLS
 )
 ;
 }

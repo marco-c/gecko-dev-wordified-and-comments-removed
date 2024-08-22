@@ -916,7 +916,10 @@ IsPasswordTextControl
 const
 override
 ;
+Maybe
+<
 int32_t
+>
 GetCols
 (
 )

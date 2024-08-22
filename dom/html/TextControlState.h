@@ -728,7 +728,7 @@ IsPasswordTextControl
 ;
 }
 int32_t
-GetCols
+GetColsOrDefault
 (
 )
 {
@@ -736,7 +736,7 @@ return
 mTextCtrlElement
 -
 >
-GetCols
+GetColsOrDefault
 (
 )
 ;

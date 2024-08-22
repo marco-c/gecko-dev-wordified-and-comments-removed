@@ -868,8 +868,16 @@ IsPasswordTextControl
 )
 DEFINE_TEXTCTRL_CONST_FORWARDER
 (
+Maybe
+<
 int32_t
+>
 GetCols
+)
+DEFINE_TEXTCTRL_CONST_FORWARDER
+(
+int32_t
+GetColsOrDefault
 )
 DEFINE_TEXTCTRL_CONST_FORWARDER
 (

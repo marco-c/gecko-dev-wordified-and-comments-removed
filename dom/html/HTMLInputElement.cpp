@@ -32750,7 +32750,10 @@ mAfterDecimal
 )
 ;
 }
+Maybe
+<
 int32_t
+>
 HTMLInputElement
 :
 :
@@ -32808,7 +32811,10 @@ cols
 )
 {
 return
+Some
+(
 cols
+)
 ;
 }
 }
@@ -32834,12 +32840,12 @@ cols
 )
 {
 return
-*
 cols
 ;
 }
 return
-DEFAULT_COLS
+{
+}
 ;
 }
 int32_t

@@ -1033,7 +1033,6 @@ internalPadding
 ;
 }
 else
-{
 if
 (
 PresContext
@@ -1059,7 +1058,6 @@ aWM
 =
 1
 ;
-}
 }
 {
 const
