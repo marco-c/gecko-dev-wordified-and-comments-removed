@@ -11550,7 +11550,8 @@ aCBSize
 boxSizingAdjust
 boxSizingToMarginEdgeISize
 styleISize
-aSizeOverrides
+styleBSize
+aspectRatio
 aFlags
 )
 .
@@ -11791,7 +11792,8 @@ aCBSize
 boxSizingAdjust
 boxSizingToMarginEdgeISize
 maxISizeCoord
-aSizeOverrides
+styleBSize
+aspectRatio
 aFlags
 )
 .
@@ -11853,7 +11855,8 @@ aCBSize
 boxSizingAdjust
 boxSizingToMarginEdgeISize
 minISizeCoord
-aSizeOverrides
+styleBSize
+aspectRatio
 aFlags
 )
 .
