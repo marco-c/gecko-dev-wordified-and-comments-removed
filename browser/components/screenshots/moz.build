@@ -66,4 +66,13 @@ browser
 .
 toml
 "
+"
+tests
+/
+browser
+/
+browserSidebarRevamp
+.
+toml
+"
 ]

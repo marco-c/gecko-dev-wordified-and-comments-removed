@@ -73,6 +73,17 @@ head_browserAction
 js
 "
 ]
+prefs
+=
+[
+"
+sidebar
+.
+revamp
+=
+false
+"
+]
 [
 "
 browser_test_animations_without_apz_sampler

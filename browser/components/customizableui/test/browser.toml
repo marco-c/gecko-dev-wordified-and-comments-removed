@@ -40,6 +40,13 @@ closedTabsFromClosedWindows
 =
 true
 "
+"
+sidebar
+.
+revamp
+=
+false
+"
 ]
 [
 "

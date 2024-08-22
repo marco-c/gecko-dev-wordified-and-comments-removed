@@ -12,6 +12,17 @@ head
 js
 "
 ]
+prefs
+=
+[
+"
+sidebar
+.
+revamp
+=
+false
+"
+]
 [
 "
 browser_sidebar_syncedtabslist

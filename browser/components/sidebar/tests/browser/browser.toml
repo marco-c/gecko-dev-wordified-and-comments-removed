@@ -12,6 +12,17 @@ head
 js
 "
 ]
+prefs
+=
+[
+"
+sidebar
+.
+revamp
+=
+true
+"
+]
 [
 "
 browser_a11y_sidebar

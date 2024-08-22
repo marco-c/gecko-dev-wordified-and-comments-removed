@@ -638,6 +638,15 @@ toml
 "
 tests
 /
+browser
+/
+browserSidebarRevamp
+.
+toml
+"
+"
+tests
+/
 engagementTelemetry
 /
 browser

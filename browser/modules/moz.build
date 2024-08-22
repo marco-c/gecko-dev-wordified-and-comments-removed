@@ -820,6 +820,15 @@ test
 /
 browser
 /
+browserSidebarRevamp
+.
+toml
+"
+"
+test
+/
+browser
+/
 formValidation
 /
 browser

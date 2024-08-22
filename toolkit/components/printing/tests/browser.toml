@@ -17,6 +17,17 @@ simplifyArticleSample
 html
 "
 ]
+prefs
+=
+[
+"
+sidebar
+.
+revamp
+=
+false
+"
+]
 [
 "
 browser_cancel_close_print

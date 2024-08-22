@@ -44,6 +44,15 @@ tests
 /
 browser
 /
+browserSidebarRevamp
+.
+toml
+"
+"
+tests
+/
+browser
+/
 interactions
 /
 browser

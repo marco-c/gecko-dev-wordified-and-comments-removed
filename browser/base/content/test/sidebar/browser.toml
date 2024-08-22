@@ -1,6 +1,17 @@
 [
 DEFAULT
 ]
+prefs
+=
+[
+"
+sidebar
+.
+revamp
+=
+false
+"
+]
 [
 "
 browser_sidebar_adopt

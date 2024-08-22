@@ -16,6 +16,13 @@ prefs
 =
 [
 "
+sidebar
+.
+revamp
+=
+false
+"
+"
 telemetry
 .
 number_of_site_origin

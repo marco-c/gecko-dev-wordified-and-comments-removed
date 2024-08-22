@@ -17,6 +17,13 @@ browser
 .
 toml
 "
+"
+test
+/
+browserSidebarRevamp
+.
+toml
+"
 ]
 XPCSHELL_TESTS_MANIFESTS
 +
