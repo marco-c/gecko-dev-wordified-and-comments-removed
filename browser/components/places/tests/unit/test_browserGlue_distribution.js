@@ -678,6 +678,8 @@ toolbarGuid
 index
 :
 1
++
+DEFAULT_BOOKMARKS_ON_TOOLBAR
 }
 )
 ;
