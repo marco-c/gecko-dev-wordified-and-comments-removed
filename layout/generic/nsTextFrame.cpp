@@ -19888,6 +19888,15 @@ start
 GetSkippedOffset
 (
 )
+&
+&
+!
+mFrame
+-
+>
+IsInSVGTextSubtree
+(
+)
 ;
 while
 (
