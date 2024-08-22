@@ -4228,14 +4228,6 @@ currentID
 commandID
 )
 {
-updateAttributes
-(
-this
-.
-_switcherTarget
-sidebar
-)
-;
 this
 .
 title
