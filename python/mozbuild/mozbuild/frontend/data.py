@@ -4048,10 +4048,6 @@ dependencies
 "
         
 "
-deps_path
-"
-        
-"
 features
 "
         
@@ -4235,20 +4231,6 @@ build_dir
 self
 .
 lib_name
-)
-        
-self
-.
-deps_path
-=
-mozpath
-.
-join
-(
-build_dir
-"
-deps
-"
 )
 class
 RustLibrary
