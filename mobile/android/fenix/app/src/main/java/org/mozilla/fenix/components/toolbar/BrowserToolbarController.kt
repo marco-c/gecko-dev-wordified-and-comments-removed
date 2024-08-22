@@ -1538,6 +1538,10 @@ private
 false
 )
 }
+browserAnimator
+.
+captureEngineViewAndDrawStatically
+{
 navController
 .
 navigate
@@ -1551,6 +1555,7 @@ focusOnAddressBar
 true
 )
 )
+}
 }
 companion
 object

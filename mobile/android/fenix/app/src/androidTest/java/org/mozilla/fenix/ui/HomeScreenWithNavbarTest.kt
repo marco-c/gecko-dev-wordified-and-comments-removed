@@ -265,10 +265,6 @@ defaultWebPage
 url
 )
 {
-}
-.
-goToHomescreen
-{
 verifyTabCounter
 (
 "
