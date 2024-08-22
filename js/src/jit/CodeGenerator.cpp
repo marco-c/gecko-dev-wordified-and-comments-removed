@@ -6538,7 +6538,7 @@ fail
 ;
 masm
 .
-convertValueToFloat
+convertValueToFloat32
 (
 operand
 output

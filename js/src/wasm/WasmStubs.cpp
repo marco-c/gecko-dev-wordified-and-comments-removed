@@ -12830,7 +12830,7 @@ F32
 :
 masm
 .
-convertValueToFloat
+convertValueToFloat32
 (
 JSReturnOperand
 ReturnFloat32Reg
