@@ -514,9 +514,15 @@ make_unique
 GoogCcNetworkControllerFactory
 >
 (
+GoogCcFactoryConfig
+{
+.
+network_state_predictor_factory
+=
 config
 .
 network_state_predictor_factory
+}
 )
 )
 process_interval_
