@@ -3425,7 +3425,7 @@ damage_rects
 [
 DeviceRect
 ;
-4
+2
 ]
 current_offset
 :
