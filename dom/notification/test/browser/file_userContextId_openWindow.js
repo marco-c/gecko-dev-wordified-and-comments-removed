@@ -1,6 +1,7 @@
 onnotificationclick
 =
-event
+(
+)
 =
 >
 {

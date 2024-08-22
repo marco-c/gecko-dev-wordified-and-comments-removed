@@ -438,10 +438,10 @@ close
 ;
 onmessage
 =
-function
 (
-e
 )
+=
+>
 {
 var
 context
