@@ -17441,7 +17441,7 @@ empty
 cricket
 :
 :
-VideoCodec
+Codec
 vp8
 =
 vcd
@@ -17475,7 +17475,7 @@ id
 cricket
 :
 :
-VideoCodec
+Codec
 rtx
 =
 vcd
@@ -17522,7 +17522,7 @@ id
 cricket
 :
 :
-VideoCodec
+Codec
 vp9
 =
 vcd
@@ -17990,7 +17990,7 @@ empty
 cricket
 :
 :
-VideoCodec
+Codec
 vp8
 =
 vcd
@@ -20360,7 +20360,7 @@ SerializeSessionDescriptionWithH264
 cricket
 :
 :
-VideoCodec
+Codec
 h264_codec
 =
 cricket
@@ -21132,7 +21132,7 @@ description
 cricket
 :
 :
-AudioCodecs
+Codecs
 ref_codecs
 ;
 ref_codecs
@@ -27180,7 +27180,7 @@ empty
 cricket
 :
 :
-VideoCodec
+Codec
 vp8
 =
 vcd
@@ -27487,7 +27487,7 @@ empty
 cricket
 :
 :
-VideoCodec
+Codec
 h264
 =
 vcd
@@ -27792,7 +27792,7 @@ empty
 cricket
 :
 :
-VideoCodec
+Codec
 vp8
 =
 vcd
@@ -28236,7 +28236,7 @@ SizeIs
 cricket
 :
 :
-VideoCodec
+Codec
 vp8
 =
 vcd
@@ -28280,7 +28280,7 @@ raw
 cricket
 :
 :
-VideoCodec
+Codec
 vp9
 =
 vcd
@@ -28325,7 +28325,7 @@ nullopt
 cricket
 :
 :
-VideoCodec
+Codec
 h264
 =
 vcd
@@ -28387,7 +28387,7 @@ desc_
 cricket
 :
 :
-AudioCodecs
+Codecs
 codecs
 =
 acd
@@ -28537,7 +28537,7 @@ desc_
 cricket
 :
 :
-AudioCodecs
+Codecs
 codecs
 =
 acd
@@ -28679,7 +28679,7 @@ desc_
 cricket
 :
 :
-AudioCodecs
+Codecs
 codecs
 =
 acd
@@ -28843,7 +28843,7 @@ desc_
 cricket
 :
 :
-AudioCodecs
+Codecs
 codecs
 =
 acd
@@ -29046,7 +29046,7 @@ desc_
 cricket
 :
 :
-VideoCodecs
+Codecs
 codecs
 =
 vcd
@@ -29198,7 +29198,7 @@ desc_
 cricket
 :
 :
-VideoCodecs
+Codecs
 codecs
 =
 vcd

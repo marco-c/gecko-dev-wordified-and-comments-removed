@@ -557,7 +557,7 @@ name
 cricket
 :
 :
-VideoCodec
+Codec
 video_codec
 =
 cricket
@@ -1444,7 +1444,7 @@ scalability_modes
 cricket
 :
 :
-VideoCodec
+Codec
 video_codec
 =
 cricket

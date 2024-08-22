@@ -725,7 +725,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 send_codecs
 (
@@ -745,7 +745,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 recv_codecs
 (
@@ -765,7 +765,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 send_codecs
 (
@@ -780,7 +780,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 recv_codecs
 (
@@ -864,7 +864,7 @@ explicit
 VideoCodecSettings
 (
 const
-VideoCodec
+Codec
 &
 codec
 )
@@ -907,7 +907,7 @@ VideoCodecSettings
 b
 )
 ;
-VideoCodec
+Codec
 codec
 ;
 webrtc
@@ -2131,7 +2131,7 @@ EncoderSpecificSettings
 ConfigureVideoEncoderSettings
 (
 const
-VideoCodec
+Codec
 &
 codec
 )
@@ -2157,7 +2157,7 @@ VideoEncoderConfig
 CreateVideoEncoderConfig
 (
 const
-VideoCodec
+Codec
 &
 codec
 )

@@ -3949,7 +3949,7 @@ vector
 cricket
 :
 :
-VideoCodec
+Codec
 >
 fake_codecs
 ;
@@ -4138,7 +4138,7 @@ vector
 cricket
 :
 :
-VideoCodec
+Codec
 >
 fake_codecs
 ;
@@ -4481,7 +4481,7 @@ vector
 cricket
 :
 :
-VideoCodec
+Codec
 >
 fake_codecs
 ;
@@ -5831,7 +5831,7 @@ const
 cricket
 :
 :
-AudioCodec
+Codec
 kComfortNoiseCodec8k
 =
 cricket
@@ -5852,7 +5852,7 @@ const
 cricket
 :
 :
-AudioCodec
+Codec
 kComfortNoiseCodec16k
 =
 cricket
@@ -8016,7 +8016,7 @@ vector
 cricket
 :
 :
-AudioCodec
+Codec
 >
 caller_fake_codecs
 ;
@@ -8081,7 +8081,7 @@ vector
 cricket
 :
 :
-AudioCodec
+Codec
 >
 callee_fake_codecs
 ;
@@ -8378,7 +8378,7 @@ vector
 cricket
 :
 :
-AudioCodec
+Codec
 >
 caller_fake_codecs
 ;
@@ -8462,7 +8462,7 @@ vector
 cricket
 :
 :
-AudioCodec
+Codec
 >
 callee_fake_codecs
 ;
@@ -8719,7 +8719,7 @@ vector
 cricket
 :
 :
-AudioCodec
+Codec
 >
 caller_fake_codecs
 ;
@@ -8803,7 +8803,7 @@ vector
 cricket
 :
 :
-AudioCodec
+Codec
 >
 callee_fake_codecs
 ;
@@ -9102,7 +9102,7 @@ vector
 cricket
 :
 :
-AudioCodec
+Codec
 >
 caller_fake_codecs
 ;
@@ -9205,7 +9205,7 @@ vector
 cricket
 :
 :
-AudioCodec
+Codec
 >
 callee_fake_codecs
 ;
@@ -9398,7 +9398,7 @@ vector
 cricket
 :
 :
-AudioCodec
+Codec
 >
 caller_fake_codecs
 ;
@@ -9519,7 +9519,7 @@ vector
 cricket
 :
 :
-AudioCodec
+Codec
 >
 callee_fake_codecs
 ;
@@ -9694,7 +9694,7 @@ vector
 cricket
 :
 :
-AudioCodec
+Codec
 >
 caller_fake_codecs
 ;
@@ -9797,7 +9797,7 @@ vector
 cricket
 :
 :
-AudioCodec
+Codec
 >
 callee_fake_codecs
 ;
@@ -13915,7 +13915,7 @@ vector
 cricket
 :
 :
-AudioCodec
+Codec
 >
 audio_codecs
 ;
@@ -13967,7 +13967,7 @@ vector
 cricket
 :
 :
-VideoCodec
+Codec
 >
 video_codecs
 ;
@@ -14271,7 +14271,7 @@ vector
 cricket
 :
 :
-AudioCodec
+Codec
 >
 audio_codecs
 ;
@@ -14323,7 +14323,7 @@ vector
 cricket
 :
 :
-VideoCodec
+Codec
 >
 video_codecs
 ;
@@ -14641,7 +14641,7 @@ vector
 cricket
 :
 :
-AudioCodec
+Codec
 >
 audio_codecs
 ;
@@ -14693,7 +14693,7 @@ vector
 cricket
 :
 :
-VideoCodec
+Codec
 >
 video_codecs
 ;
@@ -15033,7 +15033,7 @@ vector
 cricket
 :
 :
-AudioCodec
+Codec
 >
 audio_codecs
 ;

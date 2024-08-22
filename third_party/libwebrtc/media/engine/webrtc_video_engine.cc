@@ -767,7 +767,7 @@ Disabled
 void
 AddDefaultFeedbackParams
 (
-VideoCodec
+Codec
 *
 codec
 const
@@ -912,7 +912,7 @@ bool
 IsCodecValidForLowerRange
 (
 const
-VideoCodec
+Codec
 &
 codec
 )
@@ -1129,7 +1129,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 GetPayloadTypesAndDefaultCodecs
 (
@@ -1206,7 +1206,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 (
 )
@@ -1330,7 +1330,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 output_codecs
 ;
@@ -1347,7 +1347,7 @@ format
 supported_formats
 )
 {
-VideoCodec
+Codec
 codec
 =
 cricket
@@ -1611,7 +1611,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 &
 codecs
@@ -1709,7 +1709,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 &
 codecs
@@ -3146,7 +3146,7 @@ bool
 IsScalabilityModeSupportedByCodec
 (
 const
-VideoCodec
+Codec
 &
 codec
 const
@@ -3200,7 +3200,7 @@ void
 FallbackToDefaultScalabilityModeIfNotSupported
 (
 const
-VideoCodec
+Codec
 &
 codec
 const
@@ -3408,7 +3408,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 &
 codecs
@@ -3488,7 +3488,7 @@ flexfec_payload_type
 for
 (
 const
-VideoCodec
+Codec
 &
 in_codec
 :
@@ -4935,7 +4935,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 WebRtcVideoEngine
 :
@@ -4966,7 +4966,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 WebRtcVideoEngine
 :
@@ -5595,7 +5595,7 @@ WebRtcVideoSendStream
 ConfigureVideoEncoderSettings
 (
 const
-VideoCodec
+Codec
 &
 codec
 )
@@ -7772,7 +7772,7 @@ GetRtpParameters
 for
 (
 const
-VideoCodec
+Codec
 &
 codec
 :
@@ -12453,7 +12453,7 @@ WebRtcVideoSendStream
 CreateVideoEncoderConfig
 (
 const
-VideoCodec
+Codec
 &
 codec
 )
@@ -15772,7 +15772,7 @@ recv_rtp_extensions_
 for
 (
 const
-VideoCodec
+Codec
 &
 codec
 :
@@ -15844,7 +15844,7 @@ emplace_back
 for
 (
 const
-VideoCodec
+Codec
 &
 codec
 :
@@ -15971,7 +15971,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 local_supported_codecs
 =
@@ -17973,7 +17973,7 @@ receiver
 ]
 (
 const
-VideoCodec
+Codec
 &
 c
 )
@@ -22743,7 +22743,7 @@ VideoCodecSettings
 VideoCodecSettings
 (
 const
-VideoCodec
+Codec
 &
 codec
 )

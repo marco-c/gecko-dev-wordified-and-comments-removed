@@ -491,7 +491,7 @@ const
 cricket
 :
 :
-AudioCodec
+Codec
 kPcmuCodec
 =
 cricket
@@ -511,7 +511,7 @@ const
 cricket
 :
 :
-AudioCodec
+Codec
 kOpusCodec
 =
 cricket
@@ -531,7 +531,7 @@ const
 cricket
 :
 :
-AudioCodec
+Codec
 kG722CodecVoE
 =
 cricket
@@ -551,7 +551,7 @@ const
 cricket
 :
 :
-AudioCodec
+Codec
 kG722CodecSdp
 =
 cricket
@@ -571,7 +571,7 @@ const
 cricket
 :
 :
-AudioCodec
+Codec
 kCn8000Codec
 =
 cricket
@@ -591,7 +591,7 @@ const
 cricket
 :
 :
-AudioCodec
+Codec
 kCn16000Codec
 =
 cricket
@@ -611,7 +611,7 @@ const
 cricket
 :
 :
-AudioCodec
+Codec
 kRed48000Codec
 =
 cricket
@@ -631,7 +631,7 @@ const
 cricket
 :
 :
-AudioCodec
+Codec
 kTelephoneEventCodec1
 =
 cricket
@@ -653,7 +653,7 @@ const
 cricket
 :
 :
-AudioCodec
+Codec
 kTelephoneEventCodec2
 =
 cricket
@@ -2565,7 +2565,7 @@ const
 cricket
 :
 :
-AudioCodec
+Codec
 &
 codec
 )
@@ -2950,7 +2950,7 @@ const
 cricket
 :
 :
-AudioCodec
+Codec
 &
 codec
 int
@@ -3085,7 +3085,7 @@ const
 cricket
 :
 :
-AudioCodec
+Codec
 &
 codec
 int
@@ -3241,7 +3241,7 @@ const
 cricket
 :
 :
-AudioCodec
+Codec
 &
 codec
 int
@@ -5322,7 +5322,7 @@ const
 cricket
 :
 :
-AudioCodec
+Codec
 &
 codec
 :
@@ -5393,7 +5393,7 @@ const
 cricket
 :
 :
-AudioCodec
+Codec
 &
 codec
 :
@@ -5989,7 +5989,7 @@ vector
 cricket
 :
 :
-AudioCodec
+Codec
 >
 &
 codecs
@@ -6012,7 +6012,7 @@ const
 cricket
 :
 :
-AudioCodec
+Codec
 &
 codec
 :
@@ -24278,7 +24278,7 @@ const
 cricket
 :
 :
-AudioCodec
+Codec
 &
 codec
 :
@@ -25906,7 +25906,7 @@ const
 cricket
 :
 :
-AudioCodec
+Codec
 &
 {
 static
@@ -25914,7 +25914,7 @@ const
 cricket
 :
 :
-AudioCodec
+Codec
 missing_codec
 =
 cricket
@@ -26092,7 +26092,7 @@ const
 cricket
 :
 :
-AudioCodec
+Codec
 &
 codec
 =

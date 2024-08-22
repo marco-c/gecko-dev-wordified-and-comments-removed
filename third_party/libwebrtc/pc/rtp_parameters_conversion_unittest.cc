@@ -2744,7 +2744,7 @@ ToAudioRtpCodecCapability
 cricket
 :
 :
-AudioCodec
+Codec
 cricket_codec
 =
 cricket
@@ -2911,7 +2911,7 @@ ToVideoRtpCodecCapability
 cricket
 :
 :
-VideoCodec
+Codec
 cricket_codec
 =
 cricket
@@ -3303,7 +3303,7 @@ ToAudioRtpCodecParameters
 cricket
 :
 :
-AudioCodec
+Codec
 cricket_codec
 =
 cricket
@@ -3470,7 +3470,7 @@ ToVideoRtpCodecParameters
 cricket
 :
 :
-VideoCodec
+Codec
 cricket_codec
 =
 cricket
@@ -3734,7 +3734,7 @@ ToRtpCodecCapabilityUnknownFeedbackParam
 cricket
 :
 :
-AudioCodec
+Codec
 cricket_codec
 =
 cricket
@@ -3845,7 +3845,7 @@ ToRtpCapabilities
 cricket
 :
 :
-VideoCodec
+Codec
 vp8
 =
 cricket
@@ -3868,7 +3868,7 @@ clockrate
 cricket
 :
 :
-VideoCodec
+Codec
 red
 =
 cricket
@@ -3891,7 +3891,7 @@ clockrate
 cricket
 :
 :
-VideoCodec
+Codec
 ulpfec
 =
 cricket
@@ -3914,7 +3914,7 @@ clockrate
 cricket
 :
 :
-VideoCodec
+Codec
 flexfec
 =
 cricket
@@ -3939,7 +3939,7 @@ clockrate
 cricket
 :
 :
-VideoCodec
+Codec
 rtx
 =
 cricket
@@ -3954,7 +3954,7 @@ CreateVideoRtxCodec
 cricket
 :
 :
-VideoCodec
+Codec
 rtx2
 =
 cricket
@@ -4252,7 +4252,7 @@ ToRtpParameters
 cricket
 :
 :
-VideoCodec
+Codec
 vp8
 =
 cricket
@@ -4275,7 +4275,7 @@ clockrate
 cricket
 :
 :
-VideoCodec
+Codec
 red
 =
 cricket
@@ -4298,7 +4298,7 @@ clockrate
 cricket
 :
 :
-VideoCodec
+Codec
 ulpfec
 =
 cricket

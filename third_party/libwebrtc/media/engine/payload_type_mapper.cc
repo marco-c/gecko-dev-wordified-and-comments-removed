@@ -68,7 +68,7 @@ SdpAudioFormat
 AudioCodecToSdpAudioFormat
 (
 const
-AudioCodec
+Codec
 &
 ac
 )
@@ -582,7 +582,7 @@ absl
 :
 optional
 <
-AudioCodec
+Codec
 >
 PayloadTypeMapper
 :
@@ -611,7 +611,7 @@ if
 opt_payload_type
 )
 {
-AudioCodec
+Codec
 codec
 =
 cricket

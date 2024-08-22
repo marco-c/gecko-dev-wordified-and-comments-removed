@@ -871,7 +871,7 @@ MEDIA_TYPE_AUDIO
 cricket
 :
 :
-AudioCodecs
+Codecs
 cricket_codecs
 ;
 cricket_codecs
@@ -922,7 +922,7 @@ MEDIA_TYPE_VIDEO
 cricket
 :
 :
-VideoCodecs
+Codecs
 cricket_codecs
 ;
 cricket_codecs
@@ -1048,7 +1048,7 @@ MEDIA_TYPE_AUDIO
 cricket
 :
 :
-AudioCodecs
+Codecs
 cricket_codecs
 ;
 cricket_codecs
@@ -1099,7 +1099,7 @@ MEDIA_TYPE_VIDEO
 cricket
 :
 :
-VideoCodecs
+Codecs
 cricket_codecs
 =
 media_engine

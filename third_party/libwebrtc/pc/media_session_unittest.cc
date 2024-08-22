@@ -525,7 +525,7 @@ vector
 Candidate
 >
 ;
-AudioCodec
+Codec
 CreateRedAudioCodec
 (
 absl
@@ -535,7 +535,7 @@ string_view
 encoding_id
 )
 {
-AudioCodec
+Codec
 red
 =
 CreateAudioCodec
@@ -579,7 +579,7 @@ red
 ;
 }
 const
-AudioCodec
+Codec
 kAudioCodecs1
 [
 ]
@@ -648,7 +648,7 @@ CN
 }
 ;
 const
-AudioCodec
+Codec
 kAudioCodecs2
 [
 ]
@@ -684,7 +684,7 @@ iLBC
 }
 ;
 const
-AudioCodec
+Codec
 kAudioCodecsAnswer
 [
 ]
@@ -711,7 +711,7 @@ PCMU
 }
 ;
 const
-VideoCodec
+Codec
 kVideoCodecs1
 [
 ]
@@ -736,7 +736,7 @@ H264
 }
 ;
 const
-VideoCodec
+Codec
 kVideoCodecs1Reverse
 [
 ]
@@ -761,7 +761,7 @@ SVC
 }
 ;
 const
-VideoCodec
+Codec
 kVideoCodecs2
 [
 ]
@@ -784,7 +784,7 @@ H263
 }
 ;
 const
-VideoCodec
+Codec
 kVideoCodecsAnswer
 [
 ]
@@ -2101,7 +2101,7 @@ void
 AddRtxCodec
 (
 const
-VideoCodec
+Codec
 &
 rtx_codec
 std
@@ -2109,7 +2109,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 *
 codecs
@@ -5289,7 +5289,7 @@ TestBundleOfferWithSameCodecPlType
 )
 {
 const
-VideoCodec
+Codec
 &
 offered_video_codec
 =
@@ -5303,7 +5303,7 @@ video_sendrecv_codecs
 ]
 ;
 const
-AudioCodec
+Codec
 &
 offered_audio_codec
 =
@@ -18845,7 +18845,7 @@ MoveValue
 )
 ;
 const
-AudioCodec
+Codec
 kUpdatedAudioCodecOffer
 [
 ]
@@ -18866,7 +18866,7 @@ kAudioCodecs2
 }
 ;
 const
-VideoCodec
+Codec
 kUpdatedVideoCodecOffer
 [
 ]
@@ -19654,7 +19654,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 f1_codecs
 =
@@ -19692,7 +19692,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 f2_codecs
 =
@@ -19800,7 +19800,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 expected_codecs
 =
@@ -19948,7 +19948,7 @@ kActive
 opts
 )
 ;
-VideoCodec
+Codec
 vp8_offerer
 =
 CreateVideoCodec
@@ -19959,7 +19959,7 @@ VP8
 "
 )
 ;
-VideoCodec
+Codec
 vp8_offerer_rtx
 =
 CreateVideoRtxCodec
@@ -19970,7 +19970,7 @@ vp8_offerer
 id
 )
 ;
-VideoCodec
+Codec
 vp8_answerer
 =
 CreateVideoCodec
@@ -19981,7 +19981,7 @@ VP8
 "
 )
 ;
-VideoCodec
+Codec
 vp8_answerer_rtx
 =
 CreateVideoRtxCodec
@@ -19992,7 +19992,7 @@ vp8_answerer
 id
 )
 ;
-VideoCodec
+Codec
 vp9
 =
 CreateVideoCodec
@@ -20003,7 +20003,7 @@ VP9
 "
 )
 ;
-VideoCodec
+Codec
 vp9_rtx
 =
 CreateVideoRtxCodec
@@ -20019,7 +20019,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 f1_codecs
 =
@@ -20033,7 +20033,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 f2_codecs
 =
@@ -20065,7 +20065,7 @@ std
 :
 vector
 <
-AudioCodec
+Codec
 >
 audio_codecs
 ;
@@ -20186,7 +20186,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 codecs
 =
@@ -20255,7 +20255,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 f1_codecs
 =
@@ -20404,7 +20404,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 f2_codecs
 =
@@ -20615,7 +20615,7 @@ used_pl_type
 new_h264_pl_type
 )
 ;
-VideoCodec
+Codec
 rtx
 =
 updated_vcd
@@ -20678,7 +20678,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 f2_codecs
 =
@@ -20786,7 +20786,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 expected_codecs
 =
@@ -20918,7 +20918,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 f1_codecs
 =
@@ -20951,7 +20951,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 f2_codecs
 =
@@ -21171,7 +21171,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 f1_codecs
 =
@@ -21209,7 +21209,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 f2_codecs
 =
@@ -21355,7 +21355,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 f1_codecs
 =
@@ -21417,7 +21417,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 f2_codecs
 =
@@ -21525,7 +21525,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 expected_codecs
 =
@@ -21591,7 +21591,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 f1_codecs
 =
@@ -21669,7 +21669,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 expected_codecs
 =
@@ -21847,7 +21847,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 f1_codecs
 ;
@@ -22129,7 +22129,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 f1_codecs
 ;
@@ -22398,7 +22398,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 f1_codecs
 ;
@@ -28948,7 +28948,7 @@ MediaSessionDescriptionFactoryTest
 H264MatchCriteriaIncludesPacketizationMode
 )
 {
-VideoCodec
+Codec
 h264_pm0
 =
 CreateVideoCodec
@@ -28981,7 +28981,7 @@ kH264FmtpPacketizationMode
 0
 "
 ;
-VideoCodec
+Codec
 h264_pm1
 =
 CreateVideoCodec
@@ -29707,7 +29707,7 @@ std
 :
 vector
 <
-AudioCodec
+Codec
 >
 send_codecs
 =
@@ -29721,7 +29721,7 @@ std
 :
 vector
 <
-AudioCodec
+Codec
 >
 recv_codecs
 =
@@ -29736,7 +29736,7 @@ std
 :
 vector
 <
-AudioCodec
+Codec
 >
 sendrecv_codecs
 =
@@ -29751,7 +29751,7 @@ std
 :
 vector
 <
-AudioCodec
+Codec
 >
 no_codecs
 ;
@@ -30150,7 +30150,7 @@ std
 :
 vector
 <
-AudioCodec
+Codec
 >
 send_codecs
 =
@@ -30165,7 +30165,7 @@ std
 :
 vector
 <
-AudioCodec
+Codec
 >
 recv_codecs
 =
@@ -30180,7 +30180,7 @@ std
 :
 vector
 <
-AudioCodec
+Codec
 >
 sendrecv_codecs
 =
@@ -30391,7 +30391,7 @@ codecs
 }
 }
 const
-AudioCodec
+Codec
 kOfferAnswerCodecs
 [
 ]
@@ -31001,7 +31001,7 @@ std
 :
 vector
 <
-AudioCodec
+Codec
 >
 target_codecs
 ;
@@ -31151,7 +31151,7 @@ std
 :
 vector
 <
-AudioCodec
+Codec
 >
 &
 codecs

@@ -287,7 +287,7 @@ std
 :
 vector
 <
-AudioCodec
+Codec
 >
 &
 FakeVoiceMediaReceiveChannel
@@ -882,7 +882,7 @@ std
 :
 vector
 <
-AudioCodec
+Codec
 >
 &
 codecs
@@ -1154,7 +1154,7 @@ std
 :
 vector
 <
-AudioCodec
+Codec
 >
 &
 FakeVoiceMediaSendChannel
@@ -1454,7 +1454,7 @@ std
 :
 vector
 <
-AudioCodec
+Codec
 >
 :
 :
@@ -1610,7 +1610,7 @@ std
 :
 vector
 <
-AudioCodec
+Codec
 >
 &
 codecs
@@ -1881,7 +1881,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 &
 FakeVideoMediaSendChannel
@@ -1902,7 +1902,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 &
 FakeVideoMediaSendChannel
@@ -2189,7 +2189,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 &
 codecs
@@ -2325,7 +2325,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 &
 FakeVideoMediaReceiveChannel
@@ -2847,7 +2847,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 &
 codecs
@@ -3193,7 +3193,7 @@ std
 :
 vector
 <
-AudioCodec
+Codec
 >
 &
 FakeVoiceEngine
@@ -3214,7 +3214,7 @@ std
 :
 vector
 <
-AudioCodec
+Codec
 >
 &
 FakeVoiceEngine
@@ -3241,7 +3241,7 @@ std
 :
 vector
 <
-AudioCodec
+Codec
 >
 &
 codecs
@@ -3268,7 +3268,7 @@ std
 :
 vector
 <
-AudioCodec
+Codec
 >
 &
 codecs
@@ -3291,7 +3291,7 @@ std
 :
 vector
 <
-AudioCodec
+Codec
 >
 &
 codecs
@@ -3649,7 +3649,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 FakeVideoEngine
 :
@@ -3670,7 +3670,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 FakeVideoEngine
 :
@@ -3698,7 +3698,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 &
 codecs
@@ -3721,7 +3721,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 &
 codecs
@@ -3881,7 +3881,7 @@ std
 :
 vector
 <
-AudioCodec
+Codec
 >
 &
 codecs
@@ -3908,7 +3908,7 @@ std
 :
 vector
 <
-AudioCodec
+Codec
 >
 &
 codecs
@@ -3935,7 +3935,7 @@ std
 :
 vector
 <
-AudioCodec
+Codec
 >
 &
 codecs
@@ -3962,7 +3962,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 &
 codecs

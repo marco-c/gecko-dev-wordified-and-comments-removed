@@ -1198,7 +1198,7 @@ const
 cricket
 :
 :
-AudioCodec
+Codec
 kTelephoneEventCodec
 =
 cricket

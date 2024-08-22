@@ -5417,14 +5417,14 @@ webrtc
 flat_set
 <
 const
-VideoCodec
+Codec
 *
 >
 matched_codecs
 ;
 for
 (
-VideoCodec
+Codec
 &
 send_codec
 :
@@ -5446,7 +5446,7 @@ matched_codecs
 ]
 (
 const
-VideoCodec
+Codec
 *
 c
 )
@@ -5473,7 +5473,7 @@ std
 vector
 <
 const
-VideoCodec
+Codec
 *
 >
 recv_codecs
@@ -5511,7 +5511,7 @@ false
 for
 (
 const
-VideoCodec
+Codec
 *
 recv_codec
 :
