@@ -1899,6 +1899,11 @@ excludes
 =
 [
 '
+MANIFEST
+.
+MF
+'
+'
 META
 -
 INF

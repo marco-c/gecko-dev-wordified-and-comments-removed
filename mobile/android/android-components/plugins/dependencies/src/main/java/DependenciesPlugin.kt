@@ -813,9 +813,9 @@ test
 "
 1
 .
-5
+6
 .
-0
+1
 "
 const
 val
@@ -824,9 +824,9 @@ test_ext
 "
 1
 .
-1
+2
 .
-5
+1
 "
 const
 val
@@ -835,7 +835,7 @@ test_espresso
 "
 3
 .
-5
+6
 .
 1
 "
@@ -846,9 +846,9 @@ test_orchestrator
 "
 1
 .
-4
+5
 .
-2
+0
 "
 const
 val
@@ -857,9 +857,9 @@ test_runner
 "
 1
 .
-5
+6
 .
-2
+1
 "
 const
 val
