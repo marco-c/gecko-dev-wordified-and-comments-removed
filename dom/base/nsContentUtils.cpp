@@ -26456,7 +26456,7 @@ bool
 nsContentUtils
 :
 :
-HasMutationListeners
+WantMutationEvents
 (
 nsINode
 *
@@ -26868,7 +26868,7 @@ eNo
 }
 if
 (
-HasMutationListeners
+WantMutationEvents
 (
 aChild
 NS_EVENT_BITS_MUTATION_NODEREMOVED

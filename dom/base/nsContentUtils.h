@@ -4151,7 +4151,7 @@ aType
 ;
 static
 bool
-HasMutationListeners
+WantMutationEvents
 (
 nsINode
 *

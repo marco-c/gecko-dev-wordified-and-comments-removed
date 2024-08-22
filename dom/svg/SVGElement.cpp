@@ -6809,7 +6809,7 @@ attrValue
 nsContentUtils
 :
 :
-HasMutationListeners
+WantMutationEvents
 (
 this
 NS_EVENT_BITS_MUTATION_ATTRMODIFIED
@@ -6916,7 +6916,7 @@ hasListeners
 nsContentUtils
 :
 :
-HasMutationListeners
+WantMutationEvents
 (
 this
 NS_EVENT_BITS_MUTATION_ATTRMODIFIED
@@ -6996,7 +6996,7 @@ aNotify
 nsContentUtils
 :
 :
-HasMutationListeners
+WantMutationEvents
 (
 this
 NS_EVENT_BITS_MUTATION_ATTRMODIFIED

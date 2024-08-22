@@ -8946,7 +8946,7 @@ if
 nsContentUtils
 :
 :
-HasMutationListeners
+WantMutationEvents
 (
 aKid
 NS_EVENT_BITS_MUTATION_NODEINSERTED
