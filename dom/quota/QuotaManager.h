@@ -1385,8 +1385,6 @@ nsresult
 >
 EnsureTemporaryOriginIsInitialized
 (
-PersistenceType
-aPersistenceType
 const
 OriginMetadata
 &

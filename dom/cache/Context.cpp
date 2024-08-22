@@ -1743,10 +1743,6 @@ quotaManager
 >
 EnsureTemporaryOriginIsInitialized
 (
-mDirectoryMetadata
--
->
-mPersistenceType
 *
 mDirectoryMetadata
 )

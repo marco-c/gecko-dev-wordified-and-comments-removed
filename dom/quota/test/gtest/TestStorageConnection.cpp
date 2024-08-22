@@ -207,9 +207,6 @@ quotaManager
 EnsureTemporaryOriginIsInitialized
 (
 aClientMetadata
-.
-mPersistenceType
-aClientMetadata
 )
 .
 map

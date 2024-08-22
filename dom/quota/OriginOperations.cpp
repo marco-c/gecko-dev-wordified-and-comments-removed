@@ -7470,7 +7470,6 @@ aQuotaManager
 .
 EnsureTemporaryOriginIsInitialized
 (
-mPersistenceType
 OriginMetadata
 {
 mPrincipalMetadata
