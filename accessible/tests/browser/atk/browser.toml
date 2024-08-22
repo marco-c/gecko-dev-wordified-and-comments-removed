@@ -74,6 +74,15 @@ force_disabled
 -
 1
 "
+"
+javascript
+.
+options
+.
+asyncstack_capture_debuggee_only
+=
+false
+"
 ]
 [
 "
