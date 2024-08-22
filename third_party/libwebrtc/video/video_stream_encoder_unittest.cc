@@ -56842,16 +56842,6 @@ test
 :
 ScopedKeyValueConfig
 field_trials
-(
-"
-WebRTC
--
-ZeroHertzScreenshare
-/
-Enabled
-/
-"
-)
 ;
 auto
 adapter

@@ -6090,28 +6090,6 @@ FieldTrial
 '
 WebRTC
 -
-ZeroHertzScreenshare
-'
-               
-'
-chromium
-:
-1255737
-'
-               
-date
-(
-2024
-4
-1
-)
-)
-    
-FieldTrial
-(
-'
-WebRTC
--
 ZeroPlayoutDelay
 '
                
@@ -6137,7 +6115,7 @@ str
 \
     
 '
-3026f839766eb90355893fa0f1af8e9bf0d0dca1
+2387f9c58686fb4e4f9baa69b9323ef857255d6a
 '
 REGISTERED_FIELD_TRIALS
 :
