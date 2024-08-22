@@ -2448,14 +2448,6 @@ async_packet_socket
 /
 rtc_base
 :
-proxy_info
-"
-"
-.
-.
-/
-rtc_base
-:
 socket_address
 "
 "
