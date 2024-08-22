@@ -184,7 +184,7 @@ process_exit
 if
 mozinfo
 .
-isUnix
+isLinux
 :
         
 utility

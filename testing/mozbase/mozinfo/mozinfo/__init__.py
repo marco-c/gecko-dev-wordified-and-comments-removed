@@ -31,21 +31,6 @@ or
 attribute
 :
 :
-isBsd
-   
-Returns
-True
-if
-the
-operating
-system
-is
-BSD
-.
-.
-attribute
-:
-:
 isLinux
    
 Returns
@@ -126,7 +111,7 @@ x86
 x86_64
 '
 '
-ppc
+aarch64
 '
 .
 .

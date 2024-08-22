@@ -323,7 +323,7 @@ wait
 if
 mozinfo
 .
-isUnix
+isLinux
 :
             
 self
