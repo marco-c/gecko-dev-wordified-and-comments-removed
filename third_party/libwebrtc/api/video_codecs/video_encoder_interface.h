@@ -306,15 +306,6 @@ spatial_id
 int
 encoded_qp
 ;
-std
-:
-:
-vector
-<
-int
->
-referenced_buffers
-;
 }
 ;
 using
