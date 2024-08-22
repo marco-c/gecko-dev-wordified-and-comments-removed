@@ -775,6 +775,13 @@ js
 ]
 [
 "
+browser_translations_select_telemetry_translation_success_with_full_page_translations_active
+.
+js
+"
+]
+[
+"
 browser_translations_select_telemetry_unsupported_language_ui
 .
 js
