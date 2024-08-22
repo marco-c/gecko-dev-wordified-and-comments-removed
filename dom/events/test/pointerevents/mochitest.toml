@@ -514,6 +514,13 @@ on
 mobile
 [
 "
+test_pointermove_isPrimary_subsequent_pens
+.
+html
+"
+]
+[
+"
 test_remove_frame_when_got_pointer_capture
 .
 html
