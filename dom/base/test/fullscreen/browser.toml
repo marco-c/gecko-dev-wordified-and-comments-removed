@@ -185,6 +185,17 @@ js
 "
 browser_fullscreen
 -
+form
+-
+validation
+.
+js
+"
+]
+[
+"
+browser_fullscreen
+-
 navigation
 -
 history
