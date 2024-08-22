@@ -3496,7 +3496,7 @@ record_in_processes
 :
 [
 "
-content
+main
 "
 ]
 release_channel_collection
@@ -3723,7 +3723,7 @@ record_in_processes
 :
 [
 "
-content
+main
 "
 ]
 release_channel_collection
@@ -4255,7 +4255,7 @@ record_in_processes
 :
 [
 "
-content
+main
 "
 ]
 release_channel_collection

@@ -18815,7 +18815,7 @@ record_in_processes
 :
 -
 '
-content
+main
 '
 submitted_sections_count
 :
@@ -18875,7 +18875,7 @@ record_in_processes
 :
 -
 '
-content
+main
 '
 autofill_profiles_count
 :
@@ -19072,7 +19072,7 @@ record_in_processes
 :
 -
 '
-content
+main
 '
 submitted_sections_count
 :
@@ -19135,7 +19135,7 @@ record_in_processes
 :
 -
 '
-content
+main
 '
 #
 This
