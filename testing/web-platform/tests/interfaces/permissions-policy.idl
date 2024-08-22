@@ -139,6 +139,14 @@ PermissionsPolicyViolationReportBody
 :
 ReportBody
 {
+[
+Default
+]
+object
+toJSON
+(
+)
+;
 readonly
 attribute
 DOMString

@@ -62,9 +62,9 @@ Exposed
 Window
 ]
 interface
-CSSNestRule
+CSSNestedDeclarations
 :
-CSSGroupingRule
+CSSRule
 {
 [
 SameObject

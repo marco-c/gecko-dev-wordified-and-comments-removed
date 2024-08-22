@@ -790,6 +790,13 @@ attribute
 LegacyNullToEmptyString
 ]
 CSSOMString
+orientation
+;
+attribute
+[
+LegacyNullToEmptyString
+]
+CSSOMString
 marks
 ;
 attribute

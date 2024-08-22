@@ -82,7 +82,7 @@ selectURL
 (
 DOMString
 name
-FrozenArray
+sequence
 <
 SharedStorageUrlWithMetadata
 >
@@ -264,7 +264,7 @@ selectURL
 (
 DOMString
 name
-FrozenArray
+sequence
 <
 SharedStorageUrlWithMetadata
 >
