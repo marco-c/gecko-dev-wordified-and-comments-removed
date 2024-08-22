@@ -186,6 +186,13 @@ js
 ]
 [
 "
+test_policy
+.
+js
+"
+]
+[
+"
 test_prefFlips
 .
 js
