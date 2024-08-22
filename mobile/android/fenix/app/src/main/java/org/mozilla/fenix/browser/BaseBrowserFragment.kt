@@ -3960,6 +3960,9 @@ context
 shouldAddNavigationBar
 (
 )
+&
+&
+webAppToolbarShouldBeVisible
 if
 (
 shouldAddNavigationBar
