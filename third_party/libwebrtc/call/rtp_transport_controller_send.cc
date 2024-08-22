@@ -1531,6 +1531,14 @@ bwe_settings_
 =
 settings
 ;
+streams_config_
+.
+enable_repeated_initial_probing
+=
+bwe_settings_
+.
+allow_probe_without_media
+;
 bool
 allow_probe_without_media
 =
@@ -1544,12 +1552,6 @@ packet_router_
 SupportsRtxPayloadPadding
 (
 )
-;
-streams_config_
-.
-initial_probe_to_max_bitrate
-=
-allow_probe_without_media
 ;
 pacer_
 .

@@ -154,7 +154,7 @@ optional
 <
 bool
 >
-initial_probe_to_max_bitrate
+enable_repeated_initial_probing
 ;
 absl
 :
