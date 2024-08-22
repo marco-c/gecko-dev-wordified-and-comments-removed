@@ -2022,14 +2022,6 @@ mozilla
 Visibility
 ;
 using
-LengthPercentage
-=
-mozilla
-:
-:
-LengthPercentage
-;
-using
 ContentRelevancy
 =
 mozilla
@@ -11703,7 +11695,7 @@ mozilla
 :
 LogicalSize
 &
-aContainingBlockSize
+aCBSize
 const
 mozilla
 :
@@ -11749,7 +11741,7 @@ mozilla
 :
 LogicalSize
 &
-aContainingBlockSize
+aCBSize
 const
 mozilla
 :
@@ -11758,10 +11750,14 @@ LogicalSize
 &
 aContentEdgeToBoxSizing
 const
+mozilla
+:
+:
 LengthPercentage
 &
 aSize
 )
+const
 ;
 template
 <
@@ -11786,7 +11782,7 @@ mozilla
 :
 LogicalSize
 &
-aContainingBlockSize
+aCBSize
 const
 mozilla
 :
@@ -11834,7 +11830,7 @@ return
 ComputeISizeValue
 (
 aWM
-aContainingBlockSize
+aCBSize
 aContentEdgeToBoxSizing
 aSize
 .
@@ -11895,7 +11891,7 @@ AsFitContentFunction
 .
 Resolve
 (
-aContainingBlockSize
+aCBSize
 .
 ISize
 (
@@ -11910,7 +11906,7 @@ ComputeISizeValue
 (
 aRenderingContext
 aWM
-aContainingBlockSize
+aCBSize
 aContentEdgeToBoxSizing
 aBoxSizingToMarginEdge
 length
