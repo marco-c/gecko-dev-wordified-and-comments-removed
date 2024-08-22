@@ -3242,10 +3242,6 @@ const
 SharedBytes
 bytecode_
 ;
-const
-SharedCompileArgs
-compileArgs_
-;
 Tiers
 completeTiers
 (
@@ -3408,10 +3404,6 @@ const
 ShareableBytes
 *
 maybeBytecode
-const
-CompileArgs
-*
-maybeCompileArgs
 )
 ;
 bool

@@ -18965,6 +18965,10 @@ codeMeta
 (
 )
 .
+scriptedCaller
+(
+)
+.
 filenameIsURL
 )
 {
@@ -18974,6 +18978,10 @@ char
 filename
 =
 codeMeta
+(
+)
+.
+scriptedCaller
 (
 )
 .
@@ -19033,6 +19041,10 @@ char
 filename
 =
 codeMeta
+(
+)
+.
+scriptedCaller
 (
 )
 .
