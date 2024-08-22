@@ -4752,6 +4752,9 @@ socket
 "
 remoteSandboxBroker
 "
+"
+inference
+"
 #
 ifdef
 MOZ_ENABLE_FORKSERVER

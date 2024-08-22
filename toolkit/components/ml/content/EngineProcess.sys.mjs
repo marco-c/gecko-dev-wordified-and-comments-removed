@@ -1557,7 +1557,7 @@ setAttribute
 remoteType
 "
 "
-web
+inference
 "
 )
 ;

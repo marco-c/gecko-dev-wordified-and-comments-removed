@@ -111,6 +111,7 @@ PrivilegedAbout
 PrivilegedMozilla
 WebCOOPCOEP
 WebServiceWorker
+Inference
 #
 define
 GECKO_PROCESS_TYPE

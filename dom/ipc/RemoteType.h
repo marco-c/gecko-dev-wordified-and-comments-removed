@@ -62,6 +62,13 @@ privilegedmozilla
 _ns
 #
 define
+INFERENCE_REMOTE_TYPE
+"
+inference
+"
+_ns
+#
+define
 DEFAULT_REMOTE_TYPE
 WEB_REMOTE_TYPE
 #

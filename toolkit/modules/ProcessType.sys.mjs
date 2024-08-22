@@ -314,6 +314,15 @@ type
 -
 file
 "
+inference
+:
+"
+process
+-
+type
+-
+inference
+"
 prealloc
 :
 "
