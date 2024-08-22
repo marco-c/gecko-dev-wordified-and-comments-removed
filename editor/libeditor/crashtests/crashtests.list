@@ -1,3 +1,13 @@
+defaults
+pref
+(
+test
+.
+ime_content_observer
+.
+assert_invalid_cache
+true
+)
 load
 336081
 -

@@ -20,6 +20,15 @@ enabled
 false
 "
 "
+test
+.
+ime_content_observer
+.
+assert_invalid_cache
+=
+true
+"
+"
 ui
 .
 dragThresholdX
