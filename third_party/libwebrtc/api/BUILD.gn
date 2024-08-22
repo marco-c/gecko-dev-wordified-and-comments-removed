@@ -435,6 +435,10 @@ enable_media
 "
 "
 :
+field_trials_view
+"
+"
+:
 libjingle_peerconnection_api
 "
 "
@@ -494,6 +498,16 @@ webrtc_sdp
 rtc_base
 :
 threading
+"
+"
+.
+.
+/
+rtc_base
+/
+system
+:
+rtc_export
 "
 "
 .
