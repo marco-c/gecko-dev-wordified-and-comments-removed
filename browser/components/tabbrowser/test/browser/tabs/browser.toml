@@ -1404,6 +1404,13 @@ js
 ]
 [
 "
+browser_tabReorder_vertical
+.
+js
+"
+]
+[
+"
 browser_tabSpinnerProbe
 .
 js
