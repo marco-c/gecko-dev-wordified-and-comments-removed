@@ -217,7 +217,7 @@ initialized
 =
 aQuotaManager
 .
-IsOriginInitialized
+IsPersistentOriginInitializedInternal
 (
 aOriginMetadata
 .
@@ -231,7 +231,7 @@ initialized
 =
 aQuotaManager
 .
-IsTemporaryStorageInitialized
+IsTemporaryStorageInitializedInternal
 (
 )
 ;

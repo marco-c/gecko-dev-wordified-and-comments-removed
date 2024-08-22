@@ -331,7 +331,7 @@ res
 quotaManager
 -
 >
-EnsureTemporaryOriginIsInitialized
+EnsureTemporaryOriginIsInitializedInternal
 (
 originMetadata
 )

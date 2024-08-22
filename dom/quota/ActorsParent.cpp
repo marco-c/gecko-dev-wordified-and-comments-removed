@@ -23219,7 +23219,7 @@ nsresult
 QuotaManager
 :
 :
-EnsurePersistentOriginIsInitialized
+EnsurePersistentOriginIsInitializedInternal
 (
 const
 OriginMetadata
@@ -23309,7 +23309,7 @@ aOriginMetadata
 ;
 if
 (
-mInitializedOrigins
+mInitializedOriginsInternal
 .
 Contains
 (
@@ -23465,7 +23465,7 @@ directory
 )
 )
 ;
-mInitializedOrigins
+mInitializedOriginsInternal
 .
 AppendElement
 (
@@ -23523,7 +23523,7 @@ bool
 QuotaManager
 :
 :
-IsTemporaryOriginInitialized
+IsTemporaryOriginInitializedInternal
 (
 const
 OriginMetadata
@@ -23594,7 +23594,7 @@ nsresult
 QuotaManager
 :
 :
-EnsureTemporaryOriginIsInitialized
+EnsureTemporaryOriginIsInitializedInternal
 (
 const
 OriginMetadata
@@ -23881,7 +23881,7 @@ IsStorageInitializedInternal
 ;
 MOZ_DIAGNOSTIC_ASSERT
 (
-IsOriginInitialized
+IsPersistentOriginInitializedInternal
 (
 aClientMetadata
 .
@@ -24080,7 +24080,7 @@ IsTemporaryStorageInitializedInternal
 ;
 MOZ_DIAGNOSTIC_ASSERT
 (
-IsTemporaryOriginInitialized
+IsTemporaryOriginInitializedInternal
 (
 aClientMetadata
 )
@@ -25188,7 +25188,7 @@ ResetOriginInitializationInfos
 (
 )
 ;
-mInitializedOrigins
+mInitializedOriginsInternal
 .
 Clear
 (
@@ -25529,7 +25529,7 @@ aPersistenceType
 PERSISTENCE_TYPE_PERSISTENT
 )
 {
-mInitializedOrigins
+mInitializedOriginsInternal
 .
 RemoveElement
 (
@@ -25612,7 +25612,7 @@ aPersistenceType
 PERSISTENCE_TYPE_PERSISTENT
 )
 {
-mInitializedOrigins
+mInitializedOriginsInternal
 .
 Clear
 (

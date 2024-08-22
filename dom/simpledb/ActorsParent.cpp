@@ -4846,7 +4846,7 @@ QM_TRY_RETURN
 quotaManager
 -
 >
-EnsurePersistentOriginIsInitialized
+EnsurePersistentOriginIsInitializedInternal
 (
 mOriginMetadata
 )
@@ -4871,7 +4871,7 @@ QM_TRY_RETURN
 quotaManager
 -
 >
-EnsureTemporaryOriginIsInitialized
+EnsureTemporaryOriginIsInitializedInternal
 (
 mOriginMetadata
 )

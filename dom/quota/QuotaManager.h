@@ -642,7 +642,7 @@ aNormalOriginOp
 )
 ;
 bool
-IsOriginInitialized
+IsPersistentOriginInitializedInternal
 (
 const
 nsACString
@@ -656,7 +656,7 @@ AssertIsOnIOThread
 )
 ;
 return
-mInitializedOrigins
+mInitializedOriginsInternal
 .
 Contains
 (
@@ -1350,7 +1350,7 @@ bool
 >
 nsresult
 >
-EnsurePersistentOriginIsInitialized
+EnsurePersistentOriginIsInitializedInternal
 (
 const
 OriginMetadata
@@ -1359,7 +1359,7 @@ aOriginMetadata
 )
 ;
 bool
-IsTemporaryOriginInitialized
+IsTemporaryOriginInitializedInternal
 (
 const
 OriginMetadata
@@ -1383,7 +1383,7 @@ bool
 >
 nsresult
 >
-EnsureTemporaryOriginIsInitialized
+EnsureTemporaryOriginIsInitializedInternal
 (
 const
 OriginMetadata
@@ -3016,7 +3016,7 @@ nsTArray
 <
 nsCString
 >
-mInitializedOrigins
+mInitializedOriginsInternal
 ;
 nsTHashMap
 <
