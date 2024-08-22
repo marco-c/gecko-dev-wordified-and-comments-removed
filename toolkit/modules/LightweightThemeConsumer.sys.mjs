@@ -1863,6 +1863,9 @@ theme
 additionalBackgrounds
 )
 ;
+let
+_processedColors
+=
 _setProperties
 (
 root
@@ -1886,6 +1889,7 @@ this
 .
 _doc
 theme
+_processedColors
 hasDarkTheme
 useDarkTheme
 )
@@ -1912,6 +1916,7 @@ this
 .
 _doc
 null
+null
 )
 ;
 root
@@ -1930,8 +1935,6 @@ this
 .
 _doc
 root
-theme
-.
 _processedColors
 hasTheme
 )
@@ -2935,6 +2938,7 @@ _determineToolbarAndContentTheme
 (
 aDoc
 aTheme
+colors
 aHasDarkTheme
 =
 false
@@ -2957,14 +2961,6 @@ const
 kSystem
 =
 2
-;
-const
-colors
-=
-aTheme
-?
-.
-_processedColors
 ;
 function
 colorSchemeValue
@@ -3890,8 +3886,7 @@ that
 s
 OK
 .
-themeData
-.
+let
 _processedColors
 =
 {
@@ -4043,8 +4038,6 @@ color
 to
 themeData
 .
-themeData
-.
 _processedColors
 [
 lwtProperty
@@ -4062,6 +4055,9 @@ val
 ;
 }
 }
+return
+_processedColors
+;
 }
 const
 kInvalidColor
