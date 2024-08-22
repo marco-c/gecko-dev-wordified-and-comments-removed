@@ -2453,6 +2453,15 @@ mathml10
 "
 monochrome
 "
+"
+oscpu
+"
+"
+pdfViewer
+"
+"
+platform
+"
 ]
 }
 ;
