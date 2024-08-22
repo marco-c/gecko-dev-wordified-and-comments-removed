@@ -58,6 +58,13 @@ js
 ]
 [
 "
+browser_settings_enable_backup_encryption
+.
+js
+"
+]
+[
+"
 browser_settings_turn_on_scheduled_backups
 .
 js
