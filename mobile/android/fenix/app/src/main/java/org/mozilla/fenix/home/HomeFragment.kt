@@ -4063,12 +4063,6 @@ popupVerticalOffset
 10
 .
 dp
-dismissOnBackPress
-=
-true
-dismissOnClickOutside
-=
-false
 indicatorArrowStartOffset
 =
 130
