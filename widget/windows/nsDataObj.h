@@ -662,10 +662,8 @@ nsCString
 >
 mDataFlavors
 ;
-RefPtr
-<
 nsITransferable
->
+*
 mTransferable
 ;
 protected
