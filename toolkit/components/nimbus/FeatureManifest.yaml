@@ -1890,15 +1890,6 @@ pocketSuggestIndex
 type
 :
 int
-fallbackPref
-:
-browser
-.
-urlbar
-.
-pocket
-.
-suggestedIndex
 description
 :
 >

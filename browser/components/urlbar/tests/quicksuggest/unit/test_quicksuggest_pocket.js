@@ -224,8 +224,7 @@ initNimbusFeature
 {
 pocketSuggestIndex
 :
--
-1
+0
 }
 )
 ;
@@ -269,8 +268,7 @@ searchString
 LOW_KEYWORD
 suggestedIndex
 :
--
-1
+0
 }
 )
 ]
@@ -365,7 +363,8 @@ searchString
 LOW_KEYWORD
 suggestedIndex
 :
-0
+-
+1
 }
 )
 ]
@@ -2428,7 +2427,8 @@ treatment
 let
 expectedSuggestedIndex
 =
-0
+-
+1
 ;
 if
 (
