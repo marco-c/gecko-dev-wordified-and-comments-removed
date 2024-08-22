@@ -10735,6 +10735,11 @@ version
 addon
 .
 version
+type
+:
+addon
+.
+type
 resourceURI
 :
 addon
