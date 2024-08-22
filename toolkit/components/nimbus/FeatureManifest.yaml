@@ -3462,15 +3462,6 @@ yelpSuggestNonPriorityIndex
 type
 :
 int
-fallbackPref
-:
-browser
-.
-urlbar
-.
-yelp
-.
-suggestedIndex
 description
 :
 >
