@@ -36,6 +36,7 @@ enum
 class
 VibrancyType
 {
+Sidebar
 Titlebar
 }
 ;
