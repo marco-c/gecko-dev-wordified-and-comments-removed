@@ -875,14 +875,6 @@ doResizeViewport
 this
 .
 onChangeSize
-onRemoveDeviceAssociation
-:
-(
-)
-=
->
-{
-}
 }
 )
 )
