@@ -62,6 +62,10 @@ MPL
 0
 /
 .
+set
+-
+Eeuo
+pipefail
 mkdir
 _build_temp
 cd
@@ -97,6 +101,10 @@ meson
 Dglx
 =
 no
+-
+Degl
+=
+yes
 -
 Dx11
 =
