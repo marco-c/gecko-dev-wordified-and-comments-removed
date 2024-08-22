@@ -3216,10 +3216,10 @@ MACRO
 DisposeDisposables
 dispose_disposables
 NULL
-1
+2
 0
 0
-JOF_BYTE
+JOF_UINT8
 )
 )
 \
