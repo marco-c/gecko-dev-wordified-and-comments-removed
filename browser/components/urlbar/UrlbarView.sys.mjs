@@ -5187,6 +5187,7 @@ oneOffSearchButtons
 .
 enable
 (
+(
 firstResult
 .
 providerName
@@ -5195,6 +5196,12 @@ providerName
 "
 UrlbarProviderSearchTips
 "
+|
+|
+queryContext
+.
+trimmedSearchString
+)
 &
 &
 queryContext
