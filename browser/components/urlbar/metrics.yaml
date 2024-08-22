@@ -767,6 +767,10 @@ rs_pocket
 rust_adm_nonsponsored
 rust_adm_sponsored
 rust_amo
+rust_fakespot_amazon
+rust_fakespot_bestbuy
+rust_fakespot_other
+rust_fakespot_walmart
 rust_mdn
 rust_pocket
 rust_yelp
@@ -1497,6 +1501,10 @@ rs_pocket
 rust_adm_nonsponsored
 rust_adm_sponsored
 rust_amo
+rust_fakespot_amazon
+rust_fakespot_bestbuy
+rust_fakespot_other
+rust_fakespot_walmart
 rust_mdn
 rust_pocket
 rust_yelp
@@ -1912,6 +1920,10 @@ rs_pocket
 rust_adm_nonsponsored
 rust_adm_sponsored
 rust_amo
+rust_fakespot_amazon
+rust_fakespot_bestbuy
+rust_fakespot_other
+rust_fakespot_walmart
 rust_mdn
 rust_pocket
 rust_yelp

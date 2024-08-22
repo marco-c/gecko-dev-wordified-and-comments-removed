@@ -102,6 +102,13 @@ fakespotGrade
 "
 A
 "
+productId
+:
+"
+amazon
+-
+0
+"
 }
 ;
 const
