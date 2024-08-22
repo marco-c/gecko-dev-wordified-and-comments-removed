@@ -6604,7 +6604,7 @@ merinoProviderEnabled
 :
 type
 :
-string
+boolean
 fallbackPref
 :
 >
