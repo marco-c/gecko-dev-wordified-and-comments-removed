@@ -2630,6 +2630,11 @@ Load
 )
 ;
 void
+FontLoadComplete
+(
+)
+;
+void
 SetLoader
 (
 nsFontFaceLoader
@@ -3063,11 +3068,6 @@ gfxUserFontSet
 >
 &
 aResult
-)
-;
-void
-IncrementGeneration
-(
 )
 ;
 UserFontLoadState
