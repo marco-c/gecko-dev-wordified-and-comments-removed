@@ -191,7 +191,7 @@ pwd
 )
 TEST_TIME
 =
-600
+30
 bash
 SCRIPT_DIR
 /
