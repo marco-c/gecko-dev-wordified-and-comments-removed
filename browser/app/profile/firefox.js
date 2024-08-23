@@ -12890,7 +12890,7 @@ topicLabels
 .
 enabled
 "
-false
+true
 )
 ;
 pref
