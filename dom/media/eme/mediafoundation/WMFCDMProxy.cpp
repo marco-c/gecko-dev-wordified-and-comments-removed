@@ -1390,7 +1390,10 @@ s
 "
 this
 aPromiseId
-SessionTypeToStr
+KeySystemConfig
+:
+:
+EnumValueToString
 (
 sessionType
 )
@@ -1625,7 +1628,10 @@ s
 "
 this
 aPromiseId
-SessionTypeToStr
+KeySystemConfig
+:
+:
+EnumValueToString
 (
 sessionType
 )
