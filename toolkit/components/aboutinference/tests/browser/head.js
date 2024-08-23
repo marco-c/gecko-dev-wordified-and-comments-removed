@@ -207,6 +207,8 @@ inferencePromise
 )
 .
 output
+.
+echo
 "
 This
 gets
