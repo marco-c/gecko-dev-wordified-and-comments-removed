@@ -20,7 +20,7 @@ serde
 .
 0
 .
-203
+204
 "
 )
 ]
@@ -77,7 +77,6 @@ unstable
 "
 feature
 (
-error_in_core
 never_type
 )
 )
