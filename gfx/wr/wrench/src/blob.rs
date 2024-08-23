@@ -1184,11 +1184,6 @@ BlobImageParams
 _low_priority
 :
 bool
-_tile_pool
-:
-&
-mut
-BlobTilePool
 )
 -
 >
