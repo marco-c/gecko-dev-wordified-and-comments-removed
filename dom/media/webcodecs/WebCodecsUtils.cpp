@@ -2087,7 +2087,7 @@ gfx
 SurfaceFormat
 :
 :
-NV12
+YUV422P10
 :
 return
 Some
@@ -2095,7 +2095,7 @@ Some
 VideoPixelFormat
 :
 :
-NV12
+I422P10
 )
 ;
 case
@@ -2105,7 +2105,7 @@ gfx
 SurfaceFormat
 :
 :
-YUY2
+NV12
 :
 return
 Some
@@ -2113,7 +2113,7 @@ Some
 VideoPixelFormat
 :
 :
-I422
+NV12
 )
 ;
 default
