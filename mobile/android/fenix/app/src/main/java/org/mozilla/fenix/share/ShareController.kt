@@ -1233,9 +1233,6 @@ ShareFragmentDirections
 .
 actionGlobalTurnOnSync
 (
-padSnackbar
-=
-true
 entrypoint
 =
 fxaEntrypoint
