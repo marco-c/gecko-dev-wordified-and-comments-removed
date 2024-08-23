@@ -96,6 +96,23 @@ Security
 Policy
 '
     
+report_uri_base
+=
+request
+.
+GET
+.
+first
+(
+b
+'
+reportUriBase
+'
+b
+'
+'
+)
+    
 headers
 .
 append
@@ -114,6 +131,12 @@ none
 report
 -
 uri
+"
++
+report_uri_base
++
+b
+"
 /
 reporting
 /
