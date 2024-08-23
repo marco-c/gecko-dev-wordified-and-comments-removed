@@ -2283,6 +2283,7 @@ SelfTest
 0
 IntGemm
 JSString
+JSStringConstants
 }
 ;
 struct
@@ -2310,6 +2311,11 @@ jsString
 false
 ;
 bool
+jsStringConstants
+=
+false
+;
+bool
 hasNone
 (
 )
@@ -2326,6 +2332,10 @@ intGemm
 &
 !
 jsString
+&
+&
+!
+jsStringConstants
 ;
 }
 WASM_CHECK_CACHEABLE_POD
@@ -2333,6 +2343,7 @@ WASM_CHECK_CACHEABLE_POD
 selfTest
 intGemm
 jsString
+jsStringConstants
 )
 }
 ;
