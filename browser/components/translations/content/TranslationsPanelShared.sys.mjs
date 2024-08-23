@@ -334,9 +334,12 @@ of
 the
 *
 FullPageTranslationsPanel
-or
+and
 the
 SelectTranslationsPanel
+dropdown
+menu
+lists
 .
 *
 *
@@ -362,11 +365,11 @@ slate
 *
 /
 static
-clearCache
+clearLanguageListsCache
 (
 )
 {
-this
+TranslationsPanelShared
 .
 #
 langListsInitState
