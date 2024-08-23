@@ -327,8 +327,7 @@ dp
 *
 *
 The
-micro
-survey
+microsurvey
 content
 UI
 to
@@ -417,7 +416,7 @@ selectedAnswer
 /
 Composable
 fun
-MicroSurveyContent
+MicrosurveyContent
 (
 question
 :
@@ -662,7 +661,7 @@ headline7
 Preview
 for
 [
-MicroSurveyContent
+MicrosurveyContent
 ]
 .
 *
@@ -671,13 +670,13 @@ PreviewScreenSizes
 LightDarkPreview
 Composable
 fun
-MicroSurveyContentPreview
+MicrosurveyContentPreview
 (
 )
 {
 FirefoxTheme
 {
-MicroSurveyContent
+MicrosurveyContent
 (
 question
 =

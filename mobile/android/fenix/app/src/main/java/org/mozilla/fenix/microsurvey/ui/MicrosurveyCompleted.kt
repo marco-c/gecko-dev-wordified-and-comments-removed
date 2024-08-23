@@ -544,7 +544,7 @@ PreviewScreenSizes
 LightDarkPreview
 Composable
 fun
-MicroSurveyCompletedPreview
+MicrosurveyCompletedPreview
 (
 )
 {
