@@ -1023,6 +1023,10 @@ pub
 prim_needs_scissor_rect
 :
 bool
+pub
+texture_input
+:
+RenderTaskId
 }
 #
 [
@@ -2869,6 +2873,9 @@ QuadFlags
 prim_needs_scissor_rect
 :
 bool
+texture_input
+:
+RenderTaskId
 )
 -
 >
@@ -2891,6 +2898,7 @@ transform_id
 edge_flags
 quad_flags
 prim_needs_scissor_rect
+texture_input
 }
 )
 }

@@ -42,6 +42,7 @@ PatternBuilderContext
 PatternBuilderState
 PatternKind
 PatternShaderInput
+PatternTextureInput
 }
 ;
 use
@@ -2951,6 +2952,14 @@ stops_address
 as_int
 (
 )
+)
+texture_input
+:
+PatternTextureInput
+:
+:
+default
+(
 )
 base_color
 :
