@@ -1737,6 +1737,8 @@ components
 /
 passwordmgr
 /
+shared
+/
 PasswordRulesParser
 .
 sys

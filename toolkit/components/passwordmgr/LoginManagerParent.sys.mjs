@@ -342,6 +342,8 @@ gre
 /
 modules
 /
+shared
+/
 PasswordGenerator
 .
 sys

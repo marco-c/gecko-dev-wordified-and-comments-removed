@@ -481,6 +481,8 @@ gre
 /
 modules
 /
+shared
+/
 LoginFormFactory
 .
 sys
@@ -548,6 +550,8 @@ resource
 gre
 /
 modules
+/
+shared
 /
 NewPasswordModel
 .
