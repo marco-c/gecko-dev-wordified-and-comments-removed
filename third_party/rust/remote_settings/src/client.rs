@@ -38,7 +38,10 @@ use
 serde
 :
 :
+{
 Deserialize
+Serialize
+}
 ;
 use
 std
@@ -1187,6 +1190,8 @@ Clone
 Debug
 Eq
 PartialEq
+Deserialize
+Serialize
 )
 ]
 pub
@@ -1210,6 +1215,7 @@ u64
 derive
 (
 Deserialize
+Serialize
 )
 ]
 struct
@@ -1229,6 +1235,7 @@ derive
 Clone
 Debug
 Deserialize
+Serialize
 Eq
 PartialEq
 )
@@ -1282,6 +1289,7 @@ derive
 Clone
 Debug
 Deserialize
+Serialize
 Eq
 PartialEq
 )
