@@ -1,7 +1,7 @@
 const
 THREAD_TYPE_WORKER
 =
-10
+11
 ;
 oomAtAllocation
 (
