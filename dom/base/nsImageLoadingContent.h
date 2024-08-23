@@ -940,7 +940,9 @@ imgRequestProxy
 PrepareNextRequest
 (
 ImageLoadType
-aImageLoadType
+nsIURI
+*
+aNewURI
 )
 ;
 RefPtr
@@ -951,7 +953,9 @@ imgRequestProxy
 PrepareCurrentRequest
 (
 ImageLoadType
-aImageLoadType
+nsIURI
+*
+aNewURI
 )
 ;
 RefPtr
@@ -962,7 +966,6 @@ imgRequestProxy
 PreparePendingRequest
 (
 ImageLoadType
-aImageLoadType
 )
 ;
 void
