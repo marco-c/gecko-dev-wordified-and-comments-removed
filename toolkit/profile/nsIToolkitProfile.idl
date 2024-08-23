@@ -488,6 +488,9 @@ null
 .
 *
 /
+[
+infallible
+]
 attribute
 boolean
 showProfileSelector
