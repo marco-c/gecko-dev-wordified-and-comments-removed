@@ -81,7 +81,9 @@ CreditCard
 import
 mozilla
 .
-telemetry
+components
+.
+service
 .
 glean
 .

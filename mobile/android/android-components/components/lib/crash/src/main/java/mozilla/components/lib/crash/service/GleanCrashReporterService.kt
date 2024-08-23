@@ -295,7 +295,9 @@ respective
 [
 mozilla
 .
-telemetry
+components
+.
+service
 .
 glean
 .

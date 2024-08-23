@@ -123,7 +123,9 @@ observeAsComposableState
 import
 mozilla
 .
-telemetry
+components
+.
+service
 .
 glean
 .

@@ -196,11 +196,13 @@ org
 .
 mozilla
 .
-telemetry
+components
 '
 module
 :
 '
+service
+-
 glean
 '
 }
