@@ -26,6 +26,7 @@ import
 ALL_SIDES
 DEFAULT_RULES
 DEFAULT_RULES_AND_PAGE
+POSITION_TRY_RULE
 maybe_moz_logical_alias
 %
 >
@@ -189,6 +190,7 @@ spec
 spec
 rule_types_allowed
 =
+(
 DEFAULT_RULES
 if
 side
@@ -197,6 +199,9 @@ side
 ]
 else
 DEFAULT_RULES_AND_PAGE
+)
+|
+POSITION_TRY_RULE
 servo_restyle_damage
 =
 "

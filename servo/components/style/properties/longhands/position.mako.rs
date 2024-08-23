@@ -26,6 +26,7 @@ import
 ALL_SIZES
 PHYSICAL_SIDES
 LOGICAL_SIDES
+DEFAULT_RULES_AND_POSITION_TRY
 %
 >
 %
@@ -93,6 +94,9 @@ allow_quirks
 "
 Yes
 "
+rule_types_allowed
+=
+DEFAULT_RULES_AND_POSITION_TRY
 servo_restyle_damage
 =
 "
@@ -180,6 +184,9 @@ s
 "
 %
 side
+rule_types_allowed
+=
+DEFAULT_RULES_AND_POSITION_TRY
 logical
 =
 True
@@ -955,6 +962,9 @@ animation_type
 "
 discrete
 "
+rule_types_allowed
+=
+DEFAULT_RULES_AND_POSITION_TRY
 affects
 =
 "
@@ -1027,6 +1037,9 @@ animation_type
 "
 discrete
 "
+rule_types_allowed
+=
+DEFAULT_RULES_AND_POSITION_TRY
 affects
 =
 "
@@ -1299,6 +1312,9 @@ spec
 spec
 %
 size
+rule_types_allowed
+=
+DEFAULT_RULES_AND_POSITION_TRY
 servo_restyle_damage
 =
 "
@@ -1370,6 +1386,9 @@ spec
 spec
 %
 size
+rule_types_allowed
+=
+DEFAULT_RULES_AND_POSITION_TRY
 servo_restyle_damage
 =
 "
@@ -1441,6 +1460,9 @@ spec
 spec
 %
 size
+rule_types_allowed
+=
+DEFAULT_RULES_AND_POSITION_TRY
 servo_restyle_damage
 =
 "
@@ -1489,6 +1511,9 @@ animation_type
 "
 discrete
 "
+rule_types_allowed
+=
+DEFAULT_RULES_AND_POSITION_TRY
 gecko_pref
 =
 "
@@ -1584,6 +1609,9 @@ animation_type
 "
 discrete
 "
+rule_types_allowed
+=
+DEFAULT_RULES_AND_POSITION_TRY
 gecko_pref
 =
 "
