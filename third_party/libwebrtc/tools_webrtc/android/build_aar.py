@@ -426,37 +426,6 @@ add_argument
 -
 use
 -
-goma
-'
-                        
-action
-=
-'
-store_true
-'
-                        
-default
-=
-False
-                        
-help
-=
-'
-Use
-goma
-.
-'
-)
-    
-parser
-.
-add_argument
-(
-'
--
--
-use
--
 remoteexec
 '
                         
@@ -1220,11 +1189,10 @@ Build
 (
 build_dir
 arch
-use_goma
 use_remoteexec
 extra_gn_args
-          
 extra_gn_switches
+          
 extra_ninja_switches
 )
 :
@@ -1306,12 +1274,6 @@ _GetTargetCpu
 (
 arch
 )
-        
-'
-use_goma
-'
-:
-use_goma
         
 '
 use_remoteexec
@@ -1412,8 +1374,6 @@ TARGETS
 ]
     
 if
-use_goma
-or
 use_remoteexec
 :
         
@@ -1677,10 +1637,6 @@ archs
              
 output_file
              
-use_goma
-=
-False
-             
 use_remoteexec
 =
 False
@@ -1750,7 +1706,6 @@ Build
 (
 build_dir
 arch
-use_goma
 use_remoteexec
 extra_gn_args
               
@@ -1874,24 +1829,21 @@ args
 output
 args
 .
-use_goma
-args
-.
 use_remoteexec
-             
 args
 .
 extra_gn_args
+             
 args
 .
 build_dir
 args
 .
 extra_gn_switches
-             
 args
 .
 extra_ninja_switches
+             
 args
 .
 use_unstripped_libs
