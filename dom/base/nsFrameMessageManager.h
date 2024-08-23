@@ -282,13 +282,6 @@ MessageManagerCallback
 class
 WritableSharedMap
 ;
-static
-const
-uint32_t
-kMinTelemetrySyncMessageManagerLatencyMs
-=
-1
-;
 enum
 class
 MessageManagerFlags
