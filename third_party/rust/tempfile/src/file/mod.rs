@@ -3342,6 +3342,19 @@ open_options
 &
 mut
 OpenOptions
+permissions
+:
+Option
+<
+&
+std
+:
+:
+fs
+:
+:
+Permissions
+>
 )
 -
 >
@@ -3384,6 +3397,7 @@ create_named
 &
 path
 open_options
+permissions
 )
 .
 with_err_path
