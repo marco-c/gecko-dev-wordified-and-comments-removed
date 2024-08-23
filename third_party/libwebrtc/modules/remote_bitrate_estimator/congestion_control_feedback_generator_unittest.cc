@@ -2043,7 +2043,7 @@ CurrentTime
 }
 TEST
 (
-DISABLED_CongestionControlFeedbackGeneratorTest
+CongestionControlFeedbackGeneratorTest
 ReportsFirstReceivedPacketArrivalTimeButEcnFromCePacketIfDuplicate
 )
 {
