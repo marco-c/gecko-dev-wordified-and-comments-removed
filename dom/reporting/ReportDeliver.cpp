@@ -1,5 +1,10 @@
 #
 include
+<
+algorithm
+>
+#
+include
 "
 mozilla
 /
@@ -207,6 +212,14 @@ StaticRefPtr
 ReportDeliver
 >
 gReportDeliver
+;
+constexpr
+double
+gMinReportAgeInMs
+=
+4
+.
+0
 ;
 class
 ReportFetchHandler
@@ -807,6 +820,11 @@ IntProperty
 "
 age
 "
+std
+:
+:
+max
+(
 (
 TimeStamp
 :
@@ -822,6 +840,8 @@ mCreationTime
 .
 ToMilliseconds
 (
+)
+gMinReportAgeInMs
 )
 )
 ;
