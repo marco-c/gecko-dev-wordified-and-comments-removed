@@ -1106,17 +1106,6 @@ ConsumeTransientUserGestureActivation
 )
 ;
 bool
-HasValidHistoryActivation
-(
-)
-const
-;
-bool
-ConsumeHistoryActivation
-(
-)
-;
-bool
 GetTransientUserGestureActivationModifiers
 (
 UserActivation
@@ -1866,9 +1855,6 @@ true
 ;
 TimeStamp
 mUserGestureStart
-;
-TimeStamp
-mHistoryActivation
 ;
 }
 ;
