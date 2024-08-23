@@ -2178,10 +2178,6 @@ mHasMappedToplevel
 (
 false
 )
-mRetryPointerGrab
-(
-false
-)
 mPanInProgress
 (
 false
