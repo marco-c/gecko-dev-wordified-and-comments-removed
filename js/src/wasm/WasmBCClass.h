@@ -1286,14 +1286,6 @@ r
 ;
 inline
 void
-maybeClearHighPart
-(
-RegI64
-r
-)
-;
-inline
-void
 loadConstI32
 (
 const

@@ -999,7 +999,7 @@ clz64
 (
 Register64
 src
-Register
+Register64
 dest
 )
 {
@@ -1016,7 +1016,7 @@ ctz64
 (
 Register64
 src
-Register
+Register64
 dest
 )
 {

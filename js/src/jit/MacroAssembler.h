@@ -5068,7 +5068,7 @@ clz64
 (
 Register64
 src
-Register
+Register64
 dest
 )
 PER_ARCH
@@ -5079,7 +5079,7 @@ ctz64
 (
 Register64
 src
-Register
+Register64
 dest
 )
 PER_ARCH

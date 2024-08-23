@@ -6468,7 +6468,7 @@ clz64
 (
 Register64
 src
-Register
+Register64
 dest
 )
 {
@@ -6477,6 +6477,8 @@ Clz
 ARMRegister
 (
 dest
+.
+reg
 64
 )
 ARMRegister
@@ -6497,7 +6499,7 @@ ctz64
 (
 Register64
 src
-Register
+Register64
 dest
 )
 {
@@ -6506,6 +6508,8 @@ Rbit
 ARMRegister
 (
 dest
+.
+reg
 64
 )
 ARMRegister
@@ -6522,11 +6526,15 @@ Clz
 ARMRegister
 (
 dest
+.
+reg
 64
 )
 ARMRegister
 (
 dest
+.
+reg
 64
 )
 )
