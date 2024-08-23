@@ -2087,6 +2087,12 @@ taskName
 .
 .
 parsedUrl
+modelHubRootUrl
+:
+rootUrl
+modelHubUrlTemplate
+:
+urlTemplate
 progressCallback
 :
 this
