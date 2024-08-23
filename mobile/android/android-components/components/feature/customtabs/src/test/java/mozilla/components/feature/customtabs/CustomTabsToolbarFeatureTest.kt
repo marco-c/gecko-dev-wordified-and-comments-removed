@@ -920,6 +920,12 @@ invoke
 )
 )
 }
+Suppress
+(
+"
+DEPRECATION
+"
+)
 Test
 Config
 (
@@ -1140,6 +1146,12 @@ colors
 text
 )
 }
+Suppress
+(
+"
+DEPRECATION
+"
+)
 Test
 fun
 initialize
