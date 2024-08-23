@@ -872,8 +872,6 @@ ProvokingVertex
 LastVertex
 ;
 mutable
-Maybe
-<
 std
 :
 :
@@ -881,7 +879,6 @@ unordered_map
 <
 GLenum
 bool
->
 >
 mIsEnabledMap
 ;

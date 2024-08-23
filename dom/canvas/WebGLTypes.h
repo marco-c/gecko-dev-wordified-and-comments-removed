@@ -725,6 +725,7 @@ ANGLE_instanced_arrays
 EXT_blend_minmax
 EXT_color_buffer_float
 EXT_color_buffer_half_float
+EXT_depth_clamp
 EXT_disjoint_timer_query
 EXT_float_blend
 EXT_frag_depth
