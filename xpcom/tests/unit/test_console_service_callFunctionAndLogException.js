@@ -112,7 +112,6 @@ file
 .
 js
 "
-null
 1
 2
 Ci
@@ -393,7 +392,7 @@ equal
 lastMessage
 .
 lineNumber
-56
+55
 )
 ;
 Assert
@@ -469,7 +468,7 @@ lastMessage
 stack
 .
 line
-56
+55
 )
 ;
 Assert
@@ -673,7 +672,7 @@ equal
 lastMessage
 .
 lineNumber
-97
+96
 )
 ;
 Assert
@@ -749,7 +748,7 @@ lastMessage
 stack
 .
 line
-97
+96
 )
 ;
 Assert
