@@ -82,13 +82,6 @@ org
 /
 xlink
 "
-onload
-=
-"
-startTest
-(
-)
-"
 >
 <
 title
@@ -234,11 +227,6 @@ g
 <
 script
 >
-function
-startTest
-(
-)
-{
 document
 .
 addEventListener
@@ -263,7 +251,6 @@ for
 running
 outside
 reftest
-}
 function
 doTest
 (

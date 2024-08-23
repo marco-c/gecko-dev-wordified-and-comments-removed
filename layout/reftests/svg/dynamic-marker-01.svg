@@ -63,13 +63,6 @@ reftest
 -
 wait
 "
-onload
-=
-"
-startTest
-(
-)
-"
 xmlns
 :
 xlink
@@ -276,11 +269,6 @@ m1
 <
 script
 >
-function
-startTest
-(
-)
-{
 document
 .
 addEventListener
@@ -305,7 +293,6 @@ for
 running
 outside
 reftest
-}
 function
 doTest
 (

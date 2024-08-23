@@ -93,13 +93,13 @@ addEventListener
 "
 MozReftestInvalidate
 "
-go
+doTest
 false
 )
 ;
 setTimeout
 (
-go
+doTest
 4000
 )
 ;
@@ -111,7 +111,7 @@ running
 outside
 reftest
 function
-go
+doTest
 (
 )
 {

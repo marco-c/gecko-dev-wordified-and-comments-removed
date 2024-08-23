@@ -56,13 +56,6 @@ reftest
 -
 wait
 "
-onload
-=
-"
-startTest
-(
-)
-"
 >
 <
 script
@@ -72,11 +65,6 @@ script
 [
 CDATA
 [
-function
-startTest
-(
-)
-{
 document
 .
 addEventListener
@@ -101,7 +89,6 @@ for
 running
 outside
 reftest
-}
 function
 boom
 (

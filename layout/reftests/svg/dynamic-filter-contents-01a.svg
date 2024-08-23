@@ -56,13 +56,6 @@ org
 /
 svg
 "
-onload
-=
-"
-startTest
-(
-)
-"
 >
 <
 style
@@ -224,11 +217,6 @@ f
 <
 script
 >
-function
-startTest
-(
-)
-{
 document
 .
 addEventListener
@@ -253,7 +241,6 @@ for
 running
 outside
 reftest
-}
 function
 doTest
 (
