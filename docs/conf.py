@@ -401,6 +401,17 @@ urlbar
 .
 .
 /
+js
+/
+xpconnect
+/
+loader
+"
+    
+"
+.
+.
+/
 remote
 /
 marionette

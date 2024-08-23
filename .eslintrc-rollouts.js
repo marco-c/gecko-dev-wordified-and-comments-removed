@@ -3308,6 +3308,8 @@ js
 /
 xpconnect
 /
+tests
+/
 *
 *
 "

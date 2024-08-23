@@ -136,6 +136,10 @@ ComponentUtils
 *
 *
 *
+DEPRECATED
+!
+*
+*
 Generates
 a
 singleton
@@ -155,7 +159,11 @@ nsIComponentRegistrar
 registerFactory
 .
 *
+*
 param
+{
+Function
+}
 aServiceConstructor
 *
 Constructor
