@@ -442,7 +442,7 @@ backgroundColor
 =
 wallpaperState
 .
-wallpaperCardColor
+cardBackgroundColor
 onRecentVisitClick
 =
 {

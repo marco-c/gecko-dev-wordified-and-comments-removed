@@ -467,7 +467,7 @@ cardBackgroundColor
 =
 wallpaperState
 .
-wallpaperCardColor
+cardBackgroundColor
 )
 }
 }

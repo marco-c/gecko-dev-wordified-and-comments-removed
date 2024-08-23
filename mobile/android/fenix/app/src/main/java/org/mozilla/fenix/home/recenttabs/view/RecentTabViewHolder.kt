@@ -359,7 +359,7 @@ backgroundColor
 =
 wallpaperState
 .
-wallpaperCardColor
+cardBackgroundColor
 onRecentTabClick
 =
 {

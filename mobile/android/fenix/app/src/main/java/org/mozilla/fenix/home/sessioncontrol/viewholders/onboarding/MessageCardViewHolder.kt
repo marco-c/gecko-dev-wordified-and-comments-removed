@@ -497,7 +497,7 @@ backgroundColor
 =
 wallpaperState
 .
-wallpaperCardColor
+cardBackgroundColor
 buttonColor
 =
 buttonColor

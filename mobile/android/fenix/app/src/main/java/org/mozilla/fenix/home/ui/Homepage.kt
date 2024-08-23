@@ -782,7 +782,7 @@ WallpaperState
 .
 default
 .
-wallpaperCardColor
+cardBackgroundColor
 )
 topSiteInteractor
 =

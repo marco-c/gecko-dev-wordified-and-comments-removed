@@ -315,7 +315,7 @@ backgroundColor
 =
 wallpaperState
 .
-wallpaperCardColor
+cardBackgroundColor
 onBookmarkClick
 =
 interactor

@@ -779,7 +779,7 @@ backgroundColor
 =
 wallpaperState
 .
-wallpaperCardColor
+cardBackgroundColor
 onStoryShown
 =
 interactor
