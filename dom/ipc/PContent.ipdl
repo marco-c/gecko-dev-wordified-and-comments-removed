@@ -6476,8 +6476,6 @@ bool
 wasExternallyTriggered
 bool
 hasValidUserGestureActivation
-bool
-newWindowTarget
 )
 ;
 async

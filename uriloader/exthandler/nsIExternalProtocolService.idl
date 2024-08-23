@@ -125,12 +125,6 @@ optional
 in
 boolean
 aHasValidUserGestureActivation
-[
-optional
-]
-in
-boolean
-aNewWindowTarget
 )
 ;
 AString
