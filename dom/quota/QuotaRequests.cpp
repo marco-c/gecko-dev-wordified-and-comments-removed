@@ -15,6 +15,13 @@ h
 #
 include
 "
+QuotaUsageRequestChild
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ErrorNames

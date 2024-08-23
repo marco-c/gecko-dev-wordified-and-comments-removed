@@ -42,6 +42,13 @@ h
 "
 #
 include
+"
+QuotaUsageRequestChild
+.
+h
+"
+#
+include
 <
 cstdint
 >
