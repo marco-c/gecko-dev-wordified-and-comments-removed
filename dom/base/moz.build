@@ -1538,6 +1538,11 @@ AbstractRange
 cpp
 "
 "
+AnimationFrameProvider
+.
+cpp
+"
+"
 AnonymousContent
 .
 cpp
