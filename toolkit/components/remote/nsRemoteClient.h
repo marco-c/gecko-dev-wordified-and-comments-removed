@@ -51,10 +51,6 @@ char
 *
 *
 argv
-const
-char
-*
-aStartupToken
 )
 =
 0
