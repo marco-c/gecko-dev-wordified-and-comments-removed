@@ -532,7 +532,7 @@ CopyType
 ;
 }
 impl
-std
+core
 :
 :
 fmt
@@ -551,7 +551,7 @@ f
 :
 &
 mut
-std
+core
 :
 :
 fmt
@@ -565,7 +565,7 @@ _
 )
 -
 >
-std
+core
 :
 :
 fmt
@@ -699,12 +699,6 @@ data4
 }
 }
 impl
-std
-:
-:
-convert
-:
-:
 From
 <
 &
@@ -1169,12 +1163,6 @@ k
 }
 }
 impl
-std
-:
-:
-convert
-:
-:
 From
 <
 u128
@@ -1203,12 +1191,6 @@ value
 }
 }
 impl
-std
-:
-:
-convert
-:
-:
 From
 <
 GUID
@@ -1274,7 +1256,7 @@ u32
 impl
 HexReader
 for
-std
+core
 :
 :
 str

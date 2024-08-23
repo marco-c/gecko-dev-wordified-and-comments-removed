@@ -23,9 +23,6 @@ Self
 const
 SIGNATURE
 :
-crate
-:
-:
 imp
 :
 :
@@ -61,17 +58,11 @@ t
 const
 SIGNATURE
 :
-crate
-:
-:
 imp
 :
 :
 ConstBuffer
 =
-crate
-:
-:
 imp
 :
 :

@@ -56,7 +56,7 @@ Array
 {
 data
 :
-std
+core
 :
 :
 ptr
@@ -118,9 +118,6 @@ assert
 (
 len
 <
-std
-:
-:
 u32
 :
 :
@@ -136,7 +133,7 @@ len
 .
 checked_mul
 (
-std
+core
 :
 :
 mem
@@ -170,9 +167,6 @@ data
 =
 unsafe
 {
-crate
-:
-:
 imp
 :
 :
@@ -210,7 +204,7 @@ Array
 ;
 unsafe
 {
-std
+core
 :
 :
 ptr
@@ -391,7 +385,7 @@ let
 mut
 data
 =
-std
+core
 :
 :
 ptr
@@ -407,7 +401,7 @@ len
 =
 0
 ;
-std
+core
 :
 :
 mem
@@ -425,7 +419,7 @@ self
 data
 )
 ;
-std
+core
 :
 :
 mem
@@ -445,7 +439,7 @@ len
 ;
 unsafe
 {
-std
+core
 :
 :
 ptr
@@ -453,7 +447,7 @@ ptr
 :
 drop_in_place
 (
-std
+core
 :
 :
 slice
@@ -468,9 +462,6 @@ usize
 )
 )
 ;
-crate
-:
-:
 imp
 :
 :
@@ -552,7 +543,7 @@ self
 len
 )
 ;
-std
+core
 :
 :
 mem
@@ -575,7 +566,7 @@ Type
 T
 >
 >
-std
+core
 :
 :
 ops
@@ -629,7 +620,7 @@ return
 }
 unsafe
 {
-std
+core
 :
 :
 slice
@@ -658,7 +649,7 @@ Type
 T
 >
 >
-std
+core
 :
 :
 ops
@@ -705,7 +696,7 @@ mut
 }
 unsafe
 {
-std
+core
 :
 :
 slice
@@ -793,7 +784,7 @@ mut
 u32
 temp
 :
-std
+core
 :
 :
 mem
@@ -851,7 +842,7 @@ data
 len
 temp
 :
-std
+core
 :
 :
 mem
