@@ -3972,7 +3972,7 @@ HasPercent
 |
 size
 .
-IsMozAvailable
+BehavesLikeStretchOnInlineAxis
 (
 )
 ;

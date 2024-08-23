@@ -40382,7 +40382,7 @@ IsAuto
 |
 iSize
 .
-IsMozAvailable
+BehavesLikeStretchOnInlineAxis
 (
 )
 )

@@ -2315,6 +2315,13 @@ const
 ;
 inline
 bool
+BehavesLikeStretchOnInlineAxis
+(
+)
+const
+;
+inline
+bool
 BehavesLikeInitialValueOnBlockAxis
 (
 )
@@ -2385,6 +2392,13 @@ const
 inline
 bool
 HasLengthAndPercentage
+(
+)
+const
+;
+inline
+bool
+BehavesLikeStretchOnInlineAxis
 (
 )
 const
