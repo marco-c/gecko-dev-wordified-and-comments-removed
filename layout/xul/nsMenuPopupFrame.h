@@ -1700,8 +1700,15 @@ mPrefSize
 1
 }
 ;
-nsPoint
-mExtraMargin
+int32_t
+mXPos
+=
+0
+;
+int32_t
+mYPos
+=
+0
 ;
 nsRect
 mScreenRect
