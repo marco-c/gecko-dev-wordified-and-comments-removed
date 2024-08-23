@@ -116,6 +116,7 @@ char
 aProfile
 int32_t
 argc
+const
 char
 *
 *
