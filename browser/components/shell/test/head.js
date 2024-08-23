@@ -163,12 +163,6 @@ firefoxArgs
 profile
 "
 profilePath
-"
--
-no
--
-remote
-"
 ]
 ;
 await

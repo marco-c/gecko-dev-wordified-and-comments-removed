@@ -8254,48 +8254,6 @@ add_argument
 "
 -
 -
-remote
-"
-        
-"
--
-r
-"
-        
-action
-=
-"
-store_true
-"
-        
-help
-=
-"
-Do
-not
-pass
-the
--
--
-no
--
-remote
-argument
-by
-default
-.
-"
-    
-)
-    
-group
-.
-add_argument
-(
-        
-"
--
--
 background
 "
         
@@ -11401,8 +11359,6 @@ packaged
     
 app
     
-remote
-    
 background
     
 noprofile
@@ -11871,23 +11827,6 @@ args
 extend
 (
 params
-)
-    
-if
-not
-remote
-:
-        
-args
-.
-append
-(
-"
--
-no
--
-remote
-"
 )
     
 if
@@ -18697,11 +18636,6 @@ snap
 run
 {
 }
--
--
-no
--
-remote
 "
 .
 format

@@ -1200,10 +1200,6 @@ exe
 -
 P
 test
--
-no
--
-remote
 "
 -
 stackwalk
