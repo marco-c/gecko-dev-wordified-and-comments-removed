@@ -1426,8 +1426,6 @@ aIsTopFrame
 bool
 aUseErrorPages
 bool
-aIsInitialDocument
-bool
 *
 aSkippedUnknownProtocolNavigation
 =
