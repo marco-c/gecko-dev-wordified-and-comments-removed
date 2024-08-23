@@ -788,7 +788,7 @@ storageBytes
 }
 static
 uint32_t
-calcStorageBytes
+calcStorageBytesUnchecked
 (
 uint32_t
 elemSize
