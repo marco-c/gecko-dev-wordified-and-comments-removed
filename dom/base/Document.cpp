@@ -47611,7 +47611,10 @@ win
 >
 OpenJS
 (
+NS_ConvertUTF16toUTF8
+(
 aURL
+)
 aName
 aFeatures
 getter_AddRefs

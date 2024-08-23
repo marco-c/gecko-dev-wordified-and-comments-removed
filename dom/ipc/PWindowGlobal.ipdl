@@ -525,7 +525,7 @@ success
 async
 NavigateForIdentityCredentialDiscovery
 (
-nsString
+nsCString
 aUri
 IdentityLoginTargetType
 aType

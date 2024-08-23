@@ -788,7 +788,7 @@ IPCResult
 RecvNavigateForIdentityCredentialDiscovery
 (
 const
-nsString
+nsCString
 &
 aURI
 const

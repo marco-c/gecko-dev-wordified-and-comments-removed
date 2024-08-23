@@ -2883,7 +2883,7 @@ nsresult
 OpenNoNavigate
 (
 const
-nsAString
+nsACString
 &
 aUrl
 const
@@ -3050,7 +3050,7 @@ nsresult
 Open
 (
 const
-nsAString
+nsACString
 &
 aUrl
 const
@@ -3085,7 +3085,7 @@ nsresult
 OpenDialog
 (
 const
-nsAString
+nsACString
 &
 aUrl
 const

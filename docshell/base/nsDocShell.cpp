@@ -37155,10 +37155,7 @@ win
 >
 Open
 (
-NS_ConvertUTF8toUTF16
-(
 spec
-)
 aLoadState
 -
 >
@@ -37194,10 +37191,7 @@ win
 >
 OpenNoNavigate
 (
-NS_ConvertUTF8toUTF16
-(
 spec
-)
 aLoadState
 -
 >
