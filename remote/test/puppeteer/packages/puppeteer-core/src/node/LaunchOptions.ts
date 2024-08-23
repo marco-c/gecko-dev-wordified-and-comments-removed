@@ -18,7 +18,7 @@ js
 import
 type
 {
-Product
+SupportedBrowser
 }
 from
 '
@@ -27,7 +27,7 @@ from
 /
 common
 /
-Product
+SupportedBrowser
 .
 js
 '
@@ -159,10 +159,10 @@ pipe
 :
 boolean
 ;
-product
+browser
 ?
 :
-Product
+SupportedBrowser
 ;
 extraPrefsFirefox
 ?

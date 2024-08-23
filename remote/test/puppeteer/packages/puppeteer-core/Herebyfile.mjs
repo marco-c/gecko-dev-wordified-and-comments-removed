@@ -227,7 +227,7 @@ writeFile
 /
 versions
 .
-js
+json
 '
 (
 await
@@ -242,7 +242,7 @@ readFile
 /
 versions
 .
-js
+json
 '
 {
 encoding
@@ -259,16 +259,14 @@ utf
 replace
 (
 "
-'
 NEXT
-'
 "
-'
+"
 v
 {
 version
 }
-'
+"
 )
 )
 ;

@@ -45,10 +45,14 @@ cache
 puppeteer
 '
 )
-browserRevision
+chrome
+:
+{
+version
 :
 '
 121
 '
+}
 }
 ;

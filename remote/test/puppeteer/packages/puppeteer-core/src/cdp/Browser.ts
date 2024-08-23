@@ -272,7 +272,7 @@ contextIds
 string
 [
 ]
-ignoreHTTPSErrors
+acceptInsecureCerts
 :
 boolean
 defaultViewport
@@ -326,7 +326,7 @@ waitForInitiallyDiscoveredTargets
 ;
 if
 (
-ignoreHTTPSErrors
+acceptInsecureCerts
 )
 {
 await

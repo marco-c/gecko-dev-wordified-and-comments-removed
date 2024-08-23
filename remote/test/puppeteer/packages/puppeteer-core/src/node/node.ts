@@ -48,7 +48,7 @@ from
 '
 .
 /
-ProductLauncher
+BrowserLauncher
 .
 js
 '

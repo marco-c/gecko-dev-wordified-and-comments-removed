@@ -93,6 +93,14 @@ prompt
 =
 prompt
 ;
+this
+.
+handled
+=
+prompt
+.
+handled
+;
 }
 override
 async

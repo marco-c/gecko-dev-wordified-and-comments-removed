@@ -1,6 +1,6 @@
 export
 type
-Product
+SupportedBrowser
 =
 '
 chrome

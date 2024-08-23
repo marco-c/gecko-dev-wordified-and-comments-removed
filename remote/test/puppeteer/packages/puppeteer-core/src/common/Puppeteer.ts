@@ -162,7 +162,7 @@ _isPuppeteerCore
 boolean
 ;
 protected
-_changedProduct
+_changedBrowsers
 =
 false
 ;

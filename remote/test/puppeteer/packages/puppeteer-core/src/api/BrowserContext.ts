@@ -447,13 +447,6 @@ Page
 >
 ;
 abstract
-isIncognito
-(
-)
-:
-boolean
-;
-abstract
 overridePermissions
 (
 origin

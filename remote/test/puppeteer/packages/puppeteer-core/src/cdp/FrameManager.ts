@@ -2488,9 +2488,14 @@ session
 &
 frame
 .
-isOOPFrame
-(
-)
+client
+!
+=
+=
+this
+.
+#
+client
 )
 {
 frame

@@ -15,9 +15,9 @@ version
 "
 2
 .
-2
-.
 3
+.
+1
 "
 "
 description
@@ -666,7 +666,7 @@ debug
 .
 3
 .
-5
+6
 "
 "
 extract
@@ -758,7 +758,7 @@ semver
 .
 6
 .
-2
+3
 "
 }
 "

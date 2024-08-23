@@ -50,7 +50,7 @@ defaultValue
 :
 string
 ;
-#
+protected
 handled
 =
 false
@@ -181,7 +181,6 @@ assert
 !
 this
 .
-#
 handled
 '
 Cannot
@@ -197,7 +196,6 @@ handled
 ;
 this
 .
-#
 handled
 =
 true
@@ -233,7 +231,6 @@ assert
 !
 this
 .
-#
 handled
 '
 Cannot
@@ -249,7 +246,6 @@ handled
 ;
 this
 .
-#
 handled
 =
 true

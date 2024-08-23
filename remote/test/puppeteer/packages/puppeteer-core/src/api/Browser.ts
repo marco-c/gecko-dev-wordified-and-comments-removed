@@ -85,6 +85,7 @@ debugError
 fromEmitterEvent
 filterAsync
 timeout
+fromAbortSignal
 }
 from
 '
@@ -512,6 +513,11 @@ timeout
 :
 number
 ;
+signal
+?
+:
+AbortSignal
+;
 }
 export
 const
@@ -739,6 +745,7 @@ timeout
 ms
 =
 30000
+signal
 }
 =
 options
@@ -781,6 +788,10 @@ predicate
 )
 raceWith
 (
+fromAbortSignal
+(
+signal
+)
 timeout
 (
 ms

@@ -101,7 +101,7 @@ CdpBrowser
 {
 const
 {
-ignoreHTTPSErrors
+acceptInsecureCerts
 =
 false
 defaultViewport
@@ -205,7 +205,7 @@ chrome
 '
 connection
 browserContextIds
-ignoreHTTPSErrors
+acceptInsecureCerts
 defaultViewport
 undefined
 (

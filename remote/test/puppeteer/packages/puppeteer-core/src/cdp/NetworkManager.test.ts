@@ -8790,6 +8790,9 @@ n
 '
 cookiePartitionKey
 :
+{
+topLevelSite
+:
 '
 http
 :
@@ -8797,6 +8800,10 @@ http
 /
 localhost
 '
+hasCrossSiteAncestor
+:
+false
+}
 cookiePartitionKeyOpaque
 :
 false
@@ -9806,6 +9813,9 @@ n
 '
 cookiePartitionKey
 :
+{
+topLevelSite
+:
 '
 http
 :
@@ -9813,6 +9823,10 @@ http
 /
 localhost
 '
+hasCrossSiteAncestor
+:
+false
+}
 cookiePartitionKeyOpaque
 :
 false
@@ -10785,6 +10799,9 @@ n
 '
 cookiePartitionKey
 :
+{
+topLevelSite
+:
 '
 http
 :
@@ -10792,6 +10809,10 @@ http
 /
 localhost
 '
+hasCrossSiteAncestor
+:
+false
+}
 cookiePartitionKeyOpaque
 :
 false

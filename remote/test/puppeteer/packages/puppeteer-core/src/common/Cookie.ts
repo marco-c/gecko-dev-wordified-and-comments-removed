@@ -208,4 +208,9 @@ path
 :
 string
 ;
+partitionKey
+?
+:
+string
+;
 }

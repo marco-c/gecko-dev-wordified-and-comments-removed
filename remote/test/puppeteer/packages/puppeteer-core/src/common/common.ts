@@ -224,7 +224,7 @@ from
 '
 .
 /
-Product
+SupportedBrowser
 .
 js
 '
