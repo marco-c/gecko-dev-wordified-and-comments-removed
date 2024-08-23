@@ -937,7 +937,7 @@ self
 >
 mMonitor
 .
-Notify
+NotifyAll
 (
 )
 ;
@@ -978,7 +978,7 @@ self
 >
 mMonitor
 .
-Notify
+NotifyAll
 (
 )
 ;
@@ -999,7 +999,7 @@ self
 >
 mMonitor
 .
-Notify
+NotifyAll
 (
 )
 ;
