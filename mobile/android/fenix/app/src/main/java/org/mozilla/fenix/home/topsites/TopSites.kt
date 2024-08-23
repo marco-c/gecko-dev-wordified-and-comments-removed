@@ -745,7 +745,7 @@ item
 .
 *
 param
-onRenameTopSiteClicked
+onEditTopSiteClicked
 Invoked
 when
 the
@@ -754,7 +754,7 @@ clicks
 on
 the
 "
-Rename
+Edit
 "
 menu
 item
@@ -892,7 +892,7 @@ TopSite
 -
 >
 Unit
-onRenameTopSiteClicked
+onEditTopSiteClicked
 :
 (
 topSite
@@ -1110,9 +1110,9 @@ topSite
 onOpenInPrivateTabClicked
 =
 onOpenInPrivateTabClicked
-onRenameTopSiteClicked
+onEditTopSiteClicked
 =
-onRenameTopSiteClicked
+onEditTopSiteClicked
 onRemoveTopSiteClicked
 =
 onRemoveTopSiteClicked
@@ -2319,7 +2319,7 @@ TopSite
 -
 >
 Unit
-onRenameTopSiteClicked
+onEditTopSiteClicked
 :
 (
 topSite
@@ -2446,17 +2446,17 @@ R
 .
 string
 .
-rename_top_site
+top_sites_edit_top_site
 )
 testTag
 =
 TopSitesTestTag
 .
-rename
+edit
 onClick
 =
 {
-onRenameTopSiteClicked
+onEditTopSiteClicked
 (
 topSite
 )
@@ -2961,7 +2961,7 @@ onOpenInPrivateTabClicked
 =
 {
 }
-onRenameTopSiteClicked
+onEditTopSiteClicked
 =
 {
 }

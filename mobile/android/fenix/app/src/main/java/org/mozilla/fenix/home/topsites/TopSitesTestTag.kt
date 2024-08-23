@@ -121,12 +121,12 @@ open_in_private_tab
 "
 const
 val
-rename
+edit
 =
 "
 topSiteContextualMenu
 .
-rename
+edit
 "
 const
 val

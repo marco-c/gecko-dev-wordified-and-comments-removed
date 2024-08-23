@@ -478,12 +478,12 @@ TopSiteItemMenu
 .
 Item
 .
-RenameTopSite
+EditTopSite
 -
 >
 interactor
 .
-onRenameTopSiteClicked
+onEditTopSiteClicked
 (
 topSite
 )

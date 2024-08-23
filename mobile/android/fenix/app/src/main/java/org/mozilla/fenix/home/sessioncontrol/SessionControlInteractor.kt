@@ -1127,7 +1127,7 @@ Opens
 a
 dialog
 to
-rename
+edit
 the
 given
 top
@@ -1141,7 +1141,7 @@ clicks
 on
 the
 "
-Rename
+Edit
 "
 top
 site
@@ -1158,12 +1158,12 @@ site
 that
 will
 be
-renamed
+edited
 .
 *
 /
 fun
-onRenameTopSiteClicked
+onEditTopSiteClicked
 (
 topSite
 :
@@ -1737,7 +1737,7 @@ topSite
 }
 override
 fun
-onRenameTopSiteClicked
+onEditTopSiteClicked
 (
 topSite
 :
@@ -1746,7 +1746,7 @@ TopSite
 {
 controller
 .
-handleRenameTopSiteClicked
+handleEditTopSiteClicked
 (
 topSite
 )

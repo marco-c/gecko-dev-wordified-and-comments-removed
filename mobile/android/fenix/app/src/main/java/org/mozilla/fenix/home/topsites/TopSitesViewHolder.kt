@@ -351,12 +351,12 @@ interactor
 :
 :
 onOpenInPrivateTabClicked
-onRenameTopSiteClicked
+onEditTopSiteClicked
 =
 interactor
 :
 :
-onRenameTopSiteClicked
+onEditTopSiteClicked
 onRemoveTopSiteClicked
 =
 interactor
