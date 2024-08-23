@@ -869,13 +869,11 @@ attributes
 {
 src
 :
-lazy
+result
 .
-UrlbarUtils
+payload
 .
-ICON
-.
-DEFAULT
+iconBlob
 }
 }
 "
