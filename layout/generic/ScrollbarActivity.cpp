@@ -446,7 +446,7 @@ scrollContainerFrame
 =
 do_QueryFrame
 (
-mScrollableFrame
+scrollFrame
 )
 ;
 nsCOMPtr
