@@ -14265,7 +14265,7 @@ clientAssociationPing
 .
 enabled
 "
-true
+false
 )
 ;
 #
