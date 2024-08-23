@@ -118,8 +118,8 @@ position
 AnchorName
 AnchorScope
 DashedIdentAndOrTryTactic
-InsetArea
-InsetAreaKeyword
+PositionArea
+PositionAreaKeyword
 PositionAnchor
 PositionTryFallbacks
 PositionTryOrder

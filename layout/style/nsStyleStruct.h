@@ -3141,6 +3141,12 @@ mPositionAnchor
 mozilla
 :
 :
+StylePositionArea
+mPositionArea
+;
+mozilla
+:
+:
 StylePositionVisibility
 mPositionVisibility
 ;
@@ -3155,12 +3161,6 @@ mozilla
 :
 StylePositionTryOrder
 mPositionTryOrder
-;
-mozilla
-:
-:
-StyleInsetArea
-mInsetArea
 ;
 mozilla
 :

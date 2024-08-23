@@ -596,12 +596,6 @@ FontVariantLigatures
 FontVariantNumeric
 "
 "
-InsetArea
-"
-"
-InsetAreaKeyword
-"
-"
 ComputedFontStretchRange
 "
 "
@@ -636,6 +630,12 @@ Platform
 "
 "
 PositionAnchor
+"
+"
+PositionArea
+"
+"
+PositionAreaKeyword
 "
 "
 PositionTryFallbacks
