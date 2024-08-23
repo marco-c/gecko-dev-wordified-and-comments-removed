@@ -266,6 +266,17 @@ ConversionRequired
 kNeedNone
 ;
 }
+virtual
+bool
+UseZeroCopyVideoFrame
+(
+)
+const
+{
+return
+false
+;
+}
 protected
 :
 RefPtr

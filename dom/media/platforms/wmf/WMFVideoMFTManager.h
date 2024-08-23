@@ -259,6 +259,13 @@ ConversionRequired
 kNeedNone
 ;
 }
+bool
+UseZeroCopyVideoFrame
+(
+)
+const
+override
+;
 private
 :
 MediaResult
