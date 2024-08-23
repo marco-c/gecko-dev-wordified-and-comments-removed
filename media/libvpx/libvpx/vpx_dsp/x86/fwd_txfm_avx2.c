@@ -2772,6 +2772,10 @@ pass
 store_buffer_16bit_to_32bit_w16_avx2
 (
 buf1
+(
+tran_low_t
+*
+)
 out0
 width
 height

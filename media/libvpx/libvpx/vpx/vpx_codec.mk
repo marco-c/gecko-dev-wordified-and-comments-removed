@@ -202,7 +202,9 @@ vpx_encoder
 h
 API_DOC_SRCS
 -
-yes
+(
+CONFIG_ENCODERS
+)
 +
 =
 vpx_ext_ratectrl
@@ -226,7 +228,9 @@ vpx_image
 h
 API_DOC_SRCS
 -
-yes
+(
+CONFIG_ENCODERS
+)
 +
 =
 vpx_tpl

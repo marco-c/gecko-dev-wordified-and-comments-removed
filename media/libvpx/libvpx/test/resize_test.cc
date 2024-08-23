@@ -11,14 +11,6 @@ vector
 #
 include
 "
-third_party
-/
-googletest
-/
-src
-/
-include
-/
 gtest
 /
 gtest
@@ -57,7 +49,7 @@ include
 "
 test
 /
-video_source
+util
 .
 h
 "
@@ -66,7 +58,7 @@ include
 "
 test
 /
-util
+video_source
 .
 h
 "

@@ -1,5 +1,12 @@
 #
 include
+<
+assert
+.
+h
+>
+#
+include
 "
 .
 /
@@ -393,6 +400,14 @@ source_step
 void
 )
 source_length
+;
+assert
+(
+dest_scale
+!
+=
+0
+)
 ;
 for
 (

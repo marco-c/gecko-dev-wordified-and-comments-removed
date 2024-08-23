@@ -229,13 +229,7 @@ struct
 vpx_rc_encodeframe_result
 {
 int64_t
-sse
-;
-int64_t
 bit_count
-;
-int64_t
-pixel_count
 ;
 int
 actual_encoding_qindex

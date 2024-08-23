@@ -7,14 +7,6 @@ VPX_TEST_VPX_SCALE_TEST_H_
 #
 include
 "
-third_party
-/
-googletest
-/
-src
-/
-include
-/
 gtest
 /
 gtest

@@ -16,14 +16,6 @@ string
 #
 include
 "
-third_party
-/
-googletest
-/
-src
-/
-include
-/
 gtest
 /
 gtest
@@ -62,7 +54,7 @@ include
 "
 test
 /
-util
+md5_helper
 .
 h
 "
@@ -71,7 +63,7 @@ include
 "
 test
 /
-md5_helper
+util
 .
 h
 "
