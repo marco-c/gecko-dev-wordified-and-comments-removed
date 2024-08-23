@@ -1147,6 +1147,11 @@ if
 stringConstant
 )
 {
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 false
 ;
