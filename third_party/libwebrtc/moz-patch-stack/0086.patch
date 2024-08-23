@@ -136,10 +136,10 @@ rtp_sender_video_frame_transformer_delegate
 .
 cc
 index
-ff15840529
+2e1ae61464
 .
 .
-ae9eb6b4bd
+0fe8ddfc7d
 100644
 -
 -
@@ -231,10 +231,10 @@ namespace
 webrtc
 {
 -
-257
+258
 6
 +
-258
+259
 14
 void
 RTPSenderVideoFrameTransformerDelegate

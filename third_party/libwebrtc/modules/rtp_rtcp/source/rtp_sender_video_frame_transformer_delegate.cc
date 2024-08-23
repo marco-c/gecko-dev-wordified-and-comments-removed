@@ -103,6 +103,7 @@ Millis
 10
 )
 ;
+}
 class
 TransformableVideoSenderFrame
 :
@@ -154,6 +155,12 @@ string
 rid
 )
 :
+TransformableVideoFrameInterface
+(
+Passkey
+(
+)
+)
 encoded_data_
 (
 encoded_image
@@ -670,7 +677,6 @@ rid_
 ;
 }
 ;
-}
 RTPSenderVideoFrameTransformerDelegate
 :
 :

@@ -152,6 +152,7 @@ AudioFrameType
 kEmptyFrame
 ;
 }
+}
 class
 TransformableOutgoingAudioFrame
 :
@@ -217,6 +218,12 @@ uint8_t
 audio_level_dbov
 )
 :
+TransformableAudioFrameInterface
+(
+Passkey
+(
+)
+)
 frame_type_
 (
 frame_type
@@ -546,7 +553,6 @@ audio_level_dbov_
 ;
 }
 ;
-}
 ChannelSendFrameTransformerDelegate
 :
 :
