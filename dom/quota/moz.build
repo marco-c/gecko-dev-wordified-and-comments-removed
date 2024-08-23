@@ -150,6 +150,16 @@ CommonMetadata
 h
 "
 "
+CommonMetadataArray
+.
+h
+"
+"
+CommonMetadataArrayFwd
+.
+h
+"
+"
 Config
 .
 h
