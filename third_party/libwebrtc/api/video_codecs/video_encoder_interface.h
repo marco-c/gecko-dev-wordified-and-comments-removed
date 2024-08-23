@@ -200,11 +200,6 @@ kRealtimeVideo
 Timestamp
 presentation_timestamp
 ;
-int
-effort_level
-=
-0
-;
 }
 ;
 struct
@@ -333,6 +328,11 @@ optional
 int
 >
 update_buffer
+;
+int
+effort_level
+=
+0
 ;
 EncodeResultCallback
 result_callback
