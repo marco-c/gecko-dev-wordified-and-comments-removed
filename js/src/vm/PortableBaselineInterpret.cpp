@@ -18410,6 +18410,10 @@ IndirectTruncateInt32Result
 )
 CACHEOP_CASE_UNIMPL
 (
+Int32ToBigIntResult
+)
+CACHEOP_CASE_UNIMPL
+(
 BigIntAsIntNResult
 )
 CACHEOP_CASE_UNIMPL

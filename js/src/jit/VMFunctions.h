@@ -2564,6 +2564,17 @@ uint64_t
 res
 )
 ;
+BigInt
+*
+CreateBigIntFromInt32
+(
+JSContext
+*
+cx
+int32_t
+i32
+)
+;
 #
 if
 JS_BITS_PER_WORD
