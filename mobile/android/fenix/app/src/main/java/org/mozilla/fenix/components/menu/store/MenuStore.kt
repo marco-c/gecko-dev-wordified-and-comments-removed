@@ -211,6 +211,10 @@ DeleteBrowsingDataAndQuit
 is
 MenuAction
 .
+FindInPage
+is
+MenuAction
+.
 OpenInApp
 is
 MenuAction
