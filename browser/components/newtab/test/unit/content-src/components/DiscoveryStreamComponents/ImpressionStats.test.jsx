@@ -861,6 +861,9 @@ undefined
 received_rank
 :
 undefined
+topic
+:
+undefined
 }
 {
 id
@@ -889,6 +892,9 @@ undefined
 received_rank
 :
 undefined
+topic
+:
+undefined
 }
 {
 id
@@ -915,6 +921,9 @@ recommended_at
 :
 undefined
 received_rank
+:
+undefined
+topic
 :
 undefined
 }
@@ -1455,6 +1464,9 @@ undefined
 fetchTimestamp
 :
 TEST_FETCH_TIMESTAMP
+topic
+:
+undefined
 }
 {
 id
@@ -1483,6 +1495,9 @@ undefined
 fetchTimestamp
 :
 TEST_FETCH_TIMESTAMP
+topic
+:
+undefined
 }
 {
 id
@@ -1511,6 +1526,9 @@ undefined
 fetchTimestamp
 :
 TEST_FETCH_TIMESTAMP
+topic
+:
+undefined
 }
 ]
 )
