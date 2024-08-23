@@ -16494,7 +16494,7 @@ name
 "
 Wikipedia
 (
-no
+nb
 )
 "
 "
@@ -16647,7 +16647,7 @@ NO
 last_modified
 "
 :
-1702906502467
+1722952002234
 "
 recordType
 "
@@ -16659,7 +16659,7 @@ engine
 schema
 "
 :
-1702901790944
+1722848326841
 "
 variants
 "
@@ -20434,7 +20434,6 @@ name
 "
 :
 "
-Wikipedia
 (
 el
 )
@@ -20586,7 +20585,7 @@ el
 last_modified
 "
 :
-1702906502698
+1722952002207
 "
 recordType
 "
@@ -20598,7 +20597,7 @@ engine
 schema
 "
 :
-1702901748903
+1722942003170
 "
 variants
 "
@@ -24613,7 +24612,6 @@ name
 "
 :
 "
-Wikipedia
 (
 hy
 )
@@ -24765,7 +24763,7 @@ hy
 last_modified
 "
 :
-1702906502479
+1722952002231
 "
 recordType
 "
@@ -24777,7 +24775,7 @@ engine
 schema
 "
 :
-1702901788513
+1722942005797
 "
 variants
 "
@@ -26796,7 +26794,6 @@ name
 "
 :
 "
-Wikipedia
 (
 kn
 )
@@ -26949,7 +26946,7 @@ kn
 last_modified
 "
 :
-1702906502622
+1722952002211
 "
 recordType
 "
@@ -26961,7 +26958,7 @@ engine
 schema
 "
 :
-1702901762594
+1722942007046
 "
 variants
 "
@@ -27663,7 +27660,7 @@ name
 "
 :
 "
-Wikipedia
+Vikipedija
 (
 lt
 )
@@ -27818,7 +27815,7 @@ lt
 last_modified
 "
 :
-1702906502612
+1722952002214
 "
 recordType
 "
@@ -27830,7 +27827,7 @@ engine
 schema
 "
 :
-1702901764432
+1722942008331
 "
 variants
 "
@@ -28103,6 +28100,9 @@ name
 "
 Vikip
 dija
+(
+lv
+)
 "
 "
 urls
@@ -28253,7 +28253,7 @@ lv
 last_modified
 "
 :
-1702906502606
+1722952002217
 "
 recordType
 "
@@ -28265,7 +28265,7 @@ engine
 schema
 "
 :
-1702901765673
+1722942009487
 "
 variants
 "
@@ -28965,7 +28965,6 @@ name
 "
 :
 "
-Wikipedia
 (
 my
 )
@@ -29119,7 +29118,7 @@ my
 last_modified
 "
 :
-1702906502592
+1722952002221
 "
 recordType
 "
@@ -29131,7 +29130,7 @@ engine
 schema
 "
 :
-1702901768156
+1722942010626
 "
 variants
 "
@@ -29839,7 +29838,6 @@ name
 "
 :
 "
-Wikipedia
 (
 pa
 )
@@ -29991,7 +29989,7 @@ pa
 last_modified
 "
 :
-1702906502459
+1722952002238
 "
 recordType
 "
@@ -30003,7 +30001,7 @@ engine
 schema
 "
 :
-1702901792817
+1722942011825
 "
 variants
 "
@@ -30278,7 +30276,8 @@ name
 "
 :
 "
-Wikipedia
+Wikip
+dia
 (
 pt
 )
@@ -30432,7 +30431,7 @@ pt
 last_modified
 "
 :
-1702906502456
+1722952002241
 "
 recordType
 "
@@ -30444,7 +30443,7 @@ engine
 schema
 "
 :
-1702901793438
+1722942012990
 "
 variants
 "
@@ -31155,7 +31154,6 @@ name
 "
 :
 "
-Wikipedia
 (
 si
 )
@@ -31307,7 +31305,7 @@ si
 last_modified
 "
 :
-1702906502571
+1722952002224
 "
 recordType
 "
@@ -31319,7 +31317,7 @@ engine
 schema
 "
 :
-1702901771856
+1722942014140
 "
 variants
 "
@@ -33328,7 +33326,7 @@ name
 "
 :
 "
-Wikipedia
+Vikipedi
 (
 tr
 )
@@ -33482,7 +33480,7 @@ tr
 last_modified
 "
 :
-1702906502539
+1722952002228
 "
 recordType
 "
@@ -33494,7 +33492,7 @@ engine
 schema
 "
 :
-1702901777988
+1722942015303
 "
 variants
 "
@@ -36649,5 +36647,5 @@ schema
 timestamp
 "
 :
-1718719100336
+1722952002241
 }
