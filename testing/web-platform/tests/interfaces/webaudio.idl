@@ -410,6 +410,10 @@ attribute
 EventHandler
 onsinkchange
 ;
+attribute
+EventHandler
+onerror
+;
 AudioTimestamp
 getOutputTimestamp
 (

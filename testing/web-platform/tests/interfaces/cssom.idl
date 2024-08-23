@@ -790,6 +790,15 @@ attribute
 LegacyNullToEmptyString
 ]
 CSSOMString
+pageOrientation
+;
+attribute
+[
+LegacyNullToEmptyString
+]
+CSSOMString
+page
+-
 orientation
 ;
 attribute

@@ -110,6 +110,11 @@ attribute
 MediaList
 media
 ;
+readonly
+attribute
+boolean
+matches
+;
 }
 ;
 [
@@ -122,6 +127,11 @@ CSSSupportsRule
 :
 CSSConditionRule
 {
+readonly
+attribute
+boolean
+matches
+;
 }
 ;
 partial

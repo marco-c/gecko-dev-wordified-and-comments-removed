@@ -264,8 +264,7 @@ Base64URLString
 publicKey
 ;
 required
-long
-long
+COSEAlgorithmIdentifier
 publicKeyAlgorithm
 ;
 /
@@ -1059,6 +1058,9 @@ passkeyPlatformAuthenticator
 "
 "
 userVerifyingPlatformAuthenticator
+"
+"
+relatedOrigins
 "
 }
 ;

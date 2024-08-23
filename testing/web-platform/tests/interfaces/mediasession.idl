@@ -135,6 +135,9 @@ nextslide
 "
 enterpictureinpicture
 "
+"
+voiceactivity
+"
 }
 ;
 callback

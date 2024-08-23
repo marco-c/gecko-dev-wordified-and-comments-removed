@@ -134,7 +134,6 @@ GPU_DISJOINT_EXT
 0x8FBB
 ;
 WebGLTimerQueryEXT
-?
 createQueryEXT
 (
 )

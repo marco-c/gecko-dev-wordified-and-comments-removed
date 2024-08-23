@@ -2123,7 +2123,7 @@ type
 ;
 typedef
 (
-BufferSource
+AllowSharedBufferSource
 or
 ReadableStream
 )

@@ -517,15 +517,6 @@ FontFaceSet
 :
 EventTarget
 {
-constructor
-(
-sequence
-<
-FontFace
->
-initialFaces
-)
-;
 setlike
 <
 FontFace

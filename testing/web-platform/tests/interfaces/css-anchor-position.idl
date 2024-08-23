@@ -454,11 +454,11 @@ anchor
 ;
 attribute
 CSSOMString
-insetArea
+positionArea
 ;
 attribute
 CSSOMString
-inset
+position
 -
 area
 ;
