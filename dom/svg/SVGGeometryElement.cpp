@@ -1114,7 +1114,7 @@ mat
 SVGContentUtils
 :
 :
-GetOuterViewportCTM
+GetNonScalingStrokeCTM
 (
 this
 )

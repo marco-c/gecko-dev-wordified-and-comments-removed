@@ -5837,7 +5837,7 @@ ThebesMatrix
 SVGContentUtils
 :
 :
-GetOuterViewportCTM
+GetNonScalingStrokeCTM
 (
 content
 )
