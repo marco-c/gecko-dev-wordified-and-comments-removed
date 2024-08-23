@@ -104,6 +104,13 @@ null
 tier
 :
 default
+test
+-
+manifest
+-
+loader
+:
+default
 mozharness
 :
 script
