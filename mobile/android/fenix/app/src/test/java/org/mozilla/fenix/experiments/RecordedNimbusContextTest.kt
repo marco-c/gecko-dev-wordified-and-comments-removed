@@ -115,14 +115,6 @@ org
 .
 junit
 .
-Assert
-.
-assertNotNull
-import
-org
-.
-junit
-.
 Rule
 import
 org
@@ -230,10 +222,6 @@ recordedNimbusContext
 .
 testGetValue
 (
-)
-assertNotNull
-(
-value
 )
 assertEquals
 (

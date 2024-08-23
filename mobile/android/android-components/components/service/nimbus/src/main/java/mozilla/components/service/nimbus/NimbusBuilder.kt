@@ -282,9 +282,6 @@ delegate
 createDelegate
 (
 )
-recordedContext
-=
-recordedContext
 )
 .
 apply
