@@ -2527,6 +2527,9 @@ collectCoverageInfo
 bool
 shouldAvoidSideEffects
 ;
+bool
+nativeTracing
+;
 template
 <
 typename
@@ -3244,6 +3247,13 @@ static
 const
 JSFunctionSpec
 methods
+[
+]
+;
+static
+const
+JSPropertySpec
+static_properties
 [
 ]
 ;
