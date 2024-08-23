@@ -263,6 +263,14 @@ nsCStringHashKey
 >
 mRemoteSiteHostExceptions
 ;
+RefPtr
+<
+GenericPromise
+>
+EnsureRemoteExceptionListService
+(
+)
+;
 using
 PurgeBounceTrackersMozPromise
 =

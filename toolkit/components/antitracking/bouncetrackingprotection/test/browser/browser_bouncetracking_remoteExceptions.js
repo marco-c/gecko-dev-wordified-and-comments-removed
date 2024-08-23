@@ -704,6 +704,13 @@ test_remote_exception_updates
 (
 )
 {
+await
+bounceTrackingProtection
+.
+testRunPurgeBounceTrackers
+(
+)
+;
 info
 (
 "
