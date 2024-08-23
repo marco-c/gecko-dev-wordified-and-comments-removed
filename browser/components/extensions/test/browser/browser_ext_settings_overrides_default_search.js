@@ -149,11 +149,6 @@ loadPath
 app
 ]
 basic
-search
-.
-mozilla
-.
-org
 "
 submissionUrl
 :
@@ -212,11 +207,6 @@ loadPath
 app
 ]
 simple
-search
-.
-mozilla
-.
-org
 "
 submissionUrl
 :

@@ -3,7 +3,7 @@
 version
 "
 :
-1
+10
 "
 buildID
 "
@@ -38,11 +38,6 @@ id
 :
 "
 engine1
-search
-.
-mozilla
-.
-orgdefault
 "
 "
 _name
@@ -77,11 +72,6 @@ id
 :
 "
 engine2
-search
-.
-mozilla
-.
-orgdefault
 "
 "
 _name

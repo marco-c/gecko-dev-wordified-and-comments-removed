@@ -4145,13 +4145,6 @@ Search
 Engine
 .
 *
-The
-id
-is
-an
-UUID
-.
-*
 *
 type
 {

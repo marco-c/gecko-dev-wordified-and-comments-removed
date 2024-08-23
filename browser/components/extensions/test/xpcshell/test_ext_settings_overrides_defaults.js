@@ -1035,15 +1035,10 @@ example
 .
 com
 "
-overridesId
+overridesAppIdv2
 :
 "
 test2
-search
-.
-mozilla
-.
-org
 "
 urls
 :
