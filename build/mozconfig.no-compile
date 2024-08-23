@@ -47,6 +47,14 @@ CC
 unset
 CXX
 unset
+CPPFLAGS
+unset
+CFLAGS
+unset
+CXXFLAGS
+unset
+LDFLAGS
+unset
 HOST_CC
 unset
 HOST_CXX
