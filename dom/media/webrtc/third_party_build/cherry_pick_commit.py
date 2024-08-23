@@ -1903,14 +1903,6 @@ resume_state
 0
 :
         
-update_resume_state
-(
-"
-resume2
-"
-resume_state_filename
-)
-        
 if
 args
 .
@@ -1962,6 +1954,14 @@ tar_name
 https
 "
             
+)
+        
+update_resume_state
+(
+"
+resume2
+"
+resume_state_filename
 )
     
 error_help
