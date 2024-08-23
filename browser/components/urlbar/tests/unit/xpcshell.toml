@@ -484,13 +484,6 @@ js
 ]
 [
 "
-test_provider_notification
-.
-js
-"
-]
-[
-"
 test_providerAliasEngines
 .
 js
@@ -569,6 +562,13 @@ js
 [
 "
 test_providerTabToSearch_partialHost
+.
+js
+"
+]
+[
+"
+test_provider_notification
 .
 js
 "

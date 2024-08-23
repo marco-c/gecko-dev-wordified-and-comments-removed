@@ -123,6 +123,14 @@ score
 0
 .
 01
+keywords
+:
+"
+"
+product_type
+:
+"
+"
 }
 ]
 }
