@@ -1288,18 +1288,6 @@ extraData
 (
 )
 {
-#
-if
-defined
-(
-XP_WIN
-)
-|
-|
-defined
-(
-XP_DARWIN
-)
 if
 (
 MP4Decoder
@@ -1391,8 +1379,6 @@ subsampling
 ;
 }
 }
-#
-endif
 return
 CheckResult
 (
