@@ -1981,6 +1981,7 @@ props
 const
 {
 saveToPocketCard
+topicsLoading
 }
 =
 DiscoveryStream
@@ -2106,6 +2107,9 @@ cards
 .
 push
 (
+topicsLoading
+|
+|
 !
 rec
 |
