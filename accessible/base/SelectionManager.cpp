@@ -1120,6 +1120,15 @@ SelectionType
 :
 :
 eSpellCheck
+&
+&
+aType
+!
+=
+SelectionType
+:
+:
+eTargetText
 )
 {
 return
