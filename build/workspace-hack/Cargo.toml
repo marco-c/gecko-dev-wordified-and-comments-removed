@@ -580,6 +580,13 @@ version
 .
 4
 "
+features
+=
+[
+"
+serde
+"
+]
 optional
 =
 true
@@ -656,11 +663,6 @@ version
 "
 2
 "
-default
--
-features
-=
-false
 features
 =
 [
