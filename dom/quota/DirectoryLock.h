@@ -289,12 +289,9 @@ public
 :
 virtual
 const
-Nullable
-<
-PersistenceType
->
+PersistenceScope
 &
-NullablePersistenceType
+PersistenceScopeRef
 (
 )
 const
