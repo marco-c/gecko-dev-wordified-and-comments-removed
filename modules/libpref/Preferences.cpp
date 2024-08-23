@@ -28916,6 +28916,16 @@ cachedClientID
 PREF_LIST_ENTRY
 (
 "
+toolkit
+.
+telemetry
+.
+cachedProfileGroupID
+"
+)
+PREF_LIST_ENTRY
+(
+"
 app
 .
 update
