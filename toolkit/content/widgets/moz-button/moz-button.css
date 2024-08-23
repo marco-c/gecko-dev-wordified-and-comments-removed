@@ -1474,5 +1474,11 @@ size
 default
 )
 ;
+pointer
+-
+events
+:
+none
+;
 }
 }
