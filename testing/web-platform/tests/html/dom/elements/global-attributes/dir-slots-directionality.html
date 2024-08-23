@@ -1326,7 +1326,7 @@ html_direction
 slot
 )
 "
-rtl
+ltr
 "
 )
 ;
@@ -1343,11 +1343,11 @@ dir
 auto
 slot
 ignores
-dir
-attribute
-of
 assigned
 nodes
+with
+dir
+attribute
 '
 )
 ;
@@ -1430,7 +1430,7 @@ html_direction
 slot
 )
 "
-rtl
+ltr
 "
 )
 ;
@@ -1446,7 +1446,7 @@ dir
 =
 auto
 slot
-considers
+ignores
 text
 in
 bdi
@@ -1548,7 +1548,7 @@ html_direction
 slot
 )
 "
-rtl
+ltr
 "
 )
 ;
@@ -1579,6 +1579,7 @@ input
 value
 =
 "
+a
 "
 >
 <
@@ -1641,17 +1642,7 @@ html_direction
 slot
 )
 "
-ltr
-"
-"
-no
-strong
-character
-in
-value
-counts
-as
-ltr
+rtl
 "
 )
 ;
@@ -1667,7 +1658,7 @@ dir
 =
 auto
 slot
-considers
+ignores
 text
 in
 value
