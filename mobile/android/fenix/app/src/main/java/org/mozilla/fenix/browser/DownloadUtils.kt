@@ -292,6 +292,7 @@ settings
 .
 getBottomToolbarHeight
 (
+safeContext
 )
 )
 {
