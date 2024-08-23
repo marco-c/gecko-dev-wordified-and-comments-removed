@@ -6160,10 +6160,13 @@ weatherLocationSearch
 type
 :
 boolean
-fallbackPref
+setPref
 :
->
--
+branch
+:
+user
+pref
+:
 browser
 .
 newtabpage
