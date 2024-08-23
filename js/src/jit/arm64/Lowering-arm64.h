@@ -756,9 +756,10 @@ phi
 ;
 }
 ;
-typedef
-LIRGeneratorARM64
+using
 LIRGeneratorSpecific
+=
+LIRGeneratorARM64
 ;
 }
 }

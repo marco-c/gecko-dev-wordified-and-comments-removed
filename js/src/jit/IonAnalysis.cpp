@@ -18034,7 +18034,9 @@ validEnd
 ;
 }
 ;
-typedef
+using
+BoundsCheckMap
+=
 HashMap
 <
 uint32_t
@@ -18045,7 +18047,6 @@ uint32_t
 >
 JitAllocPolicy
 >
-BoundsCheckMap
 ;
 static
 HashNumber

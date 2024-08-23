@@ -1519,7 +1519,9 @@ RVA
 =
 RValueAllocation
 ;
-typedef
+using
+RValueAllocMap
+=
 HashMap
 <
 RVA
@@ -1530,7 +1532,6 @@ RVA
 Hasher
 SystemAllocPolicy
 >
-RValueAllocMap
 ;
 RValueAllocMap
 allocMap_

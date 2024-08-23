@@ -105,12 +105,13 @@ MPhi
 #
 ifdef
 DEBUG
-typedef
+using
+MResumePointIterator
+=
 InlineForwardListIterator
 <
 MResumePoint
 >
-MResumePointIterator
 ;
 #
 endif
@@ -3027,7 +3028,9 @@ InlineListReverseIterator
 MBasicBlock
 >
 ;
-typedef
+using
+MIRGraphReturns
+=
 Vector
 <
 MBasicBlock
@@ -3035,7 +3038,6 @@ MBasicBlock
 1
 JitAllocPolicy
 >
-MIRGraphReturns
 ;
 class
 MIRGraph

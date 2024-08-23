@@ -108,7 +108,9 @@ newKey
 ;
 }
 ;
-typedef
+using
+ValueSet
+=
 HashSet
 <
 MDefinition
@@ -116,7 +118,6 @@ MDefinition
 ValueHasher
 JitAllocPolicy
 >
-ValueSet
 ;
 ValueSet
 set_
@@ -221,7 +222,9 @@ const
 endif
 }
 ;
-typedef
+using
+BlockWorklist
+=
 Vector
 <
 MBasicBlock
@@ -229,9 +232,10 @@ MBasicBlock
 4
 JitAllocPolicy
 >
-BlockWorklist
 ;
-typedef
+using
+DefWorklist
+=
 Vector
 <
 MDefinition
@@ -239,7 +243,6 @@ MDefinition
 4
 JitAllocPolicy
 >
-DefWorklist
 ;
 MIRGenerator
 *

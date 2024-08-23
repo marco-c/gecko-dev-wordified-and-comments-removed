@@ -295,14 +295,15 @@ nativeEndAddr
 }
 }
 ;
-typedef
+using
+BytecodeLocationVector
+=
 Vector
 <
 BytecodeLocation
 0
 SystemAllocPolicy
 >
-BytecodeLocationVector
 ;
 class
 IonEntry

@@ -234,9 +234,10 @@ reg
 }
 }
 ;
-typedef
-MoveEmitterARM
+using
 MoveEmitter
+=
+MoveEmitterARM
 ;
 }
 }

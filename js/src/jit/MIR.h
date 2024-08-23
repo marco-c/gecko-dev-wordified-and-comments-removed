@@ -2305,7 +2305,9 @@ Store_
 }
 }
 ;
-typedef
+using
+MDefinitionVector
+=
 Vector
 <
 MDefinition
@@ -2313,9 +2315,10 @@ MDefinition
 6
 JitAllocPolicy
 >
-MDefinitionVector
 ;
-typedef
+using
+MInstructionVector
+=
 Vector
 <
 MInstruction
@@ -2323,7 +2326,6 @@ MInstruction
 6
 JitAllocPolicy
 >
-MInstructionVector
 ;
 enum
 class

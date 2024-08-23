@@ -798,9 +798,10 @@ ool
 ;
 }
 ;
-typedef
-CodeGeneratorARM
+using
 CodeGeneratorSpecific
+=
+CodeGeneratorARM
 ;
 class
 OutOfLineBailout

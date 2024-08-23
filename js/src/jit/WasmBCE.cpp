@@ -45,7 +45,9 @@ js
 :
 jit
 ;
-typedef
+using
+LastSeenMap
+=
 js
 :
 :
@@ -60,7 +62,6 @@ uint32_t
 >
 SystemAllocPolicy
 >
-LastSeenMap
 ;
 bool
 jit

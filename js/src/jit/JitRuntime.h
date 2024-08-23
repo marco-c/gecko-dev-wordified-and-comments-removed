@@ -890,7 +890,9 @@ false
 ;
 #
 endif
-typedef
+using
+NumFinishedOffThreadTasksType
+=
 mozilla
 :
 :
@@ -902,7 +904,6 @@ mozilla
 :
 SequentiallyConsistent
 >
-NumFinishedOffThreadTasksType
 ;
 NumFinishedOffThreadTasksType
 numFinishedOffThreadTasks_

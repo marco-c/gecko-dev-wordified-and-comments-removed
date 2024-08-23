@@ -9024,9 +9024,10 @@ profilerExitFrame
 ;
 }
 ;
-typedef
-MacroAssemblerARMCompat
+using
 MacroAssemblerSpecific
+=
+MacroAssemblerARMCompat
 ;
 }
 }

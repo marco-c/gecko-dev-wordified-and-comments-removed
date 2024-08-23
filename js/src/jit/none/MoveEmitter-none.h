@@ -81,9 +81,10 @@ MOZ_CRASH
 }
 }
 ;
-typedef
-MoveEmitterNone
+using
 MoveEmitter
+=
+MoveEmitterNone
 ;
 }
 }

@@ -81,9 +81,10 @@ MOZ_CRASH
 }
 }
 ;
-typedef
-MoveEmitterWasm32
+using
 MoveEmitter
+=
+MoveEmitterWasm32
 ;
 }
 #

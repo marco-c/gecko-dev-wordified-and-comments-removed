@@ -474,9 +474,10 @@ reg
 }
 }
 ;
-typedef
-MoveEmitterARM64
+using
 MoveEmitter
+=
+MoveEmitterARM64
 ;
 }
 }

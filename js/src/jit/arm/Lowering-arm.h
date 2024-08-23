@@ -673,9 +673,10 @@ phi
 ;
 }
 ;
-typedef
-LIRGeneratorARM
+using
 LIRGeneratorSpecific
+=
+LIRGeneratorARM
 ;
 }
 }

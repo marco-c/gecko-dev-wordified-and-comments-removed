@@ -8074,9 +8074,10 @@ profilerExitFrame
 ;
 }
 ;
-typedef
-MacroAssemblerX86
+using
 MacroAssemblerSpecific
+=
+MacroAssemblerX86
 ;
 }
 }

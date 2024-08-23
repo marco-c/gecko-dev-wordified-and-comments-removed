@@ -796,9 +796,10 @@ MOZ_CRASH
 }
 }
 ;
-typedef
-LIRGeneratorWasm32
+using
 LIRGeneratorSpecific
+=
+LIRGeneratorWasm32
 ;
 }
 #

@@ -388,9 +388,10 @@ MOZ_CRASH
 }
 }
 ;
-typedef
-CodeGeneratorNone
+using
 CodeGeneratorSpecific
+=
+CodeGeneratorNone
 ;
 }
 }

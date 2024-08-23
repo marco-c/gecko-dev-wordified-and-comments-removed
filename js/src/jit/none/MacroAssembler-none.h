@@ -2587,9 +2587,10 @@ MOZ_CRASH
 endif
 }
 ;
-typedef
-MacroAssemblerNone
+using
 MacroAssemblerSpecific
+=
+MacroAssemblerNone
 ;
 static
 inline
