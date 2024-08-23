@@ -198,7 +198,7 @@ mNamedCurve
 )
 ;
 case
-ED
+OKP
 :
 return
 true
