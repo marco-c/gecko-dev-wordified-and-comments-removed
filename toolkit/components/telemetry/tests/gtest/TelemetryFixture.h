@@ -128,10 +128,6 @@ AutoJSAPI
 >
 mJsAPI
 ;
-JSContext
-*
-mCx
-;
 }
 ;
 #

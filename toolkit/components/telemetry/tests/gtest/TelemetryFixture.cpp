@@ -95,11 +95,6 @@ JSObject
 *
 aGlobalObject
 )
-:
-mCx
-(
-nullptr
-)
 {
 JS
 :
