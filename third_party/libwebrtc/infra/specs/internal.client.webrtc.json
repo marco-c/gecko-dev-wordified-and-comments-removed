@@ -2371,7 +2371,7 @@ build
 version
 "
 "
-14c18
+15c500b
 "
 "
 -
@@ -2496,13 +2496,6 @@ dimensions
 :
 {
 "
-caches
-"
-:
-"
-xcode_ios_14c18
-"
-"
 device_status
 "
 :
@@ -2516,7 +2509,7 @@ id
 "
 mac
 -
-254
+438
 -
 e504
 "
@@ -2527,11 +2520,11 @@ os
 "
 iOS
 -
-15
+17
 .
-7
+4
 .
-8
+1
 "
 "
 pool
@@ -2567,7 +2560,7 @@ name
 "
 :
 "
-xcode_ios_14c18
+xcode_ios_15c500b
 "
 "
 path
