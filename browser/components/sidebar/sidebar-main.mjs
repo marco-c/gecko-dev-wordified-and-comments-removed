@@ -281,7 +281,7 @@ Localization
 (
 [
 "
-preview
+browser
 /
 sidebar
 .
