@@ -250,6 +250,9 @@ rate_control
 struct
 Performance
 {
+bool
+encode_on_calling_thread
+;
 std
 :
 :

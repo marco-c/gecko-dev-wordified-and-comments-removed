@@ -5164,6 +5164,10 @@ performance
 =
 {
 .
+encode_on_calling_thread
+=
+true
+.
 min_max_effort_level
 =
 {
