@@ -1,10 +1,4 @@
 use
-error
-:
-:
-KeyValueError
-;
-use
 nsstring
 :
 :
@@ -49,6 +43,15 @@ interfaces
 nsIVariant
 RefPtr
 }
+;
+use
+crate
+:
+:
+error
+:
+:
+KeyValueError
 ;
 pub
 fn
