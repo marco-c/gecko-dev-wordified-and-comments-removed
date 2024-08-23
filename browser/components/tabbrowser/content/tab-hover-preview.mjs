@@ -1458,7 +1458,7 @@ add
 handleExternalPopupEvent
 (
 "
-popuphidden
+popuphiding
 "
 "
 delete
