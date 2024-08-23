@@ -1108,7 +1108,7 @@ gTestBrowser
 ownerGlobal
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
