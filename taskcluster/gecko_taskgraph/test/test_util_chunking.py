@@ -841,6 +841,24 @@ tag
 [
 ]
 "
+        
+mingwclang
+=
+False
+        
+nightly_build
+=
+False
+        
+repo
+=
+"
+try
+"
+        
+crashreporter
+=
+False
     
 )
 :
