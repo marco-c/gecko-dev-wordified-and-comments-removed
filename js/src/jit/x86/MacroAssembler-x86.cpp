@@ -3165,6 +3165,9 @@ profilerExitTail
 Label
 *
 bailoutTail
+uint32_t
+*
+returnValueCheckOffset
 )
 {
 subl
@@ -3234,6 +3237,17 @@ CheckUnsafeCallWithABI
 :
 :
 DontCheckHasExitFrame
+)
+;
+*
+returnValueCheckOffset
+=
+asMasm
+(
+)
+.
+currentOffset
+(
 )
 ;
 Label

@@ -1008,6 +1008,9 @@ profilerExitTail
 Label
 *
 bailoutTail
+uint32_t
+*
+returnValueCheckOffset
 )
 {
 MOZ_RELEASE_ASSERT
@@ -1117,6 +1120,17 @@ CheckUnsafeCallWithABI
 :
 :
 DontCheckHasExitFrame
+)
+;
+*
+returnValueCheckOffset
+=
+asMasm
+(
+)
+.
+currentOffset
+(
 )
 ;
 Label

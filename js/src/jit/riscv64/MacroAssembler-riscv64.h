@@ -6153,6 +6153,9 @@ profilerExitTail
 Label
 *
 bailoutTail
+uint32_t
+*
+returnValueCheckOffset
 )
 ;
 public
