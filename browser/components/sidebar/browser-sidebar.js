@@ -1864,6 +1864,12 @@ true
 }
 this
 .
+setPosition
+(
+)
+;
+this
+.
 _inited
 =
 true
@@ -5366,12 +5372,6 @@ _splitter
 hidden
 =
 false
-;
-this
-.
-setPosition
-(
-)
 ;
 this
 .

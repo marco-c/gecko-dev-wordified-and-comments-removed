@@ -127,6 +127,13 @@ js
 ]
 [
 "
+browser_sidebar_position
+.
+js
+"
+]
+[
+"
 browser_sidebar_prefs
 .
 js
