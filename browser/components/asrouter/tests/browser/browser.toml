@@ -209,13 +209,6 @@ Try
 )
 [
 "
-browser_bookmarks_bar_button
-.
-js
-"
-]
-[
-"
 browser_feature_callout_in_chrome
 .
 js
