@@ -1,5 +1,13 @@
 import
+os
+import
 pytest
+from
+urllib
+.
+parse
+import
+urlparse
 from
 webdriver
 .
@@ -19,7 +27,12 @@ modules
 .
 storage
 import
+(
+    
 BrowsingContextPartitionDescriptor
+    
+StorageKeyPartitionDescriptor
+)
 from
 .
 .
@@ -662,6 +675,8 @@ wait_for_future_safe
     
 url
     
+origin
+    
 domain_1
 )
 :
@@ -734,11 +749,8 @@ cookie_value
 bar
 "
     
-request_url
+path
 =
-url
-(
-        
 "
 /
 webdriver
@@ -748,6 +760,18 @@ tests
 support
 /
 http_handlers
+"
+    
+request_url
+=
+url
+(
+        
+f
+"
+{
+path
+}
 /
 headers
 .
@@ -881,15 +905,27 @@ get_cookies
         
 partition
 =
-BrowsingContextPartitionDescriptor
+StorageKeyPartitionDescriptor
 (
-new_tab
-[
-"
-context
-"
-]
+source_origin
+=
+origin
+(
+domain
+=
+domain_1
 )
+)
+        
+filter
+=
+{
+"
+path
+"
+:
+path
+}
     
 )
     
@@ -970,6 +1006,8 @@ wait_for_future_safe
 url
     
 inline
+    
+origin
     
 domain_1
 )
@@ -1165,6 +1203,32 @@ wait_for_future_safe
 on_before_request_sent
 )
     
+image_path
+=
+os
+.
+path
+.
+dirname
+(
+urlparse
+(
+image_url
+)
+.
+path
+.
+replace
+(
+"
+/
+"
+os
+.
+sep
+)
+)
+    
 result
 =
 await
@@ -1177,15 +1241,27 @@ get_cookies
         
 partition
 =
-BrowsingContextPartitionDescriptor
+StorageKeyPartitionDescriptor
 (
-new_tab
-[
-"
-context
-"
-]
+source_origin
+=
+origin
+(
+domain
+=
+domain_1
 )
+)
+        
+filter
+=
+{
+"
+path
+"
+:
+image_path
+}
     
 )
     
