@@ -94,8 +94,6 @@ filename
 big
 -
 dom
--
-generator
 .
 css
 "

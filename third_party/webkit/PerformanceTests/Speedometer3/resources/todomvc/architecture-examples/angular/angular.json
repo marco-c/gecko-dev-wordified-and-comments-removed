@@ -607,4 +607,15 @@ scripts
 }
 }
 }
+"
+cli
+"
+:
+{
+"
+analytics
+"
+:
+false
+}
 }

@@ -396,7 +396,7 @@ label
 >
 <
 span
-className
+class
 =
 "
 visually
@@ -448,7 +448,7 @@ Icon
 >
 <
 span
-className
+class
 =
 "
 animated

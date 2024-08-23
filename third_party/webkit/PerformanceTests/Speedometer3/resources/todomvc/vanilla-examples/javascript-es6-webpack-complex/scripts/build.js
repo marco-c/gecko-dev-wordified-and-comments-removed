@@ -94,8 +94,6 @@ dist
 big
 -
 dom
--
-generator
 .
 css
 "

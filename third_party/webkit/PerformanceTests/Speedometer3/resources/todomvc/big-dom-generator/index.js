@@ -96,8 +96,6 @@ href
 big
 -
 dom
--
-generator
 .
 css
 "

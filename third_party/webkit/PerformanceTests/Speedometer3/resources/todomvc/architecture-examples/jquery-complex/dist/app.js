@@ -458,7 +458,7 @@ on
 click
 '
 '
-#
+.
 clear
 -
 completed

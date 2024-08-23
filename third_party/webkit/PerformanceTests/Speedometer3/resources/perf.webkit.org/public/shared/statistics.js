@@ -9850,9 +9850,13 @@ cost
 0
 ]
 =
+new
+Float32Array
+(
 [
 0
 ]
+)
 ;
 previousNode
 [
