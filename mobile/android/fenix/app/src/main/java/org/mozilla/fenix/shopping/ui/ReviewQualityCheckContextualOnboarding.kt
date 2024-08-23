@@ -277,6 +277,16 @@ fenix
 .
 compose
 .
+InfoCardContainer
+import
+org
+.
+mozilla
+.
+fenix
+.
+compose
+.
 LinkText
 import
 org
@@ -599,7 +609,7 @@ string
 .
 review_quality_check_contextual_onboarding_title
 )
-ReviewQualityCheckCard
+InfoCardContainer
 (
 modifier
 =

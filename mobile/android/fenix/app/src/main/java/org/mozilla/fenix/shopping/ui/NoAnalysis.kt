@@ -345,6 +345,16 @@ fenix
 .
 compose
 .
+InfoCardContainer
+import
+org
+.
+mozilla
+.
+fenix
+.
+compose
+.
 annotation
 .
 LightDarkPreview
@@ -761,7 +771,7 @@ onAnalyzeClick
 Unit
 )
 {
-ReviewQualityCheckCard
+InfoCardContainer
 (
 modifier
 =

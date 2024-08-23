@@ -219,6 +219,16 @@ fenix
 .
 compose
 .
+ExpandableInfoCardContainer
+import
+org
+.
+mozilla
+.
+fenix
+.
+compose
+.
 SwitchWithLabel
 import
 org
@@ -402,7 +412,7 @@ Modifier
 Modifier
 )
 {
-ReviewQualityCheckExpandableCard
+ExpandableInfoCardContainer
 (
 modifier
 =

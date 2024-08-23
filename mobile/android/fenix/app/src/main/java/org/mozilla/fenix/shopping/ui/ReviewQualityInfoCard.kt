@@ -277,6 +277,16 @@ fenix
 .
 compose
 .
+ExpandableInfoCardContainer
+import
+org
+.
+mozilla
+.
+fenix
+.
+compose
+.
 LinkText
 import
 org
@@ -455,7 +465,7 @@ onLearnMoreClick
 Unit
 )
 {
-ReviewQualityCheckExpandableCard
+ExpandableInfoCardContainer
 (
 title
 =
