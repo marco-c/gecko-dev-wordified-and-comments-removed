@@ -329,7 +329,9 @@ wasm
 struct
 CompileTask
 ;
-typedef
+using
+CompileTaskPtrFifo
+=
 Fifo
 <
 CompileTask
@@ -337,7 +339,6 @@ CompileTask
 0
 SystemAllocPolicy
 >
-CompileTaskPtrFifo
 ;
 struct
 Tier2GeneratorTask
@@ -371,7 +372,9 @@ UniquePtr
 Tier2GeneratorTask
 >
 ;
-typedef
+using
+Tier2GeneratorTaskPtrVector
+=
 Vector
 <
 Tier2GeneratorTask
@@ -379,7 +382,6 @@ Tier2GeneratorTask
 0
 SystemAllocPolicy
 >
-Tier2GeneratorTaskPtrVector
 ;
 }
 class
@@ -408,7 +410,9 @@ terminating_
 =
 false
 ;
-typedef
+using
+IonCompileTaskVector
+=
 Vector
 <
 jit
@@ -419,7 +423,6 @@ IonCompileTask
 0
 SystemAllocPolicy
 >
-IonCompileTaskVector
 ;
 using
 IonFreeTaskVector
@@ -467,7 +470,9 @@ FreeDelazifyTask
 SystemAllocPolicy
 >
 ;
-typedef
+using
+SourceCompressionTaskVector
+=
 Vector
 <
 UniquePtr
@@ -477,9 +482,10 @@ SourceCompressionTask
 0
 SystemAllocPolicy
 >
-SourceCompressionTaskVector
 ;
-typedef
+using
+PromiseHelperTaskVector
+=
 Vector
 <
 PromiseHelperTask
@@ -487,7 +493,6 @@ PromiseHelperTask
 0
 SystemAllocPolicy
 >
-PromiseHelperTaskVector
 ;
 mozilla
 :

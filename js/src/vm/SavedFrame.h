@@ -532,7 +532,9 @@ Lookup
 struct
 HashPolicy
 ;
-typedef
+using
+Set
+=
 JS
 :
 :
@@ -546,7 +548,6 @@ SavedFrame
 HashPolicy
 SystemAllocPolicy
 >
-Set
 ;
 private
 :

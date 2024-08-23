@@ -297,7 +297,9 @@ script
 ;
 private
 :
-typedef
+using
+LCovSourceVector
+=
 mozilla
 :
 :
@@ -311,7 +313,6 @@ LifoAllocPolicy
 Fallible
 >
 >
-LCovSourceVector
 ;
 LifoAlloc
 alloc_

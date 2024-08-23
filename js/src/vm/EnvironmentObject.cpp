@@ -22643,13 +22643,14 @@ pc
 #
 ifdef
 DEBUG
-typedef
+using
+PropertyNameSet
+=
 HashSet
 <
 PropertyName
 *
 >
-PropertyNameSet
 ;
 static
 bool
