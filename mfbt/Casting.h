@@ -467,14 +467,6 @@ ld
 "
 )
 ;
-#
-endif
-#
-if
-defined
-(
-XP_DARWIN
-)
 T2S
 (
 unsigned
