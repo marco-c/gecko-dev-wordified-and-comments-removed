@@ -85,8 +85,6 @@ if
 (
 exportThing
 instanceof
-WebAssembly
-.
 Function
 )
 {
