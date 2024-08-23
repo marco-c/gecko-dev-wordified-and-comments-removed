@@ -1297,7 +1297,7 @@ fillMaxHeight
 .
 width
 (
-2
+1
 .
 dp
 )
@@ -1879,7 +1879,7 @@ fillMaxHeight
 .
 width
 (
-2
+1
 .
 dp
 )
