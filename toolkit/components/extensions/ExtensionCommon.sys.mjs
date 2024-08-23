@@ -4744,7 +4744,6 @@ ScriptError
 (
 message
 fileName
-null
 lineNumber
 columnNumber
 Ci

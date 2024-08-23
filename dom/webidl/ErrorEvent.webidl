@@ -153,7 +153,7 @@ message
 ;
 readonly
 attribute
-DOMString
+UTF8String
 filename
 ;
 readonly
@@ -186,7 +186,7 @@ message
 "
 "
 ;
-DOMString
+UTF8String
 filename
 =
 "

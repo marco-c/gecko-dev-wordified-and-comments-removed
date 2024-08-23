@@ -679,14 +679,7 @@ get
 (
 )
 )
-NS_ConvertUTF8toUTF16
-(
 file
-)
-u
-"
-"
-_ns
 aLineNumber
 0
 nsIScriptError

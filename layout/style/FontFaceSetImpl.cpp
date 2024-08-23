@@ -3447,11 +3447,8 @@ FindRuleForUserFontEntry
 aUserFontEntry
 )
 ;
-nsString
-href
-;
 nsAutoCString
-text
+href
 ;
 uint32_t
 line
@@ -3468,13 +3465,6 @@ if
 rule
 )
 {
-Servo_FontFaceRule_GetCssText
-(
-rule
-&
-text
-)
-;
 Servo_FontFaceRule_GetSourceLocation
 (
 rule
@@ -3588,10 +3578,6 @@ NS_ConvertUTF8toUTF16
 message
 )
 href
-NS_ConvertUTF8toUTF16
-(
-text
-)
 line
 column
 aFlags

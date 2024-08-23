@@ -1257,7 +1257,7 @@ aCondition
 return
 ;
 }
-nsAutoString
+nsAutoCString
 filename
 ;
 uint32_t
@@ -1313,7 +1313,6 @@ filename
 .
 Assign
 (
-u
 "
 <
 unknown
@@ -1323,12 +1322,6 @@ _ns
 )
 ;
 }
-NS_ConvertUTF16toUTF8
-filenameUtf8
-(
-filename
-)
-;
 NS_ConvertUTF16toUTF8
 messageUtf8
 (
@@ -1361,7 +1354,7 @@ messageUtf8
 get
 (
 )
-filenameUtf8
+filename
 .
 get
 (

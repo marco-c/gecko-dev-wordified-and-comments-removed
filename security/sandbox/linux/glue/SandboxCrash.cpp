@@ -172,8 +172,10 @@ nullptr
 i
 )
 {
-nsAutoString
+nsAutoCString
 fileName
+;
+nsAutoString
 funName
 ;
 int32_t
@@ -289,10 +291,7 @@ file
 )
 "
 :
-NS_ConvertUTF16toUTF8
-(
 fileName
-)
 .
 get
 (

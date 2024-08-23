@@ -6976,10 +6976,8 @@ ScriptErrorWithStack
 (
 nsString
 message
-nsString
+nsCString
 sourceName
-nsString
-sourceLine
 uint32_t
 lineNumber
 uint32_t
@@ -10981,10 +10979,8 @@ ScriptError
 (
 nsString
 message
-nsString
+nsCString
 sourceName
-nsString
-sourceLine
 uint32_t
 lineNumber
 uint32_t

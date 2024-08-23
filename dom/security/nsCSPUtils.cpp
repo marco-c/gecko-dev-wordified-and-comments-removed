@@ -1143,11 +1143,7 @@ error
 InitWithWindowID
 (
 cspMsg
-NS_ConvertUTF8toUTF16
-(
 aSourceName
-)
-aSourceLine
 aLineNumber
 aColumnNumber
 aFlags
@@ -1166,11 +1162,7 @@ error
 Init
 (
 cspMsg
-NS_ConvertUTF8toUTF16
-(
 aSourceName
-)
-aSourceLine
 aLineNumber
 aColumnNumber
 aFlags

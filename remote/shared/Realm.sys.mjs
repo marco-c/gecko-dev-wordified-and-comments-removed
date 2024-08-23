@@ -1853,9 +1853,6 @@ const
 {
 column
 line
-source
-:
-sourceLine
 }
 =
 stack
@@ -1901,7 +1898,6 @@ window
 document
 .
 baseURI
-sourceLine
 line
 column
 Ci

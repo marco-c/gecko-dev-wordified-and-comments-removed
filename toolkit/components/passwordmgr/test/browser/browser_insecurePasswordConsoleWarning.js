@@ -621,14 +621,6 @@ testURL
 line
 :
 0
-column
-:
-0
-source
-:
-"
-0
-"
 }
 ]
 ;

@@ -382,7 +382,6 @@ WebRTC
 msg
 }
 file
-null
 line
 0
 flag

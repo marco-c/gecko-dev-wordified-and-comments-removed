@@ -10046,7 +10046,7 @@ NS_GetSanitizedURIStringFromURI
 nsIURI
 *
 aUri
-nsAString
+nsACString
 &
 aSanitizedSpec
 )
@@ -10115,10 +10115,7 @@ aSanitizedSpec
 .
 Assign
 (
-NS_ConvertUTF8toUTF16
-(
 cSpec
-)
 )
 ;
 }

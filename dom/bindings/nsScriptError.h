@@ -90,7 +90,7 @@ nsAString
 &
 message
 const
-nsAString
+nsACString
 &
 sourceName
 uint32_t
@@ -112,14 +112,11 @@ nsScriptErrorNote
 nsString
 mMessage
 ;
-nsString
+nsCString
 mSourceName
 ;
 nsString
 mCssSelectors
-;
-nsString
-mSourceLine
 ;
 uint32_t
 mSourceId
@@ -192,10 +189,6 @@ const
 nsAString
 &
 message
-const
-nsAString
-&
-sourceLine
 uint32_t
 lineNumber
 uint32_t
@@ -224,7 +217,7 @@ mMessage
 nsString
 mMessageName
 ;
-nsString
+nsCString
 mSourceName
 ;
 nsString
@@ -235,9 +228,6 @@ mSourceId
 ;
 uint32_t
 mLineNumber
-;
-nsString
-mSourceLine
 ;
 uint32_t
 mColumnNumber

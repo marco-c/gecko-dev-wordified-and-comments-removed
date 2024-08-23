@@ -534,7 +534,6 @@ sourceName
 "
 sourceName
 "
-null
 _options
 .
 lineNumber

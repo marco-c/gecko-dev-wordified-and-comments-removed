@@ -561,7 +561,7 @@ NS_GetSanitizedURIStringFromURI
 nsIURI
 *
 aUri
-nsAString
+nsACString
 &
 aSanitizedSpec
 )

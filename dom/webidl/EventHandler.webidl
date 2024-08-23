@@ -208,7 +208,7 @@ DOMString
 )
 event
 optional
-DOMString
+UTF8String
 source
 optional
 unsigned

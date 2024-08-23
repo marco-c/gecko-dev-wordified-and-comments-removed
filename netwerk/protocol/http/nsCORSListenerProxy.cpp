@@ -8060,11 +8060,6 @@ scriptError
 InitWithSanitizedSource
 (
 aMessage
-u
-"
-"
-_ns
-u
 "
 "
 _ns
@@ -8086,11 +8081,6 @@ scriptError
 Init
 (
 aMessage
-u
-"
-"
-_ns
-u
 "
 "
 _ns

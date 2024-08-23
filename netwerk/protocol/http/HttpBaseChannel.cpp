@@ -16452,10 +16452,6 @@ InitWithSourceURI
 (
 errorText
 mURI
-u
-"
-"
-_ns
 0
 0
 nsIScriptError

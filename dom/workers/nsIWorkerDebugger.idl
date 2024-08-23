@@ -98,7 +98,7 @@ void
 onError
 (
 in
-AString
+ACString
 filename
 in
 unsigned

@@ -595,9 +595,6 @@ null
 sourceName
 :
 null
-sourceLine
-:
-null
 lineNumber
 :
 null
@@ -653,14 +650,6 @@ sourceName
 msg
 .
 sourceName
-;
-m
-.
-sourceLine
-=
-msg
-.
-sourceLine
 ;
 m
 .

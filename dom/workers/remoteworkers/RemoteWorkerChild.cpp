@@ -3056,10 +3056,6 @@ aReport
 -
 >
 mFilename
-aReport
--
->
-mLine
 TransformIntoNewArray
 (
 aReport

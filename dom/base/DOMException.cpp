@@ -962,7 +962,7 @@ GetFilename
 JSContext
 *
 aCx
-nsAString
+nsACString
 &
 aFilename
 )

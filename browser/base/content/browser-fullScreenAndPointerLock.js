@@ -2203,7 +2203,6 @@ gBrowser
 currentURI
 .
 spec
-null
 0
 0
 Ci

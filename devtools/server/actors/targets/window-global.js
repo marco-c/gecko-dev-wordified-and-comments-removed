@@ -2928,7 +2928,6 @@ initWithWindowID
 (
 text
 null
-null
 0
 0
 flags

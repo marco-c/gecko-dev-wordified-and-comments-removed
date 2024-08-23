@@ -4663,7 +4663,6 @@ toString
 error
 .
 fileName
-null
 error
 .
 lineNumber

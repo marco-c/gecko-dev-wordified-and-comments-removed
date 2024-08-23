@@ -23057,7 +23057,7 @@ WorkerPrivate
 ReportErrorToDebugger
 (
 const
-nsAString
+nsACString
 &
 aFilename
 uint32_t

@@ -400,7 +400,6 @@ initWithWindowID
 (
 text
 filename
-null
 lineNumber
 columnNumber
 Ci

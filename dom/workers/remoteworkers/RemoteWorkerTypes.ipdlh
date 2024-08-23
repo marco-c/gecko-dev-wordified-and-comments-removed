@@ -541,7 +541,7 @@ columnNumber
 nsString
 message
 ;
-nsString
+nsCString
 filename
 ;
 }
@@ -561,11 +561,8 @@ columnNumber
 nsString
 message
 ;
-nsString
+nsCString
 filename
-;
-nsString
-line
 ;
 ErrorDataNote
 [

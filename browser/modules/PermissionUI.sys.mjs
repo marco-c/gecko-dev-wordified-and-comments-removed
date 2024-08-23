@@ -4300,7 +4300,6 @@ initWithWindowID
 (
 errorMessage
 null
-null
 0
 0
 0

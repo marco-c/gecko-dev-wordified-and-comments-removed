@@ -254,7 +254,7 @@ data
 "
 readonly
 attribute
-DOMString
+UTF8String
 filename
 ;
 /

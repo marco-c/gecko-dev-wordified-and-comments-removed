@@ -1681,7 +1681,7 @@ return
 NS_OK
 ;
 }
-nsString
+nsAutoCString
 spec
 ;
 NS_GetSanitizedURIStringFromURI
@@ -1717,10 +1717,7 @@ nsString
 >
 (
 {
-std
-:
-:
-move
+NS_ConvertUTF8toUTF16
 (
 spec
 )
