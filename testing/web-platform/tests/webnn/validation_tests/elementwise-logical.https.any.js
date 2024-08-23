@@ -34,7 +34,17 @@ operatorName
 =
 >
 {
+validateTwoInputsOfSameDataType
+(
+operatorName
+)
+;
 validateTwoInputsFromMultipleBuilders
+(
+operatorName
+)
+;
+validateTwoInputsBroadcastable
 (
 operatorName
 )
@@ -45,7 +55,7 @@ operatorName
 validateInputFromAnotherBuilder
 (
 '
-not
+logicalNot
 '
 )
 ;
