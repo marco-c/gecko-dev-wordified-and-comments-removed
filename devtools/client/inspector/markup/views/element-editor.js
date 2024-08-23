@@ -1115,6 +1115,13 @@ newAttr
 multiline
 :
 true
+inputClass
+:
+"
+newattr
+-
+input
+"
 maxWidth
 :
 (
