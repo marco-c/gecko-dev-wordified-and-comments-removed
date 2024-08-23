@@ -1194,7 +1194,7 @@ ImportInterpExit
 ImportJitExit
 BuiltinThunk
 TrapExit
-DebugTrap
+DebugStub
 FarJumpIsland
 Throw
 }
@@ -1483,7 +1483,7 @@ TrapExit
 ;
 }
 bool
-isDebugTrap
+isDebugStub
 (
 )
 const
@@ -1494,7 +1494,7 @@ kind
 )
 =
 =
-DebugTrap
+DebugStub
 ;
 }
 bool
@@ -1529,7 +1529,7 @@ isImportExit
 )
 |
 |
-isDebugTrap
+isDebugStub
 (
 )
 |

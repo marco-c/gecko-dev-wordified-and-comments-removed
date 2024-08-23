@@ -3253,20 +3253,6 @@ code
 "
 )
 ;
-JitSpew
-(
-JitSpew_Codegen
-"
-#
-endFunction
-:
-end
-of
-OOL
-code
-"
-)
-;
 if
 (
 compilerEnv_
@@ -3285,13 +3271,15 @@ endFunction
 :
 start
 of
+per
+-
+function
 debug
-trap
 stub
 "
 )
 ;
-insertBreakpointStub
+insertPerFunctionDebugStub
 (
 )
 ;
@@ -3304,8 +3292,10 @@ endFunction
 :
 end
 of
+per
+-
+function
 debug
-trap
 stub
 "
 )
@@ -3420,7 +3410,7 @@ static_assert
 Instance
 :
 :
-offsetOfDebugTrapHandler
+offsetOfDebugStub
 (
 )
 <
@@ -3443,7 +3433,7 @@ InstanceReg
 Instance
 :
 :
-offsetOfDebugTrapHandler
+offsetOfDebugStub
 (
 )
 )
@@ -3483,7 +3473,7 @@ masm
 call
 (
 &
-debugTrapStub_
+perFunctionDebugStub_
 )
 ;
 masm
@@ -3545,7 +3535,7 @@ static_assert
 Instance
 :
 :
-offsetOfDebugTrapHandler
+offsetOfDebugStub
 (
 )
 <
@@ -3568,7 +3558,7 @@ InstanceReg
 Instance
 :
 :
-offsetOfDebugTrapHandler
+offsetOfDebugStub
 (
 )
 )
@@ -3608,7 +3598,7 @@ masm
 call
 (
 &
-debugTrapStub_
+perFunctionDebugStub_
 )
 ;
 masm
@@ -3695,7 +3685,7 @@ InstanceReg
 Instance
 :
 :
-offsetOfDebugTrapHandler
+offsetOfDebugStub
 (
 )
 )
@@ -3716,7 +3706,7 @@ masm
 Bl
 (
 &
-debugTrapStub_
+perFunctionDebugStub_
 )
 ;
 masm
@@ -3773,7 +3763,7 @@ InstanceReg
 Instance
 :
 :
-offsetOfDebugTrapHandler
+offsetOfDebugStub
 (
 )
 )
@@ -3794,7 +3784,7 @@ masm
 ma_bl
 (
 &
-debugTrapStub_
+perFunctionDebugStub_
 Assembler
 :
 :
@@ -3863,7 +3853,7 @@ InstanceReg
 Instance
 :
 :
-offsetOfDebugTrapHandler
+offsetOfDebugStub
 (
 )
 )
@@ -3892,7 +3882,7 @@ masm
 call
 (
 &
-debugTrapStub_
+perFunctionDebugStub_
 )
 ;
 masm
@@ -3946,7 +3936,7 @@ void
 BaseCompiler
 :
 :
-insertBreakpointStub
+insertPerFunctionDebugStub
 (
 )
 {
@@ -3958,7 +3948,7 @@ masm
 bind
 (
 &
-debugTrapStub_
+perFunctionDebugStub_
 )
 ;
 #
@@ -4356,7 +4346,7 @@ InstanceReg
 Instance
 :
 :
-offsetOfDebugTrapHandler
+offsetOfDebugStub
 (
 )
 )

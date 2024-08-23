@@ -968,7 +968,7 @@ kind_
 )
 {
 case
-DebugTrap
+DebugStub
 :
 case
 BuiltinThunk

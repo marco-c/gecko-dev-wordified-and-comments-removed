@@ -822,7 +822,7 @@ WasmMacroAssembler
 masm_
 ;
 uint32_t
-debugTrapCodeOffset_
+debugStubCodeOffset_
 ;
 CallFarJumpVector
 callFarJumps_

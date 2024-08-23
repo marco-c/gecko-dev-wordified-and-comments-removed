@@ -421,7 +421,7 @@ ImportJit
 ImportInterp
 BuiltinNative
 Trap
-DebugTrap
+DebugStub
 }
 ;
 private

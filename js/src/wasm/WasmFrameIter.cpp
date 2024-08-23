@@ -5539,7 +5539,7 @@ case
 CodeRange
 :
 :
-DebugTrap
+DebugStub
 :
 case
 CodeRange
@@ -6269,7 +6269,7 @@ case
 CodeRange
 :
 :
-DebugTrap
+DebugStub
 :
 #
 if
@@ -7968,7 +7968,7 @@ case
 CodeRange
 :
 :
-DebugTrap
+DebugStub
 :
 case
 CodeRange
@@ -10000,7 +10000,7 @@ wasm
 static
 const
 char
-debugTrapDescription
+debugStubDescription
 [
 ]
 =
@@ -10110,10 +10110,10 @@ ExitReason
 Fixed
 :
 :
-DebugTrap
+DebugStub
 :
 return
-debugTrapDescription
+debugStubDescription
 ;
 }
 switch
@@ -10220,10 +10220,10 @@ case
 CodeRange
 :
 :
-DebugTrap
+DebugStub
 :
 return
-debugTrapDescription
+debugStubDescription
 ;
 case
 CodeRange

@@ -657,7 +657,7 @@ instance
 funcIndex
 )
 ;
-enableDebugTrap
+enableDebugTrapping
 (
 instance
 )
@@ -896,7 +896,7 @@ anyStepping
 anyBreakpoints
 )
 {
-disableDebugTrap
+disableDebugTrapping
 (
 instance
 )
@@ -1068,7 +1068,7 @@ instance
 funcIndex
 )
 ;
-enableDebugTrap
+enableDebugTrapping
 (
 instance
 )
@@ -1097,7 +1097,7 @@ anyStepping
 anyBreakpoints
 )
 {
-disableDebugTrap
+disableDebugTrapping
 (
 instance
 )
@@ -1675,7 +1675,7 @@ void
 DebugState
 :
 :
-enableDebugTrap
+enableDebugTrapping
 (
 Instance
 *
@@ -1685,7 +1685,7 @@ instance
 instance
 -
 >
-setDebugTrapHandler
+setDebugStub
 (
 code_
 -
@@ -1708,7 +1708,7 @@ sharedStubs
 (
 )
 .
-debugTrapOffset
+debugStubOffset
 )
 ;
 }
@@ -1716,7 +1716,7 @@ void
 DebugState
 :
 :
-disableDebugTrap
+disableDebugTrapping
 (
 Instance
 *
@@ -1726,7 +1726,7 @@ instance
 instance
 -
 >
-setDebugTrapHandler
+setDebugStub
 (
 nullptr
 )
@@ -1870,7 +1870,7 @@ funcIdx
 )
 ;
 }
-enableDebugTrap
+enableDebugTrapping
 (
 instance
 )
@@ -2068,7 +2068,7 @@ if
 anyEnabled
 )
 {
-disableDebugTrap
+disableDebugTrapping
 (
 instance
 )

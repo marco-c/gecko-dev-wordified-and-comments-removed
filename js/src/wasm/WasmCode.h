@@ -1757,7 +1757,7 @@ CodeRangeUnwindInfoVector
 codeRangeUnwindInfos
 ;
 uint32_t
-debugTrapOffset
+debugStubOffset
 ;
 bool
 unregisterOnDestroy_
@@ -1830,7 +1830,7 @@ kind
 (
 kind
 )
-debugTrapOffset
+debugStubOffset
 (
 0
 )

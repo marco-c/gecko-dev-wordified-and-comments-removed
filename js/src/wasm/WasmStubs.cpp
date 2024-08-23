@@ -15599,7 +15599,7 @@ AllMask
 ;
 static
 bool
-GenerateDebugTrapStub
+GenerateDebugStub
 (
 MacroAssembler
 &
@@ -15641,7 +15641,7 @@ ExitReason
 Fixed
 :
 :
-DebugTrap
+DebugStub
 offsets
 )
 ;
@@ -15837,7 +15837,7 @@ ExitReason
 Fixed
 :
 :
-DebugTrap
+DebugStub
 offsets
 )
 ;
@@ -16781,6 +16781,7 @@ JitSpew_Codegen
 Emitting
 wasm
 trap
+debug
 and
 throw
 stubs
@@ -16835,7 +16836,7 @@ callableOffsets
 if
 (
 !
-GenerateDebugTrapStub
+GenerateDebugStub
 (
 masm
 &
@@ -16862,7 +16863,7 @@ emplaceBack
 CodeRange
 :
 :
-DebugTrap
+DebugStub
 callableOffsets
 )
 )

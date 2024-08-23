@@ -505,7 +505,7 @@ FuncOffsets
 offsets_
 ;
 NonAssertingLabel
-debugTrapStub_
+perFunctionDebugStub_
 ;
 uint32_t
 previousBreakablePoint_
@@ -2881,7 +2881,7 @@ kind
 )
 ;
 void
-insertBreakpointStub
+insertPerFunctionDebugStub
 (
 )
 ;

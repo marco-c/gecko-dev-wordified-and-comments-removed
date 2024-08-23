@@ -238,7 +238,7 @@ funcIndex
 )
 ;
 void
-enableDebugTrap
+enableDebugTrapping
 (
 Instance
 *
@@ -246,7 +246,7 @@ instance
 )
 ;
 void
-disableDebugTrap
+disableDebugTrapping
 (
 Instance
 *
