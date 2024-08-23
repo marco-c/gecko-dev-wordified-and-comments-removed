@@ -1252,7 +1252,10 @@ SelectionManager
 SpellCheckRangeChanged
 (
 const
-nsRange
+dom
+:
+:
+AbstractRange
 &
 aRange
 )
