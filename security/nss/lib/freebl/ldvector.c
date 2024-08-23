@@ -455,6 +455,7 @@ Kyber_Decapsulate
 ED_SignMessage
 ED_VerifyMessage
 ED_DerivePublicKey
+X25519_DerivePublicKey
 }
 ;
 const

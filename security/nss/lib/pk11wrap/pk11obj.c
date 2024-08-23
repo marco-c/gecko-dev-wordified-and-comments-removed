@@ -2605,10 +2605,10 @@ key
 )
 ;
 case
-edKey
+ecKey
 :
 case
-ecKey
+edKey
 :
 rv
 =

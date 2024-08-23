@@ -83,6 +83,9 @@ kyberKey
 edKey
 =
 10
+ecMontKey
+=
+11
 }
 KeyType
 ;

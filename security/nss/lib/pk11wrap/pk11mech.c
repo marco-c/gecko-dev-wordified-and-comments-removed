@@ -5781,6 +5781,13 @@ SECFailure
 break
 ;
 }
+if
+(
+iv
+.
+len
+)
+{
 PORT_Memcpy
 (
 mech
@@ -5795,6 +5802,7 @@ iv
 len
 )
 ;
+}
 mech
 -
 >

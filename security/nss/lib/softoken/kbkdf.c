@@ -2847,7 +2847,7 @@ ret
 }
 ret
 =
-sftk_MAC_Finish
+sftk_MAC_End
 (
 ctx
 ret_buffer
@@ -3113,7 +3113,7 @@ finish
 }
 ret
 =
-sftk_MAC_Finish
+sftk_MAC_End
 (
 ctx
 chaining_value
@@ -3421,7 +3421,7 @@ finish
 }
 ret
 =
-sftk_MAC_Finish
+sftk_MAC_End
 (
 ctx
 chaining_value
@@ -3488,7 +3488,7 @@ finish
 }
 ret
 =
-sftk_MAC_Finish
+sftk_MAC_End
 (
 ctx
 ret_buffer
@@ -3866,7 +3866,7 @@ output_buffer
 buffer_length
 )
 ;
-sftk_MAC_Destroy
+sftk_MAC_DestroyContext
 (
 &
 ctx

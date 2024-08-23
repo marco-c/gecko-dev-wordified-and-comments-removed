@@ -248,6 +248,7 @@ define
 RSA_BLINDING_PARAMS_MAX_REUSE
 50
 static
+const
 PRBool
 nssRSAUseBlinding
 =

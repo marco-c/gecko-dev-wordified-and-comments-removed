@@ -190,9 +190,6 @@ N
 ;
 if
 (
-(
-res
-=
 s_mp_cmp
 (
 T
@@ -201,7 +198,6 @@ mmm
 -
 >
 N
-)
 )
 >
 =
@@ -226,9 +222,6 @@ ifdef
 DEBUG
 if
 (
-(
-res
-=
 mp_cmp
 (
 T
@@ -237,7 +230,6 @@ mmm
 -
 >
 N
-)
 )
 >
 =

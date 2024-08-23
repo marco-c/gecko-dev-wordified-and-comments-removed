@@ -328,6 +328,13 @@ cipher
 >
 tag_size
 ;
+if
+(
+labelPrefixLen
+>
+0
+)
+{
 memcpy
 (
 label
@@ -335,6 +342,7 @@ labelPrefix
 labelPrefixLen
 )
 ;
+}
 memcpy
 (
 label

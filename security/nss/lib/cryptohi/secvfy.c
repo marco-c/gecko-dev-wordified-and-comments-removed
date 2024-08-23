@@ -2689,10 +2689,6 @@ pkcs1RSADigestInfo
 =
 NULL
 ;
-rv
-=
-SECSuccess
-;
 if
 (
 mech
@@ -2732,10 +2728,6 @@ if
 sig
 )
 {
-rv
-=
-SECFailure
-;
 if
 (
 (

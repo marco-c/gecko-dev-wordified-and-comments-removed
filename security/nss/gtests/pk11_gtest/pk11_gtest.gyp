@@ -304,6 +304,11 @@ pk11_signature_test
 cc
 '
 '
+pk11_x25519_unittest
+.
+cc
+'
+'
 <
 (
 DEPTH

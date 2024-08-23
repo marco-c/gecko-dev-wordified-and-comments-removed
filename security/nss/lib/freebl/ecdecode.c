@@ -1066,6 +1066,9 @@ params
 break
 ;
 case
+SEC_OID_X25519
+:
+case
 SEC_OID_CURVE25519
 :
 params

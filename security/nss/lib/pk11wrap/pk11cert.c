@@ -944,6 +944,9 @@ ecKey
 case
 edKey
 :
+case
+ecMontKey
+:
 PK11_SETATTRS
 (
 &
@@ -1025,6 +1028,15 @@ keyType
 !
 =
 edKey
+&
+&
+pubKey
+-
+>
+keyType
+!
+=
+ecMontKey
 )
 {
 pk11_SignedToUnsigned
@@ -5222,6 +5234,9 @@ ecKey
 :
 case
 edKey
+:
+case
+ecMontKey
 :
 newItem
 =
