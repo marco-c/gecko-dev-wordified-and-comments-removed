@@ -339,12 +339,16 @@ var
 onSavedGeneratedPassword
 :
 (
+Boolean
 )
 -
 >
 Unit
 =
 {
+_
+-
+>
 }
 private
 var
@@ -633,6 +637,7 @@ onSavedGeneratedPassword
 .
 invoke
 (
+false
 )
 }
 VisibleForTesting
@@ -754,6 +759,7 @@ String
 onSavedGeneratedPassword
 :
 (
+Boolean
 )
 -
 >

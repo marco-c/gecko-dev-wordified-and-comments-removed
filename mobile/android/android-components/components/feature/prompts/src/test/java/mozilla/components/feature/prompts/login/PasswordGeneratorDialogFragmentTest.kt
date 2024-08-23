@@ -218,6 +218,9 @@ org
 onSavedGeneratedPassword
 =
 {
+_
+-
+>
 }
 colorsProvider
 =
