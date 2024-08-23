@@ -121,6 +121,16 @@ state
 .
 Store
 import
+mozilla
+.
+components
+.
+lib
+.
+state
+.
+UiStore
+import
 org
 .
 mozilla
@@ -302,7 +312,7 @@ emptyList
 )
 )
 :
-Store
+UiStore
 <
 DownloadFragmentState
 DownloadFragmentAction
