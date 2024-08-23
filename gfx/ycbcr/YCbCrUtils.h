@@ -7,6 +7,13 @@ Y_CB_CR_UTILS_H_
 #
 include
 "
+ErrorList
+.
+h
+"
+#
+include
+"
 ImageContainer
 .
 h
@@ -46,7 +53,7 @@ IntSize
 aSuggestedSize
 )
 ;
-void
+nsresult
 ConvertYCbCrToRGB
 (
 const
@@ -97,7 +104,7 @@ int
 height
 )
 ;
-void
+nsresult
 ConvertYCbCrToRGB32
 (
 const
@@ -121,7 +128,7 @@ PremultFunc
 premultiplyAlphaOp
 )
 ;
-void
+nsresult
 ConvertI420AlphaToARGB
 (
 const
