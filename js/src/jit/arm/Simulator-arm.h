@@ -1558,6 +1558,14 @@ instr
 )
 ;
 void
+decodeVCVTBetweenFloatingPointAndHalf
+(
+SimInstruction
+*
+instr
+)
+;
+void
 decodeType7CoprocessorIns
 (
 SimInstruction
