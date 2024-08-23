@@ -973,17 +973,6 @@ getTopWindow
 )
 ;
                 
-window
-.
-SidebarController
-.
-toolbarButton
-.
-click
-(
-)
-;
-                
 return
 window
 .
