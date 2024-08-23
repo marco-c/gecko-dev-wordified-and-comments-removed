@@ -925,7 +925,7 @@ service
 type
 should
 be
-marketing
+data
 (
 )
 {
@@ -940,7 +940,7 @@ assertEquals
 (
 MetricServiceType
 .
-Marketing
+Data
 service
 .
 type
