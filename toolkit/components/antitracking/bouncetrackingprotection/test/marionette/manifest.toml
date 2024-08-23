@@ -9,9 +9,9 @@ privacy
 .
 bounceTrackingProtection
 .
-mode
+enabled
 =
-1
+true
 "
 "
 privacy

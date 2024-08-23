@@ -125,12 +125,6 @@ ResetAll
 ;
 static
 void
-DestroyAll
-(
-)
-;
-static
-void
 ResetAllForOriginAttributes
 (
 const
