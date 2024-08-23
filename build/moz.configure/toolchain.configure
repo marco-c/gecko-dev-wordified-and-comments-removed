@@ -255,10 +255,6 @@ flags
 nargs
 =
 1
-default
-=
-"
-"
 )
 option
 (
