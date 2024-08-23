@@ -579,6 +579,7 @@ i
 )
 AnimationPropertyInKeyframeBlock
 NotAllowedInPageRule
+PositionTryUnexpectedImportantDeclaration
 }
 impl
 <
