@@ -3060,7 +3060,7 @@ mIsTopOfPage
 {
 const
 bool
-isNestedMulticolOrPaginated
+isNestedMulticolOrInRootPaginatedDoc
 =
 aReflowInput
 .
@@ -3081,13 +3081,13 @@ PresContext
 )
 -
 >
-IsPaginated
+IsRootPaginatedDocument
 (
 )
 ;
 if
 (
-isNestedMulticolOrPaginated
+isNestedMulticolOrInRootPaginatedDoc
 )
 {
 if
