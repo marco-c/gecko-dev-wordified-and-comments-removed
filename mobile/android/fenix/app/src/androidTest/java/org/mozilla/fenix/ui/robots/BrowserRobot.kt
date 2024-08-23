@@ -757,6 +757,11 @@ SessionLoadedIdlingResource
 fun
 waitForPageToLoad
 (
+pageLoadWaitingTime
+:
+Long
+=
+waitingTime
 )
 =
 assertUIObjectIsGone
@@ -764,6 +769,9 @@ assertUIObjectIsGone
 progressBar
 (
 )
+waitingTime
+=
+pageLoadWaitingTime
 )
 fun
 verifyCurrentPrivateSession
@@ -6669,6 +6677,9 @@ refreshPage
 {
 waitForPageToLoad
 (
+pageLoadWaitingTime
+=
+waitingTimeLong
 )
 clickPageObject
 (
@@ -6930,6 +6941,9 @@ refreshPage
 {
 waitForPageToLoad
 (
+pageLoadWaitingTime
+=
+waitingTimeLong
 )
 }
 }
@@ -10438,6 +10452,9 @@ refreshPage
 {
 waitForPageToLoad
 (
+pageLoadWaitingTime
+=
+waitingTimeLong
 )
 }
 }
@@ -10926,6 +10943,9 @@ refreshPage
 {
 waitForPageToLoad
 (
+pageLoadWaitingTime
+=
+waitingTimeLong
 )
 }
 }

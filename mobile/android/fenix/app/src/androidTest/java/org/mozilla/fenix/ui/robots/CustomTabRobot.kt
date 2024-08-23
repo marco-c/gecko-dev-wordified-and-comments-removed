@@ -1032,6 +1032,11 @@ waitingTime
 fun
 waitForPageToLoad
 (
+pageLoadWaitingTime
+:
+Long
+=
+waitingTime
 )
 {
 Log
@@ -1059,7 +1064,7 @@ progressBar
 .
 waitUntilGone
 (
-waitingTime
+pageLoadWaitingTime
 )
 Log
 .

@@ -1028,6 +1028,9 @@ url
 {
 waitForPageToLoad
 (
+pageLoadWaitingTime
+=
+waitingTimeLong
 )
 }
 .

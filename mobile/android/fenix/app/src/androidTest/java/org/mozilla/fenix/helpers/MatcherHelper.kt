@@ -953,6 +953,13 @@ vararg
 appItems
 :
 UiObject
+waitingTime
+:
+Long
+=
+TestAssetHelper
+.
+waitingTime
 )
 {
 for
