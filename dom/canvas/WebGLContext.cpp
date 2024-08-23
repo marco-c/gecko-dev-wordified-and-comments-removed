@@ -5408,9 +5408,7 @@ canvasCspace
 =
 ToColorSpace2ForOutput
 (
-mOptions
-.
-colorSpace
+mDrawingBufferColorSpace
 )
 ;
 auto
@@ -6039,9 +6037,7 @@ colorSpace
 =
 ToColorSpace2ForOutput
 (
-mOptions
-.
-colorSpace
+mDrawingBufferColorSpace
 )
 ;
 auto
@@ -6739,9 +6735,7 @@ colorSpace
 =
 ToColorSpace2ForOutput
 (
-mOptions
-.
-colorSpace
+mDrawingBufferColorSpace
 )
 ;
 auto
