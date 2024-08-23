@@ -327,15 +327,6 @@ interface
 HTMLCanvasElement
 {
 [
-Pref
-=
-"
-gfx
-.
-offscreencanvas
-.
-enabled
-"
 Throws
 ]
 OffscreenCanvas

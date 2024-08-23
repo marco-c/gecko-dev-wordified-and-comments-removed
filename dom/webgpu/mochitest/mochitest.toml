@@ -63,15 +63,6 @@ enabled
 =
 true
 "
-"
-gfx
-.
-offscreencanvas
-.
-enabled
-=
-true
-"
 ]
 support
 -

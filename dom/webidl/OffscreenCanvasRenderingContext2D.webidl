@@ -131,15 +131,6 @@ Exposed
 Window
 Worker
 )
-Pref
-=
-"
-gfx
-.
-offscreencanvas
-.
-enabled
-"
 ]
 interface
 OffscreenCanvasRenderingContext2D

@@ -1317,17 +1317,6 @@ pref
 (
 gfx
 .
-offscreencanvas
-.
-enabled
-true
-)
-test
--
-pref
-(
-gfx
-.
 webrender
 .
 all
