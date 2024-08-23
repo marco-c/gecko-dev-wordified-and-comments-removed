@@ -351,6 +351,9 @@ isEncrypted
 :
 null
 }
+recoveryErrorCode
+:
+0
 }
 ;
 export
@@ -410,6 +413,9 @@ isEncrypted
 :
 true
 }
+recoveryErrorCode
+:
+0
 }
 ;
 export
