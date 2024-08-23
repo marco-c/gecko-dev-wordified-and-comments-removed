@@ -50,6 +50,15 @@ h
 #
 include
 "
+mozilla
+/
+StaticPrefs_datareporting
+.
+h
+"
+#
+include
+"
 nsIGlobalObject
 .
 h
