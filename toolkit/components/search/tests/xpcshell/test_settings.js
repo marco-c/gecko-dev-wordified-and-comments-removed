@@ -35,13 +35,6 @@ data1
 )
 ;
 await
-AddonTestUtils
-.
-promiseStartupManager
-(
-)
-;
-await
 Services
 .
 search

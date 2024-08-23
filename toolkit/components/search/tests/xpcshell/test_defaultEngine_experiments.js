@@ -185,13 +185,6 @@ data1
 "
 )
 ;
-await
-AddonTestUtils
-.
-promiseStartupManager
-(
-)
-;
 let
 promiseSaved
 =

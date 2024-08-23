@@ -13,13 +13,6 @@ opensearch
 )
 ;
 await
-AddonTestUtils
-.
-promiseStartupManager
-(
-)
-;
-await
 Services
 .
 search

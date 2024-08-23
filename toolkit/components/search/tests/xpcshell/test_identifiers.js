@@ -22,13 +22,6 @@ engines
 "
 )
 ;
-await
-AddonTestUtils
-.
-promiseStartupManager
-(
-)
-;
 const
 result
 =

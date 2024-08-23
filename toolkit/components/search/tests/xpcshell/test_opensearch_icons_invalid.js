@@ -31,13 +31,6 @@ sjs
 "
 )
 ;
-await
-AddonTestUtils
-.
-promiseStartupManager
-(
-)
-;
 }
 )
 ;

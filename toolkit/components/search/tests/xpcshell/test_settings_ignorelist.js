@@ -40,13 +40,6 @@ function
 )
 {
 await
-AddonTestUtils
-.
-promiseStartupManager
-(
-)
-;
-await
 setupRemoteSettings
 (
 )

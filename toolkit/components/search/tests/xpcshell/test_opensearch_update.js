@@ -42,13 +42,6 @@ sjs
 )
 ;
 await
-AddonTestUtils
-.
-promiseStartupManager
-(
-)
-;
-await
 Services
 .
 search

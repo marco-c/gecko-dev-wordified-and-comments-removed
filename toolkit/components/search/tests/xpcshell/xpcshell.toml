@@ -619,13 +619,6 @@ js
 ]
 [
 "
-test_initialization
-.
-js
-"
-]
-[
-"
 test_initialization_status_telemetry
 .
 js

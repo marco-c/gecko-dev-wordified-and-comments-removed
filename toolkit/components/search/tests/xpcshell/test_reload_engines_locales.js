@@ -371,13 +371,6 @@ CONFIG_V2
 )
 ;
 await
-AddonTestUtils
-.
-promiseStartupManager
-(
-)
-;
-await
 Services
 .
 search

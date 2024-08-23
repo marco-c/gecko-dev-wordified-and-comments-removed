@@ -110,13 +110,6 @@ de
 ]
 ;
 await
-AddonTestUtils
-.
-promiseStartupManager
-(
-)
-;
-await
 Services
 .
 search

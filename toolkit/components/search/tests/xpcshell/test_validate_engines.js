@@ -188,13 +188,6 @@ config
 )
 ;
 await
-AddonTestUtils
-.
-promiseStartupManager
-(
-)
-;
-await
 ss
 .
 init

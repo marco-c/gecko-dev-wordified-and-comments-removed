@@ -442,13 +442,6 @@ data1
 "
 )
 ;
-await
-AddonTestUtils
-.
-promiseStartupManager
-(
-)
-;
 }
 )
 ;

@@ -21,13 +21,6 @@ data
 null
 )
 ;
-await
-AddonTestUtils
-.
-promiseStartupManager
-(
-)
-;
 }
 )
 ;

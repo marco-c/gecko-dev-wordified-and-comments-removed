@@ -155,13 +155,6 @@ bad
 ;
 }
 await
-AddonTestUtils
-.
-promiseStartupManager
-(
-)
-;
-await
 Services
 .
 search

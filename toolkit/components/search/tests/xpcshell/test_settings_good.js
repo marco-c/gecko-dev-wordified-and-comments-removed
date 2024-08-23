@@ -147,13 +147,6 @@ function
 (
 )
 {
-await
-AddonTestUtils
-.
-promiseStartupManager
-(
-)
-;
 Services
 .
 prefs
