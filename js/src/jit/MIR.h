@@ -26335,6 +26335,16 @@ None
 )
 ;
 }
+MDefinition
+*
+foldsTo
+(
+TempAllocator
+&
+alloc
+)
+override
+;
 [
 [
 nodiscard
