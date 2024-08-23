@@ -422,7 +422,7 @@ R
 .
 string
 .
-download_languages_toolbar_title_preference
+download_languages_translations_toolbar_title_preference
 )
 )
 }
