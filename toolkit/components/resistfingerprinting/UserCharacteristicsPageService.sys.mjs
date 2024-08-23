@@ -2504,6 +2504,15 @@ pdfViewer
 "
 platform
 "
+"
+audioFrames
+"
+"
+audioRate
+"
+"
+audioChannels
+"
 ]
 }
 ;
