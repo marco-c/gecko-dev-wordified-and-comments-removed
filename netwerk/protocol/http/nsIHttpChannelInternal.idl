@@ -962,5 +962,10 @@ nsIReplacedHttpResponse
 aReplacedHttpResponse
 )
 ;
+readonly
+attribute
+nsresult
+lastTransportStatus
+;
 }
 ;

@@ -2183,6 +2183,15 @@ value
 override
 ;
 NS_IMETHOD
+GetLastTransportStatus
+(
+nsresult
+*
+aLastTransportStatus
+)
+override
+;
+NS_IMETHOD
 SetClassicScriptHintCharset
 (
 const
