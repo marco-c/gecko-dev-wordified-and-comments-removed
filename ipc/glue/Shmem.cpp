@@ -15,7 +15,7 @@ h
 #
 include
 "
-SharedMemoryBasic
+SharedMemory
 .
 h
 "
@@ -340,7 +340,7 @@ NewSegment
 return
 MakeAndAddRef
 <
-SharedMemoryBasic
+SharedMemory
 >
 (
 )
@@ -659,7 +659,7 @@ char
 aSegment
 -
 >
-memory
+Memory
 (
 )
 )
@@ -705,7 +705,7 @@ char
 aSegment
 -
 >
-memory
+Memory
 (
 )
 )
@@ -855,7 +855,7 @@ mData
 aSegment
 -
 >
-memory
+Memory
 (
 )
 )

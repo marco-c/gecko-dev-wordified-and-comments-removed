@@ -382,7 +382,7 @@ already_AddRefed
 ipc
 :
 :
-SharedMemoryBasic
+SharedMemory
 >
 aDataSurfaceShmem
 )
@@ -470,7 +470,7 @@ RefPtr
 ipc
 :
 :
-SharedMemoryBasic
+SharedMemory
 >
 mDataSurfaceShmem
 ;
@@ -500,7 +500,7 @@ mozilla
 ipc
 :
 :
-SharedMemoryBasic
+SharedMemory
 >
 mSnapshotShmem
 ;

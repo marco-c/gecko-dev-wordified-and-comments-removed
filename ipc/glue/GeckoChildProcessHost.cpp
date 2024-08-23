@@ -87,7 +87,7 @@ h
 #
 include
 "
-SharedMemoryBasic
+SharedMemory
 .
 h
 "

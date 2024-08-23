@@ -37,17 +37,6 @@ SharedMemory
 h
 "
 #
-include
-"
-mozilla
-/
-ipc
-/
-SharedMemoryBasic
-.
-h
-"
-#
 ifdef
 XP_LINUX
 #
@@ -1456,7 +1445,7 @@ MakeRefPtr
 ipc
 :
 :
-SharedMemoryBasic
+SharedMemory
 >
 (
 )
@@ -1503,7 +1492,7 @@ char
 shm
 -
 >
-memory
+Memory
 (
 )
 )
