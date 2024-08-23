@@ -1518,10 +1518,12 @@ IsAuto
 (
 )
 ?
-0
-.
-0f
+Nothing
+(
+)
 :
+Some
+(
 duration
 .
 AsTime
@@ -1530,6 +1532,7 @@ AsTime
 .
 ToMilliseconds
 (
+)
 )
 aStyle
 .

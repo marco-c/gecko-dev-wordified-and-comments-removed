@@ -1213,6 +1213,15 @@ TimeDuration
 ;
 normalizedTiming
 .
+mDuration
+.
+emplace
+(
+aTimelineDuration
+)
+;
+normalizedTiming
+.
 Update
 (
 )

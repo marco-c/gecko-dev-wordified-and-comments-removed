@@ -1898,7 +1898,10 @@ timing
 =
 TimingParamsFromCSSParams
 (
+Some
+(
 aDuration
+)
 aDelay
 1
 .
