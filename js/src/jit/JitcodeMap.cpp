@@ -55,6 +55,15 @@ h
 #
 include
 "
+gc
+/
+Zone
+.
+h
+"
+#
+include
+"
 jit
 /
 BaselineJIT

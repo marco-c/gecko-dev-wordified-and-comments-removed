@@ -35,6 +35,15 @@ shared
 .
 h
 "
+#
+include
+"
+vm
+/
+CompletionKind
+.
+h
+"
 namespace
 js
 {

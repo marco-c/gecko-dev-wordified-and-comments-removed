@@ -16,6 +16,15 @@ h
 #
 include
 "
+gc
+/
+Zone
+.
+h
+"
+#
+include
+"
 js
 /
 Object
@@ -446,6 +455,9 @@ getAllocKind
 {
 MOZ_ASSERT
 (
+js
+:
+:
 CurrentThreadCanAccessZone
 (
 zone

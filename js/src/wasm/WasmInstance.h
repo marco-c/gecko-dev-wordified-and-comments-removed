@@ -39,7 +39,9 @@ h
 #
 include
 "
-gc
+js
+/
+shadow
 /
 Zone
 .
