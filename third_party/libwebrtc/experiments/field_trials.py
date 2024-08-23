@@ -558,26 +558,6 @@ FieldTrial
 '
 WebRTC
 -
-PaddingMode
--
-RecentLargePacket
-'
-               
-42225520
-               
-date
-(
-2024
-4
-1
-)
-)
-    
-FieldTrial
-(
-'
-WebRTC
--
 PermuteTlsClientHello
 '
                

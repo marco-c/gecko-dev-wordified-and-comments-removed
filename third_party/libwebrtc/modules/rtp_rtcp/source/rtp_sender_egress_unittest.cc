@@ -644,7 +644,13 @@ header_extensions_
 packet_history_
 (
 clock_
-true
+RtpPacketHistory
+:
+:
+PaddingMode
+:
+:
+kRecentLargePacket
 )
 trials_
 (
