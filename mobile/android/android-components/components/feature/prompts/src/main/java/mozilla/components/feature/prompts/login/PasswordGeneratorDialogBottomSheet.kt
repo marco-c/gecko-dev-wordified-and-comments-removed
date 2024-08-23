@@ -717,7 +717,7 @@ R
 .
 string
 .
-mozac_feature_prompts_suggest_strong_password_description
+mozac_feature_prompts_suggest_strong_password_description_2
 )
 style
 =
