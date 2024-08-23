@@ -428,7 +428,6 @@ _openTabModalPrint
 (
 aBrowsingContext
 aOpenWindowInfo
-aPrintInitiationTime
 aPrintSelectionOnly
 aPrintFrameOnly
 )
@@ -530,12 +529,6 @@ content
 print
 .
 html
-?
-printInitiationTime
-=
-{
-aPrintInitiationTime
-}
 {
 features
 :
@@ -628,15 +621,6 @@ aBrowsingContext
 aOptions
 )
 {
-const
-printInitiationTime
-=
-Date
-.
-now
-(
-)
-;
 let
 {
 printSelectionOnly
@@ -740,7 +724,6 @@ _openTabModalPrint
 (
 browsingContext
 windowDotPrintOpenWindowInfo
-printInitiationTime
 printSelectionOnly
 printFrameOnly
 )
