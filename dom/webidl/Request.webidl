@@ -117,6 +117,9 @@ request
 class
 *
 /
+interface
+Principal
+;
 typedef
 (
 Request
@@ -472,6 +475,12 @@ ChromeOnly
 ]
 boolean
 mozErrors
+;
+[
+ChromeOnly
+]
+Principal
+triggeringPrincipal
 ;
 AbortSignal
 ?
