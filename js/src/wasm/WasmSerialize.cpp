@@ -6484,7 +6484,7 @@ wasm
 :
 :
 CodeMetadata
-664
+712
 )
 ;
 MOZ_RELEASE_ASSERT
@@ -6869,6 +6869,19 @@ item
 -
 >
 funcDefRanges
+)
+)
+;
+MOZ_TRY
+(
+CodePodVector
+(
+coder
+&
+item
+-
+>
+funcDefFeatureUsages
 )
 )
 ;
@@ -7976,7 +7989,7 @@ wasm
 :
 :
 Code
-768
+760
 )
 ;
 FuncImportVector
@@ -8204,7 +8217,7 @@ wasm
 :
 :
 Code
-768
+760
 )
 ;
 STATIC_ASSERT_ENCODING_OR_SIZING
