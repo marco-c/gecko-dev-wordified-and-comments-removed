@@ -29738,10 +29738,7 @@ false
 }
 Rooted
 <
-UniquePtr
-<
 ImportAttributeVector
->
 >
 attributes
 (
@@ -29759,7 +29756,6 @@ create
 (
 cx
 specifier
-&
 attributes
 )
 )
