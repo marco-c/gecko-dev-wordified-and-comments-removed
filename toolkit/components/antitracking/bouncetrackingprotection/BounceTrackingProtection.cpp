@@ -3705,12 +3705,6 @@ nsTArray
 <
 nsCString
 >
-purgedSiteHosts
-;
-nsTArray
-<
-nsCString
->
 bounceTrackerCandidatesToRemove
 ;
 for
