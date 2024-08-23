@@ -128,6 +128,10 @@ dev
 libbz2
 -
 dev
+\
+zlib1g
+-
+dev
 CMD
 [
 "
