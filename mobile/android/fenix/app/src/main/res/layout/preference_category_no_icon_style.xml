@@ -152,6 +152,13 @@ android
 layout_height
 =
 "
+wrap_content
+"
+android
+:
+minHeight
+=
+"
 dimen
 /
 section_header_height
