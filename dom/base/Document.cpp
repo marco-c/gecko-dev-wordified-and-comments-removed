@@ -32213,6 +32213,17 @@ flag
 return
 ;
 }
+if
+(
+!
+StaticPrefs
+:
+:
+dom_cookie_testing_enabled
+(
+)
+)
+{
 StorageAccess
 storageAccess
 =
@@ -32265,6 +32276,7 @@ IsCookieAverse
 {
 return
 ;
+}
 }
 nsCOMPtr
 <
