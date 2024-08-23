@@ -151,3 +151,10 @@ browser_usercharacteristics
 js
 "
 ]
+[
+"
+browser_canvas_randomization_permission
+.
+js
+"
+]
