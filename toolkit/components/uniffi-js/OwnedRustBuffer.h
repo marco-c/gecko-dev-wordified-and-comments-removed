@@ -18,6 +18,15 @@ include
 "
 mozilla
 /
+ResultVariant
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 TypedArray
@@ -123,7 +132,11 @@ OwnedRustBuffer
 )
 ;
 static
+Result
+<
 OwnedRustBuffer
+nsCString
+>
 FromArrayBuffer
 (
 const
@@ -150,9 +163,6 @@ IntoArrayBuffer
 JSContext
 *
 cx
-ErrorResult
-&
-aError
 )
 ;
 bool
