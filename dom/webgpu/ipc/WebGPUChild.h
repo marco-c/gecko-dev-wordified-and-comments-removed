@@ -156,7 +156,12 @@ struct
 DeviceRequest
 {
 RawId
-mId
+mDeviceId
+=
+0
+;
+RawId
+mQueueId
 =
 0
 ;

@@ -345,7 +345,9 @@ Adapter
 const
 aParent
 RawId
-aId
+aDeviceId
+RawId
+aQueueId
 const
 ffi
 :

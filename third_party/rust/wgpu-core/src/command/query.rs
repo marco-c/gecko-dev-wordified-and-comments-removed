@@ -1624,12 +1624,6 @@ end_query
 query_set
 .
 raw
-.
-as_ref
-(
-)
-.
-unwrap
 (
 )
 query_index

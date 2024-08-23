@@ -445,11 +445,13 @@ async
 AdapterRequestDevice
 (
 RawId
-selfId
+adapterId
 ByteBuf
-buf
+descriptorBuf
 RawId
-newId
+newDeviceId
+RawId
+newQueueId
 )
 returns
 (

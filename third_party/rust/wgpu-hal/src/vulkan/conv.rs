@@ -364,7 +364,7 @@ A2B10G10R10_UNORM_PACK32
 Tf
 :
 :
-Rg11b10Float
+Rg11b10UFloat
 =
 >
 F

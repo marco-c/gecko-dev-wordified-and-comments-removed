@@ -911,7 +911,7 @@ rg11b10float
 Sf
 :
 :
-Rg11b10Float
+Rg11b10UFloat
 "
 rg32uint
 "

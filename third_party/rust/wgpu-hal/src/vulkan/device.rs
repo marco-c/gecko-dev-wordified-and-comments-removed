@@ -4899,13 +4899,14 @@ map_err
 |
 e
 |
+{
 crate
 :
 :
 PipelineError
 :
 :
-Linkage
+PipelineConstants
 (
 stage_flags
 format
@@ -4918,6 +4919,7 @@ e
 "
 )
 )
+}
 )
 ?
 ;

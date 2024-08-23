@@ -1797,6 +1797,8 @@ ByteBuf
 aByteBuf
 RawId
 aDeviceId
+RawId
+aQueueId
 AdapterRequestDeviceResolver
 &
 &
@@ -1823,6 +1825,7 @@ ToFFI
 aByteBuf
 )
 aDeviceId
+aQueueId
 error
 .
 ToFFI

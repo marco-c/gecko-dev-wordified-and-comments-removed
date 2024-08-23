@@ -166,6 +166,8 @@ ByteBuf
 aByteBuf
 RawId
 aDeviceId
+RawId
+aQueueId
 AdapterRequestDeviceResolver
 &
 &

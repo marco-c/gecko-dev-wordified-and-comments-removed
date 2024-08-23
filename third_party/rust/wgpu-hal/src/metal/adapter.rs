@@ -942,7 +942,7 @@ flags
 Tf
 :
 :
-Rg11b10Float
+Rg11b10UFloat
 =
 >
 {
@@ -4607,6 +4607,19 @@ set
 F
 :
 :
+TEXTURE_COMPRESSION_BC_SLICED_3D
+self
+.
+format_bc
+)
+;
+features
+.
+set
+(
+F
+:
+:
 TEXTURE_COMPRESSION_ETC2
 self
 .
@@ -5476,7 +5489,7 @@ RGB10A2Unorm
 Tf
 :
 :
-Rg11b10Float
+Rg11b10UFloat
 =
 >
 RG11B10Float
