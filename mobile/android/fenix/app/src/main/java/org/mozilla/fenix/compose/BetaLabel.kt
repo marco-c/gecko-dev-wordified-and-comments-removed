@@ -345,11 +345,7 @@ R
 .
 string
 .
-review_quality_check_beta_flag
-)
-.
-uppercase
-(
+beta_feature
 )
 modifier
 =
