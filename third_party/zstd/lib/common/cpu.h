@@ -95,12 +95,6 @@ defined
 (
 __clang__
 )
-|
-|
-__clang_major__
->
-=
-16
 int
 reg
 [
