@@ -147,6 +147,9 @@ default
 const
 JSCallingLocation
 mCaller
+=
+{
+}
 ;
 private
 :
