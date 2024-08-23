@@ -123,6 +123,8 @@ const
 TrackInfo
 &
 aInfo
+bool
+aIsEncrytpedCustomInit
 MFMediaSource
 *
 aParentSource
@@ -154,6 +156,7 @@ MFMediaEngineAudioStream
 stream
 aStreamId
 aInfo
+aIsEncrytpedCustomInit
 aParentSource
 )
 )
@@ -805,6 +808,9 @@ mCrypto
 IsEncrypted
 (
 )
+|
+|
+mIsEncrytpedCustomInit
 ;
 }
 #

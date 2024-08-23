@@ -317,6 +317,8 @@ const
 MediaInfoIPDL
 &
 aInfo
+bool
+aIsEncrytpedCustomInit
 )
 ;
 void

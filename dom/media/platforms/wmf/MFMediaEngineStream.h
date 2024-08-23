@@ -152,6 +152,8 @@ const
 TrackInfo
 &
 aInfo
+bool
+aIsEncrytpedCustomInit
 MFMediaSource
 *
 aParentSource
@@ -725,6 +727,9 @@ mEndedEvent
 ;
 bool
 mReceivedEOS
+;
+bool
+mIsEncrytpedCustomInit
 ;
 }
 ;

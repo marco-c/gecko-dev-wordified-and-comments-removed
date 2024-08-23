@@ -174,6 +174,8 @@ aVideo
 nsISerialEventTarget
 *
 aManagerThread
+bool
+aIsEncrytpedCustomInit
 )
 ;
 IFACEMETHODIMP

@@ -160,6 +160,8 @@ const
 TrackInfo
 &
 aInfo
+bool
+aIsEncrytpedCustomInit
 MFMediaSource
 *
 aParentSource
@@ -191,6 +193,7 @@ MFMediaEngineVideoStream
 stream
 aStreamId
 aInfo
+aIsEncrytpedCustomInit
 aParentSource
 )
 )
@@ -2486,6 +2489,9 @@ const
 {
 return
 mIsEncrypted
+|
+|
+mIsEncrytpedCustomInit
 ;
 }
 bool

@@ -158,6 +158,9 @@ mediaInfo
 bool
 preload
 ;
+bool
+encryptedCustomIdent
+;
 }
 ;
 struct

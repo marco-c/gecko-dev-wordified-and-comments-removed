@@ -220,6 +220,8 @@ aVideo
 nsISerialEventTarget
 *
 aManagerThread
+bool
+aIsEncrytpedCustomInit
 )
 {
 MutexAutoLock
@@ -291,6 +293,7 @@ streamId
 +
 *
 aAudio
+aIsEncrytpedCustomInit
 this
 )
 )
@@ -363,6 +366,7 @@ streamId
 +
 *
 aVideo
+aIsEncrytpedCustomInit
 this
 )
 )
@@ -2927,6 +2931,13 @@ aCDMProxy
 {
 AssertOnManagerThread
 (
+)
+;
+LOG
+(
+"
+SetCDMProxy
+"
 )
 ;
 mCDMProxy

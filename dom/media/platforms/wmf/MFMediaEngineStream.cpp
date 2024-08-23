@@ -769,6 +769,8 @@ const
 TrackInfo
 &
 aInfo
+bool
+aIsEncrytpedCustomInit
 MFMediaSource
 *
 aParentSource
@@ -795,6 +797,10 @@ mTaskQueue
 mStreamId
 =
 aStreamId
+;
+mIsEncrytpedCustomInit
+=
+aIsEncrytpedCustomInit
 ;
 auto
 errorExit
