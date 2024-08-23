@@ -607,11 +607,6 @@ expanded
 >
 <
 summary
-part
-=
-"
-summary
-"
 >
 {
 this

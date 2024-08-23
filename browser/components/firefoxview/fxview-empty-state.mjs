@@ -666,11 +666,6 @@ slot
 "
 main
 "
-part
-=
-"
-container
-"
 class
 =
 {
@@ -721,11 +716,6 @@ errorGrayscale
 }
 )
 }
-part
-=
-"
-image
-"
 role
 =
 "
@@ -767,11 +757,6 @@ main
 >
 <
 h2
-part
-=
-"
-header
-"
 id
 =
 "

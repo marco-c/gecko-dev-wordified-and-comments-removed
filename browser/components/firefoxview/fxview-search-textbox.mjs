@@ -664,11 +664,6 @@ search
 -
 container
 "
-part
-=
-"
-container
-"
 >
 <
 div
@@ -686,11 +681,6 @@ div
 >
 <
 input
-part
-=
-"
-input
-"
 type
 =
 "

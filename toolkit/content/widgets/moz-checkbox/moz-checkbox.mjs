@@ -713,11 +713,6 @@ moz
 -
 checkbox
 "
-part
-=
-"
-label
-"
 shownaccesskey
 =
 {

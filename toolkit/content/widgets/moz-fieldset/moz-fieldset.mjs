@@ -231,10 +231,12 @@ null
 >
 <
 legend
-part
+class
 =
 "
-label
+heading
+-
+medium
 "
 >
 {
@@ -283,11 +285,6 @@ p
 <
 div
 id
-=
-"
-inputs
-"
-part
 =
 "
 inputs
