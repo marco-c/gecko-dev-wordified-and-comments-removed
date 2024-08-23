@@ -325,6 +325,7 @@ let
 find_up
 =
 |
+repo_tech_name
 root_dir_name
 |
 {
@@ -345,7 +346,8 @@ failed
 to
 find
 a
-Mercurial
+{
+}
 repository
 (
 {
@@ -367,6 +369,7 @@ parent
 directories
 "
 )
+repo_tech_name
 root_dir_name
 )
 }
@@ -429,6 +432,9 @@ gecko_source_root
 find_up
 (
 "
+Mercurial
+"
+"
 .
 hg
 "
@@ -443,6 +449,9 @@ hg_err
 find_up
 (
 "
+Git
+"
+"
 .
 git
 "
@@ -456,6 +465,9 @@ git_err
 match
 find_up
 (
+"
+Jujutsu
+"
 "
 .
 jj
