@@ -297,6 +297,14 @@ trusted
 -
 types
 ;
+sequence
+<
+DOMString
+>
+report
+-
+to
+;
 }
 ;
 [

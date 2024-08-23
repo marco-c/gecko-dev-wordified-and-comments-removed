@@ -11,6 +11,11 @@ CrashReport
 h
 "
 "
+CSPViolationReportBody
+.
+h
+"
+"
 DeprecationReportBody
 .
 h
@@ -72,6 +77,11 @@ UNIFIED_SOURCES
 [
 "
 CrashReport
+.
+cpp
+"
+"
+CSPViolationReportBody
 .
 cpp
 "
