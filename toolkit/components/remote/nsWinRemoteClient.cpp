@@ -63,6 +63,8 @@ char
 *
 *
 argv
+bool
+aRaise
 )
 {
 nsString
@@ -123,6 +125,11 @@ cwd
 )
 )
 ;
+if
+(
+aRaise
+)
+{
 :
 :
 SetForegroundWindow
@@ -130,6 +137,7 @@ SetForegroundWindow
 handle
 )
 ;
+}
 :
 :
 SendMessageW

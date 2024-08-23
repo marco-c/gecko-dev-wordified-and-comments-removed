@@ -752,6 +752,8 @@ char
 *
 *
 argv
+bool
+aRaise
 )
 {
 NS_ENSURE_TRUE
