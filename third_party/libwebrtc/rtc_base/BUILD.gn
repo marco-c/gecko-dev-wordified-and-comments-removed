@@ -7433,6 +7433,13 @@ ssl_header
 "
 )
 {
+visibility
+=
+[
+"
+*
+"
+]
 public_deps
 +
 =
@@ -7462,6 +7469,13 @@ digest
 "
 )
 {
+visibility
+=
+[
+"
+*
+"
+]
 public_deps
 +
 =
