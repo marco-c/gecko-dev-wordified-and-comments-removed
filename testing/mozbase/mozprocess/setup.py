@@ -7,9 +7,9 @@ PACKAGE_VERSION
 "
 1
 .
-3
+4
 .
-1
+0
 "
 setup
 (
@@ -115,19 +115,6 @@ System
 :
 OS
 Independent
-"
-        
-"
-Programming
-Language
-:
-:
-Python
-:
-:
-2
-.
-7
 "
         
 "
