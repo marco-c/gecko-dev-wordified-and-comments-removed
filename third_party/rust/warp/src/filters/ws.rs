@@ -109,9 +109,6 @@ Upgrade
 }
 ;
 use
-http
-;
-use
 hyper
 :
 :

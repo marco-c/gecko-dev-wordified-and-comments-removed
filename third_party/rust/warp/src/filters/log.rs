@@ -30,7 +30,6 @@ http
 :
 :
 {
-self
 header
 StatusCode
 }

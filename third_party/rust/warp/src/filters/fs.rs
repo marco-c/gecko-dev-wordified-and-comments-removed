@@ -138,9 +138,6 @@ hyper
 Body
 ;
 use
-mime_guess
-;
-use
 percent_encoding
 :
 :
