@@ -144,6 +144,7 @@ operation
 .
 *
 /
+export
 function
 detectSimdSupport
 (
