@@ -8093,7 +8093,7 @@ ScheduleFrameRequestCallback
 FrameRequestCallback
 &
 aCallback
-int32_t
+uint32_t
 *
 aHandle
 )
@@ -8101,14 +8101,14 @@ aHandle
 void
 CancelFrameRequestCallback
 (
-int32_t
+uint32_t
 aHandle
 )
 ;
 bool
 IsCanceledFrameRequestCallback
 (
-int32_t
+uint32_t
 aHandle
 )
 const

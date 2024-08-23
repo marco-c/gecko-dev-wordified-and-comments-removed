@@ -64975,7 +64975,7 @@ ScheduleFrameRequestCallback
 FrameRequestCallback
 &
 aCallback
-int32_t
+uint32_t
 *
 aHandle
 )
@@ -65017,7 +65017,7 @@ Document
 :
 CancelFrameRequestCallback
 (
-int32_t
+uint32_t
 aHandle
 )
 {
@@ -65043,7 +65043,7 @@ Document
 :
 IsCanceledFrameRequestCallback
 (
-int32_t
+uint32_t
 aHandle
 )
 const

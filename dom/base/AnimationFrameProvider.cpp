@@ -30,7 +30,7 @@ FrameRequest
 FrameRequestCallback
 &
 aCallback
-int32_t
+uint32_t
 aHandle
 )
 :
@@ -72,7 +72,7 @@ Schedule
 FrameRequestCallback
 &
 aCallback
-int32_t
+uint32_t
 *
 aHandle
 )
@@ -82,7 +82,7 @@ if
 mCallbackCounter
 =
 =
-INT32_MAX
+UINT32_MAX
 )
 {
 return
@@ -122,7 +122,7 @@ FrameRequestManager
 :
 Cancel
 (
-int32_t
+uint32_t
 aHandle
 )
 {

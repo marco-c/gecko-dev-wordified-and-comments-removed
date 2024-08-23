@@ -5000,7 +5000,7 @@ CloseInternal
 )
 ;
 }
-int32_t
+uint32_t
 DedicatedWorkerGlobalScope
 :
 :
@@ -5187,7 +5187,7 @@ return
 ;
 }
 }
-int32_t
+uint32_t
 handle
 =
 0
@@ -5234,7 +5234,7 @@ DedicatedWorkerGlobalScope
 :
 CancelAnimationFrame
 (
-int32_t
+uint32_t
 aHandle
 ErrorResult
 &

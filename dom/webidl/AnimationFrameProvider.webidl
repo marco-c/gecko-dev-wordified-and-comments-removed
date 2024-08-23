@@ -142,6 +142,7 @@ AnimationFrameProvider
 [
 Throws
 ]
+unsigned
 long
 requestAnimationFrame
 (
@@ -155,6 +156,7 @@ Throws
 undefined
 cancelAnimationFrame
 (
+unsigned
 long
 handle
 )

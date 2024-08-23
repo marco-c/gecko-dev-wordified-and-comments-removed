@@ -1742,7 +1742,7 @@ Close
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-int32_t
+uint32_t
 RequestAnimationFrame
 (
 FrameRequestCallback
@@ -1757,7 +1757,7 @@ MOZ_CAN_RUN_SCRIPT
 void
 CancelAnimationFrame
 (
-int32_t
+uint32_t
 aHandle
 ErrorResult
 &
