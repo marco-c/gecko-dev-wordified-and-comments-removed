@@ -2803,6 +2803,13 @@ BitAndAndBranch
 gen_boilerplate
 :
 false
+-
+name
+:
+BitAnd64AndBranch
+gen_boilerplate
+:
+false
 #
 Takes
 a
