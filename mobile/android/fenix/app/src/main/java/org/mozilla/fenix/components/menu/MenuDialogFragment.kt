@@ -1225,6 +1225,14 @@ requestedTranslationPair
 .
 toLanguage
 val
+isExtensionsProcessDisabled
+=
+browserStore
+.
+state
+.
+extensionsProcessDisabled
+val
 navHostController
 =
 rememberNavController
@@ -1740,6 +1748,9 @@ showQuitMenu
 settings
 .
 shouldDeleteBrowsingDataOnQuit
+isExtensionsProcessDisabled
+=
+isExtensionsProcessDisabled
 onMozillaAccountButtonClick
 =
 {
