@@ -489,11 +489,6 @@ api
 key
 "
 "
-MOZ_NEW_NOTIFICATION_STORE
-"
-:
-true
-"
 MOZ_NEW_XULSTORE
 "
 :
@@ -934,11 +929,6 @@ api
 -
 key
 "
-"
-MOZ_NEW_NOTIFICATION_STORE
-"
-:
-true
 "
 MOZ_NEW_XULSTORE
 "

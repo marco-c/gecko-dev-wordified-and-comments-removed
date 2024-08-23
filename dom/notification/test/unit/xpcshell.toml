@@ -36,10 +36,3 @@ test_notificationdb_bug1024090
 js
 "
 ]
-[
-"
-test_notificationdb_migration
-.
-js
-"
-]
