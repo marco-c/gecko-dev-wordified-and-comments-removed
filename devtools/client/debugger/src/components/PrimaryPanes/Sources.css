@@ -834,14 +834,6 @@ list
 .
 tree
 .
-node
-:
-not
-(
-.
-focused
-)
-.
 blackboxed
 {
 color
