@@ -1039,6 +1039,7 @@ fxview
 search
 -
 textbox
+autofocus
 data
 -
 l10n
