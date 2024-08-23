@@ -222,6 +222,7 @@ HandshakeState
 must_use
 ]
 pub
+const
 fn
 is_connected
 (
@@ -250,6 +251,7 @@ _
 must_use
 ]
 pub
+const
 fn
 is_final
 (
@@ -286,6 +288,7 @@ _
 must_use
 ]
 pub
+const
 fn
 authentication_needed
 (
@@ -782,6 +785,7 @@ Cipher
 must_use
 ]
 pub
+const
 fn
 early_data
 (
@@ -837,6 +841,7 @@ unwrap
 must_use
 ]
 pub
+const
 fn
 ech_accepted
 (
@@ -970,6 +975,7 @@ to_str
 must_use
 ]
 pub
+const
 fn
 alpn
 (
@@ -1208,6 +1214,7 @@ signatureScheme
 must_use
 ]
 pub
+const
 fn
 version
 (
@@ -1227,6 +1234,7 @@ version
 must_use
 ]
 pub
+const
 fn
 cipher_suite
 (
@@ -1246,6 +1254,7 @@ cipher
 must_use
 ]
 pub
+const
 fn
 key_exchange
 (
@@ -1265,6 +1274,7 @@ group
 must_use
 ]
 pub
+const
 fn
 resumed
 (
@@ -1284,6 +1294,7 @@ resumed
 must_use
 ]
 pub
+const
 fn
 early_data_accepted
 (
@@ -1303,6 +1314,7 @@ early_data
 must_use
 ]
 pub
+const
 fn
 ech_accepted
 (
@@ -1322,6 +1334,7 @@ ech_accepted
 must_use
 ]
 pub
+const
 fn
 alpn
 (
@@ -1349,6 +1362,7 @@ as_ref
 must_use
 ]
 pub
+const
 fn
 signature_scheme
 (
@@ -1729,6 +1743,16 @@ Ok
 fd
 )
 }
+#
+[
+allow
+(
+clippy
+:
+:
+missing_const_for_fn
+)
+]
 unsafe
 extern
 "
@@ -2546,7 +2570,6 @@ fn
 set_option
 (
 &
-mut
 self
 opt
 :
@@ -2581,7 +2604,6 @@ fn
 enable_0rtt
 (
 &
-mut
 self
 )
 -
@@ -2611,7 +2633,6 @@ fn
 disable_end_of_early_data
 (
 &
-mut
 self
 )
 -
@@ -3033,6 +3054,7 @@ MixedHandshakeMethod
 must_use
 ]
 pub
+const
 fn
 info
 (
@@ -3819,15 +3841,15 @@ return
 ;
 }
 if
-let
+self
+.
+raw
+=
+=
 Some
 (
 true
 )
-=
-self
-.
-raw
 {
 let
 _records
@@ -3925,6 +3947,7 @@ null_mut
 must_use
 ]
 pub
+const
 fn
 state
 (
@@ -4178,6 +4201,7 @@ ResumptionToken
 must_use
 ]
 pub
+const
 fn
 new
 (
@@ -4206,6 +4230,7 @@ expiration_time
 must_use
 ]
 pub
+const
 fn
 expiration_time
 (

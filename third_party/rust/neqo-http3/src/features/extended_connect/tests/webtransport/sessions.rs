@@ -216,7 +216,6 @@ new
 )
 ;
 let
-mut
 wt_session
 =
 wt
@@ -241,7 +240,6 @@ wt
 check_session_closed_event_server
 (
 &
-mut
 wt_session
 &
 SessionCloseReason
@@ -282,7 +280,6 @@ new
 )
 ;
 let
-mut
 wt_session
 =
 wt
@@ -296,7 +293,6 @@ wt
 cancel_session_server
 (
 &
-mut
 wt_session
 )
 ;
@@ -350,7 +346,6 @@ new
 )
 ;
 let
-mut
 wt_session
 =
 wt
@@ -428,7 +423,6 @@ new
 )
 ;
 let
-mut
 wt_session
 =
 wt
@@ -511,7 +505,6 @@ new
 )
 ;
 let
-mut
 wt_session
 =
 wt
@@ -761,7 +754,6 @@ session
 }
 }
 let
-mut
 wt_server_session
 =
 wt_server_session
@@ -1202,7 +1194,6 @@ session
 }
 }
 let
-mut
 wt_server_session
 =
 wt_server_session
@@ -1378,7 +1369,6 @@ new
 )
 ;
 let
-mut
 wt_session
 =
 wt
@@ -1411,7 +1401,6 @@ wt
 check_session_closed_event_server
 (
 &
-mut
 wt_session
 &
 SessionCloseReason
@@ -1473,7 +1462,6 @@ new
 )
 ;
 let
-mut
 wt_session
 =
 wt
@@ -1488,7 +1476,6 @@ WtTest
 session_close_frame_server
 (
 &
-mut
 wt_session
 ERROR_NUM
 ERROR_MESSAGE
@@ -1593,7 +1580,6 @@ new
 )
 ;
 let
-mut
 wt_session
 =
 wt
@@ -1687,7 +1673,6 @@ exchange_packets
 )
 ;
 let
-mut
 unidi_server
 =
 WtTest
@@ -1696,7 +1681,6 @@ WtTest
 create_wt_stream_server
 (
 &
-mut
 wt_session
 StreamType
 :
@@ -1709,7 +1693,6 @@ wt
 send_data_server
 (
 &
-mut
 unidi_server
 BUF
 )
@@ -1857,7 +1840,6 @@ new
 )
 ;
 let
-mut
 wt_session
 =
 wt
@@ -1983,7 +1965,6 @@ wt
 check_session_closed_event_server
 (
 &
-mut
 wt_session
 &
 SessionCloseReason
@@ -2039,7 +2020,6 @@ receive_request
 server
 :
 &
-mut
 Http3Server
 )
 -
@@ -2167,7 +2147,6 @@ server
 )
 ;
 let
-mut
 wt_session
 =
 wt
@@ -2234,13 +2213,11 @@ exchange_packets
 )
 ;
 let
-mut
 req
 =
 receive_request
 (
 &
-mut
 wt
 .
 server
@@ -2313,7 +2290,6 @@ WtTest
 session_close_frame_server
 (
 &
-mut
 wt_session
 ERROR_NUM
 ERROR_MESSAGE

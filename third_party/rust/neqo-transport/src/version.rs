@@ -124,6 +124,7 @@ pub
 (
 crate
 )
+const
 fn
 initial_salt
 (
@@ -279,6 +280,7 @@ pub
 (
 crate
 )
+const
 fn
 label_prefix
 (
@@ -340,6 +342,7 @@ pub
 (
 crate
 )
+const
 fn
 retry_secret
 (
@@ -531,6 +534,7 @@ pub
 (
 crate
 )
+const
 fn
 is_draft
 (
@@ -927,6 +931,7 @@ all
 must_use
 ]
 pub
+const
 fn
 initial
 (

@@ -286,6 +286,7 @@ unused_self
 )
 ]
 pub
+const
 fn
 expansion
 (

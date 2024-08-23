@@ -49,6 +49,7 @@ a
 must_use
 ]
 pub
+const
 fn
 new
 (
@@ -76,6 +77,7 @@ offset
 must_use
 ]
 pub
+const
 fn
 remaining
 (
@@ -103,6 +105,7 @@ offset
 must_use
 ]
 pub
+const
 fn
 offset
 (
@@ -302,12 +305,16 @@ Some
 b
 )
 }
+#
+[
+must_use
+]
 pub
+const
 fn
 peek_byte
 (
 &
-mut
 self
 )
 -
@@ -984,11 +991,7 @@ u8
 )
 -
 >
-Decoder
-<
-'
-a
->
+Self
 {
 Decoder
 :
@@ -1044,11 +1047,7 @@ T
 )
 -
 >
-Decoder
-<
-'
-a
->
+Self
 {
 Decoder
 :
@@ -3918,6 +3917,7 @@ large
 "
 )
 ]
+const
 fn
 encoded_length_oob
 (

@@ -60,9 +60,6 @@ Debug
 )
 ]
 pub
-(
-crate
-)
 struct
 ControlStreamLocal
 {

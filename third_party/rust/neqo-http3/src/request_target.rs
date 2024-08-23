@@ -184,6 +184,7 @@ p
 must_use
 ]
 pub
+const
 fn
 new
 (

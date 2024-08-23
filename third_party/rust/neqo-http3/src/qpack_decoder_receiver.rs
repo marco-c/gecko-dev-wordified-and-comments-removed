@@ -50,9 +50,6 @@ Debug
 )
 ]
 pub
-(
-crate
-)
 struct
 DecoderRecvStream
 {
@@ -73,6 +70,7 @@ impl
 DecoderRecvStream
 {
 pub
+const
 fn
 new
 (

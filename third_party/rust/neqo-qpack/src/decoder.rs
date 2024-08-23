@@ -244,6 +244,7 @@ default
 [
 must_use
 ]
+const
 fn
 capacity
 (
@@ -267,6 +268,7 @@ capacity
 must_use
 ]
 pub
+const
 fn
 get_max_table_size
 (
@@ -1526,6 +1528,7 @@ stream_id
 must_use
 ]
 pub
+const
 fn
 local_stream_id
 (

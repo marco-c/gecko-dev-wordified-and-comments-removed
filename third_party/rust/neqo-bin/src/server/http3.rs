@@ -273,7 +273,6 @@ server
 .
 set_ciphers
 (
-&
 args
 .
 get_ciphers
@@ -541,7 +540,6 @@ Http3ServerEvent
 :
 Headers
 {
-mut
 stream
 headers
 fin
@@ -894,7 +892,6 @@ response
 send
 (
 &
-mut
 stream
 )
 ;
@@ -939,7 +936,6 @@ Http3ServerEvent
 :
 DataWritable
 {
-mut
 stream
 }
 =
@@ -986,7 +982,6 @@ remaining
 send
 (
 &
-mut
 stream
 )
 ;
@@ -1030,7 +1025,6 @@ Http3ServerEvent
 :
 Data
 {
-mut
 stream
 data
 fin
@@ -1294,6 +1288,7 @@ remaining
 impl
 ResponseData
 {
+const
 fn
 repeat
 (
@@ -1341,7 +1336,6 @@ self
 stream
 :
 &
-mut
 Http3OrWebTransportStream
 )
 {
@@ -1475,6 +1469,7 @@ return
 }
 }
 }
+const
 fn
 done
 (

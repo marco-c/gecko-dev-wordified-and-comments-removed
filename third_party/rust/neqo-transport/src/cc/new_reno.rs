@@ -107,6 +107,9 @@ usize
 _min_rtt
 :
 Duration
+_max_datagram_size
+:
+usize
 _now
 :
 Instant
@@ -127,6 +130,9 @@ curr_cwnd
 :
 usize
 acked_bytes
+:
+usize
+_max_datagram_size
 :
 usize
 )

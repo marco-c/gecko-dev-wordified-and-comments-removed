@@ -279,7 +279,6 @@ receive_request
 server
 :
 &
-mut
 Http3Server
 )
 -
@@ -402,7 +401,6 @@ send_trailers
 request
 :
 &
-mut
 Http3OrWebTransportStream
 )
 -
@@ -453,7 +451,6 @@ send_informational_headers
 request
 :
 &
-mut
 Http3OrWebTransportStream
 )
 -
@@ -480,7 +477,6 @@ send_headers
 request
 :
 &
-mut
 Http3OrWebTransportStream
 )
 -
@@ -1074,7 +1070,6 @@ request
 receive_request
 (
 &
-mut
 hconn_s
 )
 .
@@ -1103,7 +1098,6 @@ mut
 hconn_c
 mut
 hconn_s
-mut
 request
 )
 =
@@ -1114,7 +1108,6 @@ connect_send_and_receive_request
 send_headers
 (
 &
-mut
 request
 )
 .
@@ -1136,7 +1129,6 @@ unwrap
 send_trailers
 (
 &
-mut
 request
 )
 .
@@ -1187,7 +1179,6 @@ mut
 hconn_c
 mut
 hconn_s
-mut
 request
 )
 =
@@ -1198,7 +1189,6 @@ connect_send_and_receive_request
 send_headers
 (
 &
-mut
 request
 )
 .
@@ -1230,7 +1220,6 @@ hconn_s
 send_trailers
 (
 &
-mut
 request
 )
 .
@@ -1281,7 +1270,6 @@ mut
 hconn_c
 mut
 hconn_s
-mut
 request
 )
 =
@@ -1292,7 +1280,6 @@ connect_send_and_receive_request
 send_headers
 (
 &
-mut
 request
 )
 .
@@ -1324,7 +1311,6 @@ hconn_s
 send_trailers
 (
 &
-mut
 request
 )
 .
@@ -1385,7 +1371,6 @@ mut
 hconn_c
 mut
 hconn_s
-mut
 request
 )
 =
@@ -1419,7 +1404,6 @@ hconn_s
 send_trailers
 (
 &
-mut
 request
 )
 .
@@ -1480,7 +1464,6 @@ mut
 hconn_c
 mut
 hconn_s
-mut
 request
 )
 =
@@ -1491,7 +1474,6 @@ connect_send_and_receive_request
 send_headers
 (
 &
-mut
 request
 )
 .
@@ -1523,7 +1505,6 @@ hconn_s
 send_trailers
 (
 &
-mut
 request
 )
 .
@@ -1547,7 +1528,6 @@ assert_eq
 send_trailers
 (
 &
-mut
 request
 )
 Err
@@ -1602,7 +1582,6 @@ mut
 hconn_c
 mut
 hconn_s
-mut
 request
 )
 =
@@ -1613,7 +1592,6 @@ connect_send_and_receive_request
 send_headers
 (
 &
-mut
 request
 )
 .
@@ -1645,7 +1623,6 @@ hconn_s
 send_trailers
 (
 &
-mut
 request
 )
 .
@@ -1724,7 +1701,6 @@ mut
 hconn_c
 mut
 hconn_s
-mut
 request
 )
 =
@@ -1735,7 +1711,6 @@ connect_send_and_receive_request
 send_headers
 (
 &
-mut
 request
 )
 .
@@ -1770,7 +1745,6 @@ assert_eq
 send_trailers
 (
 &
-mut
 request
 )
 Err
@@ -1815,7 +1789,6 @@ mut
 hconn_c
 mut
 hconn_s
-mut
 request
 )
 =
@@ -1899,7 +1872,6 @@ mut
 hconn_c
 mut
 hconn_s
-mut
 request
 )
 =
@@ -1926,7 +1898,6 @@ assert_eq
 send_informational_headers
 (
 &
-mut
 request
 )
 Err
@@ -1981,7 +1952,6 @@ mut
 hconn_c
 mut
 hconn_s
-mut
 request
 )
 =
@@ -1992,7 +1962,6 @@ connect_send_and_receive_request
 send_informational_headers
 (
 &
-mut
 request
 )
 .
@@ -2021,7 +1990,6 @@ InvalidInput
 send_headers
 (
 &
-mut
 request
 )
 .
@@ -2083,7 +2051,6 @@ mut
 hconn_c
 mut
 hconn_s
-mut
 request
 )
 =
@@ -2094,7 +2061,6 @@ connect_send_and_receive_request
 send_headers
 (
 &
-mut
 request
 )
 .
@@ -2186,7 +2152,6 @@ mut
 hconn_c
 mut
 hconn_s
-mut
 request
 )
 =
@@ -2215,7 +2180,6 @@ InvalidInput
 send_headers
 (
 &
-mut
 request
 )
 .

@@ -188,9 +188,6 @@ SendStreamEvents
 }
 ;
 pub
-(
-crate
-)
 struct
 RequestDescription
 <
@@ -309,7 +306,7 @@ Result
 match
 self
 {
-WebTransportSessionAcceptAction
+Self
 :
 :
 Accept
@@ -323,7 +320,7 @@ write_str
 Accept
 "
 )
-WebTransportSessionAcceptAction
+Self
 :
 :
 Reject
@@ -403,6 +400,7 @@ Http3State
 must_use
 ]
 pub
+const
 fn
 active
 (
@@ -417,12 +415,12 @@ matches
 !
 (
 self
-Http3State
+Self
 :
 :
 Connected
 |
-Http3State
+Self
 :
 :
 GoingAway
@@ -430,7 +428,7 @@ GoingAway
 _
 )
 |
-Http3State
+Self
 :
 :
 ZeroRtt
@@ -445,9 +443,6 @@ Debug
 )
 ]
 pub
-(
-crate
-)
 struct
 Http3Connection
 {
@@ -895,7 +890,6 @@ fn
 create_qpack_streams
 (
 &
-mut
 self
 conn
 :
@@ -1762,7 +1756,6 @@ ReceiveOutput
 :
 ControlFrames
 (
-mut
 control_frames
 )
 =
@@ -1783,12 +1776,6 @@ for
 cf
 in
 control_frames
-.
-drain
-(
-.
-.
-)
 {
 if
 let
@@ -3970,7 +3957,7 @@ Debug
 let
 final_headers
 =
-Http3Connection
+Self
 :
 :
 create_fetch_headers
@@ -5140,7 +5127,7 @@ clone
 let
 final_headers
 =
-Http3Connection
+Self
 :
 :
 create_fetch_headers
@@ -6551,7 +6538,6 @@ fn
 set_qpack_settings
 (
 &
-mut
 self
 settings
 :
@@ -7197,13 +7183,6 @@ StreamId
 >
 bool
 {
-if
-let
-Some
-(
-r
-)
-=
 self
 .
 recv_streams
@@ -7213,6 +7192,13 @@ get
 &
 stream_id
 )
+.
+map_or
+(
+false
+|
+r
+|
 {
 matches
 !
@@ -7238,10 +7224,7 @@ Http3StreamType
 Decoder
 )
 }
-else
-{
-false
-}
+)
 }
 fn
 send_stream_is_critical
@@ -7836,6 +7819,7 @@ conn
 stream
 }
 pub
+const
 fn
 webtransport_enabled
 (

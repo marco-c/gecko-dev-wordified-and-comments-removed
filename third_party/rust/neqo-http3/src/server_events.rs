@@ -53,7 +53,7 @@ neqo_transport
 server
 :
 :
-ActiveConnectionRef
+ConnectionRef
 AppError
 Connection
 DatagramTracking
@@ -105,7 +105,7 @@ StreamHandler
 pub
 conn
 :
-ActiveConnectionRef
+ConnectionRef
 pub
 handler
 :
@@ -263,6 +263,8 @@ as_u64
 )
 )
 ;
+_
+=
 state
 .
 finish
@@ -328,6 +330,7 @@ impl
 StreamHandler
 {
 pub
+const
 fn
 stream_id
 (
@@ -351,7 +354,6 @@ fn
 send_headers
 (
 &
-mut
 self
 headers
 :
@@ -400,7 +402,6 @@ fn
 send_data
 (
 &
-mut
 self
 buf
 :
@@ -448,7 +449,6 @@ fn
 available
 (
 &
-mut
 self
 )
 -
@@ -494,7 +494,6 @@ fn
 stream_close_send
 (
 &
-mut
 self
 )
 -
@@ -536,7 +535,6 @@ fn
 stream_stop_sending
 (
 &
-mut
 self
 app_error
 :
@@ -613,7 +611,6 @@ fn
 stream_reset_send
 (
 &
-mut
 self
 app_error
 :
@@ -690,7 +687,6 @@ fn
 cancel_fetch
 (
 &
-mut
 self
 app_error
 :
@@ -836,12 +832,13 @@ pub
 (
 crate
 )
+const
 fn
 new
 (
 conn
 :
-ActiveConnectionRef
+ConnectionRef
 handler
 :
 Rc
@@ -876,7 +873,6 @@ fn
 send_headers
 (
 &
-mut
 self
 headers
 :
@@ -907,7 +903,6 @@ fn
 send_data
 (
 &
-mut
 self
 data
 :
@@ -951,7 +946,6 @@ fn
 stream_close_send
 (
 &
-mut
 self
 )
 -
@@ -1087,6 +1081,8 @@ hash
 state
 )
 ;
+_
+=
 state
 .
 finish
@@ -1213,12 +1209,13 @@ pub
 (
 crate
 )
+const
 fn
 new
 (
 conn
 :
-ActiveConnectionRef
+ConnectionRef
 handler
 :
 Rc
@@ -1294,7 +1291,6 @@ fn
 response
 (
 &
-mut
 self
 accept
 :
@@ -1367,7 +1363,6 @@ fn
 close_session
 (
 &
-mut
 self
 error
 :
@@ -1426,6 +1421,7 @@ message
 must_use
 ]
 pub
+const
 fn
 stream_id
 (
@@ -1449,7 +1445,6 @@ fn
 create_stream
 (
 &
-mut
 self
 stream_type
 :
@@ -1551,7 +1546,6 @@ fn
 send_datagram
 (
 &
-mut
 self
 buf
 :
@@ -1811,6 +1805,8 @@ hash
 state
 )
 ;
+_
+=
 state
 .
 finish
@@ -1983,7 +1979,7 @@ StateChange
 {
 conn
 :
-ActiveConnectionRef
+ConnectionRef
 state
 :
 Http3State
@@ -2192,7 +2188,7 @@ connection_state_change
 self
 conn
 :
-ActiveConnectionRef
+ConnectionRef
 state
 :
 Http3State
@@ -2224,7 +2220,7 @@ data
 self
 conn
 :
-ActiveConnectionRef
+ConnectionRef
 handler
 :
 Rc
@@ -2285,7 +2281,7 @@ data_writable
 self
 conn
 :
-ActiveConnectionRef
+ConnectionRef
 handler
 :
 Rc
@@ -2335,7 +2331,7 @@ stream_reset
 self
 conn
 :
-ActiveConnectionRef
+ConnectionRef
 handler
 :
 Rc
@@ -2389,7 +2385,7 @@ stream_stop_sending
 self
 conn
 :
-ActiveConnectionRef
+ConnectionRef
 handler
 :
 Rc

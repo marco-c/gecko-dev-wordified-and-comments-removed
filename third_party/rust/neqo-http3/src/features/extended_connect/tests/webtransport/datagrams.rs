@@ -96,7 +96,6 @@ true
 )
 ;
 let
-mut
 wt_session
 =
 wt
@@ -240,7 +239,6 @@ WtTest
 wt_session
 :
 &
-mut
 WebTransportRequest
 )
 {
@@ -415,7 +413,6 @@ new
 )
 ;
 let
-mut
 wt_session
 =
 wt
@@ -430,7 +427,6 @@ do_datagram_test
 mut
 wt
 &
-mut
 wt_session
 )
 ;
@@ -470,7 +466,6 @@ wt_default_parameters
 )
 ;
 let
-mut
 wt_session
 =
 wt
@@ -650,7 +645,6 @@ true
 )
 ;
 let
-mut
 wt_session
 =
 wt
@@ -819,7 +813,6 @@ new
 )
 ;
 let
-mut
 wt_session1
 =
 wt
@@ -834,12 +827,10 @@ do_datagram_test
 mut
 wt
 &
-mut
 wt_session1
 )
 ;
 let
-mut
 wt_session_2
 =
 wt
@@ -854,7 +845,6 @@ do_datagram_test
 mut
 wt
 &
-mut
 wt_session_2
 )
 ;

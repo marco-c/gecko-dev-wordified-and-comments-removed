@@ -81,6 +81,7 @@ impl
 IdleTimeout
 {
 pub
+const
 fn
 new
 (
@@ -135,6 +136,7 @@ peer_timeout
 )
 ;
 }
+const
 fn
 start
 (

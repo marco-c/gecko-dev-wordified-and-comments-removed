@@ -331,6 +331,7 @@ Error
 must_use
 ]
 pub
+const
 fn
 code
 (
@@ -504,6 +505,7 @@ _
 must_use
 ]
 pub
+const
 fn
 connection_error
 (
@@ -594,6 +596,7 @@ DecoderStream
 must_use
 ]
 pub
+const
 fn
 stream_reset_error
 (
@@ -630,7 +633,7 @@ map_stream_send_errors
 err
 :
 &
-Error
+Self
 )
 -
 >
@@ -656,7 +659,7 @@ FinalSizeError
 )
 =
 >
-Error
+Self
 :
 :
 TransportStreamDoesNotExist
@@ -672,7 +675,7 @@ InvalidInput
 )
 =
 >
-Error
+Self
 :
 :
 InvalidInput
@@ -690,7 +693,7 @@ error
 "
 )
 ;
-Error
+Self
 :
 :
 TransportStreamDoesNotExist
@@ -723,7 +726,7 @@ TransportError
 ConnectionState
 =
 >
-Error
+Self
 :
 :
 Unavailable
@@ -733,7 +736,7 @@ TransportError
 StreamLimitError
 =
 >
-Error
+Self
 :
 :
 StreamLimitError
@@ -751,7 +754,7 @@ error
 "
 )
 ;
-Error
+Self
 :
 :
 TransportStreamDoesNotExist
@@ -769,7 +772,7 @@ map_stream_recv_errors
 err
 :
 &
-Error
+Self
 )
 -
 >
@@ -841,7 +844,7 @@ error
 }
 }
 ;
-Error
+Self
 :
 :
 TransportStreamDoesNotExist
@@ -851,6 +854,7 @@ TransportStreamDoesNotExist
 must_use
 ]
 pub
+const
 fn
 map_set_resumption_errors
 (
@@ -872,14 +876,14 @@ TransportError
 ConnectionState
 =
 >
-Error
+Self
 :
 :
 InvalidState
 _
 =
 >
-Error
+Self
 :
 :
 InvalidResumptionToken
@@ -1025,7 +1029,7 @@ QpackError
 ClosedCriticalStream
 =
 >
-Error
+Self
 :
 :
 HttpClosedCriticalStream
@@ -1718,6 +1722,7 @@ Http3StreamInfo
 must_use
 ]
 pub
+const
 fn
 new
 (
@@ -1743,6 +1748,7 @@ stream_type
 must_use
 ]
 pub
+const
 fn
 stream_id
 (
@@ -1762,6 +1768,7 @@ stream_id
 must_use
 ]
 pub
+const
 fn
 session_id
 (
@@ -2240,6 +2247,7 @@ CloseType
 must_use
 ]
 pub
+const
 fn
 error
 (
@@ -2302,6 +2310,7 @@ None
 must_use
 ]
 pub
+const
 fn
 locally_initiated
 (
@@ -2316,7 +2325,7 @@ matches
 !
 (
 self
-CloseType
+Self
 :
 :
 ResetApp

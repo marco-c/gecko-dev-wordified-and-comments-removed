@@ -216,14 +216,8 @@ bool
 impl
 SimpleExtensionHandler
 {
-#
-[
-allow
-(
-dead_code
-)
-]
 pub
+const
 fn
 negotiated
 (

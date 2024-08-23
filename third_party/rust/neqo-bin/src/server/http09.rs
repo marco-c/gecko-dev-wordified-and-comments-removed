@@ -68,7 +68,7 @@ server
 :
 :
 {
-ActiveConnectionRef
+ConnectionRef
 Server
 ValidateAddress
 }
@@ -253,7 +253,6 @@ server
 .
 set_ciphers
 (
-&
 args
 .
 get_ciphers
@@ -500,8 +499,7 @@ u8
 conn
 :
 &
-mut
-ActiveConnectionRef
+ConnectionRef
 )
 {
 let
@@ -636,8 +634,7 @@ u8
 conn
 :
 &
-mut
-ActiveConnectionRef
+ConnectionRef
 )
 {
 let
@@ -786,8 +783,7 @@ StreamId
 conn
 :
 &
-mut
-ActiveConnectionRef
+ConnectionRef
 )
 {
 if
@@ -1159,8 +1155,7 @@ StreamId
 conn
 :
 &
-mut
-ActiveConnectionRef
+ConnectionRef
 )
 {
 match
@@ -1266,15 +1261,6 @@ offset
 +
 =
 sent
-;
-self
-.
-server
-.
-add_to_waiting
-(
-conn
-)
 ;
 if
 *
@@ -1393,6 +1379,16 @@ now
 Instant
 )
 {
+#
+[
+allow
+(
+clippy
+:
+:
+mutable_key_type
+)
+]
 let
 active_conns
 =
@@ -1405,7 +1401,6 @@ active_connections
 )
 ;
 for
-mut
 acr
 in
 active_conns
@@ -1484,7 +1479,6 @@ stream_readable
 (
 stream_id
 &
-mut
 acr
 )
 ;
@@ -1505,7 +1499,6 @@ stream_writable
 (
 stream_id
 &
-mut
 acr
 )
 ;

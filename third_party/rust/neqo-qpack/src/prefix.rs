@@ -136,6 +136,7 @@ len
 }
 }
 pub
+const
 fn
 len
 (
@@ -150,6 +151,7 @@ self
 len
 }
 pub
+const
 fn
 prefix
 (
@@ -164,6 +166,7 @@ self
 prefix
 }
 pub
+const
 fn
 cmp_prefix
 (

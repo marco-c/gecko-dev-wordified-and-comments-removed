@@ -83,9 +83,6 @@ from_millis
 )
 ;
 pub
-(
-crate
-)
 const
 INITIAL_RTT
 :
@@ -394,7 +391,6 @@ self
 qlog
 :
 &
-mut
 NeqoQlog
 mut
 rtt_sample
@@ -636,6 +632,7 @@ smoothed_rtt
 ;
 }
 pub
+const
 fn
 estimate
 (
@@ -742,6 +739,7 @@ GRANULARITY
 )
 }
 pub
+const
 fn
 first_sample_time
 (
@@ -767,6 +765,7 @@ test
 )
 ]
 pub
+const
 fn
 latest
 (
@@ -782,6 +781,7 @@ self
 latest_rtt
 }
 pub
+const
 fn
 rttvar
 (
@@ -797,6 +797,7 @@ self
 rttvar
 }
 pub
+const
 fn
 minimum
 (

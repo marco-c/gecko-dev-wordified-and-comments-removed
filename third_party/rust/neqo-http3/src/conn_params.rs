@@ -153,6 +153,7 @@ Http3Parameters
 must_use
 ]
 pub
+const
 fn
 get_connection_parameters
 (
@@ -246,6 +247,7 @@ self
 must_use
 ]
 pub
+const
 fn
 get_max_table_size_encoder
 (
@@ -313,6 +315,7 @@ self
 must_use
 ]
 pub
+const
 fn
 get_max_table_size_decoder
 (
@@ -334,6 +337,7 @@ max_table_size_decoder
 must_use
 ]
 pub
+const
 fn
 max_blocked_streams
 (
@@ -362,6 +366,7 @@ self
 must_use
 ]
 pub
+const
 fn
 get_max_blocked_streams
 (
@@ -383,6 +388,7 @@ max_blocked_streams
 must_use
 ]
 pub
+const
 fn
 get_qpack_settings
 (
@@ -404,6 +410,7 @@ qpack_settings
 must_use
 ]
 pub
+const
 fn
 max_concurrent_push_streams
 (
@@ -430,6 +437,7 @@ self
 must_use
 ]
 pub
+const
 fn
 get_max_concurrent_push_streams
 (
@@ -449,6 +457,7 @@ max_concurrent_push_streams
 must_use
 ]
 pub
+const
 fn
 webtransport
 (
@@ -475,6 +484,7 @@ self
 must_use
 ]
 pub
+const
 fn
 get_webtransport
 (
@@ -494,6 +504,7 @@ webtransport
 must_use
 ]
 pub
+const
 fn
 http3_datagram
 (
@@ -520,6 +531,7 @@ self
 must_use
 ]
 pub
+const
 fn
 get_http3_datagram
 (

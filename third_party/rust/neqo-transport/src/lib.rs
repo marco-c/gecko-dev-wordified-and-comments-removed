@@ -105,6 +105,9 @@ mod
 path
 ;
 mod
+pmtud
+;
+mod
 qlog
 ;
 mod
@@ -261,6 +264,10 @@ packet
 :
 :
 MIN_INITIAL_PACKET_SIZE
+pmtud
+:
+:
+Pmtud
 quic_datagrams
 :
 :
@@ -925,6 +932,7 @@ CloseReason
 must_use
 ]
 pub
+const
 fn
 app_code
 (
@@ -972,6 +980,7 @@ None
 must_use
 ]
 pub
+const
 fn
 is_error
 (
@@ -987,7 +996,7 @@ matches
 !
 (
 self
-CloseReason
+Self
 :
 :
 Transport
@@ -998,7 +1007,7 @@ Error
 NoError
 )
 |
-CloseReason
+Self
 :
 :
 Application

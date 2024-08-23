@@ -660,7 +660,6 @@ WebTransportServerEvent
 :
 NewSession
 {
-mut
 session
 headers
 }
@@ -976,7 +975,6 @@ Http3Server
 wt_stream
 :
 &
-mut
 Http3OrWebTransportStream
 data
 :
@@ -1615,7 +1613,6 @@ BUF_CLIENT
 )
 ;
 let
-mut
 wt_server_stream
 =
 receive_data_server
@@ -1641,7 +1638,6 @@ client
 mut
 server
 &
-mut
 wt_server_stream
 BUF_SERVER
 )
@@ -1695,7 +1691,6 @@ connect
 )
 ;
 let
-mut
 wt_session
 =
 create_wt_session
@@ -1709,7 +1704,6 @@ server
 )
 ;
 let
-mut
 wt_server_stream
 =
 wt_session
@@ -1735,7 +1729,6 @@ client
 mut
 server
 &
-mut
 wt_server_stream
 BUF_SERVER
 )
@@ -1808,7 +1801,6 @@ connect
 )
 ;
 let
-mut
 wt_session
 =
 create_wt_session
@@ -1822,7 +1814,6 @@ server
 )
 ;
 let
-mut
 wt_server_stream
 =
 wt_session
@@ -1848,7 +1839,6 @@ client
 mut
 server
 &
-mut
 wt_server_stream
 BUF_SERVER
 )

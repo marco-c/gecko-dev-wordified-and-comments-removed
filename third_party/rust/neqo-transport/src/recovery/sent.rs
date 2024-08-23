@@ -97,6 +97,7 @@ impl
 SentPacket
 {
 pub
+const
 fn
 new
 (
@@ -150,6 +151,7 @@ len
 }
 }
 pub
+const
 fn
 packet_type
 (
@@ -165,6 +167,7 @@ self
 pt
 }
 pub
+const
 fn
 pn
 (
@@ -180,6 +183,7 @@ self
 pn
 }
 pub
+const
 fn
 ecn_mark
 (
@@ -195,6 +199,7 @@ self
 ecn_mark
 }
 pub
+const
 fn
 time_sent
 (
@@ -210,6 +215,7 @@ self
 time_sent
 }
 pub
+const
 fn
 ack_eliciting
 (
@@ -225,6 +231,7 @@ self
 ack_eliciting
 }
 pub
+const
 fn
 on_primary_path
 (
@@ -240,6 +247,7 @@ self
 primary_path
 }
 pub
+const
 fn
 len
 (
@@ -322,6 +330,7 @@ padding
 ;
 }
 pub
+const
 fn
 lost
 (
@@ -341,6 +350,7 @@ is_some
 )
 }
 pub
+const
 fn
 cc_outstanding
 (
@@ -373,6 +383,7 @@ lost
 )
 }
 pub
+const
 fn
 cc_in_flight
 (
@@ -472,6 +483,7 @@ now
 )
 }
 pub
+const
 fn
 pto_fired
 (

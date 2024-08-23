@@ -212,6 +212,9 @@ bool
 pacing
 :
 bool
+pmtud
+:
+bool
 }
 impl
 Default
@@ -320,6 +323,9 @@ true
 pacing
 :
 true
+pmtud
+:
+false
 }
 }
 }
@@ -331,6 +337,7 @@ ConnectionParameters
 must_use
 ]
 pub
+const
 fn
 get_versions
 (
@@ -414,6 +421,7 @@ self
 must_use
 ]
 pub
+const
 fn
 get_cc_algorithm
 (
@@ -433,6 +441,7 @@ cc_algorithm
 must_use
 ]
 pub
+const
 fn
 cc_algorithm
 (
@@ -459,6 +468,7 @@ self
 must_use
 ]
 pub
+const
 fn
 get_max_data
 (
@@ -478,6 +488,7 @@ max_data
 must_use
 ]
 pub
+const
 fn
 max_data
 (
@@ -504,6 +515,7 @@ self
 must_use
 ]
 pub
+const
 fn
 get_max_streams
 (
@@ -854,6 +866,7 @@ self
 must_use
 ]
 pub
+const
 fn
 preferred_address
 (
@@ -886,6 +899,7 @@ self
 must_use
 ]
 pub
+const
 fn
 disable_preferred_address
 (
@@ -912,6 +926,7 @@ self
 must_use
 ]
 pub
+const
 fn
 get_preferred_address
 (
@@ -933,6 +948,7 @@ preferred_address
 must_use
 ]
 pub
+const
 fn
 ack_ratio
 (
@@ -959,6 +975,7 @@ self
 must_use
 ]
 pub
+const
 fn
 get_ack_ratio
 (
@@ -1028,6 +1045,7 @@ self
 must_use
 ]
 pub
+const
 fn
 get_idle_timeout
 (
@@ -1047,6 +1065,7 @@ idle_timeout
 must_use
 ]
 pub
+const
 fn
 get_datagram_size
 (
@@ -1066,6 +1085,7 @@ datagram_size
 must_use
 ]
 pub
+const
 fn
 datagram_size
 (
@@ -1092,6 +1112,7 @@ self
 must_use
 ]
 pub
+const
 fn
 get_outgoing_datagram_queue
 (
@@ -1141,6 +1162,7 @@ self
 must_use
 ]
 pub
+const
 fn
 get_incoming_datagram_queue
 (
@@ -1190,6 +1212,7 @@ self
 must_use
 ]
 pub
+const
 fn
 get_fast_pto
 (
@@ -1242,6 +1265,7 @@ self
 must_use
 ]
 pub
+const
 fn
 is_greasing
 (
@@ -1261,6 +1285,7 @@ grease
 must_use
 ]
 pub
+const
 fn
 grease
 (
@@ -1287,6 +1312,7 @@ self
 must_use
 ]
 pub
+const
 fn
 pacing_enabled
 (
@@ -1306,6 +1332,7 @@ pacing
 must_use
 ]
 pub
+const
 fn
 pacing
 (
@@ -1324,6 +1351,53 @@ self
 pacing
 =
 pacing
+;
+self
+}
+#
+[
+must_use
+]
+pub
+const
+fn
+pmtud_enabled
+(
+&
+self
+)
+-
+>
+bool
+{
+self
+.
+pmtud
+}
+#
+[
+must_use
+]
+pub
+const
+fn
+pmtud
+(
+mut
+self
+pmtud
+:
+bool
+)
+-
+>
+Self
+{
+self
+.
+pmtud
+=
+pmtud
 ;
 self
 }

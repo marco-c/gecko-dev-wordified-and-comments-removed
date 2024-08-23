@@ -608,9 +608,6 @@ take
 }
 }
 pub
-(
-crate
-)
 fn
 create_client
 (
@@ -893,15 +890,13 @@ error
 }
 =
 >
-{
 (
-CloseState
+Self
 :
 :
 Closing
 error
 )
-}
 State
 :
 :
@@ -912,7 +907,7 @@ error
 =
 >
 (
-CloseState
+Self
 :
 :
 Closed
@@ -924,7 +919,7 @@ _
 return
 Ok
 (
-CloseState
+Self
 :
 :
 NotClosing

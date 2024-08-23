@@ -56,9 +56,6 @@ Res
 }
 ;
 pub
-(
-crate
-)
 type
 HFrameType
 =
@@ -774,7 +771,7 @@ as_ref
 impl
 FrameDecoder
 <
-HFrame
+Self
 >
 for
 HFrame
@@ -844,7 +841,7 @@ Res
 <
 Option
 <
-HFrame
+Self
 >
 >
 {
@@ -858,7 +855,7 @@ Ok
 (
 Some
 (
-HFrame
+Self
 :
 :
 Data
@@ -918,7 +915,7 @@ H3_FRAME_TYPE_HEADERS
 >
 Some
 (
-HFrame
+Self
 :
 :
 Headers
@@ -941,7 +938,7 @@ H3_FRAME_TYPE_CANCEL_PUSH
 >
 Some
 (
-HFrame
+Self
 :
 :
 CancelPush
@@ -1018,7 +1015,7 @@ HttpFrame
 ;
 Some
 (
-HFrame
+Self
 :
 :
 Settings
@@ -1032,7 +1029,7 @@ H3_FRAME_TYPE_PUSH_PROMISE
 >
 Some
 (
-HFrame
+Self
 :
 :
 PushPromise
@@ -1071,7 +1068,7 @@ H3_FRAME_TYPE_GOAWAY
 >
 Some
 (
-HFrame
+Self
 :
 :
 Goaway
@@ -1105,7 +1102,7 @@ H3_FRAME_TYPE_MAX_PUSH_ID
 >
 Some
 (
-HFrame
+Self
 :
 :
 MaxPushId
@@ -1181,7 +1178,7 @@ H3_FRAME_TYPE_PRIORITY_UPDATE_REQUEST
 {
 Some
 (
-HFrame
+Self
 :
 :
 PriorityUpdateRequest
@@ -1195,7 +1192,7 @@ else
 {
 Some
 (
-HFrame
+Self
 :
 :
 PriorityUpdatePush

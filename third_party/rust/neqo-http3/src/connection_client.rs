@@ -243,6 +243,7 @@ None
 }
 }
 }
+const
 fn
 alpn_from_quic_version
 (
@@ -605,6 +606,7 @@ base_handler
 must_use
 ]
 pub
+const
 fn
 role
 (
@@ -3168,7 +3170,6 @@ e
 code
 (
 )
-&
 format
 !
 (
@@ -4568,6 +4569,7 @@ stats
 must_use
 ]
 pub
+const
 fn
 webtransport_enabled
 (

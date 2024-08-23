@@ -229,7 +229,6 @@ F
 >
 (
 &
-mut
 self
 f
 :
@@ -299,7 +298,6 @@ F
 >
 (
 &
-mut
 self
 f
 :
@@ -369,7 +367,6 @@ F
 >
 (
 &
-mut
 self
 f
 :
@@ -932,7 +929,6 @@ add_event
 {
 let
 (
-mut
 log
 contents
 )

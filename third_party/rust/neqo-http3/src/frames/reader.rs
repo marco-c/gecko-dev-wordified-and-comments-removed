@@ -58,9 +58,6 @@ usize
 4096
 ;
 pub
-(
-crate
-)
 trait
 FrameDecoder
 <
@@ -130,9 +127,6 @@ T
 ;
 }
 pub
-(
-crate
-)
 trait
 StreamReader
 {
@@ -162,9 +156,6 @@ bool
 ;
 }
 pub
-(
-crate
-)
 struct
 StreamReaderConnectionWrapper
 <
@@ -280,9 +271,6 @@ res
 }
 }
 pub
-(
-crate
-)
 struct
 StreamReaderRecvStreamWrapper
 <
@@ -458,9 +446,6 @@ Debug
 )
 ]
 pub
-(
-crate
-)
 struct
 FrameReader
 {
@@ -675,6 +660,7 @@ min_remaining
 )
 }
 }
+const
 fn
 decoding_in_progress
 (

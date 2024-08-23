@@ -128,9 +128,6 @@ PacketNumberSpaceSet
 }
 ;
 pub
-(
-crate
-)
 const
 PACKET_THRESHOLD
 :
@@ -139,9 +136,6 @@ u64
 3
 ;
 pub
-(
-crate
-)
 const
 ACK_ONLY_SIZE_LIMIT
 :
@@ -158,9 +152,6 @@ usize
 2
 ;
 pub
-(
-crate
-)
 const
 MAX_OUTSTANDING_UNACK
 :
@@ -169,9 +160,6 @@ usize
 200
 ;
 pub
-(
-crate
-)
 const
 MIN_OUTSTANDING_UNACK
 :
@@ -398,6 +386,7 @@ sp
 )
 }
 pub
+const
 fn
 paced
 (
@@ -413,6 +402,7 @@ self
 paced
 }
 pub
+const
 fn
 limit
 (
@@ -436,9 +426,6 @@ Debug
 )
 ]
 pub
-(
-crate
-)
 struct
 LossRecoverySpace
 {
@@ -524,6 +511,7 @@ None
 must_use
 ]
 pub
+const
 fn
 space
 (
@@ -543,6 +531,7 @@ space
 must_use
 ]
 pub
+const
 fn
 loss_recovery_timer_start
 (
@@ -561,6 +550,7 @@ self
 first_ooo_time
 }
 pub
+const
 fn
 in_flight_outstanding
 (
@@ -1452,9 +1442,6 @@ Debug
 )
 ]
 pub
-(
-crate
-)
 struct
 LossRecoverySpaces
 {
@@ -1472,6 +1459,7 @@ LossRecoverySpace
 impl
 LossRecoverySpaces
 {
+const
 fn
 idx
 (
@@ -1972,6 +1960,7 @@ probe
 ;
 }
 pub
+const
 fn
 count
 (
@@ -2072,9 +2061,6 @@ Debug
 )
 ]
 pub
-(
-crate
-)
 struct
 LossRecovery
 {
@@ -2489,7 +2475,6 @@ fn
 rtt_sample
 (
 &
-mut
 self
 rtt
 :
@@ -2544,7 +2529,6 @@ rtt
 update
 (
 &
-mut
 self
 .
 qlog
@@ -2925,6 +2909,16 @@ prev_largest_acked
 pn_space
 &
 lost
+&
+mut
+self
+.
+stats
+.
+borrow_mut
+(
+)
+now
 )
 ;
 primary_path
@@ -2939,6 +2933,15 @@ on_packets_acked
 acked_packets
 ack_ecn
 now
+&
+mut
+self
+.
+stats
+.
+borrow_mut
+(
+)
 )
 ;
 self
@@ -3279,7 +3282,6 @@ fn
 next_timeout
 (
 &
-mut
 self
 rtt
 :
@@ -3858,7 +3860,6 @@ qlog
 metrics_updated
 (
 &
-mut
 self
 .
 qlog
@@ -4245,6 +4246,16 @@ first
 .
 .
 ]
+&
+mut
+self
+.
+stats
+.
+borrow_mut
+(
+)
+now
 )
 ;
 }
@@ -4347,7 +4358,7 @@ mtu
 =
 path
 .
-mtu
+plpmtu
 (
 )
 ;
@@ -4856,7 +4867,6 @@ fn
 next_timeout
 (
 &
-mut
 self
 )
 -

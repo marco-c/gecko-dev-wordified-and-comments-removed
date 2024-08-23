@@ -286,6 +286,7 @@ cspace
 }
 }
 pub
+const
 fn
 available
 (

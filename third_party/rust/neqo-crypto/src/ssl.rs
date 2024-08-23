@@ -191,10 +191,12 @@ clippy
 cast_possible_wrap
 )
 ]
+#
+[
+must_use
+]
 pub
-(
-crate
-)
+const
 fn
 as_int
 (

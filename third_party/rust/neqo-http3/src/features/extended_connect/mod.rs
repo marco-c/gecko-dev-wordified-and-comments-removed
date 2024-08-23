@@ -131,7 +131,7 @@ CloseType
 )
 -
 >
-SessionCloseReason
+Self
 {
 match
 close_type
@@ -162,7 +162,7 @@ e
 =
 >
 {
-SessionCloseReason
+Self
 :
 :
 Error
@@ -176,7 +176,7 @@ CloseType
 Done
 =
 >
-SessionCloseReason
+Self
 :
 :
 Clean
@@ -317,6 +317,7 @@ unused_self
 )
 ]
 pub
+const
 fn
 string
 (
@@ -347,6 +348,7 @@ unused_self
 must_use
 ]
 pub
+const
 fn
 get_stream_type
 (
@@ -387,7 +389,7 @@ ExtendedConnectType
 >
 Self
 {
-HSettingType
+Self
 :
 :
 EnableWebTransport
@@ -503,6 +505,7 @@ settings
 must_use
 ]
 pub
+const
 fn
 enabled
 (

@@ -2358,10 +2358,16 @@ send_ticket
 (
 now
 &
+vec
+!
 [
 0
 ;
-2048
+server
+.
+plpmtu
+(
+)
 ]
 )
 .

@@ -1,3 +1,14 @@
+#
+!
+[
+allow
+(
+clippy
+:
+:
+future_not_send
+)
+]
 use
 std
 :
@@ -123,10 +134,7 @@ use
 crate
 :
 :
-{
-udp
 SharedArgs
-}
 ;
 const
 ANTI_REPLAY_WINDOW
@@ -1042,6 +1050,9 @@ Vec
 <
 (
 SocketAddr
+crate
+:
+:
 udp
 :
 :
@@ -1085,6 +1096,9 @@ Vec
 <
 (
 SocketAddr
+crate
+:
+:
 udp
 :
 :
@@ -1120,6 +1134,9 @@ SocketAddr
 >
 &
 mut
+crate
+:
+:
 udp
 :
 :
@@ -1469,8 +1486,10 @@ as_mut
 (
 )
 .
-map_or
+map_or_else
 (
+|
+|
 Either
 :
 :
@@ -2149,6 +2168,9 @@ host
 let
 socket
 =
+crate
+:
+:
 udp
 :
 :

@@ -659,7 +659,6 @@ Resumption
 client
 :
 &
-mut
 Client
 server
 :
@@ -675,13 +674,15 @@ AntiReplay
 >
 {
 if
-let
+matches
+!
+(
+mode
 Resumption
 :
 :
 WithZeroRtt
-=
-mode
+)
 {
 client
 .
@@ -838,7 +839,6 @@ zero_rtt_setup
 (
 mode
 &
-mut
 client
 &
 mut

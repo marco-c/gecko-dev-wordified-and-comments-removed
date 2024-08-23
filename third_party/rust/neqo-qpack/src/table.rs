@@ -62,9 +62,6 @@ Debug
 )
 ]
 pub
-(
-crate
-)
 struct
 DynamicTableEntry
 {
@@ -91,6 +88,7 @@ impl
 DynamicTableEntry
 {
 pub
+const
 fn
 can_reduce
 (
@@ -230,6 +228,7 @@ self
 value
 }
 pub
+const
 fn
 index
 (
@@ -253,9 +252,6 @@ Debug
 )
 ]
 pub
-(
-crate
-)
 struct
 HeaderTable
 {
@@ -360,6 +356,7 @@ impl
 HeaderTable
 {
 pub
+const
 fn
 new
 (
@@ -407,6 +404,7 @@ MAX
 }
 }
 pub
+const
 fn
 base
 (
@@ -422,6 +420,7 @@ self
 base
 }
 pub
+const
 fn
 capacity
 (
@@ -1739,7 +1738,7 @@ name
 if
 name_static_table
 {
-HeaderTable
+Self
 :
 :
 get_static
@@ -1982,6 +1981,7 @@ Ok
 )
 }
 pub
+const
 fn
 get_acked_inserts_cnt
 (

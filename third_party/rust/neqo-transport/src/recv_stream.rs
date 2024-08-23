@@ -121,9 +121,6 @@ Default
 )
 ]
 pub
-(
-crate
-)
 struct
 RecvStreams
 {
@@ -230,6 +227,16 @@ stream
 )
 ;
 }
+#
+[
+allow
+(
+clippy
+:
+:
+missing_errors_doc
+)
+]
 pub
 fn
 get_mut
@@ -268,6 +275,16 @@ Error
 InvalidStreamId
 )
 }
+#
+[
+allow
+(
+clippy
+:
+:
+missing_errors_doc
+)
+]
 pub
 fn
 keep_alive
@@ -381,12 +398,15 @@ Ok
 )
 )
 }
+#
+[
+must_use
+]
 pub
 fn
 need_keep_alive
 (
 &
-mut
 self
 )
 -
@@ -1420,6 +1440,7 @@ MAX
 must_use
 ]
 pub
+const
 fn
 retired
 (
@@ -1439,6 +1460,7 @@ retired
 must_use
 ]
 pub
+const
 fn
 received
 (
@@ -2058,6 +2080,7 @@ new
 session_fc
 }
 }
+const
 fn
 name
 (
@@ -2165,6 +2188,7 @@ ResetRecvd
 "
 }
 }
+const
 fn
 recv_buf
 (
@@ -2577,6 +2601,7 @@ RecvStreamStats
 must_use
 ]
 pub
+const
 fn
 new
 (
@@ -2602,6 +2627,7 @@ bytes_read
 must_use
 ]
 pub
+const
 fn
 bytes_received
 (
@@ -2621,6 +2647,7 @@ bytes_received
 must_use
 ]
 pub
+const
 fn
 bytes_read
 (
@@ -2871,6 +2898,7 @@ new_state
 must_use
 ]
 pub
+const
 fn
 stats
 (
@@ -3679,7 +3707,6 @@ StreamId
 session_fc
 :
 &
-mut
 Rc
 <
 RefCell
@@ -3797,6 +3824,7 @@ max_data
 must_use
 ]
 pub
+const
 fn
 is_terminal
 (
@@ -3832,6 +3860,7 @@ DataRead
 }
 )
 }
+const
 fn
 needs_to_inform_app_about_fin
 (
@@ -4742,6 +4771,7 @@ test
 must_use
 ]
 pub
+const
 fn
 has_frames_to_write
 (
@@ -4792,6 +4822,7 @@ test
 must_use
 ]
 pub
+const
 fn
 fc
 (
@@ -7652,7 +7683,6 @@ check_chunks
 s
 :
 &
-mut
 RxStreamOrderer
 expected
 :
@@ -7765,7 +7795,6 @@ inbound_frame
 check_chunks
 (
 &
-mut
 s
 &
 [
@@ -7792,7 +7821,6 @@ inbound_frame
 check_chunks
 (
 &
-mut
 s
 &
 [
@@ -7819,7 +7847,6 @@ inbound_frame
 check_chunks
 (
 &
-mut
 s
 &
 [
@@ -7846,7 +7873,6 @@ inbound_frame
 check_chunks
 (
 &
-mut
 s
 &
 [
@@ -7873,7 +7899,6 @@ inbound_frame
 check_chunks
 (
 &
-mut
 s
 &
 [
@@ -7900,7 +7925,6 @@ inbound_frame
 check_chunks
 (
 &
-mut
 s
 &
 [
@@ -7999,7 +8023,6 @@ inbound_frame
 check_chunks
 (
 &
-mut
 s
 &
 [
@@ -8026,7 +8049,6 @@ inbound_frame
 check_chunks
 (
 &
-mut
 s
 &
 [
@@ -8057,7 +8079,6 @@ inbound_frame
 check_chunks
 (
 &
-mut
 s
 &
 [
@@ -8157,7 +8178,6 @@ inbound_frame
 check_chunks
 (
 &
-mut
 s
 &
 [
@@ -8184,7 +8204,6 @@ inbound_frame
 check_chunks
 (
 &
-mut
 s
 &
 [
@@ -8215,7 +8234,6 @@ inbound_frame
 check_chunks
 (
 &
-mut
 s
 &
 [
@@ -8312,7 +8330,6 @@ inbound_frame
 check_chunks
 (
 &
-mut
 s
 &
 [
@@ -8339,7 +8356,6 @@ inbound_frame
 check_chunks
 (
 &
-mut
 s
 &
 [
@@ -8370,7 +8386,6 @@ inbound_frame
 check_chunks
 (
 &
-mut
 s
 &
 [
@@ -8491,7 +8506,6 @@ buf
 check_chunks
 (
 &
-mut
 s
 &
 [
@@ -8519,7 +8533,6 @@ buf
 check_chunks
 (
 &
-mut
 s
 &
 [
@@ -8576,7 +8589,6 @@ buf
 check_chunks
 (
 &
-mut
 s
 &
 [

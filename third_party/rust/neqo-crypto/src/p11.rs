@@ -918,7 +918,7 @@ PK11_GetInternalSlot
 )
 }
 ;
-Slot
+Self
 :
 :
 from_ptr
@@ -1345,6 +1345,7 @@ unwrap
 }
 }
 pub
+const
 fn
 make_empty
 (
@@ -1692,6 +1693,7 @@ usize
 =
 32
 ;
+const
 fn
 new
 (
@@ -1700,7 +1702,7 @@ new
 >
 Self
 {
-RandomCache
+Self
 {
 cache
 :
@@ -1945,6 +1947,8 @@ RefCell
 RandomCache
 >
 =
+const
+{
 RefCell
 :
 :
@@ -1957,6 +1961,7 @@ new
 (
 )
 )
+}
 )
 ;
 let

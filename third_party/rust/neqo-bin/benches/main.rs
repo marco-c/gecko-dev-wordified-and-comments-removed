@@ -431,6 +431,16 @@ unwrap
 )
 ;
 }
+#
+[
+allow
+(
+clippy
+:
+:
+redundant_pub_crate
+)
+]
 fn
 spawn_server
 (
@@ -565,6 +575,7 @@ res
 "
 )
 }
+;
 }
 )
 ;

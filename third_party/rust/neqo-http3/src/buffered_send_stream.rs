@@ -146,6 +146,7 @@ BufferedStream
 must_use
 ]
 pub
+const
 fn
 new
 (
@@ -629,10 +630,7 @@ BufferedStream
 )
 -
 >
-Option
-<
-StreamId
->
+Self
 {
 if
 let

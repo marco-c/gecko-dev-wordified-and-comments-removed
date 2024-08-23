@@ -121,9 +121,6 @@ Res
 }
 ;
 pub
-(
-crate
-)
 struct
 Handler
 <
@@ -261,9 +258,6 @@ output_read_data
 }
 }
 pub
-(
-crate
-)
 fn
 create_client
 (
@@ -576,7 +570,7 @@ error
 =
 >
 (
-CloseState
+Self
 :
 :
 Closing
@@ -592,7 +586,7 @@ error
 =
 >
 (
-CloseState
+Self
 :
 :
 Closed
@@ -604,7 +598,7 @@ _
 return
 Ok
 (
-CloseState
+Self
 :
 :
 NotClosing
@@ -621,10 +615,6 @@ is_error
 Err
 (
 error
-.
-clone
-(
-)
 )
 }
 else
@@ -2514,7 +2504,6 @@ fn
 done
 (
 &
-mut
 self
 )
 -

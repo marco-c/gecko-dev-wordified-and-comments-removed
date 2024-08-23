@@ -37,7 +37,6 @@ qpack_read_insert_count_increment_instruction
 qlog
 :
 &
-mut
 NeqoQlog
 increment
 :

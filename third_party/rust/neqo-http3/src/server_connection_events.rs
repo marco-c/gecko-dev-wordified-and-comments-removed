@@ -71,9 +71,6 @@ Clone
 )
 ]
 pub
-(
-crate
-)
 enum
 Http3ServerConnEvent
 {
@@ -195,9 +192,6 @@ Clone
 )
 ]
 pub
-(
-crate
-)
 struct
 Http3ServerConnEvents
 {

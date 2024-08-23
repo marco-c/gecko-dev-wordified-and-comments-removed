@@ -388,7 +388,6 @@ is_some
 connected_server
 (
 &
-mut
 server
 )
 ;
@@ -1065,7 +1064,6 @@ is_some
 connected_server
 (
 &
-mut
 server
 )
 ;
@@ -1292,11 +1290,6 @@ dgram
 tos
 (
 )
-dgram
-.
-ttl
-(
-)
 &
 dgram
 [
@@ -1504,11 +1497,6 @@ destination
 d
 .
 tos
-(
-)
-d
-.
-ttl
 (
 )
 &
@@ -1751,11 +1739,6 @@ destination
 d
 .
 tos
-(
-)
-d
-.
-ttl
 (
 )
 &
@@ -2180,7 +2163,6 @@ is_some
 connected_server
 (
 &
-mut
 server
 )
 ;
@@ -2345,11 +2327,6 @@ destination
 retry
 .
 tos
-(
-)
-retry
-.
-ttl
 (
 )
 tweaked
@@ -3508,11 +3485,6 @@ destination
 client_initial2
 .
 tos
-(
-)
-client_initial2
-.
-ttl
 (
 )
 notoken_packet

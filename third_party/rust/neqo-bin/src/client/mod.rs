@@ -1,3 +1,14 @@
+#
+!
+[
+allow
+(
+clippy
+:
+:
+future_not_send
+)
+]
 use
 std
 :
@@ -174,10 +185,7 @@ use
 crate
 :
 :
-{
-udp
 SharedArgs
-}
 ;
 mod
 http09
@@ -1800,6 +1808,9 @@ ready
 socket
 :
 &
+crate
+:
+:
 udp
 :
 :
@@ -1867,8 +1878,10 @@ as_mut
 (
 )
 .
-map_or
+map_or_else
 (
+|
+|
 Either
 :
 :
@@ -2105,6 +2118,9 @@ socket
 '
 a
 mut
+crate
+:
+:
 udp
 :
 :
@@ -3244,6 +3260,9 @@ let
 mut
 socket
 =
+crate
+:
+:
 udp
 :
 :

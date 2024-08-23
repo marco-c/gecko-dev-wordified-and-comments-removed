@@ -68,6 +68,7 @@ missing_errors_doc
 )
 ]
 pub
+const
 fn
 new
 (
@@ -105,6 +106,7 @@ Self
 must_use
 ]
 pub
+const
 fn
 expansion
 (
