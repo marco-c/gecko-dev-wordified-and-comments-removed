@@ -19,13 +19,6 @@ js
 ]
 [
 "
-browser_pdfjs_alttext_load_engine
-.
-js
-"
-]
-[
-"
 browser_pdfjs_caret_browsing_mode
 .
 js
