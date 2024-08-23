@@ -1073,6 +1073,13 @@ js
 ]
 [
 "
+browser_focusContentDocumentEsc
+.
+js
+"
+]
+[
+"
 browser_focusedCmdK
 .
 js
