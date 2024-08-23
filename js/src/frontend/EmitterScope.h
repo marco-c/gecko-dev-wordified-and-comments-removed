@@ -866,11 +866,8 @@ nodiscard
 bool
 prepareForDisposableAssignment
 (
-UsingEmitter
-:
-:
-Kind
-kind
+UsingHint
+hint
 )
 ;
 [

@@ -11980,9 +11980,14 @@ UsingHint
 hint
 =
 UsingHint
-:
-:
-Sync
+(
+GET_UINT8
+(
+REGS
+.
+pc
+)
+)
 ;
 JS
 :

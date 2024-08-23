@@ -2080,11 +2080,8 @@ EmitterScope
 :
 prepareForDisposableAssignment
 (
-UsingEmitter
-:
-:
-Kind
-kind
+UsingHint
+hint
 )
 {
 MOZ_ASSERT
@@ -2100,7 +2097,7 @@ usingEmitter_
 >
 prepareForAssignment
 (
-kind
+hint
 )
 ;
 }

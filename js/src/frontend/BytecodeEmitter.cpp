@@ -20093,10 +20093,7 @@ innermostEmitterScope
 >
 prepareForDisposableAssignment
 (
-UsingEmitter
-:
-:
-Kind
+UsingHint
 :
 :
 Sync
@@ -26653,10 +26650,7 @@ innermostEmitterScope
 >
 prepareForDisposableAssignment
 (
-UsingEmitter
-:
-:
-Kind
+UsingHint
 :
 :
 Sync
