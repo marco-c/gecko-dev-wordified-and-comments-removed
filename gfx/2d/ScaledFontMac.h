@@ -272,16 +272,6 @@ return
 true
 ;
 }
-bool
-UseFontSmoothing
-(
-)
-const
-{
-return
-mUseFontSmoothing
-;
-}
 cairo_font_face_t
 *
 CreateCairoFontFace
