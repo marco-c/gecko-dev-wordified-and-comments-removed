@@ -429,6 +429,9 @@ this
 .
 focusOverlay
 (
+message
+.
+data
 )
 ;
 case
@@ -1206,6 +1209,7 @@ methodsUsed
 }
 focusOverlay
 (
+direction
 )
 {
 this
@@ -1223,6 +1227,7 @@ overlay
 .
 focus
 (
+direction
 )
 ;
 }
