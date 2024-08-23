@@ -11,7 +11,7 @@ let
 resizeTo
 ;
 function
-ResizeBufferMidIteration
+ResizeMidIteration
 (
 n
 )
@@ -85,7 +85,7 @@ findLastIndex
 call
 (
 fixedLength
-ResizeBufferMidIteration
+ResizeMidIteration
 )
 -
 1
@@ -165,7 +165,7 @@ findLastIndex
 call
 (
 fixedLengthWithOffset
-ResizeBufferMidIteration
+ResizeMidIteration
 )
 -
 1
@@ -238,7 +238,7 @@ findLastIndex
 call
 (
 lengthTracking
-ResizeBufferMidIteration
+ResizeMidIteration
 )
 -
 1
@@ -317,7 +317,7 @@ findLastIndex
 call
 (
 lengthTrackingWithOffset
-ResizeBufferMidIteration
+ResizeMidIteration
 )
 -
 1

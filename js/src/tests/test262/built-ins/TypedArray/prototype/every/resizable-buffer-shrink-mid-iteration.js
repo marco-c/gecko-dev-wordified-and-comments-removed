@@ -11,7 +11,7 @@ let
 resizeTo
 ;
 function
-ResizeBufferMidIteration
+ResizeMidIteration
 (
 n
 )
@@ -76,7 +76,7 @@ fixedLength
 .
 every
 (
-ResizeBufferMidIteration
+ResizeMidIteration
 )
 )
 ;
@@ -147,7 +147,7 @@ fixedLengthWithOffset
 .
 every
 (
-ResizeBufferMidIteration
+ResizeMidIteration
 )
 )
 ;
@@ -211,7 +211,7 @@ lengthTracking
 .
 every
 (
-ResizeBufferMidIteration
+ResizeMidIteration
 )
 )
 ;
@@ -281,7 +281,7 @@ lengthTrackingWithOffset
 .
 every
 (
-ResizeBufferMidIteration
+ResizeMidIteration
 )
 )
 ;

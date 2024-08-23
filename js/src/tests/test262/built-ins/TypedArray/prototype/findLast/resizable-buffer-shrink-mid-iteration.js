@@ -11,7 +11,7 @@ let
 resizeTo
 ;
 function
-ResizeBufferMidIteration
+ResizeMidIteration
 (
 n
 )
@@ -80,7 +80,7 @@ fixedLength
 .
 findLast
 (
-ResizeBufferMidIteration
+ResizeMidIteration
 )
 undefined
 )
@@ -154,7 +154,7 @@ fixedLengthWithOffset
 .
 findLast
 (
-ResizeBufferMidIteration
+ResizeMidIteration
 )
 undefined
 )
@@ -221,7 +221,7 @@ lengthTracking
 .
 findLast
 (
-ResizeBufferMidIteration
+ResizeMidIteration
 )
 undefined
 )
@@ -294,7 +294,7 @@ lengthTrackingWithOffset
 .
 findLast
 (
-ResizeBufferMidIteration
+ResizeMidIteration
 )
 undefined
 )

@@ -11,7 +11,7 @@ let
 resizeTo
 ;
 function
-ResizeBufferMidIteration
+ResizeMidIteration
 (
 n
 )
@@ -87,7 +87,7 @@ filter
 call
 (
 fixedLength
-ResizeBufferMidIteration
+ResizeMidIteration
 )
 )
 [
@@ -170,7 +170,7 @@ filter
 call
 (
 fixedLengthWithOffset
-ResizeBufferMidIteration
+ResizeMidIteration
 )
 )
 [
@@ -246,7 +246,7 @@ filter
 call
 (
 lengthTracking
-ResizeBufferMidIteration
+ResizeMidIteration
 )
 )
 [
@@ -328,7 +328,7 @@ filter
 call
 (
 lengthTrackingWithOffset
-ResizeBufferMidIteration
+ResizeMidIteration
 )
 )
 [
