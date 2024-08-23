@@ -325,6 +325,13 @@ js
 ]
 [
 "
+browser_exclude_fxview_hidden_tabs
+.
+js
+"
+]
+[
+"
 browser_file_to_http_named_popup
 .
 js
