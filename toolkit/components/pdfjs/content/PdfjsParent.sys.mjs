@@ -296,6 +296,13 @@ to
 text
 "
 ;
+const
+ML_ENGINE_ID
+=
+"
+pdfjs
+"
+;
 var
 Svc
 =
@@ -1160,6 +1167,9 @@ lazy
 createEngine
 (
 {
+engineId
+:
+ML_ENGINE_ID
 taskName
 }
 aggregator
