@@ -22758,6 +22758,11 @@ neqo
 transport
 "
 "
+neqo
+-
+udp
+"
+"
 nserror
 "
 "
@@ -26405,7 +26410,7 @@ version
 .
 5
 .
-0
+4
 "
 source
 =
@@ -26433,7 +26438,7 @@ index
 checksum
 =
 "
-cb7ad7bc932e4968523fa7d9c320ee135ff779de720e9350fee8728838551764
+8bffec3605b73c6f1754535084a85229fa8a30f86014e6c81aeec4abb68b0285
 "
 dependencies
 =
@@ -26451,9 +26456,6 @@ socket2
 5
 .
 7
-"
-"
-tracing
 "
 "
 windows

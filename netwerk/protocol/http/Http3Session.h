@@ -189,6 +189,9 @@ aProviderFlags
 nsIInterfaceRequestor
 *
 callbacks
+nsIUDPSocket
+*
+socket
 )
 ;
 bool
@@ -690,7 +693,7 @@ nsIUDPSocket
 socket
 )
 ;
-void
+nsresult
 ProcessInput
 (
 nsIUDPSocket
@@ -966,6 +969,12 @@ bool
 mTimerActive
 {
 false
+}
+;
+bool
+mUseNSPRForIO
+{
+true
 }
 ;
 RefPtr
