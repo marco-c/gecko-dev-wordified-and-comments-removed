@@ -321,13 +321,6 @@ js
 ]
 [
 "
-test_mailru
-.
-js
-"
-]
-[
-"
 test_qwant
 .
 js
@@ -667,13 +660,6 @@ js
 [
 "
 test_yahoojp
-.
-js
-"
-]
-[
-"
-test_yandex
 .
 js
 "
