@@ -290,7 +290,7 @@ nsresult
 >
 rv
 =
-NS_DomainToASCIIAllowAnyGlyphfulASCII
+NS_DomainToASCII
 (
 chost
 aNormalizedHost
