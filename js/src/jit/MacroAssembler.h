@@ -1876,6 +1876,7 @@ arm
 arm64
 x86_shared
 loong64
+mips_shared
 )
 ;
 CodeOffset
