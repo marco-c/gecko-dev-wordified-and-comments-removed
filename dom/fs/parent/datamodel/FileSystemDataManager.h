@@ -238,7 +238,7 @@ SupportsCheckedUnsafePtr
 <
 CheckIf
 <
-DiagnosticAssertEnabled
+ReleaseAssertEnabled
 >
 >
 {
