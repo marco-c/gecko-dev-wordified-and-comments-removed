@@ -529,6 +529,14 @@ const
 NackConfig
 nack
 ;
+RtcpMode
+rtcp_mode
+=
+RtcpMode
+:
+:
+kCompound
+;
 RtcpEventObserver
 *
 rtcp_event_observer

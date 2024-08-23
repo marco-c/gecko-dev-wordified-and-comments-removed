@@ -705,6 +705,17 @@ history_ms
 override
 ;
 void
+SetRtcpMode
+(
+webrtc
+:
+:
+RtcpMode
+mode
+)
+override
+;
+void
 SetNonSenderRttMeasurement
 (
 bool

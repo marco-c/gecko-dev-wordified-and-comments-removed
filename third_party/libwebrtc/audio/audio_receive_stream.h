@@ -383,6 +383,14 @@ history_ms
 override
 ;
 void
+SetRtcpMode
+(
+RtcpMode
+mode
+)
+override
+;
+void
 SetNonSenderRttMeasurement
 (
 bool

@@ -440,6 +440,14 @@ std
 string
 c_name
 ;
+RtcpMode
+rtcp_mode
+=
+RtcpMode
+:
+:
+kCompound
+;
 }
 rtp
 ;

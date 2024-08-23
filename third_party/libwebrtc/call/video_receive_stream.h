@@ -1091,16 +1091,6 @@ GenerateKeyFrame
 ;
 virtual
 void
-SetRtcpMode
-(
-RtcpMode
-mode
-)
-=
-0
-;
-virtual
-void
 SetFlexFecProtection
 (
 RtpPacketSinkInterface
