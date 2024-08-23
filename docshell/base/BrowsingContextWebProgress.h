@@ -189,6 +189,11 @@ GetBounceTrackingState
 (
 )
 ;
+void
+DropBounceTrackingState
+(
+)
+;
 private
 :
 virtual
