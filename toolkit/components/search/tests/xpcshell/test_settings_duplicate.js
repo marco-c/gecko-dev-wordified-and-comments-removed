@@ -135,6 +135,11 @@ id
 :
 "
 engine1
+search
+.
+mozilla
+.
+orgdefault
 "
 _metaData
 :
@@ -157,6 +162,11 @@ id
 :
 "
 engine2
+search
+.
+mozilla
+.
+orgdefault
 "
 _metaData
 :
