@@ -296,6 +296,12 @@ mochitest
 -
 a11y
 "
+"
+crashtest
+"
+"
+reftest
+"
 ]
 :
                 
