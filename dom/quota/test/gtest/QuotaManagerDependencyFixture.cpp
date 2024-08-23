@@ -1105,6 +1105,11 @@ UsageInfo
 aResult
 )
 {
+ASSERT_TRUE
+(
+aResult
+)
+;
 mozilla
 :
 :
