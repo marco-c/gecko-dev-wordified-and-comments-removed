@@ -70,6 +70,8 @@ char
 *
 *
 argv
+bool
+aRaise
 )
 override
 ;

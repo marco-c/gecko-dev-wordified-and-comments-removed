@@ -51,6 +51,8 @@ char
 *
 *
 argv
+bool
+aRaise
 )
 =
 0
