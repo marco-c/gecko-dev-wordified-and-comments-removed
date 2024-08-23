@@ -1371,6 +1371,9 @@ feature
 =
 SnackbarBinding
 (
+context
+=
+context
 browserStore
 =
 context
