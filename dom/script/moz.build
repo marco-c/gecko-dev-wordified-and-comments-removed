@@ -99,6 +99,11 @@ ShadowRealmGlobalScope
 .
 h
 "
+"
+SharedScriptCache
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +
@@ -151,6 +156,11 @@ cpp
 "
 "
 ShadowRealmGlobalScope
+.
+cpp
+"
+"
+SharedScriptCache
 .
 cpp
 "
