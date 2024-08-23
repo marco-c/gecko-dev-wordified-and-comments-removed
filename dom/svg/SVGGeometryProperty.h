@@ -259,7 +259,7 @@ static
 uint32_t
 DefaultObjectSize
 =
-300
+kFallbackIntrinsicWidthInPixels
 ;
 using
 CounterPart
@@ -331,7 +331,7 @@ static
 uint32_t
 DefaultObjectSize
 =
-150
+kFallbackIntrinsicHeightInPixels
 ;
 using
 CounterPart
