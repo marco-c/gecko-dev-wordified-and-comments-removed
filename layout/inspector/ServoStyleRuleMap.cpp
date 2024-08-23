@@ -421,12 +421,6 @@ StyleCssRuleType
 :
 StartingStyle
 :
-case
-StyleCssRuleType
-:
-:
-PositionTry
-:
 {
 mTable
 .
@@ -783,12 +777,6 @@ StyleCssRuleType
 :
 :
 FontPaletteValues
-:
-case
-StyleCssRuleType
-:
-:
-PositionTry
 :
 break
 ;

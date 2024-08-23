@@ -5038,11 +5038,6 @@ CASE_FOR
 StartingStyle
 StartingStyle
 )
-CASE_FOR
-(
-PositionTry
-PositionTry
-)
 case
 StyleCssRuleType
 :

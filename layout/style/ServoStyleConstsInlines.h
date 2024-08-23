@@ -268,13 +268,6 @@ StyleStartingStyleRule
 >
 ;
 template
-struct
-StyleStrong
-<
-StyleLockedPositionTryRule
->
-;
-template
 <
 typename
 T

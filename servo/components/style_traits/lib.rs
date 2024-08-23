@@ -577,7 +577,8 @@ CowRcStr
 i
 >
 )
-UnexpectedImportantDeclaration
+AnimationPropertyInKeyframeBlock
+NotAllowedInPageRule
 }
 impl
 <
