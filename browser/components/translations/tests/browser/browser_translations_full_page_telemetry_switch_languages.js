@@ -84,6 +84,7 @@ es
 }
 )
 ;
+await
 FullPageTranslationsTestUtils
 .
 changeSelectedFromLanguage
@@ -164,6 +165,7 @@ en
 }
 )
 ;
+await
 FullPageTranslationsTestUtils
 .
 changeSelectedFromLanguage
@@ -202,6 +204,7 @@ es
 }
 )
 ;
+await
 FullPageTranslationsTestUtils
 .
 changeSelectedFromLanguage
@@ -227,6 +230,7 @@ expectedEventCount
 }
 )
 ;
+await
 FullPageTranslationsTestUtils
 .
 changeSelectedFromLanguage
@@ -354,6 +358,7 @@ en
 }
 )
 ;
+await
 FullPageTranslationsTestUtils
 .
 changeSelectedToLanguage
@@ -434,6 +439,7 @@ fr
 }
 )
 ;
+await
 FullPageTranslationsTestUtils
 .
 changeSelectedToLanguage
@@ -472,6 +478,7 @@ en
 }
 )
 ;
+await
 FullPageTranslationsTestUtils
 .
 changeSelectedToLanguage
@@ -497,6 +504,7 @@ expectedEventCount
 }
 )
 ;
+await
 FullPageTranslationsTestUtils
 .
 changeSelectedToLanguage

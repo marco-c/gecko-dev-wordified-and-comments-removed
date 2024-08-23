@@ -112,6 +112,7 @@ assertPanelViewRevisit
 }
 )
 ;
+await
 FullPageTranslationsTestUtils
 .
 changeSelectedToLanguage
