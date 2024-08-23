@@ -2789,6 +2789,11 @@ mEndMarkerAdded
 =
 false
 ;
+bool
+mReportedNEL
+=
+false
+;
 TimeDuration
 mSuspendTotalTime
 {

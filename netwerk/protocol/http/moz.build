@@ -89,6 +89,11 @@ nsIHttpProtocolHandler
 idl
 "
 "
+nsINetworkErrorLogging
+.
+idl
+"
+"
 nsIObliviousHttp
 .
 idl
@@ -982,6 +987,13 @@ EXTRA_JS_MODULES
 [
 "
 HPKEConfigManager
+.
+sys
+.
+mjs
+"
+"
+NetworkErrorLogging
 .
 sys
 .
