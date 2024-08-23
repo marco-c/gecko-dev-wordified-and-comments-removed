@@ -11339,7 +11339,7 @@ gRestartArgv
 true
 )
 ;
-LaunchChildMac
+LaunchMacApp
 (
 gRestartArgc
 gRestartArgv
