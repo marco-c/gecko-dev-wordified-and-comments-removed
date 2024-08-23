@@ -2168,6 +2168,11 @@ maxLength
 getVerificationHash
 (
 name
+profileDir
+=
+PathUtils
+.
+profileDir
 )
 {
 let
@@ -2257,8 +2262,6 @@ PathUtils
 .
 filename
 (
-PathUtils
-.
 profileDir
 )
 +
