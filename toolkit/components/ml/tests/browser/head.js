@@ -457,6 +457,9 @@ async
 function
 createOptionsRemoteClient
 (
+record
+=
+null
 )
 {
 const
@@ -516,7 +519,12 @@ _remoteSettingsMockId
 }
 )
 ;
-const
+if
+(
+!
+record
+)
+{
 record
 =
 {
@@ -576,6 +584,7 @@ id
 "
 }
 ;
+}
 await
 client
 .

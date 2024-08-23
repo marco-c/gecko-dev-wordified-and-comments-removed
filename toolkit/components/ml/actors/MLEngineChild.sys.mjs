@@ -2069,6 +2069,21 @@ string
 }
 config
 .
+taskName
+-
+name
+of
+the
+inference
+task
+.
+*
+param
+{
+string
+}
+config
+.
 url
 -
 The
@@ -2163,6 +2178,7 @@ function
 getModelFile
 (
 {
+taskName
 url
 progressCallback
 }
@@ -2322,6 +2338,7 @@ modelHub
 getModelFileAsArrayBuffer
 (
 {
+taskName
 .
 .
 .
