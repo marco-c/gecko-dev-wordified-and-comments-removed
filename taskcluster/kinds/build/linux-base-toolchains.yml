@@ -717,6 +717,11 @@ tooltool
 downloads
 :
 public
+use
+-
+sccache
+:
+true
 fetches
 :
 toolchain
@@ -771,6 +776,10 @@ node
 linux64
 -
 pkgconf
+-
+linux64
+-
+sccache
 -
 sysroot
 -
@@ -930,6 +939,11 @@ tooltool
 downloads
 :
 public
+use
+-
+sccache
+:
+true
 fetches
 :
 toolchain
@@ -984,6 +998,10 @@ node
 linux64
 -
 pkgconf
+-
+linux64
+-
+sccache
 -
 sysroot
 -
