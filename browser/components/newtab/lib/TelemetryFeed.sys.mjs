@@ -4713,6 +4713,7 @@ action
 data
 .
 action_position
+tile_id
 .
 .
 .
@@ -4727,7 +4728,6 @@ recommended_at
 :
 {
 recommendation_id
-tile_id
 }
 )
 }
@@ -4849,6 +4849,7 @@ newtab_visit_id
 session
 .
 session_id
+tile_id
 .
 .
 .
@@ -4863,7 +4864,6 @@ recommended_at
 :
 {
 recommendation_id
-tile_id
 }
 )
 thumbs_up
@@ -4933,6 +4933,7 @@ action
 data
 .
 action_position
+tile_id
 .
 .
 .
@@ -4947,7 +4948,6 @@ recommended_at
 :
 {
 recommendation_id
-tile_id
 }
 )
 }
@@ -6515,6 +6515,16 @@ position
 datum
 .
 pos
+tile_id
+:
+datum
+.
+id
+|
+|
+datum
+.
+tile_id
 .
 .
 .
@@ -6547,16 +6557,6 @@ recommendation_id
 datum
 .
 recommendation_id
-tile_id
-:
-datum
-.
-id
-|
-|
-datum
-.
-tile_id
 }
 )
 }
@@ -6807,6 +6807,11 @@ position
 tile
 .
 pos
+tile_id
+:
+tile
+.
+id
 .
 .
 .
@@ -6839,11 +6844,6 @@ recommendation_id
 tile
 .
 recommendation_id
-tile_id
-:
-tile
-.
-id
 }
 )
 }
