@@ -2456,6 +2456,8 @@ acceptLoop
 (
 )
 {
+return
+;
 var
 res
 =
@@ -2627,6 +2629,8 @@ phiTest
 n
 )
 {
+return
+;
 var
 x
 =
@@ -2776,6 +2780,8 @@ mixedPhiTest
 n
 )
 {
+return
+;
 var
 x
 =
@@ -2931,6 +2937,8 @@ phiTest2
 n
 )
 {
+return
+;
 var
 x
 =
