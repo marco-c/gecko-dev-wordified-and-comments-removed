@@ -459,6 +459,15 @@ aMixed
 )
 override
 ;
+NS_IMETHOD
+GetTextScaleFactor
+(
+float
+*
+aOutValue
+)
+override
+;
 static
 void
 AddCollector
