@@ -781,7 +781,7 @@ IS_TRUSTED_TYPE_IMPL
 ScriptURL
 )
 ;
-UniquePtr
+already_AddRefed
 <
 TrustedHTML
 >
@@ -801,7 +801,7 @@ this
 )
 ;
 return
-MakeUnique
+MakeRefPtr
 <
 TrustedHTML
 >
@@ -810,9 +810,13 @@ EmptyString
 (
 )
 )
+.
+forget
+(
+)
 ;
 }
-UniquePtr
+already_AddRefed
 <
 TrustedScript
 >
@@ -832,7 +836,7 @@ this
 )
 ;
 return
-MakeUnique
+MakeRefPtr
 <
 TrustedScript
 >
@@ -840,6 +844,10 @@ TrustedScript
 EmptyString
 (
 )
+)
+.
+forget
+(
 )
 ;
 }

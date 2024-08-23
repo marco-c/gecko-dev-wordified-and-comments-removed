@@ -62,7 +62,7 @@ include
 "
 mozilla
 /
-RefPtr
+AlreadyAddRefed
 .
 h
 "
@@ -71,7 +71,7 @@ include
 "
 mozilla
 /
-UniquePtr
+RefPtr
 .
 h
 "
@@ -281,7 +281,7 @@ aValue
 )
 const
 ;
-UniquePtr
+already_AddRefed
 <
 TrustedHTML
 >
@@ -289,7 +289,7 @@ EmptyHTML
 (
 )
 ;
-UniquePtr
+already_AddRefed
 <
 TrustedScript
 >

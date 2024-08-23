@@ -165,7 +165,7 @@ IMPL_CREATE_TRUSTED_TYPE
 _trustedTypeSuffix
 )
 \
-UniquePtr
+already_AddRefed
 <
 Trusted
 #
@@ -301,7 +301,7 @@ T
 typename
 CallbackObject
 >
-UniquePtr
+already_AddRefed
 <
 T
 >
@@ -379,13 +379,13 @@ EmptyString
 )
 ;
 }
-UniquePtr
+RefPtr
 <
 T
 >
 trustedObject
 =
-MakeUnique
+MakeRefPtr
 <
 T
 >
@@ -401,6 +401,10 @@ policyValue
 ;
 return
 trustedObject
+.
+forget
+(
+)
 ;
 }
 template
