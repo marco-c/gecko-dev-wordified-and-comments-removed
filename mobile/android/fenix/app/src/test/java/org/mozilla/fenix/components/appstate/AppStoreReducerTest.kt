@@ -951,6 +951,12 @@ guidToEdit
 "
 guidToEdit
 "
+val
+parentTitle
+=
+"
+parentTitle
+"
 appStore
 .
 dispatch
@@ -964,6 +970,9 @@ BookmarkAdded
 guidToEdit
 =
 guidToEdit
+parentTitle
+=
+parentTitle
 )
 )
 .
@@ -979,6 +988,9 @@ BookmarkAdded
 guidToEdit
 =
 guidToEdit
+parentTitle
+=
+parentTitle
 )
 appStore
 .

@@ -1652,6 +1652,7 @@ BookmarkAction
 BookmarkAdded
 -
 >
+{
 state
 .
 copy
@@ -1667,8 +1668,14 @@ guidToEdit
 action
 .
 guidToEdit
+parentTitle
+=
+action
+.
+parentTitle
 )
 )
+}
 is
 AppAction
 .
