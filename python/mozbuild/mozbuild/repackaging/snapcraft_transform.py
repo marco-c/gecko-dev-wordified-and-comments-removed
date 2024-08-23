@@ -1,15 +1,6 @@
 import
 yaml
 from
-fluent
-.
-runtime
-.
-fallback
-import
-FluentLocalization
-FluentResourceLoader
-from
 mozbuild
 .
 repackaging
@@ -913,6 +904,16 @@ branchname
 )
         
 }
+        
+from
+fluent
+.
+runtime
+.
+fallback
+import
+FluentLocalization
+FluentResourceLoader
         
 self
 .
