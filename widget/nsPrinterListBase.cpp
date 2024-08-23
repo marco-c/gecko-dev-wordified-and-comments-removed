@@ -331,10 +331,6 @@ this
 mPrintersPromise
 aCx
 aResult
-"
-Printers
-"
-_ns
 &
 nsPrinterListBase
 :
@@ -374,10 +370,6 @@ PrintBackgroundTaskPromise
 this
 aCx
 aResult
-"
-PrinterByName
-"
-_ns
 &
 nsPrinterListBase
 :
@@ -421,10 +413,6 @@ PrintBackgroundTaskPromise
 this
 aCx
 aResult
-"
-PrinterBySystemName
-"
-_ns
 &
 nsPrinterListBase
 :
@@ -468,10 +456,6 @@ PrintBackgroundTaskPromise
 this
 aCx
 aResult
-"
-NamedOrDefaultPrinter
-"
-_ns
 &
 nsPrinterListBase
 :
