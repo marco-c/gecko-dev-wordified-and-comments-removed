@@ -67,6 +67,8 @@ ActionToPermissionState
 (
 uint32_t
 aAction
+PermissionName
+aName
 )
 ;
 }
