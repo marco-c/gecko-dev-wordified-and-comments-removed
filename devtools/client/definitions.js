@@ -3439,6 +3439,7 @@ isToolSupported
 toolbox
 =
 >
+(
 toolbox
 .
 commands
@@ -3446,6 +3447,12 @@ commands
 descriptorFront
 .
 isLocalTab
+|
+|
+toolbox
+.
+isBrowserToolbox
+)
 &
 &
 Services
