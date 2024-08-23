@@ -137,6 +137,9 @@ OriginMaskDirectionMaxDistance
 2
 }
 bitflags
+:
+:
+bitflags
 !
 {
 /
@@ -311,6 +314,9 @@ Built
 =
 1
 }
+bitflags
+:
+:
 bitflags
 !
 {

@@ -4858,12 +4858,9 @@ ImplicitPipelineIds
 {
 root_id
 :
-Some
-(
 imp
 .
 pipeline
-)
 group_ids
 :
 &
@@ -4952,12 +4949,9 @@ ImplicitPipelineIds
 {
 root_id
 :
-Some
-(
 imp
 .
 pipeline
-)
 group_ids
 :
 &

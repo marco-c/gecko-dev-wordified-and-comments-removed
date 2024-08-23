@@ -116,7 +116,7 @@ version
 .
 2
 .
-8
+10
 "
 authors
 =
@@ -127,10 +127,8 @@ Developers
 <
 info
 slint
--
-ui
 .
-com
+dev
 >
 "
 ]
@@ -158,10 +156,8 @@ https
 /
 /
 slint
--
-ui
 .
-com
+rs
 "
 readme
 =

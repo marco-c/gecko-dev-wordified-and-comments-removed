@@ -422,7 +422,7 @@ greater
 than
 the
 maximum
-index
+number
 {
 maximum
 }

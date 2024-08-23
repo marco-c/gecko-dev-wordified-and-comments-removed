@@ -586,13 +586,10 @@ Cow
 '
 a
 [
-Option
-<
 id
 :
 :
 BindGroupLayoutId
->
 ]
 >
 }

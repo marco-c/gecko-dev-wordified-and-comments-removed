@@ -1778,8 +1778,6 @@ map
 |
 _
 |
-Some
-(
 identities
 .
 bind_group_layouts
@@ -1787,7 +1785,6 @@ bind_group_layouts
 process
 (
 backend
-)
 )
 )
 .
@@ -7242,8 +7239,11 @@ add
 i
 )
 =
+Some
+(
 *
 bgl_id
+)
 ;
 }
 Some
@@ -7590,8 +7590,11 @@ add
 i
 )
 =
+Some
+(
 *
 bgl_id
+)
 ;
 }
 Some
