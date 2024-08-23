@@ -23,15 +23,6 @@ MOZ_ZLIB_LIBS
 ]
 else
 :
-if
-CONFIG
-[
-"
-ZLIB_IN_MOZGLUE
-"
-]
-:
-pass
 DIRS
 +
 =
