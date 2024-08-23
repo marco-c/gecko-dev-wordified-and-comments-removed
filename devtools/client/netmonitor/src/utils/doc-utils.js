@@ -301,6 +301,9 @@ Origin
 Pragma
 "
 "
+Priority
+"
+"
 Proxy
 -
 Authenticate
