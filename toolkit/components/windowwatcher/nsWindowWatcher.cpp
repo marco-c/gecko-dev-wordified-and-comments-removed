@@ -1725,7 +1725,7 @@ bool
 aDialog
 bool
 aNavigate
-nsISupports
+nsIArray
 *
 aArguments
 bool

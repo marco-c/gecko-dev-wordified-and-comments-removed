@@ -3096,9 +3096,9 @@ const
 nsAString
 &
 aOptions
-nsISupports
+nsIArray
 *
-aExtraArgument
+aArguments
 mozilla
 :
 :
@@ -3486,10 +3486,7 @@ bool
 aNavigate
 nsIArray
 *
-argv
-nsISupports
-*
-aExtraArgument
+aArguments
 nsDocShellLoadState
 *
 aLoadState

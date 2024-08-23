@@ -184,7 +184,7 @@ in
 boolean
 aNavigate
 in
-nsISupports
+nsIArray
 aArgs
 in
 boolean
