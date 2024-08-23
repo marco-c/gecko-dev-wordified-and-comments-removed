@@ -631,10 +631,6 @@ MacOS
 /
 firefox
 -
-no
--
-remote
--
 profile
 /
 path

@@ -2924,14 +2924,6 @@ installer
 }
                 
 "
-MOZ_NO_REMOTE
-"
-:
-"
-1
-"
-                
-"
 NEED_XVFB
 "
 :
