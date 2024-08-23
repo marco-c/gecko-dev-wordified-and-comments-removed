@@ -104,13 +104,10 @@ if
 !
 winWidget
 )
-fails
+random
 -
 if
 (
-swgl
-&
-&
 winWidget
 )
 =
@@ -169,7 +166,7 @@ if
 winWidget
 47
 -
-129
+132
 47
 -
 54
