@@ -6322,13 +6322,13 @@ value
 #
 endif
 }
-const
 LInt64Allocation
 getInt64Operand
 (
 size_t
 offset
 )
+const
 {
 #
 if
