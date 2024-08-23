@@ -3728,14 +3728,6 @@ ContentChild
 (
 )
 :
-mID
-(
-uint64_t
-(
--
-1
-)
-)
 mIsForBrowser
 (
 false
@@ -4236,8 +4228,6 @@ const
 char
 *
 aParentBuildID
-uint64_t
-aChildID
 bool
 aIsForBrowser
 )
@@ -4594,10 +4584,6 @@ InitSingleton
 (
 this
 )
-;
-mID
-=
-aChildID
 ;
 mIsForBrowser
 =
@@ -25933,7 +25919,9 @@ aOut
 *
 aOut
 =
-mID
+XRE_GetChildID
+(
+)
 ;
 return
 NS_OK
