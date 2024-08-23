@@ -359,12 +359,12 @@ padding
 (
 horizontal
 =
-8
+12
 .
 dp
 vertical
 =
-3
+4
 .
 dp
 )
