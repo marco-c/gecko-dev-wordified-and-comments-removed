@@ -1174,7 +1174,6 @@ quotaManager
 GetOriginUsage
 (
 principalInfo
-false
 )
 )
 ;

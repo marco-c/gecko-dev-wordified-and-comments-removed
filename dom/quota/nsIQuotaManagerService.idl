@@ -180,12 +180,6 @@ aPrincipal
 in
 nsIQuotaUsageCallback
 aCallback
-[
-optional
-]
-in
-boolean
-aFromMemory
 )
 ;
 [

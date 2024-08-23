@@ -518,8 +518,6 @@ GetOriginUsage
 (
 PrincipalInfo
 principalInfo
-bool
-fromMemory
 ManagedEndpoint
 <
 PQuotaUsageRequestParent

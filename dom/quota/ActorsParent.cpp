@@ -25114,8 +25114,6 @@ const
 PrincipalInfo
 &
 aPrincipalInfo
-bool
-aFromMemory
 RefPtr
 <
 BoolPromise
@@ -25137,7 +25135,6 @@ WrapMovingNotNullUnchecked
 this
 )
 aPrincipalInfo
-aFromMemory
 )
 ;
 RegisterNormalOriginOp

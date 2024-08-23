@@ -352,10 +352,6 @@ const
 PrincipalInfo
 &
 aPrincipalInfo
-const
-bool
-&
-aFromMemory
 ManagedEndpoint
 <
 PQuotaUsageRequestParent

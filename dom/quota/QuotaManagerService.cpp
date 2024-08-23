@@ -4160,8 +4160,6 @@ aPrincipal
 nsIQuotaUsageCallback
 *
 aCallback
-bool
-aFromMemory
 nsIQuotaUsageRequest
 *
 *
@@ -4316,7 +4314,6 @@ mBackgroundActor
 SendGetOriginUsage
 (
 principalInfo
-aFromMemory
 std
 :
 :
