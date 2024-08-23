@@ -15413,6 +15413,9 @@ if
 (
 !
 aScroll
+|
+|
+thereIsATextFragment
 )
 {
 return
