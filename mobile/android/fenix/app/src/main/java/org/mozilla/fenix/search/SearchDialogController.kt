@@ -1255,6 +1255,17 @@ searchTermOrURL
 searchTerms
 newTab
 =
+if
+(
+settings
+.
+enableHomepageAsNewTab
+)
+{
+false
+}
+else
+{
 fragmentStore
 .
 state
@@ -1263,6 +1274,7 @@ tabId
 =
 =
 null
+}
 from
 =
 BrowserDirection
