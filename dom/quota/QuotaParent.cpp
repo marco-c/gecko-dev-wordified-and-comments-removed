@@ -143,7 +143,7 @@ h
 #
 include
 "
-QuotaUsageRequestBase
+QuotaUsageRequestParent
 .
 h
 "
@@ -2632,7 +2632,7 @@ parentActor
 =
 MakeRefPtr
 <
-QuotaUsageRequestBase
+QuotaUsageRequestParent
 >
 (
 )
@@ -2866,7 +2866,7 @@ parentActor
 =
 MakeRefPtr
 <
-QuotaUsageRequestBase
+QuotaUsageRequestParent
 >
 (
 )

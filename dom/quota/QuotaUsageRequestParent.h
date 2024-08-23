@@ -1,9 +1,9 @@
 #
 ifndef
-DOM_QUOTA_QUOTAUSAGEREQUESTBASE_H_
+DOM_QUOTA_QUOTAUSAGEREQUESTPARENT_H_
 #
 define
-DOM_QUOTA_QUOTAUSAGEREQUESTBASE_H_
+DOM_QUOTA_QUOTAUSAGEREQUESTPARENT_H_
 #
 include
 "
@@ -53,7 +53,7 @@ dom
 quota
 {
 class
-QuotaUsageRequestBase
+QuotaUsageRequestParent
 :
 public
 BackgroundThreadObject
@@ -62,7 +62,7 @@ PQuotaUsageRequestParent
 {
 public
 :
-QuotaUsageRequestBase
+QuotaUsageRequestParent
 (
 )
 =
@@ -70,7 +70,7 @@ default
 ;
 NS_INLINE_DECL_REFCOUNTING
 (
-QuotaUsageRequestBase
+QuotaUsageRequestParent
 override
 )
 RefPtr
@@ -90,7 +90,7 @@ private
 :
 virtual
 ~
-QuotaUsageRequestBase
+QuotaUsageRequestParent
 (
 )
 ;
