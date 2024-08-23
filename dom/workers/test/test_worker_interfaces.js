@@ -894,9 +894,6 @@ name
 "
 AudioDecoder
 "
-android
-:
-false
 }
 {
 name
@@ -904,9 +901,6 @@ name
 "
 AudioEncoder
 "
-android
-:
-false
 }
 {
 name
@@ -2003,9 +1997,6 @@ VideoColorSpace
 insecureContext
 :
 true
-android
-:
-false
 }
 {
 name
@@ -2013,9 +2004,6 @@ name
 "
 VideoDecoder
 "
-android
-:
-false
 }
 {
 name
@@ -2023,9 +2011,6 @@ name
 "
 VideoEncoder
 "
-android
-:
-false
 }
 {
 name
@@ -2036,9 +2021,6 @@ VideoFrame
 insecureContext
 :
 true
-android
-:
-false
 }
 {
 name
