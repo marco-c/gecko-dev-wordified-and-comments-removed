@@ -435,6 +435,12 @@ type
 default
 "
 ;
+this
+.
+expanded
+=
+false
+;
 }
 headingTemplate
 (
