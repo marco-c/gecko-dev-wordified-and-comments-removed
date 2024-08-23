@@ -620,6 +620,11 @@ pref
 return
 ;
 }
+if
+(
+activeEnrollment
+)
+{
 /
 /
 If
@@ -704,6 +709,7 @@ originalValue
 )
 )
 ;
+}
 this
 .
 #
