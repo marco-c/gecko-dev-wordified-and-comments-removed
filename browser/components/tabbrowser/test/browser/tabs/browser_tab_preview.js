@@ -3632,13 +3632,6 @@ tabs
 )
 ;
 }
-await
-SpecialPowers
-.
-popPrefEnv
-(
-)
-;
 EventUtils
 .
 synthesizeMouseAtCenter
