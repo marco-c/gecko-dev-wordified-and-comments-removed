@@ -1727,6 +1727,15 @@ GetForceOffline
 ;
 txn
 .
+SetTopInnerSizeForRFP
+(
+GetTopInnerSizeForRFP
+(
+)
+)
+;
+txn
+.
 SetAllowJavascript
 (
 GetAllowJavascript

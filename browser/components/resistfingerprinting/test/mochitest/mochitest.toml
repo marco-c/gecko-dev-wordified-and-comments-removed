@@ -142,13 +142,6 @@ html
 ]
 [
 "
-test_iframe
-.
-html
-"
-]
-[
-"
 test_keyboard_event
 .
 html
@@ -209,5 +202,12 @@ if
 [
 "
 verify
+"
+]
+[
+"
+test_bug1885101_screenwindow_sizes
+.
+html
 "
 ]
