@@ -75,6 +75,7 @@ namespace
 webrtc
 {
 struct
+RTC_EXPORT
 BitrateAllocationLimits
 {
 DataRate
@@ -110,6 +111,7 @@ Zero
 }
 ;
 struct
+RTC_EXPORT
 StreamsConfig
 {
 StreamsConfig
@@ -195,6 +197,7 @@ max_total_allocated_bitrate
 }
 ;
 struct
+RTC_EXPORT
 TargetRateConstraints
 {
 TargetRateConstraints
@@ -253,6 +256,7 @@ starting_rate
 }
 ;
 struct
+RTC_EXPORT
 NetworkAvailability
 {
 Timestamp
@@ -273,6 +277,7 @@ false
 }
 ;
 struct
+RTC_EXPORT
 NetworkRouteChange
 {
 NetworkRouteChange
@@ -307,6 +312,7 @@ constraints
 }
 ;
 struct
+RTC_EXPORT
 PacedPacketInfo
 {
 PacedPacketInfo
@@ -379,6 +385,7 @@ probe_cluster_bytes_sent
 }
 ;
 struct
+RTC_EXPORT
 SentPacket
 {
 Timestamp
@@ -435,6 +442,7 @@ Zero
 }
 ;
 struct
+RTC_EXPORT
 ReceivedPacket
 {
 Timestamp
@@ -470,6 +478,7 @@ Zero
 }
 ;
 struct
+RTC_EXPORT
 RemoteBitrateReport
 {
 Timestamp
@@ -495,6 +504,7 @@ Infinity
 }
 ;
 struct
+RTC_EXPORT
 RoundTripTimeUpdate
 {
 Timestamp
@@ -525,6 +535,7 @@ false
 }
 ;
 struct
+RTC_EXPORT
 TransportLossReport
 {
 Timestamp
@@ -570,6 +581,7 @@ packets_received_delta
 }
 ;
 struct
+RTC_EXPORT
 PacketResult
 {
 class
@@ -642,6 +654,7 @@ PlusInfinity
 }
 ;
 struct
+RTC_EXPORT
 TransportPacketsFeedback
 {
 TransportPacketsFeedback
@@ -750,6 +763,7 @@ const
 }
 ;
 struct
+RTC_EXPORT
 NetworkEstimate
 {
 Timestamp
@@ -800,6 +814,7 @@ loss_rate_ratio
 }
 ;
 struct
+RTC_EXPORT
 PacerConfig
 {
 Timestamp
@@ -869,6 +884,7 @@ time_window
 }
 ;
 struct
+RTC_EXPORT
 ProbeClusterConfig
 {
 Timestamp
@@ -925,6 +941,7 @@ id
 }
 ;
 struct
+RTC_EXPORT
 TargetTransferRate
 {
 Timestamp
@@ -968,6 +985,7 @@ cwnd_reduce_ratio
 }
 ;
 struct
+RTC_EXPORT
 NetworkControlUpdate
 {
 NetworkControlUpdate
@@ -1061,6 +1079,7 @@ target_rate
 }
 ;
 struct
+RTC_EXPORT
 ProcessInterval
 {
 Timestamp
@@ -1085,6 +1104,7 @@ pacer_queue
 }
 ;
 struct
+RTC_EXPORT
 NetworkStateEstimate
 {
 double
