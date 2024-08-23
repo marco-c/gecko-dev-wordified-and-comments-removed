@@ -535,6 +535,10 @@ bin
 /
 firefox
 -
+no
+-
+remote
+-
 profile
 ~
 /
