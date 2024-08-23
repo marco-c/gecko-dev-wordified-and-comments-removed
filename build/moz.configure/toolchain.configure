@@ -445,7 +445,7 @@ MOZ_CONFIGURE_OPTIMIZE_FLAGS
 "
 moz_optimize_flags
 )
-depends
+depends_if
 (
 "
 MOZ_OPTIMIZE_FLAGS
