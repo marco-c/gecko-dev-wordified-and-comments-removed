@@ -518,7 +518,7 @@ assertEquals
 (
 RemoteTabsCommandQueue
 .
-SendResult
+SendCloseTabsResult
 .
 Ok
 sender
@@ -619,7 +619,7 @@ assertEquals
 (
 RemoteTabsCommandQueue
 .
-SendResult
+SendCloseTabsResult
 .
 Error
 sender
@@ -697,7 +697,7 @@ assertEquals
 (
 RemoteTabsCommandQueue
 .
-SendResult
+SendCloseTabsResult
 .
 NoDevice
 sender
@@ -790,7 +790,7 @@ assertEquals
 (
 RemoteTabsCommandQueue
 .
-SendResult
+SendCloseTabsResult
 .
 NoAccount
 sender
