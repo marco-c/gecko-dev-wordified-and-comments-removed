@@ -11152,12 +11152,14 @@ Cu
 ExtensionAPI
 ExtensionAPIPersistent
 ExtensionCommon
+FileReader
 Glean
 GleanPings
 IOUtils
 MatchGlob
 MatchPattern
 MatchPatternSet
+OffscreenCanvas
 PathUtils
 Services
 StructuredCloneHolder
