@@ -471,11 +471,6 @@ elevation
 any
 (
 )
-paddedForBottomToolbar
-=
-any
-(
-)
 )
 }
 just
@@ -552,9 +547,6 @@ any
 elevation
 =
 TOAST_ELEVATION
-paddedForBottomToolbar
-=
-false
 )
 }
 }

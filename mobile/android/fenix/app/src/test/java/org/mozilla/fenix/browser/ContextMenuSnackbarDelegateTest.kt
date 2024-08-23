@@ -250,9 +250,6 @@ make
 (
 view
 LENGTH_SHORT
-isDisplayedWithBrowserToolbar
-=
-true
 )
 }
 returns

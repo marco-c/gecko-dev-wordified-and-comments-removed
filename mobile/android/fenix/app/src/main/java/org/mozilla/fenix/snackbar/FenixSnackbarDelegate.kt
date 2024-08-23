@@ -566,9 +566,6 @@ snackBarParentView
 duration
 =
 duration
-isDisplayedWithBrowserToolbar
-=
-true
 )
 .
 setText

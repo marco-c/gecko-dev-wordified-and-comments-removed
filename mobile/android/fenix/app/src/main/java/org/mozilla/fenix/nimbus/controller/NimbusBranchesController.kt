@@ -426,9 +426,6 @@ v
 FenixSnackbar
 .
 LENGTH_LONG
-isDisplayedWithBrowserToolbar
-=
-false
 )
 .
 setText

@@ -777,9 +777,6 @@ any
 any
 (
 )
-any
-(
-)
 )
 }
 just
@@ -865,9 +862,6 @@ elevation
 TabsTrayFragment
 .
 ELEVATION
-paddedForBottomToolbar
-=
-false
 )
 }
 }
@@ -1021,9 +1015,6 @@ any
 any
 (
 )
-any
-(
-)
 )
 }
 just
@@ -1107,9 +1098,6 @@ elevation
 TabsTrayFragment
 .
 ELEVATION
-paddedForBottomToolbar
-=
-false
 )
 }
 }
@@ -1269,9 +1257,6 @@ any
 any
 (
 )
-any
-(
-)
 )
 }
 just
@@ -1357,9 +1342,6 @@ elevation
 TabsTrayFragment
 .
 ELEVATION
-paddedForBottomToolbar
-=
-false
 )
 }
 }
@@ -1513,9 +1495,6 @@ any
 any
 (
 )
-any
-(
-)
 )
 }
 just
@@ -1599,9 +1578,6 @@ elevation
 TabsTrayFragment
 .
 ELEVATION
-paddedForBottomToolbar
-=
-false
 )
 }
 }
@@ -1749,9 +1725,6 @@ any
 any
 (
 )
-any
-(
-)
 )
 }
 just
@@ -1837,9 +1810,6 @@ elevation
 TabsTrayFragment
 .
 ELEVATION
-paddedForBottomToolbar
-=
-false
 )
 }
 }
@@ -1987,9 +1957,6 @@ any
 any
 (
 )
-any
-(
-)
 )
 }
 just
@@ -2080,9 +2047,6 @@ elevation
 TabsTrayFragment
 .
 ELEVATION
-paddedForBottomToolbar
-=
-false
 )
 }
 }

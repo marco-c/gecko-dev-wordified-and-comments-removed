@@ -834,9 +834,6 @@ make
 view
 =
 view
-isDisplayedWithBrowserToolbar
-=
-false
 )
 .
 setText

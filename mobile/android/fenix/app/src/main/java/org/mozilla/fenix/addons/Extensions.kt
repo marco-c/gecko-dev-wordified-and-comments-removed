@@ -174,9 +174,6 @@ view
 duration
 =
 duration
-isDisplayedWithBrowserToolbar
-=
-true
 )
 .
 setText

@@ -297,9 +297,6 @@ make
 duration
 =
 LENGTH_LONG
-isDisplayedWithBrowserToolbar
-=
-true
 view
 =
 view

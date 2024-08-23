@@ -239,9 +239,6 @@ view
 any
 (
 )
-isDisplayedWithBrowserToolbar
-=
-true
 )
 }
 returns

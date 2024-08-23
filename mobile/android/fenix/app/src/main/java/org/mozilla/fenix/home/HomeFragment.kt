@@ -2026,9 +2026,6 @@ duration
 Snackbar
 .
 LENGTH_LONG
-isDisplayedWithBrowserToolbar
-=
-false
 )
 .
 setText
@@ -6771,9 +6768,6 @@ duration
 Snackbar
 .
 LENGTH_SHORT
-isDisplayedWithBrowserToolbar
-=
-false
 )
 .
 setText
@@ -7831,9 +7825,6 @@ duration
 Snackbar
 .
 LENGTH_LONG
-isDisplayedWithBrowserToolbar
-=
-false
 )
 .
 setText

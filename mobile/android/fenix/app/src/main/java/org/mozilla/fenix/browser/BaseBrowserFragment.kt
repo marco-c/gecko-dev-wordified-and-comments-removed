@@ -6641,9 +6641,6 @@ invoke
 (
 )
 }
-paddedForBottomToolbar
-=
-true
 operation
 =
 {
@@ -11481,9 +11478,6 @@ duration
 FenixSnackbar
 .
 LENGTH_LONG
-isDisplayedWithBrowserToolbar
-=
-true
 )
 .
 setText
@@ -11599,9 +11593,6 @@ duration
 FenixSnackbar
 .
 LENGTH_LONG
-isDisplayedWithBrowserToolbar
-=
-true
 )
 .
 setText
@@ -12609,9 +12600,6 @@ duration
 Snackbar
 .
 LENGTH_SHORT
-isDisplayedWithBrowserToolbar
-=
-true
 )
 .
 setText
