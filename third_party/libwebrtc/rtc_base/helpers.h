@@ -223,17 +223,6 @@ CreateRandomDouble
 (
 )
 ;
-double
-GetNextMovingAverage
-(
-double
-prev_average
-double
-cur
-double
-ratio
-)
-;
 }
 #
 endif
