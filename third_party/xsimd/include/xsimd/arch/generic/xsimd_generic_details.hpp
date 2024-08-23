@@ -2180,7 +2180,7 @@ A
 )
 ;
 auto
-small
+small_v
 =
 bitwise_cast
 <
@@ -2197,7 +2197,7 @@ v
 )
 ;
 auto
-large
+large_v
 =
 bitwise_cast
 <
@@ -2246,8 +2246,8 @@ uint32_t
 select
 (
 is_large
-large
-small
+large_v
+small_v
 )
 )
 ;
