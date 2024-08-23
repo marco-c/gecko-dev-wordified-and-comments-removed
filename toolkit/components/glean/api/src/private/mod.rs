@@ -56,6 +56,9 @@ mod
 labeled_memory_distribution
 ;
 mod
+labeled_timing_distribution
+;
+mod
 memory_distribution
 ;
 mod
@@ -214,6 +217,16 @@ labeled_memory_distribution
 :
 :
 LabeledMemoryDistributionMetric
+;
+pub
+use
+self
+:
+:
+labeled_timing_distribution
+:
+:
+LabeledTimingDistributionMetric
 ;
 pub
 use
