@@ -211,12 +211,9 @@ noop
 }
 }
 expectException
-(
+<
 UnsupportedOperationException
-:
-:
-class
-)
+>
 {
 simpleTabViewHolder
 .

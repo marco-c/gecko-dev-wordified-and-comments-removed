@@ -608,11 +608,10 @@ block
 -
 >
 expectException
-(
+<
 UnsupportedSettingException
-:
-:
-class
+>
+(
 block
 )
 }
