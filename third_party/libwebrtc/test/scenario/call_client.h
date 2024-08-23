@@ -640,6 +640,13 @@ extensions
 )
 ;
 void
+UpdateNetworkAdapterId
+(
+int
+adapter_id
+)
+;
+void
 OnPacketReceived
 (
 EmulatedIpPacket
