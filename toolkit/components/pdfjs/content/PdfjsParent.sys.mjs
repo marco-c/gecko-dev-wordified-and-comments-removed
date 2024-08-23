@@ -426,6 +426,12 @@ Set
 "
 enableGuessAltText
 "
+"
+enableAltTextModelDownload
+"
+"
+enableNewAltTextWhenAddingImage
+"
 ]
 )
 ;

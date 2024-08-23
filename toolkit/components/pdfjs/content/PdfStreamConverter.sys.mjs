@@ -2001,7 +2001,6 @@ data
 const
 {
 originalUrl
-options
 }
 =
 data
@@ -2091,13 +2090,6 @@ saveURL
 blobUrl
 originalUrl
 filename
-options
-:
-options
-|
-|
-{
-}
 }
 )
 ;

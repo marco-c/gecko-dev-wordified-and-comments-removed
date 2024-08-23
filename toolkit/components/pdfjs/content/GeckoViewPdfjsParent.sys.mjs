@@ -1021,11 +1021,6 @@ save
 blobUrl
 filename
 originalUrl
-options
-:
-{
-openInExternalApp
-}
 }
 )
 {
@@ -1130,9 +1125,7 @@ skipConfirmation
 true
 requestExternalApp
 :
-!
-!
-openInExternalApp
+false
 }
 )
 ;
