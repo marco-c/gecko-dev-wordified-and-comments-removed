@@ -565,6 +565,11 @@ radio
 "
 richlistitem
 "
+"
+moz
+-
+checkbox
+"
 ]
 ;
 /
