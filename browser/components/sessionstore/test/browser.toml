@@ -1223,6 +1223,13 @@ js
 ]
 [
 "
+browser_restore_verticalPinnedTabs
+.
+js
+"
+]
+[
+"
 browser_restored_window_features
 .
 js
