@@ -36,9 +36,9 @@ version
 "
 0
 .
-2
+3
 .
-6
+1
 "
 source
 =
@@ -66,15 +66,8 @@ index
 checksum
 =
 "
-ee512640fe35acbfb4bb779db6f0d80704c2cacfa2e39b601ef3e3f47d1ae4c7
+fed44880c466736ef9a5c5b5facefb5ed0785676d0c02d612db14e54f0d84286
 "
-dependencies
-=
-[
-"
-libc
-"
-]
 [
 [
 package
@@ -137,7 +130,7 @@ version
 "
 1
 .
-15
+16
 .
 0
 "
