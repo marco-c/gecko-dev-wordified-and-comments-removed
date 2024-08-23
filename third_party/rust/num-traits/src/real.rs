@@ -28,6 +28,9 @@ ops
 Neg
 ;
 use
+crate
+:
+:
 {
 Float
 Num
