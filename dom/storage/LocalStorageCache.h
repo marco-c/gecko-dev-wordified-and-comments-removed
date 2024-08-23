@@ -604,14 +604,6 @@ private
 void
 WaitForPreload
 (
-mozilla
-:
-:
-Telemetry
-:
-:
-HistogramID
-aTelemetryID
 )
 ;
 Data
