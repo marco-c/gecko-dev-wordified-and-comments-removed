@@ -418,6 +418,13 @@ eBasicEventClass
 )
 EVENT
 (
+contentvisibilityautostatechange
+eContentVisibilityAutoStateChange
+EventNameType_All
+eBasicEventClass
+)
+EVENT
+(
 contextmenu
 eContextMenu
 EventNameType_HTMLXUL
