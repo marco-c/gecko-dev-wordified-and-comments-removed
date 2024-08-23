@@ -981,6 +981,13 @@ function
 navigateToLink
 (
 e
+url
+=
+e
+.
+originalTarget
+.
+url
 )
 {
 let
@@ -1046,10 +1053,6 @@ currentWindow
 .
 openTrustedLinkIn
 (
-e
-.
-originalTarget
-.
 url
 where
 )
