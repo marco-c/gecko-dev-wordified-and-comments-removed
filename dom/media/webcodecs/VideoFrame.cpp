@@ -7225,7 +7225,7 @@ already_AddRefed
 layers
 :
 :
-SourceSurfaceImage
+Image
 >
 aImage
 )
@@ -7246,7 +7246,7 @@ RefPtr
 layers
 :
 :
-SourceSurfaceImage
+Image
 >
 image
 (
