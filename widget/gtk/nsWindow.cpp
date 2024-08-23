@@ -4758,13 +4758,6 @@ LayoutDeviceIntSize
 )
 )
 {
-if
-(
-GdkIsWaylandDisplay
-(
-)
-)
-{
 gtk_widget_set_size_request
 (
 GTK_WIDGET
@@ -4779,7 +4772,6 @@ geometry
 min_height
 )
 ;
-}
 AddCSDDecorationSize
 (
 &
