@@ -1620,9 +1620,9 @@ moz_heap_allocator
 )
 )
 )
-\
 _Pragma
 (
+\
 "
 clang
 diagnostic

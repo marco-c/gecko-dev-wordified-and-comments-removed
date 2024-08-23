@@ -309,7 +309,6 @@ PTEST
 (
 aName
 )
-\
 {
 aName
 #

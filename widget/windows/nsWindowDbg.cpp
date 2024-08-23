@@ -2252,7 +2252,6 @@ VALANDNAME_ENTRY
 (
 _msg
 )
-\
 {
 _msg
 #

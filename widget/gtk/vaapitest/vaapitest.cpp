@@ -224,7 +224,6 @@ MAP
 (
 v
 )
-\
 {
 VAProfile
 #

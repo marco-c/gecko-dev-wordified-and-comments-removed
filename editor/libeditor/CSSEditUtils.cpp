@@ -1044,7 +1044,6 @@ AppendLiteral
 #
 define
 CSS_EQUIV_TABLE_NONE
-\
 {
 CSSEditUtils
 :

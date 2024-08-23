@@ -554,7 +554,6 @@ gss_channel_bindings_t
 #
 define
 GSS_C_EMPTY_BUFFER
-\
 {
 0
 nullptr
