@@ -13,6 +13,11 @@ OwnedRustBuffer
 cpp
 "
 "
+UniFFICall
+.
+cpp
+"
+"
 UniFFICallbacks
 .
 cpp
@@ -73,12 +78,12 @@ OwnedRustBuffer
 h
 "
 "
-ScaffoldingCall
+ScaffoldingConverter
 .
 h
 "
 "
-ScaffoldingConverter
+UniFFICall
 .
 h
 "
