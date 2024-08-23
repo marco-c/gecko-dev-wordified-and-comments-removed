@@ -270,7 +270,7 @@ Exec
 Isolate
 *
 isolate
-Handle
+DirectHandle
 <
 JSRegExp
 >
@@ -308,7 +308,7 @@ ExperimentalOneshotExec
 Isolate
 *
 isolate
-Handle
+DirectHandle
 <
 JSRegExp
 >

@@ -17784,12 +17784,9 @@ false
 ;
 if
 (
-compiler
--
->
-optimize
-(
-)
+v8_flags
+.
+regexp_optimization
 &
 &
 try_to_emit_quick_check_for_alternative
