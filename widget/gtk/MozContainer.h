@@ -166,11 +166,6 @@ destroyed
 struct
 Data
 {
-gboolean
-force_default_visual
-=
-false
-;
 #
 ifdef
 MOZ_WAYLAND
@@ -226,14 +221,6 @@ gint
 x
 gint
 y
-)
-;
-void
-moz_container_force_default_visual
-(
-MozContainer
-*
-container
 )
 ;
 void

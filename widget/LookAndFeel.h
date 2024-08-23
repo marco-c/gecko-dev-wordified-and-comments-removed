@@ -196,6 +196,7 @@ ContextMenuOffsetVertical
 ContextMenuOffsetHorizontal
 TooltipOffsetVertical
 GTKCSDAvailable
+GTKCSDTransparencyAvailable
 GTKCSDMinimizeButton
 GTKCSDMaximizeButton
 GTKCSDCloseButton
