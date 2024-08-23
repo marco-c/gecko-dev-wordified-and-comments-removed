@@ -148,6 +148,8 @@ private
 :
 Flag
 flags_
+=
+0
 ;
 public
 :
@@ -674,7 +676,7 @@ result
 rhs
 ;
 return
-lhs
+result
 ;
 }
 inline
