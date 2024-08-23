@@ -3210,6 +3210,12 @@ Ci
 nsIClearDataService
 .
 CLEAR_CSS_CACHE
+|
+Ci
+.
+nsIClearDataService
+.
+CLEAR_JS_CACHE
 ;
 return
 new
