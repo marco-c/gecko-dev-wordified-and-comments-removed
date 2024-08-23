@@ -3451,6 +3451,17 @@ IsUserAction
 )
 const
 ;
+[
+[
+nodiscard
+]
+]
+bool
+ShouldIgnoreCapturingContent
+(
+)
+const
+;
 }
 ;
 class

@@ -792,6 +792,9 @@ mHandledByAPZ
 bool
 mPreventClickEvent
 ;
+bool
+mIgnoreCapturingContent
+;
 }
 ;
 class

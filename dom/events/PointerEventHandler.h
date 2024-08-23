@@ -532,6 +532,17 @@ aMouseOrTouchEventTarget
 nullptr
 )
 ;
+MOZ_CAN_RUN_SCRIPT
+static
+void
+SynthesizeMoveToDispatchBoundaryEvents
+(
+const
+WidgetMouseEvent
+*
+aEvent
+)
+;
 static
 void
 InitPointerEventFromMouse
