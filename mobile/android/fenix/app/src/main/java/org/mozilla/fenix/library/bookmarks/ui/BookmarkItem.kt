@@ -84,7 +84,6 @@ list
 .
 *
 /
-internal
 sealed
 class
 BookmarkItem
