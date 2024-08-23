@@ -1479,7 +1479,6 @@ previewed
 with
 *
 /
-async
 previewFields
 (
 elementIds
