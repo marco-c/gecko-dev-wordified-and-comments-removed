@@ -547,6 +547,13 @@ settings
 shouldShowMicrosurveyPrompt
 =
 false
+activity
+.
+isMicrosurveyPromptDismissed
+.
+value
+=
+true
 microsurveyMessageController
 .
 onSurveyCompleted
