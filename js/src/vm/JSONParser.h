@@ -185,8 +185,6 @@ typename
 CharT
 typename
 ParserT
-typename
-StringBuilderT
 >
 class
 MOZ_STACK_CLASS
@@ -205,6 +203,15 @@ RangedPtr
 const
 CharT
 >
+;
+using
+StringBuilder
+=
+typename
+ParserT
+:
+:
+StringBuilder
 ;
 protected
 :
@@ -348,7 +355,6 @@ JSONTokenizer
 <
 CharT
 ParserT
-StringBuilderT
 >
 &
 &
@@ -383,7 +389,6 @@ JSONTokenizer
 <
 CharT
 ParserT
-StringBuilderT
 >
 &
 other
@@ -400,7 +405,6 @@ JSONTokenizer
 <
 CharT
 ParserT
-StringBuilderT
 >
 &
 other
@@ -550,7 +554,7 @@ ST
 JSONToken
 stringToken
 (
-StringBuilderT
+StringBuilder
 &
 builder
 )
@@ -2669,11 +2673,6 @@ JSONPerHandlerParser
 CharT
 HandlerT
 >
-typename
-HandlerT
-:
-:
-StringBuilder
 >
 ;
 public
