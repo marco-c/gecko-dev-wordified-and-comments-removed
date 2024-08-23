@@ -7251,7 +7251,7 @@ true
 -
 name
 :
-LoadUnboxedBigInt
+LoadUnboxedInt64
 gen_boilerplate
 :
 false
