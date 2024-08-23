@@ -2065,10 +2065,9 @@ aReflowInput
 mLineLayout
 -
 >
-mRootSpan
--
->
-mWritingMode
+GetWritingMode
+(
+)
 ;
 LogicalMargin
 framePadding
