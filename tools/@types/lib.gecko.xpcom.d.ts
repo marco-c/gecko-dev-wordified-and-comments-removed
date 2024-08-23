@@ -41046,15 +41046,6 @@ BEHAVIOR_LAST
 :
 5
 ;
-getCookieStringFromDocument
-(
-aDocument
-:
-Document
-)
-:
-string
-;
 getCookieStringFromHttp
 (
 aURI
