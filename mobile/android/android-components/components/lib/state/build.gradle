@@ -208,11 +208,15 @@ kotlin_coroutines
 implementation
 ComponentsDependencies
 .
+androidx_compose_runtime_saveable
+implementation
+ComponentsDependencies
+.
 androidx_fragment
 implementation
 ComponentsDependencies
 .
-androidx_compose_ui
+androidx_lifecycle_compose
 implementation
 ComponentsDependencies
 .
