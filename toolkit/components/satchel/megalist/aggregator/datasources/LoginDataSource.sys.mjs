@@ -317,6 +317,8 @@ LoginDataSource
 extends
 DataSourceBase
 {
+doneReloadDataSource
+;
 #
 originPrototype
 ;
@@ -3306,6 +3308,12 @@ reloadDataSource
 {
 this
 .
+doneReloadDataSource
+=
+false
+;
+this
+.
 #
 enabled
 =
@@ -3337,6 +3345,12 @@ this
 reloadEmptyDataSource
 (
 )
+;
+this
+.
+doneReloadDataSource
+=
+true
 ;
 return
 ;
@@ -3686,6 +3700,12 @@ this
 afterReloadingDataSource
 (
 )
+;
+this
+.
+doneReloadDataSource
+=
+true
 ;
 }
 #
