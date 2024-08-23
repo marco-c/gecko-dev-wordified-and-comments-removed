@@ -7949,6 +7949,12 @@ ssl_adapter
 "
 )
 {
+if
+(
+!
+build_with_mozilla
+)
+{
 visibility
 =
 [
@@ -8222,6 +8228,7 @@ configs
 external_ssl_library
 "
 ]
+}
 }
 }
 rtc_source_set
