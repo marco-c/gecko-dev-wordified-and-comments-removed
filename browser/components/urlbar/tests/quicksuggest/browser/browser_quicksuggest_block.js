@@ -181,6 +181,11 @@ icon
 }
 ]
 ;
+requestLongerTimeout
+(
+3
+)
+;
 add_setup
 (
 async
@@ -461,10 +466,6 @@ Education
 let
 suggested_index
 =
-isSponsored
-?
-0
-:
 -
 1
 ;
