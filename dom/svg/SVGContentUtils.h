@@ -516,7 +516,7 @@ aElement
 ;
 static
 Matrix
-GetOuterViewportCTM
+GetNonScalingStrokeCTM
 (
 dom
 :
