@@ -1816,6 +1816,7 @@ error_help
 =
 (
         
+f
 "
 There
 are
@@ -1823,10 +1824,12 @@ modified
 or
 untracked
 files
-in
-the
-mercurial
-repo
+under
+{
+args
+.
+target_path
+}
 .
 \
 n
@@ -1835,11 +1838,15 @@ n
 f
 "
 Please
-start
-with
-a
-clean
+cleanup
+the
 repo
+under
+{
+args
+.
+target_path
+}
 before
 running
 {
@@ -1853,9 +1860,15 @@ stdout_lines
 =
 run_hg
 (
+f
 "
 hg
 status
+{
+args
+.
+target_path
+}
 "
 )
     
