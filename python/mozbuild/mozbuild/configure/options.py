@@ -1406,6 +1406,10 @@ possible_origins
 "
         
 "
+metavar
+"
+        
+"
 category
 "
         
@@ -1450,6 +1454,10 @@ category
 None
         
 help
+=
+None
+        
+metavar
 =
 None
         
@@ -1890,6 +1898,56 @@ must
 be
 provided
 "
+)
+        
+if
+metavar
+and
+not
+nargs
+:
+            
+raise
+InvalidOptionError
+(
+"
+A
+metavar
+can
+only
+be
+given
+when
+nargs
+is
+set
+"
+)
+        
+if
+metavar
+and
+not
+name
+:
+            
+raise
+InvalidOptionError
+(
+                
+"
+metavar
+must
+not
+be
+set
+on
+environment
+-
+only
+option
+"
+            
 )
         
 if
@@ -2397,6 +2455,12 @@ self
 help
 =
 help
+        
+self
+.
+metavar
+=
+metavar
         
 self
 .
