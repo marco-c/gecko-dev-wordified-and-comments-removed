@@ -1247,6 +1247,13 @@ json
 ]
 [
 "
+test_settings_migrate_id_format
+.
+js
+"
+]
+[
+"
 test_settings_migration_hideOneOffs
 .
 js

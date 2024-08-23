@@ -1075,11 +1075,6 @@ appDefaultEngineId
 :
 "
 engine_to_remove
-search
-.
-mozilla
-.
-orgdefault
 "
 }
 ;
