@@ -502,10 +502,10 @@ class
 Module
 :
 :
-Tier2GeneratorTaskImpl
+CompleteTier2GeneratorTaskImpl
 :
 public
-Tier2GeneratorTask
+CompleteTier2GeneratorTask
 {
 SharedBytes
 bytecode_
@@ -524,7 +524,7 @@ cancelled_
 ;
 public
 :
-Tier2GeneratorTaskImpl
+CompleteTier2GeneratorTaskImpl
 (
 const
 ShareableBytes
@@ -552,7 +552,7 @@ false
 {
 }
 ~
-Tier2GeneratorTaskImpl
+CompleteTier2GeneratorTaskImpl
 (
 )
 override
@@ -653,7 +653,7 @@ HelperThreadState
 (
 )
 .
-incWasmTier2GeneratorsFinished
+incWasmCompleteTier2GeneratorsFinished
 (
 locked
 )
@@ -674,7 +674,7 @@ return
 ThreadType
 :
 :
-THREAD_TYPE_WASM_GENERATOR_TIER2
+THREAD_TYPE_WASM_GENERATOR_COMPLETE_TIER2
 ;
 }
 }
@@ -729,7 +729,7 @@ task
 =
 MakeUnique
 <
-Tier2GeneratorTaskImpl
+CompleteTier2GeneratorTaskImpl
 >
 (
 bytecode
@@ -754,7 +754,7 @@ testingTier2Active_
 =
 true
 ;
-StartOffThreadWasmTier2Generator
+StartOffThreadWasmCompleteTier2Generator
 (
 std
 :

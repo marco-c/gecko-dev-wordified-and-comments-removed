@@ -57,7 +57,7 @@ namespace
 wasm
 {
 struct
-Tier2GeneratorTask
+CompleteTier2GeneratorTask
 ;
 }
 template
@@ -100,7 +100,7 @@ MapTypeToThreadType
 wasm
 :
 :
-Tier2GeneratorTask
+CompleteTier2GeneratorTask
 >
 {
 static
@@ -108,7 +108,7 @@ const
 ThreadType
 threadType
 =
-THREAD_TYPE_WASM_GENERATOR_TIER2
+THREAD_TYPE_WASM_GENERATOR_COMPLETE_TIER2
 ;
 }
 ;

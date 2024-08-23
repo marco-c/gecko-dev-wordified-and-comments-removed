@@ -336,7 +336,7 @@ globalObjs
 const
 ;
 class
-Tier2GeneratorTaskImpl
+CompleteTier2GeneratorTaskImpl
 ;
 public
 :
