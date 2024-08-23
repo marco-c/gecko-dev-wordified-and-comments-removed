@@ -11866,7 +11866,7 @@ struct
 )
 ;
 }
-StructFieldVector
+FieldTypeVector
 fields
 ;
 if

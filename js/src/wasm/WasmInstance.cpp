@@ -8553,7 +8553,9 @@ arrayType
 (
 )
 .
-elementType_
+elementType
+(
+)
 .
 size
 (
@@ -9202,7 +9204,9 @@ arrayType
 (
 )
 .
-elementType_
+elementType
+(
+)
 .
 size
 (
@@ -9617,7 +9621,9 @@ arrayType
 (
 )
 .
-elementType_
+elementType
+(
+)
 .
 size
 (
@@ -10669,7 +10675,9 @@ MOZ_ASSERT
 type
 -
 >
-elementType_
+elementType
+(
+)
 =
 =
 StorageType
@@ -10683,7 +10691,9 @@ MOZ_ASSERT
 type
 -
 >
-isMutable_
+isMutable
+(
+)
 =
 =
 isMutable
@@ -13325,7 +13335,9 @@ arrayType
 (
 )
 .
-elementType_
+elementType
+(
+)
 .
 size
 (

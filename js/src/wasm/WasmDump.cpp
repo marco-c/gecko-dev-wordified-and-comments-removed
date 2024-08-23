@@ -1031,7 +1031,7 @@ out
 for
 (
 const
-StructField
+FieldType
 &
 field
 :
@@ -1181,7 +1181,9 @@ if
 (
 arrayType
 .
-isMutable_
+isMutable
+(
+)
 )
 {
 out
@@ -1199,7 +1201,9 @@ Dump
 (
 arrayType
 .
-elementType_
+elementType
+(
+)
 out
 )
 ;
@@ -1207,7 +1211,9 @@ if
 (
 arrayType
 .
-isMutable_
+isMutable
+(
+)
 )
 {
 out

@@ -1029,7 +1029,9 @@ arrayType
 (
 )
 .
-elementType_
+elementType
+(
+)
 .
 size
 (
@@ -2082,7 +2084,9 @@ arrayType
 (
 )
 .
-elementType_
+elementType
+(
+)
 .
 size
 (
