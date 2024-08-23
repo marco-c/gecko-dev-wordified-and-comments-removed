@@ -223,6 +223,14 @@ XRE_NO_WINDOWS_CRASH_DIALOG
 "
         
 "
+MOZ_NO_REMOTE
+"
+:
+"
+1
+"
+        
+"
 XPCOM_DEBUG_BREAK
 "
 :
