@@ -301,8 +301,6 @@ javac
 /
 withGeckoBinariesDebug
 /
-classes
-/
 api
 .
 txt
@@ -353,8 +351,6 @@ intermediates
 javac
 /
 withGeckoBinariesDebug
-/
-classes
 /
 api
 .
@@ -408,8 +404,6 @@ intermediates
 javac
 /
 withGeckoBinariesDebug
-/
-classes
 /
 apilint
 -

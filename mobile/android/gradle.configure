@@ -455,7 +455,6 @@ variant
 buildType
 )
 return
-(
 "
 gradle
 /
@@ -475,8 +474,6 @@ javac
 }
 {
 }
-/
-classes
 "
 .
 format
@@ -485,7 +482,6 @@ productFlavor
 capitalize
 (
 buildType
-)
 )
 )
 set_config
