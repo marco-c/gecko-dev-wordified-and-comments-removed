@@ -840,6 +840,8 @@ isNewlyCreated_
 )
 {
 zone
+(
+)
 -
 >
 pretenuring
@@ -9213,6 +9215,8 @@ arena
 -
 >
 zone
+(
+)
 -
 >
 isGCSweeping
@@ -9272,12 +9276,16 @@ next
 -
 >
 zone
+(
+)
 =
 =
 arena
 -
 >
 zone
+(
+)
 )
 ;
 *

@@ -1047,6 +1047,8 @@ arena
 -
 >
 zone
+(
+)
 -
 >
 runtimeFromMainThread
@@ -1101,6 +1103,8 @@ arena
 -
 >
 zone
+(
+)
 ;
 JSRuntime
 *

@@ -2252,6 +2252,8 @@ arena
 -
 >
 zone
+(
+)
 ;
 if
 (
@@ -2312,6 +2314,8 @@ arenaAllocatedDuringGC
 MOZ_ASSERT
 (
 zone
+(
+)
 -
 >
 isGCMarkingOrSweeping
@@ -2603,6 +2607,7 @@ arena
 >
 init
 (
+gc
 zone
 thingKind
 lock

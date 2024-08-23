@@ -111,6 +111,8 @@ arena
 -
 >
 zone
+(
+)
 -
 >
 isAtomsZone
@@ -187,6 +189,8 @@ arena
 -
 >
 zone
+(
+)
 -
 >
 isAtomsZone

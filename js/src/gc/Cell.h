@@ -2406,12 +2406,9 @@ Zone
 *
 zone
 =
-arena
+zoneFromAnyThread
 (
 )
--
->
-zone
 ;
 MOZ_ASSERT
 (
@@ -2450,6 +2447,8 @@ arena
 -
 >
 zone
+(
+)
 ;
 }
 bool
@@ -2471,12 +2470,9 @@ return
 zone
 =
 =
-arena
+zoneFromAnyThread
 (
 )
--
->
-zone
 ;
 }
 template

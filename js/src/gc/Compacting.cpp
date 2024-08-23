@@ -1533,6 +1533,8 @@ arena
 -
 >
 zone
+(
+)
 ;
 AllocKind
 thingKind
@@ -4249,6 +4251,8 @@ arena
 -
 >
 zone
+(
+)
 -
 >
 gcHeapSize
@@ -4265,6 +4269,7 @@ arena
 >
 release
 (
+this
 lock
 )
 ;
