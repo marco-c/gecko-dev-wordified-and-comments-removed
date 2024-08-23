@@ -7077,11 +7077,8 @@ GetAnchorFrame
 ;
 if
 (
-NS_WARN_IF
-(
 !
 anchorFrame
-)
 )
 {
 return
