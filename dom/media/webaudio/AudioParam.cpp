@@ -8,11 +8,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-AudioParamBinding
+AudioContext
 .
 h
 "
@@ -33,7 +29,11 @@ h
 #
 include
 "
-AudioContext
+mozilla
+/
+dom
+/
+AudioParamBinding
 .
 h
 "
