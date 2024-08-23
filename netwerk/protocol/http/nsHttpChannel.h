@@ -1424,6 +1424,16 @@ nodiscard
 ]
 ]
 nsresult
+ContinuePrepareToConnect
+(
+)
+;
+[
+[
+nodiscard
+]
+]
+nsresult
 OnBeforeConnect
 (
 )
