@@ -2,16 +2,7 @@
 Func
 =
 "
-mozilla
-:
-:
-intl
-:
-:
-Localization
-:
-:
-IsAPIEnabled
+IsChromeOrUAWidget
 "
 Exposed
 =
