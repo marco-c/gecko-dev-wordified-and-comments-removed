@@ -11033,11 +11033,6 @@ ONNX_WEB
 =
 ort
 ;
-const
-ONNX_NODE
-=
-null
-;
 let
 ONNX
 ;
