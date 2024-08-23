@@ -19,7 +19,7 @@ include
 "
 mozilla
 /
-UniquePtr
+Maybe
 .
 h
 "
@@ -28,7 +28,7 @@ include
 "
 mozilla
 /
-Maybe
+UniquePtr
 .
 h
 "
