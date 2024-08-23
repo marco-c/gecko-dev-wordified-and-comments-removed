@@ -3200,7 +3200,7 @@ return
 tryNote
 ;
 }
-bool
+void
 wasm
 :
 :
@@ -3663,7 +3663,6 @@ nullptr
 )
 ;
 return
-true
 ;
 }
 }
@@ -3928,9 +3927,6 @@ rfe
 target
 =
 nullptr
-;
-return
-false
 ;
 }
 static
