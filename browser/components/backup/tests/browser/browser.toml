@@ -51,6 +51,13 @@ js
 ]
 [
 "
+browser_password_validation_inputs
+.
+js
+"
+]
+[
+"
 browser_settings
 .
 js
