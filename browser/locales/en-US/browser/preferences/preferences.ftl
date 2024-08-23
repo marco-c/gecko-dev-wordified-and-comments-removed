@@ -4753,11 +4753,11 @@ enabled
 label
 =
 Enable
-Picture
+picture
 -
 in
 -
-Picture
+picture
 video
 controls
 .

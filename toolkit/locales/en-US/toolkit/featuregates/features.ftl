@@ -895,11 +895,11 @@ pip
 description
 =
 Enable
-Picture
+picture
 -
 in
 -
-Picture
+picture
 on
 active
 videos
