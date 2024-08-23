@@ -890,13 +890,6 @@ Ok
 )
 }
 }
-#
-[
-allow
-(
-dead_code
-)
-]
 pub
 (
 crate
@@ -999,6 +992,9 @@ crate
 )
 fn
 write_sleb128
+<
+W
+>
 (
 buf
 :
@@ -1478,6 +1474,8 @@ Err
 assert_eq
 !
 (
+vec
+!
 [
 ]
 .
