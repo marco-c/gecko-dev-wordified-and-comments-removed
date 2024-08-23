@@ -1677,17 +1677,6 @@ testGetValue
 )
 assertEquals
 (
-expectedAppInstallSource
-Metrics
-.
-installSource
-.
-testGetValue
-(
-)
-)
-assertEquals
-(
 true
 Metrics
 .
