@@ -1,11 +1,5 @@
-from
-webdriver
-.
-bidi
-.
-protocol
 import
-BidiWindow
+webdriver
 class
 BidiSessionSubscribeAction
 :
@@ -110,6 +104,12 @@ elif
 isinstance
 (
 context
+webdriver
+.
+bidi
+.
+protocol
+.
 BidiWindow
 )
 :

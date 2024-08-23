@@ -22,16 +22,6 @@ List
 Mapping
 Optional
 Type
-from
-webdriver
-.
-bidi
-.
-modules
-.
-script
-import
-Target
 def
 merge_dicts
 (
@@ -2462,7 +2452,11 @@ str
             
 target
 :
-Target
+Mapping
+[
+str
+Any
+]
             
 arguments
 :
