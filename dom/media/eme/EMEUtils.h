@@ -246,6 +246,11 @@ aKeySystem
 ifdef
 MOZ_WMF_CDM
 bool
+IsMediaFoundationCDMPlaybackEnabled
+(
+)
+;
+bool
 IsPlayReadyEnabled
 (
 )

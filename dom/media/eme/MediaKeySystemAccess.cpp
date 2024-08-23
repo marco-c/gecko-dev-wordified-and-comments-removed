@@ -1278,6 +1278,12 @@ eDisable
 |
 !
 aOrigin
+|
+|
+!
+IsMediaFoundationCDMPlaybackEnabled
+(
+)
 )
 {
 return
