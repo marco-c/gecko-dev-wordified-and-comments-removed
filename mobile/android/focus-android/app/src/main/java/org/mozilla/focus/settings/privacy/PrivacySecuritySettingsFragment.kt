@@ -109,9 +109,7 @@ canUseBiometricFeature
 import
 mozilla
 .
-components
-.
-service
+telemetry
 .
 glean
 .

@@ -89,9 +89,7 @@ SelectTabUseCase
 import
 mozilla
 .
-components
-.
-service
+telemetry
 .
 glean
 .

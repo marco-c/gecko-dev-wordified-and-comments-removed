@@ -135,9 +135,7 @@ SelectOrAddUseCase
 import
 mozilla
 .
-components
-.
-service
+telemetry
 .
 glean
 .
