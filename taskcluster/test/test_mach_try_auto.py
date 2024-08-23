@@ -289,13 +289,20 @@ attr
 unittest_suite
 "
 )
-=
-=
+in
+[
 "
 mochitest
 -
 a11y
 "
+"
+crashtest
+"
+"
+reftest
+"
+]
 :
                 
 assert
