@@ -1554,6 +1554,12 @@ DEB_DEPENDS
 "
 :
 depends
+        
+"
+Icon
+"
+:
+deb_pkg_name
     
 }
 def
