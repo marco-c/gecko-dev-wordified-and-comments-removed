@@ -2603,6 +2603,13 @@ your
 /
 /
 tests
+using
+BrowserWindowTracker
+.
+track
+(
+window
+)
 !
 untrackForTestsOnly
 (
