@@ -1571,7 +1571,7 @@ nsAString
 aStringValue
 )
 ;
-void
+bool
 SetColorValue
 (
 nscolor
