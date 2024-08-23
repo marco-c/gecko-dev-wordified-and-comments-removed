@@ -1149,10 +1149,9 @@ android
 textColor
 =
 "
-?
-android
-:
-windowBackground
+color
+/
+photonWhite
 "
 android
 :
