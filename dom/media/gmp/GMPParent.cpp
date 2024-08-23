@@ -6471,6 +6471,9 @@ dll
 psapi
 .
 dll
+shell32
+.
+dll
 winmm
 .
 dll

@@ -978,6 +978,12 @@ dll
 "
 u
 "
+shell32
+.
+dll
+"
+u
+"
 softokn3
 .
 dll
