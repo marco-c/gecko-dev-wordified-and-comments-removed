@@ -124,13 +124,6 @@ const
 char
 *
 aStartupToken
-char
-*
-*
-aResponse
-bool
-*
-aSucceeded
 )
 override
 ;

@@ -69,13 +69,6 @@ const
 char
 *
 aStartupToken
-char
-*
-*
-aResponse
-bool
-*
-aSucceeded
 )
 override
 ;
@@ -145,10 +138,6 @@ const
 char
 *
 aStartupToken
-char
-*
-*
-aResponse
 bool
 *
 aDestroyed

@@ -54,13 +54,6 @@ const
 char
 *
 aStartupToken
-char
-*
-*
-aResponse
-bool
-*
-aSucceeded
 )
 =
 0
