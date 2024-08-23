@@ -815,15 +815,11 @@ for
 f
 in
 COMPILE_FLAGS
-.
-get
-(
+[
 "
 OS_CXXFLAGS
 "
-[
 ]
-)
 if
 not
 f
