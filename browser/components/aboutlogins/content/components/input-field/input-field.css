@@ -84,7 +84,11 @@ template
 -
 columns
 :
-1fr
+minmax
+(
+0
+auto
+)
 min
 -
 content
@@ -450,5 +454,11 @@ actions
 display
 :
 flex
+;
+justify
+-
+content
+:
+end
 ;
 }
