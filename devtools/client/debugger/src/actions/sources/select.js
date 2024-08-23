@@ -178,6 +178,7 @@ setSelectedLocation
 location
 shouldSelectOriginalLocation
 shouldHighlightSelectedLocation
+shouldScrollToSelectedLocation
 )
 =
 >
@@ -191,6 +192,7 @@ SET_SELECTED_LOCATION
 location
 shouldSelectOriginalLocation
 shouldHighlightSelectedLocation
+shouldScrollToSelectedLocation
 }
 )
 ;
@@ -641,6 +643,9 @@ true
 highlight
 =
 true
+scroll
+=
+true
 }
 =
 {
@@ -852,6 +857,7 @@ setSelectedLocation
 location
 shouldSelectOriginalLocation
 highlight
+scroll
 )
 )
 ;
