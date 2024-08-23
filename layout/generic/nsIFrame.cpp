@@ -28409,9 +28409,6 @@ AddInlineMinISize
 gfxContext
 *
 aRenderingContext
-nsIFrame
-:
-:
 InlineMinISizeData
 *
 aData

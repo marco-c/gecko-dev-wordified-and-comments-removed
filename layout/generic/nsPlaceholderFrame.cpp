@@ -197,9 +197,6 @@ AddInlineMinISize
 gfxContext
 *
 aRenderingContext
-nsIFrame
-:
-:
 InlineMinISizeData
 *
 aData
@@ -254,9 +251,6 @@ AddInlinePrefISize
 gfxContext
 *
 aRenderingContext
-nsIFrame
-:
-:
 InlinePrefISizeData
 *
 aData

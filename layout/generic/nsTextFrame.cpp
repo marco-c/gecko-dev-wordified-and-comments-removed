@@ -46378,9 +46378,6 @@ AddInlineMinISizeForFlow
 gfxContext
 *
 aRenderingContext
-nsIFrame
-:
-:
 InlineMinISizeData
 *
 aData
@@ -47704,9 +47701,6 @@ AddInlineMinISize
 gfxContext
 *
 aRenderingContext
-nsIFrame
-:
-:
 InlineMinISizeData
 *
 aData
@@ -47930,9 +47924,6 @@ AddInlinePrefISizeForFlow
 gfxContext
 *
 aRenderingContext
-nsIFrame
-:
-:
 InlinePrefISizeData
 *
 aData
@@ -48572,9 +48563,6 @@ AddInlinePrefISize
 gfxContext
 *
 aRenderingContext
-nsIFrame
-:
-:
 InlinePrefISizeData
 *
 aData
