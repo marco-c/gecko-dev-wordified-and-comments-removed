@@ -240,6 +240,14 @@ is
 MenuAction
 .
 Navigate
+is
+MenuAction
+.
+ShowCFR
+is
+MenuAction
+.
+DismissCFR
 -
 >
 state
