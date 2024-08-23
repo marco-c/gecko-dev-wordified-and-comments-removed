@@ -68,7 +68,7 @@ include
 "
 mozilla
 /
-Mutex
+StaticMutex
 .
 h
 "
@@ -111,13 +111,8 @@ LogLevel
 Verbose
 args
 )
-Mutex
+StaticMutex
 gConnRecvMutex
-(
-"
-ConnectRecvMutex
-"
-)
 ;
 typedef
 struct
@@ -223,7 +218,7 @@ size
 )
 ;
 }
-MutexAutoLock
+StaticMutexAutoLock
 lock
 (
 gConnRecvMutex
@@ -307,7 +302,7 @@ Called
 )
 )
 ;
-MutexAutoLock
+StaticMutexAutoLock
 lock
 (
 gConnRecvMutex
@@ -513,7 +508,7 @@ thread
 "
 )
 ;
-MutexAutoLock
+StaticMutexAutoLock
 lock
 (
 gConnRecvMutex
@@ -639,7 +634,7 @@ thread
 "
 )
 ;
-MutexAutoLock
+StaticMutexAutoLock
 lock
 (
 gConnRecvMutex
@@ -858,7 +853,7 @@ thread
 "
 )
 ;
-MutexAutoLock
+StaticMutexAutoLock
 lock
 (
 gConnRecvMutex
@@ -1022,7 +1017,7 @@ identity
 sFuzzyLayerIdentity
 )
 ;
-MutexAutoLock
+StaticMutexAutoLock
 lock
 (
 gConnRecvMutex
@@ -1442,7 +1437,7 @@ dtor
 layer
 )
 ;
-MutexAutoLock
+StaticMutexAutoLock
 lock
 (
 gConnRecvMutex
