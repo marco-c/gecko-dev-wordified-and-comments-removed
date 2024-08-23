@@ -24301,7 +24301,7 @@ aResult
 doc
 -
 >
-WouldScheduleFrameRequestCallbacks
+ShouldFireFrameRequestCallbacks
 (
 )
 |
