@@ -609,7 +609,7 @@ constructor
 }
 async
 function
-advancedTransferMesagePortWith
+advancedTransferMessagePortWith
 (
 constructor
 )
@@ -910,7 +910,7 @@ order
 }
 async
 function
-mixedTransferMesagePortWith
+mixedTransferMessagePortWith
 (
 )
 {
@@ -1022,7 +1022,7 @@ t
 >
 {
 await
-transferMessagePortWith
+advancedTransferMessagePortWith
 (
 ReadableStream
 )
@@ -1051,7 +1051,7 @@ t
 >
 {
 await
-transferMessagePortWith
+advancedTransferMessagePortWith
 (
 WritableStream
 )
@@ -1080,7 +1080,7 @@ t
 >
 {
 await
-transferMessagePortWith
+advancedTransferMessagePortWith
 (
 TransformStream
 )
@@ -1109,7 +1109,7 @@ t
 >
 {
 await
-mixedTransferMesagePortWith
+mixedTransferMessagePortWith
 (
 )
 ;
