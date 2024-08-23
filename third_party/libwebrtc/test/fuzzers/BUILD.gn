@@ -4615,6 +4615,17 @@ rtp_test_utils
 /
 rtc_base
 :
+digest
+"
+"
+.
+.
+/
+.
+.
+/
+rtc_base
+:
 ssl
 "
 "
