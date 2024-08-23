@@ -339,5 +339,8 @@ spotlight
 "
 featureCallout
 "
+"
+bookmarksBarButton
+"
 ]
 ;
