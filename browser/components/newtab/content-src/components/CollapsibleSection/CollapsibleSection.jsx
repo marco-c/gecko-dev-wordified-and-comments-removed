@@ -391,14 +391,14 @@ dispatch
 (
 ac
 .
-AlsoToMain
+BroadcastToContent
 (
 {
 type
 :
 at
 .
-TOPIC_SELECTION_SPOTLIGHT_TOGGLE
+TOPIC_SELECTION_SPOTLIGHT_OPEN
 }
 )
 )
