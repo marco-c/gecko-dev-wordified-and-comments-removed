@@ -903,6 +903,17 @@ been
 processed
 .
 *
+*
+Never
+null
+unless
+the
+underlying
+channel
+is
+null
+.
+*
 /
 [
 Cached
@@ -911,6 +922,7 @@ Pure
 readonly
 attribute
 URI
+?
 finalURI
 ;
 /
@@ -928,7 +940,6 @@ cheaper
 to
 access
 than
-*
 finalURI
 .
 spec

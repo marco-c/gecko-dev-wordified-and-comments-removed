@@ -77,6 +77,13 @@ true
 ]
 [
 "
+test_ChannelWrapper
+.
+js
+"
+]
+[
+"
 test_QuarantinedDomains
 .
 js

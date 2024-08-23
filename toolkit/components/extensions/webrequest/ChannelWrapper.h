@@ -755,7 +755,7 @@ already_AddRefed
 <
 nsIURI
 >
-FinalURI
+GetFinalURI
 (
 )
 const
