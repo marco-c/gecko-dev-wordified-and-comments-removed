@@ -141,16 +141,6 @@ aType
 )
 ;
 static
-bool
-IsMatroskaType
-(
-const
-MediaContainerType
-&
-aType
-)
-;
-static
 nsTArray
 <
 UniquePtr
