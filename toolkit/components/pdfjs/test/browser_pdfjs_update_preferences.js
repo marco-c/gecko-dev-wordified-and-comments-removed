@@ -182,7 +182,7 @@ const
 prefs
 =
 {
-enableAltText
+enableGuessAltText
 :
 {
 type
@@ -192,13 +192,13 @@ Bool
 "
 initialValue
 :
-false
+true
 newValue
 :
-true
+false
 expectedValue
 :
-true
+false
 }
 pdfBugEnabled
 :

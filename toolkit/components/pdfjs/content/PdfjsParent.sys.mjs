@@ -379,7 +379,7 @@ Set
 (
 [
 "
-enableAltText
+enableGuessAltText
 "
 ]
 )
