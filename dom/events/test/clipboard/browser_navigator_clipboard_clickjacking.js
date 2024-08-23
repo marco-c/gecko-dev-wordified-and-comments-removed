@@ -348,14 +348,11 @@ promisePasteButtonIsHidden
 (
 )
 ;
-EventUtils
+pastePopup
 .
-synthesizeKey
+activateItem
 (
-accesskey
-{
-}
-window
+pasteButton
 )
 ;
 await
