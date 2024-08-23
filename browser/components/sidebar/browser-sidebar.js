@@ -384,6 +384,8 @@ sidebar
 menu
 -
 history
+-
+label
 "
 iconUrl
 :
@@ -501,6 +503,8 @@ menu
 synced
 -
 tabs
+-
+label
 "
 iconUrl
 :
@@ -586,6 +590,8 @@ sidebar
 menu
 -
 bookmarks
+-
+label
 "
 iconUrl
 :
@@ -684,6 +690,8 @@ menu
 genai
 -
 chat
+-
+label
 "
 iconUrl
 :
@@ -824,6 +832,8 @@ sidebar
 menu
 -
 customize
+-
+label
 "
 iconUrl
 :
@@ -1906,6 +1916,22 @@ lastOpenedId
 )
 ;
 break
+;
+}
+if
+(
+this
+.
+revampComponentsLoaded
+)
+{
+this
+.
+sidebarMain
+.
+requestUpdate
+(
+)
 ;
 }
 }
