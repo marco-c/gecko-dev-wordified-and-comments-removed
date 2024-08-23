@@ -143,8 +143,6 @@ TexTypeForWebgl
 (
 KnowsCompositor
 *
-bool
-aIsWebglOop
 )
 ;
 struct

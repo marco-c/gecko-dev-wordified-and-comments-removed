@@ -2877,14 +2877,6 @@ aFlags
 )
 override
 ;
-bool
-SupportsExternalCompositing
-(
-WebRenderBackend
-aBackend
-)
-override
-;
 protected
 :
 const
