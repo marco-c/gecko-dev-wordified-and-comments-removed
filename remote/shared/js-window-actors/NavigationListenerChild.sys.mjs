@@ -978,6 +978,7 @@ getBrowsingContextDetails
 (
 context
 )
+status
 url
 :
 targetURI
