@@ -396,6 +396,11 @@ MutationEvent
 h
 "
 "
+NavigateEvent
+.
+h
+"
+"
 NotifyPaintEvent
 .
 h
@@ -679,6 +684,11 @@ cpp
 "
 "
 MutationEvent
+.
+cpp
+"
+"
+NavigateEvent
 .
 cpp
 "
