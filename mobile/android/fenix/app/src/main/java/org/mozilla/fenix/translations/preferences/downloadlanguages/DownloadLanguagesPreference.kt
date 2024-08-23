@@ -1026,6 +1026,10 @@ layer1
 )
 )
 {
+LazyColumn
+{
+item
+{
 DownloadLanguagesHeaderPreference
 (
 learnMoreUrl
@@ -1035,6 +1039,7 @@ onLearnMoreClicked
 =
 onLearnMoreClicked
 )
+}
 if
 (
 downloadLanguagesError
@@ -1042,6 +1047,8 @@ downloadLanguagesError
 =
 null
 )
+{
+item
 {
 DownloadLanguagesErrorWarning
 (
@@ -1057,8 +1064,7 @@ download_languages_fetch_error_warning_text
 )
 )
 }
-LazyColumn
-{
+}
 if
 (
 allLanguagesItemDownloaded
