@@ -614,12 +614,6 @@ Cancel
 (
 )
 ;
-bool
-IsLocalHostFetch
-(
-)
-const
-;
 void
 OnResponseEnd
 (
