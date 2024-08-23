@@ -1540,13 +1540,6 @@ verifyCustomTrackingProtectionSettings
 (
 )
 {
-scrollToElementByText
-(
-"
-Redirect
-Trackers
-"
-)
 Log
 .
 i
@@ -1685,6 +1678,13 @@ info
 button
 is
 displayed
+"
+)
+scrollToElementByText
+(
+"
+Redirect
+Trackers
 "
 )
 Log
