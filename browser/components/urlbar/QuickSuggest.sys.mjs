@@ -1288,7 +1288,8 @@ feature
 }
 this
 .
-_updateFeatureState
+#
+updateAll
 (
 )
 ;
@@ -1306,7 +1307,8 @@ onUpdate
 >
 this
 .
-_updateFeatureState
+#
+updateAll
 (
 )
 )
@@ -3271,7 +3273,8 @@ enabled
 .
 *
 /
-_updateFeatureState
+#
+updateAll
 (
 )
 {
