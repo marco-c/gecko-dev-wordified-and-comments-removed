@@ -36,6 +36,15 @@ CTLogOperatorId
 >
 CTLogOperatorList
 ;
+enum
+class
+CTLogStatus
+{
+Unknown
+Included
+Disqualified
+}
+;
 }
 }
 #
