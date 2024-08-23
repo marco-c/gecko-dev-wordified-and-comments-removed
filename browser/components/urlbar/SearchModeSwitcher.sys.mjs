@@ -2027,8 +2027,15 @@ search
 gBrowser
 .
 userTypedValue
-|
-|
+?
+?
+gBrowser
+.
+selectedBrowser
+.
+searchTerms
+?
+?
 "
 "
 ;
