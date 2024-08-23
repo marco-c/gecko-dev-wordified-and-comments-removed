@@ -118,6 +118,9 @@ SameProcess
 =
 1
 DifferentProcess
+LastResolvedScope
+=
+DifferentProcess
 DifferentProcessForIndexedDB
 Unassigned
 UnknownDestination
