@@ -116,6 +116,11 @@ index
 +
 1
 ;
+requestLongerTimeout
+(
+3
+)
+;
 add_setup
 (
 async
@@ -138,7 +143,7 @@ MERINO_SUGGESTION
 }
 )
 ;
-add_task
+add_tasks_with_rust
 (
 async
 function

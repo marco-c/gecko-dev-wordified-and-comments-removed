@@ -294,8 +294,7 @@ match_type
 position
 suggested_index
 :
--
-1
+0
 suggested_index_relative_to_group
 :
 true
@@ -386,8 +385,7 @@ match_type
 position
 suggested_index
 :
--
-1
+0
 suggested_index_relative_to_group
 :
 true
@@ -421,8 +419,7 @@ match_type
 position
 suggested_index
 :
--
-1
+0
 suggested_index_relative_to_group
 :
 true
@@ -517,8 +514,7 @@ match_type
 position
 suggested_index
 :
--
-1
+0
 suggested_index_relative_to_group
 :
 true
@@ -552,8 +548,7 @@ match_type
 position
 suggested_index
 :
--
-1
+0
 suggested_index_relative_to_group
 :
 true
@@ -581,7 +576,7 @@ iab_category
 command
 :
 "
-help
+manage
 "
 scalars
 :
@@ -590,13 +585,6 @@ scalars
 TELEMETRY_SCALARS
 .
 IMPRESSION_SPONSORED
-]
-:
-position
-[
-TELEMETRY_SCALARS
-.
-HELP_SPONSORED
 ]
 :
 position
@@ -617,7 +605,7 @@ engagement
 object
 :
 "
-help
+other
 "
 extra
 :
@@ -650,8 +638,7 @@ match_type
 position
 suggested_index
 :
--
-1
+0
 suggested_index_relative_to_group
 :
 true
@@ -1116,7 +1103,7 @@ iab_category
 command
 :
 "
-help
+manage
 "
 scalars
 :
@@ -1125,13 +1112,6 @@ scalars
 TELEMETRY_SCALARS
 .
 IMPRESSION_SPONSORED
-]
-:
-position
-[
-TELEMETRY_SCALARS
-.
-HELP_SPONSORED
 ]
 :
 position
@@ -1152,7 +1132,7 @@ engagement
 object
 :
 "
-help
+other
 "
 extra
 :

@@ -553,7 +553,7 @@ iab_category
 command
 :
 "
-help
+manage
 "
 scalars
 :
@@ -562,13 +562,6 @@ scalars
 TELEMETRY_SCALARS
 .
 IMPRESSION_NONSPONSORED
-]
-:
-position
-[
-TELEMETRY_SCALARS
-.
-HELP_NONSPONSORED
 ]
 :
 position
@@ -589,7 +582,7 @@ engagement
 object
 :
 "
-help
+other
 "
 extra
 :
