@@ -887,6 +887,9 @@ AudioData
 insecureContext
 :
 true
+nightlyAndroid
+:
+true
 }
 {
 name
@@ -894,6 +897,9 @@ name
 "
 AudioDecoder
 "
+nightlyAndroid
+:
+true
 }
 {
 name
@@ -901,6 +907,9 @@ name
 "
 AudioEncoder
 "
+nightlyAndroid
+:
+true
 }
 {
 name
@@ -1144,6 +1153,9 @@ EncodedAudioChunk
 insecureContext
 :
 true
+nightlyAndroid
+:
+true
 }
 {
 name
@@ -1152,6 +1164,9 @@ name
 EncodedVideoChunk
 "
 insecureContext
+:
+true
+nightlyAndroid
 :
 true
 }
@@ -1997,6 +2012,9 @@ VideoColorSpace
 insecureContext
 :
 true
+nightlyAndroid
+:
+true
 }
 {
 name
@@ -2004,6 +2022,9 @@ name
 "
 VideoDecoder
 "
+nightlyAndroid
+:
+true
 }
 {
 name
@@ -2011,6 +2032,9 @@ name
 "
 VideoEncoder
 "
+nightlyAndroid
+:
+true
 }
 {
 name
@@ -2019,6 +2043,9 @@ name
 VideoFrame
 "
 insecureContext
+:
+true
+nightlyAndroid
 :
 true
 }
