@@ -1725,7 +1725,7 @@ uri
 aChannel
 -
 >
-GetOriginalURI
+GetURI
 (
 getter_AddRefs
 (
