@@ -124,6 +124,9 @@ SetRenderingSurface
 const
 uintptr_t
 aXWindow
+const
+bool
+aShaped
 )
 override
 ;
