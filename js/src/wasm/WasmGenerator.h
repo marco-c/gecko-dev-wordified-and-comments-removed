@@ -1315,10 +1315,6 @@ nodiscard
 bool
 finishPartialTier2
 (
-const
-Code
-&
-code
 )
 ;
 }
