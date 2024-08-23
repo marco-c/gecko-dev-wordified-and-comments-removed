@@ -18,15 +18,6 @@ include
 "
 vm
 /
-List
-.
-h
-"
-#
-include
-"
-vm
-/
 NativeObject
 .
 h
@@ -138,7 +129,7 @@ methods
 [
 ]
 ;
-ListObject
+ArrayObject
 *
 getOrCreateDisposeCapability
 (
@@ -169,7 +160,7 @@ clearDisposableResourceStack
 )
 ;
 inline
-ListObject
+ArrayObject
 *
 nonEmptyDisposableResourceStack
 (

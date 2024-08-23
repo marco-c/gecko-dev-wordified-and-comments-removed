@@ -2006,6 +2006,17 @@ highWaterMark
 "
 )
 \
+IF_EXPLICIT_RESOURCE_MANAGEMENT
+(
+MACRO_
+(
+hint
+"
+hint
+"
+)
+)
+\
 MACRO_
 (
 hour
@@ -2856,7 +2867,7 @@ message
 "
 )
 \
-IF_DECORATORS
+IF_EXPLICIT_RESOURCE_MANAGEMENT_OR_DECORATORS
 (
 MACRO_
 (

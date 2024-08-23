@@ -46,15 +46,6 @@ include
 "
 vm
 /
-List
-.
-h
-"
-#
-include
-"
-vm
-/
 UsingHint
 .
 h
@@ -2519,7 +2510,7 @@ JS
 :
 Handle
 <
-ListObject
+ArrayObject
 *
 >
 disposeCapability
