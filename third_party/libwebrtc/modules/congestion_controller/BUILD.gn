@@ -263,6 +263,14 @@ remote_bitrate_estimator
 .
 .
 /
+remote_bitrate_estimator
+:
+transport_sequence_number_feedback_generator
+"
+"
+.
+.
+/
 rtp_rtcp
 :
 rtp_rtcp_format
