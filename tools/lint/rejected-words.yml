@@ -1920,14 +1920,6 @@ netwerk
 /
 base
 /
-nsIURI
-.
-idl
--
-netwerk
-/
-base
-/
 nsURLHelper
 .
 cpp
