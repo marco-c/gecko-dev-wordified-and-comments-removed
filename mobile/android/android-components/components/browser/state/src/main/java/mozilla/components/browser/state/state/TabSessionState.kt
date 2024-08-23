@@ -803,6 +803,11 @@ String
 ?
 =
 null
+desktopMode
+:
+Boolean
+=
+false
 previewImageUrl
 :
 String
@@ -839,6 +844,9 @@ webAppManifest
 searchTerms
 =
 searchTerms
+desktopMode
+=
+desktopMode
 previewImageUrl
 =
 previewImageUrl
