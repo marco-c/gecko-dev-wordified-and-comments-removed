@@ -312,17 +312,6 @@ case
 Trap
 :
 :
-RequestTierUp
-:
-return
-"
-RequestTierUp
-"
-;
-case
-Trap
-:
-:
 CheckInterrupt
 :
 return

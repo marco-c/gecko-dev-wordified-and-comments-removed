@@ -4897,7 +4897,7 @@ wasm
 :
 :
 TrapSiteVectorArray
-560
+520
 )
 ;
 for
@@ -7119,7 +7119,7 @@ wasm
 :
 :
 CodeBlock
-944
+904
 )
 ;
 *
@@ -7411,7 +7411,7 @@ wasm
 :
 :
 CodeBlock
-944
+904
 )
 ;
 STATIC_ASSERT_ENCODING_OR_SIZING

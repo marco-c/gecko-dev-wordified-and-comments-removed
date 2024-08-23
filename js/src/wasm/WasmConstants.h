@@ -252,7 +252,6 @@ IndirectCallBadSig
 NullPointerDereference
 BadCast
 StackOverflow
-RequestTierUp
 CheckInterrupt
 ThrowReported
 Limit
