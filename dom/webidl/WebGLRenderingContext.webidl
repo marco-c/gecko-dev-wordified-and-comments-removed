@@ -3125,6 +3125,17 @@ srgb
 .
 *
 /
+[
+Pref
+=
+"
+webgl
+.
+colorspaces
+.
+prototype
+"
+]
 attribute
 PredefinedColorSpace
 drawingBufferColorSpace
