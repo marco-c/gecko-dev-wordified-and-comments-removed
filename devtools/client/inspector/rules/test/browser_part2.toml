@@ -1150,6 +1150,13 @@ js
 ]
 [
 "
+browser_rules_light_dark
+.
+js
+"
+]
+[
+"
 browser_rules_lineNumbers
 .
 js
