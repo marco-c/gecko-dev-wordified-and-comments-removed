@@ -25,6 +25,11 @@ TestFileSystemHashSource
 cpp
 "
 "
+TestFileSystemOriginInitialization
+.
+cpp
+"
+"
 TestFileSystemQuotaClient
 .
 cpp
