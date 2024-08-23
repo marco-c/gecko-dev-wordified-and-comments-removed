@@ -1684,6 +1684,7 @@ fileBytes
 Save
 to
 cache
+await
 this
 .
 cacheImpl
