@@ -2332,10 +2332,6 @@ caretBrowsingModePref
 )
 toolbarDensity
 :
-isMobile
-?
-0
-:
 Services
 .
 prefs
@@ -2343,6 +2339,7 @@ prefs
 getIntPref
 (
 toolbarDensityPref
+0
 )
 }
 ;
