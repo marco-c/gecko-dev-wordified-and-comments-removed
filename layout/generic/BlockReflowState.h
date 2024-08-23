@@ -855,7 +855,7 @@ nsIFrame
 *
 mPrevChild
 ;
-CollapsingMargin
+nsCollapsingMargin
 mPrevBEndMargin
 ;
 nsBlockFrame

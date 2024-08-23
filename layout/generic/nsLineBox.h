@@ -1218,10 +1218,7 @@ StyleClear
 None
 ;
 }
-mozilla
-:
-:
-CollapsingMargin
+nsCollapsingMargin
 GetCarriedOutBEndMargin
 (
 )
@@ -1230,10 +1227,7 @@ const
 bool
 SetCarriedOutBEndMargin
 (
-mozilla
-:
-:
-CollapsingMargin
+nsCollapsingMargin
 aValue
 )
 ;
@@ -2463,10 +2457,7 @@ aBounds
 )
 {
 }
-mozilla
-:
-:
-CollapsingMargin
+nsCollapsingMargin
 mCarriedOutBEndMargin
 ;
 }

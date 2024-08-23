@@ -91,10 +91,7 @@ LogicalRect
 aSpace
 bool
 aApplyBStartMargin
-mozilla
-:
-:
-CollapsingMargin
+nsCollapsingMargin
 &
 aPrevMargin
 nscoord
@@ -125,10 +122,7 @@ aForceFit
 nsLineBox
 *
 aLine
-mozilla
-:
-:
-CollapsingMargin
+nsCollapsingMargin
 &
 aBEndMarginResult
 mozilla
@@ -143,10 +137,7 @@ nsReflowStatus
 aReflowStatus
 )
 ;
-mozilla
-:
-:
-CollapsingMargin
+nsCollapsingMargin
 &
 GetCarriedOutBEndMargin
 (
@@ -177,7 +168,7 @@ const
 ReflowInput
 &
 aRI
-CollapsingMargin
+nsCollapsingMargin
 *
 aMargin
 nsIFrame
@@ -230,7 +221,7 @@ mWritingMode
 ReflowOutput
 mMetrics
 ;
-CollapsingMargin
+nsCollapsingMargin
 mBStartMargin
 ;
 }
