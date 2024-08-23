@@ -177,6 +177,8 @@ const
 void
 *
 params_data
+int
+nb_params
 size_t
 params_size
 const

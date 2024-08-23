@@ -1382,6 +1382,7 @@ avctx
 pic
 &
 sp
+1
 sizeof
 (
 sp
