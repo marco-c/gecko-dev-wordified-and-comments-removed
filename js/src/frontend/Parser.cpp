@@ -37283,10 +37283,7 @@ constructorBox
 errorAt
 (
 propNameOffset
-JSMSG_DUPLICATE_PROPERTY
-"
-constructor
-"
+JSMSG_DUPLICATE_CONSTRUCTOR
 )
 ;
 return
