@@ -421,6 +421,10 @@ const
 IdentityCredentialRequestOptions
 &
 aOptions
+const
+CredentialMediationRequirement
+&
+aMediationRequirement
 )
 ;
 static
