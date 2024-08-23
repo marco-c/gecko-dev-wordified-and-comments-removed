@@ -14612,6 +14612,12 @@ clearSharedStyleSheetCache
 :
 void
 ;
+clearSharedScriptCache
+(
+)
+:
+void
+;
 readonly
 parsedStyleSheets
 :
