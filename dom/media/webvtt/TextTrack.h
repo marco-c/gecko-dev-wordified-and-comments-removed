@@ -7,6 +7,13 @@ mozilla_dom_TextTrack_h
 #
 include
 "
+TimeUnits
+.
+h
+"
+#
+include
+"
 mozilla
 /
 DOMEventTargetHelper
@@ -42,13 +49,6 @@ h
 include
 "
 nsString
-.
-h
-"
-#
-include
-"
-TimeUnits
 .
 h
 "
