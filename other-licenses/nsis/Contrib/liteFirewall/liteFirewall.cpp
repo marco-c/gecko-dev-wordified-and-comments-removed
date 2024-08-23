@@ -345,8 +345,9 @@ e
 printf
 (
 "
+0x
 %
-s
+lx
 "
 e
 .
