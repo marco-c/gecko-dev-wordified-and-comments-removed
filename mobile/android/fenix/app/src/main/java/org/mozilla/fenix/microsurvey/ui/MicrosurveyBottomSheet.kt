@@ -789,7 +789,7 @@ R
 .
 string
 .
-likert_scale_option_1
+likert_scale_option_very_satisfied
 )
 stringResource
 (
@@ -799,7 +799,7 @@ R
 .
 string
 .
-likert_scale_option_2
+likert_scale_option_satisfied
 )
 stringResource
 (
@@ -809,7 +809,7 @@ R
 .
 string
 .
-likert_scale_option_3
+likert_scale_option_neutral
 )
 stringResource
 (
@@ -819,7 +819,7 @@ R
 .
 string
 .
-likert_scale_option_4
+likert_scale_option_dissatisfied
 )
 stringResource
 (
@@ -829,7 +829,7 @@ R
 .
 string
 .
-likert_scale_option_5
+likert_scale_option_very_dissatisfied
 )
 stringResource
 (
@@ -839,7 +839,7 @@ R
 .
 string
 .
-likert_scale_option_6
+likert_scale_option_i_dont_use_it
 )
 )
 )
