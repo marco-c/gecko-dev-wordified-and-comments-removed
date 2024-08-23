@@ -66,6 +66,8 @@ fenix
 library
 .
 bookmarks
+.
+ui
 /
 *
 *
