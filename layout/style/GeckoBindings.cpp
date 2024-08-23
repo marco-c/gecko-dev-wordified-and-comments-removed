@@ -2312,7 +2312,14 @@ aSheet
 >
 Clone
 (
-nullptr
+const_cast
+<
+StyleSheet
+*
+>
+(
+aNewParentSheet
+)
 nullptr
 )
 ;
