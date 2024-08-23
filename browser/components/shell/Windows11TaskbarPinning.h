@@ -56,8 +56,6 @@ const
 nsAString
 &
 aAppUserModelId
-nsAutoString
-aShortcutPath
 )
 ;
 #

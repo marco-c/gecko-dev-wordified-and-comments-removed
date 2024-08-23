@@ -4134,8 +4134,10 @@ err
 ;
 }
 }
-if
-(
+{
+bool
+usePrivateAumid
+=
 Preferences
 :
 :
@@ -4158,10 +4160,8 @@ aInitData
 >
 mIsPrivate
 )
-)
-{
-if
-(
+&
+&
 !
 StaticPrefs
 :
@@ -4169,8 +4169,7 @@ StaticPrefs
 browser_privatebrowsing_autostart
 (
 )
-)
-{
+;
 RefPtr
 <
 IPropertyStore
@@ -4218,7 +4217,7 @@ WinTaskbar
 GenerateAppUserModelID
 (
 aumid
-true
+usePrivateAumid
 )
 )
 ;
@@ -4287,7 +4286,11 @@ nullptr
 )
 MAKEINTRESOURCEW
 (
+usePrivateAumid
+?
 IDI_PBMODE
+:
+IDI_APPICON
 )
 )
 ;
@@ -4301,7 +4304,6 @@ SetSmallIcon
 icon
 )
 ;
-}
 }
 mDeviceNotifyHandle
 =
