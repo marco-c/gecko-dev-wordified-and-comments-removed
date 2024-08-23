@@ -180,7 +180,7 @@ sl
 expectedTargetLanguage
 :
 "
-es
+fr
 "
 }
 )

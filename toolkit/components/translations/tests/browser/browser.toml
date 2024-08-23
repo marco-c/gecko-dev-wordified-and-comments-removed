@@ -244,6 +244,13 @@ js
 ]
 [
 "
+browser_translations_actor_store_recent_target_langs
+.
+js
+"
+]
+[
+"
 browser_translations_actor_sync_models
 .
 js
