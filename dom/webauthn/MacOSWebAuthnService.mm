@@ -2921,7 +2921,7 @@ Unused
 aArgs
 -
 >
-GetUserName
+GetUserDisplayName
 (
 userDisplayName
 )
