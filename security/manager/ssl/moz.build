@@ -640,11 +640,6 @@ SecretDecoderRing
 cpp
 "
 "
-SharedSSLState
-.
-cpp
-"
-"
 SSLServerCertVerification
 .
 cpp

@@ -64,13 +64,6 @@ h
 #
 include
 "
-SharedSSLState
-.
-h
-"
-#
-include
-"
 cert
 .
 h
@@ -452,6 +445,13 @@ h
 include
 "
 nsNSSHelper
+.
+h
+"
+#
+include
+"
+nsNSSIOLayer
 .
 h
 "
@@ -1451,7 +1451,7 @@ PrepareForShutdown
 (
 )
 ;
-SharedSSLState
+nsSSLIOLayerHelpers
 :
 :
 GlobalCleanup
@@ -4597,7 +4597,7 @@ RegisterErrorTable
 (
 )
 ;
-SharedSSLState
+nsSSLIOLayerHelpers
 :
 :
 GlobalInit
@@ -4620,7 +4620,7 @@ XRE_IsSocketProcess
 )
 )
 ;
-SharedSSLState
+nsSSLIOLayerHelpers
 :
 :
 GlobalCleanup
