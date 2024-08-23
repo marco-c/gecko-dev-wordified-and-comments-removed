@@ -1018,6 +1018,7 @@ Services
 StructuredCloneHolder
 TelemetryStopwatch
 WebExtensionPolicy
+WebSocket
 WindowGlobalParent
 WindowGlobalChild
 }
