@@ -227,4 +227,15 @@ isVisible
 =
 false
 }
+override
+fun
+isVisible
+(
+)
+:
+Boolean
+{
+return
+isVisible
+}
 }
