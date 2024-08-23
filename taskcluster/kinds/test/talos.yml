@@ -202,9 +202,7 @@ linux1804
 |
 macosx1015
 |
-windows1
-.
-*
+windows11
 )
 -
 64
@@ -219,7 +217,7 @@ opt
 trunk
 ]
 (
-windows10
+windows11
 -
 64
 |
@@ -403,7 +401,7 @@ windows
 (
 linux
 |
-windows10
+windows11
 -
 64
 |
@@ -424,7 +422,7 @@ shippable
 (
 linux
 |
-windows10
+windows11
 -
 64
 |
@@ -602,9 +600,7 @@ platform
 (
 linux1804
 |
-windows1
-.
-*
+windows11
 |
 macosx1015
 )
@@ -669,7 +665,7 @@ shippable
 (
 linux
 |
-windows10
+windows11
 -
 64
 |
@@ -776,9 +772,7 @@ platform
 (
 linux1804
 |
-windows1
-.
-*
+windows11
 |
 macosx1015
 )
@@ -843,7 +837,7 @@ shippable
 (
 linux
 |
-windows10
+windows11
 -
 64
 |
@@ -950,9 +944,7 @@ platform
 (
 linux1804
 |
-windows1
-.
-*
+windows11
 |
 macosx1015
 )
@@ -1017,7 +1009,7 @@ shippable
 (
 linux
 |
-windows10
+windows11
 -
 64
 |
@@ -1348,7 +1340,7 @@ windows
 (
 linux
 |
-windows10
+windows11
 -
 64
 |
@@ -1369,7 +1361,7 @@ shippable
 (
 linux
 |
-windows10
+windows11
 -
 64
 |
@@ -1521,9 +1513,7 @@ platform
 (
 linux1804
 |
-windows1
-.
-*
+windows11
 |
 macosx
 .
@@ -1566,7 +1556,7 @@ windows
 (
 linux
 |
-windows10
+windows11
 -
 64
 |
@@ -1587,7 +1577,7 @@ shippable
 (
 linux
 |
-windows10
+windows11
 -
 64
 |
@@ -1776,9 +1766,7 @@ platform
 (
 linux1804
 |
-windows1
-.
-*
+windows11
 |
 macosx
 .
@@ -1821,7 +1809,7 @@ windows
 (
 linux
 |
-windows10
+windows11
 -
 64
 |
@@ -1842,7 +1830,7 @@ shippable
 (
 linux
 |
-windows10
+windows11
 -
 64
 |
@@ -2001,9 +1989,7 @@ platform
 (
 linux1804
 |
-windows1
-.
-*
+windows11
 |
 macosx1015
 )
@@ -2044,7 +2030,7 @@ windows
 (
 linux
 |
-windows10
+windows11
 -
 64
 |
@@ -2065,7 +2051,7 @@ shippable
 (
 linux
 |
-windows10
+windows11
 -
 64
 |
@@ -2266,9 +2252,7 @@ platform
 (
 linux1804
 |
-windows1
-.
-*
+windows11
 |
 macosx
 .
@@ -2311,7 +2295,7 @@ windows
 (
 linux
 |
-windows10
+windows11
 -
 64
 |
@@ -2332,7 +2316,7 @@ shippable
 (
 linux
 |
-windows10
+windows11
 -
 64
 |
@@ -2510,7 +2494,7 @@ windows
 (
 linux
 |
-windows10
+windows11
 -
 64
 |
@@ -2531,7 +2515,7 @@ shippable
 (
 linux
 |
-windows10
+windows11
 -
 64
 |
@@ -2635,7 +2619,7 @@ windows
 (
 linux
 |
-windows10
+windows11
 -
 64
 |
@@ -2656,7 +2640,7 @@ shippable
 (
 linux
 |
-windows10
+windows11
 -
 64
 |
@@ -2750,7 +2734,7 @@ platform
 (
 linux
 |
-windows10
+windows11
 -
 64
 |
@@ -2771,7 +2755,7 @@ shippable
 (
 linux
 |
-windows10
+windows11
 -
 64
 |
@@ -2935,9 +2919,7 @@ platform
 (
 linux1804
 |
-windows1
-.
-*
+windows11
 |
 macosx
 .
@@ -2980,7 +2962,7 @@ windows
 (
 linux
 |
-windows10
+windows11
 -
 64
 |
@@ -3001,7 +2983,7 @@ shippable
 (
 linux
 |
-windows10
+windows11
 -
 64
 |
@@ -3172,9 +3154,7 @@ platform
 (
 linux1804
 |
-windows1
-.
-*
+windows11
 |
 macosx
 .
@@ -3219,7 +3199,7 @@ windows
 (
 linux
 |
-windows10
+windows11
 -
 64
 |
@@ -3240,7 +3220,7 @@ shippable
 (
 linux
 |
-windows10
+windows11
 -
 64
 |
@@ -3427,9 +3407,7 @@ platform
 (
 linux1804
 |
-windows1
-.
-*
+windows11
 |
 macosx
 .
@@ -3472,7 +3450,7 @@ windows
 (
 linux
 |
-windows10
+windows11
 -
 64
 |
@@ -3493,7 +3471,7 @@ shippable
 (
 linux
 |
-windows10
+windows11
 -
 64
 |
@@ -3669,7 +3647,7 @@ windows
 (
 linux
 |
-windows10
+windows11
 -
 64
 |
@@ -3690,7 +3668,7 @@ shippable
 (
 linux
 |
-windows10
+windows11
 -
 64
 |
@@ -3868,9 +3846,7 @@ platform
 (
 linux1804
 |
-windows1
-.
-*
+windows11
 |
 macosx
 .
@@ -3913,7 +3889,7 @@ windows
 (
 linux
 |
-windows10
+windows11
 -
 64
 |
@@ -3934,7 +3910,7 @@ shippable
 (
 linux
 |
-windows10
+windows11
 -
 64
 |
@@ -4093,9 +4069,7 @@ platform
 (
 linux1804
 |
-windows1
-.
-*
+windows11
 |
 macosx
 .
@@ -4138,7 +4112,7 @@ windows
 (
 linux
 |
-windows10
+windows11
 -
 64
 |
@@ -4159,7 +4133,7 @@ shippable
 (
 linux
 |
-windows10
+windows11
 -
 64
 |
@@ -4450,7 +4424,7 @@ platform
 (
 linux1804
 |
-windows1
+windows11
 |
 macosx1015
 )
@@ -4493,9 +4467,7 @@ platform
 (
 linux1804
 |
-windows1
-.
-*
+windows11
 |
 macosx1015
 )
@@ -4536,11 +4508,9 @@ windows
 (
 linux
 |
-windows10
+windows11
 -
 64
-|
-windows11
 |
 macos
 )
@@ -4559,11 +4529,9 @@ shippable
 (
 linux
 |
-windows10
+windows11
 -
 64
-|
-windows11
 |
 macos
 )
@@ -4771,14 +4739,6 @@ windows
 *
 :
 false
-windows10
-.
-*
-64
-.
-*
-:
-true
 windows11
 .
 *
@@ -4824,20 +4784,6 @@ qr
 *
 :
 [
-]
-windows10
-.
-*
--
-shippable
--
-qr
-/
-.
-*
-:
-[
-trunk
 ]
 windows11
 .
@@ -5011,7 +4957,7 @@ windows
 (
 linux
 |
-windows10
+windows11
 -
 64
 |
@@ -5032,7 +4978,7 @@ shippable
 (
 linux
 |
-windows10
+windows11
 -
 64
 |
@@ -5202,9 +5148,7 @@ platform
 (
 linux1804
 |
-windows1
-.
-*
+windows11
 |
 macosx1015
 )
@@ -5250,7 +5194,7 @@ shippable
 (
 linux
 |
-windows
+windows11
 |
 macos
 )
@@ -5269,7 +5213,7 @@ shippable
 (
 linux
 |
-windows10
+windows11
 -
 64
 |
