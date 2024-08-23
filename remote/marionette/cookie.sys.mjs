@@ -752,9 +752,6 @@ json
 .
 sameSite
 validOptions
-lazy
-.
-pprint
 Expected
 cookie
 "
@@ -771,6 +768,10 @@ toString
 (
 )
 }
++
+lazy
+.
+pprint
 got
 {
 json

@@ -3839,9 +3839,6 @@ includes
 (
 ownership
 )
-lazy
-.
-pprint
 Expected
 channel
 argument
@@ -3862,6 +3859,10 @@ lazy
 OwnershipModel
 )
 }
++
+lazy
+.
+pprint
 got
 {
 ownership
@@ -3929,6 +3930,10 @@ lazy
 OwnershipModel
 )
 }
++
+lazy
+.
+pprint
 got
 {
 resultOwnership

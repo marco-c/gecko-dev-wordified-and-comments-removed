@@ -999,9 +999,6 @@ assert
 array
 (
 array
-lazy
-.
-pprint
 Expected
 "
 {
@@ -1012,6 +1009,10 @@ to
 be
 an
 array
++
+lazy
+.
+pprint
 got
 {
 array
@@ -1032,9 +1033,6 @@ array
 array
 .
 length
-lazy
-.
-pprint
 Expected
 "
 {
@@ -1048,6 +1046,10 @@ at
 least
 one
 item
++
+lazy
+.
+pprint
 got
 {
 array
@@ -1072,9 +1074,6 @@ assert
 string
 (
 item
-lazy
-.
-pprint
 Expected
 elements
 of
@@ -1087,6 +1086,10 @@ to
 be
 a
 string
++
+lazy
+.
+pprint
 got
 {
 item

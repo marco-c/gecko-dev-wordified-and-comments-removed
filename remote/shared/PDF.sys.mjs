@@ -1113,6 +1113,9 @@ int
 const
 msg
 =
+lazy
+.
+pprint
 Expected
 "
 range
@@ -1181,12 +1184,7 @@ o
 .
 length
 )
-lazy
-.
-pprint
-{
 msg
-}
 )
 (
 limits
@@ -1275,12 +1273,7 @@ test
 (
 o
 )
-lazy
-.
-pprint
-{
 msg
-}
 )
 ;
 limits

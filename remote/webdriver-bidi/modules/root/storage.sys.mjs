@@ -2894,9 +2894,6 @@ in
 (
 sameSite
 sameSiteTypeValue
-lazy
-.
-pprint
 Expected
 "
 {
@@ -2910,6 +2907,10 @@ of
 {
 sameSiteTypeValue
 }
++
+lazy
+.
+pprint
 got
 {
 sameSite
@@ -2936,9 +2937,6 @@ assert
 object
 (
 value
-lazy
-.
-pprint
 Expected
 "
 {
@@ -2949,6 +2947,10 @@ to
 be
 an
 object
++
+lazy
+.
+pprint
 got
 {
 value
@@ -2985,9 +2987,6 @@ in
 (
 type
 bytesValueTypeValue
-lazy
-.
-pprint
 Expected
 {
 fieldName
@@ -3002,6 +3001,10 @@ of
 {
 bytesValueTypeValue
 }
++
+lazy
+.
+pprint
 got
 {
 type
@@ -3015,9 +3018,6 @@ assert
 string
 (
 protocolBytesValue
-lazy
-.
-pprint
 Expected
 {
 fieldName
@@ -3028,6 +3028,10 @@ value
 to
 be
 string
++
+lazy
+.
+pprint
 got
 {
 protocolBytesValue

@@ -5396,9 +5396,6 @@ includes
 (
 includeShadowTree
 )
-lazy
-.
-pprint
 Expected
 "
 includeShadowTree
@@ -5410,6 +5407,10 @@ of
 {
 includeShadowTreeModesValues
 }
++
+lazy
+.
+pprint
 got
 {
 includeShadowTree
