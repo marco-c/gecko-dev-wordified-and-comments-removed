@@ -30,6 +30,7 @@ namespace
 webrtc
 {
 struct
+RTC_EXPORT
 SimulcastStream
 {
 unsigned
