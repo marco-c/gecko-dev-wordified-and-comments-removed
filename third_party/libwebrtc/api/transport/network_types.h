@@ -901,6 +901,17 @@ Zero
 (
 )
 ;
+TimeDelta
+min_probe_delta
+=
+TimeDelta
+:
+:
+Millis
+(
+2
+)
+;
 int32_t
 target_probe_count
 =
