@@ -4476,11 +4476,6 @@ MoveSPForJitABI
 masm
 )
 ;
-GenerateJitEntryLoadInstance
-(
-masm
-)
-;
 masm
 .
 loadPtr
@@ -6584,11 +6579,6 @@ ValType
 Ref
 :
 {
-GenerateJitEntryLoadInstance
-(
-masm
-)
-;
 GenPrintPtr
 (
 DebugChannel
