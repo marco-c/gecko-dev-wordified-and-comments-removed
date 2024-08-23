@@ -239,6 +239,7 @@ T
 {
 }
 ;
+}
 inline
 constexpr
 bool
@@ -345,6 +346,9 @@ AttribBaseType
 )
 )
 ;
+namespace
+webgl
+{
 #
 define
 USE_IS_ENUM_CASE

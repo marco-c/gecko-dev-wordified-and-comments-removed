@@ -33093,9 +33093,6 @@ const
 auto
 mode
 =
-webgl
-:
-:
 AsEnumCase
 <
 webgl
