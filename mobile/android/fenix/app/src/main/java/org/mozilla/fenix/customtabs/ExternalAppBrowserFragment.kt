@@ -1769,6 +1769,13 @@ buttonTint
 navbarIntegration
 .
 buttonTint
+onVisibilityUpdated
+=
+{
+configureEngineViewWithDynamicToolbarsMaxHeight
+(
+)
+}
 )
 }
 }
