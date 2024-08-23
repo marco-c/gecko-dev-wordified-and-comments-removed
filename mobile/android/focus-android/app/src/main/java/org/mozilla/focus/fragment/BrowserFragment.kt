@@ -4354,6 +4354,13 @@ siteNotSupportedSnackBarScope
 cancel
 (
 )
+requireComponents
+.
+sessionUseCases
+.
+exitFullscreen
+(
+)
 }
 override
 fun
