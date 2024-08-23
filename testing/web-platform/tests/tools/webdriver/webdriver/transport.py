@@ -2,6 +2,8 @@ import
 json
 import
 select
+import
+socket
 from
 http
 .
@@ -1432,6 +1434,26 @@ specified
         
 :
 param
+timeout
+:
+Optional
+timeout
+for
+the
+underlying
+socket
+.
+None
+will
+            
+retain
+the
+existing
+timeout
+.
+        
+:
+param
 codec_kwargs
 :
 Surplus
@@ -1585,7 +1607,7 @@ payload
 headers
 timeout
 =
-None
+timeout
 )
         
 return
@@ -1712,18 +1734,34 @@ payload
 headers
 )
         
+previous_timeout
+=
+socket
+.
+getdefaulttimeout
+(
+)
+        
 try
 :
             
 if
 timeout
+and
+self
+.
+connection
+.
+sock
 :
                 
 previous_timeout
 =
 self
 .
-_conn
+connection
+.
+sock
 .
 gettimeout
 (
@@ -1731,7 +1769,9 @@ gettimeout
                 
 self
 .
-_conn
+connection
+.
+sock
 .
 settimeout
 (
@@ -1753,11 +1793,19 @@ finally
             
 if
 timeout
+and
+self
+.
+connection
+.
+sock
 :
                 
 self
 .
-_conn
+connection
+.
+sock
 .
 settimeout
 (
