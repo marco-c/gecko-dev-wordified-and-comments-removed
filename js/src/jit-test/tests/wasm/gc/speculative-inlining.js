@@ -1,7 +1,7 @@
 const
 tierUpThreshold
 =
-1
+2250
 ;
 let
 {
@@ -346,6 +346,13 @@ funcToInlineExpected
 )
 ;
 }
+sleep
+(
+0
+.
+05
+)
+;
 assertEq
 (
 wasmFunctionTier

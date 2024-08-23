@@ -1281,6 +1281,13 @@ JSContext
 cx
 )
 ;
+int32_t
+computeInitialHotnessCounter
+(
+uint32_t
+funcIndex
+)
+;
 void
 resetHotnessCounter
 (
