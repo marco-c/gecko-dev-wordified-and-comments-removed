@@ -603,11 +603,7 @@ samples_per_channel
 (
 )
 num_channels_
-&
 dst
-[
-0
-]
 )
 ;
 return
