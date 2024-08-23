@@ -236,7 +236,7 @@ strategy
 >
 dependencySubstitution
 {
-configureEach
+all
 {
 dependency
 -
