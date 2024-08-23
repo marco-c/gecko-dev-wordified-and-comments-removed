@@ -234,6 +234,13 @@ js
 ]
 [
 "
+test_showselector
+.
+js
+"
+]
+[
+"
 test_single_profile_selected
 .
 js

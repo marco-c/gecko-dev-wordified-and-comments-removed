@@ -117,6 +117,8 @@ const
 nsACString
 &
 aStoreID
+bool
+aShowProfileSelector
 )
 ;
 nsresult
@@ -149,6 +151,9 @@ mLocalDir
 ;
 nsCString
 mStoreID
+;
+bool
+mShowProfileSelector
 ;
 nsIProfileLock
 *
