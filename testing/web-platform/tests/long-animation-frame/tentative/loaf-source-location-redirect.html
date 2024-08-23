@@ -585,11 +585,11 @@ sourceLocation
 }
 else
 {
-assert_not_equals
+assert_equals
 (
 result
 "
-post
+pre
 -
 redirect
 "
@@ -600,9 +600,8 @@ CORS
 classic
 scripts
 should
-not
 expose
-post
+pre
 -
 redirect
 URL
