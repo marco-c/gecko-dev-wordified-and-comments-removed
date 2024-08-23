@@ -4946,14 +4946,10 @@ str
 )
 )
 {
-MOZ_ALWAYS_TRUE
-(
 buffer
 .
-resize
+clear
 (
-0
-)
 )
 ;
 }
