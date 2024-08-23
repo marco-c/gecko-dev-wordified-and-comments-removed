@@ -198,6 +198,13 @@ nsPoint
 aDesiredCaretPos
 PeekOffsetOptions
 aOptions
+const
+dom
+:
+:
+Element
+*
+aAncestorLimiter
 )
 ;
 static
