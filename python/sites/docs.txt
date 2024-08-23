@@ -34,7 +34,7 @@ Sphinx
 .
 4
 .
-7
+6
 ;
 python_version
 >
