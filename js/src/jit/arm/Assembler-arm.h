@@ -8370,7 +8370,12 @@ SupportsFloat32To16
 )
 {
 return
-false
+ARMFlags
+:
+:
+HasFPHalfPrecision
+(
+)
 ;
 }
 static
