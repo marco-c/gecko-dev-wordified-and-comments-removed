@@ -9838,6 +9838,17 @@ Allow
 )
 ;
 case
+SYS_RECVMMSG
+:
+return
+Some
+(
+Allow
+(
+)
+)
+;
+case
 SYS_SENDMMSG
 :
 return
