@@ -16,6 +16,5 @@ validateUnaryOperation
 tanh
 '
 floatingPointTypes
-true
 )
 ;

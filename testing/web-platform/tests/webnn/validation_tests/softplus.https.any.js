@@ -16,6 +16,5 @@ validateUnaryOperation
 softplus
 '
 floatingPointTypes
-true
 )
 ;

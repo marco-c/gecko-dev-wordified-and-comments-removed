@@ -16,6 +16,5 @@ validateUnaryOperation
 softsign
 '
 floatingPointTypes
-true
 )
 ;

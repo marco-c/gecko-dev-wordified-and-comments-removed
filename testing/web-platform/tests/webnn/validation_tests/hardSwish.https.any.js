@@ -16,6 +16,5 @@ validateUnaryOperation
 hardSwish
 '
 floatingPointTypes
-true
 )
 ;

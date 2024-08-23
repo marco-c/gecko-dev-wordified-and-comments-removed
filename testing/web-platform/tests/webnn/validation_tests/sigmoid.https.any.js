@@ -16,6 +16,5 @@ validateUnaryOperation
 sigmoid
 '
 floatingPointTypes
-true
 )
 ;

@@ -15,6 +15,5 @@ validateSingleInputOperation
 '
 gelu
 '
-true
 )
 ;
