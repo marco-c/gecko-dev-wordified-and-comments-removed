@@ -15807,12 +15807,6 @@ Assembler
 NotSigned
 r
 r
-RegI32
-:
-:
-Invalid
-(
-)
 &
 positive
 )
@@ -16108,12 +16102,6 @@ Assembler
 NotSigned
 temp
 temp
-RegI32
-:
-:
-Invalid
-(
-)
 &
 positive
 )
