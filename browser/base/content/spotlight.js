@@ -153,6 +153,17 @@ GET_SELECTED_THEME
 ;
 window
 .
+AWGetInstalledAddons
+=
+receive
+(
+"
+GET_INSTALLED_ADDONS
+"
+)
+;
+window
+.
 AWSelectTheme
 =
 data

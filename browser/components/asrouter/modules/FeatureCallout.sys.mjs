@@ -9222,6 +9222,14 @@ getActionHandler
 GET_SELECTED_THEME
 "
 )
+AWGetInstalledAddons
+:
+getActionHandler
+(
+"
+GET_INSTALLED_ADDONS
+"
+)
 /
 /
 Do
