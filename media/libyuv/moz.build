@@ -205,6 +205,15 @@ scale_common
 .
 cc
 '
+'
+libyuv
+/
+source
+/
+scale_uv
+.
+cc
+'
 ]
 GYP_DIRS
 +
