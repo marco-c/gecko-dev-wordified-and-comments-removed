@@ -1104,9 +1104,6 @@ closeCustomTab
 (
 )
 }
-updateTheme
-=
-true
 forceActionButtonTinting
 =
 false
