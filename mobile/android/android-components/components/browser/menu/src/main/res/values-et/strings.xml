@@ -141,9 +141,7 @@ string
 -
 Label
 for
-add
--
-ons
+extensions
 submenu
 section
 -
@@ -154,7 +152,7 @@ string
 name
 =
 "
-mozac_browser_menu_addons
+mozac_browser_menu_extensions
 "
 >
 Lisad
@@ -168,16 +166,12 @@ string
 -
 Label
 for
-add
--
-ons
+extensions
 sub
 menu
 item
 for
-add
--
-ons
+extensions
 manager
 -
 -
@@ -187,7 +181,7 @@ string
 name
 =
 "
-mozac_browser_menu_addons_manager
+mozac_browser_menu_extensions_manager
 "
 >
 Lisade
