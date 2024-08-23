@@ -11040,6 +11040,9 @@ this
 .
 selectedTab
 )
+|
+|
+null
 ;
 let
 animate

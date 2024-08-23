@@ -806,7 +806,8 @@ integer
 minimum
 "
 :
-0
+-
+1
 "
 optional
 "
@@ -5161,7 +5162,8 @@ integer
 minimum
 "
 :
-0
+-
+1
 "
 optional
 "
@@ -6580,7 +6582,8 @@ integer
 minimum
 "
 :
-0
+-
+1
 "
 optional
 "
@@ -7548,7 +7551,8 @@ integer
 minimum
 "
 :
-0
+-
+1
 "
 optional
 "
