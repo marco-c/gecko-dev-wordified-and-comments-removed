@@ -24461,8 +24461,10 @@ CreateDirectoryLockInternal
 PersistenceScope
 :
 :
-CreateFromNull
+CreateFromSet
 (
+PERSISTENCE_TYPE_TEMPORARY
+PERSISTENCE_TYPE_DEFAULT
 )
 OriginScope
 :
