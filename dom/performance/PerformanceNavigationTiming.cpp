@@ -368,7 +368,7 @@ GetLoadEventEndHighRes
 REDUCE_TIME_PRECISION
 ;
 }
-NavigationType
+NavigationTimingType
 PerformanceNavigationTiming
 :
 :
@@ -399,7 +399,7 @@ nsDOMNavigationTiming
 TYPE_NAVIGATE
 :
 return
-NavigationType
+NavigationTimingType
 :
 :
 Navigate
@@ -413,7 +413,7 @@ nsDOMNavigationTiming
 TYPE_RELOAD
 :
 return
-NavigationType
+NavigationTimingType
 :
 :
 Reload
@@ -427,7 +427,7 @@ nsDOMNavigationTiming
 TYPE_BACK_FORWARD
 :
 return
-NavigationType
+NavigationTimingType
 :
 :
 Back_forward
@@ -437,7 +437,7 @@ break
 default
 :
 return
-NavigationType
+NavigationTimingType
 :
 :
 Navigate

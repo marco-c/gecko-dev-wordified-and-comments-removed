@@ -290,7 +290,7 @@ aSubjectPrincipal
 const
 override
 ;
-NavigationType
+NavigationTimingType
 Type
 (
 )

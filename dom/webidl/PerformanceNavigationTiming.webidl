@@ -142,7 +142,7 @@ apply
 *
 /
 enum
-NavigationType
+NavigationTimingType
 {
 "
 navigate
@@ -224,7 +224,7 @@ loadEventEnd
 ;
 readonly
 attribute
-NavigationType
+NavigationTimingType
 type
 ;
 readonly
