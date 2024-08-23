@@ -25,6 +25,13 @@ h
 #
 include
 "
+EncoderConfig
+.
+h
+"
+#
+include
+"
 ImageTypes
 .
 h
@@ -153,13 +160,6 @@ h
 include
 "
 nsTArray
-.
-h
-"
-#
-include
-"
-EncoderConfig
 .
 h
 "
