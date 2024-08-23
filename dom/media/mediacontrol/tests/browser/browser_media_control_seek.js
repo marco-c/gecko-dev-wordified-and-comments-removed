@@ -245,7 +245,7 @@ tab
 testVideoId
 )
 ;
-const
+let
 seekoffset
 =
 5
@@ -273,6 +273,10 @@ seekOffset
 seekoffset
 }
 )
+;
+seekoffset
+=
+4
 ;
 info
 (
@@ -492,6 +496,10 @@ video
 .
 onseeked
 =
+(
+)
+=
+>
 r
 (
 )
@@ -622,7 +630,7 @@ mode
 =
 =
 "
-seekForward
+seekforward
 "
 ?
 seekOffset
@@ -677,6 +685,10 @@ video
 .
 onseeked
 =
+(
+)
+=
+>
 r
 (
 )
