@@ -67,13 +67,7 @@ name
 {
 display
 :
-block
-;
-content
--
-visibility
-:
-hidden
+none
 ;
 }
 :
@@ -95,12 +89,6 @@ name
 display
 :
 revert
-;
-content
--
-visibility
-:
-visible
 ;
 }
 /
