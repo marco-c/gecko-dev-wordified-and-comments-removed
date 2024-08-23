@@ -22,6 +22,11 @@ head
 js
 "
 "
+csp_script_to_override
+.
+js
+"
+"
 doc_network
 -
 observer
@@ -55,6 +60,11 @@ html
 override
 .
 js
+"
+"
+override_script_src_self
+.
+html
 "
 "
 serviceworker
