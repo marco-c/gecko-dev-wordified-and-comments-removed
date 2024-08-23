@@ -123,9 +123,7 @@ waitForEvent
 (
 window
 "
-BackupUI
-:
-DisableScheduledBackups
+turnOffScheduledBackups
 "
 )
 ;
