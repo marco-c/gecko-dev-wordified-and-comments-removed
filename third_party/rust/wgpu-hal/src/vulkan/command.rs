@@ -4858,8 +4858,10 @@ data
 as_ptr
 (
 )
-as
-_
+.
+cast
+(
+)
 data
 .
 len

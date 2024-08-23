@@ -346,9 +346,6 @@ constants
 zero_initialize_workgroup_memory
 :
 true
-vertex_pulling_transform
-:
-true
 }
 }
 }

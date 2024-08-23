@@ -15,6 +15,17 @@ crate
 mod
 allocator
 ;
+pub
+use
+allocator
+:
+:
+{
+AllocationReport
+AllocatorReport
+MemoryBlockReport
+}
+;
 #
 [
 cfg

@@ -2024,7 +2024,7 @@ firstTrailingBit
 Mf
 :
 :
-FindLsb
+FirstTrailingBit
 "
 firstLeadingBit
 "
@@ -2033,7 +2033,7 @@ firstLeadingBit
 Mf
 :
 :
-FindMsb
+FirstLeadingBit
 "
 pack4x8snorm
 "

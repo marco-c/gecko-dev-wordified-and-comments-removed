@@ -16004,7 +16004,7 @@ FindILsb
 Mf
 :
 :
-FindLsb
+FirstTrailingBit
 Glo
 :
 :
@@ -16019,7 +16019,7 @@ FindSMsb
 Mf
 :
 :
-FindMsb
+FirstLeadingBit
 Glo
 :
 :

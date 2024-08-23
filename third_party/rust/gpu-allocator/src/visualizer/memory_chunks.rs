@@ -22,6 +22,12 @@ Vec2
 }
 ;
 use
+super
+:
+:
+ColorScheme
+;
+use
 crate
 :
 :
@@ -32,12 +38,6 @@ free_list_allocator
 :
 :
 MemoryChunk
-;
-use
-super
-:
-:
-ColorScheme
 ;
 pub
 (

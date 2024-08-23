@@ -801,17 +801,10 @@ iter
 (
 )
 .
-enumerate
-(
-)
-.
 any
 (
 |
-(
-_
 x
-)
 |
 {
 x

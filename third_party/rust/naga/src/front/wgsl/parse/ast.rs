@@ -596,13 +596,6 @@ a
 >
 >
 pub
-locals
-:
-Arena
-<
-Local
->
-pub
 body
 :
 Block

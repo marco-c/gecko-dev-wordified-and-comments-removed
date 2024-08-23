@@ -7441,7 +7441,7 @@ count_id
 Mf
 :
 :
-FindLsb
+FirstTrailingBit
 =
 >
 MathOp
@@ -7460,7 +7460,7 @@ FindILsb
 Mf
 :
 :
-FindMsb
+FirstLeadingBit
 =
 >
 {
@@ -7529,7 +7529,7 @@ unimplemented
 (
 "
 Unexpected
-findMSB
+firstLeadingBit
 (
 {
 :

@@ -14276,7 +14276,6 @@ fun_name
 arguments
 result
 body
-locals
 }
 ;
 self

@@ -9506,12 +9506,12 @@ ReverseBits
 Mf
 :
 :
-FindMsb
+FirstLeadingBit
 |
 Mf
 :
 :
-FindLsb
+FirstTrailingBit
 =
 >
 {

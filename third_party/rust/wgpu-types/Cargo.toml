@@ -109,7 +109,7 @@ version
 "
 1
 .
-74
+76
 "
 name
 =
@@ -121,9 +121,9 @@ types
 version
 =
 "
-0
+22
 .
-20
+0
 .
 0
 "
@@ -264,6 +264,8 @@ bitflags
 =
 "
 2
+.
+6
 "
 [
 dependencies
@@ -297,7 +299,7 @@ serde_json
 .
 0
 .
-120
+121
 "
 [
 dev
@@ -338,6 +340,15 @@ atomic
 wasm
 =
 [
+]
+serde
+=
+[
+"
+dep
+:
+serde
+"
 ]
 strict_asserts
 =
