@@ -170,14 +170,6 @@ fenix
 utils
 .
 Settings
-import
-kotlin
-.
-collections
-.
-removeFirst
-as
-removeFirstKt
 RunWith
 (
 FenixRobolectricTestRunner
@@ -924,7 +916,7 @@ wifiConnectionMonitor
 .
 callbacks
 .
-removeFirstKt
+removeFirst
 (
 )
 }
