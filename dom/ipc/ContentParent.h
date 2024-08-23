@@ -1396,6 +1396,13 @@ ipc
 IPCResult
 RecvCreateClipboardContentAnalysis
 (
+Endpoint
+<
+PClipboardContentAnalysisParent
+>
+&
+&
+aParentEndpoint
 )
 ;
 mozilla
