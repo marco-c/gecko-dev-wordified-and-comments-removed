@@ -1,6 +1,6 @@
-'
-'
-'
+"
+"
+"
 ASN
 .
 1
@@ -26,9 +26,9 @@ should
 be
 here
 .
-'
-'
-'
+"
+"
+"
 from
 pyasn1
 .
@@ -57,9 +57,9 @@ namedtype
 .
 NamedType
 (
-'
+"
 oid
-'
+"
 univ
 .
 ObjectIdentifier
@@ -71,9 +71,9 @@ namedtype
 .
 NamedType
 (
-'
+"
 parameters
-'
+"
 univ
 .
 Null
@@ -102,9 +102,9 @@ namedtype
 .
 NamedType
 (
-'
+"
 header
-'
+"
 PubKeyHeader
 (
 )
@@ -114,9 +114,11 @@ namedtype
 .
 NamedType
 (
-'
+            
+"
 key
-'
+"
+            
 univ
 .
 OctetString
@@ -125,7 +127,6 @@ OctetString
 .
 subtype
 (
-                                          
 implicitTag
 =
 tag
@@ -143,6 +144,7 @@ tagId
 3
 )
 )
+        
 )
     
 )
@@ -155,9 +157,9 @@ Sequence
 )
 :
     
-'
-'
-'
+"
+"
+"
 ASN
 .
 1
@@ -188,9 +190,9 @@ INTEGER
 -
 e
     
-'
-'
-'
+"
+"
+"
     
 componentType
 =
@@ -203,9 +205,9 @@ namedtype
 .
 NamedType
 (
-'
+"
 modulus
-'
+"
 univ
 .
 Integer
@@ -217,9 +219,9 @@ namedtype
 .
 NamedType
 (
-'
+"
 publicExponent
-'
+"
 univ
 .
 Integer
