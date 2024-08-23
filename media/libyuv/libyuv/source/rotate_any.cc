@@ -133,6 +133,17 @@ TransposeWx8_NEON
 endif
 #
 ifdef
+HAS_TRANSPOSEWX16_NEON
+TANY
+(
+TransposeWx16_Any_NEON
+TransposeWx16_NEON
+15
+)
+#
+endif
+#
+ifdef
 HAS_TRANSPOSEWX8_SSSE3
 TANY
 (

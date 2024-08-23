@@ -460,6 +460,12 @@ cc
 \
 unit_test
 /
+convert_argb_test
+.
+cc
+\
+unit_test
+/
 convert_test
 .
 cc
@@ -503,6 +509,12 @@ cc
 unit_test
 /
 scale_argb_test
+.
+cc
+\
+unit_test
+/
+scale_plane_test
 .
 cc
 \

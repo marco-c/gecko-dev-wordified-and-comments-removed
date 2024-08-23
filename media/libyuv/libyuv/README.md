@@ -94,6 +94,15 @@ MSA
 on
 Mips
 .
+*
+Optimized
+for
+RVV
+on
+RISC
+-
+V
+.
 #
 #
 #

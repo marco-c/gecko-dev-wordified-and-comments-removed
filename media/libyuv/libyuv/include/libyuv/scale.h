@@ -46,7 +46,7 @@ kFilterBox
 FilterModeEnum
 ;
 LIBYUV_API
-void
+int
 ScalePlane
 (
 const
@@ -74,7 +74,7 @@ filtering
 )
 ;
 LIBYUV_API
-void
+int
 ScalePlane_16
 (
 const
@@ -102,7 +102,7 @@ filtering
 )
 ;
 LIBYUV_API
-void
+int
 ScalePlane_12
 (
 const
