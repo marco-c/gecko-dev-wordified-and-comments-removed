@@ -63,3 +63,14 @@ test_registration
 html
 "
 ]
+skip
+-
+if
+=
+[
+"
+tsan
+"
+]
+#
+1885378
