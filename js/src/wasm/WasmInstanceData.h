@@ -255,7 +255,7 @@ arrayElemSize
 struct
 FuncDefInstanceData
 {
-uint32_t
+int32_t
 hotnessCounter
 ;
 }
