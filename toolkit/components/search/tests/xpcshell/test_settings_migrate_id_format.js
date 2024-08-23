@@ -84,6 +84,16 @@ order
 1
 }
 }
+{
+_name
+:
+"
+engine3
+"
+_isAppProvided
+:
+true
+}
 ]
 }
 ;

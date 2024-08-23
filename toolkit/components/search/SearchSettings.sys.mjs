@@ -1596,6 +1596,11 @@ if
 engine
 .
 _isAppProvided
+&
+&
+engine
+.
+id
 )
 {
 let
