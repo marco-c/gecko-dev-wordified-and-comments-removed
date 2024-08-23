@@ -50,6 +50,10 @@ test
 "
 FLATPAK_BRANCH
 "
+test
+"
+DESKTOP_FILE_URL
+"
 #
 Optional
 env
@@ -605,11 +609,11 @@ appdata
 .
 xml
 "
-cp
+CURL
 -
-v
+o
 "
-SCRIPT_DIRECTORY
+WORKSPACE
 /
 org
 .
@@ -620,7 +624,7 @@ firefox
 desktop
 "
 "
-WORKSPACE
+DESKTOP_FILE_URL
 "
 cp
 -

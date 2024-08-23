@@ -115,6 +115,8 @@ post
 langpack
 -
 dummy
+-
+repackage
 task
 -
 defaults
