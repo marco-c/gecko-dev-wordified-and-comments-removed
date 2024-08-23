@@ -32,9 +32,9 @@ Sphinx
 =
 7
 .
-2
+4
 .
-6
+5
 ;
 python_version
 >
