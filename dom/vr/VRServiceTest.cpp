@@ -93,7 +93,7 @@ bool
 ReadFloat32Array
 (
 T
-*
+&
 aDestination
 const
 Float32Array
@@ -294,10 +294,6 @@ strncpy
 state
 .
 displayName
-.
-data
-(
-)
 "
 Puppet
 HMD
@@ -1670,7 +1666,6 @@ Unused
 <
 ReadFloat32Array
 (
-&
 DisplayState
 (
 )
@@ -1777,7 +1772,6 @@ if
 !
 ReadFloat32Array
 (
-&
 sensorState
 .
 pose
@@ -1821,7 +1815,6 @@ if
 !
 ReadFloat32Array
 (
-&
 sensorState
 .
 pose
@@ -1865,7 +1858,6 @@ if
 !
 ReadFloat32Array
 (
-&
 sensorState
 .
 pose
@@ -1909,7 +1901,6 @@ if
 !
 ReadFloat32Array
 (
-&
 sensorState
 .
 pose
@@ -1953,7 +1944,6 @@ if
 !
 ReadFloat32Array
 (
-&
 sensorState
 .
 pose
@@ -1997,7 +1987,6 @@ if
 !
 ReadFloat32Array
 (
-&
 sensorState
 .
 pose
@@ -2158,10 +2147,6 @@ strncpy
 state
 .
 controllerName
-.
-data
-(
-)
 "
 Puppet
 Gamepad
@@ -2888,7 +2873,6 @@ if
 !
 ReadFloat32Array
 (
-&
 controllerState
 .
 pose
@@ -2932,7 +2916,6 @@ if
 !
 ReadFloat32Array
 (
-&
 controllerState
 .
 pose
@@ -2976,7 +2959,6 @@ if
 !
 ReadFloat32Array
 (
-&
 controllerState
 .
 pose
@@ -3020,7 +3002,6 @@ if
 !
 ReadFloat32Array
 (
-&
 controllerState
 .
 pose
@@ -3064,7 +3045,6 @@ if
 !
 ReadFloat32Array
 (
-&
 controllerState
 .
 pose
@@ -3108,7 +3088,6 @@ if
 !
 ReadFloat32Array
 (
-&
 controllerState
 .
 pose

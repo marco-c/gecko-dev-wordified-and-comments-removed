@@ -1400,10 +1400,6 @@ mVRState
 pose
 .
 position
-.
-data
-(
-)
 :
 nullptr
 3
@@ -1482,10 +1478,6 @@ mVRState
 pose
 .
 linearVelocity
-.
-data
-(
-)
 :
 nullptr
 3
@@ -1548,10 +1540,6 @@ mVRState
 pose
 .
 linearAcceleration
-.
-data
-(
-)
 :
 nullptr
 3
@@ -1614,10 +1602,6 @@ mVRState
 pose
 .
 orientation
-.
-data
-(
-)
 :
 nullptr
 4
@@ -1680,10 +1664,6 @@ mVRState
 pose
 .
 angularVelocity
-.
-data
-(
-)
 :
 nullptr
 3
@@ -1746,10 +1726,6 @@ mVRState
 pose
 .
 angularAcceleration
-.
-data
-(
-)
 :
 nullptr
 3
@@ -4166,10 +4142,6 @@ components
 aState
 .
 leftViewMatrix
-.
-data
-(
-)
 sizeof
 (
 aState
@@ -4186,10 +4158,6 @@ components
 aState
 .
 rightViewMatrix
-.
-data
-(
-)
 sizeof
 (
 aState
