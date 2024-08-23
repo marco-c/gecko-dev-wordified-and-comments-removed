@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-af3087b462acd51cbaae2a87544021f060aabc39
+52f24d03d25af67fa3c9fe920c9bba0161f33e4e
 '
 #
 Fetch
@@ -467,7 +467,7 @@ chromium
 src
 /
 base
-7e1e78ded538cb23b907dd62256e709b6e67d2c5
+8fb3533de57f271c742d918515c51988e209e7b4
 '
 '
 src
@@ -491,7 +491,7 @@ chromium
 src
 /
 build
-dbd3873447f647584690532e2fb935e103c8860c
+9fb898bb7bf2f6c9284c0f4636d5c8d858871d31
 '
 '
 src
@@ -611,7 +611,7 @@ chromium
 src
 /
 ios
-80bef59e96fa367efc8c6220c99196a283814288
+dc6b9853c5419514b8d090fc8f78436506c4c9c0
 '
 '
 condition
@@ -643,7 +643,7 @@ chromium
 src
 /
 testing
-a84f9b870e0ca49e5837c091e0d892d5be407e05
+2f6fe0db389278761d69731bb675057ac210e2fd
 '
 '
 src
@@ -667,7 +667,7 @@ chromium
 src
 /
 third_party
-57bb3c7e9342201a8079984652cd05eb9a18b4f7
+4fbda95b08692329ebd4cabf609bf9020a43f373
 '
 '
 src
@@ -1765,7 +1765,7 @@ tools
 depot_tools
 .
 git
-d32e1cb5717853a1837347884abc85149813c398
+0dd502813398cb44477df2c246ed4495c4a0c46d
 '
 '
 src
@@ -2876,7 +2876,7 @@ webm
 libvpx
 .
 git
-611d9ba0a55df154ff5cb7a97d41a41103265f5e
+5b4cfe88e45a42fbdf22f7210ed253faec9c0fe6
 '
 '
 src
@@ -3138,7 +3138,7 @@ google
 re2
 .
 git
-a67d6c1d5308b0950a91fed8e03e5c048d22d5cd
+a771d3fbe7c432dc4db68360c6c0004fdde5646b
 '
 '
 src
@@ -3349,7 +3349,7 @@ chromium
 src
 /
 tools
-f73000e9ce16f76c4135751c1bff072188e6b71b
+ec57b078a3a50c94acbe4a17eae0cab9cb39a48b
 '
 '
 src
@@ -3540,7 +3540,7 @@ version
 '
 :
 '
-JZ72YZlEwPXylEAvSLZX9OglfCwT4XpDJscRG8nioCkC
+vAfIh85uzcaBMYEt3ZZIgV2Byl0NtbeE8DNHORAF1r0C
 '
 }
 ]
