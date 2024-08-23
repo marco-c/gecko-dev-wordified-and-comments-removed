@@ -2878,6 +2878,13 @@ ensureInitialized
 (
 )
 ;
+SelectableProfileService
+?
+.
+init
+(
+)
+;
 SessionStore
 .
 promiseAllWindowsRestored
@@ -4424,6 +4431,13 @@ window
 )
 ;
 FirefoxViewHandler
+.
+uninit
+(
+)
+;
+SelectableProfileService
+?
 .
 uninit
 (

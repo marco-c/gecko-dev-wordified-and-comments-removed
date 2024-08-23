@@ -821,4 +821,7 @@ BrowserSearch
 "
 PBMExitStatus
 "
+"
+SelectableProfileService
+"
 ]
