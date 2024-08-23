@@ -128,10 +128,6 @@ uint8_t
 aDestBuffer
 int
 aDestStride
-int
-aWidth
-int
-aHeight
 )
 ;
 nsresult
