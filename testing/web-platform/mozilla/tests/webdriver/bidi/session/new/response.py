@@ -131,13 +131,6 @@ dict
         
 (
 "
-unhandledPromptBehavior
-"
-str
-)
-        
-(
-"
 userAgent
 "
 str
