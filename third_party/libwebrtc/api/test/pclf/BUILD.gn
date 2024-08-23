@@ -482,10 +482,6 @@ video
 :
 video_frame_writer
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -511,6 +507,8 @@ cpp
 absl
 /
 strings
+:
+string_view
 "
 "
 /
@@ -1126,10 +1124,6 @@ audio
 :
 audio_processing
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -1142,6 +1136,8 @@ cpp
 absl
 /
 strings
+:
+string_view
 "
 "
 /

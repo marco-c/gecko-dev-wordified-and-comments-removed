@@ -151,10 +151,6 @@ system
 :
 rtc_export
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -167,6 +163,8 @@ cpp
 absl
 /
 strings
+:
+string_view
 "
 ]
 }

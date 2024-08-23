@@ -324,10 +324,6 @@ system
 :
 rtc_export
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -620,10 +616,6 @@ containers
 :
 flat_set
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -651,6 +643,8 @@ cpp
 absl
 /
 strings
+:
+string_view
 "
 ]
 }
@@ -740,10 +734,6 @@ synchronization
 :
 mutex
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -756,6 +746,8 @@ cpp
 absl
 /
 strings
+:
+string_view
 "
 ]
 }
@@ -984,10 +976,6 @@ testing
 /
 gtest
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -1000,6 +988,8 @@ cpp
 absl
 /
 strings
+:
+string_view
 "
 ]
 if

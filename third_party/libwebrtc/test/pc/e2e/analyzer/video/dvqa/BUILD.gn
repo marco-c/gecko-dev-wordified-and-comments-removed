@@ -471,10 +471,6 @@ video_frame
 /
 system_wrappers
 "
-]
-absl_deps
-=
-[
 "
 /
 /

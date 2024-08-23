@@ -173,10 +173,6 @@ units
 :
 timestamp
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -243,10 +239,6 @@ test
 :
 test_support
 "
-]
-absl_deps
-=
-[
 "
 /
 /

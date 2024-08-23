@@ -181,10 +181,6 @@ environment
 /
 task_queue
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -268,10 +264,6 @@ environment
 /
 task_queue
 "
-]
-absl_deps
-=
-[
 "
 /
 /

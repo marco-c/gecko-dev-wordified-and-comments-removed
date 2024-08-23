@@ -777,10 +777,6 @@ column_printer
 /
 time_controller
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -836,6 +832,8 @@ cpp
 absl
 /
 strings
+:
+string_view
 "
 "
 /
@@ -1240,10 +1238,6 @@ rtc_event
 /
 time_controller
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -1534,10 +1528,6 @@ checks
 /
 time_controller
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -1795,10 +1785,6 @@ synchronization
 :
 mutex
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -1924,10 +1910,6 @@ testing
 /
 gtest
 "
-]
-absl_deps
-=
-[
 "
 /
 /

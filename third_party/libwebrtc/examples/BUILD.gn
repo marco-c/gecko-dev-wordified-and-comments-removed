@@ -469,10 +469,6 @@ rtc_base
 :
 stringutils
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -486,7 +482,7 @@ absl
 /
 strings
 :
-strings
+string_view
 "
 ]
 }

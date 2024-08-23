@@ -234,10 +234,6 @@ system
 :
 no_unique_address
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -259,7 +255,7 @@ if
 rtc_use_absl_mutex
 )
 {
-absl_deps
+deps
 +
 =
 [
@@ -397,10 +393,6 @@ deps
 :
 checks
 "
-]
-absl_deps
-=
-[
 "
 /
 /

@@ -224,10 +224,6 @@ rtc_base
 :
 race_checker
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -337,10 +333,6 @@ system_wrappers
 :
 metrics
 "
-]
-absl_deps
-=
-[
 "
 /
 /

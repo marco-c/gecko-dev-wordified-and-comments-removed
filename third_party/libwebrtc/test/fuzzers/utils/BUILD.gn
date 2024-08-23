@@ -495,10 +495,6 @@ test
 :
 video_test_common
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -510,8 +506,6 @@ cpp
 /
 absl
 /
-memory
-:
 memory
 "
 ]

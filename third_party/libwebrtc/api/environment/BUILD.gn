@@ -146,10 +146,6 @@ system
 :
 rtc_export
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -282,10 +278,6 @@ transport
 :
 field_trial_based_config
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -384,10 +376,6 @@ units
 :
 timestamp
 "
-]
-absl_deps
-=
-[
 "
 /
 /

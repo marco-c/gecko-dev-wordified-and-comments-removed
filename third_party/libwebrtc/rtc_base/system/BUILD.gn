@@ -209,10 +209,6 @@ criticalsection
 :
 safe_conversions
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -225,6 +221,8 @@ cpp
 absl
 /
 strings
+:
+string_view
 "
 "
 /

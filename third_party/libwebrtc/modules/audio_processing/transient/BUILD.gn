@@ -800,10 +800,6 @@ testing
 /
 gtest
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -816,6 +812,8 @@ cpp
 absl
 /
 strings
+:
+string_view
 "
 "
 /

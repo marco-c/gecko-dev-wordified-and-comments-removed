@@ -335,10 +335,6 @@ yield_policy
 /
 system_wrappers
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -366,6 +362,8 @@ cpp
 absl
 /
 strings
+:
+string_view
 "
 ]
 }

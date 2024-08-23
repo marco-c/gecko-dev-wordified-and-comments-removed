@@ -184,10 +184,6 @@ system
 :
 rtc_export
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -215,6 +211,8 @@ cpp
 absl
 /
 strings
+:
+string_view
 "
 ]
 }
@@ -548,10 +546,6 @@ file_wrapper
 /
 system_wrappers
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -579,6 +573,8 @@ cpp
 absl
 /
 strings
+:
+string_view
 "
 ]
 deps
@@ -748,10 +744,6 @@ api
 /
 task_queue
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -779,6 +771,8 @@ cpp
 absl
 /
 strings
+:
+string_view
 "
 ]
 }

@@ -166,10 +166,6 @@ stringutils
 /
 task_queue
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -498,10 +494,6 @@ rtc_export
 /
 task_queue
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -593,10 +585,6 @@ system
 :
 rtc_export
 "
-]
-absl_deps
-=
-[
 "
 /
 /

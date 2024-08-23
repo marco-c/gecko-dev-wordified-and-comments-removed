@@ -304,10 +304,6 @@ rtc_base
 :
 random
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -659,10 +655,6 @@ units
 :
 data_rate
 "
-]
-absl_deps
-=
-[
 "
 /
 /

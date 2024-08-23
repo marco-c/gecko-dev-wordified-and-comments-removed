@@ -184,10 +184,6 @@ rtc_base
 :
 checks
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -261,10 +257,6 @@ video
 :
 render_resolution
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -292,6 +284,8 @@ cpp
 absl
 /
 strings
+:
+string_view
 "
 "
 /

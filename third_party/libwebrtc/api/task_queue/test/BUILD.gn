@@ -166,10 +166,6 @@ test
 :
 test_support
 "
-]
-absl_deps
-=
-[
 "
 /
 /

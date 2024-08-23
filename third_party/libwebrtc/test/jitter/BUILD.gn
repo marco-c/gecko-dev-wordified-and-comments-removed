@@ -239,10 +239,6 @@ rtc_base
 :
 rtc_numerics
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -347,10 +343,6 @@ rtc_base
 :
 logging
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -363,6 +355,8 @@ cpp
 absl
 /
 strings
+:
+string_view
 "
 ]
 }

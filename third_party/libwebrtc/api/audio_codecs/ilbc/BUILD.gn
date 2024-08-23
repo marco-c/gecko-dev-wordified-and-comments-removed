@@ -280,10 +280,6 @@ rtc_base
 :
 stringutils
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -388,10 +384,6 @@ audio_coding
 :
 ilbc
 "
-]
-absl_deps
-=
-[
 "
 /
 /

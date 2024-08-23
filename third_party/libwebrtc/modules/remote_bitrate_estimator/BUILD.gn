@@ -491,10 +491,6 @@ system_wrappers
 :
 metrics
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -651,10 +647,6 @@ rtp_rtcp
 :
 rtp_rtcp_format
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -1005,10 +997,6 @@ rtp_rtcp
 :
 rtp_rtcp_format
 "
-]
-absl_deps
-=
-[
 "
 /
 /

@@ -179,10 +179,6 @@ audio_codecs
 :
 audio_codecs_api
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -329,10 +325,6 @@ system_wrappers
 :
 system_wrappers
 "
-]
-absl_deps
-=
-[
 "
 /
 /

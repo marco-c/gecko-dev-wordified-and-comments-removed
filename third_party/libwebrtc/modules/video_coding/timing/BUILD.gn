@@ -233,10 +233,6 @@ rtc_base
 :
 rtc_numerics
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -532,10 +528,6 @@ field_trial_parser
 /
 system_wrappers
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -548,6 +540,8 @@ cpp
 absl
 /
 strings
+:
+string_view
 "
 "
 /
@@ -606,10 +600,6 @@ units
 :
 time_delta
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -710,10 +700,6 @@ rtc_base
 :
 rtc_numerics
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -911,10 +897,6 @@ mutex
 /
 system_wrappers
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -1165,10 +1147,6 @@ test
 :
 test_support
 "
-]
-absl_deps
-=
-[
 "
 /
 /

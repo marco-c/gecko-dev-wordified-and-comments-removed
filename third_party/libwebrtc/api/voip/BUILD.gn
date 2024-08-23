@@ -173,10 +173,6 @@ neteq
 :
 neteq_api
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -363,10 +359,6 @@ test
 :
 test_support
 "
-]
-absl_deps
-=
-[
 "
 /
 /

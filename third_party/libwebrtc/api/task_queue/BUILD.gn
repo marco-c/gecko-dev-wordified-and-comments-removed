@@ -184,10 +184,6 @@ units
 :
 time_delta
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -245,6 +241,8 @@ cpp
 absl
 /
 strings
+:
+string_view
 "
 ]
 }
@@ -494,10 +492,6 @@ test
 :
 test_support
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -618,10 +612,6 @@ test
 :
 test_support
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -1122,10 +1112,6 @@ system
 :
 rtc_export
 "
-]
-absl_deps
-=
-[
 "
 /
 /

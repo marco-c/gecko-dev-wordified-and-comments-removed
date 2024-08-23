@@ -499,10 +499,6 @@ config
 :
 encoder_config
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -530,6 +526,8 @@ cpp
 absl
 /
 strings
+:
+string_view
 "
 "
 /
@@ -824,10 +822,6 @@ config
 :
 encoder_config
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -1036,10 +1030,6 @@ config
 :
 encoder_config
 "
-]
-absl_deps
-=
-[
 "
 /
 /
@@ -1052,6 +1042,8 @@ cpp
 absl
 /
 strings
+:
+string_view
 "
 "
 /

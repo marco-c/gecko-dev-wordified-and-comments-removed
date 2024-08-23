@@ -311,10 +311,6 @@ rtp_rtcp
 :
 rtp_rtcp_format
 "
-]
-absl_deps
-=
-[
 "
 /
 /
