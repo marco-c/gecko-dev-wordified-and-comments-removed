@@ -54,7 +54,7 @@ include
 "
 mozilla
 /
-Telemetry
+StaticPrefs_media
 .
 h
 "
@@ -63,7 +63,7 @@ include
 "
 mozilla
 /
-StaticPrefs_media
+Telemetry
 .
 h
 "
