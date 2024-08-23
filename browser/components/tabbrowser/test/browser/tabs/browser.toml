@@ -1458,6 +1458,13 @@ js
 ]
 [
 "
+browser_tab_groups
+.
+js
+"
+]
+[
+"
 browser_tab_label_during_reload
 .
 js
