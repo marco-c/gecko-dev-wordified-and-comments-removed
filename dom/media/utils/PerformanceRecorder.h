@@ -540,12 +540,11 @@ StageBase
 {
 public
 :
-enum
-class
+MOZ_DEFINE_ENUM_CLASS_WITH_BASE_AND_TOSTRING_AT_CLASS_SCOPE
+(
 ImageType
-:
 uint8_t
-{
+(
 Unknown
 I420
 YUY2
@@ -554,7 +553,8 @@ UYVY
 NV12
 NV21
 MJPEG
-}
+)
+)
 ;
 CaptureStage
 (
