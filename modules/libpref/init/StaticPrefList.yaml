@@ -18654,7 +18654,7 @@ type
 bool
 value
 :
-false
+IS_NIGHTLY_BUILD
 mirror
 :
 once
