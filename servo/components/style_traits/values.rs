@@ -24,6 +24,17 @@ Token
 UnicodeRange
 }
 ;
+#
+[
+cfg
+(
+feature
+=
+"
+gecko
+"
+)
+]
 use
 nsstring
 :

@@ -65,6 +65,17 @@ extern
 crate
 malloc_size_of_derive
 ;
+#
+[
+cfg
+(
+feature
+=
+"
+gecko
+"
+)
+]
 extern
 crate
 nsstring

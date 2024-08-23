@@ -1625,6 +1625,17 @@ ContentItem
 :
 MozAltContent
 }
+#
+[
+cfg
+(
+feature
+=
+"
+gecko
+"
+)
+]
 "
 -
 moz
