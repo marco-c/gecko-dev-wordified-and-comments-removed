@@ -6625,7 +6625,7 @@ options
 [
 [
 '
-leading
+auto
 '
 '
 text
