@@ -23985,6 +23985,17 @@ MOZ_ASSERT
 aHandler
 )
 ;
+if
+(
+StaticPrefs
+:
+:
+dom_workers_throttling_enabled
+(
+)
+)
+{
+}
 int32_t
 timerId
 =
