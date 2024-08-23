@@ -3683,7 +3683,6 @@ value
 function
 _buildDecorationsForMarker
 (
-markerDecorations
 marker
 transaction
 newMarkerDecorations
@@ -3960,7 +3959,6 @@ newDecorations
 ;
 _buildDecorationsForMarker
 (
-markerDecorations
 marker
 transaction
 newDecorations
@@ -4028,7 +4026,6 @@ allMarkers
 {
 _buildDecorationsForMarker
 (
-markerDecorations
 marker
 transaction
 allNewDecorations
@@ -5054,7 +5051,6 @@ length
 function
 _buildDecorationsForPositionMarkers
 (
-markerDecorations
 marker
 transaction
 newMarkerDecorations
@@ -5458,7 +5454,6 @@ newDecorations
 ;
 _buildDecorationsForPositionMarkers
 (
-markerDecorations
 marker
 transaction
 newDecorations
@@ -5526,7 +5521,6 @@ markers
 {
 _buildDecorationsForPositionMarkers
 (
-markerDecorations
 marker
 transaction
 allNewDecorations
