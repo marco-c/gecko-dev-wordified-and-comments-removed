@@ -947,6 +947,9 @@ MenuDialogBottomSheet
 onRequestDismiss
 =
 {
+dismiss
+(
+)
 }
 )
 {
