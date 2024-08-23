@@ -654,6 +654,17 @@ true
 ;
 element
 .
+setAttribute
+(
+"
+editable
+"
+"
+"
+)
+;
+element
+.
 _trigger
 =
 trigger
