@@ -2584,6 +2584,8 @@ csp
 resolveOnNewTabCreated
 resolveOnContentBrowserCreated
 globalHistoryOptions
+hasValidUserGestureActivation
+textDirectiveUserActivation
 }
 =
 params
@@ -3384,6 +3386,8 @@ wasSchemelessInput
 params
 .
 wasSchemelessInput
+hasValidUserGestureActivation
+textDirectiveUserActivation
 }
 )
 ;

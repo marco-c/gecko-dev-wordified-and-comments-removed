@@ -10869,6 +10869,12 @@ true
 globalHistoryOptions
 triggeringRemoteType
 wasSchemelessInput
+hasValidUserGestureActivation
+=
+false
+textDirectiveUserActivation
+=
+false
 }
 =
 {
@@ -11436,6 +11442,9 @@ triggeringRemoteType
 wasSchemelessInput
 hasValidUserGestureActivation
 :
+hasValidUserGestureActivation
+|
+|
 !
 !
 openWindowInfo
@@ -11444,6 +11453,9 @@ openWindowInfo
 hasValidUserGestureActivation
 textDirectiveUserActivation
 :
+textDirectiveUserActivation
+|
+|
 !
 !
 openWindowInfo

@@ -511,6 +511,9 @@ browser
 hasValidUserGestureActivation
 :
 true
+textDirectiveUserActivation
+:
+true
 triggeringRemoteType
 :
 this
