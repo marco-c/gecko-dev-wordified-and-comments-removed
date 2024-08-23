@@ -1118,13 +1118,11 @@ onLocationChange
 /
 nsIWebProgressListener
 onStatusChange
-:
-function
-DLT_onStatusChange
 (
-aWebProgress
-aRequest
-aStatus
+webProgress
+request
+status
+message
 )
 {
 /
@@ -1176,7 +1174,7 @@ Components
 .
 isSuccessCode
 (
-aStatus
+status
 )
 )
 {
@@ -1214,7 +1212,8 @@ saver
 .
 onTransferFinished
 (
-aStatus
+status
+message
 )
 ;
 }

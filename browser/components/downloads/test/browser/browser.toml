@@ -35,6 +35,13 @@ js
 ]
 [
 "
+browser_download_failed_msg
+.
+js
+"
+]
+[
+"
 browser_download_is_clickable
 .
 js
