@@ -88,11 +88,14 @@ override
 private
 :
 enum
+class
 BtlsISizeType
+:
+uint8_t
 {
-BTLS_MIN_ISIZE
-BTLS_PREF_ISIZE
-BTLS_FINAL_ISIZE
+MinISize
+PrefISize
+FinalISize
 }
 ;
 void
