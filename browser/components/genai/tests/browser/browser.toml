@@ -66,6 +66,13 @@ js
 ]
 [
 "
+browser_genai_actors
+.
+js
+"
+]
+[
+"
 browser_genai_init
 .
 js
