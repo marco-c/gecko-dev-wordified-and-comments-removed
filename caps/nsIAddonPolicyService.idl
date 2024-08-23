@@ -111,6 +111,12 @@ aSourceURI
 in
 nsIURI
 aExtensionURI
+[
+optional
+]
+in
+boolean
+aFromPrivateWindow
 )
 ;
 AString

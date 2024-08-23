@@ -56,8 +56,6 @@ final
 public
 nsISubstitutingProtocolHandler
 public
-nsIProtocolHandlerWithDynamicFlags
-public
 SubstitutingProtocolHandler
 public
 nsSupportsWeakReference
@@ -65,7 +63,6 @@ nsSupportsWeakReference
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIPROTOCOLHANDLERWITHDYNAMICFLAGS
 NS_FORWARD_NSIPROTOCOLHANDLER
 (
 SubstitutingProtocolHandler
