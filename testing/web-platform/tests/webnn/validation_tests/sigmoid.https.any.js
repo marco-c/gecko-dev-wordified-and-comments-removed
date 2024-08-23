@@ -10,11 +10,10 @@ sigmoid
 '
 )
 ;
-validateUnaryOperation
+validateSingleInputOperation
 (
 '
 sigmoid
 '
-floatingPointTypes
 )
 ;

@@ -10,11 +10,10 @@ softsign
 '
 )
 ;
-validateUnaryOperation
+validateSingleInputOperation
 (
 '
 softsign
 '
-floatingPointTypes
 )
 ;
