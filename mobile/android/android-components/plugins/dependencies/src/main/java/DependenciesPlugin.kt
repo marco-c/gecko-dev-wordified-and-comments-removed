@@ -286,7 +286,7 @@ android_gradle_plugin
 .
 4
 .
-0
+2
 "
 /
 /
@@ -347,7 +347,7 @@ lint
 .
 4
 .
-0
+2
 "
 const
 val
