@@ -5659,6 +5659,7 @@ self
 .
 shell_output
 (
+                    
 "
 /
 system
@@ -5676,6 +5677,10 @@ ls
 timeout
 =
 timeout
+attempts
+=
+3
+                
 )
                 
 boot_completed
@@ -5747,6 +5752,9 @@ ls
 timeout
 =
 timeout
+attempts
+=
+3
                     
 )
                     
@@ -5860,6 +5868,7 @@ self
 .
 shell_output
 (
+                    
 f
 "
 {
@@ -5876,6 +5885,10 @@ ls_dir
 timeout
 =
 timeout
+attempts
+=
+3
+                
 )
                 
 boot_completed
@@ -7087,6 +7100,9 @@ dir
 timeout
 =
 timeout
+attempts
+=
+3
         
 )
         
@@ -7117,6 +7133,9 @@ file
 timeout
 =
 timeout
+attempts
+=
+3
             
 )
             
@@ -7343,6 +7362,9 @@ boot_completed
 timeout
 =
 timeout
+attempts
+=
+3
             
 )
             
@@ -8287,6 +8309,9 @@ sync
 timeout
 =
 timeout
+attempts
+=
+3
 )
     
 staticmethod
@@ -14536,6 +14561,7 @@ close
 def
 shell_output
 (
+        
 self
 cmd
 env
@@ -14550,6 +14576,10 @@ None
 enable_run_as
 =
 False
+attempts
+=
+1
+    
 )
 :
         
@@ -14713,6 +14743,86 @@ ADBError
 "
 "
 "
+        
+for
+attempt
+in
+range
+(
+attempts
+)
+:
+            
+try
+:
+                
+output
+=
+self
+.
+_shell_output
+(
+                    
+cmd
+env
+=
+env
+cwd
+=
+cwd
+timeout
+=
+timeout
+enable_run_as
+=
+enable_run_as
+                
+)
+                
+return
+output
+            
+except
+ADBError
+:
+                
+if
+attempt
+>
+=
+attempts
+-
+1
+:
+                    
+raise
+                
+time
+.
+sleep
+(
+2
+)
+    
+def
+_shell_output
+(
+self
+cmd
+env
+=
+None
+cwd
+=
+None
+timeout
+=
+None
+enable_run_as
+=
+False
+)
+:
         
 adb_process
 =
@@ -15802,6 +15912,9 @@ prop
 timeout
 =
 timeout
+attempts
+=
+3
 )
         
 return
@@ -16349,6 +16462,7 @@ self
 .
 shell_output
 (
+                    
 "
 ifconfig
 %
@@ -16359,6 +16473,10 @@ interface
 timeout
 =
 timeout
+attempts
+=
+3
+                
 )
             
 except
@@ -16623,6 +16741,9 @@ netcfg
 timeout
 =
 timeout
+attempts
+=
+3
 )
         
 except
@@ -17522,12 +17643,18 @@ join
 (
 command
 )
+                    
 timeout
 =
 timeout
+                    
 enable_run_as
 =
 enable_run_as
+                    
+attempts
+=
+3
                 
 )
             
@@ -17924,12 +18051,18 @@ join
 (
 command
 )
+                
 timeout
 =
 timeout
+                
 enable_run_as
 =
 enable_run_as
+                
+attempts
+=
+3
             
 )
     
@@ -18924,6 +19057,10 @@ timeout
 enable_run_as
 =
 enable_run_as
+                    
+attempts
+=
+3
                 
 )
 .
@@ -19551,6 +19688,10 @@ timeout
 enable_run_as
 =
 enable_run_as
+            
+attempts
+=
+3
         
 )
 .
@@ -24980,6 +25121,9 @@ service
 timeout
 =
 timeout
+attempts
+=
+3
             
 )
         
@@ -25282,6 +25426,9 @@ sdcard
 timeout
 =
 timeout
+attempts
+=
+3
             
 )
 .
@@ -25373,6 +25520,9 @@ ps
 timeout
 =
 timeout
+attempts
+=
+3
 )
             
 info
@@ -25413,6 +25563,9 @@ date
 timeout
 =
 timeout
+attempts
+=
+3
 )
         
 if
@@ -25435,6 +25588,9 @@ uptime
 timeout
 =
 timeout
+attempts
+=
+3
 )
             
 if
@@ -25618,6 +25774,9 @@ shell_output
 "
 getenforce
 "
+attempts
+=
+3
 )
         
 except
@@ -25720,6 +25879,9 @@ s
 "
 %
 value
+attempts
+=
+3
 )
             
 self
@@ -25931,6 +26093,9 @@ cmd
 timeout
 =
 timeout
+attempts
+=
+3
 )
 .
 splitlines
@@ -26263,6 +26428,9 @@ cmd
 timeout
 =
 timeout
+attempts
+=
+3
 )
         
 except
@@ -26494,6 +26662,9 @@ cmd
 timeout
 =
 timeout
+attempts
+=
+3
 )
         
 except
@@ -26903,6 +27074,9 @@ mozilla
 timeout
 =
 timeout
+attempts
+=
+3
                     
 )
                     
@@ -27104,6 +27278,9 @@ true
 timeout
 =
 timeout
+attempts
+=
+3
 )
         
 except
@@ -27224,6 +27401,10 @@ timeout
 enable_run_as
 =
 False
+            
+attempts
+=
+3
         
 )
     
@@ -27302,6 +27483,10 @@ timeout
 enable_run_as
 =
 False
+            
+attempts
+=
+3
         
 )
     
@@ -27497,6 +27682,10 @@ timeout
 enable_run_as
 =
 False
+                        
+attempts
+=
+3
                     
 )
                 
@@ -28367,6 +28556,9 @@ self
 shell_output
 (
 dump_packages
+attempts
+=
+3
 )
 .
 split
@@ -28463,6 +28655,9 @@ self
 shell_output
 (
 dump_packages
+attempts
+=
+3
 )
 .
 split
@@ -28677,12 +28872,18 @@ s
 "
 %
 app_name
+            
 timeout
 =
 timeout
+            
 enable_run_as
 =
 False
+            
+attempts
+=
+3
         
 )
         
@@ -30714,6 +30915,7 @@ self
 .
 shell_output
 (
+                
 "
 am
 force
@@ -30727,6 +30929,10 @@ app_name
 timeout
 =
 timeout
+attempts
+=
+3
+            
 )
         
 else

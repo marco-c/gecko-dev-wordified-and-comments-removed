@@ -2337,6 +2337,9 @@ self
 shell_output
 (
 cmd
+attempts
+=
+3
 )
             
 f
@@ -2386,6 +2389,9 @@ self
 shell_output
 (
 cmd
+attempts
+=
+3
 )
             
 f
@@ -2425,6 +2431,9 @@ self
 shell_output
 (
 cmd
+attempts
+=
+3
 )
             
 f
@@ -3250,6 +3259,9 @@ cmd
 enable_run_as
 =
 False
+attempts
+=
+1
 )
 :
         
@@ -3274,6 +3286,9 @@ timeout
 enable_run_as
 =
 enable_run_as
+attempts
+=
+attempts
             
 )
         

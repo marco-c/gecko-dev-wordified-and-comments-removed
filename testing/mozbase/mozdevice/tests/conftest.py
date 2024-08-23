@@ -19,6 +19,16 @@ import
 mozdevice
 import
 pytest
+#
+set
+up
+required
+module
+-
+level
+variables
+/
+objects
 seed
 (
 1488590
@@ -407,6 +417,9 @@ None
 enable_run_as
 =
 False
+attempts
+=
+3
     
 )
 :
