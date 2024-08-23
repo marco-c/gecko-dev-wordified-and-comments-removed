@@ -6,6 +6,11 @@ define
 MOZILLA_DOM_MEDIA_WEBRTC_LIBWEBRTCGLUE_FRAMETRANSFORMER_H_
 #
 include
+<
+map
+>
+#
+include
 "
 api
 /
