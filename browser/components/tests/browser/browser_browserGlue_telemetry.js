@@ -61,7 +61,7 @@ hasWinPackageId
 {
 TelemetryTestUtils
 .
-assertScalarUnset
+assertScalar
 (
 scalars
 "
@@ -70,6 +70,14 @@ os
 environment
 .
 is_taskbar_pinned
+"
+false
+"
+Pin
+set
+on
+win
+MSIX
 "
 )
 ;
