@@ -774,7 +774,7 @@ description
 Clears
 items
 that
-helps
+help
 sites
 load
 faster
