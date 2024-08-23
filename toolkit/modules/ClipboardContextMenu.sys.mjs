@@ -784,6 +784,11 @@ null
 isContextMenu
 :
 true
+position
+:
+"
+overlap
+"
 x
 :
 mouseXInCSSPixels
