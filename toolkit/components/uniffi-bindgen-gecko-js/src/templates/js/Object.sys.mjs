@@ -23,7 +23,7 @@ class
 {
 object
 .
-nm
+js_name
 (
 )
 }
@@ -185,7 +185,7 @@ for
 {
 object
 .
-nm
+js_name
 (
 )
 }
@@ -201,7 +201,7 @@ Promise
 {
 object
 .
-nm
+js_name
 (
 )
 }
@@ -222,7 +222,7 @@ constructed
 {
 object
 .
-nm
+js_name
 (
 )
 }
@@ -246,7 +246,7 @@ for
 {
 object
 .
-nm
+js_name
 (
 )
 }
@@ -260,7 +260,7 @@ returns
 {
 object
 .
-nm
+js_name
 (
 )
 }
@@ -279,7 +279,7 @@ static
 {
 cons
 .
-nm
+js_name
 (
 )
 }
@@ -289,7 +289,7 @@ nm
 {
 cons
 .
-arg_names
+js_arg_names
 (
 )
 }
@@ -341,7 +341,7 @@ methods
 {
 meth
 .
-nm
+js_name
 (
 )
 }
@@ -351,7 +351,7 @@ nm
 {
 meth
 .
-arg_names
+js_arg_names
 (
 )
 }
@@ -434,7 +434,7 @@ new
 {
 object
 .
-nm
+js_name
 (
 )
 }
@@ -482,7 +482,7 @@ a
 {
 object
 .
-nm
+js_name
 (
 )
 }
@@ -515,7 +515,7 @@ readPointer
 {
 object
 .
-nm
+js_name
 (
 )
 }
@@ -539,7 +539,7 @@ writePointer
 {
 object
 .
-nm
+js_name
 (
 )
 }

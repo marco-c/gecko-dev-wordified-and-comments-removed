@@ -17,7 +17,7 @@ function
 {
 func
 .
-nm
+js_name
 (
 )
 }
@@ -27,7 +27,7 @@ nm
 {
 func
 .
-arg_names
+js_arg_names
 (
 )
 }

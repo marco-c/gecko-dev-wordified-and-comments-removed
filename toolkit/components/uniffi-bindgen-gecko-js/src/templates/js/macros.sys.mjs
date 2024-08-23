@@ -291,7 +291,7 @@ checkType
 {
 arg
 .
-nm
+js_name
 (
 )
 }
@@ -319,7 +319,7 @@ addItemDescriptionPart
 {
 arg
 .
-nm
+js_name
 (
 )
 }
@@ -453,7 +453,7 @@ lower_fn
 {
 arg
 .
-nm
+js_name
 (
 )
 }

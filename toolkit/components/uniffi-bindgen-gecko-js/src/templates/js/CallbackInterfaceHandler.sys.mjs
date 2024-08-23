@@ -58,7 +58,7 @@ UniFFICallbackMethodHandler
 {
 method
 .
-nm
+js_name
 (
 )
 }

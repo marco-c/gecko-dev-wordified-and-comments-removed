@@ -225,7 +225,7 @@ iter_user_ffi_function_definitions
 {
 func
 .
-rust_return_type
+cpp_return_type
 (
 )
 }
@@ -234,7 +234,7 @@ rust_return_type
 {
 func
 .
-rust_name
+cpp_name
 (
 )
 }
@@ -244,7 +244,7 @@ rust_name
 {
 func
 .
-rust_arg_list
+cpp_arg_list
 (
 )
 }
@@ -355,7 +355,7 @@ ffi_object_clone
 (
 )
 .
-rust_name
+cpp_name
 (
 )
 }
@@ -368,7 +368,7 @@ ffi_object_free
 (
 )
 .
-rust_name
+cpp_name
 (
 )
 }

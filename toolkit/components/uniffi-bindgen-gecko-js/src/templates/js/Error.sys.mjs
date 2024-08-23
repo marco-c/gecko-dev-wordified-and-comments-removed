@@ -29,7 +29,7 @@ class
 {
 error
 .
-nm
+js_name
 (
 )
 }
@@ -70,7 +70,7 @@ extends
 {
 error
 .
-nm
+js_name
 (
 )
 }
@@ -135,7 +135,7 @@ fields
 {
 field
 .
-nm
+js_name
 (
 )
 }
@@ -187,7 +187,7 @@ fields
 {
 field
 .
-nm
+js_name
 (
 )
 }
@@ -198,7 +198,7 @@ nm
 {
 field
 .
-nm
+js_name
 (
 )
 }
@@ -272,7 +272,7 @@ this
 {
 field
 .
-nm
+js_name
 (
 )
 }
@@ -282,7 +282,7 @@ nm
 {
 field
 .
-nm
+js_name
 (
 )
 }
@@ -534,7 +534,7 @@ Unknown
 {
 error
 .
-nm
+js_name
 (
 )
 }
@@ -631,7 +631,7 @@ value
 {
 field
 .
-nm
+js_name
 (
 )
 }
@@ -664,7 +664,7 @@ Unknown
 {
 error
 .
-nm
+js_name
 (
 )
 }
@@ -758,7 +758,7 @@ value
 {
 field
 .
-nm
+js_name
 (
 )
 }
@@ -790,7 +790,7 @@ Unknown
 {
 error
 .
-nm
+js_name
 (
 )
 }
@@ -807,7 +807,7 @@ errorClass
 {
 error
 .
-nm
+js_name
 (
 )
 }

@@ -23,7 +23,7 @@ class
 {
 record
 .
-nm
+js_name
 (
 )
 }
@@ -76,7 +76,7 @@ checkType
 {
 field
 .
-nm
+js_name
 (
 )
 }
@@ -104,7 +104,7 @@ addItemDescriptionPart
 {
 field
 .
-nm
+js_name
 (
 )
 }
@@ -142,7 +142,7 @@ this
 {
 field
 .
-nm
+js_name
 (
 )
 }
@@ -152,7 +152,7 @@ nm
 {
 field
 .
-nm
+js_name
 (
 )
 }
@@ -206,7 +206,7 @@ format
 (
 field
 .
-nm
+js_name
 (
 )
 )
@@ -221,7 +221,7 @@ format
 (
 field
 .
-nm
+js_name
 (
 )
 )
@@ -287,7 +287,7 @@ new
 {
 record
 .
-nm
+js_name
 (
 )
 }
@@ -311,7 +311,7 @@ fields
 {
 field
 .
-nm
+js_name
 (
 )
 }
@@ -376,7 +376,7 @@ value
 {
 field
 .
-nm
+js_name
 (
 )
 }
@@ -435,7 +435,7 @@ value
 {
 field
 .
-nm
+js_name
 (
 )
 }
@@ -474,7 +474,7 @@ instanceof
 {
 record
 .
-nm
+js_name
 (
 )
 }
@@ -492,7 +492,7 @@ Expected
 {
 record
 .
-nm
+js_name
 (
 )
 }
@@ -541,7 +541,7 @@ value
 {
 field
 .
-nm
+js_name
 (
 )
 }
@@ -571,7 +571,7 @@ addItemDescriptionPart
 {
 field
 .
-nm
+js_name
 (
 )
 }

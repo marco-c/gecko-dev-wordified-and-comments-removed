@@ -1011,7 +1011,7 @@ ScaffoldingConverter
 "
 ffi_type
 .
-rust_type
+cpp_type
 (
 )
 )
@@ -1158,7 +1158,7 @@ impl
 FfiFunction
 {
 fn
-nm
+js_name
 (
 &
 self
@@ -1178,7 +1178,7 @@ to_upper_camel_case
 )
 }
 fn
-rust_name
+cpp_name
 (
 &
 self
@@ -1198,7 +1198,7 @@ to_string
 )
 }
 fn
-rust_return_type
+cpp_return_type
 (
 &
 self
@@ -1222,7 +1222,7 @@ t
 >
 t
 .
-rust_type
+cpp_type
 (
 )
 None
@@ -1238,7 +1238,7 @@ to_owned
 }
 }
 fn
-rust_arg_list
+cpp_arg_list
 (
 &
 self
@@ -1273,7 +1273,7 @@ a
 |
 a
 .
-rust_type
+cpp_type
 (
 )
 )
@@ -1319,7 +1319,7 @@ impl
 FfiType
 {
 fn
-rust_type
+cpp_type
 (
 &
 self
@@ -1606,7 +1606,7 @@ impl
 FfiArgument
 {
 fn
-rust_type
+cpp_type
 (
 &
 self
@@ -1621,7 +1621,7 @@ type_
 (
 )
 .
-rust_type
+cpp_type
 (
 )
 }
@@ -1640,7 +1640,7 @@ impl
 Object
 {
 fn
-nm
+js_name
 (
 &
 self
@@ -1674,7 +1674,7 @@ impl
 CallbackInterface
 {
 fn
-nm
+js_name
 (
 &
 self

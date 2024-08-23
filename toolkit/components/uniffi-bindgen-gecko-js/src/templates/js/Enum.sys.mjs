@@ -16,7 +16,7 @@ const
 {
 enum_
 .
-nm
+js_name
 (
 )
 }
@@ -73,7 +73,7 @@ freeze
 {
 enum_
 .
-nm
+js_name
 (
 )
 }
@@ -144,7 +144,7 @@ return
 {
 enum_
 .
-nm
+js_name
 (
 )
 }
@@ -181,7 +181,7 @@ Unknown
 {
 enum_
 .
-nm
+js_name
 (
 )
 }
@@ -222,7 +222,7 @@ value
 {
 enum_
 .
-nm
+js_name
 (
 )
 }
@@ -275,7 +275,7 @@ Unknown
 {
 enum_
 .
-nm
+js_name
 (
 )
 }
@@ -351,7 +351,7 @@ for
 {
 enum_
 .
-nm
+js_name
 (
 )
 }
@@ -374,7 +374,7 @@ class
 {
 enum_
 .
-nm
+js_name
 (
 )
 }
@@ -398,7 +398,7 @@ variants
 {
 enum_
 .
-nm
+js_name
 (
 )
 }
@@ -424,7 +424,7 @@ extends
 {
 enum_
 .
-nm
+js_name
 (
 )
 }
@@ -449,7 +449,7 @@ fields
 {
 field
 .
-nm
+js_name
 (
 )
 }
@@ -506,7 +506,7 @@ this
 {
 field
 .
-nm
+js_name
 (
 )
 }
@@ -516,7 +516,7 @@ nm
 {
 field
 .
-nm
+js_name
 (
 )
 }
@@ -601,7 +601,7 @@ new
 {
 enum_
 .
-nm
+js_name
 (
 )
 }
@@ -694,7 +694,7 @@ Unknown
 {
 enum_
 .
-nm
+js_name
 (
 )
 }
@@ -733,7 +733,7 @@ instanceof
 {
 enum_
 .
-nm
+js_name
 (
 )
 }
@@ -799,7 +799,7 @@ value
 {
 field
 .
-nm
+js_name
 (
 )
 }
@@ -831,7 +831,7 @@ Unknown
 {
 enum_
 .
-nm
+js_name
 (
 )
 }
@@ -882,7 +882,7 @@ instanceof
 {
 enum_
 .
-nm
+js_name
 (
 )
 }
@@ -937,7 +937,7 @@ value
 {
 field
 .
-nm
+js_name
 (
 )
 }
@@ -970,7 +970,7 @@ Unknown
 {
 enum_
 .
-nm
+js_name
 (
 )
 }
@@ -996,7 +996,7 @@ instanceof
 {
 enum_
 .
-nm
+js_name
 (
 )
 }
@@ -1021,7 +1021,7 @@ of
 {
 enum_
 .
-nm
+js_name
 (
 )
 }

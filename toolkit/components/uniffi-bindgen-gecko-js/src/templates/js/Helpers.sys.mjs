@@ -830,7 +830,7 @@ a
 {
 object
 .
-nm
+js_name
 (
 )
 }
@@ -874,7 +874,7 @@ readPointer
 {
 object
 .
-nm
+js_name
 (
 )
 }
@@ -947,7 +947,7 @@ a
 {
 object
 .
-nm
+js_name
 (
 )
 }
@@ -991,7 +991,7 @@ writePointer
 {
 object
 .
-nm
+js_name
 (
 )
 }
