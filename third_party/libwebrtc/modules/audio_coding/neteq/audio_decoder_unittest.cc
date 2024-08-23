@@ -2949,7 +2949,7 @@ undefined_behavior_sanitizer
 TEST_F
 (
 AudioDecoderG722StereoTest
-EncodeDecode
+DISABLED_EncodeDecode
 )
 {
 #
@@ -2957,7 +2957,7 @@ else
 TEST_F
 (
 AudioDecoderG722StereoTest
-DISABLED_EncodeDecode
+EncodeDecode
 )
 {
 #
