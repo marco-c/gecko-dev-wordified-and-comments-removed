@@ -8277,14 +8277,6 @@ FirstSubsumedFrame
 >
 (
 )
-|
-|
-!
-unreachedEvalTargets
-.
-empty
-(
-)
 ;
 MOZ_ASSERT_IF
 (
@@ -8904,6 +8896,10 @@ empty
 break
 ;
 }
+seenCached
+=
+false
+;
 }
 if
 (
