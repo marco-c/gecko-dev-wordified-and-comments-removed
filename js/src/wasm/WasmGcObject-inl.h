@@ -1019,7 +1019,7 @@ isDataInline
 uint32_t
 storageBytes
 =
-calcStorageBytes
+calcStorageBytesUnchecked
 (
 typeDef
 (
