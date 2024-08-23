@@ -168,6 +168,15 @@ return
 mCookieData
 ;
 }
+void
+GetCookieString
+(
+nsACString
+&
+aCookieString
+)
+const
+;
 bool
 ParseMaxAgeAttribute
 (
@@ -393,6 +402,9 @@ mWarnings
 ;
 CookieStruct
 mCookieData
+;
+nsCString
+mCookieString
 ;
 }
 ;
