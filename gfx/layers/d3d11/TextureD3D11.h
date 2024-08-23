@@ -217,6 +217,9 @@ class
 IMFSampleUsageInfo
 ;
 class
+VideoProcessorD3D11
+;
+class
 D3D11TextureData
 final
 :
@@ -1627,6 +1630,15 @@ ID3D11Device
 *
 const
 aDevice
+DataMutex
+<
+RefPtr
+<
+VideoProcessorD3D11
+>
+>
+&
+aVideoProcessorD3D11
 )
 ;
 void

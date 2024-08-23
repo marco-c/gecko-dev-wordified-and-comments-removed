@@ -225,6 +225,13 @@ TextureHostWrapperD3D11
 .
 h
 "
+"
+d3d11
+/
+VideoProcessorD3D11
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +
@@ -262,6 +269,13 @@ cpp
 d3d11
 /
 TextureHostWrapperD3D11
+.
+cpp
+"
+"
+d3d11
+/
+VideoProcessorD3D11
 .
 cpp
 "
