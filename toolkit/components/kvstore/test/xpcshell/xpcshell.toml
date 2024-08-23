@@ -34,10 +34,3 @@ test_kvstore
 js
 "
 ]
-[
-"
-test_sqlite_kvstore
-.
-js
-"
-]
