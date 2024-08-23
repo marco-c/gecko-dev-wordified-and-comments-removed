@@ -9360,8 +9360,11 @@ button
 win
 )
 ;
-return
+await
 promiseMenuOpen
+;
+return
+popup
 ;
 }
 searchModeSwitcherPopupClosed
