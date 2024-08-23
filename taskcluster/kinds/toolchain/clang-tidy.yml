@@ -637,9 +637,6 @@ clang
 -
 tidy
 )
-tier
-:
-2
 worker
 :
 max
