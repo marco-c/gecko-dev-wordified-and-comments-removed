@@ -18847,7 +18847,9 @@ x
 armn
 "
 "
-Mshtakan
+Noto
+Sans
+Armenian
 "
 )
 ;
@@ -18869,7 +18871,9 @@ x
 armn
 "
 "
-Mshtakan
+Noto
+Sans
+Armenian
 "
 )
 ;
@@ -18890,7 +18894,9 @@ armn
 "
 "
 Menlo
-Mshtakan
+Noto
+Sans
+Armenian
 "
 )
 ;
