@@ -111275,6 +111275,11 @@ StreamFilterDataEvent
 interface
 StructuredCloneHolder
 {
+readonly
+dataSize
+:
+number
+;
 deserialize
 (
 global
