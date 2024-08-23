@@ -438578,7 +438578,7 @@ workerVersion
 .
 5
 .
-195
+252
 "
 ;
 if
@@ -442285,14 +442285,14 @@ pdfjsVersion
 .
 5
 .
-195
+252
 "
 ;
 const
 pdfjsBuild
 =
 "
-a372bf8f4
+e44e4db52
 "
 ;
 var
