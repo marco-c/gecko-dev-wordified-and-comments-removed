@@ -1900,7 +1900,7 @@ json
 EndIf
 }
 ;
-Explictly
+Explicitly
 remove
 empty
 webapprt
