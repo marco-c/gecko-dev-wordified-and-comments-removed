@@ -7508,9 +7508,6 @@ dom
 class
 FrameRequestCallback
 ;
-class
-VideoFrameRequestCallback
-;
 }
 template
 <
@@ -7681,16 +7678,6 @@ dom
 FrameRequestCallback
 >
 LogFrameRequestCallback
-;
-typedef
-LogTaskBase
-<
-dom
-:
-:
-VideoFrameRequestCallback
->
-LogVideoFrameRequestCallback
 ;
 }
 #
