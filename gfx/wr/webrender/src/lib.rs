@@ -608,6 +608,7 @@ WebRenderOptions
 create_webrender_instance
 AsyncPropertySampler
 SceneBuilderHooks
+RenderBackendHooks
 ONE_TIME_USAGE_HINT
 }
 ;

@@ -36963,6 +36963,9 @@ rayon
 remove_dir_all
 "
 "
+static_prefs
+"
+"
 swgl
 "
 "
