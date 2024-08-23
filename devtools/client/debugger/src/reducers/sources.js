@@ -269,6 +269,11 @@ shouldHighlightSelectedLocation
 action
 .
 shouldHighlightSelectedLocation
+shouldScrollToSelectedLocation
+:
+action
+.
+shouldScrollToSelectedLocation
 }
 ;
 }
