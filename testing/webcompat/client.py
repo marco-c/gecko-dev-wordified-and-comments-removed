@@ -2128,17 +2128,20 @@ f
 /
 *
 [
-contains
-(
 text
 (
 )
+[
+contains
+(
+.
 '
 {
 text
 }
 '
 )
+]
 ]
 "
             
@@ -3932,7 +3935,7 @@ kwargs
 try
 :
             
-ele
+e
 =
 self
 .
@@ -3944,17 +3947,20 @@ f
 /
 *
 [
-contains
-(
 text
 (
 )
+[
+contains
+(
+.
 '
 {
 text
 }
 '
 )
+]
 ]
 "
 *
@@ -3967,7 +3973,7 @@ self
 .
 _do_is_displayed_check
 (
-ele
+e
 is_displayed
 )
         
