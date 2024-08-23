@@ -14219,7 +14219,7 @@ remoteTabManagement
 .
 enabled
 "
-false
+true
 )
 ;
 pref
