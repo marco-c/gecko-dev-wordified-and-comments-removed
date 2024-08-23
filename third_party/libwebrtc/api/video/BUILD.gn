@@ -1583,17 +1583,6 @@ video_bitrate_allocator
 .
 .
 /
-.
-.
-/
-rtc_base
-:
-checks
-"
-"
-.
-.
-/
 environment
 "
 "

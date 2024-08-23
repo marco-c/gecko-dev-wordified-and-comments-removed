@@ -28,6 +28,17 @@ include
 "
 api
 /
+environment
+/
+environment_factory
+.
+h
+"
+#
+include
+"
+api
+/
 video
 /
 video_bitrate_allocation
@@ -566,6 +577,9 @@ true
 SimulcastRateAllocator
 allocator
 (
+CreateEnvironment
+(
+)
 codec
 )
 ;

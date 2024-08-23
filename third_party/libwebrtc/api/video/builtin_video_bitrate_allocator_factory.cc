@@ -118,8 +118,12 @@ unique_ptr
 <
 VideoBitrateAllocator
 >
-CreateVideoBitrateAllocator
+Create
 (
+const
+Environment
+&
+env
 const
 VideoCodec
 &
@@ -177,6 +181,7 @@ make_unique
 SimulcastRateAllocator
 >
 (
+env
 codec
 )
 ;

@@ -476,6 +476,10 @@ kMaxSimulcastStreams
 >
 scalability_modes_
 ;
+const
+Environment
+env_
+;
 VideoCodec
 codec_
 ;
