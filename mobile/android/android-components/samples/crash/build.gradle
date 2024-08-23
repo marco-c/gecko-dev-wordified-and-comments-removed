@@ -186,6 +186,10 @@ httpurlconnection
 '
 )
 implementation
+ComponentsDependencies
+.
+mozilla_glean
+implementation
 project
 (
 '

@@ -77,9 +77,7 @@ NavController
 import
 mozilla
 .
-components
-.
-service
+telemetry
 .
 glean
 .

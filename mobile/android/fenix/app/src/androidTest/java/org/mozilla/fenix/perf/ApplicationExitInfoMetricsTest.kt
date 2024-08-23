@@ -127,9 +127,7 @@ ActivityTestRule
 import
 mozilla
 .
-components
-.
-service
+telemetry
 .
 glean
 .
