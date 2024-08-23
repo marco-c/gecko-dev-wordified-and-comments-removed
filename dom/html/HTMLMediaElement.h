@@ -2085,12 +2085,6 @@ InvisiblePlayTime
 const
 ;
 double
-VideoDecodeSuspendedTime
-(
-)
-const
-;
-double
 TotalAudioPlayTime
 (
 )

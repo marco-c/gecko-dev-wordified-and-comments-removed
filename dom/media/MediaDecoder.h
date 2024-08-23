@@ -2331,12 +2331,6 @@ GetInvisibleVideoPlayTimeInSeconds
 const
 ;
 double
-GetVideoDecodeSuspendedTimeInSeconds
-(
-)
-const
-;
-double
 GetTotalAudioPlayTimeInSeconds
 (
 )

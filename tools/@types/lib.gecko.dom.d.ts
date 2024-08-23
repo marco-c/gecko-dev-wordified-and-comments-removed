@@ -54869,11 +54869,6 @@ totalVideoPlayTime
 number
 ;
 readonly
-videoDecodeSuspendedTime
-:
-number
-;
-readonly
 videoTracks
 :
 VideoTrackList

@@ -1594,14 +1594,6 @@ ChromeOnly
 readonly
 attribute
 double
-videoDecodeSuspendedTime
-;
-[
-ChromeOnly
-]
-readonly
-attribute
-double
 totalAudioPlayTime
 ;
 [
