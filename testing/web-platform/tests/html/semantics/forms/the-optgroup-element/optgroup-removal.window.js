@@ -30,6 +30,10 @@ option
 >
 1
 <
+/
+optgroup
+>
+<
 optgroup
 >
 <
