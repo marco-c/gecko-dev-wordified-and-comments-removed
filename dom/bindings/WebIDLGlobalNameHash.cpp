@@ -241,7 +241,10 @@ aEntry
 -
 >
 mCreate
-false
+DefineInterfaceProperty
+:
+:
+No
 )
 ;
 if
@@ -704,7 +707,10 @@ entry
 -
 >
 mCreate
-true
+DefineInterfaceProperty
+:
+:
+Always
 )
 )
 ;
@@ -1092,7 +1098,10 @@ entry
 -
 >
 mCreate
-true
+DefineInterfaceProperty
+:
+:
+Always
 )
 )
 )

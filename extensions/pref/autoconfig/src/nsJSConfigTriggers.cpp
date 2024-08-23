@@ -426,7 +426,7 @@ dom
 ChromeUtils_Binding
 :
 :
-GetConstructorObject
+CreateAndDefineOnGlobal
 (
 cx
 )
