@@ -2126,13 +2126,6 @@ ScreenIntCoord
 aOffset
 )
 ;
-void
-KeyboardHeightChanged
-(
-ScreenIntCoord
-aHeight
-)
-;
 #
 endif
 void

@@ -2590,13 +2590,6 @@ async
 DynamicToolbarOffsetChanged
 (
 ScreenIntCoord
-offset
-)
-;
-async
-KeyboardHeightChanged
-(
-ScreenIntCoord
 height
 )
 ;

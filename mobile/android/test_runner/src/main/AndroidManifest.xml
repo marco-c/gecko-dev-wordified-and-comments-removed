@@ -273,15 +273,6 @@ screenSize
 "
 android
 :
-windowSoftInputMode
-=
-"
-stateUnspecified
-|
-adjustResize
-"
-android
-:
 exported
 =
 "

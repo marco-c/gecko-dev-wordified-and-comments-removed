@@ -7432,13 +7432,6 @@ InvalidateFrame
 (
 )
 ;
-mPresShell
--
->
-RefreshViewportSize
-(
-)
-;
 }
 }
 }

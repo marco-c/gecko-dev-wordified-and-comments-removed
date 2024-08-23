@@ -194,17 +194,6 @@ ScreenIntCoord
 aOffset
 )
 ;
-virtual
-void
-KeyboardHeightChanged
-(
-mozilla
-:
-:
-ScreenIntCoord
-aHeight
-)
-;
 #
 endif
 virtual
