@@ -13481,6 +13481,7 @@ ParsedBranchHints
 :
 b
 =
+!
 module
 -
 >
@@ -13492,7 +13493,11 @@ codeMeta
 (
 )
 .
-parsedBranchHints
+branchHints
+.
+failedParse
+(
+)
 ;
 break
 ;

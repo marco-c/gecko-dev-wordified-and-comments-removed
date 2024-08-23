@@ -315,12 +315,11 @@ impName
 ;
 MOZ_ALWAYS_TRUE
 (
-codeMeta
+moduleMeta
 -
 >
 addImportedFunc
 (
-moduleMeta
 std
 :
 :
@@ -389,12 +388,11 @@ expName
 ;
 MOZ_ALWAYS_TRUE
 (
-codeMeta
+moduleMeta
 -
 >
 addDefinedFunc
 (
-moduleMeta
 std
 :
 :

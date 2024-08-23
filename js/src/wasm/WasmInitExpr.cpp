@@ -2979,9 +2979,13 @@ false
 codeMeta
 -
 >
+funcs
+[
+funcIndex
+]
+.
 declareFuncExported
 (
-funcIndex
 false
 true
 )

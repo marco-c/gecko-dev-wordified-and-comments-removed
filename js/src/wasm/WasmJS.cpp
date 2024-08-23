@@ -21777,9 +21777,13 @@ numFuncImports
 codeMeta
 -
 >
+funcs
+[
+0
+]
+.
 declareFuncExported
 (
-0
 true
 true
 )

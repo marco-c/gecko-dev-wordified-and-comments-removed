@@ -11501,9 +11501,13 @@ funcIndex
 codeMeta_
 -
 >
+funcs
+[
+funcIndex
+]
+.
 declareFuncExported
 (
-funcIndex
 true
 false
 )
