@@ -3585,15 +3585,6 @@ ldflags
 add_old_configure_assignment
 (
 "
-_COMPILATION_OPTIMIZE_LDFLAGS
-"
-linker_optimize_flags
-.
-ldflags
-)
-add_old_configure_assignment
-(
-"
 CPPFLAGS
 "
 os_cppflags
