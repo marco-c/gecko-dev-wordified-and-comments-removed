@@ -11945,8 +11945,15 @@ SliceBudget
 budget
 )
 {
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+storeBuffer
+(
+)
+.
+isEnabled
+(
+)
 !
 storeBuffer
 (
