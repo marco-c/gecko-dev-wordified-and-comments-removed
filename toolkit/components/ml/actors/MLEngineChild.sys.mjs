@@ -2551,8 +2551,6 @@ async
 url
 =
 >
-{
-return
 getModelFile
 (
 {
@@ -2560,10 +2558,13 @@ url
 progressCallback
 :
 notificationsCallback
+taskName
+:
+pipelineOptions
+.
+taskName
 }
 )
-;
-}
 }
 )
 ;
