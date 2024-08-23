@@ -36457,15 +36457,6 @@ value
 :
 true
 #
-elif
-defined
-(
-XP_WIN
-)
-value
-:
-IS_NIGHTLY_BUILD
-#
 else
 value
 :
@@ -38308,7 +38299,7 @@ type
 bool
 value
 :
-IS_NIGHTLY_BUILD
+false
 mirror
 :
 once
