@@ -2876,13 +2876,6 @@ elements_
 emptyObjectElementsShared
 ;
 }
-inline
-bool
-isInWholeCellBuffer
-(
-)
-const
-;
 static
 inline
 NativeObject

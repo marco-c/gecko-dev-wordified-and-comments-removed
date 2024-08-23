@@ -3074,6 +3074,16 @@ vp
 )
 ;
 }
+static
+inline
+bool
+isInWholeCellBuffer
+(
+Cell
+*
+cell
+)
+;
 inline
 void
 putWholeCell
