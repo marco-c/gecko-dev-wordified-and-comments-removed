@@ -5750,12 +5750,6 @@ attention
 =
 false
 ;
-newTab
-.
-finishUnselectedTabHoverTimer
-(
-)
-;
 newBrowser
 .
 unselectedTabHover
