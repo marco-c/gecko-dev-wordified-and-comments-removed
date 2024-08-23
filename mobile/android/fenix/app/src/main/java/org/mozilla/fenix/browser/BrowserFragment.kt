@@ -1358,6 +1358,9 @@ StandardSnackbarErrorBinding
 requireActivity
 (
 )
+binding
+.
+dynamicSnackbarContainer
 requireActivity
 (
 )

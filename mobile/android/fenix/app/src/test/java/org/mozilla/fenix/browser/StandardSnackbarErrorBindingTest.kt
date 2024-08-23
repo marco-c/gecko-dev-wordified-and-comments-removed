@@ -143,12 +143,6 @@ mockk
 .
 verify
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -288,13 +282,6 @@ class
 class
 StandardSnackbarErrorBindingTest
 {
-OptIn
-(
-ExperimentalCoroutinesApi
-:
-:
-class
-)
 get
 :
 Rule
@@ -310,6 +297,12 @@ var
 activity
 :
 Activity
+private
+lateinit
+var
+snackbarContainer
+:
+ViewGroup
 private
 lateinit
 var
@@ -365,6 +358,11 @@ mockk
 relaxed
 =
 true
+)
+snackbarContainer
+=
+mockk
+(
 )
 snackbar
 =
@@ -484,6 +482,7 @@ standardSnackbarError
 StandardSnackbarErrorBinding
 (
 activity
+snackbarContainer
 appStore
 )
 standardSnackbarError
@@ -641,6 +640,7 @@ standardSnackbarError
 StandardSnackbarErrorBinding
 (
 activity
+snackbarContainer
 appStore
 )
 standardSnackbarError
