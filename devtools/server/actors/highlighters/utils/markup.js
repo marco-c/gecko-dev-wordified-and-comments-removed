@@ -630,6 +630,7 @@ window
 document
 .
 documentElement
+?
 .
 namespaceURI
 =
@@ -867,12 +868,6 @@ document
 ;
 if
 (
-doc
-.
-documentElement
-&
-&
-(
 !
 this
 .
@@ -894,7 +889,6 @@ readyState
 "
 uninitialized
 "
-)
 )
 {
 this

@@ -136,5 +136,10 @@ VIEWPORT_SIZE
 "
 ViewportSizeHighlighter
 "
+VIEWPORT_SIZE_ON_RESIZE
+:
+"
+ViewportSizeOnResizeHighlighter
+"
 }
 ;

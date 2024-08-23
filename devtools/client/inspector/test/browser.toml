@@ -1479,6 +1479,17 @@ js
 "
 browser_inspector_highlighter
 -
+viewport
+-
+size
+.
+js
+"
+]
+[
+"
+browser_inspector_highlighter
+-
 zoom
 .
 js

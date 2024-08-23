@@ -1866,6 +1866,9 @@ true
 navigation
 :
 true
+viewportSizeOnResizeHighlighter
+:
+true
 }
 }
 ;
