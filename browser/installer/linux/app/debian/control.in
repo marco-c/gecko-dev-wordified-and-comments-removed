@@ -44,16 +44,6 @@ Depends
 {
 DEB_DEPENDS
 }
-Provides
-:
-gnome
--
-www
--
-browser
-www
--
-browser
 Description
 :
 {
