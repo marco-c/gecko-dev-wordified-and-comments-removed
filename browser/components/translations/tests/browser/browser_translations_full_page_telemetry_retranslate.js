@@ -86,9 +86,13 @@ FullPageTranslationsTestUtils
 .
 changeSelectedFromLanguage
 (
+{
+langTag
+:
 "
 fr
 "
+}
 )
 ;
 await
@@ -329,9 +333,13 @@ FullPageTranslationsTestUtils
 .
 changeSelectedToLanguage
 (
+{
+langTag
+:
 "
 uk
 "
+}
 )
 ;
 await
