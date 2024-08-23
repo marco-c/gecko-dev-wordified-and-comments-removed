@@ -556,6 +556,13 @@ h
 #
 include
 "
+nsIClipboard
+.
+h
+"
+#
+include
+"
 nsIClipboardHelper
 .
 h
@@ -9246,10 +9253,13 @@ nsCopySupport
 FireClipboardEvent
 (
 eCopy
+Some
+(
 nsIClipboard
 :
 :
 kGlobalClipboard
+)
 presShell
 nullptr
 )

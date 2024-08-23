@@ -8,6 +8,13 @@ idl
 #
 include
 "
+nsIClipboard
+.
+idl
+"
+#
+include
+"
 domstubs
 .
 idl
@@ -734,7 +741,7 @@ void
 paste
 (
 in
-long
+nsIClipboard_ClipboardType
 aClipboardType
 )
 ;
@@ -753,7 +760,7 @@ boolean
 canPaste
 (
 in
-long
+nsIClipboard_ClipboardType
 aClipboardType
 )
 ;

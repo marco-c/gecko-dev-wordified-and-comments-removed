@@ -318,13 +318,6 @@ h
 #
 include
 "
-nsIClipboard
-.
-h
-"
-#
-include
-"
 nsIContent
 .
 h
@@ -2808,7 +2801,10 @@ HandlePasteAsQuotation
 AutoEditActionDataSetter
 &
 aEditActionData
-int32_t
+nsIClipboard
+:
+:
+ClipboardType
 aClipboardType
 )
 {

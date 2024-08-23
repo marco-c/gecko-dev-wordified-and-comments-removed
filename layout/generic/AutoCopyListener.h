@@ -110,7 +110,10 @@ ifdef
 XP_MACOSX
 static
 const
-int16_t
+nsIClipboard
+:
+:
+ClipboardType
 sClipboardID
 =
 nsIClipboard
@@ -122,7 +125,10 @@ kSelectionCache
 else
 static
 const
-int16_t
+nsIClipboard
+:
+:
+ClipboardType
 sClipboardID
 =
 nsIClipboard

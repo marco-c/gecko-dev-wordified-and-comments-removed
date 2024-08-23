@@ -27305,7 +27305,10 @@ NS_OK
 }
 }
 }
-int32_t
+nsIClipboard
+:
+:
+ClipboardType
 clipboardType
 =
 nsIClipboard
@@ -27368,7 +27371,10 @@ nsCopySupport
 FireClipboardEvent
 (
 ePaste
+Some
+(
 clipboardType
+)
 aPresShell
 selection
 )
