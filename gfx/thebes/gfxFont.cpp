@@ -15089,6 +15089,14 @@ CompositionOp
 :
 OP_OVER
 ;
+drawOptions
+.
+mAlpha
+=
+1
+.
+0f
+;
 bool
 ok
 =
