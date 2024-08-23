@@ -429,6 +429,13 @@ js
 ]
 [
 "
+browser_pdfjs_update_preferences
+.
+js
+"
+]
+[
+"
 browser_pdfjs_views
 .
 js
