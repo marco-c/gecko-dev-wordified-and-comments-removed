@@ -32700,6 +32700,15 @@ return
 false
 ;
 }
+if
+(
+deadCode_
+)
+{
+return
+true
+;
+}
 IndexType
 indexType
 =
