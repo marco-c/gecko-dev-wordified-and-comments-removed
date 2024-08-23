@@ -713,6 +713,18 @@ helpers
 .
 TestAssetHelper
 .
+waitingTimeLong
+import
+org
+.
+mozilla
+.
+fenix
+.
+helpers
+.
+TestAssetHelper
+.
 waitingTimeShort
 import
 org
@@ -3372,7 +3384,7 @@ verifyExistingTopSitesTabs
 :
 Waiting
 for
-waitingTime
+waitingTimeLong
 ms
 for
 top
@@ -3410,7 +3422,7 @@ title
 .
 waitForExists
 (
-waitingTime
+waitingTimeLong
 )
 Log
 .
@@ -3422,7 +3434,7 @@ verifyExistingTopSitesTabs
 :
 Waited
 for
-waitingTime
+waitingTimeLong
 ms
 for
 top
