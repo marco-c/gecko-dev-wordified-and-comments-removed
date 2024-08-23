@@ -2183,7 +2183,7 @@ R
 .
 string
 .
-juno_onboarding_sign_in_description_2
+juno_onboarding_sign_in_description_3
 )
 )
 .
