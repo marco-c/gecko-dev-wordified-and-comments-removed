@@ -7324,7 +7324,7 @@ true
 -
 name
 :
-StoreUnboxedBigInt
+StoreUnboxedInt64
 gen_boilerplate
 :
 false
@@ -7332,6 +7332,13 @@ false
 name
 :
 StoreDataViewElement
+gen_boilerplate
+:
+false
+-
+name
+:
+StoreDataViewElement64
 gen_boilerplate
 :
 false
@@ -7362,7 +7369,7 @@ true
 -
 name
 :
-StoreTypedArrayElementHoleBigInt
+StoreTypedArrayElementHoleInt64
 gen_boilerplate
 :
 false

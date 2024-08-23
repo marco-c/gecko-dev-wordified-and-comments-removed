@@ -6698,10 +6698,10 @@ writeType
 )
 )
 ;
-LAllocation
+LInt64Allocation
 value
 =
-useRegister
+useInt64Fixed
 (
 ins
 -
@@ -6709,13 +6709,6 @@ ins
 value
 (
 )
-)
-;
-LInt64Definition
-temp1
-=
-tempInt64Fixed
-(
 Register64
 (
 IntArgReg1
@@ -6724,7 +6717,7 @@ IntArgReg0
 )
 ;
 LInt64Definition
-temp2
+temp
 =
 tempInt64Fixed
 (
@@ -6748,8 +6741,7 @@ LAtomicStore64
 elements
 index
 value
-temp1
-temp2
+temp
 )
 ins
 )
