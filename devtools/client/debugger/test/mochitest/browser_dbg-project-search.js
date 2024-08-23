@@ -410,7 +410,7 @@ getExpandedResultsCount
 (
 dbg
 )
-29
+30
 )
 ;
 ok
