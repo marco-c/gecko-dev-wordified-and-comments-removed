@@ -607,6 +607,15 @@ MERINO_PROVIDER
 timeoutMs
 :
 7000
+otherParams
+:
+{
+request_type
+:
+"
+weather
+"
+}
 }
 )
 ;
