@@ -456,6 +456,11 @@ tab
 {
 return
 (
+this
+.
+_prefDisplayThumbnail
+&
+&
 tab
 &
 &
@@ -495,12 +500,6 @@ _tab
 ;
 if
 (
-!
-this
-.
-_prefDisplayThumbnail
-|
-|
 !
 this
 .
