@@ -60383,6 +60383,9 @@ installed_addons
 type
 :
 string_list
+lifetime
+:
+application
 description
 :
 |
@@ -60571,6 +60574,9 @@ enabled_addons
 type
 :
 string_list
+lifetime
+:
+application
 description
 :
 |
