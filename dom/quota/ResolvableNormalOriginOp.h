@@ -32,7 +32,9 @@ quota
 template
 <
 typename
-T
+ResolveValueT
+bool
+IsExclusive
 >
 class
 ResolvableNormalOriginOp
@@ -52,9 +54,9 @@ PromiseType
 =
 MozPromise
 <
-T
+ResolveValueT
 nsresult
-false
+IsExclusive
 >
 ;
 RefPtr
@@ -122,7 +124,7 @@ ResolvableNormalOriginOp
 default
 ;
 virtual
-T
+ResolveValueT
 GetResolveValue
 (
 )

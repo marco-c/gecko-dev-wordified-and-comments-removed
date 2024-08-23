@@ -111,7 +111,11 @@ RequestParams
 template
 <
 typename
-T
+ResolveValueT
+bool
+IsExclusive
+=
+false
 >
 class
 ResolvableNormalOriginOp
