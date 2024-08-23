@@ -1483,6 +1483,11 @@ this
 _client
 .
 identifier
+errorName
+:
+err
+.
+name
 }
 )
 ;
