@@ -3250,6 +3250,14 @@ uri
 )
 ;
 bool
+NS_IsAboutBlankAllowQueryAndFragment
+(
+nsIURI
+*
+uri
+)
+;
+bool
 NS_IsAboutSrcdoc
 (
 nsIURI

@@ -37479,7 +37479,7 @@ uriInherits
 aInheritForAboutBlank
 &
 &
-NS_IsAboutBlank
+NS_IsAboutBlankAllowQueryAndFragment
 (
 aURI
 )

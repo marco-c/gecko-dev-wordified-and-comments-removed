@@ -471,7 +471,7 @@ NS_ERROR_FAILURE
 MOZ_ASSERT
 (
 !
-NS_IsAboutBlank
+NS_IsAboutBlankAllowQueryAndFragment
 (
 origin
 )
