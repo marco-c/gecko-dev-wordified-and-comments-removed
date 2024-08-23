@@ -3836,7 +3836,6 @@ gpu_buffer_address
 quad_flags
 edge_flags
 transform_id
-src_color_task_id
 }
 =
 >
@@ -3897,6 +3896,14 @@ next
 (
 )
 ;
+let
+src_color_task_id
+=
+RenderTaskId
+:
+:
+INVALID
+;
 quad
 :
 :
@@ -3918,7 +3925,6 @@ edge_flags
 INVALID_SEGMENT_INDEX
 as
 u8
-*
 src_color_task_id
 z_id
 render_tasks
