@@ -2673,8 +2673,10 @@ profile
 let
 result
 =
-{
-}
+new
+Map
+(
+)
 ;
 try
 {

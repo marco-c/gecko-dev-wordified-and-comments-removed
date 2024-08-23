@@ -6454,8 +6454,10 @@ collectFormFilledData
 const
 filledData
 =
-{
-}
+new
+Map
+(
+)
 ;
 for
 (
@@ -6475,12 +6477,12 @@ fieldDetail
 element
 ;
 filledData
-[
+.
+set
+(
 fieldDetail
 .
 elementId
-]
-=
 {
 filledState
 :
@@ -6501,6 +6503,7 @@ element
 .
 value
 }
+)
 ;
 }
 return
