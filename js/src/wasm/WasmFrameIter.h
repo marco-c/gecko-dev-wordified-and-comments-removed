@@ -422,6 +422,7 @@ ImportInterp
 BuiltinNative
 Trap
 DebugStub
+RequestTierUp
 }
 ;
 private

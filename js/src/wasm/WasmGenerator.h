@@ -824,6 +824,9 @@ masm_
 uint32_t
 debugStubCodeOffset_
 ;
+uint32_t
+requestTierUpStubCodeOffset_
+;
 CallFarJumpVector
 callFarJumps_
 ;

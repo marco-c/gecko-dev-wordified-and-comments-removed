@@ -1195,6 +1195,7 @@ ImportJitExit
 BuiltinThunk
 TrapExit
 DebugStub
+RequestTierUpStub
 FarJumpIsland
 Throw
 }
@@ -1921,6 +1922,7 @@ LeaveFrame
 CollapseFrame
 StackSwitch
 Breakpoint
+RequestTierUp
 }
 ;
 CallSiteDesc
