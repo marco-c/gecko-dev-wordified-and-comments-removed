@@ -43544,7 +43544,7 @@ MAtomicTypedArrayElementBinop
 public
 MTernaryInstruction
 public
-TruncateToInt32OrToBigIntPolicy
+TruncateToInt32OrToInt64Policy
 <
 2
 >
