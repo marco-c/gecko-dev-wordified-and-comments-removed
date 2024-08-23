@@ -956,6 +956,11 @@ genericURL
 .
 url
 )
+mDevice
+.
+pressBack
+(
+)
 }
 }
 }
