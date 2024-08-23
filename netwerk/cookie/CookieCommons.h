@@ -295,6 +295,16 @@ aBaseDomain
 )
 ;
 static
+bool
+IsIPv6BaseDomain
+(
+const
+nsACString
+&
+aBaseDomain
+)
+;
+static
 void
 NotifyRejected
 (

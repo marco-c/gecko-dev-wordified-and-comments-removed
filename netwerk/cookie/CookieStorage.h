@@ -940,16 +940,6 @@ aCookiePurgeAge
 ;
 static
 bool
-isIPv6BaseDomain
-(
-const
-nsACString
-&
-aBaseDomain
-)
-;
-static
-bool
 SerializeIPv6BaseDomain
 (
 nsACString
