@@ -574,17 +574,6 @@ congestion_controller
 /
 goog_cc
 "
-"
-.
-.
-/
-.
-.
-/
-rtc_base
-:
-checks
-"
 ]
 }
 rtc_source_set

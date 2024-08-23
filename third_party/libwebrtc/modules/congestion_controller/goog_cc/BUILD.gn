@@ -234,7 +234,7 @@ network_state_predictor_api
 /
 api
 /
-rtc_event_log
+environment
 "
 "
 .
@@ -248,9 +248,7 @@ rtc_event_log
 /
 api
 /
-transport
-:
-field_trial_based_config
+rtc_event_log
 "
 "
 .
