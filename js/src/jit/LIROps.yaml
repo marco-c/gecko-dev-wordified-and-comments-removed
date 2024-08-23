@@ -2792,6 +2792,13 @@ Compare
 -
 name
 :
+CompareBigIntInt32AndBranch
+gen_boilerplate
+:
+false
+-
+name
+:
 BitAndAndBranch
 gen_boilerplate
 :
