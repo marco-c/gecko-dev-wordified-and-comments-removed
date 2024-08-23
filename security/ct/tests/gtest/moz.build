@@ -318,11 +318,6 @@ BTVerificationTest
 cpp
 "
 "
-CTDiversityPolicyTest
-.
-cpp
-"
-"
 CTLogVerifierTest
 .
 cpp

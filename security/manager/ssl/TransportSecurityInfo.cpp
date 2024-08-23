@@ -4935,6 +4935,15 @@ if
 info
 .
 enabled
+|
+|
+info
+.
+policyCompliance
+.
+isNothing
+(
+)
 )
 {
 return
@@ -4946,6 +4955,7 @@ CERTIFICATE_TRANSPARENCY_NOT_APPLICABLE
 }
 switch
 (
+*
 info
 .
 policyCompliance
@@ -4987,12 +4997,6 @@ nsITransportSecurityInfo
 :
 CERTIFICATE_TRANSPARENCY_POLICY_NOT_DIVERSE_SCTS
 ;
-case
-CTPolicyCompliance
-:
-:
-Unknown
-:
 default
 :
 MOZ_ASSERT_UNREACHABLE
