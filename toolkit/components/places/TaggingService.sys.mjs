@@ -3231,6 +3231,10 @@ appendMatch
 before
 +
 tag
+null
+null
+null
+null
 tag
 )
 ;
