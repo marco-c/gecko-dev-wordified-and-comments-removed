@@ -503,6 +503,13 @@ js
 ]
 [
 "
+browser_autotoggle
+.
+js
+"
+]
+[
+"
 browser_backgroundTab
 .
 js

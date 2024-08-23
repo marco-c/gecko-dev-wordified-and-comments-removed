@@ -19324,6 +19324,9 @@ urlBar
 "
 shortcut
 "
+"
+autoToggle
+"
 ]
 description
 :
@@ -19449,6 +19452,9 @@ unpip
 "
 "
 pagehide
+"
+"
+foregrounded
 "
 "
 fullscreen
