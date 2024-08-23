@@ -339,6 +339,13 @@ GetEncoderInfo
 const
 override
 ;
+protected
+:
+void
+DestroyStoredEncoders
+(
+)
+;
 private
 :
 class
@@ -777,11 +784,6 @@ Initialized
 (
 )
 const
-;
-void
-DestroyStoredEncoders
-(
-)
 ;
 std
 :
