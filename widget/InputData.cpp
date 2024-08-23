@@ -1675,14 +1675,6 @@ IsPointerEventType
 const
 {
 return
-StaticPrefs
-:
-:
-dom_w3c_pointer_events_dispatch_click_as_pointer_event
-(
-)
-&
-&
 mType
 =
 =
