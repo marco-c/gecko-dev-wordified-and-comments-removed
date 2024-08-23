@@ -283,6 +283,14 @@ is
 TopSite
 .
 Provided
+val
+isFrecentSite
+=
+topSite
+is
+TopSite
+.
+Frecent
 listOfNotNull
 (
 SimpleBrowserMenuItem
@@ -311,6 +319,9 @@ OpenInPrivateTab
 if
 (
 isPinnedSite
+|
+|
+isFrecentSite
 )
 {
 SimpleBrowserMenuItem
