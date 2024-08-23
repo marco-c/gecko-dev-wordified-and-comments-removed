@@ -1673,8 +1673,10 @@ deps
 .
 /
 api
+/
+audio
 :
-array_view
+audio_frame_api
 "
 ]
 }
