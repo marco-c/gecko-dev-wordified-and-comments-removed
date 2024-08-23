@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-44e27bf797fcaf4bfe29418d68cb3e54317259cc
+49edc69e713f4d14e6a2ae1c129009c1650d2145
 '
 #
 Fetch
@@ -467,7 +467,7 @@ chromium
 src
 /
 base
-9d0dc4e8ddbd445e7dd7c364c5a31ce7e65b2d32
+1f701bc7843cabd64f64b96d385fbbd6ce6f5dad
 '
 '
 src
@@ -491,7 +491,7 @@ chromium
 src
 /
 build
-739b422fb655b988b956a6b7e809f0df223b3f32
+dbd3873447f647584690532e2fb935e103c8860c
 '
 '
 src
@@ -611,7 +611,7 @@ chromium
 src
 /
 ios
-eca9eb58885b19fdcf289702bd7caee1c54098a3
+73454d5ac9c712f874dc4b22c3ecf918f945a4a7
 '
 '
 condition
@@ -643,7 +643,7 @@ chromium
 src
 /
 testing
-1f685432ed0dd3419b9de9039a4bb53d6c9dcf54
+97ac842a78f53d5dfbe5b078970cdc8647360930
 '
 '
 src
@@ -667,7 +667,7 @@ chromium
 src
 /
 third_party
-d4ecd8614975c623ead09a0f654a778949511ff3
+bca6de986e94c804d4b72863ba0672bb2412b7c8
 '
 '
 src
@@ -1072,7 +1072,7 @@ project
 libcxxabi
 .
 git
-a37a3aa431f132b02a58656f13984d51098330a2
+fc3fb0729ef1197d815bc6711f10640cc5cb9f2d
 '
 '
 src
@@ -1536,7 +1536,7 @@ com
 boringssl
 .
 git
-2db0eb3f96a5756298dcd7f9319e56a98585bd10
+2fb5f9cb8feec2234952f6999af941ac48555710
 '
 '
 src
@@ -1765,7 +1765,7 @@ tools
 depot_tools
 .
 git
-f97b5e242423158b83bcd9ca518dbd3b13cd85d3
+6708d95ec6d819098093cd57c746636a5bb9a4ea
 '
 '
 src
@@ -2806,7 +2806,7 @@ external
 perfetto
 .
 git
-a056c122b9a4c09797d3f09fdf4671657ff98240
+cb380924121f7b210ea622818a697c0348b0652d
 '
 '
 src
@@ -3138,7 +3138,7 @@ google
 re2
 .
 git
-b7e96b34c0945fccb8b5282404f82c7ab0843717
+a67d6c1d5308b0950a91fed8e03e5c048d22d5cd
 '
 '
 src
@@ -3347,7 +3347,7 @@ chromium
 src
 /
 tools
-c2991f7935b50ce1f0b39ccfd8aa9bb22adf436b
+e2040136fd6c5743904b14b2152c03be5a2732d7
 '
 '
 src
@@ -3538,9 +3538,9 @@ version
 '
 :
 '
-v7Devo4icVeg_Fi4h6o1emunjka
+_KUCLJC7Jv_2FGvul65nK9A_bmVkPwBIXcE4dCqBf
 -
-gsVK2qENAz83sdMC
+QC
 '
 }
 ]
@@ -3594,9 +3594,7 @@ version
 '
 :
 '
-tL_JG7yL7RqVT4RB2rD5aN3xhRGKPh
--
-V87_YnzX_eSwC
+let00MLFVBLhc9quEKtUuTMxC_vL8cvLoxiRSF2M4nkC
 '
 }
 ]
