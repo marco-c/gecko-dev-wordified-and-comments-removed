@@ -19,6 +19,13 @@ defined
 (
 XP_LINUX
 )
+&
+&
+!
+defined
+(
+ANDROID
+)
 #
 define
 malloc
