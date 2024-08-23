@@ -2189,6 +2189,14 @@ onFindInPageMenuClick
 onOpenInFirefoxMenuClick
 =
 {
+store
+.
+dispatch
+(
+MenuAction
+.
+OpenInFirefox
+)
 }
 )
 }

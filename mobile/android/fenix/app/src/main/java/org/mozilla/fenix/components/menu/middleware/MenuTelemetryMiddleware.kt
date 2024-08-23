@@ -843,6 +843,9 @@ InitAction
 MenuAction
 .
 ToggleReaderView
+MenuAction
+.
+OpenInFirefox
 is
 MenuAction
 .

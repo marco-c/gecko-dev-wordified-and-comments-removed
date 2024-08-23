@@ -215,6 +215,10 @@ OpenInApp
 is
 MenuAction
 .
+OpenInFirefox
+is
+MenuAction
+.
 InstallAddon
 is
 MenuAction
