@@ -468,7 +468,12 @@ aAlgorithm
 CryptoKey
 &
 aKey
+const
+Nullable
+<
 uint32_t
+>
+&
 aLength
 )
 ;
