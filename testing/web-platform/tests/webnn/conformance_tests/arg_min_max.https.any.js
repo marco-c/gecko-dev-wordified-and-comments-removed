@@ -13,6 +13,6 @@ argMin
 argMax
 '
 ]
-buildOperationWithSingleInput
+buildArgMinMax
 )
 ;
