@@ -1246,6 +1246,11 @@ RadioGroupContainer
 h
 "
 "
+RequestCallbackManager
+.
+h
+"
+"
 ResizeObserver
 .
 h
@@ -1401,6 +1406,11 @@ UserActivation
 h
 "
 "
+VideoFrameProvider
+.
+h
+"
+"
 ViewportMetaData
 .
 h
@@ -1519,11 +1529,6 @@ cpp
 "
 "
 AbstractRange
-.
-cpp
-"
-"
-AnimationFrameProvider
 .
 cpp
 "
