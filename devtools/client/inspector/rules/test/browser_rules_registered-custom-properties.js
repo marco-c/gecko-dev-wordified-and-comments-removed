@@ -961,6 +961,16 @@ inherit
 {
 CSS_INHERIT_MAIN_VALUE
 }
+computed
+:
+"
+rgb
+(
+255
+0
+0
+)
+"
 registeredProperty
 :
 [
@@ -1105,6 +1115,9 @@ inherit
 {
 JS_INHERIT_MAIN_VALUE
 }
+computed
+:
+null
 registeredProperty
 :
 [
@@ -1737,6 +1750,9 @@ registered
 is
 not
 set
+isMatched
+:
+false
 }
 )
 ;
