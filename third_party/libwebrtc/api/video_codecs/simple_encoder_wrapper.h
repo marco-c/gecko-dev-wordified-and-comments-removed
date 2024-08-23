@@ -103,12 +103,12 @@ oh_no
 =
 false
 ;
-rtc
+std
 :
 :
-scoped_refptr
+vector
 <
-EncodedImageBufferInterface
+uint8_t
 >
 bitstream_data
 ;
