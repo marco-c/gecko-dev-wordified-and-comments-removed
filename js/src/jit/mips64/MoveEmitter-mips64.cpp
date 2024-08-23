@@ -125,10 +125,10 @@ slotId
 break
 ;
 case
-ABIType
+MoveOp
 :
 :
-Float64
+DOUBLE
 :
 if
 (
@@ -446,10 +446,10 @@ floatReg
 break
 ;
 case
-ABIType
+MoveOp
 :
 :
-Float64
+DOUBLE
 :
 if
 (
