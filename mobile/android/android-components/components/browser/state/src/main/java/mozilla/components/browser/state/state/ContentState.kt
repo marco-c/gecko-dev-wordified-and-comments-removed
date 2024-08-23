@@ -1087,8 +1087,9 @@ val
 showToolbarAsExpanded
 :
 Boolean
+?
 =
-false
+null
 val
 previewImageUrl
 :
