@@ -1321,6 +1321,14 @@ u16
 ;
 pub
 const
+IMAGE_FILE_MACHINE_ARM64EC
+:
+u16
+=
+0xA641
+;
+pub
+const
 IMAGE_FILE_MACHINE_CEE
 :
 u16

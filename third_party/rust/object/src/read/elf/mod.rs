@@ -1,3 +1,16 @@
+#
+[
+cfg
+(
+doc
+)
+]
+use
+crate
+:
+:
+elf
+;
 mod
 file
 ;
