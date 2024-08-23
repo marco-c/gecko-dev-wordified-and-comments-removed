@@ -2403,11 +2403,6 @@ GdkWindow
 window
 )
 ;
-void
-DispatchActivateEventAccessible
-(
-)
-;
 protected
 :
 virtual
@@ -3889,6 +3884,11 @@ DispatchEventToRootAccessible
 (
 uint32_t
 aEventType
+)
+;
+void
+DispatchActivateEventAccessible
+(
 )
 ;
 void
