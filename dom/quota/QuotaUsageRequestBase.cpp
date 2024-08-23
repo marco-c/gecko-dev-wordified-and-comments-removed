@@ -5,19 +5,6 @@ QuotaUsageRequestBase
 .
 h
 "
-#
-include
-"
-mozilla
-/
-dom
-/
-quota
-/
-PQuotaRequest
-.
-h
-"
 namespace
 mozilla
 :
@@ -98,7 +85,6 @@ PQuotaUsageRequestParent
 Send__delete__
 (
 this
-NS_OK
 )
 ;
 }
