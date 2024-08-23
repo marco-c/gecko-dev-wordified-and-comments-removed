@@ -1375,7 +1375,7 @@ getAttribute
 orient
 "
 )
-!
+=
 =
 "
 vertical
@@ -1389,9 +1389,13 @@ false
 if
 (
 !
-this
-.
+(
+"
 _isRTLScrollbox
+"
+in
+this
+)
 )
 {
 this
