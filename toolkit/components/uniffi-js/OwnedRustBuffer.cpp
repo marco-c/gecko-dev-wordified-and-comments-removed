@@ -44,6 +44,13 @@ mBuf
 aBuf
 )
 {
+MOZ_ASSERT
+(
+IsValid
+(
+)
+)
+;
 }
 OwnedRustBuffer
 OwnedRustBuffer
