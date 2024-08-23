@@ -123,8 +123,11 @@ public
 explicit
 VRManagerParent
 (
-ProcessId
-aChildProcessId
+ipc
+:
+:
+EndpointProcInfo
+aChildProcess
 dom
 :
 :

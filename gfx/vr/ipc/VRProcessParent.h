@@ -163,14 +163,6 @@ IsConnected
 )
 const
 ;
-base
-:
-:
-ProcessId
-OtherPid
-(
-)
-;
 VRChild
 *
 GetActor

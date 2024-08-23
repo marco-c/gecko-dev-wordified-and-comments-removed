@@ -9609,7 +9609,7 @@ Parent
 side
 is
 first
-PID
+argument
 (
 main
 /
@@ -9630,16 +9630,6 @@ PDempHelpline
 :
 CreateEndpoints
 (
-mParentPid
-base
-:
-:
-GetProcId
-(
-GetChildProcessHandle
-(
-)
-)
 &
 parent
 &

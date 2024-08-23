@@ -18,6 +18,9 @@ Maybe
 namespace
 ipc
 {
+struct
+EndpointProcInfo
+;
 class
 IProtocol
 ;

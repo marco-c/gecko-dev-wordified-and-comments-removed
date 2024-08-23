@@ -14150,15 +14150,6 @@ PMyActor
 :
 CreateEndpoints
 (
-base
-:
-:
-GetCurrentProcId
-(
-)
-OtherPid
-(
-)
 &
 parentEnd
 &

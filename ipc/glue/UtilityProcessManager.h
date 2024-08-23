@@ -265,10 +265,7 @@ StartRemoteDecodingUtilityPromise
 >
 StartProcessForRemoteMediaDecoding
 (
-base
-:
-:
-ProcessId
+EndpointProcInfo
 aOtherProcess
 dom
 :

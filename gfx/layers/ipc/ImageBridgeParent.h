@@ -173,8 +173,11 @@ ImageBridgeParent
 nsISerialEventTarget
 *
 aThread
-ProcessId
-aChildProcessId
+ipc
+:
+:
+EndpointProcInfo
+aChildProcessInfo
 dom
 :
 :

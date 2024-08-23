@@ -10845,12 +10845,13 @@ PGMPContent
 :
 CreateEndpoints
 (
-OtherPid
+OtherEndpointProcInfo
 (
 )
-result
-.
-pid
+gmp
+-
+>
+OtherEndpointProcInfo
 (
 )
 &

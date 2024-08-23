@@ -1023,7 +1023,7 @@ WriteParam
 aWriter
 aParam
 .
-mMyPid
+mMyProcInfo
 )
 ;
 IPC
@@ -1034,7 +1034,7 @@ WriteParam
 aWriter
 aParam
 .
-mOtherPid
+mOtherProcInfo
 )
 ;
 }
@@ -1100,7 +1100,7 @@ aReader
 aResult
 -
 >
-mMyPid
+mMyProcInfo
 )
 &
 &
@@ -1114,7 +1114,7 @@ aReader
 aResult
 -
 >
-mOtherPid
+mOtherProcInfo
 )
 ;
 }
