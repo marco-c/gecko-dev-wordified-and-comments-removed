@@ -1667,8 +1667,7 @@ rtp_rtcp_
 OnSendingRtpFrame
 (
 rtp_timestamp_without_offset
--
-1
+absolute_capture_timestamp_ms
 payloadType
 false
 )
