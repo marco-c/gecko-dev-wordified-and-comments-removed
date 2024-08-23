@@ -299,7 +299,7 @@ const
 static
 nsTArray
 <
-int32_t
+TextOffsetAttribute
 >
 GetSpellingErrorOffsets
 (
