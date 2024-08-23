@@ -11085,6 +11085,8 @@ microsurveyFeatureEnabled
 by
 booleanPreference
 (
+key
+=
 appContext
 .
 getPreferenceKey
@@ -11097,7 +11099,17 @@ pref_key_microsurvey_feature_enabled
 )
 default
 =
-false
+FxNimbus
+.
+features
+.
+microsurveys
+.
+value
+(
+)
+.
+enabled
 )
 /
 *
