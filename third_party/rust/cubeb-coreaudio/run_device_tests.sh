@@ -94,6 +94,17 @@ ignored
 nocapture
 cargo
 test
+test_switch_while_paused
+-
+-
+-
+-
+ignored
+-
+-
+nocapture
+cargo
+test
 test_plug_and_unplug_device
 -
 -
