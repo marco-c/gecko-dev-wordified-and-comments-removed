@@ -3356,6 +3356,17 @@ CssRuleType
 :
 Style
 )
+|
+|
+rule_types
+.
+contains
+(
+CssRuleType
+:
+:
+PositionTry
+)
 "
 Declarations
 are
