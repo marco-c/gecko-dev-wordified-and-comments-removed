@@ -1668,11 +1668,11 @@ guidToEdit
 action
 .
 guidToEdit
-parentTitle
+parentNode
 =
 action
 .
-parentTitle
+parentNode
 )
 )
 }
