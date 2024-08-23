@@ -1002,6 +1002,10 @@ InstallAddon
 is
 MenuAction
 .
+CustomMenuItemAction
+is
+MenuAction
+.
 Navigate
 .
 AddonDetails

@@ -227,6 +227,10 @@ InstallAddon
 is
 MenuAction
 .
+CustomMenuItemAction
+is
+MenuAction
+.
 ToggleReaderView
 is
 MenuAction

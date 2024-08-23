@@ -896,6 +896,9 @@ accesspoint
 MenuAccessPoint
 .
 External
+customTabSessionId
+=
+customTabSessionId
 )
 )
 }
