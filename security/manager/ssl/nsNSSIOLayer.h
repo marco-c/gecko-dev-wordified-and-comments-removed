@@ -135,6 +135,14 @@ kGREASE
 kReal
 }
 ;
+enum
+class
+PublicOrPrivate
+{
+Public
+Private
+}
+;
 class
 nsSSLIOLayerHelpers
 :
@@ -148,6 +156,8 @@ NS_DECL_NSIOBSERVER
 explicit
 nsSSLIOLayerHelpers
 (
+PublicOrPrivate
+aPublicOrPrivate
 uint32_t
 aTlsFlags
 =
@@ -375,6 +385,10 @@ mVersionFallbackLimit
 ;
 private
 :
+const
+PublicOrPrivate
+mPublicOrPrivate
+;
 mozilla
 :
 :
