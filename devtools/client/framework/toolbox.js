@@ -3481,6 +3481,17 @@ logMethod
 TRACER_LOG_METHODS
 .
 CONSOLE
+&
+&
+this
+.
+currentToolId
+!
+=
+=
+"
+webconsole
+"
 )
 {
 await
