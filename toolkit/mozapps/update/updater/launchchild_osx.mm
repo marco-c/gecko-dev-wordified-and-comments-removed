@@ -977,6 +977,14 @@ exeArg
 ;
 [
 task
+setEnvironment
+:
+{
+}
+]
+;
+[
+task
 launch
 ]
 ;
