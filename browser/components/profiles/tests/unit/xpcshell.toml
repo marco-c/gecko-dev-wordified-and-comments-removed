@@ -15,3 +15,10 @@ test_selectable_profile_service_exists
 js
 "
 ]
+[
+"
+test_selectable_profiles_lifecycle
+.
+js
+"
+]
