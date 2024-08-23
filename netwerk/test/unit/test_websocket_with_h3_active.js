@@ -141,6 +141,7 @@ http3_setup_tests
 "
 h3
 "
+true
 )
 ;
 }
