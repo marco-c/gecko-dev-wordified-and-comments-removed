@@ -294,7 +294,7 @@ in
 AString
 aString
 in
-long
+nsIClipboard_ClipboardType
 aClipboardID
 [
 optional

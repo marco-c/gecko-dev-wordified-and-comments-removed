@@ -174,7 +174,7 @@ aTransferable
 nsIClipboardOwner
 *
 aOwner
-int32_t
+ClipboardType
 aWhichClipboard
 mozilla
 :
@@ -192,7 +192,7 @@ final
 NS_IMETHOD
 AsyncSetData
 (
-int32_t
+ClipboardType
 aWhichClipboard
 mozilla
 :
@@ -220,7 +220,7 @@ GetData
 nsITransferable
 *
 aTransferable
-int32_t
+ClipboardType
 aWhichClipboard
 mozilla
 :
@@ -245,7 +245,7 @@ nsCString
 >
 &
 aFlavorList
-int32_t
+ClipboardType
 aWhichClipboard
 mozilla
 :
@@ -276,7 +276,7 @@ nsCString
 >
 &
 aFlavorList
-int32_t
+ClipboardType
 aWhichClipboard
 mozilla
 :
@@ -298,7 +298,7 @@ final
 NS_IMETHOD
 EmptyClipboard
 (
-int32_t
+ClipboardType
 aWhichClipboard
 )
 override
@@ -314,7 +314,7 @@ nsCString
 >
 &
 aFlavorList
-int32_t
+ClipboardType
 aWhichClipboard
 bool
 *
@@ -326,7 +326,7 @@ final
 NS_IMETHOD
 IsClipboardTypeSupported
 (
-int32_t
+ClipboardType
 aWhichClipboard
 bool
 *
@@ -345,7 +345,10 @@ nsCString
 >
 &
 aFlavorList
-int32_t
+nsIClipboard
+:
+:
+ClipboardType
 aClipboardType
 mozilla
 :
@@ -408,7 +411,7 @@ uint64_t
 >
 GetClipboardCacheInnerWindowId
 (
-int32_t
+ClipboardType
 aClipboardType
 )
 ;
@@ -426,7 +429,7 @@ SetNativeClipboardData
 nsITransferable
 *
 aTransferable
-int32_t
+ClipboardType
 aWhichClipboard
 )
 =
@@ -438,7 +441,7 @@ GetNativeClipboardData
 nsITransferable
 *
 aTransferable
-int32_t
+ClipboardType
 aWhichClipboard
 )
 =
@@ -451,7 +454,7 @@ AsyncGetNativeClipboardData
 nsITransferable
 *
 aTransferable
-int32_t
+ClipboardType
 aWhichClipboard
 GetDataCallback
 &
@@ -463,7 +466,7 @@ virtual
 nsresult
 EmptyNativeClipboardData
 (
-int32_t
+ClipboardType
 aWhichClipboard
 )
 =
@@ -480,7 +483,7 @@ nsresult
 >
 GetNativeClipboardSequenceNumber
 (
-int32_t
+ClipboardType
 aWhichClipboard
 )
 =
@@ -504,7 +507,7 @@ nsCString
 >
 &
 aFlavorList
-int32_t
+ClipboardType
 aWhichClipboard
 )
 =
@@ -521,7 +524,7 @@ nsCString
 >
 &
 aFlavorList
-int32_t
+ClipboardType
 aWhichClipboard
 HasMatchingFlavorsCallback
 &
@@ -532,7 +535,7 @@ aCallback
 void
 ClearClipboardCache
 (
-int32_t
+ClipboardType
 aClipboardType
 )
 ;
@@ -541,7 +544,7 @@ private
 void
 RejectPendingAsyncSetDataRequestIfAny
 (
-int32_t
+ClipboardType
 aClipboardType
 )
 ;
@@ -558,7 +561,10 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIASYNCSETCLIPBOARDDATA
 AsyncSetClipboardData
 (
-int32_t
+nsIClipboard
+:
+:
+ClipboardType
 aClipboardType
 nsBaseClipboard
 *
@@ -614,7 +620,10 @@ nsresult
 aResult
 )
 ;
-int32_t
+nsIClipboard
+:
+:
+ClipboardType
 mClipboardType
 ;
 nsBaseClipboard
@@ -652,7 +661,10 @@ public
 :
 ClipboardDataSnapshot
 (
-int32_t
+nsIClipboard
+:
+:
+ClipboardType
 aClipboardType
 int32_t
 aSequenceNumber
@@ -697,7 +709,10 @@ IsValid
 )
 ;
 const
-int32_t
+nsIClipboard
+:
+:
+ClipboardType
 mClipboardType
 ;
 const
@@ -896,7 +911,10 @@ nsCString
 >
 &
 aFlavorList
-int32_t
+nsIClipboard
+:
+:
+ClipboardType
 aWhichClipboard
 nsIClipboardGetDataSnapshotCallback
 *
@@ -918,7 +936,7 @@ ClipboardCache
 *
 GetClipboardCacheIfValid
 (
-int32_t
+ClipboardType
 aClipboardType
 )
 ;
@@ -935,7 +953,7 @@ nsresult
 >
 GetFlavorsFromClipboardCache
 (
-int32_t
+ClipboardType
 aClipboardType
 )
 ;
@@ -945,14 +963,14 @@ GetDataFromClipboardCache
 nsITransferable
 *
 aTransferable
-int32_t
+ClipboardType
 aClipboardType
 )
 ;
 void
 RequestUserConfirmation
 (
-int32_t
+ClipboardType
 aClipboardType
 const
 nsTArray
@@ -991,7 +1009,7 @@ nsCString
 >
 &
 aFlavorList
-int32_t
+ClipboardType
 aClipboardType
 mozilla
 :

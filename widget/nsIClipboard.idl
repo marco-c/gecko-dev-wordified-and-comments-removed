@@ -758,7 +758,7 @@ in
 nsIClipboardOwner
 anOwner
 in
-long
+nsIClipboard_ClipboardType
 aWhichClipboard
 [
 optional
@@ -932,7 +932,7 @@ nsIAsyncSetClipboardData
 asyncSetData
 (
 in
-long
+nsIClipboard_ClipboardType
 aWhichClipboard
 [
 optional
@@ -1079,7 +1079,7 @@ in
 nsITransferable
 aTransferable
 in
-long
+nsIClipboard_ClipboardType
 aWhichClipboard
 [
 optional
@@ -1208,7 +1208,7 @@ ACString
 >
 aFlavorList
 in
-long
+nsIClipboard_ClipboardType
 aWhichClipboard
 in
 WindowContext
@@ -1398,7 +1398,7 @@ ACString
 >
 aFlavorList
 in
-long
+nsIClipboard_ClipboardType
 aWhichClipboard
 [
 optional
@@ -1464,7 +1464,7 @@ void
 emptyClipboard
 (
 in
-long
+nsIClipboard_ClipboardType
 aWhichClipboard
 )
 ;
@@ -1580,7 +1580,7 @@ ACString
 >
 aFlavorList
 in
-long
+nsIClipboard_ClipboardType
 aWhichClipboard
 )
 ;
@@ -1643,7 +1643,7 @@ boolean
 isClipboardTypeSupported
 (
 in
-long
+nsIClipboard_ClipboardType
 aWhichClipboard
 )
 ;

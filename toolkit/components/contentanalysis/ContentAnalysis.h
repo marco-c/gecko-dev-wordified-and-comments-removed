@@ -67,6 +67,13 @@ h
 #
 include
 "
+nsIClipboard
+.
+h
+"
+#
+include
+"
 nsIContentAnalysis
 .
 h
@@ -827,7 +834,10 @@ nsITransferable
 >
 &
 trans
-int32_t
+nsIClipboard
+:
+:
+ClipboardType
 aClipboardType
 )
 ;
@@ -850,7 +860,10 @@ aWindow
 nsITransferable
 *
 aTransferable
-int32_t
+nsIClipboard
+:
+:
+ClipboardType
 aClipboardType
 SafeContentAnalysisResultCallback
 *

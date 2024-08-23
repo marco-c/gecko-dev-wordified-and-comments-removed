@@ -123,7 +123,10 @@ nsCString
 >
 &
 aTypes
-int32_t
+nsIClipboard
+:
+:
+ClipboardType
 aWhichClipboard
 uint64_t
 aRequestingWindowContextId
@@ -564,7 +567,10 @@ nsCString
 &
 aTypes
 const
-int32_t
+nsIClipboard
+:
+:
+ClipboardType
 &
 aWhichClipboard
 const

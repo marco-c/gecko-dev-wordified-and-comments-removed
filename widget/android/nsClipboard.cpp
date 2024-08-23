@@ -361,7 +361,7 @@ SetNativeClipboardData
 nsITransferable
 *
 aTransferable
-int32_t
+ClipboardType
 aWhichClipboard
 )
 {
@@ -508,7 +508,7 @@ GetNativeClipboardData
 nsITransferable
 *
 aTransferable
-int32_t
+ClipboardType
 aWhichClipboard
 )
 {
@@ -837,7 +837,7 @@ nsClipboard
 :
 EmptyNativeClipboardData
 (
-int32_t
+ClipboardType
 aWhichClipboard
 )
 {
@@ -903,7 +903,7 @@ nsClipboard
 :
 GetNativeClipboardSequenceNumber
 (
-int32_t
+ClipboardType
 aWhichClipboard
 )
 {
@@ -977,7 +977,7 @@ nsCString
 >
 &
 aFlavorList
-int32_t
+ClipboardType
 aWhichClipboard
 )
 {

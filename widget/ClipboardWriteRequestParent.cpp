@@ -123,8 +123,10 @@ ClipboardWriteRequestParent
 Init
 (
 const
-int32_t
-&
+nsIClipboard
+:
+:
+ClipboardType
 aClipboardType
 mozilla
 :

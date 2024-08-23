@@ -11161,7 +11161,10 @@ aWindow
 nsITransferable
 *
 aTransferable
-int32_t
+nsIClipboard
+:
+:
+ClipboardType
 aClipboardType
 SafeContentAnalysisResultCallback
 *
@@ -11667,7 +11670,10 @@ nsITransferable
 >
 &
 trans
-int32_t
+nsIClipboard
+:
+:
+ClipboardType
 aClipboardType
 )
 {
