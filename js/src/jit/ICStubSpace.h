@@ -33,6 +33,10 @@ LifoAlloc
 allocator_
 {
 DefaultChunkSize
+js
+:
+:
+BackgroundMallocArena
 }
 ;
 public

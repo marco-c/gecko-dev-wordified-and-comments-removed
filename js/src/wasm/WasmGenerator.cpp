@@ -438,6 +438,10 @@ nullptr
 lifo_
 (
 GENERATOR_LIFO_DEFAULT_CHUNK_SIZE
+js
+:
+:
+MallocArena
 )
 masm_
 (

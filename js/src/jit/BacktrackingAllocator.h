@@ -2521,7 +2521,7 @@ Vector
 <
 CodePosition
 4
-SystemAllocPolicy
+BackgroundSystemAllocPolicy
 >
 ;
 class
@@ -2604,7 +2604,7 @@ PriorityQueue
 QueueItem
 QueueItem
 0
-SystemAllocPolicy
+BackgroundSystemAllocPolicy
 >
 allocationQueue
 ;
@@ -2837,7 +2837,7 @@ Vector
 LiveBundle
 *
 4
-SystemAllocPolicy
+BackgroundSystemAllocPolicy
 >
 spilledBundles
 ;
@@ -2849,7 +2849,7 @@ Vector
 LiveBundle
 *
 4
-SystemAllocPolicy
+BackgroundSystemAllocPolicy
 >
 ;
 bool

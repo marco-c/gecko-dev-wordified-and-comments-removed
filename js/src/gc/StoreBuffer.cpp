@@ -167,6 +167,10 @@ LifoAlloc
 >
 (
 LifoAllocBlockSize
+js
+:
+:
+MallocArena
 )
 ;
 if
@@ -219,6 +223,10 @@ LifoAlloc
 >
 (
 LifoAllocBlockSize
+js
+:
+:
+MallocArena
 )
 ;
 }

@@ -960,6 +960,10 @@ LifoAlloc
 lifo
 (
 LIFO_ALLOC_PRIMARY_CHUNK_SIZE
+js
+:
+:
+MallocArena
 )
 ;
 TempAllocator
@@ -1407,6 +1411,10 @@ LifoAlloc
 lifo
 (
 LIFO_ALLOC_PRIMARY_CHUNK_SIZE
+js
+:
+:
+MallocArena
 )
 ;
 TempAllocator
@@ -2833,6 +2841,10 @@ LifoAlloc
 lifo
 (
 LIFO_ALLOC_PRIMARY_CHUNK_SIZE
+js
+:
+:
+MallocArena
 )
 ;
 TempAllocator
@@ -4463,6 +4475,10 @@ LifoAlloc
 lifo
 (
 LIFO_ALLOC_PRIMARY_CHUNK_SIZE
+js
+:
+:
+MallocArena
 )
 ;
 TempAllocator
@@ -6093,6 +6109,10 @@ LifoAlloc
 lifo
 (
 LIFO_ALLOC_PRIMARY_CHUNK_SIZE
+js
+:
+:
+MallocArena
 )
 ;
 TempAllocator
@@ -6510,6 +6530,10 @@ LifoAlloc
 lifo
 (
 LIFO_ALLOC_PRIMARY_CHUNK_SIZE
+js
+:
+:
+MallocArena
 )
 ;
 TempAllocator

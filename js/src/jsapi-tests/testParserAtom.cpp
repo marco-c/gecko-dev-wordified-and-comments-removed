@@ -126,6 +126,10 @@ LifoAlloc
 alloc
 (
 512
+js
+:
+:
+MallocArena
 )
 ;
 ParserAtomsTable
@@ -318,6 +322,10 @@ LifoAlloc
 alloc
 (
 512
+js
+:
+:
+MallocArena
 )
 ;
 ParserAtomsTable
@@ -542,6 +550,10 @@ LifoAlloc
 alloc
 (
 512
+js
+:
+:
+MallocArena
 )
 ;
 ParserAtomsTable
@@ -1434,6 +1446,10 @@ LifoAlloc
 alloc
 (
 512
+js
+:
+:
+MallocArena
 )
 ;
 ParserAtomsTable
@@ -2402,6 +2418,10 @@ LifoAlloc
 alloc
 (
 512
+js
+:
+:
+MallocArena
 )
 ;
 ParserAtomsTable
@@ -2665,6 +2685,10 @@ LifoAlloc
 alloc
 (
 512
+js
+:
+:
+MallocArena
 )
 ;
 ParserAtomsTable

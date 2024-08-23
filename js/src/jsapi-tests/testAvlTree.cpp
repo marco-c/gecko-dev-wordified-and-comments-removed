@@ -1017,6 +1017,10 @@ LifoAlloc
 alloc
 (
 4096
+js
+:
+:
+MallocArena
 )
 ;
 AvlTreeTestIF

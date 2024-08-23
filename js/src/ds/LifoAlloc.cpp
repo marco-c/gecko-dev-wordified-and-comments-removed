@@ -74,6 +74,8 @@ newWithCapacity
 (
 size_t
 size
+arena_id_t
+arena
 )
 {
 MOZ_DIAGNOSTIC_ASSERT
@@ -91,8 +93,9 @@ void
 *
 mem
 =
-js_malloc
+js_arena_malloc
 (
+arena
 size
 )
 ;
@@ -827,6 +830,7 @@ BumpChunk
 newWithCapacity
 (
 chunkSize
+arena_
 )
 ;
 if
@@ -1869,6 +1873,17 @@ other
 -
 >
 markCount
+)
+;
+MOZ_ASSERT
+(
+arena_
+=
+=
+other
+-
+>
+arena_
 )
 ;
 incrementCurSize

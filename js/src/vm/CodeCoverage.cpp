@@ -2053,6 +2053,10 @@ realm
 alloc_
 (
 4096
+js
+:
+:
+MallocArena
 )
 outTN_
 (

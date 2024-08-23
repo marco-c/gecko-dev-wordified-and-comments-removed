@@ -680,6 +680,10 @@ LifoAlloc
 alloc
 (
 1024
+js
+:
+:
+MallocArena
 )
 ;
 DLSet
@@ -3242,6 +3246,10 @@ LifoAlloc
 lifo
 (
 4096
+js
+:
+:
+MallocArena
 )
 ;
 TempAllocator

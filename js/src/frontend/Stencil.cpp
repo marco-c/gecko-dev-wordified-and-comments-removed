@@ -13752,6 +13752,10 @@ extensibleStencil
 alloc
 (
 LifoAllocChunkSize
+js
+:
+:
+BackgroundMallocArena
 )
 {
 ownedBorrowStencil
@@ -15644,6 +15648,10 @@ CompilationStencil
 :
 :
 LifoAllocChunkSize
+js
+:
+:
+BackgroundMallocArena
 )
 source
 (
@@ -15680,6 +15688,10 @@ CompilationStencil
 :
 :
 LifoAllocChunkSize
+js
+:
+:
+BackgroundMallocArena
 )
 source
 (
@@ -15725,6 +15737,10 @@ CompilationStencil
 :
 :
 LifoAllocChunkSize
+js
+:
+:
+BackgroundMallocArena
 )
 source
 (

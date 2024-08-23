@@ -16065,6 +16065,10 @@ LifoAlloc
 lifo
 (
 STUBS_LIFO_DEFAULT_CHUNK_SIZE
+js
+:
+:
+MallocArena
 )
 ;
 TempAllocator
@@ -16594,6 +16598,10 @@ LifoAlloc
 lifo
 (
 STUBS_LIFO_DEFAULT_CHUNK_SIZE
+js
+:
+:
+MallocArena
 )
 ;
 TempAllocator

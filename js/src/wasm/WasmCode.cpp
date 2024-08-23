@@ -2708,6 +2708,10 @@ LifoAlloc
 lifo
 (
 LAZY_STUB_LIFO_DEFAULT_CHUNK_SIZE
+js
+:
+:
+MallocArena
 )
 ;
 TempAllocator

@@ -1426,6 +1426,11 @@ MallocArena
 extern
 JS_PUBLIC_DATA
 arena_id_t
+BackgroundMallocArena
+;
+extern
+JS_PUBLIC_DATA
+arena_id_t
 ArrayBufferContentsArena
 ;
 extern
