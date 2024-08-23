@@ -717,10 +717,6 @@ PDataChannelParent
 >
 AllocPDataChannelParent
 (
-const
-uint32_t
-&
-channelId
 )
 ;
 virtual
@@ -736,10 +732,6 @@ RecvPDataChannelConstructor
 PDataChannelParent
 *
 aActor
-const
-uint32_t
-&
-channelId
 )
 override
 ;

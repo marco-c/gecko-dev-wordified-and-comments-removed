@@ -47,6 +47,7 @@ uri
 )
 ;
 }
+;
 protected
 :
 virtual
@@ -78,6 +79,12 @@ nsIChannel
 channel
 )
 override
+;
+virtual
+nsresult
+NotifyListeners
+(
+)
 ;
 private
 :
