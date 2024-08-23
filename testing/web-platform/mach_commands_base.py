@@ -259,25 +259,15 @@ firefox_android
 "
 :
             
-from
-wptrunner
-import
-wptcommandline
-            
 kwargs
 =
-wptcommandline
-.
-check_args
-(
 self
 .
 setup
 .
-kwargs_common
+kwargs_firefox_android
 (
 kwargs
-)
 )
         
 else
