@@ -126,12 +126,6 @@ fetch
 .
 yml
 -
-resource
--
-monitor
-.
-yml
--
 toolchain
 -
 clang
