@@ -33,6 +33,9 @@ namespace
 jit
 ;
 bool
+x86_shared
+:
+:
 AssemblerBuffer
 :
 :

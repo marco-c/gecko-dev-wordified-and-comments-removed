@@ -40256,6 +40256,9 @@ opcode
 )
 ;
 }
+x86_shared
+:
+:
 AssemblerBuffer
 m_buffer
 ;

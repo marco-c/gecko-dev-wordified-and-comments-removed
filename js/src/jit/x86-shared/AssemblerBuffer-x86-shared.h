@@ -420,6 +420,9 @@ Sprinter
 namespace
 jit
 {
+namespace
+x86_shared
+{
 class
 AssemblerBufferAllocPolicy
 :
@@ -1080,6 +1083,7 @@ m_oom
 ;
 }
 ;
+}
 class
 GenericAssembler
 {
