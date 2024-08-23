@@ -259,6 +259,14 @@ mBase
 0
 )
 ;
+MOZ_DIAGNOSTIC_ASSERT
+(
+mBase
+<
+=
+UINT32_MAX
+)
+;
 }
 explicit
 constexpr
