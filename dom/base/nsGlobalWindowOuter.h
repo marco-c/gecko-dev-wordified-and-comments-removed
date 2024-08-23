@@ -1699,6 +1699,8 @@ virtual
 void
 PageHidden
 (
+bool
+aIsEnteringBFCacheInParent
 )
 override
 ;

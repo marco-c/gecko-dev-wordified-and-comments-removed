@@ -5202,6 +5202,8 @@ window
 >
 PageHidden
 (
+!
+aIsUnload
 )
 ;
 if

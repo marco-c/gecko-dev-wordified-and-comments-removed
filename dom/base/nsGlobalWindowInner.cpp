@@ -20619,6 +20619,8 @@ nsGlobalWindowInner
 :
 PageHidden
 (
+bool
+aIsEnteringBFCacheInParent
 )
 {
 if
@@ -20659,6 +20661,7 @@ nsFocusManager
 GenerateFocusActionId
 (
 )
+aIsEnteringBFCacheInParent
 )
 ;
 }

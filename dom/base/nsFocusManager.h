@@ -692,6 +692,8 @@ mozIDOMWindowProxy
 aWindow
 uint64_t
 aActionId
+bool
+aIsEnteringBFCache
 )
 ;
 MOZ_CAN_RUN_SCRIPT
@@ -1862,6 +1864,8 @@ BrowsingContext
 aContext
 uint64_t
 aActionId
+bool
+aIsEnteringBFCache
 )
 ;
 void
