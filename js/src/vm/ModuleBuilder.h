@@ -172,8 +172,17 @@ BinaryNode
 exportNode
 )
 ;
-bool
-hasExportedName
+enum
+class
+NoteExportedNameResult
+{
+OutOfMemory
+Success
+AlreadyDeclared
+}
+;
+NoteExportedNameResult
+noteExportedName
 (
 frontend
 :
@@ -181,7 +190,6 @@ frontend
 TaggedParserAtomIndex
 name
 )
-const
 ;
 bool
 buildTables
