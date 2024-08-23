@@ -131,6 +131,13 @@ nullable
 :
 string
 "
+isTracerFeatureEnabled
+:
+"
+nullable
+:
+boolean
+"
 }
 )
 ;

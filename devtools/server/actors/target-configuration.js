@@ -159,6 +159,9 @@ true
 customUserAgent
 :
 true
+isTracerFeatureEnabled
+:
+true
 javascriptEnabled
 :
 true

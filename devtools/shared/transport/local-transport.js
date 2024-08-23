@@ -169,6 +169,9 @@ LocalDebuggerTransport
 prototype
 =
 {
+isLocalTransport
+:
+true
 send
 (
 packet
