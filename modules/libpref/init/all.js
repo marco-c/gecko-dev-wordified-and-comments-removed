@@ -7286,7 +7286,7 @@ max
 -
 connections
 "
-40
+128
 )
 ;
 #
