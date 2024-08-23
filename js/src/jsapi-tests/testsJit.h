@@ -13,11 +13,12 @@ MacroAssembler
 .
 h
 "
-typedef
+using
+EnterTest
+=
 void
 (
 *
-EnterTest
 )
 (
 )

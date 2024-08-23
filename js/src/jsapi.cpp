@@ -4193,7 +4193,6 @@ obj
 )
 ;
 }
-typedef
 struct
 JSStdName
 {
@@ -4230,7 +4229,6 @@ JSProto_LIMIT
 ;
 }
 }
-JSStdName
 ;
 static
 const

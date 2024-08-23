@@ -124,7 +124,9 @@ jit
 :
 BufferOffset
 ;
-typedef
+using
+AsmBuf
+=
 js
 :
 :
@@ -141,7 +143,6 @@ uint32_t
 )
 uint32_t
 >
-AsmBuf
 ;
 AsmBuf
 ab
@@ -649,7 +650,9 @@ BEGIN_TEST
 testAssemblerBuffer_BranchDeadlineSet
 )
 {
-typedef
+using
+DLSet
+=
 js
 :
 :
@@ -660,7 +663,6 @@ BranchDeadlineSet
 <
 3
 >
-DLSet
 ;
 using
 js
@@ -1382,7 +1384,9 @@ namespace
 struct
 TestAssembler
 ;
-typedef
+using
+AsmBufWithPool
+=
 js
 :
 :
@@ -1402,7 +1406,6 @@ uint32_t
 TestAssembler
 3
 >
-AsmBufWithPool
 ;
 struct
 TestAssembler

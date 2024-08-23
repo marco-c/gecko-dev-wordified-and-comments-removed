@@ -151,14 +151,15 @@ namespace
 wasm
 {
 \
-typedef
+using
+VectorName
+=
 Vector
 <
 Type
 0
 SystemAllocPolicy
 >
-VectorName
 ;
 using
 mozilla

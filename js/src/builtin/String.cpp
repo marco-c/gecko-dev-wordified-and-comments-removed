@@ -11489,7 +11489,9 @@ start
 )
 ;
 }
-typedef
+using
+LinearStringVector
+=
 Vector
 <
 JSLinearString
@@ -11497,7 +11499,6 @@ JSLinearString
 16
 SystemAllocPolicy
 >
-LinearStringVector
 ;
 template
 <

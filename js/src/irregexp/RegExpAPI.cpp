@@ -5109,11 +5109,12 @@ RegExp
 kInternalRegExpFailure
 )
 ;
-typedef
+using
+RegExpCodeSignature
+=
 int
 (
 *
-RegExpCodeSignature
 )
 (
 InputOutputData
