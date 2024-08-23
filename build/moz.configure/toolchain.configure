@@ -9062,6 +9062,12 @@ CC
 "
 CXX
 "
+"
+HOST_CC
+"
+"
+HOST_CXX
+"
 )
 :
 depends_if

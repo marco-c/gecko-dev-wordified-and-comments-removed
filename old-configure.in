@@ -1756,14 +1756,6 @@ AC_SUBST
 (
 MOZ_APP_MAXVERSION
 )
-AC_SUBST
-(
-HOST_CC
-)
-AC_SUBST
-(
-HOST_CXX
-)
 dnl
 Set
 various
