@@ -107,6 +107,11 @@ TestVsync
 .
 cpp
 "
+"
+TestYUVtoRGB32
+.
+cpp
+"
 ]
 if
 CONFIG
