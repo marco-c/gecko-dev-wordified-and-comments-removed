@@ -560,7 +560,7 @@ override
 module_
 -
 >
-tier2Listener_
+completeTier2Listener_
 =
 nullptr
 ;
@@ -690,7 +690,7 @@ Module
 MOZ_ASSERT
 (
 !
-tier2Listener_
+completeTier2Listener_
 )
 ;
 MOZ_ASSERT
@@ -746,7 +746,7 @@ task
 return
 ;
 }
-tier2Listener_
+completeTier2Listener_
 =
 listener
 ;
@@ -810,7 +810,7 @@ false
 }
 if
 (
-tier2Listener_
+completeTier2Listener_
 &
 &
 code_
@@ -843,7 +843,7 @@ bytes
 )
 )
 {
-tier2Listener_
+completeTier2Listener_
 -
 >
 storeOptimizedEncoding
@@ -861,7 +861,7 @@ length
 )
 ;
 }
-tier2Listener_
+completeTier2Listener_
 =
 nullptr
 ;

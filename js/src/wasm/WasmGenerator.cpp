@@ -6034,7 +6034,7 @@ JS
 :
 OptimizedEncodingListener
 *
-maybeTier2Listener
+maybeCompleteTier2Listener
 )
 {
 MOZ_ASSERT
@@ -6835,7 +6835,7 @@ deserializedModule
 ;
 if
 (
-maybeTier2Listener
+maybeCompleteTier2Listener
 &
 &
 codeMeta_
@@ -6852,7 +6852,7 @@ hasNone
 )
 )
 {
-maybeTier2Listener
+maybeCompleteTier2Listener
 -
 >
 storeOptimizedEncoding
@@ -6869,7 +6869,7 @@ length
 )
 )
 ;
-maybeTier2Listener
+maybeCompleteTier2Listener
 =
 nullptr
 ;
@@ -6892,7 +6892,7 @@ module
 startTier2
 (
 bytecode
-maybeTier2Listener
+maybeCompleteTier2Listener
 )
 ;
 }
@@ -6910,7 +6910,7 @@ Tier
 Serialized
 &
 &
-maybeTier2Listener
+maybeCompleteTier2Listener
 &
 &
 codeMeta_
@@ -6942,7 +6942,7 @@ bytes
 )
 )
 {
-maybeTier2Listener
+maybeCompleteTier2Listener
 -
 >
 storeOptimizedEncoding

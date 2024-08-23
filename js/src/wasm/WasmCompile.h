@@ -139,8 +139,8 @@ Bytes
 *
 tailBytes
 ;
-Tier2Listener
-tier2Listener
+CompleteTier2Listener
+completeTier2Listener
 ;
 StreamEndData
 (

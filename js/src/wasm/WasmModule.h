@@ -84,7 +84,7 @@ struct
 CompileArgs
 ;
 using
-Tier2Listener
+CompleteTier2Listener
 =
 RefPtr
 <
@@ -191,8 +191,8 @@ SharedCode
 code_
 ;
 mutable
-Tier2Listener
-tier2Listener_
+CompleteTier2Listener
+completeTier2Listener_
 ;
 const
 bool
