@@ -960,7 +960,7 @@ return
 Error
 (
 "
-Faile
+Failed
 to
 read
 length
@@ -1714,7 +1714,7 @@ return
 Error
 (
 "
-Faile
+Failed
 to
 write
 nameRecord
@@ -1756,7 +1756,7 @@ return
 Error
 (
 "
-Faile
+Failed
 to
 write
 langTagCount
@@ -1891,7 +1891,7 @@ return
 Error
 (
 "
-Faile
+Failed
 to
 write
 string
