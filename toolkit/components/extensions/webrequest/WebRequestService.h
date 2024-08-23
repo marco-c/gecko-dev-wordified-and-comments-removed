@@ -59,9 +59,6 @@ nsTHashMap
 h
 "
 class
-nsAtom
-;
-class
 nsIRemoteTab
 ;
 class
@@ -195,9 +192,10 @@ GetTraceableChannel
 (
 uint64_t
 aChannelId
-nsAtom
-*
-aAddonId
+const
+WebExtensionPolicy
+&
+aAddon
 dom
 :
 :

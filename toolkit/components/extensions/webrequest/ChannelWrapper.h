@@ -664,9 +664,10 @@ nsITraceableChannel
 >
 GetTraceableChannel
 (
-nsAtom
-*
-aAddonId
+const
+WebExtensionPolicy
+&
+aAddon
 dom
 :
 :
