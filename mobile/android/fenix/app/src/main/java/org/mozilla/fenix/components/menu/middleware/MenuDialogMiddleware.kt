@@ -1735,14 +1735,6 @@ scope
 .
 launch
 {
-appStore
-.
-dispatch
-(
-AppAction
-.
-DeleteAndQuitStarted
-)
 onDeleteAndQuit
 (
 )

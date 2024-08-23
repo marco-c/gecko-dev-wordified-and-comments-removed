@@ -1338,7 +1338,7 @@ duration
 =
 FenixSnackbar
 .
-LENGTH_LONG
+LENGTH_INDEFINITE
 )
 }
 private

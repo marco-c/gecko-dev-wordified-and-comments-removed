@@ -3887,6 +3887,11 @@ this
 store
 =
 store
+appStore
+=
+requireComponents
+.
+appStore
 activity
 =
 activity
@@ -3922,11 +3927,6 @@ launch
 )
 }
 }
-snackbarParent
-=
-binding
-.
-dynamicSnackbarContainer
 browserAnimator
 =
 browserAnimator
