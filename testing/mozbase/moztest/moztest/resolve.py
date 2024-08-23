@@ -6439,8 +6439,9 @@ flavor
                         
 continue
                 
-test_subsuite
-=
+if
+subsuite
+and
 test
 .
 get
@@ -6452,22 +6453,6 @@ subsuite
 undefined
 "
 )
-                
-if
-not
-test_subsuite
-:
-                    
-test_subsuite
-=
-"
-undefined
-"
-                
-if
-subsuite
-and
-test_subsuite
 !
 =
 subsuite
