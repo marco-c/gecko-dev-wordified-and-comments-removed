@@ -256,6 +256,9 @@ async
 function
 testAdapter
 (
+t
+:
+Fixture
 adapter
 :
 GPUAdapter
@@ -283,10 +286,11 @@ const
 device
 =
 await
-adapter
+t
 .
-requestDevice
+requestDeviceTracked
 (
+adapter
 )
 ;
 assert
@@ -428,6 +432,10 @@ kNumElements
 const
 buffer
 =
+t
+.
+trackForCleanup
+(
 device
 .
 createBuffer
@@ -447,10 +455,15 @@ GPUBufferUsage
 COPY_SRC
 }
 )
+)
 ;
 const
 resultBuffer
 =
+t
+.
+trackForCleanup
+(
 device
 .
 createBuffer
@@ -469,6 +482,7 @@ GPUBufferUsage
 .
 COPY_DST
 }
+)
 )
 ;
 const
@@ -793,6 +807,7 @@ return
 await
 testAdapter
 (
+t
 adapter
 )
 ;
@@ -842,6 +857,7 @@ requestAdapter
 await
 testAdapter
 (
+t
 adapter
 )
 ;

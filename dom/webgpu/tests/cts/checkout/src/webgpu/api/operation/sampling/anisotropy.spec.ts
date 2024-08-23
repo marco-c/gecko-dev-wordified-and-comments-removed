@@ -365,9 +365,7 @@ buffer
 =
 this
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size
@@ -1130,9 +1128,7 @@ colorAttachment
 =
 this
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 format
@@ -1198,11 +1194,6 @@ colorAttachments
 view
 :
 colorAttachmentView
-storeOp
-:
-'
-store
-'
 clearValue
 :
 {
@@ -1231,6 +1222,11 @@ loadOp
 :
 '
 clear
+'
+storeOp
+:
+'
+store
 '
 }
 ]
@@ -1425,9 +1421,7 @@ texture
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 mipLevelCount

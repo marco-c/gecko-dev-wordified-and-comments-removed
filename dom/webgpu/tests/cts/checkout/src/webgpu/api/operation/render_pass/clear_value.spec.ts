@@ -499,9 +499,7 @@ stencilTexture
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 format
@@ -527,9 +525,7 @@ colorTexture
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 format
@@ -1040,9 +1036,7 @@ destinationBuffer
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 usage
@@ -1058,13 +1052,6 @@ size
 :
 4
 }
-)
-;
-t
-.
-trackForCleanup
-(
-destinationBuffer
 )
 ;
 encoder

@@ -459,11 +459,7 @@ storageBuffer
 =
 t
 .
-trackForCleanup
-(
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 usage
@@ -473,7 +469,6 @@ GPUBufferUsage
 STORAGE
 size
 }
-)
 )
 ;
 const

@@ -1253,6 +1253,7 @@ location
 interpolate
 (
 flat
+either
 )
 result
 :
@@ -1408,6 +1409,7 @@ location
 interpolate
 (
 flat
+either
 )
 result
 :
@@ -1628,9 +1630,7 @@ testTexture
 =
 this
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 format

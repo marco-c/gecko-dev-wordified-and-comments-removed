@@ -524,9 +524,7 @@ outputBuffer
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size
@@ -549,13 +547,6 @@ mappedAtCreation
 :
 true
 }
-)
-;
-t
-.
-trackForCleanup
-(
-outputBuffer
 )
 ;
 const
@@ -1091,9 +1082,7 @@ outputBuffer
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size

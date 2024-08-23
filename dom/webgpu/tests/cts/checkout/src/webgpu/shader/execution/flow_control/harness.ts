@@ -638,9 +638,7 @@ outputBuffer
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size

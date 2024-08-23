@@ -83,9 +83,7 @@ qset
 =
 t
 .
-device
-.
-createQuerySet
+createQuerySetTracked
 (
 {
 type
@@ -164,9 +162,7 @@ invalidQuerySet
 =
 t
 .
-device
-.
-createQuerySet
+createQuerySetTracked
 (
 {
 type

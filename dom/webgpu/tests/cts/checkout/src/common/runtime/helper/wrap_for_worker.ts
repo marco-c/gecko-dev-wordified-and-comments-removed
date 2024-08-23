@@ -13,6 +13,8 @@ from
 framework
 /
 fixture
+.
+js
 '
 ;
 import

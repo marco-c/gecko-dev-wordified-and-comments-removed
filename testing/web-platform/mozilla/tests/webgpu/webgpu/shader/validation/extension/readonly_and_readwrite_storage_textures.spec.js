@@ -189,6 +189,15 @@ t
 .
 params
 ;
+t
+.
+skipIfTextureFormatNotUsableAsStorageTexture
+(
+format
+.
+format
+)
+;
 const
 source
 =

@@ -86,7 +86,6 @@ testValueName
 async
 (
 {
-device
 shouldError
 testValue
 }
@@ -139,9 +138,9 @@ testForValidationErrorWithPossibleOutOfMemoryError
 const
 texture
 =
-device
+t
 .
-createTexture
+createTextureTracked
 (
 {
 size

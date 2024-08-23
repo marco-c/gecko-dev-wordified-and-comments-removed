@@ -171,9 +171,7 @@ src
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 mappedAtCreation
@@ -223,9 +221,7 @@ dst
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size
@@ -248,9 +244,7 @@ mid
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 size
@@ -445,9 +439,7 @@ src
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 mappedAtCreation
@@ -497,9 +489,7 @@ dst
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size
@@ -557,9 +547,7 @@ mid1
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 midDesc
 )
@@ -569,9 +557,7 @@ mid2
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 midDesc
 )

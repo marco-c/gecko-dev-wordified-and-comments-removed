@@ -151,7 +151,7 @@ F
 extends
 ValidationTest
 {
-createTexture
+createTestTexture
 (
 options
 :
@@ -243,9 +243,7 @@ options
 return
 this
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 size
@@ -498,7 +496,7 @@ colorTexture
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 format
@@ -573,7 +571,7 @@ depthStencilTexture
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 format
@@ -787,7 +785,7 @@ colorTexture
 =
 t
 .
-createTexture
+createTestTexture
 (
 )
 ;
@@ -831,7 +829,7 @@ getDepthStencilAttachment
 (
 t
 .
-createTexture
+createTestTexture
 (
 {
 format
@@ -989,7 +987,7 @@ colorTexture
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 format
@@ -1212,7 +1210,7 @@ colorTexture
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 format
@@ -1458,7 +1456,7 @@ colorTexture
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 format
@@ -1620,7 +1618,7 @@ texture
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 dimension
@@ -1893,7 +1891,7 @@ texture
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 dimension
@@ -2156,7 +2154,7 @@ texture
 =
 t
 .
-createTexture
+createTestTexture
 (
 texDescriptor
 )
@@ -2196,7 +2194,7 @@ texture
 :
 t
 .
-createTexture
+createTestTexture
 (
 texDescriptor
 )
@@ -2450,7 +2448,7 @@ texture
 =
 t
 .
-createTexture
+createTestTexture
 (
 texDescriptor
 )
@@ -2656,7 +2654,7 @@ colorTexture1x1A
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 width
@@ -2678,7 +2676,7 @@ colorTexture1x1B
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 width
@@ -2700,7 +2698,7 @@ colorTexture2x2
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 width
@@ -2722,7 +2720,7 @@ depthStencilTexture1x1
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 width
@@ -2746,7 +2744,7 @@ depthStencilTexture2x2
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 width
@@ -2925,7 +2923,7 @@ colorTexture
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 format
@@ -2941,7 +2939,7 @@ depthStencilTexture
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 format
@@ -3173,7 +3171,7 @@ colorTexture
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 format
@@ -3199,7 +3197,7 @@ depthStencilTexture
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 format
@@ -3492,7 +3490,7 @@ colorTexture
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 format
@@ -3518,7 +3516,7 @@ depthStencilTexture
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 format
@@ -3694,7 +3692,7 @@ colorTexture
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 sampleCount
@@ -3708,7 +3706,7 @@ resolveTargetTexture
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 sampleCount
@@ -3851,7 +3849,7 @@ colorTexture
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 sampleCount
@@ -3865,7 +3863,7 @@ multisampledColorTexture
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 sampleCount
@@ -3976,7 +3974,7 @@ multisampledColorTexture
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 sampleCount
@@ -3990,7 +3988,7 @@ multisampledResolveTargetTexture
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 sampleCount
@@ -4088,7 +4086,7 @@ multisampledColorTexture
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 sampleCount
@@ -4102,7 +4100,7 @@ resolveTargetTexture
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 arrayLayerCount
@@ -4210,7 +4208,7 @@ multisampledColorTexture
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 sampleCount
@@ -4224,7 +4222,7 @@ resolveTargetTexture
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 mipLevelCount
@@ -4394,7 +4392,7 @@ multisampledColorTexture
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 sampleCount
@@ -4408,7 +4406,7 @@ resolveTargetTexture
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 usage
@@ -4519,7 +4517,7 @@ multisampledColorTexture
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 sampleCount
@@ -4533,7 +4531,7 @@ resolveTargetTexture
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 arrayLayerCount
@@ -4659,7 +4657,7 @@ multisampledColorTexture
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 sampleCount
@@ -4673,7 +4671,7 @@ resolveTargetTexture
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 sampleCount
@@ -4764,7 +4762,7 @@ multisampledColorTexture
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 sampleCount
@@ -4778,7 +4776,7 @@ resolveTargetTexture
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 format
@@ -4880,7 +4878,7 @@ multisampledColorTexture
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 width
@@ -4900,7 +4898,7 @@ resolveTargetTexture
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 width
@@ -5075,7 +5073,7 @@ multisampledDepthStencilTexture
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 sampleCount
@@ -5097,7 +5095,7 @@ depthStencilTexture
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 sampleCount
@@ -5118,7 +5116,7 @@ multisampledColorTexture
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 sampleCount
@@ -5168,7 +5166,7 @@ colorTexture
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 sampleCount
@@ -5218,7 +5216,7 @@ multisampledColorTexture
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 sampleCount
@@ -5559,13 +5557,7 @@ depthAttachment
 =
 t
 .
-trackForCleanup
-(
-t
-.
-device
-.
-createTexture
+createTextureTracked
 (
 {
 format
@@ -5588,7 +5580,6 @@ GPUTextureUsage
 .
 RENDER_ATTACHMENT
 }
-)
 )
 ;
 const
@@ -5967,7 +5958,7 @@ depthStencilTexture
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 format
@@ -6041,7 +6032,7 @@ getColorAttachment
 (
 t
 .
-createTexture
+createTestTexture
 (
 )
 )
@@ -6216,7 +6207,7 @@ multisampledColorTexture
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 format
@@ -6231,7 +6222,7 @@ resolveTarget
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 format
@@ -6387,9 +6378,7 @@ querySet
 :
 t
 .
-device
-.
-createQuerySet
+createQuerySetTracked
 (
 {
 type
@@ -6424,7 +6413,7 @@ colorTexture
 =
 t
 .
-createTexture
+createTestTexture
 (
 )
 ;
@@ -6581,9 +6570,7 @@ querySet
 :
 t
 .
-device
-.
-createQuerySet
+createQuerySetTracked
 (
 {
 type
@@ -6642,7 +6629,7 @@ colorTexture
 =
 t
 .
-createTexture
+createTestTexture
 (
 )
 ;
@@ -6772,9 +6759,7 @@ querySet
 =
 t
 .
-device
-.
-createQuerySet
+createQuerySetTracked
 (
 {
 type
@@ -6791,7 +6776,7 @@ colorTexture
 =
 t
 .
-createTexture
+createTestTexture
 (
 )
 ;

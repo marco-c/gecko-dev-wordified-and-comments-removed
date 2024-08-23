@@ -347,9 +347,7 @@ colorTexture
 =
 this
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 format
@@ -4041,9 +4039,7 @@ indexBuffer
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size

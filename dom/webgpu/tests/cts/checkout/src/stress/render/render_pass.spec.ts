@@ -375,9 +375,7 @@ renderTarget
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 size
@@ -793,9 +791,7 @@ renderTarget
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 size
@@ -826,9 +822,7 @@ depthTarget
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 size
@@ -1498,9 +1492,7 @@ renderTarget
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 size
@@ -1599,9 +1591,7 @@ buffer
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size
@@ -2037,9 +2027,7 @@ renderTarget
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 size
@@ -2525,9 +2513,7 @@ renderTarget
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 size

@@ -209,9 +209,7 @@ expectValidationError
 {
 t
 .
-device
-.
-createQuerySet
+createQuerySetTracked
 (
 {
 type

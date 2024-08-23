@@ -919,14 +919,5 @@ copySize
 texelCompareOptions
 )
 ;
-this
-.
-trackForCleanup
-(
-dstTextureCopyView
-.
-texture
-)
-;
 }
 }

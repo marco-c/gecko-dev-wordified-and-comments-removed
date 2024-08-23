@@ -225,9 +225,7 @@ RENDER_ATTACHMENT
 ;
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 descriptor
 )
@@ -308,9 +306,7 @@ texture
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 size
@@ -496,9 +492,7 @@ renderTexture
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 size
@@ -531,9 +525,7 @@ resolveTexture
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 size

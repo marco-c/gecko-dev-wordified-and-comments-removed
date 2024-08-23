@@ -566,9 +566,7 @@ tempTexture
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 size

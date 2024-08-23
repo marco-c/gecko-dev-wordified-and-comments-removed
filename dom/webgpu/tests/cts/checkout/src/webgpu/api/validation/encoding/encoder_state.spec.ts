@@ -275,9 +275,7 @@ texture
 =
 this
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 format
@@ -304,13 +302,6 @@ GPUTextureUsage
 .
 RENDER_ATTACHMENT
 }
-)
-;
-this
-.
-trackForCleanup
-(
-texture
 )
 ;
 return

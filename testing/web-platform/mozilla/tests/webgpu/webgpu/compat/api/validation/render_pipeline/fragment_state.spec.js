@@ -631,7 +631,7 @@ targets
 ;
 t
 .
-expectGPUError
+expectGPUErrorInCompatibilityMode
 (
 '
 validation

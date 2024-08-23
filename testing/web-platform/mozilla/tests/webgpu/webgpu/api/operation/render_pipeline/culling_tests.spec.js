@@ -856,9 +856,7 @@ texture
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 size
@@ -924,9 +922,7 @@ depthTexture
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 size

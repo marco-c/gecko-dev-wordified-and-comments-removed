@@ -337,9 +337,7 @@ texture
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 size
@@ -385,13 +383,6 @@ params
 .
 sampleCount
 }
-)
-;
-t
-.
-trackForCleanup
-(
-texture
 )
 ;
 if

@@ -980,9 +980,7 @@ buffer
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 usage
@@ -998,13 +996,6 @@ size
 :
 byteLength
 }
-)
-;
-t
-.
-trackForCleanup
-(
-buffer
 )
 ;
 const

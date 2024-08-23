@@ -349,9 +349,7 @@ renderTarget
 =
 this
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 size
@@ -751,9 +749,7 @@ resultBuffer
 =
 this
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size
@@ -3239,6 +3235,7 @@ location
 interpolate
 (
 flat
+either
 )
 outAttrib13
 :
@@ -3286,6 +3283,7 @@ location
 interpolate
 (
 flat
+either
 )
 attrib13
 :
@@ -3387,6 +3385,7 @@ location
 interpolate
 (
 flat
+either
 )
 outAttrib13
 :
@@ -3430,6 +3429,7 @@ location
 interpolate
 (
 flat
+either
 )
 attrib13
 :
@@ -3588,6 +3588,7 @@ i
 interpolate
 (
 flat
+either
 )
 outAttrib
 {
@@ -3618,6 +3619,7 @@ length
 interpolate
 (
 flat
+either
 )
 primitiveId
 :
@@ -3768,6 +3770,7 @@ i
 interpolate
 (
 flat
+either
 )
 attrib
 {
@@ -3798,6 +3801,7 @@ length
 interpolate
 (
 flat
+either
 )
 primitiveId
 :
@@ -3959,9 +3963,7 @@ resultBuffer
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 usage
@@ -4051,9 +4053,7 @@ view
 :
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 usage

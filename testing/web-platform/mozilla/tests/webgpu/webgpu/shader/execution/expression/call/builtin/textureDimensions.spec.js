@@ -1178,9 +1178,7 @@ outputBuffer
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size
@@ -1859,9 +1857,7 @@ texture
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 size
@@ -2556,9 +2552,7 @@ texture
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 size
@@ -3056,9 +3050,7 @@ texture
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 size

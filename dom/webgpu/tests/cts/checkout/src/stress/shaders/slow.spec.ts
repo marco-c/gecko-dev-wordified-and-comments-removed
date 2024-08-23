@@ -696,9 +696,7 @@ renderTarget
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 size
@@ -1175,9 +1173,7 @@ renderTarget
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 size

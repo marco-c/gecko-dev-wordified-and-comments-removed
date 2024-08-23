@@ -339,9 +339,7 @@ resource
 :
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 textureDesc
 )

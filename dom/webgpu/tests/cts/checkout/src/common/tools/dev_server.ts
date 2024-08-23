@@ -958,7 +958,7 @@ filepath
 *
 )
 .
-worker
+as_worker
 .
 js
 '

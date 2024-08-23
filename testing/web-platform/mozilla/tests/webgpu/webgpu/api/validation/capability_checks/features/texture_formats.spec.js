@@ -354,9 +354,7 @@ TypeError
 {
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 format
@@ -539,9 +537,7 @@ TypeError
 {
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 format
@@ -723,9 +719,7 @@ testTexture
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 format

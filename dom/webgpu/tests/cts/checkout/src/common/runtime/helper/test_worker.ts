@@ -189,6 +189,15 @@ unregister
 )
 ;
 }
+if
+(
+'
+serviceWorker
+'
+in
+navigator
+)
+{
 unregisterAllServiceWorkers
 (
 )
@@ -212,6 +221,7 @@ unregisterAllServiceWorkers
 }
 )
 ;
+}
 abstract
 class
 TestBaseWorker
@@ -1122,7 +1132,7 @@ webworker
 fileName
 }
 .
-worker
+as_worker
 .
 js
 )

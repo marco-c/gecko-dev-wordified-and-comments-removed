@@ -216,7 +216,7 @@ TextureUsageTracking
 extends
 ValidationTest
 {
-createTexture
+createTestTexture
 (
 options
 =
@@ -262,9 +262,7 @@ options
 return
 this
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 size
@@ -673,7 +671,7 @@ view
 =
 this
 .
-createTexture
+createTestTexture
 (
 {
 usage
@@ -860,7 +858,7 @@ beginSimpleRenderPass
 encoder
 this
 .
-createTexture
+createTestTexture
 (
 )
 .
@@ -2114,7 +2112,7 @@ texture
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 arrayLayerCount
@@ -2473,7 +2471,7 @@ view1
 :
 t
 .
-createTexture
+createTestTexture
 (
 )
 .
@@ -3495,7 +3493,7 @@ texture
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 arrayLayerCount
@@ -3661,7 +3659,7 @@ view
 :
 t
 .
-createTexture
+createTestTexture
 (
 {
 width
@@ -3720,15 +3718,6 @@ depthStencilFormat
 view
 :
 view1
-depthStoreOp
-:
-view1HasDepth
-?
-'
-discard
-'
-:
-undefined
 depthLoadOp
 :
 view1HasDepth
@@ -3738,9 +3727,9 @@ load
 '
 :
 undefined
-stencilStoreOp
+depthStoreOp
 :
-view1HasStencil
+view1HasDepth
 ?
 '
 discard
@@ -3753,6 +3742,15 @@ view1HasStencil
 ?
 '
 load
+'
+:
+undefined
+stencilStoreOp
+:
+view1HasStencil
+?
+'
+discard
 '
 :
 undefined
@@ -4352,7 +4350,7 @@ view
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 usage
@@ -4372,7 +4370,7 @@ view
 :
 t
 .
-createTexture
+createTestTexture
 (
 {
 usage
@@ -4541,7 +4539,7 @@ beginSimpleRenderPass
 encoder
 t
 .
-createTexture
+createTestTexture
 (
 )
 .
@@ -4784,7 +4782,7 @@ view
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 usage
@@ -4804,7 +4802,7 @@ view
 :
 t
 .
-createTexture
+createTestTexture
 (
 {
 usage
@@ -5137,7 +5135,7 @@ sampledView
 =
 t
 .
-createTexture
+createTestTexture
 (
 )
 .
@@ -5150,7 +5148,7 @@ sampledStorageView
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 usage
@@ -5319,7 +5317,7 @@ beginSimpleRenderPass
 encoder
 t
 .
-createTexture
+createTestTexture
 (
 )
 .
@@ -5912,7 +5910,7 @@ view
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 usage
@@ -6100,7 +6098,7 @@ view
 :
 t
 .
-createTexture
+createTestTexture
 (
 )
 .
@@ -6577,7 +6575,7 @@ view
 =
 t
 .
-createTexture
+createTestTexture
 (
 {
 usage
@@ -7019,7 +7017,7 @@ view
 :
 t
 .
-createTexture
+createTestTexture
 (
 )
 .
@@ -7588,9 +7586,7 @@ indirectBuffer
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size
@@ -8597,7 +8593,7 @@ attachment
 =
 t
 .
-createTexture
+createTestTexture
 (
 )
 .

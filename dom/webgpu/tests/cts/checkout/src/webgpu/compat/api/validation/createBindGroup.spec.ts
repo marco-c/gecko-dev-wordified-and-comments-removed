@@ -659,9 +659,7 @@ texture
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 size
@@ -706,13 +704,6 @@ textureBindingViewDimension
 }
 as
 GPUTextureDescriptor
-)
-;
-t
-.
-trackForCleanup
-(
-texture
 )
 ;
 const
@@ -802,7 +793,7 @@ effectiveViewDimension
 ;
 t
 .
-expectValidationError
+expectValidationErrorInCompatibilityMode
 (
 (
 )

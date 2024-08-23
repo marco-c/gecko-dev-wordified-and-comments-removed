@@ -1,12 +1,3 @@
-#
-!
-/
-usr
-/
-bin
-/
-env
-node
 import
 fs
 from
@@ -68,6 +59,7 @@ g
 -
 '
 )
+;
 const
 filename
 =
@@ -78,6 +70,7 @@ timestamp
 }
 .
 txt
+;
 const
 f
 =

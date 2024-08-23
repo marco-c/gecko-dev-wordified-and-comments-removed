@@ -4183,9 +4183,7 @@ colorTexture
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 size

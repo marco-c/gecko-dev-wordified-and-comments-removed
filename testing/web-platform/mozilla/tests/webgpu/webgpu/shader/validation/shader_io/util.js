@@ -589,7 +589,7 @@ basicEmitter
 '
 texture_storage_3d
 <
-rg32uint
+rgba32uint
 write
 >
 '

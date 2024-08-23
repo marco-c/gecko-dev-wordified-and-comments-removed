@@ -147,9 +147,7 @@ texture
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 size
@@ -185,7 +183,7 @@ cube
 ;
 t
 .
-expectGPUError
+expectGPUErrorInCompatibilityMode
 (
 '
 validation

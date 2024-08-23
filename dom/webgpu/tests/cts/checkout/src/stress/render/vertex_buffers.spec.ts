@@ -84,9 +84,7 @@ buffer
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size
@@ -340,9 +338,7 @@ vertexBuffer
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size
@@ -676,9 +672,7 @@ renderTarget
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 size

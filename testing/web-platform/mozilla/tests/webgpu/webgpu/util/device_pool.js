@@ -447,6 +447,13 @@ destroy
 (
 )
 ;
+await
+holder
+.
+device
+.
+lost
+;
 }
 holder
 .

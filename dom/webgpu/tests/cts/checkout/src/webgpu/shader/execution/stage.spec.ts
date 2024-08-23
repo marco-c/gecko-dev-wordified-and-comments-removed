@@ -216,13 +216,6 @@ GPUBufferUsage
 COPY_DST
 )
 ;
-t
-.
-trackForCleanup
-(
-buffer
-)
-;
 const
 bg
 =
@@ -550,9 +543,7 @@ texture
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 size
@@ -583,9 +574,7 @@ dst
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size

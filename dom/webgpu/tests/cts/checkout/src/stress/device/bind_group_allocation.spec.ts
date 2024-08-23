@@ -99,9 +99,7 @@ buffer
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size
@@ -264,9 +262,7 @@ buffer
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size

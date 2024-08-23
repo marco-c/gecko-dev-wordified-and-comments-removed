@@ -627,9 +627,7 @@ texture
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 size
@@ -672,13 +670,6 @@ textureBindingViewDimension
 }
 )
 }
-)
-;
-t
-.
-trackForCleanup
-(
-texture
 )
 ;
 const
@@ -768,7 +759,7 @@ effectiveViewDimension
 ;
 t
 .
-expectValidationError
+expectValidationErrorInCompatibilityMode
 (
 (
 )

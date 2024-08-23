@@ -462,13 +462,7 @@ texture
 =
 t
 .
-trackForCleanup
-(
-t
-.
-device
-.
-createTexture
+createTextureTracked
 (
 {
 size
@@ -489,7 +483,6 @@ GPUTextureUsage
 .
 RENDER_ATTACHMENT
 }
-)
 )
 ;
 const
@@ -653,9 +646,7 @@ buffer
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size

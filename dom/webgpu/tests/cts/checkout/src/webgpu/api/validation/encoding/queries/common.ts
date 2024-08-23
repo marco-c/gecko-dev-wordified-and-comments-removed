@@ -41,9 +41,7 @@ GPUQuerySet
 return
 t
 .
-device
-.
-createQuerySet
+createQuerySetTracked
 (
 {
 type
@@ -75,9 +73,7 @@ view
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 format

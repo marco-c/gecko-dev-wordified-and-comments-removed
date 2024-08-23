@@ -786,9 +786,7 @@ colorAttachment
 =
 this
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 format
@@ -824,9 +822,7 @@ result
 =
 this
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size
@@ -1535,9 +1531,7 @@ colorAttachment
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 format
@@ -1573,9 +1567,7 @@ result
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size
@@ -1883,9 +1875,7 @@ colorAttachment
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 format
@@ -1921,9 +1911,7 @@ result
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size
@@ -2208,9 +2196,7 @@ colorAttachment
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 format
@@ -2246,9 +2232,7 @@ result
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size

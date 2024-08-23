@@ -160,7 +160,7 @@ params
 ;
 t
 .
-expectValidationError
+expectValidationErrorInCompatibilityMode
 (
 (
 )

@@ -105,7 +105,7 @@ webworker
 /
 *
 .
-worker
+as_worker
 .
 js
 for
@@ -459,7 +459,7 @@ file
 +
 '
 .
-worker
+as_worker
 .
 js
 '

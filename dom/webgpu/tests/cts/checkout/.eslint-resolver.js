@@ -17,11 +17,13 @@ require
 resolve
 '
 )
+;
 exports
 .
 interfaceVersion
 =
 2
+;
 exports
 .
 resolve
@@ -51,6 +53,7 @@ path
 :
 null
 }
+;
 source
 =
 source
@@ -107,6 +110,7 @@ config
 }
 )
 }
+;
 }
 catch
 (
@@ -119,5 +123,7 @@ found
 :
 false
 }
+;
 }
 }
+;

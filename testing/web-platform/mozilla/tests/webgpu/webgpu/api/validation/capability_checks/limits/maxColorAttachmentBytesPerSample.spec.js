@@ -622,13 +622,7 @@ format
 >
 t
 .
-trackForCleanup
-(
-t
-.
-device
-.
-createTexture
+createTextureTracked
 (
 {
 size
@@ -644,7 +638,6 @@ GPUTextureUsage
 .
 RENDER_ATTACHMENT
 }
-)
 )
 )
 ;

@@ -1282,9 +1282,7 @@ this
 .
 test
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size
@@ -2629,9 +2627,7 @@ colorAttachment
 =
 this
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 format
@@ -2699,11 +2695,6 @@ colorAttachments
 view
 :
 colorAttachmentView
-storeOp
-:
-'
-store
-'
 clearValue
 :
 {
@@ -2732,6 +2723,11 @@ loadOp
 :
 '
 clear
+'
+storeOp
+:
+'
+store
 '
 }
 ]

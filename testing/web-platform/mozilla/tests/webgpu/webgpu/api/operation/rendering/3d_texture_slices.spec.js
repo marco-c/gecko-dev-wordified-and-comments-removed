@@ -718,9 +718,7 @@ texture
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 size
@@ -783,9 +781,7 @@ buffer
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size
@@ -1242,9 +1238,7 @@ texture
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 descriptor
 )
@@ -1297,9 +1291,7 @@ diffTexture
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 descriptor
 )
@@ -1635,9 +1627,7 @@ buffer
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size
@@ -1966,9 +1956,7 @@ texture
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 size
@@ -2155,9 +2143,7 @@ buffer
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size

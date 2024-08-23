@@ -162,9 +162,7 @@ makeIndexBuffer
 return
 this
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size
@@ -444,6 +442,10 @@ device
 const
 indirectBuffer
 =
+t
+.
+trackForCleanup
+(
 sourceDevice
 .
 createBuffer
@@ -459,12 +461,6 @@ GPUBufferUsage
 INDIRECT
 }
 )
-;
-t
-.
-trackForCleanup
-(
-indirectBuffer
 )
 ;
 const
@@ -621,9 +617,7 @@ indirectBuffer
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size
@@ -792,9 +786,7 @@ indirectBuffer
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size
@@ -1259,9 +1251,7 @@ indirectBuffer
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size
