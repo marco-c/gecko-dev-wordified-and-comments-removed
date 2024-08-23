@@ -4915,6 +4915,7 @@ masm_
 *
 linkData_
 partialTieringCode_
+false
 &
 codeStart
 &

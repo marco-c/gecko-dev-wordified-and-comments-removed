@@ -889,6 +889,10 @@ createEmpty
 (
 size_t
 capacityBytes
+bool
+allowLastDitchGC
+=
+true
 )
 ;
 static
@@ -912,6 +916,10 @@ const
 Code
 *
 maybeCode
+bool
+allowLastDitchGC
+=
+true
 )
 ;
 static
@@ -931,6 +939,10 @@ const
 LinkData
 &
 linkData
+bool
+allowLastDitchGC
+=
+true
 )
 ;
 static
@@ -954,6 +966,8 @@ const
 Code
 *
 code
+bool
+allowLastDitchGC
 uint8_t
 *
 *
@@ -1274,6 +1288,8 @@ AutoMarkJitCodeWritableForThread
 writable
 uint32_t
 codeLength
+bool
+allowLastDitchGC
 )
 ;
 extern
@@ -4919,6 +4935,8 @@ SharedCodeSegmentVector
 lazySegments
 uint32_t
 bytesNeeded
+bool
+allowLastDitchGC
 size_t
 *
 offsetInSegment

@@ -297,6 +297,8 @@ AutoMarkJitCodeWritableForThread
 writable
 uint32_t
 codeLength
+bool
+allowLastDitchGC
 )
 {
 if
@@ -354,6 +356,9 @@ if
 (
 !
 p
+&
+&
+allowLastDitchGC
 )
 {
 if
@@ -1683,6 +1688,8 @@ createEmpty
 (
 size_t
 capacityBytes
+bool
+allowLastDitchGC
 )
 {
 uint32_t
@@ -1711,6 +1718,7 @@ AllocateCodeBytes
 (
 writable
 codeCapacity
+allowLastDitchGC
 )
 ;
 if
@@ -1758,6 +1766,8 @@ const
 Code
 *
 maybeCode
+bool
+allowLastDitchGC
 )
 {
 uint32_t
@@ -1810,6 +1820,7 @@ AllocateCodeBytes
 (
 writable
 codeCapacity
+allowLastDitchGC
 )
 ;
 if
@@ -1895,6 +1906,8 @@ const
 LinkData
 &
 linkData
+bool
+allowLastDitchGC
 )
 {
 uint32_t
@@ -1943,6 +1956,7 @@ AllocateCodeBytes
 (
 writable
 codeLength
+allowLastDitchGC
 )
 ;
 if
@@ -2026,6 +2040,8 @@ SharedCodeSegmentVector
 lazySegments
 uint32_t
 bytesNeeded
+bool
+allowLastDitchGC
 size_t
 *
 offsetInSegment
@@ -2085,6 +2101,7 @@ CodeSegment
 createEmpty
 (
 codeLength
+allowLastDitchGC
 )
 ;
 if
@@ -2212,6 +2229,8 @@ const
 Code
 *
 code
+bool
+allowLastDitchGC
 uint8_t
 *
 *
@@ -2392,6 +2411,7 @@ guard
 >
 lazyFuncSegments
 requestLength
+allowLastDitchGC
 &
 offsetInSegment
 nullptr
@@ -3029,6 +3049,7 @@ masm
 bytesNeeded
 (
 )
+true
 &
 offsetInSegment
 &
