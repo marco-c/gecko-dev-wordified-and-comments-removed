@@ -402,10 +402,6 @@ versionName
 packageInfo
 .
 versionName
-?
-:
-"
-"
 val
 gvBuildId
 =
