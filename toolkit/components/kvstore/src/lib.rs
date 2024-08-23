@@ -62,6 +62,9 @@ mod
 error
 ;
 mod
+fs
+;
+mod
 owned_value
 ;
 mod
@@ -111,7 +114,9 @@ nsstring
 :
 {
 nsACString
+nsAString
 nsCString
+nsString
 }
 ;
 use
@@ -355,7 +360,7 @@ path
 :
 *
 const
-nsACString
+nsAString
 name
 :
 *
@@ -376,7 +381,7 @@ nsIKeyValueDatabaseCallback
 path
 :
 &
-nsACString
+nsAString
 name
 :
 &
@@ -411,7 +416,7 @@ new
 (
 callback
 )
-nsCString
+nsString
 :
 :
 from
@@ -479,7 +484,7 @@ path
 :
 *
 const
-nsACString
+nsAString
 name
 :
 *
@@ -503,7 +508,7 @@ nsIKeyValueDatabaseCallback
 path
 :
 &
-nsACString
+nsAString
 name
 :
 &
@@ -587,7 +592,7 @@ new
 (
 callback
 )
-nsCString
+nsString
 :
 :
 from
