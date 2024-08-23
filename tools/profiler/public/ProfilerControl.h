@@ -64,7 +64,7 @@ No
 static
 inline
 void
-profiler_lookup_async_signal_dump_directory
+profiler_lookup_download_directory
 (
 )
 {
@@ -328,7 +328,7 @@ Nothing
 )
 ;
 void
-profiler_lookup_async_signal_dump_directory
+profiler_lookup_download_directory
 (
 )
 ;
