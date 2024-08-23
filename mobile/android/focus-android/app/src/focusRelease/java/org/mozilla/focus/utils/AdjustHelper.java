@@ -91,10 +91,12 @@ telemetry
 .
 GleanMetricsService
 ;
+Deprecated
 public
 class
 AdjustHelper
 {
+Deprecated
 public
 static
 void
