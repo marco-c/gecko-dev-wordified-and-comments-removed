@@ -789,11 +789,6 @@ CommitFrameToCompositor
 nsICanvasRenderingContextInternal
 *
 aContext
-layers
-:
-:
-TextureType
-aTextureType
 const
 Maybe
 <
@@ -1142,7 +1137,6 @@ aContext
 PresentFrontBuffer
 (
 nullptr
-aTextureType
 )
 ;
 if
