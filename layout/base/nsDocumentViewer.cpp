@@ -7439,6 +7439,13 @@ InvalidateFrame
 (
 )
 ;
+mPresShell
+-
+>
+RefreshViewportSize
+(
+)
+;
 }
 }
 }
