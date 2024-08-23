@@ -107,6 +107,7 @@ NS_IMPL_ISUPPORTS
 (
 BounceTrackingStorageObserver
 nsIObserver
+nsISupportsWeakReference
 )
 ;
 nsresult
@@ -133,6 +134,9 @@ LogLevel
 Debug
 (
 "
+BounceTrackingStorageObserver
+:
+:
 %
 s
 "
@@ -176,7 +180,7 @@ cookie
 -
 changed
 "
-false
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -199,7 +203,7 @@ cookie
 -
 changed
 "
-false
+true
 )
 ;
 }

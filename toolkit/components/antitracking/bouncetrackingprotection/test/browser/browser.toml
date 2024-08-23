@@ -16,9 +16,9 @@ privacy
 .
 bounceTrackingProtection
 .
-enabled
+mode
 =
-true
+1
 "
 "
 privacy
@@ -37,15 +37,6 @@ bounceTrackingProtection
 bounceTrackingPurgeTimerPeriodSec
 =
 0
-"
-"
-privacy
-.
-bounceTrackingProtection
-.
-enableDryRunMode
-=
-false
 "
 #
 Do
