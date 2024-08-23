@@ -935,7 +935,10 @@ AudibleState
 aAudible
 )
 )
-AudibleChangedReasonToStr
+AudioChannelService
+:
+:
+EnumValueToString
 (
 static_cast
 <
