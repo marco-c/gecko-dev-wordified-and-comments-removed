@@ -3121,7 +3121,7 @@ amp
 url
 =
 "
-http
+https
 :
 /
 /
@@ -3160,7 +3160,7 @@ id
 click_url
 :
 "
-http
+https
 :
 /
 /
@@ -3175,7 +3175,7 @@ click
 impression_url
 :
 "
-http
+https
 :
 /
 /
@@ -3261,7 +3261,7 @@ wikipedia
 url
 =
 "
-http
+https
 :
 /
 /
@@ -3300,7 +3300,7 @@ id
 click_url
 :
 "
-http
+https
 :
 /
 /
@@ -3315,7 +3315,7 @@ click
 impression_url
 :
 "
-http
+https
 :
 /
 /
@@ -3399,7 +3399,7 @@ amo
 url
 =
 "
-http
+https
 :
 /
 /
@@ -4928,7 +4928,7 @@ js
 url
 :
 "
-http
+https
 :
 /
 /
@@ -4946,7 +4946,7 @@ YYYYMMDDHH
 sponsoredClickUrl
 :
 "
-http
+https
 :
 /
 /

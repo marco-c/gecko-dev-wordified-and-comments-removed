@@ -3218,7 +3218,7 @@ Suggestion
 url
 :
 "
-http
+https
 :
 /
 /
@@ -3234,7 +3234,7 @@ null
 impression_url
 :
 "
-http
+https
 :
 /
 /
@@ -3249,7 +3249,7 @@ impression
 click_url
 :
 "
-http
+https
 :
 /
 /

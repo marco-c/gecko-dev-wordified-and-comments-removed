@@ -8020,7 +8020,7 @@ expectedUrls
 :
 [
 "
-http
+https
 :
 /
 /
@@ -8031,7 +8031,7 @@ com
 amp
 "
 "
-http
+https
 :
 /
 /
@@ -8070,7 +8070,7 @@ expectedUrls
 :
 [
 "
-http
+https
 :
 /
 /
@@ -8109,7 +8109,7 @@ expectedUrls
 :
 [
 "
-http
+https
 :
 /
 /
