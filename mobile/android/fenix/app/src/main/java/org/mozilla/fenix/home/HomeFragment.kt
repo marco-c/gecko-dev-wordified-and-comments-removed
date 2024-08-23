@@ -3292,6 +3292,11 @@ appStore
 components
 .
 appStore
+settings
+=
+components
+.
+settings
 )
 privateBrowsingController
 =
