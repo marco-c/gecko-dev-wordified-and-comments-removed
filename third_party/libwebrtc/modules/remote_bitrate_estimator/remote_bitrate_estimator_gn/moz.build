@@ -372,7 +372,7 @@ modules
 /
 remote_bitrate_estimator
 /
-remote_estimator_proxy
+transport_sequence_number_feedback_generator
 .
 cc
 "
