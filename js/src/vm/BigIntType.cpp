@@ -284,12 +284,6 @@ using
 mozilla
 :
 :
-BitwiseCast
-;
-using
-mozilla
-:
-:
 Maybe
 ;
 using

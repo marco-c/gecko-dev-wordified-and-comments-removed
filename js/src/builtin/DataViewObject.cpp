@@ -275,12 +275,6 @@ using
 mozilla
 :
 :
-AssertedCast
-;
-using
-mozilla
-:
-:
 WrapToSigned
 ;
 static

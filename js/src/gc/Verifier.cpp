@@ -169,12 +169,6 @@ js
 :
 gc
 ;
-using
-mozilla
-:
-:
-DebugOnly
-;
 #
 ifdef
 JS_GC_ZEAL

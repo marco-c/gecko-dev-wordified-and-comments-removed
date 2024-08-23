@@ -528,12 +528,6 @@ using
 JS
 :
 :
-AutoGCRooter
-;
-using
-JS
-:
-:
 SliceBudget
 ;
 using

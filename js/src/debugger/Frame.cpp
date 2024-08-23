@@ -717,12 +717,6 @@ using
 mozilla
 :
 :
-MakeScopeExit
-;
-using
-mozilla
-:
-:
 Maybe
 ;
 ScriptedOnStepHandler

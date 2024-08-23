@@ -469,12 +469,6 @@ using
 mozilla
 :
 :
-IsAsciiDigit
-;
-using
-mozilla
-:
-:
 Maybe
 ;
 using

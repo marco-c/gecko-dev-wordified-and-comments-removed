@@ -465,12 +465,6 @@ using
 mozilla
 :
 :
-BitwiseCast
-;
-using
-mozilla
-:
-:
 CheckedUint32
 ;
 using

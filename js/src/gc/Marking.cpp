@@ -235,12 +235,6 @@ mozilla
 :
 IntegerRange
 ;
-using
-mozilla
-:
-:
-PodCopy
-;
 static
 const
 size_t

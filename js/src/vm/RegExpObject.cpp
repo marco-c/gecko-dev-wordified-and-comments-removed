@@ -257,12 +257,6 @@ using
 JS
 :
 :
-AutoStableStringChars
-;
-using
-JS
-:
-:
 CompileOptions
 ;
 using
