@@ -240,6 +240,13 @@ js
 ]
 [
 "
+browser_UrlbarInput_searchTerms_remote_settings_sync
+.
+js
+"
+]
+[
+"
 browser_UrlbarInput_searchTerms_revert
 .
 js
