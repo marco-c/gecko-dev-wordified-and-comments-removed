@@ -54,4 +54,3 @@ pointing
 device
 /
 index
-LimitedAccessFeature
