@@ -8466,6 +8466,15 @@ onNewTabButtonClicked
 (
 )
 }
+onNewTabButtonLongPress
+=
+{
+browserToolbarInteractor
+.
+onNewTabButtonLongClicked
+(
+)
+}
 onTabsButtonClick
 =
 {

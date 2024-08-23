@@ -817,6 +817,15 @@ no
 -
 op
 }
+onNewTabButtonLongPress
+=
+{
+/
+/
+no
+-
+op
+}
 onTabsButtonClick
 =
 {
