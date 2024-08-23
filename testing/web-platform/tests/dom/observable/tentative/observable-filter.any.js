@@ -216,7 +216,7 @@ teardownCalled
 Teardown
 called
 once
-map
+filter
 unsubscribes
 due
 to
@@ -557,7 +557,7 @@ results
 ;
 source
 .
-map
+filter
 (
 v
 =
