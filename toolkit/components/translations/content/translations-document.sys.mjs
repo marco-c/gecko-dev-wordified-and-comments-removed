@@ -4265,6 +4265,7 @@ NodeStatus
 .
 READY_TO_TRANSLATE
 :
+{
 const
 shadowRoot
 =
@@ -4334,6 +4335,7 @@ node
 }
 break
 ;
+}
 case
 NodeStatus
 .
