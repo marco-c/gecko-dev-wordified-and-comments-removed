@@ -1216,7 +1216,7 @@ Modifier
 .
 padding
 (
-horizontal
+start
 =
 16
 .
@@ -1245,7 +1245,7 @@ Modifier
 .
 padding
 (
-horizontal
+start
 =
 16
 .
@@ -1801,7 +1801,7 @@ Modifier
 .
 padding
 (
-horizontal
+start
 =
 16
 .
