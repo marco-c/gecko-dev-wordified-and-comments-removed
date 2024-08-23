@@ -384,13 +384,11 @@ https
 :
 /
 /
+mozilla
+.
 testrail
 .
-stage
-.
-mozaws
-.
-net
+io
 /
 index
 .
