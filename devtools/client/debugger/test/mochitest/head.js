@@ -612,6 +612,13 @@ url
 .
 sjs
 "
+"
+log
+-
+worker
+.
+js
+"
 ]
 ;
 if
