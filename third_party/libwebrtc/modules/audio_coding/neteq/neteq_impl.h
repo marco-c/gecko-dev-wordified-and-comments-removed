@@ -17,6 +17,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -101,6 +106,17 @@ include
 api
 /
 rtp_packet_info
+.
+h
+"
+#
+include
+"
+api
+/
+units
+/
+timestamp
 .
 h
 "
@@ -525,6 +541,8 @@ const
 uint8_t
 >
 payload
+Timestamp
+receive_time
 )
 override
 ;
@@ -822,6 +840,8 @@ const
 uint8_t
 >
 payload
+Timestamp
+receive_time
 )
 RTC_EXCLUSIVE_LOCKS_REQUIRED
 (

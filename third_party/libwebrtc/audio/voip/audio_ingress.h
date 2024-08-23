@@ -514,6 +514,10 @@ RTC_GUARDED_BY
 lock_
 )
 ;
+Clock
+*
+clock_
+;
 std
 :
 :

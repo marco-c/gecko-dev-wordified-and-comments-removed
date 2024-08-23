@@ -1047,6 +1047,8 @@ const
 RTPHeader
 &
 header
+Timestamp
+receive_time
 )
 RTC_RUN_ON
 (
@@ -1099,6 +1101,8 @@ const
 RTPHeader
 &
 rtpHeader
+Timestamp
+receive_time
 )
 RTC_RUN_ON
 (
@@ -1247,11 +1251,6 @@ nullptr
 ;
 AudioLevel
 _outputAudioLevel
-;
-Clock
-*
-const
-clock_
 ;
 RemoteNtpTimeEstimator
 ntp_estimator_
@@ -1477,6 +1476,8 @@ const
 RTPHeader
 &
 rtpHeader
+Timestamp
+receive_time
 )
 {
 if
@@ -1500,12 +1501,7 @@ packet_vector
 RtpPacketInfo
 (
 rtpHeader
-clock_
--
->
-CurrentTime
-(
-)
+receive_time
 )
 }
 ;
@@ -1532,6 +1528,7 @@ InsertPacket
 (
 rtpHeader
 payload
+receive_time
 )
 !
 =
@@ -1714,6 +1711,12 @@ OnReceivedPayloadData
 (
 packet
 header
+Timestamp
+:
+:
+MinusInfinity
+(
+)
 )
 ;
 }
@@ -2539,10 +2542,6 @@ jitter_buffer_min_delay_ms
 _outputAudioLevel
 (
 )
-clock_
-(
-clock
-)
 ntp_estimator_
 (
 clock
@@ -3112,6 +3111,11 @@ size
 (
 )
 header
+packet
+.
+arrival_time
+(
+)
 )
 ;
 }
@@ -3131,6 +3135,8 @@ const
 RTPHeader
 &
 header
+Timestamp
+receive_time
 )
 {
 const
@@ -3448,6 +3454,7 @@ OnReceivedPayloadData
 (
 payload_data
 header
+receive_time
 )
 ;
 }

@@ -1301,6 +1301,8 @@ const
 uint8_t
 >
 payload
+Timestamp
+receive_time
 )
 {
 rtc
@@ -1337,6 +1339,7 @@ InsertPacketInternal
 (
 rtp_header
 payload
+receive_time
 )
 !
 =
@@ -2873,6 +2876,8 @@ const
 uint8_t
 >
 payload
+Timestamp
+receive_time
 )
 {
 if
@@ -2900,16 +2905,6 @@ return
 kInvalidPointer
 ;
 }
-Timestamp
-receive_time
-=
-clock_
--
->
-CurrentTime
-(
-)
-;
 stats_
 -
 >

@@ -514,6 +514,13 @@ InsertPacket
 (
 rtp_header
 input_payload
+Timestamp
+:
+:
+Millis
+(
+time_now_ms
+)
 )
 ;
 if
