@@ -7045,6 +7045,9 @@ assert
 array
 (
 headers
+lazy
+.
+pprint
 Expected
 "
 headers
@@ -7073,6 +7076,9 @@ this
 assertHeader
 (
 header
+lazy
+.
+pprint
 Expected
 values
 in
@@ -7126,6 +7132,9 @@ isValidHttpToken
 (
 value
 )
+lazy
+.
+pprint
 Expected
 "
 header
@@ -7168,6 +7177,9 @@ isValidHeaderValue
 (
 value
 )
+lazy
+.
+pprint
 Expected
 "
 header
