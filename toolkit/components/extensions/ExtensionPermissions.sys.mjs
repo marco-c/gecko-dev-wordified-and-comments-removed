@@ -3880,7 +3880,7 @@ NativeTab
 *
 property
 {
-XULBrowserElement
+MozBrowserElement
 }
 linkedBrowser
 *
