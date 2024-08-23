@@ -477,6 +477,12 @@ true
 targetWidth
 :
 280
+*
+this
+.
+_win
+.
+devicePixelRatio
 preserveAspectRatio
 :
 true
