@@ -10,6 +10,11 @@ not
 nightly
 )
 ignore
+=
+"
+requires
+nightly
+"
 )
 ]
 #
@@ -18,6 +23,12 @@ cfg_attr
 (
 miri
 ignore
+=
+"
+incompatible
+with
+miri
+"
 )
 ]
 #
