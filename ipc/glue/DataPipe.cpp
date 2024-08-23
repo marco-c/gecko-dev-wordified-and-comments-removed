@@ -376,7 +376,7 @@ Mutex
 aMutex
 ScopedPort
 aPort
-SharedMemoryBasic
+SharedMemory
 :
 :
 Handle
@@ -955,7 +955,7 @@ MOZ_GUARDED_BY
 mMutex
 )
 ;
-SharedMemoryBasic
+SharedMemory
 :
 :
 Handle
@@ -1456,7 +1456,7 @@ bool
 aReceiverSide
 ScopedPort
 aPort
-SharedMemoryBasic
+SharedMemory
 :
 :
 Handle
@@ -1884,7 +1884,7 @@ link
 mShmem
 -
 >
-memory
+Memory
 (
 )
 )
@@ -2891,7 +2891,7 @@ return
 false
 ;
 }
-SharedMemoryBasic
+SharedMemory
 :
 :
 Handle
@@ -2930,7 +2930,7 @@ RefPtr
 shmem
 =
 new
-SharedMemoryBasic
+SharedMemory
 (
 )
 ;
@@ -4055,7 +4055,7 @@ shmem
 =
 MakeRefPtr
 <
-SharedMemoryBasic
+SharedMemory
 >
 (
 )
@@ -4097,7 +4097,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-SharedMemoryBasic
+SharedMemory
 :
 :
 Handle
@@ -4110,7 +4110,7 @@ CloneHandle
 (
 )
 ;
-SharedMemoryBasic
+SharedMemory
 :
 :
 Handle

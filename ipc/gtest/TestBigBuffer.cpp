@@ -440,7 +440,7 @@ GetSharedMemory
 )
 -
 >
-memory
+Memory
 (
 )
 in
@@ -518,7 +518,7 @@ GetSharedMemory
 )
 -
 >
-memory
+Memory
 (
 )
 out

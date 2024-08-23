@@ -11,7 +11,7 @@ mozilla
 /
 ipc
 /
-SharedMemoryBasic
+SharedMemory
 .
 h
 "
@@ -104,7 +104,7 @@ private
 :
 UnsafeSharedMemoryHandle
 (
-SharedMemoryBasic
+SharedMemory
 :
 :
 Handle
@@ -131,7 +131,7 @@ aSize
 )
 {
 }
-SharedMemoryBasic
+SharedMemory
 :
 :
 Handle
@@ -218,7 +218,7 @@ mozilla
 ipc
 :
 :
-SharedMemoryBasic
+SharedMemory
 >
 &
 &
@@ -233,7 +233,7 @@ mozilla
 ipc
 :
 :
-SharedMemoryBasic
+SharedMemory
 >
 mRef
 ;

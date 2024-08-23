@@ -34,7 +34,7 @@ mHandle
 ipc
 :
 :
-SharedMemoryBasic
+SharedMemory
 :
 :
 NULLHandle
@@ -85,7 +85,7 @@ mHandle
 ipc
 :
 :
-SharedMemoryBasic
+SharedMemory
 :
 :
 NULLHandle
@@ -153,7 +153,7 @@ mHandle
 ipc
 :
 :
-SharedMemoryBasic
+SharedMemory
 :
 :
 NULLHandle
@@ -222,7 +222,7 @@ RefPtr
 ipc
 :
 :
-SharedMemoryBasic
+SharedMemory
 >
 shm
 =
@@ -231,7 +231,7 @@ MakeAndAddRef
 ipc
 :
 :
-SharedMemoryBasic
+SharedMemory
 >
 (
 )
@@ -333,7 +333,7 @@ RefPtr
 ipc
 :
 :
-SharedMemoryBasic
+SharedMemory
 >
 &
 &
@@ -384,7 +384,7 @@ RefPtr
 ipc
 :
 :
-SharedMemoryBasic
+SharedMemory
 >
 shm
 =
@@ -393,7 +393,7 @@ MakeAndAddRef
 ipc
 :
 :
-SharedMemoryBasic
+SharedMemory
 >
 (
 )
@@ -539,7 +539,7 @@ uint8_t
 mRef
 -
 >
-memory
+Memory
 (
 )
 )
