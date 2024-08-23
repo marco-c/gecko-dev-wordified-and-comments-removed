@@ -8841,7 +8841,7 @@ Promise
 <
 StoreData
 |
-void
+null
 >
 }
 *
