@@ -635,7 +635,7 @@ treat
 h
 and
 .
-cpp
+cc
 files
 ]
 (
