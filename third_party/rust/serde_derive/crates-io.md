@@ -401,7 +401,6 @@ lang
 -
 community
 >
-)
 the
 [
 #

@@ -5,9 +5,6 @@ super
 *
 ;
 bitflags
-:
-:
-bitflags
 !
 {
 /

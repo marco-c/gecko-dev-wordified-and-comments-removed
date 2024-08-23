@@ -1578,15 +1578,6 @@ not
 thiserror_nightly_testing
 )
 ignore
-=
-"
-requires
--
--
-cfg
-=
-thiserror_nightly_testing
-"
 )
 ]
 fn

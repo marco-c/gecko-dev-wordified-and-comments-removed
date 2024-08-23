@@ -555,9 +555,6 @@ required
 }
 }
 bitflags
-:
-:
-bitflags
 !
 {
 /
