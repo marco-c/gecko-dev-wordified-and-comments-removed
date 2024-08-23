@@ -213,6 +213,10 @@ width
 .
 8rem
 ;
+position
+:
+relative
+;
 "
 >
 <
