@@ -509,17 +509,6 @@ id
 "
 cmd_reportBrokenSite
 "
-oncommand
-=
-"
-ReportBrokenSite
-.
-open
-(
-event
-)
-;
-"
 /
 >
 <

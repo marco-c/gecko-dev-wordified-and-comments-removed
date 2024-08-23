@@ -173,8 +173,6 @@ forceMenuItemStateUpdate
 (
 )
 {
-window
-.
 ReportBrokenSite
 .
 enableOrDisableMenuitems
