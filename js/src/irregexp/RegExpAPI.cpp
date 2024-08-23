@@ -795,7 +795,7 @@ RegExpError
 kInvalidClassEscape
 :
 return
-JSMSG_RANGE_WITH_CLASS_ESCAPE
+JSMSG_INVALID_DECIMAL_ESCAPE
 ;
 case
 RegExpError
