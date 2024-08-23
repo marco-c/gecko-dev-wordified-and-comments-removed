@@ -2126,13 +2126,6 @@ SuggestStrongPasswordDelegate
 {
 }
 private
-val
-isSuggestStrongPasswordEnabled
-:
-Boolean
-=
-false
-private
 var
 shouldAutomaticallyShowSuggestedPassword
 :
@@ -2505,11 +2498,6 @@ object
 SuggestStrongPasswordDelegate
 {
 }
-isSuggestStrongPasswordEnabled
-:
-Boolean
-=
-false
 shouldAutomaticallyShowSuggestedPassword
 :
 (
@@ -2667,9 +2655,6 @@ loginDelegate
 suggestStrongPasswordDelegate
 =
 suggestStrongPasswordDelegate
-isSuggestStrongPasswordEnabled
-=
-isSuggestStrongPasswordEnabled
 shouldAutomaticallyShowSuggestedPassword
 =
 shouldAutomaticallyShowSuggestedPassword
@@ -2812,11 +2797,6 @@ object
 SuggestStrongPasswordDelegate
 {
 }
-isSuggestStrongPasswordEnabled
-:
-Boolean
-=
-false
 shouldAutomaticallyShowSuggestedPassword
 :
 (
@@ -2953,9 +2933,6 @@ loginDelegate
 suggestStrongPasswordDelegate
 =
 suggestStrongPasswordDelegate
-isSuggestStrongPasswordEnabled
-=
-isSuggestStrongPasswordEnabled
 shouldAutomaticallyShowSuggestedPassword
 =
 shouldAutomaticallyShowSuggestedPassword
@@ -4335,9 +4312,6 @@ generatedPassword
 !
 =
 null
-&
-&
-isSuggestStrongPasswordEnabled
 )
 {
 if

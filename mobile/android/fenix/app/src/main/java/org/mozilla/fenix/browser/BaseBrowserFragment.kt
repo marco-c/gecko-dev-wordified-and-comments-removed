@@ -5654,15 +5654,6 @@ binding
 .
 suggestStrongPasswordBar
 }
-isSuggestStrongPasswordEnabled
-=
-context
-.
-settings
-(
-)
-.
-enableSuggestStrongPassword
 shouldAutomaticallyShowSuggestedPassword
 =
 {
