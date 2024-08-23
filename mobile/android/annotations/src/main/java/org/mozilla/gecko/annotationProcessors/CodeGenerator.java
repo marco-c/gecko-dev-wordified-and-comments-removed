@@ -3601,7 +3601,7 @@ append
 (
 "
 static
-const
+constexpr
 "
 +
 Utils
