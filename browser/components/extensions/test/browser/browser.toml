@@ -1820,6 +1820,13 @@ js
 ]
 [
 "
+browser_ext_originControls_internals
+.
+js
+"
+]
+[
+"
 browser_ext_overflow_underflow_events
 .
 js
