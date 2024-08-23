@@ -58,10 +58,6 @@ char
 *
 *
 argv
-const
-char
-*
-aStartupToken
 )
 override
 ;

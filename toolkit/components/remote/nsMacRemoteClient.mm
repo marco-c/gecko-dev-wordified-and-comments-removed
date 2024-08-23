@@ -83,10 +83,6 @@ char
 *
 *
 argv
-const
-char
-*
-aDesktopStartupID
 )
 {
 mozilla

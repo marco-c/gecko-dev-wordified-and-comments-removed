@@ -31,8 +31,12 @@ nsRemoteClient
 {
 public
 :
+explicit
 nsXRemoteClient
 (
+nsACString
+&
+aStartupToken
 )
 ;
 ~
@@ -66,10 +70,6 @@ char
 *
 *
 argv
-const
-char
-*
-aStartupToken
 )
 override
 ;
@@ -195,6 +195,10 @@ mLockData
 ;
 bool
 mInitialized
+;
+nsACString
+&
+mStartupToken
 ;
 }
 ;
