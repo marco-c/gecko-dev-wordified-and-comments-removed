@@ -15634,10 +15634,12 @@ JS
 :
 CanonicalizedDoubleValue
 (
-f16
-.
-toDouble
+static_cast
+<
+double
+>
 (
+f16
 )
 )
 ;
