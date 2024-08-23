@@ -252,7 +252,7 @@ aPoint
 bool
 IsTrivial
 (
-nsIFrame
+ISVGDisplayableFrame
 *
 *
 aSingleChild
