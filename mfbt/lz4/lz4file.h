@@ -101,6 +101,7 @@ LZ4F_write
 LZ4_writeFile_t
 *
 lz4fWrite
+const
 void
 *
 buf
