@@ -1222,6 +1222,11 @@ html
 moz
 -
 fieldset
+part
+=
+"
+fieldset
+"
 role
 =
 "
@@ -1242,6 +1247,11 @@ this
 .
 label
 }
+exportparts
+=
+"
+inputs
+"
 >
 <
 slot
@@ -2174,6 +2184,11 @@ css
 >
 <
 label
+part
+=
+"
+label
+"
 >
 {
 this
