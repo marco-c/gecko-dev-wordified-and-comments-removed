@@ -1334,7 +1334,7 @@ if
 (
 idnService
 .
-convertUTF8toACE
+domainToASCII
 (
 tail
 )
@@ -1343,7 +1343,7 @@ tail
 =
 idnService
 .
-convertUTF8toACE
+domainToASCII
 (
 provider
 )
