@@ -10,11 +10,9 @@ mozconfigs
 /
 linux64
 /
-nightly
--
 fuzzing
 -
-asan
+ccov
 "
 .
 "
