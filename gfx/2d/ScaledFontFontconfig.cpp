@@ -1828,6 +1828,9 @@ wr
 :
 FontInstanceOptions
 options
+=
+{
+}
 ;
 options
 .
