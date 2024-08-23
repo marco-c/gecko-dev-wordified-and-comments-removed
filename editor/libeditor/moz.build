@@ -125,6 +125,11 @@ AutoRangeArray
 cpp
 "
 "
+AutoSelectionRestorer
+.
+cpp
+"
+"
 ChangeAttributeTransaction
 .
 cpp

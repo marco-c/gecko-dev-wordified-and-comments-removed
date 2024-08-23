@@ -2544,6 +2544,13 @@ html
 ]
 [
 "
+test_replace_text
+.
+html
+"
+]
+[
+"
 test_resizers_appearance
 .
 html

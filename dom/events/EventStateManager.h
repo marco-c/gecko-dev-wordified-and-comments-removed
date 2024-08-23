@@ -2447,6 +2447,15 @@ WidgetContentCommandEvent
 aEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
+nsresult
+DoContentCommandReplaceTextEvent
+(
+WidgetContentCommandEvent
+*
+aEvent
+)
+;
 nsresult
 DoContentCommandScrollEvent
 (

@@ -234,6 +234,9 @@ class
 AutoRangeArray
 ;
 class
+AutoSelectionRestorer
+;
+class
 AutoSelectionRangeArray
 ;
 class

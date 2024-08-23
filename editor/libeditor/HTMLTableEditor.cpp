@@ -22,6 +22,13 @@ h
 #
 include
 "
+AutoSelectionRestorer
+.
+h
+"
+#
+include
+"
 EditAction
 .
 h
@@ -15082,7 +15089,6 @@ ignored
 AutoSelectionRestorer
 restoreSelectionLater
 (
-*
 this
 )
 ;
@@ -18763,7 +18769,6 @@ unwrap
 AutoSelectionRestorer
 restoreSelectionLater
 (
-*
 this
 )
 ;

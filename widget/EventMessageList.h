@@ -725,6 +725,10 @@ eContentCommandInsertText
 )
 NS_EVENT_MESSAGE
 (
+eContentCommandReplaceText
+)
+NS_EVENT_MESSAGE
+(
 eContentCommandPasteTransferable
 )
 NS_EVENT_MESSAGE
