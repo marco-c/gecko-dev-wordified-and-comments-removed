@@ -3708,6 +3708,16 @@ dest
 ;
 }
 void
+mov
+(
+CodeLabel
+*
+label
+Register
+dest
+)
+;
+void
 branch
 (
 JitCode
