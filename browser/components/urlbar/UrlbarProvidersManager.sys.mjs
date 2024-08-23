@@ -3066,6 +3066,7 @@ providersByNotificationType
 onSearchSessionEnd
 queryContext
 controller
+details
 )
 ;
 }
@@ -3240,6 +3241,7 @@ notifySearchSessionEnd
 searchSessionEndProviders
 queryContext
 controller
+details
 )
 {
 for
@@ -3259,6 +3261,7 @@ onSearchSessionEnd
 "
 queryContext
 controller
+details
 )
 ;
 }
