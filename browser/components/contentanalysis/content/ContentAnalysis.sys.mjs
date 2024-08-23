@@ -1322,7 +1322,7 @@ user
 /
 initialize
 (
-doc
+window
 )
 {
 if
@@ -1338,6 +1338,13 @@ isActive
 return
 ;
 }
+let
+doc
+=
+window
+.
+document
+;
 if
 (
 !
