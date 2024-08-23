@@ -8536,12 +8536,6 @@ browserToolbar
 }
 )
 }
-else
-{
-Divider
-(
-)
-}
 NavigationButtonsCFR
 (
 context

@@ -4177,12 +4177,6 @@ toolbarLayout
 }
 )
 }
-else
-{
-Divider
-(
-)
-}
 val
 showCFR
 =
