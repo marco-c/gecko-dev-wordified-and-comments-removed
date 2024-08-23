@@ -2557,6 +2557,11 @@ media
 -
 gpu
 "
+USE_HARDWARE
+:
+"
+1
+"
 virtualization
 :
 virtual

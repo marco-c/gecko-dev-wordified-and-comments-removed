@@ -1582,26 +1582,6 @@ windows1
 )
 :
                     
-if
-not
-test_platform
-.
-startswith
-(
-"
-windows11
--
-64
--
-2009
--
-hw
--
-ref
-"
-)
-:
-                        
 task
 [
 "
