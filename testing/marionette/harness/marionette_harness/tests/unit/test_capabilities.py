@@ -2147,11 +2147,8 @@ unhandledPromptBehavior
 "
 ]
             
-"
-dismiss
-and
-notify
-"
+{
+}
         
 )
         
