@@ -2148,6 +2148,8 @@ hw
 "
                 
 if
+REQUIRE_GPU
+and
 (
 platform
 .
