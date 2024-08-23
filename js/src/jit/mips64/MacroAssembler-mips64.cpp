@@ -10125,7 +10125,7 @@ Label
 bailout
 ;
 Label
-wasm
+wasmInterpEntry
 ;
 Label
 wasmCatch
@@ -10293,10 +10293,10 @@ Imm32
 ExceptionResumeKind
 :
 :
-Wasm
+WasmInterpEntry
 )
 &
-wasm
+wasmInterpEntry
 )
 ;
 asMasm
@@ -10805,7 +10805,7 @@ bailoutTail
 bind
 (
 &
-wasm
+wasmInterpEntry
 )
 ;
 loadPtr
@@ -10846,7 +10846,7 @@ ImmWord
 wasm
 :
 :
-FailInstanceReg
+InterpFailInstanceReg
 )
 )
 ;

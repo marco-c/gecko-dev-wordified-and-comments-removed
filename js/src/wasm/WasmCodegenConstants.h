@@ -55,7 +55,7 @@ MaxRegisterResults
 static
 const
 unsigned
-FailInstanceReg
+InterpFailInstanceReg
 =
 0xbad
 ;

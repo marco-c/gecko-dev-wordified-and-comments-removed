@@ -172,7 +172,7 @@ Finally
 ForcedReturnBaseline
 ForcedReturnIon
 Bailout
-Wasm
+WasmInterpEntry
 WasmCatch
 }
 ;

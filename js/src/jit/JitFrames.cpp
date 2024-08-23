@@ -3650,7 +3650,7 @@ case
 ExceptionResumeKind
 :
 :
-Wasm
+WasmInterpEntry
 :
 case
 ExceptionResumeKind
@@ -4529,7 +4529,7 @@ kind
 ExceptionResumeKind
 :
 :
-Wasm
+WasmInterpEntry
 ;
 rfe
 -
@@ -4574,17 +4574,7 @@ rfe
 >
 instance
 =
-(
-wasm
-:
-:
-Instance
-*
-)
-wasm
-:
-:
-FailInstanceReg
+nullptr
 ;
 rfe
 -

@@ -18699,7 +18699,7 @@ Label
 bailout
 ;
 Label
-wasm
+wasmInterpEntry
 ;
 Label
 wasmCatch
@@ -18878,10 +18878,10 @@ Imm32
 ExceptionResumeKind
 :
 :
-Wasm
+WasmInterpEntry
 )
 &
-wasm
+wasmInterpEntry
 )
 ;
 asMasm
@@ -19468,7 +19468,7 @@ bailoutTail
 bind
 (
 &
-wasm
+wasmInterpEntry
 )
 ;
 {
@@ -19521,7 +19521,7 @@ int32_t
 wasm
 :
 :
-FailInstanceReg
+InterpFailInstanceReg
 )
 )
 InstanceReg
