@@ -911,6 +911,13 @@ EventUtils
 synthesizeMouseAtCenter
 (
 manageSettings
+.
+querySelector
+(
+"
+a
+"
+)
 {
 }
 contentWindow
