@@ -532,7 +532,7 @@ text
 options
 :
 {
-max_length
+max_new_tokens
 :
 100
 }
@@ -1773,7 +1773,7 @@ text
 options
 :
 {
-max_length
+max_new_tokens
 :
 100
 }
