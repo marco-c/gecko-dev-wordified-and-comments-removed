@@ -1594,7 +1594,7 @@ UpdateAnimationsAndSendEvents
 ;
 MOZ_CAN_RUN_SCRIPT
 void
-RunVideoAndFrameRequestCallbacks
+RunFrameRequestCallbacks
 (
 mozilla
 :
