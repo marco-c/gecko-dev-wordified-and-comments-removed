@@ -4361,7 +4361,7 @@ raises
 (
 desktop_file
 .
-HgServerError
+RemoteVCSError
 )
 :
         
