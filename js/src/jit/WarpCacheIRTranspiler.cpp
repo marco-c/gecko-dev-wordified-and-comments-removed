@@ -23819,6 +23819,8 @@ uint32_t
 templateObjectOffset
 Int32OperandId
 lengthId
+uint32_t
+siteOffset
 )
 {
 JSObject
@@ -23845,13 +23847,10 @@ gc
 Heap
 heap
 =
-gc
-:
-:
-Heap
-:
-:
-Default
+allocSiteInitialHeapField
+(
+siteOffset
+)
 ;
 if
 (

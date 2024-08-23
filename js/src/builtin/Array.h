@@ -201,6 +201,14 @@ NewObjectKind
 newKind
 =
 GenericObject
+gc
+:
+:
+AllocSite
+*
+site
+=
+nullptr
 )
 ;
 extern
@@ -559,6 +567,12 @@ ArrayObject
 templateObject
 int32_t
 lengthInt
+gc
+:
+:
+AllocSite
+*
+site
 )
 ;
 #

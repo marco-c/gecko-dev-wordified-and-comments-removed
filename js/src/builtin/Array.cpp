@@ -25833,6 +25833,12 @@ ArrayObject
 templateObject
 int32_t
 lengthInt
+gc
+:
+:
+AllocSite
+*
+site
 )
 {
 Maybe
@@ -25921,6 +25927,8 @@ NewDensePartlyAllocatedArray
 (
 cx
 length
+GenericObject
+site
 )
 ;
 MOZ_ASSERT_IF
@@ -26162,6 +26170,7 @@ shape
 length
 slotSpan
 metadata
+site
 )
 ;
 if
@@ -27233,6 +27242,12 @@ uint32_t
 length
 NewObjectKind
 newKind
+gc
+:
+:
+AllocSite
+*
+site
 )
 {
 return
@@ -27247,6 +27262,7 @@ EagerAllocationMaxLength
 cx
 length
 newKind
+site
 )
 ;
 }
