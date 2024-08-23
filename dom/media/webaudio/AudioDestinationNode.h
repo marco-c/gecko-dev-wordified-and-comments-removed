@@ -393,12 +393,6 @@ mOfflineRenderingPromise
 bool
 mIsOffline
 ;
-TimeStamp
-mCreatedTime
-;
-TimeDuration
-mDurationBeforeFirstTimeAudible
-;
 }
 ;
 }
