@@ -82078,6 +82078,11 @@ aModifiers
 }
 )
 ;
+SetSHEntryHasUserInteraction
+(
+true
+)
+;
 }
 bool
 Document
