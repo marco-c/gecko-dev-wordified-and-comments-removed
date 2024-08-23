@@ -1121,9 +1121,6 @@ currentOffset
 )
 )
 ;
-MacroAssemblerMIPSShared
-:
-:
 ma_liPatchable
 (
 dest

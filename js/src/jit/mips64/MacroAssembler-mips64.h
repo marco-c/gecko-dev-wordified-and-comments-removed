@@ -279,6 +279,12 @@ using
 MacroAssemblerMIPSShared
 :
 :
+ma_liPatchable
+;
+using
+MacroAssemblerMIPSShared
+:
+:
 ma_load
 ;
 using
