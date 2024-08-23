@@ -129,9 +129,6 @@ object_subrequest
 xmlhttprequest
 "
 "
-fetch
-"
-"
 xslt
 "
 "
