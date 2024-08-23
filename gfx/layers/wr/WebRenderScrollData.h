@@ -1123,11 +1123,13 @@ aPreviousData
 void
 SetWasUpdateSkipped
 (
+bool
+aWasUpdateSkipped
 )
 {
 mWasUpdateSkipped
 =
-true
+aWasUpdateSkipped
 ;
 }
 bool
