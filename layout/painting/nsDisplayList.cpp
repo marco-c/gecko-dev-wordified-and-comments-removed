@@ -32265,7 +32265,6 @@ aAppUnitsPerPixel
 )
 ;
 }
-else
 if
 (
 hasSVGTransforms
@@ -32295,6 +32294,7 @@ _32
 pixelsPerCSSPx
 ;
 result
+*
 =
 Matrix4x4
 :

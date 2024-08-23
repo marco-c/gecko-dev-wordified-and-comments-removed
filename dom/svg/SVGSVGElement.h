@@ -686,6 +686,11 @@ InvalidateTransformNotifyFrame
 )
 ;
 void
+DidChangeSVGView
+(
+)
+;
+void
 SetImageOverridePreserveAspectRatio
 (
 const
@@ -725,14 +730,6 @@ const
 SVGAnimatedViewBox
 &
 GetViewBoxInternal
-(
-)
-const
-override
-;
-SVGAnimatedTransformList
-*
-GetTransformInternal
 (
 )
 const
