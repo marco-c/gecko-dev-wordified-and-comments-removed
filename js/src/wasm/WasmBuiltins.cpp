@@ -3359,6 +3359,14 @@ resetHotnessCounter
 funcIndex
 )
 ;
+instance
+-
+>
+submitCallRefHints
+(
+funcIndex
+)
+;
 bool
 ok
 =
@@ -3382,9 +3390,8 @@ ok
 wasm
 :
 :
-Log
+LogOffThread
 (
-cx
 "
 Failed
 to

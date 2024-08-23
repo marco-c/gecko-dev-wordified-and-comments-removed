@@ -137,6 +137,9 @@ JumpTableJitEntryOffset
 =
 0
 ;
+#
+define
+STATIC_ASSERT_WASM_FUNCTIONS_TENURED
 }
 }
 #
