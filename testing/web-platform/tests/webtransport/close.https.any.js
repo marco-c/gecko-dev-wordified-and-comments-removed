@@ -1198,6 +1198,7 @@ py
 )
 )
 ;
+await
 promise_rejects_dom
 (
 t
@@ -1250,6 +1251,7 @@ py
 )
 )
 ;
+await
 promise_rejects_dom
 (
 t
