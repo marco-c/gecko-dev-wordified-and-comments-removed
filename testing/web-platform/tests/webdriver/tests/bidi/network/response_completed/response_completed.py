@@ -2528,6 +2528,8 @@ wait_for_event
 RESPONSE_COMPLETED_EVENT
 )
     
+result
+=
 await
 bidi_session
 .
@@ -2677,8 +2679,31 @@ page_url
 redirect_count
 =
 0
+        
+navigation
+=
+result
+[
+"
+navigation
+"
+]
     
 )
+    
+assert
+events
+[
+0
+]
+[
+"
+navigation
+"
+]
+is
+not
+None
 pytest
 .
 mark
@@ -2901,3 +2926,16 @@ redirect_count
 0
     
 )
+    
+assert
+events
+[
+0
+]
+[
+"
+navigation
+"
+]
+is
+None
