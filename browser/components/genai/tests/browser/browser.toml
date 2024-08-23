@@ -45,6 +45,13 @@ js
 ]
 [
 "
+browser_chat_nimbus
+.
+js
+"
+]
+[
+"
 browser_chat_request
 .
 js
