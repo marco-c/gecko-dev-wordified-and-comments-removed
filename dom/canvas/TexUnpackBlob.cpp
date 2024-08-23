@@ -4739,7 +4739,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV
+YUV420
 :
 NS_ERROR
 (

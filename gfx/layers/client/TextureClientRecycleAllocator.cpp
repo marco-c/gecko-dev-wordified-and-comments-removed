@@ -301,7 +301,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV
+YUV420
 aYSize
 BackendSelector
 :
@@ -381,7 +381,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV
+YUV420
 )
 ;
 BufferTextureData

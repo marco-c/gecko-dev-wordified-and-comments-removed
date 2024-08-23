@@ -132,11 +132,11 @@ A8
 A16
 R8G8
 R16G16
-YUV
+YUV420
 NV12
 P016
 P010
-YUV422
+YUY2
 HSV
 Lab
 Depth
@@ -367,7 +367,7 @@ case
 SurfaceFormat
 :
 :
-YUV
+YUV420
 :
 case
 SurfaceFormat
@@ -391,7 +391,7 @@ case
 SurfaceFormat
 :
 :
-YUV422
+YUY2
 :
 info
 .
@@ -598,7 +598,7 @@ case
 SurfaceFormat
 :
 :
-YUV
+YUV420
 :
 case
 SurfaceFormat
@@ -622,7 +622,7 @@ case
 SurfaceFormat
 :
 :
-YUV422
+YUY2
 :
 case
 SurfaceFormat
@@ -969,7 +969,7 @@ case
 SurfaceFormat
 :
 :
-YUV
+YUV420
 :
 case
 SurfaceFormat
@@ -993,7 +993,7 @@ case
 SurfaceFormat
 :
 :
-YUV422
+YUY2
 :
 return
 true

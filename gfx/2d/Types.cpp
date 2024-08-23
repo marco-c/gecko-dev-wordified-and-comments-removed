@@ -270,7 +270,7 @@ Emit
 SurfaceFormat
 :
 :
-YUV
+YUV420
 )
 ;
 Emit
@@ -302,7 +302,7 @@ Emit
 SurfaceFormat
 :
 :
-YUV422
+YUY2
 )
 ;
 Emit

@@ -627,7 +627,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV
+YUV420
 :
 case
 gfx
@@ -665,7 +665,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV
+YUV420
 /
 NV12
 /
@@ -757,7 +757,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV
+YUV420
 :
 result
 =

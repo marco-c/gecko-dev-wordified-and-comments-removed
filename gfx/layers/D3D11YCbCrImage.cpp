@@ -269,7 +269,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV
+YUV420
 aData
 .
 mPictureRect
@@ -321,7 +321,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV
+YUV420
 )
 ;
 DXGIYCbCrTextureData

@@ -550,7 +550,7 @@ GetFormat
 SurfaceFormat
 :
 :
-YUV422
+YUY2
 )
 {
 size_t
@@ -1543,7 +1543,7 @@ result
 MacIOSurface
 :
 :
-CreateYUV422Surface
+CreateYUY2Surface
 (
 aYSize
 aYUVColorSpace

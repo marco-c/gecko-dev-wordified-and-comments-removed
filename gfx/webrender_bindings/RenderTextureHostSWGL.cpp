@@ -243,7 +243,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV
+YUV420
 :
 switch
 (
@@ -420,7 +420,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV422
+YUY2
 :
 MOZ_ASSERT
 (
@@ -978,7 +978,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV
+YUV420
 :
 case
 gfx
@@ -1005,7 +1005,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV422
+YUY2
 :
 {
 aInfo

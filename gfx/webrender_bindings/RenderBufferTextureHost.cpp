@@ -134,7 +134,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV
+YUV420
 ;
 break
 ;
@@ -298,7 +298,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV
+YUV420
 )
 {
 mSurface
@@ -811,7 +811,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV
+YUV420
 |
 |
 aChannelIndex
@@ -830,7 +830,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV
+YUV420
 |
 |
 aChannelIndex
@@ -854,7 +854,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV
+YUV420
 )
 {
 MOZ_ASSERT
@@ -1072,7 +1072,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV
+YUV420
 ;
 default
 :

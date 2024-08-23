@@ -5369,7 +5369,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV422
+YUY2
 )
 ;
 config

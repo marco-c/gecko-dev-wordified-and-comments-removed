@@ -9778,7 +9778,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV
+YUV420
 ;
 default
 :

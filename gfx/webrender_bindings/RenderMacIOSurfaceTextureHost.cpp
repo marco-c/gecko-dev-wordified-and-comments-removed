@@ -163,7 +163,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV422
+YUY2
 |
 |
 readFormat
@@ -175,7 +175,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV422
+YUY2
 )
 ;
 return

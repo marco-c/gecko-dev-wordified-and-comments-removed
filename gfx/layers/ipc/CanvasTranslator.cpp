@@ -7432,7 +7432,7 @@ GetFormat
 SurfaceFormat
 :
 :
-YUV422
+YUY2
 )
 {
 isYuvVideo
@@ -7458,7 +7458,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV
+YUV420
 )
 {
 isYuvVideo

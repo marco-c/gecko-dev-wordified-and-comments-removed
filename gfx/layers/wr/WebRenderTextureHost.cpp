@@ -786,7 +786,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV
+YUV420
 )
 {
 return

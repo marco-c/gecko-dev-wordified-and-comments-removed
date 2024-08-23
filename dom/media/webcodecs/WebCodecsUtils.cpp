@@ -2069,7 +2069,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV
+YUV420
 :
 return
 Some
@@ -2105,7 +2105,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV422
+YUY2
 :
 return
 Some

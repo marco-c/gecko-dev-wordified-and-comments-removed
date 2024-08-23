@@ -3318,7 +3318,7 @@ case
 SurfaceFormat
 :
 :
-YUV
+YUV420
 :
 mMessage
 <
@@ -3327,7 +3327,7 @@ mMessage
 SurfaceFormat
 :
 :
-YUV
+YUV420
 "
 ;
 break

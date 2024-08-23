@@ -1317,7 +1317,7 @@ MacIOSurface
 MacIOSurface
 :
 :
-CreateYUV422Surface
+CreateYUY2Surface
 (
 const
 IntSize
@@ -2561,7 +2561,7 @@ return
 SurfaceFormat
 :
 :
-YUV422
+YUY2
 ;
 case
 kCVPixelFormatType_32BGRA
@@ -2623,7 +2623,7 @@ format
 SurfaceFormat
 :
 :
-YUV422
+YUY2
 )
 {
 return
@@ -3017,7 +3017,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV422
+YUY2
 ;
 }
 }
