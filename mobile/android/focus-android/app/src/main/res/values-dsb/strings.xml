@@ -545,7 +545,7 @@ egl
 dowa
 ska
 historija
-rejtarka
+rejtarika
 jo
 se
 wula
@@ -6223,7 +6223,7 @@ content_description_tab_counter
 >
 W
 cynjone
-rejtarki
+rejtariki
 :
 %
 1
@@ -13492,11 +13492,12 @@ W
 tkaz
 w
 nowem
-rejtarku
+rejtariku
 w
 cyni
 \
-nT
+n
+T
 oc
 o
 d
@@ -13575,7 +13576,7 @@ new_tab_opened_snackbar
 "
 >
 Nowy
-rejtark
+rejtarik
 jo
 se
 w
@@ -13701,7 +13702,7 @@ w
 tkazoju
 w
 nowem
-rejtarku
+rejtariku
 p
 ej
 <
@@ -14127,7 +14128,7 @@ name
 tab_crash_report_title
 "
 >
-Rejtark
+Rejtarik
 jo
 wowali
 <
@@ -14163,7 +14164,7 @@ problem
 z
 to
 tym
-rejtarkom
+rejtarikom
 .
 <
 /
@@ -14203,7 +14204,7 @@ njam
 omy
 to
 ten
-rejtark
+rejtarik
 w
 tnowi
 .
@@ -14233,7 +14234,7 @@ name
 tab_crash_report_close_tab_button_label
 "
 >
-Rejtark
+Rejtarik
 zacyni
 <
 /
