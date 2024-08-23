@@ -2491,9 +2491,6 @@ example
 mach
 raptor
 -
--
-browsertime
--
 t
 amazon
 -
