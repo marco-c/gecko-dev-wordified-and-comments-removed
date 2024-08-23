@@ -30,11 +30,6 @@ TestFileSystemOriginInitialization
 cpp
 "
 "
-TestFileSystemQuotaClient
-.
-cpp
-"
-"
 TestFileSystemUsageTracking
 .
 cpp
