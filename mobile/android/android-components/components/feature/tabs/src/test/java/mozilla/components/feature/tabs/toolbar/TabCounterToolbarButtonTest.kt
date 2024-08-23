@@ -629,9 +629,6 @@ BrowserStore
 menu
 =
 tabCounterMenu
-showMaskInPrivateMode
-=
-false
 )
 )
 val
@@ -757,9 +754,6 @@ store
 menu
 =
 tabCounterMenu
-showMaskInPrivateMode
-=
-true
 )
 )
 val

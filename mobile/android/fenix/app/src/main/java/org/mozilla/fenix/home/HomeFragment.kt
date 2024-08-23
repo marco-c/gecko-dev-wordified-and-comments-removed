@@ -4311,15 +4311,6 @@ browsingModeManager
 mode
 .
 isPrivate
-isFeltPrivateBrowsingEnabled
-=
-context
-.
-settings
-(
-)
-.
-feltPrivateBrowsingEnabled
 browserStore
 =
 context

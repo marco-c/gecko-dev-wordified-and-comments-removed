@@ -710,15 +710,6 @@ private
 ?
 :
 false
-isFeltPrivateBrowsingEnabled
-=
-context
-.
-settings
-(
-)
-.
-feltPrivateBrowsingEnabled
 browserStore
 =
 browserStore

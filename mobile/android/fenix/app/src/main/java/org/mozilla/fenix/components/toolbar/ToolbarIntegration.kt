@@ -801,15 +801,6 @@ menu
 buildTabCounterMenu
 (
 )
-showMaskInPrivateMode
-=
-context
-.
-settings
-(
-)
-.
-feltPrivateBrowsingEnabled
 visible
 =
 {

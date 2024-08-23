@@ -301,13 +301,6 @@ TabCounterMenu
 ?
 =
 null
-private
-val
-showMaskInPrivateMode
-:
-Boolean
-=
-false
 )
 :
 Toolbar
@@ -485,9 +478,6 @@ mozac_feature_tabs_toolbar_tabs_button
 )
 toggleCounterMask
 (
-showMaskInPrivateMode
-&
-&
 isPrivate
 (
 store
