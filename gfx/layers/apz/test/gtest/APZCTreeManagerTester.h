@@ -367,7 +367,6 @@ updater
 &
 layers
 }
-false
 LayersId
 {
 0

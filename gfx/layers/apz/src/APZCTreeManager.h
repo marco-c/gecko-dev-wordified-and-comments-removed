@@ -473,8 +473,6 @@ const
 WebRenderScrollDataWrapper
 &
 aRoot
-bool
-aIsFirstPaint
 LayersId
 aOriginatingLayersId
 uint32_t

@@ -678,8 +678,6 @@ TreeBuildingState
 (
 LayersId
 aRootLayersId
-bool
-aIsFirstPaint
 LayersId
 aOriginatingLayersId
 APZTestData
@@ -691,10 +689,6 @@ bool
 aIsTestLoggingEnabled
 )
 :
-mIsFirstPaint
-(
-aIsFirstPaint
-)
 mOriginatingLayersId
 (
 aOriginatingLayersId
@@ -756,10 +750,6 @@ RefPtr
 CompositorController
 >
 mCompositorController
-;
-const
-bool
-mIsFirstPaint
 ;
 const
 LayersId
@@ -2220,8 +2210,6 @@ const
 WebRenderScrollDataWrapper
 &
 aRoot
-bool
-aIsFirstPaint
 LayersId
 aOriginatingLayersId
 uint32_t
@@ -2328,7 +2316,6 @@ TreeBuildingState
 state
 (
 mRootLayersId
-aIsFirstPaint
 aOriginatingLayersId
 testData
 aPaintSequenceNumber
@@ -6585,9 +6572,11 @@ aLayer
 Metadata
 (
 )
-aState
+aLayer
 .
-mIsFirstPaint
+IsFirstPaint
+(
+)
 aLayersId
 =
 =

@@ -1121,7 +1121,6 @@ root
 second
 )
 )
-isFirstPaint
 aOriginatingLayersId
 paintSequenceNumber
 )
@@ -1292,7 +1291,6 @@ root
 second
 )
 )
-false
 aOriginatingLayersId
 aPaintSequenceNumber
 )
