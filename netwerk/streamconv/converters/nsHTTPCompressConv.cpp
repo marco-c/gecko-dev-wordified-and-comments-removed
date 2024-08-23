@@ -300,6 +300,11 @@ ZSTD_createDStream
 (
 )
 ;
+MOZ_RELEASE_ASSERT
+(
+mDStream
+)
+;
 ZSTD_DCtx_setParameter
 (
 mDStream
