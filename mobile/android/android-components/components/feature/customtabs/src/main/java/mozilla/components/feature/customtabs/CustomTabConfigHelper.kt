@@ -2076,7 +2076,6 @@ application
 .
 *
 /
-internal
 fun
 CustomTabConfig
 .
@@ -2328,7 +2327,6 @@ true
 *
 /
 ColorInt
-internal
 fun
 ColorSchemeParams
 ?
