@@ -564,10 +564,6 @@ return
 mDirtyNextLine
 ;
 }
-nsPresContext
-*
-mPresContext
-;
 bool
 NotifyOptionalBreakPosition
 (
@@ -898,8 +894,14 @@ true
 }
 protected
 :
+nsPresContext
+*
+const
+mPresContext
+;
 nsFloatManager
 *
+const
 mFloatManager
 ;
 const
