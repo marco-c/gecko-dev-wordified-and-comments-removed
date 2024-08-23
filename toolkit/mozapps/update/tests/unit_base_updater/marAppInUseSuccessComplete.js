@@ -33,7 +33,7 @@ false
 await
 runHelperFileInUse
 (
-DIR_MACOS
+DIR_RESOURCES
 +
 gCallbackBinFile
 false
