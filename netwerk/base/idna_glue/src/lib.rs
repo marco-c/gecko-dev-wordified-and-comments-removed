@@ -1233,7 +1233,10 @@ GLYPHLESS
 }
 else
 {
-GECKO
+AsciiDenyList
+:
+:
+URL
 }
 Hyphens
 :
