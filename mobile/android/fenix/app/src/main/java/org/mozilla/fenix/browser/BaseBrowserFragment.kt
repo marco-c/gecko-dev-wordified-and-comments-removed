@@ -4026,6 +4026,11 @@ container
 binding
 .
 browserLayout
+snackbarParent
+=
+binding
+.
+dynamicSnackbarContainer
 settings
 =
 context

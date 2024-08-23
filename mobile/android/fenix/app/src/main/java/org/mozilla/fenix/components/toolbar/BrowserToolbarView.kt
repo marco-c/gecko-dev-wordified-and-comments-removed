@@ -412,6 +412,11 @@ container
 ViewGroup
 private
 val
+snackbarParent
+:
+ViewGroup
+private
+val
 settings
 :
 Settings
@@ -638,6 +643,10 @@ show
 WeakReference
 (
 view
+)
+WeakReference
+(
+snackbarParent
 )
 customTabSession
 ?

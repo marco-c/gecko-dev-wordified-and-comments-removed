@@ -481,6 +481,12 @@ WeakReference
 (
 it
 )
+WeakReference
+(
+binding
+.
+dynamicSnackbarContainer
+)
 handlePasteAndGo
 =
 interactor

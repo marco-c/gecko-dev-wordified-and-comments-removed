@@ -372,6 +372,11 @@ CoordinatorLayout
 (
 testContext
 )
+snackbarParent
+=
+mockk
+(
+)
 interactor
 =
 mockk
