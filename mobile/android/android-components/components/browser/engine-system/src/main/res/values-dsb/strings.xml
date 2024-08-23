@@ -105,7 +105,16 @@ be
 replaced
 by
 the
-realm
+hostname
+or
+a
+description
+of
+the
+protected
+area
+/
+site
 %
 2
 s
@@ -141,7 +150,8 @@ mozac_browser_engine_system_auth_message
 s
 pomina
 wu
-ywarske
+ywa
+ske
 m
 a
 gronid
@@ -219,7 +229,8 @@ pomina
 wa
 o
 wu
-ywarske
+ywa
+ske
 m
 a
 gronid

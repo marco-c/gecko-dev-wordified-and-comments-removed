@@ -2094,8 +2094,7 @@ rowa
 k
 tare
 su
-tr
-bne
+trjebne
 za
 t
 s
@@ -3856,8 +3855,7 @@ za
 w
 sebnymi
 p
-tr
-bnos
+trjebnos
 ami
 .
 <
