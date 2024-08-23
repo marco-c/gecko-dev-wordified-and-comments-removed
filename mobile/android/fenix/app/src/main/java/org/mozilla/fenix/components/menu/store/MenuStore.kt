@@ -231,6 +231,10 @@ ToggleReaderView
 is
 MenuAction
 .
+CustomizeReaderView
+is
+MenuAction
+.
 Navigate
 -
 >
