@@ -1459,6 +1459,16 @@ unwrap
 )
 ;
 }
+if
+nframes
+=
+=
+0
+{
+return
+0
+;
+}
 let
 r
 =
