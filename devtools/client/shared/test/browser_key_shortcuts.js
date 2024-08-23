@@ -2365,7 +2365,6 @@ KeyShortcuts
 .
 parseElectronKey
 (
-window
 "
 Cmmd
 +
@@ -2449,7 +2448,6 @@ KeyShortcuts
 .
 parseElectronKey
 (
-window
 null
 )
 ;

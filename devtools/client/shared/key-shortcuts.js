@@ -356,7 +356,6 @@ parseElectronKey
 =
 function
 (
-window
 str
 )
 {
@@ -1421,9 +1420,6 @@ KeyShortcuts
 .
 parseElectronKey
 (
-this
-.
-window
 key
 )
 ;
