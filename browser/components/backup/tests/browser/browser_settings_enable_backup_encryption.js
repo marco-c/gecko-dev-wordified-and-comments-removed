@@ -394,7 +394,9 @@ waitForEvent
 (
 window
 "
-enableEncryption
+BackupUI
+:
+EnableEncryption
 "
 )
 ;
@@ -828,7 +830,9 @@ waitForEvent
 (
 window
 "
-rerunEncryption
+BackupUI
+:
+RerunEncryption
 "
 )
 ;
