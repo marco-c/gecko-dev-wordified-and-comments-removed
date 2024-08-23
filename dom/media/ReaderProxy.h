@@ -411,6 +411,17 @@ uint64_t
 aMediaEngineId
 )
 ;
+void
+SetEncryptedCustomIdent
+(
+)
+;
+bool
+IsEncryptedCustomIdent
+(
+)
+const
+;
 private
 :
 ~
