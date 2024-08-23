@@ -73,7 +73,7 @@ cx
 if
 (
 !
-ValueToStringBuffer
+ValueToStringBuilder
 (
 cx
 val
@@ -627,7 +627,7 @@ cx
 ;
 CHECK
 (
-ValueToStringBuffer
+ValueToStringBuilder
 (
 cx
 exn
@@ -777,7 +777,7 @@ cx
 ;
 CHECK
 (
-ValueToStringBuffer
+ValueToStringBuilder
 (
 cx
 exn

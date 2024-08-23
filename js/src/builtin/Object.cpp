@@ -3995,7 +3995,7 @@ return
 true
 ;
 }
-StringBuffer
+StringBuilder
 sb
 (
 cx

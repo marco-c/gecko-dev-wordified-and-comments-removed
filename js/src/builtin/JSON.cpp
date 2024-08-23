@@ -990,7 +990,7 @@ const
 JSLinearString
 &
 linear
-StringBuffer
+StringBuilder
 &
 sb
 size_t
@@ -1093,7 +1093,7 @@ QuoteJSONString
 JSContext
 *
 cx
-StringBuffer
+StringBuilder
 &
 sb
 JSString
@@ -1326,11 +1326,11 @@ StringifyContext
 JSContext
 *
 cx
-StringBuffer
+StringBuilder
 &
 sb
 const
-StringBuffer
+StringBuilder
 &
 gap
 HandleObject
@@ -1395,12 +1395,12 @@ empty
 )
 ;
 }
-StringBuffer
+StringBuilder
 &
 sb
 ;
 const
-StringBuffer
+StringBuilder
 &
 gap
 ;
@@ -3878,7 +3878,7 @@ null
 }
 }
 return
-NumberValueToStringBuffer
+NumberValueToStringBuilder
 (
 v
 scx
@@ -5211,7 +5211,7 @@ EmitSimpleValue
 JSContext
 *
 cx
-StringBuffer
+StringBuilder
 &
 sb
 const
@@ -5344,7 +5344,7 @@ null
 }
 }
 return
-NumberValueToStringBuffer
+NumberValueToStringBuilder
 (
 v
 sb
@@ -5411,7 +5411,7 @@ static
 bool
 EmitQuotedIndexColon
 (
-StringBuffer
+StringBuilder
 &
 sb
 uint32_t
@@ -7107,7 +7107,7 @@ const
 Value
 &
 space_
-StringBuffer
+StringBuilder
 &
 sb
 StringifyBehavior
@@ -7707,7 +7707,7 @@ str
 ;
 }
 }
-StringBuffer
+StringBuilder
 gap
 (
 cx

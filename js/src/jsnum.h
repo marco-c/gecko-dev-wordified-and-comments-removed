@@ -89,7 +89,7 @@ class
 GlobalObject
 ;
 class
-StringBuffer
+StringBuilder
 ;
 [
 [
@@ -287,13 +287,13 @@ nodiscard
 ]
 extern
 bool
-NumberValueToStringBuffer
+NumberValueToStringBuilder
 (
 const
 Value
 &
 v
-StringBuffer
+StringBuilder
 &
 sb
 )

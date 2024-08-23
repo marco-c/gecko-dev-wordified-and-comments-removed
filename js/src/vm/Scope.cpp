@@ -4045,7 +4045,7 @@ uint32_t
 index
 )
 {
-StringBuffer
+StringBuilder
 sb
 (
 cx
@@ -4069,7 +4069,7 @@ nullptr
 if
 (
 !
-NumberValueToStringBuffer
+NumberValueToStringBuilder
 (
 NumberValue
 (

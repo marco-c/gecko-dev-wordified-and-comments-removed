@@ -6690,9 +6690,9 @@ ParserAtomsTable
 :
 appendTo
 (
-StringBuffer
+StringBuilder
 &
-buffer
+sb
 TaggedParserAtomIndex
 index
 )
@@ -6739,7 +6739,7 @@ hasLatin1Chars
 (
 )
 ?
-buffer
+sb
 .
 append
 (
@@ -6752,7 +6752,7 @@ latin1Chars
 length
 )
 :
-buffer
+sb
 .
 append
 (
@@ -6790,7 +6790,7 @@ toWellKnownAtomId
 )
 ;
 return
-buffer
+sb
 .
 append
 (
@@ -6829,7 +6829,7 @@ content
 )
 ;
 return
-buffer
+sb
 .
 append
 (
@@ -6866,7 +6866,7 @@ content
 )
 ;
 return
-buffer
+sb
 .
 append
 (
@@ -6901,7 +6901,7 @@ content
 )
 ;
 return
-buffer
+sb
 .
 append
 (

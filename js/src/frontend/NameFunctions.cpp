@@ -135,7 +135,7 @@ parents_
 MaxParents
 ]
 ;
-StringBuffer
+StringBuilder
 buf_
 ;
 bool

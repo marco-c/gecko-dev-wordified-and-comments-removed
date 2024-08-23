@@ -5374,7 +5374,7 @@ appendSourceDataForToString
 JSContext
 *
 cx
-StringBuffer
+StringBuilder
 &
 buf
 )
@@ -7643,7 +7643,7 @@ appendSubstring
 JSContext
 *
 cx
-StringBuffer
+StringBuilder
 &
 buf
 size_t

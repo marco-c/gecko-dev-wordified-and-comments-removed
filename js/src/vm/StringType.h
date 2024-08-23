@@ -220,7 +220,7 @@ class
 PropertyName
 ;
 class
-StringBuffer
+StringBuilder
 ;
 namespace
 frontend
@@ -9593,7 +9593,7 @@ v
 }
 inline
 bool
-ValueToStringBuffer
+ValueToStringBuilder
 (
 JSContext
 *
@@ -9602,7 +9602,7 @@ const
 Value
 &
 v
-StringBuffer
+StringBuilder
 &
 sb
 )

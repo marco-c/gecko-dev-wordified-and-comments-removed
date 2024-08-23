@@ -9755,7 +9755,7 @@ JSLinearString
 replacement
 size_t
 firstDollarIndex
-StringBuffer
+StringBuilder
 &
 sb
 )

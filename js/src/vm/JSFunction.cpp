@@ -2468,7 +2468,7 @@ FunctionPrefixKind
 None
 )
 ;
-StringBuffer
+StringBuilder
 sb
 (
 cx
@@ -9554,7 +9554,7 @@ names
 empty_
 ;
 }
-StringBuffer
+StringBuilder
 sb
 (
 cx

@@ -5921,7 +5921,7 @@ NativeObject
 obj
 uint64_t
 length
-StringBuffer
+StringBuilder
 &
 sb
 uint32_t
@@ -6058,7 +6058,7 @@ isNumber
 if
 (
 !
-NumberValueToStringBuffer
+NumberValueToStringBuilder
 (
 elem
 sb
@@ -6083,7 +6083,7 @@ isBoolean
 if
 (
 !
-BooleanToStringBuffer
+BooleanToStringBuilder
 (
 elem
 .
@@ -6199,7 +6199,7 @@ HandleObject
 obj
 uint64_t
 length
-StringBuffer
+StringBuilder
 &
 sb
 )
@@ -6318,7 +6318,7 @@ isNullOrUndefined
 if
 (
 !
-ValueToStringBuffer
+ValueToStringBuilder
 (
 cx
 v
@@ -6823,7 +6823,7 @@ sepOp
 [
 ]
 (
-StringBuffer
+StringBuilder
 &
 )
 {
@@ -6896,7 +6896,7 @@ sepOp
 l1char
 ]
 (
-StringBuffer
+StringBuilder
 &
 sb
 )
@@ -6938,7 +6938,7 @@ sepOp
 c
 ]
 (
-StringBuffer
+StringBuilder
 &
 sb
 )
@@ -6990,7 +6990,7 @@ sepOp
 sepHandle
 ]
 (
-StringBuffer
+StringBuilder
 &
 sb
 )
@@ -8825,7 +8825,7 @@ const
 cx
 ;
 const
-StringBuffer
+StringBuilder
 &
 sb
 ;
@@ -8835,7 +8835,7 @@ JSContext
 *
 cx
 const
-StringBuffer
+StringBuilder
 &
 sb
 )
@@ -9690,7 +9690,7 @@ length
 len
 )
 ;
-StringBuffer
+StringBuilder
 sb
 (
 cx
@@ -9761,7 +9761,7 @@ false
 if
 (
 !
-ValueToStringBuffer
+ValueToStringBuilder
 (
 cx
 vec

@@ -3555,7 +3555,7 @@ cx
 js
 :
 :
-StringBuffer
+StringBuilder
 &
 buf
 size_t
@@ -6203,7 +6203,7 @@ cx
 js
 :
 :
-StringBuffer
+StringBuilder
 &
 buf
 )

@@ -6568,7 +6568,7 @@ mozilla
 :
 Maybe
 <
-StringBuffer
+StringBuilder
 >
 accum
 ;

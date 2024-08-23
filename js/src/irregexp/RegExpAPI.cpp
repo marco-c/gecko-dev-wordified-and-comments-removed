@@ -1402,7 +1402,7 @@ lineOfContextRadius
 2
 )
 ;
-StringBuffer
+StringBuilder
 windowBuf
 (
 ts

@@ -19716,7 +19716,7 @@ replacer
 space
 )
 ;
-StringBuffer
+StringBuilder
 sb
 (
 cx
@@ -19844,7 +19844,7 @@ replacer
 space
 )
 ;
-StringBuffer
+StringBuilder
 sb
 (
 cx
@@ -19962,7 +19962,7 @@ check
 input
 )
 ;
-StringBuffer
+StringBuilder
 sb
 (
 cx

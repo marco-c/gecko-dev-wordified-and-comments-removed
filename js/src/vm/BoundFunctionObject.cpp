@@ -1263,7 +1263,7 @@ value
 ;
 }
 }
-StringBuffer
+StringBuilder
 sb
 (
 cx

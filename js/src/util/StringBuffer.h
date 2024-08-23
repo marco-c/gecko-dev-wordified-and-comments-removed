@@ -221,7 +221,7 @@ value
 ;
 }
 class
-StringBufferAllocPolicy
+StringBuilderAllocPolicy
 {
 TempAllocPolicy
 impl_
@@ -233,7 +233,7 @@ arenaId_
 ;
 public
 :
-StringBufferAllocPolicy
+StringBuilderAllocPolicy
 (
 FrontendContext
 *
@@ -254,7 +254,7 @@ arenaId
 )
 {
 }
-StringBufferAllocPolicy
+StringBuilderAllocPolicy
 (
 JSContext
 *
@@ -530,7 +530,7 @@ aIncr
 }
 ;
 class
-StringBuffer
+StringBuilder
 {
 protected
 :
@@ -551,7 +551,7 @@ sizeof
 (
 CharT
 )
-StringBufferAllocPolicy
+StringBuilderAllocPolicy
 >
 ;
 using
@@ -596,10 +596,10 @@ numHeaderChars_
 =
 0
 ;
-StringBuffer
+StringBuilder
 (
 const
-StringBuffer
+StringBuilder
 &
 other
 )
@@ -611,7 +611,7 @@ operator
 =
 (
 const
-StringBuffer
+StringBuilder
 &
 other
 )
@@ -902,7 +902,7 @@ heap
 public
 :
 explicit
-StringBuffer
+StringBuilder
 (
 JSContext
 *
@@ -935,7 +935,7 @@ construct
 Latin1CharBuffer
 >
 (
-StringBufferAllocPolicy
+StringBuilderAllocPolicy
 {
 cx
 arenaId
@@ -944,7 +944,7 @@ arenaId
 ;
 }
 explicit
-StringBuffer
+StringBuilder
 (
 FrontendContext
 *
@@ -972,7 +972,7 @@ construct
 Latin1CharBuffer
 >
 (
-StringBufferAllocPolicy
+StringBuilderAllocPolicy
 {
 fc
 arenaId
@@ -2253,7 +2253,7 @@ class
 JSStringBuilder
 :
 public
-StringBuffer
+StringBuilder
 {
 public
 :
@@ -2265,7 +2265,7 @@ JSContext
 cx
 )
 :
-StringBuffer
+StringBuilder
 (
 cx
 js
@@ -2323,7 +2323,7 @@ Default
 ;
 inline
 bool
-StringBuffer
+StringBuilder
 :
 :
 append
@@ -2434,7 +2434,7 @@ end
 }
 inline
 bool
-StringBuffer
+StringBuilder
 :
 :
 append
@@ -2557,7 +2557,7 @@ length
 }
 inline
 void
-StringBuffer
+StringBuilder
 :
 :
 infallibleAppendSubstring
@@ -2651,7 +2651,7 @@ len
 }
 inline
 bool
-StringBuffer
+StringBuilder
 :
 :
 appendSubstring
@@ -2784,7 +2784,7 @@ len
 }
 inline
 bool
-StringBuffer
+StringBuilder
 :
 :
 appendSubstring
@@ -2836,7 +2836,7 @@ len
 }
 inline
 bool
-StringBuffer
+StringBuilder
 :
 :
 append
@@ -2882,7 +2882,7 @@ linear
 }
 extern
 bool
-ValueToStringBufferSlow
+ValueToStringBuilderSlow
 (
 JSContext
 *
@@ -2891,14 +2891,14 @@ const
 Value
 &
 v
-StringBuffer
+StringBuilder
 &
 sb
 )
 ;
 inline
 bool
-ValueToStringBuffer
+ValueToStringBuilder
 (
 JSContext
 *
@@ -2907,7 +2907,7 @@ const
 Value
 &
 v
-StringBuffer
+StringBuilder
 &
 sb
 )
@@ -2935,7 +2935,7 @@ toString
 ;
 }
 return
-ValueToStringBufferSlow
+ValueToStringBuilderSlow
 (
 cx
 v
@@ -2945,11 +2945,11 @@ sb
 }
 inline
 bool
-BooleanToStringBuffer
+BooleanToStringBuilder
 (
 bool
 b
-StringBuffer
+StringBuilder
 &
 sb
 )

@@ -29,7 +29,7 @@ h
 "
 BEGIN_TEST
 (
-testStringBuffer_finishString
+testStringBuilder_finishString
 )
 {
 JSString
@@ -78,15 +78,15 @@ atom
 js
 :
 :
-StringBuffer
-buffer
+StringBuilder
+sb
 (
 cx
 )
 ;
 CHECK
 (
-buffer
+sb
 .
 append
 (
@@ -107,7 +107,7 @@ JSAtom
 finishedAtom
 (
 cx
-buffer
+sb
 .
 finishAtom
 (
@@ -131,5 +131,5 @@ true
 }
 END_TEST
 (
-testStringBuffer_finishString
+testStringBuilder_finishString
 )

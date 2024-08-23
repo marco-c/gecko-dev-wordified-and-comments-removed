@@ -3945,7 +3945,7 @@ Number
 |
 |
 !
-NumberValueToStringBuffer
+NumberValueToStringBuilder
 (
 NumberValue
 (
@@ -10269,13 +10269,13 @@ bool
 js
 :
 :
-NumberValueToStringBuffer
+NumberValueToStringBuilder
 (
 const
 Value
 &
 v
-StringBuffer
+StringBuilder
 &
 sb
 )

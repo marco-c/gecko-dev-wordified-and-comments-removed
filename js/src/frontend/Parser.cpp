@@ -13203,7 +13203,7 @@ TaggedParserAtomIndex
 propAtom
 )
 {
-StringBuffer
+StringBuilder
 prefixed
 (
 fc_
@@ -36815,7 +36815,7 @@ PropertyType
 FieldWithAccessor
 )
 {
-StringBuffer
+StringBuilder
 privateStateDesc
 (
 fc_
@@ -41857,7 +41857,7 @@ errorResult
 )
 ;
 }
-StringBuffer
+StringBuilder
 storedMethodName
 (
 fc_
@@ -42609,7 +42609,7 @@ GetterSetter
 )
 ;
 }
-StringBuffer
+StringBuilder
 storedMethodName
 (
 fc_

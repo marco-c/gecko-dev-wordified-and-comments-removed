@@ -1618,7 +1618,7 @@ static
 bool
 Unescape
 (
-StringBuffer
+StringBuilder
 &
 sb
 const
@@ -15903,7 +15903,7 @@ static
 bool
 AppendDollarReplacement
 (
-StringBuffer
+StringBuilder
 &
 newReplaceChars
 size_t
@@ -16407,7 +16407,7 @@ const
 JSLinearString
 *
 rep
-StringBuffer
+StringBuilder
 &
 sb
 )
@@ -22212,7 +22212,7 @@ MOZ_NEVER_INLINE
 EncodeResult
 Encode
 (
-StringBuffer
+StringBuilder
 &
 sb
 const
@@ -22892,7 +22892,7 @@ static
 DecodeResult
 Decode
 (
-StringBuffer
+StringBuilder
 &
 sb
 const
