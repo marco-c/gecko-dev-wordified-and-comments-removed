@@ -64,6 +64,8 @@ mozilla
 fenix
 .
 downloads
+.
+dialog
 import
 android
 .

@@ -1827,6 +1827,8 @@ fenix
 .
 downloads
 .
+dialog
+.
 DynamicDownloadDialog
 import
 org
@@ -1836,6 +1838,8 @@ mozilla
 fenix
 .
 downloads
+.
+dialog
 .
 FirstPartyDownloadDialog
 import
@@ -1847,6 +1851,8 @@ fenix
 .
 downloads
 .
+dialog
+.
 StartDownloadDialog
 import
 org
@@ -1856,6 +1862,8 @@ mozilla
 fenix
 .
 downloads
+.
+dialog
 .
 ThirdPartyDownloadDialog
 import

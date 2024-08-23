@@ -63,9 +63,9 @@ mozilla
 .
 fenix
 .
-library
-.
 downloads
+.
+listscreen
 import
 mozilla
 .
@@ -127,9 +127,9 @@ mozilla
 .
 fenix
 .
-library
-.
 downloads
+.
+listscreen
 .
 DownloadFragmentState
 .

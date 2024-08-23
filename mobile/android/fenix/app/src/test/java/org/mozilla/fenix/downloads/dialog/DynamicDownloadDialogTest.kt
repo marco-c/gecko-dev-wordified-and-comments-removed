@@ -64,6 +64,8 @@ mozilla
 fenix
 .
 downloads
+.
+dialog
 import
 android
 .
@@ -134,6 +136,8 @@ mozilla
 fenix
 .
 downloads
+.
+dialog
 .
 DynamicDownloadDialog
 .

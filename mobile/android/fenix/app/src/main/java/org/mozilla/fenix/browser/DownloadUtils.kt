@@ -113,6 +113,8 @@ fenix
 .
 downloads
 .
+dialog
+.
 DynamicDownloadDialog
 import
 org

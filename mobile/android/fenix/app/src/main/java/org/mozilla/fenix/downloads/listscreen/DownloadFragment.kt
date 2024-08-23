@@ -63,9 +63,9 @@ mozilla
 .
 fenix
 .
-library
-.
 downloads
+.
+listscreen
 import
 android
 .
@@ -364,6 +364,8 @@ mozilla
 fenix
 .
 downloads
+.
+dialog
 .
 DynamicDownloadDialog
 import

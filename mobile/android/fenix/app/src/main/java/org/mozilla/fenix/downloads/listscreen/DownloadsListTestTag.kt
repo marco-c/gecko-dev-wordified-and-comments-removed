@@ -63,9 +63,9 @@ mozilla
 .
 fenix
 .
-library
-.
 downloads
+.
+listscreen
 internal
 object
 DownloadsListTestTag
