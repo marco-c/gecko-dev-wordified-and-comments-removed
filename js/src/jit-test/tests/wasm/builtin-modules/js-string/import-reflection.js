@@ -64,7 +64,9 @@ string
 ]
 importedStringConstants
 :
-true
+"
+'
+"
 }
 )
 ;
