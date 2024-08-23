@@ -56578,6 +56578,7 @@ OwnerDoc
 HasValidTransientUserGestureActivation
 (
 )
+false
 )
 ;
 }
