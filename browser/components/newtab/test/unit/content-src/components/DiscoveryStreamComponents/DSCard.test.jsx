@@ -1921,6 +1921,9 @@ undefined
 matches_selected_topic
 :
 undefined
+selected_topics
+:
+undefined
 }
 }
 )
@@ -1965,6 +1968,9 @@ recommendation_id
 :
 undefined
 topic
+:
+undefined
+selected_topics
 :
 undefined
 }
@@ -2122,6 +2128,9 @@ undefined
 matches_selected_topic
 :
 undefined
+selected_topics
+:
+undefined
 }
 }
 )
@@ -2166,6 +2175,9 @@ recommendation_id
 :
 undefined
 topic
+:
+undefined
+selected_topics
 :
 undefined
 }
@@ -2335,6 +2347,9 @@ undefined
 matches_selected_topic
 :
 undefined
+selected_topics
+:
+undefined
 }
 }
 )
@@ -2385,6 +2400,9 @@ recommendation_id
 :
 undefined
 topic
+:
+undefined
+selected_topics
 :
 undefined
 }
@@ -3226,6 +3244,9 @@ undefined
 matches_selected_topic
 :
 undefined
+selected_topics
+:
+undefined
 }
 }
 )
@@ -3265,6 +3286,9 @@ recommendation_id
 :
 undefined
 topic
+:
+undefined
+selected_topics
 :
 undefined
 }

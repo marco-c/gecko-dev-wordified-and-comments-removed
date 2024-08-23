@@ -4589,6 +4589,7 @@ scheduled_corpus_item_id
 received_rank
 recommended_at
 matches_selected_topic
+selected_topics
 }
 =
 action
@@ -4721,6 +4722,7 @@ card_type
 spoc
 "
 matches_selected_topic
+selected_topics
 topic
 position
 :
@@ -4911,6 +4913,7 @@ received_rank
 recommended_at
 topic
 matches_selected_topic
+selected_topics
 }
 =
 action
@@ -4948,6 +4951,7 @@ spoc
 "
 topic
 matches_selected_topic
+selected_topics
 position
 :
 action
@@ -6981,6 +6985,11 @@ topic
 tile
 .
 topic
+selected_topics
+:
+tile
+.
+selectedTopics
 .
 .
 .
