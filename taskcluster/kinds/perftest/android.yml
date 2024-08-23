@@ -2885,7 +2885,7 @@ a51
 -
 background
 -
-cpu
+resource
 -
 fenix
 :
@@ -2917,9 +2917,9 @@ description
 :
 Run
 background
-CPU
+resource
 test
-on
+with
 Fenix
 on
 a
@@ -2935,7 +2935,7 @@ fenix
 (
 background
 -
-cpu
+rsrc
 )
 tier
 :
@@ -3051,7 +3051,7 @@ performance
 /
 background
 -
-cpu
+resource
 /
 main
 .
@@ -3081,6 +3081,15 @@ v8a
 apk
 -
 -
+output
+MOZ_FETCHES_DIR
+/
+.
+.
+/
+artifacts
+-
+-
 hooks
 testing
 /
@@ -3088,8 +3097,8 @@ performance
 /
 background
 -
-cpu
+resource
 /
-hooks_background_cpu
+hooks_background_resource
 .
 py
