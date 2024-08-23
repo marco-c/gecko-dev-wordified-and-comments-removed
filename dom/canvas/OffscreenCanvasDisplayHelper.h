@@ -252,11 +252,6 @@ CommitFrameToCompositor
 nsICanvasRenderingContextInternal
 *
 aContext
-layers
-:
-:
-TextureType
-aTextureType
 const
 Maybe
 <
