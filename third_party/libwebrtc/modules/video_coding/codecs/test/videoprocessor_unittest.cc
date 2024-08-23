@@ -23,6 +23,17 @@ include
 "
 api
 /
+environment
+/
+environment_factory
+.
+h
+"
+#
+include
+"
+api
+/
 scoped_refptr
 .
 h
@@ -294,6 +305,9 @@ make_unique
 VideoProcessor
 >
 (
+CreateEnvironment
+(
+)
 &
 encoder_mock_
 &

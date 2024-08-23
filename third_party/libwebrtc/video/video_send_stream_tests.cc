@@ -13906,8 +13906,12 @@ unique_ptr
 <
 VideoBitrateAllocator
 >
-CreateVideoBitrateAllocator
+Create
 (
+const
+Environment
+&
+env
 const
 VideoCodec
 &
@@ -14064,8 +14068,9 @@ return
 bitrate_allocator_factory_
 -
 >
-CreateVideoBitrateAllocator
+Create
 (
+env
 codec
 )
 ;

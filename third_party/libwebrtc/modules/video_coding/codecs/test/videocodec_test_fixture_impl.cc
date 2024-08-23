@@ -3296,6 +3296,12 @@ Dav1dDecoderTemplateAdapter
 (
 )
 )
+env_
+(
+CreateEnvironment
+(
+)
+)
 config_
 (
 config
@@ -3345,6 +3351,12 @@ std
 move
 (
 decoder_factory
+)
+)
+env_
+(
+CreateEnvironment
+(
 )
 )
 config_
@@ -4761,14 +4773,6 @@ CreateEncoderAndDecoder
 (
 )
 {
-const
-Environment
-env
-=
-CreateEnvironment
-(
-)
-;
 SdpVideoFormat
 encoder_format
 (
@@ -4846,7 +4850,7 @@ encoder_factory_
 >
 Create
 (
-env
+env_
 encoder_format
 )
 ;
@@ -4927,7 +4931,7 @@ decoder_factory_
 >
 Create
 (
-env
+env_
 decoder_format
 )
 ;
@@ -5514,6 +5518,7 @@ make_unique
 VideoProcessor
 >
 (
+env_
 encoder_
 .
 get

@@ -2182,6 +2182,7 @@ VideoCodecTester
 :
 CreateEncodingSettings
 (
+env
 codec_type
 "
 L1T1
@@ -2735,6 +2736,7 @@ VideoCodecTester
 :
 CreateEncodingSettings
 (
+env
 codec_type
 "
 L1T1
@@ -2769,6 +2771,7 @@ VideoCodecTester
 :
 CreateEncodingSettings
 (
+env
 codec_type
 "
 L1T1
@@ -3293,6 +3296,7 @@ VideoCodecTester
 :
 CreateEncodingSettings
 (
+env
 codec_type
 "
 L1T1
@@ -3327,6 +3331,7 @@ VideoCodecTester
 :
 CreateEncodingSettings
 (
+env
 codec_type
 "
 L1T1
@@ -3920,6 +3925,7 @@ VideoCodecTester
 :
 CreateEncodingSettings
 (
+env
 CodecNameToCodecType
 (
 absl

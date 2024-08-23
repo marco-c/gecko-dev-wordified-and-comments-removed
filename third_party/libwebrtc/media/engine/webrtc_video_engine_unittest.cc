@@ -8821,8 +8821,9 @@ EXPECT_CALL
 (
 *
 rate_allocator_factory
-CreateVideoBitrateAllocator
+Create
 (
+_
 Field
 (
 &
