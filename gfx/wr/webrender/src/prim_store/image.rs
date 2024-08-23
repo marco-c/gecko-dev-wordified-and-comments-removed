@@ -1196,6 +1196,11 @@ new_blit
 (
 size
 cache_to_target_task_id
+size
+.
+into
+(
+)
 rg_builder
 )
 }

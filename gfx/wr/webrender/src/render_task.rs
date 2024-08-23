@@ -1531,6 +1531,10 @@ pub
 source
 :
 RenderTaskId
+pub
+source_rect
+:
+DeviceIntRect
 }
 #
 [
@@ -5853,6 +5857,9 @@ DeviceIntSize
 source
 :
 RenderTaskId
+source_rect
+:
+DeviceIntRect
 rg_builder
 :
 &
@@ -5888,6 +5895,7 @@ Blit
 BlitTask
 {
 source
+source_rect
 }
 )
 )

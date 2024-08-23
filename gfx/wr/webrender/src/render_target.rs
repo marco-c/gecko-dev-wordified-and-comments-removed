@@ -2186,6 +2186,11 @@ source
 task_info
 .
 source
+source_rect
+:
+task_info
+.
+source_rect
 target_rect
 }
 )
@@ -3611,6 +3616,11 @@ source
 task_info
 .
 source
+source_rect
+:
+task_info
+.
+source_rect
 target_rect
 }
 )
@@ -6630,6 +6640,10 @@ pub
 source
 :
 RenderTaskId
+pub
+source_rect
+:
+DeviceIntRect
 pub
 target_rect
 :
