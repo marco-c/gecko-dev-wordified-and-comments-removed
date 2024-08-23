@@ -250,6 +250,15 @@ header
 >
 <
 h4
+class
+=
+"
+text
+-
+truncated
+-
+ellipsis
+"
 >
 {
 this
