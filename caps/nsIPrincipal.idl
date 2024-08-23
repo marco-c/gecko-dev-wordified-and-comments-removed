@@ -705,6 +705,14 @@ infallible
 readonly
 attribute
 boolean
+isInPrivateBrowsing
+;
+[
+infallible
+]
+readonly
+attribute
+boolean
 isNullPrincipal
 ;
 [

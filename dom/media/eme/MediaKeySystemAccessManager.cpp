@@ -2717,11 +2717,9 @@ NodePrincipal
 )
 -
 >
-GetPrivateBrowsingId
+GetIsInPrivateBrowsing
 (
 )
->
-0
 ;
 MediaKeySystemAccess
 :

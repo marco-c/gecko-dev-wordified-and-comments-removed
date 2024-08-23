@@ -826,6 +826,15 @@ aPrivateBrowsingId
 final
 ;
 NS_IMETHOD
+GetIsInPrivateBrowsing
+(
+bool
+*
+aIsInPrivateBrowsing
+)
+final
+;
+NS_IMETHOD
 GetSiteOrigin
 (
 nsACString

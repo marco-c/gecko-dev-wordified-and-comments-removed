@@ -3541,15 +3541,11 @@ MOZ_DIAGNOSTIC_ASSERT
 mPrivateBrowsingMode
 =
 =
-(
 aPrincipal
 -
 >
-GetPrivateBrowsingId
+GetIsInPrivateBrowsing
 (
-)
->
-0
 )
 )
 ;

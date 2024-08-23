@@ -513,11 +513,9 @@ gpcStatus
 principal
 -
 >
-GetPrivateBrowsingId
+GetIsInPrivateBrowsing
 (
 )
->
-0
 &
 &
 StaticPrefs
