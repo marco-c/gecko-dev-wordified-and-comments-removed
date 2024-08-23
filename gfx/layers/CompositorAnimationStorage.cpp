@@ -898,12 +898,6 @@ MakeUnique
 AnimatedValue
 >
 (
-gfx
-:
-:
-Matrix4x4
-(
-)
 aFrameTransform
 aData
 std

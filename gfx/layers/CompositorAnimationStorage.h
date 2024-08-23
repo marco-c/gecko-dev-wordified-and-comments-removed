@@ -123,12 +123,6 @@ gfx
 :
 :
 Matrix4x4
-mTransformInDevSpace
-;
-gfx
-:
-:
-Matrix4x4
 mFrameTransform
 ;
 TransformData
@@ -251,13 +245,6 @@ gfx
 :
 Matrix4x4
 &
-aTransformInDevSpace
-const
-gfx
-:
-:
-Matrix4x4
-&
 aFrameTransform
 const
 TransformData
@@ -275,7 +262,6 @@ AsVariant
 (
 AnimationTransform
 {
-aTransformInDevSpace
 aFrameTransform
 aData
 std
