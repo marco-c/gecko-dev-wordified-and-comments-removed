@@ -2154,6 +2154,11 @@ Value
 result
 )
 ;
+int64_t
+readInt64
+(
+)
+;
 void
 traceAllocation
 (
