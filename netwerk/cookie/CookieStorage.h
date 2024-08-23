@@ -606,6 +606,8 @@ const
 nsACString
 &
 aBaseDomain
+bool
+aHardMax
 )
 ;
 static
