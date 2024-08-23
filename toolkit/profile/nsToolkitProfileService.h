@@ -113,10 +113,6 @@ nsIFile
 aLocalDir
 bool
 aFromDB
-const
-nsACString
-&
-aStoreID
 )
 ;
 nsresult
@@ -146,9 +142,6 @@ nsCOMPtr
 nsIFile
 >
 mLocalDir
-;
-nsCString
-mStoreID
 ;
 nsIProfileLock
 *
