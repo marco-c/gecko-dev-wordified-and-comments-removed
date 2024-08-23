@@ -399,10 +399,6 @@ EventTarget
 )
 NS_INTERFACE_MAP_ENTRY
 (
-GlobalTeardownObserver
-)
-NS_INTERFACE_MAP_ENTRY
-(
 dom
 :
 :
