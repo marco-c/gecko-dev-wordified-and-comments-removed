@@ -18,11 +18,6 @@ cstdint
 >
 #
 include
-<
-memory
->
-#
-include
 "
 api
 /

@@ -101,6 +101,17 @@ h
 #
 include
 "
+api
+/
+transport
+/
+bandwidth_usage
+.
+h
+"
+#
+include
+"
 modules
 /
 remote_bitrate_estimator
