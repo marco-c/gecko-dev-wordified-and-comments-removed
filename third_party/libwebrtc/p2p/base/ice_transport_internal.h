@@ -681,9 +681,12 @@ SetIceTiebreaker
 uint64_t
 tiebreaker
 )
-=
-0
+{
+RTC_CHECK_NOTREACHED
+(
+)
 ;
+}
 virtual
 void
 SetIceCredentials
