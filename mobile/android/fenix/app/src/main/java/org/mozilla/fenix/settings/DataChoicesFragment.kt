@@ -554,12 +554,7 @@ SharedPreferenceUpdater
 )
 isVisible
 =
-!
-Config
-.
-channel
-.
-isMozillaOnline
+false
 }
 }
 private
