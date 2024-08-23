@@ -8079,6 +8079,16 @@ onclose
 Atom
 (
 "
+oncontentvisibilityautostatechange
+"
+"
+oncontentvisibilityautostatechange
+"
+)
+    
+Atom
+(
+"
 oncommand
 "
 "

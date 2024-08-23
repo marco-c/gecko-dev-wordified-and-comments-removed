@@ -473,6 +473,10 @@ eContextRestored
 )
 NS_EVENT_MESSAGE
 (
+eContentVisibilityAutoStateChange
+)
+NS_EVENT_MESSAGE
+(
 eSVGLoad
 )
 NS_EVENT_MESSAGE
