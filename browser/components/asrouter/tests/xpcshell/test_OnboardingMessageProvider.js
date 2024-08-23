@@ -166,13 +166,14 @@ action
 .
 type
 "
-PIN_FIREFOX_TO_TASKBAR
+MULTI_ACTION
 "
 "
 Primary
 button
 has
-pin
+multi
+-
 action
 type
 "
