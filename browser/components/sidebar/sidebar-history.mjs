@@ -1036,7 +1036,9 @@ div
 class
 =
 "
-container
+sidebar
+-
+panel
 "
 >
 <
