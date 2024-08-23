@@ -1057,6 +1057,12 @@ mData
 error
 )
 ;
+error
+.
+WouldReportJSException
+(
+)
+;
 if
 (
 error
