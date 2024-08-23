@@ -940,7 +940,7 @@ int
 min_lookahead
 int
 max_lookahead
-DirectHandle
+Handle
 <
 ByteArray
 >

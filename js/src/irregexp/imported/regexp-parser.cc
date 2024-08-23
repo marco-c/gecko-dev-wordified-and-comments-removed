@@ -829,6 +829,22 @@ FlushPendingSurrogate
 ;
 if
 (
+NeedsDesugaringForIgnoreCase
+(
+c
+)
+)
+{
+AddClassRangesForDesugaring
+(
+c
+)
+;
+}
+else
+{
+if
+(
 characters_
 =
 =
@@ -871,6 +887,7 @@ zone
 )
 )
 ;
+}
 }
 void
 RegExpTextBuilder
@@ -1860,8 +1877,6 @@ int
 min
 int
 max
-int
-index
 RegExpQuantifier
 :
 :
@@ -3496,9 +3511,6 @@ int
 capture_count_
 ;
 int
-quantifier_count_
-;
-int
 lookaround_count_
 ;
 bool
@@ -3608,10 +3620,6 @@ captures_started_
 0
 )
 capture_count_
-(
-0
-)
-quantifier_count_
 (
 0
 )
@@ -6656,7 +6664,6 @@ AddQuantifierToAtom
 (
 min
 max
-quantifier_count_
 quantifier_type
 )
 )
@@ -6671,10 +6678,6 @@ kInvalidQuantifier
 )
 ;
 }
-+
-+
-quantifier_count_
-;
 }
 }
 template
@@ -17045,8 +17048,6 @@ int
 min
 int
 max
-int
-index
 RegExpQuantifier
 :
 :
@@ -17223,7 +17224,6 @@ RegExpQuantifier
 min
 max
 quantifier_type
-index
 atom
 )
 )
@@ -17262,7 +17262,7 @@ isolate
 Zone
 *
 zone
-DirectHandle
+Handle
 <
 String
 >

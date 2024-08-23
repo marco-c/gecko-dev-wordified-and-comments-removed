@@ -75,12 +75,12 @@ MatchForCallFromRuntime
 Isolate
 *
 isolate
-DirectHandle
+Handle
 <
 JSRegExp
 >
 regexp
-DirectHandle
+Handle
 <
 String
 >
