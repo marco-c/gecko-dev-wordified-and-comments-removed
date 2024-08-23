@@ -4119,6 +4119,18 @@ NUMBER_OF_TABS
 .
 fill
 (
+)
+.
+map
+(
+(
+_
+i
+)
+=
+>
+{
+return
 {
 type
 :
@@ -4138,7 +4150,6 @@ Mozilla
 "
 url
 :
-"
 https
 :
 /
@@ -4149,7 +4160,9 @@ mozilla
 .
 org
 /
-"
+{
+i
+}
 icon
 :
 "
@@ -4180,6 +4193,8 @@ ico
 client
 :
 1
+}
+;
 }
 )
 }
