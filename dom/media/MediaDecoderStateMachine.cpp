@@ -4619,7 +4619,7 @@ mDataWaitingTimestampAdjustment
 MediaData
 :
 :
-TypeToStr
+EnumValueToString
 (
 mDataWaitingTimestampAdjustment
 -
@@ -8138,7 +8138,7 @@ waiting
 MediaData
 :
 :
-TypeToStr
+EnumValueToString
 (
 aData
 -
@@ -10697,7 +10697,7 @@ s
 MediaData
 :
 :
-TypeToStr
+EnumValueToString
 (
 aReject
 .
