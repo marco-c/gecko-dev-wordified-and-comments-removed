@@ -20,11 +20,6 @@ expat_external
 .
 h
 '
-'
-siphash
-.
-h
-'
 ]
 if
 CONFIG
