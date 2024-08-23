@@ -114,6 +114,15 @@ prefs
 =
 [
 "
+dom
+.
+text_fragments
+.
+enabled
+=
+true
+"
+"
 javascript
 .
 options
