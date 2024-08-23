@@ -1052,11 +1052,6 @@ preventDefault
 (
 )
 ;
-if
-(
-onClick
-)
-{
 e
 .
 stopPropagation
@@ -1068,7 +1063,6 @@ onClick
 generatedLocation
 )
 ;
-}
 }
 href
 :

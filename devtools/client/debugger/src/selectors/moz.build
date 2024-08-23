@@ -183,11 +183,6 @@ threads
 js
 "
 "
-tracer
-.
-js
-"
-"
 visibleBreakpoints
 .
 js

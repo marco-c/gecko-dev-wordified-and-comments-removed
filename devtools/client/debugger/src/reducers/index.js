@@ -202,17 +202,6 @@ exceptions
 "
 ;
 import
-tracerFrames
-from
-"
-.
-/
-tracer
--
-frames
-"
-;
-import
 {
 objectInspector
 }
@@ -327,10 +316,6 @@ exceptions
 initialExceptionsState
 (
 )
-tracerFrames
-:
-{
-}
 }
 ;
 }
@@ -360,6 +345,5 @@ reducer
 default
 eventListenerBreakpoints
 exceptions
-tracerFrames
 }
 ;
