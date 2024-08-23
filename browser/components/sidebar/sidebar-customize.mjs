@@ -584,12 +584,6 @@ openFirefoxSettings
 e
 )
 {
-e
-.
-preventDefault
-(
-)
-;
 if
 (
 e
@@ -624,6 +618,12 @@ Enter
 )
 )
 {
+e
+.
+preventDefault
+(
+)
+;
 this
 .
 getWindow
