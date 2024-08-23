@@ -78,7 +78,7 @@ include
 "
 rtc_base
 /
-gunit
+crypto_random
 .
 h
 "
@@ -87,7 +87,7 @@ include
 "
 rtc_base
 /
-helpers
+gunit
 .
 h
 "

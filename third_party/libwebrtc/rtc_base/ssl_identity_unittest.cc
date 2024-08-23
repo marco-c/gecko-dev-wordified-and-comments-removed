@@ -65,7 +65,7 @@ include
 "
 rtc_base
 /
-fake_ssl_identity
+crypto_random
 .
 h
 "
@@ -74,7 +74,7 @@ include
 "
 rtc_base
 /
-helpers
+fake_ssl_identity
 .
 h
 "

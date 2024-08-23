@@ -45,15 +45,6 @@ transport_description
 .
 h
 "
-#
-include
-"
-rtc_base
-/
-helpers
-.
-h
-"
 namespace
 cricket
 {

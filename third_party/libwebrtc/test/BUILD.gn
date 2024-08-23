@@ -4988,7 +4988,7 @@ checks
 /
 rtc_base
 :
-ssl
+crypto_random
 "
 "
 .
@@ -5519,7 +5519,7 @@ checks
 /
 rtc_base
 :
-ssl
+crypto_random
 "
 "
 /
