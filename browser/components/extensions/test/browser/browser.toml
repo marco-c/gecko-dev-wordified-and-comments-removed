@@ -3290,6 +3290,13 @@ js
 ]
 [
 "
+browser_ext_windows_onFocusChanged
+.
+js
+"
+]
+[
+"
 browser_ext_windows_remove
 .
 js
