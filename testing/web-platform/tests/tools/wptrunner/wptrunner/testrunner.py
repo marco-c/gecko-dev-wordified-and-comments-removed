@@ -3047,6 +3047,22 @@ finally
             
 self
 .
+_cleanup_run_loop
+(
+)
+    
+def
+_cleanup_run_loop
+(
+self
+)
+:
+        
+try
+:
+            
+self
+.
 logger
 .
 debug
@@ -3274,6 +3290,9 @@ loop
 terminated
 "
 )
+        
+finally
+:
             
 self
 .
