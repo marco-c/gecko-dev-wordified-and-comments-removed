@@ -200,6 +200,13 @@ PK11Context
 destroy_aead_context
 )
 ;
+unsafe
+impl
+Send
+for
+Context
+{
+}
 #
 [
 derive

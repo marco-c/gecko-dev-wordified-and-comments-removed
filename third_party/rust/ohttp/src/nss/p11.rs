@@ -303,9 +303,6 @@ mut
 self
 )
 {
-let
-_
-=
 unsafe
 {
 dtor
@@ -1348,11 +1345,6 @@ item
 marker
 :
 PhantomData
-:
-:
-default
-(
-)
 }
 }
 pub

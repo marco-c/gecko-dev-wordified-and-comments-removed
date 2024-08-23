@@ -688,7 +688,6 @@ nsresult
 >
 {
 let
-mut
 server
 =
 self
@@ -858,7 +857,7 @@ client
 ClientRequest
 :
 :
-new
+from_encoded_config
 (
 encoded_config
 )
