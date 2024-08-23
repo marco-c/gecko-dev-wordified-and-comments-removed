@@ -23183,7 +23183,6 @@ u
 "
 _ns
 false
-false
 true
 false
 true
@@ -25043,7 +25042,6 @@ aUrl
 aName
 aOptions
 false
-false
 true
 false
 true
@@ -25089,7 +25087,6 @@ OpenInternal
 aUrl
 aName
 aOptions
-false
 false
 false
 true
@@ -25140,7 +25137,6 @@ aUrl
 aName
 aOptions
 true
-false
 true
 false
 true
@@ -25186,7 +25182,6 @@ OpenInternal
 aUrl
 aName
 aOptions
-false
 false
 true
 false
@@ -25296,7 +25291,6 @@ aUrl
 aName
 aOptions
 true
-false
 false
 false
 true
@@ -30095,8 +30089,6 @@ aOptions
 bool
 aDialog
 bool
-aContentModal
-bool
 aCalledNoScript
 bool
 aDoJSFixups
@@ -30934,25 +30926,9 @@ domReturn
 }
 else
 {
-Maybe
-<
 AutoNoJSAPI
->
 nojsapi
 ;
-if
-(
-!
-aContentModal
-)
-{
-nojsapi
-.
-emplace
-(
-)
-;
-}
 rv
 =
 pwwatch
