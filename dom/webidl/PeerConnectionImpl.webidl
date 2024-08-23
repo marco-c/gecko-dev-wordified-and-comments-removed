@@ -667,6 +667,11 @@ privacyRequested
 ;
 readonly
 attribute
+boolean
+duplicateFingerprintQuirk
+;
+readonly
+attribute
 RTCSctpTransport
 ?
 sctp
