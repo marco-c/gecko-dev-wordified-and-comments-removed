@@ -351,7 +351,7 @@ h
 #
 include
 "
-nsIContentSecurityPolicy
+nsIContentPolicy
 .
 h
 "
@@ -390,6 +390,9 @@ stdint
 .
 h
 "
+class
+nsIContentSecurityPolicy
+;
 class
 nsIThreadInternal
 ;

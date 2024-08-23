@@ -18,13 +18,9 @@ nsITransferable
 .
 h
 "
-#
-include
-"
+class
 nsIContentSecurityPolicy
-.
-h
-"
+;
 class
 nsICookieJarSettings
 ;

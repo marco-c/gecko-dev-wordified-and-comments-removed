@@ -469,6 +469,13 @@ h
 #
 include
 "
+nsIContentPolicy
+.
+h
+"
+#
+include
+"
 nsIURI
 .
 h
