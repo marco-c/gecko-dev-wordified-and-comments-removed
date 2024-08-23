@@ -45,6 +45,15 @@ use
 crate
 :
 :
+profiler
+:
+:
+TransactionProfile
+;
+use
+crate
+:
+:
 spatial_tree
 :
 :
@@ -712,6 +721,11 @@ tile_cache
 &
 mut
 TileCacheInstance
+profile
+:
+&
+mut
+TransactionProfile
 )
 {
 let
@@ -1117,6 +1131,7 @@ false
 frame_context
 frame_state
 tile_cache
+profile
 )
 ;
 if
@@ -1323,6 +1338,7 @@ scratch
 primitive
 is_root_tile_cache
 surfaces
+profile
 )
 ;
 }

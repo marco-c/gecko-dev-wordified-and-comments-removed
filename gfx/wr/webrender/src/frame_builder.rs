@@ -1888,6 +1888,7 @@ visibility_context
 mut
 visibility_state
 tile_cache
+profile
 )
 ;
 tile_cache
