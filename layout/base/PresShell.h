@@ -3585,6 +3585,11 @@ GetVisualViewportSizeUpdatedByDynamicToolbar
 const
 ;
 void
+RefreshViewportSize
+(
+)
+;
+void
 SetAuthorStyleDisabled
 (
 bool
