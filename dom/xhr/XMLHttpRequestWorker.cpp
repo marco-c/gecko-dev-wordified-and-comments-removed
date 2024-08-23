@@ -6512,6 +6512,11 @@ Truncate
 (
 )
 ;
+if
+(
+mProxy
+)
+{
 mProxy
 -
 >
@@ -6554,6 +6559,7 @@ mLastUploadTotal
 =
 0
 ;
+}
 }
 void
 XMLHttpRequestWorker
@@ -6625,6 +6631,10 @@ SetResponseToNetworkError
 ;
 if
 (
+!
+mProxy
+|
+|
 mProxy
 -
 >
@@ -6662,6 +6672,9 @@ return
 if
 (
 mUpload
+&
+&
+mProxy
 &
 &
 mProxy
