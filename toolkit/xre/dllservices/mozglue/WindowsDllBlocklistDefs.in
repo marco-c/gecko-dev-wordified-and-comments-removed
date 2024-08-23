@@ -2007,6 +2007,15 @@ dll
 "
 ALL_VERSIONS
 )
+DllBlocklistEntry
+(
+"
+protector64
+.
+dll
+"
+ALL_VERSIONS
+)
 ]
 GMPLUGIN_PROCESSES_TESTS
 +
