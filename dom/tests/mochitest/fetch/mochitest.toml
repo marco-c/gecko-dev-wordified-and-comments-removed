@@ -515,6 +515,11 @@ test_fetch_cors
 html
 "
 ]
+scheme
+=
+"
+https
+"
 skip
 -
 if
@@ -534,6 +539,11 @@ test_fetch_cors_sw_empty_reroute
 html
 "
 ]
+scheme
+=
+"
+https
+"
 skip
 -
 if
@@ -564,6 +574,11 @@ test_fetch_cors_sw_reroute
 html
 "
 ]
+scheme
+=
+"
+https
+"
 skip
 -
 if
