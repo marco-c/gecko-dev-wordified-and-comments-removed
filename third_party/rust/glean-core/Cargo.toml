@@ -123,7 +123,7 @@ version
 "
 60
 .
-4
+5
 .
 0
 "
@@ -260,9 +260,9 @@ parser
 "
 14
 .
-3
+5
 .
-0
+1
 "
 [
 dependencies
@@ -629,10 +629,6 @@ enable_env_logger
 "
 env_logger
 "
-]
-preinit_million_queue
-=
-[
 ]
 [
 target

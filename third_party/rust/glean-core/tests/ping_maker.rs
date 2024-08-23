@@ -665,6 +665,12 @@ Default
 default
 (
 )
+ping_lifetime_threshold
+:
+0
+ping_lifetime_max_time
+:
+0
 }
 )
 .
@@ -1026,6 +1032,12 @@ Default
 default
 (
 )
+ping_lifetime_threshold
+:
+0
+ping_lifetime_max_time
+:
+0
 }
 )
 .

@@ -213,6 +213,10 @@ default
 }
 #
 [
+ignore
+]
+#
+[
 test
 ]
 fn
@@ -292,7 +296,7 @@ in
 0
 .
 .
-1010
+1000010
 {
 metrics
 :
@@ -318,7 +322,7 @@ assert_eq
 (
 Some
 (
-1000
+1000000
 )
 metrics
 :

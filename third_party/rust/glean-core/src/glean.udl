@@ -568,6 +568,16 @@ string
 >
 ping_schedule
 ;
+u64
+ping_lifetime_threshold
+;
+u64
+ping_lifetime_max_time
+;
+/
+/
+in
+millis
 }
 ;
 /
