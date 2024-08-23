@@ -4243,6 +4243,9 @@ nsIIncrementalStreamLoader
 *
 *
 aOutLoader
+nsIChannel
+*
+aChannel
 ScriptLoadRequest
 *
 aRequest
@@ -4334,6 +4337,14 @@ move
 (
 sriDataVerifier
 )
+)
+;
+aChannel
+-
+>
+SetNotificationCallbacks
+(
+handler
 )
 ;
 nsresult
@@ -4600,6 +4611,7 @@ getter_AddRefs
 (
 loader
 )
+channel
 aRequest
 )
 ;
