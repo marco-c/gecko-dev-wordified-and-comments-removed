@@ -409,6 +409,15 @@ g
 0
 "
 .
+Returns
+an
+empty
+string
+if
+versionName
+is
+null
+.
 *
 /
 val
@@ -430,6 +439,10 @@ packageName
 )
 .
 versionName
+?
+:
+"
+"
 /
 *
 *

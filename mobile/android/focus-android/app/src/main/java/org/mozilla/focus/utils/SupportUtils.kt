@@ -828,6 +828,14 @@ name
 of
 this
 package
+or
+an
+empty
+string
+if
+versionName
+is
+null
 .
 *
 /
@@ -857,6 +865,10 @@ packageName
 )
 .
 versionName
+?
+:
+"
+"
 }
 catch
 (
