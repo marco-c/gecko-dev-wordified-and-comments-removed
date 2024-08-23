@@ -235,6 +235,10 @@ const
 nsACString
 &
 aSiteHost
+const
+OriginAttributes
+&
+aOriginAttributes
 bool
 &
 aResult
