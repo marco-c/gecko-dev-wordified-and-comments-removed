@@ -370,9 +370,13 @@ lineClass
 lines
 :
 [
+{
+line
+:
 editorLocation
 .
 line
+}
 ]
 }
 )

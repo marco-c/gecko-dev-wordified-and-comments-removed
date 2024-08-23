@@ -584,9 +584,13 @@ line
 lines
 :
 [
+{
+line
+:
 selectedLocation
 .
 line
+}
 ]
 }
 )

@@ -787,7 +787,9 @@ CONDITIONAL_BP_MARKER
 lines
 :
 [
+{
 line
+}
 ]
 renderAsBlock
 :

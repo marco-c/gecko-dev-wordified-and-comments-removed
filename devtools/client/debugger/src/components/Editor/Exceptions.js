@@ -343,9 +343,15 @@ map
 e
 =
 >
+(
+{
+line
+:
 e
 .
 lineNumber
+}
+)
 )
 }
 )
