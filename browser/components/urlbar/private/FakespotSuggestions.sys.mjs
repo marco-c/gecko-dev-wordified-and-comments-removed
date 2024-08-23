@@ -715,9 +715,6 @@ parseProvider
 (
 suggestion
 )
-shouldNavigate
-:
-true
 dynamicType
 :
 "

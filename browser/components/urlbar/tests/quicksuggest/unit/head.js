@@ -1993,9 +1993,6 @@ low
 [
 temperatureUnit
 ]
-shouldNavigate
-:
-true
 }
 }
 ;

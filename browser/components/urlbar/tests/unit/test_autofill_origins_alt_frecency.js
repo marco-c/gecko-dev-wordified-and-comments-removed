@@ -531,7 +531,7 @@ UrlbarUtils
 ICON
 .
 SEARCH_GLASS
-uri
+searchUrlDomainWithoutSuffix
 :
 UrlbarUtils
 .

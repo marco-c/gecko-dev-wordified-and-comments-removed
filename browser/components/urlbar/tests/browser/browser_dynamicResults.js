@@ -2123,14 +2123,6 @@ result
 .
 payload
 .
-shouldNavigate
-=
-true
-;
-result
-.
-payload
-.
 url
 =
 DUMMY_PAGE

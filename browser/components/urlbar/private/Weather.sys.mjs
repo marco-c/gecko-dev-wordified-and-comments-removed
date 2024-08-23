@@ -2169,9 +2169,6 @@ low
 [
 unit
 ]
-shouldNavigate
-:
-true
 }
 )
 {

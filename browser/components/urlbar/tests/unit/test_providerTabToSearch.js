@@ -257,7 +257,7 @@ UrlbarUtils
 ICON
 .
 SEARCH_GLASS
-uri
+searchUrlDomainWithoutSuffix
 :
 UrlbarUtils
 .
@@ -503,7 +503,7 @@ UrlbarUtils
 ICON
 .
 SEARCH_GLASS
-uri
+searchUrlDomainWithoutSuffix
 :
 UrlbarUtils
 .
@@ -806,7 +806,7 @@ UrlbarUtils
 ICON
 .
 SEARCH_GLASS
-uri
+searchUrlDomainWithoutSuffix
 :
 UrlbarUtils
 .
@@ -1007,7 +1007,7 @@ UrlbarUtils
 ICON
 .
 SEARCH_GLASS
-uri
+searchUrlDomainWithoutSuffix
 :
 UrlbarUtils
 .
@@ -1166,7 +1166,7 @@ UrlbarUtils
 ICON
 .
 SEARCH_GLASS
-uri
+searchUrlDomainWithoutSuffix
 :
 UrlbarUtils
 .
@@ -1459,7 +1459,7 @@ UrlbarUtils
 ICON
 .
 SEARCH_GLASS
-uri
+searchUrlDomainWithoutSuffix
 :
 UrlbarUtils
 .
@@ -1624,7 +1624,7 @@ UrlbarUtils
 ICON
 .
 SEARCH_GLASS
-uri
+searchUrlDomainWithoutSuffix
 :
 UrlbarUtils
 .
@@ -1961,7 +1961,7 @@ UrlbarUtils
 ICON
 .
 SEARCH_GLASS
-uri
+searchUrlDomainWithoutSuffix
 :
 UrlbarUtils
 .
@@ -2163,7 +2163,7 @@ UrlbarUtils
 ICON
 .
 SEARCH_GLASS
-uri
+searchUrlDomainWithoutSuffix
 :
 UrlbarUtils
 .
@@ -2373,7 +2373,7 @@ UrlbarUtils
 ICON
 .
 SEARCH_GLASS
-uri
+searchUrlDomainWithoutSuffix
 :
 UrlbarUtils
 .
@@ -2860,7 +2860,7 @@ UrlbarUtils
 ICON
 .
 SEARCH_GLASS
-uri
+searchUrlDomainWithoutSuffix
 :
 UrlbarUtils
 .

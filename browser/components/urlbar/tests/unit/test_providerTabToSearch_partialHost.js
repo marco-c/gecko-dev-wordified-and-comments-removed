@@ -362,7 +362,7 @@ UrlbarUtils
 ICON
 .
 SEARCH_GLASS
-uri
+searchUrlDomainWithoutSuffix
 :
 "
 en
@@ -578,7 +578,7 @@ UrlbarUtils
 ICON
 .
 SEARCH_GLASS
-uri
+searchUrlDomainWithoutSuffix
 :
 "
 www
@@ -824,7 +824,7 @@ UrlbarUtils
 ICON
 .
 SEARCH_GLASS
-uri
+searchUrlDomainWithoutSuffix
 :
 "
 search

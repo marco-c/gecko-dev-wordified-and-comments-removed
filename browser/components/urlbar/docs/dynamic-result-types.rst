@@ -4684,14 +4684,6 @@ a
 string
 url
 property
-and
-a
-boolean
-shouldNavigate
-:
-true
-property
-then
 picking
 the
 result
@@ -4702,7 +4694,7 @@ the
 URL
 .
 The
-onLegacyEngagement
+onEngagement
 method
 of
 the
@@ -4711,7 +4703,6 @@ result
 s
 provider
 will
-still
 be
 called
 before
