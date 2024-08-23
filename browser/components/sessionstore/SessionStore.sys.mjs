@@ -36009,13 +36009,12 @@ then
 {
 SidebarController
 .
-sidebarMain
-.
-expanded
-=
+toggleExpanded
+(
 aSidebar
 .
 expanded
+)
 ;
 SidebarController
 .
