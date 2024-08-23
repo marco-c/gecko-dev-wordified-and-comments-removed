@@ -319,10 +319,6 @@ onclose
 ;
 attribute
 EventHandler
-oncontentvisibilityautostatechange
-;
-attribute
-EventHandler
 oncontextlost
 ;
 attribute

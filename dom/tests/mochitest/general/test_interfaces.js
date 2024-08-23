@@ -8406,16 +8406,6 @@ true
 name
 :
 "
-oncontentvisibilityautostatechange
-"
-insecureContext
-:
-true
-}
-{
-name
-:
-"
 oncontextlost
 "
 insecureContext
