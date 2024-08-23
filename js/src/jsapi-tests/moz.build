@@ -630,12 +630,12 @@ testStencil
 cpp
 "
 "
-testStringBuffer
+testStringBuffers
 .
 cpp
 "
 "
-testStringBuffers
+testStringBuilder
 .
 cpp
 "
