@@ -31,7 +31,7 @@ rtp_rtcp
 /
 source
 /
-time_util
+ntp_time_util
 .
 h
 "
