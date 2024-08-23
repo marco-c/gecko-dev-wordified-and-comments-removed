@@ -1431,7 +1431,7 @@ return
 TextureFormat
 :
 :
-YUV422
+YUY2
 ;
 default
 :
