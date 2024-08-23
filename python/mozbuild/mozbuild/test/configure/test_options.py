@@ -2917,7 +2917,7 @@ foo
 with
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
 TypeError
 "
@@ -9527,7 +9527,7 @@ mozconfig
 with
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
             
 InvalidOptionError
@@ -9584,7 +9584,7 @@ implied
 with
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
             
 InvalidOptionError

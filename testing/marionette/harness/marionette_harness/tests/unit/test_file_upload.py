@@ -622,7 +622,7 @@ single
 with
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
 errors
 .

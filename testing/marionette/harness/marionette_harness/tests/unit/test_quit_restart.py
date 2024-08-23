@@ -1019,7 +1019,7 @@ None
 with
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
             
 errors
@@ -1079,7 +1079,7 @@ None
 with
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
             
 errors
@@ -1174,7 +1174,7 @@ self
 with
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
             
 ValueError
@@ -1216,7 +1216,7 @@ self
 with
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
             
 ValueError
@@ -1410,7 +1410,7 @@ enabled
 with
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
 ValueError
 "
@@ -1899,7 +1899,7 @@ self
 with
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
 ValueError
 "
@@ -2014,7 +2014,7 @@ startup_timeout
 with
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
                 
 IOError
@@ -2133,7 +2133,7 @@ startup_timeout
 with
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
                 
 IOError
@@ -2512,7 +2512,7 @@ True
 with
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
 ValueError
 "
@@ -2702,7 +2702,7 @@ None
 with
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
             
 errors
@@ -2941,7 +2941,7 @@ None
 with
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
             
 errors
@@ -3127,7 +3127,7 @@ None
 with
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
             
 errors
@@ -3222,7 +3222,7 @@ self
 with
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
 ValueError
 "
@@ -3301,7 +3301,7 @@ shutdown_timeout
 with
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
 IOError
 "
@@ -3399,7 +3399,7 @@ foo
 with
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
 Exception
 "

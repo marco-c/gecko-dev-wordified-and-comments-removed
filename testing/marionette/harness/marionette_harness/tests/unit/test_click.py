@@ -2574,7 +2574,7 @@ events
 with
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
             
 errors

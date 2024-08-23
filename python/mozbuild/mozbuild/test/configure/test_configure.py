@@ -6550,7 +6550,7 @@ configure
 with
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
             
 InvalidOptionError
@@ -6612,7 +6612,7 @@ foo
 with
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
             
 InvalidOptionError
@@ -6685,7 +6685,7 @@ c
 with
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
             
 InvalidOptionError

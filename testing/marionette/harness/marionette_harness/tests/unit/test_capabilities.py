@@ -1429,7 +1429,7 @@ value
 with
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
                 
 errors
@@ -1467,7 +1467,7 @@ self
 with
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
             
 errors
@@ -1892,7 +1892,7 @@ handler
 with
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
                 
 errors
@@ -2081,7 +2081,7 @@ handler
 with
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
                 
 errors

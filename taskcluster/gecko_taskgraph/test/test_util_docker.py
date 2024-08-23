@@ -1331,7 +1331,7 @@ n
 with
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
 Exception
 "
@@ -1470,7 +1470,7 @@ n
 with
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
 Exception
 "
@@ -1600,7 +1600,7 @@ n
 with
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
 Exception
 "

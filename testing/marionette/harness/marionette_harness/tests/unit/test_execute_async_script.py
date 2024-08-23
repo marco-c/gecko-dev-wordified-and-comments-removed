@@ -240,7 +240,7 @@ self
 with
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
 ScriptTimeoutException
 "
