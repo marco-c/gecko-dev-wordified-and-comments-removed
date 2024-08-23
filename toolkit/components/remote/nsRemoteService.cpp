@@ -161,6 +161,7 @@ NS_IMPL_ISUPPORTS
 (
 nsRemoteService
 nsIObserver
+nsIRemoteService
 )
 nsRemoteService
 :
