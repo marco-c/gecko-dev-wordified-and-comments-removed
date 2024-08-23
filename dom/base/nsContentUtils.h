@@ -5995,16 +5995,6 @@ aContent
 ;
 static
 bool
-IsFocusedContent
-(
-const
-nsIContent
-*
-aContent
-)
-;
-static
-bool
 IsCutCopyAllowed
 (
 Document
