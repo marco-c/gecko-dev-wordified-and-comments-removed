@@ -1378,8 +1378,6 @@ owner
 this
 view
 =
-browserToolbarView
-.
 view
 )
 }
