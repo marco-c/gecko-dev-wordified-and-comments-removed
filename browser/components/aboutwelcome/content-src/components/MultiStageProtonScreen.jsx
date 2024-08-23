@@ -1383,7 +1383,7 @@ darkModeReducedMotionImageURL
 (
 <
 source
-srcSet
+srcset
 =
 {
 darkModeReducedMotionImageURL
@@ -1423,7 +1423,7 @@ darkModeImageURL
 (
 <
 source
-srcSet
+srcset
 =
 {
 darkModeImageURL
@@ -1453,7 +1453,7 @@ reducedMotionImageURL
 (
 <
 source
-srcSet
+srcset
 =
 {
 reducedMotionImageURL

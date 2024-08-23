@@ -688,6 +688,9 @@ button
 "
 fullscreen
 "
+"
+srcset
+"
 ]
 }
 ]
