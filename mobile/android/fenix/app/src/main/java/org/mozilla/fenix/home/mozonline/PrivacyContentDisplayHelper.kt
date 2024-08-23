@@ -423,6 +423,15 @@ shouldShowPrivacyPopWindow
 false
 context
 .
+settings
+(
+)
+.
+isMarketingTelemetryEnabled
+=
+true
+context
+.
 components
 .
 analytics

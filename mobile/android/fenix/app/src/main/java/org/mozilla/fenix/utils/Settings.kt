@@ -2052,7 +2052,12 @@ pref_key_marketing_telemetry
 )
 default
 =
-false
+!
+Config
+.
+channel
+.
+isMozillaOnline
 )
 var
 isExperimentationEnabled
