@@ -42,11 +42,6 @@ gecko_ffi_name
 "
 mVisible
 "
-animation_value_type
-=
-"
-ComputedValue
-"
 spec
 =
 "
@@ -171,7 +166,7 @@ mode
 .
 enabled
 "
-animation_value_type
+animation_type
 =
 "
 none
@@ -237,7 +232,7 @@ engines
 gecko
 servo
 "
-animation_value_type
+animation_type
 =
 "
 none
@@ -310,7 +305,7 @@ gecko_enum_prefix
 "
 StyleMozBoxCollapse
 "
-animation_value_type
+animation_type
 =
 "
 none
@@ -369,7 +364,7 @@ gecko_enum_prefix
 "
 StyleTextOrientation
 "
-animation_value_type
+animation_type
 =
 "
 none
@@ -469,7 +464,7 @@ color
 -
 adjust
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -533,7 +528,7 @@ image
 -
 rendering
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -571,7 +566,7 @@ gecko_enum_prefix
 "
 StyleImageOrientation
 "
-animation_value_type
+animation_type
 =
 "
 discrete

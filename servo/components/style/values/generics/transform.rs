@@ -156,6 +156,7 @@ MallocSizeOf
 PartialEq
 Serialize
 SpecifiedValueInfo
+ToAnimatedValue
 ToComputedValue
 ToCss
 ToResolvedValue
@@ -249,6 +250,7 @@ MallocSizeOf
 PartialEq
 Serialize
 SpecifiedValueInfo
+ToAnimatedValue
 ToComputedValue
 ToCss
 ToResolvedValue
@@ -663,6 +665,7 @@ Debug
 MallocSizeOf
 PartialEq
 SpecifiedValueInfo
+ToAnimatedValue
 ToAnimatedZero
 ToComputedValue
 ToCss
@@ -784,6 +787,7 @@ MallocSizeOf
 PartialEq
 Serialize
 SpecifiedValueInfo
+ToAnimatedValue
 ToComputedValue
 ToCss
 ToResolvedValue
@@ -893,6 +897,7 @@ MallocSizeOf
 PartialEq
 Serialize
 SpecifiedValueInfo
+ToAnimatedValue
 ToComputedValue
 ToCss
 ToResolvedValue
@@ -1393,6 +1398,7 @@ MallocSizeOf
 PartialEq
 Serialize
 SpecifiedValueInfo
+ToAnimatedValue
 ToComputedValue
 ToCss
 ToResolvedValue
@@ -3633,6 +3639,7 @@ MallocSizeOf
 PartialEq
 Serialize
 SpecifiedValueInfo
+ToAnimatedValue
 ToAnimatedZero
 ToComputedValue
 ToResolvedValue
@@ -4048,6 +4055,7 @@ MallocSizeOf
 PartialEq
 Serialize
 SpecifiedValueInfo
+ToAnimatedValue
 ToAnimatedZero
 ToComputedValue
 ToResolvedValue
@@ -4321,6 +4329,7 @@ MallocSizeOf
 PartialEq
 Serialize
 SpecifiedValueInfo
+ToAnimatedValue
 ToAnimatedZero
 ToComputedValue
 ToCss

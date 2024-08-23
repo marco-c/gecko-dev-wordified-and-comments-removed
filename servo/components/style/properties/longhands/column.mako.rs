@@ -70,11 +70,6 @@ auto
 (
 )
 "
-animation_value_type
-=
-"
-NonNegativeLengthOrAuto
-"
 servo_pref
 =
 "
@@ -168,11 +163,6 @@ columns
 .
 enabled
 "
-animation_value_type
-=
-"
-AnimatedColumnCount
-"
 spec
 =
 "
@@ -228,7 +218,7 @@ engines
 "
 gecko
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -340,11 +330,6 @@ rule
 -
 width
 "
-animation_value_type
-=
-"
-NonNegativeLength
-"
 affects
 =
 "
@@ -395,11 +380,6 @@ Color
 currentcolor
 (
 )
-"
-animation_value_type
-=
-"
-AnimatedColor
 "
 ignored_when_colors_disabled
 =
@@ -466,7 +446,7 @@ columns
 .
 enabled
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -547,7 +527,7 @@ BorderStyle
 :
 None
 "
-animation_value_type
+animation_type
 =
 "
 discrete

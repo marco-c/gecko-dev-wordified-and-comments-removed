@@ -71,6 +71,19 @@ fn
 to_animated_value
 (
 self
+context
+:
+&
+crate
+:
+:
+values
+:
+:
+animated
+:
+:
+Context
 )
 -
 >
@@ -169,6 +182,7 @@ to_animated_value
 (
 #
 binding
+context
 )
 )
 trait_impl

@@ -43,7 +43,7 @@ gecko_enum_prefix
 "
 StyleBorderCollapse
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -109,7 +109,7 @@ gecko_enum_prefix
 "
 StyleEmptyCells
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -184,7 +184,7 @@ engines
 gecko
 servo
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -254,11 +254,6 @@ engines
 "
 gecko
 servo
-"
-animation_value_type
-=
-"
-BorderSpacing
 "
 boxed
 =

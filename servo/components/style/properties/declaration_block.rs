@@ -1436,6 +1436,12 @@ Context
 '
 cx_a
 >
+style
+:
+&
+'
+a
+ComputedValues
 default_values
 :
 &
@@ -1485,6 +1491,12 @@ Context
 '
 cx_a
 >
+style
+:
+&
+'
+a
+ComputedValues
 default_values
 :
 &
@@ -1514,6 +1526,7 @@ declaration_importance_iter
 (
 )
 context
+style
 default_values
 }
 }
@@ -1609,6 +1622,9 @@ mut
 self
 .
 context
+self
+.
+style
 self
 .
 default_values
@@ -2009,6 +2025,12 @@ Context
 '
 cx_a
 >
+style
+:
+&
+'
+a
+ComputedValues
 default_values
 :
 &
@@ -2035,6 +2057,7 @@ new
 (
 self
 context
+style
 default_values
 )
 }

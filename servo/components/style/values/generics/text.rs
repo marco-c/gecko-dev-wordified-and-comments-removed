@@ -461,13 +461,14 @@ Animate
 Clone
 Copy
 ComputeSquaredDistance
-ToAnimatedZero
 Debug
 Eq
 MallocSizeOf
 Parse
 PartialEq
 SpecifiedValueInfo
+ToAnimatedValue
+ToAnimatedZero
 ToComputedValue
 ToCss
 ToResolvedValue
@@ -514,6 +515,7 @@ Eq
 MallocSizeOf
 PartialEq
 SpecifiedValueInfo
+ToAnimatedValue
 ToAnimatedZero
 ToComputedValue
 ToCss

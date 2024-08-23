@@ -2804,6 +2804,7 @@ Hash
 MallocSizeOf
 PartialEq
 SpecifiedValueInfo
+ToAnimatedValue
 ToComputedValue
 ToResolvedValue
 ToShmem

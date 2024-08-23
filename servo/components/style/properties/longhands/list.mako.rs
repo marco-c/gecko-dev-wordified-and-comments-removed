@@ -45,7 +45,7 @@ gecko_enum_prefix
 "
 StyleListStylePosition
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -180,7 +180,7 @@ engines
 "
 servo
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -278,7 +278,7 @@ disc
 (
 )
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -366,7 +366,7 @@ Image
 :
 None
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -445,7 +445,7 @@ engines
 gecko
 servo
 "
-animation_value_type
+animation_type
 =
 "
 discrete

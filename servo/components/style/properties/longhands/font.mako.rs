@@ -58,7 +58,7 @@ serif
 (
 )
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -143,11 +143,6 @@ FontStyle
 normal
 (
 )
-"
-animation_value_type
-=
-"
-FontStyle
 "
 spec
 =
@@ -328,7 +323,7 @@ caps
 custom_consts
 =
 font_variant_caps_custom_consts
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -389,11 +384,6 @@ FontWeight
 normal
 (
 )
-"
-animation_value_type
-=
-"
-Number
 "
 spec
 =
@@ -475,11 +465,6 @@ FontSize
 medium
 (
 )
-"
-animation_value_type
-=
-"
-NonNegativeLength
 "
 allow_quirks
 =
@@ -564,11 +549,6 @@ FontSizeAdjust
 :
 None
 "
-animation_value_type
-=
-"
-FontSizeAdjust
-"
 spec
 =
 "
@@ -651,7 +631,7 @@ mFont
 .
 synthesisWeight
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -738,7 +718,7 @@ mFont
 .
 synthesisStyle
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -827,7 +807,7 @@ mFont
 .
 synthesisSmallCaps
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -916,7 +896,7 @@ mFont
 .
 synthesisPosition
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -998,11 +978,6 @@ FontStretch
 normal
 (
 )
-"
-animation_value_type
-=
-"
-Percentage
 "
 spec
 =
@@ -1096,7 +1071,7 @@ font
 -
 kerning
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -1154,7 +1129,7 @@ default
 (
 )
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -1240,7 +1215,7 @@ empty
 (
 )
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -1359,7 +1334,7 @@ variant
 -
 emoji
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -1417,7 +1392,7 @@ empty
 (
 )
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -1501,7 +1476,7 @@ empty
 (
 )
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -1599,7 +1574,7 @@ variant
 -
 position
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -1673,7 +1648,7 @@ font
 features
 webkit
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -1773,11 +1748,6 @@ normal
 (
 )
 "
-animation_value_type
-=
-"
-ComputedValue
-"
 spec
 =
 "
@@ -1859,7 +1829,7 @@ normal
 (
 )
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -1963,7 +1933,7 @@ gecko_constant_prefix
 "
 NS_FONT_OPTICAL_SIZING
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -2049,7 +2019,7 @@ normal
 (
 )
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -2133,7 +2103,7 @@ get_initial_value
 (
 )
 "
-animation_value_type
+animation_type
 =
 "
 none
@@ -2184,7 +2154,7 @@ engines
 "
 gecko
 "
-animation_value_type
+animation_type
 =
 "
 none
@@ -2277,7 +2247,7 @@ style
 -
 property
 "
-animation_value_type
+animation_type
 =
 "
 none
@@ -2380,7 +2350,7 @@ web
 exposed
 )
 "
-animation_value_type
+animation_type
 =
 "
 none
@@ -2432,7 +2402,7 @@ engines
 "
 gecko
 "
-animation_value_type
+animation_type
 =
 "
 none
@@ -2491,11 +2461,6 @@ engines
 "
 gecko
 servo
-"
-animation_value_type
-=
-"
-LineHeight
 "
 spec
 =
@@ -3157,7 +3122,7 @@ font
 smooth
 )
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -3205,7 +3170,7 @@ engines
 "
 gecko
 "
-animation_value_type
+animation_type
 =
 "
 none

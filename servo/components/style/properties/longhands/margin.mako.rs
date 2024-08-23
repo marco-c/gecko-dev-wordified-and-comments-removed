@@ -173,11 +173,6 @@ else
 "
 Yes
 "
-animation_value_type
-=
-"
-ComputedValue
-"
 logical
 =
 side
@@ -278,11 +273,6 @@ clip
 -
 margin
 "
-animation_value_type
-=
-"
-ComputedValue
-"
 affects
 =
 "
@@ -382,11 +372,6 @@ side
 [
 0
 ]
-animation_value_type
-=
-"
-ComputedValue
-"
 affects
 =
 "
