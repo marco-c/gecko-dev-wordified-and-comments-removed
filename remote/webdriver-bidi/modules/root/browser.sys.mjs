@@ -58,7 +58,7 @@ MPL
 /
 import
 {
-Module
+RootBiDiModule
 }
 from
 "
@@ -70,11 +70,13 @@ remote
 /
 content
 /
-shared
+webdriver
+-
+bidi
 /
-messagehandler
+modules
 /
-Module
+RootBiDiModule
 .
 sys
 .
@@ -291,7 +293,7 @@ contexts
 class
 BrowserModule
 extends
-Module
+RootBiDiModule
 {
 constructor
 (
