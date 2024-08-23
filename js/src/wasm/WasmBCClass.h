@@ -207,6 +207,9 @@ delete
 class
 BaseNothingVector
 {
+mozilla
+:
+:
 Nothing
 unused_
 ;
@@ -234,6 +237,9 @@ return
 true
 ;
 }
+mozilla
+:
+:
 Nothing
 &
 operator
@@ -247,6 +253,9 @@ return
 unused_
 ;
 }
+mozilla
+:
+:
 Nothing
 &
 back
@@ -270,6 +279,9 @@ return
 bool
 append
 (
+mozilla
+:
+:
 Nothing
 &
 nothing
@@ -282,6 +294,9 @@ true
 void
 infallibleAppend
 (
+mozilla
+:
+:
 Nothing
 &
 nothing
@@ -296,6 +311,9 @@ BaseCompilePolicy
 using
 Value
 =
+mozilla
+:
+:
 Nothing
 ;
 using
@@ -4611,6 +4629,9 @@ bool
 emitPostBarrierImprecise
 (
 const
+mozilla
+:
+:
 Maybe
 <
 RegRef
@@ -4632,6 +4653,9 @@ bool
 emitPostBarrierPrecise
 (
 const
+mozilla
+:
+:
 Maybe
 <
 RegRef
@@ -4655,6 +4679,9 @@ bool
 emitBarrieredStore
 (
 const
+mozilla
+:
+:
 Maybe
 <
 RegRef

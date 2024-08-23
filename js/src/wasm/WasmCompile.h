@@ -96,6 +96,9 @@ error
 UniqueCharsVector
 *
 warnings
+mozilla
+:
+:
 Atomic
 <
 bool
@@ -183,6 +186,9 @@ ExclusiveStreamEndData
 &
 streamEnd
 const
+mozilla
+:
+:
 Atomic
 <
 bool

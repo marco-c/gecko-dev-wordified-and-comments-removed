@@ -119,6 +119,9 @@ uint32_t
 length_
 ;
 const
+mozilla
+:
+:
 Maybe
 <
 uint32_t
@@ -309,6 +312,9 @@ return
 length_
 ;
 }
+mozilla
+:
+:
 Maybe
 <
 uint32_t
@@ -558,6 +564,9 @@ endif
 size_t
 sizeOfExcludingThis
 (
+mozilla
+:
+:
 MallocSizeOf
 mallocSizeOf
 )

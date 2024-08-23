@@ -97,6 +97,12 @@ js
 namespace
 wasm
 {
+using
+mozilla
+:
+:
+Nothing
+;
 void
 BaseCompiler
 :

@@ -687,6 +687,9 @@ TrapSiteVectorArray
 :
 sizeOfExcludingThis
 (
+mozilla
+:
+:
 MallocSizeOf
 mallocSizeOf
 )

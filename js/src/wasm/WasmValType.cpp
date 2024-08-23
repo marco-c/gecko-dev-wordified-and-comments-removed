@@ -1791,6 +1791,9 @@ wasm
 ToString
 (
 const
+mozilla
+:
+:
 Maybe
 <
 ValType

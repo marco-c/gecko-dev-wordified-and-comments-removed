@@ -69,12 +69,6 @@ js
 namespace
 wasm
 {
-using
-mozilla
-:
-:
-Maybe
-;
 class
 RecGroup
 ;
@@ -4597,6 +4591,9 @@ UniqueChars
 ToString
 (
 const
+mozilla
+:
+:
 Maybe
 <
 ValType

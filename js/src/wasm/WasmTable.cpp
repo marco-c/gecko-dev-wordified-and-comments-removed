@@ -2672,6 +2672,9 @@ Table
 :
 sizeOfExcludingThis
 (
+mozilla
+:
+:
 MallocSizeOf
 mallocSizeOf
 )

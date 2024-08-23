@@ -161,12 +161,6 @@ Type
 SystemAllocPolicy
 >
 ;
-using
-mozilla
-:
-:
-MallocSizeOf
-;
 template
 <
 class
@@ -181,6 +175,9 @@ const
 T
 &
 elem
+mozilla
+:
+:
 MallocSizeOf
 mallocSizeOf
 )
@@ -211,6 +208,9 @@ T
 >
 &
 elem
+mozilla
+:
+:
 MallocSizeOf
 mallocSizeOf
 )
@@ -249,6 +249,9 @@ SystemAllocPolicy
 >
 &
 vec
+mozilla
+:
+:
 MallocSizeOf
 mallocSizeOf
 )
@@ -307,6 +310,9 @@ T
 >
 &
 maybe
+mozilla
+:
+:
 MallocSizeOf
 mallocSizeOf
 )

@@ -199,6 +199,9 @@ bool
 loggingDeserialized_
 ;
 mutable
+mozilla
+:
+:
 Atomic
 <
 bool
@@ -601,6 +604,9 @@ override
 void
 addSizeOfMisc
 (
+mozilla
+:
+:
 MallocSizeOf
 mallocSizeOf
 CodeMetadata

@@ -370,12 +370,6 @@ WasmValType
 .
 h
 "
-using
-js
-:
-:
-CodeMetadataForAsmJS
-;
 struct
 JS_PUBLIC_API
 JSContext
@@ -508,6 +502,9 @@ SystemAllocPolicy
 ;
 struct
 SymbolicLinkArray
+:
+mozilla
+:
 :
 EnumeratedArray
 <
@@ -1329,6 +1326,9 @@ Finished
 struct
 FuncState
 {
+mozilla
+:
+:
 Atomic
 <
 const
@@ -1337,6 +1337,9 @@ CodeBlock
 >
 bestTier
 ;
+mozilla
+:
+:
 Atomic
 <
 TierUpState
@@ -1759,6 +1762,9 @@ endif
 size_t
 sizeOfExcludingThis
 (
+mozilla
+:
+:
 MallocSizeOf
 mallocSizeOf
 )
@@ -2241,6 +2247,9 @@ const
 void
 addSizeOfMisc
 (
+mozilla
+:
+:
 MallocSizeOf
 mallocSizeOf
 size_t
@@ -2283,6 +2292,9 @@ RawCodeBlockVector
 *
 mutableCodeBlocks_
 ;
+mozilla
+:
+:
 Atomic
 <
 const
@@ -2291,6 +2303,9 @@ RawCodeBlockVector
 >
 readonlyCodeBlocks_
 ;
+mozilla
+:
+:
 Atomic
 <
 size_t
@@ -3422,6 +3437,9 @@ CodeBlock
 completeTier2_
 ;
 mutable
+mozilla
+:
+:
 Atomic
 <
 bool
@@ -3583,6 +3601,9 @@ const
 CodeBlock
 &
 tier2Code
+mozilla
+:
+:
 Maybe
 <
 size_t
@@ -4493,6 +4514,9 @@ const
 void
 addSizeOfMiscIfNotSeen
 (
+mozilla
+:
+:
 MallocSizeOf
 mallocSizeOf
 CodeMetadata

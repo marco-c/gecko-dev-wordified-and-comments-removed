@@ -151,12 +151,6 @@ StoreBuffer
 namespace
 wasm
 {
-using
-mozilla
-:
-:
-Atomic
-;
 struct
 FuncDefInstanceData
 ;
@@ -234,6 +228,9 @@ AnyRef
 >
 pendingExceptionTag_
 ;
+mozilla
+:
+:
 Atomic
 <
 JS
@@ -247,6 +244,9 @@ Relaxed
 >
 stackLimit_
 ;
+mozilla
+:
+:
 Atomic
 <
 uint32_t
@@ -1562,6 +1562,9 @@ offset
 void
 addSizeOfMisc
 (
+mozilla
+:
+:
 MallocSizeOf
 mallocSizeOf
 SeenSet
@@ -2673,6 +2676,9 @@ type
 void
 *
 registerResultLoc
+mozilla
+:
+:
 Maybe
 <
 char

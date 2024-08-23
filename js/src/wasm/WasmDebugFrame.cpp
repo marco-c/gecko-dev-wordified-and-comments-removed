@@ -814,6 +814,9 @@ results
 )
 )
 ;
+mozilla
+:
+:
 Maybe
 <
 char
@@ -834,6 +837,9 @@ resultType
 {
 stackResultsLoc
 =
+mozilla
+:
+:
 Some
 (
 static_cast

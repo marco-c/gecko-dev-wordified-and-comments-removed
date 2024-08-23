@@ -139,6 +139,12 @@ using
 mozilla
 :
 :
+CheckedInt32
+;
+using
+mozilla
+:
+:
 CheckedUint32
 ;
 using
@@ -146,6 +152,12 @@ mozilla
 :
 :
 IsPowerOfTwo
+;
+using
+mozilla
+:
+:
+MallocSizeOf
 ;
 using
 ImmediateType

@@ -395,6 +395,9 @@ tags
 GlobalDescVector
 globals
 ;
+mozilla
+:
+:
 Maybe
 <
 uint32_t
@@ -404,6 +407,9 @@ startFuncIndex
 RefTypeVector
 elemSegmentTypes
 ;
+mozilla
+:
+:
 Maybe
 <
 uint32_t
@@ -416,6 +422,9 @@ asmJSSigToTableIndex
 BranchHintCollection
 branchHints
 ;
+mozilla
+:
+:
 Maybe
 <
 Name
@@ -428,6 +437,9 @@ funcNames
 SharedBytes
 namePayload
 ;
+mozilla
+:
+:
 Maybe
 <
 uint32_t
@@ -1444,6 +1456,9 @@ bool
 declareForRef
 =
 false
+mozilla
+:
+:
 Maybe
 <
 CacheableName

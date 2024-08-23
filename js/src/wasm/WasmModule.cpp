@@ -513,6 +513,9 @@ bytecode_
 SharedModule
 module_
 ;
+mozilla
+:
+:
 Atomic
 <
 bool
@@ -1204,6 +1207,9 @@ Module
 :
 addSizeOfMisc
 (
+mozilla
+:
+:
 MallocSizeOf
 mallocSizeOf
 CodeMetadata
@@ -2119,6 +2125,9 @@ cx
 T
 declaredMin
 const
+mozilla
+:
+:
 Maybe
 <
 T
@@ -2130,6 +2139,9 @@ defaultMax
 T
 actualLength
 const
+mozilla
+:
+:
 Maybe
 <
 T

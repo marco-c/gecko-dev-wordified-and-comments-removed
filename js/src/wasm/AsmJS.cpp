@@ -628,6 +628,12 @@ using
 mozilla
 :
 :
+Maybe
+;
+using
+mozilla
+:
+:
 Nothing
 ;
 using

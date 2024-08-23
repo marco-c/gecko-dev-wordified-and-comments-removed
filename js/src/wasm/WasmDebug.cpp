@@ -3010,6 +3010,9 @@ DebugState
 :
 addSizeOfMisc
 (
+mozilla
+:
+:
 MallocSizeOf
 mallocSizeOf
 CodeMetadata

@@ -114,6 +114,9 @@ using
 namespace
 wasm
 ;
+mozilla
+:
+:
 Atomic
 <
 bool
@@ -127,6 +130,9 @@ false
 )
 ;
 static
+mozilla
+:
+:
 Atomic
 <
 ThreadSafeCodeBlockMap

@@ -37,12 +37,6 @@ js
 namespace
 wasm
 {
-using
-mozilla
-:
-:
-MallocSizeOf
-;
 template
 <
 class
@@ -92,6 +86,9 @@ T
 size_t
 sizeOfIncludingThisIfNotSeen
 (
+mozilla
+:
+:
 MallocSizeOf
 mallocSizeOf
 SeenSet
@@ -214,6 +211,9 @@ bytes
 size_t
 sizeOfExcludingThis
 (
+mozilla
+:
+:
 MallocSizeOf
 mallocSizeOf
 )

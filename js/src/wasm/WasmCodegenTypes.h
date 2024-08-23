@@ -121,12 +121,6 @@ ABIArgIterBase
 namespace
 wasm
 {
-using
-mozilla
-:
-:
-EnumeratedArray
-;
 struct
 CodeMetadata
 ;
@@ -919,6 +913,9 @@ TrapSiteVector
 )
 struct
 TrapSiteVectorArray
+:
+mozilla
+:
 :
 EnumeratedArray
 <
@@ -3273,6 +3270,9 @@ instanceDataOffset_
 uint32_t
 minLength_
 ;
+mozilla
+:
+:
 Maybe
 <
 uint32_t
@@ -3536,6 +3536,9 @@ table
 minLength_
 ;
 }
+mozilla
+:
+:
 Maybe
 <
 uint32_t
