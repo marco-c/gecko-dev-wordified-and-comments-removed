@@ -10,12 +10,11 @@ elu
 '
 )
 ;
-validateUnaryOperation
+validateSingleInputOperation
 (
 '
 elu
 '
-floatingPointTypes
 true
 )
 ;

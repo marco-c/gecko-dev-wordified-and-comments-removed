@@ -10,12 +10,11 @@ gelu
 '
 )
 ;
-validateUnaryOperation
+validateSingleInputOperation
 (
 '
 gelu
 '
-floatingPointTypes
 true
 )
 ;

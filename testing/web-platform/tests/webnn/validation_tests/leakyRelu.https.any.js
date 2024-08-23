@@ -10,12 +10,11 @@ leakyRelu
 '
 )
 ;
-validateUnaryOperation
+validateSingleInputOperation
 (
 '
 leakyRelu
 '
-floatingPointTypes
 true
 )
 ;
