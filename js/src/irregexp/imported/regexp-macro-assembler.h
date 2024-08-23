@@ -1069,9 +1069,6 @@ uint32_t
 current_char
 Address
 raw_byte_array
-Isolate
-*
-isolate
 )
 ;
 void
@@ -1361,12 +1358,12 @@ static
 int
 Match
 (
-Handle
+DirectHandle
 <
 JSRegExp
 >
 regexp
-Handle
+DirectHandle
 <
 String
 >

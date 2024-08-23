@@ -43,7 +43,7 @@ isolate
 Zone
 *
 zone
-Handle
+DirectHandle
 <
 String
 >
