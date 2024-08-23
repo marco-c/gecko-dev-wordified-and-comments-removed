@@ -44,6 +44,13 @@ NormalOriginOperationBase
 public
 PQuotaUsageRequestParent
 {
+public
+:
+NS_INLINE_DECL_REFCOUNTING
+(
+QuotaUsageRequestBase
+override
+)
 protected
 :
 QuotaUsageRequestBase
