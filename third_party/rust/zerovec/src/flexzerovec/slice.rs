@@ -70,6 +70,7 @@ usize
 [
 repr
 (
+C
 packed
 )
 ]

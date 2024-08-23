@@ -38,6 +38,7 @@ MaybeUninit
 [
 repr
 (
+C
 packed
 )
 ]
@@ -617,6 +618,7 @@ U
 [
 repr
 (
+C
 packed
 )
 ]
