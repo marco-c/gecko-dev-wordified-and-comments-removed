@@ -579,6 +579,15 @@ StyleSize
 Tag
 :
 :
+Stretch
+:
+case
+StyleSize
+:
+:
+Tag
+:
+:
 FitContent
 :
 case

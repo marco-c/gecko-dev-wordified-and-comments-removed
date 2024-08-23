@@ -1943,6 +1943,15 @@ ExtremumLength
 :
 MozAvailable
 :
+case
+nsIFrame
+:
+:
+ExtremumLength
+:
+:
+Stretch
+:
 return
 false
 ;

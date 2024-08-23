@@ -1266,6 +1266,11 @@ MozAvailable
 Self
 :
 :
+Stretch
+|
+Self
+:
+:
 FitContentFunction
 (
 _
