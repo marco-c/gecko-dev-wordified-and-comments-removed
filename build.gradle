@@ -823,7 +823,7 @@ mozconfig
 .
 substs
 .
-ANDROID_TARGET_SDK
+ANDROID_COMPILE_SDK
 )
 targetSdkVersion
 =
