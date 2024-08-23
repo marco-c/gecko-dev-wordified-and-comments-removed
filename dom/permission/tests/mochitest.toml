@@ -46,6 +46,17 @@ enabled
 =
 true
 "
+"
+permissions
+.
+media
+.
+query
+.
+enabled
+=
+true
+"
 ]
 [
 "
