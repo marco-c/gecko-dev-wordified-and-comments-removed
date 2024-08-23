@@ -136,7 +136,7 @@ MemoryType
 )
 Inline
 {
-is64
+is_32
 :
 bool
 data
@@ -343,7 +343,7 @@ LParen
 )
 {
 let
-is64
+is_32
 =
 if
 parser
@@ -368,7 +368,7 @@ is_some
 (
 )
 {
-false
+true
 }
 else
 {
@@ -390,7 +390,7 @@ i64
 )
 ?
 .
-is_some
+is_none
 (
 )
 }
@@ -467,7 +467,7 @@ MemoryKind
 Inline
 {
 data
-is64
+is_32
 }
 }
 else

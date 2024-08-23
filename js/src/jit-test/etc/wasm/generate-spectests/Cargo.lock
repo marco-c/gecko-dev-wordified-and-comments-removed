@@ -1329,9 +1329,9 @@ version
 "
 0
 .
-210
+41
 .
-0
+2
 "
 source
 =
@@ -1359,7 +1359,7 @@ index
 checksum
 =
 "
-e7e3764d9d6edabd8c9e16195e177be0d20f6ab942ad18af52860f12f82bc59a
+972f97a5d8318f908dded23594188a90bcd09365986b1163e66d70170e5287ae
 "
 dependencies
 =
@@ -1432,11 +1432,11 @@ wast
 version
 =
 "
-210
+71
 .
 0
 .
-0
+1
 "
 source
 =
@@ -1464,7 +1464,7 @@ index
 checksum
 =
 "
-aa835c59bd615e00f16be65705d85517d40b44b3c831d724e450244685176c3c
+647c3ac4354da32688537e8fc4d2fe6c578df51896298cb64727d98088a1fd26
 "
 dependencies
 =

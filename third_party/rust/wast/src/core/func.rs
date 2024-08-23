@@ -344,7 +344,6 @@ kind
 derive
 (
 Debug
-Clone
 )
 ]
 pub

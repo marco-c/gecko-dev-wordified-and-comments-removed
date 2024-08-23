@@ -526,6 +526,8 @@ Some
 tuq
 -
 Latn
+-
+TD
 "
 )
 )
@@ -571,6 +573,8 @@ Some
 klx
 -
 Latn
+-
+PG
 "
 )
 )
@@ -1057,7 +1061,7 @@ assert_eq
 (
 CLDR_VERSION
 "
-36
+44
 "
 )
 ;

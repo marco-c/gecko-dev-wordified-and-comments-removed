@@ -1,10 +1,3 @@
-#
-[
-allow
-(
-unreachable_patterns
-)
-]
 mod
 convert
 ;
