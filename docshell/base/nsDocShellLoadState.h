@@ -1702,7 +1702,7 @@ mHttpsUpgradeTelemetry
 nsILoadInfo
 :
 :
-NO_UPGRADE
+NOT_INITIALIZED
 ;
 }
 ;

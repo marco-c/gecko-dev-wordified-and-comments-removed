@@ -10332,6 +10332,17 @@ StoreUpgradeToSecure
 true
 )
 ;
+mLoadInfo
+-
+>
+SetHttpsUpgradeTelemetry
+(
+nsILoadInfo
+:
+:
+WEB_EXTENSION_UPGRADE
+)
+;
 return
 NS_OK
 ;
