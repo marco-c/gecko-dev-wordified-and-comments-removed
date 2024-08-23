@@ -4136,6 +4136,8 @@ bool
 aWasExternallyTriggered
 bool
 aHasValidUserGestureActivation
+bool
+aNewWindowTarget
 )
 ;
 mozilla
