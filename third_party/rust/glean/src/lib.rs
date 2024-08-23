@@ -95,6 +95,7 @@ Error
 ErrorType
 Glean
 HistogramType
+LabeledMetricData
 Lifetime
 PingRateLimit
 RecordedExperiment

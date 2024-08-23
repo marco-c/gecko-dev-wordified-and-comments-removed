@@ -276,8 +276,11 @@ labeled
 {
 LabeledBoolean
 LabeledCounter
+LabeledCustomDistribution
+LabeledMemoryDistribution
 LabeledMetric
 LabeledString
+LabeledTimingDistribution
 }
 ;
 pub

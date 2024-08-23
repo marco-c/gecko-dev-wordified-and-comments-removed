@@ -81,7 +81,7 @@ MAX_LENGTH_VALUE
 :
 usize
 =
-100
+255
 ;
 #
 [
@@ -731,7 +731,7 @@ sample_string
 .
 repeat
 (
-11
+26
 )
 ;
 metric

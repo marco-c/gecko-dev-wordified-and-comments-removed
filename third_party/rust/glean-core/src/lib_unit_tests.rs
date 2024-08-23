@@ -5171,6 +5171,13 @@ LabeledString
 :
 new
 (
+LabeledMetricData
+:
+:
+Common
+{
+cmd
+:
 CommonMetricData
 {
 category
@@ -5212,6 +5219,7 @@ Default
 default
 (
 )
+}
 }
 Some
 (
