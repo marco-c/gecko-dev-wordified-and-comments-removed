@@ -187,6 +187,13 @@ js
 ]
 [
 "
+browser_aboutwelcome_multiselect
+.
+js
+"
+]
+[
+"
 browser_aboutwelcome_multistage_addonspicker
 .
 js
