@@ -2048,6 +2048,9 @@ StackTraces
 TelemetryClientId
 "
 "
+TelemetryProfileGroupId
+"
+"
 TelemetrySessionId
 "
 "

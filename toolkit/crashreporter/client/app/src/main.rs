@@ -445,6 +445,13 @@ TelemetryClientId
 telemetry_client
 "
 "
+TelemetryProfileGroupId
+"
+:
+"
+telemetry_profile_group
+"
+"
 TelemetrySessionId
 "
 :
