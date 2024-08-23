@@ -8630,6 +8630,16 @@ mClass
 ]
 ;
 }
+ClassID
+GetClassID
+(
+)
+const
+{
+return
+mClass
+;
+}
 ClassFlags
 GetClassFlags
 (
@@ -12775,6 +12785,7 @@ mozilla
 WritingMode
 mWritingMode
 ;
+const
 ClassID
 mClass
 ;
