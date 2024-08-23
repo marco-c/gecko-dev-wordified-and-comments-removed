@@ -79,14 +79,6 @@ android
 .
 graphics
 .
-Bitmap
-.
-Config
-import
-android
-.
-graphics
-.
 BitmapShader
 import
 android
@@ -303,9 +295,6 @@ withRoundedCorners
 cornerRadiusPx
 :
 Float
-config
-:
-Config
 )
 :
 Bitmap

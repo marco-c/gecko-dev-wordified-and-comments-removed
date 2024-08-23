@@ -242,14 +242,6 @@ Color
 .
 RED
 val
-config
-=
-Bitmap
-.
-Config
-.
-ARGB_8888
-val
 bitmap
 =
 Bitmap
@@ -258,7 +250,11 @@ createBitmap
 (
 dimen
 dimen
-config
+Bitmap
+.
+Config
+.
+ARGB_8888
 )
 .
 apply
@@ -276,7 +272,6 @@ bitmap
 withRoundedCorners
 (
 40f
-config
 )
 fun
 assertCornersAreTransparent
