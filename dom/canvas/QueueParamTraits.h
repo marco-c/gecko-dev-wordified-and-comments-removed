@@ -1328,7 +1328,7 @@ const
 auto
 e
 =
-AsEnumCase
+AsValidEnum
 <
 T
 >

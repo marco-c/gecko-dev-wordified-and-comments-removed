@@ -1651,6 +1651,10 @@ struct
 FontInstanceOptions
 {
 pub
+render_mode
+:
+FontRenderMode
+pub
 flags
 :
 FontInstanceFlags
@@ -1658,14 +1662,6 @@ pub
 synthetic_italics
 :
 SyntheticItalics
-pub
-render_mode
-:
-FontRenderMode
-pub
-_padding
-:
-u8
 }
 impl
 Default
@@ -1704,9 +1700,6 @@ SyntheticItalics
 disabled
 (
 )
-_padding
-:
-0
 }
 }
 }
