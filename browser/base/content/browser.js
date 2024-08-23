@@ -15079,7 +15079,12 @@ aIsSimulated
 closeOpenPanels
 (
 "
+:
+is
+(
 panel
+menupopup
+)
 [
 tabspecific
 =
