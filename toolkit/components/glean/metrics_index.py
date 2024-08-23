@@ -581,16 +581,6 @@ yaml
 "
     
 "
-dom
-/
-privateattribution
-/
-metrics
-.
-yaml
-"
-    
-"
 services
 /
 fxaccounts
@@ -666,20 +656,6 @@ toolkit
 components
 /
 shopping
-/
-metrics
-.
-yaml
-"
-    
-"
-toolkit
-/
-components
-/
-telemetry
-/
-dap
 /
 metrics
 .
