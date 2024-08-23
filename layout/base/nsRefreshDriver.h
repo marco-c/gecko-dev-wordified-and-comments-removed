@@ -1166,11 +1166,6 @@ aTask
 )
 ;
 void
-NotifyDOMContentLoaded
-(
-)
-;
-void
 RunDelayedEventsSoon
 (
 )
@@ -2084,11 +2079,6 @@ mSkippedPaints
 ;
 bool
 mResizeSuppressed
-:
-1
-;
-bool
-mNotifyDOMContentFlushed
 :
 1
 ;

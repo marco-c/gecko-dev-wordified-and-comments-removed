@@ -3234,11 +3234,6 @@ NotifyPaintStatusReset
 (
 )
 ;
-void
-NotifyDOMContentFlushed
-(
-)
-;
 bool
 HasEverBuiltInvisibleText
 (
