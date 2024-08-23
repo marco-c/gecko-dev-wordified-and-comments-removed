@@ -62,6 +62,9 @@ namespace
 gl
 {
 class
+EglDisplay
+;
+class
 GLLibraryEGL
 ;
 class
@@ -80,6 +83,16 @@ EGLSync
 mSync
 =
 0
+;
+const
+std
+:
+:
+weak_ptr
+<
+EglDisplay
+>
+mEglDisplay
 ;
 public
 :

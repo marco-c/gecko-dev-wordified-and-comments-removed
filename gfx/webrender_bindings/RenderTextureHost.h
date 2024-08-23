@@ -102,6 +102,9 @@ namespace
 wr
 {
 class
+RenderEGLImageTextureHost
+;
+class
 RenderAndroidHardwareBufferTextureHost
 ;
 class
@@ -364,6 +367,17 @@ virtual
 RenderMacIOSurfaceTextureHost
 *
 AsRenderMacIOSurfaceTextureHost
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+RenderEGLImageTextureHost
+*
+AsRenderEGLImageTextureHost
 (
 )
 {
