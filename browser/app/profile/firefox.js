@@ -3397,7 +3397,7 @@ fakespot
 .
 minKeywordLength
 "
-0
+4
 )
 ;
 pref

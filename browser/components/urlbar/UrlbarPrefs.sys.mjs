@@ -1291,7 +1291,7 @@ fakespot
 .
 minKeywordLength
 "
-0
+4
 ]
 /
 /
@@ -4485,7 +4485,7 @@ experimentType
 "
 fakespotMinKeywordLength
 :
-0
+null
 pocketShowLessFrequentlyCap
 :
 0
