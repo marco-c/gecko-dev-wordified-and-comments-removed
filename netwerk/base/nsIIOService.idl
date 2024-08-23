@@ -316,6 +316,17 @@ newWebTransport
 (
 )
 ;
+[
+implicit_jscontext
+]
+jsval
+originAttributesForNetworkState
+(
+in
+nsIChannel
+aChannel
+)
+;
 attribute
 boolean
 offline
