@@ -146,7 +146,10 @@ nsIPrincipal
 >
 aPrincipal
 const
+Maybe
+<
 nsID
+>
 &
 aClientId
 )

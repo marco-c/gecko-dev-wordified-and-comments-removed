@@ -1403,6 +1403,13 @@ js
 ]
 [
 "
+test_locks
+.
+js
+"
+]
+[
+"
 test_malformed_utf8
 .
 js

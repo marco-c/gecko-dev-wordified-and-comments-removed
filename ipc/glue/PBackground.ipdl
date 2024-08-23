@@ -1194,6 +1194,7 @@ PLockManager
 nsIPrincipal
 aPrincipalInfo
 nsID
+?
 aClientId
 )
 ;
