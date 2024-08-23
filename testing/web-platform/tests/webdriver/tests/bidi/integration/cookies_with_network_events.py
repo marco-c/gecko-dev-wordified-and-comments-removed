@@ -45,6 +45,13 @@ pytest
 mark
 .
 asyncio
+BEFORE_REQUEST_SENT_EVENT
+=
+"
+network
+.
+beforeRequestSent
+"
 PNG_BLACK_DOT
 =
 "
@@ -166,14 +173,6 @@ complete
 "
     
 )
-    
-BEFORE_REQUEST_SENT_EVENT
-=
-"
-network
-.
-beforeRequestSent
-"
     
 network_events
 =
@@ -428,14 +427,6 @@ complete
 "
     
 )
-    
-BEFORE_REQUEST_SENT_EVENT
-=
-"
-network
-.
-beforeRequestSent
-"
     
 network_events
 =
@@ -842,14 +833,6 @@ False
     
 )
     
-BEFORE_REQUEST_SENT_EVENT
-=
-"
-network
-.
-beforeRequestSent
-"
-    
 network_events
 =
 await
@@ -1114,14 +1097,6 @@ False
     
 )
     
-BEFORE_REQUEST_SENT_EVENT
-=
-"
-network
-.
-beforeRequestSent
-"
-    
 network_events
 =
 await
@@ -1217,16 +1192,6 @@ image_url
 )
 .
 path
-.
-replace
-(
-"
-/
-"
-os
-.
-sep
-)
 )
     
 result
