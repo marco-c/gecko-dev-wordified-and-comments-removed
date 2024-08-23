@@ -11981,7 +11981,7 @@ text
 ;
 }
 #
-isVisible
+isPositionVisible
 (
 cm
 line
@@ -12081,6 +12081,8 @@ withinBounds
 coords
 .
 left
++
+scrollLeft
 scrollLeft
 scrollLeft
 +
@@ -12094,6 +12096,8 @@ withinBounds
 coords
 .
 top
++
+scrollTop
 scrollTop
 scrollTop
 +
@@ -12466,7 +12470,7 @@ if
 this
 .
 #
-isVisible
+isPositionVisible
 (
 cm
 line
@@ -12580,7 +12584,7 @@ if
 this
 .
 #
-isVisible
+isPositionVisible
 (
 cm
 line
