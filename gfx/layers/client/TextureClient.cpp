@@ -1562,6 +1562,7 @@ webglTextureType
 TexTypeForWebgl
 (
 aKnowsCompositor
+true
 )
 ;
 if
