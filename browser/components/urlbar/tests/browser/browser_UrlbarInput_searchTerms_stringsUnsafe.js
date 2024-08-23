@@ -214,7 +214,7 @@ if
 (
 UrlbarPrefs
 .
-get
+getScotchBonnetPref
 (
 "
 trimHttps

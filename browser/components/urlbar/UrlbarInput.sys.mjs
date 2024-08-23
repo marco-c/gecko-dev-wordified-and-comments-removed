@@ -21040,7 +21040,7 @@ lazy
 .
 UrlbarPrefs
 .
-get
+getScotchBonnetPref
 (
 "
 untrimOnUserInteraction
@@ -24420,7 +24420,7 @@ lazy
 .
 UrlbarPrefs
 .
-get
+getScotchBonnetPref
 (
 "
 trimHttps

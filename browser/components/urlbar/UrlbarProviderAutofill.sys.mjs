@@ -5698,7 +5698,7 @@ lazy
 .
 UrlbarPrefs
 .
-get
+getScotchBonnetPref
 (
 "
 trimHttps
