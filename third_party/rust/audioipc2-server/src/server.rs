@@ -937,7 +937,7 @@ backend_name
 ;
 r
 .
-map_err
+inspect_err
 (
 |
 e
@@ -965,7 +965,6 @@ r
 e
 )
 ;
-e
 }
 )
 }
