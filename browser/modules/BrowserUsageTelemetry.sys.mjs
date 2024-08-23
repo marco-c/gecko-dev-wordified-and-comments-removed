@@ -5853,13 +5853,13 @@ extra
 =
 {
 source
-widgetId
+widget_id
 :
 telemetryId
 (
 widgetId
 )
-flowId
+flow_id
 :
 this
 .
