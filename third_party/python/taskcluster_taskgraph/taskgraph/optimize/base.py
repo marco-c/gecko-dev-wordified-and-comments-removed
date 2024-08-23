@@ -133,7 +133,9 @@ logging
 .
 getLogger
 (
-__name__
+"
+optimization
+"
 )
 registry
 =

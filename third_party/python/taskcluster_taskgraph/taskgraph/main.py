@@ -5773,6 +5773,13 @@ project_name
 root
 .
 name
+"
+taskgraph_version
+"
+:
+taskgraph
+.
+__version__
 }
     
 try
