@@ -117,6 +117,15 @@ webrender
 api
 :
 :
+BlobTilePool
+;
+use
+webrender
+:
+:
+api
+:
+:
 units
 :
 :
@@ -1106,6 +1115,11 @@ BlobImageParams
 _low_priority
 :
 bool
+_tile_pool
+:
+&
+mut
+BlobTilePool
 )
 -
 >
