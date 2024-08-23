@@ -885,7 +885,7 @@ FenixSnackbarDelegate
 (
 binding
 .
-dynamicSnackbarContainer
+root
 )
 navController
 =
@@ -930,9 +930,7 @@ make
 (
 view
 =
-binding
-.
-dynamicSnackbarContainer
+it
 duration
 =
 FenixSnackbar
