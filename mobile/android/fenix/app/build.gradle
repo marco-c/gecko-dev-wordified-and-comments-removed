@@ -7049,10 +7049,6 @@ installreferrer
 Required
 by
 Adjust
-implementation
-FenixDependencies
-.
-google_ads_id
 /
 /
 Required
@@ -7061,6 +7057,10 @@ the
 Google
 Advertising
 ID
+implementation
+ComponentsDependencies
+.
+play_services_ads_id
 /
 /
 Required
