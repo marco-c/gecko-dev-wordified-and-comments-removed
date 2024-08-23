@@ -200,7 +200,7 @@ sInitialized
 ;
 }
 static
-void
+nsresult
 Init
 (
 nsIFile
@@ -400,7 +400,7 @@ aResult
 private
 :
 static
-void
+nsresult
 InitOne
 (
 nsIFile
