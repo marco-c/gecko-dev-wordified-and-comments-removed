@@ -2223,9 +2223,10 @@ transport
 )
 independent_frame_ids_
 (
+!
 field_trials_
 .
-IsEnabled
+IsDisabled
 (
 "
 WebRTC
