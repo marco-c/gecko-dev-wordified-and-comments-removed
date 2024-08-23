@@ -411,6 +411,13 @@ js
 ]
 [
 "
+browser_translations_full_page_telemetry_retranslate
+.
+js
+"
+]
+[
+"
 browser_translations_full_page_telemetry_switch_languages
 .
 js
