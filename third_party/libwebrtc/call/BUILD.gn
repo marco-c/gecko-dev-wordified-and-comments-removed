@@ -3945,6 +3945,16 @@ metric
 /
 api
 /
+units
+:
+data_rate
+"
+"
+.
+.
+/
+api
+/
 video
 :
 builtin_video_bitrate_allocator_factory

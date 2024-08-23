@@ -91,16 +91,11 @@ sim_config
 ;
 sim_config
 .
-link_capacity_kbps
+link_capacity
 =
 config
 .
 bandwidth
-.
-kbps_or
-(
-0
-)
 ;
 sim_config
 .
