@@ -112,6 +112,9 @@ pb_newtab
 toast_notification
 :
 3
+bookmarks_bar_button
+:
+1
 }
 ;
 const
