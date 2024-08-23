@@ -109,6 +109,11 @@ isPrimary
 =
 false
 ;
+long
+persistentDeviceId
+=
+0
+;
 sequence
 <
 PointerEvent
@@ -210,6 +215,11 @@ readonly
 attribute
 boolean
 isPrimary
+;
+readonly
+attribute
+long
+persistentDeviceId
 ;
 [
 SecureContext

@@ -623,8 +623,6 @@ prepend
 (
 Node
 or
-TrustedScript
-or
 DOMString
 )
 .
@@ -643,8 +641,6 @@ append
 (
 Node
 or
-TrustedScript
-or
 DOMString
 )
 .
@@ -662,8 +658,6 @@ replaceChildren
 (
 (
 Node
-or
-TrustedScript
 or
 DOMString
 )
@@ -745,8 +739,6 @@ before
 (
 Node
 or
-TrustedScript
-or
 DOMString
 )
 .
@@ -765,8 +757,6 @@ after
 (
 Node
 or
-TrustedScript
-or
 DOMString
 )
 .
@@ -784,8 +774,6 @@ replaceWith
 (
 (
 Node
-or
-TrustedScript
 or
 DOMString
 )

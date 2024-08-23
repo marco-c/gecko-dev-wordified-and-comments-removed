@@ -61,14 +61,6 @@ loading
 3
 /
 )
-typedef
-(
-ArrayBuffer
-or
-ArrayBufferView
-)
-BinaryData
-;
 dictionary
 FontFaceDescriptors
 {
@@ -183,7 +175,7 @@ family
 (
 CSSOMString
 or
-BinaryData
+BufferSource
 )
 source
 optional

@@ -80,5 +80,11 @@ DOMString
 ?
 reason
 ;
+readonly
+attribute
+DOMString
+?
+stack
+;
 }
 ;
