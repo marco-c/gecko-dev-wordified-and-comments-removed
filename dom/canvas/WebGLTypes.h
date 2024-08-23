@@ -1336,6 +1336,11 @@ WebGLPowerPreference
 Default
 ;
 bool
+forceSoftwareRendering
+=
+false
+;
+bool
 shouldResistFingerprinting
 =
 true
@@ -1344,6 +1349,13 @@ bool
 enableDebugRendererInfo
 =
 false
+;
+PaddingField
+<
+bool
+7
+>
+_padding
 ;
 auto
 MutTiedFields
@@ -1365,8 +1377,10 @@ preserveDrawingBuffer
 failIfMajorPerformanceCaveat
 xrCompatible
 powerPreference
+forceSoftwareRendering
 shouldResistFingerprinting
 enableDebugRendererInfo
+_padding
 )
 ;
 }
