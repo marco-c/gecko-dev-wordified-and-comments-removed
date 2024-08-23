@@ -84105,6 +84105,7 @@ wgc
 >
 SendGetStorageAccessPermission
 (
+true
 )
 ;
 MOZ_ASSERT

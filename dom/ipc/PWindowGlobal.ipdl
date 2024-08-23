@@ -831,6 +831,8 @@ rv
 async
 GetStorageAccessPermission
 (
+bool
+aIncludeIdentityCredential
 )
 returns
 (

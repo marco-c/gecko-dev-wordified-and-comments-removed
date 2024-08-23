@@ -1566,6 +1566,8 @@ ipc
 IPCResult
 RecvGetStorageAccessPermission
 (
+bool
+aIncludeIdentityCredential
 GetStorageAccessPermissionResolver
 &
 &
