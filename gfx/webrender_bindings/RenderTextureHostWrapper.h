@@ -146,6 +146,13 @@ AsRenderAndroidSurfaceTextureHost
 )
 override
 ;
+RenderEGLImageTextureHost
+*
+AsRenderEGLImageTextureHost
+(
+)
+override
+;
 RenderTextureHostSWGL
 *
 AsRenderTextureHostSWGL
