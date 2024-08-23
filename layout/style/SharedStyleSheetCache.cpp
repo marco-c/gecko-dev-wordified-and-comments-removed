@@ -1045,10 +1045,10 @@ baseDomain
 }
 if
 (
-sInstance
+sSingleton
 )
 {
-sInstance
+sSingleton
 -
 >
 ClearInProcess
