@@ -579,6 +579,15 @@ StyleSize
 Tag
 :
 :
+WebkitFillAvailable
+:
+case
+StyleSize
+:
+:
+Tag
+:
+:
 Stretch
 :
 case

@@ -11758,6 +11758,15 @@ SizeOrMaxSize
 Tag
 :
 :
+WebkitFillAvailable
+:
+case
+SizeOrMaxSize
+:
+:
+Tag
+:
+:
 Stretch
 :
 return
