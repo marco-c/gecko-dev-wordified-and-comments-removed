@@ -78,6 +78,12 @@ None
 do2fa
 =
 False
+    
+log_level
+=
+"
+INFO
+"
 )
 :
     
@@ -259,6 +265,18 @@ port
 "
                 
 webdriver_ws_port
+                
+"
+-
+-
+webdriver
+-
+log
+-
+level
+"
+                
+log_level
             
 ]
             
@@ -908,6 +926,46 @@ run
 WebDriver
 BiDi
 websocket
+"
+        
+)
+        
+parser
+.
+addoption
+(
+            
+"
+-
+-
+webdriver
+-
+log
+-
+level
+"
+            
+action
+=
+"
+store
+"
+            
+default
+=
+"
+INFO
+"
+            
+help
+=
+"
+Log
+level
+to
+use
+for
+WebDriver
 "
         
 )

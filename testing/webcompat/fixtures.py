@@ -200,7 +200,7 @@ webdriver_port
         
 self
 .
-wsPort
+ws_port
 =
 config
 .
@@ -208,6 +208,19 @@ getoption
 (
 "
 webdriver_ws_port
+"
+)
+        
+self
+.
+log_level
+=
+config
+.
+getoption
+(
+"
+webdriver_log_level
 "
 )
         
@@ -221,6 +234,19 @@ getoption
 (
 "
 headless
+"
+)
+        
+self
+.
+debug
+=
+config
+.
+getoption
+(
+"
+debug
 "
 )
         
@@ -316,7 +342,8 @@ self
 )
 :
         
-return
+rv
+=
 [
             
 self
@@ -348,15 +375,50 @@ str
 (
 self
 .
-wsPort
+ws_port
 )
+        
+]
+        
+if
+self
+.
+debug
+:
             
+rv
+.
+append
+(
 "
 -
 vv
 "
+)
         
-]
+elif
+self
+.
+log_level
+=
+=
+"
+DEBUG
+"
+:
+            
+rv
+.
+append
+(
+"
+-
+v
+"
+)
+        
+return
+rv
     
 def
 capabilities
