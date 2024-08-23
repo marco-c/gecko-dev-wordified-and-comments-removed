@@ -32758,7 +32758,10 @@ ePaste
 :
 ePasteNoFormatting
 true
+Some
+(
 aClipboardType
+)
 )
 ;
 }
