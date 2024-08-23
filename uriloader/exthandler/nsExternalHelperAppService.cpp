@@ -6704,9 +6704,11 @@ dummyFile
 ;
 rv
 =
-NS_GetSpecialDirectory
+mTempFile
+-
+>
+Clone
 (
-NS_OS_TEMP_DIR
 getter_AddRefs
 (
 dummyFile
