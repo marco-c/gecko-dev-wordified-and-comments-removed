@@ -451,7 +451,7 @@ icons
 implementation
 ComponentsDependencies
 .
-androidx_activity_compose
+androidx_activity
 implementation
 ComponentsDependencies
 .

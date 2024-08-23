@@ -6922,9 +6922,9 @@ androidx_compose_ui_tooling
 implementation
 ComponentsDependencies
 .
-androidx_activity_compose
+androidx_activity
 implementation
-FenixDependencies
+ComponentsDependencies
 .
 androidx_activity_ktx
 implementation

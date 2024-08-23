@@ -1926,6 +1926,10 @@ androidx_compose_bom
 implementation
 ComponentsDependencies
 .
+androidx_activity
+implementation
+ComponentsDependencies
+.
 androidx_appcompat
 implementation
 ComponentsDependencies

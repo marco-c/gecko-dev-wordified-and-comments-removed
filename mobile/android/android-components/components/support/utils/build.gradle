@@ -157,6 +157,10 @@ kotlin_coroutines
 implementation
 ComponentsDependencies
 .
+androidx_activity
+implementation
+ComponentsDependencies
+.
 androidx_annotation
 implementation
 ComponentsDependencies

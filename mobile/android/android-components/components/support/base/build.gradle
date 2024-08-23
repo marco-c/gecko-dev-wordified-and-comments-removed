@@ -444,6 +444,10 @@ kotlin_coroutines
 implementation
 ComponentsDependencies
 .
+androidx_activity
+implementation
+ComponentsDependencies
+.
 androidx_core_ktx
 implementation
 ComponentsDependencies
