@@ -594,7 +594,7 @@ gradle
 /
 dotgradle
 -
-online
+offline
 "
             
 )
