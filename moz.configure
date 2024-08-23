@@ -2272,12 +2272,6 @@ dependable
 (
 False
 )
-moz_linker
-=
-dependable
-(
-False
-)
 fold_libs
 =
 dependable
@@ -4599,7 +4593,6 @@ zlib
 depends
 (
 with_system_zlib_option
-moz_linker
 target
 .
 os
@@ -4608,7 +4601,6 @@ def
 zlib_in_mozglue
 (
 system_zlib
-linker
 os
 )
 :
@@ -4616,16 +4608,12 @@ if
 not
 system_zlib
 and
-(
-linker
-or
 os
 =
 =
 "
 Android
 "
-)
 :
 return
 True
