@@ -215,15 +215,6 @@ browser_search_telemetry_categorization_experiment_info
 js
 "
 ]
-skip
--
-if
-=
-[
-"
-artifact
-"
-]
 support
 -
 files
