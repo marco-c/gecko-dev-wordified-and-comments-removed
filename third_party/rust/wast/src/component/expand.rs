@@ -2935,11 +2935,13 @@ match
 ty
 .
 def
+.
+kind
 {
 core
 :
 :
-TypeDef
+InnerTypeKind
 :
 :
 Func
@@ -2989,7 +2991,7 @@ id
 core
 :
 :
-TypeDef
+InnerTypeKind
 :
 :
 Struct
@@ -3003,7 +3005,7 @@ _
 core
 :
 :
-TypeDef
+InnerTypeKind
 :
 :
 Array

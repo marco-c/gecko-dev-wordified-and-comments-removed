@@ -293,8 +293,10 @@ mut
 ty
 .
 def
+.
+kind
 {
-TypeDef
+InnerTypeKind
 :
 :
 Func
@@ -323,7 +325,7 @@ id
 )
 ;
 }
-TypeDef
+InnerTypeKind
 :
 :
 Array
@@ -331,7 +333,7 @@ Array
 _
 )
 |
-TypeDef
+InnerTypeKind
 :
 :
 Struct
@@ -1652,6 +1654,10 @@ a
 >
 {
 TypeDef
+{
+kind
+:
+InnerTypeKind
 :
 :
 Func
@@ -1695,6 +1701,10 @@ clone
 )
 }
 )
+shared
+:
+false
+}
 }
 fn
 insert

@@ -1,6 +1,10 @@
 mod
 alias
 ;
+pub
+(
+crate
+)
 mod
 binary
 ;
