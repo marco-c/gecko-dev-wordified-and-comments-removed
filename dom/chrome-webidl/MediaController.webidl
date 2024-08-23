@@ -277,11 +277,15 @@ nextTrack
 undefined
 seekBackward
 (
+double
+seekOffset
 )
 ;
 undefined
 seekForward
 (
+double
+seekOffset
 )
 ;
 undefined
