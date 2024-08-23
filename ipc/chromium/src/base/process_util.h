@@ -728,13 +728,6 @@ InitForkServerProcess
 (
 )
 ;
-void
-RegisterForkServerNoCloseFD
-(
-int
-aFd
-)
-;
 #
 endif
 bool

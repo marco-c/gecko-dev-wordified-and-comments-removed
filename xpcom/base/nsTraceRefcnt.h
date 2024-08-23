@@ -57,7 +57,13 @@ ifdef
 MOZ_ENABLE_FORKSERVER
 static
 void
-ResetLogFiles
+CloseLogFilesAfterFork
+(
+)
+;
+static
+void
+ReopenLogFilesAfterFork
 (
 const
 char

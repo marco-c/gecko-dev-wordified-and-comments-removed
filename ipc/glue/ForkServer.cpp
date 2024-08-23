@@ -1641,6 +1641,13 @@ forkserver
 mAppProcBuilder
 )
 ;
+nsTraceRefcnt
+:
+:
+CloseLogFilesAfterFork
+(
+)
+;
 forkserver
 .
 mAppProcBuilder
@@ -1663,7 +1670,7 @@ reset
 nsTraceRefcnt
 :
 :
-ResetLogFiles
+ReopenLogFilesAfterFork
 (
 (
 *
