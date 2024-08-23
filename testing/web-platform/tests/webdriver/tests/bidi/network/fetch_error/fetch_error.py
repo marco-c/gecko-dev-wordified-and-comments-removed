@@ -52,7 +52,7 @@ bidi_session
     
 subscribe_events
     
-top_context
+new_tab
     
 wait_for_event
     
@@ -84,7 +84,7 @@ navigate
         
 context
 =
-top_context
+new_tab
 [
 "
 context
@@ -151,6 +151,9 @@ ensure_future
 fetch
 (
 PAGE_INVALID_URL
+context
+=
+new_tab
 )
 )
     
@@ -225,6 +228,9 @@ ensure_future
 fetch
 (
 PAGE_INVALID_URL
+context
+=
+new_tab
 )
 )
     
@@ -260,6 +266,8 @@ def
 test_aborted_request
 (
     
+new_tab
+    
 wait_for_event
     
 wait_for_future_safe
@@ -277,11 +285,21 @@ network_events
 await
 setup_network_test
 (
+        
 events
 =
 [
 FETCH_ERROR_EVENT
 ]
+context
+=
+new_tab
+[
+"
+context
+"
+]
+    
 )
     
 events
@@ -333,13 +351,18 @@ asyncio
 .
 ensure_future
 (
+        
 fetch
 (
 PAGE_INVALID_URL
+context
+=
+new_tab
 timeout_in_seconds
 =
 0
 )
+    
 )
     
 fetch_error_event
@@ -361,7 +384,7 @@ test_iframe_load
     
 bidi_session
     
-top_context
+new_tab
     
 setup_network_test
     
@@ -374,11 +397,21 @@ network_events
 await
 setup_network_test
 (
+        
 events
 =
 [
 FETCH_ERROR_EVENT
 ]
+context
+=
+new_tab
+[
+"
+context
+"
+]
+    
 )
     
 events
@@ -398,7 +431,7 @@ navigate
         
 context
 =
-top_context
+new_tab
 [
 "
 context
@@ -468,7 +501,7 @@ get_tree
 (
 root
 =
-top_context
+new_tab
 [
 "
 context
@@ -540,7 +573,7 @@ test_navigation_id
     
 bidi_session
     
-top_context
+new_tab
     
 wait_for_event
     
@@ -562,6 +595,14 @@ events
 [
 FETCH_ERROR_EVENT
 ]
+context
+=
+new_tab
+[
+"
+context
+"
+]
 )
     
 on_fetch_error
@@ -578,6 +619,9 @@ ensure_future
 fetch
 (
 PAGE_INVALID_URL
+context
+=
+new_tab
 )
 )
     
@@ -646,7 +690,7 @@ navigate
         
 context
 =
-top_context
+new_tab
 [
 "
 context
@@ -796,6 +840,8 @@ test_request_method
     
 bidi_session
     
+new_tab
+    
 wait_for_event
     
 wait_for_future_safe
@@ -815,11 +861,21 @@ network_events
 await
 setup_network_test
 (
+        
 events
 =
 [
 FETCH_ERROR_EVENT
 ]
+context
+=
+new_tab
+[
+"
+context
+"
+]
+    
 )
     
 events
@@ -836,6 +892,9 @@ ensure_future
 fetch
 (
 PAGE_INVALID_URL
+context
+=
+new_tab
 method
 =
 method
@@ -967,6 +1026,7 @@ test_redirect_fetch
 (
     
 bidi_session
+new_tab
 wait_for_event
 url
 fetch
@@ -1016,6 +1076,15 @@ FETCH_ERROR_EVENT
 RESPONSE_COMPLETED_EVENT
         
 ]
+        
+context
+=
+new_tab
+[
+"
+context
+"
+]
     
 )
     
@@ -1040,6 +1109,9 @@ ensure_future
 fetch
 (
 redirect_url
+context
+=
+new_tab
 )
 )
     
@@ -1166,7 +1238,7 @@ test_redirect_navigation
 (
     
 bidi_session
-top_context
+new_tab
 wait_for_event
 url
 setup_network_test
@@ -1215,6 +1287,15 @@ FETCH_ERROR_EVENT
 RESPONSE_COMPLETED_EVENT
         
 ]
+        
+context
+=
+new_tab
+[
+"
+context
+"
+]
     
 )
     
@@ -1244,7 +1325,7 @@ navigate
         
 context
 =
-top_context
+new_tab
 [
 "
 context

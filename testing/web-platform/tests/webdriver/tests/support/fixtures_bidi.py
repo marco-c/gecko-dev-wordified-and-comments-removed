@@ -3773,7 +3773,7 @@ url
 "
 Navigate
 the
-current
+provided
 top
 level
 context
@@ -3786,8 +3786,46 @@ subscribe
     
 to
 network
+events
+for
+the
+provided
+set
+of
+contexts
 .
-beforeRequestSent
+    
+By
+default
+the
+test
+context
+is
+top_context
+[
+"
+context
+"
+]
+test_url
+is
+    
+empty
+.
+html
+and
+contexts
+is
+None
+(
+meaning
+we
+will
+subscribe
+to
+all
+contexts
+)
 .
     
 Returns
@@ -3848,7 +3886,9 @@ async
 def
 _setup_network_test
 (
+        
 events
+        
 test_url
 =
 url
@@ -3870,9 +3910,20 @@ empty
 html
 "
 )
+        
+context
+=
+top_context
+[
+"
+context
+"
+]
+        
 contexts
 =
 None
+    
 )
 :
         
@@ -3899,12 +3950,7 @@ responseCompleted
 contexts
 =
 [
-top_context
-[
-"
 context
-"
-]
 ]
         
 )
@@ -3930,12 +3976,7 @@ navigate
             
 context
 =
-top_context
-[
-"
 context
-"
-]
             
 url
 =
@@ -3975,12 +4016,7 @@ responseCompleted
 contexts
 =
 [
-top_context
-[
-"
 context
-"
-]
 ]
         
 )
