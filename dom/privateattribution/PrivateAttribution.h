@@ -128,6 +128,12 @@ ErrorResult
 ;
 private
 :
+static
+bool
+ShouldRecord
+(
+)
+;
 [
 [
 nodiscard
