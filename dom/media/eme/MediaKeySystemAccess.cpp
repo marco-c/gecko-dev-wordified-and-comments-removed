@@ -5244,7 +5244,7 @@ aRequest
 -
 >
 mKeySystem
-aIsPrivateBrowsing
+isHardwareDecryptionRequest
 aDocument
 )
 )
