@@ -668,15 +668,6 @@ evt
 .
 pageY
 ;
-evt
-.
-target
-.
-setCapture
-(
-false
-)
-;
 type
 =
 "
