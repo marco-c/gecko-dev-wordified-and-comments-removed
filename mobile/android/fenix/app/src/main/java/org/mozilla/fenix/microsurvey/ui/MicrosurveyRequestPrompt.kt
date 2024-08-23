@@ -583,6 +583,10 @@ modifier
 =
 Modifier
 .
+fillMaxWidth
+(
+)
+.
 background
 (
 color
