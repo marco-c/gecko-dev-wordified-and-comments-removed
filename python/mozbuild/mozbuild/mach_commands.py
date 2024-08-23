@@ -17031,6 +17031,14 @@ for
 developer
 testing
 "
+    
+virtualenv_name
+=
+"
+repackage
+-
+snap
+"
 )
 CommandArgument
 (
@@ -18027,6 +18035,12 @@ snappath
 =
 repackage_snap
 (
+        
+log
+=
+command_context
+.
+log
         
 srcdir
 =

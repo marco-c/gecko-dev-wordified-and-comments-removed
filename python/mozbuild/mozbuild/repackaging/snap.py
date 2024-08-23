@@ -27,9 +27,9 @@ snapcraft_transform
 import
 (
     
-DesktopFileTransform
-    
 SnapcraftTransform
+    
+SnapDesktopFile
 )
 UPSTREAM
 =
@@ -98,6 +98,8 @@ py
 def
 repackage_snap
 (
+    
+log
     
 srcdir
     
@@ -353,32 +355,6 @@ snapdir
     
 )
     
-source_desktop
-=
-os
-.
-path
-.
-join
-(
-        
-srcdir
-"
-taskcluster
-/
-docker
-/
-firefox
--
-snap
-/
-firefox
-.
-desktop
-"
-    
-)
-    
 with
 open
 (
@@ -408,16 +384,15 @@ desktop_file
 write
 (
             
-DesktopFileTransform
+SnapDesktopFile
 (
-source_desktop
-icon
+log
+appname
 =
-"
-default256
-.
-png
-"
+appname
+branchname
+=
+branchname
 )
 .
 repack
