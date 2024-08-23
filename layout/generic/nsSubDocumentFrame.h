@@ -443,6 +443,12 @@ GetSubdocumentSize
 )
 ;
 bool
+ContentReactsToPointerEvents
+(
+)
+const
+;
+bool
 ReflowFinished
 (
 )

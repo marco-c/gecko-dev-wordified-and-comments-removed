@@ -306,6 +306,12 @@ return
 mRewrittenYoutubeEmbed
 ;
 }
+bool
+IsSyntheticImageDocument
+(
+)
+const
+;
 const
 mozilla
 :
@@ -792,11 +798,6 @@ mScriptRequested
 ;
 bool
 mRewrittenYoutubeEmbed
-:
-1
-;
-bool
-mLoadingSyntheticDocument
 :
 1
 ;
