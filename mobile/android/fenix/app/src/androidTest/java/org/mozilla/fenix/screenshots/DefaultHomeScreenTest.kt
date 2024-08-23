@@ -220,6 +220,9 @@ HomeActivity
 =
 HomeActivityTestRule
 (
+isNavigationBarCFREnabled
+=
+false
 )
 Before
 fun
