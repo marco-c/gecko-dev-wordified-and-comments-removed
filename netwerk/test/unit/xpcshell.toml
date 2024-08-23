@@ -1492,6 +1492,13 @@ android
 ]
 [
 "
+test_bug1913022
+.
+js
+"
+]
+[
+"
 test_cache
 -
 control_request
