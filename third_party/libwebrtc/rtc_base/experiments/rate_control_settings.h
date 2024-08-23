@@ -261,12 +261,6 @@ RateControlSettings
 (
 )
 ;
-static
-RateControlSettings
-ParseFromFieldTrials
-(
-)
-;
 bool
 UseCongestionWindow
 (
