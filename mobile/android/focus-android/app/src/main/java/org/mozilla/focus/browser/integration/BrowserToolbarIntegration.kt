@@ -812,6 +812,9 @@ invoke
 store
 =
 store
+showMaskInPrivateMode
+=
+false
 )
 VisibleForTesting
 internal
