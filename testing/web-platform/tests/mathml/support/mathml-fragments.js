@@ -1531,7 +1531,7 @@ this
 createElement
 (
 "
-mtext
+mi
 "
 )
 ;
