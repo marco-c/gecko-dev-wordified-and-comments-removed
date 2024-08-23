@@ -1857,6 +1857,11 @@ mId
 =
 0
 ;
+bool
+mOnlyForOverlay
+=
+false
+;
 static
 GpuProcessQueryId
 GetNext

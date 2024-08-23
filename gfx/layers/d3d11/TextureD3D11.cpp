@@ -3316,6 +3316,8 @@ RefPtr
 ID3D11Query
 >
 aQuery
+bool
+aOnlyForOverlay
 )
 {
 MOZ_ASSERT
@@ -3371,6 +3373,16 @@ GetNext
 )
 ;
 }
+mGpuProcessQueryId
+.
+ref
+(
+)
+.
+mOnlyForOverlay
+=
+aOnlyForOverlay
+;
 GpuProcessD3D11QueryMap
 :
 :
