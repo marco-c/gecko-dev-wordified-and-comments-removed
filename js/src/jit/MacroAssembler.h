@@ -5583,7 +5583,12 @@ Imm64
 val
 Label
 *
-label
+success
+Label
+*
+fail
+=
+nullptr
 )
 PER_ARCH
 ;
@@ -5601,7 +5606,12 @@ Register64
 rhs
 Label
 *
-label
+success
+Label
+*
+fail
+=
+nullptr
 )
 PER_ARCH
 ;

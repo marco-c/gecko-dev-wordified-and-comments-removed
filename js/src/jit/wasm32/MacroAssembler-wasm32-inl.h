@@ -5109,7 +5109,10 @@ Imm64
 val
 Label
 *
-label
+success
+Label
+*
+fail
 )
 {
 MOZ_CRASH
@@ -5133,7 +5136,10 @@ Register64
 rhs
 Label
 *
-label
+success
+Label
+*
+fail
 )
 {
 MOZ_CRASH
