@@ -317,9 +317,6 @@ class
 ResourceListenerDelegate
 :
 public
-rtc
-:
-:
 RefCountInterface
 public
 ResourceListener

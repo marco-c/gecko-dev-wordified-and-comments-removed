@@ -27497,9 +27497,6 @@ const
 0
 ;
 virtual
-rtc
-:
-:
 RefCountReleaseStatus
 Release
 (

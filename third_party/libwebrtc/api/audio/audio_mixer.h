@@ -36,9 +36,6 @@ class
 AudioMixer
 :
 public
-rtc
-:
-:
 RefCountInterface
 {
 public

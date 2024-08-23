@@ -116,6 +116,9 @@ private
 :
 friend
 class
+webrtc
+:
+:
 FinalRefCountedObject
 <
 Flag

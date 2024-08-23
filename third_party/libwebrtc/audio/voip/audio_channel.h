@@ -108,9 +108,6 @@ class
 AudioChannel
 :
 public
-rtc
-:
-:
 RefCountInterface
 {
 public

@@ -74,9 +74,6 @@ class
 AudioEncoderFactory
 :
 public
-rtc
-:
-:
 RefCountInterface
 {
 public

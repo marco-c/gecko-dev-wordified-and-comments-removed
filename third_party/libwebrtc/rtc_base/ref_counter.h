@@ -65,9 +65,6 @@ memory_order_relaxed
 )
 ;
 }
-rtc
-:
-:
 RefCountReleaseStatus
 DecRef
 (
@@ -95,16 +92,10 @@ ref_count_after_subtract
 =
 0
 ?
-rtc
-:
-:
 RefCountReleaseStatus
 :
 :
 kDroppedLastRef
-:
-rtc
-:
 :
 RefCountReleaseStatus
 :

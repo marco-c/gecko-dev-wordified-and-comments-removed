@@ -75,9 +75,6 @@ kI420
 return
 static_cast
 <
-rtc
-:
-:
 RefCountedObject
 <
 I420Buffer
@@ -111,9 +108,6 @@ kI444
 return
 static_cast
 <
-rtc
-:
-:
 RefCountedObject
 <
 I444Buffer
@@ -147,9 +141,6 @@ kI422
 return
 static_cast
 <
-rtc
-:
-:
 RefCountedObject
 <
 I422Buffer
@@ -183,9 +174,6 @@ kI010
 return
 static_cast
 <
-rtc
-:
-:
 RefCountedObject
 <
 I010Buffer
@@ -219,9 +207,6 @@ kI210
 return
 static_cast
 <
-rtc
-:
-:
 RefCountedObject
 <
 I210Buffer
@@ -255,9 +240,6 @@ kI410
 return
 static_cast
 <
-rtc
-:
-:
 RefCountedObject
 <
 I410Buffer
@@ -291,9 +273,6 @@ kNV12
 return
 static_cast
 <
-rtc
-:
-:
 RefCountedObject
 <
 NV12Buffer
@@ -602,9 +581,6 @@ if
 existing_buffer
 )
 {
-rtc
-:
-:
 RefCountedObject
 <
 I420Buffer
@@ -614,9 +590,6 @@ raw_buffer
 =
 static_cast
 <
-rtc
-:
-:
 RefCountedObject
 <
 I420Buffer
@@ -752,9 +725,6 @@ if
 existing_buffer
 )
 {
-rtc
-:
-:
 RefCountedObject
 <
 I444Buffer
@@ -764,9 +734,6 @@ raw_buffer
 =
 static_cast
 <
-rtc
-:
-:
 RefCountedObject
 <
 I444Buffer
@@ -902,9 +869,6 @@ if
 existing_buffer
 )
 {
-rtc
-:
-:
 RefCountedObject
 <
 I422Buffer
@@ -914,9 +878,6 @@ raw_buffer
 =
 static_cast
 <
-rtc
-:
-:
 RefCountedObject
 <
 I422Buffer
@@ -1052,9 +1013,6 @@ if
 existing_buffer
 )
 {
-rtc
-:
-:
 RefCountedObject
 <
 NV12Buffer
@@ -1064,9 +1022,6 @@ raw_buffer
 =
 static_cast
 <
-rtc
-:
-:
 RefCountedObject
 <
 NV12Buffer
@@ -1202,9 +1157,6 @@ if
 existing_buffer
 )
 {
-rtc
-:
-:
 RefCountedObject
 <
 I010Buffer
@@ -1214,9 +1166,6 @@ raw_buffer
 =
 static_cast
 <
-rtc
-:
-:
 RefCountedObject
 <
 I010Buffer
@@ -1338,9 +1287,6 @@ if
 existing_buffer
 )
 {
-rtc
-:
-:
 RefCountedObject
 <
 I210Buffer
@@ -1350,9 +1296,6 @@ raw_buffer
 =
 static_cast
 <
-rtc
-:
-:
 RefCountedObject
 <
 I210Buffer
@@ -1474,9 +1417,6 @@ if
 existing_buffer
 )
 {
-rtc
-:
-:
 RefCountedObject
 <
 I410Buffer
@@ -1486,9 +1426,6 @@ raw_buffer
 =
 static_cast
 <
-rtc
-:
-:
 RefCountedObject
 <
 I410Buffer

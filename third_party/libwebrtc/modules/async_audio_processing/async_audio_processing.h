@@ -59,9 +59,6 @@ class
 Factory
 :
 public
-rtc
-:
-:
 RefCountInterface
 {
 public

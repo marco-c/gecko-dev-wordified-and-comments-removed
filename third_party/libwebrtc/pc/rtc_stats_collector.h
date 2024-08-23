@@ -308,9 +308,6 @@ class
 RTCStatsCollector
 :
 public
-rtc
-:
-:
 RefCountInterface
 {
 public

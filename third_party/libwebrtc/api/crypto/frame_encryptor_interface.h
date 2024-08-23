@@ -38,9 +38,6 @@ class
 FrameEncryptorInterface
 :
 public
-rtc
-:
-:
 RefCountInterface
 {
 public

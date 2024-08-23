@@ -100,9 +100,6 @@ class
 FakeInterface
 :
 public
-rtc
-:
-:
 RefCountInterface
 {
 public

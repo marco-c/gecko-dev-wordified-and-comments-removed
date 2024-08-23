@@ -349,9 +349,6 @@ if
 status
 =
 =
-rtc
-:
-:
 RefCountReleaseStatus
 :
 :

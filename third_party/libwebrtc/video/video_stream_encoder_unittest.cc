@@ -1211,9 +1211,6 @@ private
 :
 friend
 class
-rtc
-:
-:
 RefCountedObject
 <
 TestBuffer
@@ -1390,9 +1387,6 @@ private
 :
 friend
 class
-rtc
-:
-:
 RefCountedObject
 <
 FakeNativeBuffer
@@ -1625,9 +1619,6 @@ private
 :
 friend
 class
-rtc
-:
-:
 RefCountedObject
 <
 FakeNV12NativeBuffer
