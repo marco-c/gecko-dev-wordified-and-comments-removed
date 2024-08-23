@@ -249,6 +249,7 @@ descriptorFront
 watcherFront
 waitForRequestsToSettle
 (
+options
 )
 {
 return
@@ -258,6 +259,7 @@ client
 .
 waitForRequestsToSettle
 (
+options
 )
 ;
 }
