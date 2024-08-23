@@ -7009,7 +7009,7 @@ FenixDependencies
 .
 androidx_core_splashscreen
 implementation
-FenixDependencies
+ComponentsDependencies
 .
 androidx_transition
 implementation

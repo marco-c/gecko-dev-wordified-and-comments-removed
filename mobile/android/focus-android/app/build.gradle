@@ -1993,7 +1993,7 @@ FocusDependencies
 .
 androidx_splashscreen
 implementation
-FocusDependencies
+ComponentsDependencies
 .
 androidx_transition
 implementation
