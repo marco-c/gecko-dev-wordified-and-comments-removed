@@ -916,7 +916,7 @@ searchQuery
 secondaryActionClass
 =
 "
-dismiss
+delete
 -
 button
 "
