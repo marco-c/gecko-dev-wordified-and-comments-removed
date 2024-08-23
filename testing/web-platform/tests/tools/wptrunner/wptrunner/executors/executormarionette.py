@@ -1647,7 +1647,7 @@ loaded
 Hereby
 ignore
 Javascript
-execptions
+exceptions
 that
 are
 thrown
@@ -1698,8 +1698,27 @@ except
 errors
 .
 JavascriptException
+as
+e
 :
                 
+if
+e
+.
+message
+.
+startswith
+(
+"
+Script
+evaluation
+aborted
+:
+Actor
+"
+)
+:
+                    
 pass
 class
 MarionettePrefsProtocolPart
