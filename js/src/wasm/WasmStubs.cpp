@@ -13589,6 +13589,9 @@ JS_CODEGEN_ARM
 if
 (
 !
+ARMFlags
+:
+:
 UseHardFpABI
 (
 )
@@ -13905,6 +13908,9 @@ ABITypeArgMask
 if
 (
 !
+ARMFlags
+:
+:
 UseHardFpABI
 (
 )

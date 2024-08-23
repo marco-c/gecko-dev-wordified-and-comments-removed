@@ -7369,6 +7369,9 @@ call
 .
 hardFP
 =
+ARMFlags
+:
+:
 UseHardFpABI
 (
 )
@@ -63374,6 +63377,9 @@ JS_CODEGEN_ARM
 if
 (
 !
+ARMFlags
+:
+:
 HasIDIV
 (
 )

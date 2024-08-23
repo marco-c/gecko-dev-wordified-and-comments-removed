@@ -9290,6 +9290,9 @@ z
 {
 if
 (
+ARMFlags
+:
+:
 UseHardFpABI
 (
 )
@@ -9423,6 +9426,9 @@ result
 {
 if
 (
+ARMFlags
+:
+:
 UseHardFpABI
 (
 )
@@ -9515,6 +9521,9 @@ result
 {
 if
 (
+ARMFlags
+:
+:
 UseHardFpABI
 (
 )
@@ -9813,6 +9822,9 @@ AllowUnaligned
 &
 &
 !
+ARMFlags
+:
+:
 HasAlignmentFault
 (
 )
@@ -9839,6 +9851,9 @@ ptr
 }
 if
 (
+ARMFlags
+:
+:
 FixupFault
 (
 )
@@ -9967,6 +9982,9 @@ AllowUnaligned
 &
 &
 !
+ARMFlags
+:
+:
 HasAlignmentFault
 (
 )
@@ -9996,6 +10014,9 @@ return
 }
 if
 (
+ARMFlags
+:
+:
 FixupFault
 (
 )
@@ -10120,6 +10141,9 @@ AllowUnaligned
 &
 &
 !
+ARMFlags
+:
+:
 HasAlignmentFault
 (
 )
@@ -10146,6 +10170,9 @@ ptr
 }
 if
 (
+ARMFlags
+:
+:
 FixupFault
 (
 )
@@ -10274,6 +10301,9 @@ AllowUnaligned
 &
 &
 !
+ARMFlags
+:
+:
 HasAlignmentFault
 (
 )
@@ -10303,6 +10333,9 @@ return
 }
 if
 (
+ARMFlags
+:
+:
 FixupFault
 (
 )
@@ -10681,6 +10714,9 @@ addr
 |
 |
 !
+ARMFlags
+:
+:
 HasAlignmentFault
 (
 )
@@ -10706,6 +10742,9 @@ ptr
 }
 if
 (
+ARMFlags
+:
+:
 FixupFault
 (
 )
@@ -10830,6 +10869,9 @@ addr
 |
 |
 !
+ARMFlags
+:
+:
 HasAlignmentFault
 (
 )
@@ -10855,6 +10897,9 @@ ptr
 }
 if
 (
+ARMFlags
+:
+:
 FixupFault
 (
 )
@@ -10974,6 +11019,9 @@ addr
 |
 |
 !
+ARMFlags
+:
+:
 HasAlignmentFault
 (
 )
@@ -11002,6 +11050,9 @@ return
 }
 if
 (
+ARMFlags
+:
+:
 FixupFault
 (
 )
@@ -11119,6 +11170,9 @@ addr
 |
 |
 !
+ARMFlags
+:
+:
 HasAlignmentFault
 (
 )
@@ -11147,6 +11201,9 @@ return
 }
 if
 (
+ARMFlags
+:
+:
 FixupFault
 (
 )

@@ -197,6 +197,9 @@ __arm__
 )
 return
 !
+ARMFlags
+:
+:
 HasAlignmentFault
 (
 )

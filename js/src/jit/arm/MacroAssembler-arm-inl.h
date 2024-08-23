@@ -2048,6 +2048,9 @@ ma_mov_patch
 imm
 scratch
 Always
+ARMFlags
+:
+:
 HasMOVWT
 (
 )
@@ -3059,6 +3062,9 @@ isUnsigned
 {
 MOZ_ASSERT
 (
+ARMFlags
+:
+:
 HasIDIV
 (
 )
@@ -3104,6 +3110,9 @@ isUnsigned
 {
 MOZ_ASSERT
 (
+ARMFlags
+:
+:
 HasIDIV
 (
 )

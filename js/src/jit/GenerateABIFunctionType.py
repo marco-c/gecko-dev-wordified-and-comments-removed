@@ -1385,6 +1385,9 @@ contents
 "
 if
 (
+ARMFlags
+:
+:
 UseHardFpABI
 (
 )

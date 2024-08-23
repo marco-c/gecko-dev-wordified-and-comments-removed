@@ -5365,6 +5365,9 @@ fail
 {
 if
 (
+ARMFlags
+:
+:
 HasIDIV
 (
 )
@@ -5555,6 +5558,9 @@ fail
 {
 if
 (
+ARMFlags
+:
+:
 HasIDIV
 (
 )
