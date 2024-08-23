@@ -1881,11 +1881,6 @@ XRE_CheckBlockScopeStaticVarInit
 )
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
-(
-check
-)
-;
 uint32_t
 xulTlsIndex
 =
@@ -1893,6 +1888,9 @@ xulTlsIndex
 ;
 if
 (
+check
+&
+&
 !
 check
 (
