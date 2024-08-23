@@ -1551,7 +1551,7 @@ context
 %
 "
 PRIu64
-ToMediaPlaybackStateStr
+EnumValueToString
 (
 aState
 )
