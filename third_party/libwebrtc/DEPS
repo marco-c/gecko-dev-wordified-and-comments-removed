@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-e0be74b4d17019b1a19aa671ad4114e0cdcbf74f
+20f5994905b26a69e1ba16b04c6c032c90b66f43
 '
 #
 Fetch
@@ -467,7 +467,7 @@ chromium
 src
 /
 base
-8fb3533de57f271c742d918515c51988e209e7b4
+76e7f8d5722319826fabb889bdb5a1275b6d4ed6
 '
 '
 src
@@ -611,7 +611,7 @@ chromium
 src
 /
 ios
-a28056a5fa58b934a8486e88fa79801d1cdd99a5
+cbda4d55590f8e3f70a90f39deab0e75801053a3
 '
 '
 condition
@@ -643,7 +643,7 @@ chromium
 src
 /
 testing
-e107e1aa30930c513ed9b7911d13f05ea254636f
+4b7ccbe58728f05b0d4a1303c9509d9dc01f8195
 '
 '
 src
@@ -667,7 +667,7 @@ chromium
 src
 /
 third_party
-d6f4ad60290359e24323868a8a72e9fa5020a637
+225ac1fbd420422c070b659e49d0a3cbc8e42e2e
 '
 '
 src
@@ -1954,7 +1954,7 @@ third_party
 freetype2
 .
 git
-4ccdc9f98291fe40c2e32cc9914e327810d845ec
+347276c1f6dcbc0eed3f0880b3695167a91c205d
 '
 '
 src
@@ -2459,7 +2459,7 @@ version
 '
 :
 '
-bCpFA9jdfF0zeuOKYuv9n1vqxV_lykSRR1oAYrVKmFsC
+_4e0lDaCjMgaNeq2v2olJs_15Ax3PxGfCU9fMt0FTKcC
 '
 }
 ]
@@ -2511,7 +2511,9 @@ version
 '
 :
 '
-NL2kgA9OlpYPhqM3x3fUl_nbJCGGPtPyNGN3fsrHcwYC
+0jpbSygC1gCOFyv
+-
+hsyNVfvxPLhDSXnTCSnxHY_mjKoC
 '
 }
 ]
@@ -2617,7 +2619,7 @@ google
 fuzztest
 .
 git
-34584108adea9bb274f71cee34fc091f89d7b2d5
+32eb84a95951fa3a0148fb3e6a1a02f830ded136
 '
 '
 src
@@ -2806,7 +2808,7 @@ external
 perfetto
 .
 git
-3ce5202ceef95d02a826c13c516a8485ef26237a
+9ac50d25a24563cd24268c1a5c6561c8595b4647
 '
 '
 src
@@ -3171,9 +3173,9 @@ version
 '
 :
 '
-CCWS0qWaAWt
+xUMPD
 -
-cT_itG4vFNt7tuI0FjLHwr9kd8GllPYC
+DPTr8cx1fanrD3y4J80VB0Uu38qNRkSvgyk74C
 '
 }
 ]
@@ -3349,7 +3351,7 @@ chromium
 src
 /
 tools
-9184b9ed74504c2a925ca6d3adb4dbb6a9a5685f
+c0d96b8fc767ff33e37de043dcea2dbef2acb783
 '
 '
 src
@@ -3540,7 +3542,11 @@ version
 '
 :
 '
-vAfIh85uzcaBMYEt3ZZIgV2Byl0NtbeE8DNHORAF1r0C
+OGeNNnLdo
+-
+fCKt8x2sLJ_CaK_CB
+-
+bCDls1kL3D3YF3YC
 '
 }
 ]
