@@ -130,6 +130,11 @@ AtomicsIsLockFree
 \
 _
 (
+BigInt
+)
+\
+_
+(
 BigIntAsIntN
 )
 \
