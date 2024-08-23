@@ -314,9 +314,6 @@ expectedUrl
 =
 null
 expectedRequestsCount
-earlyEvents
-=
-false
 )
 {
 const
@@ -332,7 +329,6 @@ new
 NetworkObserver
 (
 {
-earlyEvents
 ignoreChannelFunction
 :
 channel
