@@ -5152,6 +5152,17 @@ UrlbarUtils
 .
 RESULT_GROUP
 .
+HEURISTIC_RESTRICT_KEYWORD_AUTOFILL
+}
+{
+group
+:
+lazy
+.
+UrlbarUtils
+.
+RESULT_GROUP
+.
 HEURISTIC_HISTORY_URL
 }
 {

@@ -313,6 +313,13 @@ sys
 mjs
 "
 "
+UrlbarProviderRestrictKeywordsAutofill
+.
+sys
+.
+mjs
+"
+"
 UrlbarProviderSearchSuggestions
 .
 sys
