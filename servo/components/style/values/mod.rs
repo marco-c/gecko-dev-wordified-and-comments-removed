@@ -3753,7 +3753,6 @@ none
 ;
 }
 let
-mut
 serialize
 =
 |
