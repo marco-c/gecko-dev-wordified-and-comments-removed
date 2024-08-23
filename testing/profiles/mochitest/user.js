@@ -82,15 +82,3 @@ enabled
 false
 )
 ;
-user_pref
-(
-"
-geo
-.
-prompt
-.
-open_system_prefs
-"
-false
-)
-;
