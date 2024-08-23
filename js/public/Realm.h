@@ -449,16 +449,6 @@ Realm
 oldRealm
 )
 ;
-extern
-JS_PUBLIC_API
-void
-ResetRealmMathRandomSeed
-(
-JSContext
-*
-cx
-)
-;
 }
 class
 MOZ_RAII
