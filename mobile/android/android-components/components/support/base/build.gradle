@@ -393,13 +393,6 @@ VCS_HASH
 "
 "
 +
-gradle
-.
-ext
-.
-vcsHashFileContent
-?
-:
 getVcsHash
 (
 )

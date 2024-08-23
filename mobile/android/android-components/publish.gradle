@@ -467,13 +467,6 @@ url
 libUrl
 tag
 =
-gradle
-.
-ext
-.
-vcsHashFileContent
-?
-:
 getVcsHash
 (
 )
