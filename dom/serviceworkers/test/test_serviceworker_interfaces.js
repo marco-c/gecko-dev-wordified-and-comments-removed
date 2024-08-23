@@ -148,9 +148,6 @@ JSTag
 insecureContext
 :
 true
-earlyBetaOrEarlier
-:
-true
 }
 {
 name
