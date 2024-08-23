@@ -403,16 +403,6 @@ ColorSpace
 color_space
 )
 ;
-int64_t
-first_frame_capture_time
-(
-)
-const
-{
-return
-first_frame_capture_time_
-;
-}
 bool
 Init
 (
@@ -531,9 +521,6 @@ RTC_GUARDED_BY
 &
 lock_
 )
-;
-int64_t
-first_frame_capture_time_
 ;
 std
 :
