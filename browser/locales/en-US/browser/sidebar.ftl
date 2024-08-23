@@ -101,6 +101,7 @@ today
 heading
 =
 Today
+-
 {
 DATETIME
 (
@@ -124,6 +125,7 @@ yesterday
 heading
 =
 Yesterday
+-
 {
 DATETIME
 (
@@ -377,7 +379,7 @@ header
 label
 =
 Tab
-Settings
+settings
 sidebar
 -
 customize
