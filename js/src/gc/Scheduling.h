@@ -1078,6 +1078,13 @@ true
 static
 const
 bool
+NurseryEnabled
+=
+true
+;
+static
+const
+bool
 ParallelMarkingEnabled
 =
 false

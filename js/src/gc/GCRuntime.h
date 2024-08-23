@@ -2293,6 +2293,13 @@ bool
 enabled
 )
 ;
+void
+setNurseryEnabled
+(
+bool
+enabled
+)
+;
 bool
 isIncrementalGCEnabled
 (
@@ -6279,6 +6286,12 @@ MainThreadData
 bool
 >
 compactingEnabled
+;
+MainThreadData
+<
+bool
+>
+nurseryEnabled
 ;
 MainThreadData
 <

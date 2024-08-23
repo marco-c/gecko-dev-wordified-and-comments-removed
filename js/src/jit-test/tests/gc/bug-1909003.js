@@ -1,3 +1,11 @@
+gcparam
+(
+'
+nurseryEnabled
+'
+false
+)
+;
 gczeal
 (
 17
@@ -12,6 +20,14 @@ transplant
 newGlobal
 (
 )
+)
+;
+gcparam
+(
+'
+nurseryEnabled
+'
+true
 )
 ;
 gc
