@@ -10,6 +10,8 @@ any_dict
     
 any_int
     
+any_number
+    
 any_int_or_null
     
 any_list
@@ -114,79 +116,79 @@ recursive_compare
 timeOrigin
 "
 :
-any_int
+any_number
             
 "
 requestTime
 "
 :
-any_int
+any_number
             
 "
 redirectStart
 "
 :
-any_int
+any_number
             
 "
 redirectEnd
 "
 :
-any_int
+any_number
             
 "
 fetchStart
 "
 :
-any_int
+any_number
             
 "
 dnsStart
 "
 :
-any_int
+any_number
             
 "
 dnsEnd
 "
 :
-any_int
+any_number
             
 "
 connectStart
 "
 :
-any_int
+any_number
             
 "
 connectEnd
 "
 :
-any_int
+any_number
             
 "
 tlsStart
 "
 :
-any_int
+any_number
             
 "
 requestStart
 "
 :
-any_int
+any_number
             
 "
 responseStart
 "
 :
-any_int
+any_number
             
 "
 responseEnd
 "
 :
-any_int
+any_number
         
 }
         
