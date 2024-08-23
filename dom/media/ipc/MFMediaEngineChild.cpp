@@ -1235,6 +1235,10 @@ uint32_t
 aHeight
 )
 {
+AssertOnManagerThread
+(
+)
+;
 mOwner
 -
 >
@@ -2370,6 +2374,10 @@ uint32_t
 aHeight
 )
 {
+AssertOnManagerThread
+(
+)
+;
 WLOG
 (
 "
