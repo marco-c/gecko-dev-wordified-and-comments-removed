@@ -58,6 +58,12 @@ PROMPT_ACTION
 ;
 const
 uint32_t
+MAX_VALID_ACTION
+=
+3
+;
+const
+uint32_t
 EXPIRE_NEVER
 =
 0
