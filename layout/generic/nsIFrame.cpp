@@ -17946,6 +17946,7 @@ visibleRect
 prerenderInfo
 .
 mDecision
+usingBackdropFilter
 )
 ;
 if

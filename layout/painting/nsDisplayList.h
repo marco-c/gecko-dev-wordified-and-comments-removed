@@ -22009,6 +22009,8 @@ nsRect
 aChildrenBuildingRect
 PrerenderDecision
 aPrerenderDecision
+bool
+aWrapsBackdropFilter
 )
 ;
 nsDisplayTransform
@@ -23287,6 +23289,11 @@ mHasAssociatedPerspective
 ;
 bool
 mContainsASRs
+:
+1
+;
+bool
+mWrapsBackdropFilter
 :
 1
 ;
