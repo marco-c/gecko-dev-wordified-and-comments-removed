@@ -36078,7 +36078,7 @@ GetParent
 )
 )
 ;
-Matrix4x4
+Matrix4x4Flagged
 result
 ;
 int32_t
@@ -36171,7 +36171,7 @@ if
 zoomedContentRoot
 )
 {
-Matrix4x4
+Matrix4x4Flagged
 layoutToVisual
 ;
 ScrollableLayerGuid
