@@ -11240,7 +11240,7 @@ if
 (
 aOptions
 .
-mSpecificGroupId
+mReplaceBrowsingContext
 )
 {
 change
@@ -11248,6 +11248,10 @@ change
 >
 mSpecificGroup
 =
+aOptions
+.
+mSpecificGroupId
+?
 BrowsingContextGroup
 :
 :
@@ -11256,6 +11260,16 @@ GetOrCreate
 aOptions
 .
 mSpecificGroupId
+)
+:
+BrowsingContextGroup
+:
+:
+Create
+(
+aOptions
+.
+mShouldCrossOriginIsolate
 )
 ;
 change
