@@ -3180,12 +3180,6 @@ getDefault
 (
 )
 ;
-SearchTestUtils
-.
-useMockIdleService
-(
-)
-;
 await
 SearchTestUtils
 .
@@ -3580,12 +3574,6 @@ Services
 search
 .
 getDefault
-(
-)
-;
-SearchTestUtils
-.
-useMockIdleService
 (
 )
 ;
