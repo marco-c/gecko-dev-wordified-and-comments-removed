@@ -1712,6 +1712,13 @@ js
 ]
 [
 "
+browser_restrict_keywords
+.
+js
+"
+]
+[
+"
 browser_resultSpan
 .
 js

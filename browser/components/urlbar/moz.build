@@ -306,6 +306,13 @@ sys
 mjs
 "
 "
+UrlbarProviderRestrictKeywords
+.
+sys
+.
+mjs
+"
+"
 UrlbarProviderSearchSuggestions
 .
 sys
