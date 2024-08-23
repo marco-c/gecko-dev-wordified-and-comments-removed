@@ -892,9 +892,13 @@ AlgorithmIdentifier
 algorithm
 CryptoKey
 baseKey
+optional
 unsigned
 long
+?
 length
+=
+null
 )
 ;
 [
