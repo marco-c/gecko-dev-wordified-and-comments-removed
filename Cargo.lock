@@ -21371,6 +21371,11 @@ foundation
 sys
 "
 "
+crossbeam
+-
+utils
+"
+"
 dist
 -
 bin
@@ -21419,6 +21424,9 @@ util
 getrandom
 "
 "
+glean
+"
+"
 hashbrown
 0
 .
@@ -21436,6 +21444,9 @@ hyper
 icu_locid
 "
 "
+icu_properties
+"
+"
 indexmap
 2
 .
@@ -21448,6 +21459,13 @@ itertools
 "
 "
 libc
+"
+"
+lmdb
+-
+rkv
+-
+sys
 "
 "
 log
@@ -21487,6 +21505,9 @@ quote
 "
 "
 regex
+"
+"
+rkv
 "
 "
 scopeguard
@@ -21561,6 +21582,9 @@ impl
 unicode
 -
 bidi
+"
+"
+uniffi
 "
 "
 url
