@@ -152,9 +152,6 @@ SSL_OptionGetDefault
 SSL_PeerCertificate
 "
 "
-SSL_PeerCertificateChain
-"
-"
 SSL_PeerSignedCertTimestamps
 "
 "
@@ -455,12 +452,6 @@ types
 =
 [
 "
-CERTCertList
-"
-"
-CERTCertListNode
-"
-"
 CK_CHACHA20_PARAMS
 "
 "
@@ -493,9 +484,6 @@ functions
 [
 "
 CERT_DestroyCertificate
-"
-"
-CERT_DestroyCertList
 "
 "
 CERT_GetCertificateDer
@@ -559,6 +547,9 @@ PK11_ReadRawAttribute
 "
 "
 PK11_ReferenceSymKey
+"
+"
+SECITEM_FreeArray
 "
 "
 SECITEM_FreeItem

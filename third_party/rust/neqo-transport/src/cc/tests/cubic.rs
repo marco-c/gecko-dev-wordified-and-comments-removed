@@ -1844,7 +1844,7 @@ cwnd_initial
 test
 ]
 fn
-congestion_event_congestion_avoidance_test_no_overflow
+congestion_event_congestion_avoidance_no_overflow
 (
 )
 {

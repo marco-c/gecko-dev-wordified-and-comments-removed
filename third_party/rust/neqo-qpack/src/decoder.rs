@@ -2239,7 +2239,7 @@ check_capacity
 test
 ]
 fn
-test_recv_insert_with_name_ref_1
+recv_insert_with_name_ref_1
 (
 )
 {
@@ -2276,7 +2276,7 @@ EncoderStream
 test
 ]
 fn
-test_recv_insert_with_name_ref_2
+recv_insert_with_name_ref_2
 (
 )
 {
@@ -2312,7 +2312,7 @@ Ok
 test
 ]
 fn
-test_recv_insert_with_name_litarel_2
+recv_insert_with_name_litarel_2
 (
 )
 {
@@ -2362,7 +2362,7 @@ Ok
 test
 ]
 fn
-test_recv_change_capacity
+recv_change_capacity
 (
 )
 {
@@ -2394,7 +2394,7 @@ Ok
 test
 ]
 fn
-test_recv_change_capacity_too_big
+recv_change_capacity_too_big
 (
 )
 {
@@ -2428,7 +2428,7 @@ EncoderStream
 test
 ]
 fn
-test_duplicate
+duplicate
 (
 )
 {
@@ -2557,7 +2557,7 @@ u8
 test
 ]
 fn
-test_encode_incr_encode_header_ack_some
+encode_incr_encode_header_ack_some
 (
 )
 {
@@ -2783,7 +2783,7 @@ decoder
 test
 ]
 fn
-test_encode_incr_encode_header_ack_all
+encode_incr_encode_header_ack_all
 (
 )
 {
@@ -2987,7 +2987,7 @@ decoder
 test
 ]
 fn
-test_header_ack_all
+header_ack_all
 (
 )
 {
@@ -3159,7 +3159,7 @@ decoder
 test
 ]
 fn
-test_header_ack_and_incr_instruction
+header_ack_and_incr_instruction
 (
 )
 {
@@ -3315,7 +3315,7 @@ decoder
 test
 ]
 fn
-test_header_block_decoder
+header_block_decoder
 (
 )
 {
@@ -3779,7 +3779,7 @@ decoder
 test
 ]
 fn
-test_header_block_decoder_huffman
+header_block_decoder_huffman
 (
 )
 {
@@ -4228,7 +4228,7 @@ decoder
 test
 ]
 fn
-test_subtract_overflow_in_header_ack
+subtract_overflow_in_header_ack
 (
 )
 {
@@ -4448,7 +4448,7 @@ STREAM_0
 test
 ]
 fn
-test_base_larger_than_entry_count
+base_larger_than_entry_count
 (
 )
 {

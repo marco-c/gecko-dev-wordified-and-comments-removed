@@ -3601,7 +3601,7 @@ u8
 test
 ]
 fn
-test_insert_with_name_literal_1
+insert_with_name_literal_1
 (
 )
 {
@@ -3662,7 +3662,7 @@ send_instructions
 test
 ]
 fn
-test_insert_with_name_literal_2
+insert_with_name_literal_2
 (
 )
 {
@@ -3740,7 +3740,7 @@ HEADER_CONTENT_LENGTH_VALUE_1_NAME_LITERAL
 test
 ]
 fn
-test_change_capacity
+change_capacity
 (
 )
 {
@@ -3812,7 +3812,7 @@ u8
 test
 ]
 fn
-test_header_block_encoder_non
+header_block_encoder_non
 (
 )
 {
@@ -4250,7 +4250,7 @@ encoder_inst
 test
 ]
 fn
-test_header_block_encoder_huffman
+header_block_encoder_huffman
 (
 )
 {
@@ -4673,7 +4673,7 @@ encoder_inst
 test
 ]
 fn
-test_insertion_blocked_on_insert_count_feedback
+insertion_blocked_on_insert_count_feedback
 (
 )
 {
@@ -5071,7 +5071,7 @@ HEADER_CONTENT_LENGTH_VALUE_2_NAME_LITERAL
 test
 ]
 fn
-test_header_ack
+header_ack
 (
 )
 {
@@ -5086,7 +5086,7 @@ test_insertion_blocked_on_waiting_for_header_ack_or_stream_cancel
 test
 ]
 fn
-test_stream_canceled
+stream_canceled
 (
 )
 {
@@ -8003,7 +8003,7 @@ CAP_INSTRUCTION_1500
 test
 ]
 fn
-test_do_not_evict_entry_that_are_referred_only_by_the_same_header_blocked_encoding
+do_not_evict_entry_that_are_referred_only_by_the_same_header_blocked_encoding
 (
 )
 {
@@ -8241,7 +8241,7 @@ is_none
 test
 ]
 fn
-test_streams_cancel_cleans_up_unacked_header_blocks
+streams_cancel_cleans_up_unacked_header_blocks
 (
 )
 {

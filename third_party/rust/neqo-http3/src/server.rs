@@ -2703,7 +2703,7 @@ client
 test
 ]
 fn
-test_server_connect
+server_connect
 (
 )
 {
@@ -3107,7 +3107,7 @@ client
 test
 ]
 fn
-test_server_receive_control_frame
+server_receive_control_frame
 (
 )
 {
@@ -3127,7 +3127,7 @@ connect
 test
 ]
 fn
-test_server_close_control_stream
+server_close_control_stream
 (
 )
 {
@@ -3205,7 +3205,7 @@ HttpClosedCriticalStream
 test
 ]
 fn
-test_server_missing_settings
+server_missing_settings
 (
 )
 {
@@ -3309,7 +3309,7 @@ HttpMissingSettings
 test
 ]
 fn
-test_server_receive_settings_twice
+server_receive_settings_twice
 (
 )
 {
@@ -3517,7 +3517,7 @@ HttpId
 test
 ]
 fn
-test_priority_update_valid_id_0
+priority_update_valid_id_0
 (
 )
 {
@@ -3539,7 +3539,7 @@ true
 test
 ]
 fn
-test_priority_update_invalid_id_1
+priority_update_invalid_id_1
 (
 )
 {
@@ -3561,7 +3561,7 @@ false
 test
 ]
 fn
-test_priority_update_invalid_id_2
+priority_update_invalid_id_2
 (
 )
 {
@@ -3583,7 +3583,7 @@ false
 test
 ]
 fn
-test_priority_update_invalid_id_3
+priority_update_invalid_id_3
 (
 )
 {
@@ -3605,7 +3605,7 @@ false
 test
 ]
 fn
-test_priority_update_invalid_large_id
+priority_update_invalid_large_id
 (
 )
 {
@@ -3696,7 +3696,7 @@ HttpFrameUnexpected
 test
 ]
 fn
-test_server_data_frame_on_control_stream
+server_data_frame_on_control_stream
 (
 )
 {
@@ -3717,7 +3717,7 @@ test_wrong_frame_on_control_stream
 test
 ]
 fn
-test_server_headers_frame_on_control_stream
+server_headers_frame_on_control_stream
 (
 )
 {
@@ -3738,7 +3738,7 @@ test_wrong_frame_on_control_stream
 test
 ]
 fn
-test_server_push_promise_frame_on_control_stream
+server_push_promise_frame_on_control_stream
 (
 )
 {
@@ -3759,7 +3759,7 @@ test_wrong_frame_on_control_stream
 test
 ]
 fn
-test_server_received_unknown_stream
+server_received_unknown_stream
 (
 )
 {
@@ -3976,7 +3976,7 @@ hconn
 test
 ]
 fn
-test_server_received_push_stream
+server_received_push_stream
 (
 )
 {
@@ -4095,7 +4095,7 @@ HttpStreamCreation
 test
 ]
 fn
-test_server_frame_reading
+server_frame_reading
 (
 )
 {
@@ -5108,7 +5108,7 @@ expected_request_header
 test
 ]
 fn
-test_server_incomplete_data_frame
+server_incomplete_data_frame
 (
 )
 {
@@ -5129,7 +5129,7 @@ REQUEST_WITH_BODY
 test
 ]
 fn
-test_server_incomplete_headers_frame
+server_incomplete_headers_frame
 (
 )
 {
@@ -5150,7 +5150,7 @@ REQUEST_WITH_BODY
 test
 ]
 fn
-test_server_incomplete_unknown_frame
+server_incomplete_unknown_frame
 (
 )
 {
@@ -5168,7 +5168,7 @@ test_incomplete_frame
 test
 ]
 fn
-test_server_request_with_body
+server_request_with_body
 (
 )
 {
@@ -5471,7 +5471,7 @@ data_received
 test
 ]
 fn
-test_server_request_with_body_send_stop_sending
+server_request_with_body_send_stop_sending
 (
 )
 {
@@ -5967,7 +5967,7 @@ headers_frames
 test
 ]
 fn
-test_server_request_with_body_server_reset
+server_request_with_body_server_reset
 (
 )
 {
@@ -6356,7 +6356,7 @@ stop_sending
 test
 ]
 fn
-test_server_reset_control_stream
+server_reset_control_stream
 (
 )
 {
@@ -6435,7 +6435,7 @@ HttpClosedCriticalStream
 test
 ]
 fn
-test_server_reset_client_side_encoder_stream
+server_reset_client_side_encoder_stream
 (
 )
 {
@@ -6514,7 +6514,7 @@ HttpClosedCriticalStream
 test
 ]
 fn
-test_server_reset_client_side_decoder_stream
+server_reset_client_side_decoder_stream
 (
 )
 {
@@ -6593,7 +6593,7 @@ HttpClosedCriticalStream
 test
 ]
 fn
-test_client_stop_sending_control_stream
+client_stop_sending_control_stream
 (
 )
 {
@@ -6672,7 +6672,7 @@ HttpClosedCriticalStream
 test
 ]
 fn
-test_server_stop_sending_encoder_stream
+server_stop_sending_encoder_stream
 (
 )
 {
@@ -6751,7 +6751,7 @@ HttpClosedCriticalStream
 test
 ]
 fn
-test_server_stop_sending_decoder_stream
+server_stop_sending_decoder_stream
 (
 )
 {

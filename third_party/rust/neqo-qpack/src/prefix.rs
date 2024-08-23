@@ -15,13 +15,6 @@ Prefix
 [
 allow
 (
-unknown_lints
-)
-]
-#
-[
-allow
-(
 clippy
 :
 :

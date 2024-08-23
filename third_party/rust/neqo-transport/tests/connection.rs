@@ -2157,7 +2157,7 @@ buffer
 test
 ]
 fn
-test_handshake_xyber
+handshake_xyber
 (
 )
 {

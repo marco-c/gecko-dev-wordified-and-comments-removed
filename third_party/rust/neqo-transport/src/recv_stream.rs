@@ -1855,13 +1855,6 @@ derive
 Debug
 )
 ]
-#
-[
-allow
-(
-dead_code
-)
-]
 enum
 RecvStreamState
 {
@@ -3092,10 +3085,7 @@ len
 (
 )
 )
-.
-unwrap
-(
-)
+?
 ;
 self
 .
@@ -5165,7 +5155,6 @@ test
 [
 allow
 (
-unknown_lints
 clippy
 :
 :

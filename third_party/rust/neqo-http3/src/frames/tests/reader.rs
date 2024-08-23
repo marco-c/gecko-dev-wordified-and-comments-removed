@@ -274,7 +274,7 @@ frame
 test
 ]
 fn
-test_frame_reading_with_stream_settings1
+frame_reading_with_stream_settings1
 (
 )
 {
@@ -498,7 +498,7 @@ type
 test
 ]
 fn
-test_frame_reading_with_stream_settings2
+frame_reading_with_stream_settings2
 (
 )
 {
@@ -647,7 +647,7 @@ type
 test
 ]
 fn
-test_frame_reading_with_stream_push_promise
+frame_reading_with_stream_push_promise
 (
 )
 {
@@ -779,7 +779,7 @@ type
 test
 ]
 fn
-test_frame_reading_with_stream_data
+frame_reading_with_stream_data
 (
 )
 {
@@ -884,7 +884,7 @@ amount
 test
 ]
 fn
-test_unknown_frame
+unknown_frame
 (
 )
 {
@@ -1056,7 +1056,7 @@ type
 test
 ]
 fn
-test_frame_reading_with_stream_wt_close_session
+frame_reading_with_stream_wt_close_session
 (
 )
 {
@@ -1184,7 +1184,7 @@ to_string
 test
 ]
 fn
-test_unknown_wt_frame
+unknown_wt_frame
 (
 )
 {
@@ -1750,7 +1750,7 @@ is_none
 test
 ]
 fn
-test_complete_and_incomplete_unknown_frame
+complete_and_incomplete_unknown_frame
 (
 )
 {
@@ -2330,7 +2330,7 @@ FrameComplete
 test
 ]
 fn
-test_complete_and_incomplete_frames
+complete_and_incomplete_frames
 (
 )
 {
@@ -2978,7 +2978,7 @@ len
 test
 ]
 fn
-test_complete_and_incomplete_wt_frames
+complete_and_incomplete_wt_frames
 (
 )
 {
@@ -3060,7 +3060,7 @@ len
 test
 ]
 fn
-test_frame_reading_when_stream_is_closed_before_sending_data
+frame_reading_when_stream_is_closed_before_sending_data
 (
 )
 {
@@ -3234,7 +3234,7 @@ stream_id
 test
 ]
 fn
-test_wt_frame_reading_when_stream_is_closed_before_sending_data
+wt_frame_reading_when_stream_is_closed_before_sending_data
 (
 )
 {

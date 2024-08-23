@@ -299,16 +299,6 @@ Error
 HttpClosedCriticalStream
 )
 }
-#
-[
-allow
-(
-clippy
-:
-:
-vec_init_then_push
-)
-]
 fn
 receive
 (

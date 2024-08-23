@@ -321,16 +321,6 @@ Ordering
 Equal
 ;
 }
-#
-[
-allow
-(
-clippy
-:
-:
-match_same_arms
-)
-]
 match
 (
 self

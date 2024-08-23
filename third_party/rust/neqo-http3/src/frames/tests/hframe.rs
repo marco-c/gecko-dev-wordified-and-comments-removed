@@ -50,7 +50,7 @@ Priority
 test
 ]
 fn
-test_data_frame
+data_frame
 (
 )
 {
@@ -83,7 +83,7 @@ f
 test
 ]
 fn
-test_headers_frame
+headers_frame
 (
 )
 {
@@ -122,7 +122,7 @@ f
 test
 ]
 fn
-test_cancel_push_frame4
+cancel_push_frame4
 (
 )
 {
@@ -155,7 +155,7 @@ f
 test
 ]
 fn
-test_settings_frame4
+settings_frame4
 (
 )
 {
@@ -207,7 +207,7 @@ f
 test
 ]
 fn
-test_push_promise_frame4
+push_promise_frame4
 (
 )
 {
@@ -250,7 +250,7 @@ f
 test
 ]
 fn
-test_goaway_frame4
+goaway_frame4
 (
 )
 {
@@ -422,7 +422,7 @@ t2
 test
 ]
 fn
-test_priority_update_request_default
+priority_update_request_default
 (
 )
 {
@@ -463,7 +463,7 @@ f
 test
 ]
 fn
-test_priority_update_request_incremental_default
+priority_update_request_incremental_default
 (
 )
 {
@@ -506,7 +506,7 @@ f
 test
 ]
 fn
-test_priority_update_request_urgency_default
+priority_update_request_urgency_default
 (
 )
 {
@@ -549,7 +549,7 @@ f
 test
 ]
 fn
-test_priority_update_push_default
+priority_update_push_default
 (
 )
 {

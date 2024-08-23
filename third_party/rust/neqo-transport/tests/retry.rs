@@ -2995,16 +2995,6 @@ from_secs
 [
 test
 ]
-#
-[
-allow
-(
-clippy
-:
-:
-shadow_unrelated
-)
-]
 fn
 mitm_retry
 (

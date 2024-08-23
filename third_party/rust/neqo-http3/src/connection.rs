@@ -1417,16 +1417,6 @@ role
 )
 ;
 }
-#
-[
-allow
-(
-clippy
-:
-:
-option_if_let_else
-)
-]
 fn
 stream_receive
 (

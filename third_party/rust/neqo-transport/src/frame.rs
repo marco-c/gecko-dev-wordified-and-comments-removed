@@ -4971,7 +4971,7 @@ f
 test
 ]
 fn
-test_compare
+compare
 (
 )
 {

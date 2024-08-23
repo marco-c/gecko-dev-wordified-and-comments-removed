@@ -334,16 +334,10 @@ local_address
 self
 .
 state
-(
 &
 self
 .
 inner
-)
-.
-into
-(
-)
 )
 }
 )

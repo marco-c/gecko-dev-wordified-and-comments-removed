@@ -3812,7 +3812,6 @@ records
 [
 allow
 (
-unknown_lints
 clippy
 :
 :
@@ -4257,12 +4256,6 @@ Debug
 [
 allow
 (
-renamed_and_removed_lints
-clippy
-:
-:
-box_vec
-unknown_lints
 clippy
 :
 :

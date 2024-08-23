@@ -337,16 +337,6 @@ DirectionalSecrets
 impl
 Secrets
 {
-#
-[
-allow
-(
-clippy
-:
-:
-unused_self
-)
-]
 unsafe
 extern
 "

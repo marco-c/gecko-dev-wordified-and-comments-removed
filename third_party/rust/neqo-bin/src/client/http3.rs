@@ -132,15 +132,10 @@ a
 [
 allow
 (
-unknown_lints
 clippy
 :
 :
 struct_field_names
-clippy
-:
-:
-redundant_field_names
 )
 ]
 url_handler

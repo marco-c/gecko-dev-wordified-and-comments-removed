@@ -127,7 +127,7 @@ version
 .
 8
 .
-1
+2
 "
 authors
 =
@@ -318,8 +318,17 @@ version
 .
 5
 .
-0
+4
 "
+features
+=
+[
+"
+direct
+-
+log
+"
+]
 default
 -
 features

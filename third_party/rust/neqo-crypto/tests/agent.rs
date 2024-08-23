@@ -1124,7 +1124,6 @@ is_connected
 )
 ;
 let
-mut
 certs
 =
 client
@@ -1142,6 +1141,10 @@ assert_eq
 (
 1
 certs
+.
+into_iter
+(
+)
 .
 count
 (

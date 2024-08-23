@@ -1302,7 +1302,6 @@ Validate
 [
 allow
 (
-dead_code
 clippy
 :
 :

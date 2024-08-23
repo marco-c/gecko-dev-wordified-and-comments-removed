@@ -1,14 +1,3 @@
-#
-!
-[
-allow
-(
-clippy
-:
-:
-unused_unit
-)
-]
 use
 enumset
 :

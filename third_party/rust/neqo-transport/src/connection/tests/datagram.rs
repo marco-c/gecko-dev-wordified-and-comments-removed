@@ -2754,16 +2754,6 @@ ProtocolViolation
 [
 test
 ]
-#
-[
-allow
-(
-clippy
-:
-:
-assertions_on_constants
-)
-]
 fn
 dgram_too_big
 (
