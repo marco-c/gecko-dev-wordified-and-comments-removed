@@ -71,6 +71,12 @@ android
 .
 app
 .
+AlertDialog
+import
+android
+.
+app
+.
 Dialog
 import
 android
@@ -1218,6 +1224,14 @@ removePinnedSiteUseCase
 requestDesktopSiteUseCase
 =
 requestDesktopSiteUseCase
+alertDialogBuilder
+=
+AlertDialog
+.
+Builder
+(
+context
+)
 topSitesMaxLimit
 =
 topSitesMaxLimit
