@@ -1624,12 +1624,10 @@ d
 )
 ;
 return
-static_cast
-<
-double
->
-(
 f16
+.
+toDouble
+(
 )
 ;
 }
