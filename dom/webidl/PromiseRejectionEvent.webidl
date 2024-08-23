@@ -154,10 +154,7 @@ rejectedPromise
 ]
 readonly
 attribute
-Promise
-<
-any
->
+object
 promise
 ;
 readonly
@@ -173,10 +170,7 @@ PromiseRejectionEventInit
 EventInit
 {
 required
-Promise
-<
-any
->
+object
 promise
 ;
 any
