@@ -24,6 +24,17 @@ Exposed
 *
 ]
 interface
+Element
+{
+}
+;
+[
+LegacyNoInterfaceObject
+Exposed
+=
+*
+]
+interface
 IsInstance
 {
 }

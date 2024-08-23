@@ -63,6 +63,17 @@ Exposed
 *
 ]
 interface
+CSSPageDescriptors
+{
+}
+;
+[
+LegacyNoInterfaceObject
+Exposed
+=
+*
+]
+interface
 DOMApplication
 {
 }
