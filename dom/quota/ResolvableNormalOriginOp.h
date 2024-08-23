@@ -143,6 +143,16 @@ NoteActorDestroyed
 endif
 if
 (
+mCanceled
+)
+{
+mResultCode
+=
+NS_ERROR_FAILURE
+;
+}
+if
+(
 NS_SUCCEEDED
 (
 mResultCode
