@@ -79,4 +79,5 @@ passlib
 .
 4
 pyOpenSSL
+cryptography
 service_identity
