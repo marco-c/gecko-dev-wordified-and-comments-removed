@@ -377,6 +377,13 @@ js
 ]
 [
 "
+test_storeid
+.
+js
+"
+]
+[
+"
 test_update_paths
 .
 js
