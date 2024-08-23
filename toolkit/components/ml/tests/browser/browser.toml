@@ -88,11 +88,12 @@ os
 '
 linux
 '
-&
-&
-verify
 "
 ]
+#
+see
+bug
+1911083
 lineno
 =
 "
