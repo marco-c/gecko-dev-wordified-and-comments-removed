@@ -1144,7 +1144,7 @@ NS_OK
 ipc
 :
 :
-SharedMemory
+SharedMemoryBasic
 :
 :
 Handle
@@ -1153,7 +1153,7 @@ handle
 ipc
 :
 :
-SharedMemory
+SharedMemoryBasic
 :
 :
 NULLHandle

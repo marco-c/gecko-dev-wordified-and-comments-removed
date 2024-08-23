@@ -254,7 +254,7 @@ namespace
 ipc
 {
 class
-SharedMemory
+SharedMemoryBasic
 ;
 }
 namespace

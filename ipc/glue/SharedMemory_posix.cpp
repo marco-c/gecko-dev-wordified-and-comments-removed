@@ -48,8 +48,8 @@ h
 endif
 namespace
 mozilla
-:
-:
+{
+namespace
 ipc
 {
 #
@@ -251,5 +251,6 @@ _SC_PAGESIZE
 ;
 #
 endif
+}
 }
 }
