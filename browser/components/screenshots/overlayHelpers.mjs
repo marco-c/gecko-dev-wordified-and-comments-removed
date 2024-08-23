@@ -616,14 +616,14 @@ if
 (
 ele
 .
-openOrClosedShadowRoot
+shadowRoot
 )
 {
 while
 (
 ele
 .
-openOrClosedShadowRoot
+shadowRoot
 )
 {
 let
@@ -631,7 +631,7 @@ shadowEle
 =
 ele
 .
-openOrClosedShadowRoot
+shadowRoot
 .
 elementFromPoint
 (
