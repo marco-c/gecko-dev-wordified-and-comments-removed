@@ -17415,6 +17415,8 @@ detectSimdSupport
 (
 )
 {
+try
+{
 return
 WebAssembly
 .
@@ -17531,6 +17533,13 @@ ignore
 )
 )
 ;
+}
+catch
+{
+return
+false
+;
+}
 }
 /
 *
