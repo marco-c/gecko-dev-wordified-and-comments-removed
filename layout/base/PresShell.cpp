@@ -30963,6 +30963,13 @@ if
 frame
 )
 {
+SelectionNodeCache
+cache
+(
+*
+this
+)
+;
 nsLayoutUtils
 :
 :
