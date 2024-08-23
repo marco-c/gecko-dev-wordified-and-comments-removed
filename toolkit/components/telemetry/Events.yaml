@@ -17790,6 +17790,8 @@ apply
 accept
 -
 cancel
+-
+set_fallback
 extra_keys
 :
 installId
@@ -17821,6 +17823,11 @@ mstriemer
 mozilla
 .
 com
+-
+earo
+mozilla
+.
+com
 release_channel_collection
 :
 opt
@@ -17849,6 +17856,8 @@ bug_numbers
 1796396
 -
 1861299
+-
+1911321
 network
 .
 dns
