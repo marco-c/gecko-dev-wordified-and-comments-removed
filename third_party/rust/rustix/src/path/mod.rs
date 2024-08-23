@@ -20,7 +20,10 @@ use
 arg
 :
 :
+{
+option_into_with_c_str
 Arg
+}
 ;
 #
 [

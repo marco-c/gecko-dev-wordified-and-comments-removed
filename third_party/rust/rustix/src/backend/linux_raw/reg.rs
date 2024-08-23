@@ -106,6 +106,13 @@ repr
 transparent
 )
 ]
+#
+[
+allow
+(
+dead_code
+)
+]
 pub
 (
 super

@@ -669,6 +669,14 @@ os
 =
 =
 "
+visionos
+"
+|
+|
+os
+=
+=
+"
 watchos
 "
 ;
