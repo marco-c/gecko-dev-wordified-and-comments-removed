@@ -96,6 +96,11 @@ TestOriginScope
 cpp
 "
 "
+TestPersistenceScope
+.
+cpp
+"
+"
 TestPersistenceType
 .
 cpp
