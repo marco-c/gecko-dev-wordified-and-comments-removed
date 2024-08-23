@@ -2027,7 +2027,7 @@ video
 reason
 :
 "
-autoToggle
+autoPip
 "
 }
 false
