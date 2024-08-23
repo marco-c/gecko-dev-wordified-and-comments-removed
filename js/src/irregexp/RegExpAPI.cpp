@@ -798,15 +798,6 @@ case
 RegExpError
 :
 :
-kInvalidClassEscape
-:
-return
-JSMSG_INVALID_DECIMAL_ESCAPE
-;
-case
-RegExpError
-:
-:
 kInvalidClassPropertyName
 :
 return
