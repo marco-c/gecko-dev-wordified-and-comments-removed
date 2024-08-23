@@ -341,6 +341,15 @@ mDecoder
 NeedsConversion
 (
 )
+self
+-
+>
+mDecoder
+-
+>
+ShouldDecoderAlwaysBeRecycled
+(
+)
 }
 )
 ;

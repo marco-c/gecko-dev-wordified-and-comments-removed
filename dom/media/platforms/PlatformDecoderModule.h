@@ -2456,6 +2456,17 @@ return
 false
 ;
 }
+virtual
+bool
+ShouldDecoderAlwaysBeRecycled
+(
+)
+const
+{
+return
+false
+;
+}
 enum
 class
 ConversionRequired

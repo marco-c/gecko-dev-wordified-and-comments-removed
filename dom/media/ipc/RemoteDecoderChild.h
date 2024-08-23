@@ -207,6 +207,12 @@ NeedsConversion
 )
 const
 ;
+bool
+ShouldDecoderAlwaysBeRecycled
+(
+)
+const
+;
 void
 DestroyIPDL
 (
@@ -399,6 +405,11 @@ ConversionRequired
 :
 :
 kNeedNone
+;
+bool
+mShouldDecoderAlwaysBeRecycled
+=
+false
 ;
 }
 ;

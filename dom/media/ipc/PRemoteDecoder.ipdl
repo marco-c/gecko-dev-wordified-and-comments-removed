@@ -172,6 +172,9 @@ hardwareReason
 ConversionRequired
 conversion
 ;
+bool
+shouldDecoderAlwaysBeRecycled
+;
 }
 ;
 union
