@@ -33052,6 +33052,9 @@ UserInteraction
 ;
 if
 (
+mLastValueChangeWasInteractive
+&
+&
 State
 (
 )
