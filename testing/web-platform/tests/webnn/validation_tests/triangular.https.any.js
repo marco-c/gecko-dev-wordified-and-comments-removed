@@ -10,6 +10,15 @@ t
 =
 >
 {
+const
+builder
+=
+new
+MLGraphBuilder
+(
+context
+)
+;
 for
 (
 let
@@ -69,7 +78,7 @@ input
 }
 }
 }
-"
+'
 [
 triangular
 ]
@@ -78,6 +87,7 @@ is
 expected
 if
 input
+\
 '
 s
 rank
@@ -85,7 +95,7 @@ is
 less
 than
 2
-"
+'
 )
 ;
 validateInputFromAnotherBuilder
