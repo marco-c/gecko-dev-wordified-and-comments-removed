@@ -29076,6 +29076,9 @@ parameters
 "
 firefox
 "
+"
+webDriverBiDi
+"
 ]
 "
 expectations

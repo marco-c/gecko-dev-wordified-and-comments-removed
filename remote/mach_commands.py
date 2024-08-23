@@ -3808,12 +3808,27 @@ firefox
         
 is_expected_product
 =
+(
+            
 "
 chrome
 "
 not
 in
 parameters
+and
+"
+chrome
+-
+headless
+-
+shell
+"
+not
+in
+parameters
+        
+)
     
 else
 :
