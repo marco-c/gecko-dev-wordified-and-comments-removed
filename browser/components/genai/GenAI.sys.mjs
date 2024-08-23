@@ -2611,9 +2611,14 @@ shortcutsDisplayed
 record
 (
 {
+delay
+:
+data
+.
+delay
 selection
 :
-shortcuts
+data
 .
 selection
 .
