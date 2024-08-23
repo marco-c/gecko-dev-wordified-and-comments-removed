@@ -1067,6 +1067,7 @@ JSJitFrameIter
 act_
 prevFrameType
 prevFP
+mustUnwindActivation_
 )
 ;
 MOZ_ASSERT
