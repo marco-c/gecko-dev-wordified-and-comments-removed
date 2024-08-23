@@ -721,7 +721,7 @@ s
 is
 enabled
 "
-StreamTypeToString
+EnumValueToString
 (
 type
 )
@@ -754,7 +754,7 @@ code
 %
 lx
 "
-StreamTypeToString
+EnumValueToString
 (
 type
 )
@@ -1081,7 +1081,7 @@ MFT
 requires
 DXVA
 "
-StreamTypeToString
+EnumValueToString
 (
 aType
 )
