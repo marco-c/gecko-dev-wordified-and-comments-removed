@@ -234,6 +234,12 @@ false
 false
 }
 ;
+status
+.
+sync_buffer_samples
+=
+0
+;
 return
 status
 ;
