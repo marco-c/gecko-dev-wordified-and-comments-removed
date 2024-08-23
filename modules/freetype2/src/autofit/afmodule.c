@@ -1765,9 +1765,6 @@ module
 >
 root
 .
-library
--
->
 memory
 ;
 #

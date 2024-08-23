@@ -126,6 +126,10 @@ ttcpal
 )
 FT_TRACE_DEF
 (
+ttgpos
+)
+FT_TRACE_DEF
+(
 ttsvg
 )
 FT_TRACE_DEF

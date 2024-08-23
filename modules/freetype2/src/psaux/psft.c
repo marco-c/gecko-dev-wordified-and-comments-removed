@@ -2065,7 +2065,7 @@ decoder
 size_t
 *
 count
-FT_Pos
+FT_Fixed
 *
 *
 data
@@ -2099,7 +2099,7 @@ num_blue_values
 data
 =
 (
-FT_Pos
+FT_Fixed
 *
 )
 &
@@ -2126,7 +2126,7 @@ decoder
 size_t
 *
 count
-FT_Pos
+FT_Fixed
 *
 *
 data
@@ -2160,7 +2160,7 @@ num_other_blues
 data
 =
 (
-FT_Pos
+FT_Fixed
 *
 )
 &
@@ -2187,7 +2187,7 @@ decoder
 size_t
 *
 count
-FT_Pos
+FT_Fixed
 *
 *
 data
@@ -2221,7 +2221,7 @@ num_family_blues
 data
 =
 (
-FT_Pos
+FT_Fixed
 *
 )
 &
@@ -2248,7 +2248,7 @@ decoder
 size_t
 *
 count
-FT_Pos
+FT_Fixed
 *
 *
 data
@@ -2282,7 +2282,7 @@ num_family_other_blues
 data
 =
 (
-FT_Pos
+FT_Fixed
 *
 )
 &

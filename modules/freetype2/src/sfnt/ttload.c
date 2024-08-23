@@ -3305,11 +3305,6 @@ face
 >
 root
 .
-driver
--
->
-root
-.
 memory
 ;
 TT_NameTable

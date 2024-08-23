@@ -2521,7 +2521,7 @@ FT_UInt
 dimension
 FT_Int
 count
-FT_Long
+FT_Pos
 *
 stems
 )

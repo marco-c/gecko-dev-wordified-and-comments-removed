@@ -113,7 +113,7 @@ C
 )
 2018
 -
-2023
+2024
 by
 *
 /
@@ -298,7 +298,7 @@ define
 FT_VERSION
 2
 13
-2
+3
 0
 #
 define
@@ -308,7 +308,7 @@ FT_VERSION_STR
 .
 13
 .
-2
+3
 "
 VS_VERSION_INFO
 VERSIONINFO
@@ -408,7 +408,7 @@ L
 x00A9
 2000
 -
-2023
+2024
 The
 FreeType
 Project

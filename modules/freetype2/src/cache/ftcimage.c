@@ -78,14 +78,6 @@ cache
 >
 memory
 ;
-if
-(
-inode
--
->
-glyph
-)
-{
 FT_Done_Glyph
 (
 inode
@@ -94,14 +86,6 @@ inode
 glyph
 )
 ;
-inode
--
->
-glyph
-=
-NULL
-;
-}
 FTC_GNode_Done
 (
 FTC_GNODE
@@ -362,8 +346,6 @@ FT_GLYPH_FORMAT_BITMAP
 {
 FT_BitmapGlyph
 bitg
-;
-bitg
 =
 (
 FT_BitmapGlyph
@@ -406,8 +388,6 @@ FT_GLYPH_FORMAT_OUTLINE
 :
 {
 FT_OutlineGlyph
-outg
-;
 outg
 =
 (

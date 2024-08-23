@@ -3065,10 +3065,6 @@ FT_Byte
 *
 write
 =
-(
-FT_Byte
-*
-)
 outline
 -
 >
@@ -3148,7 +3144,7 @@ border
 >
 tags
 ;
-FT_Short
+FT_UShort
 *
 write
 =
@@ -3162,12 +3158,9 @@ outline
 >
 n_contours
 ;
-FT_Short
+FT_UShort
 idx
 =
-(
-FT_Short
-)
 outline
 -
 >
@@ -3223,7 +3216,7 @@ n_points
 +
 =
 (
-short
+FT_UShort
 )
 border
 -
@@ -8347,7 +8340,7 @@ FT_Vector
 *
 limit
 ;
-char
+FT_Byte
 *
 tags
 ;

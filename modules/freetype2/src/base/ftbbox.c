@@ -1207,7 +1207,7 @@ outline
 -
 >
 n_contours
-<
+=
 =
 0
 )

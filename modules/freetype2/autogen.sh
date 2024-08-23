@@ -11,7 +11,7 @@ C
 )
 2005
 -
-2023
+2024
 by
 #
 David
@@ -1283,10 +1283,10 @@ dlg
 "
 git
 submodule
-init
-git
-submodule
 update
+-
+-
+init
 fi
 copy_submodule_files
 fi

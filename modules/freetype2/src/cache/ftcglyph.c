@@ -496,7 +496,7 @@ gindex
 FTC_MRULIST_LOOKUP
 (
 &
-cache
+gcache
 -
 >
 families
@@ -557,7 +557,10 @@ num_nodes
 FTC_FAMILY_FREE
 (
 family
-cache
+FTC_CACHE
+(
+gcache
+)
 )
 ;
 }

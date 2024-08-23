@@ -8696,6 +8696,7 @@ if
 !
 error
 )
+{
 (
 *
 aface
@@ -8706,6 +8707,17 @@ num_faces
 =
 count
 ;
+(
+*
+aface
+)
+-
+>
+face_index
+=
+face_index_internal
+;
+}
 }
 return
 error
@@ -21728,7 +21740,7 @@ if
 sfnt
 -
 >
-get_colr_layer
+get_colr_glyph_paint
 )
 return
 sfnt

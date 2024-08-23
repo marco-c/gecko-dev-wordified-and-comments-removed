@@ -130,7 +130,7 @@ FT_Memory
 memory
 FT_UShort
 maxPoints
-FT_Short
+FT_UShort
 maxContours
 TT_GlyphZone
 zone

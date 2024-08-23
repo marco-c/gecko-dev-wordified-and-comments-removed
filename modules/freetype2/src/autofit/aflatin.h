@@ -288,7 +288,7 @@ blue_count
 AF_LatinBlueRec
 blues
 [
-AF_BLUE_STRINGSET_MAX
+AF_BLUE_STRINGSET_MAX_LEN
 ]
 ;
 FT_Fixed

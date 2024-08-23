@@ -3841,7 +3841,7 @@ outline
 >
 points
 ;
-char
+FT_Byte
 *
 tags
 =
@@ -4078,9 +4078,6 @@ glyph
 >
 num_points
 =
-(
-FT_UInt
-)
 outline
 -
 >
@@ -4091,9 +4088,6 @@ glyph
 >
 num_contours
 =
-(
-FT_UInt
-)
 outline
 -
 >
@@ -4149,9 +4143,6 @@ point
 ;
 next
 =
-(
-FT_UInt
-)
 outline
 -
 >

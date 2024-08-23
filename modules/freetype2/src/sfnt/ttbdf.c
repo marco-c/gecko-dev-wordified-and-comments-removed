@@ -464,10 +464,10 @@ bdf
 FT_Size
 size
 =
-FT_FACE_SIZE
-(
 face
-)
+-
+>
+size
 ;
 FT_Error
 error

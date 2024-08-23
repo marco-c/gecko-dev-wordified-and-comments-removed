@@ -16718,7 +16718,7 @@ FT_F26Dot6
 dx
 dy
 ;
-FT_Short
+FT_UShort
 contour
 bounds
 ;
@@ -16730,7 +16730,7 @@ i
 contour
 =
 (
-FT_Short
+FT_UShort
 )
 args
 [
@@ -16820,10 +16820,6 @@ start
 else
 start
 =
-(
-FT_UShort
-)
-(
 exc
 -
 >
@@ -16844,7 +16840,6 @@ exc
 zp2
 .
 first_point
-)
 ;
 if
 (
@@ -16870,10 +16865,6 @@ n_points
 else
 limit
 =
-(
-FT_UShort
-)
-(
 exc
 -
 >
@@ -16883,6 +16874,8 @@ contours
 [
 contour
 ]
++
+1
 -
 exc
 -
@@ -16890,9 +16883,6 @@ exc
 zp2
 .
 first_point
-+
-1
-)
 ;
 for
 (
@@ -17028,9 +17018,6 @@ gep2
 )
 limit
 =
-(
-FT_UShort
-)
 exc
 -
 >
@@ -17063,10 +17050,6 @@ n_contours
 )
 limit
 =
-(
-FT_UShort
-)
-(
 exc
 -
 >
@@ -17085,7 +17068,6 @@ n_contours
 ]
 +
 1
-)
 ;
 else
 limit

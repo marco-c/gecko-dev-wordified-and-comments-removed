@@ -1281,7 +1281,7 @@ FT_STREAM_POS
 )
 +
 4
-+
+-
 (
 FT_ULong
 )
@@ -1289,12 +1289,12 @@ FT_ULong
 stream
 -
 >
-cursor
+limit
 -
 stream
 -
 >
-limit
+cursor
 )
 ;
 break
@@ -4084,10 +4084,10 @@ face
 (
 FNT_Face
 )
-FT_SIZE_FACE
-(
 size
-)
+-
+>
+face
 ;
 FNT_Font
 font

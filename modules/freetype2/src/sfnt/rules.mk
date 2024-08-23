@@ -14,7 +14,7 @@ C
 )
 1996
 -
-2023
+2024
 by
 #
 David
@@ -225,6 +225,14 @@ SFNT_DIR
 )
 /
 ttcpal
+.
+c
+\
+(
+SFNT_DIR
+)
+/
+ttgpos
 .
 c
 \
