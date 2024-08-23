@@ -207,9 +207,6 @@ EXPECT_TRUTHY
 isServiceWorkerScript
 :
 false
-isSystemLoad
-:
-false
 originURL
 :
 "
@@ -419,9 +416,6 @@ loadInfo
 :
 null
 isServiceWorkerScript
-:
-false
-isSystemLoad
 :
 false
 originURL
