@@ -21793,6 +21793,10 @@ nsPrintfCString
 "
 content
 process
+childid
+=
+%
+d
 pid
 =
 %
@@ -21806,6 +21810,9 @@ a
 minidump
 behind
 "
+OtherChildID
+(
+)
 OtherPid
 (
 )

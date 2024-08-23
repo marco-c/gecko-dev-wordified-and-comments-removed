@@ -747,7 +747,7 @@ if
 parent
 -
 >
-OtherPid
+OtherChildID
 (
 )
 =
@@ -755,7 +755,7 @@ OtherPid
 aParent
 -
 >
-OtherPid
+OtherChildID
 (
 )
 )
