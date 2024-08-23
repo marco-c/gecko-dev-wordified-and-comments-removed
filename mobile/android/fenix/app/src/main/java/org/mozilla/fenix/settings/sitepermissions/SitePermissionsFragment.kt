@@ -368,9 +368,7 @@ bindCategoryPhoneFeatures
 {
 PhoneFeature
 .
-values
-(
-)
+entries
 /
 /
 Autoplay

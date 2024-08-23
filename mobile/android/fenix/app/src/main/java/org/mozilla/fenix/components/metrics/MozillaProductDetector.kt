@@ -277,9 +277,7 @@ product
 in
 MozillaProducts
 .
-values
-(
-)
+entries
 )
 {
 if
@@ -477,9 +475,7 @@ false
 return
 MozillaProducts
 .
-values
-(
-)
+entries
 .
 any
 {

@@ -279,9 +279,7 @@ Color
 return
 Color
 .
-values
-(
-)
+entries
 .
 find
 {
@@ -324,9 +322,7 @@ Icon
 return
 Icon
 .
-values
-(
-)
+entries
 .
 find
 {

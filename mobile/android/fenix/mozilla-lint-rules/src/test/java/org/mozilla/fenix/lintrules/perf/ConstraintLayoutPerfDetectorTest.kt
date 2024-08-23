@@ -237,9 +237,7 @@ allTypeButLayout
 =
 ResourceFolderType
 .
-values
-(
-)
+entries
 .
 filter
 {

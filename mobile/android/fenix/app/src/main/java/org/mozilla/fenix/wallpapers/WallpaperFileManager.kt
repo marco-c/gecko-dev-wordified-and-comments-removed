@@ -348,7 +348,9 @@ Wallpaper
 .
 ImageType
 .
-values
+entries
+.
+toTypedArray
 (
 )
 .

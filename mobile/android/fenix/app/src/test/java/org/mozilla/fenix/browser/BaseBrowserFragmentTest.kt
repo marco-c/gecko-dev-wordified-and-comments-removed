@@ -1149,9 +1149,7 @@ DownloadState
 .
 Status
 .
-values
-(
-)
+entries
 .
 filter
 {
@@ -1265,9 +1263,7 @@ DownloadState
 .
 Status
 .
-values
-(
-)
+entries
 .
 filter
 {
@@ -1382,9 +1378,7 @@ DownloadState
 .
 Status
 .
-values
-(
-)
+entries
 .
 filter
 {

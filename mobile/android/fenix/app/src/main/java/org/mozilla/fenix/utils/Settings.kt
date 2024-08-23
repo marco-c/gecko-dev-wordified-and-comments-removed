@@ -5129,9 +5129,7 @@ shouldDeleteAnyDataOnQuit
 =
 DeleteBrowsingDataOnQuitType
 .
-values
-(
-)
+entries
 .
 any
 {

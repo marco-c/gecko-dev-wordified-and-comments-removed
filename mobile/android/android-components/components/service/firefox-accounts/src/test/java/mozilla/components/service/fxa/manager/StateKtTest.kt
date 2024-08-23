@@ -1001,9 +1001,7 @@ sets
 .
 ProgressState
 .
-values
-(
-)
+entries
 .
 forEach
 {

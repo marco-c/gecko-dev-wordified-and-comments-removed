@@ -1863,9 +1863,7 @@ browser
 in
 KnownBrowser
 .
-values
-(
-)
+entries
 )
 {
 if
@@ -2338,13 +2336,7 @@ Boolean
 return
 KnownBrowser
 .
-values
-(
-)
-.
-asSequence
-(
-)
+entries
 .
 firstOrNull
 {

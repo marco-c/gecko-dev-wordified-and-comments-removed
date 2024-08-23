@@ -457,9 +457,7 @@ String
 =
 HighlightType
 .
-values
-(
-)
+entries
 .
 associateWith
 {

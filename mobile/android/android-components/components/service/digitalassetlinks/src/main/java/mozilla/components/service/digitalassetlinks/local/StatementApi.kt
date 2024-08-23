@@ -810,7 +810,9 @@ relationTypes
 =
 Relation
 .
-values
+entries
+.
+toTypedArray
 (
 )
 val

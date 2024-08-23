@@ -1910,9 +1910,7 @@ eq
 (
 VisitType
 .
-values
-(
-)
+entries
 .
 filterNot
 {

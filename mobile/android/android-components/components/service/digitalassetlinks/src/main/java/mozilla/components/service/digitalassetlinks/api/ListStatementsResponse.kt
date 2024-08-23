@@ -272,9 +272,7 @@ relation
 =
 Relation
 .
-values
-(
-)
+entries
 .
 find
 {

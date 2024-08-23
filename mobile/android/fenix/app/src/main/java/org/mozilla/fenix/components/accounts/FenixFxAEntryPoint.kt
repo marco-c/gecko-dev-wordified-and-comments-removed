@@ -672,11 +672,7 @@ readString
 :
 Unknown
 return
-FenixFxAEntryPoint
-.
-values
-(
-)
+entries
 .
 first
 {

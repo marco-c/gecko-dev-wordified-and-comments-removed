@@ -308,7 +308,9 @@ SitePermissions
 .
 AutoplayStatus
 .
-values
+entries
+.
+toTypedArray
 (
 )
 private
@@ -319,7 +321,9 @@ SitePermissions
 .
 Status
 .
-values
+entries
+.
+toTypedArray
 (
 )
 TypeConverter

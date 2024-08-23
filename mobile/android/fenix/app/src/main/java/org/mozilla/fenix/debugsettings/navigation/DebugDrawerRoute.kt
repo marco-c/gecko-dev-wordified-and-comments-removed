@@ -417,11 +417,7 @@ List
 DebugDrawerDestination
 >
 =
-DebugDrawerRoute
-.
-values
-(
-)
+entries
 .
 map
 {

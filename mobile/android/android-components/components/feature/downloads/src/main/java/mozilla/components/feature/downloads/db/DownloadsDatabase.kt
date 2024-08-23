@@ -528,7 +528,9 @@ DownloadState
 .
 Status
 .
-values
+entries
+.
+toTypedArray
 (
 )
 TypeConverter

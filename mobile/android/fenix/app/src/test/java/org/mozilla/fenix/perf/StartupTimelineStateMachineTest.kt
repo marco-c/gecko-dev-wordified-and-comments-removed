@@ -297,9 +297,7 @@ knownDestinations
 =
 StartupDestination
 .
-values
-(
-)
+entries
 .
 filter
 {
@@ -313,7 +311,9 @@ allActivities
 =
 StartupActivity
 .
-values
+entries
+.
+toTypedArray
 (
 )
 knownDestinations

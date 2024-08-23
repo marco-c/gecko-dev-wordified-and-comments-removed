@@ -633,9 +633,7 @@ CookieBannerHandlingMode
 return
 CookieBannerHandlingMode
 .
-values
-(
-)
+entries
 .
 first
 {

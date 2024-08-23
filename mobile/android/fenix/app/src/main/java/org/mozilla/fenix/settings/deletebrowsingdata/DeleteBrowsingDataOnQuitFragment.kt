@@ -165,9 +165,7 @@ requireContext
 )
 DeleteBrowsingDataOnQuitType
 .
-values
-(
-)
+entries
 .
 asSequence
 (

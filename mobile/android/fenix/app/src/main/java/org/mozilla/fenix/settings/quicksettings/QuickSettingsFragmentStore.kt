@@ -827,9 +827,7 @@ feature
 in
 PhoneFeature
 .
-values
-(
-)
+entries
 )
 {
 state

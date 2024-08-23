@@ -324,9 +324,7 @@ getItemCount
 =
 ToolbarConfiguration
 .
-values
-(
-)
+entries
 .
 size
 override
@@ -346,9 +344,7 @@ item
 =
 ToolbarConfiguration
 .
-values
-(
-)
+entries
 [
 position
 ]
@@ -484,9 +480,7 @@ DEFAULT
 label
 ToolbarConfiguration
 .
-values
-(
-)
+entries
 .
 forEach
 {

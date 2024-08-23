@@ -617,9 +617,7 @@ notRedirectTypes
 =
 VisitType
 .
-values
-(
-)
+entries
 .
 filterNot
 {

@@ -257,9 +257,7 @@ WebAppManifest
 .
 Orientation
 .
-values
-(
-)
+entries
 .
 forEach
 {

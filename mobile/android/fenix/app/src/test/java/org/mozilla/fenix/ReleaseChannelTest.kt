@@ -121,9 +121,7 @@ nonDebugChannels
 =
 ReleaseChannel
 .
-values
-(
-)
+entries
 .
 toSet
 (

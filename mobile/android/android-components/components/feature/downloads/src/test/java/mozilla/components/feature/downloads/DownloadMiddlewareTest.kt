@@ -2040,9 +2040,7 @@ DownloadState
 .
 Status
 .
-values
-(
-)
+entries
 .
 filter
 {

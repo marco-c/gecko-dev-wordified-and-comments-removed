@@ -645,9 +645,7 @@ ShareTarget
 .
 EncodingType
 .
-values
-(
-)
+entries
 .
 find
 {
