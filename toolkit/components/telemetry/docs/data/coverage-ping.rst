@@ -56,6 +56,9 @@ contains
 no
 client
 id
+profile
+group
+id
 and
 no
 environment

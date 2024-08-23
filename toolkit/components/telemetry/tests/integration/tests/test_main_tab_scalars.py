@@ -151,6 +151,21 @@ clientId
 "
 ]
     
+assert
+browser
+.
+get_profile_group_id
+(
+)
+=
+=
+ping
+[
+"
+profileGroupId
+"
+]
+    
 scalars
 =
 ping

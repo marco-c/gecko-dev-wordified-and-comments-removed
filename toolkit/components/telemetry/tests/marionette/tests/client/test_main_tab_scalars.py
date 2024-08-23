@@ -241,6 +241,21 @@ self
 client_id
 )
         
+self
+.
+assertEqual
+(
+ping
+[
+"
+profileGroupId
+"
+]
+self
+.
+profile_group_id
+)
+        
 scalars
 =
 ping

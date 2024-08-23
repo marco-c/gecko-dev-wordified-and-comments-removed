@@ -31,7 +31,11 @@ records
 The
 client
 id
-is
+and
+profile
+group
+id
+are
 submitted
 with
 this
@@ -81,6 +85,13 @@ ping
 data
 "
 clientId
+"
+:
+<
+UUID
+>
+"
+profileGroupId
 "
 :
 <
