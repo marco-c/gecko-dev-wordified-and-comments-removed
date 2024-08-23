@@ -277,6 +277,7 @@ animation
 {
 AnimationComposition
 AnimationDirection
+AnimationDuration
 AnimationFillMode
 AnimationIterationCount
 AnimationName

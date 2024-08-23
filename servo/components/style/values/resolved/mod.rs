@@ -52,6 +52,9 @@ smallvec
 SmallVec
 ;
 mod
+animation
+;
+mod
 color
 ;
 mod
