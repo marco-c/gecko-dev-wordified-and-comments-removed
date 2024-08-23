@@ -37404,12 +37404,6 @@ aRect
 )
 ;
 }
-uint8_t
-nsIFrame
-:
-:
-sLayerIsPrerenderedDataKey
-;
 bool
 nsIFrame
 :
