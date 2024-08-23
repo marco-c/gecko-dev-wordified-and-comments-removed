@@ -3478,8 +3478,13 @@ DownloadUtils
 guessFileName
 (
 contentDisposition
-null
+=
+contentDisposition
 url
+=
+url
+mimeType
+=
 mimetype
 )
 val

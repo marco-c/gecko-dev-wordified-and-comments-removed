@@ -1958,9 +1958,6 @@ DownloadUtils
 guessFileName
 (
 disposition
-destinationDirectory
-=
-null
 url
 =
 url
@@ -8276,9 +8273,6 @@ DownloadUtils
 guessFileName
 (
 contentDisposition
-destinationDirectory
-=
-null
 url
 =
 url
