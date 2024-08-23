@@ -106,6 +106,16 @@ lib
 state
 .
 Store
+import
+mozilla
+.
+components
+.
+lib
+.
+state
+.
+UiStore
 /
 *
 *
@@ -1030,7 +1040,7 @@ emptyList
 )
 )
 :
-Store
+UiStore
 <
 CfrToolsState
 CfrToolsAction
