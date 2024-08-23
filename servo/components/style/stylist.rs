@@ -12594,6 +12594,13 @@ rule
 scope_condition_id
 stylist
 element
+rule
+.
+selector
+.
+is_part
+(
+)
 context
 )
 ;
@@ -12672,6 +12679,9 @@ Stylist
 element
 :
 E
+override_matches_shadow_host_for_part
+:
+bool
 context
 :
 &
@@ -12747,6 +12757,7 @@ condition_ref
 parent
 stylist
 element
+override_matches_shadow_host_for_part
 context
 )
 ;
@@ -13132,6 +13143,14 @@ matches_shadow_host
 }
 }
 }
+;
+let
+matches_shadow_host
+=
+override_matches_shadow_host_for_part
+|
+|
+matches_shadow_host
 ;
 let
 potential_scope_roots
@@ -17208,6 +17227,7 @@ u16
 stylist
 *
 element
+false
 matching_context
 )
 ;
