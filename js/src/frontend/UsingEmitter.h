@@ -89,6 +89,11 @@ TryEmitter
 >
 tryEmitter_
 ;
+bool
+hasAwaitUsing_
+=
+false
+;
 [
 [
 nodiscard
@@ -97,6 +102,9 @@ nodiscard
 bool
 emitDisposeLoop
 (
+EmitterScope
+&
+es
 CompletionKind
 initialCompletion
 =

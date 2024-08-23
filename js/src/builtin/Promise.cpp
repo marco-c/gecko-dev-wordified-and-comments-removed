@@ -2566,8 +2566,10 @@ UnhandledRejectionBehavior
 behavior
 )
 ;
-static
 bool
+js
+:
+:
 AbruptRejectPromise
 (
 JSContext

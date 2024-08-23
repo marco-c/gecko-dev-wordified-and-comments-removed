@@ -179,6 +179,14 @@ MACRO
 dispose
 )
 )
+\
+IF_EXPLICIT_RESOURCE_MANAGEMENT
+(
+MACRO
+(
+asyncDispose
+)
+)
 enum
 class
 SymbolCode
