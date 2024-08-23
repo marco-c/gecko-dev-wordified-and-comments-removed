@@ -77,8 +77,6 @@ features
 -
 group
 -
-customize
--
 browsing
 "
 description
@@ -129,8 +127,6 @@ features
 -
 group
 -
-customize
--
 browsing
 "
 description
@@ -178,8 +174,6 @@ experimental
 features
 -
 group
--
-customize
 -
 browsing
 "
