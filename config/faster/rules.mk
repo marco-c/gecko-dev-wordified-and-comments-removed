@@ -977,6 +977,10 @@ rs
 .
 stub
 :
+(
+TOPOBJDIR
+)
+/
 buildid
 .
 h
