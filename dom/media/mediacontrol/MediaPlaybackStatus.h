@@ -36,6 +36,13 @@ h
 #
 include
 "
+nsID
+.
+h
+"
+#
+include
+"
 nsISupportsImpl
 .
 h
@@ -51,13 +58,6 @@ h
 include
 "
 nsTHashMap
-.
-h
-"
-#
-include
-"
-nsID
 .
 h
 "
