@@ -1161,6 +1161,9 @@ name
 "
 AudioDecoder
 "
+android
+:
+false
 }
 {
 name
@@ -1188,6 +1191,9 @@ name
 "
 AudioEncoder
 "
+android
+:
+false
 }
 {
 name
@@ -2269,6 +2275,9 @@ EncodedAudioChunk
 insecureContext
 :
 true
+android
+:
+false
 }
 {
 name
@@ -2279,6 +2288,9 @@ EncodedVideoChunk
 insecureContext
 :
 true
+android
+:
+false
 }
 {
 name
@@ -7295,6 +7307,9 @@ VideoColorSpace
 insecureContext
 :
 true
+android
+:
+false
 }
 {
 name
@@ -7302,6 +7317,9 @@ name
 "
 VideoDecoder
 "
+android
+:
+false
 }
 {
 name
@@ -7309,6 +7327,9 @@ name
 "
 VideoEncoder
 "
+android
+:
+false
 }
 {
 name
