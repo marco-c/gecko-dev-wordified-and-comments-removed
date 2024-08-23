@@ -73,6 +73,11 @@ clientId
 <
 UUID
 >
+profileGroupId
+:
+<
+UUID
+>
 environment
 :
 {

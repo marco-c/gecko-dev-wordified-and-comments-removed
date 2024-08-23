@@ -69,7 +69,11 @@ use
 The
 client
 ID
-is
+and
+profile
+group
+ID
+are
 submitted
 with
 this
@@ -107,6 +111,11 @@ common
 ping
 data
 clientId
+:
+<
+UUID
+>
+profileGroupId
 :
 <
 UUID

@@ -61,7 +61,11 @@ experiments
 The
 client
 ID
-is
+and
+profile
+group
+ID
+are
 submitted
 with
 this
@@ -89,6 +93,11 @@ uitour
 tag
 "
 clientId
+:
+<
+string
+>
+profileGroupId
 :
 <
 string

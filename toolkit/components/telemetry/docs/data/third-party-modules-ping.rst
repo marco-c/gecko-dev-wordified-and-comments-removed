@@ -93,6 +93,13 @@ clientId
 UUID
 >
 "
+profileGroupId
+"
+:
+<
+UUID
+>
+"
 environment
 "
 :
@@ -1162,7 +1169,11 @@ Notes
 The
 client
 id
-is
+and
+profile
+group
+id
+are
 submitted
 with
 this

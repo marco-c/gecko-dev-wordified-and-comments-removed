@@ -157,6 +157,10 @@ add
 the
 client
 id
+and
+profile
+group
+id
 to
 the
 ping
