@@ -64,9 +64,3 @@ are
 now
 testing
 !
-Let
-'
-s
-try
-again
-!
