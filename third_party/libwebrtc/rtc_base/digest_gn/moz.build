@@ -241,9 +241,9 @@ third_party
 /
 libwebrtc
 /
-call
+rtc_base
 /
-video_receive_stream
+message_digest
 .
 cc
 "
@@ -253,9 +253,9 @@ third_party
 /
 libwebrtc
 /
-call
+rtc_base
 /
-video_send_stream
+openssl_digest
 .
 cc
 "
@@ -425,9 +425,6 @@ OS_LIBS
 +
 =
 [
-"
-GLESv2
-"
 "
 log
 "
@@ -622,14 +619,6 @@ __STDC_FORMAT_MACROS
 ]
 =
 True
-OS_LIBS
-+
-=
-[
-"
-rt
-"
-]
 if
 CONFIG
 [
@@ -970,9 +959,6 @@ iphlpapi
 "
 "
 secur32
-"
-"
-winmm
 "
 ]
 if
@@ -1565,6 +1551,6 @@ True
 Library
 (
 "
-video_stream_api_gn
+digest_gn
 "
 )
