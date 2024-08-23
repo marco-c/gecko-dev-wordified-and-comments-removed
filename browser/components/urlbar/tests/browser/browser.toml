@@ -329,6 +329,17 @@ js
 https_first_disabled
 =
 true
+support
+-
+files
+=
+[
+"
+slow_loading_page
+.
+sjs
+"
+]
 [
 "
 browser_UrlbarInput_untrimOnUserInteraction
