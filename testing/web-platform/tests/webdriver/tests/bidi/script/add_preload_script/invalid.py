@@ -474,6 +474,7 @@ function_declaration
 arguments
 =
 [
+                
 {
 "
 type
@@ -488,12 +489,20 @@ value
 :
 {
 "
+channel
+"
+:
+"
+foo
+"
+"
 ownership
 "
 :
 ownership
 }
 }
+            
 ]
         
 )
@@ -538,7 +547,9 @@ function_declaration
 arguments
 =
 [
+                
 {
+                    
 "
 type
 "
@@ -546,12 +557,19 @@ type
 "
 channel
 "
+                    
 "
 value
 "
 :
 {
-                
+"
+channel
+"
+:
+"
+foo
+"
 "
 ownership
 "
@@ -560,7 +578,9 @@ ownership
 _UNKNOWN_
 "
 }
+                
 }
+            
 ]
         
 )
@@ -642,11 +662,21 @@ value
 "
 :
 {
+                        
+"
+channel
+"
+:
+"
+foo
+"
+                        
 "
 serializationOptions
 "
 :
 serialization_options
+                    
 }
                 
 }
@@ -733,6 +763,15 @@ value
 "
 :
 {
+                        
+"
+channel
+"
+:
+"
+foo
+"
+                        
 "
 serializationOptions
 "
@@ -744,6 +783,7 @@ maxDomDepth
 :
 max_dom_depth
 }
+                    
 }
                 
 }
@@ -808,6 +848,15 @@ value
 "
 :
 {
+                        
+"
+channel
+"
+:
+"
+foo
+"
+                        
 "
 serializationOptions
 "
@@ -820,6 +869,7 @@ maxDomDepth
 -
 1
 }
+                    
 }
                 
 }
@@ -908,6 +958,14 @@ value
 {
                         
 "
+channel
+"
+:
+"
+foo
+"
+                        
+"
 serializationOptions
 "
 :
@@ -983,6 +1041,15 @@ value
 "
 :
 {
+                        
+"
+channel
+"
+:
+"
+foo
+"
+                        
 "
 serializationOptions
 "
@@ -995,6 +1062,7 @@ maxObjectDepth
 -
 1
 }
+                    
 }
                 
 }
@@ -1081,6 +1149,14 @@ value
 {
                         
 "
+channel
+"
+:
+"
+foo
+"
+                        
+"
 serializationOptions
 "
 :
@@ -1160,6 +1236,14 @@ value
 {
                         
 "
+channel
+"
+:
+"
+foo
+"
+                        
+"
 serializationOptions
 "
 :
@@ -1192,9 +1276,9 @@ contexts
 [
 False
 42
-'
+"
 _UNKNOWN_
-'
+"
 {
 }
 ]
@@ -1237,7 +1321,6 @@ function_declaration
 {
 }
 "
-            
 contexts
 =
 contexts
@@ -1280,7 +1363,6 @@ function_declaration
 {
 }
 "
-            
 contexts
 =
 [
@@ -1344,7 +1426,6 @@ function_declaration
 {
 }
 "
-            
 contexts
 =
 [
@@ -1407,7 +1488,6 @@ function_declaration
 {
 }
 "
-            
 contexts
 =
 [
@@ -1419,6 +1499,7 @@ async
 def
 test_params_contexts_context_non_top_level
 (
+    
 bidi_session
 new_tab
 test_page_same_origin_frame
@@ -1543,15 +1624,14 @@ function_declaration
 {
 }
 "
-            
 contexts
 =
 [
 child_info
 [
-'
+"
 context
-'
+"
 ]
 ]
         

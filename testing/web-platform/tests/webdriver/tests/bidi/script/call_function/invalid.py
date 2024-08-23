@@ -17,9 +17,14 @@ modules
 .
 script
 import
+(
+    
 ContextTarget
+    
 RealmTarget
+    
 SerializationOptions
+)
 pytestmark
 =
 pytest
@@ -87,14 +92,13 @@ arg
 >
 arg
 "
-            
 await_promise
 =
 False
-            
 target
 =
 target
+        
 )
 pytest
 .
@@ -164,6 +168,7 @@ ContextTarget
 (
 context
 )
+        
 )
 pytest
 .
@@ -237,9 +242,9 @@ top_context
 context
 "
 ]
-                                 
 sandbox
 )
+        
 )
 async
 def
@@ -291,6 +296,7 @@ ContextTarget
 _UNKNOWN_
 "
 )
+        
 )
 pytest
 .
@@ -360,6 +366,7 @@ RealmTarget
 (
 realm
 )
+        
 )
 async
 def
@@ -411,6 +418,7 @@ RealmTarget
 _UNKNOWN_
 "
 )
+        
 )
 pytest
 .
@@ -435,9 +443,9 @@ async
 def
 test_params_function_declaration_invalid_type
 (
+    
 bidi_session
 top_context
-                                                        
 function_declaration
 )
 :
@@ -480,6 +488,7 @@ context
 "
 ]
 )
+        
 )
 pytest
 .
@@ -508,7 +517,6 @@ test_params_this_invalid_type
 (
 bidi_session
 top_context
-                                        
 this
 )
 :
@@ -562,6 +570,7 @@ context
 "
 ]
 )
+        
 )
 pytest
 .
@@ -588,7 +597,6 @@ test_params_arguments_invalid_type
 (
 bidi_session
 top_context
-                                             
 arguments
 )
 :
@@ -642,6 +650,7 @@ context
 "
 ]
 )
+        
 )
 pytest
 .
@@ -670,7 +679,6 @@ test_params_arguments_entry_invalid_type
 (
 bidi_session
 top_context
-                                                   
 argument
 )
 :
@@ -726,6 +734,7 @@ context
 "
 ]
 )
+        
 )
 pytest
 .
@@ -1190,11 +1199,21 @@ value
 "
 :
 {
+                        
+"
+channel
+"
+:
+"
+foo
+"
+                        
 "
 serializationOptions
 "
 :
 serialization_options
+                    
 }
                 
 }
@@ -1300,6 +1319,14 @@ value
 {
                         
 "
+channel
+"
+:
+"
+foo
+"
+                        
+"
 serializationOptions
 "
 :
@@ -1393,6 +1420,14 @@ value
 "
 :
 {
+                        
+"
+channel
+"
+:
+"
+foo
+"
                         
 "
 serializationOptions
@@ -1512,6 +1547,14 @@ value
 {
                         
 "
+channel
+"
+:
+"
+foo
+"
+                        
+"
 serializationOptions
 "
 :
@@ -1605,6 +1648,15 @@ value
 "
 :
 {
+                        
+"
+channel
+"
+:
+"
+foo
+"
+                        
 "
 serializationOptions
 "
@@ -1617,6 +1669,7 @@ maxObjectDepth
 -
 1
 }
+                    
 }
                 
 }
@@ -1720,6 +1773,14 @@ value
 {
                         
 "
+channel
+"
+:
+"
+foo
+"
+                        
+"
 serializationOptions
 "
 :
@@ -1817,6 +1878,14 @@ value
 {
                         
 "
+channel
+"
+:
+"
+foo
+"
+                        
+"
 serializationOptions
 "
 :
@@ -1876,7 +1945,6 @@ async
 def
 test_params_arguments_handle_invalid_type
 (
-    
 bidi_session
 top_context
 value
@@ -1946,12 +2014,12 @@ context
 "
 ]
 )
+        
 )
 async
 def
 test_params_arguments_handle_unknown_value
 (
-    
 bidi_session
 top_context
 )
@@ -2022,6 +2090,7 @@ context
 "
 ]
 )
+        
 )
 pytest
 .
@@ -2046,7 +2115,6 @@ async
 def
 test_params_arguments_sharedId_invalid_type
 (
-    
 bidi_session
 top_context
 value
@@ -2116,6 +2184,7 @@ context
 "
 ]
 )
+        
 )
 pytest
 .
@@ -2143,9 +2212,9 @@ async
 def
 test_params_await_promise_invalid_type
 (
+    
 bidi_session
 top_context
-                                                 
 await_promise
 )
 :
@@ -2195,6 +2264,7 @@ context
 "
 ]
 )
+        
 )
 pytest
 .
@@ -2221,9 +2291,9 @@ async
 def
 test_params_result_ownership_invalid_value
 (
+    
 bidi_session
 top_context
-                                                     
 result_ownership
 )
 :
@@ -2277,6 +2347,7 @@ context
 result_ownership
 =
 result_ownership
+        
 )
 pytest
 .
@@ -2301,6 +2372,7 @@ async
 def
 test_params_serialization_options_invalid_type
 (
+    
 bidi_session
 top_context
 serialization_options
@@ -2356,6 +2428,7 @@ context
 await_promise
 =
 True
+        
 )
 pytest
 .
@@ -2381,6 +2454,7 @@ async
 def
 test_params_max_dom_depth_invalid_type
 (
+    
 bidi_session
 top_context
 max_dom_depth
@@ -2441,6 +2515,7 @@ context
 await_promise
 =
 True
+        
 )
 async
 def
@@ -2506,6 +2581,7 @@ context
 await_promise
 =
 True
+        
 )
 pytest
 .
@@ -2531,6 +2607,7 @@ async
 def
 test_params_max_object_depth_invalid_type
 (
+    
 bidi_session
 top_context
 max_object_depth
@@ -2571,9 +2648,11 @@ serialization_options
 =
 SerializationOptions
 (
+                
 max_object_depth
 =
 max_object_depth
+            
 )
             
 target
@@ -2591,6 +2670,7 @@ context
 await_promise
 =
 True
+        
 )
 async
 def
@@ -2656,6 +2736,7 @@ context
 await_promise
 =
 True
+        
 )
 pytest
 .
@@ -2679,6 +2760,7 @@ async
 def
 test_params_include_shadow_tree_invalid_type
 (
+    
 bidi_session
 top_context
 include_shadow_tree
@@ -2719,9 +2801,11 @@ serialization_options
 =
 SerializationOptions
 (
+                
 include_shadow_tree
 =
 include_shadow_tree
+            
 )
             
 target
@@ -2739,6 +2823,7 @@ context
 await_promise
 =
 True
+        
 )
 async
 def
@@ -2805,6 +2890,7 @@ context
 await_promise
 =
 True
+        
 )
 pytest
 .
@@ -2830,6 +2916,7 @@ async
 def
 test_params_user_activation_invalid_type
 (
+    
 bidi_session
 top_context
 user_activation
@@ -2885,4 +2972,5 @@ False
 user_activation
 =
 user_activation
+        
 )
