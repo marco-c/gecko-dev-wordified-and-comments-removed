@@ -931,7 +931,7 @@ constexpr
 uint32_t
 RESERVED_SLOTS
 =
-3
+4
 ;
 #
 else
@@ -1480,7 +1480,7 @@ constexpr
 uint32_t
 RESERVED_SLOTS
 =
-3
+4
 ;
 #
 else

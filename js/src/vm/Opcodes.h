@@ -3218,7 +3218,7 @@ take_dispose_capability
 NULL
 1
 0
-2
+1
 JOF_BYTE
 )
 )

@@ -101,6 +101,16 @@ nodiscard
 ]
 ]
 bool
+emitTakeDisposeCapability
+(
+)
+;
+[
+[
+nodiscard
+]
+]
+bool
 emitDisposeLoop
 (
 EmitterScope
