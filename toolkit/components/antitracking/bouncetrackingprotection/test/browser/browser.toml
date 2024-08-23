@@ -100,6 +100,13 @@ js
 ]
 [
 "
+browser_bouncetracking_cookie_behavior
+.
+js
+"
+]
+[
+"
 browser_bouncetracking_dry_run
 .
 js
@@ -107,7 +114,7 @@ js
 ]
 [
 "
-browser_bouncetracking_initialize
+browser_bouncetracking_mode_prefs
 .
 js
 "
