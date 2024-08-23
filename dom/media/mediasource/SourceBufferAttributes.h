@@ -16,9 +16,7 @@ include
 "
 mozilla
 /
-dom
-/
-SourceBufferBinding
+Maybe
 .
 h
 "
@@ -27,7 +25,9 @@ include
 "
 mozilla
 /
-Maybe
+dom
+/
+SourceBufferBinding
 .
 h
 "
