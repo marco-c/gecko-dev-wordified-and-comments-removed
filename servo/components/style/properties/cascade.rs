@@ -2469,7 +2469,7 @@ Declaration
 a
 >
 ;
-32
+64
 ]
 >
 prioritary_positions
