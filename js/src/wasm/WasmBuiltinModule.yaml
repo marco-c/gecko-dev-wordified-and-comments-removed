@@ -1313,6 +1313,9 @@ Instance
 :
 :
 stringTest
+inline_op
+:
+StringTest
 export
 :
 test
@@ -1351,6 +1354,9 @@ Instance
 :
 :
 stringCast
+inline_op
+:
+StringCast
 export
 :
 cast
