@@ -226,16 +226,13 @@ debug
 (
                         
 f
-'
+"
 not
 replacing
 {
 task
-[
-"
+.
 label
-"
-]
 }
 with
 {
@@ -249,7 +246,7 @@ failed
 or
 exception
 state
-'
+"
                     
 )
                     
@@ -292,16 +289,13 @@ debug
 (
                         
 f
-'
+"
 not
 replacing
 {
 task
-[
-"
+.
 label
-"
-]
 }
 with
 {
@@ -314,7 +308,7 @@ before
 {
 deadline
 }
-'
+"
                     
 )
                     
