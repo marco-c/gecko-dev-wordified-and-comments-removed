@@ -211,6 +211,11 @@ audio_frame
 h
 "
 "
+audio_view
+.
+h
+"
+"
 channel_layout
 .
 cc

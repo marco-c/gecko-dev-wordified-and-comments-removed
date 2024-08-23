@@ -1516,7 +1516,6 @@ audio_frame
 muted
 )
 "
-dst_sample_rate_hz
 "
 )
 ;

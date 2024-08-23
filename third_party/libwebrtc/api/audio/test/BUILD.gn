@@ -160,6 +160,11 @@ audio_frame_unittest
 cc
 "
 "
+audio_view_unittest
+.
+cc
+"
+"
 echo_canceller3_config_unittest
 .
 cc
