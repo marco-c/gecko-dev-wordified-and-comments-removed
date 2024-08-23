@@ -1296,9 +1296,6 @@ key
 )
 )
 ;
-return
-url
-;
 }
 return
 Promise
