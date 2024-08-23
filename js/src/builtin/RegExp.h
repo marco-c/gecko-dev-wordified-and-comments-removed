@@ -698,6 +698,13 @@ regexp_static_props
 ;
 extern
 const
+JSFunctionSpec
+regexp_static_methods
+[
+]
+;
+extern
+const
 JSPropertySpec
 regexp_properties
 [
