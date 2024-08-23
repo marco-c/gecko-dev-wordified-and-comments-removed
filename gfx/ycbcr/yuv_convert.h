@@ -75,6 +75,17 @@ FILTER_BILINEAR
 3
 }
 ;
+enum
+RGB32Type
+{
+ARGB
+=
+0
+ABGR
+=
+1
+}
+;
 void
 ConvertYCbCrToRGB32
 (
@@ -113,6 +124,8 @@ YUVColorSpace
 yuv_color_space
 ColorRange
 color_range
+RGB32Type
+rgb32_type
 )
 ;
 void
@@ -149,6 +162,8 @@ int
 rgbstride
 YUVType
 yuv_type
+RGB32Type
+rgb32_type
 )
 ;
 void
