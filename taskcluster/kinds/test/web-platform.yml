@@ -2541,6 +2541,9 @@ gpu
 tier
 :
 2
+chunks
+:
+2
 max
 -
 run
@@ -2639,6 +2642,9 @@ trunk
 ]
 mozharness
 :
+chunked
+:
+true
 extra
 -
 options
