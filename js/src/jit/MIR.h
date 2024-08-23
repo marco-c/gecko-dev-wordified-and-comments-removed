@@ -43168,11 +43168,11 @@ MQuaternaryInstruction
 public
 MixPolicy
 <
-TruncateToInt32OrToBigIntPolicy
+TruncateToInt32OrToInt64Policy
 <
 2
 >
-TruncateToInt32OrToBigIntPolicy
+TruncateToInt32OrToInt64Policy
 <
 3
 >
