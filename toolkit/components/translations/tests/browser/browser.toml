@@ -251,6 +251,13 @@ js
 ]
 [
 "
+browser_translations_actor_sync_wasm
+.
+js
+"
+]
+[
+"
 browser_translations_actor_versioning
 .
 js
