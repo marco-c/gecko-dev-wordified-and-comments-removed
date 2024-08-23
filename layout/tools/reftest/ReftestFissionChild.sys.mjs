@@ -1633,6 +1633,11 @@ false
 ;
 if
 (
+this
+.
+contentWindow
+&
+&
 needsAnimationFrame
 )
 {
