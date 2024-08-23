@@ -188,8 +188,6 @@ color
 ruleview
 -
 unmatched
--
-variable
 "
 "
 -

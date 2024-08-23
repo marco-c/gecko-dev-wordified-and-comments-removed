@@ -1778,8 +1778,6 @@ querySelector
 ruleview
 -
 unmatched
--
-variable
 "
 )
 .

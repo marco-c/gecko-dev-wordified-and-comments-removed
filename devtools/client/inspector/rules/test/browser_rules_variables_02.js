@@ -164,8 +164,6 @@ querySelector
 ruleview
 -
 unmatched
--
-variable
 "
 )
 ;
@@ -445,8 +443,6 @@ querySelector
 ruleview
 -
 unmatched
--
-variable
 "
 )
 ;
@@ -768,8 +764,6 @@ querySelector
 ruleview
 -
 unmatched
--
-variable
 "
 )
 ;
@@ -1330,8 +1324,6 @@ querySelector
 ruleview
 -
 unmatched
--
-variable
 "
 )
 ;
@@ -1470,8 +1462,6 @@ querySelectorAll
 ruleview
 -
 unmatched
--
-variable
 "
 )
 ;
@@ -1716,8 +1706,6 @@ querySelectorAll
 ruleview
 -
 unmatched
--
-variable
 "
 )
 ;

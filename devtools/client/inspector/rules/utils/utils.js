@@ -719,8 +719,6 @@ contains
 ruleview
 -
 unmatched
--
-variable
 "
 )
 )

@@ -6296,7 +6296,7 @@ text
 getVariableData
 :
 getData
-unmatchedVariableClass
+unmatchedClass
 :
 "
 unmatched
@@ -7222,7 +7222,7 @@ getVariableData
 {
 }
 )
-unmatchedVariableClass
+unmatchedClass
 :
 "
 unmatched

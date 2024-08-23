@@ -3374,8 +3374,6 @@ variable
 ruleview
 -
 unmatched
--
-variable
 "
 )
 )

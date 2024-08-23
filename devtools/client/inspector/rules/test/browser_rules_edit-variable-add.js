@@ -123,8 +123,6 @@ color
 ruleview
 -
 unmatched
--
-variable
 "
 "
 -
