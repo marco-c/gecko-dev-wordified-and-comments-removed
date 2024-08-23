@@ -58,7 +58,7 @@ SpecialPowers
 /
 import
 {
-getUsageForOrigin
+getCachedUsageForOrigin
 }
 from
 "
@@ -95,16 +95,13 @@ const
 result
 =
 await
-getUsageForOrigin
+getCachedUsageForOrigin
 (
 principal
-true
 )
 ;
 return
 result
-.
-usage
 ;
 }
 }

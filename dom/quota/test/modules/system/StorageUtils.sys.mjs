@@ -272,10 +272,9 @@ pref
 export
 async
 function
-getUsageForOrigin
+getCachedUsageForOrigin
 (
 principal
-fromMemory
 )
 {
 const
@@ -285,7 +284,7 @@ Services
 .
 qms
 .
-getUsageForPrincipal
+getCachedUsageForPrincipal
 (
 principal
 function
@@ -293,7 +292,6 @@ function
 )
 {
 }
-fromMemory
 )
 ;
 await

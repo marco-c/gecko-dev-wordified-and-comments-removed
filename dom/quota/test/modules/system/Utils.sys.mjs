@@ -32,7 +32,7 @@ zero
 /
 import
 {
-getUsageForOrigin
+getCachedUsageForOrigin
 resetStorage
 }
 from
@@ -97,16 +97,13 @@ const
 result
 =
 await
-getUsageForOrigin
+getCachedUsageForOrigin
 (
 principal
-true
 )
 ;
 return
 result
-.
-usage
 ;
 }
 async
