@@ -4235,6 +4235,7 @@ ret
 CreateDisplayLocked
 (
 false
+false
 out_failureId
 lock
 )
@@ -4262,6 +4263,9 @@ CreateDisplay
 const
 bool
 forceAccel
+const
+bool
+forceSoftware
 nsACString
 *
 const
@@ -4278,6 +4282,7 @@ return
 CreateDisplayLocked
 (
 forceAccel
+forceSoftware
 out_failureId
 lock
 )
@@ -4298,6 +4303,9 @@ CreateDisplayLocked
 const
 bool
 forceAccel
+const
+bool
+forceSoftware
 nsACString
 *
 const
@@ -4343,10 +4351,16 @@ accelAngleFailureId
 bool
 shouldTryAccel
 =
+(
 forceAccel
 |
 |
 accelAngleSupport
+)
+&
+&
+!
+forceSoftware
 ;
 bool
 shouldTryWARP
@@ -4551,6 +4565,7 @@ if
 ret
 &
 &
+(
 !
 gfx
 :
@@ -4560,6 +4575,10 @@ gfxVars
 :
 WebglUseHardware
 (
+)
+|
+|
+forceSoftware
 )
 )
 {

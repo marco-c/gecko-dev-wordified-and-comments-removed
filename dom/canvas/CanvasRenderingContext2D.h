@@ -4093,7 +4093,7 @@ font
 ;
 }
 bool
-GetEffectiveWillReadFrequently
+UseSoftwareRendering
 (
 )
 const
