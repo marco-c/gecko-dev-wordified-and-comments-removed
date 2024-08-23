@@ -1669,6 +1669,9 @@ event
 "
 )
 ;
+const
+rule
+=
 await
 onNewRuleAdded
 ;
@@ -1684,6 +1687,9 @@ added
 "
 )
 ;
+return
+rule
+;
 }
 async
 function
@@ -1695,6 +1701,9 @@ expectedSelector
 expectedIndex
 )
 {
+const
+rule
+=
 await
 addNewRule
 (
@@ -1801,6 +1810,9 @@ text
 +
 expectedSelector
 )
+;
+return
+rule
 ;
 }
 async
