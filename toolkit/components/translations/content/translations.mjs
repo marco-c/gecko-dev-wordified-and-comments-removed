@@ -1453,16 +1453,8 @@ this
 .
 translator
 .
-then
-(
-translator
-=
->
-translator
-.
 destroy
 (
-)
 )
 ;
 this
