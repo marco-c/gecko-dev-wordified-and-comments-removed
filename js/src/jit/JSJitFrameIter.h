@@ -97,7 +97,6 @@ IonICCall
 Exit
 Bailout
 WasmToJSJit
-JSJitToWasm
 TrampolineNative
 }
 ;
@@ -203,8 +202,6 @@ const
 JitActivation
 *
 activation
-FrameType
-frameType
 uint8_t
 *
 fp
