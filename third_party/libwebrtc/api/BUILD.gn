@@ -641,10 +641,6 @@ video
 :
 video_rtp_headers
 "
-]
-absl_deps
-=
-[
 "
 /
 /
