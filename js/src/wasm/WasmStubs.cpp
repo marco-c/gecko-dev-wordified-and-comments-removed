@@ -11954,10 +11954,12 @@ FuncType
 funcType
 unsigned
 funcImportIndex
+uint32_t
+fallbackOffset
 Label
 *
 throwLabel
-CallableOffsets
+ImportOffsets
 *
 offsets
 )
@@ -12084,6 +12086,7 @@ GenerateJitExitPrologue
 (
 masm
 jitFramePushed
+fallbackOffset
 offsets
 )
 ;
@@ -16990,7 +16993,7 @@ canHaveJitExit
 continue
 ;
 }
-CallableOffsets
+ImportOffsets
 jitOffsets
 ;
 if
@@ -17002,6 +17005,9 @@ masm
 fi
 funcType
 funcIndex
+interpOffsets
+.
+begin
 &
 throwLabel
 &

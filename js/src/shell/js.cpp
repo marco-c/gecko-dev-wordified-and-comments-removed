@@ -40836,6 +40836,9 @@ i
 +
 )
 {
+#
+ifndef
+ENABLE_WASM_JSPI
 MOZ_ASSERT
 (
 frames
@@ -40851,6 +40854,8 @@ state
 sp
 )
 ;
+#
+endif
 if
 (
 frameNo

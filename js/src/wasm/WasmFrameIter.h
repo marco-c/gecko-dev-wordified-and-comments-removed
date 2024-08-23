@@ -76,6 +76,9 @@ struct
 CallableOffsets
 ;
 struct
+ImportOffsets
+;
+struct
 FuncOffsets
 ;
 struct
@@ -971,7 +974,9 @@ MacroAssembler
 masm
 unsigned
 framePushed
-CallableOffsets
+uint32_t
+fallbackOffset
+ImportOffsets
 *
 offsets
 )
