@@ -63,6 +63,7 @@ OptSourceNoBacktrace
 [
 source
 ]
+pub
 source
 :
 Option
@@ -100,6 +101,7 @@ OptSourceAlwaysBacktrace
 [
 source
 ]
+pub
 source
 :
 Option
@@ -109,6 +111,7 @@ anyhow
 :
 Error
 >
+pub
 backtrace
 :
 Backtrace
@@ -140,6 +143,7 @@ NoSourceOptBacktrace
 [
 backtrace
 ]
+pub
 backtrace
 :
 Option
@@ -170,6 +174,7 @@ pub
 struct
 AlwaysSourceOptBacktrace
 {
+pub
 source
 :
 anyhow
@@ -180,6 +185,7 @@ Error
 [
 backtrace
 ]
+pub
 backtrace
 :
 Option
@@ -214,6 +220,7 @@ OptSourceOptBacktrace
 [
 source
 ]
+pub
 source
 :
 Option
@@ -227,6 +234,7 @@ Error
 [
 backtrace
 ]
+pub
 backtrace
 :
 Option
@@ -488,6 +496,15 @@ not
 thiserror_nightly_testing
 )
 ignore
+=
+"
+requires
+-
+-
+cfg
+=
+thiserror_nightly_testing
+"
 )
 ]
 fn
