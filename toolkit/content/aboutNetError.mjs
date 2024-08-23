@@ -286,6 +286,11 @@ netTimeout
 title
 "
 "
+serverError
+-
+title
+"
+"
 unknownProtocolFound
 -
 title
@@ -4857,6 +4862,11 @@ netReset
 case
 "
 netTimeout
+"
+:
+case
+"
+serverError
 "
 :
 return

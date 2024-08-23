@@ -2056,7 +2056,7 @@ LOG
 (
 "
 Returning
-NS_ERROR_FILE_NOT_FOUND
+NS_ERROR_NET_ERROR_RESPONSE
 from
 "
 "
@@ -2074,7 +2074,7 @@ response
 )
 ;
 return
-NS_ERROR_FILE_NOT_FOUND
+NS_ERROR_NET_ERROR_RESPONSE
 ;
 }
 }
