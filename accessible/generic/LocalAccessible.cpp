@@ -19817,7 +19817,7 @@ aCacheDomain
 CacheDomain
 :
 :
-Spelling
+TextOffsetAttributes
 |
 CacheDomain
 :
@@ -19832,12 +19832,12 @@ IsTextLeaf
 )
 {
 auto
-spellingErrors
+offsetAttrs
 =
 TextLeafPoint
 :
 :
-GetSpellingErrorOffsets
+GetTextOffsetAttributes
 (
 this
 )
@@ -19845,7 +19845,7 @@ this
 if
 (
 !
-spellingErrors
+offsetAttrs
 .
 IsEmpty
 (
@@ -19860,13 +19860,13 @@ SetAttribute
 CacheKey
 :
 :
-SpellingErrors
+TextOffsetAttributes
 std
 :
 :
 move
 (
-spellingErrors
+offsetAttrs
 )
 )
 ;
@@ -19891,7 +19891,7 @@ SetAttribute
 CacheKey
 :
 :
-SpellingErrors
+TextOffsetAttributes
 DeleteEntry
 (
 )

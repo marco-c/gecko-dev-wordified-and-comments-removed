@@ -231,7 +231,7 @@ uint64_t
 static
 constexpr
 uint64_t
-Spelling
+TextOffsetAttributes
 =
 (
 (
@@ -904,7 +904,7 @@ static
 constexpr
 nsStaticAtom
 *
-SpellingErrors
+TextOffsetAttributes
 =
 nsGkAtoms
 :

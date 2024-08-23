@@ -7441,7 +7441,7 @@ return
 ;
 }
 auto
-spellingErrors
+offsetAttrs
 =
 acc
 -
@@ -7460,13 +7460,13 @@ TextOffsetAttribute
 CacheKey
 :
 :
-SpellingErrors
+TextOffsetAttributes
 )
 ;
 if
 (
 !
-spellingErrors
+offsetAttrs
 )
 {
 return
@@ -7545,9 +7545,9 @@ upper
 EqualRange
 (
 *
-spellingErrors
+offsetAttrs
 0
-spellingErrors
+offsetAttrs
 -
 >
 Length
@@ -7576,7 +7576,7 @@ expose
 (
 (
 *
-spellingErrors
+offsetAttrs
 )
 [
 i
@@ -8144,7 +8144,7 @@ TextLeafPoint
 ;
 }
 auto
-spellingErrors
+offsetAttrs
 =
 acc
 -
@@ -8163,13 +8163,13 @@ TextOffsetAttribute
 CacheKey
 :
 :
-SpellingErrors
+TextOffsetAttributes
 )
 ;
 if
 (
 !
-spellingErrors
+offsetAttrs
 )
 {
 return
@@ -8251,9 +8251,9 @@ if
 BinarySearchIf
 (
 *
-spellingErrors
+offsetAttrs
 0
-spellingErrors
+offsetAttrs
 -
 >
 Length
@@ -8273,7 +8273,7 @@ aIncludeOrigin
 (
 (
 *
-spellingErrors
+offsetAttrs
 )
 [
 index
@@ -8287,7 +8287,7 @@ mOffset
 |
 (
 *
-spellingErrors
+offsetAttrs
 )
 [
 index
@@ -8317,7 +8317,7 @@ if
 (
 (
 *
-spellingErrors
+offsetAttrs
 )
 [
 index
@@ -8332,7 +8332,7 @@ MOZ_ASSERT
 (
 (
 *
-spellingErrors
+offsetAttrs
 )
 [
 index
@@ -8351,7 +8351,7 @@ TextLeafPoint
 mAcc
 (
 *
-spellingErrors
+offsetAttrs
 )
 [
 index
@@ -8371,7 +8371,7 @@ if
 (
 (
 *
-spellingErrors
+offsetAttrs
 )
 [
 index
@@ -8384,7 +8384,7 @@ mOffset
 &
 (
 *
-spellingErrors
+offsetAttrs
 )
 [
 index
@@ -8403,7 +8403,7 @@ TextLeafPoint
 mAcc
 (
 *
-spellingErrors
+offsetAttrs
 )
 [
 index
@@ -8424,7 +8424,7 @@ eDirNext
 {
 if
 (
-spellingErrors
+offsetAttrs
 -
 >
 Length
@@ -8447,7 +8447,7 @@ TextLeafPoint
 mAcc
 (
 *
-spellingErrors
+offsetAttrs
 )
 [
 index
@@ -8481,7 +8481,7 @@ TextLeafPoint
 mAcc
 (
 *
-spellingErrors
+offsetAttrs
 )
 [
 index
@@ -8877,7 +8877,7 @@ TextOffsetAttribute
 TextLeafPoint
 :
 :
-GetSpellingErrorOffsets
+GetTextOffsetAttributes
 (
 LocalAccessible
 *
@@ -9129,7 +9129,7 @@ void
 TextLeafPoint
 :
 :
-UpdateCachedSpellingError
+UpdateCachedTextOffsetAttributes
 (
 dom
 :
@@ -9251,7 +9251,7 @@ AsLocal
 CacheDomain
 :
 :
-Spelling
+TextOffsetAttributes
 )
 ;
 }
@@ -9746,7 +9746,7 @@ for
 if
 (
 TextLeafPoint
-spelling
+offsetAttr
 =
 lastPoint
 .
@@ -9766,7 +9766,7 @@ mAcc
 )
 {
 return
-spelling
+offsetAttr
 ;
 }
 TextLeafPoint

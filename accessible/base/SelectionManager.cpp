@@ -1293,7 +1293,7 @@ doc
 TextLeafPoint
 :
 :
-UpdateCachedSpellingError
+UpdateCachedTextOffsetAttributes
 (
 doc
 aRange

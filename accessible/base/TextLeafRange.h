@@ -301,7 +301,7 @@ nsTArray
 <
 TextOffsetAttribute
 >
-GetSpellingErrorOffsets
+GetTextOffsetAttributes
 (
 LocalAccessible
 *
@@ -310,7 +310,7 @@ aAcc
 ;
 static
 void
-UpdateCachedSpellingError
+UpdateCachedTextOffsetAttributes
 (
 dom
 :
