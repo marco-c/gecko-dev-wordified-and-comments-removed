@@ -38883,10 +38883,15 @@ UnionChildOverflow
 OverflowAreas
 &
 aOverflowAreas
+bool
+aAsIfScrolled
 )
 {
 if
 (
+aAsIfScrolled
+|
+|
 !
 DoesClipChildrenInBothAxes
 (

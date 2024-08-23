@@ -12758,6 +12758,8 @@ UnionChildOverflow
 OverflowAreas
 &
 aOverflowAreas
+bool
+aAsIfScrolled
 )
 {
 for

@@ -1749,6 +1749,8 @@ mozilla
 :
 OverflowAreas
 &
+bool
+aAsIfScrolled
 )
 override
 ;

@@ -8057,6 +8057,10 @@ mozilla
 OverflowAreas
 &
 aOverflowAreas
+bool
+aAsIfScrolled
+=
+false
 )
 ;
 nsSize

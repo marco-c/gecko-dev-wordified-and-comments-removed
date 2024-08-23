@@ -374,6 +374,10 @@ mozilla
 :
 OverflowAreas
 &
+bool
+aAsIfScrolled
+=
+false
 )
 ;
 void
@@ -384,6 +388,8 @@ mozilla
 :
 OverflowAreas
 &
+bool
+aAsIfScrolled
 )
 final
 ;
