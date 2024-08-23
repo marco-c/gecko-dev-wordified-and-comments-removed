@@ -208,6 +208,16 @@ HelperThreadTask
 =
 default
 ;
+virtual
+const
+char
+*
+getName
+(
+)
+=
+0
+;
 template
 <
 typename
