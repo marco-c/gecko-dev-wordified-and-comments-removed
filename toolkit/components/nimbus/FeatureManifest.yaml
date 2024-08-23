@@ -12096,7 +12096,7 @@ pref
 "
 network
 .
-decompression_off_mainthread
+decompression_off_mainthread2
 "
 offMainThreadStreamDecompressionThreshold
 :
