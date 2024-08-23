@@ -2393,6 +2393,12 @@ defined
 (
 XP_MACOSX
 )
+&
+&
+defined
+(
+NIGHTLY_BUILD
+)
 pref
 (
 "
