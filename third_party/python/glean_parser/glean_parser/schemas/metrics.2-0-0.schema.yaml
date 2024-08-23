@@ -736,9 +736,6 @@ include
 labeled_boolean
 labeled_string
 labeled_counter
-labeled_custom_distribution
-labeled_memory_distribution
-labeled_timing_distribution
 .
 -
 text
@@ -805,12 +802,6 @@ labeled_boolean
 labeled_string
 -
 labeled_counter
--
-labeled_custom_distribution
--
-labeled_memory_distribution
--
-labeled_timing_distribution
 -
 rate
 -

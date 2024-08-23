@@ -426,17 +426,6 @@ third_party
 python
 /
 distro
-#
-See
-bug
-1908020
-vendored
-:
-third_party
-/
-python
-/
-glean_parser
 vendored
 :
 third_party
