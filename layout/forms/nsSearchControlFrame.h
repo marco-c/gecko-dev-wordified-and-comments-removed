@@ -37,9 +37,6 @@ RefPtr
 h
 "
 class
-nsITextControlFrame
-;
-class
 nsPresContext
 ;
 namespace

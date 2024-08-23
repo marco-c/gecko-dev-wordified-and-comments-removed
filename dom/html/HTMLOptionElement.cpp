@@ -69,13 +69,6 @@ h
 #
 include
 "
-nsIFormControlFrame
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom

@@ -3939,12 +3939,10 @@ aResult
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 SelectAll
 (
-nsPresContext
-*
-aPresContext
 )
 ;
 bool

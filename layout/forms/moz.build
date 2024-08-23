@@ -49,17 +49,7 @@ EXPORTS
 =
 [
 "
-nsIFormControlFrame
-.
-h
-"
-"
 nsISelectControlFrame
-.
-h
-"
-"
-nsITextControlFrame
 .
 h
 "

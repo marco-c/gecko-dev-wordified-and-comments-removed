@@ -98,7 +98,6 @@ nsColorControlFrame
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (
@@ -111,7 +110,6 @@ override
 ;
 #
 endif
-virtual
 nsresult
 CreateAnonymousContent
 (
@@ -124,7 +122,6 @@ aElements
 )
 override
 ;
-virtual
 void
 AppendAnonymousContentTo
 (
@@ -140,7 +137,6 @@ aFilter
 )
 override
 ;
-virtual
 nsresult
 AttributeChanged
 (
@@ -154,7 +150,6 @@ aModType
 )
 override
 ;
-virtual
 nsContainerFrame
 *
 GetContentInsertionFrame
