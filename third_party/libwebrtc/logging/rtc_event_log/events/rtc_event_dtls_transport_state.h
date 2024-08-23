@@ -7,6 +7,11 @@ LOGGING_RTC_EVENT_LOG_EVENTS_RTC_EVENT_DTLS_TRANSPORT_STATE_H_
 #
 include
 <
+cstdint
+>
+#
+include
+<
 memory
 >
 #
@@ -27,6 +32,15 @@ absl
 strings
 /
 string_view
+.
+h
+"
+#
+include
+"
+api
+/
+array_view
 .
 h
 "
@@ -70,7 +84,7 @@ rtc_event_log
 /
 events
 /
-rtc_event_field_encoding_parser
+rtc_event_log_parse_status
 .
 h
 "

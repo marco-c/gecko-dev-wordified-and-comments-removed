@@ -7,6 +7,11 @@ LOGGING_RTC_EVENT_LOG_EVENTS_RTC_EVENT_GENERIC_ACK_RECEIVED_H_
 #
 include
 <
+cstdint
+>
+#
+include
+<
 memory
 >
 #
@@ -46,6 +51,15 @@ include
 "
 api
 /
+array_view
+.
+h
+"
+#
+include
+"
+api
+/
 rtc_event_log
 /
 rtc_event
@@ -72,7 +86,7 @@ rtc_event_log
 /
 events
 /
-rtc_event_field_encoding_parser
+rtc_event_log_parse_status
 .
 h
 "

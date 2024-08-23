@@ -47,6 +47,15 @@ include
 "
 api
 /
+array_view
+.
+h
+"
+#
+include
+"
+api
+/
 rtc_event_log
 /
 rtc_event
@@ -84,7 +93,7 @@ rtc_event_log
 /
 events
 /
-rtc_event_field_encoding_parser
+rtc_event_log_parse_status
 .
 h
 "

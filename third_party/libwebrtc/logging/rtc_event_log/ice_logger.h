@@ -7,6 +7,11 @@ LOGGING_RTC_EVENT_LOG_ICE_LOGGER_H_
 #
 include
 <
+cstdint
+>
+#
+include
+<
 unordered_map
 >
 #
