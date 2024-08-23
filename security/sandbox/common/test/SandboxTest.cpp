@@ -1441,11 +1441,13 @@ processPromise
 (
 )
 {
+RefPtr
+<
 net
 :
 :
 SocketProcessParent
-*
+>
 parent
 =
 net
@@ -1467,6 +1469,10 @@ return
 InitializeSandboxTestingActors
 (
 parent
+.
+get
+(
+)
 processPromise
 )
 ;

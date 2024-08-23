@@ -86,7 +86,7 @@ friend
 class
 SocketProcessHost
 ;
-NS_INLINE_DECL_REFCOUNTING
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 SocketProcessParent
 final
@@ -100,8 +100,10 @@ aHost
 )
 ;
 static
+already_AddRefed
+<
 SocketProcessParent
-*
+>
 GetSingleton
 (
 )

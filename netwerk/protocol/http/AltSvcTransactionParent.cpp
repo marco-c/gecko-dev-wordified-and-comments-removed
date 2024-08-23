@@ -146,8 +146,10 @@ Init
 (
 )
 {
+RefPtr
+<
 SocketProcessParent
-*
+>
 parent
 =
 SocketProcessParent

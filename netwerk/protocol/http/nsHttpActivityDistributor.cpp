@@ -1058,8 +1058,10 @@ task
 (
 )
 {
+RefPtr
+<
 SocketProcessParent
-*
+>
 parent
 =
 SocketProcessParent
@@ -1206,8 +1208,10 @@ task
 (
 )
 {
+RefPtr
+<
 SocketProcessParent
-*
+>
 parent
 =
 SocketProcessParent
@@ -1332,8 +1336,10 @@ aObserveProxyResponse
 (
 )
 {
+RefPtr
+<
 SocketProcessParent
-*
+>
 parent
 =
 SocketProcessParent
@@ -1453,8 +1459,10 @@ aObserveConnection
 (
 )
 {
+RefPtr
+<
 SocketProcessParent
-*
+>
 parent
 =
 SocketProcessParent

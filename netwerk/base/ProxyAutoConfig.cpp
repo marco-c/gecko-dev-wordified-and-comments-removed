@@ -4312,8 +4312,10 @@ NS_IsMainThread
 )
 )
 ;
+RefPtr
+<
 SocketProcessParent
-*
+>
 socketProcessParent
 =
 SocketProcessParent
