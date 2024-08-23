@@ -36651,7 +36651,7 @@ prototype
 errorAt
 (
 propNameOffset
-JSMSG_BAD_METHOD_DEF
+JSMSG_CLASS_STATIC_PROTO
 )
 ;
 return
@@ -36678,7 +36678,7 @@ constructor
 errorAt
 (
 propNameOffset
-JSMSG_BAD_METHOD_DEF
+JSMSG_BAD_CONSTRUCTOR_DEF
 )
 ;
 return
@@ -36714,7 +36714,7 @@ hash_constructor_
 errorAt
 (
 propNameOffset
-JSMSG_BAD_METHOD_DEF
+JSMSG_BAD_CONSTRUCTOR_DEF
 )
 ;
 return
@@ -37220,7 +37220,7 @@ AsyncGeneratorMethod
 errorAt
 (
 propNameOffset
-JSMSG_BAD_METHOD_DEF
+JSMSG_BAD_CLASS_MEMBER_DEF
 )
 ;
 return
@@ -37266,7 +37266,7 @@ Method
 errorAt
 (
 propNameOffset
-JSMSG_BAD_METHOD_DEF
+JSMSG_BAD_CONSTRUCTOR_DEF
 )
 ;
 return
@@ -37334,7 +37334,7 @@ prototype
 errorAt
 (
 propNameOffset
-JSMSG_BAD_METHOD_DEF
+JSMSG_CLASS_STATIC_PROTO
 )
 ;
 return
@@ -37619,7 +37619,7 @@ hash_constructor_
 errorAt
 (
 propNameOffset
-JSMSG_BAD_METHOD_DEF
+JSMSG_BAD_CONSTRUCTOR_DEF
 )
 ;
 return
