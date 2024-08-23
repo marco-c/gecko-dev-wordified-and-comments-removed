@@ -606,7 +606,6 @@ allowGC
 (
 cx
 allocKind
-thingSize
 )
 ;
 }
@@ -689,28 +688,12 @@ gc
 :
 AllocKind
 kind
-size_t
-size
 )
 {
 MOZ_ASSERT
 (
 !
 IsNurseryAllocable
-(
-kind
-)
-)
-;
-MOZ_ASSERT
-(
-size
-=
-=
-Arena
-:
-:
-thingSize
 (
 kind
 )
@@ -741,7 +724,6 @@ allowGC
 (
 cx
 kind
-size
 )
 ;
 }
@@ -762,7 +744,6 @@ NoGC
 JSContext
 *
 AllocKind
-size_t
 )
 ;
 template
@@ -782,7 +763,6 @@ CanGC
 JSContext
 *
 AllocKind
-size_t
 )
 ;
 template
@@ -802,8 +782,6 @@ JSContext
 cx
 AllocKind
 kind
-size_t
-thingSize
 )
 {
 if
@@ -930,7 +908,6 @@ NoGC
 (
 cx
 kind
-thingSize
 )
 ;
 if
@@ -1000,8 +977,6 @@ JSContext
 cx
 AllocKind
 kind
-size_t
-thingSize
 )
 ;
 template
@@ -1020,8 +995,6 @@ JSContext
 cx
 AllocKind
 kind
-size_t
-thingSize
 )
 ;
 void
