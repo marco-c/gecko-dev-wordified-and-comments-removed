@@ -339,6 +339,9 @@ class
 NetworkListener
 {
 #
+decodedBodySizeMap
+;
+#
 devtoolsNetworkObserver
 ;
 #
@@ -353,6 +356,7 @@ networkEventsMap
 constructor
 (
 navigationManager
+decodedBodySizeMap
 )
 {
 lazy
@@ -370,6 +374,13 @@ this
 listening
 =
 false
+;
+this
+.
+#
+decodedBodySizeMap
+=
+decodedBodySizeMap
 ;
 this
 .
@@ -689,6 +700,10 @@ NetworkEventRecord
 networkEvent
 channel
 this
+this
+.
+#
+decodedBodySizeMap
 this
 .
 #

@@ -3087,6 +3087,11 @@ fromCache
 httpActivity
 .
 fromServiceWorker
+fromServiceWorker
+:
+httpActivity
+.
+fromServiceWorker
 rawHeaders
 :
 httpActivity
