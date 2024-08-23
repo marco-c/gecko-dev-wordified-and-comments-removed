@@ -556,6 +556,8 @@ are
 caught
 .
 }
+setOnLongClickListener
+{
 menu
 ?
 .
@@ -567,8 +569,6 @@ let
 menu
 -
 >
-setOnLongClickListener
-{
 onLongPress
 (
 )
@@ -584,6 +584,9 @@ it
 )
 true
 }
+?
+:
+false
 }
 contentDescription
 =
