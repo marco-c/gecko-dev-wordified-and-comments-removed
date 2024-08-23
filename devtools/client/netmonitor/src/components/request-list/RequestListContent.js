@@ -1178,6 +1178,13 @@ onResize
 (
 )
 {
+requestAnimationFrame
+(
+(
+)
+=
+>
+{
 const
 parent
 =
@@ -1224,6 +1231,9 @@ offsetHeight
 "
 px
 "
+;
+}
+)
 ;
 }
 onIntersect

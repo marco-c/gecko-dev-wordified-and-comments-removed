@@ -2196,6 +2196,13 @@ js
 ]
 [
 "
+browser_net_layout_after_toggle
+.
+js
+"
+]
+[
+"
 browser_net_leak_on_tab_close
 .
 js
