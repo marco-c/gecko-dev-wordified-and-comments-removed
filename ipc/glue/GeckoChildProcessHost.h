@@ -586,6 +586,16 @@ GetChildProcessId
 (
 )
 ;
+GeckoChildID
+GetChildID
+(
+)
+const
+{
+return
+mChildID
+;
+}
 GeckoProcessType
 GetProcessType
 (
@@ -773,6 +783,9 @@ GeckoChildProcessHost
 ;
 GeckoProcessType
 mProcessType
+;
+GeckoChildID
+mChildID
 ;
 bool
 mIsFileContent

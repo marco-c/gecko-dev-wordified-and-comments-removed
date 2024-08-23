@@ -339,15 +339,6 @@ fds
 ;
 #
 endif
-void
-XRE_SetProcessType
-(
-const
-char
-*
-aProcessTypeString
-)
-;
 nsresult
 XRE_InitChildProcess
 (
@@ -373,6 +364,11 @@ const
 char
 *
 XRE_GetProcessTypeString
+(
+)
+;
+GeckoChildID
+XRE_GetChildID
 (
 )
 ;

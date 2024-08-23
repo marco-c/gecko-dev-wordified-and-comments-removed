@@ -28508,6 +28508,17 @@ XRE_GetProcessType
 )
 ;
 }
+GeckoChildID
+XRE_GetChildID
+(
+)
+{
+return
+GetGeckoChildID
+(
+)
+;
+}
 bool
 XRE_IsE10sParentProcess
 (

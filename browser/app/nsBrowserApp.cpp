@@ -1596,6 +1596,16 @@ argc
 ]
 )
 ;
+SetGeckoChildID
+(
+argv
+[
+argc
+-
+2
+]
+)
+;
 CrashReporter
 :
 :
