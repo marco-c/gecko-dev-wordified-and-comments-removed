@@ -967,6 +967,9 @@ let
 args
 =
 undefined
+argNames
+=
+undefined
 ;
 if
 (
@@ -1037,6 +1040,16 @@ dbgObj
 )
 ;
 }
+argNames
+=
+frame
+.
+callee
+.
+script
+.
+parameterNames
+;
 }
 this
 .
@@ -1097,6 +1110,7 @@ dateNow
 )
 depth
 args
+argNames
 ]
 )
 ;
