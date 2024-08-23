@@ -1402,6 +1402,10 @@ if
 (
 !
 cocoaWidget
+&
+&
+!
+winWidget
 )
 "
 ]
@@ -1421,6 +1425,9 @@ skip
 if
 (
 cocoaWidget
+|
+|
+winWidget
 )
 "
 ]
