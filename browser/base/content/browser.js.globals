@@ -78,7 +78,7 @@ gSessionHistoryObserver
 gStoragePressureObserver
 "
 "
-gPopupBlockerObserver
+PopupBlockerObserver
 "
 "
 gKeywordURIFixup

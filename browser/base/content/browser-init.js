@@ -801,7 +801,15 @@ addEventListener
 "
 DOMUpdateBlockedPopups
 "
-gPopupBlockerObserver
+e
+=
+>
+PopupBlockerObserver
+.
+handleEvent
+(
+e
+)
 )
 ;
 gBrowser
