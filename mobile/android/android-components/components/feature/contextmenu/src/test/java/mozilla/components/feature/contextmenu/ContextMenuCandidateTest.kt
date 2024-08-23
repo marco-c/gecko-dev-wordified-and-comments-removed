@@ -12132,6 +12132,9 @@ Int
 duration
 :
 Int
+isError
+:
+Boolean
 action
 :
 Int
@@ -12170,6 +12173,9 @@ String
 duration
 :
 Int
+isError
+:
+Boolean
 action
 :
 String
@@ -12194,6 +12200,7 @@ show
 snackBarParentView
 0
 duration
+isError
 0
 listener
 )

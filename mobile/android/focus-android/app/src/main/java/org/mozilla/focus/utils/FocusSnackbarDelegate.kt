@@ -112,6 +112,9 @@ Int
 duration
 :
 Int
+isError
+:
+Boolean
 StringRes
 action
 :
@@ -185,6 +188,9 @@ String
 duration
 :
 Int
+isError
+:
+Boolean
 action
 :
 String
