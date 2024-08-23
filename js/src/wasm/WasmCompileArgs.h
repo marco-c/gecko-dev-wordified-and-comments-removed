@@ -204,6 +204,10 @@ jsStringBuiltins
 (
 false
 )
+jsStringConstants
+(
+false
+)
 #
 ifdef
 ENABLE_WASM_GC
@@ -229,6 +233,9 @@ isBuiltinModule
 ;
 bool
 jsStringBuiltins
+;
+bool
+jsStringConstants
 ;
 #
 ifdef
