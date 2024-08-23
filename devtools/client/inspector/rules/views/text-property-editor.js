@@ -1715,12 +1715,8 @@ click
 )
 ;
 const
-getCssVariables
+cssVariables
 =
-(
-)
-=
->
 this
 .
 rule
@@ -1781,7 +1777,7 @@ cssProperties
 this
 .
 cssProperties
-getCssVariables
+cssVariables
 focusEditableFieldAfterApply
 :
 true
@@ -2195,7 +2191,7 @@ cssProperties
 this
 .
 cssProperties
-getCssVariables
+cssVariables
 getGridLineNames
 :
 this

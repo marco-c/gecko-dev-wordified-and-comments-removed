@@ -780,13 +780,6 @@ node
 dataset
 .
 variable
-variableComputed
-:
-node
-.
-dataset
-.
-variableComputed
 startingStyleVariable
 :
 node
