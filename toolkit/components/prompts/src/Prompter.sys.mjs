@@ -11001,9 +11001,12 @@ SHOW_SPINNER
 {
 args
 .
-headerIconURL
+headerIconCSSValue
 =
 "
+url
+(
+'
 chrome
 :
 /
@@ -11017,6 +11020,8 @@ icons
 loading
 .
 svg
+'
+)
 "
 ;
 }

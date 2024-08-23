@@ -541,9 +541,12 @@ true
 ;
 args
 .
-headerIconURL
+headerIconCSSValue
 =
 "
+url
+(
+'
 chrome
 :
 /
@@ -555,6 +558,8 @@ content
 document_pdf
 .
 svg
+'
+)
 "
 ;
 }
