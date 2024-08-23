@@ -3327,6 +3327,7 @@ if
 (
 toEvict
 <
+=
 0
 )
 {
@@ -3531,6 +3532,7 @@ if
 (
 toEvict
 <
+=
 0
 )
 {
@@ -3828,6 +3830,7 @@ upperLimit
 |
 toEvict
 <
+=
 0
 )
 {
