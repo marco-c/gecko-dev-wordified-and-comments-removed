@@ -204,7 +204,7 @@ FenixRobolectricTestRunner
 class
 )
 class
-TabCounterMenuTest
+FenixTabCounterMenuTest
 {
 private
 lateinit
