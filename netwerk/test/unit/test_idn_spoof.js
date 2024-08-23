@@ -6784,7 +6784,7 @@ com
 "
 kUnsafe
 "
-DISABLED
+macosx
 "
 ]
 [
@@ -10749,6 +10749,7 @@ length
 4
 &
 &
+(
 test
 [
 3
@@ -10758,6 +10759,18 @@ test
 "
 DISABLED
 "
+|
+|
+test
+[
+3
+]
+!
+=
+AppConstants
+.
+platform
+)
 ;
 if
 (
