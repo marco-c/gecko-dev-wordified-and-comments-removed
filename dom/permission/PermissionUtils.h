@@ -41,6 +41,9 @@ mozilla
 :
 dom
 {
+class
+Document
+;
 const
 nsLiteralCString
 &
@@ -69,6 +72,10 @@ uint32_t
 aAction
 PermissionName
 aName
+const
+Document
+&
+aDocument
 )
 ;
 }

@@ -57,6 +57,13 @@ enabled
 =
 true
 "
+"
+privacy
+.
+resistFingerprinting
+=
+false
+"
 ]
 [
 "
