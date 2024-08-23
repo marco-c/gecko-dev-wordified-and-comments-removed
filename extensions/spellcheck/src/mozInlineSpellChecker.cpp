@@ -5820,14 +5820,9 @@ ranges
 erv
 )
 ;
-ENSURE_SUCCESS
+RETURN_NSRESULT_ON_FAILURE
 (
 erv
-erv
-.
-StealNSResult
-(
-)
 )
 ;
 oldRangesToRemove
