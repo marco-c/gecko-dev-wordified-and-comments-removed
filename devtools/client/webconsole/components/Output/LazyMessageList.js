@@ -89,6 +89,8 @@ PropTypes
 .
 instanceOf
 (
+window
+.
 Element
 )
 }

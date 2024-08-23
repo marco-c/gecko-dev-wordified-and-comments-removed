@@ -445,8 +445,6 @@ lastMessageId
 PropTypes
 .
 string
-.
-isRequired
 }
 ;
 }

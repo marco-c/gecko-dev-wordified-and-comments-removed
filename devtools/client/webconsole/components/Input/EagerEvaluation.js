@@ -266,13 +266,6 @@ terminalEagerResult
 PropTypes
 .
 any
-hud
-:
-PropTypes
-.
-object
-.
-isRequired
 highlightDomElement
 :
 PropTypes

@@ -323,8 +323,6 @@ firstRequestStartedMs
 PropTypes
 .
 number
-.
-isRequired
 }
 ;
 }
