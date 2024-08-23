@@ -77,7 +77,9 @@ else
 {
 if
 (
-mCanceled
+Canceled
+(
+)
 )
 {
 mResultCode
@@ -162,11 +164,8 @@ AssertIsOnOwningThread
 ;
 if
 (
-mCanceled
-.
-exchange
+Cancel
 (
-true
 )
 )
 {
