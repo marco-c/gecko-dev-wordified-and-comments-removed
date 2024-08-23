@@ -39,6 +39,13 @@ browser_asrouter_bug1761522
 js
 "
 ]
+tags
+=
+"
+remote
+-
+settings
+"
 [
 "
 browser_asrouter_bug1800087

@@ -688,6 +688,10 @@ constructor
 (
 bucketName
 collectionName
+.
+.
+.
+subFolders
 )
 {
 this
@@ -700,6 +704,10 @@ settings
 "
 bucketName
 collectionName
+.
+.
+.
+subFolders
 ]
 ;
 this
