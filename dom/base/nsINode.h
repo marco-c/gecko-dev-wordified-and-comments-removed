@@ -472,6 +472,9 @@ Optional
 class
 OwningNodeOrString
 ;
+class
+SelectionNodeCache
+;
 template
 <
 typename
@@ -4740,6 +4743,17 @@ uint32_t
 aStartOffset
 uint32_t
 aEndOffset
+mozilla
+:
+:
+dom
+:
+:
+SelectionNodeCache
+*
+aCache
+=
+nullptr
 )
 const
 ;
