@@ -6523,15 +6523,6 @@ milestone
 .
 symbolversion
 )
-add_old_configure_assignment
-(
-"
-MOZILLA_SYMBOLVERSION
-"
-milestone
-.
-symbolversion
-)
 set_config
 (
 "
