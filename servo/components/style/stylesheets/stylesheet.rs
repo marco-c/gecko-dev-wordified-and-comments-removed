@@ -1725,15 +1725,6 @@ Style
 .
 .
 )
-|
-CssRule
-:
-:
-PositionTry
-(
-.
-.
-)
 =
 >
 true

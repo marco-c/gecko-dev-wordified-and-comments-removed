@@ -42,7 +42,3 @@ SERVO_LOCKED_ARC_TYPE
 (
 CounterStyleRule
 )
-SERVO_LOCKED_ARC_TYPE
-(
-PositionTryRule
-)

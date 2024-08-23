@@ -2631,12 +2631,6 @@ StyleCssRuleType
 :
 StartingStyle
 :
-case
-StyleCssRuleType
-:
-:
-PositionTry
-:
 break
 ;
 }
