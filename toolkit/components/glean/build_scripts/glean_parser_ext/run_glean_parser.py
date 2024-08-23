@@ -145,6 +145,10 @@ memory_distribution
 "
         
 "
+labeled_memory_distribution
+"
+        
+"
 custom_distribution
 "
     

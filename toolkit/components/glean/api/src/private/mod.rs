@@ -53,6 +53,9 @@ mod
 labeled_custom_distribution
 ;
 mod
+labeled_memory_distribution
+;
+mod
 memory_distribution
 ;
 mod
@@ -201,6 +204,16 @@ labeled_custom_distribution
 :
 :
 LabeledCustomDistributionMetric
+;
+pub
+use
+self
+:
+:
+labeled_memory_distribution
+:
+:
+LabeledMemoryDistributionMetric
 ;
 pub
 use
