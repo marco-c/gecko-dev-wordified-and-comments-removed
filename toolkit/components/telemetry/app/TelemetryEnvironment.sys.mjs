@@ -13201,15 +13201,6 @@ TargetFrameRate
 "
 null
 )
-textScaleFactor
-:
-getGfxField
-(
-"
-textScaleFactor
-"
-null
-)
 /
 /
 The

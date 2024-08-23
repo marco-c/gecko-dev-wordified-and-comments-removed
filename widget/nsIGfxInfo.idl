@@ -199,11 +199,6 @@ attribute
 AString
 cleartypeParameters
 ;
-readonly
-attribute
-float
-textScaleFactor
-;
 /
 *
 *
