@@ -5604,10 +5604,6 @@ const
 CodeMetadataForAsmJS
 *
 codeMetaForAsmJS
-const
-ShareableBytes
-*
-maybeBytecode
 )
 :
 mode_
@@ -5659,10 +5655,6 @@ debugStubOffset_
 requestTierUpStubOffset_
 (
 0
-)
-bytecode_
-(
-maybeBytecode
 )
 {
 }

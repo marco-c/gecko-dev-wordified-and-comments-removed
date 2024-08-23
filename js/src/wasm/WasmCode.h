@@ -3307,10 +3307,6 @@ debugStubOffset_
 uint32_t
 requestTierUpStubOffset_
 ;
-const
-SharedBytes
-bytecode_
-;
 Tiers
 completeTiers
 (
@@ -3488,10 +3484,6 @@ const
 CodeMetadataForAsmJS
 *
 codeMetaForAsmJS
-const
-ShareableBytes
-*
-maybeBytecode
 )
 ;
 [
@@ -3717,7 +3709,10 @@ LazyTiering
 )
 ;
 return
-bytecode_
+codeMeta_
+-
+>
+bytecode
 -
 >
 bytes

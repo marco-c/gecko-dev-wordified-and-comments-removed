@@ -430,6 +430,9 @@ codeSection
 FuncDefRangeVector
 funcDefRanges
 ;
+SharedBytes
+bytecode
+;
 bool
 debugEnabled
 ;
