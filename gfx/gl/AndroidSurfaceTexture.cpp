@@ -590,6 +590,7 @@ AndroidSurfaceTexture
 :
 GetTransformMatrix
 (
+const
 java
 :
 :
@@ -599,7 +600,8 @@ sdk
 SurfaceTexture
 :
 :
-Param
+Ref
+&
 surfaceTexture
 gfx
 :

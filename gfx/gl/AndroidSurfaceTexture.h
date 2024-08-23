@@ -50,6 +50,7 @@ static
 void
 GetTransformMatrix
 (
+const
 java
 :
 :
@@ -59,7 +60,8 @@ sdk
 SurfaceTexture
 :
 :
-Param
+Ref
+&
 surfaceTexture
 mozilla
 :
