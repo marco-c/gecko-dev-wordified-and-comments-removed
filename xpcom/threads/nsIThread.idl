@@ -248,17 +248,6 @@ start
 noscript
 ]
 void
-setNameForWakeupTelemetry
-(
-in
-ACString
-name
-)
-;
-[
-noscript
-]
-void
 setThreadQoS
 (
 in
