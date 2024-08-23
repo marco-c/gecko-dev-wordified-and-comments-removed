@@ -5264,7 +5264,13 @@ ShadowDOMSelectionHelpers
 :
 GetShadowRoot
 (
+Element
+:
+:
+FromNode
+(
 nextNode
+)
 IterAllowCrossShadowBoundary
 (
 )
