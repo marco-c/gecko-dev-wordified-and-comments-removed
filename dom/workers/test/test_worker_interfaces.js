@@ -442,16 +442,6 @@ true
 name
 :
 "
-Iterator
-"
-insecureContext
-:
-true
-}
-{
-name
-:
-"
 JSON
 "
 insecureContext

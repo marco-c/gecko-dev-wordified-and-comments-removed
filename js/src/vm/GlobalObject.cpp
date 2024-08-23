@@ -779,6 +779,9 @@ IsIteratorHelpersEnabled
 (
 )
 {
+#
+ifdef
+NIGHTLY_BUILD
 return
 JS
 :
@@ -790,6 +793,13 @@ experimental_iterator_helpers
 (
 )
 ;
+#
+else
+return
+false
+;
+#
+endif
 }
 static
 bool
