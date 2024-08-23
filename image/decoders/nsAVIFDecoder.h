@@ -225,6 +225,7 @@ RenderSizeMismatch
 FrameSizeChanged
 InvalidCICP
 NoSamples
+ConvertYCbCrFailure
 }
 ;
 using
