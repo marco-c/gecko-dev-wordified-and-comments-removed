@@ -844,13 +844,6 @@ enabled
 "
 )
 ;
-await
-SpecialPowers
-.
-popPrefEnv
-(
-)
-;
 gCUITestUtils
 .
 removeSearchBar
