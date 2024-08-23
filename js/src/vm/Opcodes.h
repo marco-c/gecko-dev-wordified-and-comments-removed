@@ -3202,8 +3202,8 @@ AddDisposable
 add_disposable
 NULL
 2
-1
-1
+3
+0
 JOF_UINT8
 )
 )
