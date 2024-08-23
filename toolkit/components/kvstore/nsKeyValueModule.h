@@ -27,6 +27,17 @@ void
 aResult
 )
 ;
+nsresult
+nsSQLiteKeyValueServiceConstructor
+(
+REFNSIID
+aIID
+void
+*
+*
+aResult
+)
+;
 }
 #
 endif
