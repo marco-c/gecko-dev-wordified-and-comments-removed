@@ -26,11 +26,6 @@ AssertIsOnOwningThread
 (
 )
 ;
-MOZ_ASSERT
-(
-mActorDestroyed
-)
-;
 }
 RefPtr
 <
@@ -70,8 +65,7 @@ AssertIsOnOwningThread
 ;
 if
 (
-!
-IsActorDestroyed
+CanSend
 (
 )
 )
@@ -100,10 +94,6 @@ aWhy
 )
 {
 AssertIsOnOwningThread
-(
-)
-;
-NoteActorDestroyed
 (
 )
 ;
