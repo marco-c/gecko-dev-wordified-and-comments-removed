@@ -215,6 +215,9 @@ class
 RenderTextureHost
 ;
 class
+RenderTextureHostUsageInfo
+;
+class
 RenderDcompSurfaceTextureHost
 ;
 struct
@@ -1649,6 +1652,11 @@ return
 this
 ;
 }
+void
+DisableVideoOverlay
+(
+)
+;
 protected
 :
 virtual
@@ -1748,6 +1756,12 @@ RefPtr
 RenderTextureHost
 >
 mPrevTexture
+;
+RefPtr
+<
+RenderTextureHostUsageInfo
+>
+mRenderTextureHostUsageInfo
 ;
 int
 mSlowPresentCount

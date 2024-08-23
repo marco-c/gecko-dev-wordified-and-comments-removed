@@ -108,6 +108,9 @@ class
 DisplayListBuilder
 ;
 class
+RenderTextureHostUsageInfo
+;
+class
 WebRenderAPI
 ;
 class
@@ -931,6 +934,9 @@ layers
 :
 WebRenderBackend
 aBackend
+WebRenderImageHost
+*
+aImageHost
 )
 ;
 void
@@ -1037,6 +1043,7 @@ wr
 MixBlendMode
 mMixBlendMode
 ;
+const
 RefPtr
 <
 WebRenderImageHost
@@ -1060,6 +1067,11 @@ wr
 :
 DisplayListBuilder
 mDLBuilder
+;
+bool
+mVideoOverlayDisabled
+=
+false
 ;
 }
 ;
