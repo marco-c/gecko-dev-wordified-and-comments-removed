@@ -709,6 +709,7 @@ message
 stack
 .
 fileName
+null
 stack
 .
 lineNumber

@@ -430,6 +430,7 @@ init
 (
 joinedArguments
 null
+null
 0
 0
 flag
