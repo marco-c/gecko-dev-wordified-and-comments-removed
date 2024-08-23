@@ -83,7 +83,7 @@ Printf
 cpp
 "
 "
-StringBuffer
+StringBuilder
 .
 cpp
 "

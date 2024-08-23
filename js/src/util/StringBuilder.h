@@ -1,9 +1,9 @@
 #
 ifndef
-util_StringBuffer_h
+util_StringBuilder_h
 #
 define
-util_StringBuffer_h
+util_StringBuilder_h
 #
 include
 "
