@@ -438,6 +438,7 @@ clicked
 param
 menu
 Optional
+lazy
 menu
 to
 show
@@ -484,7 +485,10 @@ onClick
 Unit
 menu
 :
+Lazy
+<
 TabCounterMenu
+>
 ?
 =
 null
@@ -553,6 +557,9 @@ caught
 .
 }
 menu
+?
+.
+value
 ?
 .
 let

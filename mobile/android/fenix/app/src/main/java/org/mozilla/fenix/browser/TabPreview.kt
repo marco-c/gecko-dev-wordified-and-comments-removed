@@ -755,6 +755,8 @@ onItemTapped
 )
 tabsCounterMenu
 =
+lazy
+{
 TabCounterMenu
 (
 context
@@ -763,6 +765,7 @@ onItemTapped
 {
 }
 )
+}
 onBackButtonClick
 =
 {

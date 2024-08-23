@@ -643,6 +643,7 @@ button
 param
 tabsCounterMenu
 A
+lazy
 [
 TabCounterMenu
 ]
@@ -884,7 +885,10 @@ newTabMenu
 TabCounterMenu
 tabsCounterMenu
 :
+Lazy
+<
 TabCounterMenu
+>
 onBackButtonClick
 :
 (
@@ -1214,6 +1218,7 @@ composable
 param
 tabsCounterMenu
 A
+lazy
 [
 TabCounterMenu
 ]
@@ -1354,7 +1359,10 @@ menuButton
 MenuButton
 tabsCounterMenu
 :
+Lazy
+<
 TabCounterMenu
+>
 onSearchButtonClick
 :
 (
@@ -2748,6 +2756,8 @@ colorId
 val
 tabsCounterMenu
 =
+lazy
+{
 TabCounterMenu
 (
 context
@@ -2756,6 +2766,7 @@ onItemTapped
 {
 }
 )
+}
 HomeNavBar
 (
 isPrivateMode
@@ -2878,6 +2889,8 @@ colorId
 val
 tabsCounterMenu
 =
+lazy
+{
 TabCounterMenu
 (
 context
@@ -2886,6 +2899,7 @@ onItemTapped
 {
 }
 )
+}
 val
 newTabMenu
 =
