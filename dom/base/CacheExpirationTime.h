@@ -45,6 +45,13 @@ mTime
 static
 constexpr
 uint32_t
+kAlreadyExpired
+=
+0
+;
+static
+constexpr
+uint32_t
 kNever
 =
 nsICacheEntry
@@ -103,6 +110,7 @@ PR_USEC_PER_SEC
 public
 :
 static
+constexpr
 CacheExpirationTime
 AlreadyExpired
 (
@@ -111,14 +119,7 @@ AlreadyExpired
 return
 CacheExpirationTime
 (
-SecondsFromPRTime
-(
-PR_Now
-(
-)
-)
--
-1
+kAlreadyExpired
 )
 ;
 }
