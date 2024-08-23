@@ -31,6 +31,13 @@ limits
 #
 include
 "
+AOMDecoder
+.
+h
+"
+#
+include
+"
 AppleDecoderModule
 .
 h
@@ -81,13 +88,6 @@ h
 include
 "
 VPXDecoder
-.
-h
-"
-#
-include
-"
-AOMDecoder
 .
 h
 "
