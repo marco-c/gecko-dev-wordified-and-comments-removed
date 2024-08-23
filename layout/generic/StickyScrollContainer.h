@@ -73,18 +73,6 @@ nsIFrame
 aScrollFrame
 )
 ;
-static
-void
-NotifyReparentedFrameAcrossScrollFrameBoundary
-(
-nsIFrame
-*
-aFrame
-nsIFrame
-*
-aOldParent
-)
-;
 void
 AddFrame
 (
@@ -179,7 +167,6 @@ nsIFrame
 aSubtreeRoot
 )
 ;
-virtual
 void
 ScrollPositionWillChange
 (
@@ -190,7 +177,6 @@ aY
 )
 override
 ;
-virtual
 void
 ScrollPositionDidChange
 (
