@@ -7073,10 +7073,6 @@ addr
 )
 {
 return
-FaultingCodeOffset
-(
-)
-;
 ma_sd
 (
 src
@@ -7099,10 +7095,6 @@ addr
 )
 {
 return
-FaultingCodeOffset
-(
-)
-;
 ma_sd
 (
 src
@@ -7125,10 +7117,6 @@ addr
 )
 {
 return
-FaultingCodeOffset
-(
-)
-;
 ma_ss
 (
 src
@@ -7151,10 +7139,6 @@ addr
 )
 {
 return
-FaultingCodeOffset
-(
-)
-;
 ma_ss
 (
 src
