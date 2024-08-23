@@ -12,6 +12,11 @@ TestWinDND
 .
 cpp
 "
+"
+TestWinUtils
+.
+cpp
+"
 ]
 LOCAL_INCLUDES
 +
