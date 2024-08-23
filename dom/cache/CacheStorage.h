@@ -186,7 +186,7 @@ aRv
 ;
 static
 bool
-DefineCachesForSandbox
+DefineCaches
 (
 JSContext
 *

@@ -2,10 +2,7 @@
 Func
 =
 "
-Document
-:
-:
-DocumentSupportsL10n
+IsChromeOrUAWidget
 "
 Exposed
 =
