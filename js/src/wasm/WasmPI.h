@@ -282,6 +282,12 @@ defined
 (
 JS_SIMULATOR_ARM64
 )
+|
+|
+defined
+(
+JS_SIMULATOR_ARM
+)
 void
 switchSimulatorToMain
 (
