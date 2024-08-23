@@ -517,12 +517,6 @@ null
 {
 SwitchWithLabel
 (
-checked
-=
-productRecommendationsEnabled
-onCheckedChange
-=
-onProductRecommendationsEnabledStateChange
 label
 =
 stringResource
@@ -533,6 +527,12 @@ string
 .
 review_quality_check_settings_recommended_products
 )
+checked
+=
+productRecommendationsEnabled
+onCheckedChange
+=
+onProductRecommendationsEnabledStateChange
 )
 Spacer
 (
