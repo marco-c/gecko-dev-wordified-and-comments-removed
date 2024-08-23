@@ -182,9 +182,7 @@ modules
 /
 backup
 /
-backup
--
-constants
+BackupConstants
 .
 mjs
 "
@@ -15358,7 +15356,7 @@ MOZ_APP_NAME
 }
 ERRORS
 .
-UNSUPPORTED_APPLICATION
+UNSUPPORTED_BACKUP_VERSION
 )
 ;
 }
