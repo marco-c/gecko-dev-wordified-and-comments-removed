@@ -239,10 +239,6 @@ mResultCode
 (
 NS_OK
 )
-mActorDestroyed
-(
-false
-)
 #
 ifdef
 QM_COLLECTING_OPERATION_TELEMETRY
@@ -268,11 +264,6 @@ OriginOperationBase
 {
 AssertIsOnOwningThread
 (
-)
-;
-MOZ_ASSERT
-(
-mActorDestroyed
 )
 ;
 }
