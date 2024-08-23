@@ -181,6 +181,27 @@ obj
 id
 }
         
+elif
+isinstance
+(
+obj
+webdriver
+.
+bidi
+.
+protocol
+.
+BidiValue
+)
+:
+            
+return
+obj
+.
+to_classic_protocol_value
+(
+)
+        
 return
 super
 (
