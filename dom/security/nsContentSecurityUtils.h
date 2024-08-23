@@ -67,7 +67,7 @@ mozilla
 :
 Maybe
 <
-nsString
+nsCString
 >
 >
 ;
@@ -109,9 +109,10 @@ NotifyEvalUsage
 (
 bool
 aIsSystemPrincipal
-NS_ConvertUTF8toUTF16
+const
+nsACString
 &
-aFileNameA
+aFileName
 uint64_t
 aWindowID
 uint32_t
@@ -197,7 +198,7 @@ FilenameTypeAndDetails
 FilenameToFilenameType
 (
 const
-nsString
+nsACString
 &
 fileName
 bool

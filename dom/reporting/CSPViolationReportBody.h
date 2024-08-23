@@ -136,7 +136,7 @@ const
 void
 GetSourceFile
 (
-nsAString
+nsACString
 &
 aFile
 )
@@ -227,7 +227,7 @@ nsString
 mOriginalPolicy
 ;
 const
-nsString
+nsCString
 mSourceFile
 ;
 const

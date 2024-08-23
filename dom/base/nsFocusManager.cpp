@@ -7545,11 +7545,14 @@ windowGlobalParent
 InnerWindowId
 (
 )
+SourceLocation
+(
 windowGlobalParent
 -
 >
 GetDocumentURI
 (
+)
 )
 )
 ;

@@ -1088,7 +1088,6 @@ logToConsole
 (
 aProperty
 aParams
-u
 "
 "
 _ns

@@ -4295,7 +4295,14 @@ nsContentUtils
 eCSS_PROPERTIES
 errorMessage
 strings
+SourceLocation
+(
 referrer
+.
+get
+(
+)
+)
 )
 ;
 if

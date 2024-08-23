@@ -3637,7 +3637,16 @@ Security
 "
 _ns
 windowID
+SourceLocation
+(
+std
+:
+:
+move
+(
 uri
+)
+)
 )
 ;
 Unused

@@ -164,7 +164,7 @@ code
 =
 0
 ;
-DOMString
+UTF8String
 source
 -
 file

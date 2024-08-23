@@ -197,7 +197,7 @@ featureId
 ;
 readonly
 attribute
-DOMString
+UTF8String
 ?
 sourceFile
 ;

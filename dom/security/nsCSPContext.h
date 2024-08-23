@@ -232,7 +232,7 @@ nsString
 &
 aParams
 const
-nsAString
+nsACString
 &
 aSourceName
 const

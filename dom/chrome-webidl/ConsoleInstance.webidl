@@ -191,7 +191,7 @@ level
 "
 "
 ;
-DOMString
+UTF8String
 filename
 =
 "
@@ -429,7 +429,7 @@ GenerateConversionToJS
 dictionary
 ConsoleStackEntry
 {
-DOMString
+UTF8String
 filename
 =
 "
@@ -1204,7 +1204,7 @@ DOMString
 scope
 DOMString
 message
-DOMString
+UTF8String
 filename
 unsigned
 long

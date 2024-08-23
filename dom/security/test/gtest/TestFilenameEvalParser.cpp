@@ -309,7 +309,6 @@ constexpr
 auto
 str
 =
-u
 "
 chrome
 :
@@ -374,7 +373,6 @@ constexpr
 auto
 str
 =
-u
 "
 resource
 :
@@ -446,7 +444,6 @@ constexpr
 auto
 str
 =
-u
 "
 blob
 :
@@ -496,7 +493,6 @@ constexpr
 auto
 str
 =
-u
 "
 blob
 :
@@ -544,7 +540,6 @@ constexpr
 auto
 str
 =
-u
 "
 data
 :
@@ -592,7 +587,6 @@ constexpr
 auto
 str
 =
-u
 "
 data
 :
@@ -645,7 +639,6 @@ constexpr
 auto
 str
 =
-u
 "
 jar
 :
@@ -672,7 +665,6 @@ firefox
 profiles
 /
 "
-u
 "
 foo
 /
@@ -735,7 +727,6 @@ value
 )
 =
 =
-u
 "
 federated
 -
@@ -760,7 +751,6 @@ constexpr
 auto
 str
 =
-u
 "
 jar
 :
@@ -787,7 +777,6 @@ firefox
 profiles
 /
 "
-u
 "
 foo
 /
@@ -850,9 +839,6 @@ value
 )
 =
 =
-nsLiteralString
-(
-u
 "
 federated
 -
@@ -870,7 +856,7 @@ api
 .
 js
 "
-)
+_ns
 )
 ;
 }
@@ -879,7 +865,6 @@ constexpr
 auto
 str
 =
-u
 "
 jar
 :
@@ -906,7 +891,6 @@ firefox
 profiles
 /
 "
-u
 "
 foo
 /
@@ -969,7 +953,6 @@ value
 )
 =
 =
-u
 "
 federated
 -
@@ -1003,7 +986,6 @@ constexpr
 auto
 str
 =
-u
 "
 firegestures
 /
@@ -1055,7 +1037,6 @@ constexpr
 auto
 str
 =
-u
 "
 firegestures
 /
@@ -1108,7 +1089,6 @@ constexpr
 auto
 str
 =
-u
 "
 firegestures
 /
@@ -1162,7 +1142,6 @@ constexpr
 auto
 str
 =
-u
 "
 file
 :
@@ -1235,7 +1214,6 @@ constexpr
 auto
 str
 =
-u
 "
 browser
 .
@@ -1296,7 +1274,6 @@ constexpr
 auto
 str
 =
-u
 "
 debugger
 "
@@ -1358,7 +1335,6 @@ constexpr
 auto
 str
 =
-u
 "
 firegestures
 -
@@ -1405,7 +1381,6 @@ constexpr
 auto
 str
 =
-u
 "
 gallop
 :
@@ -1491,7 +1466,6 @@ constexpr
 auto
 str
 =
-u
 "
 gallop
 :
@@ -1575,7 +1549,6 @@ constexpr
 auto
 str
 =
-u
 "
 firegestures
 /
@@ -1657,7 +1630,6 @@ constexpr
 auto
 str
 =
-u
 "
 firegestures
 \
@@ -1740,7 +1712,6 @@ constexpr
 auto
 str
 =
-u
 "
 /
 home
@@ -1827,7 +1798,6 @@ constexpr
 auto
 str
 =
-u
 "
 file
 :
@@ -1929,7 +1899,6 @@ constexpr
 auto
 str
 =
-u
 "
 c
 :
@@ -2020,7 +1989,6 @@ constexpr
 auto
 str
 =
-u
 "
 http
 :
@@ -2107,7 +2075,6 @@ constexpr
 auto
 str
 =
-u
 "
 http
 :
@@ -2513,7 +2480,6 @@ constexpr
 auto
 str
 =
-u
 "
 moz
 -
@@ -2572,7 +2538,6 @@ value
 )
 =
 =
-u
 "
 moz
 -
@@ -2932,7 +2897,6 @@ constexpr
 auto
 str
 =
-u
 "
 moz
 -
@@ -2991,7 +2955,6 @@ value
 )
 =
 =
-u
 "
 moz
 -
@@ -3044,7 +3007,6 @@ constexpr
 auto
 str
 =
-u
 "
 moz
 -
@@ -3110,7 +3072,6 @@ constexpr
 auto
 str
 =
-u
 "
 moz
 -
@@ -3165,9 +3126,6 @@ value
 )
 =
 =
-nsLiteralString
-(
-u
 "
 moz
 -
@@ -3187,7 +3145,7 @@ file
 .
 js
 "
-)
+_ns
 )
 ;
 }
@@ -3196,7 +3154,6 @@ constexpr
 auto
 str
 =
-u
 "
 moz
 -
@@ -3261,7 +3218,6 @@ value
 )
 =
 =
-u
 "
 moz
 -
@@ -3303,7 +3259,6 @@ constexpr
 auto
 str
 =
-u
 "
 about
 :
@@ -3342,7 +3297,6 @@ value
 )
 =
 =
-u
 "
 about
 :
@@ -3357,7 +3311,6 @@ constexpr
 auto
 str
 =
-u
 "
 about
 :
@@ -3398,7 +3351,6 @@ value
 )
 =
 =
-u
 "
 about
 :
@@ -3413,7 +3365,6 @@ constexpr
 auto
 str
 =
-u
 "
 about
 :
@@ -3454,7 +3405,6 @@ value
 )
 =
 =
-u
 "
 about
 :
@@ -3469,7 +3419,6 @@ constexpr
 auto
 str
 =
-u
 "
 about
 :
@@ -3514,7 +3463,6 @@ value
 )
 =
 =
-u
 "
 about
 :

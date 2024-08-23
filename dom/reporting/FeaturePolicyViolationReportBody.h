@@ -58,7 +58,7 @@ nsAString
 &
 aFeatureId
 const
-nsAString
+nsACString
 &
 aSourceFile
 const
@@ -112,7 +112,7 @@ const
 void
 GetSourceFile
 (
-nsAString
+nsACString
 &
 aSourceFile
 )
@@ -169,7 +169,7 @@ nsString
 mFeatureId
 ;
 const
-nsString
+nsCString
 mSourceFile
 ;
 const

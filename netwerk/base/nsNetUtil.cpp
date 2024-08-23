@@ -14529,7 +14529,6 @@ CSP_LogLocalizedStr
 upgradeInsecureRequest
 "
 params
-u
 "
 "
 _ns
@@ -14702,7 +14701,10 @@ Message
 "
 _ns
 innerWindowId
+SourceLocation
+(
 aURI
+)
 )
 ;
 aLoadInfo

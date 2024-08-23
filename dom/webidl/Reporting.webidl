@@ -361,7 +361,7 @@ message
 ;
 readonly
 attribute
-DOMString
+UTF8String
 ?
 sourceFile
 ;
@@ -494,7 +494,7 @@ originalPolicy
 ;
 readonly
 attribute
-USVString
+UTF8String
 ?
 sourceFile
 ;

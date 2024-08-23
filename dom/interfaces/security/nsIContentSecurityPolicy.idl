@@ -1451,7 +1451,7 @@ in
 nsICSPEventListener
 aCSPEventListener
 in
-AString
+ACString
 sourceFile
 in
 AString

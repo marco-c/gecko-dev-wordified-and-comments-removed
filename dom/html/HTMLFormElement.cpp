@@ -1273,11 +1273,14 @@ get
 (
 )
 params
+SourceLocation
+(
 element
 -
 >
 GetBaseURI
 (
+)
 )
 )
 ;
@@ -7418,7 +7421,6 @@ CSP_LogLocalizedStr
 upgradeInsecureRequest
 "
 params
-u
 "
 "
 _ns

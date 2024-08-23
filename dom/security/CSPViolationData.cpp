@@ -160,7 +160,7 @@ const
 CSPDirective
 aEffectiveDirective
 const
-nsAString
+nsACString
 &
 aSourceFile
 uint32_t
