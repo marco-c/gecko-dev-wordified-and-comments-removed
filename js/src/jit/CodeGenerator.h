@@ -1780,6 +1780,15 @@ Register
 output
 Register
 maybeTemp
+Register64
+maybeTemp64
+=
+Register64
+:
+:
+Invalid
+(
+)
 )
 ;
 template
