@@ -134,3 +134,10 @@ file_websocket_wsh
 py
 "
 ]
+[
+"
+test_window_open_popupBlockerEnabled
+.
+html
+"
+]
