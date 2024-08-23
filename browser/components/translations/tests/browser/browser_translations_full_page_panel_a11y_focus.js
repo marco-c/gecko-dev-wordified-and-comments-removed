@@ -54,6 +54,16 @@ FullPageTranslationsTestUtils
 openPanel
 (
 {
+expectedFromLanguage
+:
+"
+es
+"
+expectedToLanguage
+:
+"
+en
+"
 openWithKeyboard
 :
 true

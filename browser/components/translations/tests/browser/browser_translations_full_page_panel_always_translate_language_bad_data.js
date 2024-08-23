@@ -53,6 +53,15 @@ FullPageTranslationsTestUtils
 openPanel
 (
 {
+expectedFromLanguage
+:
+"
+en
+"
+expectedToLanguage
+:
+"
+"
 onOpenPanel
 :
 FullPageTranslationsTestUtils

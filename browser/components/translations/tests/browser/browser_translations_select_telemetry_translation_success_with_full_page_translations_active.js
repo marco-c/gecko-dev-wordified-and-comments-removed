@@ -653,6 +653,11 @@ FullPageTranslationsTestUtils
 openPanel
 (
 {
+expectedToLanguage
+:
+"
+fr
+"
 onOpenPanel
 :
 FullPageTranslationsTestUtils
