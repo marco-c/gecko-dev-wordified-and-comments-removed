@@ -1,5 +1,17 @@
 add_task
 (
+{
+skip_if
+:
+(
+)
+=
+>
+!
+AppConstants
+.
+MOZ_SELECTABLE_PROFILES
+}
 async
 (
 )
