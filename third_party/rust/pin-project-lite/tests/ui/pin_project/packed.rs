@@ -1,11 +1,3 @@
-#
-!
-[
-allow
-(
-unaligned_references
-)
-]
 use
 pin_project_lite
 :

@@ -24,6 +24,13 @@ Unit
 }
 #
 [
+doc
+(
+hidden
+)
+]
+#
+[
 allow
 (
 dead_code
@@ -181,6 +188,17 @@ T
 U
 >
 {
+#
+[
+doc
+(
+hidden
+)
+]
+#
+[
+inline
+]
 fn
 project_ref
 <
@@ -235,6 +253,7 @@ unpinned
 }
 =
 >
+{
 EnumProjRef
 :
 :
@@ -260,6 +279,7 @@ pinned
 unpinned
 :
 unpinned
+}
 }
 Self
 :

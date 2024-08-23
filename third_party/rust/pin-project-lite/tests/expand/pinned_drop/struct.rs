@@ -4,15 +4,6 @@ pin_project_lite
 :
 pin_project
 ;
-use
-std
-:
-:
-pin
-:
-:
-Pin
-;
 pin_project
 !
 {
