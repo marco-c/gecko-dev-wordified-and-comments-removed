@@ -3768,7 +3768,11 @@ decorationLines
 .
 push
 (
+{
+line
+:
 i
+}
 )
 ;
 }
