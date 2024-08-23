@@ -71,8 +71,10 @@ Place
 DrawTarget
 *
 aDrawTarget
-bool
-aPlaceOrigin
+const
+PlaceFlags
+&
+aFlags
 ReflowOutput
 &
 aDesiredSize
