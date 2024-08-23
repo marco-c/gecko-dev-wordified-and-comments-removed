@@ -49307,9 +49307,6 @@ set_spidermonkey_pref
 :
 startup
 #
-ifdef
-NIGHTLY_BUILD
-#
 Experimental
 support
 for
@@ -49333,13 +49330,16 @@ type
 bool
 value
 :
-false
+true
 mirror
 :
 always
 set_spidermonkey_pref
 :
 startup
+#
+ifdef
+NIGHTLY_BUILD
 #
 Experimental
 support
