@@ -4843,6 +4843,15 @@ network_state_predictor
 h
 "
 ]
+deps
+=
+[
+"
+transport
+:
+bandwidth_usage
+"
+]
 }
 rtc_source_set
 (

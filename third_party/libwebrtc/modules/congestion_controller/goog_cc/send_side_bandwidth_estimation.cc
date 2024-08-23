@@ -82,7 +82,9 @@ include
 "
 api
 /
-network_state_predictor
+rtc_event_log
+/
+rtc_event_log
 .
 h
 "
@@ -91,9 +93,9 @@ include
 "
 api
 /
-rtc_event_log
+transport
 /
-rtc_event_log
+bandwidth_usage
 .
 h
 "
