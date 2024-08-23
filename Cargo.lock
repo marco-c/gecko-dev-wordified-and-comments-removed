@@ -3858,6 +3858,13 @@ utils
 cstr
 "
 "
+firefox
+-
+on
+-
+glean
+"
+"
 log
 "
 "
