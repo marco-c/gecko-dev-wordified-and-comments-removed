@@ -1,5 +1,18 @@
 pluginManagement
 {
+if
+(
+!
+gradle
+.
+hasProperty
+(
+"
+mozconfig
+"
+)
+)
+{
 apply
 from
 :
@@ -17,6 +30,7 @@ mozconfig
 gradle
 '
 )
+}
 repositories
 {
 gradle
