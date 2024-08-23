@@ -14560,6 +14560,17 @@ IsPrivateBrowsing
 )
 )
 ;
+aLoadInfo
+-
+>
+SetHttpsUpgradeTelemetry
+(
+nsILoadInfo
+:
+:
+CSP_UIR
+)
+;
 return
 true
 ;

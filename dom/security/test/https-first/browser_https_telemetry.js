@@ -256,6 +256,7 @@ aHttpsFirstUpgrade
 aHttpsFirstUpgradeDowngrade
 aHttpsFirstSchemelessUpgrade
 aHttpsFirstSchemelessUpgradeDowngrade
+aCSPUpgradeInsecureRequests
 aHttpsRR
 aWebExtensionUpgrade
 aUpgradeException
@@ -432,6 +433,22 @@ aHttpsFirstSchemelessUpgradeDowngrade
 "
 verify
 https_first_schemeless_upgrade_downgrade
+"
+)
+;
+is
+(
+glean
+.
+csp_uir
+.
+testGetValue
+(
+)
+aCSPUpgradeInsecureRequests
+"
+verify
+csp_uir
 "
 )
 ;
@@ -805,6 +822,7 @@ null
 null
 null
 null
+null
 )
 ;
 }
@@ -879,6 +897,7 @@ test
 "
 null
 1
+null
 null
 null
 null
@@ -975,6 +994,7 @@ null
 null
 null
 null
+null
 )
 ;
 }
@@ -1059,6 +1079,7 @@ true
 null
 null
 1
+null
 null
 null
 null
@@ -1190,6 +1211,7 @@ null
 null
 null
 1
+null
 null
 null
 null
@@ -1379,6 +1401,7 @@ null
 null
 null
 null
+null
 )
 ;
 await
@@ -1507,6 +1530,7 @@ null
 null
 null
 1
+null
 null
 null
 null
@@ -1901,6 +1925,7 @@ null
 null
 null
 null
+null
 )
 ;
 }
@@ -1989,6 +2014,7 @@ null
 null
 null
 null
+null
 )
 ;
 info
@@ -2059,6 +2085,7 @@ null
 null
 1
 1
+null
 null
 null
 null
@@ -2151,6 +2178,7 @@ null
 null
 null
 null
+null
 )
 ;
 info
@@ -2227,6 +2255,7 @@ null
 null
 1
 1
+null
 null
 null
 null
@@ -2370,6 +2399,7 @@ https
 rr
 upgrade
 "
+null
 null
 null
 null
@@ -2619,6 +2649,7 @@ downgrade
 /
 reload
 "
+null
 null
 null
 null
