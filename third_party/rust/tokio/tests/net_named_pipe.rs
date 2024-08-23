@@ -15,10 +15,7 @@ full
 [
 cfg
 (
-all
-(
 windows
-)
 )
 ]
 use
@@ -684,9 +681,6 @@ PIPE_NAME
 )
 ?
 ;
-let
-_
-=
 tokio
 :
 :
@@ -1155,9 +1149,6 @@ PIPE_NAME
 )
 ?
 ;
-let
-_
-=
 tokio
 :
 :

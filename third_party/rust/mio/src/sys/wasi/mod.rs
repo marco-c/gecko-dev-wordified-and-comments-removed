@@ -1185,9 +1185,7 @@ wasi
 Userdata
 :
 :
-max_value
-(
-)
+MAX
 ;
 fn
 timeout_subscription
@@ -1895,11 +1893,14 @@ field
 flags
 "
 &
+EventrwflagsDetails
+(
 self
 .
 0
 .
 flags
+)
 )
 .
 finish

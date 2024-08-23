@@ -2321,7 +2321,7 @@ actual
 }
 }
 }
-cfg_metrics
+cfg_unstable_metrics
 !
 {
 impl

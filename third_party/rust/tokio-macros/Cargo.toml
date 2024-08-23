@@ -100,7 +100,7 @@ package
 edition
 =
 "
-2018
+2021
 "
 rust
 -
@@ -109,7 +109,7 @@ version
 "
 1
 .
-56
+70
 "
 name
 =
@@ -123,7 +123,7 @@ version
 "
 2
 .
-1
+4
 .
 0
 "
@@ -238,7 +238,7 @@ version
 .
 0
 .
-7
+60
 "
 [
 dependencies

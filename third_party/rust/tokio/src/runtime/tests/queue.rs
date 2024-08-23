@@ -83,6 +83,17 @@ expr
 =
 >
 {
+#
+[
+cfg
+(
+target_has_atomic
+=
+"
+64
+"
+)
+]
 {
 use
 crate
@@ -281,7 +292,7 @@ stats
 )
 ;
 }
-cfg_metrics
+cfg_unstable_metrics
 !
 {
 assert_metrics
@@ -667,7 +678,7 @@ stats
 )
 ;
 }
-cfg_metrics
+cfg_unstable_metrics
 !
 {
 assert_metrics
@@ -847,7 +858,7 @@ is_some
 )
 )
 ;
-cfg_metrics
+cfg_unstable_metrics
 !
 {
 assert_metrics
@@ -1165,7 +1176,7 @@ yield_now
 )
 ;
 }
-cfg_metrics
+cfg_unstable_metrics
 !
 {
 assert_metrics
@@ -1645,6 +1656,13 @@ NUM_TASKS
 ;
 }
 }
+#
+[
+allow
+(
+dead_code
+)
+]
 struct
 Runtime
 ;

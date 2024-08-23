@@ -73,6 +73,13 @@ crate
 trait
 Wait
 {
+#
+[
+allow
+(
+dead_code
+)
+]
 fn
 id
 (
@@ -427,6 +434,7 @@ push
 (
 orphan
 )
+;
 }
 pub
 (

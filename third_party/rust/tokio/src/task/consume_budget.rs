@@ -16,15 +16,11 @@ doc
 (
 cfg
 (
-all
-(
-tokio_unstable
 feature
 =
 "
 rt
 "
-)
 )
 )
 )

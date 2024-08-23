@@ -48,9 +48,6 @@ block
 :
 :
 Read
-:
-:
-*
 ;
 const
 NUM_TX
@@ -173,6 +170,9 @@ tx
 {
 Some
 (
+Read
+:
+:
 Value
 (
 (
@@ -227,6 +227,9 @@ break
 }
 Some
 (
+Read
+:
+:
 Closed
 )
 =

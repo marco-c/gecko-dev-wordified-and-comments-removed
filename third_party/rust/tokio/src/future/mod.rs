@@ -46,6 +46,13 @@ maybe_done
 mod
 poll_fn
 ;
+#
+[
+allow
+(
+unused_imports
+)
+]
 pub
 use
 poll_fn
@@ -93,6 +100,13 @@ cfg_trace
 mod
 trace
 ;
+#
+[
+allow
+(
+unused_imports
+)
+]
 pub
 (
 crate

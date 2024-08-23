@@ -3,14 +3,11 @@
 [
 cfg
 (
-all
-(
 feature
 =
 "
 full
 "
-)
 )
 ]
 use

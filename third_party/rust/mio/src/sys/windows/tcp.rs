@@ -348,9 +348,7 @@ unwrap_or
 i32
 :
 :
-max_value
-(
-)
+MAX
 )
 ;
 syscall

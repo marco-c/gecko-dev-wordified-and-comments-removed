@@ -1917,6 +1917,7 @@ consume
 (
 amt
 )
+;
 }
 }
 impl

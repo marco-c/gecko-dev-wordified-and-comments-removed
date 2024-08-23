@@ -551,14 +551,8 @@ io
 pub
 fn
 poll_ready
-<
-'
-a
->
 (
 &
-'
-a
 self
 cx
 :

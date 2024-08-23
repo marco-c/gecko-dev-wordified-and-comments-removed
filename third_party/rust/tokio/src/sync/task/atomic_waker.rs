@@ -868,6 +868,7 @@ self
 wake
 (
 )
+;
 }
 fn
 into_waker
@@ -898,6 +899,7 @@ self
 wake_by_ref
 (
 )
+;
 }
 fn
 into_waker

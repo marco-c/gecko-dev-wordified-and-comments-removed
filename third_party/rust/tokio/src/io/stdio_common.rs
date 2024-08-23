@@ -223,7 +223,7 @@ io
 blocking
 :
 :
-MAX_BUF
+DEFAULT_MAX_BUF_SIZE
 {
 return
 call_inner
@@ -248,7 +248,7 @@ io
 blocking
 :
 :
-MAX_BUF
+DEFAULT_MAX_BUF_SIZE
 ]
 ;
 let
@@ -520,7 +520,7 @@ io
 blocking
 :
 :
-MAX_BUF
+DEFAULT_MAX_BUF_SIZE
 ;
 use
 crate
@@ -629,7 +629,7 @@ len
 )
 <
 =
-MAX_BUF
+DEFAULT_MAX_BUF_SIZE
 )
 ;
 assert
@@ -860,7 +860,7 @@ len
 )
 <
 =
-MAX_BUF
+DEFAULT_MAX_BUF_SIZE
 )
 ;
 self
@@ -1015,7 +1015,7 @@ repeat
 (
 "
 "
-MAX_BUF
+DEFAULT_MAX_BUF_SIZE
 )
 ;
 let
@@ -1156,7 +1156,7 @@ repeat
 .
 take
 (
-MAX_BUF
+DEFAULT_MAX_BUF_SIZE
 -
 checked_count
 +

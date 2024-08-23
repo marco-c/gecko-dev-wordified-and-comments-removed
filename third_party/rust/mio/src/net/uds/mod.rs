@@ -37,13 +37,3 @@ stream
 :
 UnixStream
 ;
-pub
-use
-crate
-:
-:
-sys
-:
-:
-SocketAddr
-;

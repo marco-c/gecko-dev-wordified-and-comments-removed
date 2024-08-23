@@ -146,6 +146,16 @@ stream
 :
 UnixStream
 ;
+pub
+use
+unix
+:
+:
+socket
+:
+:
+UnixSocket
+;
 }
 cfg_net_windows
 !

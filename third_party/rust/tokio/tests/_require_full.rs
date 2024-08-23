@@ -1,4 +1,13 @@
 #
+!
+[
+allow
+(
+unknown_lints
+unexpected_cfgs
+)
+]
+#
 [
 cfg
 (
@@ -11,7 +20,11 @@ feature
 "
 full
 "
-tokio_wasm
+target_family
+=
+"
+wasm
+"
 )
 )
 )

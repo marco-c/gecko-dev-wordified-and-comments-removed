@@ -102,6 +102,7 @@ function
 shutdown
 ]
 :
+[
 crate
 :
 :
@@ -112,6 +113,7 @@ AsyncWriteExt
 :
 :
 shutdown
+]
 #
 [
 must_use

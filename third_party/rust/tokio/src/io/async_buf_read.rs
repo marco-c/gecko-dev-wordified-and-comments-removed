@@ -359,6 +359,7 @@ consume
 (
 amt
 )
+;
 }
 }
 impl
@@ -560,5 +561,6 @@ get_mut
 )
 amt
 )
+;
 }
 }

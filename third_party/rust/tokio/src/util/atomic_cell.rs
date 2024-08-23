@@ -263,15 +263,7 @@ T
 {
 data
 .
-map
-(
-Box
-:
-:
-into_raw
-)
-.
-unwrap_or
+map_or
 (
 ptr
 :
@@ -279,6 +271,10 @@ ptr
 null_mut
 (
 )
+Box
+:
+:
+into_raw
 )
 }
 fn

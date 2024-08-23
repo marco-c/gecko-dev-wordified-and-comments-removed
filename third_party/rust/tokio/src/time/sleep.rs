@@ -111,7 +111,6 @@ Instant
 >
 Sleep
 {
-return
 Sleep
 :
 :
@@ -125,7 +124,6 @@ caller_location
 (
 )
 )
-;
 }
 #
 [
@@ -339,6 +337,14 @@ elapsed
 /
 #
 [
+project
+(
+!
+Unpin
+)
+]
+#
+[
 cfg_attr
 (
 docsrs
@@ -515,7 +521,6 @@ TimerEntry
 :
 new
 (
-&
 handle
 deadline
 )
@@ -539,6 +544,19 @@ let
 inner
 =
 {
+let
+handle
+=
+scheduler
+:
+:
+Handle
+:
+:
+current
+(
+)
+;
 let
 clock
 =
@@ -917,6 +935,7 @@ reset_inner
 (
 deadline
 )
+;
 }
 pub
 (

@@ -17,9 +17,6 @@ JoinError
 JoinHandle
 }
 ;
-cfg_not_wasi
-!
-{
 mod
 blocking
 ;
@@ -30,7 +27,6 @@ blocking
 :
 spawn_blocking
 ;
-}
 mod
 spawn
 ;
@@ -62,9 +58,6 @@ yield_now
 :
 yield_now
 ;
-cfg_unstable
-!
-{
 mod
 consume_budget
 ;
@@ -75,7 +68,6 @@ consume_budget
 :
 consume_budget
 ;
-}
 mod
 local
 ;

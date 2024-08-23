@@ -753,9 +753,7 @@ mio
 version
 =
 "
-0
-.
-8
+1
 "
 features
 =
@@ -1087,9 +1085,6 @@ fs
 "
 "
 macros
-"
-"
-num_cpus
 "
 "
 rt

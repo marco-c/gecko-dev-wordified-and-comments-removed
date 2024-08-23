@@ -72,6 +72,13 @@ data
 )
 )
 }
+#
+[
+inline
+(
+always
+)
+]
 pub
 (
 crate
@@ -112,6 +119,13 @@ get
 )
 )
 }
+#
+[
+inline
+(
+always
+)
+]
 pub
 (
 crate

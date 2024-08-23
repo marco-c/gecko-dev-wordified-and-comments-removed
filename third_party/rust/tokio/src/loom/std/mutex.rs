@@ -96,16 +96,6 @@ t
 [
 inline
 ]
-#
-[
-cfg
-(
-not
-(
-tokio_no_const_mutex_new
-)
-)
-]
 pub
 (
 crate

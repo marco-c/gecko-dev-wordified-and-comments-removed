@@ -1,4 +1,14 @@
 #
+!
+[
+allow
+(
+unknown_lints
+unexpected_cfgs
+)
+]
+#
+!
 [
 cfg
 (
@@ -13,9 +23,6 @@ tracing
 )
 )
 ]
-mod
-tests
-{
 use
 std
 :
@@ -428,5 +435,4 @@ executed
 "
 )
 ;
-}
 }

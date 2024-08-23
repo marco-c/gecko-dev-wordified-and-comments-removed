@@ -208,7 +208,15 @@ os_required
 [
 cfg
 (
+any
+(
 unix
+target_os
+=
+"
+hermit
+"
+)
 )
 ]
 pub

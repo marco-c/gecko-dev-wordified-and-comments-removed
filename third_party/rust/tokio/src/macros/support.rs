@@ -66,7 +66,10 @@ std
 future
 :
 :
+{
 Future
+IntoFuture
+}
 ;
 pub
 use

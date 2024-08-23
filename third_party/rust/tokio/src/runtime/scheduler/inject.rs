@@ -65,7 +65,7 @@ mod
 rt_multi_thread
 ;
 }
-cfg_metrics
+cfg_unstable_metrics
 !
 {
 mod

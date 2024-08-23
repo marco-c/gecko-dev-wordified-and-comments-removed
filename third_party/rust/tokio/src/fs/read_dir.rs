@@ -775,6 +775,11 @@ vxworks
 target_os
 =
 "
+aix
+"
+target_os
+=
+"
 nto
 "
 target_os
@@ -1087,6 +1092,11 @@ vxworks
 target_os
 =
 "
+aix
+"
+target_os
+=
+"
 nto
 "
 target_os
@@ -1246,6 +1256,11 @@ target_os
 =
 "
 vxworks
+"
+target_os
+=
+"
+aix
 "
 target_os
 =

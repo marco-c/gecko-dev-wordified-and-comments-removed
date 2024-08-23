@@ -26,7 +26,10 @@ runtime
 tests
 :
 :
+{
+unowned
 NoopSchedule
+}
 ;
 use
 loom
@@ -245,9 +248,6 @@ task
 _
 )
 =
-super
-:
-:
 unowned
 (
 async
@@ -291,9 +291,6 @@ task
 _
 )
 =
-super
-:
-:
 unowned
 (
 async
@@ -523,9 +520,6 @@ task
 _
 )
 =
-super
-:
-:
 unowned
 (
 async
@@ -576,9 +570,6 @@ task
 _
 )
 =
-super
-:
-:
 unowned
 (
 async
@@ -818,9 +809,6 @@ task
 _
 )
 =
-super
-:
-:
 unowned
 (
 async
@@ -1046,9 +1034,6 @@ task
 _
 )
 =
-super
-:
-:
 unowned
 (
 async
@@ -1074,9 +1059,6 @@ task
 _
 )
 =
-super
-:
-:
 unowned
 (
 async
