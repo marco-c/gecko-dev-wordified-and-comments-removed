@@ -17,14 +17,14 @@ assert_implements
 (
 target
 .
-on
+when
 "
 The
 EventTarget
 interface
 has
 an
-on
+when
 method
 "
 )
@@ -34,7 +34,7 @@ assert_equals
 typeof
 target
 .
-on
+when
 "
 function
 "
@@ -43,7 +43,7 @@ EventTarget
 should
 have
 the
-on
+when
 method
 "
 )
@@ -53,7 +53,7 @@ testEvents
 =
 target
 .
-on
+when
 (
 "
 test
@@ -68,7 +68,9 @@ Observable
 "
 EventTarget
 .
-on
+when
+(
+)
 returns
 an
 Observable
@@ -192,7 +194,7 @@ event
 "
 EventTarget
 .
-on
+when
 (
 )
 returns
@@ -221,7 +223,7 @@ testEvents
 =
 target
 .
-on
+when
 (
 "
 test
@@ -446,7 +448,7 @@ testEvents
 =
 target
 .
-on
+when
 (
 "
 test
