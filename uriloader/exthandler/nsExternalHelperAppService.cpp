@@ -16672,6 +16672,16 @@ lastNonTrimmable
 )
 ;
 }
+if
+(
+!
+(
+aFlags
+&
+VALIDATE_ALLOW_DIRECTORY_NAMES
+)
+)
+{
 nsAutoString
 extension
 ;
@@ -16726,6 +16736,7 @@ dotidx
 +
 extension
 ;
+}
 }
 #
 ifdef

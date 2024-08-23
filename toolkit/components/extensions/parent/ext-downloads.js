@@ -3167,7 +3167,10 @@ pathComponents
 .
 some
 (
+(
 component
+i
+)
 =
 >
 {
@@ -3183,6 +3186,15 @@ component
 compressWhitespaces
 :
 false
+allowDirectoryNames
+:
+i
+<
+pathComponents
+.
+length
+-
+1
 }
 )
 ;
