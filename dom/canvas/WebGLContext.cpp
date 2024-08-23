@@ -7522,6 +7522,15 @@ layers
 SurfaceDescriptor
 :
 :
+TEGLImageDescriptor
+:
+case
+layers
+:
+:
+SurfaceDescriptor
+:
+:
 TSurfaceDescriptorDMABuf
 :
 keepAlive
