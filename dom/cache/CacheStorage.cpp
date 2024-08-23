@@ -1257,7 +1257,7 @@ bool
 CacheStorage
 :
 :
-DefineCachesForSandbox
+DefineCaches
 (
 JSContext
 *
@@ -1323,7 +1323,7 @@ NS_WARN_IF
 CacheStorage_Binding
 :
 :
-CreateAndDefineOnGlobal
+GetConstructorObject
 (
 aCx
 )
@@ -1333,7 +1333,7 @@ aCx
 Cache_Binding
 :
 :
-CreateAndDefineOnGlobal
+GetConstructorObject
 (
 aCx
 )
