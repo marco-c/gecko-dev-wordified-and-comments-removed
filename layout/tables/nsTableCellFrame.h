@@ -332,11 +332,7 @@ GetContentInsertionFrame
 override
 {
 return
-PrincipalChildList
-(
-)
-.
-FirstChild
+Inner
 (
 )
 -
@@ -346,6 +342,13 @@ GetContentInsertionFrame
 )
 ;
 }
+nsIFrame
+*
+Inner
+(
+)
+const
+;
 nsIFrame
 *
 CellContentFrame
