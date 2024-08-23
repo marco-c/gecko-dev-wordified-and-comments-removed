@@ -20,7 +20,7 @@ namespace
 internal
 {
 class
-ByteArray
+TrustedByteArray
 ;
 class
 RegExpBytecodePeepholeOptimization
@@ -33,7 +33,7 @@ public
 static
 Handle
 <
-ByteArray
+TrustedByteArray
 >
 OptimizeBytecode
 (
@@ -43,7 +43,7 @@ isolate
 Zone
 *
 zone
-Handle
+DirectHandle
 <
 String
 >

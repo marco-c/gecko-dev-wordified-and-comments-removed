@@ -4634,7 +4634,7 @@ zone_
 }
 Handle
 <
-ByteArray
+TrustedByteArray
 >
 RegExpBytecodePeepholeOptimization
 :
@@ -4647,7 +4647,7 @@ isolate
 Zone
 *
 zone
-Handle
+DirectHandle
 <
 String
 >
@@ -4689,7 +4689,7 @@ length
 ;
 Handle
 <
-ByteArray
+TrustedByteArray
 >
 array
 =
@@ -4701,7 +4701,7 @@ factory
 )
 -
 >
-NewByteArray
+NewTrustedByteArray
 (
 peephole
 .

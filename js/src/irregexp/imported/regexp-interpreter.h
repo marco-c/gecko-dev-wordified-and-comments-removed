@@ -22,7 +22,7 @@ namespace
 internal
 {
 class
-ByteArray
+TrustedByteArray
 ;
 class
 V8_EXPORT_PRIVATE
@@ -75,12 +75,12 @@ MatchForCallFromRuntime
 Isolate
 *
 isolate
-Handle
+DirectHandle
 <
-JSRegExp
+IrRegExpData
 >
-regexp
-Handle
+regexp_data
+DirectHandle
 <
 String
 >
@@ -120,7 +120,7 @@ Isolate
 *
 isolate
 Address
-regexp
+regexp_data
 )
 ;
 static
@@ -132,7 +132,7 @@ Isolate
 isolate
 Tagged
 <
-ByteArray
+TrustedByteArray
 >
 code_array
 Tagged
@@ -169,9 +169,9 @@ Isolate
 isolate
 Tagged
 <
-JSRegExp
+IrRegExpData
 >
-regexp
+regexp_data
 Tagged
 <
 String
