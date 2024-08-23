@@ -4281,6 +4281,16 @@ aCodec
 EqualsLiteral
 (
 "
+vorbis
+"
+)
+|
+|
+aCodec
+.
+EqualsLiteral
+(
+"
 opus
 "
 )
