@@ -14044,9 +14044,14 @@ aPseudoElement
 rv
 )
 ;
-RETURN_NSRESULT_ON_FAILURE
+ENSURE_SUCCESS
 (
 rv
+rv
+.
+StealNSResult
+(
+)
 )
 ;
 }

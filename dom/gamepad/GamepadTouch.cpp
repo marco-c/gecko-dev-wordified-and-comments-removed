@@ -290,6 +290,13 @@ if
 mSurfaceDimensions
 )
 {
+aRv
+.
+NoteJSContextException
+(
+aCx
+)
+;
 return
 ;
 }

@@ -3211,12 +3211,6 @@ bytes
 result
 )
 ;
-result
-.
-WouldReportJSException
-(
-)
-;
 if
 (
 result
