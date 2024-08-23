@@ -4388,6 +4388,15 @@ name
 "
 WindowAnimationTransition
 "
+parent
+=
+"
+android
+:
+Animation
+.
+Activity
+"
 >
 <
 item
