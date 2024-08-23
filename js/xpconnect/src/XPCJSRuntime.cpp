@@ -785,6 +785,9 @@ indexedDB
 "
 structuredClone
 "
+"
+locks
+"
 }
 ;
 class

@@ -2408,6 +2408,9 @@ false
 structuredClone
 :
 false
+locks
+:
+false
 }
 }
 ;
