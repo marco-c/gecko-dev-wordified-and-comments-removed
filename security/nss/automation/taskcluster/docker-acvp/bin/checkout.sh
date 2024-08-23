@@ -110,11 +110,21 @@ org
 projects
 /
 nspr
+pushd
+nspr
+hg
+revert
+-
+-
+all
 if
 [
 [
 -
 f
+.
+.
+/
 nss
 /
 nspr
@@ -134,8 +144,6 @@ ALLOW_NSPR_PATCH
 ]
 ;
 then
-pushd
-nspr
 cat
 .
 .
@@ -149,5 +157,5 @@ patch
 patch
 -
 p1
-popd
 fi
+popd

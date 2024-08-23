@@ -3,4 +3,4 @@ libfuzzer
 ]
 max_len
 =
-10000
+16777215

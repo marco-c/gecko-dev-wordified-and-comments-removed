@@ -85,7 +85,7 @@ debug_optimization_level
 '
 :
 '
-2
+3
 '
 }
 '
@@ -1775,7 +1775,7 @@ defines
 :
 [
 '
-IS_DTLS
+IS_DTLS_FUZZ
 '
 ]
 '
@@ -1864,7 +1864,7 @@ defines
 :
 [
 '
-IS_DTLS
+IS_DTLS_FUZZ
 '
 ]
 '
