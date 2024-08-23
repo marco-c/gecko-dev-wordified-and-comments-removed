@@ -1827,7 +1827,7 @@ SurfaceFormat
 :
 A8R8G8B8_UINT32
 ;
-uint32_t
+int32_t
 stride
 =
 GetAlignedStride
