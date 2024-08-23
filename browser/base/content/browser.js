@@ -11545,12 +11545,6 @@ j
 !
 =
 start
-&
-&
-j
-!
-=
-index
 )
 {
 continue

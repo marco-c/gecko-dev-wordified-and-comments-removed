@@ -286,14 +286,6 @@ else
 {
 content
 .
-document
-.
-notifyUserGestureActivation
-(
-)
-;
-content
-.
 history
 .
 pushState
