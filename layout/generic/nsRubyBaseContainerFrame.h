@@ -57,7 +57,6 @@ NS_DECL_FRAMEARENA_HELPERS
 nsRubyBaseContainerFrame
 )
 NS_DECL_QUERYFRAME
-virtual
 bool
 CanContinueTextRun
 (
@@ -65,7 +64,6 @@ CanContinueTextRun
 const
 override
 ;
-virtual
 void
 AddInlineMinISize
 (
@@ -78,7 +76,6 @@ aData
 )
 override
 ;
-virtual
 void
 AddInlinePrefISize
 (
@@ -140,7 +137,6 @@ aFlags
 )
 override
 ;
-virtual
 void
 Reflow
 (
@@ -181,7 +177,6 @@ override
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (
