@@ -80,10 +80,6 @@ contains
 the
 client
 id
-and
-profile
-group
-id
 .
 This
 ping
@@ -185,8 +181,6 @@ data
 (
 including
 clientId
-and
-profileGroupId
 )
 payload
 :

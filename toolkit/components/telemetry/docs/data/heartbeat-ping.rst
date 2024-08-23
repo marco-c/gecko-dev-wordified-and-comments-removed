@@ -136,11 +136,8 @@ section
 The
 environment
 block
-client
-ID
 and
-profile
-group
+client
 ID
 are
 submitted
@@ -168,11 +165,6 @@ version
 :
 4
 clientId
-:
-<
-UUID
->
-profileGroupId
 :
 <
 UUID

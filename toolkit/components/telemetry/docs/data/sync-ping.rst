@@ -62,8 +62,6 @@ block
 nor
 the
 clientId
-or
-profileGroupId
 .
 Each
 item

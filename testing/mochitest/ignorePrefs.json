@@ -243,13 +243,6 @@ telemetry
 cachedClientID
 "
 "
-toolkit
-.
-telemetry
-.
-cachedProfileGroupID
-"
-"
 ui
 .
 osk

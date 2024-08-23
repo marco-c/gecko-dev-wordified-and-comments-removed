@@ -38,7 +38,6 @@ Notably
 it
 includes
 clientId
-profileGroupId
 and
 the
 :
@@ -88,11 +87,6 @@ common
 ping
 data
 clientId
-:
-<
-UUID
->
-profileGroupId
 :
 <
 UUID

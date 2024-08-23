@@ -528,10 +528,6 @@ contain
 the
 client
 id
-and
-profile
-group
-id
 .
 Defaults
 to

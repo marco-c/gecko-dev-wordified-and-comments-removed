@@ -65,11 +65,7 @@ small
 The
 client
 id
-and
-profile
-group
-id
-are
+is
 submitted
 with
 this
@@ -128,13 +124,6 @@ b403
 -
 f077724e848a
 "
-"
-profileGroupId
-"
-:
-<
-UUID
->
 "
 payload
 "

@@ -61,11 +61,7 @@ experiments
 The
 client
 ID
-and
-profile
-group
-ID
-are
+is
 submitted
 with
 this
@@ -93,11 +89,6 @@ uitour
 tag
 "
 clientId
-:
-<
-string
->
-profileGroupId
 :
 <
 string

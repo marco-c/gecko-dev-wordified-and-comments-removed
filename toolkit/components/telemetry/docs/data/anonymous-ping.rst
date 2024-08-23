@@ -50,10 +50,6 @@ track
 associate
 client
 ID
-or
-profile
-group
-ID
 .
 It
 '
@@ -122,10 +118,6 @@ pings
 will
 collect
 client
-ID
-and
-profile
-group
 ID
 .
 We
@@ -548,7 +540,6 @@ don
 t
 collect
 clientId
-profileGroupId
 nor
 environment
 data

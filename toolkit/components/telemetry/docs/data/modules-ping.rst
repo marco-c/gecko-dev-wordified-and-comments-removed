@@ -36,9 +36,6 @@ process
 The
 client
 ID
-profile
-group
-ID
 and
 environment
 are
@@ -70,11 +67,6 @@ common
 ping
 data
 clientId
-:
-<
-UUID
->
-profileGroupId
 :
 <
 UUID

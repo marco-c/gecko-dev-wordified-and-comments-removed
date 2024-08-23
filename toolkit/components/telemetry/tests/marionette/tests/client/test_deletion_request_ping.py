@@ -66,7 +66,7 @@ sessions
 "
 "
         
-ping
+client_id
 =
 self
 .
@@ -77,10 +77,6 @@ self
 install_addon
 ANY_PING
 )
-        
-client_id
-=
-ping
 [
 "
 clientId
@@ -92,22 +88,6 @@ self
 assertIsValidUUID
 (
 client_id
-)
-        
-profile_group_id
-=
-ping
-[
-"
-profileGroupId
-"
-]
-        
-self
-.
-assertIsValidUUID
-(
-profile_group_id
 )
         
 ping
@@ -128,16 +108,6 @@ assertIn
 (
 "
 clientId
-"
-ping
-)
-        
-self
-.
-assertIn
-(
-"
-profileGroupId
 "
 ping
 )
@@ -338,19 +308,6 @@ clientId
 "
 ]
 client_id
-)
-        
-self
-.
-assertEqual
-(
-main_ping
-[
-"
-profileGroupId
-"
-]
-profile_group_id
 )
         
 parent_scalars

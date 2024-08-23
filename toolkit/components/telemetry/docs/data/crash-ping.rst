@@ -280,11 +280,7 @@ submission
 The
 client
 ID
-and
-profile
-group
-ID
-are
+is
 submitted
 with
 this
@@ -381,11 +377,6 @@ common
 ping
 data
 clientId
-:
-<
-UUID
->
-profileGroupId
 :
 <
 UUID
