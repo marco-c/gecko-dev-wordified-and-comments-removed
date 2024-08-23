@@ -1529,7 +1529,7 @@ isArrayType
 size_t
 trailerSize
 =
-calcStorageBytesUnchecked
+calcStorageBytes
 (
 typeDef
 .
@@ -1722,7 +1722,7 @@ isArrayType
 size_t
 trailerSize
 =
-calcStorageBytesUnchecked
+calcStorageBytes
 (
 typeDef
 .
