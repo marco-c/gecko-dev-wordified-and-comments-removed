@@ -1399,6 +1399,15 @@ signal
 mSourceSignals
 )
 {
+if
+(
+!
+sourceSignal
+)
+{
+continue
+;
+}
 MOZ_ASSERT
 (
 !
