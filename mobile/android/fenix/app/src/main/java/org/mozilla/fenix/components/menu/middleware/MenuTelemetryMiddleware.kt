@@ -1023,6 +1023,11 @@ MenuAction
 .
 Navigate
 .
+ExtensionsLearnMore
+MenuAction
+.
+Navigate
+.
 Extensions
 MenuAction
 .
