@@ -923,7 +923,10 @@ contextmenu
 "
 _ns
 point
-2
+MouseButton
+:
+:
+ePrimary
 1
 WidgetModifiersToDOMModifiers
 (
