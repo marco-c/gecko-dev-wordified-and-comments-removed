@@ -34,6 +34,8 @@ window
 open
 (
 )
+try
+{
 let
 dir
 =
@@ -140,6 +142,9 @@ to
 FileHandle
 }
 )
+}
+finally
+{
 document
 .
 documentElement
@@ -154,7 +159,12 @@ test
 wait
 "
 )
-;
+a
+.
+close
+(
+)
+}
 <
 /
 script
