@@ -5246,7 +5246,7 @@ ios_try_job
 ios_compile_arm64_rel
 "
 )
-ios_builder
+ci_builder
 (
 "
 iOS
