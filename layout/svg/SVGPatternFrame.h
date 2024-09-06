@@ -291,11 +291,11 @@ mContent
 )
 ;
 }
-SVGAnimatedTransformList
+SVGPatternFrame
 *
-GetPatternTransformList
+GetPatternTransformFrame
 (
-nsIContent
+SVGPatternFrame
 *
 aDefault
 )
