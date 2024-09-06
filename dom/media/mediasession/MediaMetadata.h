@@ -132,6 +132,9 @@ mArtist
 nsString
 mAlbum
 ;
+nsCString
+mUrl
+;
 CopyableTArray
 <
 MediaImage

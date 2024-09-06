@@ -415,6 +415,12 @@ aMetadata
 .
 mAlbum
 ;
+mUrl
+=
+aMetadata
+.
+mUrl
+;
 mArtwork
 =
 aMetadata
