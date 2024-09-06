@@ -8957,6 +8957,12 @@ DispatchTransaction
 NETWORK
 MarkerOptions
 (
+MarkerThreadId
+:
+:
+MainThread
+(
+)
 MarkerTiming
 :
 :
@@ -9684,8 +9690,12 @@ PROFILER_MARKER
 ProcessNewTransaction
 "
 NETWORK
-{
-}
+MarkerThreadId
+:
+:
+MainThread
+(
+)
 UrlMarker
 trans
 -
