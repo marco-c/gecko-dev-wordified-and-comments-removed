@@ -2810,9 +2810,9 @@ description
 ninja
 1
 .
-9
+12
 .
-0
+1
 fetch
 :
 type
@@ -2842,9 +2842,9 @@ download
 /
 v1
 .
-9
+12
 .
-0
+1
 /
 ninja
 -
@@ -2853,10 +2853,10 @@ win
 zip
 sha256
 :
-2d70010633ddaacc3af4ffbd21e22fae90d158674a09e132e06424ba3ab036e9
+f550fec705b6d6ff58f2db3c374c2277a37691678d6aba463adcbb129108467a
 size
 :
-254497
+275425
 artifact
 -
 name
