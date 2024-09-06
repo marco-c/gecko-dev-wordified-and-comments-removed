@@ -652,6 +652,20 @@ _io_port
 None
             
 if
+isWin
+:
+                
+self
+.
+_cleanup_lock
+=
+threading
+.
+Lock
+(
+)
+            
+if
 not
 self
 .
@@ -3104,6 +3118,15 @@ timeout
 timeout
 )
                         
+self
+.
+_process_events
+.
+put
+(
+item
+)
+                        
 if
 item
 [
@@ -3548,6 +3571,14 @@ self
                 
 self
 .
+_cleanup_lock
+.
+acquire
+(
+)
+                
+self
+.
 _cleanup_job_io_port
 (
 )
@@ -3627,6 +3658,14 @@ self
 _handle
 =
 None
+                
+self
+.
+_cleanup_lock
+.
+release
+(
+)
         
 else
 :
