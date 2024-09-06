@@ -65018,6 +65018,16 @@ data
 :
 {
 visibility_event_rcvd_ts
+window_inner_width
+:
+window
+.
+innerWidth
+window_inner_height
+:
+window
+.
+innerHeight
 }
 }
 )

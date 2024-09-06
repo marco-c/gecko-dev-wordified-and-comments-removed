@@ -7541,6 +7541,16 @@ session
 .
 session_id
 source
+window_inner_height
+:
+data
+.
+window_inner_height
+window_inner_width
+:
+data
+.
+window_inner_width
 }
 )
 ;
