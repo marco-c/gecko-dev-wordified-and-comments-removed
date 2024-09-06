@@ -9,6 +9,9 @@ interface
 nsIURI
 ;
 webidl
+BrowsingContext
+;
+webidl
 WindowGlobalParent
 ;
 [
@@ -164,6 +167,11 @@ readonly
 attribute
 ACString
 requestToken
+;
+readonly
+attribute
+boolean
+isCachedResponse
 ;
 void
 acknowledge
@@ -615,6 +623,14 @@ implicit_jscontext
 Promise
 getDiagnosticInfo
 (
+)
+;
+nsIURI
+getURIForBrowsingContext
+(
+in
+BrowsingContext
+aBrowsingContext
 )
 ;
 }
