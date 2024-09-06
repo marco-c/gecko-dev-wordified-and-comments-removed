@@ -706,7 +706,6 @@ Play
 (
 )
 ;
-virtual
 void
 NotifyOwnerActivityChanged
 (
@@ -714,6 +713,10 @@ bool
 aIsOwnerInvisible
 bool
 aIsOwnerConnected
+bool
+aIsOwnerInBackground
+bool
+aHasOwnerPendingCallbacks
 )
 ;
 virtual
@@ -1127,7 +1130,6 @@ CanPlayThrough
 (
 )
 ;
-virtual
 void
 SetElementVisibility
 (
@@ -1135,6 +1137,10 @@ bool
 aIsOwnerInvisible
 bool
 aIsOwnerConnected
+bool
+aIsOwnerInBackground
+bool
+aHasOwnerPendingCallbacks
 )
 ;
 void
@@ -1901,6 +1907,12 @@ mIsOwnerInvisible
 ;
 bool
 mIsOwnerConnected
+;
+bool
+mIsOwnerInBackground
+;
+bool
+mHasOwnerPendingCallbacks
 ;
 bool
 mForcedHidden

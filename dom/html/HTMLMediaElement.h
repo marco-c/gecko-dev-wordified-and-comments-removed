@@ -3691,6 +3691,17 @@ UpdateMediaControlAfterPictureInPictureModeChanged
 (
 )
 ;
+virtual
+bool
+HasPendingCallbacks
+(
+)
+const
+{
+return
+false
+;
+}
 RefPtr
 <
 MediaDecoder
