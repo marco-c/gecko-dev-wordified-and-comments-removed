@@ -174,15 +174,6 @@ mLinkType
 }
 private
 :
-void
-CollectLinkTypeTelemetry
-(
-const
-nsAString
-&
-aRel
-)
-;
 Maybe
 <
 TimeStamp

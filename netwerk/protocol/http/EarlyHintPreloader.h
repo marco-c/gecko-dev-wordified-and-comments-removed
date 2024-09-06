@@ -448,14 +448,6 @@ LinkHeader
 aLinkHeader
 )
 ;
-static
-void
-CollectResourcesTypeTelemetry
-(
-ASDestination
-aASDestination
-)
-;
 nsCOMPtr
 <
 nsIChannel
