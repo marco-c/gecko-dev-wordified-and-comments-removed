@@ -892,8 +892,15 @@ trackingPage
 url
 )
 {
-waitForPageToLoad
+verifyUrl
 (
+trackingPage
+.
+url
+.
+toString
+(
+)
 )
 }
 enhancedTrackingProtection
