@@ -215,16 +215,6 @@ build_nspr
 and
 not
 system_nspr
-set_config
-(
-"
-JS_WITHOUT_NSPR
-"
-True
-when
-=
-js_without_nspr
-)
 set_define
 (
 "
