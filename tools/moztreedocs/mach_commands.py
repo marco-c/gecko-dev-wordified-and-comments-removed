@@ -2280,11 +2280,16 @@ warnings
 :
         
 if
+warning
+in
+[
 "
 ERROR
 "
-in
-warning
+"
+CRITICAL
+"
+]
 :
             
 if
