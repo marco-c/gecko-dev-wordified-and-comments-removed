@@ -3032,6 +3032,15 @@ const
 =
 0
 ;
+virtual
+NetworkControllerInterface
+*
+GetNetworkController
+(
+)
+=
+0
+;
 protected
 :
 ~

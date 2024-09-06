@@ -775,6 +775,12 @@ PROXY_METHOD0
 void
 Close
 )
+PROXY_METHOD0
+(
+NetworkControllerInterface
+*
+GetNetworkController
+)
 BYPASS_PROXY_CONSTMETHOD0
 (
 rtc
