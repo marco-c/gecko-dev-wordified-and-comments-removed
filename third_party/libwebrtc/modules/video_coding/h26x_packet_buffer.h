@@ -394,12 +394,6 @@ last_continuous_in_sequence_index_
 =
 0
 ;
-SeqNumUnwrapper
-<
-uint16_t
->
-seq_num_unwrapper_
-;
 std
 :
 :
