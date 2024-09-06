@@ -6785,6 +6785,15 @@ getClientID
 (
 )
 ;
+gProfileGroupID
+=
+await
+ClientID
+.
+getProfileGroupID
+(
+)
+;
 await
 checkPendingShutdownPing
 (
