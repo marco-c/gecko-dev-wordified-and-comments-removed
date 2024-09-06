@@ -569,12 +569,7 @@ win
 .
 document
 .
-getElementById
-(
-"
-appcontent
-"
-)
+documentElement
 .
 setAttribute
 (

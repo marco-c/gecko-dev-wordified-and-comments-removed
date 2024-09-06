@@ -57,7 +57,9 @@ splitter
 ]
 [
 "
-appcontent
+tabbrowser
+-
+tabbox
 "
 4
 ]
@@ -93,7 +95,9 @@ splitter
 ]
 [
 "
-appcontent
+tabbrowser
+-
+tabbox
 "
 2
 ]

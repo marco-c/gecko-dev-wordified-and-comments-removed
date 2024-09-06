@@ -295,8 +295,6 @@ important
 }
 }
 #
-appcontent
-#
 browser
 #
 tabbrowser
@@ -336,9 +334,6 @@ height
 0
 ;
 }
-#
-appcontent
-{
 /
 *
 stylelint
@@ -372,6 +367,11 @@ sidebar
 revamp
 "
 )
+{
+#
+tabbrowser
+-
+tabbox
 {
 border
 -
@@ -453,7 +453,6 @@ position
 :
 relative
 ;
-}
 /
 *
 stylelint
@@ -473,7 +472,6 @@ invalid
 *
 /
 media
-(
 not
 (
 -
@@ -487,22 +485,6 @@ pref
 sidebar
 .
 position_start
-"
-)
-)
-and
-(
--
-moz
--
-bool
--
-pref
-:
-"
-sidebar
-.
-revamp
 "
 )
 {
@@ -537,6 +519,7 @@ start
 :
 none
 ;
+}
 }
 }
 /
