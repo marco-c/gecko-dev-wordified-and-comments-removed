@@ -128,8 +128,6 @@ value
 "
 "
 import
-errno
-import
 io
 import
 os
@@ -3373,34 +3371,15 @@ if
 dir
 :
                 
-try
-:
-                    
 os
 .
 makedirs
 (
 dir
-)
-                
-except
-OSError
-as
-error
-:
-                    
-if
-error
-.
-errno
-!
+exist_ok
 =
-errno
-.
-EEXIST
-:
-                        
-raise
+True
+)
             
 return
 io

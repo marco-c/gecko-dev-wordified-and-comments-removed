@@ -1,6 +1,4 @@
 import
-errno
-import
 io
 import
 itertools
@@ -1757,34 +1755,15 @@ fh
 name
 )
         
-try
-:
-            
 os
 .
 makedirs
 (
 dirname
-)
-        
-except
-OSError
-as
-error
-:
-            
-if
-error
-.
-errno
-!
+exist_ok
 =
-errno
-.
-EEXIST
-:
-                
-raise
+True
+)
         
 yield
 fh

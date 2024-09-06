@@ -1,6 +1,4 @@
 import
-errno
-import
 os
 import
 shutil
@@ -119,9 +117,6 @@ path
 p
 )
         
-try
-:
-            
 os
 .
 makedirs
@@ -134,26 +129,10 @@ dirname
 (
 file_path
 )
-)
-        
-except
-OSError
-as
-e
-:
-            
-if
-e
-.
-errno
-!
+exist_ok
 =
-errno
-.
-EEXIST
-:
-                
-raise
+True
+)
         
 shutil
 .

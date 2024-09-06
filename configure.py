@@ -1,8 +1,6 @@
 import
 codecs
 import
-errno
-import
 io
 import
 itertools
@@ -1082,9 +1080,6 @@ getcwd
 try
 :
                 
-try
-:
-                    
 os
 .
 makedirs
@@ -1094,26 +1089,10 @@ js
 /
 src
 "
-)
-                
-except
-OSError
-as
-e
-:
-                    
-if
-e
-.
-errno
-!
+exist_ok
 =
-errno
-.
-EEXIST
-:
-                        
-raise
+True
+)
                 
 os
 .

@@ -1,6 +1,4 @@
 import
-errno
-import
 io
 import
 json
@@ -1842,9 +1840,6 @@ file
 "
 "
         
-try
-:
-            
 os
 .
 makedirs
@@ -1857,26 +1852,10 @@ dirname
 (
 filename
 )
-)
-        
-except
-OSError
-as
-e
-:
-            
-if
-e
-.
-errno
-!
+exist_ok
 =
-errno
-.
-EEXIST
-:
-                
-raise
+True
+)
         
 with
 io

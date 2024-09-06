@@ -1137,34 +1137,15 @@ dest
 path
 )
                 
-try
-:
-                    
 os
 .
 makedirs
 (
 destdir
-)
-                
-except
-OSError
-as
-e
-:
-                    
-if
-e
-.
-errno
-!
+exist_ok
 =
-errno
-.
-EEXIST
-:
-                        
-raise
+True
+)
                 
 _copyfile
 (

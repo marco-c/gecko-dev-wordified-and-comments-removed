@@ -2625,9 +2625,6 @@ jarfile
 jar
 "
             
-try
-:
-                
 os
 .
 makedirs
@@ -2640,26 +2637,10 @@ dirname
 (
 jarfilepath
 )
-)
-            
-except
-OSError
-as
-error
-:
-                
-if
-error
-.
-errno
-!
+exist_ok
 =
-errno
-.
-EEXIST
-:
-                    
-raise
+True
+)
             
 jf
 =
@@ -3698,34 +3679,15 @@ outdir
 )
 :
                 
-try
-:
-                    
 os
 .
 makedirs
 (
 outdir
-)
-                
-except
-OSError
-as
-error
-:
-                    
-if
-error
-.
-errno
-!
+exist_ok
 =
-errno
-.
-EEXIST
-:
-                        
-raise
+True
+)
             
 return
 out
