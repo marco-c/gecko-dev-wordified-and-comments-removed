@@ -167,6 +167,11 @@ NewVisitedSetForTopLevelImport
 nsIURI
 *
 aURI
+JS
+:
+:
+ModuleType
+aModuleType
 )
 {
 auto
@@ -185,10 +190,7 @@ PutEntry
 ModuleMapKey
 (
 aURI
-ModuleType
-:
-:
-JavaScript
+aModuleType
 )
 )
 ;

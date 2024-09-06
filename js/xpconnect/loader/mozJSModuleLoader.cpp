@@ -10158,6 +10158,13 @@ ModuleLoadRequest
 NewVisitedSetForTopLevelImport
 (
 uri
+JS
+:
+:
+ModuleType
+:
+:
+JavaScript
 )
 ;
 RefPtr
