@@ -3019,12 +3019,6 @@ left
 ;
 background
 :
-linear
--
-gradient
-(
--
-45deg
 var
 (
 -
@@ -3034,12 +3028,6 @@ theme
 tooltip
 -
 background
-)
-50
-%
-transparent
-50
-%
 )
 ;
 border
