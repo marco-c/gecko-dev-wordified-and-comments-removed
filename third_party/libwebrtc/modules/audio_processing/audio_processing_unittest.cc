@@ -13694,13 +13694,9 @@ PushResampler
 float
 >
 resampler
-;
-resampler
-.
-InitializeIfNeeded
 (
-out_rate
-ref_rate
+out_samples_per_channel
+ref_samples_per_channel
 out_num
 )
 ;

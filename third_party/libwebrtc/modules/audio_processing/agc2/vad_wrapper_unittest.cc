@@ -256,7 +256,7 @@ SampleRateHz
 .
 Times
 (
-2
+1
 )
 .
 WillRepeatedly
