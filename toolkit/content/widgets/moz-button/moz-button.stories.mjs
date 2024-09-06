@@ -221,9 +221,7 @@ click
 status
 :
 "
-in
--
-development
+stable
 "
 fluent
 :
