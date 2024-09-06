@@ -1312,7 +1312,7 @@ ruleview
 -
 overridden
 .
-ruleview
+inspector
 -
 grid
 {
@@ -2282,7 +2282,7 @@ rule
 .
 uneditable
 .
-ruleview
+inspector
 -
 swatch
 .
@@ -2295,7 +2295,7 @@ uneditable
 true
 ]
 .
-ruleview
+inspector
 -
 swatch
 {
@@ -4054,7 +4054,7 @@ rules
 .
 *
 .
-ruleview
+inspector
 -
 swatch
 is
@@ -4073,12 +4073,12 @@ curves
 )
 *
 .
-ruleview
+inspector
 -
 flex
 and
 .
-ruleview
+inspector
 -
 grid
 are
@@ -4090,7 +4090,7 @@ ruleview
 -
 overridden
 .
-ruleview
+inspector
 -
 flex
 .
@@ -4098,7 +4098,7 @@ ruleview
 -
 overridden
 .
-ruleview
+inspector
 -
 grid
 .
@@ -4106,7 +4106,7 @@ ruleview
 -
 overridden
 .
-ruleview
+inspector
 -
 shapeswatch
 .
@@ -4114,7 +4114,7 @@ ruleview
 -
 overridden
 .
-ruleview
+inspector
 -
 swatch
 {
@@ -4594,7 +4594,7 @@ selector
 unmatched
 &
 .
-ruleview
+inspector
 -
 unmatched
 .
@@ -5107,7 +5107,7 @@ selector
 .
 unmatched
 .
-ruleview
+inspector
 -
 unmatched
 .

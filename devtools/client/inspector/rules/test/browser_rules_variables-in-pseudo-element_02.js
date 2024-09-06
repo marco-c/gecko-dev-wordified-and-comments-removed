@@ -137,7 +137,7 @@ div
 color
 "
 "
-ruleview
+inspector
 -
 variable
 "
@@ -175,7 +175,7 @@ before
 color
 "
 "
-ruleview
+inspector
 -
 variable
 "

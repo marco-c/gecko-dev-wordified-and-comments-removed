@@ -801,7 +801,7 @@ classList
 contains
 (
 "
-ruleview
+inspector
 -
 unmatched
 "

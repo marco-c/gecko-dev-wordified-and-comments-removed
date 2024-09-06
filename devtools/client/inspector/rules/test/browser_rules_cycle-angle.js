@@ -575,7 +575,7 @@ querySelector
 (
 "
 .
-ruleview
+inspector
 -
 angleswatch
 "

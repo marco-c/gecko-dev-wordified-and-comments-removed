@@ -80,7 +80,7 @@ querySelector
 (
 "
 .
-ruleview
+inspector
 -
 filterswatch
 "

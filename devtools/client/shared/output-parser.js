@@ -5163,7 +5163,7 @@ span
 class
 :
 "
-ruleview
+inspector
 -
 shape
 -
@@ -5220,7 +5220,7 @@ span
 class
 :
 "
-ruleview
+inspector
 -
 shape
 -
@@ -5339,7 +5339,7 @@ span
 class
 :
 "
-ruleview
+inspector
 -
 shape
 -
@@ -5501,7 +5501,7 @@ span
 class
 :
 "
-ruleview
+inspector
 -
 shape
 -
@@ -5658,7 +5658,7 @@ span
 class
 :
 "
-ruleview
+inspector
 -
 shape
 -
@@ -5864,7 +5864,7 @@ span
 class
 :
 "
-ruleview
+inspector
 -
 shape
 -
@@ -6055,7 +6055,7 @@ span
 class
 :
 "
-ruleview
+inspector
 -
 shape
 -
@@ -6247,7 +6247,7 @@ span
 class
 :
 "
-ruleview
+inspector
 -
 shape
 -
@@ -6350,7 +6350,7 @@ span
 class
 :
 "
-ruleview
+inspector
 -
 shape
 -
@@ -6510,7 +6510,7 @@ span
 class
 :
 "
-ruleview
+inspector
 -
 shape
 -
@@ -6702,7 +6702,7 @@ span
 class
 :
 "
-ruleview
+inspector
 -
 shape
 -
@@ -6851,7 +6851,7 @@ span
 class
 :
 "
-ruleview
+inspector
 -
 shape
 -
@@ -6895,7 +6895,7 @@ span
 class
 :
 "
-ruleview
+inspector
 -
 shape
 -
@@ -7099,7 +7099,7 @@ span
 class
 :
 "
-ruleview
+inspector
 -
 shape
 -
@@ -7304,7 +7304,7 @@ span
 class
 :
 "
-ruleview
+inspector
 -
 shape
 -
@@ -7398,7 +7398,7 @@ span
 class
 :
 "
-ruleview
+inspector
 -
 shape
 -
@@ -7559,7 +7559,7 @@ span
 class
 :
 "
-ruleview
+inspector
 -
 shape
 -
@@ -7715,7 +7715,7 @@ span
 class
 :
 "
-ruleview
+inspector
 -
 shape
 -
@@ -7803,7 +7803,7 @@ span
 class
 :
 "
-ruleview
+inspector
 -
 shape
 -
@@ -7961,7 +7961,7 @@ span
 class
 :
 "
-ruleview
+inspector
 -
 shape
 -
@@ -8003,7 +8003,7 @@ span
 class
 :
 "
-ruleview
+inspector
 -
 shape
 -
@@ -8500,7 +8500,7 @@ span
 class
 :
 "
-ruleview
+inspector
 -
 shape
 -
@@ -8637,7 +8637,7 @@ span
 class
 :
 "
-ruleview
+inspector
 -
 shape
 -
@@ -8776,7 +8776,7 @@ span
 class
 :
 "
-ruleview
+inspector
 -
 shape
 -
@@ -8909,7 +8909,7 @@ span
 class
 :
 "
-ruleview
+inspector
 -
 shape
 -

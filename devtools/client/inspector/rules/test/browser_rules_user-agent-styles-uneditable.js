@@ -334,7 +334,7 @@ querySelector
 (
 "
 .
-ruleview
+inspector
 -
 colorswatch
 "

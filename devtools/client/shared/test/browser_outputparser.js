@@ -4130,7 +4130,7 @@ definition
 shapeClass
 :
 "
-ruleview
+inspector
 -
 shape
 "
@@ -4146,7 +4146,7 @@ querySelectorAll
 (
 "
 .
-ruleview
+inspector
 -
 shape
 -

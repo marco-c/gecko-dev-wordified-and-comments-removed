@@ -161,7 +161,7 @@ querySelector
 (
 "
 .
-ruleview
+inspector
 -
 unmatched
 "
@@ -430,7 +430,7 @@ querySelector
 (
 "
 .
-ruleview
+inspector
 -
 unmatched
 "
@@ -731,7 +731,7 @@ querySelector
 (
 "
 .
-ruleview
+inspector
 -
 unmatched
 "
@@ -1251,7 +1251,7 @@ querySelector
 (
 "
 .
-ruleview
+inspector
 -
 unmatched
 "
@@ -1389,7 +1389,7 @@ querySelectorAll
 (
 "
 .
-ruleview
+inspector
 -
 unmatched
 "
@@ -1633,7 +1633,7 @@ querySelectorAll
 (
 "
 .
-ruleview
+inspector
 -
 unmatched
 "

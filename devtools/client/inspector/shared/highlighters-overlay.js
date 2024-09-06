@@ -4954,7 +4954,7 @@ classList
 contains
 (
 "
-ruleview
+inspector
 -
 shapeswatch
 "

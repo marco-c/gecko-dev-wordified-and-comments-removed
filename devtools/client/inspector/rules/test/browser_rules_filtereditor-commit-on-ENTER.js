@@ -68,7 +68,7 @@ querySelector
 (
 "
 .
-ruleview
+inspector
 -
 filterswatch
 "

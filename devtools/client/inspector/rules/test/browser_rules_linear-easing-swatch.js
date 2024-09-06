@@ -2574,7 +2574,7 @@ querySelector
 (
 "
 .
-ruleview
+inspector
 -
 lineareasingswatch
 "

@@ -123,7 +123,7 @@ querySelector
 (
 "
 .
-ruleview
+inspector
 -
 variable
 "
@@ -219,7 +219,7 @@ querySelector
 (
 "
 .
-ruleview
+inspector
 -
 variable
 "

@@ -101,7 +101,7 @@ querySelector
 (
 "
 .
-ruleview
+inspector
 -
 bezierswatch
 "

@@ -508,7 +508,7 @@ querySelector
 (
 "
 .
-ruleview
+inspector
 -
 colorswatch
 "
@@ -628,7 +628,7 @@ querySelector
 (
 "
 .
-ruleview
+inspector
 -
 bezierswatch
 "
