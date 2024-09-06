@@ -979,7 +979,7 @@ site
 ;
 }
 return
-TryNewTenuredCell
+AllocTenuredCellForNurseryAlloc
 <
 allowGC
 >
