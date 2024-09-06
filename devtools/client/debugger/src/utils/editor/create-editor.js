@@ -134,6 +134,16 @@ extraKeys
 Esc
 :
 false
+Tab
+:
+false
+"
+Shift
+-
+Tab
+"
+:
+false
 "
 Cmd
 -
