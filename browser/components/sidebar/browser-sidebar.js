@@ -4798,6 +4798,12 @@ break
 ;
 }
 }
+this
+.
+updateToolbarButton
+(
+)
+;
 }
 updateToolbarButton
 (
@@ -4914,12 +4920,6 @@ this
 _sidebarMain
 .
 expanded
-)
-;
-this
-.
-updateToolbarButton
-(
 )
 ;
 }
