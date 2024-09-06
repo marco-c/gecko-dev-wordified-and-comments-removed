@@ -6,11 +6,6 @@ define
 API_RTC_EVENT_LOG_OUTPUT_H_
 #
 include
-<
-string
->
-#
-include
 "
 absl
 /
