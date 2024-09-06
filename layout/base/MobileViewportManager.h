@@ -321,6 +321,11 @@ bool
 aForceAdjustResolution
 )
 ;
+nsRect
+InitialVisibleArea
+(
+)
+;
 private
 :
 ~

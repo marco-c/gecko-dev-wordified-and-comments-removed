@@ -2789,7 +2789,7 @@ height
 mPresContext
 -
 >
-SetVisibleArea
+SetInitialVisibleArea
 (
 nsRect
 (

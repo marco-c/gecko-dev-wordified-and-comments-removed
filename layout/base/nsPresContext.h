@@ -1239,6 +1239,15 @@ nsRect
 aRect
 )
 ;
+void
+SetInitialVisibleArea
+(
+const
+nsRect
+&
+aRect
+)
+;
 nsSize
 GetSizeForViewportUnits
 (
