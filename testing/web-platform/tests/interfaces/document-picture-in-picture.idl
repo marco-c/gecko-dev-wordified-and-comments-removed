@@ -149,6 +149,11 @@ disallowReturnToOpener
 =
 false
 ;
+boolean
+preferInitialWindowPlacement
+=
+false
+;
 }
 ;
 [

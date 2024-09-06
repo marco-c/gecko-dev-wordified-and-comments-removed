@@ -1380,6 +1380,9 @@ active
 =
 true
 ;
+RTCRtpCodec
+codec
+;
 unsigned
 long
 maxBitrate

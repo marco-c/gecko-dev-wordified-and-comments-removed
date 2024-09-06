@@ -81,14 +81,14 @@ DigitalCredentialRequestOptions
 {
 sequence
 <
-IdentityRequestProvider
+DigitalCredentialsProvider
 >
 providers
 ;
 }
 ;
 dictionary
-IdentityRequestProvider
+DigitalCredentialsProvider
 {
 required
 DOMString
@@ -118,7 +118,7 @@ protocol
 ;
 readonly
 attribute
-any
+object
 data
 ;
 }

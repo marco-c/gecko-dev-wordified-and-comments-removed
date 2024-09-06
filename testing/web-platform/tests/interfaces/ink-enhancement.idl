@@ -102,12 +102,6 @@ Element
 ?
 presentationArea
 ;
-readonly
-attribute
-unsigned
-long
-expectedImprovement
-;
 undefined
 updateInkTrailStartPoint
 (

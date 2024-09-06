@@ -826,9 +826,6 @@ DOMString
 >
 profiles
 ;
-[
-SameObject
-]
 readonly
 attribute
 boolean

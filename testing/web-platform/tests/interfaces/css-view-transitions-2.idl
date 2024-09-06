@@ -61,17 +61,6 @@ transitions
 2
 /
 )
-enum
-ViewTransitionNavigation
-{
-"
-auto
-"
-"
-none
-"
-}
-;
 [
 Exposed
 =
@@ -84,7 +73,7 @@ CSSRule
 {
 readonly
 attribute
-ViewTransitionNavigation
+CSSOMString
 navigation
 ;
 [
@@ -133,7 +122,7 @@ types
 dictionary
 StartViewTransitionOptions
 {
-UpdateCallback
+ViewTransitionUpdateCallback
 ?
 update
 =
@@ -159,7 +148,7 @@ startViewTransition
 (
 optional
 (
-UpdateCallback
+ViewTransitionUpdateCallback
 or
 StartViewTransitionOptions
 )

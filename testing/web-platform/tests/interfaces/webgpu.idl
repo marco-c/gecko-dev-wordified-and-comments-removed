@@ -222,12 +222,6 @@ readonly
 attribute
 unsigned
 long
-maxInterStageShaderComponents
-;
-readonly
-attribute
-unsigned
-long
 maxInterStageShaderVariables
 ;
 readonly
@@ -521,7 +515,11 @@ requiredFeatures
 record
 <
 DOMString
+(
 GPUSize64
+or
+undefined
+)
 >
 requiredLimits
 =
@@ -2600,9 +2598,6 @@ GPUObjectDescriptorBase
 required
 USVString
 code
-;
-object
-sourceMap
 ;
 sequence
 <

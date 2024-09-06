@@ -93,6 +93,17 @@ DOMString
 height
 ;
 [
+SameObject
+PutForwards
+=
+value
+]
+readonly
+attribute
+DOMTokenList
+sandbox
+;
+[
 CEReactions
 ]
 attribute
