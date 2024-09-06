@@ -10535,7 +10535,7 @@ kScreensharing
 {
 info
 .
-minimum_qp
+min_qp
 =
 variable_framerate_screenshare
 :

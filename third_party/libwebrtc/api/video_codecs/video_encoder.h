@@ -654,7 +654,7 @@ optional
 <
 int
 >
-minimum_qp
+min_qp
 ;
 }
 ;
