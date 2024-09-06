@@ -765,7 +765,7 @@ WebWindow
 *
 param
 {
-Record
+Object
 <
 string
 string
@@ -1004,7 +1004,7 @@ reference
 *
 param
 {
-Record
+Object
 <
 string
 string

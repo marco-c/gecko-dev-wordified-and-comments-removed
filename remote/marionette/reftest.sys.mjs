@@ -634,9 +634,8 @@ run
 *
 param
 {
-Record
+Object
 <
-string
 number
 >
 }

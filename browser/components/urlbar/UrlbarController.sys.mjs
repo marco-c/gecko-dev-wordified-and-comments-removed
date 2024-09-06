@@ -738,17 +738,6 @@ query
 details
 .
 *
-returns
-{
-UrlbarQueryContext
-}
-*
-The
-updated
-query
-context
-.
-*
 /
 async
 startQuery

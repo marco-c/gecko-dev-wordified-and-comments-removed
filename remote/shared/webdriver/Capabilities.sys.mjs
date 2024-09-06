@@ -1428,7 +1428,7 @@ false
 *
 param
 {
-Record
+Object
 <
 string
 ?
@@ -2354,7 +2354,7 @@ p
 *
 returns
 {
-Record
+Object
 <
 string
 (
@@ -2972,7 +2972,7 @@ object
 *
 returns
 {
-Record
+Object
 <
 string
 ?
@@ -3072,7 +3072,7 @@ capabilities
 *
 param
 {
-Record
+Object
 <
 string
 *

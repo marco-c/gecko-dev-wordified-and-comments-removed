@@ -320,7 +320,7 @@ mode
 *
 returns
 {
-Record
+Object
 <
 string
 boolean

@@ -1217,7 +1217,7 @@ data
 *
 returns
 {
-Record
+Object
 <
 string
 string
@@ -1326,7 +1326,7 @@ type
 *
 param
 {
-Record
+Object
 <
 string
 string

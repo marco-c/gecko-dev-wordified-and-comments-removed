@@ -366,16 +366,6 @@ to
 load
 .
 *
-returns
-{
-object
-}
-*
-The
-loaded
-schema
-.
-*
 /
 async
 function
@@ -853,7 +843,7 @@ type
 )
 ;
 }
-await
+return
 validateData
 (
 name

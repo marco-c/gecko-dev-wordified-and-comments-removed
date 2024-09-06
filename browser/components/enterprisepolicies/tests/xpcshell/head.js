@@ -430,7 +430,7 @@ init
 (
 )
 ;
-await
+return
 settingsWritten
 ;
 }

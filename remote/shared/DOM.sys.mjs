@@ -509,7 +509,7 @@ var
 *
 param
 {
-Record
+Object
 <
 string
 WindowProxy
@@ -4640,7 +4640,7 @@ box
 *
 returns
 {
-Record
+Object
 <
 string
 number

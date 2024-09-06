@@ -2965,7 +2965,7 @@ cmd
 *
 param
 {
-Record
+Object
 <
 string
 *
@@ -7656,7 +7656,7 @@ etc
 *
 returns
 {
-Record
+Object
 <
 string
 number
@@ -7919,7 +7919,7 @@ to
 *
 returns
 {
-Record
+Object
 <
 string
 number
@@ -9933,7 +9933,7 @@ cmd
 *
 param
 {
-Record
+Object
 <
 string
 number
@@ -16128,7 +16128,7 @@ false
 *
 returns
 {
-Record
+Object
 <
 string
 string
@@ -18396,7 +18396,7 @@ Fennec
 *
 returns
 {
-Record
+Object
 <
 string
 number
@@ -18710,7 +18710,7 @@ Fennec
 *
 returns
 {
-Record
+Object
 <
 string
 number
@@ -20787,7 +20787,7 @@ mode
 *
 returns
 {
-Record
+Object
 <
 string
 boolean
