@@ -1041,7 +1041,7 @@ credentials
 ;
 }
 bool
-SetEntryChannelId
+SetEntryChannelIdForTesting
 (
 const
 rtc
