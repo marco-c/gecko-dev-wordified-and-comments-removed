@@ -653,9 +653,7 @@ VCS_HASH
 {
 Config
 .
-getVcsHash
-(
-)
+vcsHash
 }
 \
 "
