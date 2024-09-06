@@ -3073,6 +3073,12 @@ case
 JSOp
 :
 :
+GetBoundName
+:
+case
+JSOp
+:
+:
 Add
 :
 case
