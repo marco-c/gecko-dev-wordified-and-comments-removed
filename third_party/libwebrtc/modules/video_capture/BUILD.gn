@@ -666,6 +666,17 @@ media
 :
 rtc_media_base
 "
+"
+.
+.
+/
+.
+.
+/
+rtc_base
+:
+sanitizer
+"
 ]
 if
 (
