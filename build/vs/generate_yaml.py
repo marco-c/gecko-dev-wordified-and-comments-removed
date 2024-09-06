@@ -358,6 +358,12 @@ output
 "
 w
 "
+newline
+=
+"
+\
+n
+"
 )
 as
 out
