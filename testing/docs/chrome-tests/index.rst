@@ -902,9 +902,7 @@ must
 be
 prefixed
 with
-"
 test_
-"
 and
 must
 have
@@ -912,10 +910,8 @@ a
 file
 extension
 of
-"
 .
 xhtml
-"
 .
 Files
 that
