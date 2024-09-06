@@ -1,3 +1,15 @@
+webdriver
+=
+None
+def
+do_delayed_imports
+(
+)
+:
+    
+global
+webdriver
+    
 import
 webdriver
 class
@@ -22,6 +34,10 @@ logger
 protocol
 )
 :
+        
+do_delayed_imports
+(
+)
         
 self
 .

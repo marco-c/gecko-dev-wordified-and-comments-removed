@@ -3,3 +3,8 @@ from
 client
 import
 BidiSession
+from
+.
+protocol
+import
+BidiWindow

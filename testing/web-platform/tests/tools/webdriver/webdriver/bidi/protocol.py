@@ -15,6 +15,18 @@ from
 undefined
 import
 UNDEFINED
+WebElement
+=
+None
+def
+do_delayed_imports
+(
+)
+:
+    
+global
+WebElement
+    
 from
 .
 .
@@ -70,6 +82,10 @@ Any
 ]
 )
 :
+        
+do_delayed_imports
+(
+)
         
 assert
 isinstance
