@@ -538,7 +538,8 @@ string
 iconURL
 :
 string
-?
+|
+null
 }
 *
 }
