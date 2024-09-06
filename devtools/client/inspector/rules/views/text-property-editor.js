@@ -2791,8 +2791,9 @@ ruleView
 .
 _outputParser
 ;
-const
-parserOptions
+this
+.
+outputParserOptions
 =
 {
 angleClass
@@ -2994,7 +2995,9 @@ darkColorScheme
 undefined
 )
 {
-parserOptions
+this
+.
+outputParserOptions
 .
 isDarkColorScheme
 =
@@ -3014,7 +3017,9 @@ parseCssProperty
 (
 name
 val
-parserOptions
+this
+.
+outputParserOptions
 )
 ;
 if
@@ -3746,7 +3751,9 @@ if
 span
 )
 {
-parserOptions
+this
+.
+outputParserOptions
 .
 filterSwatch
 =
@@ -3791,7 +3798,9 @@ this
 _onSwatchRevert
 }
 outputParser
-parserOptions
+this
+.
+outputParserOptions
 )
 ;
 const
