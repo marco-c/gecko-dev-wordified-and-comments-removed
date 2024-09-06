@@ -607,6 +607,8 @@ CommandArgument
 "
 -
 -
+disable
+-
 fatal
 -
 warnings
@@ -615,7 +617,7 @@ warnings
 dest
 =
 "
-enable_fatal_warnings
+disable_fatal_warnings
 "
     
 action
@@ -627,7 +629,7 @@ store_true
 help
 =
 "
-Enable
+Disable
 fatal
 warnings
 .
@@ -781,7 +783,7 @@ disable_fatal_errors
 =
 False
     
-enable_fatal_warnings
+disable_fatal_warnings
 =
 False
     
@@ -1325,7 +1327,8 @@ fatal_errors
 "
     
 if
-enable_fatal_warnings
+not
+disable_fatal_warnings
 :
         
 fatal_warnings
