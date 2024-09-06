@@ -1845,6 +1845,16 @@ Init
 (
 )
 ;
+MOZ_ASSERT_IF
+(
+XRE_IsContentProcess
+(
+)
+GetInitContentDeviceData
+(
+)
+)
+;
 InitializeConfig
 (
 )
