@@ -4376,6 +4376,9 @@ cpu
 in
 (
 "
+arm
+"
+"
 aarch64
 "
 "
