@@ -266,6 +266,14 @@ ShouldResistFingerprinting
 )
 const
 ;
+void
+EnsureFillingCoalescedEvents
+(
+WidgetPointerEvent
+&
+aWidgetEvent
+)
+;
 nsTArray
 <
 RefPtr
