@@ -395,6 +395,13 @@ bug
 ]
 [
 "
+test_inspectFields
+.
+js
+"
+]
+[
+"
 test_isAddressAutofillAvailable
 .
 js
