@@ -171,6 +171,9 @@ uint64_t
 fecPacketsDiscarded
 ;
 uint64_t
+totalProcessingDelayUs
+;
+uint64_t
 packetsDiscarded
 ;
 uint16_t

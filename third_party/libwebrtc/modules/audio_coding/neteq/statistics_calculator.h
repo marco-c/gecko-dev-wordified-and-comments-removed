@@ -197,6 +197,8 @@ uint64_t
 target_delay_ms
 uint64_t
 unlimited_target_delay_ms
+uint64_t
+processing_delay_us
 )
 ;
 void

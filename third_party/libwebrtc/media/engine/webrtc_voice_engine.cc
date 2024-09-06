@@ -14978,6 +14978,14 @@ stats
 .
 total_round_trip_time
 ;
+rinfo
+.
+total_processing_delay_seconds
+=
+stats
+.
+total_processing_delay_seconds
+;
 if
 (
 recv_nack_enabled_

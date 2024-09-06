@@ -1701,6 +1701,15 @@ fec_packets_discarded
 acm_stat
 -
 >
+totalProcessingDelayUs
+=
+neteq_lifetime_stat
+.
+total_processing_delay_us
+;
+acm_stat
+-
+>
 packetsDiscarded
 =
 neteq_lifetime_stat

@@ -1215,6 +1215,8 @@ uint64_t
 target_delay_ms
 uint64_t
 unlimited_target_delay_ms
+uint64_t
+processing_delay_us
 )
 {
 lifetime_stats_
@@ -1250,6 +1252,15 @@ jitter_buffer_emitted_count
 +
 =
 num_samples
+;
+lifetime_stats_
+.
+total_processing_delay_us
++
+=
+num_samples
+*
+processing_delay_us
 ;
 }
 void

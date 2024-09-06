@@ -2213,6 +2213,13 @@ uint64_t
 >
 fec_bytes_received
 ;
+double
+total_processing_delay_seconds
+=
+0
+.
+0
+;
 absl
 :
 :
