@@ -2501,18 +2501,6 @@ ePartitionedPrincipal
 )
 ;
 }
-nsAutoCString
-dateHeader
-;
-CookieCommons
-:
-:
-GetServerDateHeader
-(
-aChannel
-dateHeader
-)
-;
 bool
 moreCookieToRead
 =
@@ -2540,7 +2528,6 @@ baseDomain
 requireHostMatch
 cookieStatus
 cookieHeader
-dateHeader
 true
 isForeignAndNotAddon
 mustBePartitioned

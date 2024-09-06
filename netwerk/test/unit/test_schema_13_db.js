@@ -68,11 +68,9 @@ close
 ;
 Assert
 .
-ok
+equal
 (
 version
->
-=
 13
 )
 ;
@@ -254,13 +252,11 @@ profile
 ;
 Assert
 .
-ok
+equal
 (
 dbConnection
 .
 schemaVersion
->
-=
 13
 )
 ;

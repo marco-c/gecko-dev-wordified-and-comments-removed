@@ -5872,13 +5872,6 @@ js
 ]
 [
 "
-test_schema_14_migration
-.
-js
-"
-]
-[
-"
 test_schema_2_migration
 .
 js

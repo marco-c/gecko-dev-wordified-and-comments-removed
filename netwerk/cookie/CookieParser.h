@@ -115,10 +115,6 @@ aStatus
 nsCString
 &
 aCookieHeader
-const
-nsACString
-&
-aDateHeader
 bool
 aFromHttp
 bool
@@ -255,10 +251,6 @@ nsACString
 aMaxage
 int64_t
 aCurrentTime
-const
-nsACString
-&
-aDateHeader
 bool
 aFromHttp
 )
