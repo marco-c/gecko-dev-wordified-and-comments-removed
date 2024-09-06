@@ -413,17 +413,6 @@ rstcheck_options
 -
 ignore
 -
-language
-=
-cpp
-json
-"
-        
-"
--
--
-ignore
--
 roles
 =
 searchfox

@@ -127,11 +127,6 @@ block
 :
 :
 rst
-:
-caption
-:
-.
-rst
 .
 .
 mermaid
@@ -171,11 +166,6 @@ code
 block
 :
 :
-md
-:
-caption
-:
-.
 md
 {
 mermaid
