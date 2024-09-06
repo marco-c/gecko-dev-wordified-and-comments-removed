@@ -1005,10 +1005,10 @@ String
 VCS_HASH
 "
 "
-hg
--
 \
 "
+hg
+-
 {
 gradle
 .
