@@ -2246,15 +2246,6 @@ SimulcastLayerLimitRoundUp
 )
 )
 ;
-const
-bool
-enable_lowres_bitrate_interpolation
-=
-EnableLowresBitrateInterpolation
-(
-trials
-)
-;
 size_t
 adaptive_layer_count
 =
@@ -2273,7 +2264,7 @@ max_ratio
 GetOptional
 (
 )
-enable_lowres_bitrate_interpolation
+false
 codec
 )
 .
