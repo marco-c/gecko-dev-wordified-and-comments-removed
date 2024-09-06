@@ -2527,7 +2527,7 @@ uint32_t
 memoryIndex_
 ;
 uint64_t
-offset64_
+offset_
 ;
 uint32_t
 align_
@@ -2621,7 +2621,7 @@ memoryIndex_
 (
 memoryIndex
 )
-offset64_
+offset_
 (
 offset
 )
@@ -2691,14 +2691,14 @@ memoryIndex_
 ;
 }
 uint32_t
-offset
+offset32
 (
 )
 const
 {
 MOZ_ASSERT
 (
-offset64_
+offset_
 <
 =
 UINT32_MAX
@@ -2707,7 +2707,7 @@ UINT32_MAX
 return
 uint32_t
 (
-offset64_
+offset_
 )
 ;
 }
@@ -2718,7 +2718,7 @@ offset64
 const
 {
 return
-offset64_
+offset_
 ;
 }
 void
@@ -2726,7 +2726,7 @@ clearOffset
 (
 )
 {
-offset64_
+offset_
 =
 0
 ;
@@ -2738,7 +2738,7 @@ uint32_t
 offset
 )
 {
-offset64_
+offset_
 =
 offset
 ;

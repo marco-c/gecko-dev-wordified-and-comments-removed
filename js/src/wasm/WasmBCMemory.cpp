@@ -370,7 +370,7 @@ uint64_t
 access
 -
 >
-offset
+offset32
 (
 )
 )
@@ -2300,7 +2300,7 @@ TimesOne
 access
 -
 >
-offset
+offset32
 (
 )
 )
@@ -2399,7 +2399,7 @@ ptr
 access
 -
 >
-offset
+offset32
 (
 )
 )
@@ -3179,7 +3179,7 @@ TimesOne
 access
 -
 >
-offset
+offset32
 (
 )
 )
@@ -3247,7 +3247,7 @@ ptr
 access
 -
 >
-offset
+offset32
 (
 )
 )
@@ -5441,7 +5441,7 @@ ptr
 access
 -
 >
-offset
+offset32
 (
 )
 )
