@@ -6401,7 +6401,7 @@ local_pc_wrapper
 3u
 2u
 )
-kDefaultTimeout
+kLongTimeoutForRampingUp
 .
 ms
 (
