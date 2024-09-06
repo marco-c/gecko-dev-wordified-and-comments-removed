@@ -6447,6 +6447,10 @@ tab
 width
 )
 ;
+flex
+:
+none
+;
 }
 sidebar
 -
@@ -6494,6 +6498,10 @@ space
 medium
 )
 )
+;
+flex
+:
+none
 ;
 }
 #
@@ -6648,7 +6656,13 @@ hidden
 ;
 display
 :
-grid
+flex
+;
+flex
+-
+direction
+:
+column
 ;
 align
 -

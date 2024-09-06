@@ -1427,6 +1427,12 @@ if
 TabsInTitlebar
 .
 enabled
+&
+&
+!
+this
+.
+verticalMode
 )
 {
 return
