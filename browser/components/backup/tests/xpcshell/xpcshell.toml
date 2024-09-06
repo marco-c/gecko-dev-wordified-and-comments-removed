@@ -183,13 +183,6 @@ js
 ]
 [
 "
-test_BackupService_regeneration
-.
-js
-"
-]
-[
-"
 test_BackupService_renderTemplate
 .
 js
