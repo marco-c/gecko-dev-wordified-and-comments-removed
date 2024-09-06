@@ -325,6 +325,9 @@ class
 ClassEmitter
 ;
 class
+DestructuringLHSRef
+;
+class
 ElemOpEmitter
 ;
 class
@@ -3278,9 +3281,11 @@ emitDestructuringLHSRef
 ParseNode
 *
 target
-size_t
-*
-emitted
+DestructuringFlavor
+flav
+DestructuringLHSRef
+&
+lref
 )
 ;
 [
@@ -3296,6 +3301,9 @@ ParseNode
 target
 DestructuringFlavor
 flav
+DestructuringLHSRef
+&
+lref
 )
 ;
 [
