@@ -4856,9 +4856,6 @@ PR_SockOpt_Reuseaddr
 )
 ;
 }
-#
-ifndef
-WIN95
 opt
 .
 option
@@ -4920,8 +4917,6 @@ PR_SockOpt_Linger
 )
 ;
 }
-#
-endif
 prStatus
 =
 PR_Bind

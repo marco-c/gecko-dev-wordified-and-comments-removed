@@ -693,7 +693,6 @@ filter
 -
 out
 WINNT
-WIN95
 (
 OS_TARGET
 )

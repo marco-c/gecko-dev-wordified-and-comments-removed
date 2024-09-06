@@ -208,6 +208,8 @@ python3
 -
 requests
 \
+unzip
+\
 valgrind
 \
 zlib1g

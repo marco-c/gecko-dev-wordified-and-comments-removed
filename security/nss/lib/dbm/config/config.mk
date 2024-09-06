@@ -117,10 +117,6 @@ filter
 -
 out
 NCR
-ReliantUNIX
-SCO_SV
-SCOOS
-UNIXWARE
 (
 OS_TARGET
 )

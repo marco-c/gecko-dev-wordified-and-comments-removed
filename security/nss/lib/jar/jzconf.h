@@ -252,12 +252,6 @@ defined
 (
 WIN32
 )
-|
-|
-defined
-(
-XP_OS2
-)
 )
 &
 &

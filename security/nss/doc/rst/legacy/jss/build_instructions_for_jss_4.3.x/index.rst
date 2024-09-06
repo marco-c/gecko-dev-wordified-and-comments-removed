@@ -497,8 +497,6 @@ Windows
 build
 Configurations
 WINNT
-vs
-WIN95
 *
 *
 .

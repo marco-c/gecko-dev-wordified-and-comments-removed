@@ -107,11 +107,6 @@ db
 c
 '
 '
-dirent
-.
-c
-'
-'
 h_bigkey
 .
 c

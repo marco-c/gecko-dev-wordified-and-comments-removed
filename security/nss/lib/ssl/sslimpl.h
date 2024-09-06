@@ -7587,12 +7587,6 @@ defined
 (
 XP_UNIX
 )
-|
-|
-defined
-(
-XP_OS2
-)
 #
 define
 SSL_GETPID

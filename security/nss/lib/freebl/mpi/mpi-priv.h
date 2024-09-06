@@ -929,12 +929,6 @@ endif
 if
 defined
 (
-__OS2__
-)
-&
-&
-defined
-(
 __IBMC__
 )
 #

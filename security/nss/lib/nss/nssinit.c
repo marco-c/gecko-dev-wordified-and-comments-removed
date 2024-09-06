@@ -1110,12 +1110,6 @@ defined
 (
 XP_WIN32
 )
-|
-|
-defined
-(
-XP_OS2
-)
 "
 nssckbi
 .

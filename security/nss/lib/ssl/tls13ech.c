@@ -4034,10 +4034,12 @@ len
 ;
 #
 else
+chCt
+=
 SECITEM_AllocItem
 (
 NULL
-chCt
+NULL
 chPt
 .
 len

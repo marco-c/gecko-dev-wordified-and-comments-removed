@@ -3608,9 +3608,6 @@ defines
 _WINDOWS
 '
 '
-WIN95
-'
-'
 _CRT_SECURE_NO_WARNINGS
 '
 '

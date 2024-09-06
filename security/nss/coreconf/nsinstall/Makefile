@@ -110,7 +110,6 @@ ifeq
 filter
 -
 out
-OS2
 WIN
 %
 (
