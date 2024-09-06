@@ -3,6 +3,7 @@ import
 getAllTraces
 getTraceFrames
 getIsCurrentlyTracing
+getCurrentThread
 }
 from
 "
@@ -154,6 +155,16 @@ getState
 }
 )
 {
+const
+thread
+=
+getCurrentThread
+(
+getState
+(
+)
+)
+;
 dispatch
 (
 {
@@ -163,6 +174,7 @@ type
 SELECT_TRACE
 "
 traceIndex
+thread
 }
 )
 ;
