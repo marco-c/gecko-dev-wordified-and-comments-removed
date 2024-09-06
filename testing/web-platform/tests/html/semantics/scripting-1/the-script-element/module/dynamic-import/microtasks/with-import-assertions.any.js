@@ -40,7 +40,7 @@ import
 (
 specifier
 {
-assert
+with
 :
 {
 type
@@ -97,7 +97,7 @@ the
 '
 type
 '
-assertion
+attribute
 "
 )
 ;
