@@ -1906,7 +1906,7 @@ pre
 *
 param
 {
-Object
+Record
 <
 string
 *

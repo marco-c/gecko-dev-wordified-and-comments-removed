@@ -210,7 +210,7 @@ Cookie
 *
 returns
 {
-Object
+Record
 <
 string
 (
@@ -268,7 +268,7 @@ valid
 *
 param
 {
-Object
+Record
 <
 string
 (

@@ -1926,7 +1926,7 @@ getVersion
 *
 returns
 {
-Object
+Record
 <
 string
 string

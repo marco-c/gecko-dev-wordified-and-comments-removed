@@ -678,7 +678,7 @@ session
 *
 param
 {
-Object
+Record
 <
 string
 *
@@ -749,7 +749,7 @@ session
 *
 returns
 {
-Object
+Record
 <
 string
 Capabilities
