@@ -65,13 +65,7 @@ this
 script
 '
 s
-first
-argument
-(
-our
-JSON
-config
-)
+arguments
 GECKO_PATH
 /
 taskcluster
@@ -85,4 +79,5 @@ build
 clang
 .
 sh
-1
+"
+"
