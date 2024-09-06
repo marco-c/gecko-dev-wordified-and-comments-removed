@@ -3334,6 +3334,8 @@ clang
 -
 18
 -
+win64
+-
 ninja
 toolchain
 :
@@ -6730,6 +6732,8 @@ fetch
 clang
 -
 trunk
+-
+win64
 -
 ninja
 toolchain

@@ -246,6 +246,8 @@ fetches
 fetch
 :
 -
+win64
+-
 ninja
 toolchain
 :
