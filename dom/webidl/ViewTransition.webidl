@@ -98,9 +98,6 @@ enabled
 interface
 ViewTransition
 {
-[
-Throws
-]
 readonly
 attribute
 Promise
@@ -109,9 +106,6 @@ undefined
 >
 updateCallbackDone
 ;
-[
-Throws
-]
 readonly
 attribute
 Promise
@@ -120,9 +114,6 @@ undefined
 >
 ready
 ;
-[
-Throws
-]
 readonly
 attribute
 Promise
