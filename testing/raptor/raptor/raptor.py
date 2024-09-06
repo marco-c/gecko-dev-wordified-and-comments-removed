@@ -482,11 +482,11 @@ args
 .
 run_local
             
-noinstall
+no_install
 =
 args
 .
-noinstall
+no_install
             
 installerpath
 =

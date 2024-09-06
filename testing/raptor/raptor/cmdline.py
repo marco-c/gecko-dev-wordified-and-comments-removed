@@ -2432,13 +2432,15 @@ add_arg
 "
 -
 -
-noinstall
+no
+-
+install
 "
         
 dest
 =
 "
-noinstall
+no_install
 "
         
 default
