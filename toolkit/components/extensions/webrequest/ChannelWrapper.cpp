@@ -1076,6 +1076,14 @@ ClearCachedProxyInfoValue
 this
 )
 ;
+ChannelWrapper_Binding
+:
+:
+ClearCachedCanModifyValue
+(
+this
+)
+;
 }
 void
 ChannelWrapper
