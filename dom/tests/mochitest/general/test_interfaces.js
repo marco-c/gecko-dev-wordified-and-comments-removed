@@ -2519,9 +2519,6 @@ FragmentDirective
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
