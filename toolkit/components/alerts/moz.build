@@ -1,11 +1,13 @@
-MOCHITEST_MANIFESTS
+MOCHITEST_CHROME_MANIFESTS
 +
 =
 [
 "
 test
 /
-mochitest
+chrome
+/
+chrome
 .
 toml
 "
@@ -16,6 +18,8 @@ BROWSER_CHROME_MANIFESTS
 [
 "
 test
+/
+browser
 /
 browser
 .
