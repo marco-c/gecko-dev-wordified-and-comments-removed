@@ -49,7 +49,9 @@ SEARCH_STRING
 const
 EXPECTED_REMOTE_SETTINGS_URLBAR_RESULT
 =
-makeAmpResult
+QuickSuggestTestUtils
+.
+ampResult
 (
 {
 keyword
@@ -61,7 +63,9 @@ SEARCH_STRING
 const
 EXPECTED_MERINO_URLBAR_RESULT
 =
-makeAmpResult
+QuickSuggestTestUtils
+.
+ampResult
 (
 {
 source
@@ -1395,7 +1399,9 @@ context
 matches
 :
 [
-makeAmpResult
+QuickSuggestTestUtils
+.
+ampResult
 (
 {
 keyword

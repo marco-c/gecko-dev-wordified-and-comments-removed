@@ -441,7 +441,9 @@ context
 matches
 :
 [
-makeWeatherResult
+QuickSuggestTestUtils
+.
+weatherResult
 (
 )
 ]
@@ -675,7 +677,9 @@ context
 matches
 :
 [
-makeWeatherResult
+QuickSuggestTestUtils
+.
+weatherResult
 (
 )
 ]
@@ -2404,7 +2408,9 @@ false
 matches
 :
 [
-makeWeatherResult
+QuickSuggestTestUtils
+.
+weatherResult
 (
 {
 temperatureUnit
@@ -2477,7 +2483,9 @@ false
 matches
 :
 [
-makeWeatherResult
+QuickSuggestTestUtils
+.
+weatherResult
 (
 {
 temperatureUnit
@@ -2595,7 +2603,9 @@ context
 matches
 :
 [
-makeWeatherResult
+QuickSuggestTestUtils
+.
+weatherResult
 (
 )
 ]
@@ -4889,7 +4899,9 @@ true
 let
 defaultResult
 =
-makeWeatherResult
+QuickSuggestTestUtils
+.
+weatherResult
 (
 )
 ;
@@ -4991,7 +5003,9 @@ matches
 let
 merinoResult
 =
-makeWeatherResult
+QuickSuggestTestUtils
+.
+weatherResult
 (
 {
 source

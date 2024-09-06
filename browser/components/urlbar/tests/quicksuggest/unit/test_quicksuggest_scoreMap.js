@@ -810,7 +810,7 @@ expectedScore
 score
 expectedResult
 :
-makeExpectedAdmResult
+makeExpectedAmpResult
 (
 {
 keyword
@@ -943,7 +943,7 @@ expectedScore
 score
 expectedResult
 :
-makeExpectedAdmResult
+makeExpectedAmpResult
 (
 {
 keyword
@@ -1076,7 +1076,7 @@ expectedScore
 score
 expectedResult
 :
-makeExpectedAdmResult
+makeExpectedAmpResult
 (
 {
 keyword
@@ -1209,7 +1209,7 @@ expectedScore
 score
 expectedResult
 :
-makeExpectedAdmResult
+makeExpectedAmpResult
 (
 {
 keyword
@@ -1342,7 +1342,7 @@ expectedScore
 score
 expectedResult
 :
-makeExpectedAdmResult
+makeExpectedAmpResult
 (
 {
 keyword
@@ -1411,7 +1411,7 @@ expectedScore
 score
 expectedResult
 :
-makeExpectedAdmResult
+makeExpectedAmpResult
 (
 {
 keyword
@@ -1475,7 +1475,7 @@ expectedScore
 score
 expectedResult
 :
-makeExpectedAdmResult
+makeExpectedAmpResult
 (
 {
 keyword
@@ -1607,7 +1607,7 @@ expectedScore
 score
 expectedResult
 :
-makeExpectedAdmResult
+makeExpectedAmpResult
 (
 {
 keyword
@@ -1755,7 +1755,7 @@ expectedScore
 score
 expectedResult
 :
-makeExpectedAdmResult
+makeExpectedAmpResult
 (
 {
 keyword
@@ -1976,7 +1976,7 @@ expectedScore
 score
 expectedResult
 :
-makeExpectedAdmResult
+makeExpectedAmpResult
 (
 {
 keyword
@@ -2091,7 +2091,7 @@ expectedScore
 score
 expectedResult
 :
-makeExpectedDefaultResult
+makeExpectedDefaultMerinoResult
 (
 {
 suggestion
@@ -2161,7 +2161,7 @@ expectedScore
 456
 expectedResult
 :
-makeExpectedAdmResult
+makeExpectedAmpResult
 (
 {
 keyword
@@ -2344,7 +2344,7 @@ cleanUpNimbus
 ;
 }
 function
-makeExpectedAdmResult
+makeExpectedAmpResult
 (
 {
 suggestion
@@ -2356,7 +2356,9 @@ requestId
 )
 {
 return
-makeAmpResult
+QuickSuggestTestUtils
+.
+ampResult
 (
 {
 keyword
@@ -2418,7 +2420,9 @@ source
 )
 {
 return
-makeWikipediaResult
+QuickSuggestTestUtils
+.
+wikipediaResult
 (
 {
 keyword
@@ -2468,7 +2472,9 @@ provider
 )
 {
 return
-makeAmoResult
+QuickSuggestTestUtils
+.
+amoResult
 (
 {
 source
@@ -2503,7 +2509,7 @@ icon
 ;
 }
 function
-makeExpectedDefaultResult
+makeExpectedDefaultMerinoResult
 (
 {
 suggestion
