@@ -229,11 +229,6 @@ doc_inactive_css_xul
 xhtml
 "
 "
-doc_layer_edit
-.
-css
-"
-"
 head
 .
 js
