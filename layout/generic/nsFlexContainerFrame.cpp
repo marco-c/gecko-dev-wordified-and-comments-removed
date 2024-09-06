@@ -2922,7 +2922,7 @@ aNewFlexBaseSize
 ;
 mMainSize
 =
-NS_CSS_MINMAX
+CSSMinMax
 (
 mFlexBaseSize
 mMainMinSize
@@ -15306,7 +15306,7 @@ MarginBorderPaddingSizeInCrossAxis
 ;
 stretchedSize
 =
-NS_CSS_MINMAX
+CSSMinMax
 (
 stretchedSize
 mCrossMinSize

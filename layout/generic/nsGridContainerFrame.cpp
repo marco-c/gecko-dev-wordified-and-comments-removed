@@ -24578,7 +24578,7 @@ NS_UNCONSTRAINEDSIZE
 )
 {
 return
-NS_CSS_MINMAX
+CSSMinMax
 (
 *
 containBSize

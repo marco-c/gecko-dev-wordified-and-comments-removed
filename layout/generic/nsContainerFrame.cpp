@@ -12680,7 +12680,7 @@ else
 {
 iSize
 =
-NS_CSS_MINMAX
+CSSMinMax
 (
 tentISize
 minISize
@@ -12689,7 +12689,7 @@ maxISize
 ;
 bSize
 =
-NS_CSS_MINMAX
+CSSMinMax
 (
 tentBSize
 minBSize
@@ -12702,7 +12702,7 @@ else
 {
 bSize
 =
-NS_CSS_MINMAX
+CSSMinMax
 (
 bSize
 minBSize
@@ -12786,7 +12786,7 @@ aWM
 }
 iSize
 =
-NS_CSS_MINMAX
+CSSMinMax
 (
 iSize
 minISize
@@ -12804,7 +12804,7 @@ isAutoBSize
 {
 iSize
 =
-NS_CSS_MINMAX
+CSSMinMax
 (
 iSize
 minISize
@@ -12888,7 +12888,7 @@ aWM
 }
 bSize
 =
-NS_CSS_MINMAX
+CSSMinMax
 (
 bSize
 minBSize
@@ -12900,7 +12900,7 @@ else
 {
 iSize
 =
-NS_CSS_MINMAX
+CSSMinMax
 (
 iSize
 minISize
@@ -12909,7 +12909,7 @@ maxISize
 ;
 bSize
 =
-NS_CSS_MINMAX
+CSSMinMax
 (
 bSize
 minBSize
