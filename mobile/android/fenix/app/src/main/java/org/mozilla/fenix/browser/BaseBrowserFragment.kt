@@ -9846,6 +9846,9 @@ view
 =
 view
 )
+reinitializeEngineView
+(
+)
 }
 private
 fun
