@@ -23,13 +23,11 @@ h
 #
 include
 "
-modules
+api
 /
-audio_processing
+audio
 /
-agc2
-/
-gain_applier
+audio_view
 .
 h
 "
@@ -40,9 +38,9 @@ modules
 /
 audio_processing
 /
-include
+agc2
 /
-audio_frame_view
+gain_applier
 .
 h
 "
@@ -130,7 +128,7 @@ const
 FrameInfo
 &
 info
-AudioFrameView
+DeinterleavedView
 <
 float
 >
