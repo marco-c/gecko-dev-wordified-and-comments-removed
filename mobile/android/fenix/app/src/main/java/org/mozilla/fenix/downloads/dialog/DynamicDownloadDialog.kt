@@ -277,11 +277,6 @@ binding
 DownloadDialogLayoutBinding
 private
 val
-bottomToolbarHeight
-:
-Int
-private
-val
 onDismiss
 :
 (

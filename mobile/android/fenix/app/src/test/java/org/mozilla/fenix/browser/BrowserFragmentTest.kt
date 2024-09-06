@@ -801,9 +801,6 @@ any
 any
 (
 )
-any
-(
-)
 )
 }
 returns
@@ -1250,9 +1247,6 @@ newSelectedTab
 id
 store
 context
-any
-(
-)
 )
 }
 }

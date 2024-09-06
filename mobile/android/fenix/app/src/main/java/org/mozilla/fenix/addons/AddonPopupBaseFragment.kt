@@ -1862,9 +1862,6 @@ binding
 provideDownloadDialogLayoutBinding
 (
 )
-bottomToolbarHeight
-=
-0
 )
 {
 }
