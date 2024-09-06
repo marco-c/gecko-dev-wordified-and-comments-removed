@@ -7491,7 +7491,7 @@ frame
 frame
 -
 >
-IsRenderingObserverContainer
+IsSVGRenderingObserverContainer
 (
 )
 )
@@ -7827,7 +7827,7 @@ if
 aFrame
 -
 >
-IsRenderingObserverContainer
+IsSVGRenderingObserverContainer
 (
 )
 )
@@ -7913,7 +7913,7 @@ if
 f
 -
 >
-IsRenderingObserverContainer
+IsSVGRenderingObserverContainer
 (
 )
 )
