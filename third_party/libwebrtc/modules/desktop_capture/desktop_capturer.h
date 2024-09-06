@@ -238,6 +238,8 @@ id
 ;
 pid_t
 pid
+=
+0
 ;
 std
 :
