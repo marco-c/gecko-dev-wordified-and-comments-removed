@@ -1121,7 +1121,7 @@ data
 gc
 :
 :
-TenuredChunk
+ArenaChunk
 *
 chunk
 const
@@ -4236,7 +4236,7 @@ sizeof
 gc
 :
 :
-TenuredChunk
+ArenaChunk
 )
 -
 (

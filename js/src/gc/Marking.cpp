@@ -14871,7 +14871,7 @@ wordp
 uintptr_t
 mask
 ;
-TenuredChunkBase
+ArenaChunkBase
 *
 chunk
 =
@@ -14991,7 +14991,7 @@ wordp
 uintptr_t
 mask
 ;
-TenuredChunkBase
+ArenaChunkBase
 *
 chunk
 =

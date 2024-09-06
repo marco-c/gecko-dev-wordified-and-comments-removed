@@ -147,7 +147,7 @@ struct
 Cell
 ;
 class
-TenuredChunk
+ArenaChunk
 ;
 class
 StoreBuffer
@@ -338,7 +338,7 @@ uint8_t
 Invalid
 =
 0
-TenuredHeap
+TenuredArenas
 NurseryToSpace
 NurseryFromSpace
 }
@@ -371,14 +371,14 @@ ChunkMask
 0
 )
 ;
-initBaseForTenuredChunk
+initBaseForArenaChunk
 (
 rt
 )
 ;
 }
 void
-initBaseForTenuredChunk
+initBaseForArenaChunk
 (
 JSRuntime
 *
@@ -398,7 +398,7 @@ kind
 ChunkKind
 :
 :
-TenuredHeap
+TenuredArenas
 ;
 nurseryChunkIndex
 =
@@ -516,7 +516,7 @@ kind
 ChunkKind
 :
 :
-TenuredHeap
+TenuredArenas
 )
 ;
 return
@@ -540,7 +540,7 @@ nurseryChunkIndex
 }
 ;
 struct
-TenuredChunkInfo
+ArenaChunkInfo
 {
 private
 :
@@ -548,13 +548,13 @@ friend
 class
 ChunkPool
 ;
-TenuredChunk
+ArenaChunk
 *
 next
 =
 nullptr
 ;
-TenuredChunk
+ArenaChunk
 *
 prev
 =
@@ -602,7 +602,7 @@ ChunkBase
 -
 sizeof
 (
-TenuredChunkInfo
+ArenaChunkInfo
 )
 )
 *
@@ -667,7 +667,7 @@ ChunkBase
 +
 sizeof
 (
-TenuredChunkInfo
+ArenaChunkInfo
 )
 +
 RoundUp
@@ -1245,14 +1245,14 @@ uint32_t
 >
 ;
 class
-TenuredChunkBase
+ArenaChunkBase
 :
 public
 ChunkBase
 {
 public
 :
-TenuredChunkInfo
+ArenaChunkInfo
 info
 ;
 ChunkMarkBitmap
@@ -1267,7 +1267,7 @@ decommittedPages
 protected
 :
 explicit
-TenuredChunkBase
+ArenaChunkBase
 (
 JSRuntime
 *
@@ -1328,7 +1328,7 @@ sizeof
 gc
 :
 :
-TenuredChunkBase
+ArenaChunkBase
 )
 ArenaSize
 )
@@ -1364,7 +1364,7 @@ ChunkMarkBitmapOffset
 =
 offsetof
 (
-TenuredChunkBase
+ArenaChunkBase
 markBits
 )
 ;
@@ -2579,7 +2579,7 @@ cell
 }
 static
 MOZ_ALWAYS_INLINE
-TenuredChunkBase
+ArenaChunkBase
 *
 GetCellChunkBase
 (
@@ -2600,7 +2600,7 @@ chunk
 =
 reinterpret_cast
 <
-TenuredChunkBase
+ArenaChunkBase
 *
 >
 (
@@ -2632,7 +2632,7 @@ kind
 ChunkKind
 :
 :
-TenuredHeap
+TenuredArenas
 )
 ;
 return
@@ -2722,7 +2722,7 @@ cell
 )
 )
 ;
-TenuredChunkBase
+ArenaChunkBase
 *
 chunk
 =
@@ -2783,7 +2783,7 @@ cell
 )
 )
 ;
-TenuredChunkBase
+ArenaChunkBase
 *
 chunk
 =
@@ -2839,7 +2839,7 @@ cell
 )
 )
 ;
-TenuredChunkBase
+ArenaChunkBase
 *
 chunk
 =

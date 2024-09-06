@@ -1735,7 +1735,7 @@ endif
 }
 inline
 bool
-TenuredChunk
+ArenaChunk
 :
 :
 canDecommitPage
@@ -1801,7 +1801,7 @@ true
 ;
 }
 void
-TenuredChunk
+ArenaChunk
 :
 :
 decommitFreeArenas
@@ -1872,7 +1872,7 @@ break
 }
 }
 void
-TenuredChunk
+ArenaChunk
 :
 :
 recycleArena
@@ -1904,7 +1904,7 @@ thingsPerArena
 ;
 }
 void
-TenuredChunk
+ArenaChunk
 :
 :
 releaseArena
@@ -1979,7 +1979,7 @@ lock
 ;
 }
 bool
-TenuredChunk
+ArenaChunk
 :
 :
 decommitOneFreePage
@@ -2203,7 +2203,7 @@ ok
 ;
 }
 void
-TenuredChunk
+ArenaChunk
 :
 :
 decommitFreeArenasWithoutUnlocking
@@ -2359,7 +2359,7 @@ verify
 ;
 }
 void
-TenuredChunk
+ArenaChunk
 :
 :
 updateChunkListAfterAlloc
@@ -2413,7 +2413,7 @@ this
 }
 }
 void
-TenuredChunk
+ArenaChunk
 :
 :
 updateChunkListAfterFree
@@ -2525,7 +2525,7 @@ lock
 ;
 }
 }
-TenuredChunk
+ArenaChunk
 *
 ChunkPool
 :
@@ -2571,7 +2571,7 @@ ChunkPool
 :
 push
 (
-TenuredChunk
+ArenaChunk
 *
 chunk
 )
@@ -2631,14 +2631,14 @@ chunk
 count_
 ;
 }
-TenuredChunk
+ArenaChunk
 *
 ChunkPool
 :
 :
 remove
 (
-TenuredChunk
+ArenaChunk
 *
 chunk
 )
@@ -2788,7 +2788,7 @@ count
 )
 )
 ;
-TenuredChunk
+ArenaChunk
 *
 prev
 =
@@ -2796,7 +2796,7 @@ nullptr
 ;
 for
 (
-TenuredChunk
+ArenaChunk
 *
 cur
 =
@@ -2844,14 +2844,14 @@ isSorted
 )
 ;
 }
-TenuredChunk
+ArenaChunk
 *
 ChunkPool
 :
 :
 mergeSort
 (
-TenuredChunk
+ArenaChunk
 *
 list
 size_t
@@ -2890,18 +2890,18 @@ count
 /
 2
 ;
-TenuredChunk
+ArenaChunk
 *
 front
 =
 list
 ;
-TenuredChunk
+ArenaChunk
 *
 back
 ;
 {
-TenuredChunk
+ArenaChunk
 *
 cur
 =
@@ -2981,7 +2981,7 @@ list
 =
 nullptr
 ;
-TenuredChunk
+ArenaChunk
 *
 *
 cur
@@ -3122,7 +3122,7 @@ last
 ;
 for
 (
-TenuredChunk
+ArenaChunk
 *
 cursor
 =
@@ -3179,7 +3179,7 @@ ChunkPool
 :
 contains
 (
-TenuredChunk
+ArenaChunk
 *
 chunk
 )
@@ -3191,7 +3191,7 @@ verify
 ;
 for
 (
-TenuredChunk
+ArenaChunk
 *
 cursor
 =
@@ -3256,7 +3256,7 @@ count
 ;
 for
 (
-TenuredChunk
+ArenaChunk
 *
 cursor
 =
@@ -3349,7 +3349,7 @@ const
 {
 for
 (
-TenuredChunk
+ArenaChunk
 *
 chunk
 =
@@ -3377,7 +3377,7 @@ verify
 }
 }
 void
-TenuredChunk
+ArenaChunk
 :
 :
 verify
@@ -3390,7 +3390,7 @@ static_assert
 (
 offsetof
 (
-TenuredChunk
+ArenaChunk
 arenas
 )
 %
@@ -3446,7 +3446,7 @@ static_assert
 (
 offsetof
 (
-TenuredChunk
+ArenaChunk
 markBits
 )
 %

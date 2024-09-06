@@ -73,7 +73,7 @@ void
 *
 ptr
 =
-TenuredChunk
+ArenaChunk
 :
 :
 allocate
@@ -95,11 +95,11 @@ CHECK
 ptr
 )
 ;
-TenuredChunk
+ArenaChunk
 *
 chunk
 =
-TenuredChunk
+ArenaChunk
 :
 :
 emplace
@@ -220,7 +220,7 @@ N
 i
 )
 {
-TenuredChunk
+ArenaChunk
 *
 chunkA
 =
@@ -230,7 +230,7 @@ pop
 (
 )
 ;
-TenuredChunk
+ArenaChunk
 *
 chunkB
 =
@@ -240,7 +240,7 @@ pop
 (
 )
 ;
-TenuredChunk
+ArenaChunk
 *
 chunkC
 =
@@ -281,7 +281,7 @@ verify
 )
 )
 ;
-TenuredChunk
+ArenaChunk
 *
 chunk
 =
@@ -413,7 +413,7 @@ done
 ;
 )
 {
-TenuredChunk
+ArenaChunk
 *
 chunk
 =

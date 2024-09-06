@@ -81,7 +81,7 @@ class
 Arena
 ;
 class
-TenuredChunk
+ArenaChunk
 ;
 }
 #
@@ -626,7 +626,7 @@ void
 gc
 :
 :
-TenuredChunk
+ArenaChunk
 *
 const
 JS

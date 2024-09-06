@@ -833,7 +833,7 @@ checkAddress
 const
 ;
 inline
-TenuredChunk
+ArenaChunk
 *
 chunk
 (
@@ -1955,10 +1955,10 @@ thingKind
 endif
 }
 class
-TenuredChunk
+ArenaChunk
 :
 public
-TenuredChunkBase
+ArenaChunkBase
 {
 Arena
 arenas
@@ -1977,7 +1977,7 @@ MarkingValidator
 public
 :
 static
-TenuredChunk
+ArenaChunk
 *
 fromAddress
 (
@@ -1994,7 +1994,7 @@ ChunkMask
 return
 reinterpret_cast
 <
-TenuredChunk
+ArenaChunk
 *
 >
 (
@@ -2019,7 +2019,7 @@ ChunkMask
 ;
 if
 (
-TenuredChunk
+ArenaChunk
 :
 :
 fromAddress
@@ -2054,7 +2054,7 @@ offset
 =
 offsetof
 (
-TenuredChunk
+ArenaChunk
 arenas
 )
 &
@@ -2087,7 +2087,7 @@ address
 MOZ_ASSERT
 (
 !
-TenuredChunk
+ArenaChunk
 :
 :
 fromAddress
@@ -2122,7 +2122,7 @@ offset
 -
 offsetof
 (
-TenuredChunk
+ArenaChunk
 arenas
 )
 )
@@ -2132,14 +2132,14 @@ ArenaShift
 ;
 }
 explicit
-TenuredChunk
+ArenaChunk
 (
 JSRuntime
 *
 runtime
 )
 :
-TenuredChunkBase
+ArenaChunkBase
 (
 runtime
 )
@@ -2323,7 +2323,7 @@ gc
 )
 ;
 static
-TenuredChunk
+ArenaChunk
 *
 emplace
 (
@@ -2515,7 +2515,7 @@ ArenaMask
 ;
 MOZ_ASSERT
 (
-TenuredChunk
+ArenaChunk
 :
 :
 withinValidRange
@@ -2526,7 +2526,7 @@ addr
 ;
 }
 inline
-TenuredChunk
+ArenaChunk
 *
 Arena
 :
@@ -2537,7 +2537,7 @@ chunk
 const
 {
 return
-TenuredChunk
+ArenaChunk
 :
 :
 fromAddress

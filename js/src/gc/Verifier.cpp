@@ -2170,7 +2170,7 @@ Lookup
 gc
 :
 :
-TenuredChunk
+ArenaChunk
 *
 ;
 static
@@ -2180,7 +2180,7 @@ hash
 gc
 :
 :
-TenuredChunk
+ArenaChunk
 *
 chunk
 )
@@ -2224,13 +2224,13 @@ match
 gc
 :
 :
-TenuredChunk
+ArenaChunk
 *
 k
 gc
 :
 :
-TenuredChunk
+ArenaChunk
 *
 l
 )
@@ -2322,7 +2322,7 @@ BitmapMap
 =
 HashMap
 <
-TenuredChunk
+ArenaChunk
 *
 UniquePtr
 <
