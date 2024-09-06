@@ -1771,7 +1771,6 @@ InputData
 aEvent
 )
 ;
-static
 ExternalPoint
 GetFirstExternalTouchPoint
 (
@@ -2157,12 +2156,6 @@ RecentEventsBuffer
 PinchGestureInput
 >
 mPinchEventBuffer
-;
-RecentEventsBuffer
-<
-MultiTouchInput
->
-mTouchScrollEventBuffer
 ;
 ZoomConstraints
 mZoomConstraints
