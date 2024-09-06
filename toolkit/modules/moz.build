@@ -891,10 +891,14 @@ BUG_COMPONENT
 =
 (
 "
-Toolkit
+Core
 "
 "
-Storage
+SQLite
+and
+Embedded
+Database
+Bindings
 "
 )
 with
