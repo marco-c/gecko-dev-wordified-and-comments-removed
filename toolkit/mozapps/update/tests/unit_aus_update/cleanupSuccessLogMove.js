@@ -447,6 +447,7 @@ exists
 MSG_SHOULD_EXIST
 )
 ;
+await
 reloadUpdateManagerData
 (
 )
@@ -476,6 +477,7 @@ start
 "
 )
 ;
+await
 doTestFinish
 (
 )

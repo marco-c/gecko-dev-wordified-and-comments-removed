@@ -252,11 +252,13 @@ prev
 ;
 add_task
 (
+async
 (
 )
 =
 >
 {
+await
 doTestFinish
 (
 )

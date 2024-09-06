@@ -833,6 +833,7 @@ platformBuildID
 }
 )
 ;
+await
 reloadUpdateManagerData
 (
 false

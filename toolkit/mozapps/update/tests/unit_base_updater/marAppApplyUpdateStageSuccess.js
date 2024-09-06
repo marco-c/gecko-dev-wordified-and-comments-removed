@@ -224,6 +224,7 @@ path
 )
 )
 ;
+await
 waitForFilesInUse
 (
 )

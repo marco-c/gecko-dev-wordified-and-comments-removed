@@ -1222,6 +1222,7 @@ init
 )
 ;
 }
+async
 function
 reloadUpdateManagerData
 (
@@ -1230,6 +1231,7 @@ skipFiles
 false
 )
 {
+await
 gUpdateManager
 .
 internal

@@ -5447,6 +5447,7 @@ aText
 )
 ;
 }
+async
 function
 doTestFinish
 (
@@ -5481,6 +5482,7 @@ PREF_APP_UPDATE_LOG
 )
 ;
 }
+await
 reloadUpdateManagerData
 (
 true
@@ -18795,6 +18797,7 @@ return
 true
 ;
 }
+async
 function
 waitForFilesInUse
 (
@@ -18877,6 +18880,7 @@ doTestFinish
 "
 )
 ;
+await
 doTestFinish
 (
 )

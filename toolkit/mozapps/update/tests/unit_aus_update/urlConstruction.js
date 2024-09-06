@@ -113,6 +113,7 @@ force
 }
 )
 ;
+await
 doTestFinish
 (
 )

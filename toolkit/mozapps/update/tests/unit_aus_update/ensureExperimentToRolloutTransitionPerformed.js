@@ -343,6 +343,7 @@ true
 }
 )
 ;
+await
 doTestFinish
 (
 )

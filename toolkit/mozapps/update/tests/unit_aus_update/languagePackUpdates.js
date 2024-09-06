@@ -532,6 +532,7 @@ time
 "
 )
 ;
+await
 reloadUpdateManagerData
 (
 true
@@ -676,6 +677,7 @@ reject
 await
 notified
 ;
+await
 reloadUpdateManagerData
 (
 true
@@ -876,6 +878,7 @@ resolve
 await
 notified
 ;
+await
 reloadUpdateManagerData
 (
 true
@@ -1231,6 +1234,7 @@ time
 "
 )
 ;
+await
 reloadUpdateManagerData
 (
 true
