@@ -259,6 +259,14 @@ webgl
 "
 )
 ;
+if
+(
+gl
+!
+=
+null
+)
+{
 gl
 .
 clearColor
@@ -286,6 +294,7 @@ gl
 COLOR_BUFFER_BIT
 )
 ;
+}
 requestAnimationFrame
 (
 (
