@@ -116,7 +116,6 @@ an
 false
 )
 ;
-await
 SearchTestUtils
 .
 setRemoteSettingsConfig

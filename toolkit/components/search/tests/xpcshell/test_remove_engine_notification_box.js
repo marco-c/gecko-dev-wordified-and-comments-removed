@@ -148,7 +148,6 @@ useMockIdleService
 (
 )
 ;
-await
 SearchTestUtils
 .
 setRemoteSettingsConfig
@@ -1453,7 +1452,6 @@ resetEngineSelector
 (
 )
 ;
-await
 SearchTestUtils
 .
 setRemoteSettingsConfig
