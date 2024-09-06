@@ -189,7 +189,7 @@ ComponentsDependencies
 .
 androidx_safeargs
 classpath
-FenixDependencies
+ComponentsDependencies
 .
 osslicenses_plugin
 classpath

@@ -102,7 +102,7 @@ ComponentsDependencies
 .
 tools_kotlingradle
 classpath
-FocusDependencies
+ComponentsDependencies
 .
 osslicenses_plugin
 classpath
