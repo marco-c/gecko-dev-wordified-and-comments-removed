@@ -310,7 +310,7 @@ deprecated
 false
 experimental
 :
-false
+true
 }
 ]
 ;
