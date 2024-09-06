@@ -19463,6 +19463,7 @@ remove
 "
 &
 &
+(
 subject
 .
 wrappedJSObject
@@ -19473,6 +19474,19 @@ collectionName
 "
 creditCards
 "
+|
+|
+subject
+.
+wrappedJSObject
+.
+collectionName
+=
+=
+"
+addresses
+"
+)
 )
 {
 this
