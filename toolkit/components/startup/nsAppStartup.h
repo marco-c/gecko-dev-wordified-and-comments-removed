@@ -156,9 +156,6 @@ bool
 mAttemptingQuit
 ;
 bool
-mInterrupted
-;
-bool
 mIsSafeModeNecessary
 ;
 bool
