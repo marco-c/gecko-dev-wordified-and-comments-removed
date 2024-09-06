@@ -175,7 +175,8 @@ reader
 SpsState
 sps
 ;
-uint32_t
+sps
+.
 chroma_format_idc
 =
 1
@@ -289,6 +290,8 @@ profile_idc
 134
 )
 {
+sps
+.
 chroma_format_idc
 =
 reader
@@ -299,6 +302,8 @@ ReadExponentialGolomb
 ;
 if
 (
+sps
+.
 chroma_format_idc
 =
 =
@@ -351,6 +356,8 @@ int
 scaling_list_count
 =
 (
+sps
+.
 chroma_format_idc
 =
 =
@@ -881,6 +888,8 @@ sps
 separate_colour_plane_flag
 |
 |
+sps
+.
 chroma_format_idc
 =
 =
@@ -919,6 +928,8 @@ sps
 separate_colour_plane_flag
 &
 &
+sps
+.
 chroma_format_idc
 >
 0
@@ -926,12 +937,16 @@ chroma_format_idc
 {
 if
 (
+sps
+.
 chroma_format_idc
 =
 =
 1
 |
 |
+sps
+.
 chroma_format_idc
 =
 =
@@ -951,6 +966,8 @@ frame_crop_right_offset
 }
 if
 (
+sps
+.
 chroma_format_idc
 =
 =

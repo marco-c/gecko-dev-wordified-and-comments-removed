@@ -80,6 +80,11 @@ delta_pic_order_always_zero_flag
 0
 ;
 uint32_t
+chroma_format_idc
+=
+1
+;
+uint32_t
 separate_colour_plane_flag
 =
 0

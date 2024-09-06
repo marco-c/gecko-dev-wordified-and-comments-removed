@@ -71,6 +71,16 @@ entropy_coding_mode_flag
 false
 ;
 uint32_t
+num_ref_idx_l0_default_active_minus1
+=
+0
+;
+uint32_t
+num_ref_idx_l1_default_active_minus1
+=
+0
+;
+uint32_t
 weighted_bipred_idc
 =
 false
