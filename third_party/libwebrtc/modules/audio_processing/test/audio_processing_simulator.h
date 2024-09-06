@@ -764,6 +764,15 @@ absl
 :
 optional
 <
+bool
+>
+agc2_use_input_volume_controller
+;
+absl
+:
+:
+optional
+<
 float
 >
 pre_amplifier_gain_factor
