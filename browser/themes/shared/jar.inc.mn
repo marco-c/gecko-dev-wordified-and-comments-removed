@@ -4207,9 +4207,6 @@ import
 .
 svg
 )
-#
-ifndef
-MOZ_WIDGET_GTK
 skin
 /
 classic
@@ -4235,8 +4232,6 @@ export
 .
 svg
 )
-#
-endif
 skin
 /
 classic
