@@ -141,8 +141,7 @@ ok
 true
 "
 All
-of
-animtion
+animations
 are
 paused
 "
@@ -202,8 +201,7 @@ ok
 true
 "
 All
-of
-animtion
+animations
 are
 running
 "
