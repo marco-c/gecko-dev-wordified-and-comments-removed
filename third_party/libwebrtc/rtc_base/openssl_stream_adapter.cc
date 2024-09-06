@@ -4357,6 +4357,7 @@ SSL_ERROR_ZERO_RETURN
 :
 default
 :
+{
 SSLHandshakeError
 ssl_handshake_err
 =
@@ -4453,6 +4454,7 @@ ssl_error
 -
 1
 ;
+}
 }
 return
 0
