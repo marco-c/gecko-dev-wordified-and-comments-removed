@@ -315,6 +315,7 @@ typename
 CharT
 >
 static
+constexpr
 bool
 IsValidLength
 (
