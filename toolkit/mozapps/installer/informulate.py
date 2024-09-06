@@ -177,11 +177,11 @@ important_substitutions
 [
         
 "
-target_alias
+target
 "
         
 "
-host_alias
+host
 "
         
 "
@@ -521,7 +521,7 @@ host
 s
 [
 "
-host_alias
+host
 "
 ]
                 
@@ -532,7 +532,7 @@ target
 s
 [
 "
-target_alias
+target
 "
 ]
             

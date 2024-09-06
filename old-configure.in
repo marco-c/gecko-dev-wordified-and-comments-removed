@@ -186,7 +186,6 @@ build
 /
 autoconf
 )
-AC_CANONICAL_SYSTEM
 dnl
 =
 =
