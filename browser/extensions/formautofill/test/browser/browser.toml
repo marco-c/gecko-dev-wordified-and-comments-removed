@@ -297,6 +297,13 @@ js
 ]
 [
 "
+browser_iframe_layout_telemetry
+.
+js
+"
+]
+[
+"
 browser_iframe_same_origin_field_detection
 .
 js
