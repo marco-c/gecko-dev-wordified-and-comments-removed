@@ -633,7 +633,9 @@ log
 method
 "
 "
-console
+debugger
+-
+sidebar
 "
 )
 ;
