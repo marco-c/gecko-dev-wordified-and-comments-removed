@@ -841,7 +841,7 @@ LooseVersion
 "
 1
 .
-71
+80
 .
 0
 "
@@ -856,7 +856,7 @@ minimum_rust_version
 "
 1
 .
-71
+80
 .
 0
 "
