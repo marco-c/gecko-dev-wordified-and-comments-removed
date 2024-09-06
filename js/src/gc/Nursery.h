@@ -2312,6 +2312,11 @@ sweepMapAndSetObjects
 )
 ;
 void
+sweepStringsWithBuffer
+(
+)
+;
+void
 *
 allocateBuffer
 (
