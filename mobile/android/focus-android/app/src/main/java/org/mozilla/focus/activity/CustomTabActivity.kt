@@ -521,6 +521,12 @@ customTabId
 )
 }
 }
+Suppress
+(
+"
+OVERRIDE_DEPRECATION
+"
+)
 override
 fun
 onBackPressed

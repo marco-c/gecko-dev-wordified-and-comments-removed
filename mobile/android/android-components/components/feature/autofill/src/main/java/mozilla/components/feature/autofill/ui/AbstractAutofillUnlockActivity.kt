@@ -563,6 +563,12 @@ PromptCallback
 )
 }
 }
+Suppress
+(
+"
+OVERRIDE_DEPRECATION
+"
+)
 override
 fun
 onActivityResult
