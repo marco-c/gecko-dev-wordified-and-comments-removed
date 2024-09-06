@@ -5543,7 +5543,6 @@ val
 expanded
 :
 Boolean
-?
 )
 :
 ContentAction
