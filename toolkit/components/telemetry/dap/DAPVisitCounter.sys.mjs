@@ -952,8 +952,10 @@ sendDAPMeasurement
 (
 task
 measurement
+{
 timeout
 reason
+}
 )
 )
 ;
