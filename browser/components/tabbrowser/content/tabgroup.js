@@ -225,7 +225,7 @@ this
 .
 style
 .
-getProperty
+getPropertyValue
 (
 "
 -
