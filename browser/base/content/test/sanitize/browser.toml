@@ -120,6 +120,15 @@ js
 "
 browser_sanitize
 -
+siteDataExceptAddons
+.
+js
+"
+]
+[
+"
+browser_sanitize
+-
 sitepermissions
 .
 js
