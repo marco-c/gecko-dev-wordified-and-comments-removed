@@ -1258,6 +1258,3 @@ Android
 or
 lower
 .
--
--
--
