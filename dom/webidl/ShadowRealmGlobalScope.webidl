@@ -131,7 +131,6 @@ ShadowRealmGlobal
 Exposed
 =
 ShadowRealmGlobal
-LegacyNoInterfaceObject
 ]
 interface
 ShadowRealmGlobalScope
