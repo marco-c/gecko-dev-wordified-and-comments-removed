@@ -13,15 +13,6 @@ SdpParser
 .
 h
 "
-#
-include
-"
-sdp
-/
-SdpTelemetry
-.
-h
-"
 namespace
 mozilla
 {

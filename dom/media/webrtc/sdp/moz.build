@@ -130,11 +130,6 @@ SdpPref
 cpp
 "
 "
-SdpTelemetry
-.
-cpp
-"
-"
 SipccSdp
 .
 cpp
