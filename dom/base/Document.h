@@ -10807,6 +10807,11 @@ mFireMutationEvents
 aFire
 ;
 }
+bool
+MutationEventsEnabled
+(
+)
+;
 void
 NotifyUserGestureActivation
 (
@@ -13974,6 +13979,12 @@ bool
 mFireMutationEvents
 :
 1
+;
+Maybe
+<
+bool
+>
+mMutationEventsEnabled
 ;
 Maybe
 <
