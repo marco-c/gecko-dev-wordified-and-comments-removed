@@ -5289,6 +5289,9 @@ stages
 =
 =
 2
+and
+not
+pgo
 )
             
 profile
@@ -5321,6 +5324,43 @@ build_dir
 "
 /
 stage3
+"
+        
+if
+pgo
+:
+            
+profiles_dir
+=
+build_dir
++
+"
+/
+profiles
+"
+            
+mkdir_p
+(
+profiles_dir
+)
+            
+os
+.
+environ
+[
+"
+LLVM_PROFILE_FILE
+"
+]
+=
+profiles_dir
++
+"
+/
+%
+m
+.
+profraw
 "
         
 stage3_inst_dir
@@ -5443,11 +5483,16 @@ target
             
 targets
             
+is_final_stage
+=
 (
 stages
 =
 =
 3
+and
+not
+pgo
 )
         
 )
@@ -5456,9 +5501,25 @@ if
 pgo
 :
             
+del
+os
+.
+environ
+[
+"
+LLVM_PROFILE_FILE
+"
+]
+            
+if
+skip_stages
+<
+1
+:
+                
 llvm_profdata
 =
-stage2_inst_dir
+stage1_inst_dir
 +
 "
 /
@@ -5472,6 +5533,21 @@ s
 "
 %
 exe_ext
+            
+else
+:
+                
+llvm_profdata
+=
+get_tool
+(
+config
+"
+llvm
+-
+profdata
+"
+)
             
 merge_cmd
 =
@@ -5497,27 +5573,19 @@ glob
 .
 glob
 (
-                
 os
 .
 path
 .
 join
 (
-stage2_dir
-"
-build
-"
-"
-profiles
-"
+profiles_dir
 "
 *
 .
 profraw
 "
 )
-            
 )
             
 run_in
@@ -5745,6 +5813,8 @@ target
             
 targets
             
+is_final_stage
+=
 (
 stages
 =
