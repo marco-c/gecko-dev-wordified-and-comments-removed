@@ -1269,7 +1269,7 @@ locations
 =
 >
 {
-const
+let
 locationMsg
 =
 Object
@@ -1299,8 +1299,6 @@ test
 )
 ;
 locationMsg
-.
-message
 =
 Object
 .
@@ -1309,8 +1307,6 @@ assign
 {
 }
 locationMsg
-.
-message
 {
 filename
 :
@@ -1482,7 +1478,7 @@ location
 =
 >
 {
-const
+let
 traceMessage
 =
 stubPackets
@@ -1499,8 +1495,6 @@ trace
 )
 ;
 traceMessage
-.
-message
 =
 Object
 .
@@ -1509,8 +1503,6 @@ assign
 {
 }
 traceMessage
-.
-message
 {
 filename
 :

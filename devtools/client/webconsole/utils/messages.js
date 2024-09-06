@@ -426,11 +426,6 @@ return
 transformConsoleAPICallResource
 (
 resource
-.
-message
-|
-|
-resource
 persistLogs
 resource
 .
