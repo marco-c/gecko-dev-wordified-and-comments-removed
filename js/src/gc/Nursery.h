@@ -1925,6 +1925,14 @@ gc
 ChunkSize
 ;
 }
+inline
+void
+addMallocedBufferBytes
+(
+size_t
+nbytes
+)
+;
 double
 calcPromotionRate
 (
