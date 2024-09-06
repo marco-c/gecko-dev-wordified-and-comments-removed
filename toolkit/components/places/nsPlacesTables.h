@@ -1188,6 +1188,15 @@ DEFAULT
 "
 \
 "
+flags
+INTEGER
+NOT
+NULL
+DEFAULT
+0
+"
+\
+"
 data
 BLOB
 "
