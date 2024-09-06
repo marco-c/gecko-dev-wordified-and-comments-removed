@@ -257,11 +257,9 @@ treeherder
 :
 symbol
 :
-TM
+TMA64
 (
 stackwalk
--
-arm64
 )
 run
 :

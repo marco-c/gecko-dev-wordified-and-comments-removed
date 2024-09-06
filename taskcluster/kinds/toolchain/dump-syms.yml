@@ -241,11 +241,9 @@ treeherder
 :
 symbol
 :
-TM
+TMA64
 (
 dump_syms
--
-arm64
 )
 run
 :

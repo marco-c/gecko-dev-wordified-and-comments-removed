@@ -216,11 +216,9 @@ treeherder
 :
 symbol
 :
-TM
+TMA64
 (
 pkgconf
--
-arm64
 )
 run
 :

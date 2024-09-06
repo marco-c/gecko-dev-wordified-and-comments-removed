@@ -313,7 +313,7 @@ treeherder
 :
 symbol
 :
-TL
+TLA64
 (
 gd
 )
@@ -433,7 +433,7 @@ treeherder
 :
 symbol
 :
-TM
+TMA64
 (
 gd
 )
@@ -568,7 +568,7 @@ treeherder
 :
 symbol
 :
-TW64
+TWA64
 (
 gd
 )

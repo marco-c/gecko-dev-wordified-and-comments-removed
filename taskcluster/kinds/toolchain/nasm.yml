@@ -249,11 +249,9 @@ treeherder
 :
 symbol
 :
-TM
+TMA64
 (
 nasm
--
-aarch64
 )
 run
 :

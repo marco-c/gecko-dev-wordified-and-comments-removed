@@ -265,11 +265,9 @@ treeherder
 :
 symbol
 :
-TM
+TMA64
 (
 sccache
--
-aarch64
 )
 worker
 :

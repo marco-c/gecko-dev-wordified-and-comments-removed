@@ -250,13 +250,11 @@ treeherder
 :
 symbol
 :
-TM
+TMA64
 (
 fix
 -
 stacks
--
-arm64
 )
 run
 :

@@ -286,13 +286,11 @@ treeherder
 :
 symbol
 :
-TM
+TMA64
 (
 node
 -
 18
--
-arm64
 )
 run
 :

@@ -275,11 +275,9 @@ treeherder
 :
 symbol
 :
-TM
+TMA64
 (
 cbindgen
--
-arm64
 )
 run
 :

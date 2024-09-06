@@ -259,13 +259,11 @@ treeherder
 :
 symbol
 :
-TM
+TMA64
 (
 cargo
 -
 vet
--
-arm64
 )
 run
 :

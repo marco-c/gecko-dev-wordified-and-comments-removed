@@ -151,9 +151,9 @@ treeherder
 :
 symbol
 :
-TL
+TL32
 (
-sysroot32
+sysroot
 )
 dependencies
 :
@@ -243,7 +243,7 @@ symbol
 :
 TL
 (
-sysroot64
+sysroot
 )
 dependencies
 :
@@ -341,7 +341,7 @@ symbol
 :
 TL
 (
-sysroot64
+sysroot
 -
 x11
 )
@@ -792,11 +792,9 @@ treeherder
 :
 symbol
 :
-TL
+TLA64
 (
 sysroot
--
-aarch64
 )
 run
 :
@@ -861,9 +859,9 @@ treeherder
 :
 symbol
 :
-TL
+TL32
 (
-sysroot32
+sysroot
 -
 toolchain
 )
@@ -967,7 +965,7 @@ symbol
 :
 TL
 (
-sysroot64
+sysroot
 -
 toolchain
 )

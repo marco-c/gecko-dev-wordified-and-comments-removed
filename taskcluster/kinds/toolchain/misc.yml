@@ -2489,11 +2489,9 @@ treeherder
 :
 symbol
 :
-TW64
+TWA64
 (
 msvc2022
--
-aarch64
 )
 worker
 :
@@ -3059,11 +3057,9 @@ treeherder
 :
 symbol
 :
-TW64
+TWA64
 (
 libxml2
--
-aarch64
 )
 run
 :
