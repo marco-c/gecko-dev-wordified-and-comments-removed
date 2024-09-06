@@ -537,15 +537,13 @@ migration
 ;
 Assert
 .
-ok
+equal
 (
 schema12db
 .
 db
 .
 schemaVersion
->
-=
 13
 )
 ;
