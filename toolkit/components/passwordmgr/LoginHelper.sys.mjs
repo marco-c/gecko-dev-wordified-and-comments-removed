@@ -9287,6 +9287,8 @@ expr
 search
 |
 code
+|
+add
 /
 i
 ;
