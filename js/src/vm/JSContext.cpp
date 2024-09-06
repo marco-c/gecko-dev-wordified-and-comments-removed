@@ -1230,15 +1230,6 @@ cursor
 -
 >
 id
-&
-&
-kind
-=
-=
-cursor
--
->
-kind
 )
 {
 return

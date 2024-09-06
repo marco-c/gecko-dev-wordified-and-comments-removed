@@ -4180,13 +4180,6 @@ AutoResolving
 {
 public
 :
-enum
-Kind
-{
-LOOKUP
-WATCH
-}
-;
 AutoResolving
 (
 JSContext
@@ -4196,10 +4189,6 @@ HandleObject
 obj
 HandleId
 id
-Kind
-kind
-=
-LOOKUP
 )
 :
 context
@@ -4213,10 +4202,6 @@ obj
 id
 (
 id
-)
-kind
-(
-kind
 )
 link
 (
@@ -4296,10 +4281,6 @@ object
 ;
 HandleId
 id
-;
-Kind
-const
-kind
 ;
 AutoResolving
 *
