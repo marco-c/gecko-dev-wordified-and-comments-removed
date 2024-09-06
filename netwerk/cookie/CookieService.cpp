@@ -6877,14 +6877,6 @@ return
 false
 ;
 }
-CookieCommons
-:
-:
-RecordUnicodeTelemetry
-(
-cookieData
-)
-;
 if
 (
 !

@@ -3713,14 +3713,6 @@ return
 newCookie
 ;
 }
-CookieCommons
-:
-:
-RecordUnicodeTelemetry
-(
-mCookieData
-)
-;
 if
 (
 XRE_IsParentProcess

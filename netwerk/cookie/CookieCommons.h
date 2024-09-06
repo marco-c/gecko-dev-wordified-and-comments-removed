@@ -540,16 +540,6 @@ aHadCrossSiteRedirects
 )
 ;
 static
-void
-RecordUnicodeTelemetry
-(
-const
-CookieStruct
-&
-cookieData
-)
-;
-static
 bool
 ChipsLimitEnabledAndChipsCookie
 (
