@@ -437,6 +437,15 @@ AutomaticTranslationPreferenceFragmentDirections
 actionAutomaticTranslationPreferenceToAutomaticTranslationOptionsPreference
 (
 it
+.
+language
+.
+code
+it
+.
+language
+.
+localizedDisplayName
 )
 )
 }
