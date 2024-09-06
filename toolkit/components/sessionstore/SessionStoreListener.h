@@ -281,6 +281,13 @@ UpdateSHistoryChanges
 (
 )
 {
+mSessionStore
+-
+>
+SetSHistoryChanged
+(
+)
+;
 AddTimerForUpdate
 (
 )
