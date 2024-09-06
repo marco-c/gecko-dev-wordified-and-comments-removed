@@ -2249,7 +2249,7 @@ await
 openPopup
 (
 "
-sponsored
+amp
 "
 )
 ;
@@ -2265,7 +2265,7 @@ example
 .
 com
 /
-sponsored
+amp
 "
 )
 ;
@@ -2355,7 +2355,7 @@ await
 openPopup
 (
 "
-nonsponsored
+wikipedia
 "
 )
 ;
@@ -2371,7 +2371,7 @@ example
 .
 com
 /
-nonsponsored
+wikipedia
 "
 )
 ;
@@ -4149,7 +4149,7 @@ await
 openPopup
 (
 "
-sponsored
+amp
 "
 )
 ;
@@ -4165,7 +4165,7 @@ example
 .
 com
 /
-sponsored
+amp
 "
 )
 ;
@@ -4255,7 +4255,7 @@ await
 openPopup
 (
 "
-nonsponsored
+wikipedia
 "
 )
 ;
@@ -4271,7 +4271,7 @@ example
 .
 com
 /
-nonsponsored
+wikipedia
 "
 )
 ;
