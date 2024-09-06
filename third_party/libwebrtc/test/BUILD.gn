@@ -6893,6 +6893,14 @@ audio_codecs
 :
 builtin_audio_decoder_factory
 "
+"
+.
+.
+/
+api
+/
+environment
+"
 ]
 }
 if
