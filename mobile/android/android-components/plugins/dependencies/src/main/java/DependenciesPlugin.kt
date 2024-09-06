@@ -931,7 +931,7 @@ osslicenses_plugin
 .
 10
 .
-4
+6
 "
 const
 val
