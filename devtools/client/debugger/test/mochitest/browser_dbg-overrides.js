@@ -646,9 +646,11 @@ waitForDispatch
 (
 dbg
 .
+toolbox
+.
 store
 "
-REMOVE_OVERRIDE
+REMOVE_NETWORK_OVERRIDE
 "
 )
 ;
