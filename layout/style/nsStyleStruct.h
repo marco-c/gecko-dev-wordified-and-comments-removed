@@ -2241,14 +2241,8 @@ mBorderImageSlice
 mozilla
 :
 :
-StyleBorderImageRepeatKeyword
-mBorderImageRepeatH
-;
-mozilla
-:
-:
-StyleBorderImageRepeatKeyword
-mBorderImageRepeatV
+StyleBorderImageRepeat
+mBorderImageRepeat
 ;
 mozilla
 :
