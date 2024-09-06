@@ -176,6 +176,11 @@ ModuleLoadRequest
 nsIURI
 *
 aURI
+JS
+:
+:
+ModuleType
+aModuleType
 mozilla
 :
 :
@@ -550,6 +555,13 @@ public
 const
 bool
 mIsTopLevel
+;
+const
+JS
+:
+:
+ModuleType
+mModuleType
 ;
 const
 bool

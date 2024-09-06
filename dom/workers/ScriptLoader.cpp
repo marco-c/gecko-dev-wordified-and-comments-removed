@@ -3381,6 +3381,13 @@ new
 ModuleLoadRequest
 (
 uri
+JS
+:
+:
+ModuleType
+:
+:
+JavaScript
 referrerPolicy
 fetchOptions
 SRIMetadata
