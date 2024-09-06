@@ -1186,8 +1186,6 @@ startswith
                         
 "
 test_runner
--
-withGeckoBinaries
 "
                     
 )
