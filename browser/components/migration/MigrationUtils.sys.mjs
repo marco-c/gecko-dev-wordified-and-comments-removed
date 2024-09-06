@@ -1375,12 +1375,10 @@ migration
 resources
 '
 *
-|
 migrate
 (
 aCallback
 )
-|
 (
 see
 MigratorBase
@@ -1388,9 +1386,7 @@ MigratorBase
 .
 If
 your
-|
 migrate
-|
 method
 *
 just
@@ -1602,9 +1598,7 @@ callback
 function
 passed
 to
-|
 migrate
-|
 .
 *
 returns

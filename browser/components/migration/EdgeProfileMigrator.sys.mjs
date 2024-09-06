@@ -3252,9 +3252,7 @@ counterintuitively
 this
 returns
 *
-|
 null
-|
 to
 indicate
 "

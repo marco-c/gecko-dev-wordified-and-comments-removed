@@ -399,9 +399,7 @@ startup
 only
 migrators
 override
-|
 startupOnlyMigrator
-|
 .
 *
 7
@@ -832,9 +830,7 @@ provide
 *
 -
 a
-|
 type
-|
 getter
 returning
 any
@@ -855,9 +851,7 @@ resourceTypes
 *
 -
 a
-|
 migrate
-|
 method
 taking
 two
@@ -916,9 +910,7 @@ an
 exception
 thrown
 from
-|
 migrate
-|
 *
 it
 '
@@ -1076,14 +1068,12 @@ that
 is
 called
 *
-|
 aCallback
 (
 true
 {
 }
 )
-|
 )
 .
 However
