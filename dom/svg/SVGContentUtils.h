@@ -134,7 +134,6 @@ enum
 SVGTransformTypes
 {
 eAllTransforms
-eUserSpaceToParent
 eChildToUserSpace
 }
 ;
