@@ -412,6 +412,17 @@ ignoreVisibilityCheck
 "
 :
 false
+"
+extensions
+.
+formautofill
+.
+heuristics
+.
+autofillSameOriginWithTop
+"
+:
+false
 }
 ;
 /
