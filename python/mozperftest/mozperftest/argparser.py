@@ -133,10 +133,6 @@ custom
 -
 script
 "
-    
-"
-alert
-"
 )
 class
 Options
