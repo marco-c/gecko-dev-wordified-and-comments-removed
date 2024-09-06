@@ -552,7 +552,7 @@ downloaded
 "
 :
 "
-uninstalled
+removed
 "
 ;
 this
@@ -606,7 +606,7 @@ downloaded
 "
 :
 "
-uninstalled
+removed
 "
 ;
 this
@@ -634,7 +634,7 @@ buildDownloadLanguageList
 )
 {
 const
-installList
+downloadList
 =
 document
 .
@@ -743,7 +743,7 @@ languageSize
 const
 allLangElement
 =
-installList
+downloadList
 .
 children
 [
@@ -872,7 +872,7 @@ translations
 -
 settings
 -
-delete
+remove
 -
 icon
 "
@@ -942,7 +942,7 @@ languageSize
 ]
 )
 ;
-installList
+downloadList
 .
 appendChild
 (
@@ -991,7 +991,7 @@ translations
 -
 settings
 -
-delete
+remove
 -
 icon
 "
@@ -1091,7 +1091,7 @@ popup
 {
 this
 .
-addAlwaysLanguage
+handleAddAlwaysTranslateLanguage
 (
 event
 )
@@ -1121,7 +1121,7 @@ popup
 {
 this
 .
-addNeverLanguage
+handleAddNeverTranslateLanguage
 (
 event
 )
@@ -1154,7 +1154,7 @@ button
 {
 this
 .
-deleteNeverTranslateSite
+handleRemoveNeverTranslateSite
 (
 event
 )
@@ -1183,7 +1183,7 @@ button
 {
 this
 .
-deleteNeverTranslateLanguage
+handleRemoveNeverTranslateLanguage
 (
 event
 )
@@ -1212,7 +1212,7 @@ button
 {
 this
 .
-deleteAlwaysTranslateLanguage
+handleRemoveAlwaysTranslateLanguage
 (
 event
 )
@@ -1289,7 +1289,7 @@ languages
 {
 this
 .
-handleInstallAll
+handleDownloadAllLanguages
 (
 event
 )
@@ -1299,7 +1299,7 @@ else
 {
 this
 .
-installLanguage
+handleDownloadLanguage
 (
 event
 )
@@ -1318,7 +1318,7 @@ translations
 -
 settings
 -
-delete
+remove
 -
 icon
 "
@@ -1355,7 +1355,7 @@ languages
 {
 this
 .
-handleUninstallAll
+handleRemoveAllLanguages
 (
 event
 )
@@ -1365,7 +1365,7 @@ else
 {
 this
 .
-unInstallLanguage
+handleRemoveLanguage
 (
 event
 )
@@ -1378,7 +1378,7 @@ break
 }
 }
 async
-addAlwaysLanguage
+handleAddAlwaysTranslateLanguage
 (
 event
 )
@@ -1441,7 +1441,7 @@ menuList
 ;
 }
 async
-addNeverLanguage
+handleAddNeverTranslateLanguage
 (
 event
 )
@@ -1900,7 +1900,7 @@ translations
 -
 settings
 -
-delete
+remove
 -
 icon
 "
@@ -2642,7 +2642,7 @@ translations
 -
 settings
 -
-delete
+remove
 -
 icon
 "
@@ -2965,7 +2965,7 @@ remove
 }
 }
 }
-deleteAlwaysTranslateLanguage
+handleRemoveAlwaysTranslateLanguage
 (
 event
 )
@@ -2997,7 +2997,7 @@ ALWAYS_TRANSLATE_LANGS_PREF
 )
 ;
 }
-deleteNeverTranslateLanguage
+handleRemoveNeverTranslateLanguage
 (
 event
 )
@@ -3029,7 +3029,7 @@ NEVER_TRANSLATE_LANGS_PREF
 )
 ;
 }
-deleteNeverTranslateSite
+handleRemoveNeverTranslateSite
 (
 event
 )
@@ -3085,7 +3085,7 @@ reloadDownloadPhases
 )
 {
 const
-installList
+downloadList
 =
 document
 .
@@ -3113,12 +3113,12 @@ list
 ;
 while
 (
-installList
+downloadList
 .
 firstElementChild
 )
 {
-installList
+downloadList
 .
 firstElementChild
 .
@@ -3135,7 +3135,7 @@ buildDownloadLanguageList
 ;
 }
 async
-installLanguage
+handleDownloadLanguage
 (
 event
 )
@@ -3250,7 +3250,7 @@ updateDownloadPhase
 (
 langTag
 "
-uninstalled
+removed
 "
 )
 ;
@@ -3283,7 +3283,7 @@ translations
 -
 settings
 -
-delete
+remove
 -
 icon
 "
@@ -3300,7 +3300,7 @@ downloaded
 )
 ;
 const
-haveUninstalledItem
+haveRemovedItem
 =
 [
 .
@@ -3342,7 +3342,7 @@ all
 if
 (
 !
-haveUninstalledItem
+haveRemovedItem
 &
 &
 this
@@ -3404,7 +3404,7 @@ translations
 -
 settings
 -
-delete
+remove
 -
 icon
 "
@@ -3425,7 +3425,7 @@ downloaded
 }
 }
 async
-unInstallLanguage
+handleRemoveLanguage
 (
 event
 )
@@ -3447,7 +3447,7 @@ translations
 -
 settings
 -
-delete
+remove
 -
 icon
 "
@@ -3528,7 +3528,7 @@ translations
 -
 settings
 -
-delete
+remove
 -
 icon
 "
@@ -3540,7 +3540,7 @@ updateDownloadPhase
 (
 langTag
 "
-uninstalled
+removed
 "
 )
 ;
@@ -3585,7 +3585,7 @@ updateDownloadPhase
 (
 langTag
 "
-uninstalled
+removed
 "
 )
 ;
@@ -3641,7 +3641,7 @@ translations
 -
 settings
 -
-delete
+remove
 -
 icon
 "
@@ -3664,14 +3664,14 @@ updateDownloadPhase
 all
 "
 "
-uninstalled
+removed
 "
 )
 ;
 }
 }
 async
-handleInstallAll
+handleDownloadAllLanguages
 (
 event
 )
@@ -3766,7 +3766,7 @@ translations
 -
 settings
 -
-delete
+remove
 -
 icon
 "
@@ -3804,7 +3804,7 @@ error
 }
 }
 async
-handleUninstallAll
+handleRemoveAllLanguages
 (
 event
 )
@@ -3832,7 +3832,7 @@ translations
 -
 settings
 -
-delete
+remove
 -
 icon
 "
@@ -3901,7 +3901,7 @@ updateDownloadPhase
 all
 "
 "
-uninstalled
+removed
 "
 )
 ;
@@ -3910,7 +3910,7 @@ this
 updateAllLanguageDownloadButtons
 (
 "
-uninstalled
+removed
 "
 )
 ;
@@ -3941,7 +3941,7 @@ disableDownloadButtons
 )
 {
 const
-installList
+downloadList
 =
 document
 .
@@ -3972,7 +3972,7 @@ for
 const
 langElem
 of
-installList
+downloadList
 .
 querySelectorAll
 (
@@ -4029,7 +4029,7 @@ allLanguageDownloadStatus
 )
 {
 const
-installList
+downloadList
 =
 document
 .
@@ -4060,7 +4060,7 @@ for
 const
 langElem
 of
-installList
+downloadList
 .
 querySelectorAll
 (
@@ -4196,7 +4196,7 @@ translations
 -
 settings
 -
-delete
+remove
 -
 icon
 "
@@ -4237,7 +4237,7 @@ allLanguageDownloadStatus
 =
 =
 "
-uninstalled
+removed
 "
 )
 {
@@ -4251,7 +4251,7 @@ translations
 -
 settings
 -
-delete
+remove
 -
 icon
 "
@@ -4279,7 +4279,7 @@ value
 "
 )
 "
-uninstalled
+removed
 "
 )
 ;
