@@ -1046,7 +1046,6 @@ Navigator
 navigator
 ;
 [
-Replaceable
 Pref
 =
 "
