@@ -478,7 +478,14 @@ mLoader
 >
 GetFetchedModule
 (
+ModuleMapKey
+(
 mURI
+ModuleType
+:
+:
+JavaScript
+)
 )
 ;
 if
