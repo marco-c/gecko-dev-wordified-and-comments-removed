@@ -17572,6 +17572,9 @@ True
 timeout
 =
 timeout
+attempts
+=
+3
 )
             
 base
@@ -17983,6 +17986,9 @@ True
 timeout
 =
 timeout
+attempts
+=
+3
 )
             
 base
@@ -19164,6 +19170,9 @@ False
 timeout
 =
 None
+attempts
+=
+1
 )
 :
         
@@ -19509,6 +19518,19 @@ used
 .
         
 :
+param
+int
+attempts
+:
+The
+maximum
+number
+of
+shell
+retries
+.
+        
+:
 return
 :
 list
@@ -19691,7 +19713,7 @@ enable_run_as
             
 attempts
 =
-3
+attempts
         
 )
 .
