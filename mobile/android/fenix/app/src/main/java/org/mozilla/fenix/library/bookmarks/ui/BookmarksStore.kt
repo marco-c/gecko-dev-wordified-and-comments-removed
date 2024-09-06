@@ -97,7 +97,7 @@ lib
 .
 state
 .
-Store
+UiStore
 /
 *
 *
@@ -194,7 +194,7 @@ listOf
 )
 )
 :
-Store
+UiStore
 <
 BookmarksState
 BookmarksAction
