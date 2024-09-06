@@ -11748,7 +11748,7 @@ offer_data_description
 max_message_size
 (
 )
-=
+<
 =
 0
 )
