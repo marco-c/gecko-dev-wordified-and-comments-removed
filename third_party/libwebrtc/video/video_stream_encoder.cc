@@ -11613,7 +11613,7 @@ value_or
 ;
 frame_encode_metadata_writer_
 .
-FillTimingInfo
+FillMetadataAndTimingInfo
 (
 stream_idx
 &
