@@ -3673,6 +3673,9 @@ NewStreamType
 :
 :
 Http
+(
+_
+)
 )
 =
 >
@@ -4048,9 +4051,9 @@ Http3StreamType
 :
 Push
 stream_id
-header_frame_type_read
+first_frame_type
 :
-false
+None
 }
 Rc
 :

@@ -575,7 +575,7 @@ ident
 :
 t
 :
-ident
+ty
 (
 )
 ?
@@ -622,7 +622,9 @@ _
 >
 Some
 (
+<
 t
+>
 :
 :
 try_from

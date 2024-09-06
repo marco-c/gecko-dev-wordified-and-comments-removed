@@ -41,6 +41,15 @@ StreamId
 }
 ;
 use
+super
+:
+:
+hframe
+:
+:
+HFrameType
+;
+use
 crate
 :
 :
@@ -69,7 +78,7 @@ is_known_type
 (
 frame_type
 :
-u64
+HFrameType
 )
 -
 >
@@ -80,7 +89,7 @@ frame_type_allowed
 (
 _frame_type
 :
-u64
+HFrameType
 )
 -
 >
@@ -101,7 +110,7 @@ decode
 (
 frame_type
 :
-u64
+HFrameType
 frame_len
 :
 u64
@@ -454,7 +463,7 @@ state
 FrameReaderState
 frame_type
 :
-u64
+HFrameType
 frame_len
 :
 u64
@@ -516,7 +525,13 @@ default
 }
 frame_type
 :
-0
+HFrameType
+(
+u64
+:
+:
+MAX
+)
 frame_len
 :
 0
@@ -532,7 +547,7 @@ new_with_type
 (
 frame_type
 :
-u64
+HFrameType
 )
 -
 >
@@ -1021,7 +1036,10 @@ frame_type_decoded
 T
 >
 (
+HFrameType
+(
 v
+)
 )
 ?
 ;
@@ -1065,6 +1083,8 @@ receive
 frame
 type
 {
+:
+?
 }
 length
 {
@@ -1124,6 +1144,8 @@ qtrace
 received
 frame
 {
+:
+?
 }
 :
 {
@@ -1213,7 +1235,7 @@ mut
 self
 frame_type
 :
-u64
+HFrameType
 )
 -
 >
