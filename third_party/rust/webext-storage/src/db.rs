@@ -541,13 +541,6 @@ self
 interrupt_handle
 )
 }
-#
-[
-allow
-(
-dead_code
-)
-]
 pub
 fn
 begin_interrupt_scope
