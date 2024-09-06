@@ -17,6 +17,13 @@ utility
 #
 include
 "
+nsLiteralString
+.
+h
+"
+#
+include
+"
 mozilla
 /
 AlreadyAddRefed
@@ -364,6 +371,10 @@ std
 move
 (
 cspViolationData
+)
+NS_LITERAL_STRING_FROM_CSTRING
+(
+TRUSTED_TYPES_VIOLATION_OBSERVER_TOPIC
 )
 cspEventListener
 )

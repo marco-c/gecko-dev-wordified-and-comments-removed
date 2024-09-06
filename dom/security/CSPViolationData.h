@@ -80,6 +80,7 @@ Eval
 Self
 WasmEval
 TrustedTypesPolicy
+TrustedTypesSink
 }
 ;
 using
