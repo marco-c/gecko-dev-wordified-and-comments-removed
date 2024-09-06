@@ -1800,6 +1800,15 @@ GetIsUnderHiddenEmbedderElement
 if
 (
 !
+aNewContext
+-
+>
+EverAttached
+(
+)
+|
+|
+!
 StaticPrefs
 :
 :
