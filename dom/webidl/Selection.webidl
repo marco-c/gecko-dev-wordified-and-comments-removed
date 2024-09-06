@@ -200,15 +200,6 @@ attribute
 boolean
 areNormalAndCrossShadowBoundaryRangesCollapsed
 ;
-[
-ChromeOnly
-]
-readonly
-attribute
-Node
-?
-mayCrossShadowBoundaryFocusNode
-;
 /
 *
 *
