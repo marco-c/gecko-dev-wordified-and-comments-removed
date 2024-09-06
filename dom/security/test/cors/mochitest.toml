@@ -34,11 +34,6 @@ test_CrossSiteXHR
 html
 "
 ]
-scheme
-=
-"
-https
-"
 skip
 -
 if
