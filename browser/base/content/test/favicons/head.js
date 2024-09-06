@@ -205,6 +205,11 @@ canUseForTab
 data
 .
 canUseForTab
+isRichIcon
+:
+data
+.
+isRichIcon
 }
 )
 ;
@@ -224,6 +229,11 @@ canUseForTab
 data
 .
 canUseForTab
+isRichIcon
+:
+data
+.
+isRichIcon
 }
 )
 ;

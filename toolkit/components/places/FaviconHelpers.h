@@ -299,6 +299,10 @@ rootIcon
 (
 0
 )
+flags
+(
+0
+)
 {
 }
 nsCString
@@ -325,6 +329,9 @@ CopyableTArray
 IconPayload
 >
 payloads
+;
+uint16_t
+flags
 ;
 }
 ;

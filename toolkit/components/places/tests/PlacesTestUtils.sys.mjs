@@ -1122,6 +1122,9 @@ faviconDataURL
 expiration
 =
 0
+isRichIcon
+=
+false
 )
 {
 return
@@ -1237,6 +1240,7 @@ status
 ;
 }
 }
+isRichIcon
 )
 ;
 }

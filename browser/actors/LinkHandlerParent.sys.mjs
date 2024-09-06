@@ -502,6 +502,7 @@ expiration
 iconURL
 canStoreIcon
 beforePageShow
+isRichIcon
 }
 )
 {
@@ -655,6 +656,8 @@ toPRTime
 (
 expiration
 )
+null
+isRichIcon
 )
 ;
 }

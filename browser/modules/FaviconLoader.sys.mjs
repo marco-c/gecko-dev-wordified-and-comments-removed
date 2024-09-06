@@ -3157,6 +3157,11 @@ beforePageShow
 iconInfo
 .
 beforePageShow
+isRichIcon
+:
+iconInfo
+.
+isRichIcon
 }
 )
 ;
@@ -3275,6 +3280,11 @@ beforePageShow
 iconInfo
 .
 beforePageShow
+isRichIcon
+:
+iconInfo
+.
+isRichIcon
 }
 )
 ;
