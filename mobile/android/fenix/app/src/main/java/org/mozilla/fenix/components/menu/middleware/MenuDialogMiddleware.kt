@@ -746,6 +746,9 @@ Suppress
 "
 LongParameterList
 "
+"
+CyclomaticComplexMethod
+"
 )
 class
 MenuDialogMiddleware
@@ -1078,6 +1081,11 @@ requestSiteMode
 (
 tabId
 =
+currentState
+.
+customTabSessionId
+?
+:
 currentState
 .
 browserMenuState

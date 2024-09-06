@@ -484,6 +484,9 @@ accessPoint
 MenuAccessPoint
 .
 External
+customTabSessionId
+=
+sessionId
 )
 }
 shareListener

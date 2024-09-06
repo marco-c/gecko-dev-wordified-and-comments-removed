@@ -688,6 +688,12 @@ handleMenuButtonClicked
 accessPoint
 :
 MenuAccessPoint
+customTabSessionId
+:
+String
+?
+=
+null
 )
 }
 private
@@ -1646,6 +1652,10 @@ handleMenuButtonClicked
 accessPoint
 :
 MenuAccessPoint
+customTabSessionId
+:
+String
+?
 )
 {
 navController
@@ -1659,6 +1669,9 @@ actionGlobalMenuDialogFragment
 accesspoint
 =
 accessPoint
+customTabSessionId
+=
+customTabSessionId
 )
 )
 }
