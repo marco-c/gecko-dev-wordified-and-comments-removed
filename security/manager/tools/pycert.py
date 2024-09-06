@@ -5326,10 +5326,15 @@ SCT
 (
 key
 time
+pyct
+.
+PrecertEntry
+(
 tbsDER
 self
 .
 issuerKey
+)
 )
             
 signed
