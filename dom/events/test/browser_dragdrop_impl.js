@@ -441,10 +441,9 @@ linkedBrowser
 browsingContext
 ;
 }
-add_setup
-(
 async
 function
+setup
 (
 )
 {
@@ -580,8 +579,6 @@ openWindow
 )
 ;
 }
-)
-;
 add_task
 (
 async
