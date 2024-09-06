@@ -107,7 +107,7 @@ compose
 .
 runtime
 .
-mutableStateOf
+mutableIntStateOf
 import
 androidx
 .
@@ -546,7 +546,7 @@ state
 =
 remember
 {
-mutableStateOf
+mutableIntStateOf
 (
 sitePermissionOptionSelected
 .
@@ -582,7 +582,7 @@ onClick
 {
 state
 .
-value
+intValue
 =
 sitePermissionOption
 .

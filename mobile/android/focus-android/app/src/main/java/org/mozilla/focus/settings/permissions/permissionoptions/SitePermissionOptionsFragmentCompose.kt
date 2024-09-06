@@ -249,7 +249,7 @@ compose
 .
 runtime
 .
-mutableStateOf
+mutableIntStateOf
 import
 androidx
 .
@@ -579,7 +579,7 @@ state
 =
 remember
 {
-mutableStateOf
+mutableIntStateOf
 (
 AutoplayOption
 .
