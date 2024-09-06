@@ -8599,6 +8599,8 @@ bootstrap
 import
 bootstrap_toolchain
     
+clang_tidy
+=
 bootstrap_toolchain
 (
 "
@@ -8609,6 +8611,23 @@ tools
 clang
 -
 tidy
+"
+)
+    
+if
+not
+clang_tidy
+:
+        
+raise
+Exception
+(
+"
+clang
+-
+tidy
+not
+found
 "
 )
     
