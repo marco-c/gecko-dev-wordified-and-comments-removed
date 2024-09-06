@@ -1902,7 +1902,7 @@ mozilla
 Omnijar
 :
 :
-Init
+FallibleInit
 (
 )
 ;
