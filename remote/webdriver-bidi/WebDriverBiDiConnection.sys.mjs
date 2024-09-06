@@ -1797,7 +1797,7 @@ subscribe
 *
 returns
 {
-Object
+Record
 <
 string
 string

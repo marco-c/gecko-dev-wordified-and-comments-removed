@@ -906,7 +906,7 @@ name
 *
 param
 {
-Object
+Record
 <
 string
 ?

@@ -195,7 +195,7 @@ true
 *
 returns
 {
-Object
+Record
 <
 string
 string
@@ -263,7 +263,7 @@ type
 *
 param
 {
-Object
+Record
 <
 string
 string

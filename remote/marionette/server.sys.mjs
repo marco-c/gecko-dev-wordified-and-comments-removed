@@ -2838,7 +2838,7 @@ client
 *
 param
 {
-Object
+Record
 <
 string
 ?
