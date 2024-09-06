@@ -2742,13 +2742,6 @@ wantUntrusted
 :
 true
 }
-AboutLoginsSyncOptions
-:
-{
-wantUntrusted
-:
-true
-}
 AboutLoginsUpdateLogin
 :
 {
