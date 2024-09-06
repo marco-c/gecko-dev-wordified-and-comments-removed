@@ -8400,9 +8400,6 @@ return
 false
 ;
 }
-#
-ifdef
-ENABLE_JSON_PARSE_WITH_SOURCE
 RootedObject
 context
 (
@@ -8622,8 +8619,6 @@ false
 }
 }
 }
-#
-endif
 if
 (
 val
@@ -8754,9 +8749,6 @@ elementRecord
 cx
 )
 ;
-#
-ifdef
-ENABLE_JSON_PARSE_WITH_SOURCE
 if
 (
 entries
@@ -8793,8 +8785,6 @@ value
 ;
 }
 }
-#
-endif
 if
 (
 !
@@ -8994,9 +8984,6 @@ entryRecord
 cx
 )
 ;
-#
-ifdef
-ENABLE_JSON_PARSE_WITH_SOURCE
 if
 (
 entries
@@ -9033,8 +9020,6 @@ value
 ;
 }
 }
-#
-endif
 if
 (
 !
@@ -9177,9 +9162,6 @@ key
 )
 )
 ;
-#
-ifdef
-ENABLE_JSON_PARSE_WITH_SOURCE
 if
 (
 JS
@@ -9220,8 +9202,6 @@ vp
 )
 ;
 }
-#
-endif
 return
 js
 :
@@ -9302,9 +9282,6 @@ return
 false
 ;
 }
-#
-ifdef
-ENABLE_JSON_PARSE_WITH_SOURCE
 MOZ_ASSERT_IF
 (
 JS
@@ -9332,8 +9309,6 @@ get
 )
 )
 ;
-#
-endif
 Rooted
 <
 jsid
@@ -9483,9 +9458,6 @@ pro
 cx
 )
 ;
-#
-ifdef
-ENABLE_JSON_PARSE_WITH_SOURCE
 if
 (
 JS
@@ -9542,8 +9514,6 @@ false
 }
 }
 else
-#
-endif
 if
 (
 !
@@ -10573,9 +10543,6 @@ rval
 }
 #
 endif
-#
-ifdef
-ENABLE_JSON_PARSE_WITH_SOURCE
 static
 bool
 json_isRawJSON
@@ -11113,8 +11080,6 @@ return
 true
 ;
 }
-#
-endif
 bool
 json_stringify
 (
@@ -11357,9 +11322,6 @@ json_parseImmutable
 )
 #
 endif
-#
-ifdef
-ENABLE_JSON_PARSE_WITH_SOURCE
 JS_FN
 (
 "
@@ -11378,8 +11340,6 @@ json_rawJSON
 1
 0
 )
-#
-endif
 JS_FS_END
 }
 ;

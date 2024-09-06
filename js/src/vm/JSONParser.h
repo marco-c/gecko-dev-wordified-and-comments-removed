@@ -1502,9 +1502,6 @@ column
 ;
 }
 ;
-#
-ifdef
-ENABLE_JSON_PARSE_WITH_SOURCE
 template
 <
 typename
@@ -2130,8 +2127,6 @@ parseRecord
 ;
 }
 ;
-#
-endif
 template
 <
 typename
@@ -3069,9 +3064,6 @@ trc
 ;
 }
 ;
-#
-ifdef
-ENABLE_JSON_PARSE_WITH_SOURCE
 template
 <
 typename
@@ -3212,8 +3204,6 @@ trc
 ;
 }
 ;
-#
-endif
 template
 <
 typename

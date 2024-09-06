@@ -12627,9 +12627,6 @@ true
 }
 #
 endif
-#
-ifdef
-ENABLE_JSON_PARSE_WITH_SOURCE
 if
 (
 key
@@ -12688,8 +12685,6 @@ return
 true
 ;
 }
-#
-endif
 if
 (
 key
