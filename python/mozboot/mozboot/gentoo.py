@@ -113,6 +113,10 @@ watchman
 "
 ]
         
+if
+packages
+:
+            
 self
 .
 run_as_root
