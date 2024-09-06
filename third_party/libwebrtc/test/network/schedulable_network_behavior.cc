@@ -12,6 +12,11 @@ h
 #
 include
 <
+cstdint
+>
+#
+include
+<
 utility
 >
 #
@@ -377,6 +382,8 @@ network_behaviour
 :
 NetworkConfigSchedule
 schedule
+uint64_t
+random_seed
 webrtc
 :
 :
@@ -405,6 +412,7 @@ GetInitialConfig
 (
 schedule
 )
+random_seed
 )
 schedule_
 (

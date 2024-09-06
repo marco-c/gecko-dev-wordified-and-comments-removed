@@ -153,6 +153,12 @@ testing
 :
 SizeIs
 ;
+constexpr
+uint64_t
+kRandomSeed
+=
+1
+;
 class
 SchedulableNetworkBehaviorTestFixture
 {
@@ -342,6 +348,7 @@ SchedulableNetworkBehavior
 network_behaviour
 (
 schedule
+kRandomSeed
 fixture
 .
 clock
@@ -473,6 +480,7 @@ SchedulableNetworkBehavior
 network_behaviour
 (
 schedule
+kRandomSeed
 fixture
 .
 clock
@@ -703,6 +711,7 @@ SchedulableNetworkBehavior
 network_behaviour
 (
 schedule
+kRandomSeed
 fixture
 .
 clock
@@ -1083,6 +1092,7 @@ SchedulableNetworkBehavior
 network_behaviour
 (
 schedule
+kRandomSeed
 fixture
 .
 clock
@@ -1282,6 +1292,7 @@ SchedulableNetworkBehavior
 network_behaviour
 (
 schedule
+kRandomSeed
 fixture
 .
 clock
@@ -1555,6 +1566,7 @@ SchedulableNetworkBehavior
 network_behaviour
 (
 schedule
+kRandomSeed
 fixture
 .
 clock
