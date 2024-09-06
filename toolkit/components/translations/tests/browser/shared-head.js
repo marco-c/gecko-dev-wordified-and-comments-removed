@@ -514,15 +514,6 @@ language
 -
 to
 "
-languageSwapButton
-:
-"
-button
-#
-language
--
-swap
-"
 translationTextarea
 :
 "
