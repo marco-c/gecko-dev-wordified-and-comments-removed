@@ -78,9 +78,6 @@ error
 }
 process
 (
-inputs
-outputs
-parameters
 )
 {
 return

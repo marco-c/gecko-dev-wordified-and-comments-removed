@@ -36,9 +36,6 @@ processorOptions
 }
 process
 (
-inputs
-outputs
-parameters
 )
 {
 return

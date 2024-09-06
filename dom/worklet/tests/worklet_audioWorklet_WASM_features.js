@@ -33,9 +33,6 @@ testModules
 }
 process
 (
-inputs
-outputs
-parameters
 )
 {
 return
@@ -51,9 +48,6 @@ binary
 {
 try
 {
-let
-wasmModule
-=
 new
 WebAssembly
 .

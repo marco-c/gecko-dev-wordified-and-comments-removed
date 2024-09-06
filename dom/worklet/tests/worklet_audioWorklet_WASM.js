@@ -45,9 +45,6 @@ data
 }
 process
 (
-inputs
-outputs
-parameters
 )
 {
 return
