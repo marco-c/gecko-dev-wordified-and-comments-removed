@@ -707,9 +707,6 @@ iframe_click_hit_opt_in
 iframe_click_hit_opt_out
 -
 iframe_click_miss
-telemetry_mirror
-:
-COOKIE_BANNERS_RULE_LOOKUP_BY_LOAD
 rule_lookup_by_domain
 :
 type
@@ -1025,9 +1022,6 @@ iframe_click_hit_opt_in
 iframe_click_hit_opt_out
 -
 iframe_click_miss
-telemetry_mirror
-:
-COOKIE_BANNERS_RULE_LOOKUP_BY_DOMAIN
 reload
 :
 type
@@ -2165,9 +2159,6 @@ fail_button_not_found
 fail_no_rule_for_mode
 -
 fail_actor_destroyed
-telemetry_mirror
-:
-COOKIE_BANNERS_CLICK_RESULT
 query_selector_run_count_per_window_top_level
 :
 type
