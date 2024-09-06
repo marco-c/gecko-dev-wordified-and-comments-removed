@@ -27,7 +27,6 @@ shared_lock
 :
 :
 {
-DeepCloneParams
 DeepCloneWithLock
 SharedRwLock
 SharedRwLockReadGuard
@@ -434,10 +433,6 @@ _guard
 :
 &
 SharedRwLockReadGuard
-params
-:
-&
-DeepCloneParams
 )
 -
 >
@@ -498,9 +493,6 @@ as
 *
 const
 _
-params
-.
-reference_sheet
 )
 }
 ;
@@ -702,10 +694,6 @@ _guard
 :
 &
 SharedRwLockReadGuard
-_params
-:
-&
-DeepCloneParams
 )
 -
 >
@@ -1206,10 +1194,6 @@ guard
 :
 &
 SharedRwLockReadGuard
-params
-:
-&
-DeepCloneParams
 )
 -
 >
@@ -1236,7 +1220,6 @@ deep_clone_with_lock
 (
 lock
 guard
-params
 )
 supports
 :

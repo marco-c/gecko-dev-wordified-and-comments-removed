@@ -2440,13 +2440,6 @@ mozilla
 StyleSheet
 *
 aSheet
-const
-mozilla
-:
-:
-StyleSheet
-*
-aNewParentSheet
 )
 ;
 void
