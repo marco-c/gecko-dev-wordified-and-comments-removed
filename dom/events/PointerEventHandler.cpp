@@ -3848,14 +3848,6 @@ aMouseOrTouchEvent
 }
 }
 }
-nsUserCharacteristics
-:
-:
-StealPointerEvent
-(
-aMouseOrTouchEvent
-)
-;
 }
 void
 PointerEventHandler
