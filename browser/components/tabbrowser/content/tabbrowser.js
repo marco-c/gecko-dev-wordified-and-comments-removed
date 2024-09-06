@@ -20654,6 +20654,13 @@ return
 ;
 }
 let
+oldPosition
+=
+aTab
+.
+_tPos
+;
+let
 wasFocused
 =
 document
@@ -20677,8 +20684,7 @@ this
 _updateAfterMoveTabTo
 (
 aTab
--
-1
+oldPosition
 wasFocused
 )
 ;
