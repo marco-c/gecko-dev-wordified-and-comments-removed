@@ -2238,6 +2238,26 @@ _poll_iocompletion_port
 )
                 
 except
+Exception
+:
+                    
+traceback
+.
+print_exc
+(
+)
+                    
+self
+.
+_process_events
+.
+put
+(
+{
+}
+)
+                
+except
 KeyboardInterrupt
 :
                     
@@ -3008,40 +3028,10 @@ self
 .
 returncode
                 
-threadalive
-=
-False
-                
 if
-hasattr
-(
-self
-"
-_procmgrthread
-"
-)
-:
-                    
-threadalive
-=
-self
-.
-_procmgrthread
-.
-is_alive
-(
-)
-                
-if
-(
-                    
 self
 .
 _job
-                    
-and
-threadalive
-                    
 and
 threading
 .
@@ -3053,8 +3043,6 @@ current_thread
 self
 .
 _procmgrthread
-                
-)
 :
                     
 self
