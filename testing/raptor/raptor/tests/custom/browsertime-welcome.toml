@@ -70,6 +70,13 @@ ms
 use_live_sites
 =
 false
+support_class
+=
+"
+browsertime_pageload
+.
+py
+"
 #
 raptor
 -

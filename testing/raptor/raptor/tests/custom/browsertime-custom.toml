@@ -73,6 +73,13 @@ ms
 use_live_sites
 =
 true
+support_class
+=
+"
+browsertime_pageload
+.
+py
+"
 #
 Use
 this

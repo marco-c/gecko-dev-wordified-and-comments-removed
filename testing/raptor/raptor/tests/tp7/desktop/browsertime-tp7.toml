@@ -92,6 +92,13 @@ false
 benchmark_page
 =
 false
+support_class
+=
+"
+browsertime_pageload
+.
+py
+"
 #
 Keep
 this

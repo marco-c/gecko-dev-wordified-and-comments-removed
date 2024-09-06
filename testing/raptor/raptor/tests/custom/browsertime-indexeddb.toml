@@ -782,6 +782,13 @@ js
 getkeyrng
 "
 ]
+support_class
+=
+"
+browsertime_pageload
+.
+py
+"
 test_script
 =
 "
