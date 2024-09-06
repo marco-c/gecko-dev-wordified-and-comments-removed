@@ -457,17 +457,6 @@ test
 :
 test_support
 "
-"
-.
-.
-/
-.
-.
-/
-test
-:
-video_test_support
-"
 ]
 sources
 +

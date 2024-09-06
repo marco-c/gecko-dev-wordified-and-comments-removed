@@ -377,7 +377,7 @@ fileutils
 /
 test
 :
-video_test_support
+video_frame_writer
 "
 "
 .
