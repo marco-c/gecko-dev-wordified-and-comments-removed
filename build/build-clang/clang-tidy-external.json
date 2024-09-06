@@ -1,0 +1,7 @@
+{
+"
+build_clang_tidy_external
+"
+:
+true
+}
