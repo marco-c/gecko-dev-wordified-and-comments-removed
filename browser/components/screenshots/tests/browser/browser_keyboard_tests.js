@@ -1604,6 +1604,8 @@ window
 mozInnerScreenX
 +
 sidebarWidth
++
+1
 )
 *
 window
@@ -2219,6 +2221,8 @@ window
 mozInnerScreenX
 +
 sidebarWidth
++
+1
 )
 *
 window
