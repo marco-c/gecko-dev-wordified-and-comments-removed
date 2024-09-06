@@ -225,14 +225,6 @@ PrincipalInfo
 namespace
 dom
 {
-extern
-uint32_t
-gServiceWorkersRegistered
-;
-extern
-uint32_t
-gServiceWorkersRegisteredFetch
-;
 class
 ContentParent
 ;
