@@ -835,11 +835,22 @@ tests
 excludes
 =
 {
+                
+os
+.
+path
+.
+join
+(
+full
 d
+)
+                
 for
 d
 in
 dirs
+                
 if
 set
 (
@@ -852,6 +863,7 @@ parts
 )
 &
 test_dirs
+            
 }
             
 args
