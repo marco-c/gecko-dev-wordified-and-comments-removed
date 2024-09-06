@@ -419,7 +419,9 @@ Ci
 nsIBrowserHandler
 )
 .
-defaultArgs
+getFirstWindowArgs
+(
+)
 ;
 }
 function

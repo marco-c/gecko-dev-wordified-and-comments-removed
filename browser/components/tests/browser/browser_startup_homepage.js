@@ -115,11 +115,8 @@ Ci
 nsIBrowserHandler
 )
 .
-wrappedJSObject
-.
-getArgs
+getFirstWindowArgs
 (
-true
 )
 expect
 message

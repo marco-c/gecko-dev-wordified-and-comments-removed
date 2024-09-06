@@ -869,7 +869,9 @@ Ci
 nsIBrowserHandler
 )
 .
-defaultArgs
+getFirstWindowArgs
+(
+)
 ;
 is
 (

@@ -373,6 +373,7 @@ from
 .
 *
 /
+async
 handleUpdateSuccess
 (
 aPreviousVersion
@@ -541,9 +542,12 @@ update
 =
 updateManager
 ?
+await
 updateManager
 .
 updateInstalledAtStartup
+(
+)
 :
 null
 ;
