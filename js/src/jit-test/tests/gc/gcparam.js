@@ -285,13 +285,6 @@ minEmptyChunkCount
 testChangeParam
 (
 "
-maxEmptyChunkCount
-"
-)
-;
-testChangeParam
-(
-"
 compactingEnabled
 "
 )

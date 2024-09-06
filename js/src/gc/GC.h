@@ -330,15 +330,6 @@ true
 _
 (
 "
-maxEmptyChunkCount
-"
-JSGC_MAX_EMPTY_CHUNK_COUNT
-true
-)
-\
-_
-(
-"
 compactingEnabled
 "
 JSGC_COMPACTING_ENABLED
