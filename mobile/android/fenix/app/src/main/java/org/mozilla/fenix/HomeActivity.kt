@@ -4846,6 +4846,9 @@ toTypedArray
 Suppress
 (
 "
+MissingSuperCall
+"
+"
 OVERRIDE_DEPRECATION
 "
 )

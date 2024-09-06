@@ -816,6 +816,9 @@ then
 Suppress
 (
 "
+MissingSuperCall
+"
+"
 OVERRIDE_DEPRECATION
 "
 )

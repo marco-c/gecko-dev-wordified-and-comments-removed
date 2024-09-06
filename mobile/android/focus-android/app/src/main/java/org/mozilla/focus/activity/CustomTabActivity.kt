@@ -524,6 +524,9 @@ customTabId
 Suppress
 (
 "
+MissingSuperCall
+"
+"
 OVERRIDE_DEPRECATION
 "
 )
