@@ -1868,6 +1868,16 @@ days
 =
 1
 )
+expires_a_day_from_now_timestamp
+=
+int
+(
+expires_a_day_from_now
+.
+timestamp
+(
+)
+)
 SET_COOKIE_TEST_PARAMETERS
 =
 [
@@ -2552,14 +2562,7 @@ None
 expiry
 "
 :
-int
-(
-expires_a_day_from_now
-.
-timestamp
-(
-)
-)
+expires_a_day_from_now_timestamp
             
 "
 httpOnly
