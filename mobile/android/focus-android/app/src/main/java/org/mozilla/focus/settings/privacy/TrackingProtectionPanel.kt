@@ -872,10 +872,15 @@ trackersCount
 .
 text
 =
-blockedTrackersCount
+String
 .
-toString
+format
 (
+"
+%
+d
+"
+blockedTrackersCount
 )
 binding
 .

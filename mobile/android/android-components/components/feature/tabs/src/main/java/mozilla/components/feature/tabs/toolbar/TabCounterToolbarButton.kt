@@ -81,12 +81,6 @@ ViewGroup
 import
 androidx
 .
-annotation
-.
-VisibleForTesting
-import
-androidx
-.
 lifecycle
 .
 LifecycleOwner
@@ -607,14 +601,6 @@ tab
 count
 *
 /
-VisibleForTesting
-(
-otherwise
-=
-VisibleForTesting
-.
-PRIVATE
-)
 fun
 updateCount
 (
