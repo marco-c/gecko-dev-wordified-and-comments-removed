@@ -2956,7 +2956,6 @@ of
 created
 context
 *
-*
 /
 _onContextCreated
 (

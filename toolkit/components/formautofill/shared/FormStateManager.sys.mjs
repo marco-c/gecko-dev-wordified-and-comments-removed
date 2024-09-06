@@ -220,7 +220,6 @@ cache
 )
 .
 *
-*
 /
 getFormHandler
 (

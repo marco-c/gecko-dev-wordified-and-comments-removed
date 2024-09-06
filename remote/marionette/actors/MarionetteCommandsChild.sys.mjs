@@ -1499,7 +1499,6 @@ opts
 .
 startNode
 *
-*
 /
 async
 findElement
@@ -1615,7 +1614,6 @@ options
 opts
 .
 startNode
-*
 *
 /
 async

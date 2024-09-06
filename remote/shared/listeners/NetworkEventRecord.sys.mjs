@@ -918,7 +918,6 @@ owner
 .
 *
 *
-*
 param
 {
 object

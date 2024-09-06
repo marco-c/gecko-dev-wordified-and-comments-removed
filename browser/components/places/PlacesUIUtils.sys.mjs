@@ -3854,7 +3854,6 @@ false
 otherwise
 .
 *
-*
 /
 checkURLSecurity
 :

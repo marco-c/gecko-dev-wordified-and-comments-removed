@@ -6076,7 +6076,6 @@ this
 search
 .
 *
-*
 /
 handoff
 (

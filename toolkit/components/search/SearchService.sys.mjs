@@ -2585,7 +2585,6 @@ has
 failed
 .
 *
-*
 /
 async
 init
@@ -19904,7 +19903,6 @@ service
 init
 .
 *
-*
 /
 #
 maybeThrowErrorInTest
@@ -21728,7 +21726,6 @@ new
 default
 engine
 .
-*
 *
 /
 _showRemovalOfSearchEngineNotificationBox
