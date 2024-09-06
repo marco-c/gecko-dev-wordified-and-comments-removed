@@ -258,15 +258,6 @@ H264
 FindNaluIndices
 (
 payload
-.
-data
-(
-)
-payload
-.
-size
-(
-)
 )
 )
 {

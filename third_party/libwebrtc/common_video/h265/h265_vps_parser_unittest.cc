@@ -149,10 +149,6 @@ H265VpsParser
 ParseVps
 (
 buffer
-arraysize
-(
-buffer
-)
 )
 )
 )

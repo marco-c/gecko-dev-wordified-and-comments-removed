@@ -1307,8 +1307,14 @@ H264
 :
 FindNaluIndices
 (
+rtc
+:
+:
+MakeArrayView
+(
 annexb_buffer
 length
+)
 )
 ;
 offset_
