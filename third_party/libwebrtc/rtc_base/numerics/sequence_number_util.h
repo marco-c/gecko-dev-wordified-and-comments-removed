@@ -7,13 +7,6 @@ RTC_BASE_NUMERICS_SEQUENCE_NUMBER_UTIL_H_
 #
 include
 <
-stdint
-.
-h
->
-#
-include
-<
 limits
 >
 #

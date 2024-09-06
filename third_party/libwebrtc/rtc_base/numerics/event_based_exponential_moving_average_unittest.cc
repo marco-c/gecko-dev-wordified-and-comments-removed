@@ -16,6 +16,16 @@ cmath
 >
 #
 include
+<
+cstdint
+>
+#
+include
+<
+limits
+>
+#
+include
 "
 test
 /

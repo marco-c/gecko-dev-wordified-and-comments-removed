@@ -7,6 +7,11 @@ RTC_BASE_NUMERICS_SAFE_MINMAX_H_
 #
 include
 <
+cstdint
+>
+#
+include
+<
 limits
 >
 #
