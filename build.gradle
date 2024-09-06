@@ -193,7 +193,7 @@ FenixDependencies
 .
 osslicenses_plugin
 classpath
-FenixDependencies
+ComponentsDependencies
 .
 tools_benchmarkgradle
 classpath
@@ -969,7 +969,7 @@ javac
 .
 10
 .
-0
+3
 "
 def
 semanticdbKotlincVersion
