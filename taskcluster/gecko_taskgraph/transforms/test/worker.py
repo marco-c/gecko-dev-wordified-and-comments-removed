@@ -2238,7 +2238,9 @@ if
 "
 browsertime
 -
-upload
+network
+-
+bench
 "
 in
 task

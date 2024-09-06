@@ -719,6 +719,12 @@ video
 playback
 -
 latency
+-
+browsertime
+-
+network
+-
+bench
 browsertime
 -
 clang
