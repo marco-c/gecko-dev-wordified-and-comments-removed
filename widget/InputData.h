@@ -795,6 +795,9 @@ mPreventClickEvent
 bool
 mIgnoreCapturingContent
 ;
+bool
+mSynthesizeMoveAfterDispatch
+;
 }
 ;
 class
