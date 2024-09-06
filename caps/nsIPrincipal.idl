@@ -563,14 +563,6 @@ nsIURI
 otherURI
 )
 ;
-boolean
-allowsRelaxStrictFileOriginPolicy
-(
-in
-nsIURI
-aURI
-)
-;
 [
 noscript
 ]
