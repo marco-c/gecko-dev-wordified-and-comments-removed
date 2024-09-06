@@ -341,6 +341,11 @@ aURI
 JS
 :
 :
+ModuleType
+aModuleType
+JS
+:
+:
 loader
 :
 :
@@ -368,6 +373,11 @@ aCx
 nsIURI
 *
 aURI
+JS
+:
+:
+ModuleType
+aModuleType
 LoadedScript
 *
 aMaybeActiveScript

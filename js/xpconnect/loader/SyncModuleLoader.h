@@ -206,6 +206,11 @@ CreateStaticImport
 nsIURI
 *
 aURI
+JS
+:
+:
+ModuleType
+aModuleType
 ModuleLoadRequest
 *
 aParent
@@ -224,6 +229,11 @@ aCx
 nsIURI
 *
 aURI
+JS
+:
+:
+ModuleType
+aModuleType
 LoadedScript
 *
 aMaybeActiveScript
