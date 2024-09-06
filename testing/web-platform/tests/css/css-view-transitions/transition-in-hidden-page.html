@@ -235,13 +235,6 @@ startViewTransition
 )
 ;
 await
-wsc
-.
-restore
-(
-)
-;
-await
 promise_rejects_dom
 (
 t
@@ -251,6 +244,13 @@ InvalidStateError
 transition
 .
 ready
+)
+;
+await
+wsc
+.
+restore
+(
 )
 ;
 }
