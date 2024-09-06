@@ -4249,7 +4249,6 @@ onNewIntent
 intent
 :
 Intent
-?
 )
 {
 super
@@ -4258,16 +4257,10 @@ onNewIntent
 (
 intent
 )
-intent
-?
-.
-let
-{
 handleNewIntent
 (
-it
+intent
 )
-}
 startupPathProvider
 .
 onIntentReceived
