@@ -991,7 +991,7 @@ color
 =
 colors
 .
-confirmButton
+cancelText
 letterSpacing
 =
 0
