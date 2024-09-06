@@ -25,6 +25,10 @@ debug
 )
 )
 {
+finishBackgroundFree
+(
+)
+;
 var
 repr
 =
