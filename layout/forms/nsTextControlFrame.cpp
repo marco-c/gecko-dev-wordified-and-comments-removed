@@ -1286,6 +1286,9 @@ IntrinsicSizeInput
 input
 (
 aRenderingContext
+Nothing
+(
+)
 )
 ;
 intrinsicSize
