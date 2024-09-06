@@ -539,11 +539,6 @@ TaskbarWindowPreview
 cpp
 "
 "
-WidgetTraceEvent
-.
-cpp
-"
-"
 WinCompositorWindowThread
 .
 cpp

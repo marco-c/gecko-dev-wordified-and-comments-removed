@@ -172,15 +172,5 @@ attribute
 boolean
 hasHiddenWindow
 ;
-boolean
-startEventLoopLagTracking
-(
-)
-;
-void
-stopEventLoopLagTracking
-(
-)
-;
 }
 ;

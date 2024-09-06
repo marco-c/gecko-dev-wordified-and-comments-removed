@@ -834,10 +834,6 @@ mainthread
 =
 False
     
-responsiveness
-=
-False
-    
 unit
 =
 "
@@ -1735,10 +1731,6 @@ xperf_counters
         
 "
 timeout
-"
-        
-"
-responsiveness
 "
         
 "
@@ -6381,10 +6373,6 @@ mac_counters
 =
 [
 ]
-    
-responsiveness
-=
-True
     
 gecko_profile_interval
 =

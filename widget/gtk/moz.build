@@ -487,11 +487,6 @@ WidgetStyleCache
 cpp
 "
 "
-WidgetTraceEvent
-.
-cpp
-"
-"
 WidgetUtilsGtk
 .
 cpp

@@ -10,11 +10,5 @@ kEventSubtypeNone
 =
 0
 ;
-const
-short
-kEventSubtypeTrace
-=
-1
-;
 #
 endif

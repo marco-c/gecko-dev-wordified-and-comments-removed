@@ -167,10 +167,6 @@ shutdown
 "
         
 "
-responsiveness
-"
-        
-"
 profile_path
 "
         
@@ -8196,16 +8192,6 @@ assert
 test_config
 [
 "
-responsiveness
-"
-]
-is
-True
-        
-assert
-test_config
-[
-"
 gecko_profile_interval
 "
 ]
@@ -8446,16 +8432,6 @@ mac_counters
 =
 [
 ]
-        
-assert
-test_config
-[
-"
-responsiveness
-"
-]
-is
-True
         
 assert
 test_config

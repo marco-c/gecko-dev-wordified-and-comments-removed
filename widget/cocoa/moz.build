@@ -343,11 +343,6 @@ ViewRegion
 .
 mm
 "
-"
-WidgetTraceEvent
-.
-mm
-"
 ]
 SOURCES
 +
