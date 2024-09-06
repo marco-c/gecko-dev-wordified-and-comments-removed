@@ -1126,16 +1126,6 @@ state
 thread
 )
 ;
-if
-(
-!
-selectedFrameId
-)
-{
-return
-true
-;
-}
 const
 topFrame
 =
