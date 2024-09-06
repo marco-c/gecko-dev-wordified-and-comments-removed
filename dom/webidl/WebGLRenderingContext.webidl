@@ -3006,9 +3006,7 @@ Pref
 "
 webgl
 .
-colorspaces
-.
-prototype
+drawing_buffer_color_space
 "
 ]
 attribute
