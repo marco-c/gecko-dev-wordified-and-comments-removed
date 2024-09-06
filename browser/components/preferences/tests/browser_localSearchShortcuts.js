@@ -1684,7 +1684,7 @@ pref
 "
 shortcuts
 .
-quickactions
+actions
 "
 )
 {

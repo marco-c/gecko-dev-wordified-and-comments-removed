@@ -4601,6 +4601,16 @@ urlbar
 -
 searchmode
 -
+actions
+=
+.
+label
+=
+Actions
+urlbar
+-
+searchmode
+-
 popup
 -
 description

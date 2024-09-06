@@ -187,6 +187,13 @@ sys
 mjs
 "
 "
+UrlbarProviderActionsSearchMode
+.
+sys
+.
+mjs
+"
+"
 UrlbarProviderAliasEngines
 .
 sys
