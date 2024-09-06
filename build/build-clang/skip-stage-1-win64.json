@@ -22,8 +22,6 @@ bin
 clang
 -
 cl
-.
-exe
 "
 "
 cxx
@@ -41,8 +39,6 @@ bin
 clang
 -
 cl
-.
-exe
 "
 "
 ml
@@ -60,8 +56,6 @@ bin
 clang
 -
 cl
-.
-exe
 "
 "
 lib
@@ -79,7 +73,5 @@ bin
 llvm
 -
 lib
-.
-exe
 "
 }

@@ -2586,16 +2586,31 @@ f
 )
 :
             
-if
-not
+path
+f
+=
 os
 .
 path
 .
-exists
+split
 (
 f
 )
+            
+f
+=
+which
+(
+f
+path
+=
+path
+)
+            
+if
+not
+f
 :
                 
 raise
