@@ -9,6 +9,14 @@ mozperftest
 .
 test
 .
+alert
+import
+AlertTestRunner
+from
+mozperftest
+.
+test
+.
 androidlog
 import
 AndroidLog
@@ -72,6 +80,8 @@ WebPageTest
 Mochitest
         
 ShellScriptRunner
+        
+AlertTestRunner
     
 )
 def
@@ -201,6 +211,25 @@ env
 mach_cmd
 (
 ShellScriptRunner
+)
+)
+    
+if
+flavor
+=
+=
+"
+alert
+"
+:
+        
+return
+Layers
+(
+env
+mach_cmd
+(
+AlertTestRunner
 )
 )
     
