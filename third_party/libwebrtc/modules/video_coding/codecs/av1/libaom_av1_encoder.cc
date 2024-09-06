@@ -417,6 +417,12 @@ kQpMin
 ;
 constexpr
 int
+kAv1ScreenshareMinimumQindex
+=
+40
+;
+constexpr
+int
 kUsageProfile
 =
 AOM_USAGE_REALTIME
@@ -5150,6 +5156,12 @@ resolution_bitrate_limits
 )
 ;
 }
+info
+.
+minimum_qp
+=
+kAv1ScreenshareMinimumQindex
+;
 return
 info
 ;

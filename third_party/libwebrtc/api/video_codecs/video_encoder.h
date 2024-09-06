@@ -647,6 +647,15 @@ bool
 >
 is_qp_trusted
 ;
+absl
+:
+:
+optional
+<
+int
+>
+minimum_qp
+;
 }
 ;
 struct
