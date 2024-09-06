@@ -2583,16 +2583,7 @@ JS
 Value
 >
 method
-JS
-:
-:
-Handle
-<
-JS
-:
-:
-Value
->
+bool
 needsClosure
 UsingHint
 hint

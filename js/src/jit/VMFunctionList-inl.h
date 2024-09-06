@@ -258,10 +258,10 @@ _
 \
 IF_EXPLICIT_RESOURCE_MANAGEMENT
 (
-\
 _
 (
-AddDisposableResource
+AddDisposableResourceToCapability
+\
 js
 :
 :
