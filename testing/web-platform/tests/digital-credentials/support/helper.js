@@ -9,6 +9,11 @@ providersToUse
 default
 "
 ]
+mediation
+=
+"
+required
+"
 )
 {
 if
@@ -80,6 +85,7 @@ providers
 :
 providersToUse
 }
+mediation
 }
 ;
 }
@@ -151,8 +157,6 @@ provider
 }
 )
 ;
-break
-;
 }
 }
 return
@@ -162,6 +166,7 @@ digital
 {
 providers
 }
+mediation
 }
 ;
 }
