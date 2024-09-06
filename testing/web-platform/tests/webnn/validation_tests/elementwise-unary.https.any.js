@@ -38,6 +38,9 @@ neg
 reciprocal
 '
 '
+sign
+'
+'
 sin
 '
 '
