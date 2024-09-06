@@ -3383,7 +3383,7 @@ struct
 uint32_t
 instanceDataOffset_
 ;
-uint32_t
+uint64_t
 minLength_
 ;
 mozilla
@@ -3391,7 +3391,7 @@ mozilla
 :
 Maybe
 <
-uint32_t
+uint64_t
 >
 maxLength_
 ;

@@ -515,7 +515,7 @@ t
 size_t
 desired
 =
-MaxMemoryLimitField
+MaxMemoryPagesValidation
 (
 t
 )
