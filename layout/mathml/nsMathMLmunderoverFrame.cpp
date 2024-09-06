@@ -947,7 +947,7 @@ if
 (
 value
 .
-EqualsLiteral
+LowerCaseEqualsLiteral
 (
 "
 true
@@ -968,7 +968,7 @@ if
 (
 value
 .
-EqualsLiteral
+LowerCaseEqualsLiteral
 (
 "
 false
@@ -1064,7 +1064,7 @@ if
 (
 value
 .
-EqualsLiteral
+LowerCaseEqualsLiteral
 (
 "
 true
@@ -1085,7 +1085,7 @@ if
 (
 value
 .
-EqualsLiteral
+LowerCaseEqualsLiteral
 (
 "
 false
