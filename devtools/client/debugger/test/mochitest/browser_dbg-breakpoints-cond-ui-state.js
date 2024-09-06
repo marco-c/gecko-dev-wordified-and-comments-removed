@@ -303,7 +303,7 @@ info
 "
 Hit
 '
-Alt
+Shift
 +
 Enter
 '
@@ -361,7 +361,7 @@ pressKey
 (
 dbg
 "
-AltEnter
+ShiftEnter
 "
 )
 ;
@@ -412,7 +412,7 @@ n2
 "
 Hit
 '
-Alt
+Shift
 +
 Enter
 '
