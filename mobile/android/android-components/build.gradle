@@ -2397,6 +2397,13 @@ ktlint
 .
 json
 "
+"
+-
+-
+reporter
+=
+plain
+"
 }
 tasks
 .
