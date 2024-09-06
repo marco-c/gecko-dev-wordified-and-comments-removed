@@ -408,7 +408,7 @@ Product
 /
 dp
 /
-ABCDEFG123
+VWXYZAB012
 "
 image_url
 :
