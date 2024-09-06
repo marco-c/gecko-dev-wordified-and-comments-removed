@@ -6,6 +6,15 @@ response
 )
 :
     
+content
+=
+str
+(
+request
+.
+raw_headers
+)
+    
 response
 .
 writer
@@ -43,6 +52,27 @@ write_header
 (
 b
 "
+Content
+-
+Length
+"
+str
+(
+len
+(
+content
+)
+)
+)
+    
+response
+.
+writer
+.
+write_header
+(
+b
+"
 Connection
 "
 b
@@ -65,12 +95,7 @@ writer
 .
 write
 (
-str
-(
-request
-.
-raw_headers
-)
+content
 )
     
 response
