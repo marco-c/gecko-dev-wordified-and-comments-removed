@@ -22,3 +22,15 @@ browser
 toml
 "
 ]
+EXTRA_JS_MODULES
++
+=
+[
+"
+SidebarManager
+.
+sys
+.
+mjs
+"
+]
