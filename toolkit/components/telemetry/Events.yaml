@@ -1499,7 +1499,7 @@ com
 expiry_version
 :
 "
-132
+140
 "
 products
 :
@@ -1537,6 +1537,7 @@ bug_numbers
 1781974
 1817100
 1861295
+1912166
 ]
 release_channel_collection
 :
@@ -2035,7 +2036,7 @@ com
 expiry_version
 :
 "
-132
+140
 "
 products
 :
@@ -2073,6 +2074,7 @@ bug_numbers
 1781974
 1817100
 1861295
+1912166
 ]
 release_channel_collection
 :
@@ -2155,7 +2157,7 @@ com
 expiry_version
 :
 "
-132
+140
 "
 products
 :
@@ -2176,6 +2178,7 @@ bug_numbers
 1806056
 1817100
 1861295
+1912166
 ]
 release_channel_collection
 :
@@ -4355,6 +4358,7 @@ bug_numbers
 1781974
 1817100
 1861295
+1912166
 ]
 notification_emails
 :
@@ -4373,7 +4377,7 @@ com
 expiry_version
 :
 "
-132
+140
 "
 products
 :
@@ -4581,6 +4585,7 @@ bug_numbers
 1763523
 1811148
 1861297
+1912166
 ]
 notification_emails
 :
@@ -4599,7 +4604,7 @@ com
 expiry_version
 :
 "
-132
+140
 "
 products
 :
