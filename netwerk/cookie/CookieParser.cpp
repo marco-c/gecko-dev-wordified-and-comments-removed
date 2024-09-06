@@ -2936,14 +2936,10 @@ aFromHttp
 int64_t
 maxageCap
 =
-aFromHttp
-?
-0
-:
 StaticPrefs
 :
 :
-privacy_documentCookies_maxage
+network_cookie_maxageCap
 (
 )
 ;
