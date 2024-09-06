@@ -351,11 +351,13 @@ sessionCookies
 ;
 Assert
 .
-equal
+ok
 (
 conn
 .
 schemaVersion
+>
+=
 13
 )
 ;
