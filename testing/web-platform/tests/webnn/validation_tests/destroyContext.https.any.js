@@ -1040,6 +1040,11 @@ dimensions
 [
 1
 ]
+usage
+:
+MLBufferUsage
+.
+READ_FROM
 }
 )
 ;
@@ -1114,6 +1119,11 @@ dimensions
 [
 1
 ]
+usage
+:
+MLBufferUsage
+.
+READ_FROM
 }
 )
 ;
@@ -1220,6 +1230,11 @@ dimensions
 [
 1
 ]
+usage
+:
+MLBufferUsage
+.
+WRITE_TO
 }
 )
 ;
