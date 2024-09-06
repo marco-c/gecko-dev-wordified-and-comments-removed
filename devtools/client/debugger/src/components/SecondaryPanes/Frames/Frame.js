@@ -194,13 +194,6 @@ PropTypes
 object
 .
 isRequired
-showFrameContextMenu
-:
-PropTypes
-.
-func
-.
-isRequired
 }
 ;
 function

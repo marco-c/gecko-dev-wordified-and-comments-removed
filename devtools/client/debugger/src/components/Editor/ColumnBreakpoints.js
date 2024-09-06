@@ -425,8 +425,6 @@ columnBreakpoints
 PropTypes
 .
 array
-.
-isRequired
 editor
 :
 PropTypes

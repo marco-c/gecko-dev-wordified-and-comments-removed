@@ -283,7 +283,17 @@ icon
 :
 PropTypes
 .
+oneOfType
+(
+[
+PropTypes
+.
+bool
+PropTypes
+.
 string
+]
+)
 menuId
 :
 PropTypes

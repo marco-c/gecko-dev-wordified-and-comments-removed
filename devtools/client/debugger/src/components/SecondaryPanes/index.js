@@ -484,8 +484,6 @@ thread
 PropTypes
 .
 string
-.
-isRequired
 renderWhyPauseDelay
 :
 PropTypes
@@ -880,6 +878,13 @@ header
 "
 )
 className
+:
+"
+scopes
+-
+pane
+"
+id
 :
 "
 scopes

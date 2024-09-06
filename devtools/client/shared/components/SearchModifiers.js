@@ -311,6 +311,17 @@ return
 button
 (
 {
+key
+:
+search
+-
+modifier
+-
+button
+-
+{
+value
+}
 className
 :
 {
