@@ -230,7 +230,7 @@ _
 )
 _
 (
-Test
+baselineCompileHandler
 )
 #
 define
