@@ -4283,7 +4283,13 @@ Suppress
 NestedBlockDepth
 "
 )
-private
+VisibleForTesting
+(
+otherwise
+=
+PRIVATE
+)
+internal
 fun
 processPromptRequest
 (
