@@ -608,6 +608,7 @@ adsEnabled
 adsEnabledByUser
 recommendationData
 analysisProgress
+autoOpenEnabled
 }
 )
 =
@@ -767,6 +768,11 @@ analysisProgress
 =
 {
 analysisProgress
+}
+autoOpenEnabled
+=
+{
+autoOpenEnabled
 }
 >
 <
