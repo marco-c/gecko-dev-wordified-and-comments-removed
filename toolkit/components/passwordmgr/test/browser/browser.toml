@@ -1467,13 +1467,6 @@ js
 ]
 [
 "
-browser_relay_visibility
-.
-js
-"
-]
-[
-"
 browser_telemetry_SignUpFormRuleset
 .
 js
