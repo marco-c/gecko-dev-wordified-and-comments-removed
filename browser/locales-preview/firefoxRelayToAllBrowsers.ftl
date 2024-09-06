@@ -128,7 +128,14 @@ label
 Sign
 in
 to
-Firefox
+{
+-
+brand
+-
+product
+-
+name
+}
 and
 use
 mask
