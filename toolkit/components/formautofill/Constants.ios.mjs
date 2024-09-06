@@ -423,6 +423,17 @@ autofillSameOriginWithTop
 "
 :
 false
+"
+signon
+.
+generation
+.
+confidenceThreshold
+"
+:
+0
+.
+75
 }
 ;
 /

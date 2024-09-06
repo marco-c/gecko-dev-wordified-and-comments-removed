@@ -5,7 +5,7 @@ strict
 ;
 const
 {
-LoginManagerChild
+Logic
 }
 =
 ChromeUtils
@@ -21,7 +21,9 @@ gre
 /
 modules
 /
-LoginManagerChild
+LoginManager
+.
+shared
 .
 sys
 .
@@ -967,14 +969,6 @@ testcase
 document
 )
 ;
-const
-lmc
-=
-new
-LoginManagerChild
-(
-)
-;
 for
 (
 let
@@ -1010,7 +1004,7 @@ entries
 const
 result
 =
-lmc
+Logic
 .
 isProbablyANewPasswordField
 (
@@ -1173,14 +1167,6 @@ document
 )
 ;
 const
-lmc
-=
-new
-LoginManagerChild
-(
-)
-;
-const
 results
 =
 [
@@ -1214,7 +1200,7 @@ password
 const
 result
 =
-lmc
+Logic
 .
 isProbablyANewPasswordField
 (
