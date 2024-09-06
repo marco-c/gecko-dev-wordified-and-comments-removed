@@ -141,6 +141,13 @@ js
 ]
 [
 "
+browser_syncedtabs_sidebar
+.
+js
+"
+]
+[
+"
 browser_toolbar_sidebar_button
 .
 js
