@@ -53,8 +53,8 @@ public
 :
 FixedDigitalLevelEstimator
 (
-int
-sample_rate_hz
+size_t
+samples_per_channel
 ApmDataDumper
 *
 apm_data_dumper
@@ -102,10 +102,10 @@ float_frame
 )
 ;
 void
-SetSampleRate
+SetSamplesPerChannel
 (
-int
-sample_rate_hz
+size_t
+samples_per_channel
 )
 ;
 void
