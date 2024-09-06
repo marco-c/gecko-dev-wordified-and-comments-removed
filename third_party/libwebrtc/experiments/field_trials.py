@@ -4483,19 +4483,6 @@ FieldTrial
 '
 WebRTC
 -
-VP8ConferenceTemporalLayers
-'
-               
-42234443
-               
-INDEFINITE
-)
-    
-FieldTrial
-(
-'
-WebRTC
--
 VP8IosMaxNumberOfThread
 '
                
@@ -4924,7 +4911,7 @@ str
 \
     
 '
-d6beac9eb318c70cd1695598b3d3c069cd17b42f
+ad853beba9dddb16d9f45164a8d69b5d01e7d1c9
 '
 REGISTERED_FIELD_TRIALS
 :
