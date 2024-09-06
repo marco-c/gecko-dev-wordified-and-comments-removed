@@ -130,6 +130,9 @@ std
 {
 fmt
 mem
+:
+:
+size_of
 str
 }
 ;
@@ -4323,9 +4326,6 @@ end_offset
 =
 offset
 +
-mem
-:
-:
 size_of
 :
 :

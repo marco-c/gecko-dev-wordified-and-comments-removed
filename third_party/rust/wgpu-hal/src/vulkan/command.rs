@@ -22,6 +22,12 @@ std
 :
 {
 mem
+:
+:
+{
+self
+size_of
+}
 ops
 :
 :
@@ -5708,9 +5714,6 @@ buffer
 raw
 offset
 draw_count
-mem
-:
-:
 size_of
 :
 :
@@ -5771,9 +5774,6 @@ buffer
 raw
 offset
 draw_count
-mem
-:
-:
 size_of
 :
 :
@@ -5832,9 +5832,6 @@ u32
 let
 stride
 =
-mem
-:
-:
 size_of
 :
 :
@@ -5945,9 +5942,6 @@ u32
 let
 stride
 =
-mem
-:
-:
 size_of
 :
 :

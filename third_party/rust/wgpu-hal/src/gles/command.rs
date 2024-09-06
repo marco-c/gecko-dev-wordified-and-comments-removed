@@ -21,6 +21,13 @@ std
 :
 {
 mem
+:
+:
+{
+self
+size_of
+size_of_val
+}
 ops
 :
 :
@@ -616,9 +623,6 @@ as_ptr
 cast
 (
 )
-mem
-:
-:
 size_of_val
 (
 data
@@ -6722,9 +6726,6 @@ offset
 +
 draw
 *
-mem
-:
-:
 size_of
 :
 :
@@ -6888,9 +6889,6 @@ offset
 +
 draw
 *
-mem
-:
-:
 size_of
 :
 :

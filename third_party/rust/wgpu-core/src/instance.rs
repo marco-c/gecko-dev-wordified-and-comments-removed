@@ -2941,9 +2941,6 @@ surfaces
 .
 prepare
 (
-wgt
-:
-:
 Backend
 :
 :

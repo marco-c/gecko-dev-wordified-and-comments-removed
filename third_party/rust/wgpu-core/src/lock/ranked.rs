@@ -284,7 +284,7 @@ last_rank
 .
 bit
 .
-name
+member_name
 (
 )
 last_location
@@ -292,7 +292,7 @@ new_rank
 .
 bit
 .
-name
+member_name
 (
 )
 location
@@ -300,14 +300,14 @@ new_rank
 .
 bit
 .
-name
+member_name
 (
 )
 last_rank
 .
 bit
 .
-name
+member_name
 (
 )
 )

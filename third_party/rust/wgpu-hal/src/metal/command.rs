@@ -26,6 +26,9 @@ borrow
 :
 Cow
 mem
+:
+:
+size_of
 ops
 :
 :
@@ -6722,9 +6725,6 @@ offset
 offset
 +
 =
-mem
-:
-:
 size_of
 :
 :
@@ -6844,9 +6844,6 @@ offset
 offset
 +
 =
-mem
-:
-:
 size_of
 :
 :

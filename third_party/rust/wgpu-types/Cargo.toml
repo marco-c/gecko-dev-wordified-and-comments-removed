@@ -424,6 +424,9 @@ ImageBitmap
 ImageData
 "
 "
+HtmlImageElement
+"
+"
 HtmlVideoElement
 "
 "
@@ -431,5 +434,8 @@ HtmlCanvasElement
 "
 "
 OffscreenCanvas
+"
+"
+VideoFrame
 "
 ]
