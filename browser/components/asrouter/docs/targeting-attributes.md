@@ -214,7 +214,7 @@ distributionId
 ]
 (
 #
-distributionId
+distributionid
 )
 *
 [
@@ -366,7 +366,7 @@ isFxASignedIn
 ]
 (
 #
-isFxASignedIn
+isfxasignedin
 )
 *
 [
@@ -534,7 +534,7 @@ screenImpressions
 ]
 (
 #
-screenImpressions
+screenimpressions
 )
 *
 [
@@ -630,7 +630,7 @@ xpinstallEnabled
 ]
 (
 #
-xpinstallEnabled
+xpinstallenabled
 )
 *
 [
@@ -638,7 +638,7 @@ totalSearches
 ]
 (
 #
-totalSearches
+totalsearches
 )
 #
 #
