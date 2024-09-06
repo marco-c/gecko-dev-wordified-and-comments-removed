@@ -431,6 +431,16 @@ module
 extern
 JS_PUBLIC_API
 bool
+IsCyclicModule
+(
+JSObject
+*
+module
+)
+;
+extern
+JS_PUBLIC_API
+bool
 ModuleLink
 (
 JSContext
