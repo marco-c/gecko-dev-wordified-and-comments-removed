@@ -142,6 +142,10 @@ interactive
 not
 no_interactive
     
+backend
+=
+None
+    
 if
 ide
 =
@@ -181,6 +185,15 @@ vscode
 "
 :
         
+if
+not
+command_context
+.
+config_environment
+.
+is_artifact_build
+:
+            
 backend
 =
 "
@@ -426,6 +439,10 @@ res
 return
 1
     
+if
+backend
+:
+        
 python
 =
 command_context
@@ -433,7 +450,7 @@ command_context
 virtualenv_manager
 .
 python_path
-    
+        
 config_status
 =
 os
@@ -451,7 +468,7 @@ config
 status
 "
 )
-    
+        
 args
 =
 [
@@ -468,14 +485,14 @@ s
 %
 backend
 ]
-    
+        
 res
 =
 command_context
 .
 _run_command_in_objdir
 (
-        
+            
 args
 =
 args
@@ -485,16 +502,16 @@ True
 ensure_exit_code
 =
 False
-    
+        
 )
-    
+        
 if
 res
 !
 =
 0
 :
-        
+            
 return
 1
     
