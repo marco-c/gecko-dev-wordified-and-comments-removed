@@ -2917,6 +2917,13 @@ bindToActivity
 (
 this
 )
+components
+.
+settings
+.
+coldStartsBetweenSetAsDefaultPrompts
++
++
 StartupTimeline
 .
 onActivityCreateEndHome
