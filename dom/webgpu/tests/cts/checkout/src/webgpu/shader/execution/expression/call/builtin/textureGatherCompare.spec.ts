@@ -850,6 +850,11 @@ generateTextureBuiltinInputs2D
 method
 :
 samplePoints
+textureBuiltin
+:
+'
+textureGatherCompare
+'
 sampler
 descriptor
 arrayIndex
@@ -1985,6 +1990,11 @@ generateTextureBuiltinInputs2D
 method
 :
 samplePoints
+textureBuiltin
+:
+'
+textureGatherCompare
+'
 sampler
 descriptor
 offset
