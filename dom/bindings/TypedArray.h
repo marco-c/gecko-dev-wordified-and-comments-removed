@@ -3062,6 +3062,12 @@ ErrorResult
 error
 )
 {
+error
+.
+MightThrowJSException
+(
+)
+;
 ArrayT
 array
 =
