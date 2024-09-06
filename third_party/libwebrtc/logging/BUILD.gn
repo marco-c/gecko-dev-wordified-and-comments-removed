@@ -4258,6 +4258,14 @@ protobuf_utils
 .
 .
 /
+rtc_base
+:
+stringutils
+"
+"
+.
+.
+/
 test
 :
 rtp_test_utils
