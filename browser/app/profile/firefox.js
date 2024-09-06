@@ -14319,7 +14319,7 @@ clientAssociationPing
 .
 enabled
 "
-false
+true
 )
 ;
 #
