@@ -2281,6 +2281,14 @@ codecType
 =
 =
 kVideoCodecVP9
+|
+|
+video_codec
+.
+codecType
+=
+=
+kVideoCodecAV1
 )
 {
 video_codec
