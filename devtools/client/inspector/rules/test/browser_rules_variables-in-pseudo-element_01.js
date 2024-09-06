@@ -148,10 +148,6 @@ ruleview
 variable
 "
 "
--
--
-color
-=
 lime
 "
 )
@@ -190,10 +186,6 @@ ruleview
 variable
 "
 "
--
--
-color
-=
 orange
 "
 )

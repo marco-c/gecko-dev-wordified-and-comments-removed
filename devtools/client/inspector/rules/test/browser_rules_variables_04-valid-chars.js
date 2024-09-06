@@ -137,10 +137,6 @@ dataset
 .
 variable
 "
--
--
-10
-=
 10px
 "
 "
@@ -237,11 +233,6 @@ dataset
 .
 variable
 "
--
--
--
-blue
-=
 blue
 "
 "

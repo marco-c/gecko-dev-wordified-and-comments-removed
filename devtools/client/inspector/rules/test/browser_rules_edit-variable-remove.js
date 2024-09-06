@@ -127,10 +127,6 @@ ruleview
 variable
 "
 "
--
--
-color
-=
 lime
 "
 )
