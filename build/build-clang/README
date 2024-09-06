@@ -418,7 +418,7 @@ on
 Linux
 .
 *
-CROSS_SYSROOT
+OSX_SYSROOT
 :
 Path
 to

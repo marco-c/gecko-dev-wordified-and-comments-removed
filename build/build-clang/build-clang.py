@@ -1184,6 +1184,8 @@ ar
     
 ranlib
     
+libtool
+    
 ldflags
     
 src_dir
@@ -1277,19 +1279,45 @@ cxx
 asm
 ar
 ranlib
+libtool
 ldflags
 inst_dir
 )
 :
         
-machine_targets
-=
-targets
 if
 is_final_stage
 and
 targets
+:
+            
+machine_targets
+=
+targets
+        
+elif
+target
+.
+startswith
+(
+"
+aarch64
+-
+"
+)
+:
+            
+machine_targets
+=
+"
+AArch64
+"
+        
 else
+:
+            
+machine_targets
+=
 "
 X86
 "
@@ -2060,12 +2088,32 @@ ranlib
 ]
         
 if
-is_darwin
+libtool
+is
+not
+None
+:
+            
+cmake_args
++
+=
+[
+"
+-
+DCMAKE_LIBTOOL
+=
+%
+s
+"
+%
+slashify_path
 (
-target
+libtool
 )
-and
-is_cross_compile
+]
+        
+if
+is_darwin
 (
 target
 )
@@ -2090,17 +2138,31 @@ else
 x86_64
 "
             
+if
+is_cross_compile
+(
+target
+)
+:
+                
 cmake_args
 +
 =
 [
-                
+                    
 "
 -
 DCMAKE_SYSTEM_NAME
 =
 Darwin
 "
+                
+]
+            
+cmake_args
++
+=
+[
                 
 "
 -
@@ -2134,7 +2196,7 @@ os
 getenv
 (
 "
-CROSS_SYSROOT
+OSX_SYSROOT
 "
 )
 )
@@ -2154,7 +2216,7 @@ os
 getenv
 (
 "
-CROSS_SYSROOT
+OSX_SYSROOT
 "
 )
 )
@@ -2222,7 +2284,7 @@ os
 getenv
 (
 "
-CROSS_SYSROOT
+OSX_SYSROOT
 "
 )
 )
@@ -2408,6 +2470,7 @@ cxx
 asm
 ar
 ranlib
+libtool
 ldflags
 inst_dir
 )
@@ -4506,6 +4569,23 @@ ranlib
 "
 )
     
+libtool
+=
+get_tool
+(
+config
+"
+libtool
+"
+)
+if
+is_darwin
+(
+target
+)
+else
+None
+    
 if
 not
 os
@@ -4979,6 +5059,8 @@ ar
             
 ranlib
             
+libtool
+            
 extra_ldflags
             
 llvm_source_dir
@@ -5127,6 +5209,8 @@ extra_asmflags
 ar
             
 ranlib
+            
+libtool
             
 extra_ldflags
             
@@ -5286,6 +5370,8 @@ extra_asmflags
 ar
             
 ranlib
+            
+libtool
             
 extra_ldflags
             
@@ -5586,6 +5672,8 @@ extra_asmflags
 ar
             
 ranlib
+            
+libtool
             
 extra_ldflags
             
