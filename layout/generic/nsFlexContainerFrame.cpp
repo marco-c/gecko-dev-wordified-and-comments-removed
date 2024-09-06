@@ -25965,9 +25965,10 @@ nsFlexContainerFrame
 :
 ComputeIntrinsicISize
 (
-gfxContext
-*
-aContext
+const
+IntrinsicSizeInput
+&
+aInput
 IntrinsicISizeType
 aType
 )
@@ -26124,7 +26125,9 @@ nsLayoutUtils
 :
 IntrinsicForContainer
 (
-aContext
+aInput
+.
+mContext
 childFrame
 aType
 )
@@ -26215,9 +26218,10 @@ nsFlexContainerFrame
 :
 IntrinsicISize
 (
-gfxContext
-*
-aContext
+const
+IntrinsicSizeInput
+&
+aInput
 IntrinsicISizeType
 aType
 )
@@ -26250,7 +26254,7 @@ cachedISize
 =
 ComputeIntrinsicISize
 (
-aContext
+aInput
 aType
 )
 ;

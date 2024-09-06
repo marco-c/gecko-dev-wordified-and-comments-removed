@@ -4320,6 +4320,13 @@ GetWritingMode
 (
 )
 ;
+const
+IntrinsicSizeInput
+input
+(
+aRenderingContext
+)
+;
 if
 (
 aWM
@@ -4339,7 +4346,7 @@ aWM
 =
 GetMinISize
 (
-aRenderingContext
+input
 )
 ;
 }
@@ -4350,7 +4357,7 @@ min
 =
 GetMinISize
 (
-aRenderingContext
+input
 )
 ;
 if

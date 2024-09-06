@@ -869,9 +869,10 @@ nsComboboxControlFrame
 :
 IntrinsicISize
 (
-gfxContext
-*
-aContext
+const
+IntrinsicSizeInput
+&
+aInput
 IntrinsicISizeType
 aType
 )
@@ -933,7 +934,9 @@ displayISize
 =
 GetLongestOptionISize
 (
-aContext
+aInput
+.
+mContext
 )
 ;
 }

@@ -2417,9 +2417,10 @@ nsMenuPopupFrame
 :
 IntrinsicISize
 (
-gfxContext
-*
-aContext
+const
+IntrinsicSizeInput
+&
+aInput
 IntrinsicISizeType
 aType
 )
@@ -2432,7 +2433,7 @@ nsBlockFrame
 :
 IntrinsicISize
 (
-aContext
+aInput
 aType
 )
 ;
