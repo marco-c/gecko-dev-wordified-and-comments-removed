@@ -104,9 +104,6 @@ _M_ARM
 _M_AMD64
 |
 |
-_M_ARM64
-|
-|
 _M_IA64
 )
 static
