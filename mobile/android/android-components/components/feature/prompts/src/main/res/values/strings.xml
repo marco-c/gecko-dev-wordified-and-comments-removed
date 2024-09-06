@@ -4011,6 +4011,13 @@ name
 "
 mozac_feature_prompts_identity_credentials_privacy_policy_description
 "
+tools
+:
+ignore
+=
+"
+IncorrectStraightDoubleQuote
+"
 >
 <
 !
