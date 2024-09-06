@@ -434,6 +434,13 @@ js
 ]
 [
 "
+test_OriginControls
+.
+js
+"
+]
+[
+"
 test_StorageSyncService
 .
 js
