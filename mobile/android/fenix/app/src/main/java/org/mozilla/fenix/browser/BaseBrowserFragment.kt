@@ -12349,7 +12349,7 @@ R
 .
 string
 .
-exit_fullscreen_with_gesture
+exit_fullscreen_with_gesture_short
 )
 backButtonString
 =
@@ -12359,7 +12359,7 @@ R
 .
 string
 .
-exit_fullscreen_with_back_button
+exit_fullscreen_with_back_button_short
 )
 GestureNavUtils
 )
