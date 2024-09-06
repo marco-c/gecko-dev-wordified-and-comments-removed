@@ -59,13 +59,6 @@ js
 ]
 [
 "
-test_notifications
-.
-js
-"
-]
-[
-"
 test_notifications_pageRemoved_allVisits
 .
 js
