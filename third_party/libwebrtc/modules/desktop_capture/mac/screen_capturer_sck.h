@@ -34,6 +34,11 @@ h
 namespace
 webrtc
 {
+bool
+ScreenCapturerSckAvailable
+(
+)
+;
 std
 :
 :
