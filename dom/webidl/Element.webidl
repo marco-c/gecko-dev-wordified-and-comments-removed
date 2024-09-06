@@ -1808,7 +1808,11 @@ insertAdjacentHTML
 (
 DOMString
 position
+(
+TrustedHTML
+or
 DOMString
+)
 text
 )
 ;

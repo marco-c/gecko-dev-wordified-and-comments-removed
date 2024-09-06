@@ -385,10 +385,8 @@ T
 >
 trustedObject
 =
-MakeRefPtr
-<
+new
 T
->
 (
 std
 :
