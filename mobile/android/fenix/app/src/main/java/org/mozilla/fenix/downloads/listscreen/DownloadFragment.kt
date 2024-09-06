@@ -765,9 +765,6 @@ distinctUntilChangedBy
 it
 .
 mode
-:
-:
-class
 }
 .
 map
