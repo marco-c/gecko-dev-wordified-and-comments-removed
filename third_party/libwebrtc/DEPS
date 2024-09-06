@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-ab2dcf34af863484e003e22685445d00401ca183
+afe664553782032704bc07fc6f761ee3c267b55d
 '
 #
 Fetch
@@ -220,11 +220,11 @@ fuchsia_version
 '
 version
 :
-20
+21
 .
-20240522
+20240606
 .
-3
+0
 .
 1
 '
@@ -487,7 +487,7 @@ chromium
 src
 /
 base
-e8aad0129094fdb0ab55858b7a20b5d574283897
+950b4e1738b41afafa47b43dd366a0adf06699cf
 '
 '
 src
@@ -511,7 +511,7 @@ chromium
 src
 /
 build
-e3c3f5e5f5643bb5099ddd192dfd90ff699142c6
+6358eccee8cc7effcde3eb52f0ea920730f8453e
 '
 '
 src
@@ -535,7 +535,7 @@ chromium
 src
 /
 buildtools
-efa920ce144e4dc1c1841e73179cd7e23b9f0d5e
+2bd8dea61c53448c67f70419004ded4032590fe7
 '
 #
 Gradle
@@ -631,7 +631,7 @@ chromium
 src
 /
 ios
-4213b31aef7d13b5b581c882e0bc870b3eca35e1
+d5f6f8e6bb79a5a40c2315ff48878679a845dea8
 '
 '
 condition
@@ -663,7 +663,7 @@ chromium
 src
 /
 testing
-0ffe26f09e6524ee9851a2b2799ad5ff0974aab4
+0f91d4d7c4b1aaadcf3c940f775bbccba1bd2dca
 '
 '
 src
@@ -687,7 +687,7 @@ chromium
 src
 /
 third_party
-65ef38d36813d1ad9d4cbf8a18b32ac3691f418b
+4f1dfd798dcab2913603729f09ae359024bf091f
 '
 '
 src
@@ -728,7 +728,7 @@ version
 '
 git_revision
 :
-df98b86690c83b81aedc909ded18857296406159
+b3a0bff47dd81073bfe67a402971bad92e4f2423
 '
 }
 ]
@@ -786,7 +786,7 @@ version
 '
 git_revision
 :
-df98b86690c83b81aedc909ded18857296406159
+b3a0bff47dd81073bfe67a402971bad92e4f2423
 '
 }
 ]
@@ -840,7 +840,7 @@ version
 '
 git_revision
 :
-df98b86690c83b81aedc909ded18857296406159
+b3a0bff47dd81073bfe67a402971bad92e4f2423
 '
 }
 ]
@@ -1092,7 +1092,7 @@ project
 libcxxabi
 .
 git
-ba370858669b1e905db5ded82c8887095b61dc14
+43dd5b4bf62e8593461dce9a95e3d43fdcd0b9f2
 '
 '
 src
@@ -1130,7 +1130,7 @@ project
 libunwind
 .
 git
-0906c4a31502cc7a46b5cf1794e21664ffa23be1
+c8f1d81998280ae2ea0e76ddb60aae6e1b4b860e
 '
 '
 src
@@ -1610,7 +1610,7 @@ com
 catapult
 .
 git
-1f97358483207a44e5dcec67433fb570eeceb3c4
+0a2c28ef7c96c683a79869455a1b6814fce293c6
 '
 '
 src
@@ -1787,7 +1787,7 @@ tools
 depot_tools
 .
 git
-062ecac69f7149d88a467eef91f707f441d62b1d
+e30d8fac34378beeb3d72cfca444e87f6fc28013
 '
 '
 src
@@ -1815,7 +1815,7 @@ third_party
 ffmpeg
 .
 git
-092f84b6141055bfab609b6b2666b724eee2e130
+bc1ee906cede137c061bea5a5e8d0743374392a5
 '
 '
 src
@@ -1849,7 +1849,7 @@ google
 flatbuffers
 .
 git
-150644d7f4d030a0629c564fd90dc3becab77636
+6ede1ccc9e24e00d5b19c19d6df0f09fdf1a64fe
 '
 '
 src
@@ -1976,7 +1976,7 @@ third_party
 freetype2
 .
 git
-5f131cfd20135ac5a1609854a1c2bde425741d3e
+d41a855aab6d8ce131c465ce01f0f536e0fb2269
 '
 '
 src
@@ -2181,7 +2181,7 @@ google
 googletest
 .
 git
-9b4993ca7d1279dec5c5d41ba327cb11a77bdc00
+a7f443b80b105f940225332ed3c31f2790092f47
 '
 '
 src
@@ -2214,7 +2214,7 @@ deps
 icu
 .
 git
-98f2494518c2dbb9c488e83e507b070ea5910e95
+43953f57b037778a1b8005564afabe214834f7bd
 '
 }
 '
@@ -2669,7 +2669,7 @@ deps
 libjpeg_turbo
 .
 git
-9b894306ec3b28cea46e84c32b56773a98c483da
+ccfbe1c82a3b6dbe8647ceb36a3f9ee711fba3cf
 '
 '
 src
@@ -2731,7 +2731,7 @@ videolan
 dav1d
 .
 git
-006ca01d387ac6652825d6cce1a57b2de67dbf8d
+92f592ed104ba92ad35c781ee93f354525eef503
 '
 '
 src
@@ -2759,7 +2759,7 @@ com
 aom
 .
 git
-0f766c1101fa146bfe2aeb7eca23e076bbf631de
+2badbae61d6ee0996152d640f1e1896c0a0548ab
 '
 '
 src
@@ -2830,7 +2830,7 @@ external
 perfetto
 .
 git
-f235f50590e878113c2fc6eec85ebb5ac47b98dd
+636a83a4915afdff2e5758e09a5231ff04278ede
 '
 '
 src
@@ -2900,7 +2900,7 @@ webm
 libvpx
 .
 git
-5b4cfe88e45a42fbdf22f7210ed253faec9c0fe6
+a2508b5711b6eb7aee197c8de16a46bda6fdbe88
 '
 '
 src
@@ -3049,7 +3049,7 @@ git
 '
 +
 '
-0172d67d98df2d30bd2241959d0e9569ada25abe
+bb6dbcf2df7a9beb34c3773ef4df161800e3aed9
 '
 '
 condition
@@ -3162,7 +3162,7 @@ google
 re2
 .
 git
-a771d3fbe7c432dc4db68360c6c0004fdde5646b
+33eba105f662c99c8f7d6a264c84ed350bd1dc39
 '
 '
 src
@@ -3195,9 +3195,7 @@ version
 '
 :
 '
-WbqEJ5OsG7ZZ0tJWEj3
--
-SoY215emnCb3V88u0L6O1t4C
+4Bvfp_cCjeULmPkfvkxfFZbH9xB8l5ctPnHCcpH_U8gC
 '
 }
 ]
@@ -3373,7 +3371,7 @@ chromium
 src
 /
 tools
-fbfc57567750705dea8c3dde82e4408abef31f05
+fd08669349f3ff541760d1ca3e9d9dcb1ac62327
 '
 '
 src
@@ -3564,7 +3562,7 @@ version
 '
 :
 '
-XfjjEUcD39PJCZHKqeWU90_Esp5GFEetk4kpIPZWRZsC
+ng582aHt0njFtL0qiBwJXwQIJtUpSvOIas3HxMwb8n8C
 '
 }
 ]
@@ -3618,7 +3616,9 @@ version
 '
 :
 '
-let00MLFVBLhc9quEKtUuTMxC_vL8cvLoxiRSF2M4nkC
+8yUA9fKPOvtc2p3lVEA3l885a1V4
+-
+CXZuKt6xAbdR4AC
 '
 }
 ]
@@ -3940,7 +3940,7 @@ version
 '
 :
 '
-5jhUsMBjUweTrDRCZAJB6a0IUPt6cINwH4ZM1rbdLEkC
+Y1B0M_fCpPZ058xErMX6GQOJEVRBWR342juuxNLpVnkC
 '
 }
 ]
@@ -4042,9 +4042,7 @@ version
 '
 :
 '
-JA8o86DtHkYnsW4v8F9pdcvi7uqN1WB
--
-L1XFLggZdtAC
+1kLxPxWBXSIEOzQ1Zzi1M9XXu6pwfDbKCzQrNyGcCCEC
 '
 }
 ]
@@ -4106,7 +4104,7 @@ version
 '
 git_revision
 :
-4967d21f2b92546ac3747086cdcbb046b6db52fb
+6fb4d5d26773ebddeac2c57506324493e4220007
 '
 }
 {
@@ -4136,7 +4134,7 @@ version
 '
 git_revision
 :
-4967d21f2b92546ac3747086cdcbb046b6db52fb
+6fb4d5d26773ebddeac2c57506324493e4220007
 '
 }
 ]
