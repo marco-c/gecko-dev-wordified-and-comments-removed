@@ -6259,7 +6259,7 @@ MDefinition
 base
 )
 {
-uint32_t
+uint64_t
 offsetGuardLimit
 =
 GetMaxOffsetGuardLimit
@@ -6382,10 +6382,7 @@ offset
 offset
 +
 =
-uint32_t
-(
 basePtr
-)
 ;
 access
 -
@@ -6441,7 +6438,7 @@ bool
 mustAddOffset
 )
 {
-uint32_t
+uint64_t
 offsetGuardLimit
 =
 GetMaxOffsetGuardLimit
