@@ -493,7 +493,7 @@ testModes
 (
 TestMode
 .
-UI_INJECTION_HOST
+DEFAULT
 )
 .
 run
@@ -708,7 +708,7 @@ testModes
 (
 TestMode
 .
-UI_INJECTION_HOST
+DEFAULT
 )
 .
 run
@@ -806,7 +806,7 @@ testModes
 (
 TestMode
 .
-UI_INJECTION_HOST
+DEFAULT
 )
 .
 run
@@ -1143,7 +1143,7 @@ testModes
 (
 TestMode
 .
-UI_INJECTION_HOST
+DEFAULT
 )
 .
 run
