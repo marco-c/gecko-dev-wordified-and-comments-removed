@@ -183,15 +183,6 @@ html
 file
 :
 "
-helper_fission_inactivescroller_under_oopif
-.
-html
-"
-}
-{
-file
-:
-"
 helper_fission_tap_in_nested_iframe_on_zoomed
 .
 html
