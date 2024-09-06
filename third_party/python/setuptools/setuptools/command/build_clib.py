@@ -1,3 +1,9 @@
+from
+.
+.
+dist
+import
+Distribution
 import
 distutils
 .
@@ -8,14 +14,14 @@ as
 orig
 from
 distutils
+import
+log
+from
+distutils
 .
 errors
 import
 DistutilsSetupError
-from
-distutils
-import
-log
 try
 :
     
@@ -24,7 +30,11 @@ distutils
 .
 _modified
 import
+(
+        
 newer_pairwise_group
+    
+)
 except
 ImportError
 :
@@ -160,6 +170,10 @@ compiler
 "
 "
 "
+    
+distribution
+:
+Distribution
     
 def
 build_libraries

@@ -11,27 +11,7 @@ install
 '
 NullFinder
 '
-'
-Protocol
-'
 ]
-try
-:
-    
-from
-typing
-import
-Protocol
-except
-ImportError
-:
-    
-from
-.
-.
-typing_extensions
-import
-Protocol
 def
 install
 (
@@ -209,7 +189,7 @@ Finder
 (
 aka
 "
-MetaClassFinder
+MetaPathFinder
 "
 )
 that
@@ -243,10 +223,6 @@ kwargs
         
 return
 None
-    
-find_module
-=
-find_spec
 def
 pypy_partial
 (

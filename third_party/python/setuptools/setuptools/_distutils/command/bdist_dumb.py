@@ -149,18 +149,18 @@ generated
 filenames
 "
             
+f
 "
-(
+[
 default
 :
-%
-s
-)
-"
-%
+{
 get_platform
 (
 )
+}
+]
+"
         
 )
         
@@ -213,10 +213,6 @@ installation
 tree
 around
 after
-"
-            
-+
-"
 creating
 the
 distribution
@@ -281,11 +277,11 @@ archive
 using
 relative
 paths
-(
+[
 default
 :
 false
-)
+]
 "
         
 )
@@ -418,7 +414,7 @@ self
 .
 keep_temp
 =
-0
+False
         
 self
 .
@@ -436,7 +432,7 @@ self
 .
 relative
 =
-0
+False
         
 self
 .
@@ -539,16 +535,16 @@ built
 distributions
 "
                     
+f
 "
 on
 platform
-%
-s
-"
-%
+{
 os
 .
 name
+}
+"
                 
 )
         
@@ -624,7 +620,7 @@ install
 '
 reinit_subcommands
 =
-1
+True
 )
         
 install
@@ -647,7 +643,7 @@ install
 .
 warn_dir
 =
-0
+False
         
 log
 .
@@ -772,20 +768,18 @@ are
 different
 (
 {
-repr
-(
 install
 .
 install_base
-)
+!
+r
 }
 {
-repr
-(
 install
 .
 install_platbase
-)
+!
+r
 }
 )
 "

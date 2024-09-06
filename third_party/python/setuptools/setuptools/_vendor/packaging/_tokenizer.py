@@ -1,3 +1,7 @@
+from
+__future__
+import
+annotations
 import
 contextlib
 import
@@ -9,12 +13,8 @@ dataclass
 from
 typing
 import
-Dict
 Iterator
 NoReturn
-Optional
-Tuple
-Union
 from
 .
 specifiers
@@ -78,7 +78,7 @@ str
         
 span
 :
-Tuple
+tuple
 [
 int
 int
@@ -182,13 +182,11 @@ marker
 )
 DEFAULT_RULES
 :
-"
-Dict
+dict
 [
 str
-Union
-[
 str
+|
 re
 .
 Pattern
@@ -196,8 +194,6 @@ Pattern
 str
 ]
 ]
-]
-"
 =
 {
     
@@ -673,13 +669,11 @@ str
         
 rules
 :
-"
-Dict
+dict
 [
 str
-Union
-[
 str
+|
 re
 .
 Pattern
@@ -687,8 +681,6 @@ Pattern
 str
 ]
 ]
-]
-"
     
 )
 -
@@ -706,7 +698,7 @@ self
 .
 rules
 :
-Dict
+dict
 [
 str
 re
@@ -743,10 +735,9 @@ self
 .
 next_token
 :
-Optional
-[
 Token
-]
+|
+None
 =
 None
         
@@ -1133,19 +1124,17 @@ str
         
 span_start
 :
-Optional
-[
 int
-]
+|
+None
 =
 None
         
 span_end
 :
-Optional
-[
 int
-]
+|
+None
 =
 None
     

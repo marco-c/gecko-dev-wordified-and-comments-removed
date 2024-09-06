@@ -37,7 +37,12 @@ def
 hide_file
 (
 path
+:
+str
 )
+-
+>
+None
 :
     
 "
@@ -82,14 +87,10 @@ text
 import
 ctypes
     
-__import__
-(
-'
+import
 ctypes
 .
 wintypes
-'
-)
     
 SetFileAttributes
 =

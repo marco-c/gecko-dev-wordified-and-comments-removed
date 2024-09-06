@@ -1,3 +1,15 @@
+from
+.
+.
+dist
+import
+Distribution
+from
+.
+.
+warnings
+import
+SetuptoolsDeprecationWarning
 import
 distutils
 .
@@ -6,12 +18,6 @@ command
 bdist_rpm
 as
 orig
-from
-.
-.
-warnings
-import
-SetuptoolsDeprecationWarning
 class
 bdist_rpm
 (
@@ -80,6 +86,10 @@ distributions
 "
 "
 "
+    
+distribution
+:
+Distribution
     
 def
 run

@@ -88,20 +88,7 @@ FancyGetopt
 formats
 =
 [
-]
-    
-for
-format
-in
-bdist
-.
-format_commands
-:
         
-formats
-.
-append
-(
 (
 "
 formats
@@ -120,7 +107,15 @@ format
 1
 ]
 )
-)
+        
+for
+format
+in
+bdist
+.
+format_commands
+    
+]
     
 pretty_printer
 =
@@ -252,18 +247,18 @@ generated
 filenames
 "
             
+f
 "
-(
+[
 default
 :
-%
-s
-)
-"
-%
+{
 get_platform
 (
 )
+}
+]
+"
         
 )
         
@@ -613,7 +608,7 @@ self
 .
 skip_build
 =
-0
+False
         
 self
 .
@@ -771,16 +766,16 @@ built
 distributions
 "
                     
+f
 "
 on
 platform
-%
-s
-"
-%
+{
 os
 .
 name
+}
+"
                 
 )
         
@@ -845,16 +840,16 @@ KeyError
 raise
 DistutilsOptionError
 (
+f
 "
 invalid
 format
 '
-%
-s
+{
+format
+}
 '
 "
-%
-format
 )
         
 for
@@ -948,7 +943,7 @@ sub_cmd
 .
 keep_temp
 =
-1
+True
             
 self
 .

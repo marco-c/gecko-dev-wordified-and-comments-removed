@@ -140,23 +140,9 @@ FancyGetopt
     
 formats
 =
-[
-]
-    
-for
-format
-in
-ARCHIVE_FORMATS
-.
-keys
+sorted
 (
-)
-:
         
-formats
-.
-append
-(
 (
 "
 formats
@@ -173,12 +159,16 @@ format
 2
 ]
 )
+        
+for
+format
+in
+ARCHIVE_FORMATS
+.
+keys
+(
 )
     
-formats
-.
-sort
-(
 )
     
 FancyGetopt
@@ -825,25 +815,25 @@ self
 .
 use_defaults
 =
-1
+True
         
 self
 .
 prune
 =
-1
+True
         
 self
 .
 manifest_only
 =
-0
+False
         
 self
 .
 force_manifest
 =
-0
+False
         
 self
 .
@@ -859,7 +849,7 @@ self
 .
 keep_temp
 =
-0
+False
         
 self
 .
@@ -959,17 +949,17 @@ bad_format
 raise
 DistutilsOptionError
 (
+f
 "
 unknown
 archive
 format
 '
-%
-s
+{
+bad_format
+}
 '
 "
-%
-bad_format
 )
         
 if
@@ -1750,18 +1740,18 @@ self
 .
 warn
 (
+f
 "
 standard
 file
 '
-%
-s
+{
+fn
+}
 '
 not
 found
 "
-%
-fn
 )
     
 def
@@ -2211,27 +2201,27 @@ template
             
 strip_comments
 =
-1
+True
             
 skip_blanks
 =
-1
+True
             
 join_lines
 =
-1
+True
             
 lstrip_ws
 =
-1
+True
             
 rstrip_ws
 =
-1
+True
             
 collapse_join
 =
-1
+True
         
 )
         
@@ -2573,7 +2563,7 @@ exclude_pattern
 vcs_ptrn
 is_regex
 =
-1
+True
 )
     
 def
@@ -2646,26 +2636,23 @@ log
 info
 (
                 
+f
 "
 not
 writing
 to
 manually
 maintained
-"
-                
-"
 manifest
 file
 '
-%
-s
-'
-"
-%
+{
 self
 .
 manifest
+}
+'
+"
             
 )
             
@@ -2715,19 +2702,19 @@ manifest
 content
 )
             
+f
 "
 writing
 manifest
 file
 '
-%
-s
-'
-"
-%
+{
 self
 .
 manifest
+}
+'
+"
         
 )
     
@@ -3043,19 +3030,19 @@ hard
             
 msg
 =
+f
 "
 making
 hard
 links
 in
-%
-s
+{
+base_dir
+}
 .
 .
 .
 "
-%
-base_dir
         
 else
 :
@@ -3066,18 +3053,18 @@ None
             
 msg
 =
+f
 "
 copying
 files
 to
-%
-s
+{
+base_dir
+}
 .
 .
 .
 "
-%
-base_dir
         
 if
 not

@@ -19,6 +19,11 @@ str
 )
 -
 >
+list
+[
+str
+]
+|
 str
 :
     
@@ -42,7 +47,7 @@ Retain
 until
 at
 least
-2024
+2025
 -
 04
 -

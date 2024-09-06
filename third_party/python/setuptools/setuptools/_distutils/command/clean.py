@@ -76,7 +76,7 @@ b
 base
 build
 directory
-(
+[
 default
 :
 '
@@ -86,7 +86,7 @@ build
 -
 base
 '
-)
+]
 "
 )
         
@@ -107,7 +107,7 @@ directory
 for
 all
 modules
-(
+[
 default
 :
 '
@@ -117,7 +117,7 @@ build
 -
 lib
 '
-)
+]
 "
         
 )
@@ -136,7 +136,7 @@ t
 temporary
 build
 directory
-(
+[
 default
 :
 '
@@ -146,7 +146,7 @@ build
 -
 temp
 '
-)
+]
 "
 )
         
@@ -166,7 +166,7 @@ build
 directory
 for
 scripts
-(
+[
 default
 :
 '
@@ -176,7 +176,7 @@ build
 -
 scripts
 '
-)
+]
 "
         
 )

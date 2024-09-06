@@ -40,11 +40,11 @@ ignored
 "
 "
 import
+fnmatch
+import
 os
 import
 re
-import
-fnmatch
 __all__
 =
 [

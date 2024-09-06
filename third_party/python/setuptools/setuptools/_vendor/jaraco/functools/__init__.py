@@ -17,10 +17,6 @@ types
 import
 warnings
 import
-setuptools
-.
-extern
-.
 more_itertools
 def
 compose
@@ -3898,10 +3894,6 @@ pairs
 >
 >
 >
-setuptools
-.
-extern
-.
 more_itertools
 .
 consume
@@ -3925,10 +3917,6 @@ pairs
 >
 >
 >
-setuptools
-.
-extern
-.
 more_itertools
 .
 consume

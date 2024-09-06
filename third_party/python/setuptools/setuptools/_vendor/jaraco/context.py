@@ -40,10 +40,6 @@ version_info
 :
     
 from
-setuptools
-.
-extern
-.
 backports
 import
 tarfile

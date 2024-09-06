@@ -1,4 +1,16 @@
 from
+setuptools
+.
+dist
+import
+Distribution
+from
+setuptools
+.
+errors
+import
+RemovedCommandError
+from
 distutils
 import
 log
@@ -10,12 +22,6 @@ import
 upload
 as
 orig
-from
-setuptools
-.
-errors
-import
-RemovedCommandError
 class
 upload
 (
@@ -39,6 +45,10 @@ PyPI
 "
 "
 "
+    
+distribution
+:
+Distribution
     
 def
 run
@@ -64,7 +74,6 @@ to
 upload
 "
             
-+
 "
 instead
 (

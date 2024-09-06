@@ -291,7 +291,7 @@ self
 .
 force
 =
-0
+False
         
 self
 .
@@ -787,13 +787,18 @@ raise
 DistutilsSetupError
 (
                     
+f
 "
 bad
 library
 name
 '
-%
-s
+{
+lib
+[
+0
+]
+}
 '
 :
 "
@@ -805,11 +810,6 @@ contain
 directory
 separators
 "
-%
-lib
-[
-0
-]
                 
 )
             
@@ -953,6 +953,7 @@ raise
 DistutilsSetupError
 (
                     
+f
 "
 in
 '
@@ -962,8 +963,9 @@ option
 (
 library
 '
-%
-s
+{
+lib_name
+}
 '
 )
 "
@@ -987,8 +989,6 @@ of
 source
 filenames
 "
-%
-lib_name
                 
 )
             
@@ -1048,6 +1048,7 @@ raise
 DistutilsSetupError
 (
                     
+f
 "
 in
 '
@@ -1057,8 +1058,9 @@ option
 (
 library
 '
-%
-s
+{
+lib_name
+}
 '
 )
 "
@@ -1082,8 +1084,6 @@ of
 source
 filenames
 "
-%
-lib_name
                 
 )
             

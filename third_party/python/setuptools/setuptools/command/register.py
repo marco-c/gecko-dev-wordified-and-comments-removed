@@ -1,7 +1,15 @@
 from
-distutils
+setuptools
+.
+errors
 import
-log
+RemovedCommandError
+from
+.
+.
+dist
+import
+Distribution
 import
 distutils
 .
@@ -11,11 +19,9 @@ register
 as
 orig
 from
-setuptools
-.
-errors
+distutils
 import
-RemovedCommandError
+log
 class
 register
 (
@@ -39,6 +45,10 @@ PyPI
 "
 "
 "
+    
+distribution
+:
+Distribution
     
 def
 run
@@ -64,7 +74,6 @@ to
 upload
 "
             
-+
 "
 instead
 (

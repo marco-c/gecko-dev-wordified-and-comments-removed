@@ -223,7 +223,7 @@ file
 "
             
 "
-(
+[
 default
 :
 \
@@ -231,7 +231,7 @@ default
 python
 \
 "
-)
+]
 "
         
 )
@@ -1356,25 +1356,25 @@ self
 .
 keep_temp
 =
-0
+False
         
 self
 .
 use_rpm_opt_flags
 =
-1
+True
         
 self
 .
 rpm3_mode
 =
-1
+True
         
 self
 .
 no_autoreq
 =
-0
+False
         
 self
 .
@@ -1386,7 +1386,7 @@ self
 .
 quiet
 =
-0
+False
     
 def
 finalize_options
@@ -1540,6 +1540,7 @@ raise
 DistutilsPlatformError
 (
                 
+f
 "
 don
 '
@@ -1552,13 +1553,12 @@ RPM
 distributions
 on
 platform
-%
-s
-"
-%
+{
 os
 .
 name
+}
+"
             
 )
         
@@ -1614,7 +1614,7 @@ self
 .
 use_rpm_opt_flags
 =
-0
+False
         
 self
 .
@@ -2121,13 +2121,9 @@ path
 join
 (
 spec_dir
+f
 "
-%
-s
-.
-spec
-"
-%
+{
 self
 .
 distribution
@@ -2135,6 +2131,10 @@ distribution
 get_name
 (
 )
+}
+.
+spec
+"
 )
         
 self
@@ -2151,15 +2151,15 @@ _make_spec_file
 (
 )
 )
+f
 "
 writing
 '
-%
-s
+{
+spec_path
+}
 '
 "
-%
-spec_path
         
 )
         
@@ -2302,21 +2302,21 @@ else
 raise
 DistutilsFileError
 (
+f
 "
 icon
 file
 '
-%
-s
+{
+self
+.
+icon
+}
 '
 does
 not
 exist
 "
-%
-self
-.
-icon
 )
         
 log
@@ -2392,15 +2392,15 @@ extend
 -
 define
 '
+f
 '
 __python
-%
-s
-'
-%
+{
 self
 .
 python
+}
+'
 ]
 )
         
@@ -2420,12 +2420,10 @@ extend
 -
 define
 '
+f
 '
 _topdir
-%
-s
-'
-%
+{
 os
 .
 path
@@ -2436,6 +2434,8 @@ self
 .
 rpm_base
 )
+}
+'
 ]
 )
         
@@ -2662,19 +2662,18 @@ status
 raise
 DistutilsExecError
 (
+f
 "
 Failed
 to
 execute
 :
-%
-s
-"
-%
-repr
-(
+{
 q_cmd
-)
+!
+r
+}
+"
 )
         
 finally
@@ -3088,18 +3087,18 @@ join
 (
 [
             
+f
 '
-%
-s
-\
-\
-'
-%
+{
 line
 .
 strip
 (
 )
+}
+\
+\
+'
 for
 line
 in
@@ -3400,16 +3399,16 @@ spec_file
 .
 append
 (
+f
 '
 BuildArch
 :
-%
-s
-'
-%
+{
 self
 .
 force_arch
+}
+'
 )
         
 for
@@ -3686,13 +3685,13 @@ argv
         
 def_build
 =
+f
 "
-%
-s
+{
+def_setup_call
+}
 build
 "
-%
-def_setup_call
         
 if
 self
@@ -3715,11 +3714,11 @@ def_build
         
 install_cmd
 =
-(
-            
+f
 '
-%
-s
+{
+def_setup_call
+}
 install
 -
 O1
@@ -3728,18 +3727,12 @@ O1
 root
 =
 RPM_BUILD_ROOT
-'
-'
 -
 -
 record
 =
 INSTALLED_FILES
 '
-        
-)
-%
-def_setup_call
         
 script_options
 =

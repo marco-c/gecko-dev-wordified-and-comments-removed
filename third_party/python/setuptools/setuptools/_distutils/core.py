@@ -866,17 +866,17 @@ attrs
 raise
 SystemExit
 (
+f
 "
 error
 in
 setup
 command
 :
-%
-s
-"
-%
+{
 msg
+}
+"
 )
         
 else
@@ -990,15 +990,15 @@ dist
 script_name
 )
 +
+f
 "
 \
 nerror
 :
-%
-s
-"
-%
+{
 msg
+}
+"
 )
     
 if
@@ -1693,8 +1693,6 @@ raise
 RuntimeError
 (
             
-(
-                
 "
 '
 distutils
@@ -1711,12 +1709,14 @@ called
 -
 -
 "
-                
+            
+f
 "
 perhaps
 '
-%
-s
+{
+script_name
+}
 '
 is
 not
@@ -1726,11 +1726,6 @@ setup
 script
 ?
 "
-            
-)
-            
-%
-script_name
         
 )
     

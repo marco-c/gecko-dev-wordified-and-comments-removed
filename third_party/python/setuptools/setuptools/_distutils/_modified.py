@@ -26,14 +26,16 @@ import
 splat
 from
 .
+compat
+.
+py39
+import
+zip_strict
+from
+.
 errors
 import
 DistutilsFileError
-from
-.
-py39compat
-import
-zip_strict
 def
 _newer
 (
@@ -150,17 +152,11 @@ source
 raise
 DistutilsFileError
 (
+f
 "
 file
 '
-%
-s
-'
-does
-not
-exist
-"
-%
+{
 os
 .
 path
@@ -169,6 +165,12 @@ abspath
 (
 source
 )
+}
+'
+does
+not
+exist
+"
 )
     
 return
@@ -521,6 +523,16 @@ else
 None
     
 return
+not
+os
+.
+path
+.
+exists
+(
+target
+)
+or
 any
 (
         

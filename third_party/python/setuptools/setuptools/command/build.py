@@ -1,9 +1,17 @@
 from
+__future__
+import
+annotations
+from
 typing
 import
-Dict
-List
 Protocol
+from
+.
+.
+dist
+import
+Distribution
 from
 distutils
 .
@@ -36,6 +44,10 @@ build
 _build
 )
 :
+    
+distribution
+:
+Distribution
     
 sub_commands
 =
@@ -778,6 +790,10 @@ interface
 "
 "
 "
+        
+.
+.
+.
     
 def
 finalize_options
@@ -805,6 +821,10 @@ interface
 "
 "
 "
+        
+.
+.
+.
     
 def
 run
@@ -832,6 +852,10 @@ interface
 "
 "
 "
+        
+.
+.
+.
     
 def
 get_source_files
@@ -840,7 +864,7 @@ self
 )
 -
 >
-List
+list
 [
 str
 ]
@@ -932,6 +956,10 @@ directory
 "
 "
 "
+        
+.
+.
+.
     
 def
 get_outputs
@@ -940,7 +968,7 @@ self
 )
 -
 >
-List
+list
 [
 str
 ]
@@ -1046,6 +1074,10 @@ project
 "
 "
 "
+        
+.
+.
+.
     
 def
 get_output_mapping
@@ -1054,7 +1086,7 @@ self
 )
 -
 >
-Dict
+dict
 [
 str
 str
@@ -1143,3 +1175,7 @@ path
 "
 "
 "
+        
+.
+.
+.

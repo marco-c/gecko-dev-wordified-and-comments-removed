@@ -584,9 +584,11 @@ self
 .
 warn
 (
+f
 "
-%
-s
+{
+script
+}
 is
 an
 empty
@@ -595,8 +597,6 @@ file
 skipping
 )
 "
-%
-script
 )
                 
 return

@@ -22,9 +22,6 @@ metadata
 "
 import
 re
-from
-.
-extern
 import
 packaging
 _VALID_NAME
@@ -518,10 +515,6 @@ last
 .
 .
     
-setuptools
-.
-extern
-.
 packaging
 .
 version

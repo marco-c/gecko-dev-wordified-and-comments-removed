@@ -21,6 +21,8 @@ import
 os
 import
 sys
+import
+sysconfig
 from
 .
 .
@@ -154,10 +156,6 @@ distribution
 defaults
 to
 either
-"
-            
-+
-"
 build
 -
 purelib
@@ -215,6 +213,7 @@ name
 p
 '
             
+f
 "
 platform
 name
@@ -223,20 +222,16 @@ build
 for
 if
 supported
-"
-            
-"
-(
+[
 default
 :
-%
-s
-)
-"
-%
+{
 get_platform
 (
 )
+}
+]
+"
         
 )
         
@@ -433,7 +428,7 @@ self
 .
 force
 =
-0
+False
         
 self
 .
@@ -539,6 +534,24 @@ implementation
 cache_tag
 }
 "
+        
+if
+sysconfig
+.
+get_config_var
+(
+'
+Py_GIL_DISABLED
+'
+)
+:
+            
+plat_specifier
++
+=
+'
+t
+'
         
 if
 hasattr

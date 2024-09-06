@@ -13,31 +13,29 @@ distributions
 "
 "
 "
-from
-distutils
-.
-dir_util
 import
-remove_tree
-mkpath
-from
-distutils
-import
-log
-from
-types
-import
-CodeType
-import
-sys
+marshal
 import
 os
 import
 re
 import
-textwrap
+sys
 import
-marshal
+textwrap
+from
+sysconfig
+import
+get_path
+get_python_version
+from
+types
+import
+CodeType
+from
+setuptools
+import
+Command
 from
 setuptools
 .
@@ -45,20 +43,22 @@ extension
 import
 Library
 from
-setuptools
-import
-Command
-from
 .
 .
 _path
 import
 ensure_directory
 from
-sysconfig
+distutils
 import
-get_path
-get_python_version
+log
+from
+distutils
+.
+dir_util
+import
+mkpath
+remove_tree
 def
 _get_purelib
 (
@@ -438,7 +438,6 @@ around
 after
 "
             
-+
 "
 creating
 the
@@ -536,7 +535,7 @@ self
 .
 keep_temp
 =
-0
+False
         
 self
 .
@@ -548,7 +547,7 @@ self
 .
 skip_build
 =
-0
+False
         
 self
 .
@@ -920,7 +919,7 @@ install_data
 '
 force
 =
-0
+False
 root
 =
 None
@@ -1129,7 +1128,7 @@ install_lib
 '
 warn_dir
 =
-0
+False
 )
         
 instcmd
@@ -1373,7 +1372,7 @@ install_dir
 script_dir
 no_ep
 =
-1
+True
 )
         
 self
@@ -2140,11 +2139,22 @@ bdist_dir
 )
 :
             
+all_outputs
+.
+extend
+(
+                
+paths
+[
+base
+]
++
+filename
+                
 for
 filename
 in
 files
-:
                 
 if
 os
@@ -2164,18 +2174,7 @@ lower
 )
 in
 NATIVE_EXTENSIONS
-:
-                    
-all_outputs
-.
-append
-(
-paths
-[
-base
-]
-+
-filename
+            
 )
             
 for
@@ -2892,12 +2891,13 @@ getabsfile
 '
             
 '
-getsourcefile
+getfile
 '
             
 '
-getfile
+getsourcefile
 '
+            
 '
 getsourcelines
 '
@@ -3139,14 +3139,15 @@ install_base
 def
 make_zipfile
 (
+    
 zip_filename
 base_dir
 verbose
 =
-0
+False
 dry_run
 =
-0
+False
 compress
 =
 True

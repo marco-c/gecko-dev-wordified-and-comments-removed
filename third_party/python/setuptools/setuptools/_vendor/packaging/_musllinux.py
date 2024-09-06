@@ -30,6 +30,10 @@ used
 "
 "
 "
+from
+__future__
+import
+annotations
 import
 functools
 import
@@ -43,7 +47,6 @@ typing
 import
 Iterator
 NamedTuple
-Optional
 Sequence
 from
 .
@@ -73,10 +76,9 @@ str
 )
 -
 >
-Optional
-[
 _MuslVersion
-]
+|
+None
 :
     
 lines
@@ -196,8 +198,6 @@ group
 functools
 .
 lru_cache
-(
-)
 def
 _get_musl_version
 (
@@ -207,10 +207,9 @@ str
 )
 -
 >
-Optional
-[
 _MuslVersion
-]
+|
+None
 :
     
 "

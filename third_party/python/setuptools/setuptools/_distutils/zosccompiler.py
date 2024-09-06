@@ -916,13 +916,13 @@ __init__
 self
 verbose
 =
-0
+False
 dry_run
 =
-0
+False
 force
 =
-0
+False
 )
 :
         
@@ -1149,7 +1149,7 @@ None
         
 debug
 =
-0
+False
         
 extra_preargs
 =

@@ -114,6 +114,10 @@ sources
 :
 [
 string
+|
+os
+.
+PathLike
 ]
         
 list
@@ -782,30 +786,39 @@ string
 if
 not
 (
+            
 isinstance
 (
 sources
 list
 )
+            
 and
 all
 (
 isinstance
 (
 v
+(
 str
+os
+.
+PathLike
+)
 )
 for
 v
 in
 sources
 )
+        
 )
 :
             
 raise
 AssertionError
 (
+                
 "
 '
 sources
@@ -816,7 +829,12 @@ a
 list
 of
 strings
+or
+PathLike
+objects
+.
 "
+            
 )
         
 self
@@ -829,7 +847,16 @@ self
 .
 sources
 =
+list
+(
+map
+(
+os
+.
+fspath
 sources
+)
+)
         
 self
 .
@@ -988,16 +1015,16 @@ options
             
 msg
 =
+f
 "
 Unknown
 Extension
 options
 :
-%
-s
-"
-%
+{
 options
+}
+"
             
 warnings
 .
@@ -1115,23 +1142,23 @@ filename
         
 strip_comments
 =
-1
+True
         
 skip_blanks
 =
-1
+True
         
 join_lines
 =
-1
+True
         
 lstrip_ws
 =
-1
+True
         
 rstrip_ws
 =
-1
+True
     
 )
     
@@ -1197,18 +1224,18 @@ file
 .
 warn
 (
+f
 "
 '
-%
-s
+{
+line
+}
 '
 lines
 not
 handled
 yet
 "
-%
-line
 )
                 
 continue
@@ -1657,16 +1684,16 @@ file
 .
 warn
 (
+f
 "
 unrecognized
 argument
 '
-%
-s
+{
+word
+}
 '
 "
-%
-word
 )
             
 extensions

@@ -367,10 +367,7 @@ __name__
 (
 '
 {
-str
-(
 self
-)
 }
 '
 )
@@ -873,17 +870,17 @@ match
 raise
 ValueError
 (
+f
 "
 invalid
 version
 number
 '
-%
-s
+{
+vstring
+}
 '
 "
-%
-vstring
 )
         
 (
@@ -1597,20 +1594,17 @@ self
 :
         
 return
+f
 "
 LooseVersion
 (
 '
-%
-s
+{
+self
+}
 '
 )
 "
-%
-str
-(
-self
-)
     
 def
 _cmp

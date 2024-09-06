@@ -892,17 +892,17 @@ default_options
 raise
 KeyError
 (
+f
 "
 invalid
 TextFile
 option
 '
-%
-s
+{
+opt
+}
 '
 "
-%
-opt
 )
         
 if

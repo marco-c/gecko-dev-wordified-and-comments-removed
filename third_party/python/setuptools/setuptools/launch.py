@@ -20,9 +20,9 @@ import
 "
 "
 import
-tokenize
-import
 sys
+import
+tokenize
 def
 run
 (

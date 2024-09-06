@@ -464,10 +464,12 @@ raise
 DistutilsTemplateError
 (
                     
+f
 "
 '
-%
-s
+{
+action
+}
 '
 expects
 <
@@ -480,8 +482,6 @@ pattern2
 .
 .
 "
-%
-action
                 
 )
             
@@ -532,10 +532,12 @@ raise
 DistutilsTemplateError
 (
                     
+f
 "
 '
-%
-s
+{
+action
+}
 '
 expects
 <
@@ -551,8 +553,6 @@ pattern2
 .
 .
 "
-%
-action
                 
 )
             
@@ -610,10 +610,12 @@ raise
 DistutilsTemplateError
 (
                     
+f
 "
 '
-%
-s
+{
+action
+}
 '
 expects
 a
@@ -622,8 +624,6 @@ single
 dir_pattern
 >
 "
-%
-action
                 
 )
             
@@ -643,16 +643,16 @@ else
 raise
 DistutilsTemplateError
 (
+f
 "
 unknown
 action
 '
-%
-s
+{
+action
+}
 '
 "
-%
-action
 )
         
 return
@@ -726,7 +726,7 @@ include_pattern
 pattern
 anchor
 =
-1
+True
 )
 :
                     
@@ -790,7 +790,7 @@ exclude_pattern
 pattern
 anchor
 =
-1
+True
 )
 :
                     
@@ -871,7 +871,7 @@ include_pattern
 pattern
 anchor
 =
-0
+False
 )
 :
                     
@@ -952,7 +952,7 @@ exclude_pattern
 pattern
 anchor
 =
-0
+False
 )
 :
                     
@@ -1292,6 +1292,7 @@ raise
 DistutilsInternalError
 (
                 
+f
 "
 this
 cannot
@@ -1300,12 +1301,11 @@ happen
 invalid
 action
 '
-%
-s
+{
+action
+}
 '
 "
-%
-action
             
 )
     
@@ -1316,13 +1316,13 @@ self
 pattern
 anchor
 =
-1
+True
 prefix
 =
 None
 is_regex
 =
-0
+False
 )
 :
         
@@ -1614,6 +1614,7 @@ self
 .
 debug_print
 (
+f
 "
 include_pattern
 :
@@ -1621,14 +1622,13 @@ applying
 regex
 r
 '
-%
-s
-'
-"
-%
+{
 pattern_re
 .
 pattern
+}
+'
+"
 )
         
 if
@@ -1696,13 +1696,13 @@ self
 pattern
 anchor
 =
-1
+True
 prefix
 =
 None
 is_regex
 =
-0
+False
 )
 :
         
@@ -1787,6 +1787,7 @@ self
 .
 debug_print
 (
+f
 "
 exclude_pattern
 :
@@ -1794,14 +1795,13 @@ applying
 regex
 r
 '
-%
-s
-'
-"
-%
+{
 pattern_re
 .
 pattern
+}
+'
+"
 )
         
 for
@@ -2301,18 +2301,17 @@ r
     
 escaped
 =
-r
+rf
 '
 \
 1
 [
 ^
-%
-s
+{
+sep
+}
 ]
 '
-%
-sep
     
 pattern_re
 =
@@ -2353,13 +2352,13 @@ translate_pattern
 pattern
 anchor
 =
-1
+True
 prefix
 =
 None
 is_regex
 =
-0
+False
 )
 :
     

@@ -108,14 +108,13 @@ re
 .
 compile
 (
-r
+rf
 '
 ^
-%
-s
-'
-%
+{
 longopt_pat
+}
+'
 )
 neg_alias_re
 =
@@ -436,6 +435,7 @@ raise
 DistutilsGetoptError
 (
                 
+f
 "
 option
 conflict
@@ -444,12 +444,11 @@ already
 an
 option
 '
-%
-s
+{
+long_option
+}
 '
 "
-%
-long_option
             
 )
         
@@ -627,9 +626,6 @@ alias
 }
 '
 :
-"
-f
-"
 option
 '
 {
@@ -667,9 +663,6 @@ alias
 }
 '
 :
-"
-f
-"
 aliased
 option
 '
@@ -951,14 +944,15 @@ raise
 DistutilsGetoptError
 (
                     
-(
+f
 "
 invalid
 long
 option
 '
-%
-s
+{
+long
+}
 '
 :
 must
@@ -971,9 +965,6 @@ length
 =
 2
 "
-)
-%
-long
                 
 )
             
@@ -1008,13 +999,15 @@ raise
 DistutilsGetoptError
 (
                     
+f
 "
 invalid
 short
 option
 '
-%
-s
+{
+short
+}
 '
 :
 "
@@ -1027,8 +1020,6 @@ character
 or
 None
 "
-%
-short
                 
 )
             
@@ -1092,7 +1083,7 @@ takes_arg
 long
 ]
 =
-1
+True
             
 else
 :
@@ -1174,7 +1165,7 @@ takes_arg
 long
 ]
 =
-0
+False
             
 alias_to
 =
@@ -1271,14 +1262,16 @@ raise
 DistutilsGetoptError
 (
                     
+f
 "
 invalid
 long
 option
 name
 '
-%
-s
+{
+long
+}
 '
 "
                     
@@ -1291,8 +1284,6 @@ numbers
 hyphens
 only
 "
-%
-long
                 
 )
             

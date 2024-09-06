@@ -24,10 +24,6 @@ tomllib
 else
 :
     
-from
-setuptools
-.
-extern
 import
 tomli
 as

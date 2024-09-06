@@ -15,7 +15,7 @@ __parse_
 *
 function
 contains
-ENBF
+EBNF
 -
 inspired
 grammar
@@ -26,15 +26,17 @@ implementation
 "
 "
 "
+from
+__future__
+import
+annotations
 import
 ast
 from
 typing
 import
-Any
-List
 NamedTuple
-Optional
+Sequence
 Tuple
 Union
 from
@@ -211,12 +213,28 @@ MarkerVar
 ]
 MarkerAtom
 =
-Any
+Union
+[
+MarkerItem
+Sequence
+[
+"
+MarkerAtom
+"
+]
+]
 MarkerList
 =
-List
+Sequence
 [
-Any
+Union
+[
+"
+MarkerList
+"
+MarkerAtom
+str
+]
 ]
 class
 ParsedRequirement
@@ -235,7 +253,7 @@ str
     
 extras
 :
-List
+list
 [
 str
 ]
@@ -246,10 +264,9 @@ str
     
 marker
 :
-Optional
-[
 MarkerList
-]
+|
+None
 def
 parse_requirement
 (
@@ -415,14 +432,13 @@ Tokenizer
 )
 -
 >
-Tuple
+tuple
 [
 str
 str
-Optional
-[
 MarkerList
-]
+|
+None
 ]
 :
     
@@ -790,7 +806,7 @@ Tokenizer
 )
 -
 >
-List
+list
 [
 str
 ]
@@ -896,7 +912,7 @@ Tokenizer
 )
 -
 >
-List
+list
 [
 str
 ]
@@ -926,7 +942,7 @@ identifier
     
 extras
 :
-List
+list
 [
 str
 ]

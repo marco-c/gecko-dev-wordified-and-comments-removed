@@ -1,8 +1,4 @@
 from
-setuptools
-.
-extern
-.
 more_itertools
 import
 consume

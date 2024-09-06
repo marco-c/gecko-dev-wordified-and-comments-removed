@@ -1335,10 +1335,6 @@ platform
 -
 specific
 files
-"
-            
-+
-"
 (
 instead
 of
@@ -1439,10 +1435,6 @@ for
 all
 module
 distributions
-"
-            
-+
-"
 (
 overrides
 -
@@ -1701,6 +1693,7 @@ user
             
 None
             
+f
 "
 install
 in
@@ -1709,12 +1702,11 @@ site
 -
 package
 '
-%
-s
+{
+USER_SITE
+}
 '
 "
-%
-USER_SITE
         
 )
 )
@@ -1781,7 +1773,7 @@ self
 .
 user
 =
-0
+False
         
 self
 .
@@ -1871,25 +1863,25 @@ self
 .
 install_path_file
 =
-1
+True
         
 self
 .
 force
 =
-0
+False
         
 self
 .
 skip_build
 =
-0
+False
         
 self
 .
 warn_dir
 =
-1
+True
         
 self
 .
@@ -1970,10 +1962,6 @@ prefix
 /
 home
 or
-"
-                
-+
-"
 install
 -
 base
@@ -3391,6 +3379,7 @@ raise
 DistutilsPlatformError
 (
                     
+f
 "
 I
 don
@@ -3403,14 +3392,13 @@ install
 stuff
 on
 '
-%
-s
-'
-"
-%
+{
 os
 .
 name
+}
+'
+"
                 
 )
     
@@ -3955,14 +3943,13 @@ expanduser
 )
         
 for
-_name
 path
 in
 self
 .
 config_vars
 .
-items
+values
 (
 )
 :
@@ -3993,20 +3980,20 @@ self
 .
 debug_print
 (
+f
 "
 os
 .
 makedirs
 (
 '
-%
-s
+{
+path
+}
 '
 0o700
 )
 "
-%
-path
 )
                 
 os
@@ -4192,6 +4179,7 @@ record
 outputs
 )
                 
+f
 "
 writing
 list
@@ -4200,14 +4188,13 @@ installed
 files
 to
 '
-%
-s
-'
-"
-%
+{
 self
 .
 record
+}
+'
+"
             
 )
         
@@ -4403,13 +4390,13 @@ self
 extra_dirs
 ]
 )
+f
 "
 creating
-%
-s
-"
-%
+{
 filename
+}
+"
             
 )
         
@@ -4420,18 +4407,18 @@ self
 .
 warn
 (
+f
 "
 path
 file
 '
-%
-s
+{
+filename
+}
 '
 not
 created
 "
-%
-filename
 )
     
 def

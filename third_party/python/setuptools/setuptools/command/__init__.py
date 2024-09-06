@@ -1,3 +1,5 @@
+import
+sys
 from
 distutils
 .
@@ -6,8 +8,6 @@ command
 bdist
 import
 bdist
-import
-sys
 if
 '
 egg

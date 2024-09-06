@@ -1,7 +1,7 @@
 import
-unicodedata
-import
 sys
+import
+unicodedata
 from
 configparser
 import

@@ -259,6 +259,12 @@ module
 "
 "
 "
+from
+__future__
+import
+annotations
+import
+contextlib
 import
 io
 import
@@ -266,15 +272,13 @@ os
 import
 shlex
 import
-sys
-import
-tokenize
-import
 shutil
 import
-contextlib
+sys
 import
 tempfile
+import
+tokenize
 import
 warnings
 from
@@ -284,15 +288,14 @@ Path
 from
 typing
 import
+TYPE_CHECKING
 Dict
+Iterable
 Iterator
 List
-Optional
 Union
 import
 setuptools
-import
-distutils
 from
 .
 import
@@ -301,6 +304,7 @@ from
 .
 _path
 import
+StrPath
 same_path
 from
 .
@@ -312,12 +316,22 @@ from
 warnings
 import
 SetuptoolsDeprecationWarning
+import
+distutils
 from
 distutils
 .
 util
 import
 strtobool
+if
+TYPE_CHECKING
+:
+    
+from
+typing_extensions
+import
+TypeAlias
 __all__
 =
 [
@@ -656,7 +670,19 @@ def
 _file_with_extension
 (
 directory
+:
+StrPath
 extension
+:
+str
+|
+tuple
+[
+str
+.
+.
+.
+]
 )
 :
     
@@ -811,8 +837,10 @@ deprecated
         
 yield
 _ConfigSettings
+:
+TypeAlias
 =
-Optional
+Union
 [
 Dict
 [
@@ -827,6 +855,7 @@ str
 None
 ]
 ]
+None
 ]
 "
 "
@@ -995,7 +1024,7 @@ _ConfigSettings
 )
 -
 >
-List
+list
 [
 str
 ]
@@ -2653,9 +2682,6 @@ config_settings
 requirements
 =
 [
-'
-wheel
-'
 ]
 )
     
@@ -3019,14 +3045,38 @@ _build_with_temp_dir
 self
         
 setup_command
+:
+Iterable
+[
+str
+]
         
 result_extension
+:
+str
+|
+tuple
+[
+str
+.
+.
+.
+]
         
 result_directory
+:
+StrPath
         
 config_settings
+:
+_ConfigSettings
         
 arbitrary_args
+:
+Iterable
+[
+str
+]
 =
 (
 )
@@ -3055,33 +3105,23 @@ exist_ok
 True
 )
         
-temp_opts
-=
-{
-"
-prefix
-"
-:
-"
-.
-tmp
--
-"
-"
-dir
-"
-:
-result_directory
-}
-        
 with
 tempfile
 .
 TemporaryDirectory
 (
-*
-*
-temp_opts
+            
+prefix
+=
+"
+.
+tmp
+-
+"
+dir
+=
+result_directory
+        
 )
 as
 tmp_dist_dir
@@ -3202,11 +3242,22 @@ build_wheel
 (
         
 self
+        
 wheel_directory
+:
+StrPath
+        
 config_settings
+:
+_ConfigSettings
 =
 None
+        
 metadata_directory
+:
+StrPath
+|
+None
 =
 None
     
@@ -3252,11 +3303,17 @@ config_settings
 def
 build_sdist
 (
+        
 self
 sdist_directory
+:
+StrPath
 config_settings
+:
+_ConfigSettings
 =
 None
+    
 )
 :
         
@@ -3296,17 +3353,15 @@ _get_dist_info_dir
 self
 metadata_directory
 :
-Optional
-[
-str
-]
+StrPath
+|
+None
 )
 -
 >
-Optional
-[
 str
-]
+|
+None
 :
         
 if
@@ -3370,11 +3425,22 @@ build_editable
 (
             
 self
+            
 wheel_directory
+:
+StrPath
+            
 config_settings
+:
+_ConfigSettings
 =
 None
+            
 metadata_directory
+:
+str
+|
+None
 =
 None
         

@@ -187,13 +187,13 @@ self
 .
 list_classifiers
 =
-0
+False
         
 self
 .
 strict
 =
-0
+False
     
 def
 finalize_options
@@ -397,7 +397,7 @@ check
 .
 restructuredtext
 =
-1
+True
         
 check
 .
@@ -515,19 +515,19 @@ DEFAULT_REPOSITORY
 raise
 ValueError
 (
+f
 '
-%
-s
+{
+self
+.
+repository
+}
 not
 found
 in
 .
 pypirc
 '
-%
-self
-.
-repository
 )
             
 if
@@ -1205,6 +1205,7 @@ self
 announce
 (
                         
+f
 '
 (
 the
@@ -1213,16 +1214,15 @@ will
 be
 stored
 in
-%
-s
-)
-'
-%
+{
 self
 .
 _get_rc_file
 (
 )
+}
+)
+'
                         
 logging
 .
@@ -1589,8 +1589,6 @@ instructions
 in
 it
 to
-'
-'
 complete
 registration
 .
@@ -2067,6 +2065,7 @@ body
 .
 write
 (
+f
 '
 \
 nContent
@@ -2080,12 +2079,11 @@ data
 name
 =
 "
-%
-s
+{
+key
+}
 "
 '
-%
-key
 )
                 
 body
@@ -2177,6 +2175,7 @@ Content
 type
 '
 :
+f
 '
 multipart
 /
@@ -2186,8 +2185,9 @@ data
 ;
 boundary
 =
-%
-s
+{
+boundary
+}
 ;
 charset
 =
@@ -2195,9 +2195,6 @@ utf
 -
 8
 '
-            
-%
-boundary
             
 '
 Content

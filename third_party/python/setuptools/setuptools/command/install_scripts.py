@@ -1,15 +1,7 @@
 from
-distutils
+__future__
 import
-log
-import
-distutils
-.
-command
-.
-install_scripts
-as
-orig
+annotations
 import
 os
 import
@@ -20,6 +12,24 @@ from
 _path
 import
 ensure_directory
+from
+.
+.
+dist
+import
+Distribution
+import
+distutils
+.
+command
+.
+install_scripts
+as
+orig
+from
+distutils
+import
+log
 class
 install_scripts
 (
@@ -44,6 +54,10 @@ scripts
 "
 "
 "
+    
+distribution
+:
+Distribution
     
 def
 initialize_options
@@ -72,6 +86,9 @@ run
 (
 self
 )
+-
+>
+None
 :
         
 self
@@ -106,6 +123,11 @@ else
 self
 .
 outfiles
+:
+list
+[
+str
+]
 =
 [
 ]

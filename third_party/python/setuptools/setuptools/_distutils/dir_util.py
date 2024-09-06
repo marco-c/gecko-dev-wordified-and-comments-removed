@@ -33,8 +33,9 @@ DistutilsFileError
 DistutilsInternalError
 _path_created
 =
-{
-}
+set
+(
+)
 def
 mkpath
 (
@@ -44,10 +45,10 @@ mode
 0o777
 verbose
 =
-1
+True
 dry_run
 =
-0
+False
 )
 :
     
@@ -278,10 +279,6 @@ return
 created_dirs
     
 if
-_path_created
-.
-get
-(
 os
 .
 path
@@ -290,7 +287,8 @@ abspath
 (
 name
 )
-)
+in
+_path_created
 :
         
 return
@@ -384,12 +382,9 @@ head
 )
         
 if
-_path_created
-.
-get
-(
 abs_head
-)
+in
+_path_created
 :
             
 continue
@@ -494,11 +489,11 @@ head
 )
         
 _path_created
-[
+.
+add
+(
 abs_head
-]
-=
-1
+)
     
 return
 created_dirs
@@ -512,10 +507,10 @@ mode
 0o777
 verbose
 =
-1
+True
 dry_run
 =
-0
+False
 )
 :
     
@@ -686,27 +681,27 @@ dst
     
 preserve_mode
 =
-1
+True
     
 preserve_times
 =
-1
+True
     
 preserve_symlinks
 =
-0
+False
     
 update
 =
-0
+False
     
 verbose
 =
-1
+True
     
 dry_run
 =
-0
+False
 )
 :
     
@@ -983,21 +978,21 @@ src
 raise
 DistutilsFileError
 (
+f
 "
 cannot
 copy
 tree
 '
-%
-s
+{
+src
+}
 '
 :
 not
 a
 directory
 "
-%
-src
 )
     
 try
@@ -1362,10 +1357,10 @@ remove_tree
 directory
 verbose
 =
-1
+True
 dry_run
 =
-0
+False
 )
 :
     
@@ -1494,7 +1489,7 @@ _path_created
                 
 _path_created
 .
-pop
+remove
 (
 abspath
 )
