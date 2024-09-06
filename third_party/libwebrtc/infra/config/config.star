@@ -6148,6 +6148,15 @@ win_chromium_compile_dbg
 try_builder
 (
 "
+iwyu_verifier
+"
+cq
+=
+None
+)
+try_builder
+(
+"
 presubmit
 "
 recipe

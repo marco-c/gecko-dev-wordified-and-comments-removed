@@ -2813,6 +2813,12 @@ ios_simulator_tests_matrix
 }
 }
 '
+iwyu_verifier
+'
+:
+{
+}
+'
 linux_asan
 '
 :
