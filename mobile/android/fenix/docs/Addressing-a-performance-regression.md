@@ -144,7 +144,6 @@ page
 .
 #
 #
-#
 What
 to
 do
@@ -381,7 +380,6 @@ commit
 .
 #
 #
-#
 Install
 the
 required
@@ -462,7 +460,6 @@ through
 the
 scripts
 .
-#
 #
 #
 Finding
@@ -1064,7 +1061,6 @@ introduced
 the
 regression
 .
-#
 #
 #
 Using

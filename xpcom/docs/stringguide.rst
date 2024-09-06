@@ -4478,6 +4478,7 @@ not
 use
 iconv
 on
+\
 *
 nix
 .
@@ -4492,6 +4493,7 @@ encoded
 file
 paths
 on
+\
 *
 nix
 non
@@ -10035,10 +10037,6 @@ const
 self_type
 &
 comparator_type
-=
-.
-.
-.
 )
 const
 .

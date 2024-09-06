@@ -66,7 +66,6 @@ knowledge
 !
 #
 #
-#
 Comparison
 of
 systems

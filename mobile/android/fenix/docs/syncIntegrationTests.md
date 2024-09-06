@@ -4,7 +4,6 @@ Integration
 Tests
 #
 #
-#
 Sync
 Integration
 Tests
@@ -51,7 +50,6 @@ Bookmarks
 are
 defined
 .
-#
 #
 #
 Steps
@@ -188,7 +186,6 @@ item
 is
 there
 .
-#
 #
 #
 Results

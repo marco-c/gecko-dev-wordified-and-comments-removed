@@ -242,7 +242,6 @@ performed
 #
 #
 #
-#
 Full
 -
 functional
@@ -304,7 +303,6 @@ phone
 #
 #
 #
-#
 Smoke
 &
 sanity
@@ -354,7 +352,6 @@ on
 all
 major
 functionalities
-#
 #
 #
 #
@@ -415,7 +412,6 @@ that
 might
 be
 affected
-#
 #
 #
 #
@@ -496,7 +492,6 @@ fix
 #
 #
 #
-#
 Localization
 testing
 -
@@ -557,7 +552,6 @@ Pontoon
 #
 #
 #
-#
 Search
 testing
 -
@@ -595,7 +589,6 @@ codes
 VPN
 )
 .
-#
 #
 #
 #
@@ -675,7 +668,6 @@ size
 #
 #
 #
-#
 Bug
 triage
 -
@@ -713,7 +705,6 @@ provided
 by
 the
 user
-#
 #
 #
 #

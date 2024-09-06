@@ -1556,7 +1556,6 @@ weight
 #
 #
 #
-#
 Font
 size
 <
@@ -1925,7 +1924,6 @@ tbody
 /
 table
 >
-#
 #
 #
 #

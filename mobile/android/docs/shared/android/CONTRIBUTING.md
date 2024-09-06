@@ -167,7 +167,6 @@ know
 !
 #
 #
-#
 Communication
 For
 each

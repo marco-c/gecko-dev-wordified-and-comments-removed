@@ -4,7 +4,6 @@ Screenshots
 Test
 #
 #
-#
 Screenshtos
 Tests
 We
@@ -83,7 +82,6 @@ screenshots
 )
 #
 #
-#
 Run
 tests
 locally
@@ -145,7 +143,6 @@ not
 be
 saved
 .
-#
 #
 #
 Run

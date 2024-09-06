@@ -40,7 +40,6 @@ pull
 -
 -
 #
-#
 Summary
 The
 wallpapers
@@ -106,7 +105,6 @@ version
 -
 -
 -
-#
 #
 Motivation
 The
@@ -299,7 +297,6 @@ possible
 -
 -
 -
-#
 #
 Guide
 -
@@ -776,7 +773,6 @@ download
 -
 -
 #
-#
 Drawbacks
 -
 JSON
@@ -807,7 +803,6 @@ parse
 the
 schema
 .
-#
 #
 Rationale
 and

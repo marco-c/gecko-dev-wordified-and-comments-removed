@@ -4,7 +4,6 @@ local
 GeckoView
 #
 #
-#
 1
 .
 Manually
@@ -94,7 +93,6 @@ ex
 -
 SNAPSHOT
 )
-#
 #
 #
 2
@@ -529,7 +527,6 @@ omni
 "
 )
 }
-#
 #
 #
 3
