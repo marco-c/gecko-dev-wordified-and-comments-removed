@@ -48,6 +48,17 @@ WifiScannerImpl
 (
 )
 ;
+bool
+HasWifiAdapter
+(
+)
+{
+return
+!
+!
+mWlanLibrary
+;
+}
 nsresult
 GetAccessPointsFromWLAN
 (
