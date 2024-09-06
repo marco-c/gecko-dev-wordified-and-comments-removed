@@ -67,6 +67,12 @@ kNaluTypeSize
 =
 1
 ;
+constexpr
+int
+kMaxReferenceIndex
+=
+31
+;
 enum
 NaluType
 :
