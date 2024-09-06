@@ -207,9 +207,10 @@ BitrateAdjusterCanUseNetworkHeadroom
 )
 use_newfangled_headroom_adjustment_
 (
+!
 field_trials
 .
-IsEnabled
+IsDisabled
 (
 "
 WebRTC
