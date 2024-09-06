@@ -7,10 +7,6 @@ binding_model
 :
 :
 BindGroup
-hal_api
-:
-:
-HalApi
 id
 pipeline
 :
@@ -384,11 +380,6 @@ replay
 pub
 fn
 resolve_render_command_ids
-<
-A
-:
-HalApi
->
 (
 hub
 :
@@ -400,9 +391,6 @@ hub
 :
 :
 Hub
-<
-A
->
 commands
 :
 &
@@ -417,9 +405,6 @@ Result
 Vec
 <
 ArcRenderCommand
-<
-A
->
 >
 super
 :
@@ -500,9 +485,6 @@ resolved_commands
 Vec
 <
 ArcRenderCommand
-<
-A
->
 >
 =
 commands
@@ -521,9 +503,6 @@ c
 Result
 <
 ArcRenderCommand
-<
-A
->
 RenderPassError
 >
 {
@@ -1390,11 +1369,6 @@ Debug
 pub
 enum
 ArcRenderCommand
-<
-A
-:
-HalApi
->
 {
 SetBindGroup
 {
@@ -1409,9 +1383,6 @@ bind_group
 Arc
 <
 BindGroup
-<
-A
->
 >
 }
 SetPipeline
@@ -1419,9 +1390,6 @@ SetPipeline
 Arc
 <
 RenderPipeline
-<
-A
->
 >
 )
 SetIndexBuffer
@@ -1431,9 +1399,6 @@ buffer
 Arc
 <
 Buffer
-<
-A
->
 >
 index_format
 :
@@ -1461,9 +1426,6 @@ buffer
 Arc
 <
 Buffer
-<
-A
->
 >
 offset
 :
@@ -1566,9 +1528,6 @@ buffer
 Arc
 <
 Buffer
-<
-A
->
 >
 offset
 :
@@ -1590,9 +1549,6 @@ buffer
 Arc
 <
 Buffer
-<
-A
->
 >
 offset
 :
@@ -1602,9 +1558,6 @@ count_buffer
 Arc
 <
 Buffer
-<
-A
->
 >
 count_buffer_offset
 :
@@ -1642,9 +1595,6 @@ query_set
 Arc
 <
 QuerySet
-<
-A
->
 >
 query_index
 :
@@ -1664,9 +1614,6 @@ query_set
 Arc
 <
 QuerySet
-<
-A
->
 >
 query_index
 :
@@ -1678,9 +1625,6 @@ ExecuteBundle
 Arc
 <
 RenderBundle
-<
-A
->
 >
 )
 }

@@ -121,11 +121,6 @@ ident
 >
 {
 impl
-<
-A
-:
-HalApi
->
 crate
 :
 :
@@ -135,9 +130,6 @@ storage
 StorageItem
 for
 ty
-<
-A
->
 {
 type
 Marker

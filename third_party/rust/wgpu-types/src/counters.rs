@@ -62,6 +62,10 @@ InternalCounter
 [
 inline
 ]
+#
+[
+must_use
+]
 pub
 const
 fn
@@ -152,6 +156,10 @@ counters
 [
 inline
 ]
+#
+[
+must_use
+]
 pub
 fn
 read
@@ -221,6 +229,10 @@ counters
 #
 [
 inline
+]
+#
+[
+must_use
 ]
 pub
 fn

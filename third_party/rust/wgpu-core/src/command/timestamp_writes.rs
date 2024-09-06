@@ -11,13 +11,7 @@ use
 crate
 :
 :
-{
-hal_api
-:
-:
-HalApi
 id
-}
 ;
 #
 [
@@ -80,11 +74,6 @@ u32
 pub
 struct
 ArcPassTimestampWrites
-<
-A
-:
-HalApi
->
 {
 pub
 query_set
@@ -98,9 +87,6 @@ resource
 :
 :
 QuerySet
-<
-A
->
 >
 pub
 beginning_of_pass_write_index

@@ -299,7 +299,7 @@ serde_json
 .
 0
 .
-124
+125
 "
 [
 dev
@@ -381,7 +381,7 @@ sys
 .
 3
 .
-69
+70
 "
 [
 target
@@ -412,13 +412,16 @@ version
 .
 3
 .
-69
+70
 "
 features
 =
 [
 "
 ImageBitmap
+"
+"
+ImageData
 "
 "
 HtmlVideoElement

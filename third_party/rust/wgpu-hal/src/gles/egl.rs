@@ -7208,13 +7208,6 @@ mut
 temp_xcb_handle
 )
 ;
-#
-[
-allow
-(
-trivial_casts
-)
-]
 let
 native_window_ptr
 =
