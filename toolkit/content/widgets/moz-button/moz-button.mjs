@@ -986,6 +986,11 @@ moz
 -
 label
 "
+part
+=
+"
+label
+"
 shownaccesskey
 =
 {
