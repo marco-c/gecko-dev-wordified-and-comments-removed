@@ -552,10 +552,6 @@ MAX_IOCOMPLETION_PORT_NOTIFICATION_DELAY
 =
 180
         
-MAX_PROCESS_KILL_DELAY
-=
-30
-        
 TIMEOUT_BEFORE_SIGKILL
 =
 1
@@ -3064,27 +3060,6 @@ port
 "
 )
                     
-if
-timeout
-is
-None
-:
-                        
-timeout
-=
-(
-                            
-self
-.
-MAX_IOCOMPLETION_PORT_NOTIFICATION_DELAY
-                            
-+
-self
-.
-MAX_PROCESS_KILL_DELAY
-                        
-)
-                    
 try
 :
                         
@@ -3136,6 +3111,12 @@ _process_events
 task_done
 (
 )
+                    
+except
+Empty
+:
+                        
+pass
                     
 except
 Exception
@@ -3314,31 +3295,7 @@ winprocess
 WAIT_TIMEOUT
 :
                         
-print
-(
-                            
-"
-Timed
-out
-waiting
-for
-process
-to
-close
-"
-                            
-"
-attempting
-TerminateProcess
-"
-                        
-)
-                        
-self
-.
-kill
-(
-)
+pass
                     
 elif
 rc
