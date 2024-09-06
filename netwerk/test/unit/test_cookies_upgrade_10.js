@@ -212,15 +212,13 @@ SHUTDOWN_PHASE_APPSHUTDOWN
 ;
 Assert
 .
-ok
+equal
 (
+13
 getDBVersion
 (
 destFile
 )
->
-=
-13
 )
 ;
 Assert

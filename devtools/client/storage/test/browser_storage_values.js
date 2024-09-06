@@ -1526,11 +1526,11 @@ set
 [
 [
 "
-network
+privacy
 .
-cookie
+documentCookies
 .
-maxageCap
+maxage
 "
 0
 ]
