@@ -1610,12 +1610,6 @@ WasLaunchedAtLogin
 )
 ;
 static
-BOOL
-ShouldRestoreStateDueToLaunchAtLoginImpl
-(
-)
-;
-static
 PromiseArray
 sVideoCapturePromises
 ;
