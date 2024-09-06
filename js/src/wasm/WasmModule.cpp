@@ -336,10 +336,6 @@ maybeFuncIndex
 isSome
 (
 )
-!
-error
-&
-&
 warnings
 .
 length

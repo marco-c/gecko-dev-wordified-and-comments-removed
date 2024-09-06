@@ -4238,6 +4238,9 @@ unlock
 locked
 )
 ;
+UniqueChars
+error
+;
 bool
 success
 =
@@ -4246,10 +4249,9 @@ CompilePartialTier2
 *
 code_
 funcIndex_
-)
-;
-UniqueChars
+&
 error
+)
 ;
 UniqueCharsVector
 warnings
