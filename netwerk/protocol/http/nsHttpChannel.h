@@ -2406,6 +2406,13 @@ difftime_ms
 )
 ;
 void
+ReportSystemChannelTelemetry
+(
+nsresult
+status
+)
+;
+void
 ReportRcwnStats
 (
 bool
