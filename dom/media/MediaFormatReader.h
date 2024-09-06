@@ -721,14 +721,6 @@ MediaFormatReaderDebugInfo
 aInfo
 )
 ;
-Maybe
-<
-nsCString
->
-GetAudioProcessPerCodec
-(
-)
-;
 void
 SetVideoNullDecode
 (
