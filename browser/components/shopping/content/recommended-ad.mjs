@@ -460,6 +460,13 @@ this
 product
 .
 aid
+sponsored
+:
+this
+.
+product
+.
+sponsored
 }
 }
 )
@@ -537,6 +544,13 @@ this
 product
 .
 aid
+sponsored
+:
+this
+.
+product
+.
+sponsored
 }
 }
 )
