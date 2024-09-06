@@ -6976,6 +6976,16 @@ attribute
 boolean
 isMozAfterPaintPending
 ;
+readonly
+attribute
+boolean
+isWindowFullyOccluded
+;
+readonly
+attribute
+boolean
+isCompositorPaused
+;
 /
 *
 *
