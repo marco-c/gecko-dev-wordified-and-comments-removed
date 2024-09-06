@@ -894,13 +894,10 @@ meh
 to
 "
 Tu
-un
-savi
-uu
-Yasi
 '
-Yuku
-Iti
+un
+Savi
+Yucuhiti
 "
 "
 nb

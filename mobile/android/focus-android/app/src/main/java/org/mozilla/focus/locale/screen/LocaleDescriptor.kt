@@ -388,13 +388,10 @@ meh
 =
 "
 Tu
-un
-savi
-uu
-Yasi
 '
-Yuku
-Iti
+un
+Savi
+Yucuhiti
 "
 languageCodeAndNameMap
 [
