@@ -358,6 +358,11 @@ redirect_auto
 sjs
 "
 "
+redirect_to
+.
+sjs
+"
+"
 redirection
 .
 sjs

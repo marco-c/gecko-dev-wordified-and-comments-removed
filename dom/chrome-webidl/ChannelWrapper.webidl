@@ -2614,7 +2614,7 @@ party
 /
 [
 Cached
-Constant
+Pure
 ]
 readonly
 attribute

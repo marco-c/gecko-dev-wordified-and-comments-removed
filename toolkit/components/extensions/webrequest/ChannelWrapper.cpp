@@ -1079,6 +1079,14 @@ this
 ChannelWrapper_Binding
 :
 :
+ClearCachedThirdPartyValue
+(
+this
+)
+;
+ChannelWrapper_Binding
+:
+:
 ClearCachedCanModifyValue
 (
 this
