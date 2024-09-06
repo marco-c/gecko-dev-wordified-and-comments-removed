@@ -5308,13 +5308,6 @@ Bug
 1525959
 [
 "
-test_drag_drop_shadow_crossing_selection
-.
-html
-"
-]
-[
-"
 test_element
 .
 matches
