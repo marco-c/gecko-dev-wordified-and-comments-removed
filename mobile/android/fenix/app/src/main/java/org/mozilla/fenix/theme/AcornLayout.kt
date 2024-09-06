@@ -1884,8 +1884,7 @@ the
 user
 '
 s
-app
-window
+device
 is
 at
 least
@@ -1949,8 +1948,7 @@ the
 user
 '
 s
-app
-window
+device
 is
 at
 least
