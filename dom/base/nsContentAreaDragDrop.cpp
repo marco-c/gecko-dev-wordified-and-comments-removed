@@ -3663,7 +3663,7 @@ if
 inSelection
 -
 >
-IsCollapsed
+AreNormalAndCrossShadowBoundaryRangesCollapsed
 (
 )
 )
@@ -3691,7 +3691,7 @@ selectionStart
 inSelection
 -
 >
-GetAnchorNode
+GetMayCrossShadowBoundaryAnchorNode
 (
 )
 ;
@@ -3702,7 +3702,7 @@ selectionEnd
 inSelection
 -
 >
-GetFocusNode
+GetMayCrossShadowBoundaryFocusNode
 (
 )
 ;
