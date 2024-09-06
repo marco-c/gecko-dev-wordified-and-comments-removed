@@ -370,7 +370,7 @@ std
 :
 conditional
 <
-DiagnosticAssertEnabled
+ReleaseAssertEnabled
 :
 :
 value
