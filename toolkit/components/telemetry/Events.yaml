@@ -2697,9 +2697,7 @@ com
 ]
 expiry_version
 :
-"
-132
-"
+never
 products
 :
 -
@@ -2721,6 +2719,7 @@ bug_numbers
 1763529
 1811159
 1861296
+1912167
 ]
 release_channel_collection
 :
