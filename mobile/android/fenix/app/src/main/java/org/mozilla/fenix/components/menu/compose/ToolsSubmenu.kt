@@ -755,7 +755,7 @@ R
 .
 drawable
 .
-mozac_ic_translate_24
+mozac_ic_translate_active_24
 )
 state
 =
