@@ -739,9 +739,11 @@ next_schedule_index_
 {
 delay
 =
-webrtc
+std
 :
 :
+max
+(
 TimeDelta
 :
 :
@@ -765,6 +767,13 @@ time_since_first_sent_packet_ms
 time_since_first_sent_packet
 -
 wrap_time_delta_
+)
+TimeDelta
+:
+:
+Zero
+(
+)
 )
 ;
 }
