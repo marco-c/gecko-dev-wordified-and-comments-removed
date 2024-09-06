@@ -1325,11 +1325,8 @@ openTopSiteTabWithTitle
 pocketTopArticles
 )
 {
-waitForPageToLoad
+verifyPocketPageContent
 (
-pageLoadWaitingTime
-=
-waitingTimeLong
 )
 }
 .
