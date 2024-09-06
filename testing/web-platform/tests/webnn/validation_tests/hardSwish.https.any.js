@@ -17,12 +17,11 @@ label
 hard_swish
 '
 ;
-validateUnaryOperation
+validateSingleInputOperation
 (
 '
 hardSwish
 '
-floatingPointTypes
 label
 )
 ;

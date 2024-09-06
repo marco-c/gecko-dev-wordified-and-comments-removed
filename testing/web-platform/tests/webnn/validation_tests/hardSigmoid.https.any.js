@@ -17,12 +17,11 @@ label
 hard_sigmoid
 '
 ;
-validateUnaryOperation
+validateSingleInputOperation
 (
 '
 hardSigmoid
 '
-floatingPointTypes
 label
 )
 ;
