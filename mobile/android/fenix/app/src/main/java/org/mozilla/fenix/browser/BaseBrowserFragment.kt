@@ -6746,13 +6746,14 @@ requireComponents
 backgroundServices
 .
 serverConfig
-activityReceiver
+activityRef
 =
-{
+WeakReference
+(
 getActivity
 (
 )
-}
+)
 )
 owner
 =
