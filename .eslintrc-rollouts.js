@@ -6420,16 +6420,6 @@ tests
 "
 dom
 /
-websocket
-/
-tests
-/
-*
-*
-"
-"
-dom
-/
 workers
 /
 test
