@@ -3243,6 +3243,8 @@ toolchain
 -
 macosx64
 -
+aarch64
+-
 clang
 -
 18
@@ -7684,6 +7686,8 @@ toolchain
 :
 -
 macosx64
+-
+aarch64
 -
 clang
 -
