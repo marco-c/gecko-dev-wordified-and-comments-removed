@@ -102,13 +102,6 @@ pack_relative_relocs_flags
 )
 return
 flags
-add_old_configure_assignment
-(
-"
-LDFLAGS
-"
-os_ldflags
-)
 set_config
 (
 "

@@ -2695,13 +2695,6 @@ paths
 =
 clang_search_path
 )
-add_old_configure_assignment
-(
-"
-LINKER
-"
-link
-)
 option
 (
 "
