@@ -4006,9 +4006,6 @@ FirefoxTheme
 {
 Column
 {
-Divider
-(
-)
 if
 (
 !
@@ -4062,6 +4059,9 @@ updateToolbarViewUIForMicrosurveyPrompt
 (
 )
 }
+Divider
+(
+)
 MicrosurveyRequestPrompt
 (
 microsurvey
@@ -4894,9 +4894,6 @@ FirefoxTheme
 {
 Column
 {
-Divider
-(
-)
 val
 activity
 =
@@ -4969,6 +4966,9 @@ updateToolbarViewUIForMicrosurveyPrompt
 (
 )
 }
+Divider
+(
+)
 MicrosurveyRequestPrompt
 (
 microsurvey
