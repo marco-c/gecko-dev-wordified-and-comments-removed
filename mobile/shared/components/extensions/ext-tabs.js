@@ -2525,6 +2525,7 @@ browser
 .
 goForward
 (
+false
 )
 ;
 }
@@ -2547,6 +2548,7 @@ browser
 .
 goBack
 (
+false
 )
 ;
 }
