@@ -425,7 +425,7 @@ enough
 "
 )
 ;
-uint64_t
+size_t
 wasm
 :
 :
