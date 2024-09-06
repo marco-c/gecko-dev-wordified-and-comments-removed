@@ -7231,7 +7231,13 @@ prop
 .
 priority
 )
-;
+.
+then
+(
+(
+)
+=
+>
 this
 .
 ruleView
@@ -7247,6 +7253,7 @@ by
 -
 dragging
 "
+)
 )
 ;
 this
