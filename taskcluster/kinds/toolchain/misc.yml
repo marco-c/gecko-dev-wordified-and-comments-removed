@@ -2548,6 +2548,15 @@ vs
 tar
 .
 zst
+toolchain
+-
+alias
+:
+win64
+-
+aarch64
+-
+vs
 linux64
 -
 afl
