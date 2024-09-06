@@ -69,6 +69,14 @@ bookmarks
 .
 ui
 import
+kotlinx
+.
+coroutines
+.
+test
+.
+advanceUntilIdle
+import
 mozilla
 .
 appservices
@@ -269,6 +277,9 @@ store
 waitUntilIdle
 (
 )
+advanceUntilIdle
+(
+)
 assertEquals
 (
 10
@@ -364,6 +375,9 @@ folder
 store
 .
 waitUntilIdle
+(
+)
+advanceUntilIdle
 (
 )
 assertEquals
