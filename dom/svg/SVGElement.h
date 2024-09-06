@@ -555,16 +555,8 @@ const
 ;
 virtual
 gfxMatrix
-PrependLocalTransformsTo
+ChildToUserSpaceTransform
 (
-const
-gfxMatrix
-&
-aMatrix
-SVGTransformTypes
-aWhich
-=
-eAllTransforms
 )
 const
 ;
