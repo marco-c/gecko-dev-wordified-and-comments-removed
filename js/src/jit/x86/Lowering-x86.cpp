@@ -2350,7 +2350,7 @@ isInt32
 |
 access
 .
-offset
+offset32
 (
 )
 =
@@ -2401,7 +2401,7 @@ v
 =
 access
 .
-offset
+offset32
 (
 )
 ;

@@ -3888,7 +3888,7 @@ access
 (
 )
 .
-offset
+offset32
 (
 )
 ;
@@ -4097,7 +4097,7 @@ offset
 =
 access
 .
-offset
+offset32
 (
 )
 ;
@@ -4335,7 +4335,7 @@ access
 (
 )
 .
-offset
+offset32
 (
 )
 )
@@ -4511,7 +4511,7 @@ access
 (
 )
 .
-offset
+offset32
 (
 )
 )
@@ -4760,7 +4760,7 @@ access
 (
 )
 .
-offset
+offset32
 (
 )
 )
@@ -5006,7 +5006,7 @@ access
 (
 )
 .
-offset
+offset32
 (
 )
 )
