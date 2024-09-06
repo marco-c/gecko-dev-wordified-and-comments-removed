@@ -65591,10 +65591,6 @@ GetSimulcastConfig
 num_configured_streams
 capture_width
 capture_height
-webrtc
-:
-:
-kDefaultBitratePriority
 kDefaultVideoMaxQpVpx
 screenshare
 &

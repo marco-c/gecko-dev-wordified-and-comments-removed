@@ -56,14 +56,6 @@ kQpMax
 55
 ;
 constexpr
-double
-kBitratePriority
-=
-2
-.
-0
-;
-constexpr
 bool
 kScreenshare
 =
@@ -532,7 +524,6 @@ kMinLayers
 kMaxLayers
 1280
 720
-kBitratePriority
 kQpMax
 !
 kScreenshare
@@ -738,37 +729,6 @@ active
 )
 ;
 }
-EXPECT_EQ
-(
-kBitratePriority
-streams
-[
-0
-]
-.
-bitrate_priority
-)
-;
-EXPECT_FALSE
-(
-streams
-[
-1
-]
-.
-bitrate_priority
-)
-;
-EXPECT_FALSE
-(
-streams
-[
-2
-]
-.
-bitrate_priority
-)
-;
 }
 TEST
 (
@@ -833,7 +793,6 @@ kMinLayers
 kMaxLayers
 1280
 720
-kBitratePriority
 kQpMax
 !
 kScreenshare
@@ -1034,7 +993,6 @@ kMinLayers
 kMaxLayers
 1280
 720
-kBitratePriority
 kQpMax
 !
 kScreenshare
@@ -1150,7 +1108,6 @@ kMinLayers
 kMaxLayers
 800
 600
-kBitratePriority
 kQpMax
 !
 kScreenshare
@@ -1266,7 +1223,6 @@ kMinLayers
 kMaxLayers
 100
 100
-kBitratePriority
 kQpMax
 kScreenshare
 true
@@ -1337,7 +1293,6 @@ kMinLayers
 kMaxLayers
 800
 600
-kBitratePriority
 kQpMax
 !
 kScreenshare
@@ -1473,7 +1428,6 @@ kMaxLayers
 360
 +
 1
-kBitratePriority
 kQpMax
 !
 kScreenshare
@@ -1591,7 +1545,6 @@ kMinLayers
 kMaxLayers
 709
 501
-kBitratePriority
 kQpMax
 !
 kScreenshare
@@ -1709,7 +1662,6 @@ kMinLayers
 kMaxLayers
 709
 501
-kBitratePriority
 kQpMax
 !
 kScreenshare
@@ -1825,7 +1777,6 @@ kMinLayers
 kMaxLayers
 320
 180
-kBitratePriority
 kQpMax
 !
 kScreenshare
@@ -1858,7 +1809,6 @@ kMinLayers
 kMaxLayers
 640
 360
-kBitratePriority
 kQpMax
 !
 kScreenshare
@@ -1891,7 +1841,6 @@ kMinLayers
 kMaxLayers
 1920
 1080
-kBitratePriority
 kQpMax
 !
 kScreenshare
@@ -1963,7 +1912,6 @@ kMinLayers
 kMaxLayers
 320
 180
-kBitratePriority
 kQpMax
 !
 kScreenshare
@@ -1996,7 +1944,6 @@ kMinLayers
 kMaxLayers
 640
 360
-kBitratePriority
 kQpMax
 !
 kScreenshare
@@ -2029,7 +1976,6 @@ kMinLayers
 kMaxLayers
 1920
 1080
-kBitratePriority
 kQpMax
 !
 kScreenshare
@@ -2095,7 +2041,6 @@ kMinLayers
 kMaxLayers
 1400
 800
-kBitratePriority
 kQpMax
 kScreenshare
 true
@@ -2310,7 +2255,6 @@ kMinLayers
 kMaxLayers
 1400
 800
-kBitratePriority
 kQpMax
 kScreenshare
 true
@@ -2375,7 +2319,6 @@ kMinLayers
 kMaxLayers
 900
 800
-kBitratePriority
 kQpMax
 !
 kScreenshare
@@ -2522,7 +2465,6 @@ kMinLayers
 kMaxLayers
 kWidth
 kHeight
-kBitratePriority
 kQpMax
 !
 kScreenshare
@@ -2694,7 +2636,6 @@ kMinLayers
 kMaxLayers
 960
 540
-kBitratePriority
 kQpMax
 !
 kScreenshare
@@ -2727,7 +2668,6 @@ kMinLayers
 kMaxLayers
 960
 539
-kBitratePriority
 kQpMax
 !
 kScreenshare
@@ -2760,7 +2700,6 @@ kMinLayers
 kMaxLayers
 480
 270
-kBitratePriority
 kQpMax
 !
 kScreenshare
@@ -2793,7 +2732,6 @@ kMinLayers
 kMaxLayers
 480
 269
-kBitratePriority
 kQpMax
 !
 kScreenshare
@@ -2861,7 +2799,6 @@ kMinLayers
 kMaxLayers
 960
 540
-kBitratePriority
 kQpMax
 !
 kScreenshare
@@ -2894,7 +2831,6 @@ kMinLayers
 kMaxLayers
 960
 512
-kBitratePriority
 kQpMax
 !
 kScreenshare
@@ -2927,7 +2863,6 @@ kMinLayers
 kMaxLayers
 960
 508
-kBitratePriority
 kQpMax
 !
 kScreenshare
@@ -2960,7 +2895,6 @@ kMinLayers
 kMaxLayers
 480
 270
-kBitratePriority
 kQpMax
 !
 kScreenshare
@@ -2993,7 +2927,6 @@ kMinLayers
 kMaxLayers
 480
 256
-kBitratePriority
 kQpMax
 !
 kScreenshare
@@ -3026,7 +2959,6 @@ kMinLayers
 kMaxLayers
 480
 254
-kBitratePriority
 kQpMax
 !
 kScreenshare
@@ -3104,7 +3036,6 @@ kMinLayers
 kMaxLayers
 480
 270
-kBitratePriority
 kQpMax
 !
 kScreenshare
@@ -3137,7 +3068,6 @@ kMinLayers
 kMaxLayers
 480
 252
-kBitratePriority
 kQpMax
 !
 kScreenshare
@@ -3170,7 +3100,6 @@ kMinLayers
 kMaxLayers
 480
 250
-kBitratePriority
 kQpMax
 !
 kScreenshare
@@ -3236,7 +3165,6 @@ GetSimulcastConfig
 kMaxLayers
 960
 540
-kBitratePriority
 kQpMax
 !
 kScreenshare
@@ -3351,7 +3279,6 @@ GetSimulcastConfig
 3
 1
 1
-kBitratePriority
 kQpMax
 !
 kScreenshare
@@ -3472,7 +3399,6 @@ GetSimulcastConfig
 kMaxLayers
 960
 540
-kBitratePriority
 kQpMax
 !
 kScreenshare
@@ -3587,7 +3513,6 @@ GetSimulcastConfig
 3
 1280
 720
-kBitratePriority
 kQpMax
 !
 kScreenshare
@@ -3617,7 +3542,6 @@ GetSimulcastConfig
 3
 1280
 720
-kBitratePriority
 kQpMax
 !
 kScreenshare
@@ -3847,7 +3771,6 @@ GetSimulcastConfig
 kMaxLayers
 1280
 720
-kBitratePriority
 kQpMax
 !
 kScreenshare
@@ -3935,7 +3858,6 @@ GetSimulcastConfig
 kMaxLayers
 1276
 716
-kBitratePriority
 kQpMax
 !
 kScreenshare

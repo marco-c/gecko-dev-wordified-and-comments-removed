@@ -8584,9 +8584,6 @@ vc
 -
 >
 height
-1
-.
-0
 cricket
 :
 :

@@ -2042,8 +2042,6 @@ int
 width
 int
 height
-double
-bitrate_priority
 int
 max_qp
 bool
@@ -2107,7 +2105,6 @@ GetScreenshareLayers
 max_layers
 width
 height
-bitrate_priority
 max_qp
 temporal_layers_supported
 base_heavy_tl3_rate_alloc
@@ -2135,7 +2132,6 @@ GetNormalSimulcastLayers
 max_layers
 width
 height
-bitrate_priority
 max_qp
 temporal_layers_supported
 base_heavy_tl3_rate_alloc
@@ -2163,8 +2159,6 @@ int
 width
 int
 height
-double
-bitrate_priority
 int
 max_qp
 bool
@@ -2550,15 +2544,6 @@ break
 ;
 }
 }
-layers
-[
-0
-]
-.
-bitrate_priority
-=
-bitrate_priority
-;
 return
 layers
 ;
@@ -2581,8 +2566,6 @@ int
 width
 int
 height
-double
-bitrate_priority
 int
 max_qp
 bool
@@ -2872,15 +2855,6 @@ max_bitrate_bps
 max_bitrate_bps
 ;
 }
-layers
-[
-0
-]
-.
-bitrate_priority
-=
-bitrate_priority
-;
 return
 layers
 ;
