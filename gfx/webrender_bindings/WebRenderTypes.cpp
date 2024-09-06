@@ -234,7 +234,7 @@ wr
 RepeatMode
 ToRepeatMode
 (
-StyleBorderImageRepeat
+StyleBorderImageRepeatKeyword
 aRepeat
 )
 {
@@ -244,7 +244,7 @@ aRepeat
 )
 {
 case
-StyleBorderImageRepeat
+StyleBorderImageRepeatKeyword
 :
 :
 Stretch
@@ -259,7 +259,7 @@ RepeatMode
 Stretch
 ;
 case
-StyleBorderImageRepeat
+StyleBorderImageRepeatKeyword
 :
 :
 Repeat
@@ -274,7 +274,7 @@ RepeatMode
 Repeat
 ;
 case
-StyleBorderImageRepeat
+StyleBorderImageRepeatKeyword
 :
 :
 Round
@@ -289,7 +289,7 @@ RepeatMode
 Round
 ;
 case
-StyleBorderImageRepeat
+StyleBorderImageRepeatKeyword
 :
 :
 Space

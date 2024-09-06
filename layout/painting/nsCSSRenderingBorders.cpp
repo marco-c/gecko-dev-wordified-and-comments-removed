@@ -16452,7 +16452,7 @@ j
 +
 )
 {
-StyleBorderImageRepeat
+StyleBorderImageRepeatKeyword
 fillStyleH
 fillStyleV
 ;
@@ -16732,7 +16732,7 @@ mRepeatModeHorizontal
 ;
 fillStyleV
 =
-StyleBorderImageRepeat
+StyleBorderImageRepeatKeyword
 :
 :
 Stretch
@@ -16813,7 +16813,7 @@ factor
 ;
 fillStyleH
 =
-StyleBorderImageRepeat
+StyleBorderImageRepeatKeyword
 :
 :
 Stretch
@@ -16845,14 +16845,14 @@ j
 ;
 fillStyleH
 =
-StyleBorderImageRepeat
+StyleBorderImageRepeatKeyword
 :
 :
 Stretch
 ;
 fillStyleV
 =
-StyleBorderImageRepeat
+StyleBorderImageRepeatKeyword
 :
 :
 Stretch

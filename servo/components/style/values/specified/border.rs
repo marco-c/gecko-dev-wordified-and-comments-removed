@@ -1542,6 +1542,13 @@ ToResolvedValue
 ToShmem
 )
 ]
+#
+[
+repr
+(
+u8
+)
+]
 pub
 enum
 BorderImageRepeatKeyword
