@@ -7255,6 +7255,20 @@ GetPrefixes
 prefixes1
 )
 ;
+rv
+=
+lookupCacheV4
+-
+>
+ApplyUpdate
+(
+updateV4
+*
+input
+*
+output
+)
+;
 }
 else
 {
@@ -7301,7 +7315,6 @@ prefixes1
 &
 prefixes2
 ;
-}
 rv
 =
 lookupCacheV4
@@ -7316,6 +7329,7 @@ input
 output
 )
 ;
+}
 if
 (
 NS_FAILED
