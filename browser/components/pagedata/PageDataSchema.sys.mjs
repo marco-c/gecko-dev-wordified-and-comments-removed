@@ -366,6 +366,16 @@ to
 load
 .
 *
+returns
+{
+object
+}
+*
+The
+loaded
+schema
+.
+*
 /
 async
 function
@@ -843,7 +853,7 @@ type
 )
 ;
 }
-return
+await
 validateData
 (
 name
