@@ -3120,7 +3120,7 @@ length
 )
 =
 =
-2
+3
 )
 ;
 MOZ_RELEASE_ASSERT
