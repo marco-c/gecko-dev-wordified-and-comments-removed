@@ -368,6 +368,13 @@ build
 gni
 "
 ]
+export_compile_commands
+=
+[
+"
+*
+"
+]
 default_args
 =
 {
