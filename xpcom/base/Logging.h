@@ -280,6 +280,16 @@ return
 mName
 ;
 }
+AtomicLogLevel
+&
+LevelRef
+(
+)
+{
+return
+mLevel
+;
+}
 private
 :
 friend
