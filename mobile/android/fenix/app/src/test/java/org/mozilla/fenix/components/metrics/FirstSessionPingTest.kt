@@ -309,16 +309,6 @@ every
 {
 mockAp
 .
-checkMetricsNotEmpty
-(
-)
-}
-returns
-true
-every
-{
-mockAp
-.
 wasAlreadyTriggered
 (
 )
