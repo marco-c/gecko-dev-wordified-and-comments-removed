@@ -1071,6 +1071,17 @@ click
 )
 ;
                 
+window
+.
+SidebarController
+.
+sidebarMain
+.
+expanded
+=
+true
+;
+                
 return
 window
 .
