@@ -278,22 +278,6 @@ config
 job
 )
         
-upstream_artifact_task
-=
-job
-.
-pop
-(
-"
-upstream
--
-artifact
--
-task
-"
-dep_job
-)
-        
 job
 .
 setdefault
@@ -336,7 +320,7 @@ kind
             
 dep_kind
 =
-upstream_artifact_task
+dep_job
 .
 kind
         
@@ -348,7 +332,7 @@ f
 "
 <
 {
-upstream_artifact_task
+dep_job
 .
 kind
 }
@@ -366,7 +350,7 @@ if
 notarization
 "
 in
-upstream_artifact_task
+dep_job
 .
 kind
 :

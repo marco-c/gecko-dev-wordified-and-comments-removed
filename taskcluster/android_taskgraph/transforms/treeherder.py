@@ -226,24 +226,6 @@ config
 task
 )
 )
-or
-list
-(
-                
-task
-[
-"
-dependent
--
-tasks
-"
-]
-.
-values
-(
-)
-            
-)
             
 primary_dep
 =

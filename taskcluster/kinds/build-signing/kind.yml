@@ -86,12 +86,6 @@ gecko_taskgraph
 .
 transforms
 .
-upstream_artifact_task
--
-gecko_taskgraph
-.
-transforms
-.
 build_signing
 -
 gecko_taskgraph
