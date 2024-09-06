@@ -1,17 +1,3 @@
-MARIONETTE_MANIFESTS
-+
-=
-[
-"
-tests
-/
-marionette
-/
-manifest
-.
-toml
-"
-]
 JAR_MANIFESTS
 +
 =
