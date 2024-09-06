@@ -143,6 +143,7 @@ messagingStorage
 a
 NimbusMessagingStorage
 instance
+.
 *
 param
 deepLinkScheme
@@ -151,17 +152,7 @@ deepLinkScheme
 for
 the
 app
-*
-param
-now
-will
-be
-used
-to
-get
-the
-current
-time
+.
 *
 /
 open
@@ -793,7 +784,6 @@ String
 answer
 :
 String
-?
 )
 {
 Microsurvey
