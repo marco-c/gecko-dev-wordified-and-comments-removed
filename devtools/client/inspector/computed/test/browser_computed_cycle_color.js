@@ -374,7 +374,7 @@ querySelector
 (
 "
 .
-computed
+inspector
 -
 colorswatch
 "
