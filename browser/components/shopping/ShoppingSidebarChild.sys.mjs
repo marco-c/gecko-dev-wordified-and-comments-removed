@@ -1363,7 +1363,6 @@ isPolledRequest
 =
 false
 *
-*
 /
 async
 updateContent

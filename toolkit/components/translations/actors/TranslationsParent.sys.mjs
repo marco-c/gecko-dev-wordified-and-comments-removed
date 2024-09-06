@@ -9913,7 +9913,6 @@ string
 existingVersion
 ]
 *
-*
 /
 static
 isBetterRecordVersion

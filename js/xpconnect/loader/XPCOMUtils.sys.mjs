@@ -2109,7 +2109,6 @@ writable
 property
 .
 *
-*
 /
 defineConstant
 (

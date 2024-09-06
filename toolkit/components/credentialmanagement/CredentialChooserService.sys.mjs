@@ -623,7 +623,6 @@ true
 .
 *
 *
-*
 param
 {
 BrowsingContext

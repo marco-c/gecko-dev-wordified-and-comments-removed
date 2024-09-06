@@ -511,7 +511,6 @@ is
 top
 level
 *
-*
 /
 #
 getBrowsingContextDetails

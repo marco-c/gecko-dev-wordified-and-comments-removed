@@ -2840,7 +2840,6 @@ metadata
 object
 .
 *
-*
 /
 getSettingsMetaData
 (
@@ -2943,7 +2942,6 @@ the
 verification
 hash
 .
-*
 *
 /
 getVerifiedMetaDataAttribute
