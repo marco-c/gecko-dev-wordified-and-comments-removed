@@ -72,15 +72,6 @@ each
 test
 unit
 .
-"
-javascript
-.
-options
-.
-asyncstack_capture_debuggee_only
-=
-false
-"
 ]
 support
 -
