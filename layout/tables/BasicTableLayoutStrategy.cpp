@@ -311,6 +311,13 @@ an
 aFrame
 )
 ;
+const
+IntrinsicSizeInput
+input
+(
+aRenderingContext
+)
+;
 minCoord
 =
 aFrame
@@ -318,7 +325,7 @@ aFrame
 >
 GetMinISize
 (
-aRenderingContext
+input
 )
 ;
 prefCoord
@@ -328,7 +335,7 @@ aFrame
 >
 GetPrefISize
 (
-aRenderingContext
+input
 )
 ;
 nsIFrame

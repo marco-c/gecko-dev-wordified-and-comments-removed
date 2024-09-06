@@ -1071,9 +1071,10 @@ nsListControlFrame
 :
 IntrinsicISize
 (
-gfxContext
-*
-aContext
+const
+IntrinsicSizeInput
+&
+aInput
 IntrinsicISizeType
 aType
 )
@@ -1118,7 +1119,7 @@ GetScrolledFrame
 >
 IntrinsicISize
 (
-aContext
+aInput
 aType
 )
 ;

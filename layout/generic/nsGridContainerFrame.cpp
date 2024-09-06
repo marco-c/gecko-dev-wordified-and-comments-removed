@@ -52562,9 +52562,10 @@ nsGridContainerFrame
 :
 ComputeIntrinsicISize
 (
-gfxContext
-*
-aContext
+const
+IntrinsicSizeInput
+&
+aInput
 IntrinsicISizeType
 aType
 )
@@ -52596,7 +52597,9 @@ state
 (
 this
 *
-aContext
+aInput
+.
+mContext
 )
 ;
 InitImplicitNamedAreas
@@ -52974,9 +52977,10 @@ nsGridContainerFrame
 :
 IntrinsicISize
 (
-gfxContext
-*
-aContext
+const
+IntrinsicSizeInput
+&
+aInput
 IntrinsicISizeType
 aType
 )
@@ -53010,7 +53014,7 @@ firstCont
 >
 IntrinsicISize
 (
-aContext
+aInput
 aType
 )
 ;
@@ -53043,7 +53047,7 @@ cachedISize
 =
 ComputeIntrinsicISize
 (
-aContext
+aInput
 aType
 )
 ;
