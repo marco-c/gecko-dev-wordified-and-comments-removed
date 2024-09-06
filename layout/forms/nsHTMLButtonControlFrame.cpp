@@ -1192,10 +1192,9 @@ nsHTMLButtonControlFrame
 :
 IntrinsicISize
 (
-const
-IntrinsicSizeInput
-&
-aInput
+gfxContext
+*
+aContext
 IntrinsicISizeType
 aType
 )
@@ -1224,9 +1223,7 @@ nsLayoutUtils
 :
 IntrinsicForContainer
 (
-aInput
-.
-mContext
+aContext
 mFrames
 .
 FirstChild

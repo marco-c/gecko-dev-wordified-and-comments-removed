@@ -2071,10 +2071,9 @@ nsVideoFrame
 :
 IntrinsicISize
 (
-const
-IntrinsicSizeInput
-&
-aInput
+gfxContext
+*
+aContext
 IntrinsicISizeType
 aType
 )
