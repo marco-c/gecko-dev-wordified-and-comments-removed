@@ -594,10 +594,12 @@ check_std_atomic_requirements
 (
 flag
 =
+[
 "
 -
 latomic
 "
+]
 when
 =
 ~
