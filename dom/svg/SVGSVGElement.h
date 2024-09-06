@@ -18,15 +18,6 @@ SVGViewportElement
 .
 h
 "
-#
-include
-"
-mozilla
-/
-SVGImageContext
-.
-h
-"
 nsresult
 NS_NewSVGSVGElement
 (

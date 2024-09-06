@@ -130,6 +130,14 @@ SVGViewportElement
 define
 SVG_ZERO_LENGTH_PATH_FIX_FACTOR
 512
+enum
+SVGTransformTypes
+{
+eAllTransforms
+eUserSpaceToParent
+eChildToUserSpace
+}
+;
 class
 SVGContentUtils
 {

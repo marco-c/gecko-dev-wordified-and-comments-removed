@@ -284,8 +284,16 @@ NS_DECL_NSIMUTATIONOBSERVER_CONTENTINSERTED
 NS_DECL_NSIMUTATIONOBSERVER_CONTENTREMOVED
 NS_DECL_NSIMUTATIONOBSERVER_NODEWILLBEDESTROYED
 gfxMatrix
-ChildToUserSpaceTransform
+PrependLocalTransformsTo
 (
+const
+gfxMatrix
+&
+aMatrix
+SVGTransformTypes
+aWhich
+=
+eAllTransforms
 )
 const
 override

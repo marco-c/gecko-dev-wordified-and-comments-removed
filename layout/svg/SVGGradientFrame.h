@@ -267,11 +267,12 @@ float
 aGraphicOpacity
 )
 ;
-SVGGradientFrame
+const
+SVGAnimatedTransformList
 *
-GetGradientTransformFrame
+GetGradientTransformList
 (
-SVGGradientFrame
+nsIContent
 *
 aDefault
 )
