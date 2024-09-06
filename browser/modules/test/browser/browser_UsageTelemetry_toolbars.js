@@ -594,6 +594,7 @@ Glean
 browserUi
 .
 toolbarWidgets
+?
 .
 testGetValue
 (
@@ -676,6 +677,17 @@ true
 .
 )
 ;
+if
+(
+"
+toolbarWidgets
+"
+in
+Glean
+.
+browserUi
+)
+{
 const
 [
 widgetId
@@ -729,6 +741,7 @@ position
 .
 )
 ;
+}
 }
 }
 function
