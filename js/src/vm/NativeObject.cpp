@@ -9879,7 +9879,7 @@ TypedArrayObject
 )
 ;
 return
-SetTypedArrayElementOutOfBounds
+SetTypedArrayElement
 (
 cx
 tobj
