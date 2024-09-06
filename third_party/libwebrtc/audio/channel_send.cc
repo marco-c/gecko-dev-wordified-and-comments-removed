@@ -91,6 +91,17 @@ h
 #
 include
 "
+api
+/
+task_queue
+/
+task_queue_factory
+.
+h
+"
+#
+include
+"
 audio
 /
 channel_send_frame_transformer_delegate

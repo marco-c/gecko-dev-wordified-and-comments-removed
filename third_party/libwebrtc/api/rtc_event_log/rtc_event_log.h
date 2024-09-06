@@ -44,17 +44,6 @@ rtc_event_log_output
 .
 h
 "
-#
-include
-"
-api
-/
-task_queue
-/
-task_queue_factory
-.
-h
-"
 namespace
 webrtc
 {
