@@ -43,6 +43,7 @@ enum
 class
 Type
 {
+GetIterator
 Limit
 }
 ;
