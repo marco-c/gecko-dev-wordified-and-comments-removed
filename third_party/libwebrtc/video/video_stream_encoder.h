@@ -1771,6 +1771,10 @@ qp_parsing_allowed_
 ;
 QualityConvergenceController
 quality_convergence_controller_
+RTC_GUARDED_BY
+(
+encoder_queue_
+)
 ;
 bool
 switch_encoder_on_init_failures_
