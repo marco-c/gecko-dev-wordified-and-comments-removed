@@ -6608,6 +6608,9 @@ sessionControlInteractor
 recentTabInteractor
 =
 sessionControlInteractor
+recentSyncedTabInteractor
+=
+sessionControlInteractor
 onTopSitesItemBound
 =
 {
