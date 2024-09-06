@@ -483,11 +483,6 @@ PickMultipleVisualMedia
 uriList
 -
 >
-uriList
-?
-.
-let
-{
 getPromptsFeature
 .
 invoke
@@ -503,7 +498,6 @@ toTypedArray
 (
 )
 )
-}
 }
 }
 }
