@@ -1383,6 +1383,7 @@ CREDIT_CARD_SCHEMA_VERSION
 =
 3
 ;
+export
 const
 VALID_ADDRESS_FIELDS
 =
@@ -1458,6 +1459,7 @@ AddressRecord
 TEL_COMPONENTS
 ]
 ;
+export
 const
 VALID_CREDIT_CARD_FIELDS
 =

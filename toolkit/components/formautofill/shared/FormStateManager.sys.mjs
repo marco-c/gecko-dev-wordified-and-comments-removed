@@ -68,7 +68,7 @@ defineESModuleGetters
 (
 lazy
 {
-FormLikeFactory
+AutofillFormFactory
 :
 "
 resource
@@ -79,7 +79,9 @@ gre
 /
 modules
 /
-FormLikeFactory
+shared
+/
+AutofillFormFactory
 .
 sys
 .
@@ -236,12 +238,12 @@ return
 null
 ;
 }
-let
+const
 rootElement
 =
 lazy
 .
-FormLikeFactory
+AutofillFormFactory
 .
 findRootForField
 (
@@ -400,7 +402,7 @@ FormAutofillHandler
 (
 lazy
 .
-FormLikeFactory
+AutofillFormFactory
 .
 createFromField
 (
