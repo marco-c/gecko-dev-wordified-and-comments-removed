@@ -3721,7 +3721,7 @@ settings
 toolbar
 =
 toolbar
-sessionId
+customTabId
 =
 sessionId
 isPrivate

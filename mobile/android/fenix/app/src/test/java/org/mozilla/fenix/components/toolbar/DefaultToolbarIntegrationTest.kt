@@ -294,7 +294,7 @@ lifecycleOwner
 mockk
 (
 )
-sessionId
+customTabId
 =
 null
 isPrivate

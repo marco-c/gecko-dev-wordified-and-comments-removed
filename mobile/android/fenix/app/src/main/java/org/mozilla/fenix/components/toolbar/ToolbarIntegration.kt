@@ -349,7 +349,7 @@ ScrollableToolbar
 toolbarMenu
 :
 ToolbarMenu
-sessionId
+customTabId
 :
 String
 ?
@@ -391,7 +391,7 @@ store
 store
 customTabId
 =
-sessionId
+customTabId
 shouldDisplaySearchTerms
 =
 true
@@ -436,7 +436,7 @@ components
 core
 .
 store
-sessionId
+customTabId
 )
 private
 val
@@ -446,7 +446,7 @@ ToolbarBehaviorController
 (
 scrollableToolbar
 store
-sessionId
+customTabId
 )
 init
 {
@@ -551,7 +551,7 @@ val
 lifecycleOwner
 :
 LifecycleOwner
-sessionId
+customTabId
 :
 String
 ?
@@ -583,9 +583,9 @@ scrollableToolbar
 toolbarMenu
 =
 toolbarMenu
-sessionId
+customTabId
 =
-sessionId
+customTabId
 isPrivate
 =
 isPrivate
@@ -630,9 +630,9 @@ toolbar
 isPrivate
 =
 isPrivate
-sessionId
+customTabId
 =
-sessionId
+customTabId
 onShoppingCfrActionClicked
 =
 interactor

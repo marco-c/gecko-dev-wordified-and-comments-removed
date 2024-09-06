@@ -139,7 +139,7 @@ ScrollableToolbar
 toolbarMenu
 :
 ToolbarMenu
-sessionId
+customTabId
 :
 String
 isPrivate
@@ -161,9 +161,9 @@ scrollableToolbar
 toolbarMenu
 =
 toolbarMenu
-sessionId
+customTabId
 =
-sessionId
+customTabId
 isPrivate
 =
 isPrivate

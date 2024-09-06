@@ -91,14 +91,6 @@ coroutines
 .
 flow
 .
-collect
-import
-kotlinx
-.
-coroutines
-.
-flow
-.
 mapNotNull
 import
 mozilla
@@ -177,7 +169,7 @@ store
 BrowserStore
 private
 val
-sessionId
+customTabId
 :
 String
 ?
@@ -228,7 +220,7 @@ state
 .
 findCustomTabOrSelectedTab
 (
-sessionId
+customTabId
 )
 }
 .

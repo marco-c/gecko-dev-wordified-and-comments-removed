@@ -723,8 +723,8 @@ private
 .
 *
 param
-sessionId
-optional
+customTabId
+Optional
 custom
 tab
 id
@@ -821,7 +821,7 @@ isPrivate
 Boolean
 private
 val
-sessionId
+customTabId
 :
 String
 ?
@@ -935,7 +935,7 @@ it
 .
 findCustomTabOrSelectedTab
 (
-sessionId
+customTabId
 )
 ?
 .
@@ -1029,7 +1029,7 @@ it
 .
 findCustomTabOrSelectedTab
 (
-sessionId
+customTabId
 )
 }
 .
@@ -1232,7 +1232,7 @@ it
 .
 findCustomTabOrSelectedTab
 (
-sessionId
+customTabId
 )
 }
 .
