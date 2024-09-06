@@ -263,6 +263,7 @@ getMetadata
 )
 .
 rtpTimestamp
++
 "
 expected
 null
