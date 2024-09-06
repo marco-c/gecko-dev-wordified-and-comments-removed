@@ -2679,10 +2679,6 @@ minorgc
 (
 )
 ;
-finishBackgroundFree
-(
-)
-;
 assertEq
 (
 byteSize
