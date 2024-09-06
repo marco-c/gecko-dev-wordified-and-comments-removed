@@ -250,7 +250,7 @@ return
 1
 ;
 const
-PipeWireNode
+auto
 &
 node
 =
@@ -272,7 +272,8 @@ deviceNameLength
 <
 =
 node
-.
+-
+>
 display_name
 (
 )
@@ -308,7 +309,8 @@ deviceUniqueIdUTF8Length
 <
 =
 node
-.
+-
+>
 unique_id
 (
 )
@@ -347,7 +349,8 @@ productUniqueIdUTF8Length
 <
 =
 node
-.
+-
+>
 model_id
 (
 )
@@ -385,7 +388,8 @@ deviceNameLength
 )
 ;
 node
-.
+-
+>
 display_name
 (
 )
@@ -404,7 +408,8 @@ deviceUniqueIdUTF8Length
 )
 ;
 node
-.
+-
+>
 unique_id
 (
 )
@@ -428,7 +433,8 @@ productUniqueIdUTF8Length
 )
 ;
 node
-.
+-
+>
 model_id
 (
 )
@@ -478,7 +484,8 @@ nodes
 if
 (
 node
-.
+-
+>
 unique_id
 (
 )
@@ -496,7 +503,8 @@ continue
 _captureCapabilities
 =
 node
-.
+-
+>
 capabilities
 (
 )
@@ -504,7 +512,8 @@ capabilities
 _lastUsedDeviceNameLength
 =
 node
-.
+-
+>
 unique_id
 (
 )
