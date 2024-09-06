@@ -2974,8 +2974,6 @@ self
 _handle
 :
                     
-self
-.
 returncode
 =
 winprocess
@@ -2986,6 +2984,21 @@ self
 .
 _handle
 )
+                    
+if
+returncode
+!
+=
+winprocess
+.
+STILL_ACTIVE
+:
+                        
+self
+.
+returncode
+=
+returncode
                 
 else
 :
@@ -3166,20 +3179,31 @@ self
 _handle
 :
                             
-self
-.
 returncode
 =
 winprocess
 .
 GetExitCodeProcess
 (
-                                
 self
 .
 _handle
-                            
 )
+                            
+if
+returncode
+!
+=
+winprocess
+.
+STILL_ACTIVE
+:
+                                
+self
+.
+returncode
+=
+returncode
                         
 self
 .
@@ -3229,11 +3253,9 @@ if
 self
 .
 returncode
-!
-=
-winprocess
-.
-STILL_ACTIVE
+is
+not
+None
 :
                         
 self
