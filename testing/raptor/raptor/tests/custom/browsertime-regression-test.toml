@@ -66,13 +66,6 @@ score
 use_live_sites
 =
 true
-support_class
-=
-"
-browsertime_pageload
-.
-py
-"
 #
 Name
 these
