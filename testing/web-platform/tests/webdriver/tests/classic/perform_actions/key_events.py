@@ -39,6 +39,70 @@ ALL_EVENTS
 ALTERNATIVE_KEY_NAMES
 Keys
 def
+get_key_events
+(
+session
+)
+:
+    
+"
+"
+"
+Return
+list
+of
+key
+events
+.
+Filters
+out
+non
+-
+key
+events
+to
+prevent
+noise
+    
+from
+OS
+mouse
+events
+.
+"
+"
+"
+    
+all_events
+=
+get_events
+(
+session
+)
+    
+return
+[
+event
+for
+event
+in
+all_events
+if
+event
+[
+"
+type
+"
+]
+.
+startswith
+(
+"
+key
+"
+)
+]
+def
 test_keyup_only_sends_no_events
 (
 session
@@ -75,7 +139,7 @@ key_reporter
 assert
 len
 (
-get_events
+get_key_events
 (
 session
 )
@@ -107,7 +171,7 @@ key_reporter
 assert
 len
 (
-get_events
+get_key_events
 (
 session
 )
@@ -294,7 +358,7 @@ perform
     
 all_events
 =
-get_events
+get_key_events
 (
 session
 )
@@ -463,7 +527,7 @@ perform
     
 all_events
 =
-get_events
+get_key_events
 (
 session
 )
@@ -801,7 +865,7 @@ perform
     
 all_events
 =
-get_events
+get_key_events
 (
 session
 )
@@ -934,7 +998,7 @@ perform
     
 all_events
 =
-get_events
+get_key_events
 (
 session
 )
@@ -1092,7 +1156,7 @@ perform
     
 all_events
 =
-get_events
+get_key_events
 (
 session
 )
@@ -1401,7 +1465,7 @@ perform
     
 first_event
 =
-get_events
+get_key_events
 (
 session
 )
@@ -1625,7 +1689,7 @@ perform
     
 all_events
 =
-get_events
+get_key_events
 (
 session
 )
