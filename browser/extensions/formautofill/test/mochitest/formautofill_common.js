@@ -2379,6 +2379,13 @@ fieldSelector
 selectIndex
 )
 {
+const
+promise
+=
+expectPopup
+(
+)
+;
 await
 focusAndWaitForFieldsIdentified
 (
@@ -2393,9 +2400,8 @@ KEY_ArrowDown
 )
 ;
 await
-expectPopup
-(
-)
+await
+promise
 ;
 for
 (
