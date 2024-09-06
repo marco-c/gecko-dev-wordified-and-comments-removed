@@ -176,7 +176,7 @@ ComputeLevel
 (
 vectors_with_float_frame
 .
-float_frame_view
+view
 (
 )
 )
@@ -300,7 +300,7 @@ ComputeLevel
 (
 vectors_with_float_frame
 .
-float_frame_view
+view
 (
 )
 )
@@ -356,7 +356,7 @@ ComputeLevel
 (
 vectors_with_zero_float_frame
 .
-float_frame_view
+view
 (
 )
 )
