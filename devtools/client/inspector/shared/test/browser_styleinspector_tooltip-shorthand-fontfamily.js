@@ -385,6 +385,11 @@ dataURL
 await
 getFontFamilyDataURL
 (
+ruleView
+.
+inspector
+.
+panelWin
 valueSpan
 .
 textContent

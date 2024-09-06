@@ -345,6 +345,11 @@ dataURL
 await
 getFontFamilyDataURL
 (
+ruleView
+.
+inspector
+.
+panelWin
 valueSpan
 .
 textContent
@@ -481,6 +486,11 @@ dataURL
 await
 getFontFamilyDataURL
 (
+ruleView
+.
+inspector
+.
+panelWin
 fontFamilySpan
 .
 textContent
@@ -663,6 +673,11 @@ dataURL
 await
 getFontFamilyDataURL
 (
+computedView
+.
+inspector
+.
+panelWin
 valueSpan
 .
 textContent
@@ -901,6 +916,11 @@ dataURL
 await
 getFontFamilyDataURL
 (
+computedView
+.
+inspector
+.
+panelWin
 valueSpan
 .
 textContent
