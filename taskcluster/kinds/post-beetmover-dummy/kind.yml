@@ -103,6 +103,12 @@ checksums
 beetmover
 -
 repackage
+-
+beetmover
+-
+android
+-
+app
 tasks
 :
 post

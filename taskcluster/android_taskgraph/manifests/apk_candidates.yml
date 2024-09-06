@@ -470,7 +470,7 @@ pub
 /
 fenix
 /
-releases
+candidates
 focus
 -
 nightly
@@ -498,7 +498,7 @@ pub
 /
 focus
 /
-releases
+candidates
 default_locales
 :
 -

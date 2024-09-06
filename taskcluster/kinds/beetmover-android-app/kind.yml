@@ -177,12 +177,12 @@ android_taskgraph
 /
 manifests
 /
-apk_releases
+apk_candidates
 .
 yml
 shipping_phase
 :
-ship
+promote
 treeherder
 :
 symbol

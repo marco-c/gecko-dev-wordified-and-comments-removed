@@ -115,14 +115,6 @@ release
 bouncer
 -
 sub
--
-signing
--
-apk
--
-signing
--
-bundle
 task
 -
 defaults
