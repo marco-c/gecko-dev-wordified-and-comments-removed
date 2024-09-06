@@ -2087,7 +2087,7 @@ b
 -
 osx
 -
-1015
+arm64
 worker
 :
 max
@@ -2096,7 +2096,7 @@ run
 -
 time
 :
-14400
+7200
 run
 :
 using
@@ -6320,7 +6320,7 @@ b
 -
 osx
 -
-1015
+arm64
 worker
 :
 max
@@ -6329,7 +6329,7 @@ run
 -
 time
 :
-14400
+7200
 run
 :
 using
