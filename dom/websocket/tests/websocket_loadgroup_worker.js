@@ -95,7 +95,6 @@ onopen
 =
 function
 (
-e
 )
 {
 postMessage
@@ -113,7 +112,6 @@ onclose
 =
 function
 (
-e
 )
 {
 postMessage
@@ -131,7 +129,6 @@ onerror
 =
 function
 (
-e
 )
 {
 postMessage

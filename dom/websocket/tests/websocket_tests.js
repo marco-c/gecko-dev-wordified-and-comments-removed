@@ -10,7 +10,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -104,7 +103,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -255,7 +253,6 @@ onclose
 =
 function
 (
-e
 )
 {
 waitTest2Part1
@@ -307,7 +304,6 @@ onclose
 =
 function
 (
-e
 )
 {
 waitTest2Part2
@@ -336,7 +332,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -382,7 +377,6 @@ onerror
 =
 function
 (
-e
 )
 {
 hasError
@@ -462,7 +456,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -538,14 +531,10 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 try
 {
-var
-ws
-=
 CreateTestWS
 (
 "
@@ -618,9 +607,6 @@ parameter
 }
 try
 {
-var
-ws
-=
 CreateTestWS
 (
 "
@@ -699,9 +685,6 @@ parameter
 }
 try
 {
-var
-ws
-=
 CreateTestWS
 (
 "
@@ -788,7 +771,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -958,7 +940,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -1133,7 +1114,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -1287,7 +1267,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -1341,7 +1320,6 @@ onerror
 =
 function
 (
-e
 )
 {
 ws
@@ -1414,7 +1392,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -1563,7 +1540,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -1801,7 +1777,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -2078,7 +2053,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -2142,7 +2116,6 @@ onclose
 =
 function
 (
-e
 )
 {
 ok
@@ -2181,7 +2154,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -2282,7 +2254,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 resolve
@@ -2368,7 +2339,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -2513,7 +2483,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -2769,7 +2738,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -2850,7 +2818,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -2934,7 +2901,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -3013,7 +2979,6 @@ onclose
 =
 function
 (
-e
 )
 {
 ok
@@ -3078,7 +3043,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -3318,7 +3282,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 const
@@ -3432,7 +3395,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 ok
@@ -3473,7 +3435,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -3565,7 +3526,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -3621,7 +3581,6 @@ onclose
 =
 function
 (
-e
 )
 {
 is
@@ -3672,7 +3631,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -3685,9 +3643,6 @@ prots
 ;
 try
 {
-var
-ws
-=
 CreateTestWS
 (
 "
@@ -3767,7 +3722,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -3783,9 +3737,6 @@ test27
 ;
 try
 {
-var
-ws
-=
 CreateTestWS
 (
 "
@@ -3867,7 +3818,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -3914,7 +3864,6 @@ onopen
 =
 function
 (
-e
 )
 {
 ok
@@ -3943,7 +3892,6 @@ onclose
 =
 function
 (
-e
 )
 {
 is
@@ -3995,7 +3943,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -4045,7 +3992,6 @@ onopen
 =
 function
 (
-e
 )
 {
 ok
@@ -4074,7 +4020,6 @@ onclose
 =
 function
 (
-e
 )
 {
 ok
@@ -4111,7 +4056,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -4210,7 +4154,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -4266,7 +4209,6 @@ onopen
 =
 function
 (
-e
 )
 {
 ok
@@ -4295,7 +4237,6 @@ onclose
 =
 function
 (
-e
 )
 {
 is
@@ -4347,7 +4288,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -4364,9 +4304,6 @@ test32
 ;
 try
 {
-var
-ws
-=
 CreateTestWS
 (
 "
@@ -4446,7 +4383,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -4493,7 +4429,6 @@ onopen
 =
 function
 (
-e
 )
 {
 ok
@@ -4604,7 +4539,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -4653,7 +4587,6 @@ onopen
 =
 function
 (
-e
 )
 {
 ok
@@ -4762,7 +4695,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -4804,7 +4736,6 @@ onopen
 =
 function
 (
-e
 )
 {
 ok
@@ -4901,7 +4832,6 @@ onopen
 =
 function
 (
-event
 )
 {
 ok
@@ -5011,7 +4941,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -5060,7 +4989,6 @@ onopen
 =
 function
 (
-e
 )
 {
 ok
@@ -5180,7 +5108,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -5229,7 +5156,6 @@ onopen
 =
 function
 (
-e
 )
 {
 ok
@@ -5372,7 +5298,6 @@ onopen
 =
 function
 (
-event
 )
 {
 ok
@@ -5513,7 +5438,6 @@ onopen
 =
 function
 (
-eventInner
 )
 {
 ok
@@ -5604,7 +5528,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -5653,7 +5576,6 @@ onopen
 =
 function
 (
-e
 )
 {
 ok
@@ -5693,7 +5615,6 @@ onclose
 =
 function
 (
-e
 )
 {
 ok
@@ -5728,7 +5649,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -5769,6 +5689,7 @@ file_websocket
 prots
 )
 ;
+let
 status_test39
 =
 "
@@ -5781,7 +5702,6 @@ onopen
 =
 function
 (
-e
 )
 {
 status_test39
@@ -5814,7 +5734,6 @@ onclose
 =
 function
 (
-e
 )
 {
 ok
@@ -5863,7 +5782,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -5906,6 +5824,7 @@ file_websocket
 prots
 )
 ;
+let
 status_test40
 =
 "
@@ -5924,7 +5843,6 @@ onopen
 =
 function
 (
-e
 )
 {
 status_test40
@@ -5957,7 +5875,6 @@ onclose
 =
 function
 (
-e
 )
 {
 ok
@@ -6007,7 +5924,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -6048,7 +5964,6 @@ onopen
 =
 function
 (
-e
 )
 {
 ok
@@ -6111,7 +6026,6 @@ onclose
 =
 function
 (
-e
 )
 {
 ok
@@ -6162,7 +6076,6 @@ onopen
 =
 function
 (
-event
 )
 {
 ok
@@ -6189,7 +6102,6 @@ onclose
 =
 function
 (
-event
 )
 {
 ok
@@ -6342,7 +6254,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -6513,7 +6424,6 @@ onclose
 =
 function
 (
-e
 )
 {
 resolve
@@ -6538,7 +6448,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -6587,7 +6496,6 @@ onopen
 =
 function
 (
-e
 )
 {
 ok
@@ -6701,7 +6609,6 @@ onclose
 =
 function
 (
-e
 )
 {
 ok
@@ -6736,7 +6643,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -7002,7 +6908,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 function
@@ -7183,7 +7088,6 @@ onload
 =
 function
 (
-event
 )
 {
 is
@@ -7223,11 +7127,11 @@ onerror
 =
 function
 (
-event
 )
 {
-testFailed
+ok
 (
+false
 "
 Failed
 to
@@ -7254,7 +7158,6 @@ onloadend
 =
 function
 (
-event
 )
 {
 resolve
@@ -7310,8 +7213,9 @@ function
 msg
 )
 {
-testFailed
+ok
 (
+false
 "
 Failed
 to
@@ -7348,7 +7252,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -7463,7 +7366,6 @@ onmessage
 =
 function
 (
-e
 )
 {
 ok
@@ -7539,7 +7441,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -7587,7 +7488,6 @@ onerror
 =
 function
 (
-e
 )
 {
 is
@@ -7829,7 +7729,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 const
@@ -7940,7 +7839,6 @@ onclose
 =
 function
 (
-e
 )
 {
 ok
@@ -7984,7 +7882,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -8075,7 +7972,6 @@ onerror
 =
 function
 (
-e
 )
 {
 gotError
@@ -8090,7 +7986,6 @@ onclose
 =
 function
 (
-e
 )
 {
 ok

@@ -40,7 +40,6 @@ onopen
 =
 function
 (
-e
 )
 {
 evt
@@ -87,7 +86,6 @@ onclose
 =
 function
 (
-e
 )
 {
 }
@@ -98,7 +96,6 @@ onerror
 =
 function
 (
-e
 )
 {
 evt

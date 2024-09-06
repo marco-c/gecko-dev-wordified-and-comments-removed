@@ -124,7 +124,6 @@ cleanly
 function
 ignoreError
 (
-e
 )
 {
 }

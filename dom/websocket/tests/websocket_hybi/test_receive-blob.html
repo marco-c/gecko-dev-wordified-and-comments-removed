@@ -296,9 +296,6 @@ blob
 )
 ;
 var
-closeEvent
-;
-var
 receivedMessages
 =
 [
@@ -345,13 +342,8 @@ onclose
 =
 function
 (
-event
 )
 {
-closeEvent
-=
-event
-;
 is
 (
 receivedMessages
@@ -459,7 +451,6 @@ onload
 =
 function
 (
-event
 )
 {
 checkArrayBuffer
@@ -489,7 +480,6 @@ onerror
 =
 function
 (
-event
 )
 {
 ok

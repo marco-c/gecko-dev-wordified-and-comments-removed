@@ -477,7 +477,9 @@ files
 =
 [
 "
-websocket_worker1
+websocket1
+.
+worker
 .
 js
 "
@@ -495,7 +497,9 @@ files
 =
 [
 "
-websocket_worker2
+websocket2
+.
+worker
 .
 js
 "
@@ -525,7 +529,9 @@ files
 =
 [
 "
-websocket_worker3
+websocket3
+.
+worker
 .
 js
 "
@@ -543,7 +549,9 @@ files
 =
 [
 "
-websocket_worker4
+websocket4
+.
+worker
 .
 js
 "
@@ -583,7 +591,9 @@ files
 =
 [
 "
-websocket_worker5
+websocket5
+.
+worker
 .
 js
 "

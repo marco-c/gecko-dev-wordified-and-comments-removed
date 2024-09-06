@@ -7022,16 +7022,6 @@ mochitest
 "
 dom
 /
-websocket
-/
-tests
-/
-*
-*
-"
-"
-dom
-/
 workers
 /
 test
