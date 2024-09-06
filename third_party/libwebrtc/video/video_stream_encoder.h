@@ -352,6 +352,15 @@ include
 "
 video
 /
+quality_convergence_controller
+.
+h
+"
+#
+include
+"
+video
+/
 video_source_sink_controller
 .
 h
@@ -1759,6 +1768,9 @@ qp_parser_
 const
 bool
 qp_parsing_allowed_
+;
+QualityConvergenceController
+quality_convergence_controller_
 ;
 bool
 switch_encoder_on_init_failures_
