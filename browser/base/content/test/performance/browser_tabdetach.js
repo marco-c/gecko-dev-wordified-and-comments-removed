@@ -296,12 +296,7 @@ gBrowser
 .
 tabContainer
 .
-hasAttribute
-(
-"
-overflow
-"
-)
+overflowing
 ;
 }
 )
@@ -403,12 +398,7 @@ gBrowser
 .
 tabContainer
 .
-hasAttribute
-(
-"
-overflow
-"
-)
+overflowing
 ;
 }
 )

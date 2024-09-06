@@ -1249,12 +1249,7 @@ this
 .
 scrollBox
 .
-hasAttribute
-(
-"
 overflowing
-"
-)
 )
 {
 return

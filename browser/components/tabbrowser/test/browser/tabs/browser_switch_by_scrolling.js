@@ -151,12 +151,7 @@ while
 !
 arrowScrollbox
 .
-hasAttribute
-(
-"
 overflowing
-"
-)
 )
 {
 tabs
