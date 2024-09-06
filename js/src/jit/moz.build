@@ -2025,6 +2025,11 @@ LIROps
 .
 yaml
 "
+"
+MIROps
+.
+yaml
+"
 ]
 )
 GeneratedFile

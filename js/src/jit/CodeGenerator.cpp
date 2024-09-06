@@ -136036,7 +136036,7 @@ ToRegister
 ins
 -
 >
-mapObject
+map
 (
 )
 )
@@ -136050,7 +136050,7 @@ ins
 LMapObjectGetValue
 :
 :
-InputIndex
+ValueIndex
 )
 ;
 Register
