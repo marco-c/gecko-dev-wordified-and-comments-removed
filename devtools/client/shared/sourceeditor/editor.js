@@ -1503,9 +1503,10 @@ config
 extraKeys
 .
 Tab
+!
 =
 =
-undefined
+false
 )
 {
 this

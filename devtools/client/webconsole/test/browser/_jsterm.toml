@@ -1277,6 +1277,13 @@ js
 ]
 [
 "
+browser_jsterm_input_and_tab_key_pressed
+.
+js
+"
+]
+[
+"
 browser_jsterm_no_input_and_tab_key_pressed
 .
 js
