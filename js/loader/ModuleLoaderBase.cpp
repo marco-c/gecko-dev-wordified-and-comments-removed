@@ -1618,6 +1618,13 @@ CreateDynamicImport
 (
 aCx
 uri
+JS
+:
+:
+ModuleType
+:
+:
+JavaScript
 script
 specifierString
 aPromise
@@ -4716,6 +4723,9 @@ CreateStaticImport
 aRequestedModule
 .
 mUri
+aRequestedModule
+.
+mModuleType
 aParent
 )
 ;
