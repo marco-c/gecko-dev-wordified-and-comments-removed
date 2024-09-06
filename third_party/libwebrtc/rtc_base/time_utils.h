@@ -287,6 +287,7 @@ tm
 tm
 )
 ;
+RTC_EXPORT
 int64_t
 TimeUTCMicros
 (
