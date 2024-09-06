@@ -276,6 +276,13 @@ new
 ModuleLoadRequest
 (
 aURI
+JS
+:
+:
+ModuleType
+:
+:
+JavaScript
 aParent
 -
 >
@@ -633,6 +640,13 @@ new
 ModuleLoadRequest
 (
 aURI
+JS
+:
+:
+ModuleType
+:
+:
+JavaScript
 referrerPolicy
 options
 SRIMetadata

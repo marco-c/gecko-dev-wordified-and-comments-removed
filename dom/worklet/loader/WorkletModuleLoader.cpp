@@ -258,6 +258,13 @@ new
 ModuleLoadRequest
 (
 aURI
+JS
+:
+:
+ModuleType
+:
+:
+JavaScript
 aParent
 -
 >
