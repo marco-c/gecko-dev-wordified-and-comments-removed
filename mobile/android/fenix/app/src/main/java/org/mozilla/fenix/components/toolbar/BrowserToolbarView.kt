@@ -1084,6 +1084,9 @@ ScrollableToolbar
 toolbarMenu
 =
 menuToolbar
+interactor
+=
+interactor
 customTabId
 =
 customTabSession
