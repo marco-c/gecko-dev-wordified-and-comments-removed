@@ -1066,6 +1066,15 @@ Bug
 [
 "
 test_group_touchevents
+-
+6
+.
+html
+"
+]
+[
+"
+test_group_touchevents
 .
 html
 "
