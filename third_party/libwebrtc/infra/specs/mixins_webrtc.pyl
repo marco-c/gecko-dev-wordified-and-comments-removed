@@ -306,7 +306,7 @@ iOS
 .
 7
 .
-1
+5
 '
 '
 pool
@@ -317,6 +317,7 @@ chrome
 .
 tests
 '
+#
 '
 device_status
 '
