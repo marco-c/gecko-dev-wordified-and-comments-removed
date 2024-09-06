@@ -968,13 +968,10 @@ self
 )
         
 def
-kill
+send_signal
 (
 self
 sig
-=
-None
-timeout
 =
 None
 )
@@ -1306,6 +1303,26 @@ or
 signal
 .
 SIGKILL
+)
+        
+def
+kill
+(
+self
+sig
+=
+None
+timeout
+=
+None
+)
+:
+            
+self
+.
+send_signal
+(
+sig
 )
             
 self
@@ -2491,7 +2508,7 @@ stderr
                             
 self
 .
-kill
+send_signal
 (
 )
                             
@@ -3032,17 +3049,6 @@ if
 self
 .
 _job
-and
-threading
-.
-current_thread
-(
-)
-!
-=
-self
-.
-_procmgrthread
 :
                     
 self
