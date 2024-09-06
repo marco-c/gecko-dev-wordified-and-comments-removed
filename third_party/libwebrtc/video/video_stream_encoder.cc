@@ -2512,15 +2512,6 @@ else
 {
 min_bitrate_bps
 =
-std
-:
-:
-max
-(
-bitrate_limits
--
->
-min_bitrate_bps
 encoder_config
 .
 simulcast_layers
@@ -2530,7 +2521,6 @@ index
 ]
 .
 min_bitrate_bps
-)
 ;
 }
 int
@@ -2950,15 +2940,6 @@ else
 {
 min_bitrate_bps
 =
-std
-:
-:
-max
-(
-encoder_bitrate_limits
--
->
-min_bitrate_bps
 (
 *
 streams
@@ -2968,7 +2949,6 @@ index
 ]
 .
 min_bitrate_bps
-)
 ;
 }
 int
