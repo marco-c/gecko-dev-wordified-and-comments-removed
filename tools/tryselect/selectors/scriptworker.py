@@ -649,7 +649,7 @@ decision
 -
 nightly
 -
-desktop
+all
 "
     
 )
