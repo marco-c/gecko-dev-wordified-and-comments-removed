@@ -499,6 +499,15 @@ moxRole
 {
 if
 (
+mRole
+=
+=
+roles
+:
+:
+ENTRY
+&
+&
 [
 self
 stateWithMask
