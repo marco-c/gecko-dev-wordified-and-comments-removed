@@ -1216,20 +1216,6 @@ os
 macosx
 "
     
-is_linux
-=
-worker
-[
-"
-os
-"
-]
-=
-=
-"
-linux
-"
-    
 is_bitbar
 =
 worker
@@ -1563,12 +1549,6 @@ get
 checkout
 "
 )
-and
-not
-is_mac
-and
-not
-is_linux
 :
         
 worker
