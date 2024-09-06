@@ -1065,7 +1065,7 @@ aTransform
 )
 const
 {
-SVGViewportElement
+auto
 *
 content
 =
@@ -1082,6 +1082,7 @@ GetContent
 ;
 if
 (
+!
 content
 -
 >
@@ -1090,6 +1091,10 @@ HasViewBoxOrSyntheticViewBox
 )
 )
 {
+return
+false
+;
+}
 if
 (
 aTransform
@@ -1108,10 +1113,6 @@ GetViewBoxTransform
 }
 return
 true
-;
-}
-return
-false
 ;
 }
 }

@@ -142,7 +142,6 @@ override
 ;
 public
 :
-virtual
 gfxMatrix
 PrependLocalTransformsTo
 (
