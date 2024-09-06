@@ -626,6 +626,15 @@ getClientRects
 (
 )
 ;
+[
+ChromeOnly
+]
+DOMRectList
+?
+getAllowCrossShadowBoundaryClientRects
+(
+)
+;
 DOMRect
 getBoundingClientRect
 (
