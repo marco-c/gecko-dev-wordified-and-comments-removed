@@ -1330,10 +1330,9 @@ true
 return
 FuzzyEqualsAdditive
 (
+ToCSSPixels
 (
 aCoord
-/
-zoom
 )
 CSSCoord
 (
@@ -1389,13 +1388,12 @@ false
 ;
 }
 return
+ToCSSPixels
 (
 aCoord1
 -
 aCoord2
 )
-/
-zoom
 >
 COORDINATE_EPSILON
 ;
