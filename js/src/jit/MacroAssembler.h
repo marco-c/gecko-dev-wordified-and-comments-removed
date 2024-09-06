@@ -17224,6 +17224,8 @@ endif
 void
 updateCallRefMetrics
 (
+size_t
+callRefIndex
 const
 Register
 funcRef
