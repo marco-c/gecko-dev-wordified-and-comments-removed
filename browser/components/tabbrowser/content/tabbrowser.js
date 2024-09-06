@@ -17194,16 +17194,6 @@ select
 )
 ;
 }
-this
-.
-tabContainer
-.
-arrowScrollbox
-.
-_updateScrollButtonsDisabledState
-(
-)
-;
 }
 this
 .

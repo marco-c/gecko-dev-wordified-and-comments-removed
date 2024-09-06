@@ -11008,14 +11008,6 @@ tab
 )
 ;
 }
-this
-.
-arrowScrollbox
-.
-_updateScrollButtonsDisabledState
-(
-)
-;
 if
 (
 tab
