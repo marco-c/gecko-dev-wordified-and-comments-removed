@@ -5120,16 +5120,43 @@ threading
 current_thread
 (
 )
-            
-and
-not
-self
-.
-_ignore_children
         
 )
 :
             
+if
+self
+.
+_ignore_children
+:
+                
+while
+self
+.
+reader
+.
+is_still_reading
+(
+timeout
+=
+0
+.
+1
+)
+:
+                    
+time
+.
+sleep
+(
+0
+.
+1
+)
+            
+else
+:
+                
 self
 .
 reader
@@ -5746,6 +5773,16 @@ None
         
 self
 .
+got_data
+=
+threading
+.
+Event
+(
+)
+        
+self
+.
 didOutputTimeout
 =
 False
@@ -6169,6 +6206,14 @@ None
 )
 :
                     
+self
+.
+got_data
+.
+set
+(
+)
+                    
 try
 :
                         
@@ -6285,6 +6330,32 @@ is_alive
         
 return
 False
+    
+def
+is_still_reading
+(
+self
+timeout
+)
+:
+        
+self
+.
+got_data
+.
+clear
+(
+)
+        
+return
+self
+.
+got_data
+.
+wait
+(
+timeout
+)
     
 def
 join
