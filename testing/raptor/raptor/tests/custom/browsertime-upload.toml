@@ -83,7 +83,7 @@ upload_iterations
 -
 browsertime
 .
-upload_url
+server_url
 =
 https
 :
@@ -180,7 +180,7 @@ upload_iterations
 -
 browsertime
 .
-upload_url
+server_url
 =
 https
 :
