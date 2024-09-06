@@ -10560,15 +10560,6 @@ select_linker_tmpl
 (
 target
 )
-set_config
-(
-"
-LINKER_KIND
-"
-select_linker
-.
-KIND
-)
 template
 def
 linker_ldflags_tmpl
