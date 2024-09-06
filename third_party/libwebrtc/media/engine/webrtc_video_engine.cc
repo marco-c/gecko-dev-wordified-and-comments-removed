@@ -6143,6 +6143,7 @@ vp9_settings
 .
 flexibleMode
 =
+!
 IsDisabled
 (
 call_
