@@ -70,6 +70,17 @@ mozilla
 /
 dom
 /
+TrustedTypeUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 nsCSPUtils
 .
 h
