@@ -2524,6 +2524,12 @@ finder
 "
 :
 raptor_test_finder
+                
+"
+framework
+"
+:
+13
             
 }
             
@@ -2598,6 +2604,12 @@ finder
 "
 :
 talos_test_finder
+                
+"
+framework
+"
+:
+1
             
 }
             
@@ -2659,6 +2671,12 @@ finder
 "
 :
 awsy_test_finder
+                
+"
+framework
+"
+:
+4
             
 }
         
