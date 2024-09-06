@@ -530,9 +530,7 @@ gifft
 .
 md
 #
-timing
--
-distribution
+timing_distribution
 -
 mirrors
 -
