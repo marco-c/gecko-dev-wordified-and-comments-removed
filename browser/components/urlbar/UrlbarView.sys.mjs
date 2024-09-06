@@ -8828,7 +8828,7 @@ if
 (
 result
 .
-exposureResultHidden
+isHiddenExposure
 )
 {
 this
@@ -8881,7 +8881,7 @@ hasSuggestedIndex
 !
 result
 .
-exposureResultHidden
+isHiddenExposure
 )
 {
 seenMisplacedResult
@@ -9080,7 +9080,7 @@ hasSuggestedIndex
 !
 result
 .
-exposureResultHidden
+isHiddenExposure
 )
 {
 if
@@ -9343,7 +9343,7 @@ getSpanForResult
 (
 result
 {
-includeExposureResultHidden
+includeHiddenExposures
 :
 true
 }
@@ -9370,7 +9370,7 @@ if
 (
 result
 .
-exposureResultHidden
+isHiddenExposure
 )
 {
 if
@@ -16311,7 +16311,7 @@ item
 .
 result
 .
-exposureResultType
+exposureTelemetry
 )
 {
 this
