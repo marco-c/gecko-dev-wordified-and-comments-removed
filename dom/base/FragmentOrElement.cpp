@@ -942,12 +942,6 @@ if
 IsEditable
 (
 )
-|
-|
-!
-IsInComposedDoc
-(
-)
 )
 {
 if

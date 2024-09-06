@@ -345,16 +345,6 @@ aElement
 ;
 MOZ_CAN_RUN_SCRIPT
 static
-void
-OnParentChainChangedOfObservingElement
-(
-IMEContentObserver
-&
-aObserver
-)
-;
-MOZ_CAN_RUN_SCRIPT
-static
 nsresult
 OnChangeFocus
 (
