@@ -498,6 +498,16 @@ kWasmS128
 0x7b
 ;
 let
+kWasmI8
+=
+0x78
+;
+let
+kWasmI16
+=
+0x77
+;
+let
 kWasmNullFuncRef
 =
 -
@@ -6725,7 +6735,7 @@ emit_u32v
 (
 imp
 .
-type_index
+type
 )
 ;
 }

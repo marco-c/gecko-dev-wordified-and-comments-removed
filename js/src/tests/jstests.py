@@ -4239,6 +4239,26 @@ js
     
 ]
     
+pref_prefix
+=
+"
+javascript
+.
+options
+.
+"
+    
+recognized_prefs
+=
+set
+(
+[
+"
+wasm_js_string_builtins
+"
+]
+)
+    
 def
 resolve
 (
@@ -4350,10 +4370,15 @@ extra_helper_paths
 +
 scripts
         
-options
+variants
 =
 [
 None
+]
+        
+flags
+=
+[
 ]
         
 for
@@ -4365,6 +4390,75 @@ itermeta
 (
 )
 :
+            
+for
+pref
+in
+m
+.
+prefs
+:
+                
+pref_value
+=
+m
+.
+prefs
+[
+pref
+]
+                
+if
+not
+pref
+.
+startswith
+(
+pref_prefix
+)
+:
+                    
+continue
+                
+short_pref
+=
+pref
+.
+replace
+(
+pref_prefix
+"
+"
+)
+                
+if
+not
+short_pref
+in
+recognized_prefs
+:
+                    
+continue
+                
+flags
+.
+append
+(
+"
+-
+-
+setpref
+=
+"
++
+short_pref
++
+"
+=
+"
++
+pref_value
+)
             
 if
 m
@@ -4379,7 +4473,7 @@ also
 )
 :
                 
-options
+variants
 +
 =
 m
@@ -4398,9 +4492,9 @@ split
 )
         
 for
-option
+variant
 in
-options
+variants
 :
             
 test_case
@@ -4426,7 +4520,7 @@ test
 )
             
 if
-option
+variant
 :
                 
 test_case
@@ -4435,7 +4529,22 @@ options
 .
 append
 (
-option
+variant
+)
+            
+for
+flag
+in
+flags
+:
+                
+test_case
+.
+options
+.
+append
+(
+flag
 )
             
 tests
