@@ -76437,7 +76437,7 @@ test
 .
 toml
 #
-24
+23
 >
 __
 *
@@ -76506,17 +76506,6 @@ unit
 *
 :
 ms
-*
-*
-*
-support
-class
-*
-*
-:
-browsertime_pageload
-.
-py
 *
 *
 *
