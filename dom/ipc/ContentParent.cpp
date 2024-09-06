@@ -22932,10 +22932,6 @@ BrowsingContext
 >
 &
 aContext
-const
-bool
-&
-aShouldCloseWindow
 )
 {
 RefPtr
@@ -23023,10 +23019,6 @@ BrowsingContext
 >
 &
 aContext
-const
-bool
-&
-aShouldCloseWindow
 )
 {
 BrowsingContext
@@ -23067,7 +23059,6 @@ aMimeContentType
 aForceSave
 aReferrer
 context
-aShouldCloseWindow
 )
 )
 {

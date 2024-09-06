@@ -908,6 +908,8 @@ nsILoadInfo
 :
 HTTPSUpgradeTelemetryType
 aHttpsUpgradeTelemetry
+bool
+aIsNewWindowTarget
 )
 ;
 LoadInfo
@@ -1571,6 +1573,11 @@ nsILoadInfo
 :
 :
 NOT_INITIALIZED
+;
+bool
+mIsNewWindowTarget
+=
+false
 ;
 }
 ;

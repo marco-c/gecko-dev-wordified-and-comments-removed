@@ -2754,5 +2754,12 @@ attribute
 nsILoadInfo_HTTPSUpgradeTelemetryType
 httpsUpgradeTelemetry
 ;
+[
+infallible
+]
+attribute
+boolean
+isNewWindowTarget
+;
 }
 ;

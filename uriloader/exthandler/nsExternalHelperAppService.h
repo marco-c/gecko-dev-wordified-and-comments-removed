@@ -717,16 +717,6 @@ nsIRequest
 request
 )
 ;
-void
-SetShouldCloseWindow
-(
-)
-{
-mShouldCloseWindow
-=
-true
-;
-}
 protected
 :
 bool
@@ -807,9 +797,6 @@ mStopRequestIssued
 ;
 bool
 mIsFileChannel
-;
-bool
-mShouldCloseWindow
 ;
 bool
 mHandleInternally

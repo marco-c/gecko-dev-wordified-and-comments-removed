@@ -3601,10 +3601,6 @@ BrowsingContext
 >
 &
 aContext
-const
-bool
-&
-aShouldCloseWindow
 )
 ;
 mozilla
@@ -3664,10 +3660,6 @@ BrowsingContext
 >
 &
 aContext
-const
-bool
-&
-aShouldCloseWindow
 )
 override
 ;

@@ -717,6 +717,9 @@ InterceptionInfoArg
 ?
 interceptionInfo
 ;
+bool
+isNewWindowTarget
+;
 }
 ;
 struct
