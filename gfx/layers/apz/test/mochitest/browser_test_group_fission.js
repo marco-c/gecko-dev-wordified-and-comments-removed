@@ -183,15 +183,6 @@ html
 file
 :
 "
-helper_fission_touch
-.
-html
-"
-}
-{
-file
-:
-"
 helper_fission_inactivescroller_under_oopif
 .
 html
