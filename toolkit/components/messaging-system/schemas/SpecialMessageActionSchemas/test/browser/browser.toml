@@ -68,6 +68,13 @@ js
 ]
 [
 "
+browser_sma_bookmark_current_tab
+.
+js
+"
+]
+[
+"
 browser_sma_cfrmessageprovider
 .
 js
@@ -232,6 +239,13 @@ win
 &
 msix
 )
+"
+]
+[
+"
+browser_sma_set_bookmarks_toolbar_visibility
+.
+js
 "
 ]
 [
