@@ -2569,14 +2569,15 @@ return
 content
 -
 >
-PrependLocalTransformsTo
+ChildToUserSpaceTransform
 (
+)
+*
 parent
 -
 >
 GetCanvasTM
 (
-)
 )
 ;
 }
