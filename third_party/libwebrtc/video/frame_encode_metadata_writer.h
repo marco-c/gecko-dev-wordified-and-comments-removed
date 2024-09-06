@@ -143,16 +143,6 @@ encoded_image
 )
 ;
 void
-FillTimingInfo
-(
-size_t
-simulcast_svc_idx
-EncodedImage
-*
-encoded_image
-)
-;
-void
 UpdateBitstream
 (
 const
