@@ -722,9 +722,15 @@ _interfacename
 Element_Binding
 {
 \
+JS
+:
+:
+Handle
+<
 JSObject
 *
-GetConstructorObject
+>
+GetConstructorObjectHandle
 (
 JSContext
 *
@@ -754,8 +760,14 @@ HTML_OTHER
 using
 constructorGetterCallback
 =
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 (
 *
 )
@@ -782,7 +794,7 @@ _interfacename
 Element_Binding
 :
 :
-GetConstructorObject
+GetConstructorObjectHandle
 #
 define
 HTML_OTHER
@@ -801,7 +813,7 @@ sConstructorGetterCallback
 HTMLUnknownElement_Binding
 :
 :
-GetConstructorObject
+GetConstructorObjectHandle
 #
 include
 "
@@ -20113,7 +20125,7 @@ cb
 XULTextElement_Binding
 :
 :
-GetConstructorObject
+GetConstructorObjectHandle
 ;
 }
 else
@@ -20136,7 +20148,7 @@ cb
 XULResizerElement_Binding
 :
 :
-GetConstructorObject
+GetConstructorObjectHandle
 ;
 }
 else
@@ -20183,7 +20195,7 @@ cb
 XULPopupElement_Binding
 :
 :
-GetConstructorObject
+GetConstructorObjectHandle
 ;
 }
 else
@@ -20230,7 +20242,7 @@ cb
 XULFrameElement_Binding
 :
 :
-GetConstructorObject
+GetConstructorObjectHandle
 ;
 }
 else
@@ -20265,7 +20277,7 @@ cb
 XULMenuElement_Binding
 :
 :
-GetConstructorObject
+GetConstructorObjectHandle
 ;
 }
 else
@@ -20288,7 +20300,7 @@ cb
 XULTreeElement_Binding
 :
 :
-GetConstructorObject
+GetConstructorObjectHandle
 ;
 }
 else
@@ -20298,7 +20310,7 @@ cb
 XULElement_Binding
 :
 :
-GetConstructorObject
+GetConstructorObjectHandle
 ;
 }
 }
@@ -20329,7 +20341,7 @@ cb
 HTMLElement_Binding
 :
 :
-GetConstructorObject
+GetConstructorObjectHandle
 ;
 }
 JSAutoRealm

@@ -3720,7 +3720,7 @@ DOMInterfaceInfo
 JSNativeHolder
 nativeHolder
 ;
-ProtoGetter
+ProtoHandleGetter
 mGetParentProto
 ;
 const
