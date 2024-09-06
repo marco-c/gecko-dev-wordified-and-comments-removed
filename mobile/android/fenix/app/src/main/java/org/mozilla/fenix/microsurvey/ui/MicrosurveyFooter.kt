@@ -445,7 +445,7 @@ R
 .
 string
 .
-about_privacy_notice
+micro_survey_privacy_notice_2
 )
 linkTextStates
 =
