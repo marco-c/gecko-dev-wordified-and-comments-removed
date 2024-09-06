@@ -120,6 +120,16 @@ STATE_SUCCEEDED
 ;
 checkCallbackLog
 (
+getApplyDirFile
+(
+DIR_RESOURCES
++
+"
+callback_app
+.
+log
+"
+)
 )
 ;
 }
