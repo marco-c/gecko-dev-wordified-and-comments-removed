@@ -3075,10 +3075,13 @@ if
 pixelBufferPool
 )
 {
-return
-NO
+resetCompressionSession
+=
+YES
 ;
 }
+else
+{
 NSDictionary
 *
 poolAttributes
@@ -3205,6 +3208,7 @@ format
 .
 "
 ;
+}
 }
 }
 else
