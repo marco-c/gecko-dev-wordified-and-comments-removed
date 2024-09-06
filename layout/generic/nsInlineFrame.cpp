@@ -995,9 +995,10 @@ nsInlineFrame
 :
 AddInlineMinISize
 (
-gfxContext
-*
-aRenderingContext
+const
+IntrinsicSizeInput
+&
+aInput
 InlineMinISizeData
 *
 aData
@@ -1005,7 +1006,7 @@ aData
 {
 DoInlineMinISize
 (
-aRenderingContext
+aInput
 aData
 )
 ;
@@ -1016,9 +1017,10 @@ nsInlineFrame
 :
 AddInlinePrefISize
 (
-gfxContext
-*
-aRenderingContext
+const
+IntrinsicSizeInput
+&
+aInput
 InlinePrefISizeData
 *
 aData
@@ -1026,7 +1028,7 @@ aData
 {
 DoInlinePrefISize
 (
-aRenderingContext
+aInput
 aData
 )
 ;
