@@ -185,7 +185,7 @@ struct
 sctp_paramhdr
 ph
 ;
-uint32_t
+time_t
 time_value_1
 ;
 uint32_t

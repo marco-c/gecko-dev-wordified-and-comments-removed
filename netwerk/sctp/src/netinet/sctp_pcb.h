@@ -402,7 +402,7 @@ error
 struct
 sctp_timewait
 {
-uint32_t
+time_t
 tv_sec_at_expire
 ;
 uint32_t
@@ -1079,8 +1079,7 @@ endif
 struct
 sctp_pcb
 {
-unsigned
-int
+time_t
 time_of_secret_change
 ;
 uint32_t

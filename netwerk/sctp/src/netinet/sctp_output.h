@@ -245,6 +245,8 @@ int
 *
 int
 *
+uint32_t
+*
 )
 ;
 void
