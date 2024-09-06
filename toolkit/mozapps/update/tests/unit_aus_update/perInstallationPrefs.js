@@ -1208,7 +1208,6 @@ gPolicyFunctionResult
 true
 )
 ;
-await
 doTestFinish
 (
 )

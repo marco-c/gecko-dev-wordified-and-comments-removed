@@ -2729,7 +2729,6 @@ updates1
 false
 )
 ;
-await
 reloadUpdateManagerData
 (
 false

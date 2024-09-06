@@ -91,7 +91,6 @@ INVALID_CALLBACK_DIR_ERROR
 1
 )
 ;
-await
 waitForFilesInUse
 (
 )

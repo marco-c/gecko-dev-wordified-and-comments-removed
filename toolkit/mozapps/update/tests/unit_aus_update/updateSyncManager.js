@@ -455,7 +455,6 @@ lock
 )
 ;
 }
-await
 doTestFinish
 (
 )

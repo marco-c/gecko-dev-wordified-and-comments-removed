@@ -90,7 +90,6 @@ MAR_CHANNEL_MISMATCH_ERROR
 1
 )
 ;
-await
 waitForFilesInUse
 (
 )

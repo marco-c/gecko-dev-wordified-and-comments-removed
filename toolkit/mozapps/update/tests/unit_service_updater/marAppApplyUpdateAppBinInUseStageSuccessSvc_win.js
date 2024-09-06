@@ -230,7 +230,6 @@ path
 )
 )
 ;
-await
 waitForFilesInUse
 (
 )

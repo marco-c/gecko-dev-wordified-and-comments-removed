@@ -1702,13 +1702,11 @@ r
 ;
 add_task
 (
-async
 (
 )
 =
 >
 {
-await
 doTestFinish
 (
 )

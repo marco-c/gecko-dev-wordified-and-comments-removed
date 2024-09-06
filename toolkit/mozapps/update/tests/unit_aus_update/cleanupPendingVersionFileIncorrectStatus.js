@@ -287,7 +287,6 @@ exists
 MSG_SHOULD_NOT_EXIST
 )
 ;
-await
 doTestFinish
 (
 )

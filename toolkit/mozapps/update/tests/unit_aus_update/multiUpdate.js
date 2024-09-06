@@ -1469,7 +1469,6 @@ pending
 "
 )
 ;
-await
 reloadUpdateManagerData
 (
 true
@@ -1643,7 +1642,6 @@ multi_update_test
 true
 )
 ;
-await
 reloadUpdateManagerData
 (
 true
@@ -1655,7 +1653,6 @@ multi_update_test
 false
 )
 ;
-await
 doTestFinish
 (
 )

@@ -204,7 +204,6 @@ false
 }
 )
 ;
-await
 reloadUpdateManagerData
 (
 )
@@ -376,7 +375,6 @@ path
 )
 )
 ;
-await
 waitForFilesInUse
 (
 )

@@ -125,7 +125,6 @@ INVALID_WORKING_DIR_PATH_ERROR
 )
 ;
 }
-await
 waitForFilesInUse
 (
 )

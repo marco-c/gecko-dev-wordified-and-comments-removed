@@ -224,7 +224,6 @@ path
 )
 )
 ;
-await
 waitForFilesInUse
 (
 )

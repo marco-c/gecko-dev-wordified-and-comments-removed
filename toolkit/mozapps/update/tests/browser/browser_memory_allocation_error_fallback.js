@@ -171,13 +171,11 @@ null
 )
 ;
 }
-async
 function
 cleanup
 (
 )
 {
-await
 reloadUpdateManagerData
 (
 true
@@ -203,7 +201,6 @@ memAllocErrorFallback
 READ_STRINGS_MEM_ERROR
 )
 ;
-await
 cleanup
 (
 )
@@ -225,7 +222,6 @@ memAllocErrorFallback
 ARCHIVE_READER_MEM_ERROR
 )
 ;
-await
 cleanup
 (
 )
@@ -247,7 +243,6 @@ memAllocErrorFallback
 BSPATCH_MEM_ERROR
 )
 ;
-await
 cleanup
 (
 )
@@ -269,7 +264,6 @@ memAllocErrorFallback
 UPDATER_MEM_ERROR
 )
 ;
-await
 cleanup
 (
 )
@@ -291,7 +285,6 @@ memAllocErrorFallback
 UPDATER_QUOTED_PATH_MEM_ERROR
 )
 ;
-await
 cleanup
 (
 )

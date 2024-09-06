@@ -97,7 +97,6 @@ STATE_AFTER_RUNUPDATE
 1
 )
 ;
-await
 waitForFilesInUse
 (
 )

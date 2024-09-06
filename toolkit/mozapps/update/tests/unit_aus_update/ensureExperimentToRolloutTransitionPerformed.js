@@ -343,7 +343,6 @@ true
 }
 )
 ;
-await
 doTestFinish
 (
 )

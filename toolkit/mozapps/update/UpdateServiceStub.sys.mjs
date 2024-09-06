@@ -819,7 +819,6 @@ Ci
 nsIApplicationUpdateService
 )
 ;
-await
 Cc
 [
 "
@@ -842,13 +841,6 @@ getService
 Ci
 .
 nsIUpdateManager
-)
-.
-internal
-.
-reload
-(
-false
 )
 ;
 Cc

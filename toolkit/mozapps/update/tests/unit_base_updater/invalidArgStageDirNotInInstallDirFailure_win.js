@@ -118,7 +118,6 @@ INVALID_APPLYTO_DIR_STAGED_ERROR
 )
 ;
 }
-await
 waitForFilesInUse
 (
 )
