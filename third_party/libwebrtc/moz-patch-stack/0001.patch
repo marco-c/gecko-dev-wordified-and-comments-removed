@@ -1010,10 +1010,10 @@ videocodec_test_fixture_impl
 .
 cc
 index
-8b75e59645
+535640e780
 .
 .
-abf8de7258
+596f2c435a
 100644
 -
 -
@@ -1048,10 +1048,10 @@ videocodec_test_fixture_impl
 .
 cc
 -
-172
+178
 7
 +
-172
+178
 7
 SdpVideoFormat
 CreateSdpVideoFormat
