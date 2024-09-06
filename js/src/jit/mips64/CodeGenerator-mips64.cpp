@@ -3162,7 +3162,7 @@ elements
 )
 )
 ;
-Register
+Register64
 out
 =
 ToOutRegister64
