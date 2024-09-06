@@ -336,6 +336,16 @@ if
 isReaderViewActive
 )
 {
+Divider
+(
+color
+=
+FirefoxTheme
+.
+colors
+.
+borderSecondary
+)
 MenuItem
 (
 label
