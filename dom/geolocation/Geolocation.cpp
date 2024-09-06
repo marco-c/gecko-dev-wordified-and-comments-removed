@@ -1491,7 +1491,7 @@ permissionRequest
 geolocation
 :
 :
-PresentSystemSettings
+RequestLocationPermissionFromUser
 (
 aBrowsingContext
 std
@@ -1688,12 +1688,12 @@ NS_OK
 if
 (
 mBehavior
-=
+!
 =
 SystemGeolocationPermissionBehavior
 :
 :
-GeckoWillPromptUser
+NoPrompt
 )
 {
 mBehavior
