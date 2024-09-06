@@ -95,7 +95,6 @@ title
 UI
 Widgets
 /
-Moz
 Button
 "
 component
