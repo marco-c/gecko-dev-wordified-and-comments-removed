@@ -7,6 +7,17 @@ API_SEQUENCE_CHECKER_H_
 #
 include
 "
+api
+/
+task_queue
+/
+task_queue_base
+.
+h
+"
+#
+include
+"
 rtc_base
 /
 checks

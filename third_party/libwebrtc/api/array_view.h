@@ -17,6 +17,11 @@ array
 #
 include
 <
+cstddef
+>
+#
+include
+<
 iterator
 >
 #

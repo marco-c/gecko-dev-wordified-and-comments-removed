@@ -9,11 +9,6 @@ transport
 .
 h
 "
-#
-include
-<
-cstdint
->
 namespace
 webrtc
 {

@@ -14,6 +14,11 @@ h
 #
 include
 <
+functional
+>
+#
+include
+<
 memory
 >
 #
@@ -26,6 +31,15 @@ include
 <
 vector
 >
+#
+include
+"
+api
+/
+data_channel_interface
+.
+h
+"
 #
 include
 "

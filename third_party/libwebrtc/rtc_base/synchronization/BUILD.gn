@@ -294,6 +294,17 @@ visibility
 /
 api
 :
+rtc_api_unittests
+"
+"
+.
+.
+/
+.
+.
+/
+api
+:
 sequence_checker
 "
 ]

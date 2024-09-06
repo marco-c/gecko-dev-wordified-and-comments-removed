@@ -7,13 +7,6 @@ API_CALL_TRANSPORT_H_
 #
 include
 <
-stddef
-.
-h
->
-#
-include
-<
 stdint
 .
 h

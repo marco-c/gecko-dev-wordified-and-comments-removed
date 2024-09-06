@@ -68,6 +68,15 @@ include
 "
 api
 /
+rtc_error
+.
+h
+"
+#
+include
+"
+api
+/
 rtp_parameters
 .
 h

@@ -159,6 +159,17 @@ deps
 /
 rtc_base
 :
+checks
+"
+"
+.
+.
+/
+.
+.
+/
+rtc_base
+:
 ssl_adapter
 "
 "

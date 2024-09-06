@@ -17,6 +17,13 @@ endif
 #
 include
 <
+stdint
+.
+h
+>
+#
+include
+<
 string
 >
 #
