@@ -1744,7 +1744,7 @@ fixupAndLoadURIString
 (
 uri
 {
-flags
+loadFlags
 :
 navFlags
 referrerInfo

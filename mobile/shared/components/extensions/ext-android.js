@@ -2357,7 +2357,7 @@ browser
 tab
 ;
 const
-flags
+loadFlags
 =
 Ci
 .
@@ -2373,7 +2373,7 @@ optionsPageProperties
 .
 page
 {
-flags
+loadFlags
 triggeringPrincipal
 :
 extension

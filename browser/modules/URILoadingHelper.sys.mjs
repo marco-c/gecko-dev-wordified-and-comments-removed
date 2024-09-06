@@ -1076,7 +1076,7 @@ params
 )
 {
 let
-flags
+loadFlags
 =
 Ci
 .
@@ -1091,7 +1091,7 @@ params
 allowThirdPartyFixup
 )
 {
-flags
+loadFlags
 |
 =
 Ci
@@ -1100,7 +1100,7 @@ nsIWebNavigation
 .
 LOAD_FLAGS_ALLOW_THIRD_PARTY_FIXUP
 ;
-flags
+loadFlags
 |
 =
 Ci
@@ -1159,7 +1159,7 @@ params
 allowInheritPrincipal
 )
 {
-flags
+loadFlags
 |
 =
 Ci
@@ -1176,7 +1176,7 @@ params
 allowPopups
 )
 {
-flags
+loadFlags
 |
 =
 Ci
@@ -1193,7 +1193,7 @@ params
 indicateErrorPageLoad
 )
 {
-flags
+loadFlags
 |
 =
 Ci
@@ -1210,7 +1210,7 @@ params
 forceAllowDataURI
 )
 {
-flags
+loadFlags
 |
 =
 Ci
@@ -1227,7 +1227,7 @@ params
 fromExternal
 )
 {
-flags
+loadFlags
 |
 =
 Ci
@@ -1334,7 +1334,7 @@ url
 {
 triggeringPrincipal
 csp
-flags
+loadFlags
 referrerInfo
 postData
 userContextId

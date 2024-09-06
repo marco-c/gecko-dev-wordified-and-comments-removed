@@ -7891,7 +7891,7 @@ selectedIndex
 ;
 }
 let
-flags
+loadFlags
 =
 LOAD_FLAGS_NONE
 ;
@@ -7900,7 +7900,7 @@ if
 allowThirdPartyFixup
 )
 {
-flags
+loadFlags
 |
 =
 LOAD_FLAGS_ALLOW_THIRD_PARTY_FIXUP
@@ -7914,7 +7914,7 @@ if
 allowInheritPrincipal
 )
 {
-flags
+loadFlags
 |
 =
 LOAD_FLAGS_DISALLOW_INHERIT_PRINCIPAL
@@ -7925,7 +7925,7 @@ if
 fromExternal
 )
 {
-flags
+loadFlags
 |
 =
 LOAD_FLAGS_FROM_EXTERNAL
@@ -7942,7 +7942,7 @@ aURIs
 0
 ]
 {
-flags
+loadFlags
 postData
 :
 postDatas
@@ -12466,7 +12466,7 @@ uriString
 ;
 }
 let
-flags
+loadFlags
 =
 LOAD_FLAGS_NONE
 ;
@@ -12475,7 +12475,7 @@ if
 allowThirdPartyFixup
 )
 {
-flags
+loadFlags
 |
 =
 LOAD_FLAGS_ALLOW_THIRD_PARTY_FIXUP
@@ -12488,7 +12488,7 @@ if
 fromExternal
 )
 {
-flags
+loadFlags
 |
 =
 LOAD_FLAGS_FROM_EXTERNAL
@@ -12503,7 +12503,7 @@ triggeringPrincipal
 isSystemPrincipal
 )
 {
-flags
+loadFlags
 |
 =
 LOAD_FLAGS_FIRST_LOAD
@@ -12515,7 +12515,7 @@ if
 allowInheritPrincipal
 )
 {
-flags
+loadFlags
 |
 =
 LOAD_FLAGS_DISALLOW_INHERIT_PRINCIPAL
@@ -12526,7 +12526,7 @@ if
 disableTRR
 )
 {
-flags
+loadFlags
 |
 =
 LOAD_FLAGS_DISABLE_TRR
@@ -12537,7 +12537,7 @@ if
 forceAllowDataURI
 )
 {
-flags
+loadFlags
 |
 =
 LOAD_FLAGS_FORCE_ALLOW_DATA_URI
@@ -12551,7 +12551,7 @@ fixupAndLoadURIString
 (
 uriString
 {
-flags
+loadFlags
 triggeringPrincipal
 referrerInfo
 charset

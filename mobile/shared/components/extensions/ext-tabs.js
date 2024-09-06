@@ -1201,7 +1201,7 @@ browser
 nativeTab
 ;
 let
-flags
+loadFlags
 =
 Ci
 .
@@ -1292,7 +1292,7 @@ if
 isAboutUrl
 )
 {
-flags
+loadFlags
 |
 =
 Ci
@@ -1308,7 +1308,7 @@ fixupAndLoadURIString
 (
 url
 {
-flags
+loadFlags
 triggeringPrincipal
 :
 principal

@@ -560,7 +560,7 @@ async
 function
 (
 uriString
-flags
+loadFlags
 =
 Ci
 .
@@ -582,7 +582,7 @@ flags
 =
 "
 +
-flags
+loadFlags
 )
 ;
 gBrowser
@@ -600,7 +600,7 @@ newURI
 uriString
 )
 {
-flags
+loadFlags
 triggeringPrincipal
 :
 Services
@@ -626,7 +626,7 @@ if
 (
 !
 (
-flags
+loadFlags
 &
 Ci
 .
@@ -638,7 +638,7 @@ LOAD_FLAGS_BYPASS_HISTORY
 {
 if
 (
-flags
+loadFlags
 &
 Ci
 .
