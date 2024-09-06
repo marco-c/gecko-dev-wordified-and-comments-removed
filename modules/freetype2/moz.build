@@ -453,15 +453,6 @@ CONFIG
 MOZ_ZLIB_CFLAGS
 '
 ]
-if
-not
-CONFIG
-[
-"
-USE_LIBZ_RS
-"
-]
-:
 USE_LIBS
 +
 =
