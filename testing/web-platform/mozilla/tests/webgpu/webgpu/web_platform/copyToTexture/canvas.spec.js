@@ -95,7 +95,7 @@ js
 ;
 import
 {
-CopyToTextureUtils
+TextureUploadingUtils
 }
 from
 '
@@ -135,7 +135,7 @@ js
 class
 F
 extends
-CopyToTextureUtils
+TextureUploadingUtils
 {
 init2DCanvasContentWithColorSpace
 (

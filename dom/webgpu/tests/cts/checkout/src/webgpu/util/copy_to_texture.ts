@@ -468,7 +468,7 @@ const
 ;
 export
 class
-CopyToTextureUtils
+TextureUploadingUtils
 extends
 TextureTestMixin
 (

@@ -1240,7 +1240,7 @@ binding
 0
 resource
 :
-externalTexture
+mayBeTheSameExternalTexture
 }
 ]
 }

@@ -57,6 +57,7 @@ validation_test
 js
 '
 ;
+export
 type
 ColorTargetState
 =

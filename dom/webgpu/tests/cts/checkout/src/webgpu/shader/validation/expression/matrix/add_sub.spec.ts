@@ -2017,7 +2017,7 @@ lhs
 {
 kValue
 .
-f32
+f16
 .
 negative
 .
