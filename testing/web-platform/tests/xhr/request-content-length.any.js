@@ -110,6 +110,16 @@ length
 ;
 client
 .
+onerror
+=
+test
+.
+unreached_func
+(
+)
+;
+client
+.
 open
 (
 "
