@@ -174,6 +174,11 @@ privatebrowsing
 autostart
 "
 ;
+const
+DAYS_EXPANDED_INITIALLY
+=
+2
+;
 export
 class
 SidebarHistory
@@ -694,6 +699,7 @@ map
 l10nId
 items
 }
+i
 )
 =
 >
@@ -707,6 +713,14 @@ type
 "
 accordion
 "
+?
+expanded
+=
+{
+i
+<
+DAYS_EXPANDED_INITIALLY
+}
 data
 -
 l10n
@@ -806,6 +820,7 @@ type
 "
 accordion
 "
+expanded
 heading
 =
 {

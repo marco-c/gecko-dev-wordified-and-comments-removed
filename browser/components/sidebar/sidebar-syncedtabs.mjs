@@ -682,6 +682,7 @@ type
 "
 accordion
 "
+expanded
 .
 heading
 =
