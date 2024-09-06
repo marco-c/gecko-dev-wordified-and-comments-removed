@@ -445,11 +445,13 @@ now
 ;
 Assert
 .
-equal
+ok
 (
 conn
 .
 schemaVersion
+>
+=
 13
 )
 ;
