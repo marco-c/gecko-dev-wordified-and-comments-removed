@@ -6411,16 +6411,6 @@ aMIMEType
 )
 ;
 static
-bool
-IsJsonMimeType
-(
-const
-nsAString
-&
-aMimeType
-)
-;
-static
 void
 SplitMimeType
 (

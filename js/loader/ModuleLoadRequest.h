@@ -87,7 +87,7 @@ VisitedURLSet
 public
 nsTHashtable
 <
-ModuleMapKey
+nsURIHashKey
 >
 {
 NS_INLINE_DECL_REFCOUNTING
@@ -176,11 +176,6 @@ ModuleLoadRequest
 nsIURI
 *
 aURI
-JS
-:
-:
-ModuleType
-aModuleType
 mozilla
 :
 :
@@ -225,11 +220,6 @@ NewVisitedSetForTopLevelImport
 nsIURI
 *
 aURI
-JS
-:
-:
-ModuleType
-aModuleType
 )
 ;
 bool
@@ -560,13 +550,6 @@ public
 const
 bool
 mIsTopLevel
-;
-const
-JS
-:
-:
-ModuleType
-mModuleType
 ;
 const
 bool
