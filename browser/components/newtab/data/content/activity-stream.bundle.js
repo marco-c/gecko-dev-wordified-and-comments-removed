@@ -63678,6 +63678,14 @@ b
 ]
 ;
 const
+layoutsVariantAorB
+=
+layoutsVariantAEnabled
+|
+|
+layoutsVariantBEnabled
+;
+const
 activeWallpaper
 =
 prefs
@@ -64592,7 +64600,7 @@ prefs
 showSearch
 &
 &
-layoutsVariantAEnabled
+layoutsVariantAorB
 &
 &
 !
