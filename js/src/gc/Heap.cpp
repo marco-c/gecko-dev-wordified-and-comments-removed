@@ -1966,13 +1966,6 @@ info
 .
 numArenasFree
 ;
-gc
--
->
-updateOnArenaFree
-(
-)
-;
 verify
 (
 )
