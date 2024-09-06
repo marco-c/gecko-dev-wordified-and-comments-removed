@@ -3361,6 +3361,8 @@ sports
 tech
 travel
 education
+-
+science
 society
 "
 }
