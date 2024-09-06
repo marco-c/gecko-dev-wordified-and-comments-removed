@@ -132,6 +132,17 @@ element
 instanceof
 HTMLInputElement
 ;
+HTMLIFrameElement
+.
+isInstance
+=
+element
+=
+>
+element
+instanceof
+HTMLIFrameElement
+;
 HTMLFormElement
 .
 isInstance
