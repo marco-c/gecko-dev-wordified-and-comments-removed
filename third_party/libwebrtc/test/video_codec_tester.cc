@@ -8584,10 +8584,6 @@ vc
 -
 >
 height
-cricket
-:
-:
-kDefaultVideoMaxQpVpx
 false
 true
 field_trials
@@ -8777,12 +8773,10 @@ ss
 >
 qpMax
 =
-streams
-[
-i
-]
-.
-max_qp
+vc
+-
+>
+qpMax
 ;
 ss
 -

@@ -50,12 +50,6 @@ test
 ExplicitKeyValueConfig
 ;
 constexpr
-int
-kQpMax
-=
-55
-;
-constexpr
 bool
 kScreenshare
 =
@@ -524,7 +518,6 @@ kMinLayers
 kMaxLayers
 1280
 720
-kQpMax
 !
 kScreenshare
 true
@@ -661,7 +654,8 @@ max_framerate
 ;
 EXPECT_EQ
 (
-kQpMax
+-
+1
 streams
 [
 i
@@ -793,7 +787,6 @@ kMinLayers
 kMaxLayers
 1280
 720
-kQpMax
 !
 kScreenshare
 true
@@ -993,7 +986,6 @@ kMinLayers
 kMaxLayers
 1280
 720
-kQpMax
 !
 kScreenshare
 true
@@ -1108,7 +1100,6 @@ kMinLayers
 kMaxLayers
 800
 600
-kQpMax
 !
 kScreenshare
 true
@@ -1223,7 +1214,6 @@ kMinLayers
 kMaxLayers
 100
 100
-kQpMax
 kScreenshare
 true
 trials
@@ -1293,7 +1283,6 @@ kMinLayers
 kMaxLayers
 800
 600
-kQpMax
 !
 kScreenshare
 true
@@ -1428,7 +1417,6 @@ kMaxLayers
 360
 +
 1
-kQpMax
 !
 kScreenshare
 true
@@ -1545,7 +1533,6 @@ kMinLayers
 kMaxLayers
 709
 501
-kQpMax
 !
 kScreenshare
 true
@@ -1662,7 +1649,6 @@ kMinLayers
 kMaxLayers
 709
 501
-kQpMax
 !
 kScreenshare
 true
@@ -1777,7 +1763,6 @@ kMinLayers
 kMaxLayers
 320
 180
-kQpMax
 !
 kScreenshare
 true
@@ -1809,7 +1794,6 @@ kMinLayers
 kMaxLayers
 640
 360
-kQpMax
 !
 kScreenshare
 true
@@ -1841,7 +1825,6 @@ kMinLayers
 kMaxLayers
 1920
 1080
-kQpMax
 !
 kScreenshare
 true
@@ -1912,7 +1895,6 @@ kMinLayers
 kMaxLayers
 320
 180
-kQpMax
 !
 kScreenshare
 true
@@ -1944,7 +1926,6 @@ kMinLayers
 kMaxLayers
 640
 360
-kQpMax
 !
 kScreenshare
 true
@@ -1976,7 +1957,6 @@ kMinLayers
 kMaxLayers
 1920
 1080
-kQpMax
 !
 kScreenshare
 true
@@ -2041,7 +2021,6 @@ kMinLayers
 kMaxLayers
 1400
 800
-kQpMax
 kScreenshare
 true
 trials
@@ -2123,7 +2102,8 @@ scaled
 ;
 EXPECT_EQ
 (
-kQpMax
+-
+1
 streams
 [
 i
@@ -2255,7 +2235,6 @@ kMinLayers
 kMaxLayers
 1400
 800
-kQpMax
 kScreenshare
 true
 trials
@@ -2319,7 +2298,6 @@ kMinLayers
 kMaxLayers
 900
 800
-kQpMax
 !
 kScreenshare
 true
@@ -2465,7 +2443,6 @@ kMinLayers
 kMaxLayers
 kWidth
 kHeight
-kQpMax
 !
 kScreenshare
 true
@@ -2636,7 +2613,6 @@ kMinLayers
 kMaxLayers
 960
 540
-kQpMax
 !
 kScreenshare
 true
@@ -2668,7 +2644,6 @@ kMinLayers
 kMaxLayers
 960
 539
-kQpMax
 !
 kScreenshare
 true
@@ -2700,7 +2675,6 @@ kMinLayers
 kMaxLayers
 480
 270
-kQpMax
 !
 kScreenshare
 true
@@ -2732,7 +2706,6 @@ kMinLayers
 kMaxLayers
 480
 269
-kQpMax
 !
 kScreenshare
 true
@@ -2799,7 +2772,6 @@ kMinLayers
 kMaxLayers
 960
 540
-kQpMax
 !
 kScreenshare
 true
@@ -2831,7 +2803,6 @@ kMinLayers
 kMaxLayers
 960
 512
-kQpMax
 !
 kScreenshare
 true
@@ -2863,7 +2834,6 @@ kMinLayers
 kMaxLayers
 960
 508
-kQpMax
 !
 kScreenshare
 true
@@ -2895,7 +2865,6 @@ kMinLayers
 kMaxLayers
 480
 270
-kQpMax
 !
 kScreenshare
 true
@@ -2927,7 +2896,6 @@ kMinLayers
 kMaxLayers
 480
 256
-kQpMax
 !
 kScreenshare
 true
@@ -2959,7 +2927,6 @@ kMinLayers
 kMaxLayers
 480
 254
-kQpMax
 !
 kScreenshare
 true
@@ -3036,7 +3003,6 @@ kMinLayers
 kMaxLayers
 480
 270
-kQpMax
 !
 kScreenshare
 true
@@ -3068,7 +3034,6 @@ kMinLayers
 kMaxLayers
 480
 252
-kQpMax
 !
 kScreenshare
 true
@@ -3100,7 +3065,6 @@ kMinLayers
 kMaxLayers
 480
 250
-kQpMax
 !
 kScreenshare
 true
@@ -3165,7 +3129,6 @@ GetSimulcastConfig
 kMaxLayers
 960
 540
-kQpMax
 !
 kScreenshare
 true
@@ -3279,7 +3242,6 @@ GetSimulcastConfig
 3
 1
 1
-kQpMax
 !
 kScreenshare
 true
@@ -3399,7 +3361,6 @@ GetSimulcastConfig
 kMaxLayers
 960
 540
-kQpMax
 !
 kScreenshare
 true
@@ -3513,7 +3474,6 @@ GetSimulcastConfig
 3
 1280
 720
-kQpMax
 !
 kScreenshare
 true
@@ -3542,7 +3502,6 @@ GetSimulcastConfig
 3
 1280
 720
-kQpMax
 !
 kScreenshare
 true
@@ -3771,7 +3730,6 @@ GetSimulcastConfig
 kMaxLayers
 1280
 720
-kQpMax
 !
 kScreenshare
 true
@@ -3858,7 +3816,6 @@ GetSimulcastConfig
 kMaxLayers
 1276
 716
-kQpMax
 !
 kScreenshare
 true

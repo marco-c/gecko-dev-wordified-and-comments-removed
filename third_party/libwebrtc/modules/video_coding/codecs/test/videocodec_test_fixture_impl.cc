@@ -619,7 +619,6 @@ codec_settings
 -
 >
 height
-kMaxQp
 false
 true
 trials
@@ -765,12 +764,7 @@ ss
 >
 qpMax
 =
-streams
-[
-i
-]
-.
-max_qp
+kMaxQp
 ;
 ss
 -
