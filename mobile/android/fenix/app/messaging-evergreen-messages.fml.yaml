@@ -272,6 +272,8 @@ all
 :
 -
 USER_ESTABLISHED_INSTALL
+-
+ANDROID_API_BELOW_29
 exclude
 -
 if
@@ -297,6 +299,13 @@ number_of_app_launches
 >
 =
 4
+"
+ANDROID_API_BELOW_29
+:
+"
+android_version
+<
+29
 "
 #
 This
