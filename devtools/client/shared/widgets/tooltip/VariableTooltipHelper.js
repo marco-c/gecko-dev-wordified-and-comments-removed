@@ -227,7 +227,15 @@ parseCssProperty
 (
 variableName
 value
+{
+.
+.
+.
 outputParserOptions
+colorSwatchReadOnly
+:
+true
+}
 )
 ;
 const
