@@ -1041,6 +1041,14 @@ ClearCachedAttributes
 ChannelWrapper_Binding
 :
 :
+ClearCachedMethodValue
+(
+this
+)
+;
+ChannelWrapper_Binding
+:
+:
 ClearCachedFinalURIValue
 (
 this

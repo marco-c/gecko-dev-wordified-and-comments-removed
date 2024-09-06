@@ -1198,6 +1198,13 @@ js
 ]
 [
 "
+test_ext_dnr_across_redirects
+.
+js
+"
+]
+[
+"
 test_ext_dnr_allowAllRequests
 .
 js
