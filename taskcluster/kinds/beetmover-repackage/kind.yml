@@ -215,6 +215,16 @@ repackage
 deb
 -
 l10n
+-
+upload
+-
+symbols
+-
+upload
+-
+symbols
+-
+dummy
 only
 -
 for
