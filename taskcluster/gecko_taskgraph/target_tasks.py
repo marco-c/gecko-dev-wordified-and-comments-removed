@@ -1651,6 +1651,23 @@ True
     
 if
 "
+s24
+"
+in
+platform
+and
+"
+aarch64
+"
+in
+platform
+:
+        
+return
+True
+    
+if
+"
 a51
 "
 in
