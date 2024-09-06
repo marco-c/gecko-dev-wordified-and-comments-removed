@@ -147,7 +147,5 @@ index
 migrations
 /
 index
-crosschannel
-/
-index
+singlel10nsource
 glossary
