@@ -925,7 +925,7 @@ readPointerSingletonObject
 const
 pointerId
 =
-7
+9
 ;
 /
 /
@@ -1008,7 +1008,7 @@ value
 const
 pointerId
 =
-7
+9
 ;
 /
 /
@@ -1842,7 +1842,7 @@ UniFFIScaffolding
 .
 callSync
 (
-67
+90
 /
 /
 refcounts
@@ -2045,7 +2045,7 @@ UniFFIScaffolding
 .
 callSync
 (
-68
+91
 /
 /
 refcounts
@@ -2103,7 +2103,7 @@ UniFFIScaffolding
 .
 callSync
 (
-69
+92
 /
 /
 refcounts
