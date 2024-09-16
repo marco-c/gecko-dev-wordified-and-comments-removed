@@ -71,7 +71,7 @@ const
 TEST_HTTP_PATH
 =
 "
-http
+https
 :
 /
 /
