@@ -3088,15 +3088,6 @@ aStatus
 0
 ;
 void
-NotifySetCookie
-(
-const
-nsACString
-&
-aCookie
-)
-;
-void
 MaybeReportTimingData
 (
 )
