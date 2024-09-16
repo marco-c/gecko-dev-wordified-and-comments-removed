@@ -15,16 +15,5 @@ webextensions
 :
 true
 }
-rules
-:
-{
-"
-no
--
-shadow
-"
-:
-0
-}
 }
 ;
