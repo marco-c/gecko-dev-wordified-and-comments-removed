@@ -5957,6 +5957,10 @@ testing_coroutines
 implementation
 ComponentsDependencies
 .
+accompanist_drawablepainter
+implementation
+ComponentsDependencies
+.
 androidx_appcompat
 implementation
 ComponentsDependencies
@@ -5966,10 +5970,6 @@ implementation
 ComponentsDependencies
 .
 androidx_coordinatorlayout
-implementation
-FenixDependencies
-.
-google_accompanist_drawablepainter
 implementation
 ComponentsDependencies
 .
