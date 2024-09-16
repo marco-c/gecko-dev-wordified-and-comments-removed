@@ -10860,6 +10860,12 @@ case
 JSOp
 :
 :
+BindUnqualifiedName
+:
+case
+JSOp
+:
+:
 BindVar
 :
 return

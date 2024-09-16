@@ -3001,6 +3001,12 @@ case
 JSOp
 :
 :
+BindUnqualifiedName
+:
+case
+JSOp
+:
+:
 GetBoundName
 :
 case
