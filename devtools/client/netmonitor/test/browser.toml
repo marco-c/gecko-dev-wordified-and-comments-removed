@@ -3160,13 +3160,6 @@ js
 ]
 [
 "
-browser_net_throttling_cached
-.
-js
-"
-]
-[
-"
 browser_net_throttling_profiles
 .
 js
