@@ -60,7 +60,7 @@ results
 )
 =
 =
-2
+3
     
 assert
 "
@@ -116,7 +116,7 @@ mismatch
 in
 results
 [
-1
+2
 ]
 .
 message
@@ -124,7 +124,7 @@ message
 assert
 results
 [
-1
+2
 ]
 .
 level
@@ -137,7 +137,7 @@ error
 assert
 results
 [
-1
+2
 ]
 .
 relpath
