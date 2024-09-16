@@ -2564,9 +2564,17 @@ val
 escapedCharactersRegex
 =
 "
+[
+\
+\
+p
+{
+Z
+}
 \
 \
 s
+]
 +
 "
 .
