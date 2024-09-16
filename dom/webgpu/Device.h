@@ -314,6 +314,10 @@ SupportedLimits
 >
 mLimits
 ;
+const
+bool
+mSupportExternalTextureInSwapChain
+;
 static
 CheckedInt
 <
