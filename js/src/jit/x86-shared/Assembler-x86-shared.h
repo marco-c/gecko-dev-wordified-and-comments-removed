@@ -9360,7 +9360,7 @@ encoding
 )
 ;
 }
-void
+size_t
 subl
 (
 Imm32
@@ -9386,6 +9386,7 @@ Operand
 :
 REG
 :
+return
 masm
 .
 subl_ir
@@ -9400,14 +9401,13 @@ reg
 )
 )
 ;
-break
-;
 case
 Operand
 :
 :
 MEM_REG_DISP
 :
+return
 masm
 .
 subl_im
@@ -9427,14 +9427,13 @@ base
 )
 )
 ;
-break
-;
 case
 Operand
 :
 :
 MEM_SCALE
 :
+return
 masm
 .
 subl_im
@@ -9463,8 +9462,6 @@ scale
 (
 )
 )
-;
-break
 ;
 default
 :

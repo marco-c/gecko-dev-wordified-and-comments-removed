@@ -710,6 +710,11 @@ testWasmLEB128
 cpp
 "
 "
+testWasmMasm
+.
+cpp
+"
+"
 testWasmReturnCalls
 .
 cpp

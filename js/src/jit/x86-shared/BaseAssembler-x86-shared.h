@@ -8318,7 +8318,7 @@ src
 )
 ;
 }
-void
+size_t
 subl_ir
 (
 int32_t
@@ -8367,6 +8367,9 @@ immediate8s
 imm
 )
 ;
+return
+1
+;
 }
 else
 {
@@ -8404,6 +8407,9 @@ immediate32
 (
 imm
 )
+;
+return
+4
 ;
 }
 }
@@ -8506,7 +8512,7 @@ imm
 ;
 }
 }
-void
+size_t
 subl_im
 (
 int32_t
@@ -8558,6 +8564,9 @@ immediate8s
 imm
 )
 ;
+return
+1
+;
 }
 else
 {
@@ -8577,6 +8586,9 @@ immediate32
 (
 imm
 )
+;
+return
+4
 ;
 }
 }
@@ -8664,7 +8676,7 @@ imm
 ;
 }
 }
-void
+size_t
 subl_im
 (
 int32_t
@@ -8724,6 +8736,9 @@ immediate8s
 imm
 )
 ;
+return
+1
+;
 }
 else
 {
@@ -8745,6 +8760,9 @@ immediate32
 (
 imm
 )
+;
+return
+1
 ;
 }
 }
