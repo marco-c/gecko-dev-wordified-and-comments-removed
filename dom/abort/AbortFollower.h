@@ -174,6 +174,7 @@ RawReason
 )
 const
 ;
+virtual
 void
 SignalAbort
 (
@@ -224,18 +225,6 @@ UnlinkFollowers
 )
 ;
 }
-virtual
-void
-SignalAbortWithDependents
-(
-)
-;
-virtual
-void
-RunAbortSteps
-(
-)
-;
 void
 SetAborted
 (
