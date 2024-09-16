@@ -445,11 +445,11 @@ if
 =
 [
 "
-os
+widget
 =
 =
 '
-linux
+gtk
 '
 "
 ]

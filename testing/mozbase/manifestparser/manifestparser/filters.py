@@ -81,7 +81,6 @@ def
 _match
 (
 exprs
-strict
 *
 *
 values
@@ -94,9 +93,6 @@ any
 parse
 (
 e
-strict
-=
-strict
 *
 *
 values
@@ -124,9 +120,6 @@ skip_if
 (
 tests
 values
-strict
-=
-False
 )
 :
     
@@ -189,7 +182,6 @@ test
 [
 tag
 ]
-strict
 *
 *
 values
@@ -228,9 +220,6 @@ run_if
 (
 tests
 values
-strict
-=
-False
 )
 :
     
@@ -294,7 +283,6 @@ test
 [
 tag
 ]
-strict
 *
 *
 values
@@ -333,9 +321,6 @@ fail_if
 (
 tests
 values
-strict
-=
-False
 )
 :
     
@@ -402,7 +387,6 @@ test
 [
 tag
 ]
-strict
 *
 *
 values
@@ -427,9 +411,6 @@ enabled
 (
 tests
 values
-strict
-=
-False
 )
 :
     
@@ -486,9 +467,6 @@ exists
 (
 tests
 values
-strict
-=
-False
 )
 :
     
@@ -927,9 +905,6 @@ __call__
 self
 tests
 values
-strict
-=
-False
 )
 :
         
@@ -996,7 +971,6 @@ matched
 parse
 (
 cond
-strict
 *
 *
 values
@@ -1226,9 +1200,6 @@ __call__
 self
 tests
 values
-strict
-=
-False
 )
 :
         
@@ -1611,9 +1582,6 @@ __call__
 self
 tests
 values
-strict
-=
-False
 )
 :
         
@@ -1959,9 +1927,6 @@ __call__
 self
 tests
 values
-strict
-=
-False
 )
 :
         
@@ -2617,9 +2582,6 @@ __call__
 self
 tests
 values
-strict
-=
-False
 )
 :
         
@@ -2930,9 +2892,6 @@ __call__
 self
 tests
 values
-strict
-=
-False
 )
 :
         
@@ -3087,9 +3046,6 @@ __call__
 self
 tests
 values
-strict
-=
-False
 )
 :
         
@@ -3138,7 +3094,6 @@ and
 parse
 (
 e
-strict
 *
 *
 values
@@ -3279,9 +3234,6 @@ __call__
 self
 tests
 values
-strict
-=
-False
 )
 :
         
