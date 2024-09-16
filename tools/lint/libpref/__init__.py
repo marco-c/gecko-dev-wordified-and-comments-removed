@@ -156,6 +156,13 @@ file
 open
 (
 pref_list_filename
+encoding
+=
+"
+utf
+-
+8
+"
 )
 .
 read
@@ -428,6 +435,13 @@ with
 open
 (
 path
+encoding
+=
+"
+utf
+-
+8
+"
 )
 as
 source
