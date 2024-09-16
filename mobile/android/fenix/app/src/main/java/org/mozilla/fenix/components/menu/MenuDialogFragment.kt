@@ -2801,7 +2801,11 @@ recommendedAddons
 recommendedAddons
 showExtensionsOnboarding
 =
-true
+recommendedAddons
+.
+isNotEmpty
+(
+)
 onBackButtonClick
 =
 {
