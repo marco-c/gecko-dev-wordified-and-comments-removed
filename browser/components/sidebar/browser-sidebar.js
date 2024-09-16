@@ -3976,6 +3976,15 @@ duration
 this
 .
 _animationDurationMs
+easing
+:
+"
+ease
+-
+in
+-
+out
+"
 }
 ;
 let
