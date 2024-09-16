@@ -274,7 +274,7 @@ equal
 (
 style
 .
-listStyleImage
+backgroundImage
 '
 url
 (
