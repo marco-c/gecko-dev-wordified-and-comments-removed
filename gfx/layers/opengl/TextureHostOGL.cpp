@@ -3109,22 +3109,6 @@ TextureExternalBT709
 )
 ;
 }
-const
-bool
-normalizedUvs
-=
-aResources
-.
-GetBackendType
-(
-)
-=
-=
-WebRenderBackend
-:
-:
-HARDWARE
-;
 switch
 (
 GetFormat
@@ -3222,7 +3206,6 @@ descriptor
 aExtID
 imageType
 0
-normalizedUvs
 )
 ;
 break
@@ -4753,7 +4736,6 @@ descriptor
 aExtID
 imageType
 0
-false
 )
 ;
 break
@@ -5680,7 +5662,6 @@ descriptor
 aExtID
 imageType
 0
-false
 )
 ;
 }

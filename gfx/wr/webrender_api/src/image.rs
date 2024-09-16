@@ -440,10 +440,6 @@ pub
 image_type
 :
 ExternalImageType
-pub
-normalized_uvs
-:
-bool
 }
 #
 [

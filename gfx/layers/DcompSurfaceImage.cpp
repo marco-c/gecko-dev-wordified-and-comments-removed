@@ -860,7 +860,6 @@ descriptor
 aExternalImageId
 imageType
 0
-false
 )
 ;
 }
