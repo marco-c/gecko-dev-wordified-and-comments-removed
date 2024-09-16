@@ -4957,9 +4957,6 @@ Object
 result_type
 :
 Value
-possibly_calls
-:
-true
 -
 name
 :

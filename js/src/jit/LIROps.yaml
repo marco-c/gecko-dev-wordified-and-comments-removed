@@ -2193,9 +2193,6 @@ operands
 env
 :
 WordSized
-call_instruction
-:
-true
 mir_op
 :
 true
