@@ -222,7 +222,11 @@ set
 "
 browser
 .
-megalist
+contextual
+-
+password
+-
+manager
 .
 enabled
 "

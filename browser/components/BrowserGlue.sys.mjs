@@ -2580,7 +2580,11 @@ enablePreference
 "
 browser
 .
-megalist
+contextual
+-
+password
+-
+manager
 .
 enabled
 "
