@@ -129,7 +129,7 @@ check
 ;
 masm
 .
-wasmMarkSlowCall
+wasmMarkCallAsSlow
 (
 )
 ;
