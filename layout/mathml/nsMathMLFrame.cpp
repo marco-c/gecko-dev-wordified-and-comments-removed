@@ -1135,12 +1135,6 @@ unit
 =
 =
 eCSSUnit_Percent
-|
-|
-unit
-=
-=
-eCSSUnit_Number
 )
 {
 *
