@@ -732,7 +732,7 @@ dir
 null
 }
 ext
-.
+{
 gleanNamespace
 =
 "
@@ -742,6 +742,16 @@ telemetry
 .
 glean
 "
+gleanPythonEnvDir
+=
+gradle
+.
+mozconfig
+.
+substs
+.
+GRADLE_GLEAN_PARSER_VENV
+}
 apply
 plugin
 :
