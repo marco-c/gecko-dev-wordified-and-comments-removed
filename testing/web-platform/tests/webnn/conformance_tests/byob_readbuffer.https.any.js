@@ -123,11 +123,11 @@ dimensions
 ]
 usage
 :
-MLBufferUsage
+MLTensorUsage
 .
 WRITE_TO
 |
-MLBufferUsage
+MLTensorUsage
 .
 READ_FROM
 }
@@ -744,7 +744,7 @@ dimensions
 ]
 usage
 :
-MLBufferUsage
+MLTensorUsage
 .
 READ_FROM
 }
@@ -814,7 +814,7 @@ rejects
 on
 a
 destroyed
-MLBuffer
+MLTensor
 )
 ;
 promise_test
@@ -848,7 +848,7 @@ dimensions
 ]
 usage
 :
-MLBufferUsage
+MLTensorUsage
 .
 READ_FROM
 }
@@ -927,7 +927,7 @@ readBuffer
 rejects
 when
 the
-MLBuffer
+MLTensor
 is
 destroyed
 )
