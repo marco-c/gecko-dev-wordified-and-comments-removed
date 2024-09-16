@@ -4575,14 +4575,6 @@ True
                 
 support_class
 .
-save_data
-(
-raw_result
-bt_result
-)
-                
-support_class
-.
 handle_result
 (
                     
