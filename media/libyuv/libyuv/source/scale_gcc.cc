@@ -528,6 +528,7 @@ void
 src_stride
 ;
 asm
+volatile
 (
 LABELALIGN
 "
@@ -713,6 +714,7 @@ void
 src_stride
 ;
 asm
+volatile
 (
 "
 pcmpeqb
@@ -967,6 +969,7 @@ dst_width
 )
 {
 asm
+volatile
 (
 "
 pcmpeqb
@@ -1553,6 +1556,7 @@ void
 src_stride
 ;
 asm
+volatile
 (
 "
 vpcmpeqb
@@ -1851,6 +1855,7 @@ dst_width
 )
 {
 asm
+volatile
 (
 "
 vpcmpeqb
@@ -2286,6 +2291,7 @@ void
 src_stride
 ;
 asm
+volatile
 (
 "
 pcmpeqb
@@ -2525,6 +2531,7 @@ intptr_t
 stridex3
 ;
 asm
+volatile
 (
 "
 pcmpeqb
@@ -2996,6 +3003,10 @@ r
 (
 dst_width
 )
+/
+/
+%
+2
 "
 =
 &
@@ -3004,6 +3015,10 @@ r
 (
 stridex3
 )
+/
+/
+%
+3
 :
 "
 r
@@ -3016,6 +3031,10 @@ intptr_t
 src_stride
 )
 )
+/
+/
+%
+4
 :
 "
 memory
@@ -3069,6 +3088,7 @@ void
 src_stride
 ;
 asm
+volatile
 (
 "
 vpcmpeqb
@@ -3358,6 +3378,7 @@ dst_width
 )
 {
 asm
+volatile
 (
 "
 vpcmpeqb
@@ -3987,6 +4008,7 @@ void
 src_stride
 ;
 asm
+volatile
 (
 "
 movdqa
@@ -4287,6 +4309,7 @@ dst_width
 )
 {
 asm
+volatile
 (
 "
 movdqa
@@ -4341,6 +4364,7 @@ kShuf21
 )
 ;
 asm
+volatile
 (
 "
 movdqa
@@ -4868,6 +4892,7 @@ dst_width
 )
 {
 asm
+volatile
 (
 "
 movdqa
@@ -4922,6 +4947,7 @@ kShuf21
 )
 ;
 asm
+volatile
 (
 "
 movdqa
@@ -5487,6 +5513,7 @@ void
 src_stride
 ;
 asm
+volatile
 (
 "
 movdqa
@@ -5741,6 +5768,7 @@ dst_width
 )
 {
 asm
+volatile
 (
 "
 movdqa
@@ -6128,6 +6156,7 @@ dst_width
 )
 {
 asm
+volatile
 (
 "
 movdqa
@@ -6768,6 +6797,7 @@ dst_width
 )
 {
 asm
+volatile
 (
 "
 pxor
@@ -8245,6 +8275,7 @@ dst_width
 )
 {
 asm
+volatile
 (
 "
 movdqa
@@ -8660,6 +8691,7 @@ dst_width
 )
 {
 asm
+volatile
 (
 "
 pcmpeqw
@@ -9550,6 +9582,7 @@ dst_width
 )
 {
 asm
+volatile
 (
 "
 pxor
@@ -9957,6 +9990,7 @@ dst_width
 )
 {
 asm
+volatile
 (
 "
 pxor
@@ -10996,6 +11030,7 @@ dst_width
 )
 {
 asm
+volatile
 (
 "
 pcmpeqw
@@ -11340,6 +11375,7 @@ dst_width
 )
 {
 asm
+volatile
 (
 "
 pcmpeqw
@@ -12088,6 +12124,7 @@ dst_width
 )
 {
 asm
+volatile
 (
 "
 vpcmpeqw
@@ -12492,6 +12529,7 @@ dst_width
 )
 {
 asm
+volatile
 (
 "
 vpcmpeqw
@@ -13316,6 +13354,7 @@ dst_width
 )
 {
 asm
+volatile
 (
 "
 vbroadcastf128
@@ -13778,6 +13817,7 @@ dst_width
 )
 {
 asm
+volatile
 (
 "
 vbroadcastf128
@@ -14407,6 +14447,7 @@ dst_width
 )
 {
 asm
+volatile
 (
 "
 vpcmpeqd
@@ -14825,6 +14866,7 @@ dst_width
 )
 {
 asm
+volatile
 (
 "
 vpcmpeqd
@@ -15694,6 +15736,7 @@ src_width
 )
 {
 asm
+volatile
 (
 "
 pxor
@@ -15946,6 +15989,7 @@ src_width
 )
 {
 asm
+volatile
 (
 "
 vpxor
@@ -16245,6 +16289,7 @@ x1
 temp_pixel
 ;
 asm
+volatile
 (
 "
 movd
@@ -16852,6 +16897,10 @@ r
 (
 src_ptr
 )
+/
+/
+%
+1
 "
 =
 &
@@ -16860,6 +16909,10 @@ a
 (
 temp_pixel
 )
+/
+/
+%
+2
 "
 =
 &
@@ -16868,6 +16921,10 @@ r
 (
 x0
 )
+/
+/
+%
+3
 "
 =
 &
@@ -16876,6 +16933,10 @@ r
 (
 x1
 )
+/
+/
+%
+4
 #
 if
 defined
@@ -16889,6 +16950,10 @@ rm
 (
 dst_width
 )
+/
+/
+%
+5
 #
 else
 "
@@ -16898,6 +16963,10 @@ m
 (
 dst_width
 )
+/
+/
+%
+5
 #
 endif
 :
@@ -16907,12 +16976,20 @@ rm
 (
 x
 )
+/
+/
+%
+6
 "
 rm
 "
 (
 dx
 )
+/
+/
+%
+7
 #
 if
 defined
@@ -16925,12 +17002,20 @@ x
 (
 kFsub80
 )
+/
+/
+%
+8
 "
 x
 "
 (
 kFadd40
 )
+/
+/
+%
+9
 #
 else
 "
@@ -16939,12 +17024,20 @@ m
 (
 kFsub80
 )
+/
+/
+%
+8
 "
 m
 "
 (
 kFadd40
 )
+/
+/
+%
+9
 #
 endif
 :
@@ -17860,6 +17953,7 @@ void
 src_stride
 ;
 asm
+volatile
 (
 "
 lea
@@ -18083,6 +18177,10 @@ r
 (
 dst_width
 )
+/
+/
+%
+3
 "
 =
 &
@@ -18091,6 +18189,10 @@ r
 (
 src_stepx_x12
 )
+/
+/
+%
+4
 :
 :
 "
@@ -18156,6 +18258,7 @@ src_stride
 )
 ;
 asm
+volatile
 (
 "
 lea
@@ -18504,6 +18607,10 @@ rm
 (
 dst_width
 )
+/
+/
+%
+3
 "
 =
 &
@@ -18512,6 +18619,10 @@ r
 (
 src_stepx_x12
 )
+/
+/
+%
+4
 "
 +
 r
@@ -18519,6 +18630,10 @@ r
 (
 row1
 )
+/
+/
+%
+5
 :
 :
 "
@@ -18565,6 +18680,7 @@ x0
 x1
 ;
 asm
+volatile
 (
 "
 movd
@@ -19086,6 +19202,10 @@ a
 (
 x0
 )
+/
+/
+%
+0
 "
 =
 &
@@ -19094,6 +19214,10 @@ d
 (
 x1
 )
+/
+/
+%
+1
 "
 +
 r
@@ -19101,6 +19225,10 @@ r
 (
 dst_argb
 )
+/
+/
+%
+2
 "
 +
 r
@@ -19108,6 +19236,10 @@ r
 (
 src_argb
 )
+/
+/
+%
+3
 "
 +
 r
@@ -19115,6 +19247,10 @@ r
 (
 dst_width
 )
+/
+/
+%
+4
 :
 "
 rm
@@ -19122,12 +19258,20 @@ rm
 (
 x
 )
+/
+/
+%
+5
 "
 rm
 "
 (
 dx
 )
+/
+/
+%
+6
 :
 "
 memory
@@ -19421,6 +19565,7 @@ x0
 x1
 ;
 asm
+volatile
 (
 "
 movdqa
@@ -19459,6 +19604,7 @@ kShuffleFractions
 )
 ;
 asm
+volatile
 (
 "
 movd
@@ -19944,6 +20090,10 @@ rm
 (
 dst_width
 )
+/
+/
+%
+2
 "
 =
 &
@@ -19952,6 +20102,10 @@ r
 (
 x0
 )
+/
+/
+%
+3
 "
 =
 &
@@ -19960,6 +20114,10 @@ r
 (
 x1
 )
+/
+/
+%
+4
 :
 "
 rm
@@ -19967,12 +20125,20 @@ rm
 (
 x
 )
+/
+/
+%
+5
 "
 rm
 "
 (
 dx
 )
+/
+/
+%
+6
 :
 "
 memory
@@ -20014,6 +20180,7 @@ div
 )
 {
 asm
+volatile
 (
 "
 cdq
@@ -20066,10 +20233,6 @@ a
 (
 num
 )
-/
-/
-%
-0
 :
 "
 c
@@ -20077,10 +20240,6 @@ c
 (
 div
 )
-/
-/
-%
-1
 :
 "
 memory
@@ -20107,6 +20266,7 @@ div
 )
 {
 asm
+volatile
 (
 "
 cdq
@@ -20185,10 +20345,6 @@ a
 (
 num
 )
-/
-/
-%
-0
 :
 "
 c
@@ -20196,10 +20352,6 @@ c
 (
 div
 )
-/
-/
-%
-1
 :
 "
 memory
@@ -20299,6 +20451,7 @@ dst_width
 )
 {
 asm
+volatile
 (
 "
 pcmpeqb
@@ -20653,6 +20806,7 @@ dst_width
 )
 {
 asm
+volatile
 (
 "
 vpcmpeqb
@@ -21082,6 +21236,7 @@ dst_width
 )
 {
 asm
+volatile
 (
 "
 pcmpeqw
@@ -21421,6 +21576,7 @@ dst_width
 )
 {
 asm
+volatile
 (
 "
 pcmpeqw
@@ -22147,6 +22303,7 @@ dst_width
 )
 {
 asm
+volatile
 (
 "
 vpcmpeqw
@@ -22537,6 +22694,7 @@ dst_width
 )
 {
 asm
+volatile
 (
 "
 vpcmpeqw
@@ -23333,6 +23491,7 @@ dst_width
 )
 {
 asm
+volatile
 (
 "
 pxor
@@ -23728,6 +23887,7 @@ dst_width
 )
 {
 asm
+volatile
 (
 "
 pxor
@@ -24584,6 +24744,7 @@ dst_width
 )
 {
 asm
+volatile
 (
 "
 vpcmpeqd
@@ -24990,6 +25151,7 @@ dst_width
 )
 {
 asm
+volatile
 (
 "
 vpcmpeqd

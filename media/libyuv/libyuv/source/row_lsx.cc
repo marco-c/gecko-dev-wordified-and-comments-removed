@@ -18344,6 +18344,7 @@ rgbconstants
 )
 {
 asm
+volatile
 (
 "
 vldrepl
@@ -18849,6 +18850,7 @@ rgbconstants
 )
 {
 asm
+volatile
 (
 "
 vldrepl
@@ -19403,6 +19405,7 @@ shuff
 }
 ;
 asm
+volatile
 (
 "
 vldrepl
