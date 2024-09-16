@@ -13209,6 +13209,7 @@ Compare_Int32
 Compare_UInt32
 Compare_Int64
 Compare_UInt64
+Compare_IntPtr
 Compare_UIntPtr
 Compare_Double
 Compare_Float32
@@ -13901,6 +13902,9 @@ case
 Compare_UInt64
 :
 case
+Compare_IntPtr
+:
+case
 Compare_UIntPtr
 :
 case
@@ -14006,6 +14010,17 @@ ty
 =
 "
 UInt64
+"
+;
+break
+;
+case
+Compare_IntPtr
+:
+ty
+=
+"
+IntPtr
 "
 ;
 break
