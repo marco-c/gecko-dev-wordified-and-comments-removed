@@ -486,6 +486,9 @@ openWindow
 )
 ;
 }
+var
+runTest
+;
 add_task
 (
 async
@@ -495,7 +498,7 @@ test_dnd_tab1_to_tab1
 )
 {
 await
-runDnd
+runTest
 (
 "
 tab1
@@ -519,7 +522,7 @@ test_dnd_tab1_to_iframe1
 )
 {
 await
-runDnd
+runTest
 (
 "
 tab1
@@ -548,7 +551,7 @@ test_dnd_tab1_to_tab2
 )
 {
 await
-runDnd
+runTest
 (
 "
 tab1
@@ -572,7 +575,7 @@ test_dnd_tab1_to_iframe2
 )
 {
 await
-runDnd
+runTest
 (
 "
 tab1
@@ -601,7 +604,7 @@ test_dnd_iframe1_to_tab1
 )
 {
 await
-runDnd
+runTest
 (
 "
 iframe1
@@ -630,7 +633,7 @@ test_dnd_iframe1_to_iframe1
 )
 {
 await
-runDnd
+runTest
 (
 "
 iframe1
@@ -664,7 +667,7 @@ test_dnd_iframe1_to_tab2
 )
 {
 await
-runDnd
+runTest
 (
 "
 iframe1
@@ -693,7 +696,7 @@ test_dnd_iframe1_to_iframe2
 )
 {
 await
-runDnd
+runTest
 (
 "
 iframe1
