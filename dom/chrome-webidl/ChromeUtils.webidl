@@ -6740,6 +6740,9 @@ dictionary
 LibcConstants
 {
 long
+EPERM
+;
+long
 EINTR
 ;
 long
