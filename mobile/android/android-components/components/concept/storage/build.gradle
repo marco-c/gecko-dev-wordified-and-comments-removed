@@ -215,7 +215,7 @@ test
 testImplementation
 ComponentsDependencies
 .
-testing_junit
+junit_vintage
 }
 apply
 from

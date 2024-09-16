@@ -197,7 +197,7 @@ mozilla_appservices_full_megazord_forUnitTests
 testImplementation
 ComponentsDependencies
 .
-testing_junit
+junit_vintage
 testImplementation
 ComponentsDependencies
 .

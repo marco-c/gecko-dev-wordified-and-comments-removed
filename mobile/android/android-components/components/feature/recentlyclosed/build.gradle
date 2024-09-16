@@ -357,7 +357,7 @@ testing_coroutines
 testImplementation
 ComponentsDependencies
 .
-testing_junit
+junit_vintage
 testImplementation
 ComponentsDependencies
 .

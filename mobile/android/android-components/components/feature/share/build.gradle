@@ -295,7 +295,7 @@ androidx_test_core
 testImplementation
 ComponentsDependencies
 .
-testing_junit
+junit_vintage
 testImplementation
 ComponentsDependencies
 .

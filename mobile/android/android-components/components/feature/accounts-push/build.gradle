@@ -322,7 +322,7 @@ androidx_test_junit
 testImplementation
 ComponentsDependencies
 .
-testing_junit
+junit_vintage
 testImplementation
 ComponentsDependencies
 .

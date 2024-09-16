@@ -283,7 +283,7 @@ androidx_constraintlayout
 testImplementation
 ComponentsDependencies
 .
-testing_junit
+junit_vintage
 implementation
 project
 (

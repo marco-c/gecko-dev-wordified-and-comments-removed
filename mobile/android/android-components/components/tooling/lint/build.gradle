@@ -111,7 +111,7 @@ tools_linttests
 testImplementation
 ComponentsDependencies
 .
-testing_junit
+junit_vintage
 testImplementation
 ComponentsDependencies
 .
