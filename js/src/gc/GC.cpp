@@ -23429,6 +23429,14 @@ ifdef
 JS_GC_ZEAL
 if
 (
+!
+isIncrementalGCInProgress
+(
+)
+)
+{
+if
+(
 hasZealMode
 (
 ZealMode
@@ -23471,12 +23479,6 @@ ZealMode
 :
 CheckGrayMarking
 )
-&
-&
-!
-isIncrementalGCInProgress
-(
-)
 )
 {
 MOZ_RELEASE_ASSERT
@@ -23487,6 +23489,7 @@ rt
 )
 )
 ;
+}
 }
 #
 endif
@@ -24297,6 +24300,10 @@ stats
 (
 )
 phase
+)
+;
+waitBackgroundDecommitEnd
+(
 )
 ;
 CheckHeapAfterGC
