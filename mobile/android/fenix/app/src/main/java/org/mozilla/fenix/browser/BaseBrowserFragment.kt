@@ -4360,6 +4360,7 @@ binding
 engineView
 toolbars
 =
+{
 listOf
 (
 _bottomToolbarContainerView
@@ -4374,6 +4375,15 @@ as
 ViewGroup
 ?
 )
+}
+toolbarsResetCallback
+=
+{
+onUpdateToolbarForConfigurationChange
+(
+browserToolbarView
+)
+}
 )
 owner
 =
@@ -12738,10 +12748,10 @@ reinitializeMicrosurveyPrompt
 :
 initializeMicrosurveyPrompt
 )
+}
 reinitializeEngineView
 (
 )
-}
 /
 /
 If
@@ -12825,7 +12835,8 @@ as
 HomeActivity
 )
 }
-private
+VisibleForTesting
+internal
 fun
 reinitializeEngineView
 (
