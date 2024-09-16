@@ -209,13 +209,6 @@ js
 ]
 [
 "
-browser_fullscreen_tab_preview
-.
-js
-"
-]
-[
-"
 browser_fullscreen_permissions_prompt
 .
 js
