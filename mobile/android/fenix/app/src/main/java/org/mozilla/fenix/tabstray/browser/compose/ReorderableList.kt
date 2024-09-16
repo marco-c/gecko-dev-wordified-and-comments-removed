@@ -1671,6 +1671,8 @@ Modifier
 =
 this
 then
+Modifier
+.
 pointerInput
 (
 listState

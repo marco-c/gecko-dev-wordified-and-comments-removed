@@ -376,6 +376,8 @@ this
 .
 then
 (
+Modifier
+.
 drawBehind
 {
 val
