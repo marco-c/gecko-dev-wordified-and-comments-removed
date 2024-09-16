@@ -1977,6 +1977,17 @@ get
 quickSuggestEnabled
 "
 )
+&
+&
+!
+UrlbarPrefs
+.
+get
+(
+"
+quickSuggestHideSettingsUI
+"
+)
 )
 {
 let
