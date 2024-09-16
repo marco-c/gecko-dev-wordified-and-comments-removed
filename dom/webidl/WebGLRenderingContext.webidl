@@ -3013,8 +3013,6 @@ attribute
 PredefinedColorSpace
 drawingBufferColorSpace
 ;
-/
-/
 attribute
 PredefinedColorSpace
 unpackColorSpace
