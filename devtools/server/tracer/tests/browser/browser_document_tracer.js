@@ -388,8 +388,6 @@ firstFrame
 .
 currentDOMEvent
 "
-DOM
-|
 click
 "
 )

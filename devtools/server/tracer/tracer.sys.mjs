@@ -3712,11 +3712,7 @@ this
 .
 currentDOMEvent
 =
-DOM
-|
-{
 type
-}
 ;
 }
 else
@@ -5960,6 +5956,11 @@ this
 prefix
 +
 padding
++
+"
+DOM
+|
+"
 +
 this
 .

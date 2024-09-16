@@ -695,7 +695,11 @@ el
 .
 textContent
 =
+DOM
+|
+{
 eventName
+}
 ;
 tooltip
 .
@@ -1700,7 +1704,11 @@ traceIndex
 ;
 }
 }
+DOM
+|
+{
 eventName
+}
 )
 )
 ;
@@ -3829,7 +3837,7 @@ if
 (
 eventName
 .
-includes
+startsWith
 (
 "
 mouse
@@ -3839,7 +3847,7 @@ mouse
 |
 eventName
 .
-includes
+startsWith
 (
 "
 click
@@ -3859,7 +3867,7 @@ if
 (
 eventName
 .
-includes
+startsWith
 (
 "
 key

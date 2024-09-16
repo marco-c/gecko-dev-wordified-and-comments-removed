@@ -311,7 +311,11 @@ dom
 event
 "
 }
+DOM
+|
+{
 eventName
+}
 )
 ]
 ;
