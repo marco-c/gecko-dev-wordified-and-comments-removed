@@ -975,13 +975,10 @@ AppendElement
 (
 KeyedScalarAction
 {
+{
 aId
 aDynamic
 aAction
-NS_ConvertUTF16toUTF8
-(
-aKey
-)
 Some
 (
 aValue
@@ -993,6 +990,11 @@ ProcessID
 :
 :
 Count
+}
+NS_ConvertUTF16toUTF8
+(
+aKey
+)
 }
 )
 ;
