@@ -148,14 +148,14 @@ getDeferredFetchPolicyInIframeHelperUrl
 (
 HTTPS_NOTSAMESITE_ORIGIN
 )
-expect_feature_unavailable_default
+expect_feature_available_default
 )
 ;
 }
 {
 description
 }
-disallows
+allows
 fetchLater
 (
 )

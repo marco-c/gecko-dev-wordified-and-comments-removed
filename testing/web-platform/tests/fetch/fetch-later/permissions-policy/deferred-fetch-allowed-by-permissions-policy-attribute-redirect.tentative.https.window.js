@@ -118,7 +118,7 @@ baseUrl
 HTTPS_NOTSAMESITE_ORIGIN
 }
 )
-expect_feature_unavailable_default
+expect_feature_available_default
 '
 deferred
 -
@@ -130,7 +130,7 @@ fetch
 {
 description
 }
-disallows
+allows
 cross
 -
 origin
