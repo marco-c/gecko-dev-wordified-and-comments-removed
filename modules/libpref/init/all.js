@@ -3957,8 +3957,6 @@ https
 mozilla
 -
 ohttp
--
-fakespot
 .
 fastly
 -
