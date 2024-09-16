@@ -131,11 +131,13 @@ await
 loadSettingsFile
 (
 "
-data
+settings
 /
-search
+v1
 -
-legacy
+metadata
+-
+migration
 .
 json
 "

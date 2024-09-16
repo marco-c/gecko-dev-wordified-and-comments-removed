@@ -322,9 +322,9 @@ await
 loadSettingsFile
 (
 "
-data
+settings
 /
-search
+v6
 -
 migration
 -
