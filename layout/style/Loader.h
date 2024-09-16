@@ -1805,6 +1805,13 @@ SheetLoadData
 )
 ;
 void
+NotifyObserversForCachedSheet
+(
+SheetLoadData
+&
+)
+;
+void
 StartDeferredLoads
 (
 )

@@ -9341,7 +9341,7 @@ httpBaseChannel
 httpBaseChannel
 -
 >
-SetDummyChannelForImageCache
+SetDummyChannelForCachedResource
 (
 )
 ;
