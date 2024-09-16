@@ -19382,17 +19382,10 @@ PropertyKey
 out
 )
 {
-JS
-:
-:
-Rooted
-<
 JSAtom
 *
->
 atom
-(
-cx
+=
 js
 :
 :
@@ -19401,7 +19394,6 @@ IdToFunctionName
 cx
 id
 prefixKind
-)
 )
 ;
 if

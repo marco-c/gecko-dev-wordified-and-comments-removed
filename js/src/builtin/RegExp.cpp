@@ -10882,10 +10882,7 @@ PropertyKey
 execKey
 (
 cx
-PropertyKey
-:
-:
-NonIntAtom
+NameToId
 (
 cx
 -

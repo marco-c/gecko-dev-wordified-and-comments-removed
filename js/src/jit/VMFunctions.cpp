@@ -10538,10 +10538,7 @@ isNull
 *
 id
 =
-PropertyKey
-:
-:
-NonIntAtom
+NameToId
 (
 cx
 -
@@ -10569,10 +10566,7 @@ isUndefined
 *
 id
 =
-PropertyKey
-:
-:
-NonIntAtom
+NameToId
 (
 cx
 -
