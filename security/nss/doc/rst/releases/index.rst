@@ -38,7 +38,9 @@ rst
 nss_3_102
 .
 rst
-nss_3_101_2
+nss_3_101
+.
+2
 .
 rst
 nss_3_101_1
@@ -77,7 +79,7 @@ rst
 nss_3_92
 .
 rst
-nss_3_91_0
+nss_3_91
 .
 rst
 nss_3_90_4
@@ -92,7 +94,7 @@ rst
 nss_3_90_1
 .
 rst
-nss_3_90_0
+nss_3_90
 .
 rst
 nss_3_89_1

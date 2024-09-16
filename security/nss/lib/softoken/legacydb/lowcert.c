@@ -2966,6 +2966,10 @@ str
 =
 tolower
 (
+(
+unsigned
+char
+)
 *
 str
 )
@@ -3360,6 +3364,10 @@ str
 =
 tolower
 (
+(
+unsigned
+char
+)
 *
 str
 )

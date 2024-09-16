@@ -7,14 +7,14 @@ __LOWSTAR_ENDIANNESS_H
 #
 include
 <
-string
+inttypes
 .
 h
 >
 #
 include
 <
-inttypes
+string
 .
 h
 >
@@ -32,6 +32,7 @@ __CYGWIN__
 )
 |
 |
+\
 defined
 (
 __USE_SYSTEM_ENDIAN_H__
@@ -651,6 +652,7 @@ __ORDER_BIG_ENDIAN__
 )
 |
 |
+\
 defined
 (
 _AIX

@@ -4253,6 +4253,11 @@ minimal
 '
 deprecated
 '
+'
+verified
+/
+eurydice
+'
 ]
 '
 defines

@@ -181,6 +181,10 @@ len
 &
 isdigit
 (
+(
+unsigned
+char
+)
 *
 from
 )

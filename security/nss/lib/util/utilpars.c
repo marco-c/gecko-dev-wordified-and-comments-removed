@@ -1035,6 +1035,10 @@ if
 (
 isdigit
 (
+(
+unsigned
+char
+)
 *
 num
 )

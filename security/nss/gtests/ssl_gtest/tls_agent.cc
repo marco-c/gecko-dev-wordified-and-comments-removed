@@ -3002,6 +3002,7 @@ ssl_grp_ffdhe_4096
 ssl_grp_ffdhe_6144
 ssl_grp_ffdhe_8192
 ssl_grp_kem_xyber768d00
+ssl_grp_kem_mlkem768x25519
 }
 ;
 const
@@ -3020,6 +3021,7 @@ ssl_grp_ec_secp256r1
 ssl_grp_ec_secp384r1
 ssl_grp_ec_secp521r1
 ssl_grp_kem_xyber768d00
+ssl_grp_kem_mlkem768x25519
 }
 ;
 const
@@ -3057,6 +3059,7 @@ ssl_grp_ec_secp384r1
 ssl_grp_ffdhe_2048
 ssl_grp_ffdhe_3072
 ssl_grp_kem_xyber768d00
+ssl_grp_kem_mlkem768x25519
 }
 ;
 const
@@ -3071,6 +3074,7 @@ kEcdhHybridGroups
 =
 {
 ssl_grp_kem_xyber768d00
+ssl_grp_kem_mlkem768x25519
 }
 ;
 void
@@ -4063,6 +4067,9 @@ ssl_grp_ec_curve25519
 :
 case
 ssl_grp_kem_xyber768d00
+:
+case
+ssl_grp_kem_mlkem768x25519
 :
 kea_size
 =

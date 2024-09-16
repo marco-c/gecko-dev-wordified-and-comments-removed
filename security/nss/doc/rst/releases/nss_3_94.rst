@@ -344,7 +344,9 @@ Bug
 1827303
 -
 Softoken
-C_
+C
+\
+_
 calls
 should
 use
@@ -353,9 +355,13 @@ FIPS
 setting
 to
 select
-NSC_
+NSC
+\
+_
 or
-FC_
+FC
+\
+_
 variants
 .
 -

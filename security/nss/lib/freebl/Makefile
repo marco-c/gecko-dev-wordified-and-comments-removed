@@ -4611,6 +4611,15 @@ c
 Hacl_P521
 .
 c
+libcrux_mlkem768_portable
+.
+c
+libcrux_mlkem_portable
+.
+c
+libcrux_core
+.
+c
 VERIFIED_SRCS
 +
 =
@@ -5248,6 +5257,10 @@ krmllib
 dist
 /
 minimal
+-
+Iverified
+/
+eurydice
 -
 Ideprecated
 DEFINES

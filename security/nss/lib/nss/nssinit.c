@@ -5334,6 +5334,10 @@ while
 (
 isdigit
 (
+(
+unsigned
+char
+)
 *
 ptr
 )
@@ -5376,6 +5380,10 @@ while
 (
 isdigit
 (
+(
+unsigned
+char
+)
 *
 ptr
 )
@@ -5418,6 +5426,10 @@ while
 (
 isdigit
 (
+(
+unsigned
+char
+)
 *
 ptr
 )
@@ -5460,6 +5472,10 @@ while
 (
 isdigit
 (
+(
+unsigned
+char
+)
 *
 ptr
 )

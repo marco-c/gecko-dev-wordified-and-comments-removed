@@ -26421,6 +26421,9 @@ break
 case
 CKM_EC_KEY_PAIR_GEN
 :
+case
+CKM_NSS_ECDHE_NO_PAIRWISE_CHECK_KEY_PAIR_GEN
+:
 sftk_DeleteAttributeType
 (
 privateKey
@@ -26761,6 +26764,9 @@ break
 ;
 case
 CKM_NSS_KYBER_KEY_PAIR_GEN
+:
+case
+CKM_NSS_ML_KEM_KEY_PAIR_GEN
 :
 sftk_DeleteAttributeType
 (
@@ -27651,6 +27657,15 @@ crv
 =
 =
 CKR_OK
+&
+&
+pMechanism
+-
+>
+mechanism
+!
+=
+CKM_NSS_ECDHE_NO_PAIRWISE_CHECK_KEY_PAIR_GEN
 &
 &
 key_type

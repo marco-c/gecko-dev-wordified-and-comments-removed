@@ -29,6 +29,7 @@ __GNUC__
 )
 |
 |
+\
 (
 defined
 (
@@ -71,6 +72,8 @@ provide
 an
 implementation
 of
+"
+"
 signed
 arithmetic
 shift
@@ -120,6 +123,8 @@ provide
 an
 implementation
 of
+"
+"
 signed
 arithmetic
 shift
@@ -169,6 +174,8 @@ provide
 an
 implementation
 of
+"
+"
 signed
 arithmetic
 shift
@@ -218,6 +225,8 @@ provide
 an
 implementation
 of
+"
+"
 signed
 arithmetic
 shift

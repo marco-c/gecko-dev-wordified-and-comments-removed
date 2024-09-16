@@ -408,6 +408,10 @@ in
 &
 isdigit
 (
+(
+unsigned
+char
+)
 in
 [
 1
@@ -417,6 +421,10 @@ in
 &
 isdigit
 (
+(
+unsigned
+char
+)
 in
 [
 2
@@ -426,6 +434,10 @@ in
 &
 isdigit
 (
+(
+unsigned
+char
+)
 in
 [
 3

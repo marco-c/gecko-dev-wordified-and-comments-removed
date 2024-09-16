@@ -2408,6 +2408,10 @@ tagBuf
 |
 isdigit
 (
+(
+unsigned
+char
+)
 tagBuf
 [
 0
@@ -6824,6 +6828,10 @@ i
 =
 tolower
 (
+(
+unsigned
+char
+)
 rawEmailAddr
 [
 i
@@ -6937,6 +6945,10 @@ i
 =
 tolower
 (
+(
+unsigned
+char
+)
 src
 [
 i

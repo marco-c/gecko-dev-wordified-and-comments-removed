@@ -629,6 +629,9 @@ ssl_grp_ffdhe_6144
 ssl_grp_ffdhe_8192
 =
 260
+ssl_grp_kem_mlkem768x25519
+=
+4588
 ssl_grp_kem_xyber768d00
 =
 25497

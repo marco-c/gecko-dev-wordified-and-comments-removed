@@ -20284,6 +20284,10 @@ xch
 =
 toupper
 (
+(
+unsigned
+char
+)
 ch
 )
 ;
@@ -20291,6 +20295,10 @@ if
 (
 isdigit
 (
+(
+unsigned
+char
+)
 xch
 )
 )
@@ -20307,6 +20315,10 @@ if
 (
 isupper
 (
+(
+unsigned
+char
+)
 xch
 )
 )
@@ -20325,6 +20337,10 @@ if
 (
 islower
 (
+(
+unsigned
+char
+)
 xch
 )
 )
@@ -20436,6 +20452,10 @@ ch
 =
 tolower
 (
+(
+unsigned
+char
+)
 ch
 )
 ;

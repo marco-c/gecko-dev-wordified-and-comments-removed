@@ -1564,6 +1564,10 @@ matched
 (
 toupper
 (
+(
+unsigned
+char
+)
 str
 [
 x
@@ -1573,6 +1577,10 @@ x
 =
 toupper
 (
+(
+unsigned
+char
+)
 exp
 [
 y
@@ -1696,6 +1704,10 @@ if
 (
 toupper
 (
+(
+unsigned
+char
+)
 str
 [
 x
@@ -1705,6 +1717,10 @@ x
 =
 toupper
 (
+(
+unsigned
+char
+)
 exp
 [
 y
