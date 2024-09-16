@@ -3395,12 +3395,6 @@ cases
 view
 /
 412927
-SdkSuppress
-(
-maxSdkVersion
-=
-30
-)
 Test
 fun
 verifyShowClipboardSuggestionsToggleTest
