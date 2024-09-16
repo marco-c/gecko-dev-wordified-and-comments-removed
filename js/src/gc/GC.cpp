@@ -1196,6 +1196,16 @@ ArenaChunkInfo
 info
 )
 {
+MOZ_ASSERT
+(
+info
+.
+numArenasFree
+=
+=
+ArenasPerChunk
+)
+;
 stats
 (
 )

@@ -1310,6 +1310,11 @@ ArenasPerChunk
 ;
 }
 void
+initAsCommitted
+(
+)
+;
+void
 initAsDecommitted
 (
 )
