@@ -2126,7 +2126,14 @@ input
 .
 handleRevert
 (
+{
+dontShowSearchTerms
+:
 true
+escapeSearchMode
+:
+true
+}
 )
 ;
 }
