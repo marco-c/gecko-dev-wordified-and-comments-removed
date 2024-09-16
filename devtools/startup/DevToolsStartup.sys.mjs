@@ -3551,7 +3551,7 @@ false
 ;
 }
 const
-jsConsole
+console
 =
 cmdLine
 .
@@ -3721,8 +3721,6 @@ false
 return
 {
 console
-:
-jsConsole
 debugger
 :
 debuggerFlag

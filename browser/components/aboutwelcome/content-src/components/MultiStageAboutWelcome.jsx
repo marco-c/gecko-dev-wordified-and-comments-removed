@@ -545,18 +545,6 @@ respective
 screen
 first
 renders
-/
-/
-eslint
--
-disable
--
-next
--
-line
-no
--
-shadow
 filteredScreens
 .
 forEach
@@ -1649,7 +1637,7 @@ screens
 map
 (
 (
-currentScreen
+screen
 order
 )
 =
@@ -1658,7 +1646,7 @@ order
 const
 isFirstScreen
 =
-currentScreen
+screen
 =
 =
 =
@@ -1670,7 +1658,7 @@ screens
 const
 isLastScreen
 =
-currentScreen
+screen
 =
 =
 =
@@ -1717,7 +1705,7 @@ prevState
 .
 prevState
 [
-currentScreen
+screen
 .
 id
 ]
@@ -1735,7 +1723,7 @@ valueOrFn
 (
 prevState
 [
-currentScreen
+screen
 .
 id
 ]
@@ -1764,7 +1752,7 @@ prevState
 .
 prevState
 [
-currentScreen
+screen
 .
 id
 ]
@@ -1782,7 +1770,7 @@ valueOrFn
 (
 prevState
 [
-currentScreen
+screen
 .
 id
 ]
@@ -1806,7 +1794,7 @@ WelcomeScreen
 key
 =
 {
-currentScreen
+screen
 .
 id
 +
@@ -1815,7 +1803,7 @@ order
 id
 =
 {
-currentScreen
+screen
 .
 id
 }
@@ -1852,7 +1840,7 @@ previousOrder
 content
 =
 {
-currentScreen
+screen
 .
 content
 }
@@ -1875,7 +1863,7 @@ order
 }
 _
 {
-currentScreen
+screen
 .
 id
 }
@@ -1917,7 +1905,7 @@ screenMultiSelects
 {
 multiSelects
 [
-currentScreen
+screen
 .
 id
 ]
@@ -1932,7 +1920,7 @@ activeMultiSelect
 {
 activeMultiSelects
 [
-currentScreen
+screen
 .
 id
 ]
@@ -1945,7 +1933,7 @@ setActiveMultiSelect
 autoAdvance
 =
 {
-currentScreen
+screen
 .
 auto_advance
 }
@@ -1962,7 +1950,7 @@ langPackInstallPhase
 forceHideStepsIndicator
 =
 {
-currentScreen
+screen
 .
 force_hide_steps_indicator
 }
@@ -1976,7 +1964,7 @@ ariaRole
 aboveButtonStepsIndicator
 =
 {
-currentScreen
+screen
 .
 above_button_steps_indicator
 }

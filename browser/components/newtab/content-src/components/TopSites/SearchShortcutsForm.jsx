@@ -486,8 +486,6 @@ event
 const
 {
 name
-:
-targetName
 checked
 }
 =
@@ -530,7 +528,7 @@ keyword
 =
 =
 =
-targetName
+name
 )
 ;
 shortcut

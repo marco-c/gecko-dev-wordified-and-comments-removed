@@ -4714,8 +4714,6 @@ keyboard
 const
 {
 URL
-:
-url
 }
 =
 node
@@ -4724,7 +4722,7 @@ ownerDocument
 ;
 if
 (
-url
+URL
 =
 =
 AppConstants
@@ -4743,7 +4741,7 @@ node
 }
 if
 (
-url
+URL
 .
 startsWith
 (
@@ -4755,7 +4753,7 @@ preferences
 )
 |
 |
-url
+URL
 .
 startsWith
 (

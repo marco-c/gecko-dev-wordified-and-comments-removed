@@ -57,6 +57,12 @@ MPL
 *
 /
 /
+*
+global
+DebuggerNotificationObserver
+*
+/
+/
 /
 This
 module

@@ -199,7 +199,7 @@ createRef
 inputUserEvent
 (
 eventSource
-eventValue
+status
 )
 {
 this
@@ -225,8 +225,6 @@ value
 :
 {
 status
-:
-eventValue
 menu_source
 :
 "

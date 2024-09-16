@@ -1613,8 +1613,6 @@ event
 const
 {
 name
-:
-eventName
 }
 =
 event
@@ -1673,7 +1671,7 @@ value
 of
 parameter
 {
-eventName
+name
 }
 )
 ;
@@ -1695,7 +1693,7 @@ targetingParametersError
 {
 id
 :
-eventName
+name
 }
 ;
 }
@@ -1723,7 +1721,7 @@ stringTargetingParameters
 ;
 updatedParameters
 [
-eventName
+name
 ]
 =
 value
@@ -4506,18 +4504,6 @@ template
 .
 filter
 (
-/
-/
-eslint
--
-disable
--
-next
--
-line
-no
--
-shadow
 (
 value
 index
@@ -7598,7 +7584,7 @@ event
 {
 const
 {
-eventName
+name
 value
 }
 =
@@ -7630,7 +7616,7 @@ attributionParameters
 ;
 updatedParameters
 [
-eventName
+name
 ]
 =
 value

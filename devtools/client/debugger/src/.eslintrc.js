@@ -854,6 +854,13 @@ proto
 "
 no
 -
+redeclare
+"
+:
+2
+"
+no
+-
 regex
 -
 spaces
@@ -900,6 +907,13 @@ compare
 no
 -
 sequences
+"
+:
+2
+"
+no
+-
+shadow
 "
 :
 2

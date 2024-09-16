@@ -2732,7 +2732,7 @@ return
 ;
 }
 let
-loginCrypto
+crypto
 ;
 try
 {
@@ -2773,7 +2773,7 @@ mjs
 "
 )
 ;
-loginCrypto
+crypto
 =
 new
 ChromeWindowsLoginCrypto
@@ -2820,7 +2820,7 @@ mjs
 "
 )
 ;
-loginCrypto
+crypto
 =
 new
 ChromeMacOSLoginCrypto
@@ -2996,7 +2996,7 @@ username_value
 password
 :
 await
-loginCrypto
+crypto
 .
 decryptData
 (
@@ -3555,7 +3555,7 @@ aCallback
 )
 {
 let
-loginCrypto
+crypto
 ;
 try
 {
@@ -3596,7 +3596,7 @@ mjs
 "
 )
 ;
-loginCrypto
+crypto
 =
 new
 ChromeWindowsLoginCrypto
@@ -3643,7 +3643,7 @@ mjs
 "
 )
 ;
-loginCrypto
+crypto
 =
 new
 ChromeMacOSLoginCrypto
@@ -3738,7 +3738,7 @@ number
 "
 :
 await
-loginCrypto
+crypto
 .
 decryptData
 (

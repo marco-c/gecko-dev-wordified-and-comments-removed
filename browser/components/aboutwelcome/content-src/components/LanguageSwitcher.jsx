@@ -178,7 +178,7 @@ AW_LANGUAGE_MISMATCH
 )
 ;
 const
-mismatchScreen
+screen
 =
 screens
 [
@@ -233,7 +233,7 @@ useEffect
 {
 if
 (
-mismatchScreen
+screen
 ?
 .
 content
@@ -251,7 +251,7 @@ Object
 .
 values
 (
-mismatchScreen
+screen
 .
 content
 .
@@ -292,7 +292,7 @@ negotiatedLanguage
 }
 }
 [
-mismatchScreen
+screen
 ]
 )
 ;
@@ -564,7 +564,7 @@ window
 AWEnsureLangPackInstalled
 (
 negotiatedLanguage
-mismatchScreen
+screen
 ?
 .
 content
@@ -588,7 +588,7 @@ might
 have
 changed
 .
-mismatchScreen
+screen
 .
 content
 =
@@ -628,7 +628,7 @@ error
 }
 [
 negotiatedLanguage
-mismatchScreen
+screen
 ]
 )
 ;
@@ -687,7 +687,7 @@ switch
 .
 if
 (
-mismatchScreen
+screen
 &
 &
 (
@@ -804,7 +804,7 @@ appAndSystemLocaleInfo
 matchType
 languageMismatchScreenIndex
 negotiatedLanguage
-mismatchScreen
+screen
 screens
 setScreenIndex
 ]

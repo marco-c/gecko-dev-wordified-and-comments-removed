@@ -3640,18 +3640,6 @@ stub
 (
 )
 ;
-/
-/
-eslint
--
-disable
--
-next
--
-line
-no
--
-shadow
 const
 blur
 =
@@ -3756,18 +3744,6 @@ stub
 (
 )
 ;
-/
-/
-eslint
--
-disable
--
-next
--
-line
-no
--
-shadow
 const
 blur
 =
@@ -6835,7 +6811,7 @@ let
 sandbox
 ;
 function
-testSetup
+setup
 (
 props
 =
@@ -6912,7 +6888,7 @@ beforeEach
 )
 =
 >
-testSetup
+setup
 (
 {
 site
@@ -7260,7 +7236,7 @@ beforeEach
 )
 =
 >
-testSetup
+setup
 (
 {
 site
@@ -7453,7 +7429,7 @@ beforeEach
 =
 >
 {
-testSetup
+setup
 (
 {
 site
@@ -7707,7 +7683,7 @@ beforeEach
 =
 >
 {
-testSetup
+setup
 (
 )
 ;
@@ -8047,7 +8023,7 @@ beforeEach
 )
 =
 >
-testSetup
+setup
 (
 )
 )
@@ -8898,7 +8874,7 @@ beforeEach
 )
 =
 >
-testSetup
+setup
 (
 {
 site
@@ -10200,7 +10176,7 @@ beforeEach
 )
 =
 >
-testSetup
+setup
 (
 {
 previewResponse
@@ -10514,7 +10490,7 @@ URLs
 =
 >
 {
-testSetup
+setup
 (
 )
 ;
@@ -10733,7 +10709,7 @@ required
 =
 >
 {
-testSetup
+setup
 (
 )
 ;

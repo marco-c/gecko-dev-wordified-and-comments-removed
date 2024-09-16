@@ -79,8 +79,6 @@ const
 {
 url
 name
-:
-topicName
 }
 =
 this
@@ -97,7 +95,7 @@ a
 key
 =
 {
-topicName
+name
 }
 href
 =
@@ -106,7 +104,7 @@ url
 }
 >
 {
-topicName
+name
 }
 <
 /

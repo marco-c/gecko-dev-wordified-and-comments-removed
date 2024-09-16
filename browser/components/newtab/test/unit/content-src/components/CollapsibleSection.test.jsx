@@ -146,7 +146,7 @@ let
 wrapper
 ;
 function
-testSetup
+setup
 (
 props
 =
@@ -194,7 +194,7 @@ beforeEach
 )
 =
 >
-testSetup
+setup
 (
 )
 )
@@ -309,7 +309,7 @@ stub
 (
 )
 ;
-testSetup
+setup
 (
 {
 collapsed

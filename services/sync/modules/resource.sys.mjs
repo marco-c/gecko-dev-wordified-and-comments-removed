@@ -185,6 +185,12 @@ mjs
 ;
 /
 *
+global
+AbortController
+*
+/
+/
+*
 *
 Resource
 represents

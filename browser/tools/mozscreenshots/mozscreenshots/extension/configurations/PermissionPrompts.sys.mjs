@@ -96,7 +96,7 @@ mjs
 "
 ;
 const
-TEST_URL
+URL
 =
 "
 https
@@ -926,7 +926,7 @@ openNewForegroundTab
 browserWindow
 .
 gBrowser
-TEST_URL
+URL
 )
 ;
 let

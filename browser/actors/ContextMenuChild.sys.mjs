@@ -4447,6 +4447,17 @@ target
 alt
 }
 ;
+const
+{
+SVGAnimatedLength
+}
+=
+context
+.
+target
+.
+ownerGlobal
+;
 if
 (
 SVGAnimatedLength

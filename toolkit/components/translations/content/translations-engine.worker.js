@@ -858,7 +858,7 @@ languageTranslationModelFiles
 .
 map
 (
-modelFiles
+languageTranslationModelFiles
 =
 >
 BergamotUtils
@@ -866,7 +866,7 @@ BergamotUtils
 constructSingleTranslationModel
 (
 bergamot
-modelFiles
+languageTranslationModelFiles
 )
 )
 ;
