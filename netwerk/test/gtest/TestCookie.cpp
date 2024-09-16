@@ -6789,6 +6789,7 @@ nsICookie
 :
 :
 SCHEME_HTTPS
+false
 )
 )
 )
@@ -6841,6 +6842,7 @@ nsICookie
 :
 :
 SCHEME_HTTPS
+false
 )
 )
 )
@@ -6887,6 +6889,7 @@ nsICookie
 :
 :
 SCHEME_HTTPS
+false
 )
 )
 )

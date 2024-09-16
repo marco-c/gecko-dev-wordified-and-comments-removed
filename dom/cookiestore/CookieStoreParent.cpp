@@ -503,6 +503,7 @@ nsICookie
 :
 :
 SCHEME_HTTPS
+aPartitioned
 )
 ;
 if
