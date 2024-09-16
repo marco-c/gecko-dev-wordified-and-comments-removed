@@ -324,6 +324,11 @@ mHasAlpha
 =
 false
 ;
+bool
+mUsePipeTransform
+=
+true
+;
 }
 ;
 class
