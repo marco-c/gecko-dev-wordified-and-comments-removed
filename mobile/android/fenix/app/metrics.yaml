@@ -1075,6 +1075,7 @@ forward
 forward_long_press
 history
 new_tab
+new_private_tab
 open_in_app
 open_in_fenix
 quit
