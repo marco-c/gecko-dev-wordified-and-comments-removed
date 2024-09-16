@@ -1531,7 +1531,7 @@ mChannels
 ai
 -
 >
-mChannels
+mRate
 aConfig
 .
 mDescription
