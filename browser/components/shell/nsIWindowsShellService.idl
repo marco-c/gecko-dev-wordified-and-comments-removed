@@ -59,7 +59,7 @@ MPL
 #
 include
 "
-nsISupports
+nsIShellService
 .
 idl
 "
@@ -84,7 +84,7 @@ fb9b59db
 interface
 nsIWindowsShellService
 :
-nsISupports
+nsIShellService
 {
 /
 *
