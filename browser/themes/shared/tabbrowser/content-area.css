@@ -436,6 +436,7 @@ margin
 :
 0
 ;
+}
 /
 *
 stylelint
@@ -469,6 +470,9 @@ sidebar
 revamp
 "
 )
+{
+.
+browserSidebarContainer
 {
 outline
 :
