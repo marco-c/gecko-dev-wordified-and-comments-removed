@@ -245,15 +245,6 @@ helper_fission_irregular_areas
 html
 "
 }
-{
-file
-:
-"
-helper_fission_animation_styling_in_transformed_oopif
-.
-html
-"
-}
 ]
 ;
 requestLongerTimeout
