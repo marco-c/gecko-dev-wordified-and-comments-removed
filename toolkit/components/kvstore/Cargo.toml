@@ -297,6 +297,17 @@ serde
 "
 serde_json
 =
+{
+version
+=
 "
 1
 "
+features
+=
+[
+"
+float_roundtrip
+"
+]
+}
