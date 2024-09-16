@@ -1062,7 +1062,7 @@ nodiscard
 ]
 ]
 nsresult
-SpeculativeConnect
+MaybeSpeculativeConnectWithHTTPSRR
 (
 nsHttpConnectionInfo
 *
@@ -1072,12 +1072,8 @@ nsIInterfaceRequestor
 callbacks
 uint32_t
 caps
-=
-0
 bool
 aFetchHTTPSRR
-=
-false
 )
 {
 TickleWifi
@@ -1109,10 +1105,6 @@ callbacks
 caps
 nullptr
 aFetchHTTPSRR
-|
-EchConfigEnabled
-(
-)
 )
 ;
 }
