@@ -2320,6 +2320,10 @@ ObjectFlags
 OBJECT_FLAGS
 =
 {
+ObjectFlag
+:
+:
+QualifiedVarObj
 }
 ;
 static
