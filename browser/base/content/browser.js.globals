@@ -192,9 +192,6 @@ nsBrowserAccess
 showFullScreenViewContextMenuItems
 "
 "
-onViewToolbarsPopupShowing
-"
-"
 onViewToolbarCommand
 "
 "
@@ -783,9 +780,6 @@ gFxaToolbarAccessed
 gAddonAbuseReportEnabled
 "
 "
-gAlwaysOpenPanel
-"
-"
 gMiddleClickNewTabUsesPasteboard
 "
 "
@@ -817,9 +811,6 @@ gFindBarPromise
 "
 "
 BrowserSearch
-"
-"
-PBMExitStatus
 "
 "
 SelectableProfileService
