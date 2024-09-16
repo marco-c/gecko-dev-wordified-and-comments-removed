@@ -113,6 +113,8 @@ setHeader
 Location
 "
 "
+.
+.
 /
 head_search
 .
@@ -149,6 +151,11 @@ setHeader
 Location
 "
 "
+.
+.
+/
+icons
+/
 remoteIcon
 .
 ico
