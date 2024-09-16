@@ -1500,13 +1500,6 @@ Bug
 1900477
 [
 "
-browser_tab_manager_visibility
-.
-js
-"
-]
-[
-"
 browser_tab_move_to_new_window_reload
 .
 js
