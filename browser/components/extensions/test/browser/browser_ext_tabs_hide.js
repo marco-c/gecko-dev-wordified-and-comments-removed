@@ -998,9 +998,9 @@ backgroundImage
 includes
 (
 "
-arrow
+view
 -
-down
+opentabs
 .
 svg
 "
