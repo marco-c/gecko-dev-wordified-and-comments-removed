@@ -4253,6 +4253,8 @@ event
 const
 {
 name
+:
+eventName
 }
 =
 event
@@ -4311,7 +4313,7 @@ value
 of
 parameter
 {
-name
+eventName
 }
 )
 ;
@@ -4333,7 +4335,7 @@ targetingParametersError
 {
 id
 :
-name
+eventName
 }
 ;
 }
@@ -4361,7 +4363,7 @@ stringTargetingParameters
 ;
 updatedParameters
 [
-name
+eventName
 ]
 =
 value
@@ -10743,7 +10745,7 @@ event
 {
 const
 {
-name
+eventName
 value
 }
 =
@@ -10775,7 +10777,7 @@ attributionParameters
 ;
 updatedParameters
 [
-name
+eventName
 ]
 =
 value
