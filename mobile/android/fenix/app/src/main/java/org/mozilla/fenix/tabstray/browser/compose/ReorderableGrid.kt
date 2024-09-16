@@ -1578,7 +1578,7 @@ zIndex
 0f
 )
 .
-animateItemPlacement
+animateItem
 (
 tween
 (

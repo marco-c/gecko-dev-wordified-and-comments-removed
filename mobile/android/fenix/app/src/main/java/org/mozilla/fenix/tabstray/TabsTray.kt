@@ -1614,7 +1614,7 @@ fillMaxSize
 state
 =
 pagerState
-beyondBoundsPageCount
+beyondViewportPageCount
 =
 2
 userScrollEnabled

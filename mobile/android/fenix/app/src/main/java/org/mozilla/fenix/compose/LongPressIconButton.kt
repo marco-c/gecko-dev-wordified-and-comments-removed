@@ -140,8 +140,6 @@ compose
 material
 .
 ripple
-.
-rememberRipple
 import
 androidx
 .
@@ -305,7 +303,7 @@ interactionSource
 interactionSource
 indication
 =
-rememberRipple
+ripple
 (
 bounded
 =

@@ -1556,7 +1556,7 @@ end
 spaceBetweenTabs
 )
 .
-animateItemPlacement
+animateItem
 (
 )
 .
