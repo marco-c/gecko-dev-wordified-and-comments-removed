@@ -1325,6 +1325,8 @@ args
 )
 :
     
+ret
+=
 gradle
 (
         
@@ -1348,7 +1350,7 @@ True
 )
     
 return
-0
+ret
 def
 install_app_bundle
 (
