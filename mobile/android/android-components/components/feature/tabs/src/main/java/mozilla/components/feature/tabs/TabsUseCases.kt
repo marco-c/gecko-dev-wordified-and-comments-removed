@@ -1337,6 +1337,13 @@ additionalHeaders
 historyMetadata
 =
 historyMetadata
+desktopMode
+=
+store
+.
+state
+.
+desktopMode
 )
 store
 .
