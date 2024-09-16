@@ -621,11 +621,11 @@ key
 )
 {
 const
-parent
+{
+parentNode
+}
 =
 target
-.
-parentNode
 ;
 const
 closestSiblingSelector
@@ -649,7 +649,7 @@ nextSibling
 if
 (
 !
-parent
+parentNode
 [
 closestSiblingSelector
 ]
@@ -660,7 +660,7 @@ return
 }
 if
 (
-parent
+parentNode
 [
 closestSiblingSelector
 ]
@@ -668,7 +668,7 @@ closestSiblingSelector
 firstElementChild
 )
 {
-parent
+parentNode
 [
 closestSiblingSelector
 ]
@@ -682,7 +682,7 @@ focus
 }
 else
 {
-parent
+parentNode
 [
 closestSiblingSelector
 ]
