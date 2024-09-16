@@ -395,6 +395,12 @@ pyatspi
 -
 ub18
 -
+python
+-
+dbus
+-
+ub18
+-
 32
 -
 libc6
