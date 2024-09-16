@@ -130,10 +130,6 @@ PClientManager
 ;
 include
 protocol
-PCookieStore
-;
-include
-protocol
 PEndpointForReport
 ;
 include
@@ -477,9 +473,6 @@ PCacheStreamControl
 ;
 manages
 PClientManager
-;
-manages
-PCookieStore
 ;
 manages
 PEndpointForReport
@@ -876,11 +869,6 @@ nsCString
 origin
 nsString
 channel
-)
-;
-async
-PCookieStore
-(
 )
 ;
 async

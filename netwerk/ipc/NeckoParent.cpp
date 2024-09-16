@@ -1624,16 +1624,6 @@ return
 new
 CookieServiceParent
 (
-static_cast
-<
-ContentParent
-*
->
-(
-Manager
-(
-)
-)
 )
 ;
 }
