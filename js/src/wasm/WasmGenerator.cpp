@@ -2558,6 +2558,11 @@ hasOffsetOfOffsetPatch
 )
 )
 {
+numCallRefMetrics_
++
+=
+1
+;
 continue
 ;
 }

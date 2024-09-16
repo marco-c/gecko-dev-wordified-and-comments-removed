@@ -15446,6 +15446,17 @@ callRefIndex
 +
 )
 {
+MOZ_RELEASE_ASSERT
+(
+callRefIndex
+<
+codeMeta
+(
+)
+.
+numCallRefMetrics
+)
+;
 CallRefMetrics
 &
 metrics
