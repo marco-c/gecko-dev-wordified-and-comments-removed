@@ -926,8 +926,10 @@ XML_HTTP_REQUEST_MAX_CONTENT_LENGTH_PREALLOCATE
 *
 1024LL
 ;
-constexpr
-nsLiteralString
+namespace
+{
+const
+nsString
 kLiteralString_readystatechange
 =
 u
@@ -936,8 +938,8 @@ readystatechange
 "
 _ns
 ;
-constexpr
-nsLiteralString
+const
+nsString
 kLiteralString_xmlhttprequest
 =
 u
@@ -946,8 +948,8 @@ xmlhttprequest
 "
 _ns
 ;
-constexpr
-nsLiteralString
+const
+nsString
 kLiteralString_DOMContentLoaded
 =
 u
@@ -956,8 +958,8 @@ DOMContentLoaded
 "
 _ns
 ;
-constexpr
-nsLiteralCString
+const
+nsCString
 kLiteralString_charset
 =
 "
@@ -965,8 +967,8 @@ charset
 "
 _ns
 ;
-constexpr
-nsLiteralCString
+const
+nsCString
 kLiteralString_UTF_8
 =
 "
@@ -976,6 +978,7 @@ UTF
 "
 _ns
 ;
+}
 #
 define
 NS_PROGRESS_EVENT_INTERVAL
