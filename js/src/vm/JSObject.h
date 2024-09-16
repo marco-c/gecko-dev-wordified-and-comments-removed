@@ -3428,7 +3428,7 @@ PropertyName
 >
 name
 HandleObject
-scopeChain
+envChain
 MutableHandleObject
 objp
 MutableHandleObject
@@ -3450,7 +3450,7 @@ PropertyName
 name
 JSObject
 *
-scopeChain
+envChain
 JSObject
 *
 *
