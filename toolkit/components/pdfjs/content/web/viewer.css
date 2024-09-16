@@ -28005,6 +28005,15 @@ important
 outerContainer
 .
 visibleMediumView
+:
+not
+(
+.
+hidden
+[
+hidden
+]
+)
 {
 display
 :
