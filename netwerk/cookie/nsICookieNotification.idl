@@ -99,10 +99,5 @@ attribute
 BrowsingContext
 browsingContext
 ;
-readonly
-attribute
-nsIDPtr
-operationID
-;
 }
 ;

@@ -1731,9 +1731,6 @@ rv
 continue
 ;
 }
-mozilla
-:
-:
 ipc
 :
 :
