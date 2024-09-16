@@ -347,6 +347,18 @@ fenix
 .
 trackingprotection
 .
+CookieBannerUIMode
+.
+SITE_NOT_SUPPORTED
+import
+org
+.
+mozilla
+.
+fenix
+.
+trackingprotection
+.
 ProtectionsState
 import
 org
@@ -734,6 +746,7 @@ in
 listOf
 (
 REQUEST_UNSUPPORTED_SITE_SUBMITTED
+SITE_NOT_SUPPORTED
 )
 )
 {
