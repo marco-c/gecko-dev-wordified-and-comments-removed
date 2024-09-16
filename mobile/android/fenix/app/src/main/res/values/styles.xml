@@ -8789,11 +8789,10 @@ android
 navigationBarColor
 "
 >
-android
-:
-color
+?
+attr
 /
-transparent
+layer1
 <
 /
 item
@@ -8808,7 +8807,7 @@ android
 windowTranslucentNavigation
 "
 >
-true
+false
 <
 /
 item
