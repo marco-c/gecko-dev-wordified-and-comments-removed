@@ -79,9 +79,6 @@ Cow
 }
 iter
 mem
-:
-:
-size_of
 ptr
 time
 :
@@ -1277,6 +1274,9 @@ BufferSize
 :
 new
 (
+mem
+:
+:
 size_of
 :
 :
@@ -1486,6 +1486,9 @@ BufferSize
 :
 new
 (
+mem
+:
+:
 size_of
 :
 :
@@ -2557,6 +2560,9 @@ global
 )
 size
 :
+mem
+:
+:
 size_of
 :
 :
@@ -2661,6 +2667,9 @@ ptr
 as_ptr
 (
 )
+mem
+:
+:
 size_of
 :
 :
@@ -2701,6 +2710,9 @@ math
 :
 align_to
 (
+mem
+:
+:
 size_of
 :
 :
@@ -3054,6 +3066,9 @@ BufferSize
 :
 new
 (
+mem
+:
+:
 size_of
 :
 :

@@ -277,8 +277,6 @@ get
 b
 "
 QueryInterruptTimePrecise
-\
-0
 "
 )
 .

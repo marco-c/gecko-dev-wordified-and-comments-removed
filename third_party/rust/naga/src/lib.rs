@@ -1213,8 +1213,6 @@ Sampling
 Center
 Centroid
 Sample
-First
-Either
 }
 #
 [
