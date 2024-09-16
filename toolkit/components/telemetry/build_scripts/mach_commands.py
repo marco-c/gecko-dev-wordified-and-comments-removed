@@ -116,6 +116,9 @@ bugs_list
 notification_emails
 :
 {
+emails_alias
+}
+{
 emails_list
 }
     
@@ -383,6 +386,8 @@ e
 .
 category
             
+emails_alias
+=
 bugs_alias
 =
 data_alias
@@ -613,13 +618,44 @@ LIST_INDENT
                     
 )
                 
+if
+emails_alias
+:
+                    
 emails_list
 =
+"
+"
+                
+else
+:
+                    
+emails_alias
+=
+f
+"
+{
+category
+}
+_
+{
+m
+}
+_emails
+"
+                    
+emails_list
+=
+"
+\
+n
+"
++
 textwrap
 .
 indent
 (
-                    
+                        
 "
 \
 n
@@ -640,8 +676,9 @@ notification_emails
 ]
 )
 )
+                        
 LIST_INDENT
-                
+                    
 )
                 
 expiry
@@ -919,6 +956,30 @@ f
 *
 {
 data_alias
+}
+"
+                        
+)
+                        
+emails_alias
+=
+(
+                            
+f
+"
+&
+{
+emails_alias
+}
+"
+if
+emails_list
+else
+f
+"
+*
+{
+emails_alias
 }
 "
                         
