@@ -835,6 +835,7 @@ updated
 _styleRef
 (
 item
+pseudoElement
 userAdded
 =
 false
@@ -869,9 +870,14 @@ actor
 new
 StyleRuleActor
 (
+{
+pageStyle
+:
 this
 item
 userAdded
+pseudoElement
+}
 )
 ;
 this
@@ -1526,10 +1532,16 @@ styleActor
 new
 StyleRuleActor
 (
+{
+pageStyle
+:
 this
+item
+:
 font
 .
 rule
+}
 )
 ;
 this
@@ -2523,6 +2535,7 @@ this
 _styleRef
 (
 bindingElement
+pseudo
 )
 ;
 const
@@ -3563,6 +3576,7 @@ this
 _styleRef
 (
 domRule
+pseudo
 )
 ;
 rules
@@ -4838,6 +4852,7 @@ this
 _styleRef
 (
 cssRule
+null
 true
 )
 ;
