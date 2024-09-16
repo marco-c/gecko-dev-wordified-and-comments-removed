@@ -1117,6 +1117,21 @@ test_manifest
 :
         
 if
+not
+pdf_info
+.
+get
+(
+"
+talos
+"
+True
+)
+:
+            
+continue
+        
+if
 pdf_info
 .
 get
