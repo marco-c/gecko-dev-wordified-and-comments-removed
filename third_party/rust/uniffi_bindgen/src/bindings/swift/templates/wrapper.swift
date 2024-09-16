@@ -281,7 +281,7 @@ apiChecksumMismatch
 Use
 a
 global
-variables
+variable
 to
 perform
 the
@@ -306,6 +306,7 @@ var
 initializationResult
 :
 InitializationResult
+=
 {
 /
 /
@@ -447,6 +448,8 @@ InitializationResult
 .
 ok
 }
+(
+)
 private
 func
 uniffiEnsureInitialized

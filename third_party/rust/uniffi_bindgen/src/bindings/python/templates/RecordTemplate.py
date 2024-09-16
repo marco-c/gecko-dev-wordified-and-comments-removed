@@ -56,8 +56,6 @@ field
 name
 (
 )
-|
-var_name
 }
 }
 :
@@ -105,10 +103,6 @@ has_fields
 %
 }
     
-typing
-.
-no_type_check
-    
 def
 __init__
 (
@@ -135,8 +129,6 @@ field
 name
 (
 )
-|
-var_name
 }
 }
 :
@@ -224,8 +216,6 @@ field
 name
 (
 )
-|
-var_name
 %
 }
         
@@ -376,8 +366,6 @@ field
 name
 (
 )
-|
-var_name
 }
 }
 =
@@ -432,8 +420,6 @@ field
 name
 (
 )
-|
-var_name
 }
 }
 {
@@ -493,8 +479,6 @@ field
 name
 (
 )
-|
-var_name
 }
 }
 !
@@ -508,8 +492,6 @@ field
 name
 (
 )
-|
-var_name
 }
 }
 :
@@ -575,8 +557,6 @@ field
 name
 (
 )
-|
-var_name
 }
 }
 =
@@ -665,8 +645,6 @@ field
 name
 (
 )
-|
-var_name
 }
 }
 )
@@ -738,8 +716,6 @@ field
 name
 (
 )
-|
-var_name
 }
 }
 buf

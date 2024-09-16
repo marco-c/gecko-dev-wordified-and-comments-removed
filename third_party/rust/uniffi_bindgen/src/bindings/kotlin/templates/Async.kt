@@ -84,6 +84,8 @@ T
 F
 E
 :
+kotlin
+.
 Exception
 >
 uniffiRustCallAsync

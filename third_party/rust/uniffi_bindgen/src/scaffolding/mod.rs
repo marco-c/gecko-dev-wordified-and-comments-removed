@@ -311,6 +311,14 @@ String
 =
 >
 "
+:
+:
+std
+:
+:
+string
+:
+:
 String
 "
 .
@@ -324,6 +332,14 @@ Bytes
 =
 >
 "
+:
+:
+std
+:
+:
+vec
+:
+:
 Vec
 <
 u8
@@ -340,6 +356,8 @@ Timestamp
 =
 >
 "
+:
+:
 std
 :
 :
@@ -359,6 +377,8 @@ Duration
 =
 >
 "
+:
+:
 std
 :
 :
@@ -420,6 +440,8 @@ format
 !
 (
 "
+:
+:
 std
 :
 :
@@ -480,6 +502,8 @@ format
 !
 (
 "
+:
+:
 std
 :
 :
@@ -544,6 +568,8 @@ format
 !
 (
 "
+:
+:
 std
 :
 :

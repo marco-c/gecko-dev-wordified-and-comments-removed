@@ -324,7 +324,7 @@ not
 None
 :
             
-_rust_call
+_uniffi_rust_call
 (
 _UniffiLib
 .
@@ -352,7 +352,7 @@ self
 :
         
 return
-_rust_call
+_uniffi_rust_call
 (
 _UniffiLib
 .
@@ -437,8 +437,6 @@ cons
 name
 (
 )
-|
-fn_name
 }
 }
 (
@@ -598,8 +596,6 @@ cons
 name
 (
 )
-|
-fn_name
 }
 }
 (
@@ -710,8 +706,6 @@ meth
 name
 (
 )
-|
-fn_name
 meth
 )
 %

@@ -38,7 +38,7 @@ format
 !
 (
 "
-UniffiTraitImpl
+_UniffiTraitImpl
 {
 }
 "
@@ -91,8 +91,6 @@ meth
 name
 (
 )
-|
-fn_name
 }
 }
 (
@@ -118,8 +116,6 @@ arg
 name
 (
 )
-|
-var_name
 }
 }
             
@@ -206,8 +202,6 @@ arg
 name
 (
 )
-|
-var_name
 }
 }
 )
@@ -229,8 +223,6 @@ meth
 name
 (
 )
-|
-fn_name
 }
 }
             
@@ -619,7 +611,7 @@ uniffi_out_return
 0
 ]
 =
-uniffi_trait_interface_call_async
+_uniffi_trait_interface_call_async
 (
 make_call
 handle_success
@@ -642,7 +634,7 @@ uniffi_out_return
 0
 ]
 =
-uniffi_trait_interface_call_async_with_error
+_uniffi_trait_interface_call_async_with_error
 (
 make_call
 handle_success
@@ -695,7 +687,7 @@ ffi_callback_name
 }
     
 def
-uniffi_free
+_uniffi_free
 (
 uniffi_handle
 )
@@ -714,7 +706,7 @@ remove
 uniffi_handle
 )
     
-uniffi_vtable
+_uniffi_vtable
 =
 {
 {
@@ -749,8 +741,6 @@ meth
 name
 (
 )
-|
-fn_name
 }
 }
         
@@ -761,7 +751,7 @@ endfor
 %
 }
         
-uniffi_free
+_uniffi_free
     
 )
     
@@ -781,6 +771,6 @@ ctypes
 .
 byref
 (
-uniffi_vtable
+_uniffi_vtable
 )
 )

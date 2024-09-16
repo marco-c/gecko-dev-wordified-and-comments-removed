@@ -48,8 +48,6 @@ meth
 name
 (
 )
-|
-fn_name
 }
 }
 (

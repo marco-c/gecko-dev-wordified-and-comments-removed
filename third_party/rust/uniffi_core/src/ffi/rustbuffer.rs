@@ -86,6 +86,9 @@ new
 )
 }
 pub
+(
+crate
+)
 unsafe
 fn
 from_raw_parts

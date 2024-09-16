@@ -76,6 +76,7 @@ const
 T
 }
 pub
+unsafe
 fn
 from_raw
 (

@@ -200,6 +200,8 @@ message
 String
 )
 :
+kotlin
+.
 Exception
 (
 message
@@ -308,6 +310,8 @@ fun
 U
 E
 :
+kotlin
+.
 Exception
 >
 uniffiRustCallWithError
@@ -336,7 +340,6 @@ status
 UniffiRustCallStatus
 (
 )
-;
 val
 return_value
 =
@@ -372,6 +375,8 @@ fun
 <
 E
 :
+kotlin
+.
 Exception
 >
 uniffiCheckCallStatus
@@ -618,7 +623,6 @@ uniffiRustCallWithError
 UniffiNullRustCallStatusErrorHandler
 callback
 )
-;
 }
 internal
 inline
@@ -661,6 +665,8 @@ catch
 (
 e
 :
+kotlin
+.
 Exception
 )
 {
@@ -751,6 +757,8 @@ catch
 (
 e
 :
+kotlin
+.
 Exception
 )
 {

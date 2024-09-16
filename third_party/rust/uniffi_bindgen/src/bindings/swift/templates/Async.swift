@@ -92,6 +92,8 @@ RustBuffer
 throws
 -
 >
+Swift
+.
 Error
 )
 ?

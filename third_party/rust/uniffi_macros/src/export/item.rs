@@ -40,7 +40,6 @@ ExportFnArgs
 ExportImplArgs
 ExportStructArgs
 ExportTraitArgs
-ExportedImplFnArgs
 ExportedImplFnAttributes
 }
 ;
@@ -1043,7 +1042,7 @@ clone
 tim
 .
 sig
-ExportedImplFnArgs
+ExportFnArgs
 :
 :
 default

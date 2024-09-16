@@ -707,7 +707,7 @@ call_status
 RustCallStatus
 :
 :
-new
+default
 (
 )
 }

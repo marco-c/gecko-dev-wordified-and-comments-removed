@@ -44,6 +44,7 @@ TypeIterator
 [
 derive
 (
+Clone
 Debug
 Default
 )
@@ -66,6 +67,10 @@ Option
 <
 String
 >
+pub
+(
+super
+)
 type_definitions
 :
 HashMap
@@ -73,6 +78,10 @@ HashMap
 String
 Type
 >
+pub
+(
+super
+)
 all_known_types
 :
 BTreeSet

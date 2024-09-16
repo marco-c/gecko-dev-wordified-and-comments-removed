@@ -1472,6 +1472,8 @@ impl_class_name
 }
 }
 :
+kotlin
+.
 Exception
 Disposable
 AutoCloseable

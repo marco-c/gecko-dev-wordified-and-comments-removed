@@ -601,8 +601,6 @@ field
 name
 (
 )
-|
-var_name
 }
 }
 "
@@ -742,10 +740,6 @@ endfor
 }
 {
 _uniffi_check_contract_api_version
-(
-_UniffiLib
-)
-_uniffi_check_api_checksums
 (
 _UniffiLib
 )

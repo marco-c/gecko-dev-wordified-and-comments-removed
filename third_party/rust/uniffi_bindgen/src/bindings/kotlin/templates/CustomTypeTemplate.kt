@@ -95,7 +95,7 @@ public
 typealias
 {
 {
-name
+type_name
 }
 }
 =
@@ -243,7 +243,7 @@ public
 typealias
 {
 {
-name
+type_name
 }
 }
 =
@@ -332,7 +332,7 @@ FfiConverter
 <
 {
 {
-name
+type_name
 }
 }
 {
@@ -357,7 +357,7 @@ ffi_type_name
 :
 {
 {
-name
+type_name
 }
 }
 {
@@ -398,7 +398,7 @@ value
 :
 {
 {
-name
+type_name
 }
 }
 )
@@ -449,7 +449,7 @@ ByteBuffer
 :
 {
 {
-name
+type_name
 }
 }
 {
@@ -490,7 +490,7 @@ value
 :
 {
 {
-name
+type_name
 }
 }
 )
@@ -534,7 +534,7 @@ value
 :
 {
 {
-name
+type_name
 }
 }
 buf

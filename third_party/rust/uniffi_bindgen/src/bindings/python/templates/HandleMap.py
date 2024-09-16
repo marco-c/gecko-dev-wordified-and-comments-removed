@@ -127,7 +127,7 @@ raise
 InternalError
 (
 "
-UniffiHandleMap
+_UniffiHandleMap
 .
 get
 :
@@ -171,7 +171,7 @@ raise
 InternalError
 (
 "
-UniffiHandleMap
+_UniffiHandleMap
 .
 remove
 :

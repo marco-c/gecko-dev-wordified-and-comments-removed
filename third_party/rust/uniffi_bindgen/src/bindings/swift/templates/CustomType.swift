@@ -93,7 +93,7 @@ public
 typealias
 {
 {
-name
+type_name
 }
 }
 =
@@ -140,7 +140,7 @@ throws
 >
 {
 {
-name
+type_name
 }
 }
 {
@@ -170,7 +170,7 @@ value
 :
 {
 {
-name
+type_name
 }
 }
 into
@@ -217,7 +217,7 @@ throws
 >
 {
 {
-name
+type_name
 }
 }
 {
@@ -244,7 +244,7 @@ value
 :
 {
 {
-name
+type_name
 }
 }
 )
@@ -359,7 +359,7 @@ public
 typealias
 {
 {
-name
+type_name
 }
 }
 =
@@ -488,7 +488,7 @@ throws
 >
 {
 {
-name
+type_name
 }
 }
 {
@@ -535,7 +535,7 @@ value
 :
 {
 {
-name
+type_name
 }
 }
 into
@@ -599,7 +599,7 @@ throws
 >
 {
 {
-name
+type_name
 }
 }
 {
@@ -643,7 +643,7 @@ value
 :
 {
 {
-name
+type_name
 }
 }
 )
@@ -739,7 +739,7 @@ throws
 >
 {
 {
-name
+type_name
 }
 }
 {
@@ -772,7 +772,7 @@ value
 :
 {
 {
-name
+type_name
 }
 }
 )

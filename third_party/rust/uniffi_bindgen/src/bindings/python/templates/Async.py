@@ -9,7 +9,7 @@ _UniffiContinuationHandleMap
 _UniffiHandleMap
 (
 )
-UNIFFI_GLOBAL_EVENT_LOOP
+_UNIFFI_GLOBAL_EVENT_LOOP
 =
 None
 "
@@ -145,9 +145,9 @@ BaseEventLoop
 :
     
 global
-UNIFFI_GLOBAL_EVENT_LOOP
+_UNIFFI_GLOBAL_EVENT_LOOP
     
-UNIFFI_GLOBAL_EVENT_LOOP
+_UNIFFI_GLOBAL_EVENT_LOOP
 =
 eventloop
 def
@@ -157,14 +157,14 @@ _uniffi_get_event_loop
 :
     
 if
-UNIFFI_GLOBAL_EVENT_LOOP
+_UNIFFI_GLOBAL_EVENT_LOOP
 is
 not
 None
 :
         
 return
-UNIFFI_GLOBAL_EVENT_LOOP
+_UNIFFI_GLOBAL_EVENT_LOOP
     
 else
 :
@@ -175,7 +175,7 @@ asyncio
 get_running_loop
 (
 )
-UNIFFI_RUST_FUTURE_CONTINUATION_CALLBACK
+_UNIFFI_RUST_FUTURE_CONTINUATION_CALLBACK
 def
 _uniffi_continuation_callback
 (
@@ -298,7 +298,7 @@ return
 lift_func
 (
             
-_rust_call_with_error
+_uniffi_rust_call_with_error
 (
 error_ffi_converter
 ffi_complete
@@ -326,7 +326,7 @@ has_async_callback_interface_definition
 %
 }
 def
-uniffi_trait_interface_call_async
+_uniffi_trait_interface_call_async
 (
 make_call
 handle_success
@@ -438,7 +438,7 @@ eventloop
     
 handle
 =
-UNIFFI_FOREIGN_FUTURE_HANDLE_MAP
+_UNIFFI_FOREIGN_FUTURE_HANDLE_MAP
 .
 insert
 (
@@ -449,13 +449,13 @@ task
 )
     
 return
-UniffiForeignFuture
+_UniffiForeignFuture
 (
 handle
-uniffi_foreign_future_free
+_uniffi_foreign_future_free
 )
 def
-uniffi_trait_interface_call_async_with_error
+_uniffi_trait_interface_call_async_with_error
 (
 make_call
 handle_success
@@ -592,7 +592,7 @@ eventloop
     
 handle
 =
-UNIFFI_FOREIGN_FUTURE_HANDLE_MAP
+_UNIFFI_FOREIGN_FUTURE_HANDLE_MAP
 .
 insert
 (
@@ -603,19 +603,19 @@ task
 )
     
 return
-UniffiForeignFuture
+_UniffiForeignFuture
 (
 handle
-uniffi_foreign_future_free
+_uniffi_foreign_future_free
 )
-UNIFFI_FOREIGN_FUTURE_HANDLE_MAP
+_UNIFFI_FOREIGN_FUTURE_HANDLE_MAP
 =
 _UniffiHandleMap
 (
 )
-UNIFFI_FOREIGN_FUTURE_FREE
+_UNIFFI_FOREIGN_FUTURE_FREE
 def
-uniffi_foreign_future_free
+_uniffi_foreign_future_free
 (
 handle
 )
@@ -626,7 +626,7 @@ eventloop
 task
 )
 =
-UNIFFI_FOREIGN_FUTURE_HANDLE_MAP
+_UNIFFI_FOREIGN_FUTURE_HANDLE_MAP
 .
 remove
 (
@@ -637,11 +637,11 @@ eventloop
 .
 call_soon
 (
-uniffi_foreign_future_do_free
+_uniffi_foreign_future_do_free
 task
 )
 def
-uniffi_foreign_future_do_free
+_uniffi_foreign_future_do_free
 (
 task
 )

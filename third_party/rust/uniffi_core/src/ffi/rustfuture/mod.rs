@@ -49,6 +49,7 @@ crate
 derive_ffi_traits
 Handle
 HandleAlloc
+LiftArgsError
 LowerReturn
 RustCallStatus
 }
@@ -122,7 +123,11 @@ Future
 <
 Output
 =
+Result
+<
 T
+LiftArgsError
+>
 >
 +
 Send

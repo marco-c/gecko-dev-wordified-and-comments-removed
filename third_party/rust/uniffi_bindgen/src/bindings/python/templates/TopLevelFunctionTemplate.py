@@ -41,8 +41,6 @@ func
 name
 (
 )
-|
-fn_name
 }
 }
 (
@@ -88,8 +86,6 @@ func
 name
 (
 )
-|
-fn_name
 }
 }
 (
@@ -322,8 +318,6 @@ func
 name
 (
 )
-|
-fn_name
 }
 }
 (
@@ -420,8 +414,6 @@ func
 name
 (
 )
-|
-fn_name
 }
 }
 (

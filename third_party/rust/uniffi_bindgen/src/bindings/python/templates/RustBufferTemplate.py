@@ -71,7 +71,7 @@ size
 :
         
 return
-_rust_call
+_uniffi_rust_call
 (
 _UniffiLib
 .
@@ -102,7 +102,7 @@ additional
 :
         
 return
-_rust_call
+_uniffi_rust_call
 (
 _UniffiLib
 .
@@ -131,7 +131,7 @@ self
 :
         
 return
-_rust_call
+_uniffi_rust_call
 (
 _UniffiLib
 .
