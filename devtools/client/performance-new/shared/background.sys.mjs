@@ -2080,12 +2080,6 @@ threads
 :
 [
 "
-Cache2
-I
-/
-O
-"
-"
 Compositor
 "
 "
