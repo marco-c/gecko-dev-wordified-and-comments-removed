@@ -1076,9 +1076,6 @@ RemoveFromProcessList
 (
 )
 ;
-nsCString
-mTmpDirName
-;
 nsCOMPtr
 <
 nsIFile
