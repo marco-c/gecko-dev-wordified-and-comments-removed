@@ -274,8 +274,12 @@ DECLARE_MODULE
 undef
 DECLARE_MODULE
 #
+define
+JS_LOGGING
+1
+#
 ifdef
-JS_JITSPEW
+JS_LOGGING
 #
 define
 JS_LOG
@@ -347,6 +351,9 @@ log_level
 )
 #
 endif
+#
+undef
+JS_LOGGING
 }
 #
 endif
