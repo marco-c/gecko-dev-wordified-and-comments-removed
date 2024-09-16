@@ -67,11 +67,11 @@ aParams
 .
 mUseNullDecoder
 )
-mNoWrapper
+mWrappers
 (
 aParams
 .
-mNoWrapper
+mWrappers
 )
 mType
 (

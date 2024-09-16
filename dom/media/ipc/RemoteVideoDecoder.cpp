@@ -870,9 +870,10 @@ mOptions
 CreateDecoderParams
 :
 :
-NoWrapper
+WrapperSet
 (
-true
+{
+}
 )
 mMediaEngineId
 mTrackingId
