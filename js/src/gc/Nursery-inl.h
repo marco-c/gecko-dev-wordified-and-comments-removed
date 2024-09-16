@@ -303,6 +303,8 @@ mozilla
 StringBuffer
 *
 buffer
+bool
+updateMallocBytes
 )
 {
 MOZ_ASSERT
@@ -347,6 +349,11 @@ HasMultipleReferences
 )
 )
 ;
+if
+(
+updateMallocBytes
+)
+{
 addMallocedBufferBytes
 (
 buffer
@@ -357,6 +364,7 @@ AllocationSize
 )
 )
 ;
+}
 return
 true
 ;
@@ -374,6 +382,8 @@ removeExtensibleStringBuffer
 JSLinearString
 *
 s
+bool
+updateMallocBytes
 )
 {
 MOZ_ASSERT
@@ -394,6 +404,11 @@ remove
 s
 )
 ;
+if
+(
+updateMallocBytes
+)
+{
 size_t
 nbytes
 =
@@ -426,6 +441,7 @@ mallocedBufferBytes
 =
 nbytes
 ;
+}
 }
 inline
 bool
