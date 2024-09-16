@@ -1354,9 +1354,12 @@ keyId
 ;
 ByteArrayFromGUID
 (
+*
 reinterpret_cast
 <
-REFGUID
+const
+GUID
+*
 >
 (
 keyStatus
