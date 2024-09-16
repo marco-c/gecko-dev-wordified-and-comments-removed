@@ -8840,6 +8840,10 @@ engagementEvent
 addExposure
 (
 result
+this
+.
+#
+queryContext
 )
 ;
 }
@@ -9387,6 +9391,10 @@ engagementEvent
 addExposure
 (
 result
+this
+.
+#
+queryContext
 )
 ;
 }
@@ -9452,6 +9460,10 @@ engagementEvent
 addTentativeExposure
 (
 result
+this
+.
+#
+queryContext
 )
 ;
 }
@@ -16347,6 +16359,10 @@ addExposure
 item
 .
 result
+this
+.
+#
+queryContext
 )
 ;
 }
