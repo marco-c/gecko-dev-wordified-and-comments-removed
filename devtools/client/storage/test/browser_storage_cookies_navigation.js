@@ -155,6 +155,15 @@ cookie
 hello
 =
 world
+;
+SameSite
+=
+None
+;
+Secure
+;
+Partitioned
+;
 "
 ;
 <
