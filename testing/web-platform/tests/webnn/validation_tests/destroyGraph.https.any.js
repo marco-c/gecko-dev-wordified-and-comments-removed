@@ -770,7 +770,7 @@ lhsBuffer
 await
 context
 .
-createBuffer
+createTensor
 (
 operandType
 )
@@ -781,7 +781,7 @@ rhsBuffer
 await
 context
 .
-createBuffer
+createTensor
 (
 operandType
 )
@@ -797,7 +797,7 @@ output
 await
 context
 .
-createBuffer
+createTensor
 (
 operandType
 )
@@ -940,7 +940,7 @@ lhsBuffer
 await
 context
 .
-createBuffer
+createTensor
 (
 {
 dataType
@@ -967,7 +967,7 @@ rhsBuffer
 await
 context
 .
-createBuffer
+createTensor
 (
 {
 dataType
@@ -994,7 +994,7 @@ outputBuffer
 await
 context
 .
-createBuffer
+createTensor
 (
 {
 dataType
@@ -1033,7 +1033,7 @@ fill
 ;
 context
 .
-writeBuffer
+writeTensor
 (
 lhsBuffer
 inputData
@@ -1041,7 +1041,7 @@ inputData
 ;
 context
 .
-writeBuffer
+writeTensor
 (
 rhsBuffer
 inputData
@@ -1085,7 +1085,7 @@ outputData
 await
 context
 .
-readBuffer
+readTensor
 (
 outputBuffer
 )
@@ -1121,7 +1121,7 @@ dispatch
 )
 and
 before
-readBuffer
+readTensor
 (
 )
 is

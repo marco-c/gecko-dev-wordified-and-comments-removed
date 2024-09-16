@@ -265,7 +265,7 @@ mlBuffer
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 {
 dataType
@@ -325,7 +325,7 @@ mlBuffer
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 {
 dataType
@@ -461,7 +461,7 @@ t
 TypeError
 mlContext
 .
-createBuffer
+createTensor
 (
 bufferDescriptor
 )
@@ -476,7 +476,7 @@ mlBuffer
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 bufferDescriptor
 )
@@ -608,7 +608,7 @@ t
 TypeError
 mlContext
 .
-createBuffer
+createTensor
 (
 bufferDescriptor
 )
@@ -646,7 +646,7 @@ actual
 await
 mlContext
 .
-readBuffer
+readTensor
 (
 mlBuffer
 )
@@ -742,7 +742,7 @@ mlBuffer
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 {
 dataType
@@ -823,7 +823,7 @@ mlBuffer
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 bufferDescriptor
 )
@@ -854,7 +854,7 @@ TypeError
 >
 mlContext
 .
-writeBuffer
+writeTensor
 (
 mlBuffer
 new
@@ -878,7 +878,7 @@ TypeError
 >
 mlContext
 .
-writeBuffer
+writeTensor
 (
 mlBuffer
 new
@@ -900,7 +900,7 @@ TypeError
 >
 mlContext
 .
-writeBuffer
+writeTensor
 (
 mlBuffer
 new
@@ -923,7 +923,7 @@ TypeError
 >
 mlContext
 .
-writeBuffer
+writeTensor
 (
 mlBuffer
 new
@@ -947,7 +947,7 @@ TypeError
 >
 mlContext
 .
-writeBuffer
+writeTensor
 (
 mlBuffer
 new
@@ -971,7 +971,7 @@ TypeError
 >
 mlContext
 .
-writeBuffer
+writeTensor
 (
 mlBuffer
 Uint8Array
@@ -1033,7 +1033,7 @@ mlBuffer
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 bufferDescriptor
 )
@@ -1055,7 +1055,7 @@ InvalidStateError
 >
 mlContext
 .
-writeBuffer
+writeTensor
 (
 mlBuffer
 new
@@ -1113,7 +1113,7 @@ mlBuffer
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 bufferDescriptor
 )
@@ -1137,7 +1137,7 @@ anotherMLTensor
 await
 anotherMLContext
 .
-createBuffer
+createTensor
 (
 bufferDescriptor
 )
@@ -1168,7 +1168,7 @@ TypeError
 >
 mlContext
 .
-writeBuffer
+writeTensor
 (
 anotherMLTensor
 inputData
@@ -1184,7 +1184,7 @@ TypeError
 >
 anotherMLContext
 .
-writeBuffer
+writeTensor
 (
 mlBuffer
 inputData
@@ -1213,7 +1213,7 @@ mlBuffer
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 {
 dataType
@@ -1255,7 +1255,7 @@ from
 ;
 mlContext
 .
-writeBuffer
+writeTensor
 (
 mlBuffer
 inputData
@@ -1263,7 +1263,7 @@ inputData
 ;
 mlContext
 .
-writeBuffer
+writeTensor
 (
 mlBuffer
 Uint8Array
@@ -1288,7 +1288,7 @@ inputData
 ;
 mlContext
 .
-writeBuffer
+writeTensor
 (
 mlBuffer
 Uint32Array
@@ -1358,7 +1358,7 @@ mlBuffer
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 bufferDescriptor
 )
@@ -1398,7 +1398,7 @@ fill
 ;
 mlContext
 .
-writeBuffer
+writeTensor
 (
 mlBuffer
 int32View
@@ -1430,7 +1430,7 @@ detached
 ;
 mlContext
 .
-writeBuffer
+writeTensor
 (
 mlBuffer
 inputBuffer
@@ -1526,7 +1526,7 @@ mlBuffer
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 {
 dataType
@@ -1585,7 +1585,7 @@ mlBuffer
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 {
 dataType
@@ -1622,7 +1622,7 @@ InvalidStateError
 '
 mlContext
 .
-readBuffer
+readTensor
 (
 mlBuffer
 )
@@ -1649,7 +1649,7 @@ mlBuffer
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 {
 dataType
@@ -1676,7 +1676,7 @@ promise
 =
 mlContext
 .
-readBuffer
+readTensor
 (
 mlBuffer
 )
@@ -1686,7 +1686,7 @@ anotherPromise
 =
 mlContext
 .
-readBuffer
+readTensor
 (
 mlBuffer
 )
@@ -1739,7 +1739,7 @@ mlBuffer
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 {
 dataType
@@ -1794,7 +1794,7 @@ mlBuffer
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 {
 dataType
@@ -1821,7 +1821,7 @@ WRITE_TO
 ;
 mlContext
 .
-writeBuffer
+writeTensor
 (
 mlBuffer
 Uint8Array
@@ -1839,7 +1839,7 @@ from
 ;
 mlContext
 .
-writeBuffer
+writeTensor
 (
 mlBuffer
 Uint32Array
@@ -1890,7 +1890,7 @@ mlBuffer
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 {
 dataType
@@ -1917,7 +1917,7 @@ READ_FROM
 ;
 mlContext
 .
-writeBuffer
+writeTensor
 (
 mlBuffer
 Uint8Array
@@ -1935,7 +1935,7 @@ from
 ;
 mlContext
 .
-writeBuffer
+writeTensor
 (
 mlBuffer
 Uint8Array
@@ -1992,7 +1992,7 @@ mlBuffer
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 {
 dataType
@@ -2019,7 +2019,7 @@ READ_FROM
 ;
 mlContext
 .
-writeBuffer
+writeTensor
 (
 mlBuffer
 Uint8Array
@@ -2037,7 +2037,7 @@ from
 ;
 mlContext
 .
-writeBuffer
+writeTensor
 (
 mlBuffer
 Uint8Array
@@ -2095,7 +2095,7 @@ mlBuffer
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 {
 dataType
@@ -2122,7 +2122,7 @@ READ_FROM
 ;
 mlContext
 .
-writeBuffer
+writeTensor
 (
 mlBuffer
 Uint8Array
@@ -2140,7 +2140,7 @@ from
 ;
 mlContext
 .
-writeBuffer
+writeTensor
 (
 mlBuffer
 Uint8Array
@@ -2198,7 +2198,7 @@ mlBuffer
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 {
 dataType
@@ -2235,7 +2235,7 @@ inputData
 ;
 mlContext
 .
-writeBuffer
+writeTensor
 (
 mlBuffer
 Uint8Array
@@ -2306,7 +2306,7 @@ mlBuffer
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 bufferDescriptor
 )
@@ -2330,7 +2330,7 @@ anotherMLTensor
 await
 anotherMLContext
 .
-createBuffer
+createTensor
 (
 bufferDescriptor
 )
@@ -2342,7 +2342,7 @@ t
 TypeError
 mlContext
 .
-readBuffer
+readTensor
 (
 anotherMLTensor
 )
@@ -2355,7 +2355,7 @@ t
 TypeError
 anotherMLContext
 .
-readBuffer
+readTensor
 (
 mlBuffer
 )
@@ -2563,7 +2563,7 @@ mlBuffer
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 {
 dataType
@@ -2616,7 +2616,7 @@ lhs
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 bufferDescriptor
 )
@@ -2627,7 +2627,7 @@ rhs
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 bufferDescriptor
 )
@@ -2643,7 +2643,7 @@ output1
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 bufferDescriptor
 )
@@ -2654,7 +2654,7 @@ output2
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 bufferDescriptor
 )
@@ -2699,7 +2699,7 @@ lhsBuffer
 await
 anotherMLContext
 .
-createBuffer
+createTensor
 (
 getDescriptorFromBuffer
 (
@@ -2751,7 +2751,7 @@ outputBuffer1
 await
 anotherMLContext
 .
-createBuffer
+createTensor
 (
 getDescriptorFromBuffer
 (
@@ -2828,7 +2828,7 @@ lhsBuffer
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 {
 dataType
@@ -2900,7 +2900,7 @@ rhsBuffer
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 {
 dataType
@@ -2995,7 +2995,7 @@ outputBuffer1
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 {
 dataType
@@ -3078,7 +3078,7 @@ outputBuffer2
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 {
 dataType
@@ -3208,7 +3208,7 @@ lhs
 :
 mlContext
 .
-createBuffer
+createTensor
 (
 {
 dataType
@@ -3270,7 +3270,7 @@ rhs
 :
 mlContext
 .
-createBuffer
+createTensor
 (
 {
 dataType
@@ -3332,7 +3332,7 @@ outputBuffer1
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 {
 dataType
@@ -3390,7 +3390,7 @@ outputBuffer2
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 {
 dataType
@@ -3674,7 +3674,7 @@ anotherRhsBuffer
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 getDescriptorFromBuffer
 (
@@ -3764,7 +3764,7 @@ anotherOutputBuffer2
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 getDescriptorFromBuffer
 (
@@ -4052,7 +4052,7 @@ lhs
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 getDescriptorFromBuffer
 (
@@ -4071,7 +4071,7 @@ rhs
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 getDescriptorFromBuffer
 (
@@ -4096,7 +4096,7 @@ output1
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 getDescriptorFromBuffer
 (
@@ -4115,7 +4115,7 @@ output2
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 getDescriptorFromBuffer
 (
@@ -4140,7 +4140,7 @@ output1
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 getDescriptorFromBuffer
 (
@@ -4159,7 +4159,7 @@ output2
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 getDescriptorFromBuffer
 (
@@ -4199,7 +4199,7 @@ fill
 ;
 mlContext
 .
-writeBuffer
+writeTensor
 (
 dispatchInputs
 [
@@ -4212,7 +4212,7 @@ inputData
 ;
 mlContext
 .
-writeBuffer
+writeTensor
 (
 dispatchInputs
 [
@@ -4376,7 +4376,7 @@ lhs
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 getDescriptorFromBuffer
 (
@@ -4395,7 +4395,7 @@ rhs
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 getDescriptorFromBuffer
 (
@@ -4420,7 +4420,7 @@ lhs
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 getDescriptorFromBuffer
 (
@@ -4439,7 +4439,7 @@ rhs
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 getDescriptorFromBuffer
 (
@@ -4464,7 +4464,7 @@ output1
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 getDescriptorFromBuffer
 (
@@ -4483,7 +4483,7 @@ output2
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 getDescriptorFromBuffer
 (
@@ -4523,7 +4523,7 @@ fill
 ;
 mlContext
 .
-writeBuffer
+writeTensor
 (
 dispatch1Inputs
 [
@@ -4536,7 +4536,7 @@ input1Data
 ;
 mlContext
 .
-writeBuffer
+writeTensor
 (
 dispatch1Inputs
 [
@@ -4573,7 +4573,7 @@ fill
 ;
 mlContext
 .
-writeBuffer
+writeTensor
 (
 dispatch2Inputs
 [
@@ -4586,7 +4586,7 @@ input2Data
 ;
 mlContext
 .
-writeBuffer
+writeTensor
 (
 dispatch2Inputs
 [
@@ -4696,7 +4696,7 @@ lhs
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 getDescriptorFromBuffer
 (
@@ -4715,7 +4715,7 @@ rhs
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 getDescriptorFromBuffer
 (
@@ -4740,7 +4740,7 @@ output1
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 getDescriptorFromBuffer
 (
@@ -4759,7 +4759,7 @@ output2
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 getDescriptorFromBuffer
 (
@@ -4799,7 +4799,7 @@ fill
 ;
 mlContext
 .
-writeBuffer
+writeTensor
 (
 dispatchInputs
 [
@@ -4812,7 +4812,7 @@ inputData
 ;
 mlContext
 .
-writeBuffer
+writeTensor
 (
 dispatchInputs
 [
@@ -4922,7 +4922,7 @@ lhs
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 getDescriptorFromBuffer
 (
@@ -4941,7 +4941,7 @@ rhs
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 getDescriptorFromBuffer
 (
@@ -4966,7 +4966,7 @@ output1
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 getDescriptorFromBuffer
 (
@@ -4985,7 +4985,7 @@ output2
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 getDescriptorFromBuffer
 (
@@ -5010,7 +5010,7 @@ output1
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 getDescriptorFromBuffer
 (
@@ -5029,7 +5029,7 @@ output2
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 getDescriptorFromBuffer
 (
@@ -5069,7 +5069,7 @@ fill
 ;
 mlContext
 .
-writeBuffer
+writeTensor
 (
 dispatchInputs
 [
@@ -5082,7 +5082,7 @@ inputData
 ;
 mlContext
 .
-writeBuffer
+writeTensor
 (
 dispatchInputs
 [
@@ -5306,7 +5306,7 @@ lhsBuffer
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 getDescriptorFromBuffer
 (
@@ -5325,7 +5325,7 @@ rhsBuffer
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 getDescriptorFromBuffer
 (
@@ -5349,7 +5349,7 @@ output
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 getDescriptorFromBuffer
 (
@@ -5365,7 +5365,7 @@ output1
 ;
 mlContext
 .
-writeBuffer
+writeTensor
 (
 lhsBuffer
 new
@@ -5392,7 +5392,7 @@ fill
 ;
 mlContext
 .
-writeBuffer
+writeTensor
 (
 rhsBuffer
 new
@@ -5539,7 +5539,7 @@ lhs
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 getDescriptorFromBuffer
 (
@@ -5558,7 +5558,7 @@ rhs
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 getDescriptorFromBuffer
 (
@@ -5578,7 +5578,7 @@ outputBuffer1
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 getDescriptorFromBuffer
 (
@@ -5597,7 +5597,7 @@ outputBuffer2
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 getDescriptorFromBuffer
 (
@@ -5636,7 +5636,7 @@ fill
 ;
 mlContext
 .
-writeBuffer
+writeTensor
 (
 dispatchInputs
 [
@@ -5649,7 +5649,7 @@ inputData1
 ;
 mlContext
 .
-writeBuffer
+writeTensor
 (
 dispatchInputs
 [
@@ -5706,7 +5706,7 @@ fill
 ;
 mlContext
 .
-writeBuffer
+writeTensor
 (
 dispatchInputs
 [
@@ -5719,7 +5719,7 @@ inputData2
 ;
 mlContext
 .
-writeBuffer
+writeTensor
 (
 dispatchInputs
 [
@@ -5749,7 +5749,7 @@ output2
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 getDescriptorFromBuffer
 (
@@ -5815,7 +5815,7 @@ lhs
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 getDescriptorFromBuffer
 (
@@ -5834,7 +5834,7 @@ rhs
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 getDescriptorFromBuffer
 (
@@ -5859,7 +5859,7 @@ output1
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 getDescriptorFromBuffer
 (
@@ -5878,7 +5878,7 @@ output2
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 getDescriptorFromBuffer
 (
@@ -5918,7 +5918,7 @@ fill
 ;
 mlContext
 .
-writeBuffer
+writeTensor
 (
 dispatchInputs
 [
@@ -5931,7 +5931,7 @@ inputData
 ;
 mlContext
 .
-writeBuffer
+writeTensor
 (
 dispatchInputs
 [
@@ -5972,7 +5972,7 @@ lhs
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 getDescriptorFromBuffer
 (
@@ -6011,7 +6011,7 @@ fill
 ;
 mlContext
 .
-writeBuffer
+writeTensor
 (
 dispatchInputs
 [
@@ -6077,7 +6077,7 @@ rhs
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 getDescriptorFromBuffer
 (
@@ -6092,7 +6092,7 @@ rhs
 ;
 mlContext
 .
-writeBuffer
+writeTensor
 (
 dispatchInputs
 [
@@ -6169,7 +6169,7 @@ lhs
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 getDescriptorFromBuffer
 (
@@ -6188,7 +6188,7 @@ rhs
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 getDescriptorFromBuffer
 (
@@ -6213,7 +6213,7 @@ output1
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 getDescriptorFromBuffer
 (
@@ -6232,7 +6232,7 @@ output2
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 getDescriptorFromBuffer
 (
@@ -6272,7 +6272,7 @@ fill
 ;
 mlContext
 .
-writeBuffer
+writeTensor
 (
 dispatchInputs
 [
@@ -6285,7 +6285,7 @@ inputData
 ;
 mlContext
 .
-writeBuffer
+writeTensor
 (
 dispatchInputs
 [
@@ -6326,7 +6326,7 @@ output1
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 getDescriptorFromBuffer
 (
@@ -6365,7 +6365,7 @@ fill
 ;
 mlContext
 .
-writeBuffer
+writeTensor
 (
 dispatchInputs
 [

@@ -107,7 +107,7 @@ mlBuffer
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 {
 dataType
@@ -161,7 +161,7 @@ e
 }
 mlContext
 .
-writeBuffer
+writeTensor
 (
 mlBuffer
 testContents
@@ -199,7 +199,7 @@ t
 TypeError
 mlContext
 .
-readBuffer
+readTensor
 (
 mlBuffer
 arrayBuffer
@@ -207,7 +207,7 @@ arrayBuffer
 )
 ;
 }
-readBuffer
+readTensor
 (
 )
 with
@@ -250,7 +250,7 @@ t
 TypeError
 mlContext
 .
-readBuffer
+readTensor
 (
 mlBuffer
 typedArray
@@ -258,7 +258,7 @@ typedArray
 )
 ;
 }
-readBuffer
+readTensor
 (
 )
 with
@@ -314,7 +314,7 @@ t
 TypeError
 mlContext
 .
-readBuffer
+readTensor
 (
 mlBuffer
 arrayBuffer
@@ -328,7 +328,7 @@ t
 TypeError
 mlContext
 .
-readBuffer
+readTensor
 (
 mlBuffer
 typedArray
@@ -336,7 +336,7 @@ typedArray
 )
 ;
 }
-readBuffer
+readTensor
 (
 )
 with
@@ -390,7 +390,7 @@ t
 TypeError
 mlContext
 .
-readBuffer
+readTensor
 (
 mlBuffer
 arrayBuffer
@@ -402,7 +402,7 @@ t
 TypeError
 mlContext
 .
-readBuffer
+readTensor
 (
 mlBuffer
 typedArray
@@ -425,7 +425,7 @@ Detaching
 an
 ArrayBuffer
 while
-readBuffer
+readTensor
 (
 )
 is
@@ -457,7 +457,7 @@ byteLength
 await
 mlContext
 .
-readBuffer
+readTensor
 (
 mlBuffer
 arrayBuffer
@@ -474,7 +474,7 @@ testContents
 )
 ;
 }
-readBuffer
+readTensor
 (
 )
 with
@@ -516,7 +516,7 @@ arrayBuffer
 await
 mlContext
 .
-readBuffer
+readTensor
 (
 mlBuffer
 typedArray
@@ -529,7 +529,7 @@ testContents
 )
 ;
 }
-readBuffer
+readTensor
 (
 )
 with
@@ -561,7 +561,7 @@ byteLength
 await
 mlContext
 .
-readBuffer
+readTensor
 (
 mlBuffer
 arrayBuffer
@@ -614,7 +614,7 @@ length
 )
 ;
 }
-readBuffer
+readTensor
 (
 )
 with
@@ -659,7 +659,7 @@ arrayBuffer
 await
 mlContext
 .
-readBuffer
+readTensor
 (
 mlBuffer
 typedArray
@@ -704,7 +704,7 @@ length
 )
 ;
 }
-readBuffer
+readTensor
 (
 )
 with
@@ -728,7 +728,7 @@ buffer
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 {
 dataType
@@ -783,7 +783,7 @@ InvalidStateError
 '
 mlContext
 .
-readBuffer
+readTensor
 (
 buffer
 arrayBuffer
@@ -799,7 +799,7 @@ InvalidStateError
 '
 mlContext
 .
-readBuffer
+readTensor
 (
 buffer
 arrayBufferView
@@ -807,7 +807,7 @@ arrayBufferView
 )
 ;
 }
-readBuffer
+readTensor
 (
 )
 rejects
@@ -832,7 +832,7 @@ buffer
 await
 mlContext
 .
-createBuffer
+createTensor
 (
 {
 dataType
@@ -888,7 +888,7 @@ InvalidStateError
 '
 mlContext
 .
-readBuffer
+readTensor
 (
 buffer
 arrayBuffer
@@ -902,7 +902,7 @@ InvalidStateError
 '
 mlContext
 .
-readBuffer
+readTensor
 (
 buffer
 arrayBufferView
@@ -921,7 +921,7 @@ await
 checks
 ;
 }
-readBuffer
+readTensor
 (
 )
 rejects
