@@ -561,15 +561,6 @@ teardown
         
 self
 .
-send_message
-(
-"
-runner_teardown
-"
-)
-        
-self
-.
 result_queue
 =
 None
@@ -785,48 +776,11 @@ methods
 "
 "
         
-try
-:
-            
 self
 .
 setup
 (
 )
-        
-except
-Exception
-:
-            
-self
-.
-logger
-.
-warning
-(
-"
-An
-error
-occured
-during
-executor
-setup
-:
-\
-n
-%
-s
-"
-%
-                                
-traceback
-.
-format_exc
-(
-)
-)
-            
-raise
         
 commands
 =
@@ -3419,14 +3373,6 @@ stop
 None
 :
 {
-                
-"
-runner_teardown
-"
-:
-self
-.
-runner_teardown
                 
 "
 log
@@ -6595,37 +6541,14 @@ stop_runner
 ]
 )
         
-if
-self
-.
-test_runner_proc
-is
-None
-:
-            
-return
-        
-if
-self
-.
-test_runner_proc
-.
-is_alive
-(
-)
-:
-            
-self
-.
-send_message
-(
-"
-stop
-"
-)
-        
 try
 :
+            
+self
+.
+_ensure_runner_stopped
+(
+)
             
 self
 .
@@ -6635,13 +6558,7 @@ stop
 (
 force
 =
-force
-)
-            
-self
-.
-ensure_runner_stopped
-(
+True
 )
         
 except
@@ -6661,9 +6578,18 @@ error
 Failed
 to
 stop
+either
 the
 runner
+or
+the
+browser
+process
 "
+                              
+exc_info
+=
+True
 )
         
 finally
@@ -6693,12 +6619,6 @@ TestRunnerManager
 teardown
 "
 )
-        
-self
-.
-test_runner_proc
-=
-None
         
 self
 .
@@ -6737,22 +6657,11 @@ pause
 )
     
 def
-ensure_runner_stopped
+_ensure_runner_stopped
 (
 self
 )
 :
-        
-self
-.
-logger
-.
-debug
-(
-"
-ensure_runner_stopped
-"
-)
         
 if
 self
@@ -6766,13 +6675,24 @@ return
         
 self
 .
-browser
+logger
 .
-stop
+debug
 (
-force
-=
-True
+"
+Stopping
+runner
+process
+"
+)
+        
+self
+.
+send_message
+(
+"
+stop
+"
 )
         
 self
@@ -6941,27 +6861,12 @@ test_runner_proc
 .
 exitcode
 )
-    
-def
-runner_teardown
-(
-self
-)
-:
         
 self
 .
-ensure_runner_stopped
-(
-)
-        
-return
-RunnerManagerState
-.
-stop
-(
-False
-)
+test_runner_proc
+=
+None
     
 def
 send_message
@@ -7135,17 +7040,6 @@ log
 *
 data
 )
-                
-elif
-cmd
-=
-=
-"
-runner_teardown
-"
-:
-                    
-pass
                 
 else
 :
