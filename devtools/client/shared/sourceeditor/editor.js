@@ -4013,6 +4013,7 @@ number
 ;
 i
 <
+=
 vEndLine
 .
 number
