@@ -2313,7 +2313,7 @@ index
 ]
 -
 >
-GetAnchorNode
+GetMayCrossShadowBoundaryAnchorNode
 (
 )
 )
