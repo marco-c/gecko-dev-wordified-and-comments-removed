@@ -230,6 +230,7 @@ path
 )
 )
 ;
+await
 waitForFilesInUse
 (
 )

@@ -508,6 +508,7 @@ writeStatusFile
 STATE_PENDING
 )
 ;
+await
 reloadUpdateManagerData
 (
 )

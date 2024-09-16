@@ -171,6 +171,7 @@ INVALID_INSTALL_DIR_PATH_ERROR
 )
 ;
 }
+await
 waitForFilesInUse
 (
 )

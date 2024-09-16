@@ -744,6 +744,7 @@ exists
 MSG_SHOULD_EXIST
 )
 ;
+await
 reloadUpdateManagerData
 (
 true
@@ -871,6 +872,7 @@ createBackupUpdateElevatedLog
 }
 }
 }
+await
 doTestFinish
 (
 )

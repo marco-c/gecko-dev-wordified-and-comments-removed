@@ -400,6 +400,7 @@ verifyPref
 false
 )
 ;
+await
 doTestFinish
 (
 )

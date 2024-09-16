@@ -293,6 +293,7 @@ remove
 false
 )
 ;
+await
 reloadUpdateManagerData
 (
 true
@@ -313,6 +314,7 @@ writeSuccessUpdateStatusFile
 (
 )
 ;
+await
 reloadUpdateManagerData
 (
 false
@@ -514,6 +516,7 @@ return
 activeUpdateFile
 ;
 }
+async
 function
 reloadUpdateManagerData
 (
@@ -522,6 +525,7 @@ skipFiles
 false
 )
 {
+await
 Cc
 [
 "
