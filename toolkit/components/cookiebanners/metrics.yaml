@@ -1297,9 +1297,6 @@ domain
 type
 :
 boolean
-telemetry_mirror
-:
-Cookie_banner_Reload_Browser
 cookie_injection_fail
 :
 type
