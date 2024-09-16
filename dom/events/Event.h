@@ -309,6 +309,11 @@ Event
 (
 )
 ;
+void
+LastRelease
+(
+)
+;
 private
 :
 void
