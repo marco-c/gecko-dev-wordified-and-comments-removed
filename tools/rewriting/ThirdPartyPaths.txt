@@ -1201,12 +1201,6 @@ double
 -
 conversion
 /
-mfbt
-/
-lz4
-/
-.
-*
 mobile
 /
 android
@@ -1352,6 +1346,14 @@ misc
 /
 decimal
 /
+mozglue
+/
+static
+/
+lz4
+/
+.
+*
 mozglue
 /
 tests

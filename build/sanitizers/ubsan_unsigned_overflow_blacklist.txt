@@ -1072,7 +1072,9 @@ src
 :
 *
 /
-mfbt
+mozglue
+/
+static
 /
 lz4
 /

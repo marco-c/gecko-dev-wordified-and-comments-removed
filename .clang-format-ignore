@@ -1556,12 +1556,6 @@ conversion
 /
 .
 *
-mfbt
-/
-lz4
-/
-.
-*
 mobile
 /
 android
@@ -1639,6 +1633,14 @@ mozglue
 misc
 /
 decimal
+/
+.
+*
+mozglue
+/
+static
+/
+lz4
 /
 .
 *

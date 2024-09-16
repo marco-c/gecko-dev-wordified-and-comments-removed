@@ -96,6 +96,9 @@ build
 "
 misc
 "
+"
+static
+"
 ]
 if
 CONFIG
