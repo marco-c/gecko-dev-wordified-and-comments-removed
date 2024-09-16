@@ -291,12 +291,13 @@ browser_privatebrowsing_concurrent
 js
 "
 ]
-skip
+run
 -
 if
 =
 [
 "
+!
 release_or_beta
 "
 ]
