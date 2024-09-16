@@ -1405,6 +1405,15 @@ error
 "
 no
 -
+shadow
+"
+:
+"
+error
+"
+"
+no
+-
 throw
 -
 literal

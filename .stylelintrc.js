@@ -26,7 +26,7 @@ path
 function
 readFile
 (
-path
+filePath
 )
 {
 return
@@ -34,7 +34,7 @@ fs
 .
 readFileSync
 (
-path
+filePath
 {
 encoding
 :

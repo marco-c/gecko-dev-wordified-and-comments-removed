@@ -216,15 +216,6 @@ test
 "
 error
 "
-"
-no
--
-shadow
-"
-:
-"
-error
-"
 }
 }
 ;

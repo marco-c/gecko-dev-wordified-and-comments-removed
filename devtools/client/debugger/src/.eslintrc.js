@@ -913,13 +913,6 @@ sequences
 "
 no
 -
-shadow
-"
-:
-2
-"
-no
--
 sparse
 -
 arrays
