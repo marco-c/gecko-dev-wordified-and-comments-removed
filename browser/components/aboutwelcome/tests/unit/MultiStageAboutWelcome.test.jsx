@@ -1357,7 +1357,7 @@ screen
 >
 {
 const
-screen
+easySetupScreen
 =
 AboutWelcomeDefaults
 .
@@ -1398,12 +1398,12 @@ EASY_SETUP_SCREEN_PROPS
 {
 id
 :
-screen
+easySetupScreen
 .
 id
 content
 :
-screen
+easySetupScreen
 .
 content
 messageId
@@ -1415,7 +1415,7 @@ message_id
 }
 _
 {
-screen
+easySetupScreen
 .
 id
 }

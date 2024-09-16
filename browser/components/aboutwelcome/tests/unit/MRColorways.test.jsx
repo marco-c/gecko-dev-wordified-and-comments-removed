@@ -1628,7 +1628,7 @@ colorways
 >
 {
 let
-test
+checkSelection
 ;
 beforeEach
 (
@@ -1710,7 +1710,7 @@ fn
 }
 )
 ;
-test
+checkSelection
 =
 (
 )
@@ -1766,7 +1766,7 @@ const
 value
 }
 =
-test
+checkSelection
 (
 )
 ;
@@ -1849,7 +1849,7 @@ const
 value
 }
 =
-test
+checkSelection
 (
 )
 ;
@@ -1931,7 +1931,7 @@ const
 value
 }
 =
-test
+checkSelection
 (
 )
 ;
