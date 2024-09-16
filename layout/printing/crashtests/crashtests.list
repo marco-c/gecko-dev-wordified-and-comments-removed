@@ -43,17 +43,6 @@ if
 (
 Android
 )
-pref
-(
-dom
-.
-window
-.
-sizeToContent
-.
-enabled
-true
-)
 load
 1663722
 .

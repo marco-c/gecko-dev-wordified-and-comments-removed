@@ -216,9 +216,5 @@ SVGFarthestViewportElement
 )
 DEPRECATED_OPERATION
 (
-SizeToContent
-)
-DEPRECATED_OPERATION
-(
 IDBObjectStoreCreateIndexLocale
 )

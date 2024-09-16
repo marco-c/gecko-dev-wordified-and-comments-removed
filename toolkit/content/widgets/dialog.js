@@ -1189,7 +1189,7 @@ return
 ;
 window
 .
-sizeToContentConstrained
+sizeToContent
 (
 {
 prefWidth

@@ -24,17 +24,6 @@ enabled
 =
 true
 "
-"
-dom
-.
-window
-.
-sizeToContent
-.
-enabled
-=
-true
-"
 ]
 support
 -
