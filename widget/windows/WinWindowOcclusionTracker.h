@@ -621,11 +621,6 @@ OnSessionChange
 (
 WPARAM
 aStatusCode
-Maybe
-<
-bool
->
-aIsCurrentSession
 )
 ;
 void
