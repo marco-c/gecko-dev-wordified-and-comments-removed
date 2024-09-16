@@ -409,7 +409,9 @@ Ci
 nsIBrowserHandler
 )
 .
-defaultArgs
+getFirstWindowArgs
+(
+)
 ;
 let
 updatePing
