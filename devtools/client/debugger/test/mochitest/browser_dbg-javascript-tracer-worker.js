@@ -256,6 +256,8 @@ dbg
 "
 DOM
 |
+global
+.
 message
 "
 )

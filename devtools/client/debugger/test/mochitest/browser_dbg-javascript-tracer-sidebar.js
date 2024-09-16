@@ -1031,6 +1031,8 @@ textContent
 "
 DOM
 |
+node
+.
 click
 "
 )
@@ -1146,6 +1148,8 @@ textContent
 "
 DOM
 |
+global
+.
 keypress
 "
 )

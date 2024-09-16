@@ -388,6 +388,8 @@ firstFrame
 .
 currentDOMEvent
 "
+global
+.
 click
 "
 )
