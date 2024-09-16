@@ -467,6 +467,9 @@ GlobalObjectData
 (
 )
 ;
+#
+ifndef
+NIGHTLY_BUILD
 using
 VarNamesSet
 =
@@ -488,6 +491,8 @@ CellAllocPolicy
 VarNamesSet
 varNames
 ;
+#
+endif
 struct
 ConstructorWithProto
 {
@@ -4803,6 +4808,9 @@ Value
 val
 )
 ;
+#
+ifndef
+NIGHTLY_BUILD
 void
 removeFromVarNames
 (
@@ -4866,6 +4874,8 @@ JSAtom
 name
 )
 ;
+#
+endif
 static
 ArgumentsObject
 *

@@ -19954,6 +19954,9 @@ shadowsExistingProperty
 =
 false
 ;
+#
+ifndef
+NIGHTLY_BUILD
 if
 (
 varObj
@@ -19991,6 +19994,8 @@ var
 ;
 }
 else
+#
+endif
 if
 (
 (
@@ -20707,6 +20712,9 @@ false
 ;
 }
 }
+#
+ifndef
+NIGHTLY_BUILD
 if
 (
 varObj
@@ -20745,6 +20753,8 @@ false
 ;
 }
 }
+#
+endif
 break
 ;
 }
@@ -21058,6 +21068,9 @@ return
 false
 ;
 }
+#
+ifndef
+NIGHTLY_BUILD
 if
 (
 varObj
@@ -21096,6 +21109,8 @@ false
 ;
 }
 }
+#
+endif
 continue
 ;
 }
@@ -21202,6 +21217,9 @@ enumerable
 )
 ;
 }
+#
+ifndef
+NIGHTLY_BUILD
 if
 (
 !
@@ -21226,6 +21244,8 @@ return
 false
 ;
 }
+#
+endif
 }
 RootedId
 id

@@ -29098,6 +29098,9 @@ setBoolean
 status
 )
 ;
+#
+ifndef
+NIGHTLY_BUILD
 if
 (
 status
@@ -29139,6 +29142,8 @@ name
 ;
 }
 }
+#
+endif
 return
 true
 ;
