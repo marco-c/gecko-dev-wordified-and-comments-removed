@@ -243,7 +243,7 @@ reset
 {
 dependencies
 .
-clear
+clearAndFree
 (
 )
 ;
