@@ -489,7 +489,7 @@ Crash
 .
 NativeCodeCrash
 .
-PROCESS_TYPE_MAIN
+PROCESS_TYPE_FOREGROUND_CHILD
 breadcrumbs
 =
 arrayListOf

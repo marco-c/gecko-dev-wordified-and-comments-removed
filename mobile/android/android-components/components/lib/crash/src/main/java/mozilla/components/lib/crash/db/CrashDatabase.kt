@@ -171,7 +171,7 @@ class
 ]
 version
 =
-2
+3
 autoMigrations
 =
 [
@@ -183,6 +183,15 @@ from
 to
 =
 2
+)
+AutoMigration
+(
+from
+=
+2
+to
+=
+3
 )
 ]
 )
