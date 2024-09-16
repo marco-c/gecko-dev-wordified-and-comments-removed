@@ -22627,6 +22627,13 @@ dependencies
 =
 [
 "
+firefox
+-
+on
+-
+glean
+"
+"
 libc
 "
 "
