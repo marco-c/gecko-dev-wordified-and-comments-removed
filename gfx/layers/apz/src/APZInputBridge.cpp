@@ -40,6 +40,13 @@ h
 #
 include
 "
+nsLayoutUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 EventForwards
@@ -1560,10 +1567,10 @@ SCROLLMODE_INSTANT
 ;
 if
 (
-StaticPrefs
+nsLayoutUtils
 :
 :
-general_smoothScroll
+IsSmoothScrollingEnabled
 (
 )
 &

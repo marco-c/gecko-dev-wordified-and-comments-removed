@@ -22,6 +22,13 @@ h
 #
 include
 "
+nsLayoutUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 layers
@@ -133,10 +140,10 @@ aInitialPosition
 {
 if
 (
-StaticPrefs
+nsLayoutUtils
 :
 :
-general_smoothScroll
+IsSmoothScrollingEnabled
 (
 )
 &

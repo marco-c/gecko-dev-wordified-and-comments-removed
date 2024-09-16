@@ -20,6 +20,13 @@ h
 #
 include
 "
+nsLayoutUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 StaticPrefs_general
@@ -148,10 +155,10 @@ aDeltaType
 {
 MOZ_ASSERT
 (
-StaticPrefs
+nsLayoutUtils
 :
 :
-general_smoothScroll
+IsSmoothScrollingEnabled
 (
 )
 "
