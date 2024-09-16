@@ -358,7 +358,7 @@ SET_COOKIE_TEST_IDS
 )
 async
 def
-test_cookie_attributes_before_request_sent
+test_cookie_attributes_response_started
 (
     
 setup_blocked_request

@@ -22,6 +22,8 @@ any_string_or_null
     
 assert_cookies
     
+int_interval
+    
 recursive_compare
 )
 from
@@ -1878,6 +1880,19 @@ timestamp
 (
 )
 )
+expires_interval
+=
+int_interval
+(
+    
+expires_a_day_from_now_timestamp
+-
+1
+    
+expires_a_day_from_now_timestamp
++
+1
+)
 SET_COOKIE_TEST_PARAMETERS
 =
 [
@@ -2562,7 +2577,7 @@ None
 expiry
 "
 :
-expires_a_day_from_now_timestamp
+expires_interval
             
 "
 httpOnly
