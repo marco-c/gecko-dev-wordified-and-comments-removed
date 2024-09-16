@@ -531,6 +531,29 @@ DESCRIPTION_INDENT
                 
 )
                 
+alias_prefix
+=
+category
+.
+replace
+(
+"
+.
+"
+"
+_
+"
+)
++
+f
+"
+_
+{
+m
+}
+_
+"
+                
 if
 bugs_alias
 :
@@ -548,13 +571,9 @@ bugs_alias
 f
 "
 {
-category
+alias_prefix
 }
-_
-{
-m
-}
-_bugs
+bugs
 "
                     
 data_alias
@@ -562,13 +581,9 @@ data_alias
 f
 "
 {
-category
+alias_prefix
 }
-_
-{
-m
-}
-_data_reviews
+data_reviews
 "
                     
 bugs_list
@@ -642,13 +657,9 @@ emails_alias
 f
 "
 {
-category
+alias_prefix
 }
-_
-{
-m
-}
-_emails
+emails
 "
                     
 emails_list
@@ -728,13 +739,9 @@ extra_alias
 f
 "
 {
-category
+alias_prefix
 }
-_
-{
-m
-}
-_extra
+extra
 "
                     
 multiline_extra_description
