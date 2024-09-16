@@ -99,6 +99,14 @@ net
 .
 toUri
 import
+androidx
+.
+test
+.
+filters
+.
+SdkSuppress
+import
 org
 .
 junit
@@ -4648,6 +4656,12 @@ cases
 view
 /
 2068215
+SdkSuppress
+(
+maxSdkVersion
+=
+30
+)
 Test
 fun
 verifyCopyLoginCredentialsToClipboardTest

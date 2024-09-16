@@ -107,6 +107,14 @@ androidx
 .
 test
 .
+filters
+.
+SdkSuppress
+import
+androidx
+.
+test
+.
 rule
 .
 GrantPermissionRule
@@ -1734,6 +1742,12 @@ cases
 view
 /
 251385
+SdkSuppress
+(
+maxSdkVersion
+=
+30
+)
 SmokeTest
 Test
 fun

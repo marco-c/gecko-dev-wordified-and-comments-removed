@@ -85,6 +85,14 @@ net
 .
 toUri
 import
+androidx
+.
+test
+.
+filters
+.
+SdkSuppress
+import
 mozilla
 .
 components
@@ -1486,6 +1494,12 @@ cases
 view
 /
 410724
+SdkSuppress
+(
+maxSdkVersion
+=
+30
+)
 SmokeTest
 Test
 fun

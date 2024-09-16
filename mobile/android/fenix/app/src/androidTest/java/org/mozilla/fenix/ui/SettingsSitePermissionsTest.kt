@@ -442,6 +442,12 @@ cases
 view
 /
 246974
+SdkSuppress
+(
+maxSdkVersion
+=
+30
+)
 Test
 fun
 sitePermissionsItemsTest
@@ -623,6 +629,9 @@ SdkSuppress
 minSdkVersion
 =
 29
+maxSdkVersion
+=
+30
 )
 fun
 systemBlockedPermissionsRedirectToSystemAppSettingsTest

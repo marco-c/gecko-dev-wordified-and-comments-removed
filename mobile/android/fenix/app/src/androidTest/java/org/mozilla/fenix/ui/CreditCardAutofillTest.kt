@@ -65,6 +65,14 @@ fenix
 .
 ui
 import
+androidx
+.
+test
+.
+filters
+.
+SdkSuppress
+import
 org
 .
 junit
@@ -2292,6 +2300,12 @@ cases
 view
 /
 1512791
+SdkSuppress
+(
+maxSdkVersion
+=
+30
+)
 Test
 fun
 verifyCreditCardRedirectionsToAutofillSectionAfterInterruptionTest

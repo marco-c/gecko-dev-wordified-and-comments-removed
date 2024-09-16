@@ -85,6 +85,14 @@ androidx
 .
 test
 .
+filters
+.
+SdkSuppress
+import
+androidx
+.
+test
+.
 rule
 .
 ActivityTestRule
@@ -614,6 +622,12 @@ cases
 view
 /
 2334762
+SdkSuppress
+(
+maxSdkVersion
+=
+30
+)
 Test
 fun
 copyCustomTabToolbarUrlTest

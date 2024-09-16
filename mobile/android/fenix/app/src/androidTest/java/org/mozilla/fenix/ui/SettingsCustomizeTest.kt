@@ -85,6 +85,14 @@ junit4
 .
 AndroidComposeTestRule
 import
+androidx
+.
+test
+.
+filters
+.
+SdkSuppress
+import
 org
 .
 junit
@@ -508,6 +516,12 @@ cases
 view
 /
 1058682
+SdkSuppress
+(
+maxSdkVersion
+=
+30
+)
 Test
 fun
 turnOffSwipeToSwitchTabsPreferenceTest
