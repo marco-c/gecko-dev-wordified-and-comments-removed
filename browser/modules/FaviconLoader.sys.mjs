@@ -3119,12 +3119,6 @@ iconInfo
 iconUri
 .
 spec
-canUseForTab
-:
-!
-iconInfo
-.
-isRichIcon
 expiration
 :
 undefined
@@ -3201,9 +3195,8 @@ iconInfo
 iconUri
 .
 spec
-canUseForTab
+isRichIcon
 :
-!
 iconInfo
 .
 isRichIcon
@@ -3264,12 +3257,6 @@ iconInfo
 iconUri
 .
 spec
-canUseForTab
-:
-!
-iconInfo
-.
-isRichIcon
 expiration
 iconURL
 :
@@ -3361,9 +3348,8 @@ iconInfo
 iconUri
 .
 spec
-canUseForTab
+isRichIcon
 :
-!
 iconInfo
 .
 isRichIcon
