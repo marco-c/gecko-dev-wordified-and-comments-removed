@@ -52137,6 +52137,15 @@ value
 :
 true
 #
+elif
+defined
+(
+MOZ_X11
+)
+value
+:
+IS_NIGHTLY_BUILD
+#
 else
 value
 :
