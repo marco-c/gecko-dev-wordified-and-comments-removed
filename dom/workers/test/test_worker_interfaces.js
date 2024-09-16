@@ -594,7 +594,7 @@ SharedArrayBuffer
 insecureContext
 :
 true
-crossOringinIsolated
+crossOriginIsolated
 :
 true
 }
@@ -2615,7 +2615,7 @@ isEarlyBetaOrEarlier
 |
 entry
 .
-crossOringinIsolated
+crossOriginIsolated
 =
 =
 =
