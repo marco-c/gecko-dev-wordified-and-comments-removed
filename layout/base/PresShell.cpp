@@ -58184,13 +58184,6 @@ element
 DOMIntersectionObserver
 :
 :
-BoxToUse
-:
-:
-OverflowClip
-DOMIntersectionObserver
-:
-:
 IsForProximityToViewport
 :
 :
