@@ -5783,7 +5783,7 @@ s
 specified
 :
 :
-LengthPercentageOrAuto
+Inset
 :
 :
 parse
@@ -5854,7 +5854,7 @@ end
 specified
 :
 :
-LengthPercentageOrAuto
+Inset
 :
 :
 parse
@@ -5922,7 +5922,7 @@ end
 specified
 :
 :
-LengthPercentageOrAuto
+Inset
 :
 :
 parse
