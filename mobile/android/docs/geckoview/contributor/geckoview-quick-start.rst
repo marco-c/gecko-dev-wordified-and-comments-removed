@@ -2885,9 +2885,7 @@ code
 :
 bash
 cd
-<
 path_of_javadoc_from_above
->
 Now
 we
 want

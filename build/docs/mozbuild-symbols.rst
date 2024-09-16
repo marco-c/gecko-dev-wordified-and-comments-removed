@@ -55,6 +55,15 @@ Symbols
 =
 .
 .
+rstcheck
+:
+ignore
+-
+directives
+=
+mozbuildsymbols
+.
+.
 mozbuildsymbols
 :
 :

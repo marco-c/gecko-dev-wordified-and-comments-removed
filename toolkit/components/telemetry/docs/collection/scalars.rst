@@ -1348,6 +1348,15 @@ structure
 :
 .
 .
+rstcheck
+:
+ignore
+-
+languages
+=
+yaml
+.
+.
 code
 -
 block
