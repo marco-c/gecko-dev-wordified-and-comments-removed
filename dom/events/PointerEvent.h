@@ -322,6 +322,11 @@ double
 >
 mAzimuthAngle
 ;
+bool
+mCoalescedOrPredictedEvent
+=
+false
+;
 }
 ;
 void

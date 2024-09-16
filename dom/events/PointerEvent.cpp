@@ -1905,6 +1905,13 @@ event
 domEvent
 -
 >
+mCoalescedOrPredictedEvent
+=
+true
+;
+domEvent
+-
+>
 mEvent
 -
 >
@@ -2094,6 +2101,9 @@ IsEmpty
 (
 )
 )
+|
+|
+mCoalescedOrPredictedEvent
 )
 {
 return
