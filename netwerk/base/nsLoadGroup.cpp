@@ -2660,6 +2660,12 @@ NS_SUCCEEDED
 (
 aStatus
 )
+&
+&
+request
+!
+=
+mDefaultLoadRequest
 )
 {
 nsCOMPtr
