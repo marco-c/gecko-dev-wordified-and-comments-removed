@@ -431,7 +431,9 @@ InstanceRequestAdapter
 GPURequestAdapterOptions
 options
 RawId
-aAdapterId
+[
+]
+ids
 )
 returns
 (
