@@ -8364,9 +8364,6 @@ FirefoxTheme
 {
 Column
 {
-Divider
-(
-)
 if
 (
 !
@@ -8411,6 +8408,9 @@ updateBrowserToolbarForMicrosurveyPrompt
 browserToolbar
 )
 }
+Divider
+(
+)
 MicrosurveyRequestPrompt
 (
 microsurvey
@@ -9511,9 +9511,6 @@ FirefoxTheme
 {
 Column
 {
-Divider
-(
-)
 val
 activity
 =
@@ -9547,6 +9544,9 @@ updateBrowserToolbarForMicrosurveyPrompt
 browserToolbar
 )
 }
+Divider
+(
+)
 MicrosurveyRequestPrompt
 (
 microsurvey
