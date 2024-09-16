@@ -1285,9 +1285,14 @@ evalType
 =
 =
 INDIRECT_EVAL
-IsGlobalLexicalEnvironment
-(
 env
+-
+>
+is
+<
+GlobalLexicalEnvironmentObject
+>
+(
 )
 )
 ;
