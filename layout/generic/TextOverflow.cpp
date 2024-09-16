@@ -1157,7 +1157,7 @@ foregroundColor
 nsLayoutUtils
 :
 :
-GetColor
+GetTextColor
 (
 mFrame
 &

@@ -3585,7 +3585,7 @@ S
 >
 static
 nscolor
-GetColor
+GetTextColor
 (
 Frame
 *

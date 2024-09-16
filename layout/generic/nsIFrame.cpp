@@ -13218,7 +13218,7 @@ return
 nsLayoutUtils
 :
 :
-GetColor
+GetTextColor
 (
 this
 &

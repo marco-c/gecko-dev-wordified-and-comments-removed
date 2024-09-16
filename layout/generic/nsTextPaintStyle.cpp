@@ -436,7 +436,7 @@ return
 nsLayoutUtils
 :
 :
-GetColor
+GetTextColor
 (
 mFrame
 &
@@ -475,7 +475,7 @@ return
 nsLayoutUtils
 :
 :
-GetColor
+GetTextColor
 (
 mFrame
 &
