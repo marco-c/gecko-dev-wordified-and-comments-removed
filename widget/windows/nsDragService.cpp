@@ -1523,6 +1523,7 @@ mDataTransfer
 {
 if
 (
+!
 mozilla
 :
 :
