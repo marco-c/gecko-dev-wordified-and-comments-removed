@@ -85,11 +85,6 @@ DOMMutationBreakpoints
 js
 "
 "
-EventListeners
-.
-js
-"
-"
 Expressions
 .
 js

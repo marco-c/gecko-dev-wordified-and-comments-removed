@@ -20,7 +20,18 @@ updateBreakpoints
 (
 dispatch
 client
+panelKey
 newEvents
+)
+{
+if
+(
+panelKey
+=
+=
+"
+breakpoint
+"
 )
 {
 await
@@ -31,6 +42,7 @@ setEventListenerBreakpoints
 newEvents
 )
 ;
+}
 dispatch
 (
 {
@@ -39,6 +51,7 @@ type
 "
 UPDATE_EVENT_LISTENERS
 "
+panelKey
 active
 :
 newEvents
@@ -51,6 +64,7 @@ function
 updateExpanded
 (
 dispatch
+panelKey
 newExpanded
 )
 {
@@ -62,6 +76,7 @@ type
 "
 UPDATE_EVENT_LISTENER_EXPANDED
 "
+panelKey
 expanded
 :
 newExpanded
@@ -73,6 +88,7 @@ export
 function
 addEventListenerBreakpoints
 (
+panelKey
 eventsToAdd
 )
 {
@@ -91,12 +107,12 @@ getState
 const
 activeListenerBreakpoints
 =
-await
 getActiveEventListeners
 (
 getState
 (
 )
+panelKey
 )
 ;
 const
@@ -127,6 +143,7 @@ updateBreakpoints
 (
 dispatch
 client
+panelKey
 newEvents
 )
 ;
@@ -137,6 +154,7 @@ export
 function
 removeEventListenerBreakpoints
 (
+panelKey
 eventsToRemove
 )
 {
@@ -155,12 +173,12 @@ getState
 const
 activeListenerBreakpoints
 =
-await
 getActiveEventListeners
 (
 getState
 (
 )
+panelKey
 )
 ;
 const
@@ -187,6 +205,7 @@ updateBreakpoints
 (
 dispatch
 client
+panelKey
 newEvents
 )
 ;
@@ -249,6 +268,7 @@ export
 function
 addEventListenerExpanded
 (
+panelKey
 category
 )
 {
@@ -272,6 +292,7 @@ getEventListenerExpanded
 getState
 (
 )
+panelKey
 )
 ;
 const
@@ -298,6 +319,7 @@ await
 updateExpanded
 (
 dispatch
+panelKey
 newExpanded
 )
 ;
@@ -308,6 +330,7 @@ export
 function
 removeEventListenerExpanded
 (
+panelKey
 category
 )
 {
@@ -331,6 +354,7 @@ getEventListenerExpanded
 getState
 (
 )
+panelKey
 )
 ;
 const
@@ -352,6 +376,7 @@ category
 updateExpanded
 (
 dispatch
+panelKey
 newExpanded
 )
 ;
