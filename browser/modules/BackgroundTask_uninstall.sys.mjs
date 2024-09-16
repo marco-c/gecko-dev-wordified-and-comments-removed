@@ -225,6 +225,7 @@ files
 ;
 try
 {
+await
 Cc
 [
 "
