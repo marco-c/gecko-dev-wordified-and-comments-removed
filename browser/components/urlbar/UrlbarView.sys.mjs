@@ -3516,6 +3516,16 @@ searchMode
 =
 null
 ;
+this
+.
+window
+.
+gBrowser
+.
+userTypedValue
+=
+null
+;
 }
 this
 .
