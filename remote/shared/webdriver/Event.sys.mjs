@@ -462,7 +462,7 @@ win
 *
 *
 *
-Synthesise
+Synthesize
 a
 touch
 event
