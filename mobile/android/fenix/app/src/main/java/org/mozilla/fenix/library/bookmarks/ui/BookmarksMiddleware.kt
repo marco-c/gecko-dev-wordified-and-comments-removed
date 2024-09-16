@@ -523,6 +523,10 @@ null
 )
 }
 is
+BookmarkLongClicked
+is
+FolderLongClicked
+is
 BookmarksLoaded
 -
 >
@@ -637,6 +641,11 @@ node
 url
 !
 !
+guid
+=
+node
+.
+guid
 )
 BookmarkNodeType
 .
