@@ -5790,6 +5790,17 @@ stubOffset
 (
 )
 ;
+(
+void
+)
+icregs
+.
+cacheIRReader
+.
+stubOffset
+(
+)
+;
 uint32_t
 expected
 =
