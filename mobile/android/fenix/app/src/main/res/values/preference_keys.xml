@@ -5644,7 +5644,7 @@ string
 name
 =
 "
-pref_key_open_next_tab_desktop_mode_is_tablet
+pref_key_open_next_tab_desktop_mode
 "
 translatable
 =
@@ -5652,7 +5652,7 @@ translatable
 false
 "
 >
-pref_key_open_next_tab_desktop_mode_is_tablet
+pref_key_open_next_tab_desktop_mode
 <
 /
 string
