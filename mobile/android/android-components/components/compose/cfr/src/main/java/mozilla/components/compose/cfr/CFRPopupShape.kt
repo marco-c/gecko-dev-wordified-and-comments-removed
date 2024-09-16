@@ -597,7 +597,7 @@ height
 -
 cornerRadiusPx
 )
-quadraticBezierTo
+quadraticTo
 (
 0f
 size
@@ -619,7 +619,7 @@ size
 .
 height
 )
-quadraticBezierTo
+quadraticTo
 (
 size
 .
@@ -655,7 +655,7 @@ cornerRadiusPx
 +
 indicatorArrowHeightPx
 )
-quadraticBezierTo
+quadraticTo
 (
 size
 .
@@ -694,7 +694,7 @@ lineTo
 indicatorCornerRadiusPx
 indicatorArrowHeightPx
 )
-quadraticBezierTo
+quadraticTo
 (
 0f
 indicatorArrowHeightPx
@@ -715,7 +715,7 @@ indicatorCornerRadiusPx
 +
 indicatorArrowHeightPx
 )
-quadraticBezierTo
+quadraticTo
 (
 size
 .
@@ -762,7 +762,7 @@ lineTo
 cornerRadiusPx
 indicatorArrowHeightPx
 )
-quadraticBezierTo
+quadraticTo
 (
 0f
 indicatorArrowHeightPx
@@ -826,7 +826,7 @@ messageBodyHeightPx
 -
 indicatorCornerRadiusPx
 )
-quadraticBezierTo
+quadraticTo
 (
 0f
 size
@@ -873,7 +873,7 @@ width
 cornerRadiusPx
 messageBodyHeightPx
 )
-quadraticBezierTo
+quadraticTo
 (
 size
 .
@@ -896,7 +896,7 @@ messageBodyHeightPx
 -
 cornerRadiusPx
 )
-quadraticBezierTo
+quadraticTo
 (
 0f
 messageBodyHeightPx
@@ -945,7 +945,7 @@ width
 indicatorCornerRadiusPx
 messageBodyHeightPx
 )
-quadraticBezierTo
+quadraticTo
 (
 size
 .
@@ -966,7 +966,7 @@ size
 width
 cornerRadiusPx
 )
-quadraticBezierTo
+quadraticTo
 (
 size
 .
@@ -984,7 +984,7 @@ lineTo
 cornerRadiusPx
 0f
 )
-quadraticBezierTo
+quadraticTo
 (
 0f
 0f
