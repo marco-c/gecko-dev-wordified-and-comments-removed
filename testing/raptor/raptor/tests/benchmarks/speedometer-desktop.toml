@@ -19,6 +19,9 @@ custom
 -
 car
 "
+gather_cpuTime
+=
+true
 gecko_profile_interval
 =
 1
