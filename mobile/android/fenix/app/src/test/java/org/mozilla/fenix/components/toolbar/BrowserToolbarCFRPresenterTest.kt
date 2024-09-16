@@ -3260,6 +3260,12 @@ shouldShowTabletNavigationCFR
 }
 returns
 true
+every
+{
+navigationToolbarEnabled
+}
+returns
+true
 }
 )
 presenter
