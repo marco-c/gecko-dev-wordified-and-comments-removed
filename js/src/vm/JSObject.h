@@ -3465,7 +3465,8 @@ propp
 )
 ;
 extern
-bool
+JSObject
+*
 LookupNameWithGlobalDefault
 (
 JSContext
@@ -3478,13 +3479,12 @@ PropertyName
 >
 name
 HandleObject
-scopeChain
-MutableHandleObject
-objp
+envChain
 )
 ;
 extern
-bool
+JSObject
+*
 LookupNameUnqualified
 (
 JSContext
@@ -3497,9 +3497,7 @@ PropertyName
 >
 name
 HandleObject
-scopeChain
-MutableHandleObject
-objp
+envChain
 )
 ;
 }
