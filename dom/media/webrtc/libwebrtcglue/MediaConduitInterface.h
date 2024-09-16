@@ -320,9 +320,13 @@ const
 webrtc
 :
 :
-VideoFrame
+VideoFrameBuffer
 &
-video_frame
+buffer
+uint32_t
+time_stamp
+int64_t
+render_time
 )
 =
 0

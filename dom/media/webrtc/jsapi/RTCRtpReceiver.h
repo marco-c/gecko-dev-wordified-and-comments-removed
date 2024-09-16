@@ -186,9 +186,6 @@ class
 RTCRtpScriptTransform
 ;
 class
-RTCStatsTimestampMaker
-;
-class
 RTCRtpReceiver
 :
 public
@@ -797,14 +794,6 @@ return
 mFrameTransformerProxy
 ;
 }
-const
-RTCStatsTimestampMaker
-*
-GetTimestampMaker
-(
-)
-const
-;
 private
 :
 virtual
