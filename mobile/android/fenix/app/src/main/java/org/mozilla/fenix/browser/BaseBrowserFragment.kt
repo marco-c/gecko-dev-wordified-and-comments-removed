@@ -12672,6 +12672,7 @@ isVisible
 true
 reinitializeEngineView
 (
+false
 )
 browserToolbarView
 .
@@ -12885,10 +12886,9 @@ internal
 fun
 reinitializeEngineView
 (
-)
-{
-val
 isFullscreen
+:
+Boolean
 =
 fullScreenFeature
 .
@@ -12901,6 +12901,8 @@ isFullScreen
 =
 =
 true
+)
+{
 val
 topToolbarHeight
 =
