@@ -2433,6 +2433,13 @@ search
 .
 selectedOrDefaultSearchEngine
 searchAccessPoint
+activity
+.
+components
+.
+nimbus
+.
+events
 )
 }
 if

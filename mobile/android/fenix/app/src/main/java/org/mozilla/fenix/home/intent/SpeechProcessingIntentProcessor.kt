@@ -373,6 +373,13 @@ MetricsUtils
 Source
 .
 WIDGET
+activity
+.
+components
+.
+nimbus
+.
+events
 )
 }
 activity
