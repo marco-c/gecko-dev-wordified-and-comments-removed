@@ -80,6 +80,13 @@ js
 ]
 [
 "
+test_quicksuggest_exposures
+.
+js
+"
+]
+[
+"
 test_quicksuggest_fakespot
 .
 js
