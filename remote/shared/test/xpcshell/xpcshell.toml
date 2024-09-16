@@ -17,13 +17,6 @@ js
 ]
 [
 "
-test_AsyncQueue
-.
-js
-"
-]
-[
-"
 test_ChallengeHeaderParser
 .
 js
