@@ -165,9 +165,6 @@ passwordmgr
 pdfjs
 "
 "
-pictureinpicture
-"
-"
 places
 "
 "
@@ -306,6 +303,9 @@ aboutconfig
 "
 "
 narrate
+"
+"
+pictureinpicture
 "
 "
 reader
