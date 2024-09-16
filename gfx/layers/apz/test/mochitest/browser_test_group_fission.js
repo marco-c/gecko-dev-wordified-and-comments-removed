@@ -165,15 +165,6 @@ false
 file
 :
 "
-helper_fission_animation_styling_in_oopif
-.
-html
-"
-}
-{
-file
-:
-"
 helper_fission_force_empty_hit_region
 .
 html
