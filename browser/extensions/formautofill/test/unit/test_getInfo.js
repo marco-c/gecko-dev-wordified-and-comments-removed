@@ -756,7 +756,8 @@ targetElement
 expectedReturnValue
 :
 [
-null
+[
+]
 null
 null
 ]
@@ -892,7 +893,8 @@ targetElement
 expectedReturnValue
 :
 [
-null
+[
+]
 null
 null
 ]
@@ -1728,7 +1730,8 @@ null
 ]
 :
 [
-null
+[
+]
 null
 null
 ]
@@ -1870,7 +1873,8 @@ let
 expected
 =
 [
-null
+[
+]
 null
 null
 ]
@@ -2137,7 +2141,8 @@ let
 expected
 =
 [
-null
+[
+]
 null
 null
 ]
