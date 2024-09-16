@@ -14799,7 +14799,7 @@ IntrinsicISizeType
 MinISize
 aInput
 .
-mPercentageBasis
+mPercentageBasisForChildren
 )
 ;
 bool

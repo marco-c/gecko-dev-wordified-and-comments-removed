@@ -1433,7 +1433,7 @@ Maybe
 <
 LogicalSize
 >
-mPercentageBasis
+mPercentageBasisForChildren
 ;
 IntrinsicSizeInput
 (
@@ -1446,16 +1446,16 @@ Maybe
 LogicalSize
 >
 &
-aPercentageBasis
+aPercentageBasisForChildren
 )
 :
 mContext
 (
 aContext
 )
-mPercentageBasis
+mPercentageBasisForChildren
 (
-aPercentageBasis
+aPercentageBasisForChildren
 )
 {
 MOZ_ASSERT
@@ -1489,7 +1489,7 @@ aSource
 mContext
 aSource
 .
-mPercentageBasis
+mPercentageBasisForChildren
 .
 map
 (

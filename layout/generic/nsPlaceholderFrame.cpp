@@ -300,7 +300,7 @@ mOutOfFlowFrame
 aType
 floatInput
 .
-mPercentageBasis
+mPercentageBasisForChildren
 )
 ;
 aData

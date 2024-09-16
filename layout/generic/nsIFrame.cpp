@@ -28553,7 +28553,7 @@ IntrinsicISizeType
 MinISize
 aInput
 .
-mPercentageBasis
+mPercentageBasisForChildren
 )
 ;
 aData
@@ -28602,7 +28602,7 @@ IntrinsicISizeType
 PrefISize
 aInput
 .
-mPercentageBasis
+mPercentageBasisForChildren
 )
 ;
 aData

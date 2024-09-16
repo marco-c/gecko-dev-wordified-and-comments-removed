@@ -26148,7 +26148,7 @@ childFrame
 aType
 childInput
 .
-mPercentageBasis
+mPercentageBasisForChildren
 )
 ;
 bool
