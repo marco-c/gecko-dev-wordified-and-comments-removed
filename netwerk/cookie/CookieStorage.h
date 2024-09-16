@@ -441,6 +441,10 @@ const
 nsACString
 &
 aPath
+const
+nsID
+*
+aOperationID
 )
 ;
 virtual
@@ -511,6 +515,12 @@ bool
 aOldCookieIsSession
 =
 false
+const
+nsID
+*
+aOperationID
+=
+nullptr
 )
 ;
 void
@@ -549,6 +559,12 @@ dom
 BrowsingContext
 *
 aBrowsingContext
+const
+nsID
+*
+aOperationID
+=
+nullptr
 )
 ;
 bool
