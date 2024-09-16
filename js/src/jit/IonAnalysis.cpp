@@ -17008,6 +17008,12 @@ MIRType
 :
 Int64
 :
+case
+MIRType
+:
+:
+IntPtr
+:
 return
 true
 ;
@@ -17058,12 +17064,6 @@ MIRType
 :
 :
 StackResults
-:
-case
-MIRType
-:
-:
-IntPtr
 :
 return
 false
