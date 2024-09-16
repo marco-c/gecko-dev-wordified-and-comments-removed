@@ -2857,13 +2857,6 @@ return
 1
 ;
 }
-NSS_SetAlgorithmPolicy
-(
-SEC_OID_XYBER768D00
-NSS_USE_ALG_IN_SSL_KX
-0
-)
-;
 if
 (
 SSL_ConfigServerSessionIDCache

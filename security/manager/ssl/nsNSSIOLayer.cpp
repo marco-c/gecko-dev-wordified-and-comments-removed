@@ -2035,7 +2035,7 @@ HasTls13HandshakeSecrets
 socketInfo
 -
 >
-SentXyberShare
+SentMlkemShare
 (
 )
 )
@@ -7650,7 +7650,7 @@ namedGroups
 ]
 =
 {
-ssl_grp_kem_xyber768d00
+ssl_grp_kem_mlkem768x25519
 ssl_grp_ec_curve25519
 ssl_grp_ec_secp256r1
 ssl_grp_ec_secp384r1
@@ -7690,7 +7690,7 @@ additional_shares
 infoObject
 -
 >
-WillSendXyberShare
+WillSendMlkemShare
 (
 )
 ;

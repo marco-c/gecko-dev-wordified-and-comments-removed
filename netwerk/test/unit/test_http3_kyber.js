@@ -333,7 +333,7 @@ listener
 expectedKeaGroup
 =
 "
-xyber768d00
+x25519
 "
 ;
 let

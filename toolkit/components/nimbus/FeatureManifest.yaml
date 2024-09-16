@@ -21636,7 +21636,7 @@ hasExposure
 false
 variables
 :
-tlsEnableXyber
+tlsEnableMlkem
 :
 type
 :
@@ -21660,11 +21660,11 @@ description
 Whether
 to
 enable
-Xyber768
+mlkem768x25519
 for
 TLS
 .
-h3EnableXyber
+h3EnableMlkem
 :
 type
 :
@@ -21690,7 +21690,7 @@ description
 Whether
 to
 enable
-Xyber768
+mlkem768x25519
 for
 H3
 /
