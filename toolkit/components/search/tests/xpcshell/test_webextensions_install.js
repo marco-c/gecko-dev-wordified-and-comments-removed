@@ -635,7 +635,7 @@ favicon_url
 gHttpURL
 }
 /
-data
+sjs
 /
 iconsRedirect
 .
@@ -753,7 +753,7 @@ favicon_url
 gHttpURL
 }
 /
-data
+sjs
 /
 iconsRedirect
 .
