@@ -10627,7 +10627,7 @@ cond
 Overflow
 )
 ;
-negPtr
+negs64
 (
 reg
 )
