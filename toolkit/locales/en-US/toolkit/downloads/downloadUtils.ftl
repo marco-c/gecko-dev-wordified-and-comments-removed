@@ -83,7 +83,10 @@ short
 seconds
 =
 {
+NUMBER
+(
 timeValue
+)
 -
 >
 [
@@ -110,7 +113,10 @@ short
 minutes
 =
 {
+NUMBER
+(
 timeValue
+)
 -
 >
 [
@@ -137,7 +143,10 @@ short
 hours
 =
 {
+NUMBER
+(
 timeValue
+)
 -
 >
 [
@@ -164,7 +173,10 @@ short
 days
 =
 {
+NUMBER
+(
 timeValue
+)
 -
 >
 [

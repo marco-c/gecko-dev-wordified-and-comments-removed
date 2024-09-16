@@ -393,7 +393,10 @@ matches
 value
 =
 {
+NUMBER
+(
 total
+)
 -
 >
 [
@@ -451,7 +454,10 @@ limit
 value
 =
 {
+NUMBER
+(
 limit
+)
 -
 >
 [

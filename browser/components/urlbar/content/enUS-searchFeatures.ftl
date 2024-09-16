@@ -1834,7 +1834,10 @@ total
 reviews
 =
 {
+NUMBER
+(
 totalReviews
+)
 -
 >
 [
@@ -1898,7 +1901,10 @@ reviews
 overflow
 =
 {
+NUMBER
+(
 totalReviews
+)
 -
 >
 [

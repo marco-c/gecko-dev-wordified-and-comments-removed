@@ -277,7 +277,10 @@ issue
 occurrences
 =
 {
+NUMBER
+(
 number
+)
 -
 >
 [

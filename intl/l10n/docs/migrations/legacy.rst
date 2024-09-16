@@ -3516,7 +3516,10 @@ ok
 button
 =
 {
+NUMBER
+(
 tabCount
+)
 -
 >
 [
@@ -3827,7 +3830,10 @@ pages
 label
 =
 {
+NUMBER
+(
 tabCount
+)
 -
 >
 [
@@ -4219,7 +4225,10 @@ pages
 label
 =
 {
+NUMBER
+(
 tabCount
+)
 -
 >
 [

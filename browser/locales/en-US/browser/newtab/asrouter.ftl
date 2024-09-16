@@ -437,7 +437,10 @@ rating
 tooltiptext
 =
 {
+NUMBER
+(
 total
+)
 -
 >
 [
@@ -486,7 +489,10 @@ total
 users
 =
 {
+NUMBER
+(
 total
+)
 -
 >
 [
@@ -731,7 +737,10 @@ milestone
 heading2
 =
 {
+NUMBER
+(
 blockedCount
+)
 -
 >
 *

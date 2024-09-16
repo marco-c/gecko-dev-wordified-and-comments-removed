@@ -776,7 +776,10 @@ passwords
 count
 =
 {
+NUMBER
+(
 count
+)
 -
 >
 [
@@ -824,7 +827,10 @@ filtered
 count
 =
 {
+NUMBER
+(
 total
+)
 -
 >
 [
@@ -878,7 +884,10 @@ all
 title
 =
 {
+NUMBER
+(
 total
+)
 -
 >
 [
@@ -931,7 +940,10 @@ all
 confirm
 =
 {
+NUMBER
+(
 total
+)
 -
 >
 [
@@ -996,7 +1008,10 @@ all
 message
 =
 {
+NUMBER
+(
 total
+)
 -
 >
 [
@@ -1255,7 +1270,10 @@ filtered
 count
 =
 {
+NUMBER
+(
 total
+)
 -
 >
 [
@@ -1370,7 +1388,10 @@ addresses
 count
 =
 {
+NUMBER
+(
 count
+)
 -
 >
 [
@@ -1418,7 +1439,10 @@ filtered
 count
 =
 {
+NUMBER
+(
 total
+)
 -
 >
 [

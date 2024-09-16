@@ -77,7 +77,10 @@ long
 prompt
 =
 {
+NUMBER
+(
 retriesLeft
+)
 -
 >
 [
@@ -252,7 +255,10 @@ long
 prompt
 =
 {
+NUMBER
+(
 retriesLeft
+)
 -
 >
 [

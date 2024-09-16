@@ -794,7 +794,10 @@ histogram
 stats
 =
 {
+NUMBER
+(
 sampleCount
+)
 -
 >
 [

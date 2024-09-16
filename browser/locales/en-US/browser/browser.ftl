@@ -2749,7 +2749,10 @@ remove
 label
 =
 {
+NUMBER
+(
 count
+)
 -
 >
 [
@@ -4000,7 +4003,10 @@ tab
 mute
 =
 {
+NUMBER
+(
 count
+)
 -
 >
 [
@@ -4025,7 +4031,10 @@ tab
 unmute
 =
 {
+NUMBER
+(
 count
+)
 -
 >
 [
@@ -4050,7 +4059,10 @@ tab
 unblock
 =
 {
+NUMBER
+(
 count
+)
 -
 >
 [
@@ -8871,7 +8883,10 @@ warning
 message
 =
 {
+NUMBER
+(
 popupCount
+)
 -
 >
 [
@@ -8971,7 +8986,10 @@ exceeded
 message
 =
 {
+NUMBER
+(
 popupCount
+)
 -
 >
 *

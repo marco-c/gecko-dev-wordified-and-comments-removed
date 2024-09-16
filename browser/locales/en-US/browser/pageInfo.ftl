@@ -1002,7 +1002,10 @@ tags
 value
 =
 {
+NUMBER
+(
 tags
+)
 -
 >
 [
@@ -1065,7 +1068,10 @@ visits
 number
 =
 {
+NUMBER
+(
 visits
+)
 -
 >
 [
@@ -1139,7 +1145,10 @@ size
 value
 =
 {
+NUMBER
+(
 bytes
+)
 -
 >
 [
@@ -1229,7 +1238,10 @@ type
 value
 =
 {
+NUMBER
+(
 frames
+)
 -
 >
 [

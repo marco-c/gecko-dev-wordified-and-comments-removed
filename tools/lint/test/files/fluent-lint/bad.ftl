@@ -332,7 +332,10 @@ ignored
 label
 =
 {
+NUMBER
+(
 tabCount
+)
 -
 >
 [

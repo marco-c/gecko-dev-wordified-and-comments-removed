@@ -269,7 +269,10 @@ device
 label
 =
 {
+NUMBER
+(
 tabCount
+)
 -
 >
 [

@@ -2367,7 +2367,10 @@ expand
 button
 =
 {
+NUMBER
+(
 numberToShow
+)
 -
 >
 *
@@ -3249,7 +3252,10 @@ reviews
 link
 =
 {
+NUMBER
+(
 numberOfReviews
+)
 -
 >
 [

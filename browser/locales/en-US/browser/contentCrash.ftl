@@ -221,7 +221,10 @@ reports
 message
 =
 {
+NUMBER
+(
 reportCount
+)
 -
 >
 [

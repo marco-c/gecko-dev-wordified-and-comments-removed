@@ -209,7 +209,10 @@ tabs
 label
 =
 {
+NUMBER
+(
 tabCount
+)
 -
 >
 [

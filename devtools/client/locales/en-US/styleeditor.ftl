@@ -381,7 +381,10 @@ rule
 count
 =
 {
+NUMBER
+(
 ruleCount
+)
 -
 >
 [

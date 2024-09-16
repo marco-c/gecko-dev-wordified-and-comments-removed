@@ -1563,7 +1563,10 @@ not
 downloaded
 =
 {
+NUMBER
+(
 num
+)
 -
 >
 [
@@ -1785,7 +1788,10 @@ more
 downloading
 =
 {
+NUMBER
+(
 count
+)
 -
 >
 [

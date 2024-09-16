@@ -2117,7 +2117,10 @@ results
 count
 =
 {
+NUMBER
+(
 count
+)
 -
 >
 [
