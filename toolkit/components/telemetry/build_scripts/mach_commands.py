@@ -74,10 +74,6 @@ GLEAN_EVENT_TEMPLATE
 "
 "
 "
-{
-category
-}
-:
   
 {
 name
@@ -396,6 +392,17 @@ extra_alias
 =
 "
 "
+            
+print
+(
+f
+"
+{
+category
+}
+:
+"
+)
             
 for
 m
@@ -896,10 +903,6 @@ GLEAN_EVENT_TEMPLATE
 .
 format
 (
-                        
-category
-=
-category
                         
 name
 =
