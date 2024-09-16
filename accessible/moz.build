@@ -178,6 +178,17 @@ tests
 /
 browser
 /
+caching_granularity
+/
+browser
+.
+toml
+"
+"
+tests
+/
+browser
+/
 e10s
 /
 browser
