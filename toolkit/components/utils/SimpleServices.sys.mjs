@@ -122,12 +122,6 @@ startup
 .
 *
 /
-/
-*
-globals
-WebExtensionPolicy
-*
-/
 import
 {
 XPCOMUtils

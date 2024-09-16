@@ -56,12 +56,6 @@ MPL
 .
 *
 /
-/
-*
-global
-ChromeWorker
-*
-/
 let
 MESSAGE_COUNTER
 =
