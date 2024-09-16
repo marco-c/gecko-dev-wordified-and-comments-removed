@@ -3205,6 +3205,8 @@ NULL
 3
 0
 JOF_UINT8
+|
+JOF_USES_ENV
 )
 )
 \
@@ -3220,6 +3222,8 @@ NULL
 0
 1
 JOF_BYTE
+|
+JOF_USES_ENV
 )
 )
 \
