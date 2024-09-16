@@ -467,12 +467,6 @@ cases
 view
 /
 2252514
-SdkSuppress
-(
-maxSdkVersion
-=
-30
-)
 Test
 fun
 pocketDiscoverMoreButtonTest
@@ -488,9 +482,6 @@ isNetworkConnected
 {
 homeScreen
 {
-scrollToPocketProvokingStories
-(
-)
 verifyDiscoverMoreStoriesButton
 (
 )
