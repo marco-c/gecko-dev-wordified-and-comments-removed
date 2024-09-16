@@ -356,6 +356,11 @@ sdk
 globalUserParticipation
 =
 false
+if
+(
+SHOULD_EXIT_APP_AFTER_TURNING_OFF_STUDIES
+)
+{
 Toast
 .
 makeText
@@ -395,6 +400,7 @@ quitTheApp
 }
 EXIT_DELAY
 )
+}
 }
 }
 updateStudiesSection
@@ -791,5 +797,10 @@ val
 EXIT_DELAY
 =
 2000L
+VisibleForTesting
+var
+SHOULD_EXIT_APP_AFTER_TURNING_OFF_STUDIES
+=
+true
 }
 }
