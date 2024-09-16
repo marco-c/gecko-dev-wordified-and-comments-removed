@@ -889,8 +889,8 @@ weatherQuery
 }
 setConfigValue
 (
-name
-value
+configName
+configValue
 )
 {
 this
@@ -913,7 +913,11 @@ data
 :
 {
 name
+:
+configName
 value
+:
+configValue
 }
 }
 )

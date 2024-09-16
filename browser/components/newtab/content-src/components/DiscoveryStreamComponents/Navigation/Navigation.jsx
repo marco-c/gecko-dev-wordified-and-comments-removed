@@ -213,6 +213,8 @@ const
 {
 url
 name
+:
+topicName
 }
 =
 this
@@ -246,7 +248,7 @@ url
 }
 >
 {
-name
+topicName
 }
 <
 /

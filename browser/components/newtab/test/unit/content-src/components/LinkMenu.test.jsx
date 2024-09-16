@@ -1,3 +1,13 @@
+/
+*
+eslint
+-
+disable
+no
+-
+shadow
+*
+/
 import
 {
 ContextMenu

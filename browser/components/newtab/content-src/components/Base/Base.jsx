@@ -1616,6 +1616,8 @@ null
 const
 {
 name
+:
+authorDetails
 webpage
 }
 =
@@ -1631,7 +1633,7 @@ activeWallpaper
 wallpaperList
 &
 &
-name
+authorDetails
 .
 url
 )
@@ -1650,7 +1652,7 @@ attribution
 key
 =
 {
-name
+authorDetails
 .
 string
 }
@@ -1681,12 +1683,12 @@ stringify
 {
 author_string
 :
-name
+authorDetails
 .
 string
 author_url
 :
-name
+authorDetails
 .
 url
 webpage_string
@@ -1719,13 +1721,13 @@ link
 href
 =
 {
-name
+authorDetails
 .
 url
 }
 >
 {
-name
+authorDetails
 .
 string
 }
