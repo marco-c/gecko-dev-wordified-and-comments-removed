@@ -666,6 +666,10 @@ uint8_t
 aChannelIndex
 =
 0
+bool
+aNormalizedUvs
+=
+false
 )
 ;
 void
@@ -748,6 +752,10 @@ uint8_t
 aChannelIndex
 =
 0
+bool
+aNormalizedUvs
+=
+false
 )
 ;
 void
@@ -777,6 +785,10 @@ uint8_t
 aChannelIndex
 =
 0
+bool
+aNormalizedUvs
+=
+false
 )
 ;
 void

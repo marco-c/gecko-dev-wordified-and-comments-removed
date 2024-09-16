@@ -3016,6 +3016,7 @@ descriptor
 aExtID
 imageType
 0
+false
 )
 ;
 }
@@ -3136,6 +3137,7 @@ yDescriptor
 aExtID
 imageType
 0
+false
 )
 ;
 (
@@ -3153,6 +3155,7 @@ cbcrDescriptor
 aExtID
 imageType
 1
+false
 )
 ;
 (
@@ -3170,6 +3173,7 @@ cbcrDescriptor
 aExtID
 imageType
 2
+false
 )
 ;
 }

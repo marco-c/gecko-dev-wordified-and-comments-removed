@@ -1370,6 +1370,9 @@ ExternalImageType
 :
 :
 Buffer
+normalized_uvs
+:
+false
 }
 ;
 txn
