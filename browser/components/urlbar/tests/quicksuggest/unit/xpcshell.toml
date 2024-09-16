@@ -87,6 +87,13 @@ js
 ]
 [
 "
+test_quicksuggest_exposures_locales
+.
+js
+"
+]
+[
+"
 test_quicksuggest_fakespot
 .
 js

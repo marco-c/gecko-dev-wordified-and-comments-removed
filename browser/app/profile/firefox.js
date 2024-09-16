@@ -2760,7 +2760,7 @@ quicksuggest
 .
 shouldShowOnboardingDialog
 "
-true
+false
 )
 ;
 pref

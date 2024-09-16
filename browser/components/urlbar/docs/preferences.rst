@@ -1518,7 +1518,7 @@ shouldShowOnboardingDialog
 boolean
 default
 :
-true
+false
 )
 Whether
 to
