@@ -191,7 +191,11 @@ pwd
 )
 TEST_TIME
 =
-30
+600
+export
+RUN_BACKGROUND
+=
+True
 bash
 SCRIPT_DIR
 /
@@ -227,7 +231,7 @@ SCRIPT_DIR
 /
 test
 -
-background
+android
 -
 resource
 -
@@ -303,3 +307,4 @@ parse_resource_usage
 py
 TESTING_DIR
 BROWSER_BINARY
+RUN_BACKGROUND

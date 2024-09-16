@@ -1191,6 +1191,22 @@ args
 ]
 )
     
+run_background
+=
+True
+if
+args
+[
+2
+]
+=
+=
+"
+True
+"
+else
+False
+    
 cpu_info_files
 =
 sorted
@@ -1557,6 +1573,8 @@ items
         
 if
 base_measures
+and
+run_background
 :
             
 if
