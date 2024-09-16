@@ -253,6 +253,13 @@ html
 ]
 [
 "
+test_panel_item_checkbox
+.
+html
+"
+]
+[
+"
 test_panel_list_accessibility
 .
 html
