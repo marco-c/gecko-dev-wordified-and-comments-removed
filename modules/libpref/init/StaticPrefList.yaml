@@ -18783,6 +18783,12 @@ defined
 (
 MOZ_UBSAN
 )
+|
+|
+defined
+(
+MOZ_PROFILE_GENERATE
+)
 value
 :
 false
