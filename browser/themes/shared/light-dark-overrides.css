@@ -98,7 +98,9 @@ var
 -
 button
 -
-bgcolor
+background
+-
+color
 )
 ;
 -
@@ -117,9 +119,11 @@ var
 -
 button
 -
-hover
+background
 -
-bgcolor
+color
+-
+hover
 )
 ;
 }

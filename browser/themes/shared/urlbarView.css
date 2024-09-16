@@ -3900,7 +3900,9 @@ var
 -
 button
 -
-bgcolor
+background
+-
+color
 )
 ;
 .
@@ -4255,7 +4257,9 @@ var
 -
 button
 -
-bgcolor
+background
+-
+color
 )
 ;
 }

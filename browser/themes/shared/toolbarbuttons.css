@@ -126,9 +126,11 @@ var
 -
 button
 -
-hover
+background
 -
-bgcolor
+color
+-
+hover
 )
 ;
 -
@@ -145,9 +147,11 @@ var
 -
 button
 -
-active
+background
 -
-bgcolor
+color
+-
+active
 )
 ;
 -
