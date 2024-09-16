@@ -75,6 +75,13 @@ js
 ]
 [
 "
+browser_sma_bookmark_current_tab_confirmation_hint
+.
+js
+"
+]
+[
+"
 browser_sma_cfrmessageprovider
 .
 js
