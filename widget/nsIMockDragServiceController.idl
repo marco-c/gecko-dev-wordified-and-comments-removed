@@ -177,7 +177,7 @@ eDragEnter
 eDragOver
 =
 1
-eDragLeave
+eDragExit
 =
 2
 eDrop
