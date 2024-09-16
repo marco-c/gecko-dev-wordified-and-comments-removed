@@ -1891,13 +1891,8 @@ GetValueAsDecimal
 )
 ;
 }
-const
 nsRect
-rangeContentRect
-=
-GetContentRectRelativeToSelf
-(
-)
+rangeRect
 ;
 nsSize
 thumbSize
@@ -1909,6 +1904,12 @@ IsThemed
 )
 )
 {
+rangeRect
+=
+GetRectRelativeToSelf
+(
+)
+;
 nsPresContext
 *
 pc
@@ -2000,6 +2001,12 @@ space
 }
 else
 {
+rangeRect
+=
+GetContentRectRelativeToSelf
+(
+)
+;
 nsIFrame
 *
 thumbFrame
@@ -2040,7 +2047,7 @@ IsHorizontal
 nscoord
 traversableDistance
 =
-rangeContentRect
+rangeRect
 .
 width
 -
@@ -2063,7 +2070,7 @@ minimum
 nscoord
 posAtStart
 =
-rangeContentRect
+rangeRect
 .
 x
 +
@@ -2132,7 +2139,7 @@ else
 nscoord
 traversableDistance
 =
-rangeContentRect
+rangeRect
 .
 height
 -
@@ -2155,7 +2162,7 @@ minimum
 nscoord
 posAtStart
 =
-rangeContentRect
+rangeRect
 .
 y
 +
