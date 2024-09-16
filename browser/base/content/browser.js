@@ -25541,7 +25541,6 @@ false
 function
 warnAboutClosingWindow
 (
-source
 )
 {
 let
@@ -25587,7 +25586,6 @@ gBrowser
 closingTabsEnum
 .
 ALL
-source
 )
 ;
 }
@@ -25755,7 +25753,6 @@ gBrowser
 closingTabsEnum
 .
 ALL
-source
 )
 )
 ;
@@ -25864,7 +25861,6 @@ gBrowser
 closingTabsEnum
 .
 ALL
-source
 )
 )
 ;
