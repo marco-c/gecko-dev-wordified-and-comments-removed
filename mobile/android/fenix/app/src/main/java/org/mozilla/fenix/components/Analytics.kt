@@ -818,6 +818,16 @@ context
 components
 .
 notificationsDelegate
+useLegacyReporting
+=
+!
+context
+.
+settings
+(
+)
+.
+useNewCrashReporter
 )
 }
 val
