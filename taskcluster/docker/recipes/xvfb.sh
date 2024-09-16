@@ -189,6 +189,8 @@ Xvfb
 nolisten
 tcp
 -
+noreset
+-
 screen
 0
 1
