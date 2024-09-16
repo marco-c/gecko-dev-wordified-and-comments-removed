@@ -49,6 +49,9 @@ class
 CookieStoreChild
 ;
 class
+CookieStoreNotificationWatcherWrapper
+;
+class
 CookieStoreNotifier
 ;
 class
@@ -298,6 +301,12 @@ RefPtr
 CookieStoreNotifier
 >
 mNotifier
+;
+RefPtr
+<
+CookieStoreNotificationWatcherWrapper
+>
+mNotificationWatcher
 ;
 }
 ;
