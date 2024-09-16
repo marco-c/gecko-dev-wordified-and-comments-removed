@@ -378,21 +378,6 @@ to
 "
 "
     
-if
-not
-pdf_info
-.
-get
-(
-"
-talos
-"
-True
-)
-:
-        
-return
-    
 pdf_file
 =
 pdf_info
