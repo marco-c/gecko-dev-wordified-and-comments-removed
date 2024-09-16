@@ -4179,7 +4179,7 @@ PointerEvents
 )
 {
 return
-0
+SPOOFED_MAX_TOUCH_POINTS
 ;
 }
 nsCOMPtr

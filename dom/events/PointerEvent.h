@@ -263,6 +263,10 @@ private
 bool
 ShouldResistFingerprinting
 (
+bool
+aForPointerId
+=
+false
 )
 const
 ;

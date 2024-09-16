@@ -189,6 +189,10 @@ Win64
 x64
 "
 #
+define
+SPOOFED_MAX_TOUCH_POINTS
+10
+#
 elif
 defined
 (
@@ -232,6 +236,10 @@ X
 15
 "
 #
+define
+SPOOFED_MAX_TOUCH_POINTS
+0
+#
 elif
 defined
 (
@@ -266,6 +274,10 @@ Linux
 armv81
 "
 #
+define
+SPOOFED_MAX_TOUCH_POINTS
+10
+#
 else
 #
 define
@@ -294,6 +306,10 @@ SPOOFED_OSCPU
 Linux
 x86_64
 "
+#
+define
+SPOOFED_MAX_TOUCH_POINTS
+10
 #
 endif
 #

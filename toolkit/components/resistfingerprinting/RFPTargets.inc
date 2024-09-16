@@ -152,7 +152,7 @@ NavigatorUserAgent
 )
 ITEM_VALUE
 (
-StreamTrackLabel
+PointerId
 1llu
 <
 <
