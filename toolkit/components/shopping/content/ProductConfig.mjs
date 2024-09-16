@@ -544,7 +544,7 @@ fakespot
 .
 com
 /
-v1
+v2
 /
 fx
 /
@@ -676,7 +676,7 @@ fakespot
 .
 io
 /
-v1
+v2
 /
 fx
 /

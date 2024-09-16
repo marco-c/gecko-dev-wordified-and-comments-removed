@@ -197,6 +197,16 @@ report
 created
 "
 }
+NOCURADS00
+:
+{
+message
+:
+"
+report
+created
+"
+}
 }
 )
 )
