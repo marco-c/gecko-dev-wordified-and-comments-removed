@@ -897,6 +897,12 @@ adapter_luid
 is_some
 (
 )
+&
+&
+!
+desc
+.
+force_fallback_adapter
 {
 if
 let
