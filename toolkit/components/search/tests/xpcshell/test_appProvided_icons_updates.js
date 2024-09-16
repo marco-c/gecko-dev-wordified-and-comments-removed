@@ -419,7 +419,12 @@ baseAttachmentsURL
 .
 returns
 (
-gDataUrl
+{
+gHttpURL
+}
+/
+data
+/
 )
 ;
 await

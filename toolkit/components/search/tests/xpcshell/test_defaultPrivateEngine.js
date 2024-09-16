@@ -316,9 +316,6 @@ true
 ;
 useHttpServer
 (
-"
-opensearch
-"
 )
 ;
 await
@@ -1223,8 +1220,11 @@ installOpenSearchEngine
 url
 :
 {
-gDataUrl
+gHttpURL
 }
+/
+opensearch
+/
 simple
 .
 xml

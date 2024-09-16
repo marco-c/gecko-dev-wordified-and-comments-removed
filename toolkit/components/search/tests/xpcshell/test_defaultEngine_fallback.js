@@ -1724,8 +1724,11 @@ installOpenSearchEngine
 url
 :
 {
-gDataUrl
+gHttpURL
 }
+/
+data
+/
 engine2
 .
 xml

@@ -53,8 +53,11 @@ installOpenSearchEngine
 url
 :
 {
-gDataUrl
+gHttpURL
 }
+/
+data
+/
 engine
 .
 xml
@@ -72,8 +75,11 @@ installOpenSearchEngine
 url
 :
 {
-gDataUrl
+gHttpURL
 }
+/
+data
+/
 engine2
 .
 xml
@@ -455,10 +461,8 @@ installOpenSearchEngine
 url
 :
 {
-gDataUrl
+gHttpURL
 }
-.
-.
 /
 opensearch
 /

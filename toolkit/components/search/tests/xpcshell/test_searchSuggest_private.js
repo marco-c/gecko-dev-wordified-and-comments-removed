@@ -82,7 +82,12 @@ engineData
 {
 baseURL
 :
-gDataUrl
+{
+gHttpURL
+}
+/
+data
+/
 name
 :
 "
@@ -108,8 +113,11 @@ installOpenSearchEngine
 url
 :
 {
-gDataUrl
+gHttpURL
 }
+/
+data
+/
 engineMaker
 .
 sjs
