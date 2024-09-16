@@ -176,6 +176,15 @@ Cookie
 foopy
 =
 1
+;
+SameSite
+=
+None
+;
+Secure
+;
+Partitioned
+;
 "
 )
 ;
