@@ -2132,6 +2132,15 @@ class_
 }
 }
 ;
+JSObject
+*
+GetThisObject
+(
+JSObject
+*
+obj
+)
+;
 class
 ExtensibleLexicalEnvironmentObject
 :
