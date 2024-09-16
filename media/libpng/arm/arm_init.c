@@ -91,12 +91,6 @@ __linux__
 define
 PNG_ARM_NEON_FILE
 "
-contrib
-/
-arm
--
-neon
-/
 linux
 .
 c
