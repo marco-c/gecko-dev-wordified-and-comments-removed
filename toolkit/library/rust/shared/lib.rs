@@ -259,7 +259,7 @@ android
 ]
 extern
 crate
-webext_storage
+webext_storage_bridge
 ;
 #
 [
@@ -313,14 +313,6 @@ uniffi_reexport_scaffolding
 )
 ;
 suggest
-:
-:
-uniffi_reexport_scaffolding
-!
-(
-)
-;
-webext_storage
 :
 :
 uniffi_reexport_scaffolding

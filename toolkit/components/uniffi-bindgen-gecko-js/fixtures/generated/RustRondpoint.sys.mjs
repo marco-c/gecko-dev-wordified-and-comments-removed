@@ -925,7 +925,7 @@ readPointerOptionneur
 const
 pointerId
 =
-10
+8
 ;
 /
 /
@@ -1008,7 +1008,7 @@ value
 const
 pointerId
 =
-10
+8
 ;
 /
 /
@@ -1085,7 +1085,7 @@ readPointerRetourneur
 const
 pointerId
 =
-11
+9
 ;
 /
 /
@@ -1168,7 +1168,7 @@ value
 const
 pointerId
 =
-11
+9
 ;
 /
 /
@@ -1245,7 +1245,7 @@ readPointerStringifier
 const
 pointerId
 =
-12
+10
 ;
 /
 /
@@ -1328,7 +1328,7 @@ value
 const
 pointerId
 =
-12
+10
 ;
 /
 /
@@ -3403,7 +3403,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-96
+73
 /
 /
 rondpoint
@@ -3523,7 +3523,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-97
+74
 /
 /
 rondpoint
@@ -3657,7 +3657,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-98
+75
 /
 /
 rondpoint
@@ -3791,7 +3791,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-99
+76
 /
 /
 rondpoint
@@ -3925,7 +3925,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-100
+77
 /
 /
 rondpoint
@@ -4057,7 +4057,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-101
+78
 /
 /
 rondpoint
@@ -4189,7 +4189,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-102
+79
 /
 /
 rondpoint
@@ -4321,7 +4321,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-103
+80
 /
 /
 rondpoint
@@ -4453,7 +4453,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-104
+81
 /
 /
 rondpoint
@@ -4585,7 +4585,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-105
+82
 /
 /
 rondpoint
@@ -4717,7 +4717,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-106
+83
 /
 /
 rondpoint
@@ -4850,7 +4850,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-107
+84
 /
 /
 rondpoint
@@ -4983,7 +4983,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-108
+85
 /
 /
 rondpoint
@@ -5115,7 +5115,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-109
+86
 /
 /
 rondpoint
@@ -5248,7 +5248,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-110
+87
 /
 /
 rondpoint
@@ -5382,7 +5382,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-111
+88
 /
 /
 rondpoint
@@ -5514,7 +5514,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-112
+89
 /
 /
 rondpoint
@@ -5646,7 +5646,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-113
+90
 /
 /
 rondpoint
@@ -5778,7 +5778,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-114
+91
 /
 /
 rondpoint
@@ -5910,7 +5910,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-115
+92
 /
 /
 rondpoint
@@ -6042,7 +6042,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-116
+93
 /
 /
 rondpoint
@@ -6174,7 +6174,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-117
+94
 /
 /
 rondpoint
@@ -6306,7 +6306,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-118
+95
 /
 /
 rondpoint
@@ -6438,7 +6438,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-119
+96
 /
 /
 rondpoint
@@ -6570,7 +6570,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-120
+97
 /
 /
 rondpoint
@@ -6702,7 +6702,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-121
+98
 /
 /
 rondpoint
@@ -7091,7 +7091,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-123
+100
 /
 /
 rondpoint
@@ -7209,7 +7209,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-124
+101
 /
 /
 rondpoint
@@ -7339,7 +7339,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-125
+102
 /
 /
 rondpoint
@@ -7469,7 +7469,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-126
+103
 /
 /
 rondpoint
@@ -7599,7 +7599,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-127
+104
 /
 /
 rondpoint
@@ -7729,7 +7729,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-128
+105
 /
 /
 rondpoint
@@ -7859,7 +7859,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-129
+106
 /
 /
 rondpoint
@@ -7989,7 +7989,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-130
+107
 /
 /
 rondpoint
@@ -8119,7 +8119,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-131
+108
 /
 /
 rondpoint
@@ -8249,7 +8249,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-132
+109
 /
 /
 rondpoint
@@ -8379,7 +8379,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-133
+110
 /
 /
 rondpoint
@@ -8509,7 +8509,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-134
+111
 /
 /
 rondpoint
@@ -8639,7 +8639,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-135
+112
 /
 /
 rondpoint
@@ -8769,7 +8769,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-136
+113
 /
 /
 rondpoint
@@ -8899,7 +8899,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-137
+114
 /
 /
 rondpoint
@@ -9029,7 +9029,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-138
+115
 /
 /
 rondpoint
@@ -9418,7 +9418,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-140
+117
 /
 /
 rondpoint
@@ -9536,7 +9536,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-141
+118
 /
 /
 rondpoint
@@ -9666,7 +9666,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-142
+119
 /
 /
 rondpoint
@@ -9796,7 +9796,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-143
+120
 /
 /
 rondpoint
@@ -9926,7 +9926,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-144
+121
 /
 /
 rondpoint
@@ -10056,7 +10056,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-145
+122
 /
 /
 rondpoint
@@ -10186,7 +10186,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-146
+123
 /
 /
 rondpoint
@@ -10316,7 +10316,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-147
+124
 /
 /
 rondpoint
@@ -10446,7 +10446,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-148
+125
 /
 /
 rondpoint
@@ -10576,7 +10576,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-149
+126
 /
 /
 rondpoint
@@ -10706,7 +10706,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-150
+127
 /
 /
 rondpoint
@@ -10836,7 +10836,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-151
+128
 /
 /
 rondpoint
@@ -10966,7 +10966,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-152
+129
 /
 /
 rondpoint
@@ -17400,7 +17400,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-153
+130
 /
 /
 rondpoint
@@ -17526,7 +17526,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-154
+131
 /
 /
 rondpoint
@@ -17652,7 +17652,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-155
+132
 /
 /
 rondpoint
@@ -17778,7 +17778,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-156
+133
 /
 /
 rondpoint
@@ -17904,7 +17904,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-157
+134
 /
 /
 rondpoint
