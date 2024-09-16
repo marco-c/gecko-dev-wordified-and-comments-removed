@@ -132,6 +132,7 @@ Msg_ForkNewSubprocess__ID
 =
 0x7f0
 Reply_ForkNewSubprocess__ID
+Msg_SubprocessExecInfo__ID
 }
 ;
 }
