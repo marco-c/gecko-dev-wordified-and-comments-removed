@@ -7609,16 +7609,6 @@ Shutdown
 (
 )
 ;
-if
-(
-StaticPrefs
-:
-:
-layers_child_process_shutdown
-(
-)
-)
-{
 layers
 :
 :
@@ -7639,7 +7629,6 @@ ShutDown
 (
 )
 ;
-}
 }
 else
 if
