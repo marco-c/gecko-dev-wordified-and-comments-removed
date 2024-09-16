@@ -751,6 +751,10 @@ error
 =
 null
 shouldThrow
+"
+shouldThrow
+mismatch
+"
 )
 ;
 if
@@ -1219,6 +1223,13 @@ equals
 a
 a
 )
+a
+!
+=
+=
+null
+&
+&
 !
 isString
 WebAssembly
