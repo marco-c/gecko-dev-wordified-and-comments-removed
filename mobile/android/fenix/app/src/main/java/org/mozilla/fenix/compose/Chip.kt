@@ -351,13 +351,6 @@ chip
 .
 *
 /
-OptIn
-(
-ExperimentalMaterialApi
-:
-:
-class
-)
 Composable
 private
 fun

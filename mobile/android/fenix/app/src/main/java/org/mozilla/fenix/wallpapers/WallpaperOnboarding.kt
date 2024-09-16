@@ -155,14 +155,6 @@ compose
 .
 material
 .
-ExperimentalMaterialApi
-import
-androidx
-.
-compose
-.
-material
-.
 Icon
 import
 androidx
@@ -385,7 +377,6 @@ selected
 .
 *
 /
-ExperimentalMaterialApi
 Composable
 fun
 WallpaperOnboarding
@@ -760,7 +751,6 @@ button
 }
 }
 Preview
-ExperimentalMaterialApi
 Composable
 private
 fun
