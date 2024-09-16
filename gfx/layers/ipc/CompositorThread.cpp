@@ -734,7 +734,14 @@ CompositorThread
 )
 {
 return
-false
+(
+sProfilerThreadId
+=
+=
+profiler_current_thread_id
+(
+)
+)
 ;
 }
 bool
