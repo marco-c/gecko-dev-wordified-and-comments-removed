@@ -1120,6 +1120,8 @@ b
 -
 linux
 -
+xlarge
+-
 gcp
 worker
 :
@@ -1614,6 +1616,8 @@ b
 -
 linux
 -
+xlarge
+-
 gcp
 worker
 :
@@ -2107,6 +2111,8 @@ type
 b
 -
 linux
+-
+xlarge
 -
 gcp
 worker
