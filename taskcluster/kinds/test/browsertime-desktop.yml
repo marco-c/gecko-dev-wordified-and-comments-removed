@@ -5341,6 +5341,10 @@ apps
 :
 [
 firefox
+chrome
+custom
+-
+car
 ]
 subtests
 :

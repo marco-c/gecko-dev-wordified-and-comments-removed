@@ -5,6 +5,10 @@ apps
 =
 "
 firefox
+chrome
+custom
+-
+car
 "
 alert_threshold
 =
