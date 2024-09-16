@@ -5081,7 +5081,7 @@ InvalidLayout
 }
 ;
 fn
-map_entry
+resolve_entry
 <
 '
 a
@@ -5142,7 +5142,7 @@ CreateBindGroupError
 >
 {
 let
-map_buffer
+resolve_buffer
 =
 |
 bb
@@ -5204,7 +5204,7 @@ buffer_id
 }
 ;
 let
-map_sampler
+resolve_sampler
 =
 |
 id
@@ -5244,7 +5244,7 @@ id
 }
 ;
 let
-map_view
+resolve_view
 =
 |
 id
@@ -5307,7 +5307,7 @@ ResolvedBindingResource
 :
 Buffer
 (
-map_buffer
+resolve_buffer
 (
 buffer
 )
@@ -5336,7 +5336,7 @@ iter
 .
 map
 (
-map_buffer
+resolve_buffer
 )
 .
 collect
@@ -5386,7 +5386,7 @@ ResolvedBindingResource
 :
 Sampler
 (
-map_sampler
+resolve_sampler
 (
 sampler
 )
@@ -5415,7 +5415,7 @@ iter
 .
 map
 (
-map_sampler
+resolve_sampler
 )
 .
 collect
@@ -5465,7 +5465,7 @@ ResolvedBindingResource
 :
 TextureView
 (
-map_view
+resolve_view
 (
 view
 )
@@ -5494,7 +5494,7 @@ iter
 .
 map
 (
-map_view
+resolve_view
 )
 .
 collect
@@ -5593,7 +5593,7 @@ map
 |
 e
 |
-map_entry
+resolve_entry
 (
 e
 &
