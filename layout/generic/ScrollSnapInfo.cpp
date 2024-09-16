@@ -471,7 +471,7 @@ if
 !
 snappedPort
 .
-Intersects
+EdgeInclusiveIntersection
 (
 target
 .
