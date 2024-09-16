@@ -110,6 +110,16 @@ Node
 aNode
 )
 ;
+void
+setCacheDomains
+(
+in
+unsigned
+long
+long
+aCacheDomains
+)
+;
 nsIAccessiblePivot
 createAccessiblePivot
 (
