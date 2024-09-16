@@ -612,6 +612,13 @@ Build
 VERSION
 .
 SDK_INT
+"
+is_fxa_signed_in
+"
+to
+settings
+.
+signedInFxaAccount
 )
 )
 }
