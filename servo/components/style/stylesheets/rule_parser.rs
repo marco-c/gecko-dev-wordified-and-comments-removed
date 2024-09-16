@@ -4659,6 +4659,7 @@ in_style_rule
 (
 )
 )
+?
 ;
 AtRulePrelude
 :
