@@ -437,6 +437,16 @@ return
 false
 ;
 }
+bool
+IsDocumentFullscreen
+(
+)
+const
+{
+return
+false
+;
+}
 void
 SetResolutionAndScaleTo
 (

@@ -235,6 +235,13 @@ IsDocumentLoading
 const
 override
 ;
+bool
+IsDocumentFullscreen
+(
+)
+const
+override
+;
 void
 SetResolutionAndScaleTo
 (

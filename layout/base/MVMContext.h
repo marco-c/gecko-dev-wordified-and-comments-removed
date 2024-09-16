@@ -280,6 +280,15 @@ const
 0
 ;
 virtual
+bool
+IsDocumentFullscreen
+(
+)
+const
+=
+0
+;
+virtual
 void
 SetResolutionAndScaleTo
 (

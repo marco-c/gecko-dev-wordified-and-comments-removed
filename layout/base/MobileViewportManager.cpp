@@ -1869,6 +1869,14 @@ if
 (
 !
 aDisplayWidthChangeRatio
+|
+|
+mContext
+-
+>
+IsDocumentFullscreen
+(
+)
 )
 {
 UpdateVisualViewportSize
