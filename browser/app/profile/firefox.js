@@ -1708,7 +1708,7 @@ setDefaultBrowserUserChoice
 .
 regRename
 "
-false
+true
 )
 ;
 pref
