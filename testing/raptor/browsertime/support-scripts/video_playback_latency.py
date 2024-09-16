@@ -21,6 +21,17 @@ kwargs
 )
 :
         
+super
+(
+)
+.
+__init__
+(
+*
+*
+kwargs
+)
+        
 self
 .
 _is_android

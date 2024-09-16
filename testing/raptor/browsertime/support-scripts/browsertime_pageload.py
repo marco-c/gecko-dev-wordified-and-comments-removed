@@ -201,6 +201,17 @@ kwargs
 )
 :
         
+super
+(
+)
+.
+__init__
+(
+*
+*
+kwargs
+)
+        
 self
 .
 perfstats
