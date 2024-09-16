@@ -2077,11 +2077,11 @@ R
 .
 string
 .
-pref_key_experimentation
+pref_key_experimentation_v2
 )
 default
 =
-true
+isTelemetryEnabled
 )
 var
 isOverrideTPPopupsForPerformanceTest

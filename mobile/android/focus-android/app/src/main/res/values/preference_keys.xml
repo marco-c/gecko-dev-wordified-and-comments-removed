@@ -1657,7 +1657,7 @@ string
 name
 =
 "
-pref_key_studies
+pref_key_studies_v2
 "
 translatable
 =
@@ -1672,10 +1672,10 @@ g
 id
 =
 "
-preference_key
+pref_key_studies_v2
 "
 >
-pref_key_studies
+pref_key_studies_v2
 <
 /
 xliff

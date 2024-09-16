@@ -231,7 +231,7 @@ R
 .
 string
 .
-pref_key_studies
+pref_key_studies_v2
 )
 -
 >
