@@ -545,6 +545,10 @@ eQueryDOMWidgetHittest
 )
 NS_EVENT_MESSAGE
 (
+eQueryDropTargetHittest
+)
+NS_EVENT_MESSAGE
+(
 eLoadStart
 )
 NS_EVENT_MESSAGE

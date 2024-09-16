@@ -7092,6 +7092,9 @@ eQueryDOMWidgetHittest
 case
 eQueryTextRectArray
 :
+case
+eQueryDropTargetHittest
+:
 break
 ;
 default

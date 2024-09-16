@@ -238,15 +238,6 @@ EventMessage
 )
 ;
 [
-ptr
-]
-native
-nsIWidgetPtr
-(
-nsIWidget
-)
-;
-[
 scriptable
 uuid
 (

@@ -532,6 +532,9 @@ case
 eDragLeave
 :
 case
+eQueryDropTargetHittest
+:
+case
 eLegacyMouseLineOrPageScroll
 :
 case
@@ -2149,8 +2152,16 @@ HasIMEEventMessage
 )
 |
 |
+(
 IsQueryContentEvent
 (
+)
+&
+&
+mMessage
+!
+=
+eQueryDropTargetHittest
 )
 |
 |
