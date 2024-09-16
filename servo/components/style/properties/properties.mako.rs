@@ -15231,6 +15231,17 @@ inherited_effective_zoom
 inverted
 (
 )
+.
+unwrap_or
+(
+computed
+:
+:
+Zoom
+:
+:
+ONE
+)
 }
 else
 {
