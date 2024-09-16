@@ -1295,6 +1295,14 @@ uint32_t
 funcIndex
 )
 ;
+int32_t
+readHotnessCounter
+(
+uint32_t
+funcIndex
+)
+const
+;
 void
 submitCallRefHints
 (
