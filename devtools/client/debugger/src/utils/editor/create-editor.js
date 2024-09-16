@@ -30,9 +30,13 @@ export
 function
 createEditor
 (
-useCm6
+config
 =
+{
+cm6
+:
 false
+}
 )
 {
 const
@@ -85,9 +89,6 @@ SourceEditor
 modes
 .
 js
-cm6
-:
-useCm6
 foldGutter
 :
 features
@@ -178,6 +179,10 @@ cursorBlinkRate
 prefs
 .
 cursorBlinkRate
+.
+.
+.
+config
 }
 )
 ;
@@ -194,7 +199,11 @@ editor
 =
 createEditor
 (
+{
+cm6
+:
 useCm6
+}
 )
 ;
 editor
