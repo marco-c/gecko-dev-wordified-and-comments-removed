@@ -23077,7 +23077,7 @@ aId
 )
 {
 case
-59
+82
 :
 {
 return
@@ -23090,7 +23090,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiArithmeticalFnFuncAdd
 ;
 }
 case
-60
+83
 :
 {
 return
@@ -23103,7 +23103,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiArithmeticalFnFuncDiv
 ;
 }
 case
-61
+84
 :
 {
 return
@@ -23116,7 +23116,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiArithmeticalFnFuncEqual
 ;
 }
 case
-62
+85
 :
 {
 return
@@ -23129,7 +23129,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiArithmeticalFnFuncSub
 ;
 }
 case
-63
+86
 :
 {
 return
@@ -23142,7 +23142,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiCustomTypesFnFuncGetCustomTypesD
 ;
 }
 case
-64
+87
 :
 {
 return
@@ -23155,7 +23155,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiFixtureExternalTypesFnFuncGradie
 ;
 }
 case
-65
+88
 :
 {
 return
@@ -23168,7 +23168,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiFixtureExternalTypesFnFuncInters
 ;
 }
 case
-67
+90
 :
 {
 return
@@ -23181,7 +23181,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiFixtureRefcountsFnMethodSingleto
 ;
 }
 case
-68
+91
 :
 {
 return
@@ -23194,7 +23194,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiFixtureRefcountsFnFuncGetJsRefco
 ;
 }
 case
-69
+92
 :
 {
 return
@@ -23207,7 +23207,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiFixtureRefcountsFnFuncGetSinglet
 ;
 }
 case
-70
+93
 :
 {
 return
@@ -23220,7 +23220,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiGeometryFnFuncGradient
 ;
 }
 case
-71
+94
 :
 {
 return
@@ -23233,7 +23233,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiGeometryFnFuncIntersection
 ;
 }
 case
-73
+96
 :
 {
 return
@@ -23246,7 +23246,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnConstructorOptionneur
 ;
 }
 case
-74
+97
 :
 {
 return
@@ -23259,7 +23259,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodOptionneurSinon
 ;
 }
 case
-75
+98
 :
 {
 return
@@ -23272,7 +23272,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodOptionneurSinon
 ;
 }
 case
-76
+99
 :
 {
 return
@@ -23285,7 +23285,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodOptionneurSinon
 ;
 }
 case
-77
+100
 :
 {
 return
@@ -23298,7 +23298,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodOptionneurSinon
 ;
 }
 case
-78
+101
 :
 {
 return
@@ -23311,7 +23311,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodOptionneurSinon
 ;
 }
 case
-79
+102
 :
 {
 return
@@ -23324,7 +23324,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodOptionneurSinon
 ;
 }
 case
-80
+103
 :
 {
 return
@@ -23337,7 +23337,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodOptionneurSinon
 ;
 }
 case
-81
+104
 :
 {
 return
@@ -23350,7 +23350,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodOptionneurSinon
 ;
 }
 case
-82
+105
 :
 {
 return
@@ -23363,7 +23363,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodOptionneurSinon
 ;
 }
 case
-83
+106
 :
 {
 return
@@ -23376,7 +23376,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodOptionneurSinon
 ;
 }
 case
-84
+107
 :
 {
 return
@@ -23389,7 +23389,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodOptionneurSinon
 ;
 }
 case
-85
+108
 :
 {
 return
@@ -23402,7 +23402,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodOptionneurSinon
 ;
 }
 case
-86
+109
 :
 {
 return
@@ -23415,7 +23415,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodOptionneurSinon
 ;
 }
 case
-87
+110
 :
 {
 return
@@ -23428,7 +23428,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodOptionneurSinon
 ;
 }
 case
-88
+111
 :
 {
 return
@@ -23441,7 +23441,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodOptionneurSinon
 ;
 }
 case
-89
+112
 :
 {
 return
@@ -23454,7 +23454,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodOptionneurSinon
 ;
 }
 case
-90
+113
 :
 {
 return
@@ -23467,7 +23467,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodOptionneurSinon
 ;
 }
 case
-91
+114
 :
 {
 return
@@ -23480,7 +23480,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodOptionneurSinon
 ;
 }
 case
-92
+115
 :
 {
 return
@@ -23493,7 +23493,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodOptionneurSinon
 ;
 }
 case
-93
+116
 :
 {
 return
@@ -23506,7 +23506,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodOptionneurSinon
 ;
 }
 case
-94
+117
 :
 {
 return
@@ -23519,7 +23519,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodOptionneurSinon
 ;
 }
 case
-95
+118
 :
 {
 return
@@ -23532,7 +23532,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodOptionneurSinon
 ;
 }
 case
-96
+119
 :
 {
 return
@@ -23545,7 +23545,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodOptionneurSinon
 ;
 }
 case
-97
+120
 :
 {
 return
@@ -23558,7 +23558,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodOptionneurSinon
 ;
 }
 case
-98
+121
 :
 {
 return
@@ -23571,7 +23571,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodOptionneurSinon
 ;
 }
 case
-100
+123
 :
 {
 return
@@ -23584,7 +23584,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnConstructorRetourneur
 ;
 }
 case
-101
+124
 :
 {
 return
@@ -23597,7 +23597,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodRetourneurIdent
 ;
 }
 case
-102
+125
 :
 {
 return
@@ -23610,7 +23610,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodRetourneurIdent
 ;
 }
 case
-103
+126
 :
 {
 return
@@ -23623,7 +23623,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodRetourneurIdent
 ;
 }
 case
-104
+127
 :
 {
 return
@@ -23636,7 +23636,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodRetourneurIdent
 ;
 }
 case
-105
+128
 :
 {
 return
@@ -23649,7 +23649,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodRetourneurIdent
 ;
 }
 case
-106
+129
 :
 {
 return
@@ -23662,7 +23662,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodRetourneurIdent
 ;
 }
 case
-107
+130
 :
 {
 return
@@ -23675,7 +23675,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodRetourneurIdent
 ;
 }
 case
-108
+131
 :
 {
 return
@@ -23688,7 +23688,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodRetourneurIdent
 ;
 }
 case
-109
+132
 :
 {
 return
@@ -23701,7 +23701,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodRetourneurIdent
 ;
 }
 case
-110
+133
 :
 {
 return
@@ -23714,7 +23714,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodRetourneurIdent
 ;
 }
 case
-111
+134
 :
 {
 return
@@ -23727,7 +23727,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodRetourneurIdent
 ;
 }
 case
-112
+135
 :
 {
 return
@@ -23740,7 +23740,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodRetourneurIdent
 ;
 }
 case
-113
+136
 :
 {
 return
@@ -23753,7 +23753,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodRetourneurIdent
 ;
 }
 case
-114
+137
 :
 {
 return
@@ -23766,7 +23766,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodRetourneurIdent
 ;
 }
 case
-115
+138
 :
 {
 return
@@ -23779,7 +23779,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodRetourneurIdent
 ;
 }
 case
-117
+140
 :
 {
 return
@@ -23792,7 +23792,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnConstructorStringifie
 ;
 }
 case
-118
+141
 :
 {
 return
@@ -23805,7 +23805,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodStringifierToSt
 ;
 }
 case
-119
+142
 :
 {
 return
@@ -23818,7 +23818,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodStringifierToSt
 ;
 }
 case
-120
+143
 :
 {
 return
@@ -23831,7 +23831,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodStringifierToSt
 ;
 }
 case
-121
+144
 :
 {
 return
@@ -23844,7 +23844,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodStringifierToSt
 ;
 }
 case
-122
+145
 :
 {
 return
@@ -23857,7 +23857,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodStringifierToSt
 ;
 }
 case
-123
+146
 :
 {
 return
@@ -23870,7 +23870,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodStringifierToSt
 ;
 }
 case
-124
+147
 :
 {
 return
@@ -23883,7 +23883,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodStringifierToSt
 ;
 }
 case
-125
+148
 :
 {
 return
@@ -23896,7 +23896,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodStringifierToSt
 ;
 }
 case
-126
+149
 :
 {
 return
@@ -23909,7 +23909,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodStringifierToSt
 ;
 }
 case
-127
+150
 :
 {
 return
@@ -23922,7 +23922,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodStringifierToSt
 ;
 }
 case
-128
+151
 :
 {
 return
@@ -23935,7 +23935,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodStringifierToSt
 ;
 }
 case
-129
+152
 :
 {
 return
@@ -23948,7 +23948,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnMethodStringifierWell
 ;
 }
 case
-130
+153
 :
 {
 return
@@ -23961,7 +23961,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnFuncCopieCarte
 ;
 }
 case
-131
+154
 :
 {
 return
@@ -23974,7 +23974,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnFuncCopieDictionnaire
 ;
 }
 case
-132
+155
 :
 {
 return
@@ -23987,7 +23987,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnFuncCopieEnumeration
 ;
 }
 case
-133
+156
 :
 {
 return
@@ -24000,7 +24000,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnFuncCopieEnumerations
 ;
 }
 case
-134
+157
 :
 {
 return
@@ -24013,7 +24013,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiRondpointFnFuncSwitcheroo
 ;
 }
 case
-136
+159
 :
 {
 return
@@ -24026,7 +24026,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiSpritesFnConstructorSpriteNew
 ;
 }
 case
-137
+160
 :
 {
 return
@@ -24039,7 +24039,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiSpritesFnConstructorSpriteNewRel
 ;
 }
 case
-138
+161
 :
 {
 return
@@ -24052,7 +24052,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiSpritesFnMethodSpriteGetPosition
 ;
 }
 case
-139
+162
 :
 {
 return
@@ -24065,7 +24065,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiSpritesFnMethodSpriteMoveBy
 ;
 }
 case
-140
+163
 :
 {
 return
@@ -24078,7 +24078,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiSpritesFnMethodSpriteMoveTo
 ;
 }
 case
-141
+164
 :
 {
 return
@@ -24091,7 +24091,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiSpritesFnFuncTranslate
 ;
 }
 case
-143
+166
 :
 {
 return
@@ -24104,7 +24104,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiTodolistFnConstructorTodolistNew
 ;
 }
 case
-144
+167
 :
 {
 return
@@ -24117,7 +24117,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiTodolistFnMethodTodolistAddEntri
 ;
 }
 case
-145
+168
 :
 {
 return
@@ -24130,7 +24130,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiTodolistFnMethodTodolistAddEntry
 ;
 }
 case
-146
+169
 :
 {
 return
@@ -24143,7 +24143,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiTodolistFnMethodTodolistAddItem
 ;
 }
 case
-147
+170
 :
 {
 return
@@ -24156,7 +24156,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiTodolistFnMethodTodolistAddItems
 ;
 }
 case
-148
+171
 :
 {
 return
@@ -24169,7 +24169,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiTodolistFnMethodTodolistClearIte
 ;
 }
 case
-149
+172
 :
 {
 return
@@ -24182,7 +24182,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiTodolistFnMethodTodolistGetEntri
 ;
 }
 case
-150
+173
 :
 {
 return
@@ -24195,7 +24195,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiTodolistFnMethodTodolistGetFirst
 ;
 }
 case
-151
+174
 :
 {
 return
@@ -24208,7 +24208,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiTodolistFnMethodTodolistGetItems
 ;
 }
 case
-152
+175
 :
 {
 return
@@ -24221,7 +24221,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiTodolistFnMethodTodolistGetLast
 ;
 }
 case
-153
+176
 :
 {
 return
@@ -24234,7 +24234,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiTodolistFnMethodTodolistGetLastE
 ;
 }
 case
-154
+177
 :
 {
 return
@@ -24247,7 +24247,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiTodolistFnMethodTodolistMakeDefa
 ;
 }
 case
-155
+178
 :
 {
 return
@@ -24260,7 +24260,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiTodolistFnFuncCreateEntryWith
 ;
 }
 case
-156
+179
 :
 {
 return
@@ -24273,7 +24273,7 @@ ScaffoldingCallHandlerUniFFIFixturesUniffiUniffiTodolistFnFuncGetDefaultList
 ;
 }
 case
-157
+180
 :
 {
 return
@@ -24329,7 +24329,7 @@ aId
 )
 {
 case
-7
+9
 :
 {
 type
@@ -24341,7 +24341,7 @@ break
 ;
 }
 case
-8
+10
 :
 {
 type
@@ -24353,7 +24353,7 @@ break
 ;
 }
 case
-9
+11
 :
 {
 type
@@ -24365,7 +24365,7 @@ break
 ;
 }
 case
-10
+12
 :
 {
 type
@@ -24377,7 +24377,7 @@ break
 ;
 }
 case
-11
+13
 :
 {
 type
@@ -24389,7 +24389,7 @@ break
 ;
 }
 case
-12
+14
 :
 {
 type
@@ -24459,7 +24459,7 @@ aId
 )
 {
 case
-7
+9
 :
 {
 type
@@ -24471,7 +24471,7 @@ break
 ;
 }
 case
-8
+10
 :
 {
 type
@@ -24483,7 +24483,7 @@ break
 ;
 }
 case
-9
+11
 :
 {
 type
@@ -24495,7 +24495,7 @@ break
 ;
 }
 case
-10
+12
 :
 {
 type
@@ -24507,7 +24507,7 @@ break
 ;
 }
 case
-11
+13
 :
 {
 type
@@ -24519,7 +24519,7 @@ break
 ;
 }
 case
-12
+14
 :
 {
 type
