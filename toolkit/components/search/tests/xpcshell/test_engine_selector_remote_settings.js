@@ -786,7 +786,7 @@ defaultEngines
 globalDefault
 :
 "
-lycos
+askjeeves
 "
 specificDefaults
 :

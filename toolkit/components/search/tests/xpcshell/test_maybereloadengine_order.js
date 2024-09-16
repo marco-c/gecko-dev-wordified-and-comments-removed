@@ -33,7 +33,7 @@ trDefault
 globalDefault
 :
 "
-default
+globalDefault
 "
 specificDefaults
 :
