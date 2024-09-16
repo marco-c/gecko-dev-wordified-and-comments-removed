@@ -766,6 +766,15 @@ mc16
 .
 S
 '
+'
+arm
+/
+64
+/
+mc16_sve
+.
+S
+'
 )
 endif
 elif
@@ -2100,8 +2109,6 @@ include_directories
 .
 /
 include
-/
-dav1d
 '
 )
 )

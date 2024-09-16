@@ -21,6 +21,8 @@ h
 #
 include
 "
+dav1d
+/
 common
 .
 h
@@ -28,6 +30,8 @@ h
 #
 include
 "
+dav1d
+/
 picture
 .
 h
@@ -35,6 +39,8 @@ h
 #
 include
 "
+dav1d
+/
 data
 .
 h
@@ -42,6 +48,8 @@ h
 #
 include
 "
+dav1d
+/
 version
 .
 h

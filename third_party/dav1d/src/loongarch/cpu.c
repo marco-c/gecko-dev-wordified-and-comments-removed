@@ -19,6 +19,15 @@ include
 "
 src
 /
+cpu
+.
+h
+"
+#
+include
+"
+src
+/
 loongarch
 /
 cpu
@@ -70,7 +79,9 @@ void
 unsigned
 flags
 =
-0
+dav1d_get_default_cpu_flags
+(
+)
 ;
 #
 if
