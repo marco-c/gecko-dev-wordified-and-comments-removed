@@ -4683,7 +4683,7 @@ endif
 extern
 JSObject
 *
-MaybeOptimizeBindGlobalName
+MaybeOptimizeBindUnqualifiedGlobalName
 (
 JSContext
 *

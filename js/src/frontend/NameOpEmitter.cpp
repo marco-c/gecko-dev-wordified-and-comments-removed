@@ -1589,7 +1589,7 @@ op
 JSOp
 :
 :
-BindGName
+BindUnqualifiedGName
 ;
 }
 if

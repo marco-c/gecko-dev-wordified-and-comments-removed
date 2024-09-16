@@ -2596,7 +2596,7 @@ op
 JSOp
 :
 :
-BindGName
+BindUnqualifiedGName
 )
 ;
 Rooted

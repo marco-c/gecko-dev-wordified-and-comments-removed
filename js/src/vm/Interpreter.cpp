@@ -14570,7 +14570,7 @@ Unpick
 )
 CASE
 (
-BindGName
+BindUnqualifiedGName
 )
 CASE
 (
@@ -14714,7 +14714,7 @@ static_assert
 JSOpLength_BindUnqualifiedName
 =
 =
-JSOpLength_BindGName
+JSOpLength_BindUnqualifiedGName
 "
 We
 '

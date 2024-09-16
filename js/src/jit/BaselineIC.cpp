@@ -2209,7 +2209,7 @@ setKind
 JSOp
 :
 :
-BindGName
+BindUnqualifiedGName
 BaselineICFallbackKind
 :
 :
@@ -6923,7 +6923,7 @@ op
 JSOp
 :
 :
-BindGName
+BindUnqualifiedGName
 )
 ;
 Rooted

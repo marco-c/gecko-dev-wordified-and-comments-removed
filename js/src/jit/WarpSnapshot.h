@@ -157,7 +157,7 @@ WarpRest
 \
 _
 (
-WarpBindGName
+WarpBindUnqualifiedGName
 )
 \
 _
@@ -1585,7 +1585,7 @@ endif
 }
 ;
 class
-WarpBindGName
+WarpBindUnqualifiedGName
 :
 public
 WarpOpSnapshot
@@ -1607,9 +1607,9 @@ ThisKind
 Kind
 :
 :
-WarpBindGName
+WarpBindUnqualifiedGName
 ;
-WarpBindGName
+WarpBindUnqualifiedGName
 (
 uint32_t
 offset

@@ -23674,7 +23674,7 @@ JSObject
 js
 :
 :
-MaybeOptimizeBindGlobalName
+MaybeOptimizeBindUnqualifiedGlobalName
 (
 JSContext
 *

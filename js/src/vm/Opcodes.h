@@ -2734,8 +2734,8 @@ JOF_BYTE
 \
 MACRO
 (
-BindGName
-bind_g_name
+BindUnqualifiedGName
+bind_unqualified_g_name
 NULL
 5
 0

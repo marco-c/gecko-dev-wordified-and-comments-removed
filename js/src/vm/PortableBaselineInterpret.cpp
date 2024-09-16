@@ -35651,7 +35651,7 @@ CheckAliasedLexical
 }
 CASE
 (
-BindGName
+BindUnqualifiedGName
 )
 {
 IC_SET_OBJ_ARG
@@ -35686,7 +35686,7 @@ IC_PUSH_RESULT
 ;
 END_OP
 (
-BindGName
+BindUnqualifiedGName
 )
 ;
 }

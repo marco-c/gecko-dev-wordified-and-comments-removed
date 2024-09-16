@@ -1259,7 +1259,7 @@ shape
 ;
 }
 void
-WarpBindGName
+WarpBindUnqualifiedGName
 :
 :
 dumpData
@@ -2146,7 +2146,7 @@ shape
 ;
 }
 void
-WarpBindGName
+WarpBindUnqualifiedGName
 :
 :
 traceData
@@ -2163,7 +2163,7 @@ globalEnv_
 "
 warp
 -
-bindgname
+bindunqualifiedgname
 -
 globalenv
 "

@@ -16727,7 +16727,7 @@ bool
 BaselineCompilerCodeGen
 :
 :
-tryOptimizeBindGlobalName
+tryOptimizeBindUnqualifiedGlobalName
 (
 )
 {
@@ -16796,7 +16796,7 @@ JSObject
 *
 binding
 =
-MaybeOptimizeBindGlobalName
+MaybeOptimizeBindUnqualifiedGlobalName
 (
 cx
 global
@@ -16830,7 +16830,7 @@ bool
 BaselineInterpreterCodeGen
 :
 :
-tryOptimizeBindGlobalName
+tryOptimizeBindUnqualifiedGlobalName
 (
 )
 {
@@ -16850,13 +16850,13 @@ Handler
 >
 :
 :
-emit_BindGName
+emit_BindUnqualifiedGName
 (
 )
 {
 if
 (
-tryOptimizeBindGlobalName
+tryOptimizeBindUnqualifiedGlobalName
 (
 )
 )

@@ -924,7 +924,7 @@ strict
 )
 ;
 bool
-tryOptimizeBindGlobalName
+tryOptimizeBindUnqualifiedGlobalName
 (
 )
 ;

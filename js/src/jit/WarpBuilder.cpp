@@ -11116,7 +11116,7 @@ bool
 WarpBuilder
 :
 :
-build_BindGName
+build_BindUnqualifiedGName
 (
 BytecodeLocation
 loc
@@ -11142,7 +11142,7 @@ snapshot
 =
 getOpSnapshot
 <
-WarpBindGName
+WarpBindUnqualifiedGName
 >
 (
 loc
