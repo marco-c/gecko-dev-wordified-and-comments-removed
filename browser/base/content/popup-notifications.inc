@@ -1320,6 +1320,17 @@ permissions
 -
 notification
 "
+is
+=
+"
+addon
+-
+webext
+-
+permissions
+-
+notification
+"
 hidden
 =
 "
