@@ -1681,6 +1681,11 @@ aNowTime
 )
 ;
 void
+UpdateRemoteFrameEffects
+(
+)
+;
+void
 UpdateRelevancyOfContentVisibilityAutoFrames
 (
 )
