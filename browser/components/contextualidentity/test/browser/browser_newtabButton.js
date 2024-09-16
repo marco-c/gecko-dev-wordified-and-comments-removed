@@ -16,7 +16,7 @@ browser
 .
 tabContainer
 .
-querySelector
+querySelectorAll
 (
 "
 .
@@ -27,6 +27,9 @@ tab
 popup
 "
 )
+[
+1
+]
 ;
 }
 function
