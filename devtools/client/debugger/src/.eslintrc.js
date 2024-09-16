@@ -854,13 +854,6 @@ proto
 "
 no
 -
-redeclare
-"
-:
-2
-"
-no
--
 regex
 -
 spaces
