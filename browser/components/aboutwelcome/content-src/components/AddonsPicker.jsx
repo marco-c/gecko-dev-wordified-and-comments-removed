@@ -595,6 +595,8 @@ map
 {
 id
 name
+:
+addonName
 type
 description
 icon
@@ -605,7 +607,7 @@ index
 )
 =
 >
-name
+addonName
 ?
 (
 <
@@ -697,7 +699,7 @@ Localized
 text
 =
 {
-name
+addonName
 }
 >
 <
