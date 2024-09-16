@@ -7497,15 +7497,7 @@ settings
 .
 openNextTabInDesktopMode
 =
-components
-.
-core
-.
-store
-.
-state
-.
-desktopMode
+false
 }
 VisibleForTesting
 internal
