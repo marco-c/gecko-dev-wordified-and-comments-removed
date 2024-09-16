@@ -155,8 +155,8 @@ rust
 py
 sha256
 =
-UEHeIZlToxCBelfec5sl_l_uLZfk8f_OUXqa_ZoEvnk
-7330
+u1IeluyxFj6NrZZrBQwwa0nWz0TABv93lYxVBx0aN3I
+7334
 glean_parser
 /
 swift
@@ -490,7 +490,7 @@ glean_parser
 .
 0
 .
-0
+1
 .
 dist
 -
@@ -511,7 +511,7 @@ glean_parser
 .
 0
 .
-0
+1
 .
 dist
 -
@@ -528,7 +528,7 @@ glean_parser
 .
 0
 .
-0
+1
 .
 dist
 -
@@ -537,15 +537,15 @@ info
 METADATA
 sha256
 =
-HFAfov8iDgtpGwHMK8QS8dKBxQPQbpKokUSJdEOmHpg
-34728
+D0AYTGykO6suojiqCEu8gJMjqmWSB9VLJFLRoRBvQR8
+34871
 glean_parser
 -
 15
 .
 0
 .
-0
+1
 .
 dist
 -
@@ -562,7 +562,7 @@ glean_parser
 .
 0
 .
-0
+1
 .
 dist
 -
@@ -581,7 +581,7 @@ glean_parser
 .
 0
 .
-0
+1
 .
 dist
 -
@@ -602,7 +602,7 @@ glean_parser
 .
 0
 .
-0
+1
 .
 dist
 -
