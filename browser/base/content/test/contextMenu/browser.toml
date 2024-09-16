@@ -606,13 +606,6 @@ socketprocess_networking
 ]
 [
 "
-browser_save_image
-.
-js
-"
-]
-[
-"
 browser_strip_on_share_link
 .
 js

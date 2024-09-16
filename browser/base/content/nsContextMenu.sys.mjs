@@ -12721,9 +12721,10 @@ targetIdentifier
 .
 then
 (
+function
+(
 blobURL
-=
->
+)
 {
 this
 .
