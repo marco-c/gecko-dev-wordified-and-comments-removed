@@ -123,6 +123,16 @@ CookieStoreChild
 cpp
 "
 "
+CookieStoreNotificationWatcher
+.
+cpp
+"
+"
+CookieStoreNotificationWatcherWrapper
+.
+cpp
+"
+"
 CookieStoreNotifier
 .
 cpp
