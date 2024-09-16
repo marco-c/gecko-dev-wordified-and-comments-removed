@@ -4951,15 +4951,9 @@ name
 ImplicitThis
 operands
 :
-envChain
+env
 :
 Object
-arguments
-:
-name
-:
-PropertyName
-*
 result_type
 :
 Value

@@ -1984,12 +1984,10 @@ ImplicitThis
 implicit_this
 "
 "
-5
-0
 1
-JOF_ATOM
-|
-JOF_USES_ENV
+1
+1
+JOF_BYTE
 )
 \
 \
