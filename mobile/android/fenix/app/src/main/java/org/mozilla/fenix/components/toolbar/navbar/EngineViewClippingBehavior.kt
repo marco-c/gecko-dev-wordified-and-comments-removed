@@ -134,6 +134,12 @@ android
 view
 .
 findViewInHierarchy
+import
+kotlin
+.
+math
+.
+roundToInt
 /
 *
 *
@@ -871,7 +877,7 @@ setVerticalClipping
 (
 contentBottomClipping
 .
-toInt
+roundToInt
 (
 )
 )
