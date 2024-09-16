@@ -163,6 +163,13 @@ jest
 fn
 (
 )
+execCommand
+:
+jest
+.
+fn
+(
+)
 setCursor
 :
 jest

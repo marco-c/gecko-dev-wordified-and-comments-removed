@@ -353,6 +353,14 @@ pressKey
 (
 dbg
 "
+Right
+"
+)
+;
+pressKey
+(
+dbg
+"
 Left
 "
 )
