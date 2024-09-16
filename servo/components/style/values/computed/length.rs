@@ -37,7 +37,6 @@ computed
 :
 {
 NonNegativeNumber
-Percentage
 Zoom
 }
 ;
@@ -766,19 +765,6 @@ false
 }
 ;
 }
-pub
-type
-Inset
-=
-generics
-:
-:
-GenericInset
-<
-Percentage
-LengthPercentage
->
-;
 pub
 type
 LengthPercentageOrAuto
