@@ -516,6 +516,13 @@ https_first_disabled
 true
 [
 "
+browser_closePanelview
+.
+js
+"
+]
+[
+"
 browser_controller_onDrop
 .
 js
