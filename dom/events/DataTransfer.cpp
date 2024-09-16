@@ -3112,8 +3112,8 @@ forget
 ;
 }
 static
-const
-nsCString
+constexpr
+nsLiteralCString
 kNonPlainTextExternalFormats
 [
 ]
@@ -3327,7 +3327,7 @@ AppendElements
 Span
 <
 const
-nsCString
+nsLiteralCString
 >
 (
 kNonPlainTextExternalFormats
