@@ -11048,6 +11048,11 @@ TimeStamp
 aNowTime
 )
 ;
+void
+UpdateRemoteFrameEffects
+(
+)
+;
 MOZ_CAN_RUN_SCRIPT
 void
 NotifyIntersectionObservers
