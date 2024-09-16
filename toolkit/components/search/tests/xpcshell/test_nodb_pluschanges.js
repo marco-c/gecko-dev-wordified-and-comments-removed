@@ -35,9 +35,9 @@ url
 gHttpURL
 }
 /
-data
+opensearch
 /
-engine
+generic1
 .
 xml
 }
@@ -58,9 +58,9 @@ url
 gHttpURL
 }
 /
-data
+opensearch
 /
-engine2
+generic2
 .
 xml
 }

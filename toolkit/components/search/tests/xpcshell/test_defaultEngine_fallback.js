@@ -1727,9 +1727,9 @@ url
 gHttpURL
 }
 /
-data
+opensearch
 /
-engine2
+generic2
 .
 xml
 }
