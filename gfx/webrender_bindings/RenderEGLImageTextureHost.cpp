@@ -1028,6 +1028,12 @@ surf
 mTextureHandle
 mTextureTarget
 mSize
+gfx
+:
+:
+Matrix4x4
+(
+)
 shaderConfig
 false
 )

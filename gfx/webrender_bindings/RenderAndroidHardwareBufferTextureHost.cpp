@@ -1056,6 +1056,12 @@ LOCAL_GL_TEXTURE_EXTERNAL
 GetSize
 (
 )
+gfx
+:
+:
+Matrix4x4
+(
+)
 shaderConfig
 false
 )
