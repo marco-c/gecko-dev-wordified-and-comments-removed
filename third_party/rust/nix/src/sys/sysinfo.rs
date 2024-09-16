@@ -2,7 +2,10 @@ use
 libc
 :
 :
+{
+self
 SI_LOAD_SHIFT
+}
 ;
 use
 std

@@ -5,6 +5,7 @@ super
 {
 CommonThreadInfo
 NT_Elf
+Pid
 }
 ;
 use
@@ -20,7 +21,6 @@ minidump_cpu
 :
 :
 RawContextCPU
-Pid
 }
 ;
 use

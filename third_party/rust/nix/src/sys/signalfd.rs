@@ -381,6 +381,7 @@ fn
 set_mask
 (
 &
+mut
 self
 mask
 :
@@ -413,6 +414,7 @@ fn
 read_signal
 (
 &
+mut
 self
 )
 -

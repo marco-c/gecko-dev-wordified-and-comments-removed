@@ -2,13 +2,10 @@ use
 crate
 :
 :
-{
 errors
 :
 :
 ThreadInfoError
-Pid
-}
 ;
 use
 nix
@@ -58,6 +55,12 @@ Result
 T
 ThreadInfoError
 >
+;
+pub
+type
+Pid
+=
+i32
 ;
 cfg_if
 :

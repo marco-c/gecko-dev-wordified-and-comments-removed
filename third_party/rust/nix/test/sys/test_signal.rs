@@ -1910,18 +1910,6 @@ test_sigaction
 (
 )
 {
-let
-_m
-=
-crate
-:
-:
-SIGNAL_MTX
-.
-lock
-(
-)
-;
 thread
 :
 :
@@ -2335,7 +2323,7 @@ aix
 target_os
 =
 "
-fuchsia
+fushsia
 "
 )
 )

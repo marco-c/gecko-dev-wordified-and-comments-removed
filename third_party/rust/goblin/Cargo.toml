@@ -125,7 +125,7 @@ version
 .
 8
 .
-2
+1
 "
 authors
 =
@@ -414,6 +414,9 @@ pe32
 pe64
 "
 "
+te
+"
+"
 archive
 "
 "
@@ -491,6 +494,16 @@ alloc
 scroll
 /
 std
+"
+]
+te
+=
+[
+"
+alloc
+"
+"
+endian_fd
 "
 ]
 [

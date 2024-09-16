@@ -470,6 +470,10 @@ default
 )
 )
 }
+pub
+(
+crate
+)
 fn
 parse_with_opts
 (

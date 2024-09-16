@@ -162,6 +162,7 @@ empty
 )
 ;
 let
+mut
 fd
 =
 SignalFd
@@ -287,6 +288,7 @@ unwrap
 )
 ;
 let
+mut
 fd
 =
 SignalFd
@@ -432,6 +434,7 @@ empty
 )
 ;
 let
+mut
 fd
 =
 SignalFd

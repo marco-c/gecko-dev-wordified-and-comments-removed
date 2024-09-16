@@ -1723,16 +1723,6 @@ c_ulong
 ;
 pub
 const
-AT_MINSIGSTKSZ
-:
-:
-:
-c_ulong
-=
-51
-;
-pub
-const
 PTHREAD_MUTEX_INITIALIZER
 :
 pthread_mutex_t

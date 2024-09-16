@@ -5,6 +5,7 @@ super
 {
 CommonThreadInfo
 NT_Elf
+Pid
 }
 ;
 use
@@ -24,7 +25,6 @@ minidump_format
 :
 :
 format
-Pid
 }
 ;
 use
