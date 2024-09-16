@@ -77,7 +77,7 @@ browser_history_recently_closed_tabs
 js
 "
 ]
-skip
+run
 -
 if
 =
@@ -87,7 +87,15 @@ os
 =
 =
 '
-mac
+linux
+'
+"
+"
+os
+=
+=
+'
+win
 '
 "
 ]

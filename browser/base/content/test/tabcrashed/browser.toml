@@ -1,13 +1,12 @@
 [
 DEFAULT
 ]
-skip
+run
 -
 if
 =
 [
 "
-!
 crashreporter
 "
 ]

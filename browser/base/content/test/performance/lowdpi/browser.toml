@@ -35,13 +35,12 @@ browser_startup_images
 js
 "
 ]
-skip
+run
 -
 if
 =
 [
 "
-!
 debug
 "
 ]
