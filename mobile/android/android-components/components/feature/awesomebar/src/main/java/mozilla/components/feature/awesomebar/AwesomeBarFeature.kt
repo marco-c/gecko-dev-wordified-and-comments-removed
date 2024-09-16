@@ -1591,6 +1591,7 @@ onCancelEditing
 Boolean
 {
 return
-true
+!
+inputStarted
 }
 }
