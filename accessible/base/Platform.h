@@ -375,6 +375,13 @@ aRoleMapEntryIndex
 ;
 #
 endif
+uint64_t
+GetCacheDomainsForKnownClients
+(
+uint64_t
+aCacheDomains
+)
+;
 }
 }
 #

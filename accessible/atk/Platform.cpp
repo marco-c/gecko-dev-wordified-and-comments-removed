@@ -1269,3 +1269,17 @@ return
 false
 ;
 }
+uint64_t
+a11y
+:
+:
+GetCacheDomainsForKnownClients
+(
+uint64_t
+aCacheDomains
+)
+{
+return
+aCacheDomains
+;
+}
