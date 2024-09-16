@@ -698,6 +698,8 @@ AppendPrintf
 AudioInfo
 :
 %
+s
+%
 "
 PRIu32
 "
@@ -734,6 +736,11 @@ PRIu8
 s
 extradata
 "
+mMimeType
+.
+get
+(
+)
 mRate
 mChannels
 AudioConfig
