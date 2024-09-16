@@ -818,12 +818,6 @@ mResolver
 }
 ;
 static
-bool
-MightBeActive
-(
-)
-;
-static
 nsCOMPtr
 <
 nsIURI
