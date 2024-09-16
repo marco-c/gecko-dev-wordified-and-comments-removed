@@ -1078,7 +1078,7 @@ IsEmpty
 )
 &
 &
-net_IsValidHostName
+net_IsValidDNSHost
 (
 NS_ConvertUTF16toUTF8
 (
@@ -1473,7 +1473,7 @@ IsEmpty
 )
 &
 &
-net_IsValidHostName
+net_IsValidDNSHost
 (
 NS_ConvertUTF16toUTF8
 (

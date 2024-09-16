@@ -2808,7 +2808,7 @@ flags
 if
 (
 !
-net_IsValidHostName
+net_IsValidDNSHost
 (
 host
 )
