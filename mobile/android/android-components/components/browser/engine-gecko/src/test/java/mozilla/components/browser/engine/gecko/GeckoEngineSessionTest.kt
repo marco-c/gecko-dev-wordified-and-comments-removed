@@ -6662,6 +6662,11 @@ engineSession
 appRedirectUrl
 =
 emptyPageUrl
+engineSession
+.
+initialLoad
+=
+false
 class
 MockHistoryList
 (
