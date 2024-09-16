@@ -19410,6 +19410,10 @@ run_process
             
 [
                 
+sys
+.
+executable
+                
 mozpath
 .
 join
@@ -19695,6 +19699,10 @@ run_process
 (
             
 [
+                
+sys
+.
+executable
                 
 mozpath
 .
