@@ -13,6 +13,10 @@ over_ride
 mod
 parse_attribute
 ;
+pub
+mod
+parse_expr
+;
 mod
 path_list
 ;

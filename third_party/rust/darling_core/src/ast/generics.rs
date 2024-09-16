@@ -839,9 +839,6 @@ TypeParams
 '
 a
 P
-:
-'
-a
 >
 (
 Iter

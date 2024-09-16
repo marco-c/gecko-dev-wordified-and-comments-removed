@@ -351,6 +351,11 @@ args_conflicts_with_subcommands
 true
 )
 .
+flatten_help
+(
+true
+)
+.
 args
 (
 push_args

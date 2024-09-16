@@ -318,6 +318,9 @@ use
 crate
 :
 :
+_derive
+:
+:
 _tutorial
 as
 table_of_contents

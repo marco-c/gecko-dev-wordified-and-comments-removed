@@ -31,12 +31,10 @@ my_trait
 )
 and_then
 =
-"
 MyInputReceiver
 :
 :
 autocorrect
-"
 )
 ]
 pub
@@ -49,12 +47,10 @@ darling
 (
 map
 =
-"
 MyInputReceiver
 :
 :
 make_string_shouty
-"
 )
 ]
 name

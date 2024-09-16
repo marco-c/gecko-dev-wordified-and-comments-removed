@@ -56,15 +56,6 @@ arg_required_else_help
 true
 )
 .
-author
-(
-"
-Pacman
-Development
-Team
-"
-)
-.
 subcommand
 (
 Command

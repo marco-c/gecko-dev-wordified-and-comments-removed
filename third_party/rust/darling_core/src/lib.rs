@@ -24,6 +24,14 @@ proc_macro_diagnostic
 )
 ]
 #
+!
+[
+warn
+(
+rust_2018_idioms
+)
+]
+#
 [
 cfg
 (

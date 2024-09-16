@@ -79,7 +79,7 @@ Default
 ]
 |
 4
-|
++
 #
 [
 derive
@@ -87,6 +87,14 @@ derive
 Default
 )
 ]
+5
+|
+struct
+NoDefault
+(
+String
+)
+;
 |
 error
 [
@@ -171,7 +179,7 @@ Default
 ]
 |
 4
-|
++
 #
 [
 derive
@@ -179,4 +187,12 @@ derive
 Default
 )
 ]
+5
+|
+struct
+NoDefault
+(
+String
+)
+;
 |

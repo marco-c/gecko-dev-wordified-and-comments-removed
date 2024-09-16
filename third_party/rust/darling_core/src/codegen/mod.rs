@@ -2,6 +2,9 @@ mod
 attr_extractor
 ;
 mod
+attrs_field
+;
+mod
 default_expr
 ;
 mod
@@ -59,6 +62,16 @@ attr_extractor
 :
 :
 ExtractAttribute
+;
+pub
+use
+self
+:
+:
+attrs_field
+:
+:
+ForwardAttrs
 ;
 pub
 use

@@ -1516,6 +1516,8 @@ slice
 :
 Iter
 <
+'
+_
 T
 >
 {
@@ -2594,6 +2596,10 @@ parse
 :
 :
 ParseStream
+<
+'
+_
+>
 )
 -
 >

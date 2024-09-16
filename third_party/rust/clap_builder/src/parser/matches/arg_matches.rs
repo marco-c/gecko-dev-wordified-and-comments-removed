@@ -439,6 +439,8 @@ Option
 <
 ValuesRef
 <
+'
+_
 T
 >
 >
@@ -496,6 +498,8 @@ Option
 <
 OccurrencesRef
 <
+'
+_
 T
 >
 >
@@ -1425,6 +1429,8 @@ Option
 <
 ValuesRef
 <
+'
+_
 T
 >
 >
@@ -1543,6 +1549,8 @@ Option
 <
 OccurrencesRef
 <
+'
+_
 T
 >
 >
@@ -3054,12 +3062,6 @@ a
 {
 iter
 :
-std
-:
-:
-slice
-:
-:
 Iter
 <
 '
@@ -4134,6 +4136,9 @@ instead
 )
 ]
 pub
+(
+crate
+)
 struct
 GroupedValues
 <
@@ -6138,6 +6143,10 @@ mut
 values
 :
 RawValues
+<
+'
+_
+>
 =
 Default
 :
@@ -6172,6 +6181,10 @@ mut
 indices
 :
 Indices
+<
+'
+_
+>
 =
 Indices
 :
@@ -6444,12 +6457,6 @@ get_many
 :
 :
 <
-std
-:
-:
-ffi
-:
-:
 OsString
 >
 (

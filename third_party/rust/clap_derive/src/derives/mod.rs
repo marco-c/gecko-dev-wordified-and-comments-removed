@@ -14,6 +14,9 @@ mod
 value_enum
 ;
 pub
+(
+crate
+)
 use
 self
 :
@@ -24,6 +27,9 @@ parser
 derive_parser
 ;
 pub
+(
+crate
+)
 use
 args
 :
@@ -31,6 +37,9 @@ args
 derive_args
 ;
 pub
+(
+crate
+)
 use
 subcommand
 :
@@ -38,6 +47,9 @@ subcommand
 derive_subcommand
 ;
 pub
+(
+crate
+)
 use
 value_enum
 :

@@ -457,6 +457,9 @@ Debug
 )
 ]
 pub
+(
+crate
+)
 enum
 LogLevel
 {

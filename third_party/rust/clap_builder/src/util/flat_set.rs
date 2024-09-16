@@ -124,6 +124,9 @@ value
 true
 }
 pub
+(
+crate
+)
 fn
 contains
 <
@@ -180,6 +183,9 @@ true
 false
 }
 pub
+(
+crate
+)
 fn
 retain
 <
@@ -271,6 +277,9 @@ iter
 )
 }
 pub
+(
+crate
+)
 fn
 sort_by_key
 <

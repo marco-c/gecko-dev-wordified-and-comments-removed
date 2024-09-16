@@ -775,6 +775,8 @@ util
 :
 Entry
 <
+'
+_
 Id
 MatchedArg
 >
@@ -1112,9 +1114,6 @@ self
 cmd
 :
 &
-crate
-:
-:
 Command
 )
 {

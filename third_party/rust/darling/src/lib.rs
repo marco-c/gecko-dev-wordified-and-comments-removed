@@ -1,7 +1,11 @@
-extern
-crate
-core
-;
+#
+!
+[
+warn
+(
+rust_2018_idioms
+)
+]
 #
 [
 allow

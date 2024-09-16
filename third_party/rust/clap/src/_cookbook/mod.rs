@@ -44,5 +44,9 @@ repl
 ;
 pub
 mod
+repl_derive
+;
+pub
+mod
 typed_derive
 ;

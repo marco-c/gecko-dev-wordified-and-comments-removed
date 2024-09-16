@@ -1,4 +1,7 @@
 pub
+(
+crate
+)
 trait
 SpanError
 {
@@ -38,6 +41,9 @@ Error
 ;
 }
 pub
+(
+crate
+)
 trait
 ToTokensError
 {

@@ -1,4 +1,7 @@
 pub
+(
+crate
+)
 mod
 error
 ;
@@ -12,6 +15,9 @@ mod
 ty
 ;
 pub
+(
+crate
+)
 use
 doc_comments
 :
@@ -19,6 +25,9 @@ doc_comments
 extract_doc_comment
 ;
 pub
+(
+crate
+)
 use
 doc_comments
 :
@@ -26,6 +35,9 @@ doc_comments
 format_doc_comment
 ;
 pub
+(
+crate
+)
 use
 self
 :

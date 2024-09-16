@@ -65,7 +65,6 @@ darling
 (
 default
 =
-"
 foo
 :
 :
@@ -73,7 +72,6 @@ bar
 :
 :
 init
-"
 )
 ]
 first_word

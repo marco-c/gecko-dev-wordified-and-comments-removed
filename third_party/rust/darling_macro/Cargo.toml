@@ -100,7 +100,16 @@ package
 edition
 =
 "
-2018
+2021
+"
+rust
+-
+version
+=
+"
+1
+.
+56
 "
 name
 =
@@ -114,7 +123,7 @@ version
 .
 20
 .
-1
+10
 "
 authors
 =
@@ -215,7 +224,7 @@ version
 .
 20
 .
-1
+10
 "
 [
 dependencies

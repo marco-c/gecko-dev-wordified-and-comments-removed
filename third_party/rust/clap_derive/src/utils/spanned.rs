@@ -42,6 +42,9 @@ Clone
 )
 ]
 pub
+(
+crate
+)
 struct
 Sp
 <
@@ -65,6 +68,9 @@ T
 >
 {
 pub
+(
+crate
+)
 fn
 new
 (
@@ -86,6 +92,9 @@ span
 }
 }
 pub
+(
+crate
+)
 fn
 get
 (
@@ -103,6 +112,9 @@ self
 val
 }
 pub
+(
+crate
+)
 fn
 span
 (

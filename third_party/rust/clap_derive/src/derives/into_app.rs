@@ -32,6 +32,9 @@ item
 Item
 ;
 pub
+(
+crate
+)
 fn
 gen_for_struct
 (
@@ -161,6 +164,10 @@ clippy
 :
 :
 almost_swapped
+clippy
+:
+:
+redundant_locals
 )
 ]
 #
@@ -285,6 +292,9 @@ tokens
 )
 }
 pub
+(
+crate
+)
 fn
 gen_for_enum
 (
@@ -413,6 +423,10 @@ clippy
 :
 :
 almost_swapped
+clippy
+:
+:
+redundant_locals
 )
 ]
 #

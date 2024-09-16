@@ -241,6 +241,7 @@ Multicall
 SubcommandsNegateReqs
 ArgsNegateSubcommands
 SubcommandPrecedenceOverArg
+FlattenHelp
 ArgRequiredElseHelp
 NextLineHelp
 DisableColoredHelp
