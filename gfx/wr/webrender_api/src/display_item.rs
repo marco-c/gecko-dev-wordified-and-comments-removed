@@ -5148,14 +5148,6 @@ subregion
 :
 LayoutRect
 }
-pub
-const
-SVGFE_GRAPH_MAX
-:
-usize
-=
-256
-;
 #
 [
 repr
