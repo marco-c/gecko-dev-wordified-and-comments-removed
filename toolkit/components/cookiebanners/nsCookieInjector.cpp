@@ -1873,6 +1873,7 @@ SchemeMap
 )
 )
 false
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS

@@ -106,6 +106,10 @@ const
 Cookie
 &
 aCookie
+const
+nsID
+*
+aOperationID
 )
 ;
 void
@@ -115,6 +119,10 @@ const
 Cookie
 &
 aCookie
+const
+nsID
+*
+aOperationID
 )
 ;
 bool
