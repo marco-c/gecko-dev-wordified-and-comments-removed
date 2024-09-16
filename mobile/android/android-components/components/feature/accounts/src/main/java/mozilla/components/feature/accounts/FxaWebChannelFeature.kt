@@ -1899,7 +1899,7 @@ COMMAND_DELETE_ACCOUNT
 "
 fxaccounts
 :
-delete_account
+delete
 "
 /
 *

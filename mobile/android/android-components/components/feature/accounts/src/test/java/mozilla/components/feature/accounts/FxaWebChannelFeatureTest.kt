@@ -5172,7 +5172,7 @@ command
 "
 fxaccounts
 :
-delete_account
+delete
 "
 "
 messageId
