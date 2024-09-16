@@ -120,6 +120,9 @@ clients
 commandhandler
 "
 "
+cookiestore
+"
+"
 credentialmanagement
 "
 "
