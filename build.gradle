@@ -187,7 +187,7 @@ gradle
 classpath
 ComponentsDependencies
 .
-androidx_safeargs
+androidx_navigation_safeargs
 classpath
 ComponentsDependencies
 .
