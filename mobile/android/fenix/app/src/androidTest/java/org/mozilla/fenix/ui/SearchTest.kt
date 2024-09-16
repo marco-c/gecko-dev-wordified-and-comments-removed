@@ -1100,12 +1100,6 @@ cases
 view
 /
 1059459
-SdkSuppress
-(
-maxSdkVersion
-=
-30
-)
 SmokeTest
 Test
 fun
