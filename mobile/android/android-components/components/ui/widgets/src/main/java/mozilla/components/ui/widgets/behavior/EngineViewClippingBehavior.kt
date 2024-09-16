@@ -452,6 +452,12 @@ else
 {
 bottomToolbarChangedAction
 }
+toolbarChangedAction
+.
+invoke
+(
+0f
+)
 }
 override
 fun
