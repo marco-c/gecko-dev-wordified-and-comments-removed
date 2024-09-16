@@ -2510,6 +2510,9 @@ color
 &
 :
 hover
+&
+.
+highlighted
 {
 background
 -
@@ -2523,6 +2526,12 @@ blue
 -
 30
 )
+;
+z
+-
+index
+:
+8
 ;
 }
 }
