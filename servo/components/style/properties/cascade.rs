@@ -3491,12 +3491,6 @@ apply
 FontSizeAdjust
 )
 ;
-apply
-!
-(
-ColorScheme
-)
-;
 #
 [
 cfg
@@ -3512,6 +3506,12 @@ apply
 !
 (
 ForcedColorAdjust
+)
+;
+apply
+!
+(
+ColorScheme
 )
 ;
 apply
