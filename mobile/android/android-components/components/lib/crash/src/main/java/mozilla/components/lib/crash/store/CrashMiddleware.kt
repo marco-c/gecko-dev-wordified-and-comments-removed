@@ -77,6 +77,12 @@ kotlinx
 .
 coroutines
 .
+Dispatchers
+import
+kotlinx
+.
+coroutines
+.
 launch
 import
 mozilla
@@ -299,6 +305,13 @@ val
 scope
 :
 CoroutineScope
+=
+CoroutineScope
+(
+Dispatchers
+.
+IO
+)
 )
 {
 /
