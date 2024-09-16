@@ -537,12 +537,7 @@ ip_memory_d
 .
 start_of_memory_range
 as
-*
-mut
-libc
-:
-:
-c_void
+_
 ip_memory_d
 .
 memory
@@ -971,13 +966,6 @@ try_into
 )
 ?
 valid_stack_ptr
-as
-*
-mut
-libc
-:
-:
-c_void
 stack_len
 )
 ?

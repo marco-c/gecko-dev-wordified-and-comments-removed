@@ -2,7 +2,7 @@ pub
 type
 c_char
 =
-i8
+u8
 ;
 pub
 type
@@ -8707,6 +8707,17 @@ TCP_NODELAYACK
 c_int
 =
 0x14
+;
+pub
+const
+PTHREAD_BARRIER_SERIAL_THREAD
+:
+:
+:
+c_int
+=
+-
+1
 ;
 pub
 const

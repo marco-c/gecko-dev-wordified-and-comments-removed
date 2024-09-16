@@ -1848,6 +1848,11 @@ target_arch
 "
 arm
 "
+target_arch
+=
+"
+csky
+"
 )
 )
 ]
