@@ -82,9 +82,6 @@ defined
 (
 __GNUC__
 )
-&
-&
-__GNUC__
 |
 |
 defined
@@ -1402,9 +1399,6 @@ defined
 (
 __GNUC__
 )
-&
-&
-__GNUC__
 unsigned
 int
 tsc
@@ -1511,9 +1505,6 @@ defined
 (
 __GNUC__
 )
-&
-&
-__GNUC__
 uint32_t
 hi
 lo
@@ -1648,9 +1639,6 @@ defined
 (
 __GNUC__
 )
-&
-&
-__GNUC__
 unsigned
 int
 tscp
@@ -1879,9 +1867,6 @@ defined
 (
 __GNUC__
 )
-&
-&
-__GNUC__
 #
 define
 x86_pause_hint
@@ -1959,9 +1944,6 @@ defined
 (
 __GNUC__
 )
-&
-&
-__GNUC__
 static
 void
 x87_set_control_word

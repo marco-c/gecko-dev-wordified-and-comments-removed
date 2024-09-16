@@ -816,6 +816,9 @@ int
 enable_tpl_model
 ;
 int
+enable_keyframe_filtering
+;
+int
 max_threads
 ;
 unsigned
@@ -1497,6 +1500,10 @@ alt_ref_index
 struct
 scale_factors
 sf
+;
+YV12_BUFFER_CONFIG
+*
+dst
 ;
 }
 ARNRFilterData
@@ -2723,7 +2730,7 @@ uint8_t
 force_update_segmentation
 ;
 YV12_BUFFER_CONFIG
-alt_ref_buffer
+tf_buffer
 ;
 struct
 ALT_REF_AQ
@@ -3186,9 +3193,6 @@ kTimingComponents
 ;
 #
 endif
-int
-tpl_with_external_rc
-;
 }
 VP9_COMP
 ;

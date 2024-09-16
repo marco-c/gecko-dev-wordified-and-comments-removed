@@ -41,9 +41,6 @@ defined
 (
 __GNUC__
 )
-&
-&
-__GNUC__
 #
 define
 VPX_DEPRECATED
@@ -80,9 +77,6 @@ defined
 (
 __GNUC__
 )
-&
-&
-__GNUC__
 #
 define
 VPX_DECLSPEC_DEPRECATED

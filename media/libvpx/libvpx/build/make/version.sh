@@ -485,6 +485,12 @@ not
 edit
 .
 #
+ifndef
+VPX_VERSION_H_
+#
+define
+VPX_VERSION_H_
+#
 define
 VERSION_MAJOR
 major_version
@@ -545,6 +551,11 @@ id
 version_str
 }
 "
+#
+endif
+/
+/
+VPX_VERSION_H_
 EOF
 fi
 if

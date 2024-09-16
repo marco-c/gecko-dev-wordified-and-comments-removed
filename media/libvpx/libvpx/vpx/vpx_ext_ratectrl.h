@@ -387,6 +387,12 @@ int
 undershoot_percent
 ;
 int
+min_base_q_index
+;
+int
+max_base_q_index
+;
+int
 base_qp
 ;
 }

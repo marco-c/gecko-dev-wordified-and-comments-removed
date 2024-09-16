@@ -1,4 +1,10 @@
 #
+ifndef
+VPX_VERSION_H_
+#
+define
+VPX_VERSION_H_
+#
 define
 VERSION_MAJOR
 1
@@ -57,3 +63,5 @@ v1
 .
 1
 "
+#
+endif
