@@ -596,7 +596,10 @@ PDMFactory
 >
 mPDMFactory
 ;
-VideoInfo
+UniquePtr
+<
+TrackInfo
+>
 mCurrentConfig
 ;
 nsCOMPtr
