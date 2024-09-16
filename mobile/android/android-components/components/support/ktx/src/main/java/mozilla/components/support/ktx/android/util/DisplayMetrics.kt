@@ -80,6 +80,12 @@ android
 util
 .
 TypedValue
+import
+kotlin
+.
+math
+.
+roundToInt
 /
 *
 *
@@ -165,7 +171,7 @@ dpToFloat
 displayMetrics
 )
 .
-toInt
+roundToInt
 (
 )
 /
