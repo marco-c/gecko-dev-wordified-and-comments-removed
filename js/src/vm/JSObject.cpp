@@ -8742,10 +8742,6 @@ name
 JSObject
 *
 envChain
-JSObject
-*
-*
-objp
 NativeObject
 *
 *
@@ -8763,11 +8759,6 @@ cx
 ;
 MOZ_ASSERT
 (
-!
-*
-objp
-&
-&
 !
 *
 pobjp
@@ -8857,11 +8848,6 @@ isFound
 )
 )
 {
-*
-objp
-=
-env
-;
 return
 true
 ;

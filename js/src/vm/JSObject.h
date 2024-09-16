@@ -3451,10 +3451,6 @@ name
 JSObject
 *
 envChain
-JSObject
-*
-*
-objp
 NativeObject
 *
 *
