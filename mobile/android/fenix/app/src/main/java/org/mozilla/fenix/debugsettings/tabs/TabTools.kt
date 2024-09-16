@@ -858,6 +858,13 @@ fillMaxSize
 (
 )
 .
+verticalScroll
+(
+rememberScrollState
+(
+)
+)
+.
 padding
 (
 all
@@ -865,13 +872,6 @@ all
 16
 .
 dp
-)
-.
-verticalScroll
-(
-rememberScrollState
-(
-)
 )
 verticalArrangement
 =
