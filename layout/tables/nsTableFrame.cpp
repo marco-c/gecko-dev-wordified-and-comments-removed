@@ -7099,6 +7099,10 @@ IntrinsicSizeInput
 input
 (
 aRenderingContext
+Some
+(
+aCBSize
+)
 Nothing
 (
 )
@@ -7169,6 +7173,9 @@ IntrinsicSizeInput
 input
 (
 aRenderingContext
+Nothing
+(
+)
 Nothing
 (
 )

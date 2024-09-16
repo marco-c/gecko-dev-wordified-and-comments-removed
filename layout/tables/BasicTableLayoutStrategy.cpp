@@ -411,6 +411,9 @@ IntrinsicSizeInput
 input
 (
 aRenderingContext
+Nothing
+(
+)
 Some
 (
 LogicalSize
