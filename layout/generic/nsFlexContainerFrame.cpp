@@ -15872,6 +15872,15 @@ StyleAlignFlags
 :
 :
 CENTER
+|
+|
+alignSelf
+=
+=
+StyleAlignFlags
+:
+:
+ANCHOR_CENTER
 )
 {
 mPosition

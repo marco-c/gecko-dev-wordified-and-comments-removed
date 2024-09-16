@@ -700,6 +700,15 @@ StyleAlignFlags
 :
 :
 CENTER
+|
+|
+alignment
+=
+=
+StyleAlignFlags
+:
+:
+ANCHOR_CENTER
 )
 {
 nscoord
