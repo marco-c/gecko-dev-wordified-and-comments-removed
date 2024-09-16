@@ -304,10 +304,12 @@ aAcc
 >
 BundleFieldsForCache
 (
-CacheDomain
+nsAccessibilityService
 :
 :
-All
+GetActiveCacheDomains
+(
+)
 CacheUpdateType
 :
 :

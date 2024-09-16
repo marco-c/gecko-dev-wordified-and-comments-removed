@@ -451,6 +451,8 @@ ClearDocCache
 (
 )
 ;
+protected
+:
 typedef
 nsRefPtrHashtable
 <
@@ -469,6 +471,8 @@ DocAccessibleHashtable
 DocAccessibleHashtable
 mDocAccessibleCache
 ;
+private
+:
 typedef
 nsRefPtrHashtable
 <

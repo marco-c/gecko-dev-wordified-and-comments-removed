@@ -8879,6 +8879,12 @@ Unused
 <
 SendActivateA11y
 (
+nsAccessibilityService
+:
+:
+GetActiveCacheDomains
+(
+)
 )
 ;
 }
@@ -19475,6 +19481,12 @@ Unused
 <
 SendActivateA11y
 (
+nsAccessibilityService
+:
+:
+GetActiveCacheDomains
+(
+)
 )
 ;
 }
