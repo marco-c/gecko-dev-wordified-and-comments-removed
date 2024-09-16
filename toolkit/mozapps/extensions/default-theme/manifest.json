@@ -68,7 +68,7 @@ version
 "
 1
 .
-3
+4
 "
 "
 icons
@@ -602,7 +602,9 @@ button
 -
 button
 -
-bgcolor
+background
+-
+color
 "
 "
 button_hover
@@ -613,9 +615,11 @@ button_hover
 -
 button
 -
-hover
+background
 -
-bgcolor
+color
+-
+hover
 "
 "
 button_active
@@ -626,9 +630,11 @@ button_active
 -
 button
 -
-active
+background
 -
-bgcolor
+color
+-
+active
 "
 "
 button_primary
