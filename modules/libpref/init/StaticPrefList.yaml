@@ -73740,7 +73740,7 @@ CHIPS
 enabled
 type
 :
-bool
+RelaxedAtomicBool
 value
 :
 true
