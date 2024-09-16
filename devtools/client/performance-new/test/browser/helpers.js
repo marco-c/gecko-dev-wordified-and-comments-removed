@@ -2872,7 +2872,7 @@ gBrowser
 url
 :
 "
-http
+https
 :
 /
 /
