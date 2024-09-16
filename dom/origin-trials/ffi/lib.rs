@@ -35,7 +35,7 @@ TestTrial
 CoepCredentialless
 =
 2
-PrivateAttribution
+PrivateAttributionV2
 =
 3
 MAX
@@ -82,14 +82,14 @@ Self
 :
 CoepCredentialless
 "
-PrivateAttribution
+PrivateAttributionV2
 "
 =
 >
 Self
 :
 :
-PrivateAttribution
+PrivateAttributionV2
 _
 =
 >

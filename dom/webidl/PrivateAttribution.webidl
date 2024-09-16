@@ -170,7 +170,7 @@ sources
 Trial
 =
 "
-PrivateAttribution
+PrivateAttributionV2
 "
 SecureContext
 Exposed
