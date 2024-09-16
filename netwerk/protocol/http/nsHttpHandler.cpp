@@ -14192,14 +14192,10 @@ SendSpeculativeConnectRequest
 }
 }
 return
-MaybeSpeculativeConnectWithHTTPSRR
+SpeculativeConnect
 (
 ci
 aCallbacks
-0
-EchConfigEnabled
-(
-)
 )
 ;
 }

@@ -354,12 +354,6 @@ flags
 "
 "
 ;
-unsigned
-short
-type
-=
-0
-;
 }
 ;
 [
