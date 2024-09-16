@@ -2088,10 +2088,6 @@ if
 require_signing
 "
 "
-!
-allow_legacy_extensions
-"
-"
 os
 =
 =
