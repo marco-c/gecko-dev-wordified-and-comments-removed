@@ -1502,10 +1502,7 @@ items
 selected
 =
 {
-NUMBER
-(
 num
-)
 -
 >
 [
@@ -1614,10 +1611,7 @@ items
 selected
 =
 {
-NUMBER
-(
 num
-)
 -
 >
 [
@@ -1761,10 +1755,7 @@ items
 selected
 =
 {
-NUMBER
-(
 num
-)
 -
 >
 [

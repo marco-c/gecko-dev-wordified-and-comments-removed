@@ -217,10 +217,7 @@ window
 label
 =
 {
-NUMBER
-(
 tabCount
-)
 -
 >
 [

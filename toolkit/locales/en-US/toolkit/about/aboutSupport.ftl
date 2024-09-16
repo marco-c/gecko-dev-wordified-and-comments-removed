@@ -2184,10 +2184,7 @@ for
 days
 =
 {
-NUMBER
-(
 days
-)
 -
 >
 [
@@ -2236,10 +2233,7 @@ time
 minutes
 =
 {
-NUMBER
-(
 minutes
-)
 -
 >
 [
@@ -2280,10 +2274,7 @@ time
 hours
 =
 {
-NUMBER
-(
 hours
-)
 -
 >
 [
@@ -2324,10 +2315,7 @@ time
 days
 =
 {
-NUMBER
-(
 days
-)
 -
 >
 [
@@ -2365,10 +2353,7 @@ pending
 reports
 =
 {
-NUMBER
-(
 reports
-)
 -
 >
 [

@@ -2391,10 +2391,7 @@ webrtc
 frames
 =
 {
-NUMBER
-(
 frames
-)
 -
 >
 [
@@ -2453,10 +2450,7 @@ webrtc
 channels
 =
 {
-NUMBER
-(
 channels
-)
 -
 >
 [
@@ -2512,10 +2506,7 @@ received
 label
 =
 {
-NUMBER
-(
 packets
-)
 -
 >
 [
@@ -2573,10 +2564,7 @@ lost
 label
 =
 {
-NUMBER
-(
 packets
-)
 -
 >
 [
@@ -2634,10 +2622,7 @@ sent
 label
 =
 {
-NUMBER
-(
 packets
-)
 -
 >
 [

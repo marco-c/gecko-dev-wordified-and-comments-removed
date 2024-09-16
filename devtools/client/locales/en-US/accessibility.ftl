@@ -167,10 +167,7 @@ progress
 progressbar
 =
 {
-NUMBER
-(
 nodeCount
-)
 -
 >
 [

@@ -105,10 +105,7 @@ sheets
 count
 =
 {
-NUMBER
-(
 sheetCount
-)
 -
 >
 [

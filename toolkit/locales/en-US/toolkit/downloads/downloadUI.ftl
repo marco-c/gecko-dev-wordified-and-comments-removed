@@ -94,10 +94,7 @@ cancel
 downloads
 =
 {
-NUMBER
-(
 downloadsCount
-)
 -
 >
 [
@@ -161,10 +158,7 @@ downloads
 mac
 =
 {
-NUMBER
-(
 downloadsCount
-)
 -
 >
 [
@@ -256,10 +250,7 @@ cancel
 downloads
 =
 {
-NUMBER
-(
 downloadsCount
-)
 -
 >
 [
@@ -345,10 +336,7 @@ cancel
 downloads
 =
 {
-NUMBER
-(
 downloadsCount
-)
 -
 >
 [
@@ -438,10 +426,7 @@ downloads
 ok
 =
 {
-NUMBER
-(
 downloadsCount
-)
 -
 >
 [

@@ -671,10 +671,7 @@ many
 wildcards
 =
 {
-NUMBER
-(
 domainCount
-)
 -
 >
 [
@@ -797,10 +794,7 @@ many
 sites
 =
 {
-NUMBER
-(
 domainCount
-)
 -
 >
 [

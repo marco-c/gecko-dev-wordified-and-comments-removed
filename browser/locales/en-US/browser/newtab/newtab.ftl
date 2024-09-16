@@ -2657,10 +2657,7 @@ row
 selector
 =
 {
-NUMBER
-(
 num
-)
 -
 >
 [

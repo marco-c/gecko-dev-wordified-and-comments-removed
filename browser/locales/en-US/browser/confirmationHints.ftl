@@ -257,10 +257,7 @@ tabs
 closed
 =
 {
-NUMBER
-(
 tabCount
-)
 -
 >
 [

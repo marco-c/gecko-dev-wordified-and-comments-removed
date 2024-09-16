@@ -101,10 +101,7 @@ blocked
 popups
 =
 {
-NUMBER
-(
 count
-)
 -
 >
 [

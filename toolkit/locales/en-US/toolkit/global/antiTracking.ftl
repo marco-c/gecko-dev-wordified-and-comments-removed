@@ -134,10 +134,7 @@ tracker
 classified
 =
 {
-NUMBER
-(
 gracePeriodSeconds
-)
 -
 >
 *

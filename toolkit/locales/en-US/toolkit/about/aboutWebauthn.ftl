@@ -417,10 +417,7 @@ invalid
 error
 =
 {
-NUMBER
-(
 retriesLeft
-)
 -
 >
 [
@@ -1912,10 +1909,7 @@ still
 needed
 =
 {
-NUMBER
-(
 repeatCount
-)
 -
 >
 [

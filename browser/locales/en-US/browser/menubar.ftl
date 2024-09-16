@@ -498,10 +498,7 @@ tab
 label
 =
 {
-NUMBER
-(
 tabCount
-)
 -
 >
 [

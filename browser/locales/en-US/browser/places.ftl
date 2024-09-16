@@ -521,10 +521,7 @@ folder
 label
 =
 {
-NUMBER
-(
 count
-)
 -
 >
 [
@@ -570,10 +567,7 @@ page
 label
 =
 {
-NUMBER
-(
 count
-)
 -
 >
 [
@@ -720,10 +714,7 @@ bookmark
 label
 =
 {
-NUMBER
-(
 count
-)
 -
 >
 [
@@ -768,10 +759,7 @@ bookmark
 label
 =
 {
-NUMBER
-(
 count
-)
 -
 >
 [
@@ -1627,10 +1615,7 @@ count
 value
 =
 {
-NUMBER
-(
 count
-)
 -
 >
 [

@@ -841,10 +841,7 @@ tracker
 counter
 =
 {
-NUMBER
-(
 trackerCount
-)
 -
 >
 [
@@ -951,10 +948,7 @@ no
 tooltip
 =
 {
-NUMBER
-(
 trackerCount
-)
 -
 >
 [
@@ -995,10 +989,7 @@ protections
 milestone
 =
 {
-NUMBER
-(
 trackerCount
-)
 -
 >
 [

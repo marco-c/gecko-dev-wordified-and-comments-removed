@@ -221,10 +221,7 @@ reports
 message
 =
 {
-NUMBER
-(
 reportCount
-)
 -
 >
 [

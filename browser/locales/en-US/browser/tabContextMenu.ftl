@@ -619,10 +619,7 @@ tabs
 label
 =
 {
-NUMBER
-(
 tabCount
-)
 -
 >
 [
@@ -657,10 +654,7 @@ tabs
 label
 =
 {
-NUMBER
-(
 tabCount
-)
 -
 >
 [
@@ -694,10 +688,7 @@ tabs
 label
 =
 {
-NUMBER
-(
 tabCount
-)
 -
 >
 [
@@ -732,10 +723,7 @@ device
 label
 =
 {
-NUMBER
-(
 tabCount
-)
 -
 >
 [

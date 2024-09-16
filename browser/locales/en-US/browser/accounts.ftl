@@ -831,10 +831,7 @@ single
 device
 =
 {
-NUMBER
-(
 tabCount
-)
 -
 >
 [
@@ -880,10 +877,7 @@ multiple
 devices
 =
 {
-NUMBER
-(
 tabCount
-)
 -
 >
 [
@@ -944,10 +938,7 @@ unknown
 device
 =
 {
-NUMBER
-(
 tabCount
-)
 -
 >
 [
@@ -1029,10 +1020,7 @@ closed
 remotely
 =
 {
-NUMBER
-(
 closedCount
-)
 -
 >
 [

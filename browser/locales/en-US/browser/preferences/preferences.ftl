@@ -1905,10 +1905,7 @@ alert
 desc
 =
 {
-NUMBER
-(
 tabCount
-)
 -
 >
 [
@@ -1980,10 +1977,7 @@ ok
 button
 =
 {
-NUMBER
-(
 tabCount
-)
 -
 >
 [
@@ -2058,10 +2052,7 @@ alert
 msg
 =
 {
-NUMBER
-(
 count
-)
 -
 >
 [
@@ -5155,10 +5146,7 @@ pages
 label
 =
 {
-NUMBER
-(
 tabCount
-)
 -
 >
 [
@@ -5579,10 +5567,7 @@ option
 label
 =
 {
-NUMBER
-(
 num
-)
 -
 >
 [

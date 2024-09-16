@@ -172,10 +172,7 @@ process
 title
 =
 {
-NUMBER
-(
 duration
-)
 -
 >
 [
@@ -857,10 +854,7 @@ active
 threads
 =
 {
-NUMBER
-(
 active
-)
 -
 >
 [
@@ -968,10 +962,7 @@ inactive
 threads
 =
 {
-NUMBER
-(
 number
-)
 -
 >
 [

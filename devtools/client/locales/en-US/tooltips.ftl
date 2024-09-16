@@ -1532,10 +1532,7 @@ lines
 exceeded
 =
 {
-NUMBER
-(
 lineCount
-)
 -
 >
 [

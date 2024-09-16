@@ -645,10 +645,7 @@ tabs
 label
 =
 {
-NUMBER
-(
 tabCount
-)
 -
 >
 [
@@ -714,10 +711,7 @@ tabs
 label
 =
 {
-NUMBER
-(
 tabCount
-)
 -
 >
 [
@@ -784,10 +778,7 @@ tabs
 label
 =
 {
-NUMBER
-(
 tabCount
-)
 -
 >
 [
@@ -854,10 +845,7 @@ tabs
 label
 =
 {
-NUMBER
-(
 tabCount
-)
 -
 >
 [
@@ -924,10 +912,7 @@ tabs
 label
 =
 {
-NUMBER
-(
 tabCount
-)
 -
 >
 [
@@ -1023,10 +1008,7 @@ tabs
 label
 =
 {
-NUMBER
-(
 tabCount
-)
 -
 >
 [
@@ -2085,10 +2067,7 @@ share
 application
 =
 {
-NUMBER
-(
 windowCount
-)
 -
 >
 [

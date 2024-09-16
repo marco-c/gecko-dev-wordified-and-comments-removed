@@ -255,10 +255,7 @@ read
 time
 =
 {
-NUMBER
-(
 rangePlural
-)
 -
 >
 [

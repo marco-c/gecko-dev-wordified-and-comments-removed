@@ -130,10 +130,7 @@ more
 files
 =
 {
-NUMBER
-(
 fileCount
-)
 -
 >
 [

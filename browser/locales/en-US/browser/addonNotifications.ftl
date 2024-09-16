@@ -922,10 +922,7 @@ and
 verifying
 =
 {
-NUMBER
-(
 addonCount
-)
 -
 >
 [
@@ -1018,10 +1015,7 @@ install
 message
 =
 {
-NUMBER
-(
 addonCount
-)
 -
 >
 [
@@ -1085,10 +1079,7 @@ unsigned
 message
 =
 {
-NUMBER
-(
 addonCount
-)
 -
 >
 [
@@ -1194,10 +1185,7 @@ unsigned
 message
 =
 {
-NUMBER
-(
 addonCount
-)
 -
 >
 *
