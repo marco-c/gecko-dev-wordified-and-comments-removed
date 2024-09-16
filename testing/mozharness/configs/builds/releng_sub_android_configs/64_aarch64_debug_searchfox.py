@@ -9,7 +9,7 @@ stage_platform
 "
 android
 -
-arm
+aarch64
 -
 debug
 "
@@ -29,7 +29,7 @@ mozconfigs
 /
 android
 -
-arm
+aarch64
 /
 debug
 -

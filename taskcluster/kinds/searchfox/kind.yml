@@ -1122,7 +1122,7 @@ upx
 win
 android
 -
-armv7
+aarch64
 -
 searchfox
 /
@@ -1132,7 +1132,10 @@ description
 :
 "
 Android
-ARMv7
+5
+.
+0
+AArch64
 Debug
 Searchfox
 "
@@ -1144,7 +1147,7 @@ name
 :
 android
 -
-armv7
+aarch64
 -
 searchfox
 -
@@ -1155,11 +1158,11 @@ platform
 :
 android
 -
-4
+5
 -
-1
+0
 -
-armv7
+aarch64
 /
 debug
 worker
@@ -1203,7 +1206,7 @@ MOZSEARCH_PLATFORM
 "
 android
 -
-armv7
+aarch64
 "
 GRADLE_USER_HOME
 :
@@ -1289,7 +1292,7 @@ variant
 -
 cfg
 :
-arm
+aarch64
 -
 debug
 -

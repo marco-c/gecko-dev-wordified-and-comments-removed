@@ -28,7 +28,7 @@ ac_add_options
 -
 target
 =
-arm
+aarch64
 -
 linux
 -
