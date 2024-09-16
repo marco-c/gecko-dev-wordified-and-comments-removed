@@ -14004,6 +14004,7 @@ secondaryActions
 .
 if
 (
+!
 lazy
 .
 UrlbarPrefs
@@ -14018,9 +14019,6 @@ featureGate
 )
 )
 {
-break
-;
-}
 actionSetter
 =
 (
@@ -14039,6 +14037,7 @@ action
 ;
 }
 ;
+}
 setURL
 =
 true
