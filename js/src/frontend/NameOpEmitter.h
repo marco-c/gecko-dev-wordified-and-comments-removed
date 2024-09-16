@@ -354,6 +354,14 @@ Kind
 Initialize
 ;
 }
+JSOp
+strictifySetNameOp
+(
+JSOp
+op
+)
+const
+;
 public
 :
 [

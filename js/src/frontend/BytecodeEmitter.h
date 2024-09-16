@@ -1655,13 +1655,6 @@ ParseNode
 node
 )
 ;
-JSOp
-strictifySetNameOp
-(
-JSOp
-op
-)
-;
 [
 [
 nodiscard
