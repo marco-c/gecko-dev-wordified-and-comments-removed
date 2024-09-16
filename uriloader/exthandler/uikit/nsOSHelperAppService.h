@@ -125,7 +125,11 @@ _retval
 )
 override
 ;
-virtual
+[
+[
+nodiscard
+]
+]
 nsresult
 GetFileTokenForPath
 (
@@ -140,6 +144,11 @@ aFile
 )
 override
 ;
+[
+[
+nodiscard
+]
+]
 nsresult
 OSProtocolHandlerExists
 (
