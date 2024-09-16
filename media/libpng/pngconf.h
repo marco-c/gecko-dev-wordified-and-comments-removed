@@ -459,10 +459,7 @@ type
 PNGAPI
 name
 )
-PNGARG
-(
 args
-)
 \
 PNG_LINKAGE_API
 attributes
@@ -521,10 +518,7 @@ type
 PNGCBAPI
 name
 )
-PNGARG
-(
 args
-)
 #
 endif
 #
