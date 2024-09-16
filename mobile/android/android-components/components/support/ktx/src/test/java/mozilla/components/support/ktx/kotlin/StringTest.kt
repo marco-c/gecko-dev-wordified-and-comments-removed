@@ -1970,7 +1970,8 @@ u0009tab
 "
 to
 "
-horizontal_tab
+horizontal
+tab
 "
 "
 new
@@ -1979,7 +1980,8 @@ u000Aline
 "
 to
 "
-new_line
+new
+line
 "
 "
 vertical
@@ -1988,7 +1990,8 @@ u000Btab
 "
 to
 "
-vertical_tab
+vertical
+tab
 "
 "
 form
@@ -1997,7 +2000,8 @@ u000Cfeed
 "
 to
 "
-form_feed
+form
+feed
 "
 "
 return
@@ -2006,7 +2010,8 @@ u000Dcarriage
 "
 to
 "
-return_carriage
+return
+carriage
 "
 "
 shift
