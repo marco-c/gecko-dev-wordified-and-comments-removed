@@ -1895,7 +1895,7 @@ this
 }
 VectorType
 <
-mask_type
+mask_index
 N
 >
 operator
@@ -1910,7 +1910,7 @@ const
 return
 VectorType
 <
-mask_type
+mask_index
 N
 >
 :
@@ -1928,7 +1928,7 @@ data
 }
 VectorType
 <
-mask_type
+mask_index
 N
 >
 operator
@@ -1943,7 +1943,7 @@ const
 return
 VectorType
 <
-mask_type
+mask_index
 N
 >
 :
@@ -1961,7 +1961,7 @@ data
 }
 VectorType
 <
-mask_type
+mask_index
 N
 >
 operator
@@ -1975,7 +1975,7 @@ const
 return
 VectorType
 <
-mask_type
+mask_index
 N
 >
 :
@@ -1992,7 +1992,7 @@ data
 }
 VectorType
 <
-mask_type
+mask_index
 N
 >
 operator
@@ -2006,7 +2006,7 @@ const
 return
 VectorType
 <
-mask_type
+mask_index
 N
 >
 :
@@ -2023,7 +2023,7 @@ data
 }
 VectorType
 <
-mask_type
+mask_index
 N
 >
 operator
@@ -2038,7 +2038,7 @@ const
 return
 VectorType
 <
-mask_type
+mask_index
 N
 >
 :
@@ -2056,7 +2056,7 @@ data
 }
 VectorType
 <
-mask_type
+mask_index
 N
 >
 operator
@@ -2071,7 +2071,7 @@ const
 return
 VectorType
 <
-mask_type
+mask_index
 N
 >
 :
