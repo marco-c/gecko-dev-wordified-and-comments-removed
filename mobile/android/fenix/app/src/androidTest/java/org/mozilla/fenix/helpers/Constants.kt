@@ -194,6 +194,8 @@ PHONE_APP
 "
 com
 .
+google
+.
 android
 .
 dialer

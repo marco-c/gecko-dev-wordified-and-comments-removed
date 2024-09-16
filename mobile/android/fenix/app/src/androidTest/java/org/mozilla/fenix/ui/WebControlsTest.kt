@@ -965,9 +965,9 @@ view
 834205
 SdkSuppress
 (
-maxSdkVersion
+minSdkVersion
 =
-30
+34
 )
 Test
 fun
