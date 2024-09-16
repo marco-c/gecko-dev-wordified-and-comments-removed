@@ -93,6 +93,15 @@ use
 std
 :
 :
+mem
+:
+:
+size_of
+;
+use
+std
+:
+:
 path
 :
 :
@@ -2742,7 +2751,7 @@ format
 TextureFormat
 :
 :
-Rg11b10UFloat
+Rg11b10Ufloat
 ]
 as
 a
@@ -14201,7 +14210,7 @@ Bgra8UnormSrgb
 Rgb9e5Ufloat
 Rgb10a2Uint
 Rgb10a2Unorm
-Rg11b10UFloat
+Rg11b10Ufloat
 Rg32Uint
 Rg32Sint
 Rg32Float
@@ -14703,7 +14712,7 @@ rg11b10ufloat
 TextureFormat
 :
 :
-Rg11b10UFloat
+Rg11b10Ufloat
 "
 rg32uint
 "
@@ -15849,7 +15858,7 @@ rgb10a2unorm
 TextureFormat
 :
 :
-Rg11b10UFloat
+Rg11b10Ufloat
 =
 >
 "
@@ -17367,7 +17376,7 @@ Rgb10a2Unorm
 Self
 :
 :
-Rg11b10UFloat
+Rg11b10Ufloat
 |
 Self
 :
@@ -17962,7 +17971,7 @@ Rgb10a2Unorm
 Self
 :
 :
-Rg11b10UFloat
+Rg11b10Ufloat
 |
 Self
 :
@@ -18698,7 +18707,7 @@ attachment
 Self
 :
 :
-Rg11b10UFloat
+Rg11b10Ufloat
 =
 >
 (
@@ -19465,7 +19474,7 @@ Rgb10a2Unorm
 Self
 :
 :
-Rg11b10UFloat
+Rg11b10Ufloat
 =
 >
 Some
@@ -20172,7 +20181,7 @@ Rgb10a2Unorm
 Self
 :
 :
-Rg11b10UFloat
+Rg11b10Ufloat
 =
 >
 {
@@ -20793,7 +20802,7 @@ Rgb10a2Unorm
 Self
 :
 :
-Rg11b10UFloat
+Rg11b10Ufloat
 =
 >
 Some
@@ -21233,7 +21242,7 @@ Rgb10a2Unorm
 Self
 :
 :
-Rg11b10UFloat
+Rg11b10Ufloat
 =
 >
 Some
@@ -21669,7 +21678,7 @@ Rgb9e5Ufloat
 Self
 :
 :
-Rg11b10UFloat
+Rg11b10Ufloat
 =
 >
 3
@@ -23184,7 +23193,7 @@ to_string
 TextureFormat
 :
 :
-Rg11b10UFloat
+Rg11b10Ufloat
 )
 .
 unwrap
@@ -25571,7 +25580,7 @@ unwrap
 TextureFormat
 :
 :
-Rg11b10UFloat
+Rg11b10Ufloat
 )
 ;
 assert_eq
@@ -35669,12 +35678,6 @@ u8
 >
 (
 )
-std
-:
-:
-mem
-:
-:
 size_of
 :
 :
@@ -35788,12 +35791,6 @@ u8
 >
 (
 )
-std
-:
-:
-mem
-:
-:
 size_of
 :
 :
@@ -35899,12 +35896,6 @@ u8
 >
 (
 )
-std
-:
-:
-mem
-:
-:
 size_of
 :
 :
@@ -36898,7 +36889,4 @@ Dropped
 ReplacedCallback
 =
 3
-DeviceInvalid
-=
-4
 }

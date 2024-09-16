@@ -934,7 +934,7 @@ tag
 ffi
 :
 :
-WGPUTextureFormat_Rg11b10UFloat
+WGPUTextureFormat_Rg11b10Ufloat
 ;
 break
 ;

@@ -1039,7 +1039,7 @@ uint2
 Self
 :
 :
-Rg11b10UFloat
+Rg11b10Ufloat
 =
 >
 "
@@ -1523,6 +1523,16 @@ Self
 :
 :
 Center
+|
+Self
+:
+:
+First
+|
+Self
+:
+:
+Either
 =
 >
 None

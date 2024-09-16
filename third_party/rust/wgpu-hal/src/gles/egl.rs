@@ -837,6 +837,8 @@ get
 b
 "
 XCloseDisplay
+\
+0
 "
 )
 .
@@ -937,6 +939,8 @@ get
 b
 "
 XOpenDisplay
+\
+0
 "
 )
 .
@@ -1130,6 +1134,8 @@ get
 b
 "
 wl_display_connect
+\
+0
 "
 )
 .
@@ -1155,6 +1161,8 @@ get
 b
 "
 wl_display_disconnect
+\
+0
 "
 )
 .
@@ -7611,6 +7619,8 @@ get
 b
 "
 wl_egl_window_create
+\
+0
 "
 )
 }
@@ -8354,6 +8364,8 @@ get
 b
 "
 wl_egl_window_resize
+\
+0
 "
 )
 }
@@ -8793,6 +8805,8 @@ get
 b
 "
 wl_egl_window_destroy
+\
+0
 "
 )
 }

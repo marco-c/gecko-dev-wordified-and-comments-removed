@@ -247,6 +247,10 @@ WGPUOption_PipelineLayoutId
 ;
 typedef
 uint64_t
+WGPUOption_BindGroupId
+;
+typedef
+uint64_t
 WGPUOption_BindGroupLayoutId
 ;
 typedef
@@ -387,6 +391,9 @@ Option_AdapterId
 "
 "
 Option_BufferId
+"
+"
+Option_BindGroupId
 "
 "
 Option_PipelineLayoutId

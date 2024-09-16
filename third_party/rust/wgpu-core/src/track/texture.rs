@@ -1833,7 +1833,7 @@ drain
 .
 )
 .
-map
+inspect
 (
 |
 pending
@@ -1872,7 +1872,6 @@ snatch_guard
 )
 )
 ;
-pending
 }
 )
 .

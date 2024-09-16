@@ -1,4 +1,13 @@
 use
+std
+:
+:
+sync
+:
+:
+Arc
+;
+use
 crate
 :
 :
@@ -107,7 +116,10 @@ surfaces
 :
 Registry
 <
+Arc
+<
 Surface
+>
 >
 pub
 (

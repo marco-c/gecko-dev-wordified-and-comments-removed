@@ -3080,7 +3080,10 @@ render_pass_set_bind_group
 (
 dst_pass
 index
+Some
+(
 bind_group_id
+)
 offsets
 )
 }
@@ -3915,7 +3918,10 @@ compute_pass_set_bind_group
 (
 dst_pass
 index
+Some
+(
 bind_group_id
+)
 offsets
 )
 ?
