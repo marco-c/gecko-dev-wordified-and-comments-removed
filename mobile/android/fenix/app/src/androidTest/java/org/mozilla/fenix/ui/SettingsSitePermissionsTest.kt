@@ -442,12 +442,6 @@ cases
 view
 /
 246974
-SdkSuppress
-(
-maxSdkVersion
-=
-30
-)
 Test
 fun
 sitePermissionsItemsTest
