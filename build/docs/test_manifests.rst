@@ -1476,15 +1476,6 @@ here
 .
 .
 .
-rstcheck
-:
-ignore
--
-directives
-=
-todo
-.
-.
 todo
 :
 :

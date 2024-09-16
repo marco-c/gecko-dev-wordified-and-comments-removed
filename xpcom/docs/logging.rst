@@ -4583,6 +4583,13 @@ firefox
 -
 logs
 .
+.
+.
+_Enabling
+logging
+using
+preferences
+:
 Enabling
 logging
 using
@@ -5011,7 +5018,6 @@ clear_on_startup
 |
 bool
 |
-\
 -
 -
 |
@@ -5344,7 +5350,6 @@ add_timestamp
 |
 bool
 |
-\
 -
 -
 |
@@ -5508,7 +5513,6 @@ sync
 |
 bool
 |
-\
 -
 -
 |
@@ -5673,9 +5677,9 @@ profilerstacks
 |
 bool
 |
-\
 -
 -
+|
 |
 When
 logging
@@ -5685,6 +5689,7 @@ Firefox
 Profiler
 whether
 to
+|
 |
 |
 |

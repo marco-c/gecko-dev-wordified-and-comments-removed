@@ -5525,15 +5525,6 @@ live
 :
 .
 .
-rstcheck
-:
-ignore
--
-languages
-=
-xml
-.
-.
 code
 -
 block

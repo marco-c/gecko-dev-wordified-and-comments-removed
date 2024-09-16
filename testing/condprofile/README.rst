@@ -788,14 +788,6 @@ heavy
 *
 scenario
 .
-.
-.
-code
--
-block
-:
-:
-json
 {
 "
 name

@@ -182,6 +182,27 @@ r
 )
 "
 )
+IGNORE_NOT_REF_LINK_UPSTREAM_BUG
+=
+re
+.
+compile
+(
+    
+r
+"
+Hyperlink
+target
+(
+.
+*
+)
+is
+not
+referenced
+.
+"
+)
 def
 setup
 (
@@ -302,14 +323,6 @@ match
 errors
 )
     
-if
-not
-match
-:
-        
-return
-None
-    
 filename
 lineno
 level
@@ -391,6 +404,22 @@ get_rstcheck_binary
 (
 )
     
+rstcheck_options
+=
+[
+        
+"
+-
+-
+ignore
+-
+roles
+=
+searchfox
+"
+    
+]
+    
 while
 paths
 :
@@ -406,6 +435,8 @@ python
 )
 binary
 ]
++
+rstcheck_options
 +
 paths
 [
@@ -503,7 +534,10 @@ errors
 1
 :
                 
-split_result
+filename
+lineno
+level
+message
 =
 parse_with_split
 (
@@ -511,15 +545,14 @@ errors
 )
                 
 if
-split_result
-:
-                    
-filename
-lineno
-level
+not
+IGNORE_NOT_REF_LINK_UPSTREAM_BUG
+.
+match
+(
 message
-=
-split_result
+)
+:
                     
 res
 =

@@ -211,15 +211,6 @@ file
 =
 .
 .
-rstcheck
-:
-ignore
--
-languages
-=
-yaml
-.
-.
 code
 -
 block

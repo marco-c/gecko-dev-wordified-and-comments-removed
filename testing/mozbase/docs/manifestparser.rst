@@ -2399,15 +2399,6 @@ InstanceFilter
 DEFAULT_FILTERS
 .
 .
-rstcheck
-:
-ignore
--
-directives
-=
-autodata
-.
-.
 autodata
 :
 :
