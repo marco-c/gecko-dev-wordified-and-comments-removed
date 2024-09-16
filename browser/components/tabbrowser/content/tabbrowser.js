@@ -12760,6 +12760,14 @@ this
 .
 selectedTab
 )
+&
+&
+!
+this
+.
+tabContainer
+.
+verticalMode
 )
 {
 tabWasReused
