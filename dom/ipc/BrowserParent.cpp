@@ -1927,16 +1927,6 @@ OnBrowserParentCreated
 (
 )
 ;
-mIsReadyToHandleInputEvents
-=
-!
-ContentParent
-:
-:
-IsInputEventQueueSupported
-(
-)
-;
 if
 (
 aBrowsingContext

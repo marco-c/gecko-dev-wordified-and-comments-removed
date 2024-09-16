@@ -13475,16 +13475,6 @@ global_stop_script
 true
 )
 ;
-pref
-(
-"
-input_event_queue
-.
-supported
-"
-true
-)
-;
 #
 if
 !
