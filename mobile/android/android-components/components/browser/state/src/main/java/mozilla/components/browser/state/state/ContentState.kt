@@ -1103,6 +1103,12 @@ Boolean
 =
 false
 val
+isPdf
+:
+Boolean
+=
+false
+val
 hasFormData
 :
 Boolean
