@@ -407,6 +407,13 @@ third_party
 /
 python
 /
+cbor2
+vendored
+:
+third_party
+/
+python
+/
 certifi
 vendored
 :
