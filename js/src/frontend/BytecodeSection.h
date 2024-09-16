@@ -609,6 +609,7 @@ ScriptThingsStackVector
 objects
 (
 )
+const
 {
 return
 vector

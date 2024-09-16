@@ -1159,6 +1159,7 @@ bool
 isInLoop
 (
 )
+const
 ;
 [
 [
@@ -1169,16 +1170,19 @@ bool
 checkSingletonContext
 (
 )
+const
 ;
 bool
 needsImplicitThis
 (
 )
+const
 ;
 size_t
 countThisEnvironmentHops
 (
 )
+const
 ;
 [
 [
@@ -1313,6 +1317,7 @@ errorNumber
 .
 .
 )
+const
 ;
 void
 reportError
@@ -1325,6 +1330,7 @@ errorNumber
 .
 .
 )
+const
 ;
 bool
 intoScriptStencil
@@ -1348,6 +1354,7 @@ bool
 *
 answer
 )
+const
 ;
 #
 ifdef
@@ -1363,6 +1370,7 @@ checkStrictOrSloppy
 JSOp
 op
 )
+const
 ;
 #
 endif
@@ -1584,6 +1592,7 @@ uint32_t
 *
 nslots
 )
+const
 ;
 [
 [
@@ -2118,6 +2127,7 @@ ParseNode
 *
 nextpn
 )
+const
 ;
 enum
 class
@@ -2349,6 +2359,7 @@ bool
 *
 withoutValues
 )
+const
 ;
 bool
 isArrayObjLiteralCompatible
@@ -2357,6 +2368,7 @@ ListNode
 *
 array
 )
+const
 ;
 [
 [
@@ -2431,6 +2443,7 @@ ParseNode
 *
 value
 )
+const
 ;
 [
 [
@@ -2463,6 +2476,7 @@ classMembers
 FieldPlacement
 placement
 )
+const
 ;
 [
 [
@@ -2510,6 +2524,7 @@ MemberInitializers
 findMemberInitializersForCall
 (
 )
+const
 ;
 [
 [
@@ -3385,6 +3400,7 @@ callOp
 SelfHostedIter
 selfHostedIter
 )
+const
 ;
 [
 [
@@ -3622,12 +3638,7 @@ FunctionPrefixKind
 prefixKind
 )
 ;
-[
-[
-nodiscard
-]
-]
-bool
+void
 setFunName
 (
 FunctionBox
@@ -3636,6 +3647,7 @@ fun
 TaggedParserAtomIndex
 name
 )
+const
 ;
 [
 [
@@ -4157,6 +4169,7 @@ ListNode
 *
 argsList
 )
+const
 ;
 [
 [
@@ -5013,6 +5026,7 @@ ParseNode
 *
 parseNode
 )
+const
 ;
 [
 [

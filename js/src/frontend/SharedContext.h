@@ -1079,6 +1079,7 @@ ImmutableScriptFlags
 immutableFlags
 (
 )
+const
 {
 return
 immutableFlags_
@@ -1088,6 +1089,7 @@ bool
 allBindingsClosedOver
 (
 )
+const
 {
 return
 bindingsAccessedDynamically
@@ -1152,6 +1154,7 @@ bool
 isEligibleForArgumentsLength
 (
 )
+const
 {
 return
 eligibleForArgumentsLength
@@ -2280,6 +2283,7 @@ FunctionKind
 kind
 (
 )
+const
 {
 return
 flags_
@@ -2771,6 +2775,7 @@ uint16_t
 length
 (
 )
+const
 {
 return
 length_
@@ -2810,6 +2815,7 @@ size_t
 nargs
 (
 )
+const
 {
 return
 nargs_
@@ -2875,6 +2881,7 @@ ScriptIndex
 index
 (
 )
+const
 {
 return
 funcDataIndex_
