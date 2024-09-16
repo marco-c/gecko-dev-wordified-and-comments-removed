@@ -27,16 +27,6 @@ true
 ;
 #
 else
-pref
-(
-"
-pdfjs
-.
-enableHighlightEditor
-"
-true
-)
-;
 #
 if
 defined
