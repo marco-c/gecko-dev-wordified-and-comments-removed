@@ -5172,6 +5172,7 @@ ToDeviceIntRect
 aDirtyRect
 )
 0
+false
 )
 ;
 return

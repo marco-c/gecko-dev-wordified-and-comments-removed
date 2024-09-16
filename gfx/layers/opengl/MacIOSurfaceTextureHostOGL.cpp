@@ -790,6 +790,7 @@ descriptor
 aExtID
 imageType
 0
+false
 )
 ;
 break
@@ -863,6 +864,7 @@ descriptor
 aExtID
 imageType
 0
+false
 )
 ;
 break
@@ -988,6 +990,7 @@ descriptor0
 aExtID
 imageType
 0
+false
 )
 ;
 (
@@ -1005,6 +1008,7 @@ descriptor1
 aExtID
 imageType
 1
+false
 )
 ;
 break
@@ -1130,6 +1134,7 @@ descriptor0
 aExtID
 imageType
 0
+false
 )
 ;
 (
@@ -1147,6 +1152,7 @@ descriptor1
 aExtID
 imageType
 1
+false
 )
 ;
 break
@@ -1272,6 +1278,7 @@ descriptor0
 aExtID
 imageType
 0
+false
 )
 ;
 (
@@ -1289,6 +1296,7 @@ descriptor1
 aExtID
 imageType
 1
+false
 )
 ;
 break
