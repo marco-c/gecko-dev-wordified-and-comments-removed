@@ -2094,7 +2094,16 @@ canvasdata13Fingerprintjs2software
 voices
 "
 "
-mediaCapabilities
+mediaCapabilitiesUnsupported
+"
+"
+mediaCapabilitiesNotSmooth
+"
+"
+mediaCapabilitiesNotEfficient
+"
+"
+mediaCapabilitiesH264
 "
 "
 audioFingerprint
