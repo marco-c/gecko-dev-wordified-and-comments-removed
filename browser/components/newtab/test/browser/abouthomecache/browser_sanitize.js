@@ -27,7 +27,6 @@ CLEAR_DOWNLOADS
 ]
 [
 "
-places
 history
 "
 Ci
@@ -35,17 +34,6 @@ Ci
 nsIClearDataService
 .
 CLEAR_HISTORY
-]
-[
-"
-session
-history
-"
-Ci
-.
-nsIClearDataService
-.
-CLEAR_SESSION_HISTORY
 ]
 ]
 ;

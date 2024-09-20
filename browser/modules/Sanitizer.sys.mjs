@@ -3684,12 +3684,6 @@ Ci
 .
 nsIClearDataService
 .
-CLEAR_SESSION_HISTORY
-|
-Ci
-.
-nsIClearDataService
-.
 CLEAR_CONTENT_BLOCKING_RECORDS
 )
 ;
@@ -5451,12 +5445,6 @@ Ci
 nsIClearDataService
 .
 CLEAR_HISTORY
-|
-Ci
-.
-nsIClearDataService
-.
-CLEAR_SESSION_HISTORY
 |
 Ci
 .

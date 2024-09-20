@@ -305,12 +305,6 @@ Ci
 nsIClearDataService
 .
 CLEAR_HISTORY
-|
-Ci
-.
-nsIClearDataService
-.
-CLEAR_SESSION_HISTORY
 ]
 [
 /

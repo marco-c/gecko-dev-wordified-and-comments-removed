@@ -1464,7 +1464,7 @@ Services
 .
 clearData
 .
-CLEAR_SESSION_HISTORY
+CLEAR_HISTORY
 resolve
 )
 ;
