@@ -45560,6 +45560,8 @@ MOZ_DIAGNOSTIC_ASSERT
 aChromeEventHandler
 )
 ;
+if
+(
 RefPtr
 <
 Document
@@ -45572,18 +45574,8 @@ aItem
 GetDocument
 (
 )
-;
-NS_ASSERTION
-(
-doc
-"
-What
-happened
-here
-?
-"
 )
-;
+{
 doc
 -
 >
@@ -45594,6 +45586,7 @@ aChromeEventHandler
 aOnlySystemGroup
 )
 ;
+}
 int32_t
 childCount
 =
