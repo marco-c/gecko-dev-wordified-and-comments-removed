@@ -16529,7 +16529,7 @@ AnyRef
 continue
 ;
 }
-TraceNullableRoot
+TraceManuallyBarrieredNullableEdge
 (
 trc
 (
@@ -16626,7 +16626,7 @@ offsetOfRegisterResult
 i
 )
 ;
-TraceNullableRoot
+TraceManuallyBarrieredNullableEdge
 (
 trc
 (
@@ -16672,7 +16672,7 @@ offsetOfCachedReturnJSValue
 (
 )
 ;
-TraceRoot
+TraceManuallyBarrieredEdge
 (
 trc
 (
