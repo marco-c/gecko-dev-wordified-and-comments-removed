@@ -982,11 +982,5 @@ attribute
 nsresult
 lastTransportStatus
 ;
-readonly
-attribute
-unsigned
-long
-caps
-;
 }
 ;
