@@ -36,7 +36,10 @@ use
 spirv
 :
 :
+{
 Capability
+SourceLanguage
+}
 ;
 use
 crate
@@ -456,6 +459,10 @@ path
 :
 :
 Path
+pub
+language
+:
+SourceLanguage
 }
 struct
 Block

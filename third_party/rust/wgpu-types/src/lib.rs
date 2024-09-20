@@ -4348,7 +4348,7 @@ array
 <
 texture_storage_2d
 <
-f32
+r32float
 write
 >
 10

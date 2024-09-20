@@ -11817,13 +11817,9 @@ Instruction
 :
 source_auto_continued
 (
-spirv
-:
-:
-SourceLanguage
-:
-:
-Unknown
+debug_info
+.
+language
 0
 &
 debug_info_inner
