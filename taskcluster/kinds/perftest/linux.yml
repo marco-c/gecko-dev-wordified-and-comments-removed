@@ -376,7 +376,7 @@ attributes
 :
 cron
 :
-true
+false
 scopes
 :
 -
@@ -505,7 +505,7 @@ attributes
 :
 cron
 :
-true
+false
 scopes
 :
 -
