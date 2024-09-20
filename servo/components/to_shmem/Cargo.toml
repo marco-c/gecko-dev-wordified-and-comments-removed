@@ -11,9 +11,9 @@ version
 "
 0
 .
-0
-.
 1
+.
+0
 "
 authors
 =
@@ -39,9 +39,6 @@ edition
 "
 2021
 "
-publish
-=
-false
 [
 lib
 ]
