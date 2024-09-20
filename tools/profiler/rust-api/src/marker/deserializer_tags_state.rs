@@ -193,7 +193,6 @@ ProfilerMarker
 let
 unique_marker_tag
 =
-&
 T
 :
 :
@@ -201,7 +200,8 @@ marker_type_name
 as
 *
 const
-_
+(
+)
 as
 usize
 ;
