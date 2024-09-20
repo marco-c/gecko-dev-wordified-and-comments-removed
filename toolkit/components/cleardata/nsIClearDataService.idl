@@ -222,15 +222,6 @@ CLEAR_DOWNLOADS
 ;
 const
 uint32_t
-CLEAR_PASSWORDS
-=
-1
-<
-<
-5
-;
-const
-uint32_t
 CLEAR_MEDIA_DEVICES
 =
 1
