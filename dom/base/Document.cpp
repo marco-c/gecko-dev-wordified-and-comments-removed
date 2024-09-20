@@ -79947,7 +79947,7 @@ PresContext
 )
 -
 >
-IsPrintingOrPrintPreview
+IsPaginated
 (
 )
 )
