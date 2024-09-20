@@ -1793,6 +1793,16 @@ startsWith
 FAKESPOT_OPTIN_DEFAULT
 "
 )
+|
+|
+message_id
+.
+startsWith
+(
+"
+FAKESPOT_OPTIN_SIDEBAR_VARIANT
+"
+)
 )
 {
 /
