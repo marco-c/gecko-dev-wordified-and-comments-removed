@@ -15,7 +15,7 @@ extension
 MOZ_CARGO_WRAP_HOST_LD
 %
 %
+*
+%
 MOZ_CARGO_WRAP_HOST_LDFLAGS
 %
-%
-*
