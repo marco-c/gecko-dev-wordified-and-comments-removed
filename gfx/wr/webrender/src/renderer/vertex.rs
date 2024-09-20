@@ -63,6 +63,17 @@ render_task
 RenderTaskData
 }
 ;
+use
+crate
+:
+:
+internal_types
+:
+:
+{
+FrameVec
+}
+;
 pub
 const
 VERTEX_TEXTURE_EXTRA_ROWS
@@ -3049,7 +3060,7 @@ data
 :
 &
 mut
-Vec
+FrameVec
 <
 T
 >

@@ -56,6 +56,7 @@ internal_types
 {
 FastHashMap
 FastHashSet
+FrameMemory
 PipelineInstanceId
 }
 ;
@@ -5806,6 +5807,10 @@ build_transform_palette
 (
 &
 self
+memory
+:
+&
+FrameMemory
 )
 -
 >
@@ -5831,6 +5836,7 @@ spatial_nodes
 len
 (
 )
+memory
 )
 }
 fn
