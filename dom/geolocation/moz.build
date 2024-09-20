@@ -139,6 +139,7 @@ OS_TARGET
 WINNT
 "
 and
+(
 CONFIG
 [
 "
@@ -152,6 +153,14 @@ clang
 -
 cl
 "
+or
+CONFIG
+[
+"
+MOZ_ARTIFACT_BUILDS
+"
+]
+)
 and
 CONFIG
 [
