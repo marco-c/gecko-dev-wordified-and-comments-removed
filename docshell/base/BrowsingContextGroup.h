@@ -617,6 +617,14 @@ IsPotentiallyCrossOriginIsolated
 (
 )
 ;
+void
+NotifyFocusedOrActiveBrowsingContextToProcess
+(
+ContentParent
+*
+aProcess
+)
+;
 static
 void
 GetAllGroups
