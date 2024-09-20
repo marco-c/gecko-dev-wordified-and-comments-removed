@@ -11,7 +11,7 @@ CssVariantAttrs
 }
 ;
 use
-derive_common
+crate
 :
 :
 cg

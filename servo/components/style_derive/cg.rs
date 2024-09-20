@@ -102,6 +102,9 @@ VariantInfo
 }
 ;
 pub
+(
+crate
+)
 fn
 propagate_clauses_to_output_type
 (
@@ -405,6 +408,9 @@ bounds
 }
 }
 pub
+(
+crate
+)
 fn
 add_predicate
 (
@@ -444,6 +450,9 @@ pred
 ;
 }
 pub
+(
+crate
+)
 fn
 fmap_match
 <
@@ -488,6 +497,9 @@ None
 )
 }
 pub
+(
+crate
+)
 fn
 fmap2_match
 <
@@ -738,6 +750,9 @@ computations
 )
 }
 pub
+(
+crate
+)
 fn
 fmap_trait_output
 (
@@ -943,6 +958,9 @@ into
 )
 }
 pub
+(
+crate
+)
 fn
 map_type_params
 <
@@ -1802,6 +1820,9 @@ None
 }
 }
 pub
+(
+crate
+)
 fn
 parse_field_attrs
 <
@@ -1861,6 +1882,9 @@ e
 }
 }
 pub
+(
+crate
+)
 fn
 parse_input_attrs
 <
@@ -1920,6 +1944,9 @@ e
 }
 }
 pub
+(
+crate
+)
 fn
 parse_variant_attrs_from_ast
 <
@@ -1989,6 +2016,9 @@ v
 )
 }
 pub
+(
+crate
+)
 fn
 parse_variant_attrs
 <
@@ -2048,6 +2078,9 @@ e
 }
 }
 pub
+(
+crate
+)
 fn
 ref_pattern
 <
@@ -2172,6 +2205,9 @@ to_vec
 )
 }
 pub
+(
+crate
+)
 fn
 value
 <
@@ -2296,6 +2332,9 @@ to_vec
 )
 }
 pub
+(
+crate
+)
 fn
 to_css_identifier
 (
@@ -2419,6 +2458,9 @@ to_lowercase
 result
 }
 pub
+(
+crate
+)
 fn
 to_scream_case
 (

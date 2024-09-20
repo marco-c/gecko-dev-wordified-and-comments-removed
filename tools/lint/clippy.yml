@@ -137,13 +137,6 @@ servo
 /
 components
 /
-derive_common
-/
--
-servo
-/
-components
-/
 selectors
 /
 -

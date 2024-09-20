@@ -17,10 +17,6 @@ darling
 ;
 extern
 crate
-derive_common
-;
-extern
-crate
 proc_macro
 ;
 extern
@@ -52,6 +48,9 @@ proc_macro
 :
 :
 TokenStream
+;
+mod
+cg
 ;
 mod
 animate
