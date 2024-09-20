@@ -493,6 +493,13 @@ headers
 ]
 [
 "
+browser_backforward_text_fragment_restore_urlbar
+.
+js
+"
+]
+[
+"
 browser_backforward_userinteraction
 .
 js
