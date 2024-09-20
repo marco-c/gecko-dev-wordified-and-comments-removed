@@ -420,15 +420,6 @@ test_slowStorageInitialization
 js
 "
 ]
-skip
--
-if
-=
-[
-"
-true
-"
-]
 [
 "
 test_snappyUpgrade
