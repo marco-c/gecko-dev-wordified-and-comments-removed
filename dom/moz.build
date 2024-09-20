@@ -117,6 +117,9 @@ webidl
 clients
 "
 "
+closewatcher
+"
+"
 commandhandler
 "
 "
