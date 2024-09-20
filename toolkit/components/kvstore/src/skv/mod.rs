@@ -20,6 +20,9 @@ mod
 abort
 ;
 mod
+checker
+;
+mod
 connection
 ;
 mod
@@ -36,6 +39,9 @@ interface
 ;
 mod
 key
+;
+mod
+maintenance
 ;
 mod
 schema
