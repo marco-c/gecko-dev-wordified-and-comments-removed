@@ -717,6 +717,14 @@ attribute
 GPUSupportedLimits
 limits
 ;
+[
+SameObject
+]
+readonly
+attribute
+GPUAdapterInfo
+info
+;
 readonly
 attribute
 boolean
