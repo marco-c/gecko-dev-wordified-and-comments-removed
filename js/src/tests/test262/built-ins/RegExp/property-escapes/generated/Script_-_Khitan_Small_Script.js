@@ -8,6 +8,7 @@ loneCodePoints
 :
 [
 0x016FE4
+0x018CFF
 ]
 ranges
 :
@@ -159,6 +160,10 @@ ranges
 ]
 [
 0x018CD6
+0x018CFE
+]
+[
+0x018D00
 0x10FFFF
 ]
 ]

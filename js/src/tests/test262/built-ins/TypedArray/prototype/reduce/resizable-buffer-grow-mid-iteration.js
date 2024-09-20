@@ -13,6 +13,7 @@ resizeTo
 function
 ResizeMidIteration
 (
+acc
 n
 )
 {

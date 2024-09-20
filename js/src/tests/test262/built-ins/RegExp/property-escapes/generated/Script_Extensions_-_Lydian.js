@@ -7,6 +7,8 @@ buildString
 loneCodePoints
 :
 [
+0x0000B7
+0x002E31
 0x01093F
 ]
 ranges
@@ -147,6 +149,14 @@ ranges
 ]
 [
 0x000000
+0x0000B6
+]
+[
+0x0000B8
+0x002E30
+]
+[
+0x002E32
 0x00DBFF
 ]
 [

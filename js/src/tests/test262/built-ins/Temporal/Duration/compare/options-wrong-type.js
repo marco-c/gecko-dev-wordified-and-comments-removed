@@ -44,9 +44,9 @@ hours
 1
 }
 {
-minutes
+hours
 :
-60
+1
 }
 value
 )

@@ -21,7 +21,7 @@ ranges
 ]
 [
 0x011F3E
-0x011F59
+0x011F5A
 ]
 ]
 }
@@ -166,7 +166,7 @@ ranges
 0x011F3D
 ]
 [
-0x011F5A
+0x011F5B
 0x10FFFF
 ]
 ]
