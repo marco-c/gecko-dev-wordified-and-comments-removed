@@ -5131,6 +5131,34 @@ try_name
 return
 False
                 
+if
+(
+                    
+"
+tp6
+"
+in
+try_name
+and
+"
+essential
+"
+not
+in
+try_name
+                
+)
+or
+"
+tp6m
+"
+in
+try_name
+:
+                    
+return
+False
+                
 return
 True
         

@@ -794,6 +794,9 @@ apps
 [
 firefox
 chrome
+custom
+-
+car
 ]
 test
 :
