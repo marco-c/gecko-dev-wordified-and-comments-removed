@@ -1,3 +1,11 @@
+TEST_DIRS
++
+=
+[
+"
+test
+"
+]
 XPIDL_SOURCES
 +
 =
