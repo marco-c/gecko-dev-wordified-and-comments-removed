@@ -55,10 +55,6 @@ if
 =
 [
 "
-!
-allow_legacy_extensions
-"
-"
 require_signing
 "
 ]

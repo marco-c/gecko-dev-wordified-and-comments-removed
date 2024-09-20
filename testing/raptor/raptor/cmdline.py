@@ -5127,6 +5127,9 @@ filter_app
 self
 tests
 values
+strict
+=
+True
 )
 :
         
