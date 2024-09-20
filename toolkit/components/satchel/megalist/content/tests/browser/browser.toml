@@ -37,6 +37,13 @@ js
 ]
 [
 "
+browser_passwords_sidebar_import_from_csv
+.
+js
+"
+]
+[
+"
 browser_viewmodel
 .
 js
