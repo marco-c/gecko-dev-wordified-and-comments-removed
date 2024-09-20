@@ -7347,6 +7347,15 @@ return
 if
 (
 mIMEContentObserver
+&
+&
+aEvent
+-
+>
+mMessage
+!
+=
+eQueryDropTargetHittest
 )
 {
 RefPtr
