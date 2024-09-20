@@ -317,9 +317,6 @@ AndroidComposeTestRule
 (
 HomeActivityIntentTestRule
 (
-isJumpBackInCFREnabled
-=
-false
 /
 /
 workaround

@@ -252,9 +252,6 @@ HomeActivityIntentTestRule
 isPocketEnabled
 =
 false
-isJumpBackInCFREnabled
-=
-false
 isWallpaperOnboardingEnabled
 =
 false

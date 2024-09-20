@@ -170,9 +170,6 @@ activityTestRule
 =
 HomeActivityTestRule
 (
-isJumpBackInCFREnabled
-=
-false
 isPWAsPromptEnabled
 =
 false

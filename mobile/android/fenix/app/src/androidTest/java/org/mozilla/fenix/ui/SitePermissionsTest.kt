@@ -413,9 +413,6 @@ activityTestRule
 =
 HomeActivityIntentTestRule
 (
-isJumpBackInCFREnabled
-=
-false
 isNavigationBarCFREnabled
 =
 false

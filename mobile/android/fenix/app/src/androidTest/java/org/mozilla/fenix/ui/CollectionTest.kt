@@ -293,9 +293,6 @@ HomeActivityIntentTestRule
 isHomeOnboardingDialogEnabled
 =
 false
-isJumpBackInCFREnabled
-=
-false
 isRecentTabsFeatureEnabled
 =
 false

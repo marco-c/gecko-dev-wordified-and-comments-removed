@@ -300,9 +300,6 @@ activityTestRule
 =
 HomeActivityTestRule
 (
-isJumpBackInCFREnabled
-=
-false
 isTCPCFREnabled
 =
 false

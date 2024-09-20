@@ -591,9 +591,6 @@ true
 isPocketEnabled
 =
 false
-isJumpBackInCFREnabled
-=
-false
 isRecentTabsFeatureEnabled
 =
 false

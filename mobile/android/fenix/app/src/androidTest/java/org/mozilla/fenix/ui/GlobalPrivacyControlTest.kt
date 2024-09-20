@@ -184,9 +184,6 @@ activityTestRule
 =
 HomeActivityIntentTestRule
 (
-isJumpBackInCFREnabled
-=
-false
 isTCPCFREnabled
 =
 false

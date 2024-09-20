@@ -398,9 +398,6 @@ AndroidComposeTestRule
 (
 HomeActivityTestRule
 (
-isJumpBackInCFREnabled
-=
-false
 isPWAsPromptEnabled
 =
 false

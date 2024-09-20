@@ -230,11 +230,6 @@ applySettingsExceptions
 {
 it
 .
-isJumpBackInCFREnabled
-=
-false
-it
-.
 isNavigationToolbarEnabled
 =
 true
