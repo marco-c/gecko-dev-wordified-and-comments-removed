@@ -5904,14 +5904,6 @@ topSitesStorage
 pinnedSiteStorage
 =
 pinnedSiteStorage
-onShowPinVerification
-=
-{
-}
-onBiometricAuthenticationSuccessful
-=
-{
-}
 )
 .
 apply

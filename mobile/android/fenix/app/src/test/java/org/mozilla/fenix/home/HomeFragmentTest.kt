@@ -765,10 +765,6 @@ homeFragment
 mockk
 (
 )
-{
-}
-{
-}
 )
 toolbarView
 .

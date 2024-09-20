@@ -377,10 +377,6 @@ true
 )
 homeFragment
 homeActivity
-{
-}
-{
-}
 )
 )
 every

@@ -1019,6 +1019,16 @@ mozilla
 .
 fenix
 .
+lifecycle
+.
+VisibilityLifecycleObserver
+import
+org
+.
+mozilla
+.
+fenix
+.
 nimbus
 .
 FxNimbus
@@ -2366,6 +2376,9 @@ components
 core
 .
 store
+)
+VisibilityLifecycleObserver
+(
 )
 )
 components

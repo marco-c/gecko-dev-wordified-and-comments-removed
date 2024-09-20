@@ -467,9 +467,6 @@ homeMenuView
 =
 HomeMenuView
 (
-view
-=
-view
 context
 =
 testContext
@@ -491,14 +488,6 @@ WeakReference
 (
 menuButton
 )
-onShowPinVerification
-=
-{
-}
-onBiometricAuthenticationSuccessful
-=
-{
-}
 )
 }
 Test
