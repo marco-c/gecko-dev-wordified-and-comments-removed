@@ -160,7 +160,7 @@ level
 H264_LEVEL
 :
 :
-H264_LEVEL_5_2
+H264_LEVEL_6_2
 &
 &
 (
