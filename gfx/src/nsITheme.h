@@ -372,7 +372,10 @@ false
 ;
 }
 virtual
-nscoord
+mozilla
+:
+:
+CSSCoord
 GetCheckboxRadioPrefSize
 (
 )
@@ -381,12 +384,11 @@ return
 mozilla
 :
 :
-CSSPixel
-:
-:
-ToAppUnits
+CSSCoord
 (
 9
+.
+0f
 )
 ;
 }
