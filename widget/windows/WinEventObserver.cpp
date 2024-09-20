@@ -1,13 +1,6 @@
 #
 include
 <
-corecrt_memcpy_s
-.
-h
->
-#
-include
-<
 windows
 .
 h
