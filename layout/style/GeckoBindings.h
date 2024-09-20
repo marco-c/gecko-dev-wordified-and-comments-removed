@@ -2539,7 +2539,7 @@ const
 mozilla
 :
 :
-StyleColorScheme
+StyleColorSchemeFlags
 *
 )
 ;
@@ -2563,7 +2563,7 @@ const
 mozilla
 :
 :
-StyleColorScheme
+StyleColorSchemeFlags
 *
 )
 ;
