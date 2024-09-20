@@ -2660,6 +2660,12 @@ arg
 sender
 )
 ;
+arg
+.
+query
+=
+true
+;
 let
 result
 =
@@ -2869,6 +2875,12 @@ normalizeArgs
 arg
 sender
 )
+;
+arg
+.
+query
+=
+true
 ;
 let
 all
