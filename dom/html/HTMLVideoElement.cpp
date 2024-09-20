@@ -4064,10 +4064,15 @@ isSome
 ;
 if
 (
+mSelectedVideoStreamTrack
+&
+&
+(
 hasCaptureTimeNtp
 |
 |
 hasReceiveTimeReal
+)
 )
 {
 if
