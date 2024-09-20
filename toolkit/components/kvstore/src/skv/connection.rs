@@ -195,13 +195,13 @@ fn
 new
 <
 O
-P
 >
 (
 path
 :
 &
-P
+impl
+ConnectionPath
 type_
 :
 ConnectionType
@@ -220,9 +220,6 @@ where
 O
 :
 ConnectionOpener
-P
-:
-ConnectionPath
 {
 let
 mut
