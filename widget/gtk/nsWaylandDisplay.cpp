@@ -1637,6 +1637,12 @@ EqualsLiteral
 wl_compositor
 "
 )
+&
+&
+version
+>
+=
+WL_SURFACE_DAMAGE_BUFFER_SINCE_VERSION
 )
 {
 auto
@@ -1755,7 +1761,8 @@ zwp_linux_dmabuf_v1
 &
 version
 >
-2
+=
+ZWP_LINUX_DMABUF_V1_MODIFIER_SINCE_VERSION
 )
 {
 auto
@@ -1771,7 +1778,7 @@ registry
 id
 &
 zwp_linux_dmabuf_v1_interface
-3
+ZWP_LINUX_DMABUF_V1_MODIFIER_SINCE_VERSION
 )
 ;
 display
@@ -1870,6 +1877,12 @@ EqualsLiteral
 wl_seat
 "
 )
+&
+&
+version
+>
+=
+WL_POINTER_RELEASE_SINCE_VERSION
 )
 {
 auto
@@ -1888,11 +1901,6 @@ wl_seat_interface
 WL_POINTER_RELEASE_SINCE_VERSION
 )
 ;
-if
-(
-seat
-)
-{
 display
 -
 >
@@ -1902,7 +1910,6 @@ seat
 id
 )
 ;
-}
 }
 else
 if
@@ -1984,6 +1991,12 @@ EqualsLiteral
 zwp_pointer_gestures_v1
 "
 )
+&
+&
+version
+>
+=
+ZWP_POINTER_GESTURES_V1_GET_HOLD_GESTURE_SINCE_VERSION
 )
 {
 auto
@@ -2002,11 +2015,6 @@ zwp_pointer_gestures_v1_interface
 ZWP_POINTER_GESTURES_V1_GET_HOLD_GESTURE_SINCE_VERSION
 )
 ;
-if
-(
-gestures
-)
-{
 display
 -
 >
@@ -2015,7 +2023,6 @@ SetPointerGestures
 gestures
 )
 ;
-}
 }
 }
 static
