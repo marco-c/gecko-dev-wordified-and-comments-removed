@@ -126,7 +126,7 @@ scroller
 >
 {
 return
-waitForScrollEnd
+waitForScrollEndFallbackToDelayWithoutScrollEvent
 (
 scroller
 )

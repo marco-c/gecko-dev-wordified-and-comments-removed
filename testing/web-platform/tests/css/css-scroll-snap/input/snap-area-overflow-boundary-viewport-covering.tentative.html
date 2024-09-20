@@ -676,7 +676,7 @@ element
 let
 scrollEndPromise
 =
-waitForScrollEnd
+waitForScrollEndFallbackToDelayWithoutScrollEvent
 (
 scroller
 )
@@ -836,7 +836,7 @@ offset
 ;
 scrollEndPromise
 =
-waitForScrollEnd
+waitForScrollEndFallbackToDelayWithoutScrollEvent
 (
 scroller
 )
@@ -910,7 +910,7 @@ next
 .
 scrollEndPromise
 =
-waitForScrollEnd
+waitForScrollEndFallbackToDelayWithoutScrollEvent
 (
 scroller
 )
@@ -1003,7 +1003,7 @@ element
 let
 scrollEndPromise
 =
-waitForScrollEnd
+waitForScrollEndFallbackToDelayWithoutScrollEvent
 (
 scroller
 )
@@ -1097,7 +1097,7 @@ scrollTop
 ;
 scrollEndPromise
 =
-waitForScrollEnd
+waitForScrollEndFallbackToDelayWithoutScrollEvent
 (
 scroller
 )
@@ -1211,7 +1211,7 @@ bottom
 ;
 scrollEndPromise
 =
-waitForScrollEnd
+waitForScrollEndFallbackToDelayWithoutScrollEvent
 (
 scroller
 )
