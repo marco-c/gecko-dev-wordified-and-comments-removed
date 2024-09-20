@@ -1424,12 +1424,6 @@ _cancelDelayedStartup
 (
 )
 ;
-Services
-.
-appShell
-.
-hiddenDOMWindow
-;
 gBrowser
 .
 addEventListener
