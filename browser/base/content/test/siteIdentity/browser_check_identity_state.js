@@ -342,9 +342,6 @@ config
 downloads
 "
 "
-ion
-"
-"
 license
 "
 "
