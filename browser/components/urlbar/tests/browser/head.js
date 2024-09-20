@@ -1270,7 +1270,7 @@ window
 pageProxyState
 =
 "
-valid
+invalid
 "
 userTypedValue
 =
