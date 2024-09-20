@@ -317,6 +317,14 @@ NS_DECL_ABSTRACT_FRAME
 SVGDisplayContainerFrame
 )
 void
+DidSetComputedStyle
+(
+ComputedStyle
+*
+)
+override
+;
+void
 InsertFrames
 (
 ChildListID
