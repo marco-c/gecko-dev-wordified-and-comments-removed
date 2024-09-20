@@ -23,6 +23,12 @@ AsyncPoll
 from
 .
 .
+.
+import
+number_interval
+from
+.
+.
 import
 (
     
@@ -817,6 +823,168 @@ bodySize
 ]
 >
 0
+pytest
+.
+mark
+.
+asyncio
+async
+def
+test_request_timing_info
+(
+    
+url
+    
+wait_for_event
+    
+wait_for_future_safe
+    
+fetch
+    
+setup_network_test
+    
+current_time
+)
+:
+    
+network_events
+=
+await
+setup_network_test
+(
+events
+=
+[
+RESPONSE_STARTED_EVENT
+]
+)
+    
+events
+=
+network_events
+[
+RESPONSE_STARTED_EVENT
+]
+    
+time_start
+=
+await
+current_time
+(
+)
+    
+on_response_started
+=
+wait_for_event
+(
+RESPONSE_STARTED_EVENT
+)
+    
+await
+fetch
+(
+url
+(
+PAGE_EMPTY_HTML
+)
+method
+=
+"
+GET
+"
+)
+    
+await
+wait_for_future_safe
+(
+on_response_started
+)
+    
+time_end
+=
+await
+current_time
+(
+)
+    
+time_range
+=
+number_interval
+(
+time_start
+time_end
+)
+    
+assert
+len
+(
+events
+)
+=
+=
+1
+    
+expected_request
+=
+{
+        
+"
+method
+"
+:
+"
+GET
+"
+        
+"
+url
+"
+:
+url
+(
+PAGE_EMPTY_HTML
+)
+    
+}
+    
+expected_response
+=
+{
+"
+url
+"
+:
+url
+(
+PAGE_EMPTY_HTML
+)
+}
+    
+assert_response_event
+(
+        
+events
+[
+0
+]
+        
+expected_request
+=
+expected_request
+        
+expected_response
+=
+expected_response
+        
+expected_time_range
+=
+time_range
+        
+redirect_count
+=
+0
+    
+)
 pytest
 .
 mark
@@ -1934,6 +2102,8 @@ wait_for_future_safe
 fetch
     
 setup_network_test
+    
+current_time
 )
 :
     
@@ -2033,6 +2203,13 @@ wait_for_event
 RESPONSE_STARTED_EVENT
 )
     
+time_start
+=
+await
+current_time
+(
+)
+    
 await
 fetch
 (
@@ -2051,6 +2228,21 @@ await
 wait_for_future_safe
 (
 on_response_started
+)
+    
+time_end
+=
+await
+current_time
+(
+)
+    
+time_range
+=
+number_interval
+(
+time_start
+time_end
 )
     
 assert
@@ -2073,6 +2265,7 @@ events
 expected_request
 =
 {
+            
 "
 method
 "
@@ -2080,11 +2273,13 @@ method
 "
 GET
 "
+            
 "
 url
 "
 :
 serviceworker_url
+        
 }
         
 expected_response
@@ -2109,6 +2304,10 @@ serviceworker
         
 }
         
+expected_time_range
+=
+time_range
+        
 redirect_count
 =
 0
@@ -2129,6 +2328,7 @@ wait_for_event
 wait_for_future_safe
 fetch
 setup_network_test
+current_time
 )
 :
     
@@ -2172,6 +2372,13 @@ wait_for_event
 RESPONSE_STARTED_EVENT
 )
     
+time_start
+=
+await
+current_time
+(
+)
+    
 await
 fetch
 (
@@ -2187,6 +2394,21 @@ await
 wait_for_future_safe
 (
 on_response_started
+)
+    
+time_end
+=
+await
+current_time
+(
+)
+    
+time_range
+=
+number_interval
+(
+time_start
+time_end
 )
     
 assert
@@ -2209,6 +2431,7 @@ events
 expected_request
 =
 {
+            
 "
 method
 "
@@ -2216,11 +2439,13 @@ method
 "
 GET
 "
+            
 "
 url
 "
 :
 fragment_url
+        
 }
         
 expected_response
@@ -2232,6 +2457,10 @@ url
 :
 fragment_url
 }
+        
+expected_time_range
+=
+time_range
         
 redirect_count
 =
@@ -2291,12 +2520,20 @@ test_navigate_data_url
 (
     
 bidi_session
+    
 top_context
+    
 wait_for_event
+    
 wait_for_future_safe
+    
 setup_network_test
+    
 page_url
+    
 mimeType
+    
+current_time
 )
 :
     
@@ -2324,6 +2561,13 @@ on_response_started
 wait_for_event
 (
 RESPONSE_STARTED_EVENT
+)
+    
+time_start
+=
+await
+current_time
+(
 )
     
 result
@@ -2361,6 +2605,21 @@ wait_for_future_safe
 on_response_started
 )
     
+time_end
+=
+await
+current_time
+(
+)
+    
+time_range
+=
+number_interval
+(
+time_start
+time_end
+)
+    
 assert
 len
 (
@@ -2381,6 +2640,7 @@ events
 expected_request
 =
 {
+            
 "
 method
 "
@@ -2388,11 +2648,13 @@ method
 "
 GET
 "
+            
 "
 url
 "
 :
 page_url
+        
 }
         
 expected_response
@@ -2404,8 +2666,8 @@ headers
 "
 :
 [
-{
                 
+{
 "
 name
 "
@@ -2415,7 +2677,6 @@ Content
 -
 Type
 "
-                
 "
 value
 "
@@ -2434,8 +2695,8 @@ value
 :
 mimeType
 }
-            
 }
+            
 ]
             
 "
@@ -2473,6 +2734,10 @@ url
 page_url
         
 }
+        
+expected_time_range
+=
+time_range
         
 redirect_count
 =
@@ -2555,11 +2820,18 @@ test_fetch_data_url
 (
     
 wait_for_event
+    
 wait_for_future_safe
+    
 fetch
+    
 setup_network_test
+    
 fetch_url
+    
 mimeType
+    
+current_time
 )
 :
     
@@ -2581,6 +2853,13 @@ network_events
 [
 RESPONSE_STARTED_EVENT
 ]
+    
+time_start
+=
+await
+current_time
+(
+)
     
 on_response_started
 =
@@ -2606,6 +2885,21 @@ wait_for_future_safe
 on_response_started
 )
     
+time_end
+=
+await
+current_time
+(
+)
+    
+time_range
+=
+number_interval
+(
+time_start
+time_end
+)
+    
 assert
 len
 (
@@ -2626,6 +2920,7 @@ events
 expected_request
 =
 {
+            
 "
 method
 "
@@ -2633,11 +2928,13 @@ method
 "
 GET
 "
+            
 "
 url
 "
 :
 fetch_url
+        
 }
         
 expected_response
@@ -2649,8 +2946,8 @@ headers
 "
 :
 [
-{
                 
+{
 "
 name
 "
@@ -2660,7 +2957,6 @@ Content
 -
 Type
 "
-                
 "
 value
 "
@@ -2679,8 +2975,8 @@ value
 :
 mimeType
 }
-            
 }
+            
 ]
             
 "
@@ -2718,6 +3014,10 @@ url
 fetch_url
         
 }
+        
+expected_time_range
+=
+time_range
         
 redirect_count
 =
