@@ -402,7 +402,7 @@ enabled
 "
 -
 -
-tp6
+tp5
 "
 ]
                 
@@ -421,7 +421,7 @@ dest
 "
 :
 "
-tp6
+tp5
 "
                     
 "
@@ -439,7 +439,7 @@ Runs
 tests
 with
 the
-tp6
+tp5
 pageset
 .
 "
@@ -1443,7 +1443,7 @@ full
 runtime_testvars
 [
 "
-tp6
+tp5
 "
 ]
 =
@@ -1452,17 +1452,18 @@ self
 config
 [
 "
-tp6
+tp5
 "
 ]
         
 if
+not
 self
 .
 config
 [
 "
-tp6
+tp5
 "
 ]
 :
@@ -1578,17 +1579,6 @@ json
 else
 :
             
-if
-self
-.
-config
-[
-"
-tp6
-"
-]
-:
-                
 test_vars_file
 =
 "
@@ -1599,7 +1589,15 @@ testvars
 json
 "
             
-else
+if
+self
+.
+config
+[
+"
+tp5
+"
+]
 :
                 
 test_vars_file
@@ -1915,17 +1913,6 @@ py
 "
 )
             
-if
-self
-.
-config
-[
-"
-tp6
-"
-]
-:
-                
 prefs_file
 =
 "
@@ -1936,7 +1923,15 @@ prefs
 json
 "
             
-else
+if
+self
+.
+config
+[
+"
+tp5
+"
+]
 :
                 
 prefs_file

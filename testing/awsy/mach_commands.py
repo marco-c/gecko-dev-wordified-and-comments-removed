@@ -290,7 +290,7 @@ dmd
 "
         
 "
-tp6
+tp5
 "
     
 )
@@ -1841,7 +1841,7 @@ CommandArgument
 "
 -
 -
-tp6
+tp5
 "
     
 group
@@ -1859,7 +1859,7 @@ store_true
 dest
 =
 "
-tp6
+tp5
 "
     
 default
@@ -1871,7 +1871,7 @@ help
 "
 Use
 the
-tp6
+tp5
 pageset
 during
 testing

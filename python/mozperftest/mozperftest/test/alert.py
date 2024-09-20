@@ -994,19 +994,8 @@ base
 "
 ]
         
-else
-:
-            
 return
 test
-+
-[
-"
--
--
-tp6
-"
-]
     
 def
 get_exact_options
@@ -1101,11 +1090,6 @@ gpu
 -
 -
 base
-"
-"
--
--
-tp6
 "
 )
 :

@@ -800,7 +800,7 @@ testvars
 get
 (
 "
-tp6
+tp5
 "
 False
 )
@@ -808,7 +808,7 @@ False
             
 self
 .
-setupTp6
+setupTp5
 (
 )
         
@@ -817,7 +817,7 @@ else
             
 self
 .
-setupTp5
+setupTp6
 (
 )
         
@@ -928,7 +928,7 @@ testvars
 get
 (
 "
-tp6
+tp5
 "
 False
 )
@@ -936,7 +936,7 @@ False
             
 self
 .
-_playback
+_webservers
 .
 stop
 (
@@ -947,7 +947,7 @@ else
             
 self
 .
-_webservers
+_playback
 .
 stop
 (
