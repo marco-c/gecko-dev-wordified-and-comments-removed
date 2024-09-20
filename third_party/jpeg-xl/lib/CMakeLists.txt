@@ -46,12 +46,12 @@ JPEGXL_MAJOR_VERSION
 set
 (
 JPEGXL_MINOR_VERSION
-10
+11
 )
 set
 (
 JPEGXL_PATCH_VERSION
-3
+0
 )
 set
 (
@@ -159,7 +159,7 @@ versions
 set
 (
 JPEGXL_SO_MINOR_VERSION
-10
+11
 )
 if
 (

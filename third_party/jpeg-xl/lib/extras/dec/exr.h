@@ -6,6 +6,11 @@ define
 LIB_EXTRAS_DEC_EXR_H_
 #
 include
+<
+cstdint
+>
+#
+include
 "
 lib
 /

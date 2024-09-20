@@ -150,7 +150,7 @@ size_t
 nb_chans
 size_t
 bitdepth
-int
+bool
 big_endian
 int
 effort
@@ -185,7 +185,7 @@ size_t
 nb_chans
 size_t
 bitdepth
-int
+bool
 big_endian
 int
 effort
@@ -202,7 +202,7 @@ JxlEncoderOutputProcessorWrapper
 ;
 #
 endif
-void
+bool
 JxlFastLosslessProcessFrame
 (
 JxlFastLosslessFrameState
@@ -282,7 +282,7 @@ endif
 if
 !
 FJXL_STANDALONE
-void
+bool
 JxlFastLosslessOutputFrame
 (
 JxlFastLosslessFrameState

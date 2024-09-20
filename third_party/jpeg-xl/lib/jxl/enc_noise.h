@@ -7,9 +7,7 @@ LIB_JXL_ENC_NOISE_H_
 #
 include
 <
-stddef
-.
-h
+cstdint
 >
 #
 include
@@ -63,6 +61,12 @@ jxl
 struct
 AuxOut
 ;
+enum
+class
+LayerType
+:
+uint8_t
+;
 Status
 GetNoiseParameter
 (
@@ -77,7 +81,7 @@ float
 quality_coef
 )
 ;
-void
+Status
 EncodeNoise
 (
 const
@@ -87,7 +91,7 @@ noise_params
 BitWriter
 *
 writer
-size_t
+LayerType
 layer
 AuxOut
 *

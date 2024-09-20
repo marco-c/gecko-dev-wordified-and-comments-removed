@@ -785,6 +785,7 @@ target_include_directories
 LIB
 }
 "
+BEFORE
 PRIVATE
 {
 PROJECT_SOURCE_DIR
@@ -994,6 +995,7 @@ binaries
 add_library
 (
 jxl_extras_codec
+STATIC
 <
 TARGET_OBJECTS
 :

@@ -235,7 +235,7 @@ NODERAWFS
 )
 if
 (
-JPEGXL_ENABLE_WASM_TRHEADS
+JPEGXL_ENABLE_WASM_THREADS
 )
 set
 (
@@ -336,6 +336,13 @@ djxl_fuzzer
 .
 cc
 )
+target_link_libraries
+(
+{
+TESTNAME
+}
+jxl_tool
+)
 else
 (
 )
@@ -433,7 +440,6 @@ target_link_libraries
 {
 TESTNAME
 }
-gmock
 GTest
 :
 :

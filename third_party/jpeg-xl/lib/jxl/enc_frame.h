@@ -18,6 +18,15 @@ include
 <
 jxl
 /
+memory_manager
+.
+h
+>
+#
+include
+<
+jxl
+/
 types
 .
 h
@@ -272,6 +281,9 @@ p
 Status
 EncodeFrame
 (
+JxlMemoryManager
+*
+memory_manager
 const
 CompressParams
 &
@@ -305,6 +317,9 @@ aux_out
 Status
 EncodeFrame
 (
+JxlMemoryManager
+*
+memory_manager
 const
 CompressParams
 &
@@ -317,7 +332,6 @@ const
 CodecMetadata
 *
 metadata
-const
 ImageBundle
 &
 ib

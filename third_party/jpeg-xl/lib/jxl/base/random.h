@@ -50,7 +50,7 @@ Rng
 explicit
 Rng
 (
-size_t
+uint64_t
 seed
 )
 :

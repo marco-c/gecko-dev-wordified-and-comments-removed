@@ -82,6 +82,14 @@ JPEGXL_INTERNAL_DEC_JPEG_SOURCES
 endif
 (
 )
+set
+(
+FJXL_COMPILE_FLAGS
+"
+-
+O3
+"
+)
 set_source_files_properties
 (
 jxl
@@ -91,8 +99,11 @@ enc_fast_lossless
 cc
 PROPERTIES
 COMPILE_FLAGS
--
-O3
+"
+{
+FJXL_COMPILE_FLAGS
+}
+"
 )
 set
 (
@@ -378,6 +389,7 @@ target_include_directories
 (
 jxl_base
 SYSTEM
+BEFORE
 INTERFACE
 "
 <
@@ -394,6 +406,7 @@ include
 target_include_directories
 (
 jxl_base
+BEFORE
 INTERFACE
 {
 PROJECT_SOURCE_DIR
@@ -515,6 +528,7 @@ target_include_directories
 jxl_dec
 -
 obj
+BEFORE
 PUBLIC
 "
 <
@@ -622,6 +636,7 @@ target_include_directories
 jxl_enc
 -
 obj
+BEFORE
 PUBLIC
 {
 PROJECT_SOURCE_DIR
@@ -843,6 +858,7 @@ target_include_directories
 jxl
 -
 internal
+BEFORE
 PUBLIC
 "
 <

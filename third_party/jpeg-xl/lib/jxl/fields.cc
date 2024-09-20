@@ -968,7 +968,7 @@ TotalBitsConsumed
 (
 )
 ;
-JXL_ASSERT
+JXL_ENSURE
 (
 pos_after_ext_size_
 !
@@ -1664,7 +1664,7 @@ extensions
 0
 )
 {
-JXL_ASSERT
+JXL_ENSURE
 (
 pos_after_ext_
 =
@@ -1676,7 +1676,7 @@ pos_after_ext_
 =
 encoded_bits_
 ;
-JXL_ASSERT
+JXL_ENSURE
 (
 pos_after_ext_
 !
@@ -1725,7 +1725,7 @@ pos_after_ext_
 0
 )
 {
-JXL_ASSERT
+JXL_ENSURE
 (
 encoded_bits_
 >
@@ -1866,7 +1866,7 @@ fields
 )
 )
 {
-JXL_UNREACHABLE
+JXL_DEBUG_ABORT
 (
 "
 Init
@@ -1903,7 +1903,7 @@ fields
 )
 )
 {
-JXL_UNREACHABLE
+JXL_DEBUG_ABORT
 (
 "
 SetDefault
@@ -1941,7 +1941,7 @@ fields
 )
 )
 {
-JXL_UNREACHABLE
+JXL_DEBUG_ABORT
 (
 "
 AllDefault
@@ -1975,19 +1975,9 @@ fields
 MaxBitsVisitor
 visitor
 ;
-#
-if
-JXL_ENABLE_ASSERT
 Status
 ret
 =
-#
-else
-(
-void
-)
-#
-endif
 visitor
 .
 VisitConst
@@ -1995,7 +1985,12 @@ VisitConst
 fields
 )
 ;
-JXL_ASSERT
+(
+void
+)
+ret
+;
+JXL_DASSERT
 (
 ret
 )
@@ -2479,9 +2474,6 @@ JXL_RESTRICT
 total_bits
 )
 {
-#
-if
-JXL_ENABLE_ASSERT
 const
 size_t
 bits_required
@@ -2493,9 +2485,7 @@ Num0BitsAboveMS1Bit
 value
 )
 ;
-#
-endif
-JXL_ASSERT
+JXL_ENSURE
 (
 bits_required
 <

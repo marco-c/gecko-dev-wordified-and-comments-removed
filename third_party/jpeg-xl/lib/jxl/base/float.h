@@ -357,16 +357,12 @@ i
 callback
 (
 i
-(
 src
 [
 stride
 *
 i
 ]
-*
-257
-)
 *
 scale
 )

@@ -90,6 +90,8 @@ get
 (
 )
 JXL_DEC_BOX
+|
+JXL_DEC_BOX_COMPLETE
 )
 )
 {
@@ -475,7 +477,7 @@ if
 status
 =
 =
-JXL_DEC_SUCCESS
+JXL_DEC_BOX_COMPLETE
 )
 {
 if

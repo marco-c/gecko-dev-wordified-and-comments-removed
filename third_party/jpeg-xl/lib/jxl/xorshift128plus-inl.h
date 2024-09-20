@@ -26,9 +26,12 @@ endif
 #
 include
 <
-stddef
-.
-h
+cstddef
+>
+#
+include
+<
+cstdint
 >
 #
 include

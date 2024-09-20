@@ -83,7 +83,7 @@ h
 namespace
 jxl
 {
-void
+Status
 PadImageToBlockMultipleInPlace
 (
 Image3F
@@ -136,6 +136,8 @@ ysize_orig
 block_dim
 )
 ;
+JXL_RETURN_IF_ERROR
+(
 in
 -
 >
@@ -143,6 +145,7 @@ ShrinkTo
 (
 xsize
 ysize
+)
 )
 ;
 for
@@ -275,9 +278,12 @@ float
 ;
 }
 }
+return
+true
+;
 }
 static
-void
+Status
 DoDownsampleImage
 (
 const
@@ -291,7 +297,7 @@ ImageF
 output
 )
 {
-JXL_ASSERT
+JXL_ENSURE
 (
 factor
 !
@@ -299,6 +305,8 @@ factor
 1
 )
 ;
+JXL_RETURN_IF_ERROR
+(
 output
 -
 >
@@ -321,6 +329,7 @@ ysize
 (
 )
 factor
+)
 )
 )
 ;
@@ -502,6 +511,9 @@ cnt
 ;
 }
 }
+return
+true
+;
 }
 StatusOr
 <
@@ -520,6 +532,16 @@ factor
 ImageF
 downsampled
 ;
+JxlMemoryManager
+*
+memory_manager
+=
+image
+.
+memory_manager
+(
+)
+;
 JXL_ASSIGN_OR_RETURN
 (
 downsampled
@@ -528,6 +550,7 @@ ImageF
 :
 Create
 (
+memory_manager
 DivCeil
 (
 image
@@ -553,12 +576,15 @@ kBlockDim
 )
 )
 ;
+JXL_RETURN_IF_ERROR
+(
 DoDownsampleImage
 (
 image
 factor
 &
 downsampled
+)
 )
 ;
 return
@@ -579,7 +605,7 @@ size_t
 factor
 )
 {
-JXL_ASSERT
+JXL_ENSURE
 (
 factor
 !
@@ -590,6 +616,16 @@ factor
 Image3F
 downsampled
 ;
+JxlMemoryManager
+*
+memory_manager
+=
+opsin
+.
+memory_manager
+(
+)
+;
 JXL_ASSIGN_OR_RETURN
 (
 downsampled
@@ -598,6 +634,7 @@ Image3F
 :
 Create
 (
+memory_manager
 DivCeil
 (
 opsin
@@ -623,6 +660,8 @@ kBlockDim
 )
 )
 ;
+JXL_RETURN_IF_ERROR
+(
 downsampled
 .
 ShrinkTo
@@ -642,6 +681,7 @@ ysize
 -
 kBlockDim
 )
+)
 ;
 for
 (
@@ -659,6 +699,8 @@ c
 +
 )
 {
+JXL_RETURN_IF_ERROR
+(
 DoDownsampleImage
 (
 opsin
@@ -674,6 +716,7 @@ downsampled
 Plane
 (
 c
+)
 )
 )
 ;

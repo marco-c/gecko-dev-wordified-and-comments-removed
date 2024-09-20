@@ -6,6 +6,15 @@ define
 LIB_JXL_ENC_COMPARATOR_H_
 #
 include
+<
+jxl
+/
+cms_interface
+.
+h
+>
+#
+include
 "
 lib
 /

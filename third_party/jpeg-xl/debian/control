@@ -69,9 +69,6 @@ libgimp2
 0
 -
 dev
-libgmock
--
-dev
 libgoogle
 -
 perftools

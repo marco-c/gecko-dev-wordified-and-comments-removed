@@ -93,7 +93,7 @@ h
 namespace
 jxl
 {
-void
+Status
 ToXYB
 (
 const

@@ -627,8 +627,7 @@ JXL_DASSERT
 (
 s
 >
-=
-1
+0
 )
 ;
 int

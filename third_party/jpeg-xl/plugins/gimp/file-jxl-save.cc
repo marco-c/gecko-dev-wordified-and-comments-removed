@@ -77,15 +77,17 @@ jxl
 -
 save
 "
-#
-define
-SCALE_WIDTH
-200
 namespace
 jxl
 {
 namespace
 {
+constexpr
+size_t
+kScaleWidth
+=
+200
+;
 #
 ifndef
 g_clear_signal_handler
@@ -1641,7 +1643,7 @@ table
 "
 Distance
 "
-SCALE_WIDTH
+kScaleWidth
 0
 jxl_save_opts
 .
@@ -1730,7 +1732,7 @@ table
 "
 Quality
 "
-SCALE_WIDTH
+kScaleWidth
 0
 jxl_save_opts
 .
@@ -1893,7 +1895,7 @@ table
 "
 Speed
 "
-SCALE_WIDTH
+kScaleWidth
 0
 10
 -
@@ -2437,7 +2439,7 @@ table
 Faster
 Decoding
 "
-SCALE_WIDTH
+kScaleWidth
 0
 jxl_save_opts
 .

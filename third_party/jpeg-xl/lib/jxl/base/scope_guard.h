@@ -62,6 +62,7 @@ ScopeGuard
 &
 other
 )
+noexcept
 :
 callback_
 (

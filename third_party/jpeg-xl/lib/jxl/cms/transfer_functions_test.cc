@@ -252,7 +252,7 @@ actual
 EXPECT_LT
 (
 abs_err
-5e
+6e
 -
 7
 )
