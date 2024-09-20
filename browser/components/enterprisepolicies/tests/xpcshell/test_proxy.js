@@ -554,7 +554,7 @@ checkProxyPref
 socks
 "
 "
-http
+socks
 .
 proxy
 .
@@ -562,7 +562,7 @@ example
 .
 com
 "
-10
+40
 )
 ;
 Assert

@@ -810,10 +810,6 @@ SSLProxy
 =
 param
 .
-SOCKSProxy
-=
-param
-.
 HTTPProxy
 ;
 }
