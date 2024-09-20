@@ -1282,6 +1282,13 @@ html
 ]
 [
 "
+test_emulate_forced_colors
+.
+html
+"
+]
+[
+"
 test_event_target_radius
 .
 html
