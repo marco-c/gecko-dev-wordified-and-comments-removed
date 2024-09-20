@@ -6731,6 +6731,9 @@ RoundWindowSize
 "
 SiteSpecificZoom
 "
+"
+CSSPrefersColorScheme
+"
 }
 ;
 #

@@ -306,6 +306,14 @@ this
 ;
 this
 .
+rfpCSSColorScheme
+=
+json
+.
+rfpCSSColorScheme
+;
+this
+.
 traits
 =
 json
