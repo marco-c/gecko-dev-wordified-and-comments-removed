@@ -20619,7 +20619,7 @@ dom
 .
 navigation
 .
-locationChangeRateLimit
+navigationRateLimit
 .
 count
 type
@@ -20649,7 +20649,7 @@ dom
 .
 navigation
 .
-locationChangeRateLimit
+navigationRateLimit
 .
 timespan
 type

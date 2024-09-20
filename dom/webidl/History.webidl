@@ -192,6 +192,7 @@ length
 ;
 [
 Throws
+NeedsCallerType
 ]
 attribute
 ScrollRestoration

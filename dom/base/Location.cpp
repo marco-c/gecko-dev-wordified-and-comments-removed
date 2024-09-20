@@ -2830,7 +2830,7 @@ rv
 bc
 -
 >
-CheckLocationChangeRateLimit
+CheckNavigationRateLimit
 (
 callerType
 )

@@ -20767,7 +20767,7 @@ BrowsingContext
 [
 ]
 ;
-resetLocationChangeRateLimit
+resetNavigationRateLimit
 (
 )
 :

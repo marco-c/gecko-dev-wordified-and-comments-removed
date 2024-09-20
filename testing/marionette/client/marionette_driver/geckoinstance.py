@@ -365,7 +365,7 @@ dom
 .
 navigation
 .
-locationChangeRateLimit
+navigationRateLimit
 .
 count
 "

@@ -1602,7 +1602,7 @@ for
 testing
 .
 undefined
-resetLocationChangeRateLimit
+resetNavigationRateLimit
 (
 )
 ;

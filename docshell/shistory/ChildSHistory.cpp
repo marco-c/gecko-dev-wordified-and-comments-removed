@@ -994,7 +994,7 @@ rv
 mBrowsingContext
 -
 >
-CheckLocationChangeRateLimit
+CheckNavigationRateLimit
 (
 aCallerType
 )
