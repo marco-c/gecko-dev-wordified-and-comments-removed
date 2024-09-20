@@ -693,17 +693,6 @@ LEAF
 Frame
 (
 "
-nsMathMLmsqrtFrame
-"
-"
-None
-"
-MATHML_CONTAINER
-)
-    
-Frame
-(
-"
 nsMathMLmtableFrame
 "
 "

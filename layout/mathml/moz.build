@@ -97,11 +97,6 @@ nsMathMLmspaceFrame
 cpp
 "
 "
-nsMathMLmsqrtFrame
-.
-cpp
-"
-"
 nsMathMLmtableFrame
 .
 cpp

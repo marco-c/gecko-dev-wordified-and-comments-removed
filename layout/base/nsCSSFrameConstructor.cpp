@@ -21446,7 +21446,7 @@ NS_NewMathMLmrowFrame
 SIMPLE_MATHML_CREATE
 (
 msqrt_
-NS_NewMathMLmsqrtFrame
+NS_NewMathMLmrootFrame
 )
 SIMPLE_MATHML_CREATE
 (
