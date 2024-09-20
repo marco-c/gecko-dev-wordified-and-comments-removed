@@ -171,7 +171,6 @@ session
 .
 subscribe
 (
-        
 events
 =
 [
@@ -181,7 +180,6 @@ browsingContext
 contextCreated
 "
 ]
-    
 )
     
 on_context_created
