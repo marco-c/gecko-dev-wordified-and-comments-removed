@@ -151,6 +151,13 @@ js
 ]
 [
 "
+browser_service_worker_granular_overrides
+.
+js
+"
+]
+[
+"
 browser_service_worker_overrides
 .
 js
