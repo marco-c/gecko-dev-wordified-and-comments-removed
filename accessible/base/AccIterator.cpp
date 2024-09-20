@@ -1095,10 +1095,10 @@ return
 nullptr
 ;
 }
-IDRefsIterator
+AssociatedElementsIterator
 :
 :
-IDRefsIterator
+AssociatedElementsIterator
 (
 DocAccessible
 *
@@ -1194,7 +1194,7 @@ mElements
 }
 const
 nsDependentSubstring
-IDRefsIterator
+AssociatedElementsIterator
 :
 :
 NextID
@@ -1296,7 +1296,7 @@ idStartIdx
 }
 nsIContent
 *
-IDRefsIterator
+AssociatedElementsIterator
 :
 :
 NextElem
@@ -1385,7 +1385,7 @@ dom
 :
 Element
 *
-IDRefsIterator
+AssociatedElementsIterator
 :
 :
 GetElem
@@ -1464,7 +1464,7 @@ dom
 :
 Element
 *
-IDRefsIterator
+AssociatedElementsIterator
 :
 :
 GetElem
@@ -1485,7 +1485,7 @@ aID
 }
 LocalAccessible
 *
-IDRefsIterator
+AssociatedElementsIterator
 :
 :
 Next

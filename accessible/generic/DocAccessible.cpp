@@ -8504,7 +8504,7 @@ continue
 ;
 }
 }
-IDRefsIterator
+AssociatedElementsIterator
 iter
 (
 this
@@ -8703,7 +8703,7 @@ idx
 )
 continue
 ;
-IDRefsIterator
+AssociatedElementsIterator
 iter
 (
 this
@@ -11771,7 +11771,7 @@ GetOrInsertNew
 aOwner
 )
 ;
-IDRefsIterator
+AssociatedElementsIterator
 iter
 (
 this

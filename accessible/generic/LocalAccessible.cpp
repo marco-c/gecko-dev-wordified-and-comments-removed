@@ -7402,7 +7402,7 @@ nsGkAtoms
 aria_label
 )
 {
-IDRefsIterator
+AssociatedElementsIterator
 iter
 (
 mDoc
@@ -7450,7 +7450,7 @@ nsGkAtoms
 aria_description
 )
 {
-IDRefsIterator
+AssociatedElementsIterator
 iter
 (
 mDoc
@@ -7548,7 +7548,7 @@ MutationEvent_Binding
 ADDITION
 )
 {
-IDRefsIterator
+AssociatedElementsIterator
 iter
 (
 mDoc
@@ -7647,7 +7647,7 @@ MutationEvent_Binding
 ADDITION
 )
 {
-IDRefsIterator
+AssociatedElementsIterator
 iter
 (
 mDoc
@@ -11566,7 +11566,7 @@ Relation
 rel
 (
 new
-IDRefsIterator
+AssociatedElementsIterator
 (
 mDoc
 mContent
@@ -11663,7 +11663,7 @@ rel
 AppendIter
 (
 new
-IDRefsIterator
+AssociatedElementsIterator
 (
 mDoc
 mContent
@@ -11690,7 +11690,7 @@ Relation
 rel
 (
 new
-IDRefsIterator
+AssociatedElementsIterator
 (
 mDoc
 mContent
@@ -11773,7 +11773,7 @@ rel
 AppendIter
 (
 new
-IDRefsIterator
+AssociatedElementsIterator
 (
 mDoc
 mContent
@@ -12197,7 +12197,7 @@ Relation
 rel
 (
 new
-IDRefsIterator
+AssociatedElementsIterator
 (
 mDoc
 mContent
@@ -12236,7 +12236,7 @@ return
 Relation
 (
 new
-IDRefsIterator
+AssociatedElementsIterator
 (
 mDoc
 mContent
@@ -13083,7 +13083,7 @@ return
 Relation
 (
 new
-IDRefsIterator
+AssociatedElementsIterator
 (
 mDoc
 mContent
@@ -13217,7 +13217,7 @@ return
 Relation
 (
 new
-IDRefsIterator
+AssociatedElementsIterator
 (
 mDoc
 mContent
@@ -21777,7 +21777,7 @@ uint64_t
 >
 headers
 ;
-IDRefsIterator
+AssociatedElementsIterator
 iter
 (
 mDoc
@@ -22225,7 +22225,7 @@ rel
 AppendIter
 (
 new
-IDRefsIterator
+AssociatedElementsIterator
 (
 mDoc
 mContent
