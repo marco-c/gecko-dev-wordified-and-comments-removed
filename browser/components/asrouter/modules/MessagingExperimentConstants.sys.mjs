@@ -246,6 +246,9 @@ MESSAGING_EXPERIMENTS_DEFAULT_FEATURES
 cfr
 "
 "
+fxms_bmb_button
+"
+"
 fxms
 -
 message
@@ -338,9 +341,6 @@ spotlight
 "
 "
 featureCallout
-"
-"
-bookmarksBarButton
 "
 ]
 ;
