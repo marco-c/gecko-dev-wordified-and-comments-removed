@@ -786,6 +786,8 @@ skin
 icons
 /
 check
+-
+filled
 .
 svg
 "
