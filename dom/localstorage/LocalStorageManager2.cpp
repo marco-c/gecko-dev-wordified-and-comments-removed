@@ -2066,6 +2066,10 @@ mManager
 =
 nullptr
 ;
+mPromise
+=
+nullptr
+;
 mState
 =
 State
