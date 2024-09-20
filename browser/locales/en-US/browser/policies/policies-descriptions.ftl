@@ -2016,3 +2016,17 @@ and
 school
 accounts
 .
+policy
+-
+MicrosoftEntraSSO
+=
+Allow
+single
+sign
+-
+on
+for
+Microsoft
+Entra
+accounts
+.
