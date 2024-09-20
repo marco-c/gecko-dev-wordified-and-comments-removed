@@ -3006,6 +3006,27 @@ MOZ_DISABLE_NONLOCAL_CONNECTIONS
 1
 "
         
+if
+self
+.
+_is_windows
+(
+)
+:
+            
+env
+[
+"
+PYTHONIOENCODING
+"
+]
+=
+"
+utf
+-
+8
+"
+        
 env
 =
 self
