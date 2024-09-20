@@ -156,6 +156,12 @@ Terminate
 (
 )
 ;
+static
+uint32_t
+StackSize
+(
+)
+;
 private
 :
 explicit
