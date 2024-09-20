@@ -35,6 +35,10 @@ gkrust_shared
 ;
 extern
 crate
+kvstore_gtest
+;
+extern
+crate
 l10nregistry_ffi_gtest
 ;
 extern

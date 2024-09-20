@@ -67,6 +67,7 @@ fs
 mod
 owned_value
 ;
+pub
 mod
 skv
 ;
