@@ -1003,6 +1003,12 @@ MODAL_TYPE_TAB
 title
 message
 buttonFlags
+|
+Ci
+.
+nsIPrompt
+.
+BUTTON_DELAY_ENABLE
 acceptLabel
 null
 null
