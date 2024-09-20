@@ -739,7 +739,7 @@ len
 )
 ;
 let
-maker_tag
+marker_tag
 =
 get_or_insert_deserializer_tag
 :
@@ -788,7 +788,7 @@ as_mut_ptr
 options
 .
 stack
-maker_tag
+marker_tag
 encoded_payload
 .
 as_ptr
