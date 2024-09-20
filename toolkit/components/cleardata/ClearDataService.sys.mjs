@@ -3150,14 +3150,9 @@ async
 deleteBySite
 (
 aSchemelessSite
-_aOriginAttributesPattern
+aOriginAttributesPattern
 )
 {
-/
-/
-TODO
-:
-aOriginAttributesPattern
 let
 imageCache
 =
@@ -3190,9 +3185,10 @@ null
 ;
 imageCache
 .
-removeEntriesFromBaseDomainInAllProcesses
+removeEntriesFromSiteInAllProcesses
 (
 aSchemelessSite
+aOriginAttributesPattern
 )
 ;
 }
