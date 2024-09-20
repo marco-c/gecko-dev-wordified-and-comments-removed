@@ -2262,7 +2262,7 @@ aOptions
 *
 *
 Defines
-propertys
+properties
 on
 the
 given
@@ -2329,7 +2329,7 @@ URI
 .
 *
 param
-aOption
+aOptions
 An
 option
 to
@@ -2346,7 +2346,7 @@ into
 In
 worker
 threads
-aOption
+aOptions
 is
 required
 and
@@ -2380,7 +2380,7 @@ aOptions
 .
 global
 is
-reuiqred
+required
 .
 *
 /
