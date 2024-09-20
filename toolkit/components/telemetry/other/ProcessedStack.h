@@ -57,7 +57,9 @@ h
 #
 include
 "
-SharedLibraries
+shared
+-
+libraries
 .
 h
 "

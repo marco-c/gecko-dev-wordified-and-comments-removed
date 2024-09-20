@@ -74,7 +74,9 @@ h
 #
 include
 "
-SharedLibraries
+shared
+-
+libraries
 .
 h
 "
@@ -837,11 +839,9 @@ GetSize
 0
 )
 {
-nsString
+nsCString
 breakpadId
 =
-NS_ConvertUTF8toUTF16
-(
 info
 .
 GetEntry
@@ -851,7 +851,6 @@ GetEntry
 .
 GetBreakpadId
 (
-)
 )
 ;
 if
@@ -864,7 +863,10 @@ obj
 "
 debugID
 "
+NS_ConvertASCIItoUTF16
+(
 breakpadId
+)
 )
 )
 {

@@ -50,7 +50,7 @@ h
 #
 include
 "
-SharedLibraries
+BaseProfilerSharedLibraries
 .
 h
 "
