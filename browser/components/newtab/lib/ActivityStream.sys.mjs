@@ -3361,6 +3361,16 @@ mozilla
 .
 com
 /
+https
+:
+/
+/
+ads
+.
+mozilla
+.
+org
+/
 "
 }
 ]
