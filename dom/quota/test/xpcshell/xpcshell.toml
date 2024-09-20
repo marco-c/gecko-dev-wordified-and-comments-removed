@@ -281,6 +281,13 @@ js
 ]
 [
 "
+test_clientDirectoryOpeningStarted
+.
+js
+"
+]
+[
+"
 test_createLocalStorage
 .
 js

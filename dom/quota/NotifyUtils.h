@@ -39,6 +39,14 @@ QuotaManager
 aQuotaManager
 )
 ;
+void
+NotifyClientDirectoryOpeningStarted
+(
+QuotaManager
+&
+aQuotaManager
+)
+;
 }
 #
 endif
