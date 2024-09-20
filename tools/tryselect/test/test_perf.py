@@ -140,6 +140,10 @@ firefox
 motionmark
 -
 animometer
+-
+1
+-
+3
 "
     
 "
@@ -508,6 +512,10 @@ firefox
 motionmark
 -
 htmlsuite
+-
+1
+-
+3
 "
     
 "
