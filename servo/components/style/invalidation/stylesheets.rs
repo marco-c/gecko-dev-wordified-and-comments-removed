@@ -2713,6 +2713,15 @@ return
 }
 }
 }
+NestedDeclarations
+(
+.
+.
+)
+=
+>
+{
+}
 Namespace
 (
 .

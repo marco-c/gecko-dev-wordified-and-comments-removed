@@ -763,6 +763,11 @@ CSSNamespaceRule
 h
 "
 "
+CSSNestedDeclarations
+.
+h
+"
+"
 CSSPageRule
 .
 h
@@ -1018,6 +1023,11 @@ cpp
 "
 "
 CSSNamespaceRule
+.
+cpp
+"
+"
+CSSNestedDeclarations
 .
 cpp
 "

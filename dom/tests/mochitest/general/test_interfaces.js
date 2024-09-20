@@ -1811,6 +1811,16 @@ true
 name
 :
 "
+CSSNestedDeclarations
+"
+insecureContext
+:
+true
+}
+{
+name
+:
+"
 CSSPageDescriptors
 "
 insecureContext

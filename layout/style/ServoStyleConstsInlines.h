@@ -275,6 +275,13 @@ StyleLockedPositionTryRule
 >
 ;
 template
+struct
+StyleStrong
+<
+StyleLockedNestedDeclarationsRule
+>
+;
+template
 <
 typename
 T

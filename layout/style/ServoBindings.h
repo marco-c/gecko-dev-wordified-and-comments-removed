@@ -399,6 +399,10 @@ BASIC_RULE_FUNCS_LOCKED
 (
 PositionTry
 )
+BASIC_RULE_FUNCS_LOCKED
+(
+NestedDeclarations
+)
 #
 undef
 GROUP_RULE_FUNCS_LOCKED

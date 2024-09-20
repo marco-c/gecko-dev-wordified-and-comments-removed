@@ -2637,6 +2637,12 @@ StyleCssRuleType
 :
 PositionTry
 :
+case
+StyleCssRuleType
+:
+:
+NestedDeclarations
+:
 break
 ;
 }

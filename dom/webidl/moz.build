@@ -3404,6 +3404,11 @@ CSSNamespaceRule
 webidl
 "
 "
+CSSNestedDeclarations
+.
+webidl
+"
+"
 CSSPageRule
 .
 webidl
