@@ -1504,9 +1504,7 @@ odd
 libx11
 interaction
 if
-[
 NEED_WINDOW_MANAGER
-]
 &
 &
 [
