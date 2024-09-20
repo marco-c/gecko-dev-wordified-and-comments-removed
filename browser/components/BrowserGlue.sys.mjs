@@ -5254,6 +5254,17 @@ sys
 .
 mjs
 "
+events
+:
+{
+DOMDocElementInserted
+:
+{
+wantUntrusted
+:
+true
+}
+}
 }
 matches
 :
@@ -5261,7 +5272,7 @@ matches
 "
 about
 :
-profilemanager
+editprofile
 "
 ]
 enablePreference

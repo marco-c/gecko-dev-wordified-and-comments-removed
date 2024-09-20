@@ -176,6 +176,16 @@ Profile
 {
 number
 }
+edit
+-
+profile
+-
+page
+-
+title
+=
+Edit
+profile
 appmenu
 -
 manage
