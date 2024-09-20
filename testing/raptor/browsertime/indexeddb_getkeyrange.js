@@ -206,7 +206,6 @@ count
 )
 ;
 await
-await
 commands
 .
 measure

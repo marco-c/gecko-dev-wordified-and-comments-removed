@@ -3284,7 +3284,6 @@ let
 page_cached
 =
 await
-await
 ExtensionTestUtils
 .
 loadContentPage

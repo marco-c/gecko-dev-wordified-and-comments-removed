@@ -2400,7 +2400,6 @@ KEY_ArrowDown
 )
 ;
 await
-await
 promise
 ;
 for
