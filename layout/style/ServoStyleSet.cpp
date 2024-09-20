@@ -345,6 +345,17 @@ mozilla
 /
 dom
 /
+CSSNestedDeclarations
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 CSSPageRule
 .
 h
