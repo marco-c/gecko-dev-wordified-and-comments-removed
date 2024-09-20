@@ -415,8 +415,8 @@ a
 LoginForm
 object
 from
-the
-HTMLHtmlElement
+an
+elememt
 that
 is
 the
@@ -483,7 +483,7 @@ form
 *
 param
 {
-HTMLHtmlElement
+HTMLElement
 }
 aDocumentRoot
 *
@@ -496,11 +496,8 @@ throws
 Error
 if
 aDocumentRoot
-isn
-'
-t
-an
-HTMLHtmlElement
+is
+null
 *
 /
 createFromDocumentRoot
