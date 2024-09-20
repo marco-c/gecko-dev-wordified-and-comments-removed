@@ -10220,11 +10220,6 @@ bincode
 chrono
 "
 "
-gecko
--
-profiler
-"
-"
 glean
 "
 "
