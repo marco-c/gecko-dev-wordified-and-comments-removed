@@ -5132,6 +5132,19 @@ return
 False
                 
 if
+"
+network
+-
+bench
+"
+in
+try_name
+:
+                    
+return
+False
+                
+if
 (
                     
 "
