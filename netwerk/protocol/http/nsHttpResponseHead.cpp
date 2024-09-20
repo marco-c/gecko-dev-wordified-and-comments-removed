@@ -2174,14 +2174,6 @@ NS_OK
 }
 if
 (
-StaticPrefs
-:
-:
-network_http_reject_NULs_in_response_header_values
-(
-)
-&
-&
 val
 .
 FindChar
