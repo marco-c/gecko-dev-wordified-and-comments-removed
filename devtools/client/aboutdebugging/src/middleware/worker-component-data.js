@@ -223,6 +223,7 @@ name
 registrationFront
 scope
 subscription
+origin
 }
 =
 worker
@@ -282,6 +283,7 @@ pushServiceEndpoint
 registrationFront
 scope
 status
+origin
 }
 icon
 id

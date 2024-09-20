@@ -310,6 +310,15 @@ this
 _dbg
 .
 url
+origin
+:
+this
+.
+_dbg
+.
+principal
+.
+origin
 traits
 :
 {

@@ -62,6 +62,7 @@ constructor
 (
 conn
 worker
+origin
 )
 {
 super
@@ -75,6 +76,12 @@ this
 _worker
 =
 worker
+;
+this
+.
+_origin
+=
+origin
 ;
 }
 form
@@ -136,6 +143,11 @@ this
 _worker
 .
 scriptSpec
+origin
+:
+this
+.
+_origin
 state
 :
 this

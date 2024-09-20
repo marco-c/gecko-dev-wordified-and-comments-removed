@@ -1533,3 +1533,14 @@ browser_aboutdebugging_workers_remote_runtime
 js
 "
 ]
+[
+"
+browser_aboutdebugging_serviceworker_runtime
+-
+page
+-
+origin
+.
+js
+"
+]
