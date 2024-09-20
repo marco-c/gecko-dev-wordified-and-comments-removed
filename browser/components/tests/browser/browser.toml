@@ -162,6 +162,13 @@ win
 ]
 [
 "
+browser_forced_colors
+.
+js
+"
+]
+[
+"
 browser_initial_tab_remoteType
 .
 js

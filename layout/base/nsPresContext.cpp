@@ -3702,7 +3702,7 @@ Active
 }
 #
 ifdef
-XP_WINDOWS
+XP_WIN
 if
 (
 prefs
