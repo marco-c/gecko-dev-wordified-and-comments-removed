@@ -346,6 +346,7 @@ return
 result
 ;
 }
+constexpr
 void
 operator
 +
@@ -369,6 +370,7 @@ aEnumSet
 mBitField
 ;
 }
+constexpr
 EnumSet
 operator
 +
@@ -396,6 +398,7 @@ return
 result
 ;
 }
+constexpr
 void
 operator
 -
@@ -421,6 +424,7 @@ aEnum
 )
 ;
 }
+constexpr
 EnumSet
 operator
 -
@@ -446,6 +450,7 @@ return
 result
 ;
 }
+constexpr
 void
 operator
 -
@@ -472,6 +477,7 @@ mBitField
 )
 ;
 }
+constexpr
 EnumSet
 operator
 -
@@ -499,6 +505,7 @@ return
 result
 ;
 }
+constexpr
 void
 clear
 (
@@ -515,6 +522,7 @@ Serialized
 )
 ;
 }
+constexpr
 void
 operator
 &
@@ -538,6 +546,7 @@ aEnumSet
 mBitField
 ;
 }
+constexpr
 EnumSet
 operator
 &
@@ -565,6 +574,7 @@ return
 result
 ;
 }
+constexpr
 bool
 operator
 =
@@ -586,6 +596,7 @@ aEnumSet
 mBitField
 ;
 }
+constexpr
 bool
 operator
 =
@@ -606,6 +617,7 @@ aEnum
 )
 ;
 }
+constexpr
 bool
 operator
 !
@@ -628,6 +640,7 @@ aEnumSet
 )
 ;
 }
+constexpr
 bool
 operator
 !
@@ -648,6 +661,7 @@ aEnum
 )
 ;
 }
+constexpr
 bool
 contains
 (
@@ -663,6 +677,7 @@ aEnum
 )
 ;
 }
+constexpr
 bool
 contains
 (
@@ -742,6 +757,7 @@ Count
 ;
 }
 }
+constexpr
 bool
 isEmpty
 (

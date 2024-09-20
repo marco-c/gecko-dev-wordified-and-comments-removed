@@ -2995,7 +2995,7 @@ n
 "
 ;
 static
-const
+constexpr
 EnumSet
 <
 ZealMode
@@ -3042,7 +3042,7 @@ YieldWhileGrayMarking
 }
 ;
 static
-const
+constexpr
 EnumSet
 <
 ZealMode
@@ -3063,7 +3063,7 @@ IncrementalMultipleSlices
 }
 ;
 static
-const
+constexpr
 EnumSet
 <
 ZealMode
@@ -3092,7 +3092,7 @@ Compact
 }
 ;
 static
-const
+constexpr
 EnumSet
 <
 ZealMode
