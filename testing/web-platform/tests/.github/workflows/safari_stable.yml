@@ -452,15 +452,6 @@ safaridriver
 -
 -
 enable
-defaults
-write
-com
-.
-apple
-.
-Safari
-WebKitJavaScriptCanOpenWindowsAutomatically
-1
 -
 name
 :

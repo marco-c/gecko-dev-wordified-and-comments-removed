@@ -175,6 +175,17 @@ workflow_run
 id
 }
 }
+github
+-
+token
+:
+{
+{
+secrets
+.
+GITHUB_TOKEN
+}
+}
 -
 id
 :
