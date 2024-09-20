@@ -1162,6 +1162,14 @@ Id
 if
 (
 mCanceled
+|
+|
+mDirectoryLock
+-
+>
+Invalidated
+(
+)
 )
 {
 Complete

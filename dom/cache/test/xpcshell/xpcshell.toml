@@ -103,12 +103,3 @@ test_slowStorageInitialization
 js
 "
 ]
-skip
--
-if
-=
-[
-"
-true
-"
-]
