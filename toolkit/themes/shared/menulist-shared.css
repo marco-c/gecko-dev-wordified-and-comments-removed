@@ -410,6 +410,12 @@ flex
 :
 0
 ;
+align
+-
+self
+:
+center
+;
 :
 host
 (
