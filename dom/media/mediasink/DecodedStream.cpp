@@ -4394,6 +4394,16 @@ aIntrinsicSize
 aPrincipalHandle
 false
 aTimeStamp
+media
+:
+:
+TimeUnit
+:
+:
+Invalid
+(
+)
+aStart
 )
 ;
 MOZ_ASSERT
