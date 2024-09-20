@@ -690,6 +690,14 @@ MediaThreadType
 aType
 )
 ;
+enum
+class
+H264CodecStringStrictness
+{
+Lenient
+Strict
+}
+;
 bool
 ExtractH264CodecDetails
 (
@@ -706,6 +714,8 @@ aConstraint
 H264_LEVEL
 &
 aLevel
+H264CodecStringStrictness
+aStrictness
 )
 ;
 struct

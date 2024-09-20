@@ -133,6 +133,10 @@ aCodec
 profile
 constraint
 level
+H264CodecStringStrictness
+:
+:
+Lenient
 )
 )
 {
@@ -805,6 +809,10 @@ codec
 profile
 constraint
 level
+H264CodecStringStrictness
+:
+:
+Lenient
 )
 )
 ;
