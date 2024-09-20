@@ -838,15 +838,6 @@ aAttribute
 nsGkAtoms
 :
 :
-transform
-|
-|
-aAttribute
-=
-=
-nsGkAtoms
-:
-:
 preserveAspectRatio
 |
 |

@@ -2251,15 +2251,6 @@ nsGkAtoms
 :
 :
 preserveAspectRatio
-|
-|
-aAttribute
-=
-=
-nsGkAtoms
-:
-:
-transform
 )
 {
 mCanvasTM
@@ -2565,7 +2556,7 @@ value
 "
 )
 ;
-SVGSVGElement
+auto
 *
 content
 =
