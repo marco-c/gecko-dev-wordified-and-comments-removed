@@ -2105,6 +2105,17 @@ size
 (
 ICON_SIZE
 )
+.
+semantics
+{
+this
+.
+role
+=
+Role
+.
+Button
+}
 enabled
 =
 enabled
