@@ -36,7 +36,6 @@ PresShell
 }
 class
 nsMathMLmrootFrame
-final
 :
 public
 nsMathMLContainerFrame
@@ -166,6 +165,10 @@ aStyle
 nsPresContext
 *
 aPresContext
+ClassID
+aID
+=
+kClassID
 )
 ;
 virtual
