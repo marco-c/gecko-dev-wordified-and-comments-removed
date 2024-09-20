@@ -226,6 +226,13 @@ path
 /
 to_shmem
 "
+features
+=
+[
+"
+servo_arc
+"
+]
 }
 to_shmem_derive
 =
