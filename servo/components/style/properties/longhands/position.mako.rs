@@ -2095,6 +2095,7 @@ engines
 =
 "
 gecko
+servo
 "
 animation_type
 =
@@ -2165,6 +2166,7 @@ engines
 =
 "
 gecko
+servo
 "
 boxed
 =
