@@ -1274,9 +1274,6 @@ MediaStreamTrack
 :
 GetCapabilities
 (
-dom
-:
-:
 MediaTrackCapabilities
 &
 aResult
@@ -1284,6 +1281,15 @@ CallerType
 aCallerType
 )
 {
+GetSource
+(
+)
+.
+GetCapabilities
+(
+aResult
+)
+;
 }
 void
 MediaStreamTrack

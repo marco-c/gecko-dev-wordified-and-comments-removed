@@ -12,6 +12,17 @@ mozilla
 /
 dom
 /
+MediaTrackCapabilitiesBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 MediaTrackSettingsBinding
 .
 h
