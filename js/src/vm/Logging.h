@@ -243,6 +243,11 @@ _
 baselineCompileHandler
 )
 \
+_
+(
+wasmCodeMetaStats
+)
+\
 JITSPEW_CHANNEL_LIST
 (
 _
