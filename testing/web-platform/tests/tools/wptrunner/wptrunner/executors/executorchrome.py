@@ -497,6 +497,21 @@ self
 .
 runner_handle
         
+self
+.
+parent
+.
+cdp
+.
+execute_cdp_command
+(
+"
+Network
+.
+clearBrowserCookies
+"
+)
+        
 return
 self
 .
