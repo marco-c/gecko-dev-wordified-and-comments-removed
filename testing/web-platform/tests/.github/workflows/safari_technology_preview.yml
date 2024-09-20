@@ -168,9 +168,6 @@ check
 workflow
 -
 run
-if
-:
-|
 #
 We
 need
@@ -187,10 +184,10 @@ success
 skipped
 from
 the
+#
 dependency
 as
 otherwise
-#
 the
 skip
 cascades
@@ -241,6 +238,9 @@ prerequisite
 -
 jobs
 .
+if
+:
+|
 always
 (
 )
