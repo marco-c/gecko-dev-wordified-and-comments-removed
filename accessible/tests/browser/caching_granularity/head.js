@@ -389,6 +389,14 @@ attribute
 "
 style
 "
+|
+|
+attribute
+=
+=
+"
+viewport
+"
 )
 )
 {
