@@ -252,6 +252,13 @@ id
 1608081
 [
 "
+browser_glean_metrics_exist
+.
+js
+"
+]
+[
+"
 browser_sentence_case_strings
 .
 js
