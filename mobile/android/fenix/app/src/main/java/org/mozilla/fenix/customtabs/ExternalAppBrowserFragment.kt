@@ -1773,6 +1773,11 @@ buttonTint
 navbarIntegration
 .
 buttonTint
+buttonDisabledTint
+=
+navbarIntegration
+.
+buttonDisabledTint
 onVisibilityUpdated
 =
 {
