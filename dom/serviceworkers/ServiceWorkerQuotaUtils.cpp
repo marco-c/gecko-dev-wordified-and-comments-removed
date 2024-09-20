@@ -733,7 +733,7 @@ groupHeadroom
 )
 {
 nsAutoCString
-baseDomain
+host
 ;
 nsresult
 rv
@@ -741,9 +741,9 @@ rv
 mPrincipal
 -
 >
-GetBaseDomain
+GetHost
 (
-baseDomain
+host
 )
 ;
 if
@@ -765,13 +765,9 @@ rv
 csd
 -
 >
-DeleteDataFromSiteAndOriginAttributesPatternString
+DeleteDataFromBaseDomain
 (
-baseDomain
-u
-"
-"
-_ns
+host
 false
 nsIClearDataService
 :

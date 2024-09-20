@@ -217,13 +217,11 @@ Services
 .
 clearData
 .
-deleteDataFromSite
+deleteDataFromBaseDomain
 (
 TEST_PRINCIPAL
 .
 baseDomain
-{
-}
 hasUserInput
 TEST_CLEAR_DATA_FLAGS
 value
