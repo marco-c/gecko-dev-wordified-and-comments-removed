@@ -4614,6 +4614,11 @@ MediaStreamTrackAudioSourceNode
 webidl
 "
 "
+MediaTrackCapabilities
+.
+webidl
+"
+"
 MediaTrackSettings
 .
 webidl

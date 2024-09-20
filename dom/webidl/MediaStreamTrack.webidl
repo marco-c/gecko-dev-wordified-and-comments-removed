@@ -547,8 +547,9 @@ stop
 (
 )
 ;
-/
-/
+[
+NeedsCallerType
+]
 MediaTrackCapabilities
 getCapabilities
 (
