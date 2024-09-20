@@ -1063,7 +1063,7 @@ info
 Call
 ClearDataService
 .
-deleteDataFromSite
+deleteDataFromBaseDomain
 for
 the
 domain
@@ -1083,11 +1083,9 @@ Services
 .
 clearData
 .
-deleteDataFromSite
+deleteDataFromBaseDomain
 (
 TEST_DOMAIN_B
-{
-}
 true
 Ci
 .
