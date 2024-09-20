@@ -21,10 +21,6 @@ and
 developer
 machines
 alike
-author
-:
-Jordan
-Lund
 "
 "
 "
