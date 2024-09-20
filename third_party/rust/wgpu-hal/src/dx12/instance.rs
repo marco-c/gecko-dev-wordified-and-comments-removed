@@ -238,7 +238,10 @@ if
 let
 Ok
 (
+Some
+(
 debug_controller
+)
 )
 =
 lib_main

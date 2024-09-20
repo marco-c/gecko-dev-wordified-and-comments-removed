@@ -1,10 +1,4 @@
 use
-wgt
-:
-:
-Backend
-;
-use
 crate
 :
 :
@@ -107,9 +101,6 @@ Marker
 &
 mut
 self
-backend
-:
-Backend
 )
 -
 >
@@ -185,7 +176,6 @@ index
 epoch
 +
 1
-backend
 )
 None
 =
@@ -217,7 +207,6 @@ zip
 (
 index
 epoch
-backend
 )
 }
 }
@@ -325,7 +314,6 @@ let
 (
 index
 epoch
-_backend
 )
 =
 id
@@ -421,9 +409,6 @@ process
 (
 &
 self
-backend
-:
-Backend
 )
 -
 >
@@ -442,7 +427,6 @@ lock
 .
 alloc
 (
-backend
 )
 }
 pub
@@ -612,10 +596,6 @@ man
 .
 process
 (
-Backend
-:
-:
-Empty
 )
 ;
 assert_eq
@@ -629,10 +609,6 @@ unzip
 (
 0
 1
-Backend
-:
-:
-Empty
 )
 )
 ;
@@ -650,10 +626,6 @@ man
 .
 process
 (
-Backend
-:
-:
-Empty
 )
 ;
 assert_eq
@@ -667,10 +639,6 @@ unzip
 (
 0
 2
-Backend
-:
-:
-Empty
 )
 )
 ;

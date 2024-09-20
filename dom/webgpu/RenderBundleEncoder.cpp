@@ -1107,7 +1107,6 @@ mEncoder
 get
 (
 )
-deviceId
 &
 desc
 ToFFI
@@ -1133,7 +1132,6 @@ bridge
 GetClient
 (
 )
-deviceId
 label
 .
 Get

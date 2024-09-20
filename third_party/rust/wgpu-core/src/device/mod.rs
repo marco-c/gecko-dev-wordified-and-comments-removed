@@ -2533,17 +2533,6 @@ Hub
 >
 ImplicitPipelineContext
 {
-let
-backend
-=
-self
-.
-root_id
-.
-backend
-(
-)
-;
 ImplicitPipelineContext
 {
 root_id
@@ -2554,7 +2543,6 @@ pipeline_layouts
 .
 prepare
 (
-backend
 Some
 (
 self
@@ -2587,7 +2575,6 @@ bind_group_layouts
 .
 prepare
 (
-backend
 Some
 (
 *
