@@ -173,6 +173,13 @@ w
 condprof
 [
 "
+test_passwords
+.
+js
+"
+]
+[
+"
 test_permissions
 .
 js
