@@ -1206,6 +1206,14 @@ encodeURIComponent
 \
 MACRO_
 (
+end
+"
+end
+"
+)
+\
+MACRO_
+(
 endRange
 "
 endRange
