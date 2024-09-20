@@ -428,6 +428,13 @@ aFramerate
 )
 ;
 void
+UpdateOnThread
+(
+int
+aFramerate
+)
+;
+void
 ShutdownOnThread
 (
 )
