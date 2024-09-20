@@ -1074,9 +1074,11 @@ resources
 ]
 url
 :
-dragSession
+lazy
 .
-uriForEvent
+contentAnalysis
+.
+getURIForDropEvent
 (
 event
 )

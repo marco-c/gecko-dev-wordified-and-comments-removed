@@ -12,6 +12,9 @@ webidl
 BrowsingContext
 ;
 webidl
+DragEvent
+;
+webidl
 WindowGlobalParent
 ;
 [
@@ -644,6 +647,14 @@ getURIForBrowsingContext
 in
 BrowsingContext
 aBrowsingContext
+)
+;
+nsIURI
+getURIForDropEvent
+(
+in
+DragEvent
+aEvent
 )
 ;
 }
