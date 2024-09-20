@@ -1504,6 +1504,14 @@ o
 instanceof
 ArrayBuffer
 )
+&
+&
+!
+(
+o
+instanceof
+Uint8Array
+)
 )
 ;
 }
@@ -2742,9 +2750,11 @@ t
 =
 >
 {
+let
+authenticator
+;
 try
 {
-let
 authenticator
 =
 await
@@ -2806,6 +2816,7 @@ return
 testCb
 (
 t
+authenticator
 )
 ;
 }
