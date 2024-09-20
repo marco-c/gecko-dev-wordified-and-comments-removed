@@ -340,6 +340,12 @@ components
 /
 uniffi
 -
+bindgen
+-
+gecko
+-
+js
+/
 fixtures
 /
 rondpoint
