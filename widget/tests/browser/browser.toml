@@ -133,13 +133,6 @@ win
 ]
 [
 "
-browser_test_contentCommand_immediately_after_setSelection
-.
-js
-"
-]
-[
-"
 browser_test_fullscreen_size
 .
 js
