@@ -275,12 +275,6 @@ object
 BackClicked
 :
 BookmarksAction
-internal
-data
-object
-SignIntoSyncClicked
-:
-BookmarksAction
 /
 *
 *

@@ -242,7 +242,6 @@ AddFolderAction
 ParentFolderClicked
 SearchClicked
 AddFolderClicked
-SignIntoSyncClicked
 Init
 -
 >
