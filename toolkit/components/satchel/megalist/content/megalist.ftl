@@ -61,8 +61,7 @@ input
 placeholder
 =
 Search
-Your
-Data
+passwords
 .
 key
 =
@@ -73,8 +72,7 @@ aria
 label
 =
 Search
-Your
-Data
+passwords
 menu
 -
 more
