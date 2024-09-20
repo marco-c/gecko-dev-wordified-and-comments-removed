@@ -63,7 +63,7 @@ Ink
 {
 Promise
 <
-InkPresenter
+DelegatedInkTrailPresenter
 >
 requestPresenter
 (
@@ -94,7 +94,7 @@ Exposed
 Window
 ]
 interface
-InkPresenter
+DelegatedInkTrailPresenter
 {
 readonly
 attribute

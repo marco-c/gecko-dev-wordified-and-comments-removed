@@ -416,6 +416,9 @@ wgslLanguageFeatures
 dictionary
 GPURequestAdapterOptions
 {
+any
+featureLevel
+;
 GPUPowerPreference
 powerPreference
 ;
@@ -580,6 +583,17 @@ texture
 compression
 -
 astc
+"
+"
+texture
+-
+compression
+-
+astc
+-
+sliced
+-
+3d
 "
 "
 timestamp
@@ -2831,6 +2845,9 @@ USVString
 GPUPipelineConstantValue
 >
 constants
+=
+{
+}
 ;
 }
 ;
