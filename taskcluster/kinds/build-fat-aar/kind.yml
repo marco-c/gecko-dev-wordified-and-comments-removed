@@ -916,7 +916,7 @@ shippable
 opt
 symbol
 :
-Bgv
+B
 dependencies
 :
 android
@@ -1154,9 +1154,9 @@ platform
 :
 android
 -
-4
+5
 -
-1
+0
 -
 geckoview
 -
@@ -1169,7 +1169,7 @@ shippable
 opt
 symbol
 :
-Bgvl
+Bl
 dependencies
 :
 android
@@ -1395,7 +1395,7 @@ aar
 opt
 symbol
 :
-Bgv
+B
 dependencies
 :
 android

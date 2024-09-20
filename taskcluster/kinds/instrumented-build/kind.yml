@@ -1110,8 +1110,10 @@ android
 0
 -
 x86
+-
+shippable
 /
-pgo
+opt
 worker
 -
 type
@@ -1606,8 +1608,10 @@ android
 0
 -
 x86_64
+-
+shippable
 /
-pgo
+opt
 worker
 -
 type
@@ -2102,8 +2106,10 @@ android
 0
 -
 aarch64
+-
+shippable
 /
-pgo
+opt
 worker
 -
 type
