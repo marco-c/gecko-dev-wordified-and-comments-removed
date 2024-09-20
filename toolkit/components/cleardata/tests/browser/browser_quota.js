@@ -1302,7 +1302,7 @@ COM_DOMAIN
 info
 (
 Verifying
-deleteDataFromBaseDomain
+deleteDataFromSite
 )
 ;
 await
@@ -1317,9 +1317,11 @@ Services
 .
 clearData
 .
-deleteDataFromBaseDomain
+deleteDataFromSite
 (
 ORG_DOMAIN
+{
+}
 true
 Ci
 .

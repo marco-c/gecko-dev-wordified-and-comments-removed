@@ -1003,13 +1003,15 @@ Services
 .
 clearData
 .
-deleteDataFromBaseDomain
+deleteDataFromSite
 (
 "
 example
 .
 com
 "
+{
+}
 true
 Ci
 .
