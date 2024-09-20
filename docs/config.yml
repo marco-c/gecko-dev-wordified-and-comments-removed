@@ -717,6 +717,15 @@ of
 expression
 failed
 "
+-
+"
+WARNING
+:
+Title
+underline
+too
+short
+"
 #
 A
 regexp
@@ -985,4 +994,4 @@ title
 "
 max_num_warnings
 :
-794
+781
