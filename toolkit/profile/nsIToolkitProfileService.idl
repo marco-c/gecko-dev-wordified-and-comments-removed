@@ -282,10 +282,16 @@ restart
 2
 }
 ;
+[
+infallible
+]
 attribute
 boolean
 startWithLastProfile
 ;
+[
+infallible
+]
 readonly
 attribute
 nsISimpleEnumerator
@@ -334,6 +340,9 @@ database
 .
 *
 /
+[
+infallible
+]
 readonly
 attribute
 nsIToolkitProfile
@@ -406,6 +415,9 @@ null
 .
 *
 /
+[
+infallible
+]
 readonly
 attribute
 nsIToolkitProfile
@@ -973,6 +985,9 @@ profiles
 .
 *
 /
+[
+infallible
+]
 readonly
 attribute
 unsigned

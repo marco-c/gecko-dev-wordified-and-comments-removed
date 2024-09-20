@@ -378,6 +378,9 @@ profile
 .
 *
 /
+[
+infallible
+]
 attribute
 nsIFile
 rootDir
@@ -412,6 +415,9 @@ localDirectory
 .
 *
 /
+[
+infallible
+]
 readonly
 attribute
 nsIFile
