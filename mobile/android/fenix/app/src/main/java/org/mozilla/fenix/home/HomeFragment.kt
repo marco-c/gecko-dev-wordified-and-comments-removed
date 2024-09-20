@@ -6687,6 +6687,9 @@ sessionControlInteractor
 bookmarksInteractor
 =
 sessionControlInteractor
+recentVisitsInteractor
+=
+sessionControlInteractor
 onTopSitesItemBound
 =
 {
