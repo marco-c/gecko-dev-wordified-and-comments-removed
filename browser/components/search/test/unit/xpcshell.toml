@@ -103,6 +103,13 @@ js
 ]
 [
 "
+test_search_telemetry_categorization_region
+.
+js
+"
+]
+[
+"
 test_search_telemetry_categorization_sync
 .
 js
@@ -121,6 +128,13 @@ serpEventTelemetryCategorization
 enabled
 =
 true
+"
+]
+[
+"
+test_search_telemetry_categorization_sync_could_modify_store
+.
+js
 "
 ]
 [
