@@ -1967,6 +1967,11 @@ iter
 ;
 }
 void
+removeAllRangesFromVirtualRegisters
+(
+)
+;
+void
 addRange
 (
 LiveRange
