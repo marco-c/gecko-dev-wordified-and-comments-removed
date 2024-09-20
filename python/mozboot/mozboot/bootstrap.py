@@ -4129,6 +4129,7 @@ vct_dir
 def
 configure_mercurial
 (
+    
 hg
 :
 Optional
@@ -4138,6 +4139,11 @@ Path
 root_state_dir
 :
 Path
+update_only
+:
+bool
+=
+False
 )
 :
     
@@ -4200,6 +4206,27 @@ configwizard
 configwizard
 "
     
+]
+    
+if
+update_only
+:
+        
+args
++
+=
+[
+"
+-
+-
+config
+"
+"
+configwizard
+.
+steps
+=
+"
 ]
     
 subprocess

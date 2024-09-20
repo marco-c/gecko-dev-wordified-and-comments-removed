@@ -140,9 +140,39 @@ alone
 .
 "
 )
+CommandArgument
+(
+    
+"
+-
+-
+exclude
+"
+    
+nargs
+=
+"
++
+"
+    
+help
+=
+"
+A
+list
+of
+bootstrappable
+elements
+not
+to
+bootstrap
+.
+"
+)
 def
 bootstrap
 (
+    
 command_context
 application_choice
 =
@@ -150,6 +180,10 @@ None
 no_system_changes
 =
 False
+exclude
+=
+[
+]
 )
 :
     
@@ -197,6 +231,10 @@ is_interactive
 no_system_changes
 =
 no_system_changes
+        
+exclude
+=
+exclude
         
 mach_context
 =
@@ -549,8 +587,9 @@ else
             
 bootstrap
 .
-update_vct
+configure_mercurial
 (
+                
 vcs
 Path
 (
@@ -560,6 +599,10 @@ _mach_context
 .
 state_dir
 )
+update_only
+=
+True
+            
 )
     
 else
