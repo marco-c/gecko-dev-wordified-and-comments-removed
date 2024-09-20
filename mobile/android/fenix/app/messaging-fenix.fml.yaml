@@ -499,6 +499,13 @@ is_fxa_signed_in
 =
 true
 "
+FXA_MORE_THAN_1_DEVICE
+:
+"
+fxa_connected_devices
+>
+1
+"
 #
 Has
 the
