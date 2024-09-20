@@ -63,11 +63,11 @@ aCallback
 )
 ;
 void
-deleteDataFromBaseDomain
+deleteDataFromSite
 (
 in
 AUTF8String
-aDomainOrHost
+aSchemelessSite
 in
 boolean
 aIsUserRequest
