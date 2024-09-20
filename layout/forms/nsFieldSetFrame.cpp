@@ -1708,9 +1708,9 @@ aInput
 mContext
 inner
 aType
-Nothing
-(
-)
+aInput
+.
+mPercentageBasisForChildren
 nsLayoutUtils
 :
 :
