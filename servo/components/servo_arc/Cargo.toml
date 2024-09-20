@@ -73,6 +73,11 @@ without
 weak
 references
 "
+edition
+=
+"
+2021
+"
 [
 lib
 ]
