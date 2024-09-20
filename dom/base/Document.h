@@ -8413,6 +8413,15 @@ ShadowRoot
 const
 ;
 void
+SynchronouslyUpdateRemoteBrowserDimensions
+(
+bool
+aIncludeInactive
+=
+false
+)
+;
+void
 NotifyMediaFeatureValuesChanged
 (
 )
@@ -11060,6 +11069,10 @@ aNowTime
 void
 UpdateRemoteFrameEffects
 (
+bool
+aIncludeInactive
+=
+false
 )
 ;
 MOZ_CAN_RUN_SCRIPT
