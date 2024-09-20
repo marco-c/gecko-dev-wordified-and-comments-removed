@@ -1178,6 +1178,9 @@ PrintColorAdjust
 ForcedColorAdjust
 "
 "
+ForcedColors
+"
+"
 ScrollbarGutter
 "
 "
