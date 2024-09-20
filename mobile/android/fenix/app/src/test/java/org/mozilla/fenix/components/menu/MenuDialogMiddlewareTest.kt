@@ -4186,6 +4186,17 @@ any
 (
 )
 )
+assertEquals
+(
+store
+.
+state
+.
+extensionMenuState
+.
+addonInstallationInProgress
+addon
+)
 }
 Test
 fun

@@ -899,7 +899,7 @@ onClick
 )
 }
 Composable
-private
+internal
 fun
 rotationAnimation
 (
