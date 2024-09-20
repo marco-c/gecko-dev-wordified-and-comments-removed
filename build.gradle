@@ -89,7 +89,7 @@ build
 gradle
 protobuf_plugin
 =
-FenixVersions
+Versions
 .
 protobuf_plugin
 }

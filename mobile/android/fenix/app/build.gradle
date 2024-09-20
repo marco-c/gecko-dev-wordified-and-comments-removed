@@ -6997,7 +6997,7 @@ ComponentsDependencies
 .
 androidx_work_runtime
 implementation
-FenixDependencies
+ComponentsDependencies
 .
 protobuf_javalite
 implementation
@@ -7318,7 +7318,7 @@ protoc
 {
 artifact
 =
-FenixDependencies
+ComponentsDependencies
 .
 protobuf_compiler
 }
