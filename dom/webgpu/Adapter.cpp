@@ -893,7 +893,7 @@ aInfo
 limits
 )
 )
-mInfo
+mInfoInner
 (
 aInfo
 )
@@ -1189,7 +1189,7 @@ IsFallbackAdapter
 const
 {
 return
-mInfo
+mInfoInner
 -
 >
 device_type
@@ -1214,7 +1214,7 @@ SupportExternalTextureInSwapChain
 const
 {
 return
-mInfo
+mInfoInner
 -
 >
 support_use_external_texture_in_swap_chain
@@ -2949,7 +2949,7 @@ AdapterInfo
 new
 AdapterInfo
 (
-mInfo
+mInfoInner
 )
 }
 ;
