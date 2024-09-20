@@ -11111,14 +11111,6 @@ rval
 )
 ;
 }
-ReportUsageCounter
-(
-cx
-nullptr
-SUBCLASSING_REGEXP
-SUBCLASSING_TYPE_IV
-)
-;
 Rooted
 <
 Value

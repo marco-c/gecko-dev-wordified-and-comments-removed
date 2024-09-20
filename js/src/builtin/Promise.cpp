@@ -6657,14 +6657,6 @@ return
 true
 ;
 }
-ReportUsageCounter
-(
-cx
-C
-SUBCLASSING_PROMISE
-SUBCLASSING_TYPE_II
-)
-;
 Handle
 <
 PropertyName
