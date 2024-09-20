@@ -1,3 +1,15 @@
+XPCSHELL_TESTS_MANIFESTS
++
+=
+[
+"
+xpcshell
+/
+xpcshell
+.
+toml
+"
+]
 TESTING_JS_MODULES
 .
 dom
