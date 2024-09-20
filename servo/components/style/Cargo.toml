@@ -124,6 +124,11 @@ gecko
 "
 toml
 "
+"
+selectors
+/
+to_shmem
+"
 ]
 servo
 =
@@ -178,6 +183,11 @@ servo
 "
 "
 url
+"
+"
+selectors
+/
+to_shmem
 "
 ]
 gecko_debug
