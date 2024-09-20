@@ -1624,6 +1624,11 @@ bookmarks
 .
 visibility
 "
+"
+sidebar
+.
+verticalTabs
+"
 ]
 ;
 if
