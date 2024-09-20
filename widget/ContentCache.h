@@ -2043,6 +2043,15 @@ aSelectionEvent
 )
 ;
 void
+OnContentCommandEvent
+(
+const
+WidgetContentCommandEvent
+&
+aContentCommandEvent
+)
+;
+void
 OnEventNeedingAckHandled
 (
 nsIWidget
@@ -2168,6 +2177,8 @@ uint32_t
 ret
 =
 mPendingSetSelectionEventNeedingAck
++
+mPendingContentCommandEventNeedingAck
 ;
 for
 (
@@ -2593,6 +2604,11 @@ mCompositionStartInChild
 ;
 uint32_t
 mPendingSetSelectionEventNeedingAck
+=
+0u
+;
+uint32_t
+mPendingContentCommandEventNeedingAck
 =
 0u
 ;
