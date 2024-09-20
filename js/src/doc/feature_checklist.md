@@ -224,7 +224,7 @@ Contact
 fuzzing
 mozilla
 .
-org
+com
 to
 arrange
 fuzzing
