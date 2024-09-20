@@ -38,13 +38,6 @@ h
 namespace
 mozilla
 {
-using
-namespace
-dom
-:
-:
-SVGLength_Binding
-;
 void
 SVGLengthSMILType
 :
