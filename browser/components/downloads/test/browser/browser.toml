@@ -173,14 +173,14 @@ browser_download_succeeds_with_inaccessible_tmp
 js
 "
 ]
-skip
+run
 -
 if
 =
 [
 "
 os
-=
+!
 =
 '
 win

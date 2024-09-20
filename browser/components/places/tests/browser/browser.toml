@@ -124,14 +124,14 @@ browser_bookmarkMenu_hiddenWindow
 js
 "
 ]
-skip
+run
 -
 if
 =
 [
 "
 os
-!
+=
 =
 '
 mac
