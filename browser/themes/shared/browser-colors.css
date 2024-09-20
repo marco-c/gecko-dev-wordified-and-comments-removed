@@ -166,14 +166,6 @@ sidebarborder
 -
 button
 -
-color
-:
-currentColor
-;
--
--
-button
--
 primary
 -
 bgcolor
@@ -1211,6 +1203,8 @@ rgba
 -
 -
 button
+-
+text
 -
 color
 :

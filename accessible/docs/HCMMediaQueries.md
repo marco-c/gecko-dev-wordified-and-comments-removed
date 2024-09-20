@@ -2311,6 +2311,8 @@ ffffff
 -
 button
 -
+text
+-
 color
 :
 #
@@ -2342,6 +2344,8 @@ ButtonFace
 -
 button
 -
+text
+-
 color
 :
 ButtonText
@@ -2359,6 +2363,8 @@ var
 -
 -
 button
+-
+text
 -
 color
 )
@@ -2400,6 +2406,8 @@ var
 -
 -
 button
+-
+text
 -
 color
 )

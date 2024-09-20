@@ -138,8 +138,9 @@ var
 -
 button
 -
+text
+-
 color
-inherit
 )
 ;
 font
@@ -563,6 +564,8 @@ var
 -
 -
 button
+-
+text
 -
 color
 )

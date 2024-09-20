@@ -2507,14 +2507,7 @@ default
 "
 :
 "
-var
-(
--
--
-button
--
-color
-)
+currentColor
 "
 }
 }
