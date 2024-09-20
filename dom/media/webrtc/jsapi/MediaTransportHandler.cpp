@@ -6359,6 +6359,9 @@ layer
 ;
 if
 (
+int
+error
+=
 layer
 -
 >
@@ -6366,6 +6369,8 @@ SendPacket
 (
 aPacket
 )
+;
+error
 <
 0
 )
@@ -6387,6 +6392,11 @@ failed
 to
 send
 packet
+.
+error
+=
+%
+d
 "
 mIceCtx
 -
@@ -6403,6 +6413,7 @@ aTransportId
 c_str
 (
 )
+error
 )
 ;
 }
