@@ -16,6 +16,9 @@ TokenStream
 mod
 to_shmem
 ;
+mod
+util
+;
 #
 [
 proc_macro_derive
