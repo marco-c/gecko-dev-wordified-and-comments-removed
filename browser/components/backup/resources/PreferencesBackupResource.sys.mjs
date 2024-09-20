@@ -238,6 +238,15 @@ stagingPath
 simpleCopyFiles
 )
 ;
+if
+(
+BackupResource
+.
+canBackupHistory
+(
+)
+)
+{
 const
 sqliteDatabases
 =
@@ -266,6 +275,7 @@ stagingPath
 sqliteDatabases
 )
 ;
+}
 /
 /
 prefs
