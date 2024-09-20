@@ -3432,7 +3432,7 @@ rval
 ;
 }
 static
-const
+constexpr
 JSFunctionSpec
 number_functions
 [
@@ -7608,7 +7608,7 @@ builder
 ;
 }
 static
-const
+constexpr
 JSFunctionSpec
 number_methods
 [
@@ -7733,7 +7733,7 @@ d
 ;
 }
 static
-const
+constexpr
 JSFunctionSpec
 number_static_methods
 [
@@ -7788,7 +7788,7 @@ JS_FS_END
 }
 ;
 static
-const
+constexpr
 JSPropertySpec
 number_static_properties
 [
