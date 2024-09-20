@@ -89,6 +89,11 @@ MPL
 .
 0
 "
+edition
+=
+"
+2021
+"
 build
 =
 "

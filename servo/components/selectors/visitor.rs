@@ -30,6 +30,12 @@ Selector
 SelectorImpl
 }
 ;
+use
+bitflags
+:
+:
+bitflags
+;
 pub
 trait
 SelectorVisitor
