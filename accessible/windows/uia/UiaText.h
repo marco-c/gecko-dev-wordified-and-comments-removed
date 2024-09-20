@@ -80,7 +80,7 @@ RangeFromPoint
 (
 struct
 UiaPoint
-point
+aPoint
 __RPC__deref_out_opt
 ITextRangeProvider
 *
