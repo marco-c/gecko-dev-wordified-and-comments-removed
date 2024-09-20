@@ -2035,9 +2035,9 @@ treeherder
 :
 platform
 :
-macosx1100
+osx
 -
-64
+aarch64
 -
 shippable
 /
