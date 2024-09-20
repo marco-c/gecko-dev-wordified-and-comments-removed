@@ -689,6 +689,9 @@ where
 T
 :
 ProfilerMarker
++
+'
+static
 {
 if
 !
