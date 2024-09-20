@@ -350,7 +350,7 @@ CSSToParentLayerScale
 )
 ;
 }
-void
+bool
 SampleAnimationOnce
 (
 )
@@ -381,6 +381,7 @@ AdvanceBy
 increment
 )
 ;
+return
 apzc
 -
 >
@@ -392,7 +393,7 @@ pointOut
 )
 ;
 }
-void
+bool
 SampleAnimationOneFrame
 (
 )
@@ -423,6 +424,7 @@ AdvanceBy
 increment
 )
 ;
+return
 apzc
 -
 >

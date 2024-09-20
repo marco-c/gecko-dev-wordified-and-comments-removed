@@ -3042,17 +3042,6 @@ aScrolledApzc
 )
 ;
 void
-HandleSmoothScrollOverscroll
-(
-const
-ParentLayerPoint
-&
-aVelocity
-SideBits
-aOverscrollSideBits
-)
-;
-void
 StartOverscrollAnimation
 (
 const
