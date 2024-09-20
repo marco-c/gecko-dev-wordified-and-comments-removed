@@ -15,16 +15,6 @@ annotationEditorMode
 1
 )
 ;
-pref
-(
-"
-pdfjs
-.
-enableFloatingToolbar
-"
-true
-)
-;
 #
 else
 #
