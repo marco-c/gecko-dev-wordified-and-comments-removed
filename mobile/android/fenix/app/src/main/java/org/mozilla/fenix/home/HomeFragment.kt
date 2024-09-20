@@ -3648,6 +3648,13 @@ toolbarView
 .
 updateButtonVisibility
 (
+requireComponents
+.
+core
+.
+store
+.
+state
 )
 }
 /
@@ -5942,6 +5949,13 @@ toolbarView
 .
 build
 (
+requireComponents
+.
+core
+.
+store
+.
+state
 )
 if
 (
