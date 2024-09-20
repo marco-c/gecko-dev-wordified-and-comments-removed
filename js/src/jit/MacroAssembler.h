@@ -24950,6 +24950,10 @@ Register
 scratch1
 ValueOperand
 value
+const
+LiveRegisterSet
+&
+liveRegs
 Label
 *
 cacheHit
@@ -24985,6 +24989,10 @@ Register
 scratch3
 ValueOperand
 value
+const
+LiveRegisterSet
+&
+liveRegs
 Label
 *
 cacheHit
