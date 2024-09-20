@@ -1044,7 +1044,7 @@ usage
 :
 MLTensorUsage
 .
-READ_FROM
+READ
 }
 )
 ;
@@ -1123,7 +1123,7 @@ usage
 :
 MLTensorUsage
 .
-READ_FROM
+READ
 }
 )
 ;
@@ -1234,7 +1234,7 @@ usage
 :
 MLTensorUsage
 .
-WRITE_TO
+WRITE
 }
 )
 ;
