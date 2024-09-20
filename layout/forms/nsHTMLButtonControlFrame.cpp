@@ -1233,6 +1233,9 @@ FirstChild
 (
 )
 aType
+aInput
+.
+mPercentageBasisForChildren
 )
 ;
 }
