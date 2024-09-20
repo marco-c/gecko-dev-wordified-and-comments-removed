@@ -210,7 +210,7 @@ aPath
 )
 ;
 void
-LaunchChild
+LaunchMacApp
 (
 int
 argc
@@ -10349,7 +10349,7 @@ defined
 (
 XP_MACOSX
 )
-LaunchChild
+LaunchMacApp
 (
 argc
 (
