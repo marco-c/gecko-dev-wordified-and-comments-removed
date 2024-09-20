@@ -470,11 +470,11 @@ false
 ;
 }
 void
-SharedLibraryInfo
-:
-:
 AddSharedLibraryFromModuleInfo
 (
+SharedLibraryInfo
+&
+sharedLibraryInfo
 const
 wchar_t
 *
@@ -1056,6 +1056,8 @@ versionStr
 "
 )
 ;
+sharedLibraryInfo
+.
 AddSharedLibrary
 (
 shlib
@@ -1089,10 +1091,9 @@ HMODULE
 aModule
 )
 {
-sharedLibraryInfo
-.
 AddSharedLibraryFromModuleInfo
 (
+sharedLibraryInfo
 aModulePath
 mozilla
 :
@@ -1132,10 +1133,9 @@ aPath
 SharedLibraryInfo
 sharedLibraryInfo
 ;
-sharedLibraryInfo
-.
 AddSharedLibraryFromModuleInfo
 (
+sharedLibraryInfo
 aPath
 mozilla
 :
