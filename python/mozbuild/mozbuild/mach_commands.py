@@ -7059,15 +7059,19 @@ ret
             
 verify_android_device
 (
+                
 command_context
+                
 install
 =
 InstallIntent
 .
 YES
+                
 *
 *
 kwargs
+            
 )
             
 =
@@ -9242,6 +9246,8 @@ InstallIntent
         
 _get_device
         
+metadata_for_app
+        
 verify_android_device
     
 )
@@ -9253,87 +9259,18 @@ moves
 import
 shlex_quote
     
+metadata
+=
+metadata_for_app
+(
+app
+)
+    
 if
-app
-=
-=
-"
-org
+not
+metadata
 .
-mozilla
-.
-geckoview_example
-"
-:
-        
 activity_name
-=
-"
-org
-.
-mozilla
-.
-geckoview_example
-.
-GeckoViewActivity
-"
-    
-elif
-app
-=
-=
-"
-org
-.
-mozilla
-.
-geckoview
-.
-test_runner
-"
-:
-        
-activity_name
-=
-"
-org
-.
-mozilla
-.
-geckoview
-.
-test_runner
-.
-TestRunnerActivity
-"
-    
-elif
-"
-fennec
-"
-in
-app
-or
-"
-firefox
-"
-in
-app
-:
-        
-activity_name
-=
-"
-org
-.
-mozilla
-.
-gecko
-.
-BrowserApp
-"
-    
-else
 :
         
 raise
@@ -9371,7 +9308,9 @@ command_context
         
 app
 =
-app
+metadata
+.
+package_name
         
 aab
 =
@@ -9466,7 +9405,9 @@ run
 app
 "
 :
-app
+metadata
+.
+package_name
 }
                 
 "
@@ -9503,7 +9444,9 @@ persistent
 s
 "
 %
-app
+metadata
+.
+package_name
 )
     
 else
@@ -9573,7 +9516,11 @@ profile
 .
 format
 (
-app
+                    
+metadata
+.
+package_name
+                
 )
                 
 device
@@ -9807,7 +9754,9 @@ run
 app
 "
 :
-app
+metadata
+.
+package_name
 }
                 
 "
@@ -9828,7 +9777,9 @@ device
 .
 stop_application
 (
-app
+metadata
+.
+package_name
 )
         
 command_context
@@ -9845,16 +9796,23 @@ run
 "
             
 {
+                
 "
 app
 "
 :
-app
+metadata
+.
+package_name
+                
 "
 activity_name
 "
 :
+metadata
+.
 activity_name
+            
 }
             
 "
@@ -9878,10 +9836,14 @@ launch_application
             
 app_name
 =
-app
+metadata
+.
+package_name
             
 activity_name
 =
+metadata
+.
 activity_name
             
 intent
@@ -9928,11 +9890,15 @@ socket_file
 =
 run_lldb_server
 (
-app
+        
+metadata
+.
+package_name
 command_context
 .
 substs
 device_serial
+    
 )
     
 if
@@ -10117,7 +10083,9 @@ proc
 [
 1
 ]
-app
+metadata
+.
+package_name
 )
         
 ]
@@ -10145,7 +10113,9 @@ run
 app
 "
 :
-app
+metadata
+.
+package_name
 }
                 
 "
@@ -10349,7 +10319,9 @@ pidof
 (
 app_name
 =
-app
+metadata
+.
+package_name
 )
         
 if
