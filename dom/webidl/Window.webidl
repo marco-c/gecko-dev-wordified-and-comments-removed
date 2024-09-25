@@ -1064,17 +1064,6 @@ navigator
 ;
 [
 Replaceable
-Pref
-=
-"
-dom
-.
-window
-.
-clientinformation
-.
-enabled
-"
 BinaryName
 =
 "
