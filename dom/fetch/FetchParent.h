@@ -67,17 +67,6 @@ include
 "
 mozilla
 /
-dom
-/
-FetchService
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ipc
 /
 PBackgroundSharedTypes
@@ -201,8 +190,6 @@ ipc
 IPCResult
 RecvAbortFetchOp
 (
-bool
-aForceAbort
 )
 ;
 FetchParent

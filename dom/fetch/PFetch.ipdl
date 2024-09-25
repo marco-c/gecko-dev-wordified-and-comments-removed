@@ -142,8 +142,6 @@ aArgs
 async
 AbortFetchOp
 (
-bool
-aForceAbort
 )
 ;
 child

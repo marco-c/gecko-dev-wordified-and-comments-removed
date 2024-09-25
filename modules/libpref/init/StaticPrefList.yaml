@@ -17517,7 +17517,7 @@ type
 RelaxedAtomicBool
 value
 :
-IS_EARLY_BETA_OR_EARLIER
+false
 mirror
 :
 always
@@ -17546,7 +17546,7 @@ type
 RelaxedAtomicUint32
 value
 :
-100
+30
 mirror
 :
 always
@@ -17574,7 +17574,7 @@ type
 RelaxedAtomicUint32
 value
 :
-30
+10
 mirror
 :
 always
