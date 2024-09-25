@@ -2555,9 +2555,9 @@ pipe
 =
 MakePipe
 (
+downscalingConfig
 colorManagementConfig
 premultiplyConfig
-downscalingConfig
 surfaceConfig
 )
 ;
@@ -2586,8 +2586,8 @@ pipe
 =
 MakePipe
 (
-premultiplyConfig
 downscalingConfig
+premultiplyConfig
 surfaceConfig
 )
 ;
@@ -2621,9 +2621,9 @@ pipe
 =
 MakePipe
 (
+downscalingConfig
 colorManagementConfig
 premultiplyConfig
-downscalingConfig
 reorientSurfaceConfig
 )
 ;
@@ -2652,8 +2652,8 @@ pipe
 =
 MakePipe
 (
-premultiplyConfig
 downscalingConfig
+premultiplyConfig
 reorientSurfaceConfig
 )
 ;
