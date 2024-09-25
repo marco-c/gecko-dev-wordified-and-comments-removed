@@ -11659,6 +11659,17 @@ manifestVersion
 >
 =
 3
+&
+&
+this
+.
+type
+=
+=
+=
+"
+extension
+"
 originPermissions
 permissions
 schemaURLs
