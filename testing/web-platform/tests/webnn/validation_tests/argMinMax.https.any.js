@@ -50,7 +50,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -65,7 +65,7 @@ axis
 output
 :
 {
-dimensions
+shape
 :
 [
 2
@@ -98,7 +98,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -113,7 +113,7 @@ axis
 output
 :
 {
-dimensions
+shape
 :
 [
 1
@@ -145,7 +145,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -169,7 +169,7 @@ int32
 output
 :
 {
-dimensions
+shape
 :
 [
 1
@@ -201,7 +201,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -225,7 +225,7 @@ int64
 output
 :
 {
-dimensions
+shape
 :
 [
 1
@@ -267,7 +267,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -316,7 +316,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 ]
@@ -375,22 +375,9 @@ input
 '
 input
 '
-{
-dataType
-:
 test
 .
 input
-.
-dataType
-dimensions
-:
-test
-.
-input
-.
-dimensions
-}
 )
 ;
 const
@@ -483,7 +470,7 @@ test
 .
 output
 .
-dimensions
+shape
 )
 ;
 }
@@ -558,7 +545,7 @@ test
 .
 output
 .
-dimensions
+shape
 )
 ;
 }

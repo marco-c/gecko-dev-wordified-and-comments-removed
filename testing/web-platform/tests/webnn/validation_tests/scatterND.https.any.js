@@ -28,7 +28,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 4
@@ -44,7 +44,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 2
@@ -59,7 +59,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -75,7 +75,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 4
@@ -114,7 +114,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 4
@@ -130,7 +130,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 2
@@ -145,7 +145,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 2
@@ -176,7 +176,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 ]
@@ -189,7 +189,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 2
@@ -204,7 +204,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -235,7 +235,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 4
@@ -251,7 +251,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 ]
@@ -264,7 +264,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -304,7 +304,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 4
@@ -320,7 +320,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 2
@@ -335,7 +335,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -368,7 +368,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 4
@@ -384,7 +384,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 2
@@ -399,7 +399,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -522,7 +522,7 @@ test
 .
 output
 .
-dimensions
+shape
 )
 ;
 }
@@ -615,7 +615,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 8
@@ -639,7 +639,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 4
@@ -664,7 +664,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 4
@@ -731,7 +731,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 8
@@ -755,7 +755,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 4
@@ -780,7 +780,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 4
@@ -847,7 +847,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 8
@@ -871,7 +871,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 4
@@ -896,7 +896,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 4

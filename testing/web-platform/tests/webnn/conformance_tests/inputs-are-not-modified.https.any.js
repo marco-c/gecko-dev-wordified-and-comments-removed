@@ -75,7 +75,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 4
@@ -126,7 +126,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 4
@@ -152,7 +152,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 4
@@ -294,7 +294,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 4
@@ -315,7 +315,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 4
@@ -380,7 +380,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 4
@@ -406,7 +406,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 4

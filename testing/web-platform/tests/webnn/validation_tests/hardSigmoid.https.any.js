@@ -73,7 +73,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 1
@@ -173,7 +173,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 ]
@@ -252,7 +252,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1

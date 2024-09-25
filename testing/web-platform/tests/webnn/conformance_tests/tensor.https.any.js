@@ -144,7 +144,7 @@ descriptor
 return
 descriptor
 .
-dimensions
+shape
 .
 reduce
 (
@@ -183,7 +183,7 @@ dataType
 tensor
 .
 dataType
-dimensions
+shape
 :
 tensor
 .
@@ -273,7 +273,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 2
@@ -333,7 +333,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 2
@@ -506,7 +506,7 @@ mlTensor
 shape
 tensorDescriptor
 .
-dimensions
+shape
 '
 tensor
 shapes
@@ -750,7 +750,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 2
@@ -805,7 +805,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 1
@@ -1014,7 +1014,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 2
@@ -1094,7 +1094,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 2
@@ -1221,7 +1221,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 1
@@ -1335,7 +1335,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 2
@@ -1534,7 +1534,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 2
@@ -1593,7 +1593,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 2
@@ -1657,7 +1657,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 2
@@ -1747,7 +1747,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 1024
@@ -1802,7 +1802,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 1
@@ -1898,7 +1898,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 1
@@ -2000,7 +2000,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 1
@@ -2103,7 +2103,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 1
@@ -2206,7 +2206,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 1
@@ -2287,7 +2287,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 2
@@ -2472,7 +2472,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 shape
 usage
@@ -2571,7 +2571,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 2
@@ -2841,7 +2841,7 @@ lhs
 ]
 .
 dataType
-dimensions
+shape
 :
 inputs
 [
@@ -2913,7 +2913,7 @@ rhs
 ]
 .
 dataType
-dimensions
+shape
 :
 inputs
 [
@@ -3008,7 +3008,7 @@ output1
 ]
 .
 dataType
-dimensions
+shape
 :
 output1WrongShape
 }
@@ -3091,7 +3091,7 @@ output2
 ]
 .
 dataType
-dimensions
+shape
 :
 output2WrongShape
 }
@@ -3214,7 +3214,7 @@ createTensor
 dataType
 :
 inputWrongDataType
-dimensions
+shape
 :
 inputs
 [
@@ -3276,7 +3276,7 @@ createTensor
 dataType
 :
 inputWrongDataType
-dimensions
+shape
 :
 inputs
 [
@@ -3338,7 +3338,7 @@ createTensor
 dataType
 :
 outputWrongDataType
-dimensions
+shape
 :
 outputs
 [
@@ -3396,7 +3396,7 @@ createTensor
 dataType
 :
 outputWrongDataType
-dimensions
+shape
 :
 outputs
 [
@@ -5246,8 +5246,6 @@ dataType
 '
 float32
 '
-dimensions
-:
 shape
 }
 ;
@@ -6443,7 +6441,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 2
@@ -6463,7 +6461,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -6483,7 +6481,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 4
@@ -6502,7 +6500,7 @@ dataType
 '
 uint8
 '
-dimensions
+shape
 :
 [
 3
@@ -6523,7 +6521,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 2
@@ -6544,7 +6542,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 kMaxUnsignedLong

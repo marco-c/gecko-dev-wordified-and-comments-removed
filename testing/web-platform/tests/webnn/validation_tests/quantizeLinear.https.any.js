@@ -58,7 +58,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 3
@@ -74,7 +74,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 3
@@ -90,7 +90,7 @@ dataType
 '
 int8
 '
-dimensions
+shape
 :
 [
 3
@@ -106,7 +106,7 @@ dataType
 '
 int8
 '
-dimensions
+shape
 :
 [
 3
@@ -162,7 +162,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 3
@@ -178,7 +178,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 5
@@ -192,7 +192,7 @@ dataType
 '
 int8
 '
-dimensions
+shape
 :
 [
 5
@@ -206,7 +206,7 @@ dataType
 '
 int8
 '
-dimensions
+shape
 :
 [
 3
@@ -260,7 +260,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 3
@@ -276,7 +276,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 ]
@@ -289,7 +289,7 @@ dataType
 '
 int8
 '
-dimensions
+shape
 :
 [
 ]
@@ -302,7 +302,7 @@ dataType
 '
 int8
 '
-dimensions
+shape
 :
 [
 3
@@ -342,7 +342,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 3
@@ -358,7 +358,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -372,7 +372,7 @@ dataType
 '
 int8
 '
-dimensions
+shape
 :
 [
 5
@@ -410,7 +410,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 3
@@ -426,7 +426,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 5
@@ -440,7 +440,7 @@ dataType
 '
 int8
 '
-dimensions
+shape
 :
 [
 2
@@ -477,7 +477,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 3
@@ -493,7 +493,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 5
@@ -507,7 +507,7 @@ dataType
 '
 int8
 '
-dimensions
+shape
 :
 [
 5
@@ -541,7 +541,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 3
@@ -557,7 +557,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 5
@@ -571,7 +571,7 @@ dataType
 '
 int8
 '
-dimensions
+shape
 :
 [
 5
@@ -605,7 +605,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 3
@@ -621,7 +621,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 5
@@ -635,7 +635,7 @@ dataType
 '
 uint8
 '
-dimensions
+shape
 :
 [
 5
@@ -671,7 +671,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 3
@@ -687,7 +687,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 5
@@ -701,7 +701,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 5
@@ -743,22 +743,9 @@ input
 '
 input
 '
-{
-dataType
-:
 test
 .
 input
-.
-dataType
-dimensions
-:
-test
-.
-input
-.
-dimensions
-}
 )
 ;
 const
@@ -771,22 +758,9 @@ input
 '
 scale
 '
-{
-dataType
-:
 test
 .
 scale
-.
-dataType
-dimensions
-:
-test
-.
-scale
-.
-dimensions
-}
 )
 ;
 const
@@ -799,22 +773,9 @@ input
 '
 zeroPoint
 '
-{
-dataType
-:
 test
 .
 zeroPoint
-.
-dataType
-dimensions
-:
-test
-.
-zeroPoint
-.
-dimensions
-}
 )
 ;
 if
@@ -861,7 +822,7 @@ test
 .
 output
 .
-dimensions
+shape
 )
 ;
 }
@@ -937,7 +898,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -954,7 +915,7 @@ dataType
 '
 int8
 '
-dimensions
+shape
 :
 [
 2

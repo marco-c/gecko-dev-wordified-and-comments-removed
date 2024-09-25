@@ -30,7 +30,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -125,7 +125,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 3
@@ -155,7 +155,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -187,7 +187,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 ]
@@ -236,7 +236,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 3
@@ -291,7 +291,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 3
@@ -349,7 +349,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 3
@@ -401,7 +401,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 3
@@ -457,7 +457,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 3
@@ -515,22 +515,9 @@ input
 '
 input
 '
-{
-dataType
-:
 test
 .
 input
-.
-dataType
-dimensions
-:
-test
-.
-input
-.
-dimensions
-}
 )
 ;
 if
@@ -581,7 +568,7 @@ test
 .
 output
 .
-dimensions
+shape
 )
 ;
 }

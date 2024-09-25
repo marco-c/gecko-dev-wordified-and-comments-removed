@@ -116,7 +116,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -277,7 +277,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2

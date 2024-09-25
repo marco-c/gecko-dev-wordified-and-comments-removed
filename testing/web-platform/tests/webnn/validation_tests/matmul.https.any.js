@@ -45,7 +45,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -59,7 +59,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -99,7 +99,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -114,7 +114,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -152,7 +152,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -167,7 +167,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -185,7 +185,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -225,7 +225,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 4
@@ -240,7 +240,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -256,7 +256,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 4
@@ -297,7 +297,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -313,7 +313,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -330,7 +330,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -372,7 +372,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -389,7 +389,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -406,7 +406,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -446,7 +446,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -462,7 +462,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -479,7 +479,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -517,7 +517,7 @@ dataType
 '
 uint32
 '
-dimensions
+shape
 :
 [
 2
@@ -533,7 +533,7 @@ dataType
 '
 uint32
 '
-dimensions
+shape
 :
 [
 2
@@ -574,7 +574,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -590,7 +590,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 2
@@ -643,7 +643,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -658,7 +658,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -695,7 +695,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 3
@@ -711,7 +711,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -756,26 +756,11 @@ input
 '
 a
 '
-{
-dataType
-:
 test
 .
 inputs
 .
 a
-.
-dataType
-dimensions
-:
-test
-.
-inputs
-.
-a
-.
-dimensions
-}
 )
 ;
 const
@@ -788,26 +773,11 @@ input
 '
 b
 '
-{
-dataType
-:
 test
 .
 inputs
 .
 b
-.
-dataType
-dimensions
-:
-test
-.
-inputs
-.
-b
-.
-dimensions
-}
 )
 ;
 if
@@ -853,7 +823,7 @@ test
 .
 output
 .
-dimensions
+shape
 )
 ;
 }

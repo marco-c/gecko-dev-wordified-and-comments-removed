@@ -116,7 +116,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -230,7 +230,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -387,7 +387,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -543,7 +543,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -708,7 +708,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -878,7 +878,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -948,7 +948,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -975,7 +975,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -1002,7 +1002,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1

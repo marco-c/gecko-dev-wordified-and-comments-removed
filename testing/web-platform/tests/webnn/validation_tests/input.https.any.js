@@ -48,7 +48,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 ]
@@ -86,7 +86,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 ]
@@ -99,7 +99,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 ]
@@ -137,7 +137,7 @@ dataType
 '
 int64
 '
-dimensions
+shape
 :
 [
 3
@@ -151,7 +151,7 @@ dataType
 '
 int64
 '
-dimensions
+shape
 :
 [
 3
@@ -188,7 +188,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 3
@@ -203,7 +203,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 3
@@ -237,7 +237,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 3
@@ -273,7 +273,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 3
@@ -322,7 +322,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 kMaxUnsignedLong
@@ -361,7 +361,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 kMaxUnsignedLong
@@ -442,7 +442,7 @@ test
 .
 output
 .
-dimensions
+shape
 )
 ;
 }

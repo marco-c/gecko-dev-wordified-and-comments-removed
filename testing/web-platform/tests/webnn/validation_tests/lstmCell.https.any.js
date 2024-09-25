@@ -15,7 +15,7 @@ hiddenSize
 5
 ;
 const
-kValidInputDimensions
+kValidInputShape
 =
 [
 batchSize
@@ -23,7 +23,7 @@ inputSize
 ]
 ;
 const
-kValidWeightDimensions
+kValidWeightShape
 =
 [
 4
@@ -33,7 +33,7 @@ inputSize
 ]
 ;
 const
-kValidRecurrentWeightDimensions
+kValidRecurrentWeightShape
 =
 [
 4
@@ -43,7 +43,7 @@ hiddenSize
 ]
 ;
 const
-kValidHiddenStateDimensions
+kValidHiddenStateShape
 =
 [
 batchSize
@@ -51,7 +51,7 @@ hiddenSize
 ]
 ;
 const
-kValidCellStateDimensions
+kValidCellStateShape
 =
 [
 batchSize
@@ -59,7 +59,7 @@ hiddenSize
 ]
 ;
 const
-kValidBiasDimensions
+kValidBiasShape
 =
 [
 4
@@ -68,7 +68,7 @@ hiddenSize
 ]
 ;
 const
-kValidPeepholeWeightDimensions
+kValidPeepholeWeightShape
 =
 [
 3
@@ -85,9 +85,9 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
-kValidInputDimensions
+kValidInputShape
 }
 ;
 const
@@ -99,9 +99,9 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
-kValidWeightDimensions
+kValidWeightShape
 }
 ;
 const
@@ -113,9 +113,9 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
-kValidRecurrentWeightDimensions
+kValidRecurrentWeightShape
 }
 ;
 const
@@ -127,9 +127,9 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
-kValidHiddenStateDimensions
+kValidHiddenStateShape
 }
 ;
 const
@@ -141,9 +141,9 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
-kValidCellStateDimensions
+kValidCellStateShape
 }
 ;
 const
@@ -155,9 +155,9 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
-kValidBiasDimensions
+kValidBiasShape
 }
 ;
 const
@@ -169,9 +169,9 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
-kValidPeepholeWeightDimensions
+kValidPeepholeWeightShape
 }
 ;
 multi_builder_test
@@ -1158,7 +1158,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -1173,7 +1173,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 4
@@ -1190,7 +1190,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 4
@@ -1207,7 +1207,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -1222,7 +1222,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -1241,7 +1241,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -1254,7 +1254,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -1283,7 +1283,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -1298,7 +1298,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 4
@@ -1315,7 +1315,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 4
@@ -1332,7 +1332,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -1347,7 +1347,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -1368,7 +1368,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 4
@@ -1384,7 +1384,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 4
@@ -1400,7 +1400,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 3
@@ -1436,7 +1436,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -1449,7 +1449,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -1481,7 +1481,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -1496,7 +1496,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 4
@@ -1513,7 +1513,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 4
@@ -1530,7 +1530,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -1545,7 +1545,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -1578,7 +1578,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -1593,7 +1593,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 4
@@ -1610,7 +1610,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 4
@@ -1627,7 +1627,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -1642,7 +1642,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -1683,7 +1683,7 @@ dataType
 '
 uint32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -1698,7 +1698,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 4
@@ -1715,7 +1715,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 4
@@ -1732,7 +1732,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -1747,7 +1747,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -1783,7 +1783,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -1797,7 +1797,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 4
@@ -1814,7 +1814,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 4
@@ -1831,7 +1831,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -1846,7 +1846,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -1881,7 +1881,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -1896,7 +1896,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 4
@@ -1913,7 +1913,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 4
@@ -1930,7 +1930,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -1945,7 +1945,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -1981,7 +1981,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -1996,7 +1996,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 4
@@ -2013,7 +2013,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 4
@@ -2030,7 +2030,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -2045,7 +2045,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -2081,7 +2081,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -2096,7 +2096,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 4
@@ -2114,7 +2114,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 4
@@ -2131,7 +2131,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -2146,7 +2146,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -2181,7 +2181,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -2196,7 +2196,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1000
@@ -2211,7 +2211,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 4
@@ -2228,7 +2228,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -2243,7 +2243,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -2279,7 +2279,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -2294,7 +2294,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 4
@@ -2311,7 +2311,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 4
@@ -2328,7 +2328,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -2343,7 +2343,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -2379,7 +2379,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -2394,7 +2394,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 4
@@ -2411,7 +2411,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1000
@@ -2429,7 +2429,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -2444,7 +2444,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -2479,7 +2479,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -2494,7 +2494,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 4
@@ -2511,7 +2511,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1000
@@ -2526,7 +2526,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -2541,7 +2541,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -2577,7 +2577,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -2592,7 +2592,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 4
@@ -2609,7 +2609,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 4
@@ -2626,7 +2626,7 @@ dataType
 '
 int64
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -2641,7 +2641,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -2677,7 +2677,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -2692,7 +2692,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 4
@@ -2709,7 +2709,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 4
@@ -2726,7 +2726,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -2740,7 +2740,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -2775,7 +2775,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -2790,7 +2790,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 4
@@ -2807,7 +2807,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 4
@@ -2824,7 +2824,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -2839,7 +2839,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -2875,7 +2875,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -2890,7 +2890,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 4
@@ -2907,7 +2907,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 4
@@ -2924,7 +2924,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -2939,7 +2939,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -2975,7 +2975,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -2990,7 +2990,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 4
@@ -3007,7 +3007,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 4
@@ -3024,7 +3024,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -3039,7 +3039,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -3073,7 +3073,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -3088,7 +3088,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 4
@@ -3105,7 +3105,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 4
@@ -3122,7 +3122,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -3137,7 +3137,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -3175,7 +3175,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -3190,7 +3190,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 4
@@ -3207,7 +3207,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 4
@@ -3224,7 +3224,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -3239,7 +3239,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -3260,7 +3260,7 @@ dataType
 '
 int8
 '
-dimensions
+shape
 :
 [
 4
@@ -3297,7 +3297,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -3312,7 +3312,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 4
@@ -3329,7 +3329,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 4
@@ -3346,7 +3346,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -3361,7 +3361,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -3382,7 +3382,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 4
@@ -3419,7 +3419,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -3434,7 +3434,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 4
@@ -3451,7 +3451,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 4
@@ -3468,7 +3468,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -3483,7 +3483,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -3504,7 +3504,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 1000
@@ -3539,7 +3539,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -3554,7 +3554,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 4
@@ -3571,7 +3571,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 4
@@ -3588,7 +3588,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -3603,7 +3603,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -3624,7 +3624,7 @@ dataType
 '
 uint8
 '
-dimensions
+shape
 :
 [
 4
@@ -3661,7 +3661,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -3676,7 +3676,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 4
@@ -3693,7 +3693,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 4
@@ -3710,7 +3710,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -3725,7 +3725,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -3746,7 +3746,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 4
@@ -3783,7 +3783,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -3798,7 +3798,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 4
@@ -3815,7 +3815,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 4
@@ -3832,7 +3832,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -3847,7 +3847,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -3868,7 +3868,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 1000
@@ -3903,7 +3903,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -3918,7 +3918,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 4
@@ -3935,7 +3935,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 4
@@ -3952,7 +3952,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -3967,7 +3967,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -3988,7 +3988,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 3
@@ -4025,7 +4025,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -4040,7 +4040,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 4
@@ -4057,7 +4057,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 4
@@ -4074,7 +4074,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -4089,7 +4089,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -4110,7 +4110,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 ]
@@ -4143,7 +4143,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -4158,7 +4158,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 4
@@ -4175,7 +4175,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 4
@@ -4192,7 +4192,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -4207,7 +4207,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -4228,7 +4228,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 1000
@@ -4263,7 +4263,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -4278,7 +4278,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 4
@@ -4295,7 +4295,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 4
@@ -4312,7 +4312,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -4327,7 +4327,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 batchSize
@@ -4393,22 +4393,9 @@ input
 '
 input
 '
-{
-dataType
-:
 test
 .
 input
-.
-dataType
-dimensions
-:
-test
-.
-input
-.
-dimensions
-}
 )
 ;
 const
@@ -4421,22 +4408,9 @@ input
 '
 weight
 '
-{
-dataType
-:
 test
 .
 weight
-.
-dataType
-dimensions
-:
-test
-.
-weight
-.
-dimensions
-}
 )
 ;
 const
@@ -4449,22 +4423,9 @@ input
 '
 recurrentWeight
 '
-{
-dataType
-:
 test
 .
 recurrentWeight
-.
-dataType
-dimensions
-:
-test
-.
-recurrentWeight
-.
-dimensions
-}
 )
 ;
 const
@@ -4477,22 +4438,9 @@ input
 '
 hiddenState
 '
-{
-dataType
-:
 test
 .
 hiddenState
-.
-dataType
-dimensions
-:
-test
-.
-hiddenState
-.
-dimensions
-}
 )
 ;
 const
@@ -4505,22 +4453,9 @@ input
 '
 cellState
 '
-{
-dataType
-:
 test
 .
 cellState
-.
-dataType
-dimensions
-:
-test
-.
-cellState
-.
-dimensions
-}
 )
 ;
 const
@@ -4556,26 +4491,11 @@ input
 '
 bias
 '
-{
-dataType
-:
 test
 .
 options
 .
 bias
-.
-dataType
-dimensions
-:
-test
-.
-options
-.
-bias
-.
-dimensions
-}
 )
 ;
 }
@@ -4599,26 +4519,11 @@ input
 '
 recurrentBias
 '
-{
-dataType
-:
 test
 .
 options
 .
 recurrentBias
-.
-dataType
-dimensions
-:
-test
-.
-options
-.
-recurrentBias
-.
-dimensions
-}
 )
 ;
 }
@@ -4642,26 +4547,11 @@ input
 '
 peepholeWeight
 '
-{
-dataType
-:
 test
 .
 options
 .
 peepholeWeight
-.
-dataType
-dimensions
-:
-test
-.
-options
-.
-peepholeWeight
-.
-dimensions
-}
 )
 ;
 }
@@ -4820,7 +4710,7 @@ outputs
 i
 ]
 .
-dimensions
+shape
 )
 ;
 }
