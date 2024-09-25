@@ -591,8 +591,12 @@ DatabaseFileManager
 static
 StaticMutex
 &
-Mutex
+MutexInstance
 (
+)
+MOZ_RETURN_CAPABILITY
+(
+sMutex
 )
 {
 return
