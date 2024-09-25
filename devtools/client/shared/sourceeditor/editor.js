@@ -1127,6 +1127,9 @@ return
 el
 ;
 }
+styleSelectedText
+:
+true
 }
 ;
 this

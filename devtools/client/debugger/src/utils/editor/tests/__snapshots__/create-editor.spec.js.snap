@@ -469,6 +469,11 @@ styleActiveLine
 :
 false
 "
+styleSelectedText
+"
+:
+true
+"
 tabSize
 "
 :
@@ -945,6 +950,11 @@ styleActiveLine
 "
 :
 false
+"
+styleSelectedText
+"
+:
+true
 "
 tabSize
 "
