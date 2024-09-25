@@ -13,7 +13,7 @@ static
 markup
 =
 <
-box
+vbox
 class
 =
 "
@@ -24,11 +24,6 @@ group
 label
 -
 container
-"
-align
-=
-"
-center
 "
 pack
 =
@@ -56,7 +51,7 @@ end
 >
 <
 /
-box
+vbox
 >
 <
 html
