@@ -175,13 +175,6 @@ ExtensionControlledPopup
 confirmedType
 :
 TAB_HIDE_CONFIRMED_TYPE
-anchorId
-:
-"
-alltabs
--
-button
-"
 popupnotificationId
 :
 "
