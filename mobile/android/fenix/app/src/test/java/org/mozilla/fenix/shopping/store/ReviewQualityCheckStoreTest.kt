@@ -688,10 +688,6 @@ UI
 =
 runTest
 {
-var
-cfrConditionUpdated
-=
-false
 val
 tested
 =
@@ -711,13 +707,6 @@ false
 isProductRecommendationsEnabled
 =
 false
-updateCFRCallback
-=
-{
-cfrConditionUpdated
-=
-true
-}
 )
 )
 )
@@ -782,11 +771,6 @@ expected
 tested
 .
 state
-)
-assertEquals
-(
-true
-cfrConditionUpdated
 )
 }
 Test

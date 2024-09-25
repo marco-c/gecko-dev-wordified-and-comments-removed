@@ -682,16 +682,6 @@ setEnabled
 (
 true
 )
-reviewQualityCheckPreferences
-.
-updateCFRCondition
-(
-System
-.
-currentTimeMillis
-(
-)
-)
 }
 }
 ReviewQualityCheckAction
