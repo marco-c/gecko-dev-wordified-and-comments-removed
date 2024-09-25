@@ -2731,11 +2731,11 @@ loginToUpdate
 username
 ?
 "
-form_password
+FormPassword
 "
 :
 "
-form_login
+FormLogin
 "
 !
 !
