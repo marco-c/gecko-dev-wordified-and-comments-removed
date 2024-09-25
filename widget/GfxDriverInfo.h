@@ -803,6 +803,7 @@ MesaSoftPipe
 MesaSWRast
 MesaSWUnknown
 MesaR600
+MesaRadeonsi
 MesaNouveau
 MesaUnknown
 NonMesaAll
