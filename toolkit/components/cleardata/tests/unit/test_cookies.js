@@ -1242,13 +1242,15 @@ Services
 .
 clearData
 .
-deleteDataFromBaseDomain
+deleteDataFromSite
 (
 "
 example
 .
 net
 "
+{
+}
 false
 Ci
 .

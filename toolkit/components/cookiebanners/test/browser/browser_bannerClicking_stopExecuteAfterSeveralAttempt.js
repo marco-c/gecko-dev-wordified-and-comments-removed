@@ -858,9 +858,11 @@ Services
 .
 clearData
 .
-deleteDataFromBaseDomain
+deleteDataFromSite
 (
 TEST_DOMAIN_A
+{
+}
 true
 Ci
 .
