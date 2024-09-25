@@ -6425,6 +6425,13 @@ HasLengthAndPercentage
 const
 ;
 inline
+bool
+IsAnchorPositioningFunction
+(
+)
+const
+;
+inline
 nscoord
 ToLength
 (
