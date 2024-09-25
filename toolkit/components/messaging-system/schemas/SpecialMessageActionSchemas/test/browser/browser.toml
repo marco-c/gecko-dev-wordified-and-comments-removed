@@ -166,6 +166,13 @@ js
 ]
 [
 "
+browser_sma_open_sidebar
+.
+js
+"
+]
+[
+"
 browser_sma_open_spotlight_dialog
 .
 js
