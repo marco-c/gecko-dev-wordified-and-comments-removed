@@ -582,6 +582,14 @@ verticalTabs
 "
 true
 ]
+[
+"
+sidebar
+.
+revamp
+"
+true
+]
 ]
 }
 )
