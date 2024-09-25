@@ -21226,6 +21226,9 @@ ReportDeprecation
 nsIGlobalObject
 *
 aGlobal
+Document
+*
+aDoc
 nsIURI
 *
 aURI
@@ -21340,7 +21343,7 @@ rv
 nsContentUtils
 :
 :
-GetLocalizedString
+GetMaybeLocalizedString
 (
 nsContentUtils
 :
@@ -21351,6 +21354,7 @@ key
 get
 (
 )
+aDoc
 msg
 )
 ;
@@ -21632,6 +21636,12 @@ nsIURI
 >
 uri
 ;
+nsCOMPtr
+<
+Document
+>
+doc
+;
 if
 (
 NS_IsMainThread
@@ -21672,7 +21682,7 @@ GetExtantDoc
 return
 ;
 }
-uri
+doc
 =
 window
 -
@@ -21680,6 +21690,10 @@ window
 GetExtantDoc
 (
 )
+;
+uri
+=
+doc
 -
 >
 GetDocumentURI
@@ -21807,6 +21821,7 @@ global
 ReportDeprecation
 (
 global
+doc
 uri
 aOperation
 location
