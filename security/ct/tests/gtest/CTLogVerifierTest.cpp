@@ -22,6 +22,13 @@ h
 #
 include
 "
+signature_cache_ffi
+.
+h
+"
+#
+include
+"
 gtest
 /
 gtest
@@ -73,6 +80,13 @@ abort
 )
 ;
 }
+mSignatureCache
+=
+signature_cache_new
+(
+1
+)
+;
 ASSERT_EQ
 (
 Success
@@ -102,6 +116,18 @@ keyId
 )
 ;
 }
+void
+TearDown
+(
+)
+override
+{
+signature_cache_free
+(
+mSignatureCache
+)
+;
+}
 protected
 :
 CTLogVerifier
@@ -117,6 +143,10 @@ CTLogState
 Admissible
 0
 )
+;
+SignatureCache
+*
+mSignatureCache
 ;
 }
 ;
@@ -151,6 +181,7 @@ Verify
 (
 certEntry
 certSct
+mSignatureCache
 )
 )
 ;
@@ -186,6 +217,7 @@ Verify
 (
 precertEntry
 precertSct
+mSignatureCache
 )
 )
 ;
@@ -233,6 +265,7 @@ Verify
 (
 certEntry
 certSct
+mSignatureCache
 )
 )
 ;
@@ -289,6 +322,7 @@ Verify
 (
 certEntry
 certSct
+mSignatureCache
 )
 )
 ;
@@ -330,6 +364,7 @@ Verify
 (
 certEntry
 certSct2
+mSignatureCache
 )
 )
 ;
@@ -383,6 +418,7 @@ Verify
 (
 certEntry
 certSct
+mSignatureCache
 )
 )
 ;

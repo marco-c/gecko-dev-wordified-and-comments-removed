@@ -225,6 +225,10 @@ rsdparsa_capi
 ;
 extern
 crate
+signature_cache
+;
+extern
+crate
 static_prefs
 ;
 extern
