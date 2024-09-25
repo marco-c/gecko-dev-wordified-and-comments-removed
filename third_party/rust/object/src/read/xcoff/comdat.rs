@@ -11,12 +11,6 @@ use
 crate
 :
 :
-xcoff
-;
-use
-crate
-:
-:
 read
 :
 :
@@ -29,6 +23,12 @@ Result
 SectionIndex
 SymbolIndex
 }
+;
+use
+crate
+:
+:
+xcoff
 ;
 use
 super
@@ -493,6 +493,8 @@ self
 Result
 <
 &
+'
+data
 [
 u8
 ]
@@ -519,6 +521,8 @@ self
 Result
 <
 &
+'
+data
 str
 >
 {

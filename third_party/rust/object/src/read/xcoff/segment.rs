@@ -25,6 +25,7 @@ self
 ObjectSegment
 ReadRef
 Result
+SegmentFlags
 }
 ;
 use
@@ -639,9 +640,6 @@ self
 )
 -
 >
-crate
-:
-:
 SegmentFlags
 {
 unreachable
