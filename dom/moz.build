@@ -21,6 +21,16 @@ Core
 HTML
 "
 )
+JAR_MANIFESTS
++
+=
+[
+"
+jar
+.
+mn
+"
+]
 interfaces
 =
 [

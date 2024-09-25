@@ -133,9 +133,6 @@ window
 .
 *
 /
-[
-noscript
-]
 void
 createHiddenWindow
 (
@@ -168,9 +165,6 @@ created
 .
 *
 /
-[
-noscript
-]
 void
 destroyHiddenWindow
 (

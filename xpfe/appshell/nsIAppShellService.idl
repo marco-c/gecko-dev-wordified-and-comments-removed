@@ -120,9 +120,6 @@ createHiddenWindow
 (
 )
 ;
-[
-noscript
-]
 void
 destroyHiddenWindow
 (
@@ -148,6 +145,11 @@ readonly
 attribute
 mozIDOMWindowProxy
 hiddenDOMWindow
+;
+readonly
+attribute
+boolean
+applicationProvidedHiddenWindow
 ;
 void
 registerTopLevelWindow

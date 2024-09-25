@@ -306,9 +306,9 @@ gre
 -
 resources
 /
-hiddenWindowMac
+hiddenWindow
 .
-xhtml
+html
 "
 "
 data
