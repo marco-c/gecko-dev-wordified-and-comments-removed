@@ -5,7 +5,6 @@ super
 {
 CommonThreadInfo
 NT_Elf
-Pid
 }
 ;
 use
@@ -25,6 +24,7 @@ RawContextCPU
 FP_REG_COUNT
 GP_REG_COUNT
 }
+Pid
 }
 ;
 use

@@ -1481,7 +1481,7 @@ size
 }
 pub
 const
-HWCAP_CPUCFG
+HWCAP_LOONGARCH_CPUCFG
 :
 :
 :
@@ -1494,7 +1494,7 @@ c_ulong
 ;
 pub
 const
-HWCAP_LAM
+HWCAP_LOONGARCH_LAM
 :
 :
 :
@@ -1507,7 +1507,7 @@ c_ulong
 ;
 pub
 const
-HWCAP_UAL
+HWCAP_LOONGARCH_UAL
 :
 :
 :
@@ -1520,7 +1520,7 @@ c_ulong
 ;
 pub
 const
-HWCAP_FPU
+HWCAP_LOONGARCH_FPU
 :
 :
 :
@@ -1533,7 +1533,7 @@ c_ulong
 ;
 pub
 const
-HWCAP_LSX
+HWCAP_LOONGARCH_LSX
 :
 :
 :
@@ -1546,7 +1546,7 @@ c_ulong
 ;
 pub
 const
-HWCAP_LASX
+HWCAP_LOONGARCH_LASX
 :
 :
 :
@@ -1559,7 +1559,7 @@ c_ulong
 ;
 pub
 const
-HWCAP_CRC32
+HWCAP_LOONGARCH_CRC32
 :
 :
 :
@@ -1572,7 +1572,7 @@ c_ulong
 ;
 pub
 const
-HWCAP_COMPLEX
+HWCAP_LOONGARCH_COMPLEX
 :
 :
 :
@@ -1585,7 +1585,7 @@ c_ulong
 ;
 pub
 const
-HWCAP_CRYPTO
+HWCAP_LOONGARCH_CRYPTO
 :
 :
 :
@@ -1598,7 +1598,7 @@ c_ulong
 ;
 pub
 const
-HWCAP_LVZ
+HWCAP_LOONGARCH_LVZ
 :
 :
 :
@@ -1611,7 +1611,7 @@ c_ulong
 ;
 pub
 const
-HWCAP_LBT_X86
+HWCAP_LOONGARCH_LBT_X86
 :
 :
 :
@@ -1624,7 +1624,7 @@ c_ulong
 ;
 pub
 const
-HWCAP_LBT_ARM
+HWCAP_LOONGARCH_LBT_ARM
 :
 :
 :
@@ -1637,7 +1637,7 @@ c_ulong
 ;
 pub
 const
-HWCAP_LBT_MIPS
+HWCAP_LOONGARCH_LBT_MIPS
 :
 :
 :
@@ -1650,7 +1650,7 @@ c_ulong
 ;
 pub
 const
-HWCAP_PTW
+HWCAP_LOONGARCH_PTW
 :
 :
 :

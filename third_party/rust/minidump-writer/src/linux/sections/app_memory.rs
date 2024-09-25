@@ -53,13 +53,6 @@ blamed_thread
 app_memory
 .
 ptr
-as
-*
-mut
-libc
-:
-:
-c_void
 app_memory
 .
 length

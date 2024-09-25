@@ -1839,7 +1839,7 @@ O_APPEND
 :
 c_int
 =
-02000
+0o2000
 ;
 pub
 const
@@ -1849,7 +1849,7 @@ O_ACCMODE
 :
 c_int
 =
-0003
+0o003
 ;
 pub
 const
@@ -1879,7 +1879,7 @@ O_DIRECTORY
 :
 c_int
 =
-0200000
+0o200000
 ;
 pub
 const
@@ -1889,7 +1889,7 @@ O_EXCL
 :
 c_int
 =
-0200
+0o200
 ;
 pub
 const
@@ -1909,7 +1909,7 @@ O_NONBLOCK
 :
 c_int
 =
-04000
+0o4000
 ;
 pub
 const
@@ -1919,7 +1919,7 @@ O_TRUNC
 :
 c_int
 =
-01000
+0o1000
 ;
 pub
 const
@@ -2031,7 +2031,7 @@ PIDFD_NONBLOCK
 :
 c_int
 =
-04000
+0o4000
 ;
 cfg_if
 !

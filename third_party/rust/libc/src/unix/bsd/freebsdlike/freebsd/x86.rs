@@ -1524,3 +1524,13 @@ size_t
 =
 2048
 ;
+pub
+const
+KINFO_FILE_SIZE
+:
+:
+:
+c_int
+=
+1392
+;

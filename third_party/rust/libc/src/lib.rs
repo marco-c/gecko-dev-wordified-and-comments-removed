@@ -30,6 +30,7 @@ redundant_semicolon
 redundant_semicolons
 unused_macros
 unused_macro_rules
+dead_code
 )
 ]
 #
