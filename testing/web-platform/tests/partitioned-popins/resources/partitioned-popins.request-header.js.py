@@ -42,6 +42,26 @@ html
 "
 )
     
+headers
+.
+append
+(
+(
+b
+'
+Popin
+-
+Policy
+'
+b
+"
+partitioned
+=
+*
+"
+)
+)
+    
 message
 =
 request

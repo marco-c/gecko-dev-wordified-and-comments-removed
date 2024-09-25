@@ -56,6 +56,26 @@ html
 "
 )
     
+headers
+.
+append
+(
+(
+b
+'
+Popin
+-
+Policy
+'
+b
+"
+partitioned
+=
+*
+"
+)
+)
+    
 cookies
 =
 readCookies
