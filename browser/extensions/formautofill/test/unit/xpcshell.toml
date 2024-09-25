@@ -317,6 +317,13 @@ js
 ]
 [
 "
+test_collectFormFields
+.
+js
+"
+]
+[
+"
 test_createRecords
 .
 js
@@ -410,6 +417,13 @@ js
 [
 "
 test_getCreditCardLogo
+.
+js
+"
+]
+[
+"
+test_getFormInputDetails
 .
 js
 "

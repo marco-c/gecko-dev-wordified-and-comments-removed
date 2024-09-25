@@ -8533,11 +8533,6 @@ this
 types
 )
 {
-if
-(
-type
-)
-{
 this
 [
 type
@@ -8557,7 +8552,6 @@ type
 biases
 )
 ;
-}
 }
 }
 get
