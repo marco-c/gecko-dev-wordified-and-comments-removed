@@ -238,7 +238,7 @@ StringMetric
 fn
 from_glean_metric
 (
-_id
+id
 :
 MetricId
 metric
@@ -287,9 +287,12 @@ LabeledStringMetric
 :
 :
 Parent
-(
+{
+id
+inner
+:
 metric
-)
+}
 }
 }
 }
