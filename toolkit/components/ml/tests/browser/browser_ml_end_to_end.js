@@ -5,7 +5,7 @@ strict
 ;
 requestLongerTimeout
 (
-2
+120
 )
 ;
 function
@@ -562,6 +562,11 @@ resolve
 revision
 }
 "
+dtype
+:
+"
+q8
+"
 }
 )
 ;
@@ -913,6 +918,11 @@ resolve
 {
 revision
 }
+"
+dtype
+:
+"
+q8
 "
 }
 )
