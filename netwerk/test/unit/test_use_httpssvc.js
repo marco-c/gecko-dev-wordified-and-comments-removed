@@ -216,7 +216,11 @@ trr
 .
 mode
 "
-2
+Ci
+.
+nsIDNSService
+.
+MODE_TRRONLY
 )
 ;
 }
@@ -947,7 +951,11 @@ trr
 .
 mode
 "
-3
+Ci
+.
+nsIDNSService
+.
+MODE_TRRONLY
 )
 ;
 Services
