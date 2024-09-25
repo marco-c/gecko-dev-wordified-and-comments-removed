@@ -229,7 +229,7 @@ internal
 val
 selectedTabStripCardElevation
 =
-1
+4
 .
 dp
 /
