@@ -576,6 +576,13 @@ startForResult
 =
 registerForActivityResult
 {
+BiometricAuthenticationManager
+.
+biometricAuthenticationNeededInfo
+.
+shouldAuthenticate
+=
+false
 setSecureContentVisibility
 (
 true
