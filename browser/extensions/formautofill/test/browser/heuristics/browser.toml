@@ -171,6 +171,13 @@ js
 ]
 [
 "
+browser_parse_creditcard_type_fields
+.
+js
+"
+]
+[
+"
 browser_parse_name_fields
 .
 js
