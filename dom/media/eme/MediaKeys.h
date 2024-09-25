@@ -580,12 +580,6 @@ mediakeys
 request
 "
 ;
-nsCString
-GetMediaKeySystemConfigurationString
-(
-)
-const
-;
 private
 :
 already_AddRefed
