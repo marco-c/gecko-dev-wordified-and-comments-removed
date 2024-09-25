@@ -67,6 +67,14 @@ aURI
 )
 ;
 ACString
+getSchemelessSiteFromHost
+(
+in
+AUTF8String
+aHost
+)
+;
+ACString
 getSite
 (
 in
