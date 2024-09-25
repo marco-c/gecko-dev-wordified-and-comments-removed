@@ -620,9 +620,6 @@ SdkSuppress
 minSdkVersion
 =
 29
-maxSdkVersion
-=
-30
 )
 fun
 systemBlockedPermissionsRedirectToSystemAppSettingsTest
