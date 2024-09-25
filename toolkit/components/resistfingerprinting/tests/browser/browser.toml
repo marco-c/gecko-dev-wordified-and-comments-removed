@@ -165,6 +165,13 @@ js
 ]
 [
 "
+browser_service_worker_randomization_key_originattrs
+.
+js
+"
+]
+[
+"
 browser_usercharacteristics
 .
 js
