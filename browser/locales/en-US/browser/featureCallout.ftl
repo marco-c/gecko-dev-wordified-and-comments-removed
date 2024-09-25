@@ -731,13 +731,12 @@ label
 Open
 {
 -
-brand
+firefoxview
 -
-product
+brand
 -
 name
 }
-View
 fx
 -
 view
