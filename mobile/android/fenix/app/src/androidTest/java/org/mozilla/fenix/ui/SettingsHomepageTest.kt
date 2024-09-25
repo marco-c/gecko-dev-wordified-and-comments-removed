@@ -981,16 +981,6 @@ mDevice
 waitForIdle
 (
 )
-this
-.
-applySettingsExceptions
-{
-it
-.
-isTCPCFREnabled
-=
-false
-}
 openAppFromExternalLink
 (
 genericPage

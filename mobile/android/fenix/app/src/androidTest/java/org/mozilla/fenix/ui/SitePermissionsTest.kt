@@ -419,9 +419,6 @@ false
 isPWAsPromptEnabled
 =
 false
-isTCPCFREnabled
-=
-false
 isDeleteSitePermissionsEnabled
 =
 true

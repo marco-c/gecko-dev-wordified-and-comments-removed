@@ -255,9 +255,6 @@ false
 isWallpaperOnboardingEnabled
 =
 false
-isTCPCFREnabled
-=
-false
 )
 )
 {

@@ -184,9 +184,6 @@ activityTestRule
 =
 HomeActivityIntentTestRule
 (
-isTCPCFREnabled
-=
-false
 isWallpaperOnboardingEnabled
 =
 false

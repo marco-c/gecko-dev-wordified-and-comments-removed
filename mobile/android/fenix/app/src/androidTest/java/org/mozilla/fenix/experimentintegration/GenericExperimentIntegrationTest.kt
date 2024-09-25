@@ -173,9 +173,6 @@ HomeActivityTestRule
 isPWAsPromptEnabled
 =
 false
-isTCPCFREnabled
-=
-false
 )
 Before
 fun

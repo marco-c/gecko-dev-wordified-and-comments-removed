@@ -310,16 +310,6 @@ verifyRateOnGooglePlayButton
 (
 )
 {
-activityIntentTestRule
-.
-applySettingsExceptions
-{
-it
-.
-isTCPCFREnabled
-=
-false
-}
 homeScreen
 {
 }

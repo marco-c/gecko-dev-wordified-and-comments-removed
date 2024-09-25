@@ -305,9 +305,6 @@ false
 isWallpaperOnboardingEnabled
 =
 false
-isTCPCFREnabled
-=
-false
 /
 /
 workaround

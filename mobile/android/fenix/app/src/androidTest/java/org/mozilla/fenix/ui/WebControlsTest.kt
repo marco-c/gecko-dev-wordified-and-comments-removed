@@ -300,9 +300,12 @@ activityTestRule
 =
 HomeActivityTestRule
 (
-isTCPCFREnabled
+isNavigationBarCFREnabled
 =
 false
+shouldUseBottomToolbar
+=
+true
 )
 /
 /

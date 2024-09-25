@@ -197,9 +197,6 @@ HomeActivityTestRule
 isPWAsPromptEnabled
 =
 false
-isTCPCFREnabled
-=
-false
 isDeleteSitePermissionsEnabled
 =
 true

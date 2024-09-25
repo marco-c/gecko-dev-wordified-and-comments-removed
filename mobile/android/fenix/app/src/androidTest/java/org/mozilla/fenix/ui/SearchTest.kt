@@ -598,9 +598,6 @@ false
 isRecentTabsFeatureEnabled
 =
 false
-isTCPCFREnabled
-=
-false
 isWallpaperOnboardingEnabled
 =
 false
