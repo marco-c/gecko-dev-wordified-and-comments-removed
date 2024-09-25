@@ -1367,7 +1367,9 @@ store
 .
 state
 .
-folderTitle
+currentFolder
+.
+title
 )
 assertEquals
 (
@@ -1597,7 +1599,9 @@ store
 .
 state
 .
-folderGuid
+currentFolder
+.
+guid
 title
 =
 newFolderTitle
@@ -1752,7 +1756,9 @@ store
 .
 state
 .
-folderGuid
+currentFolder
+.
+guid
 title
 =
 "
@@ -2308,7 +2314,9 @@ store
 .
 state
 .
-folderGuid
+currentFolder
+.
+guid
 )
 store
 .
@@ -2327,7 +2335,9 @@ store
 .
 state
 .
-folderGuid
+currentFolder
+.
+guid
 )
 assertEquals
 (
