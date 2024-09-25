@@ -11724,6 +11724,10 @@ group
 removeTabGroup
 (
 group
+options
+=
+{
+}
 )
 {
 this
@@ -11733,6 +11737,7 @@ removeTabs
 group
 .
 tabs
+options
 )
 ;
 }
