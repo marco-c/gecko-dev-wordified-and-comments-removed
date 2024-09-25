@@ -120,7 +120,9 @@ check
 .
 outputs
 .
-test
+updated
+-
+refs
 }
 }
 steps
@@ -214,7 +216,16 @@ check
 run
 :
 |
+{
+echo
+'
+updated
 -
+refs
+<
+<
+EOF
+'
 python3
 tools
 /
@@ -223,6 +234,9 @@ ci
 check_for_updated_refs
 .
 py
+echo
+EOF
+}
 >
 >
 "
