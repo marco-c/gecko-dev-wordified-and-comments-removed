@@ -3352,6 +3352,8 @@ clearData
 deleteDataFromSite
 (
 schemelessSite
+{
+}
 true
 Ci
 .

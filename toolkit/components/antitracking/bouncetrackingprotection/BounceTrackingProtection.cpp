@@ -5087,9 +5087,13 @@ rv
 clearDataService
 -
 >
-DeleteDataFromSite
+DeleteDataFromSiteAndOriginAttributesPatternString
 (
 host
+u
+"
+"
+_ns
 false
 TRACKER_PURGE_FLAGS
 cb

@@ -193,6 +193,8 @@ clearData
 deleteDataFromSite
 (
 schemelessSite
+{
+}
 true
 /
 *
