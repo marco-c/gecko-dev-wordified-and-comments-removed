@@ -322,7 +322,7 @@ info
 "
 Trigger
 the
-deleteDataFromSite
+deleteDataFromBaseDomain
 "
 )
 ;
@@ -338,15 +338,13 @@ Services
 .
 clearData
 .
-deleteDataFromSite
+deleteDataFromBaseDomain
 (
 "
 example
 .
 com
 "
-{
-}
 true
 Ci
 .
