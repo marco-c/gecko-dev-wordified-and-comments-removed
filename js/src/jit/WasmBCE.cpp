@@ -69,6 +69,7 @@ jit
 :
 EliminateBoundsChecks
 (
+const
 MIRGenerator
 *
 mir

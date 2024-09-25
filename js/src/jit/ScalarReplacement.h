@@ -24,6 +24,7 @@ nodiscard
 bool
 ScalarReplacement
 (
+const
 MIRGenerator
 *
 mir

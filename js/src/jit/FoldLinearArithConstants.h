@@ -24,6 +24,7 @@ nodiscard
 bool
 FoldLinearArithConstants
 (
+const
 MIRGenerator
 *
 mir

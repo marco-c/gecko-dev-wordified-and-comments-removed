@@ -336,8 +336,7 @@ MBasicBlock
 block
 )
 ;
-protected
-:
+const
 MIRGenerator
 *
 mir
@@ -366,6 +365,7 @@ public
 :
 RangeAnalysis
 (
+const
 MIRGenerator
 *
 mir

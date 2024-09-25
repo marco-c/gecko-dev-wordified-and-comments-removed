@@ -24,6 +24,7 @@ nodiscard
 bool
 Sink
 (
+const
 MIRGenerator
 *
 mir

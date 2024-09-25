@@ -61,6 +61,7 @@ EdgeCaseAnalysis
 :
 EdgeCaseAnalysis
 (
+const
 MIRGenerator
 *
 mir

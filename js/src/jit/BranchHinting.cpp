@@ -60,6 +60,7 @@ jit
 :
 BranchHinting
 (
+const
 MIRGenerator
 *
 mir

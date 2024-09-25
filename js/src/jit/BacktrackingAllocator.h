@@ -3916,6 +3916,7 @@ nodiscard
 bool
 processBundle
 (
+const
 MIRGenerator
 *
 mir

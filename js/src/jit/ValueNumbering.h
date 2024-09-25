@@ -244,6 +244,7 @@ MDefinition
 JitAllocPolicy
 >
 ;
+const
 MIRGenerator
 *
 const
@@ -593,6 +594,7 @@ public
 :
 ValueNumberer
 (
+const
 MIRGenerator
 *
 mir
