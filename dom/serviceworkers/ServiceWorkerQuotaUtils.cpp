@@ -765,9 +765,13 @@ rv
 csd
 -
 >
-DeleteDataFromSite
+DeleteDataFromSiteAndOriginAttributesPatternString
 (
 baseDomain
+u
+"
+"
+_ns
 false
 nsIClearDataService
 :

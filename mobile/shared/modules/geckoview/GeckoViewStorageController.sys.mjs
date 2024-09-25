@@ -1694,6 +1694,8 @@ clearData
 deleteDataFromSite
 (
 schemelessSite
+{
+}
 /
 *
 isUserRequest
