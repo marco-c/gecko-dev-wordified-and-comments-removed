@@ -91,6 +91,15 @@ features
 threads
 )
 ;
+await
+Services
+.
+profiler
+.
+Pause
+(
+)
+;
 const
 profileData
 =
