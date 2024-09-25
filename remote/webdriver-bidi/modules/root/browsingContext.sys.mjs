@@ -9644,6 +9644,12 @@ stop
 )
 ;
 }
+listener
+.
+destroy
+(
+)
+;
 if
 (
 wait

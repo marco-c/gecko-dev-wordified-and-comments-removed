@@ -911,7 +911,9 @@ e
 )
 ;
 }
-return
+const
+result
+=
 {
 currentURI
 :
@@ -924,6 +926,15 @@ listener
 .
 targetURI
 }
+;
+listener
+.
+destroy
+(
+)
+;
+return
+result
 ;
 }
 /
