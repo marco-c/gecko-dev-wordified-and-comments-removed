@@ -56,6 +56,7 @@ context
 }
 ;
 (
+async
 function
 executeRemainingTests
 (
@@ -113,6 +114,7 @@ finishTest
 ;
 try
 {
+await
 startTest
 (
 )
@@ -142,12 +144,13 @@ e
 ok
 (
 false
-"
 Test
 threw
 exception
-!
-"
+:
+{
+e
+}
 )
 ;
 finishTest
