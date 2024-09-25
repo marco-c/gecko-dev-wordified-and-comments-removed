@@ -1798,7 +1798,7 @@ gre
 -
 resources
 /
-hiddenWindow
+hiddenWindowMac
 .
 html
 "
