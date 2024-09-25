@@ -208,6 +208,7 @@ MarkLoopBlocks
 MIRGraph
 &
 graph
+const
 MBasicBlock
 *
 header
@@ -222,6 +223,7 @@ UnmarkLoopBlocks
 MIRGraph
 &
 graph
+const
 MBasicBlock
 *
 header
@@ -581,6 +583,7 @@ nodiscard
 bool
 ExtractLinearInequality
 (
+const
 MTest
 *
 test
