@@ -1137,6 +1137,10 @@ UpdatePinnedState
 is
 MenuAction
 .
+UpdateWebExtensionMenuItems
+is
+MenuAction
+.
 InstallAddonFailed
 is
 MenuAction
