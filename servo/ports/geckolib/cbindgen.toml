@@ -1234,6 +1234,9 @@ Inset
 "
 AnchorFunction
 "
+"
+AnchorSizeFunction
+"
 ]
 item_types
 =
