@@ -839,9 +839,15 @@ MOZ_GUARDED_BY
 mMonitor
 )
 ;
-void
+bool
 PrepareLaunch
 (
+geckoargs
+:
+:
+ChildProcessArgs
+&
+aExtraOpts
 )
 ;
 #
