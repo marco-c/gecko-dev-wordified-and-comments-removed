@@ -241,6 +241,10 @@ jdk
 -
 repack
 -
+linux64
+-
+node
+-
 android
 -
 gradle
