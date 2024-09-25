@@ -1619,6 +1619,14 @@ aNonce
 StylePreloadKind
 )
 ;
+void
+MaybePutIntoLoadsPerformed
+(
+SheetLoadData
+&
+aLoadData
+)
+;
 std
 :
 :
