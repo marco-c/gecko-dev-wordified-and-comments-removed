@@ -3423,7 +3423,7 @@ domRules
 =
 InspectorUtils
 .
-getCSSStyleRules
+getMatchingCSSRules
 (
 node
 pseudo

@@ -1911,7 +1911,7 @@ getBindingElementAndPseudo
 getBindingElementAndPseudo
 ;
 function
-getCSSStyleRules
+getMatchingCSSRules
 (
 node
 )
@@ -1932,7 +1932,7 @@ rules
 =
 InspectorUtils
 .
-getCSSStyleRules
+getMatchingCSSRules
 (
 bindingElement
 pseudo
@@ -1944,9 +1944,9 @@ rules
 }
 exports
 .
-getCSSStyleRules
+getMatchingCSSRules
 =
-getCSSStyleRules
+getMatchingCSSRules
 ;
 function
 hasVisitedState

@@ -112,7 +112,7 @@ aResult
 ;
 static
 void
-GetCSSStyleRules
+GetMatchingCSSRules
 (
 GlobalObject
 &
@@ -132,7 +132,10 @@ nsTArray
 <
 RefPtr
 <
-CSSStyleRule
+css
+:
+:
+Rule
 >
 >
 &

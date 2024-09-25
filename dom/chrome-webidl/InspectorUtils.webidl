@@ -165,9 +165,9 @@ false
 ;
 sequence
 <
-CSSStyleRule
+CSSRule
 >
-getCSSStyleRules
+getMatchingCSSRules
 (
 Element
 element

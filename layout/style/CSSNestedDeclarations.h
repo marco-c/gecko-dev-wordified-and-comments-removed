@@ -267,6 +267,13 @@ get
 )
 ;
 }
+StyleLockedDeclarationBlock
+*
+RawStyle
+(
+)
+const
+;
 void
 SetRawAfterClone
 (
