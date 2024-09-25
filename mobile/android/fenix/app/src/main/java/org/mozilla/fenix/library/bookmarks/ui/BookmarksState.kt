@@ -312,6 +312,12 @@ class
 BookmarksAddFolderState
 (
 val
+parent
+:
+BookmarkItem
+.
+Folder
+val
 folderBeingAddedTitle
 :
 String
