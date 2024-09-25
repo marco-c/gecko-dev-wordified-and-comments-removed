@@ -2657,6 +2657,14 @@ PanGestureInput
 aEvent
 )
 ;
+CSSPoint
+ToCSSPixels
+(
+ParentLayerPoint
+value
+)
+const
+;
 CSSCoord
 ToCSSPixels
 (
