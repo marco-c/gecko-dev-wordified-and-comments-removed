@@ -1179,6 +1179,7 @@ prefs
 getBoolPref
 (
 PREF_UPLOAD_ENABLED
+false
 )
 ;
 return

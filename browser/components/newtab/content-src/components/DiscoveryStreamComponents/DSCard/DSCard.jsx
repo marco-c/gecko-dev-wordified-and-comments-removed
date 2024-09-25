@@ -4205,6 +4205,15 @@ props
 .
 id
 }
+block_key
+=
+{
+this
+.
+props
+.
+id
+}
 scheduled_corpus_item_id
 =
 {
