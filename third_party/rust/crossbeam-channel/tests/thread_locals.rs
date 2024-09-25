@@ -160,7 +160,10 @@ FOO
 :
 Foo
 =
+const
+{
 Foo
+}
 ;
 }
 let

@@ -1,14 +1,3 @@
-#
-!
-[
-allow
-(
-clippy
-:
-:
-drop_copy
-)
-]
 use
 std
 :

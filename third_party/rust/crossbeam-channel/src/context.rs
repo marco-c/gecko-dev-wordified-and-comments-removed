@@ -155,6 +155,9 @@ Context
 >
 R
 {
+std
+:
+:
 thread_local
 !
 {
