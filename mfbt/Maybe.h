@@ -1202,6 +1202,7 @@ mIsSome
 =
 false
 ;
+constexpr
 MaybeStorage
 (
 )
