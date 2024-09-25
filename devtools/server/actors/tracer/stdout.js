@@ -79,14 +79,6 @@ return
 true
 ;
 }
-onTracingInfiniteLoop
-(
-)
-{
-return
-true
-;
-}
 onTracingDOMMutation
 (
 {
