@@ -576,9 +576,11 @@ Services
 .
 clearData
 .
-deleteDataFromBaseDomain
+deleteDataFromSite
 (
 BASE_DOMAIN_A
+{
+}
 false
 Ci
 .

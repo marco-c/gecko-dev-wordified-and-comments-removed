@@ -339,9 +339,11 @@ Services
 .
 clearData
 .
-deleteDataFromBaseDomain
+deleteDataFromSite
 (
 baseDomain
+{
+}
 false
 Services
 .
