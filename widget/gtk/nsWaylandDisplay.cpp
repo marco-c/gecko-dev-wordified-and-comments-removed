@@ -310,6 +310,19 @@ wl_surface
 aSurface
 )
 {
+if
+(
+!
+aSurface
+)
+{
+mWindow
+=
+nullptr
+;
+}
+else
+{
 GdkWindow
 *
 window
@@ -350,6 +363,7 @@ nsWindow
 :
 nullptr
 ;
+}
 return
 mWindow
 ;
