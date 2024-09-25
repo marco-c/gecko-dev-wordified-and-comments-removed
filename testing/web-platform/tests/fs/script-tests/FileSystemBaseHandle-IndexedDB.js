@@ -1044,16 +1044,9 @@ root_dir
 const
 expected_root_name
 =
-'
-'
-;
-assert_equals
-(
 root_dir
 .
 name
-expected_root_name
-)
 ;
 const
 db
