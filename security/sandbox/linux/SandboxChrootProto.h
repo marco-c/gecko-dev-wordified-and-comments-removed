@@ -18,6 +18,13 @@ mozilla
 {
 static
 const
+int
+kSandboxChrootClientFd
+=
+6
+;
+static
+const
 char
 kSandboxChrootRequest
 =

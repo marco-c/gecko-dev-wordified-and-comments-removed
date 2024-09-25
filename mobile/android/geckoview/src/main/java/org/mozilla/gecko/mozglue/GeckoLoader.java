@@ -2222,9 +2222,13 @@ String
 ]
 args
 int
-[
-]
-fds
+prefsFd
+int
+prefMapFd
+int
+ipcFd
+int
+crashFd
 boolean
 xpcshell
 String

@@ -41,6 +41,13 @@ kSandboxSyscallArguments
 =
 6
 ;
+static
+const
+int
+kSandboxReporterFileDesc
+=
+5
+;
 struct
 SandboxReport
 {

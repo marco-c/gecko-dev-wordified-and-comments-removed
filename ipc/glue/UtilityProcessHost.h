@@ -180,10 +180,7 @@ listener
 bool
 Launch
 (
-geckoargs
-:
-:
-ChildProcessArgs
+StringVector
 aExtraOpts
 )
 ;
@@ -439,10 +436,7 @@ MOZ_ASAN
 void
 EnsureWidevineL1PathForSandbox
 (
-geckoargs
-:
-:
-ChildProcessArgs
+StringVector
 &
 aExtraOpts
 )

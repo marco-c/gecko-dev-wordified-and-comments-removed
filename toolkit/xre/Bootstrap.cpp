@@ -348,7 +348,9 @@ XRE_SetAndroidChildFds
 JNIEnv
 *
 aEnv
-jintArray
+const
+XRE_AndroidChildFds
+&
 aFds
 )
 override

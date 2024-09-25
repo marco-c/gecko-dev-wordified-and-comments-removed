@@ -213,10 +213,7 @@ RDDProcessHost
 :
 Launch
 (
-geckoargs
-:
-:
-ChildProcessArgs
+StringVector
 aExtraOpts
 )
 {
@@ -409,13 +406,7 @@ GeckoChildProcessHost
 :
 AsyncLaunch
 (
-std
-:
-:
-move
-(
 aExtraOpts
-)
 )
 )
 {

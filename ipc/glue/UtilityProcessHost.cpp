@@ -540,10 +540,7 @@ UtilityProcessHost
 :
 Launch
 (
-geckoargs
-:
-:
-ChildProcessArgs
+StringVector
 aExtraOpts
 )
 {
@@ -670,13 +667,7 @@ GeckoChildProcessHost
 :
 AsyncLaunch
 (
-std
-:
-:
-move
-(
 aExtraOpts
-)
 )
 )
 {
@@ -1812,10 +1803,7 @@ UtilityProcessHost
 :
 EnsureWidevineL1PathForSandbox
 (
-geckoargs
-:
-:
-ChildProcessArgs
+StringVector
 &
 aExtraOpts
 )

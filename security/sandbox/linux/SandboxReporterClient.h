@@ -32,6 +32,16 @@ int
 aFd
 )
 ;
+explicit
+SandboxReporterClient
+(
+SandboxReport
+:
+:
+ProcType
+aProcType
+)
+;
 SandboxReport
 MakeReport
 (
