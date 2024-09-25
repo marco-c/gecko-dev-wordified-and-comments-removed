@@ -323,9 +323,6 @@ ocspFetching
 OCSPCache
 &
 ocspCache
-SignatureCache
-*
-signatureCache
 void
 *
 pinArg
@@ -1266,10 +1263,6 @@ mOCSPFetching
 OCSPCache
 &
 mOCSPCache
-;
-SignatureCache
-*
-mSignatureCache
 ;
 void
 *
