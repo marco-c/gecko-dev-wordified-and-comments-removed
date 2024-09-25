@@ -447,6 +447,9 @@ class
 RemoteTextureOwnerClient
 ;
 class
+SharedSurfacesHolder
+;
+class
 SurfaceDescriptor
 ;
 }
@@ -2131,6 +2134,16 @@ void
 DummyReadFramebufferOperation
 (
 )
+;
+layers
+:
+:
+SharedSurfacesHolder
+*
+GetSharedSurfacesHolder
+(
+)
+const
 ;
 dom
 :

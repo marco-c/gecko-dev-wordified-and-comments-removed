@@ -820,6 +820,7 @@ dom
 WebGLParent
 >
 (
+mSharedSurfacesHolder
 mContentId
 )
 ;
