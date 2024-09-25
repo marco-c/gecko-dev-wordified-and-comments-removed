@@ -34,14 +34,14 @@ js
 ]
 [
 "
-browser_update_profile_on_window_switch
+browser_test_profile_selector
 .
 js
 "
 ]
 [
 "
-browser_test_profile_selector
+browser_update_profile_on_window_switch
 .
 js
 "

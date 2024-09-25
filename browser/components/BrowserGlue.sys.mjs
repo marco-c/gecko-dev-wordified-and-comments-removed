@@ -5274,6 +5274,11 @@ about
 :
 editprofile
 "
+"
+about
+:
+deleteprofile
+"
 ]
 enablePreference
 :

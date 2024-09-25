@@ -63,7 +63,7 @@ profiles
 await
 SelectableProfileService
 .
-getProfiles
+getAllProfiles
 (
 )
 ;
@@ -245,7 +245,7 @@ profiles
 await
 SelectableProfileService
 .
-getProfiles
+getAllProfiles
 (
 )
 ;
@@ -504,7 +504,7 @@ profiles
 await
 SelectableProfileService
 .
-getProfiles
+getAllProfiles
 (
 )
 ;
