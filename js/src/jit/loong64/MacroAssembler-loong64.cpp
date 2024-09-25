@@ -3438,7 +3438,7 @@ as_slt
 (
 scratch2
 rd
-rj
+rk
 )
 ;
 ma_b
