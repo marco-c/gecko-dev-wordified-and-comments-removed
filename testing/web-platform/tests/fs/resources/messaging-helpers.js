@@ -7,6 +7,11 @@ const
 kDocumentMessageTarget
 =
 '
+.
+.
+/
+fs
+/
 resources
 /
 message
@@ -20,6 +25,11 @@ const
 kSharedWorkerMessageTarget
 =
 '
+.
+.
+/
+fs
+/
 resources
 /
 message
@@ -37,6 +47,11 @@ const
 kServiceWorkerMessageTarget
 =
 '
+.
+.
+/
+fs
+/
 resources
 /
 message
@@ -54,6 +69,11 @@ const
 kDedicatedWorkerMessageTarget
 =
 '
+.
+.
+/
+fs
+/
 resources
 /
 message
