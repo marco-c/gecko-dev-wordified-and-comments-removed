@@ -1232,6 +1232,13 @@ html
 ]
 [
 "
+test_file_repeated_add_delete
+.
+html
+"
+]
+[
+"
 test_file_replace
 .
 html
