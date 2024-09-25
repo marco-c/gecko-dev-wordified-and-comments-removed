@@ -2867,9 +2867,6 @@ Register
 divisor
 Register
 output
-Label
-*
-fail
 )
 {
 masm
@@ -2897,9 +2894,6 @@ Register
 divisor
 Register
 output
-Label
-*
-fail
 )
 {
 masm
