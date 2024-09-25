@@ -3965,10 +3965,12 @@ aPrincipal
 )
 ;
 async
-ClearImageCacheFromBaseDomain
+ClearImageCacheFromSite
 (
 nsCString
-aBaseDomain
+aSchemelessSite
+OriginAttributesPattern
+aPattern
 )
 ;
 async
