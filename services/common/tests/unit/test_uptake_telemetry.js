@@ -59,6 +59,13 @@ COMPONENT
 remotesettings
 "
 ;
+const
+GLEAN_COMPONENT
+=
+"
+Remotesettings
+"
+;
 async
 function
 withFakeClientID
@@ -175,7 +182,7 @@ UptakeTelemetry
 .
 report
 (
-COMPONENT
+GLEAN_COMPONENT
 "
 unknown
 -
@@ -252,7 +259,7 @@ UptakeTelemetry
 .
 report
 (
-COMPONENT
+GLEAN_COMPONENT
 status
 {
 source
@@ -375,7 +382,7 @@ UptakeTelemetry
 .
 report
 (
-COMPONENT
+GLEAN_COMPONENT
 status
 {
 source
@@ -483,7 +490,7 @@ UptakeTelemetry
 .
 report
 (
-COMPONENT
+GLEAN_COMPONENT
 UptakeTelemetry
 .
 STATUS
@@ -722,7 +729,7 @@ UptakeTelemetry
 .
 report
 (
-COMPONENT
+GLEAN_COMPONENT
 UptakeTelemetry
 .
 STATUS
