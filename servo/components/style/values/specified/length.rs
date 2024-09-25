@@ -109,6 +109,7 @@ length
 :
 :
 {
+GenericAnchorSizeFunction
 GenericLengthOrNumber
 GenericLengthPercentageOrNormal
 GenericMaxSize
@@ -14130,5 +14131,14 @@ GenericLengthOrNumber
 <
 NonNegativeLength
 NonNegativeNumber
+>
+;
+pub
+type
+AnchorSizeFunction
+=
+GenericAnchorSizeFunction
+<
+LengthPercentage
 >
 ;

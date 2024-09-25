@@ -568,6 +568,7 @@ length
 :
 {
 AbsoluteLength
+AnchorSizeFunction
 CalcLengthPercentage
 CharacterWidth
 }

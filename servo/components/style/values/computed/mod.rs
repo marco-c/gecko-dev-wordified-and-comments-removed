@@ -638,6 +638,7 @@ length
 :
 :
 {
+AnchorSizeFunction
 CSSPixelLength
 NonNegativeLength
 }
