@@ -3260,6 +3260,7 @@ begin
 MBasicBlockIterator
 begin
 (
+const
 MBasicBlock
 *
 at
@@ -3303,6 +3304,7 @@ rbegin
 PostorderIterator
 poBegin
 (
+const
 MBasicBlock
 *
 at
@@ -3346,6 +3348,7 @@ begin
 ReversePostorderIterator
 rpoBegin
 (
+const
 MBasicBlock
 *
 at
