@@ -1450,17 +1450,6 @@ value
 )
 ;
 }
-CFNumberRef
-baseLayerFPSRatioRef
-=
-CFNumberCreate
-(
-kCFAllocatorDefault
-kCFNumberFloatType
-&
-baseLayerFPSRatio
-)
-;
 AutoCFRelease
 <
 CFNumberRef
@@ -1482,7 +1471,7 @@ VTSessionSetProperty
 (
 mSession
 kVTCompressionPropertyKey_BaseLayerFrameRateFraction
-baseLayerFPSRatioRef
+cf
 )
 )
 {
