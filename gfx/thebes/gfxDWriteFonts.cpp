@@ -3544,6 +3544,11 @@ return
 sForceGDIClassicEnabled
 &
 &
+mStyle
+.
+allowForceGDIClassic
+&
+&
 static_cast
 <
 gfxDWriteFontEntry
