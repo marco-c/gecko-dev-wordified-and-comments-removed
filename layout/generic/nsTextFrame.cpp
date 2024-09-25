@@ -27128,6 +27128,12 @@ styleText
 TextEmphasisSide
 (
 aWM
+StyleFont
+(
+)
+-
+>
+mLanguage
 )
 ;
 LogicalSize
