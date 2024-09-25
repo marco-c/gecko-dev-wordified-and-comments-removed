@@ -498,15 +498,10 @@ value
 recordTelemetryEvent
 (
 {
-object
+name
 :
 "
-list
-"
-method
-:
-"
-filter
+filterList
 "
 }
 )

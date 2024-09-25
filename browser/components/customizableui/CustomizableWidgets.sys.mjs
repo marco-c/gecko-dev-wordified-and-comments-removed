@@ -2888,7 +2888,7 @@ window
 entryPoint
 :
 "
-toolbar
+Toolbar
 "
 }
 )

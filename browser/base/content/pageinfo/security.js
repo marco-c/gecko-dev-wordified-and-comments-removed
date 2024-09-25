@@ -987,7 +987,7 @@ hostName
 entryPoint
 :
 "
-pageinfo
+Pageinfo
 "
 }
 )

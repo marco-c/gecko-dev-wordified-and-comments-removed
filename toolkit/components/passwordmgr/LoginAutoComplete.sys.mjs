@@ -1266,7 +1266,7 @@ fillMessageData
 entryPoint
 :
 "
-autocomplete
+Autocomplete
 "
 }
 }
