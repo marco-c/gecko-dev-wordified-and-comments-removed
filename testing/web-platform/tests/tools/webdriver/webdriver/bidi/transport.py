@@ -231,6 +231,13 @@ connect
 self
 .
 url
+max_size
+=
+128
+*
+1024
+*
+1024
 )
         
 self
