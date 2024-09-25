@@ -36292,3 +36292,17 @@ geckoPrefsOverriden
 ;
 #
 endif
+pref
+(
+"
+privacy
+.
+query_stripping
+.
+strip_on_share
+.
+canDisable
+"
+true
+)
+;
