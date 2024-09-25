@@ -153,17 +153,6 @@ strategy
 )
 ;
 [
-Pref
-=
-"
-dom
-.
-streams
-.
-from
-.
-enabled
-"
 Throws
 ]
 static
