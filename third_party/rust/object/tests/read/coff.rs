@@ -79,6 +79,7 @@ fs
 :
 read
 (
+&
 path_to_obj
 )
 .

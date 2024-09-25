@@ -1,16 +1,3 @@
-#
-[
-cfg
-(
-doc
-)
-]
-use
-crate
-:
-:
-pe
-;
 mod
 file
 ;

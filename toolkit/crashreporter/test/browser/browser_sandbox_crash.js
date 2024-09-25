@@ -127,7 +127,7 @@ CRASH_SYSCALL
 ;
 Assert
 .
-ok
+equal
 (
 annotations
 .
@@ -136,13 +136,9 @@ StackTraces
 crash_info
 .
 type
-.
-startsWith
-(
 "
 SIGSYS
 "
-)
 "
 The
 crash

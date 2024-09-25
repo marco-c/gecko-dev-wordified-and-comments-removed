@@ -169,15 +169,6 @@ toolkit
 /
 crashreporter
 /
-minidump
--
-analyzer
-"
-"
-toolkit
-/
-crashreporter
-/
 mozwer
 -
 rust

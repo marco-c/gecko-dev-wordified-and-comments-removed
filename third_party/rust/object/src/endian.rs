@@ -1706,7 +1706,6 @@ E
 >
 {
 pub
-const
 fn
 from_bytes
 (
@@ -1859,7 +1858,6 @@ E
 >
 {
 pub
-const
 fn
 from_bytes
 (
@@ -2012,7 +2010,6 @@ E
 >
 {
 pub
-const
 fn
 from_bytes
 (
@@ -2165,7 +2162,6 @@ E
 >
 {
 pub
-const
 fn
 from_bytes
 (
@@ -2318,7 +2314,6 @@ E
 >
 {
 pub
-const
 fn
 from_bytes
 (
@@ -2471,7 +2466,6 @@ E
 >
 {
 pub
-const
 fn
 from_bytes
 (
@@ -3159,7 +3153,6 @@ E
 >
 {
 pub
-const
 fn
 from_bytes
 (
@@ -3310,7 +3303,6 @@ E
 >
 {
 pub
-const
 fn
 from_bytes
 (
@@ -3461,7 +3453,6 @@ E
 >
 {
 pub
-const
 fn
 from_bytes
 (
@@ -3612,7 +3603,6 @@ E
 >
 {
 pub
-const
 fn
 from_bytes
 (
@@ -3763,7 +3753,6 @@ E
 >
 {
 pub
-const
 fn
 from_bytes
 (
@@ -3914,7 +3903,6 @@ E
 >
 {
 pub
-const
 fn
 from_bytes
 (
