@@ -3917,9 +3917,9 @@ bookmarkPage
 verifySnackBarText
 (
 "
-Bookmark
-saved
-!
+Saved
+in
+Bookmarks
 "
 )
 }
