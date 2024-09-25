@@ -67,6 +67,9 @@ ColorF
 rect
 :
 DeviceRect
+thickness
+:
+i32
 }
 }
 #

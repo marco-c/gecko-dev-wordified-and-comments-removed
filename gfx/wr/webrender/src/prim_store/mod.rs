@@ -6568,6 +6568,7 @@ new
 .
 0
 )
+1
 border
 border
 )
@@ -6635,6 +6636,7 @@ new
 .
 0
 )
+1
 border
 border
 )
@@ -6685,6 +6687,7 @@ new
 .
 0
 )
+1
 border
 border
 )
@@ -6735,6 +6738,7 @@ new
 .
 0
 )
+1
 border
 border
 )
@@ -6757,6 +6761,9 @@ self
 rect
 :
 DeviceRect
+thickness
+:
+i32
 outer_color
 :
 ColorF
@@ -6779,6 +6786,7 @@ Rect
 rect
 outer_color
 inner_color
+thickness
 }
 )
 ;
