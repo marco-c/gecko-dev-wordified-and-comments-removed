@@ -143,13 +143,9 @@ URL
 ;
 is
 (
-getCM
+getEditorContent
 (
 dbg
-)
-.
-getValue
-(
 )
 "
 debugger

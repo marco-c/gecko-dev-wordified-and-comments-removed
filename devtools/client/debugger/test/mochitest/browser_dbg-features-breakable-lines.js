@@ -453,13 +453,9 @@ isEveryFrameTargetEnabled
 {
 is
 (
-getCM
+getEditorContent
 (
 dbg
-)
-.
-getValue
-(
 )
 Error
 :

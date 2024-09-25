@@ -83,13 +83,9 @@ js
 ;
 ok
 (
-getCM
+getEditorContent
 (
 dbg
-)
-.
-getValue
-(
 )
 .
 includes

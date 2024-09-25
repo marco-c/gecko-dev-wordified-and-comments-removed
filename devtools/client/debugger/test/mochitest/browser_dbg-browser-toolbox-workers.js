@@ -214,6 +214,7 @@ getUnicodeUrlPath
 findSource
 selectSource
 assertTextContentOnLine
+getEditorContent
 }
 )
 ;

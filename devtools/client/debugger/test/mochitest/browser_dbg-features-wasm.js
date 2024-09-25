@@ -159,13 +159,9 @@ false
 ;
 is
 (
-getCM
+getEditorContent
 (
 dbg
-)
-.
-getValue
-(
 )
 Please
 refresh

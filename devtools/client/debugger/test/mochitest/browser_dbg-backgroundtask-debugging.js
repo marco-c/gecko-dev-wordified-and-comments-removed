@@ -346,6 +346,8 @@ waitForState
 waitUntil
 createLocation
 getCM
+getEditorContent
+getCMEditor
 log
 :
 (

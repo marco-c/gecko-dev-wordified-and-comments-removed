@@ -504,13 +504,9 @@ scopes
 ;
 is
 (
-getCM
+getEditorContent
 (
 dbg
-)
-.
-getValue
-(
 )
 Error
 while

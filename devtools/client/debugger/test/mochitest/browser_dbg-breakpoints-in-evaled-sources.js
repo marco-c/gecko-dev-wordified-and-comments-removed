@@ -198,13 +198,9 @@ dbg
 ;
 is
 (
-getCM
+getEditorContent
 (
 dbg
-)
-.
-getValue
-(
 )
 EVALED_SOURCE_TEXT
 "
