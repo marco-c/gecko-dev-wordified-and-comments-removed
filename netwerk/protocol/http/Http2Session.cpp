@@ -12394,12 +12394,6 @@ GetClassOfService
 Flags
 (
 )
-trans
--
->
-Priority
-(
-)
 )
 ;
 if
