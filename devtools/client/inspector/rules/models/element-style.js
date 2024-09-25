@@ -1858,6 +1858,15 @@ continue
 ;
 }
 const
+isNestedDeclarations
+=
+rule
+.
+domRule
+.
+isNestedDeclarations
+;
+const
 isStyleRule
 =
 rule
@@ -1913,6 +1922,10 @@ ELEMENT_STYLE
 const
 filterCondition
 =
+isNestedDeclarations
+|
+|
+(
 pseudo
 =
 =
@@ -1926,6 +1939,7 @@ isStyleRule
 isElementStyle
 :
 isPseudoElementRule
+)
 ;
 if
 (
