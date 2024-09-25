@@ -982,6 +982,17 @@ attribute
 nsresult
 lastTransportStatus
 ;
+[
+must_use
+]
+void
+internalRedirectTo
+(
+in
+nsIURI
+aTargetURI
+)
+;
 readonly
 attribute
 unsigned

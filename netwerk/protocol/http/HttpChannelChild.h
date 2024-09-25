@@ -395,6 +395,15 @@ newURI
 override
 ;
 NS_IMETHOD
+InternalRedirectTo
+(
+nsIURI
+*
+newURI
+)
+override
+;
+NS_IMETHOD
 UpgradeToSecure
 (
 )
