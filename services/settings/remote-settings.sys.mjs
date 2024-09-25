@@ -301,7 +301,7 @@ const
 TELEMETRY_COMPONENT
 =
 "
-remotesettings
+Remotesettings
 "
 ;
 const

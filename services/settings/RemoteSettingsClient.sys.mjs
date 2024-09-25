@@ -280,7 +280,7 @@ const
 TELEMETRY_COMPONENT
 =
 "
-remotesettings
+Remotesettings
 "
 ;
 ChromeUtils

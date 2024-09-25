@@ -83,7 +83,7 @@ const
 COMPONENT
 =
 "
-normandy
+Normandy
 "
 ;
 export
@@ -322,6 +322,10 @@ source
 :
 {
 COMPONENT
+.
+toLowerCase
+(
+)
 }
 /
 {
