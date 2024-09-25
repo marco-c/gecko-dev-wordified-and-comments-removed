@@ -7132,6 +7132,8 @@ if
 (
 !
 elements
+.
+length
 )
 {
 continue
