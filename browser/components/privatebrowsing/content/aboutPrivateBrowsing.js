@@ -627,7 +627,7 @@ window
 PrivateBrowsingRecordClick
 (
 "
-promo_link
+PromoLink
 "
 )
 ;
@@ -742,7 +742,7 @@ window
 PrivateBrowsingRecordClick
 (
 "
-dismiss_button
+DismissButton
 "
 )
 ;
@@ -1506,7 +1506,7 @@ window
 PrivateBrowsingRecordClick
 (
 "
-info_link
+InfoLink
 "
 )
 ;
