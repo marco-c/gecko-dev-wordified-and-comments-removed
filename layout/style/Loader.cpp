@@ -11942,6 +11942,7 @@ SetDummyChannelForCachedResource
 (
 )
 ;
+}
 channel
 -
 >
@@ -11975,7 +11976,6 @@ response
 nullptr
 )
 ;
-}
 }
 void
 Loader
