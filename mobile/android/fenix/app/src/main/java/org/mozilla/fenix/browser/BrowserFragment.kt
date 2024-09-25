@@ -4142,5 +4142,10 @@ val
 RELOAD_WEIGHT
 =
 5
+const
+val
+OPEN_IN_ACTION_WEIGHT
+=
+6
 }
 }

@@ -742,6 +742,11 @@ feature
 =
 CustomTabsIntegration
 (
+context
+=
+requireContext
+(
+)
 store
 =
 requireComponents
@@ -749,6 +754,11 @@ requireComponents
 core
 .
 store
+appStore
+=
+requireComponents
+.
+appStore
 useCases
 =
 requireComponents
@@ -756,11 +766,9 @@ requireComponents
 useCases
 .
 customTabsUseCases
-toolbar
+browserToolbarView
 =
 browserToolbarView
-.
-view
 sessionId
 =
 customTabSessionId

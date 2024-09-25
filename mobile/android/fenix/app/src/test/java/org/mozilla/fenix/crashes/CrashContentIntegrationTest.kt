@@ -884,7 +884,7 @@ updateVerticalMargins
 Test
 fun
 GIVEN
-inegration
+integration
 was
 stopped
 and
