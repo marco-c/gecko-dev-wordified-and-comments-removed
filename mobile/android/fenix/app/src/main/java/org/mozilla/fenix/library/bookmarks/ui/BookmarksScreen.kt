@@ -1448,6 +1448,17 @@ addFolderSelectionGuid
 onClick
 =
 {
+store
+.
+dispatch
+(
+SelectFolderAction
+.
+ItemClicked
+(
+folder
+)
+)
 }
 beforeIconPainter
 =

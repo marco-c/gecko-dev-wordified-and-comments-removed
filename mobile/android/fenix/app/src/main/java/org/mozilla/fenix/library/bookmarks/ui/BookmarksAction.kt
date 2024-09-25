@@ -371,4 +371,15 @@ SelectFolderItem
 )
 :
 BookmarksAction
+data
+class
+ItemClicked
+(
+val
+folder
+:
+SelectFolderItem
+)
+:
+BookmarksAction
 }

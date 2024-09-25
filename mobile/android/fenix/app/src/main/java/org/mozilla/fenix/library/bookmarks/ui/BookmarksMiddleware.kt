@@ -998,6 +998,10 @@ is
 SelectFolderAction
 .
 FoldersLoaded
+is
+SelectFolderAction
+.
+ItemClicked
 -
 >
 Unit
