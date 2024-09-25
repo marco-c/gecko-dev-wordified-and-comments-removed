@@ -10621,17 +10621,6 @@ self
 mozInfo
 [
 "
-serviceworker_e10s
-"
-]
-=
-True
-        
-self
-.
-mozInfo
-[
-"
 verify
 "
 ]

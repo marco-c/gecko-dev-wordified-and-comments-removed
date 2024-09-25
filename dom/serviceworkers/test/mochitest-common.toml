@@ -1755,7 +1755,7 @@ if
 =
 [
 "
-serviceworker_e10s
+true
 "
 ]
 [
@@ -1842,7 +1842,7 @@ if
 =
 [
 "
-serviceworker_e10s
+true
 "
 ]
 support
@@ -2288,7 +2288,7 @@ if
 =
 [
 "
-serviceworker_e10s
+true
 "
 ]
 #
@@ -2534,7 +2534,7 @@ if
 =
 [
 "
-serviceworker_e10s
+true
 "
 ]
 [
@@ -2550,7 +2550,7 @@ if
 =
 [
 "
-serviceworker_e10s
+true
 "
 "
 os
@@ -2682,7 +2682,7 @@ if
 verify
 "
 "
-serviceworker_e10s
+true
 "
 ]
 [

@@ -97,7 +97,7 @@ if
 =
 [
 "
-serviceworker_e10s
+true
 "
 "
 os
@@ -323,7 +323,7 @@ if
 =
 [
 "
-serviceworker_e10s
+true
 "
 "
 os

@@ -177,7 +177,7 @@ if
 =
 [
 "
-serviceworker_e10s
+true
 "
 ]
 [
