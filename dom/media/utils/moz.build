@@ -96,6 +96,11 @@ MediaElementEventRunners
 h
 "
 "
+MediaProfilerMarkers
+.
+h
+"
+"
 PerformanceRecorder
 .
 h
