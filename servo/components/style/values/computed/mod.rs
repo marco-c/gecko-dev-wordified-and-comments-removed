@@ -670,6 +670,7 @@ length
 LengthOrAuto
 LengthPercentageOrAuto
 MaxSize
+Margin
 Size
 }
 ;

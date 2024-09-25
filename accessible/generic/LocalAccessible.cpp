@@ -6554,6 +6554,7 @@ aSide
 >
 CSSCoord
 {
+const
 auto
 &
 margin
@@ -6566,9 +6567,7 @@ StyleMargin
 )
 -
 >
-mMargin
-.
-Get
+GetMargin
 (
 aSide
 )

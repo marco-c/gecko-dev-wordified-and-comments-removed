@@ -8375,9 +8375,7 @@ if
 styleMargin
 -
 >
-mMargin
-.
-Get
+GetMargin
 (
 side
 mCBWM
@@ -9327,7 +9325,7 @@ numAutoMargins
 ;
 const
 auto
-&
+*
 styleMargin
 =
 mFrame
@@ -9336,9 +9334,6 @@ mFrame
 StyleMargin
 (
 )
--
->
-mMargin
 ;
 for
 (
@@ -9371,8 +9366,9 @@ edge
 if
 (
 styleMargin
-.
-Get
+-
+>
+GetMargin
 (
 side
 mCBWM
@@ -13748,7 +13744,7 @@ mNumAutoMarginsInMainAxis
 {
 const
 auto
-&
+*
 styleMargin
 =
 aItem
@@ -13761,9 +13757,6 @@ Frame
 StyleMargin
 (
 )
--
->
-mMargin
 ;
 for
 (
@@ -13784,8 +13777,9 @@ EndSide
 if
 (
 styleMargin
-.
-Get
+-
+>
+GetMargin
 (
 side
 mWM
@@ -15453,7 +15447,7 @@ return
 }
 const
 auto
-&
+*
 styleMargin
 =
 aItem
@@ -15466,9 +15460,6 @@ Frame
 StyleMargin
 (
 )
--
->
-mMargin
 ;
 for
 (
@@ -15489,8 +15480,9 @@ EndSide
 if
 (
 styleMargin
-.
-Get
+-
+>
+GetMargin
 (
 side
 mWM

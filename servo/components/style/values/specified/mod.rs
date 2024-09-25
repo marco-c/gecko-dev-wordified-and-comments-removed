@@ -611,6 +611,7 @@ length
 :
 :
 {
+Margin
 MaxSize
 Size
 }

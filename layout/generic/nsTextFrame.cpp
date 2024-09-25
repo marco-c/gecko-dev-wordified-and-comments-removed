@@ -9431,9 +9431,7 @@ StyleMargin
 )
 -
 >
-mMargin
-.
-Get
+GetMargin
 (
 aSide
 )

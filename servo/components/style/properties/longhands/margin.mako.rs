@@ -129,13 +129,13 @@ side
 0
 ]
 "
-LengthPercentageOrAuto
+Margin
 "
 "
 computed
 :
 :
-LengthPercentageOrAuto
+Margin
 :
 :
 zero

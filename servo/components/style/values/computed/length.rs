@@ -2875,3 +2875,15 @@ GenericAnchorSizeFunction
 LengthPercentage
 >
 ;
+pub
+type
+Margin
+=
+generics
+:
+:
+GenericMargin
+<
+LengthPercentage
+>
+;
