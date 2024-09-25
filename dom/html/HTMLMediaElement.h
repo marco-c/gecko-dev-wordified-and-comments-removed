@@ -3326,6 +3326,10 @@ DispatchAsyncSourceError
 nsIContent
 *
 aSourceElement
+const
+nsACString
+&
+aErrorDetails
 )
 ;
 void
