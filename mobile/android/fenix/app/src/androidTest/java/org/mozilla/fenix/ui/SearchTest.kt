@@ -107,14 +107,6 @@ espresso
 .
 Espresso
 import
-androidx
-.
-test
-.
-filters
-.
-SdkSuppress
-import
 mozilla
 .
 components
@@ -5539,12 +5531,6 @@ language
 set
 to
 Arabic
-SdkSuppress
-(
-maxSdkVersion
-=
-30
-)
 Test
 fun
 verifySearchEnginesFunctionalityUsingRTLLocaleTest
@@ -5565,7 +5551,7 @@ AR
 )
 AppAndSystemHelper
 .
-runWithSystemLocaleChanged
+runWithAppLocaleChanged
 (
 arabicLocale
 activityTestRule

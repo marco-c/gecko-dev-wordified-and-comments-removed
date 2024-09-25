@@ -65,14 +65,6 @@ fenix
 .
 ui
 import
-androidx
-.
-test
-.
-filters
-.
-SdkSuppress
-import
 org
 .
 junit
@@ -752,12 +744,6 @@ cases
 view
 /
 516080
-SdkSuppress
-(
-maxSdkVersion
-=
-30
-)
 Test
 fun
 searchInLanguagesListTest
