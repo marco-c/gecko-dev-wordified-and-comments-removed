@@ -59,7 +59,7 @@ let
 notificationURL
 =
 "
-http
+https
 :
 /
 /

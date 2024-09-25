@@ -39,7 +39,7 @@ const
 PAGE
 =
 "
-http
+https
 :
 /
 /

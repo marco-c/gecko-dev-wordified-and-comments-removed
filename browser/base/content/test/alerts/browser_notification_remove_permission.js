@@ -36,7 +36,7 @@ var
 notificationURL
 =
 "
-http
+https
 :
 /
 /
