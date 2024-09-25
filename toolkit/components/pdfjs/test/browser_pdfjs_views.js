@@ -211,9 +211,8 @@ document
 querySelector
 (
 "
-button
 #
-sidebarToggle
+sidebarToggleButton
 "
 )
 ;
