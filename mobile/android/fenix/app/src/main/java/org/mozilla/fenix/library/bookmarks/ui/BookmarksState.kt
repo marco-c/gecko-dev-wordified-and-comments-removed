@@ -393,3 +393,17 @@ listOf
 (
 )
 )
+{
+val
+showNewFolderButton
+:
+Boolean
+get
+(
+)
+=
+addFolderSelectionGuid
+=
+=
+null
+}
