@@ -33,6 +33,15 @@ h
 >
 #
 include
+<
+gio
+/
+gdesktopappinfo
+.
+h
+>
+#
+include
 "
 mozilla
 /
@@ -161,6 +170,10 @@ GDBusProxy
 GOBJECT_TRAITS
 (
 GAppInfo
+)
+GOBJECT_TRAITS
+(
+GDesktopAppInfo
 )
 GOBJECT_TRAITS
 (
