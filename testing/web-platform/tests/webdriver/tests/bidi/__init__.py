@@ -962,19 +962,22 @@ bidi_session
 context
 :
 str
+      
 with_scrollbar
 :
 bool
 =
 True
+quirk_mode
+:
+bool
+=
+False
 )
 :
     
 if
 with_scrollbar
-=
-=
-True
 :
         
 expression
@@ -1009,31 +1012,52 @@ innerWidth
 else
 :
         
+element_expression
+=
+\
+            
+"
+document
+.
+body
+"
+if
+quirk_mode
+else
+"
+document
+.
+documentElement
+"
+        
 expression
 =
+f
 "
 "
 "
             
 (
 {
+{
                 
 height
 :
-document
-.
-documentElement
+{
+element_expression
+}
 .
 clientHeight
                 
 width
 :
-document
-.
-documentElement
+{
+element_expression
+}
 .
 clientWidth
             
+}
 }
 )
 ;

@@ -1230,16 +1230,12 @@ parametrize
 (
     
 "
-doctype
+quirk_mode
 "
     
 [
-"
-html
-"
-"
-html_quirks
-"
+False
+True
 ]
     
 ids
@@ -1268,9 +1264,21 @@ use_horizontal_scrollbar
     
 use_vertical_scrollbar
     
-doctype
+quirk_mode
 )
 :
+    
+doctype
+=
+"
+html_quirks
+"
+if
+quirk_mode
+else
+"
+html
+"
     
 viewport_dimensions
 =
@@ -1279,6 +1287,10 @@ get_viewport_dimensions
 (
 bidi_session
 new_tab
+                                                        
+quirk_mode
+=
+quirk_mode
 )
     
 width
@@ -1413,6 +1425,10 @@ get_viewport_dimensions
 (
 bidi_session
 new_tab
+                                         
+quirk_mode
+=
+quirk_mode
 )
 !
 =
@@ -1446,6 +1462,10 @@ get_viewport_dimensions
 (
 bidi_session
 new_tab
+                                         
+quirk_mode
+=
+quirk_mode
 )
 =
 =
@@ -1462,6 +1482,9 @@ new_tab
 with_scrollbar
 =
 False
+quirk_mode
+=
+quirk_mode
     
 )
     
