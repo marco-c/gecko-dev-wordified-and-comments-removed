@@ -1663,13 +1663,6 @@ tests
 not
 in
 suite
-and
-"
-marionette
-"
-not
-in
-suite
 :
         
 runtimes
