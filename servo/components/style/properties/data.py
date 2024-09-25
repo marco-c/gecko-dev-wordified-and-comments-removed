@@ -3304,6 +3304,10 @@ ImageRendering
 "
                 
 "
+Inert
+"
+                
+"
 InitialLetter
 "
                 
@@ -3344,9 +3348,6 @@ MasonryAutoFlow
 "
                 
 "
-ui
-:
-:
 MozTheme
 "
                 
@@ -3423,6 +3424,10 @@ PageOrientation
                 
 "
 Percentage
+"
+                
+"
+PointerEvents
 "
                 
 "
@@ -3515,6 +3520,18 @@ TouchAction
                 
 "
 TransformStyle
+"
+                
+"
+UserFocus
+"
+                
+"
+UserInput
+"
+                
+"
+UserModify
 "
                 
 "
