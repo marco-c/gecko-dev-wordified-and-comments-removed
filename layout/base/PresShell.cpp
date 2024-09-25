@@ -56197,7 +56197,9 @@ if
 pos
 -
 >
-mMinWidth
+GetMinWidth
+(
+)
 .
 ConvertsToLength
 (
@@ -56211,7 +56213,9 @@ width
 pos
 -
 >
-mMinWidth
+GetMinWidth
+(
+)
 .
 ToLength
 (
@@ -56223,7 +56227,9 @@ if
 pos
 -
 >
-mMinHeight
+GetMinHeight
+(
+)
 .
 ConvertsToLength
 (
@@ -56237,7 +56243,9 @@ height
 pos
 -
 >
-mMinHeight
+GetMinHeight
+(
+)
 .
 ToLength
 (
@@ -56249,7 +56257,9 @@ if
 pos
 -
 >
-mMaxWidth
+GetMaxWidth
+(
+)
 .
 ConvertsToLength
 (
@@ -56263,7 +56273,9 @@ width
 pos
 -
 >
-mMaxWidth
+GetMaxWidth
+(
+)
 .
 ToLength
 (
@@ -56275,7 +56287,9 @@ if
 pos
 -
 >
-mMaxHeight
+GetMaxHeight
+(
+)
 .
 ConvertsToLength
 (
@@ -56289,7 +56303,9 @@ height
 pos
 -
 >
-mMaxHeight
+GetMaxHeight
+(
+)
 .
 ToLength
 (

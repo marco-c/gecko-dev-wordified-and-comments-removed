@@ -1281,6 +1281,14 @@ FitContentFunction
 (
 _
 )
+|
+Self
+:
+:
+AnchorSizeFunction
+(
+_
+)
 =
 >
 false

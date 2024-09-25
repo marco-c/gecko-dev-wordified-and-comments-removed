@@ -11292,7 +11292,9 @@ StylePosition
 )
 -
 >
-mMinWidth
+GetMinWidth
+(
+)
 ;
 if
 (

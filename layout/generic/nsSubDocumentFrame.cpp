@@ -5931,7 +5931,9 @@ dependsOnIntrinsics
 pos
 -
 >
-mWidth
+GetWidth
+(
+)
 .
 ConvertsToLength
 (
@@ -5942,7 +5944,9 @@ ConvertsToLength
 pos
 -
 >
-mHeight
+GetHeight
+(
+)
 .
 ConvertsToLength
 (

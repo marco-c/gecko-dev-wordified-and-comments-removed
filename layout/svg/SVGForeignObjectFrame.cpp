@@ -1488,7 +1488,9 @@ StylePosition
 )
 -
 >
-mWidth
+GetWidth
+(
+)
 .
 HasPercent
 (
@@ -1500,7 +1502,9 @@ StylePosition
 )
 -
 >
-mHeight
+GetHeight
+(
+)
 .
 HasPercent
 (

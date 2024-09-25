@@ -10075,7 +10075,9 @@ IsQuirky
 mStylePosition
 -
 >
-mHeight
+GetHeight
+(
+)
 )
 |
 |
@@ -10107,7 +10109,9 @@ StylePosition
 )
 -
 >
-mHeight
+GetHeight
+(
+)
 )
 )
 )
