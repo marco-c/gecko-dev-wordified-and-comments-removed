@@ -3301,17 +3301,7 @@ accent
 -
 primary
 :
-var
-(
--
--
-button
--
-primary
--
-bgcolor
 AccentColor
-)
 ;
 #
 #

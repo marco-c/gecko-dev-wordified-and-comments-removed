@@ -462,9 +462,11 @@ var
 -
 button
 -
-primary
+text
 -
 color
+-
+primary
 )
 ;
 background
@@ -475,11 +477,11 @@ var
 (
 -
 -
-button
+color
+-
+accent
 -
 primary
--
-bgcolor
 )
 ;
 }
