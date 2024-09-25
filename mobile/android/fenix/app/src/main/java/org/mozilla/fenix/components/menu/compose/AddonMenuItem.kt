@@ -498,7 +498,8 @@ R
 .
 string
 .
-browser_menu_extension_plus_icon_content_description
+browser_menu_extension_plus_icon_content_description_2
+label
 )
 onIconClick
 =
@@ -553,7 +554,8 @@ R
 .
 string
 .
-browser_menu_extension_plus_icon_content_description
+browser_menu_extension_plus_icon_content_description_2
+label
 )
 onAfterIconClick
 =
