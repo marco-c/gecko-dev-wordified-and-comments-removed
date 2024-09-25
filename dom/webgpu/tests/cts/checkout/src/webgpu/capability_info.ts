@@ -4337,14 +4337,6 @@ maxVertexBufferArrayStride
 2048
 ]
 '
-maxInterStageShaderComponents
-'
-:
-[
-64
-60
-]
-'
 maxInterStageShaderVariables
 '
 :

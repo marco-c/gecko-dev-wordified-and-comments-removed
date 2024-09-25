@@ -249,7 +249,7 @@ logLinesAtCurrentSeverity
 =
 0
 ;
-private
+public
 debugging
 =
 false

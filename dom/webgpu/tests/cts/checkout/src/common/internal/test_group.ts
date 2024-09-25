@@ -3234,6 +3234,12 @@ TestCaseRecorder
 const
 prop
 =
+rec
+[
+k
+]
+?
+?
 TestCaseRecorder
 .
 prototype
