@@ -5513,6 +5513,12 @@ HandleEscKey
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
+void
+ProcessCloseRequest
+(
+)
+;
 void
 AddModalDialog
 (
