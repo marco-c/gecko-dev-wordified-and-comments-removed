@@ -3453,7 +3453,7 @@ menuitem
 screenshot
 "
 "
-toolbar_button
+ToolbarButton
 "
 )
 ;

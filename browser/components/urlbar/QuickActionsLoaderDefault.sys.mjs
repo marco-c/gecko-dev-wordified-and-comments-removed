@@ -1443,7 +1443,7 @@ menuitem
 screenshot
 "
 "
-quick_actions
+QuickActions
 "
 )
 ;

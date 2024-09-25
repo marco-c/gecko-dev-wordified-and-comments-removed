@@ -953,7 +953,7 @@ notify
 (
 window
 "
-shortcut
+Shortcut
 "
 )
 ;

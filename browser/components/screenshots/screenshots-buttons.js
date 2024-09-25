@@ -318,7 +318,7 @@ gBrowser
 .
 selectedBrowser
 "
-visible
+Visible
 "
 )
 ;
@@ -354,7 +354,7 @@ gBrowser
 .
 selectedBrowser
 "
-full_page
+FullPage
 "
 )
 ;
