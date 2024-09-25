@@ -1,7 +1,7 @@
 const
 tierUpThreshold
 =
-2250
+14000
 ;
 let
 {
