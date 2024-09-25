@@ -373,7 +373,10 @@ LaunchProfile
 :
 {
 let
+{
 profile
+url
+}
 =
 event
 .
@@ -386,6 +389,7 @@ selectableProfileService
 launchInstance
 (
 profile
+url
 )
 ;
 window

@@ -1113,6 +1113,15 @@ Profiles
 GetEditProfileContent
 "
 ]
+RPMSendAsyncMessage
+:
+[
+"
+Profiles
+:
+UpdateProfileName
+"
+]
 }
 "
 about

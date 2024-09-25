@@ -27,6 +27,13 @@ true
 ]
 [
 "
+browser_edit_profile_test
+.
+js
+"
+]
+[
+"
 browser_update_profile_on_window_switch
 .
 js
