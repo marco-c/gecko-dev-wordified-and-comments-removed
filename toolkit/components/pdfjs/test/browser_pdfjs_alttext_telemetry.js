@@ -2468,7 +2468,7 @@ clickOn
 browser
 "
 #
-printButton
+print
 "
 )
 ;

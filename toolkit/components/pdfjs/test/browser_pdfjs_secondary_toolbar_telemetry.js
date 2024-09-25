@@ -237,7 +237,7 @@ querySelector
 (
 "
 #
-secondaryToolbarToggleButton
+secondaryToolbarToggle
 "
 )
 .

@@ -415,7 +415,7 @@ querySelector
 (
 "
 #
-downloadButton
+download
 "
 )
 .

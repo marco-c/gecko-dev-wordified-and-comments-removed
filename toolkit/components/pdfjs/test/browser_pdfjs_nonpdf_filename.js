@@ -354,7 +354,7 @@ document
 getElementById
 (
 "
-downloadButton
+download
 "
 )
 .
