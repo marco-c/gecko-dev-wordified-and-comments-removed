@@ -190,6 +190,8 @@ ipc
 IPCResult
 RecvAbortFetchOp
 (
+bool
+aForceAbort
 )
 ;
 FetchParent
