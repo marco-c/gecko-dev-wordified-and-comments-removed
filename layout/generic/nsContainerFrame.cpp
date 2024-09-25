@@ -12522,12 +12522,6 @@ bSize
 else
 if
 (
-stretchB
-=
-=
-eStretchPreservingRatio
-&
-&
 aspectRatio
 )
 {
@@ -12563,12 +12557,6 @@ bSize
 ;
 if
 (
-stretchI
-=
-=
-eStretchPreservingRatio
-&
-&
 aspectRatio
 )
 {
