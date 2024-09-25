@@ -19,14 +19,6 @@ junit4
 .
 AndroidComposeTestRule
 import
-androidx
-.
-test
-.
-filters
-.
-SdkSuppress
-import
 org
 .
 junit
@@ -262,12 +254,6 @@ cases
 view
 /
 2252509
-SdkSuppress
-(
-maxSdkVersion
-=
-30
-)
 Test
 fun
 verifyPocketSectionTest
