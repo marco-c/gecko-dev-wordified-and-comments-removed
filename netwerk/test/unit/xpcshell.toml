@@ -4917,6 +4917,13 @@ js
 ]
 [
 "
+test_internal_redirect
+.
+js
+"
+]
+[
+"
 test_ioservice
 .
 js
