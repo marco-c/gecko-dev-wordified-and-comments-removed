@@ -208,6 +208,13 @@ js
 ]
 [
 "
+browser_collectFormFields
+.
+js
+"
+]
+[
+"
 browser_dropdown_layout
 .
 js
@@ -305,6 +312,13 @@ js
 [
 "
 browser_iframe_same_origin_field_detection
+.
+js
+"
+]
+[
+"
+browser_iframe_update_fields
 .
 js
 "
