@@ -424,7 +424,7 @@ shiftClickElement
 (
 dbg
 "
-gutter
+gutterElement
 "
 3
 )
@@ -590,7 +590,7 @@ clickElement
 (
 dbg
 "
-gutter
+gutterElement
 "
 3
 )
@@ -599,7 +599,7 @@ clickElement
 (
 dbg
 "
-gutter
+gutterElement
 "
 5
 )

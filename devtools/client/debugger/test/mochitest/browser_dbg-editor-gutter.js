@@ -344,7 +344,7 @@ openContextMenuInDebugger
 (
 dbg
 "
-gutter
+gutterElement
 "
 4
 )
@@ -642,7 +642,7 @@ openContextMenuInDebugger
 (
 dbg
 "
-gutter
+gutterElement
 "
 4
 )
@@ -779,7 +779,7 @@ openContextMenuInDebugger
 (
 dbg
 "
-gutter
+gutterElement
 "
 19
 )

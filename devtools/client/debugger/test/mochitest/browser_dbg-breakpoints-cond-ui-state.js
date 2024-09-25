@@ -210,7 +210,7 @@ rightClickElement
 (
 dbg
 "
-gutter
+gutterElement
 "
 5
 )
@@ -322,7 +322,7 @@ rightClickElement
 (
 dbg
 "
-gutter
+gutterElement
 "
 5
 )
@@ -435,7 +435,7 @@ clickElement
 (
 dbg
 "
-gutter
+gutterElement
 "
 5
 )
@@ -498,7 +498,7 @@ clickElement
 (
 dbg
 "
-gutter
+gutterElement
 "
 5
 )
@@ -812,7 +812,7 @@ altClickElement
 (
 dbg
 "
-gutter
+gutterElement
 "
 6
 )
@@ -1016,7 +1016,7 @@ rightClickElement
 (
 dbg
 "
-gutter
+gutterElement
 "
 index
 )
