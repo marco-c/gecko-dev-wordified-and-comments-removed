@@ -10657,6 +10657,15 @@ keyType
 =
 =
 edKey
+|
+|
+mPublicKey
+-
+>
+keyType
+=
+=
+ecMontKey
 )
 )
 {
