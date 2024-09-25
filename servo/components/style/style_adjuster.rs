@@ -594,13 +594,6 @@ element
 is_mathml_element
 (
 )
-|
-|
-element
-.
-is_xul_element
-(
-)
 {
 return
 true
