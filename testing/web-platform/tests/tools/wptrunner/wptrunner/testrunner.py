@@ -6550,6 +6550,12 @@ _ensure_runner_stopped
 (
 )
             
+if
+self
+.
+browser
+:
+                
 self
 .
 browser
