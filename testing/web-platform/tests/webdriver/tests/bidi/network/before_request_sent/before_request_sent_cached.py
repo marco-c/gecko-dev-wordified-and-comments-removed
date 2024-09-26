@@ -1212,13 +1212,38 @@ page_with_cached_css
     
 )
     
+link_css_event
+=
+next
+(
+        
+e
+for
+e
+in
+events
+if
+cached_link_css_url
+=
+=
+e
+[
+"
+request
+"
+]
+[
+"
+url
+"
+]
+    
+)
+    
 assert_before_request_sent_event
 (
         
-events
-[
-1
-]
+link_css_event
         
 expected_request
 =
@@ -1239,13 +1264,38 @@ cached_link_css_url
     
 )
     
+import_css_event
+=
+next
+(
+        
+e
+for
+e
+in
+events
+if
+cached_import_css_url
+=
+=
+e
+[
+"
+request
+"
+]
+[
+"
+url
+"
+]
+    
+)
+    
 assert_before_request_sent_event
 (
         
-events
-[
-2
-]
+import_css_event
         
 expected_request
 =
@@ -1319,12 +1369,20 @@ events
 =
 6
     
-assert_before_request_sent_event
-(
-        
+cached_events
+=
 events
 [
 3
+:
+]
+    
+assert_before_request_sent_event
+(
+        
+cached_events
+[
+0
 ]
         
 expected_request
@@ -1346,13 +1404,38 @@ page_with_cached_css
     
 )
     
+cached_link_css_event
+=
+next
+(
+        
+e
+for
+e
+in
+cached_events
+if
+cached_link_css_url
+=
+=
+e
+[
+"
+request
+"
+]
+[
+"
+url
+"
+]
+    
+)
+    
 assert_before_request_sent_event
 (
         
-events
-[
-4
-]
+cached_link_css_event
         
 expected_request
 =
@@ -1373,13 +1456,38 @@ cached_link_css_url
     
 )
     
+cached_import_css_event
+=
+next
+(
+        
+e
+for
+e
+in
+cached_events
+if
+cached_import_css_url
+=
+=
+e
+[
+"
+request
+"
+]
+[
+"
+url
+"
+]
+    
+)
+    
 assert_before_request_sent_event
 (
         
-events
-[
-5
-]
+cached_import_css_event
         
 expected_request
 =
