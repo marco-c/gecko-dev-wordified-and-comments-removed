@@ -78,7 +78,7 @@ int
 elif
 defined
 (
-__wasi__
+__wasm__
 )
 +
 #
