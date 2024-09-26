@@ -782,7 +782,7 @@ use
 -
 trigger
 -
-master
+weekly
 -
 trigger
 -
@@ -1164,7 +1164,7 @@ use
 -
 trigger
 -
-master
+weekly
 -
 trigger
 -
