@@ -1692,7 +1692,7 @@ window
 entryPoint
 :
 "
-Mainmenu
+mainmenu
 "
 }
 )

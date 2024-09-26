@@ -2162,7 +2162,7 @@ win
 entryPoint
 :
 "
-Aboutprotections
+aboutprotections
 "
 }
 )

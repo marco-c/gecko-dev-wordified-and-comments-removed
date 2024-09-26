@@ -2804,7 +2804,7 @@ this
 .
 _inPrivateBrowsing
 "
-PromptLogin
+prompt_login
 "
 autofilled
 )
@@ -4441,7 +4441,7 @@ this
 .
 _inPrivateBrowsing
 "
-AuthLogin
+auth_login
 "
 autofilled
 )
