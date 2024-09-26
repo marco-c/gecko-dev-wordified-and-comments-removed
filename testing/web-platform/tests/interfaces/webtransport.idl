@@ -172,6 +172,11 @@ anticipatedConcurrentIncomingBidirectionalStreams
 ;
 readonly
 attribute
+DOMString
+protocol
+;
+readonly
+attribute
 Promise
 <
 WebTransportCloseInfo
@@ -345,6 +350,15 @@ short
 anticipatedConcurrentIncomingBidirectionalStreams
 =
 null
+;
+sequence
+<
+DOMString
+>
+protocols
+=
+[
+]
 ;
 }
 ;

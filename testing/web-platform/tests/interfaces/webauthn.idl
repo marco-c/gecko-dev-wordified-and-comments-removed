@@ -1167,7 +1167,7 @@ signalUnknownCredential
 }
 ;
 enum
-PublicKeyCredentialHints
+PublicKeyCredentialHint
 {
 "
 security

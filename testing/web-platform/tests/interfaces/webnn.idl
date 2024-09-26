@@ -339,7 +339,7 @@ EnforceRange
 unsigned
 long
 >
-dimensions
+shape
 =
 [
 ]
