@@ -2,7 +2,7 @@ run_test
 (
 [
 "
-X25519
+ECDSA
 "
 ]
 )
