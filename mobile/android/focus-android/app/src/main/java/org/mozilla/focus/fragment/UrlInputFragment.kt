@@ -2855,13 +2855,12 @@ handleCrashTrigger
 (
 input
 )
-ViewUtils
-.
-hideKeyboard
-(
 binding
 .
 browserToolbar
+.
+hideKeyboard
+(
 )
 val
 isUrl
