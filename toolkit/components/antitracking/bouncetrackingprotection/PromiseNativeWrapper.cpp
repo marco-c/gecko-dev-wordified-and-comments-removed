@@ -15,7 +15,7 @@ PromiseNativeWrapper
 ;
 RefPtr
 <
-GenericPromise
+GenericNonExclusivePromise
 >
 PromiseNativeWrapper
 :
@@ -36,13 +36,13 @@ jsPromise
 {
 MozPromiseHolder
 <
-GenericPromise
+GenericNonExclusivePromise
 >
 holder
 ;
 RefPtr
 <
-GenericPromise
+GenericNonExclusivePromise
 >
 mozPromise
 =

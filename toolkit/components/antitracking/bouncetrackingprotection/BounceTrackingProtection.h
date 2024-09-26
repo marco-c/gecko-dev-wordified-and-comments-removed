@@ -297,6 +297,12 @@ nsIBTPRemoteExceptionList
 >
 mRemoteExceptionList
 ;
+RefPtr
+<
+GenericNonExclusivePromise
+>
+mRemoteExceptionListInitPromise
+;
 nsTHashSet
 <
 nsCStringHashKey
@@ -305,7 +311,7 @@ mRemoteSiteHostExceptions
 ;
 RefPtr
 <
-GenericPromise
+GenericNonExclusivePromise
 >
 EnsureRemoteExceptionListService
 (
