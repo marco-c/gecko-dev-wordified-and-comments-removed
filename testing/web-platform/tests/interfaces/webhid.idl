@@ -71,7 +71,10 @@ hid
 [
 Exposed
 =
+(
+DedicatedWorker
 ServiceWorker
+)
 SecureContext
 ]
 partial
@@ -92,8 +95,9 @@ hid
 Exposed
 =
 (
-Window
+DedicatedWorker
 ServiceWorker
+Window
 )
 SecureContext
 ]
@@ -183,7 +187,11 @@ usage
 [
 Exposed
 =
+(
+DedicatedWorker
+ServiceWorker
 Window
+)
 SecureContext
 ]
 interface
@@ -297,7 +305,11 @@ reportId
 [
 Exposed
 =
+(
+DedicatedWorker
+ServiceWorker
 Window
+)
 SecureContext
 ]
 interface
@@ -337,7 +349,11 @@ device
 [
 Exposed
 =
+(
+DedicatedWorker
+ServiceWorker
 Window
+)
 SecureContext
 ]
 interface
