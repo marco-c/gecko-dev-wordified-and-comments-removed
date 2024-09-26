@@ -331,7 +331,10 @@ outputs
 )
 ;
 return
+{
 result
+namedOutputOperand
+}
 ;
 }
 ;

@@ -8600,7 +8600,7 @@ test
 webnn_conformance_test
 (
 buildGraphAndCompute
-getConv2dPrecisionTolerance
+getPrecisionTolerance
 test
 )
 ;
