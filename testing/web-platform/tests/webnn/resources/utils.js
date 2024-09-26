@@ -107,6 +107,16 @@ float16
 :
 0
 }
+reshape
+:
+{
+float32
+:
+0
+float16
+:
+0
+}
 sigmoid
 :
 {
@@ -360,6 +370,7 @@ getConv2dPrecisionTolerance
 (
 op
 graphResources
+intermediateOperands
 )
 .
 value
@@ -378,6 +389,7 @@ getConv2dPrecisionTolerance
 (
 op
 graphResources
+intermediateOperands
 )
 .
 value
@@ -396,6 +408,7 @@ getGemmPrecisionTolerance
 (
 op
 graphResources
+intermediateOperands
 )
 .
 value
@@ -2978,6 +2991,7 @@ getGemmPrecisionTolerance
 (
 op
 graphResources
+intermediateOperands
 )
 =
 >
@@ -3239,6 +3253,7 @@ getConv2dPrecisionTolerance
 (
 op
 graphResources
+intermediateOperands
 )
 =
 >
