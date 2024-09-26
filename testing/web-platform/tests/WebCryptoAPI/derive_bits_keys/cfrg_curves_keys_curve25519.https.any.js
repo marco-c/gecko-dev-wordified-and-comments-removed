@@ -1,6 +1,6 @@
 promise_test
 (
-define_tests
+define_tests_25519
 '
 setup
 -
