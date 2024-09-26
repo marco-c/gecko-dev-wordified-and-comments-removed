@@ -14,6 +14,12 @@ n
 "
 )
 ;
+setImmediate
+(
+function
+(
+)
+{
 postMessage
 (
 "
@@ -21,5 +27,8 @@ debugger
 script
 ran
 "
+)
+;
+}
 )
 ;
