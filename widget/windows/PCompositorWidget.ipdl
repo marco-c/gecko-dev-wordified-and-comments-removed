@@ -139,17 +139,8 @@ LeavePresentLock
 )
 ;
 async
-UpdateTransparency
-(
-TransparencyMode
-aMode
-)
-;
-async
 NotifyVisibilityUpdated
 (
-nsSizeMode
-aSizeMode
 bool
 aIsFullyOccluded
 )
