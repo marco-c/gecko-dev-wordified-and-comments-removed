@@ -49,6 +49,10 @@ derive
 Clone
 Debug
 PartialEq
+uniffi
+:
+:
+Enum
 )
 ]
 pub
@@ -1047,6 +1051,13 @@ timestamp
 1
 )
 }
+#
+[
+uniffi
+:
+:
+export
+]
 pub
 fn
 raw_suggestion_url_matches

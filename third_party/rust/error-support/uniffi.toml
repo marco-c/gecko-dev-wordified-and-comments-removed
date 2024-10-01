@@ -12,11 +12,6 @@ appservices
 .
 errorsupport
 "
-cdylib_name
-=
-"
-megazord
-"
 [
 bindings
 .

@@ -151,6 +151,7 @@ icon
 ;
 /
 /
+/
 Number
 of
 ms
@@ -190,6 +191,7 @@ client_name
 DeviceType
 device_type
 ;
+/
 /
 /
 Number
@@ -489,6 +491,7 @@ time_sent
 ;
 /
 /
+/
 Note
 the
 canonical
@@ -520,6 +523,7 @@ mozIBridgedSyncEngine
 idl
 /
 /
+/
 It
 '
 s
@@ -538,6 +542,7 @@ expose
 this
 everywhere
 .
+/
 /
 /
 NOTE

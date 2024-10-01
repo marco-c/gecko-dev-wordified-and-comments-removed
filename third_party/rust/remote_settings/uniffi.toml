@@ -12,11 +12,6 @@ appservices
 .
 remotesettings
 "
-cdylib_name
-=
-"
-megazord
-"
 [
 bindings
 .

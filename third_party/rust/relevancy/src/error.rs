@@ -16,6 +16,10 @@ thiserror
 :
 :
 Error
+uniffi
+:
+:
+Error
 )
 ]
 pub

@@ -212,6 +212,7 @@ RemoteSettings
 {
 /
 /
+/
 Construct
 a
 new
@@ -234,6 +235,7 @@ RemoteSettingsConfig
 remote_settings_config
 )
 ;
+/
 /
 /
 Fetch
@@ -260,6 +262,7 @@ get_records
 ;
 /
 /
+/
 Fetch
 all
 records
@@ -271,6 +274,7 @@ since
 the
 provided
 timestamp
+/
 /
 /
 using
@@ -294,6 +298,7 @@ u64
 timestamp
 )
 ;
+/
 /
 /
 Download

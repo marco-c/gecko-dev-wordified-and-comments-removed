@@ -23,6 +23,7 @@ sync15
 ;
 /
 /
+/
 Enumeration
 for
 the
@@ -31,6 +32,8 @@ types
 of
 device
 .
+/
+/
 /
 /
 /
@@ -45,6 +48,7 @@ categories
 for
 display
 purposes
+/
 /
 /
 such
@@ -63,6 +67,7 @@ signin
 the
 /
 /
+/
 application
 should
 inspect
@@ -78,6 +83,7 @@ an
 appropriate
 /
 /
+/
 [
 DeviceType
 ]
@@ -89,8 +95,6 @@ device
 registration
 record
 .
-/
-/
 enum
 DeviceType
 {

@@ -12,11 +12,6 @@ appservices
 .
 sync15
 "
-cdylib_name
-=
-"
-megazord
-"
 [
 bindings
 .

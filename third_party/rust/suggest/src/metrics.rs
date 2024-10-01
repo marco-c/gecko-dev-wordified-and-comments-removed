@@ -7,6 +7,16 @@ time
 :
 Instant
 ;
+#
+[
+derive
+(
+uniffi
+:
+:
+Record
+)
+]
 pub
 struct
 LabeledTimingSample
@@ -49,6 +59,10 @@ value
 derive
 (
 Default
+uniffi
+:
+:
+Record
 )
 ]
 pub

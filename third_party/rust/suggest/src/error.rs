@@ -472,6 +472,10 @@ thiserror
 :
 :
 Error
+uniffi
+:
+:
+Error
 )
 ]
 #

@@ -118,11 +118,7 @@ version
 "
 build
 =
-"
-build
-.
-rs
-"
+false
 exclude
 =
 [
