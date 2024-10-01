@@ -503,6 +503,8 @@ record
 taskName
 :
 "
+moz
+-
 echo
 "
 modelId
@@ -540,6 +542,11 @@ tokenizerRevision
 :
 "
 main
+"
+dtype
+:
+"
+q8
 "
 id
 :
