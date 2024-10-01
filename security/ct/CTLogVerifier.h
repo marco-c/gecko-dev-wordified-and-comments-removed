@@ -6,11 +6,6 @@ define
 CTLogVerifier_h
 #
 include
-<
-memory
->
-#
-include
 "
 CTKnownLogs
 .
@@ -227,9 +222,6 @@ SignatureCache
 *
 signatureCache
 )
-;
-UniqueSECKEYPublicKey
-mPublicECKey
 ;
 Buffer
 mSubjectPublicKeyInfo
