@@ -5489,6 +5489,12 @@ Enter
 {
 aEvent
 .
+preventDefault
+(
+)
+;
+aEvent
+.
 target
 .
 click
@@ -5570,6 +5576,14 @@ case
 keypress
 "
 :
+if
+(
+!
+e
+.
+defaultPrevented
+)
+{
 this
 .
 _keypressHandler
@@ -5577,6 +5591,7 @@ _keypressHandler
 e
 )
 ;
+}
 break
 ;
 }
