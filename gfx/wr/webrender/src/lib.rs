@@ -760,6 +760,13 @@ pub
 use
 glyph_rasterizer
 ;
+pub
+use
+bump_allocator
+:
+:
+ChunkPool
+;
 #
 [
 cfg

@@ -1045,6 +1045,16 @@ return
 mThreadPoolLP
 ;
 }
+WrChunkPool
+*
+MemoryChunkPool
+(
+)
+{
+return
+mChunkPool
+;
+}
 MaybeWebRenderGlyphRasterThread
 &
 GlyphRasterThread
@@ -1897,6 +1907,10 @@ mThreadPool
 ;
 WebRenderThreadPool
 mThreadPoolLP
+;
+WrChunkPool
+*
+mChunkPool
 ;
 MaybeWebRenderGlyphRasterThread
 mGlyphRasterThread
