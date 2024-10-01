@@ -350,6 +350,9 @@ DatetimeMetric
 DenominatorMetric
 DistributionData
 EventMetric
+LocalCustomDistribution
+LocalMemoryDistribution
+LocalTimingDistribution
 MemoryDistributionMetric
 MemoryUnit
 NumeratorMetric
