@@ -7,6 +7,11 @@ API_UNITS_FREQUENCY_H_
 #
 include
 <
+cstdint
+>
+#
+include
+<
 cstdlib
 >
 #
@@ -32,6 +37,15 @@ api
 units
 /
 time_delta
+.
+h
+"
+#
+include
+"
+rtc_base
+/
+checks
 .
 h
 "

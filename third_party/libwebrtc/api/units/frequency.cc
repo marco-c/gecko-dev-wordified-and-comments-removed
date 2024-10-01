@@ -11,6 +11,16 @@ h
 "
 #
 include
+<
+cstdint
+>
+#
+include
+<
+string
+>
+#
+include
 "
 rtc_base
 /
