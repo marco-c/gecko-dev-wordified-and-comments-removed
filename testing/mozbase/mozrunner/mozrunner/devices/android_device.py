@@ -1683,6 +1683,23 @@ subcommand
 ]
 )
     
+if
+not
+app
+:
+        
+app
+=
+"
+org
+.
+mozilla
+.
+geckoview
+.
+test_runner
+"
+    
 package_name
 =
 app
@@ -2712,6 +2729,14 @@ device_serial
                 
 break
     
+metadata
+=
+metadata_for_app
+(
+app
+aab
+)
+    
 if
 device_verified
 and
@@ -2722,23 +2747,6 @@ InstallIntent
 .
 NO
 :
-        
-if
-not
-app
-:
-            
-app
-=
-"
-org
-.
-mozilla
-.
-geckoview
-.
-test_runner
-"
         
 device
 =
@@ -2754,14 +2762,6 @@ response
 =
 "
 "
-        
-metadata
-=
-metadata_for_app
-(
-app
-aab
-)
         
 installed
 =
