@@ -289,6 +289,17 @@ EVALUATE_SCREEN_TARGETING
 "
 )
 ;
+window
+.
+AWEvaluateAttributeTargeting
+=
+receive
+(
+"
+EVALUATE_ATTRIBUTE_TARGETING
+"
+)
+;
 addStylesheet
 (
 "
