@@ -4372,6 +4372,7 @@ setBindGroup
 GPUIndex32
 index
 GPUBindGroup
+?
 bindGroup
 optional
 sequence

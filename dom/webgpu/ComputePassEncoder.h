@@ -164,9 +164,9 @@ SetBindGroup
 (
 uint32_t
 aSlot
-const
 BindGroup
-&
+*
+const
 aBindGroup
 const
 dom
