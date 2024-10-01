@@ -42,6 +42,15 @@ include
 "
 api
 /
+priority
+.
+h
+"
+#
+include
+"
+api
+/
 sequence_checker
 .
 h
@@ -348,6 +357,8 @@ OpenChannel
 (
 int
 channel_id
+PriorityValue
+priority
 )
 {
 RTC_DCHECK_RUN_ON
@@ -366,6 +377,7 @@ internal_sctp_transport_
 OpenStream
 (
 channel_id
+priority
 )
 ;
 return

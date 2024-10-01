@@ -487,6 +487,12 @@ array_view
 .
 .
 :
+priority
+"
+"
+.
+.
+:
 rtc_error
 "
 "

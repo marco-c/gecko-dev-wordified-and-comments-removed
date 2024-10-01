@@ -23,6 +23,15 @@ include
 "
 api
 /
+priority
+.
+h
+"
+#
+include
+"
+api
+/
 transport
 /
 data_channel_transport_interface
@@ -303,7 +312,7 @@ absl
 :
 optional
 <
-Priority
+PriorityValue
 >
 priority
 bool

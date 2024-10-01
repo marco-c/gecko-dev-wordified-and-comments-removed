@@ -25,6 +25,15 @@ include
 "
 api
 /
+priority
+.
+h
+"
+#
+include
+"
+api
+/
 transport
 /
 sctp_transport_factory_interface
@@ -135,6 +144,11 @@ OpenStream
 (
 int
 sid
+webrtc
+:
+:
+PriorityValue
+priority
 )
 override
 {

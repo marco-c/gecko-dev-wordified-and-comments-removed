@@ -28,6 +28,15 @@ include
 "
 api
 /
+priority
+.
+h
+"
+#
+include
+"
+api
+/
 rtc_error
 .
 h
@@ -246,6 +255,8 @@ AddSctpDataStream
 (
 StreamId
 sid
+PriorityValue
+priority
 )
 override
 ;

@@ -53,6 +53,15 @@ include
 "
 api
 /
+priority
+.
+h
+"
+#
+include
+"
+api
+/
 transport
 /
 data_channel_transport_interface
@@ -261,6 +270,8 @@ OpenStream
 (
 int
 sid
+PriorityValue
+priority
 )
 override
 {
