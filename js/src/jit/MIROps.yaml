@@ -3564,6 +3564,13 @@ false
 -
 name
 :
+SignExtendIntPtr
+gen_boilerplate
+:
+false
+-
+name
+:
 MinMax
 gen_boilerplate
 :
