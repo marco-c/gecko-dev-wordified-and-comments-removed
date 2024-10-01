@@ -179,12 +179,6 @@ QpThresholds
 thresholds
 )
 ;
-bool
-QpFastFilterLow
-(
-)
-const
-;
 protected
 :
 QualityScaler

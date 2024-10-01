@@ -186,11 +186,6 @@ QpThresholds
 qp_thresholds
 )
 ;
-bool
-QpFastFilterLow
-(
-)
-;
 void
 OnEncodeCompleted
 (
