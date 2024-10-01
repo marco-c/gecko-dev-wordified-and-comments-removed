@@ -219,10 +219,9 @@ command
 cp
 -
 r
+MOZ_FETCHES_DIR
 /
-build
-/
-node_modules_eslint
+node_modules
 node_modules
 &
 &
@@ -340,6 +339,10 @@ toolchain
 linux64
 -
 node
+-
+node
+-
+modules
 upload
 :
 description
@@ -524,10 +527,9 @@ command
 cp
 -
 r
+MOZ_FETCHES_DIR
 /
-build
-/
-node_modules_eslint
+node_modules
 node_modules
 &
 &
@@ -677,3 +679,7 @@ toolchain
 linux64
 -
 node
+-
+node
+-
+modules
