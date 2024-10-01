@@ -379,15 +379,8 @@ EnsureHighResTimersOnOnlyIfPlaying
 void
 RenderVideoFrames
 (
-Span
-<
-const
-RefPtr
-<
-VideoData
->
->
-aFrames
+int32_t
+aMaxFrames
 int64_t
 aClockTime
 const
