@@ -1326,13 +1326,14 @@ ifdef
 OPENSSL_IS_BORINGSSL
 permute_extension_
 (
+!
 webrtc
 :
 :
 field_trial
 :
 :
-IsEnabled
+IsDisabled
 (
 "
 WebRTC
