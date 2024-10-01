@@ -6,6 +6,11 @@ define
 API_VOIP_VOIP_DTMF_H_
 #
 include
+<
+cstdint
+>
+#
+include
 "
 api
 /
