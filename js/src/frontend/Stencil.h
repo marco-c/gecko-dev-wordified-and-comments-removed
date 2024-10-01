@@ -766,6 +766,16 @@ isZero
 )
 const
 ;
+bool
+inplaceNegate
+(
+)
+;
+bool
+inplaceBitNot
+(
+)
+;
 #
 ifdef
 DEBUG
