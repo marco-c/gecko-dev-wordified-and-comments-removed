@@ -15,6 +15,18 @@ yaml
 "
     
 "
+devtools
+/
+client
+/
+shared
+/
+metrics
+.
+yaml
+"
+    
+"
 docshell
 /
 base

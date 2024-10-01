@@ -1007,6 +1007,7 @@ DOMPoint
 DOMQuad
 DOMRect
 fetch
+Glean
 HeapSnapshot
 IOUtils
 L10nRegistry
