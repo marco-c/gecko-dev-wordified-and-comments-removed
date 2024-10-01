@@ -7401,7 +7401,7 @@ response
 >
 GetUInt32
 (
-STUN_ATTR_TURN_LIFETIME
+STUN_ATTR_LIFETIME
 )
 ;
 if
@@ -7427,7 +7427,7 @@ ToString
 "
 :
 Missing
-STUN_ATTR_TURN_LIFETIME
+STUN_ATTR_LIFETIME
 attribute
 in
 "
@@ -8525,7 +8525,7 @@ response
 >
 GetUInt32
 (
-STUN_ATTR_TURN_LIFETIME
+STUN_ATTR_LIFETIME
 )
 ;
 if
@@ -8551,7 +8551,7 @@ ToString
 "
 :
 Missing
-STUN_ATTR_TURN_LIFETIME
+STUN_ATTR_LIFETIME
 attribute
 in
 "
