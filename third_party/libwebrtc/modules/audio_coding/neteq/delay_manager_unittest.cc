@@ -91,7 +91,7 @@ include
 "
 test
 /
-field_trial
+explicit_key_value_config
 .
 h
 "
@@ -118,6 +118,12 @@ webrtc
 {
 namespace
 {
+using
+test
+:
+:
+ExplicitKeyValueConfig
+;
 constexpr
 int
 kMaxNumberOfPackets
@@ -204,6 +210,11 @@ DelayManager
 :
 Config
 (
+ExplicitKeyValueConfig
+(
+"
+"
+)
 )
 &
 tick_timer_
