@@ -6,11 +6,6 @@ define
 API_VIDEO_CODECS_AV1_PROFILE_H_
 #
 include
-<
-string
->
-#
-include
 "
 absl
 /
@@ -36,9 +31,7 @@ include
 "
 api
 /
-video_codecs
-/
-sdp_video_format
+rtp_parameters
 .
 h
 "

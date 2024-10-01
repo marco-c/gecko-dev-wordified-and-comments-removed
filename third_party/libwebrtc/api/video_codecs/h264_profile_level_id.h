@@ -25,9 +25,7 @@ include
 "
 api
 /
-video_codecs
-/
-sdp_video_format
+rtp_parameters
 .
 h
 "

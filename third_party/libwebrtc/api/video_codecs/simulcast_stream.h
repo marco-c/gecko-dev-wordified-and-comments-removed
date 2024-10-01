@@ -26,6 +26,17 @@ scalability_mode
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+system
+/
+rtc_export
+.
+h
+"
 namespace
 webrtc
 {

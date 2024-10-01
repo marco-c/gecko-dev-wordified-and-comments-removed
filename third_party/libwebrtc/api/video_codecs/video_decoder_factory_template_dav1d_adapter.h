@@ -21,7 +21,7 @@ api
 /
 video_codecs
 /
-av1_profile
+sdp_video_format
 .
 h
 "
@@ -32,7 +32,7 @@ api
 /
 video_codecs
 /
-sdp_video_format
+video_decoder
 .
 h
 "

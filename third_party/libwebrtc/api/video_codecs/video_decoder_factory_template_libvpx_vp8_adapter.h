@@ -39,6 +39,17 @@ h
 #
 include
 "
+api
+/
+video_codecs
+/
+video_decoder
+.
+h
+"
+#
+include
+"
 modules
 /
 video_coding

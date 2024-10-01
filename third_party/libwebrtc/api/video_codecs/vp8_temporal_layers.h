@@ -7,6 +7,16 @@ API_VIDEO_CODECS_VP8_TEMPORAL_LAYERS_H_
 #
 include
 <
+cstddef
+>
+#
+include
+<
+cstdint
+>
+#
+include
+<
 memory
 >
 #
@@ -30,7 +40,7 @@ api
 /
 video_codecs
 /
-video_codec
+video_encoder
 .
 h
 "

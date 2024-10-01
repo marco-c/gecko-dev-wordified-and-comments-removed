@@ -23,6 +23,17 @@ h
 #
 include
 "
+api
+/
+video_codecs
+/
+scalability_mode
+.
+h
+"
+#
+include
+"
 rtc_base
 /
 checks
