@@ -2846,7 +2846,7 @@ string
 }
 config
 .
-modefHubUrlTemplate
+modelHubUrlTemplate
 -
 url
 template
@@ -2942,7 +2942,7 @@ taskName
 url
 getModelFileFn
 modelHubRootUrl
-modefHubUrlTemplate
+modelHubUrlTemplate
 }
 )
 {
@@ -2968,7 +2968,7 @@ lazy
 MODEL_HUB_ROOT_URL
 urlTemplate
 :
-modefHubUrlTemplate
+modelHubUrlTemplate
 |
 |
 lazy

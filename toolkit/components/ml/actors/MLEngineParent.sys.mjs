@@ -2215,6 +2215,10 @@ modelHub
 parseUrl
 (
 url
+{
+rootUrl
+urlTemplate
+}
 )
 ;
 const
