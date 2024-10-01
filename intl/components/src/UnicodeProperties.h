@@ -182,6 +182,7 @@ EastAsianWidth
 HangulSyllableType
 LineBreak
 NumericType
+VerticalOrientation
 }
 ;
 static
@@ -260,6 +261,18 @@ NumericType
 prop
 =
 UCHAR_NUMERIC_TYPE
+;
+break
+;
+case
+IntProperty
+:
+:
+VerticalOrientation
+:
+prop
+=
+UCHAR_VERTICAL_ORIENTATION
 ;
 break
 ;
