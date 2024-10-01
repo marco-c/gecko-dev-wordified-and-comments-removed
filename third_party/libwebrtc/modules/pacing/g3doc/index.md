@@ -1460,11 +1460,7 @@ third_party
 /
 webrtc
 /
-modules
-/
-rtp_rtcp
-/
-include
+api
 /
 rtp_packet_sender
 .
