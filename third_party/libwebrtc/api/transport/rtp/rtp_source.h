@@ -53,15 +53,6 @@ timestamp
 .
 h
 "
-#
-include
-"
-rtc_base
-/
-checks
-.
-h
-"
 namespace
 webrtc
 {
