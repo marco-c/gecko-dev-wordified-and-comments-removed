@@ -4711,6 +4711,16 @@ libwebrtc
 /
 rtc_base
 /
+strong_alias_gn
+"
+"
+/
+third_party
+/
+libwebrtc
+/
+rtc_base
+/
 swap_queue_gn
 "
 "

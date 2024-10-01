@@ -392,14 +392,6 @@ __STDC_FORMAT_MACROS
 ]
 =
 True
-OS_LIBS
-+
-=
-[
-"
-log
-"
-]
 if
 CONFIG
 [
@@ -1454,6 +1446,6 @@ True
 Library
 (
 "
-priority_gn
+strong_alias_gn
 "
 )
