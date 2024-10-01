@@ -497,6 +497,16 @@ yaml
 "
 toolkit
 /
+content
+/
+metrics
+.
+yaml
+"
+    
+"
+toolkit
+/
 mozapps
 /
 extensions
