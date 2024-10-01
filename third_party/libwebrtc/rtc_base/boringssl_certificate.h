@@ -9,6 +9,15 @@ include
 <
 openssl
 /
+base
+.
+h
+>
+#
+include
+<
+openssl
+/
 ossl_typ
 .
 h
