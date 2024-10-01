@@ -6931,6 +6931,11 @@ config
 video_config_tests
 "
 "
+corruption_detection
+:
+corruption_detection_tests
+"
+"
 /
 /
 third_party
