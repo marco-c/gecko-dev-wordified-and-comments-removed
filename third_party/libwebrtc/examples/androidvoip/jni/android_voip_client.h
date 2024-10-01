@@ -155,7 +155,7 @@ JNIEnv
 *
 env
 const
-webrtc
+jni_zero
 :
 :
 JavaParamRef
@@ -165,7 +165,7 @@ jobject
 &
 application_context
 const
-webrtc
+jni_zero
 :
 :
 JavaParamRef
@@ -205,7 +205,7 @@ JNIEnv
 *
 env
 const
-webrtc
+jni_zero
 :
 :
 JavaParamRef
@@ -223,7 +223,7 @@ JNIEnv
 *
 env
 const
-webrtc
+jni_zero
 :
 :
 JavaParamRef
@@ -241,7 +241,7 @@ JNIEnv
 *
 env
 const
-webrtc
+jni_zero
 :
 :
 JavaParamRef
@@ -261,7 +261,7 @@ JNIEnv
 *
 env
 const
-webrtc
+jni_zero
 :
 :
 JavaParamRef
@@ -411,7 +411,7 @@ JNIEnv
 *
 env
 const
-webrtc
+jni_zero
 :
 :
 JavaParamRef
@@ -448,7 +448,7 @@ JNIEnv
 *
 env
 const
-webrtc
+jni_zero
 :
 :
 JavaParamRef
@@ -589,7 +589,7 @@ Thread
 >
 voip_thread_
 ;
-webrtc
+jni_zero
 :
 :
 ScopedJavaGlobalRef
