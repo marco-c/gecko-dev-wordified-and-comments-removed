@@ -211,6 +211,12 @@ listLength
 ;
 return
 (
+listLength
+>
+0
+&
+&
+(
 <
 div
 className
@@ -400,9 +406,7 @@ list
 card
 -
 {
-rec
-.
-id
+index
 }
 }
 pos
@@ -619,6 +623,7 @@ div
 /
 div
 >
+)
 )
 ;
 }

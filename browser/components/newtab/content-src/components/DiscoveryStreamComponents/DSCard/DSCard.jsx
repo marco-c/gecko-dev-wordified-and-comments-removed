@@ -515,6 +515,7 @@ spocMessageVariant
 mayHaveThumbsUpDown
 onThumbsUpClick
 onThumbsDownClick
+isListCard
 state
 }
 )
@@ -630,6 +631,10 @@ p
 div
 >
 {
+!
+isListCard
+&
+&
 mayHaveThumbsUpDown
 &
 &
