@@ -299,12 +299,6 @@ readonly
 attribute
 unsigned
 long
-maxInterStageShaderComponents
-;
-readonly
-attribute
-unsigned
-long
 maxInterStageShaderVariables
 ;
 readonly
