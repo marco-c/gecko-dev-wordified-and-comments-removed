@@ -772,6 +772,11 @@ aWindowId
 )
 ;
 void
+NotifyIdle
+(
+)
+;
+void
 RegisterExternalImage
 (
 const
