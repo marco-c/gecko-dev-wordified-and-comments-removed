@@ -4127,7 +4127,7 @@ GenericLayerIs
 TEST_F
 (
 TestVp9Impl
-DISABLED_DisableEnableBaseLayerTriggersKeyFrame
+DisableEnableBaseLayerTriggersKeyFrame
 )
 {
 test
@@ -5216,7 +5216,7 @@ expected_type
 TEST
 (
 Vp9ImplTest
-DISABLED_DisableEnableBaseLayerWithSvcControllerTriggersKeyFrame
+DisableEnableBaseLayerWithSvcControllerTriggersKeyFrame
 )
 {
 const
