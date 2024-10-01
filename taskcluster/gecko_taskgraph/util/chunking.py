@@ -817,6 +817,17 @@ else
 firefox
 "
     
+info
+[
+"
+buildapp
+"
+]
+=
+"
+browser
+"
+    
 if
 arch
 =
@@ -1630,6 +1641,13 @@ web
 platform
 -
 tests
+"
+not
+in
+suite
+and
+"
+marionette
 "
 not
 in
