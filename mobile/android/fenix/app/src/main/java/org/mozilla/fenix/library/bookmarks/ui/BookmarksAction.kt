@@ -601,6 +601,8 @@ internal
 sealed
 class
 EditFolderAction
+:
+BookmarksAction
 {
 data
 class
@@ -618,6 +620,13 @@ object
 ParentFolderClicked
 :
 BookmarksAction
+data
+object
+DeleteClicked
+:
+EditFolderAction
+(
+)
 }
 internal
 sealed
