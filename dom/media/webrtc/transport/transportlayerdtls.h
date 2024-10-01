@@ -674,6 +674,11 @@ aResult
 )
 ;
 void
+RecordStartedHandshakeTelemetry
+(
+)
+;
+void
 RecordTlsTelemetry
 (
 )
@@ -833,6 +838,11 @@ false
 ;
 bool
 cert_ok_
+=
+false
+;
+bool
+handshakeTelemetryRecorded
 =
 false
 ;
