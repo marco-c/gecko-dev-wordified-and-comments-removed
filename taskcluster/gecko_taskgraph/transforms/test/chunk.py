@@ -522,6 +522,19 @@ head_repository
 "
 )
             
+config
+.
+params
+.
+get
+(
+"
+app_version
+"
+"
+"
+)
+            
 get_test_tags
 (
 config
