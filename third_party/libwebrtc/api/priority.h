@@ -58,6 +58,7 @@ uint16_t
 {
 public
 :
+explicit
 PriorityValue
 (
 Priority
