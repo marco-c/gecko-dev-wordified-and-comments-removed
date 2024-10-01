@@ -1000,6 +1000,15 @@ popBackStack
 (
 )
 }
+wasPreviousAppDestinationHome
+=
+{
+false
+}
+navigateToSearch
+=
+{
+}
 shareBookmark
 =
 {
