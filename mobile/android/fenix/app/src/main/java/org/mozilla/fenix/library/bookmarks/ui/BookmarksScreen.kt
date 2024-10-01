@@ -5296,6 +5296,9 @@ null
 bookmarksEditFolderState
 =
 null
+bookmarksMultiselectMoveState
+=
+null
 )
 )
 FirefoxTheme
@@ -5491,6 +5494,9 @@ null
 bookmarksEditFolderState
 =
 null
+bookmarksMultiselectMoveState
+=
+null
 )
 )
 }
@@ -5601,6 +5607,9 @@ bookmarksSelectFolderState
 =
 null
 bookmarksEditFolderState
+=
+null
+bookmarksMultiselectMoveState
 =
 null
 )
@@ -5735,6 +5744,9 @@ bookmarksSelectFolderState
 =
 null
 bookmarksEditFolderState
+=
+null
+bookmarksMultiselectMoveState
 =
 null
 )
@@ -6088,6 +6100,9 @@ guid0
 )
 )
 )
+bookmarksMultiselectMoveState
+=
+null
 )
 )
 FirefoxTheme
