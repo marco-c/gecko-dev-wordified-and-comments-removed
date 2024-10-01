@@ -4408,6 +4408,11 @@ submit
 ;
 if
 (
+data
+.
+reporting_url
+&
+&
 this
 .
 canSendUnifiedAdsCallbacks
