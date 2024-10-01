@@ -626,16 +626,11 @@ make_ref_counted
 AudioChannel
 >
 (
+env_
 transport
 local_ssrc
 .
 value
-(
-)
-&
-env_
-.
-task_queue_factory
 (
 )
 audio_mixer_

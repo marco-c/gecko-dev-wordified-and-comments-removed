@@ -431,15 +431,10 @@ make_ref_counted
 AudioChannel
 >
 (
+env_
 &
 transport_
 ssrc
-&
-env_
-.
-task_queue_factory
-(
-)
 audio_mixer_
 .
 get
