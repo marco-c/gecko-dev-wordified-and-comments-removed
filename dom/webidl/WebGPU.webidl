@@ -3015,9 +3015,6 @@ required
 UTF8String
 code
 ;
-object
-sourceMap
-;
 }
 ;
 enum

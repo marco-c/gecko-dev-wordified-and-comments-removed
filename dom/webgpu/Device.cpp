@@ -4184,9 +4184,6 @@ Device
 :
 CreateShaderModule
 (
-JSContext
-*
-aCx
 const
 dom
 :
@@ -4199,11 +4196,6 @@ ErrorResult
 aRv
 )
 {
-Unused
-<
-<
-aCx
-;
 RefPtr
 <
 dom

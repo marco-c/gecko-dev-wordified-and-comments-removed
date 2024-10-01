@@ -793,9 +793,6 @@ ShaderModule
 >
 CreateShaderModule
 (
-JSContext
-*
-aCx
 const
 dom
 :
