@@ -4873,8 +4873,6 @@ paddingValues
 .
 padding
 (
-horizontal
-=
 16
 .
 dp
