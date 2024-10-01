@@ -697,6 +697,14 @@ value
 ;
 this
 .
+searchBox
+.
+focus
+(
+)
+;
+this
+.
 searchClearButton
 .
 hidden
