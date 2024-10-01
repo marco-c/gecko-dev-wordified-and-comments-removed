@@ -160,6 +160,14 @@ selectedItems
 isNotEmpty
 (
 )
+&
+&
+!
+action
+.
+item
+.
+isDesktopFolder
 )
 {
 state
