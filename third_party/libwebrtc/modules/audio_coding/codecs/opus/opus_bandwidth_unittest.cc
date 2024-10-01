@@ -804,6 +804,7 @@ AudioDecoderOpus
 :
 MakeAudioDecoder
 (
+env
 dec_config
 )
 ;

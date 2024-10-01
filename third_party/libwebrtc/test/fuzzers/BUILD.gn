@@ -2145,6 +2145,12 @@ audio_decoder_fuzzer
 "
 .
 .
+:
+explicit_key_value_config
+"
+"
+.
+.
 /
 .
 .
@@ -2179,6 +2185,12 @@ deps
 "
 :
 audio_decoder_fuzzer
+"
+"
+.
+.
+:
+explicit_key_value_config
 "
 "
 .
