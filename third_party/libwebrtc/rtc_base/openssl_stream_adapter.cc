@@ -1346,7 +1346,7 @@ PermuteTlsClientHello
 endif
 ssl_mode_
 (
-SSL_MODE_TLS
+SSL_MODE_DTLS
 )
 ssl_max_version_
 (

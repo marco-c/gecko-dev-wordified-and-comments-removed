@@ -255,6 +255,11 @@ curves
 )
 override
 ;
+[
+[
+deprecated
+]
+]
 void
 SetMode
 (

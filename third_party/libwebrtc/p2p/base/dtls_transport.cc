@@ -1969,17 +1969,6 @@ Clone
 dtls_
 -
 >
-SetMode
-(
-rtc
-:
-:
-SSL_MODE_DTLS
-)
-;
-dtls_
--
->
 SetMaxProtocolVersion
 (
 ssl_max_version_
