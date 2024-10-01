@@ -176,6 +176,17 @@ NextFrame
 ;
 virtual
 void
+SkipNextFrame
+(
+)
+{
+NextFrame
+(
+)
+;
+}
+virtual
+void
 ChangeResolution
 (
 size_t

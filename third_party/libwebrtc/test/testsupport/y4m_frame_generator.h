@@ -121,6 +121,12 @@ NextFrame
 override
 ;
 void
+SkipNextFrame
+(
+)
+override
+;
+void
 ChangeResolution
 (
 size_t
