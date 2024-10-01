@@ -10945,6 +10945,9 @@ if_operands_equal
 possibly_calls
 :
 true
+folds_to
+:
+custom
 alias_set
 :
 none
