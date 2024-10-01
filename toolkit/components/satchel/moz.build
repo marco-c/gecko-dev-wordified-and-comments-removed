@@ -163,13 +163,6 @@ mjs
 "
 integrations
 /
-FirefoxRelayTelemetry
-.
-mjs
-"
-"
-integrations
-/
 FirefoxRelayUtils
 .
 sys
