@@ -5718,6 +5718,9 @@ cricket
 FakeCall
 call_
 ;
+FakeAudioSource
+fake_source_
+;
 std
 :
 :
@@ -5765,9 +5768,6 @@ cricket
 :
 AudioReceiverParameters
 recv_parameters_
-;
-FakeAudioSource
-fake_source_
 ;
 webrtc
 :

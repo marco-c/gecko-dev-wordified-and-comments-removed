@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-ba1ae79f58162c2a16454c1672eb636d8e197687
+6f9b3224db70bdef45b0a90eb35e8a1bfc442964
 '
 #
 Fetch
@@ -220,9 +220,9 @@ fuchsia_version
 '
 version
 :
-21
+22
 .
-20240620
+20240801
 .
 2
 .
@@ -372,13 +372,32 @@ re_client_version
 :
 0
 .
-148
+155
 .
 0
 .
-41b09b51
+f89f6fe3
 -
 gomaip
+'
+#
+ninja
+CIPD
+package
+.
+'
+ninja_package
+'
+:
+'
+infra
+/
+3pp
+/
+tools
+/
+ninja
+/
 '
 #
 ninja
@@ -419,13 +438,13 @@ version
 2
 1
 .
-11
+12
 .
 1
 .
 chromium
 .
-2
+4
 '
 #
 condition
@@ -487,7 +506,7 @@ chromium
 src
 /
 base
-aa6dbe6d6a68e6503360a7e0e18b8464c56fc159
+f092508cc2ff0d1ec8d0dab86095fdd65b658f21
 '
 '
 src
@@ -511,7 +530,7 @@ chromium
 src
 /
 build
-5bce81deee6d30ac58c45f6cd53e859c62780687
+a0e5713502d43369d238f110f789c190e5e3c022
 '
 '
 src
@@ -535,7 +554,7 @@ chromium
 src
 /
 buildtools
-94d7b86a83537f8a7db7dccb0bf885739f7a81aa
+19268125543e152a215808913dacafe77ecae63f
 '
 #
 Gradle
@@ -631,7 +650,7 @@ chromium
 src
 /
 ios
-9e33110a5d6d22342302264579598e42c4623ebb
+a603c11cfabf1606f0ea408d3e1f401d46c4ac6f
 '
 '
 condition
@@ -663,7 +682,7 @@ chromium
 src
 /
 testing
-a1b47952f3737c536f14a74ff70bc12ed2c1ac7d
+7605e1a3e36ad115dbf98ea87f84ca19a30ad5f6
 '
 '
 src
@@ -687,7 +706,7 @@ chromium
 src
 /
 third_party
-91945cadc24feea7b44e1682d17844b6ab508d6d
+49b13d98329c26cfd8d1f73717cee343583cb2c8
 '
 '
 src
@@ -728,7 +747,7 @@ version
 '
 git_revision
 :
-b2afae122eeb6ce09c52d63f67dc53fc517dbdc8
+05eed8f6252e2dd6b555e0b65192ef03e2c4a276
 '
 }
 ]
@@ -786,7 +805,7 @@ version
 '
 git_revision
 :
-b2afae122eeb6ce09c52d63f67dc53fc517dbdc8
+05eed8f6252e2dd6b555e0b65192ef03e2c4a276
 '
 }
 ]
@@ -840,7 +859,7 @@ version
 '
 git_revision
 :
-b2afae122eeb6ce09c52d63f67dc53fc517dbdc8
+05eed8f6252e2dd6b555e0b65192ef03e2c4a276
 '
 }
 ]
@@ -1051,7 +1070,7 @@ project
 libcxx
 .
 git
-09b99fd8ab300c93ff7b8df6688cafb27bd3db28
+7993b2fda28215023f8e0a1f6d0adc48812dc9f0
 '
 '
 src
@@ -1092,7 +1111,7 @@ project
 libcxxabi
 .
 git
-bac941ca447afdea824073f3138ef49869e675db
+eb6567388e89d9730c76dee71d68ac82e4a1abf6
 '
 '
 src
@@ -1130,7 +1149,7 @@ project
 libunwind
 .
 git
-dcc1ffafb55a188d09e46c51dc9cd2f091521ea8
+6db1ccfa71064a8129710fc77a567160fdfba7fd
 '
 '
 src
@@ -1218,17 +1237,14 @@ packages
 package
 '
 :
+Var
+(
 '
-infra
-/
-3pp
-/
-build_support
-/
-ninja
--
-1_11_1
-/
+ninja_package
+'
+)
++
+'
 {
 {
 platform
@@ -1247,6 +1263,13 @@ ninja_version
 )
 }
 ]
+'
+condition
+'
+:
+'
+non_git_source
+'
 '
 dep_type
 '
@@ -1288,7 +1311,9 @@ version
 '
 :
 '
-4QeolYaSKWBtVTgzJU4tHUfzA9OJTDM8YUcD426IctwC
+XzzECzCzGLrccJS1U
+-
+HdmM5VMh9BotgQ_mWhFQ464PwC
 '
 }
 ]
@@ -1394,11 +1419,7 @@ version
 '
 :
 '
-G1S0vNnfv3f8FD
--
-9mH5RFSUiK
--
-mnSwri_IdiVQKwLP0C
+cfGQ9GV4juNnGZIPzTmaL3ehiZM1hs6UsB5HUA8fT6oC
 '
 }
 ]
@@ -1452,9 +1473,7 @@ version
 '
 :
 '
-CaAT7TJbLQC0LVo1i2TXtaMjK4SZBQ33n
--
-s6DcBbZfgC
+sZ24OFOduSafn8fvR3ajsGS6KP_oS_Tq0Cw3SA8XiD0C
 '
 }
 ]
@@ -1479,6 +1498,8 @@ src
 third_party
 /
 aosp_dalvik
+/
+cipd
 '
 :
 {
@@ -1527,6 +1548,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -1588,7 +1611,7 @@ breakpad
 breakpad
 .
 git
-76788faa4ef163081f82273bfca7fae8a734b971
+1420017c7f9fb910a9ae878d7bf5a6423fba3c59
 '
 '
 src
@@ -1612,7 +1635,7 @@ com
 catapult
 .
 git
-022cd349fe146c3dd0ba31f2789c630fc40e76a0
+2feeb46c600d86a89b31b6f03050b205f0d4c32a
 '
 '
 src
@@ -1789,7 +1812,7 @@ tools
 depot_tools
 .
 git
-f1c7c96958b849668e62799e74b204c9fe9fe17c
+75932421da2cd8b5807a4ac52ed2a6f46d7c2120
 '
 '
 src
@@ -1817,7 +1840,7 @@ third_party
 ffmpeg
 .
 git
-d941d9677bb4802f01750fd908ec284fb72c84df
+67060f141b527403b3f641296bcdaf2a57d19ab2
 '
 '
 src
@@ -1851,7 +1874,7 @@ google
 flatbuffers
 .
 git
-6ede1ccc9e24e00d5b19c19d6df0f09fdf1a64fe
+fb9afbafc7dfe226b9db54d4923bfb8839635274
 '
 '
 src
@@ -1978,7 +2001,7 @@ third_party
 freetype2
 .
 git
-73720c7c9958e87b3d134a7574d1720ad2d24442
+ec378cecaf3cd656a9aa4bf237495d401521ae21
 '
 '
 src
@@ -2183,7 +2206,7 @@ google
 googletest
 .
 git
-1d17ea141d2c11b8917d2c7d029f1c4e2b9769b2
+ff233bdd4cac0a0bf6e5cd45bda3406814cb2796
 '
 '
 src
@@ -2216,7 +2239,7 @@ deps
 icu
 .
 git
-163e29159ecb39d4c165c48272e565614a1e024a
+9408c6fd4a39e6fef0e1c4077602e1c83b15f3fb
 '
 }
 '
@@ -2487,7 +2510,7 @@ version
 '
 :
 '
-_4e0lDaCjMgaNeq2v2olJs_15Ax3PxGfCU9fMt0FTKcC
+qtDQdcYfgSh4FeSY3TnkSjnZ5FqCbP1kjk1Zj1m6Jd4C
 '
 }
 ]
@@ -2539,7 +2562,7 @@ version
 '
 :
 '
-9KgLQsrBWX4kePu9T7eDB1JknSYIPKmmumTEE70lyHYC
+dsxRhKDTq0fkLEZLBAcBOaGkoSlvPe_gpTl3o680x7MC
 '
 }
 ]
@@ -2735,7 +2758,7 @@ videolan
 dav1d
 .
 git
-92f592ed104ba92ad35c781ee93f354525eef503
+2355eeb8f254a1c34dbb0241be5c70cdf6ed46d1
 '
 '
 src
@@ -2763,7 +2786,7 @@ com
 aom
 .
 git
-afedaf9da5a13c372b8c7a645ab1bf18f80b56cd
+d8ef6563e0ac6c1e29b0013dec7b6ce6f302e54d
 '
 '
 src
@@ -2834,7 +2857,7 @@ external
 perfetto
 .
 git
-f9098afffa2c70acecfec66ba520f59b3864be83
+26643fc4e9cd601b137f4cd40e9598c1d14a17ec
 '
 '
 src
@@ -2904,7 +2927,7 @@ webm
 libvpx
 .
 git
-253d6365e3f134f4aca6f5fc312336cb501a1c6f
+428f3104fa7259a369e88df30f8b02644c8c1e24
 '
 '
 src
@@ -3132,7 +3155,7 @@ com
 cisco
 /
 openh264
-09a4f3ec842a8932341b195c5b01e141c8a16eb7
+478e5ab3eca30e600006d5a0a08b176fd34d3bd1
 '
 '
 src
@@ -3166,7 +3189,7 @@ google
 re2
 .
 git
-6144b62bece50a4af8bcdb166f04f6ec5af3d6d8
+6dcd83d60f7944926bfd308cc13979fc53dd69ca
 '
 '
 src
@@ -3199,7 +3222,7 @@ version
 '
 :
 '
-M8rc1oybTkWXWpoImSQ8gAwv6mdEyvAPnQNs6Dus_28C
+PXH37yAaLUOxMKapVN58gGbrt4ncdU0of7PVnU1hqlAC
 '
 }
 ]
@@ -3375,7 +3398,7 @@ chromium
 src
 /
 tools
-a8fe86b922a84de686c3b15c87e2a9ac84d06db3
+1487e03fbb139da80f4812fd2dba64979158d3f8
 '
 '
 src
@@ -3514,9 +3537,9 @@ version
 '
 :
 '
-wpJvg81kuXdMM66r_l9Doa
+Idl
 -
-pLfR6S26Jd1x40LpwWEoC
+vYnWGnM8K3XJhM3h6zjYVDXlnljVz3FE00V9IM8C
 '
 }
 ]
@@ -3541,6 +3564,8 @@ src
 third_party
 /
 androidx
+/
+cipd
 '
 :
 {
@@ -3566,8 +3591,11 @@ version
 '
 :
 '
+o9
 -
-zomVY2T8V3NRjAUbZNAZpFp8dAPuNdu3oQsnmhhIHEC
+gndsuJRMgUwrhQG8Ozqkmxs
+-
+SQt9pn6kzqZmuQYMC
 '
 }
 ]
@@ -3577,6 +3605,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -3621,9 +3651,7 @@ version
 '
 :
 '
-8yUA9fKPOvtc2p3lVEA3l885a1V4
--
-CXZuKt6xAbdR4AC
+xoWqP0Bmz9ReU5nL9ems2x3Ir4Ir3PMTLyba0Ibs824C
 '
 }
 ]
@@ -3676,7 +3704,7 @@ build
 -
 tools
 /
-34
+35
 .
 0
 .
@@ -3687,7 +3715,7 @@ version
 '
 :
 '
-YK9Rzw3fDzMHVzatNN6VlyoD_81amLZpN1AbmkdOd6AC
+DxwAZ3hD551Neu6ycuW5CPnXFrdleRBd93oX1eB_m9YC
 '
 }
 {
@@ -3737,7 +3765,7 @@ version
 '
 :
 '
-HWVsGs2HCKgSVv41FsOcsfJbNcB0UFiNrF6Tc4yRArYC
+WihaseZR6cojZbkzIqwGhpTp92ztaGfqq8njBU8eTXYC
 '
 }
 {
@@ -3758,18 +3786,16 @@ platforms
 /
 android
 -
-34
+35
 '
 '
 version
 '
 :
 '
-u
+kIXA
 -
-bhWbTME6u
--
-DjypTgr3ZikCyeAeU6txkR9ET6Uudc8C
+9XuCfOESodXEdOBkW5f1ytrGWdbp3HFp1I8A_0C
 '
 }
 {
@@ -3795,7 +3821,9 @@ version
 '
 :
 '
-mU9jm4LkManzjSzRquV1UIA7fHBZ2pK7NtbCXxoVnVUC
+fv6JzkTqfxfIbmsRC8u1b2y0EQO7yQDMDzY3
+-
+g0NVu4C
 '
 }
 ]
@@ -4047,9 +4075,7 @@ version
 '
 :
 '
-xWEBZuFKl1Dvw_zOpabeMkGVYlEllIxK06D
--
-RoC6wUsC
+HLBr7iWMO2VeD_WbrAA1eq33jZZCVxvA3noE3LNzSlQC
 '
 }
 ]
@@ -4111,7 +4137,7 @@ version
 '
 git_revision
 :
-6fb4d5d26773ebddeac2c57506324493e4220007
+be41b8d978e22d396ecb4aa9f50ddc3f25977359
 '
 }
 {
@@ -4141,7 +4167,7 @@ version
 '
 git_revision
 :
-6fb4d5d26773ebddeac2c57506324493e4220007
+be41b8d978e22d396ecb4aa9f50ddc3f25977359
 '
 }
 ]
@@ -4285,6 +4311,8 @@ third_party
 /
 android_deps
 /
+cipd
+/
 libs
 /
 android_arch_core_common
@@ -4336,6 +4364,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -4351,6 +4381,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -4403,6 +4435,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -4418,6 +4452,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -4470,6 +4506,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -4485,6 +4523,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -4537,6 +4577,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -4552,6 +4594,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -4604,6 +4648,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -4619,6 +4665,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -4671,6 +4719,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -4686,6 +4736,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -4738,6 +4790,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -4753,6 +4807,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -4805,6 +4861,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -4820,6 +4878,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -4872,6 +4932,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -4887,6 +4949,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -4939,6 +5003,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -4954,6 +5020,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -5006,6 +5074,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -5021,6 +5091,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -5073,6 +5145,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -5088,6 +5162,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -5140,6 +5216,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -5155,6 +5233,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -5207,6 +5287,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -5222,6 +5304,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -5274,6 +5358,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -5289,6 +5375,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -5341,6 +5429,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -5356,6 +5446,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -5408,6 +5500,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -5423,6 +5517,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -5475,6 +5571,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -5490,6 +5588,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -5542,6 +5642,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -5557,6 +5659,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -5609,6 +5713,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -5624,6 +5730,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -5676,6 +5784,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -5691,6 +5801,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -5743,6 +5855,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -5758,6 +5872,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -5810,6 +5926,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -5825,6 +5943,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -5877,6 +5997,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -5892,6 +6014,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -5944,6 +6068,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -5959,6 +6085,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -6011,6 +6139,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -6026,6 +6156,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -6080,6 +6212,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -6095,6 +6229,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -6149,6 +6285,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -6164,6 +6302,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -6218,6 +6358,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -6233,6 +6375,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -6285,6 +6429,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -6300,6 +6446,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -6350,6 +6498,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -6365,6 +6515,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -6419,6 +6571,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -6434,6 +6588,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -6486,6 +6642,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -6501,6 +6659,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -6553,6 +6713,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -6568,6 +6730,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -6620,6 +6784,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -6635,6 +6801,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -6687,6 +6855,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -6702,6 +6872,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -6754,6 +6926,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -6769,6 +6943,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -6807,7 +6983,7 @@ version
 2
 18
 .
-1
+5
 .
 0
 .
@@ -6821,6 +6997,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -6836,6 +7014,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -6874,7 +7054,7 @@ version
 2
 18
 .
-1
+4
 .
 0
 .
@@ -6888,6 +7068,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -6903,6 +7085,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -6955,6 +7139,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -6970,6 +7156,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -7022,6 +7210,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -7037,6 +7227,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -7089,6 +7281,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -7104,6 +7298,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -7156,6 +7352,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -7171,6 +7369,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -7223,6 +7423,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -7238,6 +7440,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -7290,6 +7494,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -7305,6 +7511,81 @@ src
 third_party
 /
 android_deps
+/
+cipd
+/
+libs
+/
+com_google_android_gms_play_services_identity_credentials
+'
+:
+{
+'
+packages
+'
+:
+[
+{
+'
+package
+'
+:
+'
+chromium
+/
+third_party
+/
+android_deps
+/
+libs
+/
+com_google_android_gms_play_services_identity_credentials
+'
+'
+version
+'
+:
+'
+version
+:
+2
+16
+.
+0
+.
+0
+-
+alpha02
+.
+cr1
+'
+}
+]
+'
+condition
+'
+:
+'
+checkout_android
+and
+non_git_source
+'
+'
+dep_type
+'
+:
+'
+cipd
+'
+}
+'
+src
+/
+third_party
+/
+android_deps
+/
+cipd
 /
 libs
 /
@@ -7357,6 +7638,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -7372,6 +7655,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -7424,6 +7709,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -7439,6 +7726,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -7491,6 +7780,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -7506,6 +7797,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -7558,6 +7851,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -7573,6 +7868,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -7625,6 +7922,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -7640,6 +7939,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -7678,9 +7979,9 @@ version
 2
 18
 .
-0
-.
 2
+.
+0
 .
 cr1
 '
@@ -7692,6 +7993,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -7707,6 +8010,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -7759,6 +8064,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -7774,6 +8081,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -7826,6 +8135,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -7841,6 +8152,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -7895,6 +8208,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -7910,6 +8225,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -7962,6 +8279,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -7977,6 +8296,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -8029,6 +8350,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -8044,6 +8367,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -8096,6 +8421,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -8111,6 +8438,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -8163,6 +8492,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -8178,6 +8509,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -8230,6 +8563,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -8245,6 +8580,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -8297,6 +8634,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -8312,6 +8651,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -8364,6 +8705,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -8379,6 +8722,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -8431,6 +8776,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -8446,6 +8793,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -8496,6 +8845,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -8511,6 +8862,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -8561,6 +8914,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -8576,6 +8931,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -8626,6 +8983,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -8641,6 +9000,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -8691,6 +9052,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -8706,6 +9069,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -8758,6 +9123,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -8773,6 +9140,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -8825,6 +9194,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -8840,6 +9211,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -8892,6 +9265,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -8907,6 +9282,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -8959,6 +9336,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -8974,6 +9353,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -9026,6 +9407,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -9041,6 +9424,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -9095,6 +9480,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -9110,6 +9497,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -9164,6 +9553,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -9179,6 +9570,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -9231,6 +9624,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -9246,6 +9641,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -9298,6 +9695,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -9313,6 +9712,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -9365,6 +9766,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -9380,6 +9783,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -9432,6 +9837,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -9447,6 +9854,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -9499,6 +9908,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -9514,6 +9925,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -9566,6 +9979,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -9581,6 +9996,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -9633,6 +10050,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -9648,6 +10067,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -9700,6 +10121,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -9715,6 +10138,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -9767,6 +10192,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -9782,6 +10209,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -9834,6 +10263,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -9849,6 +10280,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -9901,6 +10334,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -9916,6 +10351,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -9966,6 +10403,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -9981,6 +10420,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -10033,6 +10474,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -10048,6 +10491,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -10102,6 +10547,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -10117,6 +10564,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -10171,6 +10620,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -10186,6 +10637,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -10236,6 +10689,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -10251,6 +10706,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -10303,6 +10760,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -10318,6 +10777,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -10370,6 +10831,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -10385,6 +10848,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -10437,6 +10902,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -10452,6 +10919,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -10504,6 +10973,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -10519,6 +10990,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -10571,6 +11044,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -10586,6 +11061,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -10638,6 +11115,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -10653,6 +11132,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -10705,6 +11186,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -10720,6 +11203,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -10772,6 +11257,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -10787,6 +11274,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -10839,6 +11328,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -10854,6 +11345,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -10904,6 +11397,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -10919,6 +11414,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -10971,6 +11468,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -10986,6 +11485,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -11038,6 +11539,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -11053,6 +11556,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -11105,6 +11610,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -11120,6 +11627,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -11172,6 +11681,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -11187,6 +11698,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -11239,6 +11752,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -11254,6 +11769,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -11306,6 +11823,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -11321,6 +11840,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -11373,6 +11894,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -11388,6 +11911,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -11440,6 +11965,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -11455,6 +11982,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -11505,6 +12034,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -11520,6 +12051,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -11568,6 +12101,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -11583,6 +12118,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -11635,6 +12172,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -11650,6 +12189,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -11702,6 +12243,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -11717,6 +12260,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -11767,6 +12312,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -11782,6 +12329,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -11832,6 +12381,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -11847,6 +12398,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -11899,6 +12452,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -11914,6 +12469,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -11966,6 +12523,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -11981,6 +12540,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -12033,6 +12594,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -12048,6 +12611,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -12100,6 +12665,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -12115,6 +12682,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -12167,6 +12736,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -12182,6 +12753,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -12232,6 +12805,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -12247,6 +12822,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -12299,6 +12876,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -12314,6 +12893,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -12370,6 +12951,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -12385,6 +12968,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -12435,6 +13020,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -12450,6 +13037,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -12502,6 +13091,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -12517,6 +13108,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -12569,6 +13162,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -12584,6 +13179,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -12636,6 +13233,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -12651,6 +13250,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -12703,6 +13304,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -12718,6 +13321,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -12770,6 +13375,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -12785,6 +13392,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -12837,6 +13446,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -12852,6 +13463,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -12904,6 +13517,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -12919,6 +13534,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -12971,6 +13588,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -12986,6 +13605,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -13038,6 +13659,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -13053,6 +13676,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -13105,6 +13730,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -13120,6 +13747,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -13172,6 +13801,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -13187,6 +13818,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -13239,6 +13872,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -13254,6 +13889,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -13306,6 +13943,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -13321,6 +13960,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -13371,6 +14012,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -13386,6 +14029,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -13436,6 +14081,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -13451,6 +14098,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -13501,6 +14150,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -13516,6 +14167,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -13566,6 +14219,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -13581,6 +14236,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -13631,6 +14288,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -13646,6 +14305,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -13696,6 +14357,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -13711,6 +14374,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -13763,6 +14428,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -13778,6 +14445,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -13830,6 +14499,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -13845,6 +14516,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -13897,6 +14570,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -13912,6 +14587,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -13964,6 +14641,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -13979,6 +14658,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -14031,6 +14712,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -14046,6 +14729,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -14098,6 +14783,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -14113,6 +14800,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -14165,6 +14854,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -14180,6 +14871,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -14232,6 +14925,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -14247,6 +14942,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -14299,6 +14996,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -14314,6 +15013,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -14366,6 +15067,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -14381,6 +15084,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -14433,6 +15138,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -14448,6 +15155,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -14500,6 +15209,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -14515,6 +15226,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -14567,6 +15280,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -14582,6 +15297,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -14634,6 +15351,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
@@ -14649,6 +15368,8 @@ src
 third_party
 /
 android_deps
+/
+cipd
 /
 libs
 /
@@ -14701,6 +15422,8 @@ condition
 :
 '
 checkout_android
+and
+non_git_source
 '
 '
 dep_type
