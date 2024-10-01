@@ -325,6 +325,9 @@ mOutputType
 GUID
 mOutputSubType
 ;
+GUID
+mMajorType
+;
 bool
 mMFTProvidesOutputSamples
 =
