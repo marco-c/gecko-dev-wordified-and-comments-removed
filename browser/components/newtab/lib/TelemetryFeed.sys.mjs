@@ -758,7 +758,7 @@ PREF_UNIFIED_ADS_TILES_ENABLED
 "
 unifiedAds
 .
-spocs
+tiles
 .
 enabled
 "
