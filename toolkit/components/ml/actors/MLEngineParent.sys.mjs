@@ -2640,6 +2640,11 @@ dtype
 options
 .
 dtype
+numThreads
+:
+options
+.
+numThreads
 runtimeFilename
 :
 MLEngineParent
