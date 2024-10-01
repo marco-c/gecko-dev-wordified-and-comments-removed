@@ -3543,6 +3543,15 @@ std
 :
 unique_ptr
 <
+NetworkControllerFactoryInterface
+>
+network_controller_factory
+;
+std
+:
+:
+unique_ptr
+<
 FieldTrialsView
 >
 trials

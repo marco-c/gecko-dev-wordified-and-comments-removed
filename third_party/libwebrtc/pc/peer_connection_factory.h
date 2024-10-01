@@ -647,6 +647,14 @@ PeerConnectionInterface
 RTCConfiguration
 &
 configuration
+std
+:
+:
+unique_ptr
+<
+NetworkControllerFactoryInterface
+>
+network_controller_factory
 )
 ;
 rtc

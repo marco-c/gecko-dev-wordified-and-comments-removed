@@ -513,7 +513,13 @@ Call
 :
 Create
 (
+std
+:
+:
+move
+(
 call_config
+)
 )
 ;
 }

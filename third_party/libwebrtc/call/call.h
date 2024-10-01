@@ -190,9 +190,7 @@ Call
 >
 Create
 (
-const
 CallConfig
-&
 config
 )
 ;

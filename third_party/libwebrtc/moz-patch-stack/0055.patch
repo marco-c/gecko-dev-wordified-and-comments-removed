@@ -299,10 +299,10 @@ call
 .
 cc
 index
-817a532e3c
+bb8436ff3f
 .
 .
-8fca0a0e8d
+09f8de1db1
 100644
 -
 -
@@ -506,9 +506,7 @@ Call
 :
 Create
 (
-const
 CallConfig
-&
 config
 )
 {
@@ -550,10 +548,10 @@ call
 .
 h
 index
-a680335192
+6ada035a22
 .
 .
-e7d37c0abd
+c7e127ee3b
 100644
 -
 -
@@ -797,9 +795,7 @@ Call
 >
 Create
 (
-const
 CallConfig
-&
 config
 )
 ;

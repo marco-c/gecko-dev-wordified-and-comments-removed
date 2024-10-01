@@ -204,9 +204,7 @@ Call
 >
 CreateCall
 (
-const
 CallConfig
-&
 config
 )
 override
@@ -217,7 +215,13 @@ webrtc
 :
 CreateCall
 (
+std
+:
+:
+move
+(
 config
+)
 )
 ;
 }

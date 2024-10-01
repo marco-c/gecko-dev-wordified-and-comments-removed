@@ -39,9 +39,7 @@ Call
 >
 CreateCall
 (
-const
 CallConfig
-&
 config
 )
 ;

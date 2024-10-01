@@ -407,9 +407,7 @@ Call
 >
 CreateCall
 (
-const
 CallConfig
-&
 config
 )
 {
@@ -475,7 +473,13 @@ Call
 :
 Create
 (
+std
+:
+:
+move
+(
 config
+)
 )
 ;
 if
