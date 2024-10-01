@@ -1428,6 +1428,9 @@ New
 (
 alloc
 argR
+type
+(
+)
 )
 ;
 default
@@ -1491,6 +1494,9 @@ New
 (
 alloc
 argL
+type
+(
+)
 )
 ;
 default

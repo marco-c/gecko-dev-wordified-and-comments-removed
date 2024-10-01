@@ -16449,6 +16449,10 @@ alloc
 (
 )
 input
+MIRType
+:
+:
+Int32
 )
 ;
 add
