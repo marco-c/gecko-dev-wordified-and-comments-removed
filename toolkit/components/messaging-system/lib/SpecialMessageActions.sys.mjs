@@ -1629,6 +1629,11 @@ sidebar
 .
 verticalTabs
 "
+"
+sidebar
+.
+revamp
+"
 ]
 ;
 if
