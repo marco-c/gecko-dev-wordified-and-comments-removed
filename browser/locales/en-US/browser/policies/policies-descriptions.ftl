@@ -2016,6 +2016,16 @@ and
 school
 accounts
 .
+#
+Entra
+is
+the
+name
+of
+a
+Microsoft
+product
+.
 policy
 -
 MicrosoftEntraSSO
