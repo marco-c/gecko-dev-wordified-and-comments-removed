@@ -28241,6 +28241,7 @@ true
 }
 #
 endif
+MOZ_ASAN_IGNORE
 static
 bool
 StackPointerInfo
