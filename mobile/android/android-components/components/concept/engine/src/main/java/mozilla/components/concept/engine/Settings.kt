@@ -1624,6 +1624,7 @@ var
 fingerprintingProtectionOverrides
 :
 String
+?
 by
 UnsupportedSetting
 (
@@ -1981,9 +1982,9 @@ var
 fingerprintingProtectionOverrides
 :
 String
+?
 =
-"
-"
+null
 override
 var
 fdlibmMathEnabled
