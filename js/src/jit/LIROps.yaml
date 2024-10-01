@@ -3247,14 +3247,9 @@ operands
 num
 :
 WordSized
-arguments
+mir_op
 :
-mode
-:
-MSignExtendInt32
-:
-:
-Mode
+true
 -
 name
 :
