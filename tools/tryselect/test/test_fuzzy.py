@@ -1275,8 +1275,6 @@ test
 verify
 -
 wpt
--
-*
 "
         
 ]
