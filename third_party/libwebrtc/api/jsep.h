@@ -296,6 +296,7 @@ SdpType
 type
 )
 ;
+RTC_EXPORT
 absl
 :
 :
