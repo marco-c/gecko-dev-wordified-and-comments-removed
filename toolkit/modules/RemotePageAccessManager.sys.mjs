@@ -1638,11 +1638,11 @@ cryptominer
 url
 "
 ]
-RPMRecordTelemetryEvent
+RPMRecordGleanEvent
 :
 [
 "
-*
+securityUiProtections
 "
 ]
 }

@@ -244,10 +244,7 @@ doc
 sendTelemetryEvent
 (
 "
-click
-"
-"
-lw_about_link
+clickLwAboutLink
 "
 )
 ;
@@ -315,10 +312,7 @@ doc
 sendTelemetryEvent
 (
 "
-click
-"
-"
-lw_open_button
+clickLwOpenButton
 "
 "
 manage_breached_passwords
@@ -352,10 +346,7 @@ doc
 sendTelemetryEvent
 (
 "
-click
-"
-"
-lw_open_button
+clickLwOpenButton
 "
 "
 manage_passwords
@@ -388,10 +379,7 @@ doc
 sendTelemetryEvent
 (
 "
-click
-"
-"
-lw_open_button
+clickLwOpenButton
 "
 "
 save_passwords
