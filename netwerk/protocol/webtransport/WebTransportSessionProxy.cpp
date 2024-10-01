@@ -1200,6 +1200,10 @@ WebTransportSessionProxy
 CloseSessionInternal
 (
 )
+MOZ_REQUIRES
+(
+mMutex
+)
 {
 if
 (
@@ -4601,6 +4605,10 @@ WebTransportSessionProxy
 :
 CallOnSessionClosed
 (
+)
+MOZ_REQUIRES
+(
+mMutex
 )
 {
 mMutex

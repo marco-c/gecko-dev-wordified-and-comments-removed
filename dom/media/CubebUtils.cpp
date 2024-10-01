@@ -2010,6 +2010,10 @@ bool
 InitPreferredSampleRate
 (
 )
+MOZ_REQUIRES
+(
+sMutex
+)
 {
 sMutex
 .

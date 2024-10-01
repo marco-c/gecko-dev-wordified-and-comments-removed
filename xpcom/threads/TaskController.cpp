@@ -3707,6 +3707,10 @@ MutexAutoLock
 &
 aProofOfLock
 )
+MOZ_REQUIRES
+(
+mGraphMutex
+)
 {
 MOZ_ASSERT
 (
@@ -3966,6 +3970,10 @@ const
 MutexAutoLock
 &
 aProofOfLock
+)
+MOZ_REQUIRES
+(
+mGraphMutex
 )
 {
 mGraphMutex
