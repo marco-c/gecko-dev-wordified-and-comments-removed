@@ -896,11 +896,11 @@ aLoadData
 .
 mCompatMode
 )
-mIsLinkRelPreload
+mIsLinkRelPreloadOrEarlyHint
 (
 aLoadData
 .
-IsLinkRelPreload
+IsLinkRelPreloadOrEarlyHint
 (
 )
 )
@@ -1211,12 +1211,12 @@ false
 }
 if
 (
-mIsLinkRelPreload
+mIsLinkRelPreloadOrEarlyHint
 !
 =
 aKey
 .
-mIsLinkRelPreload
+mIsLinkRelPreloadOrEarlyHint
 )
 {
 const
@@ -1224,7 +1224,7 @@ auto
 &
 linkPreloadMetadata
 =
-mIsLinkRelPreload
+mIsLinkRelPreloadOrEarlyHint
 ?
 mSRIMetadata
 :
@@ -1237,7 +1237,7 @@ auto
 &
 consumerPreloadMetadata
 =
-mIsLinkRelPreload
+mIsLinkRelPreloadOrEarlyHint
 ?
 aKey
 .
@@ -2495,7 +2495,7 @@ RootLoadData
 (
 )
 .
-IsLinkRelPreload
+IsLinkRelPreloadOrEarlyHint
 (
 )
 "
@@ -6960,7 +6960,7 @@ aPreloadKey
 mDocument
 aLoadData
 .
-IsLinkRelPreload
+IsLinkRelPreloadOrEarlyHint
 (
 )
 )
@@ -7250,7 +7250,7 @@ preloadKey
 mDocument
 aLoadData
 .
-IsLinkRelPreload
+IsLinkRelPreloadOrEarlyHint
 (
 )
 )
@@ -7291,7 +7291,7 @@ ShouldDefer
 &
 aLoadData
 .
-IsLinkRelPreload
+IsLinkRelPreloadOrEarlyHint
 (
 )
 )
@@ -7372,7 +7372,7 @@ if
 (
 aLoadData
 .
-IsLinkRelPreload
+IsLinkRelPreloadOrEarlyHint
 (
 )
 )
@@ -7635,9 +7635,10 @@ Leader
 }
 if
 (
+!
 aLoadData
 .
-IsLinkRelPreload
+BlocksLoadEvent
 (
 )
 )
