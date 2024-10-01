@@ -718,6 +718,10 @@ controller_factory
 Create
 (
 env
+NetEqController
+:
+:
+Config
 {
 .
 allow_time_stretching
