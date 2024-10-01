@@ -406,4 +406,17 @@ addFolderSelectionGuid
 =
 =
 null
+val
+selectedGuid
+:
+String
+?
+get
+(
+)
+=
+addFolderSelectionGuid
+?
+:
+selectionGuid
 }
