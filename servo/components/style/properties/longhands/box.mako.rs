@@ -3886,6 +3886,11 @@ Zoom
 :
 ONE
 "
+animation_type
+=
+"
+discrete
+"
 engines
 =
 "
