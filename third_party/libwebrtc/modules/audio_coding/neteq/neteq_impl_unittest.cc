@@ -919,13 +919,6 @@ config_
 .
 max_packets_in_buffer
 ;
-controller_config
-.
-clock
-=
-&
-clock_
-;
 deps
 .
 neteq_controller
