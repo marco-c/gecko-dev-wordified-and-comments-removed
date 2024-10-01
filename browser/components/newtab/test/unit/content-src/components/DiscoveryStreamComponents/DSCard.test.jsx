@@ -1936,6 +1936,9 @@ undefined
 selected_topics
 :
 undefined
+is_list_card
+:
+undefined
 }
 }
 )
@@ -1983,6 +1986,9 @@ topic
 :
 undefined
 selected_topics
+:
+undefined
+is_list_card
 :
 undefined
 }
@@ -2143,6 +2149,9 @@ undefined
 selected_topics
 :
 undefined
+is_list_card
+:
+undefined
 }
 }
 )
@@ -2190,6 +2199,9 @@ topic
 :
 undefined
 selected_topics
+:
+undefined
+is_list_card
 :
 undefined
 }
@@ -2362,6 +2374,9 @@ undefined
 selected_topics
 :
 undefined
+is_list_card
+:
+undefined
 }
 }
 )
@@ -2415,6 +2430,9 @@ topic
 :
 undefined
 selected_topics
+:
+undefined
+is_list_card
 :
 undefined
 }
@@ -3259,6 +3277,9 @@ undefined
 selected_topics
 :
 undefined
+is_list_card
+:
+undefined
 }
 }
 )
@@ -3301,6 +3322,9 @@ topic
 :
 undefined
 selected_topics
+:
+undefined
+is_list_card
 :
 undefined
 }

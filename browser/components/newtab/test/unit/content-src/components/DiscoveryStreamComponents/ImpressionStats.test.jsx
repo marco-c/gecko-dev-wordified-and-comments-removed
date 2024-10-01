@@ -864,6 +864,9 @@ undefined
 topic
 :
 undefined
+is_list_card
+:
+undefined
 }
 {
 id
@@ -895,6 +898,9 @@ undefined
 topic
 :
 undefined
+is_list_card
+:
+undefined
 }
 {
 id
@@ -924,6 +930,9 @@ received_rank
 :
 undefined
 topic
+:
+undefined
+is_list_card
 :
 undefined
 }
@@ -1467,6 +1476,9 @@ TEST_FETCH_TIMESTAMP
 topic
 :
 undefined
+is_list_card
+:
+undefined
 }
 {
 id
@@ -1498,6 +1510,9 @@ TEST_FETCH_TIMESTAMP
 topic
 :
 undefined
+is_list_card
+:
+undefined
 }
 {
 id
@@ -1527,6 +1542,9 @@ fetchTimestamp
 :
 TEST_FETCH_TIMESTAMP
 topic
+:
+undefined
+is_list_card
 :
 undefined
 }

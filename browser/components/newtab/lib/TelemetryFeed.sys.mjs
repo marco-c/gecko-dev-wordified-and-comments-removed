@@ -4710,6 +4710,7 @@ received_rank
 recommended_at
 matches_selected_topic
 selected_topics
+is_list_card
 }
 =
 action
@@ -4844,6 +4845,7 @@ spoc
 matches_selected_topic
 selected_topics
 topic
+is_list_card
 position
 :
 action
@@ -5070,6 +5072,7 @@ recommended_at
 topic
 matches_selected_topic
 selected_topics
+is_list_card
 }
 =
 action
@@ -5116,6 +5119,7 @@ data
 .
 action_position
 tile_id
+is_list_card
 .
 .
 .

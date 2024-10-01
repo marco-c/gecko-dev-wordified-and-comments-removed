@@ -689,6 +689,11 @@ topic
 link
 .
 topic
+is_list_card
+:
+link
+.
+is_list_card
 }
 )
 )
