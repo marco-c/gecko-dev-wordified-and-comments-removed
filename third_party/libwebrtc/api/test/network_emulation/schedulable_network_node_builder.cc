@@ -14,6 +14,11 @@ h
 #
 include
 <
+cstdint
+>
+#
+include
+<
 memory
 >
 #
@@ -71,6 +76,15 @@ api
 units
 /
 timestamp
+.
+h
+"
+#
+include
+"
+rtc_base
+/
+time_utils
 .
 h
 "
