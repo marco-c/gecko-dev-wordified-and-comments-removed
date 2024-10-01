@@ -187,6 +187,17 @@ nsMathMLmfracFrame
 (
 )
 ;
+bool
+IsMathContentBoxHorizontallyCentered
+(
+)
+const
+final
+{
+return
+true
+;
+}
 void
 DisplaySlash
 (

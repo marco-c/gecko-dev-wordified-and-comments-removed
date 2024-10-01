@@ -185,6 +185,13 @@ nsMathMLmunderoverFrame
 ;
 private
 :
+bool
+IsMathContentBoxHorizontallyCentered
+(
+)
+const
+final
+;
 void
 SetIncrementScriptLevel
 (
