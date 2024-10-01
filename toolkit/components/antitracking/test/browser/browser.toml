@@ -720,6 +720,13 @@ js
 ]
 [
 "
+browser_nimbus_etp_features
+.
+js
+"
+]
+[
+"
 browser_onBeforeRequestNotificationForTrackingResources
 .
 js
