@@ -3374,7 +3374,7 @@ padding
 (
 horizontal
 =
-16
+32
 .
 dp
 )
