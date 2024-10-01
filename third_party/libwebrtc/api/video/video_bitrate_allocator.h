@@ -6,6 +6,11 @@ define
 API_VIDEO_VIDEO_BITRATE_ALLOCATOR_H_
 #
 include
+<
+cstdint
+>
+#
+include
 "
 api
 /

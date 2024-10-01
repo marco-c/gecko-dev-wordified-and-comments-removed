@@ -16,6 +16,16 @@ algorithm
 >
 #
 include
+<
+cstdint
+>
+#
+include
+<
+string
+>
+#
+include
 "
 api
 /
