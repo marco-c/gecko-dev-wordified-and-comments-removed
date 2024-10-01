@@ -763,6 +763,12 @@ False
         
 self
 .
+heavy
+=
+False
+        
+self
+.
 allow_oom
 =
 False
@@ -918,6 +924,14 @@ slow
 self
 .
 slow
+        
+t
+.
+heavy
+=
+self
+.
+heavy
         
 t
 .
@@ -1861,6 +1875,21 @@ slow
 test
 .
 slow
+=
+True
+                    
+elif
+name
+=
+=
+"
+heavy
+"
+:
+                        
+test
+.
+heavy
 =
 True
                     

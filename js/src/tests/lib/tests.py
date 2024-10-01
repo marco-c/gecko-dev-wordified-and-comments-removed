@@ -1197,6 +1197,12 @@ False
         
 self
 .
+heavy
+=
+False
+        
+self
+.
 is_test262_raw
 =
 False
@@ -1703,6 +1709,19 @@ ans
 =
 "
 slow
+"
+        
+if
+self
+.
+heavy
+:
+            
+ans
++
+=
+"
+heavy
 "
         
 if
