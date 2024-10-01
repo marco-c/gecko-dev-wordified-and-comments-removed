@@ -120,6 +120,10 @@ SenderWithFEC
 void
 Setup
 (
+const
+Environment
+&
+env
 AudioCodingModule
 *
 acm

@@ -30,6 +30,17 @@ h
 #
 include
 "
+api
+/
+environment
+/
+environment_factory
+.
+h
+"
+#
+include
+"
 modules
 /
 audio_coding
@@ -111,6 +122,9 @@ acm2
 AcmReceiver
 >
 (
+CreateEnvironment
+(
+)
 acm2
 :
 :

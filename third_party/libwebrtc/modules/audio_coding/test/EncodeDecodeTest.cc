@@ -249,6 +249,10 @@ Sender
 :
 Setup
 (
+const
+Environment
+&
+env
 AudioCodingModule
 *
 acm
@@ -344,9 +348,7 @@ CreateBuiltinAudioEncoderFactory
 >
 Create
 (
-CreateEnvironment
-(
-)
+env
 format
 {
 .
@@ -1344,6 +1346,14 @@ G722
 endif
 }
 ;
+const
+Environment
+env
+=
+CreateEnvironment
+(
+)
+;
 int
 file_num
 =
@@ -1435,6 +1445,7 @@ sender
 .
 Setup
 (
+env
 acm
 .
 get
@@ -1505,7 +1516,7 @@ acm2
 AcmReceiver
 >
 acm_receiver
-(
+=
 std
 :
 :
@@ -1517,6 +1528,7 @@ acm2
 AcmReceiver
 >
 (
+env
 acm2
 :
 :
@@ -1527,7 +1539,6 @@ Config
 (
 CreateBuiltinAudioDecoderFactory
 (
-)
 )
 )
 )
