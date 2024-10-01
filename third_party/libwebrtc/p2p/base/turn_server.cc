@@ -855,6 +855,7 @@ ssl_adapter_factory
 CreateAdapter
 (
 accepted_socket
+true
 )
 ;
 ssl_adapter
