@@ -73,14 +73,8 @@ channels
 int
 in_dtx_mode
 ;
-bool
-avoid_noise_pumping_during_dtx
-;
 int
 sample_rate_hz
-;
-float
-smooth_energy_non_active_frames
 ;
 }
 ;

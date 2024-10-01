@@ -243,14 +243,6 @@ int32_t
 bandwidth
 )
 ;
-int32_t
-WebRtcOpus_GetInDtx
-(
-OpusEncInst
-*
-inst
-)
-;
 int16_t
 WebRtcOpus_SetForceChannels
 (
