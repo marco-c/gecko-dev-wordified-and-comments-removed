@@ -34,7 +34,6 @@ txt
 await
 createFileWithContents
 (
-t
 file_name1
 '
 contents
@@ -45,7 +44,6 @@ root
 await
 createFileWithContents
 (
-t
 file_name2
 '
 contents
@@ -111,7 +109,6 @@ txt
 await
 createFileWithContents
 (
-t
 file_name1
 '
 contents
@@ -122,7 +119,6 @@ root
 await
 createFileWithContents
 (
-t
 file_name2
 '
 contents
@@ -266,7 +262,6 @@ txt
 await
 createFileWithContents
 (
-t
 file_name1
 '
 contents
@@ -277,7 +272,6 @@ root
 await
 createFileWithContents
 (
-t
 file_name2
 '
 contents
@@ -425,7 +419,6 @@ txt
 await
 createFileWithContents
 (
-t
 file_name1
 '
 contents
@@ -436,7 +429,6 @@ root
 await
 createFileWithContents
 (
-t
 file_name2
 '
 contents
@@ -536,7 +528,6 @@ txt
 await
 createFileWithContents
 (
-t
 file_name1
 '
 contents
@@ -547,7 +538,6 @@ root
 await
 createFileWithContents
 (
-t
 file_name2
 '
 contents
@@ -638,7 +628,6 @@ txt
 await
 createFileWithContents
 (
-t
 file_name1
 '
 contents

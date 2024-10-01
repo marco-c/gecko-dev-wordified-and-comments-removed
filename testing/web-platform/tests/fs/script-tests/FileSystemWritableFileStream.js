@@ -19,7 +19,6 @@ handle
 await
 createEmptyFile
 (
-t
 '
 trunc_shrink
 '
@@ -30,15 +29,10 @@ const
 stream
 =
 await
-cleanup_writable
-(
-t
-await
 handle
 .
 createWritable
 (
-)
 )
 ;
 await
@@ -116,7 +110,6 @@ handle
 await
 createEmptyFile
 (
-t
 '
 trunc_grow
 '
@@ -127,15 +120,10 @@ const
 stream
 =
 await
-cleanup_writable
-(
-t
-await
 handle
 .
 createWritable
 (
-)
 )
 ;
 await
@@ -217,7 +205,6 @@ dir
 await
 createDirectory
 (
-t
 '
 parent_dir
 '
@@ -239,7 +226,6 @@ handle
 await
 createEmptyFile
 (
-t
 file_name
 dir
 )
@@ -307,7 +293,6 @@ handle
 await
 createFileWithContents
 (
-t
 '
 atomic_file_is_copied
 .
@@ -323,10 +308,6 @@ const
 stream
 =
 await
-cleanup_writable
-(
-t
-await
 handle
 .
 createWritable
@@ -336,7 +317,6 @@ keepExistingData
 :
 true
 }
-)
 )
 ;
 await
@@ -416,7 +396,6 @@ handle
 await
 createFileWithContents
 (
-t
 '
 atomic_file_is_not_copied
 .
@@ -434,10 +413,6 @@ const
 stream
 =
 await
-cleanup_writable
-(
-t
-await
 handle
 .
 createWritable
@@ -447,7 +422,6 @@ keepExistingData
 :
 false
 }
-)
 )
 ;
 await
@@ -541,7 +515,6 @@ handle
 await
 createFileWithContents
 (
-t
 '
 trunc_smaller_offset
 .
@@ -557,10 +530,6 @@ const
 stream
 =
 await
-cleanup_writable
-(
-t
-await
 handle
 .
 createWritable
@@ -570,7 +539,6 @@ keepExistingData
 :
 true
 }
-)
 )
 ;
 await
@@ -648,7 +616,6 @@ handle
 await
 createFileWithContents
 (
-t
 '
 trunc_bigger_offset
 .
@@ -664,10 +631,6 @@ const
 stream
 =
 await
-cleanup_writable
-(
-t
-await
 handle
 .
 createWritable
@@ -677,7 +640,6 @@ keepExistingData
 :
 true
 }
-)
 )
 ;
 await
@@ -763,7 +725,6 @@ handle
 await
 createEmptyFile
 (
-t
 '
 contents
 '
@@ -774,15 +735,10 @@ const
 stream
 =
 await
-cleanup_writable
-(
-t
-await
 handle
 .
 createWritable
 (
-)
 )
 ;
 assert_false

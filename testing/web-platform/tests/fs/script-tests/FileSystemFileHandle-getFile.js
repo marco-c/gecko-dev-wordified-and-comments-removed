@@ -27,7 +27,6 @@ handle
 await
 createFileWithContents
 (
-t
 '
 foo
 .
@@ -115,7 +114,6 @@ handle
 await
 createEmptyFile
 (
-t
 '
 mtime
 .
@@ -308,7 +306,6 @@ fileHandle
 await
 createEmptyFile
 (
-t
 fileName
 root
 )

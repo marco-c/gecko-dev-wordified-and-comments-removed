@@ -35,7 +35,6 @@ subdir
 await
 createDirectory
 (
-t
 '
 subdir
 -
@@ -88,7 +87,6 @@ subdir
 await
 createDirectory
 (
-t
 '
 subdir
 -
@@ -139,7 +137,6 @@ subdir
 await
 createDirectory
 (
-t
 '
 subdir
 -
@@ -210,7 +207,6 @@ handle
 await
 createEmptyFile
 (
-t
 '
 foo
 .
@@ -264,7 +260,6 @@ handle1
 await
 createEmptyFile
 (
-t
 '
 foo
 .
@@ -279,7 +274,6 @@ handle2
 await
 createEmptyFile
 (
-t
 '
 bar
 .
@@ -330,7 +324,6 @@ handle1
 await
 createEmptyFile
 (
-t
 '
 foo
 .
@@ -401,7 +394,6 @@ handle1
 await
 createEmptyFile
 (
-t
 '
 foo
 .
@@ -416,7 +408,6 @@ subdir
 await
 createDirectory
 (
-t
 '
 subdir
 -
@@ -431,7 +422,6 @@ handle2
 await
 createEmptyFile
 (
-t
 '
 foo
 .
@@ -489,7 +479,6 @@ handle1
 await
 createEmptyFile
 (
-t
 '
 foo
 .
@@ -504,7 +493,6 @@ handle2
 await
 createDirectory
 (
-t
 '
 subdir
 -
@@ -558,7 +546,6 @@ file_handle
 await
 createEmptyFile
 (
-t
 '
 foo
 '
@@ -591,7 +578,6 @@ dir_handle
 await
 createDirectory
 (
-t
 '
 foo
 '
@@ -642,7 +628,6 @@ handle
 await
 createEmptyFile
 (
-t
 '
 foo
 .
@@ -736,7 +721,6 @@ subdir
 await
 createDirectory
 (
-t
 '
 subdir
 -

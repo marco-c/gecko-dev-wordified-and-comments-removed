@@ -483,7 +483,6 @@ async
 function
 create_file_system_handles
 (
-test
 root
 )
 {
@@ -493,7 +492,6 @@ empty_file
 await
 createEmptyFile
 (
-test
 '
 empty
 -
@@ -508,7 +506,6 @@ first_file
 await
 createFileWithContents
 (
-test
 '
 first
 -
@@ -534,7 +531,6 @@ second_file
 await
 createFileWithContents
 (
-test
 '
 second
 -
@@ -560,7 +556,6 @@ empty_directory
 await
 createDirectory
 (
-test
 '
 empty
 -
@@ -575,7 +570,6 @@ directory_with_files
 await
 createDirectory
 (
-test
 '
 directory
 -
@@ -589,7 +583,6 @@ root
 await
 createFileWithContents
 (
-test
 '
 first
 -
@@ -614,7 +607,6 @@ directory_with_files
 await
 createFileWithContents
 (
-test
 '
 second
 -
@@ -642,7 +634,6 @@ subdirectory
 await
 createDirectory
 (
-test
 '
 subdirectory
 '
@@ -652,7 +643,6 @@ directory_with_files
 await
 createFileWithContents
 (
-test
 '
 first
 -
@@ -703,10 +693,7 @@ handles
 await
 create_file_system_handles
 (
-test
 root_dir
-target
-target_origin
 )
 ;
 target

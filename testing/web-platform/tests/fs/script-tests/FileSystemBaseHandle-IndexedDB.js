@@ -19,7 +19,6 @@ handles
 await
 create_file_system_handles
 (
-t
 root_dir
 )
 ;
@@ -185,7 +184,6 @@ handles
 await
 create_file_system_handles
 (
-t
 root_dir
 )
 ;
@@ -383,7 +381,6 @@ handles
 await
 create_file_system_handles
 (
-t
 root_dir
 )
 ;
@@ -424,9 +421,9 @@ new
 Blob
 (
 [
-"
+'
 foobar
-"
+'
 ]
 )
 }
@@ -621,7 +618,6 @@ handles
 await
 create_file_system_handles
 (
-t
 root_dir
 )
 ;
@@ -834,7 +830,6 @@ handles
 await
 create_file_system_handles
 (
-t
 root_dir
 )
 ;

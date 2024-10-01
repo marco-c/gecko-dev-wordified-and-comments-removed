@@ -61,7 +61,6 @@ handle1
 await
 createEmptyFile
 (
-t
 '
 mtime
 .
@@ -234,7 +233,6 @@ file
 await
 createFileWithContents
 (
-t
 '
 mtime
 .
@@ -256,7 +254,6 @@ QuotaExceededError
 '
 createFileWithContents
 (
-t
 '
 mtime2
 .
