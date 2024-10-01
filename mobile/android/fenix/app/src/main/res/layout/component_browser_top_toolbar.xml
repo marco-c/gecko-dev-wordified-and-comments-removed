@@ -152,6 +152,13 @@ android
 layout_height
 =
 "
+wrap_content
+"
+android
+:
+minHeight
+=
+"
 dimen
 /
 browser_toolbar_height
