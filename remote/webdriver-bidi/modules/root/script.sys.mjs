@@ -4524,6 +4524,9 @@ type
 .
 destination
 }
+retryOnAbort
+:
+true
 }
 )
 ;

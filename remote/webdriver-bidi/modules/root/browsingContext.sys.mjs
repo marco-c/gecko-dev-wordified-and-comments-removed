@@ -6203,6 +6203,9 @@ serializationOptions
 serializationOptionsWithDefaults
 startNodes
 }
+retryOnAbort
+:
+true
 }
 )
 ;
