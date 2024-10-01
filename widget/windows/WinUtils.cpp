@@ -6167,7 +6167,7 @@ return
 rgn
 ;
 }
-HRGN
+nsAutoRegion
 WinUtils
 :
 :
@@ -6350,6 +6350,8 @@ Get
 ;
 }
 return
+nsAutoRegion
+(
 :
 :
 ExtCreateRegion
@@ -6357,6 +6359,7 @@ ExtCreateRegion
 nullptr
 regionDataBytes
 data
+)
 )
 ;
 }
