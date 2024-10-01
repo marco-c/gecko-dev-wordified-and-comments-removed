@@ -837,6 +837,26 @@ LICENSE
 ]
     
 '
+android_build_tools
+.
+*
+'
+:
+[
+        
+'
+third_party
+/
+android_build_tools
+/
+bundletool
+/
+LICENSE
+'
+    
+]
+    
+'
 android_deps
 :
 com_android_support_support_annotations
