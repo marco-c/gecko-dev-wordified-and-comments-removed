@@ -148,6 +148,8 @@ windows11
 64
 -
 shippable
+-
+qr
 /
 opt
 require
@@ -159,6 +161,8 @@ windows11
 64
 -
 shippable
+-
+qr
 /
 opt
 :
