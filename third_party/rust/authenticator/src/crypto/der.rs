@@ -126,7 +126,7 @@ u8
 ;
 pub
 const
-OID_RS256_BYTES
+OID_RSA_ENCRYPTION_BYTES
 :
 &
 [
@@ -143,7 +143,7 @@ u8
 0x0d
 0x01
 0x01
-0x0b
+0x01
 ]
 ;
 pub
