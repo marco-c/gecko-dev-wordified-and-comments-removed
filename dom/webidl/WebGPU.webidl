@@ -4083,6 +4083,9 @@ mipLevel
 ;
 GPUOrigin3D
 origin
+=
+{
+}
 ;
 GPUTextureAspect
 aspect
