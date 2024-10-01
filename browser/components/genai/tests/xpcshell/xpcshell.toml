@@ -29,3 +29,10 @@ test_provider_id
 js
 "
 ]
+[
+"
+test_show_chat_entrypoint
+.
+js
+"
+]
