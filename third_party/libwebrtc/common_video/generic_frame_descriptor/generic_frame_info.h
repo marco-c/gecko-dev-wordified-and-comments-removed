@@ -65,6 +65,17 @@ video_codec_constants
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+system
+/
+rtc_export
+.
+h
+"
 namespace
 webrtc
 {
@@ -114,6 +125,7 @@ false
 }
 ;
 struct
+RTC_EXPORT
 GenericFrameInfo
 :
 public
