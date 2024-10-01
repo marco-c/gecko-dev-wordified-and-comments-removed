@@ -383,16 +383,10 @@ int32_t
 aMaxFrames
 int64_t
 aClockTime
-=
-0
 const
 TimeStamp
 &
-aClickTimeStamp
-=
-TimeStamp
-(
-)
+aClockTimeStamp
 )
 ;
 void
