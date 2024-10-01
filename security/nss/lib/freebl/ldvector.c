@@ -456,6 +456,7 @@ ED_SignMessage
 ED_VerifyMessage
 ED_DerivePublicKey
 X25519_DerivePublicKey
+EC_DerivePublicKey
 }
 ;
 const
