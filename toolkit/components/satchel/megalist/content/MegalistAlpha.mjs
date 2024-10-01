@@ -389,6 +389,16 @@ Refresh
 "
 )
 ;
+this
+.
+#
+sendCommand
+(
+this
+.
+displayMode
+)
+;
 }
 #
 onMessageFromViewModel
