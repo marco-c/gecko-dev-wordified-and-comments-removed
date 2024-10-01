@@ -161,6 +161,13 @@ Uninitialize
 (
 )
 ;
+bool
+SetMicrophoneMute
+(
+bool
+enable
+)
+;
 OSStatus
 Render
 (
