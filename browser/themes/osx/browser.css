@@ -1665,12 +1665,6 @@ tabbrowser
 -
 tab
 {
-font
-:
-message
--
-box
-;
 border
 :
 none
@@ -1772,6 +1766,12 @@ tabbox
 css
 *
 /
+font
+:
+message
+-
+box
+;
 align
 -
 items
