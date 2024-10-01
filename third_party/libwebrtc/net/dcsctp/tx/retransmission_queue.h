@@ -547,12 +547,6 @@ unacked_items
 ;
 }
 bool
-can_send_data
-(
-)
-const
-;
-bool
 ShouldSendForwardTsn
 (
 webrtc
@@ -789,10 +783,6 @@ callbacks_
 const
 DcSctpOptions
 options_
-;
-const
-size_t
-min_bytes_required_to_send_
 ;
 const
 bool
