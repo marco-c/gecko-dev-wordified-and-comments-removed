@@ -20163,7 +20163,7 @@ className
 icon
 icon
 -
-trending
+newsfeed
 "
 }
 )
