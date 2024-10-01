@@ -57,6 +57,17 @@ enabled
 =
 false
 "
+"
+app
+.
+update
+.
+langpack
+.
+enabled
+=
+false
+"
 ]
 support
 -
