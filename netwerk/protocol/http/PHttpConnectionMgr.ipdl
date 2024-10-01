@@ -24,6 +24,17 @@ ClassOfService
 h
 "
 ;
+include
+"
+mozilla
+/
+net
+/
+NeckoMessageUtils
+.
+h
+"
+;
 using
 mozilla
 :
