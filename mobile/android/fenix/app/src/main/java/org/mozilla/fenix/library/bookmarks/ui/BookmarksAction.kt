@@ -649,3 +649,14 @@ SelectFolderItem
 :
 BookmarksAction
 }
+internal
+sealed
+class
+SnackbarAction
+{
+data
+object
+Dismissed
+:
+BookmarksAction
+}

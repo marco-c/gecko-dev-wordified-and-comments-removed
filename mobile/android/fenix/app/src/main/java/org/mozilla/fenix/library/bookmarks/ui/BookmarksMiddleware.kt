@@ -1200,6 +1200,9 @@ context
 store
 preReductionState
 )
+SnackbarAction
+.
+Dismissed
 is
 EditBookmarkAction
 .
