@@ -983,10 +983,6 @@ fuzzy
 -
 if
 (
-!
-gfxSVGFEGaussianBlur
-&
-&
 geckoview
 0
 -
@@ -1639,7 +1635,7 @@ if
 gfxSVGFEOffset
 0
 -
-2
+6
 0
 -
 1000000
