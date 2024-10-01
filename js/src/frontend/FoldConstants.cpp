@@ -2679,6 +2679,10 @@ static
 Truthiness
 Boolish
 (
+const
+FoldInfo
+&
+info
 ParseNode
 *
 pn
@@ -2753,7 +2757,10 @@ ParseNodeKind
 BigIntExpr
 :
 return
-(
+info
+.
+bigInts
+[
 pn
 -
 >
@@ -2764,9 +2771,13 @@ BigIntLiteral
 (
 )
 .
-isZero
+index
 (
 )
+]
+.
+isZero
+(
 )
 ?
 Falsy
@@ -2937,6 +2948,7 @@ t
 =
 Boolish
 (
+info
 node
 )
 ;
@@ -4042,6 +4054,7 @@ t
 =
 Boolish
 (
+info
 *
 elem
 )
@@ -4529,6 +4542,7 @@ t
 =
 Boolish
 (
+info
 *
 expr
 )
@@ -4809,6 +4823,7 @@ t
 =
 Boolish
 (
+info
 *
 expr
 )

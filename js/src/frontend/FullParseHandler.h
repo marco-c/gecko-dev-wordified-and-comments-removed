@@ -937,8 +937,6 @@ newBigInt
 (
 BigIntIndex
 index
-bool
-isZero
 const
 TokenPos
 &
@@ -952,7 +950,6 @@ BigIntLiteral
 >
 (
 index
-isZero
 pos
 )
 ;
