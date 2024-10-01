@@ -1998,6 +1998,14 @@ timestamp
 =
 kFirstTimestamp
 ;
+const
+Environment
+env
+=
+CreateEnvironment
+(
+)
+;
 auto
 mock_decoder_factory
 =
@@ -2146,6 +2154,7 @@ DecoderDatabase
 DecoderInfo
 info
 (
+env
 SdpAudioFormat
 (
 "
@@ -9550,6 +9559,14 @@ decoder
 =
 nullptr
 ;
+const
+Environment
+env
+=
+CreateEnvironment
+(
+)
+;
 auto
 mock_decoder_factory
 =
@@ -9649,6 +9666,7 @@ DecoderDatabase
 DecoderInfo
 info
 (
+env
 SdpAudioFormat
 (
 "
