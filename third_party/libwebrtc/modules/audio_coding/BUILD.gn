@@ -4273,17 +4273,6 @@ rtc_base
 :
 ignore_wundef
 "
-"
-.
-.
-/
-.
-.
-/
-system_wrappers
-:
-field_trial
-"
 ]
 if
 (
