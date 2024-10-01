@@ -34255,7 +34255,7 @@ twoByteChars
 (
 )
 length
-true
+false
 compilationState
 nullptr
 )
