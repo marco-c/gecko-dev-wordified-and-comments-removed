@@ -438,7 +438,7 @@ blockedSponsors
 "
 ;
 const
-PREF_UNIFIED_ADS_ENABLED
+PREF_UNIFIED_ADS_TILES_ENABLED
 =
 "
 browser
@@ -450,6 +450,8 @@ activity
 stream
 .
 unifiedAds
+.
+tiles
 .
 enabled
 "
@@ -3426,7 +3428,7 @@ action
 )
 {
 const
-unifiedAdsEnabled
+unifiedAdsTilesEnabled
 =
 Services
 .
@@ -3434,7 +3436,7 @@ prefs
 .
 getBoolPref
 (
-PREF_UNIFIED_ADS_ENABLED
+PREF_UNIFIED_ADS_TILES_ENABLED
 false
 )
 ;
@@ -3629,7 +3631,7 @@ if
 available
 if
 (
-unifiedAdsEnabled
+unifiedAdsTilesEnabled
 )
 {
 sponsoredBlockKeys

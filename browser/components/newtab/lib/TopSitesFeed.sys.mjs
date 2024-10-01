@@ -793,10 +793,12 @@ topSitesContileMaxSponsored
 "
 ;
 const
-PREF_UNIFIED_ADS_ENABLED
+PREF_UNIFIED_ADS_TILES_ENABLED
 =
 "
 unifiedAds
+.
+tiles
 .
 enabled
 "
@@ -2650,7 +2652,7 @@ cacheHeader
 )
 {
 const
-unifiedAdsEnabled
+unifiedAdsTilesEnabled
 =
 this
 .
@@ -2666,7 +2668,7 @@ Prefs
 .
 values
 [
-PREF_UNIFIED_ADS_ENABLED
+PREF_UNIFIED_ADS_TILES_ENABLED
 ]
 ;
 /
@@ -2690,7 +2692,7 @@ cacheHeader
 &
 &
 !
-unifiedAdsEnabled
+unifiedAdsTilesEnabled
 )
 {
 lazy
@@ -3270,7 +3272,7 @@ getState
 )
 ;
 const
-unifiedAdsEnabled
+unifiedAdsTilesEnabled
 =
 state
 .
@@ -3278,13 +3280,13 @@ Prefs
 .
 values
 [
-PREF_UNIFIED_ADS_ENABLED
+PREF_UNIFIED_ADS_TILES_ENABLED
 ]
 ;
 const
 serviceName
 =
-unifiedAdsEnabled
+unifiedAdsTilesEnabled
 ?
 "
 MARS
@@ -3307,7 +3309,7 @@ ads
 service
 if
 (
-unifiedAdsEnabled
+unifiedAdsTilesEnabled
 )
 {
 const
@@ -3791,7 +3793,7 @@ json
 ;
 if
 (
-unifiedAdsEnabled
+unifiedAdsTilesEnabled
 )
 {
 /
@@ -4024,7 +4026,7 @@ _sites
 if
 (
 !
-unifiedAdsEnabled
+unifiedAdsTilesEnabled
 )
 {
 Services
