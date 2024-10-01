@@ -102,6 +102,7 @@ recommends
 -
 y
 \
+aria2
 file
 7zip
 binutils
