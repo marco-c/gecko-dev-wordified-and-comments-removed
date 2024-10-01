@@ -9,6 +9,15 @@ include
 "
 frontend
 /
+Stencil
+.
+h
+"
+#
+include
+"
+frontend
+/
 SyntaxParseHandler
 .
 h
@@ -51,6 +60,9 @@ fc
 ParserAtomsTable
 &
 parserAtoms
+BigIntStencilVector
+&
+bigInts
 ParseNode
 *
 *
@@ -75,6 +87,9 @@ fc
 ParserAtomsTable
 &
 parserAtoms
+BigIntStencilVector
+&
+bigInts
 typename
 SyntaxParseHandler
 :

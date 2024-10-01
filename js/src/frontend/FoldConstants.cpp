@@ -147,6 +147,10 @@ ParserAtomsTable
 &
 parserAtoms
 ;
+BigIntStencilVector
+&
+bigInts
+;
 FullParseHandler
 *
 handler
@@ -7012,6 +7016,10 @@ ParserAtomsTable
 &
 parserAtoms
 ;
+BigIntStencilVector
+&
+bigInts
+;
 FullParseHandler
 *
 handler
@@ -7027,6 +7035,7 @@ FoldInfo
 {
 fc_
 parserAtoms
+bigInts
 handler
 }
 ;
@@ -7041,6 +7050,9 @@ fc
 ParserAtomsTable
 &
 parserAtoms
+BigIntStencilVector
+&
+bigInts
 FullParseHandler
 *
 handler
@@ -7053,6 +7065,10 @@ fc
 parserAtoms
 (
 parserAtoms
+)
+bigInts
+(
+bigInts
 )
 handler
 (
@@ -8516,6 +8532,9 @@ fc
 ParserAtomsTable
 &
 parserAtoms
+BigIntStencilVector
+&
+bigInts
 FullParseHandler
 *
 handler
@@ -8530,6 +8549,7 @@ visitor
 (
 fc
 parserAtoms
+bigInts
 handler
 )
 ;
@@ -8566,6 +8586,9 @@ info
 parserAtoms
 info
 .
+bigInts
+info
+.
 handler
 pnp
 )
@@ -8583,6 +8606,9 @@ fc
 ParserAtomsTable
 &
 parserAtoms
+BigIntStencilVector
+&
+bigInts
 ParseNode
 *
 *
@@ -8597,6 +8623,7 @@ Fold
 (
 fc
 parserAtoms
+bigInts
 handler
 pnp
 )

@@ -5722,15 +5722,7 @@ SystemAllocPolicy
 >
 regExpData
 ;
-Vector
-<
-BigIntStencil
-0
-js
-:
-:
-SystemAllocPolicy
->
+BigIntStencilVector
 bigIntData
 ;
 Vector
