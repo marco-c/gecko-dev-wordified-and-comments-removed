@@ -1049,6 +1049,7 @@ make_unique
 UlpfecGenerator
 >
 (
+env
 rtp
 .
 ulpfec
@@ -1059,12 +1060,6 @@ rtp
 ulpfec
 .
 ulpfec_payload_type
-&
-env
-.
-clock
-(
-)
 )
 ;
 }

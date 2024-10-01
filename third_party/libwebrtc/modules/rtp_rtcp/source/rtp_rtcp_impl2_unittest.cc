@@ -6700,13 +6700,9 @@ kRedPayloadType
 UlpfecGenerator
 ulpfec_sender
 (
+env_
 kRedPayloadType
 kUlpfecPayloadType
-time_controller_
-.
-GetClock
-(
-)
 )
 ;
 ReinitWithFec

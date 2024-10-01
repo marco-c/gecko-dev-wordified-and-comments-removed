@@ -485,6 +485,7 @@ kMaxInitRtpSeqNumber
 )
 ulpfec_generator_
 (
+env_
 ForwardErrorCorrection
 :
 :
@@ -492,12 +493,6 @@ CreateFlexfec
 (
 ssrc
 protected_media_ssrc
-)
-&
-env_
-.
-clock
-(
 )
 )
 rtp_header_extension_map_
