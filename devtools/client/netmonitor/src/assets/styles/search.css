@@ -463,7 +463,9 @@ var
 -
 theme
 -
-contrast
+search
+-
+results
 -
 background
 )
@@ -476,7 +478,9 @@ var
 -
 theme
 -
-contrast
+search
+-
+results
 -
 color
 )
@@ -493,9 +497,13 @@ var
 -
 theme
 -
-contrast
+search
+-
+results
 -
 border
+-
+color
 )
 ;
 }
