@@ -119,7 +119,6 @@ GPUObjectBase
 {
 attribute
 USVString
-?
 label
 ;
 }
