@@ -68,6 +68,16 @@ io_data
 =
 0
 ;
+virtual
+void
+OnReceivedMutedSpeechActivity
+(
+AUVoiceIOSpeechActivityEvent
+event
+)
+=
+0
+;
 protected
 :
 ~
@@ -87,6 +97,8 @@ VoiceProcessingAudioUnit
 (
 bool
 bypass_voice_processing
+bool
+detect_mute_speech
 VoiceProcessingAudioUnitObserver
 *
 observer
@@ -270,6 +282,10 @@ DisposeAudioUnit
 const
 bool
 bypass_voice_processing_
+;
+const
+bool
+detect_mute_speech_
 ;
 VoiceProcessingAudioUnitObserver
 *
