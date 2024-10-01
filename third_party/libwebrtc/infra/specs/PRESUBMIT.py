@@ -137,6 +137,9 @@ f
 .
 NewContents
 (
+flush_cache
+=
+True
 )
     
 if
@@ -164,6 +167,10 @@ prev_content
 new_content
 path
 path
+lineterm
+=
+'
+'
 )
       
 diffs
@@ -171,6 +178,8 @@ diffs
 append
 (
 '
+\
+n
 '
 .
 join
@@ -217,6 +226,8 @@ files
 :
 \
 n
+\
+n
 '
         
 f
@@ -224,6 +235,8 @@ f
 {
 combined_diffs
 }
+\
+n
 \
 n
 '
