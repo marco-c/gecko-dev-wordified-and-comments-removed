@@ -103,6 +103,14 @@ androidx
 .
 test
 .
+filters
+.
+SdkSuppress
+import
+androidx
+.
+test
+.
 rule
 .
 GrantPermissionRule
@@ -1274,6 +1282,12 @@ cases
 view
 /
 416052
+SdkSuppress
+(
+minSdkVersion
+=
+34
+)
 Test
 fun
 deleteCachedFilesOnQuitTest

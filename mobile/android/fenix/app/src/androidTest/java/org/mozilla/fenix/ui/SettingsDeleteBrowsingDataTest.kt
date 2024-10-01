@@ -77,6 +77,14 @@ junit4
 .
 AndroidComposeTestRule
 import
+androidx
+.
+test
+.
+filters
+.
+SdkSuppress
+import
 org
 .
 junit
@@ -1143,6 +1151,12 @@ cases
 view
 /
 416042
+SdkSuppress
+(
+minSdkVersion
+=
+34
+)
 SmokeTest
 Test
 fun

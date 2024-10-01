@@ -590,6 +590,12 @@ cases
 view
 /
 2299405
+SdkSuppress
+(
+minSdkVersion
+=
+34
+)
 Test
 fun
 verifyTheDownloadFailedNotificationsTest
@@ -1578,6 +1584,12 @@ cases
 view
 /
 2299297
+SdkSuppress
+(
+minSdkVersion
+=
+34
+)
 Test
 fun
 notificationCanBeDismissedIfDownloadIsInterruptedTest
@@ -2046,9 +2058,9 @@ API
 )
 SdkSuppress
 (
-maxSdkVersion
+minSdkVersion
 =
-30
+34
 )
 Test
 fun
