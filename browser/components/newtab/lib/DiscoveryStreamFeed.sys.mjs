@@ -11089,6 +11089,9 @@ this
 loadSpocs
 (
 dispatch
+isStartup
+&
+&
 spocsStartupCacheEnabled
 )
 .
