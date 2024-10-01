@@ -717,6 +717,20 @@ com
 ]
 ;
 const
+SUBRESOURCE_URL
+=
+"
+https
+:
+/
+/
+example
+.
+net
+/
+"
+;
+const
 TEST_INVALID_URLS
 =
 [
@@ -793,6 +807,7 @@ getPartitionKeyFromURL
 test
 .
 url
+SUBRESOURCE_URL
 )
 ;
 Assert
@@ -870,6 +885,7 @@ getPartitionKeyFromURL
 test
 .
 url
+SUBRESOURCE_URL
 )
 ;
 Assert
@@ -1187,6 +1203,7 @@ ChromeUtils
 getPartitionKeyFromURL
 (
 blobUrl
+SUBRESOURCE_URL
 )
 ;
 Assert
@@ -1259,6 +1276,7 @@ ChromeUtils
 getPartitionKeyFromURL
 (
 invalidURL
+SUBRESOURCE_URL
 )
 ;
 }

@@ -4167,6 +4167,9 @@ getPartitionKeyFromURL
 partitionKey
 .
 sourceOrigin
+"
+"
+false
 )
 ;
 }
@@ -4184,6 +4187,9 @@ getPartitionKeyFromURL
 partitionKey
 .
 sourceOrigin
+"
+"
+false
 )
 ;
 }
