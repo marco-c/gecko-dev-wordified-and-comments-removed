@@ -52,12 +52,6 @@ nsCharProps2
 {
 unsigned
 char
-mVertOrient
-:
-2
-;
-unsigned
-char
 mIdType
 :
 2
