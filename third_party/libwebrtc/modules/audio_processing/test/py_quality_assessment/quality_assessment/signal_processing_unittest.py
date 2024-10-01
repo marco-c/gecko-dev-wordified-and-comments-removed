@@ -128,7 +128,7 @@ noise
 -
 np
 .
-Inf
+inf
 )
         
 self
@@ -293,7 +293,7 @@ signal
 noise
 np
 .
-Inf
+inf
 )
         
 self
