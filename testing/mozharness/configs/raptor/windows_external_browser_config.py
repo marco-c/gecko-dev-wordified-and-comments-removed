@@ -244,6 +244,10 @@ distribution
 "
         
 "
+install
+"
+        
+"
 run
 -
 tests

@@ -19,6 +19,7 @@ const
 {
 startMeasurements
 stopMeasurements
+finalizeMeasurements
 }
 =
 require
@@ -356,7 +357,13 @@ startMeasurements
 context
 commands
 true
-false
+context
+.
+options
+.
+browsertime
+.
+power_test
 true
 )
 ;
@@ -759,6 +766,11 @@ true
 )
 ;
 }
+await
+finalizeMeasurements
+(
+)
+;
 return
 true
 ;
