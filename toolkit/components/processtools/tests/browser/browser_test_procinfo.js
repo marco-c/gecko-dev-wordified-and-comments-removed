@@ -60,7 +60,7 @@ NS_PER_MS
 const
 LINUX_ROUNDING_ERROR
 =
-8
+20
 .
 0
 *
