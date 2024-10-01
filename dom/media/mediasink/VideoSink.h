@@ -525,10 +525,6 @@ const
 uint32_t
 mVideoQueueSendToCompositorSize
 ;
-const
-uint32_t
-mMinVideoQueueSize
-;
 #
 ifdef
 XP_WIN
