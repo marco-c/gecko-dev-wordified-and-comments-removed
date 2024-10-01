@@ -247,6 +247,10 @@ buf
 [
 32
 ]
+=
+{
+0
+}
 ;
 unsigned
 char

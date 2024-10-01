@@ -452,6 +452,10 @@ actionType
 case
 0
 :
+hb_barrier
+(
+)
+;
 return_trace
 (
 u
@@ -467,6 +471,10 @@ c
 case
 1
 :
+hb_barrier
+(
+)
+;
 return_trace
 (
 u
@@ -482,6 +490,10 @@ c
 case
 2
 :
+hb_barrier
+(
+)
+;
 return_trace
 (
 u
@@ -497,6 +509,10 @@ c
 case
 4
 :
+hb_barrier
+(
+)
+;
 return_trace
 (
 u
@@ -512,6 +528,10 @@ c
 case
 5
 :
+hb_barrier
+(
+)
+;
 return_trace
 (
 u

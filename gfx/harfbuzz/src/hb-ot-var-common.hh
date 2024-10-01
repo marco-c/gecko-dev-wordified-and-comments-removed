@@ -1185,12 +1185,14 @@ deltas_y
 ;
 hb_vector_t
 <
+unsigned
 char
 >
 compiled_tuple_header
 ;
 hb_vector_t
 <
+unsigned
 char
 >
 compiled_deltas
@@ -2774,6 +2776,7 @@ double
 y_deltas
 hb_vector_t
 <
+unsigned
 char
 >
 &
@@ -3029,6 +3032,7 @@ compile_deltas
 (
 hb_array_t
 <
+unsigned
 char
 >
 encoded_bytes
@@ -3865,6 +3869,7 @@ false
 }
 hb_vector_t
 <
+unsigned
 char
 >
 opt_point_data
@@ -3883,6 +3888,7 @@ false
 ;
 hb_vector_t
 <
+unsigned
 char
 >
 opt_deltas_data
@@ -3911,6 +3917,7 @@ false
 ;
 hb_vector_t
 <
+unsigned
 char
 >
 point_data
@@ -3929,6 +3936,7 @@ false
 ;
 hb_vector_t
 <
+unsigned
 char
 >
 deltas_data
@@ -4059,6 +4067,7 @@ bool
 point_indices
 hb_vector_t
 <
+unsigned
 char
 >
 &
@@ -6199,6 +6208,7 @@ continue
 }
 hb_vector_t
 <
+unsigned
 char
 >
 compiled_point_data
@@ -8748,7 +8758,7 @@ all_regions
 all_unique_regions
 )
 return
-false
+true
 ;
 if
 (
@@ -9085,7 +9095,7 @@ if
 region_list
 )
 return
-false
+true
 ;
 unsigned
 num_cols

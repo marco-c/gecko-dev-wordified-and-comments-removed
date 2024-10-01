@@ -1914,9 +1914,8 @@ bool
 long_offset
 =
 glyph_var_data_size
-&
-~
-0xFFFFu
+>
+0x1FFFEu
 |
 |
 force_long_offsets
@@ -2503,12 +2502,9 @@ length
 bool
 long_offset
 =
-(
 subset_data_size
-&
-~
-0xFFFFu
-)
+>
+0x1FFFEu
 ;
 #
 ifdef
@@ -3159,7 +3155,7 @@ glyph_count
 return
 0
 ;
-_hb_compiler_memory_r_barrier
+hb_barrier
 (
 )
 ;

@@ -965,6 +965,10 @@ case
 case
 1
 :
+hb_barrier
+(
+)
+;
 return
 u
 .
@@ -1009,6 +1013,10 @@ case
 case
 1
 :
+hb_barrier
+(
+)
+;
 return
 u
 .
@@ -1086,6 +1094,10 @@ case
 case
 1
 :
+hb_barrier
+(
+)
+;
 return_trace
 (
 u

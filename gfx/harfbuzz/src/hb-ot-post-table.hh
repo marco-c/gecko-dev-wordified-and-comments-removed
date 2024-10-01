@@ -1438,6 +1438,11 @@ to_int
 0x00020000
 &
 &
+hb_barrier
+(
+)
+&
+&
 v2X
 .
 sanitize

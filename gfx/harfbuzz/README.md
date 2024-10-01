@@ -459,6 +459,8 @@ Illustrator
 InDesign
 Godot
 Engine
+Unreal
+Engine
 and
 other
 places
@@ -744,17 +746,11 @@ State
 of
 Text
 Rendering
+2024
 ]
 [
 6
 ]
-though
-that
-document
-is
-many
-years
-old
 .
 Here
 are
@@ -1248,8 +1244,7 @@ behdad
 .
 org
 /
-text
-/
+text2024
 [
 7
 ]

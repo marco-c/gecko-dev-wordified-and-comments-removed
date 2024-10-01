@@ -3927,7 +3927,7 @@ Null
 Type
 )
 ;
-_hb_compiler_memory_r_barrier
+hb_barrier
 (
 )
 ;
@@ -4006,7 +4006,7 @@ Crap
 Type
 )
 ;
-_hb_compiler_memory_r_barrier
+hb_barrier
 (
 )
 ;
@@ -4382,7 +4382,7 @@ Null
 Type
 )
 ;
-_hb_compiler_memory_r_barrier
+hb_barrier
 (
 )
 ;
@@ -4429,7 +4429,7 @@ Crap
 Type
 )
 ;
-_hb_compiler_memory_r_barrier
+hb_barrier
 (
 )
 ;
@@ -5438,7 +5438,7 @@ Null
 Type
 )
 ;
-_hb_compiler_memory_r_barrier
+hb_barrier
 (
 )
 ;
@@ -5494,7 +5494,7 @@ Crap
 Type
 )
 ;
-_hb_compiler_memory_r_barrier
+hb_barrier
 (
 )
 ;
@@ -5754,7 +5754,7 @@ Null
 Type
 )
 ;
-_hb_compiler_memory_r_barrier
+hb_barrier
 (
 )
 ;
@@ -5807,7 +5807,7 @@ Crap
 Type
 )
 ;
-_hb_compiler_memory_r_barrier
+hb_barrier
 (
 )
 ;
@@ -6436,7 +6436,7 @@ Null
 Type
 )
 ;
-_hb_compiler_memory_r_barrier
+hb_barrier
 (
 )
 ;
@@ -6482,7 +6482,7 @@ Crap
 Type
 )
 ;
-_hb_compiler_memory_r_barrier
+hb_barrier
 (
 )
 ;
@@ -7548,7 +7548,7 @@ Null
 Type
 )
 ;
-_hb_compiler_memory_r_barrier
+hb_barrier
 (
 )
 ;
@@ -7606,7 +7606,7 @@ Crap
 Type
 )
 ;
-_hb_compiler_memory_r_barrier
+hb_barrier
 (
 )
 ;
@@ -9018,7 +9018,7 @@ hb_ubytes_t
 (
 )
 ;
-_hb_compiler_memory_r_barrier
+hb_barrier
 (
 )
 ;
@@ -9292,6 +9292,7 @@ int
 values
 hb_array_t
 <
+unsigned
 char
 >
 encoded_bytes
@@ -9443,6 +9444,7 @@ unsigned
 i
 hb_array_t
 <
+unsigned
 char
 >
 encoded_bytes
@@ -9576,6 +9578,7 @@ unsigned
 i
 hb_array_t
 <
+unsigned
 char
 >
 encoded_bytes
@@ -9830,6 +9833,7 @@ unsigned
 i
 hb_array_t
 <
+unsigned
 char
 >
 encoded_bytes
@@ -10148,6 +10152,7 @@ unsigned
 i
 hb_array_t
 <
+unsigned
 char
 >
 encoded_bytes

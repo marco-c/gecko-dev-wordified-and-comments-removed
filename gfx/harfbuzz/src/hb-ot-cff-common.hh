@@ -1804,6 +1804,10 @@ format
 case
 0
 :
+hb_barrier
+(
+)
+;
 return
 format
 .
@@ -1821,6 +1825,10 @@ num_glyphs
 case
 3
 :
+hb_barrier
+(
+)
+;
 return
 format
 .
@@ -1871,6 +1879,10 @@ format
 case
 0
 :
+hb_barrier
+(
+)
+;
 return
 u
 .
@@ -1884,6 +1896,10 @@ glyph
 case
 3
 :
+hb_barrier
+(
+)
+;
 return
 u
 .
@@ -1938,6 +1954,10 @@ format
 case
 0
 :
+hb_barrier
+(
+)
+;
 return
 u
 .
@@ -1951,6 +1971,10 @@ glyph
 case
 3
 :
+hb_barrier
+(
+)
+;
 return
 u
 .
@@ -2019,6 +2043,10 @@ format
 case
 0
 :
+hb_barrier
+(
+)
+;
 return_trace
 (
 u
@@ -2035,6 +2063,10 @@ fdcount
 case
 3
 :
+hb_barrier
+(
+)
+;
 return_trace
 (
 u

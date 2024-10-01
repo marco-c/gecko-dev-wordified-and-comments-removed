@@ -2688,6 +2688,16 @@ UIPC
 =
 Top
 		
+if
+U
+=
+=
+0x113CF
+:
+UIPC
+=
+Bottom
+		
 assert
 (
 UIPC
@@ -2697,10 +2707,13 @@ Not_Applicable
 Visual_Order_Left
 ]
 or
+			
 U
-=
-=
+in
+{
 0x0F7F
+0x11A3A
+}
 or
 			
 USE

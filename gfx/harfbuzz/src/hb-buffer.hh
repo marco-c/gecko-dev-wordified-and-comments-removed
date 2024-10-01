@@ -111,6 +111,9 @@ HB_BUFFER_SCRATCH_FLAG_HAS_GLYPH_FLAGS
 HB_BUFFER_SCRATCH_FLAG_HAS_BROKEN_SYLLABLE
 =
 0x00000040u
+HB_BUFFER_SCRATCH_FLAG_HAS_VARIATION_SELECTOR_FALLBACK
+=
+0x00000080u
 HB_BUFFER_SCRATCH_FLAG_SHAPER0
 =
 0x01000000u
@@ -154,6 +157,9 @@ invisible
 ;
 hb_codepoint_t
 not_found
+;
+hb_codepoint_t
+not_found_variation_selector
 ;
 hb_buffer_content_type_t
 content_type
