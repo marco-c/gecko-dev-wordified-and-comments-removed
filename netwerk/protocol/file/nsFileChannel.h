@@ -106,7 +106,6 @@ async
 nodiscard
 ]
 ]
-virtual
 nsresult
 OpenContentStream
 (
@@ -123,7 +122,6 @@ channel
 )
 override
 ;
-virtual
 nsresult
 ListenerBlockingPromise
 (
