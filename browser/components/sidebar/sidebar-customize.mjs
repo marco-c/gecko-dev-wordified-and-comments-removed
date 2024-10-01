@@ -1930,8 +1930,6 @@ skin
 /
 sidebar
 -
-expanded
--
 right
 .
 svg
