@@ -7,11 +7,6 @@ API_TASK_QUEUE_TASK_QUEUE_BASE_H_
 #
 include
 <
-memory
->
-#
-include
-<
 utility
 >
 #
