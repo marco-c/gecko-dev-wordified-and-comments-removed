@@ -56,6 +56,17 @@ include
 "
 api
 /
+rtc_event_log
+/
+rtc_event_log
+.
+h
+"
+#
+include
+"
+api
+/
 transport
 /
 network_types
