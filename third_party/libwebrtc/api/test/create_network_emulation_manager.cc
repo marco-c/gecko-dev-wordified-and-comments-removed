@@ -31,6 +31,17 @@ h
 #
 include
 "
+api
+/
+test
+/
+network_emulation_manager
+.
+h
+"
+#
+include
+"
 test
 /
 network

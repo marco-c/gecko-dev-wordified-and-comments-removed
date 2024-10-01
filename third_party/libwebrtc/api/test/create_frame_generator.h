@@ -7,6 +7,16 @@ API_TEST_CREATE_FRAME_GENERATOR_H_
 #
 include
 <
+cstddef
+>
+#
+include
+<
+cstdint
+>
+#
+include
+<
 memory
 >
 #

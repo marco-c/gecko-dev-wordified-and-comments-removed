@@ -11,6 +11,17 @@ api
 /
 video
 /
+video_bitrate_allocation
+.
+h
+"
+#
+include
+"
+api
+/
+video
+/
 video_bitrate_allocator
 .
 h

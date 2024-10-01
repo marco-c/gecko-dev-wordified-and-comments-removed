@@ -7,6 +7,11 @@ API_TEST_FRAME_GENERATOR_INTERFACE_H_
 #
 include
 <
+cstddef
+>
+#
+include
+<
 utility
 >
 #

@@ -181,6 +181,17 @@ h
 #
 include
 "
+media
+/
+base
+/
+media_constants
+.
+h
+"
+#
+include
+"
 modules
 /
 video_coding
