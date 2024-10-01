@@ -4751,6 +4751,12 @@ GetClassOfService
 Flags
 (
 )
+trans
+-
+>
+Priority
+(
+)
 )
 ;
 bool
