@@ -3296,7 +3296,7 @@ select
 item
 input
 [
-name
+value
 =
 '
 test1
@@ -3380,7 +3380,7 @@ select
 item
 input
 [
-name
+value
 =
 '
 test1
