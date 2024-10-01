@@ -2262,6 +2262,14 @@ this
 children
 ?
 .
+sortedByDescending
+{
+it
+.
+dateAdded
+}
+?
+.
 mapNotNull
 {
 node
