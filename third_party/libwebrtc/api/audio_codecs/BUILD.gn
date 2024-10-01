@@ -253,17 +253,6 @@ scoped_refptr
 /
 api
 :
-field_trials_view
-"
-"
-.
-.
-/
-.
-.
-/
-api
-:
 rtp_parameters
 "
 "
