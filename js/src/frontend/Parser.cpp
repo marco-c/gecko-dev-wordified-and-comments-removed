@@ -958,8 +958,6 @@ const
 ReadOnlyCompileOptions
 &
 options
-bool
-foldConstants
 CompilationState
 &
 compilationState
@@ -986,10 +984,6 @@ this
 ss
 (
 nullptr
-)
-foldConstants_
-(
-foldConstants
 )
 #
 ifdef
@@ -1118,8 +1112,6 @@ const
 ReadOnlyCompileOptions
 &
 options
-bool
-foldConstants
 CompilationState
 &
 compilationState
@@ -1132,7 +1124,6 @@ ParserBase
 (
 fc
 options
-foldConstants
 compilationState
 )
 handler_
@@ -1193,8 +1184,6 @@ Unit
 units
 size_t
 length
-bool
-foldConstants
 CompilationState
 &
 compilationState
@@ -1207,7 +1196,6 @@ Base
 (
 fc
 options
-foldConstants
 compilationState
 syntaxParser
 )
@@ -1965,19 +1953,6 @@ parse
 MOZ_ASSERT
 (
 checkOptionsCalled_
-)
-;
-MOZ_ASSERT
-(
-!
-foldConstants_
-"
-constant
-folding
-not
-supported
-here
-"
 )
 ;
 SourceExtent

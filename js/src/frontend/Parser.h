@@ -489,12 +489,6 @@ ScriptSource
 *
 ss
 ;
-const
-bool
-foldConstants_
-:
-1
-;
 protected
 :
 #
@@ -634,8 +628,6 @@ JS
 ReadOnlyCompileOptions
 &
 options
-bool
-foldConstants
 CompilationState
 &
 compilationState
@@ -1322,8 +1314,6 @@ JS
 ReadOnlyCompileOptions
 &
 options
-bool
-foldConstants
 CompilationState
 &
 compilationState
@@ -1351,8 +1341,6 @@ JS
 ReadOnlyCompileOptions
 &
 options
-bool
-foldConstants
 CompilationState
 &
 compilationState
@@ -1369,7 +1357,6 @@ PerHandlerParser
 (
 fc
 options
-foldConstants
 compilationState
 static_cast
 <
@@ -2322,12 +2309,6 @@ using
 Base
 :
 :
-foldConstants_
-;
-using
-Base
-:
-:
 getFilename
 ;
 using
@@ -2946,8 +2927,6 @@ Unit
 units
 size_t
 length
-bool
-foldConstants
 CompilationState
 &
 compilationState

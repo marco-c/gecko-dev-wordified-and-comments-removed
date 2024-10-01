@@ -4527,7 +4527,6 @@ sourceBuffer_
 length
 (
 )
-false
 compilationState_
 nullptr
 )
@@ -4564,7 +4563,6 @@ sourceBuffer_
 length
 (
 )
-true
 compilationState_
 syntaxParser
 .
@@ -7739,7 +7737,6 @@ input
 options
 units
 length
-true
 compilationState
 nullptr
 )
