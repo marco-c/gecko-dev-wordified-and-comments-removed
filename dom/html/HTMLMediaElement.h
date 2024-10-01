@@ -2624,14 +2624,6 @@ aName
 )
 override
 ;
-AbstractThread
-*
-AbstractMainThread
-(
-)
-const
-final
-;
 enum
 class
 CallerAPI
