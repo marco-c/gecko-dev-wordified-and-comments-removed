@@ -1183,11 +1183,13 @@ JS_LOG
 wasmCodeMetaStats
 level
 "
-CodeMetadata
+CM
+=
 .
 .
 %
 06lx
+CodeMetadata
 :
 :
 ~
