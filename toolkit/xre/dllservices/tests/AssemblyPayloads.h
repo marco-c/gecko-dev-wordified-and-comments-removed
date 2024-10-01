@@ -1111,13 +1111,6 @@ retq
 )
 ;
 }
-#
-if
-!
-defined
-(
-MOZ_CODE_COVERAGE
-)
 MOZ_NAKED
 void
 DetouredCallCode
@@ -1234,8 +1227,6 @@ rip
 )
 ;
 }
-#
-endif
 #
 elif
 defined
