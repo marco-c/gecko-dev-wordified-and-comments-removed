@@ -49,9 +49,6 @@ nsTArray
 h
 "
 struct
-gfxFontFeature
-;
-struct
 gfxFontStyle
 ;
 struct

@@ -1224,10 +1224,7 @@ result
 ;
 Servo_MatrixTransform_Operate
 (
-MatrixTransformOperator
-:
-:
-Accumulate
+false
 &
 aMatrix1
 .
@@ -1422,10 +1419,7 @@ result
 ;
 Servo_MatrixTransform_Operate
 (
-MatrixTransformOperator
-:
-:
-Interpolate
+true
 &
 aMatrix1
 .

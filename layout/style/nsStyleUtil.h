@@ -66,9 +66,6 @@ class
 nsIURI
 ;
 struct
-gfxFontFeature
-;
-struct
 nsCSSKTableEntry
 ;
 struct
