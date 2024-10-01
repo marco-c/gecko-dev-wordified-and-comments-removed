@@ -314,8 +314,9 @@ decoder_
 factory_
 -
 >
-MakeAudioDecoder
+Create
 (
+env_
 audio_format_
 codec_pair_id_
 )
