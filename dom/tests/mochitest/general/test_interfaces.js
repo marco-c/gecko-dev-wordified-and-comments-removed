@@ -7734,6 +7734,16 @@ true
 name
 :
 "
+WGSLLanguageFeatures
+"
+nightly
+:
+true
+}
+{
+name
+:
+"
 Worker
 "
 insecureContext
