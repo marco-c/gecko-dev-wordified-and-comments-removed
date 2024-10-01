@@ -2065,10 +2065,17 @@ currentTime
 )
 {
 return
+cookieFound
+?
 CookieNotificationAction
 :
 :
 CookieDeleted
+:
+CookieNotificationAction
+:
+:
+NoActionNeeded
 ;
 }
 cookiesList
