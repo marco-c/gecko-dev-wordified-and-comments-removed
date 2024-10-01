@@ -75,6 +75,15 @@ js
 "
 )
 ;
+await
+waitForScrolling
+(
+getCM
+(
+dbg
+)
+)
+;
 const
 pauseScrollTop
 =

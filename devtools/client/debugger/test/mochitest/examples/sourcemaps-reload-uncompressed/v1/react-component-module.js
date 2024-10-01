@@ -3,3 +3,11 @@ isReactComponent
 =
 true
 ;
+function
+pauseInReact
+(
+)
+{
+debugger
+;
+}
