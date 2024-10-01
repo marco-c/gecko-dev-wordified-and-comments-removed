@@ -2110,8 +2110,10 @@ localName
 "
 select
 "
-&
-&
+)
+{
+if
+(
 !
 fieldDetail
 .
@@ -2145,8 +2147,11 @@ isVisible
 )
 ;
 }
+}
 return
-true
+fieldDetail
+.
+isVisible
 ;
 }
 )

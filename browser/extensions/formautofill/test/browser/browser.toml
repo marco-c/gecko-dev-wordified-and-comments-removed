@@ -180,6 +180,13 @@ js
 ]
 [
 "
+browser_autofill_invisible_fields
+.
+js
+"
+]
+[
+"
 browser_autofill_sandboxed_iframe
 .
 js
