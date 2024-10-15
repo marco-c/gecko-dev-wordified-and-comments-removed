@@ -431,7 +431,7 @@ nsITimedChannel
 redirectCount
 :
 0
-channelCreationTime
+asyncOpenTime
 :
 currentTimeStamp
 redirectStartTime
@@ -1989,7 +1989,7 @@ getFetchTimings
 {
 const
 {
-channelCreationTime
+asyncOpenTime
 redirectStartTime
 redirectEndTime
 dispatchFetchEventStartTime
@@ -2134,7 +2134,7 @@ this
 #
 convertTimestamp
 (
-channelCreationTime
+asyncOpenTime
 timeOrigin
 )
 redirectStart
