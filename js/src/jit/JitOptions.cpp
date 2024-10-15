@@ -1041,13 +1041,13 @@ false
 SET_DEFAULT
 (
 js_regexp_modifiers
-false
+true
 )
 ;
 SET_DEFAULT
 (
 js_regexp_duplicate_named_groups
-false
+true
 )
 ;
 SET_DEFAULT

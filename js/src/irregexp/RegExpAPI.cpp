@@ -721,15 +721,8 @@ RegExpError
 :
 kMultipleFlagDashes
 :
-MOZ_CRASH
-(
-"
-Mode
-modifiers
-not
-supported
-"
-)
+return
+JSMSG_MULTIPLE_FLAG_DASHES
 ;
 case
 RegExpError
