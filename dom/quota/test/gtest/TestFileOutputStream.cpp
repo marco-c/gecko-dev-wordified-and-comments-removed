@@ -324,6 +324,7 @@ quotaManager
 EnsureTemporaryOriginIsInitializedInternal
 (
 originMetadata
+true
 )
 ;
 ASSERT_TRUE

@@ -193,6 +193,7 @@ quotaManager
 EnsureTemporaryOriginIsInitializedInternal
 (
 aClientMetadata
+true
 )
 .
 map

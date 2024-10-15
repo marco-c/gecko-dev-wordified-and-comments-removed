@@ -133,6 +133,10 @@ static
 void
 InitializeTemporaryOrigin
 (
+bool
+aCreateIfNonExistent
+=
+true
 )
 ;
 static

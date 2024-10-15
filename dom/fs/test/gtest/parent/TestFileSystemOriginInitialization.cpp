@@ -592,6 +592,7 @@ ASSERT_NO_FATAL_FAILURE
 (
 InitializeTemporaryOrigin
 (
+true
 )
 )
 ;

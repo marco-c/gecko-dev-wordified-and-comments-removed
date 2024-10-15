@@ -238,6 +238,10 @@ const
 OriginMetadata
 &
 aOriginMetadata
+bool
+aCreateIfNonExistent
+=
+true
 )
 ;
 static

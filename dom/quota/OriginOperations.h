@@ -490,6 +490,8 @@ ipc
 PrincipalInfo
 &
 aPrincipalInfo
+bool
+aCreateIfNonExistent
 RefPtr
 <
 UniversalDirectoryLock

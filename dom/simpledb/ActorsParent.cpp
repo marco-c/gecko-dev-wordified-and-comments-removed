@@ -4894,6 +4894,7 @@ quotaManager
 EnsureTemporaryOriginIsInitializedInternal
 (
 mOriginMetadata
+true
 )
 )
 ;
