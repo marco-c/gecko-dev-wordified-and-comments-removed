@@ -32,7 +32,7 @@ kCTExpirationTime
 =
 INT64_C
 (
-1734951801000000
+1735211072000000
 )
 ;
 namespace
@@ -744,7 +744,7 @@ CTLogState
 :
 :
 Admissible
-1721666666000
+1727734767000
 0
 "
 \
@@ -954,7 +954,7 @@ CTLogState
 :
 :
 Admissible
-1721666666000
+1727734767000
 0
 "
 \
@@ -1794,7 +1794,7 @@ CTLogState
 :
 :
 Admissible
-1721666666000
+1727734767000
 0
 "
 \
@@ -2004,7 +2004,7 @@ CTLogState
 :
 :
 Admissible
-1721666666000
+1727734767000
 0
 "
 \
