@@ -292,14 +292,14 @@ UNIFIED_SOURCES
 "
 fallback
 /
-FallbackHeterogeneousCpuInfo
+FallbackVibration
 .
 cpp
 "
 "
-fallback
+windows
 /
-FallbackVibration
+WindowsHeterogeneousCpuInfo
 .
 cpp
 "
