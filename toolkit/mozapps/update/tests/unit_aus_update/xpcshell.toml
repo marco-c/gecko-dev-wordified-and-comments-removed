@@ -366,6 +366,13 @@ Bug
 1759035
 [
 "
+mixedUnsupported
+.
+js
+"
+]
+[
+"
 multiUpdate
 .
 js
