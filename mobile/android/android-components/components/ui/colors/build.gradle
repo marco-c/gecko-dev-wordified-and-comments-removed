@@ -198,7 +198,9 @@ configurePublish
 config
 .
 componentsGroupId
-archivesBaseName
+project
+.
+name
 project
 .
 ext
