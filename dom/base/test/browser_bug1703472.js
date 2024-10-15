@@ -43,14 +43,6 @@ set
 "
 dom
 .
-block_multiple_popups
-"
-true
-]
-[
-"
-dom
-.
 disable_open_during_load
 "
 true
