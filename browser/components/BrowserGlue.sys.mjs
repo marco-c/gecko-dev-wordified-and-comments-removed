@@ -4826,6 +4826,11 @@ about
 :
 firefoxview
 "
+"
+about
+:
+editprofile
+"
 ]
 }
 LinkHandler

@@ -1154,6 +1154,11 @@ Profiles
 :
 OpenDeletePage
 "
+"
+Profiles
+:
+UpdateProfileTheme
+"
 ]
 }
 "
