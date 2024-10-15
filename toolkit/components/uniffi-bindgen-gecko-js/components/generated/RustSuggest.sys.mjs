@@ -2709,7 +2709,7 @@ UniFFIScaffolding
 .
 callSync
 (
-23
+21
 /
 /
 suggest
@@ -2782,7 +2782,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-14
+12
 /
 /
 suggest
@@ -2875,7 +2875,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-15
+13
 /
 /
 suggest
@@ -3004,7 +3004,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-16
+14
 /
 /
 suggest
@@ -3108,7 +3108,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-17
+15
 /
 /
 suggest
@@ -3242,7 +3242,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-18
+16
 /
 /
 suggest
@@ -3382,7 +3382,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-19
+17
 /
 /
 suggest
@@ -3509,7 +3509,7 @@ UniFFIScaffolding
 .
 callSync
 (
-20
+18
 /
 /
 suggest
@@ -3623,7 +3623,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-21
+19
 /
 /
 suggest
@@ -3763,7 +3763,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-22
+20
 /
 /
 suggest
@@ -4137,7 +4137,7 @@ UniFFIScaffolding
 .
 callSync
 (
-30
+28
 /
 /
 suggest
@@ -4203,7 +4203,7 @@ UniFFIScaffolding
 .
 callSync
 (
-24
+22
 /
 /
 suggest
@@ -4301,7 +4301,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-25
+23
 /
 /
 suggest
@@ -4431,7 +4431,7 @@ UniFFIScaffolding
 .
 callSync
 (
-26
+24
 /
 /
 suggest
@@ -4571,7 +4571,7 @@ UniFFIScaffolding
 .
 callSync
 (
-27
+25
 /
 /
 suggest
@@ -4681,7 +4681,7 @@ UniFFIScaffolding
 .
 callSync
 (
-28
+26
 /
 /
 suggest
@@ -4785,7 +4785,7 @@ UniFFIScaffolding
 .
 callSync
 (
-29
+27
 /
 /
 suggest
@@ -14446,7 +14446,7 @@ UniFFIScaffolding
 .
 callSync
 (
-13
+11
 /
 /
 suggest
