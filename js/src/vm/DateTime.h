@@ -372,9 +372,6 @@ guard
 utcToLocalStandardOffsetSeconds_
 ;
 }
-#
-if
-JS_HAS_INTL_API
 enum
 class
 TimeZoneOffset
@@ -383,6 +380,9 @@ UTC
 Local
 }
 ;
+#
+if
+JS_HAS_INTL_API
 static
 int32_t
 getOffsetMilliseconds
