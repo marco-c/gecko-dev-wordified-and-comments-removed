@@ -54,6 +54,11 @@ schema4upgrade_profile
 zip
 "
 "
+slowDatabaseInitialization_child
+.
+js
+"
+"
 somedata_profile
 .
 zip
