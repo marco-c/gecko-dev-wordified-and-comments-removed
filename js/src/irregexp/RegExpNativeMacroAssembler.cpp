@@ -6040,13 +6040,15 @@ branchPtr
 Assembler
 :
 :
-LessThan
+LessThanOrEqual
 temp1_
 ImmWord
 (
 register_offset
 (
 num_capture_registers_
+-
+1
 )
 )
 &
