@@ -661,6 +661,14 @@ _parameters
 null
 ;
 }
+connect
+(
+{
+frontendVersion
+}
+)
+{
+}
 getRoot
 (
 )
