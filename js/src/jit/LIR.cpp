@@ -185,6 +185,10 @@ argumentSlotCount_
 (
 0
 )
+extraSafepointUses_
+(
+0
+)
 mir_
 (
 *

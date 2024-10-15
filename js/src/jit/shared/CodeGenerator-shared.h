@@ -224,7 +224,7 @@ Vector
 <
 CodegenSafepointIndex
 0
-BackgroundSystemAllocPolicy
+JitAllocPolicy
 >
 safepointIndices_
 ;
