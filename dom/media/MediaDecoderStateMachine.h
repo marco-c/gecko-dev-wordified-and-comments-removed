@@ -1047,9 +1047,6 @@ bool
 mDispatchedStateMachine
 ;
 DelayedScheduler
-<
-TimeStamp
->
 mDelayedScheduler
 ;
 MediaQueue
@@ -1221,9 +1218,6 @@ bool
 mVideoDecodeSuspended
 ;
 DelayedScheduler
-<
-TimeStamp
->
 mVideoDecodeSuspendTimer
 ;
 VideoDecodeMode

@@ -67,15 +67,6 @@ h
 #
 include
 "
-mozilla
-/
-TimeStamp
-.
-h
-"
-#
-include
-"
 nsISerialEventTarget
 .
 h
@@ -907,9 +898,6 @@ TrackRate
 mInputSampleRate
 ;
 DelayedScheduler
-<
-TimeStamp
->
 mDelayedScheduler
 ;
 bool

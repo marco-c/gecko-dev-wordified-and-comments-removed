@@ -2649,9 +2649,6 @@ timer
 MakeRefPtr
 <
 MediaTimer
-<
-TimeStamp
->
 >
 (
 false
@@ -2662,10 +2659,7 @@ timer
 >
 WaitFor
 (
-TimeStamp
-:
-:
-DurationType
+TimeDuration
 :
 :
 FromMilliseconds

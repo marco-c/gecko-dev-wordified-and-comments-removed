@@ -4034,9 +4034,6 @@ mIsPrerolling
 true
 ;
 DelayedScheduler
-<
-TimeStamp
->
 mDormantTimer
 ;
 MediaEventListener
