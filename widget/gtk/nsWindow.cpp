@@ -1173,7 +1173,7 @@ GdkEventType
 ;
 #
 endif
-const
+constexpr
 gint
 kEvents
 =
