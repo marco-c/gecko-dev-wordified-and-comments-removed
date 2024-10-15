@@ -13860,6 +13860,7 @@ selectedBrowser
 this
 .
 searchModeSwitcher
+?
 .
 onSearchModeChanged
 (
@@ -24709,6 +24710,7 @@ true
 this
 .
 searchModeSwitcher
+?
 .
 onSearchModeChanged
 (
