@@ -3361,7 +3361,6 @@ DeviceColor
 {
 public
 :
-constexpr
 DeviceColor
 (
 )
@@ -3392,7 +3391,6 @@ a
 )
 {
 }
-constexpr
 DeviceColor
 (
 Float
@@ -3423,7 +3421,6 @@ aA
 )
 {
 }
-constexpr
 DeviceColor
 (
 Float
