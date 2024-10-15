@@ -69,7 +69,7 @@ IShmemAllocator
 {
 public
 :
-NS_IMETHODIMP_
+NS_IMETHOD_
 (
 MozExternalRefCountType
 )
@@ -79,7 +79,7 @@ void
 )
 override
 ;
-NS_IMETHODIMP_
+NS_IMETHOD_
 (
 MozExternalRefCountType
 )
