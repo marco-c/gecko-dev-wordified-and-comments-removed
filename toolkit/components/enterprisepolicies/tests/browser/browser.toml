@@ -47,14 +47,14 @@ browser_policies_gpo
 js
 "
 ]
-skip
+run
 -
 if
 =
 [
 "
 os
-!
+=
 =
 '
 win

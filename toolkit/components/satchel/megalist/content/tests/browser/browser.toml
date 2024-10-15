@@ -1,12 +1,13 @@
 [
 DEFAULT
 ]
-skip
+run
 -
 if
 =
 [
 "
+!
 release_or_beta
 "
 ]
