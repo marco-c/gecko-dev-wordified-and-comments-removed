@@ -984,13 +984,6 @@ Expect
 number
 (
 )
-secureConnectionStart
-:
-Expect
-.
-number
-(
-)
 tcpConnectEnd
 :
 Expect
