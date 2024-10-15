@@ -290,7 +290,7 @@ querySelector
 (
 "
 #
-titlebar
+TabsToolbar
 "
 )
 )
