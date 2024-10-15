@@ -1304,6 +1304,13 @@ attribute
 boolean
 isFormSubmission
 ;
+[
+infallible
+]
+attribute
+boolean
+isGETRequest
+;
 readonly
 attribute
 nsContentPolicyType

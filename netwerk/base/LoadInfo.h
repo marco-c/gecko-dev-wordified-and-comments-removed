@@ -790,6 +790,8 @@ aIsThirdPartyContextToTopWindow
 bool
 aIsFormSubmission
 bool
+aIsGETRequest
+bool
 aSendCSPViolationEvents
 const
 OriginAttributes
@@ -1333,6 +1335,11 @@ bool
 mIsFormSubmission
 =
 false
+;
+bool
+mIsGETRequest
+=
+true
 ;
 bool
 mSendCSPViolationEvents

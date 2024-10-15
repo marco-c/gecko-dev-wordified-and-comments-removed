@@ -575,6 +575,9 @@ bool
 isFormSubmission
 ;
 bool
+isGETRequest
+;
+bool
 sendCSPViolationEvents
 ;
 OriginAttributes

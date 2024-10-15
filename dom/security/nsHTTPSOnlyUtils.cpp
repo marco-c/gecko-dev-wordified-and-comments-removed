@@ -1723,10 +1723,11 @@ false
 }
 if
 (
+!
 aLoadInfo
 -
 >
-GetIsFormSubmission
+GetIsGETRequest
 (
 )
 )

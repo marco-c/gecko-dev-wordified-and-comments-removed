@@ -3230,6 +3230,12 @@ GetIsFormSubmission
 aLoadInfo
 -
 >
+GetIsGETRequest
+(
+)
+aLoadInfo
+-
+>
 GetSendCSPViolationEvents
 (
 )
@@ -4877,6 +4883,11 @@ isThirdPartyContextToTopWindow
 loadInfoArgs
 .
 isFormSubmission
+(
+)
+loadInfoArgs
+.
+isGETRequest
 (
 )
 loadInfoArgs
