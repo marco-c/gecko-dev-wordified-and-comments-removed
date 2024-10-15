@@ -6,12 +6,17 @@ GeckoViewHistory
 h
 "
 #
+ifdef
+MOZ_WIDGET_ANDROID
+#
 include
 "
 JavaBuiltins
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -1337,6 +1342,9 @@ return
 NS_OK
 ;
 }
+#
+ifdef
+MOZ_WIDGET_ANDROID
 AutoTArray
 <
 jni
@@ -1806,6 +1814,8 @@ callback
 )
 )
 ;
+#
+endif
 return
 NS_OK
 ;
@@ -2414,6 +2424,9 @@ kGetVisitedMessage
 return
 ;
 }
+#
+ifdef
+MOZ_WIDGET_ANDROID
 auto
 uris
 =
@@ -2658,6 +2671,8 @@ callback
 )
 )
 ;
+#
+endif
 }
 void
 GeckoViewHistory
