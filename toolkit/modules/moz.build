@@ -1303,6 +1303,13 @@ sys
 mjs
 "
 "
+FinderSound
+.
+sys
+.
+mjs
+"
+"
 FirstStartup
 .
 sys
