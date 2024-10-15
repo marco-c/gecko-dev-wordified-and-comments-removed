@@ -857,6 +857,13 @@ h
 #
 include
 "
+NotifyUtils
+.
+h
+"
+#
+include
+"
 nsBaseHashtable
 .
 h
@@ -28568,6 +28575,13 @@ Dispatch
 this
 NS_DISPATCH_NORMAL
 )
+)
+;
+localstorage
+:
+:
+NotifyDatabaseWorkStarted
+(
 )
 ;
 }

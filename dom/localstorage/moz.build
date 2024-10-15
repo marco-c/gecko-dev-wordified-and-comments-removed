@@ -240,6 +240,11 @@ LSWriteOptimizer
 cpp
 "
 "
+NotifyUtils
+.
+cpp
+"
+"
 ReportInternalError
 .
 cpp

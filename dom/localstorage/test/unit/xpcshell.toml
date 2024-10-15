@@ -389,6 +389,13 @@ js
 "
 [
 "
+test_databaseWorkStarted
+.
+js
+"
+]
+[
+"
 test_eviction
 .
 js
