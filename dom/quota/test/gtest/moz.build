@@ -86,6 +86,11 @@ TestForwardDecls
 cpp
 "
 "
+TestMozPromiseUtils
+.
+cpp
+"
+"
 TestOriginParser
 .
 cpp
