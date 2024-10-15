@@ -7824,6 +7824,13 @@ returncode
 0
 :
         
+shutil
+.
+rmtree
+(
+virtualenv_root
+)
+        
 if
 "
 No
