@@ -442,6 +442,16 @@ PrintTargetPDF
 cpp
 "
 ]
+UNIFIED_SOURCES
++
+=
+[
+"
+AndroidSystemFontIterator
+.
+cpp
+"
+]
 elif
 CONFIG
 [
