@@ -68,6 +68,12 @@ loader
 transforms
 :
 -
+taskgraph
+.
+transforms
+.
+chunking
+-
 gecko_taskgraph
 .
 transforms
