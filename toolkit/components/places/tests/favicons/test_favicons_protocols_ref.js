@@ -325,7 +325,7 @@ io
 .
 newURI
 (
-ICON32_URL
+ICON16_URL
 )
 )
 "
@@ -335,7 +335,7 @@ Size
 should
 return
 the
-32px
+16px
 icon
 "
 )
