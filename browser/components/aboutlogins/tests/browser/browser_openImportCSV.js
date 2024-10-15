@@ -285,9 +285,7 @@ button
 "
 )
 ;
-let
-importButton
-=
+return
 menuButton
 .
 shadowRoot
@@ -303,15 +301,6 @@ import
 file
 "
 )
-;
-importButton
-.
-hidden
-=
-false
-;
-return
-importButton
 ;
 }
 BrowserTestUtils
