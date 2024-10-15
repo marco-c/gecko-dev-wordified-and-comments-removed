@@ -1504,9 +1504,7 @@ this
 .
 tabContainer
 .
-_getVisibleTabs
-(
-)
+visibleTabs
 ;
 }
 getDuplicateTabsToClose
