@@ -616,7 +616,7 @@ JS
 :
 Handle
 <
-TimeZoneRecord
+TimeZoneValue
 >
 timeZone
 JS
@@ -655,7 +655,7 @@ JS
 :
 Handle
 <
-TimeZoneRecord
+TimeZoneValue
 >
 timeZone
 JS
@@ -688,7 +688,7 @@ JS
 :
 Handle
 <
-TimeZoneRecord
+TimeZoneValue
 >
 timeZone
 JS
@@ -723,7 +723,7 @@ JS
 :
 Handle
 <
-TimeZoneRecord
+TimeZoneValue
 >
 timeZone
 JS
@@ -762,7 +762,7 @@ JS
 :
 Handle
 <
-TimeZoneRecord
+TimeZoneValue
 >
 timeZone
 JS
@@ -797,7 +797,7 @@ JS
 :
 Handle
 <
-TimeZoneRecord
+TimeZoneValue
 >
 timeZone
 JS
@@ -840,7 +840,7 @@ JS
 :
 Handle
 <
-TimeZoneRecord
+TimeZoneValue
 >
 timeZone
 JS
@@ -881,7 +881,7 @@ JS
 :
 Handle
 <
-TimeZoneRecord
+TimeZoneValue
 >
 timeZone
 JS
@@ -947,7 +947,7 @@ JS
 :
 Handle
 <
-TimeZoneRecord
+TimeZoneValue
 >
 timeZone
 JS
@@ -1020,7 +1020,7 @@ JS
 :
 Handle
 <
-TimeZoneRecord
+TimeZoneValue
 >
 timeZone
 TemporalDisambiguation

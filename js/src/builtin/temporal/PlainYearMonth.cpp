@@ -2270,12 +2270,12 @@ unwrappedThis
 ;
 Rooted
 <
-TimeZoneRecord
+TimeZoneValue
 >
 timeZone
 (
 cx
-TimeZoneRecord
+TimeZoneValue
 {
 }
 )

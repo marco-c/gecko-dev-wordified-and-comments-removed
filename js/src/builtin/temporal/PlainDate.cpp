@@ -6710,12 +6710,12 @@ temporalDate
 ;
 Rooted
 <
-TimeZoneRecord
+TimeZoneValue
 >
 timeZone
 (
 cx
-TimeZoneRecord
+TimeZoneValue
 {
 }
 )

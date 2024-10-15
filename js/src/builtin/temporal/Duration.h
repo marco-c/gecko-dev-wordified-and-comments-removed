@@ -442,7 +442,7 @@ class
 PlainDateObject
 ;
 class
-TimeZoneRecord
+TimeZoneValue
 ;
 class
 ZonedDateTime
@@ -1075,7 +1075,7 @@ JS
 :
 Handle
 <
-TimeZoneRecord
+TimeZoneValue
 >
 timeZone
 TemporalUnit
