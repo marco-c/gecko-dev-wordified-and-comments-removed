@@ -9000,6 +9000,11 @@ VideoFrame
 %
 p
 ctor
+(
+from
+serialized
+data
+)
 "
 this
 )
@@ -9142,6 +9147,7 @@ LOG
 VideoFrame
 %
 p
+copy
 ctor
 "
 this
