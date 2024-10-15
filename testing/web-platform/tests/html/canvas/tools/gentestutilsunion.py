@@ -2217,7 +2217,7 @@ test
 size
 '
 ]
-list
+tuple
 )
                            
 or
@@ -2858,10 +2858,10 @@ desc
 size
 '
 :
-[
+(
 100
 50
-]
+)
             
 '
 name
@@ -3625,6 +3625,42 @@ self
 .
 _get_template_type
 (
+)
+        
+if
+isinstance
+(
+self
+.
+_params
+[
+'
+size
+'
+]
+list
+)
+:
+            
+self
+.
+_params
+[
+'
+size
+'
+]
+=
+tuple
+(
+self
+.
+_params
+[
+'
+size
+'
+]
 )
         
 if
