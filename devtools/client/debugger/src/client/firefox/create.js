@@ -934,11 +934,6 @@ serviceWorkerStatus
 targetFront
 .
 debuggerServiceWorkerStatus
-isWebExtension
-:
-targetFront
-.
-isWebExtension
 processID
 :
 targetFront

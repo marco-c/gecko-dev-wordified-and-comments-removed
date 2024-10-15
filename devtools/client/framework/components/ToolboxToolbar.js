@@ -1616,13 +1616,13 @@ label
 =
 toolbox
 .
-target
+commands
 .
-isWebExtension
+descriptorFront
+.
+isWebExtensionDescriptor
 ?
 toolbox
-.
-target
 .
 getExtensionPathName
 (
