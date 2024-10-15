@@ -3732,7 +3732,10 @@ IsUncatchableException
 )
 )
 {
-JS_ClearPendingException
+JS
+:
+:
+ReportUncatchableException
 (
 cx
 )

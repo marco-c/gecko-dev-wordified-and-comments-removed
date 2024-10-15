@@ -2083,6 +2083,14 @@ gQuitting
 =
 true
 ;
+JS
+:
+:
+ReportUncatchableException
+(
+cx
+)
+;
 return
 false
 ;
