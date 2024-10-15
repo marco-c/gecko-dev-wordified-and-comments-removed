@@ -314,7 +314,6 @@ BuildSourceImageBufferAttributes
 CVPixelBufferRef
 CreateCVPixelBuffer
 (
-const
 layers
 :
 :
