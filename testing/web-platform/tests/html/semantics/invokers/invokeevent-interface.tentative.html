@@ -277,7 +277,7 @@ assert_equals
 (
 event
 .
-invoker
+source
 null
 )
 ;
@@ -285,7 +285,7 @@ assert_readonly
 (
 event
 "
-invoker
+source
 "
 "
 readonly
@@ -296,7 +296,7 @@ value
 ;
 }
 "
-invoker
+source
 is
 readonly
 defaulting
@@ -816,7 +816,7 @@ command
 "
 sample
 "
-invoker
+source
 :
 document
 .
@@ -849,7 +849,7 @@ assert_equals
 (
 event
 .
-invoker
+source
 document
 .
 body
@@ -879,7 +879,7 @@ command
 "
 open
 "
-invoker
+source
 :
 document
 .
@@ -917,7 +917,7 @@ assert_equals
 (
 event
 .
-invoker
+source
 document
 .
 getElementById
@@ -953,7 +953,7 @@ command
 "
 closed
 "
-invoker
+source
 :
 document
 .
@@ -991,7 +991,7 @@ assert_equals
 (
 event
 .
-invoker
+source
 document
 .
 getElementById
@@ -1028,7 +1028,7 @@ CommandEvent
 test
 "
 {
-invoker
+source
 :
 undefined
 }
@@ -1038,13 +1038,13 @@ assert_equals
 (
 event
 .
-invoker
+source
 null
 )
 ;
 }
 "
-invoker
+source
 set
 to
 undefined
@@ -1067,7 +1067,7 @@ CommandEvent
 test
 "
 {
-invoker
+source
 :
 null
 }
@@ -1077,13 +1077,13 @@ assert_equals
 (
 event
 .
-invoker
+source
 null
 )
 ;
 }
 "
-invoker
+source
 set
 to
 null
@@ -1110,7 +1110,7 @@ CommandEvent
 test
 "
 {
-invoker
+source
 :
 false
 }
@@ -1118,7 +1118,7 @@ false
 ;
 }
 "
-invoker
+source
 is
 not
 an
@@ -1128,7 +1128,7 @@ object
 ;
 }
 "
-invoker
+source
 set
 to
 false
@@ -1158,7 +1158,7 @@ CommandEvent
 test
 "
 {
-invoker
+source
 :
 true
 }
@@ -1166,7 +1166,7 @@ true
 ;
 }
 "
-invoker
+source
 is
 not
 an
@@ -1176,7 +1176,7 @@ object
 ;
 }
 "
-invoker
+source
 set
 to
 true
@@ -1206,7 +1206,7 @@ CommandEvent
 test
 "
 {
-invoker
+source
 :
 {
 }
@@ -1215,7 +1215,7 @@ invoker
 ;
 }
 "
-invoker
+source
 is
 not
 an
@@ -1225,7 +1225,7 @@ object
 ;
 }
 "
-invoker
+source
 set
 to
 {
@@ -1255,7 +1255,7 @@ command
 "
 closed
 "
-invoker
+source
 :
 new
 XMLHttpRequest
@@ -1277,7 +1277,7 @@ eventInit
 ;
 }
 "
-invoker
+source
 is
 not
 an
@@ -1287,7 +1287,7 @@ Element
 ;
 }
 "
-invoker
+source
 set
 to
 non

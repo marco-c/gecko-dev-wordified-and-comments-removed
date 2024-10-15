@@ -1,12 +1,12 @@
 interface
 mixin
-InvokerElement
+CommandElement
 {
 [
 CEReactions
 Reflect
 =
-invoketarget
+commandfor
 ]
 attribute
 Element
@@ -17,7 +17,7 @@ commandForElement
 CEReactions
 Reflect
 =
-invokeaction
+command
 ]
 attribute
 DOMString
@@ -46,7 +46,7 @@ readonly
 attribute
 Element
 ?
-invoker
+source
 ;
 readonly
 attribute
@@ -62,7 +62,7 @@ EventInit
 {
 Element
 ?
-invoker
+source
 =
 null
 ;
