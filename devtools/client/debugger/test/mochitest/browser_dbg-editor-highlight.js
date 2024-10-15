@@ -170,6 +170,9 @@ source
 "
 )
 ;
+const
+onSourceSelected
+=
 selectSource
 (
 dbg
@@ -216,15 +219,7 @@ null
 )
 ;
 await
-waitForSelectedSource
-(
-dbg
-"
-simple1
-.
-js
-"
-)
+onSourceSelected
 ;
 ok
 (
