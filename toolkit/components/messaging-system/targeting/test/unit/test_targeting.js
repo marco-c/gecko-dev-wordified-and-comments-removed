@@ -704,7 +704,7 @@ equal
 (
 event
 "
-attribute_error
+AttributeError
 "
 "
 Correct
@@ -987,7 +987,7 @@ equal
 (
 event
 "
-attribute_error
+AttributeError
 "
 "
 Correct
@@ -1174,7 +1174,7 @@ equal
 (
 event
 "
-attribute_timeout
+AttributeTimeout
 "
 "
 Correct
