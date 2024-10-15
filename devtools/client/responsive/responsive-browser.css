@@ -304,6 +304,16 @@ browserStack
 >
 .
 dialogStack
+:
+not
+(
+.
+content
+-
+prompt
+-
+dialog
+)
 >
 .
 dialogTemplate
