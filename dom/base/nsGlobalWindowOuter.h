@@ -4095,11 +4095,6 @@ ErrorResult
 aError
 )
 ;
-bool
-ConfirmDialogIfNeeded
-(
-)
-;
 void
 CheckForDPIChange
 (
