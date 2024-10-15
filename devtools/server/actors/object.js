@@ -409,6 +409,14 @@ obj
 ;
 this
 .
+targetActor
+=
+threadActor
+.
+targetActor
+;
+this
+.
 threadActor
 =
 threadActor

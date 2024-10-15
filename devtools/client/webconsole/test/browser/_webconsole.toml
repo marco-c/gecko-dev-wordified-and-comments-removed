@@ -2558,6 +2558,13 @@ js
 ]
 [
 "
+browser_webconsole_console_detection
+.
+js
+"
+]
+[
+"
 browser_webconsole_console_dir
 .
 js
