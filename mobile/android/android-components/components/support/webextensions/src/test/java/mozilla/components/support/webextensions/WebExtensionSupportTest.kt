@@ -301,6 +301,18 @@ engine
 .
 webextension
 .
+PermissionPromptResponse
+import
+mozilla
+.
+components
+.
+concept
+.
+engine
+.
+webextension
+.
 TabHandler
 import
 mozilla
@@ -3513,7 +3525,7 @@ onPermissionsGranted
 :
 (
 (
-Boolean
+PermissionPromptResponse
 )
 -
 >

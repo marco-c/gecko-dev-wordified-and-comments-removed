@@ -262,7 +262,7 @@ android_gradle_plugin
 "
 8
 .
-6
+5
 .
 1
 "
