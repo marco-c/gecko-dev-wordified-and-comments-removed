@@ -359,9 +359,9 @@ Actor
 {
 constructor
 (
+thread
 obj
 {
-thread
 createValueGrip
 :
 createValueGripHook
@@ -371,11 +371,12 @@ decrementGripDepth
 customFormatterObjectTagDepth
 customFormatterConfigDbgObj
 }
-conn
 )
 {
 super
 (
+thread
+.
 conn
 objectSpec
 )
