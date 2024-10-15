@@ -2239,7 +2239,7 @@ R
 .
 string
 .
-mozac_feature_addons_status_blocklisted
+mozac_feature_addons_status_blocklisted_1
 }
 else
 if
@@ -2263,7 +2263,7 @@ R
 .
 string
 .
-mozac_feature_addons_status_softblocked
+mozac_feature_addons_status_softblocked_1
 }
 addonName
 )
