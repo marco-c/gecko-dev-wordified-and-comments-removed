@@ -749,9 +749,14 @@ aBrowsingContext
 )
 ;
 return
-aBrowsingContext
+this
 .
-currentURI
+realCAService
+.
+getURIForBrowsingContext
+(
+aBrowsingContext
+)
 ;
 }
 }
