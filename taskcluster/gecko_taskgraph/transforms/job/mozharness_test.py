@@ -3556,6 +3556,25 @@ if
 test_tags
 :
         
+if
+test
+[
+"
+suite
+"
+]
+not
+in
+[
+"
+talos
+"
+"
+raptor
+"
+]
+:
+            
 env
 [
 "
@@ -3569,7 +3588,7 @@ dumps
 (
 test_tags
 )
-        
+            
 mh_command
 .
 extend
