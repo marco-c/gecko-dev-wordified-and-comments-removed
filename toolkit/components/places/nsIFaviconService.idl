@@ -17,6 +17,9 @@ mozIPlacesPendingOperation
 interface
 nsIFaviconDataCallback
 ;
+interface
+PlacesCompletionCallback
+;
 [
 scriptable
 uuid
@@ -109,11 +112,7 @@ attribute
 AUTF8String
 defaultFaviconMimeType
 ;
-[
-implicit_jscontext
-must_use
-]
-Promise
+void
 setFaviconForPage
 (
 in
@@ -131,6 +130,12 @@ optional
 in
 PRTime
 aExpiration
+[
+optional
+]
+in
+PlacesCompletionCallback
+aCallback
 [
 optional
 ]

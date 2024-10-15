@@ -5611,6 +5611,9 @@ of
 favicons
 )
 {
+let
+dataURL
+;
 try
 {
 /
@@ -5649,7 +5652,6 @@ faviconData
 length
 )
 ;
-let
 dataURL
 =
 await
@@ -5783,13 +5785,6 @@ newURI
 dataURL
 )
 )
-.
-catch
-(
-console
-.
-warn
-)
 ;
 }
 catch
@@ -5815,6 +5810,8 @@ warn
 (
 e
 )
+;
+continue
 ;
 }
 }

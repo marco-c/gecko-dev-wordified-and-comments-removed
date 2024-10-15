@@ -617,14 +617,8 @@ toPRTime
 (
 expiration
 )
+null
 isRichIcon
-)
-.
-catch
-(
-console
-.
-error
 )
 ;
 }
