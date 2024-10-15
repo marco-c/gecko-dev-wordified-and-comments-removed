@@ -743,14 +743,6 @@ ipc
 PrincipalInfo
 &
 aPrincipalInfo
-Maybe
-<
-Client
-:
-:
-Type
->
-aClientType
 )
 ;
 RefPtr

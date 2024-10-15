@@ -26037,14 +26037,6 @@ const
 PrincipalInfo
 &
 aPrincipalInfo
-Maybe
-<
-Client
-:
-:
-Type
->
-aClientType
 )
 {
 AssertIsOnOwningThread
@@ -26062,7 +26054,6 @@ this
 )
 aPersistenceType
 aPrincipalInfo
-aClientType
 )
 ;
 RegisterNormalOriginOp
