@@ -1160,7 +1160,7 @@ Events
 default
 to
 recording
-disabled
+enabled
 .
 This
 allows

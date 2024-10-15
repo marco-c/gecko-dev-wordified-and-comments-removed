@@ -1228,6 +1228,14 @@ object1
 ;
 Telemetry
 .
+setEventRecordingEnabled
+(
+TEST_EVENT_NAME
+false
+)
+;
+Telemetry
+.
 recordEvent
 (
 TEST_EVENT_NAME
