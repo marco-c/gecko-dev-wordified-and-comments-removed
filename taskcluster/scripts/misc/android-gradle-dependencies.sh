@@ -112,6 +112,10 @@ lint
 rules
 :
 test
+:
+benchmark
+:
+assembleBenchmark
 popd
 pushd
 mobile
