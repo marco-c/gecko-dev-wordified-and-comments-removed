@@ -96,14 +96,14 @@ Services
 .
 qms
 .
-clearStoragesForPrincipal
+clearStoragesForClient
 (
 principal
 "
-default
-"
-"
 ls
+"
+"
+default
 "
 )
 ;
@@ -696,7 +696,7 @@ actualKey
 }
 requestLongerTimeout
 (
-4
+6
 )
 ;
 add_task
