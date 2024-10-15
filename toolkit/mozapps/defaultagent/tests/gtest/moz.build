@@ -14,6 +14,11 @@ CacheTest
 cpp
 "
 "
+DefaultAgentTest
+.
+cpp
+"
+"
 SetDefaultBrowserTest
 .
 cpp

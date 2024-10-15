@@ -45,6 +45,14 @@ default
 ;
 }
 ;
+nsresult
+getSecondsSinceLastAppRun
+(
+int64_t
+*
+secondsElapsed
+)
+;
 }
 #
 endif
