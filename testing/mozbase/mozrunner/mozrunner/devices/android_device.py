@@ -20,8 +20,6 @@ import
 telnetlib
 import
 time
-import
-urllib
 from
 collections
 import
@@ -37,6 +35,13 @@ mozdevice
 import
 ADBDeviceFactory
 ADBHost
+from
+six
+.
+moves
+import
+input
+urllib
 MOZBUILD_PATH
 =
 os

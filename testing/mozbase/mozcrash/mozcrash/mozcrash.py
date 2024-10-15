@@ -19,8 +19,6 @@ tempfile
 import
 traceback
 import
-urllib
-import
 zipfile
 from
 collections
@@ -1748,6 +1746,10 @@ symbols_path
             
 data
 =
+six
+.
+moves
+.
 urllib
 .
 request

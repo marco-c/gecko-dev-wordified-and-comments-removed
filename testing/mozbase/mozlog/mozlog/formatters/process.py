@@ -2,6 +2,12 @@ import
 os
 import
 signal
+from
+six
+.
+moves
+import
+range
 _SIG_NAME
 =
 None
