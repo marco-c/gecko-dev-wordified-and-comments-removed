@@ -376,7 +376,7 @@ reference
 "
 test_pdf_navigation_base
 -
-nightly
+beta
 .
 png
 "
@@ -393,7 +393,7 @@ reference
 "
 test_pdf_navigation_next
 -
-nightly
+beta
 .
 png
 "
@@ -410,7 +410,7 @@ reference
 "
 test_pdf_navigation_previous
 -
-nightly
+beta
 .
 png
 "
@@ -427,7 +427,7 @@ reference
 "
 test_pdf_navigation_down
 -
-nightly
+beta
 .
 png
 "
@@ -444,7 +444,7 @@ reference
 "
 test_pdf_navigation_up
 -
-nightly
+beta
 .
 png
 "
@@ -461,7 +461,7 @@ reference
 "
 test_pdf_navigation_right
 -
-nightly
+beta
 .
 png
 "
@@ -478,7 +478,7 @@ reference
 "
 test_pdf_navigation_left
 -
-nightly
+beta
 .
 png
 "
@@ -495,7 +495,7 @@ reference
 "
 test_pdf_navigation_pagedown
 -
-nightly
+beta
 .
 png
 "
@@ -512,7 +512,7 @@ reference
 "
 test_pdf_navigation_pageup
 -
-nightly
+beta
 .
 png
 "
@@ -529,7 +529,7 @@ reference
 "
 test_pdf_navigation_end
 -
-nightly
+beta
 .
 png
 "
@@ -546,7 +546,7 @@ reference
 "
 test_pdf_navigation_home
 -
-nightly
+beta
 .
 png
 "
@@ -563,7 +563,7 @@ reference
 "
 test_pdf_navigation_firstPage
 -
-nightly
+beta
 .
 png
 "
@@ -580,7 +580,7 @@ reference
 "
 test_pdf_navigation_lastPage
 -
-nightly
+beta
 .
 png
 "
@@ -597,7 +597,7 @@ reference
 "
 test_pdf_navigation_pageRotateCw
 -
-nightly
+beta
 .
 png
 "
@@ -614,7 +614,7 @@ reference
 "
 test_pdf_navigation_pageRotateCcw
 -
-nightly
+beta
 .
 png
 "
@@ -631,7 +631,7 @@ reference
 "
 test_pdf_navigation_documentProperties
 -
-nightly
+beta
 .
 png
 "
@@ -648,7 +648,7 @@ reference
 "
 test_pdf_navigation_select_text_with_highlight
 -
-nightly
+beta
 .
 png
 "
@@ -665,7 +665,7 @@ reference
 "
 test_pdf_navigation_select_text_without_highlight
 -
-nightly
+beta
 .
 png
 "
@@ -682,7 +682,7 @@ reference
 "
 test_pdf_navigation_hand_tool
 -
-nightly
+beta
 .
 png
 "
@@ -1453,7 +1453,7 @@ reference
 "
 test_pdf_zoom_p1_50p
 -
-nightly
+beta
 .
 png
 "
@@ -1470,7 +1470,7 @@ reference
 "
 test_pdf_zoom_p1_75p
 -
-nightly
+beta
 .
 png
 "
@@ -1487,7 +1487,7 @@ reference
 "
 test_pdf_zoom_p1_100p
 -
-nightly
+beta
 .
 png
 "
@@ -1504,7 +1504,7 @@ reference
 "
 test_pdf_zoom_p1_150p
 -
-nightly
+beta
 .
 png
 "
@@ -1521,7 +1521,7 @@ reference
 "
 test_pdf_zoom_p1_400p
 -
-nightly
+beta
 .
 png
 "
@@ -1538,7 +1538,7 @@ reference
 "
 test_pdf_zoom_p1_actual
 -
-nightly
+beta
 .
 png
 "
@@ -1555,7 +1555,7 @@ reference
 "
 test_pdf_zoom_p1_fit
 -
-nightly
+beta
 .
 png
 "
@@ -1572,7 +1572,7 @@ reference
 "
 test_pdf_zoom_p1_width
 -
-nightly
+beta
 .
 png
 "
@@ -1875,7 +1875,7 @@ reference
 "
 test_pdf_download_base
 -
-nightly
+beta
 .
 png
 "
