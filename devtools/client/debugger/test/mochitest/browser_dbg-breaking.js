@@ -124,6 +124,7 @@ breakpoint
 "
 )
 ;
+await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -214,6 +215,7 @@ source
 "
 )
 ;
+await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -290,6 +292,7 @@ waitForPaused
 dbg
 )
 ;
+await
 assertPausedAtSourceAndLine
 (
 dbg

@@ -98,6 +98,7 @@ dbg
 31
 )
 ;
+await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -169,6 +170,7 @@ column
 }
 )
 ;
+await
 assertPausedAtSourceAndLine
 (
 dbg

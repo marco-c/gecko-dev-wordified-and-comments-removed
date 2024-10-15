@@ -323,6 +323,7 @@ js
 "
 )
 ;
+await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -388,6 +389,7 @@ js
 "
 )
 ;
+await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -440,6 +442,7 @@ stepOut
 dbg
 )
 ;
+await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -552,6 +555,7 @@ js
 "
 )
 ;
+await
 assertPausedAtSourceAndLine
 (
 dbg

@@ -344,6 +344,7 @@ js
 "
 )
 ;
+await
 assertPausedAtSourceAndLine
 (
 debuggerContext

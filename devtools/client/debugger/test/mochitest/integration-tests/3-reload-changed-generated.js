@@ -524,6 +524,7 @@ file
 "
 )
 ;
+await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -588,6 +589,7 @@ jumpToMappedSelectedLocation
 (
 )
 ;
+await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -682,6 +684,7 @@ line
 "
 )
 ;
+await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -842,6 +845,7 @@ dbg
 }
 else
 {
+await
 assertPausedAtSourceAndLine
 (
 dbg
