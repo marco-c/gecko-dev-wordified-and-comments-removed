@@ -698,6 +698,12 @@ PerformanceResourceTiming
 PerformanceServerTiming
 "
 "
+Permissions
+"
+"
+PermissionStatus
+"
+"
 ProgressEvent
 "
 "

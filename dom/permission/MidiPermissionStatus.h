@@ -32,9 +32,9 @@ public
 :
 MidiPermissionStatus
 (
-nsPIDOMWindowInner
+nsIGlobalObject
 *
-aWindow
+aGlobal
 bool
 aSysex
 )
