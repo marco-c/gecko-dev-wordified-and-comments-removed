@@ -11188,8 +11188,6 @@ const
 OriginMetadata
 &
 aOriginMetadata
-bool
-aPersisted
 )
 {
 AssertIsOnIOThread
@@ -11267,13 +11265,6 @@ LockedAccessTime
 originInfo
 -
 >
-mPersisted
-=
-aPersisted
-;
-originInfo
--
->
 mDirectoryExists
 =
 true
@@ -11315,7 +11306,7 @@ ClientUsageArray
 )
 0
 timestamp
-aPersisted
+false
 true
 )
 )
@@ -24819,7 +24810,6 @@ timestamp
 NoteOriginDirectoryCreated
 (
 aOriginMetadata
-false
 )
 ;
 QM_TRY
