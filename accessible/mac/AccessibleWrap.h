@@ -123,6 +123,15 @@ aEvent
 )
 override
 ;
+static
+bool
+IsLiveRegion
+(
+nsIContent
+*
+aContent
+)
+;
 protected
 :
 friend
