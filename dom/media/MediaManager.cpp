@@ -1207,11 +1207,17 @@ const
 RefPtr
 <
 MediaTimer
+<
+TimeStamp
+>
 >
 mDisableTimer
 =
 new
 MediaTimer
+<
+TimeStamp
+>
 (
 )
 ;
@@ -13555,6 +13561,9 @@ mDeviceChangeTimer
 MakeRefPtr
 <
 MediaTimer
+<
+TimeStamp
+>
 >
 (
 )
