@@ -1,0 +1,11 @@
+window
+.
+operations
+.
+push
+(
+"
+script
+"
+)
+;
