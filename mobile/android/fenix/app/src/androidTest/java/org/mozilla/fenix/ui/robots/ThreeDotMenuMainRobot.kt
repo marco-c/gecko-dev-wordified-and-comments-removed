@@ -1824,9 +1824,6 @@ refreshButton
 fun
 verifyHomeThreeDotMainMenuItems
 (
-isRequestDesktopSiteEnabled
-:
-Boolean
 )
 {
 assertUIObjectExists
@@ -1872,9 +1869,6 @@ issues
 /
 /
 syncAndSaveDataButton
-desktopSiteButton
-(
-)
 whatsNewButton
 (
 )
@@ -1886,10 +1880,6 @@ customizeHomeButton
 )
 settingsButton
 (
-)
-desktopSiteToggle
-(
-isRequestDesktopSiteEnabled
 )
 )
 }
