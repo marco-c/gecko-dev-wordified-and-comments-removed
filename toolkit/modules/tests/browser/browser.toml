@@ -160,6 +160,13 @@ re
 enabling
 [
 "
+browser_FinderSound
+.
+js
+"
+]
+[
+"
 browser_Finder_hidden_textarea
 .
 js
@@ -292,6 +299,13 @@ js
 [
 "
 browser_Finder_skip_invisible_and_option
+.
+js
+"
+]
+[
+"
+browser_Finder_sound
 .
 js
 "

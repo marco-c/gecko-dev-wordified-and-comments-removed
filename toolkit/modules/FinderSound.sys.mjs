@@ -155,6 +155,17 @@ null
 ;
 export
 function
+resetSound
+(
+)
+{
+gSound
+=
+null
+;
+}
+export
+function
 initNotFoundSound
 (
 )

@@ -102,6 +102,15 @@ mjs
 "
 content
 /
+MockSound
+.
+sys
+.
+mjs
+"
+"
+content
+/
 SpecialPowersChild
 .
 sys
