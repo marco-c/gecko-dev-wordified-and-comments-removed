@@ -357,6 +357,15 @@ Telemetry
 (
 )
 ;
+this
+.
+_telemetry
+.
+setEventRecordingEnabled
+(
+true
+)
+;
 }
 return
 this

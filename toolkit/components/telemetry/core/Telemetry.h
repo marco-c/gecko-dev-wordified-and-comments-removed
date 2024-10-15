@@ -1643,6 +1643,17 @@ key
 ;
 }
 ;
+void
+SetEventRecordingEnabled
+(
+const
+nsACString
+&
+aCategory
+bool
+aEnabled
+)
+;
 }
 }
 #

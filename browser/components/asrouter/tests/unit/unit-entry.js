@@ -1893,6 +1893,14 @@ notifyObservers
 telemetry
 :
 {
+setEventRecordingEnabled
+:
+(
+)
+=
+>
+{
+}
 scalarSet
 :
 (

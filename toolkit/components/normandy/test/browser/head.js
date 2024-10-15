@@ -333,6 +333,12 @@ message
 ;
 }
 ;
+TelemetryEvents
+.
+init
+(
+)
+;
 this
 .
 TEST_XPI_URL
