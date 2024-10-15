@@ -4282,6 +4282,7 @@ ref
 other
 =
 >
+{
 return
 Err
 (
@@ -4311,6 +4312,7 @@ _
 )
 )
 )
+}
 }
 ;
 let
@@ -4424,6 +4426,7 @@ ref
 other
 =
 >
+{
 return
 Err
 (
@@ -4454,6 +4457,7 @@ _
 )
 )
 }
+}
 Mf
 :
 :
@@ -4470,6 +4474,7 @@ ok_or_else
 (
 |
 |
+{
 ResolveError
 :
 :
@@ -4491,6 +4496,7 @@ None
 "
 )
 )
+}
 )
 ?
 ;
@@ -4562,6 +4568,7 @@ right
 )
 =
 >
+{
 return
 Err
 (
@@ -4595,6 +4602,7 @@ right
 )
 )
 )
+}
 }
 }
 Mf
@@ -4648,6 +4656,7 @@ _
 }
 =
 >
+{
 TypeResolution
 :
 :
@@ -4661,10 +4670,12 @@ Scalar
 scalar
 )
 )
+}
 ref
 other
 =
 >
+{
 return
 Err
 (
@@ -4693,6 +4704,7 @@ other
 )
 )
 )
+}
 }
 Mf
 :
@@ -4810,6 +4822,7 @@ ref
 other
 =
 >
+{
 return
 Err
 (
@@ -4838,6 +4851,7 @@ other
 )
 )
 )
+}
 }
 Mf
 :
@@ -4889,6 +4903,7 @@ ref
 other
 =
 >
+{
 return
 Err
 (
@@ -4917,6 +4932,7 @@ other
 )
 )
 )
+}
 }
 Mf
 :
@@ -4961,6 +4977,7 @@ ref
 other
 =
 >
+{
 return
 Err
 (
@@ -4989,6 +5006,7 @@ other
 )
 )
 )
+}
 }
 Mf
 :
@@ -5142,6 +5160,7 @@ ref
 other
 =
 >
+{
 return
 Err
 (
@@ -5170,6 +5189,7 @@ other
 )
 )
 )
+}
 }
 Mf
 :
@@ -5283,6 +5303,7 @@ Mf
 Unpack2x16float
 =
 >
+{
 TypeResolution
 :
 :
@@ -5313,6 +5334,7 @@ Scalar
 F32
 }
 )
+}
 Mf
 :
 :

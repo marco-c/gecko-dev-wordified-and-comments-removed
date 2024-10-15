@@ -1896,15 +1896,15 @@ self
 out
 "
 {
+level
 }
 {
+var_name
 }
 .
 Store
 (
 "
-level
-var_name
 )
 ?
 ;

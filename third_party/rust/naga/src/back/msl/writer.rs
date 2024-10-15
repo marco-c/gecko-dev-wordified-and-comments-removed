@@ -23995,6 +23995,7 @@ self
 out
 "
 {
+struct_name
 }
 {
 defined_func_name
@@ -24032,6 +24033,7 @@ other
 ;
 return
 {
+struct_name
 }
 {
 {
@@ -24043,8 +24045,6 @@ other
 }
 }
 "
-struct_name
-struct_name
 )
 ?
 ;

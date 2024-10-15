@@ -250,6 +250,10 @@ allow
 unused_qualifications
 )
 ]
+#
+[
+automatically_derived
+]
 impl
 #
 impl_generics
@@ -323,6 +327,10 @@ allow
 (
 unused_qualifications
 )
+]
+#
+[
+automatically_derived
 ]
 impl
 #
@@ -1372,6 +1380,10 @@ allow
 unused_qualifications
 )
 ]
+#
+[
+automatically_derived
+]
 impl
 #
 impl_generics
@@ -1493,6 +1505,10 @@ allow
 (
 unused_qualifications
 )
+]
+#
+[
+automatically_derived
 ]
 impl
 #
@@ -1624,6 +1640,10 @@ allow
 (
 unused_qualifications
 )
+]
+#
+[
+automatically_derived
 ]
 impl
 #
@@ -3157,6 +3177,10 @@ allow
 unused_qualifications
 )
 ]
+#
+[
+automatically_derived
+]
 impl
 #
 impl_generics
@@ -3319,6 +3343,10 @@ allow
 unused_qualifications
 )
 ]
+#
+[
+automatically_derived
+]
 impl
 #
 impl_generics
@@ -3454,6 +3482,10 @@ allow
 (
 unused_qualifications
 )
+]
+#
+[
+automatically_derived
 ]
 impl
 #

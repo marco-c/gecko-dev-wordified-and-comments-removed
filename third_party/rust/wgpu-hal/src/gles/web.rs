@@ -293,6 +293,9 @@ String
 :
 from
 (
+concat
+!
+(
 "
 canvas
 .
@@ -302,6 +305,8 @@ getContext
 returned
 null
 ;
+"
+"
 webgl2
 not
 available
@@ -311,6 +316,7 @@ already
 in
 use
 "
+)
 )
 )
 )

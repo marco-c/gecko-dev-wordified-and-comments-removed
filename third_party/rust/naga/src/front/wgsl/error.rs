@@ -1525,7 +1525,6 @@ token
 )
 =
 >
-{
 match
 token
 {
@@ -1708,6 +1707,7 @@ c
 '
 =
 >
+{
 format
 !
 (
@@ -1726,6 +1726,7 @@ c
 )
 "
 )
+}
 Token
 :
 :
@@ -1842,7 +1843,6 @@ to_string
 (
 )
 }
-}
 ExpectedToken
 :
 :
@@ -1892,6 +1892,9 @@ ExpectedToken
 SwitchItem
 =
 >
+concat
+!
+(
 "
 switch
 item
@@ -1909,6 +1912,8 @@ a
 closing
 curly
 bracket
+"
+"
 to
 signify
 the
@@ -1923,6 +1928,7 @@ statement
 '
 )
 "
+)
 .
 to_string
 (
@@ -1933,6 +1939,7 @@ ExpectedToken
 WorkgroupSizeSeparator
 =
 >
+{
 "
 workgroup
 size
@@ -1950,12 +1957,16 @@ parenthesis
 to_string
 (
 )
+}
 ExpectedToken
 :
 :
 GlobalItem
 =
 >
+concat
+!
+(
 "
 global
 item
@@ -1979,6 +1990,8 @@ alias
 fn
 '
 )
+"
+"
 or
 the
 end
@@ -1986,6 +1999,7 @@ of
 the
 file
 "
+)
 .
 to_string
 (
@@ -2579,12 +2593,17 @@ ParseError
 {
 message
 :
+concat
+!
+(
 "
 increment
 /
 decrement
 operation
 requires
+"
+"
 reference
 type
 to
@@ -2595,6 +2614,7 @@ i32
 or
 u32
 "
+)
 .
 to_string
 (
@@ -3982,7 +4002,6 @@ got
 }
 =
 >
-{
 ParseError
 {
 message
@@ -4049,7 +4068,6 @@ vec
 !
 [
 ]
-}
 }
 Error
 :
@@ -5509,6 +5527,9 @@ ParseError
 {
 message
 :
+concat
+!
+(
 "
 must
 be
@@ -5517,6 +5538,8 @@ const
 -
 expression
 that
+"
+"
 resolves
 to
 a
@@ -5529,6 +5552,7 @@ or
 i32
 )
 "
+)
 .
 to_string
 (
@@ -5811,13 +5835,13 @@ conversions
 cannot
 convert
 {
-source_type
 }
 to
 {
-dest_type
 }
 "
+source_type
+dest_type
 )
 labels
 :
@@ -5917,13 +5941,13 @@ convert
 elements
 of
 {
-source_type
 }
 to
 {
-dest_scalar
 }
 "
+source_type
+dest_scalar
 )
 labels
 :
@@ -5943,12 +5967,12 @@ elements
 of
 type
 {
-dest_scalar
 }
 is
 required
 here
 "
+dest_scalar
 )
 .
 into
@@ -6029,9 +6053,9 @@ concrete
 type
 :
 {
+inner
 }
 "
-inner
 )
 labels
 :
@@ -6049,9 +6073,9 @@ expression
 has
 type
 {
+expr_type
 }
 "
-expr_type
 )
 .
 into

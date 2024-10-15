@@ -2826,9 +2826,15 @@ range
 start
 as
 u64
+(
 range
 .
 end
+-
+range
+.
+start
+)
 as
 u64
 )

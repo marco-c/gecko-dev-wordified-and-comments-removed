@@ -250,12 +250,17 @@ ErrorKind
 :
 SemanticError
 (
+concat
+!
+(
 "
 Unsupported
 floating
 -
 point
 value
+"
+"
 (
 expected
 single
@@ -267,6 +272,7 @@ point
 number
 )
 "
+)
 .
 into
 (

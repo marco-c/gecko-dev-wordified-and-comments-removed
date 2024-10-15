@@ -2858,6 +2858,17 @@ default
 (
 )
 .
+index_type
+(
+vk
+:
+:
+IndexType
+:
+:
+NONE_KHR
+)
+.
 vertex_data
 (
 vk
