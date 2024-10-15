@@ -8148,6 +8148,11 @@ Socket
 /
 Networking
 process
+RemoteSandboxBroker
+Remote
+Sandbox
+Broker
+process
 ForkServer
 Fork
 Server

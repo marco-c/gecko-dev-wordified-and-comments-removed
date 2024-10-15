@@ -24,6 +24,7 @@ GPU
 VR
 RDD
 Socket
+RemoteSandboxBroker
 ForkServer
 Utility
 [

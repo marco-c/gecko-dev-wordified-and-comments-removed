@@ -864,9 +864,9 @@ mGroupId
 #
 ifdef
 MOZ_SANDBOX
-UniquePtr
+RefPtr
 <
-SandboxBroker
+AbstractSandboxBroker
 >
 mSandboxBroker
 ;
