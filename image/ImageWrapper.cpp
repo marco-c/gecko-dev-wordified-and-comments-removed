@@ -543,7 +543,10 @@ aSize
 )
 ;
 }
+Maybe
+<
 AspectRatio
+>
 ImageWrapper
 :
 :

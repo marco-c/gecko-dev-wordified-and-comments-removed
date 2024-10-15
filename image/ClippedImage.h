@@ -113,7 +113,10 @@ aSize
 )
 override
 ;
+Maybe
+<
 AspectRatio
+>
 GetIntrinsicRatio
 (
 )

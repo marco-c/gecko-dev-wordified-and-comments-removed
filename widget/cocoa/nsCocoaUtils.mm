@@ -2664,6 +2664,12 @@ aImage
 GetIntrinsicRatio
 (
 )
+;
+ratio
+&
+&
+*
+ratio
 )
 {
 if
@@ -2682,7 +2688,8 @@ gotWidth
 height
 =
 ratio
-.
+-
+>
 Inverted
 (
 )
@@ -2698,7 +2705,8 @@ else
 width
 =
 ratio
-.
+-
+>
 ApplyTo
 (
 height
@@ -2728,7 +2736,8 @@ height
 width
 =
 ratio
-.
+-
+>
 ApplyTo
 (
 height
