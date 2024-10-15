@@ -3262,6 +3262,8 @@ resource_cache
 .
 request_render_task
 (
+Some
+(
 RenderTaskCacheKey
 {
 size
@@ -3277,10 +3279,7 @@ BoxShadow
 cache_key
 )
 }
-gpu_cache
-gpu_buffer_builder
-rg_builder
-None
+)
 false
 RenderTaskParent
 :
@@ -3289,7 +3288,12 @@ RenderTask
 (
 clip_task_id
 )
+gpu_cache
+gpu_buffer_builder
+rg_builder
 surface_builder
+&
+mut
 |
 rg_builder
 _
