@@ -12820,7 +12820,7 @@ LiveBundle
 *
 bundle
 bool
-fixed
+hasCall
 LiveBundle
 *
 conflict
@@ -12879,7 +12879,7 @@ true
 }
 if
 (
-fixed
+hasCall
 )
 {
 return
@@ -13415,7 +13415,7 @@ bool
 success
 bool
 *
-pfixed
+hasCall
 LiveBundleVector
 &
 conflicting
@@ -13430,7 +13430,7 @@ MOZ_ASSERT
 (
 !
 *
-pfixed
+hasCall
 )
 ;
 if
@@ -13742,7 +13742,7 @@ get
 )
 ;
 *
-pfixed
+hasCall
 =
 true
 ;
@@ -14106,7 +14106,7 @@ bool
 success
 bool
 *
-pfixed
+hasCall
 LiveBundleVector
 &
 conflicting
@@ -14203,7 +14203,7 @@ i
 ]
 bundle
 success
-pfixed
+hasCall
 conflicting
 )
 )
@@ -14224,7 +14224,7 @@ break
 if
 (
 *
-pfixed
+hasCall
 )
 {
 break
@@ -14265,7 +14265,7 @@ i
 ]
 bundle
 success
-pfixed
+hasCall
 conflicting
 )
 )
@@ -14286,7 +14286,7 @@ break
 if
 (
 *
-pfixed
+hasCall
 )
 {
 break
@@ -14481,7 +14481,7 @@ bool
 success
 bool
 *
-pfixed
+hasCall
 LiveBundleVector
 &
 conflicting
@@ -14558,7 +14558,7 @@ code
 ]
 bundle
 success
-pfixed
+hasCall
 conflicting
 )
 ;
@@ -14581,7 +14581,7 @@ bool
 success
 bool
 *
-pfixed
+hasCall
 LiveBundleVector
 &
 conflicting
@@ -14686,7 +14686,7 @@ tryAllocateAnyRegister
 (
 bundle
 success
-pfixed
+hasCall
 conflicting
 )
 )
@@ -14839,7 +14839,7 @@ hint
 )
 ;
 bool
-fixed
+hasCall
 ;
 LiveBundleVector
 conflicting
@@ -14889,7 +14889,7 @@ success
 =
 false
 ;
-fixed
+hasCall
 =
 false
 ;
@@ -14924,7 +14924,7 @@ requirement
 &
 success
 &
-fixed
+hasCall
 conflicting
 )
 )
@@ -14947,7 +14947,7 @@ hint
 &
 success
 &
-fixed
+hasCall
 conflicting
 )
 )
@@ -14982,7 +14982,7 @@ bundle
 &
 &
 !
-fixed
+hasCall
 &
 &
 !
@@ -15078,7 +15078,7 @@ bundle
 canAllocate
 &
 &
-fixed
+hasCall
 conflict
 )
 ;
@@ -15299,7 +15299,7 @@ LiveBundleVector
 conflicting
 ;
 bool
-fixed
+hasCall
 =
 false
 ;
@@ -15360,7 +15360,7 @@ bundle
 &
 success
 &
-fixed
+hasCall
 conflicting
 )
 )
