@@ -236,8 +236,6 @@ prevent_unsafe_narrowing
 "
 /
 /
-third_party
-/
 abseil
 -
 cpp
@@ -246,8 +244,6 @@ absl_default_cflags_cc
 "
 "
 /
-/
-third_party
 /
 abseil
 -
@@ -328,8 +324,6 @@ public_configs
 [
 "
 /
-/
-third_party
 /
 abseil
 -
@@ -637,6 +631,20 @@ visibility
 ]
 }
 }
+visibility
++
+=
+[
+"
+/
+/
+abseil
+-
+cpp
+/
+*
+"
+]
 }
 }
 template
@@ -695,8 +703,6 @@ no_chromium_code
 "
 /
 /
-third_party
-/
 abseil
 -
 cpp
@@ -706,8 +712,6 @@ absl_default_cflags_cc
 "
 /
 /
-third_party
-/
 abseil
 -
 cpp
@@ -716,8 +720,6 @@ absl_define_config
 "
 "
 /
-/
-third_party
 /
 abseil
 -
@@ -746,8 +748,6 @@ public_configs
 [
 "
 /
-/
-third_party
 /
 abseil
 -
