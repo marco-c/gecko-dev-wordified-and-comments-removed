@@ -236,6 +236,9 @@ body
 .
 string
 (
+Charsets
+.
+UTF_8
 )
 else
 null
