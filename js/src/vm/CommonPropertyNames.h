@@ -4350,6 +4350,14 @@ style
 \
 MACRO_
 (
+sumPrecise
+"
+sumPrecise
+"
+)
+\
+MACRO_
+(
 super
 "
 super
