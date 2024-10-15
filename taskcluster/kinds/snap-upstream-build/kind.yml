@@ -265,6 +265,7 @@ run
 .
 sh
 nightly
+amd64
 treeherder
 :
 platform
@@ -370,7 +371,10 @@ run
 .
 sh
 nightly
-1
+amd64
+-
+-
+debug
 treeherder
 :
 platform
@@ -471,6 +475,7 @@ run
 .
 sh
 beta
+amd64
 treeherder
 :
 platform
@@ -576,7 +581,10 @@ run
 .
 sh
 beta
-1
+amd64
+-
+-
+debug
 treeherder
 :
 platform
@@ -677,6 +685,7 @@ run
 .
 sh
 stable
+amd64
 treeherder
 :
 platform
@@ -782,7 +791,10 @@ run
 .
 sh
 stable
-1
+amd64
+-
+-
+debug
 treeherder
 :
 platform
@@ -883,6 +895,7 @@ run
 .
 sh
 esr
+amd64
 treeherder
 :
 platform
@@ -988,7 +1001,10 @@ run
 .
 sh
 esr
-1
+amd64
+-
+-
+debug
 treeherder
 :
 platform
@@ -1304,6 +1320,7 @@ run
 .
 sh
 try
+amd64
 treeherder
 :
 platform
@@ -1412,7 +1429,10 @@ run
 .
 sh
 try
-1
+amd64
+-
+-
+debug
 treeherder
 :
 platform
