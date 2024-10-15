@@ -219,6 +219,9 @@ internal
 fun
 ToolsSubmenu
 (
+isPdf
+:
+Boolean
 isReaderable
 :
 Boolean
@@ -406,6 +409,9 @@ borderSecondary
 )
 TranslationMenuItem
 (
+isPdf
+=
+isPdf
 isTranslated
 =
 isTranslated
@@ -719,6 +725,9 @@ private
 fun
 TranslationMenuItem
 (
+isPdf
+:
+Boolean
 isTranslated
 :
 Boolean
@@ -774,6 +783,9 @@ state
 if
 (
 isReaderViewActive
+|
+|
+isPdf
 )
 MenuItemState
 .
@@ -820,6 +832,9 @@ state
 if
 (
 isReaderViewActive
+|
+|
+isPdf
 )
 MenuItemState
 .
@@ -864,6 +879,9 @@ layer3
 {
 ToolsSubmenu
 (
+isPdf
+=
+false
 isReaderable
 =
 true
@@ -957,6 +975,9 @@ layer3
 {
 ToolsSubmenu
 (
+isPdf
+=
+false
 isReaderable
 =
 true
