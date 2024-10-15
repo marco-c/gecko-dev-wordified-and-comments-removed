@@ -945,6 +945,10 @@ jsreftest
 -
 marionette
 -
+marionette
+-
+unittest
+-
 mochitest
 -
 a11y
@@ -1144,6 +1148,10 @@ jsreftest
 -
 marionette
 -
+marionette
+-
+unittest
+-
 mochitest
 -
 a11y
@@ -1281,6 +1289,10 @@ functional
 jsreftest
 -
 marionette
+-
+marionette
+-
+unittest
 -
 mochitest
 -
@@ -1483,6 +1495,10 @@ gtest
 jsreftest
 -
 marionette
+-
+marionette
+-
+unittest
 -
 mochitest
 -
@@ -2046,6 +2062,10 @@ jittest
 jsreftest
 -
 marionette
+-
+marionette
+-
+unittest
 -
 mochitest
 -
