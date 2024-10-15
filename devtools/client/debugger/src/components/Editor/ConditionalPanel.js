@@ -378,6 +378,18 @@ this
 breakpointPanelEditor
 )
 {
+if
+(
+!
+this
+.
+breakpointPanelEditor
+.
+isDestroyed
+(
+)
+)
+{
 this
 .
 breakpointPanelEditor
@@ -386,6 +398,7 @@ focus
 (
 )
 ;
+}
 }
 }
 saveAndClose
