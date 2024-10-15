@@ -507,8 +507,8 @@ NS_DECL_NSIRUNNABLE
 void
 OnResponse
 (
-const
 LSRequestResponse
+&
 &
 aResponse
 )
@@ -2254,8 +2254,8 @@ AsyncRequestHelper
 :
 OnResponse
 (
-const
 LSRequestResponse
+&
 &
 aResponse
 )
@@ -2281,7 +2281,13 @@ nullptr
 ;
 mResponse
 =
+std
+:
+:
+move
+(
 aResponse
+)
 ;
 mState
 =

@@ -60,6 +60,10 @@ include
 protocol
 PBackground
 ;
+include
+protocol
+PBackgroundLSDatabase
+;
 using
 struct
 mozilla
@@ -94,8 +98,11 @@ invalidated
 struct
 LSRequestPrepareDatastoreResponse
 {
-uint64_t
-datastoreId
+Endpoint
+<
+PBackgroundLSDatabaseChild
+>
+databaseChildEndpoint
 ;
 }
 ;
