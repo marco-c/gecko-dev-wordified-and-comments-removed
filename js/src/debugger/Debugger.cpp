@@ -1883,7 +1883,7 @@ Terminate
 cx
 -
 >
-clearPendingException
+reportUncatchableException
 (
 )
 ;
@@ -5921,7 +5921,7 @@ Terminate
 cx
 -
 >
-clearPendingException
+reportUncatchableException
 (
 )
 ;

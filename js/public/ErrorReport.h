@@ -1762,6 +1762,16 @@ MutableHandleValue
 rval
 )
 ;
+extern
+JS_PUBLIC_API
+void
+ReportUncatchableException
+(
+JSContext
+*
+cx
+)
+;
 }
 #
 endif
