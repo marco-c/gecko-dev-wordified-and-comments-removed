@@ -5000,6 +5000,7 @@ Block
 1
 num_capture_channels_
 )
+;
 linear_output_sub_frame_view_
 =
 std
