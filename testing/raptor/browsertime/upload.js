@@ -485,7 +485,7 @@ results
 await
 waitForUpload
 (
-120000
+1200000
 commands
 context
 )
