@@ -620,10 +620,10 @@ mHostRecord
 >
 flags
 &
-nsHostResolver
+nsIDNSService
 :
 :
-RES_CANON_NAME
+RESOLVE_CANONICAL_NAME
 NS_ERROR_NOT_AVAILABLE
 )
 ;
