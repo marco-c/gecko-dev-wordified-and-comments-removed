@@ -1972,7 +1972,6 @@ example2
 com
 "
 )
-true
 ]
 }
 ]
@@ -2280,7 +2279,6 @@ example
 com
 "
 )
-true
 ]
 }
 {
@@ -2305,7 +2303,6 @@ example
 com
 "
 )
-true
 ]
 }
 {
@@ -2330,7 +2327,6 @@ example1
 com
 "
 )
-true
 ]
 }
 {

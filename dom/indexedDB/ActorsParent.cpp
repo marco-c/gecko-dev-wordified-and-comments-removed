@@ -67536,7 +67536,6 @@ quotaManager
 EnsureTemporaryOriginIsInitializedInternal
 (
 mOriginMetadata
-true
 )
 )
 ;
@@ -75314,7 +75313,6 @@ quotaManager
 EnsureTemporaryOriginIsInitializedInternal
 (
 mOriginMetadata
-true
 )
 )
 ;

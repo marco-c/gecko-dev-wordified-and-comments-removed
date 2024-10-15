@@ -1785,7 +1785,6 @@ EnsureTemporaryOriginIsInitializedInternal
 (
 *
 mDirectoryMetadata
-true
 )
 .
 map

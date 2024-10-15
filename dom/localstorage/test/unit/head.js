@@ -465,9 +465,6 @@ initTemporaryOrigin
 (
 persistence
 principal
-createIfNonExistent
-=
-true
 )
 {
 return
@@ -479,7 +476,6 @@ initializeTemporaryOrigin
 (
 persistence
 principal
-createIfNonExistent
 )
 ;
 }

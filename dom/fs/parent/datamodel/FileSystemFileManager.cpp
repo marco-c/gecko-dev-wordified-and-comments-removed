@@ -897,7 +897,6 @@ quotaManager
 EnsureTemporaryOriginIsInitializedInternal
 (
 aOriginMetadata
-true
 )
 .
 map

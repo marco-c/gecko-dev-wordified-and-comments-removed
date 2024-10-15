@@ -2163,10 +2163,6 @@ const
 PrincipalInfo
 &
 aPrincipalInfo
-const
-bool
-&
-aCreateIfNonExistent
 InitializeTemporaryOriginResolver
 &
 &
@@ -2267,7 +2263,6 @@ InitializeTemporaryOrigin
 (
 aPersistenceType
 aPrincipalInfo
-aCreateIfNonExistent
 )
 -
 >

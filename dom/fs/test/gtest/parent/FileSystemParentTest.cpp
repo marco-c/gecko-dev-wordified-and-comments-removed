@@ -149,8 +149,6 @@ FileSystemParentTest
 :
 InitializeTemporaryOrigin
 (
-bool
-aCreateIfNonExistent
 )
 {
 ASSERT_NO_FATAL_FAILURE
@@ -163,7 +161,6 @@ InitializeTemporaryOrigin
 GetTestOriginMetadata
 (
 )
-aCreateIfNonExistent
 )
 )
 ;

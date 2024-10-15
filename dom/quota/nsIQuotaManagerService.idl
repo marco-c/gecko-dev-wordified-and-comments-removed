@@ -129,12 +129,6 @@ aPersistenceType
 in
 nsIPrincipal
 aPrincipal
-[
-optional
-]
-in
-boolean
-aCreateIfNonExistent
 )
 ;
 [
