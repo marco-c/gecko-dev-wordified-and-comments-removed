@@ -1759,7 +1759,7 @@ JS
 :
 Handle
 <
-CalendarRecord
+CalendarValue
 >
 calendar
 JS
@@ -1810,7 +1810,7 @@ JS
 :
 Handle
 <
-CalendarRecord
+CalendarValue
 >
 calendar
 JS
