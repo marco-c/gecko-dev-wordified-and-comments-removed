@@ -7644,10 +7644,10 @@ lrc
 -
 >
 avg_frame_bandwidth
+/
+3
 >
 (
-3
-*
 lrc
 -
 >

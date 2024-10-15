@@ -737,7 +737,7 @@ bits_off_target
 int64_t
 total_actual_bits
 ;
-int
+int64_t
 total_target_vs_actual
 ;
 int
@@ -1306,7 +1306,7 @@ long_rolling_actual_bits
 int64_t
 total_actual_bits
 ;
-int
+int64_t
 total_target_vs_actual
 ;
 int

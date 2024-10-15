@@ -6153,6 +6153,13 @@ nonrd_keyframe
 =
 1
 ;
+sf
+-
+>
+svc_use_lowres_part
+=
+0
+;
 }
 void
 vp9_set_speed_features_framesize_dependent
