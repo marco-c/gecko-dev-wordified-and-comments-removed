@@ -218,6 +218,9 @@ Environment
 h
 "
 #
+ifdef
+MOZ_EXECUTION_TRACING
+#
 include
 "
 debugger
@@ -226,6 +229,8 @@ ExecutionTracer
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -5185,6 +5190,9 @@ AbstractFramePtr
 frame
 )
 {
+#
+ifdef
+MOZ_EXECUTION_TRACING
 if
 (
 cx
@@ -5217,6 +5225,8 @@ false
 ;
 }
 }
+#
+endif
 return
 Debugger
 :
@@ -5300,6 +5310,9 @@ AbstractFramePtr
 frame
 )
 {
+#
+ifdef
+MOZ_EXECUTION_TRACING
 if
 (
 cx
@@ -5332,6 +5345,8 @@ false
 ;
 }
 }
+#
+endif
 MOZ_ASSERT
 (
 frame
@@ -6243,6 +6258,9 @@ bool
 frameOk
 )
 {
+#
+ifdef
+MOZ_EXECUTION_TRACING
 if
 (
 cx
@@ -6275,6 +6293,8 @@ false
 ;
 }
 }
+#
+endif
 MOZ_ASSERT_IF
 (
 !
@@ -22185,6 +22205,9 @@ dbg
 )
 {
 }
+#
+ifdef
+MOZ_EXECUTION_TRACING
 bool
 getNativeTracing
 (
@@ -22195,6 +22218,8 @@ setNativeTracing
 (
 )
 ;
+#
+endif
 bool
 getOnDebuggerStatement
 (
@@ -22455,11 +22480,16 @@ disableUnlimitedStacksCapturing
 (
 )
 ;
+#
+ifdef
+MOZ_EXECUTION_TRACING
 bool
 collectNativeTrace
 (
 )
 ;
+#
+endif
 using
 Method
 =
@@ -23103,6 +23133,9 @@ return
 true
 ;
 }
+#
+ifdef
+MOZ_EXECUTION_TRACING
 bool
 Debugger
 :
@@ -23229,9 +23262,8 @@ false
 cx
 -
 >
-removeExecutionTracingConsumer
+disableExecutionTracing
 (
-dbg
 )
 ;
 if
@@ -23350,9 +23382,8 @@ if
 cx
 -
 >
-addExecutionTracingConsumer
+enableExecutionTracing
 (
-dbg
 )
 )
 {
@@ -23371,9 +23402,8 @@ else
 cx
 -
 >
-removeExecutionTracingConsumer
+disableExecutionTracing
 (
-dbg
 )
 ;
 }
@@ -23404,6 +23434,8 @@ return
 true
 ;
 }
+#
+endif
 bool
 Debugger
 :
@@ -27810,6 +27842,20 @@ realm
 -
 >
 hasDebuggers
+(
+)
+&
+&
+!
+global
+-
+>
+realm
+(
+)
+-
+>
+isTracingExecution
 (
 )
 )
@@ -36134,7 +36180,7 @@ TRACING_EVENT_KIND_FUNCTION_ENTER
 "
 int32_t
 (
-ExecutionTracer
+ExecutionTrace
 :
 :
 EventKind
@@ -36153,7 +36199,7 @@ TRACING_EVENT_KIND_FUNCTION_LEAVE
 "
 int32_t
 (
-ExecutionTracer
+ExecutionTrace
 :
 :
 EventKind
@@ -36172,7 +36218,7 @@ TRACING_EVENT_KIND_LABEL_ENTER
 "
 int32_t
 (
-ExecutionTracer
+ExecutionTrace
 :
 :
 EventKind
@@ -36191,7 +36237,7 @@ TRACING_EVENT_KIND_LABEL_LEAVE
 "
 int32_t
 (
-ExecutionTracer
+ExecutionTrace
 :
 :
 EventKind
@@ -36210,7 +36256,7 @@ IMPLEMENTATION_INTERPRETER
 "
 int32_t
 (
-ExecutionTracer
+ExecutionTrace
 :
 :
 ImplementationType
@@ -36229,7 +36275,7 @@ IMPLEMENTATION_BASELINE
 "
 int32_t
 (
-ExecutionTracer
+ExecutionTrace
 :
 :
 ImplementationType
@@ -36248,7 +36294,7 @@ IMPLEMENTATION_ION
 "
 int32_t
 (
-ExecutionTracer
+ExecutionTrace
 :
 :
 ImplementationType
@@ -36267,7 +36313,7 @@ IMPLEMENTATION_WASM
 "
 int32_t
 (
-ExecutionTracer
+ExecutionTrace
 :
 :
 ImplementationType
