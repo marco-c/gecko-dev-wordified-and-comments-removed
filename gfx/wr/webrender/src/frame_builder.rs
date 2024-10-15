@@ -300,7 +300,6 @@ render_target
 {
 RenderTargetContext
 RenderTargetKind
-AlphaRenderTarget
 ColorRenderTarget
 }
 ;
@@ -4390,6 +4389,10 @@ ColorRenderTarget
 :
 new
 (
+RenderTargetKind
+:
+:
+Color
 texture_id
 screen_size
 gpu_supports_fast_clears
@@ -4446,11 +4449,15 @@ let
 mut
 target
 =
-AlphaRenderTarget
+ColorRenderTarget
 :
 :
 new
 (
+RenderTargetKind
+:
+:
+Alpha
 texture_id
 screen_size
 gpu_supports_fast_clears
