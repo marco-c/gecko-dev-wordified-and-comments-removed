@@ -11761,6 +11761,15 @@ type
 string
 "
 }
+keywords
+:
+{
+type
+:
+"
+string
+"
+}
 lowerCaseSuggestion
 :
 {
