@@ -30,6 +30,9 @@ namespace
 ots
 {
 class
+OpenTypeLOCA
+;
+class
 OpenTypeMAXP
 ;
 class
@@ -73,7 +76,7 @@ auto
 *
 p
 :
-fixed_bboxes
+replacements
 )
 {
 delete
@@ -196,9 +199,14 @@ ParseCompositeGlyph
 Buffer
 &
 glyph
+unsigned
+glyph_id
 ComponentPointCount
 *
 component_point_count
+unsigned
+*
+skip_count
 )
 ;
 bool
@@ -239,6 +247,10 @@ unsigned
 glyph_id
 )
 ;
+OpenTypeLOCA
+*
+loca
+;
 OpenTypeMAXP
 *
 maxp
@@ -269,7 +281,7 @@ vector
 uint8_t
 *
 >
-fixed_bboxes
+replacements
 ;
 }
 ;
