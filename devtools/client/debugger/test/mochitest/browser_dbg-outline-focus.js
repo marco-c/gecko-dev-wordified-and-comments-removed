@@ -10,6 +10,14 @@ function
 (
 )
 {
+if
+(
+isCm6Enabled
+)
+{
+return
+;
+}
 const
 dbg
 =
