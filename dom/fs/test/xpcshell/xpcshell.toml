@@ -24,6 +24,13 @@ js
 ]
 [
 "
+test_databaseWorkStarted
+.
+js
+"
+]
+[
+"
 test_fileSystemDirectoryHandle
 .
 js
