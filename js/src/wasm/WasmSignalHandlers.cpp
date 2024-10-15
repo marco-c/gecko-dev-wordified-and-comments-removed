@@ -5230,7 +5230,6 @@ false
 }
 }
 ;
-MOZ_RUNINIT
 static
 ExclusiveData
 <
@@ -5534,7 +5533,6 @@ endif
 #
 ifndef
 JS_CODEGEN_NONE
-MOZ_RUNINIT
 static
 ExclusiveData
 <

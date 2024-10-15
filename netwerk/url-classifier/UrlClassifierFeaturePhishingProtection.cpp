@@ -61,7 +61,6 @@ mFeature
 ;
 namespace
 {
-MOZ_RUNINIT
 struct
 UrlClassifierFeaturePhishingProtection
 :

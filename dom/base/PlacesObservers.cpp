@@ -291,8 +291,6 @@ template
 class
 T
 >
-MOZ_RUNINIT
-MOZ_GENERATED
 StaticAutoPtr
 <
 FlaggedArray
@@ -313,8 +311,6 @@ template
 class
 T
 >
-MOZ_RUNINIT
-MOZ_GENERATED
 StaticAutoPtr
 <
 FlaggedArray
@@ -366,7 +362,6 @@ INativePlacesEventCallback
 >
 >
 ;
-MOZ_RUNINIT
 static
 nsTArray
 <

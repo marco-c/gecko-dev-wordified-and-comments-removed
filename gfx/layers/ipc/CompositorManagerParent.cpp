@@ -161,7 +161,6 @@ CompositorManagerParent
 :
 sInstance
 ;
-MOZ_RUNINIT
 CompositorManagerParent
 :
 :

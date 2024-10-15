@@ -225,12 +225,10 @@ dom
 :
 WindowContext
 ;
-MOZ_RUNINIT
 static
 nsWeakPtr
 sLockedElement
 ;
-MOZ_RUNINIT
 static
 nsWeakPtr
 sLockedDoc

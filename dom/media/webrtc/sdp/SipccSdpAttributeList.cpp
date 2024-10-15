@@ -45,7 +45,6 @@ SdpParser
 :
 InternalResults
 ;
-MOZ_RUNINIT
 const
 std
 :

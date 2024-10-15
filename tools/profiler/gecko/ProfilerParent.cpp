@@ -689,7 +689,6 @@ mReleasedChunksByTime
 ;
 }
 ;
-MOZ_RUNINIT
 DataMutexBase
 <
 ProfileBufferGlobalController

@@ -236,7 +236,6 @@ sGeneration
 ;
 }
 ;
-MOZ_RUNINIT
 AutoProfilerLabelData
 :
 :

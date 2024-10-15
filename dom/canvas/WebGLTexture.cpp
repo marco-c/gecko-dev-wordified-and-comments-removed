@@ -139,7 +139,6 @@ mozilla
 namespace
 webgl
 {
-MOZ_RUNINIT
 const
 ImageInfo
 ImageInfo

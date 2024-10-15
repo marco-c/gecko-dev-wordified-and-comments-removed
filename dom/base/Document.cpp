@@ -69727,7 +69727,6 @@ sList
 ;
 }
 ;
-MOZ_RUNINIT
 LinkedList
 <
 FullscreenChange

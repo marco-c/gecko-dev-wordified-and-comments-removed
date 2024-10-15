@@ -998,8 +998,6 @@ protected
 :
 inline
 static
-MOZ_RUNINIT
-MOZ_GENERATED
 StaticRefPtr
 <
 Derived

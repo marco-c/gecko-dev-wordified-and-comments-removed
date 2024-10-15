@@ -412,7 +412,6 @@ mNumVariations
 StaticMutex
 sFontDataTableLock
 ;
-MOZ_RUNINIT
 std
 :
 :
@@ -423,7 +422,6 @@ FontTemplate
 >
 sFontDataTable
 ;
-MOZ_RUNINIT
 std
 :
 :

@@ -128,7 +128,6 @@ DottedCornerCacheSize
 =
 256
 ;
-MOZ_RUNINIT
 nsTHashMap
 <
 FourFloatsHashKey

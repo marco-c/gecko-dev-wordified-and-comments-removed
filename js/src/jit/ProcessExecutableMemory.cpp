@@ -3656,7 +3656,6 @@ firstPage
 ;
 }
 }
-MOZ_RUNINIT
 static
 ProcessExecutableMemory
 execMemory

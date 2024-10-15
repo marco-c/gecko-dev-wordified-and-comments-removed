@@ -3067,7 +3067,6 @@ NS_IMPL_ISUPPORTS
 JSStreamConsumer
 nsIInputStreamCallback
 )
-MOZ_RUNINIT
 const
 nsCString
 FetchUtil

@@ -807,7 +807,6 @@ CompositorBridgeParent
 :
 sIndirectLayerTreesLock
 ;
-MOZ_RUNINIT
 CompositorBridgeParent
 :
 :

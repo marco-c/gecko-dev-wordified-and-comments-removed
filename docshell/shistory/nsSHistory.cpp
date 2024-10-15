@@ -445,7 +445,6 @@ mList
 ;
 }
 ;
-MOZ_RUNINIT
 static
 ListHelper
 gSHistoryList

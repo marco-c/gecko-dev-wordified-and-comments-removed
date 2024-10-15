@@ -663,7 +663,6 @@ return
 true
 ;
 }
-MOZ_RUNINIT
 const
 SandboxInfo
 SandboxInfo

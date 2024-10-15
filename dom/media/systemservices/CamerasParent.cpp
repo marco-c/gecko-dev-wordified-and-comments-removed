@@ -421,7 +421,6 @@ ShutdownBlockingTicket
 namespace
 camera
 {
-MOZ_RUNINIT
 std
 :
 :
@@ -434,7 +433,6 @@ char
 >
 sDeviceUniqueIDs
 ;
-MOZ_RUNINIT
 std
 :
 :

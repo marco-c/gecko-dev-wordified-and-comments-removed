@@ -6,15 +6,6 @@ SSE
 h
 "
 #
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
-#
 ifdef
 HAVE_CPUID_H
 #
@@ -1099,7 +1090,6 @@ defined
 (
 MOZILLA_PRESUME_MMX
 )
-MOZ_RUNINIT
 bool
 mmx_enabled
 =
@@ -1124,7 +1114,6 @@ defined
 (
 MOZILLA_PRESUME_SSE
 )
-MOZ_RUNINIT
 bool
 sse_enabled
 =
@@ -1149,7 +1138,6 @@ defined
 (
 MOZILLA_PRESUME_SSE2
 )
-MOZ_RUNINIT
 bool
 sse2_enabled
 =
@@ -1174,7 +1162,6 @@ defined
 (
 MOZILLA_PRESUME_SSE3
 )
-MOZ_RUNINIT
 bool
 sse3_enabled
 =
@@ -1199,7 +1186,6 @@ defined
 (
 MOZILLA_PRESUME_SSSE3
 )
-MOZ_RUNINIT
 bool
 ssse3_enabled
 =
@@ -1224,7 +1210,6 @@ defined
 (
 MOZILLA_PRESUME_SSE4A
 )
-MOZ_RUNINIT
 bool
 sse4a_enabled
 =
@@ -1249,7 +1234,6 @@ defined
 (
 MOZILLA_PRESUME_SSE4_1
 )
-MOZ_RUNINIT
 bool
 sse4_1_enabled
 =
@@ -1274,7 +1258,6 @@ defined
 (
 MOZILLA_PRESUME_SSE4_2
 )
-MOZ_RUNINIT
 bool
 sse4_2_enabled
 =
@@ -1299,7 +1282,6 @@ defined
 (
 MOZILLA_PRESUME_FMA3
 )
-MOZ_RUNINIT
 bool
 fma3_enabled
 =
@@ -1438,7 +1420,6 @@ defined
 (
 MOZILLA_PRESUME_AVX
 )
-MOZ_RUNINIT
 bool
 avx_enabled
 =
@@ -1455,7 +1436,6 @@ defined
 (
 MOZILLA_PRESUME_AVX2
 )
-MOZ_RUNINIT
 bool
 avx2_enabled
 =
@@ -1485,7 +1465,6 @@ defined
 (
 MOZILLA_PRESUME_AVXVNNI
 )
-MOZ_RUNINIT
 bool
 avxvnni_enabled
 =
@@ -1510,7 +1489,6 @@ defined
 (
 MOZILLA_PRESUME_AES
 )
-MOZ_RUNINIT
 bool
 aes_enabled
 =
@@ -1528,7 +1506,6 @@ ecx
 ;
 #
 endif
-MOZ_RUNINIT
 bool
 has_constant_tsc
 =

@@ -264,7 +264,6 @@ gs
 ;
 }
 ;
-MOZ_RUNINIT
 static
 IonSpewer
 ionspewer

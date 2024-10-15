@@ -1670,7 +1670,6 @@ gCanRecordBase
 bool
 gCanRecordExtended
 ;
-MOZ_RUNINIT
 nsTHashMap
 <
 nsCStringHashKey
@@ -1681,14 +1680,12 @@ gEventNameIDMap
 kEventCount
 )
 ;
-MOZ_RUNINIT
 nsTHashSet
 <
 nsCString
 >
 gCategoryNames
 ;
-MOZ_RUNINIT
 nsTHashSet
 <
 nsCString
@@ -1714,7 +1711,6 @@ EventRecordArray
 >
 EventRecordsMapType
 ;
-MOZ_RUNINIT
 EventRecordsMapType
 gEventRecords
 ;

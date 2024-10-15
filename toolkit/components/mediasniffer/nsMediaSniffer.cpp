@@ -430,7 +430,6 @@ mLabel
 ;
 }
 ;
-MOZ_RUNINIT
 nsMediaSnifferFtypEntry
 sFtypEntries
 [

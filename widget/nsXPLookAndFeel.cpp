@@ -690,7 +690,6 @@ End
 >
 sIntCache
 ;
-MOZ_RUNINIT
 static
 EnumeratedCache
 <

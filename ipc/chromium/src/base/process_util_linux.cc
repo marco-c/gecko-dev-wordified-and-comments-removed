@@ -181,7 +181,6 @@ h
 "
 namespace
 {
-MOZ_RUNINIT
 static
 mozilla
 :

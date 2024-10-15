@@ -73,7 +73,6 @@ memory
 namespace
 mozilla
 {
-MOZ_RUNINIT
 DataMutexBase
 <
 ProfilerChild

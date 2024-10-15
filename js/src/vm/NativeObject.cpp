@@ -505,7 +505,6 @@ MAX_FIXED_SLOTS
 1
 )
 ;
-MOZ_RUNINIT
 HeapSlot
 *
 const
@@ -675,7 +674,6 @@ MAX_FIXED_SLOTS
 1
 )
 ;
-MOZ_RUNINIT
 HeapSlot
 *
 const

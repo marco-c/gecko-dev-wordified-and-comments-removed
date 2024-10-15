@@ -1014,7 +1014,6 @@ kCursorLoadingTimeout
 =
 1000
 ;
-MOZ_RUNINIT
 static
 AutoWeakFrame
 gLastCursorSourceFrame
@@ -1037,7 +1036,6 @@ gTypingInteractionKeyPresses
 =
 0
 ;
-MOZ_RUNINIT
 static
 dom
 :
@@ -2788,7 +2786,6 @@ sCursorSettingManager
 =
 nullptr
 ;
-MOZ_RUNINIT
 AutoWeakFrame
 EventStateManager
 :
@@ -2849,7 +2846,6 @@ CSSIntPoint
 0
 )
 ;
-MOZ_RUNINIT
 nsCOMPtr
 <
 nsIContent

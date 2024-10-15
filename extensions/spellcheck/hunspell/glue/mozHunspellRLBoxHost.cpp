@@ -378,7 +378,6 @@ mozHunspellCallbacks
 :
 sFileMgrMapLock
 ;
-MOZ_RUNINIT
 std
 :
 :
@@ -398,7 +397,6 @@ mozHunspellCallbacks
 :
 sFileMgrMap
 ;
-MOZ_RUNINIT
 std
 :
 :

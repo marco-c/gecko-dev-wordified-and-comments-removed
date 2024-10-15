@@ -190,7 +190,6 @@ B8G8R8A8
 #
 ifdef
 MOZ_LOGGING
-MOZ_RUNINIT
 int
 WaylandBufferSHM
 :
@@ -208,7 +207,6 @@ MOZ_WAYLAND_DUMP_WL_BUFFERS
 :
 0
 ;
-MOZ_RUNINIT
 char
 *
 WaylandBufferSHM

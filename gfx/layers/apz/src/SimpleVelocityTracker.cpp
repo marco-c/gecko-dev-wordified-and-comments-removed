@@ -71,7 +71,6 @@ mozilla
 namespace
 layers
 {
-MOZ_RUNINIT
 const
 TimeDuration
 MIN_VELOCITY_SAMPLE_TIME

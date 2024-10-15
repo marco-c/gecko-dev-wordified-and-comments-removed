@@ -936,7 +936,6 @@ delete
 key
 ;
 }
-MOZ_RUNINIT
 static
 RefPtr
 <
@@ -947,7 +946,6 @@ gWRGlyphAtlas
 8
 ]
 ;
-MOZ_RUNINIT
 static
 LinkedList
 <

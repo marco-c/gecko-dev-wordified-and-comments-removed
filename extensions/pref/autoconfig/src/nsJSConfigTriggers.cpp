@@ -171,7 +171,6 @@ dom
 :
 AutoJSAPI
 ;
-MOZ_RUNINIT
 static
 JS
 :
@@ -183,7 +182,6 @@ JSObject
 >
 autoconfigSystemSb
 ;
-MOZ_RUNINIT
 static
 JS
 :

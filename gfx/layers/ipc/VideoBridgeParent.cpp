@@ -113,7 +113,6 @@ _Count
 )
 >
 ;
-MOZ_RUNINIT
 static
 StaticDataMutex
 <

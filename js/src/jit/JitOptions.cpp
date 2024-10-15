@@ -49,7 +49,6 @@ js
 namespace
 jit
 {
-MOZ_RUNINIT
 DefaultJitOptions
 JitOptions
 ;

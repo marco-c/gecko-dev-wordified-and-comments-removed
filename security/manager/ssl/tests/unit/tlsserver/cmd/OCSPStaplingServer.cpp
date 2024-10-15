@@ -1049,7 +1049,6 @@ mSCTsVia
 ;
 }
 ;
-MOZ_RUNINIT
 const
 CTHost
 sCTHosts

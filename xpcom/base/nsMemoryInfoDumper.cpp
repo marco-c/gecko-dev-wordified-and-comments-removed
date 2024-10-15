@@ -2843,7 +2843,6 @@ identifier
 #
 ifdef
 MOZ_DMD
-MOZ_RUNINIT
 dmd
 :
 :

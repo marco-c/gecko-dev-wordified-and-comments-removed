@@ -13,7 +13,6 @@ mozilla
 :
 profiler
 {
-MOZ_RUNINIT
 ThreadRegistry
 :
 :
@@ -23,7 +22,6 @@ ThreadRegistry
 :
 sRegistryContainer
 ;
-MOZ_RUNINIT
 ThreadRegistry
 :
 :

@@ -392,7 +392,6 @@ sContentParents
 ;
 }
 ;
-MOZ_RUNINIT
 std
 :
 :
@@ -3018,7 +3017,6 @@ sLastAECDebug
 =
 false
 ;
-MOZ_RUNINIT
 static
 Maybe
 <

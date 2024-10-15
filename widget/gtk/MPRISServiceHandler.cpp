@@ -4918,7 +4918,6 @@ property
 ;
 }
 ;
-MOZ_RUNINIT
 static
 const
 std

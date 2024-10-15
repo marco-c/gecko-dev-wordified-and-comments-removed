@@ -7216,7 +7216,6 @@ return
 true
 ;
 }
-MOZ_RUNINIT
 WellKnownParserAtoms
 WellKnownParserAtoms
 :

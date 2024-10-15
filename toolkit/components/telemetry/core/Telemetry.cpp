@@ -1078,7 +1078,6 @@ nsFetchTelemetryData
 ;
 }
 ;
-MOZ_RUNINIT
 StaticDataMutex
 <
 TelemetryImpl

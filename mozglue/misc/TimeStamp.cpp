@@ -85,7 +85,6 @@ Shutdown
 }
 }
 ;
-MOZ_RUNINIT
 static
 TimeStampInitialization
 sInitOnce

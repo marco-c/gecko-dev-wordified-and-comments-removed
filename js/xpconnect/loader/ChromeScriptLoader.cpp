@@ -890,7 +890,6 @@ AsyncScriptCompileTask
 :
 sOngoingTasksMutex
 ;
-MOZ_RUNINIT
 Vector
 <
 AsyncScriptCompileTask

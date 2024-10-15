@@ -98,7 +98,6 @@ mozilla
 :
 dom
 {
-MOZ_RUNINIT
 static
 SVGAttrTearoffTable
 <
