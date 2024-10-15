@@ -61,11 +61,6 @@ const
 TelemetryEvents
 =
 {
-init
-(
-)
-{
-}
 sendEvent
 (
 method
