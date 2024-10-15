@@ -293,7 +293,7 @@ checkCertErrorGeneric
 (
 gCertDb
 ee_post_distrust_cert
-SEC_ERROR_UNTRUSTED_ISSUER
+MOZILLA_PKIX_ERROR_ISSUER_NO_LONGER_TRUSTED
 certificateUsageSSLServer
 )
 ;
