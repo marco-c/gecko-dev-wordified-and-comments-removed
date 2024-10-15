@@ -851,10 +851,6 @@ aHTTPSSVCRecord
 nsISVCBRecord
 *
 aHighestPriorityRecord
-const
-nsACString
-&
-aCname
 )
 override
 ;
@@ -2264,9 +2260,6 @@ mEarlyHintObserver
 ;
 nsCString
 mHashKeyOfConnectionEntry
-;
-nsCString
-mCname
 ;
 nsCOMPtr
 <
