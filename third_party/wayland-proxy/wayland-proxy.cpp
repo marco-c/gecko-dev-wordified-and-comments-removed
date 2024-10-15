@@ -4323,7 +4323,7 @@ sched_priority
 =
 sched_get_priority_min
 (
-SCHED_RR
+SCHED_FIFO
 )
 ;
 pthread_attr_setschedparam
