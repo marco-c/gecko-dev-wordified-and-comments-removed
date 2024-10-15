@@ -335,6 +335,11 @@ SVGImageElement
 h
 "
 "
+SVGLengthUnits
+.
+h
+"
+"
 SVGLineElement
 .
 h
