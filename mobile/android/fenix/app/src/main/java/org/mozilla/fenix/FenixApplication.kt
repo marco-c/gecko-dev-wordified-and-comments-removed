@@ -5014,6 +5014,7 @@ set
 (
 getDistributionId
 (
+browserStore
 )
 )
 defaultBrowser
