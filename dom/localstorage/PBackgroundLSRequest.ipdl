@@ -86,6 +86,9 @@ dom
 struct
 LSRequestPreloadDatastoreResponse
 {
+bool
+invalidated
+;
 }
 ;
 struct
