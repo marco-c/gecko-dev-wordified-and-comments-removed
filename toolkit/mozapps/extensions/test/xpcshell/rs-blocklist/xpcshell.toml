@@ -190,6 +190,13 @@ js
 ]
 [
 "
+test_blocklist_mlbf_softblocks
+.
+js
+"
+]
+[
+"
 test_blocklist_mlbf_stashes
 .
 js

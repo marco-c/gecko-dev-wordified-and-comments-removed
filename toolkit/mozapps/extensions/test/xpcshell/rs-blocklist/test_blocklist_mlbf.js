@@ -132,6 +132,9 @@ async
 {
 return
 {
+mlbf
+:
+{
 cascadeFilter
 :
 {
@@ -187,6 +190,7 @@ blockKey
 }
 }
 generationTime
+}
 }
 ;
 }
