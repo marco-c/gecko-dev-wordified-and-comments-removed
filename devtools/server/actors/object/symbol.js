@@ -108,12 +108,10 @@ symbol
 =
 symbol
 ;
-}
-rawValue
-(
-)
-{
-return
+this
+.
+rawObj
+=
 this
 .
 symbol

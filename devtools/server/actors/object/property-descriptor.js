@@ -182,13 +182,11 @@ enumerable
 }
 ;
 const
-obj
+{
+rawObj
+}
 =
 objectActor
-.
-rawValue
-(
-)
 ;
 if
 (
@@ -232,7 +230,7 @@ threadActor
 .
 getWatchpoint
 (
-obj
+rawObj
 name
 .
 toString
@@ -250,7 +248,7 @@ threadActor
 .
 getWatchpoint
 (
-obj
+rawObj
 name
 .
 toString

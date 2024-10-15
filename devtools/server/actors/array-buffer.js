@@ -82,12 +82,10 @@ buffer
 .
 byteLength
 ;
-}
-rawValue
-(
-)
-{
-return
+this
+.
+rawObj
+=
 this
 .
 buffer
