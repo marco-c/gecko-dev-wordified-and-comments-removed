@@ -673,6 +673,7 @@ DB
 "
 )
 ;
+await
 PlacesUtils
 .
 favicons
@@ -1123,6 +1124,7 @@ DB
 "
 )
 ;
+await
 PlacesUtils
 .
 favicons

@@ -1589,6 +1589,15 @@ Favicon
 .
 URI
 )
+.
+catch
+(
+lazy
+.
+log
+.
+error
+)
 ;
 }
 /

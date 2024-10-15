@@ -1497,6 +1497,13 @@ item
 iconData
 )
 )
+.
+catch
+(
+console
+.
+error
+)
 ;
 }
 catch
