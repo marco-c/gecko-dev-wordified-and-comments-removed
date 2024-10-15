@@ -1134,6 +1134,10 @@ is
 MenuAction
 .
 UpdateInstallAddonInProgress
+is
+MenuAction
+.
+UpdateShowExtensionsOnboarding
 -
 >
 Unit
