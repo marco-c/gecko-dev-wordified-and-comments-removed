@@ -34,6 +34,13 @@ js
 ]
 [
 "
+browser_test_db_lazily_created
+.
+js
+"
+]
+[
+"
 browser_test_profile_selector
 .
 js
