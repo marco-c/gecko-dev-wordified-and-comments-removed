@@ -507,12 +507,6 @@ onAuthSuccess
 }
 }
 }
-Suppress
-(
-"
-MaxLineLength
-"
-)
 private
 fun
 showPinDialogWarning

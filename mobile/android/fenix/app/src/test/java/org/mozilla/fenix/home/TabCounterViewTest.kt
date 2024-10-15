@@ -446,7 +446,7 @@ browsingModeManager
 =
 DefaultBrowsingModeManager
 (
-_mode
+initialMode
 =
 BrowsingMode
 .

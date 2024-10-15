@@ -13383,9 +13383,7 @@ PRIVATE_NOTICE
 )
 SupportUtils
 .
-getFirefoxAccountSumoUrl
-(
-)
+FXACCOUNT_SUMO_URL
 )
 }
 override

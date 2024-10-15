@@ -957,12 +957,6 @@ errors
 .
 *
 /
-Suppress
-(
-"
-MaxLineLength
-"
-)
 private
 fun
 updateTranslationError

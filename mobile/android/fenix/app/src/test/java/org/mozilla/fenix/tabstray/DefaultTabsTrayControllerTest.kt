@@ -6794,7 +6794,7 @@ spyk
 (
 DefaultBrowsingModeManager
 (
-_mode
+initialMode
 =
 BrowsingMode
 .

@@ -116,11 +116,8 @@ ui
 widgets
 .
 SnackbarDelegate
-class
-CustomTabContextMenuCandidate
-{
-companion
 object
+CustomTabContextMenuCandidate
 {
 /
 *
@@ -209,5 +206,4 @@ snackBarParentView
 snackbarDelegate
 )
 )
-}
 }

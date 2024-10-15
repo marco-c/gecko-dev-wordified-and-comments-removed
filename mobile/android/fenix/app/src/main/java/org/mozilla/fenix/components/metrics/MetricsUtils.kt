@@ -634,6 +634,12 @@ tests
 .
 *
 /
+Suppress
+(
+"
+FunctionOnlyReturningConstant
+"
+)
 VisibleForTesting
 (
 otherwise
