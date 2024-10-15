@@ -1,0 +1,14 @@
+oomTest
+(
+function
+(
+)
+{
+selectforgc
+(
+this
+)
+;
+}
+)
+;
