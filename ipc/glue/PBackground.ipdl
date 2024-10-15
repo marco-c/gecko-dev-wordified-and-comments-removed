@@ -437,9 +437,6 @@ manages
 PBackgroundSDBConnection
 ;
 manages
-PBackgroundLSDatabase
-;
-manages
 PBackgroundLSObserver
 ;
 manages
@@ -606,7 +603,7 @@ principalInfo
 )
 ;
 async
-PBackgroundLSDatabase
+CreateBackgroundLSDatabaseParent
 (
 PrincipalInfo
 principalInfo
@@ -614,6 +611,11 @@ uint32_t
 privateBrowsingId
 uint64_t
 datastoreId
+Endpoint
+<
+PBackgroundLSDatabaseParent
+>
+aParentEndpoint
 )
 ;
 async

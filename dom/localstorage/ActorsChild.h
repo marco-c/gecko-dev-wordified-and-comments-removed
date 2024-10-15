@@ -225,7 +225,7 @@ LSDatabaseChild
 )
 ;
 void
-SendDelete
+Shutdown
 (
 )
 ;

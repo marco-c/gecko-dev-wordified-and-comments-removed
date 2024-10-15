@@ -434,7 +434,7 @@ mActor
 mActor
 -
 >
-SendDelete
+Shutdown
 (
 )
 ;
@@ -443,7 +443,7 @@ MOZ_ASSERT
 !
 mActor
 "
-SendDelete
+Shutdown
 should
 have
 cleared
