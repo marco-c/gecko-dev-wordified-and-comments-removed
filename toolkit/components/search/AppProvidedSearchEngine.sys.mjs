@@ -3266,16 +3266,11 @@ URL
 .
 engineURL
 .
-addParam
+setSearchTermParamName
 (
 urlData
 .
 searchTermParamName
-"
-{
-searchTerms
-}
-"
 )
 ;
 }
