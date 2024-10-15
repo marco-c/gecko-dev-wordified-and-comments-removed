@@ -554,6 +554,8 @@ setup
 (
 )
 {
+try
+{
 await
 DoHController
 .
@@ -568,6 +570,13 @@ _uninit
 (
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 SpecialPowers
 .
 pushPrefEnv
