@@ -2749,7 +2749,6 @@ imgIContainer
 :
 FRAME_FIRST
 nullptr
-nullptr
 NSMakeSize
 (
 0
