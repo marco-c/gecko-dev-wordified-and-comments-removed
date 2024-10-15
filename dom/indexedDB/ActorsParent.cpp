@@ -94968,7 +94968,7 @@ IsShuttingDown
 (
 )
 )
-ResolveNSResultResponseAndReturn
+ResolveNSResultAndReturn
 (
 aResolver
 )
@@ -94982,7 +94982,7 @@ QuotaManager
 EnsureCreated
 (
 )
-ResolveNSResultResponseAndReturn
+ResolveNSResultAndReturn
 (
 aResolver
 )
