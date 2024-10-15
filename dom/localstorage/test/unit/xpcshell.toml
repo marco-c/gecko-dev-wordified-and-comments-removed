@@ -505,6 +505,13 @@ js
 ]
 [
 "
+test_slowDatabaseInitialization
+.
+js
+"
+]
+[
+"
 test_slowStorageInitialization
 .
 js
