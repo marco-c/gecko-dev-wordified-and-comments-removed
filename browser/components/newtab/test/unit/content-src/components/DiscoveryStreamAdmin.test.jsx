@@ -537,7 +537,7 @@ frequency_caps
 data
 :
 {
-spocs
+newtab_spocs
 :
 {
 items
