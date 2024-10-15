@@ -1120,13 +1120,6 @@ mozilla
 Telemetry
 :
 :
-FX_REFRESH_DRIVER_SYNC_SCROLL_FRAME_DELAY_MS
-mozilla
-:
-:
-Telemetry
-:
-:
 TELEMETRY_TEST_COUNT_INIT_NO_RECORD
 mozilla
 :
