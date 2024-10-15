@@ -124,9 +124,6 @@ js
 struct
 ClassSpec
 ;
-class
-PlainObject
-;
 }
 namespace
 js
