@@ -710,7 +710,7 @@ Actor
 constructor
 (
 connection
-parentActor
+targetActor
 )
 {
 super
@@ -721,9 +721,9 @@ webconsoleSpec
 ;
 this
 .
-parentActor
+targetActor
 =
-parentActor
+targetActor
 ;
 this
 .
@@ -731,7 +731,7 @@ dbg
 =
 this
 .
-parentActor
+targetActor
 .
 dbg
 ;
@@ -846,7 +846,7 @@ on
 (
 this
 .
-parentActor
+targetActor
 "
 changed
 -
@@ -881,7 +881,7 @@ if
 (
 this
 .
-parentActor
+targetActor
 .
 isRootActor
 )
@@ -897,14 +897,14 @@ _getWindowForBrowserConsole
 return
 this
 .
-parentActor
+targetActor
 .
 window
 |
 |
 this
 .
-parentActor
+targetActor
 .
 workerGlobal
 ;
@@ -952,7 +952,7 @@ window
 =
 this
 .
-parentActor
+targetActor
 .
 window
 ;
@@ -1144,7 +1144,7 @@ on
 (
 this
 .
-parentActor
+targetActor
 "
 will
 -
@@ -1235,7 +1235,7 @@ off
 (
 this
 .
-parentActor
+targetActor
 "
 changed
 -
@@ -1377,7 +1377,7 @@ ObjectActor
 (
 this
 .
-parentActor
+targetActor
 .
 threadActor
 object
@@ -1598,7 +1598,7 @@ global
 !
 this
 .
-parentActor
+targetActor
 .
 isRootActor
 ?
@@ -1613,7 +1613,7 @@ isTargetActorContentProcess
 =
 this
 .
-parentActor
+targetActor
 .
 targetType
 =
@@ -1675,7 +1675,7 @@ matchExactWindow
 :
 this
 .
-parentActor
+targetActor
 .
 ignoreSubFrames
 }
@@ -1728,7 +1728,7 @@ matchExactWindow
 :
 this
 .
-parentActor
+targetActor
 .
 ignoreSubFrames
 .
@@ -1737,7 +1737,7 @@ ignoreSubFrames
 (
 this
 .
-parentActor
+targetActor
 .
 consoleAPIListenerOptions
 |
@@ -1964,7 +1964,7 @@ DocumentEventsListener
 (
 this
 .
-parentActor
+targetActor
 )
 ;
 this
@@ -2407,7 +2407,7 @@ getCachedMessages
 !
 this
 .
-parentActor
+targetActor
 .
 isRootActor
 )
@@ -2472,7 +2472,7 @@ getCachedMessages
 !
 this
 .
-parentActor
+targetActor
 .
 isRootActor
 )
@@ -2976,7 +2976,7 @@ request
 ;
 this
 .
-parentActor
+targetActor
 .
 threadActor
 .
@@ -3003,7 +3003,7 @@ finally
 {
 this
 .
-parentActor
+targetActor
 .
 threadActor
 .
@@ -3536,7 +3536,7 @@ objectActor
 =
 this
 .
-parentActor
+targetActor
 .
 threadActor
 .
@@ -3554,7 +3554,7 @@ resultGrip
 =
 this
 .
-parentActor
+targetActor
 .
 threadActor
 .
@@ -4263,7 +4263,7 @@ windowId
 !
 this
 .
-parentActor
+targetActor
 .
 isRootActor
 ?
@@ -4332,7 +4332,7 @@ if
 (
 this
 .
-parentActor
+targetActor
 .
 isRootActor
 |
@@ -4357,7 +4357,7 @@ if
 (
 this
 .
-parentActor
+targetActor
 .
 ignoreSubFrames
 )
@@ -4476,7 +4476,7 @@ actor
 =
 this
 .
-parentActor
+targetActor
 .
 sourcesManager
 .
@@ -5734,7 +5734,7 @@ off
 (
 this
 .
-parentActor
+targetActor
 "
 will
 -
