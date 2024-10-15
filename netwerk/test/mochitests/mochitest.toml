@@ -552,6 +552,13 @@ sjs
 ]
 [
 "
+test_anchor_query_encoding
+.
+html
+"
+]
+[
+"
 test_arraybufferinputstream
 .
 html
