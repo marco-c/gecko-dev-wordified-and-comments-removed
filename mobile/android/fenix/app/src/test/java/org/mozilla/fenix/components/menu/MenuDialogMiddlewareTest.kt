@@ -1477,6 +1477,16 @@ extensionMenuState
 .
 showExtensionsOnboarding
 )
+assertTrue
+(
+store
+.
+state
+.
+extensionMenuState
+.
+shouldShowManageExtensionsMenuItem
+)
 }
 Test
 fun

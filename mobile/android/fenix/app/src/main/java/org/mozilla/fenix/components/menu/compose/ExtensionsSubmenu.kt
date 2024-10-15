@@ -448,6 +448,9 @@ WebExtensionBrowserMenuItem
 showExtensionsOnboarding
 :
 Boolean
+showManageExtensions
+:
+Boolean
 addonInstallationInProgress
 :
 Addon
@@ -679,6 +682,11 @@ onClick
 }
 }
 }
+if
+(
+showManageExtensions
+)
+{
 MenuGroup
 {
 MenuItem
@@ -711,6 +719,7 @@ onClick
 =
 onManageExtensionsMenuClick
 )
+}
 }
 RecommendedAddons
 (
@@ -1098,6 +1107,9 @@ summary
 showExtensionsOnboarding
 =
 true
+showManageExtensions
+=
+true
 addonInstallationInProgress
 =
 Addon
@@ -1429,6 +1441,9 @@ onClick
 showExtensionsOnboarding
 =
 true
+showManageExtensions
+=
+false
 addonInstallationInProgress
 =
 null

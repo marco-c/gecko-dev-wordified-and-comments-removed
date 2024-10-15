@@ -1138,6 +1138,10 @@ is
 MenuAction
 .
 UpdateShowExtensionsOnboarding
+is
+MenuAction
+.
+UpdateManageExtensionsMenuItemVisibility
 -
 >
 Unit
