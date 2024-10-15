@@ -1960,6 +1960,7 @@ pos
 bool
 preferRegister
 )
+const
 {
 assertRangesSorted
 (
@@ -2412,6 +2413,7 @@ VirtualRegister
 assertRangesSorted
 (
 )
+const
 {
 MOZ_ASSERT
 (
