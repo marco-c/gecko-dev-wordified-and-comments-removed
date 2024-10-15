@@ -12727,7 +12727,7 @@ if
 key
 =
 =
-JSProto_Math
+JSProto_Function
 &
 &
 !
@@ -12737,7 +12737,7 @@ JS
 Prefs
 :
 :
-experimental_math_sumprecise
+experimental_joint_iteration
 (
 )
 &
@@ -12754,7 +12754,7 @@ names
 (
 )
 .
-sumPrecise
+zip
 )
 )
 {
