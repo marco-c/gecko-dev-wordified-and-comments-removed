@@ -348,6 +348,13 @@ AnchorScrollFlags
 <
 2
 )
+|
+(
+1
+<
+<
+5
+)
 ALL_BITS
 =
 (
