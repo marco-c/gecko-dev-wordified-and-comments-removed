@@ -40,5 +40,13 @@ attribute
 boolean
 inlineTableEditingEnabled
 ;
+[
+infallible
+]
+readonly
+attribute
+boolean
+isInlineTableEditingActive
+;
 }
 ;

@@ -1971,6 +1971,15 @@ html
 ]
 [
 "
+test_editing_UI_in_plaintext
+-
+only
+.
+html
+"
+]
+[
+"
 test_execCommandPaste_noTarget
 .
 html

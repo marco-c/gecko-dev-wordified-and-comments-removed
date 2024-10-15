@@ -40,6 +40,14 @@ attribute
 boolean
 absolutePositioningEnabled
 ;
+[
+infallible
+]
+readonly
+attribute
+boolean
+isAbsolutePositioningActive
+;
 attribute
 boolean
 snapToGridEnabled
