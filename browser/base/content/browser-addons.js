@@ -7693,16 +7693,11 @@ widgetID
 const
 container
 =
-CustomizableUI
-.
-getCustomizationTarget
-(
 document
 .
 getElementById
 (
 area
-)
 )
 ;
 let

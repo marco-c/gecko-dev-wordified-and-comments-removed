@@ -192,7 +192,7 @@ ok
 (
 BrowserTestUtils
 .
-isHidden
+isVisible
 (
 document
 .
@@ -207,8 +207,8 @@ TabsToolbar
 #
 TabsToolbar
 is
-now
-hidden
+still
+visible
 "
 )
 ;
