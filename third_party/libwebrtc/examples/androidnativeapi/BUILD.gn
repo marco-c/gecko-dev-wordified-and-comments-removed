@@ -252,6 +252,8 @@ suppressed_configs
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -267,6 +269,8 @@ configs
 [
 "
 /
+/
+chromium
 /
 build
 /

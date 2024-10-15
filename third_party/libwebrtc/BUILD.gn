@@ -260,6 +260,8 @@ import
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -275,6 +277,8 @@ import
 (
 "
 /
+/
+chromium
 /
 build
 /
@@ -325,6 +329,8 @@ import
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -340,6 +346,8 @@ import
 (
 "
 /
+/
+chromium
 /
 build
 /
@@ -3188,6 +3196,8 @@ suppressed_configs
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -4951,6 +4961,8 @@ suppressed_configs
 [
 "
 /
+/
+chromium
 /
 build
 /

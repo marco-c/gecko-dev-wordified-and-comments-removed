@@ -86,6 +86,8 @@ import
 "
 /
 /
+chromium
+/
 build
 /
 dotfile_settings
@@ -106,6 +108,8 @@ buildconfig
 =
 "
 /
+/
+chromium
 /
 build
 /

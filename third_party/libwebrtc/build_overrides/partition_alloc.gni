@@ -98,6 +98,8 @@ import
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -114,6 +116,8 @@ import
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -127,6 +131,8 @@ import
 (
 "
 /
+/
+chromium
 /
 build
 /
@@ -144,6 +150,8 @@ import
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -159,6 +167,8 @@ import
 (
 "
 /
+/
+chromium
 /
 build
 /
@@ -176,6 +186,8 @@ import
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -190,6 +202,8 @@ import
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -203,6 +217,8 @@ partition_alloc_enable_arc_config
 =
 "
 /
+/
+chromium
 /
 build
 /
@@ -247,6 +263,8 @@ partition_alloc_remove_configs
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -261,6 +279,8 @@ partition_alloc_add_configs
 [
 "
 /
+/
+chromium
 /
 build
 /
