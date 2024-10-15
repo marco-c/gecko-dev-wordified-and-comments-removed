@@ -172,6 +172,8 @@ import
 "
 /
 /
+libwebrtc
+/
 build_overrides
 /
 build
@@ -3698,6 +3700,8 @@ absl_include_config
 "
 /
 /
+libwebrtc
+/
 third_party
 /
 abseil
@@ -3710,6 +3714,8 @@ absl_define_config
 =
 "
 /
+/
+libwebrtc
 /
 third_party
 /

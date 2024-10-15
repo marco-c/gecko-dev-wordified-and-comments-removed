@@ -188,9 +188,7 @@ secondary_source
 "
 /
 /
-build
-/
-secondary
+libwebrtc
 /
 "
 #
@@ -336,6 +334,8 @@ exec_script_whitelist
 [
 "
 /
+/
+libwebrtc
 /
 build_overrides
 /
