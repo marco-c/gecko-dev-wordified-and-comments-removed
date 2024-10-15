@@ -309,9 +309,7 @@ config
 .
 compileSdkVersion
 targetSdkVersion
-config
-.
-targetSdkVersion
+35
 versionCode
 11
 /
