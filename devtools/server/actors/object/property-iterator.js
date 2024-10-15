@@ -195,9 +195,7 @@ cls
 =
 objectActor
 .
-obj
-.
-class
+className
 ;
 if
 (

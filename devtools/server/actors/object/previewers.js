@@ -259,9 +259,6 @@ grip
 return
 wrappedPrimitivePreviewer
 (
-"
-String
-"
 String
 objectActor
 grip
@@ -281,9 +278,6 @@ grip
 return
 wrappedPrimitivePreviewer
 (
-"
-Boolean
-"
 Boolean
 objectActor
 grip
@@ -303,9 +297,6 @@ grip
 return
 wrappedPrimitivePreviewer
 (
-"
-Number
-"
 Number
 objectActor
 grip
@@ -325,9 +316,6 @@ grip
 return
 wrappedPrimitivePreviewer
 (
-"
-Symbol
-"
 Symbol
 objectActor
 grip
@@ -2682,7 +2670,6 @@ true
 function
 wrappedPrimitivePreviewer
 (
-className
 classObj
 objectActor
 grip
@@ -2753,7 +2740,6 @@ GenericObject
 (
 objectActor
 grip
-className
 )
 ;
 if
@@ -2794,7 +2780,6 @@ GenericObject
 (
 objectActor
 grip
-className
 )
 {
 const
@@ -2884,6 +2869,8 @@ i
 let
 specialStringBehavior
 =
+objectActor
+.
 className
 =
 =
@@ -3482,7 +3469,6 @@ Error
 (
 objectActor
 grip
-className
 )
 {
 if
@@ -3492,6 +3478,8 @@ ERROR_CLASSNAMES
 .
 has
 (
+objectActor
+.
 className
 )
 )
@@ -3701,7 +3689,6 @@ CSSMediaRule
 (
 objectActor
 grip
-className
 )
 {
 const
@@ -3717,6 +3704,8 @@ if
 safeRawObj
 |
 |
+objectActor
+.
 className
 !
 =
@@ -3770,7 +3759,6 @@ CSSStyleRule
 (
 objectActor
 grip
-className
 )
 {
 const
@@ -3786,6 +3774,8 @@ if
 safeRawObj
 |
 |
+objectActor
+.
 className
 !
 =
@@ -3839,7 +3829,6 @@ ObjectWithURL
 (
 objectActor
 grip
-className
 )
 {
 const
@@ -3879,6 +3868,8 @@ OBJECT_WITH_URL_CLASSNAMES
 .
 has
 (
+objectActor
+.
 className
 )
 &
@@ -3996,7 +3987,6 @@ ArrayLike
 (
 objectActor
 grip
-className
 )
 {
 const
@@ -4017,6 +4007,8 @@ ARRAY_LIKE_CLASSNAMES
 .
 has
 (
+objectActor
+.
 className
 )
 |
@@ -4154,12 +4146,12 @@ CSSStyleDeclaration
 (
 objectActor
 grip
-className
 )
 {
 const
 {
 safeRawObj
+className
 }
 =
 objectActor
@@ -4299,7 +4291,6 @@ DOMNode
 (
 objectActor
 grip
-className
 )
 {
 const
@@ -4311,6 +4302,8 @@ objectActor
 ;
 if
 (
+objectActor
+.
 className
 =
 =
@@ -4342,6 +4335,7 @@ false
 const
 {
 obj
+className
 hooks
 }
 =
@@ -4419,9 +4413,7 @@ href
 else
 if
 (
-obj
-.
-class
+className
 =
 =
 "
@@ -4607,9 +4599,7 @@ value
 else
 if
 (
-obj
-.
-class
+className
 =
 =
 "
@@ -4634,9 +4624,7 @@ value
 else
 if
 (
-obj
-.
-class
+className
 =
 =
 "
@@ -4644,9 +4632,7 @@ Text
 "
 |
 |
-obj
-.
-class
+className
 =
 =
 "
@@ -4654,9 +4640,7 @@ CDATASection
 "
 |
 |
-obj
-.
-class
+className
 =
 =
 "
@@ -4721,6 +4705,7 @@ false
 const
 {
 obj
+className
 hooks
 }
 =
@@ -4793,9 +4778,7 @@ target
 }
 if
 (
-obj
-.
-class
+className
 =
 =
 "
@@ -4830,9 +4813,7 @@ ObjectUtils
 .
 getPropsForEvent
 (
-obj
-.
-class
+className
 )
 ;
 for
@@ -5042,7 +5023,6 @@ DOMException
 (
 objectActor
 grip
-className
 )
 {
 const
@@ -5058,6 +5038,8 @@ if
 safeRawObj
 |
 |
+objectActor
+.
 className
 !
 =
@@ -5182,7 +5164,6 @@ Object
 (
 objectActor
 grip
-className
 )
 {
 return
@@ -5190,7 +5171,6 @@ GenericObject
 (
 objectActor
 grip
-className
 )
 ;
 }
