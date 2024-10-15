@@ -1880,6 +1880,13 @@ SheetLoadData
 )
 ;
 void
+AddPerformanceEntryForCachedSheet
+(
+SheetLoadData
+&
+)
+;
+void
 StartDeferredLoads
 (
 )
