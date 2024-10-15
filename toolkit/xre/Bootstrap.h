@@ -403,10 +403,8 @@ XRE_SetAndroidChildFds
 JNIEnv
 *
 aEnv
-const
-XRE_AndroidChildFds
-&
-fds
+jintArray
+aFds
 )
 =
 0
