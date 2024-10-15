@@ -6899,17 +6899,6 @@ switch
 aCall
 )
 {
-case
-SYS_SENDMMSG
-:
-return
-Some
-(
-Allow
-(
-)
-)
-;
 #
 ifdef
 ANDROID
