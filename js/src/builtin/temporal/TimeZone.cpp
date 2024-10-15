@@ -2200,8 +2200,13 @@ return
 true
 ;
 }
-static
 bool
+js
+:
+:
+temporal
+:
+:
 GetNamedTimeZoneNextTransition
 (
 JSContext
@@ -2209,7 +2214,7 @@ JSContext
 cx
 Handle
 <
-TimeZoneObject
+TimeZoneObjectMaybeBuiltin
 *
 >
 timeZone
@@ -2387,8 +2392,13 @@ return
 true
 ;
 }
-static
 bool
+js
+:
+:
+temporal
+:
+:
 GetNamedTimeZonePreviousTransition
 (
 JSContext
@@ -2396,7 +2406,7 @@ JSContext
 cx
 Handle
 <
-TimeZoneObject
+TimeZoneObjectMaybeBuiltin
 *
 >
 timeZone

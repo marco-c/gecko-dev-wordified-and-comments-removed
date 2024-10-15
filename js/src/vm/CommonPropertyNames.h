@@ -966,6 +966,14 @@ difference
 \
 MACRO_
 (
+direction
+"
+direction
+"
+)
+\
+MACRO_
+(
 disambiguation
 "
 disambiguation
