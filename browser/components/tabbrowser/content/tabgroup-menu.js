@@ -74,11 +74,6 @@ role
 "
 menu
 "
-noautohide
-=
-"
-true
-"
 norolluponanchor
 =
 "
@@ -375,7 +370,7 @@ group
 -
 editor
 -
-create
+done
 "
 >
 <

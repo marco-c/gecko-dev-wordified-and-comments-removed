@@ -63,11 +63,6 @@ case
 context_moveTabToNewGroup
 "
 :
-case
-"
-context_moveTabToGroupNewGroup
-"
-:
 TabContextMenu
 .
 moveTabsToNewGroup
