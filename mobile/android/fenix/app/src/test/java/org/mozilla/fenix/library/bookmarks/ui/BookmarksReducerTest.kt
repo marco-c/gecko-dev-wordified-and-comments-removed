@@ -1247,7 +1247,7 @@ result
 bookmarksSelectFolderState
 ?
 .
-outerSelectionGuid
+folderSelectionGuid
 )
 }
 Test
@@ -1316,7 +1316,7 @@ bookmarksSelectFolderState
 =
 BookmarksSelectFolderState
 (
-outerSelectionGuid
+selectionGuid
 =
 "
 guid0
@@ -1347,7 +1347,7 @@ result
 bookmarksSelectFolderState
 ?
 .
-outerSelectionGuid
+selectionGuid
 )
 }
 Test
@@ -1650,7 +1650,7 @@ result
 bookmarksSelectFolderState
 ?
 .
-outerSelectionGuid
+folderSelectionGuid
 )
 }
 Test
@@ -1743,7 +1743,7 @@ result
 bookmarksSelectFolderState
 ?
 .
-outerSelectionGuid
+selectionGuid
 )
 }
 Test
@@ -1825,11 +1825,6 @@ bookmarksSelectFolderState
 =
 BookmarksSelectFolderState
 (
-outerSelectionGuid
-=
-"
-guid
-"
 )
 )
 val
@@ -1917,10 +1912,6 @@ bookmarksSelectFolderState
 =
 BookmarksSelectFolderState
 (
-outerSelectionGuid
-=
-"
-"
 )
 )
 val
@@ -1997,12 +1988,12 @@ bookmarksSelectFolderState
 =
 BookmarksSelectFolderState
 (
-outerSelectionGuid
+selectionGuid
 =
 "
 abc
 "
-innerSelectionGuid
+folderSelectionGuid
 =
 "
 123
@@ -2033,7 +2024,7 @@ bookmarksSelectFolderState
 .
 copy
 (
-innerSelectionGuid
+folderSelectionGuid
 =
 null
 )
@@ -2083,12 +2074,6 @@ bookmarksSelectFolderState
 =
 BookmarksSelectFolderState
 (
-outerSelectionGuid
-=
-"
-selection
-guid
-"
 )
 )
 val
@@ -2248,12 +2233,6 @@ bookmarksSelectFolderState
 =
 BookmarksSelectFolderState
 (
-outerSelectionGuid
-=
-"
-selection
-guid
-"
 folders
 =
 folders
@@ -2327,7 +2306,7 @@ bookmarksSelectFolderState
 =
 BookmarksSelectFolderState
 (
-outerSelectionGuid
+selectionGuid
 =
 "
 guid0
@@ -2444,7 +2423,7 @@ bookmarksSelectFolderState
 .
 copy
 (
-outerSelectionGuid
+selectionGuid
 =
 "
 guid0
@@ -2521,7 +2500,7 @@ bookmarksSelectFolderState
 =
 BookmarksSelectFolderState
 (
-outerSelectionGuid
+selectionGuid
 =
 "
 folder
@@ -2668,7 +2647,7 @@ bookmarksSelectFolderState
 .
 copy
 (
-outerSelectionGuid
+selectionGuid
 =
 "
 folder
@@ -2772,12 +2751,12 @@ bookmarksSelectFolderState
 =
 BookmarksSelectFolderState
 (
-outerSelectionGuid
+selectionGuid
 =
 "
 0
 "
-innerSelectionGuid
+folderSelectionGuid
 =
 "
 0
@@ -2894,7 +2873,7 @@ bookmarksSelectFolderState
 .
 copy
 (
-innerSelectionGuid
+folderSelectionGuid
 =
 "
 1
@@ -4714,9 +4693,6 @@ state
 .
 copy
 (
-currentFolder
-=
-parent
 bookmarksEditBookmarkState
 =
 BookmarksEditBookmarkState
