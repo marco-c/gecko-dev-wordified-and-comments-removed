@@ -576,17 +576,6 @@ jsval
 extra
 )
 ;
-void
-setEventRecordingEnabled
-(
-in
-ACString
-aCategory
-in
-boolean
-aEnabled
-)
-;
 [
 implicit_jscontext
 optional_argc
