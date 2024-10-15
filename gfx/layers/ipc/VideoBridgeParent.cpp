@@ -113,16 +113,6 @@ _Count
 )
 >
 ;
-NS_IMPL_NONLOGGING_ADDREF_INHERITED
-(
-VideoBridgeParent
-HostIPCAllocator
-)
-NS_IMPL_NONLOGGING_RELEASE_INHERITED
-(
-VideoBridgeParent
-HostIPCAllocator
-)
 static
 StaticDataMutex
 <
