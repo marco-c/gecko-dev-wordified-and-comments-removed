@@ -7681,12 +7681,12 @@ lazy
 .
 UrlbarPrefs
 .
-getScotchBonnetPref
+get
 (
 "
 secondaryActions
 .
-featureGate
+switchToTab
 "
 )
 &

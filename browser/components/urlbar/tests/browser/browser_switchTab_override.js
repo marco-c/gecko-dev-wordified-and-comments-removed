@@ -494,9 +494,9 @@ browser
 .
 urlbar
 .
-scotchBonnet
+secondaryActions
 .
-enableOverride
+switchToTab
 "
 true
 ]
