@@ -13055,6 +13055,14 @@ isFullScreen
 =
 true
 val
+shouldToolbarsBeHidden
+=
+isFullscreen
+|
+|
+!
+webAppToolbarShouldBeVisible
+val
 topToolbarHeight
 =
 requireContext
@@ -13106,7 +13114,7 @@ topToolbarHeight
 =
 if
 (
-isFullscreen
+shouldToolbarsBeHidden
 )
 0
 else
@@ -13115,7 +13123,7 @@ bottomToolbarHeight
 =
 if
 (
-isFullscreen
+shouldToolbarsBeHidden
 )
 0
 else
