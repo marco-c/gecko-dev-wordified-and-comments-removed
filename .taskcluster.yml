@@ -1988,6 +1988,16 @@ hg
 -
 push
 '
+&
+&
+repository
+.
+level
+!
+=
+'
+1
+'
 "
 then
 :
