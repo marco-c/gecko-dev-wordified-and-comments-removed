@@ -1609,7 +1609,7 @@ type
 Boolean
 default
 :
-false
+true
 delay
 -
 ping
