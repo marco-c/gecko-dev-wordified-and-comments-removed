@@ -850,7 +850,7 @@ JSContext
 cx
 Handle
 <
-TimeZoneObjectMaybeBuiltin
+BuiltinTimeZoneObject
 *
 >
 timeZone
@@ -917,7 +917,7 @@ intl
 AddICUCellMemory
 (
 timeZone
-TimeZoneObjectMaybeBuiltin
+BuiltinTimeZoneObject
 :
 :
 EstimatedMemoryUse
@@ -1632,7 +1632,7 @@ JSContext
 cx
 Handle
 <
-TimeZoneObjectMaybeBuiltin
+BuiltinTimeZoneObject
 *
 >
 timeZone
@@ -2049,7 +2049,7 @@ JSContext
 cx
 Handle
 <
-TimeZoneObjectMaybeBuiltin
+BuiltinTimeZoneObject
 *
 >
 timeZone
@@ -2180,7 +2180,7 @@ JSContext
 cx
 Handle
 <
-TimeZoneObjectMaybeBuiltin
+BuiltinTimeZoneObject
 *
 >
 timeZone
@@ -2372,7 +2372,7 @@ JSContext
 cx
 Handle
 <
-TimeZoneObjectMaybeBuiltin
+BuiltinTimeZoneObject
 *
 >
 timeZone
@@ -3508,7 +3508,7 @@ timeZone
 >
 is
 <
-TimeZoneObjectMaybeBuiltin
+BuiltinTimeZoneObject
 >
 (
 )
@@ -3555,20 +3555,17 @@ if
 unwrappedTimeZone
 )
 {
-return
-cx
--
->
-compartment
-(
-)
--
->
-wrap
+temporal
+:
+:
+ReportDeadWrapperOrAccessDenied
 (
 cx
 timeZone
 )
+;
+return
+false
 ;
 }
 const
@@ -3717,7 +3714,7 @@ JSContext
 cx
 Handle
 <
-TimeZoneObjectMaybeBuiltin
+BuiltinTimeZoneObject
 *
 >
 timeZone
@@ -6260,7 +6257,7 @@ JSContext
 cx
 Handle
 <
-TimeZoneObjectMaybeBuiltin
+BuiltinTimeZoneObject
 *
 >
 timeZone
@@ -6431,7 +6428,7 @@ JSContext
 cx
 Handle
 <
-TimeZoneObjectMaybeBuiltin
+BuiltinTimeZoneObject
 *
 >
 timeZone
@@ -8515,7 +8512,7 @@ js
 temporal
 :
 :
-TimeZoneObjectMaybeBuiltin
+BuiltinTimeZoneObject
 :
 :
 finalize
@@ -8552,7 +8549,7 @@ obj
 >
 as
 <
-TimeZoneObjectMaybeBuiltin
+BuiltinTimeZoneObject
 >
 (
 )
