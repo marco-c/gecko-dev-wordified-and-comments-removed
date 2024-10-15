@@ -347,6 +347,13 @@ generateMediaControlKey
 (
 MediaControlKey
 aKey
+optional
+double
+aSeekValue
+=
+0
+.
+0
 )
 ;
 /
