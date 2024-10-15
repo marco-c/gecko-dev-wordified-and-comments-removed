@@ -768,13 +768,6 @@ DEFINES
 ACDEFINES
 )
 \
--
-DTOPOBJDIR
-=
-(
-topobjdir
-)
-\
 (
 srcdir
 )
@@ -1008,13 +1001,6 @@ DEFINES
 )
 (
 ACDEFINES
-)
-\
--
-DTOPOBJDIR
-=
-(
-topobjdir
 )
 \
 (
