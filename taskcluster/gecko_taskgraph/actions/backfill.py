@@ -2426,7 +2426,11 @@ raptor_try_name
 continue
         
 if
+"
+shippable
+"
 not
+in
 entry
 .
 attributes
@@ -2437,17 +2441,6 @@ get
 test_platform
 "
 "
-"
-)
-.
-endswith
-(
-"
-shippable
--
-qr
-/
-opt
 "
 )
 :

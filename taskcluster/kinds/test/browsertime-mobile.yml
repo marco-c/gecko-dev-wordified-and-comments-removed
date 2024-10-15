@@ -396,8 +396,6 @@ m
 .
 *
 shippable
--
-qr
 .
 *
 cstm
@@ -410,8 +408,6 @@ m
 .
 *
 shippable
--
-qr
 .
 *
 default
@@ -789,8 +785,6 @@ a55
 .
 *
 shippable
--
-qr
 .
 *
 :
@@ -840,8 +834,6 @@ a55
 .
 *
 shippable
--
-qr
 .
 *
 :
@@ -886,8 +878,6 @@ a55
 .
 *
 shippable
--
-qr
 .
 *
 :
@@ -928,8 +918,6 @@ a55
 .
 *
 shippable
--
-qr
 .
 *
 :
@@ -983,8 +971,6 @@ a55
 .
 *
 shippable
--
-qr
 .
 *
 :
@@ -2657,8 +2643,6 @@ a55
 .
 *
 shippable
--
-qr
 .
 *
 :
@@ -2816,8 +2800,8 @@ a55
 .
 *
 shippable
--
-qr
+.
+*
 /
 opt
 :
@@ -3091,8 +3075,6 @@ a55
 .
 *
 shippable
--
-qr
 .
 *
 :
@@ -3135,8 +3117,6 @@ a55
 .
 *
 shippable
--
-qr
 .
 *
 :
@@ -3324,8 +3304,6 @@ a55
 .
 *
 shippable
--
-qr
 .
 *
 :
@@ -3408,8 +3386,6 @@ a55
 .
 *
 shippable
--
-qr
 .
 *
 :
@@ -3673,8 +3649,6 @@ a55
 .
 *
 shippable
--
-qr
 .
 *
 :
@@ -3827,8 +3801,6 @@ a55
 .
 *
 shippable
--
-qr
 .
 *
 :
@@ -3878,8 +3850,6 @@ a55
 .
 *
 shippable
--
-qr
 .
 *
 :
