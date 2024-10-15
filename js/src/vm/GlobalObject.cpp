@@ -721,6 +721,7 @@ ReflectClass
 ;
 }
 static
+constexpr
 const
 JSClass
 *
