@@ -48,6 +48,13 @@ NowLoRes
 )
 ;
 MFBT_API
+static
+AwakeTimeStamp
+Now
+(
+)
+;
+MFBT_API
 void
 operator
 +

@@ -463,6 +463,9 @@ oleaut32
 "
 ole32
 "
+"
+mincore
+"
 ]
 if
 not
