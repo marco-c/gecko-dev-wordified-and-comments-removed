@@ -112,7 +112,7 @@ h
 #
 include
 "
-nsIAndroidBridge
+nsIGeckoViewBridge
 .
 h
 "
