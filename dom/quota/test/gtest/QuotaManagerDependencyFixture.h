@@ -934,7 +934,7 @@ MozPromise
 <
 ResolveValueT
 RejectValueT
-false
+IsExclusive
 >
 ;
 using
