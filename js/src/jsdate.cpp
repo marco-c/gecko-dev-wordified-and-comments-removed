@@ -760,13 +760,10 @@ year
 {
 MOZ_ASSERT
 (
-ToInteger
+IsInteger
 (
 year
 )
-=
-=
-year
 )
 ;
 return
