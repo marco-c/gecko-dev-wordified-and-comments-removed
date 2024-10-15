@@ -425,6 +425,7 @@ waitForPaused
 dbg
 )
 ;
+await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -535,6 +536,7 @@ waitForPaused
 dbg
 )
 ;
+await
 assertPausedAtSourceAndLine
 (
 dbg

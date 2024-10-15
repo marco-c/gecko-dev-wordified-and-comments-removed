@@ -265,6 +265,7 @@ type
 )
 ;
 }
+await
 assertPausedAtSourceAndLine
 (
 dbg

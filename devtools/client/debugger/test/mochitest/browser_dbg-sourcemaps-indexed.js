@@ -155,6 +155,7 @@ waitForPausedInOriginalFileAndToggleMapScopes
 dbg
 )
 ;
+await
 assertPausedAtSourceAndLine
 (
 dbg

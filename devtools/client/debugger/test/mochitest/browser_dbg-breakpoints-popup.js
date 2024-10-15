@@ -454,6 +454,7 @@ dbg
 POPUP_URL
 )
 ;
+await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -572,6 +573,7 @@ dbg
 POPUP_DEBUGGER_STATEMENT_URL
 )
 ;
+await
 assertPausedAtSourceAndLine
 (
 dbg

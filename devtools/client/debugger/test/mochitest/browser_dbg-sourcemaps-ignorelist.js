@@ -220,6 +220,7 @@ js
 "
 )
 ;
+await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -284,6 +285,7 @@ js
 "
 )
 ;
+await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -444,6 +446,7 @@ js
 "
 )
 ;
+await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -515,6 +518,7 @@ dbg
 fileName
 )
 ;
+await
 assertPausedAtSourceAndLine
 (
 dbg

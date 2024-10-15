@@ -432,6 +432,7 @@ waitForPausedInOriginalFileAndToggleMapScopes
 dbg
 )
 ;
+await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -447,6 +448,7 @@ stepIn
 dbg
 )
 ;
+await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -470,6 +472,7 @@ stepOver
 dbg
 )
 ;
+await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -493,6 +496,7 @@ stepOut
 dbg
 )
 ;
+await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -734,6 +738,7 @@ dbg
 bundleSrc
 )
 ;
+await
 assertPausedAtSourceAndLine
 (
 dbg
