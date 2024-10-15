@@ -1,0 +1,15 @@
+SOURCES
++
+=
+[
+"
+nsNetworkLinkServiceIOS
+.
+mm
+"
+]
+FINAL_LIBRARY
+=
+"
+xul
+"
