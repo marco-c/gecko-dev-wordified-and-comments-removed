@@ -3917,6 +3917,9 @@ aarch64
 "
 arm
 "
+"
+loongarch64
+"
 )
 :
 return
@@ -4159,6 +4162,9 @@ aarch64
 "
 arm
 "
+"
+loongarch64
+"
 )
 :
 return
@@ -4185,6 +4191,8 @@ x86
 arm64
 /
 arm
+/
+loongarch64
 jits
 "
 )
