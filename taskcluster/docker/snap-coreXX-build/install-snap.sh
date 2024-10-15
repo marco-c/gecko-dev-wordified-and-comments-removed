@@ -182,3 +182,11 @@ SNAP_TO_INSTALL
 .
 snap
 "
+rm
+"
+{
+SNAP_TO_INSTALL
+}
+.
+snap
+"
