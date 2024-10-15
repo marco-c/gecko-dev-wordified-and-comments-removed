@@ -346,13 +346,6 @@ funcToInlineExpected
 )
 ;
 }
-sleep
-(
-0
-.
-05
-)
-;
 assertEq
 (
 wasmFunctionTier
