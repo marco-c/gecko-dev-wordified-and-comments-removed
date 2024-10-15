@@ -3218,6 +3218,12 @@ WebExtension
 OnInstallationFailed
 "
 extension
+addonId
+:
+aAddon
+?
+.
+id
 addonName
 :
 aAddonName

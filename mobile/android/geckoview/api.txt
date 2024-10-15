@@ -21975,6 +21975,13 @@ Nullable
 public
 final
 String
+extensionId
+;
+field
+Nullable
+public
+final
+String
 extensionName
 ;
 }

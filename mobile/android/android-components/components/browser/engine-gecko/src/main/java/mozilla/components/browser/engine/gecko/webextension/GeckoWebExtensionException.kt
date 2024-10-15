@@ -344,6 +344,11 @@ WebExtensionInstallException
 .
 Blocklisted
 (
+extensionId
+=
+throwable
+.
+extensionId
 extensionName
 =
 throwable
@@ -433,6 +438,11 @@ WebExtensionInstallException
 .
 SoftBlocked
 (
+extensionId
+=
+throwable
+.
+extensionId
 extensionName
 =
 throwable

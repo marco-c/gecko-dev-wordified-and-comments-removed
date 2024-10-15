@@ -5336,6 +5336,19 @@ null
 ;
 final
 String
+extensionId
+=
+bundle
+.
+getString
+(
+"
+addonId
+"
+)
+;
+final
+String
 extensionName
 =
 bundle
@@ -5374,6 +5387,7 @@ new
 InstallException
 (
 errorCode
+extensionId
 extensionName
 )
 )
