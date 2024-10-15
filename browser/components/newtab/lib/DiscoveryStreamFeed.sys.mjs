@@ -7878,7 +7878,7 @@ endpointBaseUrl
 }
 v1
 /
-ads
+delete_user
 ;
 body
 =
