@@ -552,10 +552,7 @@ ClientInfo
 &
 &
 aInfo
-Maybe
-<
 bool
->
 aUriModified
 Maybe
 <

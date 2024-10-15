@@ -4923,10 +4923,7 @@ ClientInfo
 &
 &
 aInfo
-Maybe
-<
 bool
->
 aUriModified
 Maybe
 <
@@ -5022,13 +5019,7 @@ aLoadState
 CalculateChannelLoadFlags
 (
 browsingContext
-std
-:
-:
-move
-(
 aUriModified
-)
 std
 :
 :
@@ -5575,8 +5566,6 @@ loadState
 CalculateChannelLoadFlags
 (
 browsingContext
-Some
-(
 loadingInfo
 &
 &
@@ -5587,7 +5576,6 @@ mInfo
 .
 GetURIWasModified
 (
-)
 )
 Nothing
 (

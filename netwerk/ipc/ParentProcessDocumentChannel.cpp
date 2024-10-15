@@ -966,10 +966,7 @@ move
 (
 initialClientInfo
 )
-Some
-(
 mUriModified
-)
 Some
 (
 mIsEmbeddingBlockedError
