@@ -361,15 +361,6 @@ mjs
 "
 tests
 /
-BackgroundTask_console
-.
-sys
-.
-mjs
-"
-"
-tests
-/
 BackgroundTask_crash
 .
 sys
