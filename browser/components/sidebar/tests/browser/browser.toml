@@ -209,6 +209,13 @@ js
 ]
 [
 "
+browser_vertical_tabs_stacking_context
+.
+js
+"
+]
+[
+"
 browser_view_sidebar_menu
 .
 js
