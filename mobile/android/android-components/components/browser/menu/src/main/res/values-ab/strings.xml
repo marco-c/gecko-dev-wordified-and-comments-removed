@@ -90,11 +90,6 @@ name
 mozac_browser_menu_button
 "
 >
-An
-cl
-r
--
-taice
 <
 /
 string
@@ -133,7 +128,6 @@ name
 mozac_browser_menu_highlighted
 "
 >
-Soillsichte
 <
 /
 string
@@ -158,7 +152,6 @@ name
 mozac_browser_menu_extensions
 "
 >
-Leudachain
 <
 /
 string
@@ -187,9 +180,6 @@ name
 mozac_browser_menu_extensions_manager
 "
 >
-Manaidsear
-nan
-leudachan
 <
 /
 string
@@ -233,9 +223,6 @@ ignore
 UnusedResources
 "
 >
-Se
-l
-suas
 <
 /
 string
@@ -271,11 +258,6 @@ name
 mozac_browser_menu_extensions_content_description
 "
 >
-Na
-leudachain
-se
-l
-suas
 <
 /
 string
