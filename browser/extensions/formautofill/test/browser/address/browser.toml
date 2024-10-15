@@ -171,6 +171,13 @@ js
 ]
 [
 "
+browser_address_doorhanger_postalcode
+.
+js
+"
+]
+[
+"
 browser_address_doorhanger_required_fields
 .
 js

@@ -1820,6 +1820,9 @@ RegExp
 {
 postalCodePattern
 }
+"
+i
+"
 )
 ;
 return
