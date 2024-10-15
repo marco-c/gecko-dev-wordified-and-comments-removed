@@ -550,9 +550,6 @@ PersistenceType
 persistenceType
 PrincipalInfo
 principalInfo
-Type
-?
-clientType
 )
 returns
 (

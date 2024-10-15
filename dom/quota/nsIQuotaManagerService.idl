@@ -243,12 +243,6 @@ optional
 in
 ACString
 aPersistenceType
-[
-optional
-]
-in
-AString
-aClientType
 )
 ;
 [

@@ -1659,16 +1659,6 @@ const
 PrincipalInfo
 &
 aPrincipalInfo
-const
-Maybe
-<
-Client
-:
-:
-Type
->
-&
-aClientType
 )
 ;
 RefPtr
