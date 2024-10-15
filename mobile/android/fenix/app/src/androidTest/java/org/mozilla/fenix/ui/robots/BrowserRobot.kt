@@ -6062,7 +6062,7 @@ gone
 itemWithResId
 (
 "
-CybotCookiebotDialog
+cookieConsentBanner
 "
 )
 .
@@ -6106,7 +6106,7 @@ assertUIObjectExists
 itemWithResId
 (
 "
-CybotCookiebotDialog
+cookieConsentBanner
 "
 )
 exists
