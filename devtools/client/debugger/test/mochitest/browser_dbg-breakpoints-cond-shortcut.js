@@ -52,12 +52,6 @@ js
 "
 )
 ;
-await
-waitForDocumentLoadComplete
-(
-dbg
-)
-;
 info
 (
 "
@@ -74,7 +68,6 @@ cursorPosition
 "
 )
 ;
-await
 pressKey
 (
 dbg
