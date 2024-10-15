@@ -636,13 +636,6 @@ t
 =
 >
 {
-await
-test_driver
-.
-delete_all_cookies
-(
-)
-;
 try
 {
 await
