@@ -1434,6 +1434,9 @@ historymenu
 other
 "
 "
+searchbutton
+"
+"
 shortcut
 "
 "
