@@ -14536,6 +14536,14 @@ IsStencil
 #
 ifdef
 DEBUG
+if
+(
+aRequest
+-
+>
+mBaseURL
+)
+{
 bool
 equals
 ;
@@ -14568,6 +14576,7 @@ MOZ_ASSERT
 equals
 )
 ;
+}
 #
 endif
 }
