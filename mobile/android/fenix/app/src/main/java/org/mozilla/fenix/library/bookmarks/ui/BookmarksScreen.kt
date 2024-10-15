@@ -6433,10 +6433,11 @@ bookmarksSelectFolderState
 =
 BookmarksSelectFolderState
 (
-selectionGuid
+outerSelectionGuid
 =
-null
-folderSelectionGuid
+"
+"
+innerSelectionGuid
 =
 "
 guid1

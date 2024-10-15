@@ -1002,6 +1002,16 @@ bookmarksAddFolderState
 !
 =
 null
+&
+&
+context
+.
+state
+.
+bookmarksAddFolderState
+=
+=
+null
 -
 >
 {
