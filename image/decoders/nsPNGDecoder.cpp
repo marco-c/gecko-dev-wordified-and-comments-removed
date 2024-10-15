@@ -3195,6 +3195,13 @@ CMSMode
 All
 )
 {
+decoder
+-
+>
+mUsePipeTransform
+=
+true
+;
 if
 (
 transparency
@@ -3242,13 +3249,6 @@ OS_RGBA
 )
 ;
 }
-decoder
--
->
-mUsePipeTransform
-=
-true
-;
 }
 #
 ifdef
