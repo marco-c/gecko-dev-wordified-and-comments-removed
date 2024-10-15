@@ -311,6 +311,10 @@ viewport
 )
 )
 {
+queryCb
+(
+)
+;
 await
 verifyAttributeCached
 (
