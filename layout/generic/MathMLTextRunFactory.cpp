@@ -2277,7 +2277,7 @@ true
 fontGroup
 -
 >
-CheckForUpdatedPlatformList
+EnsureFontList
 (
 )
 ;
