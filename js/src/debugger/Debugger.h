@@ -2527,6 +2527,9 @@ collectCoverageInfo
 bool
 shouldAvoidSideEffects
 ;
+bool
+nativeTracing
+;
 template
 <
 typename

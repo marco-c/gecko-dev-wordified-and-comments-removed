@@ -22,12 +22,6 @@ _
 \
 _
 (
-ExecutionTracerGlobalLock
-100
-)
-\
-_
-(
 TestMutex
 100
 )
@@ -56,12 +50,6 @@ WellKnownParserAtomsInit
 100
 )
 \
-\
-_
-(
-ExecutionTracerInstanceLock
-250
-)
 \
 _
 (

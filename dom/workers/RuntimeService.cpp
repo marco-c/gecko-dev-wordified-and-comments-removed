@@ -10202,11 +10202,7 @@ true
 {
 PROFILER_SET_JS_CONTEXT
 (
-context
-.
-get
-(
-)
+cx
 )
 ;
 {
