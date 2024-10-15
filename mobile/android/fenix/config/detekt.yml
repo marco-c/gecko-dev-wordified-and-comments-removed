@@ -1417,6 +1417,10 @@ false
 ignoreOverridden
 :
 false
+ignoreAnnotatedFunctions
+:
+[
+]
 coroutines
 :
 active

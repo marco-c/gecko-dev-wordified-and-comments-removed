@@ -336,7 +336,7 @@ detekt
 .
 23
 .
-6
+7
 "
 const
 val
