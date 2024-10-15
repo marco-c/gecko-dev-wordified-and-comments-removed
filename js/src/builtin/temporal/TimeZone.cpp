@@ -1348,14 +1348,9 @@ return
 ianaTimeZone
 ;
 }
+static
 JSString
 *
-js
-:
-:
-temporal
-:
-:
 ValidateAndCanonicalizeTimeZoneName
 (
 JSContext
