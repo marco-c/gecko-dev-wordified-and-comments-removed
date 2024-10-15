@@ -358,7 +358,7 @@ aListener
 Target
 listener
 implementing
-nsIAndroidEventListener
+nsIGeckoViewEventListener
 .
 *
 param
@@ -434,7 +434,7 @@ aListener
 Registered
 listener
 implementing
-nsIAndroidEventListener
+nsIGeckoViewEventListener
 .
 *
 param
@@ -552,7 +552,7 @@ aCallback
 Optional
 callback
 implementing
-nsIAndroidEventCallback
+nsIGeckoViewEventCallback
 .
 *
 param
@@ -560,7 +560,7 @@ aFinalizer
 Optional
 finalizer
 implementing
-nsIAndroidEventFinalizer
+nsIGeckoViewEventFinalizer
 .
 *
 /
@@ -715,7 +715,7 @@ aCallback
 Optional
 callback
 implementing
-nsIAndroidEventCallback
+nsIGeckoViewEventCallback
 .
 *
 /
@@ -1299,7 +1299,7 @@ QueryInterface
 (
 Ci
 .
-nsIAndroidView
+nsIGeckoViewView
 )
 ;
 if

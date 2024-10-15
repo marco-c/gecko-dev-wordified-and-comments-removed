@@ -954,7 +954,7 @@ OnVisitedCallback
 final
 :
 public
-nsIAndroidEventCallback
+nsIGeckoViewEventCallback
 {
 public
 :
@@ -1161,7 +1161,7 @@ mURI
 NS_IMPL_ISUPPORTS
 (
 OnVisitedCallback
-nsIAndroidEventCallback
+nsIGeckoViewEventCallback
 )
 NS_IMETHODIMP
 GeckoViewHistory
@@ -1776,7 +1776,7 @@ bundleValues
 ;
 nsCOMPtr
 <
-nsIAndroidEventCallback
+nsIGeckoViewEventCallback
 >
 callback
 =
@@ -1834,7 +1834,7 @@ GetVisitedCallback
 final
 :
 public
-nsIAndroidEventCallback
+nsIGeckoViewEventCallback
 {
 public
 :
@@ -2314,7 +2314,7 @@ mURIs
 NS_IMPL_ISUPPORTS
 (
 GetVisitedCallback
-nsIAndroidEventCallback
+nsIGeckoViewEventCallback
 )
 void
 GeckoViewHistory
@@ -2621,7 +2621,7 @@ bundleValues
 ;
 nsCOMPtr
 <
-nsIAndroidEventCallback
+nsIGeckoViewEventCallback
 >
 callback
 =

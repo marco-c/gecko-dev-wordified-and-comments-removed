@@ -249,7 +249,7 @@ SpecialPowers
 .
 Ci
 .
-nsIAndroidBridge
+nsIGeckoViewBridge
 )
 .
 isFennec

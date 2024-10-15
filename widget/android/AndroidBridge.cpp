@@ -1725,8 +1725,8 @@ sGlobalContext
 NS_IMPL_ISUPPORTS
 (
 nsAndroidBridge
-nsIAndroidEventDispatcher
-nsIAndroidBridge
+nsIGeckoViewEventDispatcher
+nsIGeckoViewBridge
 )
 nsAndroidBridge
 :
@@ -1795,7 +1795,7 @@ const
 char
 *
 aName
-nsIAndroidEventDispatcher
+nsIGeckoViewEventDispatcher
 *
 *
 aResult

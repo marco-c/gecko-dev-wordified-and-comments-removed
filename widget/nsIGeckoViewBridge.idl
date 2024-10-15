@@ -82,7 +82,7 @@ aef5
 )
 ]
 interface
-nsIAndroidEventCallback
+nsIGeckoViewEventCallback
 :
 nsISupports
 {
@@ -133,7 +133,7 @@ a476
 )
 ]
 interface
-nsIAndroidEventFinalizer
+nsIGeckoViewEventFinalizer
 :
 nsISupports
 {
@@ -161,7 +161,7 @@ uuid
 )
 ]
 interface
-nsIAndroidEventListener
+nsIGeckoViewEventListener
 :
 nsISupports
 {
@@ -181,7 +181,7 @@ data
 optional
 ]
 in
-nsIAndroidEventCallback
+nsIGeckoViewEventCallback
 callback
 )
 ;
@@ -203,7 +203,7 @@ b298
 )
 ]
 interface
-nsIAndroidEventDispatcher
+nsIGeckoViewEventDispatcher
 :
 nsISupports
 {
@@ -226,13 +226,13 @@ data
 optional
 ]
 in
-nsIAndroidEventCallback
+nsIGeckoViewEventCallback
 callback
 [
 optional
 ]
 in
-nsIAndroidEventFinalizer
+nsIGeckoViewEventFinalizer
 finalizer
 )
 ;
@@ -243,7 +243,7 @@ void
 registerListener
 (
 in
-nsIAndroidEventListener
+nsIGeckoViewEventListener
 listener
 in
 jsval
@@ -257,7 +257,7 @@ void
 unregisterListener
 (
 in
-nsIAndroidEventListener
+nsIGeckoViewEventListener
 listener
 in
 jsval
@@ -282,9 +282,9 @@ uuid
 )
 ]
 interface
-nsIAndroidView
+nsIGeckoViewView
 :
-nsIAndroidEventDispatcher
+nsIGeckoViewEventDispatcher
 {
 [
 implicit_jscontext
@@ -312,11 +312,11 @@ a3d301b26c0c
 )
 ]
 interface
-nsIAndroidBridge
+nsIGeckoViewBridge
 :
-nsIAndroidEventDispatcher
+nsIGeckoViewEventDispatcher
 {
-nsIAndroidEventDispatcher
+nsIGeckoViewEventDispatcher
 getDispatcherByName
 (
 in

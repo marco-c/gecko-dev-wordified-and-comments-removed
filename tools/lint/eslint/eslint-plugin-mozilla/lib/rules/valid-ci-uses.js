@@ -323,7 +323,7 @@ any
 ]
 [
 "
-nsIAndroidBridge
+nsIGeckoViewBridge
 "
 "
 any
@@ -331,7 +331,7 @@ any
 ]
 [
 "
-nsIAndroidView
+nsIGeckoViewView
 "
 "
 any

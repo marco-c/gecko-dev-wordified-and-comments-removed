@@ -1118,13 +1118,13 @@ nsAndroidBridge
 final
 :
 public
-nsIAndroidBridge
+nsIGeckoViewBridge
 {
 public
 :
 NS_DECL_ISUPPORTS
-NS_DECL_NSIANDROIDBRIDGE
-NS_FORWARD_SAFE_NSIANDROIDEVENTDISPATCHER
+NS_DECL_NSIGECKOVIEWBRIDGE
+NS_FORWARD_SAFE_NSIGECKOVIEWEVENTDISPATCHER
 (
 mEventDispatcher
 )
@@ -1141,7 +1141,7 @@ nsAndroidBridge
 ;
 nsCOMPtr
 <
-nsIAndroidEventDispatcher
+nsIGeckoViewEventDispatcher
 >
 mEventDispatcher
 ;

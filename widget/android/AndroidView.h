@@ -26,7 +26,7 @@ AndroidView
 final
 :
 public
-nsIAndroidView
+nsIGeckoViewView
 {
 virtual
 ~
@@ -68,8 +68,8 @@ AndroidView
 {
 }
 NS_DECL_ISUPPORTS
-NS_DECL_NSIANDROIDVIEW
-NS_FORWARD_NSIANDROIDEVENTDISPATCHER
+NS_DECL_NSIGECKOVIEWVIEW
+NS_FORWARD_NSIGECKOVIEWEVENTDISPATCHER
 (
 mEventDispatcher
 -

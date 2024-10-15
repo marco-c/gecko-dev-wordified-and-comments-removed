@@ -6093,8 +6093,8 @@ value
 NS_IMPL_ISUPPORTS
 (
 AndroidView
-nsIAndroidEventDispatcher
-nsIAndroidView
+nsIGeckoViewEventDispatcher
+nsIGeckoViewView
 )
 nsresult
 AndroidView
