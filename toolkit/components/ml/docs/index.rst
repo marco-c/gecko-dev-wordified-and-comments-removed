@@ -296,6 +296,7 @@ toctree
 maxdepth
 :
 1
+architecture
 api
 notifications
 models
