@@ -36,6 +36,9 @@ js
 :
 jit
 {
+class
+MIRGenerator
+;
 struct
 CompilationDependency
 {
@@ -80,6 +83,9 @@ virtual
 bool
 checkDependency
 (
+JSContext
+*
+cx
 )
 =
 0
@@ -225,6 +231,9 @@ clone
 bool
 checkDependencies
 (
+JSContext
+*
+cx
 )
 {
 for
@@ -244,6 +253,7 @@ dep
 >
 checkDependency
 (
+cx
 )
 )
 {
