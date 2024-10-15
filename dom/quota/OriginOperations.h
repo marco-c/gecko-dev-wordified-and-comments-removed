@@ -581,7 +581,8 @@ RefPtr
 <
 ResolvableNormalOriginOp
 <
-bool
+OriginMetadataArray
+true
 >
 >
 CreateClearOriginOp
@@ -656,7 +657,8 @@ RefPtr
 <
 ResolvableNormalOriginOp
 <
-bool
+OriginMetadataArray
+true
 >
 >
 CreateClearStoragesForOriginPrefixOp
@@ -692,7 +694,8 @@ RefPtr
 <
 ResolvableNormalOriginOp
 <
-bool
+OriginMetadataArray
+true
 >
 >
 CreateClearDataOp
@@ -715,7 +718,8 @@ RefPtr
 <
 ResolvableNormalOriginOp
 <
-bool
+OriginMetadataArray
+true
 >
 >
 CreateShutdownOriginOp
