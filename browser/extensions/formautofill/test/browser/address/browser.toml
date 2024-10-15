@@ -220,6 +220,13 @@ js
 ]
 [
 "
+browser_address_heuristics_autofill_name
+.
+js
+"
+]
+[
+"
 browser_address_telemetry
 .
 js
