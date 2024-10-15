@@ -549,7 +549,7 @@ partition
 null
 )
 {
-if
+require
 (
 partition
 .
@@ -559,14 +559,11 @@ group
 .
 id
 )
-!
+=
 =
 null
 )
 {
-throw
-IllegalArgumentException
-(
 "
 Tab
 group
@@ -576,7 +573,6 @@ ID
 already
 exists
 "
-)
 }
 partition
 .

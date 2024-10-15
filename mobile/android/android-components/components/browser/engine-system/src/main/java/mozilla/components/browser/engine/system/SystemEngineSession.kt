@@ -945,17 +945,13 @@ EngineSessionState
 :
 Boolean
 {
-if
+require
 (
 state
-!
 is
 SystemEngineSessionState
 )
 {
-throw
-IllegalArgumentException
-(
 "
 Can
 only
@@ -963,7 +959,6 @@ restore
 from
 SystemEngineSessionState
 "
-)
 }
 return
 state

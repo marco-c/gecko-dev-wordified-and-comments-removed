@@ -218,12 +218,6 @@ ktx
 kotlin
 .
 isExtensionUrl
-import
-java
-.
-lang
-.
-IllegalArgumentException
 /
 *
 *
@@ -374,13 +368,13 @@ AddMultipleTabsAction
 -
 >
 {
-if
+require
 (
 action
 .
 tabs
 .
-any
+none
 {
 it
 .
@@ -393,9 +387,6 @@ null
 }
 )
 {
-throw
-IllegalArgumentException
-(
 "
 AddMultipleTabsAction
 does
@@ -406,7 +397,6 @@ with
 engine
 sessions
 "
-)
 }
 }
 is

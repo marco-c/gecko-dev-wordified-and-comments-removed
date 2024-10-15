@@ -253,6 +253,12 @@ safeIntent
 )
 }
 VisibleForTesting
+Suppress
+(
+"
+UseRequire
+"
+)
 internal
 fun
 getAdditionalHeaders

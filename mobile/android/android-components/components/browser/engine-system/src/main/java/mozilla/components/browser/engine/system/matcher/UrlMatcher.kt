@@ -303,9 +303,8 @@ in
 categoryMap
 )
 {
-if
+require
 (
-!
 supportedCategories
 .
 contains
@@ -314,9 +313,6 @@ key
 )
 )
 {
-throw
-IllegalArgumentException
-(
 "
 key
 categoryMap
@@ -324,7 +320,6 @@ contains
 undeclared
 category
 "
-)
 }
 }
 enabledCategories

@@ -275,16 +275,14 @@ Request
 :
 Response
 {
-if
+require
 (
+!
 request
 .
 private
 )
 {
-throw
-IllegalArgumentException
-(
 "
 Client
 doesn
@@ -294,7 +292,6 @@ support
 private
 request
 "
-)
 }
 if
 (

@@ -3335,9 +3335,6 @@ Suppress
 "
 TooGenericExceptionCaught
 "
-"
-MaxLineLength
-"
 )
 override
 suspend
@@ -3396,6 +3393,8 @@ trying
 to
 update
 without
+/
+/
 all
 the
 required
@@ -3463,10 +3462,10 @@ extension
 with
 id
 extensionId
-removing
+removed
 from
 the
-updating
+update
 queue
 "
 )
@@ -3492,10 +3491,9 @@ info
 There
 is
 no
-new
-updates
+update
+available
 for
-the
 extensionId
 "
 )
@@ -3520,7 +3518,8 @@ info
 "
 Extension
 extensionId
-SuccessFullyUpdated
+successfully
+updated
 "
 )
 Result

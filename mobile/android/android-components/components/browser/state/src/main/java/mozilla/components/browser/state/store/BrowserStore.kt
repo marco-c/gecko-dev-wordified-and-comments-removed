@@ -207,6 +207,12 @@ it
 .
 *
 /
+Suppress
+(
+"
+UseRequire
+"
+)
 class
 BrowserStore
 (

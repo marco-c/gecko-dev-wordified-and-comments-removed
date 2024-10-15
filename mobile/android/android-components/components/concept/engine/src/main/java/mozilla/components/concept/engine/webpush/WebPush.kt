@@ -398,6 +398,9 @@ ByteArray
 Suppress
 (
 "
+BracesOnIfStatements
+"
+"
 ComplexMethod
 "
 )

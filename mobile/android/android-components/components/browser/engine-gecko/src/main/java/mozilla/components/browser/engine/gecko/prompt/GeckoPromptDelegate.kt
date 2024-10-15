@@ -1612,12 +1612,6 @@ it
 return
 geckoResult
 }
-Suppress
-(
-"
-MaxLineLength
-"
-)
 override
 fun
 onLoginSelect

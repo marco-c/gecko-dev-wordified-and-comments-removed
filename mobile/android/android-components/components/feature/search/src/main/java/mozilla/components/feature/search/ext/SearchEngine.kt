@@ -177,12 +177,6 @@ InputStream
 import
 java
 .
-lang
-.
-IllegalArgumentException
-import
-java
-.
 util
 .
 UUID
@@ -232,9 +226,8 @@ false
 :
 SearchEngine
 {
-if
+require
 (
-!
 url
 .
 contains
@@ -243,9 +236,6 @@ OS_SEARCH_ENGINE_TERMS_PARAM
 )
 )
 {
-throw
-IllegalArgumentException
-(
 "
 URL
 does
@@ -255,7 +245,6 @@ search
 terms
 placeholder
 "
-)
 }
 return
 SearchEngine

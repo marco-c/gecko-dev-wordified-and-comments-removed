@@ -1973,9 +1973,6 @@ LargeClass
 "
 LongParameterList
 "
-"
-MaxLineLength
-"
 )
 class
 PromptFeature
