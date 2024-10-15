@@ -1380,14 +1380,7 @@ MOZ_ASSERT
 (
 calendarValue
 .
-isString
-(
-)
-&
-&
-calendarValue
-.
-toString
+identifier
 (
 )
 =
