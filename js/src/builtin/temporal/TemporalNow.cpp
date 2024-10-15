@@ -433,7 +433,7 @@ true
 ;
 }
 static
-JSString
+JSLinearString
 *
 SystemTimeZoneIdentifier
 (
@@ -509,7 +509,7 @@ nullptr
 }
 Rooted
 <
-JSString
+JSLinearString
 *
 >
 timeZone
@@ -842,7 +842,7 @@ cx
 {
 Rooted
 <
-JSString
+JSLinearString
 *
 >
 timeZoneIdentifier
