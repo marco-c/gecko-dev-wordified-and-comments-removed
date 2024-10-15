@@ -11,16 +11,9 @@ appName
 "
 appVersion
 "
-{
-name
-:
 "
 globalPrivacyControl
 "
-isAndroid
-:
-false
-}
 "
 platform
 "
@@ -67,6 +60,9 @@ true
 }
 "
 connection
+"
+"
+permissions
 "
 ]
 ;
