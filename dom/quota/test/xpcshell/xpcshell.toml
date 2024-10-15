@@ -416,6 +416,13 @@ js
 ]
 [
 "
+test_initializePersistentStorage
+.
+js
+"
+]
+[
+"
 test_initializeTemporaryClient
 .
 js
