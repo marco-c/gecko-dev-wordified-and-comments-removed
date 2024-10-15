@@ -86,14 +86,9 @@ TemporalInstantToString
 JSContext
 *
 cx
-JS
-:
-:
-Handle
-<
-InstantObject
-*
->
+const
+Instant
+&
 instant
 JS
 :
