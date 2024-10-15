@@ -5496,7 +5496,7 @@ fuzzy
 25
 0
 -
-2800
+2148
 )
 fails
 -
@@ -20006,7 +20006,7 @@ fuzzy
 110
 107
 -
-3800
+1251
 )
 =
 =
@@ -35728,10 +35728,6 @@ if
 (
 (
 !
-nogpu
-&
-&
-!
 gtkWidget
 &
 &
@@ -35914,15 +35910,10 @@ skip
 -
 if
 (
-nogpu
-|
-|
-(
 winWidget
 &
 &
 isCoverageBuild
-)
 )
 =
 =
@@ -37793,7 +37784,7 @@ Android
 11
 0
 -
-2600
+1901
 )
 fuzzy
 -
@@ -39193,7 +39184,7 @@ useDrawSnapshot
 1
 284
 -
-309
+284
 )
 fuzzy
 -

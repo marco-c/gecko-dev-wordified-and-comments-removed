@@ -35,10 +35,6 @@ fuzzy
 -
 if
 (
-!
-nogpu
-&
-&
 Android13
 &
 &
