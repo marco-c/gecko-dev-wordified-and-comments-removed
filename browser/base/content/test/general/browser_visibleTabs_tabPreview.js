@@ -106,10 +106,11 @@ releaseCtrl
 (
 )
 ;
-gBrowser
+BrowserTestUtils
 .
 showOnlyTheseTabs
 (
+gBrowser
 [
 origTab
 ]
@@ -147,10 +148,11 @@ releaseCtrl
 (
 )
 ;
-gBrowser
+BrowserTestUtils
 .
 showOnlyTheseTabs
 (
+gBrowser
 [
 origTab
 tabOne

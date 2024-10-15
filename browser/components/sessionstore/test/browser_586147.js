@@ -93,10 +93,11 @@ hiding
 "
 )
 ;
-gBrowser
+BrowserTestUtils
 .
 showOnlyTheseTabs
 (
+gBrowser
 [
 origTab
 ]
