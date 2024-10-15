@@ -2373,6 +2373,7 @@ mWrBridge
 FlushRendering
 (
 aReasons
+true
 )
 ;
 return
@@ -3701,6 +3702,7 @@ RenderReasons
 :
 :
 TESTING
+true
 )
 ;
 return
