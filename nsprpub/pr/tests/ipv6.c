@@ -120,7 +120,6 @@ raw
 .
 family
 ?
-\
 sizeof
 (
 (
@@ -130,6 +129,7 @@ addr
 >
 inet
 )
+\
 :
 sizeof
 (

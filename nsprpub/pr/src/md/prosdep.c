@@ -58,12 +58,7 @@ XP_UNIX
 #
 if
 defined
-BSDI
-|
-|
-defined
 AIX
-\
 |
 |
 defined
@@ -76,9 +71,9 @@ __GNU__
 |
 defined
 __GLIBC__
+|
+|
 \
-|
-|
 defined
 FREEBSD
 |
@@ -89,7 +84,6 @@ NETBSD
 |
 defined
 OPENBSD
-\
 |
 |
 defined

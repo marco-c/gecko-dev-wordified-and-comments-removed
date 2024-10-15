@@ -1344,10 +1344,12 @@ define
 WSAID_CONNECTEX
 \
 {
+\
 0x25a207b9
 0xddf3
 0x4660
 {
+\
 0x8e
 0xe9
 0x76
@@ -1356,7 +1358,9 @@ WSAID_CONNECTEX
 0x74
 0x06
 0x3e
+\
 }
+\
 }
 #
 endif

@@ -485,6 +485,7 @@ secv1
 /
 sparcv9
 /
+\
 libnspr4
 .
 so
@@ -515,6 +516,7 @@ secv1
 /
 sparcv9
 /
+\
 libplc4
 .
 so
@@ -545,6 +547,7 @@ secv1
 /
 sparcv9
 /
+\
 libplds4
 .
 so

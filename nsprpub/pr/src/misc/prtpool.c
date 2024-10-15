@@ -266,7 +266,6 @@ JOB_LINKS_PTR
 (
 _qp
 )
-\
 (
 (
 PRJob

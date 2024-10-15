@@ -18,6 +18,7 @@ ReportProgress
 (
 m
 )
+\
 if
 (
 verboseMode
@@ -5147,7 +5148,6 @@ n
 "
 )
 ;
-\
 }
 else
 {
@@ -5161,7 +5161,6 @@ n
 "
 )
 ;
-\
 }
 return
 failedAlready

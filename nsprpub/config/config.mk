@@ -415,7 +415,6 @@ filter
 -
 out
 WINNT
-OS2
 (
 OS_ARCH
 )
@@ -511,9 +510,6 @@ endif
 #
 (
 WINNT
-|
-|
-OS2
 )
 &
 &

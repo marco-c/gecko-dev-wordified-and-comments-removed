@@ -222,18 +222,6 @@ defined
 (
 SOLARIS
 )
-|
-|
-defined
-(
-UNIXWARE
-)
-&
-&
-defined
-(
-USR_SVR4_THREADS
-)
 stack
 -
 >
@@ -5675,7 +5663,6 @@ defined
 (
 WIN32
 )
-\
 &
 &
 !

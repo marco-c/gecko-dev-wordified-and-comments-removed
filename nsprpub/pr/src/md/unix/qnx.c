@@ -180,7 +180,7 @@ not
 be
 called
 for
-Unixware
+qnx
 .
 "
 )
@@ -220,7 +220,7 @@ not
 be
 called
 for
-Unixware
+qnx
 .
 "
 )

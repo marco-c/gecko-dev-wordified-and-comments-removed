@@ -51,6 +51,7 @@ DPRINTF
 (
 arg
 )
+\
 if
 (
 _debug_on
@@ -497,6 +498,8 @@ exitcvar
 lx
 cnt
 =
+"
+"
 %
 ld
 \
@@ -1727,6 +1730,8 @@ exitcvar
 lx
 cnt
 =
+"
+"
 %
 ld
 \

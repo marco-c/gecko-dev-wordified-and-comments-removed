@@ -97,12 +97,12 @@ SOLARIS
 )
 &
 &
+\
 (
 defined
 (
 _PR_PTHREADS
 )
-\
 |
 |
 defined

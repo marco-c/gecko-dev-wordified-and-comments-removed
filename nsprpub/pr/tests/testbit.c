@@ -11,7 +11,9 @@ ErrorReport
 (
 x
 )
+\
 {
+\
 printf
 (
 (
@@ -19,10 +21,12 @@ x
 )
 )
 ;
+\
 failed
 =
 1
 ;
+\
 }
 prbitmap_t
 myMap

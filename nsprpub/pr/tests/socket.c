@@ -110,6 +110,7 @@ DPRINTF
 (
 arg
 )
+\
 if
 (
 _debug_on
@@ -2736,6 +2737,8 @@ port
 =
 %
 d
+"
+"
 bytes
 =
 %
@@ -2819,6 +2822,8 @@ bytes
 =
 %
 d
+"
+"
 inbuf
 =
 0x
@@ -5620,6 +5625,8 @@ small
 file
 header
 data
+"
+"
 corruption
 \
 n
@@ -5660,6 +5667,8 @@ ERROR
 small
 file
 data
+"
+"
 corruption
 \
 n
@@ -5742,6 +5751,8 @@ ERROR
 large
 file
 data
+"
+"
 corruption
 \
 n
@@ -11085,13 +11096,6 @@ test_cancelio
 =
 0
 ;
-#
-if
-!
-defined
-(
-WIN16
-)
 if
 (
 Socket_Misc_Test
@@ -11168,8 +11172,6 @@ n
 )
 ;
 }
-#
-endif
 done
 :
 PR_Cleanup

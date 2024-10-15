@@ -150,7 +150,6 @@ defined
 (
 __ARM_EABI__
 )
-\
 &
 &
 (
@@ -166,11 +165,11 @@ __arm__
 )
 |
 |
+\
 defined
 (
 __arm26__
 )
-\
 |
 |
 defined
@@ -246,7 +245,9 @@ Bug
 (
 x
 )
+\
 {
+\
 fprintf
 (
 stderr
@@ -259,11 +260,13 @@ n
 x
 )
 ;
+\
 exit
 (
 1
 )
 ;
+\
 }
 #
 endif
@@ -568,6 +571,7 @@ defined
 IEEE_ARM
 )
 +
+\
 defined
 (
 VAX
@@ -579,6 +583,7 @@ IBM
 )
 !
 =
+\
 1
 Exactly
 one
@@ -708,6 +713,7 @@ a
 b
 c
 )
+\
 (
 (
 (
@@ -758,6 +764,7 @@ a
 b
 c
 )
+\
 (
 (
 (
@@ -1790,6 +1797,7 @@ Bcopy
 x
 y
 )
+\
 memcpy
 (
 (
