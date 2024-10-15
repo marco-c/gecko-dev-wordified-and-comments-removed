@@ -21,7 +21,6 @@ SMILMilestone
 {
 public
 :
-constexpr
 SMILMilestone
 (
 SMILTime
@@ -40,7 +39,6 @@ aIsEnd
 )
 {
 }
-constexpr
 SMILMilestone
 (
 )
