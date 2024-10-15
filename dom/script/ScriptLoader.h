@@ -1154,6 +1154,9 @@ nsSecurityFlags
 aSecurityFlags
 nsContentPolicyType
 aContentPolicyType
+SubResourceNetworkMetadataHolder
+*
+aNetworkMetadata
 )
 ;
 void
