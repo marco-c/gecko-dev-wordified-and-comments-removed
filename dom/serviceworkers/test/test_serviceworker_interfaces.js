@@ -519,6 +519,9 @@ ErrorEvent
 Event
 "
 "
+EventSource
+"
+"
 EventTarget
 "
 "

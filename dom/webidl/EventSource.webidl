@@ -164,8 +164,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
-SharedWorker
+Worker
 )
 ]
 interface
