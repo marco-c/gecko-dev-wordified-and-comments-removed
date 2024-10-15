@@ -235,6 +235,14 @@ actor
 ;
 }
 }
+actor
+.
+persistedActorID
+=
+actor
+.
+actorID
+;
 this
 .
 _poolMap

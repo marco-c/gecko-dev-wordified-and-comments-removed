@@ -4202,7 +4202,7 @@ id
 :
 targetFront
 .
-actorID
+persistedActorID
 destroy
 :
 true
