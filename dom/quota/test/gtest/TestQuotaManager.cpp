@@ -7985,11 +7985,9 @@ done
 }
 )
 ;
-directoryLock
--
->
-Drop
+DropDirectoryLock
 (
+directoryLock
 )
 ;
 }
