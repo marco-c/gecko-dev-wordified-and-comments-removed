@@ -530,7 +530,10 @@ NSMakeSize
 kIconHeight
 kIconHeight
 )
-svgContext
+presContext
+:
+nullptr
+computedStyle
 :
 nullptr
 scaleFactor

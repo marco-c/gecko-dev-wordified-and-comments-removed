@@ -128,11 +128,6 @@ nsIStyleSheetService
 .
 idl
 "
-"
-nsISVGPaintContext
-.
-idl
-"
 ]
 if
 CONFIG

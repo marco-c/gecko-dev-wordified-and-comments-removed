@@ -1299,6 +1299,7 @@ imgIContainer
 :
 FRAME_FIRST
 nullptr
+nullptr
 cocoaSize
 &
 cursorImage
