@@ -4052,7 +4052,7 @@ addon
 -
 permissions
 -
-empty
+empty2
 =
 This
 extension
@@ -4061,6 +4061,7 @@ t
 require
 any
 permissions
+.
 addon
 -
 permissions
