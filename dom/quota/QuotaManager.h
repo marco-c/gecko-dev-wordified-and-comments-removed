@@ -743,8 +743,6 @@ const
 OriginMetadata
 &
 aOriginMetadata
-bool
-aPersisted
 )
 ;
 void
