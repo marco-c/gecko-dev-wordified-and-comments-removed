@@ -333,7 +333,7 @@ listener
 expectedKeaGroup
 =
 "
-x25519
+mlkem768x25519
 "
 ;
 let

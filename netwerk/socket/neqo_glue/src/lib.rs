@@ -1729,7 +1729,7 @@ set_groups
 neqo_crypto
 :
 :
-TLS_GRP_KEM_XYBER768D00
+TLS_GRP_KEM_MLKEM768X25519
 neqo_crypto
 :
 :
