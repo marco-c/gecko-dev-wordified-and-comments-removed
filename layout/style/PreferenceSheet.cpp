@@ -1271,6 +1271,17 @@ true
 ;
 }
 }
+if
+(
+!
+XRE_IsParentProcess
+(
+)
+)
+{
+return
+;
+}
 nsAutoString
 useDocumentColorPref
 ;

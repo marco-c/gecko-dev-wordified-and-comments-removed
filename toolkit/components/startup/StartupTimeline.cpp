@@ -173,6 +173,17 @@ aWhen
 ;
 if
 (
+!
+XRE_IsParentProcess
+(
+)
+)
+{
+return
+;
+}
+if
+(
 ev
 =
 =
