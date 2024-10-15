@@ -9130,7 +9130,9 @@ getProfile
 (
 ignoreCache
 =
-false
+anyBoolean
+(
+)
 )
 )
 .
@@ -9621,7 +9623,9 @@ getProfile
 (
 ignoreCache
 =
-false
+anyBoolean
+(
+)
 )
 )
 .
@@ -10238,7 +10242,9 @@ getProfile
 (
 ignoreCache
 =
-true
+anyBoolean
+(
+)
 )
 )
 .
@@ -10671,7 +10677,9 @@ getProfile
 (
 ignoreCache
 =
-false
+anyBoolean
+(
+)
 )
 when
 (
@@ -11665,7 +11673,9 @@ getProfile
 (
 ignoreCache
 =
-false
+anyBoolean
+(
+)
 )
 )
 .
@@ -11905,7 +11915,9 @@ getProfile
 (
 ignoreCache
 =
-false
+anyBoolean
+(
+)
 )
 )
 .
