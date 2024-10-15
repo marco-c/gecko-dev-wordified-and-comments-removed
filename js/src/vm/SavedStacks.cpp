@@ -10695,12 +10695,14 @@ SavedStacks
 :
 metadataBuilder
 ;
+MOZ_CONSTINIT
 ReconstructedSavedFramePrincipals
 ReconstructedSavedFramePrincipals
 :
 :
 IsSystem
 ;
+MOZ_CONSTINIT
 ReconstructedSavedFramePrincipals
 ReconstructedSavedFramePrincipals
 :
