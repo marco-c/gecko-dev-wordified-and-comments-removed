@@ -200,14 +200,6 @@ fenix
 theme
 .
 Theme
-internal
-const
-val
-SAVE_MENU_ROUTE
-=
-"
-save_menu
-"
 Suppress
 (
 "
