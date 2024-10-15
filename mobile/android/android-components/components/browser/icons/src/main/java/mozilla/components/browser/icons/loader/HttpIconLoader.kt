@@ -847,15 +847,6 @@ Result
 .
 NoResult
 }
-if
-(
-bytesInChunk
-<
-DEFAULT_BUFFER_SIZE
-)
-{
-break
-}
 }
 IconLoader
 .

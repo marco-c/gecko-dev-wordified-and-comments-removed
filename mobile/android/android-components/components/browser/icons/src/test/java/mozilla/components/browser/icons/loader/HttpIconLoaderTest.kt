@@ -2074,7 +2074,7 @@ MockResponse
 (
 )
 .
-setBody
+setChunkedBody
 (
 javaClass
 .
@@ -2104,6 +2104,9 @@ readText
 (
 )
 }
+maxChunkSize
+=
+12
 )
 .
 removeHeader
@@ -2183,8 +2186,9 @@ assertTrue
 "
 Result
 should
-match
+return
 BytesResult
+type
 "
 result
 is
