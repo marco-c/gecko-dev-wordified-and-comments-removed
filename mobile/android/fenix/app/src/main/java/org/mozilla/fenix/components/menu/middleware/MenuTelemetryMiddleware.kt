@@ -1117,7 +1117,11 @@ UpdatePinnedState
 is
 MenuAction
 .
-UpdateWebExtensionMenuItems
+UpdateWebExtensionBrowserMenuItems
+is
+MenuAction
+.
+UpdateWebExtensionPageMenuItems
 is
 MenuAction
 .
