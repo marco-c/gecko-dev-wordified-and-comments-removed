@@ -51337,7 +51337,7 @@ javascript
 .
 options
 .
-wasm_experimental_tiering_level
+wasm_lazy_tiering_level
 type
 :
 uint32_t

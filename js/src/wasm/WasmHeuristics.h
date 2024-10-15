@@ -112,7 +112,7 @@ JS
 Prefs
 :
 :
-wasm_experimental_tiering_level
+wasm_lazy_tiering_level
 (
 )
 ;
