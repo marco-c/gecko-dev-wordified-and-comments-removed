@@ -947,6 +947,7 @@ mDocumentLoadListener
 OpenDocument
 (
 mLoadState
+mLoadFlags
 mCacheKey
 Some
 (

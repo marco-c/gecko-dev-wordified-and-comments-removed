@@ -418,6 +418,11 @@ mDocumentLoadListener
 OpenDocument
 (
 loadState
+docArgs
+.
+loadFlags
+(
+)
 aArgs
 .
 cacheKey
