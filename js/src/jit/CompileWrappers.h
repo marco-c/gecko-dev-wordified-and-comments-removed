@@ -438,15 +438,6 @@ CatchAllAllocSite
 siteKind
 )
 ;
-gc
-:
-:
-AllocSite
-*
-tenuringAllocSite
-(
-)
-;
 bool
 hasRealmWithAllocMetadataBuilder
 (
