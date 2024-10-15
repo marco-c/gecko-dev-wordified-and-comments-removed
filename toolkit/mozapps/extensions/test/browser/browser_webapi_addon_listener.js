@@ -142,6 +142,16 @@ provider
 new
 MockProvider
 (
+[
+"
+extension
+"
+]
+{
+supportsOperationsRequiringRestart
+:
+true
+}
 )
 ;
 provider
