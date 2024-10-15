@@ -1676,11 +1676,14 @@ kind_graph
 =
 Graph
 (
-set
+frozenset
 (
 kinds
 )
+frozenset
+(
 edges
+)
 )
         
 if
@@ -1877,11 +1880,11 @@ TaskGraph
 all_tasks
 Graph
 (
-set
+frozenset
 (
 all_tasks
 )
-set
+frozenset
 (
 )
 )
@@ -1996,16 +1999,24 @@ full_task_graph
 =
 TaskGraph
 (
+            
 all_tasks
 Graph
+(
+frozenset
 (
 full_task_set
 .
 graph
 .
 nodes
+)
+frozenset
+(
 edges
 )
+)
+        
 )
         
 logger
@@ -2079,9 +2090,10 @@ dict
 (
 all_tasks
 )
+            
 Graph
 (
-set
+frozenset
 (
 all_tasks
 .
@@ -2089,7 +2101,7 @@ keys
 (
 )
 )
-set
+frozenset
 (
 )
 )
@@ -2142,10 +2154,14 @@ l
 in
 target_tasks
 }
+                
 Graph
 (
+frozenset
+(
 target_tasks
-set
+)
+frozenset
 (
 )
 )
@@ -2357,6 +2373,7 @@ target_graph
 .
 nodes
 }
+            
 target_graph
         
 )

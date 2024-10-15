@@ -49,6 +49,15 @@ Schema
     
 {
         
+Optional
+(
+"
+name
+"
+)
+:
+str
+        
 Required
 (
             
@@ -689,6 +698,29 @@ subs
 update
 (
 params_context
+)
+        
+if
+"
+name
+"
+in
+task
+:
+            
+subs
+.
+setdefault
+(
+"
+name
+"
+task
+[
+"
+name
+"
+]
 )
         
 for

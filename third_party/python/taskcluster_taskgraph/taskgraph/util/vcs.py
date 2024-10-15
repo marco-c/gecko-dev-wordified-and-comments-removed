@@ -11,7 +11,6 @@ abc
 import
 ABC
 abstractmethod
-abstractproperty
 from
 shutil
 import
@@ -196,16 +195,19 @@ check_output
 (
                 
 cmd
+                
 cwd
 =
 self
 .
 path
+                
 env
 =
 self
 .
 _env
+                
 encoding
 =
 "
@@ -213,6 +215,7 @@ utf
 -
 8
 "
+                
 *
 *
 kwargs
@@ -241,7 +244,9 @@ return
             
 raise
     
-abstractproperty
+property
+    
+abstractmethod
     
 def
 tool
@@ -274,7 +279,9 @@ git
 "
 "
     
-abstractproperty
+property
+    
+abstractmethod
     
 def
 head_rev
@@ -298,7 +305,9 @@ revision
 "
 "
     
-abstractproperty
+property
+    
+abstractmethod
     
 def
 base_rev
@@ -325,7 +334,9 @@ on
 "
 "
     
-abstractproperty
+property
+    
+abstractmethod
     
 def
 branch
@@ -350,7 +361,9 @@ active
 "
 "
     
-abstractproperty
+property
+    
+abstractmethod
     
 def
 all_remote_names
@@ -373,13 +386,18 @@ repositories
 "
 "
     
-abstractproperty
+property
+    
+abstractmethod
     
 def
 default_remote_name
 (
 self
 )
+-
+>
+str
 :
         
 "
@@ -422,7 +440,9 @@ instance
 "
 "
     
-abstractproperty
+property
+    
+abstractmethod
     
 def
 remote_name
@@ -457,6 +477,23 @@ remotes
 self
 .
 all_remote_names
+        
+if
+remotes
+is
+None
+:
+            
+raise
+RuntimeError
+(
+"
+No
+valid
+remotes
+found
+"
+)
         
 if
 len
@@ -570,7 +607,9 @@ remote_instructions
 return
 first_remote
     
-abstractproperty
+property
+    
+abstractmethod
     
 def
 default_branch
@@ -1134,14 +1173,36 @@ Repository
 )
 :
     
+property
+    
+def
 tool
-=
+(
+self
+)
+-
+>
+str
+:
+        
+return
 "
 hg
 "
     
+property
+    
+def
 default_remote_name
-=
+(
+self
+)
+-
+>
+str
+:
+        
+return
 "
 default
 "
@@ -2174,14 +2235,36 @@ Repository
 )
 :
     
+property
+    
+def
 tool
-=
+(
+self
+)
+-
+>
+str
+:
+        
+return
 "
 git
 "
     
+property
+    
+def
 default_remote_name
-=
+(
+self
+)
+-
+>
+str
+:
+        
+return
 "
 origin
 "

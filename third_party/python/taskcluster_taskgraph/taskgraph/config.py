@@ -580,6 +580,24 @@ self
 _config
     
 def
+get
+(
+self
+name
+)
+:
+        
+return
+self
+.
+_config
+.
+get
+(
+name
+)
+    
+def
 register
 (
 self
