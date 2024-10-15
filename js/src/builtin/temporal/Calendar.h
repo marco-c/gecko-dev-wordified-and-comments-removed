@@ -828,7 +828,7 @@ CalendarFieldNames
 result
 )
 ;
-JSObject
+PlainObject
 *
 CalendarMergeFields
 (
@@ -840,7 +840,7 @@ JS
 :
 Handle
 <
-CalendarRecord
+CalendarValue
 >
 calendar
 JS

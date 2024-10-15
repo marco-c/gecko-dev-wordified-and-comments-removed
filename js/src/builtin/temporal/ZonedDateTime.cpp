@@ -9185,11 +9185,7 @@ CreateTemporalDateTime
 (
 cx
 dateTime
-calendarRec
-.
-receiver
-(
-)
+calendar
 )
 )
 ;
@@ -9556,7 +9552,7 @@ false
 }
 Rooted
 <
-JSObject
+PlainObject
 *
 >
 mergedFields
@@ -9565,7 +9561,7 @@ cx
 CalendarMergeFields
 (
 cx
-calendarRec
+calendar
 fields
 partialZonedDateTime
 )

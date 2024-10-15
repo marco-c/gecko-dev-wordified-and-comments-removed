@@ -8776,7 +8776,7 @@ false
 }
 Rooted
 <
-JSObject
+PlainObject
 *
 >
 mergedFields
@@ -8785,7 +8785,7 @@ cx
 CalendarMergeFields
 (
 cx
-calendarRec
+calendar
 fields
 partialDate
 )
