@@ -434,13 +434,6 @@ class
 ImageTracker
 ;
 }
-namespace
-ipc
-{
-class
-ByteBuf
-;
-}
 template
 <
 typename

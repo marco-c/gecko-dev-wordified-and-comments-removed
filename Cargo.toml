@@ -382,6 +382,13 @@ trials
 /
 ffi
 "
+"
+ipc
+/
+rust
+/
+ipdl_utils
+"
 #
 Excluded
 because
