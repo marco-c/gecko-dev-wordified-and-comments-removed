@@ -33,6 +33,11 @@ html
 "
 )
 ;
+requestLongerTimeout
+(
+4
+)
+;
 add_task
 (
 async

@@ -1281,6 +1281,7 @@ if
 positions
 )
 {
+await
 assertLineIsBreakable
 (
 dbg
