@@ -676,6 +676,9 @@ initTemporaryOrigin
 self
 persistenceType
 origin
+createIfNonExistent
+=
+True
 )
 :
         
@@ -708,6 +711,7 @@ const
 [
 persistenceType
 origin
+createIfNonExistent
 ]
 =
 arguments
@@ -745,6 +749,7 @@ initializeTemporaryOrigin
 (
 persistenceType
 principal
+createIfNonExistent
 )
 ;
                     
@@ -771,6 +776,8 @@ script_args
 persistenceType
                     
 origin
+                    
+createIfNonExistent
                 
 )
             

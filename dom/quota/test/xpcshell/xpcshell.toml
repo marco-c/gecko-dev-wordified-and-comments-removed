@@ -493,6 +493,13 @@ js
 ]
 [
 "
+test_quotaClientInteractions
+.
+js
+"
+]
+[
+"
 test_removeLocalStorage
 .
 js

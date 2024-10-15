@@ -1785,6 +1785,7 @@ EnsureTemporaryOriginIsInitializedInternal
 (
 *
 mDirectoryMetadata
+true
 )
 .
 map
@@ -1804,6 +1805,18 @@ res
 first
 ;
 }
+)
+)
+;
+QM_TRY
+(
+quotaManager
+-
+>
+EnsureTemporaryOriginDirectoryCreated
+(
+*
+mDirectoryMetadata
 )
 )
 ;

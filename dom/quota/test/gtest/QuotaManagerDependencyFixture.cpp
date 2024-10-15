@@ -1015,6 +1015,8 @@ const
 OriginMetadata
 &
 aOriginMetadata
+bool
+aCreateIfNonExistent
 )
 {
 mozilla
@@ -1054,6 +1056,7 @@ move
 (
 principalInfo
 )
+aCreateIfNonExistent
 ]
 (
 )
@@ -1083,6 +1086,7 @@ InitializeTemporaryOrigin
 (
 persistenceType
 principalInfo
+aCreateIfNonExistent
 )
 )
 ;

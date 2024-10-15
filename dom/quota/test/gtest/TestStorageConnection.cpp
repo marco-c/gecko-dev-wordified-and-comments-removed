@@ -193,6 +193,7 @@ quotaManager
 EnsureTemporaryOriginIsInitializedInternal
 (
 aClientMetadata
+true
 )
 .
 map
@@ -212,6 +213,18 @@ aPair
 first
 ;
 }
+)
+QM_TEST_FAIL
+)
+;
+QM_TRY
+(
+quotaManager
+-
+>
+EnsureTemporaryOriginDirectoryCreated
+(
+aClientMetadata
 )
 QM_TEST_FAIL
 )

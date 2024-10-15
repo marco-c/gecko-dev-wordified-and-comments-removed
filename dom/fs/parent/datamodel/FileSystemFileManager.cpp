@@ -897,6 +897,7 @@ quotaManager
 EnsureTemporaryOriginIsInitializedInternal
 (
 aOriginMetadata
+true
 )
 .
 map
@@ -916,6 +917,17 @@ aPair
 first
 ;
 }
+)
+)
+;
+QM_TRY
+(
+quotaManager
+-
+>
+EnsureTemporaryOriginDirectoryCreated
+(
+aOriginMetadata
 )
 )
 ;

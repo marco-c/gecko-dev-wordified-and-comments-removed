@@ -324,6 +324,7 @@ quotaManager
 EnsureTemporaryOriginIsInitializedInternal
 (
 originMetadata
+true
 )
 ;
 ASSERT_TRUE
@@ -438,7 +439,7 @@ testPathRes
 quotaManager
 -
 >
-GetOriginDirectory
+GetOrCreateTemporaryOriginDirectory
 (
 originMetadata
 )
