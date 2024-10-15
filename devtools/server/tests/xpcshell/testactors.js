@@ -1126,6 +1126,17 @@ _global
 ;
 }
 get
+targetGlobal
+(
+)
+{
+return
+this
+.
+_global
+;
+}
+get
 title
 (
 )

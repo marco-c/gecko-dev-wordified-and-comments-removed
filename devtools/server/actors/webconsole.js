@@ -899,14 +899,7 @@ this
 .
 targetActor
 .
-window
-|
-|
-this
-.
-targetActor
-.
-workerGlobal
+targetGlobal
 ;
 }
 _getWindowForBrowserConsole

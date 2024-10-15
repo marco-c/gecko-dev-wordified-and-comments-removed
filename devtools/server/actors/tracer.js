@@ -663,14 +663,7 @@ this
 .
 targetActor
 .
-window
-|
-|
-this
-.
-targetActor
-.
-workerGlobal
+targetGlobal
 prefix
 :
 options
