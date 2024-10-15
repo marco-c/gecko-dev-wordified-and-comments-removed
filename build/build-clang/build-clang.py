@@ -5239,6 +5239,45 @@ cc_name
 exe_ext
 )
         
+name_compression
+=
+[
+]
+        
+if
+is_windows
+(
+target
+)
+and
+is_cross_compile
+(
+target
+)
+and
+pgo
+:
+            
+name_compression
+=
+[
+"
+-
+mllvm
+"
+"
+-
+-
+enable
+-
+name
+-
+compression
+=
+false
+"
+]
+        
 build_one_stage
 (
             
@@ -5247,12 +5286,16 @@ cc
 ]
 +
 extra_cflags2
++
+name_compression
             
 [
 cxx
 ]
 +
 extra_cxxflags2
++
+name_compression
             
 [
 asm
