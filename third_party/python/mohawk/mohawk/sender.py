@@ -4,9 +4,15 @@ from
 .
 base
 import
+(
 default_ts_skew_in_seconds
+                   
 HawkAuthority
+                   
 Resource
+                   
+EmptyValue
+)
 from
 .
 util
@@ -130,28 +136,39 @@ str
 param
 content
 =
-None
+EmptyValue
 :
 Byte
 string
 of
 request
 body
+or
+a
+file
+-
+like
+object
 .
     
 :
 type
 content
 =
-None
+EmptyValue
 :
 str
+or
+file
+-
+like
+object
     
 :
 param
 content_type
 =
-None
+EmptyValue
 :
 content
 -
@@ -166,7 +183,7 @@ request
 type
 content_type
 =
-None
+EmptyValue
 :
 str
     
@@ -182,9 +199,9 @@ True
 content
 and
 content_type
-cannot
+must
 be
-None
+provided
 .
         
 Read
@@ -445,11 +462,11 @@ method
                  
 content
 =
-None
+EmptyValue
                  
 content_type
 =
-None
+EmptyValue
                  
 always_hash_content
 =
@@ -607,11 +624,11 @@ response_header
                         
 content
 =
-None
+EmptyValue
                         
 content_type
 =
-None
+EmptyValue
                         
 accept_untrusted_content
 =
@@ -679,7 +696,7 @@ str
 param
 content
 =
-None
+EmptyValue
 :
 Byte
 string
@@ -694,7 +711,7 @@ received
 type
 content
 =
-None
+EmptyValue
 :
 str
         
@@ -702,7 +719,7 @@ str
 param
 content_type
 =
-None
+EmptyValue
 :
             
 Content
@@ -720,7 +737,7 @@ received
 type
 content_type
 =
-None
+EmptyValue
 :
 str
         
@@ -741,17 +758,8 @@ not
 hash
 their
 content
-or
-            
-allow
-None
-type
-content
-and
-content_type
-            
-arguments
 .
+            
 Read
 :
 ref
@@ -761,7 +769,6 @@ skipping
 content
 -
 checks
-            
 to
 learn
 more

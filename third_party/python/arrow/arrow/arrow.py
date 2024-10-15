@@ -10413,7 +10413,7 @@ difference
 relative
 to
 the
-attrbiutes
+attributes
 of
 the
         
@@ -11073,7 +11073,7 @@ not
 support
 the
 week
-granulairty
+granularity
 in
 Arrow
 .

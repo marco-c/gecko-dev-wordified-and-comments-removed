@@ -1,18 +1,24 @@
 from
+typing
+import
+Any
+Union
+from
 .
 core
 import
-*
-from
-.
-codec
-import
-*
+decode
+encode
 def
 ToASCII
 (
 label
+:
+str
 )
+-
+>
+bytes
 :
     
 return
@@ -24,7 +30,16 @@ def
 ToUnicode
 (
 label
+:
+Union
+[
+bytes
+bytearray
+]
 )
+-
+>
+str
 :
     
 return
@@ -36,7 +51,12 @@ def
 nameprep
 (
 s
+:
+Any
 )
+-
+>
+None
 :
     
 raise

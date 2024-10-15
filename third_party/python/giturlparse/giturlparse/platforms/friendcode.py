@@ -138,8 +138,11 @@ user
 repo
 )
 s
-.
-git
+%
+(
+dot_git
+)
+s
 "
     
 }

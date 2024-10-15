@@ -1,6 +1,7 @@
 from
+collections
 .
-_compat
+abc
 import
 Sequence
 Hashable
@@ -14,15 +15,34 @@ numbers
 import
 Integral
 from
+typing
+import
+TypeVar
+Generic
+from
 pyrsistent
 .
 _plist
 import
 plist
+T_co
+=
+TypeVar
+(
+'
+T_co
+'
+covariant
+=
+True
+)
 class
 PDeque
 (
-object
+Generic
+[
+T_co
+]
 )
 :
     
@@ -1945,7 +1965,7 @@ PDeque
 self
 .
 _left_list
-                               
+                              
 self
 .
 _right_list
@@ -1971,6 +1991,8 @@ _length
             
 except
 ValueError
+as
+e
 :
                 
 raise
@@ -1991,6 +2013,8 @@ format
 elem
 )
 )
+from
+e
     
 def
 reverse

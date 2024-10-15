@@ -50,6 +50,14 @@ platform
 "
 protocol
 "
+    
+"
+username
+"
+    
+"
+access_token
+"
 )
 def
 parse
@@ -94,6 +102,16 @@ parsed_info
 [
 "
 groups_path
+"
+]
+=
+"
+"
+    
+parsed_info
+[
+"
+owner
 "
 ]
 =
@@ -164,14 +182,12 @@ platform
 .
 DOMAINS
 and
-not
-(
 domain
+not
 in
 platform
 .
 DOMAINS
-)
 :
                     
 continue

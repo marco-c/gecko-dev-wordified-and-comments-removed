@@ -16,8 +16,6 @@ os
 import
 random
 import
-sys
-import
 threading
 import
 time
@@ -28,30 +26,8 @@ import
 ENOVAL
 args_to_key
 full_name
-if
-sys
-.
-hexversion
-<
-0x03000000
-:
-    
-from
-thread
-import
-get_ident
-else
-:
-    
-from
-threading
-import
-get_ident
 class
 Averager
-(
-object
-)
 :
     
 "
@@ -91,6 +67,35 @@ calculated
 at
 any
 time
+.
+    
+Assumes
+the
+key
+will
+not
+be
+evicted
+.
+Set
+the
+eviction
+policy
+to
+'
+none
+'
+on
+    
+the
+cache
+to
+guarantee
+the
+key
+is
+not
+evicted
 .
     
 >
@@ -251,11 +256,15 @@ value
 :
         
 "
+"
+"
 Add
 value
 to
 average
 .
+"
+"
 "
         
 with
@@ -313,15 +322,18 @@ set
 self
 .
 _key
+                
 (
 total
 count
 )
+                
 expire
 =
 self
 .
 _expire
+                
 tag
 =
 self
@@ -338,6 +350,8 @@ self
 :
         
 "
+"
+"
 Get
 current
 average
@@ -349,6 +363,8 @@ count
 equals
 zero
 .
+"
+"
 "
         
 total
@@ -396,6 +412,8 @@ self
 :
         
 "
+"
+"
 Return
 current
 average
@@ -403,6 +421,8 @@ and
 delete
 key
 .
+"
+"
 "
         
 total
@@ -443,9 +463,6 @@ total
 count
 class
 Lock
-(
-object
-)
 :
     
 "
@@ -461,6 +478,35 @@ cross
 -
 thread
 lock
+.
+    
+Assumes
+the
+key
+will
+not
+be
+evicted
+.
+Set
+the
+eviction
+policy
+to
+'
+none
+'
+on
+    
+the
+cache
+to
+guarantee
+the
+key
+is
+not
+evicted
 .
     
 >
@@ -576,6 +622,8 @@ self
 :
         
 "
+"
+"
 Acquire
 lock
 using
@@ -584,6 +632,8 @@ spin
 lock
 algorithm
 .
+"
+"
 "
         
 while
@@ -602,17 +652,21 @@ add
 self
 .
 _key
+                
 None
+                
 expire
 =
 self
 .
 _expire
+                
 tag
 =
 self
 .
 _tag
+                
 retry
 =
 True
@@ -642,12 +696,16 @@ self
 :
         
 "
+"
+"
 Release
 lock
 by
 deleting
 key
 .
+"
+"
 "
         
 self
@@ -663,6 +721,37 @@ retry
 =
 True
 )
+    
+def
+locked
+(
+self
+)
+:
+        
+"
+"
+"
+Return
+true
+if
+the
+lock
+is
+acquired
+.
+"
+"
+"
+        
+return
+self
+.
+_key
+in
+self
+.
+_cache
     
 def
 __enter__
@@ -693,9 +782,6 @@ release
 )
 class
 RLock
-(
-object
-)
 :
     
 "
@@ -714,6 +800,35 @@ re
 -
 entrant
 lock
+.
+    
+Assumes
+the
+key
+will
+not
+be
+evicted
+.
+Set
+the
+eviction
+policy
+to
+'
+none
+'
+on
+    
+the
+cache
+to
+guarantee
+the
+key
+is
+not
+evicted
 .
     
 >
@@ -878,6 +993,8 @@ self
 :
         
 "
+"
+"
 Acquire
 lock
 by
@@ -890,6 +1007,8 @@ lock
 algorithm
 .
 "
+"
+"
         
 pid
 =
@@ -901,6 +1020,8 @@ getpid
         
 tid
 =
+threading
+.
 get_ident
 (
 )
@@ -980,6 +1101,7 @@ set
 self
 .
 _key
+                        
 (
 pid_tid
 count
@@ -992,6 +1114,7 @@ expire
 self
 .
 _expire
+                        
 tag
 =
 self
@@ -1019,12 +1142,16 @@ self
 :
         
 "
+"
+"
 Release
 lock
 by
 decrementing
 count
 .
+"
+"
 "
         
 pid
@@ -1037,6 +1164,8 @@ getpid
         
 tid
 =
+threading
+.
 get_ident
 (
 )
@@ -1122,6 +1251,7 @@ set
 self
 .
 _key
+                
 (
 value
 count
@@ -1134,6 +1264,7 @@ expire
 self
 .
 _expire
+                
 tag
 =
 self
@@ -1171,9 +1302,6 @@ release
 )
 class
 BoundedSemaphore
-(
-object
-)
 :
     
 "
@@ -1190,6 +1318,35 @@ cross
 thread
 bounded
 semaphore
+.
+    
+Assumes
+the
+key
+will
+not
+be
+evicted
+.
+Set
+the
+eviction
+policy
+to
+'
+none
+'
+on
+    
+the
+cache
+to
+guarantee
+the
+key
+is
+not
+evicted
 .
     
 >
@@ -1366,6 +1523,8 @@ self
 :
         
 "
+"
+"
 Acquire
 semaphore
 by
@@ -1377,6 +1536,8 @@ spin
 lock
 algorithm
 .
+"
+"
 "
         
 while
@@ -1430,6 +1591,7 @@ set
 self
 .
 _key
+                        
 value
 -
 1
@@ -1439,6 +1601,7 @@ expire
 self
 .
 _expire
+                        
 tag
 =
 self
@@ -1466,12 +1629,16 @@ self
 :
         
 "
+"
+"
 Release
 semaphore
 by
 incrementing
 value
 .
+"
+"
 "
         
 with
@@ -1535,12 +1702,15 @@ set
 self
 .
 _key
+                
 value
+                
 expire
 =
 self
 .
 _expire
+                
 tag
 =
 self
@@ -1579,24 +1749,31 @@ release
 def
 throttle
 (
+    
 cache
+    
 count
+    
 seconds
+    
 name
 =
 None
+    
 expire
 =
 None
+    
 tag
 =
 None
-             
+    
 time_func
 =
 time
 .
 time
+    
 sleep_func
 =
 time
@@ -1614,6 +1791,34 @@ throttle
 calls
 to
 function
+.
+    
+Assumes
+keys
+will
+not
+be
+evicted
+.
+Set
+the
+eviction
+policy
+to
+'
+none
+'
+on
+the
+    
+cache
+to
+guarantee
+the
+keys
+are
+not
+evicted
 .
     
 >
@@ -1981,6 +2186,34 @@ RLock
 BoundedSemaphore
 .
     
+Assumes
+keys
+will
+not
+be
+evicted
+.
+Set
+the
+eviction
+policy
+to
+'
+none
+'
+on
+the
+    
+cache
+to
+guarantee
+the
+keys
+are
+not
+evicted
+.
+    
 >
 >
 >
@@ -2187,6 +2420,7 @@ decorator
 def
 memoize_stampede
 (
+    
 cache
 expire
 name
@@ -2201,6 +2435,10 @@ None
 beta
 =
 1
+ignore
+=
+(
+)
 )
 :
     
@@ -2663,6 +2901,23 @@ None
 )
     
 :
+param
+set
+ignore
+:
+positional
+or
+keyword
+args
+to
+ignore
+(
+default
+(
+)
+)
+    
+:
 return
 :
 callable
@@ -2680,6 +2935,8 @@ func
 :
         
 "
+"
+"
 Decorator
 created
 by
@@ -2688,6 +2945,8 @@ call
 for
 callable
 .
+"
+"
 "
         
 base
@@ -2719,6 +2978,8 @@ kwargs
 :
             
 "
+"
+"
 Time
 execution
 of
@@ -2730,6 +2991,8 @@ and
 time
 delta
 .
+"
+"
 "
             
 start
@@ -2784,6 +3047,8 @@ kwargs
 :
             
 "
+"
+"
 Wrapper
 for
 callable
@@ -2794,6 +3059,8 @@ and
 return
 values
 .
+"
+"
 "
             
 key
@@ -2818,12 +3085,15 @@ get
 (
                 
 key
+                
 default
 =
 ENOVAL
+                
 expire_time
 =
 True
+                
 retry
 =
 True
@@ -2897,10 +3167,13 @@ add
 (
                     
 thread_key
+                    
 None
+                    
 expire
 =
 delta
+                    
 retry
 =
 True
@@ -2938,13 +3211,17 @@ set
 (
                                 
 key
+                                
 pair
+                                
 expire
 =
 expire
+                                
 tag
 =
 tag
+                                
 retry
 =
 True
@@ -3023,6 +3300,8 @@ kwargs
 :
             
 "
+"
+"
 Make
 key
 for
@@ -3032,6 +3311,8 @@ function
 arguments
 .
 "
+"
+"
             
 return
 args_to_key
@@ -3040,6 +3321,7 @@ base
 args
 kwargs
 typed
+ignore
 )
         
 wrapper

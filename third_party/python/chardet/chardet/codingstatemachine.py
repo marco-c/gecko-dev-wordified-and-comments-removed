@@ -2,14 +2,16 @@ import
 logging
 from
 .
+codingstatemachinedict
+import
+CodingStateMachineDict
+from
+.
 enums
 import
 MachineState
 class
 CodingStateMachine
-(
-object
-)
 :
     
 "
@@ -234,7 +236,12 @@ __init__
 (
 self
 sm
+:
+CodingStateMachineDict
 )
+-
+>
+None
 :
         
 self
@@ -259,7 +266,15 @@ self
 .
 _curr_state
 =
-None
+MachineState
+.
+START
+        
+self
+.
+active
+=
+True
         
 self
 .
@@ -283,6 +298,9 @@ reset
 (
 self
 )
+-
+>
+None
 :
         
 self
@@ -298,7 +316,12 @@ next_state
 (
 self
 c
+:
+int
 )
+-
+>
+int
 :
         
 byte_class
@@ -307,9 +330,9 @@ self
 .
 _model
 [
-'
+"
 class_table
-'
+"
 ]
 [
 c
@@ -340,9 +363,9 @@ self
 .
 _model
 [
-'
+"
 char_len_table
-'
+"
 ]
 [
 byte_class
@@ -350,7 +373,6 @@ byte_class
         
 curr_state
 =
-(
 self
 .
 _curr_state
@@ -359,14 +381,12 @@ self
 .
 _model
 [
-'
+"
 class_factor
-'
+"
 ]
-                      
 +
 byte_class
-)
         
 self
 .
@@ -376,9 +396,9 @@ self
 .
 _model
 [
-'
+"
 state_table
-'
+"
 ]
 [
 curr_state
@@ -401,6 +421,9 @@ get_current_charlen
 (
 self
 )
+-
+>
+int
 :
         
 return
@@ -413,6 +436,9 @@ get_coding_state_machine
 (
 self
 )
+-
+>
+str
 :
         
 return
@@ -420,9 +446,9 @@ self
 .
 _model
 [
-'
+"
 name
-'
+"
 ]
     
 property
@@ -432,6 +458,9 @@ language
 (
 self
 )
+-
+>
+str
 :
         
 return
@@ -439,7 +468,7 @@ self
 .
 _model
 [
-'
+"
 language
-'
+"
 ]

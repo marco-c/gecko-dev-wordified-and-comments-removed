@@ -1,5 +1,3 @@
-import
-six
 from
 pyrsistent
 .
@@ -212,16 +210,13 @@ result
 name
 value
 )
-six
-.
-add_metaclass
-(
-PClassMeta
-)
 class
 PClass
 (
 CheckedType
+metaclass
+=
+PClassMeta
 )
 :
     

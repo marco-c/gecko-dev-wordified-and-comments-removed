@@ -393,7 +393,6 @@ GetConsoleCP
 .
 argtypes
 =
-tuple
 (
 )
 KERNEL32
@@ -1258,6 +1257,8 @@ flush_and_set_console
 (
 fd
 mode
+=
+None
 )
 :
     
@@ -1296,6 +1297,13 @@ int
 Desired
 console
 mode
+.
+If
+None
+mode
+is
+not
+changed
     
 Attempts
 to
@@ -1380,9 +1388,16 @@ UnsupportedOperation
         
 pass
     
-try
+if
+mode
+is
+not
+None
 :
         
+try
+:
+            
 filehandle
 =
 msvcrt
@@ -1391,17 +1406,17 @@ get_osfhandle
 (
 fd
 )
-        
+            
 set_console_mode
 (
 filehandle
 mode
 )
-    
+        
 except
 OSError
 :
-        
+            
 pass
 def
 get_term
@@ -1661,6 +1676,24 @@ unknown
 else
 :
                 
+if
+mode
+&
+ENABLE_VIRTUAL_TERMINAL_PROCESSING
+:
+                    
+atexit
+.
+register
+(
+flush_and_set_console
+fd
+None
+)
+                
+else
+:
+                    
 atexit
 .
 register
@@ -1669,7 +1702,7 @@ flush_and_set_console
 fd
 mode
 )
-                
+                    
 set_console_mode
 (
 filehandle

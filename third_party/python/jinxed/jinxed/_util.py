@@ -48,6 +48,9 @@ from
 unittest
 import
 mock
+BASESTRING
+=
+basestring
 if
 sys
 .
@@ -57,16 +60,7 @@ version_info
 ]
 <
 3
-:
-    
-BASESTRING
-=
-basestring
 else
-:
-    
-BASESTRING
-=
 str
 IS_WINDOWS
 =

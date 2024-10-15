@@ -1,13 +1,20 @@
 from
-.
-enums
+typing
 import
-ProbingState
+List
+Optional
+Union
 from
 .
 charsetprober
 import
 CharSetProber
+from
+.
+enums
+import
+LanguageFilter
+ProbingState
 class
 CharSetGroupProber
 (
@@ -20,15 +27,20 @@ __init__
 (
 self
 lang_filter
+:
+LanguageFilter
 =
-None
+LanguageFilter
+.
+NONE
 )
+-
+>
+None
 :
         
 super
 (
-CharSetGroupProber
-self
 )
 .
 __init__
@@ -47,6 +59,11 @@ _active_num
 self
 .
 probers
+:
+List
+[
+CharSetProber
+]
 =
 [
 ]
@@ -54,6 +71,11 @@ probers
 self
 .
 _best_guess_prober
+:
+Optional
+[
+CharSetProber
+]
 =
 None
     
@@ -62,12 +84,13 @@ reset
 (
 self
 )
+-
+>
+None
 :
         
 super
 (
-CharSetGroupProber
-self
 )
 .
 reset
@@ -88,22 +111,18 @@ self
 probers
 :
             
-if
-prober
-:
-                
 prober
 .
 reset
 (
 )
-                
+            
 prober
 .
 active
 =
 True
-                
+            
 self
 .
 _active_num
@@ -124,6 +143,12 @@ charset_name
 (
 self
 )
+-
+>
+Optional
+[
+str
+]
 :
         
 if
@@ -163,6 +188,12 @@ language
 (
 self
 )
+-
+>
+Optional
+[
+str
+]
 :
         
 if
@@ -200,7 +231,16 @@ feed
 (
 self
 byte_str
+:
+Union
+[
+bytes
+bytearray
+]
 )
+-
+>
+ProbingState
 :
         
 for
@@ -210,13 +250,6 @@ self
 .
 probers
 :
-            
-if
-not
-prober
-:
-                
-continue
             
 if
 not
@@ -271,7 +304,7 @@ self
 .
 state
             
-elif
+if
 state
 =
 =
@@ -325,6 +358,9 @@ get_confidence
 (
 self
 )
+-
+>
+float
 :
         
 state
@@ -347,7 +383,7 @@ return
 .
 99
         
-elif
+if
 state
 =
 =
@@ -384,13 +420,6 @@ probers
 if
 not
 prober
-:
-                
-continue
-            
-if
-not
-prober
 .
 active
 :
@@ -401,12 +430,12 @@ logger
 .
 debug
 (
-'
+"
 %
 s
 not
 active
-'
+"
 prober
 .
 charset_name
@@ -428,7 +457,8 @@ logger
 .
 debug
 (
-'
+                
+"
 %
 s
 %
@@ -437,7 +467,7 @@ confidence
 =
 %
 s
-'
+"
 prober
 .
 charset_name
@@ -445,6 +475,7 @@ prober
 .
 language
 conf
+            
 )
             
 if

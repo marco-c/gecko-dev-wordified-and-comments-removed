@@ -12,11 +12,8 @@ from
 .
 langbulgarianmodel
 import
-(
 ISO_8859_5_BULGARIAN_MODEL
-                                 
 WINDOWS_1251_BULGARIAN_MODEL
-)
 from
 .
 langgreekmodel
@@ -33,14 +30,17 @@ from
 langrussianmodel
 import
 (
+    
 IBM855_RUSSIAN_MODEL
+    
 IBM866_RUSSIAN_MODEL
-                               
+    
 ISO_8859_5_RUSSIAN_MODEL
+    
 KOI8_R_RUSSIAN_MODEL
-                               
+    
 MACCYRILLIC_RUSSIAN_MODEL
-                               
+    
 WINDOWS_1251_RUSSIAN_MODEL
 )
 from
@@ -70,12 +70,13 @@ __init__
 (
 self
 )
+-
+>
+None
 :
         
 super
 (
-SBCSGroupProber
-self
 )
 .
 __init__
@@ -92,20 +93,30 @@ logical_hebrew_prober
 =
 SingleByteCharSetProber
 (
+            
 WINDOWS_1255_HEBREW_MODEL
-                                                        
+is_reversed
+=
 False
+name_prober
+=
 hebrew_prober
+        
 )
         
 visual_hebrew_prober
 =
 SingleByteCharSetProber
 (
+            
 WINDOWS_1255_HEBREW_MODEL
-                                                       
+is_reversed
+=
 True
+name_prober
+=
 hebrew_prober
+        
 )
         
 hebrew_prober
@@ -113,7 +124,6 @@ hebrew_prober
 set_model_probers
 (
 logical_hebrew_prober
-                                        
 visual_hebrew_prober
 )
         

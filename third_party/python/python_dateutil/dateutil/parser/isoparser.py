@@ -441,8 +441,6 @@ YYYY
 YYYY
 -
 MM
-or
-YYYYMM
         
 -
 YYYY

@@ -1,8 +1,8 @@
 from
 .
-mbcharsetprober
+chardistribution
 import
-MultiByteCharSetProber
+Big5DistributionAnalysis
 from
 .
 codingstatemachine
@@ -10,9 +10,9 @@ import
 CodingStateMachine
 from
 .
-chardistribution
+mbcharsetprober
 import
-Big5DistributionAnalysis
+MultiByteCharSetProber
 from
 .
 mbcssm
@@ -30,12 +30,13 @@ __init__
 (
 self
 )
+-
+>
+None
 :
         
 super
 (
-Big5Prober
-self
 )
 .
 __init__
@@ -72,6 +73,9 @@ charset_name
 (
 self
 )
+-
+>
+str
 :
         
 return
@@ -86,6 +90,9 @@ language
 (
 self
 )
+-
+>
+str
 :
         
 return

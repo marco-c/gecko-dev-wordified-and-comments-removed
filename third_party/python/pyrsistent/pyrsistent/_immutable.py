@@ -1,7 +1,5 @@
 import
 sys
-import
-six
 def
 immutable
 (
@@ -452,9 +450,7 @@ if
 isinstance
 (
 members
-six
-.
-string_types
+str
 )
 :
         
@@ -574,39 +570,6 @@ return
 '
 '
     
-verbose_string
-=
-"
-"
-    
-if
-sys
-.
-version_info
-<
-(
-3
-7
-)
-:
-        
-verbose_string
-=
-"
-verbose
-=
-{
-verbose
-}
-"
-.
-format
-(
-verbose
-=
-verbose
-)
-    
 quoted_members
 =
 '
@@ -648,9 +611,6 @@ ImmutableBase
 quoted_members
 }
 ]
-{
-verbose_string
-}
 )
 )
 :
@@ -825,10 +785,6 @@ frozen_member_test
 (
 )
                
-verbose_string
-=
-verbose_string
-               
 class_name
 =
 name
@@ -865,9 +821,7 @@ pyrsistent_immutable
 try
 :
         
-six
-.
-exec_
+exec
 (
 template
 namespace
@@ -882,9 +836,10 @@ e
 raise
 SyntaxError
 (
+str
+(
 e
-.
-message
+)
 +
 '
 :
@@ -894,6 +849,8 @@ n
 +
 template
 )
+from
+e
     
 return
 namespace

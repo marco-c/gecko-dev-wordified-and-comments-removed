@@ -1,7 +1,7 @@
 "
 "
 "
-wcwidth
+Wcwidth
 module
 .
 https
@@ -29,6 +29,8 @@ wcwidth
 import
 (
 WIDE_EASTASIAN
+                      
+VS16_NARROW_TO_WIDE
                       
 wcwidth
                       
@@ -62,5 +64,5 @@ __version__
 .
 2
 .
-5
+13
 '

@@ -1,4 +1,9 @@
 from
+typing
+import
+Optional
+Union
+from
 .
 charsetprober
 import
@@ -13,17 +18,20 @@ from
 enums
 import
 LanguageFilter
-ProbingState
 MachineState
+ProbingState
 from
 .
 escsm
 import
 (
+    
 HZ_SM_MODEL
+    
 ISO2022CN_SM_MODEL
+    
 ISO2022JP_SM_MODEL
-                    
+    
 ISO2022KR_SM_MODEL
 )
 class
@@ -76,15 +84,20 @@ __init__
 (
 self
 lang_filter
+:
+LanguageFilter
 =
-None
+LanguageFilter
+.
+NONE
 )
+-
+>
+None
 :
         
 super
 (
-EscCharSetProber
-self
 )
 .
 __init__
@@ -183,17 +196,27 @@ self
 .
 active_sm_count
 =
-None
+0
         
 self
 .
 _detected_charset
+:
+Optional
+[
+str
+]
 =
 None
         
 self
 .
 _detected_language
+:
+Optional
+[
+str
+]
 =
 None
         
@@ -201,7 +224,9 @@ self
 .
 _state
 =
-None
+ProbingState
+.
+DETECTING
         
 self
 .
@@ -214,12 +239,13 @@ reset
 (
 self
 )
+-
+>
+None
 :
         
 super
 (
-EscCharSetProber
-self
 )
 .
 reset
@@ -233,13 +259,6 @@ self
 .
 coding_sm
 :
-            
-if
-not
-coding_sm
-:
-                
-continue
             
 coding_sm
 .
@@ -283,6 +302,12 @@ charset_name
 (
 self
 )
+-
+>
+Optional
+[
+str
+]
 :
         
 return
@@ -297,6 +322,12 @@ language
 (
 self
 )
+-
+>
+Optional
+[
+str
+]
 :
         
 return
@@ -309,23 +340,20 @@ get_confidence
 (
 self
 )
+-
+>
+float
 :
         
-if
-self
-.
-_detected_charset
-:
-            
 return
 0
 .
 99
-        
+if
+self
+.
+_detected_charset
 else
-:
-            
-return
 0
 .
 00
@@ -335,7 +363,16 @@ feed
 (
 self
 byte_str
+:
+Union
+[
+bytes
+bytearray
+]
 )
+-
+>
+ProbingState
 :
         
 for
@@ -353,9 +390,6 @@ coding_sm
 :
                 
 if
-not
-coding_sm
-or
 not
 coding_sm
 .

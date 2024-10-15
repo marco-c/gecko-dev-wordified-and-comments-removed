@@ -1697,6 +1697,7 @@ re
 .
 split
 (
+                
 r
 "
 [
@@ -1708,10 +1709,15 @@ Z
 ]
 "
 time_string
+maxsplit
+=
 1
+flags
+=
 re
 .
 IGNORECASE
+            
 )
             
 time_components
@@ -4834,6 +4840,14 @@ compile
 r
 "
 ^
+(
+?
+:
+\
+(
+UTC
+)
+*
 (
 [
 \

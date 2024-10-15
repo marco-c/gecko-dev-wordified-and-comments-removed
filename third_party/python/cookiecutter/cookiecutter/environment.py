@@ -187,13 +187,15 @@ cookiecutter
 .
 extensions
 .
-UUIDExtension
+TimeExtension
 '
             
 '
-jinja2_time
+cookiecutter
 .
-TimeExtension
+extensions
+.
+UUIDExtension
 '
         
 ]
@@ -247,6 +249,8 @@ err
 }
 '
 )
+from
+err
     
 def
 _read_extensions

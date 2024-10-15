@@ -1,7 +1,5 @@
 import
 re
-import
-six
 try
 :
     
@@ -18,24 +16,10 @@ signature
 =
 None
     
-try
-:
-        
 from
 inspect
 import
 getfullargspec
-as
-getargspec
-    
-except
-ImportError
-:
-        
-from
-inspect
-import
-getargspec
 _EMPTY_SENTINEL
 =
 object
@@ -168,9 +152,7 @@ key
 isinstance
 (
 key
-six
-.
-string_types
+str
 )
 and
 r
@@ -516,7 +498,7 @@ f
         
 argspec
 =
-getargspec
+getfullargspec
 (
 f
 )
@@ -662,6 +644,14 @@ v
 is
 _EMPTY_SENTINEL
 :
+                
+if
+command
+is
+discard
+:
+                    
+continue
                 
 is_empty
 =

@@ -503,16 +503,22 @@ clone
 param
 no_input
 :
-Prompt
-the
-user
-at
-command
-line
+Do
+not
+prompt
 for
-manual
-configuration
-?
+user
+input
+and
+eventually
+force
+a
+refresh
+of
+        
+cached
+resources
+.
     
 :
 param
@@ -556,7 +562,7 @@ and
         
 a
 boolean
-descriving
+describing
 whether
 that
 directory

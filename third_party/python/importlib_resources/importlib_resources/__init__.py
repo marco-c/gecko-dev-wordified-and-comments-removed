@@ -8,6 +8,44 @@ within
 a
 package
 .
+This
+codebase
+is
+shared
+between
+importlib
+.
+resources
+in
+the
+stdlib
+and
+importlib_resources
+in
+PyPI
+.
+See
+https
+:
+/
+/
+github
+.
+com
+/
+python
+/
+importlib_metadata
+/
+wiki
+/
+Development
+-
+Methodology
+for
+more
+detail
+.
 "
 "
 "
@@ -22,28 +60,28 @@ as_file
 files
     
 Package
+    
+Anchor
 )
 from
 .
-_legacy
+_functional
 import
 (
     
 contents
     
-open_binary
+is_resource
     
-read_binary
+open_binary
     
 open_text
     
-read_text
-    
-is_resource
-    
 path
     
-Resource
+read_binary
+    
+read_text
 )
 from
 .
@@ -59,7 +97,7 @@ Package
 '
     
 '
-Resource
+Anchor
 '
     
 '
@@ -71,11 +109,11 @@ as_file
 '
     
 '
-contents
+files
 '
     
 '
-files
+contents
 '
     
 '

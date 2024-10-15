@@ -47,7 +47,7 @@ from
 .
 _compat
 import
-USE_CYTHON_EXTENSIONS
+USE_EXTENSIONS
 __all__
 =
 (
@@ -91,7 +91,7 @@ getversion
 __version__
 =
 "
-5
+6
 .
 1
 .
@@ -102,7 +102,7 @@ try
     
 if
 not
-USE_CYTHON_EXTENSIONS
+USE_EXTENSIONS
 :
         
 raise

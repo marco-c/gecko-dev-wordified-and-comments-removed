@@ -33,7 +33,7 @@ toolz
 .
 toolz
 is
-relased
+released
 under
 BSD
 licence
@@ -372,9 +372,7 @@ DAMAGE
 import
 operator
 from
-six
-.
-moves
+functools
 import
 reduce
 def
@@ -742,7 +740,7 @@ call
 last
 )
 :
-        
+    
 .
 .
 .

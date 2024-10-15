@@ -715,7 +715,6 @@ get
 '
 static
 '
-None
 )
         
 self
@@ -731,30 +730,12 @@ None
 else
 static
         
-dynamic
-=
-kwargs
-.
-get
-(
-'
-static
-'
-None
-)
-        
 self
 .
 dynamic
 =
 {
 }
-if
-dynamic
-is
-None
-else
-dynamic
     
 def
 __call__
@@ -765,6 +746,13 @@ string
 params
 )
 :
+        
+self
+.
+dynamic
+=
+{
+}
         
 return
 self

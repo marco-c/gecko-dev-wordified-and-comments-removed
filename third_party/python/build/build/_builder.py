@@ -807,6 +807,7 @@ SubprocessRunner
 def
 _invoke_wrapped_runner
 (
+        
 cmd
 :
 Sequence
@@ -818,6 +819,8 @@ cwd
 str
 |
 None
+=
+None
 extra_environ
 :
 Mapping
@@ -827,6 +830,9 @@ str
 ]
 |
 None
+=
+None
+    
 )
 -
 >
@@ -1382,10 +1388,13 @@ requires
 def
 get_requires_for_build
 (
+        
 self
+        
 distribution
 :
 Distribution
+        
 config_settings
 :
 ConfigSettings
@@ -1393,6 +1402,7 @@ ConfigSettings
 None
 =
 None
+    
 )
 -
 >
@@ -1521,9 +1531,11 @@ check_dependencies
 (
         
 self
+        
 distribution
 :
 Distribution
+        
 config_settings
 :
 ConfigSettings

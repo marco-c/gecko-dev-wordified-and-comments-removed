@@ -52,10 +52,7 @@ __call__
 self
 val
 :
-Optional
-[
 str
-]
 =
 .
 .
@@ -63,10 +60,7 @@ str
 )
 -
 >
-Optional
-[
 str
-]
 :
 .
 .
@@ -79,6 +73,13 @@ __init__
 (
 self
 *
+ignore
+:
+str
+=
+.
+.
+.
 unsafe
 :
 str
@@ -107,10 +108,7 @@ __call__
 self
 val
 :
-Optional
-[
 str
-]
 =
 .
 .
@@ -118,10 +116,7 @@ str
 )
 -
 >
-Optional
-[
 str
-]
 :
 .
 .

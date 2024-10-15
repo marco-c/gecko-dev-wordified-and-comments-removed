@@ -25,6 +25,12 @@ __version__
 from
 cookiecutter
 .
+config
+import
+get_user_config
+from
+cookiecutter
+.
 exceptions
 import
 (
@@ -59,12 +65,6 @@ cookiecutter
 main
 import
 cookiecutter
-from
-cookiecutter
-.
-config
-import
-get_user_config
 def
 version_msg
 (
@@ -119,33 +119,24 @@ __file__
 )
 )
     
-message
-=
-'
+return
+f
+"
 Cookiecutter
-%
-(
-version
-)
-s
+{
+__version__
+}
 from
 {
+location
 }
 (
 Python
 {
+python_version
 }
 )
-'
-    
-return
-message
-.
-format
-(
-location
-python_version
-)
+"
 def
 validate_extra_context
 (
@@ -167,7 +158,7 @@ context
 "
     
 for
-s
+string
 in
 value
 :
@@ -178,7 +169,7 @@ if
 '
 not
 in
-s
+string
 :
             
 raise
@@ -187,7 +178,8 @@ click
 BadParameter
 (
                 
-'
+f
+"
 EXTRA_CONTEXT
 should
 contain
@@ -199,11 +191,13 @@ key
 =
 value
 ;
-'
+"
                 
+f
 "
 '
 {
+string
 }
 '
 doesn
@@ -213,11 +207,6 @@ match
 that
 form
 "
-.
-format
-(
-s
-)
             
 )
     
@@ -309,7 +298,8 @@ click
 echo
 (
             
-'
+f
+"
 Error
 :
 Cannot
@@ -317,22 +307,19 @@ list
 installed
 templates
 .
+"
+            
+f
+"
 Folder
 does
 not
 exist
 :
-'
-            
-'
 {
-}
-'
-.
-format
-(
 cookiecutter_folder
-)
+}
+"
         
 )
         
@@ -525,6 +512,33 @@ cookiecutter
 json
 file
 content
+.
+'
+    
+'
+Defaults
+to
+deleting
+any
+cached
+resources
+and
+redownloading
+them
+.
+'
+    
+'
+Cannot
+be
+combined
+with
+the
+-
+-
+replay
+flag
+.
 '
 )
 click
@@ -650,6 +664,27 @@ use
 information
 entered
 previously
+.
+'
+    
+'
+Cannot
+be
+combined
+with
+the
+-
+-
+no
+-
+input
+flag
+or
+with
+extra
+configuration
+passed
+.
 '
 )
 click
@@ -1003,6 +1038,39 @@ templates
 .
 '
 )
+click
+.
+option
+(
+    
+'
+-
+-
+keep
+-
+project
+-
+on
+-
+failure
+'
+    
+is_flag
+=
+True
+    
+help
+=
+'
+Do
+not
+delete
+project
+folder
+on
+failure
+'
+)
 def
 main
 (
@@ -1038,6 +1106,8 @@ accept_hooks
 replay_file
     
 list_installed
+    
+keep_project_on_failure
 )
 :
     
@@ -1284,6 +1354,10 @@ skip_if_file_exists
 accept_hooks
 =
 _accept_hooks
+            
+keep_project_on_failure
+=
+keep_project_on_failure
         
 )
     

@@ -171,8 +171,11 @@ s
 repo
 )
 s
-.
-git
+%
+(
+dot_git
+)
+s
 "
         
 "
@@ -196,8 +199,11 @@ s
 repo
 )
 s
-.
-git
+%
+(
+dot_git
+)
+s
 "
     
 }

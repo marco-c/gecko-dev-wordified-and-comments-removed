@@ -1,6 +1,7 @@
 from
+collections
 .
-_compat
+abc
 import
 Sequence
 Hashable
@@ -12,6 +13,22 @@ from
 functools
 import
 reduce
+from
+typing
+import
+Generic
+TypeVar
+T_co
+=
+TypeVar
+(
+'
+T_co
+'
+covariant
+=
+True
+)
 class
 _PListBuilder
 (
@@ -1079,6 +1096,8 @@ first
         
 except
 AttributeError
+as
+e
 :
             
 raise
@@ -1092,6 +1111,8 @@ of
 range
 "
 )
+from
+e
     
 def
 _drop
@@ -1308,6 +1329,10 @@ elem
 class
 PList
 (
+Generic
+[
+T_co
+]
 _PListBase
 )
 :

@@ -11,7 +11,6 @@ digits
 from
 typing
 import
-Optional
 cast
 BASCII_LOWERCASE
 =
@@ -26,18 +25,15 @@ ascii
 BPCT_ALLOWED
 =
 {
+f
 "
 %
 {
+i
 :
 02X
 }
 "
-.
-format
-(
-i
-)
 .
 encode
 (
@@ -241,17 +237,11 @@ __call__
 self
 val
 :
-Optional
-[
 str
-]
 )
 -
 >
-Optional
-[
 str
-]
 :
         
 if
@@ -294,11 +284,7 @@ return
         
 bval
 =
-cast
-(
-str
 val
-)
 .
 encode
 (
@@ -717,18 +703,15 @@ ret
 extend
 (
 (
+f
 "
 %
 {
+ch
 :
 02X
 }
 "
-.
-format
-(
-ch
-)
 )
 .
 encode
@@ -771,6 +754,12 @@ __init__
 (
 self
 *
+ignore
+:
+str
+=
+"
+"
 unsafe
 :
 str
@@ -787,6 +776,12 @@ False
 >
 None
 :
+        
+self
+.
+_ignore
+=
+ignore
         
 self
 .
@@ -825,17 +820,11 @@ __call__
 self
 val
 :
-Optional
-[
 str
-]
 )
 -
 >
-Optional
-[
 str
-]
 :
         
 if
@@ -1120,6 +1109,12 @@ in
 self
 .
 _unsafe
+or
+unquoted
+in
+self
+.
+_ignore
 :
                         
 to_add

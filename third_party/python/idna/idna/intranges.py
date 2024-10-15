@@ -71,11 +71,30 @@ runs
 "
 import
 bisect
+from
+typing
+import
+List
+Tuple
 def
 intranges_from_list
 (
 list_
+:
+List
+[
+int
+]
 )
+-
+>
+Tuple
+[
+int
+.
+.
+.
+]
 :
     
 "
@@ -257,8 +276,15 @@ def
 _encode_range
 (
 start
+:
+int
 end
+:
+int
 )
+-
+>
+int
 :
     
 return
@@ -274,7 +300,16 @@ def
 _decode_range
 (
 r
+:
+int
 )
+-
+>
+Tuple
+[
+int
+int
+]
 :
     
 return
@@ -302,8 +337,21 @@ def
 intranges_contain
 (
 int_
+:
+int
 ranges
+:
+Tuple
+[
+int
+.
+.
+.
+]
 )
+-
+>
+bool
 :
     
 "

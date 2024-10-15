@@ -29,9 +29,7 @@ python_implementation
 "
 PyPy
 "
-USE_CYTHON_EXTENSIONS
-=
-USE_CYTHON
+USE_EXTENSIONS
 =
 not
 NO_EXTENSIONS
@@ -39,7 +37,7 @@ and
 not
 PYPY
 if
-USE_CYTHON_EXTENSIONS
+USE_EXTENSIONS
 :
     
 try
@@ -54,8 +52,6 @@ except
 ImportError
 :
         
-USE_CYTHON_EXTENSIONS
-=
-USE_CYTHON
+USE_EXTENSIONS
 =
 False

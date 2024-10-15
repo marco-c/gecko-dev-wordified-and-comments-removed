@@ -1,5 +1,3 @@
-import
-six
 from
 pyrsistent
 .
@@ -166,17 +164,14 @@ name
 bases
 dct
 )
-six
-.
-add_metaclass
-(
-_PRecordMeta
-)
 class
 PRecord
 (
 PMap
 CheckedType
+metaclass
+=
+_PRecordMeta
 )
 :
     
@@ -386,6 +381,14 @@ _PRecordEvolver
 cls
 pmap
 (
+pre_size
+=
+len
+(
+cls
+.
+_precord_fields
+)
 )
 _factory_fields
 =
