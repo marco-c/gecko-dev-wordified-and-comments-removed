@@ -1268,7 +1268,7 @@ excluded
 "
     
 "
-Installs
+Downloads
 the
 packages
 listed
@@ -1277,15 +1277,23 @@ third_party
 /
 python
 /
-requirements
+pyproject
 .
-in
-and
+toml
+along
 "
     
 "
+with
 their
+transitive
 dependencies
+and
+adds
+them
+to
+version
+control
 .
 "
     
