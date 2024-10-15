@@ -303,9 +303,7 @@ persistsearchterms
 )
 "
 Urlbar
-does
-not
-have
+has
 persistsearchterms
 attribute
 .
@@ -944,6 +942,8 @@ Assert
 equal
 (
 state
+.
+persist
 .
 searchTerms
 SEARCH_STRING

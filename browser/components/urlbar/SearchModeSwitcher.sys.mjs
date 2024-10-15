@@ -2238,6 +2238,8 @@ userTypedValue
 ?
 state
 .
+persist
+.
 searchTerms
 ?
 ?

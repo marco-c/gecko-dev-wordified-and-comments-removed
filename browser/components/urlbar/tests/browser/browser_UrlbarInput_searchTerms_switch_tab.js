@@ -508,12 +508,6 @@ tab1
 assertSearchStringIsInUrlbar
 (
 SEARCH_STRING
-{
-userTypedValue
-:
-"
-"
-}
 )
 ;
 BrowserTestUtils

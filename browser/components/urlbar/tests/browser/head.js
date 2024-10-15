@@ -1274,7 +1274,7 @@ invalid
 "
 userTypedValue
 =
-null
+searchString
 persistSearchTerms
 =
 true
@@ -1325,6 +1325,8 @@ Assert
 equal
 (
 state
+.
+persist
 .
 searchTerms
 searchString

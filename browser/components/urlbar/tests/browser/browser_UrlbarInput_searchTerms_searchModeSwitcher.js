@@ -677,11 +677,6 @@ browserLoadedPromise
 assertSearchStringIsInUrlbar
 (
 SEARCH_STRING
-{
-userTypedValue
-:
-SEARCH_STRING
-}
 )
 ;
 BrowserTestUtils
@@ -1302,6 +1297,7 @@ Assert
 .
 ok
 (
+!
 gURLBar
 .
 hasAttribute

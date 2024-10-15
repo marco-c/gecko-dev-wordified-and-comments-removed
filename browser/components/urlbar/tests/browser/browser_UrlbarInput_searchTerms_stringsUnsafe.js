@@ -274,6 +274,8 @@ equal
 (
 state
 .
+persist
+.
 searchTerms
 "
 "
