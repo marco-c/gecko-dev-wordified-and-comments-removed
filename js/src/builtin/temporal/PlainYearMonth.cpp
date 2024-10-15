@@ -971,9 +971,14 @@ return
 obj
 ;
 }
-static
-auto
+PlainYearMonthObject
 *
+js
+:
+:
+temporal
+:
+:
 CreateTemporalYearMonth
 (
 JSContext
