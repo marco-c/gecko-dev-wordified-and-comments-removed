@@ -6818,6 +6818,14 @@ getWebPushController
 )
 ;
 method
+AnyThread
+public
+boolean
+isInteractiveWidgetDefaultResizesVisual
+(
+)
+;
+method
 UiThread
 public
 void
