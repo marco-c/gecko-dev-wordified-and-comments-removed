@@ -313,6 +313,17 @@ Kolkata
 "
 Asia
 /
+Choibalsan
+"
+:
+"
+Asia
+/
+Ulaanbaatar
+"
+"
+Asia
+/
 Chungking
 "
 :

@@ -1215,11 +1215,6 @@ Chita
 "
 Asia
 /
-Choibalsan
-"
-"
-Asia
-/
 Chongqing
 "
 "
