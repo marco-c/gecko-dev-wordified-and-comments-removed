@@ -404,14 +404,7 @@ blob
 }
 )
 ;
-return
-new
-Promise
-(
-resolve
-=
->
-{
+await
 PlacesUtils
 .
 favicons
@@ -428,11 +421,6 @@ newURI
 (
 dataURL
 )
-undefined
-resolve
-)
-;
-}
 )
 ;
 }

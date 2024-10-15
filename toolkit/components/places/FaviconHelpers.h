@@ -57,13 +57,6 @@ imgLoader
 .
 h
 "
-#
-include
-"
-PlacesCompletionCallback
-.
-h
-"
 class
 nsIPrincipal
 ;
@@ -462,9 +455,6 @@ const
 PageData
 &
 aPage
-PlacesCompletionCallback
-*
-aCallback
 dom
 :
 :
@@ -475,12 +465,6 @@ aPromise
 ;
 private
 :
-nsMainThreadPtrHandle
-<
-PlacesCompletionCallback
->
-mCallback
-;
 nsMainThreadPtrHandle
 <
 dom
