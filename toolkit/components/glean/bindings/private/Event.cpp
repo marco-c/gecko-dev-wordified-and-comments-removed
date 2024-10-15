@@ -292,10 +292,10 @@ if
 id
 )
 {
-Telemetry
+TelemetryEvent
 :
 :
-RecordEvent
+RecordEventNative
 (
 id
 .
