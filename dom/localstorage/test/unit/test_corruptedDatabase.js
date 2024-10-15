@@ -95,13 +95,13 @@ info
 (
 "
 Resetting
-origin
+client
 "
 )
 ;
 request
 =
-resetOrigin
+resetClient
 (
 principal
 )

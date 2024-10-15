@@ -718,7 +718,7 @@ principal
 let
 request
 =
-resetOrigin
+resetClient
 (
 principal
 )

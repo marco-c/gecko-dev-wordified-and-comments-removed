@@ -852,11 +852,11 @@ script_args
 )
     
 def
-resetStoragesForPrincipal
+resetStoragesForClient
 (
 self
-origin
 persistenceType
+origin
 client
 )
 :
@@ -889,8 +889,8 @@ executeAsyncScript
                 
 const
 [
-origin
 persistenceType
+origin
 client
 ]
 =
@@ -925,11 +925,11 @@ Services
 .
 qms
 .
-resetStoragesForPrincipal
+resetStoragesForClient
 (
 principal
-persistenceType
 client
+persistenceType
 )
 ;
                   
@@ -953,8 +953,8 @@ true
 script_args
 =
 (
-origin
 persistenceType
+origin
 client
 )
             

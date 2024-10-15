@@ -87,7 +87,7 @@ usage
 ;
 request
 =
-resetOrigin
+resetClient
 (
 principal
 )

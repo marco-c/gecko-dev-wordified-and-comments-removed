@@ -413,7 +413,7 @@ com
 ;
 request
 =
-resetOrigin
+resetClient
 (
 principal
 )

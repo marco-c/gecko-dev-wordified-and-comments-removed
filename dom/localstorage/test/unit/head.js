@@ -644,7 +644,7 @@ request
 ;
 }
 function
-resetOrigin
+resetClient
 (
 principal
 )
@@ -656,14 +656,14 @@ Services
 .
 qms
 .
-resetStoragesForPrincipal
+resetStoragesForClient
 (
 principal
 "
-default
-"
-"
 ls
+"
+"
+default
 "
 )
 ;

@@ -846,13 +846,13 @@ Services
 .
 qms
 .
-resetStoragesForPrincipal
+resetStoragesForClient
 (
 principal
+client
 "
 default
 "
-client
 )
 ;
 return

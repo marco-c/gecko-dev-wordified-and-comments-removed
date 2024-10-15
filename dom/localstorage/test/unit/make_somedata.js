@@ -78,14 +78,14 @@ info
 (
 "
 Resetting
-origin
+client
 "
 )
 ;
 const
 request
 =
-resetOrigin
+resetClient
 (
 principal
 )

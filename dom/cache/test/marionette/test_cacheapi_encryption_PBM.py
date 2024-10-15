@@ -923,14 +923,14 @@ assertTrue
             
 self
 .
-resetStoragesForPrincipal
+resetStoragesForClient
 (
 self
 .
-origin
+persistenceType
 self
 .
-persistenceType
+origin
 "
 cache
 "
