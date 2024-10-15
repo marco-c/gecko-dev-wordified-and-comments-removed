@@ -22166,6 +22166,14 @@ proxyLog
 proxyLog
 )
 ;
+WaylandProxy
+:
+:
+SetCompositorCrashHandler
+(
+WlCompositorCrashHandler
+)
+;
 gWaylandProxy
 =
 WaylandProxy

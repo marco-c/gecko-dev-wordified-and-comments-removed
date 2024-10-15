@@ -736,6 +736,11 @@ WaylandDisplayRelease
 (
 )
 ;
+void
+WlCompositorCrashHandler
+(
+)
+;
 }
 template
 <
