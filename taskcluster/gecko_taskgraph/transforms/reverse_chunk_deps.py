@@ -12,6 +12,10 @@ MAX_DEPENDENCIES
 "
 from
 taskgraph
+import
+MAX_DEPENDENCIES
+from
+taskgraph
 .
 transforms
 .
@@ -34,10 +38,6 @@ util
 treeherder
 import
 add_suffix
-from
-gecko_taskgraph
-import
-MAX_DEPENDENCIES
 from
 gecko_taskgraph
 .

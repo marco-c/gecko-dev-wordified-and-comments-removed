@@ -68,9 +68,6 @@ __file__
 )
 )
 )
-MAX_DEPENDENCIES
-=
-99
 taskgraph_config
 .
 graph_config_schema
