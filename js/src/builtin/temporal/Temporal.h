@@ -1363,7 +1363,7 @@ JS
 :
 Handle
 <
-PlainObject
+JSObject
 *
 >
 options
@@ -1394,7 +1394,7 @@ JS
 :
 Handle
 <
-PlainObject
+JSObject
 *
 >
 options
