@@ -745,8 +745,26 @@ GECKO_HEAD_REPOSITORY
 "
 )
     
+geckoRev
+=
+os
+.
+environ
+.
+get
+(
+"
+GECKO_HEAD_REV
+"
+)
+    
 if
 matrixLabel
+is
+not
+None
+and
+geckoRev
 is
 not
 None
@@ -789,6 +807,11 @@ rpartition
 -
 1
 ]
+}
+geckoRev
+=
+{
+geckoRev
 }
 "
             
