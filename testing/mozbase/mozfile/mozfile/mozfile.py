@@ -11,6 +11,8 @@ sys
 import
 time
 import
+urllib
+import
 warnings
 from
 contextlib
@@ -20,12 +22,6 @@ from
 textwrap
 import
 dedent
-from
-six
-.
-moves
-import
-urllib
 __all__
 =
 [
