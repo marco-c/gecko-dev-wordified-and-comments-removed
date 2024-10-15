@@ -104,6 +104,12 @@ release
 (
 )
 ;
+actor
+.
+destroy
+(
+)
+;
 }
 }
 }
