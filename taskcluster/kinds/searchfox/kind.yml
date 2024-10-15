@@ -189,6 +189,15 @@ use
 sccache
 :
 false
+run
+:
+extra
+-
+config
+:
+max_build_output_timeout
+:
+3600
 tasks
 :
 linux64
