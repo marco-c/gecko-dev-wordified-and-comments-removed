@@ -510,6 +510,12 @@ media
 TimeUnit
 mVideoFrameEndTime
 ;
+media
+:
+:
+TimeUnit
+mDroppedInSinkSequenceDuration
+;
 uint32_t
 mOldCompositorDroppedCount
 ;
