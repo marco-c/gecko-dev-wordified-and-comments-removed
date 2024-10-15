@@ -535,6 +535,13 @@ ptr
 ;
 #
 if
+!
+defined
+(
+RUST_BINDGEN
+)
+#
+if
 defined
 (
 XP_WIN
@@ -785,6 +792,8 @@ aHelper
 ;
 }
 ;
+#
+endif
 #
 if
 defined
@@ -1075,6 +1084,13 @@ T
 >
 >
 ;
+#
+if
+!
+defined
+(
+RUST_BINDGEN
+)
 using
 UniqueFileHandle
 =
@@ -1125,6 +1141,8 @@ get
 )
 ;
 }
+#
+endif
 #
 endif
 #
