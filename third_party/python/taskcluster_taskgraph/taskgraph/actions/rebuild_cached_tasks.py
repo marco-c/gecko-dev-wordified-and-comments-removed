@@ -47,6 +47,16 @@ tasks
 .
 "
     
+permission
+=
+"
+rebuild
+-
+cached
+-
+tasks
+"
+    
 order
 =
 1000

@@ -3207,6 +3207,7 @@ Any
 [
 taskref_or_string
 ]
+            
 [
 [
 taskref_or_string
@@ -6997,6 +6998,36 @@ task
 label
 "
 ]
+                
+"
+project
+"
+:
+config
+.
+params
+[
+"
+project
+"
+]
+                
+"
+trust
+-
+domain
+"
+:
+config
+.
+graph_config
+[
+"
+trust
+-
+domain
+"
+]
             
 }
         
@@ -7375,14 +7406,14 @@ metadata
 "
 ]
 [
-                
 "
 description
 "
-            
 ]
 +
 =
+(
+                
 f
 "
 (
@@ -7397,6 +7428,8 @@ th_push_link
 )
 )
 "
+            
+)
         
 payload_builders
 [

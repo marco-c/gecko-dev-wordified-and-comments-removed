@@ -1230,7 +1230,6 @@ attributes
 }
 )
 [
-                
 "
 primary
 -
@@ -1238,10 +1237,13 @@ kind
 -
 dependency
 "
-            
 ]
 =
+(
+                
 primary_kind
+            
+)
             
 primary_dep
 =

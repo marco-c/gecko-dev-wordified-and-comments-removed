@@ -78,7 +78,6 @@ abc
 import
 ABCMeta
 abstractmethod
-abstractproperty
 from
 collections
 import
@@ -149,8 +148,18 @@ args
 =
 (
 )
+kwargs
+=
+None
 )
 :
+    
+kwargs
+=
+kwargs
+or
+{
+}
     
 def
 wrap
@@ -175,6 +184,9 @@ cls
 (
 *
 args
+*
+*
+kwargs
 )
             
 if
@@ -1665,6 +1677,7 @@ deadline
 "
 ]
 )
+                
 for
 task
 in
@@ -2598,7 +2611,9 @@ args
 "
 )
     
-abstractproperty
+property
+    
+abstractmethod
     
 def
 description

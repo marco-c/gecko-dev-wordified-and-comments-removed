@@ -322,13 +322,6 @@ context_hashes
 {
 }
     
-tasks
-=
-list
-(
-tasks
-)
-    
 if
 not
 taskgraph
