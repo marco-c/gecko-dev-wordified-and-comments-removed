@@ -643,6 +643,12 @@ mozilla
 :
 :
 MediaTimer
+<
+mozilla
+:
+:
+TimeStamp
+>
 >
 (
 )

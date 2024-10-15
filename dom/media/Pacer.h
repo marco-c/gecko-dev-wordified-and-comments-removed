@@ -81,6 +81,9 @@ mTimer
 MakeAndAddRef
 <
 MediaTimer
+<
+TimeStamp
+>
 >
 (
 )
@@ -634,6 +637,9 @@ mQueue
 RefPtr
 <
 MediaTimer
+<
+TimeStamp
+>
 >
 mTimer
 ;

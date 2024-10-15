@@ -532,6 +532,9 @@ bool
 mHasVideo
 ;
 DelayedScheduler
+<
+TimeStamp
+>
 mUpdateScheduler
 ;
 const

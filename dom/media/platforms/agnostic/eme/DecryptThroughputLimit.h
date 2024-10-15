@@ -343,6 +343,9 @@ __func__
 private
 :
 DelayedScheduler
+<
+TimeStamp
+>
 mThrottleScheduler
 ;
 MozPromiseHolder
