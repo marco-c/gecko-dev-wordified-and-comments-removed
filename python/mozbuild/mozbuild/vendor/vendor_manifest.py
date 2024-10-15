@@ -1240,12 +1240,25 @@ new_revision
 :
         
 def
-download_and_write_file
+download_file_revision
 (
-url
+upstream_path
+revision
 destination
 )
 :
+            
+url
+=
+self
+.
+source_host
+.
+upstream_path_to_file
+(
+revision
+upstream_path
+)
             
 self
 .
@@ -1281,75 +1294,14 @@ url
             
 )
             
-with
-mozfile
+self
 .
-NamedTemporaryFile
-(
-)
-as
-tmpfile
-:
-                
-try
-:
-                    
-req
-=
-requests
+source_host
 .
-get
+download_single_file
 (
 url
-stream
-=
-True
-)
-                    
-for
-data
-in
-req
-.
-iter_content
-(
-4096
-)
-:
-                        
-tmpfile
-.
-write
-(
-data
-)
-                    
-tmpfile
-.
-seek
-(
-0
-)
-                    
-shutil
-.
-copy2
-(
-tmpfile
-.
-name
 destination
-)
-                
-except
-Exception
-as
-e
-:
-                    
-raise
-(
-e
 )
         
 for
@@ -1376,23 +1328,6 @@ files
 )
 :
             
-url
-=
-self
-.
-source_host
-.
-upstream_path_to_file
-(
-new_revision
-f
-[
-"
-upstream
-"
-]
-)
-            
 destination
 =
 self
@@ -1407,9 +1342,15 @@ destination
 ]
 )
             
-download_and_write_file
+download_file_revision
 (
-url
+f
+[
+"
+upstream
+"
+]
+new_revision
 destination
 )
         
@@ -1439,16 +1380,9 @@ list
 )
 :
             
-url
+upstream_path
 =
-self
-.
-source_host
-.
-upstream_path_to_file
 (
-                
-new_revision
                 
 self
 .
@@ -1505,9 +1439,10 @@ f
             
 )
             
-download_and_write_file
+download_file_revision
 (
-url
+upstream_path
+new_revision
 destination
 )
     
