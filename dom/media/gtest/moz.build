@@ -336,11 +336,6 @@ TestVideoSegment
 cpp
 "
 "
-TestVideoSink
-.
-cpp
-"
-"
 TestVideoTrackEncoder
 .
 cpp
