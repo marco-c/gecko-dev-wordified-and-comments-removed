@@ -454,6 +454,10 @@ widgets
 panel
 -
 list
+/
+panel
+-
+list
 .
 js
 ]
@@ -477,6 +481,10 @@ toolkit
 content
 /
 widgets
+/
+panel
+-
+list
 /
 panel
 -
