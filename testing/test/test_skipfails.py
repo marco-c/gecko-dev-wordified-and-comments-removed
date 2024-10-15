@@ -7216,15 +7216,13 @@ reftest_find_lineno
 (
         
 "
-layout
+testing
 /
-reftests
+test
 /
-font
--
-face
+data
 /
-reftest
+fontface_reftest
 .
 list
 "
@@ -7381,15 +7379,13 @@ reftest_find_lineno
 (
         
 "
-image
+testing
 /
 test
 /
-reftest
+data
 /
-downscaling
-/
-reftest
+downscaling_reftest
 .
 list
 "
@@ -7512,15 +7508,13 @@ reftest_find_lineno
 (
         
 "
-dom
-/
-canvas
+testing
 /
 test
 /
-reftest
+data
 /
-reftest
+dom_canvas_reftest
 .
 list
 "
