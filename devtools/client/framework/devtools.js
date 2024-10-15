@@ -500,15 +500,6 @@ Telemetry
 ;
 this
 .
-_telemetry
-.
-setEventRecordingEnabled
-(
-true
-)
-;
-this
-.
 _commandsPromiseByWebExtId
 =
 new
