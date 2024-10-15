@@ -315,16 +315,6 @@ GetOutputStreamTestOriginMetadata
 )
 ;
 {
-ASSERT_NS_SUCCEEDED
-(
-quotaManager
--
->
-EnsureTemporaryStorageIsInitializedInternal
-(
-)
-)
-;
 auto
 res
 =
