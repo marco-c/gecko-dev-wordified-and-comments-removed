@@ -17,9 +17,6 @@ mozIPlacesPendingOperation
 interface
 nsIFaviconDataCallback
 ;
-interface
-PlacesCompletionCallback
-;
 [
 scriptable
 uuid
@@ -134,12 +131,6 @@ optional
 in
 PRTime
 aExpiration
-[
-optional
-]
-in
-PlacesCompletionCallback
-aCallback
 [
 optional
 ]

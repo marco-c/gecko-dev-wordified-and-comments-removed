@@ -617,7 +617,6 @@ toPRTime
 (
 expiration
 )
-null
 isRichIcon
 )
 .
