@@ -135,10 +135,10 @@ YearMonthDay
 int32_t
 year
 ;
-uint32_t
+int32_t
 month
 ;
-uint32_t
+int32_t
 day
 ;
 }
