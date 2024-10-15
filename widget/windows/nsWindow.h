@@ -3199,7 +3199,6 @@ aCloaked
 #
 ifdef
 DEBUG
-virtual
 nsresult
 SetHiDPIMode
 (
@@ -3208,7 +3207,6 @@ aHiDPI
 )
 override
 ;
-virtual
 nsresult
 RestoreHiDPIMode
 (

@@ -123,6 +123,7 @@ AutoCacheNativeKeyCommands
 ;
 class
 PuppetWidget
+final
 :
 public
 nsBaseWidget
@@ -268,14 +269,12 @@ InitIMEState
 (
 )
 ;
-virtual
 void
 Destroy
 (
 )
 override
 ;
-virtual
 void
 Show
 (
@@ -284,7 +283,6 @@ aState
 )
 override
 ;
-virtual
 bool
 IsVisible
 (
@@ -296,7 +294,6 @@ return
 mVisible
 ;
 }
-virtual
 void
 Move
 (
@@ -308,7 +305,6 @@ aY
 override
 {
 }
-virtual
 void
 Resize
 (
@@ -321,7 +317,6 @@ aRepaint
 )
 override
 ;
-virtual
 void
 Resize
 (
@@ -374,7 +369,6 @@ aRepaint
 )
 ;
 }
-virtual
 void
 Enable
 (
@@ -388,7 +382,6 @@ mEnabled
 aState
 ;
 }
-virtual
 bool
 IsEnabled
 (
@@ -400,7 +393,6 @@ return
 mEnabled
 ;
 }
-virtual
 nsSizeMode
 SizeMode
 (
@@ -411,7 +403,6 @@ return
 mSizeMode
 ;
 }
-virtual
 void
 SetSizeMode
 (
@@ -425,7 +416,6 @@ mSizeMode
 aMode
 ;
 }
-virtual
 void
 SetFocus
 (
@@ -441,7 +431,6 @@ aCallerType
 )
 override
 ;
-virtual
 void
 Invalidate
 (
@@ -452,7 +441,6 @@ aRect
 )
 override
 ;
-virtual
 void
 *
 GetNativeData
@@ -466,7 +454,6 @@ return
 nullptr
 ;
 }
-virtual
 nsresult
 SetTitle
 (
@@ -481,7 +468,6 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-virtual
 mozilla
 :
 :
@@ -491,14 +477,12 @@ WidgetToTopLevelWidgetTransform
 )
 override
 ;
-virtual
 LayoutDeviceIntPoint
 WidgetToScreenOffset
 (
 )
 override
 ;
-virtual
 LayoutDeviceIntPoint
 TopLevelWidgetToScreenOffset
 (
@@ -534,7 +518,6 @@ aPoint
 nullptr
 )
 ;
-virtual
 nsresult
 DispatchEvent
 (
@@ -607,7 +590,6 @@ const
 override
 ;
 MOZ_CAN_RUN_SCRIPT
-virtual
 bool
 GetEditCommands
 (
@@ -636,7 +618,6 @@ friend
 struct
 AutoCacheNativeKeyCommands
 ;
-virtual
 TransparencyMode
 GetTransparencyMode
 (
@@ -650,7 +631,6 @@ TransparencyMode
 Transparent
 ;
 }
-virtual
 WindowRenderer
 *
 GetWindowRenderer
@@ -677,7 +657,6 @@ WebRenderLayerManager
 aInitializeFunc
 )
 ;
-virtual
 void
 SetInputContext
 (
@@ -692,14 +671,12 @@ aAction
 )
 override
 ;
-virtual
 InputContext
 GetInputContext
 (
 )
 override
 ;
-virtual
 NativeIMEContext
 GetNativeIMEContext
 (
@@ -738,7 +715,6 @@ mNativeTextEventDispatcherListener
 aListener
 ;
 }
-virtual
 void
 SetCursor
 (
@@ -768,7 +744,6 @@ return
 mDefaultScale
 ;
 }
-virtual
 bool
 NeedsPaint
 (
@@ -780,7 +755,6 @@ PaintNowIfNeeded
 (
 )
 ;
-virtual
 BrowserChild
 *
 GetOwningBrowserChild
@@ -816,7 +790,6 @@ mDefaultScale
 aScale
 ;
 }
-virtual
 ScreenIntMargin
 GetSafeAreaInsets
 (
@@ -843,14 +816,12 @@ GetWindowPosition
 (
 )
 ;
-virtual
 LayoutDeviceIntRect
 GetScreenBounds
 (
 )
 override
 ;
-virtual
 nsresult
 SynthesizeNativeKeyEvent
 (
@@ -874,7 +845,6 @@ aObserver
 )
 override
 ;
-virtual
 nsresult
 SynthesizeNativeMouseEvent
 (
@@ -895,7 +865,6 @@ aObserver
 )
 override
 ;
-virtual
 nsresult
 SynthesizeNativeMouseMove
 (
@@ -907,7 +876,6 @@ aObserver
 )
 override
 ;
-virtual
 nsresult
 SynthesizeNativeMouseScrollEvent
 (
@@ -931,7 +899,6 @@ aObserver
 )
 override
 ;
-virtual
 nsresult
 SynthesizeNativeTouchPoint
 (
@@ -951,7 +918,6 @@ aObserver
 )
 override
 ;
-virtual
 nsresult
 SynthesizeNativeTouchPadPinch
 (
@@ -966,7 +932,6 @@ aModifierFlags
 )
 override
 ;
-virtual
 nsresult
 SynthesizeNativeTouchTap
 (
@@ -980,7 +945,6 @@ aObserver
 )
 override
 ;
-virtual
 nsresult
 ClearNativeTouchSequence
 (
@@ -990,7 +954,6 @@ aObserver
 )
 override
 ;
-virtual
 uint32_t
 GetMaxTouchPoints
 (
@@ -998,7 +961,6 @@ GetMaxTouchPoints
 const
 override
 ;
-virtual
 nsresult
 SynthesizeNativePenInput
 (
@@ -1024,7 +986,6 @@ aObserver
 )
 override
 ;
-virtual
 nsresult
 SynthesizeNativeTouchpadDoubleTap
 (
@@ -1035,7 +996,6 @@ aModifierFlags
 )
 override
 ;
-virtual
 nsresult
 SynthesizeNativeTouchpadPan
 (
@@ -1055,21 +1015,18 @@ aObserver
 )
 override
 ;
-virtual
 void
 LockNativePointer
 (
 )
 override
 ;
-virtual
 void
 UnlockNativePointer
 (
 )
 override
 ;
-virtual
 void
 StartAsyncScrollbarDrag
 (
@@ -1080,7 +1037,6 @@ aDragMetrics
 )
 override
 ;
-virtual
 void
 ZoomToRect
 (
@@ -1106,14 +1062,12 @@ aFlags
 )
 override
 ;
-virtual
 bool
 HasPendingInputEvent
 (
 )
 override
 ;
-virtual
 void
 LookUpDictionary
 (
@@ -1220,7 +1174,6 @@ aData
 )
 override
 ;
-virtual
 void
 OnMemoryPressure
 (

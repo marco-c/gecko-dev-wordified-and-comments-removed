@@ -207,7 +207,6 @@ return
 nullptr
 ;
 }
-virtual
 nsresult
 Create
 (
@@ -242,7 +241,6 @@ GetTopLevelWidget
 )
 override
 ;
-virtual
 void
 GetCompositorWidgetInitData
 (
@@ -258,14 +256,12 @@ aInitData
 )
 override
 ;
-virtual
 void
 Destroy
 (
 )
 override
 ;
-virtual
 void
 Show
 (
@@ -274,7 +270,6 @@ aState
 )
 override
 ;
-virtual
 bool
 IsVisible
 (
@@ -282,7 +277,6 @@ IsVisible
 const
 override
 ;
-virtual
 void
 Move
 (
@@ -293,7 +287,6 @@ aY
 )
 override
 ;
-virtual
 void
 Resize
 (
@@ -306,7 +299,6 @@ aRepaint
 )
 override
 ;
-virtual
 void
 Resize
 (
@@ -323,7 +315,6 @@ aRepaint
 )
 override
 ;
-virtual
 nsSizeMode
 SizeMode
 (
@@ -334,7 +325,6 @@ return
 mSizeMode
 ;
 }
-virtual
 void
 SetSizeMode
 (
@@ -343,7 +333,6 @@ aMode
 )
 override
 ;
-virtual
 nsresult
 MakeFullScreen
 (
@@ -352,7 +341,6 @@ aFullScreen
 )
 override
 ;
-virtual
 void
 Enable
 (
@@ -361,7 +349,6 @@ aState
 )
 override
 ;
-virtual
 bool
 IsEnabled
 (
@@ -369,7 +356,6 @@ IsEnabled
 const
 override
 ;
-virtual
 void
 SetFocus
 (
@@ -385,7 +371,6 @@ aCallerType
 )
 override
 ;
-virtual
 void
 Invalidate
 (
@@ -397,7 +382,6 @@ aRect
 override
 {
 }
-virtual
 nsresult
 SetTitle
 (
@@ -412,7 +396,6 @@ return
 NS_OK
 ;
 }
-virtual
 nsresult
 SetNonClientMargins
 (
@@ -427,14 +410,12 @@ return
 NS_OK
 ;
 }
-virtual
 LayoutDeviceIntPoint
 WidgetToScreenOffset
 (
 )
 override
 ;
-virtual
 void
 SetInputContext
 (
@@ -454,7 +435,6 @@ mInputContext
 aContext
 ;
 }
-virtual
 InputContext
 GetInputContext
 (
@@ -465,7 +445,6 @@ return
 mInputContext
 ;
 }
-virtual
 WindowRenderer
 *
 GetWindowRenderer
@@ -487,7 +466,6 @@ override
 nodiscard
 ]
 ]
-virtual
 nsresult
 AttachNativeKeyEvent
 (
@@ -498,7 +476,6 @@ aEvent
 override
 ;
 MOZ_CAN_RUN_SCRIPT
-virtual
 bool
 GetEditCommands
 (
@@ -517,7 +494,6 @@ aCommands
 )
 override
 ;
-virtual
 nsresult
 DispatchEvent
 (
@@ -530,7 +506,6 @@ aStatus
 )
 override
 ;
-virtual
 nsresult
 SynthesizeNativeMouseEvent
 (
@@ -554,7 +529,6 @@ aObserver
 )
 override
 ;
-virtual
 nsresult
 SynthesizeNativeMouseMove
 (
@@ -593,7 +567,6 @@ aObserver
 ;
 }
 ;
-virtual
 nsresult
 SynthesizeNativeMouseScrollEvent
 (
@@ -617,7 +590,6 @@ aObserver
 )
 override
 ;
-virtual
 nsresult
 SynthesizeNativeTouchPoint
 (
@@ -637,7 +609,6 @@ aObserver
 )
 override
 ;
-virtual
 nsresult
 SynthesizeNativeTouchPadPinch
 (
@@ -652,7 +623,6 @@ aModifierFlags
 )
 override
 ;
-virtual
 nsresult
 SynthesizeNativeTouchpadPan
 (
