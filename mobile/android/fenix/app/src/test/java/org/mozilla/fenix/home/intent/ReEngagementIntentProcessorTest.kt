@@ -543,9 +543,6 @@ LoadUrlFlags
 external
 (
 )
-requestDesktopMode
-=
-false
 historyMetadata
 =
 null

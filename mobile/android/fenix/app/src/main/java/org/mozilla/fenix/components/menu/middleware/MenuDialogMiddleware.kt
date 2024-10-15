@@ -2223,14 +2223,6 @@ tabId
 tabId
 )
 }
-else
-{
-settings
-.
-openNextTabInDesktopMode
-=
-shouldRequestDesktopMode
-}
 onDismiss
 (
 )
