@@ -4326,6 +4326,17 @@ MOZ_DIAGNOSTIC_ASSERT
 mDirectoryLock
 )
 ;
+MOZ_DIAGNOSTIC_ASSERT
+(
+!
+mDirectoryLock
+-
+>
+Invalidated
+(
+)
+)
+;
 MOZ_DIAGNOSTIC_ASSERT_IF
 (
 mDirectoryMetadata
