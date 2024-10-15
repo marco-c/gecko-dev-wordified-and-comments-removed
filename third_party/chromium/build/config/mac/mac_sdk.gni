@@ -38,6 +38,8 @@ import
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -52,6 +54,8 @@ import
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -65,6 +69,8 @@ import
 (
 "
 /
+/
+chromium
 /
 build
 /
@@ -82,6 +88,8 @@ import
 "
 /
 /
+chromium
+/
 build
 /
 toolchain
@@ -95,6 +103,8 @@ import
 (
 "
 /
+/
+chromium
 /
 build
 /
@@ -634,6 +644,8 @@ _hermetic_xcode_path
 "
 /
 /
+chromium
+/
 build
 /
 mac_files
@@ -645,6 +657,8 @@ script_name
 =
 "
 /
+/
+chromium
 /
 build
 /
@@ -835,6 +849,8 @@ exec_script
 (
 "
 /
+/
+chromium
 /
 build
 /

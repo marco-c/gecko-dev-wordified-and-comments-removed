@@ -38,6 +38,8 @@ import
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -53,6 +55,8 @@ import
 (
 "
 /
+/
+chromium
 /
 build
 /
@@ -248,6 +252,8 @@ primary_fat_toolchain_name
 "
 /
 /
+chromium
+/
 build
 /
 toolchain
@@ -314,6 +320,8 @@ primary_fat_toolchain_name
 =
 "
 /
+/
+chromium
 /
 build
 /
@@ -403,6 +411,8 @@ primary_fat_toolchain_name
 "
 /
 /
+chromium
+/
 build
 /
 toolchain
@@ -435,6 +445,8 @@ primary_fat_toolchain_name
 =
 "
 /
+/
+chromium
 /
 build
 /

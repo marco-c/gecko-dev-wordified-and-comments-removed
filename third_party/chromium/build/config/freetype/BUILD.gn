@@ -38,6 +38,8 @@ import
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -51,6 +53,8 @@ import
 (
 "
 /
+/
+chromium
 /
 build
 /
@@ -80,6 +84,8 @@ public_configs
 [
 "
 /
+/
+chromium
 /
 build
 /

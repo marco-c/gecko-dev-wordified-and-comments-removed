@@ -38,6 +38,8 @@ import
 "
 /
 /
+chromium
+/
 build
 /
 toolchain
@@ -178,6 +180,8 @@ script
 =
 "
 /
+/
+chromium
 /
 build
 /

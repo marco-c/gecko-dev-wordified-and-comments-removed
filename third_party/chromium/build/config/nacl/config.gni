@@ -382,6 +382,8 @@ nacl_irt_toolchain
 "
 /
 /
+chromium
+/
 build
 /
 toolchain
@@ -421,6 +423,8 @@ nacl_nonsfi_toolchain
 =
 "
 /
+/
+chromium
 /
 build
 /

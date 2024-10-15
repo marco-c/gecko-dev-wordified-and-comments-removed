@@ -41,6 +41,8 @@ import
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -458,6 +460,8 @@ pkg_config_script
 =
 "
 /
+/
+chromium
 /
 build
 /

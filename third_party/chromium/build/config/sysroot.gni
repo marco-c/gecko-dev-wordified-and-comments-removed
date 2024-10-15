@@ -73,6 +73,8 @@ import
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -121,6 +123,8 @@ target_sysroot_dir
 =
 "
 /
+/
+chromium
 /
 build
 /
@@ -262,6 +266,8 @@ import
 (
 "
 /
+/
+chromium
 /
 build
 /
@@ -520,6 +526,8 @@ exec_script
 "
 /
 /
+chromium
+/
 build
 /
 dir_exists
@@ -586,6 +594,8 @@ import
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -611,6 +621,8 @@ import
 (
 "
 /
+/
+chromium
 /
 build
 /

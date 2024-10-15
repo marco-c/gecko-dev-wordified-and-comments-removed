@@ -38,6 +38,8 @@ import
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -285,6 +287,8 @@ script
 "
 /
 /
+chromium
+/
 build
 /
 android
@@ -455,6 +459,8 @@ _pydeps
 [
 "
 /
+/
+chromium
 /
 build
 /

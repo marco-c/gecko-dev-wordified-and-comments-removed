@@ -38,6 +38,8 @@ import
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -184,6 +186,8 @@ executable
 "
 /
 /
+chromium
+/
 build
 /
 android
@@ -238,6 +242,8 @@ deps
 [
 "
 /
+/
+chromium
 /
 build
 /

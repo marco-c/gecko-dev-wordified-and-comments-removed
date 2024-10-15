@@ -38,6 +38,8 @@ import
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -53,6 +55,8 @@ import
 (
 "
 /
+/
+chromium
 /
 build
 /
@@ -175,6 +179,8 @@ test_rust_source_set
 "
 "
 /
+/
+chromium
 /
 build
 /

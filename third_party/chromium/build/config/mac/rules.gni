@@ -38,6 +38,8 @@ import
 "
 /
 /
+chromium
+/
 build
 /
 apple
@@ -51,6 +53,8 @@ import
 (
 "
 /
+/
+chromium
 /
 build
 /
@@ -67,6 +71,8 @@ import
 (
 "
 /
+/
+chromium
 /
 build
 /
@@ -361,6 +367,8 @@ plist_templates
 [
 "
 /
+/
+chromium
 /
 build
 /
@@ -1577,6 +1585,8 @@ exec_script
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -1622,6 +1632,8 @@ script
 =
 "
 /
+/
+chromium
 /
 build
 /
@@ -2734,6 +2746,8 @@ script
 "
 /
 /
+chromium
+/
 build
 /
 apple
@@ -2747,6 +2761,8 @@ inputs
 [
 "
 /
+/
+chromium
 /
 build
 /

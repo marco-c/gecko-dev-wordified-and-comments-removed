@@ -288,6 +288,8 @@ default_compatibility_manifest
 "
 /
 /
+chromium
+/
 build
 /
 win
@@ -320,6 +322,8 @@ common_controls_manifest
 =
 "
 /
+/
+chromium
 /
 build
 /
@@ -374,6 +378,8 @@ as_invoker_manifest
 "
 /
 /
+chromium
+/
 build
 /
 win
@@ -401,6 +407,8 @@ require_administrator_manifest
 =
 "
 /
+/
+chromium
 /
 build
 /
@@ -441,6 +449,8 @@ segment_heap_manifest
 =
 "
 /
+/
+chromium
 /
 build
 /

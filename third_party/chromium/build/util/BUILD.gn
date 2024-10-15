@@ -41,6 +41,8 @@ import
 "
 /
 /
+chromium
+/
 build
 /
 util
@@ -197,6 +199,8 @@ vpython3
 "
 /
 /
+chromium
+/
 build
 /
 util
@@ -209,6 +213,8 @@ py
 "
 "
 /
+/
+chromium
 /
 build
 /

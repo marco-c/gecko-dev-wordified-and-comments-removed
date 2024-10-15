@@ -79,6 +79,8 @@ exec_script_whitelist
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -91,6 +93,8 @@ gni
 "
 "
 /
+/
+chromium
 /
 build
 /
@@ -105,6 +109,8 @@ gni
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -117,6 +123,8 @@ gni
 "
 "
 /
+/
+chromium
 /
 build
 /
@@ -131,6 +139,8 @@ gni
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -143,6 +153,8 @@ gn
 "
 "
 /
+/
+chromium
 /
 build
 /
@@ -159,6 +171,8 @@ gn
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -172,6 +186,8 @@ gni
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -182,6 +198,8 @@ gni
 "
 "
 /
+/
+chromium
 /
 build
 /
@@ -196,6 +214,8 @@ gni
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -208,6 +228,8 @@ gni
 "
 "
 /
+/
+chromium
 /
 build
 /
@@ -224,6 +246,8 @@ gn
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -239,6 +263,8 @@ gn
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -251,6 +277,8 @@ gn
 "
 "
 /
+/
+chromium
 /
 build
 /
@@ -267,6 +295,8 @@ gn
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -279,6 +309,8 @@ gni
 "
 "
 /
+/
+chromium
 /
 build
 /
@@ -293,6 +325,8 @@ gni
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -305,6 +339,8 @@ gni
 "
 "
 /
+/
+chromium
 /
 build
 /
@@ -319,6 +355,8 @@ gn
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -329,6 +367,8 @@ gni
 "
 "
 /
+/
+chromium
 /
 build
 /
@@ -342,6 +382,8 @@ gn
 "
 "
 /
+/
+chromium
 /
 build
 /
@@ -356,6 +398,8 @@ gni
 "
 /
 /
+chromium
+/
 build
 /
 timestamp
@@ -364,6 +408,8 @@ gni
 "
 "
 /
+/
+chromium
 /
 build
 /
@@ -378,6 +424,8 @@ gni
 "
 /
 /
+chromium
+/
 build
 /
 toolchain
@@ -388,6 +436,8 @@ gn
 "
 "
 /
+/
+chromium
 /
 build
 /
@@ -400,6 +450,8 @@ gni
 "
 /
 /
+chromium
+/
 build
 /
 toolchain
@@ -410,6 +462,8 @@ gni
 "
 "
 /
+/
+chromium
 /
 build
 /
@@ -424,6 +478,8 @@ gn
 "
 /
 /
+chromium
+/
 build
 /
 toolchain
@@ -434,6 +490,8 @@ gni
 "
 "
 /
+/
+chromium
 /
 build
 /
@@ -448,6 +506,8 @@ gn
 "
 /
 /
+chromium
+/
 build
 /
 util
@@ -458,6 +518,8 @@ gni
 "
 "
 /
+/
+chromium
 /
 build
 /

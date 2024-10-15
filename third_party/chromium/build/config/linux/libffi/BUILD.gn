@@ -38,6 +38,8 @@ import
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -56,6 +58,8 @@ default_toolchain
 =
 "
 /
+/
+chromium
 /
 build
 /

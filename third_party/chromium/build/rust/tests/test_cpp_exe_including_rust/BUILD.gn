@@ -55,6 +55,8 @@ deps
 "
 /
 /
+chromium
+/
 build
 /
 rust

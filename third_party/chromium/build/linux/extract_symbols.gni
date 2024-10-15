@@ -38,6 +38,8 @@ import
 "
 /
 /
+chromium
+/
 build
 /
 toolchain
@@ -175,6 +177,8 @@ pool
 "
 /
 /
+chromium
+/
 build
 /
 toolchain
@@ -188,6 +192,8 @@ script
 =
 "
 /
+/
+chromium
 /
 build
 /

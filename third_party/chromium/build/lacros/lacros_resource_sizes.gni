@@ -38,6 +38,8 @@ import
 "
 /
 /
+chromium
+/
 build
 /
 util
@@ -98,6 +100,8 @@ executable
 "
 /
 /
+chromium
+/
 build
 /
 lacros
@@ -123,6 +127,8 @@ deps
 [
 "
 /
+/
+chromium
 /
 build
 /

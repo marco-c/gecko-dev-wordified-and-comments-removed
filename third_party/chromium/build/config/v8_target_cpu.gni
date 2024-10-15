@@ -38,6 +38,8 @@ import
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -334,6 +336,8 @@ current_toolchain
 "
 /
 /
+chromium
+/
 build
 /
 toolchain
@@ -358,6 +362,8 @@ current_toolchain
 =
 "
 /
+/
+chromium
 /
 build
 /
@@ -384,6 +390,8 @@ current_toolchain
 "
 /
 /
+chromium
+/
 build
 /
 toolchain
@@ -408,6 +416,8 @@ current_toolchain
 =
 "
 /
+/
+chromium
 /
 build
 /

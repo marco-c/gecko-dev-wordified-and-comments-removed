@@ -42,6 +42,8 @@ import
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -722,6 +724,8 @@ script
 =
 "
 /
+/
+chromium
 /
 build
 /

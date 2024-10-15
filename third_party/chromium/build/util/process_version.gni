@@ -38,6 +38,8 @@ import
 "
 /
 /
+chromium
+/
 build
 /
 util
@@ -535,6 +537,8 @@ script
 =
 "
 /
+/
+chromium
 /
 build
 /

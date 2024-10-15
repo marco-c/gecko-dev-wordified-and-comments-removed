@@ -59,6 +59,8 @@ import
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -72,6 +74,8 @@ import
 (
 "
 /
+/
+chromium
 /
 build
 /
@@ -667,6 +671,8 @@ rebase_path
 (
 "
 /
+/
+chromium
 /
 build
 /

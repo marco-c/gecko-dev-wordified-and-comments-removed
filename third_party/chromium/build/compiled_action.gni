@@ -692,6 +692,8 @@ script
 "
 /
 /
+chromium
+/
 build
 /
 gn_run_binary
@@ -996,6 +998,8 @@ script
 =
 "
 /
+/
+chromium
 /
 build
 /

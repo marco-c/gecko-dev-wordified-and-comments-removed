@@ -38,6 +38,8 @@ import
 "
 /
 /
+chromium
+/
 build
 /
 android
@@ -54,6 +56,8 @@ import
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -69,6 +73,8 @@ import
 (
 "
 /
+/
+chromium
 /
 build
 /
@@ -216,6 +222,8 @@ android_manifest
 =
 "
 /
+/
+chromium
 /
 build
 /

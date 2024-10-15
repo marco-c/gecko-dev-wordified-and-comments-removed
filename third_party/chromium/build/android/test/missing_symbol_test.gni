@@ -38,6 +38,8 @@ import
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -54,6 +56,8 @@ import
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -69,6 +73,8 @@ missing_symbol_generated_importer_template_nocompile_source
 =
 "
 /
+/
+chromium
 /
 build
 /

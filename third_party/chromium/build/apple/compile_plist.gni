@@ -291,6 +291,8 @@ script
 "
 /
 /
+chromium
+/
 build
 /
 apple
@@ -366,6 +368,8 @@ script
 =
 "
 /
+/
+chromium
 /
 build
 /

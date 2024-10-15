@@ -38,6 +38,8 @@ import
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -513,6 +515,8 @@ pydeps
 [
 "
 /
+/
+chromium
 /
 build
 /

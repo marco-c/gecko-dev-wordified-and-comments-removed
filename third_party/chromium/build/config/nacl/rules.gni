@@ -39,6 +39,8 @@ import
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -765,6 +767,8 @@ glibc_tc
 =
 "
 /
+/
+chromium
 /
 build
 /

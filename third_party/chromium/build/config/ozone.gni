@@ -38,6 +38,8 @@ import
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -51,6 +53,8 @@ import
 (
 "
 /
+/
+chromium
 /
 build
 /
@@ -67,6 +71,8 @@ import
 (
 "
 /
+/
+chromium
 /
 build
 /
@@ -154,6 +160,8 @@ ozone_extra_path
 =
 "
 /
+/
+chromium
 /
 build
 /

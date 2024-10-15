@@ -38,6 +38,8 @@ import
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -54,6 +56,8 @@ import
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -69,6 +73,8 @@ import
 (
 "
 /
+/
+chromium
 /
 build
 /
@@ -85,6 +91,8 @@ import
 (
 "
 /
+/
+chromium
 /
 build
 /
@@ -355,6 +363,8 @@ BuildWithChromium
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -420,6 +430,8 @@ data_deps
 [
 "
 /
+/
+chromium
 /
 build
 /
@@ -714,6 +726,8 @@ deps
 [
 "
 /
+/
+chromium
 /
 build
 /

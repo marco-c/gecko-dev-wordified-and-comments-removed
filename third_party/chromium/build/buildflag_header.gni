@@ -751,6 +751,8 @@ script
 "
 /
 /
+chromium
+/
 build
 /
 write_buildflag_header
@@ -968,6 +970,8 @@ public_deps
 [
 "
 /
+/
+chromium
 /
 build
 :

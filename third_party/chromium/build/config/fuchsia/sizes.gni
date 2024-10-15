@@ -38,6 +38,8 @@ import
 "
 /
 /
+chromium
+/
 build
 /
 util
@@ -78,6 +80,8 @@ executable
 =
 "
 /
+/
+chromium
 /
 build
 /
@@ -175,6 +179,8 @@ data
 [
 "
 /
+/
+chromium
 /
 build
 /

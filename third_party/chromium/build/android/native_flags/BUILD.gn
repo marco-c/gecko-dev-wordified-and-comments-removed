@@ -46,6 +46,8 @@ import
 "
 /
 /
+chromium
+/
 build
 /
 toolchain
@@ -253,6 +255,8 @@ current_toolchain
 =
 "
 /
+/
+chromium
 /
 build
 /
