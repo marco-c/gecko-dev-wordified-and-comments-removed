@@ -1775,6 +1775,11 @@ formautofill
 undefinedProxy
 (
 )
+creditcard
+:
+undefinedProxy
+(
+)
 _mapGleanToLegacy
 :
 (
