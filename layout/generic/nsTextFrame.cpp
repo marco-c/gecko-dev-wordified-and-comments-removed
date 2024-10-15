@@ -29122,7 +29122,7 @@ maxHeight
 ;
 }
 static
-const
+constexpr
 SelectionTypeMask
 kSelectionTypesWithDecorations
 =

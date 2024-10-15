@@ -2397,7 +2397,7 @@ the
 following
 APIs
 .
-inline
+constexpr
 bool
 IsValidRawSelectionType
 (
@@ -2405,7 +2405,7 @@ RawSelectionType
 aRawSelectionType
 )
 ;
-inline
+constexpr
 SelectionType
 ToSelectionType
 (
@@ -2413,7 +2413,7 @@ RawSelectionType
 aRawSelectionType
 )
 ;
-inline
+constexpr
 RawSelectionType
 ToRawSelectionType
 (
@@ -2421,7 +2421,7 @@ SelectionType
 aSelectionType
 )
 ;
-inline
+constexpr
 SelectionTypeMask
 ToSelectionTypeMask
 (

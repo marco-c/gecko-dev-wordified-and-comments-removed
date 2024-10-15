@@ -3613,7 +3613,7 @@ mSelection
 }
 ;
 }
-inline
+constexpr
 bool
 IsValidRawSelectionType
 (
@@ -3640,7 +3640,7 @@ nsISelectionController
 SELECTION_URLSTRIKEOUT
 ;
 }
-inline
+constexpr
 SelectionType
 ToSelectionType
 (
@@ -3674,7 +3674,7 @@ aRawSelectionType
 )
 ;
 }
-inline
+constexpr
 RawSelectionType
 ToRawSelectionType
 (
@@ -3703,7 +3703,7 @@ aSelectionType
 )
 ;
 }
-inline
+constexpr
 RawSelectionType
 ToRawSelectionType
 (
@@ -3721,7 +3721,7 @@ aTextRangeType
 )
 ;
 }
-inline
+constexpr
 SelectionTypeMask
 ToSelectionTypeMask
 (
