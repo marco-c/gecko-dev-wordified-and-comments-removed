@@ -270,6 +270,11 @@ NotifyUtils
 h
 "
 "
+NotifyUtilsCommon
+.
+h
+"
+"
 NSSCipherStrategy
 .
 h
@@ -505,6 +510,11 @@ NotifyUtils
 cpp
 "
 "
+NotifyUtilsCommon
+.
+cpp
+"
+"
 nsIndexedDBProtocolHandler
 .
 cpp
@@ -531,6 +541,11 @@ cpp
 "
 "
 OriginParser
+.
+cpp
+"
+"
+PersistenceScope
 .
 cpp
 "

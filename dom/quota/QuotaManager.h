@@ -1123,6 +1123,10 @@ Type
 aClientType
 bool
 aExclusive
+bool
+aInitializeOrigins
+=
+false
 DirectoryLockCategory
 aCategory
 =

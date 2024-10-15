@@ -607,6 +607,10 @@ Type
 aClientType
 bool
 aExclusive
+bool
+aInitializeOrigins
+=
+false
 DirectoryLockCategory
 aCategory
 =
@@ -4572,6 +4576,8 @@ Type
 aClientType
 bool
 aExclusive
+bool
+aInitializeOrigins
 const
 DirectoryLockCategory
 aCategory
@@ -4590,6 +4596,7 @@ aPersistenceScope
 aOriginScope
 aClientType
 aExclusive
+aInitializeOrigins
 aCategory
 )
 -
@@ -9397,6 +9404,7 @@ Type
 (
 )
 true
+false
 DirectoryLockCategory
 :
 :
