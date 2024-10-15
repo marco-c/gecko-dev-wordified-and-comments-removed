@@ -440,6 +440,10 @@ InitOp
 ;
 friend
 class
+InitTemporaryStorageOp
+;
+friend
+class
 OriginInfo
 ;
 friend
@@ -1581,11 +1585,15 @@ return
 mTemporaryStorageInitialized
 ;
 }
+private
+:
 nsresult
 EnsureTemporaryStorageIsInitializedInternal
 (
 )
 ;
+public
+:
 RefPtr
 <
 OriginUsageMetadataArrayPromise
