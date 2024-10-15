@@ -202,14 +202,6 @@ fenix
 theme
 .
 Theme
-internal
-const
-val
-CUSTOM_TAB_MENU_ROUTE
-=
-"
-custom_tab_menu
-"
 /
 *
 *

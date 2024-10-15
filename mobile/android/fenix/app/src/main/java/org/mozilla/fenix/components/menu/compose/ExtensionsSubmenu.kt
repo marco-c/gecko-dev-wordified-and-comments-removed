@@ -420,14 +420,6 @@ fenix
 theme
 .
 Theme
-internal
-const
-val
-EXTENSIONS_MENU_ROUTE
-=
-"
-extensions_menu
-"
 Suppress
 (
 "
