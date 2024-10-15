@@ -834,6 +834,11 @@ windowsAccentColorInTitlebar
 "
 ui
 .
+windowsMica
+"
+"
+ui
+.
 macBigSurTheme
 "
 "

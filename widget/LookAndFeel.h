@@ -176,6 +176,7 @@ TreeScrollDelay
 TreeScrollLinesMax
 ChosenMenuItemsShouldBlink
 WindowsAccentColorInTitlebar
+WindowsMica
 MacBigSurTheme
 MacRTL
 MacTitlebarHeight
