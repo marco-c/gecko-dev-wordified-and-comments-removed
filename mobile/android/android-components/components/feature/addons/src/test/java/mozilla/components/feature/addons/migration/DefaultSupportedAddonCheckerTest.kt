@@ -447,7 +447,7 @@ workId
 =
 CHECKER_UNIQUE_PERIODIC_WORK_NAME
 val
-workManger
+workManager
 =
 WorkManager
 .
@@ -458,7 +458,7 @@ testContext
 val
 workData
 =
-workManger
+workManager
 .
 getWorkInfosForUniqueWork
 (
@@ -489,7 +489,7 @@ assertExtensionIsRegisteredForChecks
 Cleaning
 work
 manager
-workManger
+workManager
 .
 cancelUniqueWork
 (
@@ -535,7 +535,7 @@ workId
 =
 CHECKER_UNIQUE_PERIODIC_WORK_NAME
 val
-workManger
+workManager
 =
 WorkManager
 .
@@ -546,7 +546,7 @@ testContext
 var
 workData
 =
-workManger
+workManager
 .
 getWorkInfosForUniqueWork
 (
@@ -579,7 +579,7 @@ unregisterForChecks
 )
 workData
 =
-workManger
+workManager
 .
 getWorkInfosForUniqueWork
 (
@@ -617,7 +617,7 @@ workId
 =
 CHECKER_UNIQUE_PERIODIC_WORK_NAME
 val
-workManger
+workManager
 =
 WorkManager
 .
@@ -628,7 +628,7 @@ testContext
 val
 workData
 =
-workManger
+workManager
 .
 getWorkInfosForUniqueWork
 (

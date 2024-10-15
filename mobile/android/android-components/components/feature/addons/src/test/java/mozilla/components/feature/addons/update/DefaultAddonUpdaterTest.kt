@@ -529,7 +529,7 @@ getUniquePeriodicWorkName
 addonId
 )
 val
-workManger
+workManager
 =
 WorkManager
 .
@@ -540,7 +540,7 @@ testContext
 var
 workData
 =
-workManger
+workManager
 .
 getWorkInfosForUniqueWork
 (
@@ -566,7 +566,7 @@ addonId
 )
 workData
 =
-workManger
+workManager
 .
 getWorkInfosForUniqueWork
 (
@@ -594,7 +594,7 @@ addonId
 Cleaning
 work
 manager
-workManger
+workManager
 .
 cancelUniqueWork
 (
@@ -643,7 +643,7 @@ getUniqueImmediateWorkName
 addonId
 )
 val
-workManger
+workManager
 =
 WorkManager
 .
@@ -654,7 +654,7 @@ testContext
 var
 workData
 =
-workManger
+workManager
 .
 getWorkInfosForUniqueWork
 (
@@ -680,7 +680,7 @@ addonId
 )
 workData
 =
-workManger
+workManager
 .
 getWorkInfosForUniqueWork
 (
@@ -744,7 +744,7 @@ WORK_TAG_IMMEDIATE
 Cleaning
 work
 manager
-workManger
+workManager
 .
 cancelUniqueWork
 (
@@ -1861,7 +1861,7 @@ getUniquePeriodicWorkName
 addonId
 )
 val
-workManger
+workManager
 =
 WorkManager
 .
@@ -1872,7 +1872,7 @@ testContext
 var
 workData
 =
-workManger
+workManager
 .
 getWorkInfosForUniqueWork
 (
@@ -1898,7 +1898,7 @@ addonId
 )
 workData
 =
-workManger
+workManager
 .
 getWorkInfosForUniqueWork
 (
@@ -1929,7 +1929,7 @@ addonId
 )
 workData
 =
-workManger
+workManager
 .
 getWorkInfosForUniqueWork
 (
@@ -2391,7 +2391,7 @@ getUniquePeriodicWorkName
 extId
 )
 val
-workManger
+workManager
 =
 WorkManager
 .
@@ -2402,7 +2402,7 @@ testContext
 val
 workData
 =
-workManger
+workManager
 .
 getWorkInfosForUniqueWork
 (
@@ -2477,7 +2477,7 @@ getUniquePeriodicWorkName
 extId
 )
 val
-workManger
+workManager
 =
 WorkManager
 .
@@ -2488,7 +2488,7 @@ testContext
 val
 workData
 =
-workManger
+workManager
 .
 getWorkInfosForUniqueWork
 (
