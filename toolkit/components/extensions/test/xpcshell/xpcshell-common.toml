@@ -1170,6 +1170,13 @@ js
 ]
 [
 "
+test_ext_cookies_sort
+.
+js
+"
+]
+[
+"
 test_ext_cors_mozextension
 .
 js

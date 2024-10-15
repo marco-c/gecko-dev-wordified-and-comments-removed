@@ -1532,6 +1532,7 @@ getCookiesFromHost
 (
 host
 originAttributes
+true
 )
 ;
 }
@@ -1552,6 +1553,7 @@ stringify
 originAttributes
 )
 host
+true
 )
 ;
 }

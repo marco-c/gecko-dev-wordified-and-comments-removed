@@ -5354,6 +5354,8 @@ JS
 Value
 >
 aOriginAttributes
+bool
+aSorted
 JSContext
 *
 aCx
@@ -5401,6 +5403,7 @@ GetCookiesFromHostNative
 aHost
 &
 attrs
+aSorted
 aResult
 )
 ;
@@ -5418,6 +5421,8 @@ aHost
 OriginAttributes
 *
 aAttrs
+bool
+aSorted
 nsTArray
 <
 RefPtr
@@ -5553,6 +5558,21 @@ cookie
 )
 ;
 }
+if
+(
+aSorted
+)
+{
+aResult
+.
+Sort
+(
+CompareCookiesForSending
+(
+)
+)
+;
+}
 return
 NS_OK
 ;
@@ -5571,6 +5591,9 @@ const
 nsACString
 &
 aHost
+const
+bool
+aSorted
 nsTArray
 <
 RefPtr
@@ -5646,6 +5669,7 @@ GetCookiesWithOriginAttributes
 (
 pattern
 baseDomain
+aSorted
 aResult
 )
 ;
@@ -5664,6 +5688,8 @@ const
 nsCString
 &
 aBaseDomain
+bool
+aSorted
 nsTArray
 <
 RefPtr
@@ -5691,6 +5717,7 @@ GetCookiesWithOriginAttributes
 (
 aPattern
 aBaseDomain
+aSorted
 aResult
 )
 ;
