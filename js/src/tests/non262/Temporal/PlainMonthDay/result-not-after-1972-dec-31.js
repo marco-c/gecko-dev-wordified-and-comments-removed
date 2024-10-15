@@ -193,10 +193,9 @@ true
 ;
 assertEq
 (
-pmd
-.
-getISOFields
+ISOFields
 (
+pmd
 )
 .
 isoYear

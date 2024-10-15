@@ -46,10 +46,9 @@ day
 let
 fields
 =
-pmd
-.
-getISOFields
+ISOFields
 (
+pmd
 )
 ;
 assertEq
