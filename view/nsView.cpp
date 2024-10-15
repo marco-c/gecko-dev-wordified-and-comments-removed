@@ -1803,9 +1803,6 @@ true
 ;
 if
 (
-nullptr
-!
-=
 mWindow
 )
 {
