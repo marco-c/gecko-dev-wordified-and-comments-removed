@@ -1666,17 +1666,6 @@ platform
 return
 True
     
-if
-"
-a51
-"
-in
-platform
-:
-        
-return
-True
-    
 return
 False
 def
