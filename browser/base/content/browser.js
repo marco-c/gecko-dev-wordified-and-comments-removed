@@ -25402,9 +25402,7 @@ warnAboutClosingTabs
 (
 gBrowser
 .
-visibleTabs
-.
-length
+openTabCount
 gBrowser
 .
 closingTabsEnum
@@ -25569,9 +25567,7 @@ warnAboutClosingTabs
 (
 gBrowser
 .
-visibleTabs
-.
-length
+openTabCount
 gBrowser
 .
 closingTabsEnum
@@ -25677,9 +25673,7 @@ warnAboutClosingTabs
 (
 gBrowser
 .
-visibleTabs
-.
-length
+openTabCount
 gBrowser
 .
 closingTabsEnum

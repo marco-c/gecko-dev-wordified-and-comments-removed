@@ -441,9 +441,7 @@ win
 .
 gBrowser
 .
-visibleTabs
-.
-length
+openTabCount
 )
 .
 reduce
