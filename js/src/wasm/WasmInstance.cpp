@@ -7831,7 +7831,16 @@ isThrowingOutOfMemory
 )
 ;
 return
-nullptr
+AnyRef
+:
+:
+invalid
+(
+)
+.
+forCompiledCode
+(
+)
 ;
 }
 return
