@@ -2314,6 +2314,9 @@ username
 mozilla
 "
 )
+waitForAppWindowToBeUpdated
+(
+)
 setPageObjectText
 (
 itemWithResId
@@ -2325,6 +2328,9 @@ password
 "
 firefox
 "
+)
+waitForAppWindowToBeUpdated
+(
 )
 clickPageObject
 (
