@@ -4704,6 +4704,8 @@ shouldUseBottomToolbar
 by
 booleanPreference
 (
+key
+=
 appContext
 .
 getPreferenceKey
@@ -4717,6 +4719,9 @@ pref_key_toolbar_bottom
 default
 =
 false
+persistDefaultIfNotExists
+=
+true
 )
 val
 toolbarPosition
