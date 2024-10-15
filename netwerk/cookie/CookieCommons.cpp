@@ -4146,6 +4146,7 @@ network_cookie_CHIPS_enabled
 )
 &
 &
+!
 workerPrivate
 -
 >
@@ -4154,7 +4155,7 @@ CookieJarSettings
 )
 -
 >
-GetPartitionForeign
+GetBlockingAllContexts
 (
 )
 ;
@@ -4416,6 +4417,7 @@ network_cookie_CHIPS_enabled
 )
 &
 &
+!
 aDocument
 -
 >
@@ -4424,7 +4426,7 @@ CookieJarSettings
 )
 -
 >
-GetPartitionForeign
+GetBlockingAllContexts
 (
 )
 ;
