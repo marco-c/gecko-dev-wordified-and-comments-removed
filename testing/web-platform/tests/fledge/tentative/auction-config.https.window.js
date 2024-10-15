@@ -2443,12 +2443,6 @@ dictionary
 expect
 :
 EXPECT_PROMISE_ERROR
-expectPromiseError
-:
-EXPECT_EXCEPTION
-(
-TypeError
-)
 auctionConfigOverrides
 :
 {
