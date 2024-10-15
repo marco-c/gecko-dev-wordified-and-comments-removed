@@ -2561,6 +2561,11 @@ MOZ_ASSERT
 mReply
 )
 ;
+MOZ_ASSERT
+(
+mHistResultContainer
+)
+;
 GVariantBuilder
 b
 ;
@@ -2904,6 +2909,7 @@ aHistResultContainer
 {
 if
 (
+!
 mSearchProvider
 -
 >
@@ -2913,11 +2919,13 @@ this
 )
 )
 {
+return
+;
+}
 mHistResultContainer
 =
 aHistResultContainer
 ;
-}
 nsresult
 rv
 ;
