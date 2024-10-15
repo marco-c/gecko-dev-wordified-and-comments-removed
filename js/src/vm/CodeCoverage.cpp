@@ -216,7 +216,7 @@ hadOutOfMemory
 {
 out
 .
-reportOutOfMemory
+setPendingOutOfMemory
 (
 )
 ;

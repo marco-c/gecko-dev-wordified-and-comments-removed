@@ -340,7 +340,7 @@ flush
 }
 virtual
 void
-reportOutOfMemory
+setPendingOutOfMemory
 (
 )
 ;
@@ -1457,14 +1457,14 @@ flush
 ;
 }
 void
-reportOutOfMemory
+setPendingOutOfMemory
 (
 )
 final
 {
 out
 .
-reportOutOfMemory
+setPendingOutOfMemory
 (
 )
 ;

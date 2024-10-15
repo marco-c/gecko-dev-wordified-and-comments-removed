@@ -181,7 +181,7 @@ void
 GenericPrinter
 :
 :
-reportOutOfMemory
+setPendingOutOfMemory
 (
 )
 {
@@ -317,7 +317,7 @@ str
 )
 )
 {
-reportOutOfMemory
+setPendingOutOfMemory
 (
 )
 ;
@@ -396,7 +396,7 @@ popFront
 )
 )
 {
-reportOutOfMemory
+setPendingOutOfMemory
 (
 )
 ;
@@ -555,7 +555,7 @@ if
 newBuf
 )
 {
-reportOutOfMemory
+setPendingOutOfMemory
 (
 )
 ;
@@ -699,7 +699,7 @@ if
 base
 )
 {
-reportOutOfMemory
+setPendingOutOfMemory
 (
 )
 ;
@@ -2265,7 +2265,7 @@ i
 len
 )
 {
-reportOutOfMemory
+setPendingOutOfMemory
 (
 )
 ;
@@ -2307,7 +2307,7 @@ if
 buf
 )
 {
-reportOutOfMemory
+setPendingOutOfMemory
 (
 )
 ;
@@ -2598,7 +2598,7 @@ if
 last
 )
 {
-reportOutOfMemory
+setPendingOutOfMemory
 (
 )
 ;
