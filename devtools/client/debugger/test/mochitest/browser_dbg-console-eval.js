@@ -51,14 +51,11 @@ CodeMirrorLines
 )
 ;
 await
-waitForElementWithSelector
+waitForElement
 (
 dbg
 "
-.
-CodeMirror
--
-code
+CodeMirrorCode
 "
 )
 ;

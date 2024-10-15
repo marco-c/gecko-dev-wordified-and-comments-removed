@@ -35,7 +35,7 @@ html
 ;
 requestLongerTimeout
 (
-6
+10
 )
 ;
 add_task
