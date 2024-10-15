@@ -708,6 +708,11 @@ ToString
 "
 readonly
 "
+DisposeResourcesAsync
+:
+"
+readonly
+"
 undefined
 :
 "
