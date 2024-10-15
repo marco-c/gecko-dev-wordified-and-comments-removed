@@ -527,15 +527,6 @@ test_shutdownDuringRequestFinalization
 js
 "
 ]
-skip
--
-if
-=
-[
-"
-true
-"
-]
 [
 "
 test_slowDatabaseInitialization
