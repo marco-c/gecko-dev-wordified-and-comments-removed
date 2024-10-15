@@ -2042,8 +2042,8 @@ config
 playback_version
 "
 ]
-=
-=
+in
+[
 "
 8
 .
@@ -2051,6 +2051,14 @@ playback_version
 .
 1
 "
+"
+10
+.
+4
+.
+2
+"
+]
 :
                     
 command
