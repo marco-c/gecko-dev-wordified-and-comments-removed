@@ -173,6 +173,16 @@ default
 "
 main
 "
+[
+uniffi_trait_interfaces
+.
+receiver_thread
+]
+default
+=
+"
+main
+"
 #
 Temporarily
 disabled
