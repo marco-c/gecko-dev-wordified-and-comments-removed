@@ -843,7 +843,7 @@ isPrivate
 )
 )
 is
-ReceivedSyncUpdate
+ReceivedSyncSignInUpdate
 -
 >
 {
@@ -855,7 +855,7 @@ isSignedIntoSync
 =
 action
 .
-signedIn
+isSignedIn
 )
 }
 OpenTabsConfirmationDialogAction
@@ -876,6 +876,7 @@ OpenTabsConfirmationDialog
 .
 None
 )
+FirstSyncCompleted
 SelectFolderAction
 .
 ViewAppeared
