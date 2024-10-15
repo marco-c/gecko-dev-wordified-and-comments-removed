@@ -620,6 +620,13 @@ expiration
 null
 isRichIcon
 )
+.
+catch
+(
+console
+.
+error
+)
 ;
 }
 catch

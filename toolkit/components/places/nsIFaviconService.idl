@@ -112,7 +112,11 @@ attribute
 AUTF8String
 defaultFaviconMimeType
 ;
-void
+[
+implicit_jscontext
+must_use
+]
+Promise
 setFaviconForPage
 (
 in
