@@ -5790,16 +5790,6 @@ aFirstPartyURI
 aForeignByAncestorContext
 )
 ;
-nsAutoCString
-oaSuffix
-;
-attrs
-.
-CreateSuffix
-(
-oaSuffix
-)
-;
 nsID
 sessionKey
 =
