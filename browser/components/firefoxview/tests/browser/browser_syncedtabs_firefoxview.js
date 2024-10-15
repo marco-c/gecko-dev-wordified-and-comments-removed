@@ -2821,7 +2821,7 @@ cardEls
 querySelector
 (
 "
-fxview
+syncedtabs
 -
 tab
 -
@@ -2840,7 +2840,7 @@ cardEls
 querySelector
 (
 "
-fxview
+syncedtabs
 -
 tab
 -
@@ -2863,7 +2863,7 @@ cardEls
 querySelector
 (
 "
-fxview
+syncedtabs
 -
 tab
 -
@@ -2882,7 +2882,7 @@ cardEls
 querySelector
 (
 "
-fxview
+syncedtabs
 -
 tab
 -
@@ -2921,7 +2921,7 @@ cardEls
 querySelector
 (
 "
-fxview
+syncedtabs
 -
 tab
 -
@@ -2944,7 +2944,7 @@ cardEls
 querySelector
 (
 "
-fxview
+syncedtabs
 -
 tab
 -
@@ -3029,7 +3029,7 @@ cardEls
 querySelector
 (
 "
-fxview
+syncedtabs
 -
 tab
 -
@@ -3048,7 +3048,7 @@ cardEls
 querySelector
 (
 "
-fxview
+syncedtabs
 -
 tab
 -
@@ -3092,7 +3092,7 @@ cardEls
 querySelector
 (
 "
-fxview
+syncedtabs
 -
 tab
 -
@@ -3142,7 +3142,7 @@ cardEls
 querySelector
 (
 "
-fxview
+syncedtabs
 -
 tab
 -
@@ -3231,7 +3231,7 @@ cardEls
 querySelector
 (
 "
-fxview
+syncedtabs
 -
 tab
 -
@@ -3250,7 +3250,7 @@ cardEls
 querySelector
 (
 "
-fxview
+syncedtabs
 -
 tab
 -
@@ -3273,7 +3273,7 @@ cardEls
 querySelector
 (
 "
-fxview
+syncedtabs
 -
 tab
 -
@@ -3292,7 +3292,7 @@ cardEls
 querySelector
 (
 "
-fxview
+syncedtabs
 -
 tab
 -
@@ -3330,7 +3330,7 @@ cardEls
 querySelector
 (
 "
-fxview
+syncedtabs
 -
 tab
 -
@@ -3352,7 +3352,7 @@ cardEls
 querySelector
 (
 "
-fxview
+syncedtabs
 -
 tab
 -
@@ -3381,7 +3381,7 @@ cardEls
 querySelector
 (
 "
-fxview
+syncedtabs
 -
 tab
 -
@@ -3430,7 +3430,7 @@ cardEls
 querySelector
 (
 "
-fxview
+syncedtabs
 -
 tab
 -
@@ -3548,7 +3548,7 @@ cardEls
 querySelector
 (
 "
-fxview
+syncedtabs
 -
 tab
 -
@@ -3567,7 +3567,7 @@ cardEls
 querySelector
 (
 "
-fxview
+syncedtabs
 -
 tab
 -
@@ -3614,7 +3614,7 @@ cardEls
 querySelector
 (
 "
-fxview
+syncedtabs
 -
 tab
 -
@@ -3667,7 +3667,7 @@ cardEls
 querySelector
 (
 "
-fxview
+syncedtabs
 -
 tab
 -
@@ -3812,7 +3812,7 @@ cardEls
 querySelector
 (
 "
-fxview
+syncedtabs
 -
 tab
 -
@@ -3831,7 +3831,7 @@ cardEls
 querySelector
 (
 "
-fxview
+syncedtabs
 -
 tab
 -
@@ -3854,7 +3854,7 @@ cardEls
 querySelector
 (
 "
-fxview
+syncedtabs
 -
 tab
 -
@@ -3873,7 +3873,7 @@ cardEls
 querySelector
 (
 "
-fxview
+syncedtabs
 -
 tab
 -
@@ -3911,7 +3911,7 @@ cardEls
 querySelector
 (
 "
-fxview
+syncedtabs
 -
 tab
 -
@@ -3933,7 +3933,7 @@ cardEls
 querySelector
 (
 "
-fxview
+syncedtabs
 -
 tab
 -
@@ -3962,7 +3962,7 @@ cardEls
 querySelector
 (
 "
-fxview
+syncedtabs
 -
 tab
 -
@@ -4011,7 +4011,7 @@ cardEls
 querySelector
 (
 "
-fxview
+syncedtabs
 -
 tab
 -

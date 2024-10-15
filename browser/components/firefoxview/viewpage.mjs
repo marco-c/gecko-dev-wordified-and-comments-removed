@@ -1286,6 +1286,11 @@ fxview
 tab
 -
 list
+syncedtabs
+-
+tab
+-
+list
 "
 )
 ;

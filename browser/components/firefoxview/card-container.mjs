@@ -778,6 +778,11 @@ opentabs
 tab
 -
 list
+syncedtabs
+-
+tab
+-
+list
 "
 )
 ;
