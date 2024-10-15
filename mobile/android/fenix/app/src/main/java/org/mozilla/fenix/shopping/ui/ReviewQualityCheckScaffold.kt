@@ -657,7 +657,7 @@ R
 .
 string
 .
-review_quality_check_beta_flag
+beta_feature
 )
 val
 titleContentDescription
