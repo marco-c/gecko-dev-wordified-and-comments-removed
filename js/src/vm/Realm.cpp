@@ -407,6 +407,12 @@ isDebuggee
 )
 )
 ;
+MOZ_ASSERT
+(
+!
+localAllocSite
+)
+;
 if
 (
 lcovRealm_
