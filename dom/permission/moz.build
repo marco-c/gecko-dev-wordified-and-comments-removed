@@ -80,11 +80,6 @@ PermissionStatus
 cpp
 "
 "
-PermissionStatusSink
-.
-cpp
-"
-"
 PermissionUtils
 .
 cpp

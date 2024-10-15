@@ -61,9 +61,6 @@ true
 "
 connection
 "
-"
-permissions
-"
 ]
 ;
 self

@@ -320,10 +320,7 @@ userVisibleOnly
 [
 Exposed
 =
-(
 Window
-Worker
-)
 ]
 interface
 Permissions
