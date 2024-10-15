@@ -243,7 +243,7 @@ aTexture
 aArrayIndex
 aSize
 aUsageInfo
-nullptr
+aSharedHandle
 )
 ;
 }
