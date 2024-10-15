@@ -40,7 +40,7 @@ return
 void
 *
 )
-malloc
+MALLOC
 (
 sizeofobject
 )
@@ -85,7 +85,7 @@ return
 void
 *
 )
-malloc
+MALLOC
 (
 sizeofobject
 )

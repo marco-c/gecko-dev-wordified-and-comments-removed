@@ -846,8 +846,15 @@ width
 0
 |
 |
+(
+unsigned
+long
+long
+)
+(
 *
 xoffset
+)
 +
 *
 width
@@ -2050,6 +2057,11 @@ global_state
 ;
 if
 (
+(
+unsigned
+long
+long
+)
 cinfo
 -
 >

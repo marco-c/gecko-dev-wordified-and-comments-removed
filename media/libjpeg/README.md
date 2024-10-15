@@ -704,7 +704,7 @@ usage
 and
 to
 <
-http
+https
 :
 /
 /
@@ -1916,12 +1916,10 @@ the
 research
 at
 <
-http
+https
 :
 /
 /
-www
-.
 libjpeg
 -
 turbo
