@@ -4328,6 +4328,12 @@ isCall
 )
 )
 {
+lirGraph_
+.
+incNumCallInstructions
+(
+)
+;
 gen
 -
 >
