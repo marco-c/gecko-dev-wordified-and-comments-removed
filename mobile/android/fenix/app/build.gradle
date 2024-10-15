@@ -7227,13 +7227,13 @@ rusthttp
 '
 )
 androidTestImplementation
-FenixDependencies
+ComponentsDependencies
 .
-mockk_android
+testing_mockk_android
 testImplementation
-FenixDependencies
+ComponentsDependencies
 .
-mockk
+testing_mockk
 /
 /
 For
