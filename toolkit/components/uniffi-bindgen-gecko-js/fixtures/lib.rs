@@ -70,3 +70,11 @@ uniffi_reexport_scaffolding
 (
 )
 ;
+uniffi_trait_interfaces
+:
+:
+uniffi_reexport_scaffolding
+!
+(
+)
+;
