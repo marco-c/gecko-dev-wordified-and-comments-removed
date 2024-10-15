@@ -2741,7 +2741,7 @@ it
             
 return
         
-flow_id
+stream_id
 =
 self
 .
@@ -2768,16 +2768,13 @@ is
 not
 None
             
-flow_id
+stream_id
 =
 self
 .
 _protocol
 .
 _session_stream_id
-/
-/
-4
         
 self
 .
@@ -2785,9 +2782,9 @@ _http
 .
 send_datagram
 (
-flow_id
+stream_id
 =
-flow_id
+stream_id
 data
 =
 data
