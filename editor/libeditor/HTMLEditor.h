@@ -3337,6 +3337,10 @@ nsAString
 aBulletType
 SelectAllOfCurrentList
 aSelectAllOfCurrentList
+const
+Element
+&
+aEditingHost
 )
 ;
 enum
@@ -6323,6 +6327,10 @@ N
 >
 &
 aStylesToSet
+const
+Element
+&
+aEditingHost
 )
 ;
 template
@@ -6372,6 +6380,10 @@ EditorInlineStyle
 >
 &
 aStylesToRemove
+const
+Element
+&
+aEditingHost
 )
 ;
 void
@@ -7363,6 +7375,10 @@ nsStaticAtom
 aTagName
 FormatBlockMode
 aFormatBlockMode
+const
+Element
+&
+aEditingHost
 )
 ;
 MOZ_CAN_RUN_SCRIPT

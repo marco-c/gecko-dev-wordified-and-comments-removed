@@ -123,6 +123,15 @@ return
 htmlElement
 &
 &
+!
+htmlElement
+-
+>
+IsInDesignMode
+(
+)
+&
+&
 htmlElement
 -
 >
