@@ -7119,7 +7119,7 @@ mFiles
 {
 xpc_array_set_fd
 (
-bootstrapMessage
+fdsArray
 .
 get
 (
