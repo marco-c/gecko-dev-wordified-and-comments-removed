@@ -151,7 +151,7 @@ cc
 16
 +
 302
-22
+24
 DWORD
 SetTokenIntegrityLevel
 (
@@ -262,6 +262,10 @@ the
 process
 .
 +
+DWORD
+rv
+=
++
 SetObjectIntegrityLabel
 (
 :
@@ -278,6 +282,15 @@ GetIntegrityLevelString
 (
 integrity_level
 )
+)
+;
++
+DCHECK
+(
+rv
+=
+=
+ERROR_SUCCESS
 )
 ;
 +
