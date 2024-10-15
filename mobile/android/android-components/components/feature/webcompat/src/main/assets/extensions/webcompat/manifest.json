@@ -35,7 +35,7 @@ version
 "
 130
 .
-3
+4
 .
 0
 "
@@ -815,6 +815,13 @@ svg
 shims
 /
 fastclick
+.
+js
+"
+"
+shims
+/
+figshare
 .
 js
 "

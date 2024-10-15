@@ -1687,6 +1687,13 @@ js
 "
 shims
 /
+figshare
+.
+js
+"
+"
+shims
+/
 firebase
 .
 js
