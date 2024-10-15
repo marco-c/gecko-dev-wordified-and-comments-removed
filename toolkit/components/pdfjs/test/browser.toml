@@ -379,6 +379,13 @@ headers
 ]
 [
 "
+browser_pdfjs_properties
+.
+js
+"
+]
+[
+"
 browser_pdfjs_saveas
 .
 js
