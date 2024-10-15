@@ -93,6 +93,7 @@ safety
 collections
 hashtables
 hashtables_detailed
+mozpromise
 sorting
 .
 md
