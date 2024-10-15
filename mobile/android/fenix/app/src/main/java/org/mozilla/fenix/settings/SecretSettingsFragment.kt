@@ -539,11 +539,7 @@ apply
 {
 isVisible
 =
-Config
-.
-channel
-.
-isNightlyOrDebug
+true
 isChecked
 =
 context
