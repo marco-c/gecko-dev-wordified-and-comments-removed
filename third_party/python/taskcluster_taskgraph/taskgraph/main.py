@@ -449,20 +449,15 @@ taskgraph
 =
 TaskGraph
 (
-            
 filteredtasks
 Graph
 (
-frozenset
+set
 (
 filteredtasks
 )
-frozenset
-(
 filterededges
 )
-)
-        
 )
     
 if
@@ -6044,12 +6039,9 @@ no_input
         
 output_dir
 =
-str
-(
 root
 .
 parent
-)
         
 overwrite_if_exists
 =

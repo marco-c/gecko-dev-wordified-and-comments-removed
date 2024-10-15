@@ -1857,10 +1857,6 @@ add
 behavior
 )
         
-start
-=
-0
-        
 errored
 =
 False
@@ -4348,10 +4344,6 @@ havewantedrev
 =
 False
     
-checkoutrevision
-=
-None
-    
 if
 revision
 :
@@ -4822,10 +4814,6 @@ purge
 )
 .
 purge
-        
-old_sparse_fn
-=
-None
         
 try
 :

@@ -183,14 +183,6 @@ retrigger
 decision
 "
     
-permission
-=
-"
-retrigger
--
-decision
-"
-    
 description
 =
 textwrap
@@ -399,6 +391,10 @@ symbol
 rt
 "
     
+generic
+=
+True
+    
 description
 =
 (
@@ -605,6 +601,10 @@ symbol
 "
 rt
 "
+    
+generic
+=
+True
     
 description
 =
@@ -1122,6 +1122,10 @@ name
 rerun
 "
     
+generic
+=
+True
+    
 symbol
 =
 "
@@ -1398,6 +1402,10 @@ symbol
 "
 rt
 "
+    
+generic
+=
+True
     
 description
 =

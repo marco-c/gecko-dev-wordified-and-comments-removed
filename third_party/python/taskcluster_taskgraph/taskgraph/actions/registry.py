@@ -69,7 +69,7 @@ order
 cb_name
 "
 "
-permission
+generic
 "
 "
 action_builder
@@ -271,11 +271,9 @@ schema
 =
 None
     
-permission
-=
-"
 generic
-"
+=
+True
     
 cb_name
 =
@@ -815,42 +813,22 @@ is
 taken
 .
         
-permission
-(
-str
-)
-:
-            
-This
-defaults
-to
 generic
-and
-needs
-to
-be
-set
-for
-actions
-that
+(
+bool
+)
             
-need
-additional
+Whether
+this
+is
+a
+generic
+action
+or
+has
+its
+own
 permissions
-.
-It
-appears
-in
-fxci
--
-config
-and
-various
-            
-role
-and
-hook
-names
 .
         
 cb_name
@@ -994,15 +972,6 @@ strip
     
 if
 not
-cb_name
-:
-        
-cb_name
-=
-name
-    
-if
-not
 callable
 (
 context
@@ -1024,6 +993,9 @@ def
 register_callback
 (
 cb
+cb_name
+=
+cb_name
 )
 :
         
@@ -1154,6 +1126,15 @@ as
 decorator
 "
         
+if
+not
+cb_name
+:
+            
+cb_name
+=
+name
+        
 assert
 cb_name
 not
@@ -1190,6 +1171,16 @@ parameters
                 
 return
 None
+            
+actionPerm
+=
+"
+generic
+"
+if
+generic
+else
+cb_name
             
 repository
 =
@@ -1479,7 +1470,7 @@ if
 /
 "
 in
-permission
+actionPerm
 :
                 
 raise
@@ -1536,7 +1527,7 @@ level
 }
 -
 {
-permission
+actionPerm
 }
 /
 {
@@ -1562,7 +1553,7 @@ level
 }
 -
 {
-permission
+actionPerm
 }
 /
 {
@@ -1700,7 +1691,7 @@ extra
 actionPerm
 "
 :
-permission
+actionPerm
                     
 }
                 
@@ -1719,7 +1710,7 @@ Action
 (
 order
 cb_name
-permission
+generic
 action_builder
 )
 )
@@ -2030,6 +2021,20 @@ callback
 "
 )
     
+actionPerm
+=
+"
+generic
+"
+if
+action
+.
+generic
+else
+action
+.
+cb_name
+    
 raw_url
 =
 parameters
@@ -2048,8 +2053,6 @@ raw_url
     
 action_scope
 =
-(
-        
 f
 "
 assume
@@ -2063,13 +2066,9 @@ taskcluster_role_prefix
 action
 :
 {
-action
-.
-permission
+actionPerm
 }
 "
-    
-)
     
 pr_action_scope
 =
@@ -2090,9 +2089,7 @@ pr
 action
 :
 {
-action
-.
-permission
+actionPerm
 }
 "
     

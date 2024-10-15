@@ -3154,9 +3154,6 @@ in
 task_ids
 :
         
-try
-:
-            
 task_def
 =
 get_task_definition
@@ -3164,30 +3161,6 @@ get_task_definition
 task_id
 use_proxy
 )
-        
-except
-requests
-.
-HTTPError
-as
-e
-:
-            
-if
-e
-.
-response
-.
-status_code
-=
-=
-404
-:
-                
-continue
-            
-raise
-e
         
 upstream_tasks
 [
@@ -3369,9 +3342,6 @@ in
 task_ids
 :
         
-try
-:
-            
 task_def
 =
 get_task_definition
@@ -3379,30 +3349,6 @@ get_task_definition
 task_id
 use_proxy
 )
-        
-except
-requests
-.
-HTTPError
-as
-e
-:
-            
-if
-e
-.
-response
-.
-status_code
-=
-=
-404
-:
-                
-continue
-            
-raise
-e
         
 upstream_tasks
 .
