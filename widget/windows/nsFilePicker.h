@@ -45,17 +45,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-GetFilesHelper
-.
-h
-"
-#
-include
-"
 nsIContentAnalysis
 .
 h
