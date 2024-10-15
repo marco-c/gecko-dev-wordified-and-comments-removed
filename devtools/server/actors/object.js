@@ -365,7 +365,6 @@ thread
 createValueGrip
 :
 createValueGripHook
-createEnvironmentActor
 getGripDepth
 incrementGripDepth
 decrementGripDepth
@@ -421,7 +420,6 @@ hooks
 createValueGrip
 :
 createValueGripHook
-createEnvironmentActor
 getGripDepth
 incrementGripDepth
 decrementGripDepth
