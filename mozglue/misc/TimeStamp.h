@@ -1620,6 +1620,11 @@ TimeStamp
 {
 public
 :
+using
+DurationType
+=
+TimeDuration
+;
 constexpr
 TimeStamp
 (
