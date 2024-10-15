@@ -4293,7 +4293,7 @@ dispatch
 (
 ContentAction
 .
-UpdateDesktopModeAction
+UpdateTabDesktopMode
 (
 tab
 .
@@ -4327,7 +4327,7 @@ dispatch
 (
 ContentAction
 .
-UpdateDesktopModeAction
+UpdateTabDesktopMode
 (
 tab
 .

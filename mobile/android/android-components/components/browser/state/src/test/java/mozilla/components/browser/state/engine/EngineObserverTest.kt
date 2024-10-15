@@ -5766,7 +5766,7 @@ assertFirstAction
 (
 ContentAction
 .
-UpdateDesktopModeAction
+UpdateTabDesktopMode
 :
 :
 class
@@ -5810,7 +5810,7 @@ assertLastAction
 (
 ContentAction
 .
-UpdateDesktopModeAction
+UpdateTabDesktopMode
 :
 :
 class

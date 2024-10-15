@@ -315,7 +315,7 @@ Protection
 Standard
 "
 )
-verifySitePermissionsButton
+verifySiteSettingsButton
 (
 )
 verifyDeleteBrowsingDataButton

@@ -5838,7 +5838,7 @@ settings
 .
 sitepermissions
 .
-SitePermissionsFragment
+SiteSettingsFragment
 "
 android
 :
@@ -5847,7 +5847,7 @@ label
 "
 string
 /
-preferences_site_permissions
+preferences_site_settings
 "
 >
 <

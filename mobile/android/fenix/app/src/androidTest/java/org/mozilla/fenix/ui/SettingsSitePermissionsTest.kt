@@ -454,9 +454,9 @@ openSettings
 {
 }
 .
-openSettingsSubMenuSitePermissions
+openSettingsSubMenuSiteSettings
 {
-verifySitePermissionsToolbarTitle
+verifySiteSettingsToolbarTitle
 (
 )
 verifyToolbarGoBackButton
@@ -635,7 +635,7 @@ openSettings
 {
 }
 .
-openSettingsSubMenuSitePermissions
+openSettingsSubMenuSiteSettings
 {
 }
 .
@@ -815,7 +815,7 @@ openSettings
 {
 }
 .
-openSettingsSubMenuSitePermissions
+openSettingsSubMenuSiteSettings
 {
 }
 .
@@ -1125,7 +1125,7 @@ openSettings
 {
 }
 .
-openSettingsSubMenuSitePermissions
+openSettingsSubMenuSiteSettings
 {
 }
 .
@@ -1287,7 +1287,7 @@ openSettings
 {
 }
 .
-openSettingsSubMenuSitePermissions
+openSettingsSubMenuSiteSettings
 {
 }
 .
@@ -1409,7 +1409,7 @@ openSettings
 {
 }
 .
-openSettingsSubMenuSitePermissions
+openSettingsSubMenuSiteSettings
 {
 }
 .
@@ -1561,7 +1561,7 @@ openSettings
 {
 }
 .
-openSettingsSubMenuSitePermissions
+openSettingsSubMenuSiteSettings
 {
 }
 .
@@ -1733,7 +1733,7 @@ openSettings
 {
 }
 .
-openSettingsSubMenuSitePermissions
+openSettingsSubMenuSiteSettings
 {
 }
 .
@@ -1842,7 +1842,7 @@ openSettings
 {
 }
 .
-openSettingsSubMenuSitePermissions
+openSettingsSubMenuSiteSettings
 {
 }
 .
@@ -1948,7 +1948,7 @@ openSettings
 {
 }
 .
-openSettingsSubMenuSitePermissions
+openSettingsSubMenuSiteSettings
 {
 }
 .
@@ -2055,7 +2055,7 @@ openSettings
 {
 }
 .
-openSettingsSubMenuSitePermissions
+openSettingsSubMenuSiteSettings
 {
 }
 .
@@ -2161,7 +2161,7 @@ openSettings
 {
 }
 .
-openSettingsSubMenuSitePermissions
+openSettingsSubMenuSiteSettings
 {
 }
 .
@@ -2265,7 +2265,7 @@ openSettings
 {
 }
 .
-openSettingsSubMenuSitePermissions
+openSettingsSubMenuSiteSettings
 {
 }
 .
@@ -2314,7 +2314,7 @@ openSettings
 {
 }
 .
-openSettingsSubMenuSitePermissions
+openSettingsSubMenuSiteSettings
 {
 }
 .
@@ -2430,7 +2430,7 @@ openSettings
 {
 }
 .
-openSettingsSubMenuSitePermissions
+openSettingsSubMenuSiteSettings
 {
 }
 .
@@ -2530,7 +2530,7 @@ openSettings
 {
 }
 .
-openSettingsSubMenuSitePermissions
+openSettingsSubMenuSiteSettings
 {
 }
 .
@@ -2634,7 +2634,7 @@ openSettings
 {
 }
 .
-openSettingsSubMenuSitePermissions
+openSettingsSubMenuSiteSettings
 {
 }
 .

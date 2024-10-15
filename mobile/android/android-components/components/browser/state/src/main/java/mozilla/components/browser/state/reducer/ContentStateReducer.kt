@@ -1678,7 +1678,7 @@ devices
 is
 ContentAction
 .
-UpdateDesktopModeAction
+UpdateTabDesktopMode
 -
 >
 updateContentState

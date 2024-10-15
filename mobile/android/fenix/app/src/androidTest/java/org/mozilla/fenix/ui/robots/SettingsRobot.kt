@@ -2275,7 +2275,7 @@ visible
 )
 }
 fun
-verifySitePermissionsButton
+verifySiteSettingsButton
 (
 )
 {
@@ -2283,7 +2283,7 @@ scrollToElementByText
 (
 "
 Site
-permissions
+settings
 "
 )
 Log
@@ -2292,7 +2292,7 @@ i
 (
 TAG
 "
-verifySitePermissionsButton
+verifySiteSettingsButton
 :
 Trying
 to
@@ -2316,7 +2316,7 @@ withText
 (
 "
 Site
-permissions
+settings
 "
 )
 )
@@ -2339,7 +2339,7 @@ i
 (
 TAG
 "
-verifySitePermissionsButton
+verifySiteSettingsButton
 :
 Verified
 that
@@ -6686,7 +6686,7 @@ Transition
 )
 }
 fun
-openSettingsSubMenuSitePermissions
+openSettingsSubMenuSiteSettings
 (
 interact
 :
@@ -6707,7 +6707,7 @@ scrollToElementByText
 (
 "
 Site
-permissions
+settings
 "
 )
 Log
@@ -6716,7 +6716,7 @@ i
 (
 TAG
 "
-openSettingsSubMenuSitePermissions
+openSettingsSubMenuSiteSettings
 :
 Trying
 to
@@ -6725,7 +6725,7 @@ the
 \
 "
 Site
-permissions
+settings
 \
 "
 button
@@ -6739,7 +6739,7 @@ textContains
 (
 "
 Site
-permissions
+settings
 "
 )
 )
@@ -6753,14 +6753,14 @@ i
 (
 TAG
 "
-openSettingsSubMenuSitePermissions
+openSettingsSubMenuSiteSettings
 :
 Clicked
 the
 \
 "
 Site
-permissions
+settings
 \
 "
 button

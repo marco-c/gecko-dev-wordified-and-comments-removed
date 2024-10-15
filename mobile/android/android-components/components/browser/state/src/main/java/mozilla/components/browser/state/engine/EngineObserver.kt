@@ -1468,7 +1468,7 @@ dispatch
 (
 ContentAction
 .
-UpdateDesktopModeAction
+UpdateTabDesktopMode
 (
 tabId
 enabled
