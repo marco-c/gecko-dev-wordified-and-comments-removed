@@ -573,6 +573,12 @@ return
 testingTier2Active_
 ;
 }
+bool
+canSerialize
+(
+)
+const
+;
 [
 [
 nodiscard
