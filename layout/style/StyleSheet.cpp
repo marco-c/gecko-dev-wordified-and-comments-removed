@@ -3837,6 +3837,7 @@ FetchPriority
 :
 :
 Auto
+nullptr
 )
 ;
 nsISerialEventTarget

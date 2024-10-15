@@ -68,6 +68,15 @@ include
 "
 mozilla
 /
+SharedSubResourceCache
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtr
 .
 h
@@ -1630,6 +1639,8 @@ SheetLoadData
 aLoadData
 )
 ;
+private
+:
 std
 :
 :
@@ -1640,6 +1651,10 @@ RefPtr
 StyleSheet
 >
 SheetState
+RefPtr
+<
+SubResourceNetworkMetadataHolder
+>
 >
 CreateSheet
 (
@@ -1714,6 +1729,10 @@ RefPtr
 StyleSheet
 >
 SheetState
+RefPtr
+<
+SubResourceNetworkMetadataHolder
+>
 >
 CreateSheet
 (
