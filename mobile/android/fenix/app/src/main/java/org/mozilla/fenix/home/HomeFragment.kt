@@ -3472,14 +3472,6 @@ updateSessionControlView
 disableAppBarDragging
 (
 )
-activity
-.
-themeManager
-.
-applyStatusBarTheme
-(
-activity
-)
 FxNimbus
 .
 features
