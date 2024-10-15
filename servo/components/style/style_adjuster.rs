@@ -2298,11 +2298,6 @@ insert
 Contain
 :
 :
-LAYOUT
-|
-Contain
-:
-:
 STYLE
 |
 Contain
@@ -2322,11 +2317,6 @@ new_contain
 .
 insert
 (
-Contain
-:
-:
-LAYOUT
-|
 Contain
 :
 :
