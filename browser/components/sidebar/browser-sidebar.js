@@ -4884,8 +4884,6 @@ toolbarButton
 return
 ;
 }
-this
-.
 toolbarButton
 .
 toggleAttribute
