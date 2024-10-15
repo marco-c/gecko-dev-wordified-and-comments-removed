@@ -524,7 +524,6 @@ file
 "
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -589,7 +588,6 @@ jumpToMappedSelectedLocation
 (
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -684,7 +682,6 @@ line
 "
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -822,12 +819,21 @@ js
 "
 )
 ;
-await
-scrollEditorIntoView
+getCM
 (
 dbg
+)
+.
+scrollIntoView
+(
+{
+line
+:
 103
+ch
+:
 0
+}
 )
 ;
 if
@@ -845,7 +851,6 @@ dbg
 }
 else
 {
-await
 assertPausedAtSourceAndLine
 (
 dbg

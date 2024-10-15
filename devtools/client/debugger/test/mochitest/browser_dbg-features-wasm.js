@@ -235,7 +235,6 @@ c
 "
 )
 ;
-await
 assertLineIsBreakable
 (
 dbg
@@ -363,7 +362,6 @@ waitForPausedInOriginalFileAndToggleMapScopes
 dbg
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -586,7 +584,6 @@ false
 }
 )
 ;
-await
 assertLineIsBreakable
 (
 dbg
@@ -618,7 +615,6 @@ waitForPaused
 dbg
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -667,7 +663,6 @@ waitForPausedInOriginalFileAndToggleMapScopes
 dbg
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg

@@ -125,7 +125,6 @@ getSelectedSource
 (
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg

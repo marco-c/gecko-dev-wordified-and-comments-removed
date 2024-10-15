@@ -57,7 +57,6 @@ html
 "
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -104,7 +103,6 @@ html
 "
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -138,7 +136,6 @@ waitForPaused
 dbg
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg

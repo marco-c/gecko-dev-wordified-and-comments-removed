@@ -171,7 +171,6 @@ html
 "
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg

@@ -337,7 +337,6 @@ js
 "
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg

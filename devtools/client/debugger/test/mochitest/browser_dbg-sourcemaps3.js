@@ -162,7 +162,6 @@ waitForPaused
 dbg
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg

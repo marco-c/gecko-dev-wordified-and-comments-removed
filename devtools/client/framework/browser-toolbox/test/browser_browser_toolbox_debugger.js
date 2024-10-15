@@ -467,7 +467,6 @@ dbg
 fileName
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -515,7 +514,6 @@ stepIn
 dbg
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -831,7 +829,6 @@ dbg
 fileName
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -886,7 +883,6 @@ stepIn
 dbg
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -1101,7 +1097,6 @@ dbg
 url
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg

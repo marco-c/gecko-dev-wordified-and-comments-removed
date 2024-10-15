@@ -345,7 +345,6 @@ waitForPaused
 dbg
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -367,7 +366,6 @@ waitForPaused
 dbg
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -389,7 +387,6 @@ waitForPaused
 dbg
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -517,7 +514,6 @@ waitForPaused
 dbg
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -733,7 +729,6 @@ statement
 "
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -1078,7 +1073,6 @@ correctly
 "
 )
 ;
-await
 assertIgnoredStyleInSourceLines
 (
 dbg
@@ -1331,7 +1325,6 @@ correctly
 "
 )
 ;
-await
 assertIgnoredStyleInSourceLines
 (
 dbg
@@ -1430,7 +1423,6 @@ waitForPaused
 dbg
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -1468,7 +1460,6 @@ waitForPaused
 dbg
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -1695,7 +1686,6 @@ correctly
 "
 )
 ;
-await
 assertIgnoredStyleInSourceLines
 (
 dbg
@@ -1798,7 +1788,6 @@ waitForPaused
 dbg
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -1961,7 +1950,6 @@ style
 "
 )
 ;
-await
 assertIgnoredStyleInSourceLines
 (
 dbg
@@ -2049,7 +2037,6 @@ waitForPaused
 dbg
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -2071,7 +2058,6 @@ waitForPaused
 dbg
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -2228,7 +2214,6 @@ correctly
 "
 )
 ;
-await
 assertIgnoredStyleInSourceLines
 (
 dbg
@@ -2298,7 +2283,6 @@ correctly
 "
 )
 ;
-await
 assertIgnoredStyleInSourceLines
 (
 dbg
@@ -2327,7 +2311,6 @@ waitForPaused
 dbg
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -2363,18 +2346,17 @@ funcA
 "
 )
 ;
-await
-selectEditorLinesAndOpenContextMenu
+selectEditorLines
 (
 dbg
-{
-startLine
-:
 2
-endLine
-:
 2
-}
+)
+;
+await
+openContextMenuInDebugger
+(
+dbg
 "
 CodeMirrorLines
 "
@@ -2473,7 +2455,6 @@ correctly
 "
 )
 ;
-await
 assertIgnoredStyleInSourceLines
 (
 dbg
@@ -2502,7 +2483,6 @@ waitForPaused
 dbg
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -2524,7 +2504,6 @@ waitForPaused
 dbg
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -3467,4 +3446,40 @@ popup
 )
 ;
 }
+}
+function
+selectEditorLines
+(
+dbg
+startLine
+endLine
+)
+{
+getCM
+(
+dbg
+)
+.
+setSelection
+(
+{
+line
+:
+startLine
+-
+1
+ch
+:
+0
+}
+{
+line
+:
+endLine
+ch
+:
+0
+}
+)
+;
 }

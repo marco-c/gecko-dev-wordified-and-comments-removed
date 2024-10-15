@@ -562,7 +562,6 @@ breakpoint
 "
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -621,7 +620,6 @@ breakpoint
 "
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg

@@ -2275,7 +2275,6 @@ sources
 0
 ]
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -2401,7 +2400,6 @@ sources
 0
 ]
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg

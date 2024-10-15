@@ -193,7 +193,6 @@ html
 "
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg

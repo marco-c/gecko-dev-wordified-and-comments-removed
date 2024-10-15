@@ -152,7 +152,6 @@ debugger
 "
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg

@@ -50,7 +50,6 @@ waitForPaused
 dbg
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -91,7 +90,6 @@ waitForPaused
 dbg
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -127,7 +125,6 @@ clickStepOver
 dbg
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -163,7 +160,6 @@ clickStepIn
 dbg
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -199,7 +195,6 @@ clickStepOver
 dbg
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -235,7 +230,6 @@ clickStepOut
 dbg
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -396,7 +390,6 @@ waitForPaused
 dbg
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg

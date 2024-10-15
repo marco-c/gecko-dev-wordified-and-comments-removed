@@ -215,8 +215,6 @@ findSource
 selectSource
 assertTextContentOnLine
 getEditorContent
-isCm6Enabled
-getCMEditor
 }
 )
 ;
