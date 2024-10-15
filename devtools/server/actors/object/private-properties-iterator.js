@@ -194,6 +194,7 @@ propertyDescriptor
 (
 objectActor
 symbol
+0
 )
 }
 ;

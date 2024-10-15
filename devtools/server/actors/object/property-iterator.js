@@ -214,6 +214,7 @@ iterator
 enumMapEntries
 (
 objectActor
+0
 )
 ;
 }
@@ -235,6 +236,7 @@ iterator
 enumWeakMapEntries
 (
 objectActor
+0
 )
 ;
 }
@@ -256,6 +258,7 @@ iterator
 enumSetEntries
 (
 objectActor
+0
 )
 ;
 }
@@ -277,6 +280,7 @@ iterator
 enumWeakSetEntries
 (
 objectActor
+0
 )
 ;
 }
@@ -298,6 +302,7 @@ iterator
 enumStorageEntries
 (
 objectActor
+0
 )
 ;
 }
@@ -319,6 +324,7 @@ iterator
 enumURLSearchParamsEntries
 (
 objectActor
+0
 )
 ;
 }
@@ -340,6 +346,7 @@ iterator
 enumHeadersEntries
 (
 objectActor
+0
 )
 ;
 }
@@ -361,6 +368,7 @@ iterator
 enumHighlightRegistryEntries
 (
 objectActor
+0
 )
 ;
 }
@@ -382,6 +390,7 @@ iterator
 enumFormDataEntries
 (
 objectActor
+0
 )
 ;
 }
@@ -403,6 +412,7 @@ iterator
 enumMidiInputMapEntries
 (
 objectActor
+0
 )
 ;
 }
@@ -424,6 +434,7 @@ iterator
 enumMidiOutputMapEntries
 (
 objectActor
+0
 )
 ;
 }
@@ -445,6 +456,7 @@ iterator
 enumCustomStateSetEntries
 (
 objectActor
+0
 )
 ;
 }
@@ -501,6 +513,7 @@ enumArrayProperties
 (
 objectActor
 options
+0
 )
 ;
 }
@@ -514,6 +527,7 @@ enumObjectProperties
 (
 objectActor
 options
+0
 )
 ;
 }
@@ -722,11 +736,9 @@ obj
 function
 gripFromEntry
 (
-{
-obj
-hooks
-}
+objectActor
 entry
+depth
 )
 {
 entry
@@ -737,7 +749,7 @@ entry
 )
 ;
 return
-hooks
+objectActor
 .
 createValueGrip
 (
@@ -745,9 +757,12 @@ ObjectUtils
 .
 makeDebuggeeValueIfNeeded
 (
+objectActor
+.
 obj
 entry
 )
+depth
 )
 ;
 }
@@ -756,6 +771,7 @@ enumArrayProperties
 (
 objectActor
 options
+depth
 )
 {
 return
@@ -789,6 +805,7 @@ propertyDescriptor
 (
 objectActor
 index
+depth
 )
 ;
 }
@@ -800,6 +817,7 @@ enumObjectProperties
 (
 objectActor
 options
+depth
 )
 {
 let
@@ -1009,6 +1027,7 @@ objectActor
 _findSafeGetterValues
 (
 names
+depth
 )
 ;
 const
@@ -1207,6 +1226,7 @@ propertyDescriptor
 (
 objectActor
 name
+depth
 )
 ;
 if
@@ -1359,6 +1379,7 @@ function
 enumMapEntries
 (
 objectActor
+depth
 )
 {
 const
@@ -1408,6 +1429,7 @@ gripFromEntry
 (
 objectActor
 val
+depth
 )
 )
 ;
@@ -1465,6 +1487,7 @@ gripFromEntry
 (
 objectActor
 key
+depth
 )
 value
 :
@@ -1472,6 +1495,7 @@ gripFromEntry
 (
 objectActor
 val
+depth
 )
 }
 }
@@ -1485,6 +1509,7 @@ function
 enumStorageEntries
 (
 objectActor
+depth
 )
 {
 const
@@ -1577,6 +1602,7 @@ gripFromEntry
 (
 objectActor
 val
+depth
 )
 )
 ;
@@ -1641,6 +1667,7 @@ gripFromEntry
 (
 objectActor
 key
+depth
 )
 value
 :
@@ -1648,6 +1675,7 @@ gripFromEntry
 (
 objectActor
 val
+depth
 )
 }
 }
@@ -1661,6 +1689,7 @@ function
 enumURLSearchParamsEntries
 (
 objectActor
+depth
 )
 {
 const
@@ -1771,6 +1800,7 @@ gripFromEntry
 (
 objectActor
 key
+depth
 )
 value
 :
@@ -1778,6 +1808,7 @@ gripFromEntry
 (
 objectActor
 value
+depth
 )
 }
 }
@@ -1791,6 +1822,7 @@ function
 enumFormDataEntries
 (
 objectActor
+depth
 )
 {
 const
@@ -1901,6 +1933,7 @@ gripFromEntry
 (
 objectActor
 key
+depth
 )
 value
 :
@@ -1908,6 +1941,7 @@ gripFromEntry
 (
 objectActor
 value
+depth
 )
 }
 }
@@ -1921,6 +1955,7 @@ function
 enumHeadersEntries
 (
 objectActor
+depth
 )
 {
 const
@@ -2021,6 +2056,7 @@ index
 [
 1
 ]
+depth
 )
 }
 ;
@@ -2032,6 +2068,7 @@ function
 enumHighlightRegistryEntries
 (
 objectActor
+depth
 )
 {
 const
@@ -2121,6 +2158,7 @@ gripFromEntry
 (
 objectActor
 value
+depth
 )
 ]
 ;
@@ -2181,6 +2219,7 @@ gripFromEntry
 (
 objectActor
 value
+depth
 )
 }
 }
@@ -2194,6 +2233,7 @@ function
 enumMidiInputMapEntries
 (
 objectActor
+depth
 )
 {
 const
@@ -2254,6 +2294,7 @@ gripFromEntry
 (
 objectActor
 value
+depth
 )
 ]
 ;
@@ -2301,6 +2342,7 @@ index
 [
 1
 ]
+depth
 )
 }
 ;
@@ -2312,6 +2354,7 @@ function
 enumMidiOutputMapEntries
 (
 objectActor
+depth
 )
 {
 const
@@ -2372,6 +2415,7 @@ gripFromEntry
 (
 objectActor
 value
+depth
 )
 ]
 ;
@@ -2419,6 +2463,7 @@ index
 [
 1
 ]
+depth
 )
 }
 ;
@@ -2474,6 +2519,7 @@ function
 enumWeakMapEntries
 (
 objectActor
+depth
 )
 {
 const
@@ -2532,6 +2578,7 @@ gripFromEntry
 (
 objectActor
 val
+depth
 )
 )
 ;
@@ -2589,6 +2636,7 @@ gripFromEntry
 (
 objectActor
 key
+depth
 )
 value
 :
@@ -2596,6 +2644,7 @@ gripFromEntry
 (
 objectActor
 val
+depth
 )
 }
 }
@@ -2655,6 +2704,7 @@ function
 enumSetEntries
 (
 objectActor
+depth
 )
 {
 const
@@ -2707,6 +2757,7 @@ gripFromEntry
 (
 objectActor
 item
+depth
 )
 ;
 }
@@ -2749,6 +2800,7 @@ gripFromEntry
 (
 objectActor
 val
+depth
 )
 }
 ;
@@ -2778,6 +2830,7 @@ function
 enumWeakSetEntries
 (
 objectActor
+depth
 )
 {
 const
@@ -2816,6 +2869,7 @@ gripFromEntry
 (
 objectActor
 item
+depth
 )
 ;
 }
@@ -2858,6 +2912,7 @@ gripFromEntry
 (
 objectActor
 val
+depth
 )
 }
 ;
@@ -2869,6 +2924,7 @@ function
 enumCustomStateSetEntries
 (
 objectActor
+depth
 )
 {
 let
@@ -2929,6 +2985,7 @@ gripFromEntry
 (
 objectActor
 item
+depth
 )
 ;
 }
@@ -2971,6 +3028,7 @@ gripFromEntry
 (
 objectActor
 val
+depth
 )
 }
 ;
