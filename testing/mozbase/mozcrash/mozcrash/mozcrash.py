@@ -24,6 +24,12 @@ from
 collections
 import
 namedtuple
+from
+urllib
+.
+request
+import
+urlopen
 import
 mozfile
 import
@@ -1746,14 +1752,6 @@ symbols_path
             
 data
 =
-six
-.
-moves
-.
-urllib
-.
-request
-.
 urlopen
 (
 self

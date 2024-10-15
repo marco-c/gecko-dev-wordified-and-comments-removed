@@ -21,11 +21,17 @@ textwrap
 import
 dedent
 from
-six
-.
-moves
-import
 urllib
+.
+parse
+import
+urlparse
+from
+urllib
+.
+request
+import
+urlopen
 __all__
 =
 [
@@ -3641,10 +3647,6 @@ URL
     
 parsed
 =
-urllib
-.
-parse
-.
 urlparse
 (
 thing
@@ -3786,10 +3788,6 @@ resource
 )
     
 return
-urllib
-.
-request
-.
 urlopen
 (
 resource

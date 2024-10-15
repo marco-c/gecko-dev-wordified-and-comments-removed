@@ -2,10 +2,6 @@ import
 json
 import
 socket
-from
-six
-.
-moves
 import
 socketserver
 class
