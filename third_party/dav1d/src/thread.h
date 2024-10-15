@@ -471,7 +471,7 @@ h
 #
 endif
 #
-ifdef
+if
 HAVE_PTHREAD_NP_H
 #
 include
@@ -527,10 +527,7 @@ name
 }
 #
 elif
-defined
-(
 HAVE_PTHREAD_SETNAME_NP
-)
 &
 &
 defined
@@ -557,10 +554,7 @@ name
 }
 #
 elif
-defined
-(
 HAVE_PTHREAD_SETNAME_NP
-)
 &
 &
 defined
@@ -598,10 +592,7 @@ name
 }
 #
 elif
-defined
-(
 HAVE_PTHREAD_SETNAME_NP
-)
 static
 inline
 void
@@ -625,10 +616,7 @@ name
 }
 #
 elif
-defined
-(
 HAVE_PTHREAD_SET_NAME_NP
-)
 static
 inline
 void

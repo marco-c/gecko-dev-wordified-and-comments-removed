@@ -23,10 +23,7 @@ _WIN32
 )
 |
 |
-defined
-(
 HAVE_MEMALIGN
-)
 #
 include
 <
@@ -203,10 +200,7 @@ align
 ;
 #
 elif
-defined
-(
 HAVE_POSIX_MEMALIGN
-)
 void
 *
 ptr
@@ -229,10 +223,7 @@ ptr
 ;
 #
 elif
-defined
-(
 HAVE_MEMALIGN
-)
 return
 memalign
 (
@@ -242,10 +233,7 @@ sz
 ;
 #
 elif
-defined
-(
 HAVE_ALIGNED_ALLOC
-)
 return
 aligned_alloc
 (

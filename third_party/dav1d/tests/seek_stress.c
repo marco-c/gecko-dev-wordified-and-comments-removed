@@ -185,10 +185,7 @@ mach_absolute_time
 ;
 #
 elif
-defined
-(
 HAVE_CLOCK_GETTIME
-)
 struct
 timespec
 ts

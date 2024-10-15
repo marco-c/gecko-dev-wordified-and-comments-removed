@@ -2568,7 +2568,6 @@ ptrdiff_t
 stridea
 b32x4
 apply
-HIGHBD_DECL_SUFFIX
 )
 {
 dst
@@ -3069,7 +3068,6 @@ b32x4
 apply
 b32x4
 m6
-HIGHBD_DECL_SUFFIX
 )
 {
 uint8_t
@@ -3925,7 +3923,6 @@ b32x4
 apply
 b32x4
 m8
-HIGHBD_DECL_SUFFIX
 )
 {
 uint8_t
@@ -4703,7 +4700,6 @@ b32x4
 m8
 b32x4
 m16
-HIGHBD_DECL_SUFFIX
 )
 {
 uint8_t
@@ -5943,7 +5939,6 @@ ptrdiff_t
 strideb
 b32x4
 apply
-HIGHBD_DECL_SUFFIX
 )
 {
 uint8_t
@@ -6245,7 +6240,6 @@ b32x4
 apply
 b32x4
 m6
-HIGHBD_DECL_SUFFIX
 )
 {
 uint8_t
@@ -6927,7 +6921,6 @@ b32x4
 apply
 b32x4
 m8
-HIGHBD_DECL_SUFFIX
 )
 {
 uint8_t
@@ -7625,7 +7618,6 @@ b32x4
 m8
 b32x4
 m16
-HIGHBD_DECL_SUFFIX
 )
 {
 uint8_t
@@ -8722,7 +8714,6 @@ lut
 const
 int
 h
-HIGHBD_DECL_SUFFIX
 )
 {
 unsigned
@@ -9310,7 +9301,6 @@ stride
 apply
 m8
 m16
-HIGHBD_TAIL_SUFFIX
 )
 ;
 }
@@ -9336,7 +9326,6 @@ stride
 )
 apply
 m8
-HIGHBD_TAIL_SUFFIX
 )
 ;
 }
@@ -9353,7 +9342,6 @@ PXSTRIDE
 stride
 )
 apply
-HIGHBD_TAIL_SUFFIX
 )
 ;
 }
@@ -9394,7 +9382,6 @@ lut
 const
 int
 w
-HIGHBD_DECL_SUFFIX
 )
 {
 unsigned
@@ -9894,7 +9881,6 @@ stride
 apply
 m8
 m16
-HIGHBD_TAIL_SUFFIX
 )
 ;
 }
@@ -9920,7 +9906,6 @@ stride
 )
 apply
 m8
-HIGHBD_TAIL_SUFFIX
 )
 ;
 }
@@ -9937,7 +9922,6 @@ PXSTRIDE
 stride
 )
 apply
-HIGHBD_TAIL_SUFFIX
 )
 ;
 }
@@ -9978,7 +9962,6 @@ lut
 const
 int
 h
-HIGHBD_DECL_SUFFIX
 )
 {
 unsigned
@@ -10518,7 +10501,6 @@ stride
 )
 apply
 m6
-HIGHBD_TAIL_SUFFIX
 )
 ;
 }
@@ -10535,7 +10517,6 @@ PXSTRIDE
 stride
 )
 apply
-HIGHBD_TAIL_SUFFIX
 )
 ;
 }
@@ -10576,7 +10557,6 @@ lut
 const
 int
 w
-HIGHBD_DECL_SUFFIX
 )
 {
 unsigned
@@ -11028,7 +11008,6 @@ stride
 )
 apply
 m6
-HIGHBD_TAIL_SUFFIX
 )
 ;
 }
@@ -11045,7 +11024,6 @@ PXSTRIDE
 stride
 )
 apply
-HIGHBD_TAIL_SUFFIX
 )
 ;
 }

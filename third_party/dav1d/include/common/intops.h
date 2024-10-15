@@ -223,7 +223,7 @@ v
 {
 return
 31
--
+^
 clz
 (
 v
@@ -242,7 +242,7 @@ v
 {
 return
 63
--
+^
 clzll
 (
 v

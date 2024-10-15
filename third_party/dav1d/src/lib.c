@@ -34,10 +34,7 @@ __linux__
 )
 &
 &
-defined
-(
 HAVE_DLSYM
-)
 #
 include
 <
@@ -394,10 +391,7 @@ __linux__
 )
 &
 &
-defined
-(
 HAVE_DLSYM
-)
 &
 &
 defined

@@ -36,16 +36,10 @@ h
 "
 #
 if
-defined
-(
 HAVE_GETAUXVAL
-)
 |
 |
-defined
-(
 HAVE_ELF_AUX_INFO
-)
 #
 include
 <
@@ -102,7 +96,7 @@ void
 )
 {
 #
-ifdef
+if
 HAVE_GETAUXVAL
 unsigned
 long
@@ -265,7 +259,7 @@ void
 )
 {
 #
-ifdef
+if
 HAVE_GETAUXVAL
 unsigned
 long
