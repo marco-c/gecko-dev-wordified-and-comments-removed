@@ -390,6 +390,10 @@ CloseAllResolver
 aResolver
 )
 {
+mCloseAllReceived
+=
+true
+;
 nsTArray
 <
 RefPtr

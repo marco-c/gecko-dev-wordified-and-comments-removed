@@ -349,7 +349,11 @@ Assert
 strictEqual
 (
 e
-undefined
+.
+name
+"
+AbortError
+"
 "
 Threw
 right
