@@ -138,10 +138,7 @@ prompt
 [
 Exposed
 =
-(
 Window
-Worker
-)
 ]
 interface
 PermissionStatus
