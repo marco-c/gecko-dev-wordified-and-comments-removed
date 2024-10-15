@@ -1360,11 +1360,6 @@ entry
 "
 typed
 "
-restrictType
-:
-"
-symbol
-"
 }
 )
 ;

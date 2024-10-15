@@ -1217,11 +1217,6 @@ entry
 "
 typed
 "
-restrictType
-:
-"
-symbol
-"
 }
 )
 ;
@@ -1283,11 +1278,6 @@ entry
 :
 "
 typed
-"
-restrictType
-:
-"
-symbol
 "
 }
 )
