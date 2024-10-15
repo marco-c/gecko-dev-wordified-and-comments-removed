@@ -1040,6 +1040,16 @@ return
 false
 ;
 }
+virtual
+bool
+IsXPCSandbox
+(
+)
+{
+return
+false
+;
+}
 protected
 :
 virtual
