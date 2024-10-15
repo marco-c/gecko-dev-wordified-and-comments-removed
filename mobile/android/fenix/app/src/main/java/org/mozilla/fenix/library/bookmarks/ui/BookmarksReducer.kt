@@ -877,6 +877,7 @@ OpenTabsConfirmationDialog
 None
 )
 FirstSyncCompleted
+ViewDisposed
 SelectFolderAction
 .
 ViewAppeared

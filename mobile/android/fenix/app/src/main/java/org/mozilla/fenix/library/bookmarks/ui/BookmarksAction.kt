@@ -151,6 +151,12 @@ Folder
 )
 :
 BookmarksAction
+internal
+data
+object
+ViewDisposed
+:
+BookmarksAction
 /
 *
 *

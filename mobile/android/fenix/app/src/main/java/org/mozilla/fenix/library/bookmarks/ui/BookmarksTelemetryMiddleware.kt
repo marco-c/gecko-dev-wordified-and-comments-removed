@@ -782,6 +782,7 @@ InitEditLoaded
 is
 ReceivedSyncSignInUpdate
 FirstSyncCompleted
+ViewDisposed
 -
 >
 Unit
