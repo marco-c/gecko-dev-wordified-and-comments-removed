@@ -482,6 +482,13 @@ this
 props
 .
 received_rank
+is_list_card
+:
+this
+.
+props
+.
+is_list_card
 }
 }
 /

@@ -736,6 +736,9 @@ position
 is_pocket_card
 :
 false
+is_list_card
+:
+undefined
 }
 )
 )

@@ -7092,6 +7092,11 @@ id
 datum
 .
 tile_id
+is_list_card
+:
+datum
+.
+is_list_card
 .
 .
 .
@@ -7389,6 +7394,11 @@ selected_topics
 tile
 .
 selectedTopics
+is_list_card
+:
+tile
+.
+is_list_card
 .
 .
 .

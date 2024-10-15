@@ -904,6 +904,11 @@ type
 "
 CardGrid
 "
+is_list_card
+:
+site
+.
+is_list_card
 }
 )
 )
