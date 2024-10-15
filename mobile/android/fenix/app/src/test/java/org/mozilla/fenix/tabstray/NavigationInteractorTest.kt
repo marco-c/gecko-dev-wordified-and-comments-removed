@@ -293,6 +293,14 @@ RunWith
 import
 org
 .
+mockito
+.
+ArgumentMatchers
+.
+anyString
+import
+org
+.
 mozilla
 .
 fenix
@@ -913,7 +921,7 @@ state
 .
 findTab
 (
-any
+anyString
 (
 )
 )

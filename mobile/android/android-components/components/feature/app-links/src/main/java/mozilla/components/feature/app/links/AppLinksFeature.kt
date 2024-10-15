@@ -803,6 +803,9 @@ addUserDoNotIntercept
 (
 url
 appIntent
+tab
+.
+id
 )
 loadUrlIfSchemeSupported
 (

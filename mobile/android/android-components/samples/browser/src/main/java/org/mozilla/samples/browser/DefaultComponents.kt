@@ -1667,6 +1667,12 @@ PREF_LAUNCH_EXTERNAL_APP
 false
 )
 }
+launchFromInterceptor
+=
+true
+store
+=
+store
 )
 }
 val
