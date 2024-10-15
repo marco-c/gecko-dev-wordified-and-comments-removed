@@ -1064,11 +1064,14 @@ signal
 SIGINT
 :
                         
-sig
-=
+getattr
+(
 signal
-.
+"
 SIGKILL
+"
+sig
+)
         
 if
 ensure_exit_code
