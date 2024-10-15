@@ -761,10 +761,6 @@ u8
 ]
 }
 impl
-<
-'
-a
->
 :
 :
 std
@@ -778,7 +774,7 @@ for
 ConnectionIdRef
 <
 '
-a
+_
 >
 {
 fn
@@ -831,10 +827,6 @@ cid
 }
 }
 impl
-<
-'
-a
->
 :
 :
 std
@@ -848,7 +840,7 @@ for
 ConnectionIdRef
 <
 '
-a
+_
 >
 {
 fn
@@ -956,10 +948,6 @@ as_ref
 }
 }
 impl
-<
-'
-a
->
 std
 :
 :
@@ -971,7 +959,7 @@ for
 ConnectionIdRef
 <
 '
-a
+_
 >
 {
 type
@@ -1001,10 +989,6 @@ cid
 }
 }
 impl
-<
-'
-a
->
 PartialEq
 <
 ConnectionId
@@ -1013,7 +997,7 @@ for
 ConnectionIdRef
 <
 '
-a
+_
 >
 {
 fn

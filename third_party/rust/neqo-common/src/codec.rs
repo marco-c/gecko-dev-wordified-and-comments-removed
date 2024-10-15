@@ -897,16 +897,12 @@ offset
 }
 }
 impl
-<
-'
-a
->
 Debug
 for
 Decoder
 <
 '
-a
+_
 >
 {
 fn
@@ -1065,8 +1061,6 @@ as_ref
 impl
 <
 '
-a
-'
 b
 >
 PartialEq
@@ -1081,7 +1075,7 @@ for
 Decoder
 <
 '
-a
+_
 >
 {
 #

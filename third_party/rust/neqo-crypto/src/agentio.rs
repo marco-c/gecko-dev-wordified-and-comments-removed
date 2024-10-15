@@ -798,16 +798,12 @@ mut
 AgentIoInput
 }
 impl
-<
-'
-a
->
 Drop
 for
 AgentIoInputContext
 <
 '
-a
+_
 >
 {
 fn

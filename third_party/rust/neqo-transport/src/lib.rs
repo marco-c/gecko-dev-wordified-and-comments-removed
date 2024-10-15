@@ -409,6 +409,7 @@ CryptoSpace
 KeyUpdateBlocked
 NoAvailablePath
 NoMoreData
+NotAvailable
 NotConnected
 PacketNumberOverlap
 PeerApplicationError
@@ -426,7 +427,6 @@ UnknownConnectionId
 UnknownFrameType
 VersionNegotiation
 WrongRole
-NotAvailable
 }
 impl
 Error

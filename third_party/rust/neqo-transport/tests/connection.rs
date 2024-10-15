@@ -1007,9 +1007,9 @@ set_payload
 (
 server_packet
 :
-&
 Option
 <
+&
 Datagram
 >
 client_dcid
@@ -1381,8 +1381,11 @@ modified
 =
 set_payload
 (
-&
 server_packet
+.
+as_ref
+(
+)
 client_dcid
 &
 [
@@ -1542,8 +1545,11 @@ modified
 =
 set_payload
 (
-&
 server_packet
+.
+as_ref
+(
+)
 client_dcid
 &
 [
