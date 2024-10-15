@@ -318,7 +318,8 @@ awjcf
 .
 emplace
 (
-code
+result
+bytesNeeded
 )
 ;
 if
