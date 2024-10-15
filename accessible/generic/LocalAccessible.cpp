@@ -19577,6 +19577,10 @@ Bounds
 |
 |
 !
+mBounds
+|
+|
+!
 newBoundsRect
 .
 IsEqualEdges
