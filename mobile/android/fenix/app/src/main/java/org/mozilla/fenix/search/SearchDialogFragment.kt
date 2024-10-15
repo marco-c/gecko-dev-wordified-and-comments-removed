@@ -5167,7 +5167,7 @@ R
 .
 string
 .
-search_scan_button
+search_scan_button_2
 )
 autoHide
 =
