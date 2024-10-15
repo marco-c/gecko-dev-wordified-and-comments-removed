@@ -198,10 +198,6 @@ nsresult
 InitializeAudioStream
 (
 const
-PlaybackParams
-&
-aParams
-const
 RefPtr
 <
 AudioDeviceInfo
@@ -221,6 +217,10 @@ EndedPromise
 >
 Start
 (
+const
+PlaybackParams
+&
+aParams
 const
 media
 :
