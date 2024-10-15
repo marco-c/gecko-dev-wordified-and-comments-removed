@@ -7981,6 +7981,9 @@ isToolbarDynamic
 (
 context
 )
+&
+&
+webAppToolbarShouldBeVisible
 )
 {
 getEngineView
