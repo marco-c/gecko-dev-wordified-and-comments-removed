@@ -35,15 +35,6 @@ h
 #
 include
 "
-base
-/
-compiler_specific
-.
-h
-"
-#
-include
-"
 DisplayItemClip
 .
 h
