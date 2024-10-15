@@ -2239,6 +2239,7 @@ userTypedValue
 state
 .
 persist
+?
 .
 searchTerms
 ?
