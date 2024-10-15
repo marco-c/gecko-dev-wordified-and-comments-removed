@@ -698,7 +698,7 @@ EnumSet
 <
 TemporalField
 >
-CalendarFields
+CalendarFieldDescriptors
 (
 const
 CalendarValue
@@ -711,7 +711,7 @@ EnumSet
 <
 CalendarField
 >
-fieldNames
+type
 )
 ;
 PlainObject
