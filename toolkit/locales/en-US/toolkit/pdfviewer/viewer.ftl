@@ -2134,10 +2134,7 @@ match
 count
 =
 {
-NUMBER
-(
 total
-)
 -
 >
 [
@@ -2189,10 +2186,7 @@ count
 limit
 =
 {
-NUMBER
-(
 limit
-)
 -
 >
 [
