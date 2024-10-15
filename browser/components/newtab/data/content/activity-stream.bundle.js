@@ -15524,16 +15524,12 @@ doesLinkTopicMatchSelectedTopic
 {
 if
 (
+!
 this
 .
 props
 .
 selectedTopics
-=
-=
-=
-"
-"
 )
 {
 return
