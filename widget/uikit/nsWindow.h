@@ -6,6 +6,15 @@ define
 NSWINDOW_H_
 #
 include
+<
+CoreFoundation
+/
+CoreFoundation
+.
+h
+>
+#
+include
 "
 nsBaseWidget
 .
