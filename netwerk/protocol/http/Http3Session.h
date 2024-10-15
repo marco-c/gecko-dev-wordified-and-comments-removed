@@ -993,6 +993,12 @@ HttpConnectionUDP
 >
 mUdpConn
 ;
+RefPtr
+<
+nsISocketTransport
+>
+mSocketTransport
+;
 nsCOMPtr
 <
 nsITimer
