@@ -257,6 +257,7 @@ wantsSubmitCrashReport
 companion
 object
 {
+const
 val
 FRAGMENT_TAG
 =

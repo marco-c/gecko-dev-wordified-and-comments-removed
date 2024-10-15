@@ -819,10 +819,8 @@ if
 (
 !
 isTaskRoot
-)
-{
-if
-(
+&
+&
 intent
 .
 hasCategory
@@ -847,7 +845,6 @@ finish
 (
 )
 return
-}
 }
 Suppress
 (

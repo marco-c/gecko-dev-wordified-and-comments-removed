@@ -200,11 +200,8 @@ util
 concurrent
 .
 TimeUnit
-class
-AppReviewUtils
-{
-companion
 object
+AppReviewUtils
 {
 /
 *
@@ -878,6 +875,5 @@ currentTimeMillis
 apply
 (
 )
-}
 }
 }

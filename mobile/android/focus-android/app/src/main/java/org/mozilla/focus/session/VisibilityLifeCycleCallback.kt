@@ -128,10 +128,6 @@ focus
 appreview
 .
 AppReviewUtils
-.
-Companion
-.
-addAppOpenings
 /
 *
 *
@@ -348,6 +344,8 @@ appInForeground
 appInForeground
 =
 true
+AppReviewUtils
+.
 addAppOpenings
 (
 context

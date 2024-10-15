@@ -732,6 +732,7 @@ companion
 object
 {
 private
+const
 val
 SUPER_STATE_KEY
 =
@@ -741,6 +742,7 @@ super
 state
 "
 private
+const
 val
 SEARCH_ENGINE_NAME_KEY
 =
@@ -752,6 +754,7 @@ engine
 name
 "
 private
+const
 val
 SEARCH_QUERY_KEY
 =

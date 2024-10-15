@@ -148,18 +148,17 @@ mozilla
 focus
 .
 R
-class
+object
 IconGenerator
 {
-companion
-object
-{
 private
+const
 val
 TEXT_SIZE_DP
 =
 36f
 private
+const
 val
 DEFAULT_ICON_CHAR
 =
@@ -284,6 +283,7 @@ character
 )
 }
 /
+*
 *
 *
 This
@@ -905,6 +905,5 @@ snippet
 stripCommonSubdomains
 (
 )
-}
 }
 }
