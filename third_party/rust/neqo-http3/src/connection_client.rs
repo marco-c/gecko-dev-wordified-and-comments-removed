@@ -12402,6 +12402,8 @@ callback
 (
 )
 idle_timeout
+/
+2
 )
 ;
 }
@@ -26030,6 +26032,8 @@ callback
 (
 )
 idle_timeout
+/
+2
 )
 ;
 }

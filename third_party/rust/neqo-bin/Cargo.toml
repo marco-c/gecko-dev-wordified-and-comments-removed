@@ -127,7 +127,7 @@ version
 .
 9
 .
-0
+1
 "
 authors
 =
@@ -738,9 +738,6 @@ version
 features
 =
 [
-"
-html_reports
-"
 "
 async_tokio
 "

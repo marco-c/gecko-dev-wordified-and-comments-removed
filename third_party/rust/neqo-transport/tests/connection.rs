@@ -2157,7 +2157,7 @@ buffer
 test
 ]
 fn
-handshake_xyber
+handshake_mlkem768x25519
 (
 )
 {
@@ -2186,7 +2186,7 @@ set_groups
 neqo_crypto
 :
 :
-TLS_GRP_KEM_XYBER768D00
+TLS_GRP_KEM_MLKEM768X25519
 ]
 )
 .
@@ -2267,7 +2267,7 @@ key_exchange
 neqo_crypto
 :
 :
-TLS_GRP_KEM_XYBER768D00
+TLS_GRP_KEM_MLKEM768X25519
 )
 ;
 assert_eq
@@ -2289,7 +2289,7 @@ key_exchange
 neqo_crypto
 :
 :
-TLS_GRP_KEM_XYBER768D00
+TLS_GRP_KEM_MLKEM768X25519
 )
 ;
 }
