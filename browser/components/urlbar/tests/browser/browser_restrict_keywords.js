@@ -348,6 +348,11 @@ entry
 "
 keywordoffer
 "
+restrictType
+:
+"
+keyword
+"
 }
 )
 ;
@@ -430,6 +435,11 @@ UrlbarTokenizer
 RESTRICT
 .
 OPENPAGE
+UrlbarTokenizer
+.
+RESTRICT
+.
+ACTION
 ]
 ;
 for

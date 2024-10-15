@@ -1107,6 +1107,11 @@ entry
 "
 typed
 "
+restrictType
+:
+"
+symbol
+"
 }
 )
 ;
