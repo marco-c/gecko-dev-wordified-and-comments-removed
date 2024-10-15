@@ -63,6 +63,13 @@ js
 ]
 [
 "
+test_databaseWorkStarted
+.
+js
+"
+]
+[
+"
 test_empty_directories
 .
 js
