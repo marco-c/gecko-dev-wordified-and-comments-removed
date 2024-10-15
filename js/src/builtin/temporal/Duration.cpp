@@ -11312,10 +11312,14 @@ untilResult
 if
 (
 !
-DifferenceDate
+CalendarDateUntil
 (
 cx
 calendar
+.
+receiver
+(
+)
 weeksStart
 weeksEnd
 TemporalUnit
