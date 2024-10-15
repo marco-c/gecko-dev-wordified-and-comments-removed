@@ -41,7 +41,7 @@ modes
 :
 {
 "
-button
+active
 "
 :
 {
@@ -52,7 +52,7 @@ supports_use_other_account
 true
 }
 "
-widget
+passive
 "
 :
 {
