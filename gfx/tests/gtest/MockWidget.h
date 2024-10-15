@@ -247,8 +247,6 @@ Create
 nsIWidget
 *
 aParent
-nsNativeWidget
-aNativeParent
 const
 LayoutDeviceIntRect
 &
@@ -272,8 +270,6 @@ Create
 nsIWidget
 *
 aParent
-nsNativeWidget
-aNativeParent
 const
 DesktopIntRect
 &

@@ -99,9 +99,6 @@ void
 initWindow
 (
 in
-nativeWindow
-parentNativeWindow
-in
 nsIWidget
 parentWidget
 in
@@ -419,13 +416,6 @@ noscript
 attribute
 nsIWidget
 parentWidget
-;
-[
-noscript
-]
-attribute
-nativeWindow
-parentNativeWindow
 ;
 readonly
 attribute

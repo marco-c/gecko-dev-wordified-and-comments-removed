@@ -650,6 +650,10 @@ nsBaseWidget
 {
 private
 :
+friend
+class
+nsChildView
+;
 typedef
 nsBaseWidget
 Inherited
@@ -671,8 +675,6 @@ Create
 nsIWidget
 *
 aParent
-nsNativeWidget
-aNativeParent
 const
 DesktopIntRect
 &
@@ -695,8 +697,6 @@ Create
 nsIWidget
 *
 aParent
-nsNativeWidget
-aNativeParent
 const
 LayoutDeviceIntRect
 &

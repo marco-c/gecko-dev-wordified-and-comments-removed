@@ -2247,7 +2247,6 @@ mPuppetWidget
 InfallibleCreate
 (
 nullptr
-nullptr
 LayoutDeviceIntRect
 (
 0

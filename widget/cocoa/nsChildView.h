@@ -850,8 +850,6 @@ Create
 nsIWidget
 *
 aParent
-nsNativeWidget
-aNativeParent
 const
 LayoutDeviceIntRect
 &

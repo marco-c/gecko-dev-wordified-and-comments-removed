@@ -4921,7 +4921,6 @@ baseWindow
 >
 InitWindow
 (
-nullptr
 view
 -
 >
