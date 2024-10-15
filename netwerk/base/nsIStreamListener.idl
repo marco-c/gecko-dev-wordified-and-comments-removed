@@ -28,9 +28,6 @@ nsIStreamListener
 :
 nsIRequestObserver
 {
-[
-must_use
-]
 void
 onDataAvailable
 (

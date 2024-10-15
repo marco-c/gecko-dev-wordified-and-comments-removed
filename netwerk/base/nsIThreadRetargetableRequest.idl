@@ -27,9 +27,6 @@ nsIThreadRetargetableRequest
 :
 nsISupports
 {
-[
-must_use
-]
 void
 retargetDeliveryTo
 (

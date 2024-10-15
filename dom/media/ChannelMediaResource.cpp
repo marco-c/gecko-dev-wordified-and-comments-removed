@@ -1155,9 +1155,6 @@ aRequest
 )
 )
 {
-nsresult
-rv
-=
 retarget
 -
 >
@@ -1169,17 +1166,6 @@ OwnerThread
 (
 )
 )
-;
-MOZ_ASSERT
-(
-NS_SUCCEEDED
-(
-rv
-)
-)
-;
-return
-rv
 ;
 }
 return
