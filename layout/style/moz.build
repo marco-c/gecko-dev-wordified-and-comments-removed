@@ -1337,6 +1337,11 @@ SharedStyleSheetCache
 cpp
 "
 "
+SharedSubResourceCache
+.
+cpp
+"
+"
 StreamLoader
 .
 cpp
