@@ -11378,7 +11378,7 @@ return
 context
 ?
 .
-let
+also
 {
 if
 (
@@ -11386,6 +11386,18 @@ isToolbarDynamic
 (
 it
 )
+)
+{
+if
+(
+!
+requireComponents
+.
+core
+.
+geckoRuntime
+.
+isInteractiveWidgetDefaultResizesVisual
 )
 {
 getEngineView
@@ -11402,6 +11414,7 @@ toolbarHeights
 .
 second
 )
+}
 }
 else
 {
