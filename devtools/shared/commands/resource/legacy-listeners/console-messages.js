@@ -204,7 +204,11 @@ on
 "
 consoleAPICall
 "
+(
+{
 message
+}
+)
 =
 >
 {
