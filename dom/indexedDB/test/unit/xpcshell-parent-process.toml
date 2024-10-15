@@ -427,15 +427,6 @@ test_slowDatabaseInitialization
 js
 "
 ]
-skip
--
-if
-=
-[
-"
-true
-"
-]
 [
 "
 test_slowStorageInitialization
