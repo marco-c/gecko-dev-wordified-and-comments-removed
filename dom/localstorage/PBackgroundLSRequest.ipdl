@@ -104,6 +104,9 @@ PBackgroundLSDatabaseChild
 >
 databaseChildEndpoint
 ;
+bool
+invalidated
+;
 }
 ;
 struct
