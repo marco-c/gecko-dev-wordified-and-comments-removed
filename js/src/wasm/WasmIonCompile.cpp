@@ -22911,6 +22911,9 @@ typeDefData
 isOutline
 zeroFields
 allocKind
+bytecodeOffset
+(
+)
 )
 ;
 if

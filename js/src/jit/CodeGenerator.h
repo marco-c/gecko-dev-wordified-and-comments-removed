@@ -1006,6 +1006,11 @@ Register
 typeDefData
 Register
 output
+wasm
+:
+:
+BytecodeOffset
+bytecodeOffset
 )
 ;
 void
