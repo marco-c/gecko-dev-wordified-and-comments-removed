@@ -534,15 +534,6 @@ test_slowRequestFinalization
 js
 "
 ]
-skip
--
-if
-=
-[
-"
-true
-"
-]
 [
 "
 test_slowStorageInitialization
