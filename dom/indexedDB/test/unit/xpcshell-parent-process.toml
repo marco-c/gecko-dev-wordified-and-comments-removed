@@ -239,6 +239,13 @@ js
 ]
 [
 "
+test_databaseWorkStarted
+.
+js
+"
+]
+[
+"
 test_database_close_without_onclose
 .
 js
