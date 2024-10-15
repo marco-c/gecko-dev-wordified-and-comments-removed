@@ -916,6 +916,7 @@ line
 +
 )
 {
+await
 assertLineIsBreakable
 (
 dbg
