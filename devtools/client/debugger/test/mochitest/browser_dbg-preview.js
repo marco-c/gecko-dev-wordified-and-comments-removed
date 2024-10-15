@@ -1003,18 +1003,11 @@ dbg
 const
 inlinePreviewEl
 =
-findElementWithSelector
+findElement
 (
 dbg
 "
-.
-CodeMirror
--
-code
-.
-CodeMirror
--
-widget
+inlinePreview
 "
 )
 ;
@@ -1441,6 +1434,7 @@ expression
 const
 fooTokenEl
 =
+await
 getTokenElAtLine
 (
 dbg
@@ -1543,6 +1537,7 @@ expression
 const
 privateStaticTokenEl
 =
+await
 getTokenElAtLine
 (
 dbg
