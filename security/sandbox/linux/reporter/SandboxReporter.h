@@ -93,15 +93,9 @@ Init
 (
 )
 ;
-void
-GetClientFileDescriptorMapping
+int
+GetClientFileDescriptor
 (
-int
-*
-aSrcFd
-int
-*
-aDstFd
 )
 const
 ;

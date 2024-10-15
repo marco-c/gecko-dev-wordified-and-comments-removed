@@ -123,10 +123,8 @@ mForkFlags
 =
 0
 ;
-bool
-mChroot
-=
-false
+UniqueFileHandle
+mChrootServer
 ;
 #
 endif
@@ -157,8 +155,8 @@ LaunchError
 >
 SendForkNewSubprocess
 (
-const
 Args
+&
 &
 aArgs
 pid_t
