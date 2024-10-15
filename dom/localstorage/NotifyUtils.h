@@ -18,6 +18,11 @@ NotifyDatabaseWorkStarted
 (
 )
 ;
+void
+NotifyRequestFinalizationStarted
+(
+)
+;
 }
 #
 endif
