@@ -249,6 +249,14 @@ return
 nullptr
 ;
 }
+wl_display_set_max_buffer_size
+(
+waylandDisplay
+1024
+*
+1024
+)
+;
 gWaylandDisplay
 =
 new
