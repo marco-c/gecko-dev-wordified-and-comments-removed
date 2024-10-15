@@ -95,7 +95,7 @@ url
     
 inline
     
-top_context
+new_tab
     
 add_intercept
     
@@ -132,7 +132,7 @@ RESPONSE_COMPLETED_EVENT
 contexts
 =
 [
-top_context
+new_tab
 [
 "
 context
@@ -197,7 +197,7 @@ url
 test_url
 context
 =
-top_context
+new_tab
 [
 "
 context
@@ -222,7 +222,7 @@ get_tree
 (
 root
 =
-top_context
+new_tab
 [
 "
 context
@@ -301,7 +301,7 @@ text_url
 contexts
 =
 [
-top_context
+new_tab
 [
 "
 context
@@ -388,7 +388,7 @@ bidi_session
     
 url
     
-top_context
+new_tab
     
 add_intercept
     
@@ -423,7 +423,7 @@ RESPONSE_COMPLETED_EVENT
 contexts
 =
 [
-top_context
+new_tab
 [
 "
 context
@@ -543,7 +543,7 @@ fetch
 text_url
 context
 =
-top_context
+new_tab
 )
 )
     
@@ -590,7 +590,7 @@ bidi_session
     
 url
     
-top_context
+new_tab
     
 add_intercept
     
@@ -669,7 +669,7 @@ RESPONSE_COMPLETED_EVENT
 contexts
 =
 [
-top_context
+new_tab
 [
 "
 context
@@ -726,7 +726,7 @@ text_url
 contexts
 =
 [
-top_context
+new_tab
 [
 "
 context
@@ -752,7 +752,7 @@ fetch
 text_url
 context
 =
-top_context
+new_tab
 )
 )
     
@@ -825,7 +825,7 @@ bidi_session
     
 url
     
-top_context
+new_tab
     
 add_intercept
     
@@ -900,7 +900,7 @@ BEFORE_REQUEST_SENT_EVENT
 contexts
 =
 [
-top_context
+new_tab
 [
 "
 context
@@ -959,7 +959,7 @@ text_url
 contexts
 =
 [
-top_context
+new_tab
 [
 "
 context
@@ -991,7 +991,7 @@ fetch
 text_url
 context
 =
-top_context
+new_tab
 )
 )
     
@@ -1074,7 +1074,7 @@ bidi_session
     
 url
     
-top_context
+new_tab
     
 add_intercept
     
@@ -1149,7 +1149,7 @@ BEFORE_REQUEST_SENT_EVENT
 contexts
 =
 [
-top_context
+new_tab
 [
 "
 context
@@ -1208,7 +1208,7 @@ text_url
 contexts
 =
 [
-top_context
+new_tab
 [
 "
 context
@@ -1269,7 +1269,7 @@ fetch
 text_url
 context
 =
-top_context
+new_tab
 )
 )
     
