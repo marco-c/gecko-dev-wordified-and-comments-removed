@@ -299,7 +299,7 @@ render_target
 {
 RenderTargetContext
 RenderTargetKind
-ColorRenderTarget
+RenderTarget
 }
 ;
 use
@@ -4383,7 +4383,7 @@ let
 mut
 target
 =
-ColorRenderTarget
+RenderTarget
 :
 :
 new
@@ -4448,7 +4448,7 @@ let
 mut
 target
 =
-ColorRenderTarget
+RenderTarget
 :
 :
 new

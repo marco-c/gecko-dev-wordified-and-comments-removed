@@ -598,7 +598,7 @@ render_target
 :
 :
 {
-ColorRenderTarget
+RenderTarget
 PictureCacheTarget
 PictureCacheTargetKind
 }
@@ -16416,7 +16416,7 @@ DrawTarget
 target
 :
 &
-ColorRenderTarget
+RenderTarget
 clear_depth
 :
 Option
