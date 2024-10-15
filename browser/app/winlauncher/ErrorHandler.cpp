@@ -341,7 +341,7 @@ mozilla
 :
 StaticXREAppData
 *
-gAppData
+gStaticAppData
 ;
 static
 bool
@@ -2442,7 +2442,7 @@ MOZ_UPDATE_CHANNEL
 ;
 if
 (
-gAppData
+gStaticAppData
 )
 {
 aJson
@@ -2457,7 +2457,7 @@ mozilla
 :
 MakeStringSpan
 (
-gAppData
+gStaticAppData
 -
 >
 buildID
@@ -2476,7 +2476,7 @@ mozilla
 :
 MakeStringSpan
 (
-gAppData
+gStaticAppData
 -
 >
 version
@@ -3910,7 +3910,7 @@ StaticXREAppData
 aAppData
 )
 {
-gAppData
+gStaticAppData
 =
 &
 aAppData
