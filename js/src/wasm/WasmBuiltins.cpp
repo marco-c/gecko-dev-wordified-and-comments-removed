@@ -450,7 +450,7 @@ js
 namespace
 wasm
 {
-const
+constexpr
 SymbolicAddressSignature
 SASigSinNativeD
 =
@@ -468,7 +468,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigSinFdlibmD
 =
@@ -486,7 +486,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigCosNativeD
 =
@@ -504,7 +504,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigCosFdlibmD
 =
@@ -522,7 +522,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigTanNativeD
 =
@@ -540,7 +540,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigTanFdlibmD
 =
@@ -558,7 +558,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigASinD
 =
@@ -576,7 +576,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigACosD
 =
@@ -594,7 +594,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigATanD
 =
@@ -612,7 +612,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigCeilD
 =
@@ -630,7 +630,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigCeilF
 =
@@ -648,7 +648,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigFloorD
 =
@@ -666,7 +666,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigFloorF
 =
@@ -684,7 +684,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigTruncD
 =
@@ -702,7 +702,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigTruncF
 =
@@ -720,7 +720,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigNearbyIntD
 =
@@ -738,7 +738,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigNearbyIntF
 =
@@ -756,7 +756,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigExpD
 =
@@ -774,7 +774,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigLogD
 =
@@ -792,7 +792,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigPowD
 =
@@ -811,7 +811,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigATan2D
 =
@@ -830,7 +830,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigMemoryGrowM32
 =
@@ -850,7 +850,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigMemoryGrowM64
 =
@@ -870,7 +870,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigMemorySizeM32
 =
@@ -889,7 +889,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigMemorySizeM64
 =
@@ -908,7 +908,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigWaitI32M32
 =
@@ -930,7 +930,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigWaitI32M64
 =
@@ -952,7 +952,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigWaitI64M32
 =
@@ -974,7 +974,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigWaitI64M64
 =
@@ -996,7 +996,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigWakeM32
 =
@@ -1017,7 +1017,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigWakeM64
 =
@@ -1038,7 +1038,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigMemCopyM32
 =
@@ -1060,7 +1060,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigMemCopySharedM32
 =
@@ -1082,7 +1082,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigMemCopyM64
 =
@@ -1104,7 +1104,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigMemCopySharedM64
 =
@@ -1126,7 +1126,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigMemCopyAny
 =
@@ -1149,7 +1149,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigDataDrop
 =
@@ -1168,7 +1168,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigMemFillM32
 =
@@ -1190,7 +1190,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigMemFillSharedM32
 =
@@ -1212,7 +1212,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigMemFillM64
 =
@@ -1234,7 +1234,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigMemFillSharedM64
 =
@@ -1256,7 +1256,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigMemDiscardM32
 =
@@ -1277,7 +1277,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigMemDiscardSharedM32
 =
@@ -1298,7 +1298,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigMemDiscardM64
 =
@@ -1319,7 +1319,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigMemDiscardSharedM64
 =
@@ -1340,7 +1340,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigMemInitM32
 =
@@ -1363,7 +1363,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigMemInitM64
 =
@@ -1386,7 +1386,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigTableCopy
 =
@@ -1409,7 +1409,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigElemDrop
 =
@@ -1428,7 +1428,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigTableFill
 =
@@ -1450,7 +1450,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigTableGet
 =
@@ -1470,7 +1470,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigTableGrow
 =
@@ -1491,7 +1491,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigTableInit
 =
@@ -1514,7 +1514,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigTableSet
 =
@@ -1535,7 +1535,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigTableSize
 =
@@ -1554,7 +1554,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigRefFunc
 =
@@ -1573,7 +1573,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigPostBarrier
 =
@@ -1592,7 +1592,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigPostBarrierPrecise
 =
@@ -1612,7 +1612,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigPostBarrierPreciseWithOffset
 =
@@ -1633,7 +1633,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigExceptionNew
 =
@@ -1652,7 +1652,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigThrowException
 =
@@ -1671,7 +1671,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigStructNewIL_true
 =
@@ -1690,7 +1690,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigStructNewIL_false
 =
@@ -1709,7 +1709,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigStructNewOOL_true
 =
@@ -1728,7 +1728,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigStructNewOOL_false
 =
@@ -1747,7 +1747,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigArrayNew_true
 =
@@ -1767,7 +1767,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigArrayNew_false
 =
@@ -1787,7 +1787,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigArrayNewData
 =
@@ -1809,7 +1809,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigArrayNewElem
 =
@@ -1831,7 +1831,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigArrayInitData
 =
@@ -1855,7 +1855,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigArrayInitElem
 =
@@ -1879,7 +1879,7 @@ _END
 }
 }
 ;
-const
+constexpr
 SymbolicAddressSignature
 SASigArrayCopy
 =
@@ -1915,7 +1915,7 @@ sa_name
 .
 )
 \
-const
+constexpr
 SymbolicAddressSignature
 SASig
 #
@@ -1955,7 +1955,7 @@ VISIT_BUILTIN_FUNC
 #
 ifdef
 ENABLE_WASM_JSPI
-const
+constexpr
 SymbolicAddressSignature
 SASigUpdateSuspenderState
 =
