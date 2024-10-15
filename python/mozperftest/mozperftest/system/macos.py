@@ -198,17 +198,16 @@ subprocess
 CalledProcessError
 (
                 
-stdout
-=
-stdout
-stderr
-=
-stderr
-returncode
-=
 p
 .
 returncode
+args
+output
+=
+stdout
+stderr
+=
+stderr
             
 )
         
