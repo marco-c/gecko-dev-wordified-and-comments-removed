@@ -145,6 +145,9 @@ RelevancyStore
 .
 interrupt
 "
+"
+score
+"
 ]
 [
 remote_settings
