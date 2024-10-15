@@ -5801,7 +5801,7 @@ kTrustedScriptBuffer
 ;
 PROFILER_SET_JS_CONTEXT
 (
-cx
+this
 )
 ;
 JS_AddInterruptCallback
