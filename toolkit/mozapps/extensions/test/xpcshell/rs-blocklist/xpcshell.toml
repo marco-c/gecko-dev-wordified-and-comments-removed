@@ -289,6 +289,13 @@ js
 ]
 [
 "
+test_blocklist_severities_v2
+.
+js
+"
+]
+[
+"
 test_blocklist_statechange_telemetry
 .
 js
@@ -626,6 +633,13 @@ true
 [
 "
 test_softblocked
+.
+js
+"
+]
+[
+"
+test_softblocked_v2
 .
 js
 "
