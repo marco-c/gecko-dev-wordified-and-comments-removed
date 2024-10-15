@@ -147,6 +147,12 @@ nsGenericHTMLElement
 aElement
 )
 ;
+CloseWatcher
+*
+GetCloseWatcher
+(
+)
+;
 PopoverAttributeState
 GetPopoverAttributeState
 (
