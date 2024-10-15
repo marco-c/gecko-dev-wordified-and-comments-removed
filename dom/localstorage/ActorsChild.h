@@ -225,7 +225,7 @@ LSDatabaseChild
 )
 ;
 void
-SendDeleteMeInternal
+SendDelete
 (
 )
 ;
