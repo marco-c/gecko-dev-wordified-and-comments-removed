@@ -4044,7 +4044,6 @@ input
 value
 |
 |
-(
 this
 .
 input
@@ -4060,19 +4059,6 @@ pageproxystate
 "
 valid
 "
-&
-&
-!
-this
-.
-window
-.
-gBrowser
-.
-selectedBrowser
-.
-searchTerms
-)
 )
 {
 if
