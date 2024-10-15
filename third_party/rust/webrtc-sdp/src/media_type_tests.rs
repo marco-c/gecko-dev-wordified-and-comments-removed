@@ -262,6 +262,15 @@ false
 max_fr
 :
 0
+profile
+:
+None
+level_idx
+:
+None
+tier
+:
+None
 maxplaybackrate
 :
 48000
