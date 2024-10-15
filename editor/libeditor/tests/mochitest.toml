@@ -2423,6 +2423,15 @@ html
 ]
 [
 "
+test_nsITableEditor_in_plaintext
+-
+only
+.
+html
+"
+]
+[
+"
 test_nsITableEditor_insertTableCell
 .
 html
