@@ -2664,6 +2664,12 @@ aImage
 GetIntrinsicRatio
 (
 )
+;
+ratio
+&
+&
+*
+ratio
 )
 {
 if
