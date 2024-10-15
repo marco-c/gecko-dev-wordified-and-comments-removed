@@ -90,7 +90,7 @@ defined
 ifeq
 (
 (
-CPU_ARCH
+TARGET_CPU
 )
 aarch64
 )
@@ -768,6 +768,13 @@ DEFINES
 ACDEFINES
 )
 \
+-
+DTOPOBJDIR
+=
+(
+topobjdir
+)
+\
 (
 srcdir
 )
@@ -1001,6 +1008,13 @@ DEFINES
 )
 (
 ACDEFINES
+)
+\
+-
+DTOPOBJDIR
+=
+(
+topobjdir
 )
 \
 (

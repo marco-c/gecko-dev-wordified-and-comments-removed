@@ -770,6 +770,8 @@ of
 the
 installer
 itself
+see
+stub_build_id
 .
 stub
 :
@@ -2039,6 +2041,17 @@ Full
 Installer
 Configuration
 )
+stub_build_id
+(
+stub
+)
+Build
+ID
+of
+the
+stub
+installer
+.
 windows_ubr
 (
 both
