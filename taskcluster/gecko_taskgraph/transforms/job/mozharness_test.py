@@ -818,7 +818,7 @@ platform
 worker
 [
 "
-privileged
+kvm
 "
 ]
 =
