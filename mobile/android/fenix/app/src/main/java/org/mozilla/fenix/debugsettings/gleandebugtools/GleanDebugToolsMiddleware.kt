@@ -156,9 +156,9 @@ s
 *
 *
 param
-gleanDebugToolsService
+gleanDebugToolsStorage
 [
-GleanDebugToolsService
+GleanDebugToolsStorage
 ]
 used
 to
@@ -220,9 +220,9 @@ GleanDebugToolsMiddleware
 (
 private
 val
-gleanDebugToolsService
+gleanDebugToolsStorage
 :
-GleanDebugToolsService
+GleanDebugToolsStorage
 private
 val
 clipboardHandler
@@ -296,7 +296,7 @@ LogPingsToConsoleToggled
 -
 >
 {
-gleanDebugToolsService
+gleanDebugToolsStorage
 .
 setLogPings
 (
@@ -388,7 +388,7 @@ SendBaselinePing
 -
 >
 {
-gleanDebugToolsService
+gleanDebugToolsStorage
 .
 sendBaselinePing
 (
@@ -416,7 +416,7 @@ SendMetricsPing
 -
 >
 {
-gleanDebugToolsService
+gleanDebugToolsStorage
 .
 sendMetricsPing
 (
@@ -444,7 +444,7 @@ SendPendingEventPing
 -
 >
 {
-gleanDebugToolsService
+gleanDebugToolsStorage
 .
 sendPendingEventPing
 (

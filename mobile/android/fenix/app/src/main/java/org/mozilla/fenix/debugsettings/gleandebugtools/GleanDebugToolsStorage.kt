@@ -79,7 +79,7 @@ Glean
 *
 *
 A
-service
+storage
 used
 to
 access
@@ -90,7 +90,7 @@ APIs
 *
 /
 interface
-GleanDebugToolsService
+GleanDebugToolsStorage
 {
 /
 *
@@ -175,7 +175,7 @@ String
 *
 The
 default
-service
+storage
 used
 by
 the
@@ -191,9 +191,9 @@ APIs
 *
 /
 class
-DefaultGleanDebugToolsService
+DefaultGleanDebugToolsStorage
 :
-GleanDebugToolsService
+GleanDebugToolsStorage
 {
 override
 fun

@@ -215,7 +215,7 @@ debugsettings
 .
 gleandebugtools
 .
-DefaultGleanDebugToolsService
+DefaultGleanDebugToolsStorage
 import
 org
 .
@@ -460,9 +460,9 @@ listOf
 (
 GleanDebugToolsMiddleware
 (
-gleanDebugToolsService
+gleanDebugToolsStorage
 =
-DefaultGleanDebugToolsService
+DefaultGleanDebugToolsStorage
 (
 )
 clipboardHandler
