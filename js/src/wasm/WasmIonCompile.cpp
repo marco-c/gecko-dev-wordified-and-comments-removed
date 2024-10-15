@@ -12159,10 +12159,9 @@ funcIndex
 bodyLength
 ;
 return
-codeMeta_
-.
-inliningHeuristics
-.
+InliningHeuristics
+:
+:
 isSmallEnoughToInline
 (
 kind

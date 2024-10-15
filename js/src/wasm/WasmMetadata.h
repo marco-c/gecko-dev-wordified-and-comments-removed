@@ -213,14 +213,6 @@ debugEnabled
 ModuleHash
 debugHash
 ;
-const
-LazyTieringHeuristics
-lazyTieringHeuristics
-;
-const
-InliningHeuristics
-inliningHeuristics
-;
 struct
 ProtectedOptimizationStats
 {
