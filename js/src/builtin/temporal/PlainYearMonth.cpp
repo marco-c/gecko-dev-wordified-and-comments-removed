@@ -800,14 +800,9 @@ return
 obj
 ;
 }
+static
 PlainYearMonthObject
 *
-js
-:
-:
-temporal
-:
-:
 CreateTemporalYearMonth
 (
 JSContext
