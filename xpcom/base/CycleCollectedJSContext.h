@@ -967,6 +967,16 @@ supported
 )
 ;
 }
+void
+BeginExecutionTracingAsync
+(
+)
+;
+void
+EndExecutionTracingAsync
+(
+)
+;
 private
 :
 JSObject
