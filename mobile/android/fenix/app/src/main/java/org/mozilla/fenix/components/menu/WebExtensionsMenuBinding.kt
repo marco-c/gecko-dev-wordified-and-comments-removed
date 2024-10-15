@@ -548,6 +548,7 @@ as
 WebExtensionMenuItem
 .
 WebExtensionPageMenuItem
+?
 }
 }
 val
@@ -586,6 +587,7 @@ as
 WebExtensionMenuItem
 .
 WebExtensionBrowserMenuItem
+?
 }
 }
 menuStore
@@ -633,7 +635,7 @@ Boolean
 false
 )
 :
-Any
+WebExtensionMenuItem
 ?
 {
 val
