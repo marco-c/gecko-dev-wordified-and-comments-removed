@@ -1925,6 +1925,16 @@ Self
 :
 :
 ONE
+|
+|
+self
+.
+0
+.
+value
+=
+=
+0
 {
 return
 value
