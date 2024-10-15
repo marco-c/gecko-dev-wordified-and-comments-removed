@@ -77797,13 +77797,6 @@ enableCodeCoverage
 |
 enableDisassemblyDumps
 ;
-cx
--
->
-setShouldAssertExceptionOnFalseReturn
-(
-)
-;
 #
 ifdef
 JS_ENABLE_SMOOSH

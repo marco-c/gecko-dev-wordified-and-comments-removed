@@ -2780,14 +2780,8 @@ JSContext
 cx
 )
 {
-MOZ_ASSERT_IF
+MOZ_ASSERT
 (
-cx
--
->
-shouldAssertExceptionOnFalseReturn
-(
-)
 cx
 -
 >
