@@ -21,7 +21,7 @@ dom
 quota
 {
 class
-nsCStringHashKeyDM
+nsCStringHashKeyWithDisabledMemmove
 :
 public
 nsCStringHashKey
@@ -29,7 +29,7 @@ nsCStringHashKey
 public
 :
 explicit
-nsCStringHashKeyDM
+nsCStringHashKeyWithDisabledMemmove
 (
 const
 nsCStringHashKey
