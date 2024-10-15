@@ -25,6 +25,18 @@ browser_webext_permissions
 .
 xpi
 ;
+const
+expectedPermsCount
+=
+!
+ExtensionsUI
+.
+SHOW_FULL_DOMAINS_LIST
+?
+5
+:
+4
+;
 function
 assertPermissionsListCount
 (
@@ -251,7 +263,7 @@ assertPermissionsListCount
 {
 grantedPermissionsCount
 :
-5
+expectedPermsCount
 }
 )
 ;
@@ -482,7 +494,7 @@ assertPermissionsListCount
 {
 grantedPermissionsCount
 :
-5
+expectedPermsCount
 }
 )
 ;
@@ -528,7 +540,7 @@ assertPermissionsListCount
 {
 grantedPermissionsCount
 :
-5
+expectedPermsCount
 }
 )
 ;
