@@ -1154,7 +1154,7 @@ R
 .
 string
 .
-onboarding_home_enable_notifications_title
+onboarding_home_welcome_title_2
 formatArgs
 =
 arrayOf
@@ -1179,7 +1179,7 @@ R
 .
 string
 .
-onboarding_home_enable_notifications_description
+onboarding_home_welcome_description
 formatArgs
 =
 arrayOf
@@ -1208,7 +1208,7 @@ R
 .
 string
 .
-onboarding_home_enable_notifications_positive_button
+onboarding_home_get_started_button
 )
 onClick
 =
@@ -1229,7 +1229,7 @@ R
 .
 string
 .
-onboarding_home_enable_notifications_negative_button
+onboarding_home_skip_button
 )
 onClick
 =

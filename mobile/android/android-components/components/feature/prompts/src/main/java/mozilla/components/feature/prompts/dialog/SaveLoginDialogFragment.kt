@@ -1519,7 +1519,7 @@ R
 .
 string
 .
-mozac_feature_prompt_error_empty_password
+mozac_feature_prompt_error_empty_password_2
 )
 )
 }
@@ -1986,7 +1986,7 @@ R
 .
 string
 .
-mozac_feature_prompt_dont_update
+mozac_feature_prompt_dont_update_2
 )
 confirmText
 =
