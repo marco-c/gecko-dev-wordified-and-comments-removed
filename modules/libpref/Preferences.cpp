@@ -10351,6 +10351,7 @@ aIsLocked
 )
 {
 }
+MOZ_RUNINIT
 static
 nsCString
 gTestParseErrorMsgs
@@ -27161,6 +27162,7 @@ cpp_type
 default_value
 )
 \
+MOZ_RUNINIT
 cpp_type
 sMirror_
 #

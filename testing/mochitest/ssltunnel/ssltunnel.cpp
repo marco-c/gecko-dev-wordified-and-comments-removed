@@ -888,9 +888,11 @@ DEFAULT_STACKSIZE
 1024
 )
 ;
+MOZ_RUNINIT
 string
 nssconfigdir
 ;
+MOZ_RUNINIT
 vector
 <
 server_info_t

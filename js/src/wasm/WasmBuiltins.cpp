@@ -10876,6 +10876,7 @@ codeSize
 }
 }
 ;
+MOZ_RUNINIT
 Mutex
 initBuiltinThunks
 (

@@ -881,6 +881,7 @@ obj
 )
 ;
 }
+MOZ_RUNINIT
 nsString
 PromiseDebugging
 :

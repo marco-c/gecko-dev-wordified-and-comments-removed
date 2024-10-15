@@ -349,6 +349,7 @@ enabled
 false
 ;
 }
+MOZ_RUNINIT
 js
 :
 :

@@ -2023,6 +2023,7 @@ mFailureId
 ;
 }
 ;
+MOZ_RUNINIT
 AngleErrorReporting
 gAngleErrorReporter
 ;

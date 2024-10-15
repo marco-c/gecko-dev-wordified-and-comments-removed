@@ -10695,12 +10695,14 @@ SavedStacks
 :
 metadataBuilder
 ;
+MOZ_RUNINIT
 ReconstructedSavedFramePrincipals
 ReconstructedSavedFramePrincipals
 :
 :
 IsSystem
 ;
+MOZ_RUNINIT
 ReconstructedSavedFramePrincipals
 ReconstructedSavedFramePrincipals
 :

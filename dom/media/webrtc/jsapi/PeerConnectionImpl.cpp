@@ -25238,6 +25238,7 @@ mForceProxy
 )
 ;
 }
+MOZ_RUNINIT
 std
 :
 :

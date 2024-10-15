@@ -1615,6 +1615,7 @@ get
 ;
 }
 }
+MOZ_RUNINIT
 IOUtils
 :
 :

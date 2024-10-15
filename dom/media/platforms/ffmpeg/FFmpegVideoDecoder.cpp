@@ -431,6 +431,7 @@ mozilla
 #
 ifdef
 MOZ_USE_HWDECODE
+MOZ_RUNINIT
 nsTArray
 <
 AVCodecID

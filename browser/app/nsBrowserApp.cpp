@@ -799,6 +799,7 @@ return
 false
 ;
 }
+MOZ_RUNINIT
 Bootstrap
 :
 :

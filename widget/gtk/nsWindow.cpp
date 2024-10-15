@@ -1980,6 +1980,7 @@ gLastTouchID
 =
 0
 ;
+MOZ_RUNINIT
 static
 GUniquePtr
 <
