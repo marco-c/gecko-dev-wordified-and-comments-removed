@@ -10531,7 +10531,6 @@ neutral
 =
 aWidth
 >
-=
 aHeight
 ;
 #
@@ -10568,7 +10567,6 @@ if
 (
 aWidth
 >
-=
 aHeight
 )
 {
