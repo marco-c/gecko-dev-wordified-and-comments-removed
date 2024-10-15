@@ -1567,6 +1567,10 @@ in
 :
 source
 -
+out
+:
+source
+-
 atop
 :
 destination
