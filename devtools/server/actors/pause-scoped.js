@@ -34,14 +34,14 @@ ObjectActor
 {
 constructor
 (
-thread
+threadActor
 obj
 hooks
 )
 {
 super
 (
-thread
+threadActor
 obj
 hooks
 )

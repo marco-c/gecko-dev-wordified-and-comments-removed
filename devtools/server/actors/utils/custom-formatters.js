@@ -237,7 +237,7 @@ targetActor
 =
 objectActor
 .
-thread
+threadActor
 ;
 const
 {
@@ -880,7 +880,7 @@ targetActor
 =
 objectActor
 .
-thread
+threadActor
 ;
 try
 {
