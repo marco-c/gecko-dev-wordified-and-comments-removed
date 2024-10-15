@@ -73,9 +73,13 @@ symbol
 TEST_SYMBOL
 ;
 const
-mockConn
+mockThreadActor
 =
+{
+conn
+:
 null
+}
 ;
 const
 actor
@@ -83,7 +87,7 @@ actor
 new
 SymbolActor
 (
-mockConn
+mockThreadActor
 symbol
 )
 ;
