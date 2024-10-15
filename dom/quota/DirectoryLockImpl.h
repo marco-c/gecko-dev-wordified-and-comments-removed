@@ -521,7 +521,7 @@ No
 DirectoryLockCategory
 :
 :
-None
+UninitOrigins
 )
 ;
 }
