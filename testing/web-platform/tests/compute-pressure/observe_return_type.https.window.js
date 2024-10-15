@@ -3,12 +3,11 @@ use
 strict
 '
 ;
-pressure_test
+promise_test
 (
 async
 (
 t
-mockPressureService
 )
 =
 >
