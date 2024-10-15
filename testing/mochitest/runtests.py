@@ -154,8 +154,12 @@ normsep
 from
 mozgeckoprofiler
 import
+(
+    
 symbolicate_profile_json
+    
 view_gecko_profile
+)
 from
 mozserve
 import
@@ -19004,6 +19008,8 @@ debuggerInfo
 browserProcessId
                     
 processLog
+                    
+symbolsPath
                 
 )
             
@@ -23866,12 +23872,52 @@ options
 profiler
 :
                 
-symbolicate_profile_json
+firefox_symbol_path
+=
+os
+.
+path
+.
+join
 (
-profile_path
+                    
 options
 .
 topobjdir
+"
+dist
+"
+"
+crashreporter
+-
+symbols
+"
+                
+)
+                
+if
+not
+os
+.
+path
+.
+isdir
+(
+firefox_symbol_path
+)
+:
+                    
+os
+.
+mkdir
+(
+firefox_symbol_path
+)
+                
+symbolicate_profile_json
+(
+profile_path
+firefox_symbol_path
 )
                 
 view_gecko_profile_from_mochitest
@@ -25386,12 +25432,20 @@ handleTimeout
 (
         
 self
+        
 timeout
+        
 proc
+        
 utilityPath
+        
 debuggerInfo
+        
 browser_pid
+        
 processLog
+        
+symbolsPath
     
 )
 :
@@ -25555,6 +25609,15 @@ proc
 .
 pid
         
+profiler_logger
+=
+get_proxy_logger
+(
+"
+profiler
+"
+)
+        
 if
 mozinfo
 .
@@ -25565,11 +25628,9 @@ mozinfo
 isMac
 :
             
-self
+profiler_logger
 .
-log
-.
-info
+warning
 (
                 
 "
@@ -25589,12 +25650,11 @@ hang
             
 )
             
-self
-.
-log
+profiler_logger
 .
 info
 (
+                
 "
 Sending
 SIGUSR1
@@ -25609,6 +25669,7 @@ profiler
 "
 %
 browser_pid
+            
 )
             
 os
@@ -25621,9 +25682,7 @@ signal
 SIGUSR1
 )
             
-self
-.
-log
+profiler_logger
 .
 info
 (
@@ -25635,6 +25694,8 @@ capture
 a
 profile
 .
+.
+.
 "
 )
             
@@ -25645,12 +25706,11 @@ sleep
 10
 )
             
-self
-.
-log
+profiler_logger
 .
 info
 (
+                
 "
 Sending
 SIGUSR2
@@ -25665,6 +25725,7 @@ profiler
 "
 %
 browser_pid
+            
 )
             
 os
@@ -25677,9 +25738,7 @@ signal
 SIGUSR2
 )
             
-self
-.
-log
+profiler_logger
 .
 info
 (
@@ -25704,13 +25763,112 @@ sleep
 (
 10
 )
+            
+if
+"
+MOZ_UPLOAD_DIR
+"
+in
+os
+.
+environ
+:
+                
+profiler_logger
+.
+info
+(
+                    
+"
+Symbolicating
+profile
+in
+%
+s
+"
+%
+os
+.
+environ
+[
+"
+MOZ_UPLOAD_DIR
+"
+]
+                
+)
+                
+profile_path
+=
+"
+{
+}
+/
+profile_0_
+{
+}
+.
+json
+"
+.
+format
+(
+                    
+os
+.
+environ
+[
+"
+MOZ_UPLOAD_DIR
+"
+]
+browser_pid
+                
+)
+                
+profiler_logger
+.
+info
+(
+"
+Looking
+inside
+symbols
+dir
+:
+%
+s
+)
+"
+%
+symbolsPath
+)
+                
+profiler_logger
+.
+info
+(
+"
+Symbolicating
+profile
+:
+%
+s
+"
+%
+profile_path
+)
+                
+symbolicate_profile_json
+(
+profile_path
+symbolsPath
+)
         
 else
 :
             
-self
-.
-log
+profiler_logger
 .
 info
 (
