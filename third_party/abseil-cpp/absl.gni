@@ -198,6 +198,8 @@ configs
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -214,6 +216,8 @@ configs
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -224,6 +228,8 @@ no_chromium_code
 "
 "
 /
+/
+chromium
 /
 build
 /
@@ -277,6 +283,8 @@ configs
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -292,6 +300,8 @@ configs
 [
 "
 /
+/
+chromium
 /
 build
 /
@@ -907,6 +917,8 @@ configs
 "
 /
 /
+chromium
+/
 build
 /
 config
@@ -922,6 +934,8 @@ configs
 [
 "
 /
+/
+chromium
 /
 build
 /
