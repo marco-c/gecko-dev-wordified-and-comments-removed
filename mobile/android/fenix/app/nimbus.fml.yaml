@@ -1684,7 +1684,7 @@ type
 Int
 default
 :
-0
+2000
 splash
 -
 screen
