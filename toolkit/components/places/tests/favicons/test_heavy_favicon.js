@@ -107,6 +107,8 @@ let
 dataURI
 =
 await
+PlacesTestUtils
+.
 fileDataToDataURL
 (
 icon
