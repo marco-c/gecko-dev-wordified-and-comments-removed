@@ -440,6 +440,9 @@ add_ons_list
 )
 )
 {
+waitForAddonsListProgressBarToBeGone
+(
+)
 clickInstallAddon
 (
 addonName
