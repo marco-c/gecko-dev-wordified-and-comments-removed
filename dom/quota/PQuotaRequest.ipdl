@@ -124,11 +124,6 @@ maybeFullOriginMetadata
 }
 ;
 struct
-ResetOriginResponse
-{
-}
-;
-struct
 PersistedResponse
 {
 bool
@@ -170,8 +165,6 @@ nsresult
 StorageNameResponse
 ;
 GetFullOriginMetadataResponse
-;
-ResetOriginResponse
 ;
 PersistedResponse
 ;

@@ -982,12 +982,6 @@ case
 RequestResponse
 :
 :
-TResetOriginResponse
-:
-case
-RequestResponse
-:
-:
 TPersistResponse
 :
 HandleResponse
