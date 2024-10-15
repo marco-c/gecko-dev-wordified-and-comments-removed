@@ -5087,13 +5087,6 @@ js
 ]
 [
 "
-test_internal_redirect
-.
-js
-"
-]
-[
-"
 test_ioservice
 .
 js
@@ -6604,6 +6597,13 @@ js
 [
 "
 test_trackingProtection_annotateChannels
+.
+js
+"
+]
+[
+"
+test_transparent_redirect
 .
 js
 "

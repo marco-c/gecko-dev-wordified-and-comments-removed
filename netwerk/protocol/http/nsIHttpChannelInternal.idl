@@ -986,7 +986,7 @@ lastTransportStatus
 must_use
 ]
 void
-internalRedirectTo
+transparentRedirectTo
 (
 in
 nsIURI

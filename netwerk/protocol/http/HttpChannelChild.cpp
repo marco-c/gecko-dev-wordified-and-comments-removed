@@ -12209,7 +12209,7 @@ NS_IMETHODIMP
 HttpChannelChild
 :
 :
-InternalRedirectTo
+TransparentRedirectTo
 (
 nsIURI
 *

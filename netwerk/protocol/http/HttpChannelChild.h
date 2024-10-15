@@ -395,7 +395,7 @@ newURI
 override
 ;
 NS_IMETHOD
-InternalRedirectTo
+TransparentRedirectTo
 (
 nsIURI
 *

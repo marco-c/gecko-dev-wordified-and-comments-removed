@@ -81,6 +81,16 @@ REDIRECT_AUTH_RETRY
 <
 4
 ;
+const
+unsigned
+long
+REDIRECT_TRANSPARENT
+=
+1
+<
+<
+5
+;
 void
 asyncOnChannelRedirect
 (

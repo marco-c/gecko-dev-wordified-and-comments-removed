@@ -10342,7 +10342,7 @@ NS_IMETHODIMP
 HttpBaseChannel
 :
 :
-InternalRedirectTo
+TransparentRedirectTo
 (
 nsIURI
 *
@@ -10356,7 +10356,7 @@ LOG
 HttpBaseChannel
 :
 :
-InternalRedirectTo
+TransparentRedirectTo
 [
 this
 =

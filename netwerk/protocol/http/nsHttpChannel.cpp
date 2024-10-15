@@ -5759,7 +5759,7 @@ nsHttpChannel
 :
 Connect
 [
-internal
+transparent
 =
 %
 d
@@ -5802,7 +5802,7 @@ REDIRECT_PERMANENT
 nsIChannelEventSink
 :
 :
-REDIRECT_INTERNAL
+REDIRECT_TRANSPARENT
 :
 nsIChannelEventSink
 :
@@ -14009,7 +14009,7 @@ REDIRECT_TEMPORARY
 nsIChannelEventSink
 :
 :
-REDIRECT_INTERNAL
+REDIRECT_TRANSPARENT
 :
 nsIChannelEventSink
 :
@@ -16725,7 +16725,7 @@ REDIRECT_PERMANENT
 nsIChannelEventSink
 :
 :
-REDIRECT_INTERNAL
+REDIRECT_TRANSPARENT
 :
 nsIChannelEventSink
 :
@@ -38263,7 +38263,7 @@ REDIRECT_TEMPORARY
 nsIChannelEventSink
 :
 :
-REDIRECT_INTERNAL
+REDIRECT_TRANSPARENT
 :
 nsIChannelEventSink
 :
