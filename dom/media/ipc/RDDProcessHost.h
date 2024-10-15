@@ -112,7 +112,10 @@ listener
 bool
 Launch
 (
-StringVector
+geckoargs
+:
+:
+ChildProcessArgs
 aExtraOpts
 )
 ;
