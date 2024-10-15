@@ -211,12 +211,6 @@ PrincipalInfo
 >
 mPrincipalInfo
 ;
-nsCOMPtr
-<
-nsIGlobalObject
->
-mGlobal
-;
 RefPtr
 <
 BrowserChild
