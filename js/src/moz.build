@@ -4176,6 +4176,13 @@ AsyncDisposableStack
 .
 js
 "
+"
+builtin
+/
+DisposableStack
+.
+js
+"
 ]
 GeneratedFile
 (

@@ -713,6 +713,11 @@ DisposeResourcesAsync
 "
 readonly
 "
+DisposeResourcesSync
+:
+"
+readonly
+"
 undefined
 :
 "

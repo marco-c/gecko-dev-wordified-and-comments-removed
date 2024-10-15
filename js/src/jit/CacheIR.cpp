@@ -59539,6 +59539,12 @@ InlinableNative
 :
 IntrinsicGuardToAsyncDisposableStack
 :
+case
+InlinableNative
+:
+:
+IntrinsicGuardToDisposableStack
+:
 #
 endif
 return
