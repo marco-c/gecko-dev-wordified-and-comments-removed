@@ -518,6 +518,15 @@ aEventType
 nsIAccessibleEvent
 :
 :
+EVENT_LIVE_REGION_CHANGED
+&
+&
+aEventType
+!
+=
+nsIAccessibleEvent
+:
+:
 EVENT_NAME_CHANGE
 &
 &
