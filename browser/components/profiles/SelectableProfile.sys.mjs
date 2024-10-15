@@ -634,6 +634,7 @@ aAvatar
 {
 this
 .
+#
 avatar
 =
 aAvatar
@@ -926,7 +927,9 @@ toObject
 (
 )
 {
-return
+let
+profileObj
+=
 {
 id
 :
@@ -956,6 +959,9 @@ this
 .
 theme
 }
+;
+return
+profileObj
 ;
 }
 }

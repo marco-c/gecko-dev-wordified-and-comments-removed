@@ -1147,6 +1147,11 @@ UpdateProfileName
 "
 Profiles
 :
+UpdateProfileAvatar
+"
+"
+Profiles
+:
 OpenDeletePage
 "
 ]
