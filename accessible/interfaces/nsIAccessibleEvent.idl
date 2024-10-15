@@ -333,16 +333,9 @@ EVENT_INNER_REORDER
 const
 unsigned
 long
-EVENT_LIVE_REGION_CHANGED
-=
-0x0029
-;
-const
-unsigned
-long
 EVENT_LAST_ENTRY
 =
-0x002a
+0x0029
 ;
 readonly
 attribute
