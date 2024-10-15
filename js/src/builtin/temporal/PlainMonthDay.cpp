@@ -653,14 +653,9 @@ return
 obj
 ;
 }
+static
 PlainMonthDayObject
 *
-js
-:
-:
-temporal
-:
-:
 CreateTemporalMonthDay
 (
 JSContext
