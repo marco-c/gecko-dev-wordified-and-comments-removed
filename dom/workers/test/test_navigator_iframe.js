@@ -175,6 +175,9 @@ locks
 mediaCapabilities
 "
 "
+permissions
+"
+"
 storage
 "
 ]
