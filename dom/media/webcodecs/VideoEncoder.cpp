@@ -1850,11 +1850,11 @@ usage
 ImageBitmapFormat
 :
 :
-RGBA32
+BGRA32
 ImageBitmapFormat
 :
 :
-RGBA32
+BGRA32
 AssertedCast
 <
 uint8_t
