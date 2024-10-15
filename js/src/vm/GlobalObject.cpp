@@ -336,17 +336,6 @@ builtin
 /
 temporal
 /
-TimeZone
-.
-h
-"
-#
-include
-"
-builtin
-/
-temporal
-/
 ZonedDateTime
 .
 h
@@ -1175,9 +1164,6 @@ JSProto_PlainYearMonth
 :
 case
 JSProto_TemporalNow
-:
-case
-JSProto_TimeZone
 :
 case
 JSProto_ZonedDateTime
