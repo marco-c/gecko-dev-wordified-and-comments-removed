@@ -780,7 +780,9 @@ InitEdit
 is
 InitEditLoaded
 is
-ReceivedSyncUpdate
+ReceivedSyncSignInUpdate
+FirstSyncCompleted
+ViewDisposed
 -
 >
 Unit
