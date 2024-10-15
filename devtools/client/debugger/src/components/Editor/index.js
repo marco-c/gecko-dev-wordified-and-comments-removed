@@ -2670,6 +2670,14 @@ sourceId
 =
 selectedSource
 ;
+if
+(
+!
+features
+.
+codemirrorNext
+)
+{
 line
 =
 line
@@ -2682,6 +2690,7 @@ sourceId
 event
 )
 ;
+}
 if
 (
 typeof
