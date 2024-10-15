@@ -20538,11 +20538,6 @@ nsDisplayTransform
 :
 :
 INCLUDE_PERSPECTIVE
-|
-nsDisplayTransform
-:
-:
-OFFSET_BY_ORIGIN
 )
 ;
 transformed
