@@ -18574,10 +18574,13 @@ area
 &
 gFuturePlacements
 .
-has
+get
 (
 area
 )
+?
+.
+size
 )
 {
 placements
