@@ -27127,7 +27127,7 @@ timeout
 background_budget_regeneration_rate
 type
 :
-int32_t
+RelaxedAtomicInt32
 value
 :
 100
@@ -27157,7 +27157,7 @@ timeout
 foreground_budget_regeneration_rate
 type
 :
-int32_t
+RelaxedAtomicInt32
 value
 :
 1
@@ -27195,7 +27195,7 @@ timeout
 background_throttling_max_budget
 type
 :
-int32_t
+RelaxedAtomicInt32
 value
 :
 50
@@ -27233,7 +27233,7 @@ timeout
 foreground_throttling_max_budget
 type
 :
-int32_t
+RelaxedAtomicInt32
 value
 :
 -
@@ -27264,7 +27264,7 @@ timeout
 budget_throttling_max_delay
 type
 :
-int32_t
+RelaxedAtomicInt32
 value
 :
 15000
@@ -27289,7 +27289,7 @@ timeout
 enable_budget_timer_throttling
 type
 :
-bool
+RelaxedAtomicBool
 value
 :
 true
@@ -27373,7 +27373,7 @@ timeout
 max_consecutive_callbacks_ms
 type
 :
-uint32_t
+RelaxedAtomicUint32
 value
 :
 4
@@ -27433,7 +27433,7 @@ timeout
 throttling_delay
 type
 :
-int32_t
+RelaxedAtomicInt32
 value
 :
 30000
