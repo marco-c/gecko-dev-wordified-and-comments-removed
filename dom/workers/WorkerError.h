@@ -245,6 +245,16 @@ nullptr
 ;
 static
 void
+LogErrorToConsole
+(
+const
+nsAString
+&
+aMessage
+)
+;
+static
+void
 CreateAndDispatchGenericErrorRunnableToParent
 (
 WorkerPrivate

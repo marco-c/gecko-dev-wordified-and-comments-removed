@@ -163,6 +163,17 @@ nsresult
 aError
 )
 ;
+void
+MismatchOptionsErrorPropagationOnMainThread
+(
+nsIEventTarget
+*
+aBackgroundEventTarget
+SharedWorkerParent
+*
+aActor
+)
+;
 nsTArray
 <
 RefPtr
