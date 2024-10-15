@@ -1969,6 +1969,8 @@ returns
 Promise
 <
 TranslationsEngineParent
+|
+MLEngineParent
 >
 }
 *
