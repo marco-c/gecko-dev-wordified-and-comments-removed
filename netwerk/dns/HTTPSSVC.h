@@ -704,8 +704,10 @@ bool
 aRecordsAllExcluded
 bool
 aCheckHttp3ExcludedList
-=
-true
+const
+nsACString
+&
+aCname
 )
 ;
 bool
@@ -727,6 +729,10 @@ bool
 aNoHttp2
 bool
 aNoHttp3
+const
+nsACString
+&
+aCname
 const
 nsTArray
 <

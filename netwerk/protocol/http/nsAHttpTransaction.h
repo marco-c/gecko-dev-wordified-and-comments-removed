@@ -627,6 +627,10 @@ aHTTPSSVCRecord
 nsISVCBRecord
 *
 aHighestPriorityRecord
+const
+nsACString
+&
+aCname
 )
 {
 return
