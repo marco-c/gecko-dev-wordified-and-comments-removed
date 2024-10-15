@@ -15473,7 +15473,7 @@ JS
 Prefs
 :
 :
-wasm_experimental_inline_call_ref_threshold
+wasm_inline_call_ref_threshold
 (
 )
 ;

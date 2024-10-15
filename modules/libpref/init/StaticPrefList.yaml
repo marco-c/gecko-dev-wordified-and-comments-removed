@@ -51268,7 +51268,7 @@ javascript
 .
 options
 .
-wasm_experimental_inline_call_ref_threshold
+wasm_inline_call_ref_threshold
 type
 :
 uint32_t
@@ -51373,7 +51373,7 @@ javascript
 .
 options
 .
-wasm_experimental_inlining_level
+wasm_inlining_level
 type
 :
 uint32_t
@@ -51407,7 +51407,7 @@ javascript
 .
 options
 .
-wasm_experimental_direct_inlining
+wasm_direct_inlining
 type
 :
 bool
@@ -51423,7 +51423,7 @@ always
 #
 Are
 wasm
-callRef
+call_ref
 calls
 (
 within
@@ -51441,7 +51441,7 @@ javascript
 .
 options
 .
-wasm_experimental_callRef_inlining
+wasm_call_ref_inlining
 type
 :
 bool
