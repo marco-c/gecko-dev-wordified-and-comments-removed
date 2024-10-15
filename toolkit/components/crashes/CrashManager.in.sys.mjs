@@ -4994,6 +4994,15 @@ cap
 remoteType
 :
 cap
+utilityActorsName
+:
+t
+(
+comma_list
+"
+UtilityActorsName
+"
+)
 shutdownProgress
 :
 cap
