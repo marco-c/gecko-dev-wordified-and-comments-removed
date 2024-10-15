@@ -727,7 +727,7 @@ record_in_processes
 :
 -
 '
-all
+main
 '
 record_into_store
 :
@@ -814,7 +814,7 @@ record_in_processes
 :
 -
 '
-all
+main
 '
 record_into_store
 :
@@ -891,7 +891,7 @@ record_in_processes
 :
 -
 '
-all
+main
 '
 record_into_store
 :
@@ -964,7 +964,7 @@ record_in_processes
 :
 -
 '
-all
+main
 '
 record_into_store
 :
@@ -1038,7 +1038,7 @@ record_in_processes
 :
 -
 '
-all
+main
 '
 record_into_store
 :
@@ -1111,7 +1111,7 @@ record_in_processes
 :
 -
 '
-all
+main
 '
 record_into_store
 :
@@ -1188,7 +1188,7 @@ record_in_processes
 :
 -
 '
-all
+main
 '
 record_into_store
 :
@@ -1263,7 +1263,7 @@ record_in_processes
 :
 -
 '
-all
+main
 '
 record_into_store
 :
@@ -1342,7 +1342,7 @@ record_in_processes
 :
 -
 '
-all
+main
 '
 record_into_store
 :
@@ -1421,7 +1421,7 @@ record_in_processes
 :
 -
 '
-all
+main
 '
 record_into_store
 :
@@ -1500,7 +1500,7 @@ record_in_processes
 :
 -
 '
-all
+main
 '
 record_into_store
 :
