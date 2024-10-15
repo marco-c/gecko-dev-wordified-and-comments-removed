@@ -26660,7 +26660,7 @@ storage
 testing
 type
 :
-bool
+SequentiallyConsistentAtomicBool
 value
 :
 false
