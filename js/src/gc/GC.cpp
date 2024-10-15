@@ -24322,6 +24322,10 @@ stats
 phase
 )
 ;
+waitBackgroundSweepEnd
+(
+)
+;
 waitBackgroundDecommitEnd
 (
 )
@@ -26062,6 +26066,14 @@ checkHashTablesAfterMovingGC
 (
 )
 {
+waitBackgroundSweepEnd
+(
+)
+;
+waitBackgroundDecommitEnd
+(
+)
+;
 rt
 -
 >
