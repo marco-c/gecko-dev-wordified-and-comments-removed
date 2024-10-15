@@ -9318,6 +9318,17 @@ IteratorZip
 1
 0
 )
+JS_SELF_HOSTED_FN
+(
+"
+range
+"
+"
+IteratorRange
+"
+1
+0
+)
 #
 endif
 JS_FS_END

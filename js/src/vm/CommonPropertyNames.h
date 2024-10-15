@@ -3811,6 +3811,14 @@ quarter
 \
 MACRO_
 (
+range
+"
+range
+"
+)
+\
+MACRO_
+(
 raw
 "
 raw
