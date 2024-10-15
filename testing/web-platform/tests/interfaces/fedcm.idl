@@ -186,6 +186,9 @@ loginHint
 DOMString
 domainHint
 ;
+any
+params
+;
 }
 ;
 dictionary

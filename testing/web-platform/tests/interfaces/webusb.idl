@@ -202,8 +202,7 @@ device
 Exposed
 =
 (
-DedicatedWorker
-SharedWorker
+Worker
 Window
 )
 SecureContext
@@ -249,8 +248,7 @@ babble
 Exposed
 =
 (
-DedicatedWorker
-SharedWorker
+Worker
 Window
 )
 SecureContext
@@ -285,8 +283,7 @@ status
 Exposed
 =
 (
-DedicatedWorker
-SharedWorker
+Worker
 Window
 )
 SecureContext
@@ -323,8 +320,7 @@ status
 Exposed
 =
 (
-DedicatedWorker
-SharedWorker
+Worker
 Window
 )
 SecureContext
@@ -359,8 +355,7 @@ status
 Exposed
 =
 (
-DedicatedWorker
-SharedWorker
+Worker
 Window
 )
 SecureContext
@@ -401,8 +396,7 @@ packets
 Exposed
 =
 (
-DedicatedWorker
-SharedWorker
+Worker
 Window
 )
 SecureContext
@@ -439,8 +433,7 @@ status
 Exposed
 =
 (
-DedicatedWorker
-SharedWorker
+Worker
 Window
 )
 SecureContext
@@ -471,8 +464,7 @@ packets
 Exposed
 =
 (
-DedicatedWorker
-SharedWorker
+Worker
 Window
 )
 SecureContext
@@ -809,8 +801,7 @@ index
 Exposed
 =
 (
-DedicatedWorker
-SharedWorker
+Worker
 Window
 )
 SecureContext
@@ -851,8 +842,7 @@ interfaces
 Exposed
 =
 (
-DedicatedWorker
-SharedWorker
+Worker
 Window
 )
 SecureContext
@@ -897,8 +887,7 @@ claimed
 Exposed
 =
 (
-DedicatedWorker
-SharedWorker
+Worker
 Window
 )
 SecureContext
@@ -979,8 +968,7 @@ isochronous
 Exposed
 =
 (
-DedicatedWorker
-SharedWorker
+Worker
 Window
 )
 SecureContext
@@ -1101,8 +1089,7 @@ allowedDevices
 Exposed
 =
 (
-DedicatedWorker
-SharedWorker
+Worker
 Window
 )
 ]
