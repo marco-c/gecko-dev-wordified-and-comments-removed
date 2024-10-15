@@ -2747,8 +2747,12 @@ paths
 extend
 (
                     
+sorted
+(
+                        
 iglob_hidden
 (
+                            
 mozpath
 .
 join
@@ -2762,6 +2766,9 @@ pattern_full_path
 recursive
 =
 True
+                        
+)
+                    
 )
                 
 )
@@ -2773,6 +2780,8 @@ paths
 .
 extend
 (
+sorted
+(
 iglob_hidden
 (
 pattern_full_path
@@ -2781,13 +2790,12 @@ recursive
 True
 )
 )
+)
         
 final_paths
 =
-sorted
-(
-            
 [
+            
 mozpath
 .
 normsep
@@ -2808,9 +2816,8 @@ isdir
 (
 path
 )
-]
         
-)
+]
         
 return
 final_paths
