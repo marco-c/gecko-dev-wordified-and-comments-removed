@@ -2704,10 +2704,9 @@ IntSize
 100
 )
 ;
-Maybe
-<
+if
+(
 AspectRatio
->
 aspectRatio
 =
 image
@@ -2716,14 +2715,6 @@ image
 GetIntrinsicRatio
 (
 )
-;
-if
-(
-aspectRatio
-&
-&
-*
-aspectRatio
 )
 {
 factorSize
@@ -2733,8 +2724,7 @@ width
 NSToIntRound
 (
 aspectRatio
--
->
+.
 ApplyToFloat
 (
 float
