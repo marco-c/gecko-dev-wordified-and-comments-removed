@@ -1960,7 +1960,6 @@ name
 |
 cardholder
 "
-+
 /
 /
 "
@@ -1982,13 +1981,6 @@ name
 "
 above
 .
-"
-|
-(
-^
-nom
-)
-"
 "
 cc
 -
