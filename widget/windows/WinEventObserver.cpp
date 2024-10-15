@@ -173,17 +173,6 @@ HMODULE
 &
 __ImageBase
 )
-const
-wchar_t
-kClassNameHidden2
-[
-]
-=
-L
-"
-MozillaHiddenWindowClass2
-"
-;
 namespace
 mozilla
 :
@@ -312,7 +301,7 @@ hSelf
 .
 lpszClassName
 =
-kClassNameHidden2
+kClassNameHidden
 }
 ;
 ATOM
