@@ -148,6 +148,16 @@ _
 )
 (
 "
+has
+-
+slotted
+"
+HasSlotted
+HAS_SLOTTED
+_
+)
+(
+"
 hover
 "
 Hover
