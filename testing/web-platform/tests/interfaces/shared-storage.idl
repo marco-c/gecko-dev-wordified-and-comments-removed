@@ -449,6 +449,9 @@ false
 SharedStoragePrivateAggregationConfig
 privateAggregationConfig
 ;
+DOMString
+savedQuery
+;
 }
 ;
 dictionary

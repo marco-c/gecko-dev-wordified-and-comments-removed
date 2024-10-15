@@ -331,6 +331,7 @@ required
 MLOperandDataType
 dataType
 ;
+required
 sequence
 <
 [
@@ -340,9 +341,6 @@ unsigned
 long
 >
 shape
-=
-[
-]
 ;
 }
 ;

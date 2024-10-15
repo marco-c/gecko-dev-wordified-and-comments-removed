@@ -531,7 +531,7 @@ inspect
 (
 optional
 ObservableInspectorUnion
-inspect_observer
+inspectorUnion
 =
 {
 }

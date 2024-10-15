@@ -2051,7 +2051,11 @@ closed
 [
 Exposed
 =
+(
 Window
+DedicatedWorker
+)
+Transferable
 ]
 interface
 RTCDataChannel

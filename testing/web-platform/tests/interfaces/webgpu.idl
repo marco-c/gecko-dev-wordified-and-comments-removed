@@ -416,7 +416,7 @@ wgslLanguageFeatures
 dictionary
 GPURequestAdapterOptions
 {
-any
+DOMString
 featureLevel
 ;
 GPUPowerPreference
@@ -4710,6 +4710,12 @@ configuration
 ;
 undefined
 unconfigure
+(
+)
+;
+GPUCanvasConfiguration
+?
+getConfiguration
 (
 )
 ;
