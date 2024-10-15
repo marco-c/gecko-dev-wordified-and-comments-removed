@@ -55135,7 +55135,7 @@ StyleEffects
 }
 static
 bool
-IsFrameScrolledOutOfView
+IsFrameRectScrolledOutOfView
 (
 const
 nsIFrame
@@ -55257,9 +55257,10 @@ return
 nsLayoutUtils
 :
 :
-FrameIsScrolledOutOfViewInCrossProcess
+FrameRectIsScrolledOutOfViewInCrossProcess
 (
 aTarget
+aTargetRect
 )
 ;
 }
@@ -55397,10 +55398,10 @@ false
 ;
 }
 return
-IsFrameScrolledOutOfView
+IsFrameRectScrolledOutOfView
 (
-aTarget
-aTargetRect
+clipParent
+transformedRect
 parent
 )
 ;
@@ -55422,7 +55423,7 @@ InkOverflowRectRelativeToSelf
 )
 ;
 return
-IsFrameScrolledOutOfView
+IsFrameRectScrolledOutOfView
 (
 this
 rect
