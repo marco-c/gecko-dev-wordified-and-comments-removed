@@ -59,13 +59,6 @@ result
 =
 >
 {
-console
-.
-log
-(
-result
-)
-;
 assertEq
 (
 result

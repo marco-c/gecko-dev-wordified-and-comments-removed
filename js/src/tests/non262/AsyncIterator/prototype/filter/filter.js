@@ -43,13 +43,6 @@ of
 ]
 )
 {
-console
-.
-log
-(
-iter
-)
-;
 iter
 .
 next

@@ -149,16 +149,6 @@ closed
 false
 )
 ;
-console
-.
-log
-(
-"
-here
-!
-"
-)
-;
 try
 {
 await

@@ -178,13 +178,6 @@ catch
 err
 )
 {
-console
-.
-log
-(
-err
-)
-;
 assertEq
 (
 err
