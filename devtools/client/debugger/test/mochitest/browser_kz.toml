@@ -282,6 +282,15 @@ navigation
 js
 "
 ]
+skip
+-
+if
+=
+[
+"
+cm6
+"
+]
 [
 "
 browser_dbg
@@ -798,6 +807,9 @@ if
 [
 "
 verify
+"
+"
+cm6
 "
 ]
 [

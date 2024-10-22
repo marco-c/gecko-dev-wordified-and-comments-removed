@@ -780,7 +780,7 @@ codemirror
 -
 next
 "
-false
+true
 )
 ;
 pref
