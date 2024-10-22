@@ -1456,7 +1456,7 @@ run
 -
 time
 :
-16200
+18000
 use
 -
 python
@@ -1596,7 +1596,7 @@ run
 -
 time
 :
-16200
+18000
 env
 :
 MSYSTEM
@@ -1636,9 +1636,6 @@ car_win64
 tar
 .
 zst
-blink_symbol_level
-=
-0
 chrome_pgo_phase
 =
 2
@@ -1668,7 +1665,7 @@ is_official_build
 true
 symbol_level
 =
-0
+2
 target_cpu
 =
 \
@@ -1679,9 +1676,6 @@ x64
 use_v8_context_snapshot
 =
 false
-v8_symbol_level
-=
-0
 ]
 toolchain
 -
