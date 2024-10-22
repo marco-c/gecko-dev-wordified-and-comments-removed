@@ -609,6 +609,24 @@ yaml
 "
     
 "
+widget
+/
+gtk
+/
+metrics
+.
+yaml
+"
+    
+"
+widget
+/
+metrics
+.
+yaml
+"
+    
+"
 xpcom
 /
 metrics
