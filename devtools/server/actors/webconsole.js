@@ -1238,6 +1238,10 @@ targetActor
 threadActor
 value
 this
+.
+targetActor
+.
+objectsPool
 )
 ;
 }
@@ -5398,6 +5402,10 @@ tableItemActor
 =
 this
 .
+targetActor
+.
+objectsPool
+.
 getActorByID
 (
 tableItemGrip
@@ -5522,6 +5530,10 @@ grip
 &
 &
 this
+.
+targetActor
+.
+objectsPool
 .
 getActorByID
 (

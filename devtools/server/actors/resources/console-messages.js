@@ -579,6 +579,8 @@ tableItemActor
 =
 targetActor
 .
+objectsPool
+.
 getActorByID
 (
 tableItemGrip
@@ -703,6 +705,8 @@ grip
 &
 &
 targetActor
+.
+objectsPool
 .
 getActorByID
 (
