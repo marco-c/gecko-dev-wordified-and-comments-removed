@@ -1128,7 +1128,7 @@ type
 "
 string
 "
-alias
+shortFlag
 :
 "
 a
@@ -1147,7 +1147,7 @@ type
 "
 string
 "
-alias
+shortFlag
 :
 "
 b

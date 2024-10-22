@@ -700,7 +700,7 @@ orig
 try
 :
         
-output
+_
 errors
 =
 proc
@@ -749,16 +749,6 @@ encoding
 replace
 "
 )
-        
-print
-(
-STYLELINT_ERROR_MESSAGE
-.
-format
-(
-errors
-)
-)
     
 if
 proc
@@ -802,7 +792,7 @@ file
             
 print
 (
-output
+errors
 )
         
 return
@@ -810,7 +800,7 @@ return
     
 if
 not
-output
+errors
 :
         
 return
@@ -828,18 +818,6 @@ fixed
 0
 }
     
-output
-=
-output
-.
-decode
-(
-encoding
-"
-replace
-"
-)
-    
 try
 :
         
@@ -849,7 +827,7 @@ json
 .
 loads
 (
-output
+errors
 )
     
 except
@@ -862,7 +840,7 @@ STYLELINT_ERROR_MESSAGE
 .
 format
 (
-output
+errors
 )
 )
         

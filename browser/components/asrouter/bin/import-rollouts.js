@@ -1267,7 +1267,7 @@ type
 "
 string
 "
-alias
+shortFlag
 :
 "
 c
@@ -1284,7 +1284,7 @@ type
 "
 boolean
 "
-alias
+shortFlag
 :
 "
 e
@@ -1301,7 +1301,7 @@ type
 "
 boolean
 "
-alias
+shortFlag
 :
 "
 s
