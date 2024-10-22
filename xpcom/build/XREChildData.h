@@ -83,15 +83,6 @@ ProvideLogFunction
 =
 nullptr
 ;
-sandbox
-:
-:
-BrokerServices
-*
-sandboxBrokerServices
-=
-nullptr
-;
 #
 endif
 }

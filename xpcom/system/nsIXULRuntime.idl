@@ -1539,13 +1539,6 @@ PROCESS_TYPE_SOCKET
 const
 unsigned
 long
-PROCESS_TYPE_REMOTESANDBOXBROKER
-=
-9
-;
-const
-unsigned
-long
 PROCESS_TYPE_FORKSERVER
 =
 10
