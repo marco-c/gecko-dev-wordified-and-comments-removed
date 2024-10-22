@@ -1502,7 +1502,7 @@ o
 navegador
 deixou
 de
-esperar
+aguardar
 uma
 resposta
 .
@@ -1516,10 +1516,11 @@ ul
 <
 li
 >
-O
+Ser
+que
+o
 servidor
-pode
-estar
+est
 sobrecarregado
 ou
 temporariamente
@@ -1542,7 +1543,7 @@ N
 o
 consegue
 navegar
-para
+em
 outros
 sites
 ?
@@ -1553,7 +1554,7 @@ o
 de
 rede
 do
-computador
+dispositivo
 .
 <
 /
@@ -1563,7 +1564,7 @@ li
 li
 >
 Seu
-computador
+dispositivo
 ou
 a
 rede
@@ -1600,7 +1601,6 @@ Pe
 a
 ajuda
 ao
-seu
 administrador
 de
 rede
@@ -2055,7 +2055,7 @@ n
 o
 no
 seu
-computador
+dispositivo
 .
 <
 /
@@ -2187,7 +2187,7 @@ ul
 li
 >
 O
-computador
+dispositivo
 est
 conectado
 a

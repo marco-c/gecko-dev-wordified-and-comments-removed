@@ -5234,7 +5234,7 @@ browser_main_menu_handlebar_content_description
 >
 St
 ng
-huvudmenyn
+huvudmenybladet
 <
 /
 string
@@ -5274,7 +5274,7 @@ browser_extensions_menu_handlebar_content_description
 >
 St
 ng
-menyblad
+menybladet
 f
 r
 till
@@ -5318,8 +5318,9 @@ browser_save_menu_handlebar_content_description
 >
 St
 ng
-menyf
-ltet
+menyblad
+f
+r
 spara
 <
 /
@@ -5360,7 +5361,10 @@ browser_tools_menu_handlebar_content_description
 >
 St
 ng
-verktygsmenyn
+menyblad
+f
+r
+verktyg
 <
 /
 string
@@ -5402,7 +5406,8 @@ browser_custom_tab_menu_handlebar_content_description
 St
 ng
 menyblad
-med
+f
+r
 anpassad
 flik
 <
@@ -9090,8 +9095,7 @@ UnusedResources
 "
 >
 Antisp
-rning
-p
+rningsp
 rla
 .
 Stoppa
@@ -9323,8 +9327,7 @@ l
 ge
 f
 r
-mobil
-webben
+mobilwebben
 .
 <
 /
@@ -23830,9 +23833,7 @@ preference_feature_desktop_mode_default
 Beg
 r
 alltid
-f
-r
-datorer
+datorwebbplats
 <
 /
 string

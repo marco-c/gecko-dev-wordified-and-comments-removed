@@ -5199,8 +5199,6 @@ browser_main_menu_handlebar_content_description
 "
 >
 Hauptmen
--
-Seite
 schlie
 en
 <
@@ -5365,6 +5363,7 @@ browser_custom_tab_menu_handlebar_content_description
 "
 >
 Benutzerdefiniertes
+-
 Tab
 -
 Men
@@ -9001,14 +9000,15 @@ Anti
 -
 Tracking
 -
-Gemme
+Juwel
 .
 Stoppen
 Sie
 unsichtbare
 Verfolger
 und
-Werbungspionieren
+spionierende
+Werbung
 .
 <
 /

@@ -5264,6 +5264,7 @@ browser_main_menu_handlebar_content_description
 "
 >
 Fechar
+a
 folha
 do
 menu
@@ -5306,6 +5307,7 @@ browser_extensions_menu_handlebar_content_description
 "
 >
 Fechar
+a
 folha
 do
 menu
@@ -5350,8 +5352,9 @@ browser_save_menu_handlebar_content_description
 "
 >
 Fechar
+a
 folha
-de
+do
 menu
 <
 /
@@ -5391,6 +5394,7 @@ browser_tools_menu_handlebar_content_description
 "
 >
 Fechar
+a
 folha
 do
 menu
@@ -5435,8 +5439,9 @@ browser_custom_tab_menu_handlebar_content_description
 "
 >
 Fechar
+a
 folha
-de
+do
 menu
 de
 separador
@@ -9114,9 +9119,8 @@ ignore
 UnusedResources
 "
 >
-Texugo
-de
-privacidade
+Privacy
+Badger
 <
 /
 string
@@ -9158,7 +9162,8 @@ ignore
 UnusedResources
 "
 >
-Joia
+Uma
+preciosidade
 anti
 -
 rastreamento
@@ -9285,8 +9290,8 @@ interessante
 e
 saiba
 mais
-acerca
-da
+sobre
+a
 mesma
 .
 <
@@ -23960,7 +23965,7 @@ name
 preference_feature_desktop_mode_default
 "
 >
-Pedir
+Solicitar
 sempre
 o
 site
