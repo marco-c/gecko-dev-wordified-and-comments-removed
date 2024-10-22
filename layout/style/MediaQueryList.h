@@ -193,9 +193,6 @@ AddListener
 EventListener
 *
 aListener
-ErrorResult
-&
-aRv
 )
 ;
 void
@@ -204,9 +201,6 @@ RemoveListener
 EventListener
 *
 aListener
-ErrorResult
-&
-aRv
 )
 ;
 IMPL_EVENT_HANDLER

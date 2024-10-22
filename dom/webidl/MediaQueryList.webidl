@@ -162,9 +162,6 @@ attribute
 boolean
 matches
 ;
-[
-Throws
-]
 undefined
 addListener
 (
@@ -173,9 +170,6 @@ EventListener
 listener
 )
 ;
-[
-Throws
-]
 undefined
 removeListener
 (

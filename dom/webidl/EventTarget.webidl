@@ -261,9 +261,6 @@ false
 .
 *
 /
-[
-Throws
-]
 undefined
 addEventListener
 (
@@ -290,9 +287,6 @@ wantsUntrusted
 null
 )
 ;
-[
-Throws
-]
 undefined
 removeEventListener
 (
