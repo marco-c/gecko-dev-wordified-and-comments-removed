@@ -1339,6 +1339,11 @@ Union
 str
 Path
 ]
+force
+:
+bool
+=
+False
 )
 :
         
@@ -3707,6 +3712,11 @@ Union
 str
 Path
 ]
+force
+:
+bool
+=
+False
 )
 :
         
@@ -5939,6 +5949,11 @@ Union
 str
 Path
 ]
+force
+:
+bool
+=
+False
 )
 :
         
@@ -5962,15 +5977,41 @@ in
 paths
 ]
         
+cmd
+=
+[
+"
+add
+"
+]
+        
+if
+force
+:
+            
+cmd
+.
+append
+(
+"
+-
+f
+"
+)
+        
+cmd
+.
+extend
+(
+paths
+)
+        
 self
 .
 _run
 (
-"
-add
-"
 *
-paths
+cmd
 )
     
 def
@@ -7437,6 +7478,11 @@ Union
 str
 Path
 ]
+force
+:
+bool
+=
+False
 )
 :
         
