@@ -3073,6 +3073,13 @@ kwargs
 suppress_handler_traceback
 "
 ]
+                                 
+kwargs
+[
+"
+ws_extra
+"
+]
 )
 as
 test_environment
