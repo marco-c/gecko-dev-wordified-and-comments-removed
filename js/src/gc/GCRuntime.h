@@ -3196,6 +3196,15 @@ AutoLockGCBgAlloc
 lock
 )
 ;
+ArenaChunk
+*
+takeOrAllocChunk
+(
+AutoLockGCBgAlloc
+&
+lock
+)
+;
 void
 recycleChunk
 (
