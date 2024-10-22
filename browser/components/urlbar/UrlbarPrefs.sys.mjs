@@ -4802,9 +4802,6 @@ null
 recordNavigationalSuggestionTelemetry
 :
 false
-weatherKeywords
-:
-null
 weatherKeywordsMinimumLength
 :
 0

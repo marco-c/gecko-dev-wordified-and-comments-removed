@@ -383,13 +383,6 @@ sys
 mjs
 "
 "
-UrlbarProviderWeather
-.
-sys
-.
-mjs
-"
-"
 UrlbarResult
 .
 sys
