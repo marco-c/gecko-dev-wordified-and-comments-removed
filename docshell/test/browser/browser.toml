@@ -596,6 +596,13 @@ Bug
 1730593
 [
 "
+browser_bfcache_after_auxiliary
+.
+js
+"
+]
+[
+"
 browser_browsingContext
 -
 01
