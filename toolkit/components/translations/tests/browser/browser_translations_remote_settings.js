@@ -1057,9 +1057,14 @@ record
 }
 TranslationsParent
 .
-mockTranslationsEngine
+applyTestingMocks
 (
+{
+translationModelsRemoteClient
+:
 client
+translationsWasmRemoteClient
+:
 (
 await
 createTranslationsWasmRemoteClient
@@ -1068,6 +1073,7 @@ createTranslationsWasmRemoteClient
 )
 .
 client
+}
 )
 ;
 const
@@ -1220,7 +1226,7 @@ n
 ;
 TranslationsParent
 .
-unmockTranslationsEngine
+removeTestingMocks
 (
 )
 ;

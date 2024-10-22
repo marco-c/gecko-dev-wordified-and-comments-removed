@@ -465,7 +465,7 @@ add_task
 (
 async
 function
-test_translated_textnode
+test_translated_txtnode
 (
 )
 {
