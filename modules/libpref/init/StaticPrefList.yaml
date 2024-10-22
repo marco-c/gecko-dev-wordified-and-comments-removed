@@ -66230,7 +66230,7 @@ MOZ_WIDGET_ANDROID
 )
 value
 :
-IS_NIGHTLY_BUILD
+true
 #
 else
 value
