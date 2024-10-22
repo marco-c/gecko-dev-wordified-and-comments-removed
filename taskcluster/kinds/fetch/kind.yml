@@ -140,6 +140,12 @@ toolchains
 .
 yml
 -
+translations
+-
+fetch
+.
+yml
+-
 updatebot
 .
 yml
