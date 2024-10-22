@@ -499,6 +499,16 @@ continue
         
 if
 "
+third_party_fmt
+"
+in
+filename
+:
+            
+continue
+        
+if
+"
 Fuzzer
 "
 in
