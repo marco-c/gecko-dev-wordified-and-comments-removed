@@ -451,7 +451,7 @@ RawId
 >
 mSwapChainTexturesWaitingForSubmit
 ;
-void
+bool
 ResolveLostForDeviceId
 (
 RawId
