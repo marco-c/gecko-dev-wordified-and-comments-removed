@@ -28,7 +28,7 @@ const
 {
 createContext
 findSource
-getCM
+getCMEditor
 hoverOnToken
 openDebuggerAndLog
 pauseDebugger
@@ -242,7 +242,6 @@ openDebuggerAndLog
 custom
 "
 EXPECTED
-isCm6Enabled
 )
 ;
 dump
@@ -306,7 +305,6 @@ custom
 "
 toolbox
 EXPECTED
-isCm6Enabled
 )
 ;
 await
@@ -1145,7 +1143,6 @@ function
 testOpeningLargeMinifiedFile
 (
 dbg
-isCm6Enabled
 )
 {
 dump
@@ -1262,7 +1259,6 @@ waitForText
 (
 dbg
 fileFirstMinifiedChars
-isCm6Enabled
 )
 ;
 test
@@ -1382,11 +1378,12 @@ n
 const
 cm
 =
-getCM
+getCMEditor
 (
 dbg
-isCm6Enabled
 )
+.
+codeMirror
 ;
 await
 waitUntil
@@ -1396,13 +1393,16 @@ waitUntil
 =
 >
 {
-return
+if
+(
 isCm6Enabled
-?
-cm
-.
-isDocumentLoadComplete
-:
+)
+{
+return
+true
+;
+}
+return
 cm
 .
 doc
@@ -1500,7 +1500,6 @@ waitForText
 (
 dbg
 filePrettyChars
-isCm6Enabled
 )
 ;
 test
@@ -1576,7 +1575,6 @@ EXPECTED
 .
 threadsCount
 }
-isCm6Enabled
 )
 ;
 await
