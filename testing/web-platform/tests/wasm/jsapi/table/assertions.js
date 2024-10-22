@@ -178,6 +178,12 @@ length
 )
 ;
 }
+globalThis
+.
+assert_equal_to_array
+=
+assert_equal_to_array
+;
 function
 assert_Table
 (
@@ -268,3 +274,9 @@ i
 ;
 }
 }
+globalThis
+.
+assert_Table
+=
+assert_Table
+;

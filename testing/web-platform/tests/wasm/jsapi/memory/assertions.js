@@ -246,6 +246,12 @@ extensibility
 )
 ;
 }
+globalThis
+.
+assert_ArrayBuffer
+=
+assert_ArrayBuffer
+;
 function
 assert_Memory
 (
@@ -319,3 +325,9 @@ shared
 )
 ;
 }
+globalThis
+.
+assert_Memory
+=
+assert_Memory
+;
