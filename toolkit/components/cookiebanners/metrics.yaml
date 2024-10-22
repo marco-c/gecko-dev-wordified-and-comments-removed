@@ -656,7 +656,7 @@ mozilla
 com
 expires
 :
-134
+135
 labels
 :
 -
@@ -971,7 +971,7 @@ mozilla
 com
 expires
 :
-134
+135
 labels
 :
 -
@@ -1236,7 +1236,7 @@ mozilla
 com
 expires
 :
-134
+135
 data_sensitivity
 :
 -
@@ -1419,7 +1419,7 @@ mozilla
 com
 expires
 :
-134
+135
 google_gdpr_choice_cookie
 :
 type
@@ -2131,7 +2131,7 @@ mozilla
 com
 expires
 :
-134
+135
 labels
 :
 -
@@ -2305,7 +2305,7 @@ mozilla
 com
 expires
 :
-134
+135
 query_selector_run_count_per_window_frame
 :
 type
@@ -2455,7 +2455,7 @@ mozilla
 com
 expires
 :
-134
+135
 query_selector_run_duration_per_window_top_level
 :
 type
@@ -2608,7 +2608,7 @@ mozilla
 com
 expires
 :
-134
+135
 query_selector_run_duration_per_window_frame
 :
 type
@@ -2761,7 +2761,7 @@ mozilla
 com
 expires
 :
-134
+135
 cookie
 .
 banners
@@ -2899,7 +2899,7 @@ mozilla
 com
 expires
 :
-134
+135
 detected_cmp
 :
 type
@@ -3021,7 +3021,7 @@ mozilla
 com
 expires
 :
-134
+135
 result
 :
 type
@@ -3178,7 +3178,7 @@ mozilla
 com
 expires
 :
-134
+135
 labels
 :
 -
