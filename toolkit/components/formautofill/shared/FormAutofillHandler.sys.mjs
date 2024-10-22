@@ -1597,6 +1597,14 @@ localName
 "
 iframe
 "
+&
+&
+FormAutofillUtils
+.
+isFieldVisible
+(
+element
+)
 )
 {
 const

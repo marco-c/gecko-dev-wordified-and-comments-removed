@@ -647,6 +647,9 @@ autocompleteInfo
 confidence
 =
 null
+isVisible
+=
+true
 }
 =
 {
@@ -1075,14 +1078,7 @@ fieldDetail
 .
 isVisible
 =
-lazy
-.
-FormAutofillUtils
-.
-isFieldVisible
-(
-element
-)
+isVisible
 ;
 /
 /
