@@ -1586,6 +1586,11 @@ mIsNewWindowTarget
 =
 false
 ;
+bool
+mSkipHTTPSUpgrade
+=
+false
+;
 }
 ;
 already_AddRefed
