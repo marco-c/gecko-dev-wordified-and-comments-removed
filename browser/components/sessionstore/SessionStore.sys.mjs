@@ -36267,6 +36267,14 @@ command
 )
 ;
 }
+aWindow
+.
+SidebarController
+.
+uiStateInitialized
+=
+true
+;
 }
 if
 (
