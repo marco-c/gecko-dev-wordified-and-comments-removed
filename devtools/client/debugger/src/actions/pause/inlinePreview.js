@@ -2,7 +2,7 @@ import
 {
 getOriginalFrameScope
 getGeneratedFrameScope
-getInlinePreviews
+getSelectedFrameInlinePreviews
 getSelectedLocation
 getSelectedFrame
 getCurrentThread
@@ -128,7 +128,7 @@ null
 }
 if
 (
-getInlinePreviews
+getSelectedFrameInlinePreviews
 (
 getState
 (
