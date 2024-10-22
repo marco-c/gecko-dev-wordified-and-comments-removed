@@ -1614,8 +1614,6 @@ OriginScope
 FromOrigin
 (
 aOriginMetadata
-.
-mOrigin
 )
 aOriginMetadata
 .
