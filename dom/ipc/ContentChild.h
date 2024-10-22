@@ -558,6 +558,9 @@ InitSharedUASheets
 (
 Maybe
 <
+base
+:
+:
 SharedMemoryHandle
 >
 &
@@ -1652,10 +1655,10 @@ ipc
 IPCResult
 RecvUpdateSharedData
 (
-SharedMemoryHandle
+const
+FileDescriptor
 &
-&
-aMapHandle
+aMapFile
 const
 uint32_t
 &
@@ -1794,6 +1797,9 @@ const
 uint32_t
 &
 aIndex
+base
+:
+:
 SharedMemoryHandle
 &
 &
@@ -2841,6 +2847,9 @@ SystemFontList
 aFontList
 Maybe
 <
+base
+:
+:
 SharedMemoryHandle
 >
 &
@@ -2852,6 +2861,9 @@ uintptr_t
 aSharedUASheetAddress
 nsTArray
 <
+base
+:
+:
 SharedMemoryHandle
 >
 &
@@ -3009,6 +3021,9 @@ mFontList
 }
 nsTArray
 <
+base
+:
+:
 SharedMemoryHandle
 >
 &
@@ -4643,6 +4658,9 @@ mLookAndFeelData
 ;
 nsTArray
 <
+base
+:
+:
 SharedMemoryHandle
 >
 mSharedFontListBlocks
