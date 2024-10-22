@@ -904,11 +904,12 @@ toUri
 )
 )
 {
-waitForPageToLoad
+verifyPageContent
 (
-pageLoadWaitingTime
-=
-waitingTimeLong
+"
+Example
+Domain
+"
 )
 }
 .

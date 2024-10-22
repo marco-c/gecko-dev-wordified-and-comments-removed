@@ -384,11 +384,13 @@ toUri
 )
 )
 {
-waitForPageToLoad
+verifyPageContent
 (
-pageLoadWaitingTime
-=
-waitingTimeLong
+"
+Misc
+Link
+Types
+"
 )
 }
 .
