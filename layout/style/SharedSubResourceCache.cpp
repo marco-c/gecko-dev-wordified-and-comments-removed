@@ -182,6 +182,11 @@ Document
 aDocument
 )
 {
+MOZ_ASSERT
+(
+aDocument
+)
+;
 if
 (
 !
