@@ -2623,6 +2623,8 @@ RS_INFERENCE_OPTIONS_COLLECTION
 let
 records
 =
+featureId
+?
 await
 client
 .
@@ -2636,6 +2638,9 @@ featureId
 }
 }
 )
+:
+[
+]
 ;
 /
 /
