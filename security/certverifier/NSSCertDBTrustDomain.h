@@ -326,6 +326,9 @@ ocspCache
 SignatureCache
 *
 signatureCache
+TrustCache
+*
+trustCache
 void
 *
 pinArg
@@ -1270,6 +1273,10 @@ mOCSPCache
 SignatureCache
 *
 mSignatureCache
+;
+TrustCache
+*
+mTrustCache
 ;
 void
 *
