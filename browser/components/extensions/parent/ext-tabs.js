@@ -5812,7 +5812,7 @@ numPinned
 =
 gBrowser
 .
-_numPinnedTabs
+pinnedTabCount
 ;
 let
 ok

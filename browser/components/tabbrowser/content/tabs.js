@@ -2661,7 +2661,7 @@ slice
 0
 gBrowser
 .
-_numPinnedTabs
+pinnedTabCount
 )
 ;
 let
@@ -7329,7 +7329,7 @@ visibleTabs
 [
 gBrowser
 .
-_numPinnedTabs
+pinnedTabCount
 ]
 ;
 if
@@ -7587,7 +7587,7 @@ numPinned
 =
 gBrowser
 .
-_numPinnedTabs
+pinnedTabCount
 ;
 if
 (
@@ -8045,13 +8045,13 @@ numPinned
 =
 gBrowser
 .
-_numPinnedTabs
+pinnedTabCount
 ;
 if
 (
 gBrowser
 .
-_numPinnedTabs
+pinnedTabCount
 !
 =
 =
@@ -8212,7 +8212,7 @@ numPinned
 =
 gBrowser
 .
-_numPinnedTabs
+pinnedTabCount
 ;
 let
 absPositionHorizontalTabs
@@ -8712,7 +8712,7 @@ slice
 0
 gBrowser
 .
-_numPinnedTabs
+pinnedTabCount
 )
 ;
 let
@@ -9852,7 +9852,7 @@ numPinned
 =
 gBrowser
 .
-_numPinnedTabs
+pinnedTabCount
 ;
 let
 tabs
@@ -11642,7 +11642,7 @@ min
 index
 gBrowser
 .
-_numPinnedTabs
+pinnedTabCount
 -
 1
 )
@@ -11656,7 +11656,7 @@ max
 index
 gBrowser
 .
-_numPinnedTabs
+pinnedTabCount
 )
 ;
 }

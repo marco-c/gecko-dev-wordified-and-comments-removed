@@ -20464,7 +20464,7 @@ length
 -
 tabbrowser
 .
-_numPinnedTabs
+pinnedTabCount
 ;
 }
 }

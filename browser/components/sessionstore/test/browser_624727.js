@@ -60,7 +60,7 @@ is
 (
 gBrowser
 .
-_numPinnedTabs
+pinnedTabCount
 num
 msg
 )

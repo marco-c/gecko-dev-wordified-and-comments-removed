@@ -186,7 +186,7 @@ tabs
 [
 gBrowser
 .
-_numPinnedTabs
+pinnedTabCount
 ]
 ;
 let

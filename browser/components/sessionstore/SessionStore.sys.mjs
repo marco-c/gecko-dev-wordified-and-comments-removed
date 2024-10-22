@@ -28640,7 +28640,7 @@ i
 =
 tabbrowser
 .
-_numPinnedTabs
+pinnedTabCount
 ;
 i
 <

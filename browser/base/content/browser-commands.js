@@ -1607,7 +1607,7 @@ length
 >
 gBrowser
 .
-_numPinnedTabs
+pinnedTabCount
 )
 {
 gBrowser
@@ -1618,7 +1618,7 @@ selectedIndex
 =
 gBrowser
 .
-_numPinnedTabs
+pinnedTabCount
 ;
 }
 return
