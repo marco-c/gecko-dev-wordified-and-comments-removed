@@ -15014,9 +15014,11 @@ PERSISTENCE_TYPE_PRIVATE
 OriginScope
 :
 :
-FromOrigin
+FromGroup
 (
 mOriginMetadata
+.
+mGroup
 )
 Nullable
 <
