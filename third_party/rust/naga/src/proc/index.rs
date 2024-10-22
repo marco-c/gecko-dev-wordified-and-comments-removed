@@ -790,6 +790,10 @@ length
 impl
 GuardedIndex
 {
+pub
+(
+crate
+)
 fn
 try_resolve_to_constant
 (

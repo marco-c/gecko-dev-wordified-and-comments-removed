@@ -1238,8 +1238,9 @@ support
 for
 gl_BaseInstanceARB
 gl_BaseVertexARB
-and
 gl_DrawIDARB
+and
+gl_DrawID
 .
 const
 DRAW_PARAMETERS
@@ -27580,6 +27581,15 @@ uint
 (
 gl_VertexID
 )
+"
+Bi
+:
+:
+DrawID
+=
+>
+"
+gl_DrawID
 "
 Bi
 :

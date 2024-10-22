@@ -12705,9 +12705,13 @@ Bi
 :
 :
 WorkGroupSize
+|
+Bi
+:
+:
+DrawID
 =
 >
-{
 return
 Err
 (
@@ -12731,7 +12735,6 @@ built_in
 )
 )
 )
-}
 }
 )
 }

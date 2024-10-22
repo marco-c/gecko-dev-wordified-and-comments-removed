@@ -1396,6 +1396,11 @@ Self
 :
 :
 PointCoord
+|
+Self
+:
+:
+DrawID
 =
 >
 {

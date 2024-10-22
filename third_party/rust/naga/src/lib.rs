@@ -728,6 +728,7 @@ CullDistance
 InstanceIndex
 PointSize
 VertexIndex
+DrawID
 FragDepth
 PointCoord
 FrontFacing

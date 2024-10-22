@@ -1000,6 +1000,15 @@ BuiltIn
 :
 :
 LocalInvocationIndex
+"
+gl_DrawID
+"
+=
+>
+BuiltIn
+:
+:
+DrawID
 _
 =
 >

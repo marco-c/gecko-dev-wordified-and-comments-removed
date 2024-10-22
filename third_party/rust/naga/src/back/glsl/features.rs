@@ -3409,6 +3409,14 @@ BuiltIn
 :
 :
 InstanceIndex
+|
+crate
+:
+:
+BuiltIn
+:
+:
+DrawID
 =
 >
 {
