@@ -77,6 +77,16 @@ aEvent
 )
 ;
 bool
+PushNameOrDescriptionChangeToRelations
+(
+LocalAccessible
+*
+aAccessible
+RelationType
+aType
+)
+;
+bool
 PushNameOrDescriptionChange
 (
 AccEvent
