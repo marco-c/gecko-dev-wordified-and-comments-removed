@@ -253,6 +253,8 @@ home
 .
 pocket
 .
+view
+.
 PocketCategoriesViewHolder
 import
 org
@@ -265,6 +267,8 @@ home
 .
 pocket
 .
+view
+.
 PocketRecommendationsHeaderViewHolder
 import
 org
@@ -276,6 +280,8 @@ fenix
 home
 .
 pocket
+.
+view
 .
 PocketStoriesViewHolder
 import

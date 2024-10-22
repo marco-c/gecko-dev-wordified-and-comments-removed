@@ -66,6 +66,8 @@ fenix
 home
 .
 pocket
+.
+interactor
 import
 mozilla
 .
@@ -88,6 +90,18 @@ pocket
 PocketStory
 .
 PocketRecommendedStory
+import
+org
+.
+mozilla
+.
+fenix
+.
+home
+.
+pocket
+.
+PocketRecommendedStoriesCategory
 /
 *
 *

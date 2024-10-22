@@ -1403,7 +1403,7 @@ home
 .
 pocket
 .
-DefaultPocketStoriesController
+PocketRecommendedStoriesCategory
 import
 org
 .
@@ -1415,7 +1415,9 @@ home
 .
 pocket
 .
-PocketRecommendedStoriesCategory
+controller
+.
+DefaultPocketStoriesController
 import
 org
 .
