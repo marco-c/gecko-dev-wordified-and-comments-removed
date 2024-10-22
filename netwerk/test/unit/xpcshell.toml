@@ -4802,6 +4802,9 @@ test_httpssvc_https_upgrade
 js
 "
 ]
+https_first_disabled
+=
+true
 [
 "
 test_httpssvc_iphint

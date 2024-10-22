@@ -199,7 +199,7 @@ com
 expectedScheme
 :
 "
-http
+https
 "
 expectedPort
 :

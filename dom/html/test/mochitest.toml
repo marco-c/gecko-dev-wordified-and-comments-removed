@@ -3542,6 +3542,9 @@ test_bug1292522_same_domain_with_different_port_number
 html
 "
 ]
+https_first_disabled
+=
+true
 skip
 -
 if
