@@ -79,6 +79,16 @@ github
 tracking
 :
 commit
+patches
+:
+-
+print
+-
+null
+-
+string
+.
+patch
 exclude
 :
 -
