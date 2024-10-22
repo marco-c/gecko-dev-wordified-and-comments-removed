@@ -97,6 +97,12 @@ sequence
 <
 USVString
 >
+selectableBuyerAndSellerReportingIds
+;
+sequence
+<
+USVString
+>
 allowedReportingOrigins
 ;
 DOMString
@@ -387,6 +393,7 @@ sellerSignals
 Promise
 <
 DOMString
+?
 >
 directFromSellerSignalsHeaderAdSlot
 ;
@@ -397,6 +404,7 @@ record
 USVString
 USVString
 >
+?
 >
 deprecatedRenderURLReplacements
 ;
@@ -416,6 +424,7 @@ record
 USVString
 any
 >
+?
 >
 perBuyerSignals
 ;
@@ -428,6 +437,7 @@ unsigned
 long
 long
 >
+?
 >
 perBuyerTimeouts
 ;
@@ -440,6 +450,7 @@ unsigned
 long
 long
 >
+?
 >
 perBuyerCumulativeTimeouts
 ;
@@ -458,6 +469,7 @@ record
 USVString
 USVString
 >
+?
 >
 perBuyerCurrencies
 ;
@@ -847,6 +859,9 @@ render
 any
 ad
 ;
+USVString
+selectedBuyerAndSellerReportingId
+;
 sequence
 <
 (
@@ -1186,6 +1201,9 @@ componentSeller
 ;
 USVString
 buyerAndSellerReportingId
+;
+USVString
+selectedBuyerAndSellerReportingId
 ;
 }
 ;
