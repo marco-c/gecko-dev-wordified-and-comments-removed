@@ -225,7 +225,6 @@ return
 false
 ;
 }
-else
 if
 (
 !
