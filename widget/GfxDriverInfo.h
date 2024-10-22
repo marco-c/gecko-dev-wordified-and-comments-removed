@@ -768,6 +768,7 @@ RadeonBlockZeroVideoCopy
 Geforce7300GT
 Nvidia310M
 Nvidia8800GTS
+NvidiaPascal
 Bug1137716
 Bug1116812
 Bug1155608
