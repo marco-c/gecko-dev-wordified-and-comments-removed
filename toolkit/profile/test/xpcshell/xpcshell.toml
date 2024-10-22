@@ -24,13 +24,6 @@ android
 ]
 [
 "
-test_async_flush
-.
-js
-"
-]
-[
-"
 test_check_backup
 .
 js
