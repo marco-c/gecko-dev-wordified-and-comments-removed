@@ -1651,7 +1651,7 @@ self
 .
 marionette
 .
-execute_script
+execute_async_script
 (
             
 "
@@ -1659,12 +1659,12 @@ execute_script
 "
           
 let
+[
 newProfileName
+outerResolve
+]
 =
 arguments
-[
-0
-]
 ;
           
 let
@@ -1718,8 +1718,13 @@ true
           
 profileSvc
 .
-flush
+asyncFlush
 (
+)
+.
+then
+(
+outerResolve
 )
 ;
         

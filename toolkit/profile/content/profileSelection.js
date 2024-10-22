@@ -412,9 +412,10 @@ gNeedsFlush
 {
 try
 {
+await
 gProfileService
 .
-flush
+asyncFlush
 (
 )
 ;
