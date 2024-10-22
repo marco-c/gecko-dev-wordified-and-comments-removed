@@ -696,7 +696,7 @@ bar
 "
 >
 <
-h3
+h2
 className
 =
 {
@@ -821,7 +821,7 @@ dispatch
 }
 <
 /
-h3
+h2
 >
 {
 mayHaveTopicsSelection
