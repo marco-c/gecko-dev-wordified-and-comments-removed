@@ -346,7 +346,7 @@ nsTArray
 <
 RefPtr
 <
-DirectoryLock
+DirectoryLockImpl
 >
 >
 DirectoryLockImpl
@@ -371,7 +371,7 @@ nsTArray
 <
 RefPtr
 <
-DirectoryLock
+DirectoryLockImpl
 >
 >
 locks
