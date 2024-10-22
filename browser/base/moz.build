@@ -551,17 +551,6 @@ content
 /
 test
 /
-tabMediaIndicator
-/
-browser
-.
-toml
-"
-"
-content
-/
-test
-/
 tabPrompts
 /
 browser

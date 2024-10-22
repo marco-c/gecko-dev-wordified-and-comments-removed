@@ -143,6 +143,17 @@ test
 /
 browser
 /
+tabMediaIndicator
+/
+browser
+.
+toml
+"
+"
+test
+/
+browser
+/
 tabs
 /
 browser
