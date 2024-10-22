@@ -7,6 +7,17 @@ MOZILLA_IPC_RAWSHMEM_H_
 #
 include
 "
+chrome
+/
+common
+/
+ipc_message_utils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ipc
