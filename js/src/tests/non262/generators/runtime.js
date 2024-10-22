@@ -19,6 +19,11 @@ f
 (
 )
 {
+"
+use
+strict
+"
+;
 }
 function
 *
