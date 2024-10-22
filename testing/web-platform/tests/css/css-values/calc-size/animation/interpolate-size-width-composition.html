@@ -426,15 +426,13 @@ content
 '
 /
 *
-ignored
-not
-compatible
+100px
 *
 /
 addFrom
 :
 '
-100px
+200px
 '
 addTo
 :
@@ -444,6 +442,12 @@ auto
 /
 *
 200px
+max
+-
+content
+underlying
+is
+ignored
 *
 /
 }
@@ -458,7 +462,7 @@ at
 expect
 :
 '
-70px
+300px
 '
 }
 {
@@ -468,7 +472,7 @@ at
 expect
 :
 '
-100px
+300px
 '
 }
 {
@@ -480,7 +484,7 @@ at
 expect
 :
 '
-150px
+200px
 '
 }
 {
@@ -502,7 +506,7 @@ at
 expect
 :
 '
-250px
+200px
 '
 }
 ]
