@@ -353,6 +353,17 @@ large_arraybuffers
 =
 true
 "
+"
+javascript
+.
+options
+.
+experimental
+.
+error_iserror
+=
+true
+"
 ]
 [
 "
