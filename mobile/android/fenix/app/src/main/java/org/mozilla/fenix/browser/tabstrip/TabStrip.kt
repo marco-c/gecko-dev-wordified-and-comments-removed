@@ -2767,7 +2767,7 @@ device
 =
 Devices
 .
-TABLET
+PIXEL_TABLET
 )
 Composable
 private
@@ -2810,7 +2810,7 @@ device
 =
 Devices
 .
-TABLET
+PIXEL_TABLET
 )
 Composable
 private
@@ -2860,7 +2860,7 @@ device
 =
 Devices
 .
-TABLET
+PIXEL_TABLET
 )
 Composable
 private
@@ -3023,7 +3023,7 @@ device
 =
 Devices
 .
-TABLET
+PIXEL_TABLET
 )
 Composable
 private
