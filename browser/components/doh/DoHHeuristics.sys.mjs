@@ -584,6 +584,16 @@ in
 Scalars
 .
 yaml
+and
+the
+equivalent
+Glean
+metric
+in
+metrics
+.
+yaml
+.
 Telemetry
 :
 {
