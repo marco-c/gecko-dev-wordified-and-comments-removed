@@ -1428,8 +1428,9 @@ gAUS
 .
 internal
 .
-postUpdateProcessing
+init
 (
+true
 )
 ;
 }
