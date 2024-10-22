@@ -5213,6 +5213,14 @@ reportGroup
 ;
 if
 (
+StaticPrefs
+:
+:
+dom_reporting_enabled
+(
+)
+&
+&
 !
 reportGroup
 .
