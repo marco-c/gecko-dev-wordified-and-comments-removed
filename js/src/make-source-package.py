@@ -1210,14 +1210,6 @@ in
 /
 third_party
 /
-fmt
-/
-*
-*
-+
-/
-third_party
-/
 function2
 /
 *
