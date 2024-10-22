@@ -300,7 +300,7 @@ compile_sdk_version
 target_sdk_version
 =
 "
-34
+35
 "
 min_sdk_version
 =
