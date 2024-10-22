@@ -117,6 +117,15 @@ media
 }
     
 "
+browser
+-
+translations
+"
+:
+{
+}
+    
+"
 chrome
 "
 :
@@ -483,6 +492,12 @@ a11y
 browser
 -
 media
+"
+                
+"
+browser
+-
+translations
 "
                 
 "

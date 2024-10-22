@@ -1,6 +1,11 @@
 [
 DEFAULT
 ]
+subsuite
+=
+"
+translations
+"
 support
 -
 files
@@ -356,6 +361,13 @@ js
 [
 "
 browser_translations_full_page_panel_switch_tabs_before_engine_ready
+.
+js
+"
+]
+[
+"
+browser_translations_full_page_panel_target_language_persists_on_reopen
 .
 js
 "
