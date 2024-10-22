@@ -24,6 +24,7 @@ query
 {
 CRLiteClubcard
 CRLiteCoverage
+CRLiteKey
 CRLiteQuery
 CRLiteStatus
 }
