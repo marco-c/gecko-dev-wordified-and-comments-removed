@@ -8475,6 +8475,13 @@ wrap
 urlbarView
 -
 row
+[
+dynamicType
+=
+"
+actions
+"
+]
 {
 display
 :
