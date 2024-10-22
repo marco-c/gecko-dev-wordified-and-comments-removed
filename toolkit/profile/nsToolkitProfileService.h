@@ -713,7 +713,7 @@ const
 bool
 mUseDedicatedProfile
 ;
-nsCString
+nsString
 mStartupReason
 ;
 nsCString
