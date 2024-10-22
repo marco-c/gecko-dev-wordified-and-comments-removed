@@ -6858,11 +6858,6 @@ ChromeUtils
 IsDevToolsOpened
 (
 )
-|
-|
-profiler_is_active
-(
-)
 )
 {
 dbgGuard

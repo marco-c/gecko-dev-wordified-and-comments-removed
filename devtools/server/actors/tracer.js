@@ -770,6 +770,13 @@ tracingListener
 .
 stop
 (
+lazy
+.
+JSTracer
+.
+maybeGetNativeTrace
+(
+)
 )
 ;
 this
