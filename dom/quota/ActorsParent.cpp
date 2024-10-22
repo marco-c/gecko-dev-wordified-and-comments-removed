@@ -15661,6 +15661,8 @@ auto
 principalMetadata
 GetInfoFromValidatedPrincipalInfo
 (
+*
+this
 principalInfo
 )
 )
@@ -16117,6 +16119,8 @@ auto
 principalMetadata
 GetInfoFromValidatedPrincipalInfo
 (
+*
+this
 principalInfo
 )
 )
@@ -24052,6 +24056,8 @@ PrincipalMetadata
 principalMetadata
 GetInfoFromValidatedPrincipalInfo
 (
+*
+this
 aPrincipalInfo
 )
 CreateAndRejectBoolPromise
@@ -24818,6 +24824,8 @@ PrincipalMetadata
 principalMetadata
 GetInfoFromValidatedPrincipalInfo
 (
+*
+this
 aPrincipalInfo
 )
 CreateAndRejectBoolPromise
@@ -29086,6 +29094,9 @@ QuotaManager
 :
 GetInfoFromValidatedPrincipalInfo
 (
+QuotaManager
+&
+aQuotaManager
 const
 PrincipalInfo
 &
@@ -29179,6 +29190,8 @@ const
 auto
 &
 originalOrigin
+aQuotaManager
+.
 GetOriginFromStorageOrigin
 (
 origin
@@ -29226,6 +29239,7 @@ principalInfo
 return
 GetInfoFromValidatedPrincipalInfo
 (
+aQuotaManager
 principalInfo
 )
 ;
@@ -29275,6 +29289,8 @@ QM_TRY_UNWRAP
 principalMetadata
 .
 mStorageOrigin
+aQuotaManager
+.
 EnsureStorageOriginFromOrigin
 (
 origin
@@ -34758,11 +34774,13 @@ QM_TRY_UNWRAP
 (
 auto
 principalMetadata
-quotaManager
--
->
+QuotaManager
+:
+:
 GetInfoFromValidatedPrincipalInfo
 (
+*
+quotaManager
 principalInfo
 )
 )

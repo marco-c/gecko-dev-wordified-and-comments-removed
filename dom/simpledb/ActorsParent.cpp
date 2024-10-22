@@ -4439,11 +4439,13 @@ QM_TRY_UNWRAP
 (
 auto
 principalMetadata
-quotaManager
--
->
+QuotaManager
+:
+:
 GetInfoFromValidatedPrincipalInfo
 (
+*
+quotaManager
 principalInfo
 )
 )
