@@ -115,6 +115,13 @@ js
 ]
 [
 "
+browser_address_capture_housenumber
+.
+js
+"
+]
+[
+"
 browser_address_capture_page_navigation
 .
 js

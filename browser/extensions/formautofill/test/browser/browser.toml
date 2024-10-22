@@ -145,6 +145,13 @@ mac
 ]
 [
 "
+browser_autofill_address_housenumber
+.
+js
+"
+]
+[
+"
 browser_autofill_address_select
 .
 js

@@ -1152,6 +1152,9 @@ alpha_3_code
 "
 DEU
 "
+address_reversed
+:
+true
 }
 "
 data
