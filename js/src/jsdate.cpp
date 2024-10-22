@@ -19979,7 +19979,7 @@ date_getUTCDay
 0
 0
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 getHours
@@ -19987,6 +19987,7 @@ getHours
 date_getHours
 0
 0
+DateGetHours
 )
 JS_FN
 (
@@ -19997,7 +19998,7 @@ date_getUTCHours
 0
 0
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 getMinutes
@@ -20005,6 +20006,7 @@ getMinutes
 date_getMinutes
 0
 0
+DateGetMinutes
 )
 JS_FN
 (
@@ -20015,7 +20017,7 @@ date_getUTCMinutes
 0
 0
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 getSeconds
@@ -20023,6 +20025,7 @@ getSeconds
 date_getSeconds
 0
 0
+DateGetSeconds
 )
 JS_FN
 (
