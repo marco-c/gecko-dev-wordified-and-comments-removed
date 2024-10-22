@@ -1103,19 +1103,6 @@ dom
 /
 quota
 /
-DirectoryLock
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
-quota
-/
 DirectoryLockInlines
 .
 h
@@ -9375,7 +9362,7 @@ mFileManager
 ;
 RefPtr
 <
-DirectoryLock
+ClientDirectoryLock
 >
 mDirectoryLock
 ;
@@ -9530,7 +9517,7 @@ DatabaseFileManager
 aFileManager
 RefPtr
 <
-DirectoryLock
+ClientDirectoryLock
 >
 aDirectoryLock
 bool
@@ -9710,7 +9697,7 @@ mId
 }
 Maybe
 <
-DirectoryLock
+ClientDirectoryLock
 &
 >
 MaybeDirectoryLockRef
@@ -12499,7 +12486,7 @@ mContentParentId
 ;
 RefPtr
 <
-DirectoryLock
+ClientDirectoryLock
 >
 mDirectoryLock
 ;
@@ -12925,7 +12912,7 @@ final
 void
 DirectoryLockAcquired
 (
-DirectoryLock
+ClientDirectoryLock
 *
 aLock
 )
@@ -20449,7 +20436,7 @@ public
 Runnable
 {
 using
-DirectoryLock
+ClientDirectoryLock
 =
 mozilla
 :
@@ -20460,7 +20447,7 @@ dom
 quota
 :
 :
-DirectoryLock
+ClientDirectoryLock
 ;
 enum
 State
@@ -20486,7 +20473,7 @@ mFileManager
 ;
 RefPtr
 <
-DirectoryLock
+ClientDirectoryLock
 >
 mDirectoryLock
 ;
@@ -20591,7 +20578,7 @@ NS_DECL_NSIRUNNABLE
 void
 DirectoryLockAcquired
 (
-DirectoryLock
+ClientDirectoryLock
 *
 aLock
 )
@@ -21119,7 +21106,7 @@ NS_DECL_NSIRUNNABLE
 void
 DirectoryLockAcquired
 (
-DirectoryLock
+UniversalDirectoryLock
 *
 aLock
 )
@@ -21330,7 +21317,7 @@ mMaintenance
 ;
 RefPtr
 <
-DirectoryLock
+ClientDirectoryLock
 >
 mDirectoryLock
 ;
@@ -21386,7 +21373,7 @@ Maintenance
 aMaintenance
 RefPtr
 <
-DirectoryLock
+ClientDirectoryLock
 >
 aDirectoryLock
 PersistenceType
@@ -39275,7 +39262,7 @@ DatabaseFileManager
 aFileManager
 RefPtr
 <
-DirectoryLock
+ClientDirectoryLock
 >
 aDirectoryLock
 bool
@@ -57020,7 +57007,7 @@ DeleteFilesRunnable
 :
 DirectoryLockAcquired
 (
-DirectoryLock
+ClientDirectoryLock
 *
 aLock
 )
@@ -59169,7 +59156,7 @@ databasePath
 {
 RefPtr
 <
-DirectoryLock
+ClientDirectoryLock
 >
 directoryLock
 =
@@ -59678,7 +59665,7 @@ Maintenance
 :
 DirectoryLockAcquired
 (
-DirectoryLock
+UniversalDirectoryLock
 *
 aLock
 )
@@ -66971,7 +66958,7 @@ FactoryOp
 :
 DirectoryLockAcquired
 (
-DirectoryLock
+ClientDirectoryLock
 *
 aLock
 )
