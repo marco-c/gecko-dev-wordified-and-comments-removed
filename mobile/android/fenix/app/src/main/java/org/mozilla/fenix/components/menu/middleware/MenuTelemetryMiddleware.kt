@@ -1225,6 +1225,10 @@ UpdateShowExtensionsOnboarding
 is
 MenuAction
 .
+UpdateShowDisabledExtensionsOnboarding
+is
+MenuAction
+.
 UpdateManageExtensionsMenuItemVisibility
 -
 >
