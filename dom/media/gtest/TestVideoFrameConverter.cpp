@@ -1807,7 +1807,7 @@ duplicationInterval
 now
 )
 ;
-EXPECT_EQ
+EXPECT_THAT
 (
 TimeDuration
 :
@@ -1826,7 +1826,10 @@ timestamp_us
 (
 )
 )
+IsDurationInMillisPositiveMultipleOf
+(
 duplicationInterval
+)
 )
 ;
 EXPECT_EQ
