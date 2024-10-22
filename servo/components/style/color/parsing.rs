@@ -751,6 +751,9 @@ t
 Result
 <
 ColorFunction
+<
+SpecifiedColor
+>
 ParseError
 <
 '
@@ -1061,6 +1064,9 @@ SpecifiedColor
 Result
 <
 ColorFunction
+<
+SpecifiedColor
+>
 ParseError
 <
 '
@@ -1323,6 +1329,9 @@ SpecifiedColor
 Result
 <
 ColorFunction
+<
+SpecifiedColor
+>
 ParseError
 <
 '
@@ -1535,6 +1544,9 @@ SpecifiedColor
 Result
 <
 ColorFunction
+<
+SpecifiedColor
+>
 ParseError
 <
 '
@@ -1686,6 +1698,9 @@ into_color
 IntoLabFn
 <
 ColorFunction
+<
+SpecifiedColor
+>
 >
 )
 -
@@ -1693,6 +1708,9 @@ ColorFunction
 Result
 <
 ColorFunction
+<
+SpecifiedColor
+>
 ParseError
 <
 '
@@ -1841,6 +1859,9 @@ into_color
 IntoLchFn
 <
 ColorFunction
+<
+SpecifiedColor
+>
 >
 )
 -
@@ -1848,6 +1869,9 @@ ColorFunction
 Result
 <
 ColorFunction
+<
+SpecifiedColor
+>
 ParseError
 <
 '
@@ -1954,6 +1978,9 @@ SpecifiedColor
 Result
 <
 ColorFunction
+<
+SpecifiedColor
+>
 ParseError
 <
 '
@@ -2101,6 +2128,7 @@ Copy
 Debug
 MallocSizeOf
 PartialEq
+ToAnimatedValue
 ToShmem
 )
 ]
@@ -2351,6 +2379,7 @@ Copy
 Debug
 MallocSizeOf
 PartialEq
+ToAnimatedValue
 ToShmem
 )
 ]
