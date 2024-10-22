@@ -3026,6 +3026,7 @@ _
 None
 }
 }
+pub
 fn
 try_sum_in_place
 (
