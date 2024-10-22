@@ -158,6 +158,9 @@ createAndMockMLRemoteSettings
 autoDownloadFromRemoteSettings
 =
 false
+records
+=
+null
 }
 =
 {
@@ -179,6 +182,7 @@ options
 await
 createOptionsRemoteClient
 (
+records
 )
 ;
 const
@@ -429,7 +433,7 @@ async
 function
 createOptionsRemoteClient
 (
-record
+records
 =
 null
 )
@@ -494,11 +498,12 @@ _remoteSettingsMockId
 if
 (
 !
-record
+records
 )
 {
-record
+records
 =
+[
 {
 taskName
 :
@@ -562,6 +567,7 @@ id
 69cf3e874138
 "
 }
+]
 ;
 }
 await
@@ -587,9 +593,7 @@ Date
 now
 (
 )
-[
-record
-]
+records
 )
 ;
 return
