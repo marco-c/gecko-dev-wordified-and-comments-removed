@@ -10840,7 +10840,7 @@ enabled
 var
 setAsDefaultBrowserPromptForExistingUsersEnabled
 by
-booleanPreference
+lazyFeatureFlagPreference
 (
 key
 =
@@ -10856,6 +10856,7 @@ pref_key_set_as_default_browser_prompt_enabled
 )
 default
 =
+{
 FxNimbus
 .
 features
@@ -10867,6 +10868,10 @@ value
 )
 .
 enabled
+}
+featureFlag
+=
+true
 )
 /
 *
@@ -11005,6 +11010,11 @@ prompts
 private
 val
 daysBetweenDefaultBrowserPrompts
+:
+Int
+get
+(
+)
 =
 FxNimbus
 .
@@ -11043,6 +11053,11 @@ user
 private
 val
 maxNumberOfDefaultBrowserPrompts
+:
+Int
+get
+(
+)
 =
 FxNimbus
 .
@@ -11078,6 +11093,11 @@ prompt
 private
 val
 appColdStartsToShowDefaultPrompt
+:
+Int
+get
+(
+)
 =
 FxNimbus
 .
