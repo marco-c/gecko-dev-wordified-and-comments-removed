@@ -952,8 +952,6 @@ DpOffset
 (
 -
 contextMenuWidthDp
-+
-ICON_SIZE
 ICON_SIZE
 )
 }
