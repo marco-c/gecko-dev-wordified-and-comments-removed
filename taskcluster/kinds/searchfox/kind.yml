@@ -327,8 +327,6 @@ linux64
 -
 rust
 -
-searchfox
--
 linux64
 -
 cbindgen
@@ -508,7 +506,7 @@ linux64
 -
 rust
 -
-searchfox
+cross
 -
 linux64
 -
@@ -712,7 +710,7 @@ linux64
 -
 rust
 -
-searchfox
+cross
 -
 linux64
 -
@@ -895,7 +893,7 @@ linux64
 -
 rust
 -
-searchfox
+ios
 -
 linux64
 -
@@ -1068,7 +1066,7 @@ linux64
 -
 rust
 -
-searchfox
+cross
 -
 linux64
 -
@@ -1348,7 +1346,7 @@ linux64
 -
 rust
 -
-searchfox
+cross
 -
 linux64
 -
