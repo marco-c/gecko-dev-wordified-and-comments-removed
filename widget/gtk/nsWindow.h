@@ -4089,6 +4089,15 @@ mozilla
 :
 Sides
 mResizableEdges
+{
+mozilla
+:
+:
+SideBits
+:
+:
+eAll
+}
 ;
 mozilla
 :
