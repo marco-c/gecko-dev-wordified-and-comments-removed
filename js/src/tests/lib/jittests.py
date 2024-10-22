@@ -2731,10 +2731,6 @@ minidump
 return
 cmd
     
-js_cmd_prefix
-=
-None
-    
 def
 get_command
 (
@@ -5043,12 +5039,6 @@ options
 use_xdr
     
 )
-    
-JitTest
-.
-js_cmd_prefix
-=
-prefix
     
 with
 TemporaryDirectory
