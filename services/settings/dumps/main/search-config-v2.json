@@ -16916,6 +16916,9 @@ aliases
 :
 [
 "
+biquipedia
+"
+"
 wikipedia
 "
 ]
@@ -17085,7 +17088,7 @@ an
 last_modified
 "
 :
-1702906502736
+1729004089205
 "
 recordType
 "
@@ -17097,7 +17100,7 @@ engine
 schema
 "
 :
-1702901742155
+1728896622109
 "
 variants
 "
@@ -17133,6 +17136,8 @@ aliases
 "
 :
 [
+"
+"
 "
 wikipedia
 "
@@ -17300,7 +17305,7 @@ ar
 last_modified
 "
 :
-1702906502733
+1729004089207
 "
 recordType
 "
@@ -17312,7 +17317,7 @@ engine
 schema
 "
 :
-1702901742756
+1729002476264
 "
 variants
 "
@@ -17567,6 +17572,9 @@ aliases
 :
 [
 "
+vikipediya
+"
+"
 wikipedia
 "
 ]
@@ -17737,7 +17745,7 @@ az
 last_modified
 "
 :
-1702906502726
+1729004089209
 "
 recordType
 "
@@ -17749,7 +17757,7 @@ engine
 schema
 "
 :
-1702901743987
+1729002478197
 "
 variants
 "
@@ -17785,6 +17793,8 @@ aliases
 "
 :
 [
+"
+"
 "
 wikipedia
 "
@@ -17953,7 +17963,7 @@ be
 last_modified
 "
 :
-1702906502510
+1729004089289
 "
 recordType
 "
@@ -17965,7 +17975,7 @@ engine
 schema
 "
 :
-1702901782971
+1729002480587
 "
 variants
 "
@@ -18002,7 +18012,6 @@ aliases
 :
 [
 "
-wikipedia
 "
 ]
 "
@@ -18176,7 +18185,7 @@ tarask
 last_modified
 "
 :
-1702906502506
+1729004089292
 "
 recordType
 "
@@ -18188,7 +18197,7 @@ engine
 schema
 "
 :
-1702901783595
+1729002485955
 "
 variants
 "
@@ -18224,6 +18233,8 @@ aliases
 "
 :
 [
+"
+"
 "
 wikipedia
 "
@@ -18391,7 +18402,7 @@ bg
 last_modified
 "
 :
-1702906502723
+1729004089211
 "
 recordType
 "
@@ -18403,7 +18414,7 @@ engine
 schema
 "
 :
-1702901744580
+1729002487482
 "
 variants
 "
@@ -18439,6 +18450,8 @@ aliases
 "
 :
 [
+"
+"
 "
 wikipedia
 "
@@ -18607,7 +18620,7 @@ bn
 last_modified
 "
 :
-1702906502503
+1729004089294
 "
 recordType
 "
@@ -18619,7 +18632,7 @@ engine
 schema
 "
 :
-1702901784204
+1729002489104
 "
 variants
 "
@@ -19102,6 +19115,10 @@ aliases
 :
 [
 "
+viquip
+dia
+"
+"
 wikipedia
 "
 ]
@@ -19272,7 +19289,7 @@ ca
 last_modified
 "
 :
-1702906502499
+1729004089296
 "
 recordType
 "
@@ -19284,7 +19301,7 @@ engine
 schema
 "
 :
-1702901784840
+1729002490717
 "
 variants
 "
@@ -19325,6 +19342,9 @@ aliases
 "
 :
 [
+"
+wicipedia
+"
 "
 wikipedia
 "
@@ -19495,7 +19515,7 @@ cy
 last_modified
 "
 :
-1702906502711
+1729004089213
 "
 recordType
 "
@@ -19507,7 +19527,7 @@ engine
 schema
 "
 :
-1702901746399
+1729002491953
 "
 variants
 "
@@ -19543,6 +19563,9 @@ aliases
 "
 :
 [
+"
+wikipedie
+"
 "
 wikipedia
 "
@@ -19715,7 +19738,7 @@ cz
 last_modified
 "
 :
-1702906502493
+1729004089298
 "
 recordType
 "
@@ -19727,7 +19750,7 @@ engine
 schema
 "
 :
-1702901786063
+1729002493066
 "
 variants
 "
@@ -20201,6 +20224,9 @@ aliases
 :
 [
 "
+wikipedija
+"
+"
 wikipedia
 "
 ]
@@ -20370,7 +20396,7 @@ dsb
 last_modified
 "
 :
-1702906502701
+1729004089216
 "
 recordType
 "
@@ -20382,7 +20408,7 @@ engine
 schema
 "
 :
-1702901748278
+1729002494375
 "
 variants
 "
@@ -20418,6 +20444,8 @@ aliases
 "
 :
 [
+"
+"
 "
 wikipedia
 "
@@ -20585,7 +20613,7 @@ el
 last_modified
 "
 :
-1722952002207
+1729004089203
 "
 recordType
 "
@@ -20597,7 +20625,7 @@ engine
 schema
 "
 :
-1722942003170
+1729002495941
 "
 variants
 "
@@ -20633,6 +20661,9 @@ aliases
 "
 :
 [
+"
+vikipedio
+"
 "
 wikipedia
 "
@@ -20805,7 +20836,7 @@ eo
 last_modified
 "
 :
-1702906502695
+1729004089218
 "
 recordType
 "
@@ -20817,7 +20848,7 @@ engine
 schema
 "
 :
-1702901749556
+1729002497291
 "
 variants
 "
@@ -21095,6 +21126,9 @@ aliases
 :
 [
 "
+vikipeedia
+"
+"
 wikipedia
 "
 ]
@@ -21264,7 +21298,7 @@ et
 last_modified
 "
 :
-1702906502691
+1729004089220
 "
 recordType
 "
@@ -21276,7 +21310,7 @@ engine
 schema
 "
 :
-1702901750177
+1729002498372
 "
 variants
 "
@@ -21531,6 +21565,8 @@ aliases
 :
 [
 "
+"
+"
 wikipedia
 "
 ]
@@ -21697,7 +21733,7 @@ fa
 last_modified
 "
 :
-1702906502685
+1729004089222
 "
 recordType
 "
@@ -21709,7 +21745,7 @@ engine
 schema
 "
 :
-1702901751455
+1729002499436
 "
 variants
 "
@@ -21964,6 +22000,10 @@ aliases
 :
 [
 "
+wikip
+dia
+"
+"
 wikipedia
 "
 ]
@@ -22135,7 +22175,7 @@ fr
 last_modified
 "
 :
-1702906502488
+1729004089301
 "
 recordType
 "
@@ -22147,7 +22187,7 @@ engine
 schema
 "
 :
-1702901786670
+1729002502123
 "
 variants
 "
@@ -22189,6 +22229,9 @@ aliases
 "
 :
 [
+"
+wikipedy
+"
 "
 wikipedia
 "
@@ -22361,7 +22404,7 @@ NL
 last_modified
 "
 :
-1702906502679
+1729004089224
 "
 recordType
 "
@@ -22373,7 +22416,7 @@ engine
 schema
 "
 :
-1702901752745
+1729002503250
 "
 variants
 "
@@ -22411,6 +22454,10 @@ aliases
 "
 :
 [
+"
+vicip
+id
+"
 "
 wikipedia
 "
@@ -22584,7 +22631,7 @@ IE
 last_modified
 "
 :
-1702906502675
+1729004089227
 "
 recordType
 "
@@ -22596,7 +22643,7 @@ engine
 schema
 "
 :
-1702901753350
+1729002504366
 "
 variants
 "
@@ -22634,6 +22681,9 @@ aliases
 "
 :
 [
+"
+uicipeid
+"
 "
 wikipedia
 "
@@ -22805,7 +22855,7 @@ gd
 last_modified
 "
 :
-1702906502672
+1729004089229
 "
 recordType
 "
@@ -22817,7 +22867,7 @@ engine
 schema
 "
 :
-1702901753945
+1729002505545
 "
 variants
 "
@@ -23072,6 +23122,9 @@ aliases
 :
 [
 "
+vikipet
+"
+"
 wikipedia
 "
 ]
@@ -23244,7 +23297,7 @@ gn
 last_modified
 "
 :
-1702906502665
+1729004089231
 "
 recordType
 "
@@ -23256,7 +23309,7 @@ engine
 schema
 "
 :
-1702901755160
+1729002506870
 "
 variants
 "
@@ -23292,6 +23345,8 @@ aliases
 "
 :
 [
+"
+"
 "
 wikipedia
 "
@@ -23459,7 +23514,7 @@ gu
 last_modified
 "
 :
-1702906502485
+1729004089303
 "
 recordType
 "
@@ -23471,7 +23526,7 @@ engine
 schema
 "
 :
-1702901787288
+1729002508415
 "
 variants
 "
@@ -23509,6 +23564,8 @@ aliases
 "
 :
 [
+"
+"
 "
 wikipedia
 "
@@ -23673,7 +23730,7 @@ he
 last_modified
 "
 :
-1702906502662
+1729004089235
 "
 recordType
 "
@@ -23685,7 +23742,7 @@ engine
 schema
 "
 :
-1702901755766
+1729002509714
 "
 variants
 "
@@ -23721,6 +23778,8 @@ aliases
 "
 :
 [
+"
+"
 "
 wikipedia
 "
@@ -23888,7 +23947,7 @@ hi
 last_modified
 "
 :
-1702906502482
+1729004089305
 "
 recordType
 "
@@ -23900,7 +23959,7 @@ engine
 schema
 "
 :
-1702901787905
+1729002511062
 "
 variants
 "
@@ -23938,6 +23997,9 @@ aliases
 "
 :
 [
+"
+wikipedija
+"
 "
 wikipedia
 "
@@ -24109,7 +24171,7 @@ hr
 last_modified
 "
 :
-1702906502658
+1729004089237
 "
 recordType
 "
@@ -24121,7 +24183,7 @@ engine
 schema
 "
 :
-1702901756375
+1729002512016
 "
 variants
 "
@@ -24157,6 +24219,9 @@ aliases
 "
 :
 [
+"
+wikipedija
+"
 "
 wikipedia
 "
@@ -24327,7 +24392,7 @@ hsb
 last_modified
 "
 :
-1702906502655
+1729004089239
 "
 recordType
 "
@@ -24339,7 +24404,7 @@ engine
 schema
 "
 :
-1702901756979
+1729002513214
 "
 variants
 "
@@ -24375,6 +24440,10 @@ aliases
 "
 :
 [
+"
+wikip
+dia
+"
 "
 wikipedia
 "
@@ -24548,7 +24617,7 @@ hu
 last_modified
 "
 :
-1702906502651
+1729004089241
 "
 recordType
 "
@@ -24560,7 +24629,7 @@ engine
 schema
 "
 :
-1702901757634
+1729002514305
 "
 variants
 "
@@ -24596,6 +24665,8 @@ aliases
 "
 :
 [
+"
+"
 "
 wikipedia
 "
@@ -24763,7 +24834,7 @@ hy
 last_modified
 "
 :
-1722952002231
+1729004089187
 "
 recordType
 "
@@ -24775,7 +24846,7 @@ engine
 schema
 "
 :
-1722942005797
+1729002515482
 "
 variants
 "
@@ -25916,6 +25987,8 @@ aliases
 :
 [
 "
+"
+"
 wikipedia
 "
 ]
@@ -26082,7 +26155,7 @@ ka
 last_modified
 "
 :
-1702906502636
+1729004089244
 "
 recordType
 "
@@ -26094,7 +26167,7 @@ engine
 schema
 "
 :
-1702901760115
+1729002516520
 "
 variants
 "
@@ -26349,6 +26422,8 @@ aliases
 :
 [
 "
+"
+"
 wikipedia
 "
 ]
@@ -26515,7 +26590,7 @@ kk
 last_modified
 "
 :
-1702906502628
+1729004089246
 "
 recordType
 "
@@ -26527,7 +26602,7 @@ engine
 schema
 "
 :
-1702901761359
+1729002517453
 "
 variants
 "
@@ -26563,6 +26638,8 @@ aliases
 "
 :
 [
+"
+"
 "
 wikipedia
 "
@@ -26730,7 +26807,7 @@ km
 last_modified
 "
 :
-1702906502625
+1729004089248
 "
 recordType
 "
@@ -26742,7 +26819,7 @@ engine
 schema
 "
 :
-1702901761969
+1729002518717
 "
 variants
 "
@@ -26778,6 +26855,8 @@ aliases
 "
 :
 [
+"
+"
 "
 wikipedia
 "
@@ -26946,7 +27025,7 @@ kn
 last_modified
 "
 :
-1722952002211
+1729004089200
 "
 recordType
 "
@@ -26958,7 +27037,7 @@ engine
 schema
 "
 :
-1722942007046
+1729002519733
 "
 variants
 "
@@ -26994,6 +27073,8 @@ aliases
 "
 :
 [
+"
+"
 "
 wikipedia
 "
@@ -27161,7 +27242,7 @@ kr
 last_modified
 "
 :
-1702906502470
+1729004089308
 "
 recordType
 "
@@ -27173,7 +27254,7 @@ engine
 schema
 "
 :
-1702901790335
+1729002520757
 "
 variants
 "
@@ -27430,6 +27511,8 @@ aliases
 :
 [
 "
+"
+"
 wikipedia
 "
 ]
@@ -27596,7 +27679,7 @@ lo
 last_modified
 "
 :
-1702906502615
+1729004089250
 "
 recordType
 "
@@ -27608,7 +27691,7 @@ engine
 schema
 "
 :
-1702901763817
+1729002521798
 "
 variants
 "
@@ -27644,6 +27727,9 @@ aliases
 "
 :
 [
+"
+vikipedija
+"
 "
 wikipedia
 "
@@ -27815,7 +27901,7 @@ lt
 last_modified
 "
 :
-1722952002214
+1729004089198
 "
 recordType
 "
@@ -27827,7 +27913,7 @@ engine
 schema
 "
 :
-1722942008331
+1729002522879
 "
 variants
 "
@@ -27863,6 +27949,9 @@ aliases
 "
 :
 [
+"
+vikipedeja
+"
 "
 wikipedia
 "
@@ -28034,7 +28123,7 @@ ltg
 last_modified
 "
 :
-1702906502609
+1729004089252
 "
 recordType
 "
@@ -28046,7 +28135,7 @@ engine
 schema
 "
 :
-1702901765044
+1729002523991
 "
 variants
 "
@@ -28082,6 +28171,10 @@ aliases
 "
 :
 [
+"
+vikip
+dija
+"
 "
 wikipedia
 "
@@ -28253,7 +28346,7 @@ lv
 last_modified
 "
 :
-1722952002217
+1729004089196
 "
 recordType
 "
@@ -28265,7 +28358,7 @@ engine
 schema
 "
 :
-1722942009487
+1729002525117
 "
 variants
 "
@@ -28301,6 +28394,8 @@ aliases
 "
 :
 [
+"
+"
 "
 wikipedia
 "
@@ -28468,7 +28563,7 @@ mk
 last_modified
 "
 :
-1702906502602
+1729004089255
 "
 recordType
 "
@@ -28480,7 +28575,7 @@ engine
 schema
 "
 :
-1702901766290
+1729002525972
 "
 variants
 "
@@ -28516,6 +28611,8 @@ aliases
 "
 :
 [
+"
+"
 "
 wikipedia
 "
@@ -28683,7 +28780,7 @@ mr
 last_modified
 "
 :
-1702906502599
+1729004089257
 "
 recordType
 "
@@ -28695,7 +28792,7 @@ engine
 schema
 "
 :
-1702901766916
+1729002526927
 "
 variants
 "
@@ -28950,6 +29047,8 @@ aliases
 :
 [
 "
+"
+"
 wikipedia
 "
 ]
@@ -29118,7 +29217,7 @@ my
 last_modified
 "
 :
-1722952002221
+1729004089194
 "
 recordType
 "
@@ -29130,7 +29229,7 @@ engine
 schema
 "
 :
-1722942010626
+1729002527903
 "
 variants
 "
@@ -29166,6 +29265,8 @@ aliases
 "
 :
 [
+"
+"
 "
 wikipedia
 "
@@ -29334,7 +29435,7 @@ ne
 last_modified
 "
 :
-1702906502465
+1729004089310
 "
 recordType
 "
@@ -29346,7 +29447,7 @@ engine
 schema
 "
 :
-1702901791565
+1729002528998
 "
 variants
 "
@@ -29603,6 +29704,10 @@ aliases
 :
 [
 "
+wikip
+dia
+"
+"
 wikipedia
 "
 ]
@@ -29774,7 +29879,7 @@ oc
 last_modified
 "
 :
-1702906502585
+1729004089259
 "
 recordType
 "
@@ -29786,7 +29891,7 @@ engine
 schema
 "
 :
-1702901769405
+1729002529878
 "
 variants
 "
@@ -29822,6 +29927,8 @@ aliases
 "
 :
 [
+"
+"
 "
 wikipedia
 "
@@ -29989,7 +30096,7 @@ pa
 last_modified
 "
 :
-1722952002238
+1729004089185
 "
 recordType
 "
@@ -30001,7 +30108,7 @@ engine
 schema
 "
 :
-1722942011825
+1729002530859
 "
 variants
 "
@@ -30261,6 +30368,10 @@ aliases
 :
 [
 "
+wikip
+dia
+"
+"
 wikipedia
 "
 ]
@@ -30431,7 +30542,7 @@ pt
 last_modified
 "
 :
-1722952002241
+1729004089183
 "
 recordType
 "
@@ -30443,7 +30554,7 @@ engine
 schema
 "
 :
-1722942012990
+1729002531798
 "
 variants
 "
@@ -30924,6 +31035,8 @@ aliases
 :
 [
 "
+"
+"
 wikipedia
 "
 ]
@@ -31090,7 +31203,7 @@ ru
 last_modified
 "
 :
-1702906502574
+1729004089261
 "
 recordType
 "
@@ -31102,7 +31215,7 @@ engine
 schema
 "
 :
-1702901771244
+1729002532830
 "
 variants
 "
@@ -31138,6 +31251,8 @@ aliases
 "
 :
 [
+"
+"
 "
 wikipedia
 "
@@ -31305,7 +31420,7 @@ si
 last_modified
 "
 :
-1722952002224
+1729004089191
 "
 recordType
 "
@@ -31317,7 +31432,7 @@ engine
 schema
 "
 :
-1722942014140
+1729002533949
 "
 variants
 "
@@ -31353,6 +31468,10 @@ aliases
 "
 :
 [
+"
+wikip
+dia
+"
 "
 wikipedia
 "
@@ -31526,7 +31645,7 @@ sk
 last_modified
 "
 :
-1702906502568
+1729004089264
 "
 recordType
 "
@@ -31538,7 +31657,7 @@ engine
 schema
 "
 :
-1702901772461
+1729002534892
 "
 variants
 "
@@ -31574,6 +31693,9 @@ aliases
 "
 :
 [
+"
+wikipedija
+"
 "
 wikipedia
 "
@@ -31744,7 +31866,7 @@ sl
 last_modified
 "
 :
-1702906502565
+1729004089266
 "
 recordType
 "
@@ -31756,7 +31878,7 @@ engine
 schema
 "
 :
-1702901773075
+1729002535884
 "
 variants
 "
@@ -32012,6 +32134,8 @@ aliases
 :
 [
 "
+"
+"
 wikipedia
 "
 ]
@@ -32178,7 +32302,7 @@ sr
 last_modified
 "
 :
-1702906502558
+1729004089268
 "
 recordType
 "
@@ -32190,7 +32314,7 @@ engine
 schema
 "
 :
-1702901774302
+1729002536927
 "
 variants
 "
@@ -32450,6 +32574,8 @@ aliases
 :
 [
 "
+"
+"
 wikipedia
 "
 ]
@@ -32617,7 +32743,7 @@ ta
 last_modified
 "
 :
-1702906502552
+1729004089270
 "
 recordType
 "
@@ -32629,7 +32755,7 @@ engine
 schema
 "
 :
-1702901775549
+1729002539071
 "
 variants
 "
@@ -32665,6 +32791,8 @@ aliases
 "
 :
 [
+"
+"
 "
 wikipedia
 "
@@ -32832,7 +32960,7 @@ te
 last_modified
 "
 :
-1702906502548
+1729004089273
 "
 recordType
 "
@@ -32844,7 +32972,7 @@ engine
 schema
 "
 :
-1702901776173
+1729002540762
 "
 variants
 "
@@ -32880,6 +33008,8 @@ aliases
 "
 :
 [
+"
+"
 "
 wikipedia
 "
@@ -33044,7 +33174,7 @@ th
 last_modified
 "
 :
-1702906502545
+1729004089275
 "
 recordType
 "
@@ -33056,7 +33186,7 @@ engine
 schema
 "
 :
-1702901776774
+1729002542224
 "
 variants
 "
@@ -33311,6 +33441,9 @@ aliases
 :
 [
 "
+vikipedi
+"
+"
 wikipedia
 "
 ]
@@ -33480,7 +33613,7 @@ tr
 last_modified
 "
 :
-1722952002228
+1729004089189
 "
 recordType
 "
@@ -33492,7 +33625,7 @@ engine
 schema
 "
 :
-1722942015303
+1729002543730
 "
 variants
 "
@@ -33528,6 +33661,8 @@ aliases
 "
 :
 [
+"
+"
 "
 wikipedia
 "
@@ -33695,7 +33830,7 @@ uk
 last_modified
 "
 :
-1702906502536
+1729004089277
 "
 recordType
 "
@@ -33707,7 +33842,7 @@ engine
 schema
 "
 :
-1702901778586
+1729002544976
 "
 variants
 "
@@ -33743,6 +33878,8 @@ aliases
 "
 :
 [
+"
+"
 "
 wikipedia
 "
@@ -33910,7 +34047,7 @@ ur
 last_modified
 "
 :
-1702906502533
+1729004089279
 "
 recordType
 "
@@ -33922,7 +34059,7 @@ engine
 schema
 "
 :
-1702901779213
+1729002546136
 "
 variants
 "
@@ -33958,6 +34095,9 @@ aliases
 "
 :
 [
+"
+vikipediya
+"
 "
 wikipedia
 "
@@ -34128,7 +34268,7 @@ uz
 last_modified
 "
 :
-1702906502529
+1729004089282
 "
 recordType
 "
@@ -34140,7 +34280,7 @@ engine
 schema
 "
 :
-1702901779828
+1729002547362
 "
 variants
 "
@@ -34616,6 +34756,8 @@ aliases
 :
 [
 "
+"
+"
 wikipedia
 "
 ]
@@ -34782,7 +34924,7 @@ CN
 last_modified
 "
 :
-1702906502518
+1729004089284
 "
 recordType
 "
@@ -34794,7 +34936,7 @@ engine
 schema
 "
 :
-1702901781680
+1729002548615
 "
 variants
 "
@@ -34832,6 +34974,8 @@ aliases
 "
 :
 [
+"
+"
 "
 wikipedia
 "
@@ -35021,7 +35165,7 @@ TW
 last_modified
 "
 :
-1702906502515
+1729004089287
 "
 recordType
 "
@@ -35033,7 +35177,7 @@ engine
 schema
 "
 :
-1702901782303
+1729002549717
 "
 variants
 "
@@ -36647,5 +36791,5 @@ schema
 timestamp
 "
 :
-1722952002241
+1729004089310
 }
