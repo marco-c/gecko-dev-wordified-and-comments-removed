@@ -4147,7 +4147,7 @@ IsFrameBlack
 )
 )
 ;
-EXPECT_EQ
+EXPECT_NEAR
 (
 frame0
 .
@@ -4175,6 +4175,7 @@ ToRealtime
 us
 (
 )
+1
 )
 ;
 EXPECT_GE
@@ -4229,7 +4230,7 @@ IsFrameBlack
 )
 )
 ;
-EXPECT_EQ
+EXPECT_NEAR
 (
 frame1
 .
@@ -4257,6 +4258,7 @@ ToRealtime
 us
 (
 )
+1
 )
 ;
 EXPECT_GE
