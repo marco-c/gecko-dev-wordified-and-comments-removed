@@ -301,7 +301,7 @@ this
 .
 selectableProfileService
 .
-init
+maybeSetupDataStore
 (
 )
 ;
