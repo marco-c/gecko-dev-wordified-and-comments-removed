@@ -225,7 +225,7 @@ External
 >
 FenixFxAEntryPoint
 .
-Unknown
+ExternalView
 MenuAccessPoint
 .
 Home

@@ -134,7 +134,7 @@ assertEquals
 (
 FenixFxAEntryPoint
 .
-Unknown
+ExternalView
 MenuAccessPoint
 .
 External
