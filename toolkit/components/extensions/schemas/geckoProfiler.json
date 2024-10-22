@@ -180,6 +180,9 @@ bandwidth
 "
 memory
 "
+"
+tracing
+"
 ]
 }
 {
