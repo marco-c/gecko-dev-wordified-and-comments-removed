@@ -15,6 +15,11 @@ intl
 =
 [
 "
+LineBreakCache
+.
+h
+"
+"
 LineBreaker
 .
 h
@@ -39,6 +44,11 @@ UNIFIED_SOURCES
 +
 =
 [
+"
+LineBreakCache
+.
+cpp
+"
 "
 LineBreaker
 .
