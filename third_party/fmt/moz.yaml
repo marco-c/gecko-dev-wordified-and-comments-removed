@@ -89,6 +89,14 @@ null
 string
 .
 patch
+-
+use
+-
+double
+-
+conversion
+.
+patch
 exclude
 :
 -
