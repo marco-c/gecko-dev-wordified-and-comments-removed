@@ -6009,6 +6009,9 @@ Logic
 findConfirmationField
 (
 passwordField
+lazy
+.
+LoginFormFactory
 )
 ;
 if
