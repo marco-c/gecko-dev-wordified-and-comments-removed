@@ -106,7 +106,7 @@ namespace
 quota
 {
 class
-DirectoryLock
+ClientDirectoryLock
 ;
 }
 namespace
@@ -131,7 +131,7 @@ public
 Stringifyable
 {
 using
-DirectoryLock
+ClientDirectoryLock
 =
 mozilla
 :
@@ -142,7 +142,7 @@ dom
 quota
 :
 :
-DirectoryLock
+ClientDirectoryLock
 ;
 public
 :
@@ -304,7 +304,7 @@ aAction
 ;
 Maybe
 <
-DirectoryLock
+ClientDirectoryLock
 &
 >
 MaybeDirectoryLockRef
@@ -459,7 +459,7 @@ CacheDirectoryMetadata
 aDirectoryMetadata
 RefPtr
 <
-DirectoryLock
+ClientDirectoryLock
 >
 aDirectoryLock
 RefPtr
@@ -567,7 +567,7 @@ mThreadsafeHandle
 ;
 RefPtr
 <
-DirectoryLock
+ClientDirectoryLock
 >
 mDirectoryLock
 ;

@@ -134,19 +134,6 @@ dom
 /
 quota
 /
-DirectoryLock
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
-quota
-/
 DirectoryLockInlines
 .
 h
@@ -405,7 +392,7 @@ dom
 quota
 :
 :
-DirectoryLock
+ClientDirectoryLock
 ;
 using
 mozilla
@@ -724,7 +711,7 @@ mInitAction
 }
 Maybe
 <
-DirectoryLock
+ClientDirectoryLock
 &
 >
 MaybeDirectoryLockRef
@@ -837,7 +824,7 @@ CancelOnInitiatingThread
 void
 DirectoryLockAcquired
 (
-DirectoryLock
+ClientDirectoryLock
 *
 aLock
 )
@@ -1134,7 +1121,7 @@ mDirectoryMetadata
 ;
 RefPtr
 <
-DirectoryLock
+ClientDirectoryLock
 >
 mDirectoryLock
 ;
@@ -1168,7 +1155,7 @@ QuotaInitRunnable
 :
 DirectoryLockAcquired
 (
-DirectoryLock
+ClientDirectoryLock
 *
 aLock
 )
@@ -3427,7 +3414,7 @@ aAction
 }
 Maybe
 <
-DirectoryLock
+ClientDirectoryLock
 &
 >
 Context
@@ -4162,7 +4149,7 @@ CacheDirectoryMetadata
 aDirectoryMetadata
 RefPtr
 <
-DirectoryLock
+ClientDirectoryLock
 >
 aDirectoryLock
 RefPtr
