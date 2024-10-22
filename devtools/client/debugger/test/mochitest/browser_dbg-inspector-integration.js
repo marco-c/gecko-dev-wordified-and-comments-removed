@@ -691,6 +691,12 @@ html
 )
 ;
 await
+waitForDocumentLoadComplete
+(
+dbg
+)
+;
+await
 tryHovering
 (
 dbg
