@@ -25237,12 +25237,12 @@ JS_PUBLIC_API
 bool
 DescribeScriptedCaller
 (
-JSContext
-*
-cx
 AutoFilename
 *
 filename
+JSContext
+*
+cx
 uint32_t
 *
 lineno

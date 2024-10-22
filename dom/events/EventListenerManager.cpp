@@ -5211,8 +5211,8 @@ JS
 :
 DescribeScriptedCaller
 (
-cx
 nullptr
+cx
 &
 lineNum
 &
