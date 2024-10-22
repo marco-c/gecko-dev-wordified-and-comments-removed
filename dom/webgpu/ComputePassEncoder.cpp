@@ -60,8 +60,6 @@ GPU_IMPL_CYCLE_COLLECTION
 (
 ComputePassEncoder
 mParent
-mUsedBindGroups
-mUsedPipelines
 )
 GPU_IMPL_JS_WRAP
 (

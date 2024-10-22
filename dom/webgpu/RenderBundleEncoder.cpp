@@ -83,10 +83,6 @@ GPU_IMPL_CYCLE_COLLECTION
 (
 RenderBundleEncoder
 mParent
-mUsedBindGroups
-mUsedBuffers
-mUsedPipelines
-mUsedTextureViews
 )
 GPU_IMPL_JS_WRAP
 (
