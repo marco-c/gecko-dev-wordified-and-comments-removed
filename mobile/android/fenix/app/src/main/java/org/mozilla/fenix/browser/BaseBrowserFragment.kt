@@ -2639,6 +2639,13 @@ _browserToolbarView
 !
 !
 VisibleForTesting
+(
+otherwise
+=
+VisibleForTesting
+.
+PROTECTED
+)
 Suppress
 (
 "
