@@ -159,8 +159,7 @@ MediaKeysArray
 aSupportedKeys
 )
 override
-{
-}
+;
 void
 SetPositionState
 (
