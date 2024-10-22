@@ -3368,6 +3368,13 @@ tryAttachMapGet
 (
 )
 ;
+AttachDecision
+tryAttachDateGetTime
+(
+InlinableNative
+native
+)
+;
 #
 ifdef
 FUZZING_JS_FUZZILLI

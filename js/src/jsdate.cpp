@@ -126,6 +126,15 @@ endif
 #
 include
 "
+jit
+/
+InlinableNatives
+.
+h
+"
+#
+include
+"
 js
 /
 CallAndConstruct
@@ -19866,7 +19875,7 @@ date_methods
 ]
 =
 {
-JS_FN
+JS_INLINABLE_FN
 (
 "
 getTime
@@ -19874,6 +19883,7 @@ getTime
 date_getTime
 0
 0
+DateGetTime
 )
 JS_FN
 (
@@ -20325,7 +20335,7 @@ date_toString
 0
 0
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 valueOf
@@ -20333,6 +20343,7 @@ valueOf
 date_valueOf
 0
 0
+DateGetTime
 )
 JS_SYM_FN
 (
