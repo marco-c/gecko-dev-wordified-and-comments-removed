@@ -10569,11 +10569,6 @@ aValue
 )
 ;
 void
-MaybeWarnAboutZoom
-(
-)
-;
-void
 EvaluateMediaQueriesAndReportChanges
 (
 bool
@@ -13962,11 +13957,6 @@ mPendingMaybeEditingStateChanged
 ;
 bool
 mHasBeenEditable
-:
-1
-;
-bool
-mHasWarnedAboutZoom
 :
 1
 ;
