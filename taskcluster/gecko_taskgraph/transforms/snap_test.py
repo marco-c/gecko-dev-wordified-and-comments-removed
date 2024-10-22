@@ -76,6 +76,22 @@ snap_test_type
 "
 ]
         
+test_release
+=
+task
+.
+get
+(
+"
+attributes
+"
+)
+[
+"
+snap_test_release
+"
+]
+        
 assert
 "
 -
@@ -110,6 +126,7 @@ label
 .
 replace
 (
+            
 "
 -
 test
@@ -126,6 +143,13 @@ test_type
 "
 -
 "
++
+test_release
++
+"
+-
+"
+        
 )
         
 dep
@@ -207,6 +231,14 @@ split
 -
 2
 ]
+            
++
+"
+-
+"
+            
++
+test_release
             
 +
 "
