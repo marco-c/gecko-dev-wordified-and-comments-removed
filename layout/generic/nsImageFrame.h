@@ -1192,8 +1192,6 @@ OnLoadComplete
 imgIRequest
 *
 aRequest
-nsresult
-aStatus
 )
 ;
 mozilla
@@ -1221,8 +1219,6 @@ NotifyNewCurrentRequest
 imgIRequest
 *
 aRequest
-nsresult
-aStatus
 )
 ;
 void
