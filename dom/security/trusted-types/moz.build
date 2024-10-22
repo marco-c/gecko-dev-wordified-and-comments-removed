@@ -92,6 +92,11 @@ TrustedTypePolicyFactory
 .
 cpp
 "
+"
+TrustedTypeUtils
+.
+cpp
+"
 ]
 FINAL_LIBRARY
 =
