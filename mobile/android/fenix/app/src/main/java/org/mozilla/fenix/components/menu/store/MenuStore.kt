@@ -248,6 +248,14 @@ is
 MenuAction
 .
 DismissCFR
+is
+MenuAction
+.
+SaveMenuClicked
+is
+MenuAction
+.
+ToolsMenuClicked
 -
 >
 state
