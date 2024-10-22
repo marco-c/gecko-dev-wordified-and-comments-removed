@@ -103,8 +103,8 @@ OnChannelClosed
 bool
 OnStartRequest
 (
-const
 nsHttpResponseHead
+&
 &
 aResponseHead
 const
