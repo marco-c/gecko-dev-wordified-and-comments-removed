@@ -748,6 +748,9 @@ selected
 visuallyselected
 fadein
 multiselected
+dragover
+-
+createGroup
 "
 "
 .
