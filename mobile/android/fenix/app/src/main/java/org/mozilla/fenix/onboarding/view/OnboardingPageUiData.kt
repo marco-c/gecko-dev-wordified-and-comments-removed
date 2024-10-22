@@ -209,6 +209,14 @@ telemetryId
 notification
 "
 )
+ADD_ONS
+(
+telemetryId
+=
+"
+add_ons
+"
+)
 }
 }
 /
