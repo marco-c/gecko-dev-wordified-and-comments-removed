@@ -129,9 +129,9 @@ browser
 .
 urlbar
 .
-suggest
+scotchBonnet
 .
-quickactions
+enableOverride
 "
 false
 ]
