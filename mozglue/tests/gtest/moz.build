@@ -53,6 +53,16 @@ MPL
 0
 /
 .
+SOURCES
++
+=
+[
+"
+TestFmt
+.
+cpp
+"
+]
 if
 CONFIG
 [
