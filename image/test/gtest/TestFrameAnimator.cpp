@@ -672,7 +672,7 @@ CheckFrameAnimatorBlend
 BlendAnimatedAVIFTestCase
 (
 )
-1
+2
 )
 ;
 }
