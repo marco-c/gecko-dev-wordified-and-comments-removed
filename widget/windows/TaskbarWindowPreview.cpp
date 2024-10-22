@@ -891,6 +891,7 @@ nsWindowGfx
 CreateIcon
 (
 aStatusIcon
+nullptr
 false
 LayoutDeviceIntPoint
 (

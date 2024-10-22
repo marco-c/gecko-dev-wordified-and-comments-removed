@@ -19,6 +19,9 @@ imgIContainer
 h
 >
 class
+nsISVGPaintContext
+;
+class
 nsWindowGfx
 {
 public
@@ -48,6 +51,9 @@ CreateIcon
 imgIContainer
 *
 aContainer
+nsISVGPaintContext
+*
+aSVGContext
 bool
 aIsCursor
 mozilla
