@@ -211,7 +211,7 @@ getResultCount
 (
 window
 )
-1
+2
 "
 We
 matched

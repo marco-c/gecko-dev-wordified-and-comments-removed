@@ -1511,6 +1511,7 @@ possible
 types
 are
 :
+action
 addon
 autofill_about
 autofill_adaptive
@@ -1938,6 +1939,7 @@ possible
 types
 are
 :
+action
 addon
 autofill_about
 autofill_adaptive

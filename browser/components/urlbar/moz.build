@@ -229,6 +229,13 @@ sys
 mjs
 "
 "
+UrlbarProviderGlobalActions
+.
+sys
+.
+mjs
+"
+"
 UrlbarProviderHeuristicFallback
 .
 sys
