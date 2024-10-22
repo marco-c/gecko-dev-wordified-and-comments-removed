@@ -1857,6 +1857,14 @@ CheckThirdPartyRoots
 (
 )
 ;
+static
+void
+SetHasThirdPartyRoots
+(
+bool
+aResult
+)
+;
 private
 :
 nsHttpHandler
