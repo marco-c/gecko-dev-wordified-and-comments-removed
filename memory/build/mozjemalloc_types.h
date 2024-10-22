@@ -149,9 +149,6 @@ bool
 opt_junk
 ;
 bool
-opt_randomize_small
-;
-bool
 opt_zero
 ;
 size_t
