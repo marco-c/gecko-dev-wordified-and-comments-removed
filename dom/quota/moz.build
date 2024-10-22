@@ -200,6 +200,11 @@ DirectoryLockCategory
 h
 "
 "
+DirectoryLockImpl
+.
+h
+"
+"
 DirectoryLockInlines
 .
 h
@@ -411,6 +416,11 @@ h
 "
 "
 ThreadUtils
+.
+h
+"
+"
+UniversalDirectoryLock
 .
 h
 "
@@ -681,6 +691,11 @@ cpp
 "
 "
 ThreadUtils
+.
+cpp
+"
+"
+UniversalDirectoryLock
 .
 cpp
 "
