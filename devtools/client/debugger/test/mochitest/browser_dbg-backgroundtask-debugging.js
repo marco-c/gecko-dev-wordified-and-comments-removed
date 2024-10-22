@@ -345,7 +345,6 @@ waitForSelectedSource
 waitForState
 waitUntil
 createLocation
-getCM
 getEditorContent
 getCMEditor
 isCm6Enabled
