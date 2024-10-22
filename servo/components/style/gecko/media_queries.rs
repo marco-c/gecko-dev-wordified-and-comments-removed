@@ -148,8 +148,9 @@ color
 :
 :
 {
-SystemColor
 ColorSchemeFlags
+ForcedColors
+SystemColor
 }
 ;
 use
@@ -261,15 +262,6 @@ style_traits
 CSSPixel
 DevicePixel
 }
-;
-use
-super
-:
-:
-media_features
-:
-:
-ForcedColors
 ;
 pub
 struct
