@@ -389,6 +389,11 @@ DeviceChangeAcknowledged
 (
 )
 ;
+void
+DeviceResetAcknowledged
+(
+)
+;
 already_AddRefed
 <
 gfx

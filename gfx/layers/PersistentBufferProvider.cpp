@@ -773,6 +773,7 @@ provider
 new
 PersistentBufferProviderAccelerated
 (
+remoteTextureOwnerId
 texture
 )
 ;
@@ -789,6 +790,8 @@ PersistentBufferProviderAccelerated
 :
 PersistentBufferProviderAccelerated
 (
+RemoteTextureOwnerId
+aRemoteTextureOwnerId
 const
 RefPtr
 <
@@ -798,6 +801,10 @@ TextureClient
 aTexture
 )
 :
+mRemoteTextureOwnerId
+(
+aRemoteTextureOwnerId
+)
 mTexture
 (
 aTexture
