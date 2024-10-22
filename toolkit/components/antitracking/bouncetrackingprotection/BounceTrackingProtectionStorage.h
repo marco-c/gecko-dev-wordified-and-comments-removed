@@ -332,6 +332,16 @@ Clear
 ;
 private
 :
+[
+[
+nodiscard
+]
+]
+nsresult
+InitInternal
+(
+)
+;
 ~
 BounceTrackingProtectionStorage
 (
