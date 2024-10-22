@@ -69,12 +69,6 @@ ext
 import
 android
 .
-annotation
-.
-TargetApi
-import
-android
-.
 app
 .
 DownloadManager
@@ -141,14 +135,6 @@ version
 .
 *
 /
-TargetApi
-(
-Build
-.
-VERSION_CODES
-.
-P
-)
 Suppress
 (
 "
