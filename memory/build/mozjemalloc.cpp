@@ -22076,12 +22076,6 @@ aModifier
 )
 ;
 }
-#
-if
-defined
-(
-MOZ_ENABLE_FORKSERVER
-)
 inline
 void
 MozJemalloc
@@ -22138,8 +22132,6 @@ ResetSmallAllocRandomization
 ;
 }
 }
-#
-endif
 #
 define
 MALLOC_DECL
