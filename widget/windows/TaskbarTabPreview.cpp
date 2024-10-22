@@ -431,6 +431,7 @@ nsWindowGfx
 CreateIcon
 (
 icon
+nullptr
 false
 LayoutDeviceIntPoint
 (
