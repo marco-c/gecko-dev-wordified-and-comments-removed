@@ -145,6 +145,11 @@ Client
 h
 "
 "
+ClientDirectoryLock
+.
+h
+"
+"
 ClientImpl
 .
 h
@@ -481,6 +486,11 @@ cpp
 "
 "
 Client
+.
+cpp
+"
+"
+ClientDirectoryLock
 .
 cpp
 "
