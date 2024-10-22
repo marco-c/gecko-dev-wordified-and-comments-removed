@@ -72,13 +72,6 @@ js
 ]
 [
 "
-browser_aboutCertError_hyphen_telemetry
-.
-js
-"
-]
-[
-"
 browser_aboutCertError_mitm
 .
 js

@@ -241,11 +241,6 @@ channel_status
 issued_by_cca
 :
 expectedIssuedByCCA
-hyphen_compat
-:
-"
-false
-"
 }
 ]
 )
