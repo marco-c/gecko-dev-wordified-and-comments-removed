@@ -228,6 +228,16 @@ messageToViewModel
 {
 }
 }
+.
+reauthCommandHandler
+=
+{
+(
+)
+=
+>
+true
+}
 >
 <
 /
