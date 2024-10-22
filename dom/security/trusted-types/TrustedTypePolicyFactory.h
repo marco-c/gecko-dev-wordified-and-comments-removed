@@ -156,13 +156,7 @@ nsIGlobalObject
 *
 aGlobalObject
 )
-:
-mGlobalObject
-{
-aGlobalObject
-}
-{
-}
+;
 nsIGlobalObject
 *
 GetParentObject
@@ -351,7 +345,7 @@ GetDefaultPolicy
 const
 {
 return
-nullptr
+mDefaultPolicy
 ;
 }
 private
@@ -361,8 +355,6 @@ virtual
 TrustedTypePolicyFactory
 (
 )
-=
-default
 ;
 enum
 class
@@ -396,6 +388,12 @@ nsTArray
 nsString
 >
 mCreatedPolicyNames
+;
+RefPtr
+<
+TrustedTypePolicy
+>
+mDefaultPolicy
 ;
 }
 ;
