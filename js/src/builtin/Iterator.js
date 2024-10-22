@@ -2335,5 +2335,15 @@ return
 false
 ;
 }
+function
+IteratorZipKeyed
+(
+predicate
+)
+{
+return
+false
+;
+}
 #
 endif
