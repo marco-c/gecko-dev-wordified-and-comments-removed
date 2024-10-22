@@ -870,6 +870,15 @@ Unit
 {
 Column
 {
+if
+(
+recommendedAddons
+.
+isNotEmpty
+(
+)
+)
+{
 Row
 (
 modifier
@@ -971,6 +980,7 @@ height
 dp
 )
 )
+}
 MenuGroup
 {
 for
