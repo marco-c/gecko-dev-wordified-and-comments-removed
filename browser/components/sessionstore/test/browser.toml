@@ -1435,6 +1435,13 @@ js
 ]
 [
 "
+browser_tab_groups_restore_multiple
+.
+js
+"
+]
+[
+"
 browser_tab_groups_restore_simple
 .
 js
@@ -1442,7 +1449,7 @@ js
 ]
 [
 "
-browser_tab_groups_restore_multiple
+browser_tab_groups_saved
 .
 js
 "
