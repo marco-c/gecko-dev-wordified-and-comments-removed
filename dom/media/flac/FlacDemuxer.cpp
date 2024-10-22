@@ -3339,6 +3339,11 @@ NS_FAILED
 (
 ret
 )
+|
+|
+read
+<
+BUFFER_SIZE
 )
 {
 return
@@ -3354,7 +3359,7 @@ mParser
 IsHeaderBlock
 (
 ubuffer
-read
+BUFFER_SIZE
 )
 )
 {
