@@ -526,7 +526,6 @@ ComputedStyle
 aStyle
 )
 ;
-virtual
 nsresult
 AttributeChanged
 (

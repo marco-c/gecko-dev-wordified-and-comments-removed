@@ -72,7 +72,6 @@ nsIMathMLFrame
 {
 public
 :
-virtual
 bool
 IsSpaceLike
 (
@@ -141,7 +140,6 @@ return
 NS_OK
 ;
 }
-virtual
 eMathMLFrameType
 GetMathMLFrameType
 (

@@ -118,7 +118,6 @@ aChildList
 )
 override
 ;
-virtual
 void
 Reflow
 (
@@ -154,14 +153,12 @@ aDesiredSize
 )
 override
 ;
-virtual
 void
 MarkIntrinsicISizesDirty
 (
 )
 override
 ;
-virtual
 void
 GetIntrinsicISizeMetrics
 (
@@ -174,7 +171,6 @@ aDesiredSize
 )
 override
 ;
-virtual
 nsresult
 AttributeChanged
 (
@@ -205,7 +201,6 @@ aDesiredStretchSize
 )
 override
 ;
-virtual
 nsresult
 ChildListChanged
 (

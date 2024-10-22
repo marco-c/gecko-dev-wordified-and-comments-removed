@@ -56,7 +56,6 @@ ComputedStyle
 aStyle
 )
 ;
-virtual
 nsresult
 AttributeChanged
 (
@@ -91,7 +90,6 @@ TransmitAutomaticDataForMrowLikeElement
 )
 ;
 }
-virtual
 eMathMLFrameType
 GetMathMLFrameType
 (

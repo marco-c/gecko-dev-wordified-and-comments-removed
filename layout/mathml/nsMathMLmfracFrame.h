@@ -56,7 +56,6 @@ ComputedStyle
 aStyle
 )
 ;
-virtual
 eMathMLFrameType
 GetMathMLFrameType
 (
@@ -79,7 +78,6 @@ aDesiredSize
 )
 override
 ;
-virtual
 void
 BuildDisplayList
 (
@@ -93,7 +91,6 @@ aLists
 )
 override
 ;
-virtual
 nsresult
 AttributeChanged
 (
@@ -113,7 +110,6 @@ TransmitAutomaticData
 )
 override
 ;
-virtual
 nscoord
 FixInterFrameSpacing
 (

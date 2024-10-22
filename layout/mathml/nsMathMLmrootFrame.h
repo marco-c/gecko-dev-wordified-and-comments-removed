@@ -71,7 +71,6 @@ aOldStyle
 )
 override
 ;
-virtual
 void
 Init
 (
@@ -120,7 +119,6 @@ nscoord
 aSqrOffset
 )
 ;
-virtual
 void
 BuildDisplayList
 (

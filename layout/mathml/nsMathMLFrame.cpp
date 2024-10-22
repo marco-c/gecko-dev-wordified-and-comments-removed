@@ -1205,7 +1205,6 @@ MOZ_COUNTED_DTOR_OVERRIDE
 (
 nsDisplayMathMLBar
 )
-virtual
 void
 Paint
 (

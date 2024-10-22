@@ -96,7 +96,6 @@ aParent
 )
 override
 ;
-virtual
 eMathMLFrameType
 GetMathMLFrameType
 (
@@ -149,7 +148,6 @@ aChildList
 )
 override
 ;
-virtual
 void
 Reflow
 (
