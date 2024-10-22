@@ -29093,14 +29093,6 @@ subtest
 PREF_LIST_ENTRY
 (
 "
-autoadmin
-.
-global_config_url
-"
-)
-PREF_LIST_ENTRY
-(
-"
 browser
 .
 contentblocking
