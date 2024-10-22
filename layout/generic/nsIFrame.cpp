@@ -55438,7 +55438,14 @@ parent
 )
 {
 return
-false
+nsLayoutUtils
+:
+:
+FrameRectIsScrolledOutOfViewInCrossProcess
+(
+clipParent
+transformedRect
+)
 ;
 }
 return
