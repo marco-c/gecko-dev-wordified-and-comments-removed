@@ -1587,7 +1587,7 @@ messageId
 type
 :
 "
-error
+warning
 "
 }
 ;

@@ -880,7 +880,7 @@ link2
 type
 :
 "
-error
+warning
 "
 }
 )
