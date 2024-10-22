@@ -154,11 +154,9 @@ Localization
 (
 [
 "
-preview
+browser
 /
-enUS
--
-searchFeatures
+browser
 .
 ftl
 "
