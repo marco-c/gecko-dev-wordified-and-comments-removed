@@ -2773,13 +2773,6 @@ NonVolatileSingleMask
 <
 ShiftDouble
 )
-|
-(
-NonVolatileSingleMask
-<
-<
-ShiftSimd128
-)
 ;
 static
 constexpr
