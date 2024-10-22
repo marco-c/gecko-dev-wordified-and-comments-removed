@@ -205,7 +205,7 @@ options
 .
 details
 .
-keyword
+alias
 ]
 *
 The
