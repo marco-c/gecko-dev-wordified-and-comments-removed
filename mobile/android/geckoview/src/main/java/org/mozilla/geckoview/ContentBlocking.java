@@ -2687,6 +2687,12 @@ return
 this
 ;
 }
+SuppressLint
+(
+"
+WrongConstant
+"
+)
 public
 NonNull
 Settings
