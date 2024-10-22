@@ -749,9 +749,11 @@ SECU_PrintCertificateRequest
 FILE
 *
 out
+const
 SECItem
 *
 der
+const
 char
 *
 m
@@ -804,9 +806,11 @@ SECU_PrintDumpDerIssuerAndSerial
 FILE
 *
 out
+const
 SECItem
 *
 der
+const
 char
 *
 m
@@ -1039,9 +1043,11 @@ SECU_PrintCrl
 FILE
 *
 out
+const
 SECItem
 *
 der
+const
 char
 *
 m
@@ -1059,6 +1065,7 @@ out
 CERTCrl
 *
 crl
+const
 char
 *
 m

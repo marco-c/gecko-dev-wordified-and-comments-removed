@@ -8452,9 +8452,11 @@ SECU_PrintDumpDerIssuerAndSerial
 FILE
 *
 out
+const
 SECItem
 *
 der
+const
 char
 *
 m
@@ -13164,9 +13166,11 @@ SECU_PrintCertificateRequest
 FILE
 *
 out
+const
 SECItem
 *
 der
+const
 char
 *
 m
@@ -15301,6 +15305,7 @@ out
 CERTCrl
 *
 crl
+const
 char
 *
 m
@@ -15915,9 +15920,6 @@ om
 level
 +
 2
-(
-SECU_PPFunc
-)
 SECU_PrintCertificate
 )
 ;
@@ -16730,9 +16732,6 @@ om
 level
 +
 2
-(
-SECU_PPFunc
-)
 SECU_PrintCertificate
 )
 ;
@@ -17005,9 +17004,11 @@ SECU_PrintCrl
 FILE
 *
 out
+const
 SECItem
 *
 der
+const
 char
 *
 m
@@ -18006,9 +18007,6 @@ NULL
 level
 +
 1
-(
-SECU_PPFunc
-)
 SECU_PrintCrl
 )
 ;
@@ -18026,9 +18024,6 @@ NULL
 level
 +
 1
-(
-SECU_PPFunc
-)
 SECU_PrintCertificate
 )
 ;
@@ -19887,9 +19882,6 @@ stdout
 data
 label
 0
-(
-SECU_PPFunc
-)
 SECU_PrintCertificate
 )
 ;

@@ -2021,6 +2021,10 @@ PK11_FreeSymKey
 bulkkey
 )
 ;
+bulkkey
+=
+NULL
+;
 if
 (
 decryptobj

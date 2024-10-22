@@ -2799,9 +2799,6 @@ cert_label
 level
 +
 1
-(
-SECU_PPFunc
-)
 SECU_PrintCertificate
 )
 ;
