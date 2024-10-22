@@ -22003,6 +22003,13 @@ final
 String
 extensionName
 ;
+field
+Nullable
+public
+final
+String
+extensionVersion
+;
 }
 Retention
 (

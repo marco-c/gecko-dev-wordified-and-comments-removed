@@ -354,6 +354,11 @@ extensionName
 throwable
 .
 extensionName
+extensionVersion
+=
+throwable
+.
+extensionVersion
 throwable
 )
 ERROR_CORRUPT_FILE
@@ -448,6 +453,11 @@ extensionName
 throwable
 .
 extensionName
+extensionVersion
+=
+throwable
+.
+extensionVersion
 throwable
 )
 else

@@ -1478,6 +1478,12 @@ addon
 id
 }
 /
+{
+addon
+.
+version
+}
+/
 "
 AddonsManagerAdapterDelegate
 .

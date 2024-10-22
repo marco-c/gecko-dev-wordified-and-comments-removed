@@ -3227,6 +3227,12 @@ id
 addonName
 :
 aAddonName
+addonVersion
+:
+aAddon
+?
+.
+version
 error
 :
 aError

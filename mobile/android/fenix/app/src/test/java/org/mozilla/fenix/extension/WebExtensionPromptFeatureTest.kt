@@ -611,6 +611,12 @@ extensionName
 extensionName
 "
 val
+extensionVersion
+=
+"
+extensionVersion
+"
+val
 exception
 =
 WebExtensionInstallException
@@ -623,6 +629,9 @@ extensionId
 extensionName
 =
 extensionName
+extensionVersion
+=
+extensionVersion
 throwable
 =
 Exception
@@ -674,6 +683,8 @@ blocked
 addon
 /
 extensionId
+/
+extensionVersion
 /
 "
 val
@@ -2156,6 +2167,12 @@ extensionName
 extensionName
 "
 val
+extensionVersion
+=
+"
+extensionVersion
+"
+val
 exception
 =
 WebExtensionInstallException
@@ -2168,6 +2185,9 @@ extensionId
 extensionName
 =
 extensionName
+extensionVersion
+=
+extensionVersion
 throwable
 =
 Exception
@@ -2219,6 +2239,8 @@ blocked
 addon
 /
 extensionId
+/
+extensionVersion
 /
 "
 val
