@@ -17681,7 +17681,7 @@ type
 RelaxedAtomicUint32
 value
 :
-100
+500
 mirror
 :
 always
@@ -17709,7 +17709,7 @@ type
 RelaxedAtomicUint32
 value
 :
-30
+250
 mirror
 :
 always
