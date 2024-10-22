@@ -496,6 +496,14 @@ FontVisibilityRestrictGenerics
 )
 ITEM_VALUE
 (
+WebVTT
+1llu
+<
+<
+62
+)
+ITEM_VALUE
+(
 IsAlwaysEnabledForPrecompute
 0
 )
