@@ -502,7 +502,7 @@ wasi
 -
 clang
 -
-18
+19
 :
 description
 :
@@ -528,7 +528,7 @@ sysroot
 -
 wasi
 -
-18
+19
 )
 run
 :
@@ -605,7 +605,7 @@ fetch
 -
 clang
 -
-18
+19
 -
 wasi
 -
@@ -617,7 +617,7 @@ linux64
 -
 clang
 -
-18
+19
 -
 stage1
 -
@@ -629,7 +629,7 @@ compiler
 -
 rt
 -
-18
+19
 sysroot
 -
 wasm32
