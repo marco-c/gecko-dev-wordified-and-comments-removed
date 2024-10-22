@@ -4665,7 +4665,7 @@ R
 .
 string
 .
-bookmark_add_new_folder_button_content_description
+bookmark_delete_folder_content_description
 )
 tint
 =
@@ -5740,7 +5740,7 @@ R
 .
 string
 .
-bookmark_add_new_folder_button_content_description
+bookmark_delete_bookmark_content_description
 )
 tint
 =
