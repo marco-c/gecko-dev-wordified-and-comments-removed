@@ -773,11 +773,6 @@ DidReflowChildren
 nsIFrame
 *
 aFirst
-nsIFrame
-*
-aStop
-=
-nullptr
 )
 ;
 void
