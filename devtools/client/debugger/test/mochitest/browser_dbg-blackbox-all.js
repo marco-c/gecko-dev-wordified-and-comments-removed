@@ -821,7 +821,7 @@ menu
 )
 ;
 await
-toggleDebbuggerSettingsMenuItem
+toggleSourcesTreeSettingsMenuItem
 (
 dbg
 {
