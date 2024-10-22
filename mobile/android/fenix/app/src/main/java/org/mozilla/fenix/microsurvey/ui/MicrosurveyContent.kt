@@ -175,6 +175,16 @@ compose
 .
 foundation
 .
+selection
+.
+selectableGroup
+import
+androidx
+.
+compose
+.
+foundation
+.
 shape
 .
 RoundedCornerShape
@@ -517,6 +527,10 @@ modifier
 Modifier
 .
 wrapContentHeight
+(
+)
+.
+selectableGroup
 (
 )
 )
