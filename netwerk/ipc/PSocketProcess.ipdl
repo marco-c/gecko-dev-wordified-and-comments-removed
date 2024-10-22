@@ -1052,13 +1052,6 @@ UnblockUntrustedModulesThread
 ;
 #
 endif
-async
-HasThirdPartyRoots
-(
-bool
-aResult
-)
-;
 both
 :
 async
