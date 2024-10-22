@@ -1585,8 +1585,7 @@ rule
 .
 Wait
 for
-name
-change
+reorder
 event
 on
 "
