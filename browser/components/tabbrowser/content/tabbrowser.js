@@ -11752,6 +11752,9 @@ label
 =
 "
 "
+insertBefore
+=
+null
 }
 =
 {
@@ -11841,9 +11844,10 @@ this
 .
 tabContainer
 .
-appendChild
+insertBefore
 (
 group
+insertBefore
 )
 ;
 group
@@ -33443,6 +33447,13 @@ this
 .
 contextTab
 ]
+{
+insertBefore
+:
+this
+.
+contextTab
+}
 )
 ;
 }
