@@ -438,7 +438,7 @@ browserMenuAction
 item
 =
 "
-bookmark
+add_bookmark
 "
 )
 }
@@ -453,6 +453,7 @@ bookmark
 THEN
 record
 the
+edit
 bookmark
 browser
 menu
@@ -498,7 +499,7 @@ browserMenuAction
 item
 =
 "
-bookmark
+edit_bookmark
 "
 )
 }

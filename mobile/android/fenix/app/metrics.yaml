@@ -1071,6 +1071,7 @@ These
 items
 include
 :
+add_bookmark
 add_to_homescreen
 add_to_top_sites
 addon_details
@@ -1084,6 +1085,7 @@ desktop_view_on
 discover_more_extensions
 web_extension_browser_action_clicked
 downloads
+edit_bookmark
 extensions_learn_more
 extensions_submenu
 find_in_page
