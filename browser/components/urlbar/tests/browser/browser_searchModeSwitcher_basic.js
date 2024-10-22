@@ -3524,7 +3524,7 @@ UrlbarTestUtils
 getDetailsOfResultAt
 (
 window
-1
+0
 )
 ;
 Assert
@@ -3593,7 +3593,7 @@ DuckDuckGo
 entry
 :
 "
-tabtosearch_onboard
+keywordoffer
 "
 source
 :
