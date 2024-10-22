@@ -738,19 +738,6 @@ dom
 /
 quota
 /
-DirectoryLock
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
-quota
-/
 DirectoryLockInlines
 .
 h
@@ -5880,7 +5867,7 @@ IsDirectoryLockBlockedBy
 const
 RefPtr
 <
-DirectoryLock
+UniversalDirectoryLock
 >
 &
 aDirectoryLock
@@ -5954,7 +5941,7 @@ IsDirectoryLockBlockedByUninitStorageOperation
 const
 RefPtr
 <
-DirectoryLock
+UniversalDirectoryLock
 >
 &
 aDirectoryLock
@@ -5977,7 +5964,7 @@ IsDirectoryLockBlockedByUninitStorageOrUninitOriginsOperation
 const
 RefPtr
 <
-DirectoryLock
+UniversalDirectoryLock
 >
 &
 aDirectoryLock
