@@ -265,7 +265,7 @@ lazy
 .
 UrlbarPrefs
 .
-getScotchBonnetPref
+get
 (
 ENABLED_PREF
 )
