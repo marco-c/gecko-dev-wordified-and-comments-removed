@@ -1638,7 +1638,9 @@ EditorDOMPointType
 )
 .
 template
-NextPointOrAfterContainer
+NextPoint
+<
+>
 (
 )
 ;
@@ -6593,10 +6595,6 @@ const
 EditorDOMPointType
 &
 aPoint
-const
-Element
-&
-aEditingHost
 )
 ;
 private
