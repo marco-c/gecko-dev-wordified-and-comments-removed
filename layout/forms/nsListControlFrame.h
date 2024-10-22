@@ -223,16 +223,9 @@ aPrevInFlow
 )
 final
 ;
-void
-DidReflow
+bool
+ReflowFinished
 (
-nsPresContext
-*
-aPresContext
-const
-ReflowInput
-*
-aReflowInput
 )
 final
 ;
@@ -923,7 +916,7 @@ mMightNeedSecondPass
 1
 ;
 bool
-mHasPendingInterruptAtStartOfReflow
+mReflowWasInterrupted
 :
 1
 ;
