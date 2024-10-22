@@ -4643,13 +4643,6 @@ defined
 (
 DEBUG
 )
-&
-&
-!
-defined
-(
-ANDROID
-)
 jemalloc_stats_t
 stats
 ;
