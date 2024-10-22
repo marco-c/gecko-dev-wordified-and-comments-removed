@@ -573,7 +573,7 @@ FirefoxTheme
 .
 colors
 .
-textPrimary
+iconSecondary
 enabled
 =
 webExtensionMenuItem
