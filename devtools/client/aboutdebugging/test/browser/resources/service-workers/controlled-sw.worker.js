@@ -164,6 +164,17 @@ canInstall
 )
 )
 ;
+console
+.
+log
+(
+"
+service
+worker
+installed
+"
+)
+;
 }
 )
 ;
