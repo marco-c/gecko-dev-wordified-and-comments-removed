@@ -165,9 +165,6 @@ nsHttp
 h
 "
 ;
-[
-MoveOnly
-]
 using
 class
 mozilla
