@@ -361,9 +361,7 @@ this
 .
 _browsingContext
 .
-currentWindowGlobal
-.
-documentURI
+currentURI
 .
 scheme
 ;
