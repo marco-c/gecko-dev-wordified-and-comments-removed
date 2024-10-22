@@ -314,7 +314,7 @@ const
 ;
 class
 NS_NO_VTABLE
-OriginDirectoryLock
+ClientDirectoryLock
 :
 public
 DirectoryLock
@@ -353,17 +353,6 @@ const
 =
 0
 ;
-}
-;
-class
-NS_NO_VTABLE
-ClientDirectoryLock
-:
-public
-OriginDirectoryLock
-{
-public
-:
 virtual
 Client
 :

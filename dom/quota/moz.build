@@ -295,6 +295,11 @@ NSSCipherStrategy
 h
 "
 "
+OriginDirectoryLock
+.
+h
+"
+"
 OriginOperationCallbacks
 .
 h
@@ -546,6 +551,11 @@ cpp
 "
 "
 NSSCipherStrategy
+.
+cpp
+"
+"
+OriginDirectoryLock
 .
 cpp
 "
