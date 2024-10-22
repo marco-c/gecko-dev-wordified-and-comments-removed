@@ -556,12 +556,10 @@ virtual
 void
 OnOriginClearCompleted
 (
-PersistenceType
-aPersistenceType
 const
-nsACString
+OriginMetadata
 &
-aOrigin
+aOriginMetadata
 )
 =
 0

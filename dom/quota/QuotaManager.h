@@ -2178,12 +2178,10 @@ aClientType
 void
 OriginClearCompleted
 (
-PersistenceType
-aPersistenceType
 const
-nsACString
+OriginMetadata
 &
-aOrigin
+aOriginMetadata
 const
 Nullable
 <
