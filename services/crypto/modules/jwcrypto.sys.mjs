@@ -452,9 +452,6 @@ key
 ECDH_PARAMS
 false
 [
-"
-deriveKey
-"
 ]
 )
 ;
@@ -1138,9 +1135,6 @@ epk
 ECDH_PARAMS
 false
 [
-"
-deriveKey
-"
 ]
 )
 ;

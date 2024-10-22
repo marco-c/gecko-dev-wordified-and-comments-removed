@@ -2644,9 +2644,6 @@ senderKey
 ECDH_KEY
 false
 [
-"
-deriveBits
-"
 ]
 )
 crypto
@@ -5521,9 +5518,6 @@ receiverPublicKey
 ECDH_KEY
 false
 [
-"
-deriveBits
-"
 ]
 )
 ;

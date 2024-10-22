@@ -961,9 +961,6 @@ remoteShare
 P256DH
 false
 [
-"
-deriveBits
-"
 ]
 )
 .
