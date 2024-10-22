@@ -74,7 +74,6 @@ QuotaManager
 ;
 class
 OriginDirectoryLock
-final
 :
 public
 DirectoryLockImpl
