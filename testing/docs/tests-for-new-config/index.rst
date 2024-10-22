@@ -375,7 +375,7 @@ rebuild
 -
 new
 -
-task
+test
 -
 config
 -
