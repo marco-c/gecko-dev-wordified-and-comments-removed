@@ -3623,6 +3623,16 @@ mNonClientOffset
 ;
 LayoutDeviceIntMargin
 mNonClientMargins
+{
+-
+1
+-
+1
+-
+1
+-
+1
+}
 ;
 LayoutDeviceIntMargin
 mFutureMarginsOnceChromeShows
