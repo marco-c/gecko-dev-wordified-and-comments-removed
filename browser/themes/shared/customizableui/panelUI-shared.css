@@ -5938,6 +5938,12 @@ arrowpanel
 color
 )
 ;
+text
+-
+wrap
+:
+wrap
+;
 }
 #
 fxa
@@ -5975,6 +5981,12 @@ weight
 -
 bold
 )
+;
+text
+-
+wrap
+:
+wrap
 ;
 }
 #
