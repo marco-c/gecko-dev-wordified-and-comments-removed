@@ -4719,8 +4719,9 @@ f
 f
 -
 >
-HasLineClampEllipsis
+HasAnyStateBits
 (
+NS_BLOCK_HAS_LINE_CLAMP_ELLIPSIS
 )
 ;
 }
@@ -4753,8 +4754,9 @@ return
 aBlockFrame
 -
 >
-HasLineClampEllipsis
+HasAnyStateBits
 (
+NS_BLOCK_HAS_LINE_CLAMP_ELLIPSIS
 )
 ;
 }
