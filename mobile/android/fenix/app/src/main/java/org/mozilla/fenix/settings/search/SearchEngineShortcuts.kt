@@ -1055,7 +1055,7 @@ R
 .
 string
 .
-search_engine_icon_content_description
+search_engine_icon_content_description_1
 engine
 .
 name

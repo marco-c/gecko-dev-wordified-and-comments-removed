@@ -488,7 +488,7 @@ R
 .
 string
 .
-search_engine_icon_content_description
+search_engine_icon_content_description_1
 initialSearchEngine
 .
 name
@@ -789,7 +789,7 @@ R
 .
 string
 .
-search_engine_icon_content_description
+search_engine_icon_content_description_1
 searchEngine
 .
 name
