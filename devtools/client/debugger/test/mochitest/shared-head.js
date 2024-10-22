@@ -10418,7 +10418,7 @@ dbg
 .
 win
 .
-codemirrorEditor
+codeMirrorSourceEditorTestInstance
 ;
 }
 function
