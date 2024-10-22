@@ -132,6 +132,13 @@ https_first_disabled
 true
 [
 "
+browser_asrouter_menu_messages
+.
+js
+"
+]
+[
+"
 browser_asrouter_milestone_message_cfr
 .
 js
