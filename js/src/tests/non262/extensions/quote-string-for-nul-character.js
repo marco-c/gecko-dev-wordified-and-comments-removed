@@ -28,48 +28,7 @@ expected
 )
 ;
 }
-function
-assertErrorMessageIncludes
-(
-fn
-str
-)
-{
-try
-{
-fn
-(
-)
-;
-}
-catch
-(
-e
-)
-{
-assertStringIncludes
-(
-e
-.
-message
-str
-)
-;
-return
-;
-}
-assertEq
-(
-true
-false
-"
-missing
-exception
-"
-)
-;
-}
-assertErrorMessageIncludes
+assertThrownErrorContains
 (
 (
 )
@@ -91,7 +50,7 @@ bar
 "
 )
 ;
-assertErrorMessageIncludes
+assertThrownErrorContains
 (
 (
 )
@@ -120,7 +79,7 @@ this
 Intl
 )
 {
-assertErrorMessageIncludes
+assertThrownErrorContains
 (
 (
 )
@@ -141,7 +100,7 @@ Latn
 "
 )
 ;
-assertErrorMessageIncludes
+assertThrownErrorContains
 (
 (
 )
@@ -170,7 +129,7 @@ cookie
 "
 )
 ;
-assertErrorMessageIncludes
+assertThrownErrorContains
 (
 (
 )
@@ -199,7 +158,7 @@ cookie
 "
 )
 ;
-assertErrorMessageIncludes
+assertThrownErrorContains
 (
 (
 )
@@ -228,7 +187,7 @@ cookie
 "
 )
 ;
-assertErrorMessageIncludes
+assertThrownErrorContains
 (
 (
 )
@@ -257,7 +216,7 @@ cookie
 "
 )
 ;
-assertErrorMessageIncludes
+assertThrownErrorContains
 (
 (
 )
@@ -286,7 +245,7 @@ cookie
 "
 )
 ;
-assertErrorMessageIncludes
+assertThrownErrorContains
 (
 (
 )
@@ -315,7 +274,7 @@ cookie
 "
 )
 ;
-assertErrorMessageIncludes
+assertThrownErrorContains
 (
 (
 )
@@ -344,7 +303,7 @@ cookie
 "
 )
 ;
-assertErrorMessageIncludes
+assertThrownErrorContains
 (
 (
 )
@@ -373,7 +332,7 @@ cookie
 "
 )
 ;
-assertErrorMessageIncludes
+assertThrownErrorContains
 (
 (
 )
@@ -402,7 +361,7 @@ cookie
 "
 )
 ;
-assertErrorMessageIncludes
+assertThrownErrorContains
 (
 (
 )
@@ -431,7 +390,7 @@ cookie
 "
 )
 ;
-assertErrorMessageIncludes
+assertThrownErrorContains
 (
 (
 )
@@ -462,7 +421,7 @@ cookie
 "
 )
 ;
-assertErrorMessageIncludes
+assertThrownErrorContains
 (
 (
 )
@@ -493,7 +452,7 @@ cookie
 "
 )
 ;
-assertErrorMessageIncludes
+assertThrownErrorContains
 (
 (
 )
@@ -524,7 +483,7 @@ cookie
 "
 )
 ;
-assertErrorMessageIncludes
+assertThrownErrorContains
 (
 (
 )
@@ -555,7 +514,7 @@ cookie
 "
 )
 ;
-assertErrorMessageIncludes
+assertThrownErrorContains
 (
 (
 )
@@ -586,7 +545,7 @@ cookie
 "
 )
 ;
-assertErrorMessageIncludes
+assertThrownErrorContains
 (
 (
 )
@@ -617,7 +576,7 @@ cookie
 "
 )
 ;
-assertErrorMessageIncludes
+assertThrownErrorContains
 (
 (
 )
@@ -646,7 +605,7 @@ cookie
 "
 )
 ;
-assertErrorMessageIncludes
+assertThrownErrorContains
 (
 (
 )
@@ -675,7 +634,7 @@ cookie
 "
 )
 ;
-assertErrorMessageIncludes
+assertThrownErrorContains
 (
 (
 )
@@ -704,7 +663,7 @@ cookie
 "
 )
 ;
-assertErrorMessageIncludes
+assertThrownErrorContains
 (
 (
 )
@@ -733,7 +692,7 @@ cookie
 "
 )
 ;
-assertErrorMessageIncludes
+assertThrownErrorContains
 (
 (
 )
@@ -762,7 +721,7 @@ cookie
 "
 )
 ;
-assertErrorMessageIncludes
+assertThrownErrorContains
 (
 (
 )
@@ -791,7 +750,7 @@ cookie
 "
 )
 ;
-assertErrorMessageIncludes
+assertThrownErrorContains
 (
 (
 )
@@ -820,7 +779,7 @@ cookie
 "
 )
 ;
-assertErrorMessageIncludes
+assertThrownErrorContains
 (
 (
 )
@@ -849,7 +808,7 @@ cookie
 "
 )
 ;
-assertErrorMessageIncludes
+assertThrownErrorContains
 (
 (
 )
@@ -878,7 +837,7 @@ cookie
 "
 )
 ;
-assertErrorMessageIncludes
+assertThrownErrorContains
 (
 (
 )
@@ -907,7 +866,7 @@ cookie
 "
 )
 ;
-assertErrorMessageIncludes
+assertThrownErrorContains
 (
 (
 )
@@ -936,7 +895,7 @@ cookie
 "
 )
 ;
-assertErrorMessageIncludes
+assertThrownErrorContains
 (
 (
 )
@@ -965,7 +924,7 @@ cookie
 "
 )
 ;
-assertErrorMessageIncludes
+assertThrownErrorContains
 (
 (
 )
@@ -994,7 +953,7 @@ cookie
 "
 )
 ;
-assertErrorMessageIncludes
+assertThrownErrorContains
 (
 (
 )
@@ -1023,7 +982,7 @@ cookie
 "
 )
 ;
-assertErrorMessageIncludes
+assertThrownErrorContains
 (
 (
 )
@@ -1050,7 +1009,7 @@ cookie
 "
 )
 ;
-assertErrorMessageIncludes
+assertThrownErrorContains
 (
 (
 )
@@ -1072,7 +1031,7 @@ keks
 "
 )
 ;
-assertErrorMessageIncludes
+assertThrownErrorContains
 (
 (
 )
@@ -1101,7 +1060,7 @@ biscotto
 "
 )
 ;
-assertErrorMessageIncludes
+assertThrownErrorContains
 (
 (
 )
@@ -1147,7 +1106,7 @@ u0E49
 "
 )
 ;
-assertErrorMessageIncludes
+assertThrownErrorContains
 (
 (
 )
@@ -1176,7 +1135,7 @@ biscuit
 "
 )
 ;
-assertErrorMessageIncludes
+assertThrownErrorContains
 (
 (
 )
@@ -1205,7 +1164,7 @@ F1
 "
 )
 ;
-assertErrorMessageIncludes
+assertThrownErrorContains
 (
 (
 )
@@ -1234,7 +1193,7 @@ F2
 "
 )
 ;
-assertErrorMessageIncludes
+assertThrownErrorContains
 (
 (
 )
@@ -1263,7 +1222,7 @@ F3
 "
 )
 ;
-assertErrorMessageIncludes
+assertThrownErrorContains
 (
 (
 )
@@ -1292,7 +1251,7 @@ F4
 "
 )
 ;
-assertErrorMessageIncludes
+assertThrownErrorContains
 (
 (
 )
@@ -1322,7 +1281,7 @@ F5
 )
 ;
 }
-assertErrorMessageIncludes
+assertThrownErrorContains
 (
 (
 )
@@ -1478,7 +1437,7 @@ undefined
 "
 )
 {
-assertErrorMessageIncludes
+assertThrownErrorContains
 (
 (
 )
