@@ -259,11 +259,11 @@ aIsTopLevel
 ;
 private
 :
+RefPtr
+<
 nsWindow
-*
+>
 mParent
-=
-nullptr
 ;
 nsCOMPtr
 <
