@@ -2655,9 +2655,9 @@ instance
 void
 *
 stringArg
-int32_t
+uint32_t
 startIndex
-int32_t
+uint32_t
 endIndex
 )
 ;
