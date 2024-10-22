@@ -14809,6 +14809,10 @@ aString
 }
 gfxScriptItemizer
 scriptRuns
+;
+scriptRuns
+.
+SetText
 (
 textPtr
 aLength
