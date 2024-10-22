@@ -3057,9 +3057,6 @@ RTCRtpSender
 RTCDMTFSender
 :
 5
-VideoFrameConverter
-:
-5
 WebrtcTCPSocket
 :
 5
@@ -3292,12 +3289,6 @@ to
 sending
 DTMF
 messages
--
-*
--
-VideoFrameConverter
--
--
 -
 *
 -
