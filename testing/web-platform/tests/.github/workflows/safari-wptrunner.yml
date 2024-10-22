@@ -52,7 +52,7 @@ required
 true
 type
 :
-bool
+boolean
 safaridriver
 -
 diagnose
@@ -70,7 +70,7 @@ required
 true
 type
 :
-bool
+boolean
 #
 We
 never
