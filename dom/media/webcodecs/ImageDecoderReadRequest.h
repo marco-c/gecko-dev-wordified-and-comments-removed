@@ -51,9 +51,6 @@ ReadableStream
 class
 ReadableStreamDefaultReader
 ;
-class
-WeakWorkerRef
-;
 struct
 ImageDecoderReadRequest
 final
@@ -101,9 +98,7 @@ void
 Destroy
 (
 bool
-aCycleCollect
-=
-true
+aCancel
 )
 ;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
@@ -200,12 +195,6 @@ MediaResult
 &
 aResult
 )
-;
-RefPtr
-<
-WeakWorkerRef
->
-mWorkerRef
 ;
 RefPtr
 <
