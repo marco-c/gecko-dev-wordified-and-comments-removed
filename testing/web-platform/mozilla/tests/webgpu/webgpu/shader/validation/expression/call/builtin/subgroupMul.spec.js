@@ -6,8 +6,9 @@ Validation
 tests
 for
 subgroupMul
-and
 subgroupExclusiveMul
+and
+subgroupInclusiveMul
 ;
 import
 {
@@ -144,6 +145,9 @@ subgroupMul
 '
 '
 subgroupExclusiveMul
+'
+'
+subgroupInclusiveMul
 '
 ]
 ;

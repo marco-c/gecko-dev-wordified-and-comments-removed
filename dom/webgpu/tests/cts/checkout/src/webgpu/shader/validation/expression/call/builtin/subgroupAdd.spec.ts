@@ -145,6 +145,9 @@ subgroupAdd
 '
 subgroupExclusiveAdd
 '
+'
+subgroupInclusiveAdd
+'
 ]
 as
 const
