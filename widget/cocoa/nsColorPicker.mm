@@ -338,6 +338,12 @@ setColor
 aInitialColor
 ]
 ;
+mColorPanel
+.
+showsAlpha
+=
+NO
+;
 [
 mColorPanel
 setFrameOrigin
