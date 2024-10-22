@@ -639,6 +639,17 @@ name
 "
 mitm8
 "
+if
+platform_name
+=
+=
+"
+linux
+"
+else
+"
+mitm11
+"
             
 platform_name
             

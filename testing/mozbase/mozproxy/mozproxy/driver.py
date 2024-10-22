@@ -305,11 +305,11 @@ version
 default
 =
 "
-8
+11
 .
-1
+0
 .
-1
+0
 "
         
 help
@@ -968,6 +968,20 @@ tool
 playback_version
 "
 :
+"
+8
+.
+1
+.
+1
+"
+                    
+if
+mozinfo
+.
+isLinux
+                    
+else
 args
 .
 tool_version
