@@ -234,7 +234,6 @@ dispatch
 (
 fetchScopes
 (
-selectedFrame
 )
 )
 )

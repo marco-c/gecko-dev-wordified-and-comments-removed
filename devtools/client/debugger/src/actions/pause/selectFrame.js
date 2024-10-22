@@ -151,7 +151,6 @@ dispatch
 (
 fetchScopes
 (
-frame
 )
 )
 ;

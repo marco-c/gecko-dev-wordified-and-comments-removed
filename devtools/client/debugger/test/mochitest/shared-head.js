@@ -2383,7 +2383,7 @@ dbg
 .
 selectors
 .
-getSelectedInlinePreviews
+getInlinePreviews
 (
 )
 )
