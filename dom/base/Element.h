@@ -849,6 +849,9 @@ class
 OwningTrustedHTMLOrNullIsEmptyString
 ;
 class
+TrustedHTML
+;
+class
 TrustedHTMLOrNullIsEmptyString
 ;
 #
@@ -5862,6 +5865,7 @@ OOMReporter
 aError
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 SetInnerHTML
 (
@@ -5913,6 +5917,7 @@ ErrorResult
 aError
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 InsertAdjacentHTML
 (
