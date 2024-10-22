@@ -55,6 +55,7 @@ waitForNewTab
 (
 gBrowser
 TEST_PATH
+true
 )
 ;
 const
@@ -103,18 +104,6 @@ newTab
 =
 await
 onNewTab
-;
-await
-BrowserTestUtils
-.
-browserLoaded
-(
-newTab
-.
-linkedBrowser
-false
-TEST_PATH
-)
 ;
 const
 browsingContext
