@@ -37025,6 +37025,15 @@ value
 :
 true
 #
+elif
+defined
+(
+XP_WIN
+)
+value
+:
+true
+#
 else
 value
 :
@@ -38896,7 +38905,7 @@ type
 bool
 value
 :
-false
+true
 mirror
 :
 once
