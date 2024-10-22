@@ -19903,7 +19903,7 @@ date_getYear
 0
 0
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 getFullYear
@@ -19911,6 +19911,7 @@ getFullYear
 date_getFullYear
 0
 0
+DateGetFullYear
 )
 JS_FN
 (
@@ -19921,7 +19922,7 @@ date_getUTCFullYear
 0
 0
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 getMonth
@@ -19929,6 +19930,7 @@ getMonth
 date_getMonth
 0
 0
+DateGetMonth
 )
 JS_FN
 (
@@ -19939,7 +19941,7 @@ date_getUTCMonth
 0
 0
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 getDate
@@ -19947,6 +19949,7 @@ getDate
 date_getDate
 0
 0
+DateGetDate
 )
 JS_FN
 (
@@ -19957,7 +19960,7 @@ date_getUTCDate
 0
 0
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 getDay
@@ -19965,6 +19968,7 @@ getDay
 date_getDay
 0
 0
+DateGetDay
 )
 JS_FN
 (
