@@ -113,6 +113,11 @@ name
 "
 wintrust
 "
+kind
+=
+"
+static
+"
 )
 ]
 extern
