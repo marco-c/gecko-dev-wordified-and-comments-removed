@@ -347,7 +347,7 @@ refContent
 =
 nullptr
 ;
-AssociatedElementsIterator
+IDRefsIterator
 iter
 (
 aAccessible
