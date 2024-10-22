@@ -10695,9 +10695,8 @@ groupDropIndex
 if
 (
 groupDropIndex
->
-=
-0
+in
+tabs
 )
 {
 dragData
