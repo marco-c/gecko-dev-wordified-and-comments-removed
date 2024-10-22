@@ -808,8 +808,6 @@ isObject
 UniqueChars
 bytes
 ;
-if
-(
 const
 char
 *
@@ -821,8 +819,12 @@ cx
 v
 bytes
 )
+;
+MOZ_ASSERT
+(
+chars
 )
-{
+;
 JS_ReportErrorNumberLatin1
 (
 cx
@@ -834,7 +836,6 @@ fun
 chars
 )
 ;
-}
 }
 JS_PUBLIC_API
 const
