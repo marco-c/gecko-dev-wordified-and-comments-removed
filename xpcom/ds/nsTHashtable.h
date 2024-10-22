@@ -849,8 +849,8 @@ template
 typename
 EntryType
 >
-auto
-RangeSize
+size_t
+RangeSizeEstimate
 (
 const
 :
