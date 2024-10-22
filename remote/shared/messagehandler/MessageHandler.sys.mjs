@@ -1260,6 +1260,8 @@ type
 property
 {
 string
+|
+number
 =
 }
 id

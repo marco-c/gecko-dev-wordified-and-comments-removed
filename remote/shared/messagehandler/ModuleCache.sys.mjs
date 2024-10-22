@@ -1326,6 +1326,12 @@ this
 messageHandler
 )
 ;
+module
+.
+moduleName
+=
+moduleName
+;
 }
 this
 .
