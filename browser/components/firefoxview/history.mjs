@@ -1958,8 +1958,6 @@ history
 empty
 -
 header
--
-2
 "
 ;
 descriptionLabels
@@ -1977,8 +1975,6 @@ history
 empty
 -
 description
--
-one
 "
 "
 firefoxview
