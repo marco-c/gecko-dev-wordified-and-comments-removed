@@ -2442,7 +2442,7 @@ add_task
 (
 async
 function
-test_permission_system_principal
+test_permission_system_principal_have_default
 (
 )
 {
@@ -5139,7 +5139,7 @@ add_task
 (
 async
 function
-test_redirect_principal
+test_redirect_principal_refresh_header
 (
 )
 {
@@ -5209,7 +5209,7 @@ add_task
 (
 async
 function
-test_redirect_principal
+test_redirect_principal_meta
 (
 )
 {
