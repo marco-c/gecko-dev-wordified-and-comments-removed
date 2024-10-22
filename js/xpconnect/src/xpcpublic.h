@@ -2088,6 +2088,11 @@ Value
 out
 )
 ;
+[
+[
+nodiscard
+]
+]
 bool
 NonVoidStringToJsval
 (
@@ -2359,6 +2364,11 @@ rval
 )
 ;
 }
+[
+[
+nodiscard
+]
+]
 bool
 NonVoidLatin1StringToJsval
 (
