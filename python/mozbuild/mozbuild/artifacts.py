@@ -3537,16 +3537,6 @@ bin
 product
 }
 /
-minidump
--
-analyzer
-"
-        
-"
-{
-product
-}
-/
 pingsender
 "
         
@@ -4157,12 +4147,6 @@ bin
 *
 .
 dylib
-"
-                
-"
-minidump
--
-analyzer
 "
                 
 "
