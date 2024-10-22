@@ -178,6 +178,12 @@ str
 >
 >
 >
+permit_non_commutative_operations_over_ipc
+:
+Option
+<
+bool
+>
 }
 #
 [
@@ -587,6 +593,9 @@ numerators
 extra_args
 .
 ordered_labels
+extra_args
+.
+permit_non_commutative_operations_over_ipc
 )
 ;
 extern
