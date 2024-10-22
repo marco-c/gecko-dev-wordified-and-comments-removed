@@ -16333,10 +16333,9 @@ postRecoveryPath
 postRecovery
 )
 ;
-await
 profileSvc
 .
-asyncFlush
+flush
 (
 )
 ;
