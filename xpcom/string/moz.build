@@ -47,6 +47,11 @@ nsDependentSubstring
 h
 "
 "
+nsFmtString
+.
+h
+"
+"
 nsLiteralString
 .
 h
