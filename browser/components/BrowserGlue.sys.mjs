@@ -4831,6 +4831,11 @@ about
 :
 editprofile
 "
+"
+about
+:
+deleteprofile
+"
 ]
 }
 LinkHandler
