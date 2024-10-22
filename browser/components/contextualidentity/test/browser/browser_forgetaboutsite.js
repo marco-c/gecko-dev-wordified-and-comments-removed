@@ -713,7 +713,7 @@ value
 await
 ForgetAboutSite
 .
-removeDataFromDomain
+removeDataFromBaseDomain
 (
 TEST_HOST
 )
@@ -982,7 +982,7 @@ correctly
 await
 ForgetAboutSite
 .
-removeDataFromDomain
+removeDataFromBaseDomain
 (
 TEST_HOST
 )
@@ -1220,7 +1220,7 @@ gHits
 await
 ForgetAboutSite
 .
-removeDataFromDomain
+removeDataFromBaseDomain
 (
 "
 localhost
@@ -1582,7 +1582,7 @@ tab
 await
 ForgetAboutSite
 .
-removeDataFromDomain
+removeDataFromBaseDomain
 (
 TEST_HOST
 )

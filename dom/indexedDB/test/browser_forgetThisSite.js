@@ -269,7 +269,7 @@ test3
 {
 ForgetAboutSite
 .
-removeDataFromDomain
+removeDataFromBaseDomain
 (
 domains
 [

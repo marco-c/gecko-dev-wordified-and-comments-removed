@@ -808,7 +808,7 @@ promiseClearHistory
 await
 ForgetAboutSite
 .
-removeDataFromDomain
+removeDataFromBaseDomain
 (
 "
 example

@@ -1912,7 +1912,7 @@ anotherTab
 await
 ForgetAboutSite
 .
-removeDataFromDomain
+removeDataFromBaseDomain
 (
 "
 example

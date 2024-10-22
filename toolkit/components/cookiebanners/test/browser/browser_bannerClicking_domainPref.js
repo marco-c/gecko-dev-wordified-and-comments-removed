@@ -851,7 +851,7 @@ OptIn
 await
 ForgetAboutSite
 .
-removeDataFromDomain
+removeDataFromBaseDomain
 (
 TEST_DOMAIN_B
 )
