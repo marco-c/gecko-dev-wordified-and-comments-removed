@@ -48,3 +48,4 @@ maxdepth
 BackgroundUpdates
 MaintenanceServiceTests
 SettingUpAnUpdateServer
+InAppUpdateProcess
