@@ -34,6 +34,17 @@ h
 #
 include
 "
+chrome
+/
+common
+/
+ipc_message_utils
+.
+h
+"
+#
+include
+"
 nscore
 .
 h

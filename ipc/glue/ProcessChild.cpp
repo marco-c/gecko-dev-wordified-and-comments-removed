@@ -304,7 +304,7 @@ aArgv
 {
 Maybe
 <
-UniqueFileHandle
+SharedMemoryHandle
 >
 prefsHandle
 =
@@ -321,7 +321,7 @@ aArgv
 ;
 Maybe
 <
-UniqueFileHandle
+SharedMemoryHandle
 >
 prefMapHandle
 =
