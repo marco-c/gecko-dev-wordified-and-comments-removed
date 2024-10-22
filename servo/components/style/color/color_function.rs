@@ -295,6 +295,7 @@ ColorFunction
 AbsoluteColor
 >
 {
+pub
 fn
 resolve_to_absolute
 (
