@@ -3101,8 +3101,6 @@ cx
 AutoFilename
 *
 filename
-=
-nullptr
 uint32_t
 *
 lineno
