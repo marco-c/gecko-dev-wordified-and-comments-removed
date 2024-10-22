@@ -1639,6 +1639,9 @@ EditorDOMPointType
 .
 template
 NextPointOrAfterContainer
+<
+EditorDOMPointType
+>
 (
 )
 ;
