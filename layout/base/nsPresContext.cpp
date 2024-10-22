@@ -14511,6 +14511,13 @@ None
 mPresShell
 -
 >
+MarkStickyFramesForReflow
+(
+)
+;
+mPresShell
+-
+>
 AddResizeEventFlushObserverIfNeeded
 (
 )

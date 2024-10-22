@@ -222,6 +222,11 @@ aFrame
 )
 const
 ;
+void
+MarkFramesForReflow
+(
+)
+;
 private
 :
 explicit

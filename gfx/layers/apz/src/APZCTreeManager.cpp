@@ -4867,9 +4867,7 @@ GetCompositorFixedLayerMargins
 lock
 )
 sides
-ScreenMargin
-(
-)
+mGeckoFixedLayerMargins
 )
 ;
 LayerToParentLayerMatrix4x4
@@ -10902,9 +10900,7 @@ GetCompositorFixedLayerMargins
 lock
 )
 sideBits
-ScreenMargin
-(
-)
+mGeckoFixedLayerMargins
 )
 )
 ;

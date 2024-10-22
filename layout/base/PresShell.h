@@ -3428,6 +3428,11 @@ aIntrinsicDirty
 )
 ;
 void
+MarkStickyFramesForReflow
+(
+)
+;
+void
 MaybeReflowForInflationScreenSizeChange
 (
 )
