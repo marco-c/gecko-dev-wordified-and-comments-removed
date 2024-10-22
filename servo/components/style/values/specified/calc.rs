@@ -218,6 +218,13 @@ PartialEq
 ToShmem
 )
 ]
+#
+[
+repr
+(
+u8
+)
+]
 pub
 enum
 Leaf
