@@ -32,17 +32,6 @@ js
 "
 )
 ;
-const
-thread
-=
-dbg
-.
-selectors
-.
-getCurrentThread
-(
-)
-;
 await
 selectSource
 (
@@ -146,7 +135,6 @@ selectors
 .
 getSelectedFrame
 (
-thread
 )
 .
 location

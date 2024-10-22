@@ -3,7 +3,6 @@ import
 getGeneratedFrameScope
 getOriginalFrameScope
 getSelectedFrame
-getCurrentThread
 }
 from
 "
@@ -97,12 +96,6 @@ getSelectedFrame
 (
 getState
 (
-)
-getCurrentThread
-(
-getState
-(
-)
 )
 )
 ;

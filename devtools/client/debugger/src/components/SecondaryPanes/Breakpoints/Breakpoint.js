@@ -200,7 +200,6 @@ import
 {
 getSelectedFrame
 getSelectedSource
-getCurrentThread
 isSourceMapIgnoreListEnabled
 isSourceOnSourceMapIgnoreList
 getBlackBoxRanges
@@ -1140,10 +1139,6 @@ frame
 getFormattedFrame
 (
 state
-getCurrentThread
-(
-state
-)
 )
 }
 ;

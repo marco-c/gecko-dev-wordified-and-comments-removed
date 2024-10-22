@@ -32,7 +32,6 @@ sources
 ;
 import
 {
-getCurrentThread
 getSelectedFrame
 }
 from
@@ -78,14 +77,6 @@ state
 )
 {
 const
-thread
-=
-getCurrentThread
-(
-state
-)
-;
-const
 selectedLocation
 =
 getSelectedLocation
@@ -99,7 +90,6 @@ selectedFrame
 getSelectedFrame
 (
 state
-thread
 )
 ;
 if

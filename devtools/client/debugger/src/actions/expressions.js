@@ -200,7 +200,6 @@ getSelectedFrame
 getState
 (
 )
-thread
 )
 ;
 const
@@ -344,16 +343,6 @@ dispatch
 >
 {
 const
-thread
-=
-getCurrentThread
-(
-getState
-(
-)
-)
-;
-const
 selectedFrame
 =
 getSelectedFrame
@@ -361,7 +350,6 @@ getSelectedFrame
 getState
 (
 )
-thread
 )
 ;
 await
@@ -547,7 +535,6 @@ getSelectedFrame
 getState
 (
 )
-thread
 )
 ;
 const

@@ -6,7 +6,6 @@ getSelectedFrame
 getGeneratedFrameScope
 getOriginalFrameScope
 getFirstSourceActorForGeneratedSource
-getCurrentThread
 }
 from
 "
@@ -472,10 +471,6 @@ selectedFrame
 getSelectedFrame
 (
 state
-getCurrentThread
-(
-state
-)
 )
 ;
 if

@@ -154,7 +154,6 @@ isMapScopesEnabled
 getIsCurrentThreadPaused
 getSelectedFrame
 getOriginalFrameScope
-getCurrentThread
 }
 from
 "
@@ -1924,10 +1923,6 @@ selectedFrame
 getSelectedFrame
 (
 state
-getCurrentThread
-(
-state
-)
 )
 ;
 const

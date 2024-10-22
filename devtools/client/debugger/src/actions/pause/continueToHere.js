@@ -4,7 +4,6 @@ getSelectedSource
 getSelectedFrame
 getClosestBreakpointPosition
 getBreakpoint
-getCurrentThread
 }
 from
 "
@@ -101,16 +100,6 @@ column
 location
 ;
 const
-thread
-=
-getCurrentThread
-(
-getState
-(
-)
-)
-;
-const
 selectedSource
 =
 getSelectedSource
@@ -128,7 +117,6 @@ getSelectedFrame
 getState
 (
 )
-thread
 )
 ;
 if

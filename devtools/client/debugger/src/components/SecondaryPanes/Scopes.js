@@ -126,7 +126,6 @@ index
 import
 {
 getSelectedFrame
-getCurrentThread
 getSelectedSource
 getGeneratedFrameScope
 getOriginalFrameScope
@@ -1542,10 +1541,6 @@ selectedFrame
 getSelectedFrame
 (
 state
-getCurrentThread
-(
-state
-)
 )
 ;
 if

@@ -518,7 +518,6 @@ getSelectedFrame
 getState
 (
 )
-thread
 )
 ;
 if

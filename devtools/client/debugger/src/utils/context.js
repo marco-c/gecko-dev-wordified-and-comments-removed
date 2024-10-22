@@ -226,7 +226,6 @@ newSelectedFrame
 getSelectedFrame
 (
 state
-newThread
 )
 ;
 if
