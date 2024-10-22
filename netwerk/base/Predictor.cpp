@@ -865,6 +865,16 @@ nsAutoCString
 targetURI
 sourceURI
 ;
+if
+(
+!
+mTargetURI
+)
+{
+return
+NS_ERROR_UNEXPECTED
+;
+}
 mTargetURI
 -
 >
@@ -2643,7 +2653,7 @@ Action
 :
 DO_PREDICT
 argReason
-targetURI
+uriKey
 nullptr
 verifier
 this
