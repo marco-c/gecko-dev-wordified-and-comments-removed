@@ -2712,7 +2712,7 @@ R
 .
 string
 .
-mozac_browser_menu_button
+content_description_menu
 )
 tint
 =
