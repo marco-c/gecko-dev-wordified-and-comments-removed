@@ -19058,7 +19058,7 @@ false
 else
 value
 :
-false
+IS_NIGHTLY_BUILD
 #
 endif
 mirror
