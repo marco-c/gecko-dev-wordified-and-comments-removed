@@ -935,16 +935,7 @@ if
 jsStringBuiltins
 )
 {
-JS_ReportErrorNumberUTF8
-(
-cx
-GetErrorMessage
-nullptr
-JSMSG_WASM_UNKNOWN_BUILTIN
-)
-;
-return
-false
+continue
 ;
 }
 if
