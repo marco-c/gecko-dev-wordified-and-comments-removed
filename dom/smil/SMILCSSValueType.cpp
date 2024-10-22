@@ -2515,6 +2515,8 @@ SMILCSSValueType
 :
 SetPropertyValues
 (
+nsCSSPropertyID
+aPropertyId
 const
 SMILValue
 &
@@ -2561,7 +2563,17 @@ wrapper
 )
 {
 return
-false
+Servo_DeclarationBlock_RemovePropertyById
+(
+aDecl
+.
+Raw
+(
+)
+aPropertyId
+{
+}
+)
 ;
 }
 bool

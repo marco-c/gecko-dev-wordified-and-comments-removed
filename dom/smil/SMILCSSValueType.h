@@ -230,6 +230,7 @@ static
 bool
 SetPropertyValues
 (
+nsCSSPropertyID
 const
 SMILValue
 &

@@ -736,6 +736,7 @@ SetSMILValue
 (
 const
 nsCSSPropertyID
+aPropID
 const
 SMILValue
 &
@@ -772,7 +773,6 @@ SetSMILValueHelper
 (
 [
 &
-aValue
 ]
 (
 DeclarationBlock
@@ -786,6 +786,7 @@ SMILCSSValueType
 :
 SetPropertyValues
 (
+aPropID
 aValue
 aDecl
 )
