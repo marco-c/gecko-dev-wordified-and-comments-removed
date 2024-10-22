@@ -1091,6 +1091,8 @@ syncedtabs
 signin
 -
 header
+-
+2
 "
 description
 :
@@ -1102,6 +1104,8 @@ syncedtabs
 signin
 -
 description
+-
+2
 "
 buttonLabel
 :
@@ -1113,6 +1117,8 @@ syncedtabs
 signin
 -
 primarybutton
+-
+2
 "
 }
 "
@@ -1132,6 +1138,8 @@ syncedtabs
 adddevice
 -
 header
+-
+2
 "
 description
 :
@@ -1143,6 +1151,8 @@ syncedtabs
 adddevice
 -
 description
+-
+2
 "
 buttonLabel
 :
