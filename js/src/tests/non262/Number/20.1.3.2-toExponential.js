@@ -194,7 +194,7 @@ x
 20
 )
 ;
-assertThrows
+assertThrowsValue
 (
 (
 )
@@ -222,6 +222,9 @@ hello
 }
 }
 )
+"
+hello
+"
 )
 ;
 assertThrowsInstanceOf

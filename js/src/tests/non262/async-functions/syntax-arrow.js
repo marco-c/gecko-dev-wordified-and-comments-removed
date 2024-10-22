@@ -1072,7 +1072,7 @@ yield
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -1097,9 +1097,10 @@ X
 }
 "
 )
+SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -1126,9 +1127,10 @@ X
 }
 "
 )
+SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -1157,9 +1159,10 @@ X
 }
 "
 )
+SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -1188,6 +1191,7 @@ X
 }
 "
 )
+SyntaxError
 )
 ;
 Reflect
