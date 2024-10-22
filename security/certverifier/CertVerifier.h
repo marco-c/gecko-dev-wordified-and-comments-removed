@@ -918,6 +918,9 @@ Disabled
 TelemetryOnly
 =
 1
+Enforce
+=
+2
 }
 ;
 CertVerifier
