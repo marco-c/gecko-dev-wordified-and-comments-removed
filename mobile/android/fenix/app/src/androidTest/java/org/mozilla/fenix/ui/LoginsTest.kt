@@ -995,6 +995,9 @@ username
 )
 userName
 )
+waitForAppWindowToBeUpdated
+(
+)
 setPageObjectText
 (
 itemWithResId
@@ -1004,6 +1007,9 @@ password
 "
 )
 password
+)
+waitForAppWindowToBeUpdated
+(
 )
 clickPageObject
 (
