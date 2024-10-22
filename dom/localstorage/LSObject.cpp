@@ -210,7 +210,7 @@ dom
 /
 quota
 /
-QuotaManager
+PrincipalUtils
 .
 h
 "
@@ -1019,9 +1019,6 @@ NS_WARN_IF
 quota
 :
 :
-QuotaManager
-:
-:
 IsPrincipalInfoValid
 (
 *
@@ -1044,9 +1041,6 @@ auto
 &
 principalMetadata
 quota
-:
-:
-QuotaManager
 :
 :
 GetInfoFromPrincipal
@@ -1087,9 +1081,6 @@ auto
 &
 origin
 quota
-:
-:
-QuotaManager
 :
 :
 GetOriginFromPrincipal
@@ -1567,9 +1558,6 @@ NS_WARN_IF
 quota
 :
 :
-QuotaManager
-:
-:
 IsPrincipalInfoValid
 (
 *
@@ -1631,9 +1619,6 @@ return
 quota
 :
 :
-QuotaManager
-:
-:
 GetInfoForChrome
 (
 )
@@ -1642,9 +1627,6 @@ GetInfoForChrome
 QM_TRY_RETURN
 (
 quota
-:
-:
-QuotaManager
 :
 :
 GetInfoFromPrincipal
@@ -1725,9 +1707,6 @@ nsAutoCString
 quota
 :
 :
-QuotaManager
-:
-:
 GetOriginForChrome
 (
 )
@@ -1737,9 +1716,6 @@ GetOriginForChrome
 QM_TRY_RETURN
 (
 quota
-:
-:
-QuotaManager
 :
 :
 GetOriginFromPrincipal

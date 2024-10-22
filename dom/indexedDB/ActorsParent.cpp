@@ -1207,6 +1207,19 @@ dom
 /
 quota
 /
+PrincipalUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
+quota
+/
 QuotaCommon
 .
 h
@@ -38349,7 +38362,7 @@ if
 NS_AUUF_OR_WARN_IF
 (
 !
-QuotaManager
+quota
 :
 :
 IsPrincipalInfoValid
@@ -38796,7 +38809,7 @@ QM_TRY
 (
 MOZ_TO_RESULT
 (
-QuotaManager
+quota
 :
 :
 IsPrincipalInfoValid
@@ -65214,7 +65227,7 @@ QM_TRY_UNWRAP
 (
 auto
 principalMetadata
-QuotaManager
+quota
 :
 :
 GetInfoFromValidatedPrincipalInfo

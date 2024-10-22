@@ -77,7 +77,7 @@ dom
 /
 quota
 /
-QuotaManager
+PrincipalUtils
 .
 h
 "
@@ -101,18 +101,6 @@ dom
 :
 cache
 {
-using
-mozilla
-:
-:
-dom
-:
-:
-quota
-:
-:
-QuotaManager
-;
 using
 mozilla
 :
@@ -159,7 +147,7 @@ if
 NS_WARN_IF
 (
 !
-QuotaManager
+quota
 :
 :
 IsPrincipalInfoValid

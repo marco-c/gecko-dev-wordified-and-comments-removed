@@ -721,7 +721,7 @@ dom
 /
 quota
 /
-QuotaManager
+PrincipalUtils
 .
 h
 "
@@ -18191,9 +18191,6 @@ MOZ_TRY_VAR
 (
 principalMetadata
 quota
-:
-:
-QuotaManager
 :
 :
 GetInfoFromWindow

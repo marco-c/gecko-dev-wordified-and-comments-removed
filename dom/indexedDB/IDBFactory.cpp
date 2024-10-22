@@ -106,6 +106,19 @@ dom
 /
 quota
 /
+PrincipalUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
+quota
+/
 QuotaManager
 .
 h
@@ -752,7 +765,7 @@ if
 NS_WARN_IF
 (
 !
-QuotaManager
+quota
 :
 :
 IsPrincipalInfoValid
@@ -1057,7 +1070,7 @@ if
 NS_WARN_IF
 (
 !
-QuotaManager
+quota
 :
 :
 IsPrincipalInfoValid
@@ -3628,7 +3641,7 @@ if
 NS_WARN_IF
 (
 !
-QuotaManager
+quota
 :
 :
 IsPrincipalInfoValid

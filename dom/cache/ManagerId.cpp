@@ -27,7 +27,7 @@ dom
 /
 quota
 /
-QuotaManager
+PrincipalUtils
 .
 h
 "
@@ -113,7 +113,7 @@ const
 auto
 &
 quotaOrigin
-QuotaManager
+quota
 :
 :
 GetOriginFromPrincipal

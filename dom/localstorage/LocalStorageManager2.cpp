@@ -156,7 +156,7 @@ dom
 /
 quota
 /
-PromiseUtils
+PrincipalUtils
 .
 h
 "
@@ -169,7 +169,7 @@ dom
 /
 quota
 /
-QuotaManager
+PromiseUtils
 .
 h
 "
@@ -658,9 +658,6 @@ NS_WARN_IF
 (
 !
 quota
-:
-:
-QuotaManager
 :
 :
 IsPrincipalInfoValid

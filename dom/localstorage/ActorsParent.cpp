@@ -710,6 +710,19 @@ dom
 /
 quota
 /
+PrincipalUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
+quota
+/
 QuotaCommon
 .
 h
@@ -11791,7 +11804,7 @@ if
 NS_WARN_IF
 (
 !
-QuotaManager
+quota
 :
 :
 IsPrincipalInfoValid
@@ -27617,7 +27630,7 @@ TSystemPrincipalInfo
 mOriginMetadata
 =
 {
-QuotaManager
+quota
 :
 :
 GetInfoForChrome
@@ -27648,7 +27661,7 @@ QM_TRY_UNWRAP
 (
 auto
 principalMetadata
-QuotaManager
+quota
 :
 :
 GetInfoFromValidatedPrincipalInfo
@@ -32975,7 +32988,7 @@ TSystemPrincipalInfo
 {
 mOrigin
 =
-QuotaManager
+quota
 :
 :
 GetOriginForChrome
@@ -33002,7 +33015,7 @@ TContentPrincipalInfo
 ;
 mOrigin
 =
-QuotaManager
+quota
 :
 :
 GetOriginFromValidatedPrincipalInfo
@@ -33894,7 +33907,7 @@ TSystemPrincipalInfo
 ?
 nsCString
 {
-QuotaManager
+quota
 :
 :
 GetOriginForChrome
@@ -33902,7 +33915,7 @@ GetOriginForChrome
 )
 }
 :
-QuotaManager
+quota
 :
 :
 GetOriginFromValidatedPrincipalInfo
@@ -34194,7 +34207,7 @@ TSystemPrincipalInfo
 ?
 nsCString
 {
-QuotaManager
+quota
 :
 :
 GetOriginForChrome
@@ -34202,7 +34215,7 @@ GetOriginForChrome
 )
 }
 :
-QuotaManager
+quota
 :
 :
 GetOriginFromValidatedPrincipalInfo
@@ -36117,7 +36130,7 @@ GetOrigin
 )
 =
 =
-QuotaManager
+quota
 :
 :
 GetOriginForChrome
