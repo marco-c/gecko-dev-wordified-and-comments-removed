@@ -986,9 +986,10 @@ UiSelector
 description
 (
 "
+Tabs
+Open
+:
 tabsCount
-open
-tabs
 .
 Tap
 to
