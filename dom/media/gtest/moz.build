@@ -312,11 +312,6 @@ TestOpusParser
 cpp
 "
 "
-TestPacer
-.
-cpp
-"
-"
 TestRust
 .
 cpp
@@ -449,6 +444,11 @@ UNIFIED_SOURCES
 [
 "
 TestAudioDeviceEnumerator
+.
+cpp
+"
+"
+TestPacer
 .
 cpp
 "
