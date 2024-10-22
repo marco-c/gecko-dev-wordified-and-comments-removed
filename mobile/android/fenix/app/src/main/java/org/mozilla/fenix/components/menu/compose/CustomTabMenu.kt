@@ -584,7 +584,7 @@ R
 .
 string
 .
-browser_menu_share
+browser_menu_share_2
 )
 beforeIconPainter
 =
