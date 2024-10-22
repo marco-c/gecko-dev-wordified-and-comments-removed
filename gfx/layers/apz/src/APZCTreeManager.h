@@ -248,13 +248,6 @@ nsTArray
 .
 h
 "
-#
-include
-"
-OvershootDetector
-.
-h
-"
 namespace
 mozilla
 {
@@ -2164,9 +2157,6 @@ mozilla
 :
 Mutex
 mTestDataLock
-;
-OvershootDetector
-mOvershootDetector
 ;
 float
 mDPI
