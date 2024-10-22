@@ -383,10 +383,13 @@ DirectoryLockImpl
 const
 existingLock
 :
+Reversed
+(
 mQuotaManager
 -
 >
 mDirectoryLocks
+)
 )
 {
 if
