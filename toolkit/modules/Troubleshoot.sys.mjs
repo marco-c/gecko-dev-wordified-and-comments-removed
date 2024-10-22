@@ -5343,12 +5343,9 @@ isFallbackAdapter
 const
 adapterInfo
 =
-await
 adapter
 .
-requestAdapterInfo
-(
-)
+info
 ;
 /
 /
@@ -5410,11 +5407,8 @@ k
 ;
 }
 desc
-[
-requestAdapterInfo
-(
-)
-]
+.
+info
 =
 adapterInfoObj
 ;
