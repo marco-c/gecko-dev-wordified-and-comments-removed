@@ -30,6 +30,12 @@ script
 "
 _ns
 ;
+constexpr
+nsLiteralString
+kTrustedTypesOnlySinkGroup
+=
+kValidRequireTrustedTypesForDirectiveValue
+;
 }
 #
 endif

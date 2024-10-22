@@ -688,7 +688,7 @@ void
 HTMLStyleElement
 :
 :
-SetInnerHTML
+SetInnerHTMLTrusted
 (
 const
 nsAString
@@ -696,7 +696,7 @@ nsAString
 aInnerHTML
 nsIPrincipal
 *
-aScriptedPrincipal
+aSubjectPrincipal
 ErrorResult
 &
 aError
@@ -705,7 +705,7 @@ aError
 SetTextContentInternal
 (
 aInnerHTML
-aScriptedPrincipal
+aSubjectPrincipal
 aError
 )
 ;
