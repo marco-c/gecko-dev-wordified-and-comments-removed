@@ -4948,6 +4948,14 @@ WeakMap
 (
 )
 ;
+this
+.
+backend
+=
+"
+kinto
+"
+;
 }
 /
 *
