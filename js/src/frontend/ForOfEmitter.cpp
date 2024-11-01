@@ -402,6 +402,7 @@ innermostEmitterScope
 >
 prepareForForOfLoopIteration
 (
+bce_
 )
 )
 {
