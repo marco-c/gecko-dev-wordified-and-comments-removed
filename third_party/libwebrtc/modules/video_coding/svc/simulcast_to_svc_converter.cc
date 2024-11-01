@@ -480,6 +480,13 @@ end_of_picture
 =
 true
 ;
+if
+(
+codec_specific
+.
+scalability_mode
+)
+{
 int
 num_temporal_layers
 =
@@ -552,6 +559,7 @@ ScalabilityMode
 :
 kL1T3
 ;
+}
 }
 CodecSpecificInfoVP9
 &
