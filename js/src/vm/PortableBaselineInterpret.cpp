@@ -1700,9 +1700,6 @@ sp
 struct
 ICRegs
 {
-CacheIRReader
-cacheIRReader
-;
 static
 const
 int
@@ -1725,17 +1722,6 @@ extraArgs
 bool
 spreadCall
 ;
-ICRegs
-(
-)
-:
-cacheIRReader
-(
-nullptr
-nullptr
-)
-{
-}
 }
 ;
 struct
@@ -3085,8 +3071,6 @@ DISPATCH_CACHEOP
 \
 cacheop
 =
-icregs
-.
 cacheIRReader
 .
 readOp
@@ -3140,8 +3124,6 @@ name
 \
 if
 (
-icregs
-.
 cacheIRReader
 .
 peekOp
@@ -3156,8 +3138,6 @@ name
 )
 {
 \
-icregs
-.
 cacheIRReader
 .
 readOp
@@ -3181,8 +3161,6 @@ PREDICT_RETURN
 \
 if
 (
-icregs
-.
 cacheIRReader
 .
 peekOp
@@ -3218,6 +3196,17 @@ Return
 ;
 \
 }
+CacheIRReader
+cacheIRReader
+(
+cstub
+-
+>
+stubInfo
+(
+)
+)
+;
 CacheOp
 cacheop
 ;
@@ -3256,8 +3245,6 @@ GuardToObject
 ValOperandId
 inputId
 =
-icregs
-.
 cacheIRReader
 .
 valOperandId
@@ -3373,8 +3360,6 @@ GuardIsNullOrUndefined
 ValOperandId
 inputId
 =
-icregs
-.
 cacheIRReader
 .
 valOperandId
@@ -3431,8 +3416,6 @@ GuardIsNull
 ValOperandId
 inputId
 =
-icregs
-.
 cacheIRReader
 .
 valOperandId
@@ -3489,8 +3472,6 @@ GuardIsUndefined
 ValOperandId
 inputId
 =
-icregs
-.
 cacheIRReader
 .
 valOperandId
@@ -3547,8 +3528,6 @@ GuardIsNotUninitializedLexical
 ValOperandId
 valId
 =
-icregs
-.
 cacheIRReader
 .
 valOperandId
@@ -3606,8 +3585,6 @@ GuardToBoolean
 ValOperandId
 inputId
 =
-icregs
-.
 cacheIRReader
 .
 valOperandId
@@ -3685,8 +3662,6 @@ GuardToString
 ValOperandId
 inputId
 =
-icregs
-.
 cacheIRReader
 .
 valOperandId
@@ -3771,8 +3746,6 @@ GuardToSymbol
 ValOperandId
 inputId
 =
-icregs
-.
 cacheIRReader
 .
 valOperandId
@@ -3857,8 +3830,6 @@ GuardToBigInt
 ValOperandId
 inputId
 =
-icregs
-.
 cacheIRReader
 .
 valOperandId
@@ -3938,8 +3909,6 @@ GuardIsNumber
 ValOperandId
 inputId
 =
-icregs
-.
 cacheIRReader
 .
 valOperandId
@@ -3996,8 +3965,6 @@ GuardToInt32
 ValOperandId
 inputId
 =
-icregs
-.
 cacheIRReader
 .
 valOperandId
@@ -4093,8 +4060,6 @@ GuardToNonGCThing
 ValOperandId
 inputId
 =
-icregs
-.
 cacheIRReader
 .
 valOperandId
@@ -4150,8 +4115,6 @@ GuardBooleanToInt32
 ValOperandId
 inputId
 =
-icregs
-.
 cacheIRReader
 .
 valOperandId
@@ -4161,8 +4124,6 @@ valOperandId
 Int32OperandId
 resultId
 =
-icregs
-.
 cacheIRReader
 .
 int32OperandId
@@ -4245,8 +4206,6 @@ GuardToInt32Index
 ValOperandId
 inputId
 =
-icregs
-.
 cacheIRReader
 .
 valOperandId
@@ -4256,8 +4215,6 @@ valOperandId
 Int32OperandId
 resultId
 =
-icregs
-.
 cacheIRReader
 .
 int32OperandId
@@ -4396,8 +4353,6 @@ Int32ToIntPtr
 Int32OperandId
 inputId
 =
-icregs
-.
 cacheIRReader
 .
 int32OperandId
@@ -4407,8 +4362,6 @@ int32OperandId
 IntPtrOperandId
 resultId
 =
-icregs
-.
 cacheIRReader
 .
 intPtrOperandId
@@ -4466,8 +4419,6 @@ GuardToInt32ModUint32
 ValOperandId
 inputId
 =
-icregs
-.
 cacheIRReader
 .
 valOperandId
@@ -4477,8 +4428,6 @@ valOperandId
 Int32OperandId
 resultId
 =
-icregs
-.
 cacheIRReader
 .
 int32OperandId
@@ -4631,8 +4580,6 @@ GuardNonDoubleType
 ValOperandId
 inputId
 =
-icregs
-.
 cacheIRReader
 .
 valOperandId
@@ -4642,8 +4589,6 @@ valOperandId
 ValueType
 type
 =
-icregs
-.
 cacheIRReader
 .
 valueType
@@ -4874,8 +4819,6 @@ GuardShape
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -4885,8 +4828,6 @@ objOperandId
 uint32_t
 shapeOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -4974,8 +4915,6 @@ RealmFuses
 FuseIndex
 fuseIndex
 =
-icregs
-.
 cacheIRReader
 .
 realmFuseIndex
@@ -5030,8 +4969,6 @@ GuardProto
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -5041,8 +4978,6 @@ objOperandId
 uint32_t
 protoOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -5134,8 +5069,6 @@ GuardNullProto
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -5198,8 +5131,6 @@ GuardClass
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -5209,8 +5140,6 @@ objOperandId
 GuardClassKind
 kind
 =
-icregs
-.
 cacheIRReader
 .
 guardClassKind
@@ -5777,8 +5706,6 @@ GuardAnyClass
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -5788,8 +5715,6 @@ objOperandId
 uint32_t
 claspOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -5876,8 +5801,6 @@ GuardGlobalGeneration
 uint32_t
 expectedOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -5887,8 +5810,6 @@ stubOffset
 uint32_t
 generationAddrOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -5966,8 +5887,6 @@ HasClassResult
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -5977,8 +5896,6 @@ objOperandId
 uint32_t
 claspOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -6070,8 +5987,6 @@ GuardCompartment
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -6081,8 +5996,6 @@ objOperandId
 uint32_t
 globalOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -6092,8 +6005,6 @@ stubOffset
 uint32_t
 compartmentOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -6226,8 +6137,6 @@ GuardIsExtensible
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -6286,8 +6195,6 @@ GuardIsNativeObject
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -6350,8 +6257,6 @@ GuardIsProxy
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -6414,8 +6319,6 @@ GuardIsNotProxy
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -6477,8 +6380,6 @@ GuardIsNotArrayBufferMaybeShared
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -6561,8 +6462,6 @@ GuardIsTypedArray
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -6625,8 +6524,6 @@ GuardHasProxyHandler
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -6636,8 +6533,6 @@ objOperandId
 uint32_t
 handlerOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -6731,8 +6626,6 @@ GuardIsNotDOMProxy
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -6808,8 +6701,6 @@ GuardSpecificObject
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -6819,8 +6710,6 @@ objOperandId
 uint32_t
 expectedOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -6902,8 +6791,6 @@ GuardObjectIdentity
 ObjOperandId
 obj1Id
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -6913,8 +6800,6 @@ objOperandId
 ObjOperandId
 obj2Id
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -6993,8 +6878,6 @@ GuardSpecificFunction
 ObjOperandId
 funId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -7004,8 +6887,6 @@ objOperandId
 uint32_t
 expectedOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -7015,8 +6896,6 @@ stubOffset
 uint32_t
 nargsAndFlagsOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -7087,8 +6966,6 @@ GuardFunctionScript
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -7098,8 +6975,6 @@ objOperandId
 uint32_t
 expectedOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -7109,8 +6984,6 @@ stubOffset
 uint32_t
 nargsAndFlagsOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -7216,8 +7089,6 @@ GuardSpecificAtom
 StringOperandId
 strId
 =
-icregs
-.
 cacheIRReader
 .
 stringOperandId
@@ -7227,8 +7098,6 @@ stringOperandId
 uint32_t
 expectedOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -7289,8 +7158,6 @@ GuardSpecificSymbol
 SymbolOperandId
 symId
 =
-icregs
-.
 cacheIRReader
 .
 symbolOperandId
@@ -7300,8 +7167,6 @@ symbolOperandId
 uint32_t
 expectedOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -7362,8 +7227,6 @@ GuardSpecificInt32
 Int32OperandId
 numId
 =
-icregs
-.
 cacheIRReader
 .
 int32OperandId
@@ -7373,8 +7236,6 @@ int32OperandId
 int32_t
 expected
 =
-icregs
-.
 cacheIRReader
 .
 int32Immediate
@@ -7421,8 +7282,6 @@ GuardNoDenseElements
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -7491,8 +7350,6 @@ GuardStringToIndex
 StringOperandId
 strId
 =
-icregs
-.
 cacheIRReader
 .
 stringOperandId
@@ -7502,8 +7359,6 @@ stringOperandId
 Int32OperandId
 resultId
 =
-icregs
-.
 cacheIRReader
 .
 int32OperandId
@@ -7623,8 +7478,6 @@ GuardStringToInt32
 StringOperandId
 strId
 =
-icregs
-.
 cacheIRReader
 .
 stringOperandId
@@ -7634,8 +7487,6 @@ stringOperandId
 Int32OperandId
 resultId
 =
-icregs
-.
 cacheIRReader
 .
 int32OperandId
@@ -7757,8 +7608,6 @@ GuardStringToNumber
 StringOperandId
 strId
 =
-icregs
-.
 cacheIRReader
 .
 stringOperandId
@@ -7768,8 +7617,6 @@ stringOperandId
 NumberOperandId
 resultId
 =
-icregs
-.
 cacheIRReader
 .
 numberOperandId
@@ -7908,8 +7755,6 @@ BooleanToNumber
 BooleanOperandId
 booleanId
 =
-icregs
-.
 cacheIRReader
 .
 booleanOperandId
@@ -7919,8 +7764,6 @@ booleanOperandId
 NumberOperandId
 resultId
 =
-icregs
-.
 cacheIRReader
 .
 numberOperandId
@@ -7992,8 +7835,6 @@ GuardHasGetterSetter
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -8003,8 +7844,6 @@ objOperandId
 uint32_t
 idOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -8014,8 +7853,6 @@ stubOffset
 uint32_t
 getterSetterOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -8128,8 +7965,6 @@ GuardInt32IsNonNegative
 Int32OperandId
 indexId
 =
-icregs
-.
 cacheIRReader
 .
 int32OperandId
@@ -8180,8 +8015,6 @@ GuardDynamicSlotIsSpecificObject
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -8191,8 +8024,6 @@ objOperandId
 ObjOperandId
 expectedId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -8202,8 +8033,6 @@ objOperandId
 uint32_t
 slotOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -8322,8 +8151,6 @@ GuardDynamicSlotIsNotObject
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -8333,8 +8160,6 @@ objOperandId
 uint32_t
 slotOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -8443,8 +8268,6 @@ GuardFixedSlotValue
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -8454,8 +8277,6 @@ objOperandId
 uint32_t
 offsetOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -8465,8 +8286,6 @@ stubOffset
 uint32_t
 valOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -8600,8 +8419,6 @@ GuardDynamicSlotValue
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -8611,8 +8428,6 @@ objOperandId
 uint32_t
 offsetOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -8622,8 +8437,6 @@ stubOffset
 uint32_t
 valOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -8759,8 +8572,6 @@ LoadFixedSlot
 ValOperandId
 resultId
 =
-icregs
-.
 cacheIRReader
 .
 valOperandId
@@ -8775,8 +8586,6 @@ resultId
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -8786,8 +8595,6 @@ objOperandId
 uint32_t
 offsetOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -8900,8 +8707,6 @@ LoadDynamicSlot
 ValOperandId
 resultId
 =
-icregs
-.
 cacheIRReader
 .
 valOperandId
@@ -8916,8 +8721,6 @@ resultId
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -8927,8 +8730,6 @@ objOperandId
 uint32_t
 slotOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -9038,8 +8839,6 @@ GuardNoAllocationMetadataBuilder
 uint32_t
 builderAddrOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -9099,8 +8898,6 @@ GuardFunctionHasJitEntry
 ObjOperandId
 funId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -9182,8 +8979,6 @@ GuardFunctionHasNoJitEntry
 ObjOperandId
 funId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -9264,8 +9059,6 @@ GuardFunctionIsNonBuiltinCtor
 ObjOperandId
 funId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -9332,8 +9125,6 @@ GuardFunctionIsConstructor
 ObjOperandId
 funId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -9400,8 +9191,6 @@ GuardNotClassConstructor
 ObjOperandId
 funId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -9467,8 +9256,6 @@ GuardArrayIsPacked
 ObjOperandId
 arrayId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -9526,8 +9313,6 @@ GuardArgumentsObjectFlags
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -9537,8 +9322,6 @@ objOperandId
 uint8_t
 flags
 =
-icregs
-.
 cacheIRReader
 .
 readByte
@@ -9605,8 +9388,6 @@ LoadObject
 ObjOperandId
 resultId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -9621,8 +9402,6 @@ resultId
 uint32_t
 objOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -9677,8 +9456,6 @@ LoadProtoObject
 ObjOperandId
 resultId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -9693,8 +9470,6 @@ resultId
 uint32_t
 protoObjOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -9704,8 +9479,6 @@ stubOffset
 ObjOperandId
 receiverObjId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -9765,8 +9538,6 @@ LoadProto
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -9776,8 +9547,6 @@ objOperandId
 ObjOperandId
 resultId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -9848,8 +9617,6 @@ LoadEnclosingEnvironment
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -9859,8 +9626,6 @@ objOperandId
 ObjOperandId
 resultId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -9945,8 +9710,6 @@ LoadWrapperTarget
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -9956,8 +9719,6 @@ objOperandId
 ObjOperandId
 resultId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -9967,8 +9728,6 @@ objOperandId
 bool
 fallible
 =
-icregs
-.
 cacheIRReader
 .
 readBool
@@ -10072,8 +9831,6 @@ LoadValueTag
 ValOperandId
 valId
 =
-icregs
-.
 cacheIRReader
 .
 valOperandId
@@ -10083,8 +9840,6 @@ valOperandId
 ValueTagOperandId
 resultId
 =
-icregs
-.
 cacheIRReader
 .
 valueTagOperandId
@@ -10146,8 +9901,6 @@ LoadArgumentFixedSlot
 ValOperandId
 resultId
 =
-icregs
-.
 cacheIRReader
 .
 valOperandId
@@ -10162,8 +9915,6 @@ resultId
 uint8_t
 slotIndex
 =
-icregs
-.
 cacheIRReader
 .
 readByte
@@ -10240,8 +9991,6 @@ LoadArgumentDynamicSlot
 ValOperandId
 resultId
 =
-icregs
-.
 cacheIRReader
 .
 valOperandId
@@ -10256,8 +10005,6 @@ resultId
 Int32OperandId
 argcId
 =
-icregs
-.
 cacheIRReader
 .
 int32OperandId
@@ -10267,8 +10014,6 @@ int32OperandId
 uint8_t
 slotIndex
 =
-icregs
-.
 cacheIRReader
 .
 readByte
@@ -10336,8 +10081,6 @@ TruncateDoubleToUInt32
 NumberOperandId
 inputId
 =
-icregs
-.
 cacheIRReader
 .
 numberOperandId
@@ -10347,8 +10090,6 @@ numberOperandId
 Int32OperandId
 resultId
 =
-icregs
-.
 cacheIRReader
 .
 int32OperandId
@@ -10416,8 +10157,6 @@ MegamorphicLoadSlotResult
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -10427,8 +10166,6 @@ objOperandId
 uint32_t
 nameOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -10554,8 +10291,6 @@ MegamorphicLoadSlotByValueResult
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -10565,8 +10300,6 @@ objOperandId
 ValOperandId
 idId
 =
-icregs
-.
 cacheIRReader
 .
 valOperandId
@@ -10697,8 +10430,6 @@ MegamorphicSetElement
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -10708,8 +10439,6 @@ objOperandId
 ValOperandId
 idId
 =
-icregs
-.
 cacheIRReader
 .
 valOperandId
@@ -10719,8 +10448,6 @@ valOperandId
 ValOperandId
 rhsId
 =
-icregs
-.
 cacheIRReader
 .
 valOperandId
@@ -10730,8 +10457,6 @@ valOperandId
 bool
 strict
 =
-icregs
-.
 cacheIRReader
 .
 readBool
@@ -10882,8 +10607,6 @@ StoreFixedSlot
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -10893,8 +10616,6 @@ objOperandId
 uint32_t
 offsetOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -10904,8 +10625,6 @@ stubOffset
 ValOperandId
 rhsId
 =
-icregs
-.
 cacheIRReader
 .
 valOperandId
@@ -11023,8 +10742,6 @@ StoreDynamicSlot
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -11034,8 +10751,6 @@ objOperandId
 uint32_t
 offsetOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -11045,8 +10760,6 @@ stubOffset
 ValOperandId
 rhsId
 =
-icregs
-.
 cacheIRReader
 .
 valOperandId
@@ -11178,8 +10891,6 @@ AddAndStoreFixedSlot
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -11189,8 +10900,6 @@ objOperandId
 uint32_t
 offsetOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -11200,8 +10909,6 @@ stubOffset
 ValOperandId
 rhsId
 =
-icregs
-.
 cacheIRReader
 .
 valOperandId
@@ -11211,8 +10918,6 @@ valOperandId
 uint32_t
 newShapeOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -11363,8 +11068,6 @@ AddAndStoreDynamicSlot
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -11374,8 +11077,6 @@ objOperandId
 uint32_t
 offsetOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -11385,8 +11086,6 @@ stubOffset
 ValOperandId
 rhsId
 =
-icregs
-.
 cacheIRReader
 .
 valOperandId
@@ -11396,8 +11095,6 @@ valOperandId
 uint32_t
 newShapeOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -11577,8 +11274,6 @@ AllocateAndStoreDynamicSlot
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -11588,8 +11283,6 @@ objOperandId
 uint32_t
 offsetOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -11599,8 +11292,6 @@ stubOffset
 ValOperandId
 rhsId
 =
-icregs
-.
 cacheIRReader
 .
 valOperandId
@@ -11610,8 +11301,6 @@ valOperandId
 uint32_t
 newShapeOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -11621,8 +11310,6 @@ stubOffset
 uint32_t
 numNewSlotsOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -11844,8 +11531,6 @@ StoreDenseElement
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -11855,8 +11540,6 @@ objOperandId
 Int32OperandId
 indexId
 =
-icregs
-.
 cacheIRReader
 .
 int32OperandId
@@ -11866,8 +11549,6 @@ int32OperandId
 ValOperandId
 rhsId
 =
-icregs
-.
 cacheIRReader
 .
 valOperandId
@@ -12046,8 +11727,6 @@ StoreDenseElementHole
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -12057,8 +11736,6 @@ objOperandId
 Int32OperandId
 indexId
 =
-icregs
-.
 cacheIRReader
 .
 int32OperandId
@@ -12068,8 +11745,6 @@ int32OperandId
 ValOperandId
 rhsId
 =
-icregs
-.
 cacheIRReader
 .
 valOperandId
@@ -12079,8 +11754,6 @@ valOperandId
 bool
 handleAdd
 =
-icregs
-.
 cacheIRReader
 .
 readBool
@@ -12342,8 +12015,6 @@ ArrayPush
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -12353,8 +12024,6 @@ objOperandId
 ValOperandId
 rhsId
 =
-icregs
-.
 cacheIRReader
 .
 valOperandId
@@ -12547,8 +12216,6 @@ IsObjectResult
 ValOperandId
 inputId
 =
-icregs
-.
 cacheIRReader
 .
 valOperandId
@@ -12609,8 +12276,6 @@ Int32MinMax
 bool
 isMax
 =
-icregs
-.
 cacheIRReader
 .
 readBool
@@ -12620,8 +12285,6 @@ readBool
 Int32OperandId
 firstId
 =
-icregs
-.
 cacheIRReader
 .
 int32OperandId
@@ -12631,8 +12294,6 @@ int32OperandId
 Int32OperandId
 secondId
 =
-icregs
-.
 cacheIRReader
 .
 int32OperandId
@@ -12642,8 +12303,6 @@ int32OperandId
 Int32OperandId
 resultId
 =
-icregs
-.
 cacheIRReader
 .
 int32OperandId
@@ -12732,8 +12391,6 @@ StoreTypedArrayElement
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -12746,8 +12403,6 @@ Scalar
 Type
 elementType
 =
-icregs
-.
 cacheIRReader
 .
 scalarType
@@ -12757,8 +12412,6 @@ scalarType
 IntPtrOperandId
 indexId
 =
-icregs
-.
 cacheIRReader
 .
 intPtrOperandId
@@ -12768,8 +12421,6 @@ intPtrOperandId
 uint32_t
 rhsId
 =
-icregs
-.
 cacheIRReader
 .
 rawOperandId
@@ -12779,8 +12430,6 @@ rawOperandId
 bool
 handleOOB
 =
-icregs
-.
 cacheIRReader
 .
 readBool
@@ -13146,8 +12795,6 @@ CallInt32ToString
 Int32OperandId
 inputId
 =
-icregs
-.
 cacheIRReader
 .
 int32OperandId
@@ -13157,8 +12804,6 @@ int32OperandId
 StringOperandId
 resultId
 =
-icregs
-.
 cacheIRReader
 .
 stringOperandId
@@ -13281,8 +12926,6 @@ isNative
 ObjOperandId
 calleeId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -13292,8 +12935,6 @@ objOperandId
 Int32OperandId
 argcId
 =
-icregs
-.
 cacheIRReader
 .
 int32OperandId
@@ -13303,8 +12944,6 @@ int32OperandId
 CallFlags
 flags
 =
-icregs
-.
 cacheIRReader
 .
 callFlags
@@ -13314,8 +12953,6 @@ callFlags
 uint32_t
 argcFixed
 =
-icregs
-.
 cacheIRReader
 .
 uint32Immediate
@@ -13334,8 +12971,6 @@ isNative
 {
 ignoresRv
 =
-icregs
-.
 cacheIRReader
 .
 readBool
@@ -14023,8 +13658,6 @@ MetaScriptedThisShape
 uint32_t
 thisShapeOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -14054,8 +13687,6 @@ LoadFixedSlotResult
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -14065,8 +13696,6 @@ objOperandId
 uint32_t
 offsetOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -14206,8 +13835,6 @@ LoadDynamicSlotResult
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -14217,8 +13844,6 @@ objOperandId
 uint32_t
 offsetOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -14314,8 +13939,6 @@ LoadDenseElementResult
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -14325,8 +13948,6 @@ objOperandId
 Int32OperandId
 indexId
 =
-icregs
-.
 cacheIRReader
 .
 int32OperandId
@@ -14479,8 +14100,6 @@ LoadInt32ArrayLengthResult
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -14566,8 +14185,6 @@ LoadInt32ArrayLength
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -14577,8 +14194,6 @@ objOperandId
 Int32OperandId
 resultId
 =
-icregs
-.
 cacheIRReader
 .
 int32OperandId
@@ -14665,8 +14280,6 @@ LoadArgumentsObjectArgResult
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -14676,8 +14289,6 @@ objOperandId
 Int32OperandId
 indexId
 =
-icregs
-.
 cacheIRReader
 .
 int32OperandId
@@ -14813,8 +14424,6 @@ LinearizeForCharAccess
 StringOperandId
 strId
 =
-icregs
-.
 cacheIRReader
 .
 stringOperandId
@@ -14824,8 +14433,6 @@ stringOperandId
 Int32OperandId
 indexId
 =
-icregs
-.
 cacheIRReader
 .
 int32OperandId
@@ -14835,8 +14442,6 @@ int32OperandId
 StringOperandId
 resultId
 =
-icregs
-.
 cacheIRReader
 .
 stringOperandId
@@ -14973,8 +14578,6 @@ LoadStringCharResult
 StringOperandId
 strId
 =
-icregs
-.
 cacheIRReader
 .
 stringOperandId
@@ -14984,8 +14587,6 @@ stringOperandId
 Int32OperandId
 indexId
 =
-icregs
-.
 cacheIRReader
 .
 int32OperandId
@@ -14995,8 +14596,6 @@ int32OperandId
 bool
 handleOOB
 =
-icregs
-.
 cacheIRReader
 .
 readBool
@@ -15213,8 +14812,6 @@ LoadStringCharCodeResult
 StringOperandId
 strId
 =
-icregs
-.
 cacheIRReader
 .
 stringOperandId
@@ -15224,8 +14821,6 @@ stringOperandId
 Int32OperandId
 indexId
 =
-icregs
-.
 cacheIRReader
 .
 int32OperandId
@@ -15235,8 +14830,6 @@ int32OperandId
 bool
 handleOOB
 =
-icregs
-.
 cacheIRReader
 .
 readBool
@@ -15385,8 +14978,6 @@ LoadStringLengthResult
 StringOperandId
 strId
 =
-icregs
-.
 cacheIRReader
 .
 stringOperandId
@@ -15472,8 +15063,6 @@ LoadObjectResult
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -15527,8 +15116,6 @@ LoadStringResult
 StringOperandId
 strId
 =
-icregs
-.
 cacheIRReader
 .
 stringOperandId
@@ -15581,8 +15168,6 @@ LoadSymbolResult
 SymbolOperandId
 symId
 =
-icregs
-.
 cacheIRReader
 .
 symbolOperandId
@@ -15638,8 +15223,6 @@ LoadInt32Result
 Int32OperandId
 valId
 =
-icregs
-.
 cacheIRReader
 .
 int32OperandId
@@ -15685,8 +15268,6 @@ LoadDoubleResult
 NumberOperandId
 valId
 =
-icregs
-.
 cacheIRReader
 .
 numberOperandId
@@ -15761,8 +15342,6 @@ LoadBigIntResult
 BigIntOperandId
 valId
 =
-icregs
-.
 cacheIRReader
 .
 bigIntOperandId
@@ -15818,8 +15397,6 @@ LoadBooleanResult
 bool
 val
 =
-icregs
-.
 cacheIRReader
 .
 readBool
@@ -15856,8 +15433,6 @@ LoadInt32Constant
 uint32_t
 valOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -15867,8 +15442,6 @@ stubOffset
 Int32OperandId
 resultId
 =
-icregs
-.
 cacheIRReader
 .
 int32OperandId
@@ -15923,8 +15496,6 @@ LoadConstantStringResult
 uint32_t
 strOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -16002,8 +15573,6 @@ Result
 Int32OperandId
 lhsId
 =
-icregs
-.
 cacheIRReader
 .
 int32OperandId
@@ -16014,8 +15583,6 @@ int32OperandId
 Int32OperandId
 rhsId
 =
-icregs
-.
 cacheIRReader
 .
 int32OperandId
@@ -16349,8 +15916,6 @@ Int32PowResult
 Int32OperandId
 lhsId
 =
-icregs
-.
 cacheIRReader
 .
 int32OperandId
@@ -16360,8 +15925,6 @@ int32OperandId
 Int32OperandId
 rhsId
 =
-icregs
-.
 cacheIRReader
 .
 int32OperandId
@@ -16559,8 +16122,6 @@ Int32IncResult
 Int32OperandId
 inputId
 =
-icregs
-.
 cacheIRReader
 .
 int32OperandId
@@ -16638,8 +16199,6 @@ LoadInt32TruthyResult
 ValOperandId
 inputId
 =
-icregs
-.
 cacheIRReader
 .
 valOperandId
@@ -16696,8 +16255,6 @@ LoadStringTruthyResult
 StringOperandId
 strId
 =
-icregs
-.
 cacheIRReader
 .
 stringOperandId
@@ -16763,8 +16320,6 @@ LoadObjectTruthyResult
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -16858,8 +16413,6 @@ LoadValueResult
 uint32_t
 valOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -16901,8 +16454,6 @@ LoadOperandResult
 ValOperandId
 inputId
 =
-icregs
-.
 cacheIRReader
 .
 valOperandId
@@ -16941,8 +16492,6 @@ CallStringConcatResult
 StringOperandId
 lhsId
 =
-icregs
-.
 cacheIRReader
 .
 stringOperandId
@@ -16952,8 +16501,6 @@ stringOperandId
 StringOperandId
 rhsId
 =
-icregs
-.
 cacheIRReader
 .
 stringOperandId
@@ -17077,8 +16624,6 @@ CompareStringResult
 JSOp
 op
 =
-icregs
-.
 cacheIRReader
 .
 jsop
@@ -17088,8 +16633,6 @@ jsop
 StringOperandId
 lhsId
 =
-icregs
-.
 cacheIRReader
 .
 stringOperandId
@@ -17099,8 +16642,6 @@ stringOperandId
 StringOperandId
 rhsId
 =
-icregs
-.
 cacheIRReader
 .
 stringOperandId
@@ -17587,8 +17128,6 @@ CompareInt32Result
 JSOp
 op
 =
-icregs
-.
 cacheIRReader
 .
 jsop
@@ -17598,8 +17137,6 @@ jsop
 Int32OperandId
 lhsId
 =
-icregs
-.
 cacheIRReader
 .
 int32OperandId
@@ -17609,8 +17146,6 @@ int32OperandId
 Int32OperandId
 rhsId
 =
-icregs
-.
 cacheIRReader
 .
 int32OperandId
@@ -17846,8 +17381,6 @@ CompareNullUndefinedResult
 JSOp
 op
 =
-icregs
-.
 cacheIRReader
 .
 jsop
@@ -17857,8 +17390,6 @@ jsop
 bool
 isUndefined
 =
-icregs
-.
 cacheIRReader
 .
 readBool
@@ -17868,8 +17399,6 @@ readBool
 ValOperandId
 inputId
 =
-icregs
-.
 cacheIRReader
 .
 valOperandId
@@ -18127,8 +17656,6 @@ AssertPropertyLookup
 ObjOperandId
 objId
 =
-icregs
-.
 cacheIRReader
 .
 objOperandId
@@ -18138,8 +17665,6 @@ objOperandId
 uint32_t
 idOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -18149,8 +17674,6 @@ stubOffset
 uint32_t
 slotOffset
 =
-icregs
-.
 cacheIRReader
 .
 stubOffset
@@ -18660,24 +18183,6 @@ cstub
 >
 incrementEnteredCount
 (
-)
-;
-\
-new
-(
-&
-icregs
-.
-cacheIRReader
-)
-CacheIRReader
-(
-cstub
--
->
-stubInfo
-(
-)
 )
 ;
 \
