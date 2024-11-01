@@ -1,5 +1,7 @@
 /
-/
+*
+*
+*
 The
 FfiConverter
 interface
@@ -11,10 +13,8 @@ and
 from
 the
 FFI
-/
-/
-/
-/
+*
+*
 All
 implementing
 objects
@@ -28,8 +28,7 @@ types
 .
 When
 a
-/
-/
+*
 type
 is
 external
@@ -42,6 +41,11 @@ it
 s
 FfiConverter
 .
+*
+*
+suppress
+*
+/
 public
 interface
 FfiConverter
@@ -502,7 +506,9 @@ rbuf
 }
 }
 /
-/
+*
+*
+*
 FfiConverter
 that
 uses
@@ -510,6 +516,11 @@ RustBuffer
 as
 the
 FfiType
+*
+*
+suppress
+*
+/
 public
 interface
 FfiConverterRustBuffer

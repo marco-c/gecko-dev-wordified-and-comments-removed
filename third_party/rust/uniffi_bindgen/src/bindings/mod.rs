@@ -36,7 +36,11 @@ use
 swift
 :
 :
+{
+generate_swift_bindings
 SwiftBindingGenerator
+SwiftBindingsOptions
+}
 ;
 #
 [

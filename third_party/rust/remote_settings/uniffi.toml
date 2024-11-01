@@ -95,6 +95,3 @@ ffi_module_filename
 "
 remote_settingsFFI
 "
-generate_module_map
-=
-false

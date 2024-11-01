@@ -15,7 +15,7 @@ error
 :
 :
 {
-RemoteSettingsError
+Error
 Result
 }
 ;
@@ -227,7 +227,7 @@ _
 >
 Err
 (
-RemoteSettingsError
+Error
 :
 :
 ConfigError
@@ -278,7 +278,7 @@ base_url
 =
 server
 .
-url
+get_url
 (
 )
 ?
@@ -462,7 +462,7 @@ ok_or_else
 (
 |
 |
-RemoteSettingsError
+Error
 :
 :
 ResponseError
@@ -502,7 +502,7 @@ map_err
 _
 |
 {
-RemoteSettingsError
+Error
 :
 :
 ResponseError
@@ -781,7 +781,7 @@ None
 >
 Err
 (
-RemoteSettingsError
+Error
 :
 :
 AttachmentsUnsupportedError
@@ -933,7 +933,7 @@ else
 {
 Err
 (
-RemoteSettingsError
+Error
 :
 :
 ResponseError
@@ -1025,7 +1025,7 @@ elapsed_time
 return
 Err
 (
-RemoteSettingsError
+Error
 :
 :
 BackoffError
@@ -1192,6 +1192,10 @@ Eq
 PartialEq
 Deserialize
 Serialize
+uniffi
+:
+:
+Record
 )
 ]
 pub
@@ -1238,6 +1242,10 @@ Deserialize
 Serialize
 Eq
 PartialEq
+uniffi
+:
+:
+Record
 )
 ]
 pub
@@ -1292,6 +1300,10 @@ Deserialize
 Serialize
 Eq
 PartialEq
+uniffi
+:
+:
+Record
 )
 ]
 pub
@@ -1334,6 +1346,16 @@ serde_json
 :
 Value
 >
+;
+uniffi
+:
+:
+custom_type
+!
+(
+RsJsonObject
+String
+)
 ;
 impl
 UniffiCustomTypeConverter
@@ -3286,7 +3308,7 @@ client
 )
 Err
 (
-RemoteSettingsError
+Error
 :
 :
 ConfigError
@@ -3842,7 +3864,7 @@ matches
 resp
 Err
 (
-RemoteSettingsError
+Error
 :
 :
 AttachmentsUnsupportedError
@@ -4053,7 +4075,7 @@ matches
 second_resp
 Err
 (
-RemoteSettingsError
+Error
 :
 :
 BackoffError
@@ -4254,7 +4276,7 @@ matches
 second_request
 Err
 (
-RemoteSettingsError
+Error
 :
 :
 BackoffError
@@ -5474,7 +5496,7 @@ get_records
 )
 Err
 (
-RemoteSettingsError
+Error
 :
 :
 BackoffError
@@ -6255,7 +6277,7 @@ matches
 !
 (
 err
-RemoteSettingsError
+Error
 :
 :
 ResponseError
@@ -6468,7 +6490,7 @@ matches
 !
 (
 err
-RemoteSettingsError
+Error
 :
 :
 ResponseError

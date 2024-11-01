@@ -112,7 +112,9 @@ kt
 %
 }
 /
-/
+*
+*
+*
 The
 ffiConverter
 which
@@ -127,6 +129,11 @@ pass
 to
 Rust
 .
+*
+*
+suppress
+*
+/
 public
 object
 {

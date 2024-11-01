@@ -1,5 +1,7 @@
 /
-/
+*
+*
+*
 The
 cleaner
 interface
@@ -10,8 +12,7 @@ code
 to
 run
 .
-/
-/
+*
 This
 is
 the
@@ -26,10 +27,8 @@ we
 re
 using
 .
-/
-/
-/
-/
+*
+*
 The
 cleaner
 registers
@@ -41,8 +40,7 @@ so
 now
 we
 are
-/
-/
+*
 defining
 a
 UniffiCleaner
@@ -54,8 +52,7 @@ Cleanable
 to
 abstract
 the
-/
-/
+*
 different
 implmentations
 available
@@ -63,6 +60,11 @@ at
 compile
 time
 .
+*
+*
+suppress
+*
+/
 interface
 UniffiCleaner
 {

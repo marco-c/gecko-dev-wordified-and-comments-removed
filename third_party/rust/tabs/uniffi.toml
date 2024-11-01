@@ -27,6 +27,3 @@ ffi_module_filename
 "
 tabsFFI
 "
-generate_module_map
-=
-false

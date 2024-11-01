@@ -207,7 +207,9 @@ Exception
 message
 )
 /
-/
+*
+*
+*
 Each
 top
 -
@@ -231,6 +233,11 @@ status
 s
 rust
 buffer
+*
+*
+suppress
+*
+/
 interface
 UniffiRustCallStatusErrorHandler
 <
@@ -536,7 +543,9 @@ code
 }
 }
 /
-/
+*
+*
+*
 UniffiRustCallStatusErrorHandler
 implementation
 for
@@ -549,6 +558,11 @@ t
 expect
 a
 CALL_ERROR
+*
+*
+suppress
+*
+/
 object
 UniffiNullRustCallStatusErrorHandler
 :

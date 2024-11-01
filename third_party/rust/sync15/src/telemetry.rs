@@ -4310,15 +4310,6 @@ e
 ;
 }
 }
-ffi_support
-:
-:
-implement_into_ffi_by_json
-!
-(
-SyncTelemetryPing
-)
-;
 #
 [
 cfg

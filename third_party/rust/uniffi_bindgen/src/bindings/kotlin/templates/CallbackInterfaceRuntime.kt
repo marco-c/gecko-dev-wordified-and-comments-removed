@@ -59,6 +59,13 @@ val
 UNIFFI_CALLBACK_UNEXPECTED_ERROR
 =
 2
+/
+*
+*
+*
+suppress
+*
+/
 public
 abstract
 class

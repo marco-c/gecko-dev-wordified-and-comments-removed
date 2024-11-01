@@ -468,7 +468,7 @@ uniffi
 .
 28
 .
-1
+2
 "
 uniffi_bindgen
 =
@@ -477,7 +477,7 @@ uniffi_bindgen
 .
 28
 .
-1
+2
 "
 #
 Shared
@@ -2033,7 +2033,7 @@ services
 rev
 =
 "
-b10c1319e74041b2777e07657fc83dc879f841f4
+a0121f35125bd61ebd10fab969f6cfcc02f94d5a
 "
 }
 relevancy
@@ -2059,7 +2059,7 @@ services
 rev
 =
 "
-b10c1319e74041b2777e07657fc83dc879f841f4
+a0121f35125bd61ebd10fab969f6cfcc02f94d5a
 "
 }
 sql
@@ -2087,7 +2087,7 @@ services
 rev
 =
 "
-b10c1319e74041b2777e07657fc83dc879f841f4
+a0121f35125bd61ebd10fab969f6cfcc02f94d5a
 "
 }
 suggest
@@ -2113,7 +2113,7 @@ services
 rev
 =
 "
-b10c1319e74041b2777e07657fc83dc879f841f4
+a0121f35125bd61ebd10fab969f6cfcc02f94d5a
 "
 }
 sync15
@@ -2139,7 +2139,7 @@ services
 rev
 =
 "
-b10c1319e74041b2777e07657fc83dc879f841f4
+a0121f35125bd61ebd10fab969f6cfcc02f94d5a
 "
 }
 tabs
@@ -2165,7 +2165,7 @@ services
 rev
 =
 "
-b10c1319e74041b2777e07657fc83dc879f841f4
+a0121f35125bd61ebd10fab969f6cfcc02f94d5a
 "
 }
 viaduct
@@ -2191,7 +2191,7 @@ services
 rev
 =
 "
-b10c1319e74041b2777e07657fc83dc879f841f4
+a0121f35125bd61ebd10fab969f6cfcc02f94d5a
 "
 }
 webext
@@ -2219,7 +2219,7 @@ services
 rev
 =
 "
-b10c1319e74041b2777e07657fc83dc879f841f4
+a0121f35125bd61ebd10fab969f6cfcc02f94d5a
 "
 }
 allocator

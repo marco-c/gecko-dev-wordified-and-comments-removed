@@ -316,3 +316,15 @@ browser_weather
 js
 "
 ]
+skip
+-
+if
+=
+[
+"
+true
+"
+]
+#
+Bug
+1925735

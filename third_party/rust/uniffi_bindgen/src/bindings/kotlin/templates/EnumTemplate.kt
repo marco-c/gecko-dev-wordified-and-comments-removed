@@ -284,6 +284,13 @@ object
 endmatch
 %
 }
+/
+*
+*
+*
+suppress
+*
+/
 public
 object
 {
@@ -803,6 +810,13 @@ endif
 companion
 object
 }
+/
+*
+*
+*
+suppress
+*
+/
 public
 object
 {

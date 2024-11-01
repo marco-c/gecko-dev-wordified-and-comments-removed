@@ -206,15 +206,6 @@ anyhow
 .
 0
 "
-ffi
--
-support
-=
-"
-0
-.
-4
-"
 lazy_static
 =
 "
@@ -412,7 +403,7 @@ version
 .
 28
 .
-0
+2
 "
 [
 dependencies
@@ -478,7 +469,7 @@ version
 .
 28
 .
-0
+2
 "
 features
 =

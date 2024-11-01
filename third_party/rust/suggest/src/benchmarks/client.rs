@@ -89,7 +89,7 @@ fetch_data_with_client
 remote_settings
 :
 :
-Client
+RemoteSettings
 :
 :
 new
@@ -137,7 +137,7 @@ fetch_data_with_client
 remote_settings
 :
 :
-Client
+RemoteSettings
 :
 :
 new
@@ -198,7 +198,7 @@ client
 remote_settings
 :
 :
-Client
+RemoteSettings
 collection
 :
 rs

@@ -63,7 +63,7 @@ remote_settings
 :
 :
 {
-Client
+RemoteSettings
 RemoteSettingsConfig
 RemoteSettingsRecord
 RemoteSettingsServer
@@ -209,7 +209,7 @@ UrlHash
 let
 rs
 =
-Client
+RemoteSettings
 :
 :
 new

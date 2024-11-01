@@ -21,16 +21,6 @@ rs
 "
 )
 ;
-let
-_
-=
-nss_build_common
-:
-:
-link_nss
-(
-)
-;
 uniffi
 :
 :

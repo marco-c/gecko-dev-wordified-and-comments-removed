@@ -27,6 +27,3 @@ ffi_module_filename
 "
 sync15FFI
 "
-generate_module_map
-=
-false

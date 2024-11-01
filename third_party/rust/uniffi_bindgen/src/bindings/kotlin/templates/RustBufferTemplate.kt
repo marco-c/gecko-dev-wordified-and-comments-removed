@@ -41,6 +41,13 @@ the
 underlying
 data
 .
+/
+*
+*
+*
+suppress
+*
+/
 Structure
 .
 FieldOrder
@@ -438,6 +445,9 @@ the
 struct
 .
 *
+*
+suppress
+*
 /
 class
 RustBufferByReference
@@ -700,6 +710,7 @@ len
 data
 "
 )
+internal
 open
 class
 ForeignBytes

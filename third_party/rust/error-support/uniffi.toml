@@ -27,6 +27,3 @@ ffi_module_filename
 "
 errorFFI
 "
-generate_module_map
-=
-false
