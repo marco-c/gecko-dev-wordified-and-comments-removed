@@ -3588,6 +3588,11 @@ FirefoxTheme
 colors
 .
 textPrimary
+textAlign
+=
+TextAlign
+.
+Center
 )
 if
 (
