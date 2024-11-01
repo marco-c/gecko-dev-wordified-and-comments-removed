@@ -187,10 +187,6 @@ public
 constexpr
 explicit
 Labeled
-<
-T
-E
->
 (
 uint32_t
 id
