@@ -3482,13 +3482,19 @@ Return
 ;
 \
 }
+ICCacheIRStub
+*
+cstub
+=
+ctx
+.
+cstub
+;
 const
 CacheIRStubInfo
 *
 stubInfo
 =
-ctx
-.
 cstub
 -
 >
@@ -4955,8 +4961,6 @@ stubInfo
 >
 getStubRawWord
 (
-ctx
-.
 cstub
 shapeOffset
 )
@@ -5105,8 +5109,6 @@ stubInfo
 >
 getStubRawWord
 (
-ctx
-.
 cstub
 protoOffset
 )
@@ -5799,8 +5801,6 @@ stubInfo
 >
 getStubRawWord
 (
-ctx
-.
 cstub
 claspOffset
 )
@@ -5860,8 +5860,6 @@ stubInfo
 >
 getStubRawInt32
 (
-ctx
-.
 cstub
 expectedOffset
 )
@@ -5881,8 +5879,6 @@ stubInfo
 >
 getStubRawWord
 (
-ctx
-.
 cstub
 generationAddrOffset
 )
@@ -5965,8 +5961,6 @@ stubInfo
 >
 getStubRawWord
 (
-ctx
-.
 cstub
 claspOffset
 )
@@ -6071,8 +6065,6 @@ stubInfo
 >
 getStubRawWord
 (
-ctx
-.
 cstub
 globalOffset
 )
@@ -6099,8 +6091,6 @@ stubInfo
 >
 getStubRawWord
 (
-ctx
-.
 cstub
 compartmentOffset
 )
@@ -6563,8 +6553,6 @@ stubInfo
 >
 getStubRawWord
 (
-ctx
-.
 cstub
 handlerOffset
 )
@@ -6729,8 +6717,6 @@ stubInfo
 >
 getStubRawWord
 (
-ctx
-.
 cstub
 expectedOffset
 )
@@ -6880,8 +6866,6 @@ stubInfo
 >
 getStubRawWord
 (
-ctx
-.
 cstub
 expectedOffset
 )
@@ -6983,8 +6967,6 @@ stubInfo
 >
 getStubRawWord
 (
-ctx
-.
 cstub
 expectedOffset
 )
@@ -7063,8 +7045,6 @@ stubInfo
 >
 getStubRawWord
 (
-ctx
-.
 cstub
 expectedOffset
 )
@@ -7125,8 +7105,6 @@ stubInfo
 >
 getStubRawWord
 (
-ctx
-.
 cstub
 expectedOffset
 )
@@ -7793,8 +7771,6 @@ stubInfo
 >
 getStubRawWord
 (
-ctx
-.
 cstub
 idOffset
 )
@@ -7815,8 +7791,6 @@ stubInfo
 >
 getStubRawWord
 (
-ctx
-.
 cstub
 getterSetterOffset
 )
@@ -7956,8 +7930,6 @@ stubInfo
 >
 getStubRawInt32
 (
-ctx
-.
 cstub
 slotOffset
 )
@@ -8074,8 +8046,6 @@ stubInfo
 >
 getStubRawInt32
 (
-ctx
-.
 cstub
 slotOffset
 )
@@ -8193,8 +8163,6 @@ stubInfo
 >
 getStubRawInt32
 (
-ctx
-.
 cstub
 offsetOffset
 )
@@ -8212,8 +8180,6 @@ stubInfo
 >
 getStubRawInt64
 (
-ctx
-.
 cstub
 valOffset
 )
@@ -8334,8 +8300,6 @@ stubInfo
 >
 getStubRawInt32
 (
-ctx
-.
 cstub
 offsetOffset
 )
@@ -8353,8 +8317,6 @@ stubInfo
 >
 getStubRawInt64
 (
-ctx
-.
 cstub
 valOffset
 )
@@ -8482,8 +8444,6 @@ stubInfo
 >
 getStubRawInt32
 (
-ctx
-.
 cstub
 offsetOffset
 )
@@ -8605,8 +8565,6 @@ stubInfo
 >
 getStubRawInt32
 (
-ctx
-.
 cstub
 slotOffset
 )
@@ -8682,8 +8640,6 @@ stubInfo
 >
 getStubRawWord
 (
-ctx
-.
 cstub
 builderAddrOffset
 )
@@ -9212,8 +9168,6 @@ stubInfo
 >
 getStubRawWord
 (
-ctx
-.
 cstub
 objOffset
 )
@@ -9289,8 +9243,6 @@ stubInfo
 >
 getStubRawWord
 (
-ctx
-.
 cstub
 protoObjOffset
 )
@@ -9948,8 +9900,6 @@ stubInfo
 >
 getStubRawWord
 (
-ctx
-.
 cstub
 nameOffset
 )
@@ -10355,8 +10305,6 @@ stubInfo
 >
 getStubRawInt32
 (
-ctx
-.
 cstub
 offsetOffset
 )
@@ -10477,8 +10425,6 @@ stubInfo
 >
 getStubRawInt32
 (
-ctx
-.
 cstub
 offsetOffset
 )
@@ -10642,8 +10588,6 @@ stubInfo
 >
 getStubRawInt32
 (
-ctx
-.
 cstub
 offsetOffset
 )
@@ -10675,8 +10619,6 @@ stubInfo
 >
 getStubRawWord
 (
-ctx
-.
 cstub
 newShapeOffset
 )
@@ -10803,8 +10745,6 @@ stubInfo
 >
 getStubRawInt32
 (
-ctx
-.
 cstub
 offsetOffset
 )
@@ -10836,8 +10776,6 @@ stubInfo
 >
 getStubRawWord
 (
-ctx
-.
 cstub
 newShapeOffset
 )
@@ -11002,8 +10940,6 @@ stubInfo
 >
 getStubRawInt32
 (
-ctx
-.
 cstub
 offsetOffset
 )
@@ -11035,8 +10971,6 @@ stubInfo
 >
 getStubRawWord
 (
-ctx
-.
 cstub
 newShapeOffset
 )
@@ -11050,8 +10984,6 @@ stubInfo
 >
 getStubRawInt32
 (
-ctx
-.
 cstub
 numNewSlotsOffset
 )
@@ -12850,8 +12782,6 @@ PUSHNATIVE
 (
 StackValNative
 (
-ctx
-.
 cstub
 )
 )
@@ -13305,8 +13235,6 @@ stubInfo
 >
 getStubRawInt32
 (
-ctx
-.
 cstub
 offsetOffset
 )
@@ -13452,8 +13380,6 @@ stubInfo
 >
 getStubRawInt32
 (
-ctx
-.
 cstub
 offsetOffset
 )
@@ -15016,8 +14942,6 @@ stubInfo
 >
 getStubRawInt32
 (
-ctx
-.
 cstub
 valOffset
 )
@@ -15067,8 +14991,6 @@ stubInfo
 >
 getStubRawWord
 (
-ctx
-.
 cstub
 strOffset
 )
@@ -15953,8 +15875,6 @@ stubInfo
 >
 getStubRawInt64
 (
-ctx
-.
 cstub
 valOffset
 )
