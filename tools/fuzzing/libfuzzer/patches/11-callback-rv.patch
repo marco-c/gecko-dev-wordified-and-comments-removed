@@ -322,8 +322,6 @@ ExecuteCallback
 Data
 Size
 )
->
-0
 )
 {
 +
@@ -698,15 +696,6 @@ Res
 0
 )
 ;
-+
-assert
-(
-Res
->
-=
-0
-)
-;
 HasMoreMallocsThanFrees
 =
 AllocTracer
@@ -948,8 +937,6 @@ size
 (
 )
 )
->
-0
 )
 {
 +

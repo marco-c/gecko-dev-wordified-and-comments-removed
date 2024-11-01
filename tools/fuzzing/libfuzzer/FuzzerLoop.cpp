@@ -3128,8 +3128,6 @@ ExecuteCallback
 Data
 Size
 )
->
-0
 )
 {
 return
@@ -3753,14 +3751,6 @@ system_clock
 :
 now
 (
-)
-;
-assert
-(
-Res
->
-=
-0
 )
 ;
 HasMoreMallocsThanFrees
