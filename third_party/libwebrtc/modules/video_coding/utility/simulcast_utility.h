@@ -25,6 +25,17 @@ h
 #
 include
 "
+rtc_base
+/
+system
+/
+rtc_export
+.
+h
+"
+#
+include
+"
 video
 /
 config
@@ -37,6 +48,7 @@ namespace
 webrtc
 {
 class
+RTC_EXPORT
 SimulcastUtility
 {
 public
