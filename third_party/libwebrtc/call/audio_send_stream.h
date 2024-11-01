@@ -7,7 +7,7 @@ CALL_AUDIO_SEND_STREAM_H_
 #
 include
 <
-memory
+cstdint
 >
 #
 include
@@ -126,6 +126,15 @@ include
 "
 api
 /
+rtp_headers
+.
+h
+"
+#
+include
+"
+api
+/
 rtp_parameters
 .
 h
@@ -151,9 +160,11 @@ h
 #
 include
 "
-call
+api
 /
-audio_sender
+units
+/
+time_delta
 .
 h
 "
@@ -162,7 +173,7 @@ include
 "
 call
 /
-rtp_config
+audio_sender
 .
 h
 "

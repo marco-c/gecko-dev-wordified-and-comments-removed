@@ -7,11 +7,6 @@ CALL_RTP_TRANSPORT_CONFIG_H_
 #
 include
 <
-memory
->
-#
-include
-<
 optional
 >
 #

@@ -29,6 +29,15 @@ task_queue_base
 .
 h
 "
+#
+include
+"
+call
+/
+rtp_transport_config
+.
+h
+"
 namespace
 webrtc
 {

@@ -44,15 +44,6 @@ h
 #
 include
 "
-api
-/
-rtp_parameters
-.
-h
-"
-#
-include
-"
 call
 /
 receive_stream
