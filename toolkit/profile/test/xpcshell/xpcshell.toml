@@ -157,6 +157,13 @@ js
 ]
 [
 "
+test_restore_storeID
+.
+js
+"
+]
+[
+"
 test_select_backgroundtasks_ephemeral
 .
 js
