@@ -157,14 +157,6 @@ AF_GENERAL_HEADING
 "
 Algemeen
 "
-const
-val
-AF_LANGUAGE_SYSTEM_DEFAULT
-=
-"
-System
-default
-"
 /
 /
 App
