@@ -12229,7 +12229,6 @@ textFormats
 {
 kTextMime
 kHTMLMime
-kNativeHTMLMime
 }
 ;
 for

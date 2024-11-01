@@ -934,7 +934,6 @@ kKnownClipboardTypes
 {
 kTextMime
 kHTMLMime
-kNativeHTMLMime
 kCustomTypesMime
 kFileMime
 }
