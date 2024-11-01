@@ -2938,7 +2938,7 @@ lazy
 .
 ASRouter
 .
-initialized
+waitForInitialized
 ;
 let
 win
