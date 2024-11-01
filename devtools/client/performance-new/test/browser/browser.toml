@@ -286,9 +286,6 @@ capture
 js
 "
 ]
-https_first_disabled
-=
-true
 skip
 -
 if
@@ -361,9 +358,6 @@ states
 js
 "
 ]
-https_first_disabled
-=
-true
 [
 "
 browser_popup
@@ -377,9 +371,6 @@ view
 js
 "
 ]
-https_first_disabled
-=
-true
 fail
 -
 if
@@ -413,9 +404,6 @@ capture
 js
 "
 ]
-https_first_disabled
-=
-true
 fail
 -
 if
@@ -482,9 +470,6 @@ button
 js
 "
 ]
-https_first_disabled
-=
-true
 fail
 -
 if
@@ -522,9 +507,6 @@ preset
 js
 "
 ]
-https_first_disabled
-=
-true
 [
 "
 browser_webchannel
@@ -538,9 +520,6 @@ button
 js
 "
 ]
-https_first_disabled
-=
-true
 [
 "
 browser_webchannel
@@ -554,6 +533,3 @@ data
 js
 "
 ]
-https_first_disabled
-=
-true
