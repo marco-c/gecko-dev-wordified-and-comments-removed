@@ -32401,8 +32401,6 @@ aAppUnitsPerPixel
 uint32_t
 flags
 =
-aFlags
-&
 (
 INCLUDE_PRESERVE3D_ANCESTORS
 |
