@@ -431,7 +431,7 @@ openSettings
 .
 openCustomizeSubMenu
 {
-verifyToolbarPositionPreference
+verifyAddressBarPositionPreference
 (
 "
 Bottom
@@ -440,7 +440,7 @@ Bottom
 clickTopToolbarToggle
 (
 )
-verifyToolbarPositionPreference
+verifyAddressBarPositionPreference
 (
 "
 Top
@@ -454,9 +454,9 @@ goBack
 .
 goBack
 {
-verifyToolbarPosition
+verifyAddressBarPosition
 (
-defaultPosition
+bottomPosition
 =
 false
 )
@@ -475,7 +475,7 @@ openCustomizeSubMenu
 clickBottomToolbarToggle
 (
 )
-verifyToolbarPositionPreference
+verifyAddressBarPositionPreference
 (
 "
 Bottom
@@ -487,9 +487,9 @@ exitMenu
 }
 homeScreen
 {
-verifyToolbarPosition
+verifyAddressBarPosition
 (
-defaultPosition
+bottomPosition
 =
 true
 )

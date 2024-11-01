@@ -731,7 +731,7 @@ option
 )
 }
 fun
-verifyToolbarPositionPreference
+verifyAddressBarPositionPreference
 (
 selectedPosition
 :
@@ -744,7 +744,7 @@ i
 (
 TAG
 "
-verifyToolbarPositionPreference
+verifyAddressBarPositionPreference
 :
 Trying
 to
@@ -795,7 +795,7 @@ i
 (
 TAG
 "
-verifyToolbarPositionPreference
+verifyAddressBarPositionPreference
 :
 Verified
 that
