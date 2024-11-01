@@ -113,7 +113,7 @@ BitstreamReader
 >
 reader
 (
-absl
+std
 :
 :
 in_place
@@ -202,7 +202,7 @@ BitstreamReader
 >
 reader
 (
-absl
+std
 :
 :
 in_place
