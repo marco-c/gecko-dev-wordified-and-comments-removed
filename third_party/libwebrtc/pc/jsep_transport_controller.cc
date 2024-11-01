@@ -426,7 +426,10 @@ network_thread_
 BlockingCall
 (
 [
-=
+this
+type
+local_desc
+remote_desc
 ]
 {
 return
@@ -566,7 +569,10 @@ network_thread_
 BlockingCall
 (
 [
-=
+this
+type
+local_desc
+remote_desc
 ]
 {
 return
@@ -2164,7 +2170,7 @@ network_thread_
 BlockingCall
 (
 [
-=
+this
 ]
 {
 return
