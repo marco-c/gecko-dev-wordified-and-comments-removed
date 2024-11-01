@@ -1512,6 +1512,8 @@ window_handle
 =
 window_handle
                 
+remaining_windows
+=
 self
 .
 webdriver
@@ -1520,6 +1522,29 @@ window
 .
 close
 (
+)
+                
+if
+window_handle
+in
+remaining_windows
+:
+                    
+raise
+Exception
+(
+"
+the
+window
+remained
+open
+after
+sending
+the
+window
+close
+command
+"
 )
             
 except
