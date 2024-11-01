@@ -964,6 +964,11 @@ toObject
 )
 )
 themes
+isInAutomation
+:
+Cu
+.
+isInAutomation
 }
 ;
 }
