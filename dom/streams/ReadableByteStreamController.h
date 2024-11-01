@@ -809,6 +809,8 @@ JSObject
 *
 >
 aView
+uint64_t
+aMin
 ReadIntoRequest
 *
 aReadIntoRequest
