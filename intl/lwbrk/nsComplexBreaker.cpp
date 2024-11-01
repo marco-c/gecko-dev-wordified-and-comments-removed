@@ -179,7 +179,7 @@ null
 LineBreakCache
 :
 :
-Key
+KeyType
 key
 {
 aText
@@ -281,7 +281,7 @@ Set
 LineBreakCache
 :
 :
-Entry
+EntryType
 {
 nsString
 (
