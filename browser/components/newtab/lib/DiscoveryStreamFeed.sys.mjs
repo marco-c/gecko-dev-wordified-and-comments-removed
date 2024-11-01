@@ -1078,6 +1078,8 @@ discoverystream
 .
 contextualContent
 .
+fakespot
+.
 enabled
 "
 ;
