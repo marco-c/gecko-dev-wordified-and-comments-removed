@@ -35,6 +35,15 @@ test_failing_console_listener
 js
 "
 ]
+skip
+-
+if
+=
+[
+"
+tsan
+"
+]
 [
 "
 test_formatting
