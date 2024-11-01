@@ -80,11 +80,5 @@ gu
 gujarati
 "
 }
-njo
-{
-"
-ao
-"
-}
 }
 }

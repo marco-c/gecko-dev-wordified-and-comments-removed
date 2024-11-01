@@ -62,5 +62,11 @@ default
 arab
 "
 }
+default_latn
+{
+"
+latn
+"
+}
 }
 }

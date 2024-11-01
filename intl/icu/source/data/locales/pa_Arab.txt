@@ -77,8 +77,6 @@ ExemplarCharacters
 {
 "
 [
-\
-u064F
 "
 "
 ]
@@ -307,14 +305,6 @@ d
 M
 "
 }
-ms
-{
-"
-mm
-:
-ss
-"
-}
 yMMM
 {
 "
@@ -527,13 +517,6 @@ wide
 eras
 {
 abbreviated
-{
-"
-"
-"
-"
-}
-wide
 {
 "
 "

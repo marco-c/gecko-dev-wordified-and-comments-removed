@@ -52,6 +52,6 @@ icu
 data
 .
 xml
-yi_001
+oc_FR
 {
 }
