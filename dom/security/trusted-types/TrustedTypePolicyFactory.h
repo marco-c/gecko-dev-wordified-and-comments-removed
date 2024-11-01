@@ -335,8 +335,7 @@ DOMString
 &
 aResult
 )
-{
-}
+;
 TrustedTypePolicy
 *
 GetDefaultPolicy
