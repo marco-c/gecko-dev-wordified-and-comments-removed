@@ -59,9 +59,9 @@ include
 "
 api
 /
-rtc_event_log
+environment
 /
-rtc_event_log
+environment
 .
 h
 "
@@ -347,6 +347,10 @@ task_safety_
 RtpSenderEgress
 (
 const
+Environment
+&
+env
+const
 RtpRtcpInterface
 :
 :
@@ -623,6 +627,10 @@ PeriodicUpdate
 )
 ;
 const
+Environment
+env_
+;
+const
 bool
 enable_send_packet_batching_
 ;
@@ -659,11 +667,6 @@ const
 bool
 populate_network2_timestamp_
 ;
-Clock
-*
-const
-clock_
-;
 RtpPacketHistory
 *
 const
@@ -677,11 +680,6 @@ Transport
 *
 const
 transport_
-;
-RtcEventLog
-*
-const
-event_log_
 ;
 const
 bool
