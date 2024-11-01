@@ -181,6 +181,16 @@ fenix
 .
 utils
 .
+DURATION_MS_TRANSLATIONS
+import
+org
+.
+mozilla
+.
+fenix
+.
+utils
+.
 exitMenu
 /
 *
@@ -635,6 +645,7 @@ true
 )
 exitMenu
 (
+DURATION_MS_TRANSLATIONS
 )
 }
 }
