@@ -1002,12 +1002,12 @@ time
 *
 param
 aEnable
-PR_TRUE
+true
 to
 enable
 caret
 .
-PR_FALSE
+false
 to
 disable
 .
@@ -1052,12 +1052,12 @@ visible
 *
 param
 aReadOnly
-PR_TRUE
+true
 to
 enable
 caret
 .
-PR_FALSE
+false
 to
 disable
 .
@@ -1205,7 +1205,7 @@ selections
 *
 param
 aVisibility
-PR_TRUE
+true
 to
 show
 the
@@ -1213,7 +1213,7 @@ caret
 in
 selections
 .
-PR_FALSE
+false
 to
 hide
 .
@@ -1263,7 +1263,7 @@ if
 the
 aExtend
 =
-PR_FALSE
+false
 *
 the
 "
@@ -1299,7 +1299,7 @@ forward
 or
 backward
 if
-PR_FALSE
+false
 *
 param
 aExtend
@@ -1361,7 +1361,7 @@ if
 the
 aExtend
 =
-PR_FALSE
+false
 *
 the
 "
@@ -1513,7 +1513,7 @@ if
 the
 aExtend
 =
-PR_FALSE
+false
 *
 the
 "
@@ -1549,7 +1549,7 @@ forward
 or
 backward
 if
-PR_FALSE
+false
 *
 param
 aExtend
@@ -1607,7 +1607,7 @@ if
 the
 aExtend
 =
-PR_FALSE
+false
 *
 the
 "
@@ -1643,7 +1643,7 @@ forward
 or
 backward
 if
-PR_FALSE
+false
 *
 param
 aExtend
@@ -1708,7 +1708,7 @@ if
 the
 aExtend
 =
-PR_FALSE
+false
 *
 the
 "
@@ -1744,7 +1744,7 @@ forward
 or
 backward
 if
-PR_FALSE
+false
 *
 param
 aExtend
@@ -1802,7 +1802,7 @@ if
 the
 aExtend
 =
-PR_FALSE
+false
 *
 the
 "
@@ -1838,7 +1838,7 @@ forward
 or
 backward
 if
-PR_FALSE
+false
 *
 param
 aExtend
@@ -1890,7 +1890,7 @@ forward
 or
 backward
 if
-PR_FALSE
+false
 *
 /
 void
@@ -1932,7 +1932,7 @@ if
 the
 aExtend
 =
-PR_FALSE
+false
 *
 the
 "
@@ -1968,7 +1968,7 @@ forward
 or
 backward
 if
-PR_FALSE
+false
 *
 param
 aExtend
