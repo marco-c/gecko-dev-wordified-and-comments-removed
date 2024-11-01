@@ -13292,6 +13292,9 @@ Data
 uint32_t
 offset_
 ;
+uint32_t
+fieldIndex_
+;
 AliasSet
 aliases_
 ;
@@ -13314,6 +13317,8 @@ MDefinition
 obj
 size_t
 offset
+uint32_t
+fieldIndex
 MDefinition
 *
 value
@@ -13338,6 +13343,10 @@ uint32_t
 (
 offset
 )
+)
+fieldIndex_
+(
+fieldIndex
 )
 aliases_
 (
@@ -13596,6 +13605,16 @@ const
 {
 return
 offset_
+;
+}
+uint32_t
+fieldIndex
+(
+)
+const
+{
+return
+fieldIndex_
 ;
 }
 AliasSet
