@@ -65,6 +65,14 @@ True
 DEFINES
 [
 "
+UCONFIG_NO_MF2
+"
+]
+=
+True
+DEFINES
+[
+"
 U_CHARSET_IS_UTF8
 "
 ]

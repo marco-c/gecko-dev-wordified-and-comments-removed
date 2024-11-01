@@ -2390,6 +2390,12 @@ DUCONFIG_NO_BREAK_IDNA
 +
 "
 -
+DUCONFIG_NO_MF2
+"
+                
++
+"
+-
 DU_CHARSET_IS_UTF8
 "
             
