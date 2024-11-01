@@ -1660,6 +1660,17 @@ JSScript
 *
 >
 aScript
+bool
+keepStencil
+RefPtr
+<
+JS
+:
+:
+Stencil
+>
+&
+aStencilDup
 ErrorResult
 &
 aRv
