@@ -155,6 +155,9 @@ class
 nsIPrincipal
 ;
 class
+nsIURI
+;
+class
 nsPIDOMWindowInner
 ;
 namespace
@@ -576,6 +579,14 @@ return
 nullptr
 ;
 }
+virtual
+nsIURI
+*
+GetBaseURI
+(
+)
+const
+;
 virtual
 mozilla
 :

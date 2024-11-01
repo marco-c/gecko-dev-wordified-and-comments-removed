@@ -1360,6 +1360,14 @@ GetExistingDebuggerNotificationManager
 )
 override
 ;
+nsIURI
+*
+GetBaseURI
+(
+)
+const
+final
+;
 mozilla
 :
 :
