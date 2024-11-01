@@ -1792,6 +1792,14 @@ isADialogAlreadyCreated
 {
 return
 }
+if
+(
+!
+fragmentManager
+.
+isStateSaved
+)
+{
 getOrCreateDialog
 (
 isPrivate
@@ -1813,6 +1821,7 @@ showNow
 fragmentManager
 FRAGMENT_TAG
 )
+}
 }
 VisibleForTesting
 (
