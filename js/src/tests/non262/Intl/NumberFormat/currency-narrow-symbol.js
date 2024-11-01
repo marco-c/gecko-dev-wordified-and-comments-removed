@@ -50,7 +50,6 @@ value
 string
 :
 "
-US
 123
 .
 00
@@ -61,7 +60,6 @@ parts
 Currency
 (
 "
-US
 "
 )
 Integer

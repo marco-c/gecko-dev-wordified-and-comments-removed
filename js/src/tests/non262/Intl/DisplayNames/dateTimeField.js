@@ -343,7 +343,8 @@ era
 "
 :
 "
-Epoche
+Ep
+.
 "
 "
 year
@@ -365,7 +366,8 @@ month
 "
 :
 "
-Monat
+Mon
+.
 "
 "
 weekOfYear
