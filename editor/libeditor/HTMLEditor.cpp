@@ -869,6 +869,7 @@ SplitAtEdges
 aSplitAtEdges
 )
 ;
+MOZ_RUNINIT
 HTMLEditor
 :
 :
@@ -895,6 +896,7 @@ NS_OK
 ;
 }
 ;
+MOZ_RUNINIT
 HTMLEditor
 :
 :
@@ -1178,6 +1180,7 @@ return
 createNewElementWithBRResult
 ;
 }
+MOZ_RUNINIT
 HTMLEditor
 :
 :
@@ -1211,6 +1214,7 @@ true
 ;
 }
 ;
+MOZ_RUNINIT
 HTMLEditor
 :
 :
@@ -1259,6 +1263,7 @@ id
 ;
 }
 ;
+MOZ_RUNINIT
 HTMLEditor
 :
 :
@@ -1307,6 +1312,7 @@ dir
 ;
 }
 ;
+MOZ_RUNINIT
 HTMLEditor
 :
 :

@@ -104,6 +104,7 @@ using
 namespace
 mozilla
 ;
+MOZ_RUNINIT
 JS
 :
 :

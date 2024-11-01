@@ -628,6 +628,7 @@ nullptr
 ;
 }
 ;
+MOZ_RUNINIT
 static
 nsTHashMap
 <

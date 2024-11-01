@@ -89,6 +89,7 @@ kReadData
 -
 1
 ;
+MOZ_RUNINIT
 static
 const
 std

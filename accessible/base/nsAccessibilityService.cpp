@@ -8251,6 +8251,7 @@ Maybe
 .
 h
 "
+MOZ_RUNINIT
 static
 Maybe
 <

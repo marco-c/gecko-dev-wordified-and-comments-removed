@@ -650,6 +650,7 @@ forget
 )
 ;
 }
+MOZ_RUNINIT
 static
 RefPtr
 <

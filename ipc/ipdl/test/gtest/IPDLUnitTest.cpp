@@ -122,6 +122,7 @@ mozilla
 :
 _ipdltest
 {
+MOZ_RUNINIT
 static
 std
 :
@@ -1633,6 +1634,7 @@ nsID
 &
 )
 ;
+MOZ_RUNINIT
 int
 _childProcessEntryPointStaticConstructor
 =

@@ -331,6 +331,7 @@ template
 typename
 T
 >
+MOZ_GLOBINIT
 MOZ_THREAD_LOCAL
 (
 T

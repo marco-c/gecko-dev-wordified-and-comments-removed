@@ -56,6 +56,7 @@ defined
 (
 _M_ARM64
 )
+MOZ_RUNINIT
 static
 WindowsDllInterceptor
 NtDllIntercept

@@ -57,6 +57,7 @@ _M_AMD64
 namespace
 mozilla
 {
+MOZ_RUNINIT
 static
 OnSingleStepCallback
 sOnSingleStepCallback

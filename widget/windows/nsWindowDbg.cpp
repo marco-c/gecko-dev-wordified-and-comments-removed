@@ -932,6 +932,7 @@ mLParam
 )
 ;
 }
+MOZ_RUNINIT
 std
 :
 :
@@ -951,6 +952,7 @@ WM_MEASUREITEM
 WM_NCCALCSIZE
 }
 ;
+MOZ_RUNINIT
 std
 :
 :
@@ -5329,6 +5331,7 @@ return
 result
 ;
 }
+MOZ_RUNINIT
 const
 nsTArray
 <
@@ -6577,6 +6580,7 @@ lParamName
 }
 \
 }
+MOZ_RUNINIT
 std
 :
 :

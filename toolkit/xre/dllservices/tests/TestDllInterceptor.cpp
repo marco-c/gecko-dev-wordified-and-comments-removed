@@ -4460,6 +4460,7 @@ ExpectedFail
 =
 1
 ;
+MOZ_GLOBINIT
 struct
 TestCase
 {
@@ -5254,6 +5255,7 @@ gDetouredCallCodeSize
 ;
 }
 ;
+MOZ_RUNINIT
 decltype
 (
 &

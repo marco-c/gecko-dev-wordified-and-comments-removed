@@ -351,6 +351,7 @@ nsString
 32
 >
 ;
+MOZ_RUNINIT
 static
 mozilla
 :
@@ -1572,6 +1573,7 @@ aFileInformation
 ;
 }
 }
+MOZ_RUNINIT
 static
 mozilla
 :

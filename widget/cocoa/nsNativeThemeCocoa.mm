@@ -3983,6 +3983,7 @@ pressed
 ]
 ;
 }
+MOZ_RUNINIT
 static
 const
 CellRenderSettings
@@ -4055,6 +4056,7 @@ NSZeroSize
 }
 }
 ;
+MOZ_RUNINIT
 static
 const
 CellRenderSettings
@@ -4366,6 +4368,7 @@ NO
 NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
+MOZ_RUNINIT
 static
 const
 CellRenderSettings
@@ -4995,6 +4998,7 @@ return
 params
 ;
 }
+MOZ_RUNINIT
 static
 const
 NSSize
@@ -5006,6 +5010,7 @@ NSMakeSize
 20
 )
 ;
+MOZ_RUNINIT
 static
 const
 NSSize
@@ -5017,6 +5022,7 @@ NSMakeSize
 21
 )
 ;
+MOZ_RUNINIT
 static
 const
 CellRenderSettings
@@ -6099,6 +6105,7 @@ return
 ;
 }
 }
+MOZ_RUNINIT
 static
 const
 CellRenderSettings
@@ -6183,6 +6190,7 @@ NSMakeSize
 }
 }
 ;
+MOZ_RUNINIT
 static
 const
 CellRenderSettings
@@ -6403,6 +6411,7 @@ rtl
 NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
+MOZ_RUNINIT
 static
 const
 CellRenderSettings
@@ -6751,6 +6760,7 @@ cgContext
 NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
+MOZ_RUNINIT
 static
 const
 CellRenderSettings
@@ -7209,6 +7219,7 @@ rtl
 NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
+MOZ_RUNINIT
 static
 const
 CellRenderSettings
@@ -11872,6 +11883,7 @@ left
 )
 ;
 }
+MOZ_RUNINIT
 static
 const
 LayoutDeviceIntMargin
@@ -11883,6 +11895,7 @@ kAquaDropdownBorder
 5
 )
 ;
+MOZ_RUNINIT
 static
 const
 LayoutDeviceIntMargin
@@ -11894,6 +11907,7 @@ kAquaComboboxBorder
 4
 )
 ;
+MOZ_RUNINIT
 static
 const
 LayoutDeviceIntMargin
@@ -11905,6 +11919,7 @@ kAquaSearchfieldBorder
 19
 )
 ;
+MOZ_RUNINIT
 static
 const
 LayoutDeviceIntMargin

@@ -480,6 +480,7 @@ kValidRootHashSHA512Hex
 c69291e0fa2fe0006a52570ef18c19def4e617c33ce52ef0a6e5fbe318cb0387
 "
 ;
+MOZ_RUNINIT
 static
 const
 BTSignedTreeHeadTestParams

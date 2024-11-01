@@ -678,6 +678,7 @@ EXPECTED_NEG_CACHE_DURATION
 9
 }
 ;
+MOZ_RUNINIT
 static
 const
 struct

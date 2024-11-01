@@ -94,6 +94,7 @@ mozilla
 :
 a11y
 ;
+MOZ_RUNINIT
 static
 nsTHashMap
 <

@@ -154,6 +154,7 @@ gJsapi
 =
 nullptr
 ;
+MOZ_RUNINIT
 static
 std
 :

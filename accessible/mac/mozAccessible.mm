@@ -1890,6 +1890,7 @@ description
 ;
 }
 ;
+MOZ_RUNINIT
 static
 const
 RoleDescrMap

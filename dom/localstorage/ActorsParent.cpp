@@ -10540,6 +10540,7 @@ nsCStringHashKey
 PrivateDatastore
 >
 ;
+MOZ_RUNINIT
 UniquePtr
 <
 PrivateDatastoreHashtable

@@ -291,6 +291,7 @@ template
 class
 T
 >
+MOZ_GLOBINIT
 StaticAutoPtr
 <
 FlaggedArray
@@ -311,6 +312,7 @@ template
 class
 T
 >
+MOZ_GLOBINIT
 StaticAutoPtr
 <
 FlaggedArray
@@ -362,6 +364,7 @@ INativePlacesEventCallback
 >
 >
 ;
+MOZ_RUNINIT
 static
 nsTArray
 <

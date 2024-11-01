@@ -15177,6 +15177,7 @@ fill
 "
 "
             
+MOZ_GLOBINIT
 static
 {
 specType

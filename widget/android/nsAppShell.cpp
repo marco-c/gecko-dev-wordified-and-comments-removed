@@ -672,6 +672,7 @@ NS_IMPL_ISUPPORTS
 WakeLockListener
 nsIDOMMozWakeLockListener
 )
+MOZ_RUNINIT
 nsCOMPtr
 <
 nsIPowerManagerService

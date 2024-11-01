@@ -904,12 +904,14 @@ sWM_MSIME_MOUSE
 =
 0
 ;
+MOZ_RUNINIT
 WritingMode
 IMMHandler
 :
 :
 sWritingModeOfCompositionFont
 ;
+MOZ_RUNINIT
 nsString
 IMMHandler
 :

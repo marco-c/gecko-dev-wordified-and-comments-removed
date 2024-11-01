@@ -231,6 +231,7 @@ result
 }
 }
 ;
+MOZ_RUNINIT
 const
 CustomProxyHandler
 customProxyHandler

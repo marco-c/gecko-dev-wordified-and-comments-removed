@@ -330,10 +330,12 @@ aPresent
 )
 ;
 }
+MOZ_RUNINIT
 static
 WindowsDllInterceptor
 Kernel32Intercept
 ;
+MOZ_RUNINIT
 static
 WindowsDllInterceptor
 gApiQueryIntercept

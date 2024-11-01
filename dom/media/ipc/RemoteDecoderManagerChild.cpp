@@ -308,6 +308,7 @@ MOZ_GUARDED_BY
 sLaunchMutex
 )
 ;
+MOZ_RUNINIT
 static
 StaticDataMutex
 <
@@ -357,12 +358,7 @@ sRecreateTasks
 StaticMutex
 sProcessSupportedMutex
 ;
-#
-ifndef
-MOZ_DEBUG
-MOZ_CONSTINIT
-#
-endif
+MOZ_GLOBINIT
 static
 EnumeratedArray
 <

@@ -2547,6 +2547,7 @@ return
 topWnd
 ;
 }
+MOZ_RUNINIT
 static
 nsTHashMap
 <

@@ -5980,6 +5980,7 @@ jit
 DoubleEncoder
 doubleEncoder
 ;
+MOZ_RUNINIT
 const
 js
 :

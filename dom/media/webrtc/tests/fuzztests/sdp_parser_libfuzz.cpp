@@ -32,6 +32,7 @@ using
 namespace
 mozilla
 ;
+MOZ_RUNINIT
 static
 mozilla
 :
@@ -45,6 +46,7 @@ Results
 >
 sdpPtr
 ;
+MOZ_RUNINIT
 static
 SipccSdpParser
 mParser

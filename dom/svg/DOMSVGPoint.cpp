@@ -126,6 +126,7 @@ mValue
 ;
 }
 ;
+MOZ_CONSTINIT
 static
 SVGAttrTearoffTable
 <

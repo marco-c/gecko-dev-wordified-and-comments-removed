@@ -11924,6 +11924,7 @@ Base
 typename
 Traits
 >
+MOZ_GLOBINIT
 const
 xpc
 :

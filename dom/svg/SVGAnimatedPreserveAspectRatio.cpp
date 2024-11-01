@@ -279,6 +279,7 @@ mDoSetAttr
 ;
 }
 ;
+MOZ_CONSTINIT
 static
 SVGAttrTearoffTable
 <
@@ -287,6 +288,7 @@ DOMSVGAnimatedPreserveAspectRatio
 >
 sSVGAnimatedPAspectRatioTearoffTable
 ;
+MOZ_CONSTINIT
 static
 SVGAttrTearoffTable
 <
@@ -295,6 +297,7 @@ DOMSVGPreserveAspectRatio
 >
 sBaseSVGPAspectRatioTearoffTable
 ;
+MOZ_CONSTINIT
 static
 SVGAttrTearoffTable
 <

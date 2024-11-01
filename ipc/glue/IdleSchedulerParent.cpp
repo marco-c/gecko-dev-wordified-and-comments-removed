@@ -88,6 +88,7 @@ mozilla
 :
 ipc
 {
+MOZ_RUNINIT
 RefPtr
 <
 SharedMemory
@@ -111,6 +112,7 @@ IdleSchedulerParent
 :
 sInUseChildCounters
 ;
+MOZ_RUNINIT
 LinkedList
 <
 IdleSchedulerParent

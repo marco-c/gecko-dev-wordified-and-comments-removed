@@ -1240,6 +1240,7 @@ sIsOleInitialized
 =
 false
 ;
+MOZ_RUNINIT
 nsIWidget
 :
 :
@@ -1695,6 +1696,7 @@ kCClipboardCID
 NS_CLIPBOARD_CID
 )
 ;
+MOZ_RUNINIT
 static
 WindowsDllInterceptor
 sUser32Intercept

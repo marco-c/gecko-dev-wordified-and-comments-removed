@@ -6123,6 +6123,7 @@ return
 NS_OK
 ;
 }
+MOZ_RUNINIT
 nsAutoCString
 gBaseAppVersion
 ;

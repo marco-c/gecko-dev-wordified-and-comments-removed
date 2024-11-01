@@ -3971,6 +3971,7 @@ Name
 Sig
 )
 \
+MOZ_RUNINIT
 static
 JitABICall
 <
@@ -3978,6 +3979,7 @@ Sig
 >
 MOZ_CONCAT
 (
+\
 MOZ_CONCAT
 (
 cls_jitabicall

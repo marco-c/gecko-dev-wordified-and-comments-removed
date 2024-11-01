@@ -254,6 +254,7 @@ lock
 namespace
 js
 {
+MOZ_RUNINIT
 Mutex
 gHelperThreadLock
 (

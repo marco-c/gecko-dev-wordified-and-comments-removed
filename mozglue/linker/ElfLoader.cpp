@@ -1889,6 +1889,7 @@ nullptr
 }
 #
 endif
+MOZ_RUNINIT
 ElfLoader
 ElfLoader
 :

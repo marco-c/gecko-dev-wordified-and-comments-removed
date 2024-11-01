@@ -157,6 +157,7 @@ RootedDictionary
 .
 h
 "
+MOZ_GLOBINIT
 const
 SEC_ASN1Template
 SGN_DigestInfoTemplate

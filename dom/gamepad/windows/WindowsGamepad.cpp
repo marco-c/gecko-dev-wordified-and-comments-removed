@@ -338,6 +338,7 @@ gService
 =
 nullptr
 ;
+MOZ_RUNINIT
 nsCOMPtr
 <
 nsIThread

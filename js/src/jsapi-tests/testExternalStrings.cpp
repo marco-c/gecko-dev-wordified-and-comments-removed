@@ -287,6 +287,7 @@ call
 }
 }
 ;
+MOZ_RUNINIT
 static
 const
 ExternalStringCallbacks
@@ -297,6 +298,7 @@ finalized1
 true
 )
 ;
+MOZ_RUNINIT
 static
 const
 ExternalStringCallbacks
@@ -307,6 +309,7 @@ finalized2
 true
 )
 ;
+MOZ_RUNINIT
 static
 const
 ExternalStringCallbacks
@@ -317,6 +320,7 @@ finalized3
 false
 )
 ;
+MOZ_RUNINIT
 static
 const
 ExternalStringCallbacks

@@ -2936,6 +2936,7 @@ jsrtfuzzing
 .
 h
 "
+MOZ_RUNINIT
 static
 bool
 fuzzDoDebug
@@ -2949,6 +2950,7 @@ MOZ_FUZZ_DEBUG
 "
 )
 ;
+MOZ_RUNINIT
 static
 bool
 fuzzHaveModule
@@ -5080,6 +5082,7 @@ false
 ;
 #
 endif
+MOZ_RUNINIT
 UniqueChars
 shell
 :
@@ -5464,6 +5467,7 @@ nullptr
 subsumes
 }
 ;
+MOZ_RUNINIT
 ShellPrincipals
 ShellPrincipals
 :
@@ -8538,6 +8542,7 @@ TelemetryData
 SystemAllocPolicy
 >
 ;
+MOZ_RUNINIT
 static
 mozilla
 :
@@ -8785,6 +8790,7 @@ finish
 #
 undef
 MAP_TELEMETRY
+MOZ_RUNINIT
 static
 Mutex
 useCounterLock
@@ -24647,6 +24653,7 @@ workerThreadsLock
 =
 nullptr
 ;
+MOZ_RUNINIT
 static
 Vector
 <
@@ -36740,6 +36747,7 @@ and
 serialize
 "
 ;
+MOZ_RUNINIT
 static
 Vector
 <

@@ -260,6 +260,7 @@ return
 NS_OK
 ;
 }
+MOZ_RUNINIT
 const
 nsOSXSystemProxySettings
 :

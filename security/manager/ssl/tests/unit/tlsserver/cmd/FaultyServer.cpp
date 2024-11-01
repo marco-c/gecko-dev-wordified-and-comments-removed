@@ -250,6 +250,7 @@ default
 ee
 "
 ;
+MOZ_RUNINIT
 const
 FaultyServerHost
 sFaultyServerHosts

@@ -1805,6 +1805,7 @@ return
 blockList
 ;
 }
+MOZ_RUNINIT
 const
 DynamicBlockList
 gFullList
@@ -1814,6 +1815,7 @@ ConvertStaticBlocklistToDynamic
 gWindowsDllBlocklist
 )
 ;
+MOZ_RUNINIT
 const
 DynamicBlockList
 gShortList

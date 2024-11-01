@@ -138,6 +138,7 @@ addr
 }
 NetworkFuzzingBuffer
 ;
+MOZ_RUNINIT
 static
 nsTHashMap
 <
@@ -150,6 +151,7 @@ NetworkFuzzingBuffer
 >
 gConnectedNetworkFuzzingBuffers
 ;
+MOZ_RUNINIT
 static
 nsDeque
 <

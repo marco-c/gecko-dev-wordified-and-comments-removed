@@ -1060,6 +1060,7 @@ RUN_ALL_TESTS
 )
 ;
 }
+MOZ_RUNINIT
 class
 _InitRunGTest
 {

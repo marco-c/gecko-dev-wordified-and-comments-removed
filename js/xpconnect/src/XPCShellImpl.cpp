@@ -527,6 +527,7 @@ XREShellData
 .
 h
 "
+MOZ_RUNINIT
 static
 bool
 fuzzDoDebug
@@ -540,6 +541,7 @@ MOZ_FUZZ_DEBUG
 "
 )
 ;
+MOZ_RUNINIT
 static
 bool
 fuzzHaveModule

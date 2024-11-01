@@ -123,6 +123,7 @@ NS_IMPL_NONLOGGING_RELEASE_INHERITED
 VideoBridgeParent
 HostIPCAllocator
 )
+MOZ_RUNINIT
 static
 StaticDataMutex
 <

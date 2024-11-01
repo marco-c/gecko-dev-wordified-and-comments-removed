@@ -1053,6 +1053,7 @@ kVersion
 #
 ifdef
 XP_WIN
+MOZ_RUNINIT
 static
 WindowsDllInterceptor
 sKernel32Intercept

@@ -157,6 +157,7 @@ L
 Telemetry
 "
 ;
+MOZ_RUNINIT
 static
 std
 :
@@ -164,6 +165,7 @@ std
 wstring
 gBrowserValue
 ;
+MOZ_RUNINIT
 static
 std
 :
@@ -171,6 +173,7 @@ std
 wstring
 gLauncherValue
 ;
+MOZ_RUNINIT
 static
 std
 :
@@ -178,6 +181,7 @@ std
 wstring
 gImageValue
 ;
+MOZ_RUNINIT
 static
 std
 :

@@ -986,6 +986,7 @@ GeckoViewSupport
 "
 )
 ;
+MOZ_RUNINIT
 static
 nsTArray
 <

@@ -1006,6 +1006,7 @@ gWorkingDirPath
 MAXPATHLEN
 ]
 ;
+MOZ_RUNINIT
 static
 ArchiveReader
 gArchiveReader
@@ -1040,6 +1041,7 @@ gIsElevated
 =
 false
 ;
+MOZ_RUNINIT
 static
 MARChannelStringTable
 gMARStrings

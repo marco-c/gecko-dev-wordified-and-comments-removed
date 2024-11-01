@@ -978,6 +978,7 @@ sWindowUnderMouse
 =
 nil
 ;
+MOZ_RUNINIT
 NSPoint
 ChildViewMouseTracker
 :
@@ -20613,6 +20614,7 @@ NSMutableDictionary
 )
 sNativeKeyEventsMap
 {
+MOZ_RUNINIT
 static
 NSMutableDictionary
 *

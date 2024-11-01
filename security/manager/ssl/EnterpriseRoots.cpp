@@ -362,6 +362,7 @@ isRoot
 }
 }
 ;
+MOZ_RUNINIT
 const
 CertStoreLocation
 kCertStoreLocations

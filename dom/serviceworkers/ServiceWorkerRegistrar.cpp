@@ -738,6 +738,7 @@ return
 NS_OK
 ;
 }
+MOZ_RUNINIT
 const
 IPCNavigationPreloadState
 gDefaultNavigationPreloadState

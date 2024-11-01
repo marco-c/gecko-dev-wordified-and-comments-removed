@@ -43,6 +43,7 @@ mozilla
 namespace
 layers
 {
+MOZ_RUNINIT
 RefPtr
 <
 ID3D11Device

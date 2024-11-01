@@ -36,6 +36,7 @@ mozilla
 #
 if
 ENABLE_TESTS
+MOZ_RUNINIT
 nsDependentString
 testEntryString
 (

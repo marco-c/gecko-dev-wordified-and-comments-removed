@@ -55,6 +55,7 @@ shouldPass
 ;
 }
 ;
+MOZ_RUNINIT
 const
 B64Test
 tests

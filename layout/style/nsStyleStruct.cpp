@@ -285,6 +285,7 @@ mozilla
 :
 dom
 ;
+MOZ_RUNINIT
 static
 const
 nscoord
@@ -1619,6 +1620,7 @@ aSide
 }
 ;
 }
+MOZ_RUNINIT
 const
 StyleMargin
 nsStyleMargin
@@ -6933,6 +6935,7 @@ NORMAL
 }
 ;
 }
+MOZ_RUNINIT
 const
 StyleInset
 nsStylePosition
@@ -6947,6 +6950,7 @@ Auto
 (
 )
 ;
+MOZ_RUNINIT
 const
 StyleSize
 nsStylePosition
@@ -6961,6 +6965,7 @@ Auto
 (
 )
 ;
+MOZ_RUNINIT
 const
 StyleMaxSize
 nsStylePosition

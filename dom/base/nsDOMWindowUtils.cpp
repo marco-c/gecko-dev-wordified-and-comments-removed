@@ -1469,6 +1469,7 @@ forget
 ;
 }
 }
+MOZ_RUNINIT
 LinkedList
 <
 OldWindowSize

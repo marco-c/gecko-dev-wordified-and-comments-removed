@@ -89,6 +89,7 @@ TaskbarConcealer
 "
 )
 ;
+MOZ_RUNINIT
 nsTHashMap
 <
 HWND

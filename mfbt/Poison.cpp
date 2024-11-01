@@ -762,6 +762,7 @@ extern
 C
 "
 {
+MOZ_RUNINIT
 uintptr_t
 gMozillaPoisonSize
 =
@@ -769,6 +770,7 @@ GetDesiredRegionSize
 (
 )
 ;
+MOZ_RUNINIT
 uintptr_t
 gMozillaPoisonBase
 =
@@ -777,6 +779,7 @@ ReservePoisonArea
 gMozillaPoisonSize
 )
 ;
+MOZ_RUNINIT
 uintptr_t
 gMozillaPoisonValue
 =

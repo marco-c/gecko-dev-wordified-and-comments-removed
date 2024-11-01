@@ -284,6 +284,7 @@ sSharedLibrariesMutex
 ;
 }
 ;
+MOZ_RUNINIT
 mozilla
 :
 :

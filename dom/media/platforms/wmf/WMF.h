@@ -483,6 +483,7 @@ MFShutdown
 (
 )
 ;
+MOZ_RUNINIT
 static
 inline
 UniquePtr

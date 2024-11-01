@@ -114,6 +114,7 @@ val
 -
 1
 )
+MOZ_RUNINIT
 static
 const
 HMACTestCase

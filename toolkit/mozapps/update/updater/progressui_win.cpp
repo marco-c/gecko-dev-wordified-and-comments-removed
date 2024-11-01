@@ -221,6 +221,7 @@ sIndeterminate
 =
 FALSE
 ;
+MOZ_RUNINIT
 static
 StringTable
 sUIStrings

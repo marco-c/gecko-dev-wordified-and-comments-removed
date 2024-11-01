@@ -36,6 +36,7 @@ h
 namespace
 mozilla
 {
+MOZ_RUNINIT
 class
 _InitFuzzer
 {

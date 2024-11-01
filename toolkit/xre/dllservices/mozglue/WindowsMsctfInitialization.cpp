@@ -68,6 +68,7 @@ Reserved2
 ;
 }
 ;
+MOZ_RUNINIT
 static
 WindowsDllInterceptor
 MsctfIntercept

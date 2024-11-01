@@ -360,6 +360,7 @@ return
 NS_OK
 ;
 }
+MOZ_CONSTINIT
 static
 SVGAttrTearoffTable
 <
@@ -368,6 +369,7 @@ SVGRect
 >
 sBaseSVGViewBoxTearoffTable
 ;
+MOZ_CONSTINIT
 static
 SVGAttrTearoffTable
 <
@@ -376,6 +378,7 @@ SVGRect
 >
 sAnimSVGViewBoxTearoffTable
 ;
+MOZ_CONSTINIT
 SVGAttrTearoffTable
 <
 SVGAnimatedViewBox

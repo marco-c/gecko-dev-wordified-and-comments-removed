@@ -1211,6 +1211,7 @@ pListRepresentation
 }
 namespace
 {
+MOZ_RUNINIT
 const
 NSArray
 *

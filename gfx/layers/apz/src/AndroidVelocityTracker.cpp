@@ -20,6 +20,7 @@ mozilla
 namespace
 layers
 {
+MOZ_RUNINIT
 static
 const
 TimeDuration

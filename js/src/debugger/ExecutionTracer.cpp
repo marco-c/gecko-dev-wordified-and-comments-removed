@@ -83,6 +83,7 @@ LabelLeave
 Error
 }
 ;
+MOZ_RUNINIT
 mozilla
 :
 :
@@ -96,6 +97,7 @@ ExecutionTracer
 :
 globalInstances
 ;
+MOZ_RUNINIT
 Mutex
 ExecutionTracer
 :

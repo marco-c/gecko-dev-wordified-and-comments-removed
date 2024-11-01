@@ -178,10 +178,12 @@ mozilla
 namespace
 net
 {
+MOZ_RUNINIT
 static
 nsAutoCString
 httpSpec
 ;
+MOZ_RUNINIT
 static
 nsAutoCString
 proxyType

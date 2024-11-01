@@ -122,6 +122,7 @@ dom
 :
 ipc
 ;
+MOZ_RUNINIT
 JS
 :
 :

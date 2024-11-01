@@ -789,6 +789,7 @@ sObserverId
 =
 0
 ;
+MOZ_RUNINIT
 nsTHashMap
 <
 uint64_t

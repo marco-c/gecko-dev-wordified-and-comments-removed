@@ -70,6 +70,7 @@ Firefox
 testing
 "
 ;
+MOZ_RUNINIT
 std
 :
 :

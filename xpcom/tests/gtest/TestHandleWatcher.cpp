@@ -541,6 +541,7 @@ sIsLive
 =
 false
 ;
+MOZ_RUNINIT
 RefPtr
 <
 mozilla

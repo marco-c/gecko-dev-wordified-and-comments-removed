@@ -2763,6 +2763,7 @@ sShutdownHasStarted
 =
 false
 ;
+MOZ_RUNINIT
 ChildImpl
 :
 :

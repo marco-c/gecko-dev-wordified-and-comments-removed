@@ -46,6 +46,7 @@ sCurrentCursorScaleFactor
 .
 0f
 ;
+MOZ_RUNINIT
 static
 nsIWidget
 :

@@ -31,6 +31,7 @@ std
 :
 filesystem
 ;
+MOZ_RUNINIT
 static
 path
 processDllPath

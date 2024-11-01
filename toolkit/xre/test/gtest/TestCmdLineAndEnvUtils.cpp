@@ -1065,6 +1065,7 @@ beth
 "
 }
 ;
+MOZ_RUNINIT
 std
 :
 :
@@ -2027,6 +2028,7 @@ allizom
 "
 }
 ;
+MOZ_RUNINIT
 std
 :
 :

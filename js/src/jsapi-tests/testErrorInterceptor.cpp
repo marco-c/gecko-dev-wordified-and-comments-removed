@@ -34,6 +34,7 @@ h
 "
 namespace
 {
+MOZ_RUNINIT
 static
 JS
 :

@@ -3146,6 +3146,7 @@ delete
 ;
 }
 ;
+MOZ_RUNINIT
 KnownModule
 KnownModule
 :

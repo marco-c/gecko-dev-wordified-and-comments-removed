@@ -34,6 +34,7 @@ what
 )
 ;
 }
+MOZ_RUNINIT
 static
 struct
 StaticScopeStruct

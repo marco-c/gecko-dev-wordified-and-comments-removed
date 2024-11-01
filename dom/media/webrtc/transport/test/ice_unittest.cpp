@@ -281,6 +281,7 @@ kDefaultTimeout
 =
 7000
 ;
+MOZ_RUNINIT
 const
 std
 :
@@ -296,6 +297,7 @@ char
 "
 )
 ;
+MOZ_RUNINIT
 const
 std
 :
@@ -324,6 +326,7 @@ kDefaultStunServerPort
 =
 19305
 ;
+MOZ_RUNINIT
 const
 std
 :
@@ -354,6 +357,7 @@ typ
 "
 )
 ;
+MOZ_RUNINIT
 const
 std
 :
