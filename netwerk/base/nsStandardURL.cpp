@@ -310,12 +310,14 @@ nsStandardURL
 :
 gIDN
 ;
-static
 Atomic
 <
 bool
 Relaxed
 >
+nsStandardURL
+:
+:
 gInitialized
 {
 false

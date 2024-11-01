@@ -84065,7 +84065,7 @@ network
 .
 url
 .
-some_schemes_bypass_defaultURI_fallback
+simple_uri_unknown_schemes_enabled
 type
 :
 RelaxedAtomicBool
@@ -84097,7 +84097,7 @@ network
 .
 url
 .
-some_schemes_bypass_defaultURI_fallback
+simple_uri_unknown_schemes_enabled
 is
 true
 -
@@ -84107,7 +84107,7 @@ network
 .
 url
 .
-simple_uri_schemes
+simple_uri_unknown_schemes
 type
 :
 String
