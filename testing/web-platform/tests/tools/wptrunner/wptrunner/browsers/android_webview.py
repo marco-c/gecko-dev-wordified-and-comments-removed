@@ -40,7 +40,11 @@ executors
 .
 executorchrome
 import
+(
 ChromeDriverPrintRefTestExecutor
+                                        
+ChromeDriverTestharnessExecutor
+)
 from
 .
 .
@@ -50,8 +54,6 @@ executorwebdriver
 import
 (
 WebDriverCrashtestExecutor
-                                           
-WebDriverTestharnessExecutor
                                            
 WebDriverRefTestExecutor
 )
@@ -92,7 +94,7 @@ testharness
 "
 :
 "
-WebDriverTestharnessExecutor
+ChromeDriverTestharnessExecutor
 "
                               
 "
