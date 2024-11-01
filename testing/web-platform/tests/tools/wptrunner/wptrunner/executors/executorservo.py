@@ -1432,7 +1432,9 @@ output_path
 "
 -
 -
-resolution
+window
+-
+size
 "
 viewport_size
 or
