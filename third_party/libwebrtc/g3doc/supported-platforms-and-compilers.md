@@ -24,11 +24,11 @@ mbonadei
 reviewed
 :
 '
-2021
+2024
 -
-06
+09
 -
-25
+04
 '
 }
 *
@@ -93,9 +93,6 @@ macOS
 :
 x86_64
 arm64
-(
-M1
-)
 .
 *
 Windows
