@@ -951,6 +951,12 @@ BookmarksDestinations
 .
 ADD_FOLDER
 )
+CloseClicked
+-
+>
+exitBookmarks
+(
+)
 SignIntoSyncClicked
 -
 >

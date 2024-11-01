@@ -530,6 +530,12 @@ BookmarksAction
 internal
 data
 object
+CloseClicked
+:
+BookmarksAction
+internal
+data
+object
 BackClicked
 :
 BookmarksAction

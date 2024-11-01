@@ -972,6 +972,7 @@ action
 isSignedIn
 )
 }
+CloseClicked
 OpenTabsConfirmationDialogAction
 .
 CancelTapped

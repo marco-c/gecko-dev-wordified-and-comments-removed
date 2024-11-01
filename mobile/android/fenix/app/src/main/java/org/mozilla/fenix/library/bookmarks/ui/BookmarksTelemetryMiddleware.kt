@@ -665,6 +665,7 @@ BookmarksListMenuAction
 Folder
 .
 DeleteClicked
+CloseClicked
 AddFolderClicked
 is
 BookmarkLongClicked
