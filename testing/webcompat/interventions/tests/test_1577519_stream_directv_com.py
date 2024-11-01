@@ -49,6 +49,18 @@ Denied
 '
 ]
 "
+BLOCKED_TEXT
+=
+"
+An
+error
+occurred
+while
+processing
+your
+request
+.
+"
 async
 def
 check_site
@@ -67,6 +79,7 @@ URL
 )
     
 denied
+blocked
 login
 unsupported
 =
@@ -82,6 +95,13 @@ client
 xpath
 (
 DENIED_XPATH
+)
+            
+client
+.
+text
+(
+BLOCKED_TEXT
 )
             
 client
@@ -105,6 +125,30 @@ is_displayed
 True
     
 )
+    
+if
+blocked
+:
+        
+pytest
+.
+skip
+(
+"
+Blocked
+from
+accessing
+site
+.
+Please
+try
+testing
+manually
+.
+"
+)
+        
+return
     
 if
 denied
@@ -157,6 +201,16 @@ pytest
 mark
 .
 with_interventions
+pytest
+.
+mark
+.
+skip_platforms
+(
+"
+android
+"
+)
 async
 def
 test_enabled
@@ -183,6 +237,16 @@ pytest
 mark
 .
 without_interventions
+pytest
+.
+mark
+.
+skip_platforms
+(
+"
+android
+"
+)
 async
 def
 test_disabled

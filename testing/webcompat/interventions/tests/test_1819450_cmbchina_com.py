@@ -23,12 +23,12 @@ aspnetForm
 MOBILE_CSS
 =
 "
-#
-app
 .
-mobile
+swiper
 -
-header
+container
+-
+android
 "
 pytest
 .

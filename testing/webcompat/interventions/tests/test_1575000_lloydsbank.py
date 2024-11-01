@@ -131,14 +131,11 @@ radio
 +
 span
 "
-ACCEPT_COOKIES_CSS
+COOKIES_CSS
 =
 "
 #
 lbganalyticsCookies
-button
-#
-accept
 "
 async
 def
@@ -196,24 +193,29 @@ NoSuchElementException
             
 continue
         
-accept
-=
-client
-.
-find_css
-(
-ACCEPT_COOKIES_CSS
-)
-        
-if
-accept
+try
 :
             
-accept
+client
 .
-click
+remove_element
 (
+client
+.
+await_css
+(
+COOKIES_CSS
+timeout
+=
+4
 )
+)
+        
+except
+NoSuchElementException
+:
+            
+continue
         
 client
 .

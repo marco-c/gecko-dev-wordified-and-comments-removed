@@ -1,4 +1,6 @@
 import
+time
+import
 pytest
 URL
 =
@@ -17,8 +19,8 @@ jp
 UNSUPPORTED_CSS
 =
 "
-.
-firefox_not_supported
+#
+for_firefox
 "
 DENIED_TEXT
 =
@@ -50,40 +52,24 @@ URL
 wait
 =
 "
-load
+complete
 "
 )
     
-denied
-unsupported
-=
-client
+time
 .
-await_first_element_of
+sleep
 (
-        
-[
-            
-client
-.
-text
-(
-DENIED_TEXT
-)
-            
-client
-.
-css
-(
-UNSUPPORTED_CSS
-)
-        
-]
-    
+3
 )
     
 if
-denied
+client
+.
+find_text
+(
+DENIED_TEXT
+)
 :
         
 pytest
@@ -109,6 +95,15 @@ Japan
 )
         
 return
+    
+unsupported
+=
+client
+.
+find_css
+(
+UNSUPPORTED_CSS
+)
     
 assert
 (

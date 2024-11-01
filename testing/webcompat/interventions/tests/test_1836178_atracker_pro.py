@@ -56,6 +56,9 @@ wait
 "
 load
 "
+timeout
+=
+30
 )
     
 client
