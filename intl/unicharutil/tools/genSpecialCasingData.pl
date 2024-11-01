@@ -894,10 +894,10 @@ CaseSpecials_
 which
 \
 \
-mozilla
+std
 :
 :
-ArrayLength
+size
 (
 CaseSpecials_
 #

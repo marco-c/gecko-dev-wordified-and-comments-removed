@@ -151,12 +151,6 @@ mozilla
 :
 ipc
 ;
-using
-mozilla
-:
-:
-ArrayLength
-;
 namespace
 {
 NS_DEFINE_CID

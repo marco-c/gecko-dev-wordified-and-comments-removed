@@ -517,7 +517,10 @@ parts
 ;
 count
 =
-MOZ_ARRAY_LENGTH
+std
+:
+:
+size
 (
 parts
 )
@@ -542,7 +545,10 @@ parts
 NULL
 )
 >
-MOZ_ARRAY_LENGTH
+std
+:
+:
+size
 (
 parts
 )

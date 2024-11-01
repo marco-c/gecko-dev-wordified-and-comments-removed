@@ -2489,10 +2489,10 @@ get
 (
 )
 NamedGroupPreferences
-mozilla
+std
 :
 :
-ArrayLength
+size
 (
 NamedGroupPreferences
 )

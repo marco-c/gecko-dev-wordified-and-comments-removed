@@ -2353,7 +2353,10 @@ BinarySearchIf
 (
 sRoleDescrMap
 0
-ArrayLength
+std
+:
+:
+size
 (
 sRoleDescrMap
 )

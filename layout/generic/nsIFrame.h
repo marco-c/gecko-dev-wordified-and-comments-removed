@@ -8921,10 +8921,10 @@ uint8_t
 mClass
 )
 <
-mozilla
+std
 :
 :
-ArrayLength
+size
 (
 sLayoutFrameTypes
 )
@@ -8963,10 +8963,10 @@ uint8_t
 mClass
 )
 <
-mozilla
+std
 :
 :
-ArrayLength
+size
 (
 sLayoutFrameClassFlags
 )

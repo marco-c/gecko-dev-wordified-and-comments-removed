@@ -1926,7 +1926,10 @@ static_assert
 (
 eKindMax
 <
-ArrayLength
+std
+:
+:
+size
 (
 JSONEnumKeyStrings
 )

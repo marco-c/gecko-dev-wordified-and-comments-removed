@@ -3802,7 +3802,10 @@ unsigned
 int
 >
 (
-ArrayLength
+std
+:
+:
+size
 (
 npnbuf
 )

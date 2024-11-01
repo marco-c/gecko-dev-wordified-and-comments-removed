@@ -8768,7 +8768,10 @@ obs
 size_t
 length
 =
-ArrayLength
+std
+:
+:
+size
 (
 sObserverTopics
 )
@@ -10408,7 +10411,10 @@ obs
 size_t
 length
 =
-ArrayLength
+std
+:
+:
+size
 (
 sObserverTopics
 )

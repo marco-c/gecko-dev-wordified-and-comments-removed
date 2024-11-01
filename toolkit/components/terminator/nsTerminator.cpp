@@ -667,7 +667,10 @@ for
 int
 i
 =
-ArrayLength
+std
+:
+:
+size
 (
 sShutdownSteps
 )

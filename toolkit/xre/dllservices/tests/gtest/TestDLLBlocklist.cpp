@@ -1613,10 +1613,10 @@ i
 ;
 i
 <
-mozilla
+std
 :
 :
-ArrayLength
+size
 (
 gWindowsDllBlocklist
 )

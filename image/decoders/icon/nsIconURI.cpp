@@ -1104,7 +1104,10 @@ i
 ;
 i
 <
-ArrayLength
+std
+:
+:
+size
 (
 kSizeStrings
 )
@@ -1212,7 +1215,10 @@ i
 ;
 i
 <
-ArrayLength
+std
+:
+:
+size
 (
 kStateStrings
 )
@@ -2839,7 +2845,10 @@ iconSize
 (
 int32_t
 )
-ArrayLength
+std
+:
+:
+size
 (
 kSizeStrings
 )
@@ -2879,7 +2888,10 @@ iconState
 (
 int32_t
 )
-ArrayLength
+std
+:
+:
+size
 (
 kStateStrings
 )

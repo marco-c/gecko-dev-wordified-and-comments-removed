@@ -576,7 +576,10 @@ i
 ;
 i
 <
-ArrayLength
+std
+:
+:
+size
 (
 keyboardState
 )
@@ -6308,7 +6311,10 @@ GetProcessImageFileNameW
 (
 hProcess
 path
-ArrayLength
+std
+:
+:
+size
 (
 path
 )

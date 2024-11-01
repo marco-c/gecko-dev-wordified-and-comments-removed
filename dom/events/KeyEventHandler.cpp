@@ -2275,7 +2275,10 @@ i
 ;
 i
 <
-ArrayLength
+std
+:
+:
+size
 (
 gKeyCodes
 )

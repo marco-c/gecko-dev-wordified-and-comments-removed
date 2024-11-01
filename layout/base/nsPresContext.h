@@ -2740,10 +2740,10 @@ size_t
 aBorderWidthKeyword
 )
 <
-mozilla
+std
 :
 :
-ArrayLength
+size
 (
 kBorderWidths
 )

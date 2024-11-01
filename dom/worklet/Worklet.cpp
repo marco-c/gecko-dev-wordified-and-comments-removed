@@ -282,7 +282,10 @@ InvalidBareSpecifier
 ;
 static_assert
 (
-ArrayLength
+std
+:
+:
+size
 (
 errors
 )

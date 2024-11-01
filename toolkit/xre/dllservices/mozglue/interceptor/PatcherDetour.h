@@ -4165,7 +4165,10 @@ std
 :
 min
 (
-ArrayLength
+std
+:
+:
+size
 (
 lastError
 .

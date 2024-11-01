@@ -816,7 +816,10 @@ NumberAttributesInfo
 (
 mNumberAttributes
 sNumberInfo
-ArrayLength
+std
+:
+:
+size
 (
 sNumberInfo
 )
@@ -839,7 +842,10 @@ EnumAttributesInfo
 (
 mEnumAttributes
 sEnumInfo
-ArrayLength
+std
+:
+:
+size
 (
 sEnumInfo
 )
@@ -862,7 +868,10 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-ArrayLength
+std
+:
+:
+size
 (
 sStringInfo
 )

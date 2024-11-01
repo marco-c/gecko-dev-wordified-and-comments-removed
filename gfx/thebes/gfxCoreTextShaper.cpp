@@ -195,7 +195,10 @@ CFDictionaryCreate
 kCFAllocatorDefault
 attrs
 values
-ArrayLength
+std
+:
+:
+size
 (
 attrs
 )
@@ -2707,7 +2710,10 @@ void
 *
 )
 values
-ArrayLength
+std
+:
+:
+size
 (
 keys
 )
@@ -2821,7 +2827,10 @@ void
 *
 )
 attrValues
-ArrayLength
+std
+:
+:
+size
 (
 attrKeys
 )

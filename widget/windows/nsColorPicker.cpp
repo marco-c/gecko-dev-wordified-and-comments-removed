@@ -551,10 +551,10 @@ std
 :
 min
 (
-mozilla
+std
 :
 :
-ArrayLength
+size
 (
 sCustomColors
 )

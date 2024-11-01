@@ -852,7 +852,10 @@ MOZ_RELEASE_ASSERT
 (
 aDropEffectInt
 <
-ArrayLength
+std
+:
+:
+size
 (
 sEffects
 )

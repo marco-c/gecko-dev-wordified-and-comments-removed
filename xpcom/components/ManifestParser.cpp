@@ -2439,7 +2439,10 @@ kParsingTable
 ;
 d
 <
-ArrayEnd
+std
+:
+:
+end
 (
 kParsingTable
 )

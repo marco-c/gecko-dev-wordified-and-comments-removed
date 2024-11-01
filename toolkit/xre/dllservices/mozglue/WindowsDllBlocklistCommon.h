@@ -130,10 +130,10 @@ name
 &
 list
 [
-mozilla
+std
 :
 :
-ArrayLength
+size
 (
 list
 )
@@ -164,10 +164,10 @@ const
 size_t
 name
 =
-mozilla
+std
 :
 :
-ArrayLength
+size
 (
 list
 )

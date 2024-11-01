@@ -94,10 +94,10 @@ mozilla
 :
 MakeCommandLine
 (
-mozilla
+std
 :
 :
-ArrayLength
+size
 (
 childArgv
 )

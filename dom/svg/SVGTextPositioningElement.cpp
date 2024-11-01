@@ -127,7 +127,10 @@ LengthListAttributesInfo
 (
 mLengthListAttributes
 sLengthListInfo
-ArrayLength
+std
+:
+:
+size
 (
 sLengthListInfo
 )
@@ -171,7 +174,10 @@ NumberListAttributesInfo
 (
 mNumberListAttributes
 sNumberListInfo
-ArrayLength
+std
+:
+:
+size
 (
 sNumberListInfo
 )

@@ -397,7 +397,10 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-ArrayLength
+std
+:
+:
+size
 (
 sStringInfo
 )

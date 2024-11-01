@@ -1359,7 +1359,10 @@ bsearch
 &
 aUnicode
 sVerticalForms
-ArrayLength
+std
+:
+:
+size
 (
 sVerticalForms
 )
