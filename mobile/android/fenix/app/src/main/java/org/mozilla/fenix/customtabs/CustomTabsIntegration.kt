@@ -813,7 +813,7 @@ CustomTabsToolbarButtonConfig
 showMenu
 =
 !
-isNavBarEnabled
+isNavBarVisible
 showRefreshButton
 =
 isNavBarEnabled
