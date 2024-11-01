@@ -423,12 +423,15 @@ GetQuarantinedDomainsEnabled
 )
 const
 ;
-nsresult
+void
 InjectContentScripts
 (
 WebExtensionPolicy
 *
 aExtension
+ErrorResult
+&
+aRv
 )
 ;
 protected
@@ -505,7 +508,7 @@ WebExtensionContentScript
 aScript
 )
 ;
-RefPtr
+already_AddRefed
 <
 dom
 :
