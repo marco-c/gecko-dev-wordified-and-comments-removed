@@ -2110,6 +2110,8 @@ prepareForForOfLoopIteration
 BytecodeEmitter
 *
 bce
+bool
+hasAwaitUsing
 )
 {
 if
@@ -2124,12 +2126,7 @@ forOfDisposalEmitter_
 emplace
 (
 bce
-usingEmitter_
--
->
 hasAwaitUsing
-(
-)
 )
 ;
 return
