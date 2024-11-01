@@ -96,12 +96,6 @@ griego
 antiguo
 "
 }
-lo
-{
-"
-lao
-"
-}
 nso
 {
 "

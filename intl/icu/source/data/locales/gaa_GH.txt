@@ -52,6 +52,6 @@ icu
 data
 .
 xml
-kok_IN
+gaa_GH
 {
 }

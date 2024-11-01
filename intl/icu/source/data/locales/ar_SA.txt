@@ -86,6 +86,12 @@ default
 arab
 "
 }
+default_latn
+{
+"
+latn
+"
+}
 latn
 {
 symbols
@@ -100,14 +106,6 @@ percentSign
 }
 calendar
 {
-default
-{
-"
-islamic
--
-umalqura
-"
-}
 gregorian
 {
 dayPeriod

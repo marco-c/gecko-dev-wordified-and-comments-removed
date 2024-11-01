@@ -87,6 +87,12 @@ default
 latn
 "
 }
+default_latn
+{
+"
+latn
+"
+}
 latn
 {
 symbols
