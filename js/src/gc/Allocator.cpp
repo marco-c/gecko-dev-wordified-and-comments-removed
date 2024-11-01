@@ -2922,6 +2922,16 @@ getOrAllocChunk
 lock
 )
 ;
+if
+(
+!
+chunk
+)
+{
+return
+nullptr
+;
+}
 emptyChunks
 (
 lock
