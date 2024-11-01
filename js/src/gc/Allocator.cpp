@@ -1859,6 +1859,10 @@ ShouldCheckThresholds
 :
 :
 CheckThresholds
+StallAndRetry
+:
+:
+No
 )
 ;
 }
@@ -1924,6 +1928,10 @@ ShouldCheckThresholds
 :
 :
 DontCheckThresholds
+StallAndRetry
+:
+:
+Yes
 )
 ;
 }
@@ -1938,6 +1946,8 @@ AllocKind
 thingKind
 ShouldCheckThresholds
 checkThresholds
+StallAndRetry
+stallAndRetry
 )
 {
 MOZ_ASSERT
@@ -2060,6 +2070,7 @@ gc
 .
 pickChunk
 (
+stallAndRetry
 maybeLock
 .
 ref
@@ -2908,6 +2919,8 @@ GCRuntime
 :
 takeOrAllocChunk
 (
+StallAndRetry
+stallAndRetry
 AutoLockGCBgAlloc
 &
 lock
@@ -2919,6 +2932,7 @@ chunk
 =
 getOrAllocChunk
 (
+stallAndRetry
 lock
 )
 ;
@@ -2953,6 +2967,8 @@ GCRuntime
 :
 getOrAllocChunk
 (
+StallAndRetry
+stallAndRetry
 AutoLockGCBgAlloc
 &
 lock
@@ -3030,6 +3046,7 @@ ArenaChunk
 allocate
 (
 this
+stallAndRetry
 )
 ;
 if
@@ -3163,6 +3180,8 @@ GCRuntime
 :
 pickChunk
 (
+StallAndRetry
+stallAndRetry
 AutoLockGCBgAlloc
 &
 lock
@@ -3197,6 +3216,7 @@ chunk
 =
 getOrAllocChunk
 (
+stallAndRetry
 lock
 )
 ;
@@ -3354,6 +3374,10 @@ ArenaChunk
 allocate
 (
 gc
+StallAndRetry
+:
+:
+No
 )
 ;
 if
@@ -3401,6 +3425,8 @@ allocate
 GCRuntime
 *
 gc
+StallAndRetry
+stallAndRetry
 )
 {
 void
@@ -3411,6 +3437,7 @@ MapAlignedPages
 (
 ChunkSize
 ChunkSize
+stallAndRetry
 )
 ;
 if

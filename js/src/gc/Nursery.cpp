@@ -11476,6 +11476,10 @@ gc
 >
 takeOrAllocChunk
 (
+StallAndRetry
+:
+:
+No
 lock
 )
 ;
@@ -11509,6 +11513,10 @@ gc
 >
 takeOrAllocChunk
 (
+StallAndRetry
+:
+:
+No
 lock
 )
 )
