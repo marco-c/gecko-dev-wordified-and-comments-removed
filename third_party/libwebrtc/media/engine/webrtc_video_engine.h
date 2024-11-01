@@ -34,6 +34,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 set
 >
 #
@@ -70,17 +75,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -922,7 +916,7 @@ flexfec_payload_type
 int
 rtx_payload_type
 ;
-absl
+std
 :
 :
 optional
@@ -1137,7 +1131,7 @@ ssrc
 const
 override
 ;
-absl
+std
 :
 :
 optional
@@ -1561,7 +1555,7 @@ codec
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1589,7 +1583,7 @@ send_codec
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1609,7 +1603,7 @@ private
 struct
 ChangedSenderParameters
 {
-absl
+std
 :
 :
 optional
@@ -1618,7 +1612,7 @@ VideoCodecSettings
 >
 send_codec
 ;
-absl
+std
 :
 :
 optional
@@ -1633,7 +1627,7 @@ VideoCodecSettings
 >
 negotiated_codecs
 ;
-absl
+std
 :
 :
 optional
@@ -1651,7 +1645,7 @@ RtpExtension
 >
 rtp_header_extensions
 ;
-absl
+std
 :
 :
 optional
@@ -1663,7 +1657,7 @@ string
 >
 mid
 ;
-absl
+std
 :
 :
 optional
@@ -1672,7 +1666,7 @@ bool
 >
 extmap_allow_mixed
 ;
-absl
+std
 :
 :
 optional
@@ -1681,7 +1675,7 @@ int
 >
 max_bandwidth_bps
 ;
-absl
+std
 :
 :
 optional
@@ -1690,7 +1684,7 @@ bool
 >
 conference_mode
 ;
-absl
+std
 :
 :
 optional
@@ -1827,7 +1821,7 @@ enable_cpu_overuse_detection
 int
 max_bitrate_bps
 const
-absl
+std
 :
 :
 optional
@@ -1837,7 +1831,7 @@ VideoCodecSettings
 &
 codec_settings
 const
-absl
+std
 :
 :
 optional
@@ -2069,7 +2063,7 @@ options
 int
 max_bitrate_bps
 const
-absl
+std
 :
 :
 optional
@@ -2098,7 +2092,7 @@ max_bitrate_bps
 bool
 conference_mode
 ;
-absl
+std
 :
 :
 optional
@@ -2400,7 +2394,7 @@ RTC_EXCLUSIVE_LOCKS_REQUIRED
 thread_checker_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -2417,7 +2411,7 @@ send_codec_
 ;
 }
 const
-absl
+std
 :
 :
 optional
@@ -2571,7 +2565,7 @@ thread_checker_
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -2610,7 +2604,7 @@ RTC_GUARDED_BY
 thread_checker_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -3043,7 +3037,7 @@ ResetUnsignaledRecvStream
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -3138,7 +3132,7 @@ delay_ms
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -3277,7 +3271,7 @@ webrtc
 :
 RtcpMode
 rtcp_mode
-absl
+std
 :
 :
 optional
@@ -3296,7 +3290,7 @@ WebRtcVideoReceiveStream
 struct
 ChangedReceiverParameters
 {
-absl
+std
 :
 :
 optional
@@ -3311,7 +3305,7 @@ VideoCodecSettings
 >
 codec_settings
 ;
-absl
+std
 :
 :
 optional
@@ -3329,7 +3323,7 @@ RtpExtension
 >
 rtp_header_extensions
 ;
-absl
+std
 :
 :
 optional
@@ -3387,7 +3381,7 @@ ReCreateDefaultReceiveStream
 (
 uint32_t
 ssrc
-absl
+std
 :
 :
 optional
@@ -3611,7 +3605,7 @@ webrtc
 :
 RtcpMode
 rtcp_mode
-absl
+std
 :
 :
 optional
@@ -4097,7 +4091,7 @@ thread_checker_
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -4136,7 +4130,7 @@ RTC_GUARDED_BY
 thread_checker_
 )
 ;
-absl
+std
 :
 :
 optional

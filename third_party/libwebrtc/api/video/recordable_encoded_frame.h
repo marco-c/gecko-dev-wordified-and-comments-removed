@@ -6,15 +6,9 @@ define
 API_VIDEO_RECORDABLE_ENCODED_FRAME_H_
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -135,7 +129,7 @@ const
 0
 ;
 virtual
-absl
+std
 :
 :
 optional

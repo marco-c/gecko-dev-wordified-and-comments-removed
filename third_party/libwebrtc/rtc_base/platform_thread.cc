@@ -527,7 +527,7 @@ rhs
 .
 handle_
 =
-absl
+std
 :
 :
 nullopt
@@ -567,7 +567,7 @@ rhs
 .
 handle_
 =
-absl
+std
 :
 :
 nullopt
@@ -672,7 +672,7 @@ false
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -807,7 +807,7 @@ nullptr
 endif
 handle_
 =
-absl
+std
 :
 :
 nullopt

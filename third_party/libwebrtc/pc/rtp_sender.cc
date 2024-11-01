@@ -1257,7 +1257,7 @@ CheckRtpParametersInvalidModificationAndValues
 init_parameters_
 parameters
 send_codecs_
-absl
+std
 :
 :
 nullopt
@@ -1527,7 +1527,7 @@ CheckRtpParametersInvalidModificationAndValues
 init_parameters_
 parameters
 send_codecs_
-absl
+std
 :
 :
 nullopt
@@ -1745,7 +1745,7 @@ RtpParameters
 parameters
 )
 {
-absl
+std
 :
 :
 optional
@@ -1764,7 +1764,7 @@ GetSendCodec
 (
 )
 ;
-absl
+std
 :
 :
 optional
@@ -2673,7 +2673,7 @@ init_parameters_
 .
 degradation_preference
 =
-absl
+std
 :
 :
 nullopt
@@ -3199,7 +3199,7 @@ size_t
 number_of_channels
 size_t
 number_of_frames
-absl
+std
 :
 :
 optional

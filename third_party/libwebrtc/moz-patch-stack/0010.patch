@@ -132,10 +132,10 @@ audio_encoder_opus
 .
 cc
 index
-7eb8bbd163
+b2e44c7a19
 .
 .
-b51e172ca8
+df2427c7a6
 100644
 -
 -
@@ -181,7 +181,7 @@ AudioEncoderOpusImpl
 :
 QueryAudioEncoder
 (
-absl
+std
 :
 :
 optional
@@ -243,7 +243,7 @@ kRtpTimestampRateHz
 )
 {
 return
-absl
+std
 :
 :
 nullopt

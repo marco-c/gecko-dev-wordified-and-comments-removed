@@ -22,19 +22,13 @@ cstdint
 #
 include
 <
-utility
+optional
 >
 #
 include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
+<
+utility
+>
 #
 include
 "
@@ -1022,7 +1016,7 @@ Builder
 set_capture_time_identifier
 (
 const
-absl
+std
 :
 :
 optional
@@ -1056,7 +1050,7 @@ Builder
 set_reference_time
 (
 const
-absl
+std
 :
 :
 optional
@@ -1194,7 +1188,7 @@ Builder
 set_color_space
 (
 const
-absl
+std
 :
 :
 optional
@@ -1237,7 +1231,7 @@ color_space_
 =
 color_space
 ?
-absl
+std
 :
 :
 make_optional
@@ -1246,7 +1240,7 @@ make_optional
 color_space
 )
 :
-absl
+std
 :
 :
 nullopt
@@ -1296,7 +1290,7 @@ Builder
 set_update_rect
 (
 const
-absl
+std
 :
 :
 optional
@@ -1472,7 +1466,7 @@ buffer
 int64_t
 timestamp_us
 const
-absl
+std
 :
 :
 optional
@@ -1482,7 +1476,7 @@ Timestamp
 &
 capture_time_identifier
 const
-absl
+std
 :
 :
 optional
@@ -1498,7 +1492,7 @@ ntp_time_ms
 VideoRotation
 rotation
 const
-absl
+std
 :
 :
 optional
@@ -1512,7 +1506,7 @@ RenderParameters
 &
 render_parameters
 const
-absl
+std
 :
 :
 optional

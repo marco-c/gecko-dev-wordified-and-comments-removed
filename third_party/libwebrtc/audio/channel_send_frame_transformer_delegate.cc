@@ -175,7 +175,7 @@ uint8_t
 payload_data
 size_t
 payload_size
-absl
+std
 :
 :
 optional
@@ -200,7 +200,7 @@ std
 string
 &
 codec_mime_type
-absl
+std
 :
 :
 optional
@@ -208,7 +208,7 @@ optional
 uint16_t
 >
 sequence_number
-absl
+std
 :
 :
 optional
@@ -425,7 +425,7 @@ csrcs_
 ;
 }
 const
-absl
+std
 :
 :
 optional
@@ -455,7 +455,7 @@ rtp_timestamp_with_offset_
 rtp_timestamp_with_offset
 ;
 }
-absl
+std
 :
 :
 optional
@@ -472,7 +472,7 @@ return
 absolute_capture_timestamp_ms_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -489,7 +489,7 @@ return
 audio_level_dbov_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -503,7 +503,7 @@ const
 override
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -526,7 +526,7 @@ rtc
 Buffer
 payload_
 ;
-absl
+std
 :
 :
 optional
@@ -553,7 +553,7 @@ std
 string
 codec_mime_type_
 ;
-absl
+std
 :
 :
 optional
@@ -562,7 +562,7 @@ uint16_t
 >
 sequence_number_
 ;
-absl
+std
 :
 :
 optional
@@ -701,7 +701,7 @@ std
 string
 &
 codec_mimetype
-absl
+std
 :
 :
 optional
@@ -781,7 +781,7 @@ uint32_t
 (
 )
 codec_mimetype
-absl
+std
 :
 :
 nullopt

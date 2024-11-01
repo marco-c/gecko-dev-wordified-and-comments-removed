@@ -25,7 +25,7 @@ namespace
 webrtc
 {
 using
-absl
+std
 :
 :
 nullopt
@@ -73,7 +73,7 @@ UpdateConfigMatches
 (
 BitrateConstraints
 bitrate_config
-absl
+std
 :
 :
 optional
@@ -81,7 +81,7 @@ optional
 int
 >
 min_bitrate_bps
-absl
+std
 :
 :
 optional
@@ -89,7 +89,7 @@ optional
 int
 >
 start_bitrate_bps
-absl
+std
 :
 :
 optional
@@ -99,7 +99,7 @@ int
 max_bitrate_bps
 )
 {
-absl
+std
 :
 :
 optional
@@ -182,7 +182,7 @@ UpdateMaskMatches
 (
 BitrateSettings
 bitrate_mask
-absl
+std
 :
 :
 optional
@@ -190,7 +190,7 @@ optional
 int
 >
 min_bitrate_bps
-absl
+std
 :
 :
 optional
@@ -198,7 +198,7 @@ optional
 int
 >
 start_bitrate_bps
-absl
+std
 :
 :
 optional
@@ -208,7 +208,7 @@ int
 max_bitrate_bps
 )
 {
-absl
+std
 :
 :
 optional

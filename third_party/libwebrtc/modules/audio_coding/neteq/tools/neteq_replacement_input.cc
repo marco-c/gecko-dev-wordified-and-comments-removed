@@ -122,7 +122,7 @@ ReplacePacket
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -140,7 +140,7 @@ const
 return
 packet_
 ?
-absl
+std
 :
 :
 optional
@@ -160,13 +160,13 @@ time_ms
 )
 )
 :
-absl
+std
 :
 :
 nullopt
 ;
 }
-absl
+std
 :
 :
 optional
@@ -190,7 +190,7 @@ NextOutputEventTime
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -353,7 +353,7 @@ ended
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -494,7 +494,7 @@ cng_payload
 return
 ;
 }
-absl
+std
 :
 :
 optional

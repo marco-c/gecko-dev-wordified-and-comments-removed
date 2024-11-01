@@ -6,19 +6,13 @@ memory
 #
 include
 <
-utility
+optional
 >
 #
 include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
+<
+utility
+>
 #
 include
 "
@@ -946,7 +940,7 @@ result
 dependency_structure
 Ne
 (
-absl
+std
 :
 :
 nullopt
@@ -1056,7 +1050,7 @@ result
 dependency_structure
 Eq
 (
-absl
+std
 :
 :
 nullopt
@@ -1301,7 +1295,7 @@ result
 dependency_structure
 Ne
 (
-absl
+std
 :
 :
 nullopt
@@ -1373,7 +1367,7 @@ result
 dependency_structure
 Eq
 (
-absl
+std
 :
 :
 nullopt
@@ -1483,7 +1477,7 @@ result
 dependency_structure
 Eq
 (
-absl
+std
 :
 :
 nullopt
@@ -1555,7 +1549,7 @@ result
 dependency_structure
 Eq
 (
-absl
+std
 :
 :
 nullopt

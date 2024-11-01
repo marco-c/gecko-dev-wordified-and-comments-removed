@@ -690,7 +690,7 @@ ClearCookieEchoChunk
 {
 cookie_echo_chunk_
 =
-absl
+std
 :
 :
 nullopt
@@ -924,7 +924,7 @@ stream_reset_handler_
 HeartbeatHandler
 heartbeat_handler_
 ;
-absl
+std
 :
 :
 optional
@@ -933,7 +933,7 @@ CookieEchoChunk
 >
 cookie_echo_chunk_
 =
-absl
+std
 :
 :
 nullopt

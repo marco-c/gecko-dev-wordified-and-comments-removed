@@ -252,7 +252,7 @@ audio_buffer
 void
 Process
 (
-absl
+std
 :
 :
 optional
@@ -293,7 +293,7 @@ return
 cpu_features_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -391,7 +391,7 @@ limiter_
 int
 calls_since_last_limiter_log_
 ;
-absl
+std
 :
 :
 optional

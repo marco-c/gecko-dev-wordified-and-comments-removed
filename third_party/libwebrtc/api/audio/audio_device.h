@@ -6,15 +6,9 @@ define
 API_AUDIO_AUDIO_DEVICE_H_
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -809,7 +803,7 @@ return
 ;
 }
 virtual
-absl
+std
 :
 :
 optional
@@ -822,7 +816,7 @@ GetStats
 const
 {
 return
-absl
+std
 :
 :
 nullopt

@@ -404,7 +404,7 @@ return
 last_sent_packet_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -424,7 +424,7 @@ network_route_
 void
 SetNetworkRoute
 (
-absl
+std
 :
 :
 optional
@@ -640,7 +640,7 @@ error_
 =
 0
 ;
-absl
+std
 :
 :
 optional

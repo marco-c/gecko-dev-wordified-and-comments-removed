@@ -186,7 +186,7 @@ Audio
 Allocation
 "
 ;
-absl
+std
 :
 :
 optional
@@ -195,7 +195,7 @@ DataRate
 >
 min_bitrate
 ;
-absl
+std
 :
 :
 optional
@@ -214,7 +214,7 @@ Zero
 (
 )
 ;
-absl
+std
 :
 :
 optional
@@ -223,7 +223,7 @@ DataRate
 >
 priority_bitrate_raw
 ;
-absl
+std
 :
 :
 optional
@@ -316,7 +316,7 @@ RtcpRttStats
 *
 rtcp_rtt_stats
 const
-absl
+std
 :
 :
 optional
@@ -363,7 +363,7 @@ BitrateAllocatorInterface
 *
 bitrate_allocator
 const
-absl
+std
 :
 :
 optional
@@ -546,7 +546,7 @@ update
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -738,7 +738,7 @@ RTC_RUN_ON
 worker_thread_checker_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -912,7 +912,7 @@ RtpRtcpInterface
 const
 rtp_rtcp_module_
 ;
-absl
+std
 :
 :
 optional
@@ -1015,7 +1015,7 @@ worker_thread_checker_
 =
 false
 ;
-absl
+std
 :
 :
 optional
@@ -1035,7 +1035,7 @@ RTC_GUARDED_BY
 worker_thread_checker_
 )
 ;
-absl
+std
 :
 :
 optional

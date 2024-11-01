@@ -26,15 +26,9 @@ cstdint
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -145,7 +139,7 @@ index
 sample
 ;
 }
-absl
+std
 :
 :
 optional
@@ -168,7 +162,7 @@ count_
 0
 )
 return
-absl
+std
 :
 :
 nullopt
@@ -181,7 +175,7 @@ Size
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -204,7 +198,7 @@ count_
 0
 )
 return
-absl
+std
 :
 :
 nullopt
@@ -225,7 +219,7 @@ Size
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -248,7 +242,7 @@ count_
 0
 )
 return
-absl
+std
 :
 :
 nullopt

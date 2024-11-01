@@ -19,19 +19,13 @@ cstdint
 #
 include
 <
-vector
+optional
 >
 #
 include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
+<
+vector
+>
 #
 include
 "
@@ -296,7 +290,7 @@ packet
 VideoRtpDepacketizerH264
 depacketizer
 ;
-absl
+std
 :
 :
 optional
@@ -452,7 +446,7 @@ packet
 VideoRtpDepacketizerH264
 depacketizer
 ;
-absl
+std
 :
 :
 optional
@@ -703,7 +697,7 @@ packet
 VideoRtpDepacketizerH264
 depacketizer
 ;
-absl
+std
 :
 :
 optional
@@ -885,7 +879,7 @@ packet
 VideoRtpDepacketizerH264
 depacketizer
 ;
-absl
+std
 :
 :
 optional
@@ -1748,7 +1742,7 @@ packet
 VideoRtpDepacketizerH264
 depacketizer
 ;
-absl
+std
 :
 :
 optional
@@ -1974,7 +1968,7 @@ kExpected3
 VideoRtpDepacketizerH264
 depacketizer
 ;
-absl
+std
 :
 :
 optional
@@ -3224,7 +3218,7 @@ kPayload
 VideoRtpDepacketizerH264
 depacketizer
 ;
-absl
+std
 :
 :
 optional
@@ -3347,7 +3341,7 @@ kPayload
 VideoRtpDepacketizerH264
 depacketizer
 ;
-absl
+std
 :
 :
 optional

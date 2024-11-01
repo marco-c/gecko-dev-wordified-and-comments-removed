@@ -20,15 +20,9 @@ h
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -243,7 +237,7 @@ insertStartCode
 RTPVideoHeader
 video_header
 ;
-absl
+std
 :
 :
 optional

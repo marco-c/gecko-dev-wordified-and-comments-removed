@@ -24,6 +24,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 vector
 >
 #
@@ -45,17 +50,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -532,7 +526,7 @@ frame_number
 FrameDependencyTemplate
 frame_dependencies
 ;
-absl
+std
 :
 :
 optional
@@ -541,7 +535,7 @@ RenderResolution
 >
 resolution
 ;
-absl
+std
 :
 :
 optional

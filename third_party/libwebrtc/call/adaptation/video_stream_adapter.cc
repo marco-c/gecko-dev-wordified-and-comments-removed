@@ -22,19 +22,13 @@ limits
 #
 include
 <
-utility
+optional
 >
 #
 include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
+<
+utility
+>
 #
 include
 "
@@ -662,7 +656,7 @@ source_restrictions
 .
 set_max_frame_rate
 (
-absl
+std
 :
 :
 nullopt
@@ -680,7 +674,7 @@ source_restrictions
 .
 set_max_pixels_per_frame
 (
-absl
+std
 :
 :
 nullopt
@@ -690,7 +684,7 @@ source_restrictions
 .
 set_target_pixels_per_frame
 (
-absl
+std
 :
 :
 nullopt
@@ -708,7 +702,7 @@ source_restrictions
 .
 set_max_pixels_per_frame
 (
-absl
+std
 :
 :
 nullopt
@@ -718,7 +712,7 @@ source_restrictions
 .
 set_target_pixels_per_frame
 (
-absl
+std
 :
 :
 nullopt
@@ -728,7 +722,7 @@ source_restrictions
 .
 set_max_frame_rate
 (
-absl
+std
 :
 :
 nullopt
@@ -1113,7 +1107,7 @@ DISABLED
 )
 awaiting_frame_size_change_
 (
-absl
+std
 :
 :
 nullopt
@@ -1259,7 +1253,7 @@ VideoAdaptationCounters
 ;
 awaiting_frame_size_change_
 =
-absl
+std
 :
 :
 nullopt
@@ -2199,7 +2193,7 @@ value
 )
 )
 ;
-absl
+std
 :
 :
 optional
@@ -2600,7 +2594,7 @@ max
 (
 )
 ?
-absl
+std
 :
 :
 optional
@@ -2611,7 +2605,7 @@ size_t
 target_pixels
 )
 :
-absl
+std
 :
 :
 nullopt
@@ -2623,7 +2617,7 @@ restrictions
 .
 set_target_pixels_per_frame
 (
-absl
+std
 :
 :
 nullopt
@@ -2830,7 +2824,7 @@ max
 (
 )
 ?
-absl
+std
 :
 :
 optional
@@ -2841,7 +2835,7 @@ double
 max_frame_rate
 )
 :
-absl
+std
 :
 :
 nullopt
@@ -3017,7 +3011,7 @@ max
 (
 )
 ?
-absl
+std
 :
 :
 optional
@@ -3028,7 +3022,7 @@ size_t
 max_pixels_wanted
 )
 :
-absl
+std
 :
 :
 nullopt
@@ -3056,7 +3050,7 @@ max
 (
 )
 ?
-absl
+std
 :
 :
 optional
@@ -3067,7 +3061,7 @@ size_t
 target_pixels
 )
 :
-absl
+std
 :
 :
 nullopt
@@ -3394,7 +3388,7 @@ max
 (
 )
 ?
-absl
+std
 :
 :
 optional
@@ -3405,7 +3399,7 @@ double
 max_frame_rate
 )
 :
-absl
+std
 :
 :
 nullopt
@@ -3773,7 +3767,7 @@ else
 {
 awaiting_frame_size_change_
 =
-absl
+std
 :
 :
 nullopt
@@ -3999,7 +3993,7 @@ frame_size_pixels
 )
 {
 }
-absl
+std
 :
 :
 optional
@@ -4022,7 +4016,7 @@ num_active
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -4261,7 +4255,7 @@ num_active
 1
 )
 ?
-absl
+std
 :
 :
 nullopt

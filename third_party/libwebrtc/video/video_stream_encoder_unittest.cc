@@ -2005,7 +2005,7 @@ VideoSinkWants
 target_pixel_count
 Eq
 (
-absl
+std
 :
 :
 nullopt
@@ -3389,7 +3389,7 @@ return
 last_wants_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -3405,7 +3405,7 @@ return
 last_width_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -3702,14 +3702,14 @@ else
 {
 last_width_
 =
-absl
+std
 :
 :
 nullopt
 ;
 last_height_
 =
-absl
+std
 :
 :
 nullopt
@@ -3776,7 +3776,7 @@ int
 height
 )
 {
-absl
+std
 :
 :
 optional
@@ -3801,7 +3801,7 @@ width
 height
 )
 ;
-absl
+std
 :
 :
 optional
@@ -3814,7 +3814,7 @@ width
 *
 height
 ;
-absl
+std
 :
 :
 optional
@@ -3973,7 +3973,7 @@ RTC_GUARDED_BY
 mutex_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -3982,7 +3982,7 @@ int
 >
 last_width_
 ;
-absl
+std
 :
 :
 optional
@@ -4210,7 +4210,7 @@ mutable
 Mutex
 lock_
 ;
-absl
+std
 :
 :
 optional
@@ -4831,7 +4831,7 @@ MOCK_METHOD
 void
 SetZeroHertzModeEnabled
 (
-absl
+std
 :
 :
 optional
@@ -4860,7 +4860,7 @@ override
 ;
 MOCK_METHOD
 (
-absl
+std
 :
 :
 optional
@@ -4910,7 +4910,7 @@ MOCK_METHOD
 void
 UpdateVideoSourceRestrictions
 (
-absl
+std
 :
 :
 optional
@@ -4964,7 +4964,7 @@ override
 ;
 MOCK_METHOD
 (
-absl
+std
 :
 :
 optional
@@ -4985,7 +4985,7 @@ override
 ;
 MOCK_METHOD
 (
-absl
+std
 :
 :
 optional
@@ -5006,7 +5006,7 @@ override
 ;
 MOCK_METHOD
 (
-absl
+std
 :
 :
 optional
@@ -5518,7 +5518,7 @@ char
 num_spatial_layers
 bool
 screenshare
-absl
+std
 :
 :
 optional
@@ -6985,7 +6985,7 @@ expect_null_frame_
 true
 ;
 }
-absl
+std
 :
 :
 optional
@@ -7048,7 +7048,7 @@ return
 last_input_height_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -7128,7 +7128,7 @@ pixel_formats
 void
 SetIsQpTrusted
 (
-absl
+std
 :
 :
 optional
@@ -7814,7 +7814,7 @@ RTC_GUARDED_BY
 local_mutex_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -7859,7 +7859,7 @@ local_mutex_
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -7940,7 +7940,7 @@ local_mutex_
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -7973,7 +7973,7 @@ RTC_GUARDED_BY
 local_mutex_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -12985,7 +12985,7 @@ kMaxPayloadLength
 )
 ;
 const
-absl
+std
 :
 :
 optional
@@ -13096,7 +13096,7 @@ maxBitrate
 )
 ;
 const
-absl
+std
 :
 :
 optional
@@ -13282,7 +13282,7 @@ maxBitrate
 )
 ;
 const
-absl
+std
 :
 :
 optional
@@ -35949,7 +35949,7 @@ kMaxPayloadLength
 )
 ;
 const
-absl
+std
 :
 :
 optional
@@ -36141,7 +36141,7 @@ maxBitrate
 )
 ;
 const
-absl
+std
 :
 :
 optional
@@ -36512,7 +36512,7 @@ kMaxPayloadLength
 )
 ;
 const
-absl
+std
 :
 :
 optional
@@ -36698,7 +36698,7 @@ false
 )
 ;
 const
-absl
+std
 :
 :
 optional
@@ -46488,7 +46488,7 @@ WillOnce
 (
 Return
 (
-absl
+std
 :
 :
 nullopt
@@ -50207,7 +50207,7 @@ SetIsQpTrusted
 false
 )
 ;
-absl
+std
 :
 :
 optional
@@ -50420,7 +50420,7 @@ SetIsQpTrusted
 false
 )
 ;
-absl
+std
 :
 :
 optional
@@ -54050,7 +54050,7 @@ stream
 .
 scalability_mode
 =
-absl
+std
 :
 :
 nullopt
@@ -54937,7 +54937,7 @@ SetZeroHertzModeEnabled
 (
 Eq
 (
-absl
+std
 :
 :
 nullopt
@@ -56779,7 +56779,7 @@ UpdateVideoSourceRestrictions
 (
 Eq
 (
-absl
+std
 :
 :
 nullopt
@@ -56855,7 +56855,7 @@ UpdateVideoSourceRestrictions
 (
 Eq
 (
-absl
+std
 :
 :
 nullopt

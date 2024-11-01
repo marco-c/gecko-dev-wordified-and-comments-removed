@@ -14,6 +14,11 @@ h
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -21,17 +26,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -159,7 +153,7 @@ scale_resolution_down_by
 int
 max_qp
 ;
-absl
+std
 :
 :
 optional
@@ -168,7 +162,7 @@ size_t
 >
 num_temporal_layers
 ;
-absl
+std
 :
 :
 optional
@@ -177,7 +171,7 @@ double
 >
 bitrate_priority
 ;
-absl
+std
 :
 :
 optional
@@ -189,7 +183,7 @@ scalability_mode
 bool
 active
 ;
-absl
+std
 :
 :
 optional

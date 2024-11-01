@@ -265,7 +265,7 @@ virtual
 void
 SetZeroHertzModeEnabled
 (
-absl
+std
 :
 :
 optional
@@ -278,7 +278,7 @@ params
 0
 ;
 virtual
-absl
+std
 :
 :
 optional
@@ -319,7 +319,7 @@ virtual
 void
 UpdateVideoSourceRestrictions
 (
-absl
+std
 :
 :
 optional

@@ -13,15 +13,9 @@ h
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 namespace
 rtc
 {
@@ -46,7 +40,7 @@ int
 sample
 )
 ;
-absl
+std
 :
 :
 optional
@@ -60,7 +54,7 @@ min_required_samples
 )
 const
 ;
-absl
+std
 :
 :
 optional
@@ -72,7 +66,7 @@ Max
 )
 const
 ;
-absl
+std
 :
 :
 optional
@@ -84,7 +78,7 @@ Min
 )
 const
 ;
-absl
+std
 :
 :
 optional
@@ -130,7 +124,7 @@ num_samples_
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -139,7 +133,7 @@ int
 >
 max_
 ;
-absl
+std
 :
 :
 optional
@@ -174,7 +168,7 @@ int
 sample
 )
 ;
-absl
+std
 :
 :
 optional

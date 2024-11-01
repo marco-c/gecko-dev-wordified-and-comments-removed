@@ -929,7 +929,7 @@ rtc
 Buffer
 buffer_
 ;
-absl
+std
 :
 :
 optional
@@ -1123,7 +1123,7 @@ NaluType
 kIdr
 )
 {
-absl
+std
 :
 :
 optional

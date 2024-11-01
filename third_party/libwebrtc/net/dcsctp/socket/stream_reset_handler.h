@@ -17,6 +17,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -48,17 +53,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -436,7 +430,7 @@ StreamID
 outgoing_streams
 )
 ;
-absl
+std
 :
 :
 optional
@@ -499,7 +493,7 @@ streams
 :
 req_seq_nbr_
 (
-absl
+std
 :
 :
 nullopt
@@ -587,7 +581,7 @@ PrepareRetransmission
 {
 req_seq_nbr_
 =
-absl
+std
 :
 :
 nullopt
@@ -607,7 +601,7 @@ new_req_seq_nbr
 }
 private
 :
-absl
+std
 :
 :
 optional
@@ -640,7 +634,7 @@ ReConfigChunk
 chunk
 )
 ;
-absl
+std
 :
 :
 optional
@@ -777,7 +771,7 @@ reconfig_timer_
 ReconfigRequestSN
 next_outgoing_req_seq_nbr_
 ;
-absl
+std
 :
 :
 optional

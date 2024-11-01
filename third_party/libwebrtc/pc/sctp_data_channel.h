@@ -19,6 +19,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 set
 >
 #
@@ -26,17 +31,6 @@ include
 <
 string
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -346,7 +340,7 @@ const
 OpenHandshakeRole
 open_handshake_role
 ;
-absl
+std
 :
 :
 optional
@@ -371,7 +365,7 @@ SctpSidAllocator
 =
 default
 ;
-absl
+std
 :
 :
 optional
@@ -560,7 +554,7 @@ maxRetransmits
 const
 override
 ;
-absl
+std
 :
 :
 optional
@@ -573,7 +567,7 @@ maxPacketLifeTime
 const
 override
 ;
-absl
+std
 :
 :
 optional
@@ -791,7 +785,7 @@ return
 internal_id_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -995,7 +989,7 @@ Thread
 const
 network_thread_
 ;
-absl
+std
 :
 :
 optional
@@ -1008,7 +1002,7 @@ RTC_GUARDED_BY
 network_thread_
 )
 =
-absl
+std
 :
 :
 nullopt
@@ -1032,7 +1026,7 @@ string
 protocol_
 ;
 const
-absl
+std
 :
 :
 optional
@@ -1042,7 +1036,7 @@ int
 max_retransmit_time_
 ;
 const
-absl
+std
 :
 :
 optional
@@ -1052,7 +1046,7 @@ int
 max_retransmits_
 ;
 const
-absl
+std
 :
 :
 optional

@@ -18,15 +18,9 @@ bitset
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -113,7 +107,7 @@ int
 chain_diffs
 )
 ;
-absl
+std
 :
 :
 optional
@@ -134,7 +128,7 @@ none
 )
 )
 return
-absl
+std
 :
 :
 nullopt

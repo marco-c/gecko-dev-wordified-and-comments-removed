@@ -763,7 +763,7 @@ true
 ;
 if
 (
-absl
+std
 :
 :
 optional
@@ -890,7 +890,7 @@ VideoFrameType
 kVideoFrameKey
 )
 {
-absl
+std
 :
 :
 optional
@@ -1841,7 +1841,7 @@ decode_complete_callback_
 Decoded
 (
 decoded_image
-absl
+std
 :
 :
 nullopt

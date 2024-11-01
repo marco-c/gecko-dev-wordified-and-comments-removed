@@ -49,7 +49,7 @@ TransceiverStableState
 :
 SetMSectionIfUnset
 (
-absl
+std
 :
 :
 optional
@@ -60,7 +60,7 @@ std
 string
 >
 mid
-absl
+std
 :
 :
 optional

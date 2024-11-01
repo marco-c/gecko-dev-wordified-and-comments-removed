@@ -163,7 +163,7 @@ instead
 ;
 \
 return
-absl
+std
 :
 :
 nullopt
@@ -346,7 +346,7 @@ a
 ;
 \
 return
-absl
+std
 :
 :
 nullopt
@@ -364,7 +364,7 @@ namespace
 using
 OptionalSps
 =
-absl
+std
 :
 :
 optional
@@ -381,7 +381,7 @@ SpsState
 using
 OptionalShortTermRefPicSet
 =
-absl
+std
 :
 :
 optional
@@ -398,7 +398,7 @@ ShortTermRefPicSet
 using
 OptionalProfileTierLevel
 =
-absl
+std
 :
 :
 optional
@@ -571,7 +571,7 @@ kProfileIdcHighThroughput
 7
 ;
 }
-absl
+std
 :
 :
 optional
@@ -842,7 +842,7 @@ Ok
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1815,7 +1815,7 @@ Ok
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1828,7 +1828,7 @@ st_ref_pic_set
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -2002,7 +2002,7 @@ supported
 "
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -2274,7 +2274,7 @@ Ok
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -2287,7 +2287,7 @@ pf_tier_level
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -2398,7 +2398,7 @@ profile_tier_level
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -3333,7 +3333,7 @@ reader
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -3565,7 +3565,7 @@ ref_pic_set
 else
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -3825,7 +3825,7 @@ Ok
 )
 {
 return
-absl
+std
 :
 :
 nullopt

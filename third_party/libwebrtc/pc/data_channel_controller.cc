@@ -15,6 +15,11 @@ cstdint
 #
 include
 <
+optional
+>
+#
+include
+<
 utility
 >
 #
@@ -25,17 +30,6 @@ absl
 algorithm
 /
 container
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -1708,7 +1702,7 @@ DataChannelController
 :
 ReserveOrAllocateSid
 (
-absl
+std
 :
 :
 optional
@@ -1717,7 +1711,7 @@ StreamId
 >
 &
 sid
-absl
+std
 :
 :
 optional
@@ -1769,7 +1763,7 @@ reserved
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1880,7 +1874,7 @@ InternalDataChannelInit
 config
 )
 {
-absl
+std
 :
 :
 optional
@@ -1889,7 +1883,7 @@ StreamId
 >
 sid
 =
-absl
+std
 :
 :
 nullopt
@@ -2424,7 +2418,7 @@ has_value
 )
 )
 {
-absl
+std
 :
 :
 optional

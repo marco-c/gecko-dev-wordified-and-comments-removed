@@ -117,7 +117,7 @@ cricket
 Connection
 *
 conn
-absl
+std
 :
 :
 optional
@@ -181,7 +181,7 @@ cricket
 Connection
 *
 b
-absl
+std
 :
 :
 optional
@@ -2024,7 +2024,7 @@ has_value
 return
 {
 new_connection
-absl
+std
 :
 :
 nullopt
@@ -2168,7 +2168,7 @@ initial_select_timestamp_ms_
 return
 {
 new_connection
-absl
+std
 :
 :
 nullopt
@@ -2291,7 +2291,7 @@ return
 .
 connection
 =
-absl
+std
 :
 :
 nullopt
@@ -2343,11 +2343,11 @@ new_connection
 {
 return
 {
-absl
+std
 :
 :
 nullopt
-absl
+std
 :
 :
 nullopt
@@ -2401,11 +2401,11 @@ receiving
 {
 return
 {
-absl
+std
 :
 :
 nullopt
-absl
+std
 :
 :
 nullopt
@@ -2417,7 +2417,7 @@ missed_receiving_unchanged_threshold
 =
 false
 ;
-absl
+std
 :
 :
 optional
@@ -2452,7 +2452,7 @@ receiving_unchanged_threshold
 missed_receiving_unchanged_threshold
 )
 ;
-absl
+std
 :
 :
 optional
@@ -2496,7 +2496,7 @@ cmp
 return
 {
 new_connection
-absl
+std
 :
 :
 nullopt
@@ -2513,7 +2513,7 @@ cmp
 {
 return
 {
-absl
+std
 :
 :
 nullopt
@@ -2544,7 +2544,7 @@ kMinImprovement
 return
 {
 new_connection
-absl
+std
 :
 :
 nullopt
@@ -2553,7 +2553,7 @@ nullopt
 }
 return
 {
-absl
+std
 :
 :
 nullopt
@@ -2601,7 +2601,7 @@ CompareConnections
 (
 a
 b
-absl
+std
 :
 :
 nullopt
@@ -2875,7 +2875,7 @@ const
 Connection
 *
 b
-absl
+std
 :
 :
 optional
@@ -3352,7 +3352,7 @@ const
 Connection
 *
 b
-absl
+std
 :
 :
 optional
@@ -3522,7 +3522,7 @@ const
 Connection
 *
 b
-absl
+std
 :
 :
 optional

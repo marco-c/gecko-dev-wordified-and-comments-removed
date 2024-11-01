@@ -16,15 +16,9 @@ memory
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -286,7 +280,7 @@ RtcEventLogOutput
 >
 writer_
 ;
-absl
+std
 :
 :
 optional

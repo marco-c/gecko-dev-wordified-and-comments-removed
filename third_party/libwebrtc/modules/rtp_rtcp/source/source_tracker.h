@@ -17,6 +17,11 @@ list
 #
 include
 <
+optional
+>
+#
+include
+<
 unordered_map
 >
 #
@@ -29,17 +34,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -351,7 +345,7 @@ MinusInfinity
 (
 )
 ;
-absl
+std
 :
 :
 optional
@@ -360,7 +354,7 @@ uint8_t
 >
 audio_level
 ;
-absl
+std
 :
 :
 optional
@@ -369,7 +363,7 @@ AbsoluteCaptureTime
 >
 absolute_capture_time
 ;
-absl
+std
 :
 :
 optional

@@ -53,7 +53,7 @@ PacketSequencer
 (
 uint32_t
 media_ssrc
-absl
+std
 :
 :
 optional
@@ -168,7 +168,7 @@ uint32_t
 media_ssrc_
 ;
 const
-absl
+std
 :
 :
 optional

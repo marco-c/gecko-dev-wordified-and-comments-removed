@@ -36,15 +36,9 @@ numeric
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -1751,7 +1745,7 @@ read_thread_checker_
 SequenceChecker
 write_thread_checker_
 ;
-absl
+std
 :
 :
 optional

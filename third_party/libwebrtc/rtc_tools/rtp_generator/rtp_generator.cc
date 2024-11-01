@@ -373,7 +373,7 @@ return
 kFakeVideoSendPayloadType
 ;
 }
-absl
+std
 :
 :
 optional
@@ -650,7 +650,7 @@ section
 "
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -693,7 +693,7 @@ specified
 "
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -731,7 +731,7 @@ H264
 "
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -805,7 +805,7 @@ config
 ;
 }
 }
-absl
+std
 :
 :
 optional
@@ -850,7 +850,7 @@ exist
 "
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -926,7 +926,7 @@ file
 "
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -1024,7 +1024,7 @@ Error
 error_message
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -1048,7 +1048,7 @@ video_streams
 ]
 )
 {
-absl
+std
 :
 :
 optional
@@ -1093,7 +1093,7 @@ file
 "
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -1632,11 +1632,11 @@ video_width
 send_config
 .
 video_height
-absl
+std
 :
 :
 nullopt
-absl
+std
 :
 :
 nullopt

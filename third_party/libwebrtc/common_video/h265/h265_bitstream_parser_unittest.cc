@@ -737,7 +737,7 @@ ParseBitstream
 kH265BitstreamChunk
 )
 ;
-absl
+std
 :
 :
 optional
@@ -816,7 +816,7 @@ ParseBitstream
 kH265SliceStrChunk
 )
 ;
-absl
+std
 :
 :
 optional
@@ -857,7 +857,7 @@ PpsIdFromSlice
 H265BitstreamParser
 h265_parser
 ;
-absl
+std
 :
 :
 optional
@@ -909,7 +909,7 @@ ParseBitstream
 kH265BitstreamInvalidQPChunk
 )
 ;
-absl
+std
 :
 :
 optional

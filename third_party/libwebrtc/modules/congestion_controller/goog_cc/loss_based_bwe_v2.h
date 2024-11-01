@@ -12,6 +12,11 @@ cstdint
 #
 include
 <
+optional
+>
+#
+include
+<
 unordered_map
 >
 #
@@ -19,17 +24,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -747,7 +741,7 @@ PlusInfinity
 }
 ;
 static
-absl
+std
 :
 :
 optional
@@ -943,7 +937,7 @@ estimate
 )
 const
 ;
-absl
+std
 :
 :
 optional
@@ -952,7 +946,7 @@ DataRate
 >
 acknowledged_bitrate_
 ;
-absl
+std
 :
 :
 optional
@@ -1001,7 +995,7 @@ MinusInfinity
 (
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1010,7 +1004,7 @@ DataRate
 >
 cached_instant_upper_bound_
 ;
-absl
+std
 :
 :
 optional

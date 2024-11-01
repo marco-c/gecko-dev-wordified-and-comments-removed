@@ -605,7 +605,7 @@ mock_encoder_
 OnReceivedUplinkBandwidth
 (
 4711
-absl
+std
 :
 :
 optional
@@ -623,7 +623,7 @@ red_
 OnReceivedUplinkBandwidth
 (
 4711
-absl
+std
 :
 :
 nullopt
@@ -702,7 +702,7 @@ WillRepeatedly
 (
 Return
 (
-absl
+std
 :
 :
 make_optional

@@ -111,7 +111,7 @@ Timestamp
 arrival_time
 DataSize
 size
-absl
+std
 :
 :
 optional
@@ -120,11 +120,11 @@ int
 >
 spatial_layer
 =
-absl
+std
 :
 :
 nullopt
-absl
+std
 :
 :
 optional
@@ -133,11 +133,11 @@ int
 >
 temporal_layer
 =
-absl
+std
 :
 :
 nullopt
-absl
+std
 :
 :
 optional
@@ -146,7 +146,7 @@ VideoFrameType
 >
 frame_type
 =
-absl
+std
 :
 :
 nullopt

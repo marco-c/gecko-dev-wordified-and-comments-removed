@@ -20,6 +20,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 ostream
 >
 #
@@ -27,17 +32,6 @@ include
 <
 string
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -512,7 +506,7 @@ GetScalabilityMode
 )
 const
 {
-absl
+std
 :
 :
 optional
@@ -588,7 +582,7 @@ GetScalabilityMode
 )
 )
 ;
-absl
+std
 :
 :
 optional
@@ -622,7 +616,7 @@ NotNull
 ASSERT_NE
 (
 static_config
-absl
+std
 :
 :
 nullopt

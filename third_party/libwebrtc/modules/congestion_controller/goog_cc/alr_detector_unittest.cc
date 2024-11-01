@@ -18,15 +18,9 @@ cstdint
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -293,7 +287,7 @@ int64_t
 *
 timestamp_ms_
 ;
-absl
+std
 :
 :
 optional
@@ -302,7 +296,7 @@ int
 >
 interval_ms_
 ;
-absl
+std
 :
 :
 optional
@@ -687,7 +681,7 @@ Control
 "
 )
 ;
-absl
+std
 :
 :
 optional
@@ -756,7 +750,7 @@ ProbingScreenshareBwe
 "
 )
 ;
-absl
+std
 :
 :
 optional

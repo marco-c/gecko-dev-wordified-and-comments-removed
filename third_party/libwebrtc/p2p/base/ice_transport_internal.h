@@ -14,6 +14,11 @@ h
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -34,17 +39,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -315,7 +309,7 @@ struct
 RTC_EXPORT
 IceConfig
 {
-absl
+std
 :
 :
 optional
@@ -324,7 +318,7 @@ int
 >
 receiving_timeout
 ;
-absl
+std
 :
 :
 optional
@@ -356,7 +350,7 @@ prioritize_most_likely_candidate_pairs
 =
 false
 ;
-absl
+std
 :
 :
 optional
@@ -375,7 +369,7 @@ surface_ice_candidates_on_ice_transport_type_changed
 =
 false
 ;
-absl
+std
 :
 :
 optional
@@ -384,7 +378,7 @@ int
 >
 regather_on_failed_networks_interval
 ;
-absl
+std
 :
 :
 optional
@@ -401,7 +395,7 @@ NominationMode
 :
 SEMI_AGGRESSIVE
 ;
-absl
+std
 :
 :
 optional
@@ -410,7 +404,7 @@ int
 >
 ice_check_interval_strong_connectivity
 ;
-absl
+std
 :
 :
 optional
@@ -419,7 +413,7 @@ int
 >
 ice_check_interval_weak_connectivity
 ;
-absl
+std
 :
 :
 optional
@@ -428,7 +422,7 @@ int
 >
 ice_check_min_interval
 ;
-absl
+std
 :
 :
 optional
@@ -437,7 +431,7 @@ int
 >
 ice_unwritable_timeout
 ;
-absl
+std
 :
 :
 optional
@@ -446,7 +440,7 @@ int
 >
 ice_unwritable_min_checks
 ;
-absl
+std
 :
 :
 optional
@@ -455,7 +449,7 @@ int
 >
 ice_inactive_timeout
 ;
-absl
+std
 :
 :
 optional
@@ -464,7 +458,7 @@ int
 >
 stun_keepalive_interval
 ;
-absl
+std
 :
 :
 optional
@@ -826,7 +820,7 @@ ice_transport_stats
 0
 ;
 virtual
-absl
+std
 :
 :
 optional
@@ -851,7 +845,7 @@ const
 0
 ;
 virtual
-absl
+std
 :
 :
 optional
@@ -867,7 +861,7 @@ const
 0
 ;
 virtual
-absl
+std
 :
 :
 optional
@@ -885,7 +879,7 @@ GetDictionaryWriter
 )
 {
 return
-absl
+std
 :
 :
 nullopt

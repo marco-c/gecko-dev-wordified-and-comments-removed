@@ -27,6 +27,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -44,17 +49,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -960,7 +954,7 @@ EncodedFrame
 TimeDelta
 >
 ;
-absl
+std
 :
 :
 optional
@@ -1280,7 +1274,7 @@ dropped_frames_
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -1339,7 +1333,7 @@ kMaxWaitForKeyframe
 )
 Eq
 (
-absl
+std
 :
 :
 nullopt
@@ -2151,7 +2145,7 @@ kMaxWaitForFrame
 )
 Eq
 (
-absl
+std
 :
 :
 nullopt
@@ -2273,7 +2267,7 @@ kFps30Delay
 )
 Eq
 (
-absl
+std
 :
 :
 nullopt
@@ -3401,7 +3395,7 @@ Zero
 )
 Eq
 (
-absl
+std
 :
 :
 nullopt
@@ -4557,7 +4551,7 @@ kMaxWaitForFrame
 )
 Eq
 (
-absl
+std
 :
 :
 nullopt
@@ -5180,7 +5174,7 @@ Zero
 )
 Eq
 (
-absl
+std
 :
 :
 nullopt

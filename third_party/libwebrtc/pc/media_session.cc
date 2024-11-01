@@ -32,6 +32,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -79,17 +84,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -2501,7 +2495,7 @@ local_codec
 .
 packetization
 :
-absl
+std
 :
 :
 nullopt
@@ -2546,7 +2540,7 @@ local_codec
 .
 tx_mode
 :
-absl
+std
 :
 :
 nullopt
@@ -2554,7 +2548,7 @@ nullopt
 }
 #
 endif
-absl
+std
 :
 :
 optional
@@ -3048,7 +3042,7 @@ potential_match
 }
 }
 return
-absl
+std
 :
 :
 nullopt
@@ -3100,7 +3094,7 @@ ours
 local_codecs
 )
 {
-absl
+std
 :
 :
 optional
@@ -4129,7 +4123,7 @@ associated_codec
 continue
 ;
 }
-absl
+std
 :
 :
 optional
@@ -4268,7 +4262,7 @@ if
 associated_codec
 )
 {
-absl
+std
 :
 :
 optional
@@ -4588,7 +4582,7 @@ end
 )
 )
 {
-absl
+std
 :
 :
 optional
@@ -6479,7 +6473,7 @@ codec
 supported_codecs
 )
 {
-absl
+std
 :
 :
 optional
@@ -6550,7 +6544,7 @@ RTC_DCHECK
 referenced_codec
 )
 ;
-absl
+std
 :
 :
 optional
@@ -8446,7 +8440,7 @@ offer_content
 name
 )
 ;
-absl
+std
 :
 :
 optional

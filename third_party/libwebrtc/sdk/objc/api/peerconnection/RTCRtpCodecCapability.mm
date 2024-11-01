@@ -429,7 +429,7 @@ rtpCodecCapability
 .
 preferred_payload_type
 =
-absl
+std
 :
 :
 optional
@@ -510,7 +510,7 @@ rtpCodecCapability
 .
 clock_rate
 =
-absl
+std
 :
 :
 optional
@@ -536,7 +536,7 @@ rtpCodecCapability
 .
 num_channels
 =
-absl
+std
 :
 :
 optional

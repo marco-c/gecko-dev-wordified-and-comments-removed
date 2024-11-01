@@ -31,6 +31,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 utility
 >
 #
@@ -41,17 +46,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -1224,7 +1218,7 @@ kOff
 {
 next_time_to_send_rtcp_
 =
-absl
+std
 :
 :
 nullopt
@@ -1475,7 +1469,7 @@ packet
 }
 }
 ;
-absl
+std
 :
 :
 optional
@@ -1766,7 +1760,7 @@ SetLastRtpTime
 (
 uint32_t
 rtp_timestamp
-absl
+std
 :
 :
 optional
@@ -1774,7 +1768,7 @@ optional
 Timestamp
 >
 capture_time
-absl
+std
 :
 :
 optional
@@ -3343,7 +3337,7 @@ packet
 }
 }
 ;
-absl
+std
 :
 :
 optional
@@ -3403,7 +3397,7 @@ return
 error_code
 ;
 }
-absl
+std
 :
 :
 optional
@@ -3746,7 +3740,7 @@ AllVolatileFlagsConsumed
 )
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -4495,7 +4489,7 @@ disabled
 return
 ;
 }
-absl
+std
 :
 :
 optional
@@ -4583,7 +4577,7 @@ true
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -4602,7 +4596,7 @@ bitrate
 )
 const
 {
-absl
+std
 :
 :
 optional

@@ -13,15 +13,9 @@ h
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -471,7 +465,7 @@ Start
 )
 ;
 static
-absl
+std
 :
 :
 optional
@@ -486,7 +480,7 @@ LoggedStartEvent
 )
 {
 return
-absl
+std
 :
 :
 optional
@@ -527,7 +521,7 @@ Stop
 )
 ;
 static
-absl
+std
 :
 :
 optional
@@ -542,7 +536,7 @@ LoggedStopEvent
 )
 {
 return
-absl
+std
 :
 :
 optional
@@ -583,7 +577,7 @@ StreamConfig
 )
 ;
 static
-absl
+std
 :
 :
 optional
@@ -598,7 +592,7 @@ LoggedAudioRecvConfig
 )
 {
 return
-absl
+std
 :
 :
 optional
@@ -639,7 +633,7 @@ StreamConfig
 )
 ;
 static
-absl
+std
 :
 :
 optional
@@ -654,7 +648,7 @@ LoggedAudioSendConfig
 )
 {
 return
-absl
+std
 :
 :
 optional
@@ -695,7 +689,7 @@ StreamConfig
 )
 ;
 static
-absl
+std
 :
 :
 optional
@@ -710,7 +704,7 @@ LoggedVideoRecvConfig
 )
 {
 return
-absl
+std
 :
 :
 optional
@@ -751,7 +745,7 @@ StreamConfig
 )
 ;
 static
-absl
+std
 :
 :
 optional
@@ -766,7 +760,7 @@ LoggedVideoSendConfig
 )
 {
 return
-absl
+std
 :
 :
 optional
@@ -807,7 +801,7 @@ IceCondidateConfig
 )
 ;
 static
-absl
+std
 :
 :
 optional
@@ -822,7 +816,7 @@ LoggedIceCandidatePairConfig
 )
 {
 return
-absl
+std
 :
 :
 optional
@@ -863,7 +857,7 @@ IceCandidateEvent
 )
 ;
 static
-absl
+std
 :
 :
 optional
@@ -878,7 +872,7 @@ LoggedIceCandidatePairEvent
 )
 {
 return
-absl
+std
 :
 :
 optional
@@ -919,7 +913,7 @@ DtlsTransportState
 )
 ;
 static
-absl
+std
 :
 :
 optional
@@ -934,7 +928,7 @@ LoggedDtlsTransportState
 )
 {
 return
-absl
+std
 :
 :
 optional
@@ -975,7 +969,7 @@ DtlsWritable
 )
 ;
 static
-absl
+std
 :
 :
 optional
@@ -990,7 +984,7 @@ LoggedDtlsWritableState
 )
 {
 return
-absl
+std
 :
 :
 optional
@@ -1031,7 +1025,7 @@ RouteChange
 )
 ;
 static
-absl
+std
 :
 :
 optional
@@ -1046,7 +1040,7 @@ LoggedRouteChangeEvent
 )
 {
 return
-absl
+std
 :
 :
 optional
@@ -1087,7 +1081,7 @@ BweRemoteEstimate
 )
 ;
 static
-absl
+std
 :
 :
 optional
@@ -1102,7 +1096,7 @@ LoggedRemoteEstimateEvent
 )
 {
 return
-absl
+std
 :
 :
 optional
@@ -1143,7 +1137,7 @@ BweProbeFailure
 )
 ;
 static
-absl
+std
 :
 :
 optional
@@ -1158,7 +1152,7 @@ LoggedBweProbeFailureEvent
 )
 {
 return
-absl
+std
 :
 :
 optional
@@ -1199,7 +1193,7 @@ BweProbeSuccess
 )
 ;
 static
-absl
+std
 :
 :
 optional
@@ -1214,7 +1208,7 @@ LoggedBweProbeSuccessEvent
 )
 {
 return
-absl
+std
 :
 :
 optional
@@ -1255,7 +1249,7 @@ BweDelayBased
 )
 ;
 static
-absl
+std
 :
 :
 optional
@@ -1270,7 +1264,7 @@ LoggedBweDelayBasedUpdate
 )
 {
 return
-absl
+std
 :
 :
 optional
@@ -1311,7 +1305,7 @@ BweLossBased
 )
 ;
 static
-absl
+std
 :
 :
 optional
@@ -1326,7 +1320,7 @@ LoggedBweLossBasedUpdate
 )
 {
 return
-absl
+std
 :
 :
 optional
@@ -1367,7 +1361,7 @@ BweProbeCreated
 )
 ;
 static
-absl
+std
 :
 :
 optional
@@ -1382,7 +1376,7 @@ LoggedBweProbeClusterCreatedEvent
 )
 {
 return
-absl
+std
 :
 :
 optional
@@ -1423,7 +1417,7 @@ AudioNetworkAdaptation
 )
 ;
 static
-absl
+std
 :
 :
 optional
@@ -1438,7 +1432,7 @@ LoggedAudioNetworkAdaptationEvent
 )
 {
 return
-absl
+std
 :
 :
 optional
@@ -1479,7 +1473,7 @@ NetEqSetMinDelay
 )
 ;
 static
-absl
+std
 :
 :
 optional
@@ -1494,7 +1488,7 @@ LoggedNetEqSetMinimumDelayEvent
 )
 {
 return
-absl
+std
 :
 :
 optional
@@ -1535,7 +1529,7 @@ AudioPlayout
 )
 ;
 static
-absl
+std
 :
 :
 optional
@@ -1550,7 +1544,7 @@ LoggedAudioPlayoutEvent
 )
 {
 return
-absl
+std
 :
 :
 optional
@@ -1591,7 +1585,7 @@ FrameDecoded
 )
 ;
 static
-absl
+std
 :
 :
 optional
@@ -1606,7 +1600,7 @@ LoggedFrameDecoded
 )
 {
 return
-absl
+std
 :
 :
 optional
@@ -1647,7 +1641,7 @@ GenericPacketIn
 )
 ;
 static
-absl
+std
 :
 :
 optional
@@ -1662,7 +1656,7 @@ LoggedGenericPacketReceived
 )
 {
 return
-absl
+std
 :
 :
 optional
@@ -1703,7 +1697,7 @@ GenericAckIn
 )
 ;
 static
-absl
+std
 :
 :
 optional
@@ -1718,7 +1712,7 @@ LoggedGenericAckReceived
 )
 {
 return
-absl
+std
 :
 :
 optional
@@ -1759,7 +1753,7 @@ GenericPacketOut
 )
 ;
 static
-absl
+std
 :
 :
 optional
@@ -1774,7 +1768,7 @@ LoggedGenericPacketSent
 )
 {
 return
-absl
+std
 :
 :
 optional
@@ -1834,7 +1828,7 @@ RtpOut
 ;
 }
 static
-absl
+std
 :
 :
 optional
@@ -1866,7 +1860,7 @@ extension
 .
 transportSequenceNumber
 :
-absl
+std
 :
 :
 optional
@@ -1926,7 +1920,7 @@ RtpOut
 ;
 }
 static
-absl
+std
 :
 :
 optional
@@ -1950,7 +1944,7 @@ p
 .
 transport_seq_no
 :
-absl
+std
 :
 :
 optional
@@ -1991,7 +1985,7 @@ RtpIn
 )
 ;
 static
-absl
+std
 :
 :
 optional
@@ -2027,7 +2021,7 @@ extension
 .
 transportSequenceNumber
 :
-absl
+std
 :
 :
 optional
@@ -2068,7 +2062,7 @@ RtpOut
 )
 ;
 static
-absl
+std
 :
 :
 optional
@@ -2104,7 +2098,7 @@ extension
 .
 transportSequenceNumber
 :
-absl
+std
 :
 :
 optional
@@ -2145,7 +2139,7 @@ RtcpIn
 )
 ;
 static
-absl
+std
 :
 :
 optional
@@ -2160,7 +2154,7 @@ LoggedRtcpPacketIncoming
 )
 {
 return
-absl
+std
 :
 :
 optional
@@ -2201,7 +2195,7 @@ RtcpOut
 )
 ;
 static
-absl
+std
 :
 :
 optional
@@ -2216,7 +2210,7 @@ LoggedRtcpPacketOutgoing
 )
 {
 return
-absl
+std
 :
 :
 optional
@@ -2276,7 +2270,7 @@ RtcpOut
 ;
 }
 static
-absl
+std
 :
 :
 optional
@@ -2291,7 +2285,7 @@ LoggedRtcpPacketTransportFeedback
 )
 {
 return
-absl
+std
 :
 :
 optional
@@ -2351,7 +2345,7 @@ RtcpOut
 ;
 }
 static
-absl
+std
 :
 :
 optional
@@ -2366,7 +2360,7 @@ LoggedRtcpPacketReceiverReport
 )
 {
 return
-absl
+std
 :
 :
 optional
@@ -2407,7 +2401,7 @@ AlrState
 )
 ;
 static
-absl
+std
 :
 :
 optional
@@ -2422,7 +2416,7 @@ LoggedAlrStateEvent
 )
 {
 return
-absl
+std
 :
 :
 optional

@@ -23,15 +23,9 @@ memory
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -236,7 +230,7 @@ ProbeBitrateEstimator
 =
 default
 ;
-absl
+std
 :
 :
 optional
@@ -503,7 +497,7 @@ size_total
 min_size
 )
 return
-absl
+std
 :
 :
 nullopt
@@ -658,7 +652,7 @@ kInvalidSendReceiveInterval
 ;
 }
 return
-absl
+std
 :
 :
 nullopt
@@ -921,7 +915,7 @@ kInvalidSendReceiveRatio
 ;
 }
 return
-absl
+std
 :
 :
 nullopt
@@ -1096,7 +1090,7 @@ return
 estimated_data_rate_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1110,7 +1104,7 @@ FetchAndResetLastEstimatedBitrate
 (
 )
 {
-absl
+std
 :
 :
 optional

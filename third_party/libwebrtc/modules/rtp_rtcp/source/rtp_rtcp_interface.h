@@ -12,6 +12,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -27,17 +32,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -408,7 +402,7 @@ local_media_ssrc
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -474,7 +468,7 @@ reports_count
 struct
 NonSenderRttStats
 {
-absl
+std
 :
 :
 optional
@@ -766,7 +760,7 @@ const
 0
 ;
 virtual
-absl
+std
 :
 :
 optional
@@ -793,7 +787,7 @@ associated_payload_type
 0
 ;
 virtual
-absl
+std
 :
 :
 optional
@@ -1150,7 +1144,7 @@ cname
 0
 ;
 virtual
-absl
+std
 :
 :
 optional
@@ -1235,7 +1229,7 @@ const
 0
 ;
 virtual
-absl
+std
 :
 :
 optional
@@ -1250,7 +1244,7 @@ const
 0
 ;
 virtual
-absl
+std
 :
 :
 optional

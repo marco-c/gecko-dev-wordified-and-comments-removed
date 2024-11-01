@@ -362,7 +362,7 @@ const
 int
 number_of_temporal_layers_
 ;
-absl
+std
 :
 :
 optional
@@ -371,7 +371,7 @@ int
 >
 min_qp_
 ;
-absl
+std
 :
 :
 optional
@@ -411,7 +411,7 @@ DependencyInfo
 >
 pending_frame_configs_
 ;
-absl
+std
 :
 :
 optional
@@ -420,7 +420,7 @@ uint32_t
 >
 target_framerate_
 ;
-absl
+std
 :
 :
 optional

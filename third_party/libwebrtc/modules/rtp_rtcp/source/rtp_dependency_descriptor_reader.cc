@@ -1164,7 +1164,7 @@ descriptor_
 >
 resolution
 =
-absl
+std
 :
 :
 nullopt

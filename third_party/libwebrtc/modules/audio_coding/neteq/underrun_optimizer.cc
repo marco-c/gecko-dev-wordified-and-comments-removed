@@ -47,7 +47,7 @@ int
 histogram_quantile
 int
 forget_factor
-absl
+std
 :
 :
 optional
@@ -55,7 +55,7 @@ optional
 int
 >
 start_forget_weight
-absl
+std
 :
 :
 optional
@@ -95,7 +95,7 @@ int
 relative_delay_ms
 )
 {
-absl
+std
 :
 :
 optional

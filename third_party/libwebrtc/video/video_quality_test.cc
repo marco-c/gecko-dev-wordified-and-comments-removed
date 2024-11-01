@@ -5600,7 +5600,7 @@ size
 (
 )
 ;
-absl
+std
 :
 :
 optional
@@ -6879,7 +6879,7 @@ thumbnail_send_config
 send_transport
 &
 video_decoder_factory_
-absl
+std
 :
 :
 nullopt
@@ -7147,11 +7147,11 @@ thumbnail
 .
 height
 )
-absl
+std
 :
 :
 nullopt
-absl
+std
 :
 :
 nullopt
@@ -7735,11 +7735,11 @@ video_idx
 .
 height
 )
-absl
+std
 :
 :
 nullopt
-absl
+std
 :
 :
 nullopt
@@ -7809,7 +7809,7 @@ OutputType
 :
 :
 kI420A
-absl
+std
 :
 :
 nullopt
@@ -7879,7 +7879,7 @@ OutputType
 :
 :
 kI010
-absl
+std
 :
 :
 nullopt
@@ -7949,7 +7949,7 @@ OutputType
 :
 :
 kNV12
-absl
+std
 :
 :
 nullopt
@@ -8065,11 +8065,11 @@ video_idx
 .
 height
 )
-absl
+std
 :
 :
 nullopt
-absl
+std
 :
 :
 nullopt

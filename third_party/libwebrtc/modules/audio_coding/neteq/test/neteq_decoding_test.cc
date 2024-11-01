@@ -1562,7 +1562,7 @@ output
 num_channels_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1806,7 +1806,7 @@ out_frame_
 speech_type_
 )
 ;
-absl
+std
 :
 :
 optional

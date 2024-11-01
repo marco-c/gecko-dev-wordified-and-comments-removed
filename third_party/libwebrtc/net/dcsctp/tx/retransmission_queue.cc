@@ -39,6 +39,11 @@ map
 #
 include
 <
+optional
+>
+#
+include
+<
 set
 >
 #
@@ -75,17 +80,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -627,7 +621,7 @@ recovery
 ;
 fast_recovery_exit_tsn_
 =
-absl
+std
 :
 :
 nullopt
@@ -2231,7 +2225,7 @@ max_bytes
 )
 )
 ;
-absl
+std
 :
 :
 optional
@@ -2287,7 +2281,7 @@ rwnd_
 =
 chunk_size
 ;
-absl
+std
 :
 :
 optional

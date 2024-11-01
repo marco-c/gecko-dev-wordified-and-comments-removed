@@ -478,7 +478,7 @@ timestamp_
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1159,7 +1159,7 @@ IncomingRtcpPacket
 rtcp_packet
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1188,7 +1188,7 @@ has_value
 return
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1262,7 +1262,7 @@ clockrate_hz
 =
 0
 ;
-absl
+std
 :
 :
 optional

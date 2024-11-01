@@ -77,6 +77,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 queue
 >
 #
@@ -103,17 +108,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -1057,7 +1051,7 @@ GetHandle
 )
 !
 =
-absl
+std
 :
 :
 nullopt
@@ -1257,7 +1251,7 @@ GetHandle
 )
 !
 =
-absl
+std
 :
 :
 nullopt

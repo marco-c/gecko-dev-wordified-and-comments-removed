@@ -20,6 +20,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 set
 >
 #
@@ -51,17 +56,6 @@ absl
 strings
 /
 match
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -1053,7 +1047,7 @@ void
 MarkAttributeTested
 (
 const
-absl
+std
 :
 :
 optional
@@ -1098,7 +1092,7 @@ void
 TestAttributeIsDefined
 (
 const
-absl
+std
 :
 :
 optional
@@ -1185,7 +1179,7 @@ void
 TestAttributeIsUndefined
 (
 const
-absl
+std
 :
 :
 optional
@@ -1291,7 +1285,7 @@ void
 TestAttributeIsPositive
 (
 const
-absl
+std
 :
 :
 optional
@@ -1472,7 +1466,7 @@ void
 TestAttributeIsNonNegative
 (
 const
-absl
+std
 :
 :
 optional
@@ -1656,7 +1650,7 @@ void
 TestAttributeIsIDReference
 (
 const
-absl
+std
 :
 :
 optional
@@ -1688,7 +1682,7 @@ void
 TestAttributeIsOptionalIDReference
 (
 const
-absl
+std
 :
 :
 optional
@@ -1796,7 +1790,7 @@ void
 TestAttributeIsIDReference
 (
 const
-absl
+std
 :
 :
 optional

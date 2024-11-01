@@ -198,7 +198,7 @@ ScheduleActivity
 (
 TimeDelta
 initial_delay_since_start
-absl
+std
 :
 :
 optional
@@ -621,7 +621,7 @@ ScheduledActivity
 (
 TimeDelta
 initial_delay_since_start
-absl
+std
 :
 :
 optional

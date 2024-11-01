@@ -6,15 +6,9 @@ define
 CALL_ADAPTATION_VIDEO_STREAM_INPUT_STATE_H_
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -48,7 +42,7 @@ has_input
 void
 set_frame_size_pixels
 (
-absl
+std
 :
 :
 optional
@@ -82,7 +76,7 @@ min_pixels_per_frame
 void
 set_single_active_stream_pixels
 (
-absl
+std
 :
 :
 optional
@@ -98,7 +92,7 @@ has_input
 )
 const
 ;
-absl
+std
 :
 :
 optional
@@ -128,7 +122,7 @@ min_pixels_per_frame
 )
 const
 ;
-absl
+std
 :
 :
 optional
@@ -151,7 +145,7 @@ private
 bool
 has_input_
 ;
-absl
+std
 :
 :
 optional
@@ -169,7 +163,7 @@ video_codec_type_
 int
 min_pixels_per_frame_
 ;
-absl
+std
 :
 :
 optional

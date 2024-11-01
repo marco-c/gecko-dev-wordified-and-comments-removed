@@ -36,6 +36,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 set
 >
 #
@@ -61,17 +66,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -814,7 +808,7 @@ deferred_actions
 ;
 deferred_reset_streams_
 =
-absl
+std
 :
 :
 nullopt
@@ -895,7 +889,7 @@ sender_last_assigned_tsn
 ;
 deferred_reset_streams_
 =
-absl
+std
 :
 :
 make_optional

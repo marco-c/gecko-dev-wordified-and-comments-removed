@@ -23,15 +23,9 @@ memory
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -317,7 +311,7 @@ RTC_GUARDED_BY
 sequence_checker_
 )
 ;
-absl
+std
 :
 :
 optional

@@ -44,6 +44,11 @@ numeric
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -56,17 +61,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -310,7 +304,7 @@ random_before_mask
 void
 TestEncodingAndDecoding
 (
-absl
+std
 :
 :
 optional
@@ -324,7 +318,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -374,7 +368,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -407,7 +401,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -428,7 +422,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -468,7 +462,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -499,7 +493,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -539,7 +533,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -557,7 +551,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -582,7 +576,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -640,7 +634,7 @@ sequence
 i
 ]
 =
-absl
+std
 :
 :
 optional
@@ -702,7 +696,7 @@ DeltaSignedness
 signedness_override
 )
 {
-absl
+std
 :
 :
 optional
@@ -766,7 +760,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -807,7 +801,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -849,7 +843,7 @@ optional_deltas
 i
 ]
 =
-absl
+std
 :
 :
 optional
@@ -1032,7 +1026,7 @@ AllValuesEqualToExistentBaseValue
 )
 {
 const
-absl
+std
 :
 :
 optional
@@ -1049,7 +1043,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -1120,7 +1114,7 @@ return
 ;
 }
 const
-absl
+std
 :
 :
 optional
@@ -1134,7 +1128,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -1205,7 +1199,7 @@ return
 ;
 }
 const
-absl
+std
 :
 :
 optional
@@ -1219,7 +1213,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -1374,7 +1368,7 @@ MinDeltaNoWrapAround
 )
 {
 const
-absl
+std
 :
 :
 optional
@@ -1436,7 +1430,7 @@ values
 0
 ]
 =
-absl
+std
 :
 :
 optional
@@ -1467,7 +1461,7 @@ kBigDelta
 132828
 ;
 const
-absl
+std
 :
 :
 optional
@@ -1529,7 +1523,7 @@ values
 0
 ]
 =
-absl
+std
 :
 :
 optional
@@ -1554,7 +1548,7 @@ MaxDeltaNoWrapAround
 )
 {
 const
-absl
+std
 :
 :
 optional
@@ -1621,7 +1615,7 @@ values
 0
 ]
 =
-absl
+std
 :
 :
 optional
@@ -1660,7 +1654,7 @@ return
 ;
 }
 const
-absl
+std
 :
 :
 optional
@@ -1726,7 +1720,7 @@ values
 1
 ]
 =
-absl
+std
 :
 :
 optional
@@ -1772,7 +1766,7 @@ return
 ;
 }
 const
-absl
+std
 :
 :
 optional
@@ -1861,7 +1855,7 @@ values
 1
 ]
 =
-absl
+std
 :
 :
 optional
@@ -1925,7 +1919,7 @@ kBigDelta
 132828
 ;
 const
-absl
+std
 :
 :
 optional
@@ -1999,7 +1993,7 @@ values
 1
 ]
 =
-absl
+std
 :
 :
 optional
@@ -2051,7 +2045,7 @@ kBigDelta
 132828
 ;
 const
-absl
+std
 :
 :
 optional
@@ -2147,7 +2141,7 @@ values
 1
 ]
 =
-absl
+std
 :
 :
 optional
@@ -2197,7 +2191,7 @@ return
 ;
 }
 const
-absl
+std
 :
 :
 optional
@@ -2231,7 +2225,7 @@ values
 1
 ]
 =
-absl
+std
 :
 :
 optional
@@ -2277,7 +2271,7 @@ return
 ;
 }
 const
-absl
+std
 :
 :
 optional
@@ -2337,7 +2331,7 @@ values
 1
 ]
 =
-absl
+std
 :
 :
 optional
@@ -2362,7 +2356,7 @@ ZeroDelta
 )
 {
 const
-absl
+std
 :
 :
 optional
@@ -2426,7 +2420,7 @@ values
 0
 ]
 =
-absl
+std
 :
 :
 optional
@@ -3276,7 +3270,7 @@ Test
 )
 {
 const
-absl
+std
 :
 :
 optional
@@ -3301,7 +3295,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -3528,7 +3522,7 @@ kForceSigned
 )
 ;
 const
-absl
+std
 :
 :
 optional
@@ -3561,7 +3555,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -3603,7 +3597,7 @@ kForceUnsigned
 )
 ;
 const
-absl
+std
 :
 :
 optional
@@ -3634,7 +3628,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -3778,7 +3772,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional

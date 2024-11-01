@@ -1484,7 +1484,7 @@ CurrentTime
 (
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1969,7 +1969,7 @@ BandwidthUsage
 kBwOverusing
 )
 {
-absl
+std
 :
 :
 optional

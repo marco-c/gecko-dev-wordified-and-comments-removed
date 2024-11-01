@@ -495,7 +495,7 @@ Millis
 ;
 report_rate_
 =
-absl
+std
 :
 :
 nullopt
@@ -566,7 +566,7 @@ Millis
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -617,7 +617,7 @@ BitsPerSec
 0
 )
 ;
-absl
+std
 :
 :
 optional
@@ -971,7 +971,7 @@ report_block
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -1079,7 +1079,7 @@ const
 uint32_t
 >
 csrcs
-absl
+std
 :
 :
 optional
@@ -1184,7 +1184,7 @@ audio_thread_race_checker_
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -1590,7 +1590,7 @@ payloadData
 payloadSize
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1740,7 +1740,7 @@ const
 uint32_t
 >
 csrcs
-absl
+std
 :
 :
 optional
@@ -4599,7 +4599,7 @@ const
 uint32_t
 >
 csrcs
-absl
+std
 :
 :
 optional

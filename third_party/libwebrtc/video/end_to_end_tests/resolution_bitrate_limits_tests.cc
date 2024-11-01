@@ -659,7 +659,7 @@ struct
 Bitrate
 {
 const
-absl
+std
 :
 :
 optional
@@ -669,7 +669,7 @@ DataRate
 min
 ;
 const
-absl
+std
 :
 :
 optional
@@ -692,7 +692,7 @@ Bitrate
 bitrate
 ;
 const
-absl
+std
 :
 :
 optional
@@ -1660,7 +1660,7 @@ pixels
 ne_bitrate
 =
 {
-absl
+std
 :
 :
 nullopt
@@ -2403,7 +2403,7 @@ DefaultLimitsAppliedMiddleActive
 )
 {
 const
-absl
+std
 :
 :
 optional
@@ -2507,7 +2507,7 @@ DefaultLimitsAppliedForOneSpatialLayer
 )
 {
 const
-absl
+std
 :
 :
 optional

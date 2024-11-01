@@ -11,15 +11,9 @@ memory
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -325,7 +319,7 @@ TimingFrameInfo
 info
 )
 ;
-absl
+std
 :
 :
 optional
@@ -339,7 +333,7 @@ GetTimingFrameInfo
 void
 SetMaxCompositionDelayInFrames
 (
-absl
+std
 :
 :
 optional
@@ -503,7 +497,7 @@ RTC_GUARDED_BY
 mutex_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -523,7 +517,7 @@ RTC_GUARDED_BY
 mutex_
 )
 ;
-absl
+std
 :
 :
 optional

@@ -29,6 +29,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -65,17 +70,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -566,7 +560,7 @@ void
 set_unwritable_timeout
 (
 const
-absl
+std
 :
 :
 optional
@@ -587,7 +581,7 @@ void
 set_unwritable_min_checks
 (
 const
-absl
+std
 :
 :
 optional
@@ -608,7 +602,7 @@ void
 set_inactive_timeout
 (
 const
-absl
+std
 :
 :
 optional
@@ -808,7 +802,7 @@ const
 void
 set_receiving_timeout
 (
-absl
+std
 :
 :
 optional
@@ -891,7 +885,7 @@ absl
 string_view
 request_id
 const
-absl
+std
 :
 :
 optional
@@ -901,7 +895,7 @@ uint32_t
 &
 nomination
 =
-absl
+std
 :
 :
 nullopt
@@ -937,7 +931,7 @@ last_ping_response_received
 const
 ;
 const
-absl
+std
 :
 :
 optional
@@ -969,7 +963,7 @@ void
 ReceivedPing
 (
 const
-absl
+std
 :
 :
 optional
@@ -982,7 +976,7 @@ string
 &
 request_id
 =
-absl
+std
 :
 :
 nullopt
@@ -1168,7 +1162,7 @@ bool
 TooManyOutstandingPings
 (
 const
-absl
+std
 :
 :
 optional
@@ -1419,14 +1413,14 @@ ClearStunDictConsumer
 {
 goog_delta_consumer_
 =
-absl
+std
 :
 :
 nullopt
 ;
 goog_delta_ack_consumer_
 =
-absl
+std
 :
 :
 nullopt
@@ -1790,7 +1784,7 @@ network_thread_
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -1853,7 +1847,7 @@ RTC_GUARDED_BY
 network_thread_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1869,7 +1863,7 @@ RTC_GUARDED_BY
 network_thread_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1882,7 +1876,7 @@ RTC_GUARDED_BY
 network_thread_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1895,7 +1889,7 @@ RTC_GUARDED_BY
 network_thread_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1915,7 +1909,7 @@ RTC_GUARDED_BY
 network_thread_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1953,7 +1947,7 @@ network_thread_
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -1982,7 +1976,7 @@ network_thread_
 =
 nullptr
 ;
-absl
+std
 :
 :
 optional
@@ -2023,7 +2017,7 @@ RTC_GUARDED_BY
 network_thread_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -2049,7 +2043,7 @@ StunByteStringAttribute
 >
 goog_delta_consumer_
 ;
-absl
+std
 :
 :
 optional

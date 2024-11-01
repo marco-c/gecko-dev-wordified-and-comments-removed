@@ -6,15 +6,9 @@ define
 MODULES_CONGESTION_CONTROLLER_GOOG_CC_LINK_CAPACITY_ESTIMATOR_H_
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -102,7 +96,7 @@ deviation_estimate_kbps
 )
 const
 ;
-absl
+std
 :
 :
 optional

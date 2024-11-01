@@ -416,7 +416,7 @@ mode
 ;
 ABSL_FLAG
 (
-absl
+std
 :
 :
 optional
@@ -424,7 +424,7 @@ optional
 int
 >
 width
-absl
+std
 :
 :
 nullopt
@@ -437,7 +437,7 @@ width
 ;
 ABSL_FLAG
 (
-absl
+std
 :
 :
 optional
@@ -445,7 +445,7 @@ optional
 int
 >
 height
-absl
+std
 :
 :
 nullopt
@@ -502,7 +502,7 @@ kbps
 ;
 ABSL_FLAG
 (
-absl
+std
 :
 :
 optional
@@ -510,7 +510,7 @@ optional
 double
 >
 framerate_fps
-absl
+std
 :
 :
 nullopt
@@ -1395,7 +1395,7 @@ encoder_factory
 QueryCodecSupport
 (
 sdp_video_format
-absl
+std
 :
 :
 nullopt
@@ -1815,7 +1815,7 @@ encoder_factory
 QueryCodecSupport
 (
 sdp_video_format
-absl
+std
 :
 :
 nullopt

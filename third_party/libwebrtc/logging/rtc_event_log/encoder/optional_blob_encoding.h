@@ -14,6 +14,11 @@ h
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -32,17 +37,6 @@ string_view
 .
 h
 "
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 namespace
 webrtc
 {
@@ -58,7 +52,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -78,7 +72,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional

@@ -6,15 +6,9 @@ define
 CALL_ADAPTATION_ENCODER_SETTINGS_H_
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -135,7 +129,7 @@ VideoCodecType
 GetVideoCodecTypeOrGeneric
 (
 const
-absl
+std
 :
 :
 optional

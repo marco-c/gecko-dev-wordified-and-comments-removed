@@ -1865,7 +1865,7 @@ absl
 :
 string_view
 value
-absl
+std
 :
 :
 optional
@@ -1911,7 +1911,7 @@ SetSettingIfSpecified
 (
 int
 value
-absl
+std
 :
 :
 optional
@@ -1942,7 +1942,7 @@ SetSettingIfSpecified
 (
 float
 value
-absl
+std
 :
 :
 optional
@@ -1979,7 +1979,7 @@ SetSettingIfFlagSet
 (
 int32_t
 flag
-absl
+std
 :
 :
 optional
@@ -3118,7 +3118,7 @@ kFramesPerSecond
 =
 100
 ;
-absl
+std
 :
 :
 optional
@@ -3155,7 +3155,7 @@ start_seconds
 kFramesPerSecond
 ;
 }
-absl
+std
 :
 :
 optional

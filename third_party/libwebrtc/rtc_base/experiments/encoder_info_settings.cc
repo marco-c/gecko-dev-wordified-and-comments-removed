@@ -316,7 +316,7 @@ return
 }
 ;
 }
-absl
+std
 :
 :
 optional
@@ -439,7 +439,7 @@ return
 }
 ;
 }
-absl
+std
 :
 :
 optional
@@ -454,7 +454,7 @@ EncoderInfoSettings
 :
 GetSinglecastBitrateLimitForResolutionWhenQpIsUntrusted
 (
-absl
+std
 :
 :
 optional
@@ -498,7 +498,7 @@ value
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -571,7 +571,7 @@ empty
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -887,7 +887,7 @@ max_bitrate_bps
 max_bitrate_bps
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -1084,7 +1084,7 @@ Get
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1128,7 +1128,7 @@ ignored
 "
 ;
 return
-absl
+std
 :
 :
 nullopt

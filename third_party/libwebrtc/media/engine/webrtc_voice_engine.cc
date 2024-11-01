@@ -47,6 +47,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -105,17 +110,6 @@ absl
 strings
 /
 match
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -1031,7 +1025,7 @@ ref_name
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1082,7 +1076,7 @@ c
 }
 }
 return
-absl
+std
 :
 :
 nullopt
@@ -1180,7 +1174,7 @@ end
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1223,7 +1217,7 @@ audio_network_adaptor_config
 ;
 }
 return
-absl
+std
 :
 :
 nullopt
@@ -1273,7 +1267,7 @@ b
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1284,7 +1278,7 @@ ComputeSendBitrate
 (
 int
 max_send_bitrate_bps
-absl
+std
 :
 :
 optional
@@ -1396,7 +1390,7 @@ bps
 "
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -1521,7 +1515,7 @@ use_slow_adaptation
 =
 true
 ;
-absl
+std
 :
 :
 optional
@@ -1762,7 +1756,7 @@ SdpAudioFormat
 >
 &
 decoder_map
-absl
+std
 :
 :
 optional
@@ -4070,7 +4064,7 @@ present
 ;
 }
 }
-absl
+std
 :
 :
 optional
@@ -4324,7 +4318,7 @@ Codec
 out
 )
 {
-absl
+std
 :
 :
 optional
@@ -4405,7 +4399,7 @@ spec
 specs
 )
 {
-absl
+std
 :
 :
 optional
@@ -4708,7 +4702,7 @@ std
 string
 track_id
 const
-absl
+std
 :
 :
 optional
@@ -4746,7 +4740,7 @@ max_send_bitrate_bps
 int
 rtcp_report_interval_ms
 const
-absl
+std
 :
 :
 optional
@@ -4784,7 +4778,7 @@ AudioEncoderFactory
 &
 encoder_factory
 const
-absl
+std
 :
 :
 optional
@@ -5291,7 +5285,7 @@ void
 SetAudioNetworkAdaptorConfig
 (
 const
-absl
+std
 :
 :
 optional
@@ -5671,7 +5665,7 @@ size_t
 number_of_channels
 size_t
 number_of_frames
-absl
+std
 :
 :
 optional
@@ -5908,7 +5902,7 @@ error
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -5970,7 +5964,7 @@ INTERNAL_ERROR
 }
 }
 const
-absl
+std
 :
 :
 optional
@@ -6814,7 +6808,7 @@ webrtc
 RtpParameters
 rtp_parameters_
 ;
-absl
+std
 :
 :
 optional
@@ -6826,7 +6820,7 @@ AudioCodecSpec
 >
 audio_codec_spec_
 ;
-absl
+std
 :
 :
 optional
@@ -7063,7 +7057,7 @@ ApplyOptions
 options_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -7180,7 +7174,7 @@ ToString
 (
 )
 ;
-absl
+std
 :
 :
 optional
@@ -7584,7 +7578,7 @@ options
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -7615,7 +7609,7 @@ format
 ;
 }
 return
-absl
+std
 :
 :
 nullopt
@@ -7637,7 +7631,7 @@ Codec
 >
 &
 codecs
-absl
+std
 :
 :
 optional
@@ -7654,7 +7648,7 @@ worker_thread_
 ;
 dtmf_payload_type_
 =
-absl
+std
 :
 :
 nullopt
@@ -7780,7 +7774,7 @@ clockrate
 }
 }
 }
-absl
+std
 :
 :
 optional
@@ -7804,7 +7798,7 @@ webrtc
 BitrateConstraints
 bitrate_config
 ;
-absl
+std
 :
 :
 optional
@@ -8694,7 +8688,7 @@ return
 false
 ;
 }
-absl
+std
 :
 :
 optional
@@ -10682,7 +10676,7 @@ SetPreferredDscp
 new_dscp
 )
 ;
-absl
+std
 :
 :
 optional
@@ -12212,7 +12206,7 @@ codec
 codecs
 )
 {
-absl
+std
 :
 :
 optional
@@ -13267,7 +13261,7 @@ ssrc
 ;
 }
 }
-absl
+std
 :
 :
 optional
@@ -13292,7 +13286,7 @@ empty
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -13845,7 +13839,7 @@ return
 true
 ;
 }
-absl
+std
 :
 :
 optional
@@ -13910,7 +13904,7 @@ GetBaseMinimumPlayoutDelayMs
 ;
 }
 return
-absl
+std
 :
 :
 nullopt

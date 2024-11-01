@@ -17,19 +17,13 @@ cstdint
 #
 include
 <
-vector
+optional
 >
 #
 include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
+<
+vector
+>
 #
 include
 "
@@ -700,7 +694,7 @@ OnCapturedFrame
 frame
 )
 ;
-absl
+std
 :
 :
 optional
@@ -959,7 +953,7 @@ OnCapturedFrame
 frame
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1219,7 +1213,7 @@ OnEncodedImage
 encoded_image1
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1719,7 +1713,7 @@ OnCapturedFrame
 frame2
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1742,7 +1736,7 @@ OnEncodedImage
 encoded_image1
 )
 ;
-absl
+std
 :
 :
 optional
@@ -2036,7 +2030,7 @@ OnCapturedFrame
 frame
 )
 ;
-absl
+std
 :
 :
 optional
@@ -2059,7 +2053,7 @@ OnEncodedImage
 encoded_image1
 )
 ;
-absl
+std
 :
 :
 optional

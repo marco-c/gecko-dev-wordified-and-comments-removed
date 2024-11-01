@@ -9,15 +9,9 @@ h
 "
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -644,7 +638,7 @@ return
 nullptr
 ;
 }
-absl
+std
 :
 :
 optional
@@ -658,7 +652,7 @@ const
 override
 {
 return
-absl
+std
 :
 :
 nullopt

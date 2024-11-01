@@ -1317,7 +1317,7 @@ Frame
 >
 >
 encoded_frames
-absl
+std
 :
 :
 optional
@@ -1326,7 +1326,7 @@ int
 >
 num_source_frames
 =
-absl
+std
 :
 :
 nullopt
@@ -1853,7 +1853,7 @@ framerate
 )
 {
 }
-absl
+std
 :
 :
 optional
@@ -1874,7 +1874,7 @@ num_frames_
 )
 {
 return
-absl
+std
 :
 :
 nullopt

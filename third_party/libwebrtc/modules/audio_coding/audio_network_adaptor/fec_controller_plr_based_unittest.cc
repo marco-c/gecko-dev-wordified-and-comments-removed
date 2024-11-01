@@ -261,7 +261,7 @@ FecControllerPlrBasedTestStates
 *
 states
 const
-absl
+std
 :
 :
 optional
@@ -271,7 +271,7 @@ int
 &
 uplink_bandwidth_bps
 const
-absl
+std
 :
 :
 optional
@@ -508,7 +508,7 @@ UpdateNetworkMetrics
 (
 &
 states
-absl
+std
 :
 :
 nullopt
@@ -579,7 +579,7 @@ UpdateNetworkMetrics
 &
 states
 bandwidth
-absl
+std
 :
 :
 nullopt

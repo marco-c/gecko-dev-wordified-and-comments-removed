@@ -7,19 +7,13 @@ API_TEST_VIDEO_TEST_VIDEO_TRACK_SOURCE_H_
 #
 include
 <
-string
+optional
 >
 #
 include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
+<
+string
+>
 #
 include
 "
@@ -133,7 +127,7 @@ TestVideoTrackSource
 (
 bool
 remote
-absl
+std
 :
 :
 optional
@@ -145,7 +139,7 @@ string
 >
 stream_label
 =
-absl
+std
 :
 :
 nullopt
@@ -195,7 +189,7 @@ return
 false
 ;
 }
-absl
+std
 :
 :
 optional
@@ -209,7 +203,7 @@ const
 override
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -381,7 +375,7 @@ width
 int
 height
 const
-absl
+std
 :
 :
 optional
@@ -394,7 +388,7 @@ max_fps
 {
 }
 virtual
-absl
+std
 :
 :
 optional
@@ -432,7 +426,7 @@ source
 private
 :
 const
-absl
+std
 :
 :
 optional

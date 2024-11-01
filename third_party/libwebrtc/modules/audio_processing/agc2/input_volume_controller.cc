@@ -769,7 +769,7 @@ MonoInputVolumeController
 :
 Process
 (
-absl
+std
 :
 :
 optional
@@ -1807,7 +1807,7 @@ clipping_rate_log_counter_
 ;
 applied_input_volume_
 =
-absl
+std
 :
 :
 nullopt
@@ -2259,7 +2259,7 @@ AggregateChannelLevels
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -2273,7 +2273,7 @@ RecommendInputVolume
 (
 float
 speech_probability
-absl
+std
 :
 :
 optional
@@ -2312,7 +2312,7 @@ set
 "
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -2338,7 +2338,7 @@ return
 applied_input_volume_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -2406,7 +2406,7 @@ recommended_input_volume_
 }
 applied_input_volume_
 =
-absl
+std
 :
 :
 nullopt

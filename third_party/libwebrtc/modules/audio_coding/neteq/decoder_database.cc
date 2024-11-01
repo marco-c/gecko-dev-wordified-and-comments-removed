@@ -128,7 +128,7 @@ scoped_refptr
 AudioDecoderFactory
 >
 decoder_factory
-absl
+std
 :
 :
 optional
@@ -194,7 +194,7 @@ const
 SdpAudioFormat
 &
 audio_format
-absl
+std
 :
 :
 optional
@@ -382,7 +382,7 @@ name
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -478,7 +478,7 @@ sample_rate_hz
 else
 {
 return
-absl
+std
 :
 :
 nullopt

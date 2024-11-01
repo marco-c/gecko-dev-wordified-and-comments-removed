@@ -394,7 +394,7 @@ LimitNackListSize
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -450,7 +450,7 @@ sample_rate_khz_
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -500,7 +500,7 @@ sequence_num_last_decoded_rtp_
 )
 )
 ;
-absl
+std
 :
 :
 optional

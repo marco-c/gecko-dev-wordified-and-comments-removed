@@ -12,6 +12,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -19,17 +24,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -281,7 +275,7 @@ std
 string
 codec_name
 ;
-absl
+std
 :
 :
 optional
@@ -486,7 +480,7 @@ has_dscp
 =
 false
 ;
-absl
+std
 :
 :
 optional
@@ -581,7 +575,7 @@ enable_non_sender_rtt
 =
 false
 ;
-absl
+std
 :
 :
 optional
@@ -590,7 +584,7 @@ int
 >
 cng_payload_type
 ;
-absl
+std
 :
 :
 optional
@@ -599,7 +593,7 @@ int
 >
 red_payload_type
 ;
-absl
+std
 :
 :
 optional
@@ -610,7 +604,7 @@ target_bitrate_bps
 ;
 }
 ;
-absl
+std
 :
 :
 optional
@@ -628,7 +622,7 @@ AudioEncoderFactory
 >
 encoder_factory
 ;
-absl
+std
 :
 :
 optional

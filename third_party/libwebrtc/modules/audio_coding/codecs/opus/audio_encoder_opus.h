@@ -17,6 +17,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -32,17 +37,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -147,7 +141,7 @@ AudioEncoder
 public
 :
 static
-absl
+std
 :
 :
 optional
@@ -163,7 +157,7 @@ config
 )
 ;
 static
-absl
+std
 :
 :
 optional
@@ -411,7 +405,7 @@ OnReceivedUplinkBandwidth
 (
 int
 target_audio_bitrate_bps
-absl
+std
 :
 :
 optional
@@ -463,7 +457,7 @@ GetANAStats
 const
 override
 ;
-absl
+std
 :
 :
 optional
@@ -616,7 +610,7 @@ bitrate_smoother
 )
 ;
 static
-absl
+std
 :
 :
 optional
@@ -709,7 +703,7 @@ OnReceivedUplinkBandwidth
 (
 int
 target_audio_bitrate_bps
-absl
+std
 :
 :
 optional
@@ -717,7 +711,7 @@ optional
 int64_t
 >
 bwe_period_ms
-absl
+std
 :
 :
 optional
@@ -842,7 +836,7 @@ AudioNetworkAdaptor
 >
 audio_network_adaptor_
 ;
-absl
+std
 :
 :
 optional
@@ -861,7 +855,7 @@ SmoothingFilter
 >
 bitrate_smoother_
 ;
-absl
+std
 :
 :
 optional

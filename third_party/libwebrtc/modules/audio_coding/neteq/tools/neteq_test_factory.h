@@ -12,6 +12,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -22,17 +27,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -466,7 +460,7 @@ std
 string
 replacement_audio_file
 ;
-absl
+std
 :
 :
 optional
@@ -644,7 +638,7 @@ textlog
 =
 false
 ;
-absl
+std
 :
 :
 optional
@@ -656,7 +650,7 @@ string
 >
 textlog_filename
 ;
-absl
+std
 :
 :
 optional
@@ -668,7 +662,7 @@ string
 >
 plot_scripts_basename
 ;
-absl
+std
 :
 :
 optional

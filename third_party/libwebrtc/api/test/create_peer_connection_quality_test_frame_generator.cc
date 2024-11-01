@@ -17,6 +17,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -29,17 +34,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -261,7 +255,7 @@ const
 VideoConfig
 &
 video_config
-absl
+std
 :
 :
 optional
@@ -296,7 +290,7 @@ move
 (
 type
 )
-absl
+std
 :
 :
 nullopt

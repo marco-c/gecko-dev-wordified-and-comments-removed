@@ -1609,7 +1609,7 @@ video_format
 void
 set_is_qp_trusted
 (
-absl
+std
 :
 :
 optional
@@ -1737,7 +1737,7 @@ supports_simulcast_
 =
 false
 ;
-absl
+std
 :
 :
 optional
@@ -2310,21 +2310,21 @@ CreateMockEncoderAdapter
 ;
 last_encoded_image_width_
 =
-absl
+std
 :
 :
 nullopt
 ;
 last_encoded_image_height_
 =
-absl
+std
 :
 :
 nullopt
 ;
 last_encoded_image_simulcast_index_
 =
-absl
+std
 :
 :
 nullopt
@@ -2411,7 +2411,7 @@ RtpTimestamp
 bool
 GetLastEncodedImageInfo
 (
-absl
+std
 :
 :
 optional
@@ -2420,7 +2420,7 @@ int
 >
 *
 out_width
-absl
+std
 :
 :
 optional
@@ -2429,7 +2429,7 @@ int
 >
 *
 out_height
-absl
+std
 :
 :
 optional
@@ -3294,7 +3294,7 @@ adapter_
 VideoCodec
 codec_
 ;
-absl
+std
 :
 :
 optional
@@ -3303,7 +3303,7 @@ int
 >
 last_encoded_image_width_
 ;
-absl
+std
 :
 :
 optional
@@ -3312,7 +3312,7 @@ int
 >
 last_encoded_image_height_
 ;
-absl
+std
 :
 :
 optional
@@ -3576,7 +3576,7 @@ SendEncodedImage
 704
 )
 ;
-absl
+std
 :
 :
 optional
@@ -3585,7 +3585,7 @@ int
 >
 width
 ;
-absl
+std
 :
 :
 optional
@@ -3594,7 +3594,7 @@ int
 >
 height
 ;
-absl
+std
 :
 :
 optional
@@ -5286,7 +5286,7 @@ SendEncodedImage
 704
 )
 ;
-absl
+std
 :
 :
 optional
@@ -5295,7 +5295,7 @@ int
 >
 width
 ;
-absl
+std
 :
 :
 optional
@@ -5304,7 +5304,7 @@ int
 >
 height
 ;
-absl
+std
 :
 :
 optional

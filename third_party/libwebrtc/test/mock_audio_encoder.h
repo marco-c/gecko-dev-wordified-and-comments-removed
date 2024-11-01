@@ -133,7 +133,7 @@ override
 MOCK_METHOD
 (
 (
-absl
+std
 :
 :
 optional
@@ -160,7 +160,7 @@ override
 MOCK_METHOD
 (
 (
-absl
+std
 :
 :
 optional
@@ -254,7 +254,7 @@ OnReceivedUplinkBandwidth
 (
 int
 target_audio_bitrate_bps
-absl
+std
 :
 :
 optional

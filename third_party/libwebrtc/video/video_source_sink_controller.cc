@@ -295,7 +295,7 @@ return
 restrictions_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -320,7 +320,7 @@ return
 pixels_per_frame_upper_limit_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -435,7 +435,7 @@ return
 active_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -499,7 +499,7 @@ VideoSourceSinkController
 :
 SetPixelsPerFrameUpperLimit
 (
-absl
+std
 :
 :
 optional
@@ -532,7 +532,7 @@ VideoSourceSinkController
 :
 SetFrameRateUpperLimit
 (
-absl
+std
 :
 :
 optional
@@ -667,7 +667,7 @@ VideoSourceSinkController
 :
 SetRequestedResolution
 (
-absl
+std
 :
 :
 optional
@@ -773,7 +773,7 @@ has_value
 (
 )
 ?
-absl
+std
 :
 :
 optional
@@ -801,7 +801,7 @@ value
 )
 )
 :
-absl
+std
 :
 :
 nullopt

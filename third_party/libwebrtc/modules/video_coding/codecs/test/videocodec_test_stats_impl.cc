@@ -561,11 +561,11 @@ last_frame_num
 spatial_idx
 temporal_idx
 false
-absl
+std
 :
 :
 nullopt
-absl
+std
 :
 :
 nullopt
@@ -640,11 +640,11 @@ num_temporal_layers
 -
 1
 true
-absl
+std
 :
 :
 nullopt
-absl
+std
 :
 :
 nullopt
@@ -938,7 +938,7 @@ size_t
 temporal_idx
 bool
 aggregate_independent_layers
-absl
+std
 :
 :
 optional
@@ -946,7 +946,7 @@ optional
 DataRate
 >
 target_bitrate
-absl
+std
 :
 :
 optional

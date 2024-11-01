@@ -28,15 +28,9 @@ cstdint
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -422,7 +416,7 @@ MinusInfinity
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -479,7 +473,7 @@ end
 )
 {
 return
-absl
+std
 :
 :
 nullopt

@@ -351,7 +351,7 @@ test
 {
 namespace
 {
-absl
+std
 :
 :
 optional
@@ -556,7 +556,7 @@ return
 0
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -727,7 +727,7 @@ NetEqPostInsertPacket
 *
 other_callback_
 ;
-absl
+std
 :
 :
 optional
@@ -1452,7 +1452,7 @@ nullptr
 }
 }
 }
-absl
+std
 :
 :
 optional
@@ -1479,7 +1479,7 @@ discarded_pt_and_ssrc
 ;
 while
 (
-absl
+std
 :
 :
 optional
@@ -2237,7 +2237,7 @@ const
 SdpAudioFormat
 &
 format
-absl
+std
 :
 :
 optional

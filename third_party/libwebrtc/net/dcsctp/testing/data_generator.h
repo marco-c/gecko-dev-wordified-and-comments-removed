@@ -12,6 +12,11 @@ cstdint
 #
 include
 <
+optional
+>
+#
+include
+<
 vector
 >
 #
@@ -22,17 +27,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -85,7 +79,7 @@ StreamID
 1
 )
 ;
-absl
+std
 :
 :
 optional
@@ -94,7 +88,7 @@ MID
 >
 mid
 =
-absl
+std
 :
 :
 nullopt

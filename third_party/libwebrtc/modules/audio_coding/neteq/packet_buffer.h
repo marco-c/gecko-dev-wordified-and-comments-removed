@@ -6,15 +6,9 @@ define
 MODULES_AUDIO_CODING_NETEQ_PACKET_BUFFER_H_
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -177,7 +171,7 @@ PeekNextPacket
 const
 ;
 virtual
-absl
+std
 :
 :
 optional

@@ -6,15 +6,9 @@ define
 PC_VIDEO_TRACK_SOURCE_H_
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -205,7 +199,7 @@ return
 false
 ;
 }
-absl
+std
 :
 :
 optional
@@ -219,7 +213,7 @@ const
 override
 {
 return
-absl
+std
 :
 :
 nullopt

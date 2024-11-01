@@ -6,15 +6,9 @@ define
 RTC_BASE_EXPERIMENTS_RATE_CONTROL_SETTINGS_H_
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -87,7 +81,7 @@ WebRTC
 CongestionWindow
 "
 ;
-absl
+std
 :
 :
 optional
@@ -96,7 +90,7 @@ int
 >
 queue_size_ms
 ;
-absl
+std
 :
 :
 optional
@@ -105,7 +99,7 @@ int
 >
 min_bitrate_bps
 ;
-absl
+std
 :
 :
 optional
@@ -159,7 +153,7 @@ WebRTC
 VideoRateControl
 "
 ;
-absl
+std
 :
 :
 optional
@@ -173,7 +167,7 @@ alr_probing
 =
 false
 ;
-absl
+std
 :
 :
 optional
@@ -182,7 +176,7 @@ int
 >
 vp8_qp_max
 ;
-absl
+std
 :
 :
 optional
@@ -291,7 +285,7 @@ CongestionWindowMinPushbackTargetBitrateBps
 )
 const
 ;
-absl
+std
 :
 :
 optional
@@ -303,7 +297,7 @@ CongestionWindowInitialDataWindow
 )
 const
 ;
-absl
+std
 :
 :
 optional
@@ -321,7 +315,7 @@ UseAlrProbing
 )
 const
 ;
-absl
+std
 :
 :
 optional
@@ -333,7 +327,7 @@ LibvpxVp8QpMax
 )
 const
 ;
-absl
+std
 :
 :
 optional

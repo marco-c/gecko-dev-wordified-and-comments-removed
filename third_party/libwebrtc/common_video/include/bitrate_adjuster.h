@@ -20,15 +20,9 @@ h
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -132,7 +126,7 @@ GetAdjustedBitrateBps
 )
 const
 ;
-absl
+std
 :
 :
 optional

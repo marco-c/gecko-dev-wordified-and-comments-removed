@@ -329,7 +329,7 @@ void
 audio_buffer
 size_t
 samples_per_channel
-absl
+std
 :
 :
 optional
@@ -529,7 +529,7 @@ play_delay_ms_
 int
 rec_delay_ms_
 ;
-absl
+std
 :
 :
 optional
@@ -538,7 +538,7 @@ int64_t
 >
 capture_timestamp_ns_
 ;
-absl
+std
 :
 :
 optional

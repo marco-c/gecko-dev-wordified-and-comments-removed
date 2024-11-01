@@ -4475,7 +4475,7 @@ codec_specific
 .
 template_structure
 =
-absl
+std
 :
 :
 nullopt
@@ -6632,7 +6632,7 @@ codec_specific
 .
 template_structure
 =
-absl
+std
 :
 :
 nullopt
@@ -7860,7 +7860,7 @@ codec_specific
 .
 template_structure
 =
-absl
+std
 :
 :
 nullopt

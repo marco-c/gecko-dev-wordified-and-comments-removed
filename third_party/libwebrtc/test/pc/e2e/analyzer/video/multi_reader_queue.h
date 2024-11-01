@@ -17,6 +17,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 set
 >
 #
@@ -24,17 +29,6 @@ include
 <
 unordered_map
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -397,7 +391,7 @@ size
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -431,7 +425,7 @@ size
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -485,7 +479,7 @@ return
 out
 ;
 }
-absl
+std
 :
 :
 optional
@@ -520,7 +514,7 @@ size
 )
 {
 return
-absl
+std
 :
 :
 nullopt

@@ -41,6 +41,11 @@ numeric
 #
 include
 <
+optional
+>
+#
+include
+<
 utility
 >
 #
@@ -56,17 +61,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -972,7 +966,7 @@ if
 safe_reset_on_route_change_
 )
 {
-absl
+std
 :
 :
 optional
@@ -1276,7 +1270,7 @@ enable_repeated_initial_probing
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1381,7 +1375,7 @@ msg
 at_time
 )
 ;
-absl
+std
 :
 :
 optional
@@ -2841,7 +2835,7 @@ lost_packets_since_last_loss_update_
 ;
 }
 }
-absl
+std
 :
 :
 optional
@@ -3006,7 +3000,7 @@ GetCurrentEstimate
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -3356,7 +3350,7 @@ GoogCcNetworkController
 :
 SetNetworkStateEstimate
 (
-absl
+std
 :
 :
 optional

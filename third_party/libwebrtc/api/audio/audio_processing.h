@@ -58,6 +58,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -84,17 +89,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -2738,7 +2732,7 @@ capture_audio
 struct
 Metrics
 {
-absl
+std
 :
 :
 optional
@@ -2747,7 +2741,7 @@ double
 >
 echo_likelihood
 ;
-absl
+std
 :
 :
 optional

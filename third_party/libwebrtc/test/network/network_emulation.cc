@@ -44,6 +44,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -64,17 +69,6 @@ absl
 base
 /
 nullability
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -2295,7 +2289,7 @@ Stop
 ;
 }
 ;
-absl
+std
 :
 :
 optional
@@ -2384,7 +2378,7 @@ Process
 current_time
 )
 ;
-absl
+std
 :
 :
 optional
@@ -2791,7 +2785,7 @@ task_queue_
 ;
 default_receiver_
 =
-absl
+std
 :
 :
 nullopt
@@ -3639,7 +3633,7 @@ packet
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -3667,7 +3661,7 @@ false
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -3695,7 +3689,7 @@ true
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -3912,7 +3906,7 @@ options_
 id
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -4220,7 +4214,7 @@ id
 ;
 default_receiver_
 =
-absl
+std
 :
 :
 nullopt

@@ -17,6 +17,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 utility
 >
 #
@@ -24,17 +29,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -253,7 +247,7 @@ nacks_sent
 int64_t
 capture_start_ntp_time_ms_
 ;
-absl
+std
 :
 :
 optional
@@ -262,7 +256,7 @@ Timestamp
 >
 last_packet_received
 ;
-absl
+std
 :
 :
 optional
@@ -271,7 +265,7 @@ int64_t
 >
 last_sender_report_timestamp_ms
 ;
-absl
+std
 :
 :
 optional
@@ -295,7 +289,7 @@ sender_reports_reports_count
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -388,7 +382,7 @@ StopPlayout
 0
 ;
 virtual
-absl
+std
 :
 :
 optional
@@ -527,7 +521,7 @@ time_ms
 0
 ;
 virtual
-absl
+std
 :
 :
 optional
@@ -563,7 +557,7 @@ const
 0
 ;
 virtual
-absl
+std
 :
 :
 optional
@@ -795,7 +789,7 @@ scoped_refptr
 AudioDecoderFactory
 >
 decoder_factory
-absl
+std
 :
 :
 optional

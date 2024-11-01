@@ -12,15 +12,9 @@ memory
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -370,7 +364,7 @@ VideoFrame
 >
 decoded_frame
 ;
-absl
+std
 :
 :
 optional
@@ -588,7 +582,7 @@ VideoFrame
 >
 decoded_frame
 ;
-absl
+std
 :
 :
 optional

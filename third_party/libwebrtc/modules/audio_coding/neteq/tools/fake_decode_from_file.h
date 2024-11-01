@@ -11,15 +11,9 @@ memory
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -229,7 +223,7 @@ InputAudioFile
 >
 input_
 ;
-absl
+std
 :
 :
 optional

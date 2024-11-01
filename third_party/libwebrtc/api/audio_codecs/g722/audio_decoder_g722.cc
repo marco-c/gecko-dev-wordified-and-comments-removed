@@ -19,6 +19,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 vector
 >
 #
@@ -29,17 +34,6 @@ absl
 strings
 /
 match
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -123,7 +117,7 @@ h
 namespace
 webrtc
 {
-absl
+std
 :
 :
 optional
@@ -205,7 +199,7 @@ num_channels
 ;
 }
 return
-absl
+std
 :
 :
 nullopt
@@ -264,7 +258,7 @@ MakeAudioDecoder
 (
 Config
 config
-absl
+std
 :
 :
 optional

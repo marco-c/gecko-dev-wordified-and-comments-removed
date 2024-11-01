@@ -1045,7 +1045,7 @@ rtc
 Buffer
 buffer_
 ;
-absl
+std
 :
 :
 optional
@@ -1057,7 +1057,7 @@ PpsState
 >
 parsed_pps_
 ;
-absl
+std
 :
 :
 optional

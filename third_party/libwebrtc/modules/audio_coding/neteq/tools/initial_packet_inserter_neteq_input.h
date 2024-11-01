@@ -65,7 +65,7 @@ int
 sample_rate_hz
 )
 ;
-absl
+std
 :
 :
 optional
@@ -78,7 +78,7 @@ NextPacketTime
 const
 override
 ;
-absl
+std
 :
 :
 optional
@@ -91,7 +91,7 @@ NextOutputEventTime
 const
 override
 ;
-absl
+std
 :
 :
 optional
@@ -135,7 +135,7 @@ ended
 const
 override
 ;
-absl
+std
 :
 :
 optional

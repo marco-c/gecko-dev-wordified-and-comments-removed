@@ -125,7 +125,7 @@ uint32_t
 csrcs
 )
 ;
-absl
+std
 :
 :
 optional
@@ -142,7 +142,7 @@ int
 rtp_clock_frequency_hz
 NtpTime
 absolute_capture_time
-absl
+std
 :
 :
 optional
@@ -161,7 +161,7 @@ false
 deprecated
 ]
 ]
-absl
+std
 :
 :
 optional
@@ -178,7 +178,7 @@ uint32_t
 rtp_clock_frequency
 uint64_t
 absolute_capture_timestamp
-absl
+std
 :
 :
 optional
@@ -203,7 +203,7 @@ int
 rtp_clock_frequency_hz
 NtpTime
 absolute_capture_time
-absl
+std
 :
 :
 optional
@@ -241,7 +241,7 @@ last_rtp_clock_frequency_hz_
 NtpTime
 last_absolute_capture_time_
 ;
-absl
+std
 :
 :
 optional

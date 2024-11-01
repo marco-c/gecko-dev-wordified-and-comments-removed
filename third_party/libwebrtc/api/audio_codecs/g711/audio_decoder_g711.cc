@@ -24,6 +24,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 vector
 >
 #
@@ -34,17 +39,6 @@ absl
 strings
 /
 match
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -128,7 +122,7 @@ h
 namespace
 webrtc
 {
-absl
+std
 :
 :
 optional
@@ -266,7 +260,7 @@ RTC_DCHECK_NOTREACHED
 )
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -279,7 +273,7 @@ config
 else
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -357,7 +351,7 @@ const
 Config
 &
 config
-absl
+std
 :
 :
 optional

@@ -20,6 +20,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -32,17 +37,6 @@ include
 <
 utility
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -344,7 +338,7 @@ GetStats
 void
 FlushAndUpdateHistograms
 (
-absl
+std
 :
 :
 optional
@@ -639,7 +633,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 frame
-absl
+std
 :
 :
 nullopt
@@ -740,7 +734,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 frame
-absl
+std
 :
 :
 nullopt
@@ -772,7 +766,7 @@ kFps
 }
 FlushAndUpdateHistograms
 (
-absl
+std
 :
 :
 nullopt
@@ -895,7 +889,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 frame
-absl
+std
 :
 :
 nullopt
@@ -927,7 +921,7 @@ kFps
 }
 FlushAndUpdateHistograms
 (
-absl
+std
 :
 :
 nullopt
@@ -1026,7 +1020,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 frame
-absl
+std
 :
 :
 nullopt
@@ -1299,7 +1293,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 frame
-absl
+std
 :
 :
 nullopt
@@ -1553,7 +1547,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 frame
-absl
+std
 :
 :
 nullopt
@@ -1927,7 +1921,7 @@ OnDecodedFrameIncreasesQpSum
 {
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt
@@ -2028,7 +2022,7 @@ OnDecodedFrameIncreasesTotalDecodeTime
 {
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt
@@ -2345,7 +2339,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 frame
-absl
+std
 :
 :
 nullopt
@@ -2389,7 +2383,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 frame
-absl
+std
 :
 :
 nullopt
@@ -2436,7 +2430,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 frame
-absl
+std
 :
 :
 nullopt
@@ -2483,7 +2477,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 frame
-absl
+std
 :
 :
 nullopt
@@ -2592,7 +2586,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 frame
-absl
+std
 :
 :
 nullopt
@@ -2636,7 +2630,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 frame
-absl
+std
 :
 :
 nullopt
@@ -2683,7 +2677,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 frame
-absl
+std
 :
 :
 nullopt
@@ -2730,7 +2724,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 frame
-absl
+std
 :
 :
 nullopt
@@ -3439,7 +3433,7 @@ kHeight
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt
@@ -3459,7 +3453,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 frame
-absl
+std
 :
 :
 nullopt
@@ -3481,7 +3475,7 @@ kVideoFrameKey
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt
@@ -3513,7 +3507,7 @@ kHeight
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt
@@ -3566,7 +3560,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 frame
-absl
+std
 :
 :
 nullopt
@@ -3588,7 +3582,7 @@ kVideoFrameDelta
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt
@@ -3682,7 +3676,7 @@ GetStatsReportsOnCorruptionScore
 {
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt
@@ -3698,7 +3692,7 @@ corruption_score_sum
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt
@@ -3960,7 +3954,7 @@ EXPECT_EQ
 init_stats
 .
 decoder_implementation_name
-absl
+std
 :
 :
 nullopt
@@ -3971,7 +3965,7 @@ EXPECT_EQ
 init_stats
 .
 power_efficient_decoder
-absl
+std
 :
 :
 nullopt
@@ -4683,7 +4677,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 frame
-absl
+std
 :
 :
 nullopt
@@ -4726,7 +4720,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 frame
-absl
+std
 :
 :
 nullopt
@@ -4901,7 +4895,7 @@ kExpectedRtpTimestamp
 TimingFrameInfo
 info
 ;
-absl
+std
 :
 :
 optional
@@ -5060,7 +5054,7 @@ Seconds
 10
 )
 ;
-absl
+std
 :
 :
 optional
@@ -5204,7 +5198,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 frame
-absl
+std
 :
 :
 nullopt
@@ -5234,7 +5228,7 @@ statistics_proxy_
 >
 UpdateHistograms
 (
-absl
+std
 :
 :
 nullopt
@@ -5316,7 +5310,7 @@ statistics_proxy_
 >
 UpdateHistograms
 (
-absl
+std
 :
 :
 nullopt
@@ -5479,7 +5473,7 @@ kFreqKhz
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt
@@ -5698,7 +5692,7 @@ kFreqKhz
 }
 FlushAndUpdateHistograms
 (
-absl
+std
 :
 :
 nullopt
@@ -5864,7 +5858,7 @@ kFreqKhz
 ;
 FlushAndUpdateHistograms
 (
-absl
+std
 :
 :
 nullopt
@@ -5950,7 +5944,7 @@ kQp
 ;
 FlushAndUpdateHistograms
 (
-absl
+std
 :
 :
 nullopt
@@ -6049,7 +6043,7 @@ statistics_proxy_
 >
 UpdateHistograms
 (
-absl
+std
 :
 :
 nullopt
@@ -6118,7 +6112,7 @@ statistics_proxy_
 >
 UpdateHistograms
 (
-absl
+std
 :
 :
 nullopt
@@ -6218,7 +6212,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 frame
-absl
+std
 :
 :
 nullopt
@@ -6281,7 +6275,7 @@ statistics_proxy_
 >
 UpdateHistograms
 (
-absl
+std
 :
 :
 nullopt
@@ -6375,7 +6369,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 frame
-absl
+std
 :
 :
 nullopt
@@ -6436,7 +6430,7 @@ statistics_proxy_
 >
 UpdateHistograms
 (
-absl
+std
 :
 :
 nullopt
@@ -6543,7 +6537,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 frame
-absl
+std
 :
 :
 nullopt
@@ -6600,7 +6594,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 frame
-absl
+std
 :
 :
 nullopt
@@ -6661,7 +6655,7 @@ statistics_proxy_
 >
 UpdateHistograms
 (
-absl
+std
 :
 :
 nullopt
@@ -6788,7 +6782,7 @@ statistics_proxy_
 >
 UpdateHistograms
 (
-absl
+std
 :
 :
 nullopt
@@ -6963,7 +6957,7 @@ kRenderDelayMs
 }
 FlushAndUpdateHistograms
 (
-absl
+std
 :
 :
 nullopt
@@ -7194,7 +7188,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 frame
-absl
+std
 :
 :
 nullopt
@@ -7458,7 +7452,7 @@ statistics_proxy_
 >
 UpdateHistograms
 (
-absl
+std
 :
 :
 nullopt
@@ -7584,7 +7578,7 @@ statistics_proxy_
 >
 UpdateHistograms
 (
-absl
+std
 :
 :
 nullopt
@@ -7729,7 +7723,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 frame
-absl
+std
 :
 :
 nullopt
@@ -7785,7 +7779,7 @@ kMinRunTimeInSeconds
 ;
 FlushAndUpdateHistograms
 (
-absl
+std
 :
 :
 nullopt
@@ -7875,7 +7869,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 frame
-absl
+std
 :
 :
 nullopt
@@ -7940,7 +7934,7 @@ statistics_proxy_
 >
 UpdateHistograms
 (
-absl
+std
 :
 :
 nullopt
@@ -8011,7 +8005,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 frame
-absl
+std
 :
 :
 nullopt
@@ -8054,7 +8048,7 @@ statistics_proxy_
 >
 UpdateHistograms
 (
-absl
+std
 :
 :
 nullopt
@@ -8125,7 +8119,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 frame
-absl
+std
 :
 :
 nullopt
@@ -8185,7 +8179,7 @@ kMinRunTimeInSeconds
 ;
 FlushAndUpdateHistograms
 (
-absl
+std
 :
 :
 nullopt
@@ -8294,7 +8288,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 frame
-absl
+std
 :
 :
 nullopt
@@ -8406,7 +8400,7 @@ kMinRunTimeInSeconds
 ;
 FlushAndUpdateHistograms
 (
-absl
+std
 :
 :
 nullopt
@@ -8556,7 +8550,7 @@ statistics_proxy_
 >
 UpdateHistograms
 (
-absl
+std
 :
 :
 nullopt
@@ -8712,7 +8706,7 @@ statistics_proxy_
 >
 UpdateHistograms
 (
-absl
+std
 :
 :
 nullopt
@@ -9271,7 +9265,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 frame
-absl
+std
 :
 :
 nullopt
@@ -9309,7 +9303,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 frame
-absl
+std
 :
 :
 nullopt
@@ -9328,7 +9322,7 @@ kVideoFrameDelta
 ;
 FlushAndUpdateHistograms
 (
-absl
+std
 :
 :
 nullopt
@@ -9542,7 +9536,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 frame
-absl
+std
 :
 :
 nullopt
@@ -9591,7 +9585,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 frame
-absl
+std
 :
 :
 nullopt
@@ -9624,7 +9618,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 frame
-absl
+std
 :
 :
 nullopt
@@ -9643,7 +9637,7 @@ kVideoFrameKey
 ;
 FlushAndUpdateHistograms
 (
-absl
+std
 :
 :
 nullopt
@@ -9775,7 +9769,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 frame
-absl
+std
 :
 :
 nullopt
@@ -9805,7 +9799,7 @@ statistics_proxy_
 >
 UpdateHistograms
 (
-absl
+std
 :
 :
 nullopt
@@ -9945,7 +9939,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 frame
-absl
+std
 :
 :
 nullopt
@@ -9996,7 +9990,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 frame
-absl
+std
 :
 :
 nullopt
@@ -10026,7 +10020,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 frame
-absl
+std
 :
 :
 nullopt
@@ -10045,7 +10039,7 @@ kVideoFrameDelta
 ;
 FlushAndUpdateHistograms
 (
-absl
+std
 :
 :
 nullopt
@@ -10350,7 +10344,7 @@ statistics_proxy_
 >
 UpdateHistograms
 (
-absl
+std
 :
 :
 nullopt
@@ -10574,7 +10568,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 meta
-absl
+std
 :
 :
 nullopt
@@ -10640,7 +10634,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 meta
-absl
+std
 :
 :
 nullopt
@@ -10679,7 +10673,7 @@ meta
 ;
 FlushAndUpdateHistograms
 (
-absl
+std
 :
 :
 nullopt
@@ -10962,7 +10956,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 frame
-absl
+std
 :
 :
 nullopt
@@ -11004,7 +10998,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 frame
-absl
+std
 :
 :
 nullopt
@@ -11052,7 +11046,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 frame
-absl
+std
 :
 :
 nullopt
@@ -11082,7 +11076,7 @@ frame
 ;
 FlushAndUpdateHistograms
 (
-absl
+std
 :
 :
 nullopt
@@ -11311,7 +11305,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 meta
-absl
+std
 :
 :
 nullopt
@@ -11403,7 +11397,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 meta
-absl
+std
 :
 :
 nullopt
@@ -11450,7 +11444,7 @@ kInterFrameDelay
 }
 FlushAndUpdateHistograms
 (
-absl
+std
 :
 :
 nullopt
@@ -11637,7 +11631,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 frame
-absl
+std
 :
 :
 nullopt
@@ -11681,7 +11675,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 frame
-absl
+std
 :
 :
 nullopt
@@ -11711,7 +11705,7 @@ statistics_proxy_
 >
 UpdateHistograms
 (
-absl
+std
 :
 :
 nullopt
@@ -11849,7 +11843,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 meta
-absl
+std
 :
 :
 nullopt
@@ -11926,7 +11920,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 meta
-absl
+std
 :
 :
 nullopt
@@ -11987,7 +11981,7 @@ statistics_proxy_
 >
 UpdateHistograms
 (
-absl
+std
 :
 :
 nullopt
@@ -12278,7 +12272,7 @@ frame
 ;
 FlushAndUpdateHistograms
 (
-absl
+std
 :
 :
 nullopt
@@ -12408,7 +12402,7 @@ statistics_proxy_
 OnDecodedFrame
 (
 frame_hd
-absl
+std
 :
 :
 nullopt
@@ -12496,7 +12490,7 @@ statistics_proxy_
 >
 UpdateHistograms
 (
-absl
+std
 :
 :
 nullopt
@@ -12633,7 +12627,7 @@ kInterFrameDelay
 }
 FlushAndUpdateHistograms
 (
-absl
+std
 :
 :
 nullopt

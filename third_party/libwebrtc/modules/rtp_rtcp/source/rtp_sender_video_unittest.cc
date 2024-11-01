@@ -7583,7 +7583,7 @@ kDefaultExpectedRetransmissionTime
 }
 )
 ;
-absl
+std
 :
 :
 optional
@@ -7695,7 +7695,7 @@ kAbsoluteCaptureTime
 =
 {
 123
-absl
+std
 :
 :
 optional
@@ -7770,7 +7770,7 @@ kDefaultExpectedRetransmissionTime
 }
 )
 ;
-absl
+std
 :
 :
 optional
@@ -8050,7 +8050,7 @@ hdr
 .
 playout_delay
 =
-absl
+std
 :
 :
 nullopt
@@ -8505,7 +8505,7 @@ rtp_sender_video_
 SendVideo
 (
 kPayloadType
-absl
+std
 :
 :
 nullopt

@@ -253,7 +253,7 @@ test_buffer
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt

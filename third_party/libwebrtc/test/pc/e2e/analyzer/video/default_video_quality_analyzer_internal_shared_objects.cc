@@ -216,7 +216,7 @@ FrameComparison
 (
 InternalStatsKey
 stats_key
-absl
+std
 :
 :
 optional
@@ -224,7 +224,7 @@ optional
 VideoFrame
 >
 captured
-absl
+std
 :
 :
 optional

@@ -811,7 +811,7 @@ uint8_t
 digest
 size_t
 digest_len
-absl
+std
 :
 :
 optional
@@ -1109,7 +1109,7 @@ false
 void
 SetSslCipherSuite
 (
-absl
+std
 :
 :
 optional
@@ -1431,7 +1431,7 @@ GetError
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1549,7 +1549,7 @@ this
 void
 OnNetworkRouteChanged
 (
-absl
+std
 :
 :
 optional
@@ -1639,7 +1639,7 @@ rtc
 SSLFingerprint
 dtls_fingerprint_
 ;
-absl
+std
 :
 :
 optional
@@ -1659,7 +1659,7 @@ rtc
 :
 kSrtpAes128CmSha1_80
 ;
-absl
+std
 :
 :
 optional

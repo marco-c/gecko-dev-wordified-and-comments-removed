@@ -120,7 +120,7 @@ update
 0
 ;
 virtual
-absl
+std
 :
 :
 optional
@@ -175,7 +175,7 @@ enforce_min_bitrate
 double
 bitrate_priority
 ;
-absl
+std
 :
 :
 optional
@@ -285,7 +285,7 @@ config
 int64_t
 allocated_bitrate_bps
 ;
-absl
+std
 :
 :
 optional

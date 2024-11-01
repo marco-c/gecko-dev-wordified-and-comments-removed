@@ -11,15 +11,9 @@ memory
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -194,7 +188,7 @@ bool
 FecEnablingDecision
 (
 const
-absl
+std
 :
 :
 optional
@@ -210,7 +204,7 @@ bool
 FecDisablingDecision
 (
 const
-absl
+std
 :
 :
 optional
@@ -229,7 +223,7 @@ config_
 bool
 fec_enabled_
 ;
-absl
+std
 :
 :
 optional

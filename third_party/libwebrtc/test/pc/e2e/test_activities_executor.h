@@ -7,6 +7,11 @@ TEST_PC_E2E_TEST_ACTIVITIES_EXECUTOR_H_
 #
 include
 <
+optional
+>
+#
+include
+<
 queue
 >
 #
@@ -14,17 +19,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -172,7 +166,7 @@ ScheduleActivity
 (
 TimeDelta
 initial_delay_since_start
-absl
+std
 :
 :
 optional
@@ -202,7 +196,7 @@ ScheduledActivity
 (
 TimeDelta
 initial_delay_since_start
-absl
+std
 :
 :
 optional
@@ -226,7 +220,7 @@ func
 TimeDelta
 initial_delay_since_start
 ;
-absl
+std
 :
 :
 optional

@@ -15,19 +15,13 @@ memory
 #
 include
 <
-utility
+optional
 >
 #
 include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
+<
+utility
+>
 #
 include
 "
@@ -78,7 +72,7 @@ DtlsTransportInformation
 (
 DtlsTransportState
 state
-absl
+std
 :
 :
 optional
@@ -86,7 +80,7 @@ optional
 DtlsTransportTlsRole
 >
 role
-absl
+std
 :
 :
 optional
@@ -94,7 +88,7 @@ optional
 int
 >
 tls_version
-absl
+std
 :
 :
 optional
@@ -102,7 +96,7 @@ optional
 int
 >
 ssl_cipher_suite
-absl
+std
 :
 :
 optional
@@ -162,7 +156,7 @@ DtlsTransportInformation
 (
 DtlsTransportState
 state
-absl
+std
 :
 :
 optional
@@ -170,7 +164,7 @@ optional
 int
 >
 tls_version
-absl
+std
 :
 :
 optional
@@ -178,7 +172,7 @@ optional
 int
 >
 ssl_cipher_suite
-absl
+std
 :
 :
 optional
@@ -205,7 +199,7 @@ state
 )
 role_
 (
-absl
+std
 :
 :
 nullopt

@@ -21,6 +21,11 @@ h
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -39,17 +44,6 @@ string_view
 .
 h
 "
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 namespace
 webrtc
 {
@@ -59,7 +53,7 @@ std
 string
 EncodeDeltas
 (
-absl
+std
 :
 :
 optional
@@ -73,7 +67,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -90,7 +84,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -105,7 +99,7 @@ absl
 :
 string_view
 input
-absl
+std
 :
 :
 optional

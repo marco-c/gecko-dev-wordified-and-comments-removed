@@ -42,6 +42,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 set
 >
 #
@@ -73,17 +78,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -1767,7 +1761,7 @@ RTC_GUARDED_BY
 sequence_checker_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1780,7 +1774,7 @@ RTC_GUARDED_BY
 sequence_checker_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1793,7 +1787,7 @@ RTC_GUARDED_BY
 sequence_checker_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1806,7 +1800,7 @@ RTC_GUARDED_BY
 sequence_checker_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1842,7 +1836,7 @@ SendStats
 void
 SetFirstPacketTime
 (
-absl
+std
 :
 :
 optional
@@ -1914,7 +1908,7 @@ sequence_checker_
 0
 }
 ;
-absl
+std
 :
 :
 optional
@@ -2377,7 +2371,7 @@ RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 sent_packet_sequence_checker_
 ;
-absl
+std
 :
 :
 optional
@@ -3264,7 +3258,7 @@ SendStats
 :
 SetFirstPacketTime
 (
-absl
+std
 :
 :
 optional
@@ -4067,7 +4061,7 @@ EnsureStarted
 (
 )
 ;
-absl
+std
 :
 :
 optional

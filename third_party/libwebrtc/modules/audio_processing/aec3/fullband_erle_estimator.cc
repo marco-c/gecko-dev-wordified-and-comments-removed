@@ -28,15 +28,9 @@ numeric
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -845,7 +839,7 @@ ResetAccumulators
 {
 erle_log2_
 =
-absl
+std
 :
 :
 nullopt

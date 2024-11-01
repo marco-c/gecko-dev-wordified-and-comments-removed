@@ -19,6 +19,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -29,17 +34,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -98,7 +92,7 @@ absl
 :
 string_view
 file_name
-absl
+std
 :
 :
 optional
@@ -107,7 +101,7 @@ uint32_t
 >
 ssrc_filter
 =
-absl
+std
 :
 :
 nullopt
@@ -218,7 +212,7 @@ kPacketHeaderSize
 explicit
 RtpFileSource
 (
-absl
+std
 :
 :
 optional
@@ -248,7 +242,7 @@ RtpFileReader
 rtp_reader_
 ;
 const
-absl
+std
 :
 :
 optional

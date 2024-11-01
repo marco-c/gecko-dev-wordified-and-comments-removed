@@ -11,15 +11,9 @@ cstdint
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -103,7 +97,7 @@ const
 SocketAddress
 &
 source_address
-absl
+std
 :
 :
 optional
@@ -115,7 +109,7 @@ Timestamp
 >
 arrival_time
 =
-absl
+std
 :
 :
 nullopt
@@ -169,7 +163,7 @@ return
 payload_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -295,7 +289,7 @@ uint8_t
 >
 payload_
 ;
-absl
+std
 :
 :
 optional

@@ -292,7 +292,7 @@ config
 override
 {
 }
-absl
+std
 :
 :
 optional
@@ -305,7 +305,7 @@ GetRttEstimate
 override
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -324,7 +324,7 @@ return
 nullptr
 ;
 }
-absl
+std
 :
 :
 optional
@@ -339,7 +339,7 @@ const
 override
 {
 return
-absl
+std
 :
 :
 nullopt

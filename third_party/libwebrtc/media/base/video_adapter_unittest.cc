@@ -177,7 +177,7 @@ rtc
 VideoSinkWants
 BuildSinkWants
 (
-absl
+std
 :
 :
 optional
@@ -267,7 +267,7 @@ rtc
 VideoSinkWants
 BuildSinkWants
 (
-absl
+std
 :
 :
 optional
@@ -801,7 +801,7 @@ width
 int
 height
 const
-absl
+std
 :
 :
 optional
@@ -817,7 +817,7 @@ if
 use_new_format_request_
 )
 {
-absl
+std
 :
 :
 optional
@@ -842,7 +842,7 @@ width
 height
 )
 ;
-absl
+std
 :
 :
 optional
@@ -855,7 +855,7 @@ width
 *
 height
 ;
-absl
+std
 :
 :
 optional
@@ -1150,7 +1150,7 @@ OnOutputFormatRequest
 (
 kWidth
 kHeight
-absl
+std
 :
 :
 nullopt
@@ -1432,11 +1432,11 @@ adapter_
 .
 OnOutputFormatRequest
 (
-absl
+std
 :
 :
 nullopt
-absl
+std
 :
 :
 nullopt
@@ -1653,7 +1653,7 @@ OnSinkWants
 (
 BuildSinkWants
 (
-absl
+std
 :
 :
 nullopt
@@ -1770,7 +1770,7 @@ OnSinkWants
 (
 BuildSinkWants
 (
-absl
+std
 :
 :
 nullopt
@@ -1860,7 +1860,7 @@ OnSinkWants
 (
 BuildSinkWants
 (
-absl
+std
 :
 :
 nullopt
@@ -2497,7 +2497,7 @@ OnOutputFormatRequest
 (
 640
 400
-absl
+std
 :
 :
 nullopt
@@ -2551,7 +2551,7 @@ OnOutputFormatRequest
 (
 1280
 720
-absl
+std
 :
 :
 nullopt
@@ -2605,7 +2605,7 @@ OnOutputFormatRequest
 (
 0
 0
-absl
+std
 :
 :
 nullopt
@@ -2635,7 +2635,7 @@ OnOutputFormatRequest
 (
 320
 200
-absl
+std
 :
 :
 nullopt
@@ -2689,7 +2689,7 @@ OnOutputFormatRequest
 (
 424
 265
-absl
+std
 :
 :
 nullopt
@@ -2751,7 +2751,7 @@ OnOutputFormatRequest
 3
 /
 8
-absl
+std
 :
 :
 nullopt
@@ -2813,7 +2813,7 @@ OnOutputFormatRequest
 (
 320
 200
-absl
+std
 :
 :
 nullopt
@@ -2867,7 +2867,7 @@ OnOutputFormatRequest
 (
 480
 300
-absl
+std
 :
 :
 nullopt
@@ -2972,7 +2972,7 @@ OnOutputFormatRequest
 (
 640
 360
-absl
+std
 :
 :
 nullopt
@@ -3070,7 +3070,7 @@ OnOutputFormatRequest
 (
 640
 360
-absl
+std
 :
 :
 nullopt
@@ -3131,7 +3131,7 @@ OnOutputFormatRequest
 (
 640
 360
-absl
+std
 :
 :
 nullopt
@@ -3326,7 +3326,7 @@ OnSinkWants
 (
 BuildSinkWants
 (
-absl
+std
 :
 :
 nullopt
@@ -3400,7 +3400,7 @@ OnSinkWants
 (
 BuildSinkWants
 (
-absl
+std
 :
 :
 nullopt
@@ -3474,7 +3474,7 @@ OnSinkWants
 (
 BuildSinkWants
 (
-absl
+std
 :
 :
 nullopt
@@ -3812,7 +3812,7 @@ OnSinkWants
 (
 BuildSinkWants
 (
-absl
+std
 :
 :
 nullopt
@@ -3865,7 +3865,7 @@ OnSinkWants
 (
 BuildSinkWants
 (
-absl
+std
 :
 :
 nullopt
@@ -4017,7 +4017,7 @@ OnSinkWants
 (
 BuildSinkWants
 (
-absl
+std
 :
 :
 nullopt
@@ -4089,7 +4089,7 @@ OnOutputFormatRequest
 (
 640
 360
-absl
+std
 :
 :
 nullopt
@@ -4145,7 +4145,7 @@ OnSinkWants
 (
 BuildSinkWants
 (
-absl
+std
 :
 :
 nullopt
@@ -4268,7 +4268,7 @@ OnSinkWants
 (
 BuildSinkWants
 (
-absl
+std
 :
 :
 nullopt
@@ -4342,7 +4342,7 @@ OnSinkWants
 (
 BuildSinkWants
 (
-absl
+std
 :
 :
 nullopt
@@ -4472,7 +4472,7 @@ adapter_
 .
 OnOutputFormatRequest
 (
-absl
+std
 :
 :
 nullopt
@@ -4481,7 +4481,7 @@ nullopt
 360
 -
 1
-absl
+std
 :
 :
 nullopt
@@ -4535,15 +4535,15 @@ adapter_
 .
 OnOutputFormatRequest
 (
-absl
+std
 :
 :
 nullopt
-absl
+std
 :
 :
 nullopt
-absl
+std
 :
 :
 nullopt
@@ -4660,7 +4660,7 @@ OnOutputFormatRequest
 (
 kWidth
 kHeight
-absl
+std
 :
 :
 nullopt
@@ -4726,11 +4726,11 @@ make_pair
 320
 180
 )
-absl
+std
 :
 :
 nullopt
-absl
+std
 :
 :
 nullopt
@@ -4797,7 +4797,7 @@ make_pair
 720
 -
 1
-absl
+std
 :
 :
 nullopt
@@ -4858,7 +4858,7 @@ OnOutputFormatRequest
 (
 720
 1280
-absl
+std
 :
 :
 nullopt
@@ -4927,11 +4927,11 @@ make_pair
 320
 0
 )
-absl
+std
 :
 :
 nullopt
-absl
+std
 :
 :
 nullopt
@@ -4992,7 +4992,7 @@ OnOutputFormatRequest
 (
 640
 360
-absl
+std
 :
 :
 nullopt
@@ -5048,7 +5048,7 @@ OnSinkWants
 (
 BuildSinkWants
 (
-absl
+std
 :
 :
 nullopt
@@ -5122,7 +5122,7 @@ OnSinkWants
 (
 BuildSinkWants
 (
-absl
+std
 :
 :
 nullopt
@@ -5414,7 +5414,7 @@ OnOutputFormatRequest
 (
 640
 360
-absl
+std
 :
 :
 nullopt
@@ -5426,7 +5426,7 @@ OnSinkWants
 (
 BuildSinkWants
 (
-absl
+std
 :
 :
 nullopt
@@ -5523,7 +5523,7 @@ OnOutputFormatRequest
 (
 w
 h
-absl
+std
 :
 :
 nullopt
@@ -5535,7 +5535,7 @@ OnSinkWants
 (
 BuildSinkWants
 (
-absl
+std
 :
 :
 nullopt
@@ -5780,7 +5780,7 @@ OnSinkWants
 (
 BuildSinkWants
 (
-absl
+std
 :
 :
 nullopt
@@ -6219,7 +6219,7 @@ OnOutputFormatRequest
 (
 kWidth
 kHeight
-absl
+std
 :
 :
 nullopt
@@ -6290,7 +6290,7 @@ OnSinkWants
 (
 BuildSinkWants
 (
-absl
+std
 :
 :
 nullopt
@@ -6384,7 +6384,7 @@ OnOutputFormatRequest
 (
 kWidth
 kHeight
-absl
+std
 :
 :
 nullopt
@@ -6457,7 +6457,7 @@ OnSinkWants
 (
 BuildSinkWants
 (
-absl
+std
 :
 :
 nullopt
@@ -6551,7 +6551,7 @@ OnOutputFormatRequest
 (
 kWidth
 kHeight
-absl
+std
 :
 :
 nullopt
@@ -6630,7 +6630,7 @@ OnSinkWants
 (
 BuildSinkWants
 (
-absl
+std
 :
 :
 nullopt
@@ -6776,7 +6776,7 @@ OnSinkWants
 (
 BuildSinkWants
 (
-absl
+std
 :
 :
 nullopt
@@ -7003,7 +7003,7 @@ OnSinkWants
 (
 BuildSinkWants
 (
-absl
+std
 :
 :
 nullopt
@@ -7153,7 +7153,7 @@ OnSinkWants
 (
 BuildSinkWants
 (
-absl
+std
 :
 :
 nullopt
@@ -7360,7 +7360,7 @@ OnSinkWants
 (
 BuildSinkWants
 (
-absl
+std
 :
 :
 nullopt

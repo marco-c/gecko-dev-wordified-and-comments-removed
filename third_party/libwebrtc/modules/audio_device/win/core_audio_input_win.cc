@@ -1433,7 +1433,7 @@ num_data_callbacks_
 0
 )
 {
-absl
+std
 :
 :
 optional
@@ -1805,7 +1805,7 @@ return
 true
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1828,7 +1828,7 @@ qpc_to_100ns_
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1853,7 +1853,7 @@ perf_counter_now
 )
 {
 return
-absl
+std
 :
 :
 nullopt

@@ -21,15 +21,9 @@ memory
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -302,7 +296,7 @@ height
 ;
 }
 ;
-absl
+std
 :
 :
 optional
@@ -322,7 +316,7 @@ width
 int
 height
 const
-absl
+std
 :
 :
 optional
@@ -393,7 +387,7 @@ rotation
 void
 SetFakeColorSpace
 (
-absl
+std
 :
 :
 optional
@@ -482,7 +476,7 @@ fake_rotation_
 =
 kVideoRotation_0
 ;
-absl
+std
 :
 :
 optional

@@ -7,6 +7,11 @@ PC_TEST_MOCK_RTP_RECEIVER_INTERNAL_H_
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -14,17 +19,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -195,7 +189,7 @@ MOCK_METHOD
 void
 SetJitterBufferMinimumDelay
 (
-absl
+std
 :
 :
 optional
@@ -314,7 +308,7 @@ override
 ;
 MOCK_METHOD
 (
-absl
+std
 :
 :
 optional

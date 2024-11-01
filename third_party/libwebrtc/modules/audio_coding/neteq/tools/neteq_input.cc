@@ -241,7 +241,7 @@ TimeLimitedNetEqInput
 =
 default
 ;
-absl
+std
 :
 :
 optional
@@ -259,7 +259,7 @@ const
 return
 ended_
 ?
-absl
+std
 :
 :
 nullopt
@@ -272,7 +272,7 @@ NextPacketTime
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -290,7 +290,7 @@ const
 return
 ended_
 ?
-absl
+std
 :
 :
 nullopt
@@ -303,7 +303,7 @@ NextOutputEventTime
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -324,7 +324,7 @@ const
 return
 ended_
 ?
-absl
+std
 :
 :
 nullopt
@@ -464,7 +464,7 @@ ended
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -482,7 +482,7 @@ const
 return
 ended_
 ?
-absl
+std
 :
 :
 nullopt

@@ -264,7 +264,7 @@ AddComparison
 (
 InternalStatsKey
 stats_key
-absl
+std
 :
 :
 optional
@@ -272,7 +272,7 @@ optional
 VideoFrame
 >
 captured
-absl
+std
 :
 :
 optional
@@ -293,7 +293,7 @@ InternalStatsKey
 stats_key
 int
 skipped_between_rendered
-absl
+std
 :
 :
 optional
@@ -301,7 +301,7 @@ optional
 VideoFrame
 >
 captured
-absl
+std
 :
 :
 optional
@@ -371,7 +371,7 @@ AddComparisonInternal
 (
 InternalStatsKey
 stats_key
-absl
+std
 :
 :
 optional
@@ -379,7 +379,7 @@ optional
 VideoFrame
 >
 captured
-absl
+std
 :
 :
 optional

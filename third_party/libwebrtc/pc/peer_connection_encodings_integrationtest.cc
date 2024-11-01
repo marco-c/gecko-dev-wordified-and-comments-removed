@@ -21,6 +21,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 set
 >
 #
@@ -57,17 +62,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -1532,7 +1526,7 @@ IsCodecIdDifferentWithScalabilityMode
 pc_wrapper
 index
 codec_id
-absl
+std
 :
 :
 nullopt
@@ -1559,7 +1553,7 @@ std
 string
 &
 codec_id
-absl
+std
 :
 :
 optional
@@ -3548,7 +3542,7 @@ encodings
 scalability_mode
 Eq
 (
-absl
+std
 :
 :
 nullopt
@@ -3700,7 +3694,7 @@ encodings
 scalability_mode
 Eq
 (
-absl
+std
 :
 :
 nullopt
@@ -5712,7 +5706,7 @@ encodings
 .
 scalability_mode
 =
-absl
+std
 :
 :
 nullopt
@@ -5737,7 +5731,7 @@ encodings
 .
 scalability_mode
 =
-absl
+std
 :
 :
 nullopt
@@ -6102,7 +6096,7 @@ encodings
 .
 scalability_mode
 =
-absl
+std
 :
 :
 nullopt
@@ -6279,7 +6273,7 @@ encodings
 scalability_mode
 Eq
 (
-absl
+std
 :
 :
 nullopt
@@ -6646,7 +6640,7 @@ encodings
 scalability_mode
 Eq
 (
-absl
+std
 :
 :
 nullopt
@@ -6715,7 +6709,7 @@ encodings
 .
 scalability_mode
 =
-absl
+std
 :
 :
 nullopt
@@ -6729,7 +6723,7 @@ encodings
 .
 scale_resolution_down_by
 =
-absl
+std
 :
 :
 nullopt
@@ -6754,7 +6748,7 @@ encodings
 .
 scalability_mode
 =
-absl
+std
 :
 :
 nullopt
@@ -6768,7 +6762,7 @@ encodings
 .
 scale_resolution_down_by
 =
-absl
+std
 :
 :
 nullopt
@@ -6793,7 +6787,7 @@ encodings
 .
 scalability_mode
 =
-absl
+std
 :
 :
 nullopt
@@ -6807,7 +6801,7 @@ encodings
 .
 scale_resolution_down_by
 =
-absl
+std
 :
 :
 nullopt
@@ -8875,7 +8869,7 @@ GetAudioTracks
 0
 ]
 ;
-absl
+std
 :
 :
 optional
@@ -9189,7 +9183,7 @@ GetVideoTracks
 0
 ]
 ;
-absl
+std
 :
 :
 optional
@@ -9540,7 +9534,7 @@ GetAudioTracks
 0
 ]
 ;
-absl
+std
 :
 :
 optional
@@ -9853,7 +9847,7 @@ GetAudioTracks
 0
 ]
 ;
-absl
+std
 :
 :
 optional
@@ -10272,7 +10266,7 @@ GetVideoTracks
 0
 ]
 ;
-absl
+std
 :
 :
 optional
@@ -10660,7 +10654,7 @@ GetVideoTracks
 0
 ]
 ;
-absl
+std
 :
 :
 optional
@@ -11623,7 +11617,7 @@ local_pc_wrapper
 remote_pc_wrapper
 )
 ;
-absl
+std
 :
 :
 optional
@@ -11903,7 +11897,7 @@ local_pc_wrapper
 remote_pc_wrapper
 )
 ;
-absl
+std
 :
 :
 optional
@@ -12340,7 +12334,7 @@ local_pc_wrapper
 remote_pc_wrapper
 )
 ;
-absl
+std
 :
 :
 optional
@@ -12620,7 +12614,7 @@ local_pc_wrapper
 remote_pc_wrapper
 )
 ;
-absl
+std
 :
 :
 optional
@@ -13057,7 +13051,7 @@ local_pc_wrapper
 remote_pc_wrapper
 )
 ;
-absl
+std
 :
 :
 optional
@@ -13400,7 +13394,7 @@ MEDIA_TYPE_AUDIO
 .
 codecs
 ;
-absl
+std
 :
 :
 optional
@@ -13428,7 +13422,7 @@ ASSERT_TRUE
 opus
 )
 ;
-absl
+std
 :
 :
 optional
@@ -13769,7 +13763,7 @@ CreatePc
 (
 )
 ;
-absl
+std
 :
 :
 optional
@@ -13975,7 +13969,7 @@ local_pc_wrapper
 remote_pc_wrapper
 )
 ;
-absl
+std
 :
 :
 optional
@@ -14365,7 +14359,7 @@ local_pc_wrapper
 remote_pc_wrapper
 )
 ;
-absl
+std
 :
 :
 optional
@@ -14393,7 +14387,7 @@ ASSERT_TRUE
 vp8
 )
 ;
-absl
+std
 :
 :
 optional

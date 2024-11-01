@@ -1461,7 +1461,7 @@ return
 allocation
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1515,7 +1515,7 @@ IsZero
 )
 )
 return
-absl
+std
 :
 :
 nullopt
@@ -1608,7 +1608,7 @@ allocated
 if
 (
 const
-absl
+std
 :
 :
 optional
@@ -1652,7 +1652,7 @@ kCanContributeAndConsume
 if
 (
 const
-absl
+std
 :
 :
 optional
@@ -1790,7 +1790,7 @@ surplus
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1843,7 +1843,7 @@ end
 continue
 ;
 }
-absl
+std
 :
 :
 optional

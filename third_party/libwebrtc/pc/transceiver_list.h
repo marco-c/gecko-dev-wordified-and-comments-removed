@@ -24,6 +24,11 @@ map
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -31,17 +36,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -168,7 +162,7 @@ set_newly_created
 void
 SetMSectionIfUnset
 (
-absl
+std
 :
 :
 optional
@@ -179,7 +173,7 @@ std
 string
 >
 mid
-absl
+std
 :
 :
 optional
@@ -225,7 +219,7 @@ encodings
 void
 SetFiredDirection
 (
-absl
+std
 :
 :
 optional
@@ -240,7 +234,7 @@ fired_direction_
 fired_direction
 ;
 }
-absl
+std
 :
 :
 optional
@@ -259,7 +253,7 @@ return
 mid_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -275,7 +269,7 @@ return
 mline_index_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -300,7 +294,7 @@ return
 remote_stream_ids_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -356,7 +350,7 @@ has_value
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -385,7 +379,7 @@ value
 }
 private
 :
-absl
+std
 :
 :
 optional
@@ -397,7 +391,7 @@ string
 >
 mid_
 ;
-absl
+std
 :
 :
 optional
@@ -406,7 +400,7 @@ size_t
 >
 mline_index_
 ;
-absl
+std
 :
 :
 optional
@@ -424,7 +418,7 @@ string
 >
 remote_stream_ids_
 ;
-absl
+std
 :
 :
 optional
@@ -449,12 +443,12 @@ newly_created_
 =
 false
 ;
-absl
+std
 :
 :
 optional
 <
-absl
+std
 :
 :
 optional

@@ -1075,7 +1075,7 @@ retransmission_rate_limiter_
 FlexfecSender
 flexfec_sender_
 ;
-absl
+std
 :
 :
 optional
@@ -2608,7 +2608,7 @@ config
 .
 rtx_send_ssrc
 =
-absl
+std
 :
 :
 nullopt
@@ -8245,7 +8245,7 @@ kPayloadType
 127
 ;
 const
-absl
+std
 :
 :
 optional

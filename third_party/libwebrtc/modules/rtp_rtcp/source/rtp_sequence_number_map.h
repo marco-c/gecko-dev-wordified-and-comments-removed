@@ -21,15 +21,9 @@ deque
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 namespace
 webrtc
 {
@@ -180,7 +174,7 @@ uint32_t
 timestamp
 )
 ;
-absl
+std
 :
 :
 optional

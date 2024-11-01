@@ -49,7 +49,7 @@ Timestamp
 arrival_time
 DataSize
 size
-absl
+std
 :
 :
 optional
@@ -57,7 +57,7 @@ optional
 int
 >
 spatial_layer
-absl
+std
 :
 :
 optional
@@ -65,7 +65,7 @@ optional
 int
 >
 temporal_layer
-absl
+std
 :
 :
 optional

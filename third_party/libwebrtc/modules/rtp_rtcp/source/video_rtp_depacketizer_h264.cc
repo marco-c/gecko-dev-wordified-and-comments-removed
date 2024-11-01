@@ -24,6 +24,11 @@ cstdint
 #
 include
 <
+optional
+>
+#
+include
+<
 utility
 >
 #
@@ -31,17 +36,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -309,7 +303,7 @@ return
 true
 ;
 }
-absl
+std
 :
 :
 optional
@@ -340,7 +334,7 @@ cdata
 (
 )
 ;
-absl
+std
 :
 :
 optional
@@ -513,7 +507,7 @@ truncated
 "
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -549,7 +543,7 @@ lengths
 "
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -688,7 +682,7 @@ short
 "
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -785,7 +779,7 @@ payload_data
 start_offset
 )
 ;
-absl
+std
 :
 :
 optional
@@ -854,7 +848,7 @@ unit
 "
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -1160,7 +1154,7 @@ slice
 "
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -1206,7 +1200,7 @@ NaluType
 kSlice
 :
 {
-absl
+std
 :
 :
 optional
@@ -1295,7 +1289,7 @@ type
 )
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -1389,7 +1383,7 @@ received
 "
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -1409,7 +1403,7 @@ return
 parsed_payload
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1456,13 +1450,13 @@ truncated
 "
 ;
 return
-absl
+std
 :
 :
 nullopt
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1589,7 +1583,7 @@ NaluType
 kSlice
 )
 {
-absl
+std
 :
 :
 optional
@@ -1900,7 +1894,7 @@ parsed_payload
 ;
 }
 }
-absl
+std
 :
 :
 optional
@@ -1947,7 +1941,7 @@ payload
 "
 ;
 return
-absl
+std
 :
 :
 nullopt

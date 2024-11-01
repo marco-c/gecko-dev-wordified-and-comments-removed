@@ -6,15 +6,9 @@ define
 RTC_BASE_EXPERIMENTS_MIN_VIDEO_BITRATE_EXPERIMENT_H_
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -54,7 +48,7 @@ const
 int
 kDefaultMinVideoBitrateBps
 ;
-absl
+std
 :
 :
 optional

@@ -36,6 +36,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 set
 >
 #
@@ -77,17 +82,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -563,7 +557,7 @@ CandidateStats
 (
 Candidate
 candidate
-absl
+std
 :
 :
 optional
@@ -572,7 +566,7 @@ StunStats
 >
 stats
 =
-absl
+std
 :
 :
 nullopt
@@ -633,7 +627,7 @@ candidate_
 ;
 }
 const
-absl
+std
 :
 :
 optional
@@ -655,7 +649,7 @@ private
 Candidate
 candidate_
 ;
-absl
+std
 :
 :
 optional
@@ -685,7 +679,7 @@ ProtocolType
 proto
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1689,7 +1683,7 @@ network_cost_
 void
 GetStunStats
 (
-absl
+std
 :
 :
 optional

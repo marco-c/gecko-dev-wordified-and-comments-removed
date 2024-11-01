@@ -17,19 +17,13 @@ memory
 #
 include
 <
-string
+optional
 >
 #
 include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
+<
+string
+>
 #
 include
 "
@@ -208,7 +202,7 @@ timestamp
 0
 ;
 virtual
-absl
+std
 :
 :
 optional
@@ -221,7 +215,7 @@ GetCaptureTimeIdentifier
 const
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -375,7 +369,7 @@ const
 ;
 virtual
 const
-absl
+std
 :
 :
 optional
@@ -390,7 +384,7 @@ const
 0
 ;
 virtual
-absl
+std
 :
 :
 optional
@@ -428,7 +422,7 @@ kEmptyFrame
 ;
 }
 virtual
-absl
+std
 :
 :
 optional
@@ -443,7 +437,7 @@ const
 0
 ;
 virtual
-absl
+std
 :
 :
 optional

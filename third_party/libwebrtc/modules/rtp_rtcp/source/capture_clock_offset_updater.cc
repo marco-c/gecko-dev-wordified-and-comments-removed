@@ -25,7 +25,7 @@ h
 namespace
 webrtc
 {
-absl
+std
 :
 :
 optional
@@ -37,7 +37,7 @@ CaptureClockOffsetUpdater
 :
 AdjustEstimatedCaptureClockOffset
 (
-absl
+std
 :
 :
 optional
@@ -53,7 +53,7 @@ if
 remote_capture_clock_offset
 =
 =
-absl
+std
 :
 :
 nullopt
@@ -62,14 +62,14 @@ nullopt
 remote_to_local_clock_offset_
 =
 =
-absl
+std
 :
 :
 nullopt
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -95,7 +95,7 @@ remote_to_local_clock_offset_
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -107,7 +107,7 @@ CaptureClockOffsetUpdater
 :
 ConvertsToTimeDela
 (
-absl
+std
 :
 :
 optional
@@ -122,14 +122,14 @@ if
 q32x32
 =
 =
-absl
+std
 :
 :
 nullopt
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -155,7 +155,7 @@ CaptureClockOffsetUpdater
 :
 SetRemoteToLocalClockOffset
 (
-absl
+std
 :
 :
 optional

@@ -28,6 +28,11 @@ cstdint
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -40,17 +45,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -140,7 +134,7 @@ SackChunk
 :
 kType
 ;
-absl
+std
 :
 :
 optional
@@ -163,7 +157,7 @@ uint8_t
 data
 )
 {
-absl
+std
 :
 :
 optional
@@ -191,7 +185,7 @@ has_value
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -287,7 +281,7 @@ TSNs
 "
 ;
 return
-absl
+std
 :
 :
 nullopt

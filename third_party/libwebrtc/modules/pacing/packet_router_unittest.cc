@@ -2614,7 +2614,7 @@ RtpPacketToSend
 :
 :
 transport_sequence_number
-absl
+std
 :
 :
 nullopt
@@ -3169,7 +3169,7 @@ GetRtxSsrcForMedia
 (
 kRtxSsrc1
 )
-absl
+std
 :
 :
 nullopt
@@ -3183,7 +3183,7 @@ GetRtxSsrcForMedia
 (
 kSsrc2
 )
-absl
+std
 :
 :
 nullopt
@@ -3197,7 +3197,7 @@ GetRtxSsrcForMedia
 (
 kInvalidSsrc
 )
-absl
+std
 :
 :
 nullopt

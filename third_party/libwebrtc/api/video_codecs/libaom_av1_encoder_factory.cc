@@ -42,6 +42,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -73,17 +78,6 @@ absl
 cleanup
 /
 cleanup
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -561,7 +555,7 @@ kSupportedScalingFactors
 }
 }
 ;
-absl
+std
 :
 :
 optional
@@ -759,7 +753,7 @@ ctx_
 aom_codec_enc_cfg_t
 cfg_
 ;
-absl
+std
 :
 :
 optional
@@ -773,7 +767,7 @@ std
 :
 array
 <
-absl
+std
 :
 :
 optional
@@ -792,7 +786,7 @@ std
 :
 array
 <
-absl
+std
 :
 :
 optional
@@ -1731,7 +1725,7 @@ std
 :
 array
 <
-absl
+std
 :
 :
 optional
@@ -2200,7 +2194,7 @@ return
 false
 ;
 }
-absl
+std
 :
 :
 optional
@@ -3580,7 +3574,7 @@ settings
 frame_settings
 )
 {
-absl
+std
 :
 :
 optional

@@ -1153,7 +1153,7 @@ cricket
 :
 ContinualGatheringPolicy
 continual_gathering_policy
-absl
+std
 :
 :
 optional
@@ -1162,7 +1162,7 @@ int
 >
 backup_ping_interval
 =
-absl
+std
 :
 :
 nullopt
@@ -3460,7 +3460,7 @@ rtc
 :
 AdapterType
 adapter_type
-absl
+std
 :
 :
 optional
@@ -3472,7 +3472,7 @@ AdapterType
 >
 underlying_vpn_adapter_type
 =
-absl
+std
 :
 :
 nullopt
@@ -5157,7 +5157,7 @@ c
 void
 OnNetworkRouteChanged
 (
-absl
+std
 :
 :
 optional
@@ -19641,7 +19641,7 @@ conn
 void
 OnNetworkRouteChanged
 (
-absl
+std
 :
 :
 optional
@@ -19692,7 +19692,7 @@ priority
 uint32_t
 nomination
 const
-absl
+std
 :
 :
 optional
@@ -19922,7 +19922,7 @@ conn
 remote_ufrag
 priority
 nomination
-absl
+std
 :
 :
 nullopt
@@ -20325,7 +20325,7 @@ channel_ready_to_send_
 =
 false
 ;
-absl
+std
 :
 :
 optional
@@ -20342,7 +20342,7 @@ IceTransportState
 :
 STATE_INIT
 ;
-absl
+std
 :
 :
 optional

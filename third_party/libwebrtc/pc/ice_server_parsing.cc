@@ -434,7 +434,7 @@ INVALID
 }
 ;
 }
-absl
+std
 :
 :
 optional
@@ -628,7 +628,7 @@ colonpos
 {
 if
 (
-absl
+std
 :
 :
 optional
@@ -711,7 +711,7 @@ colonpos
 {
 if
 (
-absl
+std
 :
 :
 optional
@@ -1018,7 +1018,7 @@ value
 )
 ;
 }
-absl
+std
 :
 :
 optional

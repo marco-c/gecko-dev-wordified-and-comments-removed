@@ -109,7 +109,7 @@ EncodeNetEqInput
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -122,7 +122,7 @@ NextPacketTime
 const
 override
 ;
-absl
+std
 :
 :
 optional
@@ -135,7 +135,7 @@ NextOutputEventTime
 const
 override
 ;
-absl
+std
 :
 :
 optional
@@ -149,7 +149,7 @@ const
 override
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -187,7 +187,7 @@ ended
 const
 override
 ;
-absl
+std
 :
 :
 optional

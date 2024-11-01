@@ -23,6 +23,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -30,17 +35,6 @@ include
 <
 utility
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -184,7 +178,7 @@ alice
 config
 )
 ;
-absl
+std
 :
 :
 optional
@@ -286,7 +280,7 @@ alice
 config_before
 )
 ;
-absl
+std
 :
 :
 optional

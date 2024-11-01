@@ -104,7 +104,7 @@ kTransportSequenceNumberExtensionId
 kAbsSendTimeExtensionId
 }
 ;
-absl
+std
 :
 :
 optional
@@ -332,7 +332,7 @@ settings
 "
 ;
 return
-absl
+std
 :
 :
 nullopt

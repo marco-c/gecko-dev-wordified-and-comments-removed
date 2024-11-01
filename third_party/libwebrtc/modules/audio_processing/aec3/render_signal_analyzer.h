@@ -21,15 +21,9 @@ cstddef
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -127,7 +121,7 @@ RenderBuffer
 &
 render_buffer
 const
-absl
+std
 :
 :
 optional
@@ -202,7 +196,7 @@ v
 )
 const
 ;
-absl
+std
 :
 :
 optional
@@ -236,7 +230,7 @@ kFftLengthBy2
 >
 narrow_band_counters_
 ;
-absl
+std
 :
 :
 optional

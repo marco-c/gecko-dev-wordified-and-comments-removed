@@ -20,15 +20,9 @@ h
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -98,7 +92,7 @@ bitstream
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -151,7 +145,7 @@ uint8_t
 nalu_type
 )
 ;
-absl
+std
 :
 :
 optional
@@ -163,7 +157,7 @@ SpsState
 >
 sps_
 ;
-absl
+std
 :
 :
 optional
@@ -175,7 +169,7 @@ PpsState
 >
 pps_
 ;
-absl
+std
 :
 :
 optional

@@ -35,6 +35,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 utility
 >
 #
@@ -83,17 +88,6 @@ absl
 strings
 /
 match
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -715,7 +709,7 @@ ScalableVideoController
 >
 svc_controller_
 ;
-absl
+std
 :
 :
 optional
@@ -730,7 +724,7 @@ inited_
 bool
 rates_configured_
 ;
-absl
+std
 :
 :
 optional
@@ -2336,7 +2330,7 @@ svc_enabled
 {
 svc_params_
 =
-absl
+std
 :
 :
 nullopt
@@ -3783,7 +3777,7 @@ num_spatial_layers
 i
 )
 {
-absl
+std
 :
 :
 optional

@@ -509,7 +509,7 @@ scoped_refptr
 AudioDecoderFactory
 >
 decoder_factory
-absl
+std
 :
 :
 optional
@@ -635,7 +635,7 @@ scoped_refptr
 AudioDecoderFactory
 >
 decoder_factory
-absl
+std
 :
 :
 optional
@@ -715,7 +715,7 @@ StopPlayout
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -840,7 +840,7 @@ time_ms
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -870,7 +870,7 @@ GetBaseMinimumPlayoutDelayMs
 const
 override
 ;
-absl
+std
 :
 :
 optional
@@ -1217,7 +1217,7 @@ source_tracker_
 =
 nullptr
 ;
-absl
+std
 :
 :
 optional
@@ -1231,7 +1231,7 @@ RTC_GUARDED_BY
 worker_thread_checker_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1267,7 +1267,7 @@ RTC_GUARDED_BY
 ts_stats_lock_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1283,7 +1283,7 @@ RTC_GUARDED_BY
 worker_thread_checker_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1303,7 +1303,7 @@ RTC_GUARDED_BY
 worker_thread_checker_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1316,7 +1316,7 @@ RTC_GUARDED_BY
 worker_thread_checker_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -2470,7 +2470,7 @@ scoped_refptr
 AudioDecoderFactory
 >
 decoder_factory
-absl
+std
 :
 :
 optional
@@ -2849,7 +2849,7 @@ FlushBuffers
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -3520,7 +3520,7 @@ length
 )
 )
 ;
-absl
+std
 :
 :
 optional
@@ -3549,7 +3549,7 @@ has_value
 return
 ;
 }
-absl
+std
 :
 :
 optional
@@ -3605,7 +3605,7 @@ last_sr
 last_remote_rtp_timestamp
 )
 ;
-absl
+std
 :
 :
 optional
@@ -3963,7 +3963,7 @@ stats
 .
 last_packet_received
 =
-absl
+std
 :
 :
 nullopt
@@ -4001,7 +4001,7 @@ capture_start_ntp_time_ms_
 capture_start_ntp_time_ms_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -4093,7 +4093,7 @@ rtcp_sr_stats
 reports_count
 ;
 }
-absl
+std
 :
 :
 optional
@@ -4740,7 +4740,7 @@ playout_timestamp_ntp_time_ms_
 time_ms
 ;
 }
-absl
+std
 :
 :
 optional
@@ -4773,7 +4773,7 @@ playout_timestamp_ntp_
 playout_timestamp_ntp_time_ms_
 )
 return
-absl
+std
 :
 :
 nullopt
@@ -4850,7 +4850,7 @@ GetBaseMinimumDelayMs
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -4880,7 +4880,7 @@ Syncable
 Info
 info
 ;
-absl
+std
 :
 :
 optional
@@ -4910,7 +4910,7 @@ has_value
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -4962,7 +4962,7 @@ last_received_rtp_system_time_ms_
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -5231,7 +5231,7 @@ scoped_refptr
 AudioDecoderFactory
 >
 decoder_factory
-absl
+std
 :
 :
 optional

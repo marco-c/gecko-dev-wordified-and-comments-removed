@@ -19,6 +19,11 @@ map
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -26,17 +31,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -300,7 +294,7 @@ StreamType
 :
 kMedia
 ;
-absl
+std
 :
 :
 optional
@@ -348,7 +342,7 @@ rtp_stats
 RtcpPacketTypeCounter
 rtcp_packet_type_counts
 ;
-absl
+std
 :
 :
 optional
@@ -369,7 +363,7 @@ frames_encoded
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -393,7 +387,7 @@ huge_frames_sent
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -427,7 +421,7 @@ time_ms
 )
 const
 ;
-absl
+std
 :
 :
 optional
@@ -616,7 +610,7 @@ huge_frames_sent
 =
 0
 ;
-absl
+std
 :
 :
 optional

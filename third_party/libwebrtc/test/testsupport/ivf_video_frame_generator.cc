@@ -499,7 +499,7 @@ frame_decode_lock_
 ;
 next_frame_
 =
-absl
+std
 :
 :
 nullopt
@@ -560,7 +560,7 @@ Reset
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -786,7 +786,7 @@ Reset
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -939,7 +939,7 @@ Decoded
 VideoFrame
 &
 decoded_image
-absl
+std
 :
 :
 optional
@@ -947,7 +947,7 @@ optional
 int32_t
 >
 decode_time_ms
-absl
+std
 :
 :
 optional

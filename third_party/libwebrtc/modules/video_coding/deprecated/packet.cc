@@ -228,7 +228,7 @@ video_header
 .
 playout_delay
 =
-absl
+std
 :
 :
 nullopt

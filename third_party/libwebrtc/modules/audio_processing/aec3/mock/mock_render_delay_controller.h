@@ -6,15 +6,9 @@ define
 MODULES_AUDIO_PROCESSING_AEC3_MOCK_MOCK_RENDER_DELAY_CONTROLLER_H_
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -109,7 +103,7 @@ override
 ;
 MOCK_METHOD
 (
-absl
+std
 :
 :
 optional

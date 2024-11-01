@@ -35,6 +35,11 @@ numeric
 #
 include
 <
+optional
+>
+#
+include
+<
 utility
 >
 #
@@ -56,17 +61,6 @@ absl
 cleanup
 /
 cleanup
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -583,7 +577,7 @@ return
 ;
 }
 }
-absl
+std
 :
 :
 optional
@@ -646,7 +640,7 @@ kDroppedByEncoder
 default
 :
 return
-absl
+std
 :
 :
 nullopt
@@ -2357,7 +2351,7 @@ size
 return
 ;
 }
-absl
+std
 :
 :
 optional
@@ -2388,7 +2382,7 @@ has_value
 return
 ;
 }
-absl
+std
 :
 :
 optional
@@ -2421,7 +2415,7 @@ has_value
 return
 ;
 }
-absl
+std
 :
 :
 optional
@@ -2866,7 +2860,7 @@ active
 return
 ;
 }
-absl
+std
 :
 :
 optional
@@ -3161,7 +3155,7 @@ max_bitrate_bps
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -3228,7 +3222,7 @@ Get
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -3242,7 +3236,7 @@ Get
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -4910,7 +4904,7 @@ start_bitrate_bps
 =
 0
 ?
-absl
+std
 :
 :
 optional
@@ -4921,7 +4915,7 @@ uint32_t
 start_bitrate_bps
 )
 :
-absl
+std
 :
 :
 nullopt
@@ -4999,7 +4993,7 @@ active
 =
 false
 ;
-absl
+std
 :
 :
 optional
@@ -5196,7 +5190,7 @@ video_source_sink_controller_
 .
 SetFrameRateUpperLimit
 (
-absl
+std
 :
 :
 nullopt
@@ -5311,7 +5305,7 @@ frame_cadence_adapter_
 >
 SetZeroHertzModeEnabled
 (
-absl
+std
 :
 :
 nullopt
@@ -5577,7 +5571,7 @@ GetEncoderInfo
 )
 &
 encoder_config_
-absl
+std
 :
 :
 nullopt
@@ -5909,7 +5903,7 @@ GetEncoderInfo
 .
 resolution_bitrate_limits
 ;
-absl
+std
 :
 :
 optional
@@ -6058,7 +6052,7 @@ max_bitrate_bps
 }
 else
 {
-absl
+std
 :
 :
 optional
@@ -6171,7 +6165,7 @@ min_bitrate_bps
 int
 max_bitrate_bps
 ;
-absl
+std
 :
 :
 optional
@@ -6602,7 +6596,7 @@ numberOfSimulcastStreams
 i
 )
 {
-absl
+std
 :
 :
 optional
@@ -7524,7 +7518,7 @@ Reset
 ;
 last_encode_info_ms_
 =
-absl
+std
 :
 :
 nullopt
@@ -8348,7 +8342,7 @@ is_encoder_switching_supported
 return
 ;
 }
-absl
+std
 :
 :
 optional
@@ -9310,7 +9304,7 @@ max_framerate_
 :
 30
 ;
-absl
+std
 :
 :
 optional
@@ -9328,7 +9322,7 @@ GetInputFrameRateFps
 (
 )
 :
-absl
+std
 :
 :
 nullopt
@@ -13003,7 +12997,7 @@ value
 )
 )
 ;
-absl
+std
 :
 :
 optional
@@ -13210,7 +13204,7 @@ max_pixels_per_frame
 (
 )
 :
-absl
+std
 :
 :
 nullopt
@@ -13372,7 +13366,7 @@ get
 )
 )
 ;
-absl
+std
 :
 :
 optional

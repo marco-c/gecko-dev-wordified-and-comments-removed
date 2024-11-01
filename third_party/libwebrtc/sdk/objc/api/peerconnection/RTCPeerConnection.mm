@@ -4063,7 +4063,7 @@ params
 .
 min_bitrate_bps
 =
-absl
+std
 :
 :
 optional
@@ -4089,7 +4089,7 @@ params
 .
 start_bitrate_bps
 =
-absl
+std
 :
 :
 optional
@@ -4115,7 +4115,7 @@ params
 .
 max_bitrate_bps
 =
-absl
+std
 :
 :
 optional

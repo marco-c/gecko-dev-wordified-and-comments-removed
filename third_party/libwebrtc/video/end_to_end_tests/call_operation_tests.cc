@@ -515,11 +515,11 @@ CreateSquareFrameGenerator
 (
 kWidth
 kHeight
-absl
+std
 :
 :
 nullopt
-absl
+std
 :
 :
 nullopt
@@ -840,11 +840,11 @@ VideoTestConstants
 :
 :
 kDefaultHeight
-absl
+std
 :
 :
 nullopt
-absl
+std
 :
 :
 nullopt

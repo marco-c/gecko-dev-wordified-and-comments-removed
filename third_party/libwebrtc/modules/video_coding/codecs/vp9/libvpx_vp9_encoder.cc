@@ -19,6 +19,11 @@ limits
 #
 include
 <
+optional
+>
+#
+include
+<
 utility
 >
 #
@@ -56,17 +61,6 @@ absl
 strings
 /
 match
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -1065,7 +1059,7 @@ nullptr
 }
 }
 }
-absl
+std
 :
 :
 optional
@@ -3050,7 +3044,7 @@ return
 WEBRTC_VIDEO_CODEC_ERR_PARAMETER
 ;
 }
-absl
+std
 :
 :
 optional
@@ -3061,7 +3055,7 @@ previous_img_fmt
 =
 raw_
 ?
-absl
+std
 :
 :
 make_optional
@@ -3075,7 +3069,7 @@ raw_
 fmt
 )
 :
-absl
+std
 :
 :
 nullopt
@@ -7140,7 +7134,7 @@ PopulateCodecSpecific
 CodecSpecificInfo
 *
 codec_specific
-absl
+std
 :
 :
 optional
@@ -7149,7 +7143,7 @@ int
 >
 *
 spatial_idx
-absl
+std
 :
 :
 optional
@@ -7308,7 +7302,7 @@ kNoTemporalIdx
 *
 temporal_idx
 =
-absl
+std
 :
 :
 nullopt
@@ -7352,7 +7346,7 @@ spatial_layer_id
 *
 spatial_idx
 =
-absl
+std
 :
 :
 nullopt
@@ -8143,7 +8137,7 @@ num_active_spatial_layers_
 >
 1
 ?
-absl
+std
 :
 :
 make_optional
@@ -8154,7 +8148,7 @@ ScalabilityModeResolutionRatio
 kTwoToOne
 )
 :
-absl
+std
 :
 :
 nullopt
@@ -9210,7 +9204,7 @@ kOnKeyPic
 is_key_pic
 )
 ;
-absl
+std
 :
 :
 optional
@@ -9651,7 +9645,7 @@ codec_specific_
 {
 }
 ;
-absl
+std
 :
 :
 optional
@@ -9660,7 +9654,7 @@ int
 >
 spatial_index
 ;
-absl
+std
 :
 :
 optional

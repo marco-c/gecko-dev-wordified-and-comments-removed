@@ -29,6 +29,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -36,17 +41,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -755,7 +749,7 @@ cricket
 MediaType
 media_type
 ;
-absl
+std
 :
 :
 optional
@@ -767,7 +761,7 @@ string
 >
 mid
 ;
-absl
+std
 :
 :
 optional
@@ -782,7 +776,7 @@ transport_name
 TrackMediaInfoMap
 track_media_info_map
 ;
-absl
+std
 :
 :
 optional
@@ -1061,7 +1055,7 @@ ProducePartialResultsOnNetworkThread
 (
 Timestamp
 timestamp
-absl
+std
 :
 :
 optional
@@ -1220,7 +1214,7 @@ Call
 Stats
 call_stats_
 ;
-absl
+std
 :
 :
 optional

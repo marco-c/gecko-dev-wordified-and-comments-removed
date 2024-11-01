@@ -2191,7 +2191,7 @@ codec_type
 kVideoCodecGeneric
 )
 ;
-absl
+std
 :
 :
 optional
@@ -3785,7 +3785,7 @@ OutputType
 :
 :
 kI420
-absl
+std
 :
 :
 nullopt

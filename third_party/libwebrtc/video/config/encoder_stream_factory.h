@@ -96,7 +96,7 @@ VideoEncoder
 EncoderInfo
 &
 encoder_info
-absl
+std
 :
 :
 optional
@@ -108,7 +108,7 @@ VideoSourceRestrictions
 >
 restrictions
 =
-absl
+std
 :
 :
 nullopt
@@ -173,7 +173,7 @@ VideoEncoderConfig
 &
 encoder_config
 const
-absl
+std
 :
 :
 optional
@@ -219,7 +219,7 @@ VideoEncoderConfig
 &
 encoder_config
 const
-absl
+std
 :
 :
 optional
@@ -290,7 +290,7 @@ int
 encoder_info_requested_resolution_alignment_
 ;
 const
-absl
+std
 :
 :
 optional

@@ -31,6 +31,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 utility
 >
 #
@@ -46,17 +51,6 @@ absl
 strings
 /
 match
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -173,7 +167,7 @@ h
 namespace
 webrtc
 {
-absl
+std
 :
 :
 optional
@@ -217,7 +211,7 @@ clockrate_hz
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -344,7 +338,7 @@ RTC_DCHECK_NOTREACHED
 )
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -470,7 +464,7 @@ AudioEncoderG722Config
 config
 int
 payload_type
-absl
+std
 :
 :
 optional

@@ -447,7 +447,7 @@ int
 max_playback_rate_hz
 size_t
 num_channels
-absl
+std
 :
 :
 optional
@@ -1362,7 +1362,7 @@ return
 info
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1406,7 +1406,7 @@ kRtpTimestampRateHz
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1635,7 +1635,7 @@ RTC_DCHECK_NOTREACHED
 )
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -1645,7 +1645,7 @@ return
 config
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1708,7 +1708,7 @@ complexity_threshold_window_bps
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1734,7 +1734,7 @@ complexity
 ;
 }
 }
-absl
+std
 :
 :
 optional
@@ -1799,7 +1799,7 @@ kAutomaticThreshold
 )
 {
 return
-absl
+std
 :
 :
 optional
@@ -1839,7 +1839,7 @@ OPUS_BANDWIDTH_WIDEBAND
 )
 {
 return
-absl
+std
 :
 :
 optional
@@ -1865,7 +1865,7 @@ OPUS_BANDWIDTH_NARROWBAND
 )
 {
 return
-absl
+std
 :
 :
 optional
@@ -1878,7 +1878,7 @@ OPUS_BANDWIDTH_NARROWBAND
 ;
 }
 return
-absl
+std
 :
 :
 optional
@@ -2751,7 +2751,7 @@ OnReceivedUplinkBandwidth
 (
 int
 target_audio_bitrate_bps
-absl
+std
 :
 :
 optional
@@ -2759,7 +2759,7 @@ optional
 int64_t
 >
 bwe_period_ms
-absl
+std
 :
 :
 optional
@@ -2928,7 +2928,7 @@ OnReceivedUplinkBandwidth
 (
 int
 target_audio_bitrate_bps
-absl
+std
 :
 :
 optional
@@ -2942,7 +2942,7 @@ OnReceivedUplinkBandwidth
 (
 target_audio_bitrate_bps
 bwe_period_ms
-absl
+std
 :
 :
 nullopt
@@ -4336,7 +4336,7 @@ config_
 uplink_bandwidth_update_interval_ms
 )
 {
-absl
+std
 :
 :
 optional
@@ -4401,7 +4401,7 @@ ANAStats
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -4440,7 +4440,7 @@ empty
 )
 {
 return
-absl
+std
 :
 :
 nullopt

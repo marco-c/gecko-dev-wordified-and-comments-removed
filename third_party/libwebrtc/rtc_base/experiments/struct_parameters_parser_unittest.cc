@@ -53,7 +53,7 @@ ping
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -62,7 +62,7 @@ TimeDelta
 >
 duration
 ;
-absl
+std
 :
 :
 optional

@@ -1336,7 +1336,7 @@ OutputType
 :
 :
 kNV12
-absl
+std
 :
 :
 nullopt
@@ -1436,7 +1436,7 @@ OutputType
 :
 :
 kNV12
-absl
+std
 :
 :
 nullopt
@@ -1472,7 +1472,7 @@ OutputType
 :
 :
 kI420
-absl
+std
 :
 :
 nullopt
@@ -1792,7 +1792,7 @@ VideoFrame
 >
 decoded_frame
 ;
-absl
+std
 :
 :
 optional
@@ -2967,7 +2967,7 @@ VideoFrame
 >
 decoded_frame
 ;
-absl
+std
 :
 :
 optional
@@ -3321,7 +3321,7 @@ OutputType
 :
 :
 kI420
-absl
+std
 :
 :
 optional

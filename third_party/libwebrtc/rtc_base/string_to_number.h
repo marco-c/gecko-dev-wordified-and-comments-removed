@@ -12,6 +12,11 @@ limits
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -27,17 +32,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -60,7 +54,7 @@ signed_type
 long
 long
 ;
-absl
+std
 :
 :
 optional
@@ -78,7 +72,7 @@ int
 base
 )
 ;
-absl
+std
 :
 :
 optional
@@ -101,7 +95,7 @@ template
 typename
 T
 >
-absl
+std
 :
 :
 optional
@@ -151,7 +145,7 @@ T
 :
 :
 value
-absl
+std
 :
 :
 optional
@@ -252,7 +246,7 @@ int
 "
 )
 ;
-absl
+std
 :
 :
 optional
@@ -323,7 +317,7 @@ value
 ;
 }
 return
-absl
+std
 :
 :
 nullopt
@@ -362,7 +356,7 @@ T
 :
 :
 value
-absl
+std
 :
 :
 optional
@@ -438,7 +432,7 @@ int
 "
 )
 ;
-absl
+std
 :
 :
 optional
@@ -491,7 +485,7 @@ value
 ;
 }
 return
-absl
+std
 :
 :
 nullopt
@@ -518,7 +512,7 @@ T
 :
 :
 value
-absl
+std
 :
 :
 optional

@@ -260,7 +260,7 @@ sinks_and_wants_lock_
 =
 true
 ;
-absl
+std
 :
 :
 optional

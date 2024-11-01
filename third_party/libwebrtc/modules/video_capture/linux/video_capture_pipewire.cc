@@ -402,7 +402,7 @@ RTC_DCHECK_RUN_ON
 api_checker_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -429,7 +429,7 @@ if
 id
 =
 =
-absl
+std
 :
 :
 nullopt

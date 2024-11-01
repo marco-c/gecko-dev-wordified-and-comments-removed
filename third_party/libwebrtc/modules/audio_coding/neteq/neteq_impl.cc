@@ -1362,7 +1362,7 @@ muted
 int
 *
 current_sample_rate_hz
-absl
+std
 :
 :
 optional
@@ -2286,7 +2286,7 @@ return
 result
 ;
 }
-absl
+std
 :
 :
 optional
@@ -2332,7 +2332,7 @@ kCodecInternalCng
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -2368,7 +2368,7 @@ return
 last_output_sample_rate_hz_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -2404,7 +2404,7 @@ has_value
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -2436,7 +2436,7 @@ nullptr
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -4209,7 +4209,7 @@ payload_type
 {
 current_rtp_payload_type_
 =
-absl
+std
 :
 :
 nullopt
@@ -4269,7 +4269,7 @@ decoder_database_
 {
 current_cng_rtp_payload_type_
 =
-absl
+std
 :
 :
 nullopt
@@ -4297,7 +4297,7 @@ GetAudioInternal
 AudioFrame
 *
 audio_frame
-absl
+std
 :
 :
 optional
@@ -5577,7 +5577,7 @@ dtmf_event
 bool
 *
 play_dtmf
-absl
+std
 :
 :
 optional
@@ -10254,7 +10254,7 @@ next_packet
 >
 timestamp
 ;
-absl
+std
 :
 :
 optional
@@ -10659,7 +10659,7 @@ packet
 ;
 packet
 =
-absl
+std
 :
 :
 nullopt

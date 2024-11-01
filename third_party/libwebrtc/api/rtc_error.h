@@ -14,6 +14,11 @@ h
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -29,17 +34,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -264,7 +258,7 @@ error_detail_
 detail
 ;
 }
-absl
+std
 :
 :
 optional
@@ -332,7 +326,7 @@ RTCErrorDetailType
 :
 NONE
 ;
-absl
+std
 :
 :
 optional
@@ -836,7 +830,7 @@ private
 RTCError
 error_
 ;
-absl
+std
 :
 :
 optional

@@ -17,19 +17,13 @@ memory
 #
 include
 <
-string
+optional
 >
 #
 include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
+<
+string
+>
 #
 include
 "
@@ -153,7 +147,7 @@ NetEqInput
 default
 ;
 virtual
-absl
+std
 :
 :
 optional
@@ -168,7 +162,7 @@ const
 0
 ;
 virtual
-absl
+std
 :
 :
 optional
@@ -183,7 +177,7 @@ const
 0
 ;
 virtual
-absl
+std
 :
 :
 optional
@@ -197,7 +191,7 @@ const
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -209,7 +203,7 @@ NextEventTime
 )
 const
 {
-absl
+std
 :
 :
 optional
@@ -348,7 +342,7 @@ const
 0
 ;
 virtual
-absl
+std
 :
 :
 optional
@@ -392,7 +386,7 @@ TimeLimitedNetEqInput
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -405,7 +399,7 @@ NextPacketTime
 const
 override
 ;
-absl
+std
 :
 :
 optional
@@ -418,7 +412,7 @@ NextOutputEventTime
 const
 override
 ;
-absl
+std
 :
 :
 optional
@@ -462,7 +456,7 @@ ended
 const
 override
 ;
-absl
+std
 :
 :
 optional
@@ -492,7 +486,7 @@ NetEqInput
 input_
 ;
 const
-absl
+std
 :
 :
 optional

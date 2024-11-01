@@ -177,7 +177,7 @@ timeout_id_
 ;
 timeout_id_
 =
-absl
+std
 :
 :
 nullopt
@@ -193,7 +193,7 @@ TimeoutID
 &
 active_timeouts_
 ;
-absl
+std
 :
 :
 optional
@@ -490,7 +490,7 @@ return
 ret
 ;
 }
-absl
+std
 :
 :
 optional
@@ -550,7 +550,7 @@ timeout_id
 ;
 }
 return
-absl
+std
 :
 :
 nullopt

@@ -124,7 +124,7 @@ input_state_provider
 )
 max_pixels_
 (
-absl
+std
 :
 :
 nullopt
@@ -258,7 +258,7 @@ return
 kResourceUsageCheckIntervalMs
 ;
 }
-absl
+std
 :
 :
 optional

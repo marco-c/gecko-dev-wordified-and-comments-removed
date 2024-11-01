@@ -20,15 +20,9 @@ h
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -129,7 +123,7 @@ pic_parameter_set_id
 }
 ;
 static
-absl
+std
 :
 :
 optional
@@ -151,7 +145,7 @@ data
 ;
 static
 inline
-absl
+std
 :
 :
 optional
@@ -204,7 +198,7 @@ sps_id
 )
 ;
 static
-absl
+std
 :
 :
 optional
@@ -227,7 +221,7 @@ data
 protected
 :
 static
-absl
+std
 :
 :
 optional

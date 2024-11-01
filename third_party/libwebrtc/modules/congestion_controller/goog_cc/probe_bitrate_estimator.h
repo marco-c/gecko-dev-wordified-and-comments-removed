@@ -11,15 +11,9 @@ map
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -88,7 +82,7 @@ ProbeBitrateEstimator
 (
 )
 ;
-absl
+std
 :
 :
 optional
@@ -103,7 +97,7 @@ PacketResult
 packet_feedback
 )
 ;
-absl
+std
 :
 :
 optional
@@ -218,7 +212,7 @@ RtcEventLog
 const
 event_log_
 ;
-absl
+std
 :
 :
 optional

@@ -22,6 +22,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -29,17 +34,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -695,7 +689,7 @@ return
 needs_ice_restart_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1133,7 +1127,7 @@ ConnectionRole
 local_connection_role
 ConnectionRole
 remote_connection_role
-absl
+std
 :
 :
 optional
@@ -1169,7 +1163,7 @@ SetNegotiatedDtlsParameters
 DtlsTransportInternal
 *
 dtls_transport
-absl
+std
 :
 :
 optional
@@ -1382,7 +1376,7 @@ RTC_GUARDED_BY
 network_thread_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1401,7 +1395,7 @@ RTC_GUARDED_BY
 network_thread_
 )
 ;
-absl
+std
 :
 :
 optional

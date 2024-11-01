@@ -274,7 +274,7 @@ ParseQpVp8
 QpParser
 parser
 ;
-absl
+std
 :
 :
 optional
@@ -312,7 +312,7 @@ ParseQpVp9
 QpParser
 parser
 ;
-absl
+std
 :
 :
 optional
@@ -350,7 +350,7 @@ ParseQpH264
 QpParser
 parser
 ;
-absl
+std
 :
 :
 optional
@@ -454,7 +454,7 @@ ParseQpUnsupportedCodecType
 QpParser
 parser
 ;
-absl
+std
 :
 :
 optional
@@ -495,7 +495,7 @@ ParseQpNullData
 QpParser
 parser
 ;
-absl
+std
 :
 :
 optional
@@ -533,7 +533,7 @@ ParseQpEmptyData
 QpParser
 parser
 ;
-absl
+std
 :
 :
 optional
@@ -571,7 +571,7 @@ ParseQpSpatialIdxExceedsMax
 QpParser
 parser
 ;
-absl
+std
 :
 :
 optional

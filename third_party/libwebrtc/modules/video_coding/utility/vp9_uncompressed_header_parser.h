@@ -31,19 +31,13 @@ bitset
 #
 include
 <
-string
+optional
 >
 #
 include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
+<
+string
+>
 #
 include
 "
@@ -208,7 +202,7 @@ profile
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -240,7 +234,7 @@ Vp9BitDept
 :
 k8Bit
 ;
-absl
+std
 :
 :
 optional
@@ -249,7 +243,7 @@ Vp9ColorSpace
 >
 color_space
 ;
-absl
+std
 :
 :
 optional
@@ -258,7 +252,7 @@ Vp9ColorRange
 >
 color_range
 ;
-absl
+std
 :
 :
 optional
@@ -297,7 +291,7 @@ tile_rows_log2
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -306,7 +300,7 @@ size_t
 >
 render_size_offset_bits
 ;
-absl
+std
 :
 :
 optional
@@ -348,7 +342,7 @@ segmentation_enabled
 =
 false
 ;
-absl
+std
 :
 :
 optional
@@ -364,7 +358,7 @@ uint8_t
 >
 segmentation_tree_probs
 ;
-absl
+std
 :
 :
 optional
@@ -395,7 +389,7 @@ std
 :
 array
 <
-absl
+std
 :
 :
 optional
@@ -438,7 +432,7 @@ reference_buffers_sign_bias
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -516,7 +510,7 @@ const
 ;
 }
 ;
-absl
+std
 :
 :
 optional

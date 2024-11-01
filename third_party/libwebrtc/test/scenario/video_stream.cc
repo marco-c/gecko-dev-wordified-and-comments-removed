@@ -1775,7 +1775,7 @@ source
 generator
 .
 pixel_format
-absl
+std
 :
 :
 nullopt

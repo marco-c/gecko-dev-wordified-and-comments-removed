@@ -34,6 +34,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 set
 >
 #
@@ -76,17 +81,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -1080,7 +1074,7 @@ return
 kIceCandidatePairMax
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1108,7 +1102,7 @@ kUndefined
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1423,7 +1417,7 @@ ValidateIceCandidatePoolSize
 (
 int
 ice_candidate_pool_size
-absl
+std
 :
 :
 optional
@@ -2101,7 +2095,7 @@ max_ipv6_networks
 bool
 disable_link_local_networks
 ;
-absl
+std
 :
 :
 optional
@@ -2162,7 +2156,7 @@ redetermine_role_on_ice_restart
 bool
 surface_ice_candidates_on_ice_transport_type_changed
 ;
-absl
+std
 :
 :
 optional
@@ -2171,7 +2165,7 @@ int
 >
 ice_check_interval_strong_connectivity
 ;
-absl
+std
 :
 :
 optional
@@ -2180,7 +2174,7 @@ int
 >
 ice_check_interval_weak_connectivity
 ;
-absl
+std
 :
 :
 optional
@@ -2189,7 +2183,7 @@ int
 >
 ice_check_min_interval
 ;
-absl
+std
 :
 :
 optional
@@ -2198,7 +2192,7 @@ int
 >
 ice_unwritable_timeout
 ;
-absl
+std
 :
 :
 optional
@@ -2207,7 +2201,7 @@ int
 >
 ice_unwritable_min_checks
 ;
-absl
+std
 :
 :
 optional
@@ -2216,7 +2210,7 @@ int
 >
 ice_inactive_timeout
 ;
-absl
+std
 :
 :
 optional
@@ -2232,7 +2226,7 @@ turn_customizer
 SdpSemantics
 sdp_semantics
 ;
-absl
+std
 :
 :
 optional
@@ -2247,7 +2241,7 @@ network_preference
 bool
 active_reset_srtp_params
 ;
-absl
+std
 :
 :
 optional
@@ -2268,7 +2262,7 @@ turn_logging_id
 bool
 enable_implicit_rollback
 ;
-absl
+std
 :
 :
 optional
@@ -2277,7 +2271,7 @@ int
 >
 report_usage_pattern_delay_ms
 ;
-absl
+std
 :
 :
 optional
@@ -2304,7 +2298,7 @@ vpn_list
 PortAllocatorConfig
 port_allocator_config
 ;
-absl
+std
 :
 :
 optional
@@ -6866,7 +6860,7 @@ CheckRtpParametersValues
 (
 parameters
 codecs
-absl
+std
 :
 :
 nullopt
@@ -8447,7 +8441,7 @@ return
 ice_gathering_state_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -8497,7 +8491,7 @@ description
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -8525,7 +8519,7 @@ size
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -9170,7 +9164,7 @@ configuration
 ice_candidate_pool_size
 has_local_description
 ?
-absl
+std
 :
 :
 optional
@@ -9183,7 +9177,7 @@ configuration_
 ice_candidate_pool_size
 )
 :
-absl
+std
 :
 :
 nullopt
@@ -11939,7 +11933,7 @@ mid
 <
 mid
 ;
-absl
+std
 :
 :
 optional
@@ -12496,7 +12490,7 @@ turn_port_prune_policy
 TurnCustomizer
 *
 turn_customizer
-absl
+std
 :
 :
 optional
@@ -12658,7 +12652,7 @@ StopLogging
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -12694,7 +12688,7 @@ GetDtlsRole
 sctp_mid_n_
 )
 :
-absl
+std
 :
 :
 nullopt
@@ -12932,7 +12926,7 @@ GetDataChannelStats
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -12968,7 +12962,7 @@ return
 sctp_transport_name_s_
 ;
 return
-absl
+std
 :
 :
 optional
@@ -13017,7 +13011,7 @@ ClearStatsCache
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -14265,7 +14259,7 @@ Stats
 ;
 }
 }
-absl
+std
 :
 :
 optional
@@ -14311,13 +14305,13 @@ GetAudioDeviceStats
 ;
 }
 return
-absl
+std
 :
 :
 nullopt
 ;
 }
-absl
+std
 :
 :
 optional
@@ -14393,19 +14387,19 @@ mid
 ;
 sctp_mid_n_
 =
-absl
+std
 :
 :
 nullopt
 ;
 return
-absl
+std
 :
 :
 nullopt
 ;
 }
-absl
+std
 :
 :
 optional

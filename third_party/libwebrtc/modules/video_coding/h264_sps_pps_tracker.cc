@@ -1393,7 +1393,7 @@ missing
 return
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1428,7 +1428,7 @@ kNaluHeaderOffset
 )
 )
 ;
-absl
+std
 :
 :
 optional

@@ -24,6 +24,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 type_traits
 >
 #
@@ -31,17 +36,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -128,7 +122,7 @@ const
 0
 ;
 virtual
-absl
+std
 :
 :
 optional
@@ -194,7 +188,7 @@ std
 :
 function
 <
-absl
+std
 :
 :
 optional
@@ -312,7 +306,7 @@ return
 type_order_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -382,7 +376,7 @@ std
 :
 function
 <
-absl
+std
 :
 :
 optional
@@ -602,7 +596,7 @@ std
 :
 function
 <
-absl
+std
 :
 :
 optional

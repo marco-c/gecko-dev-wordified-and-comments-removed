@@ -288,7 +288,7 @@ return
 kPacketDuration
 ;
 }
-absl
+std
 :
 :
 optional
@@ -406,7 +406,7 @@ output_size
 "
 ;
 return
-absl
+std
 :
 :
 nullopt

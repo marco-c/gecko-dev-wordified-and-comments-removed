@@ -9,15 +9,9 @@ h
 "
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -75,7 +69,7 @@ kBpsScale
 )
 {
 }
-absl
+std
 :
 :
 optional
@@ -94,7 +88,7 @@ const
 {
 if
 (
-absl
+std
 :
 :
 optional
@@ -127,7 +121,7 @@ rate
 ;
 }
 return
-absl
+std
 :
 :
 nullopt

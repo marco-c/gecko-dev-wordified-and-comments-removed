@@ -19,6 +19,11 @@ map
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -26,17 +31,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -222,7 +216,7 @@ size_t
 temporal_idx
 bool
 aggregate_independent_layers
-absl
+std
 :
 :
 optional
@@ -230,7 +224,7 @@ optional
 DataRate
 >
 target_bitrate
-absl
+std
 :
 :
 optional

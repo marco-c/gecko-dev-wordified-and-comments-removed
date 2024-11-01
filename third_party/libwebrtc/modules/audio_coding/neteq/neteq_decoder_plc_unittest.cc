@@ -6,6 +6,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 utility
 >
 #
@@ -13,17 +18,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -629,7 +623,7 @@ input
 )
 {
 }
-absl
+std
 :
 :
 optional
@@ -651,7 +645,7 @@ NextPacketTime
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -673,7 +667,7 @@ NextOutputEventTime
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -820,7 +814,7 @@ ended
 )
 ;
 }
-absl
+std
 :
 :
 optional

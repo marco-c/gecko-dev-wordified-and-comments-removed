@@ -17,6 +17,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -24,17 +29,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -185,7 +179,7 @@ std
 string
 codec_name
 ;
-absl
+std
 :
 :
 optional
@@ -389,7 +383,7 @@ capture_start_ntp_time_ms
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -420,7 +414,7 @@ total_interruption_duration_ms
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -429,7 +423,7 @@ int64_t
 >
 estimated_playout_ntp_timestamp_ms
 ;
-absl
+std
 :
 :
 optional
@@ -438,7 +432,7 @@ int64_t
 >
 last_sender_report_timestamp_ms
 ;
-absl
+std
 :
 :
 optional
@@ -462,7 +456,7 @@ sender_reports_reports_count
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -604,7 +598,7 @@ AudioDecoderFactory
 >
 decoder_factory
 ;
-absl
+std
 :
 :
 optional

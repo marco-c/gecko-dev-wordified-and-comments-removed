@@ -7,6 +7,11 @@ API_TEST_MOCK_RTP_TRANSCEIVER_H_
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -14,17 +19,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -182,7 +176,7 @@ override
 ;
 MOCK_METHOD
 (
-absl
+std
 :
 :
 optional
@@ -301,7 +295,7 @@ override
 ;
 MOCK_METHOD
 (
-absl
+std
 :
 :
 optional
@@ -319,7 +313,7 @@ override
 ;
 MOCK_METHOD
 (
-absl
+std
 :
 :
 optional

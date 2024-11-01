@@ -226,7 +226,7 @@ rtp_timestamp
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -235,7 +235,7 @@ Timestamp
 >
 capture_time
 ;
-absl
+std
 :
 :
 optional
@@ -439,7 +439,7 @@ send_audio_mutex_
 OneTimeEvent
 first_packet_sent_
 ;
-absl
+std
 :
 :
 optional

@@ -323,7 +323,7 @@ out_
 }
 ;
 static
-absl
+std
 :
 :
 optional

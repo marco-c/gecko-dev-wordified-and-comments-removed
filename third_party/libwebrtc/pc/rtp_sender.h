@@ -26,6 +26,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -33,17 +38,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -1138,7 +1132,7 @@ FrameEncryptorInterface
 frame_encryptor_
 ;
 mutable
-absl
+std
 :
 :
 optional
@@ -1252,7 +1246,7 @@ size_t
 number_of_channels
 size_t
 number_of_frames
-absl
+std
 :
 :
 optional
@@ -1288,7 +1282,7 @@ bits_per_sample
 sample_rate
 number_of_channels
 number_of_frames
-absl
+std
 :
 :
 nullopt

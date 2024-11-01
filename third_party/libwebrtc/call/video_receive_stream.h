@@ -290,7 +290,7 @@ RecordableEncodedFrame
 >
 callback
 ;
-absl
+std
 :
 :
 optional
@@ -402,7 +402,7 @@ frames_rendered
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -414,7 +414,7 @@ string
 >
 decoder_implementation_name
 ;
-absl
+std
 :
 :
 optional
@@ -568,7 +568,7 @@ first_frame_received_to_decoded_ms
 -
 1
 ;
-absl
+std
 :
 :
 optional
@@ -577,7 +577,7 @@ uint64_t
 >
 qp_sum
 ;
-absl
+std
 :
 :
 optional
@@ -586,7 +586,7 @@ double
 >
 corruption_score_sum
 ;
-absl
+std
 :
 :
 optional
@@ -649,7 +649,7 @@ VideoContentType
 :
 UNSPECIFIED
 ;
-absl
+std
 :
 :
 optional
@@ -691,7 +691,7 @@ rtp_stats
 RtcpPacketTypeCounter
 rtcp_packet_type_counts
 ;
-absl
+std
 :
 :
 optional
@@ -720,7 +720,7 @@ rtcp_sender_remote_ntp_timestamp_ms
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -732,7 +732,7 @@ TimingFrameInfo
 >
 timing_frame_info
 ;
-absl
+std
 :
 :
 optional
@@ -741,7 +741,7 @@ int64_t
 >
 last_sender_report_timestamp_ms
 ;
-absl
+std
 :
 :
 optional

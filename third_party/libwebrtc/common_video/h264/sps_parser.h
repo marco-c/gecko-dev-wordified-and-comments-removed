@@ -6,15 +6,9 @@ define
 COMMON_VIDEO_H264_SPS_PARSER_H_
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -127,7 +121,7 @@ id
 }
 ;
 static
-absl
+std
 :
 :
 optional
@@ -149,7 +143,7 @@ data
 ;
 static
 inline
-absl
+std
 :
 :
 optional
@@ -183,7 +177,7 @@ length
 protected
 :
 static
-absl
+std
 :
 :
 optional

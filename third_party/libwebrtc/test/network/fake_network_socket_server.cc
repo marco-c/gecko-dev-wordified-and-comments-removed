@@ -437,7 +437,7 @@ RTC_GUARDED_BY
 thread_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -778,7 +778,7 @@ return
 2
 ;
 }
-absl
+std
 :
 :
 optional

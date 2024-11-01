@@ -31,6 +31,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 utility
 >
 #
@@ -38,17 +43,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -704,7 +698,7 @@ webrtc
 VideoFrame
 &
 image
-absl
+std
 :
 :
 optional
@@ -712,7 +706,7 @@ optional
 int32_t
 >
 decode_time_ms
-absl
+std
 :
 :
 optional

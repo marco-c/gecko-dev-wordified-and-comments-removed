@@ -25,15 +25,9 @@ array
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -391,7 +385,7 @@ absolute_capture_timestamp_ms_
 absolute_capture_time_stamp_ms
 ;
 }
-absl
+std
 :
 :
 optional
@@ -499,7 +493,7 @@ channel_layout_
 =
 CHANNEL_LAYOUT_NONE
 ;
-absl
+std
 :
 :
 optional

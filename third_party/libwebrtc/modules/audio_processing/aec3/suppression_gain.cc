@@ -723,7 +723,7 @@ kFftLengthBy2Plus1
 >
 comfort_noise_spectrum
 const
-absl
+std
 :
 :
 optional
@@ -2675,7 +2675,7 @@ low_band_gain
 )
 ;
 const
-absl
+std
 :
 :
 optional

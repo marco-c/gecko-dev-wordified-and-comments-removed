@@ -258,10 +258,10 @@ generic_decoder
 .
 cc
 index
-0bfc628d2c
+1f2c6004e8
 .
 .
-0a9920a176
+99a8746790
 100644
 -
 -
@@ -302,7 +302,7 @@ Decoded
 VideoFrame
 &
 decodedImage
-absl
+std
 :
 :
 optional
@@ -310,7 +310,7 @@ optional
 int32_t
 >
 decode_time_ms
-absl
+std
 :
 :
 optional
@@ -420,7 +420,7 @@ Decode
 (
 )
 .
-absl
+std
 :
 :
 optional

@@ -27,19 +27,13 @@ memory
 #
 include
 <
-string
+optional
 >
 #
 include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
+<
+string
+>
 #
 include
 "
@@ -441,7 +435,7 @@ SimulationSettings
 (
 )
 ;
-absl
+std
 :
 :
 optional
@@ -450,7 +444,7 @@ int
 >
 stream_delay
 ;
-absl
+std
 :
 :
 optional
@@ -459,7 +453,7 @@ bool
 >
 use_stream_delay
 ;
-absl
+std
 :
 :
 optional
@@ -468,7 +462,7 @@ int
 >
 output_sample_rate_hz
 ;
-absl
+std
 :
 :
 optional
@@ -477,7 +471,7 @@ int
 >
 output_num_channels
 ;
-absl
+std
 :
 :
 optional
@@ -486,7 +480,7 @@ int
 >
 reverse_output_sample_rate_hz
 ;
-absl
+std
 :
 :
 optional
@@ -495,7 +489,7 @@ int
 >
 reverse_output_num_channels
 ;
-absl
+std
 :
 :
 optional
@@ -507,7 +501,7 @@ string
 >
 output_filename
 ;
-absl
+std
 :
 :
 optional
@@ -519,7 +513,7 @@ string
 >
 reverse_output_filename
 ;
-absl
+std
 :
 :
 optional
@@ -531,7 +525,7 @@ string
 >
 input_filename
 ;
-absl
+std
 :
 :
 optional
@@ -543,7 +537,7 @@ string
 >
 reverse_input_filename
 ;
-absl
+std
 :
 :
 optional
@@ -555,7 +549,7 @@ string
 >
 artificial_nearend_filename
 ;
-absl
+std
 :
 :
 optional
@@ -567,7 +561,7 @@ string
 >
 linear_aec_output_filename
 ;
-absl
+std
 :
 :
 optional
@@ -576,7 +570,7 @@ bool
 >
 use_aec
 ;
-absl
+std
 :
 :
 optional
@@ -585,7 +579,7 @@ bool
 >
 use_aecm
 ;
-absl
+std
 :
 :
 optional
@@ -594,7 +588,7 @@ bool
 >
 use_ed
 ;
-absl
+std
 :
 :
 optional
@@ -606,7 +600,7 @@ string
 >
 ed_graph_output_filename
 ;
-absl
+std
 :
 :
 optional
@@ -615,7 +609,7 @@ bool
 >
 use_agc
 ;
-absl
+std
 :
 :
 optional
@@ -624,7 +618,7 @@ bool
 >
 use_agc2
 ;
-absl
+std
 :
 :
 optional
@@ -633,7 +627,7 @@ bool
 >
 use_pre_amplifier
 ;
-absl
+std
 :
 :
 optional
@@ -642,7 +636,7 @@ bool
 >
 use_capture_level_adjustment
 ;
-absl
+std
 :
 :
 optional
@@ -651,7 +645,7 @@ bool
 >
 use_analog_mic_gain_emulation
 ;
-absl
+std
 :
 :
 optional
@@ -660,7 +654,7 @@ bool
 >
 use_hpf
 ;
-absl
+std
 :
 :
 optional
@@ -669,7 +663,7 @@ bool
 >
 use_ns
 ;
-absl
+std
 :
 :
 optional
@@ -678,7 +672,7 @@ int
 >
 use_ts
 ;
-absl
+std
 :
 :
 optional
@@ -687,7 +681,7 @@ bool
 >
 use_analog_agc
 ;
-absl
+std
 :
 :
 optional
@@ -696,7 +690,7 @@ bool
 >
 use_all
 ;
-absl
+std
 :
 :
 optional
@@ -705,7 +699,7 @@ bool
 >
 analog_agc_use_digital_adaptive_controller
 ;
-absl
+std
 :
 :
 optional
@@ -714,7 +708,7 @@ int
 >
 agc_mode
 ;
-absl
+std
 :
 :
 optional
@@ -723,7 +717,7 @@ int
 >
 agc_target_level
 ;
-absl
+std
 :
 :
 optional
@@ -732,7 +726,7 @@ bool
 >
 use_agc_limiter
 ;
-absl
+std
 :
 :
 optional
@@ -741,7 +735,7 @@ int
 >
 agc_compression_gain
 ;
-absl
+std
 :
 :
 optional
@@ -750,7 +744,7 @@ bool
 >
 agc2_use_adaptive_gain
 ;
-absl
+std
 :
 :
 optional
@@ -759,7 +753,7 @@ float
 >
 agc2_fixed_gain_db
 ;
-absl
+std
 :
 :
 optional
@@ -768,7 +762,7 @@ bool
 >
 agc2_use_input_volume_controller
 ;
-absl
+std
 :
 :
 optional
@@ -777,7 +771,7 @@ float
 >
 pre_amplifier_gain_factor
 ;
-absl
+std
 :
 :
 optional
@@ -786,7 +780,7 @@ float
 >
 pre_gain_factor
 ;
-absl
+std
 :
 :
 optional
@@ -795,7 +789,7 @@ float
 >
 post_gain_factor
 ;
-absl
+std
 :
 :
 optional
@@ -804,7 +798,7 @@ float
 >
 analog_mic_gain_emulation_initial_level
 ;
-absl
+std
 :
 :
 optional
@@ -813,7 +807,7 @@ int
 >
 ns_level
 ;
-absl
+std
 :
 :
 optional
@@ -822,7 +816,7 @@ bool
 >
 ns_analysis_on_linear_aec_output
 ;
-absl
+std
 :
 :
 optional
@@ -831,7 +825,7 @@ bool
 >
 override_key_pressed
 ;
-absl
+std
 :
 :
 optional
@@ -848,7 +842,7 @@ simulate_mic_gain
 =
 false
 ;
-absl
+std
 :
 :
 optional
@@ -857,7 +851,7 @@ bool
 >
 multi_channel_render
 ;
-absl
+std
 :
 :
 optional
@@ -866,7 +860,7 @@ bool
 >
 multi_channel_capture
 ;
-absl
+std
 :
 :
 optional
@@ -875,7 +869,7 @@ int
 >
 simulated_mic_kind
 ;
-absl
+std
 :
 :
 optional
@@ -884,7 +878,7 @@ int
 >
 frame_for_sending_capture_output_used_false
 ;
-absl
+std
 :
 :
 optional
@@ -898,7 +892,7 @@ report_performance
 =
 false
 ;
-absl
+std
 :
 :
 optional
@@ -930,7 +924,7 @@ discard_all_settings_in_aecdump
 =
 true
 ;
-absl
+std
 :
 :
 optional
@@ -942,7 +936,7 @@ string
 >
 aec_dump_input_filename
 ;
-absl
+std
 :
 :
 optional
@@ -988,7 +982,7 @@ SampleFormat
 :
 kInt16
 ;
-absl
+std
 :
 :
 optional
@@ -1000,7 +994,7 @@ string
 >
 dump_internal_data_output_dir
 ;
-absl
+std
 :
 :
 optional
@@ -1009,7 +1003,7 @@ int
 >
 dump_set_to_use
 ;
-absl
+std
 :
 :
 optional
@@ -1021,7 +1015,7 @@ string
 >
 call_order_input_filename
 ;
-absl
+std
 :
 :
 optional
@@ -1033,7 +1027,7 @@ string
 >
 call_order_output_filename
 ;
-absl
+std
 :
 :
 optional
@@ -1045,7 +1039,7 @@ string
 >
 aec_settings_filename
 ;
-absl
+std
 :
 :
 optional
@@ -1074,7 +1068,7 @@ analysis_only
 =
 false
 ;
-absl
+std
 :
 :
 optional
@@ -1083,7 +1077,7 @@ int
 >
 dump_start_frame
 ;
-absl
+std
 :
 :
 optional
@@ -1092,7 +1086,7 @@ int
 >
 dump_end_frame
 ;
-absl
+std
 :
 :
 optional
@@ -1395,7 +1389,7 @@ bitexact_output_
 =
 true
 ;
-absl
+std
 :
 :
 optional

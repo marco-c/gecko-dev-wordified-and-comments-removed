@@ -12,6 +12,11 @@ cstddef
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -19,17 +24,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -309,7 +303,7 @@ std
 string
 filename
 ;
-absl
+std
 :
 :
 optional
@@ -318,7 +312,7 @@ int
 >
 clip_width
 ;
-absl
+std
 :
 :
 optional
@@ -327,7 +321,7 @@ int
 >
 clip_height
 ;
-absl
+std
 :
 :
 optional
@@ -336,7 +330,7 @@ int
 >
 clip_fps
 ;
-absl
+std
 :
 :
 optional
@@ -345,7 +339,7 @@ int
 >
 reference_width
 ;
-absl
+std
 :
 :
 optional
@@ -399,7 +393,7 @@ std
 string
 codec_name
 ;
-absl
+std
 :
 :
 optional
@@ -408,7 +402,7 @@ SdpVideoFormat
 >
 encoder_format
 ;
-absl
+std
 :
 :
 optional

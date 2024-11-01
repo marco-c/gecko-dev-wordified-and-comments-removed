@@ -109,7 +109,7 @@ false
 )
 target_frame_rate_
 (
-absl
+std
 :
 :
 nullopt
@@ -242,7 +242,7 @@ EncodeUsageResource
 :
 SetTargetFrameRate
 (
-absl
+std
 :
 :
 optional
@@ -330,7 +330,7 @@ int64_t
 time_sent_in_us
 int64_t
 capture_time_us
-absl
+std
 :
 :
 optional

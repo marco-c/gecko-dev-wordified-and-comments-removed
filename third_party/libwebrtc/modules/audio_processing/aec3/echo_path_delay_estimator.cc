@@ -240,7 +240,7 @@ reset_delay_confidence
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -352,7 +352,7 @@ ReliableDelayFound
 )
 )
 ;
-absl
+std
 :
 :
 optional
@@ -541,7 +541,7 @@ reset_lag_aggregator
 ;
 old_aggregated_lag_
 =
-absl
+std
 :
 :
 nullopt

@@ -238,7 +238,7 @@ encoder_info
 VideoEncoderConfig
 *
 config
-absl
+std
 :
 :
 optional

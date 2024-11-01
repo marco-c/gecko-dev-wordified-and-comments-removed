@@ -13,15 +13,9 @@ h
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -221,7 +215,7 @@ void
 SetNetworkStateEstimate
 (
 const
-absl
+std
 :
 :
 optional
@@ -333,7 +327,7 @@ latest_estimated_throughput_
 LinkCapacityEstimator
 link_capacity_
 ;
-absl
+std
 :
 :
 optional
@@ -394,7 +388,7 @@ c_upper
 true
 }
 ;
-absl
+std
 :
 :
 optional

@@ -168,7 +168,7 @@ alpha
 )
 {
 }
-absl
+std
 :
 :
 optional
@@ -204,7 +204,7 @@ kValueUndefined
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1293,7 +1293,7 @@ kInsufficientSamples
 ;
 }
 const
-absl
+std
 :
 :
 optional
@@ -1356,7 +1356,7 @@ kHighQp
 ;
 }
 const
-absl
+std
 :
 :
 optional
@@ -1381,7 +1381,7 @@ GetAverageRoundedDown
 )
 ;
 const
-absl
+std
 :
 :
 optional

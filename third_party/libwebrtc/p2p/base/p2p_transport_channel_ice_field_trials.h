@@ -6,15 +6,9 @@ define
 P2P_BASE_P2P_TRANSPORT_CHANNEL_ICE_FIELD_TRIALS_H_
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 namespace
 cricket
 {
@@ -26,7 +20,7 @@ skip_relay_to_non_relay_connections
 =
 false
 ;
-absl
+std
 :
 :
 optional
@@ -35,7 +29,7 @@ int
 >
 max_outstanding_pings
 ;
-absl
+std
 :
 :
 optional
@@ -44,7 +38,7 @@ int
 >
 initial_select_dampening
 ;
-absl
+std
 :
 :
 optional
@@ -93,7 +87,7 @@ stop_gather_on_strongly_connected
 =
 true
 ;
-absl
+std
 :
 :
 optional

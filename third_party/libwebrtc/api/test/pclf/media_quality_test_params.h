@@ -22,6 +22,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -29,17 +34,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -616,7 +610,7 @@ pc_dependencies
 struct
 Params
 {
-absl
+std
 :
 :
 optional
@@ -628,7 +622,7 @@ string
 >
 name
 ;
-absl
+std
 :
 :
 optional
@@ -645,7 +639,7 @@ cricket
 :
 kDefaultPortAllocatorFlags
 ;
-absl
+std
 :
 :
 optional
@@ -657,7 +651,7 @@ string
 >
 rtc_event_log_path
 ;
-absl
+std
 :
 :
 optional
@@ -796,7 +790,7 @@ use_conference_mode
 =
 false
 ;
-absl
+std
 :
 :
 optional

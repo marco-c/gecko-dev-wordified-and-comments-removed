@@ -770,7 +770,7 @@ base_class_stream
 )
 {
 }
-absl
+std
 :
 :
 optional
@@ -7573,7 +7573,7 @@ clock_
 Mutex
 mutex_
 ;
-absl
+std
 :
 :
 optional
@@ -17323,7 +17323,7 @@ GetScalabilityConfig
 )
 const
 {
-absl
+std
 :
 :
 optional
@@ -17348,7 +17348,7 @@ has_value
 )
 )
 ;
-absl
+std
 :
 :
 optional
@@ -17415,7 +17415,7 @@ last_packet_marker_
 =
 false
 ;
-absl
+std
 :
 :
 optional
@@ -17424,7 +17424,7 @@ uint16_t
 >
 last_packet_sequence_number_
 ;
-absl
+std
 :
 :
 optional
@@ -18265,7 +18265,7 @@ inter_layer_pred
 }
 else
 {
-absl
+std
 :
 :
 optional
@@ -19879,7 +19879,7 @@ PacingFactorObserver
 (
 bool
 configure_send_side
-absl
+std
 :
 :
 optional
@@ -20188,7 +20188,7 @@ bool
 configure_send_side_
 ;
 const
-absl
+std
 :
 :
 optional
@@ -20294,7 +20294,7 @@ PacingFactorObserver
 test_without_send_side
 (
 false
-absl
+std
 :
 :
 nullopt
@@ -21670,7 +21670,7 @@ Ssrc
 (
 )
 ;
-absl
+std
 :
 :
 optional

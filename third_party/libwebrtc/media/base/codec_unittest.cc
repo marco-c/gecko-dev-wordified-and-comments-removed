@@ -4057,7 +4057,7 @@ clock_rate
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt

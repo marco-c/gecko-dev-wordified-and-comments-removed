@@ -22,6 +22,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -29,17 +34,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -361,7 +355,7 @@ max
 (
 )
 ;
-absl
+std
 :
 :
 optional
@@ -418,7 +412,7 @@ keyframe
 =
 false
 ;
-absl
+std
 :
 :
 optional
@@ -467,7 +461,7 @@ Zero
 (
 )
 ;
-absl
+std
 :
 :
 optional
@@ -476,7 +470,7 @@ DataRate
 >
 target_bitrate
 ;
-absl
+std
 :
 :
 optional
@@ -511,7 +505,7 @@ v
 ;
 }
 ;
-absl
+std
 :
 :
 optional
@@ -752,7 +746,7 @@ DecoderSettings
 PacingSettings
 pacing_settings
 ;
-absl
+std
 :
 :
 optional
@@ -764,7 +758,7 @@ string
 >
 decoder_input_base_path
 ;
-absl
+std
 :
 :
 optional
@@ -784,7 +778,7 @@ EncoderSettings
 PacingSettings
 pacing_settings
 ;
-absl
+std
 :
 :
 optional
@@ -796,7 +790,7 @@ string
 >
 encoder_input_base_path
 ;
-absl
+std
 :
 :
 optional
@@ -832,7 +826,7 @@ CodedVideoSource
 default
 ;
 virtual
-absl
+std
 :
 :
 optional

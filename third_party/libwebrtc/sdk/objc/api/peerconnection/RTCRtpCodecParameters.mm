@@ -580,7 +580,7 @@ parameters
 .
 clock_rate
 =
-absl
+std
 :
 :
 optional
@@ -606,7 +606,7 @@ parameters
 .
 num_channels
 =
-absl
+std
 :
 :
 optional

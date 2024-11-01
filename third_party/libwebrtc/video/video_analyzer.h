@@ -537,7 +537,7 @@ size_t
 encoded_frame_size
 )
 ;
-absl
+std
 :
 :
 optional
@@ -546,7 +546,7 @@ VideoFrame
 >
 reference
 ;
-absl
+std
 :
 :
 optional
@@ -1230,7 +1230,7 @@ RTC_GUARDED_BY
 comparison_lock_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1414,7 +1414,7 @@ RTC_GUARDED_BY
 lock_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1476,7 +1476,7 @@ RTC_GUARDED_BY
 lock_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1489,7 +1489,7 @@ RTC_GUARDED_BY
 lock_
 )
 ;
-absl
+std
 :
 :
 optional

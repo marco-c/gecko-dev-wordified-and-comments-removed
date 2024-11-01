@@ -224,7 +224,7 @@ variable_data
 ;
 }
 static
-absl
+std
 :
 :
 optional
@@ -355,7 +355,7 @@ data
 0xEF
 }
 ;
-absl
+std
 :
 :
 optional
@@ -572,7 +572,7 @@ variable_data
 ;
 }
 static
-absl
+std
 :
 :
 optional
@@ -703,7 +703,7 @@ data
 0xEF
 }
 ;
-absl
+std
 :
 :
 optional

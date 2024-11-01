@@ -65,7 +65,7 @@ video_codec_setting
 codecType
 )
 ;
-absl
+std
 :
 :
 optional

@@ -119,7 +119,7 @@ config
 delay
 )
 ;
-absl
+std
 :
 :
 optional
@@ -305,7 +305,7 @@ kNumLagsBeforeDetection
 k
 )
 {
-absl
+std
 :
 :
 optional
@@ -404,7 +404,7 @@ config
 delay
 )
 ;
-absl
+std
 :
 :
 optional

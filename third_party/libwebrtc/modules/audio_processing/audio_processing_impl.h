@@ -29,6 +29,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -55,17 +60,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -1891,7 +1885,7 @@ prev_playout_volume
 AudioProcessingStats
 stats
 ;
-absl
+std
 :
 :
 optional
@@ -1903,7 +1897,7 @@ applied_input_volume
 bool
 applied_input_volume_changed
 ;
-absl
+std
 :
 :
 optional

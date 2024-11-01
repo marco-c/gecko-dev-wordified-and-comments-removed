@@ -12,6 +12,11 @@ cstdint
 #
 include
 <
+optional
+>
+#
+include
+<
 vector
 >
 #
@@ -22,17 +27,6 @@ absl
 container
 /
 inlined_vector
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -291,7 +285,7 @@ VideoContentType
 content_type
 )
 ;
-absl
+std
 :
 :
 optional
@@ -306,7 +300,7 @@ const
 void
 SetFrameId
 (
-absl
+std
 :
 :
 optional
@@ -556,7 +550,7 @@ VideoContentType
 :
 UNSPECIFIED
 ;
-absl
+std
 :
 :
 optional

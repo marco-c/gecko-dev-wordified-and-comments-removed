@@ -6,15 +6,9 @@ define
 MODULES_RTP_RTCP_SOURCE_VIDEO_RTP_DEPACKETIZER_H265_H_
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -56,7 +50,7 @@ override
 =
 default
 ;
-absl
+std
 :
 :
 optional

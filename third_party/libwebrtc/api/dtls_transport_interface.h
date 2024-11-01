@@ -11,23 +11,17 @@ memory
 >
 #
 include
+<
+optional
+>
+#
+include
 "
 absl
 /
 base
 /
 attributes
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -131,7 +125,7 @@ DtlsTransportInformation
 (
 DtlsTransportState
 state
-absl
+std
 :
 :
 optional
@@ -139,7 +133,7 @@ optional
 DtlsTransportTlsRole
 >
 role
-absl
+std
 :
 :
 optional
@@ -147,7 +141,7 @@ optional
 int
 >
 tls_version
-absl
+std
 :
 :
 optional
@@ -155,7 +149,7 @@ optional
 int
 >
 ssl_cipher_suite
-absl
+std
 :
 :
 optional
@@ -190,7 +184,7 @@ DtlsTransportInformation
 (
 DtlsTransportState
 state
-absl
+std
 :
 :
 optional
@@ -198,7 +192,7 @@ optional
 int
 >
 tls_version
-absl
+std
 :
 :
 optional
@@ -206,7 +200,7 @@ optional
 int
 >
 ssl_cipher_suite
-absl
+std
 :
 :
 optional
@@ -279,7 +273,7 @@ return
 state_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -295,7 +289,7 @@ return
 role_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -311,7 +305,7 @@ return
 tls_version_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -327,7 +321,7 @@ return
 ssl_cipher_suite_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -367,7 +361,7 @@ private
 DtlsTransportState
 state_
 ;
-absl
+std
 :
 :
 optional
@@ -376,7 +370,7 @@ DtlsTransportTlsRole
 >
 role_
 ;
-absl
+std
 :
 :
 optional
@@ -385,7 +379,7 @@ int
 >
 tls_version_
 ;
-absl
+std
 :
 :
 optional
@@ -394,7 +388,7 @@ int
 >
 ssl_cipher_suite_
 ;
-absl
+std
 :
 :
 optional

@@ -24,6 +24,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -31,17 +36,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -98,7 +92,7 @@ RTCCertificateStats
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -110,7 +104,7 @@ string
 >
 fingerprint
 ;
-absl
+std
 :
 :
 optional
@@ -122,7 +116,7 @@ string
 >
 fingerprint_algorithm
 ;
-absl
+std
 :
 :
 optional
@@ -134,7 +128,7 @@ string
 >
 base64_certificate
 ;
-absl
+std
 :
 :
 optional
@@ -179,7 +173,7 @@ RTCCodecStats
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -191,7 +185,7 @@ string
 >
 transport_id
 ;
-absl
+std
 :
 :
 optional
@@ -200,7 +194,7 @@ uint32_t
 >
 payload_type
 ;
-absl
+std
 :
 :
 optional
@@ -212,7 +206,7 @@ string
 >
 mime_type
 ;
-absl
+std
 :
 :
 optional
@@ -221,7 +215,7 @@ uint32_t
 >
 clock_rate
 ;
-absl
+std
 :
 :
 optional
@@ -230,7 +224,7 @@ uint32_t
 >
 channels
 ;
-absl
+std
 :
 :
 optional
@@ -275,7 +269,7 @@ RTCDataChannelStats
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -287,7 +281,7 @@ string
 >
 label
 ;
-absl
+std
 :
 :
 optional
@@ -299,7 +293,7 @@ string
 >
 protocol
 ;
-absl
+std
 :
 :
 optional
@@ -308,7 +302,7 @@ int32_t
 >
 data_channel_identifier
 ;
-absl
+std
 :
 :
 optional
@@ -320,7 +314,7 @@ string
 >
 state
 ;
-absl
+std
 :
 :
 optional
@@ -329,7 +323,7 @@ uint32_t
 >
 messages_sent
 ;
-absl
+std
 :
 :
 optional
@@ -338,7 +332,7 @@ uint64_t
 >
 bytes_sent
 ;
-absl
+std
 :
 :
 optional
@@ -347,7 +341,7 @@ uint32_t
 >
 messages_received
 ;
-absl
+std
 :
 :
 optional
@@ -389,7 +383,7 @@ RTCIceCandidatePairStats
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -401,7 +395,7 @@ string
 >
 transport_id
 ;
-absl
+std
 :
 :
 optional
@@ -413,7 +407,7 @@ string
 >
 local_candidate_id
 ;
-absl
+std
 :
 :
 optional
@@ -425,7 +419,7 @@ string
 >
 remote_candidate_id
 ;
-absl
+std
 :
 :
 optional
@@ -437,7 +431,7 @@ string
 >
 state
 ;
-absl
+std
 :
 :
 optional
@@ -446,7 +440,7 @@ uint64_t
 >
 priority
 ;
-absl
+std
 :
 :
 optional
@@ -455,7 +449,7 @@ bool
 >
 nominated
 ;
-absl
+std
 :
 :
 optional
@@ -464,7 +458,7 @@ bool
 >
 writable
 ;
-absl
+std
 :
 :
 optional
@@ -473,7 +467,7 @@ uint64_t
 >
 packets_sent
 ;
-absl
+std
 :
 :
 optional
@@ -482,7 +476,7 @@ uint64_t
 >
 packets_received
 ;
-absl
+std
 :
 :
 optional
@@ -491,7 +485,7 @@ uint64_t
 >
 bytes_sent
 ;
-absl
+std
 :
 :
 optional
@@ -500,7 +494,7 @@ uint64_t
 >
 bytes_received
 ;
-absl
+std
 :
 :
 optional
@@ -509,7 +503,7 @@ double
 >
 total_round_trip_time
 ;
-absl
+std
 :
 :
 optional
@@ -518,7 +512,7 @@ double
 >
 current_round_trip_time
 ;
-absl
+std
 :
 :
 optional
@@ -527,7 +521,7 @@ double
 >
 available_outgoing_bitrate
 ;
-absl
+std
 :
 :
 optional
@@ -536,7 +530,7 @@ double
 >
 available_incoming_bitrate
 ;
-absl
+std
 :
 :
 optional
@@ -545,7 +539,7 @@ uint64_t
 >
 requests_received
 ;
-absl
+std
 :
 :
 optional
@@ -554,7 +548,7 @@ uint64_t
 >
 requests_sent
 ;
-absl
+std
 :
 :
 optional
@@ -563,7 +557,7 @@ uint64_t
 >
 responses_received
 ;
-absl
+std
 :
 :
 optional
@@ -572,7 +566,7 @@ uint64_t
 >
 responses_sent
 ;
-absl
+std
 :
 :
 optional
@@ -581,7 +575,7 @@ uint64_t
 >
 consent_requests_sent
 ;
-absl
+std
 :
 :
 optional
@@ -590,7 +584,7 @@ uint64_t
 >
 packets_discarded_on_send
 ;
-absl
+std
 :
 :
 optional
@@ -599,7 +593,7 @@ uint64_t
 >
 bytes_discarded_on_send
 ;
-absl
+std
 :
 :
 optional
@@ -608,7 +602,7 @@ double
 >
 last_packet_received_timestamp
 ;
-absl
+std
 :
 :
 optional
@@ -638,7 +632,7 @@ RTCIceCandidateStats
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -650,7 +644,7 @@ string
 >
 transport_id
 ;
-absl
+std
 :
 :
 optional
@@ -659,7 +653,7 @@ bool
 >
 is_remote
 ;
-absl
+std
 :
 :
 optional
@@ -671,7 +665,7 @@ string
 >
 network_type
 ;
-absl
+std
 :
 :
 optional
@@ -683,7 +677,7 @@ string
 >
 ip
 ;
-absl
+std
 :
 :
 optional
@@ -695,7 +689,7 @@ string
 >
 address
 ;
-absl
+std
 :
 :
 optional
@@ -704,7 +698,7 @@ int32_t
 >
 port
 ;
-absl
+std
 :
 :
 optional
@@ -716,7 +710,7 @@ string
 >
 protocol
 ;
-absl
+std
 :
 :
 optional
@@ -728,7 +722,7 @@ string
 >
 relay_protocol
 ;
-absl
+std
 :
 :
 optional
@@ -740,7 +734,7 @@ string
 >
 candidate_type
 ;
-absl
+std
 :
 :
 optional
@@ -749,7 +743,7 @@ int32_t
 >
 priority
 ;
-absl
+std
 :
 :
 optional
@@ -761,7 +755,7 @@ string
 >
 url
 ;
-absl
+std
 :
 :
 optional
@@ -773,7 +767,7 @@ string
 >
 foundation
 ;
-absl
+std
 :
 :
 optional
@@ -785,7 +779,7 @@ string
 >
 related_address
 ;
-absl
+std
 :
 :
 optional
@@ -794,7 +788,7 @@ int32_t
 >
 related_port
 ;
-absl
+std
 :
 :
 optional
@@ -806,7 +800,7 @@ string
 >
 username_fragment
 ;
-absl
+std
 :
 :
 optional
@@ -818,7 +812,7 @@ string
 >
 tcp_type
 ;
-absl
+std
 :
 :
 optional
@@ -827,7 +821,7 @@ bool
 >
 vpn
 ;
-absl
+std
 :
 :
 optional
@@ -991,7 +985,7 @@ RTCPeerConnectionStats
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -1000,7 +994,7 @@ uint32_t
 >
 data_channels_opened
 ;
-absl
+std
 :
 :
 optional
@@ -1030,7 +1024,7 @@ RTCRtpStreamStats
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -1039,7 +1033,7 @@ uint32_t
 >
 ssrc
 ;
-absl
+std
 :
 :
 optional
@@ -1051,7 +1045,7 @@ string
 >
 kind
 ;
-absl
+std
 :
 :
 optional
@@ -1063,7 +1057,7 @@ string
 >
 transport_id
 ;
-absl
+std
 :
 :
 optional
@@ -1109,7 +1103,7 @@ RTCReceivedRtpStreamStats
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -1118,7 +1112,7 @@ double
 >
 jitter
 ;
-absl
+std
 :
 :
 optional
@@ -1161,7 +1155,7 @@ RTCSentRtpStreamStats
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -1170,7 +1164,7 @@ uint64_t
 >
 packets_sent
 ;
-absl
+std
 :
 :
 optional
@@ -1225,7 +1219,7 @@ RTCInboundRtpStreamStats
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -1237,7 +1231,7 @@ string
 >
 playout_id
 ;
-absl
+std
 :
 :
 optional
@@ -1249,7 +1243,7 @@ string
 >
 track_identifier
 ;
-absl
+std
 :
 :
 optional
@@ -1261,7 +1255,7 @@ string
 >
 mid
 ;
-absl
+std
 :
 :
 optional
@@ -1273,7 +1267,7 @@ string
 >
 remote_id
 ;
-absl
+std
 :
 :
 optional
@@ -1282,7 +1276,7 @@ uint32_t
 >
 packets_received
 ;
-absl
+std
 :
 :
 optional
@@ -1291,7 +1285,7 @@ uint64_t
 >
 packets_discarded
 ;
-absl
+std
 :
 :
 optional
@@ -1300,7 +1294,7 @@ uint64_t
 >
 fec_packets_received
 ;
-absl
+std
 :
 :
 optional
@@ -1309,7 +1303,7 @@ uint64_t
 >
 fec_bytes_received
 ;
-absl
+std
 :
 :
 optional
@@ -1318,7 +1312,7 @@ uint64_t
 >
 fec_packets_discarded
 ;
-absl
+std
 :
 :
 optional
@@ -1327,7 +1321,7 @@ uint32_t
 >
 fec_ssrc
 ;
-absl
+std
 :
 :
 optional
@@ -1336,7 +1330,7 @@ uint64_t
 >
 bytes_received
 ;
-absl
+std
 :
 :
 optional
@@ -1345,7 +1339,7 @@ uint64_t
 >
 header_bytes_received
 ;
-absl
+std
 :
 :
 optional
@@ -1354,7 +1348,7 @@ uint64_t
 >
 retransmitted_packets_received
 ;
-absl
+std
 :
 :
 optional
@@ -1363,7 +1357,7 @@ uint64_t
 >
 retransmitted_bytes_received
 ;
-absl
+std
 :
 :
 optional
@@ -1372,7 +1366,7 @@ uint32_t
 >
 rtx_ssrc
 ;
-absl
+std
 :
 :
 optional
@@ -1381,7 +1375,7 @@ double
 >
 last_packet_received_timestamp
 ;
-absl
+std
 :
 :
 optional
@@ -1390,7 +1384,7 @@ double
 >
 jitter_buffer_delay
 ;
-absl
+std
 :
 :
 optional
@@ -1399,7 +1393,7 @@ double
 >
 jitter_buffer_target_delay
 ;
-absl
+std
 :
 :
 optional
@@ -1408,7 +1402,7 @@ double
 >
 jitter_buffer_minimum_delay
 ;
-absl
+std
 :
 :
 optional
@@ -1417,7 +1411,7 @@ uint64_t
 >
 jitter_buffer_emitted_count
 ;
-absl
+std
 :
 :
 optional
@@ -1426,7 +1420,7 @@ uint64_t
 >
 total_samples_received
 ;
-absl
+std
 :
 :
 optional
@@ -1435,7 +1429,7 @@ uint64_t
 >
 concealed_samples
 ;
-absl
+std
 :
 :
 optional
@@ -1444,7 +1438,7 @@ uint64_t
 >
 silent_concealed_samples
 ;
-absl
+std
 :
 :
 optional
@@ -1453,7 +1447,7 @@ uint64_t
 >
 concealment_events
 ;
-absl
+std
 :
 :
 optional
@@ -1462,7 +1456,7 @@ uint64_t
 >
 inserted_samples_for_deceleration
 ;
-absl
+std
 :
 :
 optional
@@ -1471,7 +1465,7 @@ uint64_t
 >
 removed_samples_for_acceleration
 ;
-absl
+std
 :
 :
 optional
@@ -1480,7 +1474,7 @@ double
 >
 audio_level
 ;
-absl
+std
 :
 :
 optional
@@ -1489,7 +1483,7 @@ double
 >
 total_audio_energy
 ;
-absl
+std
 :
 :
 optional
@@ -1498,7 +1492,7 @@ double
 >
 total_samples_duration
 ;
-absl
+std
 :
 :
 optional
@@ -1507,7 +1501,7 @@ uint32_t
 >
 frames_received
 ;
-absl
+std
 :
 :
 optional
@@ -1516,7 +1510,7 @@ uint32_t
 >
 frame_width
 ;
-absl
+std
 :
 :
 optional
@@ -1525,7 +1519,7 @@ uint32_t
 >
 frame_height
 ;
-absl
+std
 :
 :
 optional
@@ -1534,7 +1528,7 @@ double
 >
 frames_per_second
 ;
-absl
+std
 :
 :
 optional
@@ -1543,7 +1537,7 @@ uint32_t
 >
 frames_decoded
 ;
-absl
+std
 :
 :
 optional
@@ -1552,7 +1546,7 @@ uint32_t
 >
 key_frames_decoded
 ;
-absl
+std
 :
 :
 optional
@@ -1561,7 +1555,7 @@ uint32_t
 >
 frames_dropped
 ;
-absl
+std
 :
 :
 optional
@@ -1570,7 +1564,7 @@ double
 >
 total_decode_time
 ;
-absl
+std
 :
 :
 optional
@@ -1579,7 +1573,7 @@ double
 >
 total_processing_delay
 ;
-absl
+std
 :
 :
 optional
@@ -1588,7 +1582,7 @@ double
 >
 total_assembly_time
 ;
-absl
+std
 :
 :
 optional
@@ -1597,7 +1591,7 @@ uint32_t
 >
 frames_assembled_from_multiple_packets
 ;
-absl
+std
 :
 :
 optional
@@ -1606,7 +1600,7 @@ double
 >
 total_inter_frame_delay
 ;
-absl
+std
 :
 :
 optional
@@ -1615,7 +1609,7 @@ double
 >
 total_squared_inter_frame_delay
 ;
-absl
+std
 :
 :
 optional
@@ -1624,7 +1618,7 @@ uint32_t
 >
 pause_count
 ;
-absl
+std
 :
 :
 optional
@@ -1633,7 +1627,7 @@ double
 >
 total_pauses_duration
 ;
-absl
+std
 :
 :
 optional
@@ -1642,7 +1636,7 @@ uint32_t
 >
 freeze_count
 ;
-absl
+std
 :
 :
 optional
@@ -1651,7 +1645,7 @@ double
 >
 total_freezes_duration
 ;
-absl
+std
 :
 :
 optional
@@ -1663,7 +1657,7 @@ string
 >
 content_type
 ;
-absl
+std
 :
 :
 optional
@@ -1672,7 +1666,7 @@ double
 >
 estimated_playout_timestamp
 ;
-absl
+std
 :
 :
 optional
@@ -1684,7 +1678,7 @@ string
 >
 decoder_implementation
 ;
-absl
+std
 :
 :
 optional
@@ -1693,7 +1687,7 @@ uint32_t
 >
 fir_count
 ;
-absl
+std
 :
 :
 optional
@@ -1702,7 +1696,7 @@ uint32_t
 >
 pli_count
 ;
-absl
+std
 :
 :
 optional
@@ -1711,7 +1705,7 @@ uint32_t
 >
 nack_count
 ;
-absl
+std
 :
 :
 optional
@@ -1720,7 +1714,7 @@ uint64_t
 >
 qp_sum
 ;
-absl
+std
 :
 :
 optional
@@ -1732,7 +1726,7 @@ string
 >
 goog_timing_frame_info
 ;
-absl
+std
 :
 :
 optional
@@ -1741,7 +1735,7 @@ bool
 >
 power_efficient_decoder
 ;
-absl
+std
 :
 :
 optional
@@ -1750,7 +1744,7 @@ uint64_t
 >
 jitter_buffer_flushes
 ;
-absl
+std
 :
 :
 optional
@@ -1759,7 +1753,7 @@ uint64_t
 >
 delayed_packet_outage_samples
 ;
-absl
+std
 :
 :
 optional
@@ -1768,7 +1762,7 @@ double
 >
 relative_packet_arrival_delay
 ;
-absl
+std
 :
 :
 optional
@@ -1777,7 +1771,7 @@ uint32_t
 >
 interruption_count
 ;
-absl
+std
 :
 :
 optional
@@ -1786,7 +1780,7 @@ double
 >
 total_interruption_duration
 ;
-absl
+std
 :
 :
 optional
@@ -1828,7 +1822,7 @@ RTCOutboundRtpStreamStats
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -1840,7 +1834,7 @@ string
 >
 media_source_id
 ;
-absl
+std
 :
 :
 optional
@@ -1852,7 +1846,7 @@ string
 >
 remote_id
 ;
-absl
+std
 :
 :
 optional
@@ -1864,7 +1858,7 @@ string
 >
 mid
 ;
-absl
+std
 :
 :
 optional
@@ -1876,7 +1870,7 @@ string
 >
 rid
 ;
-absl
+std
 :
 :
 optional
@@ -1885,7 +1879,7 @@ uint64_t
 >
 retransmitted_packets_sent
 ;
-absl
+std
 :
 :
 optional
@@ -1894,7 +1888,7 @@ uint64_t
 >
 header_bytes_sent
 ;
-absl
+std
 :
 :
 optional
@@ -1903,7 +1897,7 @@ uint64_t
 >
 retransmitted_bytes_sent
 ;
-absl
+std
 :
 :
 optional
@@ -1912,7 +1906,7 @@ double
 >
 target_bitrate
 ;
-absl
+std
 :
 :
 optional
@@ -1921,7 +1915,7 @@ uint32_t
 >
 frames_encoded
 ;
-absl
+std
 :
 :
 optional
@@ -1930,7 +1924,7 @@ uint32_t
 >
 key_frames_encoded
 ;
-absl
+std
 :
 :
 optional
@@ -1939,7 +1933,7 @@ double
 >
 total_encode_time
 ;
-absl
+std
 :
 :
 optional
@@ -1948,7 +1942,7 @@ uint64_t
 >
 total_encoded_bytes_target
 ;
-absl
+std
 :
 :
 optional
@@ -1957,7 +1951,7 @@ uint32_t
 >
 frame_width
 ;
-absl
+std
 :
 :
 optional
@@ -1966,7 +1960,7 @@ uint32_t
 >
 frame_height
 ;
-absl
+std
 :
 :
 optional
@@ -1975,7 +1969,7 @@ double
 >
 frames_per_second
 ;
-absl
+std
 :
 :
 optional
@@ -1984,7 +1978,7 @@ uint32_t
 >
 frames_sent
 ;
-absl
+std
 :
 :
 optional
@@ -1993,7 +1987,7 @@ uint32_t
 >
 huge_frames_sent
 ;
-absl
+std
 :
 :
 optional
@@ -2002,7 +1996,7 @@ double
 >
 total_packet_send_delay
 ;
-absl
+std
 :
 :
 optional
@@ -2014,7 +2008,7 @@ string
 >
 quality_limitation_reason
 ;
-absl
+std
 :
 :
 optional
@@ -2033,7 +2027,7 @@ double
 >
 quality_limitation_durations
 ;
-absl
+std
 :
 :
 optional
@@ -2042,7 +2036,7 @@ uint32_t
 >
 quality_limitation_resolution_changes
 ;
-absl
+std
 :
 :
 optional
@@ -2054,7 +2048,7 @@ string
 >
 content_type
 ;
-absl
+std
 :
 :
 optional
@@ -2066,7 +2060,7 @@ string
 >
 encoder_implementation
 ;
-absl
+std
 :
 :
 optional
@@ -2075,7 +2069,7 @@ uint32_t
 >
 fir_count
 ;
-absl
+std
 :
 :
 optional
@@ -2084,7 +2078,7 @@ uint32_t
 >
 pli_count
 ;
-absl
+std
 :
 :
 optional
@@ -2093,7 +2087,7 @@ uint32_t
 >
 nack_count
 ;
-absl
+std
 :
 :
 optional
@@ -2102,7 +2096,7 @@ uint64_t
 >
 qp_sum
 ;
-absl
+std
 :
 :
 optional
@@ -2111,7 +2105,7 @@ bool
 >
 active
 ;
-absl
+std
 :
 :
 optional
@@ -2120,7 +2114,7 @@ bool
 >
 power_efficient_encoder
 ;
-absl
+std
 :
 :
 optional
@@ -2132,7 +2126,7 @@ string
 >
 scalability_mode
 ;
-absl
+std
 :
 :
 optional
@@ -2174,7 +2168,7 @@ RTCRemoteInboundRtpStreamStats
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -2186,7 +2180,7 @@ string
 >
 local_id
 ;
-absl
+std
 :
 :
 optional
@@ -2195,7 +2189,7 @@ double
 >
 round_trip_time
 ;
-absl
+std
 :
 :
 optional
@@ -2204,7 +2198,7 @@ double
 >
 fraction_lost
 ;
-absl
+std
 :
 :
 optional
@@ -2213,7 +2207,7 @@ double
 >
 total_round_trip_time
 ;
-absl
+std
 :
 :
 optional
@@ -2255,7 +2249,7 @@ RTCRemoteOutboundRtpStreamStats
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -2267,7 +2261,7 @@ string
 >
 local_id
 ;
-absl
+std
 :
 :
 optional
@@ -2276,7 +2270,7 @@ double
 >
 remote_timestamp
 ;
-absl
+std
 :
 :
 optional
@@ -2285,7 +2279,7 @@ uint64_t
 >
 reports_sent
 ;
-absl
+std
 :
 :
 optional
@@ -2294,7 +2288,7 @@ double
 >
 round_trip_time
 ;
-absl
+std
 :
 :
 optional
@@ -2303,7 +2297,7 @@ uint64_t
 >
 round_trip_time_measurements
 ;
-absl
+std
 :
 :
 optional
@@ -2333,7 +2327,7 @@ RTCMediaSourceStats
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -2345,7 +2339,7 @@ string
 >
 track_identifier
 ;
-absl
+std
 :
 :
 optional
@@ -2403,7 +2397,7 @@ RTCAudioSourceStats
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -2412,7 +2406,7 @@ double
 >
 audio_level
 ;
-absl
+std
 :
 :
 optional
@@ -2421,7 +2415,7 @@ double
 >
 total_audio_energy
 ;
-absl
+std
 :
 :
 optional
@@ -2430,7 +2424,7 @@ double
 >
 total_samples_duration
 ;
-absl
+std
 :
 :
 optional
@@ -2439,7 +2433,7 @@ double
 >
 echo_return_loss
 ;
-absl
+std
 :
 :
 optional
@@ -2481,7 +2475,7 @@ RTCVideoSourceStats
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -2490,7 +2484,7 @@ uint32_t
 >
 width
 ;
-absl
+std
 :
 :
 optional
@@ -2499,7 +2493,7 @@ uint32_t
 >
 height
 ;
-absl
+std
 :
 :
 optional
@@ -2508,7 +2502,7 @@ uint32_t
 >
 frames
 ;
-absl
+std
 :
 :
 optional
@@ -2550,7 +2544,7 @@ RTCTransportStats
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -2559,7 +2553,7 @@ uint64_t
 >
 bytes_sent
 ;
-absl
+std
 :
 :
 optional
@@ -2568,7 +2562,7 @@ uint64_t
 >
 packets_sent
 ;
-absl
+std
 :
 :
 optional
@@ -2577,7 +2571,7 @@ uint64_t
 >
 bytes_received
 ;
-absl
+std
 :
 :
 optional
@@ -2586,7 +2580,7 @@ uint64_t
 >
 packets_received
 ;
-absl
+std
 :
 :
 optional
@@ -2598,7 +2592,7 @@ string
 >
 rtcp_transport_stats_id
 ;
-absl
+std
 :
 :
 optional
@@ -2610,7 +2604,7 @@ string
 >
 dtls_state
 ;
-absl
+std
 :
 :
 optional
@@ -2622,7 +2616,7 @@ string
 >
 selected_candidate_pair_id
 ;
-absl
+std
 :
 :
 optional
@@ -2634,7 +2628,7 @@ string
 >
 local_certificate_id
 ;
-absl
+std
 :
 :
 optional
@@ -2646,7 +2640,7 @@ string
 >
 remote_certificate_id
 ;
-absl
+std
 :
 :
 optional
@@ -2658,7 +2652,7 @@ string
 >
 tls_version
 ;
-absl
+std
 :
 :
 optional
@@ -2670,7 +2664,7 @@ string
 >
 dtls_cipher
 ;
-absl
+std
 :
 :
 optional
@@ -2682,7 +2676,7 @@ string
 >
 dtls_role
 ;
-absl
+std
 :
 :
 optional
@@ -2694,7 +2688,7 @@ string
 >
 srtp_cipher
 ;
-absl
+std
 :
 :
 optional
@@ -2703,7 +2697,7 @@ uint32_t
 >
 selected_candidate_pair_changes
 ;
-absl
+std
 :
 :
 optional
@@ -2715,7 +2709,7 @@ string
 >
 ice_role
 ;
-absl
+std
 :
 :
 optional
@@ -2727,7 +2721,7 @@ string
 >
 ice_local_username_fragment
 ;
-absl
+std
 :
 :
 optional
@@ -2774,7 +2768,7 @@ RTCAudioPlayoutStats
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -2786,7 +2780,7 @@ string
 >
 kind
 ;
-absl
+std
 :
 :
 optional
@@ -2795,7 +2789,7 @@ double
 >
 synthesized_samples_duration
 ;
-absl
+std
 :
 :
 optional
@@ -2804,7 +2798,7 @@ uint64_t
 >
 synthesized_samples_events
 ;
-absl
+std
 :
 :
 optional
@@ -2813,7 +2807,7 @@ double
 >
 total_samples_duration
 ;
-absl
+std
 :
 :
 optional
@@ -2822,7 +2816,7 @@ double
 >
 total_playout_delay
 ;
-absl
+std
 :
 :
 optional

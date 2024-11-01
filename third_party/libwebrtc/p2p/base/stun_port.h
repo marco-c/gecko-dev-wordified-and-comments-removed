@@ -163,7 +163,7 @@ AsyncPacketSocket
 socket
 bool
 emit_local_for_anyaddress
-absl
+std
 :
 :
 optional
@@ -284,7 +284,7 @@ string_view
 password
 bool
 emit_local_for_anyaddress
-absl
+std
 :
 :
 optional
@@ -358,7 +358,7 @@ uint16_t
 max_port
 bool
 emit_local_for_anyaddress
-absl
+std
 :
 :
 optional
@@ -478,7 +478,7 @@ string_view
 password
 bool
 emit_local_for_anyaddress
-absl
+std
 :
 :
 optional
@@ -682,7 +682,7 @@ override
 void
 GetStunStats
 (
-absl
+std
 :
 :
 optional
@@ -698,7 +698,7 @@ void
 set_stun_keepalive_delay
 (
 const
-absl
+std
 :
 :
 optional
@@ -1298,7 +1298,7 @@ const
 ServerAddresses
 &
 servers
-absl
+std
 :
 :
 optional
@@ -1368,7 +1368,7 @@ const
 ServerAddresses
 &
 servers
-absl
+std
 :
 :
 optional

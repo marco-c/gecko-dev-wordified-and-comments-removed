@@ -13,15 +13,9 @@ h
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -41,7 +35,7 @@ CaptureClockOffsetUpdater
 {
 public
 :
-absl
+std
 :
 :
 optional
@@ -50,7 +44,7 @@ int64_t
 >
 AdjustEstimatedCaptureClockOffset
 (
-absl
+std
 :
 :
 optional
@@ -64,7 +58,7 @@ const
 void
 SetRemoteToLocalClockOffset
 (
-absl
+std
 :
 :
 optional
@@ -75,7 +69,7 @@ offset_q32x32
 )
 ;
 static
-absl
+std
 :
 :
 optional
@@ -84,7 +78,7 @@ TimeDelta
 >
 ConvertsToTimeDela
 (
-absl
+std
 :
 :
 optional
@@ -96,7 +90,7 @@ q32x32
 ;
 private
 :
-absl
+std
 :
 :
 optional

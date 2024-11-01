@@ -24,6 +24,11 @@ list
 #
 include
 <
+optional
+>
+#
+include
+<
 random
 >
 #
@@ -46,17 +51,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -953,7 +947,7 @@ generator_
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -981,7 +975,7 @@ generator_
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1008,7 +1002,7 @@ generator_
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1036,7 +1030,7 @@ generator_
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1082,7 +1076,7 @@ value
 .
 estimated_capture_clock_offset
 =
-absl
+std
 :
 :
 nullopt
@@ -1112,7 +1106,7 @@ return
 value
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1140,7 +1134,7 @@ generator_
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1462,7 +1456,7 @@ kRtpTimestamp1
 50
 ;
 constexpr
-absl
+std
 :
 :
 optional
@@ -1474,7 +1468,7 @@ kAudioLevel0
 50
 ;
 constexpr
-absl
+std
 :
 :
 optional
@@ -1486,7 +1480,7 @@ kAudioLevel1
 20
 ;
 constexpr
-absl
+std
 :
 :
 optional
@@ -1498,14 +1492,14 @@ kAbsoluteCaptureTime
 AbsoluteCaptureTime
 {
 12
-absl
+std
 :
 :
 nullopt
 }
 ;
 constexpr
-absl
+std
 :
 :
 optional
@@ -1514,7 +1508,7 @@ TimeDelta
 >
 kLocalCaptureClockOffset
 =
-absl
+std
 :
 :
 nullopt
@@ -1812,7 +1806,7 @@ kRtpTimestamp2
 50
 ;
 constexpr
-absl
+std
 :
 :
 optional
@@ -1824,7 +1818,7 @@ kAudioLevel0
 50
 ;
 constexpr
-absl
+std
 :
 :
 optional
@@ -1836,7 +1830,7 @@ kAudioLevel1
 20
 ;
 constexpr
-absl
+std
 :
 :
 optional
@@ -1848,7 +1842,7 @@ kAudioLevel2
 10
 ;
 constexpr
-absl
+std
 :
 :
 optional
@@ -1860,14 +1854,14 @@ kAbsoluteCaptureTime
 AbsoluteCaptureTime
 {
 12
-absl
+std
 :
 :
 nullopt
 }
 ;
 constexpr
-absl
+std
 :
 :
 optional
@@ -1876,7 +1870,7 @@ TimeDelta
 >
 kLocalCaptureClockOffset
 =
-absl
+std
 :
 :
 nullopt
@@ -2227,7 +2221,7 @@ kRtpTimestamp2
 42
 ;
 constexpr
-absl
+std
 :
 :
 optional
@@ -2239,7 +2233,7 @@ kAudioLevel0
 50
 ;
 constexpr
-absl
+std
 :
 :
 optional
@@ -2248,13 +2242,13 @@ uint8_t
 >
 kAudioLevel1
 =
-absl
+std
 :
 :
 nullopt
 ;
 constexpr
-absl
+std
 :
 :
 optional
@@ -2266,7 +2260,7 @@ kAudioLevel2
 10
 ;
 constexpr
-absl
+std
 :
 :
 optional
@@ -2282,7 +2276,7 @@ AbsoluteCaptureTime
 }
 ;
 constexpr
-absl
+std
 :
 :
 optional
@@ -2298,7 +2292,7 @@ AbsoluteCaptureTime
 }
 ;
 constexpr
-absl
+std
 :
 :
 optional
@@ -2314,7 +2308,7 @@ AbsoluteCaptureTime
 }
 ;
 constexpr
-absl
+std
 :
 :
 optional
@@ -2332,7 +2326,7 @@ Millis
 )
 ;
 constexpr
-absl
+std
 :
 :
 optional
@@ -2350,7 +2344,7 @@ Millis
 )
 ;
 constexpr
-absl
+std
 :
 :
 optional
@@ -2914,7 +2908,7 @@ kRtpTimestamp1
 41
 ;
 constexpr
-absl
+std
 :
 :
 optional
@@ -2926,7 +2920,7 @@ kAudioLevel0
 50
 ;
 constexpr
-absl
+std
 :
 :
 optional
@@ -2935,13 +2929,13 @@ uint8_t
 >
 kAudioLevel1
 =
-absl
+std
 :
 :
 nullopt
 ;
 constexpr
-absl
+std
 :
 :
 optional
@@ -2957,7 +2951,7 @@ AbsoluteCaptureTime
 }
 ;
 constexpr
-absl
+std
 :
 :
 optional
@@ -2973,7 +2967,7 @@ AbsoluteCaptureTime
 }
 ;
 constexpr
-absl
+std
 :
 :
 optional
@@ -2991,7 +2985,7 @@ Millis
 )
 ;
 constexpr
-absl
+std
 :
 :
 optional

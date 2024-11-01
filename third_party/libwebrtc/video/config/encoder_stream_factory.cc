@@ -612,7 +612,7 @@ simulcast_layers
 1
 ;
 const
-absl
+std
 :
 :
 optional
@@ -681,7 +681,7 @@ VideoEncoderConfig
 &
 encoder_config
 const
-absl
+std
 :
 :
 optional
@@ -1404,7 +1404,7 @@ VideoEncoder
 EncoderInfo
 &
 encoder_info
-absl
+std
 :
 :
 optional
@@ -1484,7 +1484,7 @@ number_of_streams
 )
 ;
 const
-absl
+std
 :
 :
 optional
@@ -1687,7 +1687,7 @@ VideoEncoderConfig
 &
 encoder_config
 const
-absl
+std
 :
 :
 optional
@@ -1721,7 +1721,7 @@ ContentType
 :
 kScreen
 ;
-absl
+std
 :
 :
 optional
@@ -2482,7 +2482,7 @@ VideoEncoderConfig
 &
 encoder_config
 const
-absl
+std
 :
 :
 optional
@@ -2606,7 +2606,7 @@ requested_resolution
 PixelCount
 (
 )
-absl
+std
 :
 :
 nullopt

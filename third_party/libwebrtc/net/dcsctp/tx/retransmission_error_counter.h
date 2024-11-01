@@ -131,7 +131,7 @@ string_view
 log_prefix_
 ;
 const
-absl
+std
 :
 :
 optional

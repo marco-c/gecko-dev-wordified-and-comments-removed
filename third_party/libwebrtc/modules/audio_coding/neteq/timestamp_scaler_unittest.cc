@@ -157,7 +157,7 @@ pcmu
 8000
 1
 )
-absl
+std
 :
 :
 nullopt
@@ -291,7 +291,7 @@ pcmu
 8000
 1
 )
-absl
+std
 :
 :
 nullopt
@@ -446,7 +446,7 @@ g722
 8000
 1
 )
-absl
+std
 :
 :
 nullopt
@@ -591,7 +591,7 @@ g722
 8000
 1
 )
-absl
+std
 :
 :
 nullopt
@@ -754,7 +754,7 @@ g722
 8000
 1
 )
-absl
+std
 :
 :
 nullopt
@@ -781,7 +781,7 @@ cn
 16000
 1
 )
-absl
+std
 :
 :
 nullopt
@@ -985,7 +985,7 @@ g722
 8000
 1
 )
-absl
+std
 :
 :
 nullopt
@@ -1138,7 +1138,7 @@ g722
 8000
 1
 )
-absl
+std
 :
 :
 nullopt
@@ -1344,7 +1344,7 @@ g722
 8000
 1
 )
-absl
+std
 :
 :
 nullopt
@@ -1541,7 +1541,7 @@ opus
 48000
 2
 )
-absl
+std
 :
 :
 nullopt

@@ -17,6 +17,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -24,17 +29,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -761,7 +755,7 @@ id
 const
 override
 ;
-absl
+std
 :
 :
 optional
@@ -887,7 +881,7 @@ DecodeFrameResult
 bool
 force_request_key_frame
 ;
-absl
+std
 :
 :
 optional
@@ -1155,7 +1149,7 @@ RTC_GUARDED_BY
 packet_sequence_checker_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1199,7 +1193,7 @@ decode_sequence_checker_
 =
 false
 ;
-absl
+std
 :
 :
 optional
@@ -1226,7 +1220,7 @@ RTC_GUARDED_BY
 packet_sequence_checker_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1239,7 +1233,7 @@ RTC_GUARDED_BY
 worker_sequence_checker_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1252,7 +1246,7 @@ RTC_GUARDED_BY
 worker_sequence_checker_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1265,7 +1259,7 @@ RTC_GUARDED_BY
 worker_sequence_checker_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1311,7 +1305,7 @@ webrtc
 Mutex
 pending_resolution_mutex_
 ;
-absl
+std
 :
 :
 optional
@@ -1359,7 +1353,7 @@ TaskQueueDeleter
 >
 decode_queue_
 ;
-absl
+std
 :
 :
 optional

@@ -716,7 +716,7 @@ elapsed_ms
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -926,7 +926,7 @@ mutex_
 struct
 MaskedAdaptationCounts
 {
-absl
+std
 :
 :
 optional
@@ -935,12 +935,12 @@ int
 >
 resolution_adaptations
 =
-absl
+std
 :
 :
 nullopt
 ;
-absl
+std
 :
 :
 optional
@@ -949,7 +949,7 @@ int
 >
 num_framerate_reductions
 =
-absl
+std
 :
 :
 nullopt
@@ -1162,7 +1162,7 @@ mutex_
 void
 TryUpdateInitialQualityResolutionAdaptUp
 (
-absl
+std
 :
 :
 optional
@@ -1170,7 +1170,7 @@ optional
 int
 >
 old_quality_downscales
-absl
+std
 :
 :
 optional
@@ -1235,7 +1235,7 @@ RtpConfig
 rtp_config_
 ;
 const
-absl
+std
 :
 :
 optional
@@ -1245,7 +1245,7 @@ int
 fallback_max_pixels_
 ;
 const
-absl
+std
 :
 :
 optional
@@ -1333,7 +1333,7 @@ RTC_GUARDED_BY
 mutex_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1412,7 +1412,7 @@ new_encoder_implementation
 ;
 }
 ;
-absl
+std
 :
 :
 optional

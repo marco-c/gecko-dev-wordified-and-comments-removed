@@ -14,6 +14,11 @@ h
 #
 include
 <
+optional
+>
+#
+include
+<
 valarray
 >
 #
@@ -21,17 +26,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 namespace
 webrtc
 {
@@ -109,7 +103,7 @@ const
 ;
 private
 :
-absl
+std
 :
 :
 optional
@@ -130,7 +124,7 @@ uint64_t
 >
 sum_xx
 ;
-absl
+std
 :
 :
 optional

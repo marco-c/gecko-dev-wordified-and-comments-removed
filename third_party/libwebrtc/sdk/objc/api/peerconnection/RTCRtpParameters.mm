@@ -539,7 +539,7 @@ NSNumber
 degradationPreferenceFromNativeDegradationPreference
 :
 (
-absl
+std
 :
 :
 optional

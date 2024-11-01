@@ -7,19 +7,13 @@ API_AUDIO_OPTIONS_H_
 #
 include
 <
-string
+optional
 >
 #
 include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
+<
+string
+>
 #
 include
 "
@@ -100,7 +94,7 @@ ToString
 )
 const
 ;
-absl
+std
 :
 :
 optional
@@ -115,7 +109,7 @@ defined
 (
 WEBRTC_IOS
 )
-absl
+std
 :
 :
 optional
@@ -126,7 +120,7 @@ ios_force_software_aec_HACK
 ;
 #
 endif
-absl
+std
 :
 :
 optional
@@ -135,7 +129,7 @@ bool
 >
 auto_gain_control
 ;
-absl
+std
 :
 :
 optional
@@ -144,7 +138,7 @@ bool
 >
 noise_suppression
 ;
-absl
+std
 :
 :
 optional
@@ -153,7 +147,7 @@ bool
 >
 highpass_filter
 ;
-absl
+std
 :
 :
 optional
@@ -162,7 +156,7 @@ bool
 >
 stereo_swapping
 ;
-absl
+std
 :
 :
 optional
@@ -171,7 +165,7 @@ int
 >
 audio_jitter_buffer_max_packets
 ;
-absl
+std
 :
 :
 optional
@@ -180,7 +174,7 @@ bool
 >
 audio_jitter_buffer_fast_accelerate
 ;
-absl
+std
 :
 :
 optional
@@ -189,7 +183,7 @@ int
 >
 audio_jitter_buffer_min_delay_ms
 ;
-absl
+std
 :
 :
 optional
@@ -198,7 +192,7 @@ bool
 >
 audio_network_adaptor
 ;
-absl
+std
 :
 :
 optional
@@ -210,7 +204,7 @@ string
 >
 audio_network_adaptor_config
 ;
-absl
+std
 :
 :
 optional

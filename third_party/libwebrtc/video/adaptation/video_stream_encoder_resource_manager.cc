@@ -645,7 +645,7 @@ initial_framedrop_
 kMaxInitialFramedrop
 ;
 }
-absl
+std
 :
 :
 optional
@@ -661,7 +661,7 @@ return
 single_active_stream_pixels_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -688,7 +688,7 @@ Zero
 )
 )
 ?
-absl
+std
 :
 :
 optional
@@ -703,7 +703,7 @@ bps
 )
 )
 :
-absl
+std
 :
 :
 nullopt
@@ -1145,7 +1145,7 @@ set_start_bitrate_time_ms_
 int
 initial_framedrop_
 ;
-absl
+std
 :
 :
 optional
@@ -1361,14 +1361,14 @@ kPixelLimitResourceFieldTrialName
 )
 encoder_target_bitrate_bps_
 (
-absl
+std
 :
 :
 nullopt
 )
 encoder_settings_
 (
-absl
+std
 :
 :
 nullopt
@@ -2396,7 +2396,7 @@ EncodedImage
 encoded_image
 int64_t
 time_sent_in_us
-absl
+std
 :
 :
 optional
@@ -2519,7 +2519,7 @@ DropInitialFrames
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -2548,7 +2548,7 @@ single_active_stream_pixels
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -2604,7 +2604,7 @@ VideoStreamEncoderResourceManager
 :
 UpdateQualityScalerSettings
 (
-absl
+std
 :
 :
 optional
@@ -2899,7 +2899,7 @@ is_started
 )
 )
 {
-absl
+std
 :
 :
 optional
@@ -2952,7 +2952,7 @@ else
 {
 UpdateQualityScalerSettings
 (
-absl
+std
 :
 :
 nullopt
@@ -2978,7 +2978,7 @@ is_started
 )
 )
 {
-absl
+std
 :
 :
 optional
@@ -3559,7 +3559,7 @@ RTC_DCHECK_RUN_ON
 encoder_queue_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -3574,7 +3574,7 @@ has_value
 (
 )
 ?
-absl
+std
 :
 :
 optional
@@ -3592,12 +3592,12 @@ video_codec
 maxFramerate
 )
 :
-absl
+std
 :
 :
 nullopt
 ;
-absl
+std
 :
 :
 optional
@@ -3906,7 +3906,7 @@ return
 false
 ;
 }
-absl
+std
 :
 :
 optional

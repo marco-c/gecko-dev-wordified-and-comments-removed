@@ -27,6 +27,11 @@ iterator
 #
 include
 <
+optional
+>
+#
+include
+<
 vector
 >
 #
@@ -37,17 +42,6 @@ absl
 algorithm
 /
 container
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -197,7 +191,7 @@ webrtc
 {
 namespace
 {
-absl
+std
 :
 :
 optional
@@ -232,7 +226,7 @@ qp
 1
 )
 {
-absl
+std
 :
 :
 optional
@@ -303,7 +297,7 @@ layer_id
 "
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -357,7 +351,7 @@ frame
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -470,7 +464,7 @@ rtp_timestamp_encoded_image
 "
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -641,7 +635,7 @@ frame
 "
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -707,7 +701,7 @@ is_key_frame
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -727,7 +721,7 @@ true
 }
 ;
 }
-absl
+std
 :
 :
 optional
@@ -754,7 +748,7 @@ has_value
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -819,7 +813,7 @@ I420
 "
 ;
 return
-absl
+std
 :
 :
 nullopt

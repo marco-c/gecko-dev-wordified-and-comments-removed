@@ -11,15 +11,9 @@ cstdint
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -123,7 +117,7 @@ Decoded
 VideoFrame
 &
 decoded_image
-absl
+std
 :
 :
 optional
@@ -131,7 +125,7 @@ optional
 int32_t
 >
 decode_time_ms
-absl
+std
 :
 :
 optional

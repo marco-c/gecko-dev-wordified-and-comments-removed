@@ -13,15 +13,9 @@ h
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -138,7 +132,7 @@ TimeDelta
 expected_queue_time
 )
 ;
-absl
+std
 :
 :
 optional
@@ -151,7 +145,7 @@ GetUpdate
 ;
 private
 :
-absl
+std
 :
 :
 optional
@@ -160,7 +154,7 @@ TargetTransferRate
 >
 last_incoming_
 ;
-absl
+std
 :
 :
 optional

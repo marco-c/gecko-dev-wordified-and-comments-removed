@@ -738,7 +738,7 @@ audio_buffer
 {
 recommended_input_volume_
 =
-absl
+std
 :
 :
 nullopt
@@ -777,7 +777,7 @@ GainController2
 :
 Process
 (
-absl
+std
 :
 :
 optional
@@ -794,7 +794,7 @@ audio
 {
 recommended_input_volume_
 =
-absl
+std
 :
 :
 nullopt
@@ -932,7 +932,7 @@ float_frame
 data_dumper_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -957,7 +957,7 @@ float_frame
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1066,7 +1066,7 @@ speech_level
 >
 is_confident
 ?
-absl
+std
 :
 :
 optional
@@ -1080,7 +1080,7 @@ speech_level
 rms_dbfs
 )
 :
-absl
+std
 :
 :
 nullopt

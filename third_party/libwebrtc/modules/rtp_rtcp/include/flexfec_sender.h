@@ -242,7 +242,7 @@ FecType
 kFlexFec
 ;
 }
-absl
+std
 :
 :
 optional
@@ -314,7 +314,7 @@ CurrentFecRate
 const
 override
 ;
-absl
+std
 :
 :
 optional

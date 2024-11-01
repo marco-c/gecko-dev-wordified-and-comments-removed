@@ -116,7 +116,7 @@ csrcs
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -136,7 +136,7 @@ uint32_t
 rtp_clock_frequency
 uint64_t
 absolute_capture_timestamp
-absl
+std
 :
 :
 optional
@@ -161,7 +161,7 @@ false
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -181,7 +181,7 @@ int
 rtp_clock_frequency_hz
 NtpTime
 absolute_capture_time
-absl
+std
 :
 :
 optional
@@ -223,7 +223,7 @@ estimated_capture_clock_offset
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -286,7 +286,7 @@ int
 rtp_clock_frequency_hz
 NtpTime
 absolute_capture_time
-absl
+std
 :
 :
 optional

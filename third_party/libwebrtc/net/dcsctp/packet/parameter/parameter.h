@@ -34,6 +34,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -70,17 +75,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -293,7 +287,7 @@ data_
 }
 ;
 static
-absl
+std
 :
 :
 optional
@@ -375,7 +369,7 @@ template
 typename
 P
 >
-absl
+std
 :
 :
 optional
@@ -449,7 +443,7 @@ data
 }
 }
 return
-absl
+std
 :
 :
 nullopt

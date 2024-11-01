@@ -12,6 +12,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -19,17 +24,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -101,7 +95,7 @@ class
 AutoOpt
 :
 public
-absl
+std
 :
 :
 optional
@@ -112,7 +106,7 @@ T
 public
 :
 using
-absl
+std
 :
 :
 optional
@@ -134,7 +128,7 @@ operator
 if
 (
 !
-absl
+std
 :
 :
 optional
@@ -158,7 +152,7 @@ T
 )
 ;
 return
-absl
+std
 :
 :
 optional
@@ -309,7 +303,7 @@ Seconds
 0
 )
 ;
-absl
+std
 :
 :
 optional
@@ -318,7 +312,7 @@ int
 >
 width
 ;
-absl
+std
 :
 :
 optional

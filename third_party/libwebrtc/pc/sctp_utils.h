@@ -307,7 +307,7 @@ std
 string
 &
 protocol
-absl
+std
 :
 :
 optional
@@ -317,7 +317,7 @@ PriorityValue
 priority
 bool
 ordered
-absl
+std
 :
 :
 optional
@@ -325,7 +325,7 @@ optional
 int
 >
 max_retransmits
-absl
+std
 :
 :
 optional

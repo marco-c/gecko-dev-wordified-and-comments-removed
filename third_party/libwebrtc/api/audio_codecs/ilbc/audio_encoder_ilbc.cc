@@ -24,6 +24,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -44,17 +49,6 @@ absl
 strings
 /
 match
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -201,7 +195,7 @@ RTC_CHECK_NOTREACHED
 }
 }
 }
-absl
+std
 :
 :
 optional
@@ -257,7 +251,7 @@ num_channels
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -367,7 +361,7 @@ RTC_DCHECK_NOTREACHED
 )
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -483,7 +477,7 @@ AudioEncoderIlbcConfig
 config
 int
 payload_type
-absl
+std
 :
 :
 optional

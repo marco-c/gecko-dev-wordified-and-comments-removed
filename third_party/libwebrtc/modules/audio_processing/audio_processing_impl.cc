@@ -32,6 +32,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -74,17 +79,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -6931,7 +6925,7 @@ Process
 capture_buffer
 )
 ;
-absl
+std
 :
 :
 optional
@@ -7170,7 +7164,7 @@ gain_controller2
 >
 Process
 (
-absl
+std
 :
 :
 nullopt
@@ -8626,7 +8620,7 @@ capture_
 .
 recommended_input_volume
 =
-absl
+std
 :
 :
 nullopt
@@ -8772,7 +8766,7 @@ capture_
 .
 recommended_input_volume
 =
-absl
+std
 :
 :
 nullopt
@@ -9422,7 +9416,7 @@ else
 EchoCanceller3Config
 config
 ;
-absl
+std
 :
 :
 optional

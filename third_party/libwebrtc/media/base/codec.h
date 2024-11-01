@@ -12,6 +12,11 @@ cstddef
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -38,17 +43,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -415,7 +409,7 @@ bitrate
 size_t
 channels
 ;
-absl
+std
 :
 :
 optional
@@ -443,7 +437,7 @@ kScalabilityModeCount
 >
 scalability_modes
 ;
-absl
+std
 :
 :
 optional

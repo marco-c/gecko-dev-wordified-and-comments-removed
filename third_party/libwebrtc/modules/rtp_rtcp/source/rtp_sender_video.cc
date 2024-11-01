@@ -589,7 +589,7 @@ return
 true
 ;
 }
-absl
+std
 :
 :
 optional
@@ -618,7 +618,7 @@ playout_delay_min_ms
 "
 min_ms
 "
-absl
+std
 :
 :
 nullopt
@@ -633,7 +633,7 @@ playout_delay_max_ms
 "
 max_ms
 "
-absl
+std
 :
 :
 nullopt
@@ -666,7 +666,7 @@ playout_delay_max_ms
 &
 playout_delay_min_ms
 ?
-absl
+std
 :
 :
 make_optional
@@ -692,7 +692,7 @@ playout_delay_max_ms
 )
 )
 :
-absl
+std
 :
 :
 nullopt
@@ -2339,7 +2339,7 @@ SendVideo
 (
 int
 payload_type
-absl
+std
 :
 :
 optional
@@ -3933,7 +3933,7 @@ SendEncodedImage
 (
 int
 payload_type
-absl
+std
 :
 :
 optional
@@ -4373,7 +4373,7 @@ frame_stats_by_temporal_layer_
 i
 ]
 ;
-absl
+std
 :
 :
 optional
@@ -4470,7 +4470,7 @@ RTPVideoHeader
 header
 )
 {
-absl
+std
 :
 :
 optional

@@ -162,7 +162,7 @@ FecType
 kUlpFec
 ;
 }
-absl
+std
 :
 :
 optional
@@ -175,7 +175,7 @@ FecSsrc
 override
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -237,7 +237,7 @@ CurrentFecRate
 const
 override
 ;
-absl
+std
 :
 :
 optional
@@ -250,7 +250,7 @@ GetRtpState
 override
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -370,7 +370,7 @@ RTC_GUARDED_BY
 race_checker_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -432,7 +432,7 @@ mutable
 Mutex
 mutex_
 ;
-absl
+std
 :
 :
 optional

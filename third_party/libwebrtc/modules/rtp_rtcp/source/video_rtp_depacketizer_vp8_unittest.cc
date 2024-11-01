@@ -1043,7 +1043,7 @@ packet
 VideoRtpDepacketizerVp8
 depacketizer
 ;
-absl
+std
 :
 :
 optional
@@ -1223,7 +1223,7 @@ packet
 VideoRtpDepacketizerVp8
 depacketizer
 ;
-absl
+std
 :
 :
 optional

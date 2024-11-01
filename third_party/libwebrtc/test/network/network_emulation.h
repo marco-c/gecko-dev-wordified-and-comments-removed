@@ -32,6 +32,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -52,17 +57,6 @@ absl
 base
 /
 nullability
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -892,7 +886,7 @@ TaskQueueBase
 >
 task_queue_
 ;
-absl
+std
 :
 :
 optional
@@ -1254,7 +1248,7 @@ application_overhead
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -1271,7 +1265,7 @@ receiver
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -1384,7 +1378,7 @@ is_one_shot
 ;
 }
 ;
-absl
+std
 :
 :
 optional
@@ -1474,7 +1468,7 @@ RTC_GUARDED_BY
 receiver_lock_
 )
 ;
-absl
+std
 :
 :
 optional

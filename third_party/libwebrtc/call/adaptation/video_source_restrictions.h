@@ -7,6 +7,11 @@ CALL_ADAPTATION_VIDEO_SOURCE_RESTRICTIONS_H_
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -14,17 +19,6 @@ include
 <
 utility
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 namespace
 webrtc
 {
@@ -39,7 +33,7 @@ VideoSourceRestrictions
 ;
 VideoSourceRestrictions
 (
-absl
+std
 :
 :
 optional
@@ -47,7 +41,7 @@ optional
 size_t
 >
 max_pixels_per_frame
-absl
+std
 :
 :
 optional
@@ -55,7 +49,7 @@ optional
 size_t
 >
 target_pixels_per_frame
-absl
+std
 :
 :
 optional
@@ -135,7 +129,7 @@ ToString
 const
 ;
 const
-absl
+std
 :
 :
 optional
@@ -149,7 +143,7 @@ max_pixels_per_frame
 const
 ;
 const
-absl
+std
 :
 :
 optional
@@ -163,7 +157,7 @@ target_pixels_per_frame
 const
 ;
 const
-absl
+std
 :
 :
 optional
@@ -179,7 +173,7 @@ const
 void
 set_max_pixels_per_frame
 (
-absl
+std
 :
 :
 optional
@@ -192,7 +186,7 @@ max_pixels_per_frame
 void
 set_target_pixels_per_frame
 (
-absl
+std
 :
 :
 optional
@@ -205,7 +199,7 @@ target_pixels_per_frame
 void
 set_max_frame_rate
 (
-absl
+std
 :
 :
 optional
@@ -226,7 +220,7 @@ other
 ;
 private
 :
-absl
+std
 :
 :
 optional
@@ -235,7 +229,7 @@ size_t
 >
 max_pixels_per_frame_
 ;
-absl
+std
 :
 :
 optional
@@ -244,7 +238,7 @@ size_t
 >
 target_pixels_per_frame_
 ;
-absl
+std
 :
 :
 optional

@@ -20,15 +20,9 @@ h
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -191,7 +185,7 @@ DurationMs
 1000
 )
 ;
-absl
+std
 :
 :
 optional
@@ -200,7 +194,7 @@ DurationMs
 >
 max_timer_backoff_duration
 =
-absl
+std
 :
 :
 nullopt
@@ -249,7 +243,7 @@ max_burst
 =
 4
 ;
-absl
+std
 :
 :
 optional
@@ -260,7 +254,7 @@ max_retransmissions
 =
 10
 ;
-absl
+std
 :
 :
 optional

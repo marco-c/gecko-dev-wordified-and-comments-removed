@@ -991,7 +991,7 @@ std
 string
 GetAgcMinMicLevelExperimentFieldTrial
 (
-absl
+std
 :
 :
 optional
@@ -1180,7 +1180,7 @@ const
 AudioBuffer
 &
 audio_buffer
-absl
+std
 :
 :
 optional
@@ -1188,7 +1188,7 @@ optional
 float
 >
 speech_probability_override
-absl
+std
 :
 :
 optional
@@ -1506,7 +1506,7 @@ int
 num_frames
 int
 gain_db
-absl
+std
 :
 :
 optional
@@ -1514,7 +1514,7 @@ optional
 float
 >
 speech_probability_override
-absl
+std
 :
 :
 optional
@@ -1865,7 +1865,7 @@ CallAgcSequence
 (
 int
 applied_input_volume
-absl
+std
 :
 :
 optional
@@ -1873,7 +1873,7 @@ optional
 float
 >
 speech_probability_override
-absl
+std
 :
 :
 optional
@@ -1906,7 +1906,7 @@ speech_probability_override
 speech_level_override
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1948,7 +1948,7 @@ CallProcess
 (
 int
 num_calls
-absl
+std
 :
 :
 optional
@@ -1956,7 +1956,7 @@ optional
 float
 >
 speech_probability_override
-absl
+std
 :
 :
 optional
@@ -2008,7 +2008,7 @@ speech_probability_override
 speech_level_override
 )
 ;
-absl
+std
 :
 :
 optional
@@ -2296,7 +2296,7 @@ std
 :
 tuple
 <
-absl
+std
 :
 :
 optional
@@ -2405,7 +2405,7 @@ GetParam
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -2424,7 +2424,7 @@ IsRmsErrorOverridden
 (
 )
 ?
-absl
+std
 :
 :
 optional
@@ -2435,7 +2435,7 @@ float
 value
 )
 :
-absl
+std
 :
 :
 nullopt
@@ -2466,7 +2466,7 @@ testing
 :
 Values
 (
-absl
+std
 :
 :
 nullopt
@@ -4057,7 +4057,7 @@ CompressorStepsTowardsTarget
 )
 {
 constexpr
-absl
+std
 :
 :
 optional
@@ -4066,7 +4066,7 @@ float
 >
 kNoOverride
 =
-absl
+std
 :
 :
 nullopt
@@ -4666,7 +4666,7 @@ CompressorErrorIsDeemphasized
 )
 {
 constexpr
-absl
+std
 :
 :
 optional
@@ -4675,7 +4675,7 @@ float
 >
 kNoOverride
 =
-absl
+std
 :
 :
 nullopt
@@ -5026,7 +5026,7 @@ CompressorReachesMaximum
 )
 {
 constexpr
-absl
+std
 :
 :
 optional
@@ -5035,7 +5035,7 @@ float
 >
 kNoOverride
 =
-absl
+std
 :
 :
 nullopt
@@ -5328,7 +5328,7 @@ CompressorReachesMinimum
 )
 {
 constexpr
-absl
+std
 :
 :
 optional
@@ -5337,7 +5337,7 @@ float
 >
 kNoOverride
 =
-absl
+std
 :
 :
 nullopt
@@ -5675,7 +5675,7 @@ kSpeechLevelDbfs
 )
 )
 ;
-absl
+std
 :
 :
 optional
@@ -7640,7 +7640,7 @@ MaxCompressionIsIncreasedAfterClipping
 )
 {
 constexpr
-absl
+std
 :
 :
 optional
@@ -7649,7 +7649,7 @@ float
 >
 kNoOverride
 =
-absl
+std
 :
 :
 nullopt
@@ -9668,11 +9668,11 @@ CallPreProcessAndProcess
 (
 400
 audio_buffer
-absl
+std
 :
 :
 nullopt
-absl
+std
 :
 :
 nullopt
@@ -9684,11 +9684,11 @@ CallPreProcessAndProcess
 (
 400
 audio_buffer
-absl
+std
 :
 :
 nullopt
-absl
+std
 :
 :
 nullopt
@@ -9876,7 +9876,7 @@ CallPreProcessAndProcess
 (
 400
 audio_buffer
-absl
+std
 :
 :
 optional
@@ -9888,7 +9888,7 @@ float
 .
 7f
 )
-absl
+std
 :
 :
 optional
@@ -10121,11 +10121,11 @@ CallPreProcessAndProcess
 (
 400
 audio_buffer
-absl
+std
 :
 :
 nullopt
-absl
+std
 :
 :
 nullopt
@@ -10137,11 +10137,11 @@ CallPreProcessAndProcess
 (
 400
 audio_buffer
-absl
+std
 :
 :
 nullopt
-absl
+std
 :
 :
 nullopt
@@ -10367,7 +10367,7 @@ CallPreProcessAndProcess
 (
 400
 audio_buffer
-absl
+std
 :
 :
 optional
@@ -10379,7 +10379,7 @@ float
 .
 7f
 )
-absl
+std
 :
 :
 optional
@@ -10400,7 +10400,7 @@ CallPreProcessAndProcess
 (
 400
 audio_buffer
-absl
+std
 :
 :
 optional
@@ -10412,7 +10412,7 @@ float
 .
 7f
 )
-absl
+std
 :
 :
 optional
@@ -12023,11 +12023,11 @@ Feed
 (
 kNumFrames
 kGainDb
-absl
+std
 :
 :
 nullopt
-absl
+std
 :
 :
 nullopt

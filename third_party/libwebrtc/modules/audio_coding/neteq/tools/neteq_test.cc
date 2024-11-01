@@ -110,7 +110,7 @@ test
 {
 namespace
 {
-absl
+std
 :
 :
 optional
@@ -122,7 +122,7 @@ Operation
 >
 ActionToOperations
 (
-absl
+std
 :
 :
 optional
@@ -142,7 +142,7 @@ a
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -164,7 +164,7 @@ Action
 kAccelerate
 :
 return
-absl
+std
 :
 :
 make_optional
@@ -188,7 +188,7 @@ Action
 kExpand
 :
 return
-absl
+std
 :
 :
 make_optional
@@ -212,7 +212,7 @@ Action
 kNormal
 :
 return
-absl
+std
 :
 :
 make_optional
@@ -236,7 +236,7 @@ Action
 kPreemptiveExpand
 :
 return
-absl
+std
 :
 :
 make_optional
@@ -1207,7 +1207,7 @@ endl
 }
 last_packet_time_ms_
 =
-absl
+std
 :
 :
 make_optional
@@ -1220,7 +1220,7 @@ time_now_ms
 ;
 last_packet_timestamp_
 =
-absl
+std
 :
 :
 make_optional
@@ -1362,7 +1362,7 @@ next_action_
 ;
 next_action_
 =
-absl
+std
 :
 :
 nullopt
@@ -2071,7 +2071,7 @@ next_operation
 {
 next_action_
 =
-absl
+std
 :
 :
 optional

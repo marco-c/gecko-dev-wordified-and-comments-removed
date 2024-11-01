@@ -17,6 +17,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 utility
 >
 #
@@ -38,17 +43,6 @@ absl
 strings
 /
 match
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -185,7 +179,7 @@ size_t
 number_of_channels
 size_t
 number_of_frames
-absl
+std
 :
 :
 optional
@@ -702,7 +696,7 @@ true
 ;
 }
 }
-absl
+std
 :
 :
 optional
@@ -750,7 +744,7 @@ second
 ;
 }
 return
-absl
+std
 :
 :
 nullopt
@@ -1052,7 +1046,7 @@ size_t
 number_of_channels
 size_t
 number_of_frames
-absl
+std
 :
 :
 optional
@@ -1169,7 +1163,7 @@ return
 send_codecs_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1203,7 +1197,7 @@ front
 ;
 }
 return
-absl
+std
 :
 :
 nullopt
@@ -2000,7 +1994,7 @@ max_bandwidth_bps
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -2025,7 +2019,7 @@ empty
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -2781,7 +2775,7 @@ true
 ;
 }
 }
-absl
+std
 :
 :
 optional
@@ -2829,7 +2823,7 @@ second
 ;
 }
 return
-absl
+std
 :
 :
 nullopt
@@ -3333,7 +3327,7 @@ return
 false
 ;
 }
-absl
+std
 :
 :
 optional
@@ -3354,7 +3348,7 @@ GetAudioDeviceStats
 )
 {
 return
-absl
+std
 :
 :
 nullopt

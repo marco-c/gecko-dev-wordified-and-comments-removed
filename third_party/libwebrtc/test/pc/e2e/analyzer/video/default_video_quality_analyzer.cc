@@ -1021,7 +1021,7 @@ template
 typename
 T
 >
-absl
+std
 :
 :
 optional
@@ -1068,7 +1068,7 @@ end
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1577,7 +1577,7 @@ PushBack
 frame_id
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1586,7 +1586,7 @@ TimeDelta
 >
 time_between_captured_frames
 =
-absl
+std
 :
 :
 nullopt
@@ -1768,11 +1768,11 @@ stream_index
 peer_index
 i
 )
-absl
+std
 :
 :
 nullopt
-absl
+std
 :
 :
 nullopt
@@ -2485,7 +2485,7 @@ stream
 )
 )
 ;
-absl
+std
 :
 :
 optional
@@ -2494,7 +2494,7 @@ TimeDelta
 >
 time_between_encoded_frames
 =
-absl
+std
 :
 :
 nullopt
@@ -3557,7 +3557,7 @@ frame_it
 >
 second
 ;
-absl
+std
 :
 :
 optional
@@ -4523,7 +4523,7 @@ peer_name
 )
 )
 ;
-absl
+std
 :
 :
 optional
@@ -6060,11 +6060,11 @@ frames_comparator_
 AddComparison
 (
 stats_key
-absl
+std
 :
 :
 nullopt
-absl
+std
 :
 :
 nullopt
@@ -6296,11 +6296,11 @@ frames_comparator_
 AddComparison
 (
 stats_key
-absl
+std
 :
 :
 nullopt
-absl
+std
 :
 :
 nullopt

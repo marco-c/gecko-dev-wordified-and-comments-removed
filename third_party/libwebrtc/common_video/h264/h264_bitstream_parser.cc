@@ -134,7 +134,7 @@ kInvalidStream
 ;
 last_slice_qp_delta_
 =
-absl
+std
 :
 :
 nullopt
@@ -1663,7 +1663,7 @@ payload_size
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1688,7 +1688,7 @@ last_slice_qp_delta_
 pps_
 )
 return
-absl
+std
 :
 :
 nullopt
@@ -1735,7 +1735,7 @@ bitstream
 "
 ;
 return
-absl
+std
 :
 :
 nullopt

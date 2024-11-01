@@ -17,6 +17,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 set
 >
 #
@@ -34,17 +39,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -514,7 +508,7 @@ char
 *
 key
 const
-absl
+std
 :
 :
 optional
@@ -858,7 +852,7 @@ Release
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -867,7 +861,7 @@ bool
 >
 video_noise_reduction
 ;
-absl
+std
 :
 :
 optional
@@ -876,7 +870,7 @@ int
 >
 screencast_min_bitrate_kbps
 ;
-absl
+std
 :
 :
 optional
@@ -905,7 +899,7 @@ static
 void
 SetFrom
 (
-absl
+std
 :
 :
 optional
@@ -915,7 +909,7 @@ T
 *
 s
 const
-absl
+std
 :
 :
 optional
@@ -1067,7 +1061,7 @@ const
 0
 ;
 virtual
-absl
+std
 :
 :
 optional
@@ -1444,7 +1438,7 @@ packet
 0
 ;
 virtual
-absl
+std
 :
 :
 optional
@@ -1547,7 +1541,7 @@ delay_ms
 0
 ;
 virtual
-absl
+std
 :
 :
 optional
@@ -1795,7 +1789,7 @@ nacks_received
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -1827,7 +1821,7 @@ std
 string
 codec_name
 ;
-absl
+std
 :
 :
 optional
@@ -1866,7 +1860,7 @@ ReportBlockData
 >
 report_block_datas
 ;
-absl
+std
 :
 :
 optional
@@ -2079,7 +2073,7 @@ packets_lost
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -2088,7 +2082,7 @@ uint64_t
 >
 retransmitted_bytes_received
 ;
-absl
+std
 :
 :
 optional
@@ -2097,7 +2091,7 @@ uint64_t
 >
 retransmitted_packets_received
 ;
-absl
+std
 :
 :
 optional
@@ -2132,7 +2126,7 @@ jitter_buffer_emitted_count
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -2144,7 +2138,7 @@ Timestamp
 >
 last_packet_received
 ;
-absl
+std
 :
 :
 optional
@@ -2159,7 +2153,7 @@ std
 string
 codec_name
 ;
-absl
+std
 :
 :
 optional
@@ -2186,7 +2180,7 @@ SsrcSenderInfo
 >
 remote_stats
 ;
-absl
+std
 :
 :
 optional
@@ -2195,7 +2189,7 @@ uint64_t
 >
 fec_packets_received
 ;
-absl
+std
 :
 :
 optional
@@ -2204,7 +2198,7 @@ uint64_t
 >
 fec_packets_discarded
 ;
-absl
+std
 :
 :
 optional
@@ -2220,7 +2214,7 @@ total_processing_delay_seconds
 .
 0
 ;
-absl
+std
 :
 :
 optional
@@ -2229,7 +2223,7 @@ int64_t
 >
 last_sender_report_timestamp_ms
 ;
-absl
+std
 :
 :
 optional
@@ -2253,7 +2247,7 @@ sender_reports_reports_count
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -2571,7 +2565,7 @@ SsrcGroup
 >
 ssrc_groups
 ;
-absl
+std
 :
 :
 optional
@@ -2705,7 +2699,7 @@ has_entered_low_resolution
 =
 false
 ;
-absl
+std
 :
 :
 optional
@@ -2743,7 +2737,7 @@ aggregated_huge_frames_sent
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -2755,7 +2749,7 @@ string
 >
 rid
 ;
-absl
+std
 :
 :
 optional
@@ -2764,7 +2758,7 @@ bool
 >
 power_efficient_encoder
 ;
-absl
+std
 :
 :
 optional
@@ -2802,7 +2796,7 @@ SsrcGroup
 >
 ssrc_groups
 ;
-absl
+std
 :
 :
 optional
@@ -2814,7 +2808,7 @@ string
 >
 decoder_implementation_name
 ;
-absl
+std
 :
 :
 optional
@@ -2898,7 +2892,7 @@ frames_rendered
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -3062,7 +3056,7 @@ first_frame_received_to_decoded_ms
 -
 1
 ;
-absl
+std
 :
 :
 optional
@@ -4479,7 +4473,7 @@ const
 0
 ;
 virtual
-absl
+std
 :
 :
 optional
@@ -4683,7 +4677,7 @@ webrtc
 :
 RtcpMode
 rtcp_mode
-absl
+std
 :
 :
 optional

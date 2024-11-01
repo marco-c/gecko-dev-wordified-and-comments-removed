@@ -6,15 +6,9 @@ define
 RTC_BASE_EXPERIMENTS_QUALITY_SCALING_EXPERIMENT_H_
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -116,7 +110,7 @@ field_trials
 )
 ;
 static
-absl
+std
 :
 :
 optional
@@ -132,7 +126,7 @@ field_trials
 )
 ;
 static
-absl
+std
 :
 :
 optional

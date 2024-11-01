@@ -6,15 +6,9 @@ define
 COMMON_VIDEO_H265_H265_PPS_PARSER_H_
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -141,7 +135,7 @@ qp_bd_offset_y
 }
 ;
 static
-absl
+std
 :
 :
 optional
@@ -170,7 +164,7 @@ sps
 ;
 static
 inline
-absl
+std
 :
 :
 optional
@@ -268,7 +262,7 @@ sps_id
 protected
 :
 static
-absl
+std
 :
 :
 optional

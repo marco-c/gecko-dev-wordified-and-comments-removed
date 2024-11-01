@@ -356,7 +356,7 @@ return
 result
 ;
 }
-absl
+std
 :
 :
 optional
@@ -373,7 +373,7 @@ DataReader
 reader
 )
 {
-absl
+std
 :
 :
 optional
@@ -795,7 +795,7 @@ VideoContentType
 :
 UNSPECIFIED
 video_header
-absl
+std
 :
 :
 nullopt

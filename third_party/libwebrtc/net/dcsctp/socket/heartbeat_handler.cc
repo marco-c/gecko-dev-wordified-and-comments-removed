@@ -31,6 +31,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -62,17 +67,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -406,7 +400,7 @@ data
 ;
 }
 static
-absl
+std
 :
 :
 optional
@@ -464,7 +458,7 @@ bytes
 "
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -800,7 +794,7 @@ Stop
 (
 )
 ;
-absl
+std
 :
 :
 optional
@@ -856,7 +850,7 @@ parameter
 return
 ;
 }
-absl
+std
 :
 :
 optional

@@ -31,6 +31,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -57,17 +62,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -1639,7 +1633,7 @@ disable_link_local_networks
 =
 false
 ;
-absl
+std
 :
 :
 optional
@@ -1744,7 +1738,7 @@ surface_ice_candidates_on_ice_transport_type_changed
 =
 false
 ;
-absl
+std
 :
 :
 optional
@@ -1753,7 +1747,7 @@ int
 >
 ice_check_interval_strong_connectivity
 ;
-absl
+std
 :
 :
 optional
@@ -1762,7 +1756,7 @@ int
 >
 ice_check_interval_weak_connectivity
 ;
-absl
+std
 :
 :
 optional
@@ -1771,7 +1765,7 @@ int
 >
 ice_check_min_interval
 ;
-absl
+std
 :
 :
 optional
@@ -1780,7 +1774,7 @@ int
 >
 ice_unwritable_timeout
 ;
-absl
+std
 :
 :
 optional
@@ -1789,7 +1783,7 @@ int
 >
 ice_unwritable_min_checks
 ;
-absl
+std
 :
 :
 optional
@@ -1798,7 +1792,7 @@ int
 >
 ice_inactive_timeout
 ;
-absl
+std
 :
 :
 optional
@@ -1816,7 +1810,7 @@ turn_customizer
 =
 nullptr
 ;
-absl
+std
 :
 :
 optional
@@ -1841,7 +1835,7 @@ active_reset_srtp_params
 =
 false
 ;
-absl
+std
 :
 :
 optional
@@ -1866,7 +1860,7 @@ enable_implicit_rollback
 =
 false
 ;
-absl
+std
 :
 :
 optional
@@ -1875,7 +1869,7 @@ int
 >
 report_usage_pattern_delay_ms
 ;
-absl
+std
 :
 :
 optional
@@ -1907,7 +1901,7 @@ vpn_list
 PortAllocatorConfig
 port_allocator_config
 ;
-absl
+std
 :
 :
 optional
@@ -2993,7 +2987,7 @@ ice_gathering_state
 0
 ;
 virtual
-absl
+std
 :
 :
 optional

@@ -720,7 +720,7 @@ string
 scalability_mode_str
 )
 {
-absl
+std
 :
 :
 optional
@@ -1120,7 +1120,7 @@ discarded
 )
 override
 {
-absl
+std
 :
 :
 optional
@@ -1135,7 +1135,7 @@ SpatialIndex
 (
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1200,7 +1200,7 @@ input_image
 )
 override
 {
-absl
+std
 :
 :
 optional
@@ -1215,7 +1215,7 @@ SpatialIndex
 (
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1418,7 +1418,7 @@ decoder_layers_seen_
 ;
 }
 const
-absl
+std
 :
 :
 optional
@@ -1445,7 +1445,7 @@ encoder_layers_seen_
 SpatialTemporalLayerCounts
 decoder_layers_seen_
 ;
-absl
+std
 :
 :
 optional

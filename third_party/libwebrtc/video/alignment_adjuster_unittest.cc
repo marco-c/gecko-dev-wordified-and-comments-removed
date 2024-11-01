@@ -1072,7 +1072,7 @@ GetAlignmentAndMaybeAdjustScaleFactors
 info
 &
 config
-absl
+std
 :
 :
 nullopt
@@ -1208,7 +1208,7 @@ GetAlignmentAndMaybeAdjustScaleFactors
 info
 &
 config
-absl
+std
 :
 :
 nullopt
@@ -1344,7 +1344,7 @@ GetAlignmentAndMaybeAdjustScaleFactors
 info
 &
 config
-absl
+std
 :
 :
 optional

@@ -17,6 +17,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -37,17 +42,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -538,7 +532,7 @@ RTC_LOCKS_EXCLUDED
 send_mutex_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -718,7 +712,7 @@ return
 rid_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -877,7 +871,7 @@ uint32_t
 ssrc_
 ;
 const
-absl
+std
 :
 :
 optional
@@ -887,7 +881,7 @@ uint32_t
 rtx_ssrc_
 ;
 const
-absl
+std
 :
 :
 optional

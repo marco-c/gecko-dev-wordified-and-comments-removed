@@ -157,10 +157,10 @@ libvpx_vp8_decoder
 .
 cc
 index
-9a7a6f1498
+fc6cad6167
 .
 .
-86ec13fc1f
+06422aaf5a
 100644
 -
 -
@@ -310,10 +310,10 @@ libvpx_vp8_encoder
 .
 cc
 index
-7b83e93e8f
+7edd3feb48
 .
 .
-ad8bfa83b4
+52511cc884
 100644
 -
 -

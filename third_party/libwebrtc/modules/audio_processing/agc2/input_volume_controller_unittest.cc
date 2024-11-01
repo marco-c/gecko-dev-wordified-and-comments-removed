@@ -780,7 +780,7 @@ int
 gain_db
 float
 speech_probability
-absl
+std
 :
 :
 optional
@@ -1013,7 +1013,7 @@ int
 applied_input_volume
 float
 speech_probability
-absl
+std
 :
 :
 optional
@@ -1173,7 +1173,7 @@ audio_buffer
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1186,7 +1186,7 @@ int
 applied_input_volume
 float
 speech_probability
-absl
+std
 :
 :
 optional
@@ -1206,7 +1206,7 @@ num_calls
 1
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1291,7 +1291,7 @@ int
 initial_volume
 float
 speech_probability
-absl
+std
 :
 :
 optional
@@ -5560,7 +5560,7 @@ kNumFrames
 kInitialInputVolume
 kGainDb
 kLowSpeechProbability
-absl
+std
 :
 :
 nullopt
@@ -8149,7 +8149,7 @@ UpdateRecommendedInputVolume
 mono_controller_1
 volume_1
 kHighSpeechProbability
-absl
+std
 :
 :
 nullopt

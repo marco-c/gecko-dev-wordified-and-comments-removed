@@ -27,7 +27,7 @@ h
 namespace
 webrtc
 {
-absl
+std
 :
 :
 optional
@@ -82,7 +82,7 @@ end
 )
 )
 return
-absl
+std
 :
 :
 nullopt
@@ -97,7 +97,7 @@ second
 template
 <
 >
-absl
+std
 :
 :
 optional
@@ -247,7 +247,7 @@ has_value
 )
 {
 return
-absl
+std
 :
 :
 nullopt

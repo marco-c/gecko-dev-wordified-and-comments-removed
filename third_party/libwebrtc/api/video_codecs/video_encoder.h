@@ -22,6 +22,11 @@ limits
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -37,17 +42,6 @@ absl
 container
 /
 inlined_vector
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -386,7 +380,7 @@ ScalingSettings
 (
 )
 ;
-absl
+std
 :
 :
 optional
@@ -626,7 +620,7 @@ ResolutionBitrateLimits
 >
 resolution_bitrate_limits
 ;
-absl
+std
 :
 :
 optional
@@ -656,7 +650,7 @@ kMaxPreferredPixelFormats
 >
 preferred_pixel_formats
 ;
-absl
+std
 :
 :
 optional
@@ -665,7 +659,7 @@ bool
 >
 is_qp_trusted
 ;
-absl
+std
 :
 :
 optional
@@ -759,7 +753,7 @@ timestamp_of_last_decodable
 uint32_t
 timestamp_of_last_received
 ;
-absl
+std
 :
 :
 optional
@@ -768,7 +762,7 @@ bool
 >
 dependencies_of_last_received_decodable
 ;
-absl
+std
 :
 :
 optional
@@ -838,7 +832,7 @@ number_of_cores
 size_t
 max_payload_size
 ;
-absl
+std
 :
 :
 optional

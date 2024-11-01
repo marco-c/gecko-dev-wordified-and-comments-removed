@@ -6,15 +6,9 @@ define
 COMMON_VIDEO_H265_H265_VPS_PARSER_H_
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -60,7 +54,7 @@ id
 }
 ;
 static
-absl
+std
 :
 :
 optional
@@ -82,7 +76,7 @@ data
 ;
 static
 inline
-absl
+std
 :
 :
 optional
@@ -116,7 +110,7 @@ length
 protected
 :
 static
-absl
+std
 :
 :
 optional

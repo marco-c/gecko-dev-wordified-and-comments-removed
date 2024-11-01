@@ -2476,7 +2476,7 @@ AbsoluteCaptureTimeExtension
 AbsoluteCaptureTime
 {
 kAbsoluteCaptureTimestamp
-absl
+std
 :
 :
 nullopt
@@ -2668,7 +2668,7 @@ AbsoluteCaptureTimeExtension
 AbsoluteCaptureTime
 {
 kAbsoluteCaptureTimestamp
-absl
+std
 :
 :
 nullopt

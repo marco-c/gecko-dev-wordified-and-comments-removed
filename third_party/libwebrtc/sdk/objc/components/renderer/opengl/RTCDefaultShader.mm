@@ -41,15 +41,9 @@ h
 "
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 static
 const
 int
@@ -482,7 +476,7 @@ _vertexBuffer
 GLuint
 _vertexArray
 ;
-absl
+std
 :
 :
 optional
@@ -850,7 +844,7 @@ _currentRotation
 {
 _currentRotation
 =
-absl
+std
 :
 :
 optional

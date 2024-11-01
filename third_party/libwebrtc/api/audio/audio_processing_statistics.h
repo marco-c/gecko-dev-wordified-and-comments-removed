@@ -13,15 +13,9 @@ h
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -57,7 +51,7 @@ AudioProcessingStats
 (
 )
 ;
-absl
+std
 :
 :
 optional
@@ -66,7 +60,7 @@ bool
 >
 voice_detected
 ;
-absl
+std
 :
 :
 optional
@@ -75,7 +69,7 @@ double
 >
 echo_return_loss
 ;
-absl
+std
 :
 :
 optional
@@ -84,7 +78,7 @@ double
 >
 echo_return_loss_enhancement
 ;
-absl
+std
 :
 :
 optional
@@ -93,7 +87,7 @@ double
 >
 divergent_filter_fraction
 ;
-absl
+std
 :
 :
 optional
@@ -102,7 +96,7 @@ int32_t
 >
 delay_median_ms
 ;
-absl
+std
 :
 :
 optional
@@ -111,7 +105,7 @@ int32_t
 >
 delay_standard_deviation_ms
 ;
-absl
+std
 :
 :
 optional
@@ -120,7 +114,7 @@ double
 >
 residual_echo_likelihood
 ;
-absl
+std
 :
 :
 optional
@@ -129,7 +123,7 @@ double
 >
 residual_echo_likelihood_recent_max
 ;
-absl
+std
 :
 :
 optional

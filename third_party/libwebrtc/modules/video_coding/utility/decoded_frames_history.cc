@@ -385,7 +385,7 @@ reset
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -404,7 +404,7 @@ return
 last_decoded_frame_
 ;
 }
-absl
+std
 :
 :
 optional

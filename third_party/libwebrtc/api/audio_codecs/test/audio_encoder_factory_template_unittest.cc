@@ -17,6 +17,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 utility
 >
 #
@@ -24,17 +29,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -353,7 +347,7 @@ audio_format
 }
 ;
 static
-absl
+std
 :
 :
 optional
@@ -395,7 +389,7 @@ config
 else
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -472,7 +466,7 @@ Config
 &
 int
 payload_type
-absl
+std
 :
 :
 optional
@@ -480,7 +474,7 @@ optional
 AudioCodecPairId
 >
 =
-absl
+std
 :
 :
 nullopt
@@ -609,7 +603,7 @@ return
 ;
 }
 static
-absl
+std
 :
 :
 optional
@@ -698,7 +692,7 @@ Config
 &
 int
 payload_type
-absl
+std
 :
 :
 optional
@@ -834,7 +828,7 @@ Config
 &
 int
 payload_type
-absl
+std
 :
 :
 optional
@@ -1179,7 +1173,7 @@ IsEmpty
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt
@@ -1284,7 +1278,7 @@ bogus
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt
@@ -1473,7 +1467,7 @@ value
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt
@@ -1743,7 +1737,7 @@ PCMA
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt
@@ -1932,7 +1926,7 @@ G722
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt
@@ -2089,7 +2083,7 @@ ILBC
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt
@@ -2339,7 +2333,7 @@ L16
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt
@@ -2535,7 +2529,7 @@ info
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt

@@ -22,6 +22,11 @@ array
 #
 include
 <
+optional
+>
+#
+include
+<
 utility
 >
 #
@@ -32,17 +37,6 @@ absl
 container
 /
 inlined_vector
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -128,7 +122,7 @@ GetPriorityForType
 (
 RtpPacketMediaType
 type
-absl
+std
 :
 :
 optional
@@ -315,7 +309,7 @@ RtpPacketMediaType
 :
 :
 kVideo
-absl
+std
 :
 :
 nullopt
@@ -958,7 +952,7 @@ original_packet_type
 (
 )
 :
-absl
+std
 :
 :
 nullopt
@@ -1390,7 +1384,7 @@ priority_level
 GetPriorityForType
 (
 type
-absl
+std
 :
 :
 nullopt
@@ -1459,7 +1453,7 @@ RtpPacketMediaType
 :
 :
 kRetransmission
-absl
+std
 :
 :
 nullopt

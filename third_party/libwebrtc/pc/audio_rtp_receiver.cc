@@ -880,7 +880,7 @@ AudioRtpReceiver
 :
 RestartMediaChannel
 (
-absl
+std
 :
 :
 optional
@@ -974,7 +974,7 @@ AudioRtpReceiver
 :
 RestartMediaChannel_w
 (
-absl
+std
 :
 :
 optional
@@ -1123,14 +1123,14 @@ signaling_thread_checker_
 ;
 RestartMediaChannel
 (
-absl
+std
 :
 :
 nullopt
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1676,7 +1676,7 @@ AudioRtpReceiver
 :
 SetJitterBufferMinimumDelay
 (
-absl
+std
 :
 :
 optional

@@ -6,15 +6,9 @@ define
 MEDIA_BASE_SDP_VIDEO_FORMAT_UTILS_H_
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -66,7 +60,7 @@ answer_params
 ;
 #
 endif
-absl
+std
 :
 :
 optional
@@ -81,7 +75,7 @@ CodecParameterMap
 params
 )
 ;
-absl
+std
 :
 :
 optional

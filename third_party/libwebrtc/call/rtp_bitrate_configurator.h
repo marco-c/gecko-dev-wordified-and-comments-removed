@@ -6,15 +6,9 @@ define
 CALL_RTP_BITRATE_CONFIGURATOR_H_
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -86,7 +80,7 @@ GetConfig
 )
 const
 ;
-absl
+std
 :
 :
 optional
@@ -101,7 +95,7 @@ BitrateConstraints
 bitrate_config_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -116,7 +110,7 @@ BitrateSettings
 bitrate_mask
 )
 ;
-absl
+std
 :
 :
 optional
@@ -131,7 +125,7 @@ cap
 ;
 private
 :
-absl
+std
 :
 :
 optional
@@ -141,7 +135,7 @@ BitrateConstraints
 UpdateConstraints
 (
 const
-absl
+std
 :
 :
 optional

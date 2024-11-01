@@ -17,6 +17,11 @@ map
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -24,17 +29,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -408,7 +402,7 @@ reset
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -446,7 +440,7 @@ round_trip_time_measurements_
 }
 private
 :
-absl
+std
 :
 :
 optional
@@ -561,7 +555,7 @@ return
 receiver_only_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -608,7 +602,7 @@ remote_ntp_timestamp_ms
 )
 const
 ;
-absl
+std
 :
 :
 optional
@@ -620,7 +614,7 @@ AverageRtt
 )
 const
 ;
-absl
+std
 :
 :
 optional
@@ -645,7 +639,7 @@ bool
 enabled
 )
 ;
-absl
+std
 :
 :
 optional
@@ -656,7 +650,7 @@ GetAndResetXrRrRtt
 (
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1667,7 +1661,7 @@ RTC_GUARDED_BY
 rtcp_receiver_lock_
 )
 ;
-absl
+std
 :
 :
 optional

@@ -23,15 +23,9 @@ memory
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -200,7 +194,7 @@ protected
 int
 mic_level_
 ;
-absl
+std
 :
 :
 optional
@@ -523,7 +517,7 @@ float
 ComputeAgcLinearFactor
 (
 const
-absl
+std
 :
 :
 optional

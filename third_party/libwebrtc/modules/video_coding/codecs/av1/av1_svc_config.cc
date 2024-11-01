@@ -244,7 +244,7 @@ num_layers_fit_vert
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -353,7 +353,7 @@ scalability_mode
 )
 !
 =
-absl
+std
 :
 :
 nullopt
@@ -386,7 +386,7 @@ scalability_mode
 )
 !
 =
-absl
+std
 :
 :
 nullopt
@@ -412,7 +412,7 @@ codecType
 kVideoCodecAV1
 )
 ;
-absl
+std
 :
 :
 optional

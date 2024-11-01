@@ -32,15 +32,9 @@ memory
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -349,7 +343,7 @@ SetUpFor
 (
 VideoCodecType
 type
-absl
+std
 :
 :
 optional
@@ -357,7 +351,7 @@ optional
 int
 >
 num_simulcast_streams
-absl
+std
 :
 :
 optional
@@ -659,7 +653,7 @@ int
 height
 =
 kDefaultHeight
-absl
+std
 :
 :
 optional
@@ -668,7 +662,7 @@ ScalabilityMode
 >
 scalability_mode
 =
-absl
+std
 :
 :
 nullopt
@@ -852,7 +846,7 @@ VideoCodecType
 :
 kVideoCodecVP8
 1
-absl
+std
 :
 :
 nullopt
@@ -933,7 +927,7 @@ VideoCodecType
 :
 kVideoCodecVP8
 1
-absl
+std
 :
 :
 nullopt
@@ -1025,7 +1019,7 @@ VideoCodecType
 :
 kVideoCodecVP8
 1
-absl
+std
 :
 :
 nullopt
@@ -1126,7 +1120,7 @@ VideoCodecType
 :
 kVideoCodecVP8
 1
-absl
+std
 :
 :
 nullopt
@@ -1219,7 +1213,7 @@ VideoCodecType
 :
 kVideoCodecVP8
 2
-absl
+std
 :
 :
 nullopt
@@ -1382,7 +1376,7 @@ VideoCodecType
 :
 kVideoCodecVP8
 2
-absl
+std
 :
 :
 nullopt
@@ -1551,7 +1545,7 @@ VideoCodecType
 :
 kVideoCodecVP8
 2
-absl
+std
 :
 :
 nullopt
@@ -1739,7 +1733,7 @@ VideoCodecType
 :
 :
 kVideoCodecVP9
-absl
+std
 :
 :
 nullopt
@@ -1811,7 +1805,7 @@ VideoCodecType
 :
 :
 kVideoCodecVP9
-absl
+std
 :
 :
 nullopt
@@ -1886,7 +1880,7 @@ VideoCodecType
 :
 :
 kVideoCodecVP9
-absl
+std
 :
 :
 nullopt
@@ -2042,7 +2036,7 @@ VideoCodecType
 :
 :
 kVideoCodecVP9
-absl
+std
 :
 :
 nullopt
@@ -2103,7 +2097,7 @@ VideoCodecType
 :
 :
 kVideoCodecVP9
-absl
+std
 :
 :
 nullopt
@@ -2283,7 +2277,7 @@ VideoCodecType
 :
 :
 kVideoCodecVP9
-absl
+std
 :
 :
 nullopt
@@ -2882,7 +2876,7 @@ VideoCodecType
 :
 :
 kVideoCodecVP9
-absl
+std
 :
 :
 nullopt

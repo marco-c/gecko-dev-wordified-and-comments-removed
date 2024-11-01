@@ -500,7 +500,7 @@ is_last
 ;
 }
 }
-absl
+std
 :
 :
 optional
@@ -530,7 +530,7 @@ empty
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -629,7 +629,7 @@ sequence_number
 =
 sequence_number
 ?
-absl
+std
 :
 :
 optional
@@ -643,7 +643,7 @@ elem
 info
 )
 :
-absl
+std
 :
 :
 nullopt

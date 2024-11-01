@@ -13,15 +13,9 @@ h
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -68,7 +62,7 @@ default
 void
 Set
 (
-absl
+std
 :
 :
 optional
@@ -96,7 +90,7 @@ SequenceChecker
 kDetached
 }
 ;
-absl
+std
 :
 :
 optional

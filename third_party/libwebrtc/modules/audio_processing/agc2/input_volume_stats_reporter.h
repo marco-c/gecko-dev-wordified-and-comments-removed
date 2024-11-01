@@ -6,15 +6,9 @@ define
 MODULES_AUDIO_PROCESSING_AGC2_INPUT_VOLUME_STATS_REPORTER_H_
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -281,7 +275,7 @@ log_volume_update_stats_counter_
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -290,7 +284,7 @@ int
 >
 previous_input_volume_
 =
-absl
+std
 :
 :
 nullopt

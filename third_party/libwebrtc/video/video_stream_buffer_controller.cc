@@ -20,6 +20,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 utility
 >
 #
@@ -41,17 +46,6 @@ absl
 functional
 /
 bind_front
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -372,7 +366,7 @@ uint32_t
 rtp_timestamp
 ;
 const
-absl
+std
 :
 :
 optional
@@ -459,7 +453,7 @@ EncodedFrame
 frame
 )
 {
-absl
+std
 :
 :
 optional
@@ -780,7 +774,7 @@ CancelOutstanding
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1459,7 +1453,7 @@ if
 superframe_delayed_by_retransmission
 )
 {
-absl
+std
 :
 :
 optional
@@ -2071,7 +2065,7 @@ UpdateTimingFrameInfo
 (
 )
 {
-absl
+std
 :
 :
 optional
@@ -2350,7 +2344,7 @@ Zero
 )
 )
 ;
-absl
+std
 :
 :
 optional

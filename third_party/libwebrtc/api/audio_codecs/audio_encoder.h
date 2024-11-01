@@ -26,6 +26,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -46,17 +51,6 @@ absl
 base
 /
 attributes
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -136,7 +130,7 @@ ANAStats
 (
 )
 ;
-absl
+std
 :
 :
 optional
@@ -145,7 +139,7 @@ uint32_t
 >
 bitrate_action_counter
 ;
-absl
+std
 :
 :
 optional
@@ -154,7 +148,7 @@ uint32_t
 >
 channel_action_counter
 ;
-absl
+std
 :
 :
 optional
@@ -163,7 +157,7 @@ uint32_t
 >
 dtx_action_counter
 ;
-absl
+std
 :
 :
 optional
@@ -172,7 +166,7 @@ uint32_t
 >
 fec_action_counter
 ;
-absl
+std
 :
 :
 optional
@@ -181,7 +175,7 @@ uint32_t
 >
 frame_length_increase_counter
 ;
-absl
+std
 :
 :
 optional
@@ -190,7 +184,7 @@ uint32_t
 >
 frame_length_decrease_counter
 ;
-absl
+std
 :
 :
 optional
@@ -560,7 +554,7 @@ OnReceivedUplinkBandwidth
 (
 int
 target_audio_bitrate_bps
-absl
+std
 :
 :
 optional
@@ -612,7 +606,7 @@ GetANAStats
 const
 ;
 virtual
-absl
+std
 :
 :
 optional
@@ -634,7 +628,7 @@ const
 0
 ;
 virtual
-absl
+std
 :
 :
 optional
@@ -654,7 +648,7 @@ GetBitrateRange
 const
 {
 return
-absl
+std
 :
 :
 nullopt

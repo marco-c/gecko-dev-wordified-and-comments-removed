@@ -14,19 +14,13 @@ h
 #
 include
 <
-string
+optional
 >
 #
 include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
+<
+string
+>
 #
 include
 "
@@ -425,7 +419,7 @@ Seconds
 0
 )
 ;
-absl
+std
 :
 :
 optional
@@ -434,7 +428,7 @@ int
 >
 width
 ;
-absl
+std
 :
 :
 optional
@@ -624,7 +618,7 @@ Codec
 :
 kVideoCodecGeneric
 ;
-absl
+std
 :
 :
 optional
@@ -633,7 +627,7 @@ DataRate
 >
 max_data_rate
 ;
-absl
+std
 :
 :
 optional
@@ -642,7 +636,7 @@ DataRate
 >
 min_data_rate
 ;
-absl
+std
 :
 :
 optional
@@ -651,7 +645,7 @@ int
 >
 max_framerate
 ;
-absl
+std
 :
 :
 optional
@@ -992,7 +986,7 @@ KilobitsPerSec
 32
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1001,7 +995,7 @@ DataRate
 >
 min_rate
 ;
-absl
+std
 :
 :
 optional
@@ -1108,7 +1102,7 @@ loss_rate
 =
 0
 ;
-absl
+std
 :
 :
 optional

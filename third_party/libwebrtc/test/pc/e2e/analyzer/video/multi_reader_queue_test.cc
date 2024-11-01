@@ -17,15 +17,9 @@ h
 "
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -324,7 +318,7 @@ PopFront
 (
 0
 )
-absl
+std
 :
 :
 optional
@@ -453,7 +447,7 @@ value
 1
 )
 ;
-absl
+std
 :
 :
 optional
@@ -589,7 +583,7 @@ Front
 (
 0
 )
-absl
+std
 :
 :
 optional
@@ -609,7 +603,7 @@ PopFront
 (
 0
 )
-absl
+std
 :
 :
 optional
@@ -709,7 +703,7 @@ i
 i
 )
 {
-absl
+std
 :
 :
 optional
@@ -771,7 +765,7 @@ i
 i
 )
 {
-absl
+std
 :
 :
 optional
@@ -833,7 +827,7 @@ i
 i
 )
 {
-absl
+std
 :
 :
 optional
@@ -956,7 +950,7 @@ i
 i
 )
 {
-absl
+std
 :
 :
 optional
@@ -972,7 +966,7 @@ PopFront
 0
 )
 ;
-absl
+std
 :
 :
 optional
@@ -988,7 +982,7 @@ PopFront
 1
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1179,7 +1173,7 @@ i
 i
 )
 {
-absl
+std
 :
 :
 optional
@@ -1332,7 +1326,7 @@ i
 i
 )
 {
-absl
+std
 :
 :
 optional

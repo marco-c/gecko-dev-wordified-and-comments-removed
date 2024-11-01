@@ -21,15 +21,9 @@ cstdint
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -362,7 +356,7 @@ return
 size_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -383,7 +377,7 @@ size_
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -393,7 +387,7 @@ return
 min_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -414,7 +408,7 @@ size_
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -424,7 +418,7 @@ return
 max_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -445,7 +439,7 @@ size_
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -455,7 +449,7 @@ return
 sum_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -476,7 +470,7 @@ size_
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -486,7 +480,7 @@ return
 mean_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -507,7 +501,7 @@ size_
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -519,7 +513,7 @@ cumul_
 size_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -540,7 +534,7 @@ size_
 )
 {
 return
-absl
+std
 :
 :
 nullopt

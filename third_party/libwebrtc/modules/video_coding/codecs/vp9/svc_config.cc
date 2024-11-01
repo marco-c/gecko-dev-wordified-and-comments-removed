@@ -488,7 +488,7 @@ size_t
 num_spatial_layers
 size_t
 num_temporal_layers
-absl
+std
 :
 :
 optional
@@ -954,7 +954,7 @@ codecType
 kVideoCodecVP9
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1089,7 +1089,7 @@ ScalabilityModeToInterLayerPredMode
 scalability_mode
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1180,7 +1180,7 @@ GetScalabilityMode
 ?
 info
 :
-absl
+std
 :
 :
 nullopt
@@ -1271,7 +1271,7 @@ size_t
 num_temporal_layers
 bool
 is_screen_sharing
-absl
+std
 :
 :
 optional

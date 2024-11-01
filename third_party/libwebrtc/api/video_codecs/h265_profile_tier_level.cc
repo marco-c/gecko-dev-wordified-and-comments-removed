@@ -12,19 +12,13 @@ h
 #
 include
 <
-string
+optional
 >
 #
 include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
+<
+string
+>
 #
 include
 "
@@ -260,7 +254,7 @@ kLevel6_2
 }
 ;
 }
-absl
+std
 :
 :
 optional
@@ -278,7 +272,7 @@ string
 profile
 )
 {
-absl
+std
 :
 :
 optional
@@ -309,7 +303,7 @@ has_value
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -426,14 +420,14 @@ kProfileHighThroughputScreenContentCoding
 default
 :
 return
-absl
+std
 :
 :
 nullopt
 ;
 }
 }
-absl
+std
 :
 :
 optional
@@ -451,7 +445,7 @@ string
 tier
 )
 {
-absl
+std
 :
 :
 optional
@@ -482,7 +476,7 @@ has_value
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -518,14 +512,14 @@ kTier1
 default
 :
 return
-absl
+std
 :
 :
 nullopt
 ;
 }
 }
-absl
+std
 :
 :
 optional
@@ -544,7 +538,7 @@ level
 )
 {
 const
-absl
+std
 :
 :
 optional
@@ -574,7 +568,7 @@ has_value
 )
 )
 return
-absl
+std
 :
 :
 nullopt
@@ -708,7 +702,7 @@ kLevel6_2
 default
 :
 return
-absl
+std
 :
 :
 nullopt
@@ -1052,7 +1046,7 @@ return
 ;
 }
 }
-absl
+std
 :
 :
 optional
@@ -1091,7 +1085,7 @@ profile_tier_level_specified
 =
 false
 ;
-absl
+std
 :
 :
 optional
@@ -1154,7 +1148,7 @@ profile
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1171,7 +1165,7 @@ H265Profile
 kProfileMain
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1234,7 +1228,7 @@ tier
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1251,7 +1245,7 @@ H265Tier
 kTier0
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1314,7 +1308,7 @@ level
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1352,7 +1346,7 @@ kTier1
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1398,7 +1392,7 @@ params2
 )
 {
 const
-absl
+std
 :
 :
 optional
@@ -1413,7 +1407,7 @@ params1
 )
 ;
 const
-absl
+std
 :
 :
 optional
@@ -1470,7 +1464,7 @@ ptl2
 level
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1607,7 +1601,7 @@ level
 }
 }
 return
-absl
+std
 :
 :
 nullopt

@@ -145,7 +145,7 @@ staleness_us
 {
 }
 static
-absl
+std
 :
 :
 optional

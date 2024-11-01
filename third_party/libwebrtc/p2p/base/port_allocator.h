@@ -24,6 +24,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -39,17 +44,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -816,7 +810,7 @@ void
 SetStunKeepaliveIntervalForReadyPorts
 (
 const
-absl
+std
 :
 :
 optional
@@ -1213,7 +1207,7 @@ turn_customizer
 =
 nullptr
 const
-absl
+std
 :
 :
 optional
@@ -1223,7 +1217,7 @@ int
 &
 stun_candidate_keepalive_interval
 =
-absl
+std
 :
 :
 nullopt
@@ -1262,7 +1256,7 @@ turn_customizer
 =
 nullptr
 const
-absl
+std
 :
 :
 optional
@@ -1272,7 +1266,7 @@ int
 &
 stun_candidate_keepalive_interval
 =
-absl
+std
 :
 :
 nullopt
@@ -1331,7 +1325,7 @@ candidate_pool_size_
 ;
 }
 const
-absl
+std
 :
 :
 optional
@@ -2000,7 +1994,7 @@ turn_customizer_
 =
 nullptr
 ;
-absl
+std
 :
 :
 optional

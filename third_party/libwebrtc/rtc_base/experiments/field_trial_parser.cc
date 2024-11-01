@@ -333,7 +333,7 @@ substr
 key_end
 )
 ;
-absl
+std
 :
 :
 optional
@@ -789,7 +789,7 @@ ParseDone
 template
 <
 >
-absl
+std
 :
 :
 optional
@@ -854,7 +854,7 @@ false
 ;
 }
 return
-absl
+std
 :
 :
 nullopt
@@ -863,7 +863,7 @@ nullopt
 template
 <
 >
-absl
+std
 :
 :
 optional
@@ -949,7 +949,7 @@ value
 else
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -959,7 +959,7 @@ nullopt
 template
 <
 >
-absl
+std
 :
 :
 optional
@@ -1035,7 +1035,7 @@ value
 }
 }
 return
-absl
+std
 :
 :
 nullopt
@@ -1044,7 +1044,7 @@ nullopt
 template
 <
 >
-absl
+std
 :
 :
 optional
@@ -1120,7 +1120,7 @@ value
 }
 }
 return
-absl
+std
 :
 :
 nullopt
@@ -1129,7 +1129,7 @@ nullopt
 template
 <
 >
-absl
+std
 :
 :
 optional
@@ -1167,12 +1167,12 @@ str
 template
 <
 >
-absl
+std
 :
 :
 optional
 <
-absl
+std
 :
 :
 optional
@@ -1182,7 +1182,7 @@ bool
 >
 ParseTypedParameter
 <
-absl
+std
 :
 :
 optional
@@ -1211,12 +1211,12 @@ str
 template
 <
 >
-absl
+std
 :
 :
 optional
 <
-absl
+std
 :
 :
 optional
@@ -1226,7 +1226,7 @@ int
 >
 ParseTypedParameter
 <
-absl
+std
 :
 :
 optional
@@ -1255,12 +1255,12 @@ str
 template
 <
 >
-absl
+std
 :
 :
 optional
 <
-absl
+std
 :
 :
 optional
@@ -1270,7 +1270,7 @@ unsigned
 >
 ParseTypedParameter
 <
-absl
+std
 :
 :
 optional
@@ -1299,12 +1299,12 @@ str
 template
 <
 >
-absl
+std
 :
 :
 optional
 <
-absl
+std
 :
 :
 optional
@@ -1314,7 +1314,7 @@ double
 >
 ParseTypedParameter
 <
-absl
+std
 :
 :
 optional
@@ -1418,7 +1418,7 @@ FieldTrialFlag
 :
 Parse
 (
-absl
+std
 :
 :
 optional
@@ -1436,7 +1436,7 @@ if
 str_value
 )
 {
-absl
+std
 :
 :
 optional
@@ -1564,7 +1564,7 @@ AbstractFieldTrialEnum
 :
 Parse
 (
-absl
+std
 :
 :
 optional
@@ -1616,7 +1616,7 @@ return
 true
 ;
 }
-absl
+std
 :
 :
 optional

@@ -299,7 +299,7 @@ instead
 ;
 \
 return
-absl
+std
 :
 :
 nullopt
@@ -564,14 +564,14 @@ nalu_type
 {
 last_slice_qp_delta_
 =
-absl
+std
 :
 :
 nullopt
 ;
 last_slice_pps_id_
 =
-absl
+std
 :
 :
 nullopt
@@ -1059,7 +1059,7 @@ if
 short_term_ref_pic_set_sps_flag
 )
 {
-absl
+std
 :
 :
 optional
@@ -2510,7 +2510,7 @@ NaluType
 kVps
 :
 {
-absl
+std
 :
 :
 optional
@@ -2607,7 +2607,7 @@ NaluType
 kSps
 :
 {
-absl
+std
 :
 :
 optional
@@ -2704,7 +2704,7 @@ NaluType
 kPps
 :
 {
-absl
+std
 :
 :
 optional
@@ -2958,7 +2958,7 @@ break
 ;
 }
 }
-absl
+std
 :
 :
 optional
@@ -3024,7 +3024,7 @@ Ok
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -3091,7 +3091,7 @@ Ok
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -3166,7 +3166,7 @@ payload_size
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -3192,7 +3192,7 @@ last_slice_pps_id_
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -3221,7 +3221,7 @@ if
 pps
 )
 return
-absl
+std
 :
 :
 nullopt
@@ -3268,7 +3268,7 @@ bitstream
 "
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -3278,7 +3278,7 @@ return
 parsed_qp
 ;
 }
-absl
+std
 :
 :
 optional
@@ -3317,7 +3317,7 @@ bitstream
 "
 ;
 return
-absl
+std
 :
 :
 nullopt

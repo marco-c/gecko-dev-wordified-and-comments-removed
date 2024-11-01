@@ -36,6 +36,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -51,17 +56,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -187,7 +181,7 @@ generate_slides
 =
 false
 ;
-absl
+std
 :
 :
 optional
@@ -243,7 +237,7 @@ target_layer_index
 ;
 EmulatedSFUConfig
 (
-absl
+std
 :
 :
 optional
@@ -251,7 +245,7 @@ optional
 int
 >
 target_layer_index
-absl
+std
 :
 :
 optional
@@ -261,7 +255,7 @@ int
 target_temporal_index
 )
 ;
-absl
+std
 :
 :
 optional
@@ -270,7 +264,7 @@ int
 >
 target_layer_index
 ;
-absl
+std
 :
 :
 optional
@@ -700,7 +694,7 @@ resolution
 )
 const
 ;
-absl
+std
 :
 :
 optional
@@ -747,7 +741,7 @@ resolution
 )
 const
 ;
-absl
+std
 :
 :
 optional
@@ -884,7 +878,7 @@ fps
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -896,7 +890,7 @@ string
 >
 stream_label
 ;
-absl
+std
 :
 :
 optional
@@ -908,7 +902,7 @@ ContentHint
 >
 content_hint
 ;
-absl
+std
 :
 :
 optional
@@ -917,7 +911,7 @@ VideoSimulcastConfig
 >
 simulcast_config
 ;
-absl
+std
 :
 :
 optional
@@ -935,7 +929,7 @@ RtpEncodingParameters
 >
 encoding_params
 ;
-absl
+std
 :
 :
 optional
@@ -944,7 +938,7 @@ int
 >
 temporal_layers_count
 ;
-absl
+std
 :
 :
 optional
@@ -953,7 +947,7 @@ VideoDumpOptions
 >
 input_dump_options
 ;
-absl
+std
 :
 :
 optional
@@ -972,7 +966,7 @@ show_on_screen
 =
 false
 ;
-absl
+std
 :
 :
 optional
@@ -984,7 +978,7 @@ string
 >
 sync_group
 ;
-absl
+std
 :
 :
 optional
@@ -1014,7 +1008,7 @@ string_view
 stream_label
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1026,7 +1020,7 @@ string
 >
 stream_label
 ;
-absl
+std
 :
 :
 optional
@@ -1038,7 +1032,7 @@ string
 >
 input_file_name
 ;
-absl
+std
 :
 :
 optional
@@ -1050,7 +1044,7 @@ string
 >
 input_dump_file_name
 ;
-absl
+std
 :
 :
 optional
@@ -1073,7 +1067,7 @@ sampling_frequency_in_hz
 =
 48000
 ;
-absl
+std
 :
 :
 optional
@@ -1154,7 +1148,7 @@ VideoSubscription
 public
 :
 static
-absl
+std
 :
 :
 optional
@@ -1175,7 +1169,7 @@ video_configs
 )
 ;
 static
-absl
+std
 :
 :
 optional
@@ -1262,7 +1256,7 @@ kMaxFromSender
 )
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1305,7 +1299,7 @@ const
 ;
 private
 :
-absl
+std
 :
 :
 optional
@@ -1314,7 +1308,7 @@ VideoResolution
 >
 default_resolution_
 =
-absl
+std
 :
 :
 nullopt

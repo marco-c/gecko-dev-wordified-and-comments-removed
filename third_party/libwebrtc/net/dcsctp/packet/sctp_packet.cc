@@ -26,6 +26,11 @@ cstdint
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -46,17 +51,6 @@ absl
 memory
 /
 memory
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -608,7 +602,7 @@ return
 out
 ;
 }
-absl
+std
 :
 :
 optional
@@ -670,7 +664,7 @@ size
 "
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -874,7 +868,7 @@ calculated_checksum
 )
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -976,7 +970,7 @@ chunk
 "
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -1078,7 +1072,7 @@ size
 )
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -1111,7 +1105,7 @@ length
 length
 ;
 return
-absl
+std
 :
 :
 nullopt

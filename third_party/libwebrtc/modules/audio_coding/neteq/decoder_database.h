@@ -155,7 +155,7 @@ const
 SdpAudioFormat
 &
 audio_format
-absl
+std
 :
 :
 optional
@@ -369,7 +369,7 @@ SdpAudioFormat
 audio_format_
 ;
 const
-absl
+std
 :
 :
 optional
@@ -397,7 +397,7 @@ struct
 CngDecoder
 {
 static
-absl
+std
 :
 :
 optional
@@ -418,7 +418,7 @@ sample_rate_hz
 }
 ;
 const
-absl
+std
 :
 :
 optional
@@ -473,7 +473,7 @@ scoped_refptr
 AudioDecoderFactory
 >
 decoder_factory
-absl
+std
 :
 :
 optional
@@ -705,7 +705,7 @@ AudioDecoderFactory
 decoder_factory_
 ;
 const
-absl
+std
 :
 :
 optional

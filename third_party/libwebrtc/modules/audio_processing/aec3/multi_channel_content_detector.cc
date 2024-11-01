@@ -362,7 +362,7 @@ stereo_detection_timeout_threshold_seconds
 >
 0
 ?
-absl
+std
 :
 :
 make_optional
@@ -372,7 +372,7 @@ stereo_detection_timeout_threshold_seconds
 kNumFramesPerSecond
 )
 :
-absl
+std
 :
 :
 nullopt

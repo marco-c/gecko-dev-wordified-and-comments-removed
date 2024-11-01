@@ -22,6 +22,11 @@ cstdint
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -37,17 +42,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -131,7 +125,7 @@ h
 namespace
 webrtc
 {
-absl
+std
 :
 :
 optional
@@ -277,7 +271,7 @@ subview
 )
 ;
 {
-absl
+std
 :
 :
 optional
@@ -332,7 +326,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -433,7 +427,7 @@ encoded_deltas
 }
 }
 {
-absl
+std
 :
 :
 optional
@@ -489,7 +483,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -591,7 +585,7 @@ encoded_deltas
 }
 }
 {
-absl
+std
 :
 :
 optional
@@ -654,7 +648,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -773,7 +767,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -980,7 +974,7 @@ res
 num_packets
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1007,7 +1001,7 @@ start_end_bit
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1034,7 +1028,7 @@ template_id
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1066,7 +1060,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -1129,7 +1123,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -1192,7 +1186,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -1255,7 +1249,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -1300,7 +1294,7 @@ recreate_raw_dd
 int
 i
 const
-absl
+std
 :
 :
 optional
@@ -1310,7 +1304,7 @@ uint64_t
 &
 be
 const
-absl
+std
 :
 :
 optional
@@ -1320,7 +1314,7 @@ uint64_t
 &
 tid
 const
-absl
+std
 :
 :
 optional

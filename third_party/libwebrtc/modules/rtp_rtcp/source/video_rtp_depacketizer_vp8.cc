@@ -27,15 +27,9 @@ h
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -482,7 +476,7 @@ parsed_bytes
 ;
 }
 }
-absl
+std
 :
 :
 optional
@@ -526,7 +520,7 @@ size
 )
 )
 ;
-absl
+std
 :
 :
 optional
@@ -562,7 +556,7 @@ offset
 kFailedToParse
 )
 return
-absl
+std
 :
 :
 nullopt

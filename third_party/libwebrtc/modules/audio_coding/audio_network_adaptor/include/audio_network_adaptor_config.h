@@ -13,15 +13,9 @@ h
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 namespace
 webrtc
 {
@@ -68,7 +62,7 @@ other
 )
 const
 ;
-absl
+std
 :
 :
 optional
@@ -77,7 +71,7 @@ int
 >
 bitrate_bps
 ;
-absl
+std
 :
 :
 optional
@@ -86,7 +80,7 @@ int
 >
 frame_length_ms
 ;
-absl
+std
 :
 :
 optional
@@ -95,7 +89,7 @@ float
 >
 uplink_packet_loss_fraction
 ;
-absl
+std
 :
 :
 optional
@@ -104,7 +98,7 @@ bool
 >
 enable_fec
 ;
-absl
+std
 :
 :
 optional
@@ -113,7 +107,7 @@ bool
 >
 enable_dtx
 ;
-absl
+std
 :
 :
 optional

@@ -19,6 +19,11 @@ map
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -45,17 +50,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -215,7 +209,7 @@ RtcpFeedbackType
 :
 CCM
 ;
-absl
+std
 :
 :
 optional
@@ -369,7 +363,7 @@ cricket
 :
 MEDIA_TYPE_AUDIO
 ;
-absl
+std
 :
 :
 optional
@@ -378,7 +372,7 @@ int
 >
 clock_rate
 ;
-absl
+std
 :
 :
 optional
@@ -527,7 +521,7 @@ RtpCodecCapability
 (
 )
 ;
-absl
+std
 :
 :
 optional
@@ -621,7 +615,7 @@ std
 string
 uri
 ;
-absl
+std
 :
 :
 optional
@@ -1618,7 +1612,7 @@ struct
 RTC_EXPORT
 RtpFecParameters
 {
-absl
+std
 :
 :
 optional
@@ -1724,7 +1718,7 @@ struct
 RTC_EXPORT
 RtpRtxParameters
 {
-absl
+std
 :
 :
 optional
@@ -1822,7 +1816,7 @@ RtpEncodingParameters
 (
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1844,7 +1838,7 @@ Priority
 :
 kLow
 ;
-absl
+std
 :
 :
 optional
@@ -1853,7 +1847,7 @@ int
 >
 max_bitrate_bps
 ;
-absl
+std
 :
 :
 optional
@@ -1862,7 +1856,7 @@ int
 >
 min_bitrate_bps
 ;
-absl
+std
 :
 :
 optional
@@ -1871,7 +1865,7 @@ double
 >
 max_framerate
 ;
-absl
+std
 :
 :
 optional
@@ -1880,7 +1874,7 @@ int
 >
 num_temporal_layers
 ;
-absl
+std
 :
 :
 optional
@@ -1889,7 +1883,7 @@ double
 >
 scale_resolution_down_by
 ;
-absl
+std
 :
 :
 optional
@@ -1901,7 +1895,7 @@ string
 >
 scalability_mode
 ;
-absl
+std
 :
 :
 optional
@@ -1931,7 +1925,7 @@ adaptive_ptime
 =
 false
 ;
-absl
+std
 :
 :
 optional
@@ -2290,7 +2284,7 @@ RtcpParameters
 (
 )
 ;
-absl
+std
 :
 :
 optional
@@ -2447,7 +2441,7 @@ encodings
 RtcpParameters
 rtcp
 ;
-absl
+std
 :
 :
 optional

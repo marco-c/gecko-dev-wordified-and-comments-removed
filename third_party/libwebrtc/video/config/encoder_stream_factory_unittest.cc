@@ -373,7 +373,7 @@ const
 VideoEncoderConfig
 &
 encoder_config
-absl
+std
 :
 :
 optional
@@ -382,7 +382,7 @@ VideoSourceRestrictions
 >
 restrictions
 =
-absl
+std
 :
 :
 nullopt
@@ -571,11 +571,11 @@ restrictions
 *
 320
 )
-absl
+std
 :
 :
 nullopt
-absl
+std
 :
 :
 nullopt

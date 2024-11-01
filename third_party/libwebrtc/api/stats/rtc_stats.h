@@ -31,6 +31,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -43,17 +48,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -225,7 +219,7 @@ Attribute
 GetAttribute
 (
 const
-absl
+std
 :
 :
 optional
@@ -273,7 +267,7 @@ absl
 get
 <
 const
-absl
+std
 :
 :
 optional

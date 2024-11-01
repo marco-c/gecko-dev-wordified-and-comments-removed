@@ -22,19 +22,13 @@ memory
 #
 include
 <
-vector
+optional
 >
 #
 include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
+<
+vector
+>
 #
 include
 "
@@ -166,7 +160,7 @@ FrameToRender
 VideoFrame
 &
 frame
-absl
+std
 :
 :
 optional
@@ -194,7 +188,7 @@ return
 0
 ;
 }
-absl
+std
 :
 :
 optional
@@ -214,7 +208,7 @@ empty
 )
 )
 return
-absl
+std
 :
 :
 nullopt
@@ -512,7 +506,7 @@ Millis
 )
 )
 ;
-absl
+std
 :
 :
 optional
@@ -730,7 +724,7 @@ Millis
 )
 )
 ;
-absl
+std
 :
 :
 optional
@@ -805,7 +799,7 @@ Millis
 )
 )
 ;
-absl
+std
 :
 :
 optional
@@ -844,7 +838,7 @@ testing
 :
 Eq
 (
-absl
+std
 :
 :
 nullopt
@@ -871,7 +865,7 @@ timing_
 .
 SetMaxCompositionDelayInFrames
 (
-absl
+std
 :
 :
 make_optional
@@ -906,7 +900,7 @@ Millis
 )
 )
 ;
-absl
+std
 :
 :
 optional
@@ -985,7 +979,7 @@ Millis
 )
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1098,7 +1092,7 @@ Millis
 )
 )
 ;
-absl
+std
 :
 :
 optional

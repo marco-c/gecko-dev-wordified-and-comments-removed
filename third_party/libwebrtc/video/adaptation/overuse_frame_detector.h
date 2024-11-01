@@ -16,15 +16,9 @@ memory
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -302,7 +296,7 @@ int64_t
 time_sent_in_us
 int64_t
 capture_time_us
-absl
+std
 :
 :
 optional
@@ -352,7 +346,7 @@ last_capture_time_us
 0
 ;
 virtual
-absl
+std
 :
 :
 optional
@@ -367,7 +361,7 @@ int64_t
 time_sent_in_us
 int64_t
 capture_time_us
-absl
+std
 :
 :
 optional
@@ -507,7 +501,7 @@ CpuOveruseMetricsObserver
 const
 metrics_observer_
 ;
-absl
+std
 :
 :
 optional

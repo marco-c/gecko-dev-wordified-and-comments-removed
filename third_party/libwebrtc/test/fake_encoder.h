@@ -26,6 +26,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 vector
 >
 #
@@ -36,17 +41,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -576,7 +570,7 @@ used_layers_
 kMaxSimulcastStreams
 ]
 ;
-absl
+std
 :
 :
 optional
@@ -589,7 +583,7 @@ RTC_GUARDED_BY
 mutex_
 )
 ;
-absl
+std
 :
 :
 optional

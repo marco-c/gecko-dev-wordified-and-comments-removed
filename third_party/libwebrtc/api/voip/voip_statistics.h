@@ -11,15 +11,9 @@ cstdint
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -82,7 +76,7 @@ fraction_lost
 .
 0
 ;
-absl
+std
 :
 :
 optional
@@ -131,7 +125,7 @@ packets_lost
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -140,7 +134,7 @@ uint32_t
 >
 remote_ssrc
 ;
-absl
+std
 :
 :
 optional

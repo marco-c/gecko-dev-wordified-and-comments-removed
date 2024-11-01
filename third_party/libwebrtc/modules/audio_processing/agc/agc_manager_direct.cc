@@ -255,7 +255,7 @@ GainController1
 :
 AnalogGainController
 ;
-absl
+std
 :
 :
 optional
@@ -296,7 +296,7 @@ kMinMicLevelFieldTrial
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -385,7 +385,7 @@ ignored
 "
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -912,7 +912,7 @@ const
 int16_t
 >
 audio
-absl
+std
 :
 :
 optional
@@ -924,7 +924,7 @@ rms_error_override
 {
 new_compression_to_set_
 =
-absl
+std
 :
 :
 nullopt
@@ -2996,11 +2996,11 @@ audio_buffer
 Process
 (
 audio_buffer
-absl
+std
 :
 :
 nullopt
-absl
+std
 :
 :
 nullopt
@@ -3017,7 +3017,7 @@ const
 AudioBuffer
 &
 audio_buffer
-absl
+std
 :
 :
 optional
@@ -3025,7 +3025,7 @@ optional
 float
 >
 speech_probability
-absl
+std
 :
 :
 optional
@@ -3064,7 +3064,7 @@ num_frames_per_band
 (
 )
 ;
-absl
+std
 :
 :
 optional
@@ -3073,7 +3073,7 @@ int
 >
 rms_error_override
 =
-absl
+std
 :
 :
 nullopt
@@ -3215,7 +3215,7 @@ recommended_input_volume_
 ;
 }
 }
-absl
+std
 :
 :
 optional

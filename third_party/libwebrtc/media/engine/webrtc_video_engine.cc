@@ -34,6 +34,11 @@ initializer_list
 #
 include
 <
+optional
+>
+#
+include
+<
 set
 >
 #
@@ -92,17 +97,6 @@ absl
 strings
 /
 match
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -2607,7 +2601,7 @@ return
 res
 ;
 }
-absl
+std
 :
 :
 optional
@@ -2641,12 +2635,12 @@ size
 )
 )
 return
-absl
+std
 :
 :
 nullopt
 ;
-absl
+std
 :
 :
 optional
@@ -2682,7 +2676,7 @@ value_or
 return
 scalability_mode
 ?
-absl
+std
 :
 :
 optional
@@ -2697,7 +2691,7 @@ scalability_mode
 )
 )
 :
-absl
+std
 :
 :
 nullopt
@@ -3085,7 +3079,7 @@ rtp_substreams
 bool
 IsActiveFromEncodings
 (
-absl
+std
 :
 :
 optional
@@ -3556,7 +3550,7 @@ webrtc
 UlpfecConfig
 ulpfec_config
 ;
-absl
+std
 :
 :
 optional
@@ -5968,7 +5962,7 @@ vp9_automatic_resize
 =
 automatic_resize
 ;
-absl
+std
 :
 :
 optional
@@ -6610,7 +6604,7 @@ flexfec_payload_type
 1
 ;
 }
-absl
+std
 :
 :
 optional
@@ -6777,7 +6771,7 @@ changed_params
 >
 send_codec
 =
-absl
+std
 :
 :
 nullopt
@@ -6906,7 +6900,7 @@ changed_params
 >
 rtp_header_extensions
 =
-absl
+std
 :
 :
 optional
@@ -8428,7 +8422,7 @@ callback
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -8474,7 +8468,7 @@ set
 "
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -10192,7 +10186,7 @@ options
 int
 max_bitrate_bps
 const
-absl
+std
 :
 :
 optional
@@ -10266,7 +10260,7 @@ enable_cpu_overuse_detection
 int
 max_bitrate_bps
 const
-absl
+std
 :
 :
 optional
@@ -10276,7 +10270,7 @@ VideoCodecSettings
 &
 codec_settings
 const
-absl
+std
 :
 :
 optional
@@ -13841,7 +13835,7 @@ active
 =
 IsActiveFromEncodings
 (
-absl
+std
 :
 :
 nullopt
@@ -13998,7 +13992,7 @@ IsActiveFromEncodings
 !
 is_svc
 ?
-absl
+std
 :
 :
 optional
@@ -14009,7 +14003,7 @@ uint32_t
 ssrc
 )
 :
-absl
+std
 :
 :
 nullopt
@@ -15648,7 +15642,7 @@ webrtc
 :
 RtcpMode
 rtcp_mode
-absl
+std
 :
 :
 optional
@@ -16134,7 +16128,7 @@ changed_params
 >
 codec_settings
 =
-absl
+std
 :
 :
 optional
@@ -16198,7 +16192,7 @@ changed_params
 >
 rtp_header_extensions
 =
-absl
+std
 :
 :
 optional
@@ -17510,7 +17504,7 @@ StreamParams
 ;
 last_unsignalled_ssrc_creation_time_ms_
 =
-absl
+std
 :
 :
 nullopt
@@ -17576,7 +17570,7 @@ it
 }
 }
 }
-absl
+std
 :
 :
 optional
@@ -17597,7 +17591,7 @@ RTC_DCHECK_RUN_ON
 thread_checker_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -18339,7 +18333,7 @@ if
 is_rtx_payload
 )
 {
-absl
+std
 :
 :
 optional
@@ -18456,7 +18450,7 @@ packet
 Ssrc
 (
 )
-absl
+std
 :
 :
 nullopt
@@ -18483,7 +18477,7 @@ ReCreateDefaultReceiveStream
 (
 uint32_t
 ssrc
-absl
+std
 :
 :
 optional
@@ -18499,7 +18493,7 @@ RTC_DCHECK_RUN_ON
 thread_checker_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -18788,7 +18782,7 @@ RTC_DCHECK_RUN_ON
 thread_checker_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -18912,7 +18906,7 @@ false
 ;
 }
 }
-absl
+std
 :
 :
 optional
@@ -19002,7 +18996,7 @@ delay
 "
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -20150,7 +20144,7 @@ webrtc
 :
 RtcpMode
 rtcp_mode
-absl
+std
 :
 :
 optional
@@ -20534,7 +20528,7 @@ RTC_DCHECK
 stream_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -20543,7 +20537,7 @@ int
 >
 base_minimum_playout_delay_ms
 ;
-absl
+std
 :
 :
 optional
@@ -22331,7 +22325,7 @@ ssrc
 0
 )
 {
-absl
+std
 :
 :
 optional

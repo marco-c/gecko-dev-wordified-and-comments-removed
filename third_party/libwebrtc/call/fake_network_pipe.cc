@@ -122,7 +122,7 @@ int64_t
 send_time
 int64_t
 arrival_time
-absl
+std
 :
 :
 optional
@@ -134,7 +134,7 @@ bool
 is_rtcp
 MediaType
 media_type
-absl
+std
 :
 :
 optional
@@ -771,7 +771,7 @@ CopyOnWriteBuffer
 (
 packet
 )
-absl
+std
 :
 :
 nullopt
@@ -854,7 +854,7 @@ move
 (
 packet
 )
-absl
+std
 :
 :
 nullopt
@@ -863,7 +863,7 @@ MediaType
 :
 :
 ANY
-absl
+std
 :
 :
 nullopt
@@ -929,7 +929,7 @@ rtc
 :
 CopyOnWriteBuffer
 packet
-absl
+std
 :
 :
 optional
@@ -941,7 +941,7 @@ bool
 is_rtcp
 MediaType
 media_type
-absl
+std
 :
 :
 optional
@@ -1002,7 +1002,7 @@ rtc
 :
 CopyOnWriteBuffer
 packet
-absl
+std
 :
 :
 optional
@@ -1054,7 +1054,7 @@ MediaType
 :
 :
 ANY
-absl
+std
 :
 :
 nullopt
@@ -1976,7 +1976,7 @@ false
 }
 }
 }
-absl
+std
 :
 :
 optional
@@ -1997,7 +1997,7 @@ lock
 process_lock_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -2052,7 +2052,7 @@ delay_us
 ;
 }
 return
-absl
+std
 :
 :
 nullopt

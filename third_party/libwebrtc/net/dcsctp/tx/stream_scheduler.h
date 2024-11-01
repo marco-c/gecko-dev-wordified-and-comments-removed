@@ -32,6 +32,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 queue
 >
 #
@@ -79,17 +84,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -342,7 +336,7 @@ StreamProducer
 default
 ;
 virtual
-absl
+std
 :
 :
 optional
@@ -474,7 +468,7 @@ priority
 )
 {
 }
-absl
+std
 :
 :
 optional
@@ -677,7 +671,7 @@ currently_sending_a_message_
 false
 ;
 }
-absl
+std
 :
 :
 optional

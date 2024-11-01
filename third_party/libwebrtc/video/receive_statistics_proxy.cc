@@ -397,7 +397,7 @@ ReceiveStatisticsProxy
 :
 UpdateHistograms
 (
-absl
+std
 :
 :
 optional
@@ -882,7 +882,7 @@ ComputeTotalRate
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1075,7 +1075,7 @@ n
 '
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1141,7 +1141,7 @@ n
 '
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1197,7 +1197,7 @@ n
 '
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1253,7 +1253,7 @@ n
 '
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1309,7 +1309,7 @@ n
 '
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1365,7 +1365,7 @@ n
 '
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1433,7 +1433,7 @@ UmaPrefixForContentType
 content_type
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1494,7 +1494,7 @@ n
 '
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1557,7 +1557,7 @@ n
 '
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1618,7 +1618,7 @@ n
 '
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1681,7 +1681,7 @@ n
 '
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1751,7 +1751,7 @@ n
 '
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1812,7 +1812,7 @@ n
 '
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1873,7 +1873,7 @@ n
 '
 ;
 }
-absl
+std
 :
 :
 optional
@@ -2123,7 +2123,7 @@ n
 '
 ;
 }
-absl
+std
 :
 :
 optional
@@ -2635,7 +2635,7 @@ framerate
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -2669,7 +2669,7 @@ last_estimated_playout_time_ms_
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -3409,7 +3409,7 @@ const
 VideoFrame
 &
 frame
-absl
+std
 :
 :
 optional
@@ -3639,7 +3639,7 @@ const
 VideoFrameMetaData
 &
 frame_meta
-absl
+std
 :
 :
 optional

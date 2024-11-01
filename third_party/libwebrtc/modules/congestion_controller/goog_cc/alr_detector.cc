@@ -28,15 +28,9 @@ memory
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -136,7 +130,7 @@ key_value_config
 )
 )
 ;
-absl
+std
 :
 :
 optional
@@ -567,7 +561,7 @@ target_rate_kbps
 )
 ;
 }
-absl
+std
 :
 :
 optional

@@ -1427,7 +1427,7 @@ rtp_timestamp
 return
 ;
 }
-absl
+std
 :
 :
 optional
@@ -2669,7 +2669,7 @@ encoder_config_
 rc_target_bitrate
 !
 =
-absl
+std
 :
 :
 make_optional

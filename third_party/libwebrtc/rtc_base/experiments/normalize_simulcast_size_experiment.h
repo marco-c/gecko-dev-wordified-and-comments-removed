@@ -6,15 +6,9 @@ define
 RTC_BASE_EXPERIMENTS_NORMALIZE_SIMULCAST_SIZE_EXPERIMENT_H_
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -33,7 +27,7 @@ NormalizeSimulcastSizeExperiment
 public
 :
 static
-absl
+std
 :
 :
 optional
