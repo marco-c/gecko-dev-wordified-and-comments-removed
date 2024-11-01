@@ -15,6 +15,7 @@ test_setup
 {
 mockCA
 =
+await
 mockContentAnalysisService
 (
 mockCA
@@ -288,6 +289,11 @@ testInput
 browser
 allowPaste
 sameOrigin
+)
+;
+setClipboardData
+(
+CLIPBOARD_TEXT_STRING
 )
 ;
 await
@@ -630,7 +636,7 @@ mockCA
 calls
 .
 length
-2
+1
 "
 Correct
 number
@@ -649,18 +655,6 @@ mockCA
 calls
 [
 0
-]
-CLIPBOARD_TEXT_STRING
-sameOrigin
-)
-;
-assertContentAnalysisRequest
-(
-mockCA
-.
-calls
-[
-1
 ]
 CLIPBOARD_TEXT_STRING
 sameOrigin
