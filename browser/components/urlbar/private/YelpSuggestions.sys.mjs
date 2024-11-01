@@ -842,6 +842,11 @@ bottom
 text
 "
 }
+iconBlob
+:
+suggestion
+.
+icon_blob
 }
 )
 )
@@ -2016,6 +2021,14 @@ findLoc
 hasLocationSign
 :
 false
+icon_blob
+:
+this
+.
+#
+metadataCache
+.
+iconBlob
 source
 :
 ml
