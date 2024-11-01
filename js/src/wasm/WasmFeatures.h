@@ -168,7 +168,7 @@ cx
 )
 ;
 bool
-IsSimdPrivilegedContext
+IsPrivilegedContext
 (
 JSContext
 *

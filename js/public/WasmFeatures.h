@@ -701,7 +701,7 @@ flag
 predicate
 *
 /
-IsSimdPrivilegedContext
+IsPrivilegedContext
 (
 cx
 )

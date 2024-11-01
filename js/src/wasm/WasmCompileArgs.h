@@ -306,6 +306,10 @@ FeatureOptions
 (
 )
 :
+disableOptimizingCompiler
+(
+false
+)
 isBuiltinModule
 (
 false
@@ -324,6 +328,9 @@ false
 )
 {
 }
+bool
+disableOptimizingCompiler
+;
 bool
 isBuiltinModule
 ;
