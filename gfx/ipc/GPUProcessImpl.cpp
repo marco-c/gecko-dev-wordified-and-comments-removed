@@ -58,6 +58,13 @@ MOZ_SANDBOX
 #
 include
 "
+nsAppShell
+.
+h
+"
+#
+include
+"
 mozilla
 /
 sandboxTarget
@@ -134,6 +141,13 @@ defined
 (
 XP_WIN
 )
+nsAppShell
+:
+:
+PrecacheEventWindow
+(
+)
+;
 mozilla
 :
 :
