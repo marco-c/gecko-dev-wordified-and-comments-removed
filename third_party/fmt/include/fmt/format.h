@@ -22775,7 +22775,8 @@ __clang__
 if
 __clang_major__
 >
-8
+=
+17
 static_assert
 (
 false
