@@ -1,9 +1,9 @@
 #
 ifndef
-DOM_BASE_JSEXECUTIONCONTEXT_H_
+DOM_BASE_JSEXECUTIONUTILS_H_
 #
 define
-DOM_BASE_JSEXECUTIONCONTEXT_H_
+DOM_BASE_JSEXECUTIONUTILS_H_
 #
 include
 "
@@ -69,8 +69,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 nsresult
@@ -217,7 +217,6 @@ aStorage
 nullptr
 )
 ;
-}
 }
 #
 endif
