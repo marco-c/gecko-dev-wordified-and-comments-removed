@@ -13656,8 +13656,6 @@ Stencil
 >
 stencil
 ;
-aExec
-.
 Decode
 (
 aCx
@@ -14037,8 +14035,6 @@ auto
 source
 )
 {
-aExec
-.
 Compile
 (
 aCx
