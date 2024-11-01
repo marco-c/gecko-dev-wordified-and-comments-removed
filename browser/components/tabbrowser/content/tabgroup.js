@@ -741,7 +741,7 @@ gBrowser
 adoptTab
 (
 tab
-this
+gBrowser
 .
 tabs
 .
@@ -754,6 +754,9 @@ at
 _tPos
 +
 1
+tab
+.
+selected
 )
 ;
 gBrowser
