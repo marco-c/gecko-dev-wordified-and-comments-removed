@@ -14,9 +14,16 @@ support
 .
 helpers
 import
+(
+    
 document_hidden
+    
 is_fullscreen
+    
 is_maximized
+    
+is_not_maximized
+)
 def
 minimize
 (
@@ -279,6 +286,14 @@ document_hidden
 session
 )
     
+original
+=
+session
+.
+window
+.
+rect
+    
 session
 .
 window
@@ -291,6 +306,7 @@ assert
 is_maximized
 (
 session
+original
 )
     
 assert
@@ -318,8 +334,7 @@ rect
 )
     
 assert
-not
-is_maximized
+is_not_maximized
 (
 session
 )

@@ -22,9 +22,16 @@ support
 .
 helpers
 import
+(
+    
 is_fullscreen
+    
 is_maximized
+    
+is_not_maximized
+    
 is_wayland
+)
 def
 set_window_rect
 (
@@ -885,8 +892,7 @@ session
 :
     
 assert
-not
-is_maximized
+is_not_maximized
 (
 session
 )
@@ -965,6 +971,7 @@ assert
 is_maximized
 (
 session
+original
 )
     
 response
@@ -988,8 +995,7 @@ rect
 )
     
 assert
-not
-is_maximized
+is_not_maximized
 (
 session
 )

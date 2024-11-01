@@ -16,6 +16,7 @@ helpers
 import
 is_fullscreen
 is_maximized
+is_not_maximized
 def
 fullscreen
 (
@@ -258,6 +259,14 @@ is_fullscreen
 session
 )
     
+original
+=
+session
+.
+window
+.
+rect
+    
 session
 .
 window
@@ -270,6 +279,7 @@ assert
 is_maximized
 (
 session
+original
 )
     
 response
@@ -290,8 +300,7 @@ rect
 )
     
 assert
-not
-is_maximized
+is_not_maximized
 (
 session
 )
