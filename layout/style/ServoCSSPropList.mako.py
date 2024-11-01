@@ -288,6 +288,12 @@ LONGHANDS_NOT_SERIALIZED_WITH_SERVO
 [
     
 "
+border
+-
+spacing
+"
+    
+"
 max
 -
 height

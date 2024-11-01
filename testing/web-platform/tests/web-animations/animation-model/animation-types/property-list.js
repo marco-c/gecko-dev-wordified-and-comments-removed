@@ -1241,7 +1241,7 @@ types
 :
 [
 '
-length
+lengthPair
 '
 ]
 }

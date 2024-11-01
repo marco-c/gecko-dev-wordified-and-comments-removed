@@ -1202,6 +1202,14 @@ already_AddRefed
 <
 CSSValue
 >
+DoGetBorderSpacing
+(
+)
+;
+already_AddRefed
+<
+CSSValue
+>
 DoGetBorderTopWidth
 (
 )
