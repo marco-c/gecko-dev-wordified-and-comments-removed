@@ -1733,6 +1733,16 @@ libwebrtc
 /
 common_video
 /
+corruption_detection_message_gn
+"
+"
+/
+third_party
+/
+libwebrtc
+/
+common_video
+/
 frame_counts_gn
 "
 "
