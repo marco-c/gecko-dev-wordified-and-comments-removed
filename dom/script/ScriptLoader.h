@@ -1607,9 +1607,6 @@ InstantiateClassicScriptFromAny
 JSContext
 *
 aCx
-JSExecutionContext
-&
-aExec
 JS
 :
 :
@@ -1659,9 +1656,6 @@ InstantiateClassicScriptFromMaybeEncodedSource
 JSContext
 *
 aCx
-JSExecutionContext
-&
-aExec
 JS
 :
 :
@@ -1722,9 +1716,6 @@ InstantiateClassicScriptFromCachedStencil
 JSContext
 *
 aCx
-JSExecutionContext
-&
-aExec
 JS
 :
 :
