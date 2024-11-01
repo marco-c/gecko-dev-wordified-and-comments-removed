@@ -1571,7 +1571,7 @@ R
 .
 drawable
 .
-googleg_standard_color_18
+mozac_ic_web_extension_default_icon
 )
 enabled
 =
