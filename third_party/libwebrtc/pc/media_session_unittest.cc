@@ -3208,9 +3208,9 @@ unique_ptr
 <
 SessionDescription
 >
-offer
+offer_desc
 ;
-offer
+offer_desc
 =
 f1_
 .
@@ -3230,7 +3230,7 @@ f1_
 .
 CreateAnswerOrError
 (
-offer
+offer_desc
 .
 get
 (
