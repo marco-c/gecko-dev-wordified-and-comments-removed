@@ -75659,12 +75659,6 @@ FissionDecisionStatus
 eFissionStatusUnknown
 =
 0
-eFissionExperimentControl
-=
-1
-eFissionExperimentTreatment
-=
-2
 eFissionDisabledByE10sEnv
 =
 3
@@ -75689,9 +75683,6 @@ eFissionDisabledByUserPref
 eFissionDisabledByE10sOther
 =
 11
-eFissionEnabledByRollout
-=
-12
 }
 }
 declare

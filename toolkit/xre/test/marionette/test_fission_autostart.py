@@ -7,25 +7,6 @@ marionette_harness
 import
 MarionetteTestCase
 class
-ExperimentStatus
-:
-    
-UNENROLLED
-=
-0
-    
-ENROLLED_CONTROL
-=
-1
-    
-ENROLLED_TREATMENT
-=
-2
-    
-DISQUALIFIED
-=
-3
-class
 Prefs
 :
     
@@ -64,18 +45,6 @@ MOZ_FORCE_DISABLE_E10S
 DECISION_STATUS
 =
 {
-    
-"
-experimentControl
-"
-:
-1
-    
-"
-experimentTreatment
-"
-:
-2
     
 "
 disabledByE10sEnv
