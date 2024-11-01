@@ -14365,9 +14365,6 @@ return
 true
 ;
 }
-#
-ifdef
-ENABLE_WASM_GC
 static
 bool
 WasmGcReadField
@@ -14744,8 +14741,6 @@ return
 true
 ;
 }
-#
-endif
 static
 bool
 LargeArrayBufferSupported
@@ -62283,9 +62278,6 @@ intrinsic
 .
 "
 )
-#
-ifdef
-ENABLE_WASM_GC
 JS_FN_HELP
 (
 "
@@ -62341,8 +62333,6 @@ array
 .
 "
 )
-#
-endif
 #
 ifdef
 ENABLE_WASM_BRANCH_HINTING

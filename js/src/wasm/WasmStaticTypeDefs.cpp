@@ -68,9 +68,6 @@ return
 false
 ;
 }
-#
-ifdef
-ENABLE_WASM_GC
 arrayMutI16
 =
 types
@@ -109,8 +106,6 @@ AddRef
 (
 )
 ;
-#
-endif
 return
 true
 ;

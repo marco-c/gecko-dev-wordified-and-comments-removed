@@ -518,17 +518,6 @@ true
 ;
 }
 }
-#
-ifdef
-ENABLE_WASM_GC
-if
-(
-GcAvailable
-(
-cx
-)
-)
-{
 if
 (
 StringEqualsLiteral
@@ -754,9 +743,6 @@ return
 true
 ;
 }
-}
-#
-endif
 JS_ReportErrorNumberUTF8
 (
 cx

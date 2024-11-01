@@ -468,8 +468,6 @@ void
 initImmediateTypeId
 (
 bool
-gcEnabled
-bool
 isFinal
 const
 TypeDef

@@ -3070,9 +3070,6 @@ FunctionCall
 call
 )
 ;
-#
-ifdef
-ENABLE_WASM_GC
 bool
 updateCallRefMetrics
 (
@@ -3127,8 +3124,6 @@ FuncType
 funcType
 )
 ;
-#
-endif
 #
 endif
 CodeOffset
@@ -4810,9 +4805,6 @@ Rhs
 rhs
 )
 ;
-#
-ifdef
-ENABLE_WASM_GC
 [
 [
 nodiscard
@@ -4834,8 +4826,6 @@ bool
 onSuccess
 )
 ;
-#
-endif
 template
 <
 typename
@@ -6378,9 +6368,6 @@ emitRefIsNull
 (
 )
 ;
-#
-ifdef
-ENABLE_WASM_GC
 [
 [
 nodiscard
@@ -6431,8 +6418,6 @@ emitReturnCallRef
 (
 )
 ;
-#
-endif
 [
 [
 nodiscard
@@ -6775,9 +6760,6 @@ uint32_t
 tableIndex
 )
 ;
-#
-ifdef
-ENABLE_WASM_GC
 [
 [
 nodiscard
@@ -7313,8 +7295,6 @@ PreBarrierKind
 preBarrierKind
 )
 ;
-#
-endif
 #
 ifdef
 ENABLE_WASM_SIMD
