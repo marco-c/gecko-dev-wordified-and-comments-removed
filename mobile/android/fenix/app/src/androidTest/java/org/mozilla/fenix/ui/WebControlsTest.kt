@@ -65,14 +65,6 @@ fenix
 .
 ui
 import
-androidx
-.
-test
-.
-filters
-.
-SdkSuppress
-import
 org
 .
 junit
@@ -963,12 +955,6 @@ cases
 view
 /
 834205
-SdkSuppress
-(
-minSdkVersion
-=
-34
-)
 Test
 fun
 verifyTelephoneLinkTest
