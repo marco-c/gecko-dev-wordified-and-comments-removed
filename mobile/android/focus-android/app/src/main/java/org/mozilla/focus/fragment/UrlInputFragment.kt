@@ -3293,13 +3293,6 @@ isVisible
 =
 true
 }
-binding
-.
-browserToolbarStartSpace
-.
-isVisible
-=
-false
 }
 internal
 fun
@@ -3307,13 +3300,6 @@ onCancelEditing
 (
 )
 {
-binding
-.
-browserToolbarStartSpace
-.
-isVisible
-=
-true
 handleDismiss
 (
 )
