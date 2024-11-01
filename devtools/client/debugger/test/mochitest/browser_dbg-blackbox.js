@@ -2732,6 +2732,12 @@ line
 "
 )
 ;
+await
+waitForDocumentLoadComplete
+(
+dbg
+)
+;
 const
 popup
 =
