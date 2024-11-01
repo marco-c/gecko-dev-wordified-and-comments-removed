@@ -782,6 +782,9 @@ true
 ServiceWorker
 "
 "
+ServiceWorkerContainer
+"
+"
 ServiceWorkerGlobalScope
 "
 "

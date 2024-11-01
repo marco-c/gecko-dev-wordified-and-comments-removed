@@ -1851,6 +1851,9 @@ true
 ServiceWorker
 "
 "
+ServiceWorkerContainer
+"
+"
 ServiceWorkerRegistration
 "
 {

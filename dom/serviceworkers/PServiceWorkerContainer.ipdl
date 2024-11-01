@@ -100,11 +100,6 @@ PBackground
 parent
 :
 async
-Teardown
-(
-)
-;
-async
 Register
 (
 IPCClientInfo
@@ -160,8 +155,6 @@ IPCServiceWorkerRegistrationDescriptorOrCopyableErrorResult
 aResult
 )
 ;
-child
-:
 async
 __delete__
 (

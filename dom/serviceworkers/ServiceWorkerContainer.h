@@ -325,7 +325,7 @@ function
 <
 void
 (
-Document
+nsIGlobalObject
 *
 )
 >

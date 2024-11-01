@@ -43,6 +43,9 @@ nsTArray
 h
 "
 class
+nsIGlobalObject
+;
+class
 nsIURI
 ;
 namespace
@@ -208,6 +211,11 @@ aScriptURI
 ErrorResult
 &
 aRv
+nsIGlobalObject
+*
+aGlobalForReporting
+=
+nullptr
 )
 ;
 bool

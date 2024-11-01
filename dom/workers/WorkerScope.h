@@ -968,6 +968,15 @@ NoteShuttingDown
 (
 )
 ;
+already_AddRefed
+<
+ServiceWorkerContainer
+>
+GetServiceWorkerContainer
+(
+)
+final
+;
 RefPtr
 <
 ServiceWorker

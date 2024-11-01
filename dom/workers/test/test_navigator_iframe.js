@@ -178,6 +178,9 @@ mediaCapabilities
 permissions
 "
 "
+serviceWorker
+"
+"
 storage
 "
 ]

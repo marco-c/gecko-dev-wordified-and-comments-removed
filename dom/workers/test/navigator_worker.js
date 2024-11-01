@@ -64,6 +64,16 @@ connection
 "
 permissions
 "
+{
+name
+:
+"
+serviceWorker
+"
+isSecureContext
+:
+true
+}
 ]
 ;
 self
