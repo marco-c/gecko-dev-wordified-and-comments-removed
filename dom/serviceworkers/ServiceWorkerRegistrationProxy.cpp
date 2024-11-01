@@ -740,6 +740,10 @@ const
 ServiceWorkerRegistrationDescriptor
 &
 aDescriptor
+const
+ClientInfo
+&
+aForClient
 )
 :
 mEventTarget
@@ -751,6 +755,10 @@ GetCurrentSerialEventTarget
 mDescriptor
 (
 aDescriptor
+)
+mListeningClientInfo
+(
+aForClient
 )
 {
 }
@@ -1554,6 +1562,10 @@ Update
 mProxy
 -
 >
+mListeningClientInfo
+mProxy
+-
+>
 mReg
 -
 >
@@ -1875,6 +1887,10 @@ swm
 >
 Update
 (
+self
+-
+>
+mListeningClientInfo
 self
 -
 >

@@ -614,6 +614,10 @@ const
 IPCServiceWorkerRegistrationDescriptor
 &
 aDescriptor
+const
+IPCClientInfo
+&
+aForClient
 )
 {
 MOZ_DIAGNOSTIC_ASSERT
@@ -630,6 +634,10 @@ ServiceWorkerRegistrationProxy
 ServiceWorkerRegistrationDescriptor
 (
 aDescriptor
+)
+ClientInfo
+(
+aForClient
 )
 )
 ;

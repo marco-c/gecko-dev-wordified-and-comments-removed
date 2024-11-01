@@ -61,6 +61,9 @@ protocol
 PBackground
 ;
 include
+ClientIPCTypes
+;
+include
 IPCNavigationPreloadState
 ;
 include

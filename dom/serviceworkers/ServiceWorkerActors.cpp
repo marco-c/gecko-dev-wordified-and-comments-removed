@@ -144,6 +144,10 @@ const
 IPCServiceWorkerRegistrationDescriptor
 &
 aDescriptor
+const
+IPCClientInfo
+&
+aForClient
 )
 {
 AUTO_PROFILER_MARKER_TEXT
@@ -177,6 +181,7 @@ actor
 Init
 (
 aDescriptor
+aForClient
 )
 ;
 }

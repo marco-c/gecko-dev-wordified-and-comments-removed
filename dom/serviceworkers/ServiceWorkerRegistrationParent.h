@@ -179,6 +179,10 @@ const
 IPCServiceWorkerRegistrationDescriptor
 &
 aDescriptor
+const
+IPCClientInfo
+&
+aForClient
 )
 ;
 void

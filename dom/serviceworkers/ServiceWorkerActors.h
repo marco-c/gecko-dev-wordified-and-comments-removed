@@ -40,6 +40,9 @@ aActor
 )
 ;
 class
+IPCClientInfo
+;
+class
 IPCServiceWorkerRegistrationDescriptor
 ;
 class
@@ -55,6 +58,10 @@ const
 IPCServiceWorkerRegistrationDescriptor
 &
 aDescriptor
+const
+IPCClientInfo
+&
+aForClient
 )
 ;
 }
