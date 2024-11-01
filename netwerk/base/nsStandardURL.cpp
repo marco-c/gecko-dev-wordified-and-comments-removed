@@ -11200,12 +11200,12 @@ rv
 =
 =
 NS_ERROR_NO_INTERFACE
-|
-|
+&
+&
+rv
+=
+=
 rv2
-=
-=
-NS_ERROR_NO_INTERFACE
 )
 {
 return
