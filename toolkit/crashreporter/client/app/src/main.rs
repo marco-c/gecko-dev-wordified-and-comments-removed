@@ -1119,7 +1119,7 @@ analyzer_path
 =
 config
 .
-sibling_program_path
+installation_program_path
 (
 "
 minidump

@@ -744,7 +744,7 @@ self
 .
 config
 .
-sibling_program_path
+installation_program_path
 (
 "
 pingsender
@@ -783,6 +783,15 @@ as_object_mut
 (
 )
 {
+map
+.
+remove
+(
+"
+ProfileDirectory
+"
+)
+;
 map
 .
 remove
