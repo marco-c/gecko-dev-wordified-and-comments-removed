@@ -1365,10 +1365,7 @@ i
 ;
 i
 <
-std
-:
-:
-size
+ArrayLength
 (
 kPairs
 )

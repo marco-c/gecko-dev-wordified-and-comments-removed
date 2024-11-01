@@ -659,10 +659,7 @@ NumberPairAttributesInfo
 (
 mNumberPairAttributes
 sNumberPairInfo
-std
-:
-:
-size
+ArrayLength
 (
 sNumberPairInfo
 )
@@ -685,10 +682,7 @@ EnumAttributesInfo
 (
 mEnumAttributes
 sEnumInfo
-std
-:
-:
-size
+ArrayLength
 (
 sEnumInfo
 )
@@ -711,10 +705,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-std
-:
-:
-size
+ArrayLength
 (
 sStringInfo
 )

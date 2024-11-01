@@ -361,10 +361,7 @@ rv
 &
 i
 <
-std
-:
-:
-size
+ArrayLength
 (
 collations
 )

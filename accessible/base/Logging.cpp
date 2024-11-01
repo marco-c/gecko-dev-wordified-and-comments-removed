@@ -452,10 +452,7 @@ idx
 ;
 idx
 <
-std
-:
-:
-size
+ArrayLength
 (
 sModuleMap
 )
@@ -6646,10 +6643,7 @@ idx
 ;
 idx
 <
-std
-:
-:
-size
+ArrayLength
 (
 sModuleMap
 )

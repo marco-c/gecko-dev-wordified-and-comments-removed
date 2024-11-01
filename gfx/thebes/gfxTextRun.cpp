@@ -16283,10 +16283,7 @@ kEllipsisChar
 nsDependentString
 (
 kEllipsisChar
-std
-:
-:
-size
+ArrayLength
 (
 kEllipsisChar
 )
@@ -16297,10 +16294,7 @@ kEllipsisChar
 nsDependentString
 (
 kASCIIPeriodsChar
-std
-:
-:
-size
+ArrayLength
 (
 kASCIIPeriodsChar
 )

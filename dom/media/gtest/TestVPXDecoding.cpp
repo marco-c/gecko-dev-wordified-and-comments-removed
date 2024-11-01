@@ -498,10 +498,7 @@ test
 ;
 test
 <
-std
-:
-:
-size
+ArrayLength
 (
 testFiles
 )

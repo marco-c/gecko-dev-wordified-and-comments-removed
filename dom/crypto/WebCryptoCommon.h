@@ -706,10 +706,10 @@ unsigned
 int
 >
 (
-std
+mozilla
 :
 :
-size
+ArrayLength
 (
 id_ecDH
 )

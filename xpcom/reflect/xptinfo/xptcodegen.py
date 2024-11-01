@@ -3506,10 +3506,10 @@ const
 uint16_t
 sInterfacesSize
 =
-std
+mozilla
 :
 :
-size
+ArrayLength
 (
 sInterfaces
 )

@@ -1916,10 +1916,7 @@ regexResults
 [
 0
 ]
-std
-:
-:
-size
+ArrayLength
 (
 "
 extensions

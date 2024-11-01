@@ -485,10 +485,7 @@ NumberAttributesInfo
 (
 mNumberAttributes
 sNumberInfo
-std
-:
-:
-size
+ArrayLength
 (
 sNumberInfo
 )
@@ -511,10 +508,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-std
-:
-:
-size
+ArrayLength
 (
 sStringInfo
 )

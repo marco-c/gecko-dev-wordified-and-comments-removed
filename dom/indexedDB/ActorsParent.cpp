@@ -58273,10 +58273,7 @@ PERSISTENCE_TYPE_PRIVATE
 ;
 static_assert
 (
-std
-:
-:
-size
+ArrayLength
 (
 kPersistenceTypes
 )

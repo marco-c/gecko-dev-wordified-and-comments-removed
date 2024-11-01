@@ -11418,10 +11418,7 @@ MOZ_ASSERT
 (
 aIdx
 <
-std
-:
-:
-size
+ArrayLength
 (
 mObservers
 )

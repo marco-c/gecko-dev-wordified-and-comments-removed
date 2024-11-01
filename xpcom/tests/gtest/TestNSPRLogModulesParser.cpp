@@ -340,10 +340,7 @@ i
 ;
 i
 <
-std
-:
-:
-size
+MOZ_ARRAY_LENGTH
 (
 expected
 )
@@ -508,10 +505,7 @@ const
 size_t
 kExpectedCount
 =
-std
-:
-:
-size
+MOZ_ARRAY_LENGTH
 (
 expected
 )
@@ -672,10 +666,7 @@ const
 size_t
 kExpectedCount
 =
-std
-:
-:
-size
+MOZ_ARRAY_LENGTH
 (
 expected
 )
@@ -953,10 +944,7 @@ const
 size_t
 kExpectedCount
 =
-std
-:
-:
-size
+MOZ_ARRAY_LENGTH
 (
 expected
 )

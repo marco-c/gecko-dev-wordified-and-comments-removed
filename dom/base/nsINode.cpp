@@ -4944,10 +4944,7 @@ Notation
 ;
 static_assert
 (
-std
-:
-:
-size
+ArrayLength
 (
 NodeTypeStrings
 )
@@ -4986,10 +4983,7 @@ MOZ_RELEASE_ASSERT
 (
 nodeType
 <
-std
-:
-:
-size
+ArrayLength
 (
 NodeTypeStrings
 )

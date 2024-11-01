@@ -5963,10 +5963,7 @@ std
 make_pair
 (
 kBaseFonts
-std
-:
-:
-size
+ArrayLength
 (
 kBaseFonts
 )
@@ -5983,10 +5980,7 @@ std
 make_pair
 (
 kLangPackFonts
-std
-:
-:
-size
+ArrayLength
 (
 kLangPackFonts
 )
@@ -10622,10 +10616,7 @@ aliasName
 ;
 lenAlias
 =
-std
-:
-:
-size
+ArrayLength
 (
 aliasName
 )
@@ -11010,10 +11001,7 @@ i
 ;
 i
 <
-std
-:
-:
-size
+ArrayLength
 (
 sDirectWriteSubs
 )

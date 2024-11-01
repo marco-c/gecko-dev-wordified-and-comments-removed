@@ -471,10 +471,7 @@ static
 Atom
 XAtoms
 [
-std
-:
-:
-size
+MOZ_ARRAY_LENGTH
 (
 XAtomNames
 )
@@ -539,10 +536,7 @@ char
 (
 XAtomNames
 )
-std
-:
-:
-size
+MOZ_ARRAY_LENGTH
 (
 XAtomNames
 )

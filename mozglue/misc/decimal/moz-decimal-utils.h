@@ -328,10 +328,10 @@ buffer
 int
 buffer_length
 =
-std
+mozilla
 :
 :
-size
+ArrayLength
 (
 buffer
 )

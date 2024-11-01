@@ -22658,10 +22658,7 @@ L
 MOZ_REPLACE_MALLOC_LIB
 "
 replace_malloc_lib
-std
-:
-:
-size
+ArrayLength
 (
 replace_malloc_lib
 )

@@ -453,10 +453,7 @@ const
 uint32_t
 kRelationAttrsLen
 =
-std
-:
-:
-size
+ArrayLength
 (
 kRelationAttrs
 )

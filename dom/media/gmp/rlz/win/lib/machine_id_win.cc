@@ -671,10 +671,10 @@ MAX_COMPUTERNAME_LENGTH
 DWORD
 size
 =
-std
+mozilla
 :
 :
-size
+ArrayLength
 (
 computer_name
 )

@@ -250,10 +250,7 @@ parser
 Append
 (
 buf
-std
-:
-:
-size
+ArrayLength
 (
 buf
 )

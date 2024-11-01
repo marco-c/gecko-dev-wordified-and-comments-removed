@@ -528,10 +528,7 @@ idx
 ;
 idx
 <
-std
-:
-:
-size
+ArrayLength
 (
 attrArray
 )
@@ -563,10 +560,7 @@ aStartOffset
 GetRange
 (
 attrArray
-std
-:
-:
-size
+ArrayLength
 (
 attrArray
 )

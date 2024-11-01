@@ -1847,10 +1847,7 @@ end
 =
 kWorkerPrefs
 +
-std
-:
-:
-size
+ArrayLength
 (
 kWorkerPrefs
 )

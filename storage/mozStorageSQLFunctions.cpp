@@ -823,10 +823,7 @@ rv
 &
 i
 <
-std
-:
-:
-size
+ArrayLength
 (
 functions
 )

@@ -2141,10 +2141,10 @@ i
 ;
 i
 <
-std
+mozilla
 :
 :
-size
+ArrayLength
 (
 aParam
 .
@@ -2237,10 +2237,10 @@ i
 ;
 i
 <
-std
+mozilla
 :
 :
-size
+ArrayLength
 (
 aResult
 -

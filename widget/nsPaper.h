@@ -488,10 +488,10 @@ constexpr
 size_t
 kNumCommonPaperSizes
 =
-std
+mozilla
 :
 :
-size
+ArrayLength
 (
 kCommonPaperSizes
 )

@@ -2398,10 +2398,7 @@ BUTT
 10
 .
 0f
-std
-:
-:
-size
+ArrayLength
 (
 dashes
 )

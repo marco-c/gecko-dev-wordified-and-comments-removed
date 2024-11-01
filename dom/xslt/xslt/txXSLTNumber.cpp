@@ -3083,10 +3083,10 @@ CharRange
 *
 end
 =
-std
+mozilla
 :
 :
-end
+ArrayEnd
 (
 alphanumericRanges
 )

@@ -8760,10 +8760,7 @@ BinarySearchIf
 (
 chromebookProductList
 0
-std
-:
-:
-size
+ArrayLength
 (
 chromebookProductList
 )

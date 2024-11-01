@@ -107,10 +107,10 @@ gTestsIndex
 <
 int
 (
-std
+mozilla
 :
 :
-size
+ArrayLength
 (
 gTests
 )
