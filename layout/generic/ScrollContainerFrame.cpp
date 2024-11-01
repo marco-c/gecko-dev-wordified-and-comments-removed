@@ -29086,9 +29086,6 @@ Hidden
 scrollPosition
 .
 x
-|
-|
-mIsUsingMinimumScaleSize
 )
 {
 needReflow
