@@ -90,6 +90,9 @@ HIDE_TIMEOUT_MS
 waitForDocumentToLoad
 :
 false
+avoidForcedSynchronousLayoutUpdate
+:
+true
 }
 )
 ;

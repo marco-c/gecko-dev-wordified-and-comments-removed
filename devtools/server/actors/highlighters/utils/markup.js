@@ -755,6 +755,9 @@ nodeBuilder
 waitForDocumentToLoad
 =
 true
+avoidForcedSynchronousLayoutUpdate
+=
+false
 }
 =
 {
@@ -780,6 +783,14 @@ waitForDocumentToLoad
 !
 !
 waitForDocumentToLoad
+;
+this
+.
+avoidForcedSynchronousLayoutUpdate
+=
+!
+!
+avoidForcedSynchronousLayoutUpdate
 ;
 this
 .
@@ -1048,6 +1059,12 @@ forceSynchronousLayoutUpdate
 this
 .
 waitForDocumentToLoad
+&
+&
+!
+this
+.
+avoidForcedSynchronousLayoutUpdate
 ;
 this
 .
