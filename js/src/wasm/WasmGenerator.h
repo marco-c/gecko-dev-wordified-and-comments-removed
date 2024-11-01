@@ -935,6 +935,9 @@ debugStubCodeOffset_
 uint32_t
 requestTierUpStubCodeOffset_
 ;
+uint32_t
+updateCallRefMetricsStubCodeOffset_
+;
 CallFarJumpVector
 callFarJumps_
 ;

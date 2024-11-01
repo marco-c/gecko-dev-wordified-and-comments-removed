@@ -3073,7 +3073,14 @@ call
 #
 ifdef
 ENABLE_WASM_GC
-void
+bool
+updateCallRefMetrics
+(
+size_t
+callRefIndex
+)
+;
+bool
 callRef
 (
 const
