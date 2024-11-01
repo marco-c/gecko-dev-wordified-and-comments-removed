@@ -147,11 +147,6 @@ canGo
 (
 long
 aOffset
-optional
-boolean
-aRequireUserInteraction
-=
-false
 )
 ;
 [
