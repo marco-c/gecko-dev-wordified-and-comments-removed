@@ -457,6 +457,13 @@ js
 ]
 [
 "
+browser_bookmarks_checkDefaultBookmarks
+.
+js
+"
+]
+[
+"
 browser_bug427633_no_newfolder_if_noip
 .
 js
