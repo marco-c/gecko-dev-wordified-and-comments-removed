@@ -62,10 +62,6 @@ const
 {
 createEngine
 PipelineOptions
-QuantizationLevel
-ExecutionPriority
-InferenceDevice
-LogLevel
 }
 =
 ChromeUtils
