@@ -1045,12 +1045,9 @@ if
 (
 values
 .
-size
+empty
 (
 )
-=
-=
-0
 )
 {
 return
@@ -1342,12 +1339,9 @@ if
 (
 values
 .
-size
+empty
 (
 )
-=
-=
-0
 )
 {
 return
