@@ -9557,6 +9557,15 @@ DEBUG
 if
 (
 mConnection
+&
+&
+!
+mConnection
+-
+>
+Closed
+(
+)
 )
 {
 mConnection
