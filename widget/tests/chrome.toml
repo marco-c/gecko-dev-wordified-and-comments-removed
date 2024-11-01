@@ -43,6 +43,13 @@ test_alwaysontop_focus
 xhtml
 "
 ]
+[
+"
+test_autocorrect_in_parent
+.
+html
+"
+]
 #
 Privacy
 relevant
