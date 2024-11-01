@@ -5546,6 +5546,14 @@ checks
 /
 rtc_base
 :
+net_helpers
+"
+"
+.
+.
+/
+rtc_base
+:
 stringutils
 "
 "

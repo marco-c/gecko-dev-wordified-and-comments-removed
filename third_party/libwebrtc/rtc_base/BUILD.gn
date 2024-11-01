@@ -5309,6 +5309,10 @@ macromagic
 "
 "
 :
+net_helpers
+"
+"
+:
 socket_address
 "
 "
