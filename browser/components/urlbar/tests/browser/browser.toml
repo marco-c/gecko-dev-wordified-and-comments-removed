@@ -1867,6 +1867,13 @@ js
 ]
 [
 "
+browser_restrict_keywords_autofill
+.
+js
+"
+]
+[
+"
 browser_resultSpan
 .
 js
