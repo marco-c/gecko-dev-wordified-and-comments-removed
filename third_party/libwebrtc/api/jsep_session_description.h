@@ -7,6 +7,11 @@ API_JSEP_SESSION_DESCRIPTION_H_
 #
 include
 <
+cstddef
+>
+#
+include
+<
 memory
 >
 #

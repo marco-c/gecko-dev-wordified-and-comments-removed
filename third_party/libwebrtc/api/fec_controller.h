@@ -7,6 +7,16 @@ API_FEC_CONTROLLER_H_
 #
 include
 <
+cstddef
+>
+#
+include
+<
+cstdint
+>
+#
+include
+<
 memory
 >
 #

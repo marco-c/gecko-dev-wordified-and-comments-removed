@@ -369,6 +369,14 @@ deps
 /
 api
 :
+make_ref_counted
+"
+"
+.
+.
+/
+api
+:
 scoped_refptr
 "
 "

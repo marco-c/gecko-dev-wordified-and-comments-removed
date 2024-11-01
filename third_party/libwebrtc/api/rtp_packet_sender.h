@@ -7,6 +7,11 @@ API_RTP_PACKET_SENDER_H_
 #
 include
 <
+cstdint
+>
+#
+include
+<
 memory
 >
 #

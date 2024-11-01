@@ -910,6 +910,14 @@ checks
 .
 /
 rtc_base
+:
+macromagic
+"
+"
+.
+.
+/
+rtc_base
 /
 system
 :
@@ -2645,6 +2653,10 @@ deps
 "
 :
 ref_count
+"
+"
+:
+scoped_refptr
 "
 "
 .

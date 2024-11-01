@@ -7,12 +7,12 @@ API_NETWORK_STATE_PREDICTOR_H_
 #
 include
 <
-memory
+cstdint
 >
 #
 include
 <
-vector
+memory
 >
 #
 include

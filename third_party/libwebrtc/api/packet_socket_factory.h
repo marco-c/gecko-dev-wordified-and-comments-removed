@@ -7,6 +7,11 @@ API_PACKET_SOCKET_FACTORY_H_
 #
 include
 <
+cstdint
+>
+#
+include
+<
 memory
 >
 #
@@ -34,6 +39,15 @@ include
 rtc_base
 /
 async_packet_socket
+.
+h
+"
+#
+include
+"
+rtc_base
+/
+socket_address
 .
 h
 "
