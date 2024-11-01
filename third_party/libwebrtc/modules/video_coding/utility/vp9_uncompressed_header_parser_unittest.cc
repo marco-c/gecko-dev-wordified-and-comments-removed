@@ -361,6 +361,15 @@ EXPECT_EQ
 frame_info
 -
 >
+loop_filter_params_offset_bits
+100u
+)
+;
+EXPECT_EQ
+(
+frame_info
+-
+>
 compressed_header_size
 23u
 )

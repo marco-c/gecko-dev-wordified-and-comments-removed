@@ -306,6 +306,15 @@ size_t
 >
 render_size_offset_bits
 ;
+absl
+:
+:
+optional
+<
+size_t
+>
+loop_filter_params_offset_bits
+;
 Vp9InterpolationFilter
 interpolation_filter
 =
