@@ -4070,12 +4070,9 @@ OSForceClose
 "
 OSSessionEnd
 "
-"
-OSShutdown
-"
 or
 "
-WinUnexpectedMozQuit
+OSShutdown
 "
 .
 type

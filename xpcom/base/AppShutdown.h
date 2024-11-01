@@ -51,7 +51,6 @@ AppRestart
 OSForceClose
 OSSessionEnd
 OSShutdown
-WinUnexpectedMozQuit
 }
 ;
 class
