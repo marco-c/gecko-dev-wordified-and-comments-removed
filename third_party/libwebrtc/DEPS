@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-ef49a3ba494f6c6edbb486231985a3eecb56622c
+cb10943d61a814dbf95138b38a73c60412d1f37d
 '
 #
 Fetch
@@ -222,9 +222,9 @@ version
 :
 23
 .
-20240815
+20240823
 .
-4
+0
 .
 1
 '
@@ -506,7 +506,7 @@ chromium
 src
 /
 base
-033588ef8013baaa58c42ef8bb25a52505c71e55
+0db01afd90b501b167eb97c672aa7f97b1c64507
 '
 '
 src
@@ -530,7 +530,7 @@ chromium
 src
 /
 build
-2fb4df2b33c448ad00d076c10369a7b703cae563
+96625099e899909656e8f7eafbcac9daba1414cb
 '
 '
 src
@@ -554,7 +554,7 @@ chromium
 src
 /
 buildtools
-2470cca5b26e6e9ce55c97e00724c61d9f90bf2b
+4434cfea96b6a5b778a4a0af1496cbe8d666c834
 '
 #
 Gradle
@@ -650,7 +650,7 @@ chromium
 src
 /
 ios
-431d4c67adfac4f07b74d7d9df19e36f4f0e2a79
+9c77ec35a20c2280cc01f7519866e8e4836966fd
 '
 '
 condition
@@ -682,7 +682,7 @@ chromium
 src
 /
 testing
-489a5b43e434d385083af1dce14a508e10f82e0c
+e981b261865701aa63fdbdd49d13a328753255cd
 '
 '
 src
@@ -706,7 +706,7 @@ chromium
 src
 /
 third_party
-eb289deb6a994795eccb6ac6a8b878b22cb62b27
+c677a5e7185481b5afd461c529930d9f19f07b64
 '
 '
 src
@@ -747,7 +747,7 @@ version
 '
 git_revision
 :
-d010e218ca7077928ad7c9e9cc02fe43b5a8a0ad
+225e90c5025bf74f41dbee60d9cde4512c846fe7
 '
 }
 ]
@@ -805,7 +805,7 @@ version
 '
 git_revision
 :
-d010e218ca7077928ad7c9e9cc02fe43b5a8a0ad
+225e90c5025bf74f41dbee60d9cde4512c846fe7
 '
 }
 ]
@@ -859,7 +859,7 @@ version
 '
 git_revision
 :
-d010e218ca7077928ad7c9e9cc02fe43b5a8a0ad
+225e90c5025bf74f41dbee60d9cde4512c846fe7
 '
 }
 ]
@@ -1070,7 +1070,7 @@ project
 libcxx
 .
 git
-2557638e538a088bf3862e35369872ce26a4d4c1
+6071843cd8c373083609345148ca08f264612841
 '
 '
 src
@@ -1149,7 +1149,7 @@ project
 libunwind
 .
 git
-116c20dae60d84a77005697cf29f72783f81b0f9
+dc70138c3e68e2f946585f134e20815851e26263
 '
 '
 src
@@ -1396,6 +1396,8 @@ third_party
 android_build_tools
 /
 aapt2
+/
+cipd
 '
 :
 {
@@ -1703,7 +1705,7 @@ com
 boringssl
 .
 git
-11f334121fd0d13830fefdf08041183da2d30ef3
+f1b043c28352a4e79114324ca2e86df33922e843
 '
 '
 src
@@ -1755,7 +1757,7 @@ com
 catapult
 .
 git
-48294e2bd1e5ecaa3c54036abdcaac85f76af2f4
+4917becfcf533ef31071fde42fa13ec417c71930
 '
 '
 src
@@ -1932,7 +1934,7 @@ tools
 depot_tools
 .
 git
-04a2e71a925ee4df863d6973df488dac0e087505
+f5e10923392588205925c036948e111f72b80271
 '
 '
 src
@@ -2603,6 +2605,8 @@ src
 third_party
 /
 kotlin_stdlib
+/
+cipd
 '
 :
 {
@@ -2680,9 +2684,9 @@ version
 '
 :
 '
-WZnvRnrRxAH_l
+PKwXlOC2iNJx0ELcmUpSTk0GHbNMEM
 -
-qK9RKczWmyPdblSiz87bSG3naRB9QC
+HZwhs2AWl1WUC
 '
 }
 ]
@@ -2816,7 +2820,7 @@ deps
 libjpeg_turbo
 .
 git
-ccfbe1c82a3b6dbe8647ceb36a3f9ee711fba3cf
+4426a8da65e8d1eb652210d0c5b3a339e05aec01
 '
 '
 src
@@ -2878,7 +2882,7 @@ videolan
 dav1d
 .
 git
-5ef6b241f05a2b9058b58136da4b25842aefba96
+472b31f83825a1f392f79cf7a50de018f3ff4b7d
 '
 '
 src
@@ -2906,7 +2910,7 @@ com
 aom
 .
 git
-68bc71348beb562d1a83b18d36ae875bc45a585e
+35c90ab674cab2c61bc9dd616ec2aaca2ed2b898
 '
 '
 src
@@ -2977,7 +2981,7 @@ external
 perfetto
 .
 git
-4a7ddbf3bf09b42381841dd7b5d34fc2bf9b62ec
+20ed12d82f746564a989723bfbf3ac3b987b9874
 '
 '
 src
@@ -3047,7 +3051,7 @@ webm
 libvpx
 .
 git
-428f3104fa7259a369e88df30f8b02644c8c1e24
+312a9004c1413ddbbec1e6769349f17d79e4566e
 '
 '
 src
@@ -3342,11 +3346,9 @@ version
 '
 :
 '
-BLP0V0lHIffRLj
+Ct5P52jBNitwDrzqSn
 -
-o9uhUnvAjMOzA8ZJtIejMb
--
-Kobb8C
+X_dyAlLSpDkGgQQgDk6OUUlMC
 '
 }
 ]
@@ -3522,7 +3524,7 @@ chromium
 src
 /
 tools
-2449f923ca04700c0f5289e5df3059e3ad7daeb3
+86262cf454ffbd552f0fc0aa7bf9980b3cb9fe4d
 '
 '
 src
@@ -3582,6 +3584,8 @@ src
 third_party
 /
 hamcrest
+/
+cipd
 '
 :
 {
@@ -3715,7 +3719,11 @@ version
 '
 :
 '
-DD9bs0MmYqLJy2N12a9r4lV2WKbRsCQ9IYQ1JZDxKEAC
+x4Ywv14A
+-
+LaT62Jl57Nuu4AI3JhL_wyYPEr
+-
+GI3ok4YC
 '
 }
 ]
@@ -3974,6 +3982,8 @@ src
 third_party
 /
 icu4j
+/
+cipd
 '
 :
 {
@@ -4151,7 +4161,9 @@ version
 '
 :
 '
-HLBr7iWMO2VeD_WbrAA1eq33jZZCVxvA3noE3LNzSlQC
+0x14qVQmOdhVAM7Sygzzwm0xfTjL7Bl
+-
+0I642feaCSkC
 '
 }
 ]
@@ -4213,7 +4225,7 @@ version
 '
 git_revision
 :
-ad7b787aa0ee53a81bc88fb4f7fee7a3ff1e8c29
+5845c6112f584c023a47776b31c3b6f08f562fb8
 '
 }
 {
@@ -4243,7 +4255,7 @@ version
 '
 git_revision
 :
-ad7b787aa0ee53a81bc88fb4f7fee7a3ff1e8c29
+5845c6112f584c023a47776b31c3b6f08f562fb8
 '
 }
 ]
