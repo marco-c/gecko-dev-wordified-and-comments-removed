@@ -42,11 +42,6 @@ ManagedMozPromiseRequestHolder
 .
 h
 "
-"
-TargetPtrHolder
-.
-h
-"
 ]
 UNIFIED_SOURCES
 +

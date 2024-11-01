@@ -1,9 +1,9 @@
 #
 ifndef
-DOM_FS_SHARED_TARGETPTRHOLDER_H_
+DOM_QUOTA_TARGETPTRHOLDER_H_
 #
 define
-DOM_FS_SHARED_TARGETPTRHOLDER_H_
+DOM_QUOTA_TARGETPTRHOLDER_H_
 #
 include
 "
@@ -41,7 +41,7 @@ mozilla
 dom
 :
 :
-fs
+quota
 {
 template
 <

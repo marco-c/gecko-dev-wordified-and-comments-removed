@@ -425,6 +425,11 @@ StringifyUtils
 h
 "
 "
+TargetPtrHolder
+.
+h
+"
+"
 ThreadUtils
 .
 h
