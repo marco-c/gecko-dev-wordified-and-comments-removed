@@ -5991,10 +5991,6 @@ firstStub
 !
 =
 stub
-!
-isTrialInlined
-&
-&
 entry
 -
 >
