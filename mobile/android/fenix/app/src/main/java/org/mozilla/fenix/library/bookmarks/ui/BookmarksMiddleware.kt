@@ -2366,6 +2366,11 @@ title
 node
 .
 title
+?
+:
+node
+.
+url
 !
 !
 previewImageUrl
