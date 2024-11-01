@@ -5289,6 +5289,11 @@ scalable_video_controller
 "
 svc
 :
+simulcast_to_svc_converter
+"
+"
+svc
+:
 svc_rate_allocator
 "
 "
@@ -9627,6 +9632,11 @@ deprecated_stream_generator
 svc
 :
 scalability_structure_tests
+"
+"
+svc
+:
+simulcast_to_svc_converter_tests
 "
 "
 svc
