@@ -376,16 +376,6 @@ HR
 Korwaatia
 "
 }
-IO
-{
-"
-Burutic
-e
-ndian
-oce
-n
-"
-}
 KH
 {
 "

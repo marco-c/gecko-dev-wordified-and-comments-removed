@@ -92,6 +92,11 @@ nfkc_cf
 txt
 "
 "
+nfkc_scf
+.
+txt
+"
+"
 uts46
 .
 txt

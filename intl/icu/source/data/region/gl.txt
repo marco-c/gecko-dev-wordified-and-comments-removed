@@ -294,7 +294,6 @@ Andorra
 AE
 {
 "
-Os
 Emiratos
 rabes
 Unidos
@@ -342,7 +341,6 @@ Angola
 AQ
 {
 "
-A
 Ant
 rtida
 "
@@ -350,7 +348,6 @@ rtida
 AR
 {
 "
-A
 Arxentina
 "
 }
@@ -490,7 +487,6 @@ s
 BR
 {
 "
-O
 Brasil
 "
 }
@@ -536,7 +532,6 @@ Belize
 CA
 {
 "
-O
 Canad
 "
 }
@@ -617,7 +612,6 @@ n
 CN
 {
 "
-A
 China
 "
 }
@@ -756,7 +750,6 @@ Exipto
 EH
 {
 "
-O
 S
 hara
 Occidental
@@ -844,7 +837,6 @@ n
 GB
 {
 "
-O
 Reino
 Unido
 "
@@ -952,7 +944,6 @@ Guam
 GW
 {
 "
-A
 Guinea
 Bissau
 "
@@ -1045,7 +1036,6 @@ Man
 IN
 {
 "
-A
 India
 "
 }
@@ -1107,7 +1097,6 @@ Xordania
 JP
 {
 "
-O
 Xap
 n
 "
@@ -1198,7 +1187,6 @@ Laos
 LB
 {
 "
-O
 L
 bano
 "
@@ -1276,7 +1264,9 @@ naco
 MD
 {
 "
-Moldavia
+Rep
+blica
+Moldova
 "
 }
 ME
@@ -1507,14 +1497,12 @@ Panam
 PE
 {
 "
-O
 Per
 "
 }
 PF
 {
 "
-A
 Polinesia
 Francesa
 "
@@ -1593,7 +1581,6 @@ Palau
 PY
 {
 "
-O
 Paraguai
 "
 }
@@ -1669,7 +1656,6 @@ Seychelles
 SD
 {
 "
-O
 Sud
 n
 "
@@ -1749,7 +1735,6 @@ Suriname
 SS
 {
 "
-O
 Sud
 n
 do
@@ -1944,7 +1929,6 @@ Unidas
 US
 {
 "
-Os
 Estados
 Unidos
 "
@@ -1952,7 +1936,6 @@ Unidos
 UY
 {
 "
-O
 Uruguai
 "
 }
@@ -1977,7 +1960,7 @@ VC
 San
 Vicente
 e
-As
+as
 Granadinas
 "
 }
@@ -2051,7 +2034,6 @@ Kosovo
 YE
 {
 "
-O
 Iemen
 "
 }
@@ -2087,6 +2069,20 @@ Rexi
 n
 desco
 ecida
+"
+}
+}
+Countries
+%
+chagos
+{
+IO
+{
+"
+Arquip
+lago
+de
+Chagos
 "
 }
 }
