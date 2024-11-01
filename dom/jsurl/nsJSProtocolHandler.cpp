@@ -1525,8 +1525,12 @@ options
 noScriptRval
 )
 ;
-exec
-.
+mozilla
+:
+:
+dom
+:
+:
 ExecScript
 (
 cx

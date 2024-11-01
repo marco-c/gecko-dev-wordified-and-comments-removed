@@ -567,6 +567,8 @@ aStorage
 nullptr
 )
 ;
+}
+;
 void
 ExecScript
 (
@@ -621,8 +623,6 @@ aCoerceToString
 =
 false
 )
-;
-}
 ;
 }
 }

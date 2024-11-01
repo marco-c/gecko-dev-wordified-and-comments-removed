@@ -28289,8 +28289,6 @@ script
 )
 ;
 }
-exec
-.
 ExecScript
 (
 aes
