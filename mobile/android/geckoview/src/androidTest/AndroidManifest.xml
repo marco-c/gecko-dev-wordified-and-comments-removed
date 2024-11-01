@@ -258,15 +258,6 @@ GeckoViewTestActivity
 "
 android
 :
-windowSoftInputMode
-=
-"
-stateUnspecified
-|
-adjustResize
-"
-android
-:
 exported
 =
 "
