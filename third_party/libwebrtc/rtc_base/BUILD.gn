@@ -5305,6 +5305,10 @@ checks
 "
 "
 :
+ip_address
+"
+"
+:
 macromagic
 "
 "
@@ -9465,6 +9469,10 @@ mod_ops
 "
 :
 moving_max_counter
+"
+"
+:
+net_helpers
 "
 "
 :

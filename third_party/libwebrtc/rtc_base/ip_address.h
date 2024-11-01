@@ -5,6 +5,11 @@ RTC_BASE_IP_ADDRESS_H_
 define
 RTC_BASE_IP_ADDRESS_H_
 #
+include
+<
+cstdint
+>
+#
 if
 defined
 (
