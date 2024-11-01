@@ -1700,6 +1700,14 @@ BaseProfilerThreadId
 threadId_
 ;
 void
+handleError
+(
+JSContext
+*
+cx
+)
+;
+void
 writeScriptUrl
 (
 ScriptSource
@@ -2065,7 +2073,7 @@ return
 true
 ;
 }
-bool
+void
 onEnterFrame
 (
 JSContext
@@ -2075,7 +2083,7 @@ AbstractFramePtr
 frame
 )
 ;
-bool
+void
 onLeaveFrame
 (
 JSContext

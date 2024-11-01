@@ -223,6 +223,9 @@ LabelEnter
 LabelLeave
 =
 3
+Error
+=
+4
 }
 ;
 enum
