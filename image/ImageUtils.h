@@ -453,6 +453,16 @@ SourceBuffer
 aSourceBuffer
 DecoderType
 aType
+const
+Maybe
+<
+gfx
+:
+:
+IntSize
+>
+&
+aOutputSize
 SurfaceFlags
 aSurfaceFlags
 )
