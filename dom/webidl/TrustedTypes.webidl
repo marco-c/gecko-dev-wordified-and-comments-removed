@@ -448,12 +448,14 @@ DOMString
 attribute
 optional
 DOMString
+?
 elementNs
 =
 "
 "
 optional
 DOMString
+?
 attrNs
 =
 "
@@ -470,6 +472,7 @@ DOMString
 property
 optional
 DOMString
+?
 elementNs
 =
 "
