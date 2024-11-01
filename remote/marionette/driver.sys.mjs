@@ -20432,6 +20432,13 @@ handlerConfig
 handler
 }
 "
+.
+Dialog
+text
+:
+{
+textContent
+}
 {
 text
 :
