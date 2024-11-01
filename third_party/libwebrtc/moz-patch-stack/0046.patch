@@ -159,10 +159,10 @@ audio_receive_stream
 .
 cc
 index
-cd11e7163b
+cd6ed5fbdd
 .
 .
-994b5bff84
+41bc0c0c22
 100644
 -
 -
@@ -185,10 +185,10 @@ audio_receive_stream
 .
 cc
 -
-379
+373
 7
 +
-379
+373
 6
 int
 AudioReceiveStreamImpl
@@ -223,8 +223,9 @@ worker_thread_checker_
 )
 ;
 return
-source_tracker_
-.
+channel_receive_
+-
+>
 GetSources
 (
 )

@@ -1048,6 +1048,10 @@ true
 ;
 SourceTracker
 source_tracker_
+RTC_GUARDED_BY
+(
+worker_sequence_checker_
+)
 ;
 ReceiveStatisticsProxy
 stats_proxy_
