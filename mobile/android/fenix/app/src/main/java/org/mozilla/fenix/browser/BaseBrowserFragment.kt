@@ -8690,10 +8690,6 @@ NoExtras
 (
 )
 )
-}
-onDismiss
-=
-{
 context
 .
 settings
@@ -8716,6 +8712,10 @@ System
 currentTimeMillis
 (
 )
+}
+onDismiss
+=
+{
 NavigationBar
 .
 navigationButtonsCfrDismissed
