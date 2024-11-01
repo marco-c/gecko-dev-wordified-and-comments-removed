@@ -2254,12 +2254,6 @@ args
 [
 "
 -
-no
--
-remote
-"
-"
--
 foreground
 "
 "
