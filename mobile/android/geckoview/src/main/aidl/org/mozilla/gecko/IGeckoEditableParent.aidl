@@ -171,6 +171,8 @@ String
 actionHint
 String
 autocapitalize
+boolean
+autocorrect
 int
 flags
 )
