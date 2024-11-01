@@ -1393,6 +1393,15 @@ add
 "
 tag
 "
+"
+force
+-
+color
+-
+on
+-
+flash
+"
 )
 ;
 this
