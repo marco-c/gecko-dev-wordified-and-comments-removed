@@ -21,12 +21,6 @@ THIRDPARTY_USED_IN_FIREFOX
 [
     
 "
-abseil
--
-cpp
-"
-    
-"
 pffft
 "
     
