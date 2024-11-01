@@ -193,7 +193,7 @@ Localization
 (
 [
 "
-preview
+browser
 /
 profiles
 .
