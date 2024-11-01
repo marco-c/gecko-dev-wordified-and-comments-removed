@@ -807,6 +807,9 @@ averageRating
 reviewCount
 =
 reviewCount
+installUrl
+=
+installUrl
 )
 }
 /

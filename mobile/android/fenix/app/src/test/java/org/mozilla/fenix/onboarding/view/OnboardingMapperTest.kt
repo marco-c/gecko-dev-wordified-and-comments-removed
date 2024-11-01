@@ -852,6 +852,9 @@ description
 12
 345
 "
+"
+url1
+"
 )
 OnboardingAddOn
 (
@@ -884,6 +887,9 @@ description
 1
 234
 "
+"
+url2
+"
 )
 OnboardingAddOn
 (
@@ -912,6 +918,9 @@ description
 "
 "
 123
+"
+"
+url3
 "
 )
 )

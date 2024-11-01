@@ -354,4 +354,8 @@ val
 reviewCount
 :
 String
+val
+installUrl
+:
+String
 )
