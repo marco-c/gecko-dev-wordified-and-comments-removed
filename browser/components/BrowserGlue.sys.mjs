@@ -4836,6 +4836,11 @@ about
 :
 deleteprofile
 "
+"
+about
+:
+newprofile
+"
 ]
 }
 LinkHandler
@@ -5288,6 +5293,11 @@ editprofile
 about
 :
 deleteprofile
+"
+"
+about
+:
+newprofile
 "
 ]
 enablePreference

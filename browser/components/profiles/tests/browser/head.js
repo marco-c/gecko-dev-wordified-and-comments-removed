@@ -544,6 +544,13 @@ uninit
 await
 SelectableProfileService
 .
+maybeCreateProfilesStorePath
+(
+)
+;
+await
+SelectableProfileService
+.
 init
 (
 )
@@ -565,7 +572,7 @@ testProfile
 avatar
 :
 "
-avatar
+star
 "
 themeL10nId
 :
