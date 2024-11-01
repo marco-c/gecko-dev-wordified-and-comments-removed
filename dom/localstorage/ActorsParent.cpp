@@ -28977,6 +28977,14 @@ gArchivedOrigins
 bool
 hasDataForMigration
 =
+StaticPrefs
+:
+:
+dom_storage_enable_migration_from_unsupported_legacy_implementation
+(
+)
+&
+&
 mArchivedOriginScope
 -
 >
