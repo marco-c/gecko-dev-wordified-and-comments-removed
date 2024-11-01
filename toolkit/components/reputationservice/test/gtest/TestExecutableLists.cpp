@@ -485,6 +485,12 @@ ksh
 "
 "
 .
+library
+-
+ms
+"
+"
+.
 lnk
 "
 "
