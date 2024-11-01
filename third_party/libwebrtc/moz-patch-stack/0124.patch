@@ -147,10 +147,10 @@ screen_capturer_sck
 .
 mm
 index
-51a5275905
+b92399e6b6
 .
 .
-e98b61ccdb
+96d54c5c03
 100644
 -
 -
@@ -694,10 +694,10 @@ true
 break
 ;
 -
-672
+673
 7
 +
-667
+668
 7
 std
 :

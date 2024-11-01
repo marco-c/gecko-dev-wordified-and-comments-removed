@@ -394,10 +394,10 @@ RTCCameraVideoCapturer
 .
 m
 index
-e7c47b4e99
+d25f5e20ae
 .
 .
-1361207faf
+4f92f56807
 100644
 -
 -
@@ -432,10 +432,10 @@ RTCCameraVideoCapturer
 .
 m
 -
-117
+118
 14
 +
-117
+118
 27
 const
 int64_t

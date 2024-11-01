@@ -300,8 +300,6 @@ AVCaptureSession
 )
 captureSession
 {
-if
-(
 self
 =
 [
@@ -310,6 +308,10 @@ initWithDelegate
 :
 delegate
 ]
+;
+if
+(
+self
 )
 {
 if

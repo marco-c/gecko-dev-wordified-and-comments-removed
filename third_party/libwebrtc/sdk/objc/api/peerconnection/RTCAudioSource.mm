@@ -73,8 +73,6 @@ RTC_DCHECK
 nativeAudioSource
 )
 ;
-if
-(
 self
 =
 [
@@ -89,6 +87,10 @@ type
 :
 RTCMediaSourceTypeAudio
 ]
+;
+if
+(
+self
 )
 {
 _nativeAudioSource
