@@ -677,7 +677,6 @@ nsIFile
 >
 NS_NewLocalFile
 aPath
-false
 )
 QM_PROPAGATE
 [

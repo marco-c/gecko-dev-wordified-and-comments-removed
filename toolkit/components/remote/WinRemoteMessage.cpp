@@ -221,7 +221,6 @@ Substring
 aBuffer
 cch
 )
-false
 getter_AddRefs
 (
 workingDir
@@ -462,7 +461,6 @@ nextNul
 pos
 )
 )
-false
 getter_AddRefs
 (
 workingDir

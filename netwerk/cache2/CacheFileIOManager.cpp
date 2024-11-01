@@ -6423,7 +6423,6 @@ nsDependentCString
 (
 cachePath
 )
-true
 getter_AddRefs
 (
 directory

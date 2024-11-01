@@ -1090,7 +1090,6 @@ mErrorResult
 NS_NewLocalFile
 (
 mDirectoryPath
-true
 getter_AddRefs
 (
 file

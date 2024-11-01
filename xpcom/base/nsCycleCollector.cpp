@@ -6757,7 +6757,6 @@ nsCString
 (
 env
 )
-true
 &
 logFile
 )

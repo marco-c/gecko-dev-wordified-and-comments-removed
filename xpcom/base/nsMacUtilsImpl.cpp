@@ -502,7 +502,6 @@ NS_ConvertUTF8toUTF16
 (
 appPath
 )
-true
 getter_AddRefs
 (
 app
@@ -1410,7 +1409,6 @@ NS_ConvertUTF8toUTF16
 (
 dirPath
 )
-false
 getter_AddRefs
 (
 dir

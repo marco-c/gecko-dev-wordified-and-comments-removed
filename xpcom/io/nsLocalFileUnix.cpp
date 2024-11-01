@@ -8427,7 +8427,6 @@ nsDependentCString
 (
 buffer
 )
-true
 getter_AddRefs
 (
 localFile
@@ -10773,8 +10772,6 @@ const
 nsACString
 &
 aPath
-bool
-aFollowSymlinks
 nsIFile
 *
 *
@@ -11335,8 +11332,6 @@ const
 nsAString
 &
 aPath
-bool
-aFollowLinks
 nsIFile
 *
 *
@@ -11371,7 +11366,6 @@ return
 NS_NewNativeLocalFile
 (
 buf
-aFollowLinks
 aResult
 )
 ;
@@ -13564,8 +13558,6 @@ const
 FSRef
 *
 aFSRef
-bool
-aFollowLinks
 nsILocalFileMac
 *
 *
@@ -13623,8 +13615,6 @@ NS_NewLocalFileWithCFURL
 const
 CFURLRef
 aURL
-bool
-aFollowLinks
 nsILocalFileMac
 *
 *

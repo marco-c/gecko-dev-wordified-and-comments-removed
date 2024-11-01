@@ -13980,8 +13980,6 @@ const
 nsAString
 &
 aPath
-bool
-aFollowLinks
 nsIFile
 *
 *
@@ -14678,8 +14676,6 @@ const
 nsACString
 &
 aPath
-bool
-aFollowLinks
 nsIFile
 *
 *
@@ -14719,7 +14715,6 @@ return
 NS_NewLocalFile
 (
 buf
-aFollowLinks
 aResult
 )
 ;

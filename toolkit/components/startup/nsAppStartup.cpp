@@ -4931,7 +4931,6 @@ rv
 NS_NewLocalFile
 (
 gAbsoluteArgv0Path
-true
 getter_AddRefs
 (
 execPath

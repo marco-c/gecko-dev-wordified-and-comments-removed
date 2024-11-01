@@ -8,13 +8,6 @@ h
 #
 include
 "
-plstr
-.
-h
-"
-#
-include
-"
 prlink
 .
 h
@@ -168,7 +161,6 @@ NS_ConvertUTF8toUTF16
 (
 path
 )
-true
 getter_AddRefs
 (
 file

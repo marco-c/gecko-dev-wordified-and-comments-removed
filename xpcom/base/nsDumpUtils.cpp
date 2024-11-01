@@ -1875,6 +1875,8 @@ if
 aFile
 )
 {
+if
+(
 char
 *
 env
@@ -1885,10 +1887,6 @@ PR_GetEnv
 DOWNLOADS_DIRECTORY
 "
 )
-;
-if
-(
-env
 )
 {
 NS_NewNativeLocalFile
@@ -1897,7 +1895,6 @@ nsCString
 (
 env
 )
-true
 aFile
 )
 ;

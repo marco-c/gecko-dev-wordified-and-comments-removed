@@ -294,7 +294,6 @@ nsDependentString
 (
 path
 )
-true
 aFile
 )
 ;
@@ -431,7 +430,6 @@ nsDependentString
 path
 len
 )
-true
 aFile
 )
 ;
@@ -543,7 +541,6 @@ rv
 NS_NewLocalFile
 (
 path
-false
 aFile
 )
 ;
@@ -776,7 +773,6 @@ nsDependentString
 path
 len
 )
-true
 aFile
 )
 ;
@@ -822,7 +818,6 @@ HOME
 "
 )
 )
-true
 aFile
 )
 ;
@@ -1020,7 +1015,6 @@ MOZ_TRY
 NS_NewNativeLocalFile
 (
 sysConfigDir
-true
 aFile
 )
 )
@@ -1875,7 +1869,6 @@ nsDependentCString
 (
 dir
 )
-true
 getter_AddRefs
 (
 file
@@ -2171,7 +2164,6 @@ nsDependentString
 (
 path
 )
-true
 aFile
 )
 ;
@@ -2207,7 +2199,6 @@ nsDependentCString
 (
 path
 )
-true
 aFile
 )
 ;
@@ -2253,7 +2244,6 @@ nsDependentString
 path
 len
 )
-true
 aFile
 )
 ;
@@ -2374,7 +2364,6 @@ nsDependentCString
 (
 tPath
 )
-true
 aFile
 )
 ;
@@ -2662,7 +2651,6 @@ return
 NS_NewLocalFile
 (
 path
-true
 aFile
 )
 ;
@@ -2736,7 +2724,6 @@ nsDependentString
 path
 len
 )
-true
 aFile
 )
 ;
@@ -2804,7 +2791,6 @@ nsDependentString
 path
 len
 )
-true
 aFile
 )
 ;
@@ -2915,7 +2901,6 @@ nsDependentString
 path
 len
 )
-true
 aFile
 )
 ;
@@ -3052,7 +3037,6 @@ nsDependentString
 path
 len
 )
-true
 aFile
 )
 ;
@@ -3334,7 +3318,6 @@ u
 "
 "
 _ns
-true
 aLocalFile
 )
 ;
@@ -3413,7 +3396,6 @@ u
 "
 "
 _ns
-true
 aLocalFile
 )
 ;

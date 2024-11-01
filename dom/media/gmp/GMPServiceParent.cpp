@@ -5819,7 +5819,6 @@ rv
 NS_NewLocalFile
 (
 aDirectory
-false
 getter_AddRefs
 (
 directory
@@ -6119,7 +6118,6 @@ rv
 NS_NewLocalFile
 (
 aDirectory
-false
 getter_AddRefs
 (
 directory

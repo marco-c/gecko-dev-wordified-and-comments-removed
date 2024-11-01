@@ -235,8 +235,6 @@ const
 nsAString
 &
 aPath
-bool
-aFollowLinks
 nsIFile
 *
 *
@@ -253,8 +251,6 @@ const
 nsACString
 &
 aPath
-bool
-aFollowLinks
 nsIFile
 *
 *
@@ -271,8 +267,6 @@ const
 NS_ConvertUTF16toUTF8
 &
 aPath
-bool
-aFollowLinks
 nsIFile
 *
 *

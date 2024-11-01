@@ -282,7 +282,6 @@ nsDependentCString
 (
 greHome
 )
-true
 getter_AddRefs
 (
 mXCurProcD

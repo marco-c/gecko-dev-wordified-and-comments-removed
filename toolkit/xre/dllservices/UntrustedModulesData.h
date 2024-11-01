@@ -1602,7 +1602,6 @@ NS_FAILED
 NS_NewLocalFile
 (
 resolvedDosName
-false
 getter_AddRefs
 (
 aResult

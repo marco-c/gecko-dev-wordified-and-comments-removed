@@ -1508,7 +1508,6 @@ nsDependentString
 (
 exePath
 )
-true
 getter_AddRefs
 (
 lf
@@ -1525,7 +1524,6 @@ nsDependentCString
 (
 exePath
 )
-true
 getter_AddRefs
 (
 lf

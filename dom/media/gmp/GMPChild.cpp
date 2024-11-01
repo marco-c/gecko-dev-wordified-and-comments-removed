@@ -1390,7 +1390,6 @@ rv
 NS_NewLocalFile
 (
 mPluginPath
-true
 getter_AddRefs
 (
 libFile
@@ -1746,7 +1745,6 @@ rv
 NS_NewLocalFile
 (
 mPluginPath
-true
 getter_AddRefs
 (
 libFile
@@ -2595,7 +2593,6 @@ NS_FAILED
 NS_NewLocalFile
 (
 str
-true
 getter_AddRefs
 (
 path

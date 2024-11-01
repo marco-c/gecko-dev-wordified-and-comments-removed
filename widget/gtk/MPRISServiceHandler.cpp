@@ -4217,7 +4217,6 @@ nsDependentCString
 (
 xdgDataHome
 )
-true
 getter_AddRefs
 (
 mLocalImageFolder

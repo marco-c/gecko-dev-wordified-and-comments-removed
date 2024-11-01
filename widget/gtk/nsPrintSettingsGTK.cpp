@@ -1248,7 +1248,6 @@ rv
 NS_NewLocalFile
 (
 aToFileName
-true
 getter_AddRefs
 (
 file

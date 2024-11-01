@@ -964,7 +964,6 @@ rv
 NS_NewLocalFile
 (
 fullpath
-true
 getter_AddRefs
 (
 file

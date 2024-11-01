@@ -2206,7 +2206,6 @@ rv
 NS_NewLocalFile
 (
 path
-true
 getter_AddRefs
 (
 localFile
@@ -10801,7 +10800,6 @@ aFileNames
 [
 i
 ]
-false
 getter_AddRefs
 (
 file
@@ -10953,7 +10951,6 @@ aRv
 NS_NewLocalFile
 (
 aDirectoryPath
-true
 getter_AddRefs
 (
 file
@@ -29497,7 +29494,6 @@ it
 get_nsString
 (
 )
-true
 getter_AddRefs
 (
 file

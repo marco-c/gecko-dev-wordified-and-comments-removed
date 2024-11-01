@@ -422,7 +422,6 @@ MOZ_TRY
 NS_NewLocalFile
 (
 aName
-true
 getter_AddRefs
 (
 file

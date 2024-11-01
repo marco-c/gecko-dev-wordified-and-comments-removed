@@ -4015,7 +4015,6 @@ Unused
 NS_NewLocalFile
 (
 fileName
-false
 getter_AddRefs
 (
 file

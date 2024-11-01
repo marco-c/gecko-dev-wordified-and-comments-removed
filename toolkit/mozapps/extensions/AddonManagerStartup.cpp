@@ -2459,7 +2459,6 @@ NS_SUCCEEDED
 NS_NewLocalFile
 (
 path
-false
 getter_AddRefs
 (
 file
@@ -2487,7 +2486,6 @@ mLocation
 Path
 (
 )
-false
 getter_AddRefs
 (
 file

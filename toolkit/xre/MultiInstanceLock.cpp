@@ -1251,7 +1251,6 @@ NS_NewLocalFileWithFSRef
 (
 &
 ref
-true
 getter_AddRefs
 (
 macFile

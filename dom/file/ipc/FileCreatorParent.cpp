@@ -404,7 +404,6 @@ rv
 NS_NewLocalFile
 (
 aPath
-true
 getter_AddRefs
 (
 file

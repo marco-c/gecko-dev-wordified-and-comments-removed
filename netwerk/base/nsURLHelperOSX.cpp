@@ -604,7 +604,6 @@ NS_NewNativeLocalFile
 "
 "
 _ns
-true
 getter_AddRefs
 (
 localFile

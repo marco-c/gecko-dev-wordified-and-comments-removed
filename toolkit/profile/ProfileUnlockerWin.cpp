@@ -808,7 +808,6 @@ nsDependentString
 imageName
 imageNameLen
 )
-false
 getter_AddRefs
 (
 otherProcessImageName
@@ -886,7 +885,6 @@ nsDependentString
 imageName
 imageNameLen
 )
-false
 getter_AddRefs
 (
 thisProcessImageName

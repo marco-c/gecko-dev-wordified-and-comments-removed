@@ -1420,7 +1420,6 @@ rv
 NS_NewNativeLocalFile
 (
 dirname
-false
 getter_AddRefs
 (
 localDir
@@ -2172,7 +2171,6 @@ nsDependentCString
 (
 sysLExtDir
 )
-false
 getter_AddRefs
 (
 file
@@ -2262,7 +2260,6 @@ rv
 NS_NewNativeLocalFile
 (
 path
-false
 getter_AddRefs
 (
 file
@@ -4447,7 +4444,6 @@ NS_NewLocalFileWithFSRef
 (
 &
 ref
-true
 getter_AddRefs
 (
 macFile
@@ -5506,7 +5502,6 @@ NS_NewNativeLocalFile
 "
 "
 _ns
-true
 getter_AddRefs
 (
 localDir
@@ -5580,7 +5575,6 @@ rv
 NS_NewNativeLocalFile
 (
 userDir
-true
 getter_AddRefs
 (
 localDir
@@ -5693,7 +5687,6 @@ rv
 NS_NewLocalFile
 (
 path
-true
 getter_AddRefs
 (
 localDir
@@ -5774,7 +5767,6 @@ nsDependentCString
 (
 cacheHome
 )
-true
 getter_AddRefs
 (
 localDir
@@ -5792,7 +5784,6 @@ nsDependentCString
 (
 homeDir
 )
-true
 getter_AddRefs
 (
 localDir
@@ -5832,7 +5823,6 @@ nsDependentCString
 (
 homeDir
 )
-true
 getter_AddRefs
 (
 localDir

@@ -885,7 +885,6 @@ NS_ConvertUTF8toUTF16
 (
 path
 )
-true
 getter_AddRefs
 (
 file

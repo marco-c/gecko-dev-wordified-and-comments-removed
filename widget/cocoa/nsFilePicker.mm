@@ -1667,7 +1667,7 @@ if
 result
 =
 =
-NSFileHandlingPanelCancelButton
+NSModalResponseCancel
 )
 return
 retVal
@@ -1705,7 +1705,6 @@ u
 "
 "
 _ns
-true
 getter_AddRefs
 (
 localFile
@@ -1945,7 +1944,7 @@ if
 result
 =
 =
-NSFileHandlingPanelCancelButton
+NSModalResponseCancel
 )
 return
 retVal
@@ -1981,7 +1980,6 @@ u
 "
 "
 _ns
-true
 getter_AddRefs
 (
 localFile
@@ -2327,7 +2325,7 @@ if
 result
 =
 =
-NSFileHandlingPanelCancelButton
+NSModalResponseCancel
 )
 return
 retVal
@@ -2382,7 +2380,6 @@ u
 "
 "
 _ns
-true
 getter_AddRefs
 (
 localFile
