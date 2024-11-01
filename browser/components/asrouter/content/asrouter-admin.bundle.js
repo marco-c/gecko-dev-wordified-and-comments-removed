@@ -5453,6 +5453,9 @@ cfr_doorhanger
 "
 feature_callout
 "
+"
+pb_newtab
+"
 ]
 .
 includes
