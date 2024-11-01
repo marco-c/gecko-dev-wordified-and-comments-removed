@@ -123,7 +123,7 @@ to
 true
 when
 building
-stadalone
+standalone
 WebRTC
 it
 is

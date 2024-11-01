@@ -100,10 +100,10 @@ BUILD
 .
 gn
 index
-2690a414d1
+e0d4870f17
 .
 .
-cbf153c024
+6b67d67b7c
 100644
 -
 -
@@ -126,10 +126,10 @@ BUILD
 .
 gn
 -
-1646
+1634
 6
 +
-1646
+1634
 7
 if
 (
@@ -168,10 +168,10 @@ openssl_adapter
 cc
 "
 -
-1696
+1684
 6
 +
-1697
+1685
 7
 rtc_library
 (
@@ -185,6 +185,8 @@ configs
 =
 [
 "
+.
+.
 :
 external_ssl_library
 "
