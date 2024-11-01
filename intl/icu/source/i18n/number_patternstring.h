@@ -71,8 +71,8 @@ h
 U_NAMESPACE_BEGIN
 namespace
 number
-:
-:
+{
+namespace
 impl
 {
 class
@@ -797,6 +797,7 @@ status
 ;
 }
 ;
+}
 }
 U_NAMESPACE_END
 #

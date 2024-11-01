@@ -420,15 +420,12 @@ wchar_t
 n
 "
 U_SIZEOF_WCHAR_T
-static_cast
-<
-int
->
 (
+int
+)
 sizeof
 (
 wchar_t
-)
 )
 )
 ;

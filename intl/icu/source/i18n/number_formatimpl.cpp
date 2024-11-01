@@ -1378,7 +1378,6 @@ nullptr
 }
 }
 auto
-*
 patternInfo
 =
 new
@@ -1461,7 +1460,6 @@ nullptr
 ;
 }
 auto
-*
 usagePrefsHandler
 =
 new
@@ -1506,7 +1504,6 @@ isMixedUnit
 )
 {
 auto
-*
 unitConversionHandler
 =
 new
@@ -1925,7 +1922,6 @@ NTN_SCIENTIFIC
 )
 {
 auto
-*
 newScientificHandler
 =
 new
@@ -1990,7 +1986,6 @@ emptyStrongModifier
 ;
 }
 auto
-*
 patternModifier
 =
 new
@@ -2612,7 +2607,6 @@ CompactType
 TYPE_DECIMAL
 ;
 auto
-*
 newCompactHandler
 =
 new

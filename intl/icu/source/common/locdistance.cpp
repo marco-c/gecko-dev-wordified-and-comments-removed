@@ -201,12 +201,12 @@ nullptr
 )
 ;
 const
-LikelySubtags
+XLikelySubtags
 &
 likely
 =
 *
-LikelySubtags
+XLikelySubtags
 :
 :
 getSingleton
@@ -358,7 +358,7 @@ LocaleDistanceData
 &
 data
 const
-LikelySubtags
+XLikelySubtags
 &
 likely
 )
@@ -1944,7 +1944,7 @@ next
 ;
 }
 }
-bool
+UBool
 LocaleDistance
 :
 :

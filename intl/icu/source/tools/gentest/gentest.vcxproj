@@ -492,6 +492,14 @@ Default
 CompileAs
 >
 <
+DisableLanguageExtensions
+>
+true
+<
+/
+DisableLanguageExtensions
+>
+<
 AdditionalIncludeDirectories
 >
 .

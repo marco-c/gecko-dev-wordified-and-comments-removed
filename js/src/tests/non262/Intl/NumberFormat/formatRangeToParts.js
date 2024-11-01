@@ -396,8 +396,6 @@ Integer
 }
 "
 ar
--
-EG
 "
 :
 {

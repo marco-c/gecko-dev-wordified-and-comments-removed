@@ -388,7 +388,7 @@ endif
 U_NAMESPACE_END
 #
 endif
-U_CAPI
+U_CFUNC
 UBool
 uprv_isEbcdicAtSign
 (

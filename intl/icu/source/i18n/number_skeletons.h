@@ -50,8 +50,8 @@ h
 U_NAMESPACE_BEGIN
 namespace
 number
-:
-:
+{
+namespace
 impl
 {
 struct
@@ -1197,6 +1197,7 @@ return
 \
 }
 UPRV_BLOCK_MACRO_END
+}
 }
 }
 U_NAMESPACE_END

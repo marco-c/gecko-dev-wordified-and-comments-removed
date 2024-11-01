@@ -182,10 +182,9 @@ remainingMatchLength_
 kState64RemainingShift
 )
 |
-static_cast
-<
+(
 uint64_t
->
+)
 (
 pos_
 -
@@ -925,10 +924,9 @@ node
 )
 {
 return
-static_cast
-<
+(
 UStringTrieResult
->
+)
 (
 USTRINGTRIE_INTERMEDIATE_VALUE
 -

@@ -43,8 +43,8 @@ h
 U_NAMESPACE_BEGIN
 namespace
 numparse
-:
-:
+{
+namespace
 impl
 {
 class
@@ -597,6 +597,7 @@ fAllowTrailing
 ;
 }
 ;
+}
 }
 U_NAMESPACE_END
 #

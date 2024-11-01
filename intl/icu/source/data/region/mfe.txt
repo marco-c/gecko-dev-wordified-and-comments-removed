@@ -627,6 +627,15 @@ IN
 Lenn
 "
 }
+IO
+{
+"
+Teritwar
+Britanik
+Losean
+Indien
+"
+}
 IQ
 {
 "

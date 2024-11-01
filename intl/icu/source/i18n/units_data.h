@@ -99,9 +99,6 @@ factor
 offset
 (
 )
-specialMappingName
-(
-)
 {
 this
 -
@@ -159,12 +156,6 @@ factor
 ;
 CharString
 offset
-;
-CharString
-specialMappingName
-;
-CharString
-systems
 ;
 }
 ;

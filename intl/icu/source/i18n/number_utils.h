@@ -99,8 +99,8 @@ h
 U_NAMESPACE_BEGIN
 namespace
 number
-:
-:
+{
+namespace
 impl
 {
 enum
@@ -429,6 +429,7 @@ rules
 copy
 )
 ;
+}
 }
 }
 }

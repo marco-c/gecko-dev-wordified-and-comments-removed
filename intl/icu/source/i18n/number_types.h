@@ -109,8 +109,8 @@ h
 U_NAMESPACE_BEGIN
 namespace
 number
-:
-:
+{
+namespace
 impl
 {
 typedef
@@ -551,7 +551,7 @@ const
 ;
 virtual
 bool
-strictEquals
+semanticallyEquivalent
 (
 const
 Modifier
@@ -561,16 +561,6 @@ other
 const
 =
 0
-;
-bool
-semanticallyEquivalent
-(
-const
-Modifier
-&
-other
-)
-const
 ;
 }
 ;
@@ -904,6 +894,7 @@ fValue
 ;
 }
 ;
+}
 }
 U_NAMESPACE_END
 #

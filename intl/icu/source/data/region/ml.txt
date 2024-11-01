@@ -996,9 +996,7 @@ MN
 MO
 {
 "
-.
-.
-.
+SAR
 "
 }
 MP
@@ -1543,16 +1541,6 @@ ZW
 "
 }
 ZZ
-{
-"
-"
-}
-}
-Countries
-%
-chagos
-{
-IO
 {
 "
 "

@@ -509,6 +509,7 @@ UClassID
 U_EXPORT2
 getStaticClassID
 (
+void
 )
 ;
 private
@@ -875,7 +876,7 @@ PtnSkeleton
 *
 specifiedSkeletonPtr
 =
-nullptr
+0
 )
 ;
 UnicodeString

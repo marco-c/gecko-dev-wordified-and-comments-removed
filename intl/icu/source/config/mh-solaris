@@ -82,7 +82,7 @@ Reserved
 Flags
 for
 ICU
-75
+59
 +
 CXXFLAGS
 +
@@ -93,7 +93,7 @@ std
 c
 +
 +
-17
+11
 CFLAGS
 +
 =

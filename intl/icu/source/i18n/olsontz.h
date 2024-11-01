@@ -594,15 +594,12 @@ transIdx
 const
 {
 return
-static_cast
-<
-double
->
 (
+double
+)
 transitionTimeInSeconds
 (
 transIdx
-)
 )
 *
 U_MILLIS_PER_SECOND

@@ -158,6 +158,7 @@ virtual
 ~
 StringSearch
 (
+void
 )
 ;
 StringSearch
@@ -208,6 +209,7 @@ virtual
 int32_t
 getOffset
 (
+void
 )
 const
 override

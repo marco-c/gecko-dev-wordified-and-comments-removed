@@ -675,6 +675,8 @@ status
 U_UNSUPPORTED_ERROR
 ;
 }
+return
+;
 }
 U_DEPRECATED
 void
@@ -708,4 +710,6 @@ status
 U_UNSUPPORTED_ERROR
 ;
 }
+return
+;
 }

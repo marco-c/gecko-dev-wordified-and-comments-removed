@@ -297,10 +297,9 @@ ce
 )
 {
 return
-static_cast
-<
+(
 uint32_t
->
+)
 (
 ce
 >

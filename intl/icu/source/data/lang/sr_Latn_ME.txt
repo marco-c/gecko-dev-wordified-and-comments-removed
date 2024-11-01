@@ -122,6 +122,14 @@ ni
 ilha
 "
 }
+tzm
+{
+"
+centralnoatlaski
+tama
+ek
+"
+}
 xh
 {
 "

@@ -637,6 +637,9 @@ do
 *
 str
 =
+(
+char
+)
 uprv_tolower
 (
 *
@@ -684,6 +687,9 @@ do
 *
 str
 =
+(
+char
+)
 uprv_toupper
 (
 *

@@ -521,7 +521,7 @@ Ikirusiya
 rw
 {
 "
-Ikinyarwanda
+Kinyarwanda
 "
 }
 sa
@@ -698,15 +698,6 @@ zu
 {
 "
 Inyezulu
-"
-}
-}
-Scripts
-{
-Latn
-{
-"
-Latin
 "
 }
 }

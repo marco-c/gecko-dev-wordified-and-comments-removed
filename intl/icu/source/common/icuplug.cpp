@@ -3362,7 +3362,7 @@ pluginFile
 ;
 #
 ifdef
-ICU_PLUGINS_DD
+OS390BATCH
 pluginFile
 .
 append

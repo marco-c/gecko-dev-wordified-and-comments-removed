@@ -219,8 +219,9 @@ number
 }
 }
 return
-{
-}
+UnicodeString
+(
+)
 ;
 }
 }

@@ -1133,6 +1133,17 @@ India
 nutome
 "
 }
+IO
+{
+"
+Britaint
+wo
+e
+india
+udome
+nutome
+"
+}
 IQ
 {
 "

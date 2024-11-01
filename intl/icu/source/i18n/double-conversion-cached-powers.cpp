@@ -53,8 +53,8 @@ h
 U_NAMESPACE_BEGIN
 namespace
 double_conversion
-:
-:
+{
+namespace
 PowersOfTenCache
 {
 struct
@@ -1199,6 +1199,7 @@ found_exponent
 kDecimalExponentDistance
 )
 ;
+}
 }
 }
 U_NAMESPACE_END

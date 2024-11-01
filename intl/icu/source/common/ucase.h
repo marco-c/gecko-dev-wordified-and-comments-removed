@@ -628,7 +628,6 @@ UTrie2
 U_EXPORT2
 ucase_getTrie
 (
-void
 )
 ;
 #

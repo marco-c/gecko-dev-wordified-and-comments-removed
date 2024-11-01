@@ -728,13 +728,10 @@ length
 1
 ]
 =
-static_cast
-<
-uint16_t
->
 (
-last
+uint16_t
 )
+last
 ;
 }
 int32_t

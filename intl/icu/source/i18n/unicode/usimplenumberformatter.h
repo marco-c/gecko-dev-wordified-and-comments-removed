@@ -35,6 +35,9 @@ unumberoptions
 .
 h
 "
+#
+ifndef
+U_HIDE_DRAFT_API
 typedef
 enum
 USimpleNumberSign
@@ -151,13 +154,10 @@ UErrorCode
 ec
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 U_CAPI
 void
 U_EXPORT2
-usnum_setMaximumIntegerDigits
+usnum_truncateStart
 (
 USimpleNumber
 *
@@ -169,8 +169,6 @@ UErrorCode
 ec
 )
 ;
-#
-endif
 U_CAPI
 void
 U_EXPORT2
@@ -296,6 +294,8 @@ usnumf_close
 )
 ;
 U_NAMESPACE_END
+#
+endif
 #
 endif
 #

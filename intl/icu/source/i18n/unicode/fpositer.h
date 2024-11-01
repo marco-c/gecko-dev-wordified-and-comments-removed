@@ -73,6 +73,7 @@ FieldPositionIterator
 ;
 FieldPositionIterator
 (
+void
 )
 ;
 FieldPositionIterator

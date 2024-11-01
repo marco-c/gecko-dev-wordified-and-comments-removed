@@ -193,7 +193,7 @@ direction
 )
 const
 ;
-bool
+UBool
 isParadigmLSR
 (
 const
@@ -276,7 +276,7 @@ LocaleDistanceData
 &
 data
 const
-LikelySubtags
+XLikelySubtags
 &
 likely
 )
@@ -313,7 +313,7 @@ UErrorCode
 errorCode
 )
 ;
-bool
+UBool
 isMatch
 (
 const
@@ -461,7 +461,7 @@ defaultRegionDistance
 ;
 }
 const
-LikelySubtags
+XLikelySubtags
 &
 likelySubtags
 ;

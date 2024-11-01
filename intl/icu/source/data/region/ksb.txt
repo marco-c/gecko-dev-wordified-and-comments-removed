@@ -616,6 +616,17 @@ IN
 India
 "
 }
+IO
+{
+"
+Eneo
+ja
+Uingeeza
+mwe
+Bahali
+Hindi
+"
+}
 IQ
 {
 "

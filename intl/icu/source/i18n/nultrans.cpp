@@ -40,7 +40,7 @@ Any
 Null
 "
 )
-nullptr
+0
 )
 {
 }

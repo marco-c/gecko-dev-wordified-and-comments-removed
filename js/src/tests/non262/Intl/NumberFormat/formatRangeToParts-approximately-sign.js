@@ -74,9 +74,6 @@ approximatelySigns
 =
 [
 "
--
-"
-"
 ~
 "
 "

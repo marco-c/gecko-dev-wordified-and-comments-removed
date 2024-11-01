@@ -34,8 +34,8 @@ h
 U_NAMESPACE_BEGIN
 namespace
 number
-:
-:
+{
+namespace
 impl
 {
 namespace
@@ -545,6 +545,7 @@ UErrorCode
 status
 )
 ;
+}
 }
 U_NAMESPACE_END
 #

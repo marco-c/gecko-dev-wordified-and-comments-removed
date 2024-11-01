@@ -1887,13 +1887,10 @@ if
 number
 &
 (
-static_cast
-<
-int64_t
->
 (
-1
+int64_t
 )
+1
 <
 <
 kSignificandSize

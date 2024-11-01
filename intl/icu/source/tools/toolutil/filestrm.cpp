@@ -103,7 +103,7 @@ if
 fileStream
 !
 =
-nullptr
+0
 )
 fclose
 (
@@ -524,7 +524,7 @@ return
 fileStream
 =
 =
-nullptr
+0
 |
 |
 ferror

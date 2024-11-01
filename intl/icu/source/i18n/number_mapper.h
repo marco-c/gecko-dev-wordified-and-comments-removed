@@ -74,8 +74,8 @@ endif
 U_NAMESPACE_BEGIN
 namespace
 number
-:
-:
+{
+namespace
 impl
 {
 class
@@ -526,9 +526,7 @@ status
 {
 if
 (
-const
 auto
-*
 ptr
 =
 dynamic_cast
@@ -551,9 +549,7 @@ ptr
 else
 if
 (
-const
 auto
-*
 ptr
 =
 dynamic_cast
@@ -880,6 +876,7 @@ status
 ;
 }
 ;
+}
 }
 U_NAMESPACE_END
 #

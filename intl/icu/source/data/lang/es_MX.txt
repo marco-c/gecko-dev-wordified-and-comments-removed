@@ -283,6 +283,12 @@ kum
 cumuco
 "
 }
+lo
+{
+"
+lao
+"
+}
 mga
 {
 "

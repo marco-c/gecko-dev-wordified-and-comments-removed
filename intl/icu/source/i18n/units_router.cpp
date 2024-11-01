@@ -434,8 +434,6 @@ nullptr
 ;
 const
 auto
-*
-const
 preference
 =
 unitPrefs

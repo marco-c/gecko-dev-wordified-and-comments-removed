@@ -109,6 +109,7 @@ h
 U_NAMESPACE_BEGIN
 namespace
 {
+static
 const
 CollationCacheEntry
 *
@@ -116,6 +117,7 @@ rootSingleton
 =
 nullptr
 ;
+static
 UInitOnce
 initOnce
 {

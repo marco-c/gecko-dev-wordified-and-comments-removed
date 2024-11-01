@@ -720,6 +720,7 @@ GY
 HK
 {
 "
+SAR
 "
 }
 HM
@@ -992,6 +993,7 @@ MN
 MO
 {
 "
+SAR
 "
 }
 MP
@@ -1534,16 +1536,6 @@ ZW
 "
 }
 ZZ
-{
-"
-"
-}
-}
-Countries
-%
-chagos
-{
-IO
 {
 "
 "

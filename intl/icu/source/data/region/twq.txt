@@ -625,6 +625,16 @@ Indu
 laboo
 "
 }
+IO
+{
+"
+Briti
+i
+Indu
+teekoo
+laama
+"
+}
 IQ
 {
 "

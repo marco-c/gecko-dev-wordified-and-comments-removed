@@ -662,7 +662,7 @@ pErrorCode
 )
 {
 return
-nullptr
+0
 ;
 }
 if
@@ -702,7 +702,7 @@ pErrorCode
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-nullptr
+0
 ;
 }
 if
@@ -724,7 +724,7 @@ pErrorCode
 U_INVALID_FORMAT_ERROR
 ;
 return
-nullptr
+0
 ;
 }
 header
@@ -753,7 +753,7 @@ pErrorCode
 U_INVALID_FORMAT_ERROR
 ;
 return
-nullptr
+0
 ;
 }
 if
@@ -780,7 +780,7 @@ pErrorCode
 U_INVALID_FORMAT_ERROR
 ;
 return
-nullptr
+0
 ;
 }
 uprv_memset
@@ -932,7 +932,7 @@ pErrorCode
 U_INVALID_FORMAT_ERROR
 ;
 return
-nullptr
+0
 ;
 }
 trie
@@ -963,7 +963,7 @@ pErrorCode
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-nullptr
+0
 ;
 }
 uprv_memcpy
@@ -1158,7 +1158,7 @@ pErrorCode
 U_INVALID_FORMAT_ERROR
 ;
 return
-nullptr
+0
 ;
 }
 if
@@ -1231,7 +1231,7 @@ pErrorCode
 )
 {
 return
-nullptr
+0
 ;
 }
 if
@@ -1253,7 +1253,7 @@ pErrorCode
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-nullptr
+0
 ;
 }
 indexLength
@@ -1334,7 +1334,7 @@ pErrorCode
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-nullptr
+0
 ;
 }
 uprv_memset
@@ -1379,7 +1379,7 @@ pErrorCode
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-nullptr
+0
 ;
 }
 trie
@@ -1882,7 +1882,7 @@ pErrorCode
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-nullptr
+0
 ;
 }
 return
@@ -1990,6 +1990,10 @@ trie
 )
 {
 return
+(
+UBool
+)
+(
 trie
 -
 >
@@ -1997,6 +2001,7 @@ newTrie
 =
 =
 nullptr
+)
 ;
 }
 U_CAPI
@@ -2698,18 +2703,15 @@ nullptr
 {
 block
 =
-static_cast
-<
-int32_t
->
 (
+int32_t
+)
 idx
 [
 i2Block
 +
 i2
 ]
-)
 <
 <
 UTRIE2_INDEX_SHIFT

@@ -803,6 +803,8 @@ pParaBiDi
 =
 pParaBiDi
 ;
+return
+;
 }
 U_CAPI
 UBiDiLevel

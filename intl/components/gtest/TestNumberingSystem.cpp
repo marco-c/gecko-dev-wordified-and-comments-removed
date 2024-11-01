@@ -86,8 +86,6 @@ TryCreate
 (
 "
 ar
--
-EG
 "
 )
 .

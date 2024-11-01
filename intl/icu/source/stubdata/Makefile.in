@@ -1115,9 +1115,9 @@ endif
 ifeq
 (
 (
-BUILD_HOST_ICU
+OS390BATCH
 )
-OS390
+1
 )
 (
 BATCH_STUB_TARGET
@@ -1142,6 +1142,8 @@ OUTOPT
 LIBS
 )
 endif
+#
+OS390BATCH
 endif
 #
 ENABLE_SHARED

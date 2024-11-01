@@ -93,12 +93,6 @@ CW
 Curacao
 "
 }
-IN
-{
-"
-Bharat
-"
-}
 KN
 {
 "

@@ -1355,10 +1355,9 @@ pos
 UBool
 isFinal
 =
-static_cast
-<
+(
 UBool
->
+)
 (
 node
 >
@@ -1583,10 +1582,9 @@ else
 UBool
 isFinal
 =
-static_cast
-<
+(
 UBool
->
+)
 (
 node
 >

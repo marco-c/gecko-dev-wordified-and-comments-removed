@@ -227,6 +227,7 @@ virtual
 int32_t
 getRawOffset
 (
+void
 )
 const
 override
@@ -235,6 +236,7 @@ virtual
 UBool
 useDaylightTime
 (
+void
 )
 const
 override
@@ -363,11 +365,13 @@ private
 void
 deleteRules
 (
+void
 )
 ;
 void
 deleteTransitions
 (
+void
 )
 ;
 UVector
@@ -527,12 +531,14 @@ UClassID
 U_EXPORT2
 getStaticClassID
 (
+void
 )
 ;
 virtual
 UClassID
 getDynamicClassID
 (
+void
 )
 const
 override

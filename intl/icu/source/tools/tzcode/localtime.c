@@ -8252,9 +8252,14 @@ tmp
 >
 tm_mday
 =
+(
+int
+)
+(
 idays
 +
 1
+)
 ;
 tmp
 -

@@ -69,8 +69,8 @@ h
 U_NAMESPACE_BEGIN
 namespace
 number
-:
-:
+{
+namespace
 impl
 {
 class
@@ -176,7 +176,7 @@ const
 override
 ;
 bool
-strictEquals
+semanticallyEquivalent
 (
 const
 Modifier
@@ -305,7 +305,7 @@ const
 override
 ;
 bool
-strictEquals
+semanticallyEquivalent
 (
 const
 Modifier
@@ -541,7 +541,7 @@ const
 override
 ;
 bool
-strictEquals
+semanticallyEquivalent
 (
 const
 Modifier
@@ -862,7 +862,7 @@ nullptr
 ;
 }
 bool
-strictEquals
+semanticallyEquivalent
 (
 const
 Modifier
@@ -1243,6 +1243,7 @@ COUNT
 ;
 }
 ;
+}
 }
 U_NAMESPACE_END
 #

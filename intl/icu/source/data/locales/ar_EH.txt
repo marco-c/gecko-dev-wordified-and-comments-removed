@@ -62,11 +62,5 @@ default
 latn
 "
 }
-default_latn
-{
-"
-latn
-"
-}
 }
 }

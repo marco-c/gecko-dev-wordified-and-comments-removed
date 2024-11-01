@@ -69,8 +69,8 @@ DECNUM_INITIAL_CAPACITY
 endif
 namespace
 number
-:
-:
+{
+namespace
 impl
 {
 class
@@ -301,6 +301,7 @@ status
 ;
 }
 ;
+}
 }
 U_NAMESPACE_END
 #

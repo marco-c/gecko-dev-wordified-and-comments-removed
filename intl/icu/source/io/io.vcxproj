@@ -545,6 +545,14 @@ PreprocessorDefinitions
 PreprocessorDefinitions
 >
 <
+DisableLanguageExtensions
+>
+false
+<
+/
+DisableLanguageExtensions
+>
+<
 WarningLevel
 >
 Level3

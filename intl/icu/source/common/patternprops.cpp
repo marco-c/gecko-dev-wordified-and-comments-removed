@@ -495,6 +495,9 @@ c
 {
 return
 (
+UBool
+)
+(
 latin1
 [
 c
@@ -548,6 +551,10 @@ c
 ;
 return
 (
+UBool
+)
+(
+(
 bits
 >
 >
@@ -559,6 +566,7 @@ c
 )
 &
 1
+)
 ;
 }
 else
@@ -627,12 +635,17 @@ c
 )
 {
 return
+(
+UBool
+)
+(
 latin1
 [
 c
 ]
 &
 1
+)
 ;
 }
 else
@@ -676,6 +689,10 @@ c
 ;
 return
 (
+UBool
+)
+(
+(
 bits
 >
 >
@@ -687,6 +704,7 @@ c
 )
 &
 1
+)
 ;
 }
 else
@@ -755,6 +773,9 @@ c
 )
 {
 return
+(
+UBool
+)
 (
 latin1
 [

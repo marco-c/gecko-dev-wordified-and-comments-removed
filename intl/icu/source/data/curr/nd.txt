@@ -525,15 +525,6 @@ laseSt
 Helena
 "
 }
-SLE
-{
-"
-SLE
-"
-"
-Leyoni
-"
-}
 SLL
 {
 "
@@ -541,10 +532,6 @@ SLL
 "
 "
 Leyoni
-(
-1964
-2022
-)
 "
 }
 SOS

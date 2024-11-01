@@ -717,10 +717,7 @@ override
 private
 :
 int32_t
-pos
-;
-int32_t
-size
+index
 ;
 const
 TransliteratorRegistry
@@ -744,7 +741,7 @@ specDAG
 UVector
 variantList
 ;
-Hashtable
+UVector
 availableIDs
 ;
 TransliteratorRegistry

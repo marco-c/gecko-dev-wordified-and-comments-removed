@@ -190,6 +190,16 @@ Ocean
 a
 "
 }
+TA
+{
+"
+Trist
+n
+de
+Acu
+a
+"
+}
 UM
 {
 "

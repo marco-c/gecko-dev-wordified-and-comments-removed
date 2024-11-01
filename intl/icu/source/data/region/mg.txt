@@ -628,6 +628,14 @@ IN
 Indy
 "
 }
+IO
+{
+"
+Faridranomasina
+indiana
+britanika
+"
+}
 IQ
 {
 "

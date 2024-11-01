@@ -66,8 +66,8 @@ h
 U_NAMESPACE_BEGIN
 namespace
 number
-:
-:
+{
+namespace
 impl
 {
 enum
@@ -444,6 +444,7 @@ type
 }
 }
 ;
+}
 }
 U_NAMESPACE_END
 #

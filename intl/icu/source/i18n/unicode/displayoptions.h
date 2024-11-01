@@ -39,6 +39,9 @@ uversion
 h
 "
 U_NAMESPACE_BEGIN
+#
+ifndef
+U_HIDE_DRAFT_API
 class
 U_I18N_API
 DisplayOptions
@@ -396,6 +399,8 @@ substituteHandling
 ;
 }
 ;
+#
+endif
 U_NAMESPACE_END
 #
 endif

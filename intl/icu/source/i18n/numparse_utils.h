@@ -36,11 +36,11 @@ h
 U_NAMESPACE_BEGIN
 namespace
 numparse
-:
-:
+{
+namespace
 impl
-:
-:
+{
+namespace
 utils
 {
 inline
@@ -173,6 +173,8 @@ dest
 =
 0
 ;
+}
+}
 }
 }
 U_NAMESPACE_END

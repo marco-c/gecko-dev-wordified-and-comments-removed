@@ -607,16 +607,6 @@ Hel
 ena
 "
 }
-SLE
-{
-"
-SLE
-"
-"
-Le
-oni
-"
-}
 SLL
 {
 "
@@ -625,10 +615,6 @@ SLL
 "
 Le
 oni
-(
-1964
-2022
-)
 "
 }
 SOS

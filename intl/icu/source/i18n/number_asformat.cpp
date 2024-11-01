@@ -153,7 +153,6 @@ other
 )
 const
 {
-const
 auto
 *
 _other

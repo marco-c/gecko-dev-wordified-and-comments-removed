@@ -220,16 +220,6 @@ EC
 XCD
 "
 }
-XCG
-{
-"
-Cg
-.
-"
-"
-XCG
-"
-}
 XOF
 {
 "
@@ -514,11 +504,6 @@ JMD
 "
 }
 JPY
-{
-"
-"
-}
-KGS
 {
 "
 "
@@ -834,7 +819,7 @@ other
 Version
 {
 "
-46
+43
 "
 }
 currencySpacing

@@ -162,11 +162,10 @@ ks
 cachemiro
 "
 }
-lij
+lo
 {
 "
-genov
-s
+laosiano
 "
 }
 ml
@@ -280,13 +279,6 @@ tyv
 {
 "
 tuvano
-"
-}
-vec
-{
-"
-v
-neto
 "
 }
 wal

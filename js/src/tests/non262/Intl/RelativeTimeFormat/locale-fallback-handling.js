@@ -6,7 +6,7 @@ Intl
 RelativeTimeFormat
 (
 "
-haw
+ak
 "
 )
 .

@@ -416,6 +416,7 @@ UClassID
 U_EXPORT2
 getStaticClassID
 (
+void
 )
 ;
 virtual

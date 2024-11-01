@@ -34,8 +34,8 @@ h
 U_NAMESPACE_BEGIN
 namespace
 number
-:
-:
+{
+namespace
 impl
 {
 class
@@ -198,6 +198,7 @@ none
 (
 )
 ;
+}
 }
 }
 }

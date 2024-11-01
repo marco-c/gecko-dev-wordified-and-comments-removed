@@ -1889,9 +1889,7 @@ suite
 =
 unittest
 .
-defaultTestLoader
-.
-loadTestsFromTestCase
+makeSuite
 (
 FiltrationTest
 )

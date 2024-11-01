@@ -1024,6 +1024,15 @@ IN
 India
 "
 }
+IO
+{
+"
+Tiriad
+breizhveurat
+Meurvor
+Indez
+"
+}
 IQ
 {
 "

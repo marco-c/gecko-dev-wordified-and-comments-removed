@@ -78,7 +78,7 @@ fResource
 =
 ures_open
 (
-nullptr
+0
 Locale
 :
 :
@@ -130,7 +130,7 @@ fResource
 =
 ures_copyResb
 (
-nullptr
+0
 other
 .
 fResource
@@ -177,7 +177,7 @@ fResource
 =
 ures_copyResb
 (
-nullptr
+0
 res
 &
 err
@@ -266,7 +266,7 @@ if
 fResource
 !
 =
-nullptr
+0
 )
 {
 ures_close
@@ -311,7 +311,7 @@ fResource
 =
 ures_copyResb
 (
-nullptr
+0
 other
 .
 fResource
@@ -345,7 +345,7 @@ if
 fResource
 !
 =
-nullptr
+0
 )
 {
 ures_close
@@ -354,9 +354,20 @@ fResource
 )
 ;
 }
-delete
+if
+(
 fLocale
+!
+=
+nullptr
+)
+{
+delete
+(
+fLocale
+)
 ;
+}
 }
 ResourceBundle
 *
@@ -695,7 +706,7 @@ ures_getNextString
 fResource
 &
 len
-nullptr
+0
 &
 status
 )

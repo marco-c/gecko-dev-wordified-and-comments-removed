@@ -451,15 +451,6 @@ UCONFIG_NO_FORMATTING
 endif
 #
 ifndef
-UCONFIG_NO_MF2
-#
-define
-UCONFIG_NO_MF2
-0
-#
-endif
-#
-ifndef
 UCONFIG_NO_TRANSLITERATION
 #
 define

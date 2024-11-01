@@ -100,7 +100,7 @@ isNumeric
 adoptedUnit
 =
 =
-nullptr
+0
 )
 )
 {

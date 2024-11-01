@@ -80,6 +80,17 @@ dnam
 }
 }
 }
+unitsNarrow
+{
+coordinate
+{
+dnam
+{
+"
+"
+}
+}
+}
 unitsShort
 {
 coordinate

@@ -455,6 +455,7 @@ DateFormat
 U_EXPORT2
 createInstance
 (
+void
 )
 ;
 static
@@ -624,6 +625,7 @@ virtual
 UBool
 isLenient
 (
+void
 )
 const
 ;
@@ -639,6 +641,7 @@ virtual
 UBool
 isCalendarLenient
 (
+void
 )
 const
 ;
@@ -656,6 +659,7 @@ Calendar
 *
 getCalendar
 (
+void
 )
 const
 ;
@@ -684,6 +688,7 @@ NumberFormat
 *
 getNumberFormat
 (
+void
 )
 const
 ;
@@ -712,6 +717,7 @@ TimeZone
 &
 getTimeZone
 (
+void
 )
 const
 ;

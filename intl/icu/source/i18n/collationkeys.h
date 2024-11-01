@@ -165,13 +165,10 @@ buffer_
 appended_
 ]
 =
-static_cast
-<
-char
->
 (
-b
+char
 )
+b
 ;
 }
 +

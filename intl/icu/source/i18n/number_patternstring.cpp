@@ -329,8 +329,9 @@ end
 )
 {
 return
-{
-}
+UnicodeString
+(
+)
 ;
 }
 return
@@ -4214,7 +4215,7 @@ digitsStringScale
 ;
 incrementQuantity
 .
-increaseMinIntegerTo
+setMinInteger
 (
 minInt
 -

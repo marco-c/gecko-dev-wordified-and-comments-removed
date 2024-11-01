@@ -164,10 +164,9 @@ idx
 const
 {
 return
-static_cast
-<
+(
 int32_t
->
+)
 (
 maxBytes
 [

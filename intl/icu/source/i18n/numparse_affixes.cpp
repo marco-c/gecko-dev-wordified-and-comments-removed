@@ -89,6 +89,7 @@ impl
 ;
 namespace
 {
+static
 bool
 matched
 (
@@ -137,6 +138,7 @@ patternString
 )
 ;
 }
+static
 int32_t
 length
 (
@@ -166,6 +168,7 @@ length
 )
 ;
 }
+static
 bool
 equals
 (

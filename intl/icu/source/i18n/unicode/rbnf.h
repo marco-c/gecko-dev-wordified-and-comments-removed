@@ -122,15 +122,8 @@ URBNFRuleSetTag
 {
 URBNF_SPELLOUT
 URBNF_ORDINAL
-#
-ifndef
-U_HIDE_DEPRECATED_API
 URBNF_DURATION
-#
-endif
 URBNF_NUMBERING_SYSTEM
-=
-3
 #
 ifndef
 U_HIDE_DEPRECATED_API
@@ -308,6 +301,7 @@ virtual
 int32_t
 getNumberOfRuleSetDisplayNameLocales
 (
+void
 )
 const
 ;
@@ -563,6 +557,7 @@ inline
 UBool
 isLenient
 (
+void
 )
 const
 override
@@ -605,6 +600,7 @@ virtual
 ERoundingMode
 getRoundingMode
 (
+void
 )
 const
 override
@@ -625,12 +621,14 @@ UClassID
 U_EXPORT2
 getStaticClassID
 (
+void
 )
 ;
 virtual
 UClassID
 getDynamicClassID
 (
+void
 )
 const
 override
@@ -971,6 +969,7 @@ RuleBasedNumberFormat
 :
 isLenient
 (
+void
 )
 const
 {

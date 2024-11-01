@@ -493,15 +493,6 @@ Helena
 Fra
 "
 }
-SLE
-{
-"
-SLE
-"
-"
-Leeon
-"
-}
 SLL
 {
 "
@@ -509,10 +500,6 @@ SLL
 "
 "
 Leeon
-(
-1964
-2022
-)
 "
 }
 SOS

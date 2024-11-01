@@ -124,6 +124,16 @@ zh_Hans
 }
 Languages
 %
+menu
+{
+ckb
+{
+"
+"
+}
+}
+Languages
+%
 variant
 {
 ckb

@@ -41,7 +41,7 @@ UnicodeFilter
 *
 adoptedFilter
 =
-nullptr
+0
 )
 ;
 virtual

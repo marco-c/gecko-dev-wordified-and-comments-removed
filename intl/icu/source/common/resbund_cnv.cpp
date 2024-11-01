@@ -148,13 +148,10 @@ nullTerminatedPath
 .
 append
 (
-static_cast
-<
-char16_t
->
 (
-0
+char16_t
 )
+0
 )
 ;
 fResource

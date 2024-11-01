@@ -64,8 +64,8 @@ h
 U_NAMESPACE_BEGIN
 namespace
 number
-:
-:
+{
+namespace
 impl
 {
 static
@@ -357,6 +357,7 @@ status
 ;
 }
 ;
+}
 }
 U_NAMESPACE_END
 #

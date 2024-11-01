@@ -174,6 +174,7 @@ const
 int32_t
 getField
 (
+void
 )
 const
 {
@@ -184,6 +185,7 @@ fField
 int32_t
 getBeginIndex
 (
+void
 )
 const
 {
@@ -194,6 +196,7 @@ fBeginIndex
 int32_t
 getEndIndex
 (
+void
 )
 const
 {

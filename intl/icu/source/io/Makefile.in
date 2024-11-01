@@ -390,9 +390,9 @@ endif
 ifeq
 (
 (
-BUILD_HOST_ICU
+OS390BATCH
 )
-OS390
+1
 )
 BATCH_TARGET
 =
@@ -410,6 +410,8 @@ BATCH_LIBICUI18N
 -
 lm
 endif
+#
+OS390BATCH
 endif
 #
 ENABLE_SHARED
@@ -1247,9 +1249,9 @@ endif
 ifeq
 (
 (
-BUILD_HOST_ICU
+OS390BATCH
 )
-OS390
+1
 )
 (
 BATCH_TARGET
@@ -1266,12 +1268,6 @@ cc
 (
 LD_SONAME
 )
--
-Wl
--
-x
-.
-x
 (
 OUTOPT
 )
@@ -1280,6 +1276,8 @@ OUTOPT
 BATCH_LIBS
 )
 endif
+#
+OS390BATCH
 endif
 #
 ENABLE_SHARED

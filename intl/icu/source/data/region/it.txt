@@ -343,7 +343,7 @@ AS
 {
 "
 Samoa
-Americane
+americane
 "
 }
 AT
@@ -465,7 +465,7 @@ BQ
 {
 "
 Caraibi
-Olandesi
+olandesi
 "
 }
 BR
@@ -723,7 +723,7 @@ EH
 {
 "
 Sahara
-Occidentale
+occidentale
 "
 }
 ER
@@ -1006,7 +1006,7 @@ IO
 {
 "
 Territorio
-Britannico
+britannico
 dell
 Oceano
 Indiano
@@ -1288,7 +1288,7 @@ MP
 "
 Isole
 Marianne
-Settentrionali
+settentrionali
 "
 }
 MQ
@@ -1449,7 +1449,7 @@ PF
 {
 "
 Polinesia
-Francese
+francese
 "
 }
 PG
@@ -1505,7 +1505,7 @@ PS
 {
 "
 Territori
-Palestinesi
+palestinesi
 "
 }
 PT
@@ -1708,7 +1708,7 @@ Siria
 SZ
 {
 "
-Eswatini
+eSwatini
 "
 }
 TA
@@ -1738,8 +1738,8 @@ TF
 {
 "
 Terre
-Australi
-Francesi
+australi
+francesi
 "
 }
 TG
@@ -1999,18 +1999,6 @@ sconosciuta
 }
 Countries
 %
-chagos
-{
-IO
-{
-"
-Arcipelago
-Chagos
-"
-}
-}
-Countries
-%
 short
 {
 GB
@@ -2115,7 +2103,7 @@ SZ
 "
 Regno
 di
-Eswatini
+eSwatini
 "
 }
 TL
