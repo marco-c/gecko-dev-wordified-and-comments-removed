@@ -6269,6 +6269,17 @@ nsAString
 )
 const
 ;
+const
+Element
+*
+GetPseudoElement
+(
+const
+PseudoStyleRequest
+&
+)
+const
+;
 ReferrerPolicy
 GetReferrerPolicyAsEnum
 (

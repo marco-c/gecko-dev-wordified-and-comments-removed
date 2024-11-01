@@ -5022,6 +5022,15 @@ mTarget
 mPseudoType
 )
 ;
+const
+PseudoStyleRequest
+pseudo
+(
+mTarget
+.
+mPseudoType
+)
+;
 return
 aFlushType
 =
@@ -5039,9 +5048,7 @@ GetComputedStyle
 mTarget
 .
 mElement
-mTarget
-.
-mPseudoType
+pseudo
 )
 :
 nsComputedDOMStyle
@@ -5052,9 +5059,7 @@ GetComputedStyleNoFlush
 mTarget
 .
 mElement
-mTarget
-.
-mPseudoType
+pseudo
 )
 ;
 }

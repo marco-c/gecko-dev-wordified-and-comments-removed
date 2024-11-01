@@ -224,10 +224,8 @@ GetUnanimatedComputedStyleNoFlush
 mKey
 .
 mElement
-PseudoStyleType
-:
-:
-NotPseudo
+{
+}
 )
 ;
 }
