@@ -7193,7 +7193,7 @@ action
 const
 {
 selected_wallpaper
-hadPreviousWallpaper
+had_previous_wallpaper
 }
 =
 data
@@ -7228,7 +7228,7 @@ session
 .
 session_id
 selected_wallpaper
-hadPreviousWallpaper
+had_previous_wallpaper
 }
 )
 ;

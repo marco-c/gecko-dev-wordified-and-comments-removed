@@ -330,7 +330,7 @@ WALLPAPER_CLICK
 selected_wallpaper
 :
 id
-hadPreviousWallpaper
+had_previous_wallpaper
 :
 !
 !
@@ -429,7 +429,7 @@ selected_wallpaper
 "
 none
 "
-hadPreviousWallpaper
+had_previous_wallpaper
 :
 !
 !
