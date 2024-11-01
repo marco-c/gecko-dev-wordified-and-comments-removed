@@ -450,8 +450,6 @@ assert_equals
 output
 .
 dataType
-(
-)
 test
 .
 options
@@ -464,8 +462,6 @@ assert_array_equals
 output
 .
 shape
-(
-)
 test
 .
 output
@@ -527,8 +523,6 @@ assert_equals
 output
 .
 dataType
-(
-)
 '
 int32
 '
@@ -539,8 +533,6 @@ assert_array_equals
 output
 .
 shape
-(
-)
 test
 .
 output

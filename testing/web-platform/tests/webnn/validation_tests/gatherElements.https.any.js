@@ -485,8 +485,6 @@ assert_equals
 output
 .
 dataType
-(
-)
 test
 .
 output
@@ -499,8 +497,6 @@ assert_array_equals
 output
 .
 shape
-(
-)
 test
 .
 output

@@ -1023,8 +1023,6 @@ assert_equals
 constantOperand
 .
 dataType
-(
-)
 test
 .
 output
@@ -1037,8 +1035,6 @@ assert_array_equals
 constantOperand
 .
 shape
-(
-)
 test
 .
 output

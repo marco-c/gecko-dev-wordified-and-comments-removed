@@ -99,8 +99,6 @@ assert_equals
 output
 .
 dataType
-(
-)
 '
 float16
 '
@@ -111,8 +109,6 @@ assert_array_equals
 output
 .
 shape
-(
-)
 [
 1
 2
