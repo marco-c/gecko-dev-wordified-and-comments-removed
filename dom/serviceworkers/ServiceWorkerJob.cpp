@@ -829,17 +829,6 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
-(
-mState
-=
-=
-State
-:
-:
-Started
-)
-;
 if
 (
 mState

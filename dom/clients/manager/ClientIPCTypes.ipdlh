@@ -233,6 +233,10 @@ ClientSourceConstructorArgs
 nsID
 id
 ;
+nsID
+?
+agentClusterId
+;
 ClientType
 type
 ;
@@ -241,6 +245,12 @@ principalInfo
 ;
 TimeStamp
 creationTime
+;
+nsCString
+url
+;
+FrameType
+frameType
 ;
 }
 ;

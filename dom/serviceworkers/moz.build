@@ -114,6 +114,11 @@ ServiceWorkerIPCUtils
 h
 "
 "
+ServiceWorkerLifetimeExtension
+.
+h
+"
+"
 ServiceWorkerManager
 .
 h
@@ -280,6 +285,11 @@ cpp
 "
 "
 ServiceWorkerJobQueue
+.
+cpp
+"
+"
+ServiceWorkerLifetimeExtension
 .
 cpp
 "

@@ -528,6 +528,10 @@ nsCString
 aScriptSpec
 ServiceWorkerUpdateViaCache
 aUpdateViaCache
+const
+ServiceWorkerLifetimeExtension
+&
+aLifetimeExtension
 )
 :
 ServiceWorkerUpdateJob
@@ -546,6 +550,7 @@ move
 aScriptSpec
 )
 aUpdateViaCache
+aLifetimeExtension
 )
 {
 }
@@ -602,6 +607,10 @@ nsCString
 aScriptSpec
 ServiceWorkerUpdateViaCache
 aUpdateViaCache
+const
+ServiceWorkerLifetimeExtension
+&
+aLifetimeExtension
 )
 :
 ServiceWorkerJob
@@ -620,6 +629,10 @@ aScriptSpec
 mUpdateViaCache
 (
 aUpdateViaCache
+)
+mLifetimeExtension
+(
+aLifetimeExtension
 )
 mOnFailure
 (
@@ -799,6 +812,12 @@ aRv
 FailUpdateJob
 (
 rv
+)
+;
+rv
+.
+SuppressException
+(
 )
 ;
 }
@@ -1756,6 +1775,7 @@ workerPrivate
 >
 CheckScriptEvaluation
 (
+mLifetimeExtension
 callback
 )
 ;
@@ -1998,6 +2018,7 @@ u
 install
 "
 _ns
+mLifetimeExtension
 callback
 )
 ;
@@ -2113,6 +2134,7 @@ mRegistration
 >
 TryToActivateAsync
 (
+mLifetimeExtension
 )
 ;
 }
