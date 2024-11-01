@@ -1478,9 +1478,6 @@ name
 "
 ImageDecoder
 "
-nightly
-:
-true
 }
 {
 name
@@ -1488,9 +1485,6 @@ name
 "
 ImageTrack
 "
-nightly
-:
-true
 }
 {
 name
@@ -1498,9 +1492,6 @@ name
 "
 ImageTrackList
 "
-nightly
-:
-true
 }
 "
 Lock
@@ -2029,9 +2020,6 @@ VideoColorSpace
 insecureContext
 :
 true
-nightlyAndroid
-:
-true
 }
 {
 name
@@ -2060,9 +2048,6 @@ name
 VideoFrame
 "
 insecureContext
-:
-true
-nightlyAndroid
 :
 true
 }
