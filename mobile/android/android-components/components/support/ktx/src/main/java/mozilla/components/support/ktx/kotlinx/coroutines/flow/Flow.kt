@@ -745,7 +745,6 @@ home
 fun
 <
 T
-R
 >
 Flow
 <
@@ -763,7 +762,8 @@ T
 >
 Array
 <
-R
+Any
+?
 >
 )
 :
@@ -781,7 +781,8 @@ lastMappedValues
 :
 Array
 <
-R
+Any
+?
 >
 ?
 =
