@@ -164,6 +164,11 @@ ResetBounceTrackingRecord
 (
 )
 ;
+void
+OnBrowsingContextDiscarded
+(
+)
+;
 [
 [
 nodiscard

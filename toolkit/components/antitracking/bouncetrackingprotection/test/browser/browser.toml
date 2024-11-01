@@ -191,6 +191,13 @@ js
 ]
 [
 "
+browser_bouncetracking_tab_close
+.
+js
+"
+]
+[
+"
 browser_bouncetracking_telemetry_purge_count
 .
 js
