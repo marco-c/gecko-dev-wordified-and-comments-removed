@@ -3196,6 +3196,9 @@ alloc
 MBasicBlock
 *
 block
+MDefinition
+*
+blockResult
 MBasicBlock
 *
 target
@@ -3204,6 +3207,13 @@ MBasicBlock
 existingPred
 )
 {
+blockResult
+-
+>
+setImplicitlyUsedUnchecked
+(
+)
+;
 MInstruction
 *
 ins
@@ -4070,6 +4080,7 @@ alloc
 (
 )
 trueBranch
+trueResult
 finalTest
 -
 >
@@ -4140,6 +4151,7 @@ alloc
 (
 )
 falseBranch
+falseResult
 finalTest
 -
 >
@@ -4905,6 +4917,7 @@ alloc
 (
 )
 trueBranch
+trueResult
 finalTest
 -
 >
@@ -5022,6 +5035,7 @@ alloc
 (
 )
 falseBranch
+falseResult
 finalTest
 -
 >
