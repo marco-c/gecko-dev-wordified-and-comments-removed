@@ -994,6 +994,11 @@ size
 )
 ;
 }
+[
+[
+deprecated
+]
+]
 bool
 IsAtTargetQuality
 (
@@ -1004,6 +1009,11 @@ return
 at_target_quality_
 ;
 }
+[
+[
+deprecated
+]
+]
 void
 SetAtTargetQuality
 (
