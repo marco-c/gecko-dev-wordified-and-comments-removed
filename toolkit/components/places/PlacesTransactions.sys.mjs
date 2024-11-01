@@ -10680,6 +10680,12 @@ function
 (
 )
 {
+let
+createdItems
+=
+[
+]
+;
 for
 (
 let
@@ -10695,6 +10701,13 @@ createItemsFromBookmarksTree
 (
 info
 true
+)
+;
+createdItems
+.
+push
+(
+info
 )
 ;
 }
@@ -10721,6 +10734,10 @@ guid
 ;
 }
 }
+removedItems
+=
+createdItems
+;
 }
 ;
 this

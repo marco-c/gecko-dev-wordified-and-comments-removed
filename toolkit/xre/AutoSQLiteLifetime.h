@@ -33,6 +33,12 @@ AutoSQLiteLifetime
 )
 ;
 static
+void
+Init
+(
+)
+;
+static
 int
 getInitResult
 (
