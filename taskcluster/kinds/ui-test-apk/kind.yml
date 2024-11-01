@@ -3508,6 +3508,14 @@ test
 .
 apk
 ]
+run
+-
+on
+-
+projects
+:
+[
+]
 treeherder
 :
 platform

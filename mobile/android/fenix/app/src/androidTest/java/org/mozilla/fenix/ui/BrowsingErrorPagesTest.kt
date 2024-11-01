@@ -73,14 +73,6 @@ net
 .
 toUri
 import
-androidx
-.
-test
-.
-filters
-.
-SdkSuppress
-import
 org
 .
 junit
@@ -834,12 +826,6 @@ cases
 view
 /
 2140588
-SdkSuppress
-(
-minSdkVersion
-=
-34
-)
 Test
 fun
 verifyNoInternetConnectionErrorMessageTest
