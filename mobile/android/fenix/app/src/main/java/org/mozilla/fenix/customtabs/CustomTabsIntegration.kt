@@ -884,7 +884,7 @@ updateStatusBarColor
 false
 updateSystemNavigationBarColor
 =
-false
+true
 updateToolbarsColor
 =
 !
