@@ -19301,6 +19301,7 @@ ChromeUtils
 .
 idleDispatch
 (
+async
 (
 )
 =
@@ -19327,6 +19328,7 @@ now
 ;
 try
 {
+await
 task
 .
 task
