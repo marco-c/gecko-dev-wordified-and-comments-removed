@@ -237,10 +237,6 @@ payload_type
 "
 "
 :
-payload_type
-"
-"
-:
 receive_stream_interface
 "
 "
