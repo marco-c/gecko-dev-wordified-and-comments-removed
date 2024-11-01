@@ -289,17 +289,6 @@ aWord
 )
 ;
 nsresult
-GetPersonalDictionary
-(
-nsTArray
-<
-nsString
->
-*
-aWordList
-)
-;
-nsresult
 GetDictionaryList
 (
 nsTArray

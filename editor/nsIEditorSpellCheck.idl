@@ -115,16 +115,6 @@ word
 )
 ;
 void
-GetPersonalDictionary
-(
-)
-;
-AString
-GetPersonalDictionaryWord
-(
-)
-;
-void
 AddWordToDictionary
 (
 in

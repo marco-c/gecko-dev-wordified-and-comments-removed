@@ -160,12 +160,6 @@ mSuggestedWordList
 ;
 nsTArray
 <
-nsString
->
-mDictionaryList
-;
-nsTArray
-<
 nsCString
 >
 mPreferredLangs
@@ -175,9 +169,6 @@ mTxtSrvFilterType
 ;
 int32_t
 mSuggestedWordIndex
-;
-int32_t
-mDictionaryIndex
 ;
 uint32_t
 mDictionaryFetcherGroup
