@@ -10,6 +10,10 @@ from
 collections
 import
 namedtuple
+from
+enum
+import
+Enum
 if
 sys
 .
@@ -192,6 +196,39 @@ shell
 .
 xdr
 "
+class
+OutputStatus
+(
+Enum
+)
+:
+    
+OK
+=
+1
+    
+SKIPPED
+=
+2
+    
+FAILED
+=
+3
+    
+def
+__bool__
+(
+self
+)
+:
+        
+return
+self
+!
+=
+OutputStatus
+.
+FAILED
 def
 _relpath
 (
@@ -2920,7 +2957,9 @@ SKIPPED_EXIT_STATUS
 :
             
 return
-True
+OutputStatus
+.
+SKIPPED
     
 if
 timed_out
@@ -2958,10 +2997,14 @@ ignore_timeouts
 :
             
 return
-True
+OutputStatus
+.
+OK
         
 return
-False
+OutputStatus
+.
+FAILED
     
 if
 test
@@ -2977,7 +3020,9 @@ rc
 :
             
 return
-False
+OutputStatus
+.
+FAILED
         
 return
 test
@@ -3015,7 +3060,9 @@ failed
 :
             
 return
-False
+OutputStatus
+.
+FAILED
     
 for
 line
@@ -3042,7 +3089,9 @@ line
 :
             
 return
-False
+OutputStatus
+.
+FAILED
     
 if
 test
@@ -3079,7 +3128,9 @@ in
 :
             
 return
-True
+OutputStatus
+.
+OK
         
 if
 sys
@@ -3099,7 +3150,9 @@ rc
 :
             
 return
-True
+OutputStatus
+.
+OK
         
 if
 rc
@@ -3126,7 +3179,9 @@ err
 :
             
 return
-True
+OutputStatus
+.
+OK
         
 if
 rc
@@ -3141,10 +3196,14 @@ rc
 :
             
 return
-True
+OutputStatus
+.
+OK
         
 return
-False
+OutputStatus
+.
+FAILED
     
 if
 rc
@@ -3192,7 +3251,9 @@ err
 :
             
 return
-True
+OutputStatus
+.
+OK
         
 if
 test
@@ -3212,7 +3273,9 @@ err
 :
             
 return
-True
+OutputStatus
+.
+OK
         
 if
 (
@@ -3243,7 +3306,9 @@ err
 :
             
 return
-True
+OutputStatus
+.
+OK
         
 if
 test
@@ -3259,13 +3324,19 @@ unusable_error_status
 :
             
 return
-True
+OutputStatus
+.
+OK
         
 return
-False
+OutputStatus
+.
+FAILED
     
 return
-True
+OutputStatus
+.
+OK
 def
 print_automation_format
 (
@@ -4363,6 +4434,10 @@ timeouts
 =
 0
     
+skipped
+=
+0
+    
 complete
 =
 False
@@ -4428,7 +4503,7 @@ results
 )
 :
             
-ok
+status
 =
 check_output
 (
@@ -4453,7 +4528,7 @@ options
 )
             
 if
-ok
+status
 :
                 
 show_output
@@ -4659,24 +4734,40 @@ test
 relpath_tests
 )
             
-if
-not
-ok
+match
+status
 :
                 
+case
+OutputStatus
+.
+SKIPPED
+:
+                    
+skipped
++
+=
+1
+                
+case
+OutputStatus
+.
+FAILED
+:
+                    
 failures
 .
 append
 (
 res
 )
-                
+                    
 if
 res
 .
 timed_out
 :
-                    
+                        
 pb
 .
 message
@@ -4697,15 +4788,15 @@ test
 relpath_tests
 )
 )
-                    
+                        
 timeouts
 +
 =
 1
-                
+                    
 else
 :
-                    
+                        
 pb
 .
 message
@@ -4740,7 +4831,7 @@ automation
                 
 print_automation_format
 (
-ok
+status
 res
 slog
 )
@@ -4790,7 +4881,7 @@ timeouts
 SKIP
 "
 :
-0
+skipped
                 
 }
             
