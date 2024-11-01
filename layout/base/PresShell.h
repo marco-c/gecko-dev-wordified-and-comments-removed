@@ -2954,6 +2954,12 @@ aFlags
 )
 override
 ;
+using
+nsISelectionController
+:
+:
+ScrollSelectionIntoView
+;
 NS_IMETHOD
 RepaintSelection
 (
