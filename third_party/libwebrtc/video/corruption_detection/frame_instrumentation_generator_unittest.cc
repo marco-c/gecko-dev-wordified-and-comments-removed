@@ -777,7 +777,7 @@ EXPECT_TRUE
 (
 frame_instrumentation_data
 .
-is_key_frame
+communicate_upper_bits
 )
 ;
 EXPECT_NE
@@ -1036,7 +1036,7 @@ EXPECT_TRUE
 (
 frame_instrumentation_data
 .
-is_key_frame
+communicate_upper_bits
 )
 ;
 EXPECT_NE
@@ -1296,7 +1296,7 @@ EXPECT_TRUE
 (
 frame_instrumentation_data
 .
-is_key_frame
+communicate_upper_bits
 )
 ;
 EXPECT_NE
@@ -1830,7 +1830,7 @@ FrameInstrumentationData
 data1
 )
 .
-is_key_frame
+communicate_upper_bits
 )
 ;
 EXPECT_TRUE
@@ -1847,7 +1847,7 @@ FrameInstrumentationData
 data2
 )
 .
-is_key_frame
+communicate_upper_bits
 )
 ;
 }
@@ -2155,7 +2155,7 @@ FrameInstrumentationData
 data1
 )
 .
-is_key_frame
+communicate_upper_bits
 )
 ;
 EXPECT_TRUE
@@ -2172,7 +2172,7 @@ FrameInstrumentationData
 data2
 )
 .
-is_key_frame
+communicate_upper_bits
 )
 ;
 }
@@ -2231,7 +2231,7 @@ FrameInstrumentationData
 data1
 )
 .
-is_key_frame
+communicate_upper_bits
 )
 ;
 }
@@ -2273,7 +2273,7 @@ FrameInstrumentationData
 data2
 )
 .
-is_key_frame
+communicate_upper_bits
 )
 ;
 }

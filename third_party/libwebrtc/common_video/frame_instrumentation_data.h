@@ -19,7 +19,7 @@ int
 sequence_index
 ;
 bool
-is_key_frame
+communicate_upper_bits
 ;
 }
 ;
@@ -30,7 +30,7 @@ int
 sequence_index
 ;
 bool
-is_key_frame
+communicate_upper_bits
 ;
 double
 std_dev
