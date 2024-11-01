@@ -688,15 +688,6 @@ fillMaxWidth
 (
 )
 .
-padding
-(
-horizontal
-=
-16
-.
-dp
-)
-.
 semantics
 {
 testTag
