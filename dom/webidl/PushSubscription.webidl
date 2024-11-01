@@ -247,7 +247,7 @@ Worker
 Func
 =
 "
-ServiceWorkerVisible
+ServiceWorkersEnabled
 "
 ]
 interface

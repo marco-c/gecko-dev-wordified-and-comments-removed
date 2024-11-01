@@ -2866,12 +2866,6 @@ if
 (
 !
 global
-|
-|
-!
-NS_IsMainThread
-(
-)
 )
 {
 return

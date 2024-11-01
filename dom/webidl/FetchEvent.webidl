@@ -125,7 +125,7 @@ html
 Func
 =
 "
-ServiceWorkerVisible
+ServiceWorkersEnabled
 "
 Exposed
 =

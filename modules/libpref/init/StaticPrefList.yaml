@@ -32516,7 +32516,7 @@ serviceWorkerRegister
 allowed
 type
 :
-bool
+RelaxedAtomicBool
 value
 :
 false

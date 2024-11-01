@@ -524,7 +524,7 @@ message
 if
 (
 "
-ServiceWorker
+ServiceWorkerGlobalScope
 "
 in
 self

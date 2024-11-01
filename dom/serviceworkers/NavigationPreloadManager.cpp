@@ -143,7 +143,7 @@ dom_serviceWorkers_navigationPreload_enabled
 )
 &
 &
-ServiceWorkerVisible
+ServiceWorkersEnabled
 (
 aCx
 aGlobal

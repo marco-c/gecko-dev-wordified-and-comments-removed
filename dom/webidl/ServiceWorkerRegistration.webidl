@@ -171,7 +171,7 @@ index
 Func
 =
 "
-ServiceWorkerVisible
+ServiceWorkersEnabled
 "
 Exposed
 =
