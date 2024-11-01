@@ -208,6 +208,13 @@ html
 ]
 [
 "
+test_encoder_cycle_collection
+.
+html
+"
+]
+[
+"
 test_error_scope
 .
 html
