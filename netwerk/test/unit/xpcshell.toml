@@ -6033,13 +6033,6 @@ js
 ]
 [
 "
-test_remove_invalid_first_party_partitioned_cookie
-.
-js
-"
-]
-[
-"
 test_reopen
 .
 js
