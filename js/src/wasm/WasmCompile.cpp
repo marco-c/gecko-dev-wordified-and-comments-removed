@@ -4609,7 +4609,6 @@ wait
 }
 const
 StreamEndData
-&
 streamEnd
 =
 exclusiveStreamEnd
