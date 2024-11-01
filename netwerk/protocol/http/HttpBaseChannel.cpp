@@ -26903,7 +26903,7 @@ EnforceForHTTPSFirstMode
 nsHTTPSOnlyUtils
 :
 :
-AddHTTPSFirstExceptionForSession
+AddHTTPSFirstException
 (
 mURI
 mLoadInfo

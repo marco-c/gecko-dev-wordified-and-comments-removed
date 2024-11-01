@@ -21258,11 +21258,6 @@ HTTPSFIRST_LOAD_INSECURE_ALLOW
 :
 10
 ;
-readonly
-HTTPSFIRST_LOAD_INSECURE_ALLOW_SESSION
-:
-11
-;
 }
 interface
 nsIDocumentEncoderNodeFixup

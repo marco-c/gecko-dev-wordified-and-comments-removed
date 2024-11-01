@@ -254,7 +254,7 @@ aToURI
 ;
 static
 nsresult
-AddHTTPSFirstExceptionForSession
+AddHTTPSFirstException
 (
 nsCOMPtr
 <
