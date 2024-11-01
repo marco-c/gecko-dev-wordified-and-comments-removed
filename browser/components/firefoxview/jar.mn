@@ -393,7 +393,9 @@ browser
 /
 firefoxview
 /
-recentlyclosed
+synced
+-
+tabs
 -
 empty
 .
@@ -401,7 +403,9 @@ svg
 (
 content
 /
-recentlyclosed
+synced
+-
+tabs
 -
 empty
 .

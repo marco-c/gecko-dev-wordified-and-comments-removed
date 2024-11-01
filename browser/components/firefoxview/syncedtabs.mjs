@@ -727,7 +727,6 @@ action
 buttonLabel
 descriptionArray
 descriptionLink
-error
 header
 headerIconUrl
 mainImageUrl
@@ -799,12 +798,6 @@ mainImageUrl
 )
 }
 "
-?
-errorGrayscale
-=
-{
-error
-}
 headerIconUrl
 =
 "

@@ -737,14 +737,6 @@ descriptionLink
 *
 param
 {
-boolean
-}
-options
-.
-error
-*
-param
-{
 string
 }
 options
@@ -780,7 +772,6 @@ action
 buttonLabel
 descriptionArray
 descriptionLink
-error
 header
 headerIconUrl
 mainImageUrl
@@ -837,12 +828,6 @@ mainImageUrl
 )
 }
 "
-?
-errorGrayscale
-=
-{
-error
-}
 headerIconUrl
 =
 "
@@ -862,8 +847,10 @@ container
 "
 >
 <
+moz
+-
 button
-class
+type
 =
 "
 primary
@@ -923,6 +910,8 @@ e
 >
 <
 /
+moz
+-
 button
 >
 <

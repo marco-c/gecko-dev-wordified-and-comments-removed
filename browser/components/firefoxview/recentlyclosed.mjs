@@ -1867,7 +1867,7 @@ content
 /
 firefoxview
 /
-recentlyclosed
+history
 -
 empty
 .
