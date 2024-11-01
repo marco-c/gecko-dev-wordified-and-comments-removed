@@ -6522,7 +6522,7 @@ R
 .
 string
 .
-mozac_browser_errorpages_no_internet_title
+mozac_browser_errorpages_no_internet_title_2
 )
 )
 itemWithResId
