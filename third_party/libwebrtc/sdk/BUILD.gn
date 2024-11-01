@@ -7670,6 +7670,14 @@ videotoolbox_objc
 /
 api
 :
+libjingle_peerconnection_api
+"
+"
+.
+.
+/
+api
+:
 scoped_refptr
 "
 "
