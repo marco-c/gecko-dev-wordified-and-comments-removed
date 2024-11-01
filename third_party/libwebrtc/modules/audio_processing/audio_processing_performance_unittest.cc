@@ -2557,7 +2557,7 @@ kCaptureInputFloatLevel
 TEST_P
 (
 CallSimulator
-DISABLED_ApiCallDurationTest
+ApiCallDurationTest
 )
 {
 EXPECT_TRUE
