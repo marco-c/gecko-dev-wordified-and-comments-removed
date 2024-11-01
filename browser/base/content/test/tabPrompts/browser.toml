@@ -174,13 +174,6 @@ file_beforeunload_stop
 .
 html
 "
-"
-auth
--
-route
-.
-sjs
-"
 ]
 [
 "
