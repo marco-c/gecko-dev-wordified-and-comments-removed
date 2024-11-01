@@ -7214,6 +7214,10 @@ ComponentsDependencies
 .
 androidx_work_testing
 testImplementation
+ComponentsDependencies
+.
+mozilla_appservices_full_megazord_forUnitTests
+testImplementation
 (
 ComponentsDependencies
 .
