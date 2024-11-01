@@ -487,6 +487,14 @@ join
 +
 '
 ;
+focus
+-
+without
+-
+user
+-
+activation
+;
 '
 ;
 iframe
