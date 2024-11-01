@@ -1078,7 +1078,7 @@ video_rtp_headers
 /
 common_video
 :
-common_video
+corruption_detection_message
 "
 "
 .
@@ -1213,19 +1213,6 @@ rtc_base
 network
 :
 ecn_marking
-"
-"
-.
-.
-/
-.
-.
-/
-rtc_base
-/
-synchronization
-:
-mutex
 "
 "
 .
@@ -6205,7 +6192,7 @@ rtp_rtcp_format
 /
 common_video
 :
-common_video
+corruption_detection_message
 "
 "
 .

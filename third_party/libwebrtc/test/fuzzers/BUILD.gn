@@ -1537,7 +1537,7 @@ deps
 /
 common_video
 :
-common_video
+corruption_detection_message
 "
 "
 .
