@@ -577,6 +577,14 @@ uint8_t
 packet_copy
 )
 ;
+void
+LogChannelStatistics
+(
+JNIEnv
+*
+env
+)
+;
 std
 :
 :
