@@ -484,9 +484,13 @@ PrefEnabled
 JSContext
 *
 aCx
+=
+nullptr
 JSObject
 *
 aObj
+=
+nullptr
 )
 ;
 static
