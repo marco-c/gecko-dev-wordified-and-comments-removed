@@ -469,9 +469,7 @@ registerCallback
 "
 profiles
 "
-(
 win
-)
 =
 >
 {
@@ -1819,9 +1817,7 @@ this
 .
 #
 everyWindowCallbackId
-(
 window
-)
 =
 >
 {
@@ -1856,9 +1852,7 @@ this
 )
 ;
 }
-(
 window
-)
 =
 >
 {
@@ -3935,9 +3929,7 @@ sharedPrefs
 .
 map
 (
-(
 pref
-)
 =
 >
 user_pref
@@ -4210,9 +4202,7 @@ getAllProfiles
 .
 map
 (
-(
 p
-)
 =
 >
 p
@@ -4773,9 +4763,7 @@ keys
 .
 forEach
 (
-(
 key
-)
 =
 >
 {
@@ -5156,9 +5144,7 @@ SelectableProfileService
 :
 deleteCurrentProfile
 "
-(
 db
-)
 =
 >
 db
@@ -5350,9 +5336,7 @@ Profiles
 .
 map
 (
-(
 row
-)
 =
 >
 {
@@ -5790,9 +5774,7 @@ SharedPrefs
 .
 map
 (
-(
 row
-)
 =
 >
 {
