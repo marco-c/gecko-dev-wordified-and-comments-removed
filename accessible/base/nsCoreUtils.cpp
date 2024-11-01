@@ -1471,10 +1471,14 @@ nsISelectionController
 SELECTION_ANCHOR_REGION
 aVertical
 aHorizontal
-Selection
+ScrollFlags
 :
 :
-SCROLL_SYNCHRONOUS
+None
+SelectionScrollMode
+:
+:
+SyncNoFlush
 )
 ;
 selection

@@ -2867,13 +2867,10 @@ ScrollAxis
 ScrollAxis
 (
 )
-dom
+ScrollFlags
 :
 :
-Selection
-:
-:
-SCROLL_OVERFLOW_HIDDEN
+ScrollOverflowHidden
 )
 ;
 if
