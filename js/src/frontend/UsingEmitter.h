@@ -61,6 +61,17 @@ BytecodeEmitter
 class
 EmitterScope
 ;
+enum
+class
+BlockKind
+:
+uint8_t
+{
+Switch
+ForOf
+Other
+}
+;
 class
 MOZ_STACK_CLASS
 DisposalEmitter
@@ -319,6 +330,8 @@ nodiscard
 bool
 prepareForDisposableScopeBody
 (
+BlockKind
+blockKind
 )
 ;
 [

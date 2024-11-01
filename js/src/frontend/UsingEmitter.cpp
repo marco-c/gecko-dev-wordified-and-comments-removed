@@ -2293,6 +2293,8 @@ UsingEmitter
 :
 prepareForDisposableScopeBody
 (
+BlockKind
+blockKind
 )
 {
 MOZ_ASSERT
@@ -2306,6 +2308,17 @@ State
 Start
 )
 ;
+if
+(
+blockKind
+!
+=
+BlockKind
+:
+:
+ForOf
+)
+{
 tryEmitter_
 .
 emplace
@@ -2341,6 +2354,7 @@ emitTry
 return
 false
 ;
+}
 }
 #
 ifdef
