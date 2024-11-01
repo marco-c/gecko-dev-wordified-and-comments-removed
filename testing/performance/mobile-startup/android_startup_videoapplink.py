@@ -695,13 +695,6 @@ video_location
         
 )
         
-time
-.
-sleep
-(
-1
-)
-        
 adb_shell
 (
 self
