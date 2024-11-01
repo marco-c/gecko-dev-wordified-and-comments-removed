@@ -383,13 +383,6 @@ it
 skipped_lkgr_bots
 =
 [
-"
-iOS
-Debug
-(
-simulator
-)
-"
 ]
 #
 Use
@@ -5275,9 +5268,6 @@ ios_try_job
 "
 ios_dbg_simulator
 "
-cq
-=
-None
 )
 ios_builder
 (
