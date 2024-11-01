@@ -132,6 +132,12 @@ aResult
 )
 ;
 static
+bool
+SkipScrollWheelHack
+(
+)
+;
+static
 nsresult
 SynthesizeNativeMouseScrollEvent
 (
@@ -250,7 +256,7 @@ LPARAM
 aLParam
 )
 ;
-void
+bool
 HandleMouseWheelMessage
 (
 nsWindow
@@ -264,7 +270,7 @@ LPARAM
 aLParam
 )
 ;
-void
+bool
 HandleScrollMessageAsMouseWheelMessage
 (
 nsWindow
