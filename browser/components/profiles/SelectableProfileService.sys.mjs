@@ -4097,7 +4097,7 @@ relativePath
 =
 relativePath
 .
-replace
+replaceAll
 (
 "
 /
