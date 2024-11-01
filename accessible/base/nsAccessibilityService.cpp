@@ -2758,7 +2758,7 @@ targetAcc
 document
 -
 >
-GetAccessible
+GetAccessibleOrContainer
 (
 aTargetNode
 )
@@ -2766,6 +2766,15 @@ aTargetNode
 if
 (
 targetAcc
+&
+&
+!
+targetAcc
+-
+>
+IsDoc
+(
+)
 )
 {
 nsEventShell

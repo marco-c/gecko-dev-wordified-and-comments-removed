@@ -73,6 +73,9 @@ second
 "
 >
 The
+<
+i
+>
 second
 <
 b
@@ -82,6 +85,10 @@ phrase
 <
 /
 b
+>
+<
+/
+i
 >
 <
 /
