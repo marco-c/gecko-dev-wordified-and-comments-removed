@@ -11005,9 +11005,6 @@ notOk
 )
 ;
 }
-#
-ifdef
-ENABLE_WASM_TAIL_CALLS
 void
 MacroAssembler
 :
@@ -11077,5 +11074,3 @@ notSlow
 )
 ;
 }
-#
-endif

@@ -4006,9 +4006,6 @@ if
 tryNote
 )
 {
-#
-ifdef
-ENABLE_WASM_TAIL_CALLS
 const
 CallSite
 *
@@ -4047,8 +4044,6 @@ ReturnStub
 continue
 ;
 }
-#
-endif
 cx
 -
 >

@@ -416,9 +416,6 @@ trapData
 .
 failedUnwindSignatureMismatch
 ;
-#
-ifdef
-ENABLE_WASM_TAIL_CALLS
 const
 CallSite
 *
@@ -473,8 +470,6 @@ uint8_t
 unwoundPC
 ;
 }
-#
-endif
 MOZ_ASSERT
 (
 !
@@ -1734,9 +1729,6 @@ return
 false
 ;
 }
-#
-ifdef
-ENABLE_WASM_TAIL_CALLS
 const
 CallSite
 *
@@ -1754,7 +1746,8 @@ void
 resumePCinCurrentFrame_
 )
 ;
-if
+return
+!
 (
 site
 &
@@ -1772,15 +1765,6 @@ CallSite
 :
 ReturnStub
 )
-{
-return
-false
-;
-}
-#
-endif
-return
-true
 ;
 }
 DebugFrame
