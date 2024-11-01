@@ -662,7 +662,6 @@ char16_t
 U_EXPORT2
 getPatternUChars
 (
-void
 )
 ;
 UnicodeString
@@ -1110,7 +1109,6 @@ otherStrings
 void
 dispose
 (
-void
 )
 ;
 void
@@ -1125,13 +1123,11 @@ other
 void
 initZoneStringsArray
 (
-void
 )
 ;
 void
 disposeZoneStrings
 (
-void
 )
 ;
 static

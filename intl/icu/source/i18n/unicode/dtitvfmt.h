@@ -508,7 +508,6 @@ DateIntervalInfo
 *
 getDateIntervalInfo
 (
-void
 )
 const
 ;
@@ -529,7 +528,6 @@ DateFormat
 *
 getDateFormat
 (
-void
 )
 const
 ;
@@ -539,7 +537,6 @@ TimeZone
 &
 getTimeZone
 (
-void
 )
 const
 ;
@@ -590,14 +587,12 @@ UClassID
 U_EXPORT2
 getStaticClassID
 (
-void
 )
 ;
 virtual
 UClassID
 getDynamicClassID
 (
-void
 )
 const
 override

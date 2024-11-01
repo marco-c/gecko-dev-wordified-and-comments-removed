@@ -77,10 +77,13 @@ enum
 {
 NULLORDER
 =
-(
+static_cast
+<
 int32_t
-)
+>
+(
 0xffffffff
+)
 }
 ;
 CollationElementIterator
@@ -124,7 +127,6 @@ const
 void
 reset
 (
-void
 )
 ;
 int32_t
@@ -221,7 +223,6 @@ order
 int32_t
 getOffset
 (
-void
 )
 const
 ;

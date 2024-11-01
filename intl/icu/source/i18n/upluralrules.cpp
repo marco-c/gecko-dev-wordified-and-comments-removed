@@ -219,9 +219,8 @@ number
 }
 }
 return
-UnicodeString
-(
-)
+{
+}
 ;
 }
 }

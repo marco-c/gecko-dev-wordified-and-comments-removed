@@ -812,7 +812,7 @@ cases
 from
 usrchdat
 .
-c
+inc
 BREAKITERATOREXACT
 -
 -
@@ -1164,7 +1164,7 @@ cases
 from
 usrchdat
 .
-c
+inc
 STRENGTH
 -
 -
@@ -2069,7 +2069,7 @@ Cases
 from
 usrchdat
 .
-c
+inc
 VARIABLE
 -
 -
@@ -2382,7 +2382,7 @@ cases
 from
 usrchdat
 .
-c
+inc
 -
 -
 >
@@ -2501,7 +2501,7 @@ COMPOSITEBOUNDARIES
 from
 usrchdat
 .
-c
+inc
 Boundaries
 are
 not
@@ -2665,7 +2665,7 @@ SUPPLEMENTARYCANONICAL
 from
 usrchdat
 .
-c
+inc
 -
 -
 >

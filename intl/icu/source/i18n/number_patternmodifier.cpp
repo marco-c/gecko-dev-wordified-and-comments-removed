@@ -435,6 +435,7 @@ OTHER
 }
 ;
 auto
+*
 pm
 =
 new
@@ -956,6 +957,7 @@ return
 ;
 }
 auto
+*
 nonConstThis
 =
 const_cast
@@ -1056,6 +1058,7 @@ status
 const
 {
 auto
+*
 nonConstThis
 =
 const_cast
@@ -1170,6 +1173,7 @@ getPrefixLength
 const
 {
 auto
+*
 nonConstThis
 =
 const_cast
@@ -1222,6 +1226,7 @@ getCodePointCount
 const
 {
 auto
+*
 nonConstThis
 =
 const_cast
@@ -1342,7 +1347,7 @@ bool
 MutablePatternModifier
 :
 :
-semanticallyEquivalent
+strictEquals
 (
 const
 Modifier
@@ -1790,9 +1795,8 @@ UNumberUnitWidth
 UNUM_UNIT_WIDTH_HIDDEN
 :
 return
-UnicodeString
-(
-)
+{
+}
 ;
 default
 :

@@ -105,6 +105,7 @@ true
 ;
 for
 (
+const
 auto
 *
 it
@@ -300,6 +301,7 @@ const
 {
 for
 (
+const
 auto
 &
 matcher
@@ -347,6 +349,7 @@ const
 {
 for
 (
+const
 auto
 *
 matcher

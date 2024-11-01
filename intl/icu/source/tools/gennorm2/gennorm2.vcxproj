@@ -854,14 +854,6 @@ Default
 CompileAs
 >
 <
-DisableLanguageExtensions
->
-false
-<
-/
-DisableLanguageExtensions
->
-<
 AdditionalIncludeDirectories
 >
 .

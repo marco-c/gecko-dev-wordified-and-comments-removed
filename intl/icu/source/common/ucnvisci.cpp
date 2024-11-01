@@ -611,10 +611,6 @@ false
 else
 {
 return
-(
-UBool
-)
-(
 pnjMap
 [
 c
@@ -623,7 +619,6 @@ c
 ]
 &
 1
-)
 ;
 }
 }
@@ -655,10 +650,6 @@ false
 else
 {
 return
-(
-UBool
-)
-(
 pnjMap
 [
 c
@@ -668,7 +659,6 @@ c
 >
 >
 1
-)
 ;
 }
 }
@@ -7078,9 +7068,6 @@ toUBytes
 0
 ]
 =
-(
-uint8_t
-)
 sourceChar
 ;
 args
@@ -7313,7 +7300,7 @@ status
 )
 {
 return
-0
+nullptr
 ;
 }
 if
@@ -7331,7 +7318,7 @@ pBufferSize
 bufferSizeNeeded
 ;
 return
-0
+nullptr
 ;
 }
 localClone

@@ -32,7 +32,7 @@ toMatcher
 const
 {
 return
-0
+nullptr
 ;
 }
 UnicodeReplacer
@@ -46,7 +46,7 @@ toReplacer
 const
 {
 return
-0
+nullptr
 ;
 }
 U_NAMESPACE_END

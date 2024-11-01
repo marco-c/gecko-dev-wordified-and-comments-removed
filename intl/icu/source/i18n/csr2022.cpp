@@ -136,9 +136,11 @@ escN
 int32_t
 seq_length
 =
-(
+static_cast
+<
 int32_t
-)
+>
+(
 uprv_strlen
 (
 (
@@ -147,6 +149,7 @@ char
 *
 )
 seq
+)
 )
 ;
 if

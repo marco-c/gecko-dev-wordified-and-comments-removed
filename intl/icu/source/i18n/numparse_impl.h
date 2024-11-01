@@ -139,8 +139,8 @@ NumberParseMatcher
 endif
 namespace
 numparse
-{
-namespace
+:
+:
 impl
 {
 class
@@ -399,7 +399,6 @@ const
 ;
 }
 ;
-}
 }
 U_NAMESPACE_END
 #

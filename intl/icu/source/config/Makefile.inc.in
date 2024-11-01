@@ -1236,10 +1236,10 @@ icu
 config
 ECHO_N
 =
-ICU_ECHO_N
+ECHO_N
 ECHO_C
 =
-ICU_ECHO_C
+ECHO_C
 #
 Not
 currently
@@ -1255,7 +1255,7 @@ tab
 handling
 ECHO_T
 =
-ICU_ECHO_T
+ECHO_T
 #
 #
 #

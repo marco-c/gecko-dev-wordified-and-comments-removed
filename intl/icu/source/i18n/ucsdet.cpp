@@ -137,7 +137,7 @@ status
 )
 {
 return
-0
+nullptr
 ;
 }
 CharsetDetector

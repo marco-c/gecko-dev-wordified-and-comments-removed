@@ -467,10 +467,13 @@ INT32_MAX
 {
 length
 =
-(
+static_cast
+<
 int32_t
-)
+>
+(
 length64
+)
 ;
 }
 else

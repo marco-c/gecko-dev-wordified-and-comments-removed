@@ -464,6 +464,7 @@ cpZero
 )
 {
 auto
+*
 digitStrings
 =
 new

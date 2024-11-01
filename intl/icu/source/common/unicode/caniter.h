@@ -130,6 +130,10 @@ result
 UErrorCode
 &
 status
+int32_t
+depth
+=
+0
 )
 ;
 #
@@ -210,12 +214,12 @@ buffer
 ;
 const
 Normalizer2
-&
+*
 nfd
 ;
 const
 Normalizer2Impl
-&
+*
 nfcImpl
 ;
 UnicodeString

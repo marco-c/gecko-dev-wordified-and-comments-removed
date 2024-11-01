@@ -60,6 +60,9 @@ U_NAMESPACE_BEGIN
 class
 FieldPositionIteratorHandler
 ;
+class
+SimpleDateFormat
+;
 namespace
 number
 {
@@ -221,9 +224,6 @@ status
 )
 const
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 UDisplayOptionsNounClass
 getNounClass
 (
@@ -233,8 +233,6 @@ status
 )
 const
 ;
-#
-endif
 #
 ifndef
 U_HIDE_INTERNAL_API
@@ -343,6 +341,13 @@ impl
 :
 :
 UFormattedNumberImpl
+;
+friend
+class
+icu
+:
+:
+SimpleDateFormat
 ;
 }
 ;

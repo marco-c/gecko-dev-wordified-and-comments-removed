@@ -33,8 +33,8 @@ h
 U_NAMESPACE_BEGIN
 namespace
 double_conversion
-{
-namespace
+:
+:
 PowersOfTenCache
 {
 static
@@ -87,7 +87,6 @@ int
 found_exponent
 )
 ;
-}
 }
 U_NAMESPACE_END
 #

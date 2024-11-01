@@ -43,8 +43,8 @@ h
 U_NAMESPACE_BEGIN
 namespace
 numparse
-{
-namespace
+:
+:
 impl
 {
 class
@@ -532,7 +532,6 @@ matcher
 ;
 }
 ;
-}
 }
 U_NAMESPACE_END
 #

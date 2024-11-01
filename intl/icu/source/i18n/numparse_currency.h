@@ -57,8 +57,8 @@ h
 U_NAMESPACE_BEGIN
 namespace
 numparse
-{
-namespace
+:
+:
 impl
 {
 using
@@ -195,7 +195,6 @@ const
 ;
 }
 ;
-}
 }
 U_NAMESPACE_END
 #

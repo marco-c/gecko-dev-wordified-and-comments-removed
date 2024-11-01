@@ -57,8 +57,8 @@ h
 U_NAMESPACE_BEGIN
 namespace
 number
-{
-namespace
+:
+:
 impl
 {
 const
@@ -137,7 +137,6 @@ gender
 ;
 }
 ;
-}
 }
 U_NAMESPACE_END
 #

@@ -169,11 +169,13 @@ the
 directory
 main
 /
-tests
-/
 core
 /
 src
+/
+test
+/
+resources
 /
 com
 /

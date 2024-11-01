@@ -99,8 +99,8 @@ h
 U_NAMESPACE_BEGIN
 namespace
 number
-{
-namespace
+:
+:
 impl
 {
 class
@@ -456,7 +456,6 @@ false
 ;
 }
 ;
-}
 }
 U_NAMESPACE_END
 #

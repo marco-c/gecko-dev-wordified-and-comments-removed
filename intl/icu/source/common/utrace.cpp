@@ -620,12 +620,15 @@ char
 *
 p
 =
-(
+reinterpret_cast
+<
 char
 *
-)
+>
+(
 &
 val
+)
 ;
 #
 if
@@ -1064,9 +1067,6 @@ char
 ;
 intArg
 =
-(
-int32_t
-)
 va_arg
 (
 args
@@ -1348,9 +1348,6 @@ i8Ptr
 ;
 vectorLen
 =
-(
-int32_t
-)
 va_arg
 (
 args

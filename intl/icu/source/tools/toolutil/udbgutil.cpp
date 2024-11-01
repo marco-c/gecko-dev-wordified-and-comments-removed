@@ -255,16 +255,11 @@ FIELD_NAME_STR
 LEN_UCAL
 UCAL_IS_LEAP_MONTH
 )
-#
-ifndef
-U_HIDE_DRAFT_API
 FIELD_NAME_STR
 (
 LEN_UCAL
 UCAL_ORDINAL_MONTH
 )
-#
-endif
 }
 ;
 static
@@ -2682,9 +2677,6 @@ i
 &
 i
 <
-(
-int32_t
-)
 U_SYSPARAM_COUNT
 )
 {
@@ -2730,9 +2722,6 @@ i
 &
 i
 <
-(
-int32_t
-)
 U_SYSPARAM_COUNT
 )
 {
