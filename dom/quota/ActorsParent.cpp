@@ -23163,6 +23163,8 @@ ClientMetadata
 &
 aClientMetadata
 bool
+aInitializeOrigin
+bool
 aCreateIfNonExistent
 Maybe
 <
@@ -23346,6 +23348,17 @@ promises
 )
 ;
 }
+RefPtr
+<
+UniversalDirectoryLock
+>
+originDirectoryLock
+;
+if
+(
+aInitializeOrigin
+)
+{
 const
 bool
 originInitialized
@@ -23366,10 +23379,6 @@ persistenceType
 principalInfo
 )
 ;
-RefPtr
-<
-UniversalDirectoryLock
->
 originDirectoryLock
 =
 CreateDirectoryLockForInitialization
@@ -23398,6 +23407,7 @@ promises
 )
 )
 ;
+}
 RefPtr
 <
 ClientDirectoryLock

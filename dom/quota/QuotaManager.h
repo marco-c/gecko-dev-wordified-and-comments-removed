@@ -1284,6 +1284,10 @@ ClientMetadata
 &
 aClientMetadata
 bool
+aInitializeOrigins
+=
+true
+bool
 aCreateIfNonExistent
 =
 true
