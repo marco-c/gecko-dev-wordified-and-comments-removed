@@ -378,8 +378,6 @@ components
 /
 reps
 /
-reps
-/
 rep
 .
 js
@@ -390,7 +388,7 @@ js
 >
 Rep
 end
-Sidebar
+SideBar
 &
 ConsoleTable
 &
