@@ -130,6 +130,12 @@ js
 "
 )
 ;
+await
+waitForDocumentLoadComplete
+(
+dbg
+)
+;
 info
 (
 "
