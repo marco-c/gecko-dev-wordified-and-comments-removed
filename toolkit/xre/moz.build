@@ -1344,15 +1344,6 @@ mozilla
 "
 "
 /
-third_party
-/
-sqlite3
-/
-ext
-/
-"
-"
-/
 toolkit
 /
 crashreporter

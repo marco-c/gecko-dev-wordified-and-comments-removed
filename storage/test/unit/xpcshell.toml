@@ -48,13 +48,6 @@ mjs
 ]
 [
 "
-test_bindArray
-.
-js
-"
-]
-[
-"
 test_bug
 -
 365166
