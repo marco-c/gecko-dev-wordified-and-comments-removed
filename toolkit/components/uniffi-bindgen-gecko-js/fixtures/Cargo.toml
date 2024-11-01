@@ -1,6 +1,11 @@
 [
 package
 ]
+edition
+=
+"
+2015
+"
 name
 =
 "
@@ -81,9 +86,6 @@ bench
 =
 false
 doc
-=
-false
-plugin
 =
 false
 harness
