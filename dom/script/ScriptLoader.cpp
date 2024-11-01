@@ -13146,6 +13146,7 @@ aExec
 .
 ExecScript
 (
+aCx
 aScript
 aRv
 )
@@ -13499,6 +13500,7 @@ aExec
 .
 JoinOffThread
 (
+aCx
 aCompileOptions
 aRequest
 -
@@ -13549,6 +13551,7 @@ aExec
 .
 Decode
 (
+aCx
 aCompileOptions
 aRequest
 -
@@ -13649,6 +13652,7 @@ aExec
 .
 JoinOffThread
 (
+aCx
 aCompileOptions
 aRequest
 -
@@ -13754,6 +13758,7 @@ aExec
 .
 Compile
 (
+aCx
 aCompileOptions
 source
 aScript
@@ -13886,6 +13891,7 @@ aExec
 .
 InstantiateStencil
 (
+aCx
 aCompileOptions
 std
 :

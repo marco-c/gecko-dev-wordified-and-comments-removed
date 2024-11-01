@@ -28248,6 +28248,11 @@ exec
 .
 Compile
 (
+aes
+.
+cx
+(
+)
 options
 mExpr
 &
@@ -28288,6 +28293,11 @@ exec
 .
 ExecScript
 (
+aes
+.
+cx
+(
+)
 script
 erv
 )
