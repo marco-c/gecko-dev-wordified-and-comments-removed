@@ -2752,6 +2752,13 @@ js
 ]
 [
 "
+test_default_uri_bypass
+.
+js
+"
+]
+[
+"
 test_dns_by_type_resolve
 .
 js
@@ -6209,13 +6216,6 @@ win
 [
 "
 test_simple
-.
-js
-"
-]
-[
-"
-test_simple_unknown_uris
 .
 js
 "

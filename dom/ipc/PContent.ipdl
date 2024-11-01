@@ -4457,15 +4457,6 @@ stringBundles
 )
 ;
 async
-SimpleURIUnknownRemoteSchemes
-(
-nsCString
-[
-]
-remoteSchemes
-)
-;
-async
 UpdateSharedData
 (
 SharedMemoryHandle

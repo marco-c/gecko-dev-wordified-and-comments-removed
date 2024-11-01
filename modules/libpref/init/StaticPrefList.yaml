@@ -83898,7 +83898,7 @@ type
 RelaxedAtomicBool
 value
 :
-true
+false
 mirror
 :
 always
@@ -83922,7 +83922,7 @@ network
 .
 url
 .
-simple_uri_unknown_schemes_enabled
+some_schemes_bypass_defaultURI_fallback
 type
 :
 RelaxedAtomicBool
@@ -83954,7 +83954,7 @@ network
 .
 url
 .
-simple_uri_unknown_schemes_enabled
+some_schemes_bypass_defaultURI_fallback
 is
 true
 -
@@ -83964,7 +83964,7 @@ network
 .
 url
 .
-simple_uri_unknown_schemes
+simple_uri_schemes
 type
 :
 String

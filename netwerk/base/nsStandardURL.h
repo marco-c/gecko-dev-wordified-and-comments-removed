@@ -1749,14 +1749,6 @@ IsValid
 (
 )
 ;
-static
-Atomic
-<
-bool
-Relaxed
->
-gInitialized
-;
 nsCString
 mSpec
 ;

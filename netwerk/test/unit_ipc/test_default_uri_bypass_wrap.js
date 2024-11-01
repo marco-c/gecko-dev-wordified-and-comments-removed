@@ -30,7 +30,7 @@ network
 .
 url
 .
-simple_uri_unknown_schemes_enabled
+some_schemes_bypass_defaultURI_fallback
 "
 true
 )
@@ -46,7 +46,7 @@ network
 .
 url
 .
-simple_uri_unknown_schemes
+simple_uri_schemes
 "
 "
 simpleprotocol
@@ -62,7 +62,7 @@ run_test_in_child
 /
 unit
 /
-test_simple_unknown_uris
+test_default_uri_bypass
 .
 js
 "

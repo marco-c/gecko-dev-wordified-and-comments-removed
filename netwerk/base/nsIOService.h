@@ -162,13 +162,6 @@ nsNetCID
 h
 "
 #
-include
-"
-SimpleURIUnknownSchemes
-.
-h
-"
-#
 define
 NS_IPC_IOSERVICE_SET_OFFLINE_TOPIC
 "
@@ -1167,9 +1160,6 @@ nsCOMPtr
 nsIObserverService
 >
 mObserverService
-;
-SimpleURIUnknownSchemes
-mSimpleURIUnknownSchemes
 ;
 public
 :
