@@ -223,7 +223,7 @@ NS_RGB
 255
 )
 ;
-void
+bool
 RecomputeDBusSettings
 (
 )
