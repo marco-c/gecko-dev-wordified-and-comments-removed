@@ -204,6 +204,12 @@ try
 import
 a11y_setup
             
+a11y_setup
+.
+setup
+(
+)
+            
 cleanNamespace
 =
 a11y_setup

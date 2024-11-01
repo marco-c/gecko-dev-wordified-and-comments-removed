@@ -111,6 +111,13 @@ pop
 del
 pyatspiFile
 def
+setup
+(
+)
+:
+    
+pass
+def
 getDoc
 (
 )
