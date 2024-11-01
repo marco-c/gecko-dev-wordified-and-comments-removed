@@ -6399,7 +6399,7 @@ flags
 /
 /
 must
-equal
+contain
 BUTTON_NONE
 (
 notably
@@ -6412,7 +6412,15 @@ BUTTON_NONE_ENABLE_BIT
 let
 allowNoButtons
 =
+(
 flags
+&
+Ci
+.
+nsIPromptService
+.
+BUTTON_NONE
+)
 =
 =
 Ci
