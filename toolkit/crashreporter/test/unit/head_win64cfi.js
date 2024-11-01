@@ -941,7 +941,6 @@ do_x64CFITest
 (
 how
 expectedStack
-minidumpAnalyzerArgs
 )
 {
 let
@@ -974,7 +973,6 @@ extraFile
 runMinidumpAnalyzer
 (
 minidumpFile
-minidumpAnalyzerArgs
 )
 ;
 extra

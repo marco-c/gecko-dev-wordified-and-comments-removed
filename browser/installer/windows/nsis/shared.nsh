@@ -13420,14 +13420,6 @@ exe
 "
 Push
 "
-minidump
--
-analyzer
-.
-exe
-"
-Push
-"
 nmhproxy
 .
 exe
