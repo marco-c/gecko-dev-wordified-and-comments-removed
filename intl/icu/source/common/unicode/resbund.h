@@ -155,7 +155,6 @@ const
 int32_t
 getSize
 (
-void
 )
 const
 ;
@@ -217,14 +216,12 @@ const
 UBool
 hasNext
 (
-void
 )
 const
 ;
 void
 resetIterator
 (
-void
 )
 ;
 const
@@ -232,7 +229,6 @@ char
 *
 getKey
 (
-void
 )
 const
 ;
@@ -241,14 +237,12 @@ char
 *
 getName
 (
-void
 )
 const
 ;
 UResType
 getType
 (
-void
 )
 const
 ;
@@ -337,7 +331,6 @@ char
 *
 getVersionNumber
 (
-void
 )
 const
 ;
@@ -359,7 +352,6 @@ Locale
 &
 getLocale
 (
-void
 )
 const
 ;

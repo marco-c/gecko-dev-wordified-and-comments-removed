@@ -58,8 +58,8 @@ NumberParseMatcher
 endif
 namespace
 numparse
-{
-namespace
+:
+:
 impl
 {
 class
@@ -250,7 +250,6 @@ fMatchersLen
 ;
 }
 ;
-}
 }
 U_NAMESPACE_END
 #

@@ -663,10 +663,12 @@ pTransform
 >
 src
 =
-(
+static_cast
+<
 char16_t
 *
-)
+>
+(
 uprv_malloc
 (
 newSize
@@ -674,6 +676,7 @@ newSize
 sizeof
 (
 char16_t
+)
 )
 )
 ;
@@ -1921,8 +1924,12 @@ pErrorCode
 if
 (
 action
-+
+[
 1
+]
+!
+=
+nullptr
 )
 {
 updateSrc

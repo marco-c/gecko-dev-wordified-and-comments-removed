@@ -27,8 +27,8 @@ h
 U_NAMESPACE_BEGIN
 namespace
 number
-{
-namespace
+:
+:
 impl
 {
 class
@@ -118,7 +118,7 @@ const
 override
 ;
 bool
-semanticallyEquivalent
+strictEquals
 (
 const
 Modifier
@@ -218,7 +218,6 @@ ScientificModifier
 ;
 }
 ;
-}
 }
 U_NAMESPACE_END
 #

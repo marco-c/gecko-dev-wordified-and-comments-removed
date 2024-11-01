@@ -1821,6 +1821,11 @@ isInverse
 &
 &
 (
+runLength
+>
+0
+&
+&
 dirProps
 [
 logicalStart
@@ -2454,6 +2459,11 @@ runLength
 ;
 if
 (
+runLength
+>
+0
+&
+&
 !
 (
 MASK_R_AL

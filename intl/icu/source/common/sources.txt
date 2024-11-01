@@ -421,6 +421,12 @@ cpp
 uloc_tag
 .
 cpp
+ulocale
+.
+cpp
+ulocbuilder
+.
+cpp
 umapfile
 .
 cpp

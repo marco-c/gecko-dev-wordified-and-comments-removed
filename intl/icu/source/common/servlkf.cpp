@@ -368,12 +368,13 @@ UnicodeString
 id
 =
 *
-(
-(
+static_cast
+<
 const
 UnicodeString
 *
-)
+>
+(
 elem
 -
 >

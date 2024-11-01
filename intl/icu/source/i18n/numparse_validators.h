@@ -34,8 +34,8 @@ h
 U_NAMESPACE_BEGIN
 namespace
 numparse
-{
-namespace
+:
+:
 impl
 {
 class
@@ -286,7 +286,6 @@ fMultiplier
 ;
 }
 ;
-}
 }
 U_NAMESPACE_END
 #

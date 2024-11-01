@@ -204,7 +204,7 @@ UCharIterator
 noopIterator
 =
 {
-0
+nullptr
 0
 0
 0
@@ -753,7 +753,7 @@ UCharIterator
 stringIterator
 =
 {
-0
+nullptr
 0
 0
 0
@@ -792,7 +792,7 @@ if
 iter
 !
 =
-0
+nullptr
 )
 {
 if
@@ -800,7 +800,7 @@ if
 s
 !
 =
-0
+nullptr
 &
 &
 length
@@ -1087,7 +1087,7 @@ UCharIterator
 utf16BEIterator
 =
 {
-0
+nullptr
 0
 0
 0
@@ -2042,7 +2042,7 @@ UCharIterator
 characterIteratorWrapper
 =
 {
-0
+nullptr
 0
 0
 0
@@ -2078,7 +2078,7 @@ if
 iter
 !
 =
-0
+nullptr
 )
 {
 if
@@ -2086,7 +2086,7 @@ if
 charIter
 !
 =
-0
+nullptr
 )
 {
 *
@@ -2284,7 +2284,7 @@ UCharIterator
 replaceableIterator
 =
 {
-0
+nullptr
 0
 0
 0
@@ -2321,7 +2321,7 @@ if
 iter
 !
 =
-0
+nullptr
 )
 {
 if
@@ -2329,7 +2329,7 @@ if
 rep
 !
 =
-0
+nullptr
 )
 {
 *
@@ -4564,7 +4564,7 @@ UCharIterator
 utf8Iterator
 =
 {
-0
+nullptr
 0
 0
 0
@@ -4603,7 +4603,7 @@ if
 iter
 !
 =
-0
+nullptr
 )
 {
 if
@@ -4611,7 +4611,7 @@ if
 s
 !
 =
-0
+nullptr
 &
 &
 length

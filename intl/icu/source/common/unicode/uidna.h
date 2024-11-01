@@ -51,7 +51,7 @@ enum
 {
 UIDNA_DEFAULT
 =
-0
+0x30
 #
 ifndef
 U_HIDE_DEPRECATED_API

@@ -142,7 +142,7 @@ CURR_ID
 -
 1
 )
-0
+nullptr
 )
 {
 }
@@ -187,7 +187,7 @@ getFilter
 )
 !
 =
-0
+nullptr
 )
 {
 result

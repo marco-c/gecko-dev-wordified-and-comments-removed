@@ -320,7 +320,6 @@ status
 uint32_t
 getDefaultParseOptions
 (
-void
 )
 const
 ;
@@ -562,7 +561,6 @@ UClassID
 U_EXPORT2
 getStaticClassID
 (
-void
 )
 ;
 virtual

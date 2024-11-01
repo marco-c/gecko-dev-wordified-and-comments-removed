@@ -26,9 +26,6 @@ uversion
 .
 h
 "
-#
-ifndef
-U_HIDE_DRAFT_API
 typedef
 enum
 UDisplayOptionsGrammaticalCase
@@ -279,8 +276,6 @@ UDISPOPT_SUBSTITUTE_HANDLING_NO_SUBSTITUTE
 }
 UDisplayOptionsSubstituteHandling
 ;
-#
-endif
 #
 endif
 #

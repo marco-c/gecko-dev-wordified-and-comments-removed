@@ -308,7 +308,7 @@ indexes
 Normalizer2Impl
 :
 :
-IX_MIN_MAYBE_YES
+IX_MIN_MAYBE_NO
 ]
 -
 (

@@ -223,7 +223,6 @@ Locale
 &
 getLocale
 (
-void
 )
 const
 ;
@@ -601,7 +600,6 @@ virtual
 UClassID
 getDynamicClassID
 (
-void
 )
 const
 override
@@ -611,7 +609,6 @@ UClassID
 U_EXPORT2
 getStaticClassID
 (
-void
 )
 ;
 #

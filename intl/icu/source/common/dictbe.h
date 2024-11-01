@@ -98,6 +98,10 @@ handles
 (
 UChar32
 c
+const
+char
+*
+locale
 )
 const
 override

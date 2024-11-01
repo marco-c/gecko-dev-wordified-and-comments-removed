@@ -456,8 +456,6 @@ err
 U_ZERO_ERROR
 ;
 }
-return
-;
 }
 U_CAPI
 void
@@ -513,8 +511,6 @@ reason
 void
 )
 err
-;
-return
 ;
 }
 U_CAPI
@@ -1564,8 +1560,6 @@ err2
 return
 ;
 }
-return
-;
 }
 U_CAPI
 void

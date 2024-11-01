@@ -53,14 +53,13 @@ CharString
 ;
 namespace
 number
-{
-namespace
+:
+:
 impl
 {
 class
 DecimalQuantity
 ;
-}
 }
 class
 U_I18N_API
@@ -242,7 +241,6 @@ kObject
 Type
 getType
 (
-void
 )
 const
 ;
@@ -255,7 +253,6 @@ const
 double
 getDouble
 (
-void
 )
 const
 {
@@ -277,17 +274,19 @@ const
 int32_t
 getLong
 (
-void
 )
 const
 {
 return
-(
+static_cast
+<
 int32_t
-)
+>
+(
 fValue
 .
 fInt64
+)
 ;
 }
 int32_t
@@ -302,7 +301,6 @@ const
 int64_t
 getInt64
 (
-void
 )
 const
 {
@@ -382,7 +380,6 @@ UnicodeString
 &
 getString
 (
-void
 )
 const
 ;
@@ -402,7 +399,6 @@ UnicodeString
 &
 getString
 (
-void
 )
 ;
 UnicodeString
@@ -714,7 +710,6 @@ private
 void
 dispose
 (
-void
 )
 ;
 void
@@ -838,7 +833,6 @@ Formattable
 :
 getString
 (
-void
 )
 const
 {
@@ -857,7 +851,6 @@ Formattable
 :
 getString
 (
-void
 )
 {
 return

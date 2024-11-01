@@ -118,7 +118,6 @@ const
 UDate
 getTime
 (
-void
 )
 const
 ;
@@ -134,7 +133,6 @@ TimeZoneRule
 *
 getFrom
 (
-void
 )
 const
 ;
@@ -177,7 +175,6 @@ TimeZoneRule
 *
 getTo
 (
-void
 )
 const
 ;
@@ -201,14 +198,12 @@ UClassID
 U_EXPORT2
 getStaticClassID
 (
-void
 )
 ;
 virtual
 UClassID
 getDynamicClassID
 (
-void
 )
 const
 override

@@ -114,6 +114,12 @@ norm
 override
 ;
 UnicodeString
+maybeNoMappingsOnly
+;
+UnicodeString
+maybeNoMappingsAndCompositions
+;
+UnicodeString
 maybeYesCompositions
 ;
 UnicodeString

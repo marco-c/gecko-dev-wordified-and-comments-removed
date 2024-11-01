@@ -62,8 +62,8 @@ h
 U_NAMESPACE_BEGIN
 namespace
 numparse
-{
-namespace
+:
+:
 impl
 {
 class
@@ -179,7 +179,6 @@ fCp
 }
 ;
 }
-}
 #
 if
 U_PF_WINDOWS
@@ -250,8 +249,8 @@ CompactUnicodeString
 endif
 namespace
 numparse
-{
-namespace
+:
+:
 impl
 {
 struct
@@ -755,7 +754,6 @@ status
 ;
 }
 ;
-}
 }
 U_NAMESPACE_END
 #

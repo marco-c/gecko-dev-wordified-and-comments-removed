@@ -133,6 +133,17 @@ static
 const
 Normalizer2
 *
+getNFKCSimpleCasefoldInstance
+(
+UErrorCode
+&
+errorCode
+)
+;
+static
+const
+Normalizer2
+*
 getInstance
 (
 const

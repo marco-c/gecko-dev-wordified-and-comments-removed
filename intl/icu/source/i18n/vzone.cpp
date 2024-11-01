@@ -480,8 +480,6 @@ getBuffer
 resultLength
 )
 ;
-return
-;
 }
 U_CAPI
 void
@@ -557,8 +555,6 @@ getBuffer
 resultLength
 )
 ;
-return
-;
 }
 U_CAPI
 void
@@ -633,8 +629,6 @@ getBuffer
 )
 resultLength
 )
-;
-return
 ;
 }
 U_CAPI

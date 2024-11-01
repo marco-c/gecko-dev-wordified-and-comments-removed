@@ -55,8 +55,8 @@ h
 U_NAMESPACE_BEGIN
 namespace
 number
-{
-namespace
+:
+:
 impl
 {
 class
@@ -124,7 +124,14 @@ src
 noexcept
 ;
 void
-setMinInteger
+decreaseMinIntegerTo
+(
+int32_t
+minInt
+)
+;
+void
+increaseMinIntegerTo
 (
 int32_t
 minInt
@@ -812,7 +819,6 @@ switchStorage
 ;
 }
 ;
-}
 }
 U_NAMESPACE_END
 #

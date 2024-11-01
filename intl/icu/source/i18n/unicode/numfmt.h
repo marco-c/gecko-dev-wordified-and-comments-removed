@@ -122,14 +122,9 @@ kRoundHalfEven
 kRoundHalfDown
 kRoundHalfUp
 kRoundUnnecessary
-#
-ifndef
-U_HIDE_DRAFT_API
 kRoundHalfOdd
 kRoundHalfCeiling
 kRoundHalfFloor
-#
-endif
 }
 ;
 enum
@@ -610,7 +605,6 @@ const
 UBool
 isParseIntegerOnly
 (
-void
 )
 const
 ;
@@ -634,7 +628,6 @@ virtual
 UBool
 isLenient
 (
-void
 )
 const
 ;
@@ -837,7 +830,6 @@ StringEnumeration
 U_EXPORT2
 getAvailableLocales
 (
-void
 )
 ;
 #
@@ -845,7 +837,6 @@ endif
 UBool
 isGroupingUsed
 (
-void
 )
 const
 ;
@@ -860,7 +851,6 @@ newValue
 int32_t
 getMaximumIntegerDigits
 (
-void
 )
 const
 ;
@@ -875,7 +865,6 @@ newValue
 int32_t
 getMinimumIntegerDigits
 (
-void
 )
 const
 ;
@@ -890,7 +879,6 @@ newValue
 int32_t
 getMaximumFractionDigits
 (
-void
 )
 const
 ;
@@ -905,7 +893,6 @@ newValue
 int32_t
 getMinimumFractionDigits
 (
-void
 )
 const
 ;
@@ -965,7 +952,6 @@ virtual
 ERoundingMode
 getRoundingMode
 (
-void
 )
 const
 ;
@@ -984,14 +970,12 @@ UClassID
 U_EXPORT2
 getStaticClassID
 (
-void
 )
 ;
 virtual
 UClassID
 getDynamicClassID
 (
-void
 )
 const
 override
@@ -1166,7 +1150,6 @@ virtual
 UBool
 visible
 (
-void
 )
 const
 =
@@ -1246,7 +1229,6 @@ virtual
 UBool
 visible
 (
-void
 )
 const
 override

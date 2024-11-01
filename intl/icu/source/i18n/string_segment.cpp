@@ -270,7 +270,6 @@ fStart
 )
 ;
 }
-const
 UnicodeString
 StringSegment
 :
