@@ -968,11 +968,6 @@ trending
 +
 json
 "
-SEARCH_FORM
-:
-"
-searchform
-"
 }
 ENGINES_URLS
 :
