@@ -35703,16 +35703,6 @@ endif
 pref
 (
 "
-security
-.
-external_protocol_requires_permission
-"
-true
-)
-;
-pref
-(
-"
 extensions
 .
 formautofill
