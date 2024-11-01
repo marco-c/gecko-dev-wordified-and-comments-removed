@@ -731,7 +731,7 @@ RemoveListener
 )
 ;
 bool
-isDraggingThumb
+IsDraggingThumb
 (
 )
 const
@@ -889,7 +889,9 @@ nscoord
 mRepeatDirection
 ;
 bool
-mDragFinished
+mDragInProgress
+=
+false
 ;
 bool
 mUserChanged
