@@ -1130,6 +1130,9 @@ rv
 false
 )
 ;
+#
+ifdef
+MOZ_BUILD_APP_IS_BROWSER
 rv
 =
 icon
@@ -1150,6 +1153,8 @@ rv
 false
 )
 ;
+#
+endif
 rv
 =
 icon
