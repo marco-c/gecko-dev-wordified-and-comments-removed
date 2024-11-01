@@ -314,8 +314,7 @@ DOMString
 &
 aResult
 )
-{
-}
+;
 void
 GetPropertyType
 (
