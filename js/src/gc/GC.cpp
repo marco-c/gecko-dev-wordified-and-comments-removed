@@ -1377,6 +1377,7 @@ arena
 release
 (
 this
+&
 lock
 )
 ;

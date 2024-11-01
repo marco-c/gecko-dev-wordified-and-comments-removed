@@ -742,8 +742,8 @@ GCRuntime
 gc
 const
 AutoLockGC
-&
-lock
+*
+maybeLock
 )
 ;
 uintptr_t

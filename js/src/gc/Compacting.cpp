@@ -4270,6 +4270,7 @@ arena
 release
 (
 this
+&
 lock
 )
 ;
