@@ -110,6 +110,20 @@ name
 }
 "
         
+routing_key
+=
+routing_key
+.
+replace
+(
+"
+/
+"
+"
+-
+"
+)
+        
 if
 task
 [
