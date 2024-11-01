@@ -544,6 +544,15 @@ inspector
 "
 )
 ;
+nodeSelectors
+=
+[
+.
+.
+.
+nodeSelectors
+]
+;
 const
 querySelectors
 =
