@@ -3992,10 +3992,6 @@ record_in_processes
 '
 main
 '
-operating_systems
-:
--
-windows
 bookmarks_toolbar_bookmark_added
 :
 bug_numbers
