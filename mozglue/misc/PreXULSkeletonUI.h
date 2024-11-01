@@ -158,6 +158,9 @@ bookmarksToolbarShown
 bool
 rtlEnabled
 ;
+bool
+verticalTabs
+;
 SkeletonUIDensity
 uiDensity
 ;
@@ -186,6 +189,7 @@ BookmarksToolbarShown
 RtlEnabled
 TouchDensity
 CompactDensity
+VerticalTabs
 }
 ;
 struct
@@ -198,7 +202,7 @@ uint32_t
 toolbarForegroundColor
 ;
 uint32_t
-tabBarColor
+titlebarColor
 ;
 uint32_t
 tabColor
