@@ -1247,6 +1247,9 @@ cmd_close
 cmd_closeWindow
 "
 "
+cmd_minimizeWindow
+"
+"
 cmd_quitApplication
 "
 "
@@ -1273,9 +1276,6 @@ NewUserContextTab
 Tools
 :
 PrivateBrowsing
-"
-"
-minimizeWindow
 "
 "
 zoomWindow
