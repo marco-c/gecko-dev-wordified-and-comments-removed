@@ -44788,6 +44788,14 @@ mInInvalidSubtree
 {
 if
 (
+aForChild
+!
+=
+mPrevFrame
+)
+{
+if
+(
 aIsTransformed
 )
 {
@@ -44869,6 +44877,7 @@ aBuilder
 mCurrentOffsetToReferenceFrame
 )
 ;
+}
 }
 if
 (
