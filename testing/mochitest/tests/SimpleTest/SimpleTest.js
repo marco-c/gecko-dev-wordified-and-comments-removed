@@ -7020,6 +7020,13 @@ showTestReport
 {
 SpecialPowers
 .
+cleanupAllClipboard
+(
+window
+)
+;
+SpecialPowers
+.
 flushPermissions
 (
 function

@@ -4167,6 +4167,14 @@ resolve
 )
 )
 ;
+window
+.
+SpecialPowers
+.
+cleanupAllClipboard
+(
+)
+;
 if
 (
 gConfig
