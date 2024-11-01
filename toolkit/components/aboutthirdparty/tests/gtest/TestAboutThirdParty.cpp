@@ -885,7 +885,10 @@ InstallLocationT
 >
 locations
 (
-ArrayLength
+std
+:
+:
+size
 (
 kDirectoriesUnsorted
 )
@@ -900,7 +903,10 @@ i
 ;
 i
 <
-ArrayLength
+std
+:
+:
+size
 (
 kDirectoriesUnsorted
 )

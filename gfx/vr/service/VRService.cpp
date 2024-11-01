@@ -1552,7 +1552,10 @@ sensorState
 .
 inputFrameID
 %
-ArrayLength
+std
+:
+:
+size
 (
 mFrameStartTime
 )
@@ -1630,7 +1633,10 @@ i
 ;
 i
 <
-ArrayLength
+std
+:
+:
+size
 (
 mBrowserState
 .
@@ -1735,7 +1741,10 @@ state
 .
 inputFrameID
 %
-ArrayLength
+std
+:
+:
+size
 (
 mFrameStartTime
 )

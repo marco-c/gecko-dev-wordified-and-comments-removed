@@ -6250,7 +6250,10 @@ bool
 >
 updateTracker
 (
-ArrayLength
+std
+:
+:
+size
 (
 kRelationTypeAtoms
 )
@@ -6591,7 +6594,10 @@ MOZ_ASSERT
 updateCount
 =
 =
-ArrayLength
+std
+:
+:
+size
 (
 kRelationTypeAtoms
 )

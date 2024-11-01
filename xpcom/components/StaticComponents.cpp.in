@@ -1509,7 +1509,10 @@ nsCString
 >
 >
 (
-MOZ_ARRAY_LENGTH
+std
+:
+:
+size
 (
 gComponentJSMs
 )
@@ -1607,7 +1610,10 @@ nsCString
 >
 >
 (
-MOZ_ARRAY_LENGTH
+std
+:
+:
+size
 (
 gComponentESModules
 )
@@ -1680,7 +1686,10 @@ GetJSServices
 return
 {
 gJSServices
-ArrayLength
+std
+:
+:
+size
 (
 gJSServices
 )

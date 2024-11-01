@@ -401,6 +401,17 @@ end
 )
 ;
 }
+constexpr
+size_t
+size
+(
+)
+const
+{
+return
+Length
+;
+}
 reverse_iterator
 rbegin
 (

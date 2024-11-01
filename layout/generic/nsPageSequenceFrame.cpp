@@ -323,7 +323,10 @@ ifdef
 DEBUG
 MOZ_ASSERT
 (
-ArrayLength
+std
+:
+:
+size
 (
 kSupportedPagesPerSheet
 )

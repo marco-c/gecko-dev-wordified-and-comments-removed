@@ -62,7 +62,10 @@ const
 int
 numberOfElevations
 =
-MOZ_ARRAY_LENGTH
+std
+:
+:
+size
 (
 irc_composite_c_r0195
 )

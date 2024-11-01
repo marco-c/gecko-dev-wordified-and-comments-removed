@@ -823,7 +823,10 @@ StringFromGUID2
 (
 aGUID
 str
-ArrayLength
+std
+:
+:
+size
 (
 str
 )

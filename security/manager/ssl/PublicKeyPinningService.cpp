@@ -1040,7 +1040,10 @@ BinarySearchIf
 (
 kPublicKeyPinningPreloadList
 0
-ArrayLength
+std
+:
+:
+size
 (
 kPublicKeyPinningPreloadList
 )

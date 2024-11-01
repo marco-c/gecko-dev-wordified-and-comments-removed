@@ -3096,7 +3096,10 @@ const
 StyleDirection
 dirValues
 [
-MOZ_ARRAY_LENGTH
+std
+:
+:
+size
 (
 dirs
 )
@@ -3122,7 +3125,10 @@ i
 ;
 i
 <
-ArrayLength
+std
+:
+:
+size
 (
 dirs
 )
@@ -3235,7 +3241,10 @@ const
 StyleMathStyle
 mathStyle
 [
-MOZ_ARRAY_LENGTH
+std
+:
+:
+size
 (
 displaystyles
 )
@@ -3261,7 +3270,10 @@ i
 ;
 i
 <
-ArrayLength
+std
+:
+:
+size
 (
 displaystyles
 )

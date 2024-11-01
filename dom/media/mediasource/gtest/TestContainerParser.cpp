@@ -112,7 +112,10 @@ i
 ;
 i
 <
-ArrayLength
+std
+:
+:
+size
 (
 containerTypes
 )
@@ -204,7 +207,10 @@ buffer
 AppendElements
 (
 test
-ArrayLength
+std
+:
+:
+size
 (
 test
 )

@@ -103,13 +103,6 @@ h
 #
 include
 "
-ArrayUtils
-.
-h
-"
-#
-include
-"
 BigEndian
 .
 h
@@ -1337,7 +1330,10 @@ assert
 (
 idx
 <
-MOZ_ARRAY_LENGTH
+std
+:
+:
+size
 (
 sAlphabet
 )

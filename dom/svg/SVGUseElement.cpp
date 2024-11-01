@@ -3105,7 +3105,10 @@ LengthAttributesInfo
 (
 mLengthAttributes
 sLengthInfo
-ArrayLength
+std
+:
+:
+size
 (
 sLengthInfo
 )
@@ -3128,7 +3131,10 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-ArrayLength
+std
+:
+:
+size
 (
 sStringInfo
 )

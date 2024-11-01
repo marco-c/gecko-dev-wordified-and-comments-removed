@@ -1720,7 +1720,10 @@ i
 ;
 i
 <
-ArrayLength
+std
+:
+:
+size
 (
 kIMESelections
 )

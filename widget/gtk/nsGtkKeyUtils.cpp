@@ -2731,7 +2731,10 @@ i
 ;
 i
 <
-ArrayLength
+std
+:
+:
+size
 (
 mod
 )
@@ -3214,7 +3217,10 @@ j
 ;
 j
 <
-ArrayLength
+std
+:
+:
+size
 (
 mod
 )
@@ -10190,7 +10196,10 @@ MOZ_ASSERT
 (
 indexOfArray
 <
-ArrayLength
+std
+:
+:
+size
 (
 mKeyboardState
 .

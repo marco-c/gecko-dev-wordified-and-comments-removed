@@ -2209,7 +2209,10 @@ const
 int32_t
 arrowNumPoints
 =
-ArrayLength
+std
+:
+:
+size
 (
 arrowPolygonX
 )

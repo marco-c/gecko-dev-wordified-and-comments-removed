@@ -140,7 +140,10 @@ nsTextFormatter
 snprintf
 (
 buf
-ArrayLength
+std
+:
+:
+size
 (
 buf
 )

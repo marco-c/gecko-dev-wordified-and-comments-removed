@@ -376,7 +376,10 @@ nsAutoCString
 inserted
 (
 sCharArray
-ArrayLength
+std
+:
+:
+size
 (
 sCharArray
 )
@@ -393,7 +396,10 @@ Length
 )
 =
 =
-ArrayLength
+std
+:
+:
+size
 (
 sCharArray
 )
@@ -638,7 +644,10 @@ nsAutoCString
 insertedUTF8
 (
 sCharArray
-ArrayLength
+std
+:
+:
+size
 (
 sCharArray
 )
@@ -655,7 +664,10 @@ Length
 )
 =
 =
-ArrayLength
+std
+:
+:
+size
 (
 sCharArray
 )

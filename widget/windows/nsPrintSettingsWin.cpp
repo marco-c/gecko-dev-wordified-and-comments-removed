@@ -607,7 +607,10 @@ aPaperSize
 <
 int32_t
 (
-ArrayLength
+std
+:
+:
+size
 (
 kPaperSizeUnits
 )

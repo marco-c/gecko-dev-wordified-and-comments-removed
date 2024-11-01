@@ -256,7 +256,10 @@ DUMMY_FINAL_NAME_VALUE
 ;
 static_assert
 (
-MOZ_ARRAY_LENGTH
+std
+:
+:
+size
 (
 ALL_NAMES
 )

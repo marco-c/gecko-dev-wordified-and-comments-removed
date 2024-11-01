@@ -1057,7 +1057,10 @@ fullKeyboardAccess
 ;
 static_assert
 (
-ArrayLength
+std
+:
+:
+size
 (
 sIntPrefs
 )
@@ -1125,7 +1128,10 @@ cursorScale
 ;
 static_assert
 (
-ArrayLength
+std
+:
+:
+size
 (
 sFloatPrefs
 )
@@ -1819,7 +1825,10 @@ themedScrollbarThumbInactive
 ;
 static_assert
 (
-ArrayLength
+std
+:
+:
+size
 (
 sColorPrefs
 )
@@ -1954,7 +1963,10 @@ field
 ;
 static_assert
 (
-ArrayLength
+std
+:
+:
+size
 (
 sFontPrefs
 )

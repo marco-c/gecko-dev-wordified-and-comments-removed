@@ -2218,10 +2218,10 @@ if
 tempBufferPos
 >
 =
-mozilla
+std
 :
 :
-ArrayLength
+size
 (
 tempBuffer
 )

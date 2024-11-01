@@ -304,7 +304,10 @@ i
 ;
 i
 <
-ArrayLength
+std
+:
+:
+size
 (
 sStringListNames
 )
@@ -1040,7 +1043,10 @@ i
 ;
 i
 <
-ArrayLength
+std
+:
+:
+size
 (
 sStringListNames
 )
@@ -1132,7 +1138,10 @@ i
 ;
 i
 <
-ArrayLength
+std
+:
+:
+size
 (
 sStringListNames
 )
@@ -1214,7 +1223,10 @@ MOZ_ASSERT
 (
 aAttrEnum
 <
-ArrayLength
+std
+:
+:
+size
 (
 sStringListNames
 )

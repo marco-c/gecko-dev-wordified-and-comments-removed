@@ -734,7 +734,10 @@ msg
 data
 .
 mName
-ArrayLength
+std
+:
+:
+size
 (
 msg
 -
@@ -946,7 +949,10 @@ strlen
 (
 aName
 )
-ArrayLength
+std
+:
+:
+size
 (
 msg
 -
