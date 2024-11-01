@@ -514,6 +514,11 @@ cMeta
 static
 const
 int32_t
+cOS
+;
+static
+const
+int32_t
 cShiftMask
 ;
 static
@@ -530,6 +535,11 @@ static
 const
 int32_t
 cMetaMask
+;
+static
+const
+int32_t
+cOSMask
 ;
 static
 const
