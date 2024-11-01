@@ -3197,6 +3197,9 @@ gn_args
 rtc_build_ssl
 =
 false
+libsrtp_build_boringssl
+=
+false
 '
 }
 '
