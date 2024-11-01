@@ -114,6 +114,15 @@ sys
 mjs
 "
 "
+browser
+/
+simple_unknown_uri_helpers
+.
+sys
+.
+mjs
+"
+"
 unit
 /
 test_http3_prio_helpers
