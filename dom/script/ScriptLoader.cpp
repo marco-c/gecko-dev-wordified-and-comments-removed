@@ -13585,16 +13585,14 @@ CalculateBytecodeCacheFlag
 aRequest
 )
 ;
-aExec
-.
-SetEncodeBytecode
-(
+bool
+encodeBytecode
+=
 aRequest
 -
 >
 PassedConditionForBytecodeEncoding
 (
-)
 )
 ;
 if
@@ -13656,6 +13654,7 @@ GetScriptLoadContext
 (
 )
 aRv
+encodeBytecode
 )
 ;
 }
@@ -13754,6 +13753,7 @@ Compile
 aCompileOptions
 source
 aRv
+encodeBytecode
 )
 ;
 }
@@ -13863,13 +13863,6 @@ NS_ERROR_FAILURE
 return
 ;
 }
-aExec
-.
-SetEncodeBytecode
-(
-true
-)
-;
 bool
 incrementalEncodingAlreadyStarted
 =
@@ -13889,6 +13882,7 @@ stencil
 )
 incrementalEncodingAlreadyStarted
 aRv
+true
 )
 ;
 if

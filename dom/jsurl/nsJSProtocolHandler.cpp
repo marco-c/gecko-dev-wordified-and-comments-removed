@@ -1455,13 +1455,6 @@ Failed
 {
 exec
 .
-SetCoerceToString
-(
-true
-)
-;
-exec
-.
 Compile
 (
 options
@@ -1489,6 +1482,7 @@ ExecScript
 &
 v
 erv
+true
 )
 ;
 }

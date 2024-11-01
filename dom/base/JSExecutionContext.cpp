@@ -396,14 +396,6 @@ mSkip
 (
 false
 )
-mCoerceToString
-(
-false
-)
-mEncodeBytecode
-(
-false
-)
 #
 ifdef
 DEBUG
@@ -528,6 +520,8 @@ aContext
 ErrorResult
 &
 aRv
+bool
+aEncodeBytecode
 )
 {
 MOZ_ASSERT
@@ -643,6 +637,7 @@ stencil
 )
 unused
 aRv
+aEncodeBytecode
 &
 storage
 )
@@ -674,6 +669,8 @@ Unit
 >
 &
 aSrcBuf
+bool
+aEncodeBytecode
 ErrorResult
 &
 aRv
@@ -807,6 +804,7 @@ stencil
 )
 unused
 aRv
+aEncodeBytecode
 )
 ;
 }
@@ -834,12 +832,15 @@ aSrcBuf
 ErrorResult
 &
 aRv
+bool
+aEncodeBytecode
 )
 {
 InternalCompile
 (
 aCompileOptions
 aSrcBuf
+aEncodeBytecode
 aRv
 )
 ;
@@ -868,12 +869,15 @@ aSrcBuf
 ErrorResult
 &
 aRv
+bool
+aEncodeBytecode
 )
 {
 InternalCompile
 (
 aCompileOptions
 aSrcBuf
+aEncodeBytecode
 aRv
 )
 ;
@@ -897,6 +901,8 @@ aScript
 ErrorResult
 &
 aRv
+bool
+aEncodeBytecode
 )
 {
 MOZ_ASSERT
@@ -971,6 +977,7 @@ Compile
 aCompileOptions
 srcBuf
 aRv
+aEncodeBytecode
 )
 ;
 }
@@ -1180,6 +1187,8 @@ incrementalEncodingAlreadyStarted
 ErrorResult
 &
 aRv
+bool
+aEncodeBytecode
 JS
 :
 :
@@ -1242,7 +1251,7 @@ return
 }
 if
 (
-mEncodeBytecode
+aEncodeBytecode
 )
 {
 if
@@ -1517,6 +1526,8 @@ aRetValue
 ErrorResult
 &
 aRv
+bool
+aCoerceToString
 )
 {
 MOZ_ASSERT
@@ -1571,7 +1582,7 @@ false
 endif
 if
 (
-mCoerceToString
+aCoerceToString
 &
 &
 IsPromiseValue
@@ -1590,7 +1601,7 @@ setUndefined
 }
 if
 (
-mCoerceToString
+aCoerceToString
 &
 &
 !
