@@ -16083,7 +16083,7 @@ headerShown
 {
 JS_LOG
 (
-wasmCodeMetaStats
+wasmPerf
 mozilla
 :
 :
@@ -16225,7 +16225,7 @@ targetFuncIndex
 ;
 JS_LOG
 (
-wasmCodeMetaStats
+wasmPerf
 mozilla
 :
 :

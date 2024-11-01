@@ -256,12 +256,12 @@ debugging
 \
 _
 (
-wasmCodeMetaStats
+wasmPerf
 )
 /
 *
 Wasm
-code
+performance
 statistics
 *
 /
