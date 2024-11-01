@@ -53,7 +53,7 @@ mozilla
 uniffi
 {
 class
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 protected
 :
@@ -150,7 +150,7 @@ public
 :
 virtual
 ~
-UniffiHandlerBase
+UniffiSyncCallHandler
 (
 )
 =
@@ -162,7 +162,7 @@ CallSync
 (
 UniquePtr
 <
-UniffiHandlerBase
+UniffiSyncCallHandler
 >
 aHandler
 const
@@ -210,11 +210,11 @@ dom
 :
 Promise
 >
-CallAsync
+CallAsyncWrapper
 (
 UniquePtr
 <
-UniffiHandlerBase
+UniffiSyncCallHandler
 >
 aHandler
 const

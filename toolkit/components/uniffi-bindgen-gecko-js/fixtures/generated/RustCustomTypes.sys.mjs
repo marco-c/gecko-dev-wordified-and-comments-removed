@@ -2414,7 +2414,7 @@ e
 return
 UniFFIScaffolding
 .
-callAsync
+callAsyncWrapper
 (
 60
 /

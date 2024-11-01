@@ -2119,7 +2119,7 @@ functionCall
 return
 UniFFIScaffolding
 .
-callAsync
+callAsyncWrapper
 (
 3
 /
@@ -2310,7 +2310,7 @@ e
 return
 UniFFIScaffolding
 .
-callAsync
+callAsyncWrapper
 (
 5
 /
@@ -2471,7 +2471,7 @@ functionCall
 return
 UniFFIScaffolding
 .
-callAsync
+callAsyncWrapper
 (
 7
 /

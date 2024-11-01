@@ -24,7 +24,7 @@ return_type
 "
 func
 .
-is_js_async
+use_async_wrapper
 (
 config
 )
@@ -46,7 +46,7 @@ call_constructor
 (
 cons
 object_type
-is_async
+use_async_wrapper
 )
 %
 }
@@ -63,7 +63,7 @@ object_type
 )
 "
 "
-is_async
+use_async_wrapper
 )
 -
 %
@@ -82,7 +82,7 @@ call_method
 (
 method
 object_type
-is_async
+use_async_wrapper
 )
 %
 }
@@ -103,7 +103,7 @@ object_type
 ffi_converter
 (
 )
-is_async
+use_async_wrapper
 )
 -
 %
@@ -123,7 +123,7 @@ _call_scaffolding_function
 func
 return_type
 receiver_ffi_converter
-is_async
+use_async_wrapper
 )
 %
 }
@@ -342,13 +342,13 @@ endfor
 %
 -
 if
-is_async
+use_async_wrapper
 %
 }
 return
 UniFFIScaffolding
 .
-callAsync
+callAsyncWrapper
 (
 {
 %
@@ -471,7 +471,7 @@ endfor
 %
 -
 if
-is_async
+use_async_wrapper
 %
 }
 try

@@ -1811,7 +1811,7 @@ functionCall
 return
 UniFFIScaffolding
 .
-callAsync
+callAsyncWrapper
 (
 150
 /
@@ -1924,7 +1924,7 @@ e
 return
 UniFFIScaffolding
 .
-callAsync
+callAsyncWrapper
 (
 139
 /
@@ -2059,7 +2059,7 @@ e
 return
 UniFFIScaffolding
 .
-callAsync
+callAsyncWrapper
 (
 140
 /
@@ -2194,7 +2194,7 @@ e
 return
 UniFFIScaffolding
 .
-callAsync
+callAsyncWrapper
 (
 141
 /
@@ -2319,7 +2319,7 @@ e
 return
 UniFFIScaffolding
 .
-callAsync
+callAsyncWrapper
 (
 142
 /
@@ -2454,7 +2454,7 @@ e
 return
 UniFFIScaffolding
 .
-callAsync
+callAsyncWrapper
 (
 143
 /
@@ -2548,7 +2548,7 @@ functionCall
 return
 UniFFIScaffolding
 .
-callAsync
+callAsyncWrapper
 (
 144
 /
@@ -2646,7 +2646,7 @@ functionCall
 return
 UniFFIScaffolding
 .
-callAsync
+callAsyncWrapper
 (
 145
 /
@@ -2734,7 +2734,7 @@ functionCall
 return
 UniFFIScaffolding
 .
-callAsync
+callAsyncWrapper
 (
 146
 /
@@ -2832,7 +2832,7 @@ functionCall
 return
 UniFFIScaffolding
 .
-callAsync
+callAsyncWrapper
 (
 147
 /
@@ -2930,7 +2930,7 @@ functionCall
 return
 UniFFIScaffolding
 .
-callAsync
+callAsyncWrapper
 (
 148
 /
@@ -3013,7 +3013,7 @@ functionCall
 return
 UniFFIScaffolding
 .
-callAsync
+callAsyncWrapper
 (
 149
 /
@@ -4738,7 +4738,7 @@ e
 return
 UniFFIScaffolding
 .
-callAsync
+callAsyncWrapper
 (
 136
 /
@@ -4828,7 +4828,7 @@ functionCall
 return
 UniFFIScaffolding
 .
-callAsync
+callAsyncWrapper
 (
 137
 /
@@ -4943,7 +4943,7 @@ e
 return
 UniFFIScaffolding
 .
-callAsync
+callAsyncWrapper
 (
 138
 /

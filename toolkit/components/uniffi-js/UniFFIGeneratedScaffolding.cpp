@@ -11412,7 +11412,7 @@ class
 ScaffoldingCallHandlerUniffiErrorSupportFnFuncSetApplicationErrorReporter
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -11571,7 +11571,7 @@ class
 ScaffoldingCallHandlerUniffiErrorSupportFnFuncUnsetApplicationErrorReporter
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -11675,7 +11675,7 @@ class
 ScaffoldingCallHandlerUniffiRelevancyFnFuncScore
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -11935,7 +11935,7 @@ class
 ScaffoldingCallHandlerUniffiRelevancyFnMethodRelevancystoreCalculateMetrics
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -12143,7 +12143,7 @@ class
 ScaffoldingCallHandlerUniffiRelevancyFnMethodRelevancystoreClose
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -12305,7 +12305,7 @@ class
 ScaffoldingCallHandlerUniffiRelevancyFnMethodRelevancystoreIngest
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -12568,7 +12568,7 @@ class
 ScaffoldingCallHandlerUniffiRelevancyFnMethodRelevancystoreInterrupt
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -12730,7 +12730,7 @@ class
 ScaffoldingCallHandlerUniffiRelevancyFnMethodRelevancystoreUserInterestVector
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -12938,7 +12938,7 @@ class
 ScaffoldingCallHandlerUniffiRelevancyFnConstructorRelevancystoreNew
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -13146,7 +13146,7 @@ class
 ScaffoldingCallHandlerUniffiRemoteSettingsFnMethodRemotesettingsDownloadAttachmentToPath
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -13418,7 +13418,7 @@ class
 ScaffoldingCallHandlerUniffiRemoteSettingsFnMethodRemotesettingsGetRecords
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -13626,7 +13626,7 @@ class
 ScaffoldingCallHandlerUniffiRemoteSettingsFnMethodRemotesettingsGetRecordsSince
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -13889,7 +13889,7 @@ class
 ScaffoldingCallHandlerUniffiRemoteSettingsFnConstructorRemotesettingsNew
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -14097,7 +14097,7 @@ class
 ScaffoldingCallHandlerUniffiSuggestFnFuncRawSuggestionUrlMatches
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -14357,7 +14357,7 @@ class
 ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststoreClear
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -14519,7 +14519,7 @@ class
 ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststoreClearDismissedSuggestions
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -14681,7 +14681,7 @@ class
 ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststoreDismissSuggestion
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -14898,7 +14898,7 @@ class
 ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststoreFetchGlobalConfig
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -15106,7 +15106,7 @@ class
 ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststoreFetchProviderConfig
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -15369,7 +15369,7 @@ class
 ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststoreIngest
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -15632,7 +15632,7 @@ class
 ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststoreInterrupt
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -15849,7 +15849,7 @@ class
 ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststoreQuery
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -16112,7 +16112,7 @@ class
 ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststoreQueryWithMetrics
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -16375,7 +16375,7 @@ class
 ScaffoldingCallHandlerUniffiSuggestFnConstructorSuggeststoreNew
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -16638,7 +16638,7 @@ class
 ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststorebuilderBuild
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -16849,7 +16849,7 @@ class
 ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststorebuilderCachePath
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -17115,7 +17115,7 @@ class
 ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststorebuilderDataPath
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -17381,7 +17381,7 @@ class
 ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststorebuilderLoadExtension
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -17702,7 +17702,7 @@ class
 ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststorebuilderRemoteSettingsBucketName
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -17968,7 +17968,7 @@ class
 ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststorebuilderRemoteSettingsServer
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -18234,7 +18234,7 @@ class
 ScaffoldingCallHandlerUniffiSuggestFnConstructorSuggeststorebuilderNew
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -18387,7 +18387,7 @@ class
 ScaffoldingCallHandlerUniffiTabsFnMethodRemotecommandstoreAddRemoteCommand
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -18705,7 +18705,7 @@ class
 ScaffoldingCallHandlerUniffiTabsFnMethodRemotecommandstoreAddRemoteCommandAt
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -19078,7 +19078,7 @@ class
 ScaffoldingCallHandlerUniffiTabsFnMethodRemotecommandstoreGetUnsentCommands
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -19286,7 +19286,7 @@ class
 ScaffoldingCallHandlerUniffiTabsFnMethodRemotecommandstoreRemoveRemoteCommand
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -19604,7 +19604,7 @@ class
 ScaffoldingCallHandlerUniffiTabsFnMethodRemotecommandstoreSetPendingCommandSent
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -19867,7 +19867,7 @@ class
 ScaffoldingCallHandlerUniffiTabsFnMethodTabsbridgedengineApply
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -20075,7 +20075,7 @@ class
 ScaffoldingCallHandlerUniffiTabsFnMethodTabsbridgedengineEnsureCurrentSyncId
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -20338,7 +20338,7 @@ class
 ScaffoldingCallHandlerUniffiTabsFnMethodTabsbridgedengineLastSync
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -20546,7 +20546,7 @@ class
 ScaffoldingCallHandlerUniffiTabsFnMethodTabsbridgedenginePrepareForSync
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -20763,7 +20763,7 @@ class
 ScaffoldingCallHandlerUniffiTabsFnMethodTabsbridgedengineReset
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -20925,7 +20925,7 @@ class
 ScaffoldingCallHandlerUniffiTabsFnMethodTabsbridgedengineResetSyncId
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -21133,7 +21133,7 @@ class
 ScaffoldingCallHandlerUniffiTabsFnMethodTabsbridgedengineSetLastSync
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -21350,7 +21350,7 @@ class
 ScaffoldingCallHandlerUniffiTabsFnMethodTabsbridgedengineSetUploaded
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -21622,7 +21622,7 @@ class
 ScaffoldingCallHandlerUniffiTabsFnMethodTabsbridgedengineStoreIncoming
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -21839,7 +21839,7 @@ class
 ScaffoldingCallHandlerUniffiTabsFnMethodTabsbridgedengineSyncFinished
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -22001,7 +22001,7 @@ class
 ScaffoldingCallHandlerUniffiTabsFnMethodTabsbridgedengineSyncId
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -22209,7 +22209,7 @@ class
 ScaffoldingCallHandlerUniffiTabsFnMethodTabsbridgedengineSyncStarted
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -22371,7 +22371,7 @@ class
 ScaffoldingCallHandlerUniffiTabsFnMethodTabsbridgedengineWipe
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -22533,7 +22533,7 @@ class
 ScaffoldingCallHandlerUniffiTabsFnMethodTabsstoreBridgedEngine
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -22744,7 +22744,7 @@ class
 ScaffoldingCallHandlerUniffiTabsFnMethodTabsstoreCloseConnection
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -22906,7 +22906,7 @@ class
 ScaffoldingCallHandlerUniffiTabsFnMethodTabsstoreGetAll
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -23114,7 +23114,7 @@ class
 ScaffoldingCallHandlerUniffiTabsFnMethodTabsstoreNewRemoteCommandStore
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -23325,7 +23325,7 @@ class
 ScaffoldingCallHandlerUniffiTabsFnMethodTabsstoreRegisterWithSyncManager
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -23487,7 +23487,7 @@ class
 ScaffoldingCallHandlerUniffiTabsFnMethodTabsstoreSetLocalTabs
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -23704,7 +23704,7 @@ class
 ScaffoldingCallHandlerUniffiTabsFnConstructorTabsstoreNew
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -23915,7 +23915,7 @@ class
 ScaffoldingCallHandlerUniffiArithmeticalFnFuncAdd
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -24175,7 +24175,7 @@ class
 ScaffoldingCallHandlerUniffiArithmeticalFnFuncDiv
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -24435,7 +24435,7 @@ class
 ScaffoldingCallHandlerUniffiArithmeticalFnFuncEqual
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -24695,7 +24695,7 @@ class
 ScaffoldingCallHandlerUniffiArithmeticalFnFuncSub
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -24955,7 +24955,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiCustomTypesFnFuncGetCustomTypesDemo
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -25160,7 +25160,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiFixtureExternalTypesFnFuncGradient
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -25365,7 +25365,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiFixtureExternalTypesFnFuncIntersection
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -25625,7 +25625,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiFixtureCallbacksFnFuncLogEvenNumbers
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -25839,7 +25839,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiFixtureCallbacksFnFuncLogEvenNumbersMainThread
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -26053,7 +26053,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiGeometryFnFuncGradient
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -26258,7 +26258,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiGeometryFnFuncIntersection
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -26518,7 +26518,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiFixtureRefcountsFnFuncGetJsRefcount
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -26668,7 +26668,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiFixtureRefcountsFnFuncGetSingleton
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -26821,7 +26821,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiFixtureRefcountsFnMethodSingletonobjectMethod
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -26983,7 +26983,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnFuncCopieCarte
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -27188,7 +27188,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnFuncCopieDictionnaire
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -27393,7 +27393,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnFuncCopieEnumeration
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -27598,7 +27598,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnFuncCopieEnumerations
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -27803,7 +27803,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnFuncSwitcheroo
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -28008,7 +28008,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonBoolean
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -28271,7 +28271,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonEnum
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -28534,7 +28534,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonF32
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -28797,7 +28797,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonF64
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -29060,7 +29060,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonI16Dec
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -29323,7 +29323,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonI16Hex
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -29586,7 +29586,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonI32Dec
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -29849,7 +29849,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonI32Hex
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -30112,7 +30112,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonI64Dec
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -30375,7 +30375,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonI64Hex
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -30638,7 +30638,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonI8Dec
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -30901,7 +30901,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonI8Hex
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -31164,7 +31164,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonNull
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -31427,7 +31427,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonSequence
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -31690,7 +31690,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonString
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -31953,7 +31953,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonU16Dec
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -32216,7 +32216,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonU16Hex
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -32479,7 +32479,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonU32Dec
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -32742,7 +32742,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonU32Hex
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -33005,7 +33005,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonU32Oct
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -33268,7 +33268,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonU64Dec
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -33531,7 +33531,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonU64Hex
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -33794,7 +33794,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonU8Dec
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -34057,7 +34057,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonU8Hex
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -34320,7 +34320,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonZero
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -34583,7 +34583,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnConstructorOptionneurNew
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -34736,7 +34736,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodRetourneurIdentiqueBoolean
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -34999,7 +34999,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodRetourneurIdentiqueDouble
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -35262,7 +35262,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodRetourneurIdentiqueFloat
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -35525,7 +35525,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodRetourneurIdentiqueI16
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -35788,7 +35788,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodRetourneurIdentiqueI32
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -36051,7 +36051,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodRetourneurIdentiqueI64
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -36314,7 +36314,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodRetourneurIdentiqueI8
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -36577,7 +36577,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodRetourneurIdentiqueNombres
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -36840,7 +36840,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodRetourneurIdentiqueNombresSignes
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -37103,7 +37103,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodRetourneurIdentiqueOptionneurDictionnaire
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -37366,7 +37366,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodRetourneurIdentiqueString
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -37629,7 +37629,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodRetourneurIdentiqueU16
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -37892,7 +37892,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodRetourneurIdentiqueU32
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -38155,7 +38155,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodRetourneurIdentiqueU64
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -38418,7 +38418,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodRetourneurIdentiqueU8
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -38681,7 +38681,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnConstructorRetourneurNew
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -38834,7 +38834,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodStringifierToStringBoolean
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -39097,7 +39097,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodStringifierToStringDouble
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -39360,7 +39360,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodStringifierToStringFloat
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -39623,7 +39623,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodStringifierToStringI16
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -39886,7 +39886,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodStringifierToStringI32
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -40149,7 +40149,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodStringifierToStringI64
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -40412,7 +40412,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodStringifierToStringI8
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -40675,7 +40675,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodStringifierToStringU16
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -40938,7 +40938,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodStringifierToStringU32
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -41201,7 +41201,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodStringifierToStringU64
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -41464,7 +41464,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodStringifierToStringU8
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -41727,7 +41727,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodStringifierWellKnownString
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -41990,7 +41990,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiRondpointFnConstructorStringifierNew
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -42143,7 +42143,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiSpritesFnFuncTranslate
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -42403,7 +42403,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiSpritesFnMethodSpriteGetPosition
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -42611,7 +42611,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiSpritesFnMethodSpriteMoveBy
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -42828,7 +42828,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiSpritesFnMethodSpriteMoveTo
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -43045,7 +43045,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiSpritesFnConstructorSpriteNew
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -43253,7 +43253,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiSpritesFnConstructorSpriteNewRelativeTo
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -43516,7 +43516,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiTodolistFnFuncCreateEntryWith
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -43721,7 +43721,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiTodolistFnFuncGetDefaultList
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -43871,7 +43871,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiTodolistFnFuncSetDefaultList
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -44033,7 +44033,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiTodolistFnMethodTodolistAddEntries
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -44250,7 +44250,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiTodolistFnMethodTodolistAddEntry
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -44467,7 +44467,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiTodolistFnMethodTodolistAddItem
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -44684,7 +44684,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiTodolistFnMethodTodolistAddItems
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -44901,7 +44901,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiTodolistFnMethodTodolistClearItem
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -45118,7 +45118,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiTodolistFnMethodTodolistGetEntries
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -45326,7 +45326,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiTodolistFnMethodTodolistGetFirst
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -45534,7 +45534,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiTodolistFnMethodTodolistGetItems
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -45742,7 +45742,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiTodolistFnMethodTodolistGetLast
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -45950,7 +45950,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiTodolistFnMethodTodolistGetLastEntry
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -46158,7 +46158,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiTodolistFnMethodTodolistMakeDefault
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -46320,7 +46320,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiTodolistFnConstructorTodolistNew
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -46473,7 +46473,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiTraitInterfacesFnFuncMakeBuggyCalculator
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -46626,7 +46626,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiTraitInterfacesFnFuncMakeCalculator
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -46779,7 +46779,7 @@ class
 ScaffoldingCallHandlerUniffiUniffiTraitInterfacesFnMethodCalcAdd
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -47097,9 +47097,9 @@ aError
 endif
 UniquePtr
 <
-UniffiHandlerBase
+UniffiSyncCallHandler
 >
-GetHandler
+GetSyncCallHandler
 (
 uint64_t
 aId

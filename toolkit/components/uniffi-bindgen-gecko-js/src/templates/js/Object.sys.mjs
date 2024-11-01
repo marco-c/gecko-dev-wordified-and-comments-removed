@@ -167,7 +167,7 @@ constructors
 if
 object
 .
-is_constructor_async
+use_async_wrapper_for_constructor
 (
 config
 )
@@ -309,7 +309,7 @@ cons
 type_
 object
 .
-is_constructor_async
+use_async_wrapper_for_constructor
 (
 config
 )
@@ -371,7 +371,7 @@ meth
 type_
 object
 .
-is_method_async
+use_async_wrapper_for_method
 (
 meth
 config
