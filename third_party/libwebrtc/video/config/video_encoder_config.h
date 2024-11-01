@@ -485,6 +485,12 @@ ToString
 )
 const
 ;
+bool
+HasRequestedResolution
+(
+)
+const
+;
 VideoCodecType
 codec_type
 ;

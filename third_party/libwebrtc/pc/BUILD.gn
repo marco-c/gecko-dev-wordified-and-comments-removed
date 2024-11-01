@@ -15434,6 +15434,16 @@ api
 /
 video
 :
+resolution
+"
+"
+.
+.
+/
+api
+/
+video
+:
 video_bitrate_allocator_factory
 "
 "
