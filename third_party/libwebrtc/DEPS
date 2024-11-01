@@ -16837,16 +16837,6 @@ absl
 /
 types
 /
-optional
-.
-h
-"
-"
-+
-absl
-/
-types
-/
 variant
 .
 h
