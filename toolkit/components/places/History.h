@@ -228,6 +228,8 @@ RefPtr
 <
 VisitedQuery
 >
+&
+&
 )
 ;
 nsresult
