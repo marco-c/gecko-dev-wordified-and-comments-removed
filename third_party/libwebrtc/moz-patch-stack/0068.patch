@@ -134,10 +134,10 @@ receive_statistics_proxy
 .
 cc
 index
-25e88b47c5
+b248e2387a
 .
 .
-d2719778c6
+9f9296f720
 100644
 -
 -
@@ -160,10 +160,10 @@ receive_statistics_proxy
 .
 cc
 -
-811
+800
 8
 +
-811
+800
 13
 void
 ReceiveStatisticsProxy
