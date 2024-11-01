@@ -2369,6 +2369,11 @@ ATTR_AUTOPLAY
 static
 nsHtml5AttributeName
 *
+ATTR_AUTOCORRECT
+;
+static
+nsHtml5AttributeName
+*
 ATTR_AUTOCOMPLETE
 ;
 static
