@@ -361,13 +361,13 @@ Kotlin
 /
 Extracting
 the
-effective
-top
--
-level
+registrable
+domain
 domain
 (
 eTLD
++
+1
 )
 publicSuffixList
 .
