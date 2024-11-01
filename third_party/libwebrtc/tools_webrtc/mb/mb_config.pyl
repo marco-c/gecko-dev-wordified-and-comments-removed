@@ -1364,6 +1364,13 @@ perfetto
 '
 perfetto_x64
 '
+'
+openssl
+'
+:
+'
+openssl_x64
+'
 }
 '
 linux_msan
