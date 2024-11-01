@@ -147,7 +147,7 @@ aTitle
 )
 ;
 void
-StartViewSourceCharacters
+StartViewSourceBodyContents
 (
 )
 ;
