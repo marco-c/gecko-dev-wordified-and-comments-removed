@@ -1710,6 +1710,24 @@ tags
 ]
 )
 )
+          
+"
+remoteAsyncEvents
+"
+:
+bool_pref
+(
+"
+remote
+.
+events
+.
+async
+.
+enabled
+"
+)
+          
 }
     
 rv
