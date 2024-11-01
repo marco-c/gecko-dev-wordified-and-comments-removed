@@ -1056,11 +1056,6 @@ CreateForwardTsn
 )
 ;
 }
-Send
-(
-builder
-)
-;
 limit_forward_tsn_until_
 =
 now
