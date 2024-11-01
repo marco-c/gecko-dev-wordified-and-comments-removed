@@ -7275,6 +7275,8 @@ id
 get
 (
 )
+!
+!
 assertThat
 (
 workInfo
