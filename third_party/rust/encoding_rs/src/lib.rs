@@ -244,6 +244,9 @@ mod
 gb18030
 ;
 mod
+gb18030_2022
+;
+mod
 iso_2022_jp
 ;
 mod
