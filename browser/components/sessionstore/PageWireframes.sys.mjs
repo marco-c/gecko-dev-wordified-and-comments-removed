@@ -634,8 +634,8 @@ mix
 (
 in
 srgb
-black
-10
+gray
+20
 %
 transparent
 )
