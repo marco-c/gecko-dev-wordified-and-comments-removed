@@ -835,6 +835,14 @@ android
 extensions
 "
 )
+EXTENSION_PERMISSIONS
+(
+"
+extension
+-
+permissions
+"
+)
 FIND_INSTALL_ADDONS
 (
 "
