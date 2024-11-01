@@ -183,6 +183,16 @@ Paused
 on
 exception
 \
+nuncaughtException
+-
+exceptions
+.
+js
+:
+2
+:
+2
+\
 nunreachable
 )
 ;
