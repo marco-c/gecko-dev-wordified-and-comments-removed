@@ -119,15 +119,6 @@ browser
 .
 toml
 "
-"
-tests
-/
-browser
-/
-perftest
-.
-toml
-"
 ]
 XPIDL_SOURCES
 +

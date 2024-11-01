@@ -81,8 +81,6 @@ apk
 signing
 -
 apk
--
-fetch
 transforms
 :
 -
