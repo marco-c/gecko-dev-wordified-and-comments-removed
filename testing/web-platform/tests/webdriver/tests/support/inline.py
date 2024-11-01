@@ -233,6 +233,9 @@ js
 "
 :
 "
+{
+src
+}
 "
 }
 MIME_TYPES
