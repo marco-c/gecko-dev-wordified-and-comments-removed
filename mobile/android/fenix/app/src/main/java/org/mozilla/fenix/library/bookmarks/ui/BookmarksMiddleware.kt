@@ -2371,8 +2371,10 @@ title
 node
 .
 url
-!
-!
+?
+:
+"
+"
 previewImageUrl
 =
 node
