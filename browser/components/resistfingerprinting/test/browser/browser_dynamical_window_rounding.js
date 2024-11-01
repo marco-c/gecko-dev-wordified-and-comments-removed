@@ -192,6 +192,7 @@ RFPHelper
 steppedRange
 (
 aRealWidth
+true
 )
 ;
 let

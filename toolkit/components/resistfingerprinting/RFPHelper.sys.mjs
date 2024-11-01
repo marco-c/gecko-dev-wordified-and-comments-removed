@@ -2414,6 +2414,9 @@ apply
 steppedRange
 (
 aDimension
+aIsWidth
+=
+false
 )
 {
 let
@@ -2456,6 +2459,10 @@ aDimension
 {
 stepping
 =
+aIsWidth
+?
+200
+:
 100
 ;
 }
@@ -2862,6 +2869,7 @@ this
 steppedRange
 (
 aWidth
+true
 )
 height
 :
