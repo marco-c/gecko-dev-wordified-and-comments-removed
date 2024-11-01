@@ -2097,9 +2097,11 @@ multiselected
 )
 &
 [
-tab
+multiselected
 -
-grouping
+move
+-
+together
 ]
 &
 [
@@ -2127,9 +2129,11 @@ function
 }
 &
 [
-tab
+multiselected
 -
-grouping
+move
+-
+together
 ]
 [
 multiselected
