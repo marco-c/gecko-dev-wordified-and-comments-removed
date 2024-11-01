@@ -270,6 +270,9 @@ column
 uint32_t
 scriptId
 ;
+uint64_t
+realmID
+;
 uint32_t
 functionNameId
 ;
