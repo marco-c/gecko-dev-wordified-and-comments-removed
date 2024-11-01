@@ -371,7 +371,7 @@ else
 target_task_set
 "
     
-target_tasks_method
+filter_fn
 =
 (
         
@@ -414,10 +414,12 @@ try_select
 "
             
 "
-target_tasks_method
+filters
 "
 :
-target_tasks_method
+[
+filter_fn
+]
         
 }
     

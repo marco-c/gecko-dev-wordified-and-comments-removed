@@ -31,6 +31,16 @@ TRY_AUTO_PARAMETERS
 {
     
 "
+filters
+"
+:
+[
+"
+try_auto
+"
+]
+    
+"
 optimize_strategies
 "
 :
@@ -49,14 +59,6 @@ optimize_target_tasks
 "
 :
 True
-    
-"
-target_tasks_method
-"
-:
-"
-try_auto
-"
     
 "
 test_manifest_loader
