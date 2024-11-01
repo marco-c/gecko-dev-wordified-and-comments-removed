@@ -4002,7 +4002,8 @@ selCon
 return
 ;
 }
-int16_t
+const
+auto
 flags
 =
 aScrollAncestors
@@ -4013,7 +4014,13 @@ ScrollAncestors
 :
 Yes
 ?
+nsISelectionController
+:
+:
+ControllerScrollFlags
+(
 0
+)
 :
 nsISelectionController
 :

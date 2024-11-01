@@ -2949,7 +2949,7 @@ RawSelectionType
 aRawSelectionType
 SelectionRegion
 aRegion
-int16_t
+ControllerScrollFlags
 aFlags
 )
 override
