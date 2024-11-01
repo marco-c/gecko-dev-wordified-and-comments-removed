@@ -306,6 +306,14 @@ Int
 null
 ColorRes
 val
+learnMoreLinkTextColor
+:
+Int
+?
+=
+null
+ColorRes
+val
 confirmButtonTextColor
 :
 Int
