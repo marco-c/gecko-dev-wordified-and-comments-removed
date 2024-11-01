@@ -669,6 +669,7 @@ bug_numbers
 1811146
 1841925
 1871197
+1922596
 ]
 notification_emails
 :
@@ -689,7 +690,7 @@ com
 expiry_version
 :
 "
-134
+139
 "
 products
 :
