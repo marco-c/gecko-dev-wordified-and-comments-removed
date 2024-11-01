@@ -5385,6 +5385,21 @@ ctor
 ctorname
 =
 CONSTRUCT_HOOK_NAME
+            
+constructorArgs
+=
+methodLength
+(
+self
+.
+descriptor
+.
+interface
+.
+ctor
+(
+)
+)
         
 else
 :
@@ -5394,6 +5409,22 @@ ctorname
 "
 ThrowingConstructor
 "
+            
+constructorArgs
+=
+0
+        
+constructorName
+=
+self
+.
+descriptor
+.
+interface
+.
+getClassName
+(
+)
         
 wantsIsInstance
 =
@@ -5455,16 +5486,26 @@ protoHandleGetter
 }
               
 {
-prototypeID
+depth
 }
               
 {
-depth
+prototypeID
 }
               
 {
 wantsIsInstance
 }
+              
+{
+constructorArgs
+}
+              
+"
+{
+constructorName
+}
+"
             
 }
 ;
@@ -5490,13 +5531,13 @@ protoHandleGetter
 =
 protoHandleGetter
             
-prototypeID
+depth
 =
-prototypeID
+depth
             
-depth
+prototypeID
 =
-depth
+prototypeID
             
 wantsIsInstance
 =
@@ -5504,6 +5545,14 @@ toStringBool
 (
 wantsIsInstance
 )
+            
+constructorArgs
+=
+constructorArgs
+            
+constructorName
+=
+constructorName
         
 )
 class
