@@ -1,7 +1,5 @@
 import
 pytest
-import
-mozinfo
 from
 webdriver
 .
@@ -26,6 +24,7 @@ helpers
 import
 is_fullscreen
 is_maximized
+is_wayland
 def
 set_window_rect
 (
@@ -1036,14 +1035,10 @@ response
 )
     
 if
-mozinfo
-.
-display
-!
-=
-"
-wayland
-"
+not
+is_wayland
+(
+)
 :
         
 assert
@@ -1102,14 +1097,10 @@ rect
 )
     
 if
-mozinfo
-.
-display
-!
-=
-"
-wayland
-"
+not
+is_wayland
+(
+)
 :
         
 assert
@@ -1581,14 +1572,10 @@ rect
 )
     
 if
-mozinfo
-.
-display
-!
-=
-"
-wayland
-"
+not
+is_wayland
+(
+)
 :
         
 assert
@@ -2313,14 +2300,10 @@ height
 ]
     
 if
-mozinfo
-.
-display
-!
-=
-"
-wayland
-"
+not
+is_wayland
+(
+)
 :
         
 assert
@@ -2562,14 +2545,10 @@ height
 ]
     
 if
-mozinfo
-.
-display
-!
-=
-"
-wayland
-"
+not
+is_wayland
+(
+)
 :
         
 assert
@@ -2699,14 +2678,10 @@ height
 ]
     
 if
-mozinfo
-.
-display
-!
-=
-"
-wayland
-"
+not
+is_wayland
+(
+)
 :
         
 assert
@@ -2844,14 +2819,10 @@ height
 ]
         
 if
-mozinfo
-.
-display
-!
-=
-"
-wayland
-"
+not
+is_wayland
+(
+)
 :
             
 assert
