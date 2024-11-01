@@ -2897,7 +2897,9 @@ input
 value
 =
 =
-action
+config
+.
+id
 ;
 div
 .
