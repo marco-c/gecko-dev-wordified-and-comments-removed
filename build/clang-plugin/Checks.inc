@@ -62,6 +62,17 @@ bool
 )
 CHECK
 (
+GlobalVariableInitializationChecker
+"
+global
+-
+variable
+-
+init
+"
+)
+CHECK
+(
 JSHandleRootedTypedefChecker
 "
 js

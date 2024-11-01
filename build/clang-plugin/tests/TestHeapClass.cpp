@@ -39,7 +39,10 @@ Heap
 {
 int
 i
+=
+0
 ;
+constexpr
 Heap
 (
 )

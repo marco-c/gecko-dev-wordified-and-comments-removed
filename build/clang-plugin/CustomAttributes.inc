@@ -16,6 +16,14 @@ moz_can_run_script_boundary
 )
 ATTR
 (
+moz_global_var
+)
+ATTR
+(
+moz_generated
+)
+ATTR
+(
 moz_global_class
 )
 ATTR

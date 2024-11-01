@@ -39,7 +39,10 @@ Temporary
 {
 int
 i
+=
+0
 ;
+constexpr
 Temporary
 (
 )

@@ -67,6 +67,11 @@ ExplicitOperatorBoolChecker
 cpp
 "
 "
+GlobalVariableInitializationChecker
+.
+cpp
+"
+"
 JSHandleRootedTypedefChecker
 .
 cpp
