@@ -5516,6 +5516,8 @@ except
 self
 .
 expected_exc
+as
+e
 :
             
 self
@@ -5536,6 +5538,9 @@ an
 expected
 exception
 "
+exc_info
+=
+True
 )
             
 self
@@ -5556,6 +5561,12 @@ Action
 action
 }
 failed
+:
+{
+e
+!
+s
+}
 "
 )
         
@@ -5576,7 +5587,22 @@ Action
 action
 }
 failed
+with
+an
+unexpected
+exception
 "
+exc_info
+=
+True
+)
+            
+exception_string
+=
+traceback
+.
+format_exc
+(
 )
             
 self
@@ -5589,6 +5615,20 @@ complete
 "
 "
 error
+"
+f
+"
+Action
+{
+action
+}
+failed
+:
+\
+n
+{
+exception_string
+}
 "
 )
             
