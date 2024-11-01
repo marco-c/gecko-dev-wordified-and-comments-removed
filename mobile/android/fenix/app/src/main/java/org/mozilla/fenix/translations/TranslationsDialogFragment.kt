@@ -1464,6 +1464,11 @@ if
 translationsDialogState
 .
 isTranslated
+|
+|
+translationsDialogState
+.
+isTranslationInProgress
 )
 {
 localView
@@ -1483,6 +1488,9 @@ string
 translations_bottom_sheet_restore_accessibility_announcement
 )
 )
+isTranslationInProgress
+=
+false
 translationsDialogStore
 .
 dispatch
