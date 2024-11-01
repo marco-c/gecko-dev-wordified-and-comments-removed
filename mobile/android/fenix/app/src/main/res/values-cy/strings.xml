@@ -9572,8 +9572,7 @@ name
 onboarding_add_on_reviews_label
 "
 >
-Sg
-r
+Adolygiadau
 :
 %
 1
@@ -9607,7 +9606,7 @@ onboarding_add_on_icon_content_description
 "
 >
 Eicon
-ychwanegiad
+ychwanegyn
 <
 /
 string
@@ -9639,7 +9638,7 @@ onboarding_add_on_add_button_content_description
 >
 Ychwanegu
 botwm
-ychwanegu
+ychwanegyn
 <
 /
 string
@@ -9667,8 +9666,7 @@ name
 onboarding_add_on_star_rating_content_description
 "
 >
-Wedi
-graddio
+Graddiwyd
 %
 1
 s
