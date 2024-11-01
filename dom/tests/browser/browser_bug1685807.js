@@ -166,6 +166,14 @@ aTestDocDomain
 {
 content
 .
+document
+.
+notifyUserGestureActivation
+(
+)
+;
+content
+.
 name
 =
 "
