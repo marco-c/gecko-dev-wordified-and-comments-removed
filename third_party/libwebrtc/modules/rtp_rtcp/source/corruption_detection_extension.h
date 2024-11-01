@@ -74,7 +74,14 @@ constexpr
 RTPExtensionType
 kId
 =
-kRtpExtensionNumberOfExtensions
+kRtpExtensionCorruptionDetection
+;
+static
+constexpr
+uint8_t
+kMaxValueSizeBytes
+=
+16
 ;
 static
 constexpr
