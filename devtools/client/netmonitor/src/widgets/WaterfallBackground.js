@@ -707,6 +707,12 @@ InspectorUtils
 colorToRGBA
 (
 colorStr
+|
+|
+"
+#
+000
+"
 document
 )
 ;
