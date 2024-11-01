@@ -130,4 +130,11 @@ CfrPreferenceUpdate
 )
 {
 }
+override
+fun
+resetLastCfrTimestamp
+(
+)
+{
+}
 }
