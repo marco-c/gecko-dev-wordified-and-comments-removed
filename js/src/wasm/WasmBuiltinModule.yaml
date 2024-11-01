@@ -2012,7 +2012,7 @@ name
 GetSuspendingPromiseResult
 type
 :
-Args_General2
+Args_General3
 entry
 :
 GetSuspendingPromiseResult
@@ -2021,6 +2021,10 @@ export
 getSuspendingPromiseResult
 params
 :
+-
+'
+externref
+'
 -
 '
 externref

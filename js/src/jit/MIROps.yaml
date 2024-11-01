@@ -12132,6 +12132,9 @@ Object
 data
 :
 WasmAnyRef
+result_type
+:
+WasmAnyRef
 type_policy
 :
 none
@@ -12162,6 +12165,9 @@ operands
 suspender
 :
 Object
+result
+:
+WasmAnyRef
 type_policy
 :
 none

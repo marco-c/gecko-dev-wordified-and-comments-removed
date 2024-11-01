@@ -51545,7 +51545,7 @@ ABINonArgReg2
 )
 )
 ;
-add
+defineReturn
 (
 lir
 ins
@@ -51603,6 +51603,16 @@ suspender
 (
 )
 ABINonArgReg0
+)
+useFixedAtStart
+(
+ins
+-
+>
+result
+(
+)
+ABINonArgReg2
 )
 )
 ;

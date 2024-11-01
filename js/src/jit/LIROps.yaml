@@ -1607,6 +1607,9 @@ true
 name
 :
 WasmStackSwitchToMain
+result_type
+:
+WordSized
 operands
 :
 suspender
@@ -1646,6 +1649,9 @@ WasmStackContinueOnSuspendable
 operands
 :
 suspender
+:
+WordSized
+result
 :
 WordSized
 call_instruction
