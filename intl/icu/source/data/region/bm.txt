@@ -643,15 +643,6 @@ IN
 ndujamana
 "
 }
-IO
-{
-"
-Angil
-ka
-ndu
-dugukolo
-"
-}
 IQ
 {
 "

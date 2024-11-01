@@ -1022,17 +1022,6 @@ IN
 India
 "
 }
-IO
-{
-"
-Territori
-Britannic
-en
-l
-Ocean
-Indic
-"
-}
 IQ
 {
 "

@@ -616,17 +616,6 @@ IN
 India
 "
 }
-IO
-{
-"
-Ieneo
-la
-Uingeredha
-katika
-Bahari
-Hindi
-"
-}
 IQ
 {
 "

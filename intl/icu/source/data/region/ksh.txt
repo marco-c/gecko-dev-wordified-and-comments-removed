@@ -1084,16 +1084,6 @@ IN
 Indije
 "
 }
-IO
-{
-"
-Brettesche
-Besezunge
-em
-indesche
-Oozejahn
-"
-}
 IQ
 {
 "

@@ -625,15 +625,6 @@ IN
 Indiya
 "
 }
-IO
-{
-"
-British
-Indian
-Ocean
-Territory
-"
-}
 IQ
 {
 "

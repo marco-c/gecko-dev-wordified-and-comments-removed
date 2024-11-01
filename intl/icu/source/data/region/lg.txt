@@ -627,14 +627,6 @@ IN
 Buyindi
 "
 }
-IO
-{
-"
-Bizinga
-by
-eCago
-"
-}
 IQ
 {
 "

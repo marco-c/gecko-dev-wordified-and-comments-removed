@@ -59,7 +59,7 @@ Countries
 001
 {
 "
-W
+w
 reld
 "
 }
@@ -2074,7 +2074,6 @@ CG
 Kongo
 (
 Republiek
-die
 )
 "
 }

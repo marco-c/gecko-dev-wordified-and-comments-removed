@@ -726,6 +726,7 @@ HK
 {
 "
 -
+-
 "
 }
 HM
@@ -1553,6 +1554,16 @@ ZZ
 }
 Countries
 %
+chagos
+{
+IO
+{
+"
+"
+}
+}
+Countries
+%
 short
 {
 GB
@@ -1600,11 +1611,6 @@ CG
 "
 (
 )
-"
-}
-CI
-{
-"
 "
 }
 CZ

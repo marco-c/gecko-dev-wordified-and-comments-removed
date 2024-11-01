@@ -672,14 +672,6 @@ r
 Ind
 "
 }
-IO
-{
-"
-anglofo
-ma
-Indiya
-"
-}
 IQ
 {
 "
