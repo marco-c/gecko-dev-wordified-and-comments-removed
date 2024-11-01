@@ -1157,6 +1157,11 @@ Profiles
 :
 GetEditProfileContent
 "
+"
+Profiles
+:
+UpdateProfileTheme
+"
 ]
 RPMSendAsyncMessage
 :
@@ -1175,11 +1180,6 @@ UpdateProfileAvatar
 Profiles
 :
 OpenDeletePage
-"
-"
-Profiles
-:
-UpdateProfileTheme
 "
 ]
 }
