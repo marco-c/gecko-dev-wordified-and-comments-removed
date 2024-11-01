@@ -3909,6 +3909,12 @@ Services
 focus
 .
 FLAG_NOSHOWRING
+|
+Services
+.
+focus
+.
+FLAG_NOSCROLL
 )
 ;
 }
