@@ -50,13 +50,6 @@ android
 .
 annotation
 .
-SuppressLint
-;
-import
-android
-.
-annotation
-.
 TargetApi
 ;
 import
@@ -1327,12 +1320,6 @@ toString
 }
 }
 }
-SuppressLint
-(
-"
-WrongConstant
-"
-)
 private
 static
 void
