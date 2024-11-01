@@ -41,12 +41,16 @@ request
     
 decoded_cookies
 =
-{
+[
 isomorphic_decode
 (
 key
 )
-:
++
+"
+=
+"
++
 isomorphic_decode
 (
 val
@@ -60,13 +64,15 @@ cookies
 items
 (
 )
-}
+]
     
 return
 headers
-json
+"
+;
+"
 .
-dumps
+join
 (
 decoded_cookies
 )
