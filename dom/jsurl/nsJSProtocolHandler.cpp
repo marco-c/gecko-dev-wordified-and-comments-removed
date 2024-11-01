@@ -1743,8 +1743,12 @@ if
 stencil
 )
 {
-exec
-.
+mozilla
+:
+:
+dom
+:
+:
 InstantiateStencil
 (
 aes
