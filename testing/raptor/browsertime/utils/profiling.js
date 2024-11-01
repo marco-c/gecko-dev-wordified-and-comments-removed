@@ -1070,6 +1070,9 @@ support_class
 await
 startWindowsPowerProfiling
 (
+context
+.
+index
 )
 ;
 }
