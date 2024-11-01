@@ -279,8 +279,7 @@ max_retries
 ;
 do
 xvinfo
-|
-|
+;
 xvfb_test
 =
 ?
