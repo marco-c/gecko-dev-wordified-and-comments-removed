@@ -94,6 +94,8 @@ ffi
 :
 WGPUVkImageHandle
 >
+&
+&
 aVkImageHandle
 const
 uint32_t

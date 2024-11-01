@@ -572,6 +572,13 @@ return
 #
 endif
 }
+#
+if
+!
+defined
+(
+XP_MACOSX
+)
 extern
 WGPUVkImageHandle
 *
@@ -671,6 +678,8 @@ nullptr
 #
 endif
 }
+#
+endif
 }
 class
 ErrorBuffer
