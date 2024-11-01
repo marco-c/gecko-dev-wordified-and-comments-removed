@@ -2364,8 +2364,6 @@ PUSH_EXIT_FRAME
 (
 )
 \
-ctx
-.
 frame
 -
 >
