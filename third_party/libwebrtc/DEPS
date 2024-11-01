@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-30454db4a57e989f9848b41dce6e49d779adc0ac
+ab7255fe8aaf67333c2e2ed136dc6a5bd096face
 '
 #
 Fetch
@@ -506,7 +506,7 @@ chromium
 src
 /
 base
-0db01afd90b501b167eb97c672aa7f97b1c64507
+f86fda16571572e0a21d4112a20457e0734547ce
 '
 '
 src
@@ -530,7 +530,7 @@ chromium
 src
 /
 build
-96625099e899909656e8f7eafbcac9daba1414cb
+5597e471cbcca05a200429cb743709206914332b
 '
 '
 src
@@ -554,7 +554,7 @@ chromium
 src
 /
 buildtools
-47e1ac1df94728371dad86efb2606855334147bd
+f8f6777fcf684dd891658ff32b195589e88fe2d8
 '
 #
 Gradle
@@ -682,7 +682,7 @@ chromium
 src
 /
 testing
-0a53e28d0082b6007c3e5b986943d4277c53b808
+55fd0c28ae0230771e2c433a63f8fe4e03196f4a
 '
 '
 src
@@ -706,7 +706,7 @@ chromium
 src
 /
 third_party
-994a093f09560e5fe9c3dd4d31d892669da15043
+31d0a5b358c360791a65553027080fd27c2b91da
 '
 '
 src
@@ -3323,6 +3323,8 @@ src
 third_party
 /
 r8
+/
+cipd
 '
 :
 {
@@ -3411,6 +3413,8 @@ third_party
 r8
 /
 d8
+/
+cipd
 '
 :
 {
