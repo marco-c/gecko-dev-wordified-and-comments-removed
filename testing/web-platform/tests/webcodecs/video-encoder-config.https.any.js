@@ -495,10 +495,10 @@ hardware
 '
 width
 :
-20000
+30000
 height
 :
-20000
+30000
 bitrate
 :
 1
