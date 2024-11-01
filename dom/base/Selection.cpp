@@ -20358,7 +20358,13 @@ forward
 eDirNext
 :
 eDirPrevious
+nsFrameSelection
+:
+:
+ExtendSelection
+(
 extend
+)
 amount
 visual
 ?
