@@ -292,13 +292,6 @@ serve
 archive
 -
 -
-check
--
-num
--
-warnings
--
--
 dump
 -
 trees
