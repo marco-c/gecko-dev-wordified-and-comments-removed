@@ -23425,6 +23425,17 @@ INSTALLATION_METHOD_MANAGER
 manager
 "
 ;
+field
+public
+static
+final
+String
+INSTALLATION_METHOD_ONBOARDING
+=
+"
+onboarding
+"
+;
 }
 public
 static

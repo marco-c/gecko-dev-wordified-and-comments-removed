@@ -2313,6 +2313,7 @@ StringDef
 {
 INSTALLATION_METHOD_MANAGER
 INSTALLATION_METHOD_FROM_FILE
+INSTALLATION_METHOD_ONBOARDING
 }
 )
 public
@@ -2343,6 +2344,16 @@ install
 from
 -
 file
+"
+;
+public
+static
+final
+String
+INSTALLATION_METHOD_ONBOARDING
+=
+"
+onboarding
 "
 ;
 NonNull
