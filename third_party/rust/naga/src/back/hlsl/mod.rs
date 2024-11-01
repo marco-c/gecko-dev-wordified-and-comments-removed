@@ -594,6 +594,10 @@ pub
 zero_initialize_workgroup_memory
 :
 bool
+pub
+restrict_indexing
+:
+bool
 }
 impl
 Default
@@ -634,6 +638,9 @@ push_constants_target
 :
 None
 zero_initialize_workgroup_memory
+:
+true
+restrict_indexing
 :
 true
 }

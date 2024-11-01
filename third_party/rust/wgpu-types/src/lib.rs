@@ -34704,8 +34704,6 @@ bool
 impl
 <
 T
-:
-Copy
 >
 ImageCopyTextureTagged
 <

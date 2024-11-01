@@ -1118,6 +1118,10 @@ source
 )
 )
 }
+pub
+(
+crate
+)
 fn
 diagnostic
 (

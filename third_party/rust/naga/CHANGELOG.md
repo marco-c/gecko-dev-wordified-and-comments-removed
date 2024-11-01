@@ -15684,7 +15684,7 @@ API
 -
 Make
 WithSpan
-clonable
+cloneable
 (
 [
 #

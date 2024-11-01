@@ -1232,7 +1232,7 @@ proc
 BoundsCheckPolicy
 :
 :
-ReadZeroSkipWrite
+Restrict
 }
 else
 {

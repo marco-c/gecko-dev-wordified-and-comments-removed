@@ -1788,9 +1788,12 @@ index
 .
 try_resolve_to_constant
 (
+&
 self
 .
 ir_function
+.
+expressions
 self
 .
 ir_module
