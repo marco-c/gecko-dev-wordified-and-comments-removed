@@ -358,16 +358,6 @@ gvr
 DLL_SUFFIX
 #
 endif
-#
-ifdef
-MOZ_CRASHREPORTER
-BINPATH
-/
-DLL_PREFIX
-minidump_analyzer
-DLL_SUFFIX
-#
-endif
 [
 xpcom
 ]
