@@ -517,6 +517,9 @@ adapterType
 )
 )
 ;
+return
+true
+;
 }
 )
 ;
