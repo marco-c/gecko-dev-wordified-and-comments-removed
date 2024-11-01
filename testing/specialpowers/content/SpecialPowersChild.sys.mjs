@@ -2942,6 +2942,7 @@ aCallback
 async
 registeredServiceWorkers
 (
+aForceCheck
 )
 {
 /
@@ -2975,6 +2976,9 @@ if
 this
 .
 _serviceWorkerRegistered
+|
+|
+aForceCheck
 )
 {
 /
