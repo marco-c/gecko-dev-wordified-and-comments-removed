@@ -1231,7 +1231,7 @@ Z
 '
 )
 {
-CHROMIUM_LOG
+DLOG
 (
 ERROR
 )
