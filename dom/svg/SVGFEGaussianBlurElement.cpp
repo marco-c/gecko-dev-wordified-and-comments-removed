@@ -530,7 +530,10 @@ NumberPairAttributesInfo
 (
 mNumberPairAttributes
 sNumberPairInfo
-ArrayLength
+std
+:
+:
+size
 (
 sNumberPairInfo
 )
@@ -553,7 +556,10 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-ArrayLength
+std
+:
+:
+size
 (
 sStringInfo
 )

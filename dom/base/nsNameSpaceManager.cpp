@@ -901,7 +901,10 @@ if
 (
 aNameSpaceID
 <
-ArrayLength
+std
+:
+:
+size
 (
 kNSURIs
 )

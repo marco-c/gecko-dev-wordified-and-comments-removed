@@ -8741,7 +8741,10 @@ size_t
 aStyle
 )
 <
-ArrayLength
+std
+:
+:
+size
 (
 gBuiltinStyleTable
 )

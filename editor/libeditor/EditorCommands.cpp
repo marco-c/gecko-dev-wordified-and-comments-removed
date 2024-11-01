@@ -3931,7 +3931,10 @@ i
 ;
 i
 <
-ArrayLength
+std
+:
+:
+size
 (
 scrollCommands
 )
@@ -4015,7 +4018,10 @@ i
 ;
 i
 <
-ArrayLength
+std
+:
+:
+size
 (
 moveCommands
 )
@@ -4157,7 +4163,10 @@ i
 ;
 i
 <
-ArrayLength
+std
+:
+:
+size
 (
 physicalCommands
 )

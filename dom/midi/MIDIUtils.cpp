@@ -443,7 +443,10 @@ static_cast
 uint8_t
 >
 (
-ArrayLength
+std
+:
+:
+size
 (
 kSystemLengths
 )
@@ -505,7 +508,10 @@ if
 cmdIndex
 >
 =
-ArrayLength
+std
+:
+:
+size
 (
 kCommandLengths
 )

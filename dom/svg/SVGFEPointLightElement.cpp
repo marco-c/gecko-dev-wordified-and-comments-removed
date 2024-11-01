@@ -342,7 +342,10 @@ NumberAttributesInfo
 (
 mNumberAttributes
 sNumberInfo
-ArrayLength
+std
+:
+:
+size
 (
 sNumberInfo
 )

@@ -16180,7 +16180,10 @@ strokeOptions
 .
 mDashLength
 =
-MOZ_ARRAY_LENGTH
+std
+:
+:
+size
 (
 dash
 )
@@ -21219,7 +21222,10 @@ strokeOptions
 .
 mDashLength
 =
-MOZ_ARRAY_LENGTH
+std
+:
+:
+size
 (
 dash
 )
@@ -21350,7 +21356,10 @@ strokeOptions
 .
 mDashLength
 =
-MOZ_ARRAY_LENGTH
+std
+:
+:
+size
 (
 dash
 )

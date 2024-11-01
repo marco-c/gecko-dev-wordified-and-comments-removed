@@ -139,7 +139,10 @@ i
 ;
 i
 <
-ArrayLength
+std
+:
+:
+size
 (
 sAlignStrings
 )
@@ -194,7 +197,10 @@ i
 ;
 i
 <
-ArrayLength
+std
+:
+:
+size
 (
 sMeetOrSliceStrings
 )

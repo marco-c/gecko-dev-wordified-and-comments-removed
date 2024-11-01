@@ -88,10 +88,10 @@ headCount
 ;
 MOZ_RELEASE_ASSERT
 (
-mozilla
+std
 :
 :
-ArrayLength
+size
 (
 headCount
 )

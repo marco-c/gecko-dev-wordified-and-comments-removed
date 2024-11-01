@@ -593,7 +593,10 @@ size_t
 aAction
 )
 <
-ArrayLength
+std
+:
+:
+size
 (
 mActionHandlers
 )
@@ -669,7 +672,10 @@ size_t
 aAction
 )
 <
-ArrayLength
+std
+:
+:
+size
 (
 mActionHandlers
 )
@@ -1166,7 +1172,10 @@ size_t
 aAction
 )
 <
-ArrayLength
+std
+:
+:
+size
 (
 mActionHandlers
 )
@@ -1461,7 +1470,10 @@ idx
 ;
 idx
 <
-ArrayLength
+std
+:
+:
+size
 (
 mActionHandlers
 )

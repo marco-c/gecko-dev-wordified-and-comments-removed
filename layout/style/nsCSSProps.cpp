@@ -634,7 +634,10 @@ size_t
 p
 )
 <
-ArrayLength
+std
+:
+:
+size
 (
 kIDLNameTable
 )

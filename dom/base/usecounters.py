@@ -5261,7 +5261,10 @@ size_t
 aUseCounter
 )
 <
-ArrayLength
+std
+:
+:
+size
 (
 kEntries
 )
@@ -5615,7 +5618,10 @@ size_t
 aUseCounter
 )
 <
-ArrayLength
+std
+:
+:
+size
 (
 kEntries
 )

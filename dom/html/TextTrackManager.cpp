@@ -1937,7 +1937,10 @@ Subtitles
 PerformTrackSelection
 (
 ttKinds
-ArrayLength
+std
+:
+:
+size
 (
 ttKinds
 )
@@ -2109,7 +2112,10 @@ aTextTrackKind
 PerformTrackSelection
 (
 ttKinds
-ArrayLength
+std
+:
+:
+size
 (
 ttKinds
 )

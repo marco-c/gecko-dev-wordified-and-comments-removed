@@ -261,7 +261,10 @@ BinarySearchIf
 (
 ROOT_TABLE
 0
-ArrayLength
+std
+:
+:
+size
 (
 ROOT_TABLE
 )

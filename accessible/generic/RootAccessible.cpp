@@ -727,7 +727,10 @@ const
 *
 e_end
 =
-ArrayEnd
+std
+:
+:
+end
 (
 kEventTypes
 )
@@ -832,7 +835,10 @@ const
 *
 e_end
 =
-ArrayEnd
+std
+:
+:
+end
 (
 kEventTypes
 )

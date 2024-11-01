@@ -462,7 +462,10 @@ i
 ;
 i
 <
-ArrayLength
+std
+:
+:
+size
 (
 kFileMimeNameMap
 )
@@ -2074,7 +2077,10 @@ i
 ;
 i
 <
-ArrayLength
+std
+:
+:
+size
 (
 kFileMimeNameMap
 )
