@@ -520,6 +520,15 @@ eSenti
 Herena
 "
 }
+SLE
+{
+"
+SLE
+"
+"
+Lewone
+"
+}
 SLL
 {
 "
@@ -527,6 +536,10 @@ SLL
 "
 "
 Lewone
+(
+1964
+2022
+)
 "
 }
 SOS

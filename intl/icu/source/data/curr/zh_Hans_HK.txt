@@ -83,14 +83,6 @@ XAG
 }
 CurrencyPlurals
 {
-KYD
-{
-other
-{
-"
-"
-}
-}
 NIO
 {
 other
