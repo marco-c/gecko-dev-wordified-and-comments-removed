@@ -13240,10 +13240,6 @@ pending_encoder_reconfiguration_
 =
 true
 ;
-ReconfigureEncoder
-(
-)
-;
 }
 worker_queue_
 -
