@@ -214,12 +214,12 @@ device
 -
 model
 :
-MediumPhone
+Pixel2
 .
 arm
 version
 :
-34
+30
 locale
 :
 en_US
