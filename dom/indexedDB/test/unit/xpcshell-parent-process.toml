@@ -97,6 +97,11 @@ metadataRestore_profile
 zip
 "
 "
+fileListUpgrade_profile
+.
+zip
+"
+"
 schema18upgrade_profile
 .
 zip
@@ -261,6 +266,13 @@ js
 [
 "
 test_file_copy_failure
+.
+js
+"
+]
+[
+"
+test_fileListUpgrade
 .
 js
 "
