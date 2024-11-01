@@ -378,7 +378,9 @@ textContains
 (
 "
 Add
-automatically
+to
+home
+screen
 "
 )
 )
