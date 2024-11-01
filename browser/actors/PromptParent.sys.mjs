@@ -1518,12 +1518,6 @@ isTopLevelCrossDomainAuth
 bag
 )
 ;
-dialog
-.
-promptID
-=
-promptID
-;
 this
 .
 registerDialog
