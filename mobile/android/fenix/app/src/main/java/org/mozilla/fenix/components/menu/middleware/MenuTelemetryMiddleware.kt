@@ -1293,10 +1293,6 @@ is
 MenuAction
 .
 UpdateManageExtensionsMenuItemVisibility
-is
-MenuAction
-.
-UpdateInstalledAddons
 -
 >
 Unit
