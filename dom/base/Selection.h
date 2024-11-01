@@ -3621,7 +3621,7 @@ aRawSelectionType
 nsISelectionController
 :
 :
-SELECTION_URLSTRIKEOUT
+SELECTION_TARGET_TEXT
 ;
 }
 constexpr
