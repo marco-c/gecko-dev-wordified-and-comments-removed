@@ -8941,7 +8941,7 @@ binding
 .
 privateBrowsingButton
 .
-imageTintList
+buttonTintList
 =
 tintColor
 }
