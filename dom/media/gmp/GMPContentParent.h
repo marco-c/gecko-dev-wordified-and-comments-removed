@@ -18,13 +18,6 @@ h
 #
 include
 "
-GMPSharedMemManager
-.
-h
-"
-#
-include
-"
 GMPNativeTypes
 .
 h
@@ -63,8 +56,6 @@ final
 :
 public
 PGMPContentParent
-public
-GMPSharedMem
 {
 friend
 class
@@ -148,12 +139,6 @@ nsISerialEventTarget
 GMPEventTarget
 (
 )
-;
-void
-CheckThread
-(
-)
-override
 ;
 void
 SetDisplayName
