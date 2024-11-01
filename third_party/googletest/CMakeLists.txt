@@ -35,9 +35,9 @@ set
 GOOGLETEST_VERSION
 1
 .
-14
+15
 .
-0
+2
 )
 if
 (
