@@ -10147,9 +10147,11 @@ clipboardManager
 addNewTabUseCase
 =
 addNewTabUseCase
-navController
+getNavController
 =
+{
 navController
+}
 exitBookmarks
 =
 exitBookmarks
