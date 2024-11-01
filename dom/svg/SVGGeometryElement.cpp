@@ -1273,7 +1273,10 @@ path
 >
 ComputePointAtLength
 (
-clamped
+std
+:
+:
+clamp
 (
 distance
 0

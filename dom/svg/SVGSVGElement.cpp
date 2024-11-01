@@ -628,7 +628,10 @@ aCurrentScale
 {
 aCurrentScale
 =
-clamped
+std
+:
+:
+clamp
 (
 aCurrentScale
 CURRENT_SCALE_MIN

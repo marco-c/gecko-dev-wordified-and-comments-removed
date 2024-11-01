@@ -949,7 +949,10 @@ nullptr
 ;
 position
 =
-clamped
+std
+:
+:
+clamp
 (
 position
 0
