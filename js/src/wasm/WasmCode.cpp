@@ -4281,6 +4281,9 @@ locked
 UniqueChars
 error
 ;
+UniqueCharsVector
+warnings
+;
 bool
 success
 =
@@ -4291,10 +4294,11 @@ code_
 funcIndex_
 &
 error
-)
-;
-UniqueCharsVector
+&
 warnings
+&
+cancelled_
+)
 ;
 ReportTier2ResultsOffThread
 (
