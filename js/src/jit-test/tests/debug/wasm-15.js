@@ -363,11 +363,6 @@ true
 }
 )
 ;
-wasmGcEnabled
-(
-)
-&
-&
 wasmRunWithDebugger
 (
 '

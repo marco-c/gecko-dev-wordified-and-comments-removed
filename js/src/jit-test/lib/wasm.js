@@ -2941,13 +2941,6 @@ WasmArrayrefValues
 [
 ]
 ;
-if
-(
-wasmGcEnabled
-(
-)
-)
-{
 let
 {
 newStruct
@@ -3044,7 +3037,6 @@ newArray
 )
 )
 ;
-}
 let
 WasmGcObjectValues
 =

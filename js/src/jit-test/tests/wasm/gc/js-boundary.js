@@ -37,7 +37,7 @@ WasmNonAnyrefValues
 ;
 let
 {
-newStruct
+makeStruct
 }
 =
 wasmEvalText
@@ -56,7 +56,7 @@ func
 (
 export
 "
-newStruct
+makeStruct
 "
 )
 (
@@ -83,7 +83,7 @@ null
 )
 '
 [
-newStruct
+makeStruct
 (
 )
 ]

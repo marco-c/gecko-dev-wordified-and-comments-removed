@@ -96,11 +96,3 @@ harness
 harness
 .
 js
-;
--
--
-setpref
-=
-wasm_gc
-=
-false

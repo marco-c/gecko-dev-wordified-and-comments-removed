@@ -3576,18 +3576,6 @@ let
 reservedGc
 =
 {
-}
-;
-if
-(
-wasmGcEnabled
-(
-)
-)
-{
-reservedGc
-=
-{
 0x00
 :
 true
@@ -3683,7 +3671,6 @@ true
 true
 }
 ;
-}
 for
 (
 let

@@ -35,13 +35,6 @@ popping
 /
 )
 ;
-if
-(
-wasmGcEnabled
-(
-)
-)
-{
 wasmFailValidateText
 (
 (
@@ -110,4 +103,3 @@ local
 /
 )
 ;
-}
