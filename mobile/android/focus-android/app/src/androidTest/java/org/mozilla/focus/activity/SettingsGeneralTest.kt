@@ -357,6 +357,16 @@ mozilla
 .
 focus
 .
+helpers
+.
+TestSetup
+import
+org
+.
+mozilla
+.
+focus
+.
 locale
 .
 Locales
@@ -401,6 +411,10 @@ default
 browser
 class
 SettingsGeneralTest
+:
+TestSetup
+(
+)
 {
 get
 :

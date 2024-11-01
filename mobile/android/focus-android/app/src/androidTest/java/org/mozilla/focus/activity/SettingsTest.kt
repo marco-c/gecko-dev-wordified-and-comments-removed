@@ -125,6 +125,16 @@ mozilla
 .
 focus
 .
+helpers
+.
+TestSetup
+import
+org
+.
+mozilla
+.
+focus
+.
 testAnnotations
 .
 SmokeTest
@@ -151,6 +161,10 @@ class
 )
 class
 SettingsTest
+:
+TestSetup
+(
+)
 {
 get
 :

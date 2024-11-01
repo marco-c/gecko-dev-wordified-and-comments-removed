@@ -161,6 +161,16 @@ mozilla
 .
 focus
 .
+helpers
+.
+TestSetup
+import
+org
+.
+mozilla
+.
+focus
+.
 testAnnotations
 .
 SmokeTest
@@ -183,6 +193,10 @@ class
 )
 class
 URLAutocompleteTest
+:
+TestSetup
+(
+)
 {
 private
 val
