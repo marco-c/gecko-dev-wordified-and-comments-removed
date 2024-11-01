@@ -4135,7 +4135,6 @@ ReadableStreamBYOBReaderRead
 aCx
 byobReader
 aView
-1
 readIntoRequest
 aRv
 )
