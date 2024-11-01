@@ -20508,15 +20508,6 @@ get
 )
 )
 )
-{
-!
-wasmTailCallsEnabled
-(
-)
-?
-"
-"
-:
 (
 func
 (
@@ -20605,7 +20596,6 @@ get
 )
 )
 )
-}
 )
 )
 .
@@ -20674,13 +20664,6 @@ pointer
 /
 )
 ;
-if
-(
-wasmTailCallsEnabled
-(
-)
-)
-{
 assertEq
 (
 returnCallIndirect
@@ -20744,7 +20727,6 @@ pointer
 /
 )
 ;
-}
 const
 indexes
 =
@@ -20842,13 +20824,6 @@ bounds
 /
 )
 ;
-if
-(
-wasmTailCallsEnabled
-(
-)
-)
-{
 assertErrorMessage
 (
 (
@@ -20900,7 +20875,6 @@ bounds
 /
 )
 ;
-}
 }
 }
 for
