@@ -981,7 +981,7 @@ aQuotaManager
 override
 ;
 bool
-GetResolveValue
+UnwrapResolveValue
 (
 )
 override
@@ -1092,7 +1092,7 @@ aQuotaManager
 override
 ;
 bool
-GetResolveValue
+UnwrapResolveValue
 (
 )
 override
@@ -1374,7 +1374,7 @@ aPersistenceType
 override
 ;
 OriginUsageMetadataArray
-GetResolveValue
+UnwrapResolveValue
 (
 )
 override
@@ -1479,7 +1479,7 @@ GetIsCanceledFlag
 override
 ;
 UsageInfo
-GetResolveValue
+UnwrapResolveValue
 (
 )
 override
@@ -1672,7 +1672,7 @@ aQuotaManager
 override
 ;
 bool
-GetResolveValue
+UnwrapResolveValue
 (
 )
 override
@@ -1741,7 +1741,7 @@ aQuotaManager
 override
 ;
 bool
-GetResolveValue
+UnwrapResolveValue
 (
 )
 override
@@ -1810,7 +1810,7 @@ aQuotaManager
 override
 ;
 bool
-GetResolveValue
+UnwrapResolveValue
 (
 )
 override
@@ -1893,7 +1893,7 @@ aQuotaManager
 override
 ;
 bool
-GetResolveValue
+UnwrapResolveValue
 (
 )
 override
@@ -2020,7 +2020,7 @@ aQuotaManager
 override
 ;
 bool
-GetResolveValue
+UnwrapResolveValue
 (
 )
 override
@@ -2078,7 +2078,7 @@ aQuotaManager
 override
 ;
 bool
-GetResolveValue
+UnwrapResolveValue
 (
 )
 override
@@ -2148,7 +2148,7 @@ aQuotaManager
 override
 ;
 bool
-GetResolveValue
+UnwrapResolveValue
 (
 )
 override
@@ -2224,7 +2224,7 @@ aQuotaManager
 override
 ;
 bool
-GetResolveValue
+UnwrapResolveValue
 (
 )
 override
@@ -2304,7 +2304,7 @@ aQuotaManager
 override
 ;
 MaybePrincipalMetadataArray
-GetResolveValue
+UnwrapResolveValue
 (
 )
 override
@@ -2400,7 +2400,7 @@ aQuotaManager
 override
 ;
 bool
-GetResolveValue
+UnwrapResolveValue
 (
 )
 override
@@ -2542,7 +2542,7 @@ aQuotaManager
 override
 ;
 bool
-GetResolveValue
+UnwrapResolveValue
 (
 )
 override
@@ -2610,7 +2610,7 @@ aQuotaManager
 override
 ;
 bool
-GetResolveValue
+UnwrapResolveValue
 (
 )
 override
@@ -2751,7 +2751,7 @@ aQuotaManager
 override
 ;
 bool
-GetResolveValue
+UnwrapResolveValue
 (
 )
 override
@@ -2801,7 +2801,7 @@ aQuotaManager
 override
 ;
 bool
-GetResolveValue
+UnwrapResolveValue
 (
 )
 override
@@ -2971,7 +2971,7 @@ aQuotaManager
 override
 ;
 uint64_t
-GetResolveValue
+UnwrapResolveValue
 (
 )
 override
@@ -3057,7 +3057,7 @@ aQuotaManager
 override
 ;
 bool
-GetResolveValue
+UnwrapResolveValue
 (
 )
 override
@@ -3308,7 +3308,7 @@ aQuotaManager
 override
 ;
 OriginMetadataArray
-GetResolveValue
+UnwrapResolveValue
 (
 )
 override
@@ -3430,7 +3430,7 @@ aQuotaManager
 override
 ;
 bool
-GetResolveValue
+UnwrapResolveValue
 (
 )
 override
@@ -3526,7 +3526,7 @@ aQuotaManager
 override
 ;
 OriginMetadataArray
-GetResolveValue
+UnwrapResolveValue
 (
 )
 override
@@ -3596,7 +3596,7 @@ aQuotaManager
 override
 ;
 OriginMetadataArray
-GetResolveValue
+UnwrapResolveValue
 (
 )
 override
@@ -3712,7 +3712,7 @@ aQuotaManager
 override
 ;
 OriginMetadataArray
-GetResolveValue
+UnwrapResolveValue
 (
 )
 override
@@ -3828,7 +3828,7 @@ aQuotaManager
 override
 ;
 bool
-GetResolveValue
+UnwrapResolveValue
 (
 )
 override
@@ -7854,7 +7854,7 @@ OriginUsageMetadataArray
 GetUsageOp
 :
 :
-GetResolveValue
+UnwrapResolveValue
 (
 )
 {
@@ -8151,7 +8151,7 @@ UsageInfo
 GetOriginUsageOp
 :
 :
-GetResolveValue
+UnwrapResolveValue
 (
 )
 {
@@ -8450,7 +8450,7 @@ bool
 StorageInitializedOp
 :
 :
-GetResolveValue
+UnwrapResolveValue
 (
 )
 {
@@ -8504,7 +8504,7 @@ bool
 PersistentStorageInitializedOp
 :
 :
-GetResolveValue
+UnwrapResolveValue
 (
 )
 {
@@ -8558,7 +8558,7 @@ bool
 TemporaryStorageInitializedOp
 :
 :
-GetResolveValue
+UnwrapResolveValue
 (
 )
 {
@@ -8726,7 +8726,7 @@ bool
 TemporaryGroupInitializedOp
 :
 :
-GetResolveValue
+UnwrapResolveValue
 (
 )
 {
@@ -8965,7 +8965,7 @@ bool
 PersistentOriginInitializedOp
 :
 :
-GetResolveValue
+UnwrapResolveValue
 (
 )
 {
@@ -9075,7 +9075,7 @@ bool
 TemporaryOriginInitializedOp
 :
 :
-GetResolveValue
+UnwrapResolveValue
 (
 )
 {
@@ -9224,7 +9224,7 @@ bool
 InitOp
 :
 :
-GetResolveValue
+UnwrapResolveValue
 (
 )
 {
@@ -9395,7 +9395,7 @@ bool
 InitializePersistentStorageOp
 :
 :
-GetResolveValue
+UnwrapResolveValue
 (
 )
 {
@@ -9598,7 +9598,7 @@ MaybePrincipalMetadataArray
 InitTemporaryStorageOp
 :
 :
-GetResolveValue
+UnwrapResolveValue
 (
 )
 {
@@ -9833,7 +9833,7 @@ bool
 InitializeTemporaryGroupOp
 :
 :
-GetResolveValue
+UnwrapResolveValue
 (
 )
 {
@@ -10150,7 +10150,7 @@ bool
 InitializePersistentOriginOp
 :
 :
-GetResolveValue
+UnwrapResolveValue
 (
 )
 {
@@ -10328,7 +10328,7 @@ bool
 InitializeTemporaryOriginOp
 :
 :
-GetResolveValue
+UnwrapResolveValue
 (
 )
 {
@@ -10676,7 +10676,7 @@ bool
 InitializePersistentClientOp
 :
 :
-GetResolveValue
+UnwrapResolveValue
 (
 )
 {
@@ -10848,7 +10848,7 @@ bool
 InitializeTemporaryClientOp
 :
 :
-GetResolveValue
+UnwrapResolveValue
 (
 )
 {
@@ -11315,7 +11315,7 @@ uint64_t
 GetCachedOriginUsageOp
 :
 :
-GetResolveValue
+UnwrapResolveValue
 (
 )
 {
@@ -11733,7 +11733,7 @@ bool
 ClearStorageOp
 :
 :
-GetResolveValue
+UnwrapResolveValue
 (
 )
 {
@@ -13147,7 +13147,7 @@ OriginMetadataArray
 ClearOriginOp
 :
 :
-GetResolveValue
+UnwrapResolveValue
 (
 )
 {
@@ -13639,7 +13639,7 @@ bool
 ClearClientOp
 :
 :
-GetResolveValue
+UnwrapResolveValue
 (
 )
 {
@@ -13919,7 +13919,7 @@ OriginMetadataArray
 ClearStoragesForOriginPrefixOp
 :
 :
-GetResolveValue
+UnwrapResolveValue
 (
 )
 {
@@ -14105,7 +14105,7 @@ OriginMetadataArray
 ClearDataOp
 :
 :
-GetResolveValue
+UnwrapResolveValue
 (
 )
 {
@@ -14485,7 +14485,7 @@ OriginMetadataArray
 ShutdownOriginOp
 :
 :
-GetResolveValue
+UnwrapResolveValue
 (
 )
 {
@@ -14721,7 +14721,7 @@ bool
 ShutdownClientOp
 :
 :
-GetResolveValue
+UnwrapResolveValue
 (
 )
 {

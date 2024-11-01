@@ -125,7 +125,7 @@ default
 ;
 virtual
 ResolveValueT
-GetResolveValue
+UnwrapResolveValue
 (
 )
 =
@@ -163,7 +163,7 @@ mPromiseHolder
 .
 ResolveIfExists
 (
-GetResolveValue
+UnwrapResolveValue
 (
 )
 __func__
