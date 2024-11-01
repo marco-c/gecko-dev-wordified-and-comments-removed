@@ -19550,8 +19550,10 @@ return
 true
 ;
 }
-static
 bool
+js
+:
+:
 date_toPrimitive
 (
 JSContext
