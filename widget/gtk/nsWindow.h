@@ -2405,6 +2405,14 @@ DispatchActivateEventAccessible
 (
 )
 ;
+void
+GtkWidgetDestroyHandler
+(
+GtkWidget
+*
+aWidget
+)
+;
 protected
 :
 virtual
