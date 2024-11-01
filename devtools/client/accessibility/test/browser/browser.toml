@@ -96,6 +96,13 @@ js
 ]
 [
 "
+browser_accessibility
+.
+js
+"
+]
+[
+"
 browser_accessibility_context_menu_browser
 .
 js
