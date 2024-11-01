@@ -1601,7 +1601,7 @@ ScriptLoadRequest
 aRequest
 )
 ;
-nsresult
+void
 InstantiateClassicScriptFromAny
 (
 JSContext
@@ -1613,9 +1613,12 @@ aExec
 ScriptLoadRequest
 *
 aRequest
+ErrorResult
+&
+aRv
 )
 ;
-nsresult
+void
 InstantiateClassicScriptFromMaybeEncodedSource
 (
 JSContext
@@ -1627,9 +1630,12 @@ aExec
 ScriptLoadRequest
 *
 aRequest
+ErrorResult
+&
+aRv
 )
 ;
-nsresult
+void
 InstantiateClassicScriptFromCachedStencil
 (
 JSContext
@@ -1647,6 +1653,9 @@ JS
 Stencil
 *
 aStencil
+ErrorResult
+&
+aRv
 )
 ;
 static

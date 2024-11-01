@@ -28171,7 +28171,7 @@ GetGlobalJSObject
 )
 ;
 {
-ErrorResult
+IgnoredErrorResult
 erv
 ;
 JSExecutionContext
@@ -28267,13 +28267,11 @@ erv
 }
 if
 (
-EvaluationExceptionToNSResult
-(
 erv
+.
+IsUncatchableException
+(
 )
-=
-=
-NS_SUCCESS_DOM_SCRIPT_EVALUATION_THREW_UNCATCHABLE
 )
 {
 return
