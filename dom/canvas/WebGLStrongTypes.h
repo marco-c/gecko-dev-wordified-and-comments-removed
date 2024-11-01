@@ -550,10 +550,7 @@ valuesCount
 )
 {
 return
-std
-:
-:
-size
+MOZ_ARRAY_LENGTH
 (
 NAME
 #

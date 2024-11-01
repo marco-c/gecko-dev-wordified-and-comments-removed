@@ -34,6 +34,12 @@ using
 mozilla
 :
 :
+ArrayLength
+;
+using
+mozilla
+:
+:
 BinarySearch
 ;
 using
@@ -992,10 +998,7 @@ const
 size_t
 len
 =
-std
-:
-:
-size
+ArrayLength
 (
 v1
 )

@@ -1348,10 +1348,7 @@ i
 ;
 i
 <
-std
-:
-:
-size
+ArrayLength
 (
 gParamsList
 )
@@ -1440,10 +1437,7 @@ i
 ;
 i
 <
-std
-:
-:
-size
+ArrayLength
 (
 gParamsList
 )

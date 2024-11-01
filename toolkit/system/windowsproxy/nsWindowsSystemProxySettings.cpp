@@ -273,10 +273,10 @@ InternetGetConnectedStateExW
 &
 connFlags
 connName
-std
+mozilla
 :
 :
-size
+ArrayLength
 (
 connName
 )
@@ -345,10 +345,10 @@ list
 .
 dwOptionCount
 =
-std
+mozilla
 :
 :
-size
+ArrayLength
 (
 options
 )

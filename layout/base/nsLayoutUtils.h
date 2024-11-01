@@ -4283,10 +4283,7 @@ aStrokeOptions
 .
 mDashLength
 =
-std
-:
-:
-size
+MOZ_ARRAY_LENGTH
 (
 dot
 )
@@ -4332,10 +4329,7 @@ aStrokeOptions
 .
 mDashLength
 =
-std
-:
-:
-size
+MOZ_ARRAY_LENGTH
 (
 dash
 )

@@ -2724,10 +2724,7 @@ nsTHashSet
 uint32_t
 >
 (
-std
-:
-:
-size
+ArrayLength
 (
 sLanguageTagList
 )

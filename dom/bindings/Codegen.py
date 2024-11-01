@@ -40641,10 +40641,7 @@ JS_NewStringCopyN
 (
 cx
 data
-std
-:
-:
-size
+ArrayLength
 (
 data
 )
@@ -73123,10 +73120,7 @@ uint32_t
 aArgument
 )
 <
-std
-:
-:
-size
+ArrayLength
 (
 {
 strings
@@ -73776,10 +73770,10 @@ ContiguousEnumValues
               
 static_assert
 (
-std
+mozilla
 :
 :
-size
+ArrayLength
 (
 dom
 :

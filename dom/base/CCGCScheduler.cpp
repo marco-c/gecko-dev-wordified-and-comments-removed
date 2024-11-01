@@ -3074,10 +3074,7 @@ false
 ;
 static_assert
 (
-std
-:
-:
-size
+ArrayLength
 (
 stateDescriptors
 )

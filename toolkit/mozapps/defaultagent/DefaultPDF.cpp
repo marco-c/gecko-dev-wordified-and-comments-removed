@@ -214,10 +214,10 @@ SumatraPDF
 ;
 static_assert
 (
-std
+mozilla
 :
 :
-size
+ArrayLength
 (
 kStringPdfHandlerMap
 )
@@ -721,10 +721,10 @@ SumatraPDF
 ;
 static_assert
 (
-std
+mozilla
 :
 :
-size
+ArrayLength
 (
 kFriendlyNamePrefixes
 )

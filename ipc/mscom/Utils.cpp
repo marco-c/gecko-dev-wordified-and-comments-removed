@@ -605,10 +605,10 @@ constexpr
 size_t
 kSubkeyBaseLen
 =
-std
+mozilla
 :
 :
-size
+ArrayLength
 (
 kSubkeyBase
 )
@@ -621,10 +621,10 @@ kSubkeyLen
 =
 kSubkeyBaseLen
 +
-std
+mozilla
 :
 :
-size
+ArrayLength
 (
 kClsid
 )
@@ -1280,10 +1280,7 @@ StringFromGUID2
 (
 aGuid
 aOutBuf
-std
-:
-:
-size
+ArrayLength
 (
 aOutBuf
 )

@@ -125,10 +125,7 @@ ForceNoPlugins
 ?
 0
 :
-std
-:
-:
-size
+ArrayLength
 (
 mMimeTypes
 )

@@ -2198,10 +2198,7 @@ void
 *
 stackPtr
 =
-std
-:
-:
-end
+ArrayEnd
 (
 miniStack
 )

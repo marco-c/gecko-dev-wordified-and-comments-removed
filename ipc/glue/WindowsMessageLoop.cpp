@@ -391,10 +391,7 @@ GetClassNameW
 (
 aHwnd
 classBuf
-std
-:
-:
-size
+MOZ_ARRAY_LENGTH
 (
 classBuf
 )
@@ -406,10 +403,7 @@ result
 !
 =
 (
-std
-:
-:
-size
+MOZ_ARRAY_LENGTH
 (
 kCOMWindowClassName
 )

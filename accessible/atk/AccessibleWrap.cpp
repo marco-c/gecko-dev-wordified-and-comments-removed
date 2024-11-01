@@ -1539,10 +1539,7 @@ index
 ;
 index
 <
-std
-:
-:
-size
+ArrayLength
 (
 atk_if_infos
 )

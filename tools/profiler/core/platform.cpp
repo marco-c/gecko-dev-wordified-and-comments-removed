@@ -25575,10 +25575,7 @@ PROFILER_DEFAULT_SIGHANDLE_ENTRIES
 PROFILER_DEFAULT_INTERVAL
 features
 filters
-std
-:
-:
-size
+MOZ_ARRAY_LENGTH
 (
 filters
 )
@@ -25594,10 +25591,7 @@ PROFILER_DEFAULT_SIGHANDLE_ENTRIES
 PROFILER_DEFAULT_INTERVAL
 features
 filters
-std
-:
-:
-size
+MOZ_ARRAY_LENGTH
 (
 filters
 )
@@ -25636,10 +25630,7 @@ char
 (
 filters
 )
-std
-:
-:
-size
+MOZ_ARRAY_LENGTH
 (
 filters
 )

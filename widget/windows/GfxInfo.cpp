@@ -2224,10 +2224,7 @@ wcsnlen
 displayDevice
 .
 DeviceKey
-std
-:
-:
-size
+ArrayLength
 (
 displayDevice
 .
@@ -2236,10 +2233,7 @@ DeviceKey
 )
 =
 =
-std
-:
-:
-size
+ArrayLength
 (
 displayDevice
 .
@@ -2281,10 +2275,7 @@ displayDevice
 .
 DeviceKey
 DEVICE_KEY_PREFIX
-std
-:
-:
-size
+ArrayLength
 (
 DEVICE_KEY_PREFIX
 )
@@ -2309,10 +2300,7 @@ displayDevice
 .
 DeviceKey
 +
-std
-:
-:
-size
+ArrayLength
 (
 DEVICE_KEY_PREFIX
 )

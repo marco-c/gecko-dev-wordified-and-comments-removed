@@ -1713,10 +1713,7 @@ Length
 -
 kMaxURILengthForLogging
 kEllipsis
-std
-:
-:
-size
+ArrayLength
 (
 kEllipsis
 )

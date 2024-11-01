@@ -4051,10 +4051,7 @@ DenyList
 .
 NumIDs
 =
-std
-:
-:
-size
+MOZ_ARRAY_LENGTH
 (
 blockIDs
 )

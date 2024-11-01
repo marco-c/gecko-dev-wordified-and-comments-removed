@@ -10212,10 +10212,7 @@ _name
 #
 ElementHandlers
 \
-std
-:
-:
-size
+ArrayLength
 (
 gTx
 #

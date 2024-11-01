@@ -664,10 +664,7 @@ y
 ;
 static_assert
 (
-std
-:
-:
-size
+MOZ_ARRAY_LENGTH
 (
 eastAsianDefaults
 )
@@ -860,10 +857,7 @@ t
 ;
 static_assert
 (
-std
-:
-:
-size
+MOZ_ARRAY_LENGTH
 (
 ligDefaults
 )
@@ -1038,10 +1032,7 @@ n
 ;
 static_assert
 (
-std
-:
-:
-size
+MOZ_ARRAY_LENGTH
 (
 numericDefaults
 )

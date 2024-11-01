@@ -1913,10 +1913,7 @@ get
 }
 EXPECT_EQ
 (
-std
-:
-:
-size
+ArrayLength
 (
 video
 )
@@ -2958,10 +2955,7 @@ get
 }
 EXPECT_EQ
 (
-std
-:
-:
-size
+ArrayLength
 (
 audio
 )

@@ -464,10 +464,7 @@ if
 _wgetcwd
 (
 wpath
-std
-:
-:
-size
+ArrayLength
 (
 wpath
 )
@@ -501,10 +498,7 @@ if
 getcwd
 (
 path
-std
-:
-:
-size
+ArrayLength
 (
 path
 )

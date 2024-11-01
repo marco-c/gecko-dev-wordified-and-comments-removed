@@ -1473,10 +1473,7 @@ e
 ;
 e
 <
-std
-:
-:
-size
+ArrayLength
 (
 sEffects
 )
@@ -3629,10 +3626,7 @@ else
 AutoTArray
 <
 nsCString
-std
-:
-:
-size
+ArrayLength
 (
 kNonPlainTextExternalFormats
 )
@@ -3725,10 +3719,7 @@ return
 AutoTArray
 <
 nsCString
-std
-:
-:
-size
+ArrayLength
 (
 kNonPlainTextExternalFormats
 )
@@ -6768,10 +6759,7 @@ f
 ;
 f
 <
-std
-:
-:
-size
+ArrayLength
 (
 formats
 )

@@ -34,6 +34,13 @@ h
 #
 include
 "
+ArrayUtils
+.
+h
+"
+#
+include
+"
 ClearKeyUtils
 .
 h

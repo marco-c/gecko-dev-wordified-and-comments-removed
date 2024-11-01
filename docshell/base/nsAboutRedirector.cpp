@@ -1479,10 +1479,10 @@ const
 int
 kRedirTotal
 =
-std
+mozilla
 :
 :
-size
+ArrayLength
 (
 kRedirMap
 )

@@ -412,10 +412,7 @@ i
 ;
 i
 <
-std
-:
-:
-size
+ArrayLength
 (
 paths
 )

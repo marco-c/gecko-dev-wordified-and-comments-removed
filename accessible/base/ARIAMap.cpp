@@ -3045,10 +3045,7 @@ BinarySearchIf
 (
 sWAIRoleMaps
 0
-std
-:
-:
-size
+ArrayLength
 (
 sWAIRoleMaps
 )
@@ -3244,10 +3241,7 @@ true
 return
 aRoleMapIndex
 <
-std
-:
-:
-size
+ArrayLength
 (
 sWAIRoleMaps
 )
@@ -3321,10 +3315,7 @@ i
 ;
 i
 <
-std
-:
-:
-size
+ArrayLength
 (
 gWAIUnivAttrMap
 )
@@ -3464,10 +3455,7 @@ BinarySearchIf
 (
 sWAIRoleMaps
 0
-std
-:
-:
-size
+ArrayLength
 (
 sWAIRoleMaps
 )

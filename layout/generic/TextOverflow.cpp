@@ -4340,10 +4340,7 @@ i
 ;
 i
 <
-std
-:
-:
-size
+ArrayLength
 (
 lists
 )

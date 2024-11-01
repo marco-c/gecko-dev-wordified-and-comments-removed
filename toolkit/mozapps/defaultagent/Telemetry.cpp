@@ -1300,10 +1300,10 @@ mozilla
 :
 MakeCommandLine
 (
-std
+mozilla
 :
 :
-size
+ArrayLength
 (
 pingsenderArgs
 )

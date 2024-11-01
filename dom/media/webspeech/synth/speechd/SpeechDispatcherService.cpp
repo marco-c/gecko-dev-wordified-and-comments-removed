@@ -1323,10 +1323,7 @@ i
 ;
 i
 <
-std
-:
-:
-size
+ArrayLength
 (
 kSpeechDispatcherSymbols
 )

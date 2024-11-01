@@ -1708,10 +1708,7 @@ static_assert
 (
 EnumValue
 <
-std
-:
-:
-size
+ArrayLength
 (
 JSONEnumKeyStrings
 )

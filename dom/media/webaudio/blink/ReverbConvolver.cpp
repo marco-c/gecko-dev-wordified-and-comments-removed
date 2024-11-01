@@ -345,10 +345,7 @@ Length
 (
 )
 %
-std
-:
-:
-size
+ArrayLength
 (
 phaseLookup
 )
