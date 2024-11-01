@@ -571,7 +571,7 @@ compose_bom
 .
 10
 .
-00
+01
 "
 const
 val
