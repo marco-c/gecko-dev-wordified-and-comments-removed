@@ -355,6 +355,9 @@ class
 nsIContent
 ;
 class
+nsICookieJarSettings
+;
+class
 nsICSSDeclaration
 ;
 class
@@ -1518,6 +1521,13 @@ mozilla
 :
 StorageAccess
 GetStorageAccess
+(
+)
+final
+;
+nsICookieJarSettings
+*
+GetCookieJarSettings
 (
 )
 final

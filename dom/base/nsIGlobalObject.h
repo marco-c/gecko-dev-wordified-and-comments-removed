@@ -149,6 +149,9 @@ class
 nsCycleCollectionTraversalCallback
 ;
 class
+nsICookieJarSettings
+;
+class
 nsIPrincipal
 ;
 class
@@ -747,6 +750,13 @@ mozilla
 :
 StorageAccess
 GetStorageAccess
+(
+)
+;
+virtual
+nsICookieJarSettings
+*
+GetCookieJarSettings
 (
 )
 ;

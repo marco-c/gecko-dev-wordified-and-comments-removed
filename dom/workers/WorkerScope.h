@@ -527,6 +527,13 @@ GetStorageAccess
 )
 final
 ;
+nsICookieJarSettings
+*
+GetCookieJarSettings
+(
+)
+final
+;
 Maybe
 <
 ClientInfo
