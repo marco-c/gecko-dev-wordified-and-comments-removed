@@ -168,6 +168,15 @@ MFD_ALLOW_SEALING
 endif
 #
 ifndef
+MFD_NOEXEC_SEAL
+#
+define
+MFD_NOEXEC_SEAL
+0x0008U
+#
+endif
+#
+ifndef
 F_ADD_SEALS
 #
 ifndef
