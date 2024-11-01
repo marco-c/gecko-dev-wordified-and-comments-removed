@@ -909,6 +909,7 @@ OnRtcpMuxActive
 )
 ;
 }
+payload_type_picker_
 )
 ;
 signal_rtcp_mux_active_received_
@@ -1129,6 +1130,12 @@ test
 :
 ScopedKeyValueConfig
 field_trials_
+;
+webrtc
+:
+:
+PayloadTypePicker
+payload_type_picker_
 ;
 }
 ;

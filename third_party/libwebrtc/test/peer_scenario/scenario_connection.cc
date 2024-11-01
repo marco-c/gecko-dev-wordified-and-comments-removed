@@ -382,6 +382,9 @@ RTC_GUARDED_BY
 network_thread_
 )
 ;
+PayloadTypePicker
+payload_type_picker_
+;
 std
 :
 :
@@ -665,6 +668,7 @@ get
 (
 )
 nullptr
+payload_type_picker_
 CreateJsepConfig
 (
 )

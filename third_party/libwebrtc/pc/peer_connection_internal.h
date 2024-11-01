@@ -563,6 +563,15 @@ ClearStatsCache
 =
 0
 ;
+virtual
+PayloadTypePicker
+&
+payload_type_picker
+(
+)
+=
+0
+;
 }
 ;
 class

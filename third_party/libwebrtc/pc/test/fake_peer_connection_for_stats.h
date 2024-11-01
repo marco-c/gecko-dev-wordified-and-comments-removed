@@ -2646,6 +2646,16 @@ nullptr
 ;
 }
 }
+PayloadTypePicker
+&
+payload_type_picker
+(
+)
+{
+return
+payload_type_picker_
+;
+}
 private
 :
 cricket
@@ -3015,6 +3025,9 @@ SSLCertChain
 >
 >
 remote_cert_chains_by_transport_
+;
+PayloadTypePicker
+payload_type_picker_
 ;
 }
 ;

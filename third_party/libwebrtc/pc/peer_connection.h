@@ -2649,6 +2649,17 @@ GetNetworkController
 )
 ;
 }
+PayloadTypePicker
+&
+payload_type_picker
+(
+)
+override
+{
+return
+payload_type_picker_
+;
+}
 protected
 :
 PeerConnection
@@ -3747,6 +3758,9 @@ signaling_thread
 )
 =
 false
+;
+PayloadTypePicker
+payload_type_picker_
 ;
 rtc
 :

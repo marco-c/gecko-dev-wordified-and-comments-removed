@@ -21439,7 +21439,7 @@ subsequent_ufrags
 TEST_P
 (
 PeerConnectionInterfaceTest
-SetConfigurationCausingPartialIceRestart
+DISABLED_SetConfigurationCausingPartialIceRestart
 )
 {
 PeerConnectionInterface

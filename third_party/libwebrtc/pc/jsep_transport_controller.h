@@ -745,6 +745,9 @@ port_allocator
 AsyncDnsResolverFactoryInterface
 *
 async_dns_resolver_factory
+PayloadTypePicker
+&
+payload_type_picker
 Config
 config
 )
@@ -2462,6 +2465,10 @@ certificate_
 ;
 BundleManager
 bundles_
+;
+PayloadTypePicker
+&
+payload_type_picker_
 ;
 }
 ;
