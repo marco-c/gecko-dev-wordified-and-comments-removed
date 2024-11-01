@@ -136,8 +136,6 @@ image
 '
 :
 '
-build
--
 docker
 -
 image

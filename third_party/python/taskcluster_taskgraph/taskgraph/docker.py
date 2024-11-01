@@ -322,8 +322,6 @@ tasks
 [
 f
 "
-build
--
 docker
 -
 image
@@ -426,8 +424,6 @@ tasks
 [
 f
 "
-build
--
 docker
 -
 image

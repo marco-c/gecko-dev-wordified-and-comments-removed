@@ -1481,19 +1481,14 @@ filters
 )
         
 if
-"
-target_tasks_method
-"
 not
-in
 filters
 :
             
 filters
 .
-insert
+append
 (
-0
 "
 target_tasks_method
 "

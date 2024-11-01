@@ -1,11 +1,11 @@
 __version__
 =
 "
-11
+12
 .
-2
+0
 .
-4
+0
 "
 MAX_DEPENDENCIES
 =
