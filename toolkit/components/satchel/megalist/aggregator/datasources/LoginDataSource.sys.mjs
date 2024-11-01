@@ -3706,11 +3706,11 @@ header
 .
 value
 .
-statsTotal
+count
 =
 stats
 .
-total
+count
 ;
 }
 /

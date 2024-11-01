@@ -48,7 +48,7 @@ total
 alerts
 :
 0
-statsTotal
+count
 :
 3
 }
