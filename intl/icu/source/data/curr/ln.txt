@@ -553,6 +553,15 @@ ntu
 elena
 "
 }
+SLE
+{
+"
+SLE
+"
+"
+Leon
+"
+}
 SLL
 {
 "
@@ -560,6 +569,10 @@ SLL
 "
 "
 Leon
+(
+1964
+2022
+)
 "
 }
 SOS

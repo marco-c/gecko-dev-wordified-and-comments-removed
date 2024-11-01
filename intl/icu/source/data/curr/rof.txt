@@ -519,6 +519,15 @@ sa
 Santahelena
 "
 }
+SLE
+{
+"
+SLE
+"
+"
+leoni
+"
+}
 SLL
 {
 "
@@ -526,6 +535,10 @@ SLL
 "
 "
 leoni
+(
+1964
+2022
+)
 "
 }
 SOS
