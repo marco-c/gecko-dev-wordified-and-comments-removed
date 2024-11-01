@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-01d6daf05144a08e0e248c2d97b35612d95f7ec7
+66e155a44236e0ae91af48b3b4f84f177a36d6fd
 '
 #
 Fetch
@@ -372,11 +372,11 @@ re_client_version
 :
 0
 .
-158
+159
 .
-0
+2
 .
-ddc2270e
+996d35d3
 -
 gomaip
 '
@@ -506,7 +506,7 @@ chromium
 src
 /
 base
-b0531386e90193d52c2fa59d7442ac643bcde44e
+77771bf80e46767d8ee1f1c57bdc002df8db77b1
 '
 '
 src
@@ -530,7 +530,7 @@ chromium
 src
 /
 build
-469c6d506225a9aeaf7d3479745ece6d9a24f492
+896ecbfe9e5076cb277516491fb16fc65d0de9ba
 '
 '
 src
@@ -554,7 +554,7 @@ chromium
 src
 /
 buildtools
-d33351b9914332a8d7ce5d17d3330beec155cc93
+c0b937cf552e969be01aebeb90ed52fc7ff299bc
 '
 #
 Gradle
@@ -650,7 +650,7 @@ chromium
 src
 /
 ios
-a891634072ebffd2205e22adb0aafd1d92618999
+b8e3303855e85a05c8521af101e95d2a68ffc3c9
 '
 '
 condition
@@ -682,7 +682,7 @@ chromium
 src
 /
 testing
-c5261753f7a5d2c1624de75d6b39edf3234c34be
+4477ada5088d8d4019fefc5cfc06467178990073
 '
 '
 src
@@ -1755,7 +1755,7 @@ com
 catapult
 .
 git
-21462dff937ce89720e90a43b7dc58425c82535d
+663fc204a73a11aaeb16b736f157f3d6369c7a8b
 '
 '
 src
@@ -2981,7 +2981,7 @@ external
 perfetto
 .
 git
-4acdcdfaa037f456d793ba8e08c44f1756069971
+f2aa5c0df5f4b73f14b024288da6f900955b118a
 '
 '
 src
@@ -3532,7 +3532,7 @@ chromium
 src
 /
 tools
-992e77c5a9a0e9808e97877897f6203118a40abf
+059ff0d662a886fcabfb5dc9a58054cde9219351
 '
 '
 src
