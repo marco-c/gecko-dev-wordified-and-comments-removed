@@ -31,6 +31,7 @@ RTCVideoEncoderVP9
 NSObject
 +
 (
+nullable
 id
 <
 RTC_OBJC_TYPE
@@ -40,6 +41,18 @@ RTCVideoEncoder
 >
 )
 vp9Encoder
+;
++
+(
+nonnull
+NSArray
+<
+NSString
+*
+>
+*
+)
+supportedScalabilityModes
 ;
 +
 (

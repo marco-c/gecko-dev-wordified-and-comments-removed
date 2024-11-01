@@ -31,6 +31,7 @@ RTCVideoEncoderAV1
 NSObject
 +
 (
+nonnull
 id
 <
 RTC_OBJC_TYPE
@@ -40,6 +41,18 @@ RTCVideoEncoder
 >
 )
 av1Encoder
+;
++
+(
+nonnull
+NSArray
+<
+NSString
+*
+>
+*
+)
+supportedScalabilityModes
 ;
 +
 (
