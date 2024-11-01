@@ -1109,7 +1109,7 @@ test
 sets
 :
 -
-talos
+browsertime
 -
 ref
 -
@@ -1176,7 +1176,7 @@ test
 sets
 :
 -
-talos
+browsertime
 -
 ref
 -
