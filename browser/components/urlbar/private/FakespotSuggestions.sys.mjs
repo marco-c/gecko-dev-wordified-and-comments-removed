@@ -609,6 +609,15 @@ showLessFrequentlyCount
 cap
 ;
 }
+isSuggestionSponsored
+(
+_suggestion
+)
+{
+return
+true
+;
+}
 getSuggestionTelemetryType
 (
 suggestion

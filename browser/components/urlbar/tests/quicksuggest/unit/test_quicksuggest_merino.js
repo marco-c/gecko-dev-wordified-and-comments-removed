@@ -2226,6 +2226,9 @@ qsSuggestion
 "
 full_keyword
 "
+isSponsored
+:
+false
 isBlockable
 :
 true

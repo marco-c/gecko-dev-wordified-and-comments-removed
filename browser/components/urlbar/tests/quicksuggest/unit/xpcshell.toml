@@ -235,6 +235,13 @@ js
 ]
 [
 "
+test_quicksuggest_yelp_ml
+.
+js
+"
+]
+[
+"
 test_rust_ingest
 .
 js
