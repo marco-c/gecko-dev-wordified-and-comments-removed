@@ -67,15 +67,6 @@ h
 #
 include
 "
-call
-/
-create_call
-.
-h
-"
-#
-include
-"
 media
 /
 base
@@ -213,7 +204,10 @@ return
 webrtc
 :
 :
-CreateCall
+Call
+:
+:
+Create
 (
 std
 :
