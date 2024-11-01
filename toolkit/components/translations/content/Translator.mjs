@@ -296,7 +296,7 @@ number
 *
 /
 #
-nextMessageId
+nextTranslationId
 =
 0
 ;
@@ -1025,7 +1025,7 @@ TranslationResponse
 const
 {
 targetText
-messageId
+translationId
 }
 =
 data
@@ -1039,7 +1039,7 @@ not
 match
 match
 a
-messageId
+translationId
 if
 there
 is
@@ -1063,7 +1063,7 @@ requests
 .
 get
 (
-messageId
+translationId
 )
 ?
 .
@@ -1267,12 +1267,12 @@ withResolvers
 )
 ;
 const
-messageId
+translationId
 =
 this
 .
 #
-nextMessageId
+nextTranslationId
 +
 +
 ;
@@ -1297,7 +1297,7 @@ with
 the
 /
 /
-messageId
+translationId
 in
 #
 handlePortMessage
@@ -1309,7 +1309,7 @@ requests
 .
 set
 (
-messageId
+translationId
 {
 sourceText
 isHTML
@@ -1333,7 +1333,7 @@ TranslationsPort
 :
 TranslationRequest
 "
-messageId
+translationId
 sourceText
 isHTML
 }
