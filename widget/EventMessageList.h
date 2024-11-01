@@ -1057,6 +1057,14 @@ eCancel
 )
 NS_EVENT_MESSAGE
 (
+eEncrypted
+)
+NS_EVENT_MESSAGE
+(
+eWaitingForKey
+)
+NS_EVENT_MESSAGE
+(
 eScrollend
 )
 #

@@ -507,6 +507,13 @@ eBasicEventClass
 )
 EVENT
 (
+encrypted
+eEncrypted
+EventNameType_HTMLMedia
+eBasicEventClass
+)
+EVENT
+(
 ended
 eEnded
 EventNameType_HTML
@@ -923,6 +930,13 @@ EVENT
 waiting
 eWaiting
 EventNameType_HTML
+eBasicEventClass
+)
+EVENT
+(
+waitingforkey
+eWaitingForKey
+EventNameType_HTMLMedia
 eBasicEventClass
 )
 EVENT
