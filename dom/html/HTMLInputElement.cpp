@@ -19380,6 +19380,11 @@ return
 if
 (
 mCheckedIsToggled
+&
+&
+IsInComposedDoc
+(
+)
 )
 {
 SetUserInteracted
