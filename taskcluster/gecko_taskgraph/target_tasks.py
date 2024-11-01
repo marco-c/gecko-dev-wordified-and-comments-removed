@@ -5737,6 +5737,19 @@ return
 False
         
 if
+"
+network
+-
+bench
+"
+in
+try_name
+:
+            
+return
+False
+        
+if
 accept_raptor_desktop_build
 (
 platform
