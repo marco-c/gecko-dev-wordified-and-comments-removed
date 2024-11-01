@@ -388,6 +388,14 @@ kFlexfec
 kRtx
 }
 ;
+static
+const
+int
+kIdNotSet
+=
+-
+1
+;
 Type
 type
 ;
