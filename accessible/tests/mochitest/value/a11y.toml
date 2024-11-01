@@ -27,6 +27,13 @@ html
 ]
 [
 "
+test_color
+.
+html
+"
+]
+[
+"
 test_datetime
 .
 html
@@ -49,6 +56,13 @@ html
 [
 "
 test_number
+.
+html
+"
+]
+[
+"
+test_password
 .
 html
 "

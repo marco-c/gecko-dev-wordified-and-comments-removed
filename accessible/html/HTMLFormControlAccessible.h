@@ -199,6 +199,17 @@ aDoc
 )
 ;
 virtual
+void
+Value
+(
+nsString
+&
+aValue
+)
+const
+override
+;
+virtual
 mozilla
 :
 :

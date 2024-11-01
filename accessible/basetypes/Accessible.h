@@ -2348,6 +2348,16 @@ aKey
 nsAString
 &
 aStringOut
+const
+nsTArray
+<
+nsString
+>
+&
+aParams
+=
+{
+}
 )
 ;
 protected
