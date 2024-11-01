@@ -1315,6 +1315,11 @@ Named
 return
 ;
 }
+InvalidateStyleAndLayoutOnSubtree
+(
+aSlot
+)
+;
 HTMLSlotElement
 *
 oldSlot
@@ -2208,8 +2213,6 @@ ShadowRoot
 :
 ImportRuleLoaded
 (
-CSSImportRule
-&
 StyleSheet
 &
 aSheet
