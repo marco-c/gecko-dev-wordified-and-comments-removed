@@ -1464,6 +1464,7 @@ exec
 .
 Compile
 (
+options
 NS_ConvertUTF8toUTF16
 (
 script

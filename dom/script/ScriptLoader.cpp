@@ -13420,6 +13420,12 @@ aCx
 JSExecutionContext
 &
 aExec
+JS
+:
+:
+CompileOptions
+&
+aCompileOptions
 ScriptLoadRequest
 *
 aRequest
@@ -13492,6 +13498,7 @@ aExec
 .
 JoinOffThread
 (
+aCompileOptions
 aRequest
 -
 >
@@ -13540,6 +13547,7 @@ aExec
 .
 Decode
 (
+aCompileOptions
 aRequest
 -
 >
@@ -13640,6 +13648,7 @@ aExec
 .
 JoinOffThread
 (
+aCompileOptions
 aRequest
 -
 >
@@ -13742,6 +13751,7 @@ aExec
 .
 Compile
 (
+aCompileOptions
 source
 aRv
 )
@@ -13802,6 +13812,12 @@ aCx
 JSExecutionContext
 &
 aExec
+JS
+:
+:
+CompileOptions
+&
+aCompileOptions
 ScriptLoadRequest
 *
 aRequest
@@ -13863,6 +13879,7 @@ aExec
 .
 InstantiateStencil
 (
+aCompileOptions
 std
 :
 :
@@ -13900,6 +13917,12 @@ aCx
 JSExecutionContext
 &
 aExec
+JS
+:
+:
+CompileOptions
+&
+aCompileOptions
 ScriptLoadRequest
 *
 aRequest
@@ -13938,6 +13961,7 @@ InstantiateClassicScriptFromCachedStencil
 (
 aCx
 aExec
+aCompileOptions
 aRequest
 stencil
 aRv
@@ -14021,6 +14045,7 @@ InstantiateClassicScriptFromMaybeEncodedSource
 (
 aCx
 aExec
+aCompileOptions
 aRequest
 aRv
 )
@@ -14939,6 +14964,7 @@ InstantiateClassicScriptFromAny
 (
 cx
 exec
+options
 aRequest
 erv
 )
