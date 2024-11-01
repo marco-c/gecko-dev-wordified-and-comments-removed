@@ -2054,6 +2054,7 @@ const
 int32_t
 IndexOf
 (
+const
 nsIFrame
 *
 aFrame
@@ -2061,11 +2062,13 @@ aFrame
 const
 ;
 int32_t
-RIndexOf
+RLIndexOf
 (
+const
 nsIFrame
 *
 aFrame
+const
 nsIFrame
 *
 aLastFrameInLine
