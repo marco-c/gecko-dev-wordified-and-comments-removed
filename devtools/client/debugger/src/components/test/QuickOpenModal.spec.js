@@ -301,6 +301,13 @@ jest
 fn
 (
 )
+updateCursorPosition
+:
+jest
+.
+fn
+(
+)
 setQuickOpenQuery
 :
 jest
@@ -2561,7 +2568,7 @@ toHaveBeenCalledWith
 {
 column
 :
-undefined
+0
 line
 :
 0
@@ -2725,7 +2732,7 @@ toHaveBeenCalledWith
 {
 column
 :
-undefined
+0
 line
 :
 0
