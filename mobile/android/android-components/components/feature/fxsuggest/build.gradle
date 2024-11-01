@@ -314,6 +314,10 @@ test
 testImplementation
 ComponentsDependencies
 .
+androidx_concurrent
+testImplementation
+ComponentsDependencies
+.
 androidx_test_core
 testImplementation
 ComponentsDependencies
