@@ -3670,6 +3670,12 @@ default
 std
 :
 :
+string
+mid
+;
+std
+:
+:
 vector
 <
 Codec
@@ -3875,12 +3881,6 @@ max_bandwidth_bps
 =
 -
 1
-;
-std
-:
-:
-string
-mid
 ;
 bool
 extmap_allow_mixed
