@@ -2066,7 +2066,7 @@ Caret
 IsVisualMovement
 (
 ExtendSelection
-aContinueSelection
+aExtendSelection
 CaretMovementStyle
 aMovementStyle
 )
@@ -2110,7 +2110,7 @@ movementFlag
 2
 &
 &
-aContinueSelection
+aExtendSelection
 =
 =
 ExtendSelection
@@ -3142,7 +3142,7 @@ MoveCaret
 nsDirection
 aDirection
 ExtendSelection
-aContinueSelection
+aExtendSelection
 const
 nsSelectionAmount
 aAmount
@@ -3286,7 +3286,7 @@ IsCollapsed
 )
 |
 |
-aContinueSelection
+aExtendSelection
 =
 =
 ExtendSelection
@@ -3474,7 +3474,7 @@ mCaret
 .
 IsVisualMovement
 (
-aContinueSelection
+aExtendSelection
 aMovementStyle
 )
 ;
@@ -3736,7 +3736,7 @@ result
 PeekOffsetForCaretMove
 (
 direction
-aContinueSelection
+aExtendSelection
 aAmount
 aMovementStyle
 desiredPos
@@ -4010,7 +4010,7 @@ const
 FocusMode
 focusMode
 =
-aContinueSelection
+aExtendSelection
 =
 =
 ExtendSelection
@@ -4065,7 +4065,7 @@ direction
 eDirNext
 &
 &
-aContinueSelection
+aExtendSelection
 =
 =
 ExtendSelection
@@ -4203,7 +4203,7 @@ Selection
 *
 aSelection
 ExtendSelection
-aContinueSelection
+aExtendSelection
 CaretMovementStyle
 aMovementStyle
 )
@@ -4236,7 +4236,7 @@ mCaret
 .
 IsVisualMovement
 (
-aContinueSelection
+aExtendSelection
 aMovementStyle
 )
 ;
@@ -4256,7 +4256,7 @@ Visual
 }
 if
 (
-aContinueSelection
+aExtendSelection
 =
 =
 ExtendSelection
@@ -4590,7 +4590,7 @@ PeekOffsetForCaretMove
 nsDirection
 aDirection
 ExtendSelection
-aContinueSelection
+aExtendSelection
 const
 nsSelectionAmount
 aAmount
@@ -4641,7 +4641,7 @@ options
 CreatePeekOffsetOptionsForCaretMove
 (
 selection
-aContinueSelection
+aExtendSelection
 aMovementStyle
 )
 ;

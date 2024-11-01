@@ -1830,7 +1830,7 @@ MoveCaret
 nsDirection
 aDirection
 ExtendSelection
-aContinueSelection
+aExtendSelection
 nsSelectionAmount
 aAmount
 CaretMovementStyle
@@ -1860,7 +1860,7 @@ Selection
 *
 aSelection
 ExtendSelection
-aContinueSelection
+aExtendSelection
 CaretMovementStyle
 aMovementStyle
 )
@@ -1911,7 +1911,7 @@ PeekOffsetForCaretMove
 nsDirection
 aDirection
 ExtendSelection
-aContinueSelection
+aExtendSelection
 const
 nsSelectionAmount
 aAmount
@@ -2607,7 +2607,7 @@ bool
 IsVisualMovement
 (
 ExtendSelection
-aContinueSelection
+aExtendSelection
 CaretMovementStyle
 aMovementStyle
 )
