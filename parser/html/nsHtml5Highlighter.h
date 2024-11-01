@@ -347,6 +347,11 @@ aCreator
 )
 ;
 void
+NewLine
+(
+)
+;
+void
 Pop
 (
 )
