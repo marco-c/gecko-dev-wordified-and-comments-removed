@@ -179,6 +179,12 @@ destroy
 Commands
 *
 /
+async
+_internalForward
+(
+)
+{
+}
 /
 /
 Resolves
