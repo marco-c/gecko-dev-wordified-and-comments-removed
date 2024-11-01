@@ -583,7 +583,7 @@ this
 )
 ;
 }
-UNSAFE_componentWillMount
+componentDidMount
 (
 )
 {
