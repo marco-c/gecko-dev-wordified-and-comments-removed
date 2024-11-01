@@ -223,7 +223,7 @@ privacy
 team
 mozilla
 .
-com
+org
 expires
 :
 never
@@ -300,7 +300,7 @@ privacy
 team
 mozilla
 .
-com
+org
 expires
 :
 never
@@ -372,7 +372,7 @@ privacy
 team
 mozilla
 .
-com
+org
 expires
 :
 never
@@ -499,17 +499,12 @@ la
 notification_emails
 :
 -
-ewright
-mozilla
-.
-com
--
 privacy
 -
 team
 mozilla
 .
-com
+org
 expires
 :
 never
