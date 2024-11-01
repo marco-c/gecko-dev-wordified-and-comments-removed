@@ -2,6 +2,8 @@ import
 collections
 import
 json
+import
+string
 from
 typing
 import
@@ -168,19 +170,21 @@ s
 self
 .
 message
-        
-message
-+
-=
-"
-\
-n
-"
+.
+strip
+(
+string
+.
+whitespace
+)
         
 if
 self
 .
 stacktrace
+is
+not
+None
 :
             
 message
@@ -188,6 +192,8 @@ message
 =
 (
 "
+\
+n
 \
 nRemote
 -
@@ -205,6 +211,14 @@ s
 self
 .
 stacktrace
+.
+strip
+(
+"
+\
+n
+"
+)
 )
         
 return
@@ -899,6 +913,8 @@ value
 message
 "
 ]
+or
+None
     
 stack
 =
