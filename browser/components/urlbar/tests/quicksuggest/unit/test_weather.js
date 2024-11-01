@@ -2190,7 +2190,6 @@ query
 :
 "
 us
-/
 ca
 city
 "
@@ -2221,7 +2220,6 @@ city
 :
 "
 US
-/
 CA
 City
 "
@@ -2240,7 +2238,6 @@ suggestionCity
 :
 "
 US
-/
 CA
 City
 "
@@ -2280,7 +2277,6 @@ query
 :
 "
 us
-/
 ca
 city
 "
@@ -2311,7 +2307,6 @@ city
 :
 "
 US
-/
 CA
 City
 "
@@ -2330,7 +2325,6 @@ suggestionCity
 :
 "
 US
-/
 CA
 City
 "

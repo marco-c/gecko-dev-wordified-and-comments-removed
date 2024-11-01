@@ -2018,7 +2018,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-56
+64
 /
 /
 arithmetic
@@ -2186,7 +2186,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-57
+65
 /
 /
 arithmetic
@@ -2354,7 +2354,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-58
+66
 /
 /
 arithmetic
@@ -2532,7 +2532,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-59
+67
 /
 /
 arithmetic

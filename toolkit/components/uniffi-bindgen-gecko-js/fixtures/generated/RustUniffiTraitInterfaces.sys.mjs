@@ -999,7 +999,7 @@ readPointerCalc
 const
 pointerId
 =
-13
+15
 ;
 /
 /
@@ -1082,7 +1082,7 @@ value
 const
 pointerId
 =
-13
+15
 ;
 /
 /
@@ -1992,7 +1992,7 @@ UniFFIScaffolding
 .
 callSync
 (
-153
+161
 /
 /
 uniffi_trait_interfaces
@@ -2207,7 +2207,7 @@ UniFFIScaffolding
 .
 callSync
 (
-151
+159
 /
 /
 uniffi_trait_interfaces
@@ -2265,7 +2265,7 @@ UniFFIScaffolding
 .
 callSync
 (
-152
+160
 /
 /
 uniffi_trait_interfaces
