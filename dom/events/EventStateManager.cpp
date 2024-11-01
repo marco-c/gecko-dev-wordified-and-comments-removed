@@ -6944,15 +6944,6 @@ only
 if
 (
 !
-StaticPrefs
-:
-:
-dom_element_popover_enabled
-(
-)
-|
-|
-!
 aEvent
 -
 >

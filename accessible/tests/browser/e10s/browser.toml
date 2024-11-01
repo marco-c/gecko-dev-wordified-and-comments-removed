@@ -127,17 +127,6 @@ prefs
 =
 [
 "
-dom
-.
-element
-.
-popover
-.
-enabled
-=
-true
-"
-"
 accessibility
 .
 ARIAElementReflection
