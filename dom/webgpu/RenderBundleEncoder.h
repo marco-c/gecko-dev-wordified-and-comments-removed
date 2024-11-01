@@ -154,16 +154,6 @@ RenderPipeline
 >
 mUsedPipelines
 ;
-nsTArray
-<
-RefPtr
-<
-const
-TextureView
->
->
-mUsedTextureViews
-;
 public
 :
 void
