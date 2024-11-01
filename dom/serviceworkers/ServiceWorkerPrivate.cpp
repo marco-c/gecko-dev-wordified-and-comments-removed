@@ -4137,9 +4137,9 @@ ServiceWorkerCloneData
 &
 aData
 const
-ClientInfoAndState
+PostMessageSource
 &
-aClientInfoAndState
+aSource
 )
 {
 AssertIsOnMainThread
@@ -4196,11 +4196,11 @@ args
 ;
 args
 .
-clientInfoAndState
+source
 (
 )
 =
-aClientInfoAndState
+aSource
 ;
 if
 (

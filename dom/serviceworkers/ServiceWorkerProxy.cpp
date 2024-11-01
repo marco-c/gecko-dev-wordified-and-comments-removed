@@ -493,13 +493,9 @@ ServiceWorkerCloneData
 &
 aData
 const
-ClientInfo
+PostMessageSource
 &
-aClientInfo
-const
-ClientState
-&
-aClientState
+aSource
 )
 {
 AssertIsOnBackgroundThread
@@ -534,8 +530,7 @@ move
 (
 aData
 )
-aClientInfo
-aClientState
+aSource
 ]
 (
 )
@@ -568,8 +563,7 @@ move
 (
 data
 )
-aClientInfo
-aClientState
+aSource
 )
 ;
 }

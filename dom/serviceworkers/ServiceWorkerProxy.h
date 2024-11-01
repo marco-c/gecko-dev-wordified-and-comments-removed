@@ -25,10 +25,7 @@ mozilla
 dom
 {
 class
-ClientInfo
-;
-class
-ClientState
+PostMessageSource
 ;
 class
 ServiceWorkerCloneData
@@ -134,13 +131,9 @@ ServiceWorkerCloneData
 &
 aData
 const
-ClientInfo
+PostMessageSource
 &
-aClientInfo
-const
-ClientState
-&
-aState
+aSource
 )
 ;
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING

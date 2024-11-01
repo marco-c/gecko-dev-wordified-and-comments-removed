@@ -312,8 +312,8 @@ apiEventName
 struct
 ServiceWorkerMessageEventOpArgs
 {
-ClientInfoAndState
-clientInfoAndState
+PostMessageSource
+source
 ;
 ClonedOrErrorMessageData
 clonedData

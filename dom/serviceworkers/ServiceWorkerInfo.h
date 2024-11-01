@@ -76,10 +76,7 @@ mozilla
 dom
 {
 class
-ClientInfoAndState
-;
-class
-ClientState
+PostMessageSource
 ;
 class
 ServiceWorkerCloneData
@@ -184,13 +181,9 @@ ServiceWorkerCloneData
 &
 aData
 const
-ClientInfo
+PostMessageSource
 &
-aClientInfo
-const
-ClientState
-&
-aClientState
+aSource
 )
 ;
 class

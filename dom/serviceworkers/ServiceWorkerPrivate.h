@@ -162,7 +162,7 @@ namespace
 dom
 {
 class
-ClientInfoAndState
+PostMessageSource
 ;
 class
 RemoteWorkerControllerChild
@@ -304,9 +304,9 @@ ServiceWorkerCloneData
 &
 aData
 const
-ClientInfoAndState
+PostMessageSource
 &
-aClientInfoAndState
+aSource
 )
 ;
 nsresult
