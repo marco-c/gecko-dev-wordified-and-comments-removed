@@ -380,6 +380,15 @@ info
 .
 end_of_picture
 ;
+rtp
+-
+>
+frame_instrumentation_data
+=
+info
+.
+frame_instrumentation_data
+;
 switch
 (
 info
