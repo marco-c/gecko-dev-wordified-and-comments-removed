@@ -3416,6 +3416,10 @@ common_audio
 common_video
 "
 "
+:
+dcsctp
+"
+"
 logging
 :
 rtc_event_log_api
@@ -5009,6 +5013,13 @@ visibility
 /
 :
 default
+"
+"
+/
+/
+libwebrtc
+:
+webrtc
 "
 ]
 sources
