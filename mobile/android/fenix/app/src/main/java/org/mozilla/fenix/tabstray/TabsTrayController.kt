@@ -1780,6 +1780,10 @@ showBookmarkSnackbar
 tabSize
 :
 Int
+parentFolderTitle
+:
+String
+?
 )
 -
 >
@@ -3029,6 +3033,10 @@ showBookmarkSnackbar
 tabs
 .
 size
+parentNode
+?
+.
+title
 )
 }
 }

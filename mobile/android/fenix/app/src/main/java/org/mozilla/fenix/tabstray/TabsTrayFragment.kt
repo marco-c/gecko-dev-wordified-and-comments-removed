@@ -4189,6 +4189,10 @@ showBookmarkSnackbar
 tabSize
 :
 Int
+parentFolderTitle
+:
+String
+?
 )
 {
 FenixSnackbar
@@ -4203,6 +4207,7 @@ requireView
 bookmarkMessage
 (
 tabSize
+parentFolderTitle
 )
 .
 anchorWithAction

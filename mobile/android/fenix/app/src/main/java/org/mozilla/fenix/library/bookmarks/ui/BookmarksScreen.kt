@@ -2197,7 +2197,7 @@ R
 .
 string
 .
-bookmark_add_folder
+bookmark_select_folder_new_folder_button_title
 )
 tint
 =
@@ -2700,17 +2700,6 @@ onDeleteTapped
 Unit
 )
 {
-val
-appName
-=
-stringResource
-(
-R
-.
-string
-.
-app_name
-)
 AlertDialog
 (
 title
@@ -2726,8 +2715,7 @@ R
 .
 string
 .
-bookmark_delete_multiple_folders_confirmation_dialog
-appName
+bookmark_delete_folders_confirmation_dialog
 )
 color
 =
@@ -3141,7 +3129,7 @@ R
 .
 string
 .
-bookmark_add_folder
+bookmark_select_folder_new_folder_button_title
 )
 labelTextColor
 =

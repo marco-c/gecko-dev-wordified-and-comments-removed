@@ -587,7 +587,7 @@ R
 .
 string
 .
-bookmark_deletion_multiple_snackbar_message_2
+bookmark_delete_multiple_items
 val
 numberOfBookmarks
 =
