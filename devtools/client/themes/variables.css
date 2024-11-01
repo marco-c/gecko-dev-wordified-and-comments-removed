@@ -2752,7 +2752,7 @@ var
 -
 grey
 -
-40
+50
 )
 var
 (
@@ -2760,7 +2760,7 @@ var
 -
 grey
 -
-50
+45
 )
 )
 ;
@@ -4265,6 +4265,18 @@ color
 strong
 :
 CanvasText
+;
+-
+-
+theme
+-
+text
+-
+color
+-
+inactive
+:
+GrayText
 ;
 -
 -
