@@ -2062,7 +2062,7 @@ nss_initialization
 :
 type
 :
-timespan
+quantity
 description
 :
 >
@@ -2134,7 +2134,7 @@ com
 expires
 :
 never
-time_unit
+unit
 :
 millisecond
 telemetry_mirror
@@ -2144,7 +2144,7 @@ loading_certs_task
 :
 type
 :
-timespan
+quantity
 description
 :
 >
@@ -2228,7 +2228,7 @@ com
 expires
 :
 never
-time_unit
+unit
 :
 millisecond
 telemetry_mirror
