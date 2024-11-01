@@ -731,6 +731,10 @@ SignIntoSyncClicked
 is
 AddFolderAction
 .
+FolderCreated
+is
+AddFolderAction
+.
 TitleChanged
 is
 EditBookmarkAction
