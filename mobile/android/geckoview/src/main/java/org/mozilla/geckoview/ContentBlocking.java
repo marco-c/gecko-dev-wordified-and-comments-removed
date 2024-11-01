@@ -2687,12 +2687,6 @@ return
 this
 ;
 }
-SuppressLint
-(
-"
-WrongConstant
-"
-)
 public
 NonNull
 Settings
@@ -5720,7 +5714,7 @@ static
 boolean
 catToSbMalware
 (
-CBAntiTracking
+CBSafeBrowsing
 final
 int
 cat
@@ -5753,7 +5747,7 @@ static
 boolean
 catToSbPhishing
 (
-CBAntiTracking
+CBSafeBrowsing
 final
 int
 cat

@@ -8,13 +8,6 @@ geckoview
 import
 android
 .
-annotation
-.
-SuppressLint
-;
-import
-android
-.
 util
 .
 Log
@@ -2868,7 +2861,6 @@ NonNull
 T
 value
 final
-SaveOptionHint
 int
 hint
 )
@@ -3005,7 +2997,6 @@ NonNull
 T
 value
 final
-SelectOptionHint
 int
 hint
 )
@@ -3556,12 +3547,6 @@ INSECURE_FORM
 1
 ;
 }
-SuppressLint
-(
-"
-WrongConstant
-"
-)
 CreditCardSelectOption
 (
 final
@@ -3753,12 +3738,6 @@ INSECURE_FORM
 1
 ;
 }
-SuppressLint
-(
-"
-WrongConstant
-"
-)
 AddressSelectOption
 (
 final
