@@ -593,7 +593,7 @@ mNativeMenuItem
 =
 [
 [
-GeckoNSMenuItem
+NSMenuItem
 alloc
 ]
 initWithTitle
@@ -3575,7 +3575,7 @@ item
 =
 [
 [
-GeckoNSMenuItem
+NSMenuItem
 alloc
 ]
 initWithTitle
