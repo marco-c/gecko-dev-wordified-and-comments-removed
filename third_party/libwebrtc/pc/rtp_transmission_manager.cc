@@ -27,6 +27,17 @@ include
 "
 api
 /
+environment
+/
+environment
+.
+h
+"
+#
+include
+"
+api
+/
 peer_connection_interface
 .
 h
@@ -136,6 +147,10 @@ RtpTransmissionManager
 :
 RtpTransmissionManager
 (
+const
+Environment
+&
+env
 bool
 is_unified_plan
 ConnectionContext
@@ -162,6 +177,10 @@ void
 on_negotiation_needed
 )
 :
+env_
+(
+env
+)
 is_unified_plan_
 (
 is_unified_plan
@@ -1578,6 +1597,7 @@ AudioRtpSender
 :
 Create
 (
+env_
 worker_thread
 (
 )
@@ -1647,6 +1667,7 @@ VideoRtpSender
 :
 Create
 (
+env_
 worker_thread
 (
 )
