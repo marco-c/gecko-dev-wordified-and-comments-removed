@@ -121,8 +121,6 @@ inbound
 rtp
 .
 framesPerSecond
-;
-noAvg
 "
 "
 inbound
