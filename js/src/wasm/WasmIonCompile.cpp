@@ -21023,6 +21023,7 @@ offsets
 [
 i
 ]
+i
 params
 [
 i
@@ -21689,6 +21690,7 @@ alloc
 exception
 data
 offset
+i
 argValues
 [
 i
@@ -22398,6 +22400,8 @@ MDefinition
 base
 uint32_t
 offset
+uint32_t
+fieldIndex
 bool
 needsTrapInfo
 WasmPreBarrierKind
@@ -22500,6 +22504,7 @@ alloc
 keepAlive
 base
 offset
+fieldIndex
 value
 narrowingOp
 AliasSet
@@ -22940,6 +22945,8 @@ MDefinition
 base
 uint32_t
 offset
+uint32_t
+fieldIndex
 bool
 needsTrapInfo
 )
@@ -23017,6 +23024,7 @@ alloc
 keepAlive
 base
 offset
+fieldIndex
 mirType
 mirWideningOp
 AliasSet
@@ -23418,6 +23426,11 @@ alloc
 )
 instancePointer_
 typeDefData
+typeDef
+.
+structType
+(
+)
 isOutline
 zeroFields
 allocKind
@@ -23651,6 +23664,7 @@ fieldAliasSet
 value
 base
 areaOffset
+fieldIndex
 needsTrapInfo
 preBarrierKind
 )
@@ -23854,6 +23868,7 @@ structObject
 fieldAliasSet
 base
 areaOffset
+fieldIndex
 needsTrapInfo
 )
 ;
@@ -41815,6 +41830,7 @@ base
 i
 *
 elemSize
+i
 false
 WasmPreBarrierKind
 :
