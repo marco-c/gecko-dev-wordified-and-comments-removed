@@ -166,9 +166,6 @@ push
 T
 :
 Copy
-+
-?
-Sized
 >
 (
 &
@@ -398,8 +395,6 @@ self
 }
 impl
 <
-'
-a
 M
 :
 MsgHdr
@@ -409,7 +404,7 @@ for
 Encoder
 <
 '
-a
+_
 M
 >
 {
