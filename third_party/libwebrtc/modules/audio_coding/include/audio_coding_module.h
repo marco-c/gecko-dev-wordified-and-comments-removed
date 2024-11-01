@@ -266,6 +266,14 @@ new_encoder
 ;
 }
 virtual
+void
+Reset
+(
+)
+=
+0
+;
+virtual
 int32_t
 RegisterTransportCallback
 (
