@@ -668,6 +668,7 @@ cricket
 :
 Codec
 codec
+const
 PayloadTypeRecorder
 *
 excluder
@@ -1067,6 +1068,7 @@ PayloadTypeRecorder
 GetMappings
 (
 )
+const
 {
 return
 std
@@ -1105,6 +1107,7 @@ cricket
 Codec
 codec
 )
+const
 {
 auto
 result
@@ -1198,6 +1201,7 @@ LookupCodec
 PayloadType
 payload_type
 )
+const
 {
 auto
 result
@@ -1248,7 +1252,7 @@ void
 PayloadTypeRecorder
 :
 :
-Checkpoint
+Commit
 (
 )
 {

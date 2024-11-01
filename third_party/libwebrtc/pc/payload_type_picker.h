@@ -159,6 +159,7 @@ cricket
 :
 Codec
 codec
+const
 PayloadTypeRecorder
 *
 excluder
@@ -311,6 +312,7 @@ Codec
 GetMappings
 (
 )
+const
 ;
 RTCErrorOr
 <
@@ -324,6 +326,7 @@ cricket
 Codec
 codec
 )
+const
 ;
 RTCErrorOr
 <
@@ -337,9 +340,10 @@ LookupCodec
 PayloadType
 payload_type
 )
+const
 ;
 void
-Checkpoint
+Commit
 (
 )
 ;

@@ -417,7 +417,7 @@ ok
 ;
 recorder
 .
-Checkpoint
+Commit
 (
 )
 ;
@@ -573,7 +573,7 @@ ok
 ;
 recorder
 .
-Checkpoint
+Commit
 (
 )
 ;
