@@ -366,6 +366,24 @@ FieldTrial
 '
 WebRTC
 -
+ElasticBitrateAllocation
+'
+               
+350555527
+               
+date
+(
+2025
+3
+1
+)
+)
+    
+FieldTrial
+(
+'
+WebRTC
+-
 EncoderDataDumpDirectory
 '
                
