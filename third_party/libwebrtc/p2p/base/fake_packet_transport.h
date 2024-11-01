@@ -241,6 +241,12 @@ if
 (
 !
 dest_
+|
+|
+error_
+!
+=
+0
 )
 {
 return

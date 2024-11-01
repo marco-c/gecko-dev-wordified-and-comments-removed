@@ -27,17 +27,6 @@ utility
 #
 include
 "
-absl
-/
-strings
-/
-string_view
-.
-h
-"
-#
-include
-"
 api
 /
 array_view
@@ -872,6 +861,11 @@ size
 {
 if
 (
+set_ready_to_send_false_if_send_fail_
+)
+{
+if
+(
 transport
 -
 >
@@ -903,6 +897,7 @@ rtcp
 false
 )
 ;
+}
 }
 return
 false

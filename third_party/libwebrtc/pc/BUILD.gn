@@ -3165,6 +3165,14 @@ array_view
 .
 /
 api
+:
+field_trials_view
+"
+"
+.
+.
+/
+api
 /
 task_queue
 :
