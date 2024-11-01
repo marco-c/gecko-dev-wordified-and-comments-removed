@@ -263,7 +263,7 @@ fenix
 .
 ext
 .
-isTablet
+isLargeWindow
 import
 org
 .
@@ -714,7 +714,7 @@ navigationToolbarEnabled
 &
 context
 .
-isTablet
+isLargeWindow
 (
 )
 )
@@ -1108,7 +1108,7 @@ isLandscape
 |
 context
 .
-isTablet
+isLargeWindow
 (
 )
 )

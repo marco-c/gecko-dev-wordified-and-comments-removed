@@ -295,7 +295,7 @@ fenix
 .
 ext
 .
-isTablet
+isLargeWindow
 import
 org
 .
@@ -591,7 +591,7 @@ null
 if
 (
 !
-isTablet
+isLargeWindow
 (
 )
 )
@@ -744,7 +744,7 @@ onDestroy
 if
 (
 !
-isTablet
+isLargeWindow
 (
 )
 )

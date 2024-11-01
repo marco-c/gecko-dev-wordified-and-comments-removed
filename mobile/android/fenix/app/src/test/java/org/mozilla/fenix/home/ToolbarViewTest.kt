@@ -223,7 +223,7 @@ fenix
 .
 ext
 .
-isTablet
+isLargeWindow
 import
 org
 .
@@ -759,7 +759,7 @@ every
 {
 testContext
 .
-isTablet
+isLargeWindow
 (
 )
 }

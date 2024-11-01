@@ -968,7 +968,7 @@ tablet
 fun
 Fragment
 .
-isTablet
+isLargeWindow
 (
 )
 :
@@ -979,7 +979,7 @@ requireContext
 (
 )
 .
-isTablet
+isLargeWindow
 (
 )
 }

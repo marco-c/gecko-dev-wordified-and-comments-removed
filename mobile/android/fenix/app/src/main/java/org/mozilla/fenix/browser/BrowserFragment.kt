@@ -503,7 +503,7 @@ fenix
 .
 ext
 .
-isTablet
+isLargeWindow
 import
 org
 .
@@ -905,7 +905,7 @@ isLandscape
 )
 isTablet
 =
-isTablet
+isLargeWindow
 (
 )
 isPrivate
@@ -2676,7 +2676,7 @@ isLandscape
 )
 isTablet
 =
-isTablet
+isLargeWindow
 (
 )
 isPrivate

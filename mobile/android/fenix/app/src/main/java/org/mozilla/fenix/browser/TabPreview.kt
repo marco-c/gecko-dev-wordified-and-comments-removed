@@ -379,7 +379,7 @@ fenix
 .
 ext
 .
-isTablet
+isLargeWindow
 import
 org
 .
@@ -601,7 +601,7 @@ isTablet
 =
 context
 .
-isTablet
+isLargeWindow
 (
 )
 val
@@ -1130,7 +1130,7 @@ isTablet
 =
 context
 .
-isTablet
+isLargeWindow
 (
 )
 val

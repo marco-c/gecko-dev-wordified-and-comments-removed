@@ -427,7 +427,7 @@ fenix
 .
 ext
 .
-isTablet
+isLargeWindow
 import
 org
 .
@@ -2849,7 +2849,7 @@ every
 {
 browserFragment
 .
-isTablet
+isLargeWindow
 (
 )
 }
@@ -2886,7 +2886,7 @@ every
 {
 browserFragment
 .
-isTablet
+isLargeWindow
 (
 )
 }
@@ -3086,7 +3086,7 @@ every
 {
 browserFragment
 .
-isTablet
+isLargeWindow
 (
 )
 }
@@ -3314,7 +3314,7 @@ every
 {
 browserFragment
 .
-isTablet
+isLargeWindow
 (
 )
 }

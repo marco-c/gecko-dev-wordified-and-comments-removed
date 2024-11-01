@@ -143,7 +143,7 @@ fenix
 .
 ext
 .
-isTablet
+isLargeWindow
 import
 org
 .
@@ -250,7 +250,7 @@ isLandscape
 &
 &
 !
-isTablet
+isLargeWindow
 (
 )
 &

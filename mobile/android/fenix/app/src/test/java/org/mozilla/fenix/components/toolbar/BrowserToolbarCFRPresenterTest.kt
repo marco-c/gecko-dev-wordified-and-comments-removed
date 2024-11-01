@@ -353,7 +353,7 @@ fenix
 .
 ext
 .
-isTablet
+isLargeWindow
 import
 org
 .
@@ -933,7 +933,7 @@ mockk
 {
 every
 {
-isTablet
+isLargeWindow
 (
 )
 }

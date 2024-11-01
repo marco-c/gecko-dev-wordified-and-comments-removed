@@ -2093,7 +2093,7 @@ fenix
 .
 ext
 .
-isTablet
+isLargeWindow
 import
 org
 .
@@ -12840,7 +12840,7 @@ navigationToolbarEnabled
 &
 &
 !
-isTablet
+isLargeWindow
 (
 )
 &
