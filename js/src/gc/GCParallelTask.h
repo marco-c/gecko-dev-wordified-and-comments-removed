@@ -440,10 +440,7 @@ bool
 mozilla
 :
 :
-MemoryOrdering
-:
-:
-ReleaseAcquire
+Relaxed
 >
 cancel_
 ;
