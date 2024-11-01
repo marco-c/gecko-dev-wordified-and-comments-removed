@@ -1000,6 +1000,12 @@ resetCursorPositionToTopLeftCorner
 dbg
 )
 ;
+await
+waitForDocumentLoadComplete
+(
+dbg
+)
+;
 const
 inlinePreviewEl
 =
@@ -1274,6 +1280,12 @@ column
 )
 {
 resetCursorPositionToTopLeftCorner
+(
+dbg
+)
+;
+await
+waitForDocumentLoadComplete
 (
 dbg
 )
