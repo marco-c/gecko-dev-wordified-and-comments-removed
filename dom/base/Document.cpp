@@ -79960,8 +79960,6 @@ IntersectionInput
 &
 aInput
 bool
-aIsHidden
-bool
 aIncludeInactive
 )
 {
@@ -80051,9 +80049,6 @@ UpdateEffects
 {
 if
 (
-aIsHidden
-|
-|
 isInactiveTop
 )
 {
@@ -80343,14 +80338,6 @@ nullptr
 margin
 )
 ;
-const
-bool
-hidden
-=
-Hidden
-(
-)
-;
 if
 (
 auto
@@ -80384,7 +80371,6 @@ UpdateEffectsOnBrowsingContext
 (
 child
 input
-hidden
 aIncludeInactive
 )
 ;
@@ -80441,7 +80427,6 @@ UpdateEffectsOnBrowsingContext
 (
 aDescendant
 input
-hidden
 aIncludeInactive
 )
 ;
