@@ -1354,6 +1354,12 @@ return
 mKeyboardHeight
 ;
 }
+bool
+IsKeyboardHiddenOrResizesContentMode
+(
+)
+const
+;
 nscoord
 GetBimodalDynamicToolbarHeightInAppUnits
 (
