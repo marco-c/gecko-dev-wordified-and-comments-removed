@@ -555,7 +555,7 @@ AddOnsOnboardingPage
 (
 pageState
 :
-OnboardingAddOnsPageState
+OnboardingPageState
 )
 {
 /
@@ -648,10 +648,16 @@ height
 dp
 )
 )
+addOns
+?
+.
+let
+{
 AddOns
 (
-addOnsUiData
+it
 )
+}
 Spacer
 (
 Modifier
@@ -1078,7 +1084,7 @@ AddOnDetails
 name
 description
 averageRating
-numberOfReviews
+reviewCount
 )
 }
 }
@@ -1131,7 +1137,7 @@ String
 averageRating
 :
 String
-numberOfReviews
+reviewCount
 :
 String
 )
@@ -1196,7 +1202,7 @@ dp
 RatingAndReviewRow
 (
 averageRating
-numberOfReviews
+reviewCount
 )
 }
 Composable
@@ -1343,7 +1349,7 @@ RatingAndReviewRow
 rating
 :
 String
-numberOfReviews
+reviewCount
 :
 String
 )
@@ -1367,7 +1373,7 @@ dp
 )
 ReviewCountRow
 (
-numberOfReviews
+reviewCount
 )
 }
 }
@@ -1591,7 +1597,7 @@ private
 fun
 ReviewCountRow
 (
-numberOfReviews
+reviewCount
 :
 String
 )
@@ -1633,7 +1639,7 @@ R
 string
 .
 onboarding_add_on_reviews_label
-numberOfReviews
+reviewCount
 )
 )
 }
@@ -1668,7 +1674,7 @@ AddOnsOnboardingPage
 (
 pageState
 =
-OnboardingAddOnsPageState
+OnboardingPageState
 (
 imageRes
 =
@@ -1722,7 +1728,7 @@ onClick
 {
 }
 )
-addOnsUiData
+addOns
 =
 with
 (
