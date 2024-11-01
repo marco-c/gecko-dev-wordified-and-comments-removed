@@ -226,7 +226,7 @@ const
 uint32_t
 kInitialModuleCount
 =
-256
+1024
 ;
 const
 uint32_t
