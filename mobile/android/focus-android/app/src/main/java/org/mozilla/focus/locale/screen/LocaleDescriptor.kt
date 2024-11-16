@@ -547,6 +547,17 @@ Wolof
 languageCodeAndNameMap
 [
 "
+yua
+"
+]
+=
+"
+Maayat
+aan
+"
+languageCodeAndNameMap
+[
+"
 zam
 "
 ]
