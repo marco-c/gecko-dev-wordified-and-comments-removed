@@ -121,7 +121,7 @@ core
 version
 =
 "
-22
+23
 .
 0
 .
@@ -391,7 +391,7 @@ hal
 version
 =
 "
-22
+23
 .
 0
 .
@@ -449,7 +449,7 @@ naga
 version
 =
 "
-22
+23
 .
 0
 .
@@ -598,7 +598,7 @@ version
 .
 0
 .
-64
+65
 "
 [
 dependencies
@@ -608,7 +608,7 @@ wgt
 version
 =
 "
-22
+23
 .
 0
 .

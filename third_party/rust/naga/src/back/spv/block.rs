@@ -1668,7 +1668,7 @@ result_id
 match
 self
 .
-write_expression_pointer
+write_access_chain
 (
 expr_handle
 block
@@ -2083,7 +2083,7 @@ result_id
 match
 self
 .
-write_expression_pointer
+write_access_chain
 (
 expr_handle
 block
@@ -10698,7 +10698,7 @@ Ok
 )
 }
 fn
-write_expression_pointer
+write_access_chain
 (
 &
 mut
@@ -11668,7 +11668,7 @@ Error
 match
 self
 .
-write_expression_pointer
+write_access_chain
 (
 pointer
 block
@@ -14328,7 +14328,7 @@ value
 match
 self
 .
-write_expression_pointer
+write_access_chain
 (
 pointer
 &
@@ -14835,7 +14835,7 @@ pointer_id
 match
 self
 .
-write_expression_pointer
+write_access_chain
 (
 pointer
 &
@@ -15716,7 +15716,7 @@ ty
 match
 self
 .
-write_expression_pointer
+write_access_chain
 (
 pointer
 &
