@@ -544,6 +544,15 @@ queryContext
 isPrivate
 )
 ;
+if
+(
+!
+engine
+)
+{
+return
+;
+}
 let
 results
 =
