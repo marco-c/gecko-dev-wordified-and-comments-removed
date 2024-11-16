@@ -274,6 +274,14 @@ listOrigins
 must_use
 ]
 nsIQuotaRequest
+listCachedOrigins
+(
+)
+;
+[
+must_use
+]
+nsIQuotaRequest
 clear
 (
 )
