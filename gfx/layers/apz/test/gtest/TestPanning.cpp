@@ -1377,9 +1377,6 @@ CreateMockHitTester
 }
 }
 ;
-#
-ifdef
-MOZ_WIDGET_GTK
 TEST_F
 (
 APZCPanningTester
@@ -1831,6 +1828,9 @@ Time
 )
 )
 ;
+#
+ifdef
+MOZ_WIDGET_GTK
 mcc
 -
 >
@@ -1866,6 +1866,8 @@ Time
 )
 )
 ;
+#
+endif
 mcc
 -
 >
@@ -2166,6 +2168,9 @@ AdvanceByMillis
 30
 )
 ;
+#
+ifdef
+MOZ_WIDGET_GTK
 QueueMockHitResult
 (
 scrollId
@@ -2193,6 +2198,8 @@ Time
 )
 )
 ;
+#
+endif
 mcc
 -
 >
@@ -2593,6 +2600,9 @@ Time
 )
 )
 ;
+#
+ifdef
+MOZ_WIDGET_GTK
 mcc
 -
 >
@@ -2631,6 +2641,8 @@ Time
 )
 )
 ;
+#
+endif
 mcc
 -
 >
@@ -2717,5 +2729,3 @@ Time
 )
 ;
 }
-#
-endif

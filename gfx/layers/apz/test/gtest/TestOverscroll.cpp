@@ -13984,8 +13984,8 @@ IsOverscrolled
 }
 }
 #
-ifdef
-MOZ_WIDGET_GTK
+ifndef
+MOZ_WIDGET_ANDROID
 TEST_F
 (
 APZCOverscrollTester
