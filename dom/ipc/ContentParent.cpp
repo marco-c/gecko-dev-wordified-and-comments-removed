@@ -947,7 +947,9 @@ mozilla
 /
 dom
 /
-Notification
+notification
+/
+NotificationUtils
 .
 h
 "
@@ -24380,7 +24382,7 @@ __func__
 Unused
 <
 <
-Notification
+notification
 :
 :
 RemovePermission
@@ -24447,7 +24449,7 @@ __func__
 Unused
 <
 <
-Notification
+notification
 :
 :
 OpenSettings
