@@ -1967,6 +1967,10 @@ load
 1
 .
 html
+asserts
+(
+4
+)
 load
 478170
 -
@@ -4038,7 +4042,7 @@ load
 xhtml
 asserts
 (
-3
+7
 )
 load
 1231692
