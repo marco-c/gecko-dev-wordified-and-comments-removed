@@ -82,10 +82,6 @@ uprofiler_native_backtrace
 is_active
 =
 uprofiler_is_active
-.
-feature_active
-=
-uprofiler_feature_active
 }
 ;
 bool
