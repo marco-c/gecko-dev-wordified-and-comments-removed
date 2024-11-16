@@ -1151,7 +1151,7 @@ E2
 A0
 >
 const
-DISALLOW_FONT_RELATIVE
+DISALLOW_COMPUTATIONALLY_DEPENDENT
 =
 1
 <
@@ -1219,7 +1219,7 @@ inline
 ]
 pub
 fn
-allows_font_relative_lengths
+allows_computational_dependence
 (
 &
 self
@@ -1236,7 +1236,7 @@ intersects
 ParsingMode
 :
 :
-DISALLOW_FONT_RELATIVE
+DISALLOW_COMPUTATIONALLY_DEPENDENT
 )
 }
 }
