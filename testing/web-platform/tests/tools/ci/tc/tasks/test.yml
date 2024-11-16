@@ -497,7 +497,7 @@ override
 :
 testharness
 :
-24
+30
 tox
 -
 python3_8
