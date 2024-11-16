@@ -108,6 +108,7 @@ AT_createTranslationsPort
 AT_isHtmlTranslation
 AT_isTranslationEngineSupported
 AT_identifyLanguage
+AT_telemetry
 *
 /
 import
@@ -2455,6 +2456,18 @@ detect
 "
 ]
 '
+)
+;
+AT_telemetry
+(
+"
+onOpen
+"
+{
+maintainFlow
+:
+false
+}
 )
 ;
 }
