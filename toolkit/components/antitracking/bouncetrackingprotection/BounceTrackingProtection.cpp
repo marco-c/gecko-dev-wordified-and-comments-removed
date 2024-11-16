@@ -2255,6 +2255,9 @@ daily
 )
 )
 {
+#
+ifndef
+MOZ_WIDGET_ANDROID
 glean_pings
 :
 :
@@ -2264,6 +2267,8 @@ Submit
 (
 )
 ;
+#
+endif
 }
 return
 NS_OK
