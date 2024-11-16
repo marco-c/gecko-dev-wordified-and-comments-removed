@@ -7944,6 +7944,8 @@ nc
                 
 except
 Exception
+as
+e
 :
                     
 f
@@ -7962,14 +7964,7 @@ s
 n
 "
 %
-sys
-.
-exc_info
-(
-)
-[
-0
-]
+e
 )
                 
 f
@@ -8014,6 +8009,28 @@ create_time
 )
 )
                         
+try
+:
+                            
+cmdline
+=
+p
+.
+cmdline
+(
+)
+                        
+except
+psutil
+.
+NoSuchProcess
+:
+                            
+cmdline
+=
+"
+"
+                        
 f
 .
 write
@@ -8031,6 +8048,10 @@ created
 at
 %
 s
+[
+%
+s
+]
 \
 n
 "
@@ -8045,21 +8066,21 @@ p
 name
 (
 )
-str
-(
+cmdline
+ctime
 p
 .
-cmdline
+status
 (
 )
-)
-ctime
 )
                         
 )
                 
 except
 Exception
+as
+e
 :
                     
 f
@@ -8078,14 +8099,7 @@ s
 n
 "
 %
-sys
-.
-exc_info
-(
-)
-[
-0
-]
+e
 )
         
 except
