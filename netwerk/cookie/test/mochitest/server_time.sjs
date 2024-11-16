@@ -57,6 +57,8 @@ none
 ;
 secure
 ;
+partitioned
+;
 expires
 =
 {
