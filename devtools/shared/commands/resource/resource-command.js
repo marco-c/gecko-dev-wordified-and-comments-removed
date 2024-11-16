@@ -2873,7 +2873,11 @@ browsingContextID
 )
 {
 return
-null
+this
+.
+targetCommand
+.
+targetFront
 ;
 }
 if
