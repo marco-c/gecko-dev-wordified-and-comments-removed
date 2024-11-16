@@ -4314,7 +4314,7 @@ test
 {
 webnn_conformance_test
 (
-buildGraphAndCompute
+buildAndExecuteGraph
 getArgMinMaxPrecisionTolerance
 test
 )

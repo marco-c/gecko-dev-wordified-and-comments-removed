@@ -3864,7 +3864,7 @@ test
 {
 webnn_conformance_test
 (
-buildGraphAndCompute
+buildAndExecuteGraph
 getMaxPrecisionTolerance
 test
 )

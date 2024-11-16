@@ -3526,7 +3526,7 @@ test
 {
 webnn_conformance_test
 (
-buildGraphAndCompute
+buildAndExecuteGraph
 getResample2dPrecisionTolerance
 test
 )

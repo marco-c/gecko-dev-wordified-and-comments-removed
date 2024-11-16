@@ -535,7 +535,7 @@ test
 {
 webnn_conformance_test
 (
-buildGraphAndCompute
+buildAndExecuteGraph
 getTilePrecisionTolerance
 test
 )

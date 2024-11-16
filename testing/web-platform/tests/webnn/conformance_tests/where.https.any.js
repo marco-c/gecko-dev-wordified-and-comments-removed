@@ -7555,7 +7555,7 @@ test
 {
 webnn_conformance_test
 (
-buildGraphAndCompute
+buildAndExecuteGraph
 getWherePrecisionTolerance
 test
 )

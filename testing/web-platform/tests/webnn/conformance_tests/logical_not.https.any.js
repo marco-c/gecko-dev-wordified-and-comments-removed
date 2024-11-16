@@ -1248,7 +1248,7 @@ test
 {
 webnn_conformance_test
 (
-buildGraphAndCompute
+buildAndExecuteGraph
 getLogicalNotPrecisionTolerance
 test
 )

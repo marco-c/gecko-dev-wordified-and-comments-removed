@@ -3784,7 +3784,7 @@ test
 {
 webnn_conformance_test
 (
-buildGraphAndCompute
+buildAndExecuteGraph
 getPowPrecisionTolerance
 test
 )

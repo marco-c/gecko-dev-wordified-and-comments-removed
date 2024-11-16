@@ -6863,7 +6863,7 @@ test
 {
 webnn_conformance_test
 (
-buildGraphAndCompute
+buildAndExecuteGraph
 getGruPrecisionTolerance
 test
 )
