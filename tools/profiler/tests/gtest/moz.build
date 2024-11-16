@@ -38,9 +38,6 @@ arm
 aarch64
 "
 "
-x86
-"
-"
 x86_64
 "
 )
@@ -120,6 +117,7 @@ lul
 "
 ]
 if
+(
 CONFIG
 [
 "
@@ -139,6 +137,19 @@ CONFIG
 MOZ_TSAN
 "
 ]
+and
+CONFIG
+[
+"
+TARGET_CPU
+"
+]
+!
+=
+"
+x86
+"
+)
 :
 UNIFIED_SOURCES
 +
