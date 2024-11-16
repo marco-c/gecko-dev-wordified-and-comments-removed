@@ -1668,14 +1668,14 @@ ScopeKind
 kind_
 ;
 const
-HeapPtr
+GCPtr
 <
 SharedShape
 *
 >
 environmentShape_
 ;
-HeapPtr
+GCPtr
 <
 Scope
 *
@@ -3053,7 +3053,7 @@ JSAtom
 SlotInfo
 slotInfo
 ;
-HeapPtr
+GCPtr
 <
 JSFunction
 *
@@ -4169,7 +4169,7 @@ JSAtom
 SlotInfo
 slotInfo
 ;
-HeapPtr
+GCPtr
 <
 ModuleObject
 *
@@ -4441,7 +4441,7 @@ JSAtom
 SlotInfo
 slotInfo
 ;
-HeapPtr
+GCPtr
 <
 WasmInstanceObject
 *
