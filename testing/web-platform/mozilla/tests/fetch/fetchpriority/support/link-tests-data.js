@@ -542,7 +542,7 @@ Ci
 .
 nsISupportsPriority
 .
-PRIORITY_HIGH
+PRIORITY_HIGHEST
 }
 {
 fileNameAndSuffix
