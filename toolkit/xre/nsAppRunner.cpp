@@ -27523,6 +27523,9 @@ result
 }
 #
 endif
+#
+ifdef
+MOZ_BUILD_APP_IS_BROWSER
 {
 DebugOnly
 <
@@ -27540,6 +27543,8 @@ result
 )
 ;
 }
+#
+endif
 #
 endif
 auto
