@@ -105,10 +105,6 @@ nsIReferrerInfo
 *
 aReferrerInfo
 bool
-aWatch
-=
-true
-bool
 aReferenceImage
 =
 false
@@ -124,10 +120,6 @@ const
 nsAString
 &
 aLocalRef
-bool
-aWatch
-=
-true
 )
 ;
 void
@@ -139,10 +131,6 @@ aFrom
 nsAtom
 *
 aID
-bool
-aWatch
-=
-true
 )
 ;
 void

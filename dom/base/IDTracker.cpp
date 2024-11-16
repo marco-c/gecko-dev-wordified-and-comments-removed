@@ -274,8 +274,6 @@ nsIReferrerInfo
 *
 aReferrerInfo
 bool
-aWatch
-bool
 aReferenceImage
 )
 {
@@ -493,10 +491,6 @@ if
 (
 !
 load
-|
-|
-!
-aWatch
 )
 {
 return
@@ -540,11 +534,6 @@ aReferenceImage
 )
 ;
 }
-if
-(
-aWatch
-)
-{
 mWatchID
 =
 NS_Atomize
@@ -552,7 +541,6 @@ NS_Atomize
 ref
 )
 ;
-}
 mReferencingImage
 =
 aReferenceImage
@@ -560,7 +548,7 @@ aReferenceImage
 HaveNewDocumentOrShadowRoot
 (
 docOrShadow
-aWatch
+true
 ref
 )
 ;
@@ -578,8 +566,6 @@ const
 nsAString
 &
 aLocalRef
-bool
-aWatch
 )
 {
 MOZ_ASSERT
@@ -699,7 +685,6 @@ ResetToID
 (
 aFrom
 idAtom
-aWatch
 )
 ;
 }
@@ -715,8 +700,6 @@ aFrom
 nsAtom
 *
 aID
-bool
-aWatch
 )
 {
 MOZ_ASSERT
@@ -741,16 +724,10 @@ IsEmpty
 return
 ;
 }
-if
-(
-aWatch
-)
-{
 mWatchID
 =
 aID
 ;
-}
 mReferencingImage
 =
 false
@@ -775,7 +752,7 @@ false
 HaveNewDocumentOrShadowRoot
 (
 docOrShadow
-aWatch
+true
 str
 )
 ;

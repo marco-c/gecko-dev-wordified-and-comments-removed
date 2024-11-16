@@ -1724,7 +1724,6 @@ ResetToURIWithFragmentID
 aObservingContent
 uri
 referrerInfo
-true
 aReferenceImage
 )
 ;
