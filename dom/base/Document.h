@@ -763,13 +763,6 @@ h
 #
 include
 "
-nsViewportInfo
-.
-h
-"
-#
-include
-"
 nsWeakReference
 .
 h
@@ -1002,6 +995,9 @@ nsTextNode
 ;
 class
 nsViewManager
+;
+class
+nsViewportInfo
 ;
 class
 nsXULPrototypeDocument
