@@ -15,7 +15,7 @@ nargs
 help
 =
 "
-enable
+Enable
 foo
 "
 )
@@ -68,7 +68,7 @@ nargs
 help
 =
 "
-enable
+Enable
 bar
 "
 )

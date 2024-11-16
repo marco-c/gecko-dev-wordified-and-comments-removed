@@ -10,7 +10,7 @@ foo
 help
 =
 "
-set
+Set
 foo
 "
 )
@@ -54,7 +54,7 @@ bar
 help
 =
 "
-set
+Set
 bar
 "
 )
@@ -101,7 +101,7 @@ nargs
 help
 =
 "
-set
+Set
 value
 "
 )
@@ -151,7 +151,7 @@ nargs
 help
 =
 "
-set
+Set
 name
 "
 )

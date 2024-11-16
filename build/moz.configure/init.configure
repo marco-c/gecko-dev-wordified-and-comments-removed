@@ -2050,7 +2050,6 @@ as
 enable
 -
 project
-.
 "
 )
 depends
@@ -2170,7 +2169,6 @@ use
 prebuilt
 binary
 artifacts
-.
 "
 )
 depends
@@ -6952,7 +6950,6 @@ Windows
 MessageWindow
 name
 etc
-.
 "
 )
 depends
@@ -7233,7 +7230,7 @@ local
 help
 =
 "
-install
+Install
 files
 using
 PREFIX
@@ -7436,7 +7433,7 @@ lib
 help
 =
 "
-object
+Object
 code
 libraries
 in

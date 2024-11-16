@@ -489,7 +489,7 @@ n
 -
 -
 help
-print
+Print
 this
 message
 \
@@ -1064,7 +1064,7 @@ n
 -
 -
 help
-print
+Print
 this
 message
 \
@@ -4805,7 +4805,7 @@ qux
 help
 =
 '
-qux
+Qux
 '
 )
             
@@ -5431,7 +5431,7 @@ qux
 help
 =
 '
-qux
+Qux
 '
 )
             
@@ -7164,7 +7164,7 @@ foo
 help
 =
 '
-foo
+Foo
 '
 )
                 
@@ -7251,7 +7251,7 @@ foo
 help
 =
 '
-foo
+Foo
 '
 )
             
@@ -7288,7 +7288,7 @@ qux
 help
 =
 '
-qux
+Qux
 '
 )
             
@@ -7418,7 +7418,7 @@ foo
 help
 =
 '
-foo
+Foo
 '
 )
             
@@ -7461,7 +7461,7 @@ qux_default
 help
 =
 '
-qux
+Qux
 '
 )
             
@@ -7829,7 +7829,7 @@ foo
 help
 =
 '
-foo
+Foo
 '
 )
             
@@ -7872,7 +7872,7 @@ qux_default
 help
 =
 '
-qux
+Qux
 '
 )
             
@@ -8289,7 +8289,7 @@ foo
 help
 =
 '
-foo
+Foo
 '
 )
             
@@ -8332,7 +8332,7 @@ qux_default
 help
 =
 '
-qux
+Qux
 '
 )
             
@@ -8791,7 +8791,7 @@ foo
 help
 =
 '
-foo
+Foo
 '
 )
             
@@ -8836,7 +8836,7 @@ qux
 help
 =
 '
-qux
+Qux
 '
 )
             
@@ -9062,7 +9062,7 @@ foo
 help
 =
 '
-foo
+Foo
 '
 )
             
@@ -9080,7 +9080,7 @@ foo
 help
 =
 '
-foo
+Foo
 '
 )
             
@@ -9162,7 +9162,7 @@ nargs
 help
 =
 '
-qux
+Qux
 '
 )
             
@@ -9513,7 +9513,7 @@ foo
 help
 =
 "
-foo
+Foo
 "
 )
 '
@@ -9591,7 +9591,7 @@ foo
 help
 =
 "
-foo
+Foo
 "
 )
                 
@@ -9607,7 +9607,7 @@ foo
 help
 =
 "
-foo
+Foo
 "
 )
             
@@ -9677,7 +9677,7 @@ MOZ_FOO
 help
 =
 "
-foo
+Foo
 "
 )
                 
@@ -9691,181 +9691,7 @@ MOZ_FOO
 help
 =
 "
-foo
-"
-)
-            
-"
-"
-"
-            
-)
-:
-                
-self
-.
-get_config
-(
-)
-        
-self
-.
-assertEqual
-(
-str
-(
-e
-.
-exception
-)
-"
-Option
-MOZ_FOO
-already
-defined
-"
-)
-        
-with
-self
-.
-assertRaises
-(
-ConfigureError
-)
-as
-e
-:
-            
-with
-self
-.
-moz_configure
-(
-                
-"
-"
-"
-                
-option
-(
-'
--
--
-with
--
-foo
-'
-env
-=
-"
-MOZ_FOO
-"
-help
-=
-"
-foo
-"
-)
-                
-option
-(
-env
-=
-"
-MOZ_FOO
-"
-help
-=
-"
-foo
-"
-)
-            
-"
-"
-"
-            
-)
-:
-                
-self
-.
-get_config
-(
-)
-        
-self
-.
-assertEqual
-(
-str
-(
-e
-.
-exception
-)
-"
-Option
-MOZ_FOO
-already
-defined
-"
-)
-        
-with
-self
-.
-assertRaises
-(
-ConfigureError
-)
-as
-e
-:
-            
-with
-self
-.
-moz_configure
-(
-                
-"
-"
-"
-                
-option
-(
-env
-=
-"
-MOZ_FOO
-"
-help
-=
-"
-foo
-"
-)
-                
-option
-(
-'
--
--
-with
--
-foo
-'
-env
-=
-"
-MOZ_FOO
-"
-help
-=
-"
-foo
+Foo
 "
 )
             
@@ -9938,7 +9764,181 @@ MOZ_FOO
 help
 =
 "
+Foo
+"
+)
+                
+option
+(
+env
+=
+"
+MOZ_FOO
+"
+help
+=
+"
+Foo
+"
+)
+            
+"
+"
+"
+            
+)
+:
+                
+self
+.
+get_config
+(
+)
+        
+self
+.
+assertEqual
+(
+str
+(
+e
+.
+exception
+)
+"
+Option
+MOZ_FOO
+already
+defined
+"
+)
+        
+with
+self
+.
+assertRaises
+(
+ConfigureError
+)
+as
+e
+:
+            
+with
+self
+.
+moz_configure
+(
+                
+"
+"
+"
+                
+option
+(
+env
+=
+"
+MOZ_FOO
+"
+help
+=
+"
+Foo
+"
+)
+                
+option
+(
+'
+-
+-
+with
+-
 foo
+'
+env
+=
+"
+MOZ_FOO
+"
+help
+=
+"
+Foo
+"
+)
+            
+"
+"
+"
+            
+)
+:
+                
+self
+.
+get_config
+(
+)
+        
+self
+.
+assertEqual
+(
+str
+(
+e
+.
+exception
+)
+"
+Option
+MOZ_FOO
+already
+defined
+"
+)
+        
+with
+self
+.
+assertRaises
+(
+ConfigureError
+)
+as
+e
+:
+            
+with
+self
+.
+moz_configure
+(
+                
+"
+"
+"
+                
+option
+(
+'
+-
+-
+with
+-
+foo
+'
+env
+=
+"
+MOZ_FOO
+"
+help
+=
+"
+Foo
 "
 )
                 
@@ -9954,7 +9954,7 @@ foo
 help
 =
 "
-foo
+Foo
 "
 )
             
@@ -10022,7 +10022,7 @@ foo
 help
 =
 '
-foo
+Foo
 '
 when
 =
@@ -10041,7 +10041,7 @@ bar
 help
 =
 '
-bar
+Bar
 '
 when
 =
@@ -10065,7 +10065,7 @@ QUX
 help
 =
 '
-qux
+Qux
 '
 when
 =
@@ -10558,7 +10558,7 @@ options
 -
 -
 help
-print
+Print
 this
 message
                   
@@ -10586,7 +10586,7 @@ configure
 with
 -
 foo
-foo
+Foo
             
 "
 "
@@ -10671,7 +10671,7 @@ options
 -
 -
 help
-print
+Print
 this
 message
                   
@@ -10699,14 +10699,14 @@ configure
 with
 -
 foo
-foo
+Foo
                     
 -
 -
 with
 -
 qux
-qux
+Qux
             
 "
 "
@@ -10738,7 +10738,7 @@ foo
 help
 =
 '
-foo
+Foo
 '
 when
 =
@@ -10876,7 +10876,7 @@ foo
 help
 =
 '
-foo
+Foo
 '
 when
 =
@@ -11024,7 +11024,7 @@ foo
 help
 =
 '
-foo
+Foo
 '
 when
 =
@@ -11162,7 +11162,7 @@ foo
 help
 =
 '
-foo
+Foo
 '
 )
             
@@ -11178,7 +11178,7 @@ bar
 help
 =
 '
-bar
+Bar
 '
 when
 =
@@ -11203,7 +11203,7 @@ qux
 help
 =
 '
-qux
+Qux
 '
 when
 =
@@ -11854,7 +11854,7 @@ foo
 help
 =
 '
-foo
+Foo
 '
 )
                 
@@ -11965,7 +11965,7 @@ bar
 help
 =
 '
-bar
+Bar
 '
 )
                 
@@ -12037,7 +12037,7 @@ qux
 help
 =
 '
-qux
+Qux
 '
 )
                 
@@ -12111,7 +12111,7 @@ really
 help
 =
 '
-really
+Really
 foo
 '
 )
@@ -13123,7 +13123,7 @@ foo
 help
 =
 '
-foo
+Foo
 '
 )
                 
@@ -13347,7 +13347,7 @@ qux
 help
 =
 '
-qux
+Qux
 '
 )
             
@@ -13538,7 +13538,7 @@ qux
 help
 =
 '
-qux
+Qux
 '
 )
             
@@ -13641,7 +13641,7 @@ foo
 help
 =
 '
-foo
+Foo
 '
 )
                 
@@ -13806,7 +13806,7 @@ foo
 help
 =
 '
-foo
+Foo
 '
 )
                 
@@ -14156,7 +14156,7 @@ when
 help
 =
 '
-when
+When
 '
 )
             
@@ -14212,7 +14212,7 @@ nargs
 help
 =
 '
-foo
+Foo
 '
 )
                 
@@ -14860,7 +14860,7 @@ nargs
 help
 =
 '
-foo
+Foo
 '
 )
             
@@ -15062,7 +15062,7 @@ cond
 help
 =
 "
-condition
+Condition
 "
 )
             
@@ -15324,7 +15324,7 @@ nargs
 help
 =
 '
-foo
+Foo
 '
 )
             
@@ -15362,7 +15362,7 @@ nargs
 help
 =
 '
-bar
+Bar
 '
 )
             
@@ -15401,7 +15401,7 @@ nargs
 help
 =
 '
-baz
+Baz
 '
 )
             
@@ -15681,7 +15681,7 @@ nargs
 help
 =
 '
-foo
+Foo
 '
 )
             
@@ -15717,7 +15717,7 @@ nargs
 help
 =
 '
-bar
+Bar
 '
 )
             

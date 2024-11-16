@@ -104,7 +104,7 @@ default_android_ndk_root
 help
 =
 "
-location
+Location
 where
 the
 Android
@@ -134,7 +134,7 @@ nargs
 help
 =
 "
-location
+Location
 of
 the
 Android
@@ -160,7 +160,7 @@ nargs
 help
 =
 "
-location
+Location
 of
 the
 Android
@@ -187,7 +187,7 @@ nargs
 help
 =
 "
-location
+Location
 of
 the
 Android
@@ -222,7 +222,7 @@ nargs
 help
 =
 "
-android
+Android
 platform
 version
 {

@@ -11,7 +11,7 @@ nargs
 help
 =
 '
-used
+Used
 for
 application
 .
@@ -78,7 +78,7 @@ nargs
 help
 =
 '
-used
+Used
 for
 application
 .
@@ -119,7 +119,7 @@ nargs
 help
 =
 "
-application
+Application
 name
 in
 the
@@ -156,7 +156,7 @@ nargs
 help
 =
 "
-which
+Which
 devtools
 version
 should
@@ -174,7 +174,7 @@ MOZ_STUB_INSTALLER
 help
 =
 "
-produce
+Produce
 a
 stub
 installer
@@ -202,7 +202,7 @@ MOZ_PROFILE_MIGRATOR
 help
 =
 "
-enable
+Enable
 profile
 migrator
 "
@@ -227,7 +227,7 @@ True
 help
 =
 "
-markup
+Markup
 for
 a
 single
@@ -281,7 +281,7 @@ nargs
 help
 =
 "
-project
+Project
 source
 repository
 "
@@ -320,7 +320,7 @@ nargs
 help
 =
 "
-source
+Source
 changeset
 "
 )
@@ -358,7 +358,7 @@ mozilla_official
 help
 =
 "
-include
+Include
 build
 repository
 informations
@@ -2437,7 +2437,6 @@ Enable
 ALSA
 audio
 backend
-.
 "
 when
 =
@@ -2545,7 +2544,6 @@ Enable
 JACK
 audio
 backend
-.
 "
 when
 =
@@ -2612,7 +2610,6 @@ Disable
 PulseAudio
 audio
 backend
-.
 "
 when
 =
@@ -2691,7 +2688,6 @@ Enable
 sndio
 audio
 backend
-.
 "
 when
 =
@@ -4872,7 +4868,6 @@ chrome
 files
 during
 packaging
-.
 "
 nargs
 =
@@ -4994,7 +4989,6 @@ to
 minify
 during
 packaging
-.
 "
 nargs
 =
@@ -14734,7 +14728,6 @@ MOZ_APP_NAME
 -
 MOZ_UPDATE_CHANNEL
 otherwise
-.
 "
 )
 depends
@@ -14892,7 +14885,6 @@ create
 a
 console
 window
-.
 "
 )
 set_define
@@ -16468,7 +16460,7 @@ nargs
 help
 =
 "
-prefix
+Prefix
 for
 the
 mac
@@ -16557,7 +16549,7 @@ MOZ_PACKAGE_JSSHELL
 help
 =
 "
-whether
+Whether
 the
 installer
 bundles
@@ -17745,7 +17737,6 @@ when
 no
 profiles
 exist
-.
 "
 )
 set_config

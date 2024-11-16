@@ -2528,7 +2528,7 @@ nargs
 help
 =
 "
-ccache
+Ccache
 "
 )
             
@@ -2648,7 +2648,7 @@ nargs
 help
 =
 "
-compiler
+Compiler
 "
 )
             
@@ -3058,7 +3058,7 @@ linux
 help
 =
 "
-target
+Target
 "
 )
             
@@ -5900,7 +5900,7 @@ environment
 help
 =
 '
-compile
+Compile
 env
 '
 )

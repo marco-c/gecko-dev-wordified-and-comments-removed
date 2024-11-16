@@ -2293,7 +2293,7 @@ help
 help
 =
 "
-print
+Print
 this
 message
 "

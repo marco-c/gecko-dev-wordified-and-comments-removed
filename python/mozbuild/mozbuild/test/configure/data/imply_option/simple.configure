@@ -10,7 +10,7 @@ foo
 help
 =
 "
-enable
+Enable
 foo
 "
 )
@@ -58,7 +58,7 @@ bar
 help
 =
 "
-enable
+Enable
 bar
 "
 )
