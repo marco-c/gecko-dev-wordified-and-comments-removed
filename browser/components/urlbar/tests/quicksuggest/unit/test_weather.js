@@ -3225,7 +3225,7 @@ add_task
 (
 async
 function
-cachedGeolocation
+merinoCache
 (
 )
 {

@@ -4924,7 +4924,7 @@ weatherShowLessFrequentlyCap
 null
 weatherSimpleUI
 :
-false
+true
 yelpMinKeywordLength
 :
 null
