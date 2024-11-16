@@ -161,6 +161,7 @@ editableFieldTemplate
 type
 value
 disabled
+required
 onFocus
 onBlur
 labelL10nId
@@ -234,6 +235,12 @@ disabled
 =
 {
 disabled
+}
+?
+required
+=
+{
+required
 }
 focus
 =
