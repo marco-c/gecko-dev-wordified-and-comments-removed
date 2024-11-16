@@ -52,12 +52,6 @@ IgnoreAutoMargins
 <
 <
 2
-AligningMarginBox
-=
-1
-<
-<
-3
 }
 ;
 static
