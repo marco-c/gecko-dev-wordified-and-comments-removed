@@ -24156,9 +24156,10 @@ scale
 .
 0
 ;
+const
 nsRect
 maxSize
-;
+=
 pc
 -
 >
@@ -24169,7 +24170,6 @@ DeviceContext
 >
 GetClientRect
 (
-maxSize
 )
 ;
 bool

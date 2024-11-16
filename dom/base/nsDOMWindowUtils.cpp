@@ -19057,6 +19057,8 @@ GetPresContext
 )
 )
 {
+screenRect
+=
 presContext
 -
 >
@@ -19067,7 +19069,6 @@ DeviceContext
 >
 GetRect
 (
-screenRect
 )
 ;
 }
