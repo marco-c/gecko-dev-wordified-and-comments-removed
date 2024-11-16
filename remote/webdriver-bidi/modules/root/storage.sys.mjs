@@ -1750,18 +1750,6 @@ nsICookie
 SCHEME_HTTP
 ;
 }
-const
-isPartitioned
-=
-originAttributes
-.
-partitionKey
-?
-.
-length
->
-0
-;
 try
 {
 Services
@@ -1835,7 +1823,6 @@ getSameSitePlatformProperty
 sameSite
 )
 schemeType
-isPartitioned
 )
 ;
 }
