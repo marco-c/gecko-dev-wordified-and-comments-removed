@@ -145,3 +145,9 @@ ThinVec
 "
 nsTArray
 "
+[
+struct
+]
+derive_ostream
+=
+true
