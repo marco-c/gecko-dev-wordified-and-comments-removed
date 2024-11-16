@@ -50,6 +50,10 @@ toolkit
 cairo
 -
 gtk3
+-
+x11
+-
+only
 ;
 ;
 *
