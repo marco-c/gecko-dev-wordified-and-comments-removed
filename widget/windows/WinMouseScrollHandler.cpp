@@ -887,12 +887,7 @@ aResult
 .
 mResult
 =
-(
-msg
-!
-=
-WM_MOUSEHWHEEL
-)
+0
 ;
 return
 true
