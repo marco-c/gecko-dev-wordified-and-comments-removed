@@ -2572,9 +2572,9 @@ callHostCleanupFinalizationRegistryCallback
 JSFunction
 *
 doCleanup
-JSObject
+GlobalObject
 *
-hostDefinedData
+incumbentGlobal
 )
 ;
 [

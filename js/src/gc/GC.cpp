@@ -7819,9 +7819,9 @@ callHostCleanupFinalizationRegistryCallback
 JSFunction
 *
 doCleanup
-JSObject
+GlobalObject
 *
-hostDefinedData
+incumbentGlobal
 )
 {
 JS
@@ -7853,7 +7853,7 @@ callback
 op
 (
 doCleanup
-hostDefinedData
+incumbentGlobal
 callback
 .
 data
