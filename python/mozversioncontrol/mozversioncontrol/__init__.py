@@ -41,3 +41,11 @@ repo
 mercurial
 import
 HgRepository
+from
+mozversioncontrol
+.
+repo
+.
+source
+import
+SrcRepository
