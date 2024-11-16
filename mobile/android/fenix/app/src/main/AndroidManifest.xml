@@ -735,6 +735,13 @@ usesCleartextTraffic
 "
 true
 "
+android
+:
+enableOnBackInvokedCallback
+=
+"
+true
+"
 tools
 :
 ignore
