@@ -19962,7 +19962,7 @@ codeMeta
 codeMeta
 -
 >
-codeSection
+codeSectionRange
 "
 code
 "
@@ -19978,13 +19978,13 @@ if
 codeMeta
 -
 >
-codeSection
+codeSectionRange
 &
 &
 codeMeta
 -
 >
-codeSection
+codeSectionRange
 -
 >
 size
@@ -20131,7 +20131,7 @@ if
 codeMeta
 -
 >
-codeSection
+codeSectionRange
 )
 {
 if
@@ -20272,7 +20272,7 @@ finishSection
 codeMeta
 -
 >
-codeSection
+codeSectionRange
 "
 code
 "

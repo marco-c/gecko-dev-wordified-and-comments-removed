@@ -190,7 +190,10 @@ CustomSectionRangeVector
 customSectionRanges
 ;
 MaybeSectionRange
-codeSection
+codeSectionRange
+;
+SharedBytes
+codeSectionBytecode
 ;
 FuncDefRangeVector
 funcDefRanges
@@ -202,7 +205,7 @@ CallRefMetricsRangeVector
 funcDefCallRefs
 ;
 SharedBytes
-bytecode
+debugBytecode
 ;
 MutableCallRefHints
 callRefHints
@@ -1098,11 +1101,11 @@ const
 {
 if
 (
-codeSection
+codeSectionRange
 )
 {
 return
-codeSection
+codeSectionRange
 -
 >
 size
