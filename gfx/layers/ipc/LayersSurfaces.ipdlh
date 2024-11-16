@@ -677,7 +677,7 @@ modifier
 uint32_t
 flags
 ;
-FileDescriptor
+FileHandleWrapper
 [
 ]
 fds
