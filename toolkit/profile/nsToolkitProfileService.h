@@ -740,6 +740,12 @@ nsISerialEventTarget
 >
 mAsyncQueue
 ;
+nsISerialEventTarget
+*
+AsyncQueue
+(
+)
+;
 static
 nsToolkitProfileService
 *

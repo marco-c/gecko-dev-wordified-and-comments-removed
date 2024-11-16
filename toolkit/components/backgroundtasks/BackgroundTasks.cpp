@@ -1347,6 +1347,16 @@ aName
 EqualsLiteral
 (
 "
+removeProfileFiles
+"
+)
+|
+|
+aName
+.
+EqualsLiteral
+(
+"
 no_output
 "
 )

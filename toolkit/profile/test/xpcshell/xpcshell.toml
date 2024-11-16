@@ -73,6 +73,13 @@ js
 ]
 [
 "
+test_delete_dirs
+.
+js
+"
+]
+[
+"
 test_fix_directory_case
 .
 js

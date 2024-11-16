@@ -273,6 +273,13 @@ sys
 mjs
 "
 "
+BackgroundTask_removeProfileFiles
+.
+sys
+.
+mjs
+"
+"
 BackgroundTask_success
 .
 sys
