@@ -976,6 +976,7 @@ Target
 )
 aMessage
 elapsedTime
+mAnimationIndex
 aScheduledEventTimeStamp
 this
 )

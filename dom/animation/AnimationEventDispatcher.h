@@ -136,6 +136,10 @@ double
 mElapsedTime
 ;
 const
+uint64_t
+mAnimationIndex
+;
+const
 TimeStamp
 mEventEnqueueTimeStamp
 {
@@ -328,6 +332,8 @@ EventMessage
 aMessage
 double
 aElapsedTime
+uint64_t
+aAnimationIndex
 const
 TimeStamp
 &
@@ -364,6 +370,7 @@ mPseudoType
 )
 aMessage
 aElapsedTime
+aAnimationIndex
 }
 std
 :
@@ -402,6 +409,8 @@ EventMessage
 aMessage
 double
 aElapsedTime
+uint64_t
+aTransitionGeneration
 const
 TimeStamp
 &
@@ -438,6 +447,7 @@ mPseudoType
 )
 aMessage
 aElapsedTime
+aTransitionGeneration
 }
 aProperty
 }
