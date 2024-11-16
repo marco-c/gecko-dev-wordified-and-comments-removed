@@ -557,8 +557,7 @@ addEventListener
 "
 DOMWindowClose
 "
-(
-)
+event
 =
 >
 {
@@ -585,6 +584,12 @@ hide
 )
 ;
 }
+event
+.
+stopPropagation
+(
+)
+;
 }
 )
 ;
