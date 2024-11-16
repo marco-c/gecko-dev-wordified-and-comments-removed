@@ -1916,7 +1916,7 @@ UniFFIScaffolding
 .
 callSync
 (
-77
+78
 /
 /
 refcounts
@@ -2119,7 +2119,7 @@ UniFFIScaffolding
 .
 callSync
 (
-75
+76
 /
 /
 refcounts
@@ -2177,7 +2177,7 @@ UniFFIScaffolding
 .
 callSync
 (
-76
+77
 /
 /
 refcounts

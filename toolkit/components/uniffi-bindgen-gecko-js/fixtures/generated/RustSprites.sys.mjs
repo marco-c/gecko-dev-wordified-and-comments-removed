@@ -1924,7 +1924,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-142
+143
 /
 /
 sprites
@@ -2117,7 +2117,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-143
+144
 /
 /
 sprites
@@ -2211,7 +2211,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-139
+140
 /
 /
 sprites
@@ -2330,7 +2330,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-140
+141
 /
 /
 sprites
@@ -2455,7 +2455,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-141
+142
 /
 /
 sprites
@@ -3670,7 +3670,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-138
+139
 /
 /
 sprites

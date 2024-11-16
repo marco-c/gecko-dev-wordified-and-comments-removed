@@ -2522,7 +2522,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-73
+74
 /
 /
 geometry
@@ -2684,7 +2684,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-74
+75
 /
 /
 geometry
