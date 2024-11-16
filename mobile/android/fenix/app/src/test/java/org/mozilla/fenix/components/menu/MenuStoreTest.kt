@@ -1766,7 +1766,7 @@ state
 .
 extensionMenuState
 .
-installedAddons
+availableAddons
 .
 size
 )

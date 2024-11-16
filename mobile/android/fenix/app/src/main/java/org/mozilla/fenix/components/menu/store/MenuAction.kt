@@ -711,11 +711,13 @@ updated
 *
 *
 property
-installedAddons
+availableAddons
 The
 list
 of
 installed
+and
+enabled
 [
 Addon
 ]
@@ -732,10 +734,10 @@ menu
 /
 data
 class
-UpdateInstalledAddons
+UpdateAvailableAddons
 (
 val
-installedAddons
+availableAddons
 :
 List
 <

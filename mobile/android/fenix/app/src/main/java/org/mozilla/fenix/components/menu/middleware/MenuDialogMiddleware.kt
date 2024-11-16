@@ -1315,7 +1315,7 @@ dispatch
 (
 MenuAction
 .
-UpdateInstalledAddons
+UpdateAvailableAddons
 (
 addons
 .
@@ -1324,6 +1324,13 @@ filter
 it
 .
 isInstalled
+(
+)
+&
+&
+it
+.
+isEnabled
 (
 )
 }

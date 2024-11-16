@@ -2200,7 +2200,7 @@ extensionMenuState
 showDisabledExtensionsOnboarding
 }
 val
-installedAddons
+availableAddons
 by
 store
 .
@@ -2220,7 +2220,7 @@ state
 .
 extensionMenuState
 .
-installedAddons
+availableAddons
 }
 val
 initRoute
@@ -2491,9 +2491,9 @@ account
 accountState
 =
 accountState
-installedAddons
+availableAddons
 =
-installedAddons
+availableAddons
 isPrivate
 =
 browsingModeManager

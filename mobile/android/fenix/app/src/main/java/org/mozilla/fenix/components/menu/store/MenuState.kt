@@ -350,11 +350,13 @@ suggest
 .
 *
 property
-installedAddons
+availableAddons
 A
 list
 of
 installed
+and
+enabled
 [
 Addon
 ]
@@ -457,7 +459,7 @@ emptyList
 (
 )
 val
-installedAddons
+availableAddons
 :
 List
 <
