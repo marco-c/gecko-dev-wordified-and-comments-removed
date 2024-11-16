@@ -176,6 +176,7 @@ bool
 enabled
 (
 )
+const
 {
 return
 enabled_
@@ -300,11 +301,13 @@ stringsReset
 (
 )
 ;
+const
 uint32_t
 *
 addressOfEnabled
 (
 )
+const
 {
 return
 &
