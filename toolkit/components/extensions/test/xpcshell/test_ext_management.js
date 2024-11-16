@@ -1451,6 +1451,13 @@ true
 )
 ;
 }
+const
+testExtId
+=
+testExt
+.
+id
+;
 let
 uninstalled
 =
@@ -1474,9 +1481,7 @@ onUninstalled
 ;
 equal
 (
-testExt
-.
-id
+testExtId
 details
 .
 id
