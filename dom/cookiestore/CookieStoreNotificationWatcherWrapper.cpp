@@ -601,6 +601,15 @@ Run
 }
 )
 ;
+if
+(
+!
+strongWorkerRef
+)
+{
+return
+;
+}
 workerRef
 =
 new
