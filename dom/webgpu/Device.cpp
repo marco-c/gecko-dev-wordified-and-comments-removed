@@ -5359,10 +5359,7 @@ ad
 .
 format
 =
-ffi
-:
-:
-WGPUVertexFormat
+ConvertVertexFormat
 (
 vat
 .
