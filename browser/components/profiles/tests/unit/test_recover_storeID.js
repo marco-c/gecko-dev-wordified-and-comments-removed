@@ -173,7 +173,7 @@ avatar
 TEXT
 NOT
 NULL
-themeId
+themeL10nId
 TEXT
 NOT
 NULL
@@ -212,7 +212,7 @@ name
 :
 avatar
 :
-themeId
+themeL10nId
 :
 themeFg
 :
@@ -232,7 +232,7 @@ avatar
 "
 book
 "
-themeId
+themeL10nId
 :
 "
 default
