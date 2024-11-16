@@ -121,6 +121,13 @@ py
 ]
 [
 "
+test_selectors
+.
+py
+"
+]
+[
+"
 test_task_configs
 .
 py

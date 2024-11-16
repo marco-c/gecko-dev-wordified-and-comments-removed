@@ -7,6 +7,8 @@ mock
 import
 MagicMock
 import
+mach_initialize
+import
 pytest
 import
 yaml
@@ -42,6 +44,7 @@ from
 tryselect
 import
 push
+tasks
 pytest
 .
 fixture
@@ -307,22 +310,14 @@ run_mach
 )
 :
     
-import
-mach_initialize
-    
-from
-tryselect
-.
-tasks
-import
-build
-    
 mach
 =
 mach_initialize
 .
 initialize
 (
+tasks
+.
 build
 .
 topsrcdir
