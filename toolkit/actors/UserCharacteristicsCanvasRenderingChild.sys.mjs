@@ -1180,9 +1180,9 @@ kImageBlob
 "
 data
 :
-content
+image
 /
-type
+jpeg
 ;
 base64
 /
