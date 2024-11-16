@@ -57,7 +57,7 @@ helpers
 .
 AppAndSystemHelper
 .
-assertExternalAppOpens
+assertAppWithPackageNameOpens
 import
 org
 .
@@ -292,7 +292,7 @@ VERSION_CODES
 Q
 )
 {
-assertExternalAppOpens
+assertAppWithPackageNameOpens
 (
 "
 com
@@ -307,7 +307,7 @@ documentsui
 }
 else
 {
-assertExternalAppOpens
+assertAppWithPackageNameOpens
 (
 "
 com
@@ -498,7 +498,7 @@ storage
 grantSystemPermission
 (
 )
-assertExternalAppOpens
+assertAppWithPackageNameOpens
 (
 "
 com

@@ -107,7 +107,7 @@ helpers
 .
 AppAndSystemHelper
 .
-assertExternalAppOpens
+assertAppWithPackageNameOpens
 import
 org
 .
@@ -1716,7 +1716,7 @@ external
 app
 "
 )
-assertExternalAppOpens
+assertAppWithPackageNameOpens
 (
 YOUTUBE_APP
 )

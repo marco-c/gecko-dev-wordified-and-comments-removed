@@ -2315,7 +2315,7 @@ false
 }
 }
 fun
-assertExternalAppOpens
+assertAppWithPackageNameOpens
 (
 appPackageName
 :
@@ -2338,7 +2338,7 @@ i
 (
 TAG
 "
-assertExternalAppOpens
+assertAppWithPackageNameOpens
 :
 Trying
 to
@@ -2362,7 +2362,7 @@ i
 (
 TAG
 "
-assertExternalAppOpens
+assertAppWithPackageNameOpens
 :
 Matched
 open
@@ -2386,7 +2386,7 @@ i
 (
 TAG
 "
-assertExternalAppOpens
+assertAppWithPackageNameOpens
 :
 Intent
 match
@@ -2401,6 +2401,14 @@ message
 )
 }
 finally
+{
+if
+(
+appPackageName
+!
+=
+packageName
+)
 {
 /
 /
@@ -2418,6 +2426,7 @@ appPackageName
 )
 }
 }
+}
 else
 {
 Log
@@ -2426,7 +2435,7 @@ i
 (
 TAG
 "
-assertExternalAppOpens
+assertAppWithPackageNameOpens
 :
 Trying
 to
@@ -2472,7 +2481,7 @@ i
 (
 TAG
 "
-assertExternalAppOpens
+assertAppWithPackageNameOpens
 :
 Verified
 \
