@@ -10,3 +10,7 @@ ANDROID_DEFAULT
 (
 CanvasRandomization
 )
+ANDROID_DEFAULT
+(
+FontVisibilityLangPack
+)
