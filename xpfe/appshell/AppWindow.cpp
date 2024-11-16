@@ -8283,6 +8283,7 @@ isInTabletMode
 false
 ;
 bool
+const
 autoTouchModePref
 =
 Preferences
