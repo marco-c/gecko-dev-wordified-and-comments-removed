@@ -33,6 +33,12 @@ Category
 CATEGORY_NONE
 =
 0
+CATEGORY_INITIALIZE_ORIGIN
+=
+1
+<
+<
+0
 }
 ;
 }
