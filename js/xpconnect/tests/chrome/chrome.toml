@@ -1053,10 +1053,3 @@ test_xrayic
 xhtml
 "
 ]
-[
-"
-test_xrayToExplicitResourceManagement
-.
-html
-"
-]
