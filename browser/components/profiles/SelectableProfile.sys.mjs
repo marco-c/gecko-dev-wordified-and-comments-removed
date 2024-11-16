@@ -544,7 +544,7 @@ nsIFile
 >
 }
 A
-promsie
+promise
 that
 resolves
 to

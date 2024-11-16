@@ -78,6 +78,16 @@ sys
 mjs
 "
 ]
+XPCOM_MANIFESTS
++
+=
+[
+"
+components
+.
+conf
+"
+]
 with
 Files
 (
