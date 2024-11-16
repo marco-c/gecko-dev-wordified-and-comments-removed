@@ -289,6 +289,9 @@ ToolsSubmenu
 isPdf
 :
 Boolean
+isReportSiteIssueSupported
+:
+Boolean
 webExtensionMenuItems
 :
 List
@@ -508,6 +511,9 @@ webExtensionMenuItems
 isNotEmpty
 (
 )
+&
+&
+isReportSiteIssueSupported
 )
 {
 Divider
@@ -1058,6 +1064,9 @@ ToolsSubmenu
 isPdf
 =
 false
+isReportSiteIssueSupported
+=
+false
 webExtensionMenuItems
 =
 listOf
@@ -1216,6 +1225,9 @@ ToolsSubmenu
 isPdf
 =
 false
+isReportSiteIssueSupported
+=
+true
 webExtensionMenuItems
 =
 listOf
