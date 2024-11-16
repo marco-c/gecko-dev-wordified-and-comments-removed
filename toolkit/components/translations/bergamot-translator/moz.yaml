@@ -85,11 +85,9 @@ github
 .
 com
 /
-browsermt
+mozilla
 /
-bergamot
--
-translator
+translations
 .
 git
 #
@@ -143,7 +141,7 @@ preferred
 )
 revision
 :
-05a87784973b6e1cc591f1f1a9a05c5873d9971e
+371c2daec4ffcd9d0d144aa6e95706a65e56f735
 #
 The
 package

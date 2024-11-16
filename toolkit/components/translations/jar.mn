@@ -317,6 +317,10 @@ translator
 /
 thirdparty
 /
+translations
+/
+inference
+/
 build
 -
 wasm
