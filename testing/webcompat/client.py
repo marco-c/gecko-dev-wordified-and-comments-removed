@@ -3881,6 +3881,8 @@ make_preload_script
 self
 text
 sandbox
+=
+None
 args
 =
 None
@@ -5959,6 +5961,30 @@ elem1
             
 elem2
         
+)
+    
+def
+is_content_wider_than_screen
+(
+self
+)
+:
+        
+return
+self
+.
+execute_script
+(
+"
+return
+window
+.
+innerWidth
+>
+window
+.
+outerWidth
+"
 )
     
 contextlib

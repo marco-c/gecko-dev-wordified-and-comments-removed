@@ -224,6 +224,23 @@ without_interventions
 "
 )
     
+if
+"
+no_overlay_scrollbars
+"
+in
+marks
+:
+        
+otherargs
+[
+"
+no_overlay_scrollbars
+"
+]
+=
+True
+    
 metafunc
 .
 parametrize
