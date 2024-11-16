@@ -47,13 +47,6 @@ testing
 /
 performance
 /
-fxrecord
-'
-'
-testing
-/
-performance
-/
 mach
 -
 try
