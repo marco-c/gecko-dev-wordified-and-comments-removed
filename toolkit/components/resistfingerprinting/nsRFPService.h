@@ -1354,6 +1354,14 @@ GetDefaultPixelDensity
 (
 )
 ;
+static
+double
+GetDevicePixelRatioAtZoom
+(
+float
+aZoom
+)
+;
 private
 :
 nsresult
