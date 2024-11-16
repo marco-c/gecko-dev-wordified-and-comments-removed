@@ -3995,6 +3995,7 @@ spanless_eq_struct
 (
 ForeignMod
 ;
+extern_span
 safety
 abi
 items
