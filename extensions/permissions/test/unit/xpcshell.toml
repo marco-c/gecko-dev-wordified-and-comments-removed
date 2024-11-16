@@ -539,13 +539,6 @@ js
 ]
 [
 "
-test_permmanager_remote
-.
-js
-"
-]
-[
-"
 test_permmanager_removeAllExceptTypes
 .
 js
