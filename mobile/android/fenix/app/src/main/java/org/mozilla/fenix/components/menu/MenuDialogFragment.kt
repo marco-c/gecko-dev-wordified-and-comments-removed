@@ -3279,6 +3279,13 @@ isBookmarked
 isPinned
 =
 isPinned
+isInstallable
+=
+webAppUseCases
+.
+isInstallable
+(
+)
 onBackButtonClick
 =
 {
