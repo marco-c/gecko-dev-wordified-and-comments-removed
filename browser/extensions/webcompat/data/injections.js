@@ -4727,7 +4727,7 @@ bug1868345
 platform
 :
 "
-desktop
+all
 "
 domain
 :
