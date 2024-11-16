@@ -1915,6 +1915,8 @@ Z0
 9_
 \
 -
+\
+.
 ]
 +
 \
@@ -1931,6 +1933,8 @@ Z0
 9_
 \
 -
+\
+.
 ]
 +
 /
@@ -1983,6 +1987,7 @@ only
 alphanumeric
 characters
 underscores
+dots
 or
 dashes
 .
