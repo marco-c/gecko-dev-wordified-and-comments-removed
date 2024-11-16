@@ -1240,6 +1240,7 @@ expression
 {
 frameId
 threadId
+selectedNodeActor
 evalInTracer
 }
 =
@@ -1295,6 +1296,7 @@ selectedTargetFront
 disableBreaks
 :
 true
+selectedNodeActor
 evalInTracer
 }
 )
