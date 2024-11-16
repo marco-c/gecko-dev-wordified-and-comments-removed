@@ -132,16 +132,6 @@ IndexType
 t
 )
 ;
-[
-[
-nodiscard
-]
-]
-bool
-DisableHugeMemory
-(
-)
-;
 bool
 Init
 (
