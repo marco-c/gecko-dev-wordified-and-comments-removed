@@ -1751,7 +1751,7 @@ regExpStatics
 ;
 private
 :
-HeapPtr
+GCPtr
 <
 SharedShape
 *
@@ -1764,14 +1764,14 @@ ResultShapeKind
 NumKinds
 ]
 ;
-HeapPtr
+GCPtr
 <
 Shape
 *
 >
 optimizableRegExpPrototypeShape_
 ;
-HeapPtr
+GCPtr
 <
 Shape
 *
@@ -2054,7 +2054,7 @@ static_assert
 (
 sizeof
 (
-HeapPtr
+GCPtr
 <
 SharedShape
 *

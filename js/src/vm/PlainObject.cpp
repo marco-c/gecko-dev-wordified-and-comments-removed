@@ -699,7 +699,7 @@ PlainObjectSlotsKindFromAllocKind
 kind
 )
 ;
-HeapPtr
+GCPtr
 <
 SharedShape
 *

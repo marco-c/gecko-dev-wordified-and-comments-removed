@@ -1584,7 +1584,7 @@ data
 (
 )
 ;
-HeapPtr
+GCPtr
 <
 ArgumentsObject
 *

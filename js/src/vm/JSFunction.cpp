@@ -8141,7 +8141,7 @@ data
 (
 )
 ;
-HeapPtr
+GCPtr
 <
 SharedShape
 *
