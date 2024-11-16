@@ -83,7 +83,6 @@ DCLayerTree
 ;
 class
 RenderCompositorANGLE
-final
 :
 public
 RenderCompositor
@@ -575,12 +574,6 @@ bool
 UseCompositor
 (
 )
-const
-;
-bool
-RecreateNonNativeCompositorSwapChain
-(
-)
 ;
 void
 InitializeUsePartialPresent
@@ -670,12 +663,6 @@ HWND
 GetCompositorHwnd
 (
 )
-;
-bool
-ShouldUseAlpha
-(
-)
-const
 ;
 RefPtr
 <
@@ -789,11 +776,6 @@ bool
 mFirstPresent
 =
 true
-;
-bool
-mSwapChainUsingAlpha
-=
-false
 ;
 }
 ;
