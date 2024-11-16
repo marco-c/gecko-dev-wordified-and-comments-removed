@@ -690,6 +690,11 @@ mWarnedAboutTooManyReports
 =
 false
 ;
+bool
+mHasPolicyWithRequireTrustedTypesForDirective
+=
+false
+;
 }
 ;
 class
