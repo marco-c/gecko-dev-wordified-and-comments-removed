@@ -58,12 +58,6 @@ info
 "
         
 "
-Intl
-.
-DurationFormat
-"
-        
-"
 Atomics
 .
 waitAsync
@@ -248,6 +242,24 @@ Segmenter
 Intl
 .
 Segmenter
+"
+    
+"
+Intl
+.
+DurationFormat
+"
+:
+"
+!
+Intl
+.
+hasOwnProperty
+(
+'
+DurationFormat
+'
+)
 "
     
 "
