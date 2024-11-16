@@ -66,6 +66,12 @@ child
 .
 js
 "
++
+self
+.
+location
+.
+search
 )
 ;
 child
