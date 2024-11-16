@@ -1955,11 +1955,6 @@ charCodeAt
 (
 0
 )
-.
-toString
-(
-16
-)
 %
 2
 =
