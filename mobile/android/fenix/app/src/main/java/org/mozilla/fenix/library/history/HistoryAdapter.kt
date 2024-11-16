@@ -149,6 +149,15 @@ store
 HistoryFragmentStore
 private
 val
+onRecentlyClosedClicked
+:
+(
+)
+-
+>
+Unit
+private
+val
 onEmptyStateChanged
 :
 (
@@ -347,6 +356,9 @@ this
 store
 =
 store
+onRecentlyClosedClicked
+=
+onRecentlyClosedClicked
 )
 }
 fun
