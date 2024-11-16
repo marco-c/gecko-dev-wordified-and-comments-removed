@@ -6503,35 +6503,11 @@ False
 if
 self
 .
-config
-.
-get
+query_is_nightly
 (
-"
-platform
-"
 )
-=
-=
-"
-macosx64
-"
 :
             
-if
-not
-self
-.
-config
-.
-get
-(
-"
-build_variant
-"
-)
-:
-                
 return
 True
         
