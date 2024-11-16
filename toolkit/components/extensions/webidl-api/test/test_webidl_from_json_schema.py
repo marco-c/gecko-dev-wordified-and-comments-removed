@@ -366,18 +366,20 @@ WEBEXT_STUBS_MAPPING
     
 WEBEXT_STUBS_MAPPING
 [
-        
 "
 testAPINamespace
 .
 configuredAsAmbiguousMethod
 "
-    
 ]
 =
+(
+        
 "
 AsyncAmbiguous
 "
+    
+)
     
 schemas
 =

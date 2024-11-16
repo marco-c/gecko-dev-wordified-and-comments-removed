@@ -19472,13 +19472,15 @@ TEST_DIRS
 lambda
 context
 :
+(
+            
 context
 [
 "
 DIRS
 "
 ]
-        
+            
 if
 context
 .
@@ -19492,9 +19494,11 @@ get
 ENABLE_TESTS
 "
 )
-        
+            
 else
 TestDirsPlaceHolder
+        
+)
         
 list
         

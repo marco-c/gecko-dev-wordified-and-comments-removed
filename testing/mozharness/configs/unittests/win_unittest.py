@@ -2160,6 +2160,8 @@ json
                 
 )
                 
+(
+                    
 "
 -
 -
@@ -2169,7 +2171,7 @@ win10
 -
 vm
 "
-                
+                    
 if
 REQUIRE_GPU
 and
@@ -2191,8 +2193,10 @@ version
 19045
 "
 )
-                
+                    
 else
+(
+                        
 "
 -
 -
@@ -2202,7 +2206,7 @@ win11
 -
 hw
 "
-                
+                        
 if
 REQUIRE_GPU
 and
@@ -2224,7 +2228,7 @@ version
 22621
 "
 )
-                
+                        
 else
 "
 -
@@ -2233,6 +2237,10 @@ platform
 =
 win7
 "
+                    
+)
+                
+)
             
 ]
             

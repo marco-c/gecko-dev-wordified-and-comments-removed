@@ -4655,12 +4655,14 @@ grey
             
 c2
 =
+(
+                
 self
 .
 color_formatter
 .
 error
-            
+                
 if
 data
 [
@@ -4673,7 +4675,7 @@ level
 "
 error
 "
-            
+                
 else
 (
 self
@@ -4681,6 +4683,8 @@ self
 color_formatter
 .
 log_test_status_fail
+)
+            
 )
             
 lineno

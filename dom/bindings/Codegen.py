@@ -3951,8 +3951,10 @@ classFlags
             
 addProperty
 =
+(
+                
 ADDPROPERTY_HOOK_NAME
-            
+                
 if
 wantsAddProperty
 (
@@ -3960,11 +3962,13 @@ self
 .
 descriptor
 )
-            
+                
 else
 "
 nullptr
 "
+            
+)
             
 newEnumerate
 =
@@ -16722,20 +16726,22 @@ m
 flags
 "
 :
+(
+                
 EnumerabilityFlags
 (
 m
 )
-            
 if
 (
 overrideFlags
 is
 None
 )
-            
 else
 overrideFlags
+            
+)
             
 "
 condition
@@ -21671,19 +21677,21 @@ isGlobal
             
 legacyWindowAliases
 =
+(
+                
 "
 legacyWindowAliases
 "
-            
 if
 self
 .
 haveLegacyWindowAliases
-            
 else
 "
 nullptr
 "
+            
+)
         
 )
         
@@ -44460,6 +44468,8 @@ n
                             
 originalHolderName
                             
+(
+                                
 getArgsCGThing
 (
 info
@@ -44470,15 +44480,17 @@ holderArgs
 define
 (
 )
-                            
+                                
 if
 info
 .
 holderArgs
-                            
+                                
 else
 "
 "
+                            
+)
                         
 )
                     

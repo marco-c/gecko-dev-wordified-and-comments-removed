@@ -1477,15 +1477,17 @@ _state
 .
 component_states
 [
-            
 self
 .
 component
-        
 ]
 =
+(
+            
 ComponentState
 (
+)
+        
 )
     
 def

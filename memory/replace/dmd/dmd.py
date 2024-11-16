@@ -1777,11 +1777,11 @@ unrecordedFrameID
     
 frameTable
 [
-        
 unrecordedFrameID
-    
 ]
 =
+(
+        
 "
 #
 00
@@ -1800,6 +1800,8 @@ stacks
 partial
 )
 "
+    
+)
     
 if
 mode

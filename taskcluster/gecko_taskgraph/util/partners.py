@@ -2774,15 +2774,17 @@ partner
 }
 )
 [
-                        
 subpartner
-                    
 ]
 =
+(
+                        
 _fix_subpartner_locales
 (
 subpartner_config
 all_locales
+)
+                    
 )
     
 return

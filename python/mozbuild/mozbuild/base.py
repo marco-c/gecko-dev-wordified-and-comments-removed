@@ -1766,8 +1766,10 @@ args
 tuple
 (
                     
+(
+                        
 a
-                    
+                        
 if
 not
 isinstance
@@ -1786,13 +1788,15 @@ a
 -
 help
 "
-                    
+                        
 else
 self
 .
 _always
 .
 sandboxed
+                    
+)
                     
 for
 a

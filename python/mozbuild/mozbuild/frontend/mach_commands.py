@@ -821,15 +821,17 @@ sorted
             
 (
                 
+(
+                    
 "
 UNKNOWN
 "
-                
+                    
 if
 component
 is
 None
-                
+                    
 else
 "
 %
@@ -847,6 +849,8 @@ product
 component
 .
 component
+)
+                
 )
                 
 sorted

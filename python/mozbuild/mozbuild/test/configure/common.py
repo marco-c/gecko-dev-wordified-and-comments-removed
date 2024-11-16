@@ -691,7 +691,6 @@ self
 .
 _subprocess_paths
 [
-            
 mozpath
 .
 join
@@ -707,12 +706,15 @@ vswhere
 exe
 "
 )
-        
 ]
 =
+(
+            
 self
 .
 vswhere
+        
+)
         
 vfs
 =

@@ -537,20 +537,22 @@ worker
 }
 )
 [
-            
 "
 upstream
 -
 artifacts
 "
-        
 ]
 =
+(
+            
 generate_upstream_artifacts
 (
 attribution_task_ref
 artifacts
 partner_path
+)
+        
 )
         
 yield

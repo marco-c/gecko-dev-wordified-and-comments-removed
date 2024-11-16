@@ -15317,18 +15317,19 @@ __value_for_depends
 "
 )
 [
-            
 (
 dep
 )
-        
 ]
 =
+(
+            
 arm_target
+            
 or
 ReadOnlyNamespace
 (
-            
+                
 arm_arch
 =
 7
@@ -15345,6 +15346,8 @@ float_abi
 "
 softfp
 "
+            
+)
         
 )
         
@@ -15884,6 +15887,8 @@ sun
 solaris2
 "
                 
+(
+                    
 "
 x86_64
 -
@@ -15891,7 +15896,7 @@ sun
 -
 solaris
 "
-                
+                    
 if
 Version
 (
@@ -15907,7 +15912,7 @@ VERSION
 .
 0
 "
-                
+                    
 else
 "
 x86_64
@@ -15916,6 +15921,8 @@ pc
 -
 solaris
 "
+                
+)
             
 )
             

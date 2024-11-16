@@ -2337,8 +2337,10 @@ insert
         
 0
         
+(
+            
 path_to_ffmpeg
-        
+            
 if
 host_platform
 (
@@ -2350,7 +2352,7 @@ startswith
 linux
 "
 )
-        
+            
 else
 mozpath
 .
@@ -2360,6 +2362,8 @@ path_to_ffmpeg
 "
 bin
 "
+)
+        
 )
     
 )

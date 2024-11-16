@@ -1570,13 +1570,13 @@ subtest
                             
 new_subtest
 [
-                                
 "
 name
 "
-                            
 ]
 =
+(
+                                
 f
 "
 {
@@ -1593,6 +1593,8 @@ alternative_method
 }
 )
 "
+                            
+)
                             
 _process
 (

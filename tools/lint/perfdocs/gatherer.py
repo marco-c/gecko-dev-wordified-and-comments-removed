@@ -895,19 +895,19 @@ self
 .
 framework_gatherers
 [
-            
 framework
 [
 "
 name
 "
 ]
-        
 ]
 =
-framework_gatherer_cls
 (
             
+framework_gatherer_cls
+(
+                
 framework
 [
 "
@@ -920,6 +920,8 @@ workspace_dir
 self
 .
 taskgraph
+            
+)
         
 )
         

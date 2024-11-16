@@ -4490,6 +4490,8 @@ not
 any
 (
                     
+(
+                        
 isinstance
 (
 attr
@@ -4497,14 +4499,14 @@ attr
 value
 s
 )
-                    
+                        
 if
 isinstance
 (
 s
 type
 )
-                    
+                        
 else
 attr
 .
@@ -4512,6 +4514,8 @@ value
 =
 =
 s
+                    
+)
                     
 for
 s

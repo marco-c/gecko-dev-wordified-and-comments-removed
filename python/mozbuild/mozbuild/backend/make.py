@@ -707,6 +707,8 @@ else
                     
 flags
 =
+(
+                        
 "
 "
 +
@@ -726,15 +728,17 @@ obj
 .
 flags
 )
-                    
+                        
 if
 obj
 .
 flags
-                    
+                        
 else
 "
 "
+                    
+)
                     
 backend
 =

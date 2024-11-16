@@ -322,6 +322,8 @@ json
                 
 )
                 
+(
+                    
 "
 -
 -
@@ -331,7 +333,7 @@ win10
 -
 hw
 "
-                
+                    
 if
 (
 platform
@@ -351,8 +353,10 @@ version
 19045
 "
 )
-                
+                    
 else
+(
+                        
 "
 -
 -
@@ -362,7 +366,7 @@ win11
 -
 hw
 "
-                
+                        
 if
 (
 platform
@@ -382,7 +386,7 @@ version
 22621
 "
 )
-                
+                        
 else
 "
 -
@@ -391,6 +395,10 @@ platform
 =
 win7
 "
+                    
+)
+                
+)
             
 ]
             

@@ -289,10 +289,12 @@ s
 %
 (
                     
+(
+                        
 "
 UNRESOLVED
 "
-                    
+                        
 if
 not
 bug
@@ -301,7 +303,7 @@ bug
 resolution
 "
 ]
-                    
+                        
 else
 "
 RESOLVED
@@ -316,6 +318,8 @@ bug
 resolution
 "
 ]
+                    
+)
                     
 bug
 [

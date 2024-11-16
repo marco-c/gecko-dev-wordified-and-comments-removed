@@ -1911,13 +1911,13 @@ else
             
 append_env
 [
-                
 "
 ADD_RUST_LTOABLE
 "
-            
 ]
 =
+(
+                
 "
 force
 -
@@ -1945,10 +1945,12 @@ s
 .
 format
 (
-                
+                    
 s
 =
 cargo_command
+                
+)
             
 )
         

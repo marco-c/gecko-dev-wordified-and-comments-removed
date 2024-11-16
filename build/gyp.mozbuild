@@ -72,6 +72,7 @@ else
 libfuzzer_fuzzer_no_link_flag
 "
 :
+(
 1
 if
 CONFIG
@@ -82,6 +83,7 @@ HAVE_LIBFUZZER_FLAG_FUZZER_NO_LINK
 ]
 else
 0
+)
 "
 build_with_mozilla
 "
@@ -133,6 +135,7 @@ else
 have_ethtool_cmd_speed_hi
 "
 :
+(
 1
 if
 CONFIG
@@ -143,6 +146,7 @@ MOZ_WEBRTC_HAVE_ETHTOOL_SPEED_HI
 ]
 else
 0
+)
 "
 include_alsa_audio
 "

@@ -1756,25 +1756,29 @@ WebElement
 )
             
 else
+(
+                
 element_or_driver
 .
 get_screenshot_as_png
 (
 )
-            
+                
 if
 isinstance
 (
 element_or_driver
 WebDriver
 )
-            
+                
 else
 base64
 .
 b64decode
 (
 element_or_driver
+)
+            
 )
         
 )

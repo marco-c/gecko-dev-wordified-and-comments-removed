@@ -2166,6 +2166,8 @@ out_args
 =
 [
                     
+(
+                        
 six
 .
 ensure_text
@@ -2181,7 +2183,7 @@ utf
 8
 "
 )
-                    
+                        
 if
 isinstance
 (
@@ -2190,9 +2192,11 @@ six
 .
 binary_type
 )
-                    
+                        
 else
 arg
+                    
+)
                     
 for
 arg

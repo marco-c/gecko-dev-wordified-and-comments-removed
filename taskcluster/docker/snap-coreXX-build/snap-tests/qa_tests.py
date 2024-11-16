@@ -4096,6 +4096,8 @@ By
 .
 ID
                     
+(
+                        
 "
 context
 -
@@ -4103,7 +4105,7 @@ copyimage
 -
 contents
 "
-                    
+                        
 if
 mime_type
 .
@@ -4114,13 +4116,15 @@ image
 /
 "
 )
-                    
+                        
 else
 "
 context
 -
 copy
 "
+                    
+)
                 
 )
             

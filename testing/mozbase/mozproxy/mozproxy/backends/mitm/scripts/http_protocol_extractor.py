@@ -361,7 +361,6 @@ self
 .
 request_protocol
 [
-                
 urllib
 .
 parse
@@ -376,9 +375,10 @@ url
 )
 .
 netloc
-            
 ]
 =
+(
+                
 flow
 .
 response
@@ -394,6 +394,8 @@ utf
 -
 8
 "
+)
+            
 )
     
 def

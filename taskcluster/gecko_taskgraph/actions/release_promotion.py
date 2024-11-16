@@ -2500,14 +2500,16 @@ release_enable_partner_repack
     
 parameters
 [
-        
 "
 release_enable_partner_attribution
 "
-    
 ]
 =
+(
+        
 release_enable_partner_attribution
+    
+)
     
 parameters
 [
