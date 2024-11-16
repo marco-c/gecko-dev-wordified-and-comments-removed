@@ -2665,13 +2665,6 @@ js
 ]
 [
 "
-test_cookies_partition_migration
-.
-js
-"
-]
-[
-"
 test_cookies_privatebrowsing
 .
 js
@@ -6067,13 +6060,6 @@ js
 [
 "
 test_referrer_policy
-.
-js
-"
-]
-[
-"
-test_remove_invalid_first_party_partitioned_cookie
 .
 js
 "
