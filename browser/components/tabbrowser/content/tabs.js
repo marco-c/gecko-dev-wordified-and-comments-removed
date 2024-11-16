@@ -4989,9 +4989,6 @@ movingTabs
 insertBefore
 :
 draggedTab
-showCreateUI
-:
-true
 }
 )
 ;

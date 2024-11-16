@@ -11408,9 +11408,6 @@ label
 insertBefore
 =
 null
-showCreateUI
-=
-false
 }
 =
 {
@@ -11539,11 +11536,6 @@ TabGroupCreate
 bubbles
 :
 true
-detail
-:
-{
-showCreateUI
-}
 }
 )
 )
@@ -24647,15 +24639,6 @@ case
 TabGroupCreate
 "
 :
-if
-(
-aEvent
-.
-detail
-.
-showCreateUI
-)
-{
 this
 .
 tabGroupMenu
@@ -24667,7 +24650,6 @@ aEvent
 target
 )
 ;
-}
 break
 ;
 case
@@ -33906,9 +33888,6 @@ insertBefore
 this
 .
 contextTab
-showCreateUI
-:
-true
 }
 )
 ;
