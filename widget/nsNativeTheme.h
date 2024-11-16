@@ -7,6 +7,13 @@ _NSNATIVETHEME_H_
 #
 include
 "
+nsAlgorithm
+.
+h
+"
+#
+include
+"
 nsAtom
 .
 h

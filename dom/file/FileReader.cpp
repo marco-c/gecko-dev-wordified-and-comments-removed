@@ -177,6 +177,13 @@ h
 #
 include
 "
+nsAlgorithm
+.
+h
+"
+#
+include
+"
 nsCycleCollectionParticipant
 .
 h
@@ -1470,10 +1477,7 @@ tmpBuffer
 uint32_t
 minCount
 =
-std
-:
-:
-min
+XPCOM_MIN
 (
 aCount
 static_cast

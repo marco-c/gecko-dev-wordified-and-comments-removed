@@ -2289,10 +2289,7 @@ Length
 uint32_t
 min
 =
-std
-:
-:
-min
+XPCOM_MIN
 (
 selfLen
 otherLen

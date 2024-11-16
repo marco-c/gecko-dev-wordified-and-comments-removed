@@ -49,10 +49,7 @@ Length
 uint32_t
 lenMin
 =
-std
-:
-:
-min
+XPCOM_MIN
 (
 len1
 len2
