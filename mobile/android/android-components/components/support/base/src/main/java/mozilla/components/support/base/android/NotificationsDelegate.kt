@@ -590,6 +590,11 @@ showPermissionRationale
 Boolean
 =
 false
+isCrashReportNotification
+:
+Boolean
+=
+false
 )
 {
 if
@@ -629,6 +634,10 @@ Build
 VERSION_CODES
 .
 TIRAMISU
+&
+&
+!
+isCrashReportNotification
 )
 {
 requestNotificationPermission

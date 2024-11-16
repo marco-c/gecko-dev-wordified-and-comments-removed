@@ -447,6 +447,9 @@ notify
 NOTIFICATION_TAG
 NOTIFICATION_ID
 notification
+isCrashReportNotification
+=
+true
 )
 }
 companion
