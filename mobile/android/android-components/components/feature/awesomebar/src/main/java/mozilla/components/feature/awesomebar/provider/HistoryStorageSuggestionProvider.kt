@@ -1031,8 +1031,6 @@ onSuggestionClicked
 =
 {
 loadUrlUseCase
-.
-invoke
 (
 result
 .

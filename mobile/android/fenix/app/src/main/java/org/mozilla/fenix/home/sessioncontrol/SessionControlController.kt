@@ -1438,8 +1438,6 @@ url
 -
 >
 addTabUseCase
-.
-invoke
 (
 url
 )

@@ -945,8 +945,6 @@ LoadUrlFlags
 ALLOW_JAVASCRIPT_URL
 )
 loadUrlUseCase
-.
-invoke
 (
 result
 .

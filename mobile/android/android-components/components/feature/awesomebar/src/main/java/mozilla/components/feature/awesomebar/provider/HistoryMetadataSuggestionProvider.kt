@@ -920,8 +920,6 @@ onSuggestionClicked
 =
 {
 loadUrlUseCase
-.
-invoke
 (
 result
 .

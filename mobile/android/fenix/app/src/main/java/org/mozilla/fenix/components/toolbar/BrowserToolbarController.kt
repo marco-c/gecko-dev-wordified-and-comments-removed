@@ -839,8 +839,6 @@ useCases
 sessionUseCases
 .
 loadUrl
-.
-invoke
 (
 text
 )
