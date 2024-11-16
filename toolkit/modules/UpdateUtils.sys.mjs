@@ -883,6 +883,13 @@ trim
 ;
 }
 }
+if
+(
+AppConstants
+.
+MOZ_UPDATER
+)
+{
 console
 .
 error
@@ -904,6 +911,7 @@ directories
 "
 )
 ;
+}
 return
 (
 this
