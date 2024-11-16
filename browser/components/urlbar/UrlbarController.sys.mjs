@@ -2981,6 +2981,9 @@ entry
 "
 typed
 "
+startQuery
+:
+true
 }
 )
 ;
