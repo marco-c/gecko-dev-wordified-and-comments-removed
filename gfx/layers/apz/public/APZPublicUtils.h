@@ -86,6 +86,16 @@ Scroll
 PinchZoom
 )
 )
+enum
+class
+DispatchToContent
+:
+bool
+{
+No
+Yes
+}
+;
 namespace
 apz
 {

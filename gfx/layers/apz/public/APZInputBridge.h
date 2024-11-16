@@ -38,17 +38,6 @@ mozilla
 /
 layers
 /
-APZUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
 LayersTypes
 .
 h
