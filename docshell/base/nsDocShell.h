@@ -1391,9 +1391,12 @@ nsIInputStream
 aNewPostData
 =
 nullptr
-bool
+nsILoadInfo
+:
+:
+SchemelessInputType
 *
-outWasSchemelessInput
+outSchemelessInput
 =
 nullptr
 )

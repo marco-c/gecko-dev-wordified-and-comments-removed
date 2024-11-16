@@ -10641,7 +10641,7 @@ insertTab
 true
 globalHistoryOptions
 triggeringRemoteType
-wasSchemelessInput
+schemelessInput
 hasValidUserGestureActivation
 =
 false
@@ -11220,7 +11220,7 @@ postData
 csp
 globalHistoryOptions
 triggeringRemoteType
-wasSchemelessInput
+schemelessInput
 hasValidUserGestureActivation
 :
 hasValidUserGestureActivation
@@ -12473,7 +12473,7 @@ postData
 csp
 globalHistoryOptions
 triggeringRemoteType
-wasSchemelessInput
+schemelessInput
 hasValidUserGestureActivation
 textDirectiveUserActivation
 }
@@ -12662,7 +12662,7 @@ postData
 csp
 globalHistoryOptions
 triggeringRemoteType
-wasSchemelessInput
+schemelessInput
 hasValidUserGestureActivation
 textDirectiveUserActivation
 }
@@ -24653,6 +24653,7 @@ case
 visibilitychange
 "
 :
+{
 const
 inactive
 =
@@ -24689,6 +24690,7 @@ inactive
 }
 break
 ;
+}
 case
 "
 TabGroupCreate
@@ -33527,6 +33529,7 @@ case
 TabAttrModified
 "
 :
+{
 let
 tab
 =
@@ -33556,6 +33559,7 @@ attr
 ;
 break
 ;
+}
 }
 }
 createReopenInContainerMenu

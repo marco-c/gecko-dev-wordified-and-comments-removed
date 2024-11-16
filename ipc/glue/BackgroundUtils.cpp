@@ -3256,7 +3256,7 @@ GetHasInjectedCookieForCookieBannerHandling
 aLoadInfo
 -
 >
-GetWasSchemelessInput
+GetSchemelessInput
 (
 )
 aLoadInfo
@@ -5053,7 +5053,7 @@ hasInjectedCookieForCookieBannerHandling
 )
 loadInfoArgs
 .
-wasSchemelessInput
+schemelessInput
 (
 )
 loadInfoArgs
@@ -5430,7 +5430,7 @@ GetHttpsOnlyStatus
 aLoadInfo
 -
 >
-GetWasSchemelessInput
+GetSchemelessInput
 (
 )
 aLoadInfo
@@ -5733,11 +5733,11 @@ rv
 aLoadInfo
 -
 >
-SetWasSchemelessInput
+SetSchemelessInput
 (
 aForwarderArgs
 .
-wasSchemelessInput
+schemelessInput
 (
 )
 )
