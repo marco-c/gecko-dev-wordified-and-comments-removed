@@ -107,6 +107,12 @@ button
 )
 )
 ;
+button
+.
+tabIndex
+=
+0
+;
 button2
 .
 tabIndex
