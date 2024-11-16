@@ -28,6 +28,13 @@ h
 #
 include
 "
+nsIRemotePermissionService
+.
+h
+"
+#
+include
+"
 nsWeakReference
 .
 h
@@ -1699,6 +1706,11 @@ CompleteRead
 ;
 void
 CompleteMigrations
+(
+)
+;
+void
+InitRemotePermissionService
 (
 )
 ;
