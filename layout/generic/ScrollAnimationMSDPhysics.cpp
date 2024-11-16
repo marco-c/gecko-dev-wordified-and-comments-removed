@@ -691,7 +691,10 @@ aInitialPosition
 )
 ;
 return
-clamped
+std
+:
+:
+clamp
 (
 aVelocity
 -

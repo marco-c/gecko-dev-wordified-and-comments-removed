@@ -2090,10 +2090,10 @@ traversableDistance
 nscoord
 posOfPoint
 =
-mozilla
+std
 :
 :
-clamped
+clamp
 (
 point
 .
@@ -2182,10 +2182,10 @@ traversableDistance
 nscoord
 posOfPoint
 =
-mozilla
+std
 :
 :
-clamped
+clamp
 (
 point
 .

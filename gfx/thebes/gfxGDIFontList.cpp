@@ -2027,7 +2027,10 @@ logFont
 .
 lfWeight
 =
-clamped
+std
+:
+:
+clamp
 (
 logFont
 .

@@ -12626,7 +12626,10 @@ aCurrent
 nscoord
 destLower
 =
-clamped
+std
+:
+:
+clamp
 (
 aDestLower
 aBoundLower
@@ -12636,7 +12639,10 @@ aBoundUpper
 nscoord
 destUpper
 =
-clamped
+std
+:
+:
+clamp
 (
 aDestUpper
 aBoundLower
@@ -12646,7 +12652,10 @@ aBoundUpper
 nscoord
 desired
 =
-clamped
+std
+:
+:
+clamp
 (
 aDesired
 destLower

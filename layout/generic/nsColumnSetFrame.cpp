@@ -4918,7 +4918,10 @@ extraBlockSize
 ;
 nextGuess
 =
-clamped
+std
+:
+:
+clamp
 (
 nextGuess
 aConfig

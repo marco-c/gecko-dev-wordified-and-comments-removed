@@ -544,10 +544,10 @@ sat
 {
 sat
 =
-mozilla
+std
 :
 :
-clamped
+clamp
 (
 sat
 *
@@ -561,10 +561,10 @@ else
 {
 value
 =
-mozilla
+std
 :
 :
-clamped
+clamp
 (
 255
 -

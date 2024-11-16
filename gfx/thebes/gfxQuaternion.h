@@ -28,13 +28,6 @@ h
 "
 #
 include
-"
-nsAlgorithm
-.
-h
-"
-#
-include
 <
 algorithm
 >
@@ -374,10 +367,10 @@ const
 gfxFloat
 dot
 =
-mozilla
+std
 :
 :
-clamped
+clamp
 (
 DotProduct
 (

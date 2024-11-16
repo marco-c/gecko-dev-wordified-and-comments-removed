@@ -151,13 +151,6 @@ h
 #
 include
 "
-nsAlgorithm
-.
-h
-"
-#
-include
-"
 nsCSSFrameConstructor
 .
 h
@@ -22344,7 +22337,10 @@ r
 .
 first
 =
-clamped
+std
+:
+:
+clamp
 (
 r
 .
@@ -22361,7 +22357,10 @@ r
 .
 second
 =
-clamped
+std
+:
+:
+clamp
 (
 r
 .

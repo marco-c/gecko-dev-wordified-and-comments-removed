@@ -271,7 +271,10 @@ aTime
 int32_t
 durationMS
 =
-clamped
+std
+:
+:
+clamp
 <
 int32_t
 >

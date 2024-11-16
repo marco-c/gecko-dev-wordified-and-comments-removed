@@ -156,13 +156,6 @@ h
 #
 include
 "
-nsAlgorithm
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -16957,10 +16950,10 @@ mPageLength
 ;
 aRow
 =
-mozilla
+std
 :
 :
-clamped
+clamp
 (
 aRow
 0

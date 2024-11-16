@@ -773,7 +773,10 @@ resistanceFactor
 ;
 result
 =
-clamped
+std
+:
+:
+clamp
 (
 result
 -
@@ -1099,7 +1102,10 @@ apz_overscroll_max_velocity
 ;
 aVelocity
 =
-clamped
+std
+:
+:
+clamp
 (
 aVelocity
 /

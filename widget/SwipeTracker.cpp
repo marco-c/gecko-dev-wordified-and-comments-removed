@@ -80,13 +80,6 @@ h
 #
 include
 "
-nsAlgorithm
-.
-h
-"
-#
-include
-"
 nsIWidget
 .
 h
@@ -426,7 +419,10 @@ DIRECTION_LEFT
 0
 ;
 return
-clamped
+std
+:
+:
+clamp
 (
 aGestureAmount
 min

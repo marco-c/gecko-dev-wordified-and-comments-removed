@@ -3903,7 +3903,10 @@ IsAnyToplevelContentPageLoading
 TimeDuration
 timeForOutsideTick
 =
-clamped
+std
+:
+:
+clamp
 (
 tickStart
 -

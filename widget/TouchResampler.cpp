@@ -5,13 +5,6 @@ TouchResampler
 .
 h
 "
-#
-include
-"
-nsAlgorithm
-.
-h
-"
 namespace
 mozilla
 {
@@ -250,7 +243,10 @@ kTouchResampleMaxPredictMs
 TimeStamp
 sampleTime
 =
-clamped
+std
+:
+:
+clamp
 (
 aTimeStamp
 lowerBound

@@ -310,7 +310,10 @@ kSmoothScrollMaxAllowedAnimationDurationMS
 ;
 maxMS
 =
-clamped
+std
+:
+:
+clamp
 (
 maxMS
 0
@@ -319,7 +322,10 @@ kSmoothScrollMaxAllowedAnimationDurationMS
 ;
 minMS
 =
-clamped
+std
+:
+:
+clamp
 (
 minMS
 0
