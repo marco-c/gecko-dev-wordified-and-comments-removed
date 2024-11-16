@@ -524,7 +524,7 @@ Func
 nsRFPService
 :
 :
-IsSoftwareRenderingOptionExposed
+IsSystemPrincipalOrAboutFingerprintingProtection
 "
 ]
 GLboolean
