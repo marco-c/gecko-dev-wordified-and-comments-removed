@@ -2727,9 +2727,10 @@ windows
 in
 test_platform
 and
-"
-speedometer3
-"
+any
+(
+            
+t
 in
 test
 [
@@ -2739,6 +2740,19 @@ test
 name
 "
 ]
+for
+t
+in
+(
+"
+speedometer3
+"
+"
+tp6
+"
+)
+        
+)
 :
             
 extra_options
