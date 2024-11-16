@@ -876,6 +876,7 @@ pub
 enum
 PropertySyntaxParseError
 {
+NoSyntax
 EmptyInput
 ExpectedPipeBetweenComponents
 InvalidNameStart
