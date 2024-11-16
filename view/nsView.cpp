@@ -5222,7 +5222,7 @@ nsView
 SafeAreaInsetsChanged
 (
 const
-ScreenIntMargin
+LayoutDeviceIntMargin
 &
 aSafeAreaInsets
 )
@@ -5258,9 +5258,10 @@ presShell
 return
 ;
 }
-ScreenIntMargin
+LayoutDeviceIntMargin
 windowSafeAreaInsets
 ;
+const
 LayoutDeviceIntRect
 windowRect
 =
@@ -5271,6 +5272,8 @@ GetScreenBounds
 (
 )
 ;
+if
+(
 nsCOMPtr
 <
 nsIScreen
@@ -5283,10 +5286,6 @@ mWindow
 GetWidgetScreen
 (
 )
-;
-if
-(
-screen
 )
 {
 windowSafeAreaInsets

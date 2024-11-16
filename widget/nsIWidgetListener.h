@@ -347,7 +347,7 @@ const
 mozilla
 :
 :
-ScreenIntMargin
+LayoutDeviceIntMargin
 &
 aSafeAreaInsets
 )

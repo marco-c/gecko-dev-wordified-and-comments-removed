@@ -54,7 +54,6 @@ ParentLayerToLayerForRootComposition
 MovingDownToChildren
 TransformNotAvailable
 LayoutDeviceIsScreenForUntransformedEvent
-LayoutDeviceIsScreenForTabDims
 LayoutDeviceIsParentLayerForRCDRSF
 MultipleAsyncTransforms
 NoTransformOnLayer

@@ -790,7 +790,7 @@ mDefaultScale
 aScale
 ;
 }
-ScreenIntMargin
+LayoutDeviceIntMargin
 GetSafeAreaInsets
 (
 )
@@ -801,7 +801,7 @@ void
 UpdateSafeAreaInsets
 (
 const
-ScreenIntMargin
+LayoutDeviceIntMargin
 &
 aSafeAreaInsets
 )
@@ -1411,7 +1411,7 @@ GetFallbackDefaultScale
 .
 scale
 ;
-ScreenIntMargin
+LayoutDeviceIntMargin
 mSafeAreaInsets
 ;
 RefPtr

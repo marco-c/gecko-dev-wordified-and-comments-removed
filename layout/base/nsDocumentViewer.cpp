@@ -2824,7 +2824,7 @@ IsTopLevelContentDocument
 )
 )
 {
-ScreenIntMargin
+LayoutDeviceIntMargin
 windowSafeAreaInsets
 ;
 LayoutDeviceIntRect
@@ -2837,6 +2837,8 @@ GetScreenBounds
 (
 )
 ;
+if
+(
 nsCOMPtr
 <
 nsIScreen
@@ -2849,10 +2851,6 @@ mWindow
 GetWidgetScreen
 (
 )
-;
-if
-(
-screen
 )
 {
 windowSafeAreaInsets

@@ -14877,7 +14877,7 @@ nsPresContext
 SetSafeAreaInsets
 (
 const
-ScreenIntMargin
+LayoutDeviceIntMargin
 &
 aSafeAreaInsets
 )

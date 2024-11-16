@@ -2199,7 +2199,7 @@ const
 mozilla
 :
 :
-ScreenIntMargin
+LayoutDeviceIntMargin
 &
 aSafeAreaInsets
 )
@@ -2889,7 +2889,7 @@ AsyncPanZoomEnabled
 )
 const
 ;
-ScreenIntSize
+LayoutDeviceIntSize
 GetInnerSize
 (
 )
@@ -3698,7 +3698,7 @@ HasValidInnerSize
 (
 )
 ;
-ScreenIntRect
+LayoutDeviceIntRect
 GetOuterRect
 (
 )

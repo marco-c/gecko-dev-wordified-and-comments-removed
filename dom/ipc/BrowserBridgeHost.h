@@ -34,6 +34,7 @@ dom
 {
 class
 BrowserBridgeHost
+final
 :
 public
 RemoteBrowser
@@ -174,11 +175,11 @@ void
 UpdateDimensions
 (
 const
-nsIntRect
+LayoutDeviceIntRect
 &
 aRect
 const
-ScreenIntSize
+LayoutDeviceIntSize
 &
 aSize
 )

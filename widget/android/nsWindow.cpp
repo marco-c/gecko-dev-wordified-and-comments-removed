@@ -9677,7 +9677,7 @@ gkWindow
 return
 ;
 }
-ScreenIntMargin
+LayoutDeviceIntMargin
 safeAreaInsets
 (
 aTop
@@ -18013,7 +18013,7 @@ aHeight
 ;
 }
 }
-ScreenIntMargin
+LayoutDeviceIntMargin
 nsWindow
 :
 :
@@ -18033,7 +18033,7 @@ nsWindow
 UpdateSafeAreaInsets
 (
 const
-ScreenIntMargin
+LayoutDeviceIntMargin
 &
 aSafeAreaInsets
 )

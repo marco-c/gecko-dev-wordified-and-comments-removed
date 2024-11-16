@@ -718,7 +718,6 @@ return
 mDirtyRegion
 ;
 }
-virtual
 mozilla
 :
 :
@@ -729,7 +728,6 @@ GetPresShell
 )
 override
 ;
-virtual
 nsView
 *
 GetView
@@ -741,7 +739,6 @@ return
 this
 ;
 }
-virtual
 bool
 WindowMoved
 (
@@ -756,7 +753,6 @@ ByMoveToRect
 )
 override
 ;
-virtual
 bool
 WindowResized
 (
@@ -776,7 +772,6 @@ defined
 (
 MOZ_WIDGET_ANDROID
 )
-virtual
 void
 DynamicToolbarMaxHeightChanged
 (
@@ -788,7 +783,6 @@ aHeight
 )
 override
 ;
-virtual
 void
 DynamicToolbarOffsetChanged
 (
@@ -800,7 +794,6 @@ aOffset
 )
 override
 ;
-virtual
 void
 KeyboardHeightChanged
 (
@@ -814,7 +807,6 @@ override
 ;
 #
 endif
-virtual
 bool
 RequestWindowClose
 (
@@ -825,7 +817,6 @@ aWidget
 override
 ;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
-virtual
 void
 WillPaintWindow
 (
@@ -836,7 +827,6 @@ aWidget
 override
 ;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
-virtual
 bool
 PaintWindow
 (
@@ -849,14 +839,12 @@ aRegion
 override
 ;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
-virtual
 void
 DidPaintWindow
 (
 )
 override
 ;
-virtual
 void
 DidCompositeWindow
 (
@@ -885,14 +873,12 @@ aCompositeEnd
 )
 override
 ;
-virtual
 void
 RequestRepaint
 (
 )
 override
 ;
-virtual
 bool
 ShouldNotBeVisible
 (
@@ -900,7 +886,6 @@ ShouldNotBeVisible
 override
 ;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
-virtual
 nsEventStatus
 HandleEvent
 (
@@ -915,7 +900,6 @@ aUseAttachedEvents
 )
 override
 ;
-virtual
 void
 SafeAreaInsetsChanged
 (
@@ -923,7 +907,7 @@ const
 mozilla
 :
 :
-ScreenIntMargin
+LayoutDeviceIntMargin
 &
 )
 override

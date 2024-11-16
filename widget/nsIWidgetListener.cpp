@@ -154,7 +154,7 @@ const
 mozilla
 :
 :
-ScreenIntMargin
+LayoutDeviceIntMargin
 &
 )
 {

@@ -310,7 +310,7 @@ using
 mozilla
 :
 :
-ScreenIntSize
+LayoutDeviceIntSize
 from
 "
 Units
@@ -1137,7 +1137,7 @@ defaultScale
 struct
 OwnerShowInfo
 {
-ScreenIntSize
+LayoutDeviceIntSize
 size
 ;
 ScrollbarPreference

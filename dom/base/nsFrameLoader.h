@@ -1254,7 +1254,10 @@ aCsp
 nsresult
 GetWindowDimensions
 (
-nsIntRect
+mozilla
+:
+:
+LayoutDeviceIntRect
 &
 aRect
 )
@@ -1702,7 +1705,7 @@ mDocShell
 mozilla
 :
 :
-ScreenIntSize
+LayoutDeviceIntSize
 mLazySize
 ;
 RefPtr
