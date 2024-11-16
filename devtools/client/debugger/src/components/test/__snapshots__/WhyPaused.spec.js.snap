@@ -86,6 +86,9 @@ reason
 "
 >
 <
+div
+>
+<
 Localized
 id
 =
@@ -95,6 +98,10 @@ whypaused
 breakpoint
 "
 /
+>
+<
+/
+div
 >
 <
 div
@@ -256,6 +263,9 @@ reason
 "
 >
 <
+div
+>
+<
 Localized
 id
 =
@@ -265,6 +275,10 @@ whypaused
 exception
 "
 /
+>
+<
+/
+div
 >
 <
 div
@@ -378,6 +392,9 @@ reason
 "
 >
 <
+div
+>
+<
 Localized
 id
 =
@@ -387,6 +404,10 @@ whypaused
 exception
 "
 /
+>
+<
+/
+div
 >
 <
 div
