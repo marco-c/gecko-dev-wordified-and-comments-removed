@@ -2236,7 +2236,10 @@ if
 basePrin
 -
 >
-ContentScriptAddonPolicy
+Is
+<
+ExpandedPrincipal
+>
 (
 )
 )

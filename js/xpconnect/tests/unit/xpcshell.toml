@@ -1606,6 +1606,13 @@ js
 ]
 [
 "
+test_sandbox_csp
+.
+js
+"
+]
+[
+"
 test_sandbox_metadata
 .
 js
