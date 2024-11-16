@@ -1238,6 +1238,9 @@ attribute_name
     
 if
 value
+is
+not
+None
 :
         
 dict
@@ -1543,6 +1546,11 @@ extra_env
 {
 }
     
+should_extract
+=
+{
+}
+    
 aliases
 =
 {
@@ -1689,6 +1697,33 @@ kind
 -
 env
 "
+)
+        
+get_attribute
+(
+            
+should_extract
+task
+[
+"
+label
+"
+]
+task
+[
+"
+attributes
+"
+]
+f
+"
+{
+kind
+}
+-
+extract
+"
+        
 )
         
 value
@@ -2103,7 +2138,13 @@ label
 extract
 "
 :
+should_extract
+.
+get
+(
+label
 True
+)
                         
 }
                     
