@@ -671,6 +671,15 @@ DisplayNames
 \
 REAL_IF_INTL
 (
+DurationFormat
+OCLASP
+(
+DurationFormat
+)
+)
+\
+REAL_IF_INTL
+(
 ListFormat
 OCLASP
 (

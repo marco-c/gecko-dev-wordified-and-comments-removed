@@ -60277,6 +60277,12 @@ case
 InlinableNative
 :
 :
+IntlGuardToDurationFormat
+:
+case
+InlinableNative
+:
+:
 IntlGuardToListFormat
 :
 case

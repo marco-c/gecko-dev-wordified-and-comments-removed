@@ -2958,6 +2958,12 @@ case
 SupportedLocaleKind
 :
 :
+DurationFormat
+:
+case
+SupportedLocaleKind
+:
+:
 ListFormat
 :
 case
@@ -3079,6 +3085,12 @@ SupportedLocaleKind
 :
 :
 DisplayNames
+:
+case
+SupportedLocaleKind
+:
+:
+DurationFormat
 :
 case
 SupportedLocaleKind

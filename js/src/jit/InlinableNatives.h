@@ -359,6 +359,11 @@ IntlGuardToDisplayNames
 \
 _
 (
+IntlGuardToDurationFormat
+)
+\
+_
+(
 IntlGuardToListFormat
 )
 \

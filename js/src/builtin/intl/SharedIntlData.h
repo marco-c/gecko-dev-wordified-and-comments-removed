@@ -598,6 +598,7 @@ SupportedLocaleKind
 Collator
 DateTimeFormat
 DisplayNames
+DurationFormat
 ListFormat
 NumberFormat
 PluralRules
