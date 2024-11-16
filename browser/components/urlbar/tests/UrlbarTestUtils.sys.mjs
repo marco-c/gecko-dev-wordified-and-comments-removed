@@ -7839,6 +7839,7 @@ changed
 "
 )
 ;
+await
 this
 .
 assertSearchMode
