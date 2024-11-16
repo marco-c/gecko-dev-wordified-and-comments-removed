@@ -1348,6 +1348,12 @@ GetDefaultOrientationType
 (
 )
 ;
+static
+float
+GetDefaultPixelDensity
+(
+)
+;
 private
 :
 nsresult

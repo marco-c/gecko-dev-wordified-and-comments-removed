@@ -205,7 +205,7 @@ resolution
 "
 null
 "
-96dpi
+192dpi
 "
 ]
 [
@@ -237,7 +237,7 @@ dppx
 "
 ]
 "
-1dppx
+2dppx
 "
 ]
 [
@@ -273,7 +273,7 @@ ratio
 window
 .
 devicePixelRatio
-1
+2
 ]
 [
 "

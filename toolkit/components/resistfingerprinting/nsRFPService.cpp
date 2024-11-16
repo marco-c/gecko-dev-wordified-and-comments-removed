@@ -10627,3 +10627,17 @@ Landscape_primary
 #
 endif
 }
+float
+nsRFPService
+:
+:
+GetDefaultPixelDensity
+(
+)
+{
+return
+2
+.
+0f
+;
+}
