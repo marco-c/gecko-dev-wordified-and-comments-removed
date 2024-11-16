@@ -59,11 +59,11 @@ classList
 contains
 (
 "
+tablist
+-
 keyboard
 -
-focused
--
-tab
+focus
 "
 )
 ;
