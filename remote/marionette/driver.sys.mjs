@@ -905,9 +905,9 @@ remote
 /
 content
 /
-marionette
+shared
 /
-browser
+WindowManager
 .
 sys
 .
