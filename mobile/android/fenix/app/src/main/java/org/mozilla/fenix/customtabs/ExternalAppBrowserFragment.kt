@@ -1625,6 +1625,11 @@ External
 customTabSessionId
 =
 customTabSessionId
+isSandboxCustomTab
+=
+args
+.
+isSandboxCustomTab
 )
 )
 }

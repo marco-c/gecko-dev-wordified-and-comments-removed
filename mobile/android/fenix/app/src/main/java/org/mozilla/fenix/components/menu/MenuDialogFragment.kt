@@ -2912,6 +2912,11 @@ true
 isDesktopMode
 =
 isDesktopMode
+isSandboxCustomTab
+=
+args
+.
+isSandboxCustomTab
 customTabMenuItems
 =
 customTab

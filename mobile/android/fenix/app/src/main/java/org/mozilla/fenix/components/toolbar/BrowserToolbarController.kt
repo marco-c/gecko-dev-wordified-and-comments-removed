@@ -662,6 +662,11 @@ String
 ?
 =
 null
+isSandboxCustomTab
+:
+Boolean
+=
+false
 )
 }
 Suppress
@@ -1589,6 +1594,9 @@ customTabSessionId
 :
 String
 ?
+isSandboxCustomTab
+:
+Boolean
 )
 {
 navController
@@ -1605,6 +1613,9 @@ accessPoint
 customTabSessionId
 =
 customTabSessionId
+isSandboxCustomTab
+=
+isSandboxCustomTab
 )
 )
 }

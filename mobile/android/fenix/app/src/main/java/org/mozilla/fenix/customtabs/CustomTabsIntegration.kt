@@ -737,6 +737,9 @@ External
 customTabSessionId
 =
 sessionId
+isSandboxCustomTab
+=
+isSandboxCustomTab
 )
 }
 shareListener
