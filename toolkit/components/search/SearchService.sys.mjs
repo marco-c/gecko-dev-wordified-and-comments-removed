@@ -6169,8 +6169,7 @@ A
 map
 of
 engine
-display
-names
+identifiers
 to
 SearchEngine
 .
