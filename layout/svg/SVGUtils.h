@@ -1057,6 +1057,15 @@ aUserToOuterSVG
 )
 ;
 static
+void
+UpdateNonScalingStrokeStateBit
+(
+nsIFrame
+*
+aFrame
+)
+;
+static
 gfxRect
 PathExtentsToMaxStrokeExtents
 (
