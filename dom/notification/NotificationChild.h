@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+WeakPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 notification
@@ -32,6 +41,8 @@ final
 :
 public
 PNotificationChild
+public
+SupportsWeakPtr
 {
 NS_INLINE_DECL_REFCOUNTING
 (
