@@ -17003,7 +17003,7 @@ if
 await
 shellService
 .
-hasMatchingShortcut
+hasPinnableShortcut
 (
 winTaskbar
 .
@@ -17200,7 +17200,7 @@ the
 need
 to
 call
-hasMatchingShortcut
+hasPinnableShortcut
 /
 /
 again

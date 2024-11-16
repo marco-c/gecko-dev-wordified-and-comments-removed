@@ -6042,7 +6042,7 @@ result
 }
 static
 nsresult
-FindMatchingShortcut
+FindPinnableShortcut
 (
 const
 nsAString
@@ -6179,7 +6179,7 @@ NS_ERROR_FILE_NOT_FOUND
 }
 static
 bool
-HasMatchingShortcutImpl
+HasPinnableShortcutImpl
 (
 const
 nsAString
@@ -6200,7 +6200,7 @@ shortcutPath
 nsresult
 rv
 =
-FindMatchingShortcut
+FindPinnableShortcut
 (
 aAppUserModelId
 aShortcutSubstring
@@ -6228,7 +6228,7 @@ NS_IMETHODIMP
 nsWindowsShellService
 :
 :
-HasMatchingShortcut
+HasPinnableShortcut
 (
 const
 nsAString
@@ -6326,7 +6326,7 @@ Promise
 >
 (
 "
-HasMatchingShortcut
+HasPinnableShortcut
 promise
 "
 promise
@@ -6337,7 +6337,7 @@ NS_DispatchBackgroundTask
 NS_NewRunnableFunction
 (
 "
-HasMatchingShortcut
+HasPinnableShortcut
 "
 [
 aAppUserModelId
@@ -6391,7 +6391,7 @@ MOZ_APP_DISPLAYNAME
 ;
 rv
 =
-HasMatchingShortcutImpl
+HasPinnableShortcutImpl
 (
 aAppUserModelId
 aPrivateBrowsing
@@ -6408,7 +6408,7 @@ NS_DispatchToMainThread
 NS_NewRunnableFunction
 (
 "
-HasMatchingShortcut
+HasPinnableShortcut
 callback
 "
 [
@@ -8412,7 +8412,7 @@ shortcutPath
 nsresult
 rv
 =
-FindMatchingShortcut
+FindPinnableShortcut
 (
 aAppUserModelId
 aShortcutSubstring
