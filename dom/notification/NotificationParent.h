@@ -253,6 +253,11 @@ mOptions
 nsString
 mAlertName
 ;
+bool
+mDangling
+=
+false
+;
 }
 ;
 }
