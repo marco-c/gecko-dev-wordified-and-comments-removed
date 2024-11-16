@@ -71,6 +71,11 @@ notification
 =
 [
 "
+IPCUtils
+.
+h
+"
+"
 NotificationChild
 .
 h
