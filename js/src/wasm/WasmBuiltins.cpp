@@ -1842,14 +1842,13 @@ SymbolicAddress
 ArrayInitData
 _VOID
 _FailOnNegI32
-7
+6
 {
 _PTR
 _RoN
 _I32
 _I32
 _I32
-_PTR
 _I32
 _END
 }
@@ -8974,7 +8973,7 @@ ArrayInitData
 *
 abiType
 =
-Args_Int32_GeneralGeneralInt32Int32Int32GeneralInt32
+Args_Int32_GeneralGeneralInt32Int32Int32Int32
 ;
 MOZ_ASSERT
 (

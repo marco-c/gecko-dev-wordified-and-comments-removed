@@ -39219,7 +39219,7 @@ emitArrayInitData
 )
 {
 uint32_t
-typeIndex
+unusedTypeIndex
 segIndex
 ;
 Nothing
@@ -39233,7 +39233,7 @@ iter_
 readArrayInitData
 (
 &
-typeIndex
+unusedTypeIndex
 &
 segIndex
 &
@@ -39260,14 +39260,6 @@ return
 true
 ;
 }
-pushPtr
-(
-loadTypeDefInstanceData
-(
-typeIndex
-)
-)
-;
 pushI32
 (
 int32_t
