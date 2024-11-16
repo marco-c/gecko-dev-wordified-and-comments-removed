@@ -1828,6 +1828,13 @@ mIsHDCP22Compatible
 =
 false
 ;
+info
+-
+>
+mIsHardwareDecryption
+=
+false
+;
 }
 promise
 -
