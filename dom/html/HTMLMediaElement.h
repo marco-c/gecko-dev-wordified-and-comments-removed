@@ -3359,11 +3359,14 @@ Error
 uint16_t
 aErrorCode
 const
-nsACString
+Maybe
+<
+MediaResult
+>
 &
-aErrorDetails
+aResult
 =
-nsCString
+Nothing
 (
 )
 )
