@@ -679,6 +679,14 @@ yaml
 "
     
 "
+widget
+/
+metrics
+.
+yaml
+"
+    
+"
 xpcom
 /
 metrics
@@ -1120,14 +1128,6 @@ yaml
 widget
 /
 gtk
-/
-metrics
-.
-yaml
-"
-    
-"
-widget
 /
 metrics
 .
