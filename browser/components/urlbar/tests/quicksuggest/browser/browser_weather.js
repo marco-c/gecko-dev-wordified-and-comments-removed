@@ -35,6 +35,16 @@ prefs
 [
 [
 "
+suggest
+.
+quicksuggest
+.
+sponsored
+"
+true
+]
+[
+"
 weather
 .
 featureGate
