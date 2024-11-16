@@ -10042,6 +10042,14 @@ gfx
 .
 "
 "
+identity
+.
+fxaccounts
+.
+toolbar
+.
+"
+"
 intl
 .
 "
