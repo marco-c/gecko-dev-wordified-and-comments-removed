@@ -96,13 +96,6 @@ nsISupports
 .
 idl
 "
-#
-include
-"
-nsILoadInfo
-.
-idl
-"
 interface
 nsIURI
 ;
@@ -365,8 +358,8 @@ place
 *
 /
 attribute
-nsILoadInfo_SchemelessInputType
-schemelessInput
+boolean
+wasSchemelessInput
 ;
 /
 *

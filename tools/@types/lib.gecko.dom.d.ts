@@ -5365,10 +5365,10 @@ triggeringWindowId
 :
 number
 ;
-schemelessInput
+wasSchemelessInput
 ?
 :
-SchemelessInputType
+boolean
 ;
 }
 interface

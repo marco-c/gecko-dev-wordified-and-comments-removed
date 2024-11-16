@@ -14579,15 +14579,9 @@ if
 aLoadInfo
 -
 >
-GetSchemelessInput
+GetWasSchemelessInput
 (
 )
-=
-=
-nsILoadInfo
-:
-:
-SchemelessInputTypeSchemeless
 )
 {
 aLoadInfo

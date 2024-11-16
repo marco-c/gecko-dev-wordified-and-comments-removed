@@ -26959,12 +26959,9 @@ nsIInputStream
 *
 *
 aNewPostData
-nsILoadInfo
-:
-:
-SchemelessInputType
+bool
 *
-outSchemelessInput
+outWasSchemelessInput
 )
 {
 if
@@ -27297,9 +27294,9 @@ newURI
 info
 -
 >
-GetSchemelessInput
+GetWasSchemelessInput
 (
-outSchemelessInput
+outWasSchemelessInput
 )
 ;
 if
