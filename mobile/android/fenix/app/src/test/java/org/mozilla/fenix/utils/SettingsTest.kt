@@ -4196,6 +4196,7 @@ Context
 .
 shouldAddNavigationBar
 (
+true
 )
 }
 returns
@@ -4280,6 +4281,7 @@ Context
 .
 shouldAddNavigationBar
 (
+true
 )
 }
 returns
@@ -4367,6 +4369,7 @@ Context
 .
 shouldAddNavigationBar
 (
+true
 )
 }
 returns
@@ -4454,6 +4457,7 @@ Context
 .
 shouldAddNavigationBar
 (
+true
 )
 }
 returns
@@ -4539,6 +4543,7 @@ Context
 .
 shouldAddNavigationBar
 (
+true
 )
 }
 returns
@@ -4624,6 +4629,7 @@ Context
 .
 shouldAddNavigationBar
 (
+true
 )
 }
 returns
@@ -4709,6 +4715,7 @@ Context
 .
 shouldAddNavigationBar
 (
+true
 )
 }
 returns

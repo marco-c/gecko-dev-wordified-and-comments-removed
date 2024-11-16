@@ -3663,6 +3663,16 @@ initializeMicrosurveyPrompt
 )
 }
 )
+context
+?
+.
+shouldAddNavigationBar
+(
+)
+?
+.
+let
+{
 toolbarView
 ?
 .
@@ -3675,7 +3685,9 @@ core
 store
 .
 state
+it
 )
+}
 }
 /
 /

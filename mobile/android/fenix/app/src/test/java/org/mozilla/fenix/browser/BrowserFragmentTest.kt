@@ -3616,6 +3616,9 @@ false
 feltPrivateBrowsingEnabled
 =
 false
+isWindowSizeSmall
+=
+true
 )
 verify
 (
@@ -3730,6 +3733,9 @@ isPrivate
 =
 false
 feltPrivateBrowsingEnabled
+=
+false
+isWindowSizeSmall
 =
 false
 )
@@ -3847,6 +3853,9 @@ false
 feltPrivateBrowsingEnabled
 =
 false
+isWindowSizeSmall
+=
+true
 )
 verify
 (
@@ -3961,6 +3970,9 @@ isPrivate
 =
 false
 feltPrivateBrowsingEnabled
+=
+false
+isWindowSizeSmall
 =
 false
 )
@@ -4086,6 +4098,9 @@ false
 feltPrivateBrowsingEnabled
 =
 false
+isWindowSizeSmall
+=
+false
 )
 verifyOrder
 {
@@ -4184,6 +4199,9 @@ isTablet
 feltPrivateBrowsingEnabled
 =
 false
+isWindowSizeSmall
+=
+true
 )
 verify
 (
@@ -4277,6 +4295,9 @@ isTablet
 =
 isTablet
 feltPrivateBrowsingEnabled
+=
+false
+isWindowSizeSmall
 =
 false
 )
