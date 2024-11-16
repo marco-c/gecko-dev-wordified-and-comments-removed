@@ -1952,6 +1952,15 @@ dll
 "
 ALL_VERSIONS
 )
+DllBlocklistEntry
+(
+"
+WRusr
+.
+dll
+"
+ALL_VERSIONS
+)
 ]
 UTILITY_PROCESSES_TESTS
 +
