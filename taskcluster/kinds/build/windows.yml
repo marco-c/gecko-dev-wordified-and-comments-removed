@@ -7245,11 +7245,7 @@ use
 -
 pgo
 :
-win64
--
-shippable
-/
-opt
+true
 index
 :
 product
