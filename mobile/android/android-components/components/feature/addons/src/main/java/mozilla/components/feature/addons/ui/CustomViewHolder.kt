@@ -261,7 +261,11 @@ allowedInPrivateBrowsingLabel
 :
 ImageView
 val
-statusErrorView
+messageBarWarningView
+:
+View
+val
+messageBarErrorView
 :
 View
 )
