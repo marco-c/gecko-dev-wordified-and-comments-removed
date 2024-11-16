@@ -24,6 +24,11 @@ compositor
 compositor
 "
 ]
+resolver
+=
+"
+2
+"
 [
 workspace
 .
