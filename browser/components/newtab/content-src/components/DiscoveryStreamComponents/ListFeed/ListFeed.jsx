@@ -1066,6 +1066,13 @@ isFakespot
 {
 isFakespot
 }
+category
+=
+{
+rec
+.
+category
+}
 /
 >
 )
