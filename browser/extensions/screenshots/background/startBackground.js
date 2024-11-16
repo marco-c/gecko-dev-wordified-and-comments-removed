@@ -272,13 +272,6 @@ js
 "
 background
 /
-analytics
-.
-js
-"
-"
-background
-/
 deviceInfo
 .
 js
