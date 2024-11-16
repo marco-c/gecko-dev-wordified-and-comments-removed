@@ -271,6 +271,11 @@ partialCodeBytesUsed
 =
 0
 ;
+int64_t
+inliningBudget
+=
+0
+;
 WASM_CHECK_CACHEABLE_POD
 (
 completeNumFuncs
@@ -284,6 +289,7 @@ partialBCInlinedSizeCallRef
 partialInlineBudgetOverruns
 partialCodeBytesMapped
 partialCodeBytesUsed
+inliningBudget
 )
 ;
 }
