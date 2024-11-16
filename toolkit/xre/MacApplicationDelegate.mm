@@ -588,7 +588,7 @@ windowsMenu
 =
 [
 [
-NSMenu
+GeckoNSMenu
 alloc
 ]
 initWithTitle
@@ -736,7 +736,7 @@ menu
 [
 [
 [
-NSMenu
+GeckoNSMenu
 alloc
 ]
 initWithTitle
