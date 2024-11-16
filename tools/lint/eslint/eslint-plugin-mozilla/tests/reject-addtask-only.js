@@ -59,6 +59,8 @@ function
 invalidError
 (
 output
+startColumn
+endColumn
 )
 {
 return
@@ -69,11 +71,16 @@ messageId
 "
 addTaskNotAllowed
 "
-type
+column
 :
-"
-CallExpression
-"
+startColumn
+endColumn
+line
+:
+1
+endLine
+:
+1
 suggestions
 :
 [
@@ -181,6 +188,8 @@ foo
 )
 )
 "
+16
+23
 )
 }
 {
@@ -213,6 +222,8 @@ foo
 )
 )
 "
+16
+28
 )
 }
 {
@@ -246,6 +257,8 @@ function
 }
 )
 "
+24
+31
 )
 }
 {
@@ -282,6 +295,8 @@ function
 }
 )
 "
+24
+36
 )
 }
 ]
