@@ -93,7 +93,7 @@ mElement
 ;
 }
 void
-ResetToURIFragmentID
+ResetToURIWithFragmentID
 (
 nsIContent
 *
@@ -115,7 +115,7 @@ false
 )
 ;
 void
-ResetWithLocalRef
+ResetToLocalFragmentID
 (
 Element
 &
@@ -131,7 +131,7 @@ true
 )
 ;
 void
-ResetWithID
+ResetToID
 (
 Element
 &

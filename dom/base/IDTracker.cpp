@@ -262,7 +262,7 @@ void
 IDTracker
 :
 :
-ResetToURIFragmentID
+ResetToURIWithFragmentID
 (
 nsIContent
 *
@@ -283,7 +283,7 @@ MOZ_ASSERT
 (
 aFromContent
 "
-ResetToURIFragmentID
+ResetToURIWithFragmentID
 (
 )
 expects
@@ -569,7 +569,7 @@ void
 IDTracker
 :
 :
-ResetWithLocalRef
+ResetToLocalFragmentID
 (
 Element
 &
@@ -695,7 +695,7 @@ NS_Atomize
 unescaped
 )
 ;
-ResetWithID
+ResetToID
 (
 aFrom
 idAtom
@@ -707,7 +707,7 @@ void
 IDTracker
 :
 :
-ResetWithID
+ResetToID
 (
 Element
 &

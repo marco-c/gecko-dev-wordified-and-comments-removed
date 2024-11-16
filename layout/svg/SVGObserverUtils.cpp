@@ -1719,7 +1719,7 @@ GetReferrerInfo
 }
 mObservedElementTracker
 .
-ResetToURIFragmentID
+ResetToURIWithFragmentID
 (
 aObservingContent
 uri

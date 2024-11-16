@@ -1709,7 +1709,7 @@ aHrefStr
 {
 mHrefTarget
 .
-ResetWithLocalRef
+ResetToLocalFragmentID
 (
 *
 this

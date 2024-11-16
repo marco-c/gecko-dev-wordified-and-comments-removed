@@ -2778,7 +2778,7 @@ href
 {
 mReferencedElementTracker
 .
-ResetWithLocalRef
+ResetToLocalFragmentID
 (
 *
 treeToWatch
@@ -2872,7 +2872,7 @@ ReferrerInfoForInternalCSSAndSVGResources
 ;
 mReferencedElementTracker
 .
-ResetToURIFragmentID
+ResetToURIWithFragmentID
 (
 treeToWatch
 targetURI
