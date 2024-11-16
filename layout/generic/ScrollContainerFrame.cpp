@@ -6784,10 +6784,7 @@ aWM
 )
 ;
 return
-std
-:
-:
-clamp
+CSSMinMax
 (
 border
 .
