@@ -727,6 +727,8 @@ integration
 initOpenInAction
 (
 testContext
+0
+0
 )
 assertNotNull
 (
@@ -1416,6 +1418,12 @@ integration
 .
 initOpenInAction
 (
+any
+(
+)
+any
+(
+)
 any
 (
 )

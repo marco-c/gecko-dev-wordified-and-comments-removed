@@ -1628,6 +1628,11 @@ customTabSessionId
 )
 )
 }
+isSandboxCustomTab
+=
+args
+.
+isSandboxCustomTab
 backgroundColor
 =
 background
