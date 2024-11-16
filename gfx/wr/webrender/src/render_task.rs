@@ -111,7 +111,10 @@ crate
 frame_builder
 :
 :
+{
 FrameBuilderConfig
+FrameBuildingState
+}
 ;
 use
 crate
@@ -3293,7 +3296,6 @@ surface_builder
 mut
 |
 rg_builder
-_
 _
 |
 {
@@ -7669,16 +7671,11 @@ FilterGraphNode
 FilterGraphOp
 )
 ]
-rg_builder
+frame_state
 :
 &
 mut
-RenderTaskGraphBuilder
-gpu_cache
-:
-&
-mut
-GpuCache
+FrameBuildingState
 data_stores
 :
 &
@@ -11455,6 +11452,8 @@ render_to_device_scale
 let
 input_subregion_task_id
 =
+frame_state
+.
 rg_builder
 .
 add
@@ -11540,6 +11539,8 @@ Rect
 )
 )
 ;
+frame_state
+.
 rg_builder
 .
 add_dependency
@@ -11558,6 +11559,8 @@ new_blur
 (
 adjusted_blur_std_deviation
 input_subregion_task_id
+frame_state
+.
 rg_builder
 RenderTargetKind
 :
@@ -11573,6 +11576,8 @@ to_i32
 ;
 task_id
 =
+frame_state
+.
 rg_builder
 .
 add
@@ -11681,6 +11686,8 @@ node_uv_rect_kind
 )
 )
 ;
+frame_state
+.
 rg_builder
 .
 add_dependency
@@ -11956,6 +11963,8 @@ render_to_device_scale
 let
 input_subregion_task_id
 =
+frame_state
+.
 rg_builder
 .
 add
@@ -12075,6 +12084,8 @@ Rect
 )
 )
 ;
+frame_state
+.
 rg_builder
 .
 add_dependency
@@ -12093,6 +12104,8 @@ new_blur
 (
 adjusted_blur_std_deviation
 input_subregion_task_id
+frame_state
+.
 rg_builder
 RenderTargetKind
 :
@@ -12125,6 +12138,8 @@ dy
 ;
 task_id
 =
+frame_state
+.
 rg_builder
 .
 add
@@ -12258,6 +12273,8 @@ node_uv_rect_kind
 )
 )
 ;
+frame_state
+.
 rg_builder
 .
 add_dependency
@@ -12266,6 +12283,8 @@ task_id
 source_task_id
 )
 ;
+frame_state
+.
 rg_builder
 .
 add_dependency
@@ -12289,6 +12308,8 @@ SVGFESourceGraphic
 {
 task_id
 =
+frame_state
+.
 rg_builder
 .
 add
@@ -12413,6 +12434,8 @@ node_uv_rect_kind
 )
 )
 ;
+frame_state
+.
 rg_builder
 .
 add_dependency
@@ -12455,11 +12478,13 @@ filter_data
 .
 update
 (
-gpu_cache
+frame_state
 )
 ;
 task_id
 =
+frame_state
+.
 rg_builder
 .
 add
@@ -12582,6 +12607,8 @@ RenderTaskId
 :
 INVALID
 {
+frame_state
+.
 rg_builder
 .
 add_dependency
@@ -12600,6 +12627,8 @@ _
 {
 task_id
 =
+frame_state
+.
 rg_builder
 .
 add
@@ -12717,6 +12746,8 @@ RenderTaskId
 :
 INVALID
 {
+frame_state
+.
 rg_builder
 .
 add_dependency
@@ -12759,6 +12790,8 @@ output_task_id
 =
 original_task_id
 {
+frame_state
+.
 rg_builder
 .
 add_dependency

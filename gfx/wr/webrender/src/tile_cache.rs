@@ -2144,7 +2144,6 @@ PictureFlags
 empty
 (
 )
-None
 )
 )
 ;

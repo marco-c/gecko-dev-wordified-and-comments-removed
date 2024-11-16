@@ -1333,7 +1333,6 @@ mut
 |
 rg_builder
 gpu_buffer_builder
-_
 |
 {
 let
