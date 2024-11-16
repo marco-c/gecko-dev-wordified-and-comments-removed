@@ -23545,7 +23545,7 @@ Maybe
 template
 <
 typename
-OrderedHashTable
+TableObject
 >
 void
 orderedHashTableLookup
@@ -23999,7 +23999,7 @@ private
 template
 <
 typename
-OrderedHashTable
+TableObject
 >
 void
 loadOrderedHashTableCount

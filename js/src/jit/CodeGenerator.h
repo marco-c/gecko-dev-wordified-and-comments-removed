@@ -1712,7 +1712,7 @@ template
 class
 IteratorObject
 class
-OrderedHashTable
+TableObject
 >
 void
 emitGetNextEntryForIterator
@@ -1725,7 +1725,7 @@ lir
 template
 <
 class
-OrderedHashTable
+TableObject
 >
 void
 emitLoadIteratorValues
