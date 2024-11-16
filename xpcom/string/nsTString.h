@@ -190,6 +190,7 @@ ClassFlags
 ;
 public
 :
+constexpr
 nsTString
 (
 )
