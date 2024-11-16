@@ -4013,7 +4013,7 @@ getBottomToolbarContainerHeight
 )
 assertEquals
 (
-48
+49
 bottomToolbarContainerHeight
 )
 }
@@ -4559,7 +4559,7 @@ testContext
 )
 assertEquals
 (
-48
+49
 bottomToolbarHeight
 )
 }
