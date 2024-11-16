@@ -288,6 +288,13 @@ not
 disabled
 ]
 )
+:
+not
+(
+[
+hidden
+]
+)
 "
 )
 )
