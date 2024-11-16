@@ -1470,7 +1470,7 @@ EXTRA_RESULTS
 )
 ?
 .
-first
+firstOrNull
 (
 )
 ?

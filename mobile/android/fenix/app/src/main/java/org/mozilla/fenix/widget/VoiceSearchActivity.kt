@@ -306,7 +306,7 @@ EXTRA_RESULTS
 )
 ?
 .
-first
+firstOrNull
 (
 )
 val
