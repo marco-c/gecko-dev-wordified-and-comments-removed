@@ -109,7 +109,7 @@ version
 "
 1
 .
-56
+61
 "
 name
 =
@@ -125,7 +125,7 @@ version
 .
 0
 .
-64
+66
 "
 authors
 =
@@ -142,6 +142,9 @@ com
 "
 ]
 build
+=
+false
+autolib
 =
 false
 autobins
@@ -298,5 +301,5 @@ version
 .
 0
 .
-46
+86
 "

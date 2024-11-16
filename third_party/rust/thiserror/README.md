@@ -370,7 +370,7 @@ requires
 rustc
 1
 .
-56
+61
 +
 *
 <
