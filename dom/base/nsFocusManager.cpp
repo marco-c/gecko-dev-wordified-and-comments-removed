@@ -23169,6 +23169,9 @@ PointerLockManager
 :
 Unlock
 (
+"
+FocusChange
+"
 )
 ;
 }

@@ -16690,6 +16690,12 @@ PointerLockManager
 :
 Unlock
 (
+"
+BrowserChild
+:
+:
+RecvReleasePointerLock
+"
 )
 ;
 return
