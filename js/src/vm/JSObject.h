@@ -4298,7 +4298,7 @@ JSFunction
 ;
 extern
 bool
-GetObjectFromIncumbentGlobal
+GetObjectFromHostDefinedData
 (
 JSContext
 *
