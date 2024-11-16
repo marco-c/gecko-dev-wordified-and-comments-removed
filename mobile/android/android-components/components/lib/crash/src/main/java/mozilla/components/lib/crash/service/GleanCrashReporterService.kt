@@ -4487,15 +4487,6 @@ it
 val
 minidumpHash
 =
-if
-(
-!
-crash
-.
-minidumpSuccess
-)
-null
-else
 crash
 .
 minidumpPath
