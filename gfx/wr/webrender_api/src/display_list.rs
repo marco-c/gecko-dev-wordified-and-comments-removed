@@ -9573,15 +9573,6 @@ di
 :
 :
 StackingContextFlags
-snapshot
-:
-Option
-<
-di
-:
-:
-SnapshotInfo
->
 )
 {
 let
@@ -9622,7 +9613,6 @@ PushStackingContextDisplayItem
 {
 origin
 spatial_id
-snapshot
 prim_flags
 ref_frame_offset
 stacking_context
@@ -9798,7 +9788,6 @@ StackingContextFlags
 empty
 (
 )
-None
 )
 ;
 }
