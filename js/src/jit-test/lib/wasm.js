@@ -436,8 +436,10 @@ not
 fail
 to
 compile
-as
+in
+the
 expected
+way
 "
 )
 ;
