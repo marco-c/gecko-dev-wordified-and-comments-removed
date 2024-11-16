@@ -722,6 +722,11 @@ Initialize
 )
 ;
 void
+RegenerateClientInfo
+(
+)
+;
+void
 CreationFailed
 (
 )
