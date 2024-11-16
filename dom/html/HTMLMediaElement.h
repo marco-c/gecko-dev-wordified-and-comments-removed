@@ -1647,6 +1647,14 @@ IsUsingWMFCDM
 const
 override
 ;
+CDMProxy
+*
+GetCDMProxy
+(
+)
+const
+override
+;
 #
 endif
 bool
