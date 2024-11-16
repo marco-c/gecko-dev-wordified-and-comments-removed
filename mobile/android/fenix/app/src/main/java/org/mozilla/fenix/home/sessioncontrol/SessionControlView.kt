@@ -752,6 +752,14 @@ AdapterItem
 .
 PocketStoriesItem
 )
+if
+(
+!
+settings
+.
+showContentRecommendations
+)
+{
 items
 .
 add
@@ -768,6 +776,7 @@ AdapterItem
 .
 PocketRecommendationsFooterItem
 )
+}
 }
 if
 (
