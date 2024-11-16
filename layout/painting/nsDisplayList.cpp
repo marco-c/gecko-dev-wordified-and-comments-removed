@@ -32724,6 +32724,15 @@ aBuilder
 IsPaintingToWindow
 (
 )
+&
+&
+!
+aBuilder
+-
+>
+IsForGenerateGlyphMask
+(
+)
 )
 {
 return
