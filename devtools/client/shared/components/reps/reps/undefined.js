@@ -20,6 +20,10 @@ span
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -33,6 +37,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -42,6 +48,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -55,6 +65,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -67,6 +79,10 @@ wrapRender
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -82,6 +98,8 @@ reps
 rep
 -
 utils
+.
+js
 "
 )
 ;

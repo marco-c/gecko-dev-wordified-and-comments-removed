@@ -11,6 +11,10 @@ MODE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -24,6 +28,8 @@ reps
 reps
 /
 constants
+.
+js
 "
 )
 ;
@@ -36,6 +42,10 @@ getRep
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -49,6 +59,8 @@ reps
 reps
 /
 rep
+.
+js
 "
 )
 ;
@@ -58,6 +70,10 @@ objectInspector
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -71,6 +87,8 @@ object
 inspector
 /
 index
+.
+js
 "
 )
 ;
@@ -85,6 +103,10 @@ getGripPreviewItems
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -100,6 +122,8 @@ reps
 rep
 -
 utils
+.
+js
 "
 )
 ;

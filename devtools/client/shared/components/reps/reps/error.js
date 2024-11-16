@@ -18,6 +18,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -31,6 +35,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -43,6 +49,10 @@ span
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -56,6 +66,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -67,6 +79,10 @@ wrapRender
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -82,6 +98,8 @@ reps
 rep
 -
 utils
+.
+js
 "
 )
 ;
@@ -93,6 +111,10 @@ cleanFunctionName
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -106,6 +128,8 @@ reps
 reps
 /
 function
+.
+js
 "
 )
 ;
@@ -117,6 +141,10 @@ isLongString
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -130,6 +158,8 @@ reps
 reps
 /
 string
+.
+js
 "
 )
 ;
@@ -141,6 +171,10 @@ MODE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -154,6 +188,8 @@ reps
 reps
 /
 constants
+.
+js
 "
 )
 ;
@@ -364,6 +400,10 @@ Rep
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -377,6 +417,8 @@ reps
 reps
 /
 rep
+.
+js
 "
 )
 ;
@@ -890,6 +932,10 @@ Rep
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -903,6 +949,8 @@ reps
 reps
 /
 rep
+.
+js
 "
 )
 ;
