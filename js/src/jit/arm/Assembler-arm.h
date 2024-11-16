@@ -7507,6 +7507,11 @@ as_csdb
 )
 ;
 BufferOffset
+as_yield
+(
+)
+;
+BufferOffset
 as_bx
 (
 Register
