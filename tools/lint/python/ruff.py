@@ -777,11 +777,13 @@ non_py_files
     
 if
 config
-[
+.
+get
+(
 "
 exclude
 "
-]
+)
 :
         
 args
