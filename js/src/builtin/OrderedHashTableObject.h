@@ -1649,7 +1649,7 @@ numBytes
 MemoryUse
 :
 :
-MapObjectTable
+MapObjectData
 )
 ;
 *
@@ -1931,7 +1931,7 @@ numBytes
 MemoryUse
 :
 :
-MapObjectTable
+MapObjectData
 )
 ;
 }
@@ -3773,7 +3773,7 @@ numBytes
 MemoryUse
 :
 :
-MapObjectTable
+MapObjectData
 )
 ;
 }
@@ -4608,7 +4608,7 @@ numBytes
 MemoryUse
 :
 :
-MapObjectTable
+MapObjectData
 )
 ;
 setHashTable
