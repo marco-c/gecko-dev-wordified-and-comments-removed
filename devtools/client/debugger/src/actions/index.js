@@ -245,9 +245,9 @@ index
 "
 ;
 import
-{
+*
+as
 objectInspector
-}
 from
 "
 devtools
@@ -258,7 +258,9 @@ shared
 /
 components
 /
-reps
+object
+-
+inspector
 /
 index
 "

@@ -125,7 +125,7 @@ function
 )
 {
 const
-reps
+objectInspector
 =
 require
 (
@@ -142,7 +142,9 @@ shared
 /
 components
 /
-reps
+object
+-
+inspector
 /
 index
 .
@@ -153,8 +155,6 @@ js
 return
 createFactory
 (
-reps
-.
 objectInspector
 .
 ObjectInspector
