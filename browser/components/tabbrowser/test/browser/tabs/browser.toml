@@ -1598,6 +1598,13 @@ to
 1536221
 [
 "
+browser_scroll_size_determination
+.
+js
+"
+]
+[
+"
 browser_selectTabAtIndex
 .
 js
