@@ -13119,7 +13119,10 @@ aPriority
 int16_t
 newValue
 =
-clamped
+std
+:
+:
+clamp
 <
 int32_t
 >

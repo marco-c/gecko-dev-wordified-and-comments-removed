@@ -2347,7 +2347,10 @@ aPriority
 {
 mPriority
 =
-clamped
+std
+:
+:
+clamp
 <
 int32_t
 >
