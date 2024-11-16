@@ -1824,6 +1824,7 @@ mut
 |
 rg_builder
 _
+_
 |
 {
 rg_builder
@@ -2565,6 +2566,7 @@ surface_builder
 mut
 |
 rg_builder
+_
 _
 |
 {

@@ -3,9 +3,10 @@ api
 :
 :
 {
+DirtyRect
 ImageDescriptor
 ImageDescriptorFlags
-DirtyRect
+SnapshotImageKey
 }
 ;
 use
@@ -307,6 +308,10 @@ RadialGradientCacheKey
 ConicGradient
 (
 ConicGradientCacheKey
+)
+Snapshot
+(
+SnapshotImageKey
 )
 }
 #
@@ -1041,6 +1046,9 @@ RenderTaskGraphBuilder
 &
 mut
 GpuBufferBuilderF
+&
+mut
+GpuCache
 )
 -
 >
@@ -1067,6 +1075,7 @@ f
 (
 rg_builder
 gpu_buffer_builder
+gpu_cache
 )
 true
 )
@@ -1180,6 +1189,9 @@ RenderTaskGraphBuilder
 &
 mut
 GpuBufferBuilderF
+&
+mut
+GpuCache
 )
 -
 >
@@ -1307,6 +1319,7 @@ f
 (
 rg_builder
 gpu_buffer_builder
+gpu_cache
 )
 ;
 cache_entry
