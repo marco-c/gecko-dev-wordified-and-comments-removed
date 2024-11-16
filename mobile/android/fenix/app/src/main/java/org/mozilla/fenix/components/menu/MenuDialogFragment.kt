@@ -2713,6 +2713,9 @@ accesspoint
 MenuAccessPoint
 .
 Home
+|
+|
+isExtensionsProcessDisabled
 )
 {
 store
