@@ -885,10 +885,6 @@ False
 implicit_vars
 =
 False
-        
-new_version
-=
-None
     
 )
 :
@@ -994,12 +990,6 @@ self
 implicit_vars
 =
 implicit_vars
-        
-self
-.
-new_version
-=
-new_version
         
 self
 .
@@ -8753,10 +8743,6 @@ platform_os
                 
 os_version
 =
-self
-.
-new_version
-or
 platform_os
 [
 "
