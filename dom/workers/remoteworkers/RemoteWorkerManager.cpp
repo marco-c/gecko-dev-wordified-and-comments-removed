@@ -1718,6 +1718,7 @@ MakeAndAddRef
 RemoteWorkerNonLifeCycleOpControllerParent
 >
 (
+aController
 )
 ;
 parentEp
