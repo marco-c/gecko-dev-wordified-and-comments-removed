@@ -3343,7 +3343,10 @@ mBrowsingContext
 nsWeakPtr
 mBrowserChild
 ;
-nsIntRect
+mozilla
+:
+:
+LayoutDeviceIntRect
 mBounds
 ;
 nsCString

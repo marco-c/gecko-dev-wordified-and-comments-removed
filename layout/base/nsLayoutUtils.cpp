@@ -41682,7 +41682,7 @@ return
 false
 ;
 }
-nsIntRect
+LayoutDeviceIntRect
 bounds
 ;
 viewer
@@ -41769,13 +41769,7 @@ height
 }
 aOutSize
 =
-LayoutDeviceIntRect
-:
-:
-FromUnknownRect
-(
 bounds
-)
 .
 Size
 (

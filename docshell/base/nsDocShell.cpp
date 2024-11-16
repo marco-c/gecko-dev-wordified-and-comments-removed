@@ -31291,7 +31291,7 @@ if
 mDocumentViewer
 )
 {
-nsIntRect
+LayoutDeviceIntRect
 bounds
 ;
 mDocumentViewer
@@ -31308,6 +31308,10 @@ mOSHE
 SetViewerBounds
 (
 bounds
+.
+ToUnknownRect
+(
+)
 )
 ;
 }
@@ -32633,7 +32637,7 @@ rootViewParent
 =
 nullptr
 ;
-nsIntRect
+LayoutDeviceIntRect
 newBounds
 (
 0
@@ -33854,6 +33858,10 @@ IsEmpty
 &
 !
 newBounds
+.
+ToUnknownRect
+(
+)
 .
 IsEqualEdges
 (
@@ -35276,7 +35284,7 @@ widget
 NS_ERROR_FAILURE
 )
 ;
-nsIntRect
+LayoutDeviceIntRect
 bounds
 (
 x

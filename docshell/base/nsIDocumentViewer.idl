@@ -176,9 +176,12 @@ nsIWidget
 ref
 ]
 native
-nsIntRectRef
+LayoutDeviceIntRectRef
 (
-nsIntRect
+mozilla
+:
+:
+LayoutDeviceIntRect
 )
 ;
 [
@@ -297,7 +300,7 @@ aParentWidget
 const
 ]
 in
-nsIntRectRef
+LayoutDeviceIntRectRef
 aBounds
 in
 WindowGlobalChildPtr
@@ -1044,7 +1047,7 @@ void
 getBounds
 (
 in
-nsIntRectRef
+LayoutDeviceIntRectRef
 aBounds
 )
 ;
@@ -1058,7 +1061,7 @@ setBounds
 const
 ]
 in
-nsIntRectRef
+LayoutDeviceIntRectRef
 aBounds
 )
 ;
@@ -1099,7 +1102,7 @@ setBoundsWithFlags
 const
 ]
 in
-nsIntRectRef
+LayoutDeviceIntRectRef
 aBounds
 in
 unsigned

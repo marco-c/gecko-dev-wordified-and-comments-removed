@@ -6242,7 +6242,7 @@ mDocViewerPrint
 )
 )
 {
-nsIntRect
+LayoutDeviceIntRect
 bounds
 ;
 viewer
