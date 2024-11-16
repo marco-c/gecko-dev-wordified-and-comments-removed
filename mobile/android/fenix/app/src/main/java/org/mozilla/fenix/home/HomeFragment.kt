@@ -1095,20 +1095,6 @@ appstate
 .
 AppAction
 .
-ContentRecommendationsAction
-import
-org
-.
-mozilla
-.
-fenix
-.
-components
-.
-appstate
-.
-AppAction
-.
 MessagingAction
 import
 org
@@ -2659,7 +2645,7 @@ appStore
 .
 dispatch
 (
-ContentRecommendationsAction
+AppAction
 .
 PocketStoriesCategoriesChange
 (
@@ -2685,7 +2671,7 @@ appStore
 .
 dispatch
 (
-ContentRecommendationsAction
+AppAction
 .
 PocketSponsoredStoriesChange
 (
@@ -2710,7 +2696,7 @@ appStore
 .
 dispatch
 (
-ContentRecommendationsAction
+AppAction
 .
 PocketStoriesClean
 )

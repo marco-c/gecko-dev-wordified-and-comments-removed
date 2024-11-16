@@ -228,8 +228,6 @@ components
 appstate
 .
 AppAction
-.
-ContentRecommendationsAction
 import
 org
 .
@@ -866,7 +864,7 @@ appStore
 .
 dispatch
 (
-ContentRecommendationsAction
+AppAction
 .
 PocketSponsoredStoriesChange
 (

@@ -495,8 +495,6 @@ state
 >
 state
 .
-recommendationState
-.
 pocketStories
 }
 .

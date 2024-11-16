@@ -311,20 +311,6 @@ appstate
 .
 AppAction
 .
-ContentRecommendationsAction
-import
-org
-.
-mozilla
-.
-fenix
-.
-components
-.
-appstate
-.
-AppAction
-.
 MessagingAction
 .
 UpdateMessageToShow
@@ -352,20 +338,6 @@ components
 appstate
 .
 filterOut
-import
-org
-.
-mozilla
-.
-fenix
-.
-components
-.
-appstate
-.
-recommendations
-.
-ContentRecommendationsState
 import
 org
 .
@@ -2356,10 +2328,6 @@ AppStore
 (
 AppState
 (
-recommendationState
-=
-ContentRecommendationsState
-(
 pocketStoriesCategories
 =
 listOf
@@ -2376,7 +2344,6 @@ PocketRecommendedStoriesSelectedCategory
 otherStoriesCategory
 .
 name
-)
 )
 )
 )
@@ -2415,7 +2382,7 @@ appStore
 .
 dispatch
 (
-ContentRecommendationsAction
+AppAction
 .
 SelectPocketStoriesCategory
 (
@@ -2449,8 +2416,6 @@ appStore
 .
 state
 .
-recommendationState
-.
 pocketStoriesCategoriesSelections
 assertEquals
 (
@@ -2480,8 +2445,6 @@ filteredStories
 appStore
 .
 state
-.
-recommendationState
 .
 pocketStories
 )
@@ -2535,10 +2498,6 @@ AppStore
 (
 AppState
 (
-recommendationState
-=
-ContentRecommendationsState
-(
 pocketStoriesCategories
 =
 listOf
@@ -2561,7 +2520,6 @@ PocketRecommendedStoriesSelectedCategory
 anotherStoriesCategory
 .
 name
-)
 )
 )
 )
@@ -2600,7 +2558,7 @@ appStore
 .
 dispatch
 (
-ContentRecommendationsAction
+AppAction
 .
 DeselectPocketStoriesCategory
 (
@@ -2634,8 +2592,6 @@ appStore
 .
 state
 .
-recommendationState
-.
 pocketStoriesCategoriesSelections
 assertEquals
 (
@@ -2666,8 +2622,6 @@ appStore
 .
 state
 .
-recommendationState
-.
 pocketStories
 )
 }
@@ -2690,10 +2644,6 @@ appStore
 AppStore
 (
 AppState
-(
-recommendationState
-=
-ContentRecommendationsState
 (
 pocketStoriesCategories
 =
@@ -2729,12 +2679,11 @@ mockk
 )
 )
 )
-)
 appStore
 .
 dispatch
 (
-ContentRecommendationsAction
+AppAction
 .
 PocketStoriesClean
 )
@@ -2748,8 +2697,6 @@ appStore
 .
 state
 .
-recommendationState
-.
 pocketStoriesCategories
 .
 isEmpty
@@ -2761,8 +2708,6 @@ assertTrue
 appStore
 .
 state
-.
-recommendationState
 .
 pocketStoriesCategoriesSelections
 .
@@ -2776,8 +2721,6 @@ appStore
 .
 state
 .
-recommendationState
-.
 pocketStories
 .
 isEmpty
@@ -2789,8 +2732,6 @@ assertTrue
 appStore
 .
 state
-.
-recommendationState
 .
 pocketSponsoredStories
 .
@@ -2931,7 +2872,7 @@ appStore
 .
 dispatch
 (
-ContentRecommendationsAction
+AppAction
 .
 PocketSponsoredStoriesChange
 (
@@ -2952,8 +2893,6 @@ appStore
 .
 state
 .
-recommendationState
-.
 pocketSponsoredStories
 .
 containsAll
@@ -2971,8 +2910,6 @@ firstFilteredStories
 appStore
 .
 state
-.
-recommendationState
 .
 pocketStories
 )
@@ -3022,7 +2959,7 @@ appStore
 .
 dispatch
 (
-ContentRecommendationsAction
+AppAction
 .
 PocketSponsoredStoriesChange
 (
@@ -3043,8 +2980,6 @@ appStore
 .
 state
 .
-recommendationState
-.
 pocketSponsoredStories
 )
 )
@@ -3054,8 +2989,6 @@ secondFilteredStories
 appStore
 .
 state
-.
-recommendationState
 .
 pocketStories
 )
@@ -3176,10 +3109,6 @@ AppStore
 (
 AppState
 (
-recommendationState
-=
-ContentRecommendationsState
-(
 pocketSponsoredStories
 =
 listOf
@@ -3191,12 +3120,11 @@ story4
 )
 )
 )
-)
 appStore
 .
 dispatch
 (
-ContentRecommendationsAction
+AppAction
 .
 PocketStoriesShown
 (
@@ -3218,8 +3146,6 @@ appStore
 .
 state
 .
-recommendationState
-.
 pocketSponsoredStories
 .
 size
@@ -3230,8 +3156,6 @@ assertEquals
 appStore
 .
 state
-.
-recommendationState
 .
 pocketSponsoredStories
 [
@@ -3251,8 +3175,6 @@ appStore
 .
 state
 .
-recommendationState
-.
 pocketSponsoredStories
 [
 1
@@ -3271,8 +3193,6 @@ appStore
 .
 state
 .
-recommendationState
-.
 pocketSponsoredStories
 [
 2
@@ -3290,8 +3210,6 @@ assertEquals
 appStore
 .
 state
-.
-recommendationState
 .
 pocketSponsoredStories
 [
@@ -3392,7 +3310,7 @@ appStore
 .
 dispatch
 (
-ContentRecommendationsAction
+AppAction
 .
 PocketStoriesCategoriesChange
 (
@@ -3426,8 +3344,6 @@ appStore
 .
 state
 .
-recommendationState
-.
 pocketStoriesCategories
 .
 containsAll
@@ -3445,8 +3361,6 @@ firstFilteredStories
 appStore
 .
 state
-.
-recommendationState
 .
 pocketStories
 )
@@ -3493,7 +3407,7 @@ appStore
 .
 dispatch
 (
-ContentRecommendationsAction
+AppAction
 .
 PocketStoriesCategoriesChange
 (
@@ -3532,8 +3446,6 @@ appStore
 .
 state
 .
-recommendationState
-.
 pocketStoriesCategories
 )
 )
@@ -3543,8 +3455,6 @@ secondFilteredStories
 appStore
 .
 state
-.
-recommendationState
 .
 pocketStories
 )
@@ -3647,7 +3557,7 @@ appStore
 .
 dispatch
 (
-ContentRecommendationsAction
+AppAction
 .
 PocketStoriesCategoriesSelectionsChange
 (
@@ -3689,8 +3599,6 @@ appStore
 .
 state
 .
-recommendationState
-.
 pocketStoriesCategories
 .
 containsAll
@@ -3708,8 +3616,6 @@ appStore
 .
 state
 .
-recommendationState
-.
 pocketStoriesCategoriesSelections
 .
 containsAll
@@ -3726,8 +3632,6 @@ firstFilteredStories
 appStore
 .
 state
-.
-recommendationState
 .
 pocketStories
 )

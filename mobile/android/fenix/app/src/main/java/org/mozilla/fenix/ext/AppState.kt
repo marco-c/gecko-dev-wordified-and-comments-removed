@@ -352,8 +352,6 @@ recommendedStories
 =
 when
 (
-recommendationState
-.
 pocketStoriesCategoriesSelections
 .
 isEmpty
@@ -365,8 +363,6 @@ true
 -
 >
 {
-recommendationState
-.
 pocketStoriesCategories
 .
 find
@@ -408,8 +404,6 @@ false
 val
 oldestSortedCategories
 =
-recommendationState
-.
 pocketStoriesCategoriesSelections
 .
 sortedByDescending
@@ -424,8 +418,6 @@ mapNotNull
 selectedCategory
 -
 >
-recommendationState
-.
 pocketStoriesCategories
 .
 find
@@ -492,8 +484,6 @@ getFilteredSponsoredStories
 (
 stories
 =
-recommendationState
-.
 pocketSponsoredStories
 limit
 =

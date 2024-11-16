@@ -966,8 +966,6 @@ shouldShowRecentSyncedTabs
 (
 )
 recentHistory
-recommendationState
-.
 pocketStories
 firstFrameDrawn
 )

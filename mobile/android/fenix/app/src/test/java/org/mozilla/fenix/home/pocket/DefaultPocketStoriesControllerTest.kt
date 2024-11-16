@@ -286,8 +286,6 @@ components
 appstate
 .
 AppAction
-.
-ContentRecommendationsAction
 import
 org
 .
@@ -300,20 +298,6 @@ components
 appstate
 .
 AppState
-import
-org
-.
-mozilla
-.
-fenix
-.
-components
-.
-appstate
-.
-recommendations
-.
-ContentRecommendationsState
 import
 org
 .
@@ -510,10 +494,6 @@ AppStore
 (
 AppState
 (
-recommendationState
-=
-ContentRecommendationsState
-(
 pocketStoriesCategories
 =
 listOf
@@ -524,7 +504,6 @@ category2
 pocketStoriesCategoriesSelections
 =
 selections
-)
 )
 )
 )
@@ -564,7 +543,7 @@ store
 .
 dispatch
 (
-ContentRecommendationsAction
+AppAction
 .
 SelectPocketStoriesCategory
 (
@@ -580,7 +559,7 @@ store
 .
 dispatch
 (
-ContentRecommendationsAction
+AppAction
 .
 DeselectPocketStoriesCategory
 (
@@ -903,10 +882,6 @@ AppStore
 (
 AppState
 (
-recommendationState
-=
-ContentRecommendationsState
-(
 pocketStoriesCategoriesSelections
 =
 listOf
@@ -919,7 +894,6 @@ category5
 category6
 category7
 oldestSelectedCategory
-)
 )
 )
 )
@@ -960,7 +934,7 @@ store
 .
 dispatch
 (
-ContentRecommendationsAction
+AppAction
 .
 DeselectPocketStoriesCategory
 (
@@ -976,7 +950,7 @@ store
 .
 dispatch
 (
-ContentRecommendationsAction
+AppAction
 .
 SelectPocketStoriesCategory
 (
@@ -1274,10 +1248,6 @@ AppStore
 (
 AppState
 (
-recommendationState
-=
-ContentRecommendationsState
-(
 pocketStoriesCategoriesSelections
 =
 listOf
@@ -1289,7 +1259,6 @@ category4
 category5
 category6
 oldestSelectedCategory
-)
 )
 )
 )
@@ -1329,7 +1298,7 @@ store
 .
 dispatch
 (
-ContentRecommendationsAction
+AppAction
 .
 DeselectPocketStoriesCategory
 (
@@ -1345,7 +1314,7 @@ store
 .
 dispatch
 (
-ContentRecommendationsAction
+AppAction
 .
 SelectPocketStoriesCategory
 (
@@ -1559,7 +1528,7 @@ store
 .
 dispatch
 (
-ContentRecommendationsAction
+AppAction
 .
 PocketStoriesShown
 (
@@ -1762,7 +1731,7 @@ store
 .
 dispatch
 (
-ContentRecommendationsAction
+AppAction
 .
 PocketStoriesShown
 (
@@ -1968,7 +1937,7 @@ store
 .
 dispatch
 (
-ContentRecommendationsAction
+AppAction
 .
 PocketStoriesShown
 (
