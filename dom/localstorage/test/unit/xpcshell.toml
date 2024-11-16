@@ -516,15 +516,6 @@ test_open_and_multiple_preloads
 js
 "
 ]
-skip
--
-if
-=
-[
-"
-true
-"
-]
 [
 "
 test_orderingAfterRemoveAdd
