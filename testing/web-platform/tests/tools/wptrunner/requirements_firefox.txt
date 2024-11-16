@@ -19,9 +19,9 @@ mozdevice
 =
 4
 .
-1
-.
 2
+.
+0
 mozinstall
 =
 =
@@ -51,7 +51,7 @@ mozrunner
 .
 3
 .
-1
+2
 mozversion
 =
 =

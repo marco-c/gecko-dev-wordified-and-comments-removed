@@ -44,6 +44,22 @@ from
 emulator_screen
 import
 EmulatorScreen
+try
+:
+    
+from
+telnetlib
+import
+Telnet
+except
+ImportError
+:
+    
+from
+.
+telnetlib
+import
+Telnet
 class
 ArchContext
 (
@@ -1313,11 +1329,6 @@ self
 .
 telnet
 :
-            
-from
-telnetlib
-import
-Telnet
             
 self
 .

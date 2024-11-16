@@ -15,7 +15,7 @@ PACKAGE_VERSION
 .
 3
 .
-1
+2
 "
 desc
 =
@@ -50,7 +50,7 @@ mozdevice
 =
 4
 .
-0
+2
 .
 0
 <
