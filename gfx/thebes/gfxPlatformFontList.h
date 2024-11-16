@@ -932,6 +932,17 @@ sPlatformFontList
 void
 GetMissingFonts
 (
+nsTArray
+<
+nsCString
+>
+&
+aMissingFonts
+)
+;
+void
+GetMissingFonts
+(
 nsCString
 &
 aMissingFonts
