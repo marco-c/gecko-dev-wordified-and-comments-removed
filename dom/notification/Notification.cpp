@@ -8985,7 +8985,6 @@ notification
 >
 CreateActor
 (
-p
 )
 |
 |
@@ -9253,9 +9252,6 @@ Notification
 :
 CreateActor
 (
-Promise
-*
-aPromise
 )
 {
 mozilla
