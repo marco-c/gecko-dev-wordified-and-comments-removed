@@ -421,6 +421,13 @@ DEFINES
 ACDEFINES
 )
 \
+-
+DTOPOBJDIR
+=
+(
+topobjdir
+)
+\
 (
 srcdir
 )
