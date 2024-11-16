@@ -315,6 +315,11 @@ addView
 (
 this
 )
+toolbarContainerView
+.
+isClickable
+=
+true
 }
 init
 {
