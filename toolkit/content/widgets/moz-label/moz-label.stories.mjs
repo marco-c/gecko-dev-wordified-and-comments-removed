@@ -159,7 +159,7 @@ status
 type
 :
 "
-unstable
+stable
 "
 links
 :

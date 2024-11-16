@@ -152,9 +152,7 @@ parameters
 status
 :
 "
-in
--
-development
+stable
 "
 actions
 :
