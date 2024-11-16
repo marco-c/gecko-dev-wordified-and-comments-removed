@@ -1154,12 +1154,6 @@ processType
 crash
 .
 processType
-val
-minidumpSuccess
-=
-crash
-.
-minidumpSuccess
 return
 "
 NativeCodeCrash
@@ -1170,9 +1164,6 @@ fatal
 processType
 =
 processType
-minidumpSuccess
-=
-minidumpSuccess
 )
 "
 }

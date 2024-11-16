@@ -375,7 +375,6 @@ NativeCodeCrash
 123
 "
 "
-true
 "
 "
 Crash
@@ -870,7 +869,6 @@ dump
 .
 path
 "
-true
 "
 extras
 .
@@ -1484,7 +1482,6 @@ c03e
 .
 ini
 "
-true
 "
 test
 /
@@ -1756,7 +1753,6 @@ test
 .
 dmp
 "
-true
 "
 test
 /
@@ -2030,7 +2026,6 @@ c03e
 .
 dmp
 "
-true
 "
 test
 /
@@ -2333,7 +2328,6 @@ dump
 .
 path
 "
-true
 "
 extras
 .
@@ -2919,7 +2913,6 @@ dump
 .
 path
 "
-true
 "
 extras
 .
@@ -4065,7 +4058,6 @@ NativeCodeCrash
 (
 123
 null
-true
 null
 Crash
 .
@@ -5316,7 +5308,6 @@ dump
 .
 path
 "
-true
 "
 extras
 .

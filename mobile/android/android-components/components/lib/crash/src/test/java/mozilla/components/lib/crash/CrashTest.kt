@@ -195,7 +195,6 @@ fc65c081d304
 .
 dmp
 "
-true
 "
 /
 data
@@ -290,13 +289,6 @@ recoveredCrash
 .
 timestamp
 123
-)
-assertEquals
-(
-recoveredCrash
-.
-minidumpSuccess
-true
 )
 assertEquals
 (
@@ -646,7 +638,6 @@ NativeCodeCrash
 0
 "
 "
-true
 "
 "
 "

@@ -276,9 +276,6 @@ minidumpPath
 =
 "
 "
-minidumpSuccess
-=
-true
 extrasPath
 =
 "
@@ -445,9 +442,6 @@ minidumpPath
 =
 "
 "
-minidumpSuccess
-=
-true
 extrasPath
 =
 "
@@ -614,9 +608,6 @@ minidumpPath
 =
 "
 "
-minidumpSuccess
-=
-true
 extrasPath
 =
 "

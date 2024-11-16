@@ -692,7 +692,6 @@ NativeCodeCrash
 0
 "
 "
-true
 "
 "
 Crash
@@ -720,7 +719,6 @@ NativeCodeCrash
 0
 "
 "
-true
 "
 "
 Crash
@@ -750,7 +748,6 @@ NativeCodeCrash
 0
 "
 "
-true
 "
 "
 Crash
@@ -1219,7 +1216,6 @@ NativeCodeCrash
 0
 "
 "
-true
 "
 "
 Crash
@@ -1246,7 +1242,6 @@ NativeCodeCrash
 0
 "
 "
-true
 "
 "
 Crash
@@ -1275,7 +1270,6 @@ NativeCodeCrash
 0
 "
 "
-true
 "
 "
 Crash
@@ -1302,7 +1296,6 @@ NativeCodeCrash
 0
 "
 "
-true
 "
 "
 Crash
@@ -2321,7 +2314,6 @@ NativeCodeCrash
 12340000
 "
 "
-true
 "
 "
 Crash
@@ -2587,7 +2579,6 @@ NativeCodeCrash
 (
 12340000
 null
-true
 null
 Crash
 .
@@ -3851,7 +3842,6 @@ NativeCodeCrash
 12340000
 "
 "
-true
 extrasFile
 .
 path

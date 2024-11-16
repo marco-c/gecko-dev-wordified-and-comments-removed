@@ -297,15 +297,6 @@ intent
 putExtra
 (
 "
-minidumpSuccess
-"
-true
-)
-intent
-.
-putExtra
-(
-"
 remoteType
 "
 "
@@ -343,13 +334,6 @@ d26ad5af4d86
 crash
 .
 uuid
-)
-assertEquals
-(
-crash
-.
-minidumpSuccess
-true
 )
 assertEquals
 (
@@ -481,7 +465,6 @@ NativeCodeCrash
 "
 minidumpPath
 "
-true
 "
 extrasPath
 "

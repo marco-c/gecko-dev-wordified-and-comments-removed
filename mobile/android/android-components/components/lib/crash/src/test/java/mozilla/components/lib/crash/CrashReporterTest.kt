@@ -1591,7 +1591,6 @@ dump
 .
 path
 "
-true
 "
 extras
 .
@@ -1782,7 +1781,6 @@ dump
 .
 path
 "
-true
 "
 extras
 .
@@ -3345,7 +3343,6 @@ NativeCodeCrash
 0
 "
 "
-true
 "
 "
 Crash
@@ -4064,7 +4061,6 @@ NativeCodeCrash
 0
 "
 "
-true
 "
 "
 Crash
@@ -4267,7 +4263,6 @@ dump
 .
 path
 "
-true
 "
 extras
 .
@@ -4379,13 +4374,6 @@ path
 receivedCrash
 .
 minidumpPath
-)
-assertEquals
-(
-true
-receivedCrash
-.
-minidumpSuccess
 )
 assertEquals
 (
@@ -4529,7 +4517,6 @@ dump
 .
 path
 "
-true
 "
 extras
 .
@@ -4694,7 +4681,6 @@ dump
 .
 path
 "
-true
 "
 extras
 .
@@ -4852,7 +4838,6 @@ dump
 .
 path
 "
-true
 "
 extras
 .
@@ -5022,7 +5007,6 @@ dump
 .
 path
 "
-true
 "
 extras
 .
@@ -5965,9 +5949,6 @@ null
 minidumpPath
 =
 null
-minidumpSuccess
-=
-null
 processType
 =
 null
@@ -6146,9 +6127,6 @@ null
 minidumpPath
 =
 null
-minidumpSuccess
-=
-null
 processType
 =
 null
@@ -6200,9 +6178,6 @@ throwableData
 =
 null
 minidumpPath
-=
-null
-minidumpSuccess
 =
 null
 processType
@@ -6383,9 +6358,6 @@ null
 minidumpPath
 =
 null
-minidumpSuccess
-=
-null
 processType
 =
 null
@@ -6437,9 +6409,6 @@ throwableData
 =
 null
 minidumpPath
-=
-null
-minidumpSuccess
 =
 null
 processType
@@ -6597,9 +6566,6 @@ throwableData
 =
 null
 minidumpPath
-=
-null
-minidumpSuccess
 =
 null
 processType

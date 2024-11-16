@@ -515,9 +515,6 @@ minidumpPath
 =
 "
 "
-minidumpSuccess
-=
-true
 extrasPath
 =
 "
@@ -644,9 +641,6 @@ minidumpPath
 =
 "
 "
-minidumpSuccess
-=
-true
 extrasPath
 =
 "
@@ -773,9 +767,6 @@ minidumpPath
 =
 "
 "
-minidumpSuccess
-=
-true
 extrasPath
 =
 "
@@ -902,9 +893,6 @@ minidumpPath
 =
 "
 "
-minidumpSuccess
-=
-true
 extrasPath
 =
 "
@@ -1037,9 +1025,6 @@ minidumpPath
 =
 "
 "
-minidumpSuccess
-=
-true
 extrasPath
 =
 "
@@ -1086,13 +1071,6 @@ processType
 nativeCrash
 .
 processType
-}
-minidumpSuccess
-=
-{
-nativeCrash
-.
-minidumpSuccess
 }
 )
 "
