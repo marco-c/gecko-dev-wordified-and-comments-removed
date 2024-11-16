@@ -3890,6 +3890,7 @@ engines
 =
 "
 gecko
+servo
 "
 spec
 =
@@ -3927,6 +3928,13 @@ css
 zoom
 .
 enabled
+"
+servo_pref
+=
+"
+layout
+.
+unimplemented
 "
 affects
 =

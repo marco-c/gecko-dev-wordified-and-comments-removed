@@ -868,10 +868,14 @@ preserve
 preserve
 -
 breaks
-preserve
+break
 -
 spaces
-break
+"
+extra_gecko_values
+=
+"
+preserve
 -
 spaces
 "
@@ -879,6 +883,7 @@ engines
 =
 "
 gecko
+servo
 "
 gecko_enum_prefix
 =
@@ -917,6 +922,11 @@ white
 space
 -
 collapse
+"
+servo_restyle_damage
+=
+"
+rebuild_and_reflow
 "
 affects
 =
@@ -2381,6 +2391,7 @@ engines
 =
 "
 gecko
+servo
 "
 gecko_enum_prefix
 =
@@ -2419,6 +2430,11 @@ text
 wrap
 -
 mode
+"
+servo_restyle_damage
+=
+"
+rebuild_and_reflow
 "
 affects
 =
