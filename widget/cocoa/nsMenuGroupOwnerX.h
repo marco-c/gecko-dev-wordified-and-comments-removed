@@ -235,6 +235,12 @@ nsIContent
 aContent
 )
 ;
+void
+InstallOrUninstallRootMutationObserver
+(
+)
+;
+const
 RefPtr
 <
 nsIContent
@@ -279,6 +285,11 @@ WeakPtr
 nsMenuBarX
 >
 mMenuBar
+;
+bool
+mObservingMutationsOnRoot
+=
+false
 ;
 }
 ;
