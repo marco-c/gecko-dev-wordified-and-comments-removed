@@ -539,7 +539,7 @@ moveParagraphBackwardAndModifySelection
 Command
 :
 :
-SelectBeginParagraph
+SelectBeginLine
 )
 ;
 SEL_TO_COMMAND
@@ -549,7 +549,7 @@ moveParagraphForwardAndModifySelection
 Command
 :
 :
-SelectEndParagraph
+SelectEndLine
 )
 ;
 SEL_TO_COMMAND
@@ -619,7 +619,7 @@ moveToBeginningOfParagraph
 Command
 :
 :
-BeginParagraph
+BeginLine
 )
 ;
 SEL_TO_COMMAND
@@ -629,7 +629,7 @@ moveToBeginningOfParagraphAndModifySelection
 Command
 :
 :
-SelectBeginParagraph
+SelectBeginLine
 )
 ;
 SEL_TO_COMMAND
@@ -679,7 +679,7 @@ moveToEndOfParagraph
 Command
 :
 :
-EndParagraph
+EndLine
 )
 ;
 SEL_TO_COMMAND
@@ -689,7 +689,7 @@ moveToEndOfParagraphAndModifySelection
 Command
 :
 :
-SelectEndParagraph
+SelectEndLine
 )
 ;
 SEL_TO_COMMAND
