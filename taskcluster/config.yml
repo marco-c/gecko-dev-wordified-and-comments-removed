@@ -85,14 +85,6 @@ group
 names
 :
 '
-cram
-'
-:
-'
-Cram
-tests
-'
-'
 js
 -
 bench

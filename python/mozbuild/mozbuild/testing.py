@@ -135,21 +135,6 @@ python
 False
 )
     
-CRAMTEST
-=
-(
-"
-cram
-"
-"
-cram
-"
-"
-.
-"
-False
-)
-    
 TELEMETRY_TESTS_CLIENT
 =
 (

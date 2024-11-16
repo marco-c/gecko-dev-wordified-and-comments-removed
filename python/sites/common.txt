@@ -229,13 +229,6 @@ third_party
 /
 python
 /
-cram
-vendored
-:
-third_party
-/
-python
-/
 diskcache
 vendored
 :
