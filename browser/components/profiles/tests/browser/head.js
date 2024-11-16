@@ -449,7 +449,6 @@ gProfileService
 ;
 registerCleanupFunction
 (
-async
 (
 )
 =
@@ -462,7 +461,6 @@ overrideDirectoryService
 null
 )
 ;
-await
 SelectableProfileService
 .
 resetProfileService
