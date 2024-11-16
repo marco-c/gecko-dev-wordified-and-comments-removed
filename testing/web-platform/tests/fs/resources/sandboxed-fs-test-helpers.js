@@ -65,11 +65,6 @@ directory
 )
 )
 ;
-if
-(
-ignoreRejections
-)
-{
 await
 Promise
 .
@@ -78,18 +73,6 @@ allSettled
 remove_entry_promises
 )
 ;
-}
-else
-{
-await
-Promise
-.
-all
-(
-remove_entry_promises
-)
-;
-}
 }
 function
 directory_test
@@ -121,7 +104,6 @@ await
 cleanupDirectory
 (
 dir
-false
 )
 ;
 t
@@ -138,7 +120,6 @@ await
 cleanupDirectory
 (
 dir
-true
 )
 ;
 }
