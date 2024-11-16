@@ -8038,6 +8038,8 @@ const
 nsCString
 &
 aMIMEType
+bool
+aIsSandboxed
 )
 ;
 static

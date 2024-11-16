@@ -55006,6 +55006,8 @@ const
 nsCString
 &
 aMIMEType
+bool
+aIsSandboxed
 )
 {
 if
@@ -55048,11 +55050,7 @@ aMIMEType
 .
 LowerCaseEqualsLiteral
 (
-"
-application
-/
-pdf
-"
+APPLICATION_PDF
 )
 &
 &
@@ -55062,6 +55060,13 @@ IsPDFJSEnabled
 )
 {
 return
+aIsSandboxed
+?
+nsIObjectLoadingContent
+:
+:
+TYPE_FALLBACK
+:
 nsIObjectLoadingContent
 :
 :
