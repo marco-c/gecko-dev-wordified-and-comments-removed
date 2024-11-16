@@ -36,11 +36,6 @@ test_document_cookie_notification
 html
 "
 ]
-scheme
-=
-"
-https
-"
 [
 "
 test_fetch
