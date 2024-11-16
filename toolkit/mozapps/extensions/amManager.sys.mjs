@@ -1619,9 +1619,6 @@ generateQI
 (
 [
 "
-amIAddonManager
-"
-"
 nsITimerCallback
 "
 "
