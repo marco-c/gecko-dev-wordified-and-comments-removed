@@ -811,6 +811,13 @@ RPMSetTRRDisabledLoadFlags
 *
 "
 ]
+RPMShowOSXLocalNetworkPermissionWarning
+:
+[
+"
+*
+"
+]
 RPMSendQuery
 :
 [
