@@ -1350,17 +1350,9 @@ f
 ;
 const
 float
-a2d
+a2css
 =
-f
--
->
-PresContext
-(
-)
--
->
-AppUnitsPerDevPixel
+AppUnitsPerCSSPixel
 (
 )
 ;
@@ -1372,7 +1364,7 @@ props
 (
 f
 refBox
-a2d
+a2css
 )
 ;
 if
@@ -1418,7 +1410,7 @@ props
 .
 mTransform
 refBox
-a2d
+a2css
 )
 ;
 if
