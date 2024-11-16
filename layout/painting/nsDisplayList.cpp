@@ -27451,6 +27451,14 @@ nsDisplaySubDocument
 ;
 if
 (
+aBuilder
+-
+>
+IsRetainingDisplayList
+(
+)
+&
+&
 mSubDocFrame
 &
 &
