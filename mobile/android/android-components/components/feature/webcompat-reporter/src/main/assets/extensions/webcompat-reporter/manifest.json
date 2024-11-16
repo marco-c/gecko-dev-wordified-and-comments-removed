@@ -51,7 +51,7 @@ version
 "
 2
 .
-2
+3
 .
 0
 "
@@ -295,8 +295,8 @@ default_title
 :
 "
 Report
-Site
-Issue
+broken
+site
 "
 "
 pinned
