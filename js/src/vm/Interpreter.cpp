@@ -2906,6 +2906,15 @@ verifyIsSafeToGC
 ;
 MOZ_ASSERT
 (
+!
+cx
+-
+>
+suppressGC
+)
+;
+MOZ_ASSERT
+(
 cx
 -
 >
