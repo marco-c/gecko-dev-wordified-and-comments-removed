@@ -121,9 +121,9 @@ core
 version
 =
 "
-61
+62
 .
-2
+0
 .
 0
 "
@@ -279,9 +279,9 @@ parser
 "
 15
 .
-0
+2
 .
-1
+0
 "
 [
 lib
@@ -788,13 +788,6 @@ version
 .
 0
 "
-features
-=
-[
-"
-lmdb
-"
-]
 default
 -
 features

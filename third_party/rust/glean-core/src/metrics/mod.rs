@@ -282,6 +282,7 @@ LabeledCounter
 LabeledCustomDistribution
 LabeledMemoryDistribution
 LabeledMetric
+LabeledQuantity
 LabeledString
 LabeledTimingDistribution
 }

@@ -329,6 +329,7 @@ LabeledCustomDistribution
 LabeledMemoryDistribution
 LabeledMetric
 LabeledMetricData
+LabeledQuantity
 LabeledString
 LabeledTimingDistribution
 }
@@ -5317,6 +5318,16 @@ u64
 allow
 (
 missing_docs
+)
+]
+#
+[
+allow
+(
+clippy
+:
+:
+all
 )
 ]
 mod

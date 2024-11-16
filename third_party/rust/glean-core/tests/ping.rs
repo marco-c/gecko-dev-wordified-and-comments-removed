@@ -1733,6 +1733,10 @@ len
 [
 test
 ]
+#
+[
+ignore
+]
 fn
 database_write_timings_get_recorded
 (
