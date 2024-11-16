@@ -560,6 +560,13 @@ selfId
 )
 ;
 async
+QuerySetDrop
+(
+RawId
+selfId
+)
+;
+async
 DeviceDestroy
 (
 RawId
