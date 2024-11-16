@@ -1003,6 +1003,12 @@ tab
 -
 list
 compactRows
+maxTabsLength
+=
+"
+-
+1
+"
 .
 tabItems
 =
