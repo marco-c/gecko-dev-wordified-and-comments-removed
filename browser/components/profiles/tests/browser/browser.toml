@@ -27,6 +27,13 @@ true
 ]
 [
 "
+browser_activate
+.
+js
+"
+]
+[
+"
 browser_create_profile_page_test
 .
 js
