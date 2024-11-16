@@ -2506,14 +2506,12 @@ firstSelectableElement
 =
 this
 .
-#
 getFirstSelectableElement
 (
 )
 ;
 /
 /
-#
 getLastSelectableElement
 will
 not
@@ -2540,7 +2538,6 @@ lastSelectableElement
 =
 this
 .
-#
 getLastSelectableElement
 (
 )
@@ -5458,7 +5455,6 @@ selectElement
 (
 this
 .
-#
 getFirstSelectableElement
 (
 )
@@ -16429,7 +16425,6 @@ selectableElement
 =
 this
 .
-#
 getFirstSelectableElement
 (
 )
@@ -18788,7 +18783,6 @@ view
 .
 *
 /
-#
 getFirstSelectableElement
 (
 )
@@ -18865,7 +18859,6 @@ view
 .
 *
 /
-#
 getLastSelectableElement
 (
 )
