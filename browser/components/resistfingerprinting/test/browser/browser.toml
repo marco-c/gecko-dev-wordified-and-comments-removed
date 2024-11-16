@@ -686,3 +686,10 @@ browser_timezone
 js
 "
 ]
+[
+"
+browser_color_scheme
+.
+js
+"
+]
