@@ -366,11 +366,13 @@ Assert
 .
 equal
 (
+await
+expectNonZeroDownloadTargetSize
+(
 download
 .
 target
-.
-size
+)
 45
 )
 ;
