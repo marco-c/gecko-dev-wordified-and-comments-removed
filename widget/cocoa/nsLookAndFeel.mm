@@ -618,11 +618,6 @@ NSAppearanceForColorScheme
 aScheme
 )
 ;
-nscolor
-color
-=
-0
-;
 switch
 (
 aID
@@ -634,7 +629,7 @@ ColorID
 :
 Infobackground
 :
-color
+aColor
 =
 aScheme
 =
@@ -666,7 +661,7 @@ ColorID
 :
 Highlight
 :
-color
+aColor
 =
 ProcessSelectionBackground
 (
@@ -687,7 +682,7 @@ ColorID
 :
 TextSelectDisabledBackground
 :
-color
+aColor
 =
 ProcessSelectionBackground
 (
@@ -720,7 +715,7 @@ ColorID
 :
 Accentcolor
 :
-color
+aColor
 =
 GetColorFromNSColor
 (
@@ -743,7 +738,7 @@ ColorID
 :
 Selecteditem
 :
-color
+aColor
 =
 GetColorFromNSColor
 (
@@ -776,11 +771,11 @@ PrefersReducedTransparency
 )
 )
 {
-color
+aColor
 =
 NS_ComposeColors
 (
-color
+aColor
 NS_RGBA
 (
 255
@@ -821,7 +816,7 @@ ColorID
 :
 Selecteditemtext
 :
-color
+aColor
 =
 GetColorFromNSColor
 (
@@ -856,7 +851,7 @@ ColorID
 :
 IMEConvertedTextBackground
 :
-color
+aColor
 =
 NS_TRANSPARENT
 ;
@@ -892,7 +887,7 @@ ColorID
 :
 Highlighttext
 :
-color
+aColor
 =
 NS_SAME_AS_FOREGROUND_COLOR
 ;
@@ -910,7 +905,7 @@ ColorID
 :
 IMEConvertedTextUnderline
 :
-color
+aColor
 =
 NS_40PERCENT_FOREGROUND_COLOR
 ;
@@ -928,7 +923,7 @@ ColorID
 :
 IMESelectedConvertedTextUnderline
 :
-color
+aColor
 =
 NS_SAME_AS_FOREGROUND_COLOR
 ;
@@ -940,7 +935,7 @@ ColorID
 :
 MozMacDefaultbuttontext
 :
-color
+aColor
 =
 NS_RGB
 (
@@ -957,7 +952,7 @@ ColorID
 :
 MozSidebar
 :
-color
+aColor
 =
 aScheme
 =
@@ -989,7 +984,7 @@ ColorID
 :
 MozSidebarborder
 :
-color
+aColor
 =
 NS_RGBA
 (
@@ -1007,7 +1002,7 @@ ColorID
 :
 MozButtonactivetext
 :
-color
+aColor
 =
 nsCocoaFeatures
 :
@@ -1044,7 +1039,7 @@ ColorID
 :
 MozDialogtext
 :
-color
+aColor
 =
 GetColorFromNSColor
 (
@@ -1061,7 +1056,7 @@ ColorID
 :
 Appworkspace
 :
-color
+aColor
 =
 NS_RGB
 (
@@ -1078,7 +1073,7 @@ ColorID
 :
 Background
 :
-color
+aColor
 =
 NS_RGB
 (
@@ -1113,7 +1108,7 @@ ColorID
 :
 MozButtondisabledface
 :
-color
+aColor
 =
 GetColorFromNSColor
 (
@@ -1127,11 +1122,11 @@ if
 !
 NS_GET_A
 (
-color
+aColor
 )
 )
 {
-color
+aColor
 =
 GetColorFromNSColor
 (
@@ -1149,7 +1144,7 @@ ColorID
 :
 Buttonhighlight
 :
-color
+aColor
 =
 GetColorFromNSColor
 (
@@ -1166,7 +1161,7 @@ ColorID
 :
 Scrollbar
 :
-color
+aColor
 =
 GetColorFromNSColor
 (
@@ -1183,7 +1178,7 @@ ColorID
 :
 Threedhighlight
 :
-color
+aColor
 =
 GetColorFromNSColor
 (
@@ -1206,7 +1201,7 @@ ColorID
 :
 Threeddarkshadow
 :
-color
+aColor
 =
 aScheme
 =
@@ -1237,7 +1232,7 @@ ColorID
 :
 Threedshadow
 :
-color
+aColor
 =
 aScheme
 =
@@ -1268,7 +1263,7 @@ ColorID
 :
 Threedface
 :
-color
+aColor
 =
 aScheme
 =
@@ -1311,7 +1306,7 @@ ColorID
 :
 MozDisabledfield
 :
-color
+aColor
 =
 aScheme
 =
@@ -1342,7 +1337,7 @@ ColorID
 :
 Menu
 :
-color
+aColor
 =
 aScheme
 =
@@ -1374,7 +1369,7 @@ ColorID
 :
 Windowframe
 :
-color
+aColor
 =
 GetColorFromNSColor
 (
@@ -1397,7 +1392,7 @@ ColorID
 :
 Window
 :
-color
+aColor
 =
 GetColorFromNSColor
 (
@@ -1432,7 +1427,7 @@ ColorID
 :
 MozCombobox
 :
-color
+aColor
 =
 GetColorFromNSColor
 (
@@ -1491,7 +1486,7 @@ ColorID
 :
 MozSidebartext
 :
-color
+aColor
 =
 GetColorFromNSColor
 (
@@ -1508,7 +1503,7 @@ ColorID
 :
 MozMacFocusring
 :
-color
+aColor
 =
 GetColorFromNSColorWithCustomAlpha
 (
@@ -1534,7 +1529,7 @@ ColorID
 :
 Graytext
 :
-color
+aColor
 =
 GetColorFromNSColor
 (
@@ -1551,7 +1546,7 @@ ColorID
 :
 MozCellhighlight
 :
-color
+aColor
 =
 GetColorFromNSColor
 (
@@ -1580,7 +1575,7 @@ ColorID
 :
 MozColheaderactivetext
 :
-color
+aColor
 =
 GetColorFromNSColor
 (
@@ -1597,7 +1592,7 @@ ColorID
 :
 MozColheaderactive
 :
-color
+aColor
 =
 GetColorFromNSColor
 (
@@ -1626,7 +1621,7 @@ ColorID
 :
 MozEventreerow
 :
-color
+aColor
 =
 GetColorFromNSColor
 (
@@ -1646,7 +1641,7 @@ ColorID
 :
 MozOddtreerow
 :
-color
+aColor
 =
 GetColorFromNSColor
 (
@@ -1666,7 +1661,7 @@ ColorID
 :
 MozNativehyperlinktext
 :
-color
+aColor
 =
 GetColorFromNSColor
 (
@@ -1683,7 +1678,7 @@ ColorID
 :
 MozNativevisitedhyperlinktext
 :
-color
+aColor
 =
 GetColorFromNSColor
 (
@@ -1840,10 +1835,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-aColor
-=
-color
-;
 return
 NS_OK
 ;
