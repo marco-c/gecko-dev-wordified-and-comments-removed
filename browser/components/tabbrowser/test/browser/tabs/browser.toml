@@ -1839,6 +1839,17 @@ x86_64
 #
 Bug
 1920294
+support
+-
+files
+=
+[
+"
+file_new_tab_page
+.
+html
+"
+]
 [
 "
 browser_tab_groups_keyboard_focus
