@@ -1089,7 +1089,7 @@ when
 (
 crashReporter
 .
-hasUnsentCrashReports
+hasUnsentCrashReportsSince
 (
 )
 )
@@ -1214,7 +1214,7 @@ when
 (
 crashReporter
 .
-hasUnsentCrashReports
+hasUnsentCrashReportsSince
 (
 )
 )
@@ -1472,7 +1472,7 @@ when
 (
 crashReporter
 .
-unsentCrashReports
+unsentCrashReportsSince
 (
 )
 )
@@ -1971,7 +1971,7 @@ when
 (
 crashReporter
 .
-unsentCrashReports
+unsentCrashReportsSince
 (
 )
 )
@@ -2094,7 +2094,7 @@ when
 (
 crashReporter
 .
-unsentCrashReports
+unsentCrashReportsSince
 (
 )
 )

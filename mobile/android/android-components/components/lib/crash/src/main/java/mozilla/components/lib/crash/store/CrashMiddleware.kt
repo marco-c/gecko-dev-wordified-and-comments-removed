@@ -566,7 +566,7 @@ FinishCheckingForCrashes
 (
 crashReporter
 .
-hasUnsentCrashReports
+hasUnsentCrashReportsSince
 (
 )
 )
@@ -718,7 +718,7 @@ sendUnsentCrashReports
 {
 crashReporter
 .
-unsentCrashReports
+unsentCrashReportsSince
 (
 )
 .
