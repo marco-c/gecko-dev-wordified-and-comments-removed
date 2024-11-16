@@ -279,12 +279,7 @@ return
 std
 :
 :
-min
-(
-std
-:
-:
-max
+clamp
 (
 mDeadline
 -
@@ -297,7 +292,6 @@ Now
 0
 .
 0
-)
 50
 .
 0
