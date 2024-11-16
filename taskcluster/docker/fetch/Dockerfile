@@ -137,6 +137,10 @@ zstandard
 \
 unzip
 \
+git
+-
+lfs
+\
 &
 &
 /
