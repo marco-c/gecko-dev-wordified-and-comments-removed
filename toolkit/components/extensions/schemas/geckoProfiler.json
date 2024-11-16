@@ -183,6 +183,9 @@ memory
 "
 tracing
 "
+"
+sandbox
+"
 ]
 }
 {
