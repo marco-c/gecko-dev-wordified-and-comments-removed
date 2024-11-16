@@ -1456,11 +1456,12 @@ promise
 ;
 if
 (
-doc
--
->
+nsContentUtils
+:
+:
 IsInPrivateBrowsing
 (
+doc
 )
 )
 {
