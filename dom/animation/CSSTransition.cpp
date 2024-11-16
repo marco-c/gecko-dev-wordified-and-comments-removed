@@ -620,6 +620,16 @@ appendTransitionEvent
 eTransitionRun
 intervalStartTime
 zeroTimeStamp
+.
+IsNull
+(
+)
+?
+GetTimelineCurrentTimeAsTimeStamp
+(
+)
+:
+zeroTimeStamp
 )
 ;
 }
