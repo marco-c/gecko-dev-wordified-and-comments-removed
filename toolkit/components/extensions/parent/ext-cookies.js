@@ -2900,18 +2900,6 @@ nsICookie
 SCHEME_FILE
 ;
 }
-let
-isPartitioned
-=
-originAttributes
-.
-partitionKey
-?
-.
-length
->
-0
-;
 Services
 .
 cookies
@@ -2931,7 +2919,6 @@ expiry
 originAttributes
 sameSite
 schemeType
-isPartitioned
 )
 ;
 return
