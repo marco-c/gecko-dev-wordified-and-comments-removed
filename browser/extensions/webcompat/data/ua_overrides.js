@@ -2906,6 +2906,11 @@ UAHelpers
 .
 getDeviceAppropriateChromeUA
 (
+{
+noFxQuantum
+:
+true
+}
 )
 ;
 }
