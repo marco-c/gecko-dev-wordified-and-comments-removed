@@ -131,6 +131,9 @@ gfx
 class
 DataSourceSurface
 ;
+class
+FileHandleWrapper
+;
 }
 namespace
 layers
@@ -849,7 +852,16 @@ mMappedRegionStride
 DMABUF_BUFFER_PLANES
 ]
 ;
-int
+RefPtr
+<
+mozilla
+:
+:
+gfx
+:
+:
+FileHandleWrapper
+>
 mSyncFd
 ;
 EGLSyncKHR

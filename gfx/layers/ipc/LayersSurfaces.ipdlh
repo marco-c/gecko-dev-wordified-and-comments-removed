@@ -723,7 +723,7 @@ yUVColorSpace
 ColorRange
 colorRange
 ;
-FileDescriptor
+FileHandleWrapper
 [
 ]
 fence
