@@ -9882,11 +9882,11 @@ name
 onboarding_installing_add_on_icon_content_description
 "
 >
-A
-instalar
 cone
 do
 extra
+a
+instalar
 <
 /
 string
@@ -21322,8 +21322,6 @@ webcompat_reporter_reason_account
 "
 >
 Iniciar
-sess
-o
 ou
 terminar
 sess
