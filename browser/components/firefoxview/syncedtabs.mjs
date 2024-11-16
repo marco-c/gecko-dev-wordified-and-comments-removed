@@ -728,7 +728,6 @@ buttonLabel
 descriptionArray
 descriptionLink
 header
-headerIconUrl
 mainImageUrl
 }
 )
@@ -795,16 +794,6 @@ mainImageUrl
 ifDefined
 (
 mainImageUrl
-)
-}
-"
-headerIconUrl
-=
-"
-{
-ifDefined
-(
-headerIconUrl
 )
 }
 "
