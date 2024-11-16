@@ -6795,10 +6795,8 @@ EVENT_NAME_CHANGE
 acc
 )
 ;
-return
-false
-;
 }
+else
 if
 (
 frame
