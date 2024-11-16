@@ -3836,6 +3836,14 @@ filterable
 {
 }
 '
+float32
+-
+blendable
+'
+:
+{
+}
+'
 clip
 -
 distances

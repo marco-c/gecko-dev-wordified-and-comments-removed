@@ -338,6 +338,7 @@ createTextureWithRandomDataAndGetTexels
 doTextureCalls
 appendComponentTypeForFormatToTextureType
 kSamplePointMethods
+kShortShaderStages
 generateTextureBuiltinInputs1D
 generateTextureBuiltinInputs2D
 generateTextureBuiltinInputs3D
@@ -569,6 +570,14 @@ u
 combine
 (
 '
+stage
+'
+kShortShaderStages
+)
+.
+combine
+(
+'
 format
 '
 kTestableColorFormats
@@ -706,6 +715,7 @@ t
 const
 {
 format
+stage
 C
 L
 samplePoints
@@ -802,6 +812,7 @@ L
 hashInputs
 :
 [
+stage
 format
 samplePoints
 C
@@ -914,6 +925,7 @@ viewDescriptor
 textureType
 sampler
 calls
+stage
 )
 ;
 const
@@ -932,6 +944,8 @@ textureType
 sampler
 calls
 results
+stage
+texture
 )
 ;
 t
@@ -1063,6 +1077,14 @@ u
 combine
 (
 '
+stage
+'
+kShortShaderStages
+)
+.
+combine
+(
+'
 format
 '
 kTestableColorFormats
@@ -1177,6 +1199,7 @@ t
 const
 {
 format
+stage
 samplePoints
 C
 L
@@ -1254,6 +1277,7 @@ descriptor
 hashInputs
 :
 [
+stage
 format
 samplePoints
 C
@@ -1365,6 +1389,7 @@ viewDescriptor
 textureType
 sampler
 calls
+stage
 )
 ;
 const
@@ -1383,6 +1408,8 @@ textureType
 sampler
 calls
 results
+stage
+texture
 )
 ;
 t
@@ -1509,6 +1536,14 @@ u
 combine
 (
 '
+stage
+'
+kShortShaderStages
+)
+.
+combine
+(
+'
 format
 '
 kTestableColorFormats
@@ -1625,6 +1660,7 @@ t
 const
 {
 format
+stage
 samplePoints
 C
 L
@@ -1724,6 +1760,7 @@ L
 hashInputs
 :
 [
+stage
 format
 samplePoints
 C
@@ -1835,6 +1872,7 @@ viewDescriptor
 textureType
 sampler
 calls
+stage
 )
 ;
 const
@@ -1853,6 +1891,8 @@ textureType
 sampler
 calls
 results
+stage
+texture
 )
 ;
 t
@@ -1995,6 +2035,14 @@ u
 =
 >
 u
+.
+combine
+(
+'
+stage
+'
+kShortShaderStages
+)
 .
 combine
 (
@@ -2185,6 +2233,7 @@ const
 {
 texture_type
 format
+stage
 samplePoints
 C
 S
@@ -2265,6 +2314,7 @@ S
 hashInputs
 :
 [
+stage
 format
 samplePoints
 C
@@ -2374,6 +2424,7 @@ viewDescriptor
 textureType
 sampler
 calls
+stage
 )
 ;
 const
@@ -2392,6 +2443,8 @@ textureType
 sampler
 calls
 results
+stage
+texture
 )
 ;
 t
@@ -2512,6 +2565,14 @@ u
 combine
 (
 '
+stage
+'
+kShortShaderStages
+)
+.
+combine
+(
+'
 format
 '
 kDepthStencilFormats
@@ -2622,6 +2683,7 @@ t
 const
 {
 format
+stage
 samplePoints
 C
 L
@@ -2711,6 +2773,7 @@ L
 hashInputs
 :
 [
+stage
 format
 samplePoints
 C
@@ -2816,6 +2879,7 @@ viewDescriptor
 textureType
 sampler
 calls
+stage
 )
 ;
 const
@@ -2834,6 +2898,8 @@ textureType
 sampler
 calls
 results
+stage
+texture
 )
 ;
 t
@@ -2926,7 +2992,7 @@ coordinate
 .
 )
 .
-paramsSubcasesOnly
+params
 (
 (
 u
@@ -2934,6 +3000,18 @@ u
 =
 >
 u
+.
+combine
+(
+'
+stage
+'
+kShortShaderStages
+)
+.
+beginSubcases
+(
+)
 .
 combine
 (
@@ -3013,6 +3091,7 @@ t
 {
 const
 {
+stage
 samplePoints
 C
 L
@@ -3176,6 +3255,7 @@ viewDescriptor
 textureType
 sampler
 calls
+stage
 )
 ;
 const
@@ -3194,6 +3274,7 @@ textureType
 sampler
 calls
 results
+stage
 )
 ;
 t
@@ -3357,6 +3438,14 @@ u
 =
 >
 u
+.
+combine
+(
+'
+stage
+'
+kShortShaderStages
+)
 .
 combine
 (
@@ -3587,6 +3676,7 @@ const
 {
 texture_type
 format
+stage
 samplePoints
 C
 A
@@ -3707,6 +3797,7 @@ A
 hashInputs
 :
 [
+stage
 format
 samplePoints
 C
@@ -3836,6 +3927,7 @@ viewDescriptor
 textureType
 sampler
 calls
+stage
 )
 ;
 const
@@ -3854,6 +3946,8 @@ textureType
 sampler
 calls
 results
+stage
+texture
 )
 ;
 t
@@ -3954,6 +4048,14 @@ u
 =
 >
 u
+.
+combine
+(
+'
+stage
+'
+kShortShaderStages
+)
 .
 combineWithParams
 (
@@ -4079,6 +4181,7 @@ t
 const
 {
 format
+stage
 samplePoints
 C
 }
@@ -4162,6 +4265,7 @@ descriptor
 hashInputs
 :
 [
+stage
 format
 samplePoints
 C
@@ -4251,6 +4355,7 @@ viewDescriptor
 textureType
 sampler
 calls
+stage
 )
 ;
 const
@@ -4269,6 +4374,8 @@ textureType
 sampler
 calls
 results
+stage
+texture
 )
 ;
 t
@@ -4373,6 +4480,14 @@ u
 >
 u
 .
+combine
+(
+'
+stage
+'
+kShortShaderStages
+)
+.
 combineWithParams
 (
 [
@@ -4497,6 +4612,7 @@ t
 const
 {
 format
+stage
 samplePoints
 C
 }
@@ -4565,6 +4681,7 @@ descriptor
 hashInputs
 :
 [
+stage
 format
 samplePoints
 C
@@ -4654,6 +4771,7 @@ viewDescriptor
 textureType
 sampler
 calls
+stage
 )
 ;
 const
@@ -4672,6 +4790,8 @@ textureType
 sampler
 calls
 results
+stage
+texture
 )
 ;
 t
@@ -4794,6 +4914,14 @@ u
 >
 u
 .
+combine
+(
+'
+stage
+'
+kShortShaderStages
+)
+.
 combineWithParams
 (
 [
@@ -4933,6 +5061,7 @@ t
 const
 {
 format
+stage
 samplePoints
 C
 A
@@ -5019,6 +5148,7 @@ A
 hashInputs
 :
 [
+stage
 format
 samplePoints
 C
@@ -5135,6 +5265,7 @@ viewDescriptor
 textureType
 sampler
 calls
+stage
 )
 ;
 const
@@ -5153,6 +5284,8 @@ textureType
 sampler
 calls
 results
+stage
+texture
 )
 ;
 t
@@ -5256,6 +5389,14 @@ u
 =
 >
 u
+.
+combine
+(
+'
+stage
+'
+kShortShaderStages
+)
 .
 combineWithParams
 (
@@ -5381,6 +5522,7 @@ t
 const
 {
 format
+stage
 samplePoints
 C
 }
@@ -5459,6 +5601,7 @@ descriptor
 hashInputs
 :
 [
+stage
 format
 samplePoints
 C
@@ -5548,6 +5691,7 @@ viewDescriptor
 textureType
 sampler
 calls
+stage
 )
 ;
 const
@@ -5566,6 +5710,8 @@ textureType
 sampler
 calls
 results
+stage
+texture
 )
 ;
 t

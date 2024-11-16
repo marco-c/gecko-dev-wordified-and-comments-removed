@@ -8,7 +8,10 @@ enableDebugLogs
 false
 maxSubcasesInFlight
 :
-500
+100
+subcasesBetweenAttemptingGC
+:
+5000
 testHeartbeatCallback
 :
 (

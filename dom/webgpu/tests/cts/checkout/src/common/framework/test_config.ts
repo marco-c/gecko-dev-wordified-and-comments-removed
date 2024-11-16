@@ -11,6 +11,10 @@ maxSubcasesInFlight
 :
 number
 ;
+subcasesBetweenAttemptingGC
+:
+number
+;
 testHeartbeatCallback
 :
 (
@@ -65,7 +69,10 @@ enableDebugLogs
 false
 maxSubcasesInFlight
 :
-500
+100
+subcasesBetweenAttemptingGC
+:
+5000
 testHeartbeatCallback
 :
 (

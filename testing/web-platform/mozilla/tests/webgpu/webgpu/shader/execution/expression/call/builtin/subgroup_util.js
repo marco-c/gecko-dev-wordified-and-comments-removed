@@ -1604,6 +1604,11 @@ const
 kDataSentinel
 =
 999
+|
+999
+<
+<
+16
 ;
 export
 async
