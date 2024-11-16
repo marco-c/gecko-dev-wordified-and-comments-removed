@@ -187,7 +187,6 @@ server
 .
 process_input
 (
-&
 client_pkt
 now
 (
@@ -312,7 +311,6 @@ client
 .
 process_input
 (
-&
 server_pkt
 now
 (

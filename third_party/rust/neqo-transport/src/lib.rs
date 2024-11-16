@@ -382,7 +382,6 @@ ConnectionState
 DecodingFrame
 DecryptError
 DisabledVersion
-HandshakeFailed
 IdleTimeout
 IntegerOverflow
 InvalidInput

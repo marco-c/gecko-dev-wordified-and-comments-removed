@@ -6752,8 +6752,6 @@ DecryptError
 -
 DisabledVersion
 -
-HandshakeFailed
--
 IdleTimeout
 -
 IntegerOverflow

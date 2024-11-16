@@ -300,10 +300,6 @@ client
 process
 (
 out
-.
-as_ref
-(
-)
 now
 (
 )
@@ -320,10 +316,6 @@ server
 process
 (
 out
-.
-as_ref
-(
-)
 now
 (
 )
@@ -379,9 +371,8 @@ out
 =
 client
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -410,7 +401,7 @@ process
 (
 out
 .
-as_dgram_ref
+dgram
 (
 )
 now
@@ -427,7 +418,7 @@ process
 (
 out
 .
-as_dgram_ref
+dgram
 (
 )
 now
@@ -444,7 +435,7 @@ process
 (
 out
 .
-as_dgram_ref
+dgram
 (
 )
 now
@@ -519,7 +510,7 @@ process
 (
 out
 .
-as_dgram_ref
+dgram
 (
 )
 now
@@ -587,7 +578,7 @@ process
 (
 out
 .
-as_dgram_ref
+dgram
 (
 )
 now
@@ -604,7 +595,7 @@ process
 (
 out
 .
-as_dgram_ref
+dgram
 (
 )
 now
@@ -621,7 +612,7 @@ process
 (
 out
 .
-as_dgram_ref
+dgram
 (
 )
 now
@@ -638,7 +629,7 @@ process
 (
 out
 .
-as_dgram_ref
+dgram
 (
 )
 now
@@ -655,7 +646,7 @@ process
 (
 out
 .
-as_dgram_ref
+dgram
 (
 )
 now
@@ -677,7 +668,7 @@ process
 (
 out
 .
-as_dgram_ref
+dgram
 (
 )
 now
@@ -1274,10 +1265,6 @@ client
 process
 (
 out
-.
-as_ref
-(
-)
 now
 )
 .
@@ -1310,10 +1297,6 @@ server
 process
 (
 out
-.
-as_ref
-(
-)
 now
 )
 .

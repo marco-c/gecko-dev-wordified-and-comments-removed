@@ -139,9 +139,8 @@ out
 =
 conn_c
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -156,7 +155,7 @@ process
 (
 out
 .
-as_dgram_ref
+dgram
 (
 )
 now
@@ -173,7 +172,7 @@ process
 (
 out
 .
-as_dgram_ref
+dgram
 (
 )
 now
@@ -192,7 +191,7 @@ process
 (
 out
 .
-as_dgram_ref
+dgram
 (
 )
 now
@@ -219,9 +218,8 @@ out
 =
 conn_c
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -238,7 +236,7 @@ process
 (
 out
 .
-as_dgram_ref
+dgram
 (
 )
 now
@@ -309,9 +307,8 @@ out
 =
 conn_s
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -328,7 +325,7 @@ process
 (
 out
 .
-as_dgram_ref
+dgram
 (
 )
 now
