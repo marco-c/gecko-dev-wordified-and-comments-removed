@@ -283,13 +283,6 @@ js
 ]
 [
 "
-browser_searchPanelHeader
-.
-js
-"
-]
-[
-"
 browser_search_annotation
 .
 js
@@ -414,6 +407,13 @@ js
 [
 "
 browser_searchbar_widths
+.
+js
+"
+]
+[
+"
+browser_searchPanelHeader
 .
 js
 "

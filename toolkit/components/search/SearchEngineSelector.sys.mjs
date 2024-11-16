@@ -1617,7 +1617,7 @@ variants
 .
 findLast
 (
-v
+variant
 =
 >
 this
@@ -1625,7 +1625,7 @@ this
 #
 matchesUserEnvironment
 (
-v
+variant
 userEnv
 )
 )
@@ -1649,7 +1649,7 @@ subVariants
 .
 findLast
 (
-sv
+subVariant
 =
 >
 this
@@ -1657,7 +1657,7 @@ this
 #
 matchesUserEnvironment
 (
-sv
+subVariant
 userEnv
 )
 )

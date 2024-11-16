@@ -278,7 +278,9 @@ uuid
 (
 )
 {
-return
+let
+uuid
+=
 Services
 .
 uuid
@@ -290,6 +292,9 @@ generateUUID
 toString
 (
 )
+;
+return
+uuid
 .
 slice
 (
