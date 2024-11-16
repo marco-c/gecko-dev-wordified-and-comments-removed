@@ -101,6 +101,11 @@ Notification
 cpp
 "
 "
+NotificationChild
+.
+cpp
+"
+"
 NotificationEvent
 .
 cpp
