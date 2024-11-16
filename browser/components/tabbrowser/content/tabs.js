@@ -1563,6 +1563,9 @@ _findTabToBlurTo
 gBrowser
 .
 selectedTab
+group
+.
+tabs
 )
 |
 |
