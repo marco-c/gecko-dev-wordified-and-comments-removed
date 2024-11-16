@@ -940,13 +940,6 @@ js
 ]
 [
 "
-browser_necko_l10n
-.
-js
-"
-]
-[
-"
 browser_nsIFormPOSTActionChannel
 .
 js
