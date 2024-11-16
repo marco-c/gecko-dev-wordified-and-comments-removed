@@ -62,6 +62,7 @@ urlbar
 /
 index
 BrowserUsageTelemetry
+FrontendCodeReviewBestPractices
 CommandLineParameters
 components
 /
