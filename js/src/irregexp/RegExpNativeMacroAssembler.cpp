@@ -462,7 +462,7 @@ int
 SMRegExpMacroAssembler
 :
 :
-stack_limit_slack
+stack_limit_slack_slot_count
 (
 )
 {
@@ -470,7 +470,7 @@ return
 RegExpStack
 :
 :
-kStackLimitSlack
+kStackLimitSlackSlotCount
 ;
 }
 void
@@ -5353,6 +5353,8 @@ Handle
 String
 >
 source
+RegExpFlags
+flags
 )
 {
 if
