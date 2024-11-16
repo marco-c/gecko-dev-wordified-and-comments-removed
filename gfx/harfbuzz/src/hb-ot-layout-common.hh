@@ -19846,7 +19846,7 @@ ItemVarStoreInstancer
 const
 ItemVariationStore
 *
-varStore
+varStore_
 const
 DeltaSetIndexMap
 *
@@ -19869,7 +19869,7 @@ nullptr
 :
 varStore
 (
-varStore
+varStore_
 )
 varIdxMap
 (

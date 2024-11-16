@@ -11,15 +11,6 @@ hb
 .
 hh
 "
-#
-define
-_HB_UNICODE_GENERAL_CATEGORY_VARIATION_SELECTOR
-(
-(
-hb_unicode_general_category_t
-)
-30
-)
 extern
 HB_INTERNAL
 const

@@ -958,6 +958,10 @@ Pure_Killer
 '
 	
 '
+Reordering_Killer
+'
+	
+'
 Invisible_Stacker
 '
 	
@@ -1896,6 +1900,22 @@ AJT
 	
 )
 def
+is_REORDERING_KILLER
+(
+U
+UISC
+UDI
+UGC
+AJT
+)
+:
+	
+return
+UISC
+=
+=
+Reordering_Killer
+def
 is_REPHA
 (
 U
@@ -2196,6 +2216,12 @@ O
 '
 :
 is_OTHER
+	
+'
+RK
+'
+:
+is_REORDERING_KILLER
 	
 '
 R
@@ -2520,6 +2546,12 @@ Not_Applicable
 	
 '
 R
+'
+:
+None
+	
+'
+RK
 '
 :
 None

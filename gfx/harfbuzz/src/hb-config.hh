@@ -84,9 +84,6 @@ define
 HB_DISABLE_DEPRECATED
 #
 define
-HB_NDEBUG
-#
-define
 HB_NO_ATEXIT
 #
 define

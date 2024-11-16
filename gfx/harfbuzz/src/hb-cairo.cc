@@ -1905,6 +1905,13 @@ face
 ;
 #
 if
+!
+defined
+(
+HB_NO_VAR
+)
+&
+&
 CAIRO_VERSION
 >
 =

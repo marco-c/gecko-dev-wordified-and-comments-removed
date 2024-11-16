@@ -479,6 +479,13 @@ HR
 #
 HIEROGLYPH_MIRROR
 export
+RK
+=
+56
+;
+#
+REORDERING_KILLER
+export
 FAbv
 =
 24
@@ -806,7 +813,11 @@ SMBlw
 virama_terminated_cluster_tail
 =
 consonant_modifiers
+(
 IS
+|
+RK
+)
 ;
 virama_terminated_cluster
 =

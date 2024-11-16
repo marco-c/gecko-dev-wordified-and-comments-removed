@@ -843,7 +843,7 @@ scratch_flags
 =
 HB_BUFFER_SCRATCH_FLAG_HAS_VARIATION_SELECTOR_FALLBACK
 ;
-_hb_glyph_info_set_general_category
+_hb_glyph_info_set_variation_selector
 (
 &
 buffer
@@ -852,7 +852,7 @@ buffer
 cur
 (
 )
-_HB_UNICODE_GENERAL_CATEGORY_VARIATION_SELECTOR
+true
 )
 ;
 if

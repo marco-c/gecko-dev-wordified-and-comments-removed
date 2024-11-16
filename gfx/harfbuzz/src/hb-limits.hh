@@ -200,7 +200,7 @@ HB_CFF_MAX_OPS
 #
 define
 HB_CFF_MAX_OPS
-10000
+200000
 #
 endif
 #
