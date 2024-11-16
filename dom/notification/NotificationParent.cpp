@@ -323,6 +323,10 @@ FireCloseEvent
 )
 )
 ;
+mDangling
+=
+true
+;
 Close
 (
 )
