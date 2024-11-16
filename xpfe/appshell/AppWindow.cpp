@@ -8278,11 +8278,7 @@ IsAppLocaleRTL
 )
 ;
 bool
-isInTabletMode
-=
-false
-;
-bool
+const
 autoTouchModePref
 =
 Preferences
@@ -8305,6 +8301,11 @@ if
 autoTouchModePref
 )
 {
+bool
+isInTabletMode
+=
+false
+;
 nsCOMPtr
 <
 nsIWindowsUIUtils
@@ -8367,7 +8368,6 @@ GetInWin10TabletMode
 isInTabletMode
 )
 ;
-}
 }
 }
 if
@@ -8455,6 +8455,7 @@ Touch
 ;
 break
 ;
+}
 }
 }
 }
