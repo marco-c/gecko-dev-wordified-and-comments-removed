@@ -96672,11 +96672,17 @@ ourEnd
 std
 :
 :
-clamp
+max
 (
-length
 begin
+std
+:
+:
+min
+(
 end
+length
+)
 )
 ;
             
