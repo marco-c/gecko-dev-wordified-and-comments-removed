@@ -368,6 +368,14 @@ root
 docstr
 )
 {
+if
+(
+!
+docstr
+)
+return
+root
+;
 for
 (
 const
