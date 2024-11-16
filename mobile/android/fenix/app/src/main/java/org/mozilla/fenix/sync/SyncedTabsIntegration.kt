@@ -212,7 +212,14 @@ get
 )
 autoPause
 =
-true
+false
+/
+/
+races
+with
+lifecycle
+bug
+1917989
 )
 }
 }

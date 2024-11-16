@@ -238,7 +238,7 @@ any
 )
 autoPause
 =
-true
+false
 )
 }
 just
@@ -320,7 +320,7 @@ any
 )
 autoPause
 =
-true
+false
 )
 }
 every
