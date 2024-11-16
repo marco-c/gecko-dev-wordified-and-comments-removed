@@ -722,9 +722,7 @@ python
 -
 bugzilla
 /
-bugzilla
--
-rc
+bugzillarc
 file
 :
 .
