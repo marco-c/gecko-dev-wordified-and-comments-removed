@@ -354,11 +354,11 @@ text
 color
 )
 "
-themeL10nId
+themeId
 :
 profileData
 .
-themeL10nId
+themeId
 ?
 ?
 "

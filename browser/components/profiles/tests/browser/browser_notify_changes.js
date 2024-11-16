@@ -174,7 +174,7 @@ avatar
 TEXT
 NOT
 NULL
-themeL10nId
+themeId
 TEXT
 NOT
 NULL
@@ -242,7 +242,7 @@ avatar
 "
 book
 "
-themeL10nId
+themeId
 :
 "
 default
