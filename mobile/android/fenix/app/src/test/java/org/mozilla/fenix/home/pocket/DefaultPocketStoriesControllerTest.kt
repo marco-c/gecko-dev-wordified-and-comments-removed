@@ -307,6 +307,20 @@ mozilla
 .
 fenix
 .
+components
+.
+appstate
+.
+recommendations
+.
+ContentRecommendationsState
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 components
@@ -496,6 +510,10 @@ AppStore
 (
 AppState
 (
+recommendationState
+=
+ContentRecommendationsState
+(
 pocketStoriesCategories
 =
 listOf
@@ -506,6 +524,7 @@ category2
 pocketStoriesCategoriesSelections
 =
 selections
+)
 )
 )
 )
@@ -884,6 +903,10 @@ AppStore
 (
 AppState
 (
+recommendationState
+=
+ContentRecommendationsState
+(
 pocketStoriesCategoriesSelections
 =
 listOf
@@ -896,6 +919,7 @@ category5
 category6
 category7
 oldestSelectedCategory
+)
 )
 )
 )
@@ -1250,6 +1274,10 @@ AppStore
 (
 AppState
 (
+recommendationState
+=
+ContentRecommendationsState
+(
 pocketStoriesCategoriesSelections
 =
 listOf
@@ -1261,6 +1289,7 @@ category4
 category5
 category6
 oldestSelectedCategory
+)
 )
 )
 )
