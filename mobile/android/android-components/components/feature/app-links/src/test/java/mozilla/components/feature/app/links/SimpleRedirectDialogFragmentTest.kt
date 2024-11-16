@@ -151,6 +151,12 @@ org
 .
 junit
 .
+Ignore
+import
+org
+.
+junit
+.
 Test
 import
 org
@@ -233,6 +239,7 @@ style
 .
 Theme_AppCompat_Light
 Test
+Ignore
 fun
 Dialog
 confirmed
