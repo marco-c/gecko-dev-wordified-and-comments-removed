@@ -1663,9 +1663,6 @@ Insert
 aActor
 )
 ;
-#
-ifdef
-DEBUG
 aActor
 -
 >
@@ -1674,8 +1671,6 @@ SetRegistered
 true
 )
 ;
-#
-endif
 if
 (
 mDirectoryLock
@@ -1756,9 +1751,6 @@ Remove
 aActor
 )
 ;
-#
-ifdef
-DEBUG
 aActor
 -
 >
@@ -1767,8 +1759,6 @@ SetRegistered
 false
 )
 ;
-#
-endif
 if
 (
 IsInactive
