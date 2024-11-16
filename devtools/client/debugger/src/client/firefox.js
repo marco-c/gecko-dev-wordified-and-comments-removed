@@ -1009,9 +1009,6 @@ actor
 resource
 .
 enabled
-resource
-.
-traceValues
 )
 ;
 }
@@ -1040,6 +1037,7 @@ isTracingEnabled
 return
 ;
 }
+await
 actions
 .
 clearTracerData

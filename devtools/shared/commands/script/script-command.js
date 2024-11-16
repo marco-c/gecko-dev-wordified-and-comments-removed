@@ -242,11 +242,6 @@ preferConsoleCommandsOverLocalSymbols
 options
 .
 preferConsoleCommandsOverLocalSymbols
-evalInTracer
-:
-options
-.
-evalInTracer
 }
 )
 .
