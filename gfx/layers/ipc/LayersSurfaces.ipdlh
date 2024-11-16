@@ -736,6 +736,10 @@ FileDescriptor
 ]
 refCount
 ;
+nullable
+FileHandleWrapper
+semaphoreFd
+;
 }
 ;
 [
