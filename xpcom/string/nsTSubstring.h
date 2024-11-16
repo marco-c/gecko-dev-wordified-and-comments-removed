@@ -4403,7 +4403,6 @@ nullptr
 }
 protected
 :
-constexpr
 void
 AssertValid
 (
@@ -4738,7 +4737,6 @@ AssertValid
 )
 ;
 }
-constexpr
 explicit
 nsTSubstring
 (

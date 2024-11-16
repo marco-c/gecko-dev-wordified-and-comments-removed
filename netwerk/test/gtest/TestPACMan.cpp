@@ -172,7 +172,7 @@ mozilla
 StaticMutex
 sMutex
 ;
-MOZ_CONSTINIT
+MOZ_RUNINIT
 nsCString
 WPADOptionResult
 MOZ_GUARDED_BY

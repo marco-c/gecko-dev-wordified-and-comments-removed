@@ -1903,7 +1903,7 @@ gAllowContentAnalysisArgPresent
 =
 false
 ;
-MOZ_CONSTINIT
+MOZ_RUNINIT
 nsString
 gAbsoluteArgv0Path
 ;
@@ -1913,7 +1913,7 @@ defined
 (
 XP_WIN
 )
-MOZ_CONSTINIT
+MOZ_RUNINIT
 nsString
 gProcessStartupShortcut
 ;
@@ -5424,12 +5424,12 @@ return
 NS_OK
 ;
 }
-MOZ_CONSTINIT
+MOZ_RUNINIT
 static
 nsCString
 gLastAppVersion
 ;
-MOZ_CONSTINIT
+MOZ_RUNINIT
 static
 nsCString
 gLastAppBuildID

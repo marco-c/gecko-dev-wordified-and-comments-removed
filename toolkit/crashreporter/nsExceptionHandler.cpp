@@ -1376,7 +1376,7 @@ gEncounteredChildException
 false
 )
 ;
-MOZ_CONSTINIT
+MOZ_RUNINIT
 static
 nsCString
 gServerURL
