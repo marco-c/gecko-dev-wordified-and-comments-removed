@@ -449,15 +449,6 @@ test_initializeTemporaryOrigin_failure
 js
 "
 ]
-skip
--
-if
-=
-[
-"
-true
-"
-]
 [
 "
 test_listCachedOrigins
