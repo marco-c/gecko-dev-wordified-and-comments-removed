@@ -29511,7 +29511,7 @@ push
 .
 maxRecentMessageIDsPerSubscription
 "
-10
+100
 )
 ;
 pref
