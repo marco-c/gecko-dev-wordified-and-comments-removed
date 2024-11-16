@@ -413,7 +413,11 @@ COULD_NOT_GET_DEBUG_INFO
 "
 originalError
 :
+await
+stringifyError
+(
 e
+)
 }
 ;
 }
@@ -514,7 +518,11 @@ RENDERING_ERROR
 "
 originalError
 :
+await
+stringifyError
+(
 e
+)
 }
 ;
 }
@@ -532,6 +540,11 @@ png
 "
 1
 )
+)
+.
+catch
+(
+stringifyError
 )
 ;
 }
