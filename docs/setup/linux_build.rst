@@ -290,7 +290,7 @@ of
 version
 3
 .
-6
+8
 or
 later
 installed
