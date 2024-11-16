@@ -778,6 +778,16 @@ syncedTab
 tab
 )
 }
+iconDescription
+=
+stringResource
+(
+R
+.
+string
+.
+close_tab
+)
 iconPainter
 =
 painterResource
