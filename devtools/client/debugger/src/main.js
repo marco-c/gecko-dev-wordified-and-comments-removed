@@ -340,7 +340,7 @@ setPauseOnExceptions
 const
 {
 pauseOnExceptions
-pauseOnCaughtException
+pauseOnCaughtExceptions
 }
 =
 prefs
@@ -353,7 +353,7 @@ clientCommands
 pauseOnExceptions
 (
 pauseOnExceptions
-pauseOnCaughtException
+pauseOnCaughtExceptions
 )
 ;
 }
