@@ -2288,6 +2288,7 @@ None
 0
 StringCast
 StringTest
+StringLength
 Limit
 }
 ;

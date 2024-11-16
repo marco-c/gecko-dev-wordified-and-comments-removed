@@ -1683,6 +1683,9 @@ Instance
 :
 :
 stringLength
+inline_op
+:
+StringLength
 export
 :
 length
