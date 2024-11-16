@@ -11232,6 +11232,17 @@ in
 this
 .
 allTabs
+&
+&
+!
+this
+.
+allTabs
+[
+groupDropIndex
+]
+.
+group
 )
 {
 dragData
@@ -11325,6 +11336,7 @@ dragData
 .
 animDropIndex
 ]
+?
 .
 group
 ?
