@@ -2626,7 +2626,7 @@ waitForEvent
 (
 group
 "
-TabGroupRemoved
+TabGroupRemove
 "
 )
 ;

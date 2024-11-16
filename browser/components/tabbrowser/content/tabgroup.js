@@ -349,7 +349,7 @@ new
 CustomEvent
 (
 "
-TabGroupRemoved
+TabGroupRemove
 "
 {
 bubbles
