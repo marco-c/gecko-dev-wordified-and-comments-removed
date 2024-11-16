@@ -1599,6 +1599,26 @@ FileNotFoundError
         
 pass
     
+ktlint_file
+=
+"
+ktlint
+.
+json
+"
+    
+if
+fix
+:
+        
+ktlint_file
+=
+"
+ktlintFormat
+.
+json
+"
+    
 try
 :
         
@@ -1625,11 +1645,7 @@ reports
 ktlint
 "
                     
-"
-ktlint
-.
-json
-"
+ktlint_file
                 
 )
                 

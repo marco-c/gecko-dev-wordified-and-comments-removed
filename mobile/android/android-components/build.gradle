@@ -2455,6 +2455,7 @@ components
 .
 kt
 "
+args
 "
 samples
 /
@@ -2465,6 +2466,7 @@ samples
 .
 kt
 "
+args
 "
 !
 *
@@ -2479,6 +2481,7 @@ build
 .
 kt
 "
+args
 "
 buildSrc
 /
@@ -2489,6 +2492,7 @@ buildSrc
 .
 kt
 "
+args
 "
 -
 -
@@ -2500,6 +2504,7 @@ baseline
 .
 xml
 "
+args
 "
 -
 -
@@ -2518,6 +2523,7 @@ ktlint
 .
 json
 "
+args
 "
 -
 -
@@ -2575,6 +2581,7 @@ args
 -
 F
 "
+args
 "
 components
 /
@@ -2585,6 +2592,7 @@ components
 .
 kt
 "
+args
 "
 samples
 /
@@ -2595,6 +2603,7 @@ samples
 .
 kt
 "
+args
 "
 !
 *
@@ -2609,6 +2618,7 @@ build
 .
 kt
 "
+args
 "
 buildSrc
 /
@@ -2619,6 +2629,7 @@ buildSrc
 .
 kt
 "
+args
 "
 -
 -
@@ -2629,6 +2640,33 @@ ktlint
 baseline
 .
 xml
+"
+args
+"
+-
+-
+reporter
+=
+json
+output
+=
+build
+/
+reports
+/
+ktlint
+/
+ktlintFormat
+.
+json
+"
+args
+"
+-
+-
+reporter
+=
+plain
 "
 jvmArgs
 (

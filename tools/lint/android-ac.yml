@@ -20,10 +20,6 @@ include
 mobile
 /
 android
-/
-android
--
-components
 '
 ]
 exclude

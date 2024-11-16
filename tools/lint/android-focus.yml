@@ -3,7 +3,7 @@
 -
 android
 -
-fenix
+focus
 :
 description
 :
@@ -18,10 +18,6 @@ include
 '
 mobile
 /
-android
-/
-focus
--
 android
 '
 ]
