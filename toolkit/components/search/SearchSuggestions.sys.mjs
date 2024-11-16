@@ -2439,7 +2439,7 @@ remote
 reduce
 (
 (
-results
+acc
 item
 )
 =
@@ -2459,7 +2459,7 @@ item
 tail
 )
 {
-results
+acc
 .
 push
 (
@@ -2515,7 +2515,7 @@ value
 ;
 }
 return
-results
+acc
 ;
 }
 [
