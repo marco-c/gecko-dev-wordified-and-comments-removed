@@ -186,7 +186,7 @@ FenixRobolectricTestRunner
 class
 )
 class
-FenixSnackbarBehaviorTest
+SnackbarBehaviorTest
 {
 private
 val
@@ -310,7 +310,7 @@ it
 val
 behavior
 =
-FenixSnackbarBehavior
+SnackbarBehavior
 <
 ViewGroup
 >
@@ -366,7 +366,7 @@ toolbar
 val
 behavior
 =
-FenixSnackbarBehavior
+SnackbarBehavior
 <
 ViewGroup
 >
@@ -423,7 +423,7 @@ toolbarLayout
 val
 behavior
 =
-FenixSnackbarBehavior
+SnackbarBehavior
 <
 ViewGroup
 >
@@ -481,7 +481,7 @@ viewDynamicDownloadDialog
 val
 behavior
 =
-FenixSnackbarBehavior
+SnackbarBehavior
 <
 ViewGroup
 >
@@ -538,7 +538,7 @@ toolbar
 val
 behavior
 =
-FenixSnackbarBehavior
+SnackbarBehavior
 <
 ViewGroup
 >
@@ -623,7 +623,7 @@ it
 val
 behavior
 =
-FenixSnackbarBehavior
+SnackbarBehavior
 <
 ViewGroup
 >
@@ -727,7 +727,7 @@ it
 val
 behavior
 =
-FenixSnackbarBehavior
+SnackbarBehavior
 <
 ViewGroup
 >
@@ -853,7 +853,7 @@ it
 val
 behavior
 =
-FenixSnackbarBehavior
+SnackbarBehavior
 <
 ViewGroup
 >
@@ -1050,7 +1050,7 @@ it
 val
 behavior
 =
-FenixSnackbarBehavior
+SnackbarBehavior
 <
 ViewGroup
 >
@@ -1246,7 +1246,7 @@ it
 val
 behavior
 =
-FenixSnackbarBehavior
+SnackbarBehavior
 <
 ViewGroup
 >
@@ -1408,7 +1408,7 @@ it
 val
 behavior
 =
-FenixSnackbarBehavior
+SnackbarBehavior
 <
 ViewGroup
 >
@@ -1600,7 +1600,7 @@ it
 val
 behavior
 =
-FenixSnackbarBehavior
+SnackbarBehavior
 <
 ViewGroup
 >
@@ -1761,7 +1761,7 @@ it
 val
 behavior
 =
-FenixSnackbarBehavior
+SnackbarBehavior
 <
 ViewGroup
 >

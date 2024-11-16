@@ -229,7 +229,7 @@ toolbar
 *
 /
 class
-FenixSnackbarBehavior
+SnackbarBehavior
 <
 V
 :
