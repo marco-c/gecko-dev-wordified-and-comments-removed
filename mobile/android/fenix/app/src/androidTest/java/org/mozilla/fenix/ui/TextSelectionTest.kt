@@ -529,9 +529,6 @@ Copy
 .
 openNavigationToolbar
 {
-openEditURLView
-(
-)
 }
 searchScreen
 {
@@ -1017,9 +1014,6 @@ Copy
 .
 openNavigationToolbar
 {
-openEditURLView
-(
-)
 }
 searchScreen
 {
