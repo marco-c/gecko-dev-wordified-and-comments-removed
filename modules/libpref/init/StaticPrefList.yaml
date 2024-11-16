@@ -19890,12 +19890,6 @@ defined
 (
 MOZ_WIDGET_ANDROID
 )
-&
-&
-defined
-(
-NIGHTLY_BUILD
-)
 value
 :
 3000
@@ -19927,12 +19921,6 @@ if
 defined
 (
 MOZ_WIDGET_ANDROID
-)
-&
-&
-defined
-(
-NIGHTLY_BUILD
 )
 value
 :
