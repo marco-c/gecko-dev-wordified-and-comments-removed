@@ -3367,16 +3367,6 @@ static
 bool
 IsInPrivateBrowsing
 (
-const
-Document
-*
-aDoc
-)
-;
-static
-bool
-IsInPrivateBrowsing
-(
 nsILoadGroup
 *
 aLoadGroup
