@@ -4173,7 +4173,7 @@ uint32_t
 tableIndex
 Value
 *
-index
+address
 )
 ;
 [
@@ -4208,7 +4208,7 @@ uint32_t
 tableIndex
 Value
 *
-index
+address
 Value
 *
 value
@@ -11385,8 +11385,8 @@ offset
 )
 ;
 }
-IndexType
-it
+AddressType
+at
 =
 codeMeta_
 .
@@ -11398,16 +11398,16 @@ addr
 memoryIndex
 ]
 .
-indexType
+addressType
 (
 )
 ;
 if
 (
-it
+at
 =
 =
-IndexType
+AddressType
 :
 :
 I32
@@ -11475,7 +11475,7 @@ popWithType
 (
 ToValType
 (
-it
+at
 )
 &
 addr
@@ -11921,7 +11921,7 @@ memories
 memoryIndex
 ]
 .
-indexType
+addressType
 (
 )
 )
@@ -12035,7 +12035,7 @@ memories
 memoryIndex
 ]
 .
-indexType
+addressType
 (
 )
 )
@@ -14867,7 +14867,7 @@ tables
 tableIndex
 ]
 .
-indexType
+addressType
 (
 )
 )
@@ -15202,7 +15202,7 @@ tables
 tableIndex
 ]
 .
-indexType
+addressType
 (
 )
 )
@@ -16888,7 +16888,7 @@ memories
 dstMemOrTableIndex
 ]
 .
-indexType
+addressType
 (
 )
 )
@@ -16905,7 +16905,7 @@ memories
 srcMemOrTableIndex
 ]
 .
-indexType
+addressType
 (
 )
 )
@@ -16925,7 +16925,7 @@ tables
 dstMemOrTableIndex
 ]
 .
-indexType
+addressType
 (
 )
 )
@@ -16942,7 +16942,7 @@ tables
 srcMemOrTableIndex
 ]
 .
-indexType
+addressType
 (
 )
 )
@@ -17288,7 +17288,7 @@ memories
 memoryIndex
 ]
 .
-indexType
+addressType
 (
 )
 )
@@ -17672,7 +17672,7 @@ memories
 dstMemOrTableIndex
 ]
 .
-indexType
+addressType
 (
 )
 )
@@ -17687,7 +17687,7 @@ tables
 dstMemOrTableIndex
 ]
 .
-indexType
+addressType
 (
 )
 )
@@ -17819,7 +17819,7 @@ ToValType
 (
 table
 .
-indexType
+addressType
 (
 )
 )
@@ -17854,7 +17854,7 @@ ToValType
 (
 table
 .
-indexType
+addressType
 (
 )
 )
@@ -17969,7 +17969,7 @@ memories
 memoryIndex
 ]
 .
-indexType
+addressType
 (
 )
 )
@@ -18016,7 +18016,7 @@ uint32_t
 tableIndex
 Value
 *
-index
+address
 )
 {
 MOZ_ASSERT
@@ -18109,11 +18109,11 @@ ToValType
 (
 table
 .
-indexType
+addressType
 (
 )
 )
-index
+address
 )
 )
 {
@@ -18248,7 +18248,7 @@ ToValType
 (
 table
 .
-indexType
+addressType
 (
 )
 )
@@ -18282,7 +18282,7 @@ ToValType
 (
 table
 .
-indexType
+addressType
 (
 )
 )
@@ -18312,7 +18312,7 @@ uint32_t
 tableIndex
 Value
 *
-index
+address
 Value
 *
 value
@@ -18422,11 +18422,11 @@ ToValType
 (
 table
 .
-indexType
+addressType
 (
 )
 )
-index
+address
 )
 ;
 }
@@ -18536,7 +18536,7 @@ tables
 tableIndex
 ]
 .
-indexType
+addressType
 (
 )
 )

@@ -5737,7 +5737,7 @@ JS_ReportErrorASCII
 (
 cx
 "
-index
+address
 type
 must
 be
@@ -5822,7 +5822,7 @@ MaxMemoryPages
 wasm
 :
 :
-IndexType
+AddressType
 :
 :
 I32
@@ -5881,7 +5881,7 @@ MaxMemoryPages
 wasm
 :
 :
-IndexType
+AddressType
 :
 :
 I64
@@ -5918,7 +5918,7 @@ JS_ReportErrorASCII
 cx
 "
 bad
-index
+address
 type
 "
 )
@@ -61253,7 +61253,7 @@ WasmMaxMemoryPages
 "
 wasmMaxMemoryPages
 (
-indexType
+addressType
 )
 "
 "
@@ -61286,7 +61286,7 @@ does
 depend
 on
 the
-index
+address
 type
 the
 hardware
@@ -61336,7 +61336,7 @@ in
 principle
 .
 The
-indexType
+addressType
 is
 a
 string

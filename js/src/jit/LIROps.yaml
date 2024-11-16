@@ -11380,13 +11380,13 @@ true
 -
 name
 :
-WasmClampTable64Index
+WasmClampTable64Address
 result_type
 :
 WordSized
 operands
 :
-index
+address
 :
 Int64
 mir_op

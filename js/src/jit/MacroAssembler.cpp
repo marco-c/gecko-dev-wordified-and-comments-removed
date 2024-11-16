@@ -34215,10 +34215,10 @@ void
 MacroAssembler
 :
 :
-wasmClampTable64Index
+wasmClampTable64Address
 (
 Register64
-index
+address
 Register
 out
 )
@@ -34235,7 +34235,7 @@ Assembler
 :
 :
 Above
-index
+address
 Imm64
 (
 UINT32_MAX
@@ -34246,7 +34246,7 @@ oob
 ;
 move64To32
 (
-index
+address
 out
 )
 ;

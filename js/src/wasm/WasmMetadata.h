@@ -636,7 +636,7 @@ memories
 memoryIndex
 ]
 .
-indexType
+addressType
 (
 )
 )

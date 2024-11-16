@@ -24733,9 +24733,9 @@ void
 LIRGenerator
 :
 :
-visitWasmClampTable64Index
+visitWasmClampTable64Address
 (
-MWasmClampTable64Index
+MWasmClampTable64Address
 *
 ins
 )
@@ -24793,7 +24793,7 @@ alloc
 (
 )
 )
-LWasmClampTable64Index
+LWasmClampTable64Address
 (
 useInt64RegisterAtStart
 (

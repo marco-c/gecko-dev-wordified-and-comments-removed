@@ -455,7 +455,7 @@ IsHugeMemoryEnabled
 wasm
 :
 :
-IndexType
+AddressType
 t
 )
 {
@@ -464,7 +464,7 @@ if
 t
 =
 =
-IndexType
+AddressType
 :
 :
 I64

@@ -17348,10 +17348,10 @@ riscv64
 ifdef
 ENABLE_WASM_MEMORY64
 void
-wasmClampTable64Index
+wasmClampTable64Address
 (
 Register64
-index
+address
 Register
 out
 )

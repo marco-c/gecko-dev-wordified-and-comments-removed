@@ -1618,8 +1618,8 @@ const
 wasm
 :
 :
-IndexType
-indexType
+AddressType
+addressType
 (
 )
 const

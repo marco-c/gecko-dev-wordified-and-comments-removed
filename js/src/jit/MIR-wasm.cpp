@@ -4972,7 +4972,7 @@ MBasicBlock
 prePadBlock
 MDefinition
 *
-tableIndexOrRef
+tableAddressOrRef
 )
 {
 MWasmCallCatchable
@@ -5023,7 +5023,7 @@ callee
 isFuncRef
 (
 )
-tableIndexOrRef
+tableAddressOrRef
 )
 ;
 if
@@ -5037,7 +5037,7 @@ initWithArgs
 alloc
 call
 args
-tableIndexOrRef
+tableAddressOrRef
 )
 )
 {
@@ -5201,7 +5201,7 @@ uint32_t
 stackArgAreaSizeUnaligned
 MDefinition
 *
-tableIndexOrRef
+tableAddressOrRef
 )
 {
 MWasmCallUncatchable
@@ -5233,7 +5233,7 @@ callee
 isFuncRef
 (
 )
-tableIndexOrRef
+tableAddressOrRef
 )
 ;
 if
@@ -5247,7 +5247,7 @@ initWithArgs
 alloc
 call
 args
-tableIndexOrRef
+tableAddressOrRef
 )
 )
 {
@@ -5400,7 +5400,7 @@ uint32_t
 stackArgAreaSizeUnaligned
 MDefinition
 *
-tableIndexOrRef
+tableAddressOrRef
 )
 {
 MWasmReturnCall
@@ -5432,7 +5432,7 @@ callee
 isFuncRef
 (
 )
-tableIndexOrRef
+tableAddressOrRef
 )
 ;
 if
@@ -5446,7 +5446,7 @@ initWithArgs
 alloc
 call
 args
-tableIndexOrRef
+tableAddressOrRef
 )
 )
 {

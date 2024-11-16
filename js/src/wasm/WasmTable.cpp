@@ -147,11 +147,11 @@ move
 functions
 )
 )
-indexType_
+addressType_
 (
 desc
 .
-indexType
+addressType
 (
 )
 )
@@ -259,11 +259,11 @@ move
 objects
 )
 )
-indexType_
+addressType_
 (
 desc
 .
-indexType
+addressType
 (
 )
 )
@@ -755,7 +755,7 @@ Table
 getFuncRef
 (
 uint32_t
-index
+address
 )
 const
 {
@@ -769,7 +769,7 @@ isFunction
 return
 functions_
 [
-index
+address
 ]
 ;
 }
@@ -783,7 +783,7 @@ JSContext
 *
 cx
 uint32_t
-index
+address
 MutableHandleFunction
 fun
 )
@@ -803,7 +803,7 @@ elem
 =
 getFuncRef
 (
-index
+address
 )
 ;
 if
@@ -892,7 +892,7 @@ Table
 setFuncRef
 (
 uint32_t
-index
+address
 JSFunction
 *
 fun
@@ -971,7 +971,7 @@ funcCheckedCallEntry
 ;
 setFuncRef
 (
-index
+address
 code
 &
 instance
@@ -985,7 +985,7 @@ Table
 setFuncRef
 (
 uint32_t
-index
+address
 void
 *
 code
@@ -1007,7 +1007,7 @@ elem
 =
 functions_
 [
-index
+address
 ]
 ;
 if
@@ -1102,7 +1102,7 @@ Table
 fillFuncRef
 (
 uint32_t
-index
+address
 uint32_t
 fillCount
 FuncRef
@@ -1133,10 +1133,10 @@ for
 uint32_t
 i
 =
-index
+address
 end
 =
-index
+address
 +
 fillCount
 ;
@@ -1302,10 +1302,10 @@ for
 uint32_t
 i
 =
-index
+address
 end
 =
-index
+address
 +
 fillCount
 ;
@@ -1336,7 +1336,7 @@ Table
 getAnyRef
 (
 uint32_t
-index
+address
 )
 const
 {
@@ -1351,7 +1351,7 @@ isFunction
 return
 objects_
 [
-index
+address
 ]
 ;
 }
@@ -1362,7 +1362,7 @@ Table
 setAnyRef
 (
 uint32_t
-index
+address
 AnyRef
 ref
 )
@@ -1377,7 +1377,7 @@ isFunction
 ;
 objects_
 [
-index
+address
 ]
 =
 ref
@@ -1390,7 +1390,7 @@ Table
 fillAnyRef
 (
 uint32_t
-index
+address
 uint32_t
 fillCount
 AnyRef
@@ -1410,10 +1410,10 @@ for
 uint32_t
 i
 =
-index
+address
 end
 =
-index
+address
 +
 fillCount
 ;
@@ -1443,7 +1443,7 @@ Table
 setRef
 (
 uint32_t
-index
+address
 AnyRef
 ref
 )
@@ -1459,7 +1459,7 @@ isNull
 {
 setNull
 (
-index
+address
 )
 ;
 }
@@ -1491,7 +1491,7 @@ JSFunction
 ;
 setFuncRef
 (
-index
+address
 func
 )
 ;
@@ -1500,7 +1500,7 @@ else
 {
 setAnyRef
 (
-index
+address
 ref
 )
 ;
@@ -1516,7 +1516,7 @@ JSContext
 *
 cx
 uint32_t
-index
+address
 MutableHandleValue
 result
 )
@@ -1556,7 +1556,7 @@ if
 getFuncRef
 (
 cx
-index
+address
 &
 fun
 )
@@ -1616,7 +1616,7 @@ cx
 &
 objects_
 [
-index
+address
 ]
 ValType
 (
@@ -1641,7 +1641,7 @@ Table
 setNull
 (
 uint32_t
-index
+address
 )
 {
 switch
@@ -1670,7 +1670,7 @@ elem
 =
 functions_
 [
-index
+address
 ]
 ;
 if
@@ -1720,7 +1720,7 @@ Ref
 {
 setAnyRef
 (
-index
+address
 AnyRef
 :
 :
@@ -2369,7 +2369,7 @@ Table
 fillUninitialized
 (
 uint32_t
-index
+address
 uint32_t
 fillCount
 HandleAnyRef
@@ -2384,7 +2384,7 @@ ifdef
 DEBUG
 assertRangeNull
 (
-index
+address
 fillCount
 )
 ;
@@ -2412,7 +2412,7 @@ isAsmJS_
 ;
 fillFuncRef
 (
-index
+address
 fillCount
 FuncRef
 :
@@ -2436,7 +2436,7 @@ Ref
 {
 fillAnyRef
 (
-index
+address
 fillCount
 ref
 )
@@ -2456,7 +2456,7 @@ Table
 assertRangeNull
 (
 uint32_t
-index
+address
 uint32_t
 length
 )
@@ -2480,11 +2480,11 @@ for
 uint32_t
 i
 =
-index
+address
 ;
 i
 <
-index
+address
 +
 length
 ;
@@ -2533,11 +2533,11 @@ for
 uint32_t
 i
 =
-index
+address
 ;
 i
 <
-index
+address
 +
 length
 ;
@@ -2570,7 +2570,7 @@ Table
 assertRangeNotNull
 (
 uint32_t
-index
+address
 uint32_t
 length
 )
@@ -2594,11 +2594,11 @@ for
 uint32_t
 i
 =
-index
+address
 ;
 i
 <
-index
+address
 +
 length
 ;
@@ -2649,11 +2649,11 @@ for
 uint32_t
 i
 =
-index
+address
 ;
 i
 <
-index
+address
 +
 length
 ;

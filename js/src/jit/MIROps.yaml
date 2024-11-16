@@ -11831,7 +11831,7 @@ none
 -
 name
 :
-WasmClampTable64Index
+WasmClampTable64Address
 operands
 :
 input

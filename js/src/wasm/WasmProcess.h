@@ -128,7 +128,7 @@ cs
 bool
 IsHugeMemoryEnabled
 (
-IndexType
+AddressType
 t
 )
 ;

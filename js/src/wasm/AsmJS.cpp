@@ -11273,9 +11273,9 @@ Nothing
 ;
 limits
 .
-indexType
+addressType
 =
-IndexType
+AddressType
 :
 :
 I32
@@ -42085,7 +42085,7 @@ length
 >
 MaxMemoryBytes
 (
-IndexType
+AddressType
 :
 :
 I32

@@ -2058,7 +2058,7 @@ Instance
 *
 instance
 uint32_t
-index
+address
 uint32_t
 tableIndex
 )
@@ -2087,7 +2087,7 @@ Instance
 *
 instance
 uint32_t
-index
+address
 void
 *
 value

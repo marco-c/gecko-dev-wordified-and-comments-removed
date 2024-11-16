@@ -8593,7 +8593,7 @@ Args
 args
 MDefinition
 *
-tableIndexOrRef
+tableAddressOrRef
 )
 {
 if
@@ -8665,7 +8665,7 @@ length
 )
 +
 (
-tableIndexOrRef
+tableAddressOrRef
 ?
 1
 :
@@ -8715,7 +8715,7 @@ def
 }
 if
 (
-tableIndexOrRef
+tableAddressOrRef
 )
 {
 ins
@@ -8728,7 +8728,7 @@ argRegs_
 length
 (
 )
-tableIndexOrRef
+tableAddressOrRef
 )
 ;
 }
@@ -9053,7 +9053,7 @@ MBasicBlock
 prePadBlock
 MDefinition
 *
-tableIndexOrRef
+tableAddressOrRef
 =
 nullptr
 )
@@ -9228,7 +9228,7 @@ uint32_t
 stackArgAreaSizeUnaligned
 MDefinition
 *
-tableIndexOrRef
+tableAddressOrRef
 =
 nullptr
 )
@@ -9384,7 +9384,7 @@ uint32_t
 stackArgAreaSizeUnaligned
 MDefinition
 *
-tableIndexOrRef
+tableAddressOrRef
 =
 nullptr
 )
