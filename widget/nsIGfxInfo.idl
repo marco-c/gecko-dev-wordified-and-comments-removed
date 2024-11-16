@@ -301,7 +301,7 @@ Unknown_Platform
 Windows_Platform
 =
 2
-MacOS_Unknown
+MacOS_Platform
 =
 3
 Android_Unknown_Release_Version
@@ -352,12 +352,6 @@ Linux_Fedora_38
 Linux_Fedora_39
 =
 19
-MacOS_13_plus
-=
-20
-MacOS_sub_13
-=
-21
 }
 ;
 readonly
