@@ -1,0 +1,15 @@
+window
+.
+inscope_test_result
+=
+import
+.
+meta
+.
+resolve
+(
+"
+a
+"
+)
+;
