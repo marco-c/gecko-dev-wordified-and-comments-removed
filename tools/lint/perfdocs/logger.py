@@ -280,8 +280,8 @@ type
 (
 files
 )
-!
-=
+is
+not
 list
 :
             

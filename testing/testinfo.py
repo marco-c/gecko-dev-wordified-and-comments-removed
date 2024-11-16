@@ -1814,8 +1814,7 @@ type
 (
 new_value
 )
-=
-=
+is
 int
 :
                 

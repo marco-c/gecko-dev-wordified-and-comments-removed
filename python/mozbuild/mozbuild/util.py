@@ -1163,8 +1163,7 @@ type
 (
 capture_diff
 )
-=
-=
+is
 bool
         
 assert
@@ -1172,8 +1171,7 @@ type
 (
 dry_run
 )
-=
-=
+is
 bool
         
 assert

@@ -4002,8 +4002,7 @@ type
 (
 member
 )
-=
-=
+is
 xpidl
 .
 Attribute
@@ -4091,8 +4090,7 @@ type
 (
 member
 )
-=
-=
+is
 xpidl
 .
 Method
@@ -4206,8 +4204,7 @@ type
 (
 member
 )
-=
-=
+is
 xpidl
 .
 ConstMember
@@ -4276,8 +4273,7 @@ type
 (
 member
 )
-=
-=
+is
 xpidl
 .
 CEnum
@@ -4361,8 +4357,7 @@ type
 (
 member
 )
-=
-=
+is
 xpidl
 .
 Attribute
@@ -4472,8 +4467,7 @@ type
 (
 member
 )
-=
-=
+is
 xpidl
 .
 Method

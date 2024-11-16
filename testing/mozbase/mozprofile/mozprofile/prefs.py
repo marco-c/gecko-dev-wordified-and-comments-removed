@@ -895,8 +895,8 @@ type
 (
 i
 )
-!
-=
+is
+not
 list
 or
 len

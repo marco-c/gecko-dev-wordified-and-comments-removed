@@ -625,13 +625,12 @@ values
 (
 )
 if
-not
 type
 (
 val
 )
-=
-=
+is
+not
 list
 )
 :

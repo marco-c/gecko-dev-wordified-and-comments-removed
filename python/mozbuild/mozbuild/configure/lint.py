@@ -1248,8 +1248,8 @@ type
 (
 default
 )
-!
-=
+is
+not
 bool
 :
             

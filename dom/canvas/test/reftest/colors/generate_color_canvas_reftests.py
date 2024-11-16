@@ -105,8 +105,7 @@ type
 (
 a
 )
-=
-=
+is
 list
 f
 "

@@ -160,8 +160,7 @@ type
 (
 tmpl
 )
-=
-=
+is
 Template
     
 def

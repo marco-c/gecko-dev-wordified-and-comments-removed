@@ -526,8 +526,7 @@ type
 (
 other
 )
-=
-=
+is
 tuple
 :
             
@@ -562,8 +561,8 @@ type
 (
 other
 )
-!
-=
+is
+not
 type
 (
 self

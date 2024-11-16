@@ -52,8 +52,7 @@ type
 (
 v
 )
-=
-=
+is
 bool
 :
         

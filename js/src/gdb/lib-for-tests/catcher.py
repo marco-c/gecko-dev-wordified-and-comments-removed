@@ -70,8 +70,6 @@ locals
 )
 except
 Exception
-as
-err
 :
     
 sys

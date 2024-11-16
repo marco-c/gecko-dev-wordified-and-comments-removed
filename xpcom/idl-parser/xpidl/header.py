@@ -3055,8 +3055,7 @@ type
 (
 m
 )
-=
-=
+is
 xpidl
 .
 Attribute
@@ -3096,8 +3095,7 @@ type
 (
 m
 )
-=
-=
+is
 xpidl
 .
 Method

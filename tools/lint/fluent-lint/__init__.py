@@ -1915,8 +1915,7 @@ node
 .
 selector
 )
-=
-=
+is
 ast
 .
 VariableReference

@@ -2240,8 +2240,7 @@ type
 (
 historyResult
 )
-=
-=
+is
 str
 :
             
@@ -2354,8 +2353,7 @@ type
 (
 formFieldResults
 )
-=
-=
+is
 str
 :
             
@@ -2578,8 +2576,7 @@ type
 (
 formAutofillResults
 )
-=
-=
+is
 str
 :
             
@@ -3406,8 +3403,8 @@ type
 (
 result
 )
-!
-=
+is
+not
 dict
 :
             

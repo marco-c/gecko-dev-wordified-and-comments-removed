@@ -1965,8 +1965,7 @@ type
 (
 c
 )
-=
-=
+is
 type
         
 and

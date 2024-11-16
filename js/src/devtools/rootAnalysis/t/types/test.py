@@ -1,7 +1,3 @@
-from
-collections
-import
-defaultdict
 test
 .
 compile

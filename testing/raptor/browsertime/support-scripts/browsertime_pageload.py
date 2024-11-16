@@ -116,8 +116,8 @@ type
 (
 mname
 )
-!
-=
+is
+not
 list
 :
         

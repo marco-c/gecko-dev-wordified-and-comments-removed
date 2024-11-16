@@ -38,8 +38,7 @@ type
 (
 pkg
 )
-=
-=
+is
 str
 :
                 

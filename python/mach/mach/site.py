@@ -875,8 +875,7 @@ type
 (
 self
 )
-=
-=
+is
 type
 (
 other

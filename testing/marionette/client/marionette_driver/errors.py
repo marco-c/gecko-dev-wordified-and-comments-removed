@@ -851,8 +851,7 @@ type
 (
 e
 )
-=
-=
+is
 type
 and
 issubclass

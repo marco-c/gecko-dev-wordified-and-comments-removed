@@ -3591,13 +3591,11 @@ arg
             
 if
 t
-=
-=
+is
 int
 or
 t
-=
-=
+is
 float
 :
                 
@@ -3623,8 +3621,7 @@ arg
             
 elif
 t
-=
-=
+is
 bool
 :
                 
@@ -3650,8 +3647,7 @@ arg
             
 elif
 t
-=
-=
+is
 str
 :
                 
@@ -3744,8 +3740,7 @@ type
 (
 target
 )
-=
-=
+is
 list
 :
                 

@@ -4941,6 +4941,7 @@ else
 :
                 
 raise
+exc
         
 shutil
 .
