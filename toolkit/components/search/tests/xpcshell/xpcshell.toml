@@ -454,13 +454,6 @@ js
 ]
 [
 "
-test_getSubmission_params_purpose
-.
-js
-"
-]
-[
-"
 test_identifiers
 .
 js

@@ -58,9 +58,6 @@ engines
 Google
 "
 "
-searchbar
-"
-"
 client
 =
 ubuntu
@@ -73,9 +70,6 @@ hasParams
 engines
 "
 Google
-"
-"
-searchbar
 "
 "
 channel
@@ -132,9 +126,6 @@ engines
 Google
 "
 "
-searchbar
-"
-"
 client
 =
 ubuntu
@@ -147,9 +138,6 @@ hasParams
 engines
 "
 Google
-"
-"
-searchbar
 "
 "
 channel
@@ -211,9 +199,6 @@ engines
 Google
 "
 "
-searchbar
-"
-"
 client
 =
 ubuntu
@@ -228,9 +213,6 @@ hasParams
 engines
 "
 Google
-"
-"
-searchbar
 "
 "
 channel
@@ -293,9 +275,6 @@ engines
 Google
 "
 "
-searchbar
-"
-"
 client
 =
 ubuntu
@@ -310,9 +289,6 @@ hasParams
 engines
 "
 Google
-"
-"
-searchbar
 "
 "
 channel
@@ -414,9 +390,6 @@ engines
 Qwant
 "
 "
-searchbar
-"
-"
 client
 =
 firefoxqwant
@@ -479,9 +452,6 @@ Qwant
 Junior
 "
 "
-searchbar
-"
-"
 client
 =
 firefoxqwant
@@ -517,9 +487,6 @@ hasParams
 engines
 "
 Qwant
-"
-"
-searchbar
 "
 "
 client
@@ -584,9 +551,6 @@ Qwant
 Junior
 "
 "
-searchbar
-"
-"
 client
 =
 firefoxqwant
@@ -636,9 +600,6 @@ engines
 &
 1
 Suche
-"
-"
-searchbar
 "
 "
 enc
@@ -699,9 +660,6 @@ engines
 "
 GMX
 Suche
-"
-"
-searchbar
 "
 "
 enc
@@ -760,9 +718,6 @@ GMX
 Shopping
 "
 "
-searchbar
-"
-"
 origin
 =
 br_osd
@@ -797,9 +752,6 @@ mail
 .
 com
 search
-"
-"
-searchbar
 "
 "
 enc
@@ -862,9 +814,6 @@ WEB
 .
 DE
 Suche
-"
-"
-searchbar
 "
 "
 enc
@@ -1430,9 +1379,6 @@ engines
 DuckDuckGo
 "
 "
-searchbar
-"
-"
 t
 =
 lm
@@ -1445,9 +1391,6 @@ hasParams
 engines
 "
 Google
-"
-"
-searchbar
 "
 "
 client
@@ -1538,9 +1481,6 @@ engines
 DuckDuckGo
 "
 "
-searchbar
-"
-"
 t
 =
 lm
@@ -1553,9 +1493,6 @@ hasParams
 engines
 "
 Google
-"
-"
-searchbar
 "
 "
 client
@@ -1736,7 +1673,6 @@ hasParams
 (
 engines
 engineName
-purpose
 param
 )
 {
@@ -1789,7 +1725,6 @@ text
 /
 html
 "
-purpose
 )
 ;
 let
