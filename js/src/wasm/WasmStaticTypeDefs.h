@@ -22,6 +22,12 @@ TypeDef
 *
 arrayMutI16
 ;
+static
+const
+TypeDef
+*
+jsTag
+;
 [
 [
 nodiscard

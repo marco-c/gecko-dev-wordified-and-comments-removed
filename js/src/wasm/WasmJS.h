@@ -2154,15 +2154,6 @@ valueTypes
 )
 const
 ;
-wasm
-:
-:
-ResultType
-resultType
-(
-)
-const
-;
 }
 ;
 class
