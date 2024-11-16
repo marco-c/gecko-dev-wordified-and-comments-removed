@@ -123,7 +123,7 @@ version
 .
 0
 .
-210
+214
 "
 authors
 =
@@ -158,6 +158,9 @@ build
 .
 rs
 "
+autolib
+=
+false
 autobins
 =
 false
@@ -451,5 +454,5 @@ version
 .
 0
 .
-210
+214
 "

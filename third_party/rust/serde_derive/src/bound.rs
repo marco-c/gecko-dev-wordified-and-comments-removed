@@ -1573,6 +1573,17 @@ syn
 TypeParamBound
 :
 :
+PreciseCapture
+(
+_
+)
+|
+syn
+:
+:
+TypeParamBound
+:
+:
 Verbatim
 (
 _

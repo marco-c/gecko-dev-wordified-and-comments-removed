@@ -105,14 +105,10 @@ impl
 <
 '
 a
-'
-b
 >
 Serializer
 for
 &
-'
-a
 mut
 fmt
 :
@@ -120,7 +116,7 @@ fmt
 Formatter
 <
 '
-b
+a
 >
 {
 type

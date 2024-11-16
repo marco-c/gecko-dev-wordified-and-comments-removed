@@ -20,7 +20,7 @@ serde_derive
 .
 0
 .
-210
+214
 "
 )
 ]
@@ -72,6 +72,10 @@ clippy
 :
 :
 match_like_matches_macro
+clippy
+:
+:
+needless_lifetimes
 clippy
 :
 :
@@ -171,6 +175,10 @@ clippy
 :
 :
 too_many_lines
+clippy
+:
+:
+uninlined_format_args
 clippy
 :
 :
