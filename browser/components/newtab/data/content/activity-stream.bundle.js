@@ -56861,6 +56861,8 @@ newtab
 -
 personalize
 -
+settings
+-
 icon
 -
 label
@@ -56952,7 +56954,7 @@ id
 "
 newtab
 -
-personalize
+settings
 -
 dialog
 -
