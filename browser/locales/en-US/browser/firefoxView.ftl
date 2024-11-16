@@ -1993,13 +1993,12 @@ text
 -
 box
 -
-syncedtabs
+tabs
 =
 .
 placeholder
 =
 Search
-synced
 tabs
 #
 Placeholder

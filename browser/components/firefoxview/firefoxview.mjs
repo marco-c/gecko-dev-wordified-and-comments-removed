@@ -357,7 +357,7 @@ text
 -
 box
 -
-syncedtabs
+tabs
 "
 }
 {

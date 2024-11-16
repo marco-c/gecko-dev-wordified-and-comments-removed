@@ -1709,7 +1709,7 @@ text
 -
 box
 -
-syncedtabs
+tabs
 "
 data
 -
