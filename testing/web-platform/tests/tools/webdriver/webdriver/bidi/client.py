@@ -626,6 +626,17 @@ list
         
 self
 .
+bluetooth
+=
+modules
+.
+Bluetooth
+(
+self
+)
+        
+self
+.
 browser
 =
 modules
