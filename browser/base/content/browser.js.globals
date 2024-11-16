@@ -201,7 +201,7 @@ setToolbarVisibility
 updateToggleControlLabel
 "
 "
-TabletModeUpdater
+Win10TabletModeUpdater
 "
 "
 displaySecurityInfo

@@ -1156,7 +1156,7 @@ init
 (
 )
 ;
-TabletModeUpdater
+Win10TabletModeUpdater
 .
 init
 (
@@ -4553,7 +4553,7 @@ uninit
 (
 )
 ;
-TabletModeUpdater
+Win10TabletModeUpdater
 .
 uninit
 (

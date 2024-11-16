@@ -20181,8 +20181,8 @@ checked
 )
 ;
 }
-var
-TabletModeUpdater
+const
+Win10TabletModeUpdater
 =
 {
 init
@@ -20303,7 +20303,11 @@ documentElement
 setAttribute
 (
 "
-tabletmode
+win10
+-
+tablet
+-
+mode
 "
 "
 true
@@ -20320,7 +20324,11 @@ documentElement
 removeAttribute
 (
 "
-tabletmode
+win10
+-
+tablet
+-
+mode
 "
 )
 ;
