@@ -6396,6 +6396,9 @@ guard
 -
 >
 count
+=
+=
+0
 )
 {
 source_
