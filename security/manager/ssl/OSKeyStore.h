@@ -21,6 +21,13 @@ h
 #
 include
 "
+nsISerialEventTarget
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -407,6 +414,12 @@ unique_ptr
 AbstractOSKeyStore
 >
 mKs
+;
+nsCOMPtr
+<
+nsISerialEventTarget
+>
+mBackgroundSerialEventTarget
 ;
 }
 ;
