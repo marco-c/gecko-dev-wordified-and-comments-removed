@@ -1207,7 +1207,7 @@ async
 function
 evaluateExpressions
 (
-scripts
+expressions
 options
 )
 {
@@ -1216,16 +1216,16 @@ Promise
 .
 all
 (
-scripts
+expressions
 .
 map
 (
-script
+expression
 =
 >
 evaluate
 (
-script
+expression
 options
 )
 )
@@ -1236,10 +1236,11 @@ async
 function
 evaluate
 (
-script
+expression
 {
 frameId
 threadId
+evalInTracer
 }
 =
 {
@@ -1255,7 +1256,7 @@ currentTarget
 |
 |
 !
-script
+expression
 )
 {
 return
@@ -1285,7 +1286,7 @@ scriptCommand
 .
 execute
 (
-script
+expression
 {
 frameActor
 :
@@ -1294,6 +1295,7 @@ selectedTargetFront
 disableBreaks
 :
 true
+evalInTracer
 }
 )
 ;
