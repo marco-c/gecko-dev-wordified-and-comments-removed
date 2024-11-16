@@ -2951,13 +2951,9 @@ p6
 -
 0
 -
-android
--
 aarch64
 -
 shippable
--
-qr
 /
 opt
 :
@@ -3080,13 +3076,9 @@ s24
 -
 0
 -
-android
--
 aarch64
 -
 shippable
--
-qr
 /
 opt
 :
