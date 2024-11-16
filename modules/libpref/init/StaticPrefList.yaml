@@ -107302,13 +107302,13 @@ webgl
 enabled
 type
 :
-bool
+RelaxedAtomicBool
 value
 :
 true
 mirror
 :
-once
+always
 #
 Use
 gdk_window_move_to_rect

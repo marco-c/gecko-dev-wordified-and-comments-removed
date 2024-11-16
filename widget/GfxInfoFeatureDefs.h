@@ -644,15 +644,3 @@ super
 resolution
 "
 )
-GFXINFO_FEATURE
-(
-DMABUF_WEBGL
-"
-DMABUF_WEBGL
-"
-"
-dmabuf
--
-webgl
-"
-)
