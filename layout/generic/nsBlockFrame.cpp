@@ -7871,6 +7871,12 @@ aReflowInput
 bool
 needFloatManager
 =
+!
+aReflowInput
+.
+mFloatManager
+|
+|
 nsBlockFrame
 :
 :
