@@ -40,4 +40,11 @@ guides
 /
 index
 >
+API
+References
+<
+api
+/
+index
+>
 uniffi

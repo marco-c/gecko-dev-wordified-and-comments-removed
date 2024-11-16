@@ -11,6 +11,17 @@ function_definitions
 )
 %
 }
+{
+{
+func
+.
+js_docstring
+(
+0
+)
+-
+}
+}
 export
 function
 {

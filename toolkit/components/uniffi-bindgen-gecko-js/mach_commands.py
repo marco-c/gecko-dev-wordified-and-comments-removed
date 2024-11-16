@@ -62,6 +62,20 @@ fixtures
 /
 generated
 "
+DOCS_PATH
+=
+"
+docs
+/
+rust
+-
+components
+/
+api
+/
+js
+/
+"
 def
 build_gkrust_uniffi_library
 (
@@ -590,6 +604,16 @@ path
 "
         
 CPP_PATH
+        
+"
+-
+-
+docs
+-
+path
+"
+        
+DOCS_PATH
     
 ]
     
