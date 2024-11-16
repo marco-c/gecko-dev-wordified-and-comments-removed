@@ -3619,6 +3619,16 @@ SpoofLocaleEnglish
 )
 ;
 static
+bool
+SpoofLocaleEnglish
+(
+const
+Document
+*
+aDocument
+)
+;
+static
 nsresult
 GetLocalizedString
 (
