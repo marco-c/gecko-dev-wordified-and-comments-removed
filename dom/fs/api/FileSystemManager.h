@@ -241,10 +241,7 @@ aHolder
 void
 BeginRequest
 (
-std
-:
-:
-function
+MoveOnlyFunction
 <
 void
 (
@@ -257,10 +254,7 @@ FileSystemManagerChild
 &
 &
 aSuccess
-std
-:
-:
-function
+MoveOnlyFunction
 <
 void
 (
