@@ -897,6 +897,11 @@ this
 b
 .
 dateAdded
+this
+.
+b
+.
+lastModified
 null
 )
 }
@@ -938,6 +943,11 @@ this
 f
 .
 dateAdded
+this
+.
+f
+.
+lastModified
 this
 .
 f
@@ -988,6 +998,11 @@ this
 s
 .
 dateAdded
+this
+.
+s
+.
+lastModified
 null
 )
 }

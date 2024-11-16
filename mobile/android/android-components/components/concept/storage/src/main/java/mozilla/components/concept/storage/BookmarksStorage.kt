@@ -1086,6 +1086,10 @@ dateAdded
 :
 Long
 val
+lastModified
+:
+Long
+val
 children
 :
 List

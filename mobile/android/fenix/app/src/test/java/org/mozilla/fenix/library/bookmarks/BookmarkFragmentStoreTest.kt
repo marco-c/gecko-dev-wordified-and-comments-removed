@@ -1467,6 +1467,7 @@ mozilla
 org
 "
 0
+0
 null
 )
 private
@@ -1487,6 +1488,7 @@ SEPARATOR
 1u
 null
 null
+0
 0
 null
 )
@@ -1510,6 +1512,7 @@ FOLDER
 Subfolder
 "
 null
+0
 0
 listOf
 (
@@ -1553,6 +1556,7 @@ firefox
 /
 "
 0
+0
 null
 )
 private
@@ -1573,6 +1577,7 @@ null
 Mobile
 "
 null
+0
 0
 listOf
 (
@@ -1601,6 +1606,7 @@ Mobile
 "
 null
 0
+0
 listOf
 (
 separator
@@ -1626,6 +1632,7 @@ Desktop
 Bookmarks
 "
 null
+0
 0
 listOf
 (

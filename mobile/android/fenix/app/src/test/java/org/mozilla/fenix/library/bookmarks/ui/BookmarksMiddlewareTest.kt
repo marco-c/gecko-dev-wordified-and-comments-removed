@@ -10752,7 +10752,10 @@ url
 null
 dateAdded
 =
-0L
+0
+lastModified
+=
+0
 children
 =
 listOf
@@ -10846,7 +10849,10 @@ url
 null
 dateAdded
 =
-0L
+0
+lastModified
+=
+0
 children
 =
 generateBookmarkFolders
@@ -10899,7 +10905,10 @@ url
 null
 dateAdded
 =
-0L
+0
+lastModified
+=
+0
 children
 =
 bookmarkItems
@@ -10943,7 +10952,10 @@ url
 url
 dateAdded
 =
-0L
+0
+lastModified
+=
+0
 children
 =
 listOf

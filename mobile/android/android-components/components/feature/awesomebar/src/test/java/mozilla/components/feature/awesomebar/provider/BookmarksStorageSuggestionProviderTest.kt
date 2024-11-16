@@ -349,6 +349,7 @@ mozilla
 org
 "
 0
+0
 null
 )
 Test
@@ -2059,6 +2060,7 @@ parentGuid
 position
 title
 url
+0
 0
 null
 )

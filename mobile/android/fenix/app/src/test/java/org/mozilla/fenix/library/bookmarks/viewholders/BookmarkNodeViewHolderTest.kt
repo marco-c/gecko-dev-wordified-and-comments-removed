@@ -338,6 +338,9 @@ org
 dateAdded
 =
 0
+lastModified
+=
+0
 children
 =
 listOf
@@ -377,6 +380,9 @@ url
 =
 null
 dateAdded
+=
+0
+lastModified
 =
 0
 children
