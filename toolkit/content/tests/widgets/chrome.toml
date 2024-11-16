@@ -255,6 +255,13 @@ html
 ]
 [
 "
+test_moz_select
+.
+html
+"
+]
+[
+"
 test_moz_support_link
 .
 html
