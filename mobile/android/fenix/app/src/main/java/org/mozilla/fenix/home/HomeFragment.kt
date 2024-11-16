@@ -6708,13 +6708,6 @@ initHomepage
 {
 binding
 .
-homeAppBar
-.
-isVisible
-=
-false
-binding
-.
 homepageView
 .
 isVisible
