@@ -2542,6 +2542,9 @@ GetAxisLockMode
 )
 =
 =
+AxisLockMode
+:
+:
 STANDARD
 |
 |
@@ -2550,6 +2553,9 @@ GetAxisLockMode
 )
 =
 =
+AxisLockMode
+:
+:
 STICKY
 |
 |
@@ -2558,6 +2564,9 @@ GetAxisLockMode
 )
 =
 =
+AxisLockMode
+:
+:
 BREAKABLE
 )
 ;
@@ -11104,6 +11113,9 @@ GetAxisLockMode
 )
 =
 =
+AxisLockMode
+:
+:
 DOMINANT_AXIS
 )
 {
@@ -14575,6 +14587,9 @@ GetAxisLockMode
 )
 =
 =
+AxisLockMode
+:
+:
 STICKY
 |
 |
@@ -14583,6 +14598,9 @@ GetAxisLockMode
 )
 =
 =
+AxisLockMode
+:
+:
 BREAKABLE
 )
 &
@@ -14711,6 +14729,9 @@ GetAxisLockMode
 )
 !
 =
+AxisLockMode
+:
+:
 BREAKABLE
 )
 {
@@ -14788,6 +14809,9 @@ GetAxisLockMode
 )
 !
 =
+AxisLockMode
+:
+:
 BREAKABLE
 )
 {
@@ -14825,6 +14849,9 @@ GetAxisLockMode
 )
 !
 =
+AxisLockMode
+:
+:
 BREAKABLE
 )
 {
