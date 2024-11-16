@@ -302,6 +302,12 @@ eSelectBeginLine
 case
 eSelectEndLine
 :
+case
+eSelectBeginParagraph
+:
+case
+eSelectEndParagraph
+:
 return
 true
 ;

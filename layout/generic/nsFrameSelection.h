@@ -1152,6 +1152,16 @@ bool
 aExtend
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
+nsresult
+IntraParagraphMove
+(
+bool
+aForward
+bool
+aExtend
+)
+;
 template
 <
 typename
