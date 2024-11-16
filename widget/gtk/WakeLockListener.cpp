@@ -4038,6 +4038,12 @@ mState
 )
 )
 ;
+#
+if
+defined
+(
+MOZ_ENABLE_DBUS
+)
 if
 (
 mCancellable
@@ -4053,6 +4059,8 @@ mCancellable
 nullptr
 ;
 }
+#
+endif
 }
 bool
 WakeLockTopic
