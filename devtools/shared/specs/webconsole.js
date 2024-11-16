@@ -732,6 +732,17 @@ nullable
 boolean
 "
 )
+evalInTracer
+:
+Option
+(
+0
+"
+nullable
+:
+boolean
+"
+)
 }
 response
 :
