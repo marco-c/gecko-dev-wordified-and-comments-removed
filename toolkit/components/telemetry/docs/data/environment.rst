@@ -387,6 +387,11 @@ the
 default
 browser
 .
+Checked
+once
+near
+startup
+.
 On
 Windows
 this
