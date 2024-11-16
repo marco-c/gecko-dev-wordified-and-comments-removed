@@ -813,6 +813,8 @@ skin
 icons
 /
 edit
+-
+outline
 .
 svg
 "
