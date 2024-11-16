@@ -18,6 +18,10 @@ cast_possible_truncation
 clippy
 :
 :
+enum_glob_use
+clippy
+:
+:
 manual_find
 clippy
 :
@@ -82,6 +86,9 @@ generics
 ;
 mod
 prop
+;
+mod
+scan_expr
 ;
 mod
 span
