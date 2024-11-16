@@ -1995,6 +1995,19 @@ string
 }
 config
 .
+engineId
+-
+The
+engine
+id
+.
+*
+param
+{
+string
+}
+config
+.
 taskName
 -
 name
@@ -2127,6 +2140,7 @@ async
 getModelFile
 (
 {
+engineId
 taskName
 url
 rootUrl
@@ -2296,6 +2310,7 @@ modelHub
 getModelFileAsArrayBuffer
 (
 {
+engineId
 taskName
 .
 .
