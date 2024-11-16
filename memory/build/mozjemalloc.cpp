@@ -12993,7 +12993,11 @@ run_pages
 .
 bits
 &
+(
 CHUNK_MAP_ALLOCATED
+|
+CHUNK_MAP_BUSY
+)
 )
 =
 =
@@ -13152,7 +13156,11 @@ run_ind
 .
 bits
 &
+(
 CHUNK_MAP_ALLOCATED
+|
+CHUNK_MAP_BUSY
+)
 )
 =
 =
