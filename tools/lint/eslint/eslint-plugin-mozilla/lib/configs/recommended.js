@@ -50,16 +50,6 @@ return
 "
 error
 "
-curly
-:
-[
-"
-error
-"
-"
-all
-"
-]
 "
 dot
 -

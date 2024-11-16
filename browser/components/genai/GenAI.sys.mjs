@@ -1767,8 +1767,10 @@ this
 .
 _initialized
 )
+{
 return
 ;
+}
 this
 .
 _initialized

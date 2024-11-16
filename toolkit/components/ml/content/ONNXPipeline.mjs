@@ -1622,9 +1622,11 @@ navigator
 .
 gpu
 )
+{
 return
 false
 ;
+}
 const
 adapter
 =

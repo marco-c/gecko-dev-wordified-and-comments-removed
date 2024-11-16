@@ -2095,6 +2095,7 @@ hasOwnProperty
 k
 )
 )
+{
 a
 [
 k
@@ -2115,6 +2116,7 @@ b
 k
 ]
 ;
+}
 }
 return
 a
