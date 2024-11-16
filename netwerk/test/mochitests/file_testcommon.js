@@ -113,17 +113,6 @@ gExpectedLoads
 =
 loads
 ;
-if
-(
-isXOrigin
-)
-{
-gExpectedCookies
--
-=
-1
-;
-}
 window
 .
 addEventListener
