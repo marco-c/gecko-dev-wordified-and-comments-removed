@@ -209,6 +209,14 @@ processID
 ;
 this
 .
+isFallbackExtensionDocument
+=
+json
+.
+isFallbackExtensionDocument
+;
+this
+.
 targetForm
 =
 json
