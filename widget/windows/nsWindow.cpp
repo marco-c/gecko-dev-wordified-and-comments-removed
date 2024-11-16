@@ -6656,7 +6656,7 @@ FALSE
 ;
 mHasBeenShown
 =
-false
+true
 ;
 }
 }
