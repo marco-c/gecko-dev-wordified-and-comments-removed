@@ -1081,12 +1081,7 @@ refreshInterval
 std
 :
 :
-max
-(
-std
-:
-:
-min
+clamp
 (
 nsRefreshDriver
 :
@@ -1094,9 +1089,8 @@ nsRefreshDriver
 DefaultInterval
 (
 )
-20
-)
 4
+20
 )
 ;
 TimeDuration

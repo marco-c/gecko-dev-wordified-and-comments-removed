@@ -1427,16 +1427,10 @@ mLinesInBuffer
 std
 :
 :
-min
-(
-std
-:
-:
-max
+clamp
 (
 mLinesInBuffer
 0
-)
 mWindowCapacity
 )
 ;
