@@ -12422,6 +12422,12 @@ display
 :
 none
 ;
+word
+-
+wrap
+:
+anywhere
+;
 &
 .
 show
