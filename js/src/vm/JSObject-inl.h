@@ -2472,6 +2472,9 @@ proto
 )
 allocKind
 newKind
+ObjectFlags
+(
+)
 )
 ;
 return
