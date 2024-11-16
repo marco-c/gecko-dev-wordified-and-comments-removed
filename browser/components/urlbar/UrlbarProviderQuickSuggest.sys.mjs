@@ -997,7 +997,9 @@ mlBackend
 .
 query
 (
-searchString
+queryContext
+.
+trimmedLowerCaseSearchString
 )
 )
 ;
