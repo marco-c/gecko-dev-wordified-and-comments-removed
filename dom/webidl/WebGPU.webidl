@@ -4637,8 +4637,6 @@ GPUStencilValue
 reference
 )
 ;
-/
-/
 undefined
 beginOcclusionQuery
 (
@@ -4646,8 +4644,6 @@ GPUSize32
 queryIndex
 )
 ;
-/
-/
 undefined
 endOcclusionQuery
 (
