@@ -77,13 +77,6 @@ h
 #
 include
 "
-nsAlgorithm
-.
-h
-"
-#
-include
-"
 mozilla
 /
 gfx
