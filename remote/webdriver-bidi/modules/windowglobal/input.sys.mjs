@@ -1992,6 +1992,7 @@ reverse
 (
 )
 ;
+await
 undoActions
 .
 dispatch
