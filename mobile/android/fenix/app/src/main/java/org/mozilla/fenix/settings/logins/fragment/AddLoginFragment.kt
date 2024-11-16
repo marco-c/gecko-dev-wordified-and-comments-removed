@@ -2025,7 +2025,7 @@ BiometricAuthenticationManager
 .
 biometricAuthenticationNeededInfo
 .
-shouldAuthenticate
+shouldShowAuthenticationPrompt
 =
 false
 }

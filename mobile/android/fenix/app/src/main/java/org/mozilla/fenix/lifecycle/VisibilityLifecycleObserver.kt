@@ -130,8 +130,15 @@ BiometricAuthenticationManager
 .
 biometricAuthenticationNeededInfo
 .
-shouldAuthenticate
+shouldShowAuthenticationPrompt
 =
 true
+BiometricAuthenticationManager
+.
+biometricAuthenticationNeededInfo
+.
+authenticated
+=
+false
 }
 }
