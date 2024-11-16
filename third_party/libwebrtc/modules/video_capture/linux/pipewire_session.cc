@@ -377,12 +377,10 @@ PW_KEY_NODE_DESCRIPTION
 )
 unique_id_
 (
-rtc
-:
-:
-ToString
+spa_dict_lookup
 (
-id
+props
+PW_KEY_NODE_NAME
 )
 )
 {
