@@ -3622,7 +3622,7 @@ return
 if
 (
 !
-IsTopLevelWindowType
+IsTopLevelWidget
 (
 )
 )
@@ -5577,7 +5577,7 @@ mSizeMode
 nsSizeMode_Normal
 &
 &
-IsTopLevelWindowType
+IsTopLevelWidget
 (
 )
 )
@@ -16434,7 +16434,7 @@ aNotify
 if
 (
 !
-IsTopLevelWindowType
+IsTopLevelWidget
 (
 )
 )
@@ -19586,7 +19586,7 @@ if
 mGdkWindow
 &
 &
-IsTopLevelWindowType
+IsTopLevelWidget
 (
 )
 )
@@ -19634,7 +19634,7 @@ GetScreenBounds
 ;
 if
 (
-IsTopLevelWindowType
+IsTopLevelWidget
 (
 )
 )
@@ -20476,7 +20476,7 @@ const
 bool
 leavingTopLevel
 =
-IsTopLevelWindowType
+IsTopLevelWidget
 (
 )
 ;
@@ -23376,7 +23376,7 @@ OnContainerFocusOutEvent
 ;
 if
 (
-IsTopLevelWindowType
+IsTopLevelWidget
 (
 )
 )
@@ -25780,7 +25780,7 @@ aNotify
 if
 (
 !
-IsTopLevelWindowType
+IsTopLevelWidget
 (
 )
 )
@@ -28390,7 +28390,7 @@ GetPlatform
 ;
 if
 (
-IsTopLevelWindowType
+IsTopLevelWidget
 (
 )
 )
@@ -30014,7 +30014,7 @@ widget_wayland_vsync_enabled_AtStartup
 )
 &
 &
-IsTopLevelWindowType
+IsTopLevelWidget
 (
 )
 )
@@ -31237,7 +31237,7 @@ PauseCompositorFlickering
 bool
 pauseCompositor
 =
-IsTopLevelWindowType
+IsTopLevelWidget
 (
 )
 &
@@ -33004,7 +33004,7 @@ return
 if
 (
 !
-IsTopLevelWindowType
+IsTopLevelWidget
 (
 )
 )
@@ -42207,7 +42207,7 @@ GdkCeiledScaleFactor
 {
 if
 (
-IsTopLevelWindowType
+IsTopLevelWidget
 (
 )
 )
@@ -42263,7 +42263,7 @@ fractional_scale
 {
 if
 (
-IsTopLevelWindowType
+IsTopLevelWidget
 (
 )
 )
@@ -46603,7 +46603,7 @@ aState
 if
 (
 !
-IsTopLevelWindowType
+IsTopLevelWidget
 (
 )
 )
