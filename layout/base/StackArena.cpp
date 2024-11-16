@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsAlgorithm
-.
-h
-"
-#
-include
-"
 nsDebug
 .
 h
@@ -427,10 +420,7 @@ Push
 ;
 aSize
 =
-NS_ROUNDUP
-<
-size_t
->
+RoundUpToMultiple
 (
 aSize
 8
