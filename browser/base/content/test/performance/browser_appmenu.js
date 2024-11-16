@@ -288,13 +288,6 @@ not
 disabled
 ]
 )
-:
-not
-(
-[
-hidden
-]
-)
 "
 )
 )
