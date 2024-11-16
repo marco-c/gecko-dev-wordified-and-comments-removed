@@ -9757,6 +9757,19 @@ browserToolbar
 BrowserToolbar
 )
 {
+if
+(
+context
+?
+.
+isToolbarAtBottom
+(
+)
+=
+=
+true
+)
+{
 val
 defaultBackground
 =
@@ -9780,6 +9793,7 @@ browserToolbar
 background
 =
 defaultBackground
+}
 }
 private
 var
