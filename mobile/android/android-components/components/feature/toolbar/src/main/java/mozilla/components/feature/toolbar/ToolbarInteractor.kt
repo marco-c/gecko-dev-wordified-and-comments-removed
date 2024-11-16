@@ -204,6 +204,8 @@ isUrl
 -
 >
 loadUrlUseCase
+.
+invoke
 (
 text
 .
@@ -227,6 +229,8 @@ else
 -
 >
 loadUrlUseCase
+.
+invoke
 (
 text
 )

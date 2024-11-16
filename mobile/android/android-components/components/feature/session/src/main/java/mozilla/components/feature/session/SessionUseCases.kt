@@ -287,7 +287,6 @@ session
 .
 *
 /
-operator
 fun
 invoke
 (

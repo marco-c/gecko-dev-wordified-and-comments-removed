@@ -584,7 +584,6 @@ SessionUseCases
 LoadUrlUseCase
 {
 override
-operator
 fun
 invoke
 (

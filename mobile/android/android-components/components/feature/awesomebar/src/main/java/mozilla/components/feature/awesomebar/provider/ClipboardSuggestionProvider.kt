@@ -579,6 +579,8 @@ onSuggestionClicked
 =
 {
 loadUrlUseCase
+.
+invoke
 (
 url
 )
