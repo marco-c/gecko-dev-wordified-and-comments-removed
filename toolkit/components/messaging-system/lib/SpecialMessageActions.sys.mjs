@@ -3343,16 +3343,6 @@ case
 SHOW_MIGRATION_WIZARD
 "
 :
-Services
-.
-tm
-.
-dispatchToMainThread
-(
-(
-)
-=
->
 lazy
 .
 MigrationUtils
@@ -3379,7 +3369,6 @@ data
 .
 source
 }
-)
 )
 ;
 break

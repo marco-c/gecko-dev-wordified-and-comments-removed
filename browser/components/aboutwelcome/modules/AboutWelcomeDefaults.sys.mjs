@@ -521,6 +521,9 @@ type
 "
 FXA_SIGNIN_FLOW
 "
+needsAwait
+:
+true
 navigate
 :
 "
