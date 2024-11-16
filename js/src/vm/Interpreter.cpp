@@ -10846,13 +10846,6 @@ return
 false
 ;
 }
-ActivationEntryMonitor
-entryMonitor
-(
-cx
-entryFrame
-)
-;
 InterpreterActivation
 activation
 (
