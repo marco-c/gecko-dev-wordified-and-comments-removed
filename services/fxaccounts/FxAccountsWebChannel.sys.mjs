@@ -3256,6 +3256,10 @@ else
 {
 existingServices
 =
+signedInUser
+.
+requestedServices
+?
 JSON
 .
 parse
@@ -3264,6 +3268,9 @@ signedInUser
 .
 requestedServices
 )
+:
+{
+}
 ;
 log
 .
