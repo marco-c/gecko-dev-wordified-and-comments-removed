@@ -3990,11 +3990,9 @@ applicationContext
 {
 changeAppLauncherIconBackgroundColor
 (
-packageManager
+context
 =
-applicationContext
-.
-packageManager
+this
 appAlias
 =
 ComponentName
