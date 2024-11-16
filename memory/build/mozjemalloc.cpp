@@ -17700,7 +17700,11 @@ npages
 .
 bits
 &
+(
 CHUNK_MAP_ALLOCATED
+|
+CHUNK_MAP_BUSY
+)
 )
 =
 =
