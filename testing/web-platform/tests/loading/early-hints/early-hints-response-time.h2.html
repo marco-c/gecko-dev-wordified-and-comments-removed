@@ -255,7 +255,7 @@ assert_greater_than
 (
 entry
 .
-responseStart
+finalResponseHeadersStart
 entry
 .
 firstInterimResponseStart
@@ -264,6 +264,16 @@ delays
 [
 1
 ]
+)
+;
+assert_equals
+(
+entry
+.
+responseStart
+entry
+.
+firstInterimResponseStart
 )
 ;
 }
