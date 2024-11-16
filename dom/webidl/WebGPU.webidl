@@ -1789,6 +1789,9 @@ formats
 rgb9e5ufloat
 "
 "
+rgb10a2uint
+"
+"
 rgb10a2unorm
 "
 "
