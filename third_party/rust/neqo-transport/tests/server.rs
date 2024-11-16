@@ -203,10 +203,6 @@ client
 process
 (
 datagram
-.
-as_ref
-(
-)
 now
 (
 )
@@ -221,7 +217,7 @@ process
 (
 out
 .
-as_dgram_ref
+dgram
 (
 )
 now
@@ -638,7 +634,7 @@ process
 (
 out
 .
-as_dgram_ref
+dgram
 (
 )
 now
@@ -670,7 +666,6 @@ client
 .
 process_input
 (
-&
 dgram
 .
 unwrap
@@ -798,9 +793,8 @@ initial
 =
 client
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -832,6 +826,10 @@ initial
 as_dgram_ref
 (
 )
+.
+cloned
+(
+)
 now
 (
 )
@@ -860,7 +858,7 @@ process
 (
 initial
 .
-as_dgram_ref
+dgram
 (
 )
 now
@@ -954,9 +952,8 @@ initial
 =
 client
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -1031,7 +1028,6 @@ process
 (
 Some
 (
-&
 initial
 )
 now
@@ -1062,7 +1058,6 @@ process
 (
 Some
 (
-&
 other
 )
 now
@@ -1149,9 +1144,8 @@ client_initial1
 =
 client1
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -1176,9 +1170,8 @@ client_initial2
 =
 client2
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -1207,7 +1200,7 @@ process
 (
 client_initial1
 .
-as_dgram_ref
+dgram
 (
 )
 now
@@ -1238,7 +1231,7 @@ process
 (
 client_initial2
 .
-as_dgram_ref
+dgram
 (
 )
 now
@@ -1328,9 +1321,8 @@ client_initial
 =
 client
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -1360,6 +1352,10 @@ process
 client_initial
 .
 as_dgram_ref
+(
+)
+.
+cloned
 (
 )
 now
@@ -1416,7 +1412,7 @@ process
 (
 client_initial
 .
-as_dgram_ref
+dgram
 (
 )
 now
@@ -1575,7 +1571,6 @@ process
 (
 Some
 (
-&
 bogus
 )
 now
@@ -1714,7 +1709,6 @@ process
 (
 Some
 (
-&
 bogus
 )
 now
@@ -1837,7 +1831,6 @@ process
 (
 Some
 (
-&
 bogus
 )
 now
@@ -1895,9 +1888,8 @@ t
 =
 server
 .
-process
+process_output
 (
-None
 now
 )
 .
@@ -1915,9 +1907,8 @@ assert_eq
 (
 server
 .
-process
+process_output
 (
-None
 now
 )
 Output
@@ -2011,9 +2002,8 @@ unwrap
 match
 client
 .
-process
+process_output
 (
-None
 now
 )
 {
@@ -2044,9 +2034,8 @@ t
 ;
 client
 .
-process
+process_output
 (
-None
 now
 )
 .
@@ -2119,7 +2108,6 @@ process
 (
 Some
 (
-&
 c2
 )
 now
@@ -2149,7 +2137,6 @@ process
 (
 Some
 (
-&
 c1
 )
 now
@@ -2166,7 +2153,6 @@ process
 (
 Some
 (
-&
 c3
 )
 now
@@ -2250,7 +2236,7 @@ process
 (
 shs
 .
-as_dgram_ref
+dgram
 (
 )
 now
@@ -2267,7 +2253,7 @@ process
 (
 cfin
 .
-as_dgram_ref
+dgram
 (
 )
 now
@@ -2285,7 +2271,6 @@ process
 (
 Some
 (
-&
 c4
 )
 now
@@ -2453,9 +2438,8 @@ out
 =
 client
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -2517,7 +2501,7 @@ process
 (
 out
 .
-as_dgram_ref
+dgram
 (
 )
 now
@@ -2568,6 +2552,10 @@ out
 as_dgram_ref
 (
 )
+.
+cloned
+(
+)
 now
 (
 )
@@ -2611,7 +2599,7 @@ process
 (
 dgram
 .
-as_dgram_ref
+dgram
 (
 )
 now
@@ -2723,9 +2711,8 @@ dgram
 =
 client
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -2839,10 +2826,6 @@ server
 process
 (
 dgram
-.
-as_ref
-(
-)
 now
 (
 )
@@ -2910,9 +2893,8 @@ dgram
 =
 client
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -3322,7 +3304,6 @@ process
 (
 Some
 (
-&
 bad_dgram
 )
 now
@@ -3427,7 +3408,6 @@ process
 (
 Some
 (
-&
 close_dgram
 )
 now
@@ -3454,9 +3434,8 @@ delay
 =
 client
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -3575,9 +3554,8 @@ res
 =
 server
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -3624,9 +3602,8 @@ dgram
 =
 client
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -3985,7 +3962,6 @@ process
 (
 Some
 (
-&
 bad_dgram
 )
 now
@@ -4005,9 +3981,8 @@ response
 =
 server
 .
-process
+process_output
 (
-None
 now
 )
 ;
@@ -4052,9 +4027,8 @@ dgram
 =
 client
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -4129,7 +4103,6 @@ process
 (
 Some
 (
-&
 damaged
 )
 now
@@ -4382,7 +4355,6 @@ process
 (
 Some
 (
-&
 vn
 )
 now
@@ -4539,10 +4511,6 @@ server
 process
 (
 dgram
-.
-as_ref
-(
-)
 now
 (
 )
@@ -4572,7 +4540,6 @@ client
 .
 process_input
 (
-&
 dgram
 .
 unwrap
@@ -4803,10 +4770,6 @@ server
 process
 (
 dgram
-.
-as_ref
-(
-)
 now
 (
 )
@@ -4836,7 +4799,6 @@ client
 .
 process_input
 (
-&
 dgram
 .
 unwrap
@@ -4852,9 +4814,8 @@ dgram
 =
 client
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -4893,10 +4854,6 @@ server
 process
 (
 dgram
-.
-as_ref
-(
-)
 now
 (
 )
@@ -4931,7 +4888,6 @@ client
 .
 process_input
 (
-&
 dgram
 .
 unwrap
@@ -5015,10 +4971,6 @@ server
 process
 (
 dgram
-.
-as_ref
-(
-)
 now
 (
 )
@@ -5032,7 +4984,6 @@ client
 .
 process_input
 (
-&
 dgram
 .
 unwrap
@@ -5251,9 +5202,8 @@ dgram
 =
 server
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -5267,7 +5217,6 @@ client
 .
 process_input
 (
-&
 dgram
 .
 unwrap
@@ -5390,10 +5339,6 @@ server
 process
 (
 dgram
-.
-as_ref
-(
-)
 now
 (
 )
@@ -5423,7 +5368,6 @@ client
 .
 process_input
 (
-&
 dgram
 .
 unwrap
@@ -5514,9 +5458,8 @@ res
 =
 server
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -5546,9 +5489,8 @@ res
 =
 client
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -5587,9 +5529,8 @@ res
 =
 server
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -6199,10 +6140,6 @@ server
 process
 (
 dgram
-.
-as_ref
-(
-)
 now
 (
 )
@@ -6220,10 +6157,6 @@ client
 process
 (
 dgram
-.
-as_ref
-(
-)
 now
 (
 )
@@ -6485,9 +6418,8 @@ initial
 =
 client
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -6501,7 +6433,7 @@ process
 (
 initial
 .
-as_dgram_ref
+dgram
 (
 )
 now

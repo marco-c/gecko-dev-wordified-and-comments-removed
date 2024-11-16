@@ -117,9 +117,8 @@ drop
 (
 client
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -163,7 +162,6 @@ process
 (
 Some
 (
-&
 datagram
 (
 unknown_version_packet
@@ -237,7 +235,6 @@ process
 (
 Some
 (
-&
 datagram
 (
 unknown_version_packet
@@ -433,9 +430,8 @@ initial_pkt
 =
 client
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -497,7 +493,6 @@ process
 (
 Some
 (
-&
 dgram
 )
 now
@@ -567,9 +562,8 @@ initial_pkt
 =
 client
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -622,7 +616,6 @@ process
 (
 Some
 (
-&
 dgram
 )
 now
@@ -692,9 +685,8 @@ initial_pkt
 =
 client
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -747,7 +739,6 @@ process
 (
 Some
 (
-&
 dgram
 )
 now
@@ -831,9 +822,8 @@ initial_pkt
 =
 client
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -901,7 +891,6 @@ process
 (
 Some
 (
-&
 dgram
 )
 now
@@ -971,9 +960,8 @@ initial_pkt
 =
 client
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -1024,7 +1012,6 @@ process
 (
 Some
 (
-&
 dgram
 )
 now
@@ -1094,9 +1081,8 @@ initial_pkt
 =
 client
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -1150,7 +1136,6 @@ process
 (
 Some
 (
-&
 dgram
 )
 now
@@ -1235,9 +1220,8 @@ initial_pkt
 =
 client
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -1299,7 +1283,6 @@ process
 (
 Some
 (
-&
 dgram
 )
 now
@@ -1530,10 +1513,6 @@ server
 process
 (
 dgram
-.
-as_ref
-(
-)
 now
 (
 )
@@ -1581,7 +1560,6 @@ client
 .
 process_input
 (
-&
 dgram
 .
 unwrap
@@ -1990,7 +1968,6 @@ client
 .
 process_input
 (
-&
 dgram
 now
 (
@@ -2111,7 +2088,6 @@ server
 .
 process_input
 (
-&
 dgram
 .
 unwrap
@@ -2830,7 +2806,6 @@ server
 .
 process_input
 (
-&
 initial
 now
 (
@@ -2892,10 +2867,6 @@ client
 process
 (
 dgram
-.
-as_ref
-(
-)
 now
 (
 )
@@ -2913,10 +2884,6 @@ server
 process
 (
 dgram
-.
-as_ref
-(
-)
 now
 (
 )
@@ -2930,7 +2897,6 @@ client
 .
 process_input
 (
-&
 dgram
 .
 unwrap

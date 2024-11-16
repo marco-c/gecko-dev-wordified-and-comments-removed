@@ -309,9 +309,8 @@ client_hs
 =
 client
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -370,9 +369,8 @@ client_0rtt
 =
 client
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -421,7 +419,7 @@ process
 (
 client_hs
 .
-as_dgram_ref
+dgram
 (
 )
 now
@@ -480,7 +478,7 @@ process
 (
 client_0rtt
 .
-as_dgram_ref
+dgram
 (
 )
 now
@@ -493,7 +491,7 @@ assert
 (
 server_process_0rtt
 .
-as_dgram_ref
+dgram
 (
 )
 .
@@ -729,9 +727,8 @@ client_0rtt
 =
 client
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -781,7 +778,7 @@ process
 (
 client_0rtt
 .
-as_dgram_ref
+dgram
 (
 )
 now
@@ -1111,9 +1108,8 @@ client_hs
 =
 client
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -1167,9 +1163,8 @@ client_0rtt
 =
 client
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -1198,7 +1193,7 @@ process
 (
 client_hs
 .
-as_dgram_ref
+dgram
 (
 )
 now
@@ -1229,7 +1224,7 @@ process
 (
 client_0rtt
 .
-as_dgram_ref
+dgram
 (
 )
 now
@@ -1296,7 +1291,7 @@ process
 (
 server_hs
 .
-as_dgram_ref
+dgram
 (
 )
 now
@@ -1342,7 +1337,7 @@ process
 (
 client_fin
 .
-as_dgram_ref
+dgram
 (
 )
 now
@@ -1373,7 +1368,7 @@ process
 (
 server_ack
 .
-as_dgram_ref
+dgram
 (
 )
 now
@@ -1471,9 +1466,8 @@ client_after_reject
 =
 client
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -1497,7 +1491,6 @@ server
 .
 process_input
 (
-&
 client_after_reject
 .
 unwrap
@@ -1721,9 +1714,8 @@ client_hs
 =
 client
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -1809,10 +1801,6 @@ server
 process
 (
 client_hs
-.
-as_ref
-(
-)
 now
 (
 )
@@ -1826,7 +1814,6 @@ client
 .
 process_input
 (
-&
 server_hs
 .
 unwrap
@@ -2255,7 +2242,7 @@ process
 (
 ci
 .
-as_dgram_ref
+dgram
 (
 )
 now
@@ -2342,7 +2329,7 @@ process_input
 (
 si
 .
-as_dgram_ref
+dgram
 (
 )
 .

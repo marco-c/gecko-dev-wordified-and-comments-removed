@@ -177,9 +177,8 @@ res
 =
 client
 .
-process
+process_output
 (
-None
 now
 )
 ;
@@ -203,9 +202,8 @@ drop
 (
 client
 .
-process
+process_output
 (
-None
 now
 +
 timeout
@@ -252,9 +250,8 @@ drop
 (
 client
 .
-process
+process_output
 (
-None
 now
 +
 timeout
@@ -655,7 +652,6 @@ server
 .
 process_input
 (
-&
 c2
 now
 (
@@ -666,7 +662,6 @@ server
 .
 process_input
 (
-&
 c1
 now
 (
@@ -703,7 +698,6 @@ client
 .
 process_input
 (
-&
 s2
 now
 (
@@ -719,7 +713,6 @@ process
 (
 Some
 (
-&
 s1
 )
 now
@@ -749,10 +742,6 @@ server
 process
 (
 ack
-.
-as_ref
-(
-)
 now
 (
 )
@@ -771,9 +760,8 @@ assert_eq
 (
 client
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -940,7 +928,6 @@ server
 .
 process_input
 (
-&
 c2
 now
 )
@@ -949,7 +936,6 @@ server
 .
 process_input
 (
-&
 c1
 now
 )
@@ -987,7 +973,6 @@ client
 .
 process_input
 (
-&
 s2
 now
 )
@@ -1001,7 +986,6 @@ process
 (
 Some
 (
-&
 s1
 )
 now
@@ -1033,9 +1017,8 @@ t
 =
 client
 .
-process
+process_output
 (
-None
 now
 )
 {
@@ -1083,10 +1066,6 @@ client
 process
 (
 ack
-.
-as_ref
-(
-)
 now
 )
 {
@@ -1174,9 +1153,8 @@ timeout
 =
 client
 .
-process
+process_output
 (
-None
 now
 )
 .
@@ -1242,9 +1220,8 @@ dgram
 =
 client
 .
-process
+process_output
 (
-None
 now
 )
 .
@@ -1286,9 +1263,8 @@ out
 =
 client
 .
-process
+process_output
 (
-None
 now
 )
 ;
@@ -1395,9 +1371,8 @@ timeout
 =
 client
 .
-process
+process_output
 (
-None
 now
 )
 .
@@ -1479,9 +1454,8 @@ dgram
 =
 client
 .
-process
+process_output
 (
-None
 now
 )
 .
@@ -1527,9 +1501,8 @@ out
 =
 client
 .
-process
+process_output
 (
-None
 now
 )
 ;
@@ -1630,9 +1603,8 @@ res
 =
 client
 .
-process
+process_output
 (
-None
 now
 )
 ;
@@ -1711,9 +1683,8 @@ out
 =
 client
 .
-process
+process_output
 (
-None
 now
 )
 ;
@@ -1721,7 +1692,6 @@ server
 .
 process_input
 (
-&
 out
 .
 dgram
@@ -1786,7 +1756,7 @@ process
 (
 out
 .
-as_dgram_ref
+dgram
 (
 )
 now
@@ -1827,9 +1797,8 @@ drop
 (
 client
 .
-process
+process_output
 (
-None
 now
 )
 )
@@ -1864,9 +1833,8 @@ drop
 (
 client
 .
-process
+process_output
 (
-None
 now
 )
 )
@@ -1974,10 +1942,6 @@ server
 process
 (
 dgram
-.
-as_ref
-(
-)
 start
 )
 .
@@ -2005,7 +1969,6 @@ client
 .
 process_input
 (
-&
 handshake
 .
 unwrap
@@ -2056,7 +2019,6 @@ server
 .
 process_input
 (
-&
 dgram
 .
 unwrap
@@ -2219,7 +2181,6 @@ client
 .
 process_input
 (
-&
 initial
 middle
 )
@@ -2326,7 +2287,6 @@ process
 (
 Some
 (
-&
 initial
 )
 end
@@ -2362,10 +2322,6 @@ server
 process
 (
 dgram
-.
-as_ref
-(
-)
 end
 )
 .
@@ -2377,7 +2333,6 @@ client
 .
 process_input
 (
-&
 dgram
 .
 unwrap
@@ -2580,7 +2535,6 @@ responder
 .
 process_input
 (
-&
 req
 .
 unwrap
@@ -2656,7 +2610,6 @@ initiator
 .
 process_input
 (
-&
 resp2
 .
 unwrap
@@ -2669,7 +2622,6 @@ initiator
 .
 process_input
 (
-&
 resp1
 .
 unwrap
@@ -2719,7 +2671,6 @@ responder
 .
 process_input
 (
-&
 ack
 .
 unwrap
@@ -2963,10 +2914,6 @@ client
 process
 (
 ping
-.
-as_ref
-(
-)
 now
 )
 .
@@ -2982,10 +2929,6 @@ server
 process
 (
 out
-.
-as_ref
-(
-)
 now
 )
 .
@@ -3001,10 +2944,6 @@ client
 process
 (
 out
-.
-as_ref
-(
-)
 now
 )
 .
@@ -3314,10 +3253,6 @@ client
 process
 (
 ping
-.
-as_ref
-(
-)
 now
 )
 .
@@ -3344,10 +3279,6 @@ server
 process
 (
 out
-.
-as_ref
-(
-)
 now
 )
 .
@@ -3363,10 +3294,6 @@ client
 process
 (
 out
-.
-as_ref
-(
-)
 now
 )
 .
@@ -3693,7 +3620,6 @@ receiver
 .
 process_input
 (
-&
 chaff
 now
 (
@@ -3704,7 +3630,6 @@ receiver
 .
 process_input
 (
-&
 dgram
 .
 unwrap
@@ -3735,7 +3660,6 @@ sender
 .
 process_input
 (
-&
 ack
 .
 unwrap
@@ -4215,7 +4139,6 @@ process
 (
 Some
 (
-&
 junk
 )
 now
@@ -4659,7 +4582,6 @@ server
 .
 process_input
 (
-&
 dgram
 .
 unwrap

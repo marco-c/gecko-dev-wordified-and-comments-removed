@@ -2924,9 +2924,8 @@ self
 .
 conn
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -2943,7 +2942,7 @@ process
 (
 out
 .
-as_dgram_ref
+dgram
 (
 )
 now
@@ -2964,7 +2963,7 @@ process
 (
 out2
 .
-as_dgram_ref
+dgram
 (
 )
 now
@@ -3274,9 +3273,8 @@ encoder
 .
 peer_conn
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -3295,7 +3293,7 @@ process
 (
 out
 .
-as_dgram_ref
+dgram
 (
 )
 now
@@ -7845,9 +7843,8 @@ encoder
 .
 peer_conn
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -7866,7 +7863,7 @@ process
 (
 out
 .
-as_dgram_ref
+dgram
 (
 )
 now
@@ -8093,9 +8090,8 @@ encoder
 .
 conn
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -8114,7 +8110,7 @@ process
 (
 out
 .
-as_dgram_ref
+dgram
 (
 )
 now

@@ -412,7 +412,6 @@ client
 .
 process_input
 (
-&
 ticket
 .
 unwrap
@@ -664,7 +663,7 @@ process
 (
 client_initial
 .
-as_dgram_ref
+dgram
 (
 )
 now
@@ -1011,7 +1010,6 @@ client
 .
 process_input
 (
-&
 si
 now
 )
@@ -1020,7 +1018,6 @@ client
 .
 process_input
 (
-&
 server_hs
 .
 unwrap
@@ -1080,7 +1077,7 @@ process
 (
 finished
 .
-as_dgram_ref
+dgram
 (
 )
 now
@@ -1207,7 +1204,6 @@ client
 .
 process_input
 (
-&
 ticket
 .
 unwrap
@@ -1531,9 +1527,8 @@ dgram
 =
 client
 .
-process
+process_output
 (
-None
 now
 )
 .
@@ -1790,7 +1785,6 @@ process
 (
 Some
 (
-&
 pkt
 )
 now
@@ -1846,9 +1840,8 @@ drop
 (
 client
 .
-process
+process_output
 (
-None
 now
 )
 )
@@ -1906,9 +1899,8 @@ drop
 (
 client
 .
-process
+process_output
 (
-None
 now
 )
 )
@@ -1966,9 +1958,8 @@ drop
 (
 client
 .
-process
+process_output
 (
-None
 now
 )
 )
@@ -2155,7 +2146,6 @@ client
 .
 process_input
 (
-&
 pkt
 now
 (
@@ -2294,9 +2284,8 @@ dgram
 =
 server
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -2310,7 +2299,6 @@ client
 .
 process_input
 (
-&
 dgram
 .
 unwrap

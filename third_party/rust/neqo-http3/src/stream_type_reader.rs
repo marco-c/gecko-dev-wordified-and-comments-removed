@@ -1417,9 +1417,8 @@ out
 =
 conn_s
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -1436,7 +1435,7 @@ process
 (
 out
 .
-as_dgram_ref
+dgram
 (
 )
 now
@@ -1542,9 +1541,8 @@ self
 .
 conn_s
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -1563,7 +1561,7 @@ process
 (
 out
 .
-as_dgram_ref
+dgram
 (
 )
 now
@@ -1668,9 +1666,8 @@ self
 .
 conn_s
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -1690,10 +1687,6 @@ process
 out
 .
 dgram
-(
-)
-.
-as_ref
 (
 )
 now
