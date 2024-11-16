@@ -1698,8 +1698,6 @@ toolchain
 win64
 -
 vs2022
--
-car
 browsertime
 :
 description
