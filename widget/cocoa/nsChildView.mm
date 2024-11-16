@@ -2711,10 +2711,9 @@ newScale
 NSRect
 frame
 =
-[
 mView
+.
 frame
-]
 ;
 mBounds
 =
