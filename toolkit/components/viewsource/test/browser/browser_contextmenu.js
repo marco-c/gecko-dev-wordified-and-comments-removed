@@ -406,13 +406,6 @@ push
 [
 "
 span
-:
-not
-(
-[
-id
-]
-)
 "
 false
 false

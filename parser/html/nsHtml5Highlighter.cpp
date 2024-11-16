@@ -2275,7 +2275,7 @@ mLineNumber
 1
 )
 ;
-PushCurrentLineContainer
+PushCurrentLinePre
 (
 )
 ;
@@ -2614,7 +2614,7 @@ void
 nsHtml5Highlighter
 :
 :
-PushCurrentLineContainer
+PushCurrentLinePre
 (
 )
 {
@@ -2623,9 +2623,9 @@ Push
 nsGkAtoms
 :
 :
-span
+pre
 nullptr
-NS_NewHTMLSpanElement
+NS_NewHTMLPreElement
 )
 ;
 mOpQueue
@@ -2721,7 +2721,7 @@ Pop
 (
 )
 ;
-PushCurrentLineContainer
+PushCurrentLinePre
 (
 )
 ;
