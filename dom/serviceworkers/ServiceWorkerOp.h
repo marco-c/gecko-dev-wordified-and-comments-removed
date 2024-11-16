@@ -283,8 +283,7 @@ RemoteWorkerState
 aState
 )
 final
-{
-}
+;
 void
 Cancel
 (
