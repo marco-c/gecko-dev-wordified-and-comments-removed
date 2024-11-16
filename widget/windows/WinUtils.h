@@ -1621,17 +1621,6 @@ nsAString
 aOutput
 )
 ;
-static
-nsresult
-GetProcessImageName
-(
-DWORD
-aProcessId
-nsAString
-&
-aName
-)
-;
 private
 :
 static
