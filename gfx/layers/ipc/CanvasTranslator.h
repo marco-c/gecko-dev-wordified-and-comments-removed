@@ -1500,6 +1500,14 @@ HandleCanvasTranslatorEvents
 (
 )
 ;
+void
+NotifyTextureDestruction
+(
+const
+RemoteTextureOwnerId
+aTextureOwnerId
+)
+;
 const
 RefPtr
 <

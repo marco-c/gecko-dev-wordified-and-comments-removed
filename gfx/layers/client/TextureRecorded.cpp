@@ -126,14 +126,6 @@ nullptr
 mCanvasChild
 -
 >
-CleanupTexture
-(
-mRemoteTextureOwnerId
-)
-;
-mCanvasChild
--
->
 RecordEvent
 (
 RecordedTextureDestruction

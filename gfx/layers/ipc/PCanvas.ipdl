@@ -652,6 +652,13 @@ bool
 aSuccess
 )
 ;
+async
+NotifyTextureDestruction
+(
+RemoteTextureOwnerId
+aTextureOwnerId
+)
+;
 }
 ;
 }
