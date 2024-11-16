@@ -20207,7 +20207,7 @@ update
 (
 WindowsUIUtils
 .
-inTabletMode
+inWin10TabletMode
 )
 ;
 Services
@@ -20529,7 +20529,7 @@ win
 &
 WindowsUIUtils
 .
-inTabletMode
+inWin10TabletMode
 &
 &
 Services

@@ -3037,7 +3037,7 @@ IsWin11OrLater
 if
 (
 !
-IsInTabletMode
+IsInWin10TabletMode
 (
 )
 &
@@ -3846,7 +3846,7 @@ bool
 IMEHandler
 :
 :
-IsInTabletMode
+IsInWin10TabletMode
 (
 )
 {
@@ -3856,7 +3856,7 @@ isInTabletMode
 WindowsUIUtils
 :
 :
-GetInTabletMode
+GetInWin10TabletMode
 (
 )
 ;

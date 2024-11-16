@@ -82,7 +82,12 @@ aWindow
 readonly
 attribute
 boolean
-inTabletMode
+inWin10TabletMode
+;
+readonly
+attribute
+boolean
+inWin11TabletMode
 ;
 void
 shareUrl

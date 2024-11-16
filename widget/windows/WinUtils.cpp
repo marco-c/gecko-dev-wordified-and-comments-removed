@@ -7774,7 +7774,7 @@ if
 WindowsUIUtils
 :
 :
-GetInTabletMode
+GetInWin10TabletMode
 (
 )
 )

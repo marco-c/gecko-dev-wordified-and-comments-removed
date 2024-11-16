@@ -10425,7 +10425,7 @@ lazy
 .
 WindowsUIUtils
 .
-inTabletMode
+inWin10TabletMode
 )
 {
 /
