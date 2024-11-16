@@ -871,10 +871,8 @@ handlers
 this
 .
 contentWindow
-?
 .
 windowRoot
-?
 .
 removeEventListener
 (

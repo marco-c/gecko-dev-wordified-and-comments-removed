@@ -364,8 +364,5 @@ UserCharacteristicsParent
 UserCharacteristicsParent
 as
 UserCharacteristicsWindowInfoParent
-UserCharacteristicsParent
-as
-UserCharacteristicsCanvasRenderingParent
 }
 ;

@@ -524,7 +524,7 @@ Func
 nsRFPService
 :
 :
-IsSystemPrincipalOrAboutFingerprintingProtection
+IsSoftwareRenderingOptionExposed
 "
 ]
 GLboolean
@@ -6577,12 +6577,6 @@ GLenum
 DOES_INDEX_VALIDATION
 =
 0x10002
-;
-const
-GLenum
-CONTEXT_TYPE
-=
-0x10003
 ;
 [
 Throws

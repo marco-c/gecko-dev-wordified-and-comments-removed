@@ -4603,10 +4603,6 @@ ret
 gdk_display_get_default
 (
 )
-&
-&
-!
-forceSoftware
 )
 {
 ret
@@ -4651,10 +4647,6 @@ widget
 GdkIsWaylandDisplay
 (
 )
-&
-&
-!
-forceSoftware
 )
 {
 nativeDisplay
@@ -4696,10 +4688,6 @@ if
 (
 !
 ret
-&
-&
-!
-forceSoftware
 )
 {
 ret

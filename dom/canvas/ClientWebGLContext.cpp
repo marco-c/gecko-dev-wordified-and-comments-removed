@@ -13740,15 +13740,6 @@ dom
 MOZ_debug_Binding
 :
 :
-CONTEXT_TYPE
-:
-case
-dom
-:
-:
-MOZ_debug_Binding
-:
-:
 WSI_INFO
 :
 debugOnly

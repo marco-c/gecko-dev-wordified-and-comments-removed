@@ -8488,7 +8488,7 @@ bool
 nsRFPService
 :
 :
-IsSystemPrincipalOrAboutFingerprintingProtection
+IsSoftwareRenderingOptionExposed
 (
 JSContext
 *
