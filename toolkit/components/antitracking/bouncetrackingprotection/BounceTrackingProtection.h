@@ -146,6 +146,12 @@ GetSingleton
 (
 )
 ;
+static
+void
+RecordModePrefTelemetry
+(
+)
+;
 [
 [
 nodiscard
@@ -269,9 +275,9 @@ aShouldEnable
 static
 Maybe
 <
-bool
+uint32_t
 >
-sFeatureIsEnabled
+sLastRecordedModeTelemetry
 ;
 nsCOMPtr
 <
