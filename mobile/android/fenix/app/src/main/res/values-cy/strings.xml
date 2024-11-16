@@ -9831,7 +9831,8 @@ name
 onboarding_installing_add_on_icon_content_description
 "
 >
-Gosod
+Yn
+gosod
 eicon
 ychwanegyn
 <
@@ -21172,9 +21173,7 @@ name
 webcompat_reporter_reason_account
 "
 >
-Arwyddo
-i
-mewn
+Mewngofnodi
 neu
 allgofnodi
 <
@@ -21203,7 +21202,7 @@ name
 webcompat_reporter_reason_ad_blocker
 "
 >
-Atalydd
+Rhwystrydd
 hysbysebion
 <
 /
