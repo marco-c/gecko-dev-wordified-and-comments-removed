@@ -800,8 +800,6 @@ onSuggestionClicked
 =
 {
 loadUrlUseCase
-.
-invoke
 (
 details
 .

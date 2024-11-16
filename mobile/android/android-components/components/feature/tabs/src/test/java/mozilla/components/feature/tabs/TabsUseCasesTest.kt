@@ -2283,6 +2283,9 @@ firefox
 .
 com
 "
+selectTab
+=
+true
 )
 store
 .

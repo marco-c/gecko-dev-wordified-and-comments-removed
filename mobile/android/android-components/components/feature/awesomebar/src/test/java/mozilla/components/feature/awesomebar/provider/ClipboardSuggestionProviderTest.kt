@@ -1059,8 +1059,6 @@ never
 (
 )
 )
-.
-invoke
 (
 any
 (
@@ -1091,8 +1089,6 @@ verify
 (
 useCase
 )
-.
-invoke
 (
 eq
 (
