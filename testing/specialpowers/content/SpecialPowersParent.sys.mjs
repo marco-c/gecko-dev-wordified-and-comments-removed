@@ -7045,13 +7045,7 @@ if
 (
 AppConstants
 .
-platform
-=
-=
-=
-"
-android
-"
+MOZ_GECKOVIEW
 )
 {
 /
@@ -7123,7 +7117,7 @@ ext
 useAddonManager
 =
 "
-android
+geckoview
 -
 only
 "

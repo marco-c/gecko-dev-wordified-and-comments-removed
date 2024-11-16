@@ -4830,7 +4830,7 @@ useAddonManager
 =
 =
 "
-android
+geckoview
 -
 only
 "
@@ -4982,13 +4982,7 @@ if
 (
 AppConstants
 .
-platform
-=
-=
-=
-"
-android
-"
+MOZ_GECKOVIEW
 )
 {
 /
@@ -5100,7 +5094,7 @@ else
 On
 non
 -
-Android
+GeckoView
 default
 to
 not
