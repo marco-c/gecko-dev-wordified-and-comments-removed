@@ -61,6 +61,10 @@ match_like_matches_macro
 clippy
 :
 :
+needless_lifetimes
+clippy
+:
+:
 uninlined_format_args
 )
 ]
@@ -281,7 +285,7 @@ test_round_trip
 (
 )
 {
-common
+repo
 :
 :
 rayon_init
@@ -298,7 +302,7 @@ clone_rust
 let
 abort_after
 =
-common
+repo
 :
 :
 abort_after
@@ -356,12 +360,8 @@ failed
 =
 failed
 .
-load
+into_inner
 (
-Ordering
-:
-:
-Relaxed
 )
 ;
 if

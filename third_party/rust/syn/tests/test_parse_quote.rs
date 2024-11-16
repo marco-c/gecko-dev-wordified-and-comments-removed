@@ -6,6 +6,10 @@ allow
 clippy
 :
 :
+needless_lifetimes
+clippy
+:
+:
 uninlined_format_args
 )
 ]
@@ -68,8 +72,6 @@ snapshot
 attr
 r
 #
-#
-#
 "
 Attribute
 {
@@ -102,8 +104,6 @@ test
 }
 "
 #
-#
-#
 )
 ;
 let
@@ -126,8 +126,6 @@ snapshot
 (
 attr
 r
-#
-#
 #
 "
 Attribute
@@ -161,8 +159,6 @@ no_std
 }
 "
 #
-#
-#
 )
 ;
 }
@@ -194,8 +190,6 @@ snapshot
 (
 field
 r
-#
-#
 #
 "
 Field
@@ -245,8 +239,6 @@ bool
 }
 "
 #
-#
-#
 )
 ;
 let
@@ -268,8 +260,6 @@ snapshot
 (
 field
 r
-#
-#
 #
 "
 Field
@@ -322,8 +312,6 @@ bool
 }
 "
 #
-#
-#
 )
 ;
 }
@@ -358,8 +346,6 @@ snapshot
 &
 pat
 r
-#
-#
 #
 "
 Pat
@@ -437,8 +423,6 @@ None
 }
 "
 #
-#
-#
 )
 ;
 let
@@ -505,8 +489,6 @@ snapshot
 punctuated
 r
 #
-#
-#
 "
 [
 Lit
@@ -534,8 +516,6 @@ true
 }
 ]
 "
-#
-#
 #
 )
 ;
@@ -567,8 +547,6 @@ snapshot
 punctuated
 r
 #
-#
-#
 "
 [
 Lit
@@ -601,8 +579,6 @@ Token
 ]
 ]
 "
-#
-#
 #
 )
 ;
@@ -638,8 +614,6 @@ snapshot
 (
 stmts
 r
-#
-#
 #
 "
 [
@@ -681,8 +655,6 @@ None
 )
 ]
 "
-#
-#
 #
 )
 ;

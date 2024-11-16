@@ -14,6 +14,10 @@ manual_let_else
 clippy
 :
 :
+needless_lifetimes
+clippy
+:
+:
 too_many_lines
 clippy
 :
@@ -71,8 +75,6 @@ as
 DeriveInput
 r
 #
-#
-#
 "
 DeriveInput
 {
@@ -109,8 +111,6 @@ Some
 }
 }
 "
-#
-#
 #
 )
 ;
@@ -163,8 +163,6 @@ input
 as
 DeriveInput
 r
-#
-#
 #
 "
 DeriveInput
@@ -392,8 +390,6 @@ Attribute
 }
 "
 #
-#
-#
 )
 ;
 snapshot
@@ -409,8 +405,6 @@ attrs
 .
 meta
 r
-#
-#
 #
 "
 Meta
@@ -450,8 +444,6 @@ Clone
 )
 }
 "
-#
-#
 #
 )
 ;
@@ -494,8 +486,6 @@ input
 as
 DeriveInput
 r
-#
-#
 #
 "
 DeriveInput
@@ -635,8 +625,6 @@ T
 }
 "
 #
-#
-#
 )
 ;
 }
@@ -751,8 +739,6 @@ input
 as
 DeriveInput
 r
-#
-#
 #
 "
 DeriveInput
@@ -1143,8 +1129,6 @@ index
 }
 "
 #
-#
-#
 )
 ;
 let
@@ -1182,8 +1166,6 @@ snapshot
 (
 meta_items
 r
-#
-#
 #
 "
 [
@@ -1253,8 +1235,6 @@ must_use
 }
 ]
 "
-#
-#
 #
 )
 ;
@@ -1338,8 +1318,6 @@ input
 as
 DeriveInput
 r
-#
-#
 #
 "
 DeriveInput
@@ -1425,8 +1403,6 @@ Some
 }
 "
 #
-#
-#
 )
 ;
 snapshot
@@ -1442,8 +1418,6 @@ attrs
 .
 meta
 r
-#
-#
 #
 "
 Meta
@@ -1479,8 +1453,6 @@ self
 ]
 }
 "
-#
-#
 #
 )
 ;
@@ -1528,8 +1500,6 @@ input
 as
 DeriveInput
 r
-#
-#
 #
 "
 DeriveInput
@@ -1666,8 +1636,6 @@ Some
 }
 "
 #
-#
-#
 )
 ;
 }
@@ -1702,8 +1670,6 @@ input
 as
 DeriveInput
 r
-#
-#
 #
 "
 DeriveInput
@@ -1760,8 +1726,6 @@ Some
 }
 }
 "
-#
-#
 #
 )
 ;
@@ -1798,8 +1762,6 @@ as
 DeriveInput
 r
 #
-#
-#
 "
 DeriveInput
 {
@@ -1856,8 +1818,6 @@ Some
 }
 "
 #
-#
-#
 )
 ;
 }
@@ -1893,8 +1853,6 @@ input
 as
 DeriveInput
 r
-#
-#
 #
 "
 DeriveInput
@@ -1955,8 +1913,6 @@ Some
 }
 "
 #
-#
-#
 )
 ;
 }
@@ -1987,8 +1943,6 @@ input
 as
 DeriveInput
 r
-#
-#
 #
 "
 DeriveInput
@@ -2026,8 +1980,6 @@ Some
 }
 }
 "
-#
-#
 #
 )
 ;
@@ -2116,8 +2068,6 @@ input
 as
 DeriveInput
 r
-#
-#
 #
 "
 DeriveInput
@@ -2257,8 +2207,6 @@ Token
 }
 "
 #
-#
-#
 )
 ;
 let
@@ -2316,8 +2264,6 @@ _
 (
 )
 r
-#
-#
 #
 "
 [
@@ -2414,8 +2360,6 @@ String
 ]
 "
 #
-#
-#
 )
 ;
 }
@@ -2451,8 +2395,6 @@ input
 as
 DeriveInput
 r
-#
-#
 #
 "
 DeriveInput
@@ -2568,8 +2510,6 @@ Some
 }
 }
 "
-#
-#
 #
 )
 ;
@@ -2629,8 +2569,6 @@ _
 )
 r
 #
-#
-#
 "
 [
 Field
@@ -2704,8 +2642,6 @@ String
 ]
 "
 #
-#
-#
 )
 ;
 }
@@ -2762,8 +2698,6 @@ input
 as
 DeriveInput
 r
-#
-#
 #
 "
 DeriveInput
@@ -2855,8 +2789,6 @@ Some
 }
 }
 "
-#
-#
 #
 )
 ;

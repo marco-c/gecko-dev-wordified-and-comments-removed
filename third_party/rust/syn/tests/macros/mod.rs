@@ -591,15 +591,9 @@ TokenStream
 ;
 }
 impl
-<
-'
-a
->
 TryIntoTokens
 for
 &
-'
-a
 str
 {
 fn

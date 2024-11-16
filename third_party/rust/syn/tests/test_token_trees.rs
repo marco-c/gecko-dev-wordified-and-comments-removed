@@ -6,6 +6,10 @@ allow
 clippy
 :
 :
+needless_lifetimes
+clippy
+:
+:
 uninlined_format_args
 )
 ]
@@ -82,7 +86,6 @@ TokenStream
 r
 #
 #
-#
 "
 TokenStream
 (
@@ -112,7 +115,6 @@ Attribute
 }
 )
 "
-#
 #
 #
 )

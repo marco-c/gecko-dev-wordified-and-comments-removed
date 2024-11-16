@@ -50,6 +50,10 @@ match_like_matches_macro
 clippy
 :
 :
+needless_lifetimes
+clippy
+:
+:
 uninlined_format_args
 clippy
 :
@@ -437,10 +441,7 @@ self
 Option
 <
 &
-Lrc
-<
 SourceMap
->
 >
 {
 None
@@ -462,10 +463,7 @@ self
 Option
 <
 &
-Lrc
-<
 FluentBundle
->
 >
 {
 None

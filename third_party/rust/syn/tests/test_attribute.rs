@@ -6,6 +6,10 @@ allow
 clippy
 :
 :
+needless_lifetimes
+clippy
+:
+:
 uninlined_format_args
 )
 ]
@@ -62,8 +66,6 @@ snapshot
 meta
 r
 #
-#
-#
 "
 Meta
 :
@@ -84,8 +86,6 @@ foo
 ]
 }
 "
-#
-#
 #
 )
 ;
@@ -120,8 +120,6 @@ snapshot
 meta
 r
 #
-#
-#
 "
 Meta
 :
@@ -159,8 +157,6 @@ lit
 }
 "
 #
-#
-#
 )
 ;
 }
@@ -194,8 +190,6 @@ snapshot
 meta
 r
 #
-#
-#
 "
 Meta
 :
@@ -241,8 +235,6 @@ true
 }
 "
 #
-#
-#
 )
 ;
 let
@@ -265,8 +257,6 @@ snapshot
 (
 meta
 r
-#
-#
 #
 "
 Meta
@@ -312,8 +302,6 @@ false
 }
 }
 "
-#
-#
 #
 )
 ;
@@ -349,8 +337,6 @@ snapshot
 meta
 r
 #
-#
-#
 "
 Meta
 :
@@ -389,8 +375,6 @@ TokenStream
 }
 "
 #
-#
-#
 )
 ;
 }
@@ -424,8 +408,6 @@ snapshot
 (
 meta
 r
-#
-#
 #
 "
 Meta
@@ -464,8 +446,6 @@ bar
 )
 }
 "
-#
-#
 #
 )
 ;
@@ -503,8 +483,6 @@ snapshot
 meta
 r
 #
-#
-#
 "
 Meta
 :
@@ -545,8 +523,6 @@ bar
 }
 "
 #
-#
-#
 )
 ;
 }
@@ -582,8 +558,6 @@ snapshot
 (
 meta
 r
-#
-#
 #
 "
 Meta
@@ -624,8 +598,6 @@ true
 )
 }
 "
-#
-#
 #
 )
 ;
@@ -671,8 +643,6 @@ snapshot
 meta
 r
 #
-#
-#
 "
 Meta
 :
@@ -721,8 +691,6 @@ word2
 }
 "
 #
-#
-#
 )
 ;
 }
@@ -756,8 +724,6 @@ snapshot
 (
 meta
 r
-#
-#
 #
 "
 Meta
@@ -796,8 +762,6 @@ true
 )
 }
 "
-#
-#
 #
 )
 ;
@@ -839,8 +803,6 @@ snapshot
 meta
 r
 #
-#
-#
 "
 Meta
 :
@@ -884,8 +846,6 @@ max
 )
 }
 "
-#
-#
 #
 )
 ;

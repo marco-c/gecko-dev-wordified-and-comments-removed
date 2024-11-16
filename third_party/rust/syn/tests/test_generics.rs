@@ -10,6 +10,10 @@ manual_let_else
 clippy
 :
 :
+needless_lifetimes
+clippy
+:
+:
 too_many_lines
 clippy
 :
@@ -93,8 +97,6 @@ input
 as
 DeriveInput
 r
-#
-#
 #
 "
 DeriveInput
@@ -359,8 +361,6 @@ Some
 }
 "
 #
-#
-#
 )
 ;
 let
@@ -541,8 +541,6 @@ as
 TypeParamBound
 r
 #
-#
-#
 "
 TypeParamBound
 :
@@ -556,8 +554,6 @@ a
 "
 }
 "
-#
-#
 #
 )
 ;
@@ -579,8 +575,6 @@ as
 TypeParamBound
 r
 #
-#
-#
 "
 TypeParamBound
 :
@@ -594,8 +588,6 @@ _
 "
 }
 "
-#
-#
 #
 )
 ;
@@ -615,8 +607,6 @@ tokens
 as
 TypeParamBound
 r
-#
-#
 #
 "
 TypeParamBound
@@ -647,8 +637,6 @@ Debug
 )
 "
 #
-#
-#
 )
 ;
 let
@@ -668,8 +656,6 @@ tokens
 as
 TypeParamBound
 r
-#
-#
 #
 "
 TypeParamBound
@@ -705,8 +691,6 @@ Sized
 }
 )
 "
-#
-#
 #
 )
 ;
@@ -755,8 +739,6 @@ input
 as
 ItemFn
 r
-#
-#
 #
 "
 ItemFn
@@ -973,8 +955,6 @@ stmts
 }
 }
 "
-#
-#
 #
 )
 ;

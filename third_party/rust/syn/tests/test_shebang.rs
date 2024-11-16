@@ -6,6 +6,10 @@ allow
 clippy
 :
 :
+needless_lifetimes
+clippy
+:
+:
 uninlined_format_args
 )
 ]
@@ -67,7 +71,6 @@ snapshot
 (
 file
 r
-#
 #
 #
 "
@@ -137,7 +140,6 @@ stmts
 "
 #
 #
-#
 )
 ;
 }
@@ -201,8 +203,6 @@ snapshot
 (
 file
 r
-#
-#
 #
 "
 File
@@ -303,8 +303,6 @@ stmts
 ]
 }
 "
-#
-#
 #
 )
 ;

@@ -44,6 +44,10 @@ must_use_candidate
 clippy
 :
 :
+needless_lifetimes
+clippy
+:
+:
 uninlined_format_args
 )
 ]

@@ -6,6 +6,10 @@ allow
 clippy
 :
 :
+needless_lifetimes
+clippy
+:
+:
 uninlined_format_args
 )
 ]
@@ -55,8 +59,6 @@ as
 Item
 r
 #
-#
-#
 "
 Item
 :
@@ -103,8 +105,6 @@ stmts
 }
 "
 #
-#
-#
 )
 ;
 }
@@ -135,8 +135,6 @@ input
 as
 Expr
 r
-#
-#
 #
 "
 Expr
@@ -172,8 +170,6 @@ stmts
 }
 }
 "
-#
-#
 #
 )
 ;

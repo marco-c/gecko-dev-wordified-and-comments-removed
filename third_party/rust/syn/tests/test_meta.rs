@@ -6,6 +6,10 @@ allow
 clippy
 :
 :
+needless_lifetimes
+clippy
+:
+:
 shadow_unrelated
 clippy
 :
@@ -58,8 +62,6 @@ as
 Meta
 r
 #
-#
-#
 "
 Meta
 :
@@ -80,8 +82,6 @@ hello
 ]
 }
 "
-#
-#
 #
 )
 ;
@@ -123,8 +123,6 @@ as
 MetaNameValue
 r
 #
-#
-#
 "
 MetaNameValue
 {
@@ -159,8 +157,6 @@ lit
 }
 "
 #
-#
-#
 )
 ;
 snapshot
@@ -170,8 +166,6 @@ meta
 as
 Meta
 r
-#
-#
 #
 "
 Meta
@@ -209,8 +203,6 @@ lit
 }
 }
 "
-#
-#
 #
 )
 ;
@@ -266,8 +258,6 @@ as
 MetaList
 r
 #
-#
-#
 "
 MetaList
 {
@@ -303,8 +293,6 @@ TokenStream
 }
 "
 #
-#
-#
 )
 ;
 snapshot
@@ -314,8 +302,6 @@ meta
 as
 Meta
 r
-#
-#
 #
 "
 Meta
@@ -354,8 +340,6 @@ TokenStream
 )
 }
 "
-#
-#
 #
 )
 ;
@@ -421,8 +405,6 @@ as
 MetaList
 r
 #
-#
-#
 "
 MetaList
 {
@@ -468,8 +450,6 @@ word2
 }
 "
 #
-#
-#
 )
 ;
 snapshot
@@ -479,8 +459,6 @@ meta
 as
 Meta
 r
-#
-#
 #
 "
 Meta
@@ -529,8 +507,6 @@ word2
 )
 }
 "
-#
-#
 #
 )
 ;
@@ -577,8 +553,6 @@ as
 Meta
 r
 #
-#
-#
 "
 Meta
 :
@@ -616,8 +590,6 @@ Serialize
 ]
 }
 "
-#
-#
 #
 )
 ;

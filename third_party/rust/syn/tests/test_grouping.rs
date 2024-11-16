@@ -6,6 +6,10 @@ allow
 clippy
 :
 :
+needless_lifetimes
+clippy
+:
+:
 uninlined_format_args
 )
 ]
@@ -219,8 +223,6 @@ as
 Expr
 r
 #
-#
-#
 "
 Expr
 :
@@ -315,8 +317,6 @@ lit
 }
 }
 "
-#
-#
 #
 )
 ;
