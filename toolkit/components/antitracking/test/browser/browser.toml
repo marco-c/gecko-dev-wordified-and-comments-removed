@@ -2167,6 +2167,13 @@ js
 ]
 [
 "
+browser_viewsource_localhost_request
+.
+js
+"
+]
+[
+"
 browser_workerPropagation
 .
 js
