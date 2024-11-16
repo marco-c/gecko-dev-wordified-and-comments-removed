@@ -105,7 +105,6 @@ MOZ_PROFILER_STARTUP_FEATURES
 :
 js
 stackwalk
-leaf
 screenshots
 ipcmessages
 java
