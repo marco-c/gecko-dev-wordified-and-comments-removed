@@ -168,7 +168,6 @@ const
 {
 context
 context_type
-mayHaveSectionsCards
 }
 =
 props
@@ -195,10 +194,6 @@ context
 &
 &
 context_type
-&
-&
-!
-mayHaveSectionsCards
 )
 {
 return
@@ -562,7 +557,6 @@ cta_button_variant
 source
 spocMessageVariant
 dispatch
-mayHaveSectionsCards
 }
 =
 this
@@ -589,7 +583,6 @@ DSMessageLabel
 {
 context
 context_type
-mayHaveSectionsCards
 }
 )
 ;
