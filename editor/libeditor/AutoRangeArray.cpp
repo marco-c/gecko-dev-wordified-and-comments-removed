@@ -3514,6 +3514,13 @@ EditSubAction
 eFormatBlockForHTMLCommand
 &
 &
+point
+.
+IsContainerElement
+(
+)
+&
+&
 HTMLEditUtils
 :
 :
@@ -4126,6 +4133,13 @@ EditSubAction
 :
 :
 eFormatBlockForHTMLCommand
+&
+&
+point
+.
+IsContainerElement
+(
+)
 &
 &
 HTMLEditUtils
