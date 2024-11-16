@@ -297,6 +297,13 @@ fenceSeqCst
 (
 )
 ;
+static
+inline
+void
+pause
+(
+)
+;
 template
 <
 typename
