@@ -16778,10 +16778,15 @@ firefox
 expiry_version
 :
 "
-135
+148
 "
 notification_emails
 :
+-
+earo
+mozilla
+.
+com
 -
 flod
 mozilla
@@ -16789,11 +16794,6 @@ mozilla
 com
 -
 mstriemer
-mozilla
-.
-com
--
-earo
 mozilla
 .
 com
@@ -16827,6 +16827,8 @@ bug_numbers
 1861299
 -
 1911321
+-
+1928262
 network
 .
 dns
