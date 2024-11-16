@@ -159,7 +159,11 @@ regexp
 /
 regexp
 -
+(
 flags
+|
+utils
+)
 .
 h
 )
