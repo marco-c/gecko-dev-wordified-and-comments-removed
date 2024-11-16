@@ -1989,6 +1989,8 @@ this
 everyWindowCallbackId
 )
 ;
+try
+{
 Services
 .
 obs
@@ -2009,6 +2011,13 @@ update
 "
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 /
 /
 During
