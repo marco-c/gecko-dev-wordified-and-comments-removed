@@ -158,6 +158,17 @@ else
 false
 #
 endif
+ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
+:
+#
+ifdef
+ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
+true
+#
+else
+false
+#
+endif
 RELEASE_OR_BETA
 :
 #
