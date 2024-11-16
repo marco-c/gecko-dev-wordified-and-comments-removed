@@ -965,7 +965,7 @@ this
 .
 profile
 .
-themeL10nId
+themeId
 )
 {
 return
@@ -989,11 +989,11 @@ this
 .
 profile
 .
-themeL10nId
+themeId
 =
 theme
 .
-themeL10nId
+themeId
 ;
 this
 .
