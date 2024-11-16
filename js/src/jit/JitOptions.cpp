@@ -953,7 +953,7 @@ false
 SET_DEFAULT
 (
 wasmBatchBaselineThreshold
-10000
+25000
 )
 ;
 SET_DEFAULT
