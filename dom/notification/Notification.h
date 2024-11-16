@@ -403,6 +403,11 @@ return
 mIsStored
 ;
 }
+void
+MaybeNotifyClose
+(
+)
+;
 static
 bool
 RequestPermissionEnabledForScope
