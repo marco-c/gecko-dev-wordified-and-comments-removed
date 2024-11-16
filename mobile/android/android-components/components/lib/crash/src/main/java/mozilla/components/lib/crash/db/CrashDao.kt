@@ -107,6 +107,12 @@ androidx
 .
 room
 .
+RewriteQueriesToDropUnusedColumns
+import
+androidx
+.
+room
+.
 Transaction
 import
 java
@@ -235,6 +241,7 @@ reported
 .
 *
 /
+RewriteQueriesToDropUnusedColumns
 Transaction
 Query
 (
