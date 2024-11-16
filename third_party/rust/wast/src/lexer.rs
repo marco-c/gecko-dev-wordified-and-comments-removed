@@ -107,12 +107,14 @@ len
 :
 u32
 }
-const
-_
-:
+#
+[
+test
+]
+fn
+token_is_not_too_big
 (
 )
-=
 {
 assert
 !
@@ -152,7 +154,6 @@ u64
 )
 ;
 }
-;
 #
 [
 derive

@@ -250,6 +250,10 @@ start
 ;
 section
 .
+ty
+(
+)
+.
 subtype
 (
 &
@@ -288,6 +292,10 @@ else
 {
 section
 .
+ty
+(
+)
+.
 rec
 (
 self
@@ -310,6 +318,7 @@ map
 |
 ty
 |
+{
 wasm_encoder
 :
 :
@@ -337,6 +346,7 @@ composite_type
 into
 (
 )
+}
 }
 )
 )
@@ -1110,6 +1120,10 @@ el
 .
 ty
 es
+.
+into
+(
+)
 )
 Elements
 :
@@ -1142,6 +1156,10 @@ Elements
 Functions
 (
 fs
+.
+into
+(
+)
 )
 }
 }

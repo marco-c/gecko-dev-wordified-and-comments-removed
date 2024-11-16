@@ -817,7 +817,7 @@ exports
 crate
 :
 :
-push_extern_name_byte
+encode_component_export_name
 (
 &
 mut
@@ -825,17 +825,6 @@ self
 .
 bytes
 name
-)
-;
-name
-.
-encode
-(
-&
-mut
-self
-.
-bytes
 )
 ;
 kind

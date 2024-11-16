@@ -871,12 +871,15 @@ Active
 {
 table
 :
+Some
+(
 Index
 :
 :
 Id
 (
 id
+)
 )
 offset
 :

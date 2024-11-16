@@ -734,10 +734,13 @@ Active
 {
 table
 :
+Option
+<
 Index
 <
 '
 a
+>
 >
 offset
 :
@@ -978,6 +981,8 @@ table_omitted
 =
 true
 ;
+Some
+(
 Index
 :
 :
@@ -990,6 +995,7 @@ parse
 )
 ?
 span
+)
 )
 }
 else
@@ -1009,6 +1015,8 @@ table
 )
 ?
 {
+Some
+(
 parser
 .
 parens
@@ -1040,6 +1048,7 @@ parse
 }
 )
 ?
+)
 }
 else
 {
@@ -1047,14 +1056,7 @@ table_omitted
 =
 true
 ;
-Index
-:
-:
-Num
-(
-0
-span
-)
+None
 }
 ;
 let

@@ -744,7 +744,7 @@ enc
 wasm_encoder
 :
 :
-CoreTypeEncoder
+ComponentCoreTypeEncoder
 <
 '
 _
@@ -765,6 +765,10 @@ ty
 >
 {
 enc
+.
+core
+(
+)
 .
 function
 (

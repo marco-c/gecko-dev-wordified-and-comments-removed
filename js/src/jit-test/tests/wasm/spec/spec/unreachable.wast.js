@@ -53,7 +53,7 @@ i64
 )
 (
 result
-i32
+i64
 )
 (
 unreachable
@@ -71,7 +71,7 @@ f32
 )
 (
 result
-f64
+f32
 )
 (
 unreachable

@@ -597,6 +597,15 @@ module
 )
 ;
 let
+types
+=
+types
+.
+as_ref
+(
+)
+;
+let
 mut
 exports
 =

@@ -78,6 +78,16 @@ tests
 wasm
 /
 spec
+|
+|
+echo
+"
+No
+tests
+to
+delete
+.
+"
 cp
 -
 R

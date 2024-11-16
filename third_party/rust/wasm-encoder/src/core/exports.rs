@@ -30,6 +30,7 @@ Copy
 Debug
 Eq
 PartialEq
+Hash
 )
 ]
 #
