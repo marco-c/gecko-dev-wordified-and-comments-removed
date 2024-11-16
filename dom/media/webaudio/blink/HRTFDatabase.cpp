@@ -556,10 +556,10 @@ elevationAngle
 {
 elevationAngle
 =
-mozilla
+std
 :
 :
-clamped
+clamp
 (
 elevationAngle
 static_cast
