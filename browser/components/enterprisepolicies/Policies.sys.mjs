@@ -10255,6 +10255,15 @@ require
 "
 security
 .
+pki
+.
+certificate_transparency
+.
+mode
+"
+"
+security
+.
 ssl
 .
 enable_ocsp_stapling
