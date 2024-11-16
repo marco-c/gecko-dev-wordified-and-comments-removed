@@ -1579,6 +1579,11 @@ menuItems
 state
 .
 menuItems
+privacyBadgeVisible
+=
+state
+.
+isPrivateMode
 onClick
 =
 onTabCounterClick
