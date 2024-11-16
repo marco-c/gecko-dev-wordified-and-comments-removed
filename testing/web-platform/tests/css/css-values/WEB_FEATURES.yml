@@ -146,3 +146,17 @@ cos
 tan
 -
 *
+-
+name
+:
+calc
+-
+constants
+files
+:
+-
+calc
+-
+infinity
+-
+*
