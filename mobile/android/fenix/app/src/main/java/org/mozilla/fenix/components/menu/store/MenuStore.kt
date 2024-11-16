@@ -243,14 +243,6 @@ Navigate
 is
 MenuAction
 .
-ShowCFR
-is
-MenuAction
-.
-DismissCFR
-is
-MenuAction
-.
 SaveMenuClicked
 is
 MenuAction
