@@ -278,6 +278,12 @@ u32
 monitor_interval_millis
 :
 u32
+custom_headers
+:
+ffi
+:
+:
+OsString
 )
 -
 >
@@ -314,6 +320,7 @@ save_path
 proxy_usage
 no_progress_timeout_secs
 monitor_interval_millis
+custom_headers
 )
 .
 map

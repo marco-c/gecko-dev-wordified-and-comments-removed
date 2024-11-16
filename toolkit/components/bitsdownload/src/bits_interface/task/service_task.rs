@@ -838,6 +838,9 @@ u32
 update_interval_ms
 :
 u32
+custom_headers
+:
+nsCString
 }
 struct
 StartDownloadSuccess
@@ -930,6 +933,9 @@ u32
 update_interval_ms
 :
 u32
+custom_headers
+:
+nsCString
 bits_service
 :
 RefPtr
@@ -981,6 +987,7 @@ save_rel_path
 proxy
 no_progress_timeout_secs
 update_interval_ms
+custom_headers
 }
 StartDownloadTask
 :
@@ -1047,6 +1054,20 @@ CommandThread
 ?
 ;
 let
+custom_headers
+=
+nsCString_to_OsString
+(
+&
+data
+.
+custom_headers
+StartDownload
+CommandThread
+)
+?
+;
+let
 (
 success
 monitor_client
@@ -1067,6 +1088,7 @@ no_progress_timeout_secs
 data
 .
 update_interval_ms
+custom_headers
 )
 .
 map_err
