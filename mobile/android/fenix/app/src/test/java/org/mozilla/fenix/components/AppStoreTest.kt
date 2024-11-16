@@ -311,6 +311,20 @@ appstate
 .
 AppAction
 .
+ContentRecommendationsAction
+import
+org
+.
+mozilla
+.
+fenix
+.
+components
+.
+appstate
+.
+AppAction
+.
 MessagingAction
 .
 UpdateMessageToShow
@@ -2382,7 +2396,7 @@ appStore
 .
 dispatch
 (
-AppAction
+ContentRecommendationsAction
 .
 SelectPocketStoriesCategory
 (
@@ -2558,7 +2572,7 @@ appStore
 .
 dispatch
 (
-AppAction
+ContentRecommendationsAction
 .
 DeselectPocketStoriesCategory
 (
@@ -2683,7 +2697,7 @@ appStore
 .
 dispatch
 (
-AppAction
+ContentRecommendationsAction
 .
 PocketStoriesClean
 )
@@ -2872,7 +2886,7 @@ appStore
 .
 dispatch
 (
-AppAction
+ContentRecommendationsAction
 .
 PocketSponsoredStoriesChange
 (
@@ -2959,7 +2973,7 @@ appStore
 .
 dispatch
 (
-AppAction
+ContentRecommendationsAction
 .
 PocketSponsoredStoriesChange
 (
@@ -3124,7 +3138,7 @@ appStore
 .
 dispatch
 (
-AppAction
+ContentRecommendationsAction
 .
 PocketStoriesShown
 (
@@ -3310,7 +3324,7 @@ appStore
 .
 dispatch
 (
-AppAction
+ContentRecommendationsAction
 .
 PocketStoriesCategoriesChange
 (
@@ -3407,7 +3421,7 @@ appStore
 .
 dispatch
 (
-AppAction
+ContentRecommendationsAction
 .
 PocketStoriesCategoriesChange
 (
@@ -3557,7 +3571,7 @@ appStore
 .
 dispatch
 (
-AppAction
+ContentRecommendationsAction
 .
 PocketStoriesCategoriesSelectionsChange
 (

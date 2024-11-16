@@ -286,6 +286,8 @@ components
 appstate
 .
 AppAction
+.
+ContentRecommendationsAction
 import
 org
 .
@@ -543,7 +545,7 @@ store
 .
 dispatch
 (
-AppAction
+ContentRecommendationsAction
 .
 SelectPocketStoriesCategory
 (
@@ -559,7 +561,7 @@ store
 .
 dispatch
 (
-AppAction
+ContentRecommendationsAction
 .
 DeselectPocketStoriesCategory
 (
@@ -934,7 +936,7 @@ store
 .
 dispatch
 (
-AppAction
+ContentRecommendationsAction
 .
 DeselectPocketStoriesCategory
 (
@@ -950,7 +952,7 @@ store
 .
 dispatch
 (
-AppAction
+ContentRecommendationsAction
 .
 SelectPocketStoriesCategory
 (
@@ -1298,7 +1300,7 @@ store
 .
 dispatch
 (
-AppAction
+ContentRecommendationsAction
 .
 DeselectPocketStoriesCategory
 (
@@ -1314,7 +1316,7 @@ store
 .
 dispatch
 (
-AppAction
+ContentRecommendationsAction
 .
 SelectPocketStoriesCategory
 (
@@ -1528,7 +1530,7 @@ store
 .
 dispatch
 (
-AppAction
+ContentRecommendationsAction
 .
 PocketStoriesShown
 (
@@ -1731,7 +1733,7 @@ store
 .
 dispatch
 (
-AppAction
+ContentRecommendationsAction
 .
 PocketStoriesShown
 (
@@ -1937,7 +1939,7 @@ store
 .
 dispatch
 (
-AppAction
+ContentRecommendationsAction
 .
 PocketStoriesShown
 (
