@@ -575,6 +575,13 @@ syncManagerTestChild
 js
 "
 "
+data
+/
+updateMutexTestChild
+.
+js
+"
+"
 TestAUSReadStrings1
 .
 ini
