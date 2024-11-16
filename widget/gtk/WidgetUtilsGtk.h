@@ -176,7 +176,6 @@ PortalKind
 {
 FilePicker
 MimeHandler
-NativeMessaging
 Settings
 Location
 OpenUri
