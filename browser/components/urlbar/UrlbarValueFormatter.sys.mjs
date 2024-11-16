@@ -1379,7 +1379,14 @@ if
 (
 uriInfo
 .
-wasSchemelessInput
+schemelessInput
+=
+=
+Ci
+.
+nsILoadInfo
+.
+SchemelessInputTypeSchemeless
 )
 {
 /
