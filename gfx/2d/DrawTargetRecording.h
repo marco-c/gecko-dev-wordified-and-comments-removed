@@ -75,8 +75,6 @@ layers
 CanvasDrawEventRecorder
 *
 aRecorder
-int64_t
-aTextureId
 const
 layers
 :

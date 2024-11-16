@@ -952,8 +952,6 @@ layers
 CanvasDrawEventRecorder
 *
 aRecorder
-int64_t
-aTextureId
 const
 layers
 :
@@ -1003,7 +1001,6 @@ layers
 RecordedCanvasDrawTargetCreation
 (
 this
-aTextureId
 aTextureOwnerId
 mFinalDT
 -

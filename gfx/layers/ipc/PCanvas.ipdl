@@ -617,8 +617,8 @@ refresh
 async
 NotifyRequiresRefresh
 (
-int64_t
-aTextureId
+RemoteTextureOwnerId
+aTextureOwnerId
 )
 ;
 /
@@ -639,8 +639,8 @@ snapshotting
 async
 SnapshotShmem
 (
-int64_t
-aTextureId
+RemoteTextureOwnerId
+aTextureOwnerId
 Handle
 aShmemHandle
 uint32_t
