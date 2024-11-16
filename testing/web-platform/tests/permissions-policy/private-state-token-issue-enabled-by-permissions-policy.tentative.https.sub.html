@@ -344,7 +344,7 @@ assert_equals
 data
 .
 num_operations_enabled
-0
+2
 desc
 )
 ;
@@ -355,7 +355,7 @@ desc
 test_desc_begin
 +
 '
-disallows
+allows
 cross
 -
 origin
@@ -393,7 +393,7 @@ assert_equals
 data
 .
 num_operations_enabled
-2
+0
 desc
 )
 ;
@@ -406,6 +406,11 @@ state
 token
 -
 issuance
+\
+'
+none
+\
+'
 '
 )
 ;
@@ -424,8 +429,13 @@ state
 token
 -
 issuance
+\
+'
+none
+\
+'
 "
-allows
+disallows
 cross
 -
 origin
