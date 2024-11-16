@@ -445,6 +445,13 @@ n
 pw_pids
 "
 ]
+&
+&
+[
+TASKCLUSTER_INTERACTIVE
+=
+false
+]
 ;
 then
 kill
