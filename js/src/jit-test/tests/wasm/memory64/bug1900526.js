@@ -20,7 +20,7 @@ Memory
 initial
 :
 0n
-index
+address
 :
 "
 i64
