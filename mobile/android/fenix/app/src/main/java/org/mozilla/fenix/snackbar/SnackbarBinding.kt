@@ -77,6 +77,18 @@ navigation
 .
 NavController
 import
+com
+.
+google
+.
+android
+.
+material
+.
+snackbar
+.
+Snackbar
+import
 kotlinx
 .
 coroutines
@@ -216,16 +228,6 @@ fenix
 components
 .
 AppStore
-import
-org
-.
-mozilla
-.
-fenix
-.
-components
-.
-FenixSnackbar
 import
 org
 .
@@ -633,7 +635,7 @@ title
 )
 duration
 =
-FenixSnackbar
+Snackbar
 .
 LENGTH_LONG
 )
@@ -666,7 +668,7 @@ string
 snackbar_added_to_shortcuts
 duration
 =
-FenixSnackbar
+Snackbar
 .
 LENGTH_LONG
 )
@@ -699,7 +701,7 @@ string
 snackbar_top_site_removed
 duration
 =
-FenixSnackbar
+Snackbar
 .
 LENGTH_LONG
 )
@@ -732,7 +734,7 @@ string
 deleting_browsing_data_in_progress
 duration
 =
-FenixSnackbar
+Snackbar
 .
 LENGTH_INDEFINITE
 )
@@ -802,7 +804,7 @@ string
 translation_in_progress_snackbar
 duration
 =
-FenixSnackbar
+Snackbar
 .
 LENGTH_INDEFINITE
 )
@@ -835,7 +837,7 @@ string
 sync_syncing_in_progress
 duration
 =
-FenixSnackbar
+Snackbar
 .
 LENGTH_SHORT
 )
@@ -868,7 +870,7 @@ string
 share_error_snackbar
 duration
 =
-FenixSnackbar
+Snackbar
 .
 LENGTH_LONG
 )
@@ -922,7 +924,7 @@ sync_sent_tabs_snackbar
 }
 duration
 =
-FenixSnackbar
+Snackbar
 .
 LENGTH_SHORT
 )
@@ -962,7 +964,7 @@ string
 sync_sent_tab_error_snackbar
 duration
 =
-FenixSnackbar
+Snackbar
 .
 LENGTH_LONG
 isError
@@ -1122,7 +1124,7 @@ string
 toast_copy_link_to_clipboard
 duration
 =
-FenixSnackbar
+Snackbar
 .
 LENGTH_SHORT
 )
@@ -1250,7 +1252,7 @@ parentNode
 )
 duration
 =
-FenixSnackbar
+Snackbar
 .
 LENGTH_LONG
 action
@@ -1327,7 +1329,7 @@ string
 bookmark_invalid_url_error
 duration
 =
-FenixSnackbar
+Snackbar
 .
 LENGTH_LONG
 )
