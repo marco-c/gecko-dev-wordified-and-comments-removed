@@ -31,13 +31,6 @@ py
 ]
 [
 "
-test_addons
-.
-py
-"
-]
-[
-"
 test_capabilities
 .
 py
