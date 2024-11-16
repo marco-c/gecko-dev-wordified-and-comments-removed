@@ -205,6 +205,9 @@ GeckoFontMetrics
 namespace
 mozilla
 {
+struct
+StyleCalcLengthPercentage
+;
 namespace
 gfx
 {

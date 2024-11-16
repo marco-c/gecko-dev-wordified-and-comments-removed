@@ -3310,9 +3310,16 @@ ifdef
 SERVO_32_BITS
 return
 *
+reinterpret_cast
+<
+StyleCalcLengthPercentage
+*
+>
+(
 calc
 .
 ptr
+)
 ;
 #
 else

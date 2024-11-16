@@ -332,7 +332,8 @@ ptr
 :
 *
 mut
-CalcLengthPercentage
+(
+)
 }
 #
 [
@@ -1890,6 +1891,13 @@ LengthPercentageUnion
 :
 TAG_CALC
 ptr
+:
+ptr
+as
+*
+mut
+(
+)
 }
 ;
 #
