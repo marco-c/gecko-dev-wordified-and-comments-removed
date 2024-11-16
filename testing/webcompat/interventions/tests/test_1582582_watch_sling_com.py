@@ -39,11 +39,11 @@ container
 VPN_TEXT
 =
 "
-ONLY
-AVAILABLE
-INSIDE
-THE
-US
+Looks
+like
+a
+location
+issue
 "
 pytest
 .
@@ -166,5 +166,5 @@ await_css
 INCOMPATIBLE_CSS
 timeout
 =
-2000
+20
 )
