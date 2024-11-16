@@ -5,6 +5,15 @@ inherent
 inherent
 ;
 use
+std
+:
+:
+sync
+:
+:
+Arc
+;
+use
 glean
 :
 :
@@ -50,6 +59,8 @@ QuantityMetric
 {
 Parent
 (
+Arc
+<
 glean
 :
 :
@@ -57,6 +68,7 @@ private
 :
 :
 QuantityMetric
+>
 )
 Child
 (
@@ -113,6 +125,11 @@ QuantityMetric
 :
 Parent
 (
+Arc
+:
+:
+new
+(
 glean
 :
 :
@@ -125,6 +142,7 @@ QuantityMetric
 new
 (
 meta
+)
 )
 )
 }
