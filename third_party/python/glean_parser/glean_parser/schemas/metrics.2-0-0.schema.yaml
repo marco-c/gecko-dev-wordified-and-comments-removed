@@ -757,6 +757,7 @@ labeled_counter
 labeled_custom_distribution
 labeled_memory_distribution
 labeled_timing_distribution
+labeled_quantity
 .
 -
 text
@@ -829,6 +830,8 @@ labeled_custom_distribution
 labeled_memory_distribution
 -
 labeled_timing_distribution
+-
+labeled_quantity
 -
 rate
 -

@@ -39,8 +39,6 @@ urllib
 .
 request
 import
-appdirs
-import
 diskcache
 import
 jinja2
@@ -50,6 +48,8 @@ from
 jsonschema
 import
 _utils
+import
+platformdirs
 import
 yaml
 try
@@ -1664,7 +1664,7 @@ cache
         
 cache_dir
 =
-appdirs
+platformdirs
 .
 user_cache_dir
 (

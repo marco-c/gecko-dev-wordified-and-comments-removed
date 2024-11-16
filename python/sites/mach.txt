@@ -554,6 +554,13 @@ third_party
 /
 python
 /
+platformdirs
+vendored
+:
+third_party
+/
+python
+/
 pyproject_hooks
 vendored
 :

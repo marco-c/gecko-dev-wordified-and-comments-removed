@@ -38,8 +38,6 @@ os
 import
 shutil
 import
-sys
-import
 tempfile
 from
 typing
@@ -619,12 +617,6 @@ for
 numerators
 }
 "
-                
-file
-=
-sys
-.
-stderr
             
 )
         

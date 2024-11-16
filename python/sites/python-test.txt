@@ -462,6 +462,13 @@ third_party
 /
 python
 /
+platformdirs
+vendored
+:
+third_party
+/
+python
+/
 ply
 vendored
 :
