@@ -398,7 +398,7 @@ openThreeDotMenu
 {
 }
 .
-clickInstall
+clickAddAppToHomeScreen
 {
 clickSystemHomeScreenShortcutAddButton
 (
@@ -485,7 +485,7 @@ openThreeDotMenu
 {
 }
 .
-clickInstall
+clickAddAppToHomeScreen
 {
 clickSystemHomeScreenShortcutAddButton
 (
@@ -586,7 +586,7 @@ openThreeDotMenu
 {
 }
 .
-clickInstall
+clickAddAppToHomeScreen
 {
 clickSystemHomeScreenShortcutAddButton
 (
