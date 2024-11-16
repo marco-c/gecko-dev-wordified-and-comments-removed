@@ -1148,7 +1148,7 @@ MenuAction
 .
 Navigate
 .
-Settings
+Passwords
 )
 .
 join
@@ -1167,7 +1167,7 @@ id
 menuDialogFragment
 MenuDialogFragmentDirections
 .
-actionGlobalSavedLoginsAuthFragment
+actionMenuDialogFragmentToLoginsListFragment
 (
 )
 )

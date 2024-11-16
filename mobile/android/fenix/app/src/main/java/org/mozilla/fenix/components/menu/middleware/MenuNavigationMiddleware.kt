@@ -954,7 +954,7 @@ id
 menuDialogFragment
 MenuDialogFragmentDirections
 .
-actionGlobalSavedLoginsAuthFragment
+actionMenuDialogFragmentToLoginsListFragment
 (
 )
 )
