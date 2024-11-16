@@ -270,7 +270,9 @@ regexp_stack
 static_stack_
 )
 +
-kStackLimitSlackSize
+kStackLimitSlack
+*
+kSystemPointerSize
 ;
 owns_memory_
 =
@@ -457,7 +459,9 @@ Address
 new_memory
 )
 +
-kStackLimitSlackSize
+kStackLimitSlack
+*
+kSystemPointerSize
 ;
 thread_local_
 .
