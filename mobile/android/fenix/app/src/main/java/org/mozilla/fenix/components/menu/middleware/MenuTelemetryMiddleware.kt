@@ -764,8 +764,15 @@ whatsNewTapped
 .
 record
 (
-NoExtras
+Events
+.
+WhatsNewTappedExtra
 (
+source
+=
+"
+MENU
+"
 )
 )
 MenuAction

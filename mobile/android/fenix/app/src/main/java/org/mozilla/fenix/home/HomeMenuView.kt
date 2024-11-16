@@ -1169,8 +1169,15 @@ whatsNewTapped
 .
 record
 (
-NoExtras
+Events
+.
+WhatsNewTappedExtra
 (
+source
+=
+"
+HOME
+"
 )
 )
 homeActivity
