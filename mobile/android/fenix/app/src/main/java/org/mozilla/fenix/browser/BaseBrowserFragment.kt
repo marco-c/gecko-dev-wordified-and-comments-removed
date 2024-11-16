@@ -2503,7 +2503,7 @@ const
 val
 NAVIGATION_CFR_ARROW_OFFSET
 =
-48
+24
 private
 const
 val
@@ -8675,6 +8675,13 @@ indicatorArrowStartOffset
 NAVIGATION_CFR_ARROW_OFFSET
 .
 dp
+popupAlignment
+=
+CFRPopup
+.
+PopupAlignment
+.
+BODY_TO_ANCHOR_START_WITH_OFFSET
 )
 onCFRShown
 =
