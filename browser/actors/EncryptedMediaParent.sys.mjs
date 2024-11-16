@@ -1591,11 +1591,14 @@ testGetValue
 ;
 if
 (
+typeof
 isGleanReported
-!
 =
 =
-undefined
+=
+"
+boolean
+"
 )
 {
 /
