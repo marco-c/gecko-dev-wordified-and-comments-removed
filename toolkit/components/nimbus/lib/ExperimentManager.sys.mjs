@@ -3104,7 +3104,7 @@ enrollment
 (
 enrollment
 .
-isActive
+active
 |
 |
 !
