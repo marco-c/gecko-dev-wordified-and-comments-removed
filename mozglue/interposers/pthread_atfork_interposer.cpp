@@ -81,7 +81,7 @@ const
 int
 maxHandlers
 =
-16
+32
 ;
 static
 constexpr
