@@ -2665,6 +2665,13 @@ js
 ]
 [
 "
+test_cookies_partition_migration
+.
+js
+"
+]
+[
+"
 test_cookies_privatebrowsing
 .
 js
