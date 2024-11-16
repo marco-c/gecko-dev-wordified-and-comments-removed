@@ -185,6 +185,12 @@ aSameSite
 in
 nsICookie_schemeType
 aSchemeMap
+[
+optional
+]
+in
+boolean
+aIsPartitioned
 )
 ;
 [
