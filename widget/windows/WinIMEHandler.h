@@ -497,7 +497,7 @@ IsKeyboardPresentOnSlate
 ;
 static
 bool
-IsInWin10TabletMode
+IsInTabletMode
 (
 )
 ;
