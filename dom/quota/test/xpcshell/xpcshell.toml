@@ -249,6 +249,13 @@ js
 ]
 [
 "
+test_artificialFailure
+.
+js
+"
+]
+[
+"
 test_bad_origin_directory
 .
 js
