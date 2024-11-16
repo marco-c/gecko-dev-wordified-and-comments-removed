@@ -705,6 +705,12 @@ subtree
 =
 false
 ;
+CSSOMString
+?
+pseudoElement
+=
+null
+;
 }
 ;
 partial

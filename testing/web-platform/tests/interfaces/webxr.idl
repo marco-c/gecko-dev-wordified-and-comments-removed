@@ -219,6 +219,14 @@ attribute
 XRInputSourceArray
 inputSources
 ;
+[
+SameObject
+]
+readonly
+attribute
+XRInputSourceArray
+trackedSources
+;
 readonly
 attribute
 FrozenArray

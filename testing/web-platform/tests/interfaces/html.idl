@@ -4391,6 +4391,13 @@ accept
 CEReactions
 ]
 attribute
+boolean
+alpha
+;
+[
+CEReactions
+]
+attribute
 DOMString
 alt
 ;
@@ -4411,6 +4418,13 @@ defaultChecked
 attribute
 boolean
 checked
+;
+[
+CEReactions
+]
+attribute
+DOMString
+colorSpace
 ;
 [
 CEReactions
