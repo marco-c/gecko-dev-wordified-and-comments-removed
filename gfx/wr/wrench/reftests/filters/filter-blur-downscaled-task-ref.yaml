@@ -36,14 +36,6 @@ bounds
 :
 0
 0
-100
-100
-clip
--
-rect
-:
-0
-0
 50
 50
 start
@@ -53,7 +45,7 @@ start
 end
 :
 50
-50
+0
 stops
 :
 [
