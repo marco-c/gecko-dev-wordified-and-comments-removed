@@ -1181,6 +1181,11 @@ Profiles
 :
 OpenDeletePage
 "
+"
+Profiles
+:
+CloseProfileTab
+"
 ]
 }
 "
@@ -1225,7 +1230,7 @@ DeleteNewProfile
 "
 Profiles
 :
-CloseNewProfileTab
+CloseProfileTab
 "
 ]
 RPMGetBoolPref

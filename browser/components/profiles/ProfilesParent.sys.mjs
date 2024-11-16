@@ -1492,7 +1492,7 @@ case
 "
 Profiles
 :
-CloseNewProfileTab
+CloseProfileTab
 "
 :
 {
