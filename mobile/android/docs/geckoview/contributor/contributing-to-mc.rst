@@ -203,11 +203,10 @@ mozilla
 -
 central
 <
-mc
--
-quick
--
-start
+/
+setup
+/
+index
 .
 html
 >
