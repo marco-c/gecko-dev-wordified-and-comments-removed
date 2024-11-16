@@ -2316,8 +2316,9 @@ wt
 .
 server
 .
-process_output
+process
 (
+None
 now
 (
 )
@@ -2334,7 +2335,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -2371,7 +2372,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -2390,7 +2391,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -2409,7 +2410,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -2428,7 +2429,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -2447,7 +2448,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -2466,7 +2467,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now

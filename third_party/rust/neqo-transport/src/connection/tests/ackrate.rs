@@ -48,19 +48,10 @@ use
 crate
 :
 :
-{
-connection
-:
-:
-tests
-:
-:
-assert_path_challenge_min_len
 stream_id
 :
 :
 StreamType
-}
 ;
 #
 [
@@ -423,6 +414,7 @@ process
 (
 Some
 (
+&
 ack
 )
 now
@@ -738,6 +730,7 @@ process
 (
 Some
 (
+&
 d
 )
 now
@@ -784,6 +777,7 @@ process
 (
 Some
 (
+&
 d
 )
 now
@@ -909,6 +903,7 @@ process
 (
 Some
 (
+&
 d
 )
 now
@@ -955,6 +950,7 @@ process
 (
 Some
 (
+&
 d
 )
 now
@@ -1081,15 +1077,6 @@ client1
 true
 )
 ;
-assert_path_challenge_min_len
-(
-&
-client
-&
-client1
-now
-)
-;
 let
 client2
 =
@@ -1122,6 +1109,7 @@ server
 .
 process_input
 (
+&
 client1
 now
 )
@@ -1254,6 +1242,7 @@ process
 (
 Some
 (
+&
 ack
 )
 now

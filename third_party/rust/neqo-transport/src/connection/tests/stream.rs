@@ -118,8 +118,9 @@ out
 =
 client
 .
-process_output
+process
 (
+None
 now
 (
 )
@@ -142,7 +143,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -159,7 +160,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -178,7 +179,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -203,8 +204,9 @@ out
 =
 client
 .
-process_output
+process
 (
+None
 now
 (
 )
@@ -297,7 +299,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -668,6 +670,7 @@ process
 (
 Some
 (
+&
 d
 )
 now
@@ -1206,6 +1209,7 @@ process
 (
 Some
 (
+&
 d
 )
 now
@@ -2223,8 +2227,9 @@ out
 =
 client
 .
-process_output
+process
 (
+None
 now
 (
 )
@@ -2241,7 +2246,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -2266,8 +2271,9 @@ out
 =
 server
 .
-process_output
+process
 (
+None
 now
 (
 )
@@ -2284,7 +2290,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -2360,6 +2366,10 @@ client
 process
 (
 input
+.
+as_ref
+(
+)
 now
 (
 )
@@ -2386,6 +2396,10 @@ server
 process
 (
 out
+.
+as_ref
+(
+)
 now
 (
 )
@@ -2620,8 +2634,9 @@ out
 =
 server
 .
-process_output
+process
 (
+None
 now
 (
 )
@@ -2635,6 +2650,7 @@ client
 .
 process_input
 (
+&
 out
 .
 unwrap
@@ -3408,8 +3424,9 @@ out
 =
 client
 .
-process_output
+process
 (
+None
 now
 (
 )
@@ -3426,7 +3443,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -3490,8 +3507,9 @@ out_second_data_frame
 =
 client
 .
-process_output
+process
 (
+None
 now
 (
 )
@@ -3530,7 +3548,7 @@ process
 (
 out_second_data_frame
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -3565,7 +3583,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -3669,8 +3687,9 @@ out
 =
 client
 .
-process_output
+process
 (
+None
 now
 (
 )
@@ -3685,7 +3704,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -3758,6 +3777,10 @@ client
 process
 (
 ack
+.
+as_ref
+(
+)
 now
 (
 )
@@ -3784,6 +3807,7 @@ server
 .
 process_input
 (
+&
 force_ack
 now
 (
@@ -3810,6 +3834,10 @@ server
 process
 (
 out_reset_frame
+.
+as_ref
+(
+)
 now
 (
 )
@@ -3849,6 +3877,7 @@ client
 .
 process_input
 (
+&
 ack
 .
 unwrap
@@ -3912,8 +3941,9 @@ client_hs
 =
 client
 .
-process_output
+process
 (
+None
 now
 (
 )
@@ -3942,7 +3972,7 @@ process
 (
 client_hs
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -3973,7 +4003,7 @@ process
 (
 server_hs
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -4004,7 +4034,7 @@ process
 (
 client_ack
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -4057,8 +4087,9 @@ client_fin
 =
 client
 .
-process_output
+process
 (
+None
 now
 (
 )
@@ -4117,8 +4148,9 @@ client_stream_data
 =
 client
 .
-process_output
+process
 (
+None
 now
 (
 )
@@ -4147,7 +4179,7 @@ process
 (
 client_stream_data
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -4193,7 +4225,7 @@ process
 (
 client_fin
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -4301,8 +4333,9 @@ out
 =
 server
 .
-process_output
+process
 (
+None
 now
 (
 )
@@ -4332,6 +4365,10 @@ client
 process
 (
 out
+.
+as_ref
+(
+)
 now
 (
 )
@@ -4502,8 +4539,9 @@ out
 =
 server
 .
-process_output
+process
 (
+None
 now
 (
 )
@@ -4533,6 +4571,10 @@ client
 process
 (
 out
+.
+as_ref
+(
+)
 now
 (
 )
@@ -4677,8 +4719,9 @@ dgram
 =
 server
 .
-process_output
+process
 (
+None
 now
 )
 .
@@ -4700,6 +4743,7 @@ client
 .
 process_input
 (
+&
 dgram
 .
 unwrap
@@ -4859,6 +4903,10 @@ client
 process
 (
 dgram
+.
+as_ref
+(
+)
 now
 )
 .
@@ -4910,6 +4958,7 @@ server
 .
 process_input
 (
+&
 dgram
 .
 unwrap
@@ -5120,8 +5169,9 @@ dgram
 =
 client
 .
-process_output
+process
 (
+None
 now
 (
 )
@@ -5135,6 +5185,7 @@ server
 .
 process_input
 (
+&
 dgram
 .
 unwrap
@@ -5177,6 +5228,7 @@ client
 .
 process_input
 (
+&
 dgram
 .
 unwrap
@@ -5249,6 +5301,7 @@ client
 .
 process_input
 (
+&
 dgram
 .
 unwrap
@@ -5347,6 +5400,7 @@ client
 .
 process_input
 (
+&
 dgram
 now
 (
@@ -5375,6 +5429,7 @@ process
 (
 Some
 (
+&
 dgram
 )
 now
@@ -5390,6 +5445,7 @@ client
 .
 process_input
 (
+&
 dgram
 .
 unwrap
@@ -5509,8 +5565,9 @@ out
 =
 client
 .
-process_output
+process
 (
+None
 now
 (
 )
@@ -5527,7 +5584,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -5591,8 +5648,9 @@ out_second_data_frame
 =
 client
 .
-process_output
+process
 (
+None
 now
 (
 )
@@ -5609,7 +5667,7 @@ process
 (
 out_second_data_frame
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -5665,8 +5723,9 @@ out_third_data_frame
 =
 client
 .
-process_output
+process
 (
+None
 now
 (
 )
@@ -5683,7 +5742,7 @@ process
 (
 out_third_data_frame
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -5781,8 +5840,9 @@ out
 =
 client
 .
-process_output
+process
 (
+None
 now
 (
 )
@@ -5799,7 +5859,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -5859,8 +5919,9 @@ out_second_data_frame
 =
 client
 .
-process_output
+process
 (
+None
 now
 (
 )
@@ -5877,7 +5938,7 @@ process
 (
 out_second_data_frame
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -6029,8 +6090,9 @@ out
 =
 server
 .
-process_output
+process
 (
+None
 now
 (
 )
@@ -6047,7 +6109,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -6073,8 +6135,9 @@ out2
 =
 client
 .
-process_output
+process
 (
+None
 now
 (
 )
@@ -6089,7 +6152,7 @@ process
 (
 out2
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -6189,7 +6252,7 @@ process
 (
 out3
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -6206,7 +6269,7 @@ process
 (
 out4
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -6225,7 +6288,7 @@ process
 (
 out5
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -6290,8 +6353,9 @@ out4
 =
 client
 .
-process_output
+process
 (
+None
 now
 (
 )
@@ -6308,7 +6372,7 @@ process
 (
 out4
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -6592,8 +6656,9 @@ out
 =
 server
 .
-process_output
+process
 (
+None
 now
 (
 )
@@ -6611,6 +6676,10 @@ client
 process
 (
 out
+.
+as_ref
+(
+)
 now
 (
 )
@@ -6661,6 +6730,10 @@ server
 process
 (
 out
+.
+as_ref
+(
+)
 now
 (
 )
@@ -6674,6 +6747,7 @@ client
 .
 process_input
 (
+&
 out
 .
 unwrap
@@ -6829,8 +6903,9 @@ out1
 =
 client
 .
-process_output
+process
 (
+None
 now
 (
 )
@@ -6856,8 +6931,9 @@ out2
 =
 client
 .
-process_output
+process
 (
+None
 now
 (
 )
@@ -6871,6 +6947,7 @@ server
 .
 process_input
 (
+&
 out2
 .
 unwrap
@@ -6908,6 +6985,10 @@ server
 process
 (
 out1
+.
+as_ref
+(
+)
 now
 (
 )
@@ -6921,6 +7002,7 @@ client
 .
 process_input
 (
+&
 out
 .
 unwrap
@@ -7492,8 +7574,9 @@ out
 =
 client
 .
-process_output
+process
 (
+None
 now
 (
 )
@@ -7540,7 +7623,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -7557,7 +7640,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -7576,7 +7659,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now

@@ -310,13 +310,12 @@ const
 fn
 string
 (
+&
 self
 )
 -
 >
 &
-'
-static
 str
 {
 "

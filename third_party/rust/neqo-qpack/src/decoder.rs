@@ -1898,8 +1898,9 @@ decoder
 .
 peer_conn
 .
-process_output
+process
 (
+None
 now
 (
 )
@@ -1918,7 +1919,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -1990,8 +1991,9 @@ decoder
 .
 conn
 .
-process_output
+process
 (
+None
 now
 (
 )
@@ -2010,7 +2012,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
