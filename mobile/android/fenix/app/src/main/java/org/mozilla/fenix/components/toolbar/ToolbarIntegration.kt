@@ -915,10 +915,10 @@ else
 addNewTabBrowserAction
 (
 )
-}
 addTabCounterBrowserAction
 (
 )
+}
 }
 private
 fun
