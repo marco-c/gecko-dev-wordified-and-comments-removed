@@ -335,10 +335,10 @@ x
 ;
 x
 =
-mozilla
+std
 :
 :
-clamped
+clamp
 (
 x
 0
