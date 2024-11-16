@@ -84,6 +84,10 @@ log_level
 "
 INFO
 "
+    
+no_failure_screenshots
+=
+None
 )
 :
     
@@ -461,6 +465,25 @@ args
 append
 (
 config
+)
+            
+if
+no_failure_screenshots
+:
+                
+args
+.
+append
+(
+"
+-
+-
+no
+-
+failure
+-
+screenshots
+"
 )
             
 if
@@ -1007,6 +1030,11 @@ parser
 .
 addoption
 (
+            
+"
+-
+B
+"
 "
 -
 -
@@ -1027,6 +1055,7 @@ run
 tests
 for
 "
+        
 )
         
 parser
@@ -1062,6 +1091,49 @@ live
 in
 supporting
 tests
+"
+        
+)
+        
+parser
+.
+addoption
+(
+            
+"
+-
+S
+"
+            
+"
+-
+-
+no
+-
+failure
+-
+screenshots
+"
+            
+action
+=
+"
+store_true
+"
+            
+default
+=
+False
+            
+help
+=
+"
+Do
+not
+save
+screenshots
+on
+failure
 "
         
 )
@@ -1203,6 +1275,10 @@ parser
 addoption
 (
             
+"
+-
+H
+"
 "
 -
 -
