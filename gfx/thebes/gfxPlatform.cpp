@@ -1011,13 +1011,6 @@ h
 #
 include
 "
-nsAlgorithm
-.
-h
-"
-#
-include
-"
 nsIGfxInfo
 .
 h

@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsAlgorithm
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h

@@ -67,13 +67,6 @@ h
 #
 include
 "
-nsAlgorithm
-.
-h
-"
-#
-include
-"
 nsChangeHint
 .
 h
