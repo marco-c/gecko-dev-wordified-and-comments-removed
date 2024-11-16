@@ -22,6 +22,10 @@ createRef
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -31,6 +35,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -40,6 +46,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -53,6 +63,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -62,6 +74,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -75,6 +91,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -86,6 +104,10 @@ findDOMNode
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -97,6 +119,8 @@ vendor
 react
 -
 dom
+.
+js
 "
 )
 ;
@@ -115,6 +139,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -126,6 +154,8 @@ components
 tree
 /
 TreeCell
+.
+js
 "
 )
 )
@@ -138,6 +168,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -149,6 +183,8 @@ components
 tree
 /
 LabelCell
+.
+js
 "
 )
 )
@@ -162,6 +198,10 @@ getFocusableElements
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -169,6 +209,8 @@ client
 shared
 /
 focus
+.
+js
 "
 )
 ;

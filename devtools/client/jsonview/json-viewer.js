@@ -18,6 +18,10 @@ render
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -29,6 +33,8 @@ vendor
 react
 -
 dom
+.
+js
 "
 )
 ;
@@ -40,6 +46,10 @@ createFactories
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -49,6 +59,8 @@ shared
 react
 -
 utils
+.
+js
 "
 )
 ;
@@ -62,6 +74,10 @@ createFactories
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -71,6 +87,8 @@ jsonview
 components
 /
 MainTabbedArea
+.
+js
 "
 )
 )
@@ -81,6 +99,10 @@ TreeViewClass
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -92,6 +114,8 @@ components
 tree
 /
 TreeView
+.
+js
 "
 )
 ;

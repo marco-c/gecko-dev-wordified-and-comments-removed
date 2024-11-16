@@ -97,6 +97,10 @@ define
 (
 [
 '
+resource
+:
+/
+/
 devtools
 /
 client
@@ -106,8 +110,14 @@ shared
 vendor
 /
 react
+.
+js
 '
 '
+resource
+:
+/
+/
 devtools
 /
 client
@@ -119,6 +129,8 @@ vendor
 react
 -
 dom
+.
+js
 '
 ]
 factory

@@ -90,6 +90,10 @@ define
 exports
 '
 '
+resource
+:
+/
+/
 devtools
 /
 client
@@ -99,8 +103,14 @@ shared
 vendor
 /
 react
+.
+js
 '
 '
+resource
+:
+/
+/
 devtools
 /
 client
@@ -110,6 +120,8 @@ shared
 vendor
 /
 redux
+.
+js
 '
 ]
 factory
