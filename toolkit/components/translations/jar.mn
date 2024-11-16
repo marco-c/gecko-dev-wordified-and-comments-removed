@@ -306,8 +306,6 @@ translations
 bergamot
 -
 translator
--
-worker
 .
 wasm
 (
@@ -328,8 +326,6 @@ wasm
 bergamot
 -
 translator
--
-worker
 .
 wasm
 )

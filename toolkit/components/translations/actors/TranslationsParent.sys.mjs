@@ -11124,8 +11124,6 @@ translations
 bergamot
 -
 translator
--
-worker
 .
 wasm
 "

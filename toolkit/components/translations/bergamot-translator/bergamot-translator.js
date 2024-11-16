@@ -14,7 +14,7 @@ v0
 .
 5
 +
-371c2da
+60e8730
 "
 ;
 null
@@ -3061,8 +3061,6 @@ wasmBinaryFile
 bergamot
 -
 translator
--
-worker
 .
 wasm
 "

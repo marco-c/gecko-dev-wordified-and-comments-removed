@@ -377,8 +377,6 @@ BUILD_PATH
 bergamot
 -
 translator
--
-worker
 .
 wasm
 "
