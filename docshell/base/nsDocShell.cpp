@@ -23553,6 +23553,17 @@ LOAD_REFRESH
 ;
 }
 const
+bool
+sendReferrer
+=
+StaticPrefs
+:
+:
+network_http_referer_sendFromRefresh
+(
+)
+;
+const
 nsCOMPtr
 <
 nsIReferrerInfo
@@ -23564,7 +23575,7 @@ ReferrerInfo
 (
 *
 doc
-false
+sendReferrer
 )
 ;
 loadState

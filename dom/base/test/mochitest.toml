@@ -25,6 +25,17 @@ only
 true
 "
 "
+network
+.
+http
+.
+referer
+.
+sendFromRefresh
+=
+false
+"
+"
 plugins
 .
 rewrite_youtube_embeds
