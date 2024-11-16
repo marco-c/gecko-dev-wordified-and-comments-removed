@@ -74,6 +74,16 @@ XPIDL_MODULE
 "
 toolkitprofile
 "
+EXPORTS
++
+=
+[
+"
+nsProfileLock
+.
+h
+"
+]
 UNIFIED_SOURCES
 +
 =
