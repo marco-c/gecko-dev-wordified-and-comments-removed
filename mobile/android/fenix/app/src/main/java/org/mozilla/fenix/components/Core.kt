@@ -3203,6 +3203,7 @@ lazyMonitored
 RemoteTabsStorage
 (
 context
+crashReporter
 )
 }
 val
