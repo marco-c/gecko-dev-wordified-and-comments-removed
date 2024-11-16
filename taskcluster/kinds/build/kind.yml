@@ -207,6 +207,10 @@ windows
 mingw
 .
 yml
+-
+fenix
+.
+yml
 task
 -
 defaults
