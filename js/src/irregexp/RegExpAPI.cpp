@@ -3698,8 +3698,14 @@ empty
 )
 )
 ;
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+&
+lhs
+!
+=
+&
+rhs
 lhs
 .
 indices
