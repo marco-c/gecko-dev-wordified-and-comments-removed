@@ -107,6 +107,7 @@ fmt
 ;
 #
 endif
+static
 struct
 arg
 arg_init

@@ -73,6 +73,9 @@ int64_t
 srcrf_dist
 ;
 int64_t
+pred_error
+;
+int64_t
 inter_pred_err
 ;
 int64_t
