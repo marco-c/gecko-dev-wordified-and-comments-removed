@@ -721,6 +721,13 @@ js
 ]
 [
 "
+browser_pointerlock_sidebar
+.
+js
+"
+]
+[
+"
 browser_pointerlock_warning
 .
 js
