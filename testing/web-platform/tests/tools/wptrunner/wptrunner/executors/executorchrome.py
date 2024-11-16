@@ -806,15 +806,6 @@ in
             
 (
 "
-Network
-.
-clearBrowserCookies
-"
-None
-)
-            
-(
-"
 Browser
 .
 resetPermissions
