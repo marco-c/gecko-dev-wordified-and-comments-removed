@@ -22888,6 +22888,10 @@ settings
 :
 {
 }
+sections
+:
+[
+]
 recommendations
 :
 [

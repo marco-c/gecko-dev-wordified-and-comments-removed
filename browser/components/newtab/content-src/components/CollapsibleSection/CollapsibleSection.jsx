@@ -491,6 +491,7 @@ title
 subTitle
 mayHaveSponsoredStories
 mayHaveTopicsSelection
+sectionsEnabled
 }
 =
 this
@@ -683,6 +684,12 @@ id
 id
 }
 >
+{
+!
+sectionsEnabled
+&
+&
+(
 <
 div
 className
@@ -913,6 +920,8 @@ div
 /
 div
 >
+)
+}
 <
 ErrorBoundary
 className
