@@ -692,6 +692,9 @@ spotlight
 private
 -
 browsing
+multi
+-
+message
 Detailed
 Docs
 -
