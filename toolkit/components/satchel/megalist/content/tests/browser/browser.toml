@@ -24,6 +24,13 @@ js
 ]
 [
 "
+browser_passwords_create_login
+.
+js
+"
+]
+[
+"
 browser_passwords_empty
 .
 js
