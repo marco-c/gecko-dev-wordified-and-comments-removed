@@ -2554,7 +2554,7 @@ createRecentTabsList
 this
 .
 devices
-50
+5000
 {
 removeAllDupes
 :
