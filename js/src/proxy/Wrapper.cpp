@@ -2716,7 +2716,7 @@ unsigned
 true
 )
 ;
-MOZ_RUNINIT
+MOZ_GLOBINIT
 JSObject
 *
 const
