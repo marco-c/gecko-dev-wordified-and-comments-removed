@@ -181,6 +181,7 @@ tracingListener
 )
 ;
 }
+async
 onTracingToggled
 (
 enabled
@@ -241,6 +242,7 @@ PROFILER
 !
 enabled
 ?
+await
 tracerActor
 .
 getProfile
