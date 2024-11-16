@@ -3720,6 +3720,10 @@ etc
 /
 getSignedInUser
 (
+addnFields
+=
+[
+]
 )
 {
 /
@@ -3807,6 +3811,11 @@ currentState
 getUserAccountData
 (
 ACCT_DATA_FIELDS
+.
+concat
+(
+addnFields
+)
 )
 ;
 if
