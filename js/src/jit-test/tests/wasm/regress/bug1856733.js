@@ -167,9 +167,11 @@ g0
 must
 reference
 a
-global
+previously
+-
+defined
 immutable
-import
+global
 /
 )
 ;

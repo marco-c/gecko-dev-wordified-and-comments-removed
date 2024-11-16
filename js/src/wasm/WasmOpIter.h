@@ -12917,11 +12917,13 @@ expression
 must
 reference
 a
-global
 "
 "
+previously
+-
+defined
 immutable
-import
+global
 "
 )
 ;
