@@ -194,6 +194,14 @@ border
 GeometryNode
 relativeTo
 ;
+[
+ChromeOnly
+]
+boolean
+ignoreTransforms
+=
+false
+;
 }
 ;
 dictionary
