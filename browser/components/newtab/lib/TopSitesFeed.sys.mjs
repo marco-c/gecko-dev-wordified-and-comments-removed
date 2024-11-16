@@ -3166,6 +3166,14 @@ of
 responseTilesData
 )
 {
+if
+(
+tileData
+?
+.
+length
+)
+{
 /
 /
 eslint
@@ -3241,6 +3249,7 @@ push
 formattedData
 )
 ;
+}
 }
 return
 {
