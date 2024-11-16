@@ -8123,7 +8123,7 @@ patchMove32
 (
 CodeOffset
 offset
-int32_t
+Imm32
 n
 )
 {
@@ -8168,6 +8168,10 @@ InstructionBits
 ImmMoveWide
 (
 n
+.
+value
+&
+0xFFFF
 )
 )
 ;
@@ -8213,10 +8217,16 @@ InstructionBits
 |
 ImmMoveWide
 (
+(
 n
+.
+value
 >
 >
 16
+)
+&
+0xFFFF
 )
 )
 ;

@@ -3838,7 +3838,7 @@ patchMove32
 (
 CodeOffset
 offset
-int32_t
+Imm32
 n
 )
 {
@@ -3859,6 +3859,8 @@ offset
 (
 )
 n
+.
+value
 )
 ;
 }

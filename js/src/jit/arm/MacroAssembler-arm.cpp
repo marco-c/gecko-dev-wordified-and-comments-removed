@@ -24555,7 +24555,7 @@ patchMove32
 (
 CodeOffset
 offset
-int32_t
+Imm32
 n
 )
 {
@@ -24643,10 +24643,7 @@ MacroAssembler
 :
 ma_mov_patch
 (
-Imm32
-(
 n
-)
 dest
 Always
 rs

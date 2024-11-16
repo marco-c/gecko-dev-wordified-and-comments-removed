@@ -2655,9 +2655,12 @@ masm_
 patchMove32
 (
 offset
+Imm32
+(
 int32_t
 (
 callRefMetricOffset
+)
 )
 )
 ;

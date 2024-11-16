@@ -1972,7 +1972,7 @@ patchMove32
 (
 CodeOffset
 offset
-int32_t
+Imm32
 n
 )
 DEFINED_ON
