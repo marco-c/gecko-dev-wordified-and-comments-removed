@@ -79,6 +79,7 @@ enabled
 false
 )
 ;
+export
 const
 WEBEXTENSION_FALLBACK_DOC_URL
 =

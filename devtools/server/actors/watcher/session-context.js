@@ -171,8 +171,6 @@ createWebExtensionSessionContext
 (
 {
 addonId
-browsingContextID
-innerWindowId
 }
 config
 )
@@ -188,12 +186,6 @@ return
 {
 type
 addonId
-addonBrowsingContextID
-:
-browsingContextID
-addonInnerWindowId
-:
-innerWindowId
 isServerTargetSwitchingEnabled
 :
 config
