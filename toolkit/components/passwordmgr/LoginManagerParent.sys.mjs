@@ -4517,6 +4517,8 @@ FirefoxRelay
 autocompleteItemsAsync
 (
 {
+origin
+:
 formOrigin
 scenarioName
 hasInput
