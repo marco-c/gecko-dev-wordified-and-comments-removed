@@ -1501,13 +1501,10 @@ image
 url
 image
 .
-isPrefered
+isPreferred
 image
 .
-width
-image
-.
-height
+size
 )
 ;
 }

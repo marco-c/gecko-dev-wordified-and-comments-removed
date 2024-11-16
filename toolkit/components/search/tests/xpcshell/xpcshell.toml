@@ -1021,6 +1021,13 @@ js
 ]
 [
 "
+test_settings_migrate_icons
+.
+js
+"
+]
+[
+"
 test_settings
 .
 js
