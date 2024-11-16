@@ -2530,12 +2530,27 @@ format
 suite
 )
                     
-yaml_content
 [
+t
+.
+get
+(
 "
-manifest
+path
 "
+)
+for
+_
+t
+in
+test_list
+.
+items
+(
+)
 ]
+                    
+False
                 
 )
                 
