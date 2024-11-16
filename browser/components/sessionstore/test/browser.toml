@@ -1529,6 +1529,13 @@ js
 ]
 [
 "
+browser_tab_groups_closed
+.
+js
+"
+]
+[
+"
 browser_tab_groups_empty
 .
 js
