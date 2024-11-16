@@ -11,10 +11,6 @@ tempfile
 import
 time
 from
-telnetlib
-import
-Telnet
-from
 mozdevice
 import
 ADBHost
@@ -1317,6 +1313,11 @@ self
 .
 telnet
 :
+            
+from
+telnetlib
+import
+Telnet
             
 self
 .
