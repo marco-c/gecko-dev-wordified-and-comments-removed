@@ -516,6 +516,11 @@ GetOriginAttributes
 IsPrivateBrowsing
 (
 )
+mRequestHead
+.
+Version
+(
+)
 )
 ;
 }
@@ -2028,6 +2033,11 @@ GetOriginAttributes
 IsPrivateBrowsing
 (
 )
+mRequestHead
+.
+Version
+(
+)
 &
 mTransactionTimings
 std
@@ -2880,6 +2890,11 @@ GetOriginAttributes
 )
 .
 IsPrivateBrowsing
+(
+)
+mRequestHead
+.
+Version
 (
 )
 &
@@ -4611,6 +4626,11 @@ GetOriginAttributes
 )
 .
 IsPrivateBrowsing
+(
+)
+mRequestHead
+.
+Version
 (
 )
 &

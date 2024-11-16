@@ -709,6 +709,15 @@ STATUS_STOP
 URI
 :
 expectedFile
+httpVersion
+:
+"
+http
+/
+1
+.
+1
+"
 requestMethod
 :
 "

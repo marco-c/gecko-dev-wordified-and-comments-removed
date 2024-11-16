@@ -275,6 +275,15 @@ STATUS_CANCEL
 URI
 :
 url
+httpVersion
+:
+"
+http
+/
+1
+.
+1
+"
 requestMethod
 :
 "
