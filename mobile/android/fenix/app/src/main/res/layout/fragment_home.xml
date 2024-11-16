@@ -1505,7 +1505,7 @@ android
 layout_width
 =
 "
-36dp
+48dp
 "
 android
 :
@@ -1513,6 +1513,13 @@ layout_height
 =
 "
 48dp
+"
+android
+:
+layout_marginEnd
+=
+"
+16dp
 "
 app
 :
