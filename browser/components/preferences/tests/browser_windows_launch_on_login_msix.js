@@ -386,7 +386,7 @@ true
 await
 WindowsLaunchOnLogin
 .
-disableLaunchOnLoginMSIX
+_disableLaunchOnLoginMSIX
 (
 )
 ;
@@ -510,7 +510,7 @@ true
 await
 WindowsLaunchOnLogin
 .
-disableLaunchOnLoginMSIX
+_disableLaunchOnLoginMSIX
 (
 )
 ;
