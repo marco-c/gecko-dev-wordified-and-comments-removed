@@ -2895,7 +2895,7 @@ WGPUTextureFormat_EacRg11Snorm
 break
 ;
 }
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 result
 .
@@ -3490,7 +3490,7 @@ WGPUVertexFormat_Sint32x4
 break
 ;
 }
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 result
 !
