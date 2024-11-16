@@ -346,6 +346,15 @@ PBackgroundLSDatabase
 =
 11
 ;
+portNameToIndex
+[
+"
+PRemoteWorkerNonLifeCycleOpController
+"
+]
+=
+12
+;
 if
 (
 !
