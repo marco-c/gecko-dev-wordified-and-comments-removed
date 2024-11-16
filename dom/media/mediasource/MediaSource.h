@@ -367,15 +367,6 @@ Maybe
 bool
 >
 aShouldResistFingerprinting
-Maybe
-<
-nsCString
->
-aOrigin
-=
-Nothing
-(
-)
 )
 ;
 IMPL_EVENT_HANDLER
