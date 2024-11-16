@@ -901,11 +901,9 @@ title
 )
 verifyExistingOpenTabs
 (
-"
-about
-:
-crashcontent
-"
+secondWebPage
+.
+title
 )
 }
 .
