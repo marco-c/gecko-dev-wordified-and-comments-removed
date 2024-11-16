@@ -11597,7 +11597,7 @@ mTopLayer
 StyleTopLayer
 :
 :
-Top
+Auto
 )
 {
 return

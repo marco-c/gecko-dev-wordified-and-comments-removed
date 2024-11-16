@@ -3674,7 +3674,7 @@ mTopLayer
 StyleTopLayer
 :
 :
-Top
+Auto
 )
 {
 return
@@ -3985,7 +3985,7 @@ mTopLayer
 StyleTopLayer
 :
 :
-Top
+Auto
 "
 -
 moz
@@ -3998,7 +3998,7 @@ be
 either
 none
 or
-top
+auto
 "
 )
 ;
@@ -4641,7 +4641,7 @@ mTopLayer
 StyleTopLayer
 :
 :
-Top
+Auto
 )
 ;
 nsContainerFrame
@@ -4741,7 +4741,7 @@ mTopLayer
 StyleTopLayer
 :
 :
-Top
+Auto
 )
 ;
 nsContainerFrame

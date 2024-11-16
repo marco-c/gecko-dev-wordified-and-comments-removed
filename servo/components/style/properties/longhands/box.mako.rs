@@ -121,7 +121,7 @@ layer
 "
 "
 none
-top
+auto
 "
 engines
 =
@@ -141,7 +141,7 @@ mTopLayer
 animation_type
 =
 "
-none
+discrete
 "
 enabled_in
 =
