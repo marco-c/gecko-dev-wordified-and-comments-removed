@@ -2784,6 +2784,11 @@ AllocKind
 :
 :
 FUNCTION
+&
+jit
+:
+:
+JitInfo_MapConstructor
 >
 GenericCreatePrototype
 <
@@ -7919,6 +7924,11 @@ AllocKind
 :
 :
 FUNCTION
+&
+jit
+:
+:
+JitInfo_SetConstructor
 >
 GenericCreatePrototype
 <

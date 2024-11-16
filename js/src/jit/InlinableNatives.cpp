@@ -1710,6 +1710,12 @@ case
 InlinableNative
 :
 :
+MapConstructor
+:
+case
+InlinableNative
+:
+:
 MapGet
 :
 case
@@ -1741,6 +1747,12 @@ InlinableNative
 :
 :
 ReflectGetPrototypeOf
+:
+case
+InlinableNative
+:
+:
+SetConstructor
 :
 case
 InlinableNative
