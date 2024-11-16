@@ -491,6 +491,8 @@ state
 >
 state
 .
+recommendationState
+.
 pocketStoriesCategories
 }
 .
@@ -508,6 +510,8 @@ state
 -
 >
 state
+.
+recommendationState
 .
 pocketStoriesCategoriesSelections
 }

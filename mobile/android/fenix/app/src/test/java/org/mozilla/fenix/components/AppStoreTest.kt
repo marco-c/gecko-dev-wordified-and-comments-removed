@@ -359,6 +359,20 @@ mozilla
 .
 fenix
 .
+components
+.
+appstate
+.
+recommendations
+.
+ContentRecommendationsState
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 components
@@ -2342,6 +2356,10 @@ AppStore
 (
 AppState
 (
+recommendationState
+=
+ContentRecommendationsState
+(
 pocketStoriesCategories
 =
 listOf
@@ -2358,6 +2376,7 @@ PocketRecommendedStoriesSelectedCategory
 otherStoriesCategory
 .
 name
+)
 )
 )
 )
@@ -2430,6 +2449,8 @@ appStore
 .
 state
 .
+recommendationState
+.
 pocketStoriesCategoriesSelections
 assertEquals
 (
@@ -2459,6 +2480,8 @@ filteredStories
 appStore
 .
 state
+.
+recommendationState
 .
 pocketStories
 )
@@ -2512,6 +2535,10 @@ AppStore
 (
 AppState
 (
+recommendationState
+=
+ContentRecommendationsState
+(
 pocketStoriesCategories
 =
 listOf
@@ -2534,6 +2561,7 @@ PocketRecommendedStoriesSelectedCategory
 anotherStoriesCategory
 .
 name
+)
 )
 )
 )
@@ -2606,6 +2634,8 @@ appStore
 .
 state
 .
+recommendationState
+.
 pocketStoriesCategoriesSelections
 assertEquals
 (
@@ -2636,6 +2666,8 @@ appStore
 .
 state
 .
+recommendationState
+.
 pocketStories
 )
 }
@@ -2658,6 +2690,10 @@ appStore
 AppStore
 (
 AppState
+(
+recommendationState
+=
+ContentRecommendationsState
 (
 pocketStoriesCategories
 =
@@ -2693,6 +2729,7 @@ mockk
 )
 )
 )
+)
 appStore
 .
 dispatch
@@ -2711,6 +2748,8 @@ appStore
 .
 state
 .
+recommendationState
+.
 pocketStoriesCategories
 .
 isEmpty
@@ -2722,6 +2761,8 @@ assertTrue
 appStore
 .
 state
+.
+recommendationState
 .
 pocketStoriesCategoriesSelections
 .
@@ -2735,6 +2776,8 @@ appStore
 .
 state
 .
+recommendationState
+.
 pocketStories
 .
 isEmpty
@@ -2746,6 +2789,8 @@ assertTrue
 appStore
 .
 state
+.
+recommendationState
 .
 pocketSponsoredStories
 .
@@ -2907,6 +2952,8 @@ appStore
 .
 state
 .
+recommendationState
+.
 pocketSponsoredStories
 .
 containsAll
@@ -2924,6 +2971,8 @@ firstFilteredStories
 appStore
 .
 state
+.
+recommendationState
 .
 pocketStories
 )
@@ -2994,6 +3043,8 @@ appStore
 .
 state
 .
+recommendationState
+.
 pocketSponsoredStories
 )
 )
@@ -3003,6 +3054,8 @@ secondFilteredStories
 appStore
 .
 state
+.
+recommendationState
 .
 pocketStories
 )
@@ -3123,6 +3176,10 @@ AppStore
 (
 AppState
 (
+recommendationState
+=
+ContentRecommendationsState
+(
 pocketSponsoredStories
 =
 listOf
@@ -3131,6 +3188,7 @@ story1
 story2
 story3
 story4
+)
 )
 )
 )
@@ -3160,6 +3218,8 @@ appStore
 .
 state
 .
+recommendationState
+.
 pocketSponsoredStories
 .
 size
@@ -3170,6 +3230,8 @@ assertEquals
 appStore
 .
 state
+.
+recommendationState
 .
 pocketSponsoredStories
 [
@@ -3189,6 +3251,8 @@ appStore
 .
 state
 .
+recommendationState
+.
 pocketSponsoredStories
 [
 1
@@ -3207,6 +3271,8 @@ appStore
 .
 state
 .
+recommendationState
+.
 pocketSponsoredStories
 [
 2
@@ -3224,6 +3290,8 @@ assertEquals
 appStore
 .
 state
+.
+recommendationState
 .
 pocketSponsoredStories
 [
@@ -3358,6 +3426,8 @@ appStore
 .
 state
 .
+recommendationState
+.
 pocketStoriesCategories
 .
 containsAll
@@ -3375,6 +3445,8 @@ firstFilteredStories
 appStore
 .
 state
+.
+recommendationState
 .
 pocketStories
 )
@@ -3460,6 +3532,8 @@ appStore
 .
 state
 .
+recommendationState
+.
 pocketStoriesCategories
 )
 )
@@ -3469,6 +3543,8 @@ secondFilteredStories
 appStore
 .
 state
+.
+recommendationState
 .
 pocketStories
 )
@@ -3613,6 +3689,8 @@ appStore
 .
 state
 .
+recommendationState
+.
 pocketStoriesCategories
 .
 containsAll
@@ -3630,6 +3708,8 @@ appStore
 .
 state
 .
+recommendationState
+.
 pocketStoriesCategoriesSelections
 .
 containsAll
@@ -3646,6 +3726,8 @@ firstFilteredStories
 appStore
 .
 state
+.
+recommendationState
 .
 pocketStories
 )

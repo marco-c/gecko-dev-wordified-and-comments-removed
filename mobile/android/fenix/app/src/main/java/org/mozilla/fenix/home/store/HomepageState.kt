@@ -635,7 +635,9 @@ from
 *
 param
 settings
+[
 Settings
+]
 corresponding
 to
 how
@@ -756,6 +758,7 @@ PocketState
 build
 (
 appState
+settings
 )
 showTopSites
 =
@@ -811,6 +814,8 @@ settings
 showPocketRecommendationsFeature
 &
 &
+recommendationState
+.
 pocketStories
 .
 isNotEmpty
