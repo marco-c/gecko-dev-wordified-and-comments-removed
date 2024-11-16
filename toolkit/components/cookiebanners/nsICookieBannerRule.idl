@@ -68,14 +68,6 @@ nsICookieRule
 cookiesOptIn
 ;
 [
-infallible
-]
-readonly
-attribute
-boolean
-isGlobalRule
-;
-[
 noscript
 ]
 Array

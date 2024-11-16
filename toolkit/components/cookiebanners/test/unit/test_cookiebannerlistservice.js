@@ -667,11 +667,6 @@ resetRules
 )
 {
 }
-resetDomainTelemetryRecord
-(
-)
-{
-}
 }
 ;
 registerCleanupFunction
