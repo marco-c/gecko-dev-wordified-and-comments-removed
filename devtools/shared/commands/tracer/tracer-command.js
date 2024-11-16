@@ -312,6 +312,14 @@ logMethod
 TRACER_LOG_METHODS
 .
 DEBUGGER_SIDEBAR
+|
+|
+logMethod
+=
+=
+TRACER_LOG_METHODS
+.
+PROFILER
 ?
 [
 "
