@@ -1100,11 +1100,6 @@ subclass
 )
 ;
 }
-consoleAPIListenerOptions
-=
-{
-}
-;
 get
 dbg
 (

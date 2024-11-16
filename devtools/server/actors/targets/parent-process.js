@@ -121,9 +121,6 @@ conn
 {
 isTopLevelTarget
 sessionContext
-customSpec
-=
-parentProcessTargetSpec
 }
 )
 {
@@ -134,6 +131,8 @@ conn
 isTopLevelTarget
 sessionContext
 customSpec
+:
+parentProcessTargetSpec
 }
 )
 ;
@@ -223,14 +222,6 @@ destroy
 "
 )
 ;
-if
-(
-customSpec
-=
-=
-parentProcessTargetSpec
-)
-{
 this
 .
 setDocShell
@@ -242,7 +233,6 @@ _getInitialDocShell
 )
 )
 ;
-}
 }
 setDocShell
 (

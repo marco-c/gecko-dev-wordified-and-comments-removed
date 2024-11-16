@@ -52,11 +52,6 @@ sys
 mjs
 "
 "
-webextension
-.
-js
-"
-"
 window
 -
 global
