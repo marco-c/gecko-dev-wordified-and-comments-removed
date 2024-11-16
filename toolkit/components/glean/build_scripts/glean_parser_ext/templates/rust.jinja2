@@ -2020,6 +2020,15 @@ collections
 HashMap
 ;
 use
+std
+:
+:
+sync
+:
+:
+Arc
+;
+use
 crate
 :
 :
@@ -2915,6 +2924,8 @@ str
 )
 -
 >
+Arc
+<
 Labeled
 {
 {
@@ -2924,6 +2935,7 @@ Camelize
 }
 }
 Metric
+>
 {
 match
 metric_id
@@ -3022,6 +3034,8 @@ u16
 )
 -
 >
+Arc
+<
 Labeled
 {
 {
@@ -3031,6 +3045,7 @@ Camelize
 }
 }
 Metric
+>
 {
 match
 metric_id
@@ -3296,6 +3311,7 @@ atomic
 :
 :
 AtomicU32
+Arc
 RwLock
 }
 ;
@@ -3489,6 +3505,8 @@ RwLock
 HashMap
 <
 MetricId
+Arc
+<
 Labeled
 {
 {
@@ -3497,6 +3515,7 @@ typ
 1
 }
 }
+>
 >
 >
 >
