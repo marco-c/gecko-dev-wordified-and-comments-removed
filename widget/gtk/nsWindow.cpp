@@ -2461,6 +2461,11 @@ nsWindow
 "
 )
 ;
+MOZ_DIAGNOSTIC_ASSERT
+(
+mIsDestroyed
+)
+;
 Destroy
 (
 )
