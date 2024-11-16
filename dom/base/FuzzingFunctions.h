@@ -133,6 +133,17 @@ ErrorResult
 aRv
 )
 ;
+static
+void
+SpinEventLoopFor
+(
+const
+GlobalObject
+&
+uint32_t
+aMilliseconds
+)
+;
 private
 :
 MOZ_CAN_RUN_SCRIPT
