@@ -3307,6 +3307,11 @@ tryAttachAtomicsIsLockFree
 )
 ;
 AttachDecision
+tryAttachAtomicsPause
+(
+)
+;
+AttachDecision
 tryAttachBoolean
 (
 )

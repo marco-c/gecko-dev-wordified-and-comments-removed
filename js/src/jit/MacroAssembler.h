@@ -20526,6 +20526,12 @@ output
 )
 ;
 void
+atomicPause
+(
+)
+PER_SHARED_ARCH
+;
+void
 spectreMaskIndex32
 (
 Register

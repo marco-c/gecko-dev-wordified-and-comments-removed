@@ -156,6 +156,11 @@ _
 AtomicsIsLockFree
 )
 \
+_
+(
+AtomicsPause
+)
+\
 \
 _
 (

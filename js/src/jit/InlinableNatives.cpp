@@ -1500,6 +1500,12 @@ case
 InlinableNative
 :
 :
+AtomicsPause
+:
+case
+InlinableNative
+:
+:
 BigInt
 :
 case
