@@ -33840,9 +33840,9 @@ browser
 .
 ml
 .
-modelCacheMaxSizeBytes
+modelCacheMaxSize
 "
-1073741824
+4
 )
 ;
 pref

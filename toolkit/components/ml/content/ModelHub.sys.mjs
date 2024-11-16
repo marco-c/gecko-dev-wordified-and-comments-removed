@@ -378,9 +378,18 @@ browser
 .
 ml
 .
-modelCacheMaxSizeBytes
+modelCacheMaxSize
 "
 )
+;
+const
+ONE_GIB
+=
+1024
+*
+1024
+*
+1024
 ;
 /
 *
@@ -999,7 +1008,7 @@ of
 the
 cache
 in
-bytes
+GiB
 .
 Defaults
 to
@@ -1008,7 +1017,7 @@ browser
 .
 ml
 .
-modelCacheMaxSizeBytes
+modelCacheMaxSize
 "
 .
 *
@@ -1100,7 +1109,7 @@ of
 the
 cache
 in
-bytes
+GiB
 .
 Defaults
 to
@@ -1109,7 +1118,7 @@ browser
 .
 ml
 .
-modelCacheMaxSizeBytes
+modelCacheMaxSize
 "
 .
 *
@@ -1264,7 +1273,7 @@ browser
 .
 ml
 .
-modelCacheMaxSizeBytes
+modelCacheMaxSize
 "
 .
 *
@@ -4714,6 +4723,8 @@ this
 .
 #
 maxSize
+*
+ONE_GIB
 )
 {
 throw
@@ -4731,7 +4742,7 @@ this
 #
 maxSize
 }
-bytes
+GiB
 "
 )
 ;
