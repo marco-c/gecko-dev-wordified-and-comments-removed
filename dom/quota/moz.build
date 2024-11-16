@@ -33,6 +33,11 @@ XPIDL_SOURCES
 =
 [
 "
+nsIQuotaArtificialFailure
+.
+idl
+"
+"
 nsIQuotaCallbacks
 .
 idl
@@ -101,6 +106,11 @@ quota
 [
 "
 ActorsParent
+.
+h
+"
+"
+ArtificialFailure
 .
 h
 "
@@ -466,6 +476,11 @@ cpp
 "
 "
 ActorsParent
+.
+cpp
+"
+"
+ArtificialFailure
 .
 cpp
 "
