@@ -837,6 +837,10 @@ aFullName
 StandardFile
 aStdFile
 )
+MOZ_REQUIRES
+(
+mLock
+)
 ;
 nsTArray
 <

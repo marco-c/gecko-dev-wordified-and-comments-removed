@@ -8290,9 +8290,7 @@ ToLowerCase
 psname
 )
 ;
-mLocalNameTable
-.
-InsertOrUpdate
+MaybeAddToLocalNameTable
 (
 psname
 fontlist
@@ -8343,9 +8341,7 @@ fullname
 psname
 )
 {
-mLocalNameTable
-.
-InsertOrUpdate
+MaybeAddToLocalNameTable
 (
 fullname
 fontlist
