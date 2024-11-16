@@ -51,7 +51,7 @@ length
 0
 expected
 :
-undefined
+emptyArray
 }
 {
 length
@@ -129,7 +129,7 @@ length
 0
 expected
 :
-undefined
+emptyArray
 }
 {
 length
