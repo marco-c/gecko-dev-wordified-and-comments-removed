@@ -70,6 +70,13 @@ any
 protocol
 PRemoteWorkerNonLifeCycleOpController
 {
+parent
+:
+async
+Terminated
+(
+)
+;
 child
 :
 async

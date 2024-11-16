@@ -830,7 +830,7 @@ mActor
 >
 SendExecOp
 (
-RemoteWorkerTerminateOp
+SharedWorkerTerminateOpArgs
 (
 )
 )
@@ -1611,7 +1611,7 @@ mActor
 >
 SendExecOp
 (
-RemoteWorkerSuspendOp
+SharedWorkerSuspendOpArgs
 (
 )
 )
@@ -1632,7 +1632,7 @@ mActor
 >
 SendExecOp
 (
-RemoteWorkerResumeOp
+SharedWorkerResumeOpArgs
 (
 )
 )
@@ -1653,7 +1653,7 @@ mActor
 >
 SendExecOp
 (
-RemoteWorkerFreezeOp
+SharedWorkerFreezeOpArgs
 (
 )
 )
@@ -1674,7 +1674,7 @@ mActor
 >
 SendExecOp
 (
-RemoteWorkerThawOp
+SharedWorkerThawOpArgs
 (
 )
 )
@@ -1695,7 +1695,7 @@ mActor
 >
 SendExecOp
 (
-RemoteWorkerPortIdentifierOp
+SharedWorkerPortIdentifierOpArgs
 (
 mPortIdentifier
 )
@@ -1717,7 +1717,7 @@ mActor
 >
 SendExecOp
 (
-RemoteWorkerAddWindowIDOp
+SharedWorkerAddWindowIDOpArgs
 (
 mWindowID
 )
@@ -1739,7 +1739,7 @@ mActor
 >
 SendExecOp
 (
-RemoteWorkerRemoveWindowIDOp
+SharedWorkerRemoveWindowIDOpArgs
 (
 mWindowID
 )

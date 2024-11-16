@@ -455,6 +455,9 @@ dom
 class
 RemoteWorkerChild
 ;
+class
+RemoteWorkerNonLifeCycleOpControllerChild
+;
 enum
 WorkerKind
 :
@@ -5233,6 +5236,12 @@ RefPtr
 RemoteWorkerChild
 >
 mRemoteWorkerController
+;
+RefPtr
+<
+RemoteWorkerNonLifeCycleOpControllerChild
+>
+mRemoteWorkerNonLifeCycleOpController
 ;
 mozilla
 :
