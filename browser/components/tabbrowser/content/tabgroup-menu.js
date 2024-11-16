@@ -531,9 +531,9 @@ editor
 -
 action
 -
-add
--
 new
+-
+tab
 "
 >
 <
