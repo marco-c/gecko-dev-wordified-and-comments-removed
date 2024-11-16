@@ -26,6 +26,10 @@ nsIRaceCacheWithNetwork
 :
 nsISupports
 {
+attribute
+boolean
+allowRacing
+;
 void
 test_triggerNetwork
 (

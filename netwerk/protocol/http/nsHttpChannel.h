@@ -3304,6 +3304,12 @@ mIgnoreCacheEntry
 false
 }
 ;
+bool
+mAllowRCWN
+{
+true
+}
+;
 mozilla
 :
 :
