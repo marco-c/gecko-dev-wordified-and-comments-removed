@@ -2343,7 +2343,12 @@ rv
 =
 CreateAndInitStateMachine
 (
-false
+discardStateMachine
+-
+>
+IsLiveStream
+(
+)
 !
 needExternalEngine
 )

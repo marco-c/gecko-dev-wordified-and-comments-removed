@@ -1220,15 +1220,6 @@ PlaybackRateChanged
 )
 ;
 void
-SetIsLiveStream
-(
-bool
-aIsLiveStream
-)
-override
-{
-}
-void
 SetCanPlayThrough
 (
 bool
