@@ -372,7 +372,7 @@ R
 .
 string
 .
-preference_usage_data
+preference_usage_data_1
 )
 )
 itemContainingText
@@ -433,9 +433,9 @@ that
 the
 \
 "
-Usage
+Technical
 and
-technical
+interaction
 data
 \
 "
@@ -454,7 +454,7 @@ R
 .
 string
 .
-preference_usage_data
+preference_usage_data_1
 )
 )
 .
@@ -630,9 +630,9 @@ click
 the
 \
 "
-Usage
+Technical
 and
-technical
+interaction
 data
 \
 "
@@ -647,7 +647,7 @@ R
 .
 string
 .
-preference_usage_data
+preference_usage_data_1
 )
 )
 .
@@ -666,9 +666,9 @@ Clicked
 the
 \
 "
-Usage
+Technical
 and
-technical
+interaction
 data
 \
 "
