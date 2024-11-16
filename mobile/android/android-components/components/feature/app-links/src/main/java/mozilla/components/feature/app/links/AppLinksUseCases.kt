@@ -1017,6 +1017,7 @@ it
 isHttpOrHttps
 &
 &
+(
 !
 isPlayStoreURL
 (
@@ -1025,6 +1026,15 @@ it
 toString
 (
 )
+)
+|
+|
+redirectData
+.
+resolveInfo
+=
+=
+null
 )
 }
 ?
