@@ -158,6 +158,16 @@ onRecentlyClosedClicked
 Unit
 private
 val
+onHistoryItemClicked
+:
+(
+History
+)
+-
+>
+Unit
+private
+val
 onEmptyStateChanged
 :
 (
@@ -356,6 +366,9 @@ this
 store
 =
 store
+onHistoryItemClicked
+=
+onHistoryItemClicked
 onRecentlyClosedClicked
 =
 onRecentlyClosedClicked

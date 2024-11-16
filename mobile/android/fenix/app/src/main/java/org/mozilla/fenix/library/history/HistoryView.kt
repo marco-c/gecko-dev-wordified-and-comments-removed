@@ -217,6 +217,15 @@ onRecentlyClosedClicked
 >
 Unit
 val
+onHistoryItemClicked
+:
+(
+History
+)
+-
+>
+Unit
+val
 onEmptyStateChanged
 :
 (
@@ -272,6 +281,9 @@ HistoryAdapter
 store
 =
 store
+onHistoryItemClicked
+=
+onHistoryItemClicked
 onRecentlyClosedClicked
 =
 onRecentlyClosedClicked
