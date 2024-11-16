@@ -1430,7 +1430,7 @@ enableProfiling_
 ;
 }
 bool
-addMapWithNurseryMemory
+addMapWithNurseryRanges
 (
 MapObject
 *
@@ -1440,12 +1440,12 @@ obj
 MOZ_ASSERT_IF
 (
 !
-mapsWithNurseryMemory_
+mapsWithNurseryRanges_
 .
 empty
 (
 )
-mapsWithNurseryMemory_
+mapsWithNurseryRanges_
 .
 back
 (
@@ -1456,7 +1456,7 @@ obj
 )
 ;
 return
-mapsWithNurseryMemory_
+mapsWithNurseryRanges_
 .
 append
 (
@@ -1465,7 +1465,7 @@ obj
 ;
 }
 bool
-addSetWithNurseryMemory
+addSetWithNurseryRanges
 (
 SetObject
 *
@@ -1475,12 +1475,12 @@ obj
 MOZ_ASSERT_IF
 (
 !
-setsWithNurseryMemory_
+setsWithNurseryRanges_
 .
 empty
 (
 )
-setsWithNurseryMemory_
+setsWithNurseryRanges_
 .
 back
 (
@@ -1491,7 +1491,7 @@ obj
 )
 ;
 return
-setsWithNurseryMemory_
+setsWithNurseryRanges_
 .
 append
 (
@@ -3021,7 +3021,7 @@ SystemAllocPolicy
 >
 ;
 MapObjectVector
-mapsWithNurseryMemory_
+mapsWithNurseryRanges_
 ;
 using
 SetObjectVector
@@ -3035,7 +3035,7 @@ SystemAllocPolicy
 >
 ;
 SetObjectVector
-setsWithNurseryMemory_
+setsWithNurseryRanges_
 ;
 using
 StringAndBuffer

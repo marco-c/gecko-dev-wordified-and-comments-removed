@@ -13436,7 +13436,7 @@ auto
 *
 map
 :
-mapsWithNurseryMemory_
+mapsWithNurseryRanges_
 )
 {
 map
@@ -13453,7 +13453,7 @@ auto
 *
 set
 :
-setsWithNurseryMemory_
+setsWithNurseryRanges_
 )
 {
 set
@@ -13500,7 +13500,7 @@ std
 :
 swap
 (
-mapsWithNurseryMemory_
+mapsWithNurseryRanges_
 maps
 )
 ;
@@ -13532,7 +13532,7 @@ mapobj
 if
 (
 !
-mapsWithNurseryMemory_
+mapsWithNurseryRanges_
 .
 append
 (
@@ -13560,7 +13560,7 @@ std
 :
 swap
 (
-setsWithNurseryMemory_
+setsWithNurseryRanges_
 sets
 )
 ;
@@ -13592,7 +13592,7 @@ setobj
 if
 (
 !
-setsWithNurseryMemory_
+setsWithNurseryRanges_
 .
 append
 (

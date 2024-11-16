@@ -615,7 +615,7 @@ Table
 :
 :
 SlotCount
-HasNurseryMemorySlot
+RegisteredNurseryRangesSlot
 SlotCount
 }
 ;
@@ -1760,7 +1760,7 @@ Table
 :
 :
 SlotCount
-HasNurseryMemorySlot
+RegisteredNurseryRangesSlot
 SlotCount
 }
 ;

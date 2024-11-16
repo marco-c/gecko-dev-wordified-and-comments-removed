@@ -3939,9 +3939,6 @@ getNurseryRangesPtr
 ;
 }
 }
-#
-ifdef
-DEBUG
 bool
 hasNurseryRanges
 (
@@ -3954,8 +3951,6 @@ getNurseryRanges
 )
 ;
 }
-#
-endif
 void
 rekeyOneEntry
 (
@@ -6147,9 +6142,6 @@ old
 )
 ;
 }
-#
-ifdef
-DEBUG
 bool
 hasNurseryRanges
 (
@@ -6164,8 +6156,6 @@ hasNurseryRanges
 )
 ;
 }
-#
-endif
 void
 maybeMoveBufferOnPromotion
 (
@@ -6792,9 +6782,6 @@ old
 )
 ;
 }
-#
-ifdef
-DEBUG
 bool
 hasNurseryRanges
 (
@@ -6809,8 +6796,6 @@ hasNurseryRanges
 )
 ;
 }
-#
-endif
 void
 maybeMoveBufferOnPromotion
 (
