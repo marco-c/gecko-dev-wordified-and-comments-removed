@@ -1262,9 +1262,9 @@ fetchpriority
 =
 high
 :
-PRIORITY_HIGH
+PRIORITY_HIGHEST
 -
-10
+20
 <
 br
 >
@@ -1283,7 +1283,7 @@ fetchpriority
 =
 high
 :
-2
+1
 <
 br
 >
