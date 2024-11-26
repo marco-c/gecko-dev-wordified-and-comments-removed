@@ -751,6 +751,13 @@ localizeCallback
 )
 ;
 const
+world
+=
+"
+MAIN
+"
+;
+const
 matches
 =
 new
@@ -874,6 +881,7 @@ WebExtensionContentScript
 (
 policy
 {
+world
 matches
 includeGlobs
 }
@@ -890,6 +898,7 @@ policy
 isUserScript
 :
 false
+world
 matches
 includeGlobs
 }
@@ -906,6 +915,7 @@ policy
 isUserScript
 :
 true
+world
 matches
 includeGlobs
 }
@@ -1123,6 +1133,7 @@ policy
 isUserScript
 :
 false
+world
 matches
 :
 [
@@ -1142,6 +1153,7 @@ policy
 isUserScript
 :
 true
+world
 matches
 :
 [
@@ -1252,6 +1264,7 @@ policy
 isUserScript
 :
 true
+world
 matches
 }
 )

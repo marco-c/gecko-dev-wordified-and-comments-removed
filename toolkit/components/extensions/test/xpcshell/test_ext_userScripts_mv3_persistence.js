@@ -386,11 +386,6 @@ js
 "
 }
 ]
-world
-:
-"
-MAIN
-"
 }
 ;
 const
@@ -417,6 +412,11 @@ runAt
 :
 "
 document_idle
+"
+world
+:
+"
+USER_SCRIPT
 "
 }
 ;
