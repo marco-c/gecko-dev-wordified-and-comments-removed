@@ -142,8 +142,6 @@ data
 GetScrollTimelineCollection
 (
 mPseudo
-.
-mType
 )
 =
 =
@@ -156,8 +154,6 @@ data
 ClearScrollTimelineCollectionFor
 (
 mPseudo
-.
-mType
 )
 ;
 }
@@ -186,8 +182,6 @@ data
 GetViewTimelineCollection
 (
 mPseudo
-.
-mType
 )
 =
 =
@@ -200,8 +194,6 @@ data
 ClearViewTimelineCollectionFor
 (
 mPseudo
-.
-mType
 )
 ;
 }
@@ -297,8 +289,6 @@ data
 GetScrollTimelineCollection
 (
 aPseudoRequest
-.
-mType
 )
 ;
 }
@@ -325,8 +315,6 @@ data
 GetViewTimelineCollection
 (
 aPseudoRequest
-.
-mType
 )
 ;
 }
