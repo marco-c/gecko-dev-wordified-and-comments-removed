@@ -5719,8 +5719,10 @@ aAxisTracker
 )
 ;
 }
-static
 nscoord
+nsFlexContainerFrame
+:
+:
 PartiallyResolveAutoMinSize
 (
 const
@@ -5736,6 +5738,7 @@ FlexboxAxisTracker
 &
 aAxisTracker
 )
+const
 {
 MOZ_ASSERT
 (
