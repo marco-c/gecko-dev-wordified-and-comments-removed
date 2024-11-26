@@ -978,7 +978,7 @@ target
 .
 tar
 .
-xz
+bz2
 "
 ]
                 
@@ -1040,7 +1040,7 @@ target
 .
 tar
 .
-xz
+bz2
 .
 asc
 "

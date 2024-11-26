@@ -1261,9 +1261,6 @@ esac
 ;
 *
 bz2
-|
-*
-xz
 )
 updater_package_url
 =

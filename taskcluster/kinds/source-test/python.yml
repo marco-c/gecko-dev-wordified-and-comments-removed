@@ -859,7 +859,7 @@ target
 .
 tar
 .
-xz
+bz2
 -
 artifact
 :
@@ -1808,7 +1808,7 @@ target
 .
 tar
 .
-xz
+bz2
 -
 artifact
 :
@@ -2534,7 +2534,7 @@ target
 .
 tar
 .
-xz
+bz2
 -
 artifact
 :

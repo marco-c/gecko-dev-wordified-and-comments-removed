@@ -357,7 +357,7 @@ firefox
 .
 tar
 .
-xz
+bz2
 "
 \
 "
@@ -392,7 +392,7 @@ VERSION
 .
 tar
 .
-xz
+bz2
 "
 #
 Use
@@ -1032,7 +1032,7 @@ lib
 &
 &
 tar
-xfJ
+jxf
 "
 {
 WORKSPACE
@@ -1042,7 +1042,7 @@ firefox
 .
 tar
 .
-xz
+bz2
 "
 )
 install
@@ -1969,12 +1969,6 @@ static
 -
 deltas
 repo
-XZ_OPT
-=
-'
--
-e9
-'
 tar
 cvfJ
 flatpak

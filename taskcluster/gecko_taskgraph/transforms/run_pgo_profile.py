@@ -152,7 +152,7 @@ target
 .
 tar
 .
-xz
+bz2
 "
         
 job

@@ -582,7 +582,7 @@ target
 .
 tar
 .
-xz
+bz2
 EN_US_BINARY_URL
 :
 artifact

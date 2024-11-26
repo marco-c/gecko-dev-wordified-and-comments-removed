@@ -2104,7 +2104,7 @@ target
 .
 tar
 .
-xz
+bz2
 :
 <
 <
@@ -2169,7 +2169,7 @@ filename_platform
 .
 tar
 .
-xz
+bz2
 checksums_path
 :
 firefox
@@ -2188,7 +2188,7 @@ filename_platform
 .
 tar
 .
-xz
+bz2
 destinations
 :
 by
@@ -2261,7 +2261,7 @@ target
 .
 tar
 .
-xz
+bz2
 .
 asc
 :
@@ -2329,7 +2329,7 @@ filename_platform
 .
 tar
 .
-xz
+bz2
 .
 asc
 checksums_path
@@ -2350,7 +2350,7 @@ filename_platform
 .
 tar
 .
-xz
+bz2
 .
 asc
 destinations
