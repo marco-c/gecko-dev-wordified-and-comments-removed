@@ -172,13 +172,6 @@ EXTRA_JS_MODULES
 =
 [
 "
-PushServiceHttp2
-.
-sys
-.
-mjs
-"
-"
 PushServiceWebSocket
 .
 sys
