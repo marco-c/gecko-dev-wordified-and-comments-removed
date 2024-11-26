@@ -351,7 +351,7 @@ ClearFloats
 (
 nscoord
 aBCoord
-StyleClear
+UsedClear
 aClearType
 nsIFrame
 *
@@ -906,7 +906,7 @@ mLineNumber
 Flags
 mFlags
 ;
-StyleClear
+UsedClear
 mTrailingClearFromPIF
 ;
 const
