@@ -758,13 +758,11 @@ finished
 "
 #
 define
-GFX_FEATURES
+COMPOSITOR_CREATED
 "
-gfx
--
-features
--
-ready
+compositor
+:
+created
 "
 #
 define
@@ -1127,7 +1125,7 @@ obs
 AddObserver
 (
 this
-GFX_FEATURES
+COMPOSITOR_CREATED
 false
 )
 ;
@@ -1618,7 +1616,7 @@ obs
 RemoveObserver
 (
 this
-GFX_FEATURES
+COMPOSITOR_CREATED
 )
 ;
 obs
@@ -1891,7 +1889,7 @@ aTopic
 !
 strcmp
 (
-GFX_FEATURES
+COMPOSITOR_CREATED
 aTopic
 )
 )
