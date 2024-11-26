@@ -8355,7 +8355,7 @@ poisonAndInitCurrentChunk
 )
 ;
 }
-clearMapAndSetNurseryRanges
+clearMapAndSetNurseryIterators
 (
 )
 ;
@@ -13426,7 +13426,7 @@ js
 Nursery
 :
 :
-clearMapAndSetNurseryRanges
+clearMapAndSetNurseryIterators
 (
 )
 {
@@ -13436,13 +13436,13 @@ auto
 *
 map
 :
-mapsWithNurseryRanges_
+mapsWithNurseryIterators_
 )
 {
 map
 -
 >
-clearNurseryRangesBeforeMinorGC
+clearNurseryIteratorsBeforeMinorGC
 (
 )
 ;
@@ -13453,13 +13453,13 @@ auto
 *
 set
 :
-setsWithNurseryRanges_
+setsWithNurseryIterators_
 )
 {
 set
 -
 >
-clearNurseryRangesBeforeMinorGC
+clearNurseryIteratorsBeforeMinorGC
 (
 )
 ;
@@ -13500,7 +13500,7 @@ std
 :
 swap
 (
-mapsWithNurseryRanges_
+mapsWithNurseryIterators_
 maps
 )
 ;
@@ -13532,7 +13532,7 @@ mapobj
 if
 (
 !
-mapsWithNurseryRanges_
+mapsWithNurseryIterators_
 .
 append
 (
@@ -13560,7 +13560,7 @@ std
 :
 swap
 (
-setsWithNurseryRanges_
+setsWithNurseryIterators_
 sets
 )
 ;
@@ -13592,7 +13592,7 @@ setobj
 if
 (
 !
-setsWithNurseryRanges_
+setsWithNurseryIterators_
 .
 append
 (
