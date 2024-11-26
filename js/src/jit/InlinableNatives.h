@@ -413,6 +413,11 @@ _
 MapHas
 )
 \
+_
+(
+MapSet
+)
+\
 \
 _
 (
@@ -671,6 +676,11 @@ SetConstructor
 _
 (
 SetHas
+)
+\
+_
+(
+SetAdd
 )
 \
 _
