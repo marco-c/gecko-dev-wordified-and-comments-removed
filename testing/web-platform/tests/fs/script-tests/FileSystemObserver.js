@@ -724,7 +724,6 @@ records
 [
 disappearedEvent
 (
-file
 path
 .
 relativePathComponents
@@ -1672,7 +1671,6 @@ records
 [
 disappearedEvent
 (
-file
 src
 .
 relativePathComponents
