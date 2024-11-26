@@ -57,6 +57,10 @@ aQuotaManager
 )
 aName
 )
+mCanceled
+(
+false
+)
 {
 AssertIsOnOwningThread
 (
