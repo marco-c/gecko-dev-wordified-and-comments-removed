@@ -1864,9 +1864,9 @@ browser
 .
 urlbar
 .
-contextualSearch
+scotchBonnet
 .
-enabled
+enableOverride
 "
 false
 )

@@ -403,7 +403,7 @@ lazy
 .
 UrlbarPrefs
 .
-get
+getScotchBonnetPref
 (
 ENABLED_PREF
 )

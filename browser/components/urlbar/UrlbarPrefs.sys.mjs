@@ -761,7 +761,7 @@ contextualSearch
 .
 enabled
 "
-false
+true
 ]
 /
 /

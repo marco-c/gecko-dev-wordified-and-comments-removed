@@ -842,9 +842,9 @@ UrlbarPrefs
 set
 (
 "
-contextualSearch
+scotchBonnet
 .
-enabled
+enableOverride
 "
 false
 )
