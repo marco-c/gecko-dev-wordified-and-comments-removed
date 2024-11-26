@@ -231,6 +231,17 @@ video_coding_utility
 /
 rtc_base
 :
+checks
+"
+"
+.
+.
+/
+.
+.
+/
+rtc_base
+:
 logging
 "
 "
