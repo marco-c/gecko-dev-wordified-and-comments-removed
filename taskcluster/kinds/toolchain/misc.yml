@@ -1379,9 +1379,6 @@ true
 is_high_end_android
 =
 true
-use_v8_context_snapshot
-=
-true
 v8_symbol_level
 =
 0
