@@ -29,13 +29,6 @@ h
 #
 include
 "
-plstr
-.
-h
-"
-#
-include
-"
 nsComponentManagerUtils
 .
 h
@@ -170,9 +163,11 @@ idx
 <
 0
 )
+{
 return
 NS_OK
 ;
+}
 aFlagPresent
 =
 true
