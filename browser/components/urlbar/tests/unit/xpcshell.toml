@@ -355,6 +355,13 @@ js
 ]
 [
 "
+test_geolocationUtils
+.
+js
+"
+]
+[
+"
 test_heuristic_cancel
 .
 js
