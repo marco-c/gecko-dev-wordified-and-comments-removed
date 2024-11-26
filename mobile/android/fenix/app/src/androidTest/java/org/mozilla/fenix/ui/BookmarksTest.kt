@@ -97,6 +97,14 @@ Espresso
 .
 pressBack
 import
+androidx
+.
+test
+.
+filters
+.
+SdkSuppress
+import
 org
 .
 junit
@@ -3602,6 +3610,12 @@ cases
 view
 /
 1715711
+SdkSuppress
+(
+minSdkVersion
+=
+34
+)
 Test
 fun
 verifyVoiceSearchInBookmarksTest
