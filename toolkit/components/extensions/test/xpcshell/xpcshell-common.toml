@@ -3619,6 +3619,13 @@ js
 ]
 [
 "
+test_ext_userScripts_mv3_messaging
+.
+js
+"
+]
+[
+"
 test_ext_userScripts_mv3_persistence
 .
 js
