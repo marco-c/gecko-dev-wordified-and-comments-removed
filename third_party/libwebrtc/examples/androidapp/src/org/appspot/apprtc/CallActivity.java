@@ -2439,11 +2439,9 @@ runTimeMs
 0
 )
 {
-(
 new
 Handler
 (
-)
 )
 .
 postDelayed

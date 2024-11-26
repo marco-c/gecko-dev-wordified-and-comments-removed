@@ -479,7 +479,6 @@ wss_post_url
 boolean
 initiator
 =
-(
 roomJson
 .
 getBoolean
@@ -487,7 +486,6 @@ getBoolean
 "
 is_initiator
 "
-)
 )
 ;
 if
