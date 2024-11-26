@@ -314,7 +314,7 @@ itemKind
 UnsafeGetInt32FromReservedSlot
 (
 O
-ITERATOR_SLOT_ITEM_KIND
+MAP_SET_ITERATOR_SLOT_ITEM_KIND
 )
 ;
 var
@@ -434,9 +434,6 @@ species
 "
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 function
 MapGroupBy
 (
@@ -621,5 +618,3 @@ return
 map
 ;
 }
-#
-endif

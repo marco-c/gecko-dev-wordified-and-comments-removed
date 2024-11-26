@@ -1826,7 +1826,7 @@ ITERATOR_SLOT_NEXT_INDEX
 UnsafeSetReservedSlot
 (
 iterator
-ITERATOR_SLOT_ITEM_KIND
+ARRAY_ITERATOR_SLOT_ITEM_KIND
 kind
 )
 ;
@@ -1933,7 +1933,7 @@ itemKind
 UnsafeGetInt32FromReservedSlot
 (
 obj
-ITERATOR_SLOT_ITEM_KIND
+ARRAY_ITERATOR_SLOT_ITEM_KIND
 )
 ;
 var
