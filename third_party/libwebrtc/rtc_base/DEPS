@@ -203,4 +203,16 @@ cc
 openssl
 "
 ]
+"
+openssl_stream_adapter
+.
+h
+"
+:
+[
+"
++
+openssl
+"
+]
 }

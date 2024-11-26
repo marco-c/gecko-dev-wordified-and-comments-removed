@@ -6958,6 +6958,10 @@ logging
 "
 "
 :
+macromagic
+"
+"
+:
 threading
 "
 "
