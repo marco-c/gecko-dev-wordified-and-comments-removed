@@ -630,6 +630,10 @@ MemoryMappedFile
 (
 )
 {
+Unmap
+(
+)
+;
 }
 bool
 Map
