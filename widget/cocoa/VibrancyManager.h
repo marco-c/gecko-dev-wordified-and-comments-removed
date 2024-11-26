@@ -93,6 +93,11 @@ LayoutDeviceIntRegion
 aRegion
 )
 ;
+void
+PrefChanged
+(
+)
+;
 protected
 :
 const
