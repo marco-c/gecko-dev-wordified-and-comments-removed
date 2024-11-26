@@ -3569,6 +3569,17 @@ ssl_cipher_suite
 ;
 substats
 .
+tls_cipher_suite_name
+=
+dtls_transport
+-
+>
+GetTlsCipherSuiteName
+(
+)
+;
+substats
+.
 dtls_state
 =
 dtls_transport

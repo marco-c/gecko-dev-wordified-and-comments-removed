@@ -22131,9 +22131,11 @@ kConnected
 ;
 rtp_transport_channel_stats
 .
-ssl_cipher_suite
+tls_cipher_suite_name
 =
-0x2F
+"
+TLS_RSA_WITH_AES_128_CBC_SHA
+"
 ;
 rtp_transport_channel_stats
 .
