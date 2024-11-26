@@ -40,6 +40,13 @@ h
 #
 include
 "
+nsLocalFile
+.
+h
+"
+#
+include
+"
 nsXPCOMCID
 .
 h
@@ -1157,9 +1164,9 @@ nsIFile
 >
 lf
 =
-do_CreateInstance
+new
+nsLocalFile
 (
-NS_LOCAL_FILE_CONTRACTID
 )
 ;
 nsresult
@@ -1373,9 +1380,9 @@ nsIFile
 >
 lf
 =
-do_CreateInstance
+new
+nsLocalFile
 (
-NS_LOCAL_FILE_CONTRACTID
 )
 ;
 nsresult
