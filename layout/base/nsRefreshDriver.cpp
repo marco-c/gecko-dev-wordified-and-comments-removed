@@ -5235,9 +5235,11 @@ delay
 <
 0
 )
+{
 return
 0
 ;
+}
 return
 static_cast
 <
@@ -7448,8 +7450,10 @@ if
 (
 mTestControllingRefreshes
 )
+{
 return
 ;
+}
 if
 (
 !
@@ -7695,6 +7699,7 @@ if
 (
 mActiveTimer
 )
+{
 mActiveTimer
 -
 >
@@ -7703,6 +7708,7 @@ RemoveRefreshDriver
 this
 )
 ;
+}
 mActiveTimer
 =
 newTimer
@@ -7966,8 +7972,10 @@ if
 !
 mActiveTimer
 )
+{
 return
 ;
+}
 mActiveTimer
 -
 >

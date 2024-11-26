@@ -9819,6 +9819,7 @@ if
 (
 isMathMLContent
 )
+{
 newFrame
 =
 NS_NewMathMLmtableOuterFrame
@@ -9827,7 +9828,9 @@ mPresShell
 outerComputedStyle
 )
 ;
+}
 else
+{
 newFrame
 =
 NS_NewTableWrapperFrame
@@ -9836,6 +9839,7 @@ mPresShell
 outerComputedStyle
 )
 ;
+}
 nsContainerFrame
 *
 geometricParent
@@ -9870,6 +9874,7 @@ if
 (
 isMathMLContent
 )
+{
 innerFrame
 =
 NS_NewMathMLmtableFrame
@@ -9878,7 +9883,9 @@ mPresShell
 computedStyle
 )
 ;
+}
 else
+{
 innerFrame
 =
 NS_NewTableFrame
@@ -9887,6 +9894,7 @@ mPresShell
 computedStyle
 )
 ;
+}
 InitAndRestoreFrame
 (
 aState
@@ -10282,6 +10290,7 @@ IsMathMLElement
 (
 )
 )
+{
 newFrame
 =
 NS_NewMathMLmtrFrame
@@ -10290,7 +10299,9 @@ mPresShell
 computedStyle
 )
 ;
+}
 else
+{
 newFrame
 =
 NS_NewTableRowFrame
@@ -10299,6 +10310,7 @@ mPresShell
 computedStyle
 )
 ;
+}
 }
 else
 {
@@ -15044,9 +15056,11 @@ PseudoStyleType
 :
 marker
 )
+{
 return
 f
 ;
+}
 }
 return
 nullptr
@@ -24758,9 +24772,11 @@ GetPreviousSibling
 (
 )
 )
+{
 return
 true
 ;
+}
 }
 else
 {
@@ -24820,9 +24836,11 @@ item
 .
 mContent
 )
+{
 return
 true
 ;
+}
 }
 FCItemIterator
 next
@@ -24872,9 +24890,11 @@ GetNextSibling
 (
 )
 )
+{
 return
 true
 ;
+}
 }
 else
 {
@@ -24923,9 +24943,11 @@ item
 .
 mContent
 )
+{
 return
 true
 ;
+}
 }
 return
 false
@@ -25056,8 +25078,10 @@ IsWhitespace
 aState
 )
 )
+{
 return
 ;
+}
 ConstructTextFrame
 (
 item

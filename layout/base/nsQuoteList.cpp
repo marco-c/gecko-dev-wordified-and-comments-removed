@@ -147,6 +147,7 @@ IsLast
 this
 )
 )
+{
 quoteList
 -
 >
@@ -155,11 +156,14 @@ Calc
 this
 )
 ;
+}
 else
+{
 dirty
 =
 true
 ;
+}
 if
 (
 IsRealQuote
@@ -760,6 +764,7 @@ IsRealQuote
 (
 )
 )
+{
 node
 -
 >
@@ -779,6 +784,7 @@ IgnoreErrors
 )
 )
 ;
+}
 }
 }
 #

@@ -6409,8 +6409,10 @@ None
 !
 dirtyBits
 )
+{
 return
 ;
+}
 ReflowRootHandling
 rootHandling
 ;

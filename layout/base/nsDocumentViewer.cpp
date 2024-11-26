@@ -5198,6 +5198,7 @@ if
 (
 window
 )
+{
 window
 -
 >
@@ -5207,6 +5208,7 @@ PageHidden
 aIsUnload
 )
 ;
+}
 if
 (
 aIsUnload
@@ -5571,6 +5573,7 @@ if
 (
 mPresShell
 )
+{
 mPresShell
 -
 >
@@ -5584,6 +5587,7 @@ nsDocShell
 )
 )
 ;
+}
 if
 (
 aSHEntry
@@ -5762,9 +5766,11 @@ if
 !
 mDocument
 )
+{
 return
 NS_OK
 ;
+}
 if
 (
 mSHEntry
@@ -5837,6 +5843,7 @@ mSHEntry
 &
 mDocument
 )
+{
 mDocument
 -
 >
@@ -5844,6 +5851,7 @@ RemovedFromDocShell
 (
 )
 ;
+}
 }
 RemoveFocusListener
 (
@@ -6147,6 +6155,7 @@ if
 (
 mPresShell
 )
+{
 mPresShell
 -
 >
@@ -6154,6 +6163,7 @@ Freeze
 (
 )
 ;
+}
 mSHEntry
 -
 >
@@ -6779,9 +6789,11 @@ if
 !
 aDocument
 )
+{
 return
 NS_ERROR_NULL_POINTER
 ;
+}
 return
 SetDocumentInternal
 (
@@ -7961,9 +7973,11 @@ NS_FAILED
 rv
 )
 )
+{
 return
 rv
 ;
+}
 if
 (
 mPresContext
@@ -8066,9 +8080,11 @@ if
 !
 mPresShell
 )
+{
 return
 NS_OK
 ;
+}
 NS_ASSERTION
 (
 mPresContext
@@ -8406,9 +8422,11 @@ NS_FAILED
 rv
 )
 )
+{
 return
 rv
 ;
+}
 nsRect
 tbounds
 (
@@ -8438,9 +8456,11 @@ if
 !
 view
 )
+{
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
+}
 if
 (
 !
@@ -8503,9 +8523,11 @@ NS_FAILED
 rv
 )
 )
+{
 return
 rv
 ;
+}
 }
 mViewManager
 -
@@ -9108,9 +9130,11 @@ if
 !
 bodyNode
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 ErrorResult
 err
 ;
@@ -9280,9 +9304,11 @@ IsEmpty
 (
 )
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 nsresult
 rv
 =
@@ -10906,9 +10932,11 @@ if
 !
 theDoc
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 nsCOMPtr
 <
 nsPIDOMWindowOuter
@@ -10927,9 +10955,11 @@ if
 !
 domWindow
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 bool
 selectionCollapsed
 =
@@ -11797,9 +11827,11 @@ GetIsCreatingPrintPreview
 (
 )
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 ScrollContainerFrame
 *
 sf
@@ -13641,6 +13673,7 @@ selection
 &
 mSelectionListener
 )
+{
 selection
 -
 >
@@ -13649,6 +13682,7 @@ RemoveSelectionListener
 mSelectionListener
 )
 ;
+}
 mPresShell
 -
 >
