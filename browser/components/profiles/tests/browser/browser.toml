@@ -90,6 +90,13 @@ js
 ]
 [
 "
+browser_delete_profile_page_test
+.
+js
+"
+]
+[
+"
 browser_edit_profile_test
 .
 js
