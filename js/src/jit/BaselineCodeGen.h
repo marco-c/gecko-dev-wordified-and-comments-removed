@@ -1762,6 +1762,11 @@ value
 private
 :
 bool
+compileImpl
+(
+)
+;
+bool
 emitBody
 (
 )
