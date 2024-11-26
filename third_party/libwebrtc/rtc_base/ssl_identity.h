@@ -226,13 +226,6 @@ params_
 ;
 }
 ;
-KeyType
-IntKeyTypeFamilyToKeyType
-(
-int
-key_type_family
-)
-;
 struct
 SSLIdentityParams
 {
