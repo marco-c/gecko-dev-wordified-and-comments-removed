@@ -597,6 +597,15 @@ skip_if_est_larger_than_fraction_of_max
 .
 0
 )
+skip_probe_max_allocated_scale
+(
+"
+skip_max_allocated_scale
+"
+1
+.
+0
+)
 {
 ParseFieldTrial
 (
@@ -649,6 +658,8 @@ min_probe_packets_sent
 loss_limited_probe_scale
 &
 skip_if_estimate_larger_than_fraction_of_max
+&
+skip_probe_max_allocated_scale
 }
 key_value_config
 -
@@ -2790,6 +2801,10 @@ std
 :
 min
 (
+config_
+.
+skip_probe_max_allocated_scale
+*
 max_total_allocated_bitrate_
 max_bitrate_
 )

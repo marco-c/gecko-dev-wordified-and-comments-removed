@@ -290,6 +290,12 @@ double
 >
 skip_if_estimate_larger_than_fraction_of_max
 ;
+FieldTrialParameter
+<
+double
+>
+skip_probe_max_allocated_scale
+;
 }
 ;
 enum
