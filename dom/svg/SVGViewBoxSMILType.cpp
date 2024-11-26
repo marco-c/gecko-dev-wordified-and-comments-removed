@@ -624,7 +624,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-float
+double
 dLeft
 =
 to
@@ -637,7 +637,7 @@ from
 >
 x
 ;
-float
+double
 dTop
 =
 to
@@ -650,7 +650,7 @@ from
 >
 y
 ;
-float
+double
 dRight
 =
 (
@@ -677,7 +677,7 @@ from
 width
 )
 ;
-float
+double
 dBottom
 =
 (
