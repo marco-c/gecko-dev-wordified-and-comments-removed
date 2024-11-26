@@ -30549,8 +30549,6 @@ Are
 WebGPU
 indirect
 draws
-/
-dispatches
 enabled
 ?
 -
@@ -30562,7 +30560,7 @@ webgpu
 .
 indirect
 -
-dispatch
+draw
 .
 enabled
 type

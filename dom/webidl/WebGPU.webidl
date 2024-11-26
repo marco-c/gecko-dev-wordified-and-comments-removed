@@ -4923,7 +4923,7 @@ webgpu
 .
 indirect
 -
-dispatch
+draw
 .
 enabled
 "
@@ -4947,7 +4947,7 @@ webgpu
 .
 indirect
 -
-dispatch
+draw
 .
 enabled
 "
