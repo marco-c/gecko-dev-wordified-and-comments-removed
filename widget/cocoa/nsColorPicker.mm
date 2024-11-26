@@ -501,9 +501,12 @@ nsColorPicker
 :
 Init
 (
-mozIDOMWindowProxy
+dom
+:
+:
+BrowsingContext
 *
-aParent
+aBrowsingContext
 const
 nsAString
 &

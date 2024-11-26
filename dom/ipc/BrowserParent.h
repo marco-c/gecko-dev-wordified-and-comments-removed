@@ -1856,6 +1856,13 @@ PColorPickerParent
 AllocPColorPickerParent
 (
 const
+MaybeDiscarded
+<
+BrowsingContext
+>
+&
+aBrowsingContext
+const
 nsString
 &
 aTitle

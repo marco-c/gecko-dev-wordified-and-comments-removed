@@ -414,7 +414,7 @@ nsIColorPicker
 )
 init
 (
-aParent
+aBrowsingContext
 aTitle
 aInitialColor
 aDefaultColors
@@ -422,9 +422,9 @@ aDefaultColors
 {
 this
 .
-parent
+browsingContext
 =
-aParent
+aBrowsingContext
 ;
 this
 .
@@ -443,7 +443,7 @@ initialColor
 :
 "
 "
-parent
+browsingContext
 :
 null
 open

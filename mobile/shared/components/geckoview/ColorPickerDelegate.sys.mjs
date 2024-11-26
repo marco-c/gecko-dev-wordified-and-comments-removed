@@ -141,7 +141,7 @@ default
 colors
 init
 (
-aParent
+aBrowsingContext
 aTitle
 aInitialColor
 aDefaultColors
@@ -156,7 +156,7 @@ lazy
 .
 GeckoViewPrompter
 (
-aParent
+aBrowsingContext
 )
 ;
 this
