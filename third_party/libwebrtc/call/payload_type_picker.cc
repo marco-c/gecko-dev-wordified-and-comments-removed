@@ -720,7 +720,7 @@ entries_
 {
 if
 (
-MatchesForSdp
+MatchesWithCodecRules
 (
 entry
 .
@@ -761,7 +761,7 @@ ok
 &
 &
 !
-MatchesForSdp
+MatchesWithCodecRules
 (
 result
 .
@@ -855,7 +855,7 @@ payload_type
 )
 &
 &
-MatchesForSdp
+MatchesWithCodecRules
 (
 codec
 entry
@@ -941,7 +941,7 @@ end
 &
 &
 !
-MatchesForSdp
+MatchesWithCodecRules
 (
 codec
 existing_codec_it
@@ -1174,7 +1174,7 @@ iter
 )
 {
 return
-MatchesForSdp
+MatchesWithCodecRules
 (
 iter
 .

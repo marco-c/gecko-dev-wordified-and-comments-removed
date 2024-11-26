@@ -7625,6 +7625,13 @@ sources
 "
 base
 /
+codec_comparators_unittest
+.
+cc
+"
+"
+base
+/
 codec_unittest
 .
 cc
