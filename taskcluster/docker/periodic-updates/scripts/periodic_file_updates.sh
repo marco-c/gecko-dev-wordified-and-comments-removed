@@ -904,9 +904,9 @@ BROWSER_ARCHIVE
 "
 target
 .
-{
-PLATFORM_EXT
-}
+tar
+.
+bz2
 "
 TESTS_ARCHIVE
 =
@@ -920,13 +920,6 @@ tests
 tar
 .
 gz
-"
-PLATFORM_EXT
-=
-"
-tar
-.
-bz2
 "
 UNPACK_CMD
 =
