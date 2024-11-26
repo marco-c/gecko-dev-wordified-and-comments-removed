@@ -1338,9 +1338,11 @@ if
 (
 mEditorHasBeenInitialized
 )
+{
 return
 NS_OK
 ;
+}
 Document
 *
 doc
@@ -4189,9 +4191,11 @@ aSelStart
 >
 aSelEnd
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 nsCOMPtr
 <
 nsINode

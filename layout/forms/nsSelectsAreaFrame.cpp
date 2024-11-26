@@ -132,6 +132,7 @@ IsListControlFrame
 (
 )
 )
+{
 return
 static_cast
 <
@@ -142,6 +143,7 @@ nsListControlFrame
 frame
 )
 ;
+}
 frame
 =
 frame
