@@ -1024,12 +1024,6 @@ th
 >
 span
 {
-font
--
-weight
-:
-bold
-;
 color
 :
 var
@@ -1042,6 +1036,14 @@ color
 -
 deemphasized
 )
+;
+text
+-
+decoration
+:
+line
+-
+through
 ;
 }
 #

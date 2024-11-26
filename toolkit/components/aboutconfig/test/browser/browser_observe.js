@@ -421,6 +421,7 @@ Assert
 .
 ok
 (
+!
 row
 .
 hasClass
