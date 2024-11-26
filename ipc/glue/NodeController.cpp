@@ -2450,12 +2450,12 @@ if
 needsIntroduction
 )
 {
-XRE_GetIOMessageLoop
+XRE_GetAsyncIOEventTarget
 (
 )
 -
 >
-PostTask
+Dispatch
 (
 NewRunnableMethod
 <
