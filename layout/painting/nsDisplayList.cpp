@@ -5208,6 +5208,14 @@ DisplayListBuilding
 ;
 #
 endif
+if
+(
+!
+IsForEventDelivery
+(
+)
+)
+{
 state
 -
 >
@@ -5218,6 +5226,7 @@ UpdateCanvasBackground
 (
 )
 ;
+}
 bool
 buildCaret
 =
