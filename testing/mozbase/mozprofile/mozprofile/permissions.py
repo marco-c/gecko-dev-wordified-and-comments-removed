@@ -1564,6 +1564,26 @@ force_use_https_rr
 True
 )
 )
+                
+user_prefs
+.
+append
+(
+                    
+(
+"
+network
+.
+dns
+.
+https_rr
+.
+check_record_with_cname
+"
+False
+)
+                
+)
             
 else
 :
