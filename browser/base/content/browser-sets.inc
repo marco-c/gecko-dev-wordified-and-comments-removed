@@ -371,16 +371,6 @@ id
 "
 cmd_CustomizeToolbars
 "
-oncommand
-=
-"
-gCustomizeMode
-.
-enter
-(
-)
-;
-"
 /
 >
 <
