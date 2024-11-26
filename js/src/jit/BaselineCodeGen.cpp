@@ -575,6 +575,9 @@ cx
 TempAllocator
 &
 alloc
+MacroAssembler
+&
+masmArg
 HandlerArgs
 &
 &
@@ -586,7 +589,7 @@ args
 :
 handler
 (
-masm
+masmArg
 std
 :
 :
@@ -618,8 +621,7 @@ runtime
 )
 masm
 (
-cx
-alloc
+masmArg
 )
 frame
 (
@@ -642,6 +644,9 @@ cx
 TempAllocator
 &
 alloc
+MacroAssembler
+&
+masm
 JSScript
 *
 script
@@ -659,6 +664,7 @@ BaselineCodeGen
 (
 cx
 alloc
+masm
 alloc
 script
 globalLexical
@@ -687,12 +693,16 @@ cx
 TempAllocator
 &
 alloc
+MacroAssembler
+&
+masm
 )
 :
 BaselineCodeGen
 (
 cx
 alloc
+masm
 )
 {
 }

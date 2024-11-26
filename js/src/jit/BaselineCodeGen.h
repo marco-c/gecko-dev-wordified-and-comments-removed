@@ -94,7 +94,8 @@ CompileRuntime
 *
 runtime
 ;
-StackMacroAssembler
+MacroAssembler
+&
 masm
 ;
 typename
@@ -158,6 +159,9 @@ cx
 TempAllocator
 &
 alloc
+MacroAssembler
+&
+masmArg
 HandlerArgs
 &
 &
@@ -1655,6 +1659,9 @@ cx
 TempAllocator
 &
 alloc
+MacroAssembler
+&
+masm
 JSScript
 *
 script
@@ -2140,6 +2147,9 @@ cx
 TempAllocator
 &
 alloc
+MacroAssembler
+&
+masm
 )
 ;
 [
