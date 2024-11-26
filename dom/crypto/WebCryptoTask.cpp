@@ -578,7 +578,7 @@ value
 )
 {
 return
-NS_ERROR_DOM_SYNTAX_ERR
+NS_ERROR_DOM_NOT_SUPPORTED_ERR
 ;
 }
 aName
