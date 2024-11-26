@@ -2037,6 +2037,13 @@ js
 ]
 [
 "
+browser_searchModeSwitcher_keyNavigation
+.
+js
+"
+]
+[
+"
 browser_searchMode_alias_replacement
 .
 js
