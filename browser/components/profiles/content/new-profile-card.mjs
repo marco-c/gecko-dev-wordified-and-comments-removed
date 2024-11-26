@@ -249,6 +249,12 @@ setInitialInput
 (
 )
 ;
+super
+.
+setFavicon
+(
+)
+;
 this
 .
 initialized
