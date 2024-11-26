@@ -875,11 +875,6 @@ CSSOrderAwareFrameIterator
 h
 "
 "
-IntrinsicISizesCache
-.
-h
-"
-"
 LayoutMessageUtils
 .
 h
