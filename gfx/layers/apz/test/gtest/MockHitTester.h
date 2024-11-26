@@ -75,10 +75,7 @@ void
 QueueHitResult
 (
 ScrollableLayerGuid
-:
-:
-ViewID
-aScrollId
+aGuid
 gfx
 :
 :
