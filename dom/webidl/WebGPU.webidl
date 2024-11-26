@@ -882,6 +882,11 @@ float32
 filterable
 "
 "
+float32
+-
+blendable
+"
+"
 clip
 -
 distances
