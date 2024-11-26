@@ -247,7 +247,7 @@ scaled_width
 int
 scaled_height
 double
-stddev_gaussian_blur
+std_dev_gaussian_blur
 )
 ;
 double
@@ -268,7 +268,7 @@ row
 int
 column
 double
-stddev
+std_dev
 )
 ;
 }

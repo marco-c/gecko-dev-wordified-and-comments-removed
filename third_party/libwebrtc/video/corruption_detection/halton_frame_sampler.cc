@@ -446,7 +446,7 @@ row
 int
 column
 double
-stddev
+std_dev
 )
 {
 RTC_CHECK_GE
@@ -481,7 +481,7 @@ width
 ;
 RTC_CHECK_GE
 (
-stddev
+std_dev
 0
 .
 0
@@ -489,7 +489,7 @@ stddev
 ;
 if
 (
-stddev
+std_dev
 =
 =
 0
@@ -545,7 +545,7 @@ std
 :
 pow
 (
-stddev
+std_dev
 2
 .
 0
@@ -713,7 +713,7 @@ std
 :
 pow
 (
-stddev
+std_dev
 2
 )
 )
@@ -777,7 +777,7 @@ scaled_width
 int
 scaled_height
 double
-stddev_gaussian_blur
+std_dev_gaussian_blur
 )
 {
 if
@@ -1002,9 +1002,8 @@ return
 }
 if
 (
-stddev_gaussian_blur
+std_dev_gaussian_blur
 <
-=
 0
 .
 0
@@ -1025,17 +1024,14 @@ the
 Gaussian
 blur
 must
-"
-"
+not
 be
-larger
-than
-0
+negative
 :
 "
 <
 <
-stddev_gaussian_blur
+std_dev_gaussian_blur
 <
 <
 "
@@ -1194,7 +1190,7 @@ DataY
 )
 row
 column
-stddev_gaussian_blur
+std_dev_gaussian_blur
 )
 ;
 filtered_samples
@@ -1270,7 +1266,7 @@ DataU
 )
 row
 column
-stddev_gaussian_blur
+std_dev_gaussian_blur
 )
 ;
 filtered_samples
@@ -1345,7 +1341,7 @@ DataV
 )
 row
 column
-stddev_gaussian_blur
+std_dev_gaussian_blur
 )
 ;
 filtered_samples
