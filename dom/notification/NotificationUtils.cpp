@@ -1270,6 +1270,13 @@ NotificationStatusChange
 aChange
 )
 {
+MOZ_ASSERT
+(
+XRE_IsParentProcess
+(
+)
+)
+;
 nsCOMPtr
 <
 nsIPushQuotaManager
