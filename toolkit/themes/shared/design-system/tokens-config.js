@@ -173,6 +173,11 @@ outline
 -
 color
 "
+Page
+:
+"
+page
+"
 Size
 :
 "
