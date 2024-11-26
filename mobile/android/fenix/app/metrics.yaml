@@ -13607,10 +13607,6 @@ send_in_pings
 metrics
 -
 baseline
--
-dau
--
-reporting
 bugs
 :
 -
@@ -16079,10 +16075,6 @@ send_in_pings
 metrics
 -
 baseline
--
-dau
--
-reporting
 bugs
 :
 -
@@ -25106,10 +25098,6 @@ send_in_pings
 metrics
 -
 baseline
--
-dau
--
-reporting
 bugs
 :
 -
@@ -25368,10 +25356,6 @@ send_in_pings
 metrics
 -
 baseline
--
-dau
--
-reporting
 bugs
 :
 -
@@ -59392,10 +59376,6 @@ send_in_pings
 metrics
 -
 baseline
--
-dau
--
-reporting
 bugs
 :
 -
@@ -59736,10 +59716,6 @@ send_in_pings
 metrics
 -
 baseline
--
-dau
--
-reporting
 bugs
 :
 -
@@ -59972,10 +59948,6 @@ send_in_pings
 metrics
 -
 baseline
--
-dau
--
-reporting
 bugs
 :
 -

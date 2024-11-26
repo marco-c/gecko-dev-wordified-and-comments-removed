@@ -1948,10 +1948,6 @@ send_in_pings
 :
 -
 metrics
--
-dau
--
-reporting
 bugs
 :
 -
@@ -2297,10 +2293,6 @@ send_in_pings
 metrics
 -
 baseline
--
-dau
--
-reporting
 no_lint
 :
 -
@@ -2542,10 +2534,6 @@ send_in_pings
 metrics
 -
 baseline
--
-dau
--
-reporting
 no_lint
 :
 -
@@ -2814,10 +2802,6 @@ send_in_pings
 metrics
 -
 baseline
--
-dau
--
-reporting
 no_lint
 :
 -
