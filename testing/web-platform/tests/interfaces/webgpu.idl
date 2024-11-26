@@ -418,6 +418,10 @@ GPURequestAdapterOptions
 {
 DOMString
 featureLevel
+=
+"
+core
+"
 ;
 GPUPowerPreference
 powerPreference
@@ -675,6 +679,14 @@ readonly
 attribute
 GPUSupportedLimits
 limits
+;
+[
+SameObject
+]
+readonly
+attribute
+GPUAdapterInfo
+adapterInfo
 ;
 [
 SameObject

@@ -415,6 +415,17 @@ unsigned
 long
 fecSsrc
 ;
+double
+totalCorruptionProbability
+;
+double
+totalSquaredCorruptionProbability
+;
+unsigned
+long
+long
+corruptionMeasurements
+;
 }
 ;
 dictionary

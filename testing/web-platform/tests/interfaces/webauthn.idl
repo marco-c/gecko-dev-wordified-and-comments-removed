@@ -1235,9 +1235,6 @@ CredentialPropertiesOutput
 boolean
 rk
 ;
-DOMString
-authenticatorDisplayName
-;
 }
 ;
 partial
