@@ -3107,6 +3107,8 @@ Bytes
 Percentage
 Integer
 Decimal
+Flow
+TerminatingFlow
 }
 ;
 enum

@@ -11814,6 +11814,13 @@ profiler_init_main_thread_id
 (
 )
 ;
+Flow
+:
+:
+Init
+(
+)
+;
 VTUNE_INIT
 (
 )
