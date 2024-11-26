@@ -241,7 +241,7 @@ ml
 .
 checkForMemory
 "
-true
+false
 ]
 [
 "
@@ -310,6 +310,13 @@ terminated
 "
 100
 200
+)
+;
+await
+SpecialPowers
+.
+popPrefEnv
+(
 )
 ;
 }
