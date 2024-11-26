@@ -405,6 +405,12 @@ _
 WASM_LEGACY_EXCEPTIONS
 WasmLegacyExceptions
 )
+\
+_
+(
+ISHTMLDDA_FUSE
+IsHTMLDDAFuse
+)
 #
 define
 ENUM_DEF
