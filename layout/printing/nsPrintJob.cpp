@@ -1920,9 +1920,11 @@ GetRootElement
 (
 )
 )
+{
 return
 NS_ERROR_GFX_PRINTER_STARTDOC
 ;
+}
 mPrintSettings
 -
 >
@@ -10000,6 +10002,7 @@ if
 (
 mDocViewerPrint
 )
+{
 mDocViewerPrint
 -
 >
@@ -10007,6 +10010,7 @@ OnDonePrinting
 (
 )
 ;
+}
 return
 NS_OK
 ;
