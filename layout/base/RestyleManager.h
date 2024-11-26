@@ -1027,7 +1027,9 @@ dom
 :
 Element
 *
-PseudoStyleType
+const
+PseudoStyleRequest
+&
 RestyleHint
 )
 ;

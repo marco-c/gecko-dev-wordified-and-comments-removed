@@ -6299,7 +6299,6 @@ nsAString
 )
 const
 ;
-const
 Element
 *
 GetPseudoElement

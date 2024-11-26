@@ -2325,10 +2325,12 @@ PostRestyleEventForAnimations
 key
 .
 mElement
-PseudoStyleType
+PseudoStyleRequest
 :
 :
 NotPseudo
+(
+)
 RestyleHint
 :
 :

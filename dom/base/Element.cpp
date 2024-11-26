@@ -22799,7 +22799,6 @@ pseudo
 )
 ;
 }
-const
 Element
 *
 Element
@@ -22828,7 +22827,14 @@ PseudoStyleType
 NotPseudo
 :
 return
+const_cast
+<
+Element
+*
+>
+(
 this
+)
 ;
 case
 PseudoStyleType
