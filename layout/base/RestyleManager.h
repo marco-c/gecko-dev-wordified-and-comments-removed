@@ -898,8 +898,10 @@ nsIContent
 >
 &
 aArray
-PseudoStyleType
-aPseudoType
+const
+PseudoStyleRequest
+&
+aPseudoRequest
 )
 ;
 RestyleManager

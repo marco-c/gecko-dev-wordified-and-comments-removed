@@ -3225,10 +3225,6 @@ mContent
 AsElement
 (
 )
-PseudoStyleType
-:
-:
-NotPseudo
 )
 )
 {

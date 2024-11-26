@@ -412,8 +412,10 @@ const
 Element
 *
 aElement
-PseudoStyleType
-aPseudoType
+const
+PseudoStyleRequest
+&
+aPseudoRequest
 )
 {
 MOZ_ASSERT
@@ -431,7 +433,7 @@ EffectSet
 Get
 (
 aElement
-aPseudoType
+aPseudoRequest
 )
 ;
 if

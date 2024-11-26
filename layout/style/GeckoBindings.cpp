@@ -3122,8 +3122,6 @@ Get
 (
 element
 pseudoRequest
-.
-mType
 )
 ;
 if
@@ -3238,8 +3236,6 @@ Get
 (
 element
 pseudo
-.
-mType
 )
 ;
 return
@@ -3289,8 +3285,6 @@ Get
 (
 element
 pseudo
-.
-mType
 )
 ;
 }
