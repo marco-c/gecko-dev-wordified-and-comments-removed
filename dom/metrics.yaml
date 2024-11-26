@@ -3929,7 +3929,7 @@ parameter
 type
 :
 string
-principal_type
+principalType
 :
 description
 :
