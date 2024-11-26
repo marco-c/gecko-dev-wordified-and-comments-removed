@@ -5928,7 +5928,6 @@ infos
 [
 0
 ]
-!
 .
 dataType
 )

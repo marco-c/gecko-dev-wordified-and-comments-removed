@@ -214,7 +214,7 @@ flipY
 '
 in
 '
-GPUImageCopyExternalImage
+GPUCopyExternalImageSourceInfo
 '
 is
 set
@@ -250,7 +250,7 @@ flipY
 config
 in
 '
-GPUImageCopyExternalImage
+GPUCopyExternalImageSourceInfo
 '
 (
 named

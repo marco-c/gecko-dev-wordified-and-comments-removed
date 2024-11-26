@@ -194,7 +194,7 @@ premultipliedAlpha
 '
 in
 '
-GPUImageCopyTextureTagged
+GPUCopyExternalImageDestInfo
 '
 is
 set
@@ -209,7 +209,7 @@ flipY
 '
 in
 '
-GPUImageCopyExternalImage
+GPUCopyExternalImageSourceInfo
 '
 is
 set
@@ -248,7 +248,7 @@ flipY
 config
 in
 '
-GPUImageCopyExternalImage
+GPUCopyExternalImageSourceInfo
 '
 (
 named
@@ -732,7 +732,7 @@ premultipliedAlpha
 '
 in
 '
-GPUImageCopyTextureTagged
+GPUCopyExternalImageDestInfo
 '
 is
 set
@@ -747,7 +747,7 @@ flipY
 '
 in
 '
-GPUImageCopyExternalImage
+GPUCopyExternalImageSourceInfo
 '
 is
 set
@@ -807,7 +807,7 @@ flipY
 config
 in
 '
-GPUImageCopyExternalImage
+GPUCopyExternalImageSourceInfo
 '
 (
 named

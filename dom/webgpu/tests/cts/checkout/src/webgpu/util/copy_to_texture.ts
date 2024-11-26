@@ -983,10 +983,10 @@ doTestAndCheckResult
 (
 imageCopyExternalImage
 :
-GPUImageCopyExternalImage
+GPUCopyExternalImageSourceInfo
 dstTextureCopyView
 :
-GPUImageCopyTextureTagged
+GPUCopyExternalImageDestInfo
 expTexelView
 :
 TexelView

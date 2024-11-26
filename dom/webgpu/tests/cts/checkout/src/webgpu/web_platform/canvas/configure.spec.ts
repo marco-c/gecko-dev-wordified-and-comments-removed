@@ -376,6 +376,7 @@ expect
 configuration
 .
 toneMapping
+?
 .
 mode
 =
@@ -809,6 +810,7 @@ expect
 configuration
 .
 toneMapping
+?
 .
 mode
 =
@@ -1011,6 +1013,7 @@ expect
 newConfiguration
 .
 toneMapping
+?
 .
 mode
 =

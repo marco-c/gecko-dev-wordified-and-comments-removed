@@ -1028,10 +1028,10 @@ runTest
 (
 imageBitmapCopyView
 :
-GPUImageCopyExternalImage
+GPUCopyExternalImageSourceInfo
 textureCopyView
 :
-GPUImageCopyTextureTagged
+GPUCopyExternalImageDestInfo
 copySize
 :
 GPUExtent3D

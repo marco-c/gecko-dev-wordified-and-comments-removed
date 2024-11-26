@@ -243,6 +243,7 @@ js
 ;
 import
 {
+kDataSentinel
 kNumCases
 kStride
 kWGSizes
@@ -1845,7 +1846,7 @@ else
 {
 expected
 =
-999
+kDataSentinel
 ;
 }
 if
@@ -2048,6 +2049,18 @@ wgsl
 =
 enable
 subgroups
+;
+diagnostic
+(
+off
+subgroup_uniformity
+)
+;
+diagnostic
+(
+off
+subgroup_branching
+)
 ;
 group
 (

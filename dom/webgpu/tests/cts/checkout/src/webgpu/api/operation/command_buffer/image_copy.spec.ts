@@ -917,7 +917,7 @@ changeBeforePass
 ChangeBeforePass
 )
 :
-GPUImageDataLayout
+GPUTexelCopyBufferLayout
 {
 if
 (
@@ -1011,7 +1011,7 @@ changeBeforePass
 ChangeBeforePass
 )
 :
-GPUImageCopyTexture
+GPUTexelCopyTextureInfo
 {
 let
 origin
@@ -1245,7 +1245,7 @@ dataLayout
 :
 Required
 <
-GPUImageDataLayout
+GPUTexelCopyBufferLayout
 >
 )
 {
@@ -1613,7 +1613,7 @@ bytesPerRow
 :
 Required
 <
-GPUImageDataLayout
+GPUTexelCopyBufferLayout
 >
 {
 width
@@ -1740,7 +1740,7 @@ textureCopyView
 TextureCopyViewWithRequiredOrigin
 textureDataLayout
 :
-GPUImageDataLayout
+GPUTexelCopyBufferLayout
 &
 {
 bytesPerRow
@@ -1973,7 +1973,7 @@ expectedDataLayout
 :
 Required
 <
-GPUImageDataLayout
+GPUTexelCopyBufferLayout
 >
 )
 :
@@ -2190,7 +2190,7 @@ expectedDataLayout
 :
 Required
 <
-GPUImageDataLayout
+GPUTexelCopyBufferLayout
 >
 changeBeforePass
 :
@@ -2341,7 +2341,7 @@ texturePartialDataLayout
 :
 Required
 <
-GPUImageDataLayout
+GPUTexelCopyBufferLayout
 >
 copySize
 :
@@ -2568,7 +2568,7 @@ textureDataLayout
 :
 Required
 <
-GPUImageDataLayout
+GPUTexelCopyBufferLayout
 >
 ;
 copySize

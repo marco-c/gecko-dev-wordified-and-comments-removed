@@ -1112,7 +1112,7 @@ t
 GPUTest
 source
 :
-GPUImageCopyTexture
+GPUTexelCopyTextureInfo
 copySize
 :
 GPUExtent3D
@@ -2059,7 +2059,7 @@ t
 GPUTest
 source
 :
-GPUImageCopyTexture
+GPUTexelCopyTextureInfo
 copySize_
 :
 GPUExtent3D
