@@ -2122,7 +2122,7 @@ ContentCompositorBridgeParent
 {
 MOZ_ASSERT
 (
-XRE_GetIOMessageLoop
+XRE_GetAsyncIOEventTarget
 (
 )
 )
