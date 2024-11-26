@@ -65,6 +65,7 @@ mozperftest
 perf
 -
 sheriffing
+perfcompare
 performance
 -
 infrastructure
@@ -176,6 +177,11 @@ doc
 perf
 -
 sheriffing
+*
+:
+doc
+:
+perfcompare
 *
 :
 doc
