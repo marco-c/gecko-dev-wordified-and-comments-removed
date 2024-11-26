@@ -349,10 +349,15 @@ close
 )
 )
 ;
-return
+await
 negotiateSimulcastAndWaitForVideo
 (
 t
+await
+getCameraStream
+(
+t
+)
 rids
 pc1
 pc2
