@@ -336,37 +336,6 @@ _UNICODE
 ]
 =
 True
-    
-UNIFIED_SOURCES
-+
-=
-[
-        
-'
-skia
-/
-src
-/
-fonts
-/
-SkFontMgr_indirect
-.
-cpp
-'
-        
-'
-skia
-/
-src
-/
-fonts
-/
-SkRemotableFontMgr
-.
-cpp
-'
-    
-]
 #
 We
 should
@@ -1740,6 +1709,16 @@ ports
 /
 SkGlobalInitialization
 '
+    
+'
+skia
+/
+src
+/
+utils
+/
+SkJSON
+'
   
 ]
   
@@ -1967,6 +1946,8 @@ cc
 skia
 /
 modules
+/
+skcms
 /
 src
 /
@@ -2573,6 +2554,12 @@ cpp
   
 '
 SkSLLexer
+.
+cpp
+'
+  
+'
+SkTypeface_mac_ct
 .
 cpp
 '
