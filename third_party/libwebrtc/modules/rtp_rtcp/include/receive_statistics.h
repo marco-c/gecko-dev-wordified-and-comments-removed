@@ -233,16 +233,6 @@ virtual
 void
 SetMaxReorderingThreshold
 (
-int
-max_reordering_threshold
-)
-=
-0
-;
-virtual
-void
-SetMaxReorderingThreshold
-(
 uint32_t
 ssrc
 int

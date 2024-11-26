@@ -4477,6 +4477,7 @@ rtp_receive_statistics_
 >
 SetMaxReorderingThreshold
 (
+remote_ssrc_
 max_packets
 )
 ;
@@ -4496,6 +4497,7 @@ rtp_receive_statistics_
 >
 SetMaxReorderingThreshold
 (
+remote_ssrc_
 kDefaultMaxReorderingThreshold
 )
 ;
