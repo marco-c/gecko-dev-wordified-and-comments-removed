@@ -112,6 +112,13 @@ times
 out
 [
 "
+test_blocklist_attention
+.
+js
+"
+]
+[
+"
 test_blocklist_clients
 .
 js
