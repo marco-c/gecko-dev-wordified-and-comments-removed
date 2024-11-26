@@ -95,6 +95,17 @@ SuggestApiError
 ;
 pub
 use
+geoname
+:
+:
+{
+Geoname
+GeonameMatch
+GeonameType
+}
+;
+pub
+use
 metrics
 :
 :

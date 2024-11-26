@@ -192,9 +192,6 @@ get_url
 )
 }
 pub
-(
-crate
-)
 fn
 get_url
 (
