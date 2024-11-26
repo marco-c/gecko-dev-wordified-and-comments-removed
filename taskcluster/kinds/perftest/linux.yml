@@ -162,7 +162,7 @@ target
 .
 tar
 .
-bz2
+xz
 platform
 :
 linux1804

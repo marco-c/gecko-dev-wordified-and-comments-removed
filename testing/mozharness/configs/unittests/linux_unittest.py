@@ -54,7 +54,7 @@ installer
 .
 tar
 .
-bz2
+xz
 "
 )
 XPCSHELL_NAME
