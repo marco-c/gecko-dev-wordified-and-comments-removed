@@ -133,10 +133,10 @@ webrtc
 .
 gni
 index
-419b176c1c
+07f8395bd4
 .
 .
-58b450cbb1
+3b014a079a
 100644
 -
 -
@@ -417,5 +417,4 @@ win
 default_exe_manifest
 "
 ]
-}
 }
