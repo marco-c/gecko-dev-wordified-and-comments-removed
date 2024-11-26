@@ -3584,6 +3584,7 @@ rtc
 :
 kNtpJan1970Millisecs
 )
+now
 )
 ;
 uint32_t

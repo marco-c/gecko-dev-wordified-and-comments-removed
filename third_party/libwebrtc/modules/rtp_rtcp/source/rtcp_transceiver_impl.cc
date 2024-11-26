@@ -2218,6 +2218,7 @@ SetReportBlock
 sender_ssrc
 block
 now_utc
+now
 )
 ;
 if
@@ -2274,6 +2275,7 @@ SetReportBlock
 sender_ssrc
 block
 now_utc
+now
 )
 ;
 if

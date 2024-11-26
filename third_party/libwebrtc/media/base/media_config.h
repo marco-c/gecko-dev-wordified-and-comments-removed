@@ -15,6 +15,11 @@ enable_dscp
 =
 true
 ;
+bool
+stats_timestamp_with_environment_clock
+=
+false
+;
 struct
 Video
 {

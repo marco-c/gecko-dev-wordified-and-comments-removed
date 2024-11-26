@@ -71,6 +71,8 @@ ReportBlock
 report_block
 Timestamp
 report_block_timestamp_utc
+Timestamp
+report_block_timestamp
 )
 {
 sender_ssrc_
@@ -120,6 +122,10 @@ jitter
 report_block_timestamp_utc_
 =
 report_block_timestamp_utc
+;
+report_block_timestamp_
+=
+report_block_timestamp
 ;
 }
 void

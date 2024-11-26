@@ -319,6 +319,10 @@ Create
 PeerConnectionInternal
 *
 pc
+const
+Environment
+&
+env
 int64_t
 cache_lifetime_us
 =
@@ -414,6 +418,10 @@ RTCStatsCollector
 PeerConnectionInternal
 *
 pc
+const
+Environment
+&
+env
 int64_t
 cache_lifetime_us
 )
@@ -1115,6 +1123,14 @@ PeerConnectionInternal
 *
 const
 pc_
+;
+const
+Environment
+env_
+;
+const
+bool
+stats_timestamp_with_environment_clock_
 ;
 rtc
 :
