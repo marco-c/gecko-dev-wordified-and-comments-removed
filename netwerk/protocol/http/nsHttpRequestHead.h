@@ -462,6 +462,7 @@ ParsedMethodType
 kMethod_Custom
 kMethod_Get
 kMethod_Post
+kMethod_Patch
 kMethod_Options
 kMethod_Connect
 kMethod_Head
@@ -515,6 +516,18 @@ return
 EqualsMethod
 (
 kMethod_Post
+)
+;
+}
+bool
+IsPatch
+(
+)
+{
+return
+EqualsMethod
+(
+kMethod_Patch
 )
 ;
 }
