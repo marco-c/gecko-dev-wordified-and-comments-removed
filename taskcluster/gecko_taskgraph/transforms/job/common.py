@@ -718,6 +718,19 @@ worker
 type
 "
 ]
+or
+"
+a64
+"
+in
+job
+[
+"
+worker
+-
+type
+"
+]
 :
             
 hgstore
