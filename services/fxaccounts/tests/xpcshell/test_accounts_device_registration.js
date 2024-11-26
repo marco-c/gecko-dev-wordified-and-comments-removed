@@ -4149,6 +4149,10 @@ deviceName
 foo
 "
 ;
+ensureOauthNotConfigured
+(
+)
+;
 const
 credentials
 =
