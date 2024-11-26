@@ -34321,7 +34321,6 @@ perfSpewer_
 .
 recordInstruction
 (
-cx
 masm
 handler
 .
