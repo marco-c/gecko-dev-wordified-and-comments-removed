@@ -120,7 +120,7 @@ eDelayedWebTaskTimeout
 struct
 TimeoutIdAndReason
 {
-uint32_t
+int32_t
 mId
 ;
 Reason
@@ -584,7 +584,7 @@ ProfileChunkedBuffer
 >
 mCause
 ;
-uint32_t
+int32_t
 mTimeoutId
 ;
 uint32_t
