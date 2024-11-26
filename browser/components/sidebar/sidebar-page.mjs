@@ -329,9 +329,7 @@ this
 .
 ownerGlobal
 .
-browsingContext
-.
-topChromeWindow
+top
 ;
 }
 get
