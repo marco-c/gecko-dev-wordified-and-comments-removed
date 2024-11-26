@@ -1809,15 +1809,6 @@ found
 -
 header
 "
-data
--
-l10n
--
-attrs
-=
-"
-heading
-"
 >
 <
 div

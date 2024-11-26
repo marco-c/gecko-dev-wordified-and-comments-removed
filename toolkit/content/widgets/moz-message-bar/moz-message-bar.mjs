@@ -543,6 +543,9 @@ heading
 type
 :
 String
+fluent
+:
+true
 }
 message
 :
@@ -550,6 +553,9 @@ message
 type
 :
 String
+fluent
+:
+true
 }
 dismissable
 :
