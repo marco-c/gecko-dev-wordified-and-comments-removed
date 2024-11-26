@@ -1,0 +1,15 @@
+idl_test_shadowrealm
+(
+[
+"
+wasm
+-
+js
+-
+api
+"
+]
+[
+]
+)
+;
