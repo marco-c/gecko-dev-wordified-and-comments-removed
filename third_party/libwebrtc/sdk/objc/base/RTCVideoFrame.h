@@ -19,6 +19,12 @@ h
 #
 import
 "
+sdk
+/
+objc
+/
+base
+/
 RTCMacros
 .
 h
