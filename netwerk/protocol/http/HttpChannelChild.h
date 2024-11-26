@@ -657,8 +657,8 @@ const
 ParentLoadInfoForwarderArgs
 &
 loadInfoForwarder
-const
 nsHttpResponseHead
+&
 &
 responseHead
 nsITransportSecurityInfo
