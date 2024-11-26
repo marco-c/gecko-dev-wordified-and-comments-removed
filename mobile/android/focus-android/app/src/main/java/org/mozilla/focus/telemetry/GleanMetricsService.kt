@@ -479,12 +479,6 @@ Context
 :
 MetricsService
 {
-Suppress
-(
-"
-UnusedPrivateMember
-"
-)
 private
 val
 activationPing
