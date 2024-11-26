@@ -20246,6 +20246,12 @@ int
 )
 )
 {
+JS
+:
+:
+AutoSuppressGCAnalysis
+nogc
+;
 int
 len
 =
