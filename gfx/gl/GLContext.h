@@ -413,12 +413,7 @@ OpenGLES
 enum
 class
 GLRenderer
-:
-uint8_t
 {
-Other
-=
-0
 Adreno200
 Adreno205
 AdrenoTM200
@@ -439,6 +434,7 @@ GalliumLlvmpipe
 IntelHD3000
 MicrosoftBasicRenderDriver
 SamsungXclipse
+Other
 }
 ;
 class
