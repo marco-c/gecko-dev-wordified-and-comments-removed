@@ -2205,6 +2205,17 @@ function_view
 /
 api
 :
+make_ref_counted
+"
+"
+.
+.
+/
+.
+.
+/
+api
+:
 rtp_headers
 "
 "
