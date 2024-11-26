@@ -853,6 +853,13 @@ version
 optional
 =
 true
+features
+=
+[
+"
+serde
+"
+]
 }
 [
 build

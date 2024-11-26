@@ -8982,6 +8982,9 @@ bitflags
 .
 0
 "
+"
+malloc_size_of
+"
 ]
 [
 [
@@ -20680,9 +20683,6 @@ app_units
 "
 "
 cssparser
-"
-"
-dom
 "
 "
 euclid
