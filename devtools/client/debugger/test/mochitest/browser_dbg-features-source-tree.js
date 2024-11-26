@@ -1970,7 +1970,7 @@ module
 js
 "
 "
-react
+javascript
 "
 )
 ;
