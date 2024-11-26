@@ -327,6 +327,9 @@ slug
 "
 treatment
 "
+ratio
+:
+1
 features
 :
 [
@@ -593,6 +596,9 @@ slug
 "
 treatment
 "
+ratio
+:
+1
 features
 :
 [
@@ -640,6 +646,9 @@ slug
 "
 treatment
 "
+ratio
+:
+1
 features
 :
 [
@@ -897,6 +906,9 @@ slug
 "
 getAllVariables
 "
+ratio
+:
+1
 features
 :
 [
