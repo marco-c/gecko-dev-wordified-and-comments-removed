@@ -3476,6 +3476,13 @@ Determinant
 Self
 :
 :
+QuantizeToF16
+=
+>
+1
+Self
+:
+:
 CountTrailingZeros
 =
 >

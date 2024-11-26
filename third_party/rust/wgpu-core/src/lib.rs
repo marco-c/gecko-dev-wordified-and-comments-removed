@@ -267,6 +267,10 @@ present
 ;
 pub
 mod
+ray_tracing
+;
+pub
+mod
 registry
 ;
 pub
@@ -285,6 +289,9 @@ track
 ;
 mod
 weak_vec
+;
+mod
+scratch
 ;
 pub
 mod

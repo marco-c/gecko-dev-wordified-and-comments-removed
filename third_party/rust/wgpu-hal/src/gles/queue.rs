@@ -3826,7 +3826,10 @@ PixelUnpackData
 :
 Slice
 (
+Some
+(
 src_data
+)
 )
 }
 }
@@ -4656,7 +4659,10 @@ PixelPackData
 :
 Slice
 (
+Some
+(
 dst_data
+)
 )
 }
 }
@@ -8368,9 +8374,12 @@ gl
 bind_image_texture
 (
 slot
+Some
+(
 binding
 .
 raw
+)
 binding
 .
 mip_level

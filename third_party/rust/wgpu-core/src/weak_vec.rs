@@ -242,7 +242,13 @@ self
 .
 scan_slots_on_next_push
 =
-false
+self
+.
+empty_slots
+.
+is_empty
+(
+)
 ;
 }
 else

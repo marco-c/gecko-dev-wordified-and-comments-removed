@@ -1993,6 +1993,15 @@ Mf
 :
 Determinant
 "
+quantizeToF16
+"
+=
+>
+Mf
+:
+:
+QuantizeToF16
+"
 countTrailingZeros
 "
 =
