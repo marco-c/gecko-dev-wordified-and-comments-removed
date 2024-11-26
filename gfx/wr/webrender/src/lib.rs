@@ -486,7 +486,7 @@ composite
 {
 Compositor2
 CompositorInputConfig
-CompositorOutputConfig
+CompositorSurfaceUsage
 }
 ;
 pub
