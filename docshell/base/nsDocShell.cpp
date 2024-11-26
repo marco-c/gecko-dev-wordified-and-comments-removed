@@ -55383,8 +55383,6 @@ nsDocShellLoadState
 aLoadState
 bool
 aNoOpenerImplied
-bool
-aIsTrusted
 nsIPrincipal
 *
 aTriggeringPrincipal
@@ -55401,9 +55399,6 @@ jsapi
 ;
 if
 (
-mIsTrusted
-|
-|
 jsapi
 .
 Init
@@ -55467,9 +55462,6 @@ mTriggeringPrincipal
 bool
 mNoOpenerImplied
 ;
-bool
-mIsTrusted
-;
 }
 ;
 OnLinkClickEvent
@@ -55488,8 +55480,6 @@ nsDocShellLoadState
 aLoadState
 bool
 aNoOpenerImplied
-bool
-aIsTrusted
 nsIPrincipal
 *
 aTriggeringPrincipal
@@ -55524,10 +55514,6 @@ mNoOpenerImplied
 (
 aNoOpenerImplied
 )
-mIsTrusted
-(
-aIsTrusted
-)
 {
 }
 nsresult
@@ -55558,8 +55544,6 @@ nsIInputStream
 aHeadersDataStream
 bool
 aIsUserTriggered
-bool
-aIsTrusted
 nsIPrincipal
 *
 aTriggeringPrincipal
@@ -55882,7 +55866,6 @@ this
 aContent
 loadState
 noOpenerImplied
-aIsTrusted
 aTriggeringPrincipal
 )
 ;

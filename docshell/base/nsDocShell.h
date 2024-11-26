@@ -679,8 +679,6 @@ nsIInputStream
 aHeadersDataStream
 bool
 aIsUserTriggered
-bool
-aIsTrusted
 nsIPrincipal
 *
 aTriggeringPrincipal

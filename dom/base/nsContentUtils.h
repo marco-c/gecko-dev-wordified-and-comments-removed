@@ -5148,8 +5148,6 @@ nsString
 aTargetSpec
 bool
 aClick
-bool
-aIsTrusted
 )
 ;
 static

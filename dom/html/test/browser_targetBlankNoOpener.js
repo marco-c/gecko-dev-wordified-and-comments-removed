@@ -682,14 +682,6 @@ set
 "
 dom
 .
-disable_open_during_load
-"
-true
-]
-[
-"
-dom
-.
 targetBlankNoOpener
 .
 enabled
