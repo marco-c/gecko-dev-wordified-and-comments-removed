@@ -38,6 +38,13 @@ py
 ]
 [
 "
+test_mirrors
+.
+py
+"
+]
+[
+"
 test_no_expired_probes
 .
 py
