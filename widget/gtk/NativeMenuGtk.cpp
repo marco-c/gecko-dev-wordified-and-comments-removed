@@ -100,6 +100,13 @@ h
 #
 include
 "
+nsWaylandDisplay
+.
+h
+"
+#
+include
+"
 nsWindow
 .
 h
