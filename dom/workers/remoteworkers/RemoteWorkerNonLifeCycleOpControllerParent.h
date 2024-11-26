@@ -71,16 +71,6 @@ aError
 )
 ;
 void
-ActorDestroy
-(
-IProtocol
-:
-:
-ActorDestroyReason
-)
-override
-;
-void
 Shutdown
 (
 )
