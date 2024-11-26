@@ -735,6 +735,11 @@ SVGAnimationElement
 cpp
 "
 "
+SVGArcConverter
+.
+cpp
+"
+"
 SVGAttrValueWrapper
 .
 cpp
@@ -1041,11 +1046,6 @@ cpp
 "
 "
 SVGPathData
-.
-cpp
-"
-"
-SVGPathDataParser
 .
 cpp
 "
