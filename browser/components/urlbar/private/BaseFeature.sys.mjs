@@ -2176,10 +2176,15 @@ logger
 .
 info
 (
-Setting
+"
+Feature
 enabled
-=
+status
+changed
+"
 {
+nowEnabled
+:
 enable
 }
 )

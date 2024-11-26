@@ -523,15 +523,8 @@ Got
 geolocation
 from
 Merino
-:
 "
-+
-JSON
-.
-stringify
-(
 results
-)
 )
 ;
 return
