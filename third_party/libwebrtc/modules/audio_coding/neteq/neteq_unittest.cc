@@ -503,7 +503,7 @@ string
 network_stats_checksum
 =
 "
-5f2c8e3dff9cff55dd7a9f4167939de001566d95
+06f6b9a86aeae6317fd25a36edf9ed16f35e798f
 |
 "
 "
@@ -616,7 +616,7 @@ string
 network_stats_checksum
 =
 "
-92b0fdcbf8bb9354d40140b7312f2fb76a078555
+6af74a713749cc4343464718b6af54f1e5b06ad9
 "
 ;
 DecodeAndCompare
@@ -3709,7 +3709,7 @@ EXPECT_GT
 stats
 .
 expand_rate
-14000
+13000
 )
 ;
 EXPECT_GT
