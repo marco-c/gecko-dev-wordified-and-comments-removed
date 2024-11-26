@@ -17628,7 +17628,7 @@ true
 }
 enum
 class
-IncumbentGlobalObject
+HostDefinedDataObject
 {
 No
 Yes
@@ -17651,8 +17651,8 @@ HandleValue
 onFulfilled
 HandleValue
 onRejected
-IncumbentGlobalObject
-incumbentGlobalObjectOption
+HostDefinedDataObject
+hostDefinedDataObjectOption
 )
 {
 #
@@ -17669,10 +17669,10 @@ promise
 {
 if
 (
-incumbentGlobalObjectOption
+hostDefinedDataObjectOption
 =
 =
-IncumbentGlobalObject
+HostDefinedDataObject
 :
 :
 Yes
@@ -17856,10 +17856,10 @@ reject
 ;
 MOZ_ASSERT
 (
-incumbentGlobalObjectOption
+hostDefinedDataObjectOption
 =
 =
-IncumbentGlobalObject
+HostDefinedDataObject
 :
 :
 Yes
@@ -18014,10 +18014,10 @@ cx
 ;
 if
 (
-incumbentGlobalObjectOption
+hostDefinedDataObjectOption
 =
 =
-IncumbentGlobalObject
+HostDefinedDataObject
 :
 :
 Yes
@@ -18889,7 +18889,7 @@ cx
 resultCapability
 onFulfilled
 onRejected
-IncumbentGlobalObject
+HostDefinedDataObject
 :
 :
 Yes
@@ -19779,7 +19779,7 @@ cx
 resultCapability
 onFulfilledValue
 onRejectedValue
-IncumbentGlobalObject
+HostDefinedDataObject
 :
 :
 Yes
@@ -21411,7 +21411,7 @@ cx
 resultCapability
 onFulfilled
 onRejected
-IncumbentGlobalObject
+HostDefinedDataObject
 :
 :
 Yes
@@ -21492,7 +21492,7 @@ cx
 resultCapability
 onFulfilled
 onRejected
-IncumbentGlobalObject
+HostDefinedDataObject
 :
 :
 Yes
@@ -22229,7 +22229,7 @@ cx
 capability
 NullHandleValue
 NullHandleValue
-IncumbentGlobalObject
+HostDefinedDataObject
 :
 :
 No
