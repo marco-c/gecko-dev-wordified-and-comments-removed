@@ -711,8 +711,6 @@ const
 AsyncPacketSocket
 &
 socket_from
-bool
-is_connectionless
 rtc
 :
 :

@@ -349,7 +349,6 @@ CopySocketInformationToPacketInfo
 cb
 *
 this
-false
 &
 sent_packet
 .
@@ -428,7 +427,6 @@ CopySocketInformationToPacketInfo
 cb
 *
 this
-true
 &
 sent_packet
 .
