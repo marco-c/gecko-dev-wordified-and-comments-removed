@@ -1610,8 +1610,6 @@ aOther
 ConstructorGuard
 )
 ;
-private
-:
 static
 RequestDestination
 MapContentPolicyTypeToRequestDestination
@@ -1620,6 +1618,8 @@ nsContentPolicyType
 aContentPolicyType
 )
 ;
+private
+:
 static
 bool
 IsNavigationContentPolicy
