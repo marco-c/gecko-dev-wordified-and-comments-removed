@@ -722,7 +722,7 @@ optional
 <
 double
 >
-score
+corruption_score
 ;
 if
 (
@@ -763,7 +763,7 @@ frame_instrumentation_data
 )
 )
 {
-score
+corruption_score
 =
 corruption_score_calculator_
 -
@@ -1440,6 +1440,10 @@ frame_info
 -
 >
 frame_type
+.
+corruption_score
+=
+corruption_score
 }
 )
 ;
