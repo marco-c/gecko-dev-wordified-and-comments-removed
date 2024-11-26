@@ -882,6 +882,11 @@ float32
 filterable
 "
 "
+clip
+-
+distances
+"
+"
 dual
 -
 source
