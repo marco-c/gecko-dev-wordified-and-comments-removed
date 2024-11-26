@@ -51,6 +51,9 @@ nsFilePicker
 public
 nsBaseFilePicker
 {
+class
+AsyncShowFilePicker
+;
 public
 :
 nsFilePicker
@@ -64,6 +67,15 @@ nsIFilePicker
 ResultCode
 ;
 NS_DECL_ISUPPORTS
+NS_IMETHOD
+Open
+(
+nsIFilePickerShownCallback
+*
+aCallback
+)
+override
+;
 NS_IMETHOD
 GetDefaultString
 (
@@ -198,7 +210,6 @@ ResultCode
 *
 _retval
 )
-override
 ;
 ResultCode
 GetLocalFiles
