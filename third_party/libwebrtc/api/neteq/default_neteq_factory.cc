@@ -1,9 +1,7 @@
 #
 include
 "
-modules
-/
-audio_coding
+api
 /
 neteq
 /
