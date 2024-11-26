@@ -43,6 +43,17 @@ scalable_video_controller
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+system
+/
+rtc_export
+.
+h
+"
 namespace
 webrtc
 {
@@ -53,6 +64,7 @@ unique_ptr
 <
 ScalableVideoController
 >
+RTC_EXPORT
 CreateScalabilityStructure
 (
 ScalabilityMode
