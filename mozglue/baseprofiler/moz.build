@@ -446,14 +446,14 @@ h
 "
 public
 /
-BaseProfilerSharedLibraries
+BaseProfilingCategory
 .
 h
 "
 "
 public
 /
-BaseProfilingCategory
+SharedLibraries
 .
 h
 "
