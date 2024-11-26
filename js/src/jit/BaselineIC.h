@@ -1475,7 +1475,7 @@ res
 ;
 extern
 bool
-DoGetIntrinsicFallback
+DoLazyConstantFallback
 (
 JSContext
 *

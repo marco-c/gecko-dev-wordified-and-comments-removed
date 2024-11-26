@@ -724,7 +724,7 @@ GetElemSuper
 \
 _
 (
-GetIntrinsic
+LazyConstant
 )
 \
 _

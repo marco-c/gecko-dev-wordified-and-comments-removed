@@ -3771,7 +3771,7 @@ tryAttachStub
 ;
 class
 MOZ_RAII
-GetIntrinsicIRGenerator
+LazyConstantIRGenerator
 :
 public
 IRGenerator
@@ -3790,7 +3790,7 @@ name
 ;
 public
 :
-GetIntrinsicIRGenerator
+LazyConstantIRGenerator
 (
 JSContext
 *

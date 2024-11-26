@@ -10779,7 +10779,7 @@ case
 CacheKind
 :
 :
-GetIntrinsic
+LazyConstant
 :
 MOZ_ASSERT
 (

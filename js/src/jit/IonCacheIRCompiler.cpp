@@ -3353,7 +3353,7 @@ case
 CacheKind
 :
 :
-GetIntrinsic
+LazyConstant
 :
 case
 CacheKind
@@ -4007,7 +4007,7 @@ case
 CacheKind
 :
 :
-GetIntrinsic
+LazyConstant
 :
 case
 CacheKind
