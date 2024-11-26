@@ -8,6 +8,12 @@ final
 class
 CryptoOptions
 {
+SuppressWarnings
+(
+"
+ClassCanBeStatic
+"
+)
 public
 final
 class
@@ -107,6 +113,12 @@ enableEncryptedRtpHeaderExtensions
 ;
 }
 }
+SuppressWarnings
+(
+"
+ClassCanBeStatic
+"
+)
 public
 final
 class

@@ -1541,6 +1541,10 @@ setPreferredInputDevice
 "
 +
 preferredInputDevice
+.
+getId
+(
+)
 )
 ;
 audioInput
