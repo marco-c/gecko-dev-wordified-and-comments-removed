@@ -18,16 +18,7 @@ crate
 Url
 ;
 use
-alloc
-:
-:
-string
-:
-:
-String
-;
-use
-core
+std
 :
 :
 str
