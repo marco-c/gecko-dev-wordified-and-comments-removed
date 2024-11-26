@@ -1891,13 +1891,7 @@ itemWithDescription
 "
 Open
 in
-{
-R
-.
-string
-.
-app_name
-}
+appName
 "
 )
 private
