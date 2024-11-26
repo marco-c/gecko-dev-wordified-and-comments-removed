@@ -591,7 +591,7 @@ flags
 ;
 psrc
 .
-AddDir
+AddTree
 (
 MAY_READ
 |
@@ -721,7 +721,7 @@ prefix
 ;
 psrc
 .
-AddDir
+AddTree
 (
 MAY_READ
 "
@@ -794,7 +794,7 @@ escape
 ;
 psrc
 .
-AddDir
+AddTree
 (
 MAY_READ
 "

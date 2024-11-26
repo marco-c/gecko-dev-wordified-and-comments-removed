@@ -208,17 +208,6 @@ aPath
 )
 ;
 void
-AddDir
-(
-int
-aPerms
-const
-char
-*
-aPath
-)
-;
-void
 AddFutureDir
 (
 int
@@ -377,7 +366,7 @@ aPath
 )
 ;
 void
-AddDirInternal
+AddTreeInternal
 (
 int
 aPerms
