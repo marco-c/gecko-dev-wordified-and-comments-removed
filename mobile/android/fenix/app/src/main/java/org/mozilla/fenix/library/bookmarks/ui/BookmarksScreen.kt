@@ -2336,7 +2336,7 @@ R
 .
 drawable
 .
-mozac_ic_move_24
+mozac_ic_folder_arrow_right_24
 )
 contentDescription
 =
@@ -2487,7 +2487,7 @@ R
 .
 drawable
 .
-mozac_ic_move_24
+mozac_ic_folder_arrow_right_24
 )
 contentDescription
 =
