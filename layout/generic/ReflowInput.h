@@ -1280,6 +1280,12 @@ ComputedSizeAsContainerIfConstrained
 )
 const
 ;
+WritingMode
+GetCBWritingMode
+(
+)
+const
+;
 LogicalSize
 mContainingBlockSize
 {

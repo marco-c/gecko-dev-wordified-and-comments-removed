@@ -494,6 +494,11 @@ mozilla
 :
 :
 WritingMode
+aCBWM
+mozilla
+:
+:
+WritingMode
 aWM
 nscoord
 aBCoord
