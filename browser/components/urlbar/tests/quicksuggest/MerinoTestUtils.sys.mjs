@@ -378,6 +378,11 @@ city_name
 San
 Francisco
 "
+region_code
+:
+"
+CA
+"
 current_conditions
 :
 {

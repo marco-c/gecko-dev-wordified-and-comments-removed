@@ -2128,6 +2128,11 @@ url
 suggestion
 .
 url
+input
+:
+suggestion
+.
+url
 iconId
 :
 suggestion
@@ -2148,6 +2153,11 @@ city
 suggestion
 .
 city_name
+region
+:
+suggestion
+.
+region_code
 temperatureUnit
 :
 unit
@@ -2335,6 +2345,13 @@ result
 payload
 .
 city
+region
+:
+result
+.
+payload
+.
+region
 }
 cacheable
 :
