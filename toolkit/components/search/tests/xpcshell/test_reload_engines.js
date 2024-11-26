@@ -912,6 +912,12 @@ sort
 )
 [
 "
+appDefault
+"
+"
+defaultInFRRegion
+"
+"
 hasParamsInFRRegion
 "
 ]
