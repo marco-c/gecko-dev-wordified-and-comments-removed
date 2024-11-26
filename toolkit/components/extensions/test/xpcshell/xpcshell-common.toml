@@ -3605,6 +3605,13 @@ js
 ]
 [
 "
+test_ext_userScripts_mv3_csp
+.
+js
+"
+]
+[
+"
 test_ext_userScripts_mv3_injection
 .
 js
