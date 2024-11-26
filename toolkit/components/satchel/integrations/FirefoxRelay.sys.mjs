@@ -2543,6 +2543,7 @@ hasFirefoxAccountAsync
 )
 |
 |
+(
 Services
 .
 prefs
@@ -2554,7 +2555,6 @@ gConfig
 showToAllBrowsersPref
 false
 )
-)
 &
 &
 (
@@ -2562,6 +2562,8 @@ await
 onAllowList
 (
 origin
+)
+)
 )
 )
 )
