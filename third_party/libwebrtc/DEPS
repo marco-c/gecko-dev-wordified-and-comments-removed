@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-8de985d3df439e27a216fef59bea28b39daa2643
+edc87224c0b39339aab2ecee586c853f1ab12908
 '
 #
 Fetch
@@ -1703,7 +1703,7 @@ com
 boringssl
 .
 git
-f8bb652b01d3b34a20ddbaaa35def260783ee734
+81345b84505e9c23c156b2c7a1e655a204bd3e9a
 '
 '
 src
@@ -1960,7 +1960,7 @@ third_party
 ffmpeg
 .
 git
-30735bb16a66e84d6324b5858eef314822b6d419
+686d6944501a6ee9c849581e3fe343273d4af3f6
 '
 '
 src
@@ -2983,7 +2983,7 @@ external
 perfetto
 .
 git
-226197a61ac2b08b3860b5c73f8411ba0ba43947
+136de5ccd7163261020064db944bb07bf5f5cf12
 '
 '
 src
