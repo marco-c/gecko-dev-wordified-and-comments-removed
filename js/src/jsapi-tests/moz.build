@@ -435,6 +435,11 @@ testMappedArrayBuffer
 cpp
 "
 "
+testMapSet
+.
+cpp
+"
+"
 testMemoryAssociation
 .
 cpp
