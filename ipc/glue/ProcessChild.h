@@ -32,9 +32,11 @@ h
 #
 include
 "
-mozilla
+chrome
 /
-GeckoArgs
+common
+/
+child_process
 .
 h
 "
@@ -45,7 +47,7 @@ mozilla
 /
 ipc
 /
-IOThread
+ProcessUtils
 .
 h
 "
@@ -57,6 +59,9 @@ ipc
 {
 class
 ProcessChild
+:
+public
+ChildProcess
 {
 protected
 :
@@ -283,12 +288,6 @@ mParentPid
 ;
 nsID
 mMessageChannelId
-;
-UniquePtr
-<
-IOThreadChild
->
-mChildThread
 ;
 }
 ;

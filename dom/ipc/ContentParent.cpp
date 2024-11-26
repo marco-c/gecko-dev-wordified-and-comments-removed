@@ -22485,12 +22485,12 @@ InduceConnectionError
 )
 ;
 }
-XRE_GetAsyncIOEventTarget
+XRE_GetIOMessageLoop
 (
 )
 -
 >
-Dispatch
+PostTask
 (
 NewRunnableFunction
 (

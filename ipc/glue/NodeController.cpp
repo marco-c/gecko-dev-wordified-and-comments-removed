@@ -127,7 +127,7 @@ mozilla
 /
 ipc
 /
-IOThread
+BrowserProcessSubThread
 .
 h
 "
@@ -2450,12 +2450,12 @@ if
 needsIntroduction
 )
 {
-XRE_GetAsyncIOEventTarget
+XRE_GetIOMessageLoop
 (
 )
 -
 >
-Dispatch
+PostTask
 (
 NewRunnableMethod
 <

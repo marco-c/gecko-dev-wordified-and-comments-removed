@@ -259,12 +259,12 @@ shutdown
 )
 )
 ;
-XRE_GetAsyncIOEventTarget
+XRE_GetIOMessageLoop
 (
 )
 -
 >
-Dispatch
+PostTask
 (
 mozilla
 :

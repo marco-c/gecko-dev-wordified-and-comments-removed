@@ -7334,12 +7334,12 @@ msg
 ;
 #
 else
-XRE_GetAsyncIOEventTarget
+XRE_GetIOMessageLoop
 (
 )
 -
 >
-Dispatch
+PostTask
 (
 NS_NewRunnableFunction
 (
