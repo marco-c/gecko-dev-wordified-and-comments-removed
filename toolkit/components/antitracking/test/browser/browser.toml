@@ -734,6 +734,13 @@ js
 ]
 [
 "
+browser_nimbus_thirdPartyTrackerCookieBlocking
+.
+js
+"
+]
+[
+"
 browser_onBeforeRequestNotificationForTrackingResources
 .
 js
