@@ -960,6 +960,7 @@ if
 this
 .
 contextMenuTarget
+?
 .
 getAttribute
 (
@@ -972,6 +973,7 @@ extensionId
 this
 .
 contextMenuTarget
+?
 .
 className
 .
