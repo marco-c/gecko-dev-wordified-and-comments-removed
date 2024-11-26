@@ -4060,6 +4060,7 @@ ch
 =
 CH_NBSP
 )
+{
 return
 !
 IsSpaceCombiningSequenceTail
@@ -4070,6 +4071,7 @@ aPos
 1
 )
 ;
+}
 return
 ch
 =
@@ -4418,8 +4420,10 @@ n
 aAllowNewline
 )
 )
+{
 continue
 ;
+}
 return
 false
 ;
@@ -6525,9 +6529,11 @@ aState
 >
 mSeenSpaceForLineBreakingOnThisLine
 )
+{
 return
 FB_FOUND_VALID_TEXTRUN_BOUNDARY
 ;
+}
 }
 if
 (
@@ -6817,9 +6823,11 @@ aState
 >
 mSeenSpaceForLineBreakingOnThisLine
 )
+{
 return
 FB_FOUND_VALID_TEXTRUN_BOUNDARY
 ;
+}
 }
 for
 (
@@ -6888,9 +6896,11 @@ aState
 >
 mSeenSpaceForLineBreakingOnThisLine
 )
+{
 return
 FB_FOUND_VALID_TEXTRUN_BOUNDARY
 ;
+}
 }
 return
 FB_CONTINUE
@@ -16327,6 +16337,7 @@ aStyleText
 aAllowHangingWS
 )
 )
+{
 return
 aIterator
 -
@@ -16337,6 +16348,7 @@ GetSkippedOffset
 +
 1
 ;
+}
 }
 return
 aStart
@@ -29049,8 +29061,10 @@ aPresContext
 aInkOverflowRect
 )
 )
+{
 return
 ;
+}
 AddStateBits
 (
 TEXT_SELECTION_UNDERLINE_OVERFLOWED
@@ -39434,12 +39448,14 @@ rv
 !
 selectionController
 )
+{
 return
 nsISelectionController
 :
 :
 SELECTION_OFF
 ;
+}
 selectionController
 -
 >

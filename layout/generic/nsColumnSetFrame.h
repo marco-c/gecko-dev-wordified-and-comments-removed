@@ -170,9 +170,11 @@ if
 !
 frame
 )
+{
 return
 nullptr
 ;
+}
 return
 frame
 -

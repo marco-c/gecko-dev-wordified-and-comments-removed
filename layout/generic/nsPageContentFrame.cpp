@@ -1374,8 +1374,10 @@ if
 !
 i
 )
+{
 break
 ;
+}
 nsDisplayList
 *
 subList

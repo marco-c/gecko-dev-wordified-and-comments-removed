@@ -3827,8 +3827,10 @@ IsVisibleForPainting
 (
 )
 )
+{
 return
 ;
+}
 DO_GLOBAL_REFLOW_COUNT_DSP
 (
 "

@@ -83,8 +83,10 @@ GetPrevInFlow
 (
 )
 )
+{
 return
 ;
+}
 WritingMode
 wm
 =

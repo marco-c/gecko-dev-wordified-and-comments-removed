@@ -214,6 +214,7 @@ mEnd
 <
 aBegin
 )
+{
 current
 =
 &
@@ -225,6 +226,7 @@ current
 >
 mNext
 ;
+}
 newInterval
 -
 >
@@ -368,9 +370,11 @@ mEnd
 =
 aBegin
 )
+{
 return
 true
 ;
+}
 current
 =
 current
@@ -426,9 +430,11 @@ mEnd
 =
 aEnd
 )
+{
 return
 true
 ;
+}
 current
 =
 current

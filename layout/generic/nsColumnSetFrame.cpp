@@ -602,8 +602,10 @@ if
 !
 child
 )
+{
 return
 ;
+}
 nsIFrame
 *
 nextSibling
@@ -620,8 +622,10 @@ if
 !
 nextSibling
 )
+{
 return
 ;
+}
 const
 nsStyleColumn
 *
@@ -646,8 +650,10 @@ if
 !
 ruleWidth
 )
+{
 return
 ;
+}
 WritingMode
 wm
 =

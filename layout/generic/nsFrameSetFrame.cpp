@@ -1094,6 +1094,7 @@ verX
 +
 +
 )
+{
 mVerBorders
 [
 verX
@@ -1101,6 +1102,7 @@ verX
 =
 nullptr
 ;
+}
 mHorBorders
 =
 MakeUnique
@@ -1129,6 +1131,7 @@ horX
 +
 +
 )
+{
 mHorBorders
 [
 horX
@@ -1136,6 +1139,7 @@ horX
 =
 nullptr
 ;
+}
 static_assert
 (
 NS_MAX_FRAMESET_SPEC_COUNT
@@ -2470,6 +2474,7 @@ IsEmpty
 (
 )
 )
+{
 aNewAttr
 .
 Append
@@ -2481,6 +2486,7 @@ char16_t
 )
 )
 ;
+}
 switch
 (
 aSpecs
@@ -4042,10 +4048,12 @@ width
 <
 0
 )
+{
 width
 =
 0
 ;
+}
 height
 -
 =
@@ -4063,10 +4071,12 @@ height
 <
 0
 )
+{
 height
 =
 0
 ;
+}
 HTMLFrameSetElement
 *
 ourContent
@@ -7322,8 +7332,10 @@ widthInPixels
 =
 0
 )
+{
 return
 ;
+}
 ColorPattern
 bgColor
 (
@@ -7619,8 +7631,10 @@ if
 !
 mVisibility
 )
+{
 return
 ;
+}
 if
 (
 widthInPixels

@@ -9833,6 +9833,7 @@ if
 (
 request
 )
+{
 request
 -
 >
@@ -9842,6 +9843,7 @@ GetImageStatus
 imageStatus
 )
 ;
+}
 if
 (
 imageStatus
@@ -10739,6 +10741,7 @@ if
 (
 request
 )
+{
 request
 -
 >
@@ -10748,6 +10751,7 @@ GetImageStatus
 imageStatus
 )
 ;
+}
 if
 (
 imageStatus
@@ -13876,12 +13880,14 @@ x
 <
 0
 )
+{
 p
 .
 x
 =
 0
 ;
+}
 if
 (
 p
@@ -13890,12 +13896,14 @@ y
 <
 0
 )
+{
 p
 .
 y
 =
 0
 ;
+}
 nsAutoCString
 spec
 ;
@@ -14682,9 +14690,11 @@ CompatibilityMode
 (
 )
 )
+{
 return
 false
 ;
+}
 nsBlockFrame
 *
 ancestor

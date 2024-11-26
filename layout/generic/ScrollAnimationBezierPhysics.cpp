@@ -707,6 +707,7 @@ dt
 =
 0
 )
+{
 return
 dxy
 >
@@ -717,6 +718,7 @@ nscoord_MAX
 :
 nscoord_MIN
 ;
+}
 const
 TimeDuration
 oneSecond

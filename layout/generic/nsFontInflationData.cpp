@@ -306,9 +306,11 @@ data
 >
 mInflationEnabled
 )
+{
 return
 true
 ;
+}
 return
 oldInflationEnabled
 &
