@@ -726,6 +726,12 @@ IsSelfEmpty
 override
 ;
 bool
+LinesAreEmpty
+(
+)
+const
+;
+bool
 MarkerIsEmpty
 (
 const
