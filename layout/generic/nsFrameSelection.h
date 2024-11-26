@@ -2726,8 +2726,9 @@ NotApplicable
 }
 ;
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 AutoFrameSelectionBatcher
+final
 {
 public
 :
