@@ -148,6 +148,13 @@ IsSelfEmpty
 )
 override
 ;
+nscoord
+GetCaretBaseline
+(
+)
+const
+override
+;
 FrameSearchResult
 PeekOffsetCharacter
 (
