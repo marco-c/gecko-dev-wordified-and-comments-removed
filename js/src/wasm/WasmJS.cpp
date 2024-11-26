@@ -24638,7 +24638,7 @@ compileArgs_
 Bytes
 envBytes_
 ;
-SectionRange
+BytecodeRange
 codeSection_
 ;
 Bytes

@@ -3537,7 +3537,7 @@ readSectionHeader
 uint8_t
 *
 id
-SectionRange
+BytecodeRange
 *
 range
 )
@@ -3555,7 +3555,7 @@ id
 CodeMetadata
 *
 codeMeta
-MaybeSectionRange
+MaybeBytecodeRange
 *
 range
 const
@@ -3573,7 +3573,7 @@ bool
 finishSection
 (
 const
-SectionRange
+BytecodeRange
 &
 range
 const
@@ -3599,7 +3599,7 @@ expectedLength
 CodeMetadata
 *
 codeMeta
-MaybeSectionRange
+MaybeBytecodeRange
 *
 range
 )
@@ -3629,7 +3629,7 @@ NameSizeWith0
 CodeMetadata
 *
 codeMeta
-MaybeSectionRange
+MaybeBytecodeRange
 *
 range
 )
@@ -3670,7 +3670,7 @@ char
 *
 name
 const
-SectionRange
+BytecodeRange
 &
 range
 )
@@ -3679,7 +3679,7 @@ void
 skipAndFinishCustomSection
 (
 const
-SectionRange
+BytecodeRange
 &
 range
 )

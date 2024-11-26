@@ -13941,7 +13941,7 @@ bool
 BaseCompiler
 :
 :
-atomicWake
+atomicNotify
 (
 MemoryAccessDesc
 *

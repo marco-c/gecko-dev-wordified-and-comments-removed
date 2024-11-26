@@ -6821,7 +6821,7 @@ MOZ_TRY
 CodeMaybe
 <
 mode
-SectionRange
+BytecodeRange
 &
 CodePod
 >

@@ -880,7 +880,7 @@ compilerEnv_
 SharedCode
 partialTieringCode_
 ;
-FuncDefRangeVector
+BytecodeRangeVector
 funcDefRanges_
 ;
 FeatureUsageVector
