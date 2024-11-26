@@ -226,7 +226,7 @@ savedGroups
 ;
 ss
 .
-removeSavedTabGroup
+forgetSavedTabGroup
 (
 group1
 .
@@ -284,7 +284,7 @@ savedGroups
 ;
 ss
 .
-removeSavedTabGroup
+forgetSavedTabGroup
 (
 group2
 .
