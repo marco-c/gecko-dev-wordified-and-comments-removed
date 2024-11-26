@@ -223,6 +223,13 @@ sys
 mjs
 "
 "
+ExtensionUserScripts
+.
+sys
+.
+mjs
+"
+"
 ExtensionUtils
 .
 sys
