@@ -239,7 +239,7 @@ tab
 type
 :
 "
-mouseover
+mousemove
 "
 }
 window
@@ -294,7 +294,7 @@ button
 type
 :
 "
-mouseover
+mousemove
 "
 }
 )
