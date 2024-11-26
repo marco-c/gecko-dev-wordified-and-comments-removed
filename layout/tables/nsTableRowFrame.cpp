@@ -3425,6 +3425,7 @@ if
 !
 isCollapsed
 )
+{
 space
 +
 =
@@ -3436,6 +3437,7 @@ GetColumnISizeFromFirstInFlow
 colIdx
 )
 ;
+}
 }
 if
 (

@@ -517,10 +517,12 @@ if
 !
 cellMap
 )
+{
 return
 -
 1
 ;
+}
 return
 cellMap
 -

@@ -707,8 +707,10 @@ if
 !
 aOldComputedStyle
 )
+{
 return
 ;
+}
 nsTableFrame
 *
 tableFrame
@@ -751,8 +753,10 @@ if
 !
 colCount
 )
+{
 return
 ;
+}
 TableArea
 damageArea
 (
@@ -1402,12 +1406,14 @@ if
 (
 nextGroup
 )
+{
 ResetColIndices
 (
 nextGroup
 colIndex
 )
 ;
+}
 }
 }
 PresShell
@@ -2284,8 +2290,10 @@ if
 !
 indent
 )
+{
 return
 ;
+}
 for
 (
 int32_t
