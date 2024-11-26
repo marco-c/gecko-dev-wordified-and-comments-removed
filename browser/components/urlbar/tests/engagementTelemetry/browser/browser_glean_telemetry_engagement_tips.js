@@ -65,9 +65,9 @@ browser
 .
 urlbar
 .
-scotchBonnet
+quickactions
 .
-enableOverride
+enabled
 "
 false
 ]
