@@ -288,6 +288,7 @@ _decodedFrameCallback
 _timing
 clock_
 field_trials
+nullptr
 )
 _frameTypeCallback
 (
