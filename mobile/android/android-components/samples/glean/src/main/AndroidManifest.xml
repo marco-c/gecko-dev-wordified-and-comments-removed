@@ -168,12 +168,12 @@ permission
 .
 WRITE_EXTERNAL_STORAGE
 "
-tools
+android
 :
-ignore
+maxSdkVersion
 =
 "
-ScopedStorage
+28
 "
 /
 >

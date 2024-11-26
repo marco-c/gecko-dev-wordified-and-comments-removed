@@ -56,6 +56,13 @@ permission
 .
 READ_EXTERNAL_STORAGE
 "
+android
+:
+maxSdkVersion
+=
+"
+32
+"
 /
 >
 <
@@ -72,6 +79,13 @@ android
 permission
 .
 WRITE_EXTERNAL_STORAGE
+"
+android
+:
+maxSdkVersion
+=
+"
+28
 "
 /
 >
