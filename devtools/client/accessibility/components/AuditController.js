@@ -128,7 +128,7 @@ this
 )
 ;
 }
-UNSAFE_componentWillMount
+componentDidMount
 (
 )
 {
@@ -153,11 +153,6 @@ this
 onAudited
 )
 ;
-}
-componentDidMount
-(
-)
-{
 this
 .
 maybeRequestAudit
