@@ -2681,7 +2681,7 @@ NurseryKeysVector
 GCVector
 <
 Value
-0
+4
 SystemAllocPolicy
 >
 ;
