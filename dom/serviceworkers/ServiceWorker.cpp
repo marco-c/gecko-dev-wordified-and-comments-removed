@@ -1024,11 +1024,6 @@ StructuredCloneScope
 :
 :
 SameProcess
-&
-&
-NS_IsMainThread
-(
-)
 )
 {
 data
