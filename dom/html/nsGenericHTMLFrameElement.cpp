@@ -740,6 +740,7 @@ mFrameLoader
 LoadFrame
 (
 origSrc
+true
 )
 ;
 }

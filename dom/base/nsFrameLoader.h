@@ -788,6 +788,8 @@ LoadFrame
 (
 bool
 aOriginalSrc
+bool
+aShouldCheckForRecursion
 )
 ;
 nsresult
@@ -804,6 +806,8 @@ nsIContentSecurityPolicy
 aCsp
 bool
 aOriginalSrc
+bool
+aShouldCheckForRecursion
 )
 ;
 void
@@ -1770,6 +1774,11 @@ mNetworkCreated
 ;
 bool
 mLoadingOriginalSrc
+:
+1
+;
+bool
+mShouldCheckForRecursion
 :
 1
 ;

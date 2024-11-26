@@ -6600,6 +6600,14 @@ SetReferrerInfo
 referrerInfo
 )
 ;
+loadState
+-
+>
+SetShouldCheckForRecursion
+(
+true
+)
+;
 chan
 =
 DocumentChannel

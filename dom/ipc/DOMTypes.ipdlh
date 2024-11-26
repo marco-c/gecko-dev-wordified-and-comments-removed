@@ -922,6 +922,9 @@ bool
 OriginalFrameSrc
 ;
 bool
+ShouldCheckForRecursion
+;
+bool
 IsFormSubmission
 ;
 bool

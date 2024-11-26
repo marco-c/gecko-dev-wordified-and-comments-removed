@@ -1194,6 +1194,10 @@ mLoadingOriginalSrc
 (
 false
 )
+mShouldCheckForRecursion
+(
+false
+)
 mRemoteBrowserShown
 (
 false
@@ -2493,6 +2497,8 @@ LoadFrame
 (
 bool
 aOriginalSrc
+bool
+aShouldCheckForRecursion
 )
 {
 if
@@ -2810,6 +2816,7 @@ uri
 principal
 csp
 aOriginalSrc
+aShouldCheckForRecursion
 )
 ;
 }
@@ -2969,6 +2976,8 @@ nsIContentSecurityPolicy
 aCsp
 bool
 aOriginalSrc
+bool
+aShouldCheckForRecursion
 )
 {
 if
@@ -3009,6 +3018,10 @@ LoadURI
 mLoadingOriginalSrc
 =
 aOriginalSrc
+;
+mShouldCheckForRecursion
+=
+aShouldCheckForRecursion
 ;
 nsCOMPtr
 <
@@ -3141,6 +3154,10 @@ return
 ;
 }
 mLoadingOriginalSrc
+=
+false
+;
+mShouldCheckForRecursion
 =
 false
 ;
@@ -3305,6 +3322,14 @@ loadState
 SetOriginalFrameSrc
 (
 mLoadingOriginalSrc
+)
+;
+loadState
+-
+>
+SetShouldCheckForRecursion
+(
+mShouldCheckForRecursion
 )
 ;
 if
@@ -3763,6 +3788,10 @@ rv
 )
 ;
 mLoadingOriginalSrc
+=
+false
+;
+mShouldCheckForRecursion
 =
 false
 ;
