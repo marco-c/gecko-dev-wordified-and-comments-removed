@@ -182,6 +182,9 @@ new
 -
 tab
 =
+.
+label
+=
 New
 tab
 in
@@ -198,6 +201,9 @@ new
 -
 window
 =
+.
+label
+=
 Move
 group
 to
@@ -213,6 +219,9 @@ action
 -
 save
 =
+.
+label
+=
 Save
 and
 close
@@ -227,6 +236,9 @@ action
 -
 ungroup
 =
+.
+label
+=
 Ungroup
 tabs
 tab
@@ -238,6 +250,9 @@ editor
 action
 -
 delete
+=
+.
+label
 =
 Delete
 group
