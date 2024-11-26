@@ -46,6 +46,17 @@ builder
 (
 )
 .
+filter_level
+(
+log
+:
+:
+LevelFilter
+:
+:
+Warn
+)
+.
 parse_env
 (
 env_logger
