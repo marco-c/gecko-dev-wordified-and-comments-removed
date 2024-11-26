@@ -222,6 +222,10 @@ SetIsBad
 (
 )
 ;
+aElement
+=
+false
+;
 break
 ;
 }

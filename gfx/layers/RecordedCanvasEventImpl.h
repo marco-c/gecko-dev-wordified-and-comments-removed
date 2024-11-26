@@ -935,9 +935,16 @@ mTextureOwnerId
 ;
 OpenMode
 mMode
+=
+OpenMode
+:
+:
+OPEN_NONE
 ;
 bool
 mInvalidContents
+=
+false
 ;
 }
 ;
