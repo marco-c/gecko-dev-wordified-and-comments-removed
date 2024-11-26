@@ -160,6 +160,16 @@ orientation
 "
 vertical
 "
+android
+:
+id
+=
+"
++
+id
+/
+add_on_message_bars
+"
 >
 <
 androidx
