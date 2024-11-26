@@ -156,8 +156,15 @@ sync_buffer
 RandomVector
 random_vector
 ;
+TickTimer
+timer
+;
 StatisticsCalculator
 statistics
+(
+&
+timer
+)
 ;
 Expand
 expand
@@ -251,6 +258,11 @@ kNetEqSyncBufferLengthMs
 test_sample_rate_hz_
 /
 1000
+)
+statistics_
+(
+&
+timer_
 )
 expand_
 (
@@ -443,6 +455,9 @@ sync_buffer_
 ;
 RandomVector
 random_vector_
+;
+TickTimer
+timer_
 ;
 StatisticsCalculator
 statistics_
