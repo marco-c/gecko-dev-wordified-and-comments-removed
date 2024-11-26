@@ -559,7 +559,7 @@ enum
 CleanupCallbackSlot
 =
 0
-IncumbentObjectSlot
+HostDefinedDataSlot
 RecordsToBeCleanedUpSlot
 IsQueuedForCleanupSlot
 DoCleanupFunctionSlot
@@ -591,7 +591,7 @@ const
 ;
 JSObject
 *
-incumbentObject
+getHostDefinedData
 (
 )
 const
