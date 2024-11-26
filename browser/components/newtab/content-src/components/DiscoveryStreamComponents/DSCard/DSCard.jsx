@@ -5269,6 +5269,15 @@ format
 {
 format
 }
+isSectionsCard
+=
+{
+this
+.
+props
+.
+mayHaveSectionsCards
+}
 /
 >
 )
