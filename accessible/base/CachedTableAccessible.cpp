@@ -1805,7 +1805,7 @@ AsLocal
 return
 MakeUnique
 <
-AssociatedElementsIterator
+IDRefsIterator
 >
 (
 localAcc
