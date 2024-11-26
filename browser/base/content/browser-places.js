@@ -2750,7 +2750,6 @@ window
 "
 menuitem
 "
-false
 )
 ;
 undoPopup
