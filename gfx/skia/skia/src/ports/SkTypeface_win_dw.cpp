@@ -1277,6 +1277,11 @@ get
 }
 #
 if
+!
+SK_DISABLE_DIRECTWRITE_COLRv1
+&
+&
+(
 DWRITE_CORE
 |
 |
@@ -1291,6 +1296,7 @@ NTDDI_VERSION
 >
 =
 NTDDI_WIN11_ZN
+)
 )
 if
 (
@@ -1403,6 +1409,11 @@ DWriteFontTypeface
 {
 #
 if
+!
+SK_DISABLE_DIRECTWRITE_COLRv1
+&
+&
+(
 DWRITE_CORE
 |
 |
@@ -1417,6 +1428,7 @@ NTDDI_VERSION
 >
 =
 NTDDI_WIN11_ZN
+)
 )
 if
 (
