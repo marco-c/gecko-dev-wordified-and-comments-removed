@@ -40,9 +40,7 @@ crate
 frame_builder
 :
 :
-{
 FrameBuildingState
-}
 ;
 use
 crate

@@ -209,9 +209,7 @@ crate
 prepare
 :
 :
-{
 prepare_primitives
-}
 ;
 use
 crate
@@ -345,9 +343,7 @@ crate
 resource_cache
 :
 :
-{
 ResourceCache
-}
 ;
 use
 crate

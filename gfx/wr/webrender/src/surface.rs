@@ -52,9 +52,7 @@ crate
 prim_store
 :
 :
-{
 PictureIndex
-}
 ;
 use
 crate

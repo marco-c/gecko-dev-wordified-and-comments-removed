@@ -1,3 +1,11 @@
+#
+!
+[
+allow
+(
+non_camel_case_types
+)
+]
 use
 api
 :
@@ -212,9 +220,7 @@ freetype
 freetype
 :
 :
-{
 FT_FACE_FLAG_MULTIPLE_MASTERS
-}
 ;
 use
 freetype

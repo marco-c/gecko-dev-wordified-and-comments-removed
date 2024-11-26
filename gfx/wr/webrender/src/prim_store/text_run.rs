@@ -121,9 +121,7 @@ crate
 renderer
 :
 :
-{
 MAX_VERTEX_TEXTURE_WIDTH
-}
 ;
 use
 crate
@@ -132,9 +130,7 @@ crate
 resource_cache
 :
 :
-{
 ResourceCache
-}
 ;
 use
 crate
@@ -143,9 +139,7 @@ crate
 util
 :
 :
-{
 MatrixHelpers
-}
 ;
 use
 crate

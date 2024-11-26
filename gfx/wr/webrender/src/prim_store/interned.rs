@@ -57,9 +57,7 @@ prim_store
 line_dec
 :
 :
-{
 LineDecoration
-}
 ;
 pub
 use

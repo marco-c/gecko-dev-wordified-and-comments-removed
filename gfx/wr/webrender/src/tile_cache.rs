@@ -50,9 +50,7 @@ crate
 internal_types
 :
 :
-{
 FastHashMap
-}
 ;
 use
 crate

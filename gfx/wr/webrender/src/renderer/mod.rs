@@ -164,9 +164,7 @@ crate
 batch
 :
 :
-{
 ClipMaskInstanceList
-}
 ;
 #
 [
@@ -251,9 +249,7 @@ crate
 composite
 :
 :
-{
 TileKind
-}
 ;
 use
 crate
@@ -557,9 +553,7 @@ crate
 render_target
 :
 :
-{
 ResolveOp
-}
 ;
 use
 crate
@@ -568,9 +562,7 @@ crate
 render_task_graph
 :
 :
-{
 RenderTaskGraph
-}
 ;
 use
 crate

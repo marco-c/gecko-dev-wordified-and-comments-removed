@@ -34,9 +34,7 @@ crate
 box_shadow
 :
 :
-{
 BoxShadowCacheKey
-}
 ;
 use
 crate
