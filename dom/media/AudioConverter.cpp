@@ -1323,9 +1323,8 @@ aFrames
 }
 else
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 Unsupported
 data
@@ -2203,9 +2202,8 @@ sampR
 }
 else
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 Unsupported
 data
@@ -2433,9 +2431,8 @@ sample
 }
 else
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 Unsupported
 data
@@ -2608,9 +2605,8 @@ outframes
 }
 else
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 Unsupported
 data
@@ -3056,9 +3052,8 @@ aFrames
 }
 else
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 Unsupported
 data
@@ -3266,9 +3261,8 @@ sample
 }
 else
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 Unsupported
 data

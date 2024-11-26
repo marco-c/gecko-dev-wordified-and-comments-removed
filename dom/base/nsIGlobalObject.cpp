@@ -1588,9 +1588,8 @@ ServiceWorkerDescriptor
 aDescriptor
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 this
 global
@@ -1629,9 +1628,8 @@ aDescriptor
 )
 const
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 this
 global

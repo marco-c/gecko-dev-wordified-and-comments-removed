@@ -2913,9 +2913,8 @@ ClonedErrorHolder
 "
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 Failed
 to
@@ -3008,9 +3007,8 @@ aRetval
 )
 ;
 }
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 Unexpected
 API
@@ -3304,9 +3302,8 @@ Failed
 ;
 }
 }
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 Unexpected
 API
@@ -3540,9 +3537,8 @@ exn
 return
 ;
 }
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 Unexpected
 API

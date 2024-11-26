@@ -125,9 +125,8 @@ queue
 "
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 Already
 on
@@ -326,9 +325,8 @@ queue
 "
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 Already
 on

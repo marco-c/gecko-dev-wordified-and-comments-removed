@@ -1004,9 +1004,8 @@ IsPreProcessed
 continue
 ;
 }
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 Duplicate
 display

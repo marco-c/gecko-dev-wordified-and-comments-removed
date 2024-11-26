@@ -199,9 +199,8 @@ SurfaceFormat
 :
 A8R8G8B8
 :
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 A8R8G8B8
 unsupported
@@ -215,9 +214,8 @@ kRGBA_8888_SkColorType
 ;
 default
 :
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 Unknown
 surface
