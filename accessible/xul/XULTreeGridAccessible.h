@@ -756,9 +756,6 @@ virtual
 void
 DispatchClickEvent
 (
-nsIContent
-*
-aContent
 uint32_t
 aActionIndex
 )

@@ -2307,11 +2307,6 @@ aStringOut
 void
 DoCommand
 (
-nsIContent
-*
-aContent
-=
-nullptr
 uint32_t
 aActionIndex
 =
@@ -2324,9 +2319,6 @@ virtual
 void
 DispatchClickEvent
 (
-nsIContent
-*
-aContent
 uint32_t
 aActionIndex
 )
