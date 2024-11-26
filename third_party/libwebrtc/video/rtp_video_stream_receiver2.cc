@@ -3418,10 +3418,11 @@ video_header
 .
 frame_instrumentation_data
 =
-std
-:
-:
-nullopt
+ConvertCorruptionDetectionMessageToFrameInstrumentationSyncData
+(
+message
+last_corruption_detection_index_
+)
 ;
 }
 else
