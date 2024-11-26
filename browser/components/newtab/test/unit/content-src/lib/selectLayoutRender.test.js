@@ -453,6 +453,10 @@ pos
 1
 }
 ]
+sections
+:
+[
+]
 }
 }
 )
@@ -861,7 +865,7 @@ lastUpdated
 spocs
 :
 {
-spocs
+newtab_spocs
 :
 {
 items
@@ -1340,6 +1344,10 @@ bar
 "
 }
 ]
+sections
+:
+[
+]
 }
 )
 ;
@@ -1437,7 +1445,7 @@ lastUpdated
 spocs
 :
 {
-spocs
+newtab_spocs
 :
 {
 items
@@ -3423,7 +3431,7 @@ lastUpdated
 spocs
 :
 {
-spocs
+newtab_spocs
 :
 {
 items
