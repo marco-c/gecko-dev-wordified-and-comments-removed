@@ -1,3 +1,13 @@
+#
+[
+allow
+(
+clippy
+:
+:
+wrong_self_convention
+)
+]
 pub
 trait
 AsEndMutPtr
