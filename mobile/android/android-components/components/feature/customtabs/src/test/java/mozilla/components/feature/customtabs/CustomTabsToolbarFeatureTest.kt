@@ -4449,9 +4449,6 @@ never
 .
 addMenuButton
 (
-anyInt
-(
-)
 )
 verify
 (
@@ -4623,9 +4620,6 @@ feature
 .
 addMenuButton
 (
-anyInt
-(
-)
 )
 val
 captor

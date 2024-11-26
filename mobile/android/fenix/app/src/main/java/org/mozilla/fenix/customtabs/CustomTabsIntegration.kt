@@ -1052,6 +1052,15 @@ context
 =
 context
 )
+feature
+.
+updateMenuVisibility
+(
+isVisible
+=
+!
+isNavBarVisible
+)
 }
 }
 VisibleForTesting
