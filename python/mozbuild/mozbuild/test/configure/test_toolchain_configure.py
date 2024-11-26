@@ -171,6 +171,18 @@ gnu99
 :
 DEFAULT_C99
 }
+SUPPORTS_GNU17
+=
+{
+"
+-
+std
+=
+gnu17
+"
+:
+DEFAULT_C17
+}
 SUPPORTS_GNUXX11
 =
 {
@@ -540,7 +552,7 @@ GCC
 "
 )
 +
-DEFAULT_C11
+DEFAULT_C17
 GXX_8
 =
 GXX
@@ -1005,6 +1017,8 @@ CLANG
 )
 +
 DEFAULT_C11
++
+SUPPORTS_GNU17
 CLANGXX_8_0
 =
 CLANGXX
@@ -1123,6 +1137,8 @@ __apple_build_version__
 )
 XCODE_CLANG_8_0
 =
+(
+    
 CLANG
 (
 "
@@ -1136,6 +1152,8 @@ CLANG
 +
 DEFAULT_C11
 +
+SUPPORTS_GNU17
++
 {
 "
 __apple_build_version__
@@ -1145,6 +1163,7 @@ __apple_build_version__
 1
 "
 }
+)
 XCODE_CLANGXX_8_0
 =
 (
@@ -1591,7 +1610,7 @@ VS
 DEFAULT_C11
     
 +
-SUPPORTS_GNU99
+SUPPORTS_GNU17
     
 +
 SUPPORTS_GNUXX11
@@ -3223,17 +3242,6 @@ GCC_8_RESULT
 CompilerResult
 (
         
-flags
-=
-[
-"
--
-std
-=
-gnu99
-"
-]
-        
 version
 =
 "
@@ -3503,7 +3511,7 @@ flags
 -
 std
 =
-gnu99
+gnu17
 "
 ]
         
@@ -6288,7 +6296,7 @@ flags
 -
 std
 =
-gnu99
+gnu17
 "
 ]
         
@@ -7286,7 +7294,7 @@ Xclang
 -
 std
 =
-gnu99
+gnu17
 "
 ]
         
@@ -11869,7 +11877,7 @@ flags
 -
 std
 =
-gnu99
+gnu17
 "
 ]
         

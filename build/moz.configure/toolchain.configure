@@ -3693,6 +3693,9 @@ compiler
 language
 )
 )
+c17_version
+=
+201710
 if
 info
 .
@@ -3708,7 +3711,7 @@ info
 language_version
 !
 =
-199901
+c17_version
 :
 if
 info
@@ -3739,7 +3742,7 @@ append
 -
 std
 =
-gnu99
+gnu17
 "
 )
 cxx17_version
