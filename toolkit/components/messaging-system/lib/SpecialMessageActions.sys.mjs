@@ -1493,6 +1493,13 @@ enabled
 "
 browser
 .
+shell
+.
+checkDefaultBrowser
+"
+"
+browser
+.
 shopping
 .
 experience2023

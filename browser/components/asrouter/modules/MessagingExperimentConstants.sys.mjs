@@ -358,6 +358,9 @@ page
 pbNewtab
 "
 "
+setToDefaultPrompt
+"
+"
 spotlight
 "
 "
