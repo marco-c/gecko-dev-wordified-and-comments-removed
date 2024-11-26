@@ -202,6 +202,15 @@ h
 #
 include
 "
+call
+/
+payload_type
+.
+h
+"
+#
+include
+"
 media
 /
 base
@@ -454,6 +463,9 @@ dependencies
 ConnectionContext
 *
 context
+PayloadTypeSuggester
+*
+pt_suggester
 )
 ;
 void
@@ -1017,6 +1029,9 @@ dependencies
 ConnectionContext
 *
 context
+PayloadTypeSuggester
+*
+pt_suggester
 )
 ;
 rtc
