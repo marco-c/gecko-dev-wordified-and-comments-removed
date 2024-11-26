@@ -1544,13 +1544,6 @@ BaselineExportContext
 const
 override
 ;
-nscoord
-GetCaretBaseline
-(
-)
-const
-override
-;
 bool
 HasSignificantTerminalNewline
 (
