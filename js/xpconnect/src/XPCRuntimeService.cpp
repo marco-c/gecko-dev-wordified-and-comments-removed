@@ -113,6 +113,15 @@ BackstagePass
 (
 )
 :
+mAgentClusterId
+(
+nsID
+:
+:
+GenerateUUID
+(
+)
+)
 mPrincipal
 (
 nsContentUtils
