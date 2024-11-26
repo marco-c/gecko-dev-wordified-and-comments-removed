@@ -176,8 +176,6 @@ CanGo
 (
 int32_t
 aOffset
-bool
-aRequireUserInteraction
 )
 ;
 void

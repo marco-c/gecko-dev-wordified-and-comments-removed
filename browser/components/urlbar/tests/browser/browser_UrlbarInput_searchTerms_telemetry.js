@@ -879,7 +879,6 @@ linkedBrowser
 .
 goBack
 (
-false
 )
 ;
 await
