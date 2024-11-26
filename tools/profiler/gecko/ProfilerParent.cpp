@@ -2434,13 +2434,11 @@ NS_IsMainThread
 )
 ;
 static
-UniquePtr
+StaticAutoPtr
 <
 ProfilerParentTracker
 >
 instance
-=
-nullptr
 ;
 if
 (
@@ -2468,10 +2466,8 @@ nullptr
 }
 instance
 =
-MakeUnique
-<
+new
 ProfilerParentTracker
->
 (
 )
 ;
