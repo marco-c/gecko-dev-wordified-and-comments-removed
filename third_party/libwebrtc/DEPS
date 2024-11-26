@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-952981ffa901056e8fc781e3e24efe52dbed940c
+8de985d3df439e27a216fef59bea28b39daa2643
 '
 #
 Fetch
@@ -1149,7 +1149,7 @@ project
 libunwind
 .
 git
-b7cdacaadbc4d121081ad6b146c7e94acec4c7ff
+37c7d984b0b8520a0f99c6e6bbb0514e9996edc8
 '
 '
 src
@@ -1932,7 +1932,7 @@ tools
 depot_tools
 .
 git
-6dec85272d23ae587984cdd78eae428ce3b2ad9b
+cc39a5681f48f42e8f0d16b9979bd3085c93de0a
 '
 '
 src
@@ -2983,7 +2983,7 @@ external
 perfetto
 .
 git
-077bb360edecb33551e88c8097035e4b8cef245b
+226197a61ac2b08b3860b5c73f8411ba0ba43947
 '
 '
 src
