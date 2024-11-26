@@ -433,16 +433,6 @@ View
 :
 FullScreen
 "
-oncommand
-=
-"
-BrowserCommands
-.
-fullScreen
-(
-)
-;
-"
 /
 >
 <
