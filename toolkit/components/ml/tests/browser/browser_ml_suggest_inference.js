@@ -4,11 +4,6 @@ strict
 "
 ;
 const
-ITERATIONS
-=
-1
-;
-const
 PREFIX
 =
 "
