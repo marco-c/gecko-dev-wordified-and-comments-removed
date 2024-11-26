@@ -263,6 +263,15 @@ optional
 <
 int64_t
 >
+last_sender_report_timestamp_ms
+;
+std
+:
+:
+optional
+<
+int64_t
+>
 last_sender_report_utc_timestamp_ms
 ;
 std

@@ -469,6 +469,16 @@ false
 struct
 SenderReportStats
 {
+Timestamp
+last_arrival_timestamp
+=
+Timestamp
+:
+:
+Zero
+(
+)
+;
 NtpTime
 last_arrival_ntp_timestamp
 ;
