@@ -192,14 +192,6 @@ taskgraph
 .
 util
 .
-time
-import
-json_time_from_now
-from
-taskgraph
-.
-util
-.
 yaml
 import
 load_yaml
@@ -4148,15 +4140,20 @@ expiry
 "
 ]
 =
-json_time_from_now
-(
+{
+"
+relative
+-
+datestamp
+"
+:
 file_config
 [
 "
 expiry
 "
 ]
-)
+}
         
 if
 not
@@ -5169,9 +5166,14 @@ expiry
 "
 ]
 =
-json_time_from_now
-(
+{
                         
+"
+relative
+-
+datestamp
+"
+:
 file_config
 [
 "
@@ -5179,7 +5181,7 @@ expiry
 "
 ]
                     
-)
+}
                 
 kwargs
 .
