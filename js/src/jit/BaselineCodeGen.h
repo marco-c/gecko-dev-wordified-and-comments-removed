@@ -1711,6 +1711,14 @@ cx
 )
 ;
 bool
+finishCompile
+(
+JSContext
+*
+cx
+)
+;
+bool
 compileDebugInstrumentation
 (
 )
