@@ -169,6 +169,13 @@ js
 ]
 [
 "
+browser_sidebar_remote
+.
+js
+"
+]
+[
+"
 browser_syncedtabs_sidebar
 .
 js
