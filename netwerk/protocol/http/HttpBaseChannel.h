@@ -4185,11 +4185,6 @@ TracingEnabled
 )
 (
 uint32_t
-TimingEnabled
-1
-)
-(
-uint32_t
 ReportTiming
 1
 )

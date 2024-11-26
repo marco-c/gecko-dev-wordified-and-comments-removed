@@ -542,13 +542,6 @@ RecordTime
 (
 )
 ;
-if
-(
-LoadTimingEnabled
-(
-)
-)
-{
 MOZ_DIAGNOSTIC_ASSERT
 (
 !
@@ -559,7 +552,6 @@ IsNull
 )
 )
 ;
-}
 StoreIsPending
 (
 true

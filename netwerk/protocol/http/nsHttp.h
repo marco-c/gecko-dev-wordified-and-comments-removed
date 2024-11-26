@@ -300,15 +300,6 @@ NS_HTTP_LOAD_ANONYMOUS
 )
 #
 define
-NS_HTTP_TIMING_ENABLED
-(
-1
-<
-<
-5
-)
-#
-define
 NS_HTTP_LOAD_AS_BLOCKING
 (
 1
