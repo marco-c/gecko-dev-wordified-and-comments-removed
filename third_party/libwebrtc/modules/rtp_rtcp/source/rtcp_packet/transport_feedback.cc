@@ -3147,10 +3147,7 @@ Calculated
 "
 <
 <
-ToLogString
-(
 timestamp
-)
 <
 <
 "
@@ -3160,10 +3157,7 @@ Saved
 "
 <
 <
-ToLogString
-(
 last_timestamp_
-)
 ;
 return
 false

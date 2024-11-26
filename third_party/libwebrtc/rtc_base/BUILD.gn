@@ -2068,6 +2068,10 @@ stringutils
 timeutils
 "
 "
+:
+type_traits
+"
+"
 .
 .
 /
@@ -2430,6 +2434,10 @@ deps
 "
 :
 safe_compare
+"
+"
+:
+type_traits
 "
 "
 .
