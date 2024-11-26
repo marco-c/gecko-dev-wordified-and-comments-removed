@@ -20,6 +20,13 @@ RTCMacros
 .
 h
 "
+typedef
+NS_ENUM
+(
+NSInteger
+RTCRtpTransceiverDirection
+)
+;
 NS_ASSUME_NONNULL_BEGIN
 RTC_OBJC_EXPORT
 interface
@@ -59,6 +66,13 @@ isPreferredEncrypted
 )
 BOOL
 preferredEncrypted
+;
+property
+(
+nonatomic
+)
+RTCRtpTransceiverDirection
+direction
 ;
 -
 (
