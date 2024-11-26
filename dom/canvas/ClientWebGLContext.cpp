@@ -285,13 +285,6 @@ h
 #
 include
 "
-WebGLFormats
-.
-h
-"
-#
-include
-"
 WebGLMethodDispatcher
 .
 h

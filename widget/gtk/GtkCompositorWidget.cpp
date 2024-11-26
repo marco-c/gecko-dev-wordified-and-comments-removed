@@ -909,9 +909,6 @@ GetMozContainer
 ;
 mNativeLayerRoot
 =
-layers
-:
-:
 NativeLayerRootWayland
 :
 :

@@ -48,6 +48,13 @@ WebGLTypes
 .
 h
 "
+#
+include
+"
+WebGLFormats
+.
+h
+"
 namespace
 mozilla
 {
@@ -75,9 +82,6 @@ Sequence
 namespace
 webgl
 {
-struct
-FormatRenderableState
-;
 class
 FormatUsageAuthority
 ;
@@ -983,7 +987,6 @@ webgl
 :
 :
 FormatRenderableState
-&
 )
 ;
 void
@@ -1026,7 +1029,6 @@ webgl
 :
 :
 FormatRenderableState
-&
 )
 ;
 void

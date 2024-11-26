@@ -93,6 +93,17 @@ include
 "
 mozilla
 /
+layers
+/
+WebRenderMessageUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 webrender
 /
 WebRenderTypes
