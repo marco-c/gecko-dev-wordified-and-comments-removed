@@ -1105,7 +1105,7 @@ mMakeWholeDocumentEditable
 doc
 -
 >
-SetEditableFlag
+SetDocumentEditableFlag
 (
 true
 )
@@ -2030,7 +2030,7 @@ mMakeWholeDocumentEditable
 doc
 -
 >
-SetEditableFlag
+SetDocumentEditableFlag
 (
 false
 )

@@ -9600,6 +9600,12 @@ ErrorResult
 rv
 )
 ;
+void
+SetDocumentEditableFlag
+(
+bool
+)
+;
 MOZ_CAN_RUN_SCRIPT
 bool
 ExecCommand
