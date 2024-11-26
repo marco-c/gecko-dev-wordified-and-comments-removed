@@ -420,7 +420,7 @@ baseline
 -
 metrics
 -
-dau
+usage
 -
 reporting
 telemetry_mirror
@@ -682,7 +682,7 @@ baseline
 -
 metrics
 -
-dau
+usage
 -
 reporting
 no_lint
