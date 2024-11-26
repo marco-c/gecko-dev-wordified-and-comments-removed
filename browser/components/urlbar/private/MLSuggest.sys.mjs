@@ -220,6 +220,9 @@ timeoutMS
 :
 -
 1
+numThreads
+:
+2
 }
 ;
 NER_OPTIONS
@@ -252,6 +255,9 @@ timeoutMS
 :
 -
 1
+numThreads
+:
+2
 }
 ;
 /
