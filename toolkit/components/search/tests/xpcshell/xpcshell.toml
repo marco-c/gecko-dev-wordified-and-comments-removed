@@ -1311,6 +1311,13 @@ js
 ]
 [
 "
+test_userInstalledAppEngine
+.
+js
+"
+]
+[
+"
 test_validate_engines
 .
 js
