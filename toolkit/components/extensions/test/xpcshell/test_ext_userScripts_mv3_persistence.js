@@ -1625,6 +1625,9 @@ const
 expectedScriptsInContent
 =
 {
+isUserScript
+:
+true
 allFrames
 :
 true
