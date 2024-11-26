@@ -1841,6 +1841,15 @@ aBounds
 )
 const
 ;
+void
+ApplyVisualViewportOffset
+(
+nsRect
+&
+aBounds
+)
+const
+;
 LayoutDeviceIntRect
 BoundsWithOffset
 (
