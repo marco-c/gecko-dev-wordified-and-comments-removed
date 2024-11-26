@@ -3013,7 +3013,7 @@ if
 !
 media_receiver_info
 .
-last_sender_report_timestamp_ms
+last_sender_report_utc_timestamp_ms
 .
 has_value
 (
@@ -3060,7 +3060,7 @@ Millis
 *
 media_receiver_info
 .
-last_sender_report_timestamp_ms
+last_sender_report_utc_timestamp_ms
 )
 )
 ;
@@ -3150,7 +3150,7 @@ RTC_DCHECK
 (
 media_receiver_info
 .
-last_sender_report_remote_timestamp_ms
+last_sender_report_remote_utc_timestamp_ms
 .
 has_value
 (
@@ -3170,7 +3170,7 @@ double
 *
 media_receiver_info
 .
-last_sender_report_remote_timestamp_ms
+last_sender_report_remote_utc_timestamp_ms
 )
 ;
 stats

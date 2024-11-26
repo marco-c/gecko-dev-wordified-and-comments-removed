@@ -2079,7 +2079,7 @@ capture_time_ntp_secs
 last_sr
 -
 >
-last_remote_timestamp
+last_remote_ntp_timestamp
 .
 seconds
 (
@@ -2092,7 +2092,7 @@ capture_time_ntp_frac
 last_sr
 -
 >
-last_remote_timestamp
+last_remote_ntp_timestamp
 .
 fractions
 (
@@ -6615,7 +6615,7 @@ CurrentNtpInMilliseconds
 last_sr
 -
 >
-last_arrival_timestamp
+last_arrival_ntp_timestamp
 .
 ToMs
 (
@@ -6638,7 +6638,7 @@ rtt
 last_sr
 -
 >
-last_remote_timestamp
+last_remote_ntp_timestamp
 last_sr
 -
 >

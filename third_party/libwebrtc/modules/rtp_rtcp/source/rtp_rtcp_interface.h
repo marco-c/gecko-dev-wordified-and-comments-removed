@@ -470,10 +470,10 @@ struct
 SenderReportStats
 {
 NtpTime
-last_arrival_timestamp
+last_arrival_ntp_timestamp
 ;
 NtpTime
-last_remote_timestamp
+last_remote_ntp_timestamp
 ;
 uint32_t
 last_remote_rtp_timestamp

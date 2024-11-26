@@ -1630,7 +1630,7 @@ rtcp_receiver_lock_
 ;
 remote_sender_
 .
-last_arrival_timestamp
+last_arrival_ntp_timestamp
 .
 Reset
 (
@@ -2193,7 +2193,7 @@ if
 !
 remote_sender_
 .
-last_arrival_timestamp
+last_arrival_ntp_timestamp
 .
 Valid
 (
@@ -3261,7 +3261,7 @@ kRtcpSr
 ;
 remote_sender_
 .
-last_remote_timestamp
+last_remote_ntp_timestamp
 =
 sender_report
 .
@@ -3281,7 +3281,7 @@ rtp_timestamp
 ;
 remote_sender_
 .
-last_arrival_timestamp
+last_arrival_ntp_timestamp
 =
 env_
 .

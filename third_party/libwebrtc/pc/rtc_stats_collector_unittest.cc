@@ -5849,7 +5849,7 @@ receivers
 0
 ]
 .
-last_sender_report_timestamp_ms
+last_sender_report_utc_timestamp_ms
 =
 kRemoteOutboundStatsTimestampMs
 ;
@@ -5860,7 +5860,7 @@ receivers
 0
 ]
 .
-last_sender_report_remote_timestamp_ms
+last_sender_report_remote_utc_timestamp_ms
 =
 kRemoteOutboundStatsRemoteTimestampMs
 ;
