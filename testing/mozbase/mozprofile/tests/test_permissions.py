@@ -361,7 +361,7 @@ user_prefs
 )
 =
 =
-5
+6
     
 assert
 user_prefs
@@ -475,6 +475,26 @@ dns
 force_use_https_rr
 "
 True
+)
+    
+assert
+user_prefs
+[
+5
+]
+=
+=
+(
+"
+network
+.
+dns
+.
+https_rr
+.
+check_record_with_cname
+"
+False
 )
 if
 __name__
