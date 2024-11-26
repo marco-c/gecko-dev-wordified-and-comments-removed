@@ -26,7 +26,6 @@ zerovec
 [
 repr
 (
-C
 packed
 )
 ]
@@ -187,7 +186,6 @@ c
 [
 repr
 (
-C
 packed
 )
 ]
