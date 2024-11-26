@@ -2815,11 +2815,8 @@ apply
 val
 layout
 =
-LayoutInflater
-.
-from
+getLayoutInflater
 (
-context
 )
 .
 inflate
