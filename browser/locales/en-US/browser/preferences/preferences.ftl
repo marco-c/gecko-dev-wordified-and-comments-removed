@@ -1682,7 +1682,7 @@ windows
 accesskey
 =
 w
-confirm
+ask
 -
 on
 -
@@ -1695,7 +1695,7 @@ tabs
 .
 label
 =
-Confirm
+Ask
 before
 closing
 multiple
@@ -1748,7 +1748,7 @@ the
 File
 menu
 .
-confirm
+ask
 -
 on
 -
@@ -1761,7 +1761,7 @@ key
 .
 label
 =
-Confirm
+Ask
 before
 quitting
 with

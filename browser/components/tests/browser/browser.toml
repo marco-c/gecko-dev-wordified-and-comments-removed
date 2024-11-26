@@ -179,6 +179,13 @@ https_first_disabled
 true
 [
 "
+browser_quit_close_current_tab
+.
+js
+"
+]
+[
+"
 browser_quit_disabled
 .
 js

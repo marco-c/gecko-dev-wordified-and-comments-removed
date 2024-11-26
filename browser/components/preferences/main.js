@@ -1955,7 +1955,7 @@ warnOnQuitKey
 "
 )
 "
-confirm
+ask
 -
 on
 -

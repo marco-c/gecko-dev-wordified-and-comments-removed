@@ -436,6 +436,16 @@ BUTTON_POS_0
 const
 unsigned
 long
+BUTTON_POS_1_IS_SECONDARY
+=
+1
+<
+<
+29
+;
+const
+unsigned
+long
 STD_OK_CANCEL_BUTTONS
 =
 (
