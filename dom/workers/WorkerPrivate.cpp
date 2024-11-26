@@ -12280,7 +12280,10 @@ GenerateUUID
 return
 {
 agentClusterId
-agentClusterCoop
+nsILoadInfo
+:
+:
+OPENER_POLICY_SAME_ORIGIN_EMBEDDER_POLICY_REQUIRE_CORP
 }
 ;
 }
@@ -28698,9 +28701,6 @@ true
 }
 if
 (
-mIsChromeWorker
-|
-|
 mIsPrivilegedAddonGlobal
 )
 {
