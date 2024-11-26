@@ -23745,11 +23745,8 @@ atomicPause
 (
 )
 {
-MOZ_CRASH
+nop
 (
-"
-NYI
-"
 )
 ;
 }
