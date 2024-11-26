@@ -313,7 +313,7 @@ frame_type
 override
 {
 return
-FrameToRender
+OnFrameToRender
 (
 {
 .
@@ -341,7 +341,7 @@ frame_type
 ;
 }
 int32_t
-FrameToRender
+OnFrameToRender
 (
 const
 struct

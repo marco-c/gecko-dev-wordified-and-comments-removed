@@ -203,7 +203,7 @@ frame_type
 ;
 virtual
 int32_t
-FrameToRender
+OnFrameToRender
 (
 const
 struct

@@ -213,7 +213,7 @@ frame_type
 override
 ;
 int32_t
-FrameToRender
+OnFrameToRender
 (
 const
 struct
