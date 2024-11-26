@@ -7342,6 +7342,7 @@ seed
 =
 0
 )
+{
 seed
 =
 -
@@ -7353,16 +7354,19 @@ m1
 +
 1
 ;
+}
 if
 (
 seed
 >
 m1
 )
+{
 seed
 =
 m1
 ;
+}
 switch
 (
 aAttributes

@@ -719,10 +719,12 @@ aStartOther
 =
 aStart
 )
+{
 aStart
 =
 aStartOther
 ;
+}
 aLength
 =
 std

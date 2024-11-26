@@ -1626,6 +1626,7 @@ if
 (
 imageLoader
 )
+{
 imageLoader
 -
 >
@@ -1641,10 +1642,12 @@ currentRequest
 )
 )
 ;
+}
 if
 (
 currentRequest
 )
+{
 currentRequest
 -
 >
@@ -1656,6 +1659,7 @@ mImageContainer
 )
 )
 ;
+}
 }
 if
 (
