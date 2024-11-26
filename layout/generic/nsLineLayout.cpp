@@ -7432,6 +7432,7 @@ blockFrame
 >
 MarkerIsEmpty
 (
+aFrame
 )
 )
 {

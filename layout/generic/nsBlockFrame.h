@@ -719,6 +719,10 @@ override
 bool
 MarkerIsEmpty
 (
+const
+nsIFrame
+*
+aMarker
 )
 const
 ;
@@ -735,12 +739,6 @@ NS_BLOCK_HAS_MARKER
 )
 ;
 }
-bool
-HasInsideMarker
-(
-)
-const
-;
 bool
 HasOutsideMarker
 (
