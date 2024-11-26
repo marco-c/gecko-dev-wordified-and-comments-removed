@@ -87,6 +87,14 @@ free_fill_byte
 handle_sigill
 =
 1
+:
+handle_abort
+=
+1
+:
+handle_sigtrap
+=
+1
 "
 "
 :
