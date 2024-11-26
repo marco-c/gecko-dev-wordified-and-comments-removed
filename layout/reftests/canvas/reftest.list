@@ -441,12 +441,6 @@ winWidget
 -
 256
 )
-fails
--
-if
-(
-cocoaWidget
-)
 =
 =
 text
@@ -736,12 +730,6 @@ ref
 .
 html
 random
--
-if
-(
-!
-winWidget
-)
 !
 =
 text
