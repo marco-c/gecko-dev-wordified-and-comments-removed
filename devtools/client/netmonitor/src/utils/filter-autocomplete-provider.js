@@ -118,6 +118,12 @@ request
 .
 status
 )
+String
+(
+request
+.
+earlyHintsStatus
+)
 )
 ;
 break

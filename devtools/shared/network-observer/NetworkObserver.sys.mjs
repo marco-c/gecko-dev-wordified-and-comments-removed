@@ -2996,6 +2996,11 @@ proxyResponseRawHeaders
 httpActivity
 .
 proxyResponseRawHeaders
+earlyHintsResponseRawHeaders
+:
+httpActivity
+.
+earlyHintsResponseRawHeaders
 }
 )
 ;
@@ -4118,7 +4123,7 @@ ACTIVITY_SUBTYPE_EARLYHINT_RESPONSE_HEADER
 :
 httpActivity
 .
-earlyHintResponseRawHeaders
+earlyHintsResponseRawHeaders
 =
 extraStringData
 ;

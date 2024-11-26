@@ -1470,6 +1470,7 @@ rawHeaders
 "
 "
 proxyResponseRawHeaders
+earlyHintsResponseRawHeaders
 }
 )
 {
@@ -1809,6 +1810,16 @@ isFileChannel
 channel
 .
 responseStatusText
+earlyHintsStatus
+:
+earlyHintsResponseRawHeaders
+?
+"
+103
+"
+:
+"
+"
 waitingTime
 isResolvedByTRR
 :

@@ -666,6 +666,9 @@ method
 url
 "
 "
+earlyHintsStatus
+"
+"
 remotePort
 "
 "
@@ -1650,6 +1653,9 @@ SUPPORTED_HTTP_CODES
 "
 "
 101
+"
+"
+103
 "
 "
 200

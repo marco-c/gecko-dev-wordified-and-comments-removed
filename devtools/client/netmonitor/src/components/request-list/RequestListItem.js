@@ -983,6 +983,9 @@ mimeType
 eventTimings
 "
 "
+earlyHintsStatus
+"
+"
 securityState
 "
 "

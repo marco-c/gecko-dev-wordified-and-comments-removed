@@ -1148,6 +1148,14 @@ statusText
 ;
 resourceUpdates
 .
+earlyHintsStatus
+=
+updateResource
+.
+earlyHintsStatus
+;
+resourceUpdates
+.
 remoteAddress
 =
 updateResource
