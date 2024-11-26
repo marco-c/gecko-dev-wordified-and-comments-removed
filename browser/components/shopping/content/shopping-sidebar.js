@@ -98,6 +98,13 @@ type
 "
 content
 "
+messagemanagergroup
+=
+"
+shopping
+-
+sidebar
+"
 /
 >
 ;
