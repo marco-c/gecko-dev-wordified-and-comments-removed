@@ -931,6 +931,17 @@ scoped_refptr
 /
 rtc_base
 :
+buffer
+"
+"
+.
+.
+/
+.
+.
+/
+rtc_base
+:
 checks
 "
 "

@@ -45,6 +45,7 @@ EncodedImageBuffer
 :
 Create
 (
+1
 )
 ;
 webrtc
@@ -200,6 +201,7 @@ EncodedImageBuffer
 :
 Create
 (
+1
 )
 ;
 webrtc
