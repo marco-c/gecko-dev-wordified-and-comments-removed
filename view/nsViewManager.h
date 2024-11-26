@@ -313,16 +313,6 @@ aVisible
 )
 ;
 void
-SetViewFloating
-(
-nsView
-*
-aView
-bool
-aFloatingView
-)
-;
-void
 SetPresShell
 (
 mozilla
