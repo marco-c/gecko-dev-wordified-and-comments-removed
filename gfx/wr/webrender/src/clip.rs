@@ -8047,11 +8047,7 @@ radius
 {
 radius
 .
-is_uniform
-(
-)
-.
-is_some
+all_sides_uniform
 (
 )
 }
