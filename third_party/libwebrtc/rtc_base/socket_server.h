@@ -89,7 +89,6 @@ SetMessageQueue
 (
 Thread
 *
-queue
 )
 {
 }
