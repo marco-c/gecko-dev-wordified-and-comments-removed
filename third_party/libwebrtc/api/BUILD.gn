@@ -7825,6 +7825,11 @@ function_view_unittest
 cc
 "
 "
+jsep_unittest
+.
+cc
+"
+"
 rtc_error_unittest
 .
 cc
@@ -7976,6 +7981,14 @@ checks
 rtc_base
 :
 gunit_helpers
+"
+"
+.
+.
+/
+rtc_base
+:
+logging
 "
 "
 .
