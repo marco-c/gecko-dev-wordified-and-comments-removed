@@ -2621,7 +2621,7 @@ FireResizeEventSync
 )
 ;
 void
-NativeAnonymousContentWillBeRemoved
+NativeAnonymousContentRemoved
 (
 nsIContent
 *

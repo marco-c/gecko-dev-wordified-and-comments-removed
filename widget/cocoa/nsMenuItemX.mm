@@ -2008,6 +2008,9 @@ aContainer
 nsIContent
 *
 aChild
+nsIContent
+*
+aPreviousSibling
 )
 {
 MOZ_RELEASE_ASSERT

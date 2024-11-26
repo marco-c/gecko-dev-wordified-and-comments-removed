@@ -2645,9 +2645,10 @@ GetPresShell
 ps
 -
 >
-ContentWillBeRemoved
+ContentRemoved
 (
 mViewTransitionRoot
+nullptr
 )
 ;
 }

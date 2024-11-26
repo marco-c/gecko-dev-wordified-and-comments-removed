@@ -1530,7 +1530,7 @@ mAnonymousContent
 mPresShell
 -
 >
-NativeAnonymousContentWillBeRemoved
+NativeAnonymousContentRemoved
 (
 content
 )

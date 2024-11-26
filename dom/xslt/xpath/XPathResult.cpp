@@ -588,11 +588,14 @@ void
 XPathResult
 :
 :
-ContentWillBeRemoved
+ContentRemoved
 (
 nsIContent
 *
 aChild
+nsIContent
+*
+aPreviousSibling
 )
 {
 Invalidate

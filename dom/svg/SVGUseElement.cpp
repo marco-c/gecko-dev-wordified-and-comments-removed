@@ -448,7 +448,7 @@ kContentAppended
 |
 kContentInserted
 |
-kContentWillBeRemoved
+kContentRemoved
 |
 kNodeWillBeDestroyed
 )
@@ -1229,11 +1229,14 @@ void
 SVGUseElement
 :
 :
-ContentWillBeRemoved
+ContentRemoved
 (
 nsIContent
 *
 aChild
+nsIContent
+*
+aPreviousSibling
 )
 {
 if

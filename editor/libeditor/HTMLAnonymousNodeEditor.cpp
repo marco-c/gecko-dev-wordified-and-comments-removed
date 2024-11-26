@@ -1096,9 +1096,10 @@ siblings
 aPresShell
 -
 >
-ContentWillBeRemoved
+ContentRemoved
 (
 aContent
+nullptr
 )
 ;
 }

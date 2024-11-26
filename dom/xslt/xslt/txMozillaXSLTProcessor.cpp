@@ -5213,11 +5213,14 @@ void
 txMozillaXSLTProcessor
 :
 :
-ContentWillBeRemoved
+ContentRemoved
 (
 nsIContent
 *
 aChild
+nsIContent
+*
+aPreviousSibling
 )
 {
 mStylesheet

@@ -7272,6 +7272,10 @@ const
 Element
 &
 aElement
+const
+nsIContent
+*
+aFollowingSibling
 )
 {
 Servo_StyleSet_MaybeInvalidateRelativeSelectorForRemoval
@@ -7283,6 +7287,7 @@ get
 )
 &
 aElement
+aFollowingSibling
 )
 ;
 }

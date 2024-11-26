@@ -1447,11 +1447,14 @@ void
 HTMLSelectEventListener
 :
 :
-ContentWillBeRemoved
+ContentRemoved
 (
 nsIContent
 *
 aChild
+nsIContent
+*
+aPreviousSibling
 )
 {
 if

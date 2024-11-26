@@ -2031,11 +2031,14 @@ void
 TableRowsCollection
 :
 :
-ContentWillBeRemoved
+ContentRemoved
 (
 nsIContent
 *
 aChild
+nsIContent
+*
+aPreviousSibling
 )
 {
 if

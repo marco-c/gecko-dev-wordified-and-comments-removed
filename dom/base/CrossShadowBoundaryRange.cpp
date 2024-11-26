@@ -723,11 +723,14 @@ void
 CrossShadowBoundaryRange
 :
 :
-ContentWillBeRemoved
+ContentRemoved
 (
 nsIContent
 *
 aChild
+nsIContent
+*
+aPreviousSibling
 )
 {
 MOZ_DIAGNOSTIC_ASSERT
@@ -898,6 +901,7 @@ MaybeCreateNewBoundary
 [
 container
 aChild
+aPreviousSibling
 ]
 (
 const
@@ -944,12 +948,7 @@ RawRangeBoundary
 (
 {
 container
-aChild
--
->
-GetPreviousSibling
-(
-)
+aPreviousSibling
 }
 )
 ;

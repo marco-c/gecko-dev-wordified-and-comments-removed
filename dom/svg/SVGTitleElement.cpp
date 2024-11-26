@@ -124,7 +124,7 @@ kContentAppended
 |
 kContentInserted
 |
-kContentWillBeRemoved
+kContentRemoved
 )
 ;
 }
@@ -186,11 +186,14 @@ void
 SVGTitleElement
 :
 :
-ContentWillBeRemoved
+ContentRemoved
 (
 nsIContent
 *
 aChild
+nsIContent
+*
+aPreviousSibling
 )
 {
 SendTitleChangeEvent
@@ -298,8 +301,6 @@ bool
 aBound
 )
 {
-if
-(
 Document
 *
 doc
@@ -307,6 +308,10 @@ doc
 GetUncomposedDoc
 (
 )
+;
+if
+(
+doc
 )
 {
 doc
