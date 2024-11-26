@@ -237,9 +237,7 @@ third_party
 /
 libwebrtc
 /
-modules
-/
-audio_coding
+api
 /
 neteq
 /
