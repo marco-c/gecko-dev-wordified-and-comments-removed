@@ -241,6 +241,12 @@ wpt
 metadata
 .
 yml
+-
+wpt
+-
+unittest
+.
+yml
 task
 -
 defaults
