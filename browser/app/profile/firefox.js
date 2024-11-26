@@ -14314,7 +14314,7 @@ fxaccounts
 contextParam
 "
 "
-oauth_webchannel_v1
+fx_desktop_v3
 "
 )
 ;
@@ -14329,7 +14329,7 @@ oauth
 .
 enabled
 "
-true
+false
 )
 ;
 pref
