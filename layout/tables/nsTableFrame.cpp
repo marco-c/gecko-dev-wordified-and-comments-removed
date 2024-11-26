@@ -2324,8 +2324,6 @@ true
 )
 ;
 }
-else
-{
 return
 tableCellMap
 -
@@ -2336,7 +2334,6 @@ rowIndex
 colIndex
 )
 ;
-}
 }
 int32_t
 nsTableFrame
@@ -2408,8 +2405,6 @@ colIndex
 )
 ;
 }
-else
-{
 return
 tableCellMap
 -
@@ -2420,7 +2415,6 @@ rowIndex
 colIndex
 )
 ;
-}
 }
 bool
 nsTableFrame

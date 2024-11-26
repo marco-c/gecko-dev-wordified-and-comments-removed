@@ -4653,8 +4653,6 @@ aTableFrame
 )
 ;
 }
-else
-{
 return
 new
 (
@@ -4666,7 +4664,6 @@ aStyle
 aTableFrame
 )
 ;
-}
 }
 NS_IMPL_FRAMEARENA_HELPERS
 (
