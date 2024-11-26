@@ -2809,11 +2809,14 @@ R
 string
 .
 browser_menu_open_in_fenix
+stringResource
+(
 R
 .
 string
 .
 app_name
+)
 )
 tint
 =
