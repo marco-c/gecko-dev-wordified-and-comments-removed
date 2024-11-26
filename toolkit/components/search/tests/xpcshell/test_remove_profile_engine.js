@@ -5,6 +5,13 @@ function
 (
 )
 {
+await
+SearchTestUtils
+.
+initXPCShellAddonManager
+(
+)
+;
 SearchTestUtils
 .
 setRemoteSettingsConfig

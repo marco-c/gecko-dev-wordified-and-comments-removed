@@ -2509,12 +2509,6 @@ url
 element
 .
 textContent
-isPreferred
-:
-width
-=
-=
-16
 size
 :
 width
