@@ -697,9 +697,6 @@ type
 "
 <
 <
-(
-int
-)
 aUpdate
 .
 mType
@@ -711,9 +708,6 @@ mode
 "
 <
 <
-(
-int
-)
 aUpdate
 .
 mScrollMode
@@ -725,9 +719,6 @@ origin
 "
 <
 <
-(
-int
-)
 aUpdate
 .
 mScrollOrigin
