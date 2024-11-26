@@ -466,9 +466,11 @@ if
 !
 mElement
 )
+{
 return
 nullptr
 ;
+}
 DeclarationBlock
 *
 declaration
