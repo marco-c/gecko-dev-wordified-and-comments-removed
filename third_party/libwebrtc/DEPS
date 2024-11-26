@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-3b70d6f26cf7a1f53bcf227a621506727653902f
+a49e44e2c91e5c801506ff38686f428ce6a3ce37
 '
 #
 Fetch
@@ -222,9 +222,9 @@ version
 :
 24
 .
-20240906
+20240927
 .
-3
+1
 .
 1
 '
@@ -372,11 +372,11 @@ re_client_version
 :
 0
 .
-163
+164
 .
 0
 .
-d27158ab
+76480e37
 -
 gomaip
 '
@@ -435,7 +435,7 @@ ninja_version
 '
 version
 :
-2
+3
 1
 .
 12
@@ -506,7 +506,7 @@ chromium
 src
 /
 base
-7f2a56694b330c2cb2954eee78469ffc69952448
+dc2b59cbcda6fc3e9cf68fd4c768c0be87561c0d
 '
 '
 src
@@ -530,7 +530,7 @@ chromium
 src
 /
 build
-8e0612cd2c4e4d7c15a456384760815bdbd64ef1
+9b11bd3a6a523134ac35bcc9d1f59d04cc6f5821
 '
 '
 src
@@ -554,7 +554,7 @@ chromium
 src
 /
 buildtools
-e4f992c0660e6cee637c7b97aabf04d0a58d5555
+7f979120bfa80658a4e48c596e9de989477b3311
 '
 #
 Gradle
@@ -650,7 +650,7 @@ chromium
 src
 /
 ios
-8e01efd2a9dba90f0094ed0fa908a6e907410d74
+35b4a08423198c7083274ea400fb8540e53b47f1
 '
 '
 condition
@@ -682,7 +682,7 @@ chromium
 src
 /
 testing
-3f4138fcb15362469527d9310e21600dfdfab691
+f0e6c7d37ba892fc76ada7ee8ea72a0a2d020bba
 '
 '
 src
@@ -706,7 +706,7 @@ chromium
 src
 /
 third_party
-27c9b4efc25d7ae5479b884a7d818058c6066d92
+264b412a76e03bc9127fb2be7c2814b22b037bd3
 '
 '
 src
@@ -747,7 +747,7 @@ version
 '
 git_revision
 :
-20806f79c6b4ba295274e3a589d85db41a02fdaa
+95b0f8fe31a992a33c040bbe3867901335c12762
 '
 }
 ]
@@ -805,7 +805,7 @@ version
 '
 git_revision
 :
-20806f79c6b4ba295274e3a589d85db41a02fdaa
+95b0f8fe31a992a33c040bbe3867901335c12762
 '
 }
 ]
@@ -859,7 +859,7 @@ version
 '
 git_revision
 :
-20806f79c6b4ba295274e3a589d85db41a02fdaa
+95b0f8fe31a992a33c040bbe3867901335c12762
 '
 }
 ]
@@ -1070,7 +1070,7 @@ project
 libcxx
 .
 git
-887f732df07adac7a67997ff0a91baa12081e5a2
+e2d898ca22f1d5863d8f6a7a0df849109483e05f
 '
 '
 src
@@ -1111,7 +1111,7 @@ project
 libcxxabi
 .
 git
-29b2e9a0f48688da116692cb04758393053d269c
+d0c57cb48fb5709f02096f411d65a11cbc722944
 '
 '
 src
@@ -1149,7 +1149,7 @@ project
 libunwind
 .
 git
-dc70138c3e68e2f946585f134e20815851e26263
+9846aba7d4b6d13b28b870bf70d1951ab3b6ce78
 '
 '
 src
@@ -1537,7 +1537,7 @@ version
 '
 :
 '
-fNCLAzE8NSvOXTryvUGT3NmX8no8lyRHR1yfY0zbv8YC
+YE3pEw2WCnBXxGYzRUWClmkwiGF1u9FtWzN_NpztxlgC
 '
 }
 ]
@@ -1703,7 +1703,7 @@ com
 boringssl
 .
 git
-e724ef02089bf2bb494203231fc5cb62acc2fad6
+72a60506ded3407454d6ddc1d848c266020c0c82
 '
 '
 src
@@ -1755,7 +1755,7 @@ com
 catapult
 .
 git
-296226a4a0067c8cffeb8831fb87526a8035f3cc
+b952ef48c38e2a78bdc8761b6ecab0e6bfaf0e8b
 '
 '
 src
@@ -1932,7 +1932,7 @@ tools
 depot_tools
 .
 git
-d43a3eb748e40838c41e7a3ca53a3c6cbee0ea7a
+2c16d7f80b2316f7294114e1d774245b79f1f2d4
 '
 '
 src
@@ -1960,7 +1960,7 @@ third_party
 ffmpeg
 .
 git
-91903c28af60a732a051c343b496e1188eec9b05
+30735bb16a66e84d6324b5858eef314822b6d419
 '
 '
 src
@@ -2326,7 +2326,7 @@ google
 googletest
 .
 git
-0953a17a4281fc26831da647ad3fcd5e21e6473b
+6dae7eb4a5c3a169f3e298392bff4680224aa94a
 '
 '
 src
@@ -2632,11 +2632,9 @@ version
 '
 :
 '
-b48PGccyaRl9kI3MLdJ36I
+sM4BDDeBT0q8
 -
-z5Zcj9NOCjsUg02Bl
--
-EIC
+CGW_b8KvNMIyDvVB4r6GCaTIkC51lMC
 '
 }
 ]
@@ -2688,9 +2686,7 @@ version
 '
 :
 '
-PKwXlOC2iNJx0ELcmUpSTk0GHbNMEM
--
-HZwhs2AWl1WUC
+sWflNFi1lIChwNkfw5cn9pvABtOAVLcuUQMHvx9s0ccC
 '
 }
 ]
@@ -2886,7 +2882,7 @@ videolan
 dav1d
 .
 git
-6b3c489a2ee2c030f351f21987c27611b4cbe725
+a7a40a3fde967f227d1ab00370141c491bc8e638
 '
 '
 src
@@ -2914,7 +2910,7 @@ com
 aom
 .
 git
-d5265b173616ce62de231cd1b1eae853ad03641e
+3177866cdd22b0d1392e80681e907b68850903ea
 '
 '
 src
@@ -2985,7 +2981,7 @@ external
 perfetto
 .
 git
-97a5d7ed4d7ddb3844a5cbd184e241b99fe6ebcc
+b0c45bb46cc35ce7d64dcd971f4f51ef9f94ad86
 '
 '
 src
@@ -3055,7 +3051,7 @@ webm
 libvpx
 .
 git
-fbf63dff1f528d44f24bd662abb89fd01a4a1c25
+09b3d5fc5aa48752f95f4c0c37b0bd4ff55c0ba1
 '
 '
 src
@@ -3081,7 +3077,7 @@ libyuv
 libyuv
 .
 git
-874f391dbf13dcc84e13a494daed57539ffe2935
+77f3acade492a41a11a07a55b58a6f8180b898eb
 '
 '
 src
@@ -3352,13 +3348,7 @@ version
 '
 :
 '
-mqzE1g
--
-dbf23PQ04w
--
-4TpmupGkMOnZljVa993
--
-MkzhIC
+fPtOVFF2pWq045gaoD8_EIc8Kg9zbgBc6ydnAE7ATicC
 '
 }
 ]
@@ -3446,9 +3436,9 @@ version
 '
 :
 '
-vw5kLlW3
+yEomA
 -
-suSlCKSO9OQpFWpR8oDnvQ8k1RgKNUapQYC
+IPmb_JtuiEvwgtxRHtSEaICkDY1sDko_rQGO0C
 '
 }
 ]
@@ -3536,7 +3526,7 @@ chromium
 src
 /
 tools
-453f7ad001cd0d341ecb437eb164fd6c4b5cc08d
+a78b3e1101890f68baaa9f737db2b8883b48c75e
 '
 '
 src
@@ -3731,10 +3721,9 @@ version
 '
 :
 '
+3
 -
-HPg6kSZtheePVbklOqBtMGHIYS9d0uoR7S
--
-NfR5kGoC
+zFsZXBqCk_7AGLOqS53gb2vatfs72IsA9TdrYDHpEC
 '
 }
 ]
@@ -3792,9 +3781,9 @@ version
 '
 :
 '
-JnUHT3SsYpv4WBlOV5VrBkuj2Q9SJ3cXlNHZ
+nF0aNBggEihalcCW3jCKPV8O
 -
-u78L5IC
+xsiz2xTWqzRjbCLyIYC
 '
 }
 ]
@@ -4176,7 +4165,7 @@ version
 '
 :
 '
-aLKJszAm9PXh5T9KNcDH0MQJeEAIpEiFAYVEimlKdDsC
+jgDuyha_VOnbWcvPhoSVjeQWyIfb_WwGGzpBQOhrFZsC
 '
 }
 ]
@@ -4238,7 +4227,7 @@ version
 '
 git_revision
 :
-1aca70b6bf116c1bd8fbf0526c9a89e9be308718
+cb4b10bea51ea74dbdfeb6d377481c884ab23db8
 '
 }
 {
@@ -4268,7 +4257,7 @@ version
 '
 git_revision
 :
-1aca70b6bf116c1bd8fbf0526c9a89e9be308718
+cb4b10bea51ea74dbdfeb6d377481c884ab23db8
 '
 }
 ]
@@ -6378,11 +6367,11 @@ version
 2
 1
 .
-11
+13
 .
 0
 -
-beta01
+alpha05
 .
 cr1
 '
