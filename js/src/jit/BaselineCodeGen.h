@@ -1607,6 +1607,11 @@ return
 baseWarmUpThreshold_
 ;
 }
+void
+maybeDisableIon
+(
+)
+;
 }
 ;
 using
