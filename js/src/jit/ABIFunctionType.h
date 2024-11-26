@@ -50,6 +50,9 @@ Float32
 Float64
 =
 0x5
+Void
+=
+0x6
 }
 ;
 const
