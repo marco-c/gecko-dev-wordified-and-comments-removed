@@ -736,6 +736,8 @@ build_platform
 :
 win64
 -
+aarch64
+-
 shippable
 treeherder
 :
