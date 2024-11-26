@@ -3156,7 +3156,11 @@ MapObjectGet
 JSContext
 *
 cx
-HandleObject
+Handle
+<
+MapObject
+*
+>
 obj
 HandleValue
 key
