@@ -1320,6 +1320,12 @@ if
 useCounterCallback
 )
 {
+JS
+:
+:
+AutoSuppressGCAnalysis
+suppress
+;
 (
 *
 useCounterCallback
