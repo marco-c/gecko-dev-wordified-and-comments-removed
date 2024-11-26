@@ -6371,11 +6371,6 @@ RTCTransformEvent
 .
 webidl
 "
-"
-WebrtcGlobalInformation
-.
-webidl
-"
 ]
 if
 CONFIG
