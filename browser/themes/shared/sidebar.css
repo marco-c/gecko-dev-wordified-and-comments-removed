@@ -276,6 +276,12 @@ shadow
 :
 none
 ;
+max
+-
+width
+:
+75vw
+;
 &
 :
 not
@@ -991,7 +997,7 @@ splitter
 -
 width
 :
-6px
+4px
 ;
 transition
 :

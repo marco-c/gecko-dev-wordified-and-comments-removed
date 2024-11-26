@@ -1122,7 +1122,7 @@ style
 .
 order
 "
-2
+3
 "
 "
 Sidebar
@@ -1132,7 +1132,7 @@ have
 an
 order
 of
-2
+3
 when
 on
 the
@@ -1259,7 +1259,7 @@ style
 .
 order
 "
-4
+5
 "
 "
 Sidebar
@@ -1269,7 +1269,7 @@ have
 an
 order
 of
-4
+5
 when
 on
 the

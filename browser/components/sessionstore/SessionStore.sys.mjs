@@ -29968,6 +29968,13 @@ SidebarController
 sidebarContainer
 .
 hidden
+launcherWidth
+:
+aWindow
+.
+SidebarController
+.
+launcherWidth
 }
 )
 ;
