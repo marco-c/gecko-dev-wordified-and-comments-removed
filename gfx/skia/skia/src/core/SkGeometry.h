@@ -40,6 +40,19 @@ h
 #
 include
 "
+include
+/
+private
+/
+base
+/
+SkFloatingPoint
+.
+h
+"
+#
+include
+"
 src
 /
 base
@@ -1100,7 +1113,7 @@ w
 {
 if
 (
-SkScalarIsFinite
+SkIsFinite
 (
 w
 )
@@ -1121,7 +1134,7 @@ w
 0
 &
 &
-SkScalarIsFinite
+SkIsFinite
 (
 w
 )

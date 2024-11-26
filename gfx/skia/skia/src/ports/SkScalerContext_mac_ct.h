@@ -219,6 +219,9 @@ glyph
 SkPath
 *
 path
+bool
+*
+modified
 )
 override
 ;

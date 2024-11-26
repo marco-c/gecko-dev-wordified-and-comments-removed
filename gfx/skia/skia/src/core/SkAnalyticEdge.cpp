@@ -2417,10 +2417,6 @@ SkPoint
 p1
 )
 {
-fRiteE
-=
-nullptr
-;
 const
 int
 accuracy
@@ -3041,10 +3037,6 @@ pts
 ]
 )
 {
-fRiteE
-=
-nullptr
-;
 if
 (
 !
@@ -3595,10 +3587,6 @@ bool
 sortY
 )
 {
-fRiteE
-=
-nullptr
-;
 if
 (
 !

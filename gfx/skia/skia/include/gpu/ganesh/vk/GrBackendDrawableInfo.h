@@ -11,6 +11,8 @@ include
 /
 gpu
 /
+ganesh
+/
 GrTypes
 .
 h
@@ -21,6 +23,8 @@ include
 include
 /
 gpu
+/
+ganesh
 /
 vk
 /

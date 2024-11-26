@@ -24,6 +24,11 @@ cmath
 #
 include
 <
+cstring
+>
+#
+include
+<
 limits
 >
 static

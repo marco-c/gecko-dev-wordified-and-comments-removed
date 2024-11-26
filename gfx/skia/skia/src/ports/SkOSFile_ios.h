@@ -59,6 +59,16 @@ CFBundleGetMainBundle
 (
 )
 ;
+if
+(
+!
+mainBundle
+)
+{
+return
+false
+;
+}
 sk_cfp
 <
 CFURLRef

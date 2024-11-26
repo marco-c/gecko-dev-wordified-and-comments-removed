@@ -2887,7 +2887,7 @@ isFinite
 const
 {
 return
-SkScalarsAreFinite
+SkIsFinite
 (
 fMat
 16

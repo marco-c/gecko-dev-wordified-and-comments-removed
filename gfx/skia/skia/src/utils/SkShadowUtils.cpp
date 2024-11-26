@@ -183,6 +183,19 @@ private
 /
 base
 /
+SkFloatingPoint
+.
+h
+"
+#
+include
+"
+include
+/
+private
+/
+base
+/
 SkTPin
 .
 h
@@ -2030,8 +2043,6 @@ asRRect
 (
 rrect
 nullptr
-nullptr
-nullptr
 )
 ;
 }
@@ -3295,7 +3306,7 @@ isFinite
 )
 &
 &
-SkScalarIsFinite
+SkIsFinite
 (
 rec
 .

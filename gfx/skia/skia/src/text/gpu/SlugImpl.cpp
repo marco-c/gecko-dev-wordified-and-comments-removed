@@ -371,15 +371,6 @@ client
 alloc
 )
 ;
-SkASSERT
-(
-buffer
-.
-isValid
-(
-)
-)
-;
 if
 (
 !

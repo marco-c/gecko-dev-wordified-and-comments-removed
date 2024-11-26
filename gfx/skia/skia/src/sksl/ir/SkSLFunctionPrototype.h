@@ -74,8 +74,6 @@ const
 FunctionDeclaration
 *
 declaration
-bool
-builtin
 )
 :
 INHERITED
@@ -86,10 +84,6 @@ kIRNodeKind
 fDeclaration
 (
 declaration
-)
-fBuiltin
-(
-builtin
 )
 {
 }
@@ -104,16 +98,6 @@ const
 return
 *
 fDeclaration
-;
-}
-bool
-isBuiltin
-(
-)
-const
-{
-return
-fBuiltin
 ;
 }
 std
@@ -149,9 +133,6 @@ const
 FunctionDeclaration
 *
 fDeclaration
-;
-bool
-fBuiltin
 ;
 using
 INHERITED

@@ -141,6 +141,14 @@ __riscv
 !
 defined
 (
+__powerpc__
+)
+\
+&
+&
+!
+defined
+(
 __loongarch__
 )
 \

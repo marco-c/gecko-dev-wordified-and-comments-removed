@@ -155,6 +155,8 @@ SkGlyph
 &
 SkPath
 *
+bool
+*
 )
 override
 ;

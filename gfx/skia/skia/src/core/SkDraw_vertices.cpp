@@ -2172,7 +2172,7 @@ vertexCount
 if
 (
 !
-SkScalarsAreFinite
+SkIsFinite
 (
 (
 const

@@ -1056,7 +1056,10 @@ const
 float
 scale
 =
-sk_float_sqrt
+std
+:
+:
+sqrt
 (
 scaleSize
 .
@@ -1088,7 +1091,7 @@ scale
 |
 |
 !
-SkScalarIsFinite
+SkIsFinite
 (
 scale
 )
@@ -1124,7 +1127,7 @@ f
 if
 (
 !
-SkScalarIsFinite
+SkIsFinite
 (
 L
 )

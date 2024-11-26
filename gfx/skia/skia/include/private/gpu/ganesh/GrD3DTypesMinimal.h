@@ -29,6 +29,8 @@ include
 /
 gpu
 /
+ganesh
+/
 GrTypes
 .
 h
@@ -128,7 +130,7 @@ const
 if
 defined
 (
-GR_TEST_UTILS
+GPU_TEST_UTILS
 )
 bool
 operator

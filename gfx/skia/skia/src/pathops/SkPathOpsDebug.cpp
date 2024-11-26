@@ -2879,7 +2879,7 @@ debugID
 if
 (
 !
-SkScalarIsNaN
+SkIsNaN
 (
 glitch
 .
@@ -2904,7 +2904,7 @@ fStartT
 if
 (
 !
-SkScalarIsNaN
+SkIsNaN
 (
 glitch
 .
@@ -2955,7 +2955,7 @@ debugID
 if
 (
 !
-SkScalarIsNaN
+SkIsNaN
 (
 glitch
 .
@@ -2980,7 +2980,7 @@ fOppStartT
 if
 (
 !
-SkScalarIsNaN
+SkIsNaN
 (
 glitch
 .
@@ -3005,7 +3005,7 @@ fOppEndT
 if
 (
 !
-SkScalarIsNaN
+SkIsNaN
 (
 glitch
 .
@@ -3016,7 +3016,7 @@ fX
 |
 |
 !
-SkScalarIsNaN
+SkIsNaN
 (
 glitch
 .

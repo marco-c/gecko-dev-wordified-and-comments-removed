@@ -33,6 +33,8 @@ include
 /
 gpu
 /
+ganesh
+/
 GrBackendSurface
 .
 h

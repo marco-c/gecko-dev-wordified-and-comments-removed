@@ -685,10 +685,10 @@ appendf
 x
 |
 %
-1d
+1u
 |
 %
-1d
+1u
 "
 this
 -
@@ -2617,6 +2617,8 @@ SkPath
 path
 bool
 hairline
+bool
+modified
 )
 ;
 bool
@@ -2642,6 +2644,12 @@ const
 ;
 bool
 pathIsHairline
+(
+)
+const
+;
+bool
+pathIsModified
 (
 )
 const
@@ -3045,6 +3053,12 @@ fHairline
 false
 }
 ;
+bool
+fModified
+{
+false
+}
+;
 }
 ;
 struct
@@ -3115,6 +3129,8 @@ SkPath
 path
 bool
 hairline
+bool
+modified
 )
 ;
 void

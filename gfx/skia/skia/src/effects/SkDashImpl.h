@@ -99,7 +99,7 @@ const
 override
 ;
 DashType
-onAsADash
+asADash
 (
 DashInfo
 *

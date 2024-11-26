@@ -170,10 +170,6 @@ unique_ptr
 Expression
 >
 value
-bool
-isClone
-=
-false
 )
 :
 INHERITED
@@ -207,10 +203,6 @@ move
 value
 )
 )
-fIsClone
-(
-isClone
-)
 {
 }
 ~
@@ -222,10 +214,6 @@ override
 if
 (
 fVar
-&
-&
-!
-fIsClone
 )
 {
 fVar
@@ -514,9 +502,6 @@ unique_ptr
 Expression
 >
 fValue
-;
-bool
-fIsClone
 ;
 using
 INHERITED

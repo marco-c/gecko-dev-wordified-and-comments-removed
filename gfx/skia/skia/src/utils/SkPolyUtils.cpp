@@ -538,7 +538,7 @@ vdotv
 return
 !
 (
-SkScalarsAreFinite
+SkIsFinite
 (
 v
 .
@@ -1705,7 +1705,7 @@ SK_ScalarNearlyZero
 |
 |
 !
-SkScalarIsFinite
+SkIsFinite
 (
 inset
 )
@@ -2504,7 +2504,7 @@ v2
 if
 (
 !
-SkScalarIsFinite
+SkIsFinite
 (
 rCos
 )
@@ -2527,7 +2527,7 @@ v2
 if
 (
 !
-SkScalarIsFinite
+SkIsFinite
 (
 rSin
 )
@@ -6647,7 +6647,7 @@ false
 if
 (
 !
-SkScalarIsFinite
+SkIsFinite
 (
 offset
 )
@@ -8455,15 +8455,9 @@ height
 if
 (
 !
-SkScalarIsFinite
+SkIsFinite
 (
 width
-)
-|
-|
-!
-SkScalarIsFinite
-(
 height
 )
 )
@@ -8489,7 +8483,7 @@ height
 if
 (
 !
-SkScalarIsFinite
+SkIsFinite
 (
 hCount
 )

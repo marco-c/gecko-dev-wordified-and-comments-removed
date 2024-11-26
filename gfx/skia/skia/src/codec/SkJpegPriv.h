@@ -76,6 +76,7 @@ h
 struct
 skjpeg_error_mgr
 :
+public
 jpeg_error_mgr
 {
 class
@@ -142,6 +143,17 @@ fJmpBuf
 ;
 }
 ;
+skjpeg_error_mgr
+(
+)
+:
+jpeg_error_mgr
+(
+{
+}
+)
+{
+}
 void
 push
 (

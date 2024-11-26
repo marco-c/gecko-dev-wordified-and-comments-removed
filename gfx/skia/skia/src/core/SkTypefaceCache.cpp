@@ -570,7 +570,7 @@ face
 p
 typefaceID
 %
-d
+u
 weight
 %
 d

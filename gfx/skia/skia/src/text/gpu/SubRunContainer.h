@@ -96,9 +96,6 @@ class
 SkWriteBuffer
 ;
 struct
-SkIRect
-;
-struct
 SkPoint
 ;
 struct
@@ -166,6 +163,9 @@ h
 "
 class
 GrClip
+;
+struct
+SkIRect
 ;
 namespace
 skgpu
@@ -241,6 +241,12 @@ bool
 isLCD
 =
 false
+;
+skgpu
+:
+:
+MaskFormat
+maskFormat
 ;
 }
 ;

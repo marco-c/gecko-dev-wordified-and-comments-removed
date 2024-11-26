@@ -12,7 +12,7 @@ string
 namespace
 SkSL
 {
-bool
+void
 SPIRVtoHLSL
 (
 const

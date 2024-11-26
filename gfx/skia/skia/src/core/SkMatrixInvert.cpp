@@ -138,7 +138,7 @@ invdet
 if
 (
 !
-SkScalarsAreFinite
+SkIsFinite
 (
 outMatrix
 4
@@ -445,7 +445,7 @@ invdet
 if
 (
 !
-SkScalarsAreFinite
+SkIsFinite
 (
 outMatrix
 9
@@ -1118,7 +1118,7 @@ b00
 if
 (
 !
-SkScalarsAreFinite
+SkIsFinite
 (
 outMatrix
 16

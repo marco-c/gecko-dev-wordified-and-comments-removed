@@ -60,7 +60,7 @@ count
 )
 {
 return
-SkScalarsAreFinite
+SkIsFinite
 (
 &
 array
@@ -106,7 +106,7 @@ dy
 )
 {
 return
-SkScalarsAreFinite
+SkIsFinite
 (
 dx
 dy

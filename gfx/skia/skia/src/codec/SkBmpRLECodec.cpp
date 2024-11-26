@@ -602,7 +602,7 @@ colorTable
 i
 ]
 =
-SkPackARGB32NoCheck
+SkPackARGB32
 (
 0xFF
 0

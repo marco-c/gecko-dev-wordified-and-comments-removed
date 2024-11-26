@@ -9,11 +9,6 @@ include
 <
 cstdint
 >
-#
-include
-<
-vector
->
 namespace
 sktext
 {

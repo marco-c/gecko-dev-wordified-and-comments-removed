@@ -44,6 +44,17 @@ include
 /
 core
 /
+SkFourByteTag
+.
+h
+"
+#
+include
+"
+include
+/
+core
+/
 SkPath
 .
 h

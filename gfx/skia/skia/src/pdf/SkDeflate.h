@@ -15,6 +15,16 @@ SkStream
 .
 h
 "
+#
+include
+<
+cstddef
+>
+#
+include
+<
+memory
+>
 class
 SkDeflateWStream
 final

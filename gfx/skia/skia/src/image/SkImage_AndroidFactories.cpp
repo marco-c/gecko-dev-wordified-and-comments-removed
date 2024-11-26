@@ -193,6 +193,8 @@ include
 /
 gpu
 /
+ganesh
+/
 GrBackendSurface
 .
 h
@@ -203,6 +205,8 @@ include
 include
 /
 gpu
+/
+ganesh
 /
 GrContextThreadSafeProxy
 .
@@ -215,6 +219,8 @@ include
 /
 gpu
 /
+ganesh
+/
 GrDirectContext
 .
 h
@@ -226,6 +232,8 @@ include
 /
 gpu
 /
+ganesh
+/
 GrRecordingContext
 .
 h
@@ -236,6 +244,8 @@ include
 include
 /
 gpu
+/
+ganesh
 /
 GrTypes
 .
@@ -442,6 +452,19 @@ gpu
 ganesh
 /
 GrDirectContextPriv
+.
+h
+"
+#
+include
+"
+src
+/
+gpu
+/
+ganesh
+/
+GrDrawingManager
 .
 h
 "

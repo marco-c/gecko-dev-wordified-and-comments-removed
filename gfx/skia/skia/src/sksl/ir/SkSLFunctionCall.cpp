@@ -7747,6 +7747,12 @@ arguments
 clone
 (
 )
+this
+-
+>
+stablePointer
+(
+)
 )
 ;
 }
@@ -9607,6 +9613,7 @@ move
 (
 arguments
 )
+nullptr
 )
 ;
 }

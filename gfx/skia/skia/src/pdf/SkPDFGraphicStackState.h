@@ -61,8 +61,16 @@ SkClipStack
 .
 h
 "
+#
+include
+<
+cstdint
+>
 class
 SkDynamicMemoryWStream
+;
+struct
+SkIRect
 ;
 struct
 SkPDFGraphicStackState

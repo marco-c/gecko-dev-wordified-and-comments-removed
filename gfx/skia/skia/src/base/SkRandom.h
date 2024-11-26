@@ -33,9 +33,7 @@ h
 #
 include
 "
-include
-/
-private
+src
 /
 base
 /
@@ -212,14 +210,11 @@ nextF
 (
 )
 {
-int
+uint32_t
 floatint
 =
 0x3f800000
 |
-(
-int
-)
 (
 this
 -

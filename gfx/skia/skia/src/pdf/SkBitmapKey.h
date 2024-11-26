@@ -15,6 +15,11 @@ SkRect
 .
 h
 "
+#
+include
+<
+cstdint
+>
 struct
 SkBitmapKey
 {

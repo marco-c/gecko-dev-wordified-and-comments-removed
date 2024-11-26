@@ -768,6 +768,9 @@ case
 kBGR_101010x_XR_SkColorType
 :
 case
+kRGB_F16F16F16x_SkColorType
+:
+case
 kR8_unorm_SkColorType
 :
 {

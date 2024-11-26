@@ -37,6 +37,7 @@ kRGBA_10x6_SkColorType
 kGray_8_SkColorType
 kRGBA_F16Norm_SkColorType
 kRGBA_F16_SkColorType
+kRGB_F16F16F16x_SkColorType
 kRGBA_F32_SkColorType
 kR8G8_unorm_SkColorType
 kA16_float_SkColorType

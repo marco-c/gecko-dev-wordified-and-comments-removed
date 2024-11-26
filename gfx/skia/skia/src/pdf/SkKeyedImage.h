@@ -11,7 +11,7 @@ include
 /
 core
 /
-SkBitmap
+SkImage
 .
 h
 "
@@ -22,7 +22,7 @@ include
 /
 core
 /
-SkImage
+SkRefCnt
 .
 h
 "
@@ -37,6 +37,12 @@ SkBitmapKey
 .
 h
 "
+class
+SkBitmap
+;
+struct
+SkIRect
+;
 class
 SkKeyedImage
 {

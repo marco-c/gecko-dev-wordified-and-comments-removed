@@ -24,17 +24,6 @@ src
 /
 core
 /
-SkRasterPipelineOpContexts
-.
-h
-"
-#
-include
-"
-src
-/
-core
-/
 SkRasterPipelineOpList
 .
 h
@@ -49,6 +38,9 @@ include
 <
 cstdint
 >
+struct
+SkRasterPipeline_MemoryCtxPatch
+;
 struct
 SkRasterPipelineStage
 ;

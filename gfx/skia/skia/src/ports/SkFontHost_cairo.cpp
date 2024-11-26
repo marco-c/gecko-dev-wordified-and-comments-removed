@@ -568,6 +568,9 @@ glyph
 SkPath
 *
 path
+bool
+*
+modified
 )
 override
 ;
@@ -591,7 +594,7 @@ SkMatrix
 m
 )
 ;
-void
+bool
 prepareGlyph
 (
 FT_GlyphSlot
@@ -2356,7 +2359,7 @@ return
 true
 ;
 }
-void
+bool
 SkScalerContext_CairoFT
 :
 :
@@ -2366,6 +2369,11 @@ FT_GlyphSlot
 glyph
 )
 {
+bool
+modified
+=
+false
+;
 if
 (
 fRec
@@ -2383,7 +2391,15 @@ mozilla_glyphslot_embolden_less
 glyph
 )
 ;
+bool
+modified
+=
+true
+;
 }
+return
+modified
+;
 }
 SkScalerContext
 :
@@ -3231,6 +3247,9 @@ glyph
 SkPath
 *
 path
+bool
+*
+modified
 )
 {
 AutoLockFTFace
@@ -3298,6 +3317,10 @@ return
 false
 ;
 }
+*
+modified
+|
+=
 prepareGlyph
 (
 fFTFace

@@ -1554,8 +1554,5 @@ SkStream
 r
 )
 {
-return
-false
-;
 }
 }

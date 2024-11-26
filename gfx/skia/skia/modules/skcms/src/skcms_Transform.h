@@ -37,6 +37,11 @@ load_g8
 \
 M
 (
+load_ga88
+)
+\
+M
+(
 load_4444
 )
 \
@@ -63,6 +68,11 @@ load_1010102
 M
 (
 load_101010x_XR
+)
+\
+M
+(
+load_10101010_XR
 )
 \
 M
@@ -333,6 +343,11 @@ store_a8
 M
 (
 store_g8
+)
+\
+M
+(
+store_ga88
 )
 \
 M

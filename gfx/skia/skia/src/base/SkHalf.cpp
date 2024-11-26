@@ -42,7 +42,10 @@ f
 {
 if
 (
-sk_float_isnan
+std
+:
+:
+isnan
 (
 f
 )

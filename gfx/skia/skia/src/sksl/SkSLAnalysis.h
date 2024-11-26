@@ -201,8 +201,6 @@ const
 Program
 &
 program
-bool
-enforceSizeLimit
 )
 ;
 bool

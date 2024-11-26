@@ -123,6 +123,9 @@ n
 "
 __FILE__
 __LINE__
+(
+uint32_t
+)
 ERR
 \
 SkTraceFtrGetError

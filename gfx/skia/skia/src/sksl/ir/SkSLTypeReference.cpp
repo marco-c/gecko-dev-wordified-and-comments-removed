@@ -76,7 +76,9 @@ context
 fConfig
 -
 >
-fIsBuiltinCode
+isBuiltinCode
+(
+)
 &
 &
 type
