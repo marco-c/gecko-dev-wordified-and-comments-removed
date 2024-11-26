@@ -1117,9 +1117,7 @@ shouldUpdateTheme
 =
 customTabsColorsConfig
 .
-isAnyColorUpdateAllowed
-(
-)
+updateToolbarsColor
 fallbackColor
 =
 fallbackIconColor

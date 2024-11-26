@@ -881,8 +881,7 @@ updateSystemNavigationBarColor
 false
 updateToolbarsColor
 =
-!
-isPrivate
+false
 )
 false
 -
