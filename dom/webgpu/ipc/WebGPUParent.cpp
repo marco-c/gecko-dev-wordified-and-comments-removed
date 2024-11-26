@@ -4931,7 +4931,7 @@ WebGPUParent
 RecvBindGroupLayoutDrop
 (
 RawId
-aBindGroupId
+aBindGroupLayoutId
 )
 {
 ffi
@@ -4944,7 +4944,7 @@ mContext
 get
 (
 )
-aBindGroupId
+aBindGroupLayoutId
 )
 ;
 return
@@ -4963,7 +4963,7 @@ WebGPUParent
 RecvPipelineLayoutDrop
 (
 RawId
-aLayoutId
+aPipelineLayoutId
 )
 {
 ffi
@@ -4976,7 +4976,7 @@ mContext
 get
 (
 )
-aLayoutId
+aPipelineLayoutId
 )
 ;
 return
