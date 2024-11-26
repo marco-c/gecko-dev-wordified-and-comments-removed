@@ -12836,6 +12836,9 @@ break
 case
 SHOW_SPONSORED_PREF
 :
+case
+PREF_UNIFIED_ADS_TILES_ENABLED
+:
 if
 (
 lazy
