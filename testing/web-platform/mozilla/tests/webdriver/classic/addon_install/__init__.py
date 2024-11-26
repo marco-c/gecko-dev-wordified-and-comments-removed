@@ -7,6 +7,9 @@ value
 temp
 =
 False
+allow_private_browsing
+=
+False
 )
 :
     
@@ -18,6 +21,11 @@ temporary
 "
 :
 temp
+"
+allowPrivateBrowsing
+"
+:
+allow_private_browsing
 }
     
 arg
