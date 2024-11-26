@@ -823,6 +823,12 @@ err
 PEM_R_NO_START_LINE
 )
 {
+err
+=
+ERR_get_error
+(
+)
+;
 break
 ;
 }

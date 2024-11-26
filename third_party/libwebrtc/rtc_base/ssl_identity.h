@@ -73,7 +73,7 @@ const
 int
 kRsaDefaultModSize
 =
-1024
+2048
 ;
 static
 const
