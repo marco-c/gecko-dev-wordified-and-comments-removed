@@ -7853,13 +7853,9 @@ margin
 0
 ;
 }
-.
-tab
--
-group
--
-delete
-label
+}
+#
+tabGroupEditor_deleteGroup
 {
 color
 :
@@ -7874,7 +7870,6 @@ color
 error
 )
 ;
-}
 }
 /
 *
