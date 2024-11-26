@@ -244,10 +244,6 @@ mPosY
 (
 0
 )
-mVFlags
-(
-0
-)
 mWidgetIsTopLevel
 (
 false
@@ -3288,10 +3284,6 @@ fprintf
 (
 out
 "
-flags
-=
-%
-x
 vis
 =
 %
@@ -3304,7 +3296,6 @@ p
 \
 n
 "
-mVFlags
 int
 (
 mVis

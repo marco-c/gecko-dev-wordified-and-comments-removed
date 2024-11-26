@@ -1096,9 +1096,6 @@ mDimBounds
 nsPoint
 mViewToWidgetOffset
 ;
-uint32_t
-mVFlags
-;
 bool
 mWidgetIsTopLevel
 ;
