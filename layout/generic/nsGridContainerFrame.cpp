@@ -1872,7 +1872,10 @@ ConvertsToLength
 {
 size
 =
-Clamp
+std
+:
+:
+clamp
 (
 adjustForBoxSizing
 (
@@ -1938,7 +1941,10 @@ aContainingBlockSize
 {
 size
 =
-Clamp
+std
+:
+:
+clamp
 (
 *
 resolvedSize
