@@ -408,7 +408,7 @@ cps
 .
 removeAllDomains
 (
-context
+null
 makeCallback
 (
 resolve

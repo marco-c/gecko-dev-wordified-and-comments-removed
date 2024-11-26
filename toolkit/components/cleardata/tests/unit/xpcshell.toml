@@ -113,6 +113,13 @@ js
 ]
 [
 "
+test_content_preferences
+.
+js
+"
+]
+[
+"
 test_cookie_banner_handling
 .
 js
