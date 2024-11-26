@@ -15,13 +15,6 @@ py
 ]
 [
 "
-test_dynamic_probes
-.
-py
-"
-]
-[
-"
 test_fog_custom_ping
 .
 py
