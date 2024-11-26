@@ -31,9 +31,21 @@ scalability_mode
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+system
+/
+rtc_export
+.
+h
+"
 namespace
 webrtc
 {
+RTC_EXPORT
 std
 :
 :
@@ -50,6 +62,7 @@ string_view
 scalability_mode_string
 )
 ;
+RTC_EXPORT
 std
 :
 :
@@ -66,6 +79,7 @@ string_view
 scalability_mode_string
 )
 ;
+RTC_EXPORT
 std
 :
 :
