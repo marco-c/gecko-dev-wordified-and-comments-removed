@@ -3146,7 +3146,8 @@ task_queue_
 PostTask
 (
 [
-=
+this
+active_layers
 ]
 {
 MutexLock
