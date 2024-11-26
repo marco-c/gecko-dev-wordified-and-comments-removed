@@ -300,9 +300,14 @@ levels
 }
 SuppressWarnings
 (
+{
+"
+EnumOrdinal
+"
 "
 NoSynchronizedMethodCheck
 "
+}
 )
 public
 static
@@ -368,6 +373,12 @@ loggingEnabled
 true
 ;
 }
+SuppressWarnings
+(
+"
+EnumOrdinal
+"
+)
 public
 static
 void
