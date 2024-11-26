@@ -729,6 +729,11 @@ mOuterView
 aView
 ;
 }
+void
+CreateView
+(
+)
+;
 mutable
 RefPtr
 <

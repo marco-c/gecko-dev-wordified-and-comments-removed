@@ -8633,11 +8633,6 @@ bSize
 )
 ;
 }
-void
-CreateView
-(
-)
-;
 protected
 :
 virtual
