@@ -8755,13 +8755,6 @@ nullptr
 )
 const
 ;
-nsIFrame
-*
-GetAncestorWithView
-(
-)
-const
-;
 void
 SyncFrameViewProperties
 (
