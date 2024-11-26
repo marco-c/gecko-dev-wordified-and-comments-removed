@@ -284,6 +284,11 @@ http
 .
 1
 "
+classOfService
+:
+"
+UrgentStart
+"
 requestMethod
 :
 "

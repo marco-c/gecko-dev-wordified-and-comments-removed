@@ -521,6 +521,11 @@ mRequestHead
 Version
 (
 )
+mClassOfService
+.
+Flags
+(
+)
 )
 ;
 }
@@ -2030,6 +2035,11 @@ mRequestHead
 Version
 (
 )
+mClassOfService
+.
+Flags
+(
+)
 &
 mTransactionTimings
 std
@@ -2887,6 +2897,11 @@ IsPrivateBrowsing
 mRequestHead
 .
 Version
+(
+)
+mClassOfService
+.
+Flags
 (
 )
 &
@@ -4623,6 +4638,11 @@ IsPrivateBrowsing
 mRequestHead
 .
 Version
+(
+)
+mClassOfService
+.
+Flags
 (
 )
 &
