@@ -1179,6 +1179,7 @@ removeTopSite
 {
 clickSnackbarButton
 (
+composeTestRule
 "
 UNDO
 "

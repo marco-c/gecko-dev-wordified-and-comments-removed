@@ -596,6 +596,7 @@ opened
 )
 clickSnackbarButton
 (
+composeTestRule
 "
 SWITCH
 "
@@ -738,6 +739,7 @@ opened
 )
 clickSnackbarButton
 (
+composeTestRule
 "
 SWITCH
 "
@@ -1096,6 +1098,7 @@ opened
 )
 clickSnackbarButton
 (
+composeTestRule
 "
 SWITCH
 "

@@ -673,6 +673,7 @@ bookmarkPage
 {
 clickSnackbarButton
 (
+activityTestRule
 "
 EDIT
 "
@@ -1909,6 +1910,7 @@ verifyUndoDeleteSnackBarButton
 )
 clickSnackbarButton
 (
+activityTestRule
 "
 UNDO
 "
@@ -2596,6 +2598,7 @@ deleted
 )
 clickSnackbarButton
 (
+activityTestRule
 "
 UNDO
 "
@@ -4108,6 +4111,7 @@ Deleted
 )
 clickSnackbarButton
 (
+activityTestRule
 "
 UNDO
 "

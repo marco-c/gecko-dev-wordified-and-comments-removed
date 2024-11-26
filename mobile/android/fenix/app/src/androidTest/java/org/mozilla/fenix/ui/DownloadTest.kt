@@ -1098,6 +1098,7 @@ zip
 )
 clickSnackbarButton
 (
+activityTestRule
 "
 UNDO
 "
@@ -1256,6 +1257,7 @@ clickMultiSelectRemoveButton
 )
 clickSnackbarButton
 (
+activityTestRule
 "
 UNDO
 "

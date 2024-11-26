@@ -1342,6 +1342,7 @@ tab
 )
 clickSnackbarButton
 (
+composeTestRule
 "
 SWITCH
 "

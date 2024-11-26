@@ -2638,6 +2638,7 @@ customSearchEngineTitle
 )
 clickSnackbarButton
 (
+activityTestRule
 "
 UNDO
 "

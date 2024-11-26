@@ -493,6 +493,7 @@ saved
 )
 clickSnackbarButton
 (
+composeTestRule
 "
 VIEW
 "
@@ -652,6 +653,7 @@ collectionName
 )
 clickSnackbarButton
 (
+composeTestRule
 "
 VIEW
 "
@@ -1246,6 +1248,7 @@ collectionName
 )
 clickSnackbarButton
 (
+composeTestRule
 "
 VIEW
 "
@@ -1284,6 +1287,7 @@ deleted
 )
 clickSnackbarButton
 (
+composeTestRule
 "
 UNDO
 "
@@ -1995,6 +1999,7 @@ deleted
 )
 clickSnackbarButton
 (
+composeTestRule
 "
 UNDO
 "
@@ -2152,6 +2157,7 @@ deleted
 )
 clickSnackbarButton
 (
+composeTestRule
 "
 UNDO
 "
@@ -2302,6 +2308,7 @@ deleted
 )
 clickSnackbarButton
 (
+composeTestRule
 "
 UNDO
 "

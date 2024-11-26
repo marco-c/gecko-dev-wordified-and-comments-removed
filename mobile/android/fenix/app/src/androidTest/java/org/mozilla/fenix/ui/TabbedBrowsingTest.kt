@@ -638,6 +638,7 @@ closed
 )
 clickSnackbarButton
 (
+composeTestRule
 "
 UNDO
 "
@@ -884,6 +885,7 @@ closed
 )
 clickSnackbarButton
 (
+composeTestRule
 "
 UNDO
 "
