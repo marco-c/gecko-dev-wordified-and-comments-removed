@@ -63,14 +63,6 @@ nsFloatManager
 struct
 nsStyleText
 ;
-enum
-class
-CollapseEmptyInlineFramesInLine
-{
-Preserve
-Collapse
-}
-;
 class
 nsLineLayout
 {
@@ -198,8 +190,6 @@ bool
 aImpactedByFloats
 bool
 aIsTopOfPage
-CollapseEmptyInlineFramesInLine
-aCollapseEmptyInlineFramesInLine
 mozilla
 :
 :
@@ -1264,9 +1254,6 @@ mContainsFloat
 ;
 bool
 mHasNonemptyContent
-;
-bool
-mDoCollapseEmptyInlineFramesInLine
 ;
 nscoord
 mIStart
