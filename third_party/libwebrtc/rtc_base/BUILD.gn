@@ -7939,11 +7939,6 @@ task_utils
 repeating_task
 "
 "
-third_party
-/
-sigslot
-"
-"
 /
 /
 third_party
