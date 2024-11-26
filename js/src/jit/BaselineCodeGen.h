@@ -1240,9 +1240,6 @@ nodiscard
 bool
 init
 (
-JSContext
-*
-cx
 )
 ;
 CompilerFrameInfo
@@ -1682,7 +1679,7 @@ value
 }
 private
 :
-MethodStatus
+bool
 emitBody
 (
 )
