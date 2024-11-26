@@ -105,6 +105,16 @@ TrustedHTMLOrNullIsEmptyString
 namespace
 TrustedTypeUtils
 {
+template
+<
+typename
+T
+>
+nsString
+GetTrustedTypeName
+(
+)
+;
 MOZ_CAN_RUN_SCRIPT
 const
 nsAString
