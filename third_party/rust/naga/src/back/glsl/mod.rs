@@ -17209,6 +17209,7 @@ ctx
 ?
 ;
 if
+!
 class
 .
 is_multisampled

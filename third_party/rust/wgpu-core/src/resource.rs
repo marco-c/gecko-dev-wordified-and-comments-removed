@@ -101,6 +101,7 @@ weak_vec
 WeakVec
 Label
 LabelHelpers
+SubmissionIndex
 }
 ;
 use
@@ -1343,8 +1344,7 @@ result
 {
 Ok
 (
-(
-)
+_
 )
 =
 >
@@ -3092,8 +3092,7 @@ BufferMapOperation
 >
 Result
 <
-(
-)
+SubmissionIndex
 (
 BufferMapOperation
 BufferAccessError
@@ -3589,6 +3588,9 @@ self
 internal_use
 )
 ;
+let
+submit_index
+=
 device
 .
 lock_life
@@ -3599,11 +3601,15 @@ map
 (
 self
 )
+.
+unwrap_or
+(
+0
+)
 ;
 Ok
 (
-(
-)
+submit_index
 )
 }
 pub
