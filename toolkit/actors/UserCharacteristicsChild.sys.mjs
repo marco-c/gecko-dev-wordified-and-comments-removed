@@ -380,7 +380,7 @@ populateGamepadsInfo
 "
 )
 ;
-let
+const
 gamepads
 =
 await
@@ -409,7 +409,7 @@ length
 gamepads
 )
 ;
-let
+const
 gamepadsInfo
 =
 [
@@ -470,7 +470,7 @@ a
 size
 limitation
 .
-let
+const
 data
 =
 [

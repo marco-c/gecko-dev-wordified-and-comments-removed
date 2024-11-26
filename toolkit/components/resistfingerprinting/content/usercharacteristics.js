@@ -38,7 +38,7 @@ push
 return
 ;
 }
-let
+const
 stringify
 =
 o
@@ -70,7 +70,7 @@ o
 ;
 }
 ;
-let
+const
 stringifiedArgs
 =
 args

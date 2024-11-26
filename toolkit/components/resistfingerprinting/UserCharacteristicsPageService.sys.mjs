@@ -616,7 +616,7 @@ withHiddenBrowser
 ;
 try
 {
-let
+const
 {
 promise
 resolve
@@ -638,7 +638,7 @@ browser
 resolve
 )
 ;
-let
+const
 loadURIOptions
 =
 {
@@ -647,7 +647,7 @@ triggeringPrincipal
 principal
 }
 ;
-let
+const
 userCharacteristicsPageURI
 =
 Services
@@ -685,7 +685,7 @@ userCharacteristicsPageURI
 loadURIOptions
 )
 ;
-let
+const
 data
 =
 await
@@ -711,7 +711,7 @@ Output
 ;
 for
 (
-let
+const
 line
 of
 data
@@ -3182,7 +3182,7 @@ gamepads
 {
 for
 (
-let
+const
 gamepad
 of
 gamepads
@@ -4720,7 +4720,7 @@ HIGH_INT
 ]
 )
 {
-let
+const
 {
 rangeMin
 rangeMax
@@ -5515,14 +5515,14 @@ data
 }
 )
 ;
-let
+const
 browser
 =
 browsingContext
 .
 embedderElement
 ;
-let
+const
 backgroundResolve
 =
 this
