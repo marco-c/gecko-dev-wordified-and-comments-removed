@@ -8565,12 +8565,6 @@ mozilla
 StyleTransform
 mMozWindowTransform
 ;
-mozilla
-:
-:
-StyleTransformOrigin
-mWindowTransformOrigin
-;
 nsStyleAutoArray
 <
 mozilla

@@ -446,16 +446,6 @@ moz
 -
 window
 -
-transform
--
-origin
-"
-"
--
-moz
--
-window
--
 shadow
 "
 }

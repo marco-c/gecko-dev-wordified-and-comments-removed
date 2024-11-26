@@ -1975,16 +1975,6 @@ transform
 "
 "
 -
-moz
--
-window
--
-transform
--
-origin
-"
-"
--
 webkit
 -
 line
