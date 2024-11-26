@@ -1951,6 +1951,13 @@ js
 ]
 [
 "
+browser_tab_move_active_tab
+.
+js
+"
+]
+[
+"
 browser_tab_move_to_new_window_reload
 .
 js
