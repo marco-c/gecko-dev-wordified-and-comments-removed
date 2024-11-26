@@ -120,7 +120,7 @@ style
 .
 order
 "
-3
+2
 "
 "
 Sidebar
@@ -234,7 +234,7 @@ style
 .
 order
 "
-7
+5
 "
 "
 Sidebar
@@ -254,7 +254,7 @@ style
 .
 order
 "
-5
+4
 "
 "
 Sidebar
@@ -354,7 +354,7 @@ style
 .
 order
 "
-7
+5
 "
 "
 Sidebar
@@ -374,7 +374,7 @@ style
 .
 order
 "
-5
+4
 "
 "
 Sidebar

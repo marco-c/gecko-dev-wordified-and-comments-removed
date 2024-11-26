@@ -1047,15 +1047,6 @@ this
 accessKey
 )
 }
-part
-=
-"
-moz
--
-button
--
-label
-"
 >
 {
 this
