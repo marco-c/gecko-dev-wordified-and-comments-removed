@@ -268,6 +268,9 @@ tabs
 trialML
 "
 "
+userScripts
+"
+"
 webRequestAuthProvider
 "
 "

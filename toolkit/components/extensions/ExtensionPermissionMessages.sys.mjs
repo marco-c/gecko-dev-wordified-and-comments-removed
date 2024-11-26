@@ -404,6 +404,9 @@ topSites
 trialML
 "
 "
+userScripts
+"
+"
 webNavigation
 "
 ]

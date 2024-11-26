@@ -349,6 +349,9 @@ trialML
 unlimitedStorage
 "
 "
+userScripts
+"
+"
 webNavigation
 "
 "
@@ -498,6 +501,11 @@ R
 string
 .
 mozac_feature_addons_permissions_unlimited_storage_description
+R
+.
+string
+.
+mozac_feature_addons_permissions_user_scripts_description
 R
 .
 string

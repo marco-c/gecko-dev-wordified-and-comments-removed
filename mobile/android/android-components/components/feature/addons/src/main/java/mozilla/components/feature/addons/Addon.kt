@@ -2421,6 +2421,15 @@ string
 .
 mozac_feature_addons_permissions_trial_ml_description
 "
+userScripts
+"
+to
+R
+.
+string
+.
+mozac_feature_addons_permissions_user_scripts_description
+"
 devtools
 "
 to
