@@ -1126,8 +1126,6 @@ Get
 (
 element
 pseudo
-.
-mType
 )
 )
 {
@@ -1173,8 +1171,6 @@ Get
 (
 element
 pseudo
-.
-mType
 )
 )
 {
@@ -1982,8 +1978,10 @@ dom
 Element
 *
 aElement
-PseudoStyleType
-aPseudoType
+const
+PseudoStyleRequest
+&
+aPseudoRequest
 const
 ComputedStyle
 *
@@ -2063,7 +2061,7 @@ None
 StopAnimationsForElement
 (
 aElement
-aPseudoType
+aPseudoRequest
 )
 ;
 return
@@ -2073,10 +2071,7 @@ NonOwningAnimationTarget
 target
 (
 aElement
-PseudoStyleRequest
-(
-aPseudoType
-)
+aPseudoRequest
 )
 ;
 ServoCSSAnimationBuilder
@@ -2133,8 +2128,6 @@ mElement
 aTarget
 .
 mPseudoRequest
-.
-mType
 )
 ;
 if

@@ -300,7 +300,10 @@ None
 StopAnimationsForElement
 (
 aElement
+PseudoStyleRequest
+(
 aPseudoType
+)
 )
 ;
 return
@@ -317,7 +320,10 @@ CSSTransitionCollection
 Get
 (
 aElement
+PseudoStyleRequest
+(
 aPseudoType
+)
 )
 ;
 return

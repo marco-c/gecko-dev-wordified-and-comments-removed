@@ -142,6 +142,8 @@ data
 GetScrollTimelineCollection
 (
 mPseudo
+.
+mType
 )
 =
 =
@@ -154,6 +156,8 @@ data
 ClearScrollTimelineCollectionFor
 (
 mPseudo
+.
+mType
 )
 ;
 }
@@ -182,6 +186,8 @@ data
 GetViewTimelineCollection
 (
 mPseudo
+.
+mType
 )
 =
 =
@@ -194,6 +200,8 @@ data
 ClearViewTimelineCollectionFor
 (
 mPseudo
+.
+mType
 )
 ;
 }
@@ -235,8 +243,9 @@ Element
 *
 aElement
 const
-PseudoStyleType
-aPseudoType
+PseudoStyleRequest
+&
+aPseudoRequest
 )
 {
 MOZ_ASSERT
@@ -287,7 +296,9 @@ data
 >
 GetScrollTimelineCollection
 (
-aPseudoType
+aPseudoRequest
+.
+mType
 )
 ;
 }
@@ -313,7 +324,9 @@ data
 >
 GetViewTimelineCollection
 (
-aPseudoType
+aPseudoRequest
+.
+mType
 )
 ;
 }

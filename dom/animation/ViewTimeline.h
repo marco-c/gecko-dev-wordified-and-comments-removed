@@ -91,8 +91,10 @@ aDocument
 Element
 *
 aSubject
-PseudoStyleType
-aPseudoType
+const
+PseudoStyleRequest
+&
+aPseudoRequest
 const
 StyleViewTimeline
 &
@@ -161,8 +163,10 @@ ReplacePropertiesWith
 Element
 *
 aSubjectElement
-PseudoStyleType
-aPseudoType
+const
+PseudoStyleRequest
+&
+aPseudoRequest
 const
 StyleViewTimeline
 &

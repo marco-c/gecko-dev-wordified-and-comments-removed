@@ -37408,8 +37408,6 @@ Get
 (
 element
 request
-.
-mType
 )
 ;
 if

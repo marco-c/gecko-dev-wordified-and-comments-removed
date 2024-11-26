@@ -302,7 +302,10 @@ CSSTransitionCollection
 >
 (
 aOwner
+PseudoStyleRequest
+(
 aType
+)
 )
 ;
 return
@@ -344,7 +347,10 @@ CSSAnimationCollection
 >
 (
 aOwner
+PseudoStyleRequest
+(
 aType
+)
 )
 ;
 return
@@ -386,7 +392,10 @@ ScrollTimelineCollection
 >
 (
 aOwner
+PseudoStyleRequest
+(
 aType
+)
 )
 ;
 return
@@ -428,7 +437,10 @@ ViewTimelineCollection
 >
 (
 aOwner
+PseudoStyleRequest
+(
 aType
+)
 )
 ;
 return
