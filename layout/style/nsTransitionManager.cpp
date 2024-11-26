@@ -2260,6 +2260,13 @@ Timeline
 KeyframeEffectParams
 effectOptions
 ;
+const
+PseudoStyleRequest
+request
+(
+aPseudoType
+)
+;
 auto
 keyframeEffect
 =
@@ -2277,7 +2284,7 @@ OwnerDoc
 OwningAnimationTarget
 (
 aElement
-aPseudoType
+request
 )
 std
 :
@@ -2369,7 +2376,7 @@ OwningElementRef
 (
 *
 aElement
-aPseudoType
+request
 )
 )
 ;

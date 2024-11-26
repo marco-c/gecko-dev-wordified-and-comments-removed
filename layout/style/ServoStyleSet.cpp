@@ -5316,8 +5316,10 @@ aKeyframes
 Element
 *
 aElement
-PseudoStyleType
-aPseudoType
+const
+PseudoStyleRequest
+&
+aPseudo
 const
 ComputedStyle
 *
@@ -5353,7 +5355,9 @@ Servo_GetComputedKeyframeValues
 &
 aKeyframes
 aElement
-aPseudoType
+aPseudo
+.
+mType
 aStyle
 mRawData
 .

@@ -299,17 +299,6 @@ PostRestyleForThrottledAnimations
 )
 ;
 void
-ClearRestyleRequestsFor
-(
-dom
-:
-:
-Element
-*
-aElement
-)
-;
-void
 UpdateEffectProperties
 (
 const

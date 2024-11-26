@@ -1113,8 +1113,10 @@ dom
 Element
 *
 aElement
-PseudoStyleType
-aPseudoType
+const
+PseudoStyleRequest
+&
+aPseudoRequest
 const
 ComputedStyle
 *

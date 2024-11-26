@@ -563,10 +563,12 @@ false
 }
 static
 nsString
-PseudoTypeAsString
+PseudoRequestAsString
 (
-Type
-aPseudoType
+const
+Request
+&
+aPseudoRequest
 )
 ;
 private

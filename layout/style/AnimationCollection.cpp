@@ -402,7 +402,9 @@ mElement
 target
 -
 >
-mPseudoType
+mPseudoRequest
+.
+mType
 )
 ;
 }

@@ -1058,12 +1058,9 @@ mElement
 >
 GetPseudoElement
 (
-PseudoStyleRequest
-(
 aTarget
 .
-mPseudoType
-)
+mPseudoRequest
 )
 ;
 curr
@@ -1706,7 +1703,7 @@ aTarget
 mElement
 aTarget
 .
-mPseudoType
+mPseudoRequest
 )
 std
 :
@@ -1769,7 +1766,7 @@ aTarget
 mElement
 aTarget
 .
-mPseudoType
+mPseudoRequest
 )
 )
 ;
@@ -2076,7 +2073,10 @@ NonOwningAnimationTarget
 target
 (
 aElement
+PseudoStyleRequest
+(
 aPseudoType
+)
 )
 ;
 ServoCSSAnimationBuilder
@@ -2132,7 +2132,9 @@ aTarget
 mElement
 aTarget
 .
-mPseudoType
+mPseudoRequest
+.
+mType
 )
 ;
 if
@@ -2247,7 +2249,9 @@ aTarget
 mElement
 aTarget
 .
-mPseudoType
+mPseudoRequest
+.
+mType
 )
 ;
 if

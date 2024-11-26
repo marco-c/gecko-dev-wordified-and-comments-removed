@@ -20816,6 +20816,13 @@ pseudoType
 )
 )
 {
+const
+PseudoStyleRequest
+request
+(
+pseudoType
+)
+;
 auto
 *
 const
@@ -20880,7 +20887,7 @@ OwnerDoc
 OwningAnimationTarget
 {
 this
-pseudoType
+request
 }
 *
 effect
