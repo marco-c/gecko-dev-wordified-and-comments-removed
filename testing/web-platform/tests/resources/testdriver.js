@@ -387,13 +387,13 @@ entry_added
 .
 on
 (
-data
+event
 =
 >
 {
 resolve
 (
-data
+event
 )
 ;
 remove_handler
