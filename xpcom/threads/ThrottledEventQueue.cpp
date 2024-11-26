@@ -358,7 +358,7 @@ IsEmpty
 (
 lock
 )
-NS_IsMainThread
+IsOnCurrentThread
 (
 )
 )
@@ -699,13 +699,6 @@ uint32_t
 aPriority
 )
 {
-MOZ_ASSERT
-(
-NS_IsMainThread
-(
-)
-)
-;
 RefPtr
 <
 Inner
@@ -1216,13 +1209,6 @@ uint32_t
 aPriority
 )
 {
-MOZ_ASSERT
-(
-NS_IsMainThread
-(
-)
-)
-;
 MOZ_ASSERT
 (
 aBaseTarget
