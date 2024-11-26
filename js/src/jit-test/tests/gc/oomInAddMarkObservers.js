@@ -1,0 +1,17 @@
+oomTest
+(
+function
+(
+)
+{
+addMarkObservers
+(
+[
+[
+]
+]
+)
+;
+}
+)
+;
