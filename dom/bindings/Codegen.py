@@ -4409,13 +4409,19 @@ for
 now
 .
             
-DEFINE_XRAY_EXPANDO_CLASS
+DEFINE_XRAY_EXPANDO_CLASS_WITH_OPS
 (
 static
 sXrayExpandoObjectClass
 {
 memberSlots
 }
+                                               
+&
+xpc
+:
+:
+XrayExpandoObjectClassOps
 )
 ;
             
