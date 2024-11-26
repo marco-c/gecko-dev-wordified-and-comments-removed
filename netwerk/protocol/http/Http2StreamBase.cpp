@@ -92,6 +92,13 @@ h
 #
 include
 "
+nsAlgorithm
+.
+h
+"
+#
+include
+"
 nsHttp
 .
 h

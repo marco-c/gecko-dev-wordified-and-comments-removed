@@ -8975,6 +8975,14 @@ core
 toolkit
 needs
 to
+#
+include
+"
+nsAlgorithm
+.
+h
+"
+and
 use
 the
 NS_foo

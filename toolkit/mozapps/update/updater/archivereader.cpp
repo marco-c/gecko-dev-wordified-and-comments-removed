@@ -51,6 +51,13 @@ XP_WIN
 #
 include
 "
+nsAlgorithm
+.
+h
+"
+#
+include
+"
 updatehelper
 .
 h
