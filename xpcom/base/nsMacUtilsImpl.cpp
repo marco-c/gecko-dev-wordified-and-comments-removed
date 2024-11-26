@@ -496,12 +496,9 @@ app
 nsresult
 rv
 =
-NS_NewLocalFile
-(
-NS_ConvertUTF8toUTF16
+NS_NewNativeLocalFile
 (
 appPath
-)
 getter_AddRefs
 (
 app
@@ -1391,12 +1388,9 @@ dir
 ;
 rv
 =
-NS_NewLocalFile
-(
-NS_ConvertUTF8toUTF16
+NS_NewNativeLocalFile
 (
 dirPath
-)
 getter_AddRefs
 (
 dir

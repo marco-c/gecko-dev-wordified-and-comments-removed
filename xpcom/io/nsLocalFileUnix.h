@@ -126,15 +126,6 @@ nsLocalFile
 (
 )
 ;
-explicit
-nsLocalFile
-(
-const
-nsACString
-&
-aFilePath
-)
-;
 static
 nsresult
 nsLocalFileConstructor

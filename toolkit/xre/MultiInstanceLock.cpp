@@ -1261,13 +1261,10 @@ macFile
 {
 appFile
 =
-static_cast
-<
-nsIFile
-*
->
-(
 macFile
+.
+forget
+(
 )
 ;
 }
