@@ -175,7 +175,7 @@ aChild
 ;
 static
 void
-NotifyContentRemoved
+NotifyContentWillBeRemoved
 (
 nsINode
 *
@@ -183,9 +183,6 @@ aContainer
 nsIContent
 *
 aChild
-nsIContent
-*
-aPreviousSibling
 )
 ;
 static

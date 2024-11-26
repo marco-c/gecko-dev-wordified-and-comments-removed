@@ -978,14 +978,11 @@ aFirstNewContent
 )
 ;
 void
-ContentRemoved
+ContentWillBeRemoved
 (
 nsIContent
 *
 aOldChild
-nsIContent
-*
-aFollowingSibling
 )
 ;
 void

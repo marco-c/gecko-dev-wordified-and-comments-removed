@@ -1327,14 +1327,11 @@ void
 SVGRenderingObserver
 :
 :
-ContentRemoved
+ContentWillBeRemoved
 (
 nsIContent
 *
 aChild
-nsIContent
-*
-aPreviousSibling
 )
 {
 OnRenderingChange
@@ -1382,7 +1379,7 @@ kContentAppended
 |
 kContentInserted
 |
-kContentRemoved
+kContentWillBeRemoved
 TargetIsValidCallback
 aTargetIsValidCallback
 =
@@ -1839,7 +1836,7 @@ kContentAppended
 |
 kContentInserted
 |
-kContentRemoved
+kContentWillBeRemoved
 TargetIsValidCallback
 aTargetIsValidCallback
 =
@@ -2364,7 +2361,7 @@ kContentAppended
 |
 kContentInserted
 |
-kContentRemoved
+kContentWillBeRemoved
 )
 {
 }
@@ -2819,7 +2816,7 @@ kContentAppended
 |
 kContentInserted
 |
-kContentRemoved
+kContentWillBeRemoved
 IsSVGFilterElement
 )
 mFilterObserverList
@@ -3992,7 +3989,7 @@ kContentAppended
 |
 kContentInserted
 |
-kContentRemoved
+kContentWillBeRemoved
 )
 mFrameReference
 (
