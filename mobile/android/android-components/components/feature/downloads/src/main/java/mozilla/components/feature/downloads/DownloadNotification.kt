@@ -729,6 +729,10 @@ setBigContentTitle
 downloadState
 .
 fileName
+.
+orEmpty
+(
+)
 )
 .
 setSummaryText
@@ -755,6 +759,10 @@ setContentTitle
 downloadState
 .
 fileName
+.
+orEmpty
+(
+)
 )
 .
 setContentText
