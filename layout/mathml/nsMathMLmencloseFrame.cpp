@@ -762,6 +762,7 @@ hasMoreTokens
 (
 )
 )
+{
 AddNotation
 (
 tokenizer
@@ -771,6 +772,7 @@ nextToken
 )
 )
 ;
+}
 if
 (
 IsToDraw
@@ -798,8 +800,10 @@ NOTATION_LONGDIV
 )
 )
 )
+{
 return
 ;
+}
 mNotationsToDraw
 +
 =
@@ -1461,6 +1465,7 @@ if
 (
 delta
 )
+{
 padding
 +
 =
@@ -1468,6 +1473,7 @@ onePixel
 -
 delta
 ;
+}
 if
 (
 IsToDraw
@@ -1550,10 +1556,12 @@ IsToDraw
 NOTATION_CIRCLE
 )
 )
+{
 dx_left
 =
 padding
 ;
+}
 if
 (
 IsToDraw
@@ -1585,10 +1593,12 @@ IsToDraw
 NOTATION_CIRCLE
 )
 )
+{
 dx_right
 =
 padding
 ;
+}
 if
 (
 IsToDraw
@@ -1731,6 +1741,7 @@ IsToDraw
 NOTATION_CIRCLE
 )
 )
+{
 mBoundingMetrics
 .
 ascent
@@ -1738,6 +1749,7 @@ ascent
 =
 padding
 ;
+}
 if
 (
 IsToDraw
@@ -1769,6 +1781,7 @@ IsToDraw
 NOTATION_CIRCLE
 )
 )
+{
 mBoundingMetrics
 .
 descent
@@ -1776,6 +1789,7 @@ descent
 =
 padding
 ;
+}
 if
 (
 IsToDraw
@@ -2524,6 +2538,7 @@ IsToDraw
 NOTATION_ROUNDEDBOX
 )
 )
+{
 mBoundingMetrics
 .
 ascent
@@ -2534,6 +2549,7 @@ BlockStartAscent
 (
 )
 ;
+}
 if
 (
 IsToDraw
@@ -2589,6 +2605,7 @@ IsToDraw
 NOTATION_ROUNDEDBOX
 )
 )
+{
 mBoundingMetrics
 .
 descent
@@ -2605,6 +2622,7 @@ BlockStartAscent
 (
 )
 ;
+}
 if
 (
 IsToDraw
@@ -2612,6 +2630,7 @@ IsToDraw
 NOTATION_PHASORANGLE
 )
 )
+{
 mBoundingMetrics
 .
 ascent
@@ -2635,6 +2654,7 @@ mBoundingMetrics
 descent
 )
 ;
+}
 aDesiredSize
 .
 mBoundingMetrics
@@ -2712,6 +2732,7 @@ IsToDraw
 NOTATION_LONGDIV
 )
 )
+{
 mMathMLChar
 [
 mLongDivCharIndex
@@ -2750,6 +2771,7 @@ descent
 )
 )
 ;
+}
 mContentWidth
 =
 bmBase
@@ -2802,9 +2824,11 @@ if
 !
 gap
 )
+{
 return
 0
 ;
+}
 nsRect
 rect
 ;
@@ -3673,8 +3697,10 @@ aThickness
 =
 0
 )
+{
 return
 ;
+}
 const
 uint16_t
 index

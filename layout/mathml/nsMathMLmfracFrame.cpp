@@ -420,10 +420,12 @@ lineThickness
 <
 minimumThickness
 )
+{
 lineThickness
 =
 minimumThickness
 ;
+}
 return
 lineThickness
 ;
@@ -555,9 +557,11 @@ if
 !
 gap
 )
+{
 return
 0
 ;
+}
 mLineRect
 .
 MoveBy
@@ -632,6 +636,7 @@ if
 (
 frameNum
 )
+{
 frameDen
 =
 frameNum
@@ -641,6 +646,7 @@ GetNextSibling
 (
 )
 ;
+}
 if
 (
 !
@@ -1587,6 +1593,7 @@ width
 -
 rightSpace
 )
+{
 mBoundingMetrics
 .
 rightBearing
@@ -1595,6 +1602,7 @@ width
 -
 rightSpace
 ;
+}
 mBoundingMetrics
 .
 leftBearing
@@ -1624,12 +1632,14 @@ leftBearing
 >
 leftSpace
 )
+{
 mBoundingMetrics
 .
 leftBearing
 =
 leftSpace
 ;
+}
 mBoundingMetrics
 .
 ascent

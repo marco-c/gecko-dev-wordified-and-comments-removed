@@ -131,6 +131,7 @@ mEmbellishData
 .
 coreFrame
 )
+{
 return
 GetMathMLFrameTypeFor
 (
@@ -139,12 +140,14 @@ mEmbellishData
 coreFrame
 )
 ;
+}
 if
 (
 mPresentationData
 .
 baseFrame
 )
+{
 return
 GetMathMLFrameTypeFor
 (
@@ -153,6 +156,7 @@ mPresentationData
 baseFrame
 )
 ;
+}
 return
 eMathMLFrameType_Ordinary
 ;
@@ -528,8 +532,10 @@ if
 !
 content
 )
+{
 break
 ;
+}
 if
 (
 content
@@ -1357,8 +1363,10 @@ IsEmpty
 (
 )
 )
+{
 return
 ;
+}
 aLists
 .
 Content

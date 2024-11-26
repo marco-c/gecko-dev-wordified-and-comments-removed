@@ -514,9 +514,11 @@ if
 !
 stringLength
 )
+{
 return
 false
 ;
+}
 nsAutoString
 number
 unit
@@ -588,6 +590,7 @@ i
 ;
 }
 else
+{
 aAttribute
 .
 mSign
@@ -600,6 +603,7 @@ Sign
 :
 Unspecified
 ;
+}
 bool
 gotDot
 =
@@ -654,10 +658,12 @@ c
 .
 '
 )
+{
 gotDot
 =
 true
 ;
+}
 else
 if
 (
@@ -1092,6 +1098,7 @@ if
 (
 gotPercent
 )
+{
 aAttribute
 .
 mValue
@@ -1105,7 +1112,9 @@ floatValue
 0f
 )
 ;
+}
 else
+{
 aAttribute
 .
 mValue
@@ -1116,6 +1125,7 @@ floatValue
 eCSSUnit_Number
 )
 ;
+}
 aAttribute
 .
 mState
@@ -1358,6 +1368,7 @@ eCSSUnit_Number
 =
 unit
 )
+{
 amount
 =
 NSToCoordRound
@@ -1376,6 +1387,7 @@ GetFloatValue
 )
 )
 ;
+}
 else
 if
 (
@@ -1384,6 +1396,7 @@ eCSSUnit_Percent
 =
 unit
 )
+{
 amount
 =
 NSToCoordRound
@@ -1402,7 +1415,9 @@ GetPercentValue
 )
 )
 ;
+}
 else
+{
 amount
 =
 CalcLength
@@ -1417,6 +1432,7 @@ mValue
 aFontSizeInflation
 )
 ;
+}
 switch
 (
 aAttribute
