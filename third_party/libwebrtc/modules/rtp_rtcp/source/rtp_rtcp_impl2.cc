@@ -494,12 +494,7 @@ config
 :
 packet_history
 (
-&
 env
-.
-clock
-(
-)
 RtpPacketHistory
 :
 :

@@ -948,12 +948,7 @@ make_unique
 RtpPacketHistory
 >
 (
-&
 env_
-.
-clock
-(
-)
 RtpPacketHistory
 :
 :

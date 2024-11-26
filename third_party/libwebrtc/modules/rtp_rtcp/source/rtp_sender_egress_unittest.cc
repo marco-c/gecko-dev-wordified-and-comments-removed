@@ -709,12 +709,7 @@ header_extensions_
 )
 packet_history_
 (
-&
 env_
-.
-clock
-(
-)
 RtpPacketHistory
 :
 :
