@@ -131,6 +131,12 @@ kResourceTypeName
 ifdef
 DEBUG
 static
+void
+AssertSafeToProcessEventLoop
+(
+)
+;
+static
 size_t
 SizeOfDeadlockDetector
 (
