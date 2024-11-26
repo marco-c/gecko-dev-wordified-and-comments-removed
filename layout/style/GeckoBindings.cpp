@@ -3053,8 +3053,6 @@ Element
 element
 )
 pseudoRequest
-.
-mType
 *
 aOldComputedData
 *
