@@ -1007,6 +1007,11 @@ style
 {
 style
 }
+type
+=
+"
+radio
+"
 onClick
 =
 {
