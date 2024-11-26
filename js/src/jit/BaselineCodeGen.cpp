@@ -601,10 +601,6 @@ args
 .
 .
 )
-cx
-(
-cx
-)
 runtime
 (
 CompileRuntime
@@ -1085,6 +1081,9 @@ BaselineCompiler
 :
 compile
 (
+JSContext
+*
+cx
 )
 {
 AutoCreatedBy
@@ -35453,6 +35452,9 @@ BaselineInterpreterGenerator
 :
 generate
 (
+JSContext
+*
+cx
 BaselineInterpreter
 &
 interpreter
