@@ -441,12 +441,6 @@ winWidget
 -
 256
 )
-fails
--
-if
-(
-cocoaWidget
-)
 =
 =
 text

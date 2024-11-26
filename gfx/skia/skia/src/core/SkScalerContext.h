@@ -1045,9 +1045,6 @@ kBaselineSnap_Flag
 kNeedsForegroundColor_Flag
 =
 0x4000
-kLightOnDark_Flag
-=
-0x8000
 }
 ;
 enum
