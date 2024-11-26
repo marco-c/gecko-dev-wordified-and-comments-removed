@@ -323,9 +323,9 @@ reset
 )
 ;
 let
-transformEndPromise
+scrollendPromise
 =
-promiseTransformEnd
+promiseScrollend
 (
 )
 ;
@@ -336,7 +336,7 @@ zoomToFocusedInput
 )
 ;
 await
-transformEndPromise
+scrollendPromise
 ;
 await
 promiseApzFlushedRepaints
@@ -412,9 +412,9 @@ reset
 "
 )
 ;
-transformEndPromise
+scrollendPromise
 =
-promiseTransformEnd
+promiseScrollend
 (
 )
 ;
@@ -423,6 +423,9 @@ utils
 zoomToFocusedInput
 (
 )
+;
+await
+scrollendPromise
 ;
 await
 promiseApzFlushedRepaints
@@ -446,9 +449,6 @@ of
 caret
 "
 )
-;
-await
-transformEndPromise
 ;
 document
 .
@@ -578,9 +578,9 @@ reset
 "
 )
 ;
-transformEndPromise
+scrollendPromise
 =
-promiseTransformEnd
+promiseScrollend
 (
 )
 ;
@@ -589,6 +589,9 @@ utils
 zoomToFocusedInput
 (
 )
+;
+await
+scrollendPromise
 ;
 await
 promiseApzFlushedRepaints
@@ -617,9 +620,6 @@ prevY
 window
 .
 scrollY
-;
-await
-transformEndPromise
 ;
 textarea
 .
@@ -665,9 +665,9 @@ reset
 "
 )
 ;
-transformEndPromise
+scrollendPromise
 =
-promiseTransformEnd
+promiseScrollend
 (
 )
 ;
@@ -676,6 +676,9 @@ utils
 zoomToFocusedInput
 (
 )
+;
+await
+scrollendPromise
 ;
 await
 promiseApzFlushedRepaints
@@ -699,9 +702,6 @@ of
 caret
 "
 )
-;
-await
-transformEndPromise
 ;
 document
 .

@@ -252,9 +252,9 @@ window
 )
 ;
 let
-transformEndPromise
+scrollendPromise
 =
-promiseTransformEnd
+promiseScrollend
 (
 )
 ;
@@ -321,7 +321,7 @@ zoomToFocusedInput
 )
 .
 await
-transformEndPromise
+scrollendPromise
 ;
 await
 promiseApzFlushedRepaints

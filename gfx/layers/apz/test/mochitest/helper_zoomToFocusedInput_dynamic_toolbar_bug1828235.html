@@ -331,13 +331,6 @@ resolution
 resolution
 )
 ;
-let
-transformEndPromise
-=
-promiseTransformEnd
-(
-)
-;
 utils
 .
 zoomToFocusedInput
@@ -351,7 +344,9 @@ window
 )
 ;
 await
-transformEndPromise
+promiseApzFlushedRepaints
+(
+)
 ;
 await
 promiseApzFlushedRepaints

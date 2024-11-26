@@ -227,13 +227,6 @@ scrollY
 expectedScrollPosition
 )
 ;
-const
-transformEndPromise
-=
-promiseTransformEnd
-(
-)
-;
 SpecialPowers
 .
 DOMWindowUtils
@@ -243,7 +236,9 @@ zoomToFocusedInput
 )
 ;
 await
-transformEndPromise
+promiseApzFlushedRepaints
+(
+)
 ;
 is
 (
