@@ -947,7 +947,7 @@ mFloatClearType
 mozilla
 :
 :
-UsedClear
+StyleClear
 :
 :
 None
@@ -968,7 +968,7 @@ FloatClearTypeBefore
 mozilla
 :
 :
-UsedClear
+StyleClear
 :
 :
 None
@@ -980,7 +980,7 @@ SetFloatClearTypeBefore
 mozilla
 :
 :
-UsedClear
+StyleClear
 aClearType
 )
 {
@@ -1010,13 +1010,13 @@ aClearType
 mozilla
 :
 :
-UsedClear
+StyleClear
 :
 :
 None
 "
 Only
-UsedClear
+StyleClear
 :
 Left
 /
@@ -1041,7 +1041,7 @@ aClearType
 mozilla
 :
 :
-UsedClear
+StyleClear
 FloatClearTypeBefore
 (
 )
@@ -1059,7 +1059,7 @@ mFloatClearType
 mozilla
 :
 :
-UsedClear
+StyleClear
 :
 :
 None
@@ -1113,7 +1113,7 @@ SetForcedLineBreakAfter
 mozilla
 :
 :
-UsedClear
+StyleClear
 aClearType
 )
 {
@@ -1163,7 +1163,7 @@ FloatClearTypeAfter
 mozilla
 :
 :
-UsedClear
+StyleClear
 :
 :
 None
@@ -1172,7 +1172,7 @@ None
 mozilla
 :
 :
-UsedClear
+StyleClear
 FloatClearTypeAfter
 (
 )
@@ -1190,7 +1190,7 @@ mFloatClearType
 mozilla
 :
 :
-UsedClear
+StyleClear
 :
 :
 None
@@ -2034,12 +2034,12 @@ static
 const
 char
 *
-UsedClearToString
+StyleClearToString
 (
 mozilla
 :
 :
-UsedClear
+StyleClear
 aClearType
 )
 ;
@@ -2454,7 +2454,7 @@ mHasForcedLineBreakAfter
 mozilla
 :
 :
-UsedClear
+StyleClear
 mFloatClearType
 ;
 }

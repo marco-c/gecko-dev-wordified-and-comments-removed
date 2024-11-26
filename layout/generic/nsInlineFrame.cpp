@@ -3202,7 +3202,7 @@ FirstChild
 )
 )
 {
-UsedClear
+StyleClear
 oldClearType
 =
 aStatus

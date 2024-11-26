@@ -494,11 +494,6 @@ mozilla
 :
 :
 WritingMode
-aCBWM
-mozilla
-:
-:
-WritingMode
 aWM
 nscoord
 aBCoord
@@ -701,7 +696,7 @@ aBCoord
 mozilla
 :
 :
-UsedClear
+StyleClear
 aClearType
 )
 const
@@ -712,7 +707,7 @@ ClearContinues
 mozilla
 :
 :
-UsedClear
+StyleClear
 aClearType
 )
 const

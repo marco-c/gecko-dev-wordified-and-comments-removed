@@ -178,15 +178,12 @@ UndoAlignContentShift
 nsFlowAreaRect
 GetFloatAvailableSpace
 (
-WritingMode
-aCBWM
 )
 const
 {
 return
 GetFloatAvailableSpace
 (
-aCBWM
 mBCoord
 )
 ;
@@ -194,8 +191,6 @@ mBCoord
 nsFlowAreaRect
 GetFloatAvailableSpaceForPlacingFloat
 (
-WritingMode
-aCBWM
 nscoord
 aBCoord
 )
@@ -204,7 +199,6 @@ const
 return
 GetFloatAvailableSpaceWithState
 (
-aCBWM
 aBCoord
 ShapeType
 :
@@ -217,8 +211,6 @@ nullptr
 nsFlowAreaRect
 GetFloatAvailableSpace
 (
-WritingMode
-aCBWM
 nscoord
 aBCoord
 )
@@ -227,7 +219,6 @@ const
 return
 GetFloatAvailableSpaceWithState
 (
-aCBWM
 aBCoord
 ShapeType
 :
@@ -240,8 +231,6 @@ nullptr
 nsFlowAreaRect
 GetFloatAvailableSpaceWithState
 (
-WritingMode
-aCBWM
 nscoord
 aBCoord
 ShapeType
@@ -258,8 +247,6 @@ const
 nsFlowAreaRect
 GetFloatAvailableSpaceForBSize
 (
-WritingMode
-aCBWM
 nscoord
 aBCoord
 nscoord
@@ -351,7 +338,7 @@ ClearFloats
 (
 nscoord
 aBCoord
-UsedClear
+StyleClear
 aClearType
 nsIFrame
 *
@@ -906,7 +893,7 @@ mLineNumber
 Flags
 mFlags
 ;
-UsedClear
+StyleClear
 mTrailingClearFromPIF
 ;
 const

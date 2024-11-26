@@ -627,14 +627,7 @@ aReflowInput
 mStyleDisplay
 -
 >
-UsedClear
-(
-aReflowInput
-.
-GetCBWritingMode
-(
-)
-)
+mClear
 )
 ;
 ll
