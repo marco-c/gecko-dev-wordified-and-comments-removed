@@ -171,6 +171,13 @@ js
 ]
 [
 "
+test_ext_permissions_optional_only
+.
+js
+"
+]
+[
+"
 test_ext_permissions_uninstall
 .
 js

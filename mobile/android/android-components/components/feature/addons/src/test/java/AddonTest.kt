@@ -343,6 +343,9 @@ tabs
 topSites
 "
 "
+trialML
+"
+"
 unlimitedStorage
 "
 "
@@ -485,6 +488,11 @@ R
 string
 .
 mozac_feature_addons_permissions_top_sites_description
+R
+.
+string
+.
+mozac_feature_addons_permissions_trial_ml_description
 R
 .
 string

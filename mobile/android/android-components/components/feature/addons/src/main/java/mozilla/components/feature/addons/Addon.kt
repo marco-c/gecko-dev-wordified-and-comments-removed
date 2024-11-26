@@ -2412,6 +2412,15 @@ string
 .
 mozac_feature_addons_permissions_top_sites_description
 "
+trialML
+"
+to
+R
+.
+string
+.
+mozac_feature_addons_permissions_trial_ml_description
+"
 devtools
 "
 to

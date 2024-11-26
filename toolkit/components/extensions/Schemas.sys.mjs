@@ -22903,6 +22903,9 @@ types
 Permission
 "
 "
+OptionalOnlyPermission
+"
+"
 OptionalPermission
 "
 "
