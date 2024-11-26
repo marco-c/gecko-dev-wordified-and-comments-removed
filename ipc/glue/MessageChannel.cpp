@@ -31,6 +31,15 @@ h
 #
 include
 "
+base
+/
+waitable_event
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Assertions
