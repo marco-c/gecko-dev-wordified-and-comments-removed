@@ -1077,7 +1077,7 @@ Kanagawa
 region_code
 :
 "
-14
+Kanagawa
 "
 city
 :
