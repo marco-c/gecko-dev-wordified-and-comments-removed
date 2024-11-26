@@ -127,7 +127,7 @@ mozilla
 /
 ipc
 /
-BrowserProcessSubThread
+IOThread
 .
 h
 "
