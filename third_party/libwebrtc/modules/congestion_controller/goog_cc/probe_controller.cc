@@ -1742,6 +1742,16 @@ IsFinite
 &
 &
 network_estimate_
+&
+&
+network_estimate_
+-
+>
+link_capacity_upper
+.
+IsFinite
+(
+)
 ?
 network_estimate_
 -
