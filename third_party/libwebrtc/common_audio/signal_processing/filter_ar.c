@@ -43,16 +43,12 @@ state_length
 int16_t
 *
 state_low
-size_t
-state_low_length
 int16_t
 *
 filtered
 int16_t
 *
 filtered_low
-size_t
-filtered_low_length
 )
 {
 int64_t

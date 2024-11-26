@@ -936,14 +936,12 @@ num_samples
 dec_filtstate_
 WEBRTC_CNG_MAX_LPC_ORDER
 dec_filtstateLow_
-WEBRTC_CNG_MAX_LPC_ORDER
 out_data
 .
 data
 (
 )
 low
-num_samples
 )
 ;
 return

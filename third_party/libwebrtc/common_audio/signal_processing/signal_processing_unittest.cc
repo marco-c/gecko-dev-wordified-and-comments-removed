@@ -3278,10 +3278,8 @@ kVectorSize
 bState
 kVectorSize
 bStateLow
-kVectorSize
 data_out
 bTmp16Low
-kVectorSize
 )
 )
 ;

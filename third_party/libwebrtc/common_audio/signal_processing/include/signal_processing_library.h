@@ -2039,16 +2039,12 @@ filter_state_length
 int16_t
 *
 filter_state_low
-size_t
-filter_state_low_length
 int16_t
 *
 out_vector
 int16_t
 *
 out_vector_low
-size_t
-out_vector_low_length
 )
 ;
 void
