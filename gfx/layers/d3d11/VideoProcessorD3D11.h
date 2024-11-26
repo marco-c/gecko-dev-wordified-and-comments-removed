@@ -89,7 +89,7 @@ ID3D11Device
 aDevice
 )
 ;
-bool
+HRESULT
 Init
 (
 const
