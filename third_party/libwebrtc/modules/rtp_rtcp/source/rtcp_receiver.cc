@@ -2404,7 +2404,7 @@ ntp_timestamp_ms
 =
 remote_sender_
 .
-last_arrival_timestamp
+last_arrival_ntp_timestamp
 .
 ToMs
 (
@@ -2415,7 +2415,7 @@ remote_ntp_timestamp_ms
 =
 remote_sender_
 .
-last_remote_timestamp
+last_remote_ntp_timestamp
 .
 ToMs
 (
