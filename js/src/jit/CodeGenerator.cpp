@@ -134593,7 +134593,11 @@ bool
 (
 JSContext
 *
-HandleObject
+Handle
+<
+SetObject
+*
+>
 HandleValue
 bool
 *
@@ -135063,7 +135067,11 @@ bool
 (
 JSContext
 *
-HandleObject
+Handle
+<
+MapObject
+*
+>
 HandleValue
 bool
 *
