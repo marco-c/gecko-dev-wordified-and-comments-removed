@@ -8,6 +8,11 @@ Helpers
 cpp
 "
 "
+MozPromiseExamples
+.
+cpp
+"
+"
 TestArenaAllocator
 .
 cpp
