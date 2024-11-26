@@ -4809,6 +4809,9 @@ await_alert
 (
 self
 text
+timeout
+=
+None
 )
 :
         
@@ -4892,6 +4895,7 @@ run
 "
 (
 msg
+timeout
 )
 =
 >
@@ -4904,6 +4908,18 @@ done
 {
                     
 const
+interval
+=
+200
+;
+                    
+let
+count
+=
+0
+;
+                    
+const
 to
 =
 setInterval
@@ -4914,16 +4930,63 @@ setInterval
 >
 {
                         
-if
+for
 (
+const
+a
+of
 window
 .
 __alerts
+)
+{
+                            
+if
+(
+a
 .
 includes
 (
 msg
 )
+)
+{
+                                
+clearInterval
+(
+to
+)
+;
+                                
+done
+(
+a
+)
+;
+                                
+return
+;
+                            
+}
+                        
+}
+                        
+count
++
+=
+interval
+;
+                        
+if
+(
+timeout
+&
+&
+timeout
+*
+1000
+<
+count
 )
 {
                             
@@ -4935,13 +4998,14 @@ to
                             
 done
 (
+false
 )
 ;
                         
 }
                     
 }
-200
+interval
 )
 ;
                
@@ -4953,6 +5017,8 @@ done
 "
             
 text
+            
+timeout
             
 await_promise
 =
