@@ -4027,6 +4027,9 @@ theme
 unlimitedStorage
 "
 "
+userScripts
+"
+"
 webRequest
 "
 "

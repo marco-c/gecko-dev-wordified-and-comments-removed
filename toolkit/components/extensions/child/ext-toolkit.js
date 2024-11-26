@@ -451,6 +451,9 @@ paths
 "
 userScripts
 "
+"
+register
+"
 ]
 ]
 }
