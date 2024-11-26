@@ -221,6 +221,9 @@ contentColor
 FEF7E0
 "
 }
+isDark
+:
+false
 }
 ]
 [
@@ -298,6 +301,9 @@ contentColor
 F5F9F7
 "
 }
+isDark
+:
+false
 }
 ]
 [
@@ -375,6 +381,9 @@ contentColor
 FBE0ED
 "
 }
+isDark
+:
+false
 }
 ]
 [
@@ -452,6 +461,9 @@ contentColor
 F4F0FD
 "
 }
+isDark
+:
+false
 }
 ]
 [
@@ -574,6 +586,9 @@ contentColor
 000511
 "
 }
+isDark
+:
+true
 }
 ]
 [
@@ -651,6 +666,9 @@ contentColor
 060100
 "
 }
+isDark
+:
+true
 }
 ]
 [
@@ -728,6 +746,9 @@ contentColor
 323433
 "
 }
+isDark
+:
+true
 }
 ]
 [
@@ -1922,6 +1943,11 @@ isActive
 themeObj
 .
 colors
+isDark
+:
+themeObj
+.
+isDark
 }
 )
 ;
@@ -1950,6 +1976,11 @@ false
 themeObj
 .
 colors
+isDark
+:
+themeObj
+.
+isDark
 }
 )
 ;
