@@ -971,7 +971,7 @@ name
 menu_settings
 "
 >
-Preferenze
+Parametri
 <
 /
 string
@@ -2191,8 +2191,8 @@ perseguitatori
 (
 o
 mudific
-e
-preferenze
+i
+parametri
 per
 auturizalli
 )
@@ -7611,8 +7611,8 @@ di
 ricerca
 predefinitu
 in
-e
-Preferenze
+i
+parametri
 .
 <
 /
@@ -11343,7 +11343,7 @@ name
 cfr_cookie_banner_link
 "
 >
-preferenze
+parametri
 <
 /
 string
@@ -11429,9 +11429,10 @@ phone_feature_blocked_step_settings
 >
 1
 .
-Andate
-e
-preferenze
+Aprite
+i
+parametri
+d
 Android
 <
 /
@@ -11509,8 +11510,8 @@ phone_feature_go_to_settings
 "
 >
 And
-e
-preferenze
+i
+parametri
 <
 /
 string
@@ -14850,7 +14851,7 @@ Cambiate
 sta
 definizione
 in
-Preferenze
+Parametri
 >
 Vita
 privata
@@ -15384,9 +15385,9 @@ name
 tool_tip_message
 "
 >
-Ste
-preferenze
-predefinite
+Sti
+parametri
+predefiniti
 furniscenu
 una
 prutezzione
@@ -15396,7 +15397,7 @@ Ma
 h
 faciule
 di
-mudificalle
+mudificalli
 per
 suddisf
 i
