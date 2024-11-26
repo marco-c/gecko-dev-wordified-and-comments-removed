@@ -444,17 +444,6 @@ View
 :
 ReaderView
 "
-oncommand
-=
-"
-AboutReaderParent
-.
-toggleReaderMode
-(
-event
-)
-;
-"
 /
 >
 <

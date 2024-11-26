@@ -1861,7 +1861,7 @@ id
 "
 menu_readerModeItem
 "
-observes
+command
 =
 "
 View
