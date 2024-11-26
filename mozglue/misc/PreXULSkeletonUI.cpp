@@ -9871,9 +9871,6 @@ if
 IsSystemDarkThemeEnabled
 (
 )
-=
-=
-true
 )
 {
 themeMode
@@ -9977,13 +9974,6 @@ CreateWindowFailed
 )
 ;
 }
-if
-(
-sDwmGetWindowAttribute
-!
-=
-nullptr
-)
 {
 constexpr
 static
