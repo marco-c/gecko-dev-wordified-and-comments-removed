@@ -284,7 +284,7 @@ EXPECT_DEATH
 (
 corruption_classifier
 .
-CalculateCorruptionProbablility
+CalculateCorruptionProbability
 (
 {
 }
@@ -341,7 +341,7 @@ EXPECT_DEATH
 (
 corruption_classifier
 .
-CalculateCorruptionProbablility
+CalculateCorruptionProbability
 (
 kFilteredOriginalSampleValues
 filtered_compressed_samples
@@ -411,7 +411,7 @@ EXPECT_THAT
 (
 corruption_classifier
 .
-CalculateCorruptionProbablility
+CalculateCorruptionProbability
 (
 kFilteredOriginalSampleValues
 kFilteredCompressedSampleValues
@@ -468,7 +468,7 @@ EXPECT_THAT
 (
 corruption_classifier
 .
-CalculateCorruptionProbablility
+CalculateCorruptionProbability
 (
 kFilteredOriginalSampleValues
 kFilteredCompressedSampleValues
@@ -523,7 +523,7 @@ EXPECT_THAT
 (
 corruption_classifier
 .
-CalculateCorruptionProbablility
+CalculateCorruptionProbability
 (
 kFilteredOriginalSampleValues
 kFilteredCompressedSampleValues
@@ -579,7 +579,7 @@ EXPECT_THAT
 (
 corruption_classifier
 .
-CalculateCorruptionProbablility
+CalculateCorruptionProbability
 (
 kFilteredOriginalSampleValues
 kFilteredCompressedSampleValues
@@ -642,7 +642,7 @@ EXPECT_THAT
 (
 corruption_classifier
 .
-CalculateCorruptionProbablility
+CalculateCorruptionProbability
 (
 kFilteredOriginalSampleValues
 kFilteredCompressedSampleValues
@@ -706,7 +706,7 @@ EXPECT_THAT
 (
 corruption_classifier
 .
-CalculateCorruptionProbablility
+CalculateCorruptionProbability
 (
 kFilteredOriginalSampleValues
 kFilteredCompressedSampleValues
@@ -771,7 +771,7 @@ EXPECT_THAT
 (
 corruption_classifier
 .
-CalculateCorruptionProbablility
+CalculateCorruptionProbability
 (
 kFilteredOriginalSampleValues
 kFilteredCompressedSampleValues
@@ -837,7 +837,7 @@ EXPECT_THAT
 (
 corruption_classifier
 .
-CalculateCorruptionProbablility
+CalculateCorruptionProbability
 (
 kFilteredOriginalSampleValues
 kFilteredCompressedSampleValues
@@ -894,7 +894,7 @@ EXPECT_THAT
 (
 corruption_classifier
 .
-CalculateCorruptionProbablility
+CalculateCorruptionProbability
 (
 kFilteredOriginalSampleValues
 kFilteredCompressedSampleValues
@@ -952,7 +952,7 @@ EXPECT_THAT
 (
 corruption_classifier
 .
-CalculateCorruptionProbablility
+CalculateCorruptionProbability
 (
 kFilteredOriginalSampleValues
 kFilteredCompressedSampleValues
@@ -1009,7 +1009,7 @@ EXPECT_THAT
 (
 corruption_classifier
 .
-CalculateCorruptionProbablility
+CalculateCorruptionProbability
 (
 kFilteredOriginalSampleValues
 kFilteredCompressedSampleValues
@@ -1065,7 +1065,7 @@ EXPECT_THAT
 (
 corruption_classifier
 .
-CalculateCorruptionProbablility
+CalculateCorruptionProbability
 (
 kFilteredOriginalSampleValues
 kFilteredCompressedSampleValues
