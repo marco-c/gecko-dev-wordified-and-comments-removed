@@ -5128,7 +5128,7 @@ line
 >
 mFirstChild
 ;
-StyleClear
+UsedClear
 clearType
 ;
 if
@@ -5147,7 +5147,7 @@ kid
 {
 clearType
 =
-StyleClear
+UsedClear
 :
 :
 Both
@@ -11055,7 +11055,7 @@ aState
 ClearFloats
 (
 blockEndEdgeOfChildren
-StyleClear
+UsedClear
 :
 :
 Both
@@ -14439,7 +14439,7 @@ impacted
 line
 -
 >
-StyleClearToString
+UsedClearToString
 (
 line
 -
@@ -14451,7 +14451,7 @@ FloatClearTypeBefore
 line
 -
 >
-StyleClearToString
+UsedClearToString
 (
 line
 -
@@ -15292,7 +15292,7 @@ aState
 mTrailingClearFromPIF
 !
 =
-StyleClear
+UsedClear
 :
 :
 None
@@ -15500,7 +15500,7 @@ lastLineMovedUp
 =
 false
 ;
-StyleClear
+UsedClear
 inlineFloatClearType
 =
 aState
@@ -15788,7 +15788,7 @@ if
 inlineFloatClearType
 !
 =
-StyleClear
+UsedClear
 :
 :
 None
@@ -15906,7 +15906,7 @@ if
 inlineFloatClearType
 !
 =
-StyleClear
+UsedClear
 :
 :
 None
@@ -15963,7 +15963,7 @@ MarkDirty
 }
 inlineFloatClearType
 =
-StyleClear
+UsedClear
 :
 :
 None
@@ -17219,7 +17219,7 @@ if
 inlineFloatClearType
 !
 =
-StyleClear
+UsedClear
 :
 :
 None
@@ -20439,7 +20439,7 @@ GetWritingMode
 (
 )
 ;
-StyleClear
+UsedClear
 clearType
 =
 frame
@@ -20462,7 +20462,7 @@ aState
 mTrailingClearFromPIF
 !
 =
-StyleClear
+UsedClear
 :
 :
 None
@@ -20485,7 +20485,7 @@ aState
 .
 mTrailingClearFromPIF
 =
-StyleClear
+UsedClear
 :
 :
 None
@@ -20503,7 +20503,7 @@ if
 clearType
 !
 =
-StyleClear
+UsedClear
 :
 :
 None
@@ -20565,7 +20565,7 @@ mightClearFloats
 clearType
 !
 =
-StyleClear
+UsedClear
 :
 :
 None
@@ -21861,7 +21861,7 @@ aState
 ClearFloats
 (
 newBCoord
-StyleClear
+UsedClear
 :
 :
 None
@@ -24986,7 +24986,7 @@ aState
 mTrailingClearFromPIF
 !
 =
-StyleClear
+UsedClear
 :
 :
 None
@@ -25072,7 +25072,7 @@ aState
 mTrailingClearFromPIF
 !
 =
-StyleClear
+UsedClear
 :
 :
 None
@@ -25095,7 +25095,7 @@ branch
 "
 )
 ;
-StyleClear
+UsedClear
 clearType
 =
 frameReflowStatus
@@ -25111,7 +25111,7 @@ aState
 mTrailingClearFromPIF
 !
 =
-StyleClear
+UsedClear
 :
 :
 None
@@ -25134,7 +25134,7 @@ aState
 .
 mTrailingClearFromPIF
 =
-StyleClear
+UsedClear
 :
 :
 None
@@ -25145,7 +25145,7 @@ if
 clearType
 !
 =
-StyleClear
+UsedClear
 :
 :
 None
@@ -25562,7 +25562,7 @@ NS_FRAME_IS_OVERFLOW_CONTAINER
 )
 ;
 }
-StyleFloat
+UsedFloat
 floatStyle
 =
 aFloat
@@ -25589,7 +25589,7 @@ if
 floatStyle
 =
 =
-StyleFloat
+UsedFloat
 :
 :
 Left
@@ -25614,7 +25614,7 @@ MOZ_ASSERT
 floatStyle
 =
 =
-StyleFloat
+UsedFloat
 :
 :
 Right
@@ -36738,7 +36738,7 @@ aFloatRI
 )
 ;
 }
-StyleClear
+UsedClear
 nsBlockFrame
 :
 :
@@ -36807,7 +36807,7 @@ FloatClearTypeAfter
 }
 }
 return
-StyleClear
+UsedClear
 :
 :
 None
@@ -37123,7 +37123,7 @@ aState
 ClearFloats
 (
 0
-StyleClear
+UsedClear
 :
 :
 Both

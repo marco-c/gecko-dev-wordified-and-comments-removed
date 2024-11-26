@@ -2001,7 +2001,7 @@ aOverflowAreas
 mozilla
 :
 :
-StyleClear
+UsedClear
 FindTrailingClear
 (
 )

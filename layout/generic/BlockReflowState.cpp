@@ -216,7 +216,7 @@ mLineNumber
 )
 mTrailingClearFromPIF
 (
-StyleClear
+UsedClear
 :
 :
 None
@@ -3672,7 +3672,7 @@ PlaceFloatResult
 ShouldPlaceBelowCurrentLine
 ;
 }
-StyleFloat
+UsedFloat
 floatStyle
 =
 floatDisplay
@@ -3685,7 +3685,7 @@ wm
 ;
 MOZ_ASSERT
 (
-StyleFloat
+UsedFloat
 :
 :
 Left
@@ -3694,7 +3694,7 @@ Left
 floatStyle
 |
 |
-StyleFloat
+UsedFloat
 :
 :
 Right
@@ -3828,7 +3828,7 @@ leftFloat
 floatStyle
 =
 =
-StyleFloat
+UsedFloat
 :
 :
 Left
@@ -4858,7 +4858,7 @@ GetWritingMode
 (
 )
 ;
-StyleFloat
+UsedFloat
 floatStyle
 =
 aFloat
@@ -4879,7 +4879,7 @@ if
 floatStyle
 =
 =
-StyleFloat
+UsedFloat
 :
 :
 Left
@@ -4902,7 +4902,7 @@ MOZ_ASSERT
 floatStyle
 =
 =
-StyleFloat
+UsedFloat
 :
 :
 Right
@@ -5147,7 +5147,7 @@ ClearFloats
 (
 nscoord
 aBCoord
-StyleClear
+UsedClear
 aClearType
 nsIFrame
 *
@@ -5231,7 +5231,7 @@ if
 aClearType
 !
 =
-StyleClear
+UsedClear
 :
 :
 None
