@@ -2601,13 +2601,6 @@ uint8_t
 identifier
 )
 {
-identifier
-.
-resize
-(
-kMDGUIDSize
-)
-;
 void
 *
 text_section
@@ -2649,6 +2642,13 @@ return
 false
 ;
 }
+identifier
+.
+resize
+(
+kMDGUIDSize
+)
+;
 memset
 (
 &
