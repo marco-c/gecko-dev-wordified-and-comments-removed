@@ -53,8 +53,6 @@ uint64_t
 delta_bit_width
 bool
 signed_deltas
-bool
-values_optional
 uint64_t
 value_bit_width
 )

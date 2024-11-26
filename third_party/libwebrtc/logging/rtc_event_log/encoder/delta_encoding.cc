@@ -465,8 +465,6 @@ uint64_t
 delta_width_bits
 bool
 signed_deltas
-bool
-values_optional
 uint64_t
 value_width_bits
 )
@@ -553,7 +551,6 @@ ValidParameters
 (
 delta_width_bits
 signed_deltas
-values_optional
 value_width_bits
 )
 )
@@ -3025,7 +3022,6 @@ ValidParameters
 (
 delta_width_bits
 signed_deltas
-values_optional
 value_width_bits
 )
 )

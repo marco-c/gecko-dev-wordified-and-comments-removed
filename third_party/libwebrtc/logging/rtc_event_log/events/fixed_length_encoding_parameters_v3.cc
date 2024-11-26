@@ -320,7 +320,6 @@ ValidParameters
 (
 delta_bit_width
 use_signed_deltas
-values_optional
 value_bit_width
 )
 )
@@ -509,7 +508,6 @@ ValidParameters
 (
 delta_bit_width
 signed_deltas
-values_optional
 value_bit_width
 )
 )
