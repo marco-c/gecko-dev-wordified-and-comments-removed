@@ -1827,6 +1827,17 @@ _LAST_ACTION_CLOSED_WINDOW
 ;
 }
 get
+savedGroups
+(
+)
+{
+return
+SessionStoreInternal
+.
+_savedGroups
+;
+}
+get
 willAutoRestore
 (
 )
