@@ -3310,12 +3310,12 @@ width
 :
 window
 .
-innerWidth
+outerWidth
 height
 :
 window
 .
-innerHeight
+outerHeight
 }
 ;
 document
@@ -3857,7 +3857,7 @@ screenX
 +
 window
 .
-innerWidth
+outerWidth
 /
 2
 ;
@@ -3870,7 +3870,7 @@ screenY
 +
 window
 .
-innerHeight
+outerHeight
 /
 2
 ;
