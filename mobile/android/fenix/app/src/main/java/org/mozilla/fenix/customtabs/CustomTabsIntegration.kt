@@ -874,7 +874,8 @@ CustomTabsColorsConfig
 (
 updateStatusBarColor
 =
-false
+!
+isPrivate
 updateSystemNavigationBarColor
 =
 false
