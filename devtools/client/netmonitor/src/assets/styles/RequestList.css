@@ -3191,6 +3191,17 @@ waterfall
 background
 )
 ;
+:
+root
+[
+forced
+-
+colors
+-
+active
+]
+&
+{
 /
 *
 Make
@@ -3201,7 +3212,7 @@ background
 is
 visible
 in
-high
+High
 Contrast
 Mode
 *
@@ -3243,6 +3254,7 @@ adjust
 :
 auto
 ;
+}
 }
 }
 .
