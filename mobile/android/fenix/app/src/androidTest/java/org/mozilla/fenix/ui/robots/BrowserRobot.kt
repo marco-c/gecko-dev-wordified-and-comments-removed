@@ -5462,7 +5462,7 @@ LocalDate
 now
 (
 )
-assertUIObjectExists
+assertTrue
 (
 itemContainingText
 (
@@ -5474,9 +5474,11 @@ is
 currentDate
 "
 )
-exists
-=
-false
+.
+waitUntilGone
+(
+waitingTime
+)
 )
 }
 fun
