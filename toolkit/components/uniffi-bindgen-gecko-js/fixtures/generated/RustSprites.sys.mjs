@@ -999,7 +999,7 @@ readPointerSprite
 const
 pointerId
 =
-13
+17
 ;
 /
 /
@@ -1082,7 +1082,7 @@ value
 const
 pointerId
 =
-13
+17
 ;
 /
 /
@@ -1911,7 +1911,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-147
+172
 /
 /
 sprites
@@ -2084,7 +2084,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-148
+173
 /
 /
 sprites
@@ -2190,7 +2190,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-144
+169
 /
 /
 sprites
@@ -2316,7 +2316,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-145
+170
 /
 /
 sprites
@@ -2448,7 +2448,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-146
+171
 /
 /
 sprites
@@ -3729,7 +3729,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-143
+168
 /
 /
 sprites

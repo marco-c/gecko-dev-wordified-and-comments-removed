@@ -2349,6 +2349,13 @@ js
 components
 /
 "
+features
+=
+[
+"
+xpcom
+"
+]
 }
 gkrust
 -
@@ -2382,6 +2389,13 @@ js
 fixtures
 /
 "
+features
+=
+[
+"
+xpcom
+"
+]
 optional
 =
 true

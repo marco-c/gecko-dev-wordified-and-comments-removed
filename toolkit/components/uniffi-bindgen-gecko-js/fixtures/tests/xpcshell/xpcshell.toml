@@ -31,6 +31,13 @@ js
 ]
 [
 "
+test_futures
+.
+js
+"
+]
+[
+"
 test_geometry
 .
 js

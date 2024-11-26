@@ -117,6 +117,8 @@ raw_suggestion_url_matches
 "
 "
 SuggestStore
+.
+new
 "
 "
 SuggestStore
@@ -125,6 +127,8 @@ interrupt
 "
 "
 SuggestStoreBuilder
+.
+new
 "
 "
 SuggestStoreBuilder
@@ -200,6 +204,8 @@ main_thread
 [
 "
 RelevancyStore
+.
+new
 "
 "
 RelevancyStore
@@ -263,6 +269,8 @@ main_thread
 [
 "
 RemoteSettings
+.
+new
 "
 ]
 [

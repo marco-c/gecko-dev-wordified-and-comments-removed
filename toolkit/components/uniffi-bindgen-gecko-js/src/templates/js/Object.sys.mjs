@@ -218,8 +218,9 @@ cons
 type_
 object
 .
-use_async_wrapper_for_constructor
+call_style_for_constructor
 (
+cons
 config
 )
 )
@@ -291,7 +292,7 @@ meth
 type_
 object
 .
-use_async_wrapper_for_method
+call_style_for_method
 (
 meth
 config
