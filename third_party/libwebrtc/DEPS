@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-5722d823555d7db595c78de2d7272978be43029b
+88d7d488e5d1d8625bb2e68f015b9e881ea16120
 '
 #
 Fetch
@@ -1111,7 +1111,7 @@ project
 libcxxabi
 .
 git
-ae0729a01204f2cdf7304b69590c9606539520c6
+829f51051ce2b51be14f7853cca71be98083df6b
 '
 '
 src
@@ -1537,7 +1537,7 @@ version
 '
 :
 '
-V6_XfH4kpaWINZD2dKHYp2_PuYLe0ay7fzbaY2HUrSMC
+15eqqvDTRtPu1Sy8b4WuOiqkivE9ibCjSdoOtqJYyBEC
 '
 }
 ]
@@ -2121,7 +2121,7 @@ third_party
 freetype2
 .
 git
-83af801b552111e37d9466a887e1783a0fb5f196
+c82745878da1acef2ce6bd7e17a8d59b8612d509
 '
 '
 src
@@ -2632,9 +2632,7 @@ version
 '
 :
 '
-sM4BDDeBT0q8
--
-CGW_b8KvNMIyDvVB4r6GCaTIkC51lMC
+5lJOPRAms_Yty4OyjHlXdB_6UFqzeGHM6YuuuUZ3P9MC
 '
 }
 ]
@@ -2983,7 +2981,7 @@ external
 perfetto
 .
 git
-136de5ccd7163261020064db944bb07bf5f5cf12
+a27464ae70191450018759f1e7d8140d1e807bd1
 '
 '
 src
@@ -3350,7 +3348,7 @@ version
 '
 :
 '
-I9NkcalmFScQACQtkXVKfzARFBmSev5KPsswXhNBQy8C
+Vw4Ch7k1MIcGy2EYCmf4gIRSZr8KSEr0E5ho9L2zcPUC
 '
 }
 ]
@@ -3783,9 +3781,7 @@ version
 '
 :
 '
-nF0aNBggEihalcCW3jCKPV8O
--
-xsiz2xTWqzRjbCLyIYC
+SXrT41DFdxtTN78HQooJiwMnwvQg7mHm4fTvrJc0_7MC
 '
 }
 ]
