@@ -130,6 +130,9 @@ namespace
 mozilla
 {
 class
+ISVGFilterObserverList
+;
+class
 SVGFilterFrame
 ;
 namespace
@@ -228,7 +231,7 @@ const
 StyleFilter
 >
 aFilterChain
-nsISupports
+ISVGFilterObserverList
 *
 aFiltersObserverList
 bool
