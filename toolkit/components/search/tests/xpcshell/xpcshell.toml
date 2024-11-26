@@ -1021,13 +1021,6 @@ js
 ]
 [
 "
-test_settings_migrate_icons
-.
-js
-"
-]
-[
-"
 test_settings
 .
 js
@@ -1112,6 +1105,13 @@ js
 [
 "
 test_settings_good
+.
+js
+"
+]
+[
+"
+test_settings_migrate_icons
 .
 js
 "

@@ -1014,6 +1014,13 @@ js
 ]
 [
 "
+browser_contextualsearch_install
+.
+js
+"
+]
+[
+"
 browser_copy_and_paste_first_result
 .
 js
