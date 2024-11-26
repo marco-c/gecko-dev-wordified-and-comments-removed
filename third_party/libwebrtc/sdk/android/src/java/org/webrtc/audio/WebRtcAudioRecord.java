@@ -1348,12 +1348,10 @@ framesPerBuffer
 if
 (
 !
-(
 byteBuffer
 .
 hasArray
 (
-)
 )
 )
 {
@@ -3971,7 +3969,6 @@ devB
 {
 return
 (
-(
 devA
 .
 getId
@@ -3998,7 +3995,6 @@ devB
 .
 getType
 (
-)
 )
 )
 )
