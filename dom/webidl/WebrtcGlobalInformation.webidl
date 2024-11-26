@@ -121,6 +121,10 @@ required
 boolean
 hasH264Hardware
 ;
+required
+boolean
+hasAv1
+;
 }
 ;
 callback
