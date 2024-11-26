@@ -242,6 +242,8 @@ probe
 Only
 supports
 Events
+and
+Scalars
 .
 "
 )
