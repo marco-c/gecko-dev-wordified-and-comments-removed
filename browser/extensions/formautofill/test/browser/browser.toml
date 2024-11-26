@@ -353,6 +353,13 @@ js
 ]
 [
 "
+browser_ml_model
+.
+js
+"
+]
+[
+"
 browser_page_navigation_in_subtree
 .
 js
