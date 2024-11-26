@@ -325,12 +325,6 @@ HasH264Hardware
 (
 )
 ;
-static
-bool
-HasAv1
-(
-)
-;
 Maybe
 <
 int

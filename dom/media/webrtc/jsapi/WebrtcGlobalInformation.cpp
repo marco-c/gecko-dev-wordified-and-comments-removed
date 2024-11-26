@@ -1471,17 +1471,6 @@ HasH264Hardware
 (
 )
 ;
-aContext
-.
-mHasAv1
-=
-WebrtcVideoConduit
-:
-:
-HasAv1
-(
-)
-;
 }
 using
 StatsPromiseArray
