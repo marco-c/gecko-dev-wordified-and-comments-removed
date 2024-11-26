@@ -270,6 +270,7 @@ mURI
 loadFlags
 loadInfoArgs
 mContentType
+mChannelId
 )
 ;
 SendNotifyListeners
