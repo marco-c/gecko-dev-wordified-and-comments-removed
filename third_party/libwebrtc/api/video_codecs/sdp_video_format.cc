@@ -573,7 +573,14 @@ case
 kVideoCodecH265
 :
 return
-H265IsSameProfileTierLevel
+H265IsSameProfile
+(
+params1
+params2
+)
+&
+&
+H265IsSameTier
 (
 params1
 params2

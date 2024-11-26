@@ -3124,7 +3124,7 @@ kH265FmtpLevelId
 =
 kLevel4
 ;
-EXPECT_FALSE
+EXPECT_TRUE
 (
 c_ptl_blank
 .
