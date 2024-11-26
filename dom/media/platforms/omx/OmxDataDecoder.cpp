@@ -3677,7 +3677,13 @@ mPortSettingsChanged
 ;
 mPortSettingsChanged
 =
+AssertedCast
+<
+int32_t
+>
+(
 aData1
+)
 ;
 }
 LOG
@@ -3742,11 +3748,11 @@ d
 aData1
 :
 %
-ld
+lu
 aData2
 :
 %
-ld
+lu
 "
 aEvent
 aData1
@@ -5189,7 +5195,7 @@ video
 .
 nStride
 ;
-int32_t
+uint32_t
 slice_height
 =
 mOutputPortDef
