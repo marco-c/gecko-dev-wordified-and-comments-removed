@@ -411,6 +411,12 @@ _
 ISHTMLDDA_FUSE
 IsHTMLDDAFuse
 )
+\
+_
+(
+OPTIMIZE_GET_ITERATOR_FUSE
+OptimizeGetIteratorFuse
+)
 #
 define
 ENUM_DEF
