@@ -545,8 +545,10 @@ if
 !
 gInitialized
 )
+{
 return
 ;
+}
 gInitialized
 =
 false
@@ -951,9 +953,11 @@ if
 !
 aResult
 )
+{
 return
 NS_ERROR_NULL_POINTER
 ;
+}
 *
 aResult
 =
@@ -975,9 +979,11 @@ if
 !
 obj
 )
+{
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
+}
 if
 (
 NS_FAILED
@@ -992,9 +998,11 @@ aResult
 )
 )
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 return
 NS_OK
 ;
