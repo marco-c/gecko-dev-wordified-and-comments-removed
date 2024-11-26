@@ -418,6 +418,10 @@ world
 "
 USER_SCRIPT
 "
+worldId
+:
+"
+"
 }
 ;
 browser
@@ -918,6 +922,10 @@ world
 "
 USER_SCRIPT
 "
+worldId
+:
+"
+"
 }
 ;
 const
@@ -1039,6 +1047,10 @@ world
 :
 "
 MAIN
+"
+worldId
+:
+"
 "
 }
 ;
@@ -1670,6 +1682,10 @@ world
 :
 "
 MAIN
+"
+worldId
+:
+"
 "
 }
 ;
@@ -3256,6 +3272,9 @@ runAt
 :
 null
 world
+:
+null
+worldId
 :
 null
 }
