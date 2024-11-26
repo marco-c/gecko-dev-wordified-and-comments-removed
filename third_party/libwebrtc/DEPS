@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-88d7d488e5d1d8625bb2e68f015b9e881ea16120
+8f3f0217725facf6e465271c5dfd5b0ea5de5843
 '
 #
 Fetch
@@ -2792,7 +2792,7 @@ google
 fuzztest
 .
 git
-f0177b98d4d5f17a0bd448852d66d3e9a2c8fe86
+0021f30508bc7f73fa5270962d022acb480d242f
 '
 '
 src
@@ -2981,7 +2981,7 @@ external
 perfetto
 .
 git
-a27464ae70191450018759f1e7d8140d1e807bd1
+e70a476e072ffdada0dc08685458d7e57d8aa514
 '
 '
 src
