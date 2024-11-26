@@ -617,7 +617,7 @@ rectangle
 <
 >
 <
-header
+h3
 className
 =
 "
@@ -630,7 +630,7 @@ title
 }
 <
 /
-header
+h3
 >
 {
 excerpt
@@ -687,7 +687,7 @@ rectangle
 <
 >
 <
-header
+h3
 className
 =
 "
@@ -698,7 +698,7 @@ clamp
 Sponsored
 <
 /
-header
+h3
 >
 <
 p
@@ -4737,7 +4737,7 @@ wrap
 "
 >
 <
-header
+h3
 className
 =
 "
@@ -4754,7 +4754,7 @@ title
 }
 <
 /
-header
+h3
 >
 <
 /

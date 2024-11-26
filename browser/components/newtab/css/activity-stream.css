@@ -53065,7 +53065,7 @@ ds
 card
 .
 active
-header
+h3
 .
 ds
 -
@@ -53074,14 +53074,14 @@ card
 focus
 -
 within
-header
+h3
 .
 ds
 -
 card
 :
 hover
-header
+h3
 {
 color
 :
@@ -53105,7 +53105,7 @@ ds
 card
 :
 active
-header
+h3
 {
 color
 :
@@ -54388,7 +54388,7 @@ large
 ds
 -
 card
-header
+h3
 {
 line
 -
