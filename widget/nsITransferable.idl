@@ -303,6 +303,16 @@ gif
 "
 #
 define
+kSVGImageMime
+"
+image
+/
+svg
++
+xml
+"
+#
+define
 kFileMime
 "
 application

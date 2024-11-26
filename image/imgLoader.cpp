@@ -13627,13 +13627,7 @@ mimeType
 .
 EqualsLiteral
 (
-"
-image
-/
-svg
-+
-xml
-"
+IMAGE_SVG_XML
 )
 )
 {

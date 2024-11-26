@@ -742,14 +742,7 @@ nsContentUtils
 :
 FindInternalDocumentViewer
 (
-"
-image
-/
-svg
-+
-xml
-"
-_ns
+SVG_CONTENT_TYPE
 )
 ;
 NS_ASSERTION
