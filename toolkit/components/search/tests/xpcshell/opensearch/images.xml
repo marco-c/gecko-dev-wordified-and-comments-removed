@@ -172,12 +172,12 @@ Image
 width
 =
 "
-74
+256
 "
 height
 =
 "
-74
+256
 "
 >
 data
@@ -187,7 +187,7 @@ image
 png
 ;
 base64
-ico74
+ico256
 <
 /
 Image
