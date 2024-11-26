@@ -1457,6 +1457,11 @@ sel
 .
 content
 +
+"
+\
+n
+"
++
 content_to_add
         
 before_image_1
