@@ -6372,6 +6372,15 @@ mDecodeStats
 IsDecodingSlow
 (
 )
+&
+&
+!
+StaticPrefs
+:
+:
+media_ffmpeg_disable_software_fallback
+(
+)
 )
 {
 PROFILER_MARKER_TEXT
@@ -6400,7 +6409,7 @@ HW
 decoding
 is
 slow
-switch
+switching
 back
 to
 SW
@@ -6419,7 +6428,7 @@ HW
 decoding
 is
 slow
-switch
+switching
 back
 to
 SW
