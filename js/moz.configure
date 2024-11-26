@@ -4930,9 +4930,6 @@ wasm_moz_intgemm
 )
 depends
 (
-milestone
-.
-is_nightly
 "
 -
 -
@@ -4945,7 +4942,6 @@ target
 def
 default_wasm_memory64
 (
-is_nightly
 simulator
 target
 )
@@ -4975,9 +4971,6 @@ mips32
 "
 :
 return
-if
-is_nightly
-:
 return
 True
 option
@@ -5025,15 +5018,6 @@ enable
 simulator
 "
 target
-"
--
--
-wasm
--
-no
--
-experimental
-"
 )
 def
 wasm_memory64
@@ -5041,12 +5025,9 @@ wasm_memory64
 value
 simulator
 target
-no_experimental
 )
 :
 if
-no_experimental
-or
 not
 value
 :

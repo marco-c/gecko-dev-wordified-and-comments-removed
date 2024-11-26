@@ -51826,7 +51826,7 @@ ENABLE_WASM_MEMORY64
 )
 value
 :
-IS_NIGHTLY_BUILD
+true
 #
 else
 value
