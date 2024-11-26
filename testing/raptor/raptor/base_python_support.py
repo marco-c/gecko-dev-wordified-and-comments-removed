@@ -1856,7 +1856,10 @@ powerUsage
 "
 )
                             
+dict
+(
 default_power_settings
+)
                         
 )
 .
@@ -1897,7 +1900,10 @@ powerUsage
 "
 )
                         
+dict
+(
 default_power_settings
+)
                     
 )
 .
@@ -1957,7 +1963,10 @@ setdefault
 "
 powerUsage
 "
+dict
+(
 default_power_settings
+)
                 
 )
 .
@@ -2108,7 +2117,10 @@ setdefault
 "
 cpuTime
 "
+dict
+(
 default_cputime_settings
+)
                 
 )
 .
@@ -2162,17 +2174,20 @@ cpuTime_measurements
 .
 setdefault
 (
+                    
 "
 cpuTime
 "
+dict
+(
 default_cputime_settings
 )
+                
+)
 [
-                    
 "
 replicates
 "
-                
 ]
 =
 cpu_vals
