@@ -173,13 +173,6 @@ GetSelection
 )
 ;
 void
-SetIgnoreUserModify
-(
-bool
-aIgnoreUserModify
-)
-;
-void
 SetVisible
 (
 bool
@@ -621,11 +614,6 @@ bool
 mShowDuringSelection
 =
 false
-;
-bool
-mIgnoreUserModify
-=
-true
 ;
 bool
 mFixedCaretPosition

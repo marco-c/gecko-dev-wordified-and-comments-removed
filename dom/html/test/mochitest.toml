@@ -1999,13 +1999,6 @@ html
 ]
 [
 "
-test_bug442801
-.
-html
-"
-]
-[
-"
 test_bug445004
 .
 html

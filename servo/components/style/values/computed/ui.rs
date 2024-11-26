@@ -76,7 +76,6 @@ MozTheme
 PointerEvents
 UserFocus
 UserInput
-UserModify
 UserSelect
 }
 ;

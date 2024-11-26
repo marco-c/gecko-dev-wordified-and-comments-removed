@@ -15613,14 +15613,6 @@ false
 caret
 -
 >
-SetIgnoreUserModify
-(
-true
-)
-;
-caret
--
->
 SetSelection
 (
 domSelection

@@ -676,13 +676,6 @@ BINPATH
 /
 res
 /
-designmode
-.
-css
-BINPATH
-/
-res
-/
 table
 -
 add
