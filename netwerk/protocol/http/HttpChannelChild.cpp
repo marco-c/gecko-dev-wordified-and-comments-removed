@@ -11706,6 +11706,14 @@ LoadIsUserAgentHeaderModified
 (
 )
 ;
+openArgs
+.
+initiatorType
+(
+)
+=
+mInitiatorType
+;
 RefPtr
 <
 Document

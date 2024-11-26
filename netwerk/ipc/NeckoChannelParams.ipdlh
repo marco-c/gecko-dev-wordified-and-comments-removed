@@ -1040,6 +1040,9 @@ documentCharacterSet
 bool
 isUserAgentHeaderModified
 ;
+nsString
+initiatorType
+;
 }
 ;
 struct

@@ -524,9 +524,6 @@ redirectEnd
 The
 initiator
 type
-[
-noscript
-]
 attribute
 AString
 initiatorType
