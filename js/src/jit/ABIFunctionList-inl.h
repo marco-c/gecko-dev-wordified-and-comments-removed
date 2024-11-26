@@ -174,15 +174,6 @@ h
 #
 include
 "
-js
-/
-Utility
-.
-h
-"
-#
-include
-"
 proxy
 /
 Proxy
@@ -556,11 +547,6 @@ js
 :
 :
 ExecuteRegExpAtomRaw
-)
-\
-_
-(
-js_free
 )
 \
 _

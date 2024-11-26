@@ -24436,13 +24436,6 @@ templateObj
 public
 :
 void
-callFreeStub
-(
-Register
-slots
-)
-;
-void
 createGCObject
 (
 Register
