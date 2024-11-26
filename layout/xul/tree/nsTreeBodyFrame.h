@@ -1664,6 +1664,7 @@ nsITreeView
 :
 DROP_ON
 )
+{
 InvalidateRow
 (
 aRow
@@ -1671,6 +1672,7 @@ aRow
 aOrientation
 )
 ;
+}
 }
 public
 :

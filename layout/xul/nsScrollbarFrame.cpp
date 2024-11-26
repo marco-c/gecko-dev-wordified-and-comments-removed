@@ -1735,6 +1735,7 @@ aDirection
 -
 1
 )
+{
 mIncrement
 =
 -
@@ -1746,7 +1747,9 @@ GetCurrentPosition
 content
 )
 ;
+}
 else
+{
 mIncrement
 =
 nsSliderFrame
@@ -1765,6 +1768,7 @@ GetCurrentPosition
 content
 )
 ;
+}
 }
 int32_t
 nsScrollbarFrame

@@ -1499,8 +1499,10 @@ if
 !
 sourceNode
 )
+{
 return
 ;
+}
 Document
 *
 doc
@@ -3148,6 +3150,7 @@ if
 (
 instance
 )
+{
 instance
 -
 >
@@ -3155,6 +3158,7 @@ ShowTooltip
 (
 )
 ;
+}
 }
 XULTreeElement
 *

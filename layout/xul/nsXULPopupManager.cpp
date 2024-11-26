@@ -2979,9 +2979,11 @@ IsElement
 (
 )
 )
+{
 return
 false
 ;
+}
 Element
 *
 element
@@ -3012,9 +3014,11 @@ _true
 eCaseMatters
 )
 )
+{
 return
 true
 ;
+}
 if
 (
 element
@@ -3034,9 +3038,11 @@ _false
 eCaseMatters
 )
 )
+{
 return
 false
 ;
+}
 nsAutoString
 value
 ;
@@ -3116,9 +3122,11 @@ PopupType
 :
 Panel
 )
+{
 return
 true
 ;
+}
 return
 !
 frame
@@ -3636,9 +3644,11 @@ if
 !
 menuPopupFrame
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -3649,9 +3659,11 @@ IsVisible
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 nsIWidget
 *
 widget
@@ -3676,9 +3688,11 @@ IsVisible
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 menuPopupFrame
 ;
@@ -4687,6 +4701,7 @@ onMenuBar
 !
 onmenu
 )
+{
 position
 .
 AssignLiteral
@@ -4696,7 +4711,9 @@ after_start
 "
 )
 ;
+}
 else
+{
 position
 .
 AssignLiteral
@@ -4706,6 +4723,7 @@ end_before
 "
 )
 ;
+}
 popupFrame
 -
 >
@@ -4993,8 +5011,10 @@ MayShowPopup
 popupFrame
 )
 )
+{
 return
 ;
+}
 PendingPopup
 pendingPopup
 (
@@ -5803,8 +5823,10 @@ MayShowPopup
 popupFrame
 )
 )
+{
 return
 ;
+}
 PendingPopup
 pendingPopup
 (
@@ -6048,8 +6070,10 @@ if
 !
 window
 )
+{
 return
 ;
+}
 auto
 *
 piWindow
@@ -6085,8 +6109,10 @@ if
 !
 focusedDoc
 )
+{
 return
 ;
+}
 PresShell
 *
 presShell
@@ -6125,8 +6151,10 @@ if
 !
 caret
 )
+{
 return
 ;
+}
 caret
 -
 >
@@ -7538,6 +7566,7 @@ popupToHide
 =
 aLastPopup
 )
+{
 nextPopup
 =
 parent
@@ -7547,6 +7576,7 @@ Element
 (
 )
 ;
+}
 nsMenuPopupFrame
 *
 popupFrame
@@ -7575,8 +7605,10 @@ state
 =
 ePopupHiding
 )
+{
 return
 ;
+}
 if
 (
 state
@@ -7584,6 +7616,7 @@ state
 =
 ePopupInvisible
 )
+{
 popupFrame
 -
 >
@@ -7592,6 +7625,7 @@ SetPopupState
 ePopupHiding
 )
 ;
+}
 RefPtr
 <
 nsPresContext
@@ -7770,6 +7804,7 @@ if
 (
 wframe
 )
+{
 *
 wframe
 =
@@ -7778,6 +7813,7 @@ aFrames
 f
 ]
 ;
+}
 }
 for
 (
@@ -7887,9 +7923,11 @@ docShellItem
 =
 aExpected
 )
+{
 return
 true
 ;
+}
 nsCOMPtr
 <
 nsIDocShellTreeItem
@@ -9816,9 +9854,11 @@ if
 !
 aDocument
 )
+{
 return
 nullptr
 ;
+}
 RefPtr
 <
 nsINode
@@ -10161,9 +10201,11 @@ state
 =
 ePopupInvisible
 )
+{
 return
 false
 ;
+}
 if
 (
 IsPopupOpen
@@ -10772,9 +10814,11 @@ IsContextMenu
 (
 )
 )
+{
 return
 true
 ;
+}
 item
 =
 item
@@ -10823,8 +10867,10 @@ Element
 (
 )
 )
+{
 return
 ;
+}
 if
 (
 mWidget
@@ -11345,6 +11391,7 @@ disabled
 commandValue
 )
 )
+{
 grandChildElement
 -
 >
@@ -11359,7 +11406,9 @@ commandValue
 true
 )
 ;
+}
 else
+{
 grandChildElement
 -
 >
@@ -11373,6 +11422,7 @@ disabled
 true
 )
 ;
+}
 if
 (
 commandElement
@@ -11387,6 +11437,7 @@ label
 commandValue
 )
 )
+{
 grandChildElement
 -
 >
@@ -11401,6 +11452,7 @@ commandValue
 true
 )
 ;
+}
 if
 (
 commandElement
@@ -11415,6 +11467,7 @@ accesskey
 commandValue
 )
 )
+{
 grandChildElement
 -
 >
@@ -11429,6 +11482,7 @@ commandValue
 true
 )
 ;
+}
 if
 (
 commandElement
@@ -11443,6 +11497,7 @@ checked
 commandValue
 )
 )
+{
 grandChildElement
 -
 >
@@ -11457,6 +11512,7 @@ commandValue
 true
 )
 ;
+}
 if
 (
 commandElement
@@ -11471,6 +11527,7 @@ hidden
 commandValue
 )
 )
+{
 grandChildElement
 -
 >
@@ -11485,6 +11542,7 @@ commandValue
 true
 )
 ;
+}
 }
 }
 }
@@ -13602,9 +13660,11 @@ PopupType
 :
 Menu
 )
+{
 return
 NS_OK
 ;
+}
 if
 (
 item
@@ -13738,9 +13798,11 @@ PopupType
 Menu
 )
 )
+{
 return
 NS_OK
 ;
+}
 if
 (
 !

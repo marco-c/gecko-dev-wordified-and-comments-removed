@@ -118,10 +118,12 @@ IsAsciiSpace
 iter
 )
 )
+{
 +
 +
 iter
 ;
+}
 if
 (
 iter
@@ -129,8 +131,10 @@ iter
 =
 end
 )
+{
 break
 ;
+}
 nsAString
 :
 :
@@ -157,10 +161,12 @@ IsAsciiSpace
 iter
 )
 )
+{
 +
 +
 iter
 ;
+}
 NS_ASSERTION
 (
 iter
@@ -185,8 +191,10 @@ iter
 =
 first
 )
+{
 break
 ;
+}
 RefPtr
 <
 nsAtom

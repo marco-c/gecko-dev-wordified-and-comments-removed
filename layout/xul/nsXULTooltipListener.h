@@ -148,6 +148,7 @@ if
 !
 sInstance
 )
+{
 sInstance
 =
 new
@@ -155,6 +156,7 @@ nsXULTooltipListener
 (
 )
 ;
+}
 return
 sInstance
 ;
