@@ -27,6 +27,11 @@ map
 #
 include
 <
+optional
+>
+#
+include
+<
 set
 >
 #
@@ -182,6 +187,10 @@ VideoContentType
 :
 UNSPECIFIED
 video_header
+std
+:
+:
+nullopt
 std
 :
 :

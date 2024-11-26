@@ -20,6 +20,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 vector
 >
 #
@@ -253,6 +258,10 @@ VideoContentType
 :
 UNSPECIFIED
 rtp_video_header
+std
+:
+:
+nullopt
 std
 :
 :

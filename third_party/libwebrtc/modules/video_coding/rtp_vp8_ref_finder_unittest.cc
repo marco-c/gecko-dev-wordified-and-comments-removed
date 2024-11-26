@@ -12,6 +12,11 @@ h
 #
 include
 <
+optional
+>
+#
+include
+<
 utility
 >
 #
@@ -393,6 +398,10 @@ VideoContentType
 :
 UNSPECIFIED
 video_header
+std
+:
+:
+nullopt
 std
 :
 :
