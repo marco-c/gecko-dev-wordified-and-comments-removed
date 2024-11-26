@@ -164,7 +164,7 @@ Dlrr
 public
 :
 static
-const
+constexpr
 uint8_t
 kBlockType
 =
@@ -292,14 +292,14 @@ sub_blocks_
 private
 :
 static
-const
+constexpr
 size_t
 kBlockHeaderLength
 =
 4
 ;
 static
-const
+constexpr
 size_t
 kSubBlockLength
 =

@@ -74,13 +74,6 @@ kFlageXtendedOffset
 0x02
 ;
 }
-constexpr
-RTPExtensionType
-RtpGenericFrameDescriptorExtension00
-:
-:
-kId
-;
 bool
 RtpGenericFrameDescriptorExtension00
 :

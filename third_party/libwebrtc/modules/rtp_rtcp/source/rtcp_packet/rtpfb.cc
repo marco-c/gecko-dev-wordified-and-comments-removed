@@ -32,13 +32,6 @@ webrtc
 namespace
 rtcp
 {
-constexpr
-uint8_t
-Rtpfb
-:
-:
-kPacketType
-;
 void
 Rtpfb
 :

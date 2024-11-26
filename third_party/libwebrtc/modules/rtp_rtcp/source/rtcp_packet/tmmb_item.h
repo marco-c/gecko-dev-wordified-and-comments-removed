@@ -30,7 +30,7 @@ TmmbItem
 public
 :
 static
-const
+constexpr
 size_t
 kLength
 =

@@ -773,7 +773,7 @@ ForwardErrorCorrection
 public
 :
 static
-const
+constexpr
 uint32_t
 kFecSsrc
 =
@@ -852,7 +852,7 @@ ForwardErrorCorrection
 public
 :
 static
-const
+constexpr
 uint32_t
 kFecSsrc
 =

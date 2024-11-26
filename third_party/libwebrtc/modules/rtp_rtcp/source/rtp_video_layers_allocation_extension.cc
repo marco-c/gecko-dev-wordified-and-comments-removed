@@ -85,13 +85,6 @@ h
 namespace
 webrtc
 {
-constexpr
-RTPExtensionType
-RtpVideoLayersAllocationExtension
-:
-:
-kId
-;
 namespace
 {
 constexpr

@@ -39,13 +39,6 @@ webrtc
 namespace
 rtcp
 {
-constexpr
-size_t
-RtcpPacket
-:
-:
-kHeaderLength
-;
 rtc
 :
 :

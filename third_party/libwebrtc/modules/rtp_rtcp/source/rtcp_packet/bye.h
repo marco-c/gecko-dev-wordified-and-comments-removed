@@ -164,7 +164,7 @@ override
 private
 :
 static
-const
+constexpr
 int
 kMaxNumberOfCsrcs
 =

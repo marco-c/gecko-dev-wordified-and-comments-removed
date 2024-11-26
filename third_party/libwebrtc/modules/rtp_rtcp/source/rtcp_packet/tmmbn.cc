@@ -52,13 +52,6 @@ webrtc
 namespace
 rtcp
 {
-constexpr
-uint8_t
-Tmmbn
-:
-:
-kFeedbackMessageType
-;
 Tmmbn
 :
 :

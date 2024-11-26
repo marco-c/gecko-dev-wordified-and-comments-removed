@@ -806,16 +806,6 @@ true
 ;
 }
 }
-constexpr
-size_t
-RTCPReceiver
-:
-:
-RegisteredSsrcs
-:
-:
-kMediaSsrcIndex
-;
 RTCPReceiver
 :
 :

@@ -42,9 +42,11 @@ kBlockType
 42
 ;
 static
-const
+constexpr
 size_t
 kBitrateItemSizeBytes
+=
+4
 ;
 struct
 BitrateItem

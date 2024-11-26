@@ -93,13 +93,6 @@ webrtc
 namespace
 rtcp
 {
-constexpr
-uint8_t
-Bye
-:
-:
-kPacketType
-;
 Bye
 :
 :

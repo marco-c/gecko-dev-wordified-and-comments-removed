@@ -564,10 +564,10 @@ rtcp_sender_unittest
 .
 cc
 index
-3a77df5e3e
+7485508dab
 .
 .
-deda5f71c8
+e1a7327ebf
 100644
 -
 -
@@ -598,10 +598,10 @@ rtcp_sender_unittest
 .
 cc
 -
-347
+346
 12
 +
-347
+346
 13
 TEST_F
 (

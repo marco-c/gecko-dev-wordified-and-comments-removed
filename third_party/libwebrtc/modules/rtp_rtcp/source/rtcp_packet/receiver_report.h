@@ -175,7 +175,7 @@ override
 private
 :
 static
-const
+constexpr
 size_t
 kRrBaseLength
 =
