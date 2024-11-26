@@ -77,6 +77,12 @@ if
 =
 [
 "
+true
+"
+#
+Bug
+1932613
+"
 coverage
 "
 #
