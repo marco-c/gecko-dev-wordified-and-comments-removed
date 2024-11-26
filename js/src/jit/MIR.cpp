@@ -21870,9 +21870,7 @@ analyzeEdgeCasesBackward
 {
 if
 (
-canBeNegativeZero
-(
-)
+canBeNegativeZero_
 &
 &
 !
