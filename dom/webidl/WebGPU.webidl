@@ -881,6 +881,13 @@ float32
 -
 filterable
 "
+"
+dual
+-
+source
+-
+blending
+"
 }
 ;
 [
