@@ -30,6 +30,10 @@ import
 numpy
 as
 np
+from
+mozdevice
+import
+ADBDevice
 APP_LINK_STARTUP_WEBSITE
 =
 "
@@ -156,7 +160,7 @@ falcons
 ]
 ITERATIONS
 =
-5
+1
 class
 ImageAnalzer
 :
@@ -212,6 +216,14 @@ environ
 BROWSER_BINARY
 "
 ]
+        
+self
+.
+device
+=
+ADBDevice
+(
+)
         
 if
 self
@@ -332,7 +344,11 @@ d
         
 )
         
-adb_shell
+self
+.
+device
+.
+shell
 (
 "
 mkdir
@@ -345,7 +361,11 @@ Download
 "
 )
         
-adb_shell
+self
+.
+device
+.
+shell
 (
 "
 settings
@@ -356,7 +376,11 @@ window_animation_scale
 "
 )
         
-adb_shell
+self
+.
+device
+.
+shell
 (
 "
 settings
@@ -367,7 +391,11 @@ transition_animation_scale
 "
 )
         
-adb_shell
+self
+.
+device
+.
+shell
 (
 "
 settings
@@ -385,7 +413,11 @@ self
 )
 :
         
-adb_shell
+self
+.
+device
+.
+shell
 (
 f
 "
@@ -412,7 +444,11 @@ skip_onboarding
 (
 )
         
-adb_shell
+self
+.
+device
+.
+shell
 (
             
 f
@@ -439,11 +475,24 @@ create_background_tabs
 (
 )
         
-force_stop
+self
+.
+device
+.
+shell
 (
+f
+"
+am
+force
+-
+stop
+{
 self
 .
 package_name
+}
+"
 )
     
 def
@@ -462,7 +511,11 @@ browser
 PROD_CHRM
 :
             
-adb_shell
+self
+.
+device
+.
+shell
 (
                 
 '
@@ -514,7 +567,11 @@ line
             
 )
             
-adb_shell
+self
+.
+device
+.
+shell
 (
 "
 am
@@ -543,7 +600,11 @@ browser
 PROD_FENIX
 :
             
-adb_shell
+self
+.
+device
+.
+shell
 (
                 
 "
@@ -602,7 +663,11 @@ in
 BACKGROUND_TABS
 :
             
-adb_shell
+self
+.
+device
+.
+shell
 (
 self
 .
@@ -695,7 +760,11 @@ video_location
         
 )
         
-adb_shell
+self
+.
+device
+.
+shell
 (
 self
 .
@@ -724,28 +793,22 @@ sleep
 5
 )
         
-subprocess
+self
 .
-Popen
+device
+.
+command_output
 (
             
 [
-                
-"
-adb
-"
-                
 "
 pull
 "
-                
 "
 -
 a
 "
-                
 video_location
-                
 os
 .
 environ
@@ -754,7 +817,6 @@ environ
 TESTING_DIR
 "
 ]
-            
 ]
         
 )
@@ -826,11 +888,24 @@ cv2
 CAP_PROP_FRAME_HEIGHT
 )
         
-force_stop
+self
+.
+device
+.
+shell
 (
+f
+"
+am
+force
+-
+stop
+{
 self
 .
 package_name
+}
+"
 )
     
 def
@@ -1177,51 +1252,6 @@ get
 cv2
 .
 CAP_PROP_POS_MSEC
-)
-def
-adb_shell
-(
-args
-)
-:
-    
-print
-(
-subprocess
-.
-getoutput
-(
-[
-f
-"
-adb
-shell
-{
-args
-}
-"
-]
-)
-)
-def
-force_stop
-(
-package_name
-)
-:
-    
-adb_shell
-(
-f
-"
-am
-force
--
-stop
-{
-package_name
-}
-"
 )
 if
 __name__
