@@ -2504,12 +2504,14 @@ TransportStats
 *
 stats
 )
+const
 {
 RTC_DCHECK_RUN_ON
 (
 network_thread_
 )
 ;
+const
 cricket
 :
 :

@@ -1861,6 +1861,7 @@ TransportStats
 *
 stats
 )
+const
 {
 TRACE_EVENT0
 (
@@ -3514,6 +3515,7 @@ TransportStats
 *
 stats
 )
+const
 {
 RTC_DCHECK_RUN_ON
 (

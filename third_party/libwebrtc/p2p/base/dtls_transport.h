@@ -542,6 +542,7 @@ int
 *
 cipher
 )
+const
 override
 ;
 uint16_t
@@ -582,6 +583,7 @@ int
 *
 cipher
 )
+const
 override
 ;
 std

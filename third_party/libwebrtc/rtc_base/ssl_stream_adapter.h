@@ -474,6 +474,9 @@ int
 *
 cipher_suite
 )
+const
+=
+0
 ;
 virtual
 std
@@ -573,6 +576,8 @@ int
 &
 crypto_suites
 )
+=
+0
 ;
 virtual
 bool
@@ -582,6 +587,9 @@ int
 *
 crypto_suite
 )
+const
+=
+0
 ;
 virtual
 bool

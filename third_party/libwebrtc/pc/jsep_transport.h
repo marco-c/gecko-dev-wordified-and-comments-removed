@@ -655,6 +655,7 @@ TransportStats
 *
 stats
 )
+const
 ;
 const
 JsepTransportDescription
@@ -1151,6 +1152,7 @@ TransportStats
 *
 stats
 )
+const
 ;
 const
 rtc

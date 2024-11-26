@@ -1045,6 +1045,7 @@ int
 *
 crypto_suite
 )
+const
 override
 {
 if
@@ -1085,6 +1086,7 @@ int
 *
 cipher_suite
 )
+const
 override
 {
 if
