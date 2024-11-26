@@ -2106,6 +2106,17 @@ docShellIsActive
 val
 )
 {
+if
+(
+!
+this
+.
+browsingContext
+)
+{
+return
+;
+}
 this
 .
 browsingContext

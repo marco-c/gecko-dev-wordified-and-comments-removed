@@ -1971,13 +1971,14 @@ tab
 linkedBrowser
 ;
 let
-{
 remoteTab
-}
 =
 browser
 .
 frameLoader
+?
+.
+remoteTab
 ;
 if
 (
