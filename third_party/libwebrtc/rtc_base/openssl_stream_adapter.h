@@ -824,6 +824,10 @@ dtls_handshake_timeout_ms_
 =
 50
 ;
+const
+bool
+disable_handshake_ticket_
+;
 }
 ;
 }
