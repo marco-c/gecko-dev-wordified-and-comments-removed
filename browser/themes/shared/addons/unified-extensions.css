@@ -1900,7 +1900,14 @@ margin
 -
 bottom
 :
-2px
+var
+(
+-
+-
+space
+-
+small
+)
 ;
 }
 /
