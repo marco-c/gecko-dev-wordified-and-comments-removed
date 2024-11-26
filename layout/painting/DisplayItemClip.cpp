@@ -964,9 +964,11 @@ IsEmpty
 (
 )
 )
+{
 return
 false
 ;
+}
 nsRect
 rect
 ;
@@ -1845,8 +1847,10 @@ IsEmpty
 (
 )
 )
+{
 return
 ;
+}
 mClipRect
 =
 NonRoundedIntersection
@@ -1890,8 +1894,10 @@ IsEqualInterior
 aR2
 )
 )
+{
 return
 ;
+}
 nsRegion
 r
 ;

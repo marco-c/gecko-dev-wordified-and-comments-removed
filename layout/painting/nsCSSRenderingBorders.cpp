@@ -2489,6 +2489,7 @@ aCorner
 =
 C_BR
 )
+{
 offset
 .
 x
@@ -2506,6 +2507,7 @@ aCorner
 .
 width
 ;
+}
 if
 (
 aCorner
@@ -2519,6 +2521,7 @@ aCorner
 =
 C_BL
 )
+{
 offset
 .
 y
@@ -2536,6 +2539,7 @@ aCorner
 .
 height
 ;
+}
 return
 Rect
 (
@@ -2735,6 +2739,7 @@ IsHorizontalSide
 aSide
 )
 )
+{
 rect
 .
 height
@@ -2744,7 +2749,9 @@ mBorderWidths
 aSide
 ]
 ;
+}
 else
+{
 rect
 .
 width
@@ -2754,6 +2761,7 @@ mBorderWidths
 aSide
 ]
 ;
+}
 return
 rect
 ;
@@ -16908,8 +16916,10 @@ IsEmpty
 (
 )
 )
+{
 continue
 ;
+}
 nsIntRect
 intSubArea
 =
