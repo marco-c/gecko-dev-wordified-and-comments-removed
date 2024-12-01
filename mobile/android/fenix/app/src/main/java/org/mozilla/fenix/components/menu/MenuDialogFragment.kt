@@ -2579,6 +2579,11 @@ accountState
 availableAddons
 =
 availableAddons
+showQuitMenu
+=
+settings
+.
+shouldDeleteBrowsingDataOnQuit
 isPrivate
 =
 browsingModeManager
@@ -2589,11 +2594,6 @@ isPrivate
 isDesktopMode
 =
 isDesktopMode
-showQuitMenu
-=
-settings
-.
-shouldDeleteBrowsingDataOnQuit
 isPdf
 =
 isPdf
