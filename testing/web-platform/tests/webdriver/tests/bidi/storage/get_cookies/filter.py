@@ -25,9 +25,9 @@ from
 .
 .
 import
+assert_partition_key
 create_cookie
 format_expiry_string
-get_default_partition_key
 generate_expiry_date
 from
 .
@@ -213,28 +213,19 @@ filter
     
 )
     
-assert
+await
+assert_partition_key
+(
+bidi_session
+actual
+=
 cookies
 [
 "
 partitionKey
 "
 ]
-=
-=
-{
-        
-*
-*
-(
-await
-get_default_partition_key
-(
-bidi_session
 )
-)
-    
-}
     
 assert
 len
@@ -618,28 +609,19 @@ domain
     
 )
     
-assert
+await
+assert_partition_key
+(
+bidi_session
+actual
+=
 cookies
 [
 "
 partitionKey
 "
 ]
-=
-=
-{
-        
-*
-*
-(
-await
-get_default_partition_key
-(
-bidi_session
 )
-)
-    
-}
     
 assert
 len
@@ -1097,28 +1079,19 @@ cookie1_expiry
     
 )
     
-assert
+await
+assert_partition_key
+(
+bidi_session
+actual
+=
 cookies
 [
 "
 partitionKey
 "
 ]
-=
-=
-{
-        
-*
-*
-(
-await
-get_default_partition_key
-(
-bidi_session
 )
-)
-    
-}
     
 assert
 len
@@ -1761,28 +1734,19 @@ same_site_1
     
 )
     
-assert
+await
+assert_partition_key
+(
+bidi_session
+actual
+=
 cookies
 [
 "
 partitionKey
 "
 ]
-=
-=
-{
-        
-*
-*
-(
-await
-get_default_partition_key
-(
-bidi_session
 )
-)
-    
-}
     
 assert
 len
@@ -2161,28 +2125,19 @@ secure_1
     
 )
     
-assert
+await
+assert_partition_key
+(
+bidi_session
+actual
+=
 cookies
 [
 "
 partitionKey
 "
 ]
-=
-=
-{
-        
-*
-*
-(
-await
-get_default_partition_key
-(
-bidi_session
 )
-)
-    
-}
     
 assert
 len
@@ -2598,28 +2553,19 @@ path_1
     
 )
     
-assert
+await
+assert_partition_key
+(
+bidi_session
+actual
+=
 cookies
 [
 "
 partitionKey
 "
 ]
-=
-=
-{
-        
-*
-*
-(
-await
-get_default_partition_key
-(
-bidi_session
 )
-)
-    
-}
     
 assert
 len
@@ -3036,28 +2982,19 @@ http_only_1
     
 )
     
-assert
+await
+assert_partition_key
+(
+bidi_session
+actual
+=
 cookies
 [
 "
 partitionKey
 "
 ]
-=
-=
-{
-        
-*
-*
-(
-await
-get_default_partition_key
-(
-bidi_session
 )
-)
-    
-}
     
 assert
 len

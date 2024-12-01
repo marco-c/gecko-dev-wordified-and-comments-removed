@@ -11,8 +11,8 @@ from
 .
 import
 assert_cookie_is_set
+assert_partition_key
 create_cookie
-get_default_partition_key
 pytestmark
 =
 pytest
@@ -87,25 +87,19 @@ domain
 )
 )
     
-assert
-set_cookie_result
-=
-=
-{
-        
-'
-partitionKey
-'
-:
-(
 await
-get_default_partition_key
+assert_partition_key
 (
 bidi_session
+actual
+=
+set_cookie_result
+[
+"
+partitionKey
+"
+]
 )
-)
-    
-}
     
 await
 assert_cookie_is_set
