@@ -229,7 +229,7 @@ toUri
 )
 )
 {
-verifyPageContent
+verifyTextFragmentsPageContent
 (
 "
 Firefox
@@ -258,7 +258,7 @@ genericPage
 title
 )
 {
-verifyPageContent
+verifyTextFragmentsPageContent
 (
 "
 Firefox
@@ -343,7 +343,7 @@ toUri
 )
 )
 {
-verifyPageContent
+verifyTextFragmentsPageContent
 (
 "
 Firefox
@@ -391,7 +391,7 @@ toUri
 )
 )
 {
-verifyPageContent
+verifyTextFragmentsPageContent
 (
 "
 Firefox
@@ -476,7 +476,7 @@ toUri
 )
 )
 {
-verifyPageContent
+verifyTextFragmentsPageContent
 (
 "
 Firefox
@@ -532,7 +532,7 @@ genericPage
 title
 )
 {
-verifyPageContent
+verifyTextFragmentsPageContent
 (
 "
 Firefox
@@ -617,7 +617,7 @@ toUri
 )
 )
 {
-verifyPageContent
+verifyTextFragmentsPageContent
 (
 "
 Firefox
