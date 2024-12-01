@@ -107,8 +107,9 @@ r
 fill
 =
 "
-#
-fff
+context
+-
+fill
 "
 /
 >
@@ -125,8 +126,9 @@ M3
 stroke
 =
 "
-#
-808080
+context
+-
+stroke
 "
 stroke
 -
