@@ -6451,7 +6451,6 @@ controller
 c
 ;
 }
-async
 pull
 (
 )
@@ -6479,7 +6478,6 @@ byobRequest
 const
 transferredView
 =
-await
 transferArrayBufferView
 (
 controller
@@ -16287,7 +16285,6 @@ pullCalledPromise
 const
 transferredView
 =
-await
 transferArrayBufferView
 (
 controller
@@ -16594,7 +16591,6 @@ pullCalledPromise
 const
 transferredView
 =
-await
 transferArrayBufferView
 (
 controller
