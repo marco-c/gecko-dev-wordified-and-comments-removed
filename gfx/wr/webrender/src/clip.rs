@@ -8038,6 +8038,8 @@ ClipItemKind
 RoundedRectangle
 {
 ref
+rect
+ref
 radius
 .
 .
@@ -8047,12 +8049,9 @@ radius
 {
 radius
 .
-is_uniform
+can_use_fast_path_in
 (
-)
-.
-is_some
-(
+rect
 )
 }
 }
