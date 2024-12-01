@@ -79,7 +79,7 @@ get_installer
 "
 tar
 .
-bz2
+xz
 "
 )
 tmpdir

@@ -338,7 +338,7 @@ version
 .
 tar
 .
-bz2
+xz
 "
             
 "
@@ -356,7 +356,7 @@ version
 .
 tar
 .
-bz2
+xz
 "
             
 "

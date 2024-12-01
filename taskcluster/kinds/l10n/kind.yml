@@ -582,7 +582,7 @@ target
 .
 tar
 .
-bz2
+xz
 EN_US_BINARY_URL
 :
 artifact
@@ -901,6 +901,17 @@ python
 compare
 -
 locales
+/
+*
+*
+-
+third_party
+/
+python
+/
+moz
+.
+l10n
 /
 *
 *

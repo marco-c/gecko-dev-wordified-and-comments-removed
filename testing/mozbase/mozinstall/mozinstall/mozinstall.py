@@ -132,6 +132,9 @@ gz
 tar
 .
 bz2
+tar
+.
+xz
     
 Mac
 :
@@ -479,6 +482,9 @@ gz
 tar
 .
 bz2
+tar
+.
+xz
 or
 dmg
 file
@@ -924,6 +930,9 @@ gz
 tar
 .
 bz2
+tar
+.
+xz
     
 Mac
 :

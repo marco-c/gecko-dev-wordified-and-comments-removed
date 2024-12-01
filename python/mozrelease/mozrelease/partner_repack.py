@@ -1446,7 +1446,7 @@ return
 "
 tar
 .
-bz2
+xz
 "
     
 elif

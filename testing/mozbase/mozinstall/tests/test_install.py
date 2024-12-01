@@ -80,7 +80,7 @@ get_installer
 "
 tar
 .
-bz2
+xz
 "
 )
 )
@@ -269,7 +269,7 @@ get_installer
 "
 tar
 .
-bz2
+xz
 "
 )
 "
@@ -303,7 +303,7 @@ get_installer
 "
 tar
 .
-bz2
+xz
 "
 )
 "
@@ -409,7 +409,7 @@ get_installer
 "
 tar
 .
-bz2
+xz
 "
 )
 tmpdir

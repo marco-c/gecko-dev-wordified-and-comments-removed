@@ -384,26 +384,6 @@ single_locale
 "
                 
 "
-hg_l10n_base
-"
-:
-"
-https
-:
-/
-/
-hg
-.
-mozilla
-.
-org
-/
-l10n
--
-central
-"
-                
-"
 git_repository
 "
 :
@@ -2200,6 +2180,12 @@ targets_exts
 tar
 .
 bz2
+"
+                
+"
+tar
+.
+xz
 "
                 
 "

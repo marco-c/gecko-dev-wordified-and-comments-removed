@@ -1597,7 +1597,7 @@ gz
 /
 tar
 .
-bz2
+xz
 archives
 simplifying
 the
@@ -1634,7 +1634,7 @@ target
 .
 tar
 .
-bz2
+xz
 (
 beetmover
 handles

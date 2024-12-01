@@ -1931,7 +1931,7 @@ target
 .
 tar
 .
-bz2
+xz
 :
 <
 <
@@ -1982,7 +1982,7 @@ version
 .
 tar
 .
-bz2
+xz
 checksums_path
 :
 {
@@ -2001,7 +2001,7 @@ version
 .
 tar
 .
-bz2
+xz
 expiry
 :
 "
@@ -2012,7 +2012,7 @@ target
 .
 tar
 .
-bz2
+xz
 .
 asc
 :
@@ -2066,7 +2066,7 @@ version
 .
 tar
 .
-bz2
+xz
 .
 asc
 checksums_path
@@ -2087,7 +2087,7 @@ version
 .
 tar
 .
-bz2
+xz
 .
 asc
 expiry

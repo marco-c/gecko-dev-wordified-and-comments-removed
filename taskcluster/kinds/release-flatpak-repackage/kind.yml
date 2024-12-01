@@ -126,12 +126,12 @@ description
 Generates
 flatpak
 by
-reackaging
+repackaging
 the
 existing
 tar
 .
-bz2
+xz
 run
 -
 on

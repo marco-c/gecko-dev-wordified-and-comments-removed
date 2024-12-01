@@ -2636,7 +2636,7 @@ target
 .
 tar
 .
-bz2
+xz
 "
         
 if

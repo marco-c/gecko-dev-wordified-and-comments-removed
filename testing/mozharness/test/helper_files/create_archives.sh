@@ -58,6 +58,12 @@ archive
 tar
 .
 bz2
+xz
+-
+zk
+archive
+.
+tar
 cd
 reference
 &

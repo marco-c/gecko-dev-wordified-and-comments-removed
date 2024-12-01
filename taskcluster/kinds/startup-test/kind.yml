@@ -276,7 +276,7 @@ target
 .
 tar
 .
-bz2
+xz
 binary
 :
 firefox
@@ -371,7 +371,7 @@ target
 .
 tar
 .
-bz2
+xz
 binary
 :
 firefox

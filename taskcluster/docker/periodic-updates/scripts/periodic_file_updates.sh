@@ -906,7 +906,7 @@ target
 .
 tar
 .
-bz2
+xz
 "
 TESTS_ARCHIVE
 =
@@ -925,7 +925,7 @@ UNPACK_CMD
 =
 "
 tar
-jxf
+Jxf
 "
 COMMIT_AUTHOR
 =
