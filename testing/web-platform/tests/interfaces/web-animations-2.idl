@@ -114,7 +114,7 @@ readonly
 attribute
 double
 ?
-progress
+overallProgress
 ;
 }
 ;

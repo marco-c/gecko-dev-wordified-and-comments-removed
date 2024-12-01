@@ -73,6 +73,10 @@ HTMLAnchorElement
 includes
 HTMLAttributionSrcElementUtils
 ;
+HTMLAreaElement
+includes
+HTMLAttributionSrcElementUtils
+;
 HTMLImageElement
 includes
 HTMLAttributionSrcElementUtils
