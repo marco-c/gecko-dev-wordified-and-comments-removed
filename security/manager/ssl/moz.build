@@ -376,6 +376,13 @@ mozilla
 =
 [
 "
+crypto_hash
+/
+crypto_hash_sha2
+.
+h
+"
+"
 PublicSSL
 .
 h
