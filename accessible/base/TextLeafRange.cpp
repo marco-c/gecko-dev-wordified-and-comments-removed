@@ -2519,15 +2519,12 @@ nullptr
 return
 startFrameSel
 ?
+&
 startFrameSel
 -
 >
-GetSelection
+NormalSelection
 (
-SelectionType
-:
-:
-eNormal
 )
 :
 nullptr

@@ -146,15 +146,12 @@ FrameSelection
 return
 frameSelection
 ?
+&
 frameSelection
 -
 >
-GetSelection
+NormalSelection
 (
-SelectionType
-:
-:
-eNormal
 )
 :
 nullptr
