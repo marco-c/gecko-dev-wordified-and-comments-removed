@@ -82,9 +82,7 @@ mots
 .
 13
 .
-0
-.
-post1
+1
 pypi
 :
 myst
