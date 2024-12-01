@@ -1274,7 +1274,11 @@ Throws
 undefined
 write
 (
+(
+TrustedHTML
+or
 DOMString
+)
 .
 .
 .
@@ -1288,7 +1292,11 @@ Throws
 undefined
 writeln
 (
+(
+TrustedHTML
+or
 DOMString
+)
 .
 .
 .
