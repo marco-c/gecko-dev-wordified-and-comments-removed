@@ -1304,6 +1304,7 @@ isPrivateBrowsing
 hasMixedActiveContentBlocked
 hasMixedDisplayContentBlocked
 hasTrackingContentBlocked
+btpHasPurgedSite
 }
 =
 antitracking
@@ -1368,6 +1369,7 @@ graphics
 hasMixedActiveContentBlocked
 hasMixedDisplayContentBlocked
 hasTrackingContentBlocked
+btpHasPurgedSite
 isPB
 :
 isPrivateBrowsing
@@ -1664,6 +1666,20 @@ blockList
 "
 false
 "
+;
+details
+[
+"
+btp
+has
+purged
+site
+"
+]
+=
+antitracking
+.
+btpHasPurgedSite
 ;
 if
 (

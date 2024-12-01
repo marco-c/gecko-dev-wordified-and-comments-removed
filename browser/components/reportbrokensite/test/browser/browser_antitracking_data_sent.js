@@ -125,6 +125,9 @@ true
 hasMixedDisplayContentBlocked
 :
 true
+btpHasPurgedSite
+:
+false
 }
 frameworks
 :
@@ -235,6 +238,9 @@ true
 hasMixedDisplayContentBlocked
 :
 true
+btpHasPurgedSite
+:
+false
 }
 frameworks
 :

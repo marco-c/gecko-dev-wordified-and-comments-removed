@@ -1042,6 +1042,9 @@ false
 hasMixedDisplayContentBlocked
 :
 false
+btpHasPurgedSite
+:
+false
 }
 frameworks
 :
