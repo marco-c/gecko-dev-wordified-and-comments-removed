@@ -2069,6 +2069,11 @@ big
 }
 ]
 ;
+let
+numEngines
+=
+0
+;
 for
 (
 const
@@ -2089,7 +2094,7 @@ articles
 )
 {
 const
-engineId
+perfName
 =
 {
 model
@@ -2116,6 +2121,15 @@ type
 }
 ;
 const
+engineId
+=
+engine
+-
+{
+numEngines
+}
+;
+const
 options
 =
 {
@@ -2129,7 +2143,13 @@ article
 .
 data
 engineId
+perfName
 }
+;
+numEngines
++
+=
+1
 ;
 testData
 .
@@ -3782,6 +3802,7 @@ modelId
 article
 dtype
 engineId
+perfName
 }
 )
 {
@@ -3940,7 +3961,7 @@ perfTest
 sum
 -
 {
-engineId
+perfName
 }
 options
 request
@@ -3951,7 +3972,7 @@ add_task
 (
 async
 function
-test_ml_falconsai_tiny_article
+test_ml_distilbart_tiny_article
 (
 )
 {
@@ -3971,7 +3992,7 @@ add_task
 (
 async
 function
-test_ml_falconsai_small_article
+test_ml_distilbart_small_article
 (
 )
 {
@@ -3991,7 +4012,7 @@ add_task
 (
 async
 function
-test_ml_falconsai_medium_article
+test_ml_distilbart_medium_article
 (
 )
 {
@@ -4011,7 +4032,7 @@ add_task
 (
 async
 function
-test_ml_falconsai_tiny_article
+test_ml_distilbart_big_article
 (
 )
 {
@@ -4031,7 +4052,7 @@ add_task
 (
 async
 function
-test_ml_falconsai_small_article
+test_ml_qwen_small_article
 (
 )
 {
@@ -4051,7 +4072,7 @@ add_task
 (
 async
 function
-test_ml_falconsai_medium_article
+test_ml_qwen_medium_article
 (
 )
 {
@@ -4071,7 +4092,7 @@ add_task
 (
 async
 function
-test_ml_falconsai_medium_article
+test_ml_qwen_medium_article
 (
 )
 {
@@ -4091,7 +4112,7 @@ add_task
 (
 async
 function
-test_ml_falconsai_medium_article
+test_ml_qwen_big_article
 (
 )
 {
