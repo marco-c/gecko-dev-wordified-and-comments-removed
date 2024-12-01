@@ -94,7 +94,7 @@ CURRENT_VERSION
 :
 int
 =
-8
+9
 class
 ManifestError
 (
