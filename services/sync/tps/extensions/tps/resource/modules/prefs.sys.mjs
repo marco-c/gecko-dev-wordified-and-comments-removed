@@ -63,16 +63,13 @@ is
 a
 JavaScript
 module
-(
-JSM
-)
 to
 be
 imported
 via
 ChromeUtils
 .
-import
+importESModule
 (
 )
 and
