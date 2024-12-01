@@ -16,7 +16,15 @@ resolve
 .
 then
 (
-busy_wait
+(
+)
+=
+>
+window
+.
+generate_loaf_now
+(
+)
 )
 ;
 new

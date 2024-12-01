@@ -120,7 +120,10 @@ script
 >
 test_self_user_callback
 (
+(
 t
+busy_wait
+)
 =
 >
 t
@@ -145,6 +148,8 @@ setTimeout
 test_self_user_callback
 (
 (
+t
+busy_wait
 )
 =
 >
@@ -183,6 +188,8 @@ setInterval
 test_self_user_callback
 (
 (
+t
+busy_wait
 )
 =
 >
@@ -203,7 +210,10 @@ FrameRequestCallback
 ;
 test_self_user_callback
 (
+(
 t
+busy_wait
+)
 =
 >
 {
@@ -280,7 +290,10 @@ ResizeObserverCallback
 ;
 test_self_user_callback
 (
+(
 t
+busy_wait
+)
 =
 >
 {
@@ -365,7 +378,10 @@ IntersectionObserverCallback
 ;
 test_self_user_callback
 (
+(
 t
+busy_wait
+)
 =
 >
 scheduler
@@ -387,7 +403,10 @@ SchedulerPostTaskCallback
 ;
 test_self_user_callback
 (
+(
 t
+busy_wait
+)
 =
 >
 {

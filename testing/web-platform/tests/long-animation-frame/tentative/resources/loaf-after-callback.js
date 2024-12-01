@@ -50,7 +50,7 @@ value
 }
 )
 ;
-busy_wait
+generate_loaf_now
 (
 )
 ;
