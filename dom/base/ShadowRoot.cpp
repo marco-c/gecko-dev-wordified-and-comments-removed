@@ -4665,9 +4665,12 @@ ShadowRoot
 SetHTMLUnsafe
 (
 const
-nsAString
+TrustedHTMLOrString
 &
 aHTML
+ErrorResult
+&
+aError
 )
 {
 RefPtr
@@ -4688,6 +4691,8 @@ SetHTMLUnsafe
 this
 host
 aHTML
+true
+aError
 )
 ;
 }

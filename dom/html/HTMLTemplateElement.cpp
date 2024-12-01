@@ -546,9 +546,12 @@ HTMLTemplateElement
 SetHTMLUnsafe
 (
 const
-nsAString
+TrustedHTMLOrString
 &
 aHTML
+ErrorResult
+&
+aError
 )
 {
 RefPtr
@@ -567,6 +570,8 @@ SetHTMLUnsafe
 content
 this
 aHTML
+false
+aError
 )
 ;
 }

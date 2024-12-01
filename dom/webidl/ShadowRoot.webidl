@@ -535,11 +535,16 @@ declarative
 .
 enabled
 "
+Throws
 ]
 undefined
 setHTMLUnsafe
 (
+(
+TrustedHTML
+or
 DOMString
+)
 html
 )
 ;
