@@ -1039,3 +1039,12 @@ package
 libicu
 -
 dev
+#
+For
+libdmg
+-
+hfsplus
+-
+liblzma
+-
+dev
