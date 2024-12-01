@@ -3317,6 +3317,13 @@ js
 ]
 [
 "
+browser_webconsole_errors
+.
+js
+"
+]
+[
+"
 browser_webconsole_eval_error
 .
 js
