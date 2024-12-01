@@ -24,6 +24,8 @@ def
 test_unsubscribe_from_module
 (
 bidi_session
+new_tab
+inline
 )
 :
     
@@ -80,22 +82,6 @@ append
 data
 )
     
-remove_listener_contextCreated
-=
-bidi_session
-.
-add_event_listener
-(
-        
-"
-browsingContext
-.
-contextCreated
-"
-on_event
-    
-)
-    
 remove_listener_domContentLoaded
 =
 bidi_session
@@ -133,13 +119,25 @@ bidi_session
 .
 browsing_context
 .
-create
+navigate
 (
-type_hint
+        
+context
 =
+new_tab
+[
 "
-tab
+context
 "
+]
+url
+=
+inline
+(
+"
+"
+)
+    
 )
     
 wait
@@ -179,10 +177,6 @@ events
 0
 )
     
-remove_listener_contextCreated
-(
-)
-    
 remove_listener_domContentLoaded
 (
 )
@@ -199,10 +193,12 @@ async
 def
 test_subscribe_to_module_unsubscribe_from_one_event
 (
-    
+      
 bidi_session
 wait_for_event
 wait_for_future_safe
+new_tab
+inline
 )
 :
     
@@ -229,6 +225,7 @@ session
 .
 unsubscribe
 (
+        
 events
 =
 [
@@ -259,22 +256,6 @@ events
 append
 (
 method
-)
-    
-remove_listener_contextCreated
-=
-bidi_session
-.
-add_event_listener
-(
-        
-"
-browsingContext
-.
-contextCreated
-"
-on_event
-    
 )
     
 remove_listener_domContentLoaded
@@ -325,13 +306,25 @@ bidi_session
 .
 browsing_context
 .
-create
+navigate
 (
-type_hint
+        
+context
 =
+new_tab
+[
 "
-tab
+context
 "
+]
+url
+=
+inline
+(
+"
+"
+)
+    
 )
     
 await
@@ -347,7 +340,7 @@ events
 )
 =
 =
-2
+1
     
 assert
 "
@@ -359,34 +352,12 @@ not
 in
 events
     
-remove_listener_contextCreated
-(
-)
-    
 remove_listener_domContentLoaded
 (
 )
     
 remove_listener_load
 (
-)
-    
-await
-bidi_session
-.
-session
-.
-unsubscribe
-(
-events
-=
-[
-"
-browsingContext
-.
-contextCreated
-"
-]
 )
     
 await

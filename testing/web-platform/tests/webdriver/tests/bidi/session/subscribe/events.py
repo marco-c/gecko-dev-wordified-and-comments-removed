@@ -11,8 +11,11 @@ test_subscribe_to_module
 (
 bidi_session
 subscribe_events
+new_tab
+      
 wait_for_event
 wait_for_future_safe
+inline
 )
 :
     
@@ -49,22 +52,6 @@ append
 method
 )
     
-remove_listener_contextCreated
-=
-bidi_session
-.
-add_event_listener
-(
-        
-"
-browsingContext
-.
-contextCreated
-"
-on_event
-    
-)
-    
 remove_listener_domContentLoaded
 =
 bidi_session
@@ -97,7 +84,7 @@ on_event
     
 )
     
-on_entry_added
+on_context_load
 =
 wait_for_event
 (
@@ -113,19 +100,31 @@ bidi_session
 .
 browsing_context
 .
-create
+navigate
 (
-type_hint
+        
+context
 =
+new_tab
+[
 "
-tab
+context
 "
+]
+url
+=
+inline
+(
+"
+"
+)
+    
 )
     
 await
 wait_for_future_safe
 (
-on_entry_added
+on_context_load
 )
     
 assert
@@ -135,11 +134,7 @@ events
 )
 =
 =
-3
-    
-remove_listener_contextCreated
-(
-)
+2
     
 remove_listener_domContentLoaded
 (
@@ -157,11 +152,14 @@ async
 def
 test_subscribe_to_one_event_and_then_to_module
 (
-    
+      
 bidi_session
 subscribe_events
 wait_for_event
 wait_for_future_safe
+      
+inline
+new_tab
 )
 :
     
@@ -174,7 +172,7 @@ events
 "
 browsingContext
 .
-contextCreated
+domContentLoaded
 "
 ]
 )
@@ -200,7 +198,7 @@ append
 method
 )
     
-remove_listener_contextCreated
+remove_listener_domContentLoaded
 =
 bidi_session
 .
@@ -210,7 +208,7 @@ add_event_listener
 "
 browsingContext
 .
-contextCreated
+domContentLoaded
 "
 on_event
     
@@ -223,7 +221,7 @@ wait_for_event
 "
 browsingContext
 .
-contextCreated
+domContentLoaded
 "
 )
     
@@ -232,13 +230,25 @@ bidi_session
 .
 browsing_context
 .
-create
+navigate
 (
-type_hint
+        
+context
 =
+new_tab
+[
 "
-tab
+context
 "
+]
+url
+=
+inline
+(
+"
+"
+)
+    
 )
     
 await
@@ -260,7 +270,7 @@ assert
 "
 browsingContext
 .
-contextCreated
+domContentLoaded
 "
 in
 events
@@ -281,22 +291,6 @@ events
 =
 [
 ]
-    
-remove_listener_domContentLoaded
-=
-bidi_session
-.
-add_event_listener
-(
-        
-"
-browsingContext
-.
-domContentLoaded
-"
-on_event
-    
-)
     
 remove_listener_load
 =
@@ -330,13 +324,25 @@ bidi_session
 .
 browsing_context
 .
-create
+navigate
 (
-type_hint
+        
+context
 =
+new_tab
+[
 "
-tab
+context
 "
+]
+url
+=
+inline
+(
+"
+"
+)
+    
 )
     
 await
@@ -352,11 +358,7 @@ events
 )
 =
 =
-3
-    
-remove_listener_contextCreated
-(
-)
+2
     
 remove_listener_domContentLoaded
 (
@@ -374,11 +376,14 @@ async
 def
 test_subscribe_to_module_and_then_to_one_event_again
 (
-    
+      
 bidi_session
 subscribe_events
 wait_for_event
 wait_for_future_safe
+      
+new_tab
+inline
 )
 :
     
@@ -415,22 +420,6 @@ append
 method
 )
     
-remove_listener_contextCreated
-=
-bidi_session
-.
-add_event_listener
-(
-        
-"
-browsingContext
-.
-contextCreated
-"
-on_event
-    
-)
-    
 remove_listener_domContentLoaded
 =
 bidi_session
@@ -479,13 +468,25 @@ bidi_session
 .
 browsing_context
 .
-create
+navigate
 (
-type_hint
+        
+context
 =
+new_tab
+[
 "
-tab
+context
 "
+]
+url
+=
+inline
+(
+"
+"
+)
+    
 )
     
 await
@@ -501,7 +502,7 @@ events
 )
 =
 =
-3
+2
     
 await
 subscribe_events
@@ -512,7 +513,7 @@ events
 "
 browsingContext
 .
-contextCreated
+domContentLoaded
 "
 ]
 )
@@ -538,13 +539,25 @@ bidi_session
 .
 browsing_context
 .
-create
+navigate
 (
-type_hint
+        
+context
 =
+new_tab
+[
 "
-tab
+context
 "
+]
+url
+=
+inline
+(
+"
+"
+)
+    
 )
     
 await
@@ -560,11 +573,7 @@ events
 )
 =
 =
-3
-    
-remove_listener_contextCreated
-(
-)
+2
     
 remove_listener_domContentLoaded
 (
