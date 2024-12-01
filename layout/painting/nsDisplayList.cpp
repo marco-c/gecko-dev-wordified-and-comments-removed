@@ -3759,6 +3759,10 @@ mAlwaysLayerizeScrollbars
 (
 false
 )
+mIsDestroying
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (

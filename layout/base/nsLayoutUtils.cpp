@@ -13918,6 +13918,12 @@ hitTestState
 aOutFrames
 )
 ;
+builder
+.
+SetIsDestroying
+(
+)
+;
 list
 .
 DeleteAll
@@ -15277,6 +15283,12 @@ TemporaryDisplayListBuilder
 (
 )
 {
+mBuilder
+.
+SetIsDestroying
+(
+)
+;
 mList
 .
 DeleteAll
