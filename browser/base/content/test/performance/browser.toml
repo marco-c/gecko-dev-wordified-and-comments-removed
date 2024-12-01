@@ -375,6 +375,13 @@ js
 ]
 [
 "
+browser_opaque_region
+.
+js
+"
+]
+[
+"
 browser_panel_vsync
 .
 js
