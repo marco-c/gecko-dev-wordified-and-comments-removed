@@ -3992,7 +3992,7 @@ aNativeEvent
 type
 =
 =
-NSKeyDown
+NSEventTypeKeyDown
 |
 |
 aNativeEvent
@@ -4000,7 +4000,7 @@ aNativeEvent
 type
 =
 =
-NSKeyUp
+NSEventTypeKeyUp
 |
 |
 aNativeEvent
@@ -4008,7 +4008,7 @@ aNativeEvent
 type
 =
 =
-NSFlagsChanged
+NSEventTypeFlagsChanged
 )
 &
 &
