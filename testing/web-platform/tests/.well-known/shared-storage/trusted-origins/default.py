@@ -27,7 +27,9 @@ storage
 .
 resources
 .
-trusted_origins
+trusted
+-
+origins
 '
 )
 def
