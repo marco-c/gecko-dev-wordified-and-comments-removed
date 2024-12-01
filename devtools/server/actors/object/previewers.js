@@ -187,6 +187,9 @@ RuntimeError
 "
 Exception
 "
+"
+SuppressedError
+"
 ]
 )
 ;
