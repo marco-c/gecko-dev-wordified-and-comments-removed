@@ -494,6 +494,9 @@ undefined
 scheduled_corpus_item_id
 :
 undefined
+corpus_item_id
+:
+undefined
 recommended_at
 :
 undefined

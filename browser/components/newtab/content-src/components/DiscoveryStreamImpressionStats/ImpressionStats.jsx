@@ -745,6 +745,11 @@ fetchTimestamp
 link
 .
 fetchTimestamp
+corpus_item_id
+:
+link
+.
+corpus_item_id
 scheduled_corpus_item_id
 :
 link

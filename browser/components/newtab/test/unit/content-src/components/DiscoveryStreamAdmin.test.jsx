@@ -423,6 +423,10 @@ data
 {
 }
 }
+blocks
+:
+{
+}
 impressions
 :
 {

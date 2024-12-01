@@ -1143,6 +1143,13 @@ firstVisibleTimestamp
 {
 firstVisibleTimestamp
 }
+corpus_item_id
+=
+{
+rec
+.
+corpus_item_id
+}
 scheduled_corpus_item_id
 =
 {

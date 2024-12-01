@@ -715,6 +715,9 @@ undefined
 scheduled_corpus_item_id
 :
 undefined
+corpus_item_id
+:
+undefined
 received_rank
 :
 undefined

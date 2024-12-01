@@ -1940,6 +1940,9 @@ firstVisibleTimestamp
 scheduled_corpus_item_id
 :
 undefined
+corpus_item_id
+:
+undefined
 recommended_at
 :
 undefined
@@ -2151,6 +2154,9 @@ DEFAULT_PROPS
 .
 firstVisibleTimestamp
 scheduled_corpus_item_id
+:
+undefined
+corpus_item_id
 :
 undefined
 recommended_at
@@ -2376,6 +2382,9 @@ DEFAULT_PROPS
 .
 firstVisibleTimestamp
 scheduled_corpus_item_id
+:
+undefined
+corpus_item_id
 :
 undefined
 recommended_at
@@ -3390,6 +3399,9 @@ DEFAULT_PROPS
 .
 firstVisibleTimestamp
 scheduled_corpus_item_id
+:
+undefined
+corpus_item_id
 :
 undefined
 recommended_at

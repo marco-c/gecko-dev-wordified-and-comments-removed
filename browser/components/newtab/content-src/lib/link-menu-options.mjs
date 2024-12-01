@@ -729,6 +729,11 @@ scheduled_corpus_item_id
 site
 .
 scheduled_corpus_item_id
+corpus_item_id
+:
+site
+.
+corpus_item_id
 received_rank
 :
 site

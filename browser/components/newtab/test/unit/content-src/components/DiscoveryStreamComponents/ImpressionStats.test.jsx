@@ -855,6 +855,9 @@ TEST_FETCH_TIMESTAMP
 scheduled_corpus_item_id
 :
 undefined
+corpus_item_id
+:
+undefined
 recommended_at
 :
 undefined
@@ -889,6 +892,9 @@ TEST_FETCH_TIMESTAMP
 scheduled_corpus_item_id
 :
 undefined
+corpus_item_id
+:
+undefined
 recommended_at
 :
 undefined
@@ -921,6 +927,9 @@ fetchTimestamp
 :
 TEST_FETCH_TIMESTAMP
 scheduled_corpus_item_id
+:
+undefined
+corpus_item_id
 :
 undefined
 recommended_at
@@ -1464,6 +1473,9 @@ undefined
 scheduled_corpus_item_id
 :
 undefined
+corpus_item_id
+:
+undefined
 recommended_at
 :
 undefined
@@ -1498,6 +1510,9 @@ undefined
 scheduled_corpus_item_id
 :
 undefined
+corpus_item_id
+:
+undefined
 recommended_at
 :
 undefined
@@ -1530,6 +1545,9 @@ recommendation_id
 :
 undefined
 scheduled_corpus_item_id
+:
+undefined
+corpus_item_id
 :
 undefined
 recommended_at

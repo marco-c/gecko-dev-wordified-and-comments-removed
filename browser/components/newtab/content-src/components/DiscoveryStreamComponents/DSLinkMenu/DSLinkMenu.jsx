@@ -494,6 +494,13 @@ this
 props
 .
 recommendation_id
+corpus_item_id
+:
+this
+.
+props
+.
+corpus_item_id
 scheduled_corpus_item_id
 :
 this
