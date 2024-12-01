@@ -1244,9 +1244,14 @@ batch
 false
 cron
 :
-true
+false
 perftest
 :
+#
+broken
+:
+bug
+1933712
 -
 [
 cloudflare
