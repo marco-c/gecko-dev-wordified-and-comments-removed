@@ -327,10 +327,14 @@ CEReactions
 SetterThrows
 ]
 attribute
+(
+TrustedHTML
+or
 [
 LegacyNullToEmptyString
 ]
 DOMString
+)
 innerHTML
 ;
 /
