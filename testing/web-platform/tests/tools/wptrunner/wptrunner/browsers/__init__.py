@@ -274,6 +274,10 @@ webkitgtk_minibrowser
 "
                 
 "
+wpewebkit_minibrowser
+"
+                
+"
 wktr
 "
                 

@@ -1103,6 +1103,7 @@ chrome_android
 android_webview
 safari
 webkitgtk_minibrowser
+wpewebkit_minibrowser
 #
 #
 #
