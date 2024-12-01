@@ -292,25 +292,53 @@ self
 )
 :
         
-return
+usage
+=
 self
 .
 marionette
 .
-execute_script
+execute_async_script
 (
             
 "
 "
 "
                 
-return
+const
+[
+resolve
+]
+=
+arguments
+;
+                
 window
 .
 wrappedJSObject
 .
 getStorageEstimate
 (
+)
+                    
+.
+then
+(
+resolve
+)
+                    
+.
+catch
+(
+(
+)
+=
+>
+resolve
+(
+-
+1
+)
 )
 ;
             
@@ -323,6 +351,20 @@ new_sandbox
 False
         
 )
+        
+assert
+(
+            
+usage
+!
+=
+-
+1
+        
+)
+        
+return
+usage
     
 def
 doCacheWork
@@ -340,12 +382,12 @@ maxTimeout
 *
 1000
         
-return
+assert
 self
 .
 marionette
 .
-execute_script
+execute_async_script
 (
             
 "
@@ -356,12 +398,12 @@ const
 [
 cacheId
 n
+resolve
 ]
 =
 arguments
 ;
                 
-return
 window
 .
 wrappedJSObject
@@ -370,6 +412,32 @@ doCacheWork
 (
 cacheId
 n
+)
+                    
+.
+then
+(
+(
+)
+=
+>
+resolve
+(
+true
+)
+)
+                    
+.
+catch
+(
+(
+)
+=
+>
+resolve
+(
+false
+)
 )
 ;
             
@@ -404,7 +472,7 @@ self
 )
 :
         
-return
+assert
 self
 .
 marionette
@@ -433,14 +501,30 @@ openCache
 (
 cacheId
 )
+                    
 .
 then
 (
+(
+)
+=
+>
 resolve
 (
-"
-success
-"
+true
+)
+)
+                    
+.
+catch
+(
+(
+)
+=
+>
+resolve
+(
+false
 )
 )
 ;
