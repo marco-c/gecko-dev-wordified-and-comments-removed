@@ -3238,7 +3238,7 @@ using
 the
 ChromeUtils
 .
-import
+importESModule
 function
 or
 other
@@ -3375,7 +3375,7 @@ foo
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -3397,7 +3397,7 @@ bar
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
