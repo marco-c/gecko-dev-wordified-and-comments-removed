@@ -271,7 +271,7 @@ UptakeTelemetry
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -286,7 +286,9 @@ uptake
 -
 telemetry
 .
-js
+sys
+.
+mjs
 "
 {
 }
