@@ -105,7 +105,7 @@ TX_CLASS_HORIZ
 }
 ;
 static
-INLINE
+inline
 int
 get_txb_bhl
 (
@@ -128,7 +128,7 @@ tx_size
 ;
 }
 static
-INLINE
+inline
 int
 get_txb_wide
 (
@@ -151,7 +151,7 @@ tx_size
 ;
 }
 static
-INLINE
+inline
 int
 get_txb_high
 (
@@ -174,7 +174,7 @@ tx_size
 ;
 }
 static
-INLINE
+inline
 uint8_t
 *
 set_levels
@@ -201,7 +201,7 @@ TX_PAD_HOR
 ;
 }
 static
-INLINE
+inline
 int
 get_padded_idx
 (
@@ -230,7 +230,7 @@ TX_PAD_HOR_LOG2
 ;
 }
 static
-INLINE
+inline
 int
 get_br_ctx_2d
 (
@@ -1479,7 +1479,7 @@ BR_CDF_SIZE
 ]
 ;
 static
-INLINE
+inline
 int
 get_lower_levels_ctx_eob
 (
@@ -1540,7 +1540,7 @@ return
 ;
 }
 static
-INLINE
+inline
 int
 get_lower_levels_ctx_2d
 (
@@ -1740,7 +1740,7 @@ tx_class
 ;
 }
 static
-INLINE
+inline
 int
 get_lower_levels_ctx_general
 (
@@ -1831,7 +1831,7 @@ tx_class
 ;
 }
 static
-INLINE
+inline
 void
 set_dc_sign
 (
@@ -2967,7 +2967,7 @@ SPECIALIZE_GET_TXB_CTX
 32
 )
 static
-INLINE
+inline
 void
 get_txb_ctx
 (

@@ -22,7 +22,7 @@ C
 #
 endif
 static
-INLINE
+inline
 uint32_t
 lcg_next
 (
@@ -52,7 +52,7 @@ state
 ;
 }
 static
-INLINE
+inline
 uint32_t
 lcg_rand16
 (
@@ -75,7 +75,7 @@ state
 ;
 }
 static
-INLINE
+inline
 uint32_t
 lcg_randint
 (
@@ -112,7 +112,7 @@ v
 ;
 }
 static
-INLINE
+inline
 uint32_t
 lcg_randrange
 (
@@ -145,7 +145,7 @@ lo
 ;
 }
 static
-INLINE
+inline
 void
 lcg_pick
 (

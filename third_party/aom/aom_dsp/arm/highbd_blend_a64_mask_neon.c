@@ -70,7 +70,7 @@ round0_bits
 )
 \
 static
-INLINE
+inline
 uint16x8_t
 alpha_
 #
@@ -273,7 +273,7 @@ blend_u16
 \
 \
 static
-INLINE
+inline
 void
 highbd_
 #

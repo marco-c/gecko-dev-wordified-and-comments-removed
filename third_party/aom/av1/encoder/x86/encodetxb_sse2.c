@@ -55,7 +55,7 @@ txb_common
 h
 "
 static
-INLINE
+inline
 void
 load_levels_4x4x5_sse2
 (
@@ -154,7 +154,7 @@ stride
 ;
 }
 static
-INLINE
+inline
 void
 load_levels_8x2x5_sse2
 (
@@ -253,7 +253,7 @@ stride
 ;
 }
 static
-INLINE
+inline
 void
 load_levels_16x1x5_sse2
 (
@@ -377,7 +377,7 @@ offsets
 ;
 }
 static
-INLINE
+inline
 __m128i
 get_coeff_contexts_kernel_sse2
 (
@@ -542,7 +542,7 @@ count
 ;
 }
 static
-INLINE
+inline
 void
 get_4_nz_map_contexts_2d
 (
@@ -732,7 +732,7 @@ coeff_contexts
 ;
 }
 static
-INLINE
+inline
 void
 get_4_nz_map_contexts_ver
 (
@@ -901,7 +901,7 @@ col
 ;
 }
 static
-INLINE
+inline
 void
 get_4_nz_map_contexts_hor
 (
@@ -1084,7 +1084,7 @@ col
 ;
 }
 static
-INLINE
+inline
 void
 get_8_coeff_contexts_2d
 (
@@ -1420,7 +1420,7 @@ coeff_contexts
 ;
 }
 static
-INLINE
+inline
 void
 get_8_coeff_contexts_ver
 (
@@ -1589,7 +1589,7 @@ col
 ;
 }
 static
-INLINE
+inline
 void
 get_8_coeff_contexts_hor
 (
@@ -1772,7 +1772,7 @@ col
 ;
 }
 static
-INLINE
+inline
 void
 get_16n_coeff_contexts_2d
 (
@@ -2366,7 +2366,7 @@ coeff_contexts
 ;
 }
 static
-INLINE
+inline
 void
 get_16n_coeff_contexts_ver
 (
@@ -2615,7 +2615,7 @@ col
 ;
 }
 static
-INLINE
+inline
 void
 get_16n_coeff_contexts_hor
 (

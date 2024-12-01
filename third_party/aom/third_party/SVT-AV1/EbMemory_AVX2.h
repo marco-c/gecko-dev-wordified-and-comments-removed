@@ -76,7 +76,7 @@ lo
 #
 endif
 static
-INLINE
+inline
 __m256i
 load_u8_4x2_avx2
 (
@@ -142,7 +142,7 @@ _mm_setzero_si128
 ;
 }
 static
-INLINE
+inline
 __m256i
 load_u8_4x4_avx2
 (
@@ -245,7 +245,7 @@ src23
 ;
 }
 static
-INLINE
+inline
 __m256i
 load_u8_8x2_avx2
 (
@@ -306,7 +306,7 @@ src1
 ;
 }
 static
-INLINE
+inline
 __m256i
 load_u8_8x4_avx2
 (
@@ -423,7 +423,7 @@ src23
 ;
 }
 static
-INLINE
+inline
 __m256i
 loadu_8bit_16x2_avx2
 (
@@ -480,7 +480,7 @@ src1
 ;
 }
 static
-INLINE
+inline
 __m256i
 loadu_u8_16x2_avx2
 (
@@ -509,7 +509,7 @@ stride
 ;
 }
 static
-INLINE
+inline
 __m256i
 loadu_u16_8x2_avx2
 (
@@ -538,7 +538,7 @@ stride
 ;
 }
 static
-INLINE
+inline
 void
 storeu_8bit_16x2_avx2
 (
@@ -603,7 +603,7 @@ d1
 ;
 }
 static
-INLINE
+inline
 void
 storeu_u8_16x2_avx2
 (
@@ -634,7 +634,7 @@ stride
 ;
 }
 static
-INLINE
+inline
 void
 storeu_s16_8x2_avx2
 (
@@ -665,7 +665,7 @@ stride
 ;
 }
 static
-INLINE
+inline
 void
 storeu_u16_8x2_avx2
 (

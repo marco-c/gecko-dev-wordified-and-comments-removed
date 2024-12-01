@@ -1307,7 +1307,7 @@ MULTI_WINNER_MODE_LEVELS
 }
 ;
 static
-AOM_INLINE
+inline
 void
 restore_dst_buf
 (
@@ -1379,7 +1379,7 @@ i
 }
 }
 static
-AOM_INLINE
+inline
 void
 swap_dst_buf
 (
@@ -1437,7 +1437,7 @@ num_planes
 ;
 }
 static
-AOM_INLINE
+inline
 int64_t
 get_rd_thresh_from_best_rd
 (
@@ -1494,7 +1494,7 @@ rd_thresh
 ;
 }
 static
-AOM_INLINE
+inline
 THR_MODES
 get_prediction_mode_idx
 (
@@ -1658,7 +1658,7 @@ THR_INVALID
 ;
 }
 static
-AOM_INLINE
+inline
 int
 inter_mode_data_block_idx
 (
@@ -1708,7 +1708,7 @@ return
 ;
 }
 static
-AOM_INLINE
+inline
 void
 get_txb_dimensions
 (
@@ -1940,7 +1940,7 @@ txb_width
 ;
 }
 static
-AOM_INLINE
+inline
 int
 bsize_to_num_blk
 (
@@ -1970,7 +1970,7 @@ num_blk
 ;
 }
 static
-INLINE
+inline
 int
 check_txfm_eval
 (
@@ -2296,7 +2296,7 @@ TX_MODE_SELECT
 }
 }
 static
-INLINE
+inline
 int
 bypass_winner_mode_processing
 (
@@ -2484,7 +2484,7 @@ return
 ;
 }
 static
-INLINE
+inline
 int
 is_winner_mode_processing_enabled
 (
@@ -2686,7 +2686,7 @@ return
 ;
 }
 static
-INLINE
+inline
 void
 set_tx_size_search_method
 (
@@ -2773,7 +2773,7 @@ tx_size_search_method
 ;
 }
 static
-INLINE
+inline
 void
 set_tx_type_prune
 (
@@ -2857,7 +2857,7 @@ is_winner_mode
 ;
 }
 static
-INLINE
+inline
 void
 set_tx_domain_dist_params
 (
@@ -2997,7 +2997,7 @@ MODE_EVAL
 }
 }
 static
-INLINE
+inline
 void
 set_mode_eval_params
 (
@@ -3432,7 +3432,7 @@ mode_eval_type
 ;
 }
 static
-INLINE
+inline
 CFL_ALLOWED_TYPE
 store_cfl_required_rdo
 (
@@ -3498,7 +3498,7 @@ xd
 ;
 }
 static
-AOM_INLINE
+inline
 void
 init_sbuv_mode
 (
@@ -3529,7 +3529,7 @@ palette_size
 ;
 }
 static
-INLINE
+inline
 void
 store_winner_mode_stats
 (
@@ -4023,7 +4023,7 @@ plane
 )
 ;
 static
-INLINE
+inline
 int
 is_mode_intra
 (
@@ -4038,7 +4038,7 @@ INTRA_MODE_END
 ;
 }
 static
-INLINE
+inline
 void
 av1_copy_usable_ref_mv_stack_and_weight
 (
@@ -4122,7 +4122,7 @@ ref_mv_stack
 ;
 }
 static
-INLINE
+inline
 int
 get_txfm_rd_gate_level
 (

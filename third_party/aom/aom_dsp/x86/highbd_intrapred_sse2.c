@@ -687,7 +687,7 @@ bd
 ;
 }
 static
-INLINE
+inline
 void
 h_store_16_unpacklo
 (
@@ -750,7 +750,7 @@ stride
 ;
 }
 static
-INLINE
+inline
 void
 h_store_16_unpackhi
 (
@@ -815,7 +815,7 @@ stride
 ;
 }
 static
-INLINE
+inline
 void
 h_predictor_16x8
 (
@@ -1174,7 +1174,7 @@ stride
 }
 }
 static
-INLINE
+inline
 void
 h_store_32_unpacklo
 (
@@ -1269,7 +1269,7 @@ stride
 ;
 }
 static
-INLINE
+inline
 void
 h_store_32_unpackhi
 (
@@ -1364,7 +1364,7 @@ stride
 ;
 }
 static
-INLINE
+inline
 void
 h_predictor_32x8
 (
@@ -1685,7 +1685,7 @@ stride
 }
 }
 static
-INLINE
+inline
 __m128i
 dc_sum_4
 (
@@ -1742,7 +1742,7 @@ a
 ;
 }
 static
-INLINE
+inline
 void
 dc_store_4x4
 (
@@ -2010,7 +2010,7 @@ dc_dup
 ;
 }
 static
-INLINE
+inline
 void
 dc_store_4x8
 (
@@ -2071,7 +2071,7 @@ dc_dup
 }
 }
 static
-INLINE
+inline
 __m128i
 dc_sum_8
 (
@@ -2349,7 +2349,7 @@ dc_dup
 ;
 }
 static
-INLINE
+inline
 void
 dc_store_8xh
 (
@@ -2422,7 +2422,7 @@ dc_dup
 }
 }
 static
-INLINE
+inline
 void
 dc_top_predictor_8xh
 (
@@ -2743,7 +2743,7 @@ dc
 ;
 }
 static
-INLINE
+inline
 __m128i
 dc_sum_16
 (
@@ -2854,7 +2854,7 @@ dc
 ;
 }
 static
-INLINE
+inline
 void
 dc_128_predictor_8xh
 (
@@ -3023,7 +3023,7 @@ bd
 ;
 }
 static
-INLINE
+inline
 void
 dc_store_16xh
 (
@@ -3254,7 +3254,7 @@ dc
 ;
 }
 static
-INLINE
+inline
 __m128i
 dc_sum_32
 (
@@ -3795,7 +3795,7 @@ dc_dup
 ;
 }
 static
-INLINE
+inline
 void
 dc_store_32xh
 (

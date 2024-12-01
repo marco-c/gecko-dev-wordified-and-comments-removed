@@ -255,6 +255,9 @@ height
 )
 ;
 }
+#
+if
+CONFIG_AV1_HIGHBITDEPTH
 void
 cdef_copy_rect8_16bit_to_16bit_neon
 (
@@ -380,8 +383,10 @@ height
 )
 ;
 }
+#
+endif
 static
-INLINE
+inline
 uint32x4_t
 fold_mul_and_sum_neon
 (
@@ -602,7 +607,7 @@ cost
 ;
 }
 static
-INLINE
+inline
 uint32x4_t
 compute_vert_directions_neon
 (
@@ -1382,7 +1387,7 @@ costs
 ;
 }
 static
-INLINE
+inline
 uint32x4_t
 fold_mul_and_sum_pairwise_neon
 (
@@ -2939,7 +2944,7 @@ coeff_shift
 ;
 }
 static
-INLINE
+inline
 int16x8_t
 constrain16
 (
@@ -3020,7 +3025,7 @@ clip
 ;
 }
 static
-INLINE
+inline
 void
 primary_filter
 (
@@ -3146,7 +3151,7 @@ pri_taps
 ;
 }
 static
-INLINE
+inline
 void
 secondary_filter
 (

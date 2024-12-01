@@ -30,7 +30,7 @@ aom_config
 h
 "
 static
-INLINE
+inline
 uint64x2_t
 aom_udotq_u16
 (
@@ -73,7 +73,7 @@ y
 ;
 }
 static
-INLINE
+inline
 int64x2_t
 aom_sdotq_s16
 (
@@ -156,7 +156,7 @@ lane
 )
 )
 static
-INLINE
+inline
 uint16x8_t
 aom_tbl_u16
 (
@@ -190,7 +190,7 @@ tbl
 ;
 }
 static
-INLINE
+inline
 int16x8_t
 aom_tbl_s16
 (

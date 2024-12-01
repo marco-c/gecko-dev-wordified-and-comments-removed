@@ -186,7 +186,7 @@ FLOW_UPSCALE_TAPS
 }
 ;
 static
-INLINE
+inline
 void
 get_cubic_kernel_dbl
 (
@@ -311,7 +311,7 @@ x3
 ;
 }
 static
-INLINE
+inline
 void
 get_cubic_kernel_int
 (
@@ -430,7 +430,7 @@ DISFLOW_INTERP_BITS
 ;
 }
 static
-INLINE
+inline
 double
 get_cubic_value_dbl
 (
@@ -489,7 +489,7 @@ p
 ;
 }
 static
-INLINE
+inline
 int
 get_cubic_value_int
 (
@@ -548,7 +548,7 @@ p
 ;
 }
 static
-INLINE
+inline
 double
 bicubic_interp_one
 (
@@ -1029,7 +1029,7 @@ num_correspondences
 ;
 }
 static
-INLINE
+inline
 void
 compute_flow_vector
 (
@@ -1539,7 +1539,7 @@ dt
 }
 }
 static
-INLINE
+inline
 void
 sobel_filter
 (
@@ -1820,7 +1820,7 @@ sum
 }
 }
 static
-INLINE
+inline
 void
 compute_flow_matrix
 (
@@ -2037,7 +2037,7 @@ tmp
 ;
 }
 static
-INLINE
+inline
 void
 invert_2x2
 (

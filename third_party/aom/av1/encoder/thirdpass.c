@@ -2065,7 +2065,7 @@ return
 #
 endif
 static
-AOM_INLINE
+inline
 void
 read_gop_frames
 (

@@ -420,7 +420,7 @@ arr
 )
 ;
 static
-AOM_INLINE
+inline
 int
 aom_calc_y_stride
 (

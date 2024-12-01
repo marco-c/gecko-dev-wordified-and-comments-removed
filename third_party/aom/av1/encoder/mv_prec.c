@@ -51,7 +51,7 @@ if
 !
 CONFIG_REALTIME_ONLY
 static
-AOM_INLINE
+inline
 int_mv
 get_ref_mv_for_mv_stats
 (
@@ -213,7 +213,7 @@ ref_frame_type
 ;
 }
 static
-AOM_INLINE
+inline
 int
 get_symbol_cost
 (
@@ -275,7 +275,7 @@ p15
 ;
 }
 static
-AOM_INLINE
+inline
 int
 keep_one_comp_stat
 (
@@ -808,7 +808,7 @@ total_rate
 ;
 }
 static
-AOM_INLINE
+inline
 void
 keep_one_mv_stat
 (
@@ -1238,7 +1238,7 @@ lp_rate
 }
 }
 static
-AOM_INLINE
+inline
 void
 collect_mv_stats_b
 (
@@ -1935,7 +1935,7 @@ vert_diff
 }
 }
 static
-AOM_INLINE
+inline
 void
 collect_mv_stats_sb
 (
@@ -2380,7 +2380,7 @@ assert
 }
 }
 static
-AOM_INLINE
+inline
 void
 collect_mv_stats_tile
 (
@@ -2705,7 +2705,7 @@ valid
 ;
 }
 static
-AOM_INLINE
+inline
 int
 get_smart_mv_prec
 (

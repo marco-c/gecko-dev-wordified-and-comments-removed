@@ -911,7 +911,7 @@ CDF_PROB_TOP
 )
 0
 static
-INLINE
+inline
 uint8_t
 get_prob
 (
@@ -992,7 +992,7 @@ clipped_prob
 }
 }
 static
-INLINE
+inline
 void
 update_cdf
 (

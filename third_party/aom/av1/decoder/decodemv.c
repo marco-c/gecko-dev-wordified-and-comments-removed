@@ -4849,7 +4849,7 @@ ACCT_STR
 }
 }
 static
-INLINE
+inline
 void
 read_mv
 (
@@ -4871,7 +4871,7 @@ precision
 )
 ;
 static
-INLINE
+inline
 int
 is_mv_valid
 (
@@ -4882,7 +4882,7 @@ mv
 )
 ;
 static
-INLINE
+inline
 int
 assign_dv
 (
@@ -6442,7 +6442,7 @@ mag
 ;
 }
 static
-INLINE
+inline
 void
 read_mv
 (
@@ -7366,7 +7366,7 @@ mode
 }
 }
 static
-INLINE
+inline
 void
 read_mb_interp_filter
 (
@@ -7860,7 +7860,7 @@ r
 ;
 }
 static
-INLINE
+inline
 int
 is_mv_valid
 (
@@ -7904,7 +7904,7 @@ MV_UPP
 ;
 }
 static
-INLINE
+inline
 int
 assign_mv
 (

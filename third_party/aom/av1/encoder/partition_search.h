@@ -7,6 +7,15 @@ AOM_AV1_ENCODER_PARTITION_SEARCH_H_
 #
 include
 "
+config
+/
+aom_config
+.
+h
+"
+#
+include
+"
 av1
 /
 encoder
@@ -207,6 +216,9 @@ pc_tree
 ;
 #
 endif
+#
+if
+CONFIG_PARTITION_SEARCH_ORDER
 void
 av1_reset_part_sf
 (
@@ -224,9 +236,6 @@ const
 cpi
 )
 ;
-#
-if
-CONFIG_PARTITION_SEARCH_ORDER
 bool
 av1_rd_partition_search
 (
@@ -305,7 +314,7 @@ rect_part_win_info
 )
 ;
 static
-AOM_INLINE
+inline
 void
 set_cb_offsets
 (
@@ -336,7 +345,7 @@ cb_offset_uv
 ;
 }
 static
-AOM_INLINE
+inline
 void
 update_cb_offsets
 (

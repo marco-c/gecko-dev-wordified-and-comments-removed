@@ -66,7 +66,7 @@ mem
 h
 "
 static
-INLINE
+inline
 void
 sign_extend_16bit_to_32bit_sse2
 (
@@ -112,7 +112,7 @@ sign_bits
 ;
 }
 static
-INLINE
+inline
 __m128i
 invert_sign_32_sse2
 (
@@ -1629,7 +1629,7 @@ avg
 ;
 }
 static
-INLINE
+inline
 void
 hadamard_col4_sse2
 (
@@ -2019,7 +2019,7 @@ coeff
 ;
 }
 static
-INLINE
+inline
 void
 hadamard_col8_sse2
 (
@@ -2612,7 +2612,7 @@ a7
 }
 }
 static
-INLINE
+inline
 void
 hadamard_8x8_sse2
 (
@@ -3091,7 +3091,7 @@ coeff
 ;
 }
 static
-INLINE
+inline
 void
 hadamard_lp_8x8_sse2
 (
@@ -3806,7 +3806,7 @@ t_coeff
 }
 }
 static
-INLINE
+inline
 void
 hadamard_16x16_sse2
 (

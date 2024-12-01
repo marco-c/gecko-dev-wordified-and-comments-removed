@@ -24,13 +24,8 @@ h
 "
 #
 if
-(
 defined
 (
-__GNUC__
-)
-&
-&
 __GNUC__
 )
 |

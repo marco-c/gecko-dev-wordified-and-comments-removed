@@ -32,7 +32,7 @@ mem_neon
 h
 "
 static
-INLINE
+inline
 void
 highbd_convolve8_horiz_2tap_neon
 (
@@ -545,7 +545,7 @@ h
 }
 }
 static
-INLINE
+inline
 uint16x4_t
 highbd_convolve4_4
 (
@@ -627,7 +627,7 @@ max
 ;
 }
 static
-INLINE
+inline
 uint16x8_t
 highbd_convolve4_8
 (
@@ -781,7 +781,7 @@ max
 ;
 }
 static
-INLINE
+inline
 void
 highbd_convolve8_vert_4tap_neon
 (
@@ -1239,7 +1239,7 @@ w
 }
 }
 static
-INLINE
+inline
 void
 highbd_convolve8_vert_2tap_neon
 (

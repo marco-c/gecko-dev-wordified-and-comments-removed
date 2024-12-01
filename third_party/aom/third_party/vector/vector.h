@@ -103,6 +103,9 @@ size_t
 element_size
 )
 ;
+#
+if
+0
 int
 aom_vector_copy
 (
@@ -158,6 +161,8 @@ Vector
 source
 )
 ;
+#
+endif
 int
 aom_vector_destroy
 (
@@ -177,6 +182,9 @@ void
 element
 )
 ;
+#
+if
+0
 int
 aom_vector_push_front
 (
@@ -214,6 +222,11 @@ void
 element
 )
 ;
+#
+endif
+#
+if
+0
 int
 aom_vector_pop_back
 (
@@ -315,6 +328,8 @@ index
 )
 )
 )
+#
+endif
 bool
 aom_vector_is_initialized
 (
@@ -333,6 +348,9 @@ Vector
 vector
 )
 ;
+#
+if
+0
 size_t
 aom_vector_free_space
 (
@@ -379,6 +397,8 @@ Vector
 vector
 )
 ;
+#
+endif
 Iterator
 aom_vector_begin
 (
@@ -387,6 +407,9 @@ Vector
 vector
 )
 ;
+#
+if
+0
 Iterator
 aom_vector_end
 (
@@ -395,6 +418,8 @@ Vector
 vector
 )
 ;
+#
+endif
 Iterator
 aom_vector_iterator
 (
@@ -414,6 +439,9 @@ Iterator
 iterator
 )
 ;
+#
+if
+0
 #
 define
 ITERATOR_GET_AS
@@ -445,6 +473,8 @@ Iterator
 iterator
 )
 ;
+#
+endif
 void
 aom_iterator_increment
 (
@@ -453,6 +483,9 @@ Iterator
 iterator
 )
 ;
+#
+if
+0
 void
 aom_iterator_decrement
 (
@@ -575,5 +608,7 @@ iterator_name
 )
 )
 )
+#
+endif
 #
 endif

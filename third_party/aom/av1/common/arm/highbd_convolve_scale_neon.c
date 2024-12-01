@@ -106,7 +106,7 @@ highbd_convolve_neon
 h
 "
 static
-INLINE
+inline
 void
 highbd_dist_wtd_comp_avg_neon
 (
@@ -598,7 +598,7 @@ h
 }
 }
 static
-INLINE
+inline
 void
 highbd_comp_avg_neon
 (
@@ -1002,7 +1002,7 @@ h
 }
 }
 static
-INLINE
+inline
 void
 highbd_convolve_2d_x_scale_8tap_neon
 (
@@ -2115,7 +2115,7 @@ height
 }
 }
 static
-INLINE
+inline
 void
 highbd_convolve_2d_y_scale_8tap_neon
 (
@@ -2548,7 +2548,7 @@ width
 }
 }
 static
-INLINE
+inline
 void
 highbd_convolve_correct_offset_neon
 (

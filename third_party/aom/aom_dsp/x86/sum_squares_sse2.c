@@ -51,7 +51,7 @@ aom_dsp_rtcd
 h
 "
 static
-INLINE
+inline
 __m128i
 xx_loadh_64
 (
@@ -88,7 +88,7 @@ b
 ;
 }
 static
-INLINE
+inline
 uint64_t
 xx_cvtsi128_si64
 (
@@ -133,7 +133,7 @@ tmp
 endif
 }
 static
-INLINE
+inline
 __m128i
 sum_squares_i16_4x4_sse2
 (
@@ -1998,7 +1998,7 @@ n
 }
 }
 static
-AOM_INLINE
+inline
 int32_t
 mm_accumulate_epi16
 (
@@ -2064,7 +2064,7 @@ vec_a
 ;
 }
 static
-AOM_INLINE
+inline
 int32_t
 mm_accumulate_epi32
 (
@@ -2561,6 +2561,9 @@ height
 )
 ;
 }
+#
+if
+CONFIG_AV1_HIGHBITDEPTH
 uint64_t
 aom_var_2d_u16_sse2
 (
@@ -2989,3 +2992,5 @@ height
 )
 ;
 }
+#
+endif

@@ -62,7 +62,7 @@ kDotProdMergeBlockTbl
 }
 ;
 static
-INLINE
+inline
 void
 transpose_concat_4x4
 (
@@ -194,7 +194,7 @@ val
 ;
 }
 static
-INLINE
+inline
 void
 transpose_concat_8x4
 (
@@ -343,7 +343,7 @@ val
 ;
 }
 static
-INLINE
+inline
 void
 aom_tbl2x4_s16
 (
@@ -440,7 +440,7 @@ tbl
 ;
 }
 static
-INLINE
+inline
 void
 aom_tbl2x2_s16
 (

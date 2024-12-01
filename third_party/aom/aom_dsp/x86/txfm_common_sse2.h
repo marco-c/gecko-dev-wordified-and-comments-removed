@@ -60,6 +60,9 @@ a
 uint32_t
 )
 (
+uint16_t
+)
+(
 b
 )
 )
@@ -70,7 +73,7 @@ b
 )
 )
 static
-INLINE
+inline
 __m128i
 mm_reverse_epi16
 (

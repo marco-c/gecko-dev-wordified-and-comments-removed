@@ -372,7 +372,7 @@ left
 InterPredParams
 ;
 static
-AOM_INLINE
+inline
 void
 init_subpel_params
 (
@@ -653,7 +653,7 @@ y_step_q4
 ;
 }
 static
-AOM_INLINE
+inline
 void
 init_interp_filter_params
 (
@@ -740,7 +740,7 @@ block_height
 }
 }
 static
-AOM_INLINE
+inline
 void
 init_inter_mode_params
 (
@@ -785,7 +785,7 @@ height
 ;
 }
 static
-AOM_INLINE
+inline
 void
 init_inter_block_params
 (
@@ -913,7 +913,7 @@ subsampling_x
 ;
 }
 static
-AOM_INLINE
+inline
 void
 av1_init_inter_params
 (
@@ -998,7 +998,7 @@ ref_buf
 ;
 }
 static
-AOM_INLINE
+inline
 void
 av1_init_comp_mode
 (
@@ -1038,7 +1038,7 @@ mi
 )
 ;
 static
-INLINE
+inline
 int
 has_scale
 (
@@ -1062,7 +1062,7 @@ SCALE_SUBPEL_SHIFTS
 ;
 }
 static
-INLINE
+inline
 void
 revert_scale_extra_bits
 (
@@ -1151,7 +1151,7 @@ SUBPEL_SHIFTS
 ;
 }
 static
-INLINE
+inline
 void
 inter_predictor
 (
@@ -1299,7 +1299,7 @@ conv_params
 }
 }
 static
-INLINE
+inline
 void
 highbd_inter_predictor
 (
@@ -1450,14 +1450,6 @@ bd
 ;
 }
 }
-void
-av1_modify_neighbor_predictor_for_obmc
-(
-MB_MODE_INFO
-*
-mbmi
-)
-;
 int
 av1_skip_u4x4_pred_in_obmc
 (
@@ -1473,7 +1465,7 @@ dir
 )
 ;
 static
-INLINE
+inline
 int
 is_interinter_compound_used
 (
@@ -1538,7 +1530,7 @@ return
 }
 }
 static
-INLINE
+inline
 int
 is_any_masked_compound_used
 (
@@ -1608,7 +1600,7 @@ return
 ;
 }
 static
-INLINE
+inline
 int
 get_wedge_types_lookup
 (
@@ -1626,7 +1618,7 @@ wedge_types
 ;
 }
 static
-INLINE
+inline
 int
 av1_is_wedge_used
 (
@@ -1692,7 +1684,7 @@ subpel_params
 )
 ;
 static
-INLINE
+inline
 MV
 clamp_mv_to_umv_border_sb
 (
@@ -1906,7 +1898,7 @@ clamped_mv
 ;
 }
 static
-INLINE
+inline
 int64_t
 scaled_buffer_offset
 (
@@ -2011,7 +2003,7 @@ x
 ;
 }
 static
-INLINE
+inline
 void
 setup_pred_plane
 (
@@ -2221,7 +2213,7 @@ num_planes
 )
 ;
 static
-INLINE
+inline
 void
 set_default_interp_filters
 (
@@ -2248,7 +2240,7 @@ frame_interp_filter
 ;
 }
 static
-INLINE
+inline
 int
 av1_is_interp_needed
 (
@@ -2456,7 +2448,7 @@ void
 )
 ;
 static
-INLINE
+inline
 const
 uint8_t
 *

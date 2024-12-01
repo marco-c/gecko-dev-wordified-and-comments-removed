@@ -164,7 +164,7 @@ kDotProdTbl
 }
 ;
 static
-INLINE
+inline
 uint16x4_t
 convolve12_4_x
 (
@@ -402,7 +402,7 @@ max
 ;
 }
 static
-INLINE
+inline
 uint16x8_t
 convolve12_8_x
 (
@@ -778,7 +778,7 @@ max
 ;
 }
 static
-INLINE
+inline
 void
 highbd_convolve_x_sr_12tap_sve2
 (
@@ -1342,7 +1342,7 @@ height
 }
 }
 static
-INLINE
+inline
 uint16x8_t
 convolve8_8_x
 (
@@ -1621,7 +1621,7 @@ max
 ;
 }
 static
-INLINE
+inline
 void
 highbd_convolve_x_sr_8tap_sve2
 (
@@ -2086,7 +2086,7 @@ kDeinterleaveTbl
 }
 ;
 static
-INLINE
+inline
 uint16x4_t
 convolve4_4_x
 (
@@ -2185,7 +2185,7 @@ max
 ;
 }
 static
-INLINE
+inline
 uint16x8_t
 convolve4_8_x
 (
@@ -2324,7 +2324,7 @@ max
 ;
 }
 static
-INLINE
+inline
 void
 highbd_convolve_x_sr_4tap_sve2
 (
@@ -3051,7 +3051,7 @@ bd
 ;
 }
 static
-INLINE
+inline
 uint16x4_t
 highbd_convolve12_4_y
 (
@@ -3237,7 +3237,7 @@ max
 ;
 }
 static
-INLINE
+inline
 void
 highbd_convolve_y_sr_12tap_sve2
 (
@@ -3948,7 +3948,7 @@ width
 ;
 }
 static
-INLINE
+inline
 uint16x4_t
 highbd_convolve8_4_y
 (
@@ -4061,7 +4061,7 @@ max
 ;
 }
 static
-INLINE
+inline
 uint16x8_t
 highbd_convolve8_8_y
 (
@@ -5276,7 +5276,7 @@ width
 }
 }
 static
-INLINE
+inline
 uint16x4_t
 highbd_convolve4_4_y
 (
@@ -5358,7 +5358,7 @@ max
 ;
 }
 static
-INLINE
+inline
 uint16x8_t
 highbd_convolve4_8_y
 (
@@ -6226,7 +6226,7 @@ bd
 ;
 }
 static
-INLINE
+inline
 uint16x4_t
 convolve12_4_2d_h
 (
@@ -6462,7 +6462,7 @@ sum0123
 ;
 }
 static
-INLINE
+inline
 uint16x8_t
 convolve12_8_2d_h
 (
@@ -6843,7 +6843,7 @@ sum4567
 ;
 }
 static
-INLINE
+inline
 void
 highbd_convolve_2d_sr_horiz_12tap_sve2
 (
@@ -7377,7 +7377,7 @@ height
 }
 }
 static
-INLINE
+inline
 uint16x8_t
 convolve8_8_2d_h
 (
@@ -7661,7 +7661,7 @@ sum4567
 ;
 }
 static
-INLINE
+inline
 void
 highbd_convolve_2d_sr_horiz_8tap_sve2
 (
@@ -8091,7 +8091,7 @@ height
 ;
 }
 static
-INLINE
+inline
 uint16x4_t
 convolve4_4_2d_h
 (
@@ -8188,7 +8188,7 @@ sum0123
 ;
 }
 static
-INLINE
+inline
 uint16x8_t
 convolve4_8_2d_h
 (
@@ -8333,7 +8333,7 @@ tbl
 ;
 }
 static
-INLINE
+inline
 void
 highbd_convolve_2d_sr_horiz_4tap_sve2
 (
@@ -8917,7 +8917,7 @@ height
 }
 }
 static
-INLINE
+inline
 uint16x4_t
 highbd_convolve12_4_2d_v
 (
@@ -9068,7 +9068,7 @@ max
 ;
 }
 static
-INLINE
+inline
 void
 highbd_convolve_2d_sr_vert_12tap_sve2
 (
@@ -9819,7 +9819,7 @@ width
 ;
 }
 static
-INLINE
+inline
 uint16x4_t
 highbd_convolve8_4_2d_v
 (
@@ -9937,7 +9937,7 @@ max
 ;
 }
 static
-INLINE
+inline
 uint16x8_t
 highbd_convolve8_8_2d_v
 (
@@ -11202,7 +11202,7 @@ width
 }
 }
 static
-INLINE
+inline
 uint16x4_t
 highbd_convolve4_4_2d_v
 (
@@ -11289,7 +11289,7 @@ max
 ;
 }
 static
-INLINE
+inline
 uint16x8_t
 highbd_convolve4_8_2d_v
 (

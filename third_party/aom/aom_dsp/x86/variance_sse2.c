@@ -70,6 +70,10 @@ mem
 .
 h
 "
+#
+if
+!
+CONFIG_REALTIME_ONLY
 unsigned
 int
 aom_get_mb_ss_sse2
@@ -167,8 +171,10 @@ vsum
 )
 ;
 }
+#
+endif
 static
-INLINE
+inline
 __m128i
 load4x2_sse2
 (
@@ -229,7 +235,7 @@ _mm_setzero_si128
 ;
 }
 static
-INLINE
+inline
 __m128i
 load8_8to16_sse2
 (
@@ -265,7 +271,7 @@ _mm_setzero_si128
 ;
 }
 static
-INLINE
+inline
 void
 load16_8to16_sse2
 (
@@ -321,7 +327,7 @@ _mm_setzero_si128
 ;
 }
 static
-INLINE
+inline
 unsigned
 int
 add32x4_sse2
@@ -366,7 +372,7 @@ val
 ;
 }
 static
-INLINE
+inline
 __m128i
 sum_to_32bit_sse2
 (
@@ -412,7 +418,7 @@ sum_hi
 ;
 }
 static
-INLINE
+inline
 void
 variance_kernel_sse2
 (
@@ -468,7 +474,7 @@ diff
 ;
 }
 static
-INLINE
+inline
 void
 variance_final_128_pel_sse2
 (
@@ -545,7 +551,7 @@ vsum
 ;
 }
 static
-INLINE
+inline
 void
 variance_final_256_pel_sse2
 (
@@ -623,7 +629,7 @@ vsum
 ;
 }
 static
-INLINE
+inline
 void
 variance_final_512_pel_sse2
 (
@@ -691,7 +697,7 @@ vsum
 ;
 }
 static
-INLINE
+inline
 void
 variance_final_1024_pel_sse2
 (
@@ -738,7 +744,7 @@ vsum
 ;
 }
 static
-INLINE
+inline
 void
 variance4_sse2
 (
@@ -846,7 +852,7 @@ ref_stride
 }
 }
 static
-INLINE
+inline
 void
 variance8_sse2
 (
@@ -954,7 +960,7 @@ ref_stride
 }
 }
 static
-INLINE
+inline
 void
 variance16_kernel_sse2
 (
@@ -1072,7 +1078,7 @@ sum
 ;
 }
 static
-INLINE
+inline
 void
 variance16_sse2
 (
@@ -1155,7 +1161,7 @@ ref_stride
 }
 }
 static
-INLINE
+inline
 void
 variance32_sse2
 (
@@ -1254,7 +1260,7 @@ ref_stride
 }
 }
 static
-INLINE
+inline
 void
 variance64_sse2
 (
@@ -1377,7 +1383,7 @@ ref_stride
 }
 }
 static
-INLINE
+inline
 void
 variance128_sse2
 (
@@ -2263,13 +2269,6 @@ AOM_VAR_NO_LOOP_SSE2
 )
 AOM_VAR_NO_LOOP_SSE2
 (
-4
-16
-6
-128
-)
-AOM_VAR_NO_LOOP_SSE2
-(
 8
 4
 5
@@ -2313,13 +2312,6 @@ AOM_VAR_NO_LOOP_SSE2
 AOM_VAR_NO_LOOP_SSE2
 (
 32
-8
-8
-256
-)
-AOM_VAR_NO_LOOP_SSE2
-(
-32
 16
 9
 512
@@ -2337,6 +2329,13 @@ if
 CONFIG_REALTIME_ONLY
 AOM_VAR_NO_LOOP_SSE2
 (
+4
+16
+6
+128
+)
+AOM_VAR_NO_LOOP_SSE2
+(
 16
 4
 6
@@ -2346,6 +2345,13 @@ AOM_VAR_NO_LOOP_SSE2
 (
 8
 32
+8
+256
+)
+AOM_VAR_NO_LOOP_SSE2
+(
+32
+8
 8
 256
 )
@@ -2771,8 +2777,11 @@ return
 sse
 ;
 }
+#
+if
+CONFIG_AV1_HIGHBITDEPTH
 static
-INLINE
+inline
 __m128i
 highbd_comp_mask_pred_line_sse2
 (
@@ -3620,6 +3629,8 @@ height
 ;
 }
 }
+#
+endif
 static
 uint64_t
 mse_4xh_16bit_sse2

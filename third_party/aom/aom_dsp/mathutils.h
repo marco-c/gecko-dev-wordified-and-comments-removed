@@ -46,7 +46,7 @@ TINY_NEAR_ZERO
 16
 ;
 static
-INLINE
+inline
 int
 linsolve
 (
@@ -454,7 +454,7 @@ return
 ;
 }
 static
-INLINE
+inline
 void
 least_squares_init
 (
@@ -528,7 +528,7 @@ x
 ;
 }
 static
-INLINE
+inline
 void
 least_squares_accumulate
 (
@@ -634,7 +634,7 @@ b
 }
 }
 static
-INLINE
+inline
 int
 least_squares_solve
 (
@@ -663,7 +663,7 @@ x
 ;
 }
 static
-INLINE
+inline
 void
 multiply_mat
 (
@@ -779,7 +779,7 @@ sum
 }
 }
 static
-AOM_INLINE
+inline
 float
 approx_exp
 (

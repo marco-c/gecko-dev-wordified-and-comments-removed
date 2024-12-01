@@ -10,6 +10,15 @@ include
 "
 config
 /
+aom_config
+.
+h
+"
+#
+include
+"
+config
+/
 aom_dsp_rtcd
 .
 h
@@ -241,6 +250,9 @@ height
 )
 ;
 }
+#
+if
+CONFIG_AV1_HIGHBITDEPTH
 uint64_t
 aom_var_2d_u16_c
 (
@@ -350,6 +362,8 @@ height
 )
 ;
 }
+#
+endif
 uint64_t
 aom_sum_sse_2d_i16_c
 (

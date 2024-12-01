@@ -601,7 +601,7 @@ shuffle_src3
 }
 ;
 static
-INLINE
+inline
 void
 filter_src_pixels_avx2
 (
@@ -783,7 +783,7 @@ shift
 ;
 }
 static
-INLINE
+inline
 void
 prepare_horizontal_filter_coeff_avx2
 (
@@ -1552,7 +1552,7 @@ res_3
 ;
 }
 static
-INLINE
+inline
 void
 prepare_horizontal_filter_coeff_beta0_avx2
 (
@@ -1919,7 +1919,7 @@ res_3
 ;
 }
 static
-INLINE
+inline
 void
 prepare_horizontal_filter_coeff_alpha0_avx2
 (
@@ -2064,7 +2064,7 @@ shuffle_alpha0_mask67_avx2
 ;
 }
 static
-INLINE
+inline
 void
 horizontal_filter_avx2
 (
@@ -2123,7 +2123,7 @@ row
 ;
 }
 static
-INLINE
+inline
 void
 prepare_horizontal_filter_coeff
 (
@@ -2482,7 +2482,7 @@ tmp_15
 ;
 }
 static
-INLINE
+inline
 void
 warp_horizontal_filter_avx2
 (
@@ -2769,7 +2769,7 @@ row
 ;
 }
 static
-INLINE
+inline
 void
 warp_horizontal_filter_alpha0_avx2
 (
@@ -3066,7 +3066,7 @@ row
 ;
 }
 static
-INLINE
+inline
 void
 warp_horizontal_filter_beta0_avx2
 (
@@ -3331,7 +3331,7 @@ row
 ;
 }
 static
-INLINE
+inline
 void
 warp_horizontal_filter_alpha0_beta0_avx2
 (
@@ -3596,7 +3596,7 @@ row
 ;
 }
 static
-INLINE
+inline
 void
 unpack_weights_and_set_round_const_avx2
 (
@@ -3728,7 +3728,7 @@ wt1
 ;
 }
 static
-INLINE
+inline
 void
 prepare_vertical_filter_coeffs_avx2
 (
@@ -4457,7 +4457,7 @@ res_3
 ;
 }
 static
-INLINE
+inline
 void
 prepare_vertical_filter_coeffs_delta0_avx2
 (
@@ -4900,7 +4900,7 @@ res_3
 ;
 }
 static
-INLINE
+inline
 void
 prepare_vertical_filter_coeffs_gamma0_avx2
 (
@@ -5088,7 +5088,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 void
 filter_src_pixels_vertical_avx2
 (
@@ -5349,7 +5349,7 @@ res_odd
 ;
 }
 static
-INLINE
+inline
 void
 store_vertical_filter_output_avx2
 (
@@ -6331,7 +6331,7 @@ res_8bit1
 }
 }
 static
-INLINE
+inline
 void
 warp_vertical_filter_avx2
 (
@@ -6697,7 +6697,7 @@ row
 }
 }
 static
-INLINE
+inline
 void
 warp_vertical_filter_gamma0_avx2
 (
@@ -7067,7 +7067,7 @@ row
 }
 }
 static
-INLINE
+inline
 void
 warp_vertical_filter_delta0_avx2
 (
@@ -7422,7 +7422,7 @@ row
 }
 }
 static
-INLINE
+inline
 void
 warp_vertical_filter_gamma0_delta0_avx2
 (
@@ -7777,7 +7777,7 @@ row
 }
 }
 static
-INLINE
+inline
 void
 prepare_warp_vertical_filter_avx2
 (
@@ -7958,7 +7958,7 @@ wt
 ;
 }
 static
-INLINE
+inline
 void
 prepare_warp_horizontal_filter_avx2
 (

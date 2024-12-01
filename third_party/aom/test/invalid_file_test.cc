@@ -16,16 +16,6 @@ string
 #
 include
 "
-third_party
-/
-googletest
-/
-src
-/
-googletest
-/
-include
-/
 gtest
 /
 gtest
@@ -786,7 +776,10 @@ res
 #
 if
 !
+defined
+(
 CHROMIUM
+)
 &
 &
 !

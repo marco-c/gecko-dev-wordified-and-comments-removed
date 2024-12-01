@@ -178,7 +178,7 @@ roffset
 CdefBlockInfo
 ;
 static
-INLINE
+inline
 int
 sign
 (
@@ -198,7 +198,7 @@ i
 ;
 }
 static
-INLINE
+inline
 int
 constrain
 (

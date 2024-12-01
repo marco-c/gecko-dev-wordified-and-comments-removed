@@ -15338,7 +15338,7 @@ weights_layer_5
 }
 ;
 static
-INLINE
+inline
 float32x4_t
 add_f32x4_x4
 (
@@ -15389,7 +15389,7 @@ sum23
 ;
 }
 static
-INLINE
+inline
 void
 av1_cnn_convolve_no_maxpool_padding_valid_2x2_large_neon
 (
@@ -16234,7 +16234,7 @@ out_channels
 ;
 }
 static
-INLINE
+inline
 void
 av1_cnn_convolve_no_maxpool_padding_valid_2x2_neon
 (
@@ -16824,7 +16824,7 @@ out_channels
 ;
 }
 static
-INLINE
+inline
 void
 av1_cnn_convolve_no_maxpool_padding_valid_5x5_neon
 (

@@ -19,16 +19,6 @@ h
 #
 include
 "
-third_party
-/
-googletest
-/
-src
-/
-googletest
-/
-include
-/
 gtest
 /
 gtest
@@ -343,7 +333,7 @@ nonUniformTileConfigParams
 }
 ;
 static
-INLINE
+inline
 int
 tile_log2
 (

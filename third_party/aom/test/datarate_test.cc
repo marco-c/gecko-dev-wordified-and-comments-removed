@@ -10,16 +10,6 @@ h
 #
 include
 "
-third_party
-/
-googletest
-/
-src
-/
-googletest
-/
-include
-/
 gtest
 /
 gtest
@@ -707,7 +697,7 @@ much
 ASSERT_LE
 (
 num_spikes_
-8
+10
 )
 ;
 ASSERT_LT
@@ -1087,7 +1077,7 @@ ResetModel
 (
 )
 ;
-tile_column_
+tile_columns_
 =
 2
 ;
@@ -2446,7 +2436,7 @@ ResetModel
 (
 )
 ;
-tile_column_
+tile_columns_
 =
 1
 ;

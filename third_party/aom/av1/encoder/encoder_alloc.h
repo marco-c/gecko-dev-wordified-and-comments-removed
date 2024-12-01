@@ -103,7 +103,7 @@ C
 #
 endif
 static
-AOM_INLINE
+inline
 void
 dealloc_context_buffers_ext
 (
@@ -136,7 +136,7 @@ alloc_size
 ;
 }
 static
-AOM_INLINE
+inline
 void
 alloc_context_buffers_ext
 (
@@ -268,7 +268,7 @@ mi_alloc_cols
 ;
 }
 static
-AOM_INLINE
+inline
 void
 alloc_compressor_data
 (
@@ -511,7 +511,7 @@ PICK_MODE_CONTEXT
 ;
 }
 static
-AOM_INLINE
+inline
 void
 alloc_mb_mode_info_buffers
 (
@@ -593,7 +593,7 @@ mbmi_ext_info
 ;
 }
 static
-AOM_INLINE
+inline
 void
 realloc_segmentation_maps
 (
@@ -729,7 +729,7 @@ mi_cols
 ;
 }
 static
-AOM_INLINE
+inline
 void
 alloc_obmc_buffers
 (
@@ -856,7 +856,7 @@ left_pred
 ;
 }
 static
-AOM_INLINE
+inline
 void
 release_obmc_buffers
 (
@@ -927,7 +927,7 @@ NULL
 ;
 }
 static
-AOM_INLINE
+inline
 void
 alloc_compound_type_rd_buffers
 (
@@ -1083,7 +1083,7 @@ tmp_best_mask_buf
 ;
 }
 static
-AOM_INLINE
+inline
 void
 release_compound_type_rd_buffers
 (
@@ -1141,7 +1141,7 @@ bufs
 ;
 }
 static
-AOM_INLINE
+inline
 void
 dealloc_compressor_data
 (
@@ -2120,6 +2120,10 @@ j
 #
 if
 CONFIG_DENOISE
+&
+&
+!
+CONFIG_REALTIME_ONLY
 if
 (
 cpi
@@ -2146,6 +2150,10 @@ NULL
 }
 #
 endif
+#
+if
+!
+CONFIG_REALTIME_ONLY
 if
 (
 cpi
@@ -2178,6 +2186,8 @@ film_grain_table
 NULL
 ;
 }
+#
+endif
 if
 (
 cpi
@@ -2322,7 +2332,7 @@ NULL
 ;
 }
 static
-AOM_INLINE
+inline
 void
 allocate_gradient_info_for_hog
 (
@@ -2426,7 +2436,7 @@ pixel_gradient_info
 ;
 }
 static
-AOM_INLINE
+inline
 void
 allocate_src_var_of_4x4_sub_block_buf
 (
@@ -2539,7 +2549,7 @@ source_variance_info
 ;
 }
 static
-AOM_INLINE
+inline
 void
 variance_partition_alloc
 (
@@ -2673,7 +2683,7 @@ num_64x64_blocks
 }
 }
 static
-AOM_INLINE
+inline
 YV12_BUFFER_CONFIG
 *
 realloc_and_scale_source
@@ -2884,7 +2894,7 @@ scaled_source
 ;
 }
 static
-AOM_INLINE
+inline
 void
 free_thread_data
 (

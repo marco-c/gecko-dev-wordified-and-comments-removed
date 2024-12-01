@@ -188,7 +188,7 @@ shuffle_output_layer_1_and_2
 }
 ;
 static
-INLINE
+inline
 void
 prepare_weights_for_5x5_convolve
 (
@@ -600,7 +600,7 @@ while
 0
 )
 static
-INLINE
+inline
 void
 load_shuffle_masks_for_2x2_convolve
 (
@@ -663,7 +663,7 @@ shuffle_weight_layer_1_and_2
 ;
 }
 static
-INLINE
+inline
 void
 prepare_weights_for_2x2_convolve
 (
@@ -1141,7 +1141,7 @@ while
 0
 )
 static
-INLINE
+inline
 void
 perform_convolve_for_8h_2x2_blocks
 (
@@ -1363,7 +1363,7 @@ load_src
 ;
 }
 static
-INLINE
+inline
 void
 perform_convolve_for_4hx2v_2x2_blocks
 (
@@ -2259,7 +2259,7 @@ kSkipWidth
 }
 }
 static
-INLINE
+inline
 void
 cnn_convolve_no_maxpool_padding_valid_layer1_avx2
 (
@@ -2532,7 +2532,7 @@ j
 }
 }
 static
-INLINE
+inline
 void
 cnn_convolve_no_maxpool_padding_valid_layer2_avx2
 (

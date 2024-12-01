@@ -190,8 +190,9 @@ b
 )
 ;
 }
+static
 int
-av1_remove_duplicates
+remove_duplicates
 (
 int16_t
 *
@@ -1102,7 +1103,7 @@ total_bits
 ;
 }
 static
-AOM_INLINE
+inline
 void
 extend_palette_color_map
 (
@@ -1249,7 +1250,7 @@ new_width
 }
 }
 static
-AOM_INLINE
+inline
 void
 optimize_palette_colors
 (
@@ -1413,7 +1414,7 @@ idx
 }
 }
 static
-AOM_INLINE
+inline
 void
 palette_rd_y
 (
@@ -1525,7 +1526,7 @@ const
 int
 num_unique_colors
 =
-av1_remove_duplicates
+remove_duplicates
 (
 centroids
 n
@@ -2115,7 +2116,7 @@ beat_best_palette_rd
 }
 }
 static
-AOM_INLINE
+inline
 int
 is_iter_over
 (
@@ -2154,7 +2155,7 @@ end_idx
 ;
 }
 static
-AOM_INLINE
+inline
 int
 perform_top_color_palette_search
 (
@@ -2401,7 +2402,7 @@ top_color_winner
 ;
 }
 static
-AOM_INLINE
+inline
 int
 perform_k_means_palette_search
 (
@@ -2698,7 +2699,7 @@ top_color_winner
 ;
 }
 static
-AOM_INLINE
+inline
 void
 set_stage2_params
 (
@@ -2780,7 +2781,7 @@ min_n
 ;
 }
 static
-AOM_INLINE
+inline
 void
 fill_data_and_get_bounds
 (

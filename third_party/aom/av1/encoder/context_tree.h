@@ -459,7 +459,7 @@ BLOCK_128X128
 }
 ;
 static
-AOM_INLINE
+inline
 int
 av1_get_pc_tree_nodes
 (

@@ -414,7 +414,7 @@ InvSqrt2
 11585
 ;
 static
-INLINE
+inline
 tran_high_t
 fdct_round_shift
 (

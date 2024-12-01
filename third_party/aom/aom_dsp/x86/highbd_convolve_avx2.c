@@ -2060,7 +2060,7 @@ signal_index
 }
 ;
 static
-INLINE
+inline
 void
 pack_pixels
 (
@@ -2174,7 +2174,7 @@ sf1
 ;
 }
 static
-INLINE
+inline
 void
 pack_16_pixels
 (
@@ -2343,7 +2343,7 @@ pp
 ;
 }
 static
-INLINE
+inline
 void
 pack_8x1_pixels
 (
@@ -2458,7 +2458,7 @@ pp
 ;
 }
 static
-INLINE
+inline
 void
 pack_8x2_pixels
 (
@@ -2516,7 +2516,7 @@ x
 ;
 }
 static
-INLINE
+inline
 void
 pack_16x1_pixels
 (
@@ -2572,7 +2572,7 @@ x
 ;
 }
 static
-INLINE
+inline
 void
 pack_filters
 (
@@ -2695,7 +2695,7 @@ p3
 ;
 }
 static
-INLINE
+inline
 void
 pack_filters_4tap
 (
@@ -2755,7 +2755,7 @@ coeff
 ;
 }
 static
-INLINE
+inline
 void
 filter_8x1_pixels
 (
@@ -2918,7 +2918,7 @@ CONV8_ROUNDING_BITS
 }
 }
 static
-INLINE
+inline
 void
 store_8x1_pixels
 (
@@ -2989,7 +2989,7 @@ res
 ;
 }
 static
-INLINE
+inline
 void
 store_8x2_pixels
 (
@@ -3065,7 +3065,7 @@ a
 ;
 }
 static
-INLINE
+inline
 void
 store_16x1_pixels
 (
@@ -4643,7 +4643,7 @@ bd
 ;
 }
 static
-INLINE
+inline
 void
 pack_2t_filter
 (
@@ -4706,7 +4706,7 @@ p
 ;
 }
 static
-INLINE
+inline
 void
 pack_16_2t_pixels
 (
@@ -4833,7 +4833,7 @@ r1
 ;
 }
 static
-INLINE
+inline
 void
 pack_8x2_2t_pixels
 (
@@ -4892,7 +4892,7 @@ sig
 ;
 }
 static
-INLINE
+inline
 void
 pack_16x1_2t_pixels
 (
@@ -4948,7 +4948,7 @@ sig
 ;
 }
 static
-INLINE
+inline
 void
 pack_8x1_2t_pixels
 (
@@ -5041,7 +5041,7 @@ r0
 ;
 }
 static
-INLINE
+inline
 void
 filter_16_2t_pixels
 (
@@ -5139,7 +5139,7 @@ CONV8_ROUNDING_BITS
 ;
 }
 static
-INLINE
+inline
 void
 filter_8x1_2t_pixels
 (
@@ -5787,7 +5787,7 @@ s6
 ;
 }
 static
-INLINE
+inline
 void
 pack_8x9_pixels
 (
@@ -5906,7 +5906,7 @@ s1
 ;
 }
 static
-INLINE
+inline
 void
 filter_8x9_pixels
 (
@@ -5946,7 +5946,7 @@ y1
 ;
 }
 static
-INLINE
+inline
 void
 update_pixels
 (
@@ -6692,7 +6692,7 @@ s8
 ;
 }
 static
-INLINE
+inline
 void
 filter_16x9_pixels
 (
@@ -6811,7 +6811,7 @@ h0h1
 }
 }
 static
-INLINE
+inline
 void
 store_16x2_pixels
 (
@@ -8007,7 +8007,7 @@ src
 ;
 }
 static
-INLINE
+inline
 void
 pack_16x2_2t_pixels
 (
@@ -8077,7 +8077,7 @@ u
 ;
 }
 static
-INLINE
+inline
 void
 filter_16x2_2t_pixels
 (
@@ -8227,7 +8227,7 @@ height
 ;
 }
 static
-INLINE
+inline
 void
 pack_8x1_2t_filter
 (
@@ -8305,7 +8305,7 @@ src
 ;
 }
 static
-INLINE
+inline
 void
 pack_8x2_2t_pixels_ver
 (
@@ -8375,7 +8375,7 @@ u
 ;
 }
 static
-INLINE
+inline
 void
 filter_8_2t_pixels
 (
@@ -8473,7 +8473,7 @@ CONV8_ROUNDING_BITS
 ;
 }
 static
-INLINE
+inline
 void
 store_8x1_2t_pixels_ver
 (

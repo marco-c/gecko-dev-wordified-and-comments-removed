@@ -46,7 +46,7 @@ quantize_x86
 h
 "
 static
-INLINE
+inline
 void
 calculate_dqcoeff_and_store
 (

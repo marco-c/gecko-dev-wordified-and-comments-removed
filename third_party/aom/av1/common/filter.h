@@ -171,7 +171,7 @@ as_filters
 int_interpfilters
 ;
 static
-INLINE
+inline
 InterpFilter
 av1_extract_interp_filter
 (
@@ -205,7 +205,7 @@ y_filter
 ;
 }
 static
-INLINE
+inline
 int_interpfilters
 av1_broadcast_interp_filter
 (
@@ -237,7 +237,7 @@ filters
 ;
 }
 static
-INLINE
+inline
 InterpFilter
 av1_unswitchable_filter
 (
@@ -2131,7 +2131,7 @@ BILINEAR
 }
 ;
 static
-INLINE
+inline
 const
 InterpFilterParams
 *
@@ -2174,7 +2174,7 @@ interp_filter
 ;
 }
 static
-INLINE
+inline
 const
 int16_t
 *
@@ -2235,7 +2235,7 @@ filter_ptr
 ;
 }
 static
-INLINE
+inline
 const
 int16_t
 *
@@ -2266,7 +2266,7 @@ subpel
 ;
 }
 static
-INLINE
+inline
 const
 InterpFilterParams
 *
@@ -2332,7 +2332,7 @@ NULL
 }
 }
 static
-INLINE
+inline
 void
 reset_interp_filter_allowed_mask
 (
@@ -2370,7 +2370,7 @@ ALLOW_ALL_INTERP_FILT_MASK
 ;
 }
 static
-INLINE
+inline
 void
 set_interp_filter_allowed_mask
 (
@@ -2394,7 +2394,7 @@ filt_type
 ;
 }
 static
-INLINE
+inline
 uint8_t
 get_interp_filter_allowed_mask
 (
@@ -2416,7 +2416,7 @@ filt_type
 ;
 }
 static
-AOM_INLINE
+inline
 int
 get_filter_tap
 (
@@ -2492,6 +2492,9 @@ return
 6
 ;
 }
+#
+if
+CONFIG_SVT_AV1
 if
 (
 filter
@@ -2512,6 +2515,13 @@ return
 return
 2
 ;
+#
+else
+return
+4
+;
+#
+endif
 }
 #
 ifdef

@@ -2156,7 +2156,7 @@ high_128
 )
 ;
 static
-INLINE
+inline
 void
 resize_convolve
 (
@@ -2333,7 +2333,7 @@ dst_11
 ;
 }
 static
-INLINE
+inline
 void
 prepare_filter_coeffs
 (

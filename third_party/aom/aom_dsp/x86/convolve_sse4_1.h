@@ -5,7 +5,7 @@ AOM_AOM_DSP_X86_CONVOLVE_SSE4_1_H_
 define
 AOM_AOM_DSP_X86_CONVOLVE_SSE4_1_H_
 static
-INLINE
+inline
 void
 mult_add_store
 (
@@ -100,7 +100,7 @@ d
 ;
 }
 static
-INLINE
+inline
 __m128i
 highbd_comp_avg_sse4_1
 (

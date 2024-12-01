@@ -33,7 +33,7 @@ fft_common
 h
 "
 static
-INLINE
+inline
 void
 transpose4x4
 (
@@ -1219,7 +1219,7 @@ imag1
 GEN_FFT_4
 (
 static
-INLINE
+inline
 void
 sse2
 float
@@ -1233,7 +1233,7 @@ _mm_sub_ps
 GEN_FFT_8
 (
 static
-INLINE
+inline
 void
 sse2
 float
@@ -1248,7 +1248,7 @@ _mm_mul_ps
 GEN_FFT_16
 (
 static
-INLINE
+inline
 void
 sse2
 float
@@ -1263,7 +1263,7 @@ _mm_mul_ps
 GEN_FFT_32
 (
 static
-INLINE
+inline
 void
 sse2
 float
@@ -1390,7 +1390,7 @@ aom_fft_unpack_2d_output_sse2
 GEN_IFFT_4
 (
 static
-INLINE
+inline
 void
 sse2
 float
@@ -1404,7 +1404,7 @@ _mm_sub_ps
 GEN_IFFT_8
 (
 static
-INLINE
+inline
 void
 sse2
 float
@@ -1419,7 +1419,7 @@ _mm_mul_ps
 GEN_IFFT_16
 (
 static
-INLINE
+inline
 void
 sse2
 float
@@ -1434,7 +1434,7 @@ _mm_mul_ps
 GEN_IFFT_32
 (
 static
-INLINE
+inline
 void
 sse2
 float

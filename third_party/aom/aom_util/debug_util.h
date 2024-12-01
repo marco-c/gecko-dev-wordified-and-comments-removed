@@ -40,7 +40,7 @@ frame_idx
 )
 ;
 int
-aom_bitstream_queue_get_frame_writee
+aom_bitstream_queue_get_frame_write
 (
 void
 )

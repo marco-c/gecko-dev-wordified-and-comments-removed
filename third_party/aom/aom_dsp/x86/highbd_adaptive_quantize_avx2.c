@@ -44,7 +44,7 @@ quantize_x86
 h
 "
 static
-INLINE
+inline
 void
 highbd_load_b_values_avx2
 (
@@ -180,7 +180,7 @@ shift_ptr
 ;
 }
 static
-INLINE
+inline
 void
 highbd_update_mask1_avx2
 (
@@ -257,7 +257,7 @@ mask
 ;
 }
 static
-INLINE
+inline
 void
 highbd_update_mask0_avx2
 (
@@ -365,7 +365,7 @@ mask
 ;
 }
 static
-INLINE
+inline
 void
 highbd_mul_shift_avx2
 (
@@ -461,7 +461,7 @@ prod_hi
 ;
 }
 static
-INLINE
+inline
 void
 highbd_calculate_qcoeff_avx2
 (
@@ -532,7 +532,7 @@ log_scale
 ;
 }
 static
-INLINE
+inline
 __m256i
 highbd_calculate_dqcoeff_avx2
 (
@@ -551,7 +551,7 @@ dequant
 ;
 }
 static
-INLINE
+inline
 __m256i
 highbd_calculate_dqcoeff_log_scale_avx2
 (
@@ -592,7 +592,7 @@ qcoeff
 ;
 }
 static
-INLINE
+inline
 void
 highbd_store_coefficients_avx2
 (

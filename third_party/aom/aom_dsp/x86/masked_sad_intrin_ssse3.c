@@ -71,7 +71,7 @@ masked_sad_intrin_ssse3
 h
 "
 static
-INLINE
+inline
 unsigned
 int
 masked_sad_ssse3
@@ -454,6 +454,10 @@ MASKSAD4XN_SSSE3
 (
 4
 )
+#
+if
+!
+CONFIG_REALTIME_ONLY
 MASKSAD4XN_SSSE3
 (
 16
@@ -482,8 +486,10 @@ MASKSADMXN_SSSE3
 64
 16
 )
+#
+endif
 static
-INLINE
+inline
 unsigned
 int
 masked_sad_ssse3
@@ -1464,8 +1470,11 @@ res
 )
 ;
 }
+#
+if
+CONFIG_AV1_HIGHBITDEPTH
 static
-INLINE
+inline
 unsigned
 int
 highbd_masked_sad_ssse3
@@ -1765,6 +1774,10 @@ HIGHBD_MASKSAD4XN_SSSE3
 (
 4
 )
+#
+if
+!
+CONFIG_REALTIME_ONLY
 HIGHBD_MASKSAD4XN_SSSE3
 (
 16
@@ -1794,8 +1807,10 @@ HIGHBD_MASKSADMXN_SSSE3
 64
 16
 )
+#
+endif
 static
-INLINE
+inline
 unsigned
 int
 highbd_masked_sad_ssse3
@@ -2637,3 +2652,5 @@ return
 sad
 ;
 }
+#
+endif

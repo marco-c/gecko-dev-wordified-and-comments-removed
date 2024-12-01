@@ -34,7 +34,7 @@ aom_codec_iface_t
 aom_codec_av1_inspect_algo
 ;
 static
-AOM_INLINE
+inline
 void
 yuvconfig2image
 (
@@ -551,7 +551,7 @@ NULL
 ;
 }
 static
-AOM_INLINE
+inline
 aom_codec_err_t
 image2yuvconfig
 (

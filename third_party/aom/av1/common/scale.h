@@ -76,7 +76,7 @@ y_step_q4
 }
 ;
 static
-INLINE
+inline
 int
 av1_scaled_x
 (
@@ -148,7 +148,7 @@ SCALE_EXTRA_BITS
 ;
 }
 static
-INLINE
+inline
 int
 av1_scaled_y
 (
@@ -220,7 +220,7 @@ SCALE_EXTRA_BITS
 ;
 }
 static
-INLINE
+inline
 int
 av1_unscaled_value
 (
@@ -285,7 +285,7 @@ this_h
 )
 ;
 static
-INLINE
+inline
 int
 av1_is_valid_scale
 (
@@ -324,7 +324,7 @@ REF_INVALID_SCALE
 ;
 }
 static
-INLINE
+inline
 int
 av1_is_scaled
 (
@@ -371,7 +371,7 @@ REF_NO_SCALE
 ;
 }
 static
-INLINE
+inline
 int
 valid_ref_frame_size
 (

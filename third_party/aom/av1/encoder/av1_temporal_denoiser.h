@@ -318,7 +318,7 @@ border
 if
 CONFIG_AV1_TEMPORAL_DENOISING
 static
-INLINE
+inline
 int
 total_adj_strong_thresh
 (

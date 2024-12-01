@@ -33,7 +33,7 @@ aom_dsp_common
 h
 "
 static
-INLINE
+inline
 void
 write_zero
 (
@@ -74,7 +74,7 @@ zero
 ;
 }
 static
-INLINE
+inline
 void
 init_one_qp
 (
@@ -115,7 +115,7 @@ ac
 ;
 }
 static
-INLINE
+inline
 void
 init_qp
 (
@@ -310,7 +310,7 @@ _mm256_set1_epi16
 ;
 }
 static
-INLINE
+inline
 void
 update_qp
 (
@@ -390,7 +390,7 @@ thr
 ;
 }
 static
-INLINE
+inline
 __m256i
 load_coefficients_avx2
 (
@@ -439,7 +439,7 @@ coeff2
 ;
 }
 static
-INLINE
+inline
 void
 store_coefficients_avx2
 (
@@ -503,7 +503,7 @@ coeff_vals_hi
 ;
 }
 static
-INLINE
+inline
 uint16_t
 quant_gather_eob
 (
@@ -568,7 +568,7 @@ eob_s
 ;
 }
 static
-INLINE
+inline
 int16_t
 accumulate_eob256
 (
@@ -2081,7 +2081,7 @@ eob
 ;
 }
 static
-INLINE
+inline
 void
 quantize_fp_64x64
 (

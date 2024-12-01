@@ -26,7 +26,7 @@ C
 #
 endif
 static
-INLINE
+inline
 int32_t
 clamp_value
 (
@@ -92,7 +92,7 @@ max_value
 ;
 }
 static
-INLINE
+inline
 void
 clamp_buf
 (

@@ -219,7 +219,7 @@ NULL
 }
 ;
 static
-INLINE
+inline
 void
 lowbd_add_flip_buffer_8xn_neon
 (
@@ -326,7 +326,7 @@ stride
 }
 }
 static
-INLINE
+inline
 uint8x16_t
 lowbd_get_recon_16x16_neon
 (
@@ -433,7 +433,7 @@ temp_output_8q
 ;
 }
 static
-INLINE
+inline
 void
 lowbd_add_flip_buffer_16xn_neon
 (
@@ -541,7 +541,7 @@ temp_output_8q
 }
 }
 static
-INLINE
+inline
 void
 lowbd_inv_txfm2d_memset_neon
 (
@@ -586,7 +586,7 @@ value
 }
 }
 static
-INLINE
+inline
 void
 btf_16_lane_0_1_neon
 (
@@ -851,7 +851,7 @@ v1
 ;
 }
 static
-INLINE
+inline
 void
 btf_16_lane_1_0_neon
 (
@@ -1116,7 +1116,7 @@ v1
 ;
 }
 static
-INLINE
+inline
 void
 btf_16_lane_2_3_neon
 (
@@ -1381,7 +1381,7 @@ v1
 ;
 }
 static
-INLINE
+inline
 void
 btf_16_neon
 (
@@ -1536,7 +1536,7 @@ v1
 ;
 }
 static
-INLINE
+inline
 void
 btf_16_lane_3_2_neon
 (
@@ -1801,7 +1801,7 @@ v1
 ;
 }
 static
-INLINE
+inline
 void
 btf_16_half_neon
 (
@@ -2038,7 +2038,7 @@ v1
 ;
 }
 static
-INLINE
+inline
 int16x4_t
 set_s16x4_neon
 (
@@ -2096,7 +2096,7 @@ val
 ;
 }
 static
-INLINE
+inline
 void
 iadst8_neon
 (
@@ -2741,7 +2741,7 @@ x
 ;
 }
 static
-INLINE
+inline
 void
 iadst8_low1_neon
 (
@@ -3070,7 +3070,7 @@ x
 ;
 }
 static
-INLINE
+inline
 void
 idct8_neon
 (
@@ -3565,7 +3565,7 @@ step2
 ;
 }
 static
-INLINE
+inline
 void
 idct8_low1_neon
 (
@@ -3801,7 +3801,7 @@ dup_bits_n_16x8
 }
 }
 static
-INLINE
+inline
 void
 flip_buf_ud_neon
 (
@@ -3878,7 +3878,7 @@ i
 }
 }
 static
-INLINE
+inline
 void
 load_buffer_32bit_to_16bit_neon
 (
@@ -3945,6 +3945,7 @@ stride
 }
 }
 static
+const
 int16_t
 sqrt_2_list
 [
@@ -3968,7 +3969,7 @@ TX_SIZES
 }
 ;
 static
-INLINE
+inline
 void
 identity_txfm_round_neon
 (
@@ -4118,7 +4119,7 @@ high_i16
 }
 }
 static
-INLINE
+inline
 void
 round_shift_for_rect
 (
@@ -4226,7 +4227,7 @@ high
 }
 }
 static
-INLINE
+inline
 void
 idct16_low1_neon
 (
@@ -4435,7 +4436,7 @@ step1
 ;
 }
 static
-INLINE
+inline
 void
 idct16_neon
 (
@@ -5998,7 +5999,7 @@ step2
 ;
 }
 static
-INLINE
+inline
 void
 idct16_low8_neon
 (
@@ -7420,7 +7421,7 @@ step2
 ;
 }
 static
-INLINE
+inline
 void
 iadst16_neon
 (
@@ -9127,7 +9128,7 @@ x
 ;
 }
 static
-INLINE
+inline
 void
 iadst16_low1_neon
 (
@@ -9840,7 +9841,7 @@ x
 ;
 }
 static
-INLINE
+inline
 void
 iadst16_low8_neon
 (
@@ -11351,7 +11352,7 @@ x
 ;
 }
 static
-INLINE
+inline
 void
 idct32_neon
 (
@@ -15326,7 +15327,7 @@ step2
 ;
 }
 static
-INLINE
+inline
 void
 idct32_low1_neon
 (
@@ -15647,7 +15648,7 @@ step1
 ;
 }
 static
-INLINE
+inline
 void
 idct32_low8_neon
 (
@@ -18857,7 +18858,7 @@ step2
 ;
 }
 static
-INLINE
+inline
 void
 idct32_low16_neon
 (
@@ -22576,7 +22577,7 @@ step2
 ;
 }
 static
-INLINE
+inline
 void
 idct64_stage9_neon
 (
@@ -23626,7 +23627,7 @@ step2
 ;
 }
 static
-INLINE
+inline
 void
 idct64_stage10_neon
 (
@@ -24576,7 +24577,7 @@ step1
 ;
 }
 static
-INLINE
+inline
 void
 idct64_low32_neon
 (
@@ -31780,7 +31781,7 @@ step2
 ;
 }
 static
-INLINE
+inline
 void
 idct64_low1_neon
 (
@@ -32325,7 +32326,7 @@ step1
 ;
 }
 static
-INLINE
+inline
 void
 idct64_low8_neon
 (
@@ -37065,7 +37066,7 @@ step2
 ;
 }
 static
-INLINE
+inline
 void
 idct64_low16_neon
 (
@@ -43364,7 +43365,7 @@ NULL
 }
 ;
 static
-INLINE
+inline
 void
 lowbd_inv_txfm2d_add_idtx_neon
 (
@@ -43796,7 +43797,7 @@ txfm_size_row
 }
 }
 static
-INLINE
+inline
 void
 lowbd_inv_txfm2d_add_v_identity_neon
 (
@@ -44326,7 +44327,7 @@ txfm_size_row
 }
 }
 static
-INLINE
+inline
 void
 lowbd_inv_txfm2d_add_h_identity_neon
 (
@@ -44790,7 +44791,7 @@ txfm_size_row
 }
 }
 static
-INLINE
+inline
 void
 lowbd_inv_txfm2d_add_4x4_neon
 (
@@ -47194,7 +47195,7 @@ r
 }
 }
 static
-INLINE
+inline
 void
 lowbd_inv_txfm2d_add_no_identity_neon
 (
@@ -47754,7 +47755,7 @@ txfm_size_row
 }
 }
 static
-INLINE
+inline
 void
 lowbd_inv_txfm2d_add_universe_neon
 (
@@ -47853,6 +47854,26 @@ break
 ;
 }
 }
+void
+av1_lowbd_inv_txfm2d_add_neon
+(
+const
+int32_t
+*
+input
+uint8_t
+*
+output
+int
+stride
+TX_TYPE
+tx_type
+TX_SIZE
+tx_size
+int
+eob
+)
+;
 void
 av1_lowbd_inv_txfm2d_add_neon
 (

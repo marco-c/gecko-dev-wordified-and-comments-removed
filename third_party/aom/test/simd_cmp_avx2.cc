@@ -23,5 +23,5 @@ test
 /
 simd_cmp_impl
 .
-h
+inc
 "

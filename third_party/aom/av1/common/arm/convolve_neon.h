@@ -54,7 +54,7 @@ filter
 h
 "
 static
-INLINE
+inline
 int32x4_t
 convolve12_4_2d_v
 (
@@ -245,7 +245,7 @@ sum
 ;
 }
 static
-INLINE
+inline
 uint8x8_t
 convolve12_8_2d_v
 (
@@ -667,7 +667,7 @@ res
 ;
 }
 static
-INLINE
+inline
 void
 convolve_2d_sr_vert_12tap_neon
 (
@@ -1342,7 +1342,7 @@ w
 }
 }
 static
-INLINE
+inline
 int16x4_t
 convolve8_4_2d_v
 (
@@ -1486,7 +1486,7 @@ ROUND0_BITS
 ;
 }
 static
-INLINE
+inline
 uint8x8_t
 convolve8_8_2d_v
 (
@@ -1789,7 +1789,7 @@ res
 ;
 }
 static
-INLINE
+inline
 void
 convolve_2d_sr_vert_8tap_neon
 (
@@ -2493,7 +2493,7 @@ w
 }
 }
 static
-INLINE
+inline
 int16x4_t
 convolve6_4_2d_v
 (
@@ -2611,7 +2611,7 @@ ROUND0_BITS
 ;
 }
 static
-INLINE
+inline
 uint8x8_t
 convolve6_8_2d_v
 (
@@ -2856,7 +2856,7 @@ res
 ;
 }
 static
-INLINE
+inline
 void
 convolve_2d_sr_vert_6tap_neon
 (
@@ -3496,7 +3496,7 @@ w
 }
 }
 static
-INLINE
+inline
 int16x4_t
 convolve4_4_2d_v
 (
@@ -3570,7 +3570,7 @@ ROUND0_BITS
 ;
 }
 static
-INLINE
+inline
 uint8x8_t
 convolve4_8_2d_v
 (
@@ -3739,7 +3739,7 @@ res
 ;
 }
 static
-INLINE
+inline
 void
 convolve_2d_sr_vert_4tap_neon
 (

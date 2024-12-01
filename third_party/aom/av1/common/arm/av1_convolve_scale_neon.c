@@ -113,7 +113,7 @@ filter
 h
 "
 static
-INLINE
+inline
 int16x4_t
 convolve8_4_h
 (
@@ -259,7 +259,7 @@ ROUND0_BITS
 ;
 }
 static
-INLINE
+inline
 int16x8_t
 convolve8_8_h
 (
@@ -407,7 +407,7 @@ ROUND0_BITS
 ;
 }
 static
-INLINE
+inline
 void
 convolve_horiz_scale_8tap_neon
 (
@@ -1229,7 +1229,7 @@ h
 }
 }
 static
-INLINE
+inline
 int16x4_t
 convolve6_4_h
 (
@@ -1349,7 +1349,7 @@ ROUND0_BITS
 ;
 }
 static
-INLINE
+inline
 int16x8_t
 convolve6_8_h
 (
@@ -1471,7 +1471,7 @@ ROUND0_BITS
 ;
 }
 static
-INLINE
+inline
 void
 convolve_horiz_scale_6tap_neon
 (
@@ -2239,7 +2239,7 @@ h
 }
 }
 static
-INLINE
+inline
 void
 convolve_horiz_scale_2_8tap_neon
 (
@@ -3267,7 +3267,7 @@ h
 }
 }
 static
-INLINE
+inline
 void
 convolve_horiz_scale_2_6tap_neon
 (

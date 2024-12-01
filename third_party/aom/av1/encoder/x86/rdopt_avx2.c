@@ -54,8 +54,8 @@ rdopt
 .
 h
 "
-INLINE
 static
+inline
 void
 horver_correlation_4x4
 (

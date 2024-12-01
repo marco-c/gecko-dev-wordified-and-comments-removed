@@ -49,16 +49,6 @@ h
 #
 include
 "
-third_party
-/
-googletest
-/
-src
-/
-googletest
-/
-include
-/
 gtest
 /
 gtest
@@ -1163,7 +1153,7 @@ TestFileName
 )
 {
 #
-if
+ifdef
 AOM_VALGRIND_BUILD
 return
 "
@@ -1190,7 +1180,7 @@ TestFileWidth
 )
 {
 #
-if
+ifdef
 AOM_VALGRIND_BUILD
 return
 176
@@ -1209,7 +1199,7 @@ TestFileHeight
 )
 {
 #
-if
+ifdef
 AOM_VALGRIND_BUILD
 return
 144

@@ -638,7 +638,7 @@ LoadMaskz2
 }
 ;
 static
-INLINE
+inline
 void
 transpose4x16_sse2
 (
@@ -994,7 +994,7 @@ d
 ;
 }
 static
-INLINE
+inline
 void
 transpose16x16_sse2
 (
